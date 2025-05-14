@@ -1,14 +1,16 @@
 ---
-title: ลบฟิลด์ฟอร์มเฉพาะจากเอกสาร PDF ใน Java
-linktitle: ลบฟิลด์ฟอร์มเฉพาะจากเอกสาร PDF ใน Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการลบฟิลด์ฟอร์มเฉพาะจากเอกสาร PDF ใน Java ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java มีคู่มือทีละขั้นตอนและโค้ดต้นฉบับให้
-weight: 13
-url: /th/java/pdf-form-fields/delete-particular-form-field-from-pdf-document-in-java/
+"description": "เรียนรู้วิธีการลบฟิลด์ฟอร์มเฉพาะจากเอกสาร PDF ใน Java ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java มีคู่มือทีละขั้นตอนและโค้ดต้นฉบับให้"
+"linktitle": "ลบฟิลด์ฟอร์มเฉพาะจากเอกสาร PDF ใน Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ลบฟิลด์ฟอร์มเฉพาะจากเอกสาร PDF ใน Java"
+"url": "/th/java/pdf-form-fields/delete-particular-form-field-from-pdf-document-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบฟิลด์ฟอร์มเฉพาะจากเอกสาร PDF ใน Java
@@ -23,7 +25,7 @@ url: /th/java/pdf-form-fields/delete-particular-form-field-from-pdf-document-in-
 ก่อนที่เราจะเจาะลึกรายละเอียดการใช้งาน เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
 
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) ที่คุณเลือก เช่น Eclipse หรือ IntelliJ IDEA
 
 ## ขั้นตอนที่ 1: การตั้งค่าโครงการของคุณ
@@ -32,7 +34,7 @@ url: /th/java/pdf-form-fields/delete-particular-form-field-from-pdf-document-in-
 
 ## ขั้นตอนที่ 2: การโหลดเอกสาร PDF
 
- ในขั้นตอนนี้ เราจะโหลดเอกสาร PDF ที่มีฟิลด์ฟอร์มที่เราต้องการลบ คุณควรแทนที่`"input.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
+ในขั้นตอนนี้ เราจะโหลดเอกสาร PDF ที่มีฟิลด์ฟอร์มที่เราต้องการลบ คุณควรแทนที่ `"input.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
 
 ```java
 // โหลดเอกสาร PDF
@@ -41,7 +43,7 @@ Document pdfDocument = new Document("input.pdf");
 
 ## ขั้นตอนที่ 3: การระบุฟิลด์แบบฟอร์ม
 
- ตอนนี้เราต้องระบุฟิลด์ฟอร์มเฉพาะที่คุณต้องการลบ คุณสามารถทำได้โดยใช้ชื่อฟิลด์นั้น แทนที่`"fieldName"` ด้วยชื่อจริงของฟิลด์ฟอร์มที่คุณต้องการลบ
+ตอนนี้เราต้องระบุฟิลด์ฟอร์มเฉพาะที่คุณต้องการลบ คุณสามารถทำได้โดยใช้ชื่อฟิลด์นั้น แทนที่ `"fieldName"` พร้อมชื่อจริงของฟิลด์ฟอร์มที่คุณต้องการลบ
 
 ```java
 // ระบุฟิลด์ฟอร์มตามชื่อ
@@ -73,13 +75,13 @@ pdfDocument.save("output.pdf");
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะค้นหาชื่อของฟิลด์ฟอร์มในเอกสาร PDF ได้อย่างไร
+### ฉันจะค้นหาชื่อของฟิลด์แบบฟอร์มในเอกสาร PDF ได้อย่างไร
 
 โดยทั่วไปแล้วคุณจะสามารถค้นหาชื่อของฟิลด์แบบฟอร์มได้โดยการตรวจสอบโครงสร้างเอกสาร PDF หรือโดยใช้ตัวแก้ไข PDF ที่ช่วยให้คุณสามารถดูคุณสมบัติของฟิลด์แบบฟอร์มได้
 
 ### มีข้อจำกัดใด ๆ ในการใช้ Aspose.PDF สำหรับ Java หรือไม่
 
-แม้ว่า Aspose.PDF สำหรับ Java จะเป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับ PDF แต่การทราบถึงข้อจำกัดด้านใบอนุญาตและการใช้งานก็ถือเป็นสิ่งสำคัญ ตรวจสอบข้อมูลล่าสุดได้จากเว็บไซต์ Aspose
+แม้ว่า Aspose.PDF สำหรับ Java จะเป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับ PDF แต่การทราบถึงข้อจำกัดด้านใบอนุญาตและการใช้งานก็เป็นสิ่งสำคัญ ตรวจสอบข้อมูลล่าสุดได้จากเว็บไซต์ Aspose
 
 ### ฉันสามารถลบช่องฟอร์มหลายรายการพร้อมกันได้ไหม
 
@@ -91,10 +93,12 @@ pdfDocument.save("output.pdf");
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมและแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์:[เอกสารอ้างอิง Aspose.PDF สำหรับ Java API](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมและแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์: [เอกสารอ้างอิง Aspose.PDF สำหรับ Java API](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-images/resize-images/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Resize Images In PDF File
@@ -169,6 +171,7 @@ You can find support on the Aspose forum [here](https://forum.aspose.com/c/pdf/1
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

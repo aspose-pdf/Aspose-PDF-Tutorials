@@ -1,14 +1,16 @@
 ---
-title: Memaksa Rendering Tabel di Halaman Baru dalam PDF menggunakan Java
-linktitle: Memaksa Rendering Tabel di Halaman Baru dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara memaksa tabel ditampilkan di halaman baru dalam PDF menggunakan Java dengan Aspose.PDF. Panduan langkah demi langkah ini mencakup kode sumber dan kiat ahli untuk pemformatan dokumen PDF yang tepat.
-weight: 11
-url: /id/java/pdf-tables/force-table-rendering-on-new-page-in-pdf-using-java/
+"description": "Pelajari cara memaksa tabel ditampilkan di halaman baru dalam PDF menggunakan Java dengan Aspose.PDF. Panduan langkah demi langkah ini mencakup kode sumber dan kiat ahli untuk pemformatan dokumen PDF yang tepat."
+"linktitle": "Memaksa Rendering Tabel di Halaman Baru dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Memaksa Rendering Tabel di Halaman Baru dalam PDF menggunakan Java"
+"url": "/id/java/pdf-tables/force-table-rendering-on-new-page-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memaksa Rendering Tabel di Halaman Baru dalam PDF menggunakan Java
@@ -38,7 +40,7 @@ Untuk mengimplementasikan force table rendering di Java, ikuti langkah-langkah b
 
 ### Langkah 1: Menyiapkan Proyek Java Anda
 
- Sebelum memulai, pastikan Anda telah mengintegrasikan Aspose.PDF untuk Java ke dalam proyek Anda. Anda dapat mengunduh pustaka dari[Di Sini](https://releases.aspose.com/pdf/java/).
+Sebelum memulai, pastikan Anda telah mengintegrasikan Aspose.PDF untuk Java ke dalam proyek Anda. Anda dapat mengunduh pustaka dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ### Langkah 2: Membuat Dokumen PDF
 
@@ -74,7 +76,7 @@ Cell cell2 = row.getCells().add("Column 2 Data");
 
 ### Langkah 5: Mengontrol Hentian Halaman
 
- Untuk memaksa tabel ditampilkan pada halaman baru, Anda dapat mengontrol jeda halaman menggunakan`IsInNewPage` milik.
+Untuk memaksa tabel ditampilkan pada halaman baru, Anda dapat mengontrol jeda halaman menggunakan `IsInNewPage` milik.
 
 ```java
 // Paksa tabel untuk memulai di halaman baru
@@ -92,7 +94,7 @@ pdfDocument.save("output.pdf");
 
 ## Menambahkan Data ke Tabel PDF
 
-Sekarang setelah kita menerapkan fitur rendering tabel paksa, Anda dapat menambahkan data ke tabel PDF. Pastikan bahwa struktur tabel dan data terorganisasi dengan tepat.
+Sekarang setelah kita menerapkan fitur force table rendering, Anda dapat menambahkan data ke tabel PDF. Pastikan bahwa struktur tabel dan data terorganisasi dengan baik.
 
 ## Menata Meja
 
@@ -111,7 +113,7 @@ Dalam artikel ini, kita mempelajari cara memaksa tabel ditampilkan di halaman ba
 ### Bagaimana cara menambahkan Aspose.PDF untuk Java ke proyek saya?
 
 Untuk menambahkan Aspose.PDF untuk Java ke proyek Anda, ikuti langkah-langkah berikut:
-1.  Unduh perpustakaan dari[Di Sini](https://releases.aspose.com/pdf/java/).
+1. Unduh perpustakaan dari [Di Sini](https://releases.aspose.com/pdf/java/).
 2. Tambahkan file JAR ke classpath proyek Anda.
 3. Anda siap menggunakan Aspose.PDF dalam proyek Java Anda.
 
@@ -129,10 +131,12 @@ Ya, Aspose.PDF untuk Java cocok untuk pembuatan PDF skala besar dan menawarkan f
 
 ### Bisakah saya memaksakan jeda halaman pada titik tertentu dalam dokumen PDF?
 
- Ya, Anda dapat memaksa jeda halaman pada titik tertentu dalam dokumen PDF dengan memanipulasi`IsInNewPage` properti seperti yang ditunjukkan dalam artikel ini.
+Ya, Anda dapat memaksa jeda halaman pada titik tertentu dalam dokumen PDF dengan memanipulasi `IsInNewPage` properti seperti yang ditunjukkan dalam artikel ini.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

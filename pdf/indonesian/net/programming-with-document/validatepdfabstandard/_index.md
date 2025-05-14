@@ -1,14 +1,16 @@
 ---
-title: Validasi PDF AB Standar
-linktitle: Validasi PDF AB Standar
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memvalidasi PDF untuk standar PDF/A-1b menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Pastikan kepatuhan untuk pengarsipan jangka panjang.
-weight: 380
-url: /id/net/programming-with-document/validatepdfabstandard/
+"description": "Pelajari cara memvalidasi PDF untuk standar PDF/A-1b menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Pastikan kepatuhan untuk pengarsipan jangka panjang."
+"linktitle": "Validasi PDF AB Standar"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Validasi PDF AB Standar"
+"url": "/id/net/programming-with-document/validatepdfabstandard/"
+"weight": 380
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validasi PDF AB Standar
@@ -24,9 +26,9 @@ Dengan menggunakan Aspose.PDF untuk .NET, memvalidasi PDF untuk kepatuhan PDF/A 
 
 Sebelum kita masuk ke kode, pastikan Anda memiliki semua yang perlu diikuti:
 
--  Aspose.PDF untuk .NET: Anda memerlukan versi terbaru. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Anda memerlukan versi terbaru. Anda dapat mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
 - Lingkungan .NET: Pastikan Anda memiliki lingkungan pengembangan .NET yang berfungsi seperti Visual Studio.
--  Lisensi: Untuk fungsionalitas penuh, Anda memerlukan lisensi Aspose. Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/)untuk evaluasi atau[beli satu disini](https://purchase.aspose.com/buy).
+- Lisensi: Untuk fungsionalitas penuh, Anda memerlukan lisensi Aspose. Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi atau [beli satu disini](https://purchase.aspose.com/buy).
 
 Setelah Anda menyiapkan semua prasyarat, Anda siap mengikuti langkah-langkah dalam tutorial ini.
 
@@ -52,7 +54,7 @@ Hal pertama yang harus dilakukan: Anda perlu memberi tahu kode di mana menemukan
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pada baris ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Jalur ini akan digunakan di seluruh kode untuk mengakses PDF yang ingin Anda validasi.
+Pada baris ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Jalur ini akan digunakan di seluruh kode untuk mengakses PDF yang ingin Anda validasi.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -62,7 +64,7 @@ Sekarang setelah kita tahu di mana PDF itu berada, mari kita buka. Aspose.PDF me
 Document pdfDocument = new Document(dataDir + "ValidatePDFAStandard.pdf");
 ```
 
- Di sini,`Document`class digunakan untuk membuka berkas PDF. Pastikan berkas Anda berada di lokasi yang benar, dan berkas akan dimuat ke dalam memori, siap untuk divalidasi.
+Di sini, `Document` class digunakan untuk membuka berkas PDF. Pastikan berkas Anda berada di lokasi yang benar, dan berkas akan dimuat ke dalam memori, siap untuk divalidasi.
 
 ## Langkah 3: Validasi PDF terhadap Standar PDF/A
 
@@ -73,7 +75,7 @@ pdfDocument.Validate(dataDir + "validation-result-A1A.xml", PdfFormat.PDF_A_1B);
 ```
 
 Mari kita uraikannya:
--  Itu`Validate` metode ini menggunakan dua parameter. Yang pertama adalah jalur tempat hasil validasi akan disimpan. Yang kedua adalah format PDF/A yang akan Anda validasi—dalam kasus ini,`PDF_A_1B`.
+- Itu `Validate` metode ini menggunakan dua parameter. Yang pertama adalah jalur tempat hasil validasi akan disimpan. Yang kedua adalah format PDF/A yang akan Anda validasi—dalam kasus ini, `PDF_A_1B`.
 - Hasilnya akan disimpan dalam berkas XML, merinci apakah dokumen tersebut lolos validasi dan apakah ada masalah.
 
 ## Langkah 4: Menangani Hasil Validasi
@@ -100,13 +102,15 @@ Ya! Aspose.PDF mendukung validasi untuk berbagai standar PDF/A, termasuk PDF/A-1
 Hasil validasi disimpan dalam file XML, yang dapat Anda buka dengan editor teks atau XML apa pun untuk meninjau kesalahan, peringatan, atau pesan keberhasilan.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF untuk validasi PDF/A?
- Ya, Anda memerlukan lisensi untuk membuka potensi penuh Aspose.PDF. Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau membeli lisensi penuh[Di Sini](https://purchase.aspose.com/buy).
+Ya, Anda memerlukan lisensi untuk membuka potensi penuh Aspose.PDF. Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau membeli lisensi penuh [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana jika PDF saya tidak lolos validasi PDF/A?
 Jika PDF Anda gagal divalidasi, berkas hasil XML akan memberikan rincian tentang masalah tertentu. Anda kemudian dapat memodifikasi dokumen tersebut dengan menggunakan fitur penyuntingan Aspose.PDF yang canggih.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-document/setxmpmetadata/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set XMPMetadata In PDF File
@@ -128,6 +130,7 @@ If the PDF is encrypted, you’ll need to decrypt it first before modifying the 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

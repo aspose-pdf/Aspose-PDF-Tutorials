@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına Java Script Ekle
-linktitle: Java Script PDF Dosyası Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyasına JavaScript eklemeyi öğrenin. Belge ve sayfa düzeyinde komut dosyası oluşturma için kod eğitimleriyle adım adım kılavuz.
-weight: 10
-url: /tr/net/programming-with-document/addjavascripttopage/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyasına JavaScript eklemeyi öğrenin. Belge ve sayfa düzeyinde komut dosyası oluşturma için kod eğitimleriyle adım adım kılavuz."
+"linktitle": "Java Script PDF Dosyası Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Java Script Ekle"
+"url": "/tr/net/programming-with-document/addjavascripttopage/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Java Script Ekle
@@ -21,10 +23,10 @@ PDF'lerinizi açılır uyarılar veya otomatik yazdırma işlevleri gibi etkile�
 
 Kodlama kısmına geçmeden önce, ayarlamanız gereken birkaç şey var:
 
--  .NET için Aspose.PDF: Kütüphaneyi şu adresten indirin:[Aspose Sürümleri](https://releases.aspose.com/pdf/net/) veya bir tane al[ücretsiz deneme](https://releases.aspose.com/).
+- .NET için Aspose.PDF: Kütüphaneyi şu adresten indirin: [Aspose Sürümleri](https://releases.aspose.com/pdf/net/) veya bir tane al [ücretsiz deneme](https://releases.aspose.com/).
 - Geliştirme Ortamı: Visual Studio gibi herhangi bir .NET uyumlu IDE.
 - Temel C# Bilgisi: Bu kılavuz, temel C# sözdizimine aşina olduğunuzu varsayar.
--  Geçici Lisans (İsteğe bağlı): Bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Gelişiminiz sırasında sınırlamalardan kaçınmak istiyorsanız.
+- Geçici Lisans (İsteğe bağlı): Bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Gelişiminiz sırasında sınırlamalardan kaçınmak istiyorsanız.
 
 ## Paketleri İçe Aktar
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Bu kod parçacığında şunu kullanıyoruz:`Document` belirtilen dizinden mevcut bir PDF dosyasını yüklemek için sınıf. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın gerçek yolunu belirtin.
+Bu kod parçacığında şunu kullanıyoruz: `Document` belirtilen dizinden mevcut bir PDF dosyasını yüklemek için sınıf. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın gerçek yolunu belirtin.
 
 ## Adım 2: Belge Düzeyinde JavaScript Ekleyin
 
@@ -66,14 +68,14 @@ Belge düzeyindeki JavaScript, tüm PDF'e uygulamak istediğiniz eylemler için 
 
 ```csharp
 // Belge Düzeyinde JavaScript Ekleme
-// JavascriptAction'ı istenen JavaScript ifadesiyle örneklendirin
+// İstenilen JavaScript ifadesiyle JavascriptAction'ı örneklendirin
 JavascriptAction javaScript = new JavascriptAction("this.print({bUI:true,bSilent:false,bShrinkToFit:true});");
 
 // JavascriptAction nesnesini Belgenin OpenAction'ına atayın
 doc.OpenAction = javaScript;
 ```
 
- Bu adımda bir tane oluşturuyoruz`JavascriptAction` Belge açıldığında yazdırma iletişim kutusunu açmak için bir JavaScript işlevi tanımlayan nesne.`doc.OpenAction` Daha sonra özelliğe bu JavaScript eylemi atanır.
+Bu adımda bir tane oluşturuyoruz `JavascriptAction` Belge açıldığında yazdırma iletişim kutusunu açmak için bir JavaScript işlevi tanımlayan nesne. `doc.OpenAction` Daha sonra özelliğe bu JavaScript eylemi atanır.
 
 ## Adım 3: Sayfa Düzeyinde JavaScript Ekleyin
 
@@ -81,7 +83,7 @@ Her eylemin tüm belgeyi etkilemesi gerekmez. Bazen, belirli sayfalar açıldı�
 
 Sayfa düzeyinde JavaScript, hedeflenen etkileşimler için kullanışlıdır. Bir kullanıcı bir sayfaya gittiğinde bir mesaj görüntülemekten, form alanlarını otomatik doldurma gibi özel eylemlere kadar her şey olabilir.
 
-Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+İşte bunu nasıl yapacağınız:
 
 ```csharp
 // Sayfa Düzeyinde JavaScript Ekleme
@@ -89,7 +91,7 @@ doc.Pages[2].Actions.OnOpen = new JavascriptAction("app.alert('Page 2 opened')")
 doc.Pages[2].Actions.OnClose = new JavascriptAction("app.alert('Page 2 closed')");
 ```
 
-Bu kod parçacığına iki JavaScript eylemi ekliyoruz:
+Bu kod parçacığında iki JavaScript eylemi ekliyoruz:
 1. OnOpen Eylemi: Kullanıcı 2. sayfayı açtığında “2. sayfa açıldı” uyarısını görüntüler.
 2. OnClose Eylemi: Kullanıcı 2. sayfadan ayrıldığında “Sayfa 2 kapatıldı” uyarısını görüntüler.
 
@@ -111,7 +113,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nJavaScript added successfully to the PDF.\nFile saved at " + dataDir);
 ```
 
- Bu kod parçacığında, eklenen JavaScript ile güncellenen belgeyi yeni bir dosyaya kaydediyoruz.`"JavaScript-Added_out.pdf"`Bu, orijinal dosyanızın üzerine yazmamanızı sağlar ve üzerinde çalışabileceğiniz bir yedek sunar.
+Bu kod parçacığında, eklenen JavaScript ile güncellenen belgeyi yeni bir dosyaya kaydediyoruz. `"JavaScript-Added_out.pdf"`Bu, orijinal dosyanızın üzerine yazmamanızı sağlar ve üzerinde çalışmanız için size bir yedek verir.
 
 ## Çözüm
 
@@ -123,7 +125,7 @@ Aspose.PDF for .NET kullanarak PDF dosyalarına JavaScript eklemek, etkileşimli
 Evet, farklı JavaScript eylemlerini tek tek sayfalara veya tüm belgeye atayabilirsiniz.
 
 ### PDF'e JavaScript eklendikten sonra JavaScript'i kaldırmak mümkün müdür?
-Evet, mevcut JavaScript eylemlerini temizleyerek kaldırabilir veya değiştirebilirsiniz.`Actions` Belgenin veya sayfanın özellikleri.
+Evet, mevcut JavaScript eylemlerini temizleyerek kaldırabilir veya değiştirebilirsiniz. `Actions` Belgenin veya sayfanın özellikleri.
 
 ### PDF'de hangi tür JavaScript fonksiyonlarını kullanabilirim?
 Yazdırma, uyarılar ve form düzenlemeleri gibi Adobe Acrobat'ın JavaScript motorunun desteklediği tüm JavaScript'leri kullanabilirsiniz.
@@ -131,11 +133,13 @@ Yazdırma, uyarılar ve form düzenlemeleri gibi Adobe Acrobat'ın JavaScript mo
 ### JavaScript tüm PDF görüntüleyicilerinde çalışır mı?
 Çoğu JavaScript eylemi, Adobe Acrobat gibi etkileşimli PDF'leri destekleyen PDF görüntüleyicilerinde çalışır. Ancak, bazı temel PDF okuyucuları JavaScript'i desteklemeyebilir.
 
-### PDF'deki kullanıcı girdisine bağlı olarak JavaScript eylemlerini tetikleyebilir miyim?
+### PDF'deki kullanıcı girdisine dayalı olarak JavaScript eylemlerini tetikleyebilir miyim?
 Evet, kullanıcı girdisine göre eylemleri tetiklemek için JavaScript'i form alanlarına bağlayabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

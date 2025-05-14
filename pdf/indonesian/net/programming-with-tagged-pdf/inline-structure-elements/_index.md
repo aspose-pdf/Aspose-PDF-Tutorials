@@ -1,21 +1,23 @@
 ---
-title: Elemen Struktur Inline
-linktitle: Elemen Struktur Inline
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Panduan langkah demi langkah untuk menggunakan elemen struktural daring dengan Aspose.PDF untuk .NET. Atur PDF Anda dengan judul dan paragraf.
-weight: 110
-url: /id/net/programming-with-tagged-pdf/inline-structure-elements/
+"description": "Panduan langkah demi langkah untuk menggunakan elemen struktural daring dengan Aspose.PDF untuk .NET. Atur PDF Anda dengan judul dan paragraf."
+"linktitle": "Elemen Struktur Inline"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Elemen Struktur Inline"
+"url": "/id/net/programming-with-tagged-pdf/inline-structure-elements/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elemen Struktur Inline
 
 ## Perkenalan
 
-Membuat dokumen yang mudah diakses dan terstruktur dengan baik sangat penting dalam lanskap digital saat ini. Jika Anda pernah mendapati diri Anda menggulir PDF dan tersesat di lautan teks, Anda tahu pentingnya pengorganisasian yang baik. Memberi tag pada elemen dalam PDF Anda dapat meningkatkan aksesibilitas, sehingga memudahkan pembaca layar untuk menginterpretasikan konten. Dalam panduan ini, kami akan membahas penggunaan Aspose.PDF for .NET untuk membuat dokumen PDF yang diberi tag, memastikan pekerjaan Anda memenuhi standar modern dalam penataan dokumen.
+Membuat dokumen yang mudah diakses dan terstruktur dengan baik sangat penting dalam lanskap digital saat ini. Jika Anda pernah mendapati diri Anda menggulir PDF dan tersesat di lautan teks, Anda tahu pentingnya pengorganisasian yang baik. Memberi tag pada elemen dalam PDF dapat meningkatkan aksesibilitas, sehingga memudahkan pembaca layar untuk menginterpretasikan konten. Dalam panduan ini, kami akan membahas penggunaan Aspose.PDF for .NET untuk membuat dokumen PDF yang diberi tag, memastikan pekerjaan Anda memenuhi standar modern dalam penataan dokumen.
 
 ## Prasyarat
 
@@ -23,8 +25,8 @@ Sebelum kita mulai beraksi, mari pastikan Anda memiliki semua yang perlu diikuti
 
 1. Pengetahuan Dasar C#: Kemampuan dalam pemrograman C# dan dasar-dasar kerangka .NET sangatlah penting.
 2. Visual Studio Terpasang: Anda memerlukan IDE seperti Visual Studio untuk menulis dan menjalankan kode Anda.
-3.  Aspose.PDF untuk .NET: Pastikan Anda mengunduh dan menginstal Aspose.PDF untuk .NET. Anda dapat mengunduhnya dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
-4. Lisensi Sementara: Ini opsional, tetapi jika Anda ingin mengevaluasi semua fitur tanpa batasan, pertimbangkan untuk memperoleh lisensi sementara.[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+3. Aspose.PDF untuk .NET: Pastikan Anda mengunduh dan menginstal Aspose.PDF untuk .NET. Anda dapat mengambilnya dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
+4. Lisensi Sementara: Ini opsional, tetapi jika Anda ingin mengevaluasi semua fitur tanpa batasan, pertimbangkan untuk memperoleh lisensi sementara. [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 Setelah Anda memiliki prasyarat ini, Anda siap membuat dokumen PDF bertag pertama Anda!
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ganti dengan jalur Anda yang sebe
 
 ### Langkah 2: Buat Contoh Dokumen PDF
 
- Selanjutnya, buatlah sebuah instance dari`Document` kelas, yang akan berfungsi sebagai wadah untuk konten PDF Anda.
+Selanjutnya, buatlah sebuah instance dari `Document` kelas, yang akan berfungsi sebagai wadah untuk konten PDF Anda.
 
 ```csharp
 Document document = new Document();
@@ -178,16 +180,18 @@ PDF yang diberi tag adalah PDF yang menyertakan informasi tentang struktur dokum
 Penandaan meningkatkan aksesibilitas, memungkinkan pembaca layar menafsirkan dokumen dengan jelas, sehingga memberikan pengalaman yang lebih baik bagi pengguna penyandang disabilitas.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Anda dapat mengevaluasi Aspose.PDF untuk .NET melalui[uji coba gratis](https://releases.aspose.com/).
+Ya, Anda dapat mengevaluasi Aspose.PDF untuk .NET melalui [uji coba gratis](https://releases.aspose.com/).
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Dukungan dapat diakses melalui[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Dukungan dapat diakses melalui [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana saya dapat membeli lisensi Aspose.PDF untuk .NET?
- Anda dapat membeli lisensi langsung dari[halaman pembelian](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi langsung dari [halaman pembelian](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

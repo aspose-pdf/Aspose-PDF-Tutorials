@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Çocuk Yer İşaretlerini Güncelle
-linktitle: PDF Dosyasındaki Çocuk Yer İşaretlerini Güncelle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarındaki alt yer imlerini nasıl güncelleyeceğinizi öğrenin. PDF gezinmenizi geliştirin.
-weight: 110
-url: /tr/net/programming-with-bookmarks/update-child-bookmarks/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarındaki alt yer imlerini nasıl güncelleyeceğinizi öğrenin. PDF gezinmenizi geliştirin."
+"linktitle": "PDF Dosyasındaki Çocuk Yer İşaretlerini Güncelle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Çocuk Yer İşaretlerini Güncelle"
+"url": "/tr/net/programming-with-bookmarks/update-child-bookmarks/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Çocuk Yer İşaretlerini Güncelle
@@ -22,7 +24,7 @@ Karmaşık bir yapıya sahip bir PDF belgesinde gezinirken, yer imlerinin günce
 Koda geçmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için başvurulacak IDE'dir.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -46,7 +48,7 @@ Artık ön koşullarımızı tamamladığımıza göre, alt yer imlerini güncel
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı gerçek yol ile. Bu adım çok önemlidir çünkü programınıza çalışmak istediğiniz PDF'i nerede bulacağını söyler.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı gerçek yol ile. Bu adım çok önemlidir çünkü programınıza çalışmak istediğiniz PDF'i nerede bulacağını söyler.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -56,11 +58,11 @@ Sonra, güncellemek istediğiniz yer imlerini içeren PDF belgesini açmamız ge
 Document pdfDocument = new Document(dataDir + "UpdateChildBookmarks.pdf");
 ```
 
- Bu kod satırı yeni bir`Document` PDF dosyanızı temsil eden nesne. Dosya adının dizininizdeki adla eşleştiğinden emin olun.
+Bu kod satırı yeni bir `Document` PDF dosyanızı temsil eden nesne. Dosya adının dizininizdeki adla eşleştiğinden emin olun.
 
 ## Adım 3: Yer İşareti Koleksiyonuna Erişim
 
- Artık belgeyi açtığımıza göre, yer imlerine erişme zamanı geldi. Bir PDF'deki yer imleri, şu şekilde adlandırılan bir koleksiyonda düzenlenir:`Outlines`İşte bunlara nasıl ulaşabileceğiniz:
+Artık belgeyi açtığımıza göre, yer imlerine erişme zamanı geldi. Bir PDF'deki yer imleri, şu şekilde adlandırılan bir koleksiyonda düzenlenir: `Outlines`İşte bunlara nasıl ulaşabileceğiniz:
 
 ```csharp
 OutlineItemCollection pdfOutline = pdfDocument.Outlines[1];
@@ -70,7 +72,7 @@ Bu satırda, koleksiyondaki ikinci yer işaretine (indeks 1) erişiyoruz. Unutma
 
 ## Adım 4: Çocuk Yer İmini Alın
 
-Ana yer işaretine sahip olduğunuzda, onun alt yer işaretlerine erişebilirsiniz. İkinci alt yer işaretini güncellemek istediğinizi varsayalım. Bunu şu şekilde yapabilirsiniz:
+Ana yer imine sahip olduğunuzda, onun alt yer imlerine erişebilirsiniz. İkinci alt yer imini güncellemek istediğinizi varsayalım. Bunu şu şekilde yapabilirsiniz:
 
 ```csharp
 OutlineItemCollection childOutline = pdfOutline[1];
@@ -78,7 +80,7 @@ OutlineItemCollection childOutline = pdfOutline[1];
 
 Bu satır, önceki adımda eriştiğimiz ana yer iminin ikinci çocuk yer imini alır.
 
-## Adım 5: Çocuk Yer İmi Özelliklerini Güncelleyin
+## Adım 5: Çocuk Yer İşareti Özelliklerini Güncelleyin
 
 Şimdi eğlenceli kısma geliyoruz! Çocuk yer iminin özelliklerini güncelleyebilirsiniz. Örneğin, başlığı değiştirelim ve kalın ve italik yapalım:
 
@@ -113,7 +115,7 @@ Bu basit mesaj, değişikliklerinizin doğru bir şekilde uygulandığına dair 
 
 ## Çözüm
 
-Ve işte oldu! Aspose.PDF for .NET kullanarak bir PDF dosyasındaki alt yer imlerini başarıyla güncellediniz. Sadece birkaç satır kodla PDF belgelerinizin gezinme deneyimini geliştirebilir, onları daha kullanıcı dostu ve düzenli hale getirebilirsiniz. İster kişisel bir proje ister profesyonel bir uygulama üzerinde çalışıyor olun, PDF düzenlemede ustalaşmak oyunun kurallarını değiştirebilir.
+İşte oldu! Aspose.PDF for .NET kullanarak bir PDF dosyasındaki alt yer imlerini başarıyla güncellediniz. Sadece birkaç satır kodla PDF belgelerinizin gezinme deneyimini geliştirebilir, onları daha kullanıcı dostu ve düzenli hale getirebilirsiniz. İster kişisel bir proje ister profesyonel bir uygulama üzerinde çalışıyor olun, PDF düzenlemede ustalaşmak oyunun kurallarını değiştirebilir.
 
 ## SSS
 
@@ -121,19 +123,21 @@ Ve işte oldu! Aspose.PDF for .NET kullanarak bir PDF dosyasındaki alt yer imle
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose özelliklerini keşfetmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose özelliklerini keşfetmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Aspose forumunu ziyaret ederek destek alabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose forumunu ziyaret ederek destek alabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
 
 ### Geçici lisans var mı?
- Evet, Aspose edinebileceğiniz geçici bir lisans sağlar[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, Aspose edinebileceğiniz geçici bir lisans sağlar [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.PDF for .NET'i nereden satın alabilirim?
- Aspose.PDF for .NET'i web sitelerinden satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.PDF for .NET'i web sitelerinden satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

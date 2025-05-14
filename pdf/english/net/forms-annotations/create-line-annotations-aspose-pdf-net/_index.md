@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ You've now learned how to create line annotations using Aspose.PDF for .NET. By 
 By following this comprehensive guide, you should be well-equipped to implement line annotations using Aspose.PDF for .NET in your projects.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

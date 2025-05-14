@@ -1,14 +1,16 @@
 ---
-title: รับคำเตือนสำหรับการแทนที่แบบอักษร
-linktitle: รับคำเตือนสำหรับการแทนที่แบบอักษร
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีใช้คุณลักษณะ GetWarningsForFontSubstitution ของ Aspose.PDF สำหรับ .NET เพื่อตรวจจับคำเตือนการแทนที่แบบอักษรเมื่อเปิดเอกสาร PDF
-weight: 190
-url: /th/net/programming-with-document/getwarningsforfontsubstitution/
+"description": "เรียนรู้วิธีใช้คุณลักษณะ GetWarningsForFontSubstitution ของ Aspose.PDF สำหรับ .NET เพื่อตรวจจับคำเตือนการแทนที่แบบอักษรเมื่อเปิดเอกสาร PDF"
+"linktitle": "รับคำเตือนสำหรับการแทนที่แบบอักษร"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "รับคำเตือนสำหรับการแทนที่แบบอักษร"
+"url": "/th/net/programming-with-document/getwarningsforfontsubstitution/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับคำเตือนสำหรับการแทนที่แบบอักษร
@@ -22,7 +24,7 @@ url: /th/net/programming-with-document/getwarningsforfontsubstitution/
 ก่อนที่จะเจาะลึกโค้ด มีบางสิ่งที่คุณต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่คือที่ที่คุณจะเขียนและรันโค้ด .NET
-2.  Aspose.PDF สำหรับ .NET: คุณต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 4. เอกสาร PDF: เตรียมเอกสาร PDF ตัวอย่างไว้เพื่อใช้ทดสอบการตรวจจับการแทนที่แบบอักษร
 
@@ -61,21 +63,21 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
- ต่อไปคุณจะเปิดเอกสาร PDF โดยใช้`Document` คลาสที่จัดทำโดย Aspose.PDF
+ต่อไปคุณจะเปิดเอกสาร PDF โดยใช้ `Document` คลาสที่จัดทำโดย Aspose.PDF
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- บรรทัดโค้ดนี้จะเริ่มต้นสิ่งใหม่`Document` วัตถุกับไฟล์ PDF ของคุณ
+บรรทัดโค้ดนี้จะเริ่มต้นสิ่งใหม่ `Document` วัตถุกับไฟล์ PDF ของคุณ
 
 ## ขั้นตอนที่ 3: ตั้งค่าการตรวจจับการแทนที่แบบอักษร
 
- ตอนนี้ถึงเวลาตั้งค่าตัวจัดการเหตุการณ์ที่จะตรวจจับคำเตือนการแทนที่แบบอักษร คุณจะต้องสมัครใช้งาน`FontSubstitution` เหตุการณ์ของ`Document` ระดับ.
+ตอนนี้ถึงเวลาตั้งค่าตัวจัดการเหตุการณ์ที่จะตรวจจับคำเตือนการแทนที่แบบอักษร คุณจะต้องสมัครใช้งาน `FontSubstitution` เหตุการณ์ของ `Document` ระดับ.
 
 ```csharp
 doc.FontSubstitution += new Document.FontSubstitutionHandler(OnFontSubstitution);
@@ -106,7 +108,7 @@ private void OnFontSubstitution(object sender, Document.FontSubstitutionEventArg
 
 ## คำถามที่พบบ่อย
 
-### การแทนที่ฟอนต์คืออะไร
+### การแทนที่แบบอักษรคืออะไร
 การแทนที่แบบอักษรจะเกิดขึ้นเมื่อแบบอักษรต้นฉบับที่ใช้ในเอกสารไม่สามารถใช้งานได้ และมีการใช้แบบอักษรอื่นแทน
 
 ### ฉันจะป้องกันการแทนที่แบบอักษรได้อย่างไร
@@ -116,13 +118,15 @@ private void OnFontSubstitution(object sender, Document.FontSubstitutionEventArg
 ใช่ Aspose.PDF มีการทดลองใช้ฟรีซึ่งคุณสามารถใช้เพื่อทดสอบคุณสมบัติของมันได้
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารรายละเอียดเกี่ยวกับ Aspose.PDF สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ที่ Aspose.PDF สำหรับ .NET [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถรับการสนับสนุนได้โดยการเยี่ยมชม[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10).
+คุณสามารถรับการสนับสนุนได้โดยการเยี่ยมชม [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

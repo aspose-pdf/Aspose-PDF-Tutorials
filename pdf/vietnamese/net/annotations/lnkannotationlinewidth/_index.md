@@ -1,14 +1,16 @@
 ---
-title: Chiều rộng dòng chú thích lnk
-linktitle: Chiều rộng dòng chú thích lnk
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thiết lập độ rộng dòng chú thích mực trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn chi tiết này hướng dẫn bạn từng bước, đảm bảo đầu ra chất lượng cao.
-weight: 110
-url: /vi/net/annotations/lnkannotationlinewidth/
+"description": "Tìm hiểu cách thiết lập độ rộng dòng chú thích mực trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn chi tiết này hướng dẫn bạn từng bước, đảm bảo đầu ra chất lượng cao."
+"linktitle": "Chiều rộng dòng chú thích lnk"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Chiều rộng dòng chú thích lnk"
+"url": "/vi/net/annotations/lnkannotationlinewidth/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chiều rộng dòng chú thích lnk
@@ -21,9 +23,9 @@ Khi làm việc với các tài liệu PDF, việc thêm chú thích có thể l
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn đã thiết lập mọi thứ để thực hiện theo hướng dẫn này một cách suôn sẻ:
 
-1.  Aspose.PDF cho .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống từ[trang tải xuống](https://releases.aspose.com/pdf/net/) hoặc cài đặt thông qua NuGet Package Manager trong Visual Studio.
+1. Aspose.PDF cho .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống từ [trang tải xuống](https://releases.aspose.com/pdf/net/) hoặc cài đặt thông qua NuGet Package Manager trong Visual Studio.
 2. Môi trường phát triển: Hướng dẫn này giả định rằng bạn đang làm việc trong môi trường phát triển .NET như Visual Studio.
-3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn theo dõi các bước viết mã.
+3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn theo dõi các bước lập trình.
 4. Tài liệu PDF: Sử dụng tài liệu PDF hiện có hoặc tạo tài liệu mới cho hướng dẫn này.
 
 ## Nhập các không gian tên cần thiết
@@ -55,7 +57,7 @@ Document doc = new Document();
 doc.Pages.Add(); // Thêm một trang trống vào tài liệu
 ```
 
- Ở đây, chúng ta đang khởi tạo một cái mới`Document` đối tượng, đại diện cho tệp PDF của chúng tôi. Sau đó, chúng tôi thêm một trang trống vào tài liệu này để làm việc.
+Ở đây, chúng ta đang khởi tạo một cái mới `Document` đối tượng, đại diện cho tệp PDF của chúng tôi. Sau đó, chúng tôi thêm một trang trống vào tài liệu này để làm việc.
 
 ## Bước 2: Tạo chú thích mực
 
@@ -71,7 +73,7 @@ lineInfo.LineColor = Color.Red;
 lineInfo.LineWidth = 2;
 ```
 
- Trong bước này, chúng tôi xác định`LineInfo` đối tượng, chứa tọa độ của các nét mực, khả năng hiển thị, màu sắc và độ rộng ban đầu của nét mực.`VerticeCoordinate` mảng chứa tọa độ X và Y của mỗi điểm trong nét vẽ.
+Trong bước này, chúng tôi xác định `LineInfo` đối tượng, chứa tọa độ của các nét mực, khả năng hiển thị, màu sắc và độ rộng ban đầu của nét mực. `VerticeCoordinate` mảng chứa tọa độ X và Y của mỗi điểm trong nét vẽ.
 
 ## Bước 3: Chuyển đổi tọa độ thành điểm
 
@@ -89,7 +91,7 @@ for (int i = 0; i < length; i++)
 inkList.Add(gesture);
 ```
 
- Vòng lặp này xử lý mảng tọa độ, chuyển đổi từng cặp tọa độ thành một`Point` đối tượng, sau đó được thêm vào`inkList`.
+Vòng lặp này xử lý mảng tọa độ, chuyển đổi từng cặp tọa độ thành một `Point` đối tượng, sau đó được thêm vào `inkList`.
 
 ## Bước 4: Thêm chú thích mực vào trang PDF
 
@@ -103,7 +105,7 @@ a1.Title = "Title";
 a1.Color = Aspose.Pdf.Color.FromRgb(Color.Green);
 ```
 
- Trong bước này, chúng tôi khởi tạo một`InkAnnotation`đối tượng, chỉ định trang, hình chữ nhật giới hạn và danh sách các điểm của chúng tôi. Chúng tôi cũng đặt chủ đề, tiêu đề và màu sắc của chú thích.
+Trong bước này, chúng tôi khởi tạo một `InkAnnotation` đối tượng, chỉ định trang, hình chữ nhật giới hạn và danh sách các điểm của chúng tôi. Chúng tôi cũng đặt chủ đề, tiêu đề và màu sắc của chú thích.
 
 ## Bước 5: Tùy chỉnh đường viền chú thích
 
@@ -119,7 +121,7 @@ border.Style = BorderStyle.Solid;
 doc.Pages[1].Annotations.Add(a1);
 ```
 
- Ở đây, chúng tôi tạo ra một`Border` đối tượng cho chú thích của chúng tôi, thiết lập chiều rộng, hiệu ứng, mẫu gạch ngang và kiểu dáng của nó. Bước này đảm bảo rằng chú thích nổi bật về mặt hình ảnh trên trang PDF.
+Ở đây, chúng tôi tạo ra một `Border` đối tượng cho chú thích của chúng tôi, thiết lập chiều rộng, hiệu ứng, mẫu gạch ngang và kiểu dáng của nó. Bước này đảm bảo rằng chú thích nổi bật về mặt hình ảnh trên trang PDF.
 
 ## Bước 6: Lưu tài liệu PDF
 
@@ -132,7 +134,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nInk annotation line width setup successfully.\nFile saved at " + dataDir);
 ```
 
- Mã này lưu tài liệu PDF đã sửa đổi với chú thích mực trong thư mục được chỉ định.`Console.WriteLine` câu lệnh xác nhận việc thực thi mã thành công.
+Mã này lưu tài liệu PDF đã sửa đổi với chú thích mực trong thư mục được chỉ định. `Console.WriteLine` câu lệnh xác nhận việc thực thi mã thành công.
 
 ## Phần kết luận
 
@@ -141,22 +143,24 @@ Xin chúc mừng! Bạn đã tạo và tùy chỉnh thành công chú thích m�
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng các màu khác nhau cho các phần chú thích bằng mực khác nhau không?  
- Có, bạn có thể tạo nhiều`InkAnnotation` các đối tượng có màu sắc khác nhau và thêm chúng vào cùng một trang hoặc các trang khác nhau trong tệp PDF của bạn.
+Có, bạn có thể tạo nhiều `InkAnnotation` các đối tượng có màu sắc khác nhau và thêm chúng vào cùng một trang hoặc các trang khác nhau trong tệp PDF của bạn.
 
 ### Làm thế nào để thay đổi độ rộng của dòng một cách linh hoạt?  
- Bạn có thể điều chỉnh`LineWidth` tài sản của`LineInfo` đối tượng trước khi chuyển đổi tọa độ thành điểm.
+Bạn có thể điều chỉnh `LineWidth` tài sản của `LineInfo` đối tượng trước khi chuyển đổi tọa độ thành điểm.
 
 ### Có thể làm cho chú thích mực trở nên trong suốt được không?  
- Có, bạn có thể sửa đổi`Opacity` tài sản của`InkAnnotation` đối tượng để làm cho nó trong suốt.
+Có, bạn có thể sửa đổi `Opacity` tài sản của `InkAnnotation` đối tượng để làm cho nó trong suốt.
 
 ### Tôi có thể thêm nhiều chú thích bằng mực vào cùng một trang không?  
 Chắc chắn rồi! Bạn có thể thêm bao nhiêu chú thích mực tùy thích vào một trang bằng cách lặp lại quy trình này.
 
-### Làm thế nào để xóa chú thích mực khỏi tệp PDF?  
- Bạn có thể xóa chú thích bằng cách sử dụng`doc.Pages[1].Annotations.Delete(a1)` phương pháp, nơi`a1` là đối tượng chú thích của bạn.
+### Làm thế nào để xóa chú thích bằng mực khỏi tệp PDF?  
+Bạn có thể xóa chú thích bằng cách sử dụng `doc.Pages[1].Annotations.Delete(a1)` phương pháp, nơi `a1` là đối tượng chú thích của bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

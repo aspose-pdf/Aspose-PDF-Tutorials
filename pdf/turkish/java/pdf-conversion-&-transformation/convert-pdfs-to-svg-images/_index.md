@@ -1,14 +1,16 @@
 ---
-title: PDF'leri SVG Görüntülerine Dönüştür
-linktitle: PDF'leri SVG Görüntülerine Dönüştür
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF for Java kullanarak PDF'leri SVG Görüntülerine Dönüştürün - Aspose.PDF for Java ile PDF'yi SVG'ye sorunsuz dönüştürmeye yönelik adım adım kılavuz.
-weight: 20
-url: /tr/java/pdf-conversion-transformation/convert-pdfs-to-svg-images/
+"description": "Aspose.PDF for Java kullanarak PDF'leri SVG Görüntülerine Dönüştürün - Aspose.PDF for Java ile PDF'yi SVG'ye sorunsuz dönüştürmeye yönelik adım adım kılavuz."
+"linktitle": "PDF'leri SVG Görüntülerine Dönüştür"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF'leri SVG Görüntülerine Dönüştür"
+"url": "/tr/java/pdf-conversion-transformation/convert-pdfs-to-svg-images/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'leri SVG Görüntülerine Dönüştür
@@ -37,11 +39,11 @@ Dönüştürme sürecine başlamadan önce aşağıdaki ön koşulların mevcut 
 
 - Sisteminizde Java Development Kit (JDK) yüklü.
 - Eclipse veya IntelliJ IDEA gibi Entegre Geliştirme Ortamı (IDE).
--  Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Java Ortamınızı Kurma
 
-Başlamak için Java ortamınızın doğru şekilde ayarlandığından emin olun. IDE'niz JDK ile yapılandırılmış olmalı ve Java için Aspose.PDF kütüphanesi projenizin sınıf yoluna eklenmelidir.
+Başlamak için Java ortamınızın doğru şekilde ayarlandığından emin olun. IDE'niz JDK ile yapılandırılmış olmalı ve Aspose.PDF for Java kütüphanesi projenizin sınıf yoluna eklenmelidir.
 
 ## Java için Aspose.PDF'yi içe aktarma
 
@@ -110,7 +112,7 @@ Bu makalede, Aspose.PDF for Java kullanarak PDF'leri SVG resimlerine nasıl dön
 
 ### Java için Aspose.PDF'yi nasıl yüklerim?
 
- Java için Aspose.PDF'yi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/). Dokümanlarda verilen kurulum talimatlarını izleyin.
+Java için Aspose.PDF'yi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/). Dokümanlarda verilen kurulum talimatlarını izleyin.
 
 ### Aspose.PDF for Java'yı kullanarak PDF'leri diğer formatlara dönüştürebilir miyim?
 
@@ -122,14 +124,16 @@ Aspose.PDF for Java, deneme sürümü bulunan ticari bir kütüphanedir. Özelli
 
 ### SVG çıktısını nasıl özelleştirebilirim?
 
- SVG çıktısını, yapılandırarak özelleştirebilirsiniz.`SvgSaveOptions`Kullanılabilir seçeneklerin listesi için belgelere bakın.
+SVG çıktısını, yapılandırarak özelleştirebilirsiniz. `SvgSaveOptions`Kullanılabilir seçeneklerin listesi için belgelere bakın.
 
 ### Java için Aspose.PDF toplu PDF işleme için uygun mudur?
 
 Evet, Java için Aspose.PDF toplu PDF işleme görevleri için oldukça uygundur ve bu sayede birden fazla belgeyi işlemek için verimlidir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

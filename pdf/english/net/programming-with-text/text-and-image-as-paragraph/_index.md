@@ -8,7 +8,9 @@ url: /net/programming-with-text/text-and-image-as-paragraph/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Text And Image As Paragraph In PDF File
@@ -174,6 +176,7 @@ Absolutely! You can easily customize fonts, colors, and other styling properties
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-text/rotate-text-using-text-fragment/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rotate Text Using Text Fragment In PDF File
@@ -177,6 +179,7 @@ Yes, once a text fragment is added, you can still update its properties or remov
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: สร้างองค์ประกอบโครงสร้างใน PDF โดยใช้ Java
-linktitle: สร้างองค์ประกอบโครงสร้างใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีสร้างองค์ประกอบโครงสร้าง PDF ใน Java ด้วย Aspose.PDF ปรับปรุงการเข้าถึง PDF และการไหลของเนื้อหาเชิงตรรกะ
-weight: 10
-url: /th/java/pdf-tags-and-structure/create-structure-element-in-pdf-using-java/
+"description": "เรียนรู้วิธีสร้างองค์ประกอบโครงสร้าง PDF ใน Java ด้วย Aspose.PDF ปรับปรุงการเข้าถึง PDF และการไหลของเนื้อหาเชิงตรรกะ"
+"linktitle": "สร้างองค์ประกอบโครงสร้างใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "สร้างองค์ประกอบโครงสร้างใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-tags-and-structure/create-structure-element-in-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างองค์ประกอบโครงสร้างใน PDF โดยใช้ Java
@@ -25,7 +27,7 @@ url: /th/java/pdf-tags-and-structure/create-structure-element-in-pdf-using-java/
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 1. สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว
-2.  Aspose.PDF สำหรับ Java: ดาวน์โหลดและรวมไลบรารี Aspose.PDF ไว้ในโปรเจ็กต์ Java ของคุณ คุณสามารถค้นหาลิงก์ดาวน์โหลด[ที่นี่](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF สำหรับ Java: ดาวน์โหลดและรวมไลบรารี Aspose.PDF ไว้ในโปรเจ็กต์ Java ของคุณ คุณสามารถค้นหาลิงก์ดาวน์โหลด [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## ขั้นตอนที่ 1: สร้างเอกสาร PDF ใหม่
 เริ่มต้นด้วยการสร้างเอกสาร PDF ใหม่โดยใช้ Aspose.PDF สำหรับ Java นี่คือตัวอย่างโค้ดง่าย ๆ ที่จะช่วยให้คุณเริ่มต้นได้:
@@ -47,7 +49,7 @@ pdfDocument.getPages().add().getParagraphs().add("This is a sample text paragrap
 ```
 
 ## ขั้นตอนที่ 3: สร้างองค์ประกอบโครงสร้าง
- ตอนนี้เรามาสร้างองค์ประกอบโครงสร้างเพื่อกำหนดโครงสร้างเชิงตรรกะของเนื้อหากัน เราสามารถใช้องค์ประกอบโครงสร้าง เช่น`<H1>`, `<H2>`, `<P>`และอื่นๆ เพื่อแสดงหัวข้อและย่อหน้า
+ตอนนี้เรามาสร้างองค์ประกอบโครงสร้างเพื่อกำหนดโครงสร้างเชิงตรรกะของเนื้อหากัน เราสามารถใช้องค์ประกอบโครงสร้าง เช่น `<H1>`- `<H2>`- `<P>`และอื่นๆ เพื่อแสดงหัวข้อและย่อหน้า
 
 ```java
 // สร้างองค์ประกอบโครงสร้างสำหรับหัวข้อแรก
@@ -68,7 +70,7 @@ pdfDocument.save("structured_document.pdf");
 ## บทสรุป:
 ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีการสร้างองค์ประกอบโครงสร้างในเอกสาร PDF โดยใช้ Java และไลบรารี Aspose.PDF สำหรับ Java องค์ประกอบโครงสร้างมีความจำเป็นสำหรับการเข้าถึง PDF และการรับรองลำดับการอ่านที่เป็นตรรกะ คุณสามารถปรับปรุง PDF ของคุณเพิ่มเติมได้โดยเพิ่มเนื้อหาและองค์ประกอบโครงสร้างเพิ่มเติมตามต้องการ
 
-โปรดอย่าลังเลที่จะสำรวจเอกสาร Aspose.PDF[ที่นี่](https://reference.aspose.com/pdf/java/) สำหรับคุณสมบัติขั้นสูงและตัวเลือกการปรับแต่งเพิ่มเติม
+อย่าลังเลที่จะสำรวจเอกสาร Aspose.PDF [ที่นี่](https://reference.aspose.com/pdf/java/) สำหรับคุณสมบัติขั้นสูงและตัวเลือกการปรับแต่งเพิ่มเติม
 
 ## คำถามที่พบบ่อย
 
@@ -91,9 +93,11 @@ pdfDocument.save("structured_document.pdf");
 ### องค์ประกอบโครงสร้างจำเป็นสำหรับ PDF ทั้งหมดหรือไม่
 
 แม้ว่าองค์ประกอบโครงสร้างจะมีความจำเป็นสำหรับการเข้าถึง แต่การใช้งานจะขึ้นอยู่กับข้อกำหนดเฉพาะของเอกสาร PDF ของคุณ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

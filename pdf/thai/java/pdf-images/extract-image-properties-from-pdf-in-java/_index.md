@@ -1,14 +1,16 @@
 ---
-title: การแยกคุณสมบัติของภาพจาก PDF ใน Java
-linktitle: การแยกคุณสมบัติของภาพจาก PDF ใน Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการแยกคุณสมบัติของภาพจากไฟล์ PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ พัฒนาทักษะการประมวลผล PDF ของคุณวันนี้!
-weight: 23
-url: /th/java/pdf-images/extract-image-properties-from-pdf-in-java/
+"description": "เรียนรู้วิธีการแยกคุณสมบัติของภาพจากไฟล์ PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ พัฒนาทักษะการประมวลผล PDF ของคุณวันนี้!"
+"linktitle": "การแยกคุณสมบัติของภาพจาก PDF ใน Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "การแยกคุณสมบัติของภาพจาก PDF ใน Java"
+"url": "/th/java/pdf-images/extract-image-properties-from-pdf-in-java/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแยกคุณสมบัติของภาพจาก PDF ใน Java
@@ -22,22 +24,22 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีที่ม
 
 ## 2. การตั้งค่า Aspose.PDF สำหรับ Java
 
- ก่อนที่เราจะเริ่มต้น คุณต้องตั้งค่า Aspose.PDF สำหรับ Java ในโปรเจ็กต์ของคุณก่อน คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์[ที่นี่](https://releases.aspose.com/pdf/java/) และทำตามคำแนะนำการติดตั้ง
+ก่อนที่เราจะเริ่มต้น คุณต้องตั้งค่า Aspose.PDF สำหรับ Java ในโปรเจ็กต์ของคุณก่อน คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์ [ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้ง
 
 ## 3. การโหลดเอกสาร PDF
 
-หากต้องการทำงานกับเอกสาร PDF ก่อนอื่นคุณต้องโหลดเอกสารโดยใช้ Aspose.PDF สำหรับ Java โดยคุณสามารถทำได้ดังนี้:
+หากต้องการทำงานกับเอกสาร PDF คุณต้องโหลดเอกสารโดยใช้ Aspose.PDF สำหรับ Java ก่อน โดยทำได้ดังนี้:
 
 ```java
 // โหลดเอกสาร PDF
 Document pdfDocument = new Document("example.pdf");
 ```
 
- แทนที่`"example.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
+แทนที่ `"example.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
 
 ## 4. การแยกคุณสมบัติของภาพ
 
- ตอนนี้เราได้โหลดเอกสาร PDF แล้ว มาแยกคุณสมบัติของภาพกัน Aspose.PDF สำหรับ Java จัดเตรียมไว้`Page.getResources()` วิธีการเข้าถึงทรัพยากรของหน้ารวมทั้งรูปภาพ
+ตอนนี้เราได้โหลดเอกสาร PDF แล้ว มาแยกคุณสมบัติของภาพกัน Aspose.PDF สำหรับ Java จัดเตรียมไว้ `Page.getResources()` วิธีการเข้าถึงทรัพยากรของหน้ารวมทั้งรูปภาพ
 
 ```java
 // เข้าถึงหน้าแรกของเอกสาร
@@ -96,11 +98,11 @@ pdfDocument.save("updated.pdf");
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์[ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสาร
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ [ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสาร
 
 ### ฉันสามารถดึงคุณสมบัติรูปภาพจากหน้าเฉพาะใน PDF ได้หรือไม่
 
-ใช่ คุณสามารถดึงคุณสมบัติของภาพจากหน้าเฉพาะได้โดยเข้าถึงหน้าที่ต้องการโดยใช้`pdfDocument.getPages().get_Item(pageNumber)` แล้วทำตามขั้นตอนเดียวกับที่กล่าวไว้ในคู่มือ
+ใช่ คุณสามารถดึงคุณสมบัติของภาพจากหน้าเฉพาะได้โดยเข้าถึงหน้าที่ต้องการโดยใช้ `pdfDocument.getPages().get_Item(pageNumber)` แล้วทำตามขั้นตอนเดียวกับที่กล่าวไว้ในคู่มือ
 
 ### ฉันสามารถปรับเปลี่ยนคุณสมบัติของรูปภาพโดยใช้ Aspose.PDF สำหรับ Java ได้หรือไม่
 
@@ -108,11 +110,13 @@ pdfDocument.save("updated.pdf");
 
 ### ฉันสามารถหาเอกสารและตัวอย่างเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถเข้าถึงเอกสารและตัวอย่างที่ครอบคลุมได้จากเว็บไซต์เอกสาร API ของ Aspose.PDF สำหรับ Java:[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+คุณสามารถเข้าถึงเอกสารและตัวอย่างที่ครอบคลุมได้จากเว็บไซต์เอกสาร API ของ Aspose.PDF สำหรับ Java: [https://reference.aspose.com/pdf/java/](https://reference-aspose.com/pdf/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

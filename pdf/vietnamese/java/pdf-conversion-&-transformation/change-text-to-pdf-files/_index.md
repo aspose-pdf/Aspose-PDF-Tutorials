@@ -1,14 +1,16 @@
 ---
-title: Đổi văn bản thành tệp PDF
-linktitle: Đổi văn bản thành tệp PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách dễ dàng chuyển đổi văn bản sang tệp PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước có mã nguồn.
-weight: 25
-url: /vi/java/pdf-conversion-transformation/change-text-to-pdf-files/
+"description": "Tìm hiểu cách dễ dàng chuyển đổi văn bản sang tệp PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước có mã nguồn."
+"linktitle": "Đổi văn bản thành tệp PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Đổi văn bản thành tệp PDF"
+"url": "/vi/java/pdf-conversion-transformation/change-text-to-pdf-files/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đổi văn bản thành tệp PDF
@@ -28,7 +30,7 @@ Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp 
 
 - Đã cài đặt Java Development Kit (JDK)
 - Môi trường phát triển tích hợp (IDE) theo lựa chọn của bạn
--  Thư viện Aspose.PDF cho Java (bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/)
+- Thư viện Aspose.PDF cho Java (bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/)
 
 ## Thiết lập dự án
 
@@ -42,7 +44,7 @@ Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp 
 
 Bây giờ dự án của bạn đã sẵn sàng, đã đến lúc thêm Aspose.PDF cho Java vào dự án. Sau đây là cách bạn có thể thực hiện:
 
-1.  Tải xuống thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+1. Tải xuống thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 2. Thêm tệp JAR đã tải xuống vào classpath của dự án.
 
 ## Tạo một ứng dụng Java đơn giản
@@ -93,7 +95,7 @@ Trong bài viết này, chúng tôi đã khám phá cách sử dụng Aspose.PDF
 
 ### Làm thế nào để tải xuống Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ trang web tại[đây](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống Aspose.PDF cho Java từ trang web tại [đây](https://releases.aspose.com/pdf/java/).
 
 ### Tôi có thể tùy chỉnh giao diện của tài liệu PDF không?
 
@@ -110,9 +112,11 @@ Aspose.PDF for Java hỗ trợ chuyển đổi nhiều định dạng tệp khá
 ### Tôi phải xử lý lỗi như thế nào khi sử dụng Aspose.PDF cho Java?
 
 Bạn có thể triển khai xử lý lỗi trong ứng dụng Java của mình để xử lý mọi ngoại lệ có thể xảy ra trong quá trình xử lý PDF. Tham khảo tài liệu để biết các biện pháp thực hành tốt nhất.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

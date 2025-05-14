@@ -1,14 +1,16 @@
 ---
-title: Конвертируйте PDF-файлы в электронные книги EPUB
-linktitle: Конвертируйте PDF-файлы в электронные книги EPUB
-second_title: API обработки Java PDF Aspose.PDF
-description: Конвертируйте PDF в электронные книги EPUB без усилий с помощью Aspose.PDF для Java. Изучите пошаговое преобразование PDF в EPUB и часто задаваемые вопросы.
-weight: 15
-url: /ru/java/pdf-conversion-transformation/convert-pdfs-to-epub-ebooks/
+"description": "Конвертируйте PDF в электронные книги EPUB без усилий с помощью Aspose.PDF для Java. Изучите пошаговое преобразование PDF в EPUB и часто задаваемые вопросы."
+"linktitle": "Конвертируйте PDF-файлы в электронные книги EPUB"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Конвертируйте PDF-файлы в электронные книги EPUB"
+"url": "/ru/java/pdf-conversion-transformation/convert-pdfs-to-epub-ebooks/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Конвертируйте PDF-файлы в электронные книги EPUB
@@ -30,7 +32,7 @@ url: /ru/java/pdf-conversion-transformation/convert-pdfs-to-epub-ebooks/
 
 ## Настройка среды разработки
 
- Для начала убедитесь, что в вашей системе установлена среда разработки Java. Вам также понадобится Aspose.PDF для Java, который вы можете получить на[здесь](https://releases.aspose.com/pdf/java/).
+Для начала убедитесь, что в вашей системе установлена среда разработки Java. Вам также понадобится Aspose.PDF для Java, который вы можете получить на [здесь](https://releases.aspose.com/pdf/java/).
 
 ## Добавление Aspose.PDF для Java в ваш проект
 
@@ -59,7 +61,7 @@ pdfDocument.save("output.epub", saveOptions);
 
 ## Настройка преобразования EPUB
 
-Вы можете настроить процесс конвертации EPUB, установив различные параметры. Например, вы можете указать версию EPUB, метаданные и многое другое. Вот пример:
+Вы можете настроить процесс конвертации EPUB, задав различные параметры. Например, вы можете указать версию EPUB, метаданные и многое другое. Вот пример:
 
 ```java
 // Настройте параметры конвертации EPUB
@@ -104,14 +106,16 @@ pdfDocument.save("output.epub", saveOptions);
 
 ### Можно ли конвертировать несколько PDF-файлов в EPUB в пакетном режиме?
 
-Да, вы можете конвертировать несколько PDF-файлов в EPUB пакетно, перебирая все файлы PDF и применяя процесс конвертации к каждому из них.
+Да, вы можете выполнить пакетное преобразование нескольких PDF-файлов в EPUB, пройдясь по всем файлам PDF и применив процесс преобразования к каждому из них.
 
 ### Доступна ли техническая поддержка для Aspose.PDF для Java?
 
 Да, Aspose предоставляет отличную техническую поддержку. Вы можете обратиться в их службу поддержки, если у вас возникнут какие-либо проблемы или вопросы по библиотеке.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

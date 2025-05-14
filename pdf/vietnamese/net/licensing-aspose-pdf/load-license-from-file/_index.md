@@ -1,17 +1,19 @@
 ---
-title: Tải Giấy Phép Từ File
-linktitle: Tải Giấy Phép Từ File
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tải giấy phép từ tệp trong Aspose.PDF cho .NET với hướng dẫn toàn diện này. Đảm bảo chức năng đầy đủ bằng cách thiết lập giấy phép của bạn một cách chính xác.
-weight: 20
-url: /vi/net/licensing-aspose-pdf/load-license-from-file/
+"description": "Tìm hiểu cách tải giấy phép từ tệp trong Aspose.PDF cho .NET với hướng dẫn toàn diện này. Đảm bảo chức năng đầy đủ bằng cách thiết lập giấy phép của bạn một cách chính xác."
+"linktitle": "Tải Giấy phép Từ Tệp"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tải Giấy phép Từ Tệp"
+"url": "/vi/net/licensing-aspose-pdf/load-license-from-file/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tải Giấy Phép Từ File
+# Tải Giấy phép Từ Tệp
 
 ## Giới thiệu
 
@@ -21,8 +23,8 @@ Trong thế giới xử lý tài liệu, việc có đúng công cụ là rất 
 
 Trước khi đi sâu vào hướng dẫn từng bước, hãy đảm bảo rằng bạn đã chuẩn bị mọi thứ. Sau đây là những gì bạn cần:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/pdf/net/).
-2.  Tệp giấy phép: Nhận tệp giấy phép hợp lệ cho Aspose.PDF. Nếu bạn không có, bạn có thể nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống từ [trang web](https://releases.aspose.com/pdf/net/).
+2. Tệp giấy phép: Nhận tệp giấy phép hợp lệ cho Aspose.PDF. Nếu bạn không có, bạn có thể nhận giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 3. Môi trường phát triển: Môi trường phát triển như Visual Studio được khuyến nghị để mã hóa và thử nghiệm.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với C# và .NET framework sẽ giúp bạn dễ dàng theo dõi.
 
@@ -49,7 +51,7 @@ Bắt đầu bằng cách tạo một dự án C# mới trong môi trường ph�
 
 ## Bước 2: Khởi tạo Đối tượng Giấy phép
 
- Trước khi bạn có thể tải giấy phép, bạn cần tạo một phiên bản của`Aspose.Pdf.License` lớp. Đối tượng này sẽ chịu trách nhiệm thiết lập giấy phép trong ứng dụng của bạn.
+Trước khi bạn có thể tải giấy phép, bạn cần tạo một phiên bản của `Aspose.Pdf.License` lớp. Đối tượng này sẽ chịu trách nhiệm thiết lập giấy phép trong ứng dụng của bạn.
 
 ```csharp
 Aspose.Pdf.License license = new Aspose.Pdf.License();
@@ -59,23 +61,23 @@ Hãy nghĩ về bước này như là thiết lập nền tảng. Nếu không k
 
 ## Bước 3: Thiết lập Đường dẫn Giấy phép
 
- Bạn sẽ cần chỉ định đường dẫn đến tệp giấy phép của mình. Đây là tệp bạn đã lấy từ Aspose và thường có`.lic` phần mở rộng. Xác định đường dẫn dưới dạng biến chuỗi trong mã của bạn.
+Bạn sẽ cần chỉ định đường dẫn đến tệp giấy phép của mình. Đây là tệp bạn đã lấy từ Aspose và thường có `.lic` phần mở rộng. Xác định đường dẫn dưới dạng biến chuỗi trong mã của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế đến tệp giấy phép của bạn. Điều quan trọng là phải làm đúng; nếu không, chương trình sẽ không thể tìm thấy tệp giấy phép.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp giấy phép của bạn. Điều quan trọng là phải làm đúng; nếu không, chương trình sẽ không thể tìm thấy tệp giấy phép.
 
 ## Bước 4: Tải tệp giấy phép
 
- Bây giờ bạn đã có đối tượng giấy phép và đường dẫn tệp đã sẵn sàng, đã đến lúc tải giấy phép. Bạn sẽ sử dụng`SetLicense` phương pháp của`Aspose.Pdf.License` lớp để thực hiện điều này.
+Bây giờ bạn đã có đối tượng giấy phép và đường dẫn tệp đã sẵn sàng, đã đến lúc tải giấy phép. Bạn sẽ sử dụng `SetLicense` phương pháp của `Aspose.Pdf.License` lớp để thực hiện điều này.
 
 ```csharp
 license.SetLicense(dataDir + "Aspose.Pdf.net.lic");
 ```
 
- Dòng mã này tải tệp giấy phép vào thư viện Aspose.PDF, mở khóa toàn bộ khả năng của nó.`SetLicense` phương pháp này lấy đường dẫn đến tệp giấy phép làm tham số và áp dụng nó.
+Dòng mã này tải tệp giấy phép vào thư viện Aspose.PDF, mở khóa toàn bộ khả năng của nó. `SetLicense` phương pháp này lấy đường dẫn đến tệp giấy phép làm tham số và áp dụng nó.
 
 ## Bước 5: Xác minh Giấy phép
 
@@ -99,19 +101,21 @@ Hãy nhớ rằng, thiết lập môi trường đúng cách và thực hiện t
 Nếu bạn không tải giấy phép, Aspose.PDF sẽ chạy ở chế độ đánh giá, đi kèm với những hạn chế như hình mờ trên các tệp PDF được tạo và chức năng bị hạn chế.
 
 ### Tôi có thể tải giấy phép từ luồng thay vì từ tệp không?  
- Có, Aspose.PDF cho phép bạn tải giấy phép từ một luồng. Bạn sẽ sử dụng`SetLicense`phương pháp nhưng truyền một đối tượng luồng thay vì đường dẫn tệp.
+Có, Aspose.PDF cho phép bạn tải giấy phép từ một luồng. Bạn sẽ sử dụng `SetLicense` phương pháp nhưng truyền một đối tượng luồng thay vì đường dẫn tệp.
 
 ### Làm thế nào để tôi có được giấy phép sử dụng Aspose.PDF?  
- Bạn có thể mua giấy phép từ[Trang web Aspose](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể mua giấy phép từ [Trang web Aspose](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
-### Nếu hồ sơ giấy phép của tôi không được công nhận thì sao?  
- Đảm bảo rằng đường dẫn đến tệp giấy phép là chính xác và tệp có thể truy cập được bằng ứng dụng của bạn. Nếu sự cố vẫn tiếp diễn, bạn có thể liên hệ với[Hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ.
+### Tôi phải làm sao nếu hồ sơ giấy phép của tôi không được công nhận?  
+Đảm bảo rằng đường dẫn đến tệp giấy phép là chính xác và tệp có thể truy cập được bằng ứng dụng của bạn. Nếu sự cố vẫn tiếp diễn, bạn có thể liên hệ với [Hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ.
 
-### Có thể áp dụng giấy phép tính theo lưu lượng không?  
- Có, Aspose.PDF hỗ trợ cấp phép theo định mức, cho phép bạn chỉ trả tiền cho các tài nguyên bạn sử dụng. Điều này có thể được thiết lập tương tự bằng cách khởi tạo`Metered` lớp và thiết lập các phím.
+### Có thể áp dụng giấy phép tính cước không?  
+Có, Aspose.PDF hỗ trợ cấp phép theo định mức, cho phép bạn chỉ trả tiền cho các tài nguyên bạn sử dụng. Điều này có thể được thiết lập tương tự bằng cách khởi tạo `Metered` lớp và thiết lập các phím.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,44 +1,46 @@
 ---
-title: Egyéni címke neve
-linktitle: Egyéni címke neve
-second_title: Aspose.PDF for .NET API Reference
-description: Útmutató lépésről lépésre egyéni címkenév használatához az Aspose.PDF for .NET-hez. Egyéni címkékkel javíthatja PDF-fájljai szerkezetét.
-weight: 90
-url: /hu/net/programming-with-tagged-pdf/custom-tag-name/
+"description": "Lépésről lépésre útmutató az egyéni címkenevek használatához az Aspose.PDF for .NET fájlban. Javítsa PDF-fájljainak szerkezetét egyéni címkékkel."
+"linktitle": "Egyéni címke neve"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Egyéni címke neve"
+"url": "/hu/net/programming-with-tagged-pdf/custom-tag-name/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Egyéni címke neve
 
 ## Bevezetés
 
-mai digitális korban a PDF-ek mindenütt jelen vannak. A jelentésektől a kézikönyvekig számos célt szolgálnak a különböző iparágakban. Mindazonáltal alapvető fontosságú, hogy ezek a dokumentumok mindenki számára hozzáférhetőek legyenek, beleértve a fogyatékkal élőket is. Itt jönnek képbe a címkézett PDF-ek. Megkönnyítik a képernyőolvasók és más kisegítő technológiák számára a dokumentumok tartalmának hatékony értelmezését.
+A mai digitális korban a PDF-ek mindenütt jelen vannak. A jelentésektől a kézikönyvekig számos célt szolgálnak a különböző iparágakban. Azonban kulcsfontosságú, hogy ezek a dokumentumok mindenki számára hozzáférhetőek legyenek, beleértve a fogyatékkal élőket is. Itt jönnek képbe a címkézett PDF-ek. Megkönnyítik a képernyőolvasók és más segítő technológiák számára a dokumentumok tartalmának hatékony értelmezését.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódolásba, elengedhetetlen, hogy minden készen álljon. Íme, amire szüksége lesz:
+Mielőtt belevágnánk a kódolásba, fontos, hogy minden elő legyen készítve. Íme, amire szükséged lesz:
 
-1. Visual Studio – Bármelyik legújabb verzió megteszi, de a legjobb, ha a legújabb verzióval rendelkezik az optimális működés érdekében.
-2.  Aspose.PDF for .NET - Könnyen letöltheti a legújabb verziót a[letöltési link](https://releases.aspose.com/pdf/net/).
-3. Alapvető C# ismerete – A C# programozás alapjainak ismerete előnyös lesz a kód implementálása során.
+1. Visual Studio – Bármely újabb verzió megteszi, de az optimális működés érdekében a legjobb, ha a legújabb verziót használod.
+2. Aspose.PDF .NET-hez - A legújabb verziót könnyedén letöltheti innen: [letöltési link](https://releases.aspose.com/pdf/net/).
+3. C# alapismeretek – A C# programozási alapismeretek ismerete előnyös lesz a kód implementálása során.
 
 ## Csomagok importálása
 
-Miután beállította a környezetet, a következő lépés az Aspose.PDF használatához szükséges csomagok importálása. Ezt úgy teheti meg, hogy hozzáadja az Aspose.PDF könyvtárat a projekthez.
+Miután beállítottad a környezetedet, a következő lépés az Aspose.PDF használatához szükséges csomagok importálása. Ezt úgy teheted meg, hogy hozzáadod az Aspose.PDF könyvtárat a projektedhez.
 
-### Telepítse az Aspose.PDF fájlt a NuGet segítségével
+### Aspose.PDF telepítése NuGet segítségével
 
-1. Nyissa meg a Visual Studio projektet: Ha még nem hozott létre projektet, hozzon létre egy újat.
-2. Nyissa meg a NuGet Package Managert: Kattintson jobb gombbal a projektre a Solution Explorerben, és válassza a „NuGet csomagok kezelése” lehetőséget.
+1. Nyisd meg a Visual Studio-projektedet: Ha még nem hoztál létre projektet, hozz létre egy újat.
+2. A NuGet csomagkezelő elérése: Kattintson a jobb gombbal a projektre a Megoldáskezelőben, és válassza a „NuGet csomagok kezelése” lehetőséget.
 3. Aspose.PDF keresése: Írja be az „Aspose.PDF” kifejezést a keresősávba.
-4. Telepítse a csomagot: Kattintson a "Telepítés" gombra, hogy hozzáadja a csomagot a projekthez. A telepítés után már mehet is!
+4. csomag telepítése: Kattintson a „Telepítés” gombra a csomag projekthez való hozzáadásához. A telepítés után már indulhat is!
 
-### Használati irányelv hozzáadása
+### User Directive hozzáadása
 
-Az Aspose funkció használatához a kódban hozzá kell adnia a szükséges use direktívát a fájl tetején:
+Az Aspose funkcionalitásának használatához a kódodban hozzá kell adnod a szükséges using direktívát a fájl elejéhez:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -49,65 +51,65 @@ using System.Linq;
 using System.Text;
 ```
 
-Ezen lépések végrehajtásával készen áll a címkézett PDF létrehozására!
+Miután elvégezte ezeket a lépéseket, készen áll a címkézett PDF létrehozására!
 
-Most, hogy mindent beállított, merüljön el a fő feladatban: címkézett PDF-dokumentum létrehozásában. Itt található egy lépésről lépésre bemutatott útmutató, hogyan teheti meg ezt az Aspose.PDF for .NET használatával.
+Most, hogy minden elő van készítve, vágjunk bele a fő feladatba: egy címkézett PDF dokumentum létrehozásába. Íme egy lépésről lépésre útmutató arról, hogyan teheted ezt meg az Aspose.PDF for .NET használatával.
 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár meghatározása
 
-Először is meg kell adnia a PDF mentési útvonalat. Itt kell meghatározni az adatkönyvtárat.
+Először is meg kell adnod azt az elérési utat, ahová a PDF mentésre kerül. Itt fogod definiálni az adatkönyvtárat.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Magyarázat: Cserélje ki a "DOKUMENTUMKÖNYVTÁR" elemet arra a tényleges elérési útra, ahová a PDF-fájlt menteni szeretné. A futásidejű kivételek elkerülése érdekében kulcsfontosságú, hogy legyen írási jogosultság ebben a könyvtárban.
+Magyarázat: Cserélje ki a „DOKUMENTUMKÖNYVTÁR” részt arra a tényleges elérési útra, ahová a PDF fájlt menteni szeretné. A futásidejű kivételek elkerülése érdekében elengedhetetlen, hogy írási jogosultsággal rendelkezzen ebben a könyvtárban.
 
-## 2. lépés: Hozzon létre egy új PDF-dokumentumot
+## 2. lépés: Új PDF dokumentum létrehozása
 
- Ezután létrehozzuk a`Document` osztály.
+Következőként létrehozunk egy példányt a következőből: `Document` osztály.
 
 ```csharp
 Document document = new Document();
 ```
 
-Magyarázat: Ez a sor egy új PDF dokumentumot inicializál. Tekintse ezt úgy, mint egy üres vászon létrehozását, amelyen megfestheti a PDF-fájl tartalmát.
+Magyarázat: Ez a sor inicializál egy új PDF dokumentumot. Gondoljon erre úgy, mintha egy üres vászon lenne, ahová a PDF tartalmát kirajzolhatja.
 
 ## 3. lépés: Címkézett tartalom létrehozása
 
-Most itt az ideje, hogy rátérjünk a címkézés lényegére. Lekérjük a dokumentum megcímkézett tartalmát.
+Most pedig térjünk rá a címkézés lényegére. Visszakeressük a dokumentum címkézett tartalmát.
 
 ```csharp
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- Magyarázat: A`TaggedContent` Az objektum lehetővé teszi, hogy a tartalom hierarchikus rendezésével manipuláljuk a PDF logikai szerkezetét és elérhetőségét.
+Magyarázat: A `TaggedContent` Az objektum lehetővé teszi számunkra, hogy a PDF logikai szerkezetét és hozzáférhetőségét manipuláljuk a tartalom hierarchikus rendszerezésével.
 
-## 4. lépés: Állítsa be a címet és a nyelvet
+## 4. lépés: Cím és nyelv beállítása
 
-Ezután beállíthatja a dokumentum címét és a nyelvi attribútumot. Ez segít a képernyőolvasóknak a dokumentum helyes feldolgozásában.
+Ezután beállíthatja a dokumentum címét és a nyelvi attribútumot. Ez segíti a képernyőolvasókat a dokumentum helyes feldolgozásában.
 
 ```csharp
 taggedContent.SetTitle("Tagged Pdf Document");
 taggedContent.SetLanguage("en-US");
 ```
 
-Magyarázat: Ezúton tájékoztatunk mindenkit, aki ezt a PDF-et olvassa, a címéről és a nyelvezetről, ami segíti a megértést, különösen a kisegítő eszközök esetében.
+Magyarázat: Itt tájékoztatjuk a PDF olvasóit a címéről és a nyelvezetéről, ami segíti a megértést, különösen az akadálymentesítési eszközök esetében.
 
-## 5. lépés: Hozza létre a logikai szerkezeti elemeket
+## 5. lépés: Logikai szerkezeti elemek létrehozása
 
-Itt az ideje, hogy strukturált elemeket hozzon létre a PDF-ben.
+Most itt az ideje, hogy strukturált elemeket hozzunk létre a PDF-ben.
 
 ```csharp
 SectElement sect = taggedContent.CreateSectElement();
 taggedContent.RootElement.AppendChild(sect);
 ```
 
- Magyarázat: Ez a lépés egy szakaszelemet vezet be, ahol elkezdheti a tartalom hozzáadását. A`RootElement` az otthoni bázisod.
+Magyarázat: Ez a lépés egy section elemet vezet be, ahol elkezdheti a tartalom hozzáadását. `RootElement` az otthonod.
 
-## 6. lépés: Hozzon létre bekezdéselemeket
+## 6. lépés: Bekezdéselemek létrehozása
 
-Most különféle bekezdéselemeket hozunk létre, és beállítjuk azok szövegtartalmát.
+Most létrehozunk különféle bekezdéselemeket, és beállítjuk a szöveges tartalmukat.
 
 ```csharp
 ParagraphElement p1 = taggedContent.CreateParagraphElement();
@@ -120,11 +122,11 @@ p3.SetText("P3. ");
 p4.SetText("P4. ");
 ```
 
-Magyarázat: Minden bekezdés egy történet egy mondatához hasonlít, beállítja a jelenetet és jelentést ad a dokumentumnak.
+Magyarázat: Minden bekezdés egy történetben egy mondathoz hasonlítható, megalapozza a jelenetet és értelmet ad a dokumentumnak.
 
-## 7. lépés: Rendeljen címkéket a bekezdésekhez
+## 7. lépés: Címkék hozzárendelése bekezdésekhez
 
-Kulcsfontosságú, hogy minden bekezdést megfelelően jelöljön meg a PDF-fájl hozzáférhetősége érdekében.
+A PDF akadálymentesítése érdekében elengedhetetlen, hogy minden bekezdést megfelelően címkézzen.
 
 ```csharp
 p1.SetTag("P1");
@@ -133,11 +135,11 @@ p3.SetTag("Para");
 p4.SetTag("Paragraph");
 ```
 
-Magyarázat: A címkékkel való címkézéssel segítő technológiákat teszünk lehetővé a tartalom szerkezetének megértésében – ez olyan, mintha egy ütemtervet adnánk nekik a területen való navigáláshoz.
+Magyarázat: A címkékkel való címkézés révén képessé tesszük a segítő technológiákat a tartalom szerkezetének megértésére – ez olyan, mintha egy útitervet adnánk nekik a területen való eligazodáshoz.
 
-## 8. lépés: Adjon hozzá bekezdéseket a szakaszhoz
+## 8. lépés: Bekezdések hozzáfűzése a szakaszhoz
 
-Ezeket a bekezdéseket most hozzáfűzzük a korábban létrehozott részhez.
+Most ezeket a bekezdéseket hozzáfűzzük a korábban létrehozott szakaszhoz.
 
 ```csharp
 sect.AppendChild(p1);
@@ -146,11 +148,11 @@ sect.AppendChild(p3);
 sect.AppendChild(p4);
 ```
 
-Magyarázat: Ez a művelet a szakaszon belül rendezi a bekezdéseket, logikussá és könnyen követhetővé téve a folyamatot.
+Magyarázat: Ez a művelet rendszerezi a bekezdéseket a szakaszon belül, logikussá és könnyen követhetővé téve a folyamatot.
 
-## 9. lépés: Hozzon létre feszítőelemeket
+## 9. lépés: Span elemek létrehozása
 
-Csakúgy, mint a bekezdések, a szakaszok is aprólékos részleteket adnak a szöveges tartalomhoz.
+bekezdésekhez hasonlóan a terjedelmek is részletességet adnak a szöveges tartalomhoz.
 
 ```csharp
 SpanElement span1 = taggedContent.CreateSpanElement();
@@ -163,11 +165,11 @@ span3.SetText("Span 3.");
 span4.SetText("Span 4.");
 ```
 
-Magyarázat: A fesztávok olyanok, mint a részletek finomhangolása; konkrétabbá teszik azt, amit az egyes bekezdéseken belül közvetítesz.
+Magyarázat: A terjedelem olyan, mint a részletek finomhangolása; konkrétabbá teszik azt, amit az egyes bekezdésekben közvetítesz.
 
-## 10. lépés: Rendeljen címkéket a span elemekhez
+## 10. lépés: Címkék hozzárendelése a Span elemekhez
 
-Csakúgy, mint a bekezdéseknél, meg kell címkéznünk a span elemeinket, hogy segítsük a megértést.
+Ahogy a bekezdéseknél tettük, a span elemeket is címkéznünk kell a könnyebb megértés érdekében.
 
 ```csharp
 span1.SetTag("SPAN");
@@ -176,11 +178,11 @@ span3.SetTag("Sp");
 span4.SetTag("TheSpan");
 ```
 
-Magyarázat: A szakaszok megfelelő címkézése biztosítja, hogy minden árnyalat pontosan jelenjen meg, így gazdag dokumentum jön létre mindenki számára, aki találkozik vele.
+Magyarázat: A terjedelmek megfelelő címkézése biztosítja, hogy minden árnyalat pontosan ábrázolásra kerüljön, így gazdag dokumentumot hozva létre bárki számára, aki találkozik vele.
 
-## 11. lépés: Terjeszkedés hozzáfűzése a bekezdésekhez
+## 11. lépés: Terjedelem hozzáfűzése bekezdésekhez
 
-Most fűzzük hozzá a span elemeinket a megfelelő bekezdésekhez.
+Most fűzzük hozzá a span elemeket a megfelelő bekezdésekhez.
 
 ```csharp
 p1.AppendChild(span1);
@@ -189,41 +191,43 @@ p3.AppendChild(span3);
 p4.AppendChild(span4);
 ```
 
-Magyarázat: Ez az integráció további információk rétegzésével javítja a bekezdéseket, akárcsak lábjegyzetek hozzáadása egy könyvhöz a mélyebb megértés érdekében.
+Magyarázat: Ez az integráció további információk rétegezésével gazdagítja a bekezdéseket, akárcsak egy könyvhöz fűződő lábjegyzetek a mélyebb megértés érdekében.
 
-## 12. lépés: Mentse el a címkézett PDF-dokumentumot
+## 12. lépés: Mentse el a címkézett PDF dokumentumot
 
-Végre itt az ideje, hogy megmentse remekművét!
+Végre itt az ideje megmenteni a remekművet!
 
 ```csharp
 document.Save(dataDir + "CustomTag.pdf");
 ```
 
-Magyarázat: Ez a sor a címkézett PDF-fájlt a megadott könyvtárba menti. Ezzel befejezte a címkézett PDF dokumentum létrehozását!
+Magyarázat: Ez a sor a címkézett PDF-et a megadott könyvtárba menti. Ezzel befejezte a címkézett PDF dokumentum létrehozását!
 
 ## Következtetés
 
-A címkézett PDF dokumentumok létrehozása az Aspose.PDF for .NET használatával nem csupán tartalom hozzáadását jelenti; minden felhasználó számára elérhető élmény kialakításáról szól. Néhány lépéssel biztosíthatja, hogy dokumentumai mindenkihez szóljanak, eltávolítva az akadályokat és javítva a megértést. 
+Az Aspose.PDF for .NET használatával címkézett PDF dokumentumok létrehozása nem pusztán a tartalom hozzáadásáról szól; egy minden felhasználó számára hozzáférhető élmény megteremtéséről. Mindössze néhány lépéssel biztosíthatja, hogy dokumentumai mindenkihez szóljanak, elhárítva az akadályokat és elősegítve a megértést. 
 
 ## GYIK
 
 ### Mi az a címkézett PDF?  
-A címkézett PDF további metaadatokat tartalmaz, amelyek leírják a dokumentum tartalmának szerkezetét és hozzáférhetőségét, megkönnyítve a kisegítő technológiák értelmezését.
+A címkézett PDF további metaadatokat tartalmaz, amelyek leírják a dokumentum tartalmának szerkezetét és akadálymentesítését, megkönnyítve ezzel a segítő technológiák számára az értelmezést.
 
 ### Miért van szükségem az Aspose.PDF-re .NET-hez?  
-Az Aspose.PDF for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára PDF-dokumentumok programozott létrehozását, módosítását és kezelését széleskörű szolgáltatásokkal.
+Az Aspose.PDF for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan, kiterjedt funkciókkal PDF dokumentumokat hozzanak létre, módosítsanak és manipuláljanak.
 
-### Hogyan szerezhetem be az Aspose.PDF próbaverzióját?  
- Az Aspose.PDF ingyenes próbaverzióját a következő webhelyen érheti el[ezt a linket](https://releases.aspose.com/).
+### Hogyan szerezhetem meg az Aspose.PDF próbaverzióját?  
+Az Aspose.PDF ingyenes próbaverzióját a következő címen szerezheti be: [ezt a linket](https://releases.aspose.com/).
 
 ### Kaphatok támogatást az Aspose.PDF-hez?  
- Igen, ezen keresztül is kérhet támogatást[az Aspose fórum](https://forum.aspose.com/c/pdf/10).
+Igen, kérhet támogatást a következő elérhetőségeken keresztül: [az Aspose fórum](https://forum.aspose.com/c/pdf/10).
 
-### Hol találom az Aspose.PDF részletes dokumentációját?  
- A teljes dokumentáció megtalálható[itt](https://reference.aspose.com/pdf/net/).
+### Hol találok részletes Aspose.PDF dokumentációt?  
+A teljes dokumentáció megtalálható [itt](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

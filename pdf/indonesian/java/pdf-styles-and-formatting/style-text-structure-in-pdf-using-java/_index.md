@@ -1,14 +1,16 @@
 ---
-title: Struktur Teks Gaya dalam PDF menggunakan Java
-linktitle: Struktur Teks Gaya dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menata struktur teks dalam PDF menggunakan Java dengan panduan langkah demi langkah kami. Sesuaikan font, warna, hyperlink, dan lainnya untuk dokumen yang tampak profesional.
-weight: 11
-url: /id/java/pdf-styles-and-formatting/style-text-structure-in-pdf-using-java/
+"description": "Pelajari cara menata struktur teks dalam PDF menggunakan Java dengan panduan langkah demi langkah kami. Sesuaikan font, warna, hyperlink, dan lainnya untuk dokumen yang tampak profesional."
+"linktitle": "Struktur Teks Gaya dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Struktur Teks Gaya dalam PDF menggunakan Java"
+"url": "/id/java/pdf-styles-and-formatting/style-text-structure-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Struktur Teks Gaya dalam PDF menggunakan Java
@@ -29,7 +31,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 Untuk mulai menata teks dalam PDF menggunakan Java, Anda perlu menyiapkan lingkungan pengembangan Anda. Ikuti langkah-langkah berikut:
 
-1.  Unduh pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+1. Unduh pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 2. Sertakan pustaka tersebut dalam proyek Java Anda.
 
@@ -160,7 +162,7 @@ page.getPageInfo().getMargin().setRight(50);
 
 ## Menangani Hentian Halaman
 
-Pastikan pemutusan halaman yang tepat untuk konten Anda:
+Pastikan jeda halaman yang tepat untuk konten Anda:
 
 ```java
 textFragment.getTextState().setIsAutoTruncated(true);
@@ -188,7 +190,7 @@ Dalam panduan ini, kami telah mengeksplorasi cara menata struktur teks dalam PDF
 
 ### Bagaimana cara mengubah font teks dalam PDF?
 
- Untuk mengubah font teks dalam PDF, gunakan`setTextState()` metode dan tentukan font yang diinginkan menggunakan`setFont()`. Misalnya:
+Untuk mengubah font teks dalam PDF, gunakan `setTextState()` metode dan tentukan font yang diinginkan menggunakan `setFont()`. Misalnya:
 
 ```java
 textFragment.getTextState().setFont(FontRepository.findFont("Arial"));
@@ -196,11 +198,11 @@ textFragment.getTextState().setFont(FontRepository.findFont("Arial"));
 
 ### Dapatkah saya menambahkan hyperlink ke PDF saya menggunakan Aspose.PDF untuk Java?
 
- Ya, Anda dapat menambahkan hyperlink ke PDF Anda menggunakan Aspose.PDF untuk Java. Gunakan`Hyperlink` kelas untuk membuat tautan dan menentukan tindakan, seperti membuka URL.
+Ya, Anda dapat menambahkan hyperlink ke PDF Anda menggunakan Aspose.PDF untuk Java. Gunakan `Hyperlink` kelas untuk membuat tautan dan menentukan tindakan, seperti membuka URL.
 
 ### Apa cara yang disarankan untuk menangani jeda halaman dalam PDF?
 
- Untuk menangani jeda halaman dalam PDF, atur`IsAutoTruncated` Dan`IsWordWrapped` properti untuk`true` di dalam`TextState`Ini memastikan bahwa teks terpotong dan terbungkus dengan benar agar sesuai dengan batas halaman.
+Untuk menangani jeda halaman dalam PDF, atur `IsAutoTruncated` Dan `IsWordWrapped` properti untuk `true` di dalam `TextState`Ini memastikan bahwa teks terpotong dan terbungkus dengan benar agar sesuai dengan batas halaman.
 
 ### Bagaimana cara melindungi dokumen PDF saya dengan tanda air?
 
@@ -208,10 +210,12 @@ Anda dapat melindungi dokumen PDF Anda dengan tanda air dengan menambahkan fragm
 
 ### Di mana saya dapat menemukan informasi dan dokumentasi lebih lanjut untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi lengkap untuk Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi lengkap untuk Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

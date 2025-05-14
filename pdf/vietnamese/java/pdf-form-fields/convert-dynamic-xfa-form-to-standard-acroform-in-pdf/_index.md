@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi Dynamic XFA Form sang Standard AcroForm trong PDF
-linktitle: Chuyển đổi Dynamic XFA Form sang Standard AcroForm trong PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách chuyển đổi dễ dàng các biểu mẫu Dynamic XFA sang Standard AcroForms trong PDF bằng Aspose.PDF cho Java. Đảm bảo khả năng tương thích và khả năng truy cập.
-weight: 12
-url: /vi/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/
+"description": "Tìm hiểu cách chuyển đổi dễ dàng các biểu mẫu Dynamic XFA sang Standard AcroForms trong PDF bằng Aspose.PDF cho Java. Đảm bảo khả năng tương thích và khả năng truy cập."
+"linktitle": "Chuyển đổi Dynamic XFA Form sang Standard AcroForm trong PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Chuyển đổi Dynamic XFA Form sang Standard AcroForm trong PDF"
+"url": "/vi/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi Dynamic XFA Form sang Standard AcroForm trong PDF
@@ -23,7 +25,7 @@ Trong thế giới thao tác và tạo PDF, nhu cầu chuyển đổi biểu m�
 Trước khi bắt đầu quá trình chuyển đổi, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java Development Kit (JDK) trên hệ thống của mình.
--  Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 - Môi trường phát triển tích hợp Java (IDE): Bạn có thể sử dụng các IDE phổ biến như Eclipse hoặc IntelliJ IDEA.
 
 ## Chuyển đổi XFA sang AcroForm
@@ -33,7 +35,7 @@ Trước khi bắt đầu quá trình chuyển đổi, hãy đảm bảo bạn �
 Để bắt đầu chuyển đổi, hãy tạo một dự án Java mới trong IDE của bạn và thêm thư viện Aspose.PDF cho Java vào dự án của bạn. Sau đó, khởi tạo một tài liệu PDF như sau:
 
 ```java
-//Nhập các lớp cần thiết
+// Nhập các lớp cần thiết
 import com.aspose.pdf.Document;
 
 // Khởi tạo một tài liệu PDF
@@ -75,7 +77,7 @@ Chuyển đổi biểu mẫu Dynamic XFA sang Standard AcroForms trong PDF trở
 
 ### Làm thế nào tôi có thể truy cập tài liệu Aspose.PDF cho Java?
 
- Bạn có thể truy cập tài liệu về Aspose.PDF cho Java[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể truy cập tài liệu về Aspose.PDF cho Java [đây](https://reference.aspose.com/pdf/java/).
 
 ### Aspose.PDF cho Java có tương thích với các IDE Java khác không?
 
@@ -91,10 +93,12 @@ Chắc chắn rồi! Bạn có thể chuyển đổi nhiều biểu mẫu XFA tr
 
 ### Tôi có thể tải xuống Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ[liên kết này](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ [liên kết này](https://releases.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

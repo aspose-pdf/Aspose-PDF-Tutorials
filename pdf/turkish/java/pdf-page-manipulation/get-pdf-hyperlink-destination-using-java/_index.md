@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF Köprü Bağlantısı Hedefini Alın
-linktitle: Java kullanarak PDF Köprü Bağlantısı Hedefini Alın
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java kullanarak PDF köprü metni hedeflerini Aspose.PDF for Java ile nasıl alacağınızı keşfedin. Bu kapsamlı eğitimde kod örnekleriyle adım adım öğrenin.
-weight: 10
-url: /tr/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
+"description": "Java ile Aspose.PDF for Java kullanarak PDF köprü metni hedeflerinin nasıl alınacağını keşfedin. Bu kapsamlı eğitimde kod örnekleriyle adım adım öğrenin."
+"linktitle": "Java kullanarak PDF Köprü Bağlantısı Hedefini Alın"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF Köprü Bağlantısı Hedefini Alın"
+"url": "/tr/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF Köprü Bağlantısı Hedefini Alın
@@ -16,7 +18,7 @@ url: /tr/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
 
 ## giriiş
 
-Bu eğitimde, Java kullanarak Aspose.PDF for Java yardımıyla PDF köprü metni hedeflerinin nasıl alınacağını inceleyeceğiz. Köprü metinleri, PDF belgelerindeki temel öğelerdir ve kullanıcıların PDF veya harici kaynaklar içindeki belirli hedeflere gitmesini sağlar. Kod örnekleri ve açıklamalar sağlayarak süreci adım adım ele alacağız.
+Bu eğitimde, Java kullanarak Aspose.PDF for Java yardımıyla PDF köprü metni hedeflerinin nasıl alınacağını inceleyeceğiz. Köprü metinleri PDF belgelerindeki temel öğelerdir ve kullanıcıların PDF veya harici kaynaklar içindeki belirli hedeflere gitmesini sağlar. Kod örnekleri ve açıklamalar sağlayarak süreci adım adım ele alacağız.
 
 ## PDF Köprülerini Anlamak
 
@@ -32,7 +34,7 @@ Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 ## Java için Aspose.PDF Kurulumu
 
 Başlamak için projenizde Aspose.PDF for Java'yı ayarlamanız gerekir. Şu adımları izleyin:
-1.  Java için Aspose.PDF'yi şuradan indirin:[Burada](https://releases.aspose.com/pdf/java/).
+1. Java için Aspose.PDF'yi şuradan indirin: [Burada](https://releases.aspose.com/pdf/java/).
 2. Aspose.PDF kütüphanesini Java projenize ekleyin.
 
 ## PDF Belgesi Yükleme
@@ -44,7 +46,7 @@ Başlamak için projenizde Aspose.PDF for Java'yı ayarlamanız gerekir. Şu ad�
 Document pdfDocument = new Document("sample.pdf");
 ```
 
-## Hiperlinkleri Alma
+## Hiper Bağlantıları Alma
 
 Sonra, PDF belgesinde bulunan köprü metinlerini almamız gerekiyor. Aspose.PDF bunu yapmanın kullanışlı bir yolunu sunar:
 
@@ -74,7 +76,7 @@ Bu eğitimde, Java ve Java için Aspose.PDF kullanarak PDF köprü metni hedefle
 
 ### Java için Aspose.PDF'yi nasıl yüklerim?
 
- Java için Aspose.PDF'yi yüklemek için, kitaplığı şu adresten indirin:[Burada](https://releases.aspose.com/pdf/java/) ve bunu Java projenizin bağımlılıklarına ekleyin.
+Java için Aspose.PDF'yi yüklemek için, kitaplığı şu adresten indirin: [Burada](https://releases.aspose.com/pdf/java/) ve bunu Java projenizin bağımlılıklarına ekleyin.
 
 ### Aspose.PDF for Java'yı ücretsiz kullanabilir miyim?
 
@@ -90,10 +92,12 @@ PDF belgesindeki bağlantı açıklamalarına ve bunlarla ilişkili eylemlere er
 
 ### Java için Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?
 
- Java için Aspose.PDF'e ilişkin ayrıntılı belgeleri şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin ayrıntılı belgeleri şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

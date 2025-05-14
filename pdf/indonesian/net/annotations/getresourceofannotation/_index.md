@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Sumber Anotasi
-linktitle: Dapatkan Sumber Anotasi
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Buka kekuatan manajemen PDF dengan Aspose.PDF untuk .NET - pustaka andalan Anda untuk anotasi dan manipulasi PDF yang lancar.
-weight: 90
-url: /id/net/annotations/getresourceofannotation/
+"description": "Buka kekuatan manajemen PDF dengan Aspose.PDF untuk .NET - pustaka andalan Anda untuk anotasi dan manipulasi PDF yang lancar."
+"linktitle": "Dapatkan Sumber Anotasi"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Sumber Anotasi"
+"url": "/id/net/annotations/getresourceofannotation/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Sumber Anotasi
@@ -25,7 +27,7 @@ Sebelum menyelami seluk-beluk anotasi PDF, ada beberapa prasyarat untuk memastik
 Memiliki pemahaman dasar tentang pemrograman C# atau kerangka kerja .NET sangatlah penting. Di sinilah Anda akan menghabiskan sebagian besar waktu saat memanipulasi dokumen PDF.
 
 ### Aspose.PDF untuk Pustaka .NET
- Untuk memulai, Anda perlu menginstal Aspose.PDF untuk .NET. Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/pdf/net/).
+Untuk memulai, Anda perlu menginstal Aspose.PDF untuk .NET. Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/pdf/net/).
 
 ### IDE untuk Pengembangan
 Pilih IDE yang sesuai seperti Visual Studio atau JetBrains Rider untuk menyiapkan lingkungan Anda. Ini akan membantu Anda menulis dan menguji kode secara efisien.
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Buka Dokumen PDF Anda
 
- Sekarang setelah Anda mengatur direktori dokumen Anda, saatnya untuk membuka file PDF yang ingin Anda gunakan. Aspose.PDF mempermudah hal ini dengan`Document` kelas.
+Sekarang setelah Anda mengatur direktori dokumen Anda, saatnya untuk membuka file PDF yang ingin Anda gunakan. Aspose.PDF mempermudah hal ini dengan `Document` kelas.
 
 ```csharp
 // Buka dokumen
@@ -72,7 +74,7 @@ Dalam contoh ini, kami membuka PDF bernama AddAnnotation.pdf. Pastikan file ini 
 
 ## Langkah 3: Buat Anotasi
 
- Selanjutnya, kita akan membuat anotasi baru. Di sini, kita menggunakan`ScreenAnnotation`yang memungkinkan Anda melampirkan berkas multimedia seperti SWF dalam PDF.
+Selanjutnya, kita akan membuat anotasi baru. Di sini, kita menggunakan `ScreenAnnotation`, yang memungkinkan Anda melampirkan berkas multimedia seperti SWF dalam PDF.
 
 ```csharp
 // Buat anotasi
@@ -183,19 +185,21 @@ Nah, itu dia – panduan langkah demi langkah tentang cara mendapatkan sumber an
 Aspose.PDF untuk .NET adalah pustaka yang dirancang untuk aplikasi .NET, yang memungkinkan pengguna untuk membuat, memanipulasi, dan mengonversi dokumen PDF.
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PDF?
- Anda dapat memperoleh lisensi sementara melalui[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara melalui [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ### Apakah ada uji coba gratis yang tersedia?
- Ya, Anda dapat mengakses uji coba gratis Aspose.PDF dari[halaman percobaan gratis](https://releases.aspose.com/).
+Ya, Anda dapat mengakses uji coba gratis Aspose.PDF dari [halaman uji coba gratis](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Untuk dukungan, kunjungi forum Aspose yang didedikasikan untuk PDF[Di Sini](https://forum.aspose.com/c/pdf/10).
+Untuk dukungan, kunjungi forum Aspose yang didedikasikan untuk PDF [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Bisakah saya membeli Aspose.PDF secara langsung?
- Tentu saja! Anda dapat membeli produk melalui[halaman pembelian](https://purchase.aspose.com/buy).
+Tentu saja! Anda dapat membeli produk melalui [halaman pembelian](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

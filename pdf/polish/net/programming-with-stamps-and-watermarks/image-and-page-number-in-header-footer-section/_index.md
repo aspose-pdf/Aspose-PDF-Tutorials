@@ -1,14 +1,16 @@
 ---
-title: Obraz i numer strony w sekcji nagłówka i stopki
-linktitle: Obraz i numer strony w sekcji nagłówka i stopki
-second_title: Aspose.PDF dla .NET API Reference
-description: tym samouczku krok po kroku dowiesz się, jak dodać obraz i numery stron do nagłówka i stopki pliku PDF za pomocą Aspose.PDF dla platformy .NET.
-weight: 110
-url: /pl/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section/
+"description": "W tym samouczku krok po kroku dowiesz się, jak dodać obraz i numery stron do nagłówka i stopki pliku PDF za pomocą Aspose.PDF dla platformy .NET."
+"linktitle": "Obraz i numer strony w sekcji nagłówka i stopki"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Obraz i numer strony w sekcji nagłówka i stopki"
+"url": "/pl/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obraz i numer strony w sekcji nagłówka i stopki
@@ -22,7 +24,7 @@ Jeśli chodzi o tworzenie profesjonalnych dokumentów PDF, kontrola nad drobnymi
 Zanim przejdziesz do szczegółów tego samouczka, upewnij się, że masz następujące kwestie:
 
 1. .NET Framework: Musisz mieć zainstalowaną na swoim komputerze dowolną wersję .NET Framework. Jeśli jej nie masz, możesz ją łatwo pobrać ze strony internetowej Microsoft.
-2.  Aspose.PDF dla .NET: Ponieważ będziemy używać Aspose.PDF, upewnij się, że masz go zainstalowanego w swoim projekcie. Możesz pobrać wersję próbną[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Ponieważ będziemy używać Aspose.PDF, upewnij się, że masz go zainstalowanego w swoim projekcie. Możesz pobrać wersję próbną [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa znajomość języka C#: Znajomość podstaw programowania w języku C# z pewnością pomoże Ci zrozumieć kod bez większych problemów.
 4. Plik obrazu: Będziesz potrzebować obrazu, który chcesz umieścić w nagłówku dokumentu PDF, takiego jak logo. Zapisz go w dostępnym katalogu. 
 5. IDE: Użyj wybranego zintegrowanego środowiska programistycznego (IDE), np. Visual Studio, do pracy nad projektem .NET.
@@ -51,7 +53,7 @@ Każdy dobry projekt zaczyna się od organizacji. Zdefiniuj katalog dokumentów,
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać plik PDF i gdzie znajduje się Twój obraz.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` ze ścieżką, pod którą chcesz zapisać plik PDF i gdzie znajduje się obraz.
 
 ## Krok 2: Utwórz nowy dokument PDF
 
@@ -153,19 +155,21 @@ masz! Właśnie utworzyłeś plik PDF z obrazem w nagłówku i dynamicznymi nume
 Tak, Aspose.PDF dla .NET obsługuje wiele platform .NET, w tym .NET Framework, .NET Core i inne.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.PDF?
- Oczywiście! Możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Jakie formaty obrazów są obsługiwane w nagłówkach?
 Aspose.PDF obsługuje najpopularniejsze formaty obrazów, takie jak JPG, PNG i BMP w przypadku nagłówków i stopek.
 
-### Czy mogę dostosować format numerowania stron?
+### Czy mogę dostosować format numeracji stron?
 Tak, możesz łatwo dostosować tekst i format stopki według swoich potrzeb.
 
 ### Czy jest dostępne wsparcie techniczne?
- Tak, Aspose zapewnia dedykowane wsparcie poprzez swoje forum. Możesz zwrócić się o pomoc[Tutaj](https://forum.aspose.com/c/pdf/10).
+Tak, Aspose zapewnia dedykowane wsparcie poprzez swoje forum. Możesz zwrócić się o pomoc [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thay đổi kích thước hình ảnh trong tệp PDF
-linktitle: Thay đổi kích thước hình ảnh trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thay đổi kích thước hình ảnh trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết này. Tối ưu hóa kích thước tệp mà không làm giảm chất lượng.
-weight: 250
-url: /vi/net/programming-with-images/resize-images/
+"description": "Tìm hiểu cách thay đổi kích thước hình ảnh trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết này. Tối ưu hóa kích thước tệp mà không làm giảm chất lượng."
+"linktitle": "Thay đổi kích thước hình ảnh trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thay đổi kích thước hình ảnh trong tệp PDF"
+"url": "/vi/net/programming-with-images/resize-images/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay đổi kích thước hình ảnh trong tệp PDF
@@ -23,15 +25,15 @@ Trước khi bắt đầu quá trình thay đổi kích thước hình ảnh tro
 
 1. Đã cài Visual Studio: Bạn cần cài đặt phiên bản Visual Studio trên máy của mình. Đây là nơi chúng ta sẽ viết mã để tương tác với thư viện Aspose.PDF.
 2. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework. Hướng dẫn này giả định rằng bạn đang sử dụng ít nhất .NET Framework 4.0 trở lên.
-3. Aspose.PDF cho Thư viện .NET: Bạn sẽ cần tải xuống thư viện Aspose.PDF. Công cụ mạnh mẽ này giúp bạn dễ dàng thao tác các tệp PDF theo chương trình. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF cho Thư viện .NET: Bạn sẽ cần tải xuống thư viện Aspose.PDF. Công cụ mạnh mẽ này giúp bạn dễ dàng thao tác các tệp PDF theo chương trình. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 4. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi. Nếu bạn biết cách viết mã C# đơn giản, bạn sẽ ổn thôi!
-5.  Tệp PDF để kiểm tra: Chuẩn bị một tệp PDF mẫu để kiểm tra chức năng thay đổi kích thước hình ảnh. Vì mục đích của hướng dẫn này, chúng tôi sẽ giả sử bạn có một tệp có tên`ResizeImage.pdf`.
+5. Tệp PDF để kiểm tra: Chuẩn bị một tệp PDF mẫu để kiểm tra chức năng thay đổi kích thước hình ảnh. Vì mục đích của hướng dẫn này, chúng tôi sẽ giả sử bạn có một tệp có tên `ResizeImage.pdf`.
 
 Bây giờ chúng ta đã giải quyết xong vấn đề đó, hãy chuyển sang nhập các gói cần thiết để tận dụng khả năng của Aspose.PDF.
 
 ## Nhập gói
 
-Bước đầu tiên trong bất kỳ dự án phần mềm nào là sắp xếp các phụ thuộc của bạn theo thứ tự. Sau đây là cách bạn thực hiện với Aspose.PDF cho .NET:
+Bước đầu tiên trong bất kỳ dự án phần mềm nào là sắp xếp các phụ thuộc của bạn. Sau đây là cách bạn thực hiện với Aspose.PDF cho .NET:
 
 1. Mở dự án của bạn: Khởi chạy Visual Studio và mở dự án hiện có hoặc tạo dự án mới.
 
@@ -48,7 +50,7 @@ using System.Text;
 
 Với điều đó, bạn đã sẵn sàng để đi sâu hơn vào phần mã hóa!
 
-Chúng ta hãy chia nhỏ quá trình thay đổi kích thước hình ảnh trong tệp PDF thành các bước dễ quản lý hơn.
+Chúng ta hãy chia nhỏ quá trình thay đổi kích thước hình ảnh trong tệp PDF thành các bước dễ quản lý.
 
 ## Bước 1: Khởi tạo thời gian
 
@@ -68,7 +70,7 @@ Tiếp theo, bạn cần xác định vị trí tài liệu PDF của mình. Đi
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp của bạn, đảm bảo nó dẫn đúng đến`ResizeImage.pdf`.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp của bạn, đảm bảo nó dẫn đúng đến `ResizeImage.pdf`.
 
 ## Bước 3: Mở Tài liệu PDF
 
@@ -78,11 +80,11 @@ Bây giờ là lúc mở tệp PDF của bạn. Với Aspose.PDF, việc này th
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 ```
 
- Dòng này tạo ra một phiên bản mới của`Document` lớp đại diện cho tệp PDF của bạn. Bạn đã sẵn sàng để thao tác nó!
+Dòng này tạo ra một phiên bản mới của `Document` lớp đại diện cho tệp PDF của bạn. Bạn đã sẵn sàng để thao tác nó!
 
-## Bước 4: Khởi tạo các tùy chọn tối ưu hóa
+## Bước 4: Khởi tạo tùy chọn tối ưu hóa
 
- Để thay đổi kích thước hình ảnh, trước tiên chúng ta cần tạo một phiên bản của`OptimizationOptions`. Điều này sẽ giúp xác định cách chúng ta muốn nén và thay đổi kích thước hình ảnh:
+Để thay đổi kích thước hình ảnh, trước tiên chúng ta cần tạo một phiên bản của `OptimizationOptions`. Điều này sẽ giúp xác định cách chúng ta muốn nén và thay đổi kích thước hình ảnh:
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
@@ -152,10 +154,10 @@ Trong hướng dẫn này, chúng tôi đã hướng dẫn cách thay đổi kí
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện lớp cho phép các nhà phát triển tạo, thao tác và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là một thư viện lớp cho phép các nhà phát triển tạo, thao tác và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tạo những loại tệp nào bằng Aspose.PDF?
 Bạn có thể tạo và chỉnh sửa nhiều loại tệp PDF, bao gồm các tệp chứa văn bản, hình ảnh và đồ họa vector.
@@ -164,10 +166,12 @@ Bạn có thể tạo và chỉnh sửa nhiều loại tệp PDF, bao gồm các
 Không, Aspose.PDF có sẵn trên nhiều nền tảng khác nhau, bao gồm Java và Android.
 
 ### Tôi có thể nhận hỗ trợ cho các vấn đề về Aspose.PDF ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ trên diễn đàn Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm thấy sự hỗ trợ trên diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

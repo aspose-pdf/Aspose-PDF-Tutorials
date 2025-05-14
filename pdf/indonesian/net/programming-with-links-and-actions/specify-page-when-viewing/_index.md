@@ -1,14 +1,16 @@
 ---
-title: Tentukan Halaman Saat Melihat
-linktitle: Tentukan Halaman Saat Melihat
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menentukan halaman yang akan dilihat dalam PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan navigasi pengguna dengan panduan sederhana ini.
-weight: 110
-url: /id/net/programming-with-links-and-actions/specify-page-when-viewing/
+"description": "Pelajari cara menentukan halaman yang akan dilihat dalam PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan navigasi pengguna dengan panduan sederhana ini."
+"linktitle": "Tentukan Halaman Saat Melihat"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tentukan Halaman Saat Melihat"
+"url": "/id/net/programming-with-links-and-actions/specify-page-when-viewing/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tentukan Halaman Saat Melihat
@@ -23,7 +25,7 @@ Sebelum mulai membuat kode, pastikan Anda memiliki semua yang dibutuhkan untuk m
 
 1. Pengetahuan Dasar tentang .NET: Keakraban dengan kerangka kerja .NET sangatlah penting. Jika Anda merasa nyaman dengan C# dan memiliki pemahaman dasar tentang pemrograman berorientasi objek, Anda siap!
 
-2.  Aspose.PDF untuk .NET: Anda perlu menginstal pustaka Aspose.PDF di proyek Anda. Jika Anda belum menginstalnya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu menginstal pustaka Aspose.PDF di proyek Anda. Jika Anda belum menginstalnya, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/).
 
 3. Visual Studio: Tutorial ini mengasumsikan Anda menggunakan Visual Studio sebagai IDE. Pastikan Anda telah menginstalnya di komputer Anda.
 
@@ -45,7 +47,7 @@ Untuk menggunakan pustaka Aspose.PDF, Anda perlu menambahkan referensi ke dalamn
 
 1. Klik kanan pada proyek Anda di Solution Explorer.
 2. Pilih 'Kelola Paket NuGet'.
-3.  Pencarian untuk`Aspose.PDF` dan menginstal paket tersebut.
+3. Pencarian untuk `Aspose.PDF` dan menginstal paket tersebut.
 
 ### Mengimpor Ruang Nama
 
@@ -71,7 +73,7 @@ Pertama, Anda perlu mengatur jalur ke dokumen Anda:
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ganti dengan direktori Anda
 ```
 
- Baris ini pada dasarnya adalah peta jalan Anda. Anda memberi tahu kode Anda di mana menemukan file PDF. Pastikan untuk mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya di mesin Anda.
+Baris ini pada dasarnya adalah peta jalan Anda. Anda memberi tahu kode Anda di mana menemukan file PDF. Pastikan untuk mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya di mesin Anda.
 
 ## Langkah 2: Muat File PDF
 
@@ -82,7 +84,7 @@ Berikutnya, Anda akan memuat file PDF ke aplikasi Anda:
 Document doc = new Document(dataDir + "SpecifyPageWhenViewing.pdf");
 ```
 
- Apa yang terjadi di sini adalah Anda membuat contoh baru dari`Document`objek saat menentukan jalur ke berkas PDF Anda. Anda dapat menganggapnya sebagai membuka buku yang baru saja Anda taruh di atas meja.
+Apa yang terjadi di sini adalah Anda membuat contoh baru dari `Document` objek saat menentukan jalur ke berkas PDF Anda. Anda dapat menganggapnya sebagai membuka buku yang baru saja Anda taruh di atas meja.
 
 ## Langkah 3: Akses Halaman yang Diinginkan
 
@@ -104,7 +106,7 @@ Anda dapat menyesuaikan tingkat zoom untuk halaman yang akan ditampilkan:
 double zoom = 1; // 1 berarti 100% zoom
 ```
 
-Menetapkan faktor zoom membantu menentukan seberapa banyak halaman yang dapat dilihat pengguna segera setelah dibuka. Nilai 1 berarti halaman akan ditampilkan pada zoom 100%, yang umumnya merupakan nilai default yang baik.
+Menetapkan faktor pembesaran membantu menentukan seberapa banyak halaman yang dapat dilihat pengguna segera setelah dibuka. Nilai 1 berarti halaman akan ditampilkan pada pembesaran 100%, yang umumnya merupakan nilai default yang baik.
 
 ## Langkah 5: Buat Instansi GoToAction
 
@@ -115,7 +117,7 @@ Mari kita gunakan fitur navigasi:
 GoToAction action = new GoToAction(doc.Pages[2]); 
 ```
 
- Pada langkah ini, Anda membuat sebuah instance dari`GoToAction` yang pada dasarnya mewakili tindakan menavigasi ke titik tertentu dalam PDF – dalam hal ini, halaman kedua.
+Pada langkah ini, Anda membuat sebuah instance dari `GoToAction` yang pada dasarnya mewakili tindakan menavigasi ke titik tertentu dalam PDF – dalam hal ini, halaman kedua.
 
 ## Langkah 6: Tentukan Tujuannya
 
@@ -148,7 +150,7 @@ Terakhir, mari simpan dokumen dengan perubahan yang dibuat:
 doc.Save(dataDir + "goto2page_out.pdf");
 ```
 
-Langkah ini menyelesaikan pekerjaan Anda! Anda akan memiliki file PDF baru bernama`goto2page_out.pdf` yang terbuka langsung ke halaman yang Anda tentukan.
+Langkah ini menyelesaikan pekerjaan Anda! Anda akan memiliki file PDF baru bernama `goto2page_out.pdf` yang terbuka langsung ke halaman yang Anda tentukan.
 
 Dengan demikian, bagian pengkodean telah selesai! Anda telah berhasil memprogram Aspose.PDF untuk menampilkan halaman tertentu saat PDF dibuka. 
 
@@ -165,16 +167,18 @@ Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat,
 Tidak, Anda hanya dapat mengatur dokumen agar dibuka pada satu halaman tertentu. Namun, Anda dapat membuat dokumen yang berbeda untuk halaman awal yang berbeda.
 
 ### Bagaimana jika saya ingin melihat halaman pada tingkat zoom yang berbeda?
- Anda dapat mengubah tingkat zoom dengan menyesuaikan`zoom` variabel sebelum menyimpan dokumen.
+Anda dapat mengubah tingkat zoom dengan menyesuaikan `zoom` variabel sebelum menyimpan dokumen.
 
 ### Di mana saya dapat menemukan lebih banyak contoh penggunaan Aspose.PDF?
- Anda dapat memeriksa[dokumentasi](https://reference.aspose.com/pdf/net/) untuk lebih banyak contoh dan fungsi.
+Anda dapat memeriksa [dokumentasi](https://reference.aspose.com/pdf/net/) untuk lebih banyak contoh dan fungsi.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF untuk .NET?
- Ya! Anda dapat mengunduh uji coba Aspose.PDF secara gratis[Di Sini](https://releases.aspose.com/).
+Ya! Anda dapat mengunduh uji coba Aspose.PDF secara gratis [Di Sini](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

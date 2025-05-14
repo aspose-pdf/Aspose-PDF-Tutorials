@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/image-in-footer/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Image In Footer
@@ -142,6 +144,7 @@ Yes! You can loop through multiple files and apply the same process to each.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

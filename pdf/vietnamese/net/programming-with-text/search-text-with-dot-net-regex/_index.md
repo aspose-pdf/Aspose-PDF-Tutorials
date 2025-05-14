@@ -1,14 +1,16 @@
 ---
-title: Tìm kiếm văn bản với Dot Net Regex
-linktitle: Tìm kiếm văn bản với Dot Net Regex
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tìm kiếm văn bản trong PDF bằng .NET Regex với Aspose.PDF. Làm theo hướng dẫn từng bước của chúng tôi và đơn giản hóa các tác vụ PDF của bạn.
-weight: 480
-url: /vi/net/programming-with-text/search-text-with-dot-net-regex/
+"description": "Tìm hiểu cách tìm kiếm văn bản trong PDF bằng .NET Regex với Aspose.PDF. Làm theo hướng dẫn từng bước của chúng tôi và đơn giản hóa các tác vụ PDF của bạn."
+"linktitle": "Tìm kiếm văn bản với Dot Net Regex"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tìm kiếm văn bản với Dot Net Regex"
+"url": "/vi/net/programming-with-text/search-text-with-dot-net-regex/"
+"weight": 480
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tìm kiếm văn bản với Dot Net Regex
@@ -25,7 +27,7 @@ Trước khi bắt tay vào viết mã, bạn cần phải có một số điề
 Đảm bảo bạn đã cài đặt .NET framework trên máy tính của mình. Aspose.PDF hỗ trợ các ứng dụng .NET Core và .NET Framework.
 
 ### Aspose.PDF cho .NET
- Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF nếu bạn chưa thực hiện. Bạn có thể tải xuống từ[Trang phát hành PDF của Aspose](https://releases.aspose.com/pdf/net/).
+Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF nếu bạn chưa thực hiện. Bạn có thể tải xuống từ [Trang phát hành PDF của Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Kiến thức cơ bản về C#
 Hiểu biết cơ bản về lập trình C# và môi trường .NET sẽ giúp bạn thực hiện hướng dẫn này dễ dàng hơn.
@@ -69,7 +71,7 @@ Trong bất kỳ dự án nào, việc chỉ định đúng thư mục là đi�
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn nơi tệp PDF mục tiêu của bạn nằm. Bước này đảm bảo rằng ứng dụng của bạn có thể dễ dàng định vị được tài liệu PDF mà bạn muốn tìm kiếm.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn nơi tệp PDF mục tiêu của bạn nằm. Bước này đảm bảo rằng ứng dụng của bạn có thể dễ dàng định vị được tài liệu PDF mà bạn muốn tìm kiếm.
 
 ## Bước 3: Tạo một đối tượng Regex
 
@@ -78,7 +80,7 @@ Biểu thức chính quy (Regex) là công cụ cực kỳ mạnh mẽ để tì
 ```csharp
 System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex(@"[\S]+");
 ```
- Biểu thức Regex`@"[\S]+"` khớp với bất kỳ chuỗi ký tự không phải khoảng trắng nào trong tài liệu. Hãy thoải mái sửa đổi mẫu nếu bạn có yêu cầu tìm kiếm cụ thể!
+Biểu thức Regex `@"[\S]+"` khớp với bất kỳ chuỗi ký tự không phải khoảng trắng nào trong tài liệu. Hãy thoải mái sửa đổi mẫu nếu bạn có yêu cầu tìm kiếm cụ thể!
 
 ## Bước 4: Mở Tài liệu PDF
 
@@ -87,7 +89,7 @@ Bây giờ chúng ta đã có Regex, đã đến lúc mở tài liệu PDF bằn
 ```csharp
 Aspose.Pdf.Document document = new Aspose.Pdf.Document(dataDir + "SearchTextRegex.pdf");
 ```
- Thay thế`"SearchTextRegex.pdf"`với tên thực của tệp PDF của bạn. Dòng mã này khởi tạo đối tượng Tài liệu Aspose.PDF, cho phép bạn thao tác với PDF.
+Thay thế `"SearchTextRegex.pdf"` với tên thực của tệp PDF của bạn. Dòng mã này khởi tạo đối tượng Tài liệu Aspose.PDF, cho phép bạn thao tác với PDF.
 
 ## Bước 5: Truy cập vào trang mong muốn
 
@@ -115,7 +117,7 @@ Bây giờ, chúng ta sẽ sử dụng TextAbsorber mà chúng ta đã tạo đ�
 ```csharp
 page.Accept(textFragmentAbsorber);
 ```
- Bằng cách gọi`Accept` phương pháp này, chúng tôi hướng dẫn trang sử dụng TextAbsorber, do đó thực hiện tìm kiếm trong trang đó.
+Bằng cách gọi `Accept` phương pháp này, chúng tôi hướng dẫn trang sử dụng TextAbsorber, do đó thực hiện tìm kiếm trong trang đó.
 
 ## Bước 8: Lấy lại các đoạn văn bản đã tìm thấy
 
@@ -124,11 +126,11 @@ Sau khi tìm kiếm, đã đến lúc thu thập kết quả—hãy lấy các �
 ```csharp
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
- Các`TextFragments` thuộc tính này chứa tất cả các đoạn văn bản được tìm thấy bởi tìm kiếm Regex của chúng tôi. 
+Các `TextFragments` thuộc tính này chứa tất cả các đoạn văn bản được tìm thấy bởi tìm kiếm Regex của chúng tôi. 
 
 ## Bước 9: Lặp lại và Hiển thị Kết quả
 
-Cuối cùng, chúng ta hãy lặp qua bộ sưu tập các đoạn văn bản đã tìm thấy và in chúng ra để xem xét.
+Cuối cùng, chúng ta hãy lặp qua bộ sưu tập các đoạn văn bản tìm được và in chúng ra để xem xét.
 
 ```csharp
 foreach (TextFragment textFragment in textFragmentCollection)
@@ -140,7 +142,7 @@ Vòng lặp này lặp qua từng đoạn văn bản được tìm thấy và xu
 
 ## Phần kết luận
 
-Sử dụng Aspose.PDF cho .NET để tìm kiếm văn bản bằng .NET Regex là một quy trình đơn giản nhưng cực kỳ mạnh mẽ để thao tác tài liệu. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể tự động hóa và tối ưu hóa các chức năng tìm kiếm văn bản của mình trong các tệp PDF, giúp bạn tiết kiệm thời gian và công sức quý báu. Đừng ngần ngại thử nghiệm các mẫu Regex để phù hợp hơn với nhu cầu tìm kiếm của bạn! 
+Sử dụng Aspose.PDF cho .NET để tìm kiếm văn bản bằng .NET Regex là một quy trình đơn giản nhưng cực kỳ mạnh mẽ để thao tác tài liệu. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể tự động hóa và tối ưu hóa các chức năng tìm kiếm văn bản trong các tệp PDF, giúp bạn tiết kiệm thời gian và công sức quý báu. Đừng ngần ngại thử nghiệm các mẫu Regex để phù hợp hơn với nhu cầu tìm kiếm của bạn! 
 
 ## Câu hỏi thường gặp
 
@@ -148,19 +150,21 @@ Sử dụng Aspose.PDF cho .NET để tìm kiếm văn bản bằng .NET Regex l
 Aspose.PDF là thư viện .NET cho phép các nhà phát triển tạo và xử lý tài liệu PDF theo chương trình.
 
 ### Làm thế nào tôi có thể tải xuống Aspose.PDF cho .NET?
- Bạn có thể tải nó xuống từ[Trang phát hành PDF của Aspose](https://releases.aspose.com/pdf/net/).
+Bạn có thể tải nó xuống từ [Trang phát hành PDF của Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Tôi có thể sử dụng biểu thức chính quy khi tìm kiếm PDF không?
 Có! Aspose.PDF hỗ trợ biểu thức chính quy để tìm kiếm văn bản.
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể truy cập hỗ trợ tại[Diễn đàn PDF Aspose](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể truy cập hỗ trợ tại [Diễn đàn PDF Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Có phiên bản dùng thử nào cho Aspose.PDF không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí từ[Trang phát hành Aspose](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí từ [Trang phát hành Aspose](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

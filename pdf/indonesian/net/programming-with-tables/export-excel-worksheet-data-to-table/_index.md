@@ -1,14 +1,16 @@
 ---
-title: Ekspor Data Lembar Kerja Excel Ke Tabel
-linktitle: Ekspor Data Lembar Kerja Excel Ke Tabel
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekspor data lembar kerja Excel ke tabel PDF menggunakan Aspose.PDF untuk .NET. Tutorial langkah demi langkah dengan contoh kode, prasyarat, dan kiat bermanfaat.
-weight: 70
-url: /id/net/programming-with-tables/export-excel-worksheet-data-to-table/
+"description": "Pelajari cara mengekspor data lembar kerja Excel ke tabel PDF menggunakan Aspose.PDF untuk .NET. Tutorial langkah demi langkah dengan contoh kode, prasyarat, dan kiat bermanfaat."
+"linktitle": "Ekspor Data Lembar Kerja Excel Ke Tabel"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ekspor Data Lembar Kerja Excel Ke Tabel"
+"url": "/id/net/programming-with-tables/export-excel-worksheet-data-to-table/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor Data Lembar Kerja Excel Ke Tabel
@@ -21,12 +23,12 @@ Pernahkah Anda perlu mengekspor data dari lembar kerja Excel ke dalam file PDF, 
 
 Sebelum kita masuk ke pengkodean, mari kita siapkan beberapa hal:
 
-1.  Aspose.PDF untuk Pustaka .NET – Pastikan Anda telah menginstal versi terbaru. Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
-2.  Pustaka Aspose.Cells untuk .NET – Anda memerlukan ini untuk menangani operasi Excel. Unduh dari[Di Sini](https://releases.aspose.com/cells/net/).
+1. Aspose.PDF untuk Pustaka .NET – Pastikan Anda telah menginstal versi terbaru. Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
+2. Pustaka Aspose.Cells untuk .NET – Anda memerlukan ini untuk menangani operasi Excel. Unduh dari [Di Sini](https://releases.aspose.com/cells/net/).
 3. Lingkungan Pengembangan .NET – Alat seperti Visual Studio akan bekerja dengan sempurna untuk pengkodean.
 4. Berkas Excel – Siapkan berkas Excel berisi data yang ingin diekspor.
 
- Jika Anda tidak memiliki pustaka Aspose.PDF dan Aspose.Cells, Anda dapat memulai dengan[uji coba gratis](https://releases.aspose.com/).
+Jika Anda tidak memiliki pustaka Aspose.PDF dan Aspose.Cells, Anda dapat memulai dengan [uji coba gratis](https://releases.aspose.com/).
 
 ## Paket Impor
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(new FileStream(dataDir + "newBook1.xlsx", FileMode.Open));
 ```
 
- Penjelasan: Di sini, kita tentukan jalur direktori tempat file Excel kita berada dan memuat buku kerja menggunakan`Aspose.Cells.Workbook` Pastikan untuk menyesuaikan`"YOUR DOCUMENT DIRECTORY"` untuk menunjuk ke lokasi berkas Anda.
+Penjelasan: Di sini, kita tentukan jalur direktori tempat file Excel kita berada dan memuat buku kerja menggunakan `Aspose.Cells.Workbook`Pastikan untuk menyesuaikan `"YOUR DOCUMENT DIRECTORY"` untuk menunjuk ke lokasi berkas Anda.
 
 ## Langkah 2: Akses Lembar Kerja Pertama
 
@@ -76,7 +78,7 @@ Sekarang, mari ekspor data dari lembar Excel ke objek DataTable, yang akan berti
 DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, worksheet.Cells.MaxRow + 1, worksheet.Cells.MaxColumn + 1, true);
 ```
 
- Penjelasan:`ExportDataTable` metode mengekstrak data mulai dari sel pertama lembar kerja dan mencakup semua baris dan kolom. Data ini kemudian disimpan dalam`DataTable` untuk penggunaan lebih lanjut.
+Penjelasan: `ExportDataTable` metode mengekstrak data mulai dari sel pertama lembar kerja dan mencakup semua baris dan kolom. Data ini kemudian disimpan dalam `DataTable` untuk penggunaan lebih lanjut.
 
 ## Langkah 4: Buat Dokumen PDF Baru
 
@@ -90,7 +92,7 @@ Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document();
 Aspose.Pdf.Page page = pdfDocument.Pages.Add();
 ```
 
- Penjelasan: Di sini kita menginisialisasi sebuah`Aspose.Pdf.Document`dan tambahkan halaman ke dalamnya. Halaman ini nantinya akan berisi tabel yang kita buat dari data Excel.
+Penjelasan: Di sini kita menginisialisasi sebuah `Aspose.Pdf.Document` dan tambahkan halaman ke dalamnya. Halaman ini nantinya akan berisi tabel yang kita buat dari data Excel.
 
 ## Langkah 5: Buat Objek Tabel dalam PDF
 
@@ -104,7 +106,7 @@ Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 page.Paragraphs.Add(table);
 ```
 
- Penjelasan: Kami membuat sebuah`Aspose.Pdf.Table` objek dan menambahkannya ke koleksi paragraf halaman, yang memastikan bahwa tabel ditampilkan di halaman.
+Penjelasan: Kami membuat sebuah `Aspose.Pdf.Table` objek dan menambahkannya ke koleksi paragraf halaman, yang memastikan bahwa tabel ditampilkan di halaman.
 
 ## Langkah 6: Mengatur Lebar dan Batas Kolom
 
@@ -118,7 +120,7 @@ table.ColumnWidths = "40 100 100";
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.1F);
 ```
 
- Penjelasan: Kami mengatur lebar tiga kolom dan memberikan semua sel batas default dengan ketebalan`0.1F`.
+Penjelasan: Kami mengatur lebar tiga kolom dan memberikan semua sel batas default dengan ketebalan `0.1F`.
 
 ## Langkah 7: Impor Data dari DataTable ke Tabel PDF
 
@@ -129,7 +131,7 @@ Sekarang, saatnya mengimpor data dari DataTable ke tabel PDF kita.
 table.ImportDataTable(dataTable, true, 0, 0, dataTable.Rows.Count + 1, dataTable.Columns.Count);
 ```
 
- Penjelasan:`ImportDataTable`metode mentransfer semua data dari`DataTable` ke tabel PDF. Ini akan mengisi tabel dengan data dari lembar Excel Anda.
+Penjelasan: `ImportDataTable` metode mentransfer semua data dari `DataTable` ke tabel PDF. Ini akan mengisi tabel dengan data dari lembar Excel Anda.
 
 ## Langkah 8: Memberi Gaya pada Baris Header
 
@@ -173,7 +175,7 @@ Penjelasan: Untuk semua baris kecuali header, kami menetapkan latar belakang abu
 Terakhir, simpan dokumen PDF dengan tabel.
 
 ```csharp
-// Simpan PDFnya
+// Simpan PDF-nya
 pdfDocument.Save(dataDir + "Exceldata_toPdf_table.pdf");
 ```
 
@@ -181,7 +183,7 @@ Penjelasan: Kami menyimpan PDF ke direktori yang ditentukan. Voilà! Data Excel 
 
 ## Kesimpulan
 
-Nah, itu dia! Hanya dalam beberapa langkah, Anda telah mengekspor data dari lembar kerja Excel ke dalam tabel di dalam PDF menggunakan Aspose.PDF for .NET. Dengan memecah proses dan menatanya di sepanjang proses, Anda dapat menyesuaikan hasil dan memastikan data Anda terlihat bersih dan profesional. Jadi, lain kali seseorang memberi Anda file Excel dan meminta laporan PDF, Anda tahu persis apa yang harus dilakukan.
+Nah, itu dia! Hanya dalam beberapa langkah, Anda telah mengekspor data dari lembar kerja Excel ke dalam tabel di dalam PDF menggunakan Aspose.PDF untuk .NET. Dengan memecah proses dan menatanya di sepanjang proses, Anda dapat menyesuaikan hasil dan memastikan data Anda terlihat bersih dan profesional. Jadi, lain kali seseorang memberi Anda file Excel dan meminta laporan PDF, Anda tahu persis apa yang harus dilakukan.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -189,19 +191,21 @@ Nah, itu dia! Hanya dalam beberapa langkah, Anda telah mengekspor data dari lemb
 Tentu saja! Anda dapat mengubah warna, font, perataan, dan bahkan menambahkan batas pada sel tertentu.
 
 ### Apakah Aspose.PDF untuk .NET gratis?
- Ini menawarkan uji coba gratis, tetapi untuk penggunaan yang lebih lama, Anda memerlukan lisensi. Anda dapat[beli disini](https://purchase.aspose.com/buy).
+Ini menawarkan uji coba gratis, tetapi untuk penggunaan yang lebih lama, Anda memerlukan lisensi. Anda dapat [beli disini](https://purchase.aspose.com/buy).
 
 ### Bisakah saya mengekspor hanya baris dan kolom tertentu?
- Ya, Anda dapat mengubah parameter di`ExportDataTable` metode untuk mengekspor rentang tertentu.
+Ya, Anda dapat mengubah parameter di `ExportDataTable` metode untuk mengekspor rentang tertentu.
 
 ### Apakah ini berfungsi dengan file Excel berukuran besar?
 Ya, Aspose.Cells dirancang untuk menangani file Excel berukuran besar secara efisien.
 
 ### Bagaimana cara menambahkan lebih banyak halaman ke PDF?
- Anda dapat menggunakan`pdfDocument.Pages.Add()` untuk menambahkan halaman sebanyak yang Anda perlukan.
+Anda dapat menggunakan `pdfDocument.Pages.Add()` untuk menambahkan halaman sebanyak yang Anda perlukan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

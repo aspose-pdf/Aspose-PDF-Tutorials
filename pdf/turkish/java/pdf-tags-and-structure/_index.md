@@ -1,14 +1,16 @@
 ---
-title: PDF Etiketleri ve Yapısı
-linktitle: PDF Etiketleri ve Yapısı
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF eğitimleriyle Java'da PDF etiketlerini ve yapısını öğrenin. Zahmetsizce erişilebilir ve düzenli PDF'ler oluşturun.
-weight: 21
-url: /tr/java/pdf-tags-and-structure/
+"description": "Java için Aspose.PDF eğitimleriyle Java'da PDF etiketlerini ve yapısını öğrenin. Zahmetsizce erişilebilir ve düzenli PDF'ler oluşturun."
+"linktitle": "PDF Etiketleri ve Yapısı"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF Etiketleri ve Yapısı"
+"url": "/tr/java/pdf-tags-and-structure/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Etiketleri ve Yapısı
@@ -40,9 +42,11 @@ Java ve Java için Aspose.PDF kullanarak PDF belgelerinde tabloların nasıl olu
 Java için Aspose.PDF ile PDF belgeleri için özel etiket adlarının nasıl ayarlanacağını öğrenin.
 ### [Java kullanarak PDF'de İllüstrasyon Yapı Elemanları](./illustration-structure-elements-in-pdf-using-java/)
 Aspose.PDF ile Java kullanarak PDF dosyalarında çizimler ve yapı öğelerinin nasıl oluşturulacağını öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

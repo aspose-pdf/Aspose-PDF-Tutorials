@@ -1,41 +1,43 @@
 ---
-title: Přidat obrázek do existujícího souboru PDF v Javě
-linktitle: Přidat obrázek do existujícího souboru PDF v Javě
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se, jak snadno přidávat obrázky do existujících souborů PDF v Javě s Aspose.PDF pro Javu. Vylepšete své dokumenty PDF pomocí podrobných pokynů a příkladů kódu.
-weight: 11
-url: /cs/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/
+"description": "Naučte se, jak snadno přidávat obrázky do existujících PDF souborů v Javě s Aspose.PDF pro Javu. Vylepšete své PDF dokumenty pomocí podrobných pokynů a příkladů kódu."
+"linktitle": "Přidání obrázku do existujícího PDF souboru v Javě"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Přidání obrázku do existujícího PDF souboru v Javě"
+"url": "/cs/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidat obrázek do existujícího souboru PDF v Javě
+# Přidání obrázku do existujícího PDF souboru v Javě
 
 
-## Úvod k přidání obrázku do existujícího souboru PDF v Javě
+## Úvod do přidání obrázku do existujícího PDF souboru v Javě
 
-Přidání obrázků do stávajících souborů PDF v Javě může výrazně zlepšit vizuální přitažlivost a obsah vašich dokumentů. V tomto tutoriálu vás provedeme krok za krokem procesem použití Aspose.PDF pro Java ke splnění tohoto úkolu.
+Přidávání obrázků do existujících PDF souborů v Javě může výrazně vylepšit vizuální atraktivitu a obsah vašich dokumentů. V tomto tutoriálu vás krok za krokem provedeme procesem použití Aspose.PDF pro Javu k provedení tohoto úkolu.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-- Pracovní znalost programování v Javě
-- Java Development Kit (JDK) nainstalovaný ve vašem systému
--  Aspose.PDF pro knihovnu Java, kterou si můžete stáhnout[zde](https://releases.aspose.com/pdf/java/)
+- Praktická znalost programování v Javě
+- Sada pro vývoj Java (JDK) nainstalovaná ve vašem systému
+- Aspose.PDF pro knihovnu Java, kterou si můžete stáhnout z [zde](https://releases.aspose.com/pdf/java/)
 
 ## Krok 1: Nastavení vývojového prostředí
 
-Chcete-li začít, musíte nastavit vývojové prostředí. Postupujte takto:
+Nejprve je třeba nastavit vývojové prostředí. Postupujte takto:
 
-1. Stáhněte a nainstalujte knihovnu Aspose.PDF for Java.
-2. Vytvořte nový projekt Java ve vašem preferovaném integrovaném vývojovém prostředí (IDE).
+1. Stáhněte a nainstalujte knihovnu Aspose.PDF pro Javu.
+2. Vytvořte nový projekt Java ve vámi preferovaném integrovaném vývojovém prostředí (IDE).
 
 ## Krok 2: Přidání závislostí
 
-Dále musíte do projektu zahrnout Aspose.PDF for Java. Přidejte do konfigurace projektu následující závislost:
+Dále je třeba do projektu zahrnout Aspose.PDF pro Javu. Do konfigurace projektu přidejte následující závislost:
 
 ```xml
 <!-- Aspose.PDF for Java -->
@@ -48,27 +50,27 @@ Dále musíte do projektu zahrnout Aspose.PDF for Java. Přidejte do konfigurace
 
 ## Krok 3: Vytvoření dokumentu PDF
 
-Nyní začněme vytvořením nového dokumentu PDF pomocí Aspose.PDF for Java. Zde je úryvek kódu, který vám pomůže začít:
+Nyní začněme vytvořením nového PDF dokumentu pomocí Aspose.PDF pro Javu. Zde je úryvek kódu, který vám pomůže začít:
 
 ```java
-// Inicializujte nový dokument PDF
+// Inicializace nového PDF dokumentu
 Document pdfDocument = new Document();
 
-// Přidejte do dokumentu stránku
+// Přidat stránku do dokumentu
 Page page = pdfDocument.getPages().add();
 
-// Váš obsah je zde
+// Váš obsah se přidává sem
 
-// Uložte dokument
+// Uložit dokument
 pdfDocument.save("output.pdf");
 ```
 
 ## Krok 4: Přidání obrázku do PDF
 
-Chcete-li přidat obrázek do PDF, můžete použít následující kód:
+Chcete-li do PDF přidat obrázek, můžete použít následující kód:
 
 ```java
-// Načtěte existující dokument PDF
+// Načíst existující PDF dokument
 Document pdfDocument = new Document("input.pdf");
 
 // Načtěte obrázek, který chcete přidat
@@ -78,59 +80,61 @@ image.setFile("image.jpg");
 // Přidejte obrázek na stránku
 page.getParagraphs().add(image);
 
-// Uložte upravené PDF
+// Uložit upravený PDF
 pdfDocument.save("output.pdf");
 ```
 
-## Krok 5: Přizpůsobení umístění obrázku
+## Krok 5: Úprava umístění obrázku
 
- Umístění a velikost přidaného obrázku můžete upravit pomocí vlastností jako`setHorizontalAlignment`, `setVerticalAlignment` a`setRectangle`. Upravte tyto vlastnosti podle potřeby, abyste dosáhli požadovaného umístění a velikosti.
+Umístění a velikost přidaného obrázku můžete přizpůsobit pomocí vlastností, jako je `setHorizontalAlignment`, `setVerticalAlignment`a `setRectangle`Upravte tyto vlastnosti podle potřeby, abyste dosáhli požadovaného umístění a velikosti.
 
 ```java
-// Přizpůsobte umístění obrázku
+// Přizpůsobení umístění obrázku
 image.setHorizontalAlignment(HorizontalAlignment.Center);
 image.setVerticalAlignment(VerticalAlignment.Middle);
-image.setRectangle(new Rectangle(100, 100, 200, 200)); // Nastavte vlastní rozměry
+image.setRectangle(new Rectangle(100, 100, 200, 200)); // Nastavení vlastních rozměrů
 ```
 
 ## Krok 6: Uložení upraveného PDF
 
- Nakonec uložte upravený PDF s přidaným obrázkem pomocí`save` metoda.
+Nakonec uložte upravený PDF soubor s přidaným obrázkem pomocí `save` metoda.
 
 ```java
 pdfDocument.save("output.pdf");
 ```
 
-Gratuluji! Úspěšně jste přidali obrázek do existujícího souboru PDF v Javě pomocí Aspose.PDF for Java.
+Gratulujeme! Úspěšně jste přidali obrázek do existujícího PDF souboru v Javě pomocí Aspose.PDF pro Javu.
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili přidávat obrázky do existujících souborů PDF v Javě pomocí Aspose.PDF pro Javu. Vylepšení dokumentů PDF pomocí obrázků je může učinit poutavějšími a informativnějšími. S Aspose.PDF pro Java máte flexibilitu přizpůsobit umístění a vzhled obrázku tak, aby vyhovoval vašim specifickým potřebám. Nyní můžete snadno vytvářet vizuálně přitažlivé soubory PDF.
+V tomto tutoriálu jsme se naučili, jak přidávat obrázky do existujících PDF souborů v Javě pomocí Aspose.PDF pro Javu. Vylepšení PDF dokumentů obrázky je může učinit poutavějšími a informativnějšími. S Aspose.PDF pro Javu máte flexibilitu přizpůsobit umístění a vzhled obrázků svým specifickým potřebám. Nyní můžete snadno vytvářet vizuálně přitažlivé PDF soubory.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak přidám více obrázků do PDF?
 
-Můžete přidat více obrázků opakováním procesu přidávání obrázků pro každý obrázek a úpravou jejich polohy podle potřeby.
+Více obrázků můžete přidat opakováním procesu přidávání obrázků pro každý obrázek a úpravou jejich pozice podle potřeby.
 
-### Mohu přidat obrázky na konkrétní stránky ve vícestránkovém PDF?
+### Mohu přidávat obrázky na konkrétní stránky ve vícestránkovém PDF?
 
-Ano, můžete zadat číslo stránky při přidávání obrázku, který má cílit na konkrétní stránku ve vícestránkovém PDF.
+Ano, při přidávání obrázku pro cílení na konkrétní stránku ve vícestránkovém PDF můžete zadat číslo stránky.
 
-### Je Aspose.PDF for Java kompatibilní s různými formáty obrázků?
+### Je Aspose.PDF pro Javu kompatibilní s různými obrazovými formáty?
 
-Ano, Aspose.PDF for Java podporuje různé obrazové formáty jako JPEG, PNG, BMP a GIF.
+Ano, Aspose.PDF pro Javu podporuje různé obrazové formáty, jako jsou JPEG, PNG, BMP a GIF.
 
 ### Jak mohu ovládat průhlednost přidaných obrázků?
 
- Krytí obrázku můžete nastavit pomocí`setOpacity` způsob kontroly průhlednosti.
+Neprůhlednost obrázku můžete nastavit pomocí `setOpacity` metoda pro kontrolu průhlednosti.
 
-### Mohu otočit přidaný obrázek?
+### Mohu přidaný obrázek otočit?
 
- Ano, můžete použít`setRotate` způsob otáčení obrázku podle potřeby.
+Ano, můžete použít `setRotate` způsob otáčení obrázku dle potřeby.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

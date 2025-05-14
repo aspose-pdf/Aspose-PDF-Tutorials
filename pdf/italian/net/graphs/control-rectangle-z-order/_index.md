@@ -1,41 +1,46 @@
 ---
-title: Creare e personalizzare PDF con rettangoli in .NET 
-weight: 7700
-limit: 
-description: Impara come creare un documento PDF in .NET, aggiungere rettangoli colorati con indici Z variabili e salvare il documento finale utilizzando Aspose.PDF.  
-keywords: [Aspose.PDF, .NET PDF example, create PDF, add rectangles, Z-index, PDF manipulation]
-url: /it/net/graphs/control-rectangle-z-order/
+"description": "Scopri come creare un documento PDF in .NET, aggiungere rettangoli colorati con indici Z variabili e salvare il documento finale utilizzando Aspose.PDF."
+"title": "Crea e personalizza PDF con rettangoli in .NET"
+"url": "/it/net/graphs/control-rectangle-z-order/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Creazione e personalizzazione PDF con rettangoli
+# Crea e personalizza PDF con rettangoli
 
-Questa guida mostra come creare un documento PDF utilizzando Aspose.PDF per .NET, incorporando rettangoli colorati con diversi indici Z per controllare la loro stratificazione. Seguire le istruzioni passo-passo per aggiungere forme al PDF e salvare il documento, migliorando le capacità di generazione PDF della tua applicazione.
+Questa guida illustra come creare un documento PDF utilizzando Aspose.PDF per .NET, incorporando rettangoli colorati con diversi indici Z per controllarne la disposizione a strati. Seguite le istruzioni passo passo per aggiungere forme al PDF e salvarlo, migliorando le capacità di generazione PDF della vostra applicazione.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/control-rectangle-z-order" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Istruzioni di installazione
-1. Assicurarsi di avere impostato un ambiente di sviluppo .NET (come Visual Studio).
-2. Scarica la libreria Aspose.PDF dal sito [Sito web Aspose](https://www.aspose.com/purchase)\- Non lo so .
-3. Installare il pacchetto NuGet Aspose.PDF eseguendo `Installare il pacchetto Aspose.PDF`nella Console del Gestore pacchetti.
-4. Includere gli spazi dei nomi necessari nel progetto:
+## Istruzioni per l'installazione
+1. Assicurati di aver configurato l'ambiente di sviluppo .NET (ad esempio Visual Studio).
+2. Scarica la libreria Aspose.PDF da [Sito web di Aspose](https://www.aspose.com/purchase).
+3. Installa il pacchetto NuGet Aspose.PDF eseguendo `Install-Package Aspose.PDF` nella console di Gestione pacchetti.
+4. Includi gli spazi dei nomi necessari nel tuo progetto:
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
    ```
 
-## Per informazioni dettagliate, visitare:  
-* [Aspose.PDF per la documentazione .NET](https://docs.aspose.com/pdf/net/)  
-* [Riferimento API per Aspose.PDF per .NET](https://reference.aspose.com/pdf/net/)  
+## Per la documentazione dettagliata, visitare:  
+- [Documentazione di Aspose.PDF per .NET](https://docs.aspose.com/pdf/net/)  
+- [Riferimento API per Aspose.PDF per .NET](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

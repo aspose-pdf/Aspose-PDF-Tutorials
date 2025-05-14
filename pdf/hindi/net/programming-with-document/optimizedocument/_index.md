@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ दस्तावेज़ अनुकूलित करें
-linktitle: पीडीएफ दस्तावेज़ अनुकूलित करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों को अनुकूलित करना सीखें। फ़ाइल आकार और जटिलता को कम करके वेब प्रदर्शन को बेहतर बनाएँ।
-weight: 240
-url: /hi/net/programming-with-document/optimizedocument/
+"description": "हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों को अनुकूलित करना सीखें। फ़ाइल आकार और जटिलता को कम करके वेब प्रदर्शन को बेहतर बनाएँ।"
+"linktitle": "पीडीएफ दस्तावेज़ अनुकूलित करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ दस्तावेज़ अनुकूलित करें"
+"url": "/hi/net/programming-with-document/optimizedocument/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ दस्तावेज़ अनुकूलित करें
@@ -23,9 +25,9 @@ url: /hi/net/programming-with-document/optimizedocument/
 
 1. आपके मशीन पर Visual Studio स्थापित है.
 2. .NET फ्रेमवर्क (संस्करण 4.0 या उच्चतर)।
-3.  .NET के लिए Aspose.PDF—आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/pdf/net/).
+3. .NET के लिए Aspose.PDF—आप कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/pdf/net/).
 4. एक पीडीएफ दस्तावेज़ जिसे आप अनुकूलित करना चाहते हैं।
-5. एक वैध Aspose लाइसेंस - आप एक का विकल्प चुन सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या खरीदें[पूर्ण लाइसेंस](https://purchase.aspose.com/buy).
+5. एक वैध Aspose लाइसेंस - आप एक का विकल्प चुन सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या खरीदें [पूर्ण लाइसेंस](https://purchase.aspose.com/buy).
 
 ## पैकेज आयात करें
 
@@ -69,7 +71,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
- यहाँ क्या हो रहा है? हम उस निर्देशिका को परिभाषित करते हैं जहाँ आपकी पीडीएफ फाइल संग्रहीत है और फिर इसका उपयोग करें`Document` क्लास में जाकर उस फ़ाइल को खोलें। यह आपके प्रोग्राम को यह बताने जैसा है, "अरे, यह वह फ़ाइल है जिस पर मैं काम करना चाहता हूँ!"
+यहाँ क्या हो रहा है? हम उस निर्देशिका को परिभाषित करते हैं जहाँ आपकी पीडीएफ फाइल संग्रहीत है और फिर इसका उपयोग करें `Document` क्लास में जाकर उस फ़ाइल को खोलें। यह आपके प्रोग्राम को यह बताने जैसा है, "अरे, यह वह फ़ाइल है जिस पर मैं काम करना चाहता हूँ!"
 
 ## चरण 4: पीडीएफ को वेब के लिए अनुकूलित करें
 
@@ -115,9 +117,11 @@ pdfDocument.Save(dataDir);
 
 ### क्या मैं अनुकूलन को पूर्ववत कर सकता हूँ?
 नहीं, एक बार PDF को ऑप्टिमाइज़ करके सेव कर लेने के बाद, उसमें किए गए बदलाव स्थायी हो जाते हैं। आपको हमेशा मूल फ़ाइल का बैकअप रखना चाहिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

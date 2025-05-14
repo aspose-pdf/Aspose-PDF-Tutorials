@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove Images Linked to Annotations in PDFs Using Aspose.PDF for Java
 
@@ -186,7 +188,11 @@ To continue exploring Aspose.PDF's capabilities, consider delving into other fea
 - [Documentation](https://reference.aspose.com/pdf/java/)
 - [Download Library](https://releases.aspose.com/pdf/java/)
 - [Purchase License](https://www.aspose.com/purchase-pdf.aspx)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

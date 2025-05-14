@@ -1,100 +1,104 @@
 ---
-title: Přidání textu do záhlaví nebo zápatí souboru PDF pomocí Java
-linktitle: Přidání textu do záhlaví nebo zápatí souboru PDF pomocí Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se, jak vylepšit dokumenty PDF přidáním textu do záhlaví nebo zápatí pomocí Java. Prozkoumejte podrobné pokyny s Aspose.PDF pro Java.
-weight: 14
-url: /cs/java/pdf-document-operations/adding-text-in-header-or-footer-of-pdf-file-using-java/
+"description": "Naučte se, jak vylepšit PDF dokumenty přidáním textu do záhlaví nebo zápatí pomocí Javy. Prozkoumejte podrobné pokyny s Aspose.PDF pro Javu."
+"linktitle": "Přidání textu do záhlaví nebo zápatí PDF souboru pomocí Javy"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Přidání textu do záhlaví nebo zápatí PDF souboru pomocí Javy"
+"url": "/cs/java/pdf-document-operations/adding-text-in-header-or-footer-of-pdf-file-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidání textu do záhlaví nebo zápatí souboru PDF pomocí Java
+# Přidání textu do záhlaví nebo zápatí PDF souboru pomocí Javy
 
 
-## Úvod do přidávání textu do záhlaví nebo zápatí souboru PDF pomocí Java
+## Úvod do přidávání textu do záhlaví nebo zápatí PDF souboru pomocí Javy
 
-V tomto komplexním průvodci prozkoumáme, jak přidat text do záhlaví nebo zápatí souboru PDF pomocí Javy. Aspose.PDF for Java poskytuje robustní rozhraní API pro práci s dokumenty PDF, což usnadňuje přizpůsobení záhlaví a zápatí vašim specifickým požadavkům.
+V tomto komplexním průvodci se podíváme na to, jak přidat text do záhlaví nebo zápatí PDF souboru pomocí Javy. Aspose.PDF pro Javu poskytuje robustní API pro práci s PDF dokumenty, které usnadňuje přizpůsobení záhlaví a zápatí vašim specifickým požadavkům.
 
 ## Předpoklady
 
 Než se pustíme do implementace, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Aspose.PDF pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/pdf/java/).
+- Na vašem systému nainstalovaná sada pro vývoj Java (JDK).
+- Aspose.PDF pro knihovnu Java. Můžete si ji stáhnout z [zde](https://releases.aspose.com/pdf/java/).
 
-## Krok 1: Vytvořte nový projekt Java
+## Krok 1: Vytvořte nový projekt v Javě
 
-Začněte vytvořením nového projektu Java ve vámi preferovaném integrovaném vývojovém prostředí (IDE). Nezapomeňte zahrnout knihovnu Aspose.PDF do cesty třídy vašeho projektu.
+Začněte vytvořením nového projektu Java ve vámi preferovaném integrovaném vývojovém prostředí (IDE). Nezapomeňte do cesty ke třídám projektu zahrnout knihovnu Aspose.PDF.
 
-## Krok 2: Inicializujte dokument PDF
+## Krok 2: Inicializace dokumentu PDF
 
 ```java
-// Inicializujte nový dokument PDF
+// Inicializace nového PDF dokumentu
 Document pdfDocument = new Document();
 
 // Vytvořte stránku pro přidání obsahu
 Page page = pdfDocument.getPages().add();
 ```
 
-V tomto kroku inicializujeme nový dokument PDF a vytvoříme stránku pro přidání obsahu.
+V tomto kroku inicializujeme nový PDF dokument a vytvoříme stránku pro přidání obsahu.
 
-## Krok 3: Přidejte text do záhlaví nebo zápatí
+## Krok 3: Přidání textu do záhlaví nebo zápatí
 
- Chcete-li přidat text do záhlaví nebo zápatí PDF, můžete použít`TextStamp` třída. Zde je příklad, jak přidat text do záhlaví:
+Chcete-li přidat text do záhlaví nebo zápatí PDF souboru, můžete použít `TextStamp` třída. Zde je příklad, jak přidat text do záhlaví:
 
 ```java
-// Vytvořte objekt TextStamp
+// Vytvoření objektu TextStamp
 TextStamp textStamp = new TextStamp("Header Text");
 textStamp.setBackground(false);
 textStamp.setXIndent(100);
 textStamp.setYIndent(20);
 
-// Přidejte TextStamp do záhlaví stránky
+// Přidání textového razítka do záhlaví stránky
 page.addStamp(textStamp);
 ```
 
- Můžete přizpůsobit text, pozici a další vlastnosti`TextStamp` dle vašich požadavků. Chcete-li přidat text do zápatí, postupujte podobným způsobem s příslušnými souřadnicemi.
+Můžete si přizpůsobit text, umístění a další vlastnosti `TextStamp` podle vašich požadavků. Chcete-li přidat text do zápatí, postupujte podobným způsobem s příslušnými souřadnicemi.
 
-## Krok 4: Uložte dokument PDF
+## Krok 4: Uložení dokumentu PDF
 
-Po přidání textu do záhlaví nebo zápatí byste měli uložit dokument PDF:
+Po přidání textu do záhlaví nebo zápatí byste měli dokument PDF uložit:
 
 ```java
-// Uložte dokument PDF
+// Uložit dokument PDF
 pdfDocument.save("output.pdf");
 ```
 
 ## Závěr
 
-této příručce jsme se naučili, jak přidat text do záhlaví nebo zápatí souboru PDF pomocí Java a Aspose.PDF for Java. Tato schopnost vám umožňuje přizpůsobit vaše dokumenty PDF tak, aby v případě potřeby obsahovaly důležité informace v záhlaví a zápatí.
+této příručce jsme se naučili, jak přidat text do záhlaví nebo zápatí PDF souboru pomocí Javy a Aspose.PDF pro Javu. Tato funkce vám umožňuje přizpůsobit vaše PDF dokumenty tak, aby v záhlaví a zápatí dle potřeby zahrnovaly důležité informace.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak změním styl písma textu záhlaví?
 
- Chcete-li změnit styl písma textu záhlaví, můžete použít`TextStamp.setFont()` a zadejte požadovaná nastavení písma.
+Chcete-li změnit styl písma textu záhlaví, můžete použít `TextStamp.setFont()` a zadejte požadované nastavení písma.
 
-### Mohu přidat obrázky do záhlaví nebo zápatí místo textu?
+### Mohu do záhlaví nebo zápatí přidat obrázky místo textu?
 
- Ano, obrázky můžete přidat do záhlaví nebo zápatí pomocí`ImageStamp` třídy poskytované Aspose.PDF pro Javu.
+Ano, obrázky můžete do záhlaví nebo zápatí přidat pomocí `ImageStamp` třída poskytovaná Aspose.PDF pro Javu.
 
 ### Je možné mít na různých stránkách různá záhlaví a zápatí?
 
- Ano, můžete mít různá záhlaví a zápatí na různých stránkách manipulací s`TextStamp` nebo`ImageStamp` objekty jednotlivě pro každou stránku.
+Ano, na různých stránkách můžete mít různá záhlaví a zápatí manipulací s `TextStamp` nebo `ImageStamp` objekty jednotlivě pro každou stránku.
 
-### Mohu do záhlaví nebo zápatí přidat dynamický obsah, jako jsou čísla stránek?
+### Mohu do záhlaví nebo zápatí přidat dynamický obsah, například čísla stránek?
 
-Absolutně! Aspose.PDF for Java umožňuje přidávat dynamický obsah, jako jsou čísla stránek, do záhlaví nebo zápatí pomocí zástupných symbolů a proměnných.
+Rozhodně! Aspose.PDF pro Javu umožňuje přidávat dynamický obsah, jako jsou čísla stránek, do záhlaví nebo zápatí pomocí zástupných symbolů a proměnných.
 
-### Kde najdu další informace a příklady pro Aspose.PDF pro Javu?
+### Kde najdu více informací a příkladů pro Aspose.PDF pro Javu?
 
- Dokumentaci Aspose.PDF for Java si můžete prohlédnout na adrese[zde](https://reference.aspose.com/pdf/java/) pro podrobné informace a ukázky kódu.
+Dokumentaci k souboru Aspose.PDF pro Javu si můžete prohlédnout na adrese [zde](https://reference.aspose.com/pdf/java/) pro podrobné informace a ukázky kódu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

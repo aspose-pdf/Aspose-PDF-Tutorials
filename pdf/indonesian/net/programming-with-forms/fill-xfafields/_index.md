@@ -1,14 +1,16 @@
 ---
-title: Isi XFAFields
-linktitle: Isi XFAFields
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengisi kolom XFA dalam PDF secara terprogram menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Temukan alat manipulasi PDF yang sederhana dan canggih.
-weight: 90
-url: /id/net/programming-with-forms/fill-xfafields/
+"description": "Pelajari cara mengisi kolom XFA dalam PDF secara terprogram menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Temukan alat manipulasi PDF yang sederhana dan canggih."
+"linktitle": "Isi XFAFields"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Isi XFAFields"
+"url": "/id/net/programming-with-forms/fill-xfafields/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Isi XFAFields
@@ -23,12 +25,12 @@ Kami akan membahas semuanya mulai dari prasyarat dasar hingga memuat, mengisi, d
 
 Sebelum kita mulai membuat kode, mari kita atur pengaturannya. Anda memerlukan beberapa hal berikut:
 
--  Aspose.PDF untuk Pustaka .NET: Anda perlu mengunduh dan menginstal[Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/) perpustakaan.
+- Aspose.PDF untuk Pustaka .NET: Anda perlu mengunduh dan menginstal [Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/) perpustakaan.
 - Lingkungan Pengembangan: Visual Studio atau IDE C# lainnya.
 - .NET Framework: Pastikan Anda memiliki setidaknya .NET Framework 4.0 atau yang lebih baru.
 - Pengetahuan Dasar C#: Anda tidak perlu menjadi seorang profesional, tetapi memiliki sedikit pengetahuan tentang C# akan membantu.
 - PDF dengan Kolom XFA: Kami akan menggunakan PDF yang mendukung XFA untuk tutorial ini. Jika Anda tidak memilikinya, Anda dapat membuat atau mengunduhnya secara daring.
--  Lisensi Sementara Aspose (Opsional): Jika Anda menguji fitur lengkapnya, ambil[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+- Lisensi Sementara Aspose (Opsional): Jika Anda menguji fitur lengkapnya, ambil [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 Setelah semuanya siap, Anda siap beraksi!
 
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "FillXFAFields.pdf");
 ```
 
- Di sini,`Document` class mewakili berkas PDF yang sedang kita kerjakan. Ini seperti mengambil selembar kertas kosong (PDF Anda) dan menaruhnya di meja Anda, siap untuk diisi.
+Di sini, `Document` class mewakili berkas PDF yang sedang kita kerjakan. Ini seperti mengambil selembar kertas kosong (PDF Anda) dan menaruhnya di meja Anda, siap untuk diisi.
 
 ## Langkah 2: Dapatkan Nama Bidang Formulir XFA
 
@@ -75,7 +77,7 @@ Baris ini mengambil serangkaian nama bidang dari formulir, sehingga kita dapat m
 
 ## Langkah 3: Tetapkan Nilai untuk Bidang XFA
 
-Sekarang tibalah bagian yang menyenangkan—mengisi kolom! Mari tetapkan nilai pada kolom menggunakan nama yang baru saja kita ambil.
+Sekarang tibalah bagian yang menyenangkan—mengisi kolom! Mari tetapkan nilai pada kolom menggunakan nama yang baru saja kita dapatkan.
 
 ```csharp
 // Tetapkan nilai bidang
@@ -83,7 +85,7 @@ doc.Form.XFA[names[0]] = "Field 0";
 doc.Form.XFA[names[1]] = "Field 1";
 ```
 
- Langkah ini seperti mengambil pena dan menuliskan informasi di setiap bagian formulir. Kolom pertama diisi dengan`"Field 0"` , dan yang kedua dengan`"Field 1"`Anda dapat mengganti nilai ini dengan apa pun yang relevan dengan dokumen Anda.
+Langkah ini seperti mengambil pena dan menuliskan informasi di setiap bagian formulir. Kolom pertama diisi dengan `"Field 0"`, dan yang kedua dengan `"Field 1"`Anda dapat mengganti nilai ini dengan apa pun yang relevan dengan dokumen Anda.
 
 ## Langkah 4: Simpan Dokumen yang Diperbarui
 
@@ -97,7 +99,7 @@ dataDir = dataDir + "Filled_XFA_out.pdf";
 doc.Save(dataDir);
 ```
 
- Itu`Save` Metode ini menyimpan dokumen ke direktori yang Anda tentukan, seperti mengklik "Simpan" setelah mengisi formulir di Word atau Excel. Sekarang, PDF Anda yang sudah diperbarui siap digunakan!
+Itu `Save` metode menyimpan dokumen ke direktori yang Anda tentukan, seperti mengklik "Simpan" setelah mengisi formulir di Word atau Excel. Sekarang, PDF Anda yang sudah diperbarui siap digunakan!
 
 ## Langkah 5: Verifikasi Output
 
@@ -119,7 +121,7 @@ Dalam tutorial ini, kami telah membahas cara mengisi kolom XFA dalam PDF menggun
 Bidang XFA (Arsitektur Formulir XML) memungkinkan tata letak formulir dinamis dan input pengguna yang kompleks dalam berkas PDF, membuat formulir lebih interaktif dan fleksibel.
 
 ### Dapatkah saya menggunakan Aspose.PDF untuk .NET tanpa lisensi?
- Ya, Aspose menawarkan versi uji coba gratis dengan fitur terbatas, tetapi untuk membuka fungsionalitas penuh, Anda perlu[beli lisensi](https://purchase.aspose.com/buy).
+Ya, Aspose menawarkan versi uji coba gratis dengan fitur terbatas, tetapi untuk membuka fungsionalitas penuh, Anda perlu [beli lisensi](https://purchase.aspose.com/buy).
 
 ### Bisakah Aspose.PDF menangani bidang formulir non-XFA?
 Tentu saja! Aspose.PDF untuk .NET dapat memanipulasi kolom XFA dan AcroForm.
@@ -129,9 +131,11 @@ Anda dapat dengan mudah mengulang beberapa PDF dalam kode Anda dan menerapkan lo
 
 ### Bisakah saya menyesuaikan nilai bidang secara dinamis?
 Ya, Anda dapat mengatur nilai bidang secara terprogram berdasarkan masukan pengguna, catatan basis data, atau sumber dinamis lainnya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

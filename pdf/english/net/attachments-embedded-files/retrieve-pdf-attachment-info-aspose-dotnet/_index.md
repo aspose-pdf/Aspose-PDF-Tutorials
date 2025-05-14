@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,6 +168,9 @@ Try implementing the solution in your next project to see firsthand how powerful
 With this guide, you're now equipped to handle PDF attachments effectively using Aspose.PDF for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

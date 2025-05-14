@@ -1,14 +1,16 @@
 ---
-title: Áp dụng Kiểu Số Trong Tệp PDF
-linktitle: Áp dụng Kiểu Số Trong Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách áp dụng các kiểu số khác nhau (số La Mã, chữ cái) cho tiêu đề trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/programming-with-headings/apply-number-style/
+"description": "Tìm hiểu cách áp dụng các kiểu số khác nhau (số La Mã, chữ cái) cho tiêu đề trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này."
+"linktitle": "Áp dụng Kiểu Số Trong Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Áp dụng Kiểu Số Trong Tệp PDF"
+"url": "/vi/net/programming-with-headings/apply-number-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng Kiểu Số Trong Tệp PDF
@@ -21,10 +23,10 @@ Bạn đã bao giờ thấy mình cần thêm danh sách được đánh số đ
 
 Trước khi bắt đầu viết mã, chúng ta hãy xem qua những gì bạn cần:
 
-1. Aspose.PDF cho .NET: Tải xuống phiên bản mới nhất của Aspose.PDF từ[đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Tải xuống phiên bản mới nhất của Aspose.PDF từ [đây](https://releases.aspose.com/pdf/net/).
 2. Môi trường phát triển: Đảm bảo bạn có Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework 4.0 trở lên.
-4.  Giấy phép: Bạn có thể sử dụng giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/) hoặc khám phá[dùng thử miễn phí](https://releases.aspose.com/) tùy chọn.
+4. Giấy phép: Bạn có thể sử dụng giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/) hoặc khám phá [dùng thử miễn phí](https://releases.aspose.com/) tùy chọn.
 
 ## Nhập gói
 
@@ -64,7 +66,7 @@ Bằng cách này, tài liệu của bạn sẽ có kích thước trang chuẩn
 
 Tiếp theo, chúng ta sẽ thêm một trang mới vào tài liệu PDF, tại đó chúng ta sẽ áp dụng kiểu đánh số.
 
-Giải thích: Mỗi tệp PDF đều yêu cầu số trang! Bước này thêm một trang trống vào tệp PDF và đặt lề của tệp PDF cho phù hợp với cài đặt cấp độ tài liệu.
+Giải thích: Mỗi tệp PDF đều yêu cầu số trang! Bước này thêm một trang trống vào tệp PDF và đặt lề của trang đó cho phù hợp với cài đặt cấp độ tài liệu.
 
 ```csharp
 // Thêm một trang mới vào tài liệu PDF
@@ -93,7 +95,7 @@ pdfPage.Paragraphs.Add(floatBox);
 
 ## Bước 4: Thêm Tiêu đề đầu tiên bằng Số La Mã
 
-Bây giờ đến phần thú vị! Chúng ta hãy thêm tiêu đề đầu tiên bằng số La Mã viết thường.
+Bây giờ đến phần thú vị! Hãy thêm tiêu đề đầu tiên bằng số La Mã viết thường.
 
 Giải thích: Chúng tôi đang áp dụng kiểu NumberingStyle.NumeralsRomanLowercase cho tiêu đề, kiểu này sẽ hiển thị số theo chữ số La Mã (i, ii, iii, v.v.).
 
@@ -164,20 +166,22 @@ Và bạn đã có nó! Bạn đã áp dụng thành công các kiểu đánh s�
 ### Tôi có thể áp dụng nhiều kiểu số khác nhau cho cùng một tài liệu PDF không?  
 Có, Aspose.PDF cho .NET cho phép bạn kết hợp nhiều kiểu đánh số khác nhau như số La Mã, số Ả Rập và đánh số theo chữ cái trong cùng một tài liệu.
 
-### Làm thế nào tôi có thể tùy chỉnh số bắt đầu cho tiêu đề?  
- Bạn có thể thiết lập số bắt đầu cho bất kỳ tiêu đề nào bằng cách sử dụng`StartNumber` tài sản.
+### Làm thế nào để tùy chỉnh số bắt đầu cho tiêu đề?  
+Bạn có thể thiết lập số bắt đầu cho bất kỳ tiêu đề nào bằng cách sử dụng `StartNumber` tài sản.
 
 ### Có cách nào để thiết lập lại trình tự đánh số không?  
-Có, bạn có thể thiết lập lại số bằng cách điều chỉnh`StartNumber` thuộc tính cho mỗi tiêu đề.
+Có, bạn có thể thiết lập lại số bằng cách điều chỉnh `StartNumber` thuộc tính cho mỗi tiêu đề.
 
 ### Tôi có thể áp dụng kiểu in đậm hoặc in nghiêng cho tiêu đề ngoài việc đánh số không?  
- Chắc chắn rồi! Bạn có thể tùy chỉnh kiểu tiêu đề bằng cách sửa đổi các thuộc tính như phông chữ, kích thước, in đậm và in nghiêng bằng cách sử dụng`TextState` sự vật.
+Chắc chắn rồi! Bạn có thể tùy chỉnh kiểu tiêu đề bằng cách sửa đổi các thuộc tính như phông chữ, kích thước, in đậm và in nghiêng bằng cách sử dụng `TextState` sự vật.
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.PDF?  
- Bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/) để thử nghiệm Aspose.PDF mà không có hạn chế.
+Bạn có thể xin giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/) để thử nghiệm Aspose.PDF mà không có hạn chế.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

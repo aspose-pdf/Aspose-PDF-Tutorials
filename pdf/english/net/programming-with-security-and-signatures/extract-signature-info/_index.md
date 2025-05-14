@@ -8,7 +8,9 @@ url: /net/programming-with-security-and-signatures/extract-signature-info/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Signature Info
@@ -150,6 +152,7 @@ Once the certificate is saved as a `.cer` file, you can open it using any certif
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

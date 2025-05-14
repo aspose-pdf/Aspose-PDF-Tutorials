@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Daftar Isi ke PDF yang Ada di Java
-linktitle: Menambahkan Daftar Isi ke PDF yang Ada di Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan daftar isi ke PDF di Java menggunakan Aspose.PDF untuk Java. Sempurnakan navigasi dokumen dengan panduan langkah demi langkah ini.
-weight: 34
-url: /id/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/
+"description": "Pelajari cara menambahkan daftar isi ke PDF di Java menggunakan Aspose.PDF untuk Java. Sempurnakan navigasi dokumen dengan panduan langkah demi langkah ini."
+"linktitle": "Menambahkan Daftar Isi ke PDF yang Ada di Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Daftar Isi ke PDF yang Ada di Java"
+"url": "/id/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/"
+"weight": 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Daftar Isi ke PDF yang Ada di Java
@@ -20,7 +22,7 @@ Dalam panduan langkah demi langkah ini, kita akan mempelajari cara menambahkan d
 ## Prasyarat
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menambahkan Ketergantungan
 Untuk memulai, buat proyek Java baru dan tambahkan pustaka Aspose.PDF for Java ke dependensi proyek Anda. Anda dapat melakukannya dengan menyertakan file JAR di jalur pembuatan proyek Anda.
@@ -44,7 +46,7 @@ tableOfContents.setDisplayPageNumbers(true); // Menampilkan nomor halaman
 ```
 
 ## Menambahkan Bagian ke Dokumen
-Selanjutnya, kita akan menambahkan bagian-bagian ke dokumen PDF. Bagian-bagian ini akan mewakili bab atau bagian-bagian yang berbeda dari dokumen tersebut. Berikut ini contohnya:
+Selanjutnya, kita akan menambahkan bagian-bagian ke dokumen PDF. Bagian-bagian ini akan mewakili berbagai bab atau bagian dari dokumen. Berikut ini contohnya:
 
 ```java
 // Buat bagian
@@ -98,15 +100,17 @@ Ya, Anda dapat menambahkan hyperlink ke daftar isi untuk menavigasi ke bagian at
 Ya, Aspose.PDF untuk Java menyediakan berbagai fitur untuk bekerja dengan dokumen PDF, termasuk ekstraksi teks, manipulasi halaman, dan banyak lagi.
 
 ### Apakah ada versi uji coba Aspose.PDF untuk Java yang tersedia?
- Ya, Anda dapat mengunduh versi uji coba Aspose.PDF untuk Java dari[Aspose.Pembelian](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi fitur-fiturnya sebelum membeli lisensi.
+Ya, Anda dapat mengunduh versi uji coba Aspose.PDF untuk Java dari [Aspose.Pembelian](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi fitur-fiturnya sebelum membeli lisensi.
 
 ### Bagaimana saya dapat mengakses lebih banyak tutorial dan dokumentasi Aspose.PDF untuk Java?
- Anda dapat menemukan tutorial dan dokumentasi lengkap untuk Aspose.PDF untuk Java di situs web di[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan tutorial dan dokumentasi lengkap untuk Aspose.PDF untuk Java di situs web di [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
 
-Dalam artikel ini, kami telah membahas cara menambahkan daftar isi ke dokumen PDF yang sudah ada menggunakan pustaka Aspose.PDF for Java. Fitur ini dapat meningkatkan kegunaan dokumen PDF Anda secara signifikan, sehingga pembaca dapat menavigasi ke bagian atau bab tertentu dengan mudah. Selain itu, kami telah membahas cara menyesuaikan tampilan daftar isi dan membuat nomor halaman. Aspose.PDF for Java menawarkan berbagai kemampuan manipulasi PDF, menjadikannya alat yang hebat untuk bekerja dengan PDF dalam aplikasi Java. Jika Anda memerlukan bantuan lebih lanjut atau ingin menjelajahi lebih banyak fitur Aspose.PDF for Java, pastikan untuk memeriksa dokumentasi dan tutorialnya.
+Dalam artikel ini, kami telah menjajaki cara menambahkan daftar isi ke dokumen PDF yang sudah ada menggunakan pustaka Aspose.PDF for Java. Fitur ini dapat meningkatkan kegunaan dokumen PDF Anda secara signifikan, sehingga pembaca dapat menavigasi ke bagian atau bab tertentu dengan mudah. Selain itu, kami telah membahas cara menyesuaikan tampilan daftar isi dan membuat nomor halaman. Aspose.PDF for Java menawarkan berbagai kemampuan manipulasi PDF, menjadikannya alat yang hebat untuk bekerja dengan PDF dalam aplikasi Java. Jika Anda memerlukan bantuan lebih lanjut atau ingin menjelajahi lebih banyak fitur Aspose.PDF for Java, pastikan untuk memeriksa dokumentasi dan tutorialnya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

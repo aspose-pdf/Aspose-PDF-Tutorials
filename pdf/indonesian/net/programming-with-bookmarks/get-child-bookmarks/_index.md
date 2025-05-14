@@ -1,28 +1,30 @@
 ---
-title: Dapatkan Penanda Buku Anak dalam File PDF
-linktitle: Dapatkan Penanda Buku Anak dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mendapatkan penanda anak dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan navigasi PDF Anda.
-weight: 80
-url: /id/net/programming-with-bookmarks/get-child-bookmarks/
+"description": "Pelajari cara mendapatkan penanda anak dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan navigasi PDF Anda."
+"linktitle": "Dapatkan Penanda Buku Anak dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Penanda Buku Anak dalam File PDF"
+"url": "/id/net/programming-with-bookmarks/get-child-bookmarks/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Penanda Buku Anak dalam File PDF
 
 ## Perkenalan
 
-Pernahkah Anda menemukan diri Anda sedang memilah-milah dokumen PDF yang panjang, mencoba menemukan bagian atau bab tertentu? Jika demikian, Anda tahu betapa frustasinya hal itu! Untungnya, dengan Aspose.PDF untuk .NET, Anda dapat dengan mudah mengelola bookmark dalam file PDF Anda. Dalam tutorial ini, kita akan membahas cara mengambil bookmark anak dari dokumen PDF, membuat pengalaman navigasi Anda lebih lancar dan lebih efisien. Jadi, ambil minuman favorit Anda, dan mari kita mulai!
+Pernahkah Anda mendapati diri Anda sedang memilah-milah dokumen PDF yang panjang, mencoba menemukan bagian atau bab tertentu? Jika demikian, Anda tahu betapa frustasinya hal itu! Untungnya, dengan Aspose.PDF untuk .NET, Anda dapat dengan mudah mengelola bookmark dalam file PDF Anda. Dalam tutorial ini, kita akan membahas cara mengambil bookmark anak dari dokumen PDF, membuat pengalaman navigasi Anda lebih lancar dan lebih efisien. Jadi, ambil minuman favorit Anda, dan mari kita mulai!
 
 ## Prasyarat
 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE yang tepat untuk pengembangan .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -60,18 +62,18 @@ Pertama-tama, Anda perlu menentukan jalur ke dokumen PDF Anda. Di sinilah Aspose
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
 
 ## Langkah 2: Buka Dokumen PDF
 
-Selanjutnya, kita akan membuka dokumen PDF menggunakan`Document` kelas disediakan oleh Aspose.PDF.
+Selanjutnya, kita akan membuka dokumen PDF menggunakan `Document` kelas disediakan oleh Aspose.PDF.
 
 ```csharp
 // Buka dokumen
 Document pdfDocument = new Document(dataDir + "GetChildBookmarks.pdf");
 ```
 
- Baris kode ini menginisialisasi yang baru`Document` objek dengan berkas PDF Anda. Pastikan nama berkas sesuai dengan yang Anda miliki.
+Baris kode ini menginisialisasi yang baru `Document` objek dengan berkas PDF Anda. Pastikan nama berkas sesuai dengan yang Anda miliki.
 
 ## Langkah 3: Ulangi Melalui Bookmark
 
@@ -87,7 +89,7 @@ foreach (OutlineItemCollection outlineItem in pdfDocument.Outlines)
     Console.WriteLine(outlineItem.Color);
 ```
 
- Di sini, kami menggunakan`foreach` loop untuk mengulang setiap penanda dalam dokumen. Kami mencetak judul, status miring, status tebal, dan warna setiap penanda.
+Di sini, kami menggunakan `foreach` loop untuk mengulang setiap penanda dalam dokumen. Kami mencetak judul, status miring, status tebal, dan warna setiap penanda.
 
 ## Langkah 4: Periksa Bookmark Anak
 
@@ -120,19 +122,21 @@ Nah, itu dia! Anda telah berhasil mempelajari cara mengambil bookmark anak dari 
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengelola dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara membeli lisensi?
- Anda dapat membeli lisensi untuk Aspose.PDF[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi untuk Aspose.PDF [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana jika saya butuh dukungan?
- Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi forum dukungan Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

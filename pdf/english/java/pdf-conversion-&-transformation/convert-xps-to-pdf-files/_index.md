@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/convert-xps-to-pdf-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert XPS to PDF Files
@@ -84,6 +86,7 @@ Yes, Aspose.PDF for Java is designed to handle large-scale document processing e
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

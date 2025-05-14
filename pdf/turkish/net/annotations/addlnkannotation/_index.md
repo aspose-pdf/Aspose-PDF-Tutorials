@@ -1,14 +1,16 @@
 ---
-title: lnk Açıklaması Ekle
-linktitle: lnk Açıklaması Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu ilgi çekici, adım adım kılavuzda Aspose.PDF for .NET ile PDF dosyalarına mürekkep açıklamaları eklemeyi öğrenin.
-weight: 20
-url: /tr/net/annotations/addlnkannotation/
+"description": "Bu ilgi çekici, adım adım kılavuzda Aspose.PDF for .NET ile PDF dosyalarına mürekkep açıklamaları eklemeyi öğrenin."
+"linktitle": "lnk Açıklaması Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "lnk Açıklaması Ekle"
+"url": "/tr/net/annotations/addlnkannotation/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # lnk Açıklaması Ekle
@@ -22,7 +24,7 @@ Aspose.PDF for .NET ile PDF düzenleme dünyasına hoş geldiniz! PDF belgelerin
 Kodlama sihirbazlığına dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. .NET Framework: Makinenizde .NET'in yüklü olduğundan emin olun. Bu kütüphane, .NET Core dahil olmak üzere çeşitli .NET sürümleriyle sorunsuz bir şekilde çalışır.
-2.  Aspose.PDF Kütüphanesi: .NET için Aspose.PDF kütüphanesini indirip projenizde referans göstermeniz gerekir. Bunu henüz yapmadıysanız, en son sürümü şu adresten edinebilirsiniz:[indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF Kütüphanesi: .NET için Aspose.PDF kütüphanesini indirip projenizde referans göstermeniz gerekir. Bunu henüz yapmadıysanız, en son sürümü şu adresten edinebilirsiniz: [indirme bağlantısı](https://releases.aspose.com/pdf/net/).
 3. Kod Düzenleyici: İstediğiniz herhangi bir kod düzenleyiciyi kullanabilirsiniz, ancak .NET uygulamalarıyla kullanım kolaylığı nedeniyle Visual Studio şiddetle tavsiye edilir.
 4. C# Temel Anlayışı: C# hakkında temel bilgilere sahip olmak, kodlama örnekleri arasında sorunsuz bir şekilde gezinmenize yardımcı olacaktır.
 5. Geliştirme Ortamınızı Kurma: IDE'nizin .NET projelerini işleyebilecek şekilde ayarlandığından ve projenizde Aspose.PDF kitaplığına doğru şekilde başvurduğunuzdan emin olun. 
@@ -54,7 +56,7 @@ Yapmak isteyeceğiniz ilk şey, belgenizi ve çıktı dosyanızı kaydetmek iste
 string dataDir = "YOUR DATA DIRECTORY";
 Document doc = new Document();
 ```
- Bir değişken tanımlıyoruz`dataDir` , sonuçtaki PDF'nin kaydedileceği dizini gösterir.`Document` Daha sonra nesne örneklendirilir ve düzenleme için yeni bir PDF belgesi oluşturulur.
+Bir değişken tanımlıyoruz `dataDir`, sonuçtaki PDF'nin kaydedileceği dizini gösterir. `Document` Daha sonra nesne örneklendirilir ve düzenleme için yeni bir PDF belgesi oluşturulur.
 
 ## Adım 2: Belgenize Bir Sayfa Ekleyin
 
@@ -77,7 +79,7 @@ drect.X = 0;
 drect.Y = 0;
 Aspose.Pdf.Rectangle arect = Aspose.Pdf.Rectangle.FromRect(drect);
 ```
- Burada bir tane yaratıyoruz`Rectangle` mürekkep açıklamamızı ekleyeceğimiz sayfadaki alanı belirten nesne. Boyutlarını (0,0)'dan başlayarak tüm sayfaya uyacak şekilde ayarlıyoruz.
+Burada bir tane yaratıyoruz `Rectangle` mürekkep açıklamamızı ekleyeceğimiz sayfadaki alanı belirten nesne. Boyutlarını (0,0)'dan başlayarak tüm sayfaya uyacak şekilde ayarlıyoruz.
 
 ## Adım 4: Mürekkep Noktalarını Hazırlayın
 
@@ -105,7 +107,7 @@ InkAnnotation ia = new InkAnnotation(pdfPage, arect, inkList)
     CapStyle = CapStyle.Rounded
 };
 ```
- Örneklemeyi gerçekleştiriyoruz`InkAnnotation`nesne, sayfaya geçiş, dikdörtgen ve mürekkep noktaları. Ayrıca, şu gibi bazı özellikleri ayarlıyoruz`Title`, `Color` , Ve`CapStyle`Bunları ihtiyaçlarınıza uyacak şekilde özelleştirin!
+Örneklemeyi gerçekleştiriyoruz `InkAnnotation` nesne, sayfaya geçiş, dikdörtgen ve mürekkep noktaları. Ek olarak, şu gibi bazı özellikleri ayarlıyoruz `Title`, `Color`, Ve `CapStyle`Bunları ihtiyaçlarınıza uyacak şekilde özelleştirin!
 
 ## Adım 6: Kenarlığı ve Opaklığı Ayarlayın
 
@@ -136,11 +138,11 @@ dataDir = dataDir + "AddInkAnnotation_out.pdf";
 doc.Save(dataDir);
 Console.WriteLine("\nInk annotation added successfully.\nFile saved at " + dataDir);
 ```
- Biz kendimizi değiştiriyoruz`dataDir` çıktı dosya adını eklemek ve belgeyi kaydetmek için. Her şeyin sorunsuz gittiğini bildirmek için konsola bir onay mesajı yazdırılır.
+Biz kendimizi değiştiriyoruz `dataDir` çıktı dosya adını eklemek ve belgeyi kaydetmek için. Her şeyin sorunsuz gittiğini bildirmek için konsola bir onay mesajı yazdırılır.
 
 ## Çözüm
 
-İşte oldu! Aspose.PDF for .NET kullanarak PDF belgenize mürekkep ek açıklaması eklediniz. Bu basit ama etkili özellik belgelerinizi geliştirebilir ve etkileşimli hale getirebilir. İster imza, ister not veya karalama ekleyin, mürekkep ek açıklamaları içeriği zenginleştirmek için benzersiz bir yol sunar.
+İşte oldu! Aspose.PDF for .NET kullanarak PDF belgenize mürekkep açıklaması eklediniz. Bu basit ama etkili özellik belgelerinizi geliştirebilir ve etkileşimli hale getirebilir. İster imza, ister not veya karalama ekleyin, mürekkep açıklamaları içeriği zenginleştirmek için benzersiz bir yol sunar.
 
 ## SSS
 
@@ -148,19 +150,21 @@ Console.WriteLine("\nInk annotation added successfully.\nFile saved at " + dataD
 Aspose.PDF, .NET uygulamalarında PDF belgeleri oluşturmak, düzenlemek ve dönüştürmek için kullanılan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet! Aspose, ürünlerini değerlendirmek için ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet! Aspose, ürünlerini değerlendirmek için ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Birden fazla mürekkep açıklaması eklemek mümkün müdür?
- Kesinlikle! Birden fazla oluşturabilirsiniz`InkAnnotation` nesneleri seçin ve bunları belgenizin sayfasına ekleyin.
+Kesinlikle! Birden fazla oluşturabilirsiniz `InkAnnotation` nesneleri seçin ve bunları belgenizin sayfasına ekleyin.
 
 ### Daha fazla örneği nerede bulabilirim?
- Şunu kontrol edebilirsiniz:[belgeleme](https://reference.aspose.com/pdf/net/) Ayrıntılı eğitimler ve örnekler için.
+Şunu kontrol edebilirsiniz: [belgeleme](https://reference.aspose.com/pdf/net/) Ayrıntılı eğitimler ve örnekler için.
 
 ### Desteğe ihtiyacım olursa ne yapmalıyım?
- Herhangi bir sorunla karşılaşırsanız, yardım isteyebilirsiniz.[destek forumu](https://forum.aspose.com/c/pdf/10).
+Herhangi bir sorunla karşılaşırsanız, yardım isteyebilirsiniz. [destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

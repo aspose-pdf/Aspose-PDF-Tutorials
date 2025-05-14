@@ -1,28 +1,30 @@
 ---
-title: PDF'den XML'e
-linktitle: PDF'den XML'e
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı eğitimde Aspose.PDF for .NET kullanarak PDF'yi XML'e nasıl dönüştüreceğinizi öğrenin. Kod örneklerinin de dahil olduğu adım adım kılavuz.
-weight: 210
-url: /tr/net/document-conversion/pdf-to-xml/
+"description": "Bu kapsamlı eğitimde Aspose.PDF for .NET kullanarak PDF'yi XML'e nasıl dönüştüreceğinizi öğrenin. Kod örneklerinin de dahil olduğu adım adım kılavuz."
+"linktitle": "PDF'den XML'e"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF'den XML'e"
+"url": "/tr/net/document-conversion/pdf-to-xml/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'den XML'e
 
 ## giriiş
 
-Günümüzün dijital dünyasında, belgeleri bir formattan diğerine dönüştürme yeteneği olmazsa olmazdır. İster bir geliştirici, ister bir iş profesyoneli veya sadece PDF'lerle sık sık çalışan biri olun, PDF dosyalarını XML'e nasıl dönüştüreceğinizi bilmek oyunun kurallarını değiştirebilir. XML (Genişletilebilir İşaretleme Dili), veri gösterimi için yaygın olarak kullanılır ve özellikle sistemler arasında veri alışverişi için faydalıdır. Bu eğitimde, PDF dosyalarını sorunsuz bir şekilde XML formatına dönüştürmek için Aspose.PDF for .NET'in nasıl kullanılacağını inceleyeceğiz. 
+Günümüzün dijital dünyasında, belgeleri bir formattan diğerine dönüştürme yeteneği olmazsa olmazdır. İster bir geliştirici, ister bir iş profesyoneli veya sadece PDF'lerle sık sık çalışan biri olun, PDF dosyalarını XML'e nasıl dönüştüreceğinizi bilmek oyunun kurallarını değiştirebilir. XML (Genişletilebilir İşaretleme Dili), veri gösterimi için yaygın olarak kullanılır ve sistemler arasında veri alışverişi için özellikle yararlıdır. Bu eğitimde, PDF dosyalarını sorunsuz bir şekilde XML formatına dönüştürmek için Aspose.PDF for .NET'in nasıl kullanılacağını inceleyeceğiz. 
 
 ## Ön koşullar
 
 Koda geçmeden önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu bizim geliştirme ortamımız olacak.
-2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekir. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekir. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 4. Örnek PDF Dosyası: Dönüştürmeye hazır bir örnek PDF dosyanız olsun. Basit bir PDF oluşturabilir veya internetten indirebilirsiniz.
 
@@ -53,18 +55,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Bu kod parçacığında şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile.`Document` PDF dosyasını yüklemek için Aspose.PDF sınıfı kullanılır.
+Bu kod parçacığında şunu değiştirin: `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. `Document` PDF dosyasını yüklemek için Aspose.PDF sınıfı kullanılır.
 
 ## Adım 3: PDF'yi XML'e dönüştürün
 
- PDF yüklendikten sonraki adım onu XML formatına dönüştürmektir. Bu, şu şekilde yapılır:`Save` yöntemi`Document` sınıf. İşte nasıl:
+PDF yüklendikten sonra, bir sonraki adım onu XML biçimine dönüştürmektir. Bu, şu şekilde yapılır: `Save` yöntemi `Document` sınıf. İşte nasıl:
 
 ```csharp
 // Çıktıyı XML biçiminde kaydet
 doc.Save(dataDir + "PDFToXML_out.xml", SaveFormat.MobiXml);
 ```
 
- Bu satırda çıktı dosya adını ve biçimini belirtiyoruz.`SaveFormat.MobiXml` belgeyi XML formatında kaydetmek istediğimizi belirtir.
+Bu satırda çıktı dosya adını ve biçimini belirtiyoruz. `SaveFormat.MobiXml` belgeyi XML formatında kaydetmek istediğimizi belirtir.
 
 ## Çözüm
 
@@ -76,19 +78,21 @@ Tebrikler! Aspose.PDF for .NET kullanarak bir PDF dosyasını XML formatına ba�
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### XML'i tekrar PDF'e dönüştürmek mümkün mü?
 Evet, Aspose.PDF ayrıca XML dosyalarının tekrar PDF formatına dönüştürülmesini de destekler.
 
 ### Daha fazla dokümanı nerede bulabilirim?
- .NET için Aspose.PDF'de kapsamlı belgeler bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+.NET için Aspose.PDF'de kapsamlı belgeler bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Aspose forumunu ziyaret ederek destek alabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose forumunu ziyaret ederek destek alabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,36 +1,38 @@
 ---
-title: Ajouter une liste ordonnée HTML dans les documents en Java
-linktitle: Ajouter une liste ordonnée HTML dans les documents en Java
-second_title: API de traitement PDF Java Aspose.PDF
-description: Découvrez comment ajouter des listes ordonnées HTML dans des documents PDF à l'aide d'Aspose.PDF pour Java. Guide étape par étape avec code source.
-weight: 11
-url: /fr/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/
+"description": "Apprenez à ajouter des listes ordonnées HTML à vos documents PDF avec Aspose.PDF pour Java. Guide étape par étape avec code source."
+"linktitle": "Ajouter une liste ordonnée HTML aux documents en Java"
+"second_title": "API de traitement PDF Java Aspose.PDF"
+"title": "Ajouter une liste ordonnée HTML aux documents en Java"
+"url": "/fr/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter une liste ordonnée HTML dans les documents en Java
+# Ajouter une liste ordonnée HTML aux documents en Java
 
 
-Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout d'une liste ordonnée HTML dans des documents à l'aide d'Aspose.PDF pour Java. Aspose.PDF pour Java est une bibliothèque puissante qui vous permet de créer, de manipuler et de convertir des documents PDF dans des applications Java. 
+Dans ce tutoriel, nous vous guiderons dans l'ajout d'une liste ordonnée HTML à vos documents avec Aspose.PDF pour Java. Aspose.PDF pour Java est une bibliothèque puissante qui vous permet de créer, manipuler et convertir des documents PDF dans des applications Java. 
 
 ## Introduction à Aspose.PDF pour Java
 
-Aspose.PDF for Java est une bibliothèque Java qui vous permet de travailler avec des documents PDF dans vos applications Java. Elle offre une large gamme de fonctionnalités pour créer, modifier et manipuler des fichiers PDF, ce qui en fait un outil précieux pour les développeurs.
+Aspose.PDF pour Java est une bibliothèque Java qui vous permet de travailler avec des documents PDF dans vos applications Java. Elle offre un large éventail de fonctionnalités pour la création, la modification et la manipulation de fichiers PDF, ce qui en fait un outil précieux pour les développeurs.
 
 ## Comprendre les listes ordonnées HTML
 
-Les listes ordonnées HTML sont utilisées pour afficher une liste d'éléments dans un ordre séquentiel, généralement avec des chiffres ou des lettres. Dans ce didacticiel, nous allons apprendre à convertir une liste ordonnée HTML en document PDF à l'aide d'Aspose.PDF pour Java.
+Les listes ordonnées HTML permettent d'afficher une liste d'éléments dans un ordre séquentiel, généralement avec des chiffres ou des lettres. Dans ce tutoriel, nous allons apprendre à convertir une liste ordonnée HTML en document PDF avec Aspose.PDF pour Java.
 
-## Ajout d'Aspose.PDF pour Java à votre projet
+## Ajouter Aspose.PDF pour Java à votre projet
 
- Avant de commencer, vous devez ajouter Aspose.PDF pour Java à votre projet Java. Vous pouvez télécharger la bibliothèque à partir du site Web à l'adresse[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) et suivez les instructions d'installation fournies.
+Avant de commencer, vous devez ajouter Aspose.PDF pour Java à votre projet Java. Vous pouvez télécharger la bibliothèque depuis le site web à l'adresse suivante : [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) et suivez les instructions d'installation fournies.
 
-## Créer un nouveau document PDF
+## Création d'un nouveau document PDF
 
-Pour commencer, créez un nouveau projet Java et importez la bibliothèque Aspose.PDF. Créez ensuite un nouveau document PDF qui contiendra la liste ordonnée HTML.
+Pour commencer, créez un projet Java et importez la bibliothèque Aspose.PDF. Créez ensuite un document PDF contenant la liste ordonnée HTML.
 
 ```java
 // Créer un nouveau document PDF
@@ -39,19 +41,19 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
 ## Ajout d'une liste ordonnée HTML au PDF
 
- Ensuite, vous devrez analyser la liste ordonnée HTML et l'ajouter au document PDF. Aspose.PDF pour Java fournit un moyen pratique de le faire en utilisant le`HtmlFragment` classe.
+Ensuite, vous devrez analyser la liste ordonnée HTML et l'ajouter au document PDF. Aspose.PDF pour Java offre une méthode pratique pour cela grâce à l'outil `HtmlFragment` classe.
 
 ```java
 // Créer un fragment HTML
 com.aspose.pdf.HtmlFragment htmlFragment = new com.aspose.pdf.HtmlFragment("<ol><li>Item 1</li><li>Item 2</li><li>Item 3</li></ol>");
 
-// Ajoutez le fragment HTML au document PDF
+// Ajouter le fragment HTML au document PDF
 pdfDocument.getPages().get_Item(1).getParagraphs().add(htmlFragment);
 ```
 
 ## Styliser la liste ordonnée
 
-Vous pouvez également appliquer des styles à la liste ordonnée HTML pour personnaliser son apparence dans le document PDF. Par exemple, vous pouvez modifier la taille de la police, la couleur et l'alignement.
+Vous pouvez également appliquer des styles à la liste ordonnée HTML pour personnaliser son apparence dans le document PDF. Par exemple, vous pouvez modifier la taille, la couleur et l'alignement de la police.
 
 ```java
 // Personnaliser le style du fragment HTML
@@ -71,13 +73,13 @@ pdfDocument.save("output.pdf");
 
 ## Conclusion
 
-Dans ce tutoriel, nous avons appris à ajouter une liste ordonnée HTML dans des documents en Java à l'aide d'Aspose.PDF pour Java. Cette puissante bibliothèque vous permet de manipuler facilement des documents PDF et de créer du contenu dynamique.
+Dans ce tutoriel, nous avons appris à ajouter une liste ordonnée HTML à des documents Java avec Aspose.PDF pour Java. Cette puissante bibliothèque vous permet de manipuler facilement des documents PDF et de créer du contenu dynamique.
 
 ## FAQ
 
-### Comment télécharger Aspose.PDF pour Java ?
+### Comment télécharger Aspose.PDF pour Java ?
 
-Vous pouvez télécharger Aspose.PDF pour Java à partir du site Web à l'adresse[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Vous pouvez télécharger Aspose.PDF pour Java à partir du site Web à l'adresse [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
 ### Puis-je personnaliser le style de la liste ordonnée HTML ?
 
@@ -85,14 +87,16 @@ Oui, vous pouvez personnaliser le style de la liste ordonnée HTML en modifiant 
 
 ### L'utilisation d'Aspose.PDF pour Java est-elle gratuite ?
 
-Aspose.PDF pour Java est une bibliothèque commerciale et vous devrez peut-être acheter une licence pour certains scénarios d'utilisation. Veuillez consulter le site Web pour obtenir des informations sur les licences.
+Aspose.PDF pour Java est une bibliothèque commerciale ; vous devrez peut-être acquérir une licence pour certains scénarios d'utilisation. Veuillez consulter le site web pour plus d'informations sur les licences.
 
 ### Existe-t-il d’autres fonctionnalités fournies par Aspose.PDF pour Java ?
 
- Oui, Aspose.PDF pour Java offre une large gamme de fonctionnalités pour travailler avec des documents PDF, notamment l'extraction de texte, la conversion PDF, etc. Vous pouvez consulter la documentation à l'adresse[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) pour des informations détaillées.
+Oui, Aspose.PDF pour Java offre un large éventail de fonctionnalités pour travailler avec des documents PDF, notamment l'extraction de texte, la conversion PDF, et bien plus encore. Vous pouvez consulter la documentation à l'adresse suivante : [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) pour des informations détaillées.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

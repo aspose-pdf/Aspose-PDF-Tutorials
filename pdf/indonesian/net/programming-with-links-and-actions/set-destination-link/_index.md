@@ -1,14 +1,16 @@
 ---
-title: Tetapkan Tautan Tujuan Dalam File PDF
-linktitle: Tetapkan Tautan Tujuan Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengatur tautan tujuan dalam file PDF dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk meningkatkan interaktivitas PDF Anda.
-weight: 90
-url: /id/net/programming-with-links-and-actions/set-destination-link/
+"description": "Pelajari cara mengatur tautan tujuan dalam file PDF dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk meningkatkan interaktivitas PDF Anda."
+"linktitle": "Tetapkan Tautan Tujuan Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tetapkan Tautan Tujuan Dalam File PDF"
+"url": "/id/net/programming-with-links-and-actions/set-destination-link/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tetapkan Tautan Tujuan Dalam File PDF
@@ -22,7 +24,7 @@ Dalam dunia dokumen digital yang serba cepat, kemampuan untuk berinteraksi denga
 Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Aspose.PDF untuk Pustaka .NET:
-    Anda perlu mengunduh dan menginstal paket Aspose.PDF untuk .NET. Anda dapat menemukan file instalasinya[Di Sini](https://releases.aspose.com/pdf/net/).
+   Anda perlu mengunduh dan menginstal paket Aspose.PDF untuk .NET. Anda dapat menemukan file instalasinya [Di Sini](https://releases.aspose.com/pdf/net/).
 
 2. Lingkungan Pengembangan:
    Anda harus menginstal Visual Studio atau IDE yang kompatibel dengan .NET di komputer Anda.
@@ -34,7 +36,7 @@ Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
    Mulai proyek C# baru di IDE pilihan Anda. Pengaturan ini akan menjadi tempat manipulasi PDF Anda berlangsung.
 
 5. Contoh PDF:
-    Untuk demonstrasi, Anda memerlukan contoh file PDF (misalnya,`UpdateLinks.pdf`) di mana kami akan menerapkan modifikasi tautan.
+   Untuk demonstrasi, Anda memerlukan contoh file PDF (misalnya, `UpdateLinks.pdf`) di mana kami akan menerapkan modifikasi tautan.
 
 ## Paket Impor
 
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "UpdateLinks.pdf");
 ```
 
- Di sini, ganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya ke berkas PDF Anda di sistem berkas Anda. Kode ini membuat contoh`Document` objek yang menampung PDF yang dimuat.
+Di sini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda di sistem berkas Anda. Kode ini membuat contoh `Document` objek yang menampung PDF yang dimuat.
 
 ## Langkah 2: Akses Anotasi Tautan
 
@@ -84,7 +86,7 @@ Sekarang tibalah bagian yang menarik! Anda dapat mengubah tindakan anotasi tauta
 linkAnnot.Action = new GoToURIAction("www.aspose.com");
 ```
 
- Baris ini mengatur tindakan`linkAnnot`ke tindakan URI baru, yang secara efektif mengubah ke mana tautan akan mengarahkan pengguna saat diklik.
+Baris ini mengatur tindakan `linkAnnot` ke tindakan URI baru, yang secara efektif mengubah ke mana tautan akan mengarahkan pengguna saat diklik.
 
 ## Langkah 4: Simpan Dokumen
 
@@ -101,7 +103,7 @@ Kode ini membangun jalur untuk berkas keluaran dan menyimpan dokumen dengan taut
 
 ## Langkah 5: Menangani Pengecualian (Opsional)
 
-Meskipun opsional, ada baiknya untuk menyertakan penanganan kesalahan guna mengelola masalah yang mungkin timbul selama proses berlangsung.
+Meskipun opsional, ada baiknya untuk menyertakan penanganan kesalahan guna mengelola masalah yang mungkin timbul selama proses.
 
 ```csharp
 catch (Exception ex)
@@ -128,13 +130,15 @@ Ya, Anda dapat menambahkan beberapa tautan dengan mengakses anotasi yang berbeda
 Aspose.PDF menawarkan versi uji coba gratis. Untuk penggunaan menyeluruh, lisensi dapat dibeli.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?
- Anda dapat menemukan dokumentasi yang lebih lengkap[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi yang lebih lengkap [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda dapat mengakses[forum dukungan](https://forum.aspose.com/c/pdf/10) untuk bantuan dan pertanyaan.
+Anda dapat mengakses [forum dukungan](https://forum.aspose.com/c/pdf/10) untuk bantuan dan pertanyaan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Trích xuất hình ảnh
-linktitle: Trích xuất hình ảnh
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Dễ dàng học cách trích xuất hình ảnh từ PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để trích xuất hình ảnh liền mạch.
-weight: 70
-url: /vi/net/programming-with-security-and-signatures/extracting-image/
+"description": "Dễ dàng học cách trích xuất hình ảnh từ PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để trích xuất hình ảnh liền mạch."
+"linktitle": "Trích xuất hình ảnh"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Trích xuất hình ảnh"
+"url": "/vi/net/programming-with-security-and-signatures/extracting-image/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất hình ảnh
@@ -25,16 +27,16 @@ Trước khi đi sâu vào chi tiết về việc trích xuất hình ảnh, có
 
 Trước tiên, bạn cần thiết lập môi trường phát triển với .NET. Môi trường này thường bao gồm những điều sau:
 
--  Visual Studio: Đây là một IDE mạnh mẽ cho các ứng dụng .NET. Nếu bạn chưa tải xuống, bạn có thể tải xuống từ[Trang web Visual Studio](https://visualstudio.microsoft.com/).
+- Visual Studio: Đây là một IDE mạnh mẽ cho các ứng dụng .NET. Nếu bạn chưa tải xuống, bạn có thể tải xuống từ [Trang web Visual Studio](https://visualstudio.microsoft.com/).
 - .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework 4.5 trở lên trên máy của mình.
 
 ### Aspose.PDF cho Thư viện .NET
 
 Để làm việc với PDF, bạn sẽ cần thư viện Aspose.PDF. Thư viện này cho phép bạn thao tác các tệp PDF một cách tự do, bao gồm cả việc trích xuất hình ảnh. Sau đây là cách bạn có thể tải xuống:
 
--  Bạn có thể[tải xuống phiên bản mới nhất](https://releases.aspose.com/pdf/net/) của Aspose.PDF cho .NET.
--  Nếu bạn muốn thử trước khi mua, hãy[dùng thử miễn phí](https://releases.aspose.com/) có sẵn.
--  Nếu bạn quyết định tiếp tục sử dụng nó trong thời gian dài, bạn có thể[mua giấy phép](https://purchase.aspose.com/buy) hoặc thậm chí[yêu cầu giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) với mục đích thử nghiệm.
+- Bạn có thể [tải xuống phiên bản mới nhất](https://releases.aspose.com/pdf/net/) của Aspose.PDF cho .NET.
+- Nếu bạn muốn thử trước khi mua, hãy [dùng thử miễn phí](https://releases.aspose.com/) có sẵn.
+- Nếu bạn quyết định tiếp tục sử dụng nó lâu dài, bạn có thể [mua giấy phép](https://purchase.aspose.com/buy) hoặc thậm chí [yêu cầu giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) với mục đích thử nghiệm.
 
 ### Kiến thức cơ bản về C#
 
@@ -67,7 +69,7 @@ using System.Drawing;
 string dataDir = "YOUR DOCUMENTS DIRECTORY"; // Thay thế bằng thư mục tài liệu của bạn
 string input = dataDir + @"ExtractingImage.pdf"; // Nhập tệp PDF
 ```
- Thay thế`"YOUR DOCUMENTS DIRECTORY"` với đường dẫn đến thư mục lưu trữ tệp PDF của bạn. Điều này rất quan trọng vì chúng tôi cần chương trình biết nơi tìm tệp PDF của bạn.
+Thay thế `"YOUR DOCUMENTS DIRECTORY"` với đường dẫn đến thư mục lưu trữ tệp PDF của bạn. Điều này rất quan trọng vì chúng tôi cần chương trình biết nơi tìm tệp PDF của bạn.
 
 ## Bước 2: Tải Tài liệu PDF
 
@@ -79,7 +81,7 @@ using (Document pdfDocument = new Document(input))
     // Thao tác này sẽ đảm bảo tệp PDF được đóng đúng cách khi chúng ta hoàn tất.
 }
 ```
- Các`using` câu lệnh này đảm bảo rằng tài liệu PDF sẽ được hủy bỏ đúng cách sau khi chúng ta hoàn tất việc xử lý nó, ngăn ngừa rò rỉ bộ nhớ.
+Các `using` câu lệnh này đảm bảo rằng tài liệu PDF sẽ được hủy bỏ đúng cách sau khi chúng ta hoàn tất việc xử lý nó, ngăn ngừa rò rỉ bộ nhớ.
 
 ## Bước 3: Lặp lại qua các trường chữ ký
 
@@ -95,7 +97,7 @@ foreach (Field field in pdfDocument.Form)
     }
 }
 ```
- Ở đây, chúng tôi sử dụng một`foreach` vòng lặp để kiểm tra từng trường trong biểu mẫu PDF. Nếu tìm thấy trường chữ ký, chúng ta có thể tiến hành trích xuất hình ảnh.
+Ở đây, chúng tôi sử dụng một `foreach` vòng lặp để kiểm tra từng trường trong biểu mẫu PDF. Nếu tìm thấy trường chữ ký, chúng ta có thể tiến hành trích xuất hình ảnh.
 
 ## Bước 4: Trích xuất hình ảnh
 
@@ -116,13 +118,13 @@ using (Stream imageStream = sf.ExtractImage())
 ```
 
 - Chúng tôi xác định đường dẫn tệp đầu ra nơi hình ảnh được trích xuất sẽ được lưu.
--  Chúng tôi sử dụng`sf.ExtractImage()` để lấy luồng hình ảnh từ trường chữ ký.
--  Chúng tôi kiểm tra xem`imageStream` không phải là null để đảm bảo thực sự có hình ảnh để trích xuất.
+- Chúng tôi sử dụng `sf.ExtractImage()` để lấy luồng hình ảnh từ trường chữ ký.
+- Chúng tôi kiểm tra xem `imageStream` không phải là null để đảm bảo thực sự có hình ảnh để trích xuất.
 - Cuối cùng, chúng tôi chuyển đổi luồng dữ liệu thành Bitmap và lưu dưới dạng tệp JPEG.
 
 ## Phần kết luận
 
-Trích xuất hình ảnh từ PDF bằng Aspose.PDF cho .NET là một quá trình đơn giản khi bạn biết các bước. Chỉ với một vài dòng mã, bạn có thể truy cập vào những viên ngọc ẩn trong tài liệu của mình. Cho dù bạn đang tìm kiếm một bức ảnh đáng nhớ hay một hình ảnh đồ họa quan trọng từ một báo cáo, thì công cụ này đều vô cùng hữu ích. Chúc bạn viết mã vui vẻ và mong rằng PDF của bạn sẽ luôn tràn ngập hình ảnh!
+Trích xuất hình ảnh từ PDF bằng Aspose.PDF cho .NET là một quá trình đơn giản khi bạn biết các bước. Chỉ với một vài dòng mã, bạn có thể truy cập vào những viên ngọc ẩn trong tài liệu của mình. Cho dù bạn đang tìm kiếm một bức ảnh đáng nhớ hay một hình ảnh đồ họa quan trọng từ một báo cáo, thì công cụ này đều vô cùng hữu ích. Chúc bạn viết mã vui vẻ và mong PDF của bạn luôn tràn ngập hình ảnh!
 
 ## Câu hỏi thường gặp
 
@@ -139,10 +141,12 @@ Có, bạn có thể sửa đổi mã để lặp qua nhiều trường và trí
 Bạn có thể lưu hình ảnh đã trích xuất ở nhiều định dạng khác nhau, bao gồm JPEG, PNG, BMP, v.v., tùy thuộc vào thông số kỹ thuật của bạn.
 
 ### Tôi có thể tìm thêm tài nguyên cho Aspose.PDF ở đâu?  
- Bạn có thể kiểm tra[Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để biết thêm tài nguyên và ví dụ.
+Bạn có thể kiểm tra [Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để biết thêm tài nguyên và ví dụ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

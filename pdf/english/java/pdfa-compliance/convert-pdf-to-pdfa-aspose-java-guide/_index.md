@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PDFs to PDF/A Using Aspose.PDF for Java: A Step-by-Step Guide
 
@@ -171,6 +173,9 @@ A: Utilize the `FileSpecification` class to attach files like XMLs during the do
 - **Free Trial**: Start experimenting with a free trial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

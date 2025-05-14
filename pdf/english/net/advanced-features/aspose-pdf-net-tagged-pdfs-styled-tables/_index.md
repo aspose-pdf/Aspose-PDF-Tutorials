@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,6 +165,9 @@ You've now mastered creating accessible tagged PDF documents with Aspose.PDF .NE
 ["Accessible Tagged PDF", "Aspose.PDF .NET", "Styled Tables in PDF", "PDF/UA Compliance", "Structured PDF Creation"]
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

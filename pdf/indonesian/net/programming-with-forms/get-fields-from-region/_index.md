@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Bidang Dari Wilayah Dalam File PDF
-linktitle: Dapatkan Bidang Dari Wilayah Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak bidang dari wilayah tertentu dalam file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dalam panduan komprehensif ini.
-weight: 130
-url: /id/net/programming-with-forms/get-fields-from-region/
+"description": "Pelajari cara mengekstrak bidang dari wilayah tertentu dalam file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dalam panduan komprehensif ini."
+"linktitle": "Dapatkan Bidang Dari Wilayah Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Bidang Dari Wilayah Dalam File PDF"
+"url": "/id/net/programming-with-forms/get-fields-from-region/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Bidang Dari Wilayah Dalam File PDF
@@ -25,7 +27,7 @@ Sebelum kita memulai petualangan ekstraksi PDF ini, ada beberapa hal yang perlu 
 
 1. Visual Studio Terpasang: Pastikan Anda telah memasang Visual Studio atau IDE apa pun yang kompatibel di komputer Anda, karena komputer tersebut akan menjadi tempat bermain Anda untuk membuat kode.
    
-2.  Aspose.PDF untuk .NET: Anda harus memiliki akses ke pustaka Aspose.PDF. Jangan khawatir; mudah untuk mendapatkannya! Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda harus memiliki akses ke pustaka Aspose.PDF. Jangan khawatir; mudah untuk mendapatkannya! Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 
 3. Pengetahuan Dasar C#: Keakraban dengan C# dan kerangka kerja .NET akan membantu Anda memahami konsep dan kode secara lebih efektif.
 
@@ -37,7 +39,7 @@ Sekarang setelah kita menyelesaikan prasyarat kita, mari masuk ke inti tutorial 
 
 ## Paket Impor
 
-Untuk memulai dengan benar, kita perlu mengimpor paket-paket yang diperlukan yang ditawarkan Aspose untuk bekerja dengan file-file PDF. Mengimpor paket-paket ini memastikan bahwa kita dapat memanfaatkan semua fungsi dan kelas yang tersedia di pustaka.
+Untuk memulai dengan benar, kita perlu mengimpor paket-paket yang diperlukan yang ditawarkan Aspose untuk bekerja dengan berkas PDF. Mengimpor paket-paket ini memastikan bahwa kita dapat memanfaatkan semua fungsi dan kelas yang tersedia di pustaka.
 
 Berikut cara mengimpor paket Aspose.PDF:
 
@@ -75,11 +77,11 @@ Berikut ini cara mengatur jalur:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder tempat file PDF Anda berada. Bisa sesederhana itu`"C:/Documents/"` tergantung pada organisasi berkas Anda.
+- Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder tempat file PDF Anda berada. Bisa sesederhana itu `"C:/Documents/"` tergantung pada organisasi berkas Anda.
 
 ## Langkah 3: Buka File PDF
 
- Sekarang, mari kita buka file PDF menggunakan Aspose.PDF. Ini adalah proses sederhana yang melibatkan pembuatan contoh`Document` kelas dan meneruskan jalur berkas PDF Anda.
+Sekarang, mari kita buka file PDF menggunakan Aspose.PDF. Ini adalah proses sederhana yang melibatkan pembuatan contoh `Document` kelas dan meneruskan jalur berkas PDF Anda.
 
 Berikut cuplikan kodenya:
 
@@ -88,16 +90,16 @@ Berikut cuplikan kodenya:
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "GetFieldsFromRegion.pdf");
 ```
 
--  Baris ini membuat yang baru`Document` objek dengan memuat berkas PDF yang ditentukan. Pastikan nama berkas PDF sama persis, termasuk ekstensi berkas.
+- Baris ini membuat yang baru `Document` objek dengan memuat berkas PDF yang ditentukan. Pastikan nama berkas PDF sama persis, termasuk ekstensi berkas.
 
 ## Langkah 4: Tentukan Luas Persegi Panjang
 
- Berikutnya adalah mendefinisikan area persegi panjang tempat kita ingin mengekstrak bidang.`Rectangle` kelas digunakan untuk tujuan ini. Anda perlu menentukan koordinat persegi panjang.
+Berikutnya adalah mendefinisikan area persegi panjang tempat kita ingin mengekstrak bidang. `Rectangle` kelas digunakan untuk tujuan ini. Anda perlu menentukan koordinat persegi panjang.
 
 Berikut cara melakukannya:
 
 ```csharp
-//Buat objek persegi panjang untuk mendapatkan bidang di area tersebut
+// Buat objek persegi panjang untuk mendapatkan bidang di area tersebut
 Aspose.Pdf.Rectangle rectangle = new Aspose.Pdf.Rectangle(35, 30, 500, 500);
 ```
 
@@ -106,7 +108,7 @@ Aspose.Pdf.Rectangle rectangle = new Aspose.Pdf.Rectangle(35, 30, 500, 500);
 
 ## Langkah 5: Akses Formulir PDF
 
- Sekarang, kita perlu mengakses formulir dalam dokumen PDF kita. Ini dilakukan melalui`Forms` milik`Document` obyek.
+Sekarang, kita perlu mengakses formulir dalam dokumen PDF kita. Ini dilakukan melalui `Forms` milik `Document` obyek.
 
 Untuk mengakses formulir, gunakan kode berikut:
 
@@ -119,7 +121,7 @@ Aspose.Pdf.Forms.Form form = doc.Form;
 
 ## Langkah 6: Ambil Bidang di Area yang Ditentukan
 
- Di sinilah keajaiban terjadi! Kami akan mengekstrak bidang yang terletak di dalam persegi panjang yang ditentukan menggunakan`GetFieldsInRect` metode.
+Di sinilah keajaiban terjadi! Kami akan mengekstrak bidang yang terletak di dalam persegi panjang yang ditentukan menggunakan `GetFieldsInRect` metode.
 
 Berikut kode untuk melakukannya:
 
@@ -128,7 +130,7 @@ Berikut kode untuk melakukannya:
 Aspose.Pdf.Forms.Field[] fields = form.GetFieldsInRect(rectangle);
 ```
 
--  Ini akan mengisi`fields`array dengan semua bidang yang berada dalam persegi panjang yang ditentukan. Kami baru saja memberi tahu Aspose untuk mencari dan menangkap bidang-bidang tersebut untuk kami!
+- Ini akan mengisi `fields` array dengan semua bidang yang berada dalam persegi panjang yang ditentukan. Kami baru saja memberi tahu Aspose untuk mencari dan menangkap bidang-bidang tersebut untuk kami!
 
 ## Langkah 7: Menampilkan Nama dan Nilai Bidang
 
@@ -145,7 +147,7 @@ foreach (Field field in fields)
 }
 ```
 
--  Loop ini mengulangi setiap bidang di`fields` array, mencetak nama dan nilai setiap bidang ke konsol.
+- Loop ini mengulangi setiap bidang di `fields` array, mencetak nama dan nilai setiap bidang ke konsol.
 
 ## Kesimpulan
 
@@ -160,16 +162,18 @@ Aspose.PDF untuk .NET adalah pustaka komprehensif yang memungkinkan pengembang u
 Ya! Aspose.PDF untuk .NET dapat berjalan di berbagai platform, termasuk Linux, dengan runtime .NET yang sesuai.
 
 ### Apakah ada uji coba gratis yang tersedia?
- Tentu saja! Anda dapat mengakses[uji coba gratis](https://releases.aspose.com/) Aspose.PDF untuk .NET untuk mulai menjelajahi fitur-fiturnya.
+Tentu saja! Anda dapat mengakses [uji coba gratis](https://releases.aspose.com/) Aspose.PDF untuk .NET untuk mulai menjelajahi fitur-fiturnya.
 
 ### Bahasa pemrograman apa yang didukung Aspose.PDF?
 Aspose.PDF terutama menargetkan aplikasi .NET tetapi dapat digunakan dengan bahasa apa pun yang kompatibel dengan .NET, termasuk C#, VB.NET, dan F#.
 
 ### Di mana saya dapat menemukan dokumentasi dan dukungan?
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/pdf/net/) dan bergabung dengan komunitas untuk mendapatkan dukungan[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/pdf/net/) dan bergabung dengan komunitas untuk mendapatkan dukungan [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

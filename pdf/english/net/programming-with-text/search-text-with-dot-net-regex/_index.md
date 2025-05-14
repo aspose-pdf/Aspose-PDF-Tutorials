@@ -8,7 +8,9 @@ url: /net/programming-with-text/search-text-with-dot-net-regex/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Search Text With Dot Net Regex
@@ -162,6 +164,7 @@ Yes, you can download a free trial from the [Aspose Releases page](https://relea
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

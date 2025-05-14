@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Text from a Specific Region of a PDF Using Aspose.PDF for Java
 
@@ -166,6 +168,9 @@ Ready to apply what you've learned? Try implementing these techniques in your pr
 By integrating Aspose.PDF for Java into your applications, you can unlock powerful capabilities to streamline document processing tasks. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

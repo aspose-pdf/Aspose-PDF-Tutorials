@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/structure-elements-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Structure Elements Properties In PDF File
@@ -174,6 +176,7 @@ Check out the [documentation](https://reference.aspose.com/pdf/net/) for in-dept
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

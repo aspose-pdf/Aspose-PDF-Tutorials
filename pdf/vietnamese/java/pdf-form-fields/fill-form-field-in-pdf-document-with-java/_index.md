@@ -1,14 +1,16 @@
 ---
-title: Điền trường biểu mẫu trong tài liệu PDF bằng Java
-linktitle: Điền trường biểu mẫu trong tài liệu PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách điền các trường biểu mẫu PDF bằng Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước có mã nguồn.
-weight: 14
-url: /vi/java/pdf-form-fields/fill-form-field-in-pdf-document-with-java/
+"description": "Tìm hiểu cách điền các trường biểu mẫu PDF bằng Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước có mã nguồn."
+"linktitle": "Điền trường biểu mẫu trong tài liệu PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Điền trường biểu mẫu trong tài liệu PDF bằng Java"
+"url": "/vi/java/pdf-form-fields/fill-form-field-in-pdf-document-with-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Điền trường biểu mẫu trong tài liệu PDF bằng Java
@@ -35,9 +37,9 @@ Aspose.PDF for Java cung cấp nhiều tính năng để làm việc với PDF, 
 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
 - Trình soạn thảo mã như IntelliJ IDEA hoặc Eclipse.
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập Môi trường
 
@@ -69,7 +71,7 @@ pdfDocument.save("sample_form.pdf");
 
 Trong đoạn mã này, chúng ta tạo một tài liệu PDF có trường văn bản.
 
-## Điền vào các trường mẫu
+## Điền các trường mẫu
 
 Bây giờ chúng ta đã có biểu mẫu PDF với các trường, hãy tiến hành điền các trường đó theo chương trình. Sau đây là cách bạn có thể thực hiện:
 
@@ -91,7 +93,7 @@ Trong đoạn mã này, chúng ta mở tài liệu PDF hiện có, truy cập tr
 
 ## Lưu PDF đã sửa đổi
 
-Bây giờ chúng ta đã điền xong mẫu, tệp PDF đã sửa đổi có thể được lưu dưới dạng tệp mới hoặc ghi đè lên tệp hiện có, tùy thuộc vào yêu cầu của bạn.
+Sau khi đã điền đầy đủ thông tin vào biểu mẫu, bạn có thể lưu tệp PDF đã sửa đổi thành tệp mới hoặc ghi đè lên tệp hiện có, tùy theo yêu cầu của bạn.
 
 ```java
 // Lưu PDF đã sửa đổi (tùy chọn)
@@ -106,7 +108,7 @@ Trong bài viết này, chúng tôi đã khám phá cách điền các trường
 
 ### Làm thế nào tôi có thể tải xuống Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ trang web[đây](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống Aspose.PDF cho Java từ trang web [đây](https://releases.aspose.com/pdf/java/).
 
 ### Tôi có thể sử dụng Aspose.PDF cho Java trong các dự án thương mại không?
 
@@ -118,14 +120,16 @@ Có, bạn có thể yêu cầu phiên bản dùng thử miễn phí của Aspos
 
 ### Có phải trả phí cấp phép khi sử dụng Aspose.PDF cho Java không?
 
-Có, có phí cấp phép khi sử dụng Aspose.PDF cho Java trong các dự án thương mại. Bạn có thể tìm thấy thông tin giá chi tiết trên trang web.
+Có, có phí cấp phép khi sử dụng Aspose.PDF cho Java trong các dự án thương mại. Bạn có thể tìm thông tin giá chi tiết trên trang web.
 
 ### Tôi có thể tìm thêm ví dụ mã và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện và ví dụ mã cho Aspose.PDF dành cho Java trên[trang tài liệu](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu toàn diện và ví dụ mã cho Aspose.PDF dành cho Java trên [trang tài liệu](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

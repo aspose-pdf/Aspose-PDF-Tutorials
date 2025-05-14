@@ -1,14 +1,16 @@
 ---
-title: Ratakan Anotasi Dalam File PDF
-linktitle: Ratakan Anotasi Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara meratakan anotasi dalam file PDF menggunakan Aspose.PDF untuk .NET dalam panduan ini. Sederhanakan proses pengelolaan PDF Anda dengan tutorial terperinci kami.
-weight: 150
-url: /id/net/programming-with-document/flattenannotation/
+"description": "Pelajari cara meratakan anotasi dalam file PDF menggunakan Aspose.PDF untuk .NET dalam panduan ini. Sederhanakan proses pengelolaan PDF Anda dengan tutorial terperinci kami."
+"linktitle": "Ratakan Anotasi Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ratakan Anotasi Dalam File PDF"
+"url": "/id/net/programming-with-document/flattenannotation/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ratakan Anotasi Dalam File PDF
@@ -21,10 +23,10 @@ Dalam dunia pemrosesan PDF, bekerja dengan anotasi bisa menjadi tugas yang cukup
 
 Sebelum kita mulai meratakan anotasi dalam berkas PDF Anda, ada beberapa hal yang perlu Anda siapkan:
 
--  Pustaka Aspose.PDF untuk .NET: Anda dapat mengunduh versi terbaru pustaka dari[Di Sini](https://releases.aspose.com/pdf/net/).
+- Pustaka Aspose.PDF untuk .NET: Anda dapat mengunduh versi terbaru pustaka dari [Di Sini](https://releases.aspose.com/pdf/net/).
 - Lingkungan Pengembangan: Pastikan Anda telah menginstal IDE seperti Visual Studio.
 - .NET Framework: Tutorial ini dibuat untuk .NET, jadi pastikan Anda menginstal versi yang kompatibel.
-- Akses Sementara atau Berlisensi: Untuk tutorial ini, Anda dapat menggunakan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/) atau pilih lisensi penuh di[tautan ini](https://purchase.aspose.com/buy).
+- Akses Sementara atau Berlisensi: Untuk tutorial ini, Anda dapat menggunakan lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/) atau pilih lisensi penuh di [tautan ini](https://purchase.aspose.com/buy).
 
 ## Mengimpor Ruang Nama
 
@@ -35,7 +37,7 @@ using Aspose.Pdf;
 using System;
 ```
 
-Paket-paket ini diperlukan untuk berinteraksi dengan PDF dan menerapkan perataan anotasi. Sekarang setelah Anda mengimpor pustaka yang diperlukan, mari selami panduan langkah demi langkahnya.
+Paket-paket ini diperlukan untuk berinteraksi dengan PDF dan menerapkan perataan anotasi. Sekarang setelah Anda mengimpor pustaka yang diperlukan, mari selami panduan langkah demi langkah.
 
 ## Langkah 1: Mengatur Jalur ke Direktori Dokumen
 
@@ -45,7 +47,7 @@ Hal pertama yang perlu kita lakukan adalah menentukan jalur tempat file PDF Anda
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Di Sini,`"YOUR DOCUMENT DIRECTORY"` mengacu pada jalur sebenarnya tempat Anda`OptimizeDocument.pdf` disimpan. Anda dapat mengaturnya ke lokasi mana pun di komputer Anda. Dengan menentukan`dataDir`kami memastikan bahwa program kami mengetahui di mana mencari berkas PDF dan di mana menyimpan berkas yang diperbarui. 
+Di Sini, `"YOUR DOCUMENT DIRECTORY"` mengacu pada jalur sebenarnya tempat Anda `OptimizeDocument.pdf` disimpan. Anda dapat mengaturnya ke lokasi mana pun di komputer Anda. Dengan menentukan `dataDir`, kami memastikan bahwa program kami mengetahui di mana mencari berkas PDF dan di mana menyimpan berkas yang diperbarui. 
 
 ## Langkah 2: Muat Dokumen PDF
 
@@ -55,7 +57,7 @@ Setelah direktori dokumen kita ditetapkan, langkah berikutnya adalah memuat doku
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
- Itu`Document` kelas yang disediakan oleh Aspose.PDF memungkinkan kita untuk membuka dan bekerja dengan file PDF. Dalam baris kode ini, kita memuat`OptimizeDocument.pdf` file dari direktori yang ditentukan (`dataDir` ). Anda dapat mengganti`"OptimizeDocument.pdf"` dengan nama berkas PDF yang ingin Anda proses.
+Itu `Document` kelas yang disediakan oleh Aspose.PDF memungkinkan kita untuk membuka dan bekerja dengan file PDF. Dalam baris kode ini, kita memuat `OptimizeDocument.pdf` file dari direktori yang ditentukan (`dataDir`). Anda dapat mengganti `"OptimizeDocument.pdf"` dengan nama berkas PDF yang ingin Anda proses.
 
 ## Langkah 3: Ulangi Melalui Halaman PDF
 
@@ -68,7 +70,7 @@ foreach (var page in pdfDocument.Pages)
 }
 ```
 
- Di sini, kami menggunakan`foreach` loop untuk mengulang melalui`Pages` koleksi dalam dokumen PDF. Setiap halaman berisi kumpulan anotasi, yang akan kita akses pada langkah berikutnya.
+Di sini, kami menggunakan `foreach` loop untuk mengulang melalui `Pages` koleksi dalam dokumen PDF. Setiap halaman berisi kumpulan anotasi, yang akan kita akses pada langkah berikutnya.
 
 ## Langkah 4: Ratakan Anotasi
 
@@ -81,7 +83,7 @@ foreach (var annotation in page.Annotations)
 }
 ```
 
- Untuk setiap halaman, kami mengulangi anotasinya menggunakan yang lain`foreach` lingkaran.`Flatten()` metode dari`annotation` Objek dipanggil untuk mengubah anotasi interaktif menjadi konten statis, yang secara efektif “meratakannya”.
+Untuk setiap halaman, kami mengulangi anotasinya menggunakan yang lain `foreach` lingkaran. `Flatten()` metode dari `annotation` Objek dipanggil untuk mengubah anotasi interaktif menjadi konten statis, yang secara efektif “meratakannya”.
 
 ## Langkah 5: Simpan PDF yang Diperbarui
 
@@ -91,11 +93,11 @@ Setelah semua anotasi telah diratakan di semua halaman, langkah terakhir adalah 
 pdfDocument.Save(dataDir + "OptimizeDocument_out.pdf");
 ```
 
- Di sini, kami menggunakan`Save` metode dari`pdfDocument` objek untuk menyimpan PDF yang diperbarui kembali ke dalam sistem file. File yang dimodifikasi disimpan sebagai`OptimizeDocument_out.pdf` di direktori yang sama (`dataDir`). Anda dapat mengubah nama file keluaran jika diperlukan.
+Di sini, kami menggunakan `Save` metode dari `pdfDocument` objek untuk menyimpan PDF yang diperbarui kembali ke dalam sistem file. File yang dimodifikasi disimpan sebagai `OptimizeDocument_out.pdf` di direktori yang sama (`dataDir`). Anda dapat mengubah nama file keluaran jika diperlukan.
 
 ## Langkah 6: Berikan Umpan Balik kepada Pengguna
 
-Selalu merupakan praktik yang baik untuk memberi tahu pengguna bahwa operasi berhasil. Berikut ini pesan konsol sederhana untuk mengonfirmasi bahwa anotasi berhasil diratakan:
+Selalu merupakan praktik yang baik untuk memberi tahu pengguna bahwa operasi berhasil. Berikut pesan konsol sederhana untuk mengonfirmasi bahwa anotasi berhasil diratakan:
 
 ```csharp
 Console.WriteLine("\nFlattened annotations successfully.\nFile saved at " + dataDir);
@@ -119,13 +121,15 @@ Ya, Anda dapat meratakan anotasi secara selektif dengan menargetkan jenis anotas
 Tidak, perataan hanya memengaruhi anotasi. Sisa dokumen tetap tidak berubah.
 
 ### Bagaimana saya bisa mendapatkan uji coba gratis Aspose.PDF untuk .NET?
- Anda bisa mendapatkan uji coba gratis dengan mengunjungi[Di Sini](https://releases.aspose.com/).
+Anda bisa mendapatkan uji coba gratis dengan mengunjungi [Di Sini](https://releases.aspose.com/).
 
 ### Bisakah saya mengembalikan anotasi yang diratakan menjadi interaktif?
 Tidak, setelah anotasi diratakan, anotasi tersebut menjadi bagian dari konten statis dan tidak dapat dikembalikan ke bentuk interaktifnya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

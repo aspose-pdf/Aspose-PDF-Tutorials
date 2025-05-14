@@ -1,14 +1,16 @@
 ---
-title: Elementy struktury bloku tekstowego
-linktitle: Elementy struktury bloku tekstowego
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak używać Aspose.PDF dla platformy .NET do dodawania elementów struktury bloku tekstu, takich jak nagłówki i tagowane akapity, do istniejącego dokumentu PDF.
-weight: 220
-url: /pl/net/programming-with-tagged-pdf/text-block-structure-elements/
+"description": "Dowiedz się, jak używać Aspose.PDF dla platformy .NET do dodawania elementów struktury bloku tekstu, takich jak nagłówki i tagowane akapity, do istniejącego dokumentu PDF."
+"linktitle": "Elementy struktury bloku tekstowego"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Elementy struktury bloku tekstowego"
+"url": "/pl/net/programming-with-tagged-pdf/text-block-structure-elements/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elementy struktury bloku tekstowego
@@ -21,11 +23,11 @@ W tym samouczku zagłębimy się w Aspose.PDF dla .NET i w to, jak utworzyć ust
 
 Zanim zagłębimy się w kod, upewnijmy się, że wszystko jest skonfigurowane.
 
--  Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać ze strony[Strona pobierania Aspose.PDF](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać ze strony [Strona pobierania Aspose.PDF](https://releases.aspose.com/pdf/net/).
 - Środowisko programistyczne: Będziesz potrzebować środowiska IDE, takiego jak Visual Studio, aby uruchamiać i testować kod.
 - .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET.
 
- Dodatkowo będziesz potrzebować[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli po prostu testujesz oprogramowanie, lub możesz[kup pełną licencję](https://purchase.aspose.com/buy) jeśli jesteś gotowy pójść na całość.
+Dodatkowo będziesz potrzebować [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli po prostu testujesz oprogramowanie, lub możesz [kup pełną licencję](https://purchase.aspose.com/buy) jeśli jesteś gotowy na wszystko.
 
 ## Importuj pakiety
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
-Co się tu dzieje? Po prostu tworzymy nowy dokument, który ostatecznie stanie się naszym oznaczonym plikiem PDF. Upewnij się, że ustawiłeś`dataDir` gdziekolwiek chcesz zapisać ostateczny plik PDF. Proste, prawda?
+Co się tu dzieje? Po prostu tworzymy nowy dokument, który ostatecznie stanie się naszym oznaczonym plikiem PDF. Upewnij się, że ustawiłeś `dataDir` gdziekolwiek chcesz zapisać ostateczny plik PDF. Łatwe, prawda?
 
 ## Krok 2: Dostęp do oznaczonej zawartości
 
@@ -127,18 +129,18 @@ p.SetText("P. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ne
 rootElement.AppendChild(p);
 ```
 
-Tutaj dodajemy akapit tekstu pod naszymi nagłówkami. Ten krok dodaje treść do dokumentu, a Ty możesz dostosować ją do dowolnego tekstu, jaki chcesz. Pomyśl o tym jako o wypełnieniu luk między nagłówkami znaczącą treścią.
+Tutaj dodajemy akapit tekstu pod naszymi nagłówkami. Ten krok dodaje treść do dokumentu, a Ty możesz dostosować ją do dowolnego tekstu, jaki chcesz. Pomyśl o tym jako o wypełnianiu luk między nagłówkami znaczącą treścią.
 
 ## Krok 6: Zapisywanie pliku PDF
 
-W końcu jesteśmy w ostatnim kroku: zapisujemy dokument. Ten krok jest tak prosty, jak brzmi. Weźmiemy wszystko, co do tej pory stworzyliśmy i zapiszemy to w pliku PDF.
+W końcu jesteśmy przy ostatnim kroku: zapisaniu dokumentu. Ten krok jest tak prosty, jak brzmi. Weźmiemy wszystko, co do tej pory stworzyliśmy i zapiszemy to w pliku PDF.
 
 ```csharp
 // Zapisz oznaczony dokument PDF
 document.Save(dataDir + "TextBlockStructureElements.pdf");
 ```
 
-I tak po prostu stworzyłeś ustrukturyzowany, oznaczony dokument PDF! Zapisując go, zasadniczo naciskasz przycisk „publikuj” i eksportujesz wszystko do pliku PDF, który można udostępniać lub używać w dowolnym miejscu.
+I tak po prostu stworzyłeś ustrukturyzowany, oznaczony dokument PDF! Zapisując go, zasadniczo naciskasz przycisk „publikuj” i eksportujesz wszystko do pliku PDF, który można udostępnić lub wykorzystać w dowolnym miejscu.
 
 ## Wniosek
 
@@ -156,13 +158,15 @@ Oczywiście! Możesz ustawić dowolny tekst, jaki chcesz dla nagłówków i akap
 Można dodawać różne elementy multimedialne, takie jak obrazy, tabele i inne, korzystając z różnych metod udostępnianych przez Aspose.PDF dla platformy .NET.
 
 ### Czy korzystanie z Aspose.PDF dla platformy .NET jest bezpłatne?
- Możesz wypróbować go za darmo, używając[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)ale do długotrwałego użytkowania będziesz potrzebować[kup pełną licencję](https://purchase.aspose.com/buy).
+Możesz wypróbować go za darmo, używając [licencja tymczasowa](https://purchase.aspose.com/temporary-license/)ale do długotrwałego użytkowania będziesz potrzebować [kup pełną licencję](https://purchase.aspose.com/buy).
 
 ### Jak mogę jeszcze bardziej poprawić dostępność mojego pliku PDF?
 Możesz poprawić dostępność, dodając bardziej szczegółowe tagi, tekst alternatywny dla obrazów i używając elementów struktury semantycznej w celu zapewnienia bogatszego doświadczenia w zakresie technologii wspomagających.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

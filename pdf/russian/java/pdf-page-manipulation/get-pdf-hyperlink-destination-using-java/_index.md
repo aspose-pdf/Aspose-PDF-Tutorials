@@ -1,14 +1,16 @@
 ---
-title: Получить гиперссылку PDF-файла с помощью Java
-linktitle: Получить гиперссылку PDF-файла с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как получить назначения гиперссылок PDF с помощью Java с Aspose.PDF для Java. Изучите пошаговое руководство с примерами кода в этом всеобъемлющем руководстве.
-weight: 10
-url: /ru/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
+"description": "Узнайте, как получить назначения гиперссылок PDF с помощью Java с Aspose.PDF для Java. Изучите пошаговое руководство с примерами кода в этом всеобъемлющем руководстве."
+"linktitle": "Получить гиперссылку PDF-файла с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Получить гиперссылку PDF-файла с помощью Java"
+"url": "/ru/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить гиперссылку PDF-файла с помощью Java
@@ -16,7 +18,7 @@ url: /ru/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
 
 ## Введение
 
-В этом уроке мы рассмотрим, как получить назначения гиперссылок PDF с помощью Java с помощью Aspose.PDF для Java. Гиперссылки являются важными элементами в документах PDF, позволяя пользователям переходить к определенным назначениям в пределах PDF или внешних ресурсов. Мы пройдем процесс шаг за шагом, предоставляя примеры кода и пояснения.
+В этом уроке мы рассмотрим, как получить назначения гиперссылок PDF с помощью Java с помощью Aspose.PDF для Java. Гиперссылки являются важными элементами в документах PDF, позволяя пользователям переходить к определенным назначениям в пределах PDF или внешних ресурсов. Мы пройдем процесс шаг за шагом, предоставив примеры кода и пояснения.
 
 ## Понимание гиперссылок PDF
 
@@ -32,7 +34,7 @@ url: /ru/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
 ## Настройка Aspose.PDF для Java
 
 Для начала вам необходимо настроить Aspose.PDF для Java в вашем проекте. Выполните следующие шаги:
-1.  Загрузите Aspose.PDF для Java с сайта[здесь](https://releases.aspose.com/pdf/java/).
+1. Загрузите Aspose.PDF для Java с сайта [здесь](https://releases.aspose.com/pdf/java/).
 2. Добавьте библиотеку Aspose.PDF в свой проект Java.
 
 ## Загрузка PDF-документа
@@ -59,7 +61,7 @@ LinkAnnotationCollection linkAnnotations = page.getAnnotations().getLinkAnnotati
 Теперь, когда у нас есть аннотации ссылок, мы можем извлечь пункты назначения гиперссылок:
 
 ```java
-// Извлечь и распечатать адреса гиперссылок
+// Извлечь и распечатать гиперссылки назначения
 for (LinkAnnotation link : linkAnnotations) {
     String destination = link.getAction().getDestination();
     System.out.println("Hyperlink Destination: " + destination);
@@ -74,11 +76,11 @@ for (LinkAnnotation link : linkAnnotations) {
 
 ### Как установить Aspose.PDF для Java?
 
- Чтобы установить Aspose.PDF для Java, загрузите библиотеку с сайта[здесь](https://releases.aspose.com/pdf/java/) и добавьте его в зависимости вашего проекта Java.
+Чтобы установить Aspose.PDF для Java, загрузите библиотеку с сайта [здесь](https://releases.aspose.com/pdf/java/) и добавьте его в зависимости вашего проекта Java.
 
 ### Могу ли я использовать Aspose.PDF для Java бесплатно?
 
-Aspose.PDF для Java — коммерческая библиотека, но вы можете изучить ее возможности, воспользовавшись бесплатной пробной версией.
+Aspose.PDF для Java — коммерческая библиотека, но вы можете изучить ее возможности, используя бесплатную пробную версию.
 
 ### Какие типы гиперссылок можно получить с помощью Aspose.PDF для Java?
 
@@ -90,10 +92,12 @@ Aspose.PDF для Java позволяет извлекать как внутре
 
 ### Где я могу найти дополнительную документацию по Aspose.PDF для Java?
 
- Подробную документацию по Aspose.PDF для Java можно найти по адресу[здесь](https://reference.aspose.com/pdf/java/).
+Подробную документацию по Aspose.PDF для Java можно найти по адресу [здесь](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/annotations/deleteparticularannotation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete Particular Annotation In PDF File
@@ -104,6 +106,7 @@ You can apply for a temporary license through the [Aspose purchase page](https:/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

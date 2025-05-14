@@ -1,14 +1,16 @@
 ---
-title: Swf Dosyasını PDF Açıklaması Olarak Ekle
-linktitle: Swf Dosyasını Açıklama Olarak Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak SWF dosyalarını PDF açıklamaları olarak nasıl ekleyeceğinizi öğrenin. Bu ayrıntılı eğitimle PDF'lerinizi etkileşimli multimedya içeriklerle geliştirin.
-weight: 30
-url: /tr/net/annotations/addswffileasannotation/
+"description": "Aspose.PDF for .NET kullanarak SWF dosyalarını PDF ek açıklamaları olarak nasıl ekleyeceğinizi öğrenin. Bu ayrıntılı eğitimle PDF'lerinizi etkileşimli multimedya içeriklerle geliştirin."
+"linktitle": "Swf Dosyasını Açıklama Olarak Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Swf Dosyasını PDF Açıklaması Olarak Ekle"
+"url": "/tr/net/annotations/addswffileasannotation/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Swf Dosyasını PDF Açıklaması Olarak Ekle
@@ -21,7 +23,7 @@ PDF belgelerinize SWF (Shockwave Flash) dosyaları gibi etkileşimli multimedya 
 
 Adım adım kılavuza dalmadan önce, başlamak için ihtiyaç duyacağınız temel bilgileri ele alalım:
 
-- Aspose.PDF for .NET Kütüphanesi: Aspose.PDF for .NET kütüphanesinin yüklü olduğundan emin olun. Eğer henüz yüklü değilse, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF for .NET Kütüphanesi: Aspose.PDF for .NET kütüphanesinin yüklü olduğundan emin olun. Eğer henüz yüklü değilse, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/net/).
 - Geliştirme Ortamı: Bu eğitim için Visual Studio gibi bir .NET geliştirme ortamı önerilir.
 - SWF Dosyası: PDF'e gömmek istediğiniz bir SWF dosyasına ihtiyacınız olacak.
 - PDF Belgesi: SWF dosyasını açıklama olarak eklemek istediğiniz bir PDF belgeniz hazır olsun.
@@ -49,17 +51,17 @@ Bu paketleri içe aktardıktan sonra PDF belgeniz üzerinde çalışmaya başlam
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF ve SWF dosyalarınızı içeren klasörün gerçek yoluyla. Bu adım, kodunuzun gerekli dosyaları tam olarak nerede bulacağını bilmesini sağlar.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF ve SWF dosyalarınızı içeren klasörün gerçek yoluyla. Bu adım, kodunuzun gerekli dosyaları tam olarak nerede bulacağını bilmesini sağlar.
 
 ## Adım 2: PDF Belgesini açın
 
- Ardından, SWF dosyasını bir açıklama olarak eklemek istediğiniz PDF belgesini açalım. Bu, bir örneğinin oluşturulmasıyla yapılır`Document` sınıfını oluşturup PDF dosyanızın yolunu ona geçirebilirsiniz.
+Ardından, SWF dosyasını bir açıklama olarak eklemek istediğiniz PDF belgesini açalım. Bu, bir örneğinin oluşturulmasıyla yapılır `Document` sınıfını oluşturup PDF dosyanızın yolunu ona geçirebilirsiniz.
 
 ```csharp
 Document doc = new Document(dataDir + "AddSwfFileAsAnnotation.pdf");
 ```
 
- Bu adımda, değiştirin`"AddSwfFileAsAnnotation.pdf"` PDF dosyanızın gerçek adıyla.`Document` nesne artık üzerinde çalışacağınız PDF dosyasını temsil ediyor.
+Bu adımda, değiştirin `"AddSwfFileAsAnnotation.pdf"` PDF dosyanızın gerçek adıyla. `Document` nesne artık üzerinde çalışacağınız PDF dosyasını temsil ediyor.
 
 ## Adım 3: Hedef Sayfaya Erişim
 
@@ -73,13 +75,13 @@ Bu kod satırı PDF belgenizin ilk sayfasına erişir. Açıklamayı farklı bir
 
 ## Adım 4: Ekran Açıklamasını Oluşturun
 
- İşte sihir burada gerçekleşiyor! Bir tane yaratacağız`ScreenAnnotation` nesnesini açın ve ona sayfa referansını, açıklama dikdörtgeninin boyutlarını ve SWF dosyanızın yolunu geçirin.
+İşte sihir burada gerçekleşiyor! Bir tane yaratacağız `ScreenAnnotation` nesnesini açın ve ona sayfa referansını, açıklama dikdörtgeninin boyutlarını ve SWF dosyanızın yolunu geçirin.
 
 ```csharp
 ScreenAnnotation annotation = new ScreenAnnotation(page, new Aspose.Pdf.Rectangle(0, 400, 600, 700), dataDir + "input.swf");
 ```
 
- Bu adımda,`Rectangle` parametreler sayfadaki açıklamanın konumunu ve boyutunu tanımlar (sol, alt, sağ, üst). Bu değerleri tasarımınıza uyacak şekilde ayarlayabilirsiniz.`input.swf` gömmek istediğiniz SWF dosyasıdır.
+Bu adımda, `Rectangle` parametreler sayfadaki açıklamanın konumunu ve boyutunu tanımlar (sol, alt, sağ, üst). Bu değerleri tasarımınıza uyacak şekilde ayarlayabilirsiniz. `input.swf` gömmek istediğiniz SWF dosyasıdır.
 
 ## Adım 5: Sayfaya Açıklama Ekleyin
 
@@ -93,7 +95,7 @@ Bu kod satırı, açıklamayı belirtilen sayfaya ekler ve onu PDF'in etkileşim
 
 ## Adım 6: Güncellenen PDF Belgesini Kaydedin
 
-Son olarak, SWF dosyasını bir açıklama olarak ekledikten sonra, güncellenmiş PDF belgesini kaydetmeniz gerekir. Bu, yaptığınız tüm değişiklikleri uygulayacaktır.
+Son olarak, SWF dosyasını açıklama olarak ekledikten sonra, güncellenmiş PDF belgesini kaydetmeniz gerekir. Bu, yaptığınız tüm değişiklikleri uygulayacaktır.
 
 ```csharp
 dataDir = dataDir + "AddSwfFileAsAnnotation_out.pdf";
@@ -117,16 +119,18 @@ Evet, Aspose.PDF for .NET, video ve ses dosyaları da dahil olmak üzere çeşit
 Kesinlikle! Her sayfa için işlemi tekrarlayarak SWF dosyalarını birden fazla sayfaya ekleyebilirsiniz.
 
 ### PDF içindeki SWF dosyasının oynatılmasını nasıl kontrol edebilirim?
- Ek özellikler ayarlayabilirsiniz`ScreenAnnotation` Otomatik oynatma ve döngü gibi oynatma seçeneklerini kontrol eden nesne.
+Ek özellikler ayarlayabilirsiniz `ScreenAnnotation` Otomatik oynatma ve döngü gibi oynatma seçeneklerini kontrol eden nesne.
 
 ### Gömülebilir SWF dosyasının boyutuyla ilgili herhangi bir sınırlama var mı?
 SWF dosyasının boyutu PDF belgesinin genel boyutunu etkileyebilir, ancak Aspose.PDF tarafından uygulanan belirli bir sınır yoktur. Ancak daha büyük dosyalar performansı etkileyebilir.
 
 ### PDF'deki mevcut bir SWF açıklamasını kaldırabilir veya değiştirebilir miyim?
- Evet, şuraya erişerek açıklamaları kaldırabilir veya değiştirebilirsiniz:`Annotations` bir sayfanın toplanması ve uygun yöntemlerin kullanılması.
+Evet, şuraya erişerek açıklamaları kaldırabilir veya değiştirebilirsiniz: `Annotations` bir sayfanın toplanması ve uygun yöntemlerin kullanılması.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Kontrol Kualitas Gambar saat Menambahkan Cap Gambar di PDF menggunakan Java
-linktitle: Kontrol Kualitas Gambar saat Menambahkan Cap Gambar di PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengontrol kualitas gambar saat menambahkan stempel gambar ke PDF menggunakan Java dengan petunjuk langkah demi langkah.
-weight: 12
-url: /id/java/pdf-form-fields/control-image-quality-when-adding-image-stamp-in-pdf-using-java/
+"description": "Pelajari cara mengontrol kualitas gambar saat menambahkan stempel gambar ke PDF menggunakan Java dengan petunjuk langkah demi langkah."
+"linktitle": "Kontrol Kualitas Gambar saat Menambahkan Cap Gambar di PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Kontrol Kualitas Gambar saat Menambahkan Cap Gambar di PDF menggunakan Java"
+"url": "/id/java/pdf-form-fields/control-image-quality-when-adding-image-stamp-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kontrol Kualitas Gambar saat Menambahkan Cap Gambar di PDF menggunakan Java
@@ -23,7 +25,7 @@ Di era digital, dokumen PDF merupakan cara umum untuk berbagi informasi, dan ser
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.PDF untuk pustaka Java telah diunduh dan disiapkan. Anda dapat menemukan tautan unduhannya[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java telah diunduh dan disiapkan. Anda dapat menemukan tautan unduhannya [Di Sini](https://releases.aspose.com/pdf/java/).
 - Pemahaman dasar tentang pemrograman Java.
 
 Sekarang setelah prasyaratnya terpenuhi, mari lanjutkan dengan menambahkan stempel gambar ke PDF sambil tetap menjaga kontrol terhadap kualitas gambar.
@@ -83,7 +85,7 @@ Dalam panduan langkah demi langkah ini, kami telah menunjukkan cara mengontrol k
 
 ### Bagaimana saya dapat menyesuaikan kualitas gambar lebih lanjut?
 
- Anda dapat menyempurnakan kualitas gambar dengan mengubah nilai yang diberikan ke`setQuality` metode. Nilai yang lebih tinggi, seperti 95 atau 100, akan menghasilkan kualitas gambar yang lebih baik tetapi dapat meningkatkan ukuran berkas.
+Anda dapat menyempurnakan kualitas gambar dengan mengubah nilai yang diberikan ke `setQuality` metode. Nilai yang lebih tinggi, seperti 95 atau 100, akan menghasilkan kualitas gambar yang lebih baik tetapi dapat meningkatkan ukuran berkas.
 
 ### Bisakah saya menambahkan beberapa prangko gambar ke satu PDF?
 
@@ -99,10 +101,12 @@ Anda dapat mengintegrasikan proses pemberian cap gambar ini ke dalam aplikasi Ja
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF untuk Java?
 
- Anda dapat merujuk ke dokumentasi Aspose.PDF untuk Java[Di Sini](https://reference.aspose.com/pdf/java/) untuk informasi terperinci tentang fitur dan penggunaannya.
+Anda dapat merujuk ke dokumentasi Aspose.PDF untuk Java [Di Sini](https://reference.aspose.com/pdf/java/) untuk informasi terperinci tentang fitur dan penggunaannya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

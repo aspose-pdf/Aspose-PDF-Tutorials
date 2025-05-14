@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master PDF Manipulation: Extract Metadata & Validate Encryption Using Aspose.PDF for Java
 
@@ -190,6 +192,9 @@ You've now mastered extracting metadata and validating encryption using Aspose.P
 Feel empowered to explore and implement these solutions in your projects. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

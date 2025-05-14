@@ -1,14 +1,16 @@
 ---
-title: Operasi Dokumen PDF
-linktitle: Operasi Dokumen PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Jelajahi Operasi Dokumen PDF dengan Aspose.PDF untuk Java. Pelajari cara memanipulasi, membuat, dan menyempurnakan PDF dengan mudah di Java.
-weight: 17
-url: /id/java/pdf-document-operations/
+"description": "Jelajahi Operasi Dokumen PDF dengan Aspose.PDF untuk Java. Pelajari cara memanipulasi, membuat, dan menyempurnakan PDF dengan mudah di Java."
+"linktitle": "Operasi Dokumen PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Operasi Dokumen PDF"
+"url": "/id/java/pdf-document-operations/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Operasi Dokumen PDF
@@ -18,7 +20,7 @@ Dalam ranah operasi dokumen PDF, Aspose.PDF untuk Java merupakan sekutu yang tan
 
 ## Menguasai Manipulasi PDF
 
-Tutorial kami akan memandu Anda memahami dasar-dasar manipulasi PDF. Dari menggabungkan dan membagi file PDF hingga mengekstraksi teks dan gambar, Anda akan memperoleh pengalaman langsung dalam menjalankan berbagai operasi dokumen. Kami akan memandu Anda tentang cara menambahkan tanda air, anotasi, dan penanda halaman ke PDF Anda, sehingga Anda dapat menyesuaikan dan menyempurnakan dokumen sesuai dengan kebutuhan Anda.
+Tutorial kami akan memandu Anda memahami dasar-dasar manipulasi PDF. Mulai dari menggabungkan dan membagi file PDF hingga mengekstrak teks dan gambar, Anda akan memperoleh pengalaman langsung dalam menjalankan berbagai operasi dokumen. Kami akan memandu Anda tentang cara menambahkan tanda air, anotasi, dan penanda halaman ke PDF Anda, sehingga Anda dapat menyesuaikan dan menyempurnakan dokumen sesuai dengan kebutuhan Anda.
 
 ## Membuat PDF Dinamis
 
@@ -41,9 +43,11 @@ Pelajari cara menambahkan stempel gambar ke berkas PDF menggunakan Java dengan t
 Pelajari cara menambahkan stempel halaman PDF di Java menggunakan Aspose.PDF. Panduan langkah demi langkah ini menunjukkan kepada Anda cara menyesuaikan stempel untuk dokumen PDF Anda dengan mudah.
 ### [Menambahkan Teks di Header atau Footer File PDF menggunakan Java](./adding-text-in-header-or-footer-of-pdf-file-using-java/)
 Pelajari cara menyempurnakan dokumen PDF dengan menambahkan teks ke header atau footer menggunakan Java. Jelajahi petunjuk langkah demi langkah dengan Aspose.PDF untuk Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

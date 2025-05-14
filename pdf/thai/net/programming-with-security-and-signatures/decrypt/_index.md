@@ -1,14 +1,16 @@
 ---
-title: ถอดรหัสไฟล์ PDF
-linktitle: ถอดรหัสไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีถอดรหัสไฟล์ PDF อย่างปลอดภัยโดยใช้ Aspose.PDF สำหรับ .NET รับคำแนะนำทีละขั้นตอนเพื่อพัฒนาทักษะการจัดการเอกสารของคุณ
-weight: 20
-url: /th/net/programming-with-security-and-signatures/decrypt/
+"description": "เรียนรู้วิธีถอดรหัสไฟล์ PDF อย่างปลอดภัยโดยใช้ Aspose.PDF สำหรับ .NET รับคำแนะนำทีละขั้นตอนเพื่อพัฒนาทักษะการจัดการเอกสารของคุณ"
+"linktitle": "ถอดรหัสไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ถอดรหัสไฟล์ PDF"
+"url": "/th/net/programming-with-security-and-signatures/decrypt/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ถอดรหัสไฟล์ PDF
@@ -25,7 +27,7 @@ url: /th/net/programming-with-security-and-signatures/decrypt/
 
 1. ความรู้พื้นฐานเกี่ยวกับ C#: คุณควรมีความคุ้นเคยกับพื้นฐานของภาษาการเขียนโปรแกรม C# เนื่องจากเราจะเขียนโค้ดบางส่วน
 2. ติดตั้ง Visual Studio แล้ว: เราจะใช้ Visual Studio เป็น Integrated Development Environment (IDE) โปรดแน่ใจว่าคุณได้ติดตั้งไว้ในเครื่องของคุณแล้ว
-3.  Aspose.PDF สำหรับไลบรารี .NET: คุณต้องมีไลบรารี Aspose.PDF คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF สำหรับไลบรารี .NET: คุณต้องมีไลบรารี Aspose.PDF คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/pdf/net/).
 4. ไฟล์ PDF สำหรับการทดสอบ: รับไฟล์ PDF ที่คุณต้องการถอดรหัส นอกจากนี้ โปรดตรวจสอบให้แน่ใจว่าคุณมีรหัสผ่านสำหรับ PDF 
 5. การตั้งค่า .NET Framework: ตรวจสอบให้แน่ใจว่าสภาพแวดล้อมของคุณได้รับการกำหนดค่าด้วย .NET framework ที่เข้ากันได้
 
@@ -53,7 +55,7 @@ url: /th/net/programming-with-security-and-signatures/decrypt/
 
 ### เพิ่มคำสั่งการใช้
 
- เมื่อคุณเพิ่มแพ็กเกจแล้ว ก็ถึงเวลาที่จะรวมแพ็กเกจนั้นไว้ในโค้ดของคุณ ที่ด้านบนสุดของ`Program.cs` ไฟล์ เพิ่มเนมสเปซต่อไปนี้:
+เมื่อคุณเพิ่มแพ็กเกจแล้ว ก็ถึงเวลาที่จะรวมแพ็กเกจนั้นไว้ในโค้ดของคุณ ที่ด้านบนสุดของ `Program.cs` ไฟล์ เพิ่มเนมสเปซต่อไปนี้:
 
 ```csharp
 using System;
@@ -73,7 +75,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ มันเหมือนกับการให้แผนที่แก่โปรแกรมของคุณเพื่อค้นหาสมบัติของคุณ
+แทนที่ `"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ มันเหมือนกับการให้แผนที่แก่โปรแกรมของคุณเพื่อค้นหาสมบัติของคุณ
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร
 
@@ -83,7 +85,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document document = new Document(dataDir + "Decrypt.pdf", "password");
 ```
 
- แทนที่`"Decrypt.pdf"` ด้วยชื่อ PDF ที่เข้ารหัสของคุณและ`"password"` ด้วยรหัสผ่านที่จำเป็นในการเปิดมัน เหมือนกับการปลดล็อกประตูห้องนิรภัยดิจิทัล!
+แทนที่ `"Decrypt.pdf"` ด้วยชื่อ PDF ที่เข้ารหัสของคุณและ `"password"` ด้วยรหัสผ่านที่จำเป็นในการเปิดมัน เหมือนกับการปลดล็อกประตูห้องนิรภัยดิจิทัล!
 
 ## ขั้นตอนที่ 3: ถอดรหัส PDF
 
@@ -128,19 +130,21 @@ Console.WriteLine("\nPDF file decrypted successfully.\nFile saved at " + dataDir
 ไม่ คุณสามารถถอดรหัส PDF ได้เฉพาะไฟล์ที่คุณมีรหัสผ่านเท่านั้น
 
 ### จะเกิดอะไรขึ้นหากฉันลืมรหัสผ่าน?
-น่าเสียดายที่ไม่มีวิธีการกู้คืนรหัสผ่านที่ถูกลืมโดยใช้ Aspose.PDF หรือเครื่องมืออื่นใดอย่างถูกต้องตามกฎหมายหรือตามจริยธรรม
+น่าเสียดายที่ไม่มีวิธีการกู้คืนรหัสผ่านที่ลืมโดยใช้ Aspose.PDF หรือเครื่องมืออื่นใดอย่างถูกต้องตามกฎหมายหรือตามจริยธรรม
 
 ### Aspose.PDF ใช้ได้ฟรีหรือไม่?
- Aspose.PDF ไม่ฟรี แต่คุณสามารถลองใช้ได้โดยใช้[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+Aspose.PDF ไม่ฟรี แต่คุณสามารถลองใช้ได้โดยใช้ [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 
 ### Aspose.PDF รองรับรูปแบบไฟล์อื่นหรือไม่?
 ใช่ รองรับรูปแบบต่างๆ เช่น DOC, XML และรูปภาพควบคู่ไปกับ PDF
 
 ### ฉันสามารถขอความช่วยเหลือได้ที่ไหน หากต้องการ?
- คุณสามารถเยี่ยมชม[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือ
+คุณสามารถเยี่ยมชม [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

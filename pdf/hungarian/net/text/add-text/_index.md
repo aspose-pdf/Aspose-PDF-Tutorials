@@ -1,51 +1,56 @@
 ---
-title: A szöveg hozzáadása a PDF dokumentumokhoz az Aspose.PDF segítségével a .NET- hez
-weight: 7700
-limit: 
-description: Tanulja meg, hogyan kell szövegszakaszok hozzáadása a meglévő PDF dokumentumok segítségével Aspose.PDF a .NET teljes kód példákkal és lépésről lépésre utasításokkal.  
-keywords: [Aspose.PDF, .NET, C#, PDF manipulation, text fragment, PDF editing, document processing, PDF text]
-url: /hu/net/text/add-text/
+"description": "Tanulja meg, hogyan adhat hozzá szövegrészeket meglévő PDF dokumentumokhoz az Aspose.PDF for .NET segítségével teljes kódpéldákkal és lépésről lépésre szóló utasításokkal."
+"title": "Szöveg hozzáadása PDF dokumentumokhoz az Aspose.PDF for .NET segítségével"
+"url": "/hu/net/text/add-text/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A szöveg hozzáadása a PDF dokumentumokhoz az Aspose.PDF segítségével a .NET- hez
+# Szöveg hozzáadása PDF dokumentumokhoz az Aspose.PDF for .NET segítségével
 
-Az Aspose.PDF .NET-hez egy erőteljes PDF feldolgozó API, amely lehetővé teszi a fejlesztők számára, hogy Adobe Acrobat függőségek nélkül hozzanak létre, módosítsanak és konvertáljanak PDF dokumentumokat. Ez a példa bemutatja, hogyan lehet stílusos szöveget hozzáadni egy meglévő PDF dokumentumhoz pontos pozícióval, egyedi betűtípusokkal és színtulajdonságokkal. Az Aspose.PDF könyvtár átfogó funkcionalitást biztosít a szöveg manipulálására PDF dokumentumokban egyszerű és intuitív programozási interfészekkel.
+Az Aspose.PDF for .NET egy hatékony PDF-feldolgozó API, amely lehetővé teszi a fejlesztők számára PDF-dokumentumok létrehozását, módosítását és konvertálását Adobe Acrobat-függőségek nélkül. Ez a példa bemutatja, hogyan adhatunk hozzá formázott szöveget egy meglévő PDF-dokumentumhoz pontos pozicionálással, egyéni betűtípusokkal és színtulajdonságokkal. Az Aspose.PDF könyvtár átfogó funkciókat biztosít a szövegmanipulációhoz PDF-dokumentumokban egyszerű és intuitív programozási felületeken keresztül.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/add-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## A szerelési utasítások
+## Telepítési utasítások
 
-1\. Előfeltételek
-* Visual Studio 2017 vagy újabb
-* .NET Framework 4.0 vagy újabb vagy .NET Core 2.0+ / .NET 5.0+
-* Alapvető ismeretek a C# programozásról
+1: Előfeltételek
+- Visual Studio 2017 vagy újabb
+- .NET Framework 4.0 vagy újabb, illetve .NET Core 2.0+ / .NET 5.0+
+- C# programozási alapismeretek
 
-2\. telepítse a .NET-hez szükséges Aspose.PDF
-A .NET-hez telepítheted az Aspose.PDF programot az alábbi módszerek egyikével:
+2: Telepítse az Aspose.PDF for .NET fájlt
+Az Aspose.PDF for .NET fájlt az alábbi módszerek egyikével telepítheti:
 
 A NuGet csomagkezelő konzol használata:
 ```csharp
 PM> Install-Package Aspose.PDF
 ```
 
-3: A Visual Studio NuGet csomagkezelő használatával:
-	1. Nyissa meg a projektét a Visual Studio-ban
-	2. Jobb gombbal kattintson a projektre a Solution Explorerben, és válassza a "Manage NuGet Packages" lehetőséget
-	3. Keressük az Aspose.PDF-t és telepítsük a csomagot
+3: A Visual Studio NuGet csomagkezelőjének használata:
+	1. Nyisd meg a projektedet a Visual Studio-ban
+	2. Kattintson jobb gombbal a projektre a Megoldáskezelőben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
+	3. Keresd meg az „Aspose.PDF” csomagot, és telepítsd.
 
 ## További források
-* [Aspose.PDF a .NET dokumentációhoz](https://docs.aspose.com/pdf/net/)
-* [Aspose.PDF a .NET API hivatkozáshoz](https://reference.aspose.com/pdf/net/)
+- [Aspose.PDF .NET dokumentációhoz](https://docs.aspose.com/pdf/net/)
+- [Aspose.PDF .NET API referenciafájlhoz](https://reference.aspose.com/pdf/net/)
  
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

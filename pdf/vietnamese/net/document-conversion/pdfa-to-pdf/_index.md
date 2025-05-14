@@ -1,14 +1,16 @@
 ---
-title: PDFA sang PDF
-linktitle: PDFA sang PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi PDF/A sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện, từng bước này.
-weight: 100
-url: /vi/net/document-conversion/pdfa-to-pdf/
+"description": "Tìm hiểu cách chuyển đổi PDF/A sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện, từng bước này."
+"linktitle": "PDFA sang PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "PDFA sang PDF"
+"url": "/vi/net/document-conversion/pdfa-to-pdf/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDFA sang PDF
@@ -22,7 +24,7 @@ Chào mừng đến với thế giới của Aspose.PDF cho .NET! Nếu bạn đ
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Aspose.PDF hoạt động liền mạch với các ứng dụng .NET.
-2. Thư viện Aspose.PDF: Bạn sẽ cần tải xuống thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Thư viện Aspose.PDF: Bạn sẽ cần tải xuống thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 4. IDE: Môi trường phát triển tích hợp (IDE) như Visual Studio sẽ giúp việc viết mã dễ dàng hơn.
 
@@ -59,7 +61,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Mở Tài liệu PDF/A
 
-Tiếp theo, chúng ta sẽ mở tài liệu PDF/A mà chúng ta muốn chuyển đổi. Điều này được thực hiện bằng cách sử dụng`Document` lớp được cung cấp bởi Aspose.PDF.
+Tiếp theo, chúng ta sẽ mở tài liệu PDF/A mà chúng ta muốn chuyển đổi. Điều này được thực hiện bằng cách sử dụng `Document` lớp được cung cấp bởi Aspose.PDF.
 
 ```csharp
 // Mở tài liệu
@@ -80,7 +82,7 @@ doc.RemovePdfaCompliance();
 Cuối cùng, chúng ta sẽ lưu tài liệu đã cập nhật. Thao tác này sẽ tạo một tệp PDF mới không tuân thủ PDF/A.
 
 ```csharp
-// Lưu tài liệu đã cập nhật
+// Lưu tài liệu đã cập nhật 
 doc.Save(dataDir + "PDFAToPDF_out.pdf");
 ```
 
@@ -94,19 +96,21 @@ Và thế là xong! Bạn đã chuyển đổi thành công một tài liệu PD
 PDF/A là phiên bản PDF chuẩn ISO được thiết kế riêng để lưu trữ kỹ thuật số các tài liệu điện tử.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
-Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện trên Aspose.PDF[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện trên Aspose.PDF [đây](https://reference.aspose.com/pdf/net/).
 
 ### Tôi phải làm sao nếu gặp vấn đề?
- Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Làm thế nào để tôi có thể xin được giấy phép tạm thời?
- Bạn có thể nộp đơn xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể nộp đơn xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

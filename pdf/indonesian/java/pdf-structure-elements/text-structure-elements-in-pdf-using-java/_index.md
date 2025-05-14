@@ -1,14 +1,16 @@
 ---
-title: Elemen Struktur Teks dalam PDF menggunakan Java
-linktitle: Elemen Struktur Teks dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara memanipulasi struktur teks PDF di Java menggunakan Aspose.PDF untuk Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk penanganan teks PDF yang efisien.
-weight: 14
-url: /id/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/
+"description": "Pelajari cara memanipulasi struktur teks PDF di Java menggunakan Aspose.PDF untuk Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk penanganan teks PDF yang efisien."
+"linktitle": "Elemen Struktur Teks dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Elemen Struktur Teks dalam PDF menggunakan Java"
+"url": "/id/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elemen Struktur Teks dalam PDF menggunakan Java
@@ -20,7 +22,7 @@ Dalam dunia teknologi modern, menangani dokumen PDF telah menjadi tugas rutin ba
 
 ## Memulai
 
- Sebelum kita membahas detailnya, pastikan Anda telah menginstal Aspose.PDF untuk Java. Anda dapat mengunduhnya dari situs web[Di Sini](https://releases.aspose.com/pdf/java/).
+Sebelum kita membahas detailnya, pastikan Anda telah menginstal Aspose.PDF untuk Java. Anda dapat mengunduhnya dari situs web [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Proyek Java Anda
 
@@ -42,7 +44,7 @@ com.aspose.pdf.Page page = pdfDocument.getPages().add();
 // Buat objek TextFragment
 com.aspose.pdf.TextFragment textFragment = new com.aspose.pdf.TextFragment("Hello, Aspose.PDF!");
 
-//Mengatur properti teks (font, ukuran, warna, dll.)
+// Mengatur properti teks (font, ukuran, warna, dll.)
 textFragment.getTextState().setFont(com.aspose.pdf.FontRepository.findFont("Arial"));
 textFragment.getTextState().setFontSize(12);
 textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getBlack());
@@ -123,7 +125,7 @@ Aspose.PDF untuk Java adalah pustaka Java yang memungkinkan pengembang untuk mem
 
 ### Bagaimana cara menambahkan teks alternatif ke elemen PDF untuk aksesibilitas?
 
-Anda dapat menambahkan teks alternatif ke elemen PDF dengan membuat dokumen PDF yang diberi tag dan mengatur properti teks alternatif untuk elemen tertentu. Hal ini memastikan bahwa pengguna yang memiliki keterbatasan penglihatan dapat mengakses konten tersebut.
+Anda dapat menambahkan teks alternatif ke elemen PDF dengan membuat dokumen PDF yang diberi tag dan mengatur properti teks alternatif untuk elemen tertentu. Hal ini memastikan bahwa pengguna yang memiliki gangguan penglihatan dapat mengakses konten tersebut.
 
 ### Bisakah saya membuat tabel kompleks dalam dokumen PDF menggunakan Aspose.PDF untuk Java?
 
@@ -135,10 +137,12 @@ Tentu saja! Aspose.PDF untuk Java adalah alat yang hebat untuk membuat faktur, l
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan sumber daya untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi dan sumber daya lengkap untuk Aspose.PDF untuk Java di situs web:[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi dan sumber daya lengkap untuk Aspose.PDF untuk Java di situs web: [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

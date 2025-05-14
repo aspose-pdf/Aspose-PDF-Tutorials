@@ -1,14 +1,16 @@
 ---
-title: HTML से कनवर्ट करने के बाद हाइपरलिंक हटाएँ
-linktitle: HTML से कनवर्ट करने के बाद हाइपरलिंक हटाएँ
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF में कनवर्ट करने के बाद HTML दस्तावेज़ों से हाइपरलिंक कैसे हटाएं।
-weight: 250
-url: /hi/net/document-conversion/remove-hyperlinks-after-converting-from-html/
+"description": "इस चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF में कनवर्ट करने के बाद HTML दस्तावेज़ों से हाइपरलिंक कैसे हटाएं।"
+"linktitle": "HTML से कनवर्ट करने के बाद हाइपरलिंक हटाएँ"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "HTML से कनवर्ट करने के बाद हाइपरलिंक हटाएँ"
+"url": "/hi/net/document-conversion/remove-hyperlinks-after-converting-from-html/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML से कनवर्ट करने के बाद हाइपरलिंक हटाएँ
@@ -22,7 +24,7 @@ url: /hi/net/document-conversion/remove-hyperlinks-after-converting-from-html/
 कोड में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यह आपका विकास वातावरण होगा।
-2.  .NET के लिए Aspose.PDF: आपके पास Aspose.PDF लाइब्रेरी होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपके पास Aspose.PDF लाइब्रेरी होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड को बेहतर ढंग से समझने में मदद मिलेगी।
 
 ## पैकेज आयात करें
@@ -31,7 +33,7 @@ url: /hi/net/document-conversion/remove-hyperlinks-after-converting-from-html/
 
 1. अपना विज़ुअल स्टूडियो प्रोजेक्ट खोलें.
 2. सॉल्यूशन एक्सप्लोरर में अपने प्रोजेक्ट पर राइट-क्लिक करें और "मैनेज नुगेट पैकेजेस" चुनें।
-3.  निम्न को खोजें`Aspose.PDF` और इसे स्थापित करें.
+3. निम्न को खोजें `Aspose.PDF` और इसे स्थापित करें.
 
 ```csharp
 using Aspose.Pdf.Annotations;
@@ -50,17 +52,17 @@ using System.IO;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपकी HTML फ़ाइल संग्रहीत है.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपकी HTML फ़ाइल संग्रहीत है.
 
 ## चरण 2: HTML दस्तावेज़ लोड करें
 
- इसके बाद, आप HTML दस्तावेज़ को लोड करेंगे`Document` Aspose.PDF से क्लास। यह क्लास आपको PDF दस्तावेज़ों के साथ आसानी से काम करने की अनुमति देता है।
+इसके बाद, आप HTML दस्तावेज़ को लोड करेंगे `Document` Aspose.PDF से क्लास। यह क्लास आपको PDF दस्तावेज़ों के साथ आसानी से काम करने की अनुमति देता है।
 
 ```csharp
 Document doc = new Document(dataDir + "SampleHtmlFile.html", new HtmlLoadOptions());
 ```
 
- यहाँ, हम नाम की HTML फ़ाइल लोड कर रहे हैं`SampleHtmlFile.html`सुनिश्चित करें कि यह फ़ाइल आपकी निर्दिष्ट निर्देशिका में मौजूद है।
+यहाँ, हम नाम की HTML फ़ाइल लोड कर रहे हैं `SampleHtmlFile.html`सुनिश्चित करें कि यह फ़ाइल आपकी निर्दिष्ट निर्देशिका में मौजूद है।
 
 ## चरण 3: दस्तावेज़ को मेमोरी स्ट्रीम में सहेजें
 
@@ -112,7 +114,7 @@ tfa.TextSearchOptions = new TextSearchOptions(a.Rect);
 doc.Pages[a.PageIndex].Accept(tfa);
 ```
 
- यहाँ, हम एक बनाते हैं`TextFragmentAbsorber` और इसके खोज विकल्पों को एनोटेशन के आयत पर सेट करें। इससे हमें लिंक किए गए टेक्स्ट को खोजने में मदद मिलती है।
+यहाँ, हम एक बनाते हैं `TextFragmentAbsorber` और इसके खोज विकल्पों को एनोटेशन के आयत पर सेट करें। इससे हमें लिंक किए गए टेक्स्ट को खोजने में मदद मिलती है।
 
 ## चरण 7: पाठ का स्वरूप संशोधित करें
 
@@ -147,7 +149,7 @@ doc.Pages[a.PageIndex].Annotations.Delete(a);
 doc.Save(dataDir + "RemoveHyperlinksFromText_out.pdf");
 ```
 
- यह पंक्ति हाइपरलिंक्स को हटाकर दस्तावेज़ को सहेजती है, और नाम से एक नई पीडीएफ फाइल बनाती है`RemoveHyperlinksFromText_out.pdf`.
+यह पंक्ति हाइपरलिंक्स को हटाकर दस्तावेज़ को सहेजती है, और नाम से एक नई पीडीएफ फाइल बनाती है `RemoveHyperlinksFromText_out.pdf`.
 
 ## निष्कर्ष
 
@@ -159,19 +161,21 @@ doc.Save(dataDir + "RemoveHyperlinksFromText_out.pdf");
 हां, आप .NET के लिए Aspose.PDF का उपयोग करके किसी भी PDF दस्तावेज़ से हाइपरलिंक हटा सकते हैं।
 
 ### क्या Aspose.PDF का उपयोग निःशुल्क है?
- Aspose.PDF निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण सुविधाओं के लिए, आपको लाइसेंस खरीदना होगा।[खरीदें पेज](https://purchase.aspose.com/buy).
+Aspose.PDF निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण सुविधाओं के लिए, आपको लाइसेंस खरीदना होगा। [खरीदें पेज](https://purchase.aspose.com/buy).
 
 ### यदि मुझे Aspose.PDF का उपयोग करते समय कोई समस्या आती है तो क्या होगा?
- आप यहां पर सहायता ले सकते हैं[सहयता मंच](https://forum.aspose.com/c/pdf/10).
+आप यहां पर सहायता ले सकते हैं [सहयता मंच](https://forum.aspose.com/c/pdf/10).
 
 ### क्या मैं Aspose का उपयोग करके अन्य फ़ाइल स्वरूपों को PDF में परिवर्तित कर सकता हूँ?
 हां, Aspose PDF में रूपांतरण के लिए विभिन्न फ़ाइल स्वरूपों का समर्थन करता है।
 
 ### मैं .NET के लिए Aspose.PDF कहां से डाउनलोड कर सकता हूं?
- आप इसे यहाँ से डाउनलोड कर सकते हैं[लिंक को डाउनलोड करें](https://releases.aspose.com/pdf/net/).
+आप इसे यहाँ से डाउनलोड कर सकते हैं [लिंक को डाउनलोड करें](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

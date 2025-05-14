@@ -1,14 +1,16 @@
 ---
-title: Cari Teks dan Tambahkan Hyperlink
-linktitle: Cari Teks dan Tambahkan Hyperlink
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mencari teks dan menambahkan hyperlink dalam PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah kami.
-weight: 450
-url: /id/net/programming-with-text/search-text-and-add-hyperlink/
+"description": "Pelajari cara mencari teks dan menambahkan hyperlink dalam PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah kami."
+"linktitle": "Cari Teks dan Tambahkan Hyperlink"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Cari Teks dan Tambahkan Hyperlink"
+"url": "/id/net/programming-with-text/search-text-and-add-hyperlink/"
+"weight": 450
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cari Teks dan Tambahkan Hyperlink
@@ -22,7 +24,7 @@ Apakah Anda mencari cara untuk tidak hanya memanipulasi PDF tetapi juga menyempu
 Sebelum kita menyelami hal-hal yang lebih mendalam, mari pastikan Anda memiliki semua yang Anda butuhkan untuk mengikutinya. Berikut ini adalah daftar periksa yang praktis:
 
 - .NET Framework: Anda harus menginstal .NET Framework di komputer Anda (versi 4.0 atau lebih tinggi).
-- Pustaka Aspose.PDF untuk .NET: Jangan lupa mengunduh dan menambahkan referensi ke pustaka Aspose.PDF di proyek Anda. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+- Pustaka Aspose.PDF untuk .NET: Jangan lupa mengunduh dan menambahkan referensi ke pustaka Aspose.PDF di proyek Anda. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 - IDE: Anda memerlukan Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio untuk menulis dan menjalankan kode.
 - Contoh Berkas PDF: Ambil contoh berkas PDF yang dapat Anda gunakan untuk menguji kode. Anda dapat membuat PDF sederhana atau menggunakan salah satu dokumen yang sudah ada.
 
@@ -48,17 +50,17 @@ Setelah semuanya siap, saatnya untuk mulai bertindak. Kita akan membahasnya dala
 
 ### Langkah 1: Atur Direktori Dokumen Anda
 
-Pertama, Anda perlu menentukan di mana file PDF Anda disimpan. Ubah`dataDir` variabel untuk menunjuk ke direktori dokumen Anda. Berikut cara melakukannya:
+Pertama, Anda perlu menentukan di mana file PDF Anda disimpan. Ubah `dataDir` variabel untuk menunjuk ke direktori dokumen Anda. Berikut cara melakukannya:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
 
 ### Langkah 2: Buat TextFragmentAbsorber
 
- Selanjutnya, kita memerlukan alat untuk menemukan teks yang ingin kita tautkan. Masukkan`TextFragmentAbsorber`Orang kecil ini akan membantu kita mencari pola teks tertentu dalam PDF kita.
+Selanjutnya, kita memerlukan alat untuk menemukan teks yang ingin kita tautkan. Masukkan `TextFragmentAbsorber`Orang kecil ini akan membantu kita mencari pola teks tertentu dalam PDF kita.
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber("\\d{4}-\\d{4}");
@@ -68,7 +70,7 @@ Di sini, kami mencari pola tertentu: empat digit, tanda hubung, diikuti oleh emp
 
 ### Langkah 3: Aktifkan Pencarian Ekspresi Reguler
 
- Kami sudah menggunakan ekspresi reguler untuk menemukan pola teks kami, tetapi kami perlu memastikan`absorber` mengetahui bahwa itu diaktifkan. Ini penting agar pencarian dapat dilakukan dengan benar.
+Kami sudah menggunakan ekspresi reguler untuk menemukan pola teks kami, tetapi kami perlu memastikan `absorber` mengetahui bahwa itu diaktifkan. Ini penting agar pencarian dapat dilakukan dengan benar.
 
 ```csharp
 absorber.TextSearchOptions = new TextSearchOptions(true);
@@ -76,7 +78,7 @@ absorber.TextSearchOptions = new TextSearchOptions(true);
 
 ### Langkah 4: Inisialisasi PdfContentEditor
 
- Sekarang setelah penyerap kita siap, kita memerlukan`PdfContentEditor` untuk bekerja dengan berkas PDF kita. Kelas ini memungkinkan kita mengikat dan memanipulasi berkas PDF kita.
+Sekarang setelah penyerap kita siap, kita memerlukan `PdfContentEditor` untuk bekerja dengan berkas PDF kita. Kelas ini memungkinkan kita mengikat dan memanipulasi berkas PDF kita.
 
 ```csharp
 PdfContentEditor editor = new PdfContentEditor();
@@ -90,11 +92,11 @@ Setelah editor konten kita siap, waktunya untuk mengikatnya ke berkas PDF sesung
 editor.BindPdf(dataDir + "SearchRegularExpressionPage.pdf");
 ```
 
- Pastikan untuk mengganti`"SearchRegularExpressionPage.pdf"` dengan nama berkas PDF Anda.
+Pastikan untuk mengganti `"SearchRegularExpressionPage.pdf"` dengan nama berkas PDF Anda.
 
 ### Langkah 6: Terima Penyerap untuk Halaman
 
-Kita perlu memberi tahu editor bahwa kita ingin mencari pada halaman tertentu dari dokumen. Dalam kasus ini, mari kita pilih Halaman 1.
+Kita perlu memberi tahu editor bahwa kita ingin mencari pada halaman tertentu dari dokumen tersebut. Dalam kasus ini, mari kita pilih Halaman 1.
 
 ```csharp
 editor.Document.Pages[1].Accept(absorber);
@@ -102,7 +104,7 @@ editor.Document.Pages[1].Accept(absorber);
 
 ### Langkah 7: Bersiap untuk Melakukan Looping Melalui Fragmen Teks
 
-Sekarang, kita siap untuk mengulang semua fragmen teks yang ditemukan oleh absorber kita. Kita akan mengubah tampilannya dan mengatur hyperlink kita.
+Sekarang, kita siap untuk mengulang semua fragmen teks yang ditemukan oleh absorber kita. Kita akan mengubah tampilannya dan menyiapkan hyperlink kita.
 
 ```csharp
 int[] dashArray = { };
@@ -160,19 +162,21 @@ Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda telah mempelajari cara 
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengelola dokumen PDF dalam aplikasi .NET.
 
 ### Bagaimana cara mengunduh Aspose.PDF untuk .NET?  
- Anda dapat mengunduh perpustakaan[Di Sini](https://releases.aspose.com/pdf/net/).
+Anda dapat mengunduh perpustakaan [Di Sini](https://releases.aspose.com/pdf/net/).
 
 ### Dapatkah saya mencoba Aspose.PDF secara gratis?  
- Tentu saja! Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Tentu saja! Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Apakah ada dukungan yang tersedia untuk produk Aspose?  
- Ya, Anda dapat menemukan dukungan dan diskusi komunitas[Di Sini](https://forum.aspose.com/c/pdf/10).
+Ya, Anda dapat menemukan dukungan dan diskusi komunitas [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana cara memperoleh lisensi sementara untuk Aspose.PDF?  
- Anda dapat meminta lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat meminta lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

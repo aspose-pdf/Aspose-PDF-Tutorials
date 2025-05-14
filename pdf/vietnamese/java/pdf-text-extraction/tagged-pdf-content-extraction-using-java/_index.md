@@ -1,14 +1,16 @@
 ---
-title: Trích xuất nội dung PDF được gắn thẻ bằng Java
-linktitle: Trích xuất nội dung PDF được gắn thẻ bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Mở khóa sức mạnh của việc trích xuất nội dung PDF được gắn thẻ trong Java với Aspose.PDF cho Java. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để truy cập liền mạch vào nội dung PDF có cấu trúc.
-weight: 12
-url: /vi/java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/
+"description": "Mở khóa sức mạnh của việc trích xuất nội dung PDF được gắn thẻ trong Java với Aspose.PDF cho Java. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để truy cập liền mạch vào nội dung PDF có cấu trúc."
+"linktitle": "Trích xuất nội dung PDF được gắn thẻ bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Trích xuất nội dung PDF được gắn thẻ bằng Java"
+"url": "/vi/java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất nội dung PDF được gắn thẻ bằng Java
@@ -26,7 +28,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 1. Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
 
-2.  Aspose.PDF cho Thư viện Java: Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/pdf/java/). Bao gồm nó vào dự án Java của bạn.
+2. Aspose.PDF cho Thư viện Java: Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/pdf/java/). Bao gồm nó vào dự án Java của bạn.
 
 ## Bước 1: Tạo một dự án Java
 
@@ -47,7 +49,7 @@ public class TaggedPDFExtractor {
 }
 ```
 
- Thay thế`"path_to_tagged_pdf.pdf"` với đường dẫn thực tế đến tệp PDF được gắn thẻ của bạn.
+Thay thế `"path_to_tagged_pdf.pdf"` với đường dẫn thực tế đến tệp PDF được gắn thẻ của bạn.
 
 ## Bước 3: Trích xuất nội dung được gắn thẻ
 
@@ -97,7 +99,7 @@ Trích xuất nội dung từ các tệp PDF được gắn thẻ bằng Java v�
 ### PDF có gắn thẻ là gì?
    PDF được gắn thẻ là tài liệu PDF chứa thông tin cấu trúc để tăng cường khả năng truy cập và trích xuất nội dung.
 
-### Tại sao việc trích xuất nội dung PDF có gắn thẻ lại quan trọng?
+### Tại sao việc trích xuất nội dung PDF được gắn thẻ lại quan trọng?
    Việc trích xuất nội dung PDF được gắn thẻ rất quan trọng đối với khả năng truy cập và cho phép xử lý nội dung tự động.
 
 ### Có thể sử dụng Aspose.PDF cho Java cho các tác vụ liên quan đến PDF khác không?
@@ -107,10 +109,12 @@ Trích xuất nội dung từ các tệp PDF được gắn thẻ bằng Java v�
    Aspose.PDF for Java là một thư viện thương mại nhưng cung cấp bản dùng thử miễn phí để đánh giá.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.PDF cho Java ở đâu?
-    Tham khảo tài liệu API tại[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết và ví dụ.
+   Tham khảo tài liệu API tại [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết và ví dụ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

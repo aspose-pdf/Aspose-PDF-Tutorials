@@ -8,7 +8,9 @@ url: /net/programming-with-tables/remove-multiple-tables/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Multiple Tables In PDF Document
@@ -138,6 +140,7 @@ You can install Aspose.PDF via NuGet in Visual Studio or download it from the [A
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

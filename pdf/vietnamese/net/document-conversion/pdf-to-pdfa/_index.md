@@ -1,14 +1,16 @@
 ---
-title: PDF sang PDFA
-linktitle: PDF sang PDFA
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/A bằng Aspose.PDF cho .NET với hướng dẫn từng bước này.
-weight: 140
-url: /vi/net/document-conversion/pdf-to-pdfa/
+"description": "Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/A bằng Aspose.PDF cho .NET với hướng dẫn từng bước này."
+"linktitle": "PDF sang PDFA"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "PDF sang PDFA"
+"url": "/vi/net/document-conversion/pdf-to-pdfa/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF sang PDFA
@@ -23,7 +25,7 @@ Trước khi bắt đầu chuyển đổi PDF, hãy đảm bảo bạn đã chu�
 
 1. Làm quen với C#: Mặc dù chúng tôi sẽ hướng dẫn bạn từng bước, nhưng hiểu biết cơ bản về lập trình C# sẽ giúp bạn nắm bắt các khái niệm dễ dàng hơn.
 2. Môi trường .NET: Đảm bảo bạn đã cài đặt .NET Framework; có thể là .NET Core hoặc .NET 5/6 vì Aspose.PDF hỗ trợ nhiều nền tảng khác nhau.
-3.  Thư viện Aspose.PDF: Truy cập vào[Trang tải xuống PDF Aspose](https://releases.aspose.com/pdf/net)để lấy phiên bản mới nhất của thư viện. Bạn có thể chọn dùng thử miễn phí nếu chưa sẵn sàng mua.
+3. Thư viện Aspose.PDF: Truy cập vào [Trang tải xuống PDF Aspose](https://releases.aspose.com/pdf/net) để lấy phiên bản mới nhất của thư viện. Bạn có thể chọn dùng thử miễn phí nếu chưa sẵn sàng mua.
 4. Visual Studio hoặc bất kỳ IDE nào: Cài đặt IDE mà bạn chọn, nơi bạn có thể viết và thực thi mã C#.
 5. Tệp PDF mẫu: Để chuyển đổi, bạn sẽ cần ít nhất một tài liệu PDF. Bạn có thể tạo một tệp PDF đơn giản bằng bất kỳ phần mềm chỉnh sửa PDF nào hoặc tải xuống tệp PDF mẫu.
 
@@ -68,7 +70,7 @@ Trước khi bắt đầu chuyển đổi, chúng ta cần chỉ định vị tr
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Chỉ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp PDF của bạn. Bước này thiết lập giai đoạn để chúng ta mở tài liệu.
+Chỉ cần thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp PDF của bạn. Bước này thiết lập giai đoạn để chúng ta mở tài liệu.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -88,7 +90,7 @@ Bây giờ đến khoảnh khắc kỳ diệu! Chúng ta sẽ chuyển đổi PD
 pdfDocument.Convert(dataDir + "log.xml", PdfFormat.PDF_A_1B, ConvertErrorAction.Delete);
 ```
 
- Ở đây, chúng tôi không chỉ chuyển đổi tài liệu; chúng tôi còn thực hiện xác thực trong quá trình chuyển đổi.`log.xml` tập tin sẽ chứa bất kỳ lỗi nào có thể xuất hiện trong quá trình này. Nếu bạn thích, bạn có thể thay đổi`ConvertErrorAction.Delete` đến các tùy chọn khác như`ConvertErrorAction.ThrowException` dựa trên cách bạn muốn xử lý bất kỳ trục trặc tiềm ẩn nào.
+Ở đây, chúng tôi không chỉ chuyển đổi tài liệu; chúng tôi còn thực hiện xác thực trong quá trình chuyển đổi. `log.xml` tập tin sẽ chứa bất kỳ lỗi nào có thể xuất hiện trong quá trình này. Nếu bạn thích, bạn có thể thay đổi `ConvertErrorAction.Delete` đến các tùy chọn khác như `ConvertErrorAction.ThrowException` dựa trên cách bạn muốn xử lý bất kỳ trục trặc tiềm ẩn nào.
 
 ## Bước 4: Lưu tài liệu đầu ra
 
@@ -99,7 +101,7 @@ dataDir = dataDir + "PDFToPDFA_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Các`Save`phương pháp này là sự đảm bảo của bạn rằng tất cả những thay đổi và chuyển đổi đó đã được hoàn thiện và ghi vào một tài liệu PDF mới.
+Các `Save` phương pháp này là sự đảm bảo của bạn rằng tất cả những thay đổi và chuyển đổi đó đã được hoàn thiện và ghi vào một tài liệu PDF mới.
 
 ## Bước 5: Xác nhận chuyển đổi
 
@@ -125,16 +127,18 @@ PDF/A là phiên bản PDF chuẩn ISO được thiết kế riêng cho mục đ
 Có, chỉ cần sửa đổi một chút trong mã, bạn có thể lặp qua một thư mục và chuyển đổi nhiều tài liệu PDF.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
-Chắc chắn rồi! Bạn có thể dùng thử Aspose.PDF miễn phí trong thời gian có hạn. Truy cập[trang dùng thử miễn phí](https://releases.aspose.com/) để bắt đầu.
+Chắc chắn rồi! Bạn có thể dùng thử Aspose.PDF miễn phí trong thời gian có hạn. Truy cập [trang dùng thử miễn phí](https://releases.aspose.com/) để bắt đầu.
 
 ### Tôi nên sử dụng cách xử lý lỗi nào trong quá trình chuyển đổi?
- Bạn có thể chọn ghi lại lỗi, đưa ra ngoại lệ hoặc ngăn chặn chúng dựa trên nhu cầu của bạn thông qua`ConvertErrorAction` tham số.
+Bạn có thể chọn ghi lại lỗi, đưa ra ngoại lệ hoặc ngăn chặn chúng dựa trên nhu cầu của bạn thông qua `ConvertErrorAction` tham số.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Để được hỗ trợ, vui lòng truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Để được hỗ trợ, vui lòng truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

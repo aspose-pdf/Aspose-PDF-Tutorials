@@ -1,14 +1,16 @@
 ---
-title: Список всех вложений в PDF-документах
-linktitle: Список всех вложений в PDF-документах
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как составить список вложений в PDF-файлах с помощью Aspose.PDF для Java. Пошаговое руководство по простому извлечению вложений из PDF-файлов.
-weight: 13
-url: /ru/java/pdf-attachments/list-all-attachments-pdf-documents/
+"description": "Узнайте, как составить список вложений в PDF-файлах с помощью Aspose.PDF для Java. Пошаговое руководство по простому извлечению вложений PDF-файлов."
+"linktitle": "Список всех вложений в PDF-документах"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Список всех вложений в PDF-документах"
+"url": "/ru/java/pdf-attachments/list-all-attachments-pdf-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Список всех вложений в PDF-документах
@@ -27,7 +29,7 @@ url: /ru/java/pdf-attachments/list-all-attachments-pdf-documents/
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
 - В вашей системе установлен Java Development Kit (JDK).
--  Aspose.PDF для библиотеки Java. Вы можете скачать ее[здесь](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF для библиотеки Java. Вы можете скачать ее [здесь](https://releases.aspose.com/pdf/java/).
 
 Теперь давайте опишем шаги по составлению списка всех вложений в PDF-документе с помощью Aspose.PDF для Java.
 
@@ -46,7 +48,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("path_to_your_
 
 ### Шаг 3: Получите вложения
 
- Чтобы получить вложения, используйте`getEmbeddedFiles` метод:
+Чтобы получить вложения, используйте `getEmbeddedFiles` метод:
 
 ```java
 // Получить список вложений
@@ -77,13 +79,13 @@ pdfDocument.close();
 
 В этом уроке мы изучили, как составить список всех вложений в документах PDF с помощью Aspose.PDF для Java. Всего за несколько простых шагов вы можете получить доступ и отобразить имена вложений, скрытых в ваших файлах PDF. Это может быть особенно полезно в сценариях, где вам нужно извлечь определенные вложения для дальнейшей обработки.
 
-Теперь у вас есть знания для работы с вложениями PDF в Java с помощью Aspose.PDF. Экспериментируйте с различными PDF и изучайте возможности программного управления вложениями.
+Теперь у вас есть знания для работы с PDF-вложениями в Java с помощью Aspose.PDF. Экспериментируйте с различными PDF-файлами и изучайте возможности программного управления вложениями.
 
 ## Часто задаваемые вопросы
 
 ### Как извлечь вложения из определенной страницы PDF-файла?
 
- Чтобы извлечь вложения с определенной страницы PDF-файла, вы можете использовать`getPage` метод для доступа к определенной странице и последующего извлечения вложений с этой страницы.
+Чтобы извлечь вложения с определенной страницы PDF-файла, вы можете использовать `getPage` метод для доступа к определенной странице и последующего извлечения вложений с этой страницы.
 
 ### Могу ли я извлекать вложения определенного типа, например, только файлы изображений?
 
@@ -99,10 +101,12 @@ Aspose.PDF для Java может обрабатывать PDF-файлы раз
 
 ### Где я могу найти дополнительные ресурсы и документацию по Aspose.PDF для Java?
 
- Подробную документацию и ресурсы по Aspose.PDF для Java можно найти на сайте[здесь](https://reference.aspose.com/pdf/java/).
+Подробную документацию и ресурсы по Aspose.PDF для Java можно найти на сайте [здесь](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

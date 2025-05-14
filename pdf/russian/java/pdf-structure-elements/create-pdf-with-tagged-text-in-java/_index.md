@@ -1,14 +1,16 @@
 ---
-title: Создать PDF с тегированным текстом на Java
-linktitle: Создать PDF с тегированным текстом на Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как создавать тегированные PDF-файлы в Java с помощью Aspose.PDF для Java. Наше пошаговое руководство обеспечивает доступность и соответствие.
-weight: 14
-url: /ru/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/
+"description": "Узнайте, как создавать тегированные PDF-файлы в Java с помощью Aspose.PDF для Java. Наше пошаговое руководство обеспечивает доступность и соответствие."
+"linktitle": "Создать PDF с тегированным текстом на Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Создать PDF с тегированным текстом на Java"
+"url": "/ru/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать PDF с тегированным текстом на Java
@@ -23,7 +25,7 @@ url: /ru/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/
 Прежде чем углубляться в код, убедитесь, что выполнены следующие предварительные условия:
 
 - В вашей системе установлен Java Development Kit (JDK).
--  Aspose.PDF для библиотеки Java. Вы можете скачать ее[здесь](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF для библиотеки Java. Вы можете скачать ее [здесь](https://releases.aspose.com/pdf/java/).
 
 ## Настройка вашего проекта Java
 
@@ -70,13 +72,13 @@ document.save("tagged_pdf_example.pdf");
 
 ## Заключение
 
-В этом руководстве мы рассмотрели, как создать PDF с тегами в Java с помощью Aspose.PDF для Java. PDF с тегами — это не только требование для доступности, но и наилучшая практика для структурирования документов. Выполнив эти шаги, вы можете гарантировать, что ваши PDF не только визуально привлекательны, но и инклюзивны для всех пользователей.
+В этом руководстве мы рассмотрели, как создать PDF с тегами в Java с помощью Aspose.PDF для Java. PDF с тегами — это не только требование для доступности, но и передовой опыт структурирования документов. Выполнив эти шаги, вы можете гарантировать, что ваши PDF не только визуально привлекательны, но и инклюзивны для всех пользователей.
 
 ## Часто задаваемые вопросы
 
 ### Как обеспечить наличие тегов доступности в моем PDF-файле?
 
- Чтобы убедиться, что ваш PDF-файл помечен тегами доступности, вам необходимо установить`tagged` собственность`true` для текста или контента, который вы хотите пометить. Обычно это делается с помощью библиотеки Aspose.PDF в Java, как показано в этом руководстве.
+Чтобы убедиться, что ваш PDF-файл помечен тегами доступности, вам необходимо установить `tagged` собственность `true` для текста или контента, который вы хотите пометить. Обычно это делается с помощью библиотеки Aspose.PDF в Java, как показано в этом руководстве.
 
 ### Какова важность тегированных PDF-файлов?
 
@@ -92,10 +94,12 @@ Aspose.PDF для Java — это коммерческая библиотека,
 
 ### Где я могу найти дополнительные ресурсы и документацию по Aspose.PDF для Java?
 
- Подробную документацию и справочную информацию по Aspose.PDF для Java можно найти на сайте Aspose.[здесь](https://reference.aspose.com/pdf/java/).
+Подробную документацию и справочную информацию по Aspose.PDF для Java можно найти на сайте Aspose. [здесь](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

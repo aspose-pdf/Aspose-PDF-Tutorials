@@ -1,14 +1,16 @@
 ---
-title: Заполните поле формы в PDF-документе с помощью Java
-linktitle: Заполните поле формы в PDF-документе с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как заполнять поля PDF-форм с помощью Java, используя Aspose.PDF для Java. Пошаговое руководство с исходным кодом.
-weight: 14
-url: /ru/java/pdf-form-fields/fill-form-field-in-pdf-document-with-java/
+"description": "Узнайте, как заполнять поля PDF-форм с помощью Java, используя Aspose.PDF для Java. Пошаговое руководство с исходным кодом."
+"linktitle": "Заполните поле формы в PDF-документе с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Заполните поле формы в PDF-документе с помощью Java"
+"url": "/ru/java/pdf-form-fields/fill-form-field-in-pdf-document-with-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Заполните поле формы в PDF-документе с помощью Java
@@ -37,9 +39,9 @@ Aspose.PDF для Java предоставляет широкий спектр ф
 
 - В вашей системе установлен Java Development Kit (JDK).
 - Редактор кода, такой как IntelliJ IDEA или Eclipse.
--  Aspose.PDF для библиотеки Java. Вы можете скачать ее здесь[здесь](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF для библиотеки Java. Вы можете скачать ее здесь [здесь](https://releases.aspose.com/pdf/java/).
 
-## Настройка окружающей среды
+## Создание среды
 
 Для начала создайте новый проект Java в предпочитаемой вами среде IDE и добавьте в свой проект библиотеку Aspose.PDF для Java.
 
@@ -106,7 +108,7 @@ pdfDocument.save("filled_form.pdf");
 
 ### Как загрузить Aspose.PDF для Java?
 
- Вы можете загрузить Aspose.PDF для Java с сайта[здесь](https://releases.aspose.com/pdf/java/).
+Вы можете загрузить Aspose.PDF для Java с сайта [здесь](https://releases.aspose.com/pdf/java/).
 
 ### Могу ли я использовать Aspose.PDF для Java в коммерческих проектах?
 
@@ -122,10 +124,12 @@ pdfDocument.save("filled_form.pdf");
 
 ### Где я могу найти больше примеров кода и документации по Aspose.PDF для Java?
 
- Подробную документацию и примеры кода для Aspose.PDF для Java можно найти на сайте[страница документации](https://reference.aspose.com/pdf/java/).
+Подробную документацию и примеры кода для Aspose.PDF для Java можно найти на сайте [страница документации](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

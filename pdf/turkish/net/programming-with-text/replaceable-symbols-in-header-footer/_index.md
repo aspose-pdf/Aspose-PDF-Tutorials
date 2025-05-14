@@ -1,14 +1,16 @@
 ---
-title: Başlık Altbilgisindeki Değiştirilebilir Semboller
-linktitle: Başlık Altbilgisindeki Değiştirilebilir Semboller
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET'i kullanarak bir PDF belgesinin üst bilgi ve alt bilgisinde değiştirilebilir sembollerin nasıl kullanılacağını öğrenin.
-weight: 320
-url: /tr/net/programming-with-text/replaceable-symbols-in-header-footer/
+"description": "Aspose.PDF for .NET'i kullanarak bir PDF belgesinin üst bilgi ve alt bilgisinde değiştirilebilir sembollerin nasıl kullanılacağını öğrenin."
+"linktitle": "Başlık Altbilgisindeki Değiştirilebilir Semboller"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Başlık Altbilgisindeki Değiştirilebilir Semboller"
+"url": "/tr/net/programming-with-text/replaceable-symbols-in-header-footer/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Başlık Altbilgisindeki Değiştirilebilir Semboller
@@ -21,10 +23,10 @@ PDF dosyalarıyla çalışırken, sayfa numaraları, rapor adları veya oluştur
 
 Adım adım kılavuza dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  .NET Kütüphanesi için Aspose.PDF –[İndirmek](https://releases.aspose.com/pdf/net/) veya bir tane al[ücretsiz deneme](https://releases.aspose.com/).
+- .NET Kütüphanesi için Aspose.PDF – [İndirmek](https://releases.aspose.com/pdf/net/) veya bir tane al [ücretsiz deneme](https://releases.aspose.com/).
 - Sisteminizde yüklü Visual Studio veya herhangi bir C# IDE.
 - C# ve .NET geliştirme konusunda temel bilgi.
--  Geçerli bir[lisans](https://purchase.aspose.com/temporary-license/) Aspose.PDF için, veya deneme sürümünü kullanabilirsiniz.
+- Geçerli bir [lisans](https://purchase.aspose.com/temporary-license/) Aspose.PDF için, veya deneme sürümünü kullanabilirsiniz.
 
 ## Paketleri İçe Aktar
 
@@ -56,7 +58,7 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Burada, PDF belgesini kullanarak bir PDF belgesi oluşturuyoruz`Document` sınıf ve bir sayfa ekleme`doc.Pages.Add()`Bu sayfa üstbilgi, altbilgi ve diğer içerikleri barındıracaktır.
+Burada, PDF belgesini kullanarak bir PDF belgesi oluşturuyoruz `Document` sınıf ve bir sayfa ekleme `doc.Pages.Add()`Bu sayfa üstbilgi, altbilgi ve diğer içerikleri barındıracaktır.
 
 ## Adım 2: Sayfa Kenar Boşluklarını Yapılandırın
 
@@ -72,7 +74,7 @@ marginInfo.Right = 50;
 page.PageInfo.Margin = marginInfo;
 ```
 
- Burada, üst, alt, sol ve sağ kenar boşluklarını kullanarak tanımladık`MarginInfo` sınıfını kullanarak sayfaya uyguladım`page.PageInfo.Margin`.
+Burada, üst, alt, sol ve sağ kenar boşluklarını kullanarak tanımladık `MarginInfo` sınıfını kullanarak sayfaya uyguladım `page.PageInfo.Margin`.
 
 ## Adım 3: Başlığı Oluşturun ve Yapılandırın
 
@@ -104,11 +106,11 @@ t2.TextState.HorizontalAlignment = Aspose.Pdf.HorizontalAlignment.Center;
 hfFirst.Paragraphs.Add(t2);
 ```
 
- İki tane ekledik`TextFragment` başlığa nesneler: biri rapor başlığı için ve diğeri rapor adı için. Metin, kullanılarak biçimlendirilir`TextState` yazı tipi, boyutu ve hizalama gibi özellikler.
+İki tane ekledik `TextFragment` başlığa nesneler: biri rapor başlığı için ve diğeri rapor adı için. Metin, kullanılarak biçimlendirilir `TextState` yazı tipi, boyutu ve hizalama gibi özellikler.
 
 ## Adım 4: Altbilgiyi Oluşturun ve Yapılandırın
 
-Şimdi sayfa numaraları ve oluşturulma tarihi gibi dinamik içerikleri tutacak olan altbilgiyi ayarlamanın zamanı geldi.
+Şimdi sayfa numaraları ve oluşturulma tarihi gibi dinamik içerikleri tutacak olan alt bilgiyi ayarlamanın zamanı geldi.
 
 ```csharp
 // Altbilgi oluştur
@@ -125,7 +127,7 @@ TextFragment t4 = new TextFragment("Report Name");
 TextFragment t5 = new TextFragment("Page $p of $P");
 ```
 
-Altbilgide, oluşturma tarihi, rapor adı ve dinamik sayfa numaraları için parçalar ekliyoruz (`$p` Ve`$P` (sırasıyla geçerli sayfa numarasını ve toplam sayfa sayısını temsil eder).
+Altbilgide, oluşturma tarihi, rapor adı ve dinamik sayfa numaraları için parçalar ekliyoruz (`$p` Ve `$P` (sırasıyla geçerli sayfa numarasını ve toplam sayfa sayısını temsil eder).
 
 ## Adım 5: Altbilgide Bir Tablo Oluşturun
 
@@ -189,7 +191,7 @@ doc.Save(dataDir);
 Console.WriteLine("Symbols replaced successfully in header and footer. File saved at " + dataDir);
 ```
 
- Dosya yolunu belirtin ve belgeyi kullanarak kaydedin`doc.Save()`İşte bu kadar! Özelleştirilmiş üstbilgi ve altbilgilere sahip bir PDF'i başarıyla oluşturdunuz.
+Dosya yolunu belirtin ve belgeyi kullanarak kaydedin `doc.Save()`İşte bu kadar! Özelleştirilmiş üstbilgi ve altbilgilere sahip bir PDF'i başarıyla oluşturdunuz.
 
 ## Çözüm
 
@@ -201,19 +203,21 @@ Aspose.PDF for .NET kullanarak başlık ve altbilgilerdeki sembolleri değiştir
 Evet, üstbilgi ve altbilgilerdeki metinlerin yazı tiplerini, boyutlarını, renklerini ve stillerini tamamen özelleştirebilirsiniz.
 
 ### Başlık ve altbilgilere nasıl resim eklerim?  
- Kullanabilirsiniz`ImageStamp` Başlık ve altbilgilerinize resim eklemek için.
+Kullanabilirsiniz `ImageStamp` Başlık ve altbilgilerinize resim eklemek için.
 
 ### Başlıklara veya altbilgilere köprü eklemek mümkün müdür?  
- Evet, kullanabilirsiniz`TextFragment` bir köprü metni ile ayarlayarak`Hyperlink` mülk.
+Evet, kullanabilirsiniz `TextFragment` bir köprü metni ile ayarlayarak `Hyperlink` mülk.
 
 ### Tek ve çift sayfalar için farklı başlıklar kullanabilir miyim?  
 Evet, Aspose.PDF tek ve çift sayfalar için farklı üstbilgi ve altbilgi belirtmenize olanak tanır.
 
 ### Üstbilgi ve altbilgi konumlarını nasıl ayarlarım?  
 Üstbilgilerinizin ve altbilgilerinizin konumunu kontrol etmek için kenar boşluklarını ve hizalama özelliklerini ayarlayabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

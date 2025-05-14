@@ -1,14 +1,16 @@
 ---
-title: Zaokrąglony stół narożny w dokumencie PDF
-linktitle: Zaokrąglony stół narożny w dokumencie PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak utworzyć pięknie zaokrągloną tabelę w dokumentach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku.
-weight: 190
-url: /pl/net/programming-with-tables/rounded-corner-table/
+"description": "Dowiedz się, jak utworzyć pięknie zaokrągloną tabelę w dokumentach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Zaokrąglony stół narożny w dokumencie PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zaokrąglony stół narożny w dokumencie PDF"
+"url": "/pl/net/programming-with-tables/rounded-corner-table/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zaokrąglony stół narożny w dokumencie PDF
@@ -23,11 +25,11 @@ Zanim rozpoczniemy naszą przygodę ze stołami o zaokrąglonych rogach, musimy 
 
 1. Visual Studio: Upewnij się, że masz zainstalowane Visual Studio na swoim komputerze. Będzie to Twój plac zabaw do kodowania i testowania.
 2. .NET Framework: Upewnij się, że używasz odpowiedniej wersji .NET Framework, która jest zgodna z Aspose.PDF.
-3. Aspose.PDF dla .NET: Potrzebujesz biblioteki Aspose.PDF. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF dla .NET: Potrzebujesz biblioteki Aspose.PDF. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/pdf/net/).
 4. Odpowiednie środowisko IDE: Chociaż preferowany jest program Visual Studio, każde inne środowisko IDE obsługujące język C# spełni swoje zadanie.
 5. Podstawowa wiedza o języku C#: Zrozumienie podstaw programowania w języku C# pomoże Ci szybciej przyswoić wiedzę.
 
-Masz to wszystko gotowe? Świetnie! Ruszajmy dalej.
+Wszystko gotowe? Świetnie! Ruszajmy dalej.
 
 ## Importuj pakiety
 
@@ -42,13 +44,13 @@ Po pierwsze, uruchom Visual Studio i utwórz nowy projekt. Możesz wybrać aplik
 Po skonfigurowaniu projektu:
 - Kliknij prawym przyciskiem myszy projekt w Eksploratorze rozwiązań.
 - Wybierz „Zarządzaj pakietami NuGet”.
--  Szukaj`Aspose.PDF` i zainstaluj.
+- Szukaj `Aspose.PDF` i zainstaluj.
 
 Teraz jesteś gotowy do drogi!
 
 ### Importuj przestrzeń nazw Aspose.PDF
 
- Na szczycie twojego`Program.cs` lub gdziekolwiek znajduje się Twój główny kod, będziesz chciał dodać:
+Na szczycie twojego `Program.cs` lub gdziekolwiek znajduje się Twój główny kod, będziesz chciał dodać:
 
 ```csharp
 using System.IO;
@@ -68,7 +70,7 @@ Na początek musisz ustawić ścieżkę, w której będzie przechowywany Twój p
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zmiana`YOUR DOCUMENT DIRECTORY` do rzeczywistej ścieżki, w której chcesz zapisać plik PDF. 
+Zmiana `YOUR DOCUMENT DIRECTORY` do rzeczywistej ścieżki, w której chcesz zapisać plik PDF. 
 
 ## Krok 2: Zainicjuj dokument
 
@@ -90,7 +92,7 @@ Ten wiersz tworzy nowy obiekt tabeli gotowy na odrobinę magii!
 
 ## Krok 4: Utwórz informacje o obramowaniu
 
- Aby nadać tabeli ładny kontur i efekt zaokrąglonych rogów, należy utworzyć wystąpienie`BorderInfo`.
+Aby nadać tabeli ładny kontur i efekt zaokrąglonych rogów, należy utworzyć wystąpienie `BorderInfo`.
 
 ```csharp
 GraphInfo graph = new GraphInfo();
@@ -160,19 +162,21 @@ masz! Udało Ci się utworzyć tabelę z zaokrąglonymi narożnikami w dokumenci
 Aspose.PDF for .NET to biblioteka umożliwiająca aplikacjom .NET łatwe tworzenie i modyfikowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak! Możesz wypróbować Aspose.PDF z bezpłatną wersją próbną dostępną na ich stronie[strona wydania](https://releases.aspose.com/).
+Tak! Możesz wypróbować Aspose.PDF z bezpłatną wersją próbną dostępną na ich stronie [strona wydania](https://releases.aspose.com/).
 
 ### Do czego służą stoły o zaokrąglonych rogach?
 Poprawiają atrakcyjność wizualną tabel w dokumentach PDF, dzięki czemu stają się one bardziej interesujące dla czytelników.
 
 ### Gdzie mogę kupić Aspose.PDF?
- Można go nabyć bezpośrednio od[Strona zakupu Aspose](https://purchase.aspose.com/buy).
+Można go nabyć bezpośrednio od [Strona zakupu Aspose](https://purchase.aspose.com/buy).
 
 ### A co jeśli będę potrzebować wsparcia?
- Aby uzyskać pomoc, możesz odwiedzić fora pomocy technicznej Aspose pod adresem[Wsparcie Aspose](https://forum.aspose.com/c/pdf/10).
+Aby uzyskać pomoc, możesz odwiedzić fora pomocy technicznej Aspose pod adresem [Wsparcie Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

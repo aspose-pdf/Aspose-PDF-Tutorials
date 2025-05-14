@@ -8,7 +8,9 @@ url: /java/pdf-document-links/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Document Links
@@ -35,9 +37,11 @@ Unlock the potential of PDF document links in Java with Aspose.PDF for Java tuto
 Learn how to add hyperlinks to PDF files using Java with step-by-step instructions and source code. Enhance your PDF documents with interactivity.
 ### [Create a Link to Another PDF Document using Java](./create-a-link-to-another-pdf-document-using-java/)
 Learn how to create PDF document links in Java effortlessly with Aspose.PDF for Java. Step-by-step guide for PDF interactivity.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

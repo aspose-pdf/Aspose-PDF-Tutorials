@@ -1,14 +1,16 @@
 ---
-title: Ek Bilgilerini Al
-linktitle: Ek Bilgilerini Al
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF kullanarak Java'da PDF eklerini nasıl alacağınızı öğrenin. PDF belge eklerini yönetmek için kod örnekleriyle adım adım kılavuz.
-weight: 12
-url: /tr/java/pdf-attachments/retrieve-attachment-information/
+"description": "Aspose.PDF kullanarak Java'da PDF eklerini nasıl alacağınızı öğrenin. PDF belge eklerini yönetmek için kod örnekleriyle adım adım kılavuz."
+"linktitle": "Ek Bilgilerini Al"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Ek Bilgilerini Al"
+"url": "/tr/java/pdf-attachments/retrieve-attachment-information/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ek Bilgilerini Al
@@ -23,7 +25,7 @@ Bu eğitimde, bir PDF belgesinden ek bilgilerini almak için Java için Aspose.P
 Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 1. Java Geliştirme Ortamı (JDK) kuruldu.
-2.  Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+2. Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Adım 1: Bir Java Projesi Oluşturun
 
@@ -75,10 +77,10 @@ Bu eğitimde, Java için Aspose.PDF kullanarak bir PDF belgesinden ek bilgilerin
 
 ### PDF'den ekleri nasıl çıkarabilirim?
 
- Ekleri çıkarmak için şunu kullanabilirsiniz:`attachment.getData()` Ekteki içeriğin alınması ve daha sonra yerel bir dosyaya kaydedilmesi yöntemi.
+Ekleri çıkarmak için şunu kullanabilirsiniz: `attachment.getData()` Ekteki dosyanın içeriğini alıp yerel bir dosyaya kaydetme yöntemi.
 
 ### PDF belgesindeki ekleri düzenleyebilir miyim?
-Evet, Aspose.PDF for Java kullanarak bir PDF belgesindeki ekleri ekleyebilir, kaldırabilir veya güncelleyebilirsiniz. Daha fazla ayrıntı için belgelere bakın.
+Evet, Aspose.PDF for Java kullanarak bir PDF belgesine ek ekleyebilir, kaldırabilir veya güncelleyebilirsiniz. Daha fazla ayrıntı için belgelere bakın.
 
 ### Desteklenen ek formatları nelerdir?
 
@@ -86,10 +88,12 @@ Java için Aspose.PDF, PDF, resimler, belgeler ve daha fazlası dahil olmak üze
 
 ### PDF'e yeni ekler nasıl ekleyebilirim?
 
- Bir PDF belgesine eklentileri şu şekilde ekleyebilirsiniz:`AttachmentCollection.add()`yöntem. Sadece ekteki dosyanın adını, açıklamasını ve içeriğini sağlayın, böylece belgeye eklenecektir.
+Bir PDF belgesine eklentileri şu şekilde ekleyebilirsiniz: `AttachmentCollection.add()` yöntem. Sadece ekin adını, açıklamasını ve içeriğini sağlayın, böylece belgeye eklenecektir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

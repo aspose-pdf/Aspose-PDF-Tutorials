@@ -6,8 +6,11 @@ description: Learn how to create a PDF document in .NET, add colorful rectangles
 keywords: [Aspose.PDF, .NET PDF example, create PDF, add rectangles, Z-index, PDF manipulation]
 url: /net/graphs/control-rectangle-z-order/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create and Customize PDF with Rectangles
@@ -15,9 +18,11 @@ url: /net/graphs/control-rectangle-z-order/
 This guide demonstrates how to create a PDF document using Aspose.PDF for .NET, incorporating colorful rectangles with different Z-indices to control their layering. Follow the step-by-step instructions to add shapes to your PDF and save the document, enhancing your application's PDF generation capabilities.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/control-rectangle-z-order" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installation Instructions
@@ -35,7 +40,9 @@ This guide demonstrates how to create a PDF document using Aspose.PDF for .NET, 
 - [API Reference for Aspose.PDF for .NET](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

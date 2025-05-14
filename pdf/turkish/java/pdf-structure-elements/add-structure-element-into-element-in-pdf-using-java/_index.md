@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'deki Elemana Yapı Elemanı Ekleme
-linktitle: Java kullanarak PDF'deki Elemana Yapı Elemanı Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java'da Aspose.PDF for Java kullanarak PDF yapısını nasıl geliştireceğinizi öğrenin. Bu adım adım kılavuz, erişilebilir ve düzenli PDF'ler için yapı öğeleri eklemeyi kapsar.
-weight: 11
-url: /tr/java/pdf-structure-elements/add-structure-element-into-element-in-pdf-using-java/
+"description": "Java'da Aspose.PDF for Java kullanarak PDF yapısını nasıl geliştireceğinizi öğrenin. Bu adım adım kılavuz, erişilebilir ve düzenli PDF'ler için yapı öğeleri eklemeyi kapsar."
+"linktitle": "Java kullanarak PDF'deki Elemana Yapı Elemanı Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'deki Elemana Yapı Elemanı Ekleme"
+"url": "/tr/java/pdf-structure-elements/add-structure-element-into-element-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'deki Elemana Yapı Elemanı Ekleme
@@ -28,7 +30,7 @@ PDF'lerdeki yapı öğeleri, bir belgedeki içeriği düzenlemeye ve tanımlamay
 
 ### Java Ortamını Hazırlama
 
-Başlamadan önce, bir Java geliştirme ortamının kurulu olduğundan emin olun. Yoksa, Oracle web sitesinden Java Geliştirme Kiti'nin (JDK) en son sürümünü indirip yükleyebilirsiniz.
+Başlamadan önce, bir Java geliştirme ortamının kurulu olduğundan emin olun. Değilse, Oracle web sitesinden Java Geliştirme Kiti'nin (JDK) en son sürümünü indirip yükleyebilirsiniz.
 
 ### Yeni Bir PDF Belgesi Oluşturma
 
@@ -106,7 +108,7 @@ Bu eğitimde, Java için Aspose.PDF kullanarak bir PDF belgesindeki öğelere ya
 
 ### Java için Aspose.PDF'yi nasıl indirebilirim?
 
- Java için Aspose.PDF'yi şu web sitesinden indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/).
+Java için Aspose.PDF'yi şu web sitesinden indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/).
 
 ### Aspose.PDF for Java'yı kullanmak ücretsiz mi?
 
@@ -122,10 +124,12 @@ Evet, Java'da Apache PDFBox ve iText gibi PDF düzenleme yetenekleri sağlayan b
 
 ### Java için Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?
 
- Java için Aspose.PDF belgelerine şu adresten erişebilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF belgelerine şu adresten erişebilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

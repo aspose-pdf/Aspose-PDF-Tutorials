@@ -1,14 +1,16 @@
 ---
-title: Áp dụng Biên tập cho Nội dung Nhạy cảm
-linktitle: Áp dụng Biên tập cho Nội dung Nhạy cảm
-second_title: API xử lý PDF Java Aspose.PDF
-description: Khám phá sức mạnh của việc biên tập nội dung nhạy cảm trong tệp PDF bằng Aspose.PDF cho Java.
-weight: 15
-url: /vi/java/pdf-annotations/apply-redaction-sensitive-content/
+"description": "Khám phá sức mạnh của việc biên tập nội dung nhạy cảm trong tệp PDF bằng Aspose.PDF cho Java."
+"linktitle": "Áp dụng Biên tập cho Nội dung Nhạy cảm"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Áp dụng Biên tập cho Nội dung Nhạy cảm"
+"url": "/vi/java/pdf-annotations/apply-redaction-sensitive-content/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng Biên tập cho Nội dung Nhạy cảm
@@ -23,7 +25,7 @@ Biên tập là quá trình xóa vĩnh viễn hoặc che khuất thông tin nh�
 Trước khi bắt đầu quá trình biên tập, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
--  Thư viện Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+- Thư viện Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 
 
 ## Thiết lập môi trường Java của bạn
@@ -50,7 +52,7 @@ Trong bước này, chúng ta sẽ tải một tài liệu PDF có chứa thông
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Thay thế`"example.pdf"` với đường dẫn đến tệp PDF của bạn.
+Thay thế `"example.pdf"` với đường dẫn đến tệp PDF của bạn.
 
 ## Xác định nội dung nhạy cảm
 
@@ -112,9 +114,11 @@ Có, bạn có thể xử lý hàng loạt nhiều tài liệu PDF để áp d�
 ### Có bất kỳ hạn chế nào đối với việc biên tập trong Aspose.PDF cho Java không?
 
 Aspose.PDF for Java cung cấp khả năng biên tập mạnh mẽ, nhưng điều cần thiết là phải kiểm tra kỹ lưỡng các tài liệu đã biên tập để đảm bảo không xảy ra rò rỉ thông tin ngoài ý muốn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

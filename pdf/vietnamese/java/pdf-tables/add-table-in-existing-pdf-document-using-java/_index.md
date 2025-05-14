@@ -1,20 +1,22 @@
 ---
-title: Thêm Bảng vào Tài liệu PDF hiện có bằng Java
-linktitle: Thêm Bảng vào Tài liệu PDF hiện có bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm bảng vào tài liệu PDF hiện có bằng Java và Aspose.PDF cho Java. Hướng dẫn từng bước với ví dụ mã.
-weight: 10
-url: /vi/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
+"description": "Tìm hiểu cách thêm bảng vào tài liệu PDF hiện có bằng Java và Aspose.PDF cho Java. Hướng dẫn từng bước với ví dụ mã."
+"linktitle": "Thêm Bảng vào Tài liệu PDF hiện có bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm Bảng vào Tài liệu PDF hiện có bằng Java"
+"url": "/vi/java/pdf-tables/add-table-in-existing-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Bảng vào Tài liệu PDF hiện có bằng Java
 
 
-## Giới thiệu về Thêm Bảng vào Tài liệu PDF hiện có bằng Java
+## Giới thiệu về Thêm Bảng vào Tài liệu PDF Hiện có bằng Java
 
 Trong bài viết này, chúng ta sẽ khám phá cách thêm bảng vào tài liệu PDF hiện có bằng Java. Bảng là một phần cơ bản của nhiều tài liệu, cung cấp cách có cấu trúc để hiển thị dữ liệu. Chúng ta sẽ sử dụng thư viện Aspose.PDF cho Java để thực hiện nhiệm vụ này.
 
@@ -24,7 +26,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng các điều ki�
 
 - Đã cài đặt Java Development Kit (JDK).
 - Môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse.
--  Thư viện Aspose.PDF cho Java, bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Thư viện Aspose.PDF cho Java, bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập Môi trường
 
@@ -33,7 +35,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng các điều ki�
 
 ## Thêm phụ thuộc
 
- Trong dự án của bạn`pom.xml` (nếu bạn đang sử dụng Maven) hoặc tệp build.gradle (nếu bạn đang sử dụng Gradle), hãy thêm phần phụ thuộc sau:
+Trong dự án của bạn `pom.xml` (nếu bạn đang sử dụng Maven) hoặc tệp build.gradle (nếu bạn đang sử dụng Gradle), hãy thêm phần phụ thuộc sau:
 
 ```xml
 <dependencies>
@@ -45,7 +47,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng các điều ki�
 </dependencies>
 ```
 
- Thay thế`latest_version` với phiên bản thực tế của thư viện Aspose.PDF mà bạn đã tải xuống.
+Thay thế `latest_version` với phiên bản thực tế của thư viện Aspose.PDF mà bạn đã tải xuống.
 
 ## Tạo một bảng
 
@@ -125,7 +127,7 @@ Trong hướng dẫn này, chúng ta đã học cách thêm bảng vào tài li�
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp trên trang web của họ.
+Bạn có thể tải xuống Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp trên trang web của họ.
 
 ### Tôi có thể thêm hình ảnh vào ô trong bảng không?
 
@@ -137,14 +139,16 @@ Có, Aspose.PDF for Java hỗ trợ làm việc với nhiều phiên bản PDF k
 
 ### Làm thế nào để thiết lập đường viền tùy chỉnh cho các ô trong bảng?
 
- Bạn có thể tùy chỉnh đường viền ô bằng cách điều chỉnh`BorderInfo` thuộc tính. Tham khảo tài liệu Aspose.PDF để biết ví dụ chi tiết.
+Bạn có thể tùy chỉnh đường viền ô bằng cách điều chỉnh `BorderInfo` thuộc tính. Tham khảo tài liệu Aspose.PDF để biết ví dụ chi tiết.
 
 ### Tôi có thể trích xuất dữ liệu từ các bảng hiện có trong tài liệu PDF không?
 
 Có, bạn có thể trích xuất dữ liệu từ các bảng hiện có trong tài liệu PDF bằng Aspose.PDF cho Java. Tham khảo tài liệu để biết phương pháp trích xuất và ví dụ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

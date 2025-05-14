@@ -1,14 +1,16 @@
 ---
-title: Đặt đường viền trong PDF thành bảng
-linktitle: Đặt đường viền trong PDF thành bảng
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thiết lập đường viền trong bảng PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi. Cải thiện giao diện tài liệu của bạn một cách dễ dàng.
-weight: 200
-url: /vi/net/programming-with-tables/set-border/
+"description": "Tìm hiểu cách thiết lập đường viền trong bảng PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi. Cải thiện giao diện tài liệu của bạn một cách dễ dàng."
+"linktitle": "Đặt đường viền trong PDF thành bảng"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đặt đường viền trong PDF thành bảng"
+"url": "/vi/net/programming-with-tables/set-border/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt đường viền trong PDF thành bảng
@@ -22,7 +24,7 @@ Tạo tài liệu PDF chuyên nghiệp dễ hơn bao giờ hết với Aspose.PD
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có những điều sau:
 
 1. Visual Studio: Môi trường phát triển tích hợp (IDE) phù hợp để viết và chạy các ứng dụng .NET của bạn.
-2.  Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện này. Bạn có thể tải xuống trực tiếp từ[Aspose PDF cho các bản phát hành .NET](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện này. Bạn có thể tải xuống trực tiếp từ [Aspose PDF cho các bản phát hành .NET](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu rõ hơn về cách triển khai mã.
 4. .NET Framework: Bất kỳ phiên bản nào tương thích với Aspose.PDF cho .NET.
 
@@ -48,17 +50,17 @@ Trước tiên, bạn sẽ muốn chỉ định thư mục nơi tệp PDF của 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Điều này thiết lập đường dẫn cơ sở cho tệp đầu ra của bạn, vì vậy hãy nhớ thay đổi`"YOUR DOCUMENT DIRECTORY"` đến một đường dẫn thực tế trên máy của bạn.
+Điều này thiết lập đường dẫn cơ sở cho tệp đầu ra của bạn, vì vậy hãy nhớ thay đổi `"YOUR DOCUMENT DIRECTORY"` đến một đường dẫn thực tế trên máy của bạn.
 
 ## Bước 2: Khởi tạo đối tượng tài liệu
 
- Tiếp theo, bạn cần tạo một phiên bản của`Document` lớp. Lớp này đại diện cho toàn bộ tài liệu PDF mà bạn sẽ làm việc.
+Tiếp theo, bạn cần tạo một phiên bản của `Document` lớp. Lớp này đại diện cho toàn bộ tài liệu PDF mà bạn sẽ làm việc.
 
 ```csharp
 Document doc = new Document();
 ```
 
- Bằng cách khởi tạo`Document` đối tượng, bạn đang chuẩn bị thêm trang và nội dung vào tệp PDF của mình.
+Bằng cách khởi tạo `Document` đối tượng, bạn đang chuẩn bị thêm trang và nội dung vào tệp PDF của mình.
 
 ## Bước 3: Thêm Trang vào Tài liệu
 
@@ -72,13 +74,13 @@ Page page = doc.Pages.Add();
 
 ## Bước 4: Tạo đối tượng BorderInfo
 
- Bây giờ là lúc thiết lập đường viền cho bảng của chúng ta.`BorderInfo` lớp cho phép bạn chỉ định các thuộc tính đường viền.
+Bây giờ là lúc thiết lập đường viền cho bảng của chúng ta. `BorderInfo` lớp cho phép bạn chỉ định các thuộc tính đường viền.
 
 ```csharp
 Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
 ```
 
- Trong dòng này, chúng ta tạo ra một`BorderInfo` đối tượng sẽ áp dụng cho tất cả các mặt của ô.
+Trong dòng này, chúng ta tạo ra một `BorderInfo` đối tượng sẽ áp dụng cho tất cả các mặt của ô.
 
 ## Bước 5: Thiết lập Kiểu Đường viền
 
@@ -91,7 +93,7 @@ border.Bottom.IsDoubled = true;
 
 Trong ví dụ này, chúng tôi chỉ ra rằng đường viền trên và dưới phải được nhân đôi. Điều này rất tuyệt để thêm điểm nhấn và chiều sâu trực quan cho bảng của bạn.
 
-## Bước 6: Khởi tạo đối tượng Table
+## Bước 6: Khởi tạo đối tượng bảng
 
 Sau khi xác định được đường viền, đã đến lúc tạo bảng.
 
@@ -129,7 +131,7 @@ Bây giờ, hãy thêm một số nội dung vào bảng bằng cách tạo mộ
 Aspose.Pdf.Cell cell = row.Cells.Add("some text");
 ```
 
- Hãy thoải mái thay thế`"some text"` với bất kỳ chuỗi nào bạn muốn hiển thị. Đây có thể là nhãn, số hoặc bất kỳ thông tin văn bản nào cần thiết cho tài liệu của bạn.
+Hãy thoải mái thay thế `"some text"` với bất kỳ chuỗi nào bạn muốn hiển thị. Đây có thể là nhãn, số hoặc bất kỳ thông tin văn bản nào cần thiết cho tài liệu của bạn.
 
 ## Bước 10: Thiết lập đường viền cho ô
 
@@ -169,22 +171,24 @@ Tạo một tài liệu PDF có bảng với đường viền có thể cải th
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thay đổi kiểu đường viền thành nét đứt hoặc chấm bi không?  
- Có! Bạn có thể sửa đổi các thuộc tính đường viền trong`BorderInfo` đối tượng để tạo đường viền nét đứt hoặc chấm bi bằng cách thiết lập các thuộc tính thích hợp.
+Có! Bạn có thể sửa đổi các thuộc tính đường viền trong `BorderInfo` đối tượng để tạo đường viền nét đứt hoặc chấm bi bằng cách thiết lập các thuộc tính thích hợp.
 
 ### Aspose.PDF có hỗ trợ hình ảnh trong bảng không?  
- Chắc chắn rồi! Bạn có thể thêm hình ảnh vào các ô bảng giống như bạn có thể làm với văn bản bằng cách sử dụng`Cell` phương pháp của lớp.
+Chắc chắn rồi! Bạn có thể thêm hình ảnh vào các ô bảng giống như bạn có thể làm với văn bản bằng cách sử dụng `Cell` phương pháp của lớp.
 
 ### Làm thế nào tôi có thể chỉ định chiều rộng khác nhau cho các cột khác nhau?  
- Bạn có thể xác định chiều rộng của từng cột riêng biệt bằng cách sử dụng một chuỗi chiều rộng, chẳng hạn như`"100;150;200"`.
+Bạn có thể xác định chiều rộng của từng cột riêng biệt bằng cách sử dụng một chuỗi chiều rộng, chẳng hạn như `"100;150;200"`.
 
 ### Tôi có thể tạo nhiều bảng trên cùng một trang không?  
 Có! Bạn có thể tạo và thêm bao nhiêu bảng tùy thích trên cùng một trang bằng cách lặp lại các bước tạo bảng.
 
 ### Có cách nào để áp dụng kiểu cho các ô trong bảng không?  
- Chắc chắn rồi! Bạn có thể thiết lập nhiều thuộc tính khác nhau như màu nền, kiểu chữ và căn chỉnh trên`Cell` sự vật.
+Chắc chắn rồi! Bạn có thể thiết lập nhiều thuộc tính khác nhau như màu nền, kiểu chữ và căn chỉnh trên `Cell` sự vật.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

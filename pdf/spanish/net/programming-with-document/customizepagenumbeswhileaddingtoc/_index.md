@@ -1,34 +1,36 @@
 ---
-title: Personalizar los números de página al agregar una tabla de contenidos
-linktitle: Personalizar los números de página al agregar una tabla de contenidos
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a personalizar los números de página mientras agrega una tabla de contenido a sus documentos PDF usando Aspose.PDF para .NET en este completo tutorial.
-weight: 100
-url: /es/net/programming-with-document/customizepagenumbeswhileaddingtoc/
+"description": "Aprenda a personalizar los números de página mientras agrega una tabla de contenido a sus documentos PDF usando Aspose.PDF para .NET en este completo tutorial."
+"linktitle": "Personalizar los números de página al agregar la tabla de contenidos"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Personalizar los números de página al agregar la tabla de contenidos"
+"url": "/es/net/programming-with-document/customizepagenumbeswhileaddingtoc/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Personalizar los números de página al agregar una tabla de contenidos
+# Personalizar los números de página al agregar la tabla de contenidos
 
 ## Introducción
 
-En el mundo de la gestión de documentos, los PDF son los reyes. Son el formato ideal para compartir y conservar documentos en varias plataformas. Pero, ¿qué sucede cuando desea mejorar sus documentos PDF con funciones como una tabla de contenido (TOC)? ¡Ahí es donde entra en juego Aspose.PDF para .NET! Esta potente biblioteca permite a los desarrolladores manipular archivos PDF con facilidad, lo que les permite agregar, modificar y personalizar contenido sin esfuerzo. En este tutorial, profundizaremos en cómo personalizar los números de página mientras agrega una tabla de contenido a sus documentos PDF utilizando Aspose.PDF para .NET. ¡Así que, póngase su sombrero de codificador y comencemos!
+En el mundo de la gestión documental, los PDF son la norma. Son el formato predilecto para compartir y conservar documentos en diversas plataformas. Pero ¿qué ocurre cuando se desea mejorar los documentos PDF con funciones como una tabla de contenido (TOC)? ¡Aquí es donde entra en juego Aspose.PDF para .NET! Esta potente biblioteca permite a los desarrolladores manipular archivos PDF con facilidad, permitiéndoles añadir, modificar y personalizar contenido sin esfuerzo. En este tutorial, profundizaremos en cómo personalizar los números de página al añadir una TOC a los documentos PDF con Aspose.PDF para .NET. ¡Así que, a desarrollar, y empecemos!
 
 ## Prerrequisitos
 
 Antes de pasar al código, hay algunas cosas que debes tener en cuenta:
 
-1. Visual Studio: asegúrese de tener Visual Studio instalado en su equipo. Este será nuestro entorno de desarrollo.
-2. Aspose.PDF para .NET: Debe descargar e instalar la biblioteca Aspose.PDF. Puede encontrarla[aquí](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Asegúrese de tener Visual Studio instalado en su equipo. Este será nuestro entorno de desarrollo.
+2. Aspose.PDF para .NET: Necesita descargar e instalar la biblioteca Aspose.PDF. Puede encontrarla aquí. [aquí](https://releases.aspose.com/pdf/net/).
 3. Conocimientos básicos de C#: la familiaridad con la programación en C# le ayudará a comprender mejor los fragmentos de código.
-4. Un archivo PDF de muestra: tenga listo un archivo PDF de muestra con el que podamos trabajar. Puede crear uno simple o descargar un PDF existente.
+4. Un archivo PDF de muestra: Tenga listo un archivo PDF de muestra con el que podamos trabajar. Puede crear uno simple o descargar uno existente.
 
 ## Importar paquetes
 
-Para comenzar, debemos importar los paquetes necesarios. Abra su proyecto de Visual Studio y agregue una referencia a la biblioteca Aspose.PDF. Puede hacerlo mediante el Administrador de paquetes NuGet:
+Para empezar, necesitamos importar los paquetes necesarios. Abra su proyecto de Visual Studio y agregue una referencia a la biblioteca Aspose.PDF. Puede hacerlo usando el Administrador de paquetes NuGet:
 
 1. Haga clic derecho en su proyecto en el Explorador de soluciones.
 2. Seleccione "Administrar paquetes NuGet".
@@ -44,9 +46,9 @@ using System.Text;
 
 ¡Una vez que tengas la biblioteca instalada, puedes comenzar a codificar!
 
-## Paso 1: Configurar el directorio de documentos
+## Paso 1: Configure su directorio de documentos
 
-Lo primero es lo primero: debemos configurar nuestro directorio de documentos. Aquí es donde almacenaremos nuestros archivos PDF de entrada y salida. 
+Primero, debemos configurar nuestro directorio de documentos. Aquí almacenaremos nuestros archivos PDF de entrada y salida. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -54,7 +56,7 @@ string inFile = dataDir + "42824.pdf";
 string outFile = dataDir + "42824_out.pdf";
 ```
 
-En este fragmento, reemplace`YOUR DOCUMENT DIRECTORY` con la ruta actual donde se encuentran sus archivos PDF. Esto nos ayudará a cargar el PDF existente y guardar la versión modificada.
+En este fragmento, reemplace `YOUR DOCUMENT DIRECTORY` Con la ruta de acceso de sus archivos PDF. Esto nos permitirá cargar el PDF existente y guardar la versión modificada.
 
 ## Paso 2: Cargue el archivo PDF existente
 
@@ -64,7 +66,7 @@ Ahora que tenemos configurado nuestro directorio de documentos, carguemos el arc
 Document doc = new Document(inFile);
 ```
 
- Aquí creamos uno nuevo`Document` objeto pasando la ruta del archivo de entrada. Esto nos permite manipular el contenido del PDF mediante programación.
+Aquí creamos uno nuevo `Document` objeto pasando la ruta del archivo de entrada. Esto nos permite manipular el contenido del PDF mediante programación.
 
 ## Paso 3: Insertar una nueva página para la tabla de contenidos
 
@@ -78,7 +80,7 @@ Esta línea inserta una nueva página al principio del documento. La tabla de co
 
 ## Paso 4: Crear información de tabla de contenidos
 
-Ahora, vamos a crear un objeto para representar la información del TOC.
+Ahora, creemos un objeto para representar la información TOC.
 
 ```csharp
 TocInfo tocInfo = new TocInfo();
@@ -90,11 +92,11 @@ tocInfo.PageNumbersPrefix = "P";
 tocPage.TocInfo = tocInfo;
 ```
 
- En este paso, creamos un`TocInfo` objeto y establecemos su título como "Tabla de contenido". También personalizamos el tamaño y el estilo de la fuente.`PageNumbersPrefix` se establece en "P", que antepondrá los números de página en la tabla de contenidos.
+En este paso, creamos un `TocInfo` objeto y establecemos su título como "Índice". También personalizamos el tamaño y el estilo de la fuente. `PageNumbersPrefix` se establece en "P", que precederá los números de página en la tabla de contenidos.
 
-## Paso 5: Agregar títulos a la tabla de contenidos
+## Paso 5: Agregar encabezados a la tabla de contenidos
 
-Ahora viene la parte divertida. Recorreremos las páginas del documento y agregaremos títulos a nuestra tabla de contenidos.
+¡Ahora viene la parte divertida! Recorreremos las páginas del documento y añadiremos encabezados a nuestra tabla de contenidos.
 
 ```csharp
 for (int i = 1; i < doc.Pages.Count; i++)
@@ -110,7 +112,7 @@ for (int i = 1; i < doc.Pages.Count; i++)
 }
 ```
 
- En este bucle, creamos un nuevo`Heading` objeto para cada página. Establecemos la página de destino para cada encabezado y especificamos el texto que se mostrará, que es "Página X", donde X es el número de página. Por último, agregamos el encabezado a la página de índice.
+En este bucle, creamos un nuevo `Heading` Objeto para cada página. Establecemos la página de destino para cada encabezado y especificamos el texto que se mostrará: "Página X", donde X es el número de página. Finalmente, añadimos el encabezado a la página de índice.
 
 ## Paso 6: Guarde el documento actualizado
 
@@ -124,7 +126,7 @@ Esta línea guarda el PDF modificado con la tabla de contenidos incluida. ¡Ahor
 
 ## Conclusión
 
-¡Y ya está! Has personalizado con éxito los números de página y has añadido una tabla de contenidos a tu documento PDF con Aspose.PDF para .NET. Esta potente biblioteca facilita la manipulación de archivos PDF y, con solo unas pocas líneas de código, puedes mejorar significativamente tus documentos. Tanto si estás creando informes, libros electrónicos o cualquier otro tipo de PDF, tener una tabla de contenidos puede mejorar enormemente la navegación de tus lectores. ¿A qué estás esperando? ¡Sumérgete en Aspose.PDF y empieza a crear PDF increíbles hoy mismo!
+¡Y listo! Has personalizado correctamente la numeración de páginas y añadido una tabla de contenido a tu documento PDF con Aspose.PDF para .NET. Esta potente biblioteca facilita la manipulación de archivos PDF y, con solo unas pocas líneas de código, puedes mejorar significativamente tus documentos. Ya sea que estés creando informes, ebooks o cualquier otro tipo de PDF, tener una tabla de contenido puede mejorar enormemente la navegación de tus lectores. ¿A qué esperas? ¡Sumérgete en Aspose.PDF y empieza a crear PDF increíbles hoy mismo!
 
 ## Preguntas frecuentes
 
@@ -132,19 +134,21 @@ Esta línea guarda el PDF modificado con la tabla de contenidos incluida. ¡Ahor
 Aspose.PDF para .NET es una biblioteca que permite a los desarrolladores crear, manipular y convertir documentos PDF mediante programación.
 
 ### ¿Puedo utilizar Aspose.PDF gratis?
- Sí, Aspose ofrece una versión de prueba gratuita que puedes usar para explorar las funciones de la biblioteca. Puedes descargarla[aquí](https://releases.aspose.com/).
+Sí, Aspose ofrece una versión de prueba gratuita que puedes usar para explorar las funciones de la biblioteca. Puedes descargarla. [aquí](https://releases.aspose.com/).
 
 ### ¿Cómo puedo obtener soporte para Aspose.PDF?
- Puede obtener ayuda visitando el foro de Aspose[aquí](https://forum.aspose.com/c/pdf/10).
+Puede obtener ayuda visitando el foro de Aspose [aquí](https://forum.aspose.com/c/pdf/10).
 
 ### ¿Existe una licencia temporal disponible?
- Sí, puedes solicitar una licencia temporal para Aspose.PDF[aquí](https://purchase.aspose.com/temporary-license/).
+Sí, puede solicitar una licencia temporal para Aspose.PDF [aquí](https://purchase.aspose.com/temporary-license/).
 
 ### ¿Dónde puedo comprar Aspose.PDF para .NET?
- Puedes comprar Aspose.PDF para .NET[aquí](https://purchase.aspose.com/buy).
+Puedes comprar Aspose.PDF para .NET [aquí](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

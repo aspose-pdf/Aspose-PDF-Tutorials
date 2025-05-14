@@ -1,14 +1,16 @@
 ---
-title: Dodaj pole formularza w dokumencie PDF za pomocą Java
-linktitle: Dodaj pole formularza w dokumencie PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać interaktywne pola formularzy do dokumentów PDF za pomocą Java i Aspose.PDF dla Java. Twórz przyjazne dla użytkownika formularze PDF z łatwością.
-weight: 10
-url: /pl/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/
+"description": "Dowiedz się, jak dodawać interaktywne pola formularzy do dokumentów PDF za pomocą Java i Aspose.PDF dla Java. Twórz przyjazne dla użytkownika formularze PDF z łatwością."
+"linktitle": "Dodaj pole formularza w dokumencie PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodaj pole formularza w dokumencie PDF za pomocą Java"
+"url": "/pl/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj pole formularza w dokumencie PDF za pomocą Java
@@ -24,7 +26,7 @@ Będziemy używać Aspose.PDF dla Java, potężnej biblioteki, która upraszcza 
 
 Zanim zagłębimy się w kod, musisz skonfigurować środowisko programistyczne. Wykonaj następujące kroki:
 
-1.  Pobierz Aspose.PDF dla Java: Odwiedź witrynę Aspose i pobierz najnowszą wersję Aspose.PDF dla Java. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/java/).
+1. Pobierz Aspose.PDF dla Java: Odwiedź witrynę Aspose i pobierz najnowszą wersję Aspose.PDF dla Java. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/java/).
 
 2. Zainstaluj Aspose.PDF: Po pobraniu zainstaluj Aspose.PDF, postępując zgodnie z instrukcjami instalacji podanymi na stronie internetowej.
 
@@ -63,7 +65,7 @@ public class AddFormFieldPDF {
 }
 ```
 
-tym fragmencie kodu tworzymy nowy dokument PDF, dodajemy stronę, wstawiamy nagłówek i kilka instrukcji.
+W tym fragmencie kodu tworzymy nowy dokument PDF, dodajemy stronę, wstawiamy nagłówek i kilka instrukcji.
 
 ## Dodawanie pól formularza
 
@@ -105,7 +107,7 @@ RadioButtonOptionField option2 = new RadioButtonOptionField(page, new Rectangle(
 option1.setPartialName("optYes"); // Ustaw nazwę pola dla opcji 1
 option2.setPartialName("optNo"); // Ustaw nazwę pola dla opcji 2
 
-//Dodaj opcje do grupy przycisków radiowych
+// Dodaj opcje do grupy przycisków radiowych
 RadioButtonOptionField[] options = {option1, option2};
 RadioButtonField radioButtonField = new RadioButtonField(page, options);
 page.getAnnotations().add(radioButtonField);
@@ -147,7 +149,7 @@ checkboxField.setChecked(true); // Zaznacz pole wyboru domyślnie
 
 Dodanie pól formularza to tylko połowa sukcesu. Będziesz także potrzebować
 
- aby umożliwić przesyłanie formularzy i ich sprawdzanie.
+ aby umożliwić przesyłanie formularzy i ich weryfikację.
 
 ### Złożenie formularza
 
@@ -162,7 +164,7 @@ page.getAnnotations().add(submitButton);
 
 ### Walidacja formularza
 
-Walidacja zapewnia, że dane wejściowe użytkownika spełniają określone kryteria. Na przykład możesz zweryfikować pole numeru telefonu, aby akceptowało tylko cyfry:
+Walidacja zapewnia, że dane wprowadzane przez użytkownika spełniają określone kryteria. Na przykład możesz zweryfikować pole numeru telefonu, aby akceptowało tylko cyfry:
 
 ```java
 textField.getValidation().add(ValidationType.NUMBER);
@@ -182,7 +184,7 @@ doc.save("FeedbackForm.pdf");
 
 ### Zapisz do strumienia
 
- Aby zapisać dokument PDF do strumienia, możesz użyć`OutputStream` klasa:
+Aby zapisać dokument PDF do strumienia, możesz użyć `OutputStream` klasa:
 
 ```java
 OutputStream outputStream = new FileOutputStream("FeedbackForm.pdf");
@@ -192,13 +194,13 @@ outputStream.close();
 
 ## Wniosek
 
-tym kompleksowym przewodniku przyjrzeliśmy się sposobowi dodawania pól formularza do dokumentu PDF przy użyciu Java i Aspose.PDF dla Java. Nauczyłeś się, jak tworzyć pola tekstowe, pola wyboru i przyciski radiowe, dostosowywać ich właściwości, ustawiać wartości domyślne, włączać przesyłanie i walidację formularza oraz zapisywać/eksportować dokument PDF.
+W tym kompleksowym przewodniku przyjrzeliśmy się sposobowi dodawania pól formularza do dokumentu PDF przy użyciu Java i Aspose.PDF dla Java. Nauczyłeś się, jak tworzyć pola tekstowe, pola wyboru i przyciski radiowe, dostosowywać ich właściwości, ustawiać wartości domyślne, włączać przesyłanie i walidację formularza oraz zapisywać/eksportować dokument PDF.
 
 ## Często zadawane pytania
 
 ### Jak mogę utworzyć listę rozwijaną w formularzu PDF?
 
- Aby utworzyć listę rozwijaną (pole kombi) w formularzu PDF, możesz użyć`ComboBoxField` klasa dostarczona przez Aspose.PDF dla Java. Postępuj podobnie jak w przypadku innych pól formularza i dostosuj opcje za pomocą`AddItem` metoda. Szczegółową dokumentację na ten temat można znaleźć na stronie internetowej Aspose.
+Aby utworzyć listę rozwijaną (pole kombi) w formularzu PDF, możesz użyć `ComboBoxField` klasa dostarczona przez Aspose.PDF dla Java. Postępuj podobnie jak w przypadku innych pól formularza i dostosuj opcje za pomocą `AddItem` metoda. Szczegółową dokumentację na ten temat można znaleźć na stronie internetowej Aspose.
 
 ### Czy Aspose.PDF for Java jest kompatybilny z innymi bibliotekami i frameworkami Java?
 
@@ -215,9 +217,11 @@ Aby wyodrębnić dane przesłane za pomocą formularza PDF, musisz obsłużyć p
 ### Czy mogę dynamicznie generować formularze PDF na podstawie danych wprowadzonych przez użytkownika?
 
 Tak, możesz dynamicznie generować formularze PDF na podstawie danych wejściowych użytkownika, używając Aspose.PDF dla Java. W zależności od danych wejściowych użytkownika lub logiki aplikacji możesz tworzyć dokumenty PDF z różnymi polami formularzy i układami. Ta elastyczność umożliwia generowanie niestandardowych formularzy dostosowanych do konkretnych potrzeb lub scenariuszy użytkownika.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

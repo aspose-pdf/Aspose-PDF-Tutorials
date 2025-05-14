@@ -1,14 +1,16 @@
 ---
-title: Zdefiniuj wyrównanie w pliku PDF
-linktitle: Zdefiniuj wyrównanie w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: W tym przewodniku opisano, jak zdefiniować wyrównanie tekstu w plikach PDF za pomocą Aspose.PDF dla platformy .NET. Znajduje się w nim również samouczek krok po kroku.
-weight: 70
-url: /pl/net/programming-with-stamps-and-watermarks/define-alignment/
+"description": "W tym przewodniku opisano, jak zdefiniować wyrównanie tekstu w plikach PDF za pomocą Aspose.PDF dla platformy .NET. Znajduje się w nim również samouczek krok po kroku."
+"linktitle": "Zdefiniuj wyrównanie w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zdefiniuj wyrównanie w pliku PDF"
+"url": "/pl/net/programming-with-stamps-and-watermarks/define-alignment/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zdefiniuj wyrównanie w pliku PDF
@@ -22,7 +24,7 @@ Jeśli chodzi o pracę z plikami PDF, zwłaszcza gdy chcesz, aby były atrakcyjn
 Zanim przejdziemy do zabawy, upewnijmy się, że masz wszystko, czego potrzebujesz, aby odnieść sukces. Oto wymagania wstępne dla tego samouczka:
 
 1. Podstawowa znajomość języka C#: Znajomość programowania w języku C# ułatwi Ci zrozumienie tematu.
-2.  Biblioteka Aspose.PDF: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Biblioteka Aspose.PDF: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Visual Studio: będziemy pisać kod w programie Visual Studio, więc jego zainstalowanie będzie pomocne.
 4. .NET Framework: Upewnij się, że masz zgodną wersję .NET Framework, która działa z Aspose.PDF.
 
@@ -42,7 +44,7 @@ Aby użyć pliku Aspose.PDF, musisz dodać jego odniesienie do swojego projektu.
 
 - Kliknij prawym przyciskiem myszy projekt w Eksploratorze rozwiązań.
 - Wybierz opcję Zarządzaj pakietami NuGet.
--  Szukaj`Aspose.PDF` i zainstaluj.
+- Szukaj `Aspose.PDF` i zainstaluj.
 
 ### Importuj niezbędne przestrzenie nazw
 
@@ -80,7 +82,7 @@ Ta linijka kodu inicjuje obiekt dokumentu ze ścieżką do konkretnego pliku PDF
 
 ## Krok 3: Utwórz sformatowany tekst
 
- Teraz dodajmy trochę tekstu do naszego dokumentu. Będziemy używać`FormattedText` aby utworzyć blok tekstu, który możemy wyrównać w dowolny sposób.
+Teraz dodajmy trochę tekstu do naszego dokumentu. Będziemy używać `FormattedText` aby utworzyć blok tekstu, który możemy wyrównać w dowolny sposób.
 
 ```csharp
 FormattedText text = new FormattedText("This");
@@ -97,7 +99,7 @@ text.AddNewLineText("Object");
 
 ## Krok 4: Utwórz obiekt TextStamp
 
-Gdy nasz tekst będzie gotowy, musimy go utworzyć`TextStamp` obiekt, który pomoże nam umieścić tekst w pliku PDF.
+Gdy nasz tekst będzie gotowy, musimy go utworzyć `TextStamp` obiekt, który pomoże nam umieścić tekst w pliku PDF.
 
 ```csharp
 TextStamp stamp = new TextStamp(text);
@@ -159,7 +161,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nAlignment defined successfully for text stamp.\nFile saved at " + dataDir);
 ```
 
-masz! Udało Ci się zdefiniować wyrównanie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET.
+I masz! Udało Ci się zdefiniować wyrównanie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET.
 
 ## Wniosek
 
@@ -174,16 +176,18 @@ Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca program
 Tak, Aspose.PDF można używać zarówno w aplikacjach komputerowych, jak i internetowych, co zapewnia deweloperom dużą elastyczność.
 
 ### Jak rozpocząć pracę z Aspose.PDF?  
- Aby rozpocząć, pobierz bibliotekę ze strony[strona](https://releases.aspose.com/pdf/net/) i postępuj zgodnie z instrukcją instalacji.
+Aby rozpocząć, pobierz bibliotekę ze strony [strona](https://releases.aspose.com/pdf/net/) i postępuj zgodnie z instrukcją instalacji.
 
 ### Czy jest dostępna wersja próbna Aspose.PDF?  
- Oczywiście! Możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.PDF z[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.PDF z [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?  
- Pomoc i wsparcie znajdziesz na stronie[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Pomoc i wsparcie znajdziesz na stronie [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

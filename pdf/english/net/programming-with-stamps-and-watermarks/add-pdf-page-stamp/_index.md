@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/add-pdf-page-stamp/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add PDF Page Stamp In PDF File
@@ -160,6 +162,7 @@ You can check out the [Aspose.PDF Documentation](https://reference.aspose.com/pd
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

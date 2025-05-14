@@ -6,8 +6,11 @@ description: Learn how to draw diagonal lines in a PDF using Aspose.PDF for .NET
 keywords: [Aspose.PDF for .NET, draw lines in PDF, diagonal lines PDF, C# PDF drawing, create PDF with lines, Aspose.PDF tutorial, .NET PDF example]
 url: /net/graphs/drawing-line/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
   
 # Draw Diagonal Lines in PDF Using Aspose.PDF for .NET
@@ -15,9 +18,11 @@ url: /net/graphs/drawing-line/
 Aspose.PDF for .NET allows developers to create, manipulate, and edit PDF documents with ease. In this example, we demonstrate how to programmatically draw two diagonal lines across a PDF page using C#. You will learn how to initialize a PDF document, set page properties, add graphical elements, and save the final output. This guide provides a step-by-step approach, making it easy to integrate this functionality into your .NET applications.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/drawing-line" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions:  
 
@@ -47,7 +52,9 @@ using Aspose.Pdf.Drawing;
 - API Reference: [Aspose.PDF for .NET API Reference](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

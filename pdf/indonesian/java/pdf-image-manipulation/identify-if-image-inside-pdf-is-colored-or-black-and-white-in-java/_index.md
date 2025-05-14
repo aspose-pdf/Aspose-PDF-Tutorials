@@ -1,14 +1,16 @@
 ---
-title: Identifikasi apakah Gambar di Dalam PDF Berwarna atau Hitam Putih di Java
-linktitle: Identifikasi apakah Gambar di Dalam PDF Berwarna atau Hitam Putih di Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengidentifikasi gambar berwarna atau hitam putih di dalam PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya.
-weight: 10
-url: /id/java/pdf-image-manipulation/identify-if-image-inside-pdf-is-colored-or-black-and-white-in-java/
+"description": "Pelajari cara mengidentifikasi gambar berwarna atau hitam putih di dalam PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya."
+"linktitle": "Identifikasi apakah Gambar di Dalam PDF Berwarna atau Hitam Putih di Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Identifikasi apakah Gambar di Dalam PDF Berwarna atau Hitam Putih di Java"
+"url": "/id/java/pdf-image-manipulation/identify-if-image-inside-pdf-is-colored-or-black-and-white-in-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Identifikasi apakah Gambar di Dalam PDF Berwarna atau Hitam Putih di Java
@@ -31,7 +33,7 @@ Untuk menentukan apakah gambar di dalam PDF berwarna atau hitam putih, kita perl
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Kit Pengembangan Java (JDK)
--  Aspose.PDF untuk pustaka Java (Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF untuk pustaka Java (Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/)
 
 ## Memuat Dokumen PDF
 
@@ -126,10 +128,12 @@ Ya, Aspose.PDF untuk Java menyediakan fitur untuk manipulasi gambar, termasuk me
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat mengakses dokumentasi dan sumber daya yang komprehensif untuk Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat mengakses dokumentasi dan sumber daya yang komprehensif untuk Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

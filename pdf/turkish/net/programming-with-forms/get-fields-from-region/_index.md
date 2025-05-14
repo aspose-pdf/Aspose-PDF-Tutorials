@@ -1,31 +1,33 @@
 ---
-title: PDF Dosyasında Bölgeden Alanları Al
-linktitle: PDF Dosyasında Bölgeden Alanları Al
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı kılavuzda, Aspose.PDF for .NET kullanarak PDF dosyalarında belirtilen bir bölgeden alanların nasıl zahmetsizce çıkarılacağını öğrenin.
-weight: 130
-url: /tr/net/programming-with-forms/get-fields-from-region/
+"description": "Bu kapsamlı kılavuzda, Aspose.PDF for .NET kullanarak PDF dosyalarında belirtilen bir bölgeden alanların nasıl zahmetsizce çıkarılacağını öğrenin."
+"linktitle": "PDF Dosyasında Bölgeden Alanları Al"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Bölgeden Alanları Al"
+"url": "/tr/net/programming-with-forms/get-fields-from-region/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Bölgeden Alanları Al
 
 ## giriiş
 
-Günümüzün dijital çağında, PDF'ler her yerdedir ve genellikle çok sayıda alana sahip karmaşık formlar içerirler. İster yasal belgeler, ister iş sözleşmeleri veya etkileşimli formlar işliyor olun, bilgileri hızlı bir şekilde çıkarma becerisine sahip olmak oyunun kurallarını değiştirebilir. Hiç kendinizi bir PDF formundaki düzinelerce alanda gezinirken, ihtiyacınız olanı bulmaya çalışırken buldunuz mu? Artık korkmayın! Bu eğitimde, .NET için Aspose.PDF kullanarak bir PDF dosyasındaki belirli bir bölgeden alanları çıkarmayı derinlemesine inceleyeceğiz. Bu kılavuz, PDF işlemenizi bir profesyonel gibi kolaylaştırmak için size ayrıntılı, adım adım bir süreç sunacaktır!
+Günümüzün dijital çağında, PDF'ler her yerdedir ve genellikle çok sayıda alana sahip karmaşık formlar içerirler. İster yasal belgeler, ister iş sözleşmeleri veya etkileşimli formlar işliyor olun, bilgileri hızlı bir şekilde çıkarabilme yeteneği oyunun kurallarını değiştirebilir. Hiç ihtiyacınız olanı bulmaya çalışırken bir PDF formundaki düzinelerce alanda gezindiğiniz oldu mu? Artık korkmayın! Bu eğitimde, .NET için Aspose.PDF kullanarak bir PDF dosyasındaki belirli bir bölgeden alanları çıkarmayı derinlemesine inceleyeceğiz. Bu kılavuz, PDF işlemenizi bir profesyonel gibi kolaylaştırmak için size ayrıntılı, adım adım bir süreç sunacaktır!
 
 Bu yolculuğu olabildiğince sorunsuz hale getirmek için ön koşulları ele alacağız, gerekli paketleri içe aktaracağız ve kod örneklerini adım adım parçalara ayıracağız. Başlayalım!
 
 ## Ön koşullar
 
-Bu PDF çıkarma macerasına başlamadan önce, yerinde olması gereken birkaç şey var:
+Bu PDF çıkarma macerasına başlamadan önce, elinizde olması gereken birkaç şey var:
 
 1. Visual Studio Kurulu: Kodlama için oyun alanınız olacağından, makinenizde Visual Studio veya uyumlu herhangi bir IDE'nin kurulu olduğundan emin olun.
    
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesine erişiminiz olması gerekir. Endişelenmeyin; edinmesi kolaydır![buradan indirin](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesine erişiminiz olması gerekir. Endişelenmeyin; edinmesi kolaydır! [buradan indirin](https://releases.aspose.com/pdf/net/).
 
 3. Temel C# Bilgisi: C# ve .NET framework'e aşinalık, kavramları kavramanıza ve kodlamayı daha etkili bir şekilde yapmanıza yardımcı olacaktır.
 
@@ -75,11 +77,11 @@ Yolu şu şekilde ayarlayabilirsiniz:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu klasörün gerçek yolu ile. Bu kadar basit olabilir`"C:/Documents/"` dosya organizasyonunuza bağlı olarak.
+- Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu klasörün gerçek yolu ile. Bu kadar basit olabilir `"C:/Documents/"` dosya organizasyonunuza bağlı olarak.
 
 ## Adım 3: PDF Dosyasını Açın
 
- Şimdi, PDF dosyasını Aspose.PDF kullanarak açalım. Bu, bir örneğinin oluşturulmasını içeren basit bir işlemdir.`Document` sınıf ve PDF dosyanızın yolunu geçiriyoruz.
+Şimdi, PDF dosyasını Aspose.PDF kullanarak açalım. Bu, bir örneğinin oluşturulmasını içeren basit bir işlemdir. `Document` sınıf ve PDF dosyanızın yolunu geçiriyoruz.
 
 İşte kod parçacığı:
 
@@ -88,16 +90,16 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "GetFieldsFromRegion.pdf");
 ```
 
--  Bu satır yeni bir satır oluşturur`Document` Belirtilen PDF dosyasını yükleyerek nesneyi seçin. PDF dosya adının, dosya uzantısı dahil olmak üzere tam olarak eşleştiğinden emin olun.
+- Bu satır yeni bir satır oluşturur `Document` Belirtilen PDF dosyasını yükleyerek nesneyi yükleyin. PDF dosya adının, dosya uzantısı dahil olmak üzere tam olarak eşleştiğinden emin olun.
 
 ## Adım 4: Dikdörtgen Alanını Tanımlayın
 
- Sırada alanları çıkarmak istediğimiz dikdörtgen alanı tanımlamak var.`Rectangle` Bu amaçla sınıf kullanılır. Dikdörtgenin koordinatlarını belirtmeniz gerekecektir.
+Sırada alanları çıkarmak istediğimiz dikdörtgen alanı tanımlamak var. `Rectangle` Bu amaçla sınıf kullanılır. Dikdörtgenin koordinatlarını belirtmeniz gerekecektir.
 
 İşte bunu nasıl yapacağınız:
 
 ```csharp
-//Bu alandaki alanları almak için bir dikdörtgen nesnesi oluşturun
+// Bu alandaki alanları almak için bir dikdörtgen nesnesi oluşturun
 Aspose.Pdf.Rectangle rectangle = new Aspose.Pdf.Rectangle(35, 30, 500, 500);
 ```
 
@@ -106,7 +108,7 @@ Aspose.Pdf.Rectangle rectangle = new Aspose.Pdf.Rectangle(35, 30, 500, 500);
 
 ## Adım 5: PDF Formuna Erişim
 
- Şimdi, PDF belgemizdeki forma erişmemiz gerekiyor. Bu,`Forms` mülkiyeti`Document` nesne.
+Şimdi, PDF belgemizdeki forma erişmemiz gerekiyor. Bu, `Forms` mülkiyeti `Document` nesne.
 
 Forma erişmek için aşağıdaki kodu kullanın:
 
@@ -119,7 +121,7 @@ Aspose.Pdf.Forms.Form form = doc.Form;
 
 ## Adım 6: Belirtilen Alandaki Alanları Alın
 
- İşte sihir burada gerçekleşiyor! Tanımlanan dikdörtgenin içinde bulunan alanları şu şekilde çıkaracağız:`GetFieldsInRect` Yöntem.
+İşte sihir burada gerçekleşiyor! Tanımlanan dikdörtgenin içinde bulunan alanları şu şekilde çıkaracağız: `GetFieldsInRect` yöntem.
 
 Bunu yapmak için gereken kod şu şekilde:
 
@@ -128,7 +130,7 @@ Bunu yapmak için gereken kod şu şekilde:
 Aspose.Pdf.Forms.Field[] fields = form.GetFieldsInRect(rectangle);
 ```
 
--  Bu, dolduracaktır`fields`belirtilen dikdörtgenin içinde yer alan tüm alanların bulunduğu dizi. Aspose'a bu alanlara bakmasını ve bunları bizim için yakalamasını söyledik!
+- Bu, dolduracaktır `fields` belirtilen dikdörtgenin içinde yer alan tüm alanların bulunduğu dizi. Aspose'a bu alanlara bakmasını ve bunları bizim için yakalamasını söyledik!
 
 ## Adım 7: Alan Adlarını ve Değerlerini Görüntüle
 
@@ -145,11 +147,11 @@ foreach (Field field in fields)
 }
 ```
 
--  Bu döngü, her alanda yineleme yapar`fields` dizi, her alanın hem adını hem de değerini konsola yazdırır.
+- Bu döngü, her alanda yineleme yapar `fields` dizi, her alanın hem adını hem de değerini konsola yazdırır.
 
 ## Çözüm
 
-Tebrikler! Aspose.PDF for .NET kullanarak bir PDF dosyasının belirli bir bölgesinden alanları nasıl çıkaracağınızı öğrendiniz. Bu adımları izleyerek, PDF formlarını etkili bir şekilde yönetme ve düzenleme konusunda güçlü bir yeteneğe sahip oldunuz. İster kullanıcı girdilerini işleyen bir uygulama geliştiriyor olun, ister belge iş akışlarını otomatikleştiriyor olun, bu bilgi size iyi hizmet edecektir. Aspose'un sunduğu çeşitli işlevlerle denemeler yapmaya devam edin ve yakında bir PDF devi olacaksınız!
+Tebrikler! Aspose.PDF for .NET kullanarak bir PDF dosyasının belirli bir bölgesinden alanları nasıl çıkaracağınızı öğrendiniz. Bu adımları izleyerek, PDF formlarını etkili bir şekilde yönetme ve düzenleme konusunda güçlü bir yetenekle kendinizi donattınız. İster kullanıcı girdilerini işleyen bir uygulama geliştiriyor olun, ister belge iş akışlarını otomatikleştiriyor olun, bu bilgi size iyi hizmet edecektir. Aspose'un sunduğu çeşitli işlevlerle denemeler yapmaya devam edin ve yakında bir PDF devi olacaksınız!
 
 ## SSS
 
@@ -160,16 +162,18 @@ Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde o
 Evet! Aspose.PDF for .NET, uygun .NET çalışma zamanları altında Linux da dahil olmak üzere çeşitli platformlarda çalışabilir.
 
 ### Ücretsiz deneme imkanı var mı?
- Kesinlikle! Birine erişebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose.PDF for .NET'in özelliklerini keşfetmeye başlamak için tıklayın.
+Kesinlikle! Birine erişebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) Aspose.PDF for .NET'in özelliklerini keşfetmeye başlamak için tıklayın.
 
 ### Aspose.PDF hangi programlama dillerini destekliyor?
 Aspose.PDF öncelikli olarak .NET uygulamalarını hedef alır ancak C#, VB.NET ve F# dahil olmak üzere herhangi bir .NET uyumlu dille kullanılabilir.
 
 ### Dokümantasyonu ve desteği nerede bulabilirim?
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/) ve destek için topluluğa katılın[Burada](https://forum.aspose.com/c/pdf/10).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/) ve destek için topluluğa katılın [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

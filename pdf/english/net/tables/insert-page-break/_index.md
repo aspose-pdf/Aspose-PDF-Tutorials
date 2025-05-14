@@ -6,8 +6,11 @@ description: Learn how to create a PDF document, add tables with borders, and im
 keywords: [Aspose.PDF for .NET, create PDF in C#, add table to PDF, set table border, pagination in PDF, generate PDF, insert page break, .NET PDF library]
 url: /net/tables/insert-page-break/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a PDF with Tables and Pagination
@@ -15,9 +18,11 @@ url: /net/tables/insert-page-break/
 Aspose.PDF for .NET is a powerful library that allows developers to create, manipulate, and convert PDF documents programmatically. In this example, we demonstrate how to generate a PDF file, add a table with red borders, populate it with 200 rows, and insert automatic page breaks after every 10 rows. This approach ensures structured content formatting and seamless pagination for large datasets.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/insert-page-break/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installation Instructions  
@@ -51,7 +56,9 @@ documentation, visit [Aspose.PDF for .NET Documentation](https://docs.aspose.com
 Check out the API Reference at [Aspose.PDF for .NET API Reference](https://reference.aspose.com/pdf/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PDF Text Manipulation in Java with Aspose.PDF
 
@@ -202,7 +204,11 @@ By following this guide, you've learned how to effectively manipulate PDF text u
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
 Start implementing these powerful PDF text manipulation techniques today and streamline your document processing workflows with Aspose.PDF for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

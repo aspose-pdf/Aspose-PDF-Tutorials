@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PDF Open Actions with Aspose.PDF Java
 
@@ -162,7 +164,11 @@ Ready to take control of your PDFs? Start experimenting and see how these techni
 - **Free Trial**: Test out features with a free trial available at [Aspose's Free Trial Link](https://releases.aspose.com/pdf/java/).
 - **Temporary License**: Apply for a temporary license via [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).
 - **Support**: Join the community and ask questions on [Aspose Forum](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

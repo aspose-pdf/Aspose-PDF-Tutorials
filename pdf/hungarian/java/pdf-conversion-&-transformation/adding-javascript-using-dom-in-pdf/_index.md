@@ -1,14 +1,16 @@
 ---
-title: JavaScript hozzáadása DOM használatával PDF-ben
-linktitle: JavaScript hozzáadása DOM használatával PDF-ben
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan javíthatja a PDF interaktivitását JavaScript segítségével az Aspose.PDF for Java segítségével. Lépésről lépésre útmutató forráskóddal dinamikus PDF-ekhez
-weight: 32
-url: /hu/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/
+"description": "Ismerje meg, hogyan javíthatja a PDF-ek interaktivitását JavaScript segítségével az Aspose.PDF for Java használatával. Lépésről lépésre útmutató forráskóddal dinamikus PDF-ekhez"
+"linktitle": "JavaScript hozzáadása DOM használatával PDF-ben"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "JavaScript hozzáadása DOM használatával PDF-ben"
+"url": "/hu/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # JavaScript hozzáadása DOM használatával PDF-ben
@@ -16,117 +18,119 @@ url: /hu/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/
 
 ## Bevezetés
 
-mai digitális világban az interaktivitás kulcsfontosságú elem a felhasználói élmény javításában. A PDF-dokumentumokkal végzett munka során a JavaScript hozzáadása az interaktivitás és a funkcionalitás új szintjét hozhatja. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan adhat hozzá JavaScriptet a Document Object Model (DOM) segítségével PDF-fájlokhoz az Aspose.PDF for Java használatával.
+mai digitális világban az interaktivitás kulcsfontosságú elem a felhasználói élmény javításában. PDF dokumentumokkal való munka során a JavaScript hozzáadása új szintre emelheti az interaktivitást és a funkcionalitást. Ebben a lépésről lépésre bemutatott útmutatóban megvizsgáljuk, hogyan adhatunk hozzá JavaScriptet a Document Object Model (DOM) használatával PDF fájlokban az Aspose.PDF for Java használatával.
 
-## Mi az Aspose.PDF for Java?
+## Mi az Aspose.PDF Java-hoz?
 
-Az Aspose.PDF for Java egy hatékony könyvtár, amely lehetővé teszi a Java fejlesztők számára, hogy programozottan dolgozzanak PDF dokumentumokkal. A funkciók széles skáláját kínálja, beleértve a PDF-fájlok létrehozását, kezelését és optimalizálását.
+Az Aspose.PDF for Java egy hatékony könyvtár, amely lehetővé teszi a Java-fejlesztők számára, hogy programozottan dolgozzanak PDF dokumentumokkal. Számos funkciót kínál, beleértve a PDF fájlok létrehozását, kezelését és optimalizálását.
 
-## Miért érdemes JavaScriptet használni PDF-ekben?
+## Miért érdemes JavaScriptet használni a PDF fájlokban?
 
-A JavaScript használható dinamikus viselkedés hozzáadására a PDF dokumentumokhoz. Létrehozhat interaktív űrlapokat, érvényesítheti a felhasználói bevitelt, kiszámíthatja az értékeket, és különféle műveleteket hajthat végre a felhasználói interakciók alapján. Így a PDF-ek nem csupán statikus dokumentumok; dinamikussá és reagálóvá válnak.
+A JavaScript segítségével dinamikus viselkedést adhatunk a PDF dokumentumokhoz. Interaktív űrlapokat hozhatunk létre, validálhatjuk a felhasználói bevitelt, értékeket számíthatunk ki, és különféle műveleteket hajthatunk végre a felhasználói interakciók alapján. Ezáltal a PDF-ek többé válnak statikus dokumentumoknál; dinamikussá és reszponzívvá válnak.
 
 ## A környezet beállítása
 
-Mielőtt elkezdené, be kell állítania fejlesztői környezetét. Íme a lépések:
+Mielőtt elkezdenénk, be kell állítania a fejlesztői környezetet. Íme a lépések:
 
-1. Az Aspose.PDF for Java letöltése és telepítése: Látogassa meg a[Aspose.PDF a Java dokumentációhoz](https://reference.aspose.com/pdf/java/) a könyvtár letöltéséhez és telepítéséhez.
+1. Aspose.PDF letöltése és telepítése Java-hoz: Látogassa meg a [Aspose.PDF Java dokumentációhoz](https://reference.aspose.com/pdf/java/) a könyvtár letöltéséhez és telepítéséhez.
 
-2. Java-projekt létrehozása: Állítson be egy Java-projektet a kívánt integrált fejlesztőkörnyezetben (IDE).
+2. Java projekt létrehozása: Hozzon létre egy Java projektet a kívánt integrált fejlesztői környezetben (IDE).
 
-3. Adja hozzá az Aspose.PDF for Java fájlt a projekthez: Az Aspose.PDF for Java könyvtárat függőségként adja hozzá projektjéhez.
+3. Aspose.PDF for Java hozzáadása a projekthez: Az Aspose.PDF for Java könyvtárat függőségként kell hozzáadni a projekthez.
 
-## PDF dokumentum készítése
+## PDF dokumentum létrehozása
 
-A kezdéshez hozzunk létre egy PDF-dokumentumot az Aspose.PDF for Java használatával. Íme egy alapvető példa:
+Kezdésként hozzunk létre egy PDF dokumentumot az Aspose.PDF for Java használatával. Íme egy alapvető példa:
 
 ```java
 // Új PDF dokumentum inicializálása
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
-// Adjon hozzá egy oldalt a dokumentumhoz
+// Oldal hozzáadása a dokumentumhoz
 pdfDocument.getPages().add();
 
-// Mentse el a dokumentumot fájlba
+// Dokumentum mentése fájlba
 pdfDocument.save("sample.pdf");
 ```
 
 ## JavaScript hozzáadása DOM használatával
 
-Most adjuk hozzá a JavaScriptet PDF dokumentumunkhoz. A DOM-ot használjuk a PDF szerkezetének manipulálására és JavaScript kód beszúrására.
+Most adjunk hozzá JavaScriptet a PDF dokumentumunkhoz. A DOM-ot fogjuk használni a PDF struktúrájának manipulálására és JavaScript kód beszúrására.
 
 ```java
-// Nyisson meg egy meglévő PDF dokumentumot
+// Meglévő PDF dokumentum megnyitása
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("sample.pdf");
 
-// Hozzon létre egy JavaScript-műveletet
+// JavaScript művelet létrehozása
 com.aspose.pdf.JavaScriptAction javaScriptAction = new com.aspose.pdf.JavaScriptAction("app.alert('Hello, World!');");
 
-// Adja hozzá a JavaScript-műveletet egy oldalhoz
+// JavaScript művelet hozzáadása egy oldalhoz
 pdfDocument.getPages().get_Item(1).setOnOpenAction(javaScriptAction);
 
 // Mentse el a módosított dokumentumot
 pdfDocument.save("sample_with_js.pdf");
 ```
 
-Ebben a példában hozzáadtunk egy JavaScript-műveletet, amely figyelmeztetést jelenít meg a PDF megnyitásakor.
+Ebben a példában hozzáadtunk egy JavaScript műveletet, amely riasztást jelenít meg a PDF megnyitásakor.
 
-## JavaScript-műveletek végrehajtása
+## JavaScript műveletek végrehajtása
 
-JavaScript-műveleteket különféle események indíthatják el, mint például a dokumentum megnyitása, egy gombra kattintás vagy adatbevitel egy űrlapmezőbe. Az Aspose.PDF for Java számos lehetőséget kínál JavaScript-műveletek társítására ezekhez az eseményekhez.
+A JavaScript műveleteket különféle események válthatják ki, például a dokumentum megnyitása, egy gombra kattintás vagy adatok bevitele egy űrlapmezőbe. Az Aspose.PDF for Java számos lehetőséget kínál a JavaScript műveletek ezen eseményekhez társítására.
 
-## Példa használati eset
+## Példa használati esetre
 
-Nézzünk egy gyakorlati felhasználási esetet. Létre szeretne hozni egy PDF űrlapot, amely kiszámítja a felhasználó által kiválasztott cikkek teljes árát. Ennek eléréséhez használhatja a JavaScriptet. Íme egy egyszerűsített példa:
+Vegyünk egy gyakorlati esetet. Létre szeretne hozni egy PDF űrlapot, amely kiszámítja a felhasználó által kiválasztott tételek teljes árát. Ehhez JavaScriptet használhat. Íme egy egyszerűsített példa:
 
 ```java
-// Hozzon létre egy űrlapmezőt a cikk mennyiségéhez
+// Hozzon létre egy űrlapmezőt a tétel mennyiségéhez
 com.aspose.pdf.form.Field itemQuantity = new com.aspose.pdf.form.Field();
 itemQuantity.setPartialName("item_quantity");
 pdfDocument.getForm().add(itemQuantity);
 
-// Hozzon létre egy űrlapmezőt a cikk árához
+// Hozzon létre egy űrlapmezőt a tétel árához
 com.aspose.pdf.form.Field itemPrice = new com.aspose.pdf.form.Field();
 itemPrice.setPartialName("item_price");
 pdfDocument.getForm().add(itemPrice);
 
-// Hozzon létre egy JavaScript függvényt a teljes ár kiszámításához
+// Hozz létre egy JavaScript függvényt a teljes ár kiszámításához
 String calculateTotalScript = "var quantity = this.getField('item_quantity').value; var price = this.getField('item_price').value; var total = quantity * price; this.getField('total_price').value = total;";
 pdfDocument.getJavaScript().add(calculateTotalScript);
 ```
 
-Ebben a példában két űrlapmezőt hoztunk létre a cikk mennyiségéhez és árához, és hozzáadtunk egy JavaScript függvényt a teljes ár kiszámításához a felhasználói bevitel alapján.
+Ebben a példában két űrlapmezőt hoztunk létre a tétel mennyiségéhez és árához, és hozzáadtunk egy JavaScript függvényt, amely a felhasználói bevitel alapján kiszámítja a teljes árat.
 
 ## Következtetés
 
-JavaScript hozzáadása DOM használatával a PDF dokumentumokhoz az Aspose.PDF for Java segítségével végtelen lehetőségeket nyit meg interaktív és dinamikus PDF-ek létrehozásában. Legyen szó űrlapokról, számításokról vagy egyéni interaktivitásról, PDF-fájljait a következő szintre emelheti.
+JavaScript hozzáadása DOM használatával a PDF dokumentumokban az Aspose.PDF for Java segítségével végtelen lehetőségeket nyit meg interaktív és dinamikus PDF fájlok létrehozására. Legyen szó űrlapokról, számításokról vagy egyéni interaktivitásról, PDF fájljait a következő szintre emelheti.
 
-Most, hogy már alapvetően tisztában van azzal, hogyan lehet JavaScriptet hozzáadni a PDF-ekhez, kezdje el felfedezni a fejlettebb funkciókat, és készítsen olyan PDF-eket, amelyek megfelelnek az Ön igényeinek.
+Most, hogy alapvető ismeretekkel rendelkezik arról, hogyan adhat hozzá JavaScriptet PDF-ekhez, kezdje el felfedezni a fejlettebb funkciókat, és hozzon létre az Ön igényeinek megfelelő PDF-eket.
 
 # GYIK
 
-### Hogyan tölthetem le az Aspose.PDF-et Java-hoz?
+### Hogyan tudom letölteni az Aspose.PDF-et Java-hoz?
 
- Az Aspose.PDF for Java letölthető a webhelyről, ha ellátogat a webhelyre[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Az Aspose.PDF for Java fájlt letöltheti a weboldalról, a következő címen: [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
-### Minden PDF-megtekintőben elérhető a JavaScript támogatás?
+### Minden PDF-megjelenítőben elérhető a JavaScript-támogatás?
 
-A legtöbb modern PDF-megtekintő támogatja a JavaScriptet, de a kompatibilitás biztosítása érdekében elengedhetetlen, hogy a PDF-t különböző megjelenítőkben tesztelje.
+A legtöbb modern PDF-megjelenítő támogatja a JavaScriptet, de a kompatibilitás biztosítása érdekében elengedhetetlen a PDF-fájl tesztelése különböző megjelenítőkben.
 
-### Hozzáadhatok JavaScriptet a meglévő PDF-ekhez?
+### Hozzáadhatok JavaScriptet meglévő PDF-ekhez?
 
-Igen, JavaScriptet hozzáadhat meglévő PDF-ekhez az Aspose.PDF for Java használatával a dokumentum DOM-jának manipulálásával.
+Igen, hozzáadhatsz JavaScriptet meglévő PDF-ekhez az Aspose.PDF for Java segítségével a dokumentum DOM-jának manipulálásával.
 
-### Vannak korlátozások a PDF-fájlokban a JavaScript használatára?
+### Vannak-e korlátozások a JavaScript használatára PDF-ekben?
 
-PDF-fájlok JavaScript-támogatása a PDF-megjelenítőtől és a szkriptek összetettségétől függően korlátozott lehet. Elengedhetetlen az alapos tesztelés.
+PDF-ekben a JavaScript-támogatásnak lehetnek bizonyos korlátai a PDF-megjelenítőtől és a szkriptek összetettségétől függően. Alapos tesztelés elengedhetetlen.
 
-### Hol találhatok fejlettebb JavaScript-példákat PDF-ekhez?
+### Hol találok haladóbb JavaScript példákat PDF-ekhez?
 
-Fedezze fel az Aspose.PDF for Java dokumentációt, ahol speciális példákat és használati eseteket találhat a JavaScripttel kapcsolatos PDF-fájlokban.
+A PDF-ekben található JavaScripthez kapcsolódó haladó példákért és használati esetekért böngészheted az Aspose.PDF for Java dokumentációját.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

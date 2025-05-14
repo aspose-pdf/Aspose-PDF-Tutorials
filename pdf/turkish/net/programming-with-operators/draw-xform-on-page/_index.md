@@ -1,14 +1,16 @@
 ---
-title: Sayfada XForm Çiz
-linktitle: Sayfada XForm Çiz
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'te XForms'un nasıl çizileceğini öğrenin.
-weight: 10
-url: /tr/net/programming-with-operators/draw-xform-on-page/
+"description": "Bu kapsamlı adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'te XForms'un nasıl çizileceğini öğrenin."
+"linktitle": "Sayfada XForm Çiz"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Sayfada XForm Çiz"
+"url": "/tr/net/programming-with-operators/draw-xform-on-page/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sayfada XForm Çiz
@@ -21,8 +23,8 @@ Günümüzün dijital dünyasında dinamik ve görsel olarak çekici PDF belgele
 
 Başlamadan önce, sorunsuz bir deneyim sağlamak için birkaç şeye ihtiyacınız olacak:
 
-1.  .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Henüz yüklemediyseniz, şuradan indirin:[Burada](https://releases.aspose.com/pdf/net/).
-2. Geliştirme Ortamı: Çalışan bir .NET geliştirme ortamı (Visual Studio 2019 veya üzeri gibi).
+1. .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Henüz yüklemediyseniz, şuradan indirin: [Burada](https://releases.aspose.com/pdf/net/).
+2. Geliştirme Ortamı: Çalışan bir .NET geliştirme ortamı (örneğin Visual Studio 2019 veya üzeri).
 3. Örnek PDF ve Resim Dosyaları: XForm'u çizeceğimiz temel bir PDF dosyasına ve işlevselliği göstermek için bir resme ihtiyacınız olacak. Belgeler dizininizde bulunan örnek PDF'yi ve bir resmi kullanmaktan çekinmeyin.
 
 ## Paketleri İçe Aktar
@@ -52,7 +54,7 @@ string inFile = dataDir + "DrawXFormOnPage.pdf"; // PDF dosyasını girin
 string outFile = dataDir + "blank-sample2_out.pdf"; // PDF dosyasını çıktı olarak al
 ```
 
- Burada,`dataDir`dosyalarınızın bulunduğu temel dizindir, bu nedenle değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` gerçek yol ile.
+Burada, `dataDir` dosyalarınızın bulunduğu temel dizindir, bu nedenle değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` gerçek yol ile.
 
 ## Adım 2: Yeni Bir Belge Örneği Oluşturun
 
@@ -67,7 +69,7 @@ using (Document doc = new Document(inFile))
 }
 ```
 
- Kullanımı`using` ifadesi, işlemler tamamlandıktan sonra kaynakların otomatik olarak temizlenmesini sağlar.
+Kullanımı `using` ifadesi, işlemler tamamlandıktan sonra kaynakların otomatik olarak temizlenmesini sağlar.
 
 ## Adım 3: Sayfa İçeriğine Erişin ve Çizime Başlayın
 
@@ -93,7 +95,7 @@ pageContents.Add(new GRestore());
 pageContents.Add(new GSave());
 ```
 
- The`GSave` operatör geçerli grafik durumunu kaydederken,`GRestore`Daha sonra onu geri yükler ve çizimden sonra orijinal bağlamımıza geri dönmemizi sağlar.
+The `GSave` operatör geçerli grafik durumunu kaydederken, `GRestore` Daha sonra onu geri yükler ve çizimden sonra orijinal bağlamımıza geri dönmemizi sağlar.
 
 ## Adım 5: XForm'u oluşturun
 
@@ -107,7 +109,7 @@ doc.Pages[1].Resources.Forms.Add(form);
 form.Contents.Add(new GSave());
 ```
 
- Bu satır yeni bir XForm oluşturur ve onu sayfanın kaynak formlarına ekler.`GSave` XForm içindeki grafik durumunu korumak için tekrar kullanılır.
+Bu satır yeni bir XForm oluşturur ve onu sayfanın kaynak formlarına ekler. `GSave` XForm içindeki grafik durumunu korumak için tekrar kullanılır.
 
 ## Adım 6: Görüntü Ekle ve Boyutları Ayarla
 
@@ -121,13 +123,13 @@ Stream imageStream = new FileStream(imageFile, FileMode.Open);
 form.Resources.Images.Add(imageStream);
 ```
 
- Bu kod görüntü boyutunu ayarlar`ConcatenateMatrix`, görüntünün nasıl dönüştürüleceğini tanımlar. Görüntü akışı XForm'un kaynaklarına eklenir.
+Bu kod görüntü boyutunu ayarlar `ConcatenateMatrix`, görüntünün nasıl dönüştürüleceğini tanımlar. Görüntü akışı XForm'un kaynaklarına eklenir.
 
 ## Adım 7: Resmi çizin
 
 Görüntünün Görüntülenmesi
 
- Şimdi şunu kullanalım:`Do` Sayfamızdaki XForm'a eklediğimiz resmi aslında çizmek için kullandığımız operatör.
+Şimdi şunu kullanalım: `Do` Sayfamızdaki XForm'a eklediğimiz resmi aslında çizmek için kullandığımız operatör.
 
 ```csharp
 XImage ximage = form.Resources.Images[form.Resources.Images.Count];
@@ -135,13 +137,13 @@ form.Contents.Add(new Do(ximage.Name));
 form.Contents.Add(new GRestore());
 ```
 
- The`Do` operatörü, görüntüyü PDF sayfasına işlediğimiz araçtır. Bundan sonra, grafik durumunu geri yükleriz.
+The `Do` operatörü, görüntüyü PDF sayfasına işlediğimiz araçtır. Bundan sonra, grafik durumunu geri yükleriz.
 
 ## Adım 8: XForm'u Sayfaya Yerleştirin
 
 XForm'u yerleştirme
 
- XForm'u sayfadaki belirli koordinatlarda görüntülemek için başka bir tane kullanacağız`ConcatenateMatrix` operasyon.
+XForm'u sayfadaki belirli koordinatlarda görüntülemek için başka bir tane kullanacağız `ConcatenateMatrix` operasyon.
 
 ```csharp
 pageContents.Add(new ConcatenateMatrix(1, 0, 0, 1, 100, 500));
@@ -149,7 +151,7 @@ pageContents.Add(new Do(form.Name));
 pageContents.Add(new GRestore());
 ```
 
- Bu kod parçası XForm'u koordinatlara yerleştirir`x=100`, `y=500`.
+Bu kod parçası XForm'u koordinatlara yerleştirir `x=100`, `y=500`.
 
 ## Adım 9: Farklı Bir Konumda Tekrar Çizin
 
@@ -187,19 +189,21 @@ Tebrikler! .NET için Aspose.PDF kütüphanesini kullanarak bir PDF sayfasına X
 XForm, grafikleri ve içerikleri kapsülleyebilen, bunların birden fazla sayfaya veya PDF belgesinin farklı yerlerine çizilmesine olanak tanıyan yeniden kullanılabilir bir formdur.
 
 ### XForm'daki resmin boyutunu nasıl değiştirebilirim?
- Parametreleri değiştirerek boyutu ayarlayabilirsiniz.`ConcatenateMatrix` çizilen içeriğin ölçeklenmesini ayarlayan operatör.
+Parametreleri değiştirerek boyutu ayarlayabilirsiniz. `ConcatenateMatrix` çizilen içeriğin ölçeklenmesini ayarlayan operatör.
 
 ### XForm'da görsellerin yanında metin de ekleyebilir miyim?
 Evet! Aspose.PDF kütüphanesinin sağladığı metin operatörlerini kullanarak, resim eklemeye benzer bir yaklaşım izleyerek metin de ekleyebilirsiniz.
 
 ### Aspose.PDF'i kullanmak ücretsiz mi?
- Aspose.PDF ücretsiz deneme sunarken, deneme süresinin ötesinde sürekli kullanım için lisans gerektirir. Lisanslama seçeneklerini inceleyebilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.PDF ücretsiz deneme sunsa da deneme süresinin ötesinde sürekli kullanım için lisans gerektirir. Lisanslama seçeneklerini inceleyebilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Daha detaylı dokümanları nerede bulabilirim?
- Tam Aspose.PDF dokümantasyonunu bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Tam Aspose.PDF dokümantasyonunu bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Yer İmini PDF Sayfasının Başlangıcına Ayarla
-linktitle: Yer İmini PDF Sayfasının Başlangıcına Ayarla
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF for Java kullanarak PDF sayfalarının başına yer imlerini nasıl ayarlayacağınızı öğrenin. Adım adım kılavuzumuz PDF gezinmeyi çocuk oyuncağı haline getirir.
-weight: 12
-url: /tr/java/pdf-bookmarks/set-bookmark-start-pdf-page/
+"description": "Aspose.PDF for Java kullanarak PDF sayfalarının başına yer imlerini nasıl ayarlayacağınızı öğrenin. Adım adım kılavuzumuz PDF gezinmeyi çocuk oyuncağı haline getirir."
+"linktitle": "Yer İmini PDF Sayfasının Başlangıcına Ayarla"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Yer İmini PDF Sayfasının Başlangıcına Ayarla"
+"url": "/tr/java/pdf-bookmarks/set-bookmark-start-pdf-page/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yer İmini PDF Sayfasının Başlangıcına Ayarla
@@ -32,7 +34,7 @@ Projenizde Aspose.PDF for Java'yı kullanmak için Aspose.PDF kütüphanesini pr
 
 ## PDF Belgesi Oluşturma
 
- Java için Aspose.PDF kullanarak yeni bir PDF belgesi oluşturarak başlayalım. Bir örneğini oluşturabilirsiniz`Document` PDF belgesini temsil eden sınıf ve ardından buna sayfalar ekleyin.
+Java için Aspose.PDF kullanarak yeni bir PDF belgesi oluşturarak başlayalım. Bir örneğini oluşturabilirsiniz `Document` PDF belgesini temsil eden sınıf ve ardından buna sayfalar ekleyin.
 
 ```java
 // Yeni bir PDF belgesi oluşturun
@@ -55,7 +57,7 @@ page.getParagraphs().add(textFragment);
 
 ## Bir Sayfanın Başına Yer İmi Ayarlama
 
- Şimdi, oluşturduğumuz sayfanın başına bir yer imi koyalım. Yer imleri,`Outline` PDF belgesinin koleksiyonu. Yer imi için başlığı ve hedef sayfayı belirtebilirsiniz.
+Şimdi, oluşturduğumuz sayfanın başına bir yer imi koyalım. Yer imleri, `Outline` PDF belgesinin koleksiyonu. Yer imi için başlığı ve hedef sayfayı belirtebilirsiniz.
 
 ```java
 // Sayfanın başına bir yer imi oluşturun
@@ -101,12 +103,14 @@ Evet, Aspose.PDF ticari projeler için uygundur. Java uygulamalarında PDF belge
 
 Java için Aspose.PDF, Java 1.6 veya üzeri ile uyumludur. Java ortamınızın belgelerde belirtilen minimum gereksinimleri karşıladığından emin olun.
 
-### Aspose.PDF for Java ile ilgili daha fazla öğreticiyi nerede bulabilirim?
+### Java için Aspose.PDF ile ilgili daha fazla eğitimi nerede bulabilirim?
 
 Aspose web sitesinde daha fazla Aspose.PDF for Java öğreticisi ve belgesi bulabilirsiniz. Ayrıca, yetenekleri ve kullanımı hakkında ayrıntılı bilgi edinmek için Aspose.PDF belgelerini inceleyebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

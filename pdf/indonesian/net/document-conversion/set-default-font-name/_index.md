@@ -1,14 +1,16 @@
 ---
-title: Tetapkan Nama Font Default
-linktitle: Tetapkan Nama Font Default
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menetapkan nama font default saat merender PDF ke gambar menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup prasyarat, petunjuk langkah demi langkah, dan Tanya Jawab Umum.
-weight: 270
-url: /id/net/document-conversion/set-default-font-name/
+"description": "Pelajari cara menetapkan nama font default saat merender PDF ke gambar menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup prasyarat, petunjuk langkah demi langkah, dan Tanya Jawab Umum."
+"linktitle": "Tetapkan Nama Font Default"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tetapkan Nama Font Default"
+"url": "/id/net/document-conversion/set-default-font-name/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tetapkan Nama Font Default
@@ -21,12 +23,12 @@ Pernahkah Anda mencoba merender dokumen PDF ke gambar tetapi font-nya tidak terl
 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
-- Aspose.PDF untuk .NET: Pustaka canggih ini akan kita gunakan untuk memanipulasi dokumen PDF kita. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Pustaka canggih ini akan kita gunakan untuk memanipulasi dokumen PDF kita. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan kita.
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework. Aspose.PDF untuk .NET mendukung berbagai versi, jadi periksa dokumentasi untuk menyesuaikan dengan kebutuhan Anda.
 - Dokumen PDF: Anda memerlukan contoh dokumen PDF untuk digunakan. Jika Anda tidak memilikinya, buat PDF sederhana atau unduh contohnya secara daring.
 
-Setelah Anda menyiapkan semuanya, kita siap untuk memulai membuat kode!
+Setelah semuanya siap, kita siap untuk mulai membuat kode!
 
 ## Paket Impor
 
@@ -51,7 +53,7 @@ Pertama-tama, mari kita atur jalur direktori tempat dokumen PDF Anda berada. Ini
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Di Sini,`dataDir` adalah direktori tempat dokumen PDF Anda berada. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda. Hal ini penting karena kode perlu mengetahui dari mana mengambil berkas PDF.
+Di Sini, `dataDir` adalah direktori tempat dokumen PDF Anda berada. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda. Hal ini penting karena kode perlu mengetahui dari mana mengambil berkas PDF.
 
 ## Langkah 2: Muat Dokumen PDF
 
@@ -60,7 +62,7 @@ Sekarang setelah kita memiliki jalur dokumen, langkah berikutnya adalah memuat d
 ```csharp
 using (Document pdfDocument = new Document(dataDir + "input.pdf"))
 ```
- Kami menggunakan`Document` kelas dari pustaka Aspose.PDF untuk memuat berkas PDF kita. Kelas ini menyediakan berbagai metode dan properti untuk bekerja dengan dokumen PDF.`"input.pdf"` harus diganti dengan nama file PDF Anda yang sebenarnya. File ini akan digunakan sebagai input untuk rendering.
+Kami menggunakan `Document` kelas dari pustaka Aspose.PDF untuk memuat berkas PDF kita. Kelas ini menyediakan berbagai metode dan properti untuk bekerja dengan dokumen PDF. `"input.pdf"` harus diganti dengan nama file PDF Anda yang sebenarnya. File ini akan digunakan sebagai input untuk rendering.
 
 ## Langkah 3: Buat Aliran Gambar untuk Output
 
@@ -69,16 +71,16 @@ Setelah dokumen dimuat, kita perlu menyiapkan aliran untuk menyimpan gambar yang
 ```csharp
 using (FileStream imageStream = new FileStream(dataDir + "SetDefaultFontName.png", FileMode.Create))
 ```
- Itu`FileStream`kelas digunakan untuk membuat file baru tempat gambar yang dirender akan disimpan. Dalam contoh ini, kami menyimpan gambar sebagai`"SetDefaultFontName.png"` . Itu`FileMode.Create` memastikan bahwa file baru dibuat, atau file yang sudah ada ditimpa.
+Itu `FileStream` kelas digunakan untuk membuat file baru tempat gambar yang dirender akan disimpan. Dalam contoh ini, kami menyimpan gambar sebagai `"SetDefaultFontName.png"`. Itu `FileMode.Create` memastikan bahwa file baru dibuat, atau file yang sudah ada ditimpa.
 
 ## Langkah 4: Atur Resolusi Gambar
 
-Sebelum mengubah PDF menjadi gambar, penting untuk mengatur resolusinya. Ini menentukan kualitas dan kejelasan gambar keluaran.
+Sebelum mengubah PDF menjadi gambar, penting untuk mengatur resolusinya. Resolusi menentukan kualitas dan kejelasan gambar keluaran.
 
 ```csharp
 Resolution resolution = new Resolution(300);
 ```
- Itu`Resolution` class menetapkan resolusi gambar keluaran. Di sini, kami telah memilih resolusi 300 DPI (titik per inci), yang merupakan standar untuk gambar berkualitas tinggi. Ini memastikan bahwa teks dan grafik dalam PDF Anda ditampilkan dengan jelas tanpa kehilangan detail.
+Itu `Resolution` class menetapkan resolusi gambar keluaran. Di sini, kami telah memilih resolusi 300 DPI (titik per inci), yang merupakan standar untuk gambar berkualitas tinggi. Ini memastikan bahwa teks dan grafik dalam PDF Anda ditampilkan dengan jelas tanpa kehilangan detail.
 
 ## Langkah 5: Konfigurasikan Perangkat PNG
 
@@ -87,7 +89,7 @@ Berikutnya, kita perlu mengonfigurasi perangkat yang akan menangani pemrosesan P
 ```csharp
 PngDevice pngDevice = new PngDevice(resolution);
 ```
- Itu`PngDevice` kelas bertanggung jawab untuk merender dokumen PDF menjadi gambar PNG. Dengan melewati`resolution` keberatan dengan hal tersebut, kami memastikan bahwa gambar dibuat dengan DPI yang ditentukan.
+Itu `PngDevice` kelas bertanggung jawab untuk merender dokumen PDF menjadi gambar PNG. Dengan meneruskan `resolution` keberatan dengan hal tersebut, kami memastikan bahwa gambar dibuat dengan DPI yang ditentukan.
 
 ## Langkah 6: Mengatur Nama Font Default
 
@@ -98,7 +100,7 @@ RenderingOptions ro = new RenderingOptions();
 ro.DefaultFontName = "Arial";
 pngDevice.RenderingOptions = ro;
 ```
- Kami membuat sebuah contoh`RenderingOptions` dan mengaturnya`DefaultFontName` properti untuk`"Arial"`. Ini berarti bahwa jika font asli dalam PDF tidak dapat ditemukan, Arial akan digunakan sebagai gantinya. Langkah ini penting untuk menjaga keterbacaan dan tampilan teks dalam gambar yang ditampilkan.
+Kami membuat sebuah contoh dari `RenderingOptions` dan mengaturnya `DefaultFontName` properti untuk `"Arial"`. Ini berarti bahwa jika font asli dalam PDF tidak dapat ditemukan, Arial akan digunakan sebagai gantinya. Langkah ini penting untuk menjaga keterbacaan dan tampilan teks dalam gambar yang ditampilkan.
 
 ## Langkah 7: Render Halaman PDF ke Gambar
 
@@ -107,7 +109,7 @@ Akhirnya, setelah semuanya siap, kita sekarang dapat mengubah halaman pertama do
 ```csharp
 pngDevice.Process(pdfDocument.Pages[1], imageStream);
 ```
- Itu`Process` metode dari`PngDevice` kelas digunakan untuk merender halaman PDF yang ditentukan (dalam kasus ini, halaman pertama) menjadi gambar. Output kemudian disimpan ke`imageStream`Langkah ini mengonversi halaman PDF menjadi gambar PNG dengan resolusi dan font default yang ditentukan.
+Itu `Process` metode dari `PngDevice` kelas digunakan untuk merender halaman PDF yang ditentukan (dalam kasus ini, halaman pertama) menjadi gambar. Output kemudian disimpan ke `imageStream`Langkah ini mengonversi halaman PDF menjadi gambar PNG dengan resolusi dan font default yang ditentukan.
 
 ## Langkah 8: Tutup Aliran File dan Dokumen PDF
 
@@ -117,7 +119,7 @@ Setelah merender gambar, penting untuk menutup aliran file dan dokumen PDF untuk
 imageStream.Close();
 pdfDocument.Dispose();
 ```
-Penutupan`imageStream` memastikan bahwa file disimpan dengan benar dan tidak ada data yang hilang. Membuang`pdfDocument` membebaskan memori dan sumber daya, mencegah potensi kebocoran memori.
+Penutupan `imageStream` memastikan bahwa file disimpan dengan benar dan tidak ada data yang hilang. Membuang `pdfDocument` membebaskan memori dan sumber daya, mencegah potensi kebocoran memori.
 
 ## Kesimpulan
 
@@ -126,7 +128,7 @@ Nah, itu dia! Hanya dengan beberapa baris kode, Anda telah mempelajari cara meng
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa yang terjadi jika font default yang ditentukan tidak terpasang pada sistem?
- Jika font default yang ditentukan dalam`RenderingOptions` tidak terinstal di sistem, Aspose.PDF akan menggunakan font fallback yang ditentukan sistem.
+Jika font default yang ditentukan dalam `RenderingOptions` tidak terinstal di sistem, Aspose.PDF akan menggunakan font fallback yang ditentukan sistem.
 
 ### Bisakah saya menggunakan font selain Arial sebagai font default?
 Tentu saja! Anda dapat mengatur font apa pun yang terinstal di sistem Anda sebagai font default.
@@ -139,9 +141,11 @@ Ya, resolusi yang lebih tinggi akan menghasilkan berkas gambar yang lebih besar 
 
 ### Bisakah saya mengubah PDF ke format gambar lain selain PNG?
 Ya, Aspose.PDF mendukung rendering ke berbagai format gambar seperti JPEG, BMP, dan TIFF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

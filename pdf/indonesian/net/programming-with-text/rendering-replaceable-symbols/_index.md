@@ -1,14 +1,16 @@
 ---
-title: Merender Simbol yang Dapat Diganti dalam File PDF
-linktitle: Merender Simbol yang Dapat Diganti dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara merender simbol yang dapat diganti dalam berkas PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
-weight: 310
-url: /id/net/programming-with-text/rendering-replaceable-symbols/
+"description": "Pelajari cara merender simbol yang dapat diganti dalam berkas PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Merender Simbol yang Dapat Diganti dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Merender Simbol yang Dapat Diganti dalam File PDF"
+"url": "/id/net/programming-with-text/rendering-replaceable-symbols/"
+"weight": 310
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Merender Simbol yang Dapat Diganti dalam File PDF
@@ -19,12 +21,12 @@ Membuat dan memanipulasi file PDF sering kali terasa seperti menavigasi labirin.
 
 ## Prasyarat
 
-Sebelum menyelami kodenya, pastikan Anda memiliki semua yang dibutuhkan untuk mengikutinya. Berikut prasyaratnya:
+Sebelum mempelajari kodenya, pastikan Anda memiliki semua yang dibutuhkan untuk mengikutinya. Berikut ini adalah prasyaratnya:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sinilah Anda akan menulis dan menjalankan kode .NET.
 2. .NET Framework: Anda harus memiliki versi .NET Framework yang kompatibel. Aspose.PDF mendukung .NET Framework 4.0 dan yang lebih baru.
-3.  Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/pdf/net/) Jika Anda ingin mencobanya terlebih dahulu, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
-4. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# akan membantu Anda memahami cuplikan kode dengan lebih baik.
+3. Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/pdf/net/)Jika Anda ingin mencobanya terlebih dahulu, Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
+4. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 5. Pembaca PDF: Untuk melihat keluaran berkas PDF, pastikan Anda telah menginstal pembaca PDF di komputer Anda.
 
 ## Paket Impor
@@ -50,7 +52,7 @@ Hal pertama yang terpenting, mari buat proyek C# baru di mana kita akan mengimpl
 
 ### Tambahkan Menggunakan Arahan
 
- Di bagian atas Anda`Program.cs` file, tambahkan arahan penggunaan yang diperlukan untuk Aspose.PDF:
+Di bagian atas Anda `Program.cs` file, tambahkan arahan penggunaan yang diperlukan untuk Aspose.PDF:
 
 ```csharp
 using System.IO;
@@ -66,12 +68,12 @@ Sekarang, mari kita buat dokumen PDF baru dan tambahkan halaman ke dalamnya. Di 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Tentukan direktori dokumen Anda
 Document pdfDocument = new Document(); // Buat dokumen PDF baru
-Page pdfPage = pdfDocument.Pages.Add(); //Tambahkan halaman baru ke dokumen
+Page pdfPage = pdfDocument.Pages.Add(); // Tambahkan halaman baru ke dokumen
 ```
 
--  Kita mulai dengan mendefinisikan sebuah variabel`dataDir` untuk menahan jalur tempat kita akan menyimpan berkas PDF kita nanti.
--  Kami membuat contoh baru dari`Document` kelas, yang mewakili PDF kita.
--  Kami kemudian menambahkan halaman baru ke dokumen ini menggunakan`Pages.Add()` metode.
+- Kita mulai dengan mendefinisikan variabel `dataDir` untuk menahan jalur tempat kita akan menyimpan berkas PDF kita nanti.
+- Kami membuat contoh baru dari `Document` kelas, yang mewakili PDF kita.
+- Kami kemudian menambahkan halaman baru ke dokumen ini menggunakan `Pages.Add()` metode.
 
 ## Langkah 3: Buat Fragmen Teks
 
@@ -81,7 +83,7 @@ Selanjutnya, kita akan membuat fragmen teks yang berisi teks yang ingin kita tam
 TextFragment textFragment = new TextFragment("Applicant Name: " + Environment.NewLine + " Joe Smoe");
 ```
 
--  Itu`TextFragment` kelas digunakan untuk membuat bagian teks yang dapat ditambahkan ke PDF. 
+- Itu `TextFragment` kelas digunakan untuk membuat bagian teks yang dapat ditambahkan ke PDF. 
 - Kami menyertakan penanda baris baru (`Environment.NewLine`) untuk memformat teks dengan benar.
 
 ## Langkah 4: Mengatur Properti Fragmen Teks
@@ -95,21 +97,21 @@ textFragment.TextState.BackgroundColor = Color.LightGray; // Mengatur warna lata
 textFragment.TextState.ForegroundColor = Color.Red; // Mengatur warna teks
 ```
 
--  Kami mengatur`FontSize` hingga 12 agar teks dapat dibaca.
--  Menggunakan`FontRepository.FindFont()`, kami menentukan jenis font.
+- Kami mengatur `FontSize` ke 12 agar teks dapat dibaca.
+- Menggunakan `FontRepository.FindFont()`, kami menentukan jenis font.
 - Kami juga menyesuaikan warna latar belakang dan latar depan untuk meningkatkan visibilitas.
 
 ## Langkah 5: Buat Paragraf Teks
 
- Selanjutnya, kita akan membuat`TextParagraph` objek untuk menampung fragmen teks kita.
+Selanjutnya, kita akan membuat `TextParagraph` objek untuk menampung fragmen teks kita.
 
 ```csharp
 TextParagraph paragraph = new TextParagraph(); // Buat TextParagraph baru
 paragraph.AppendLine(textFragment); // Tambahkan fragmen teks ke paragraf
 ```
 
--  Itu`TextParagraph` kelas memungkinkan kita untuk mengelompokkan beberapa`TextFragment` objek.
--  Kami menggunakan`AppendLine()` untuk menambahkan fragmen teks ke paragraf, memastikannya muncul dengan benar dalam PDF.
+- Itu `TextParagraph` kelas memungkinkan kita untuk mengelompokkan beberapa `TextFragment` objek.
+- Kami menggunakan `AppendLine()` untuk menambahkan fragmen teks ke paragraf, memastikannya muncul dengan benar dalam PDF.
 
 ## Langkah 6: Atur Posisi Paragraf
 
@@ -119,21 +121,21 @@ Sekarang, mari atur posisi paragraf kita di halaman PDF.
 paragraph.Position = new Position(100, 600); // Mengatur posisi paragraf
 ```
 
--  Itu`Position` properti mengambil dua parameter: koordinat X dan Y. Ini menentukan di mana teks kita akan muncul di halaman. Sesuaikan nilai-nilai ini sesuai kebutuhan agar sesuai dengan tata letak Anda.
+- Itu `Position` properti mengambil dua parameter: koordinat X dan Y. Ini menentukan di mana teks kita akan muncul di halaman. Sesuaikan nilai-nilai ini sesuai kebutuhan agar sesuai dengan tata letak Anda.
 
 ## Langkah 7: Buat Pembuat Teks
 
-Untuk menambahkan paragraf kita ke halaman PDF, kita akan menggunakan`TextBuilder`.
+Untuk menambahkan paragraf kita ke halaman PDF, kita akan menggunakan `TextBuilder`.
 
 ```csharp
 TextBuilder textBuilder = new TextBuilder(pdfPage); // Buat TextBuilder untuk halaman tersebut
 ```
 
--  Itu`TextBuilder` kelas membantu kita menambahkan teks ke halaman tertentu. Dengan meneruskan`pdfPage` ke konstruktor, kita siap menyisipkan paragraf kita.
+- Itu `TextBuilder` kelas membantu kita menambahkan teks ke halaman tertentu. Dengan meneruskan `pdfPage` ke konstruktor, kita siap menyisipkan paragraf kita.
 
 ## Langkah 8: Tambahkan Paragraf ke Halaman
 
- Terakhir, kita akan menambahkan paragraf kita ke halaman PDF menggunakan`TextBuilder`.
+Terakhir, kita akan menambahkan paragraf kita ke halaman PDF menggunakan `TextBuilder`.
 
 ```csharp
 textBuilder.AppendParagraph(paragraph); // Tambahkan paragraf ke halaman
@@ -150,8 +152,8 @@ dataDir = dataDir + "RenderingReplaceableSymbols_out.pdf"; // Tentukan nama file
 pdfDocument.Save(dataDir); // Simpan dokumen
 ```
 
--  Kami menambahkan nama file output ke`dataDir`.
--  Itu`Save()` metode menulis PDF ke disk, membuatnya dapat diakses untuk dilihat.
+- Kami menambahkan nama file output ke `dataDir`.
+- Itu `Save()` metode menulis PDF ke disk, membuatnya dapat diakses untuk dilihat.
 
 ## Langkah 10: Keluarkan Pesan Sukses
 
@@ -173,7 +175,7 @@ Nah, itu dia! Anda telah berhasil membuat simbol yang dapat diganti dalam file P
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF dalam aplikasi .NET.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Anda dapat mengunduh versi uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh versi uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/).
 
 ### Bagaimana cara memasang Aspose.PDF di proyek saya?
 Anda dapat menginstalnya melalui NuGet Package Manager di Visual Studio dengan mencari "Aspose.PDF."
@@ -182,10 +184,12 @@ Anda dapat menginstalnya melalui NuGet Package Manager di Visual Studio dengan m
 Aspose.PDF terutama mendukung bahasa .NET, termasuk C#, VB.NET, dan ASP.NET.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?
- Anda dapat menemukan dokumentasi terperinci di[Situs web Aspose](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi terperinci di [Situs web Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

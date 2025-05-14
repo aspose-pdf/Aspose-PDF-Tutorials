@@ -1,14 +1,16 @@
 ---
-title: Java'da Etiketli Metinle PDF Oluşturma
-linktitle: Java'da Etiketli Metinle PDF Oluşturma
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java'da Aspose.PDF for Java ile etiketli PDF'lerin nasıl oluşturulacağını öğrenin. Adım adım kılavuzumuz erişilebilirliği ve uyumluluğu garanti eder.
-weight: 14
-url: /tr/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/
+"description": "Java'da Aspose.PDF for Java ile etiketli PDF'lerin nasıl oluşturulacağını öğrenin. Adım adım kılavuzumuz erişilebilirliği ve uyumluluğu garanti eder."
+"linktitle": "Java'da Etiketli Metinle PDF Oluşturma"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java'da Etiketli Metinle PDF Oluşturma"
+"url": "/tr/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java'da Etiketli Metinle PDF Oluşturma
@@ -23,7 +25,7 @@ Belge yönetimi dünyasında PDF'ler, çeşitli platformlarda tutarlılığı ko
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Sisteminizde Java Development Kit (JDK) yüklü.
--  Java kütüphanesi için Aspose.PDF. İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF. İndirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Java Projenizi Kurma
 
@@ -76,7 +78,7 @@ Bu kılavuzda, Java için Aspose.PDF kullanarak Java'da etiketli bir PDF'nin nas
 
 ### PDF dosyamın erişilebilirlik açısından etiketlendiğinden nasıl emin olabilirim?
 
- PDF'nizin erişilebilirlik için etiketlendiğinden emin olmak için,`tagged` mülk`true` Etiketlemek istediğiniz metin veya içerik için. Bu genellikle bu kılavuzda gösterildiği gibi Java'daki Aspose.PDF kitaplığı kullanılarak yapılır.
+PDF'nizin erişilebilirlik için etiketlendiğinden emin olmak için, `tagged` mülk `true` Etiketlemek istediğiniz metin veya içerik için. Bu genellikle bu kılavuzda gösterildiği gibi Java'daki Aspose.PDF kitaplığı kullanılarak yapılır.
 
 ### Etiketli PDF'lerin önemi nedir?
 
@@ -92,10 +94,12 @@ Java için Aspose.PDF ticari bir kütüphanedir, ancak özelliklerini değerlend
 
 ### Java için Aspose.PDF hakkında daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Java için Aspose.PDF'ye ilişkin kapsamlı dokümanları ve referansları Aspose sitesinde bulabilirsiniz[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'ye ilişkin kapsamlı dokümanları ve referansları Aspose sitesinde bulabilirsiniz [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,46 +1,48 @@
 ---
-title: Adjon hozzá képbélyeget háttérként a lebegő PDF-dobozhoz Java használatával
-linktitle: Adjon hozzá képbélyeget háttérként a lebegő PDF-dobozhoz Java használatával
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan adhat hozzá képbélyegeket háttérként PDF-fájlokhoz Java és Aspose.PDF for Java használatával. Lépésről lépésre útmutató kódpéldákkal a testreszabott márkaépítéshez és információkhoz.
-weight: 10
-url: /hu/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/
+"description": "Tanuld meg, hogyan adhatsz hozzá képbélyegzőket háttérként PDF-ekhez Java használatával, és az Aspose.PDF for Java-t. Lépésről lépésre útmutató kódpéldákkal a testreszabott arculathoz és információkhoz."
+"linktitle": "Képbélyegző hozzáadása háttérként PDF lebegő dobozában Java használatával"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "Képbélyegző hozzáadása háttérként PDF lebegő dobozában Java használatával"
+"url": "/hu/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adjon hozzá képbélyeget háttérként a lebegő PDF-dobozhoz Java használatával
+# Képbélyegző hozzáadása háttérként PDF lebegő dobozában Java használatával
 
 
 ## Bevezetés a képbélyegzőkbe
 
-A képbélyegzők a PDF dokumentumokhoz hozzáadott grafikus elemek. Különféle célokat szolgálnak, például logók, vízjelek vagy megjegyzések hozzáadásával a dokumentumot látványosabbá vagy informatívabbá teszik.
+A képbélyegzők grafikus elemek, amelyeket a PDF dokumentumokhoz adnak. Különböző célokat szolgálnak, például logók, vízjelek vagy jegyzetek hozzáadását, hogy a dokumentum vizuálisan vonzóbbá vagy informatívabbá váljon.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve
-- Integrált fejlesztői környezet (IDE) a Java számára, például az IntelliJ IDEA vagy az Eclipse
--  Aspose.PDF a Java könyvtárhoz. Letöltheti innen[itt](https://releases.aspose.com/pdf/java/).
+- Telepített Java fejlesztőkészlet (JDK)
+- Integrált fejlesztői környezet (IDE) Java-hoz, például IntelliJ IDEA vagy Eclipse
+- Aspose.PDF a Java könyvtárhoz. Letöltheti innen [itt](https://releases.aspose.com/pdf/java/).
 
-## Mi az Aspose.PDF for Java?
+## Mi az Aspose.PDF Java-hoz?
 
-Az Aspose.PDF for Java egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy PDF fájlokkal dolgozzanak Java-alkalmazásaikban. Funkciók széles skáláját kínálja a PDF-dokumentumok létrehozásához, kezeléséhez és optimalizálásához, így értékes eszközzé teszi a PDF-ekkel rendszeresen dolgozó vállalkozások és magánszemélyek számára.
+Az Aspose.PDF for Java egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy PDF fájlokkal dolgozzanak Java alkalmazásaikban. Széleskörű funkciókat kínál PDF dokumentumok létrehozásához, kezeléséhez és optimalizálásához, így értékes eszközzé teszi a vállalkozások és a rendszeresen PDF fájlokkal dolgozó magánszemélyek számára.
 
-## Képbélyegzők megértése
+## A képbélyegzők megértése
 
-A PDF-ekben található képbélyegzők olyan grafikus elemek, amelyek hozzáadhatók a dokumentumhoz információk vagy márkajelzés közvetítése érdekében. Ebben az oktatóanyagban a képbélyegzők háttérként történő hozzáadására fogunk összpontosítani a lebegő dobozokban, ami különösen hasznos lehet sablonok, fejléces papírok vagy űrlapok létrehozásához.
+A PDF-ekben található képbélyegzők grafikus elemek, amelyek hozzáadhatók egy dokumentumhoz információk vagy márkajelzés közvetítése céljából. Ebben az oktatóanyagban a képbélyegzők lebegő dobozokban lévő háttérként való hozzáadására fogunk összpontosítani, ami különösen hasznos lehet sablonok, levélpapírok vagy űrlapok létrehozásához.
 
-## A fejlesztési környezet előkészítése
+## A fejlesztői környezet előkészítése
 
- Mielőtt belemerülnénk a kódba, be kell állítania a fejlesztői környezetet. Győződjön meg arról, hogy az Aspose.PDF for Java könyvtár telepítve van és be van állítva a Java projektben. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/pdf/java/).
+Mielőtt belemerülnénk a kódba, be kell állítani a fejlesztői környezetet. Győződjön meg arról, hogy az Aspose.PDF for Java könyvtár telepítve és konfigurálva van a Java projektjében. A könyvtárat innen töltheti le: [itt](https://releases.aspose.com/pdf/java/).
 
-## PDF dokumentum készítése
+## PDF dokumentum létrehozása
 
-kezdéshez hozzunk létre egy új PDF-dokumentumot az Aspose.PDF for Java használatával. Létrehozunk egy üres dokumentumot, amelyhez később hozzáadhatjuk a képbélyeget.
+Kezdésként hozzunk létre egy új PDF dokumentumot az Aspose.PDF for Java használatával. Létrehozunk egy üres dokumentumot, amelyhez később hozzáadhatjuk a képbélyegzőt.
 
 ```java
 // Java kód PDF dokumentum létrehozásához
@@ -49,30 +51,30 @@ Document pdfDocument = new Document();
 
 ## Képbélyegző hozzáadása
 
- Ezután képbélyeget adunk a PDF dokumentumhoz. Ehhez a lépéshez készen kell lennie a képfájlnak. Használjuk a`addStamp` módszer a kép bélyegzőként való hozzáadásához.
+Ezután hozzáadunk egy képbélyegzőt a PDF dokumentumhoz. Ehhez a lépéshez elő kell készítenie a képfájlt. A következőt fogjuk használni: `addStamp` módszer a kép bélyegzőként való hozzáadásához.
 
 ```java
-// Java-kód képbélyegző hozzáadásához
+// Java kód képbélyegző hozzáadásához
 Stamp stamp = new Stamp();
 stamp.setBackground(true);
 stamp.setOpacity(0.5);
 stamp.setWidth(200);
 stamp.setHeight(100);
 
-// Töltse be a képet egy fájlból
+// Kép betöltése egy fájlból
 stamp.setImage("path/to/your/image.png");
 
-// Adja hozzá a bélyegzőt a PDF-oldalhoz
+// Bélyegző hozzáadása a PDF oldalhoz
 pdfDocument.getPages().get_Item(1).addStamp(stamp);
 ```
 
-## A képbélyegző beállítása
+## A képbélyegző konfigurálása
 
-Beállíthatja a képbélyegző különféle tulajdonságait, például helyzetét, méretét, átlátszatlanságát stb. Módosítsa ezeket a beállításokat sajátos igényei szerint.
+A képbélyegző különböző tulajdonságait, például a pozícióját, méretét, átlátszóságát és egyebeket konfigurálhatja. Módosítsa ezeket a beállításokat az Ön igényeinek megfelelően.
 
 ## A PDF dokumentum mentése
 
-A képbélyegző hozzáadása után mentheti a PDF-dokumentumot a bélyegzővel együtt. Válassza ki a megfelelő fájl elérési utat, és használja a következő kódot:
+Miután hozzáadta a képbélyegzőt, mentheti a PDF dokumentumot a bélyegzővel együtt. Válasszon egy megfelelő fájlútvonalat, és használja a következő kódot:
 
 ```java
 // Java kód a PDF dokumentum mentéséhez
@@ -81,40 +83,42 @@ pdfDocument.save("output.pdf");
 
 ## A Java kód futtatása
 
-Fordítsa le és futtassa a Java kódot a képbélyegzővel ellátott PDF-dokumentum létrehozásához. A képbélyegzőt háttérként kell látnia egy lebegő dobozban.
+Fordítsd le és futtasd a Java kódot a képbélyegzővel ellátott PDF dokumentum létrehozásához. A képbélyegzőnek háttérként kell megjelennie egy lebegő dobozban.
 
 ## További testreszabási lehetőségek
 
-Az Aspose.PDF for Java számos testreszabási lehetőséget kínál a képbélyegzők és PDF-dokumentumok számára. Fedezze fel az API-dokumentációt, és fedezze fel a PDF-fájlok javításának további módjait.
+Az Aspose.PDF for Java számos testreszabási lehetőséget kínál a képbélyegzőkhöz és a PDF dokumentumokhoz. Tekintse meg az API dokumentációját, hogy további módszereket fedezzen fel a PDF-ek fejlesztésére.
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá képbélyeget háttérként egy PDF-dokumentum lebegő dobozához Java és az Aspose.PDF for Java API használatával. Ez értékes funkció lehet professzionális PDF-dokumentumok létrehozásához testreszabott márkajelzéssel és információkkal.
+Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá egy képes pecsétet háttérként egy PDF dokumentum lebegő mezőjéhez Java és az Aspose.PDF for Java API használatával. Ez értékes funkció lehet professzionális PDF dokumentumok létrehozásához, testreszabott márkajelzéssel és információkkal.
 
 ## GYIK
 
-### Hogyan változtathatom meg a képbélyegző pozícióját a PDF-ben?
+### Hogyan tudom megváltoztatni a képbélyegző pozícióját a PDF-ben?
 
- Beállíthatja a képbélyegző pozícióját az X és Y koordináták módosításával a gombbal`stamp.setX` és`stamp.setY` mód.
+A képbélyegző pozícióját az X és Y koordináták módosításával módosíthatja a `stamp.setX` és `stamp.setY` mód.
 
-### Hozzáadhatok több képbélyeget ugyanahhoz a PDF dokumentumhoz?
+### Hozzáadhatok több képbélyegzőt ugyanahhoz a PDF dokumentumhoz?
 
-Igen, több képbélyegzőt is hozzáadhat egy PDF-dokumentumhoz, ha minden egyes képnél megismétli a bélyegzési folyamatot.
+Igen, több képbélyegzőt is hozzáadhat egy PDF dokumentumhoz a bélyegzési folyamat megismétlésével minden képnél.
 
-### Az Aspose.PDF for Java alkalmas kereskedelmi használatra?
+### Alkalmas kereskedelmi használatra az Aspose.PDF Java-hoz?
 
-Igen, az Aspose.PDF for Java kereskedelmi és személyes használatra egyaránt alkalmas. Különféle igények kielégítésére kínál licencelési lehetőségeket.
+Igen, az Aspose.PDF Java-hoz alkalmas mind kereskedelmi, mind személyes használatra. Licencelési lehetőségeket kínál a különféle igények kielégítésére.
 
-### Hozzáadhatok szövegbélyegzőket képbélyegzőkkel együtt?
+### Hozzáadhatok szöveges bélyegzőket a képbélyegzők mellé?
 
-Biztosan! A képbélyegzők mellé szövegbélyegzőket is hozzáadhat, hogy további információkat vagy címkéket biztosítson a PDF-dokumentumokban.
+Természetesen! A képbélyegzők mellé szövegbélyegzőket is hozzáadhat, hogy további információkat vagy címkéket adjon meg PDF dokumentumaiban.
 
-### Hol találok további példákat és dokumentációt az Aspose.PDF for Java fájlhoz?
+### Hol találok további példákat és dokumentációt az Aspose.PDF for Java-hoz?
 
- Átfogó dokumentációt és példákat találhat az Aspose.PDF for Java dokumentációs oldalán:[itt](https://reference.aspose.com/pdf/java/).
+Átfogó dokumentációt és példákat az Aspose.PDF for Java dokumentációs oldalán talál: [itt](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

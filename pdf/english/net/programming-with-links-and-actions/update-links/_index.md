@@ -8,7 +8,9 @@ url: /net/programming-with-links-and-actions/update-links/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Links In PDF File
@@ -169,6 +171,7 @@ You can request a temporary license [here](https://purchase.aspose.com/temporary
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

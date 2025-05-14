@@ -1,14 +1,16 @@
 ---
-title: Nhận thông tin tệp trong tệp PDF
-linktitle: Nhận thông tin tệp trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách sử dụng tính năng GetFileInfo trong tệp PDF của Aspose.PDF dành cho .NET để truy xuất thông tin siêu dữ liệu về tài liệu PDF.
-weight: 180
-url: /vi/net/programming-with-document/getfileinfo/
+"description": "Tìm hiểu cách sử dụng tính năng GetFileInfo trong tệp PDF của Aspose.PDF dành cho .NET để truy xuất thông tin siêu dữ liệu về tài liệu PDF."
+"linktitle": "Nhận thông tin tệp trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhận thông tin tệp trong tệp PDF"
+"url": "/vi/net/programming-with-document/getfileinfo/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận thông tin tệp trong tệp PDF
@@ -22,7 +24,7 @@ Bạn đã bao giờ tự hỏi những bí mật nào nằm trong một tệp P
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển của chúng tôi.
-2.  Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -42,8 +44,8 @@ Sau khi đã cài đặt thư viện, bạn có thể bắt đầu viết code.
 Trước tiên, hãy tạo một dự án C# mới trong Visual Studio:
 
 1. Mở Visual Studio và chọn "Tạo dự án mới".
-2. Chọn "Console App (.NET Framework)" và nhấp vào "Tiếp theo".
-3.  Đặt tên cho dự án của bạn (ví dụ:`PDFFileInfoExtractor`) và nhấp vào "Tạo".
+2. Chọn "Console App (.NET Framework)" và nhấp vào "Next".
+3. Đặt tên cho dự án của bạn (ví dụ: `PDFFileInfoExtractor`) và nhấp vào "Tạo".
 
 ### Thêm tham chiếu Aspose.PDF
 
@@ -55,9 +57,9 @@ Bây giờ dự án của bạn đã được thiết lập, bạn cần thêm t
 
 ## Bước 2: Viết mã
 
-### Khởi tạo Tài liệu
+### Khởi tạo tài liệu
 
- Bây giờ, hãy viết mã để mở một tài liệu PDF và trích xuất thông tin của nó. Bắt đầu bằng cách thêm lệnh using sau vào đầu`Program.cs` tài liệu:
+Bây giờ, hãy viết mã để mở một tài liệu PDF và trích xuất thông tin của nó. Bắt đầu bằng cách thêm lệnh using sau vào đầu `Program.cs` tài liệu:
 
 ```csharp
 using System.IO;
@@ -108,19 +110,21 @@ Xin chúc mừng! Bạn đã trích xuất thành công thông tin tệp từ PD
 Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
 
 ### Làm thế nào để cài đặt Aspose.PDF?
- Bạn có thể cài đặt Aspose.PDF thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+Bạn có thể cài đặt Aspose.PDF thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 
 ### Tôi có thể trích xuất hình ảnh từ tệp PDF bằng Aspose.PDF không?
 Có, Aspose.PDF cung cấp phương pháp trích xuất hình ảnh từ tài liệu PDF.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Có, bạn có thể nhận được bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/).
+Có, bạn có thể nhận được bản dùng thử miễn phí từ [Trang web Aspose](https://releases.aspose.com/).
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

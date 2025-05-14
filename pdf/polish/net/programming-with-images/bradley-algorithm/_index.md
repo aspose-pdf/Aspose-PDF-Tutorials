@@ -1,14 +1,16 @@
 ---
-title: Algorytm Bradleya
-linktitle: Algorytm Bradleya
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak przekonwertować plik PDF do TIFF za pomocą algorytmu Bradley w Aspose.PDF dla .NET. Przewodnik krok po kroku, wymagania wstępne i często zadawane pytania dotyczące bezproblemowej konwersji.
-weight: 30
-url: /pl/net/programming-with-images/bradley-algorithm/
+"description": "Dowiedz się, jak przekonwertować plik PDF do TIFF za pomocą algorytmu Bradley w Aspose.PDF dla .NET. Przewodnik krok po kroku, wymagania wstępne i często zadawane pytania dotyczące bezproblemowej konwersji."
+"linktitle": "Algorytm Bradleya"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Algorytm Bradleya"
+"url": "/pl/net/programming-with-images/bradley-algorithm/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Algorytm Bradleya
@@ -23,10 +25,10 @@ Ten samouczek przeprowadzi Cię przez szczegółowy, łatwy do naśladowania pro
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.PDF dla .NET: Będziesz potrzebować biblioteki. Pobierz ją z[Tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Będziesz potrzebować biblioteki. Pobierz ją z [Tutaj](https://releases.aspose.com/pdf/net/).
 - Visual Studio (lub dowolne środowisko IDE języka C#).
 - Podstawowa znajomość języka C#.
--  Ważne prawo jazdy lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) z Aspose.
+- Ważne prawo jazdy lub [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) z Aspose.
 
 ## Importuj pakiety
 
@@ -58,7 +60,7 @@ Teraz, gdy ścieżka jest ustawiona, czas otworzyć dokument PDF, który chcesz 
 Document pdfDocument = new Document(dataDir + "PageToTIFF.pdf");
 ```
 
- Tutaj,`PageToTIFF.pdf` jest plikiem przykładowym. Możesz go zastąpić dowolnym plikiem PDF według własnego wyboru. Obiekt dokumentu zawiera teraz plik PDF do dalszej manipulacji.
+Tutaj, `PageToTIFF.pdf` jest plikiem przykładowym. Możesz go zastąpić dowolnym plikiem PDF według własnego wyboru. Obiekt dokumentu zawiera teraz plik PDF do dalszej manipulacji.
 
 ## Krok 3: Zdefiniuj ścieżki wyjściowe dla obrazów
 
@@ -105,7 +107,7 @@ Urządzenie TIFF jest rdzeniem tej operacji. Bierze dokument PDF i konwertuje ka
 
 ## Krok 7: Konwertuj stronę PDF do formatu TIFF
 
- Czas przetworzyć plik PDF i przekonwertować pierwszą stronę na obraz TIFF.`Process` Metoda pozwala konwertować określone strony lub cały dokument. W tym przykładzie konwertujemy pierwszą stronę.
+Czas przetworzyć plik PDF i przekonwertować pierwszą stronę na obraz TIFF. `Process` Metoda pozwala konwertować określone strony lub cały dokument. W tym przykładzie konwertujemy pierwszą stronę.
 
 ```csharp
 tiffDevice.Process(pdfDocument, outputImageFile);
@@ -127,7 +129,7 @@ using (FileStream inStream = new FileStream(outputImageFile, FileMode.Open))
 }
 ```
 
- Metoda BinarizeBradley przyjmuje dwa strumienie plików (wejście i wyjście) oraz wartość progową (tutaj`0.1`) który określa poziom binaryzacji. Po wykonaniu będziesz mieć idealnie binaryzowany obraz gotowy do użycia.
+Metoda BinarizeBradley przyjmuje dwa strumienie plików (wejście i wyjście) oraz wartość progową (tutaj `0.1`który określa poziom binaryzacji. Po wykonaniu będziesz mieć idealnie binaryzowany obraz gotowy do użycia.
 
 ## Krok 9: Potwierdź pomyślną konwersję
 
@@ -141,7 +143,7 @@ Po wydrukowaniu będziesz wiedzieć, że Twoja strona PDF została pomyślnie pr
 
 ## Wniosek
 
-Oto masz! Właśnie nauczyłeś się, jak przekonwertować stronę PDF na obraz TIFF i zastosować algorytm binaryzacji Bradleya za pomocą Aspose.PDF dla .NET. Ten proces jest niezbędny do archiwizacji dokumentów, optycznego rozpoznawania znaków (OCR) i innych profesjonalnych zastosowań. Dzięki wysokiej jakości rozdzielczości i wydajnej kompresji możesz mieć pewność, że obrazy w Twoim dokumencie będą zarówno wyraźne, jak i łatwe w zarządzaniu pod względem rozmiaru.
+Oto masz! Właśnie nauczyłeś się, jak przekonwertować stronę PDF na obraz TIFF i zastosować algorytm binaryzacji Bradleya za pomocą Aspose.PDF dla .NET. Ten proces jest niezbędny do archiwizacji dokumentów, optycznego rozpoznawania znaków (OCR) i innych profesjonalnych zastosowań. Dzięki wysokiej jakości rozdzielczości i wydajnej kompresji możesz mieć pewność, że obrazy Twoich dokumentów będą zarówno wyraźne, jak i łatwe w zarządzaniu pod względem rozmiaru.
 
 ## Najczęściej zadawane pytania
 
@@ -149,7 +151,7 @@ Oto masz! Właśnie nauczyłeś się, jak przekonwertować stronę PDF na obraz 
 Algorytm Bradleya to technika binaryzacji, która konwertuje obrazy w skali szarości na obrazy binarne (czarno-białe) poprzez ustalenie progu adaptacyjnego dla każdego piksela na podstawie jego otoczenia.
 
 ### Czy mogę przekonwertować wiele stron PDF do formatu TIFF za pomocą tej metody?
- Tak, możesz zmodyfikować`Process` metoda umożliwiająca konwersję wszystkich stron poprzez pętlenie po stronach dokumentu.
+Tak, możesz zmodyfikować `Process` metoda umożliwiająca konwersję wszystkich stron poprzez pętlenie po stronach dokumentu.
 
 ### Jaka jest optymalna rozdzielczość przy konwersji plików PDF do formatu TIFF?
 W przypadku obrazów wysokiej jakości zaleca się zazwyczaj 300 DPI. Możesz jednak dostosować tę wartość do swoich potrzeb.
@@ -159,9 +161,11 @@ W przypadku obrazów wysokiej jakości zaleca się zazwyczaj 300 DPI. Możesz je
 
 ### Czy algorytm Bradleya nadaje się do OCR?
 Tak, algorytm Bradleya jest często używany w przetwarzaniu wstępnym OCR, ponieważ poprawia kontrast tekstu w skanowanych dokumentach.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

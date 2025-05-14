@@ -1,14 +1,16 @@
 ---
-title: PDF'lerdeki Yer İşaretlerini Güncelle
-linktitle: PDF'lerdeki Yer İşaretlerini Güncelle
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF'yi kullanarak PDF yer imlerini nasıl etkili bir şekilde güncelleyeceğinizi öğrenin. Adım adım kılavuzumuz süreci basitleştirir.
-weight: 16
-url: /tr/java/pdf-bookmarks/update-bookmarks-pdfs/
+"description": "Java için Aspose.PDF'yi kullanarak PDF yer imlerini nasıl etkili bir şekilde güncelleyeceğinizi öğrenin. Adım adım kılavuzumuz süreci basitleştirir."
+"linktitle": "PDF'lerdeki Yer İşaretlerini Güncelle"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF'lerdeki Yer İşaretlerini Güncelle"
+"url": "/tr/java/pdf-bookmarks/update-bookmarks-pdfs/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'lerdeki Yer İşaretlerini Güncelle
@@ -51,7 +53,7 @@ Geliştirme ortamımızı kurarak başlayalım:
 
 Java için Aspose.PDF ile çalışmak için, projenize şu kütüphaneyi eklemeniz gerekir:
 
-1.  Java kütüphanesi için Aspose.PDF'yi şu adresten indirin:[Burada](https://releases.aspose.com/pdf/java/).
+1. Java için Aspose.PDF kitaplığını şu adresten indirin: [Burada](https://releases.aspose.com/pdf/java/).
 2. JAR dosyasını projenizin sınıf yoluna ekleyin.
 
 ## PDF'lerdeki Yer İşaretlerini Güncelleme
@@ -69,7 +71,7 @@ Document pdfDocument = new Document("example.pdf");
 
 ### Yer İşaretlerini Değiştirme
 
-Sonra, yer imlerini gerektiği gibi değiştirebiliriz. Örneğin, mevcut bir yer imini yeniden adlandıralım:
+Sonra, yer imlerini gerektiği gibi değiştirebiliriz. Örneğin, var olan bir yer imini yeniden adlandıralım:
 
 ```java
 // İlk yer imine erişin
@@ -113,10 +115,12 @@ Java için Aspose.PDF çok yönlü bir kütüphane olsa da, belgeleri incelemek 
 
 ### Java için Aspose.PDF hakkında daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Aspose.PDF for Java için kapsamlı belgeleri, eğitimleri ve ek kaynakları Aspose web sitesinde bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Aspose.PDF for Java için kapsamlı belgeleri, eğitimleri ve ek kaynakları Aspose web sitesinde bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

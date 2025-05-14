@@ -1,14 +1,16 @@
 ---
-title: Tentukan Kemajuan Ke File PDF
-linktitle: Tentukan Kemajuan Ke File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menentukan kemajuan konversi PDF menggunakan Aspose.PDF untuk .NET dalam panduan komprehensif ini.
-weight: 110
-url: /id/net/programming-with-document/determineprogress/
+"description": "Pelajari cara menentukan kemajuan konversi PDF menggunakan Aspose.PDF untuk .NET dalam panduan komprehensif ini."
+"linktitle": "Tentukan Kemajuan Ke File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tentukan Kemajuan Ke File PDF"
+"url": "/id/net/programming-with-document/determineprogress/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tentukan Kemajuan Ke File PDF
@@ -23,11 +25,11 @@ Sebelum memulai perjalanan kita ke dunia manipulasi PDF dengan Aspose.PDF, ada b
 
 1. Visual Studio: Anda perlu menginstal Microsoft Visual Studio di komputer Anda. Ini menyediakan lingkungan pengembangan terpadu (IDE) untuk menulis dan men-debug aplikasi .NET Anda.
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework. Aspose.PDF mendukung berbagai versi .NET Framework, jadi pilihlah yang sesuai dengan kebutuhan Anda.
-3.  Pustaka Aspose.PDF: Dapatkan pustaka Aspose.PDF. Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/) untuk memulai. Versi evaluasi juga tersedia[Di Sini](https://releases.aspose.com/).
+3. Pustaka Aspose.PDF: Dapatkan pustaka Aspose.PDF. Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/) untuk memulai. Versi evaluasi juga tersedia [Di Sini](https://releases.aspose.com/).
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dan contoh yang disediakan.
 5. Contoh Dokumen PDF: Siapkan contoh dokumen PDF untuk pengujian. Ini bisa berupa berkas PDF apa pun yang ingin Anda manipulasi.
 
-Setelah prasyarat ini terpenuhi, kita dapat mendalami kode dan melihat cara membuat Aspose.PDF bekerja bagi kita.
+Setelah prasyarat ini terpenuhi, kita dapat mendalami kode dan melihat cara membuat Aspose.PDF bekerja untuk kita.
 
 ## Paket Impor
 
@@ -50,7 +52,7 @@ Sekarang setelah kita selesai dengan impor, mari masuk ke fungsi inti yang ingin
 
 ## Langkah 1: Inisialisasi dan Buka Dokumen
 
-Pada langkah ini, kita akan menginisialisasi dokumen Aspose.PDF kita dan membuka berkas PDF yang sudah ada yang ingin kita kerjakan.
+Pada langkah ini, kita akan menginisialisasi dokumen Aspose.PDF kita dan membuka berkas PDF yang sudah ada yang ingin kita gunakan.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -60,19 +62,19 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "AddTOC.pdf");
 ```
 
--  Kita mulai dengan mendefinisikan`dataDir` , yang seharusnya menunjuk ke direktori tempat file PDF Anda berada. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
--  Itu`Document` class sangat penting karena mewakili file PDF yang sedang kita muat. Konstruktor mengambil jalur file, yang memungkinkan kita untuk bekerja dengan file yang dibuka.
+- Kita mulai dengan mendefinisikan `dataDir`yang seharusnya menunjuk ke direktori tempat file PDF Anda berada. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
+- Itu `Document` class sangat penting karena mewakili file PDF yang sedang kita muat. Konstruktor mengambil jalur file, yang memungkinkan kita untuk bekerja dengan file yang dibuka.
 
 ## Langkah 2: Konfigurasikan Opsi Penyimpanan 
 
- Kami butuh`DocSaveOptions` untuk menyesuaikan cara kita menyimpan dokumen setelah konversi.
+Kami butuh `DocSaveOptions` untuk menyesuaikan cara kita menyimpan dokumen setelah konversi.
 
 ```csharp
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.CustomProgressHandler = new UnifiedSaveOptions.ConversionProgressEventHandler(ShowProgressOnConsole);
 ```
 
-- Di sini, kita membuat sebuah instance dari`DocSaveOptions`, yang memungkinkan kita menentukan opsi untuk menyimpan dokumen PDF.
+- Di sini, kita membuat sebuah instance dari `DocSaveOptions`, yang memungkinkan kita menentukan opsi untuk menyimpan dokumen PDF.
 - Kami menetapkan pengendali kemajuan kustom, yang akan kami definisikan di langkah berikutnya. Pengendali ini akan memberikan umpan balik waktu nyata tentang kemajuan konversi.
 
 ## Langkah 3: Tampilkan Kemajuan di Konsol
@@ -86,7 +88,7 @@ private void ShowProgressOnConsole(ConversionProgressEventArgs args)
 }
 ```
 
--  Itu`ShowProgressOnConsole` fungsi memanfaatkan`ConversionProgressEventArgs` untuk mengakses persentase kemajuan konversi.
+- Itu `ShowProgressOnConsole` fungsi memanfaatkan `ConversionProgressEventArgs` untuk mengakses persentase kemajuan konversi.
 - Mencetak kemajuan terkini ke konsol, menyediakan cara menarik untuk melacak berapa banyak dokumen yang telah diproses.
 
 ## Langkah 4: Simpan Dokumen
@@ -99,13 +101,13 @@ pdfDocument.Save(dataDir, saveOptions);
 Console.ReadLine();
 ```
 
--  Di sini, kami menyesuaikan`dataDir` lagi untuk menentukan jalur keluaran untuk berkas PDF yang baru dibuat.
--  Kami memanfaatkan`Save` metode pada kami`pdfDocument` objek, meneruskan jalur file keluaran dan konfigurasi kami`saveOptions`.
--  Akhirnya,`Console.ReadLine()`digunakan untuk menjeda jendela konsol, memungkinkan Anda melihat output sebelum ditutup.
+- Di sini, kami menyesuaikan `dataDir` lagi untuk menentukan jalur keluaran untuk berkas PDF yang baru dibuat.
+- Kami memanfaatkan `Save` metode pada kami `pdfDocument` objek, meneruskan jalur file keluaran dan konfigurasi kami `saveOptions`.
+- Akhirnya, `Console.ReadLine()` digunakan untuk menjeda jendela konsol, memungkinkan Anda melihat output sebelum ditutup.
 
 ## Kesimpulan
 
- Selamat! Anda baru saja mempelajari cara menentukan kemajuan konversi PDF menggunakan Aspose.PDF untuk .NET. Dengan mengikuti langkah-langkah sederhana ini, Anda dapat secara efektif mengintegrasikan fitur manipulasi PDF ke dalam aplikasi Anda. Ingat, pustaka ini menawarkan berbagai macam kemampuan selain hanya kemajuan konversi, jadi jangan ragu untuk menjelajahi dokumentasinya yang lengkap[Di Sini](https://reference.aspose.com/pdf/net/).
+Selamat! Anda baru saja mempelajari cara menentukan kemajuan konversi PDF menggunakan Aspose.PDF untuk .NET. Dengan mengikuti langkah-langkah sederhana ini, Anda dapat mengintegrasikan fitur manipulasi PDF ke dalam aplikasi Anda secara efektif. Ingat, pustaka ini menawarkan berbagai macam kemampuan selain hanya kemajuan konversi, jadi jangan ragu untuk menjelajahi dokumentasinya yang lengkap [Di Sini](https://reference.aspose.com/pdf/net/).
 
 
 ## Pertanyaan yang Sering Diajukan
@@ -114,19 +116,21 @@ Console.ReadLine();
 Aspose.PDF untuk .NET adalah pustaka komprehensif yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengedit dokumen PDF dalam aplikasi .NET.
 
 ### Dapatkah saya mencoba Aspose.PDF secara gratis?  
- Ya! Anda bisa mendapatkan uji coba gratis Aspose.PDF dengan mengunjungi[tautan ini](https://releases.aspose.com/).
+Ya! Anda bisa mendapatkan uji coba gratis Aspose.PDF dengan mengunjungi [tautan ini](https://releases.aspose.com/).
 
 ### Bagaimana saya dapat membeli Aspose.PDF?  
- Anda dapat membeli Aspose.PDF langsung dari situs web. Berikut ini[tautan pembelian](https://purchase.aspose.com/buy).
+Anda dapat membeli Aspose.PDF langsung dari situs web. Berikut ini [tautan pembelian](https://purchase.aspose.com/buy).
 
 ### Apakah ada forum dukungan untuk pengguna Aspose.PDF?  
- Tentu saja! Anda dapat menemukan dukungan komunitas di forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Tentu saja! Anda dapat menemukan dukungan komunitas di forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PDF?  
- Untuk meminta lisensi sementara untuk evaluasi, Anda dapat mengikuti tautan ini:[Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
+Untuk meminta lisensi sementara untuk evaluasi, Anda dapat mengikuti tautan ini: [Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

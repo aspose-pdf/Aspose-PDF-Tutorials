@@ -8,7 +8,9 @@ url: /java/pdf-image-manipulation/add-image-to-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Image to PDF using Java
@@ -120,6 +122,7 @@ Yes, you can specify the exact position of the image within the PDF page by sett
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

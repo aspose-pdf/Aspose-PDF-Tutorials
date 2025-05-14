@@ -1,14 +1,16 @@
 ---
-title: Trích xuất liên kết trong tệp PDF
-linktitle: Trích xuất liên kết trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách dễ dàng trích xuất liên kết từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này.
-weight: 50
-url: /vi/net/programming-with-links-and-actions/extract-links/
+"description": "Tìm hiểu cách dễ dàng trích xuất liên kết từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này."
+"linktitle": "Trích xuất liên kết trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Trích xuất liên kết trong tệp PDF"
+"url": "/vi/net/programming-with-links-and-actions/extract-links/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất liên kết trong tệp PDF
@@ -26,7 +28,7 @@ Trước khi tìm hiểu sâu hơn về mã, bạn cần đảm bảo đã thi�
 ```
 Install-Package Aspose.PDF
 ```
-    Hoặc bạn có thể lấy phiên bản mới nhất trực tiếp từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+   Hoặc bạn có thể lấy phiên bản mới nhất trực tiếp từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn theo dõi. Đừng lo lắng nếu bạn không phải là chuyên gia; chúng tôi sẽ giải thích rõ ràng và dễ hiểu!
 4. Tài liệu PDF mẫu: Bạn sẽ cần một tài liệu PDF có chứa liên kết. Bạn có thể tạo một tài liệu để thử nghiệm hoặc tải xuống các mẫu trực tuyến.
 
@@ -55,7 +57,7 @@ Trước tiên, bạn cần chỉ định đường dẫn đến tài liệu c�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thư mục thực tế nơi tệp PDF của bạn nằm. Điều này giúp ứng dụng của bạn biết nơi tìm kiếm tài liệu của bạn.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thư mục thực tế nơi tệp PDF của bạn nằm. Điều này giúp ứng dụng của bạn biết nơi tìm kiếm tài liệu của bạn.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -65,7 +67,7 @@ Bây giờ, đã đến lúc thực sự mở tài liệu PDF bằng Aspose.PDF.
 Document document = new Document(dataDir + "ExtractLinks.pdf");
 ```
 
- Thay thế`"ExtractLinks.pdf"` với tên tệp PDF của bạn. Dòng này khởi tạo một đối tượng của tài liệu PDF mà bạn có thể thao tác.
+Thay thế `"ExtractLinks.pdf"` với tên tệp PDF của bạn. Dòng này khởi tạo một đối tượng của tài liệu PDF mà bạn có thể thao tác.
 
 ## Bước 3: Chọn Trang đích
 
@@ -75,7 +77,7 @@ Tệp PDF có thể có nhiều trang, vì vậy bạn cần chỉ định trang
 Page page = document.Pages[1];
 ```
 
- Hãy nhớ rằng, các trang trong Aspose.PDF được lập chỉ mục bắt đầu từ 1, vì vậy nếu bạn muốn trang đầu tiên, bạn sẽ sử dụng`1` như được hiển thị ở đây.
+Hãy nhớ rằng, các trang trong Aspose.PDF được lập chỉ mục bắt đầu từ 1, vì vậy nếu bạn muốn trang đầu tiên, bạn sẽ sử dụng `1` như được hiển thị ở đây.
 
 ## Bước 4: Thiết lập Bộ chọn chú thích liên kết
 
@@ -131,7 +133,7 @@ Trong đoạn mã này, chúng tôi kiểm tra xem có chú thích nào được
 
 ## Phần kết luận
 
- Và bạn đã có nó! Chỉ với vài bước đơn giản, giờ đây bạn có thể trích xuất liên kết từ bất kỳ tệp PDF nào bằng Aspose.PDF cho .NET. Thư viện mạnh mẽ này mở ra một thế giới khả năng làm việc với PDF, từ trích xuất liên kết đơn giản đến thao tác tài liệu phức tạp. Nếu bạn muốn làm quen hơn với Aspose, hãy cân nhắc xem qua[tài liệu](https://reference.aspose.com/pdf/net/) hoặc khám phá thêm nhiều chức năng mà họ cung cấp.
+Và bạn đã có nó! Chỉ với vài bước đơn giản, giờ đây bạn có thể trích xuất liên kết từ bất kỳ tệp PDF nào bằng Aspose.PDF cho .NET. Thư viện mạnh mẽ này mở ra một thế giới khả năng làm việc với PDF, từ trích xuất liên kết đơn giản đến thao tác tài liệu phức tạp. Nếu bạn muốn làm quen hơn với Aspose, hãy cân nhắc xem [tài liệu](https://reference.aspose.com/pdf/net/) hoặc khám phá thêm nhiều chức năng mà họ cung cấp.
 
 ## Câu hỏi thường gặp
 
@@ -142,16 +144,18 @@ Aspose.PDF for .NET là một thư viện mạnh mẽ được sử dụng để
 Có! Bạn có thể lặp qua tất cả các trang trong tài liệu của mình bằng vòng lặp for đơn giản và áp dụng cùng một quy trình trích xuất liên kết.
 
 ### Aspose.PDF có miễn phí sử dụng không?
-Aspose.PDF là một sản phẩm thương mại, nhưng bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Aspose.PDF là một sản phẩm thương mại, nhưng bạn có thể tải xuống phiên bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể nhận được sự hỗ trợ của cộng đồng thông qua họ[diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được sự hỗ trợ của cộng đồng thông qua họ [diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
 
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PDF?
- Nếu bạn cần giấy phép tạm thời, bạn có thể yêu cầu thông qua đây[liên kết](https://purchase.aspose.com/temporary-license/).
+Nếu bạn cần giấy phép tạm thời, bạn có thể yêu cầu thông qua đây [liên kết](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Конвертировать PDF-файлы в формат XPS
-linktitle: Конвертировать PDF-файлы в формат XPS
-second_title: API обработки Java PDF Aspose.PDF
-description: Легко конвертируйте PDF-файлы в формат XPS с помощью Aspose.PDF для Java. Откройте улучшенную печать, безопасность и совместимость.
-weight: 13
-url: /ru/java/pdf-conversion-transformation/convert-pdfs-to-xps-format/
+"description": "Легко конвертируйте PDF-файлы в формат XPS с помощью Aspose.PDF для Java. Откройте улучшенную печать, безопасность и совместимость."
+"linktitle": "Конвертировать PDF-файлы в формат XPS"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Конвертировать PDF-файлы в формат XPS"
+"url": "/ru/java/pdf-conversion-transformation/convert-pdfs-to-xps-format/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Конвертировать PDF-файлы в формат XPS
@@ -24,7 +26,7 @@ Aspose.PDF для Java — это библиотека Java, которая по
 
 ## Зачем конвертировать PDF-файлы в формат XPS?
 
-Вы можете задаться вопросом, зачем нужно конвертировать PDF в формат XPS. XPS — это формат документов с фиксированным макетом, разработанный корпорацией Microsoft, что делает его идеальным для печати и архивирования документов с единообразным форматированием. Вот некоторые причины конвертировать PDF в XPS:
+Вы можете задаться вопросом, зачем нужно конвертировать PDF в формат XPS. XPS — это формат документов с фиксированным макетом, разработанный Microsoft, что делает его идеальным для печати и архивирования документов с последовательным форматированием. Вот некоторые причины конвертировать PDF в XPS:
 
 - Улучшенная печать: файлы XPS обеспечивают высококачественную печать с точной компоновкой страниц.
 - Цифровые подписи: документы XPS поддерживают цифровые подписи, что повышает безопасность документов.
@@ -51,7 +53,7 @@ Aspose.PDF для Java — это библиотека Java, которая по
 Document pdfDocument = new Document("input.pdf");
 ```
 
- Заменять`"input.pdf"` с путем к вашему PDF-файлу.
+Заменять `"input.pdf"` с путем к вашему PDF-файлу.
 
 ## Конвертация PDF в XPS
 
@@ -110,9 +112,11 @@ pdfDocument.save("customized-output.xps", saveOptions);
 ### Существуют ли какие-либо ограничения при конвертации PDF в XPS?
 
 Ограничения могут различаться в зависимости от вашей лицензии и сложности документа PDF. Проверьте документацию и сведения о лицензировании для получения конкретной информации об ограничениях.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

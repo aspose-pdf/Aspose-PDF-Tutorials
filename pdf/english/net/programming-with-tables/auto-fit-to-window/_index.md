@@ -8,7 +8,9 @@ url: /net/programming-with-tables/auto-fit-to-window/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Auto Fit To Window
@@ -168,6 +170,7 @@ Absolutely! Aspose.PDF supports exporting to various formats like HTML, DOCX, an
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

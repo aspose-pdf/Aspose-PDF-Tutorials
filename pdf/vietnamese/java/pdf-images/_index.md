@@ -1,14 +1,16 @@
 ---
-title: Hình ảnh PDF
-linktitle: Hình ảnh PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Khám phá thao tác hình ảnh PDF với Aspose.PDF cho Java. Học cách chèn, sửa đổi và tối ưu hóa hình ảnh trong PDF một cách dễ dàng.
-weight: 12
-url: /vi/java/pdf-images/
+"description": "Khám phá thao tác hình ảnh PDF với Aspose.PDF cho Java. Học cách chèn, sửa đổi và tối ưu hóa hình ảnh trong PDF một cách dễ dàng."
+"linktitle": "Hình ảnh PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Hình ảnh PDF"
+"url": "/vi/java/pdf-images/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hình ảnh PDF
@@ -22,7 +24,7 @@ Hướng dẫn của chúng tôi sẽ hướng dẫn bạn cách chèn, thay đ�
 
 ## Tối ưu hóa hình ảnh dễ dàng
 
-Tối ưu hóa hình ảnh trong PDF là điều cần thiết để giảm kích thước tệp mà không làm giảm chất lượng. Chúng tôi sẽ đi sâu vào sự phức tạp của các kỹ thuật tối ưu hóa hình ảnh, đảm bảo PDF của bạn vẫn hiệu quả và tải nhanh. Aspose.PDF for Java cung cấp các công cụ để tinh chỉnh cài đặt nén và độ phân giải hình ảnh, cho phép bạn đạt được sự cân bằng phù hợp với nhu cầu cụ thể của mình. Hãy tham gia cùng chúng tôi trong hành trình tập trung vào hình ảnh này và mở khóa tiềm năng của Aspose.PDF for Java trong việc tạo ra các tài liệu PDF tuyệt đẹp và hiệu quả.
+Tối ưu hóa hình ảnh trong PDF là điều cần thiết để giảm kích thước tệp mà không làm giảm chất lượng. Chúng tôi sẽ đi sâu vào sự phức tạp của các kỹ thuật tối ưu hóa hình ảnh, đảm bảo PDF của bạn vẫn hiệu quả và tải nhanh. Aspose.PDF for Java cung cấp các công cụ để tinh chỉnh cài đặt nén và độ phân giải hình ảnh, cho phép bạn đạt được sự cân bằng phù hợp với nhu cầu cụ thể của mình. Hãy tham gia cùng chúng tôi trong hành trình tập trung vào hình ảnh này và mở khóa tiềm năng của Aspose.PDF for Java trong việc tạo các tài liệu PDF tuyệt đẹp và hiệu quả.
 
 ## Hướng dẫn hình ảnh PDF
 ### [Thêm đối tượng dòng vào PDF bằng Java](./add-line-object-to-pdf-using-java/)
@@ -32,7 +34,7 @@ Tìm hiểu cách kiểm soát thứ tự Z của hình chữ nhật trong PDF b
 ### [Tạo đối tượng hình chữ nhật đã tô đầy trong PDF bằng Java](./create-filled-rectangle-object-in-pdf-using-java/)
 Tìm hiểu cách tạo hình chữ nhật tô màu trong PDF bằng Java với Aspose.PDF cho Java. Hướng dẫn từng bước có ví dụ về mã.
 ### [Vẽ đường thẳng ngang trang trong PDF bằng Java](./drawing-line-across-the-page-in-pdf-with-java/)
-Tìm hiểu cách vẽ đường trong PDF bằng Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước có mã nguồn để vẽ đường PDF.
+Tìm hiểu cách vẽ đường trong PDF bằng Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn để vẽ đường PDF.
 ### [Áp dụng kiểu đánh số trong tiêu đề của PDF bằng Java](./apply-numbering-style-in-heading-of-pdf-using-java/)
 Tìm hiểu cách áp dụng kiểu đánh số cho tiêu đề PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi cung cấp các ví dụ về mã nguồn để tạo nét chuyên nghiệp cho tài liệu của bạn.
 ### [Xóa hình ảnh khỏi tài nguyên PDF bằng Java](./delete-image-from-pdf-resources-using-java/)
@@ -45,9 +47,11 @@ Tìm hiểu cách trích xuất thuộc tính hình ảnh từ PDF trong Java b�
 Tìm hiểu cách trích xuất hình ảnh từ tệp PDF bằng Java với Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn. Mở khóa trích xuất hình ảnh PDF ngay.
 ### [Lấy tên hình ảnh nhúng trong tệp PDF bằng Java](./get-name-of-images-embedded-in-pdf-file-using-java/)
 Tìm hiểu cách trích xuất tên hình ảnh nhúng từ tệp PDF bằng Java và Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn để trích xuất dữ liệu PDF hiệu quả
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

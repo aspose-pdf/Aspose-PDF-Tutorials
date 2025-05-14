@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/validate-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validate PDF File
@@ -144,6 +146,7 @@ Yes! You can download a free trial version from the [Aspose releases page](https
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

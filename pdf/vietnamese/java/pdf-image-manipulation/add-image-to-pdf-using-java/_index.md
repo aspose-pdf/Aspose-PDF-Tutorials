@@ -1,14 +1,16 @@
 ---
-title: Thêm hình ảnh vào PDF bằng Java
-linktitle: Thêm hình ảnh vào PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm hình ảnh vào PDF bằng Java với hướng dẫn từng bước của chúng tôi. Tăng cường tài liệu PDF của bạn bằng hình ảnh một cách dễ dàng.
-weight: 10
-url: /vi/java/pdf-image-manipulation/add-image-to-pdf-using-java/
+"description": "Tìm hiểu cách thêm hình ảnh vào PDF bằng Java với hướng dẫn từng bước của chúng tôi. Tăng cường tài liệu PDF của bạn bằng hình ảnh một cách dễ dàng."
+"linktitle": "Thêm hình ảnh vào PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm hình ảnh vào PDF bằng Java"
+"url": "/vi/java/pdf-image-manipulation/add-image-to-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm hình ảnh vào PDF bằng Java
@@ -28,7 +30,7 @@ Trước khi đi sâu vào mã hóa, hãy đảm bảo bạn đã thiết lập 
 
 ## Bắt đầu
 
-Hãy bắt đầu bằng cách thiết lập dự án Java của chúng ta và bao gồm thư viện Aspose.PDF. Nếu bạn chưa tải xuống, bạn có thể tải xuống thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+Hãy bắt đầu bằng cách thiết lập dự án Java của chúng ta và bao gồm thư viện Aspose.PDF. Nếu bạn chưa tải xuống, bạn có thể tải xuống thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thêm hình ảnh vào PDF hiện có
 
@@ -48,18 +50,18 @@ Bây giờ, hãy tải một tài liệu PDF hiện có mà chúng ta muốn th�
 Document pdfDocument = new Document("path_to_existing_pdf.pdf");
 ```
 
- Thay thế`"path_to_existing_pdf.pdf"` với đường dẫn thực tế đến tệp PDF của bạn.
+Thay thế `"path_to_existing_pdf.pdf"` với đường dẫn thực tế đến tệp PDF của bạn.
 
 ### Bước 3: Thêm hình ảnh
 
- Để thêm hình ảnh vào PDF, bạn có thể sử dụng`Image` lớp từ Aspose.PDF. Đầu tiên, tạo một`Image` đối tượng và chỉ định đường dẫn của tệp hình ảnh:
+Để thêm hình ảnh vào PDF, bạn có thể sử dụng `Image` lớp từ Aspose.PDF. Đầu tiên, tạo một `Image` đối tượng và chỉ định đường dẫn của tệp hình ảnh:
 
 ```java
 Image image = new Image();
 image.setFile("path_to_image.png");
 ```
 
- Thay thế`"path_to_image.png"` bằng đường dẫn đến hình ảnh bạn muốn thêm.
+Thay thế `"path_to_image.png"` bằng đường dẫn đến hình ảnh bạn muốn thêm.
 
 ### Bước 4: Thiết lập kích thước và vị trí của hình ảnh
 
@@ -85,7 +87,7 @@ page.getParagraphs().add(image);
 
 ### Bước 6: Lưu PDF đã sửa đổi
 
-Cuối cùng, lưu tài liệu PDF có thêm hình ảnh:
+Cuối cùng, lưu tài liệu PDF có hình ảnh đã thêm vào:
 
 ```java
 pdfDocument.save("output.pdf");
@@ -99,7 +101,7 @@ Bạn đã thêm thành công hình ảnh vào tài liệu PDF bằng Java và t
 
 ### Làm thế nào để thay đổi kích thước hình ảnh trong PDF?
 
- Để thay đổi kích thước hình ảnh, sử dụng`setFixWidth` Và`setFixHeight` phương pháp của`Image` lớp, như được hiển thị trong Bước 4 của hướng dẫn này.
+Để thay đổi kích thước hình ảnh, sử dụng `setFixWidth` Và `setFixHeight` phương pháp của `Image` lớp, như được hiển thị trong Bước 4 của hướng dẫn này.
 
 ### Tôi có thể thêm nhiều hình ảnh vào cùng một tài liệu PDF không?
 
@@ -116,9 +118,11 @@ Aspose.PDF for Java hỗ trợ nhiều định dạng hình ảnh, bao gồm PNG
 ### Tôi có thể thêm hình ảnh vào những vị trí cụ thể trên trang PDF không?
 
 Có, bạn có thể chỉ định vị trí chính xác của hình ảnh trong trang PDF bằng cách đặt lề trên và lề trái, như minh họa ở Bước 4.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for optimizing memory usage, improving proc
 weight: 18
 url: "/java/performance-optimization/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PDF Performance Optimization Tutorials for Aspose.PDF Java
 
@@ -26,7 +29,11 @@ Learn how to efficiently optimize PDF files using Aspose.PDF for Java. This guid
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

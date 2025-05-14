@@ -1,14 +1,16 @@
 ---
-title: Chèn trang trống vào cuối
-linktitle: Chèn trang trống vào cuối
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Học cách chèn một trang trống vào tài liệu PDF một cách dễ dàng với Aspose.PDF cho .NET trong hướng dẫn dành cho người mới bắt đầu này. Hoàn hảo cho việc chỉnh sửa nhanh.
-weight: 130
-url: /vi/net/programming-with-pdf-pages/insert-empty-page-at-end/
+"description": "Học cách chèn một trang trống vào tài liệu PDF một cách dễ dàng với Aspose.PDF cho .NET trong hướng dẫn dành cho người mới bắt đầu này. Hoàn hảo cho việc chỉnh sửa nhanh."
+"linktitle": "Chèn trang trống vào cuối"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Chèn trang trống vào cuối"
+"url": "/vi/net/programming-with-pdf-pages/insert-empty-page-at-end/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn trang trống vào cuối
@@ -21,7 +23,7 @@ Trong thế giới kỹ thuật số không ngừng phát triển, quản lý t�
 
 Trước khi đi sâu vào cách chèn một trang trống, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Aspose.PDF cho .NET: Trước tiên và quan trọng nhất, bạn sẽ cần thư viện này. Bạn có thể dễ dàng tải xuống từ[trang này](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Trước tiên và quan trọng nhất, bạn sẽ cần thư viện này. Bạn có thể dễ dàng tải xuống từ [trang này](https://releases.aspose.com/pdf/net/).
 
 2. Visual Studio: Bất kỳ phiên bản nào tương thích với .NET đều được. Đây là nơi chúng ta sẽ viết và thực thi mã của mình.
 
@@ -46,7 +48,7 @@ Trước khi bắt đầu mã hóa, hãy thiết lập môi trường của chú
 
 - Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
 - Chọn "Quản lý gói NuGet".
--  Tìm kiếm`Aspose.PDF` và nhấp vào cài đặt.
+- Tìm kiếm `Aspose.PDF` và nhấp vào cài đặt.
 
 ### Nhập không gian tên
 
@@ -60,7 +62,7 @@ using Aspose.Pdf;
 
 Và thế là xong! Bạn đã sẵn sàng để bắt đầu tương tác với các tài liệu PDF.
 
-Bây giờ chúng ta đã thiết lập xong, hãy đến với phần hấp dẫn — chèn một trang trống vào cuối tài liệu PDF của bạn. Thực hiện theo các bước sau một cách cẩn thận.
+Bây giờ chúng ta đã thiết lập xong, hãy đến với phần hấp dẫn — chèn một trang trống vào cuối tài liệu PDF của bạn. Hãy thực hiện theo các bước sau một cách cẩn thận.
 
 ## Bước 1: Xác định thư mục tài liệu
 
@@ -70,17 +72,17 @@ Bây giờ chúng ta đã thiết lập xong, hãy đến với phần hấp d�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn nơi tài liệu của bạn được lưu trữ. Ví dụ,`"C:\\Documents\\"`.
+Thay thế `YOUR DOCUMENT DIRECTORY` với đường dẫn nơi tài liệu của bạn được lưu trữ. Ví dụ, `"C:\\Documents\\"`.
 
 ## Bước 2: Mở Tài liệu PDF
 
- Tiếp theo, hãy mở tài liệu PDF mà bạn muốn chỉnh sửa. Chúng ta sẽ tạo một phiên bản của`Document` lớp từ thư viện Aspose.PDF.
+Tiếp theo, hãy mở tài liệu PDF mà bạn muốn chỉnh sửa. Chúng ta sẽ tạo một phiên bản của `Document` lớp từ thư viện Aspose.PDF.
 
 ```csharp
 Document pdfDocument1 = new Document(dataDir + "InsertEmptyPageAtEnd.pdf");
 ```
 
- Dòng này tạo ra một`pdfDocument1` đối tượng mà PDF của bạn sẽ nằm trong đó. Đảm bảo tên tệp khớp với tài liệu bạn có!
+Dòng này tạo ra một `pdfDocument1` đối tượng mà PDF của bạn sẽ nằm trong đó. Đảm bảo tên tệp khớp với tài liệu bạn có!
 
 ## Bước 3: Chèn một trang trống
 
@@ -101,7 +103,7 @@ dataDir = dataDir + "InsertEmptyPageAtEnd_out.pdf";
 pdfDocument1.Save(dataDir);
 ```
 
- Mã này chỉ định tên của tệp mới và lưu nó vào thư mục của tài liệu gốc. Ở đây, chúng tôi đang thêm`_out` để biểu thị đây là phiên bản cập nhật.
+Mã này chỉ định tên của tệp mới và lưu nó vào thư mục của tài liệu gốc. Ở đây, chúng tôi đang thêm `_out` để biểu thị đây là phiên bản cập nhật.
 
 ## Bước 5: Xác nhận đầu ra
 
@@ -118,10 +120,10 @@ Và cứ như vậy, bạn đã chèn một trang trống vào cuối tài liệ
 ## Câu hỏi thường gặp
 
 ### Tôi có thể chèn nhiều trang cùng một lúc không?
- Có, bạn có thể lặp lại một số lần nhất định để thêm nhiều trang bằng cách thêm`pdfDocument1.Pages.Add();` trong một vòng lặp.
+Có, bạn có thể lặp lại một số lần nhất định để thêm nhiều trang bằng cách thêm `pdfDocument1.Pages.Add();` trong một vòng lặp.
 
 ### Aspose.PDF có miễn phí không?
- Aspose.PDF cung cấp bản dùng thử miễn phí nhưng yêu cầu phải có giấy phép để sử dụng lâu dài. Bạn có thể kiểm tra giá[đây](https://purchase.aspose.com/buy).
+Aspose.PDF cung cấp bản dùng thử miễn phí nhưng yêu cầu phải có giấy phép để sử dụng lâu dài. Bạn có thể kiểm tra giá [đây](https://purchase.aspose.com/buy).
 
 ### Tôi phải làm sao nếu gặp lỗi khi lưu tệp PDF?
 Đảm bảo bạn có quyền ghi vào thư mục nơi bạn đang cố lưu tệp.
@@ -130,10 +132,12 @@ Và cứ như vậy, bạn đã chèn một trang trống vào cuối tài liệ
 Chắc chắn rồi! Thư viện có thể chỉnh sửa tệp PDF, bao gồm cả biểu mẫu đã điền.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể đặt câu hỏi của mình trên diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể đặt câu hỏi của mình trên diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

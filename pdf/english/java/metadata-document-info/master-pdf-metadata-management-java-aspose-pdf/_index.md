@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Managing PDF Metadata in Java with Aspose.PDF: A Comprehensive Guide
 
@@ -203,7 +205,11 @@ For further exploration, consider diving deeper into other features offered by A
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 Embark on your journey to master PDF metadata management in Java today.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

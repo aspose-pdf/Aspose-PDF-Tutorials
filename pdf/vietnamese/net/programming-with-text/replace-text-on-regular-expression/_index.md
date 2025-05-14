@@ -1,14 +1,16 @@
 ---
-title: Thay thế văn bản trên biểu thức chính quy trong tệp PDF
-linktitle: Thay thế Texton Regular Expression trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thay thế văn bản dựa trên biểu thức chính quy trong tệp PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tự động thay đổi văn bản một cách hiệu quả.
-weight: 360
-url: /vi/net/programming-with-text/replace-text-on-regular-expression/
+"description": "Tìm hiểu cách thay thế văn bản dựa trên biểu thức chính quy trong tệp PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tự động thay đổi văn bản một cách hiệu quả."
+"linktitle": "Thay thế Texton Regular Expression trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thay thế văn bản trên biểu thức chính quy trong tệp PDF"
+"url": "/vi/net/programming-with-text/replace-text-on-regular-expression/"
+"weight": 360
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay thế văn bản trên biểu thức chính quy trong tệp PDF
@@ -21,7 +23,7 @@ Aspose.PDF for .NET là một công cụ tuyệt vời cho phép các nhà phát
 
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn đã thiết lập mọi thứ:
 
-1.  Aspose.PDF cho .NET: Bạn sẽ cần phiên bản mới nhất của Aspose.PDF cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Bạn sẽ cần phiên bản mới nhất của Aspose.PDF cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/).
 2. IDE: Visual Studio hoặc bất kỳ Môi trường phát triển tích hợp (IDE) nào tương thích với .NET.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework 4.0 trở lên.
 4. Tài liệu PDF: Một tệp PDF mẫu mà bạn muốn tìm kiếm và thay thế văn bản.
@@ -45,39 +47,39 @@ Bây giờ chúng ta hãy cùng thực hiện từng bước trong quy trình n�
 
 ## Bước 1: Tải Tài liệu PDF
 
- Đầu tiên, bạn cần tải tài liệu PDF mà bạn sẽ thực hiện thay thế văn bản. Điều này được thực hiện bằng cách sử dụng`Document` lớp từ Aspose.PDF.
+Đầu tiên, bạn cần tải tài liệu PDF mà bạn sẽ thực hiện thay thế văn bản. Điều này được thực hiện bằng cách sử dụng `Document` lớp từ Aspose.PDF.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "SearchRegularExpressionPage.pdf");
 ```
 
- Trong bước này, thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Mã này mở tệp PDF và tải nó vào`pdfDocument` đối tượng mà chúng ta sẽ thao tác ở các bước tiếp theo.
+Trong bước này, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Mã này mở tệp PDF và tải nó vào `pdfDocument` đối tượng mà chúng ta sẽ thao tác ở các bước tiếp theo.
 
 ## Bước 2: Xác định biểu thức chính quy
 
- Bây giờ bạn đã tải xong tài liệu, bước tiếp theo là xác định biểu thức chính quy sẽ tìm kiếm các mẫu văn bản mà bạn quan tâm. Ví dụ, nếu bạn muốn thay thế một phạm vi năm như "1999-2000", bạn có thể sử dụng biểu thức chính quy`\d{4}-\d{4}`.
+Bây giờ bạn đã tải xong tài liệu, bước tiếp theo là xác định biểu thức chính quy sẽ tìm kiếm các mẫu văn bản mà bạn quan tâm. Ví dụ, nếu bạn muốn thay thế một phạm vi năm như "1999-2000", bạn có thể sử dụng biểu thức chính quy `\d{4}-\d{4}`.
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("\\d{4}-\\d{4}"); 
 ```
 
- Dòng này thiết lập một`TextFragmentAbsorber` sẽ tìm kiếm bất kỳ số bốn chữ số nào, theo sau là dấu gạch nối, rồi đến một số bốn chữ số khác. Bạn có thể sửa đổi biểu thức chính quy khi cần để phù hợp với trường hợp sử dụng cụ thể của mình.
+Dòng này thiết lập một `TextFragmentAbsorber` sẽ tìm kiếm bất kỳ số bốn chữ số nào, theo sau là dấu gạch nối, rồi đến một số bốn chữ số khác. Bạn có thể sửa đổi biểu thức chính quy khi cần để phù hợp với trường hợp sử dụng cụ thể của mình.
 
 ## Bước 3: Kích hoạt tùy chọn Tìm kiếm biểu thức chính quy
 
- Aspose.PDF cho phép bạn tinh chỉnh cách tìm kiếm văn bản. Trong trường hợp này, chúng tôi sẽ kích hoạt tính năng khớp biểu thức chính quy bằng cách sử dụng`TextSearchOptions` lớp học.
+Aspose.PDF cho phép bạn tinh chỉnh cách tìm kiếm văn bản. Trong trường hợp này, chúng tôi sẽ kích hoạt tính năng khớp biểu thức chính quy bằng cách sử dụng `TextSearchOptions` lớp học.
 
 ```csharp
 TextSearchOptions textSearchOptions = new TextSearchOptions(true);
 textFragmentAbsorber.TextSearchOptions = textSearchOptions;
 ```
 
- Bằng cách thiết lập tùy chọn này thành`true`, bạn cho phép sử dụng biểu thức chính quy để tìm kiếm trong PDF.
+Bằng cách thiết lập tùy chọn này thành `true`, bạn cho phép sử dụng biểu thức chính quy để tìm kiếm trong PDF.
 
 ## Bước 4: Áp dụng chất hấp thụ vào một trang cụ thể
 
- Tiếp theo, chúng ta sẽ áp dụng`TextFragmentAbsorber` đến một trang cụ thể của tài liệu. Ví dụ này áp dụng cho trang đầu tiên.
+Tiếp theo, chúng ta sẽ áp dụng `TextFragmentAbsorber` đến một trang cụ thể của tài liệu. Ví dụ này áp dụng cho trang đầu tiên.
 
 ```csharp
 pdfDocument.Pages[1].Accept(textFragmentAbsorber);
@@ -102,7 +104,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
- Ở đây, bạn đang lặp qua từng đoạn văn bản khớp với biểu thức chính quy. Đối với mỗi lần khớp, văn bản được thay thế bằng`"New Phrase"`. Bạn cũng có thể tùy chỉnh phông chữ thành "Verdana", đặt cỡ chữ thành 22 và thay đổi màu chữ và màu nền.
+Ở đây, bạn đang lặp qua từng đoạn văn bản khớp với biểu thức chính quy. Đối với mỗi lần khớp, văn bản được thay thế bằng `"New Phrase"`. Bạn cũng có thể tùy chỉnh phông chữ thành "Verdana", đặt cỡ chữ thành 22 và thay đổi màu chữ và màu nền.
 
 ## Bước 6: Lưu tài liệu PDF đã cập nhật
 
@@ -113,7 +115,7 @@ dataDir = dataDir + "ReplaceTextonRegularExpression_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Thao tác này sẽ lưu tệp PDF đã cập nhật với tất cả các văn bản thay thế vào một tệp mới có tên là`ReplaceTextonRegularExpression_out.pdf`.
+Thao tác này sẽ lưu tệp PDF đã cập nhật với tất cả các văn bản thay thế vào một tệp mới có tên là `ReplaceTextonRegularExpression_out.pdf`.
 
 ## Bước 7: Xác minh các thay đổi
 
@@ -132,7 +134,7 @@ Bạn đã thay thế thành công văn bản trong tệp PDF dựa trên biểu
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng nhiều biểu thức chính quy trong một tài liệu không?
- Có, bạn có thể tạo nhiều`TextFragmentAbsorber` các đối tượng, mỗi đối tượng có biểu thức chính quy khác nhau và áp dụng chúng vào tài liệu.
+Có, bạn có thể tạo nhiều `TextFragmentAbsorber` các đối tượng, mỗi đối tượng có biểu thức chính quy khác nhau và áp dụng chúng vào tài liệu.
 
 ### Aspose.PDF cho .NET có tương thích với .NET Core không?
 Có, Aspose.PDF cho .NET hỗ trợ cả .NET Framework và .NET Core.
@@ -145,9 +147,11 @@ Bạn có thể sửa đổi biểu thức chính quy để không phân biệt 
 
 ### Tôi có thể thay thế hình ảnh trong tệp PDF không?
 Có, Aspose.PDF cho .NET cũng hỗ trợ thay thế và chỉnh sửa hình ảnh trong tài liệu PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

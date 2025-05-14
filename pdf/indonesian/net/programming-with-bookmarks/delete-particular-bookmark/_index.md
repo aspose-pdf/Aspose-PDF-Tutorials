@@ -1,14 +1,16 @@
 ---
-title: Hapus Bookmark Tertentu Dalam File PDF
-linktitle: Hapus Bookmark Tertentu Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menghapus penanda tertentu dalam berkas PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
-weight: 40
-url: /id/net/programming-with-bookmarks/delete-particular-bookmark/
+"description": "Pelajari cara menghapus penanda tertentu dalam berkas PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Hapus Bookmark Tertentu Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Hapus Bookmark Tertentu Dalam File PDF"
+"url": "/id/net/programming-with-bookmarks/delete-particular-bookmark/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Bookmark Tertentu Dalam File PDF
@@ -19,9 +21,9 @@ Pernahkah Anda menemukan diri Anda sedang memilah-milah dokumen PDF, dan kemudia
 
 ## Prasyarat
 
-Sebelum kita masuk ke kodenya, mari pastikan Anda memiliki semua yang perlu diikuti:
+Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang perlu diikuti:
 
-1.  Aspose.PDF untuk .NET: Anda harus menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Anda harus menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Lingkungan pengembangan tempat Anda dapat menulis dan mengeksekusi kode .NET Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode yang akan kita gunakan.
 4. Contoh Berkas PDF: Untuk tutorial ini, Anda memerlukan berkas PDF dengan penanda halaman. Anda dapat membuatnya sendiri atau mengunduh contoh dari internet.
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya, Anda akan membuka dokumen PDF yang berisi bookmark yang ingin Anda hapus. Ini dilakukan dengan menggunakan`Document` kelas dari pustaka Aspose.PDF.
+Selanjutnya, Anda akan membuka dokumen PDF yang berisi bookmark yang ingin Anda hapus. Ini dilakukan dengan menggunakan `Document` kelas dari pustaka Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "DeleteParticularBookmark.pdf");
@@ -70,7 +72,7 @@ Document pdfDocument = new Document(dataDir + "DeleteParticularBookmark.pdf");
 
 ## Langkah 3: Hapus Bookmark Tertentu
 
- Sekarang tibalah bagian yang penting—menghapus penanda buku. Anda akan menggunakan`Outlines.Delete` metode untuk menghapus bookmark berdasarkan judulnya. Pastikan untuk mengganti`"Child Outline"` dengan judul sebenarnya dari penanda buku yang ingin Anda hapus.
+Sekarang tibalah bagian yang penting—menghapus penanda buku. Anda akan menggunakan `Outlines.Delete` metode untuk menghapus bookmark berdasarkan judulnya. Pastikan untuk mengganti `"Child Outline"` dengan judul sebenarnya dari penanda buku yang ingin Anda hapus.
 
 ```csharp
 pdfDocument.Outlines.Delete("Child Outline");
@@ -103,19 +105,21 @@ Nah, itu dia! Anda telah berhasil menghapus bookmark tertentu dari file PDF meng
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Bisakah saya menghapus beberapa penanda sekaligus?
- Ya, Anda dapat mengulang bookmark dan menghapus beberapa bookmark dengan memanggil`Delete` metode untuk setiap judul.
+Ya, Anda dapat mengulang bookmark dan menghapus beberapa bookmark dengan memanggil `Delete` metode untuk setiap judul.
 
 ### Apakah ada uji coba gratis yang tersedia?
- Ya, Anda dapat mencoba Aspose.PDF untuk .NET secara gratis dengan mengunduhnya dari[lokasi](https://releases.aspose.com/).
+Ya, Anda dapat mencoba Aspose.PDF untuk .NET secara gratis dengan mengunduhnya dari [lokasi](https://releases.aspose.com/).
 
 ### Bagaimana jika saya tidak tahu judul penanda buku tersebut?
- Anda dapat mengulangi melalui`Outlines` koleksi untuk menemukan judul penanda yang ingin Anda hapus.
+Anda dapat mengulangi melalui `Outlines` koleksi untuk menemukan judul penanda yang ingin Anda hapus.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

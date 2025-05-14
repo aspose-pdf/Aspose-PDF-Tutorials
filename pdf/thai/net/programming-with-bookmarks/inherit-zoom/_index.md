@@ -1,14 +1,16 @@
 ---
-title: สืบทอดการซูมเข้าไฟล์ PDF
-linktitle: สืบทอดการซูมเข้าไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการสืบทอดการซูมในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงประสบการณ์การดู PDF ของคุณ
-weight: 90
-url: /th/net/programming-with-bookmarks/inherit-zoom/
+"description": "เรียนรู้วิธีการสืบทอดการซูมในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงประสบการณ์การดู PDF ของคุณ"
+"linktitle": "สืบทอดการซูมเข้าไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "สืบทอดการซูมเข้าไฟล์ PDF"
+"url": "/th/net/programming-with-bookmarks/inherit-zoom/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สืบทอดการซูมเข้าไฟล์ PDF
@@ -22,7 +24,7 @@ url: /th/net/programming-with-bookmarks/inherit-zoom/
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว ซึ่งเป็นสภาพแวดล้อมที่ดีที่สุดสำหรับการพัฒนา .NET
-2.  Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
 ## แพ็คเกจนำเข้า
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
- ขั้นต่อไป คุณจะต้องเปิดเอกสาร PDF ที่คุณต้องการแก้ไข ซึ่งทำได้โดยใช้`Document` คลาสจากไลบรารี Aspose.PDF
+ขั้นต่อไป คุณจะต้องเปิดเอกสาร PDF ที่คุณต้องการแก้ไข ซึ่งทำได้โดยใช้ `Document` คลาสจากไลบรารี Aspose.PDF
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
@@ -78,7 +80,7 @@ OutlineItemCollection item = new OutlineItemCollection(doc.Outlines);
 
 ## ขั้นตอนที่ 4: ตั้งค่าระดับการซูม
 
- นี่คือจุดที่เวทมนตร์เกิดขึ้น! คุณสามารถตั้งค่าระดับการซูมได้โดยใช้`XYZExplicitDestination` ในตัวอย่างนี้ เราจะตั้งระดับการซูมเป็น 0 ซึ่งหมายความว่าเอกสารจะสืบทอดระดับการซูมจากโปรแกรมดู
+นี่คือจุดที่เวทมนตร์เกิดขึ้น! คุณสามารถตั้งค่าระดับการซูมได้โดยใช้ `XYZExplicitDestination` ในตัวอย่างนี้ เราจะตั้งระดับการซูมเป็น 0 ซึ่งหมายความว่าเอกสารจะสืบทอดระดับการซูมจากโปรแกรมดู
 
 ```csharp
 XYZExplicitDestination dest = new XYZExplicitDestination(2, 100, 100, 0);
@@ -119,27 +121,29 @@ Console.WriteLine("\nBookmarks updated successfully.\nFile saved at " + dataDir)
 
 ## บทสรุป
 
-และแล้วคุณก็จะได้มันมา! คุณได้สืบทอดระดับการซูมในไฟล์ PDF สำเร็จแล้วโดยใช้ Aspose.PDF สำหรับ .NET ฟีเจอร์ที่เรียบง่ายแต่ทรงพลังนี้สามารถปรับปรุงประสบการณ์การใช้งานของผู้ใช้ได้อย่างมาก ทำให้เอกสารของคุณเข้าถึงได้ง่ายขึ้นและนำทางได้ง่ายขึ้น ดังนั้น ครั้งต่อไปที่คุณสร้าง PDF อย่าลืมตั้งค่าระดับการซูมนั้น!
+และแล้วคุณก็จะได้มันมา! คุณได้สืบทอดระดับการซูมในไฟล์ PDF สำเร็จแล้วโดยใช้ Aspose.PDF สำหรับ .NET ฟีเจอร์ที่เรียบง่ายแต่ทรงพลังนี้สามารถปรับปรุงประสบการณ์ของผู้ใช้ได้อย่างมาก ทำให้เอกสารของคุณเข้าถึงได้ง่ายขึ้นและนำทางได้ง่ายขึ้น ดังนั้น ครั้งต่อไปที่คุณสร้าง PDF อย่าลืมตั้งค่าระดับการซูมนั้น!
 
 ## คำถามที่พบบ่อย
 
 ### Aspose.PDF สำหรับ .NET คืออะไร?
-Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ด้วยโปรแกรมได้
+Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้ทดสอบไลบรารีได้ คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้ทดสอบไลบรารีได้ คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถหาเอกสารได้ที่ไหน
- คุณสามารถค้นหาเอกสารสำหรับ Aspose.PDF สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารสำหรับ Aspose.PDF สำหรับ .NET ได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### ฉันจะซื้อใบอนุญาตได้อย่างไร?
- คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.PDF สำหรับ .NET ได้[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.PDF สำหรับ .NET ได้ [ที่นี่](https://purchase-aspose.com/buy).
 
 ### จะเกิดอะไรขึ้นถ้าฉันต้องการการสนับสนุน?
- หากคุณต้องการความช่วยเหลือ คุณสามารถไปที่ฟอรัมสนับสนุน Aspose ได้[ที่นี่](https://forum.aspose.com/c/pdf/10).
+หากคุณต้องการความช่วยเหลือ คุณสามารถไปที่ฟอรัมสนับสนุน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

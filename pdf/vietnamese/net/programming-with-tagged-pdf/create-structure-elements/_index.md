@@ -1,14 +1,16 @@
 ---
-title: Tạo các thành phần cấu trúc
-linktitle: Tạo các thành phần cấu trúc
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo các thành phần cấu trúc trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để tăng cường khả năng truy cập và tổ chức PDF.
-weight: 60
-url: /vi/net/programming-with-tagged-pdf/create-structure-elements/
+"description": "Tìm hiểu cách tạo các thành phần cấu trúc trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để tăng cường khả năng truy cập và tổ chức PDF."
+"linktitle": "Tạo các thành phần cấu trúc"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo các thành phần cấu trúc"
+"url": "/vi/net/programming-with-tagged-pdf/create-structure-elements/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo các thành phần cấu trúc
@@ -22,7 +24,7 @@ Tạo tài liệu PDF có cấu trúc có thể rất quan trọng đối với 
 Trước khi đi sâu vào hướng dẫn, chúng ta hãy cùng tìm hiểu những gì bạn cần để bắt đầu:
 
 1. .NET Framework: Đảm bảo bạn đã thiết lập môi trường .NET tương thích. Có thể là .NET Framework hoặc .NET Core, tùy theo sở thích của bạn.
-2.  Aspose.PDF cho .NET: Tải xuống và cài đặt thư viện. Bạn có thể tìm thấy phiên bản mới nhất[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Tải xuống và cài đặt thư viện. Bạn có thể tìm thấy phiên bản mới nhất [đây](https://releases.aspose.com/pdf/net/).
 3. Môi trường phát triển: Bất kỳ IDE nào hỗ trợ .NET, như Visual Studio, đều có thể hoạt động tốt.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn.
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Ở đây, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn mà bạn muốn lưu tệp PDF của mình. Điều này đảm bảo rằng tệp đầu ra của bạn có vị trí đã biết.
+Ở đây, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn mà bạn muốn lưu tệp PDF của mình. Điều này đảm bảo rằng tệp đầu ra của bạn có vị trí đã biết.
 
 ## Bước 2: Lấy nội dung được gắn thẻ
 
@@ -67,7 +69,7 @@ Bây giờ, chúng ta hãy truy cập vào nội dung được gắn thẻ của
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
-Dòng mã này sẽ lấy giao diện nội dung được gắn thẻ, cho phép chúng ta thao tác cấu trúc của tài liệu PDF.
+Dòng mã này lấy giao diện nội dung được gắn thẻ, cho phép chúng ta thao tác cấu trúc của tài liệu PDF.
 
 ## Bước 3: Thiết lập Tiêu đề và Ngôn ngữ
 
@@ -154,7 +156,7 @@ Mặc dù cách tiếp cận này vẫn đang được phát triển, nhưng hi�
 
 ## Bước 9: Tạo các thành phần bổ sung
 
-Mở rộng khả năng của tài liệu với nhiều thành phần cấu trúc hơn.
+Mở rộng khả năng của tài liệu với nhiều thành phần cấu trúc hơn nữa.
 
 ```csharp
 ReferenceElement referenceElement = taggedContent.CreateReferenceElement();
@@ -190,19 +192,21 @@ Tạo PDF có cấu trúc bằng Aspose.PDF cho .NET mở ra một thế giới 
 Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF dễ dàng bằng ngôn ngữ lập trình .NET.
 
 ### Làm thế nào để cài đặt Aspose.PDF cho .NET?
- Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/) và thêm nó vào dự án của bạn thông qua NuGet hoặc thủ công.
+Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/) và thêm nó vào dự án của bạn thông qua NuGet hoặc thủ công.
 
 ### Tôi có thể tạo thẻ hỗ trợ khả năng truy cập trong tệp PDF của mình không?
-Có! Aspose.PDF cho .NET hỗ trợ việc tạo PDF được gắn thẻ, cải thiện khả năng truy cập cho trình đọc màn hình.
+Có! Aspose.PDF cho .NET hỗ trợ việc tạo PDF có gắn thẻ, cải thiện khả năng truy cập cho trình đọc màn hình.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF ở đâu?
- Bạn có thể truy cập tài liệu chi tiết[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể truy cập tài liệu chi tiết [đây](https://reference.aspose.com/pdf/net/).
 
 ### Có bản dùng thử miễn phí không?
- Chắc chắn rồi! Hãy xem thử bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Hãy xem thử bản dùng thử miễn phí [đây](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

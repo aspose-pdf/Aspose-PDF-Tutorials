@@ -8,7 +8,9 @@ url: /java/pdf-styles-and-formatting/structure-elements-properties-in-pdf-using-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Structure Elements Properties in PDF using Java
@@ -121,6 +123,7 @@ Yes, Aspose.PDF is a powerful library suitable for both personal and commercial 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

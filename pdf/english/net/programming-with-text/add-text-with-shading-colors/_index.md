@@ -8,7 +8,9 @@ url: /net/programming-with-text/add-text-with-shading-colors/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Text With Shading Colors In PDF File
@@ -143,6 +145,7 @@ Yes, you can add new text to a PDF and apply shading using the same method cover
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

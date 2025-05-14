@@ -1,14 +1,16 @@
 ---
-title: Tạo liên kết đến tài liệu PDF khác bằng Java
-linktitle: Tạo liên kết đến tài liệu PDF khác bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách tạo liên kết tài liệu PDF trong Java dễ dàng với Aspose.PDF cho Java. Hướng dẫn từng bước để tương tác với PDF.
-weight: 14
-url: /vi/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/
+"description": "Tìm hiểu cách tạo liên kết tài liệu PDF trong Java dễ dàng với Aspose.PDF cho Java. Hướng dẫn từng bước để tương tác với PDF."
+"linktitle": "Tạo liên kết đến tài liệu PDF khác bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Tạo liên kết đến tài liệu PDF khác bằng Java"
+"url": "/vi/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo liên kết đến tài liệu PDF khác bằng Java
@@ -81,13 +83,13 @@ Trước khi kết thúc, hãy đảm bảo mở tài liệu PDF và kiểm tra 
 
 ## Phần kết luận
 
-Tạo liên kết đến một tài liệu PDF khác bằng Java và Aspose.PDF cho Java là một quá trình đơn giản có thể tăng cường tính tương tác và khả năng sử dụng của các tệp PDF của bạn. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể kết nối liền mạch nhiều tài liệu PDF, giúp người dùng của bạn dễ dàng điều hướng hơn.
+Tạo liên kết đến một tài liệu PDF khác bằng Java và Aspose.PDF for Java là một quá trình đơn giản có thể tăng cường tính tương tác và khả năng sử dụng của các tệp PDF của bạn. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể kết nối liền mạch nhiều tài liệu PDF, giúp người dùng của bạn dễ dàng điều hướng hơn.
 
 ## Câu hỏi thường gặp
 
 ### Làm thế nào tôi có thể tải xuống Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ trang web tại[đây](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống Aspose.PDF cho Java từ trang web tại [đây](https://releases.aspose.com/pdf/java/).
 
 ### Tôi có thể sử dụng Aspose.PDF cho Java trong các dự án thương mại không?
 
@@ -99,14 +101,16 @@ Có, Aspose.PDF for Java tương thích với nhiều phiên bản Java khác nh
 
 ### Làm thế nào để thêm liên kết đến các trang cụ thể trong tài liệu PDF?
 
- Bạn có thể sử dụng`GoToAction`lớp trong Aspose.PDF cho Java để tạo liên kết đến các trang cụ thể trong tài liệu PDF. Kiểm tra tài liệu để biết ví dụ chi tiết.
+Bạn có thể sử dụng `GoToAction` lớp trong Aspose.PDF cho Java để tạo liên kết đến các trang cụ thể trong tài liệu PDF. Kiểm tra tài liệu để biết ví dụ chi tiết.
 
 ### Tôi có thể tùy chỉnh thêm giao diện của liên kết không?
 
 Chắc chắn rồi! Aspose.PDF cho Java cung cấp nhiều tùy chọn để tùy chỉnh giao diện liên kết, bao gồm màu sắc, kiểu dáng và nhiều hơn nữa. Tham khảo tài liệu để biết các kỹ thuật tùy chỉnh nâng cao.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

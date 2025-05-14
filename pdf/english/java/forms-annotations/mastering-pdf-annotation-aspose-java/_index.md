@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PDF Annotation Handling with Aspose.PDF Java: A Comprehensive Guide
 
@@ -186,6 +188,9 @@ By now, you should have a solid understanding of how to open and loop through PD
 Embark on your journey to mastering PDF manipulation with Aspose.PDF in Java and unlock the full potential of your document management solutions!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

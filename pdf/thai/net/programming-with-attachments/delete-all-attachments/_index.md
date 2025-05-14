@@ -1,14 +1,16 @@
 ---
-title: ลบสิ่งที่แนบมาทั้งหมดในไฟล์ PDF
-linktitle: ลบสิ่งที่แนบมาทั้งหมดในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีลบไฟล์แนบทั้งหมดในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ทำให้การจัดการ PDF ของคุณง่ายขึ้น
-weight: 20
-url: /th/net/programming-with-attachments/delete-all-attachments/
+"description": "เรียนรู้วิธีลบไฟล์แนบทั้งหมดในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ทำให้การจัดการ PDF ของคุณง่ายขึ้น"
+"linktitle": "ลบสิ่งที่แนบมาทั้งหมดในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ลบสิ่งที่แนบมาทั้งหมดในไฟล์ PDF"
+"url": "/th/net/programming-with-attachments/delete-all-attachments/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบสิ่งที่แนบมาทั้งหมดในไฟล์ PDF
@@ -21,7 +23,7 @@ url: /th/net/programming-with-attachments/delete-all-attachments/
 
 ก่อนที่เราจะเจาะลึกโค้ด มีบางสิ่งบางอย่างที่คุณต้องมี:
 
-1.  Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 2. Visual Studio: สภาพแวดล้อมการพัฒนาที่คุณสามารถเขียนและดำเนินการโค้ด .NET ของคุณได้
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
@@ -41,7 +43,7 @@ url: /th/net/programming-with-attachments/delete-all-attachments/
 
 ### นำเข้าเนมสเปซที่จำเป็น
 
- เมื่อเพิ่มห้องสมุดแล้วให้เปิด`Program.cs` ไฟล์และนำเข้าเนมสเปซที่จำเป็นที่ด้านบนของไฟล์:
+เมื่อเพิ่มห้องสมุดแล้วให้เปิด `Program.cs` ไฟล์และนำเข้าเนมสเปซที่จำเป็นที่ด้านบนของไฟล์:
 
 ```csharp
 using System.IO;
@@ -60,7 +62,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"`ด้วยเส้นทางจริงที่จัดเก็บไฟล์ PDF ของคุณ ซึ่งเป็นสิ่งสำคัญเนื่องจากโปรแกรมจำเป็นต้องทราบว่าจะค้นหาไฟล์ที่คุณต้องการแก้ไขได้จากที่ใด
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่จัดเก็บไฟล์ PDF ของคุณ ซึ่งเป็นสิ่งสำคัญเนื่องจากโปรแกรมจำเป็นต้องทราบว่าจะค้นหาไฟล์ที่คุณต้องการแก้ไขได้จากที่ใด
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
@@ -71,7 +73,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "DeleteAllAttachments.pdf");
 ```
 
- บรรทัดโค้ดนี้จะสร้างสิ่งใหม่`Document` อ็อบเจ็กต์ที่แสดงถึงไฟล์ PDF ของคุณ ตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรงกับชื่อที่คุณมีในไดเร็กทอรี
+บรรทัดโค้ดนี้จะสร้างสิ่งใหม่ `Document` อ็อบเจ็กต์ที่แสดงถึงไฟล์ PDF ของคุณ ตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรงกับชื่อที่คุณมีในไดเร็กทอรี
 
 ## ขั้นตอนที่ 3: ลบสิ่งที่แนบมาทั้งหมด
 
@@ -86,7 +88,7 @@ pdfDocument.EmbeddedFiles.Delete();
 
 ## ขั้นตอนที่ 4: บันทึกไฟล์ที่อัปเดต
 
-หลังจากลบไฟล์แนบแล้ว คุณต้องบันทึกไฟล์ PDF ที่อัปเดตแล้ว โดยคุณสามารถทำได้ดังนี้:
+หลังจากลบไฟล์แนบแล้ว คุณต้องบันทึกไฟล์ PDF ที่อัปเดตแล้ว โดยทำได้ดังนี้:
 
 ```csharp
 dataDir = dataDir + "DeleteAllAttachments_out.pdf";
@@ -104,7 +106,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nAll attachments deleted successfully.\nFile saved at " + dataDir);
 ```
 
-บรรทัดนี้จะพิมพ์ข้อความในคอนโซลเพื่อยืนยันว่าสิ่งที่แนบมาถูกลบไปแล้ว และแสดงให้คุณเห็นว่าไฟล์ใหม่ถูกบันทึกไว้ที่ใด
+บรรทัดนี้จะพิมพ์ข้อความในคอนโซลเพื่อยืนยันว่าไฟล์แนบถูกลบไปแล้ว และแสดงให้คุณเห็นว่าไฟล์ใหม่ถูกบันทึกไว้ที่ใด
 
 ## บทสรุป
 
@@ -113,22 +115,24 @@ Console.WriteLine("\nAll attachments deleted successfully.\nFile saved at " + da
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถลบไฟล์แนบบางไฟล์แทนทั้งหมดได้ไหม?
- ใช่ คุณสามารถเลือกลบสิ่งที่แนบมาโดยเข้าถึงได้ผ่านทาง`EmbeddedFiles` ของสะสม.
+ใช่ คุณสามารถเลือกลบสิ่งที่แนบมาโดยเข้าถึงได้ผ่านทาง `EmbeddedFiles` ของสะสม.
 
 ### จะเกิดอะไรขึ้นหากฉันลบไฟล์แนบ?
 เมื่อลบแล้วจะไม่สามารถกู้คืนสิ่งที่แนบมาได้ เว้นแต่คุณจะมีข้อมูลสำรองของไฟล์ PDF ต้นฉบับ
 
 ### Aspose.PDF ใช้ได้ฟรีหรือไม่?
-Aspose.PDF เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้งานฟังก์ชันครบถ้วน คุณจะต้องซื้อใบอนุญาต ดูข้อมูลเพิ่มเติม[หน้าซื้อ](https://purchase.aspose.com/buy) สำหรับรายละเอียดเพิ่มเติม
+Aspose.PDF เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้งานฟังก์ชันครบถ้วน คุณจะต้องซื้อใบอนุญาต ดูข้อมูลเพิ่มเติม [หน้าซื้อ](https://purchase.aspose.com/buy) สำหรับรายละเอียดเพิ่มเติม
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.PDF สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.PDF สำหรับ .NET ได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?
- คุณสามารถขอความช่วยเหลือจากชุมชน Aspose ได้ที่[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10).
+คุณสามารถขอความช่วยเหลือจากชุมชน Aspose ได้ที่ [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Serbest Metin Açıklama Biçimlendirmesini Ayarla
-linktitle: Serbest Metin Açıklama Biçimlendirmesini Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerinde serbest metin ek açıklama biçimlendirmesini nasıl ayarlayacağınızı öğrenin.
-weight: 140
-url: /tr/net/annotations/setfreetextannotationformatting/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerinde serbest metin ek açıklama biçimlendirmesini nasıl ayarlayacağınızı öğrenin."
+"linktitle": "Serbest Metin Açıklama Biçimlendirmesini Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Serbest Metin Açıklama Biçimlendirmesini Ayarla"
+"url": "/tr/net/annotations/setfreetextannotationformatting/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Serbest Metin Açıklama Biçimlendirmesini Ayarla
@@ -21,12 +23,12 @@ Dijital çağda, PDF belgelerini düzenleme ve açıklama ekleme yeteneği, çe�
 
 Kodlamanın inceliklerine dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte sahip olmanız gerekenler:
 
-1. Temel C# Bilgisi: C# programlamaya aşinalık, bu eğitimde sunulan örnekleri ve kod parçacıklarını anlamanıza yardımcı olacaktır.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin kurulu olması gerekir. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+1. Temel C# Bilgisi: C# programlamaya aşina olmak, bu eğitimde sunulan örnekleri ve kod parçacıklarını anlamanıza yardımcı olacaktır.
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olması gerekir. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. Visual Studio: Visual Studio gibi bir geliştirme ortamı kodunuzu yazmanızı ve test etmenizi kolaylaştıracaktır.
 4. PDF Belgesi: Bu eğitim için, çalışmak üzere bir örnek PDF belgesine ihtiyacınız olacak. Basit bir tane oluşturabilir veya internetten bir örnek indirebilirsiniz.
 
-Bu ön koşulları sağladığınızda, PDF açıklamalarının dünyasına dalmaya hazırsınız!
+Bu ön koşulları sağladıktan sonra, PDF açıklamalarının dünyasına dalmaya hazırsınız!
 
 ## Paketleri İçe Aktar
 
@@ -64,22 +66,22 @@ Artık her şeyi ayarladığımıza göre, eğitimimizin ana kısmına geçelim:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı gerçek yol ile. Bu adım çok önemlidir çünkü programınıza çalışmak istediğiniz PDF belgesini nerede bulacağını söyler.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı gerçek yol ile. Bu adım çok önemlidir çünkü programınıza çalışmak istediğiniz PDF belgesini nerede bulacağını söyler.
 
 ## Adım 2: PDF Belgesini açın
 
- Sonra, not düşeceğiniz PDF belgesini açmak isteyeceksiniz. Bu, şu şekilde yapılır:`Document` Aspose.PDF kütüphanesinden sınıf:
+Sonra, not düşeceğiniz PDF belgesini açmak isteyeceksiniz. Bu, şu şekilde yapılır: `Document` Aspose.PDF kütüphanesinden sınıf:
 
 ```csharp
 // Belgeyi aç
 Document pdfDocument = new Document(dataDir + "SetFreeTextAnnotationFormatting.pdf");
 ```
 
- Bu kod satırı yeni bir başlatır`Document` nesne ve belirtilen PDF dosyanızı yükler. Dosya adının dizininizde bulunan adla eşleştiğinden emin olun.
+Bu kod satırı yeni bir başlatır `Document` nesne ve belirtilen PDF dosyanızı yükler. Dosya adının dizininizde bulunan adla eşleştiğinden emin olun.
 
 ## Adım 3: DefaultAppearance Nesnesini Örneklendirin
 
- Şimdi bir tane oluşturalım`DefaultAppearance` nesne. Bu nesne, yazı tipi, boyutu ve rengi gibi serbest metin açıklamanızın görünümünü tanımlayacaktır:
+Şimdi bir tane oluşturalım `DefaultAppearance` nesne. Bu nesne, serbest metin açıklamanızın yazı tipi, boyutu ve rengi gibi görünümünü tanımlayacaktır:
 
 ```csharp
 // DefaultAppearance nesnesini örneklendir
@@ -97,7 +99,7 @@ Görünüm ayarlandıktan sonra, gerçek serbest metin açıklamasını oluştur
 FreeTextAnnotation freetext = new FreeTextAnnotation(pdfDocument.Pages[1], new Aspose.Pdf.Rectangle(200, 400, 400, 600), default_appearance);
 ```
 
- Bu satırda yeni bir şey yaratıyoruz`FreeTextAnnotation` PDF'in ilk sayfasında. Dikdörtgen, açıklamanın konumunu ve boyutunu tanımlar. Açıklamayı tam olarak istediğiniz yere yerleştirmek için koordinatları (200, 400, 400, 600) ayarlayabilirsiniz.
+Bu satırda yeni bir şey yaratıyoruz `FreeTextAnnotation` PDF'in ilk sayfasında. Dikdörtgen, açıklamanın konumunu ve boyutunu tanımlar. Açıklamayı tam olarak istediğiniz yere yerleştirmek için koordinatları (200, 400, 400, 600) ayarlayabilirsiniz.
 
 ## Adım 5: Açıklamanın İçeriğini Belirleyin
 
@@ -108,7 +110,7 @@ Artık açıklamamızı oluşturduğumuza göre, ona biraz metin ekleyelim:
 freetext.Contents = "Free Text";
 ```
 
- Değiştirebilirsin`"Free Text"`Açıklamada görüntülemek istediğiniz herhangi bir mesajla. Bu, PDF'yi görüntüleyen herkes tarafından görülebilecek metindir.
+Değiştirebilirsin `"Free Text"` Açıklamada görüntülemek istediğiniz herhangi bir mesajla. Bu, PDF'yi görüntüleyen herkes tarafından görülebilecek metindir.
 
 ## Adım 6: Sayfaya Açıklama Ekleyin
 
@@ -143,19 +145,21 @@ Tebrikler! Aspose.PDF for .NET kullanarak serbest metin açıklama biçimlendirm
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve değiştirmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphanenin özelliklerini keşfetmeniz için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphanenin özelliklerini keşfetmeniz için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Aspose forumunu ziyaret ederek destek alabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose forumunu ziyaret ederek destek alabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
 
-### Açıklamaların görünümünü özelleştirmek mümkün mü?
- Kesinlikle! Açıklamaların yazı tipini, boyutunu, rengini ve diğer özelliklerini özelleştirebilirsiniz.`DefaultAppearance` sınıf.
+### Açıklamaların görünümünü özelleştirmek mümkün müdür?
+Kesinlikle! Açıklamaların yazı tipini, boyutunu, rengini ve diğer özelliklerini özelleştirebilirsiniz. `DefaultAppearance` sınıf.
 
 ### Aspose.PDF for .NET'i nereden satın alabilirim?
- Aspose.PDF için bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.PDF için bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

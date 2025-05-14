@@ -1,20 +1,22 @@
 ---
-title: Menambahkan Cap Gambar di File PDF menggunakan Java
-linktitle: Menambahkan Cap Gambar di File PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan stempel gambar ke berkas PDF menggunakan Java dengan tutorial Aspose.PDF untuk Java yang komprehensif ini.
-weight: 12
-url: /id/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/
+"description": "Pelajari cara menambahkan stempel gambar ke berkas PDF menggunakan Java dengan tutorial Aspose.PDF untuk Java yang komprehensif ini."
+"linktitle": "Menambahkan Cap Gambar di File PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Cap Gambar di File PDF menggunakan Java"
+"url": "/id/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Cap Gambar di File PDF menggunakan Java
 
 
-## Pengantar Menambahkan Cap Gambar dalam File PDF menggunakan Java
+## Pengantar Menambahkan Cap Gambar di File PDF menggunakan Java
 
 Menambahkan cap gambar ke berkas PDF menggunakan Java dapat meningkatkan pencitraan merek dan identifikasi dokumen. Dalam panduan langkah demi langkah ini, kita akan membahas cara melakukannya menggunakan pustaka Aspose.PDF untuk Java. Di akhir tutorial ini, Anda akan dapat menambahkan cap gambar ke dokumen PDF secara efisien.
 
@@ -94,10 +96,12 @@ Aspose.PDF untuk Java mendukung berbagai format gambar seperti PNG, JPEG, GIF, d
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.PDF untuk Java?
 
-Anda dapat menemukan dokumentasi dan contoh yang lengkap di situs web Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/.)
+Anda dapat menemukan dokumentasi dan contoh yang lengkap di situs web Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/.)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

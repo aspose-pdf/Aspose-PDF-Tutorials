@@ -1,14 +1,16 @@
 ---
-title: Xác định căn chỉnh cho đối tượng Text Stamp trong PDF bằng Java
-linktitle: Xác định căn chỉnh cho đối tượng Text Stamp trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách căn chỉnh chính xác các đối tượng đóng dấu văn bản trong PDF bằng Java với Aspose.PDF cho Java. Cải thiện giao diện và khả năng đọc của tài liệu.
-weight: 13
-url: /vi/java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-using-java/
+"description": "Tìm hiểu cách căn chỉnh chính xác các đối tượng đóng dấu văn bản trong PDF bằng Java với Aspose.PDF cho Java. Cải thiện giao diện và khả năng đọc của tài liệu."
+"linktitle": "Xác định căn chỉnh cho đối tượng Text Stamp trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Xác định căn chỉnh cho đối tượng Text Stamp trong PDF bằng Java"
+"url": "/vi/java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xác định căn chỉnh cho đối tượng Text Stamp trong PDF bằng Java
@@ -22,8 +24,8 @@ Con dấu văn bản là một công cụ đa năng khi nói đến việc chú 
 
 Trước khi đi sâu vào chi tiết về căn chỉnh dấu văn bản, điều quan trọng là phải thiết lập môi trường phát triển của chúng ta. Đảm bảo bạn đã cài đặt và cấu hình Aspose.PDF for Java trong dự án Java của mình. Bạn có thể truy cập các tài nguyên cần thiết tại đây:
 
--  Tài liệu:[Tài liệu tham khảo API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/)
--  Tải xuống:[Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/)
+- Tài liệu: [Tài liệu tham khảo API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/)
+- Tải xuống: [Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/)
 
 Khi bạn đã chuẩn bị mọi thứ xong xuôi, chúng ta hãy chuyển sang phần mã hóa.
 
@@ -89,7 +91,7 @@ Bây giờ chúng ta đã triển khai căn chỉnh trong mã của mình, đã 
 
 ## Phần kết luận
 
-Trong bài viết này, chúng tôi đã khám phá cách xác định căn chỉnh cho các đối tượng tem văn bản trong PDF bằng Java và Aspose.PDF cho Java. Tem văn bản được căn chỉnh đúng cách có thể tăng cường sức hấp dẫn trực quan và độ rõ nét của tài liệu của bạn. Với tính linh hoạt và sức mạnh của Aspose.PDF cho Java, bạn có thể đạt được sự căn chỉnh chính xác để đáp ứng các yêu cầu cụ thể của mình.
+Trong bài viết này, chúng tôi đã khám phá cách xác định căn chỉnh cho các đối tượng tem văn bản trong PDF bằng Java và Aspose.PDF cho Java. Tem văn bản được căn chỉnh đúng cách có thể tăng cường sức hấp dẫn trực quan và độ rõ nét của tài liệu của bạn. Với tính linh hoạt và sức mạnh của Aspose.PDF cho Java, bạn có thể căn chỉnh chính xác để đáp ứng các yêu cầu cụ thể của mình.
 
 ## Câu hỏi thường gặp
 
@@ -110,14 +112,16 @@ Có, Aspose.PDF for Java có khả năng xử lý các tài liệu PDF lớn m�
 
 ### Làm thế nào để thay đổi phông chữ và màu sắc của con dấu văn bản?
 
- Bạn có thể thay đổi phông chữ và màu sắc của dấu văn bản bằng cách cấu hình thuộc tính trạng thái văn bản của nó. Sử dụng`setTextState` để thiết lập phông chữ, cỡ chữ và màu sắc mong muốn.
+Bạn có thể thay đổi phông chữ và màu sắc của dấu văn bản bằng cách cấu hình thuộc tính trạng thái văn bản của nó. Sử dụng `setTextState` để thiết lập phông chữ, cỡ chữ và màu sắc mong muốn.
 
 ### Có bất kỳ tùy chọn căn chỉnh nâng cao nào không?
 
 Có, Aspose.PDF for Java cung cấp các tùy chọn căn chỉnh nâng cao, bao gồm căn giữa các dấu văn bản theo cả chiều ngang và chiều dọc, căn chỉnh theo các cạnh cụ thể, v.v. Khám phá tài liệu để biết các ví dụ chi tiết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: पीडीएफए से पीडीएफ
-linktitle: पीडीएफए से पीडीएफ
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस व्यापक, चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF/A को PDF में कैसे परिवर्तित किया जाए।
-weight: 100
-url: /hi/net/document-conversion/pdfa-to-pdf/
+"description": "इस व्यापक, चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF/A को PDF में कैसे परिवर्तित किया जाए।"
+"linktitle": "पीडीएफए से पीडीएफ"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफए से पीडीएफ"
+"url": "/hi/net/document-conversion/pdfa-to-pdf/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफए से पीडीएफ
@@ -22,7 +24,7 @@ url: /hi/net/document-conversion/pdfa-to-pdf/
 इससे पहले कि हम शुरू करें, कुछ चीजें हैं जिन्हें आपको तैयार रखना होगा:
 
 1. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके मशीन पर .NET फ्रेमवर्क स्थापित है। Aspose.PDF .NET अनुप्रयोगों के साथ सहजता से काम करता है।
-2. Aspose.PDF लाइब्रेरी: आपको Aspose.PDF लाइब्रेरी डाउनलोड करनी होगी। आप इसे यहाँ पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF लाइब्रेरी: आपको Aspose.PDF लाइब्रेरी डाउनलोड करनी होगी। आप इसे यहाँ पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
 4. आईडीई: विजुअल स्टूडियो जैसा एकीकृत विकास वातावरण (आईडीई) कोडिंग को आसान बना देगा।
 
@@ -59,7 +61,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## चरण 2: PDF/A दस्तावेज़ खोलें
 
-इसके बाद, हम उस PDF/A दस्तावेज़ को खोलेंगे जिसे हम कनवर्ट करना चाहते हैं। यह काम इस प्रकार किया जाता है`Document` Aspose.PDF द्वारा प्रदान की गई क्लास.
+इसके बाद, हम उस PDF/A दस्तावेज़ को खोलेंगे जिसे हम कनवर्ट करना चाहते हैं। यह काम इस प्रकार किया जाता है `Document` Aspose.PDF द्वारा प्रदान की गई क्लास.
 
 ```csharp
 // दस्तावेज़ खोलें
@@ -68,7 +70,7 @@ Document doc = new Document(dataDir + "PDFAToPDF.pdf");
 
 ## चरण 3: PDF/A अनुपालन जानकारी हटाएं
 
-अब सबसे महत्वपूर्ण हिस्सा आता है - PDF/A अनुपालन जानकारी को हटाना। यह कदम यह सुनिश्चित करने के लिए ज़रूरी है कि दस्तावेज़ को मानक PDF फ़ॉर्मेट में बदला जाए।
+अब सबसे महत्वपूर्ण हिस्सा आता है—PDF/A अनुपालन जानकारी को हटाना। यह कदम यह सुनिश्चित करने के लिए ज़रूरी है कि दस्तावेज़ को मानक PDF फ़ॉर्मेट में बदला जाए।
 
 ```csharp
 // PDF/A अनुपालन जानकारी हटाएँ
@@ -80,7 +82,7 @@ doc.RemovePdfaCompliance();
 अंत में, हम अपडेट किए गए दस्तावेज़ को सहेज लेंगे। इससे PDF/A अनुपालन के बिना एक नई PDF फ़ाइल बन जाएगी।
 
 ```csharp
-// अद्यतन दस्तावेज़ सहेजें
+// अद्यतन दस्तावेज़ सहेजें 
 doc.Save(dataDir + "PDFAToPDF_out.pdf");
 ```
 
@@ -94,19 +96,21 @@ doc.Save(dataDir + "PDFAToPDF_out.pdf");
 पीडीएफ/ए पीडीएफ का एक आईएसओ-मानकीकृत संस्करण है जिसे विशेष रूप से इलेक्ट्रॉनिक दस्तावेजों के डिजिटल संरक्षण के लिए डिज़ाइन किया गया है।
 
 ### क्या मैं Aspose.PDF का निःशुल्क उपयोग कर सकता हूँ?
-हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
-### मुझे अधिक दस्तावेज कहां मिल सकते हैं?
- आप Aspose.PDF पर विस्तृत दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/net/).
+### मैं अधिक दस्तावेज कहां पा सकता हूं?
+आप Aspose.PDF पर विस्तृत दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/net/).
 
 ### यदि मुझे कोई समस्या आए तो क्या होगा?
- आप Aspose समुदाय से सहायता ले सकते हैं[यहाँ](https://forum.aspose.com/c/pdf/10).
+आप Aspose समुदाय से सहायता ले सकते हैं [यहाँ](https://forum.aspose.com/c/pdf/10).
 
 ### मैं अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
- आप अस्थायी लाइसेंस के लिए आवेदन कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस के लिए आवेदन कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

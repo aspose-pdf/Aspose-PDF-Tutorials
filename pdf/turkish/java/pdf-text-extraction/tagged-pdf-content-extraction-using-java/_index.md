@@ -1,20 +1,22 @@
 ---
-title: Java kullanarak Etiketli PDF İçerik Çıkarımı
-linktitle: Java kullanarak Etiketli PDF İçerik Çıkarımı
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java'da Aspose.PDF for Java ile etiketli PDF içerik çıkarmanın gücünü açığa çıkarın. Bu adım adım kılavuz, yapılandırılmış PDF içeriğine sorunsuz erişim için kaynak kodu örnekleri sağlar.
-weight: 12
-url: /tr/java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/
+"description": "Java'da Aspose.PDF for Java ile etiketli PDF içerik çıkarmanın gücünü açığa çıkarın. Bu adım adım kılavuz, yapılandırılmış PDF içeriğine sorunsuz erişim için kaynak kodu örnekleri sağlar."
+"linktitle": "Java kullanarak Etiketli PDF İçerik Çıkarımı"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak Etiketli PDF İçerik Çıkarımı"
+"url": "/tr/java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak Etiketli PDF İçerik Çıkarımı
 
 
-Etiketli PDF'ler, engelli bireyler için erişilebilir hale getirecek ve ayrıca otomatik içerik çıkarmada yardımcı olacak şekilde yapılandırılmıştır. Bu adım adım kılavuzda, Java ve Aspose.PDF for Java kitaplığını kullanarak etiketli PDF'lerden içerik çıkarmayı inceleyeceğiz. Süreci açık ve erişilebilir hale getirmek için kaynak kodu örnekleri sağlayacağız.
+Etiketli PDF'ler, engelli bireyler için erişilebilir hale getirecek ve otomatik içerik çıkarmada yardımcı olacak şekilde yapılandırılmıştır. Bu adım adım kılavuzda, Java ve Aspose.PDF for Java kitaplığını kullanarak etiketli PDF'lerden içerik çıkarmayı inceleyeceğiz. Süreci açık ve erişilebilir hale getirmek için kaynak kodu örnekleri sunacağız.
 
 ## giriiş
 
@@ -26,11 +28,11 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 1. Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
 
-2.  Java Kütüphanesi için Aspose.PDF: Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/)Bunu Java projenize ekleyin.
+2. Java Kütüphanesi için Aspose.PDF: Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/)Bunu Java projenize ekleyin.
 
 ## Adım 1: Bir Java Projesi Oluşturun
 
-Tercih ettiğiniz entegre geliştirme ortamında (IDE) yeni bir Java projesi oluşturarak başlayın. Projenizin bağımlılıklarına Aspose.PDF for Java kütüphanesini ekleyin.
+Tercih ettiğiniz entegre geliştirme ortamında (IDE) yeni bir Java projesi oluşturarak başlayın. Projenizin bağımlılıklarına Aspose.PDF for Java kitaplığını ekleyin.
 
 ## Adım 2: Aspose.PDF'yi başlatın
 
@@ -47,7 +49,7 @@ public class TaggedPDFExtractor {
 }
 ```
 
- Yer değiştirmek`"path_to_tagged_pdf.pdf"` Etiketli PDF dosyanızın gerçek yolunu içerir.
+Yer değiştirmek `"path_to_tagged_pdf.pdf"` Etiketli PDF dosyanızın gerçek yolunu içerir.
 
 ## Adım 3: Etiketli İçeriği Çıkarın
 
@@ -107,10 +109,12 @@ Java ve Aspose.PDF for Java kullanarak etiketli PDF'lerden içerik çıkarmak, e
    Aspose.PDF for Java ticari bir kütüphanedir, ancak değerlendirme amaçlı ücretsiz deneme sürümü sağlar.
 
 ### Java için Aspose.PDF hakkında daha fazla bilgiyi nerede bulabilirim?
-    API belgelerine şu adresten bakın:[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) Detaylı bilgi ve örnekler için.
+   API belgelerine şu adresten bakın: [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) Detaylı bilgi ve örnekler için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

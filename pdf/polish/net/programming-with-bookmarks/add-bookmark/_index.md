@@ -1,14 +1,16 @@
 ---
-title: Dodaj zakładkę w pliku PDF
-linktitle: Dodaj zakładkę w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać zakładki do plików PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Ulepsz nawigację w PDF.
-weight: 10
-url: /pl/net/programming-with-bookmarks/add-bookmark/
+"description": "Dowiedz się, jak dodawać zakładki do plików PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Ulepsz nawigację w PDF."
+"linktitle": "Dodaj zakładkę w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj zakładkę w pliku PDF"
+"url": "/pl/net/programming-with-bookmarks/add-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj zakładkę w pliku PDF
@@ -21,8 +23,8 @@ Czy zdarzyło Ci się kiedyś przewijać długi dokument PDF, rozpaczliwie szuka
 
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
-1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To najlepsze IDE do tworzenia aplikacji .NET.
-2.  Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją pobrać z[link do pobrania](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To IDE do tworzenia aplikacji .NET.
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją pobrać z [link do pobrania](https://releases.aspose.com/pdf/net/).
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci płynnie nadążać za nauką.
 
 ## Importuj pakiety
@@ -37,13 +39,13 @@ Otwórz Visual Studio i utwórz nowy projekt C#. Wybierz aplikację konsolową d
 
 Po skonfigurowaniu projektu należy dodać odniesienie do biblioteki Aspose.PDF. Można to zrobić w następujący sposób:
 
-- Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
+- Kliknij prawym przyciskiem myszy na swoim projekcie w Eksploratorze rozwiązań.
 - Wybierz opcję „Zarządzaj pakietami NuGet”.
 - Wyszukiwanie pliku „Aspose.PDF” i jego instalacja.
 
 ### Importuj wymagane przestrzenie nazw
 
- Na szczycie twojego`Program.cs` plik, zaimportuj niezbędne przestrzenie nazw:
+Na szczycie twojego `Program.cs` plik, zaimportuj niezbędne przestrzenie nazw:
 
 ```csharp
 using System;
@@ -55,13 +57,13 @@ Teraz, gdy wszystko już skonfigurowaliśmy, możemy przejść do właściwego k
 
 ## Krok 1: Zdefiniuj katalog dokumentów
 
-Najpierw musisz określić ścieżkę do katalogu dokumentów. To tutaj będzie się znajdował plik PDF. Oto jak możesz to zrobić:
+Najpierw musisz określić ścieżkę do katalogu dokumentów. Tutaj będzie się znajdował plik PDF. Oto jak możesz to zrobić:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój plik PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój plik PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -71,7 +73,7 @@ Następnie otwórz dokument PDF, do którego chcesz dodać zakładki. Użyj nast
 Document pdfDocument = new Document(dataDir + "AddBookmark.pdf");
 ```
 
- Ta linia kodu inicjuje nowy`Document` obiekt ze swoim plikiem PDF.
+Ta linia kodu inicjuje nowy `Document` obiekt ze swoim plikiem PDF.
 
 ## Krok 3: Utwórz obiekt zakładki
 
@@ -84,7 +86,7 @@ pdfOutline.Italic = true;
 pdfOutline.Bold = true;
 ```
 
-W tym przykładzie tworzymy zakładkę zatytułowaną „Test Outline” i pogrubiamy ją i piszemy kursywą. Możesz dowolnie dostosować tytuł!
+tym przykładzie tworzymy zakładkę zatytułowaną „Test Outline” i pogrubiamy ją i piszemy kursywą. Możesz dowolnie dostosować tytuł!
 
 ## Krok 4: Ustaw numer strony docelowej
 
@@ -120,7 +122,7 @@ Ten kod zapisuje plik PDF z dodaną zakładką jako „AddBookmark_out.pdf” w 
 
 ## Wniosek
 
-I masz! Udało Ci się dodać zakładkę do pliku PDF za pomocą Aspose.PDF dla .NET. Ta prosta, ale potężna funkcja może znacznie zwiększyć użyteczność Twoich dokumentów, ułatwiając czytelnikom nawigację po nich. Więc następnym razem, gdy będziesz pracować z plikami PDF, pamiętaj, aby dodać te zakładki!
+masz! Udało Ci się dodać zakładkę do pliku PDF za pomocą Aspose.PDF dla .NET. Ta prosta, ale potężna funkcja może znacznie zwiększyć użyteczność Twoich dokumentów, ułatwiając czytelnikom nawigację po nich. Więc następnym razem, gdy będziesz pracować z plikami PDF, pamiętaj, aby dodać te zakładki!
 
 ## Najczęściej zadawane pytania
 
@@ -128,19 +130,21 @@ I masz! Udało Ci się dodać zakładkę do pliku PDF za pomocą Aspose.PDF dla 
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę dodać wiele zakładek do pliku PDF?
- Tak, możesz utworzyć wiele`OutlineItemCollection`obiekty i dodać je do kolekcji konspektu dokumentu.
+Tak, możesz utworzyć wiele `OutlineItemCollection` obiekty i dodać je do kolekcji konspektu dokumentu.
 
 ### Czy korzystanie z Aspose.PDF jest bezpłatne?
- Aspose.PDF oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Sprawdź[kup link](https://purchase.aspose.com/buy).
+Aspose.PDF oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Sprawdź [kup link](https://purchase.aspose.com/buy).
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Pełną dokumentację Aspose.PDF dla .NET można znaleźć[Tutaj](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację Aspose.PDF dla .NET można znaleźć [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Aby uzyskać pomoc, możesz odwiedzić stronę[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+Aby uzyskać pomoc, możesz odwiedzić stronę [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

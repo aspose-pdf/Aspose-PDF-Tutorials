@@ -1,14 +1,16 @@
 ---
-title: Manipulasi Halaman PDF
-linktitle: Manipulasi Halaman PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Jelajahi Manipulasi Halaman PDF dengan Aspose.PDF untuk Java. Pelajari cara mengatur ulang, mengekstrak, dan menyempurnakan halaman PDF dengan mudah.
-weight: 16
-url: /id/java/pdf-page-manipulation/
+"description": "Jelajahi Manipulasi Halaman PDF dengan Aspose.PDF untuk Java. Pelajari cara mengatur ulang, mengekstrak, dan menyempurnakan halaman PDF dengan mudah."
+"linktitle": "Manipulasi Halaman PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Manipulasi Halaman PDF"
+"url": "/id/java/pdf-page-manipulation/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulasi Halaman PDF
@@ -42,12 +44,14 @@ Pelajari cara menambahkan daftar HTML yang diurutkan ke dalam dokumen PDF menggu
 ### [Menambahkan String HTML menggunakan DOM di Java](./add-html-string-using-dom-in-java/)
 Pelajari cara memanipulasi konten HTML di Java menggunakan DOM (Document Object Model) dan menimpa konten yang sudah ada. Ikuti panduan langkah demi langkah ini dengan contoh kode sumber menggunakan Aspose.PDF untuk Java.
 ### [Menambahkan HTML menggunakan DOM dan Menimpa Konten di Java](./add-html-using-dom-and-overwrite-content-in-java/)
-Pelajari cara menambahkan string HTML ke dokumen PDF menggunakan pustaka Aspose.PDF for Java. Panduan langkah demi langkah ini akan menunjukkan prosesnya dengan contoh kode sumber.
+Pelajari cara menambahkan string HTML ke dokumen PDF menggunakan pustaka Aspose.PDF untuk Java. Panduan langkah demi langkah ini akan menunjukkan prosesnya dengan contoh kode sumber.
 ### [Menambahkan Teks yang Diputar dalam PDF menggunakan Java](./add-rotated-text-in-pdf-using-java/)
 Pelajari cara memasukkan teks yang diputar ke dalam dokumen PDF menggunakan Java. Ikuti panduan langkah demi langkah terperinci ini dengan contoh kode untuk menyempurnakan PDF Anda dengan teks yang diputar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

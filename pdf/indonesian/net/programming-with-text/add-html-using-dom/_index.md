@@ -1,14 +1,16 @@
 ---
-title: Menambahkan HTML Menggunakan DOM
-linktitle: Menambahkan HTML Menggunakan DOM
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan konten HTML ke dokumen PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Sempurnakan file PDF Anda dengan format HTML dinamis dengan mudah.
-weight: 40
-url: /id/net/programming-with-text/add-html-using-dom/
+"description": "Pelajari cara menambahkan konten HTML ke dokumen PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Sempurnakan file PDF Anda dengan format HTML dinamis dengan mudah."
+"linktitle": "Menambahkan HTML Menggunakan DOM"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Menambahkan HTML Menggunakan DOM"
+"url": "/id/net/programming-with-text/add-html-using-dom/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan HTML Menggunakan DOM
@@ -21,11 +23,11 @@ Jika berbicara tentang penanganan berkas PDF dalam format .NET, Aspose.PDF untuk
 
 Sebelum kita mulai, mari pastikan Anda telah menyiapkan semuanya:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 2. Lingkungan Pengembangan: Anda memerlukan IDE .NET seperti Visual Studio.
 3. Pemahaman Dasar C#: Tutorial ini mengasumsikan Anda memiliki pengetahuan dasar tentang C# dan pengembangan .NET.
 
-Tidak punya lisensi? Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/)atau melamar[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menguji perpustakaan tanpa batasan.
+Tidak punya lisensi? Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/) atau melamar [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menguji perpustakaan tanpa batasan.
 
 ## Paket Impor
 
@@ -53,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Di sini, kita membuat instance baru`Document` objek yang mewakili berkas PDF yang akan kita kerjakan. Dokumen kosong ini akan bertindak sebagai kanvas kosong.
+Di sini, kita membuat instance baru `Document` objek yang mewakili berkas PDF yang akan kita kerjakan. Dokumen kosong ini akan bertindak sebagai kanvas kosong.
 
 ## Langkah 2: Tambahkan Halaman ke Dokumen
 
@@ -75,7 +77,7 @@ Sekarang dokumen PDF kita sudah memiliki halaman, saatnya membuat konten HTML ya
 HtmlFragment title = new HtmlFragment("<fontsize=10><b><i>Table</i></b></fontsize>");
 ```
 
- Dalam contoh ini, kita membuat potongan HTML sederhana dengan beberapa teks tebal dan miring.`HtmlFragment` objek menangani pemformatan HTML dan menempatkannya ke dalam PDF sebagai konten.
+Dalam contoh ini, kita membuat potongan HTML sederhana dengan beberapa teks tebal dan miring. `HtmlFragment` objek menangani pemformatan HTML dan menempatkannya ke dalam PDF sebagai konten.
 
 ## Langkah 4: Sesuaikan Margin Konten HTML
 
@@ -103,7 +105,7 @@ Langkah ini pada dasarnya memberi tahu Aspose.PDF untuk memperlakukan fragmen HT
 
 ## Langkah 6: Simpan Dokumen PDF
 
- Terakhir, kita perlu menyimpan file PDF ke lokasi yang ditentukan.`Save` Metode ini digunakan untuk menuliskan perubahan pada berkas fisik.
+Terakhir, kita perlu menyimpan file PDF ke lokasi yang ditentukan. `Save` Metode ini digunakan untuk menuliskan perubahan pada berkas fisik.
 
 ```csharp
 dataDir = dataDir + "AddHTMLUsingDOM_out.pdf";
@@ -133,19 +135,21 @@ Nah, itu dia! Dengan mengikuti langkah-langkah sederhana ini, Anda dapat dengan 
 Ya, Aspose.PDF memungkinkan Anda menyisipkan struktur HTML yang kompleks, termasuk gambar, tautan, dan tabel.
 
 ### Apakah mungkin untuk menata konten HTML menggunakan CSS?
- Ya, Anda dapat menyertakan CSS sebaris atau menautkan ke stylesheet eksternal saat menambahkan konten HTML melalui`HtmlFragment`.
+Ya, Anda dapat menyertakan CSS sebaris atau menautkan ke stylesheet eksternal saat menambahkan konten HTML melalui `HtmlFragment`.
 
 ### Bagaimana cara menyesuaikan posisi konten HTML pada halaman?
- Anda dapat mengontrol posisi menggunakan properti margin seperti`Margin.Top`, `Margin.Bottom`, `Margin.Left` , Dan`Margin.Right`.
+Anda dapat mengontrol posisi menggunakan properti margin seperti `Margin.Top`Bahasa Indonesia: `Margin.Bottom`Bahasa Indonesia: `Margin.Left`, Dan `Margin.Right`.
 
 ### Bisakah saya menambahkan beberapa fragmen HTML ke halaman yang berbeda?
- Tentu saja! Anda dapat mengulangi proses pembuatan dan penambahan`HtmlFragment` objek ke halaman sebanyak yang dibutuhkan.
+Tentu saja! Anda dapat mengulangi proses pembuatan dan penambahan `HtmlFragment` objek ke halaman sebanyak yang dibutuhkan.
 
 ### Jenis tag HTML apa yang didukung?
- Sebagian besar tag HTML standar seperti`<p>`, `<b>`, `<i>`, `<table>`, dan lainnya didukung, membuatnya fleksibel untuk berbagai jenis konten.
+Sebagian besar tag HTML standar seperti `<p>`Bahasa Indonesia: `<b>`Bahasa Indonesia: `<i>`Bahasa Indonesia: `<table>`, dan lainnya didukung, membuatnya fleksibel untuk berbagai jenis konten.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

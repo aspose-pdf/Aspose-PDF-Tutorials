@@ -1,14 +1,16 @@
 ---
-title: Konversi EPUB ke Format PDF
-linktitle: Konversi EPUB ke Format PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengonversi EPUB ke PDF dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami menyederhanakan konversi EPUB ke PDF.
-weight: 10
-url: /id/java/pdf-conversion-transformation/convert-epub-to-pdf-format/
+"description": "Pelajari cara mengonversi EPUB ke PDF dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami menyederhanakan konversi EPUB ke PDF."
+"linktitle": "Konversi EPUB ke Format PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Konversi EPUB ke Format PDF"
+"url": "/id/java/pdf-conversion-transformation/convert-epub-to-pdf-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi EPUB ke Format PDF
@@ -22,7 +24,7 @@ EPUB merupakan format e-book yang populer, tetapi ada kalanya Anda mungkin perlu
 
 Sebelum kita menyelami proses konversi, Anda perlu menyiapkan lingkungan pengembangan Anda. Ikuti langkah-langkah berikut:
 
-1. Unduh Aspose.PDF untuk Java: Kunjungi halaman unduhan Aspose.PDF untuk Java di[Di Sini](https://releases.aspose.com/pdf/java/) dan unduh versi terbaru.
+1. Unduh Aspose.PDF untuk Java: Kunjungi halaman unduhan Aspose.PDF untuk Java di [Di Sini](https://releases.aspose.com/pdf/java/) dan unduh versi terbaru.
 
 2. Instal Aspose.PDF untuk Java: Ikuti petunjuk instalasi yang diberikan dengan unduhan untuk menyiapkan Aspose.PDF untuk Java di lingkungan pengembangan Anda.
 
@@ -93,10 +95,12 @@ Aspose.PDF untuk Java menyediakan proses konversi EPUB ke PDF yang tangguh, teta
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Untuk contoh tambahan dan dokumentasi terperinci, kunjungi dokumentasi Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Untuk contoh tambahan dan dokumentasi terperinci, kunjungi dokumentasi Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

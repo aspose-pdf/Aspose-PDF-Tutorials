@@ -1,14 +1,16 @@
 ---
-title: Hedef Bağlantıyı PDF Dosyasına Ayarla
-linktitle: Hedef Bağlantıyı PDF Dosyasına Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET'i kullanarak PDF dosyalarında hedef bağlantıları nasıl etkili bir şekilde ayarlayacağınızı adım adım kılavuzumuzla öğrenin. Belge gezintisini geliştirmek için mükemmeldir.
-weight: 100
-url: /tr/net/programming-with-links-and-actions/set-target-link/
+"description": "Aspose.PDF for .NET'i kullanarak PDF dosyalarında hedef bağlantıları nasıl etkili bir şekilde ayarlayacağınızı adım adım kılavuzumuzla öğrenin. Belge gezintisini geliştirmek için mükemmeldir."
+"linktitle": "Hedef Bağlantıyı PDF Dosyasına Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Hedef Bağlantıyı PDF Dosyasına Ayarla"
+"url": "/tr/net/programming-with-links-and-actions/set-target-link/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hedef Bağlantıyı PDF Dosyasına Ayarla
@@ -22,7 +24,7 @@ Bu kılavuzda, güçlü Aspose.PDF for .NET kütüphanesini kullanarak bir PDF d
 Başlamadan önce yanınızda ihtiyacınız olan her şeyin olduğundan emin olalım. Endişelenmeyin; bu kapsamlı bir kontrol listesi değil! İhtiyacınız olanlar şunlar:
 
 ### .NET Kütüphanesi için Aspose.PDF
--  Öncelikle Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu şuradan alabilirsiniz:[Aspose PDF İndirme Sayfası](https://releases.aspose.com/pdf/net/)Ücretsiz deneme imkanı sunuyorlar, yani yeni başlıyorsanız bile güvendesiniz!
+- Öncelikle Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu şuradan alabilirsiniz: [Aspose PDF İndirme Sayfası](https://releases.aspose.com/pdf/net/)Ücretsiz deneme sunuyorlar, yani yeni başlıyorsanız bile güvendesiniz!
 
 ### Geliştirme Ortamı
 - .NET geliştirme ortamınızın kurulu olduğundan emin olun; Visual Studio şiddetle tavsiye edilir. Kodlama ve hata ayıklama için kullanıcı dostu bir arayüz sağlar.
@@ -69,7 +71,7 @@ PDF belgelerinizdeki bağlantılarınızın çalışma şeklini değiştirmeye h
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  Açıklama: Değiştir`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile (`UpdateLinks.pdf`) ikamet ediyor.
+- Açıklama: Değiştir `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile (`UpdateLinks.pdf`) ikamet ediyor.
 
 ## Adım 2: PDF Dosyasını Yükleyin 
 
@@ -79,7 +81,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "UpdateLinks.pdf");
 ```
 
--  Açıklama: Burada yeni bir tane oluşturuyoruz`Document` nesne. Bu satır PDF dosyasını belirtilen dizinden okur.
+- Açıklama: Burada yeni bir tane oluşturuyoruz `Document` nesne. Bu satır PDF dosyasını belirtilen dizinden okur.
 
 ## Adım 3: Bağlantı Açıklamasına Erişim 
 
@@ -101,14 +103,14 @@ GoToRemoteAction goToR = (GoToRemoteAction)linkAnnot.Action;
 goToR.Destination = new XYZExplicitDestination(2, 0, 0, 1.5);
 ```
 
--  Açıklama:`GoToRemoteAction` bağlantının eylemini değiştirmemize olanak tanır.`XYZExplicitDestination` hedef sayfayı (sayfa 2 olarak ayarlandı), x ve y koordinatlarını (ikisi de 0 olarak ayarlandı) ve yakınlaştırma seviyesini (1,5 olarak ayarlandı) ayarlar. Bu parametreleri ihtiyaçlarınıza uyacak şekilde ayarlamakta özgürsünüz!
+- Açıklama: `GoToRemoteAction` bağlantının eylemini değiştirmemize olanak tanır. `XYZExplicitDestination` hedef sayfayı (sayfa 2 olarak ayarlanır), x ve y koordinatlarını (ikisi de 0 olarak ayarlanır) ve yakınlaştırma seviyesini (1,5 olarak ayarlanır) ayarlar. Bu parametreleri ihtiyaçlarınıza uyacak şekilde ayarlamakta özgürsünüz!
 
 ## Adım 5: Bağlantı Yapılacak Dosyayı Belirleyin 
 
 Şimdi gerekirse başka bir dosyaya bağlantı verelim. 
 
 ```csharp
-//Sonraki satır güncelleme dosyası
+// Sonraki satır güncelleme dosyası
 goToR.File = new FileSpecification(dataDir + "input.pdf");
 ```
 
@@ -125,7 +127,7 @@ document.Save(dataDir);
 Console.WriteLine("\nTarget link setup successfully.\nFile saved at " + dataDir);
 ```
 
--  Açıklama: Çıktı dosyasının adı`SetTargetLink_out.pdf`ve belge yapılan değişikliklerle kaydedilir. Konsol, dosya yolunu içeren bir onay mesajı yazdırır.
+- Açıklama: Çıktı dosyasının adı `SetTargetLink_out.pdf`ve belge yapılan değişikliklerle kaydedilir. Konsol, dosya yolunu içeren bir onay mesajı yazdırır.
 
 ## Adım 7: İstisnaları İşleme 
 
@@ -155,16 +157,18 @@ Aspose.PDF for .NET, geliştiricilerin Adobe Acrobat kullanmadan PDF belgelerini
 Evet, Aspose.PDF .NET Core, .NET Framework ve daha fazlası dahil olmak üzere tüm önemli .NET çerçeveleriyle uyumludur.
 
 ### Aspose.PDF'i kullanmak için lisansa ihtiyacım var mı?
- Ücretsiz denemeyle başlayabilirsiniz; ancak üretim kullanımı için ticari lisans gereklidir. Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Ücretsiz denemeyle başlayabilirsiniz; ancak üretim kullanımı için ticari lisans gereklidir. Bir tane satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.PDF ile hangi tür işlemleri gerçekleştirebilirim?
 PDF belgeleri oluşturabilir, düzenleyebilir ve üzerinde değişiklik yapabilir, ayrıca resimler, açıklamalar ve bağlantılar ekleyebilirsiniz.
 
 ### Aspose.PDF için daha fazla örnek veya desteği nerede bulabilirim?
- Kapsamlı dokümantasyon ve topluluk desteğini şu adreste bulabilirsiniz:[Aspose PDF Belgeleme Sayfası](https://reference.aspose.com/pdf/net/) ve[Destek Forumu](https://forum.aspose.com/c/pdf/10).
+Kapsamlı dokümantasyon ve topluluk desteğini şu adreste bulabilirsiniz: [Aspose PDF Belgeleme Sayfası](https://reference.aspose.com/pdf/net/) ve [Destek Forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

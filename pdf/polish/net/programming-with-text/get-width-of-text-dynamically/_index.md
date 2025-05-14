@@ -1,14 +1,16 @@
 ---
-title: Dynamicznie uzyskaj szerokość tekstu
-linktitle: Dynamicznie uzyskaj szerokość tekstu
-second_title: Aspose.PDF dla .NET API Reference
-description: Naucz się dynamicznie mierzyć szerokość tekstu za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu samouczkowi krok po kroku dostosowanemu do potrzeb programistów.
-weight: 220
-url: /pl/net/programming-with-text/get-width-of-text-dynamically/
+"description": "Naucz się dynamicznie mierzyć szerokość tekstu za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu samouczkowi krok po kroku dostosowanemu do potrzeb programistów."
+"linktitle": "Dynamicznie uzyskaj szerokość tekstu"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dynamicznie uzyskaj szerokość tekstu"
+"url": "/pl/net/programming-with-text/get-width-of-text-dynamically/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dynamicznie uzyskaj szerokość tekstu
@@ -22,7 +24,7 @@ Zrozumienie, jak dynamicznie mierzyć szerokość ciągu tekstowego, jest kluczo
 Zanim zagłębimy się w kod, upewnijmy się, że jesteś przygotowany na sukces. Oto, czego potrzebujesz:
 
 1. Visual Studio: Będziesz potrzebować działającej instalacji programu Visual Studio (dowolnej wersji obsługującej platformę .NET).
-2.  Aspose.PDF dla biblioteki .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla biblioteki .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
 3. Podstawowa znajomość języka C# i .NET: Znajomość programowania w języku C# i środowiska .NET pomoże Ci łatwiej zrozumieć przykłady.
 4. Plan dla Twojego projektu: Wiedz, co chcesz osiągnąć dzięki pomiarom tekstu. Czy formatujesz plik PDF dynamicznie? Upewniasz się, że tekst się nie wylewa?
 
@@ -51,7 +53,7 @@ Pierwszym krokiem jest ustawienie lokalizacji, w której będziesz pracować nad
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do twojego katalogu. Definiuje to, skąd będą odczytywane i zapisywane twoje pliki.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do twojego katalogu. Definiuje to, skąd będą odczytywane i zapisywane twoje pliki.
 
 ## Krok 2: Załaduj czcionkę
 
@@ -61,11 +63,11 @@ Następnie musisz załadować czcionkę, która będzie używana do pomiaru teks
 Aspose.Pdf.Text.Font font = FontRepository.FindFont("Arial");
 ```
 
- Ten`FontRepository.FindFont`Metoda pomaga nam zlokalizować pożądaną czcionkę w bibliotece Aspose. Upewnij się, że czcionka jest dostępna w systemie, aby uzyskać dokładne pomiary.
+Ten `FontRepository.FindFont` Metoda pomaga nam zlokalizować pożądaną czcionkę w bibliotece Aspose. Upewnij się, że czcionka jest dostępna w systemie, aby uzyskać dokładne pomiary.
 
 ## Krok 3: Utwórz stan tekstowy
 
- Przed zmierzeniem szerokości tekstu musimy utworzyć`TextState` obiekt. 
+Przed zmierzeniem szerokości tekstu musimy utworzyć `TextState` obiekt. 
 
 ```csharp
 TextState ts = new TextState();
@@ -73,7 +75,7 @@ ts.Font = font;
 ts.FontSize = 14; // Ustaw żądany rozmiar czcionki.
 ```
 
- Tutaj definiujemy`TextState` i ustaw czcionkę i jej rozmiar.`TextState` obiekt jest kluczowy, ponieważ zawiera właściwości wymagane do pomiaru tekstu.
+Tutaj definiujemy `TextState` i ustaw czcionkę i jej rozmiar. `TextState` Obiekt jest kluczowy, ponieważ zawiera właściwości wymagane do pomiaru tekstu.
 
 ## Krok 4: Zmierz szerokość pojedynczego znaku
 
@@ -84,7 +86,7 @@ if (Math.Abs(font.MeasureString("A", 14) - 9.337) > 0.001)
     Console.WriteLine("Unexpected font string measure!");
 ```
 
-W tym kroku porównujemy zmierzoną szerokość znaku „A” o rozmiarze 14 z oczekiwaną wartością. Jeśli nie pasuje ona ściśle, drukujemy ostrzeżenie. To dobra kontrola poprawności!
+tym kroku porównujemy zmierzoną szerokość znaku „A” o rozmiarze 14 z oczekiwaną wartością. Jeśli nie pasuje ona ściśle, drukujemy ostrzeżenie. To dobra kontrola poprawności!
 
 ## Krok 5: Zmierz szerokość kolejnego znaku
 
@@ -95,7 +97,7 @@ if (Math.Abs(ts.MeasureString("z") - 7.0) > 0.001)
     Console.WriteLine("Unexpected font string measure!");
 ```
 
- Ponownie, jest to dodatkowa kontrola, która ma na celu upewnienie się, że`TextState`pomiary są zgodne z oczekiwanymi wynikami. Wykonanie tej walidacji jest niezbędne do zapewnienia dokładności pomiarów tekstu.
+Ponownie, jest to dodatkowa kontrola, która ma na celu upewnienie się, że `TextState` pomiary są zgodne z oczekiwanymi wynikami. Wykonanie tej walidacji jest niezbędne do zapewnienia dokładności pomiarów tekstu.
 
 ## Krok 6: Zmierz zakres znaków
 
@@ -123,19 +125,21 @@ Dynamiczne mierzenie tekstu w plikach PDF może znacznie zwiększyć możliwośc
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Jak zainstalować Aspose.PDF dla platformy .NET?
- Można go zainstalować za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać bezpośrednio z witryny[Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
+Można go zainstalować za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać bezpośrednio z witryny [Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Czy mogę używać innych czcionek w Aspose.PDF?
- Tak, możesz używać dowolnych czcionek TrueType lub OpenType dostępnych w systemie, ładując je za pomocą`FontRepository`.
+Tak, możesz używać dowolnych czcionek TrueType lub OpenType dostępnych w systemie, ładując je za pomocą `FontRepository`.
 
 ### Czy jest dostępna wersja próbna Aspose.PDF?
- Oczywiście! Możesz wypróbować Aspose.PDF za darmo, postępując zgodnie z tym[połączyć](https://releases.aspose.com).
+Oczywiście! Możesz wypróbować Aspose.PDF za darmo, postępując zgodnie z tym [połączyć](https://releases.aspose.com).
 
 ### Gdzie mogę szukać pomocy w sprawie Aspose.PDF?
- Możesz uzyskać wsparcie i pomoc od[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać wsparcie i pomoc od [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

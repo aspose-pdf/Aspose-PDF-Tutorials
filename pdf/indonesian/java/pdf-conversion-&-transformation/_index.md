@@ -1,14 +1,16 @@
 ---
-title: Konversi & Transformasi PDF
-linktitle: Konversi & Transformasi PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Buka Kekuatan Konversi & Transformasi PDF dengan Aspose.PDF untuk Java - Tutorial Komprehensif untuk Pengembang. Tingkatkan Keterampilan Pemrosesan PDF Anda Hari Ini!
-weight: 13
-url: /id/java/pdf-conversion-transformation/
+"description": "Buka Kekuatan Konversi & Transformasi PDF dengan Aspose.PDF untuk Java - Tutorial Komprehensif untuk Pengembang. Tingkatkan Keterampilan Pemrosesan PDF Anda Hari Ini!"
+"linktitle": "Konversi & Transformasi PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Konversi & Transformasi PDF"
+"url": "/id/java/pdf-conversion-transformation/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi & Transformasi PDF
@@ -73,9 +75,11 @@ Pelajari cara meningkatkan interaktivitas PDF dengan JavaScript menggunakan Aspo
 Pelajari cara menambahkan lapisan ke berkas PDF menggunakan Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah ini menyertakan kode sumber dan mencakup manipulasi PDF dengan mudah.
 ### [Menambahkan Daftar Isi ke PDF yang Ada di Java](./add-table-of-contents-to-existing-pdf-in-java/)
 Pelajari cara menambahkan daftar isi ke PDF di Java menggunakan Aspose.PDF untuk Java. Sempurnakan navigasi dokumen dengan panduan langkah demi langkah ini.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

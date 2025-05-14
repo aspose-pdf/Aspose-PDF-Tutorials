@@ -1,14 +1,16 @@
 ---
-title: Thêm TOC vào tệp PDF
-linktitle: Thêm TOC vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm Mục lục vào PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này đơn giản hóa quy trình và đảm bảo điều hướng dễ dàng trong tài liệu của bạn.
-weight: 40
-url: /vi/net/programming-with-document/addtoc/
+"description": "Tìm hiểu cách thêm Mục lục vào PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này đơn giản hóa quy trình và đảm bảo điều hướng dễ dàng trong tài liệu của bạn."
+"linktitle": "Thêm TOC vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm TOC vào tệp PDF"
+"url": "/vi/net/programming-with-document/addtoc/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm TOC vào tệp PDF
@@ -21,11 +23,11 @@ Bạn đã bao giờ cuộn vô tận qua một tệp PDF dài, ước rằng n�
 
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết:
 
-1. Aspose.PDF cho .NET: Đảm bảo bạn đã tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/).
    
 2. Môi trường phát triển: Đảm bảo rằng bạn đã thiết lập môi trường phát triển .NET như Visual Studio trên máy của mình.
 
-3.  Giấy phép: Nếu bạn không có giấy phép, bạn có thể dùng thử miễn phí hoặc yêu cầu cấp giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+3. Giấy phép: Nếu bạn không có giấy phép, bạn có thể dùng thử miễn phí hoặc yêu cầu cấp giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTOC.pdf");
 ```
 
- Trong bước này, chúng tôi chỉ định đường dẫn đến thư mục tài liệu và tải PDF bằng cách sử dụng`Document` đối tượng. Hãy chắc chắn để thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tập tin của bạn.
+Trong bước này, chúng tôi chỉ định đường dẫn đến thư mục tài liệu và tải PDF bằng cách sử dụng `Document` đối tượng. Hãy chắc chắn để thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tập tin của bạn.
 
 ## Bước 2: Chèn một trang mới cho mục lục
 
@@ -113,7 +115,7 @@ for (int i = 0; i < 2; i++)
 ```
 
 Sau đây là những gì đang xảy ra:
-- Tiêu đề: Chúng tôi tạo ra một`Heading` đối tượng và thêm một`TextSegment` với nó.
+- Tiêu đề: Chúng tôi tạo ra một `Heading` đối tượng và thêm một `TextSegment` với nó.
 - Trang đích: Chúng tôi thiết lập trang mà mỗi tiêu đề sẽ liên kết tới.
 - Vị trí trên cùng: Chúng tôi chỉ định vị trí trên trang mà tiêu đề sẽ trỏ tới.
 - Văn bản: Mỗi tiêu đề có tiêu đề tương ứng từ mảng mà chúng ta đã tạo trước đó.
@@ -145,11 +147,11 @@ Và bạn đã có nó! Với Aspose.PDF cho .NET, việc thêm Mục lục vào
 
 ## Câu hỏi thường gặp
 
-### Tôi có thể tùy chỉnh giao diện của mục lục trong Aspose.PDF không?  
+### Tôi có thể tùy chỉnh giao diện của Mục lục trong Aspose.PDF không?  
 Có, bạn có thể tùy chỉnh hoàn toàn giao diện của mục lục, bao gồm kiểu phông chữ, kích thước và căn chỉnh.
 
 ### Làm thế nào để thêm tiêu đề phụ vào Mục lục?  
- Bạn có thể thêm tiêu đề phụ bằng cách điều chỉnh`Heading` mức độ (ví dụ,`Heading(2)`) để tạo mục lục phân cấp.
+Bạn có thể thêm tiêu đề phụ bằng cách điều chỉnh `Heading` mức độ (ví dụ, `Heading(2)`) để tạo mục lục phân cấp.
 
 ### Có thể tự động cập nhật Mục lục nếu tài liệu thay đổi không?  
 Không, TOC sẽ không tự động cập nhật. Bạn sẽ cần phải tạo lại nếu cấu trúc tài liệu thay đổi.
@@ -159,9 +161,11 @@ Có, bạn có thể sử dụng siêu liên kết để liên kết mục lục
 
 ### Aspose.PDF có hỗ trợ mục lục đa cấp không?  
 Có, Aspose.PDF hỗ trợ mục lục nhiều cấp cho các tài liệu phức tạp có nhiều tiểu mục.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

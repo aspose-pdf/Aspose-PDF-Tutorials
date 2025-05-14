@@ -1,14 +1,16 @@
 ---
-title: ดึงบุ๊คมาร์กจากเอกสาร PDF
-linktitle: ดึงบุ๊คมาร์กจากเอกสาร PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีเรียกค้นบุ๊กมาร์ก PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ Java ในคู่มือที่ครอบคลุมนี้
-weight: 15
-url: /th/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/
+"description": "เรียนรู้วิธีเรียกค้นบุ๊กมาร์ก PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ Java ในคู่มือที่ครอบคลุมนี้"
+"linktitle": "ดึงบุ๊คมาร์กจากเอกสาร PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ดึงบุ๊คมาร์กจากเอกสาร PDF"
+"url": "/th/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ดึงบุ๊คมาร์กจากเอกสาร PDF
@@ -24,7 +26,7 @@ url: /th/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/
 
 ## เหตุใดจึงต้องดึงบุ๊คมาร์กจากไฟล์ PDF?
 
-การทำความเข้าใจถึงความสำคัญของการดึงข้อมูลบุ๊กมาร์กนั้นมีความสำคัญอย่างยิ่ง ช่วยให้คุณสามารถ:
+การทำความเข้าใจถึงความสำคัญของการดึงข้อมูลบุ๊กมาร์กนั้นเป็นสิ่งสำคัญ ช่วยให้คุณสามารถ:
 
 - สร้างเมนูการนำทางแบบกำหนดเอง
 - สร้างดัชนี PDF แบบโต้ตอบ
@@ -102,11 +104,11 @@ Aspose.PDF สำหรับ Java มีตัวเลือกมากมา
 
 ### ฉันจะเพิ่ม Aspose.PDF สำหรับ Java ลงในโปรเจ็กต์ของฉันได้อย่างไร
 
- คุณสามารถเพิ่ม Aspose.PDF สำหรับ Java ลงในโปรเจ็กต์ของคุณได้โดยดาวน์โหลดจาก[ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้ง
+คุณสามารถเพิ่ม Aspose.PDF สำหรับ Java ลงในโปรเจ็กต์ของคุณได้โดยดาวน์โหลดจาก [ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้ง
 
 ### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของบุ๊กมาร์กที่เรียกค้นได้หรือไม่
 
-ใช่ คุณสามารถปรับแต่งลักษณะที่ปรากฏของบุ๊กมาร์กที่เรียกค้นให้ตรงกับการออกแบบและฟังก์ชันการทำงานของแอปพลิเคชันของคุณได้
+ใช่ คุณสามารถปรับแต่งลักษณะที่ปรากฏของบุ๊กมาร์กที่เรียกมาให้ตรงกับการออกแบบและฟังก์ชันการทำงานของแอปพลิเคชันของคุณได้
 
 ### ข้อผิดพลาดทั่วไปเมื่อทำงานกับเอกสาร PDF มีอะไรบ้าง
 
@@ -118,10 +120,12 @@ Aspose.PDF สำหรับ Java มีตัวเลือกมากมา
 
 ### ฉันสามารถเข้าถึงเอกสารและการสนับสนุนเพิ่มเติมได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบและการสนับสนุนที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารประกอบและการสนับสนุนที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

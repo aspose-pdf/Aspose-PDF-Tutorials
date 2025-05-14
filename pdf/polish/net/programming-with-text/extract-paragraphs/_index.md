@@ -1,14 +1,16 @@
 ---
-title: Wyodrębnij akapity w pliku PDF
-linktitle: Wyodrębnij akapity w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyodrębniać akapity z plików PDF za pomocą Aspose.PDF dla .NET w tym łatwym do naśladowania samouczku. Idealny dla programistów na każdym poziomie.
-weight: 160
-url: /pl/net/programming-with-text/extract-paragraphs/
+"description": "Dowiedz się, jak wyodrębniać akapity z plików PDF za pomocą Aspose.PDF dla .NET w tym łatwym do naśladowania samouczku. Idealny dla programistów na każdym poziomie."
+"linktitle": "Wyodrębnij akapity w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wyodrębnij akapity w pliku PDF"
+"url": "/pl/net/programming-with-text/extract-paragraphs/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnij akapity w pliku PDF
@@ -21,8 +23,8 @@ Jeśli chodzi o obsługę plików PDF, wyodrębnianie informacji może czasami p
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz, aby to zrobić. Oto lista kontrolna:
 
-1. Środowisko .NET: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Może to być Visual Studio lub dowolne inne IDE według własnego wyboru. 
-2.  Biblioteka Aspose.PDF: Będziesz potrzebować biblioteki Aspose.PDF dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Środowisko .NET: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Może to być Visual Studio lub dowolne inne wybrane przez Ciebie środowisko IDE. 
+2. Biblioteka Aspose.PDF: Będziesz potrzebować biblioteki Aspose.PDF dla .NET. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Plik PDF: Przygotuj przykładowy dokument PDF, aby przetestować. Jeśli go nie masz, utwórz prosty tekstowy plik PDF lub pobierz przykład z sieci.
 4. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
@@ -50,7 +52,7 @@ Po pierwsze, musimy określić, gdzie znajduje się nasz plik PDF. To tak, jakby
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu, w którym przechowywany jest plik PDF. Może to być coś takiego`"C:\\Users\\YourName\\Documents\\"`.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu, w którym przechowywany jest plik PDF. Może to być coś takiego `"C:\\Users\\YourName\\Documents\\"`.
 
 ## Krok 2: Otwórz istniejący plik PDF
 
@@ -60,27 +62,27 @@ Po ustawieniu ścieżki następnym krokiem jest otwarcie pliku PDF, z którym ch
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- W tym wierszu tworzymy nowy`Document` instancji, podając pełną ścieżkę do pliku PDF. Upewnij się, że plik ma prawidłową nazwę (w tym przypadku „input.pdf”) i znajduje się w określonym katalogu.
+W tym wierszu tworzymy nowy `Document` instancji, podając pełną ścieżkę do pliku PDF. Upewnij się, że plik ma prawidłową nazwę (w tym przypadku „input.pdf”) i znajduje się w określonym katalogu.
 
 ## Krok 3: Utwórz obiekt ParagraphAbsorber
 
- Następnie będziemy używać`ParagraphAbsorber`, poręczne narzędzie, które pozwala nam wchłonąć (lub przechwycić) wszystkie akapity z naszego pliku PDF. Oto jak to zrobić:
+Następnie będziemy używać `ParagraphAbsorber`, poręczne narzędzie, które pozwala nam wchłonąć (lub przechwycić) wszystkie akapity z naszego pliku PDF. Oto jak to zrobić:
 
 ```csharp
 ParagraphAbsorber absorber = new ParagraphAbsorber();
 ```
 
- Pomyśl o`ParagraphAbsorber` jako odkurzacz, który zasysa cały istotny tekst z pliku PDF, dzięki czemu możemy go później wykorzystać.
+Pomyśl o `ParagraphAbsorber` jako odkurzacz, który zasysa cały istotny tekst z pliku PDF, dzięki czemu możemy go później wykorzystać.
 
 ## Krok 4: Odwiedź Dokument
 
- Teraz czas na odwiedzenie dokumentu za pomocą naszego`absorber`. To mówi naszemu kodowi, aby zaczął eksplorować strony i sekcje pliku PDF.
+Teraz czas na odwiedzenie dokumentu za pomocą naszego `absorber`. To mówi naszemu kodowi, aby zaczął eksplorować strony i sekcje pliku PDF.
 
 ```csharp
 absorber.Visit(doc);
 ```
 
- Ta linia to miejsce, gdzie zaczyna się magia!`Visit` Metoda ta przechodzi przez dokument i przygotowuje dane akapitu do ekstrakcji.
+Ta linia to miejsce, gdzie zaczyna się magia! `Visit` Metoda ta przechodzi przez dokument i przygotowuje dane akapitu do ekstrakcji.
 
 ## Krok 5: Przejrzyj znaczniki strony
 
@@ -139,17 +141,19 @@ Tak, Aspose.PDF obsługuje wyodrębnianie zarówno obrazu, jak i tekstu.
 ### Czy Aspose.PDF jest kompatybilny ze wszystkimi wersjami .NET?
 Aspose.PDF jest kompatybilny z wieloma wersjami, w tym .NET Framework i .NET Core.
 
-### Czy mogę użyć licencji tymczasowej do celów testowych?
- Oczywiście! Możesz poprosić o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+### Czy mogę użyć licencji tymczasowej do testów?
+Oczywiście! Możesz poprosić o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Co zrobić, jeśli podczas wyodrębniania akapitów wystąpi błąd?
- Możesz szukać pomocy na forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz szukać pomocy na forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.PDF?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną ze strony internetowej Aspose [Tutaj](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

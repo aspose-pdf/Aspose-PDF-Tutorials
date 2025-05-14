@@ -1,14 +1,16 @@
 ---
-title: Coret Kata-kata
-linktitle: Coret Kata-kata
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mencoret kata-kata dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Tingkatkan keterampilan mengedit dokumen Anda.
-weight: 150
-url: /id/net/annotations/strikeoutwords/
+"description": "Pelajari cara mencoret kata-kata dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Tingkatkan keterampilan mengedit dokumen Anda."
+"linktitle": "Coret Kata-kata"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Coret Kata-kata"
+"url": "/id/net/annotations/strikeoutwords/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Coret Kata-kata
@@ -21,7 +23,7 @@ Pernahkah Anda merasa perlu memberi penekanan pada teks tertentu dalam PDF denga
 
 Sebelum kita masuk ke kode, ada beberapa prasyarat yang harus Anda penuhi untuk mengikuti tutorial ini:
 
-1.  Pustaka Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+1. Pustaka Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF untuk .NET. Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda. Tutorial ini dirancang untuk aplikasi .NET.
 
@@ -58,12 +60,12 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "input.pdf");
 ```
 
-- `dataDir` : Variabel ini menyimpan jalur ke direktori dokumen Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
-- `Document` : : Itu`Document` class mewakili dokumen PDF. Dengan meneruskan jalur file ke konstruktornya, kita membuka file PDF untuk diproses.
+- `dataDir`: Variabel ini menyimpan jalur ke direktori dokumen Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
+- `Document`: : Itu `Document` class mewakili dokumen PDF. Dengan meneruskan jalur file ke konstruktornya, kita membuka file PDF untuk diproses.
 
 ## Langkah 2: Buat Penyerap TextFragment untuk Menemukan Teks Tertentu
 
- Selanjutnya, kita akan membuat sebuah instance dari`TextFragmentAbsorber` untuk mencari fragmen teks tertentu dalam dokumen PDF. Ini memungkinkan kita menemukan teks yang ingin kita coret.
+Selanjutnya, kita akan membuat sebuah instance dari `TextFragmentAbsorber` untuk mencari fragmen teks tertentu dalam dokumen PDF. Ini memungkinkan kita menemukan teks yang ingin kita coret.
 
 ```csharp
 // Buat instance TextFragment Absorber untuk mencari fragmen teks tertentu
@@ -74,7 +76,7 @@ Aspose.Pdf.Text.TextFragmentAbsorber textFragmentAbsorber = new Aspose.Pdf.Text.
 
 ## Langkah 3: Ulangi Halaman Dokumen PDF
 
- Sekarang setelah kita memiliki`TextFragmentAbsorber`, kita perlu mengulangi setiap halaman dokumen PDF untuk menemukan teks yang ditentukan.
+Sekarang setelah kita memiliki `TextFragmentAbsorber`, kita perlu mengulangi setiap halaman dokumen PDF untuk menemukan teks yang ditentukan.
 
 ```csharp
 // Ulangi melalui halaman dokumen PDF
@@ -88,7 +90,7 @@ for (int i = 1; i <= document.Pages.Count; i++)
 
 - `for (int i = 1; i <= document.Pages.Count; i++)`: Perulangan ini mengulangi setiap halaman dokumen PDF.
 - `document.Pages[i]`: Mengambil halaman saat ini yang sedang diproses.
-- `page.Accept(textFragmentAbsorber)` :Metode ini menerapkan`TextFragmentAbsorber` ke halaman saat ini, mencari teks yang ditentukan.
+- `page.Accept(textFragmentAbsorber)`:Metode ini menerapkan `TextFragmentAbsorber` ke halaman saat ini, mencari teks yang ditentukan.
 
 ## Langkah 4: Kumpulkan dan Proses Fragmen Teks
 
@@ -159,26 +161,28 @@ Selamat! Anda telah berhasil mencoret kata-kata tertentu dalam dokumen PDF mengg
 
 ### Bisakah saya mengubah warna coretan?
 
- Ya, Anda dapat mengubah warna dengan memodifikasi`strikeOut.Color`properti. Misalnya, Anda dapat mengaturnya ke`Aspose.Pdf.Color.Blue` untuk coretan biru.
+Ya, Anda dapat mengubah warna dengan memodifikasi `strikeOut.Color` properti. Misalnya, Anda dapat mengaturnya ke `Aspose.Pdf.Color.Blue` untuk coretan biru.
 
 ### Apakah mungkin untuk mencoret beberapa kata sekaligus?
 
- Tentu saja!`TextFragmentAbsorber` dapat digunakan untuk mencari kata atau frasa apa pun dalam dokumen. Anda dapat menerapkan coretan ke beberapa contoh dengan mengulangi`TextFragmentCollection`.
+Tentu saja! `TextFragmentAbsorber` dapat digunakan untuk mencari kata atau frasa apa pun dalam dokumen. Anda dapat menerapkan coretan ke beberapa contoh dengan mengulangi `TextFragmentCollection`.
 
 ### Bagaimana jika saya ingin mencoret teks pada halaman tertentu saja?
 
- Anda dapat mengubah loop yang berulang melalui halaman untuk hanya menyertakan halaman yang ingin Anda ubah. Misalnya,`for (int i = 1; i <= 3; i++)` akan menerapkan coretan hanya pada tiga halaman pertama.
+Anda dapat mengubah loop yang berulang melalui halaman untuk hanya menyertakan halaman yang ingin Anda ubah. Misalnya, `for (int i = 1; i <= 3; i++)` akan menerapkan coretan hanya pada tiga halaman pertama.
 
 ### Bagaimana cara menyesuaikan ketebalan garis coretan?
 
- Anda dapat menyesuaikan ketebalan garis coretan dengan memodifikasi`Border` milik`StrikeOutAnnotation`Ini memungkinkan penyesuaian tampilan coretan.
+Anda dapat menyesuaikan ketebalan garis coretan dengan memodifikasi `Border` milik `StrikeOutAnnotation`Ini memungkinkan penyesuaian tampilan coretan.
 
 ### Apakah ada cara untuk membatalkan coretan setelah menyimpan dokumen?
 
 Setelah dokumen disimpan, coretan tersebut bersifat permanen. Jika Anda perlu mempertahankan teks asli tanpa coretan, pertimbangkan untuk menyimpan salinan cadangan dokumen asli sebelum menerapkan modifikasi apa pun.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

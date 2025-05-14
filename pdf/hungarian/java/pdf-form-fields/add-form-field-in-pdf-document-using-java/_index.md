@@ -1,38 +1,40 @@
 ---
-title: Űrlapmező hozzáadása a PDF-dokumentumhoz Java használatával
-linktitle: Űrlapmező hozzáadása a PDF-dokumentumhoz Java használatával
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan adhat hozzá interaktív űrlapmezőket PDF-dokumentumaihoz Java és Aspose.PDF for Java használatával. Könnyedén hozhat létre felhasználóbarát PDF-űrlapokat.
-weight: 10
-url: /hu/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/
+"description": "Ismerje meg, hogyan adhat interaktív űrlapmezőket PDF-dokumentumaihoz Java és az Aspose.PDF for Java használatával. Készítsen felhasználóbarát PDF-űrlapokat könnyedén."
+"linktitle": "Űrlapmező hozzáadása PDF dokumentumhoz Java használatával"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "Űrlapmező hozzáadása PDF dokumentumhoz Java használatával"
+"url": "/hu/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Űrlapmező hozzáadása a PDF-dokumentumhoz Java használatával
+# Űrlapmező hozzáadása PDF dokumentumhoz Java használatával
 
 
 ## Bevezetés
 
-Űrlapmezők hozzáadása a PDF-dokumentumhoz javítja a funkcionalitást azáltal, hogy lehetővé teszi a felhasználók számára, hogy adatokat vigyenek be közvetlenül a dokumentumba. Ez hihetetlenül hasznos lehet különféle célokra, például kitölthető űrlapok, felmérések vagy jelentések készítéséhez felhasználók által generált tartalommal.
+Űrlapmezők hozzáadása a PDF dokumentumhoz javítja annak funkcionalitását, mivel lehetővé teszi a felhasználók számára, hogy közvetlenül a dokumentumba vigyenek be adatokat. Ez hihetetlenül hasznos lehet különféle célokra, például kitölthető űrlapok, felmérések vagy felhasználó által generált tartalommal rendelkező jelentések létrehozásához.
 
-Az Aspose.PDF for Java-t fogjuk használni, amely egy hatékony könyvtár, amely leegyszerűsíti a PDF-kezelést Java alkalmazásokban. Az Aspose.PDF segítségével könnyedén hozhat létre, módosíthat és kezelhet PDF dokumentumokat, beleértve az űrlapmezők dinamikus hozzáadását.
+Az Aspose.PDF for Java programot fogjuk használni, amely egy hatékony könyvtár, és leegyszerűsíti a PDF-ek kezelését Java alkalmazásokban. Az Aspose.PDF segítségével könnyedén hozhat létre, módosíthat és manipulálhat PDF dokumentumokat, beleértve az űrlapmezők dinamikus hozzáadását is.
 
 ## A környezet beállítása
 
 Mielőtt belemerülnénk a kódba, be kell állítania a fejlesztői környezetet. Kövesse az alábbi lépéseket:
 
-1.  Az Aspose.PDF for Java letöltése: Látogassa meg az Aspose webhelyét, és töltse le az Aspose.PDF for Java legújabb verzióját. Megtalálhatod[itt](https://releases.aspose.com/pdf/java/).
+1. Aspose.PDF letöltése Java-hoz: Látogasson el az Aspose weboldalára, és töltse le az Aspose.PDF legújabb verzióját Java-hoz. Megtalálhatja [itt](https://releases.aspose.com/pdf/java/).
 
-2. Az Aspose.PDF telepítése: A letöltés után telepítse az Aspose.PDF fájlt a webhelyen található telepítési utasításokat követve.
+2. Aspose.PDF telepítése: A letöltés után telepítse az Aspose.PDF fájlt a weboldalon található telepítési utasításokat követve.
 
-3. Java-projekt létrehozása: Hozzon létre egy új Java-projektet az előnyben részesített integrált fejlesztőkörnyezetben (IDE), és foglalja bele az Aspose.PDF könyvtárat a projektbe.
+3. Java projekt létrehozása: Hozzon létre egy új Java projektet a kívánt integrált fejlesztői környezetben (IDE), és vegye fel a projektbe az Aspose.PDF könyvtárat.
 
 ## Új PDF dokumentum létrehozása
 
-Kezdjük egy új PDF dokumentum létrehozásával. Ebben a példában egy egyszerű PDF-fájlt fogunk létrehozni címmel és néhány utasítással.
+Kezdjük egy új PDF dokumentum létrehozásával. Ebben a példában egy egyszerű PDF fájlt fogunk létrehozni egy címmel és néhány utasítással.
 
 ```java
 // Importálja az Aspose.PDF könyvtárat
@@ -40,95 +42,95 @@ import com.aspose.pdf.*;
 
 public class AddFormFieldPDF {
     public static void main(String[] args) {
-        // Hozzon létre egy új PDF dokumentumot
+        // Új PDF dokumentum létrehozása
         Document doc = new Document();
 
-        // Adjon hozzá egy oldalt a dokumentumhoz
+        // Oldal hozzáadása a dokumentumhoz
         Page page = doc.getPages().add();
 
-        // Adjon hozzá egy címsort
+        // Címsor hozzáadása
         TextFragment title = new TextFragment("Feedback Form");
         title.getTextState().setFontSize(18);
         title.getTextState().setFont(FontRepository.findFont("Arial"));
         page.getParagraphs().add(title);
 
-        // Adjon hozzá utasításokat
+        // Utasítások hozzáadása
         TextFragment instructions = new TextFragment("Please provide your feedback below:");
         instructions.getTextState().setFontSize(12);
         page.getParagraphs().add(instructions);
 
-        // Mentse el a dokumentumot fájlba
+        // Dokumentum mentése fájlba
         doc.save("FeedbackForm.pdf");
     }
 }
 ```
 
-Ebben a kódrészletben létrehozunk egy új PDF-dokumentumot, hozzáadunk egy oldalt, és beillesztünk egy címsort és néhány utasítást.
+Ebben a kódrészletben létrehozunk egy új PDF dokumentumot, hozzáadunk egy oldalt, beszúrunk egy címsort és néhány utasítást.
 
 ## Űrlapmezők hozzáadása
 
-Most lépjünk tovább az űrlapmezők PDF-dokumentumunkhoz való hozzáadására. Szövegmezőket, jelölőnégyzeteket és választógombokat helyezünk el az interaktív visszajelzési űrlap létrehozásához.
+Most pedig térjünk át az űrlapmezők PDF-dokumentumunkhoz való hozzáadására. Szövegmezőket, jelölőnégyzeteket és választógombokat fogunk hozzáadni egy interaktív visszajelzési űrlap létrehozásához.
 
 ### Szövegmezők
 
-A szövegmezők lehetővé teszik a felhasználók számára, hogy szöveget vigyenek be. A következőképpen adhat hozzá szövegmezőt:
+A szövegmezők lehetővé teszik a felhasználók számára szöveg bevitelét. Így adhat hozzá szövegmezőt:
 
 ```java
-// Hozzon létre egy szövegmezőt
+// Szövegmező létrehozása
 TextField textField = new TextField(page, new Rectangle(100, 300, 200, 20));
-textField.getPdfObject().setBorderStyle(new BorderStyle(1)); // Állítsa be a szegély stílusát
-textField.setPartialName("txtName"); // Állítsa be a mező nevét
+textField.getPdfObject().setBorderStyle(new BorderStyle(1)); // Szegélystílus beállítása
+textField.setPartialName("txtName"); // Mezőnév beállítása
 textField.setMultiline(false); // Többsoros letiltása
 page.getAnnotations().add(textField);
 ```
 
 ### Jelölőnégyzetek
 
-A jelölőnégyzetek a bináris opciókhoz használatosak (pl. igen/nem kérdések). A következőképpen adhat hozzá jelölőnégyzetet:
+A jelölőnégyzeteket bináris opciókhoz használjuk (pl. igen/nem kérdések). Így adhatsz hozzá egy jelölőnégyzetet:
 
 ```java
-// Hozzon létre egy jelölőnégyzetet
+// Hozz létre egy jelölőnégyzetet
 CheckboxField checkboxField = new CheckboxField(page, new Rectangle(100, 250, 20, 20));
-checkboxField.setPartialName("chkAgree"); // Állítsa be a mező nevét
+checkboxField.setPartialName("chkAgree"); // Mezőnév beállítása
 checkboxField.setChecked(false); // Kezdetben ellenőrizetlen
 page.getAnnotations().add(checkboxField);
 ```
 
 ### Rádiógombok
 
-A választógombok akkor használatosak, ha a felhasználóknak egy csoportból kell választaniuk egy lehetőséget. Mindegyik opció külön választógomb, de ugyanabba a csoportba tartoznak. A következőképpen adhat hozzá rádiógombokat:
+választógombokat akkor használjuk, ha a felhasználóknak egy csoportból kell kiválasztaniuk egy lehetőséget. Minden lehetőség különálló választógomb, de ugyanabba a csoportba tartoznak. Így adhat hozzá választógombokat:
 
 ```java
-// Hozzon létre rádiógombokat
+// Rádiógombok létrehozása
 RadioButtonOptionField option1 = new RadioButtonOptionField(page, new Rectangle(100, 200, 20, 20));
 RadioButtonOptionField option2 = new RadioButtonOptionField(page, new Rectangle(100, 180, 20, 20));
-option1.setPartialName("optYes"); // Állítsa be a mező nevét az 1. lehetőséghez
-option2.setPartialName("optNo"); // Állítsa be a mező nevét a 2. lehetőséghez
+option1.setPartialName("optYes"); // Mezőnév beállítása az 1. opcióhoz
+option2.setPartialName("optNo"); // Mezőnév beállítása a 2. opcióhoz
 
-//Beállítások hozzáadása egy választógomb-csoporthoz
+// Opciók hozzáadása egy választógomb-csoporthoz
 RadioButtonOptionField[] options = {option1, option2};
 RadioButtonField radioButtonField = new RadioButtonField(page, options);
 page.getAnnotations().add(radioButtonField);
 ```
 
-Ezekkel a kódpéldákkal szövegmezőket, jelölőnégyzeteket és választógombokat adhat hozzá PDF-dokumentumához. Győződjön meg arról, hogy szükség szerint testreszabja tulajdonságaikat, például a mezőneveket és az alapértelmezett értékeket.
+Ezekkel a kódpéldákkal szövegmezőket, jelölőnégyzeteket és választógombokat adhatsz hozzá a PDF dokumentumodhoz. Ügyelj arra, hogy szükség szerint testre szabd a tulajdonságaikat, például a mezőneveket és az alapértelmezett értékeket.
 
 ## Űrlapmezők testreszabása
 
-Az űrlapmezők testreszabása lehetővé teszi azok megjelenésének és viselkedésének szabályozását. Módosíthatja a tulajdonságokat, például a betűméretet, a szöveg színét, a szegélystílust és egyebeket.
+Az űrlapmezők testreszabásával szabályozhatja a megjelenésüket és viselkedésüket. Módosíthatja az olyan tulajdonságokat, mint a betűméret, a szöveg színe, a szegély stílusa és egyebek.
 
 ### Mezőtulajdonságok módosítása
 
-Tegyük fel, hogy módosítani szeretné egy szövegmező betűméretét és szövegszínét:
+Tegyük fel, hogy meg szeretnéd változtatni egy szövegmező betűméretét és szövegszínét:
 
 ```java
 textField.getTextState().setFontSize(14);
 textField.getTextState().setForegroundColor(Color.getGreen());
 ```
 
-### Mező érvényesítése
+### Mezőérvényesítés
 
-Érvényesítési szabályokat is beállíthat az űrlapmezőkhöz. Például megkövetelheti, hogy a felhasználók érvényes e-mail címet adjanak meg egy szövegmezőben:
+Űrlapmezőkhöz érvényesítési szabályokat is beállíthat. Például megkövetelheti a felhasználóktól, hogy érvényes e-mail címet adjanak meg egy szövegmezőben:
 
 ```java
 textField.getValidation().add(ValidationType.EMAIL);
@@ -136,22 +138,22 @@ textField.getValidation().add(ValidationType.EMAIL);
 
 ## Mezőértékek beállítása
 
-Az űrlapmezők adatokkal való előzetes kitöltéséhez beállíthatja az alapértelmezett értékeket programozottan. Ez sablonok létrehozásához vagy ismert információk előzetes kitöltéséhez hasznos.
+Az űrlapmezők adatokkal való előzetes feltöltéséhez programozott módon beállíthatja az alapértelmezett értékeket. Ez hasznos sablonok létrehozásához vagy ismert információk előzetes kitöltéséhez.
 
 ```java
-textField.setValue("John Doe"); // Állítsa be a szövegmező alapértelmezett értékét
+textField.setValue("John Doe"); // Alapértelmezett érték beállítása a szövegmezőhöz
 checkboxField.setChecked(true); // Alapértelmezés szerint jelölje be a jelölőnégyzetet
 ```
 
-## Űrlap benyújtása és érvényesítése
+## Űrlap beküldése és érvényesítése
 
-Az űrlapmezők hozzáadása csak a történet fele; te is akarod majd
+Az űrlapmezők hozzáadása csak a történet fele; azt is érdemes lesz
 
- hogy lehetővé tegye az űrlap beküldését és érvényesítését.
+ az űrlap beküldésének és érvényesítésének engedélyezéséhez.
 
-### Űrlap benyújtása
+### Űrlap beküldése
 
-Ahhoz, hogy a felhasználók elküldhessék az űrlapadatokat, meg kell adnia egy műveletet, például e-mail küldését vagy elküldését egy webszervernek. Íme egy példa a küldés gomb beállítására:
+Ahhoz, hogy a felhasználók elküldhessék az űrlap adatait, meg kell adnia egy műveletet, például e-mail küldését vagy webszerverre való elküldést. Íme egy példa a küldés gomb beállítására:
 
 ```java
 ButtonField submitButton = new ButtonField(page, new Rectangle(100, 50, 80, 30));
@@ -160,9 +162,9 @@ submitButton.getActions().getOnPushButton().add(new SubmitFormAction("https://yo
 page.getAnnotations().add(submitButton);
 ```
 
-### Űrlap érvényesítése
+### Űrlapérvényesítés
 
-Az érvényesítés biztosítja, hogy a felhasználói bevitel megfelel bizonyos feltételeknek. Például érvényesíthet egy telefonszám mezőt, hogy csak számokat fogadjon el:
+Az érvényesítés biztosítja, hogy a felhasználói bevitel megfeleljen a meghatározott kritériumoknak. Például érvényesíthet egy telefonszámmezőt, hogy csak számokat fogadjon el:
 
 ```java
 textField.getValidation().add(ValidationType.NUMBER);
@@ -170,19 +172,19 @@ textField.getValidation().add(ValidationType.NUMBER);
 
 ## Mentés és exportálás
 
-Miután létrehozta és testreszabta PDF-dokumentumát űrlapmezőkkel, ideje elmenteni vagy exportálni. Az Aspose.PDF különféle lehetőségeket kínál erre.
+Miután létrehoztad és testre szabtad a PDF dokumentumot űrlapmezőkkel, itt az ideje menteni vagy exportálni. Az Aspose.PDF erre számos lehetőséget kínál.
 
 ### Mentés helyi fájlba
 
-A PDF-dokumentum helyi fájlba mentéséhez használja a következő kódot:
+A PDF dokumentum helyi fájlba mentéséhez használja a következő kódot:
 
 ```java
 doc.save("FeedbackForm.pdf");
 ```
 
-### Mentés adatfolyamba
+### Mentés egy adatfolyamba
 
- A PDF-dokumentum adatfolyamba mentéséhez használhatja a`OutputStream` osztály:
+A PDF dokumentum adatfolyamba mentéséhez használhatja a `OutputStream` osztály:
 
 ```java
 OutputStream outputStream = new FileOutputStream("FeedbackForm.pdf");
@@ -192,32 +194,34 @@ outputStream.close();
 
 ## Következtetés
 
-Ebben az átfogó útmutatóban megvizsgáltuk, hogyan adhatunk űrlapmezőket PDF-dokumentumokhoz Java és Aspose.PDF for Java használatával. Megtanulta, hogyan hozhat létre szövegmezőket, jelölőnégyzeteket és választógombokat, hogyan szabhatja testre tulajdonságaikat, állítsa be az alapértelmezett értékeket, engedélyezze az űrlapok elküldését és érvényesítését, valamint hogyan mentheti/exportálhatja a PDF-dokumentumot.
+Ebben az átfogó útmutatóban azt vizsgáltuk meg, hogyan adhatsz hozzá űrlapmezőket egy PDF dokumentumhoz Java és az Aspose.PDF for Java használatával. Megtanultad, hogyan hozhatsz létre szövegmezőket, jelölőnégyzeteket és választógombokat, hogyan szabhatod testre tulajdonságaikat, hogyan állíthatsz be alapértelmezett értékeket, hogyan engedélyezheted az űrlapbeküldést és -érvényesítést, valamint hogyan mentheted/exportálhatod a PDF dokumentumot.
 
 ## GYIK
 
-### Hogyan állíthatok be egy legördülő listát PDF-formátumban?
+### Hogyan tudok legördülő listát beállítani egy PDF űrlapon?
 
- Legördülő lista (kombinált mező) létrehozásához PDF-formátumban használhatja a`ComboBoxField` osztályt az Aspose.PDF biztosítja Java számára. Kövesse a többi űrlapmezőhöz hasonló megközelítést, és testreszabja a beállításokat a segítségével`AddItem` módszer. Erről részletes dokumentációt talál az Aspose honlapján.
+Legördülő lista (kombinált lista) létrehozásához egy PDF űrlapon használhatja a `ComboBoxField` az Aspose.PDF által Java-hoz biztosított osztály. Kövesse a többi űrlapmezőhöz hasonló megközelítést, és szabja testre a beállításokat a `AddItem` metódus. Erről részletes dokumentációt talál az Aspose weboldalán.
 
-### Az Aspose.PDF for Java kompatibilis más Java könyvtárakkal és keretrendszerekkel?
+### Kompatibilis az Aspose.PDF for Java más Java könyvtárakkal és keretrendszerekkel?
 
-Igen, az Aspose.PDF for Java kompatibilis különféle Java könyvtárakkal és keretrendszerekkel. Integrálhatja Java-alkalmazásaiba, akár Spring, JavaFX vagy más népszerű keretrendszert használ. Ügyeljen arra, hogy ellenőrizze a dokumentációt és a forrásokat a konkrét integrációs irányelvekhez.
+Igen, az Aspose.PDF for Java kompatibilis a különféle Java könyvtárakkal és keretrendszerekkel. Integrálhatod Java alkalmazásaidba, akár Spring, JavaFX vagy más népszerű keretrendszereket használsz. A konkrét integrációs irányelvekért mindenképpen ellenőrizd a dokumentációt és a forrásokat.
 
-### Megvédhetem jelszóval az Aspose.PDF for Java programmal létrehozott PDF-űrlapot?
+### Jelszóval védhetek egy Aspose.PDF for Java programmal létrehozott PDF űrlapot?
 
-Teljesen! Az Aspose.PDF for Java lehetővé teszi, hogy jelszavas védelmet adjon PDF-dokumentumaihoz, beleértve az űrlapokat is. Felhasználói és tulajdonosi szintű jelszavakat is beállíthat a hozzáférés és az engedélyek korlátozására. Tekintse meg a dokumentációt a biztonsági funkció megvalósítására vonatkozó részletes utasításokért.
+Természetesen! Az Aspose.PDF for Java lehetővé teszi jelszóvédelem hozzáadását PDF-dokumentumaihoz, beleértve az űrlapokat is. Beállíthat felhasználói és tulajdonos szintű jelszavakat is a hozzáférés és az engedélyek korlátozásához. A biztonsági funkció megvalósításával kapcsolatos részletes utasításokért lásd a dokumentációt.
 
-### Hogyan bonthatom ki a PDF űrlapon keresztül benyújtott adatokat?
+### Hogyan tudom kinyerni a PDF űrlapon keresztül beküldött adatokat?
 
-PDF-űrlapon keresztül benyújtott adatok kinyeréséhez az űrlap beküldését a kiszolgálón vagy az alkalmazás háttérrendszerén kell kezelnie. Amikor egy felhasználó elküldi az űrlapot, Ön megkaphatja az adatokat, és szükség szerint feldolgozhatja azokat. Az Aspose.PDF eszközöket biztosít az űrlapadatok programozott kinyeréséhez a PDF dokumentumból a szerver oldalon.
+PDF űrlapon keresztül beküldött adatok kinyeréséhez a szerveren vagy az alkalmazás háttérrendszerén kell kezelnie az űrlap beküldését. Amikor egy felhasználó beküldi az űrlapot, Ön fogadhatja az adatokat, és szükség szerint feldolgozhatja azokat. Az Aspose.PDF eszközöket biztosít az űrlapadatok programozott kinyeréséhez a PDF dokumentumból a szerveroldalon.
 
-### Létrehozhatok-e dinamikusan PDF-űrlapokat a felhasználói bevitel alapján?
+### Dinamikusan generálhatok PDF űrlapokat a felhasználói bevitel alapján?
 
-Igen, dinamikusan generálhat PDF-űrlapokat a felhasználói bevitel alapján az Aspose.PDF for Java használatával. A felhasználói beviteltől vagy az alkalmazás logikájától függően PDF-dokumentumokat hozhat létre különböző űrlapmezőkkel és elrendezésekkel. Ez a rugalmasság lehetővé teszi az egyedi felhasználói igényekhez vagy forgatókönyvekhez szabott, testreszabott űrlapok létrehozását.
+Igen, dinamikusan generálhat PDF űrlapokat felhasználói bevitel alapján az Aspose.PDF for Java segítségével. A felhasználói beviteltől vagy az alkalmazás logikájától függően különböző űrlapmezőkkel és elrendezésekkel rendelkező PDF dokumentumokat hozhat létre. Ez a rugalmasság lehetővé teszi testreszabott űrlapok létrehozását, amelyek az adott felhasználói igényekhez vagy forgatókönyvekhez igazodnak.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

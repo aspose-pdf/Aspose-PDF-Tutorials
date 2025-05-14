@@ -1,17 +1,19 @@
 ---
-title: Mengganti Teks pada Ekspresi Reguler Dalam File PDF
-linktitle: Ganti Texton Regular Expression Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengganti teks berdasarkan ekspresi reguler dalam file PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengotomatiskan perubahan teks secara efisien.
-weight: 360
-url: /id/net/programming-with-text/replace-text-on-regular-expression/
+"description": "Pelajari cara mengganti teks berdasarkan ekspresi reguler dalam file PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengotomatiskan perubahan teks secara efisien."
+"linktitle": "Ganti Texton Regular Expression Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Mengganti Teks pada Ekspresi Reguler di File PDF"
+"url": "/id/net/programming-with-text/replace-text-on-regular-expression/"
+"weight": 360
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengganti Teks pada Ekspresi Reguler Dalam File PDF
+# Mengganti Teks pada Ekspresi Reguler di File PDF
 
 ## Perkenalan
 
@@ -21,7 +23,7 @@ Aspose.PDF untuk .NET adalah alat luar biasa yang memungkinkan pengembang untuk 
 
 Sebelum menyelami kodenya, mari pastikan Anda telah menyiapkan semuanya:
 
-1.  Aspose.PDF untuk .NET: Anda memerlukan versi terbaru Aspose.PDF untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Anda memerlukan versi terbaru Aspose.PDF untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/).
 2. IDE: Visual Studio atau Lingkungan Pengembangan Terpadu (IDE) lain yang kompatibel dengan .NET.
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework 4.0 atau yang lebih baru.
 4. Dokumen PDF: Contoh file PDF tempat Anda ingin mencari dan mengganti teks.
@@ -45,39 +47,39 @@ Sekarang mari kita bahas prosesnya langkah demi langkah. Ikuti langkah-langkahny
 
 ## Langkah 1: Muat Dokumen PDF
 
- Pertama, Anda perlu memuat dokumen PDF tempat Anda akan melakukan penggantian teks. Ini dilakukan dengan menggunakan`Document` kelas dari Aspose.PDF.
+Pertama, Anda perlu memuat dokumen PDF tempat Anda akan melakukan penggantian teks. Ini dilakukan dengan menggunakan `Document` kelas dari Aspose.PDF.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "SearchRegularExpressionPage.pdf");
 ```
 
- Pada langkah ini, ganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya tempat file PDF Anda disimpan. Kode ini membuka PDF dan memuatnya ke dalam`pdfDocument` objek, yang akan kita manipulasi pada langkah berikutnya.
+Pada langkah ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Kode ini membuka PDF dan memuatnya ke dalam `pdfDocument` objek, yang akan kita manipulasi pada langkah berikutnya.
 
 ## Langkah 2: Tentukan Ekspresi Reguler
 
- Sekarang setelah dokumen Anda dimuat, langkah selanjutnya adalah menentukan ekspresi reguler yang akan mencari pola teks yang Anda minati. Misalnya, jika Anda ingin mengganti rentang tahun seperti “1999-2000,” Anda dapat menggunakan ekspresi reguler`\d{4}-\d{4}`.
+Sekarang setelah dokumen Anda dimuat, langkah selanjutnya adalah menentukan ekspresi reguler yang akan mencari pola teks yang Anda minati. Misalnya, jika Anda ingin mengganti rentang tahun seperti “1999-2000,” Anda dapat menggunakan ekspresi reguler `\d{4}-\d{4}`.
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("\\d{4}-\\d{4}"); 
 ```
 
- Baris ini menyiapkan`TextFragmentAbsorber` yang akan mencari angka empat digit, diikuti tanda hubung, lalu angka empat digit lainnya. Anda dapat mengubah ekspresi reguler sesuai kebutuhan agar sesuai dengan kasus penggunaan spesifik Anda.
+Baris ini menyiapkan `TextFragmentAbsorber` yang akan mencari angka empat digit, diikuti tanda hubung, lalu angka empat digit lainnya. Anda dapat mengubah ekspresi reguler sesuai kebutuhan agar sesuai dengan kasus penggunaan spesifik Anda.
 
 ## Langkah 3: Aktifkan Opsi Pencarian Ekspresi Reguler
 
- Aspose.PDF memungkinkan Anda untuk menyempurnakan cara teks dicari. Dalam hal ini, kami akan mengaktifkan pencocokan ekspresi reguler menggunakan`TextSearchOptions` kelas.
+Aspose.PDF memungkinkan Anda untuk menyempurnakan cara teks dicari. Dalam hal ini, kami akan mengaktifkan pencocokan ekspresi reguler menggunakan `TextSearchOptions` kelas.
 
 ```csharp
 TextSearchOptions textSearchOptions = new TextSearchOptions(true);
 textFragmentAbsorber.TextSearchOptions = textSearchOptions;
 ```
 
- Dengan mengatur opsi ini ke`true`, Anda mengaktifkan penggunaan ekspresi reguler untuk pencarian dalam PDF.
+Dengan mengatur opsi ini ke `true`, Anda mengaktifkan penggunaan ekspresi reguler untuk pencarian dalam PDF.
 
 ## Langkah 4: Terapkan Penyerap ke Halaman Tertentu
 
- Selanjutnya, kita akan menerapkan`TextFragmentAbsorber` ke halaman tertentu dari dokumen. Contoh ini menerapkannya ke halaman pertama.
+Selanjutnya, kita akan menerapkan `TextFragmentAbsorber` ke halaman tertentu dari dokumen. Contoh ini menerapkannya ke halaman pertama.
 
 ```csharp
 pdfDocument.Pages[1].Accept(textFragmentAbsorber);
@@ -102,7 +104,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
- Di sini, Anda mengulang setiap fragmen teks yang cocok dengan ekspresi reguler. Untuk setiap kecocokan, teks diganti dengan`"New Phrase"`Anda juga dapat menyesuaikan font menjadi "Verdana", mengatur ukuran font menjadi 22, dan mengubah warna teks dan latar belakang.
+Di sini, Anda mengulang setiap fragmen teks yang cocok dengan ekspresi reguler. Untuk setiap kecocokan, teks diganti dengan `"New Phrase"`Anda juga dapat menyesuaikan font menjadi "Verdana", mengatur ukuran font menjadi 22, dan mengubah warna teks dan latar belakang.
 
 ## Langkah 6: Simpan Dokumen PDF yang Diperbarui
 
@@ -113,7 +115,7 @@ dataDir = dataDir + "ReplaceTextonRegularExpression_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Ini akan menyimpan PDF yang diperbarui dengan semua penggantian teks ke file baru bernama`ReplaceTextonRegularExpression_out.pdf`.
+Ini akan menyimpan PDF yang diperbarui dengan semua penggantian teks ke file baru bernama `ReplaceTextonRegularExpression_out.pdf`.
 
 ## Langkah 7: Verifikasi Perubahan
 
@@ -132,7 +134,7 @@ Anda telah berhasil mengganti teks dalam file PDF berdasarkan ekspresi reguler m
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menggunakan beberapa ekspresi reguler dalam satu dokumen?
- Ya, Anda dapat membuat beberapa`TextFragmentAbsorber` objek, masing-masing dengan ekspresi reguler yang berbeda, dan menerapkannya ke dokumen.
+Ya, Anda dapat membuat beberapa `TextFragmentAbsorber` objek, masing-masing dengan ekspresi reguler yang berbeda, dan menerapkannya ke dokumen.
 
 ### Apakah Aspose.PDF untuk .NET kompatibel dengan .NET Core?
 Ya, Aspose.PDF untuk .NET mendukung .NET Framework dan .NET Core.
@@ -145,9 +147,11 @@ Anda dapat mengubah ekspresi reguler agar tidak peka huruf besar/kecil dengan me
 
 ### Bisakah saya mengganti gambar dalam berkas PDF?
 Ya, Aspose.PDF untuk .NET juga mendukung penggantian dan manipulasi gambar dalam dokumen PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

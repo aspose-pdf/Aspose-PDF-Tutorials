@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/get-number-of-pages/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Number of Pages In PDF File
@@ -116,6 +118,7 @@ Absolutely! You can request a temporary license to try out the full features of 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

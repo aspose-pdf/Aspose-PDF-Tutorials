@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ To further explore the capabilities of Aspose.PDF, consider diving into more adv
 Happy coding, and we hope this guide helps you streamline your PDF booklet creation process!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,57 +1,62 @@
 ---
-title: Vytvořit PDF s tabulkami a stránkami pomocí Aspose.PDF 
-weight: 7700
-limit: 
-description: Naučte se vytvářet PDF dokument, přidávat tabulky s hranicemi a implementovat paginování pomocí Aspose.PDF pro .NET. Pokroková příručka s příklady kódu.  
-keywords: [Aspose.PDF for .NET, create PDF in C#, add table to PDF, set table border, pagination in PDF, generate PDF, insert page break, .NET PDF library]
-url: /cs/net/tables/insert-page-break/
+"description": "Naučte se, jak vytvořit dokument PDF, přidat tabulky s ohraničením a implementovat stránkování pomocí Aspose.PDF pro .NET. Podrobný návod s příklady kódu."
+"title": "Vytvořte PDF s tabulkami a stránkováním pomocí Aspose.PDF"
+"url": "/cs/net/tables/insert-page-break/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořit PDF s tabulkami a stránkami
+# Vytvořte PDF s tabulkami a stránkováním
  
-Aspose.PDF pro .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a konverzovat PDF dokumenty programaticky. V tomto příkladu ukážeme, jak vytvořit soubor PDF, přidat tabulku s červenými hranicemi, vyplnit ji 200 řádky a vložit automatické přestávky stránek po každých 10 řádcích. Tento přístup zajišťuje strukturované formátování obsahu a bezproblémové paginování pro velké sady dat.  
+Aspose.PDF pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět dokumenty PDF. V tomto příkladu si ukážeme, jak vygenerovat soubor PDF, přidat tabulku s červenými okraji, naplnit ji 200 řádky a vložit automatické zalomení stránek po každých 10 řádcích. Tento přístup zajišťuje strukturované formátování obsahu a bezproblémové stránkování pro velké datové sady.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/insert-page-break/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Návod k instalaci  
-Chcete-li začít s Aspose.PDF pro .NET, postupujte podle následujících kroků:  
+## Pokyny k instalaci  
+Chcete-li začít s Aspose.PDF pro .NET, postupujte takto:  
 
-1. Instalace pomocí NuGet Package Manager  
-   * Otevřete svůj projekt ve Visual Studio.  
-   * Přejděte na Nástroje > Správce balíčků NuGet > Správa balíčků NuGet pro řešení.  
-   * Vyhledat Aspose.PDF a kliknout na Instalovat.  
+1. Instalace pomocí Správce balíčků NuGet  
+   - Otevřete svůj projekt ve Visual Studiu.  
+   - Přejděte do nabídky Nástroje > Správce balíčků NuGet > Spravovat balíčky NuGet pro řešení.  
+   - Vyhledejte Aspose.PDF a klikněte na Instalovat.  
 
-   Alternativně použijte následující příkaz v konzoli správce balíčků:  
+   Nebo použijte v konzoli Správce balíčků následující příkaz:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. Stáhnout manuálně  
-   * Získejte nejnovější verzi z[Aspose.PDF Sundejte](https://releases.aspose.com/pdf/net/)\- Ne , ne .  
-   * Přidejte odkaz na Aspose.PDF.dll ve vašem projektu.  
+2. Ruční stažení DLL  
+   - Získejte nejnovější verzi z [Aspose.PDF ke stažení](https://releases.aspose.com/pdf/net/).  
+   - Přidejte do projektu odkaz na soubor Aspose.PDF.dll.  
 
-3. Žádost o licenci (nepovinné)  
-   * Pokud používáte bezplatnou verzi, můžete se setkat s vodní značkami nebo omezeními.  
-   * Koupit si licenci od[Nákupní plán](https://purchase.aspose.com/buy)nebo požádat o[Dočasná licence](https://purchase.aspose.com/temporary-license/)\- Ne , ne .  
-   * Použijte licenci ve svém kódu:  
+3. Použít licenci (volitelné)  
+   - Pokud používáte bezplatnou zkušební verzi, můžete se setkat s vodoznaky nebo omezeními.  
+   - Zakupte si licenci od [Nákup Aspose](https://purchase.aspose.com/buy) nebo požádejte o [Dočasná licence](https://purchase.aspose.com/temporary-license/).  
+   - Použijte licenci ve svém kódu:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.PDF.lic");
      ```
 
-## Pro podrobnější
-dokumentace, návštěva [Aspose.PDF pro .NET dokumentaci](https://docs.aspose.com/pdf/net/)\- Ne , ne .  
-Podívejte se na odkaz API na[Aspose.PDF pro .NET API Reference](https://reference.aspose.com/pdf/net/)\- Ne , ne .
+## Pro podrobné informace
+dokumentace, návštěva [Dokumentace k souboru Aspose.PDF pro .NET](https://docs.aspose.com/pdf/net/).  
+Podívejte se na referenční příručku API na adrese [Aspose.PDF pro referenční příručku k .NET API](https://reference.aspose.com/pdf/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

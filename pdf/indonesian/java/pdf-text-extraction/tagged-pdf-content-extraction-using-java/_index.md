@@ -1,14 +1,16 @@
 ---
-title: Ekstraksi Konten PDF yang Ditandai menggunakan Java
-linktitle: Ekstraksi Konten PDF yang Ditandai menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Manfaatkan kekuatan ekstraksi konten PDF yang diberi tag di Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah ini menyediakan contoh kode sumber untuk akses yang lancar ke konten PDF terstruktur.
-weight: 12
-url: /id/java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/
+"description": "Manfaatkan kekuatan ekstraksi konten PDF yang diberi tag di Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah ini menyediakan contoh kode sumber untuk akses yang lancar ke konten PDF terstruktur."
+"linktitle": "Ekstraksi Konten PDF yang Ditandai menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ekstraksi Konten PDF yang Ditandai menggunakan Java"
+"url": "/id/java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstraksi Konten PDF yang Ditandai menggunakan Java
@@ -26,7 +28,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
 1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
 
-2.  Aspose.PDF untuk Perpustakaan Java: Anda dapat mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/pdf/java/)Sertakan dalam proyek Java Anda.
+2. Aspose.PDF untuk Perpustakaan Java: Anda dapat mengunduh perpustakaan dari [Di Sini](https://releases.aspose.com/pdf/java/)Sertakan dalam proyek Java Anda.
 
 ## Langkah 1: Buat Proyek Java
 
@@ -47,7 +49,7 @@ public class TaggedPDFExtractor {
 }
 ```
 
- Mengganti`"path_to_tagged_pdf.pdf"` dengan jalur sebenarnya ke berkas PDF yang diberi tag.
+Mengganti `"path_to_tagged_pdf.pdf"` dengan jalur sebenarnya ke berkas PDF yang diberi tag.
 
 ## Langkah 3: Ekstrak Konten yang Ditandai
 
@@ -107,10 +109,12 @@ Mengekstrak konten dari PDF yang diberi tag menggunakan Java dan Aspose.PDF untu
    Aspose.PDF untuk Java adalah pustaka komersial, tetapi menyediakan uji coba gratis untuk tujuan evaluasi.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.PDF untuk Java?
-    Lihat dokumentasi API di[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) untuk informasi dan contoh terperinci.
+   Lihat dokumentasi API di [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) untuk informasi dan contoh terperinci.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

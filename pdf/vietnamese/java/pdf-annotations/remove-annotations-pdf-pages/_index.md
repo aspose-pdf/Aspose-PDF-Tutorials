@@ -1,14 +1,16 @@
 ---
-title: Xóa chú thích khỏi trang PDF
-linktitle: Xóa chú thích khỏi trang PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách xóa chú thích PDF dễ dàng với Aspose.PDF cho Java. Hướng dẫn từng bước và mã đi kèm.
-weight: 11
-url: /vi/java/pdf-annotations/remove-annotations-pdf-pages/
+"description": "Tìm hiểu cách xóa chú thích PDF dễ dàng với Aspose.PDF cho Java. Hướng dẫn từng bước và mã kèm theo."
+"linktitle": "Xóa chú thích khỏi trang PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Xóa chú thích khỏi trang PDF"
+"url": "/vi/java/pdf-annotations/remove-annotations-pdf-pages/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa chú thích khỏi trang PDF
@@ -22,7 +24,7 @@ Aspose.PDF for Java là một thư viện mạnh mẽ cho phép các nhà phát 
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
--  Aspose.PDF cho Java: Đảm bảo bạn đã cài đặt và cấu hình thư viện Aspose.PDF cho Java trong dự án Java của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Java: Đảm bảo bạn đã cài đặt và cấu hình thư viện Aspose.PDF cho Java trong dự án Java của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Tải một tài liệu PDF
 
@@ -33,12 +35,12 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Thay thế`"example.pdf"` với đường dẫn đến tệp PDF của bạn.
+Thay thế `"example.pdf"` với đường dẫn đến tệp PDF của bạn.
 
 
 ## Xác định và truy cập chú thích
 
-Chú thích trong PDF có thể có nhiều dạng khác nhau, chẳng hạn như ghi chú văn bản, phần tô sáng hoặc hình dạng. Để xóa chúng, bạn cần xác định và truy cập vào các chú thích cụ thể mà bạn muốn xóa. Bạn có thể thực hiện việc này bằng API của Aspose.PDF for Java:
+Chú thích trong PDF có thể có nhiều dạng khác nhau, chẳng hạn như ghi chú văn bản, đánh dấu hoặc hình dạng. Để xóa chúng, bạn cần xác định và truy cập vào các chú thích cụ thể mà bạn muốn xóa. Bạn có thể thực hiện việc này bằng API của Aspose.PDF for Java:
 
 ```java
 // Truy cập trang đầu tiên của tài liệu
@@ -66,7 +68,7 @@ Sau khi xóa chú thích, bạn cần lưu tài liệu PDF đã sửa đổi:
 pdfDocument.save("modified.pdf");
 ```
 
- Thay thế`"modified.pdf"` với tên tập tin đầu ra mong muốn.
+Thay thế `"modified.pdf"` với tên tập tin đầu ra mong muốn.
 
 ## Phần kết luận
 
@@ -76,7 +78,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách xóa chú thích kh
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp.
+Bạn có thể tải xuống Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp.
 
 ### Tôi có thể xóa các loại chú thích cụ thể, chẳng hạn như chỉ xóa bình luận văn bản không?
 
@@ -92,10 +94,12 @@ Có, Aspose.PDF for Java hỗ trợ làm việc với các tệp PDF được m�
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể khám phá tài liệu chi tiết và ví dụ trên trang tài liệu Aspose.PDF cho Java:[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể khám phá tài liệu chi tiết và ví dụ trên trang tài liệu Aspose.PDF cho Java: [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Konversi SVG ke Format PDF
-linktitle: Konversi SVG ke Format PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengonversi SVG ke PDF dengan mudah menggunakan Aspose.PDF untuk Java dalam panduan langkah demi langkah ini. Buat dokumen PDF berkualitas tinggi dari file SVG Anda dengan mudah.
-weight: 24
-url: /id/java/pdf-conversion-transformation/convert-svg-to-pdf-format/
+"description": "Pelajari cara mengonversi SVG ke PDF dengan mudah menggunakan Aspose.PDF untuk Java dalam panduan langkah demi langkah ini. Buat dokumen PDF berkualitas tinggi dari file SVG Anda dengan mudah."
+"linktitle": "Konversi SVG ke Format PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Konversi SVG ke Format PDF"
+"url": "/id/java/pdf-conversion-transformation/convert-svg-to-pdf-format/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi SVG ke Format PDF
@@ -35,7 +37,7 @@ Sekarang, mari selami proses langkah demi langkah mengonversi SVG ke PDF menggun
 
 ## Memulai dengan Aspose.PDF untuk Java
 
- Sebelum kita mulai, pastikan Anda telah menginstal Aspose.PDF untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+Sebelum kita mulai, pastikan Anda telah menginstal Aspose.PDF untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Lingkungan Pengembangan Anda
 
@@ -50,13 +52,13 @@ import com.aspose.pdf.Document;
 import com.aspose.pdf.SvgLoadOptions;
 ```
 
-3.  Membuat Objek Dokumen: Inisialisasi`Document`objek untuk bekerja dengan berkas PDF.
+3. Membuat Objek Dokumen: Inisialisasi `Document` objek untuk bekerja dengan berkas PDF.
 
 ```java
 Document pdfDocument = new Document();
 ```
 
-4.  Muat File SVG: Muat file SVG yang ingin Anda ubah ke PDF menggunakan`SvgLoadOptions` kelas.
+4. Muat File SVG: Muat file SVG yang ingin Anda ubah ke PDF menggunakan `SvgLoadOptions` kelas.
 
 ```java
 SvgLoadOptions svgLoadOptions = new SvgLoadOptions();
@@ -78,7 +80,7 @@ pdfDocument.save("output.pdf");
 
 ## Menambahkan Metadata ke PDF
 
- Anda juga dapat menambahkan metadata ke dokumen PDF Anda, seperti judul, penulis, dan kata kunci, dengan menggunakan`DocumentInfo` kelas.
+Anda juga dapat menambahkan metadata ke dokumen PDF Anda, seperti judul, penulis, dan kata kunci, dengan menggunakan `DocumentInfo` kelas.
 
 ```java
 pdfDocument.getInfo().setTitle("Converted PDF");
@@ -106,7 +108,7 @@ Dalam panduan lengkap ini, Anda telah mempelajari cara mengonversi SVG ke format
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Untuk menginstal Aspose.PDF untuk Java, unduh pustaka dari[Di Sini](https://releases.aspose.com/pdf/java/) dan menambahkannya ke dependensi proyek Java Anda.
+Untuk menginstal Aspose.PDF untuk Java, unduh pustaka dari [Di Sini](https://releases.aspose.com/pdf/java/) dan menambahkannya ke dependensi proyek Java Anda.
 
 ### Bisakah saya mengonversi beberapa berkas SVG ke PDF sekaligus?
 
@@ -122,10 +124,12 @@ Ya, Anda dapat menyesuaikan tampilan PDF yang dikonversi dengan menyesuaikan uku
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh?
 
- Anda dapat menemukan dokumentasi dan contoh lengkap untuk Aspose.PDF untuk Java di situs web Aspose di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi dan contoh lengkap untuk Aspose.PDF untuk Java di situs web Aspose di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ustaw język i tytuł
-linktitle: Ustaw język i tytuł
-second_title: Aspose.PDF dla .NET API Reference
-description: Przewodnik krok po kroku, jak skonfigurować język i tytuł dokumentu PDF za pomocą Aspose.PDF dla .NET. Twórz spersonalizowane dokumenty wielojęzyczne.
-weight: 140
-url: /pl/net/programming-with-tagged-pdf/setup-language-and-title/
+"description": "Przewodnik krok po kroku, jak skonfigurować język i tytuł dokumentu PDF za pomocą Aspose.PDF dla .NET. Twórz spersonalizowane dokumenty wielojęzyczne."
+"linktitle": "Ustaw język i tytuł"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ustaw język i tytuł"
+"url": "/pl/net/programming-with-tagged-pdf/setup-language-and-title/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw język i tytuł
@@ -22,7 +24,7 @@ Tworzenie oznaczonych plików PDF jest kluczową czynnością zapewniającą dos
 Zanim zanurzysz się w świecie oznaczonych plików PDF, zbierzmy wszystko, czego potrzebujesz. Oto, co powinieneś mieć przygotowane:
 
 - Podstawowa znajomość .NET: Chociaż nie musisz być wybitnym programistą, znajomość koncepcji .NET sprawi, że Twoja przygoda stanie się łatwiejsza.
--  Aspose.PDF dla .NET zainstalowany: Upewnij się, że biblioteka jest zainstalowana. Możesz ją pobrać w celu oceny lub kupić licencję. Sprawdź[pobierz stronę tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET zainstalowany: Upewnij się, że biblioteka jest zainstalowana. Możesz ją pobrać w celu oceny lub kupić licencję. Sprawdź [pobierz stronę tutaj](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Tutaj napiszesz i przetestujesz swój kod. Jeśli go nie masz, pobierz go ze strony internetowej Microsoft.
 - Znajomość języka C#: Ten przewodnik jest napisany w języku C#. Nieco doświadczenia z językiem C# z pewnością pomoże Ci bez wysiłku przejść przez części kodowania.
 
@@ -57,7 +59,7 @@ Następnie należy zdefiniować, gdzie będą przechowywane Twoje dokumenty. Pot
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie chcesz zapisać plik PDF. To jest podobne do znalezienia miejsca parkingowego dla nowego samochodu.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie chcesz zapisać plik PDF. To jest podobne do znalezienia miejsca parkingowego dla nowego samochodu.
 
 ## Krok 3: Pobierz oznaczoną treść
 
@@ -67,7 +69,7 @@ Teraz uzyskajmy dostęp do oznaczonej zawartości naszego dokumentu. Oznaczona z
 Tagged.ITaggedContent taggedContent = document.TaggedContent;
 ```
 
-ten sposób zyskujesz możliwość ustrukturyzowania swojego pliku PDF, podobnie jak tworzysz konspekt książki przed jej faktycznym napisaniem.
+W ten sposób zyskujesz możliwość ustrukturyzowania swojego pliku PDF, podobnie jak tworzysz konspekt książki przed jej napisaniem.
 
 ## Krok 4: Ustaw tytuł i język
 
@@ -133,7 +135,7 @@ pFR.Language = "fr-FR";
 taggedContent.RootElement.AppendChild(pFR);
 ```
 
-Po raz kolejny stawiamy na różnorodność, uwzględniając tekst w języku francuskim. 
+Po raz kolejny stawiamy na różnorodność, włączając tekst w języku francuskim. 
 
 ### Dodawanie akapitu hiszpańskiego
 
@@ -175,13 +177,15 @@ Aspose.PDF dla platformy .NET udostępnia różne klasy i metody umożliwiające
 Tak! Aspose.PDF obsługuje wiele języków, co pozwala na dodawanie treści w różnych językach w tym samym dokumencie PDF.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF?
-Chociaż możesz wypróbować go za darmo, licencja jest wymagana do użytku produkcyjnego. Rozważ odwiedzenie[strona zakupu](https://purchase.aspose.com/buy) Aby uzyskać więcej informacji.
+Chociaż możesz wypróbować go za darmo, licencja jest wymagana do użytku produkcyjnego. Rozważ odwiedzenie [strona zakupu](https://purchase.aspose.com/buy) Aby uzyskać więcej informacji.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.PDF?
- Można znaleźć kompleksową dokumentację i pomoc dla Aspose.PDF[Tutaj](https://reference.aspose.com/pdf/net/).
+Można znaleźć kompleksową dokumentację i pomoc dla Aspose.PDF [Tutaj](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

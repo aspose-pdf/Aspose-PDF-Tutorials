@@ -1,46 +1,51 @@
 ---
-title: สร้างและปรับปรุง PDF ด้วยภาพ โดยใช้ Aspose.PDF สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการสร้างเอกสาร PDF, การใส่ภาพ, ปรับขนาดของมัน, และตั้งสมบัติหน้าการใช้ Aspose.PDF สําหรับ .NET. ตัวอย่างโค้ดเต็มรวม
-keywords: [Aspose.PDF for .NET, create PDF in C#, add image to PDF, resize image in PDF, PDF manipulation, .NET PDF library, save PDF in C#]
-url: /th/net/images/set-image-size/
+"description": "เรียนรู้วิธีการสร้างเอกสาร PDF แทรกภาพ ปรับขนาด และตั้งค่าคุณสมบัติของหน้าโดยใช้ Aspose.PDF สำหรับ .NET มีตัวอย่างโค้ดฉบับสมบูรณ์รวมอยู่ด้วย"
+"title": "สร้างและแก้ไข PDF ด้วยรูปภาพโดยใช้ Aspose.PDF สำหรับ .NET"
+"url": "/th/net/images/set-image-size/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างและปรับปรุง PDF ด้วยภาพ โดยใช้ Aspose.PDF
+# สร้างและแก้ไข PDF ด้วยรูปภาพโดยใช้ Aspose.PDF
 
-Aspose.PDF สําหรับ .NET เป็นห้องสมุดที่มีความสามารถที่ทําให้ผู้พัฒนาสามารถสร้าง, แก้ไข และปรับปรุงเอกสาร PDF ได้ด้วยโปรแกรม. ในตัวอย่างนี้ คุณจะได้เรียนรู้วิธีการสร้างเอกสาร PDF, เพิ่มภาพ, ปรับขนาดของมัน และปรับปรุงคุณสมบัติหน้า โดยใช้ C#. รหัสแสดงการเริ่มต้นเอกสาร PDF, การใส่ภาพ, การตั้งขนาดหน้า และการบันทึกไฟล์สุดท้าย ไม่ว่าคุณกําลังทํางานกับรายงาน, ใบชําระเงิน, หรือเนื้อหาแบบไดนามิก, ทิวทอเรียลนี้ให้วิธีง่าย ๆ แต่มีประสิทธิภาพในการจัดการภาพภายใน PDF โดยใช้ Aspose.PDF สําหรับ .NET  
+Aspose.PDF สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และจัดการเอกสาร PDF ได้ด้วยโปรแกรม ในตัวอย่างนี้ คุณจะได้เรียนรู้วิธีสร้างเอกสาร PDF เพิ่มรูปภาพ ปรับขนาด และปรับเปลี่ยนคุณสมบัติของหน้าโดยใช้ C# โค้ดจะสาธิตการเริ่มต้นเอกสาร PDF การแทรกรูปภาพ การตั้งค่าขนาดหน้า และการบันทึกไฟล์สุดท้าย ไม่ว่าคุณจะทำงานกับรายงาน ใบแจ้งหนี้ หรือเนื้อหาแบบไดนามิก บทช่วยสอนนี้จะให้วิธีการที่เรียบง่ายแต่มีประสิทธิภาพในการจัดการรูปภาพภายใน PDF โดยใช้ Aspose.PDF สำหรับ .NET  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/set-image-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## คําแนะนําการติดตั้ง:  
+## คำแนะนำในการติดตั้ง:  
 
-เพื่อใช้ Aspose.PDF สําหรับ .NET ในโครงการของคุณ, ทําตามขั้นตอนต่อไปนี้:  
+หากต้องการใช้ Aspose.PDF สำหรับ .NET ในโครงการของคุณ ให้ทำตามขั้นตอนเหล่านี้:  
 
-1. อุปกรณ์ติดตั้งผ่าน NuGet Package Manager:  
-เปิด Visual Studio และทํางานคําสั่งต่อไปนี้ใน Package Manager Console:  
+1. ติดตั้งผ่านตัวจัดการแพ็กเกจ NuGet:  
+เปิด Visual Studio และเรียกใช้คำสั่งต่อไปนี้ในคอนโซลตัวจัดการแพ็คเกจ:  
 ```powershell
 Install-Package Aspose.PDF
 ```
 
-2. เพิ่มพื้นที่ชื่อใน C# Code:  
+2. เพิ่มเนมสเปซในโค้ด C# ของคุณ:  
 ```csharp
 using Aspose.Pdf;
 ```
 
-## สําหรับรายละเอียดเพิ่มเติม โปรดไปที่:  
-[Aspose.PDF สําหรับ .NET Documentation](https://docs.aspose.com/pdf/net/)  
-[อ้างอิง API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
+## สำหรับรายละเอียดเพิ่มเติม โปรดไปที่:  
+[Aspose.PDF สำหรับเอกสาร .NET](https://docs.aspose.com/pdf/net/)  
+[เอกสารอ้างอิง API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

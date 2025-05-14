@@ -8,7 +8,9 @@ url: /net/annotations/setfreetextannotationformatting/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Free Text Annotation Formatting
@@ -157,6 +159,7 @@ You can purchase a license for Aspose.PDF [here](https://purchase.aspose.com/buy
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

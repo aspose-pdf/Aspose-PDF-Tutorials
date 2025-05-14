@@ -1,14 +1,16 @@
 ---
-title: Ambil Bookmark dari Dokumen PDF
-linktitle: Ambil Bookmark dari Dokumen PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengambil bookmark PDF secara efisien menggunakan Aspose.PDF untuk Java dalam panduan komprehensif ini.
-weight: 15
-url: /id/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/
+"description": "Pelajari cara mengambil bookmark PDF secara efisien menggunakan Aspose.PDF untuk Java dalam panduan komprehensif ini."
+"linktitle": "Ambil Bookmark dari Dokumen PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ambil Bookmark dari Dokumen PDF"
+"url": "/id/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ambil Bookmark dari Dokumen PDF
@@ -102,7 +104,7 @@ Mengambil bookmark dari dokumen PDF menggunakan Aspose.PDF untuk Java merupakan 
 
 ### Bagaimana cara menambahkan Aspose.PDF untuk Java ke proyek saya?
 
- Anda dapat menambahkan Aspose.PDF untuk Java ke proyek Anda dengan mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/) dan mengikuti petunjuk instalasi.
+Anda dapat menambahkan Aspose.PDF untuk Java ke proyek Anda dengan mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/) dan mengikuti petunjuk instalasi.
 
 ### Bisakah saya menyesuaikan tampilan bookmark yang diambil?
 
@@ -118,10 +120,12 @@ Ya, Aspose.PDF untuk Java mungkin memerlukan lisensi yang valid untuk kasus peng
 
 ### Di mana saya dapat mengakses dokumentasi dan dukungan lebih lanjut?
 
- Anda dapat menemukan dokumentasi dan dukungan komprehensif untuk Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi dan dukungan komprehensif untuk Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

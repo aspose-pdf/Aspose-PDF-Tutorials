@@ -1,14 +1,16 @@
 ---
-title: अरबी पाठ भरना
-linktitle: अरबी पाठ भरना
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ॉर्म में अरबी टेक्स्ट भरना सीखें। अपने PDF हेरफेर कौशल को बढ़ाएँ।
-weight: 20
-url: /hi/net/programming-with-forms/arabic-text-filling/
+"description": "इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ॉर्म में अरबी टेक्स्ट भरना सीखें। अपने PDF हेरफेर कौशल को बढ़ाएँ।"
+"linktitle": "अरबी पाठ भरना"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "अरबी पाठ भरना"
+"url": "/hi/net/programming-with-forms/arabic-text-filling/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # अरबी पाठ भरना
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-forms/arabic-text-filling/
 इससे पहले कि हम कोड में उतरें, कुछ पूर्व-आवश्यकताएं हैं जो आपके पास होनी चाहिए:
 
 1. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग भाषा से परिचित होने से आपको उदाहरणों को बेहतर ढंग से समझने में मदद मिलेगी।
-2.  .NET के लिए Aspose.PDF: आपके पास Aspose.PDF लाइब्रेरी इंस्टॉल होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपके पास Aspose.PDF लाइब्रेरी इंस्टॉल होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 3. विज़ुअल स्टूडियो: आपके कोड को लिखने और परीक्षण करने के लिए विज़ुअल स्टूडियो जैसे विकास वातावरण की अनुशंसा की जाती है।
 4. एक पीडीएफ फॉर्म: आपके पास कम से कम एक टेक्स्ट बॉक्स फ़ील्ड वाला एक पीडीएफ फॉर्म होना चाहिए जहाँ आप अरबी टेक्स्ट भरना चाहते हैं। आप किसी भी पीडीएफ एडिटर का उपयोग करके एक सरल पीडीएफ फॉर्म बना सकते हैं।
 
@@ -47,11 +49,11 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपका पीडीएफ फॉर्म संग्रहीत है।
+प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपका पीडीएफ फॉर्म संग्रहीत है।
 
 ## चरण 2: पीडीएफ फॉर्म लोड करें
 
- इसके बाद, आपको वह पीडीएफ फॉर्म लोड करना होगा जिसे आप भरना चाहते हैं। यह एक का उपयोग करके किया जाता है`FileStream` पीडीएफ फाइल पढ़ने के लिए.
+इसके बाद, आपको वह पीडीएफ फॉर्म लोड करना होगा जिसे आप भरना चाहते हैं। यह एक का उपयोग करके किया जाता है `FileStream` पीडीएफ फाइल पढ़ने के लिए.
 
 ```csharp
 using (FileStream fs = new FileStream(dataDir + "FillFormField.pdf", FileMode.Open, FileAccess.ReadWrite))
@@ -65,7 +67,7 @@ using (FileStream fs = new FileStream(dataDir + "FillFormField.pdf", FileMode.Op
 
 ## चरण 3: TextBoxField तक पहुँचें
 
- एक बार पीडीएफ दस्तावेज़ लोड हो जाने के बाद, आपको उस विशिष्ट फ़ॉर्म फ़ील्ड तक पहुँचने की ज़रूरत है जहाँ आप अरबी पाठ भरना चाहते हैं। इस मामले में, हम नाम वाले टेक्स्ट बॉक्स फ़ील्ड की तलाश कर रहे हैं`"textbox1"`.
+एक बार पीडीएफ दस्तावेज़ लोड हो जाने के बाद, आपको उस विशिष्ट फ़ॉर्म फ़ील्ड तक पहुँचने की ज़रूरत है जहाँ आप अरबी पाठ भरना चाहते हैं। इस मामले में, हम नाम वाले टेक्स्ट बॉक्स फ़ील्ड की तलाश कर रहे हैं `"textbox1"`.
 
 ```csharp
 TextBoxField txtFld = pdfDocument.Form["textbox1"] as TextBoxField;
@@ -92,7 +94,7 @@ dataDir = dataDir + "ArabicTextFilling_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- यह भरे हुए पीडीएफ को इस रूप में सहेजता है`ArabicTextFilling_out.pdf` निर्दिष्ट निर्देशिका में.
+यह भरे हुए पीडीएफ को इस रूप में सहेजता है `ArabicTextFilling_out.pdf` निर्दिष्ट निर्देशिका में.
 
 ## चरण 6: ऑपरेशन की पुष्टि करें
 
@@ -106,7 +108,7 @@ Console.WriteLine("\nArabic text filled successfully in form field.\nFile saved 
 
 ## निष्कर्ष
 
-.NET के लिए Aspose.PDF का उपयोग करके PDF फ़ॉर्म में अरबी टेक्स्ट भरना एक सरल प्रक्रिया है जो आपके एप्लिकेशन की कार्यक्षमता को महत्वपूर्ण रूप से बढ़ा सकती है। इस ट्यूटोरियल में बताए गए चरणों का पालन करके, आप अरबी-भाषी उपयोगकर्ताओं की ज़रूरतों को ध्यान में रखते हुए PDF फ़ॉर्म में आसानी से बदलाव कर सकते हैं। चाहे आप फ़ॉर्म भरने वाला एप्लिकेशन विकसित कर रहे हों या रिपोर्ट तैयार कर रहे हों, Aspose.PDF आपको सफल होने के लिए ज़रूरी टूल प्रदान करता है।
+.NET के लिए Aspose.PDF का उपयोग करके PDF फ़ॉर्म में अरबी टेक्स्ट भरना एक सरल प्रक्रिया है जो आपके एप्लिकेशन की कार्यक्षमता को महत्वपूर्ण रूप से बढ़ा सकती है। इस ट्यूटोरियल में बताए गए चरणों का पालन करके, आप अरबी-भाषी उपयोगकर्ताओं की ज़रूरतों को पूरा करने के लिए PDF फ़ॉर्म में आसानी से हेरफेर कर सकते हैं। चाहे आप फ़ॉर्म भरने वाला एप्लिकेशन विकसित कर रहे हों या रिपोर्ट तैयार कर रहे हों, Aspose.PDF आपको सफल होने के लिए ज़रूरी टूल प्रदान करता है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -117,16 +119,18 @@ Console.WriteLine("\nArabic text filled successfully in form field.\nFile saved 
 हां, Aspose.PDF अरबी, अंग्रेजी, फ्रेंच और अन्य सहित कई भाषाओं का समर्थन करता है।
 
 ### मैं .NET के लिए Aspose.PDF कहां से डाउनलोड कर सकता हूं?
- आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/pdf/net/).
+आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/pdf/net/).
 
 ### क्या कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप परीक्षण संस्करण डाउनलोड करके Aspose.PDF को निःशुल्क आज़मा सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप परीक्षण संस्करण डाउनलोड करके Aspose.PDF को निःशुल्क आज़मा सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- आप यहां जाकर सहायता प्राप्त कर सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/pdf/10).
+आप यहां जाकर सहायता प्राप्त कर सकते हैं [Aspose फ़ोरम](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

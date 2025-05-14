@@ -1,14 +1,16 @@
 ---
-title: Ganti Halaman Teks Dalam File PDF
-linktitle: Ganti Halaman Teks Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengganti teks dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sesuaikan font, warna, dan properti teks dengan mudah.
-weight: 370
-url: /id/net/programming-with-text/replace-text-page/
+"description": "Pelajari cara mengganti teks dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sesuaikan font, warna, dan properti teks dengan mudah."
+"linktitle": "Ganti Halaman Teks Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ganti Halaman Teks Dalam File PDF"
+"url": "/id/net/programming-with-text/replace-text-page/"
+"weight": 370
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ganti Halaman Teks Dalam File PDF
@@ -21,10 +23,10 @@ Apakah Anda bekerja dengan file PDF dan perlu mengganti teks tertentu? Baik Anda
 
 Sebelum kita membahas seluk-beluk penggantian teks dalam berkas PDF, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Pustaka Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF untuk .NET. Jika Anda belum memilikinya, Anda dapat mengunduhnya[unduh disini](https://releases.aspose.com/pdf/net/) atau[cobalah secara gratis](https://releases.aspose.com/).
+1. Pustaka Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF untuk .NET. Jika Anda belum memilikinya, Anda dapat mengunduhnya [unduh disini](https://releases.aspose.com/pdf/net/) atau [cobalah secara gratis](https://releases.aspose.com/).
 2. Lingkungan Pengembangan: Anda harus memiliki lingkungan pengembangan .NET yang berfungsi seperti Visual Studio.
 3. Pengetahuan Dasar C#: Meskipun tutorial ini mudah, pemahaman dasar tentang C# akan membantu Anda menavigasi proses dengan mudah.
-4. Lisensi Sementara (Opsional): Untuk membuka semua fitur, Anda mungkin memerlukan lisensi. Anda bisa mendapatkannya[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/).
+4. Lisensi Sementara (Opsional): Untuk membuka semua fitur, Anda mungkin memerlukan lisensi. Anda bisa mendapatkannya [lisensi sementara di sini](https://purchase.aspose.com/temporary-license/).
 
 ## Paket Impor
 
@@ -47,7 +49,7 @@ Pertama-tama, Anda perlu menentukan direktori tempat file PDF Anda berada. Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Baris ini menunjuk ke folder tempat PDF asli Anda disimpan. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
+Baris ini menunjuk ke folder tempat PDF asli Anda disimpan. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
 
 ## Langkah 2: Muat Dokumen PDF
 
@@ -58,29 +60,29 @@ Pada langkah ini, Anda akan memuat berkas PDF ke dalam kode sehingga Anda dapat 
 Document pdfDocument = new Document(dataDir + "ReplaceTextPage.pdf");
 ```
 
- Di sini, kami memuat file PDF bernama`ReplaceTextPage.pdf` dari`dataDir` folder. Ganti nama file ini dengan nama file PDF Anda yang sebenarnya.
+Di sini, kami memuat file PDF bernama `ReplaceTextPage.pdf` dari `dataDir` folder. Ganti nama file ini dengan nama file PDF Anda yang sebenarnya.
 
 ## Langkah 3: Buat Objek Penyerap Teks
 
-TextAbsorber adalah objek yang disediakan oleh Aspose.PDF untuk menemukan teks tertentu dalam dokumen PDF. Pada langkah ini, Anda akan membuat`TextFragmentAbsorber` untuk mencari frasa yang ingin Anda ganti.
+TextAbsorber adalah objek yang disediakan oleh Aspose.PDF untuk menemukan teks tertentu dalam dokumen PDF. Pada langkah ini, Anda akan membuat `TextFragmentAbsorber` untuk mencari frasa yang ingin Anda ganti.
 
 ```csharp
 // Buat objek TextAbsorber untuk menemukan semua contoh frasa pencarian input
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
 
- Itu`TextFragmentAbsorber` mengambil parameter string, yang merupakan teks yang ingin Anda cari di PDF. Ganti`"text"` dengan frasa sebenarnya yang ingin Anda cari dan ganti.
+Itu `TextFragmentAbsorber` mengambil parameter string, yang merupakan teks yang ingin Anda cari di PDF. Ganti `"text"` dengan frasa sebenarnya yang ingin Anda cari dan ganti.
 
 ## Langkah 4: Terima Text Absorber pada Halaman Tertentu
 
-Sekarang setelah kita menyiapkan penyerap teks, kita akan menerapkannya ke halaman tertentu di PDF. Misalnya, kita ingin mencari dan mengganti teks di halaman 2 dokumen.
+Sekarang setelah kita menyiapkan penyerap teks, kita akan menerapkannya ke halaman tertentu dalam PDF. Misalnya, kita ingin mencari dan mengganti teks pada halaman 2 dokumen.
 
 ```csharp
 // Terima penyerap untuk halaman tertentu
 pdfDocument.Pages[2].Accept(textFragmentAbsorber);
 ```
 
- Dalam contoh ini,`pdfDocument.Pages[2]` merujuk ke halaman kedua PDF. Anda dapat mengubah nomor halaman berdasarkan lokasi teks target Anda.
+Dalam contoh ini, `pdfDocument.Pages[2]` merujuk ke halaman kedua PDF. Anda dapat mengubah nomor halaman berdasarkan lokasi teks target Anda.
 
 ## Langkah 5: Ambil Fragmen Teks
 
@@ -91,7 +93,7 @@ Setelah penyerap teks melakukan tugasnya, kita perlu mengambil semua kemunculan 
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
 
- Kode ini mengumpulkan semua contoh frasa yang dicari ke dalam`TextFragmentCollection`.
+Kode ini mengumpulkan semua contoh frasa yang dicari ke dalam `TextFragmentCollection`.
 
 ## Langkah 6: Ganti Teks dan Ubah Properti
 
@@ -110,7 +112,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
- Di Sini,`"New Phrase"` adalah teks yang ingin Anda ganti dengan teks asli. Anda juga dapat mengubah fon menjadi Verdana, mengatur ukuran fon menjadi 22, dan menerapkan warna khusus. Jangan ragu untuk mengubah properti ini sesuai kebutuhan Anda!
+Di Sini, `"New Phrase"` adalah teks yang ingin Anda ganti dengan teks asli. Anda juga dapat mengubah font menjadi Verdana, mengatur ukuran font menjadi 22, dan menerapkan warna khusus. Jangan ragu untuk mengubah properti ini sesuai kebutuhan Anda!
 
 ## Langkah 7: Simpan PDF yang Diperbarui
 
@@ -121,7 +123,7 @@ Langkah terakhir adalah menyimpan PDF yang telah dimodifikasi. Anda akan membuat
 pdfDocument.Save(dataDir + "ReplaceTextPage_out.pdf");
 ```
 
- Dalam contoh ini, PDF yang diperbarui akan disimpan dengan nama`ReplaceTextPage_out.pdf`Anda dapat mengubah nama berkas sesuai kebutuhan.
+Dalam contoh ini, PDF yang diperbarui akan disimpan dengan nama `ReplaceTextPage_out.pdf`Anda dapat mengubah nama berkas sesuai kebutuhan.
 
 ## Kesimpulan
 
@@ -130,22 +132,24 @@ Nah, itu dia! Mengganti teks dalam PDF menggunakan Aspose.PDF untuk .NET semudah
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengganti beberapa frasa berbeda dalam satu berkas PDF?
- Ya, Anda dapat membuat beberapa`TextFragmentAbsorber` objek untuk setiap frasa yang ingin Anda ganti dan terapkan sebagaimana mestinya.
+Ya, Anda dapat membuat beberapa `TextFragmentAbsorber` objek untuk setiap frasa yang ingin Anda ganti dan terapkan sebagaimana mestinya.
 
 ### Apakah mungkin untuk mengganti teks di bagian halaman tertentu?
 Tentu saja! Anda dapat menyempurnakan area pencarian di dalam halaman dengan menentukan batas persegi panjang tempat Anda ingin melakukan pencarian teks.
 
 ### Bagaimana jika font yang ingin saya gunakan tidak terpasang di komputer saya?
- Jika font tidak tersedia secara lokal, Anda dapat menyematkan font di dokumen PDF atau menggunakan`FontRepository` untuk memuat font khusus.
+Jika font tidak tersedia secara lokal, Anda dapat menyematkan font di dokumen PDF atau menggunakan `FontRepository` untuk memuat font khusus.
 
 ### Bagaimana cara menghapus teks dan bukan menggantinya?
 Untuk menghapus teks, cukup ganti dengan string kosong (`""`).
 
 ### Apakah pustaka Aspose.PDF mendukung penggantian teks dalam PDF yang dilindungi kata sandi?
 Ya, tetapi Anda perlu membuka kunci PDF dengan memberikan kata sandi sebelum melakukan penggantian teks.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

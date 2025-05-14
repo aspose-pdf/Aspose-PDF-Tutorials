@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Nama Gambar yang Tertanam dalam File PDF menggunakan Java
-linktitle: Dapatkan Nama Gambar yang Tertanam dalam File PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengekstrak nama gambar tertanam dari file PDF menggunakan Java dan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk ekstraksi data PDF yang efisien.
-weight: 14
-url: /id/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/
+"description": "Pelajari cara mengekstrak nama gambar tertanam dari file PDF menggunakan Java dan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk ekstraksi data PDF yang efisien."
+"linktitle": "Dapatkan Nama Gambar yang Tertanam dalam File PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Dapatkan Nama Gambar yang Tertanam dalam File PDF menggunakan Java"
+"url": "/id/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Nama Gambar yang Tertanam dalam File PDF menggunakan Java
@@ -42,7 +44,7 @@ Aspose.PDF untuk Java adalah pustaka yang hebat untuk bekerja dengan dokumen PDF
 
 ## Memuat File PDF
 
- Pada langkah ini, kita akan menulis kode Java untuk memuat file PDF ke dalam aplikasi kita. Anda harus mengganti`"input.pdf"` dengan jalur ke berkas PDF Anda.
+Pada langkah ini, kita akan menulis kode Java untuk memuat file PDF ke dalam aplikasi kita. Anda harus mengganti `"input.pdf"` dengan jalur ke berkas PDF Anda.
 
 ```java
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("input.pdf");
@@ -104,9 +106,11 @@ Jika Anda mengalami masalah atau memiliki pertanyaan tentang penggunaan Aspose.P
 ### Apakah Aspose.PDF untuk Java gratis untuk digunakan?
 
 Aspose.PDF untuk Java adalah pustaka komersial dengan uji coba gratis yang tersedia. Anda dapat menjelajahi fitur-fiturnya selama masa uji coba dan mempertimbangkan untuk membeli lisensi agar dapat terus digunakan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

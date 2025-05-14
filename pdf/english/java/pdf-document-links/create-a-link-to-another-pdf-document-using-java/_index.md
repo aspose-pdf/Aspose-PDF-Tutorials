@@ -8,7 +8,9 @@ url: /java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a Link to Another PDF Document using Java
@@ -108,6 +110,7 @@ Absolutely! Aspose.PDF for Java provides extensive options for customizing link 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

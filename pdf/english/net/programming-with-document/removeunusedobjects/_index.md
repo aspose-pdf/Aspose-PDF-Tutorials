@@ -8,7 +8,9 @@ url: /net/programming-with-document/removeunusedobjects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Unused Objects In PDF File
@@ -122,6 +124,7 @@ Yes, Aspose.PDF for .NET requires a license to unlock all features. You can obta
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

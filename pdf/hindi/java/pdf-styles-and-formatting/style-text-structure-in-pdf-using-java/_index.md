@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ में टेक्स्ट संरचना को स्टाइल करें
-linktitle: जावा का उपयोग करके पीडीएफ में टेक्स्ट संरचना को स्टाइल करें
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: हमारे चरण-दर-चरण गाइड के साथ जावा का उपयोग करके PDF में टेक्स्ट संरचनाओं को स्टाइल करना सीखें। पेशेवर दिखने वाले दस्तावेज़ों के लिए फ़ॉन्ट, रंग, हाइपरलिंक और बहुत कुछ कस्टमाइज़ करें।
-weight: 11
-url: /hi/java/pdf-styles-and-formatting/style-text-structure-in-pdf-using-java/
+"description": "हमारे चरण-दर-चरण गाइड के साथ जावा का उपयोग करके PDF में टेक्स्ट संरचनाओं को स्टाइल करना सीखें। पेशेवर दिखने वाले दस्तावेज़ों के लिए फ़ॉन्ट, रंग, हाइपरलिंक और बहुत कुछ कस्टमाइज़ करें।"
+"linktitle": "जावा का उपयोग करके पीडीएफ में टेक्स्ट संरचना को स्टाइल करें"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ में टेक्स्ट संरचना को स्टाइल करें"
+"url": "/hi/java/pdf-styles-and-formatting/style-text-structure-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ में टेक्स्ट संरचना को स्टाइल करें
@@ -29,7 +31,7 @@ url: /hi/java/pdf-styles-and-formatting/style-text-structure-in-pdf-using-java/
 
 जावा का उपयोग करके पीडीएफ में टेक्स्ट को स्टाइल करना शुरू करने के लिए, आपको अपना डेवलपमेंट एनवायरनमेंट सेट अप करना होगा। इन चरणों का पालन करें:
 
-1.  Aspose.PDF for Java लाइब्रेरी को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/pdf/java/).
+1. Aspose.PDF for Java लाइब्रेरी को यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/pdf/java/).
 
 2. अपने जावा प्रोजेक्ट में लाइब्रेरी को शामिल करें।
 
@@ -46,7 +48,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 // दस्तावेज़ में एक पृष्ठ जोड़ें
 pdfDocument.getPages().add();
 
-// एक TextFragment ऑब्जेक्ट बनाएँ
+// TextFragment ऑब्जेक्ट बनाएँ
 com.aspose.pdf.TextFragment textFragment = new com.aspose.pdf.TextFragment("Hello, PDF!");
 
 // पृष्ठ पर TextFragment जोड़ें
@@ -188,7 +190,7 @@ page.getParagraphs().add(watermark);
 
 ### मैं पीडीएफ में टेक्स्ट का फ़ॉन्ट कैसे बदलूं?
 
- पीडीएफ में टेक्स्ट का फ़ॉन्ट बदलने के लिए, का उपयोग करें`setTextState()` विधि का उपयोग करके वांछित फ़ॉन्ट निर्दिष्ट करें`setFont()`। उदाहरण के लिए:
+पीडीएफ में पाठ का फ़ॉन्ट बदलने के लिए, का उपयोग करें `setTextState()` विधि का उपयोग करके वांछित फ़ॉन्ट निर्दिष्ट करें `setFont()`। उदाहरण के लिए:
 
 ```java
 textFragment.getTextState().setFont(FontRepository.findFont("Arial"));
@@ -196,11 +198,11 @@ textFragment.getTextState().setFont(FontRepository.findFont("Arial"));
 
 ### क्या मैं Java के लिए Aspose.PDF का उपयोग करके अपने PDF में हाइपरलिंक जोड़ सकता हूँ?
 
- हां, आप जावा के लिए Aspose.PDF का उपयोग करके अपने पीडीएफ में हाइपरलिंक जोड़ सकते हैं।`Hyperlink` लिंक बनाने और क्रियाएँ निर्दिष्ट करने के लिए क्लास, जैसे URL खोलना।
+हां, आप Aspose.PDF for Java का उपयोग करके अपने PDF में हाइपरलिंक जोड़ सकते हैं। `Hyperlink` लिंक बनाने और क्रियाएँ निर्दिष्ट करने के लिए क्लास, जैसे URL खोलना।
 
 ### पीडीएफ में पृष्ठ विराम को संभालने का अनुशंसित तरीका क्या है?
 
- PDF में पृष्ठ विराम को संभालने के लिए, सेट करें`IsAutoTruncated` और`IsWordWrapped` गुण`true` में`TextState`यह सुनिश्चित करता है कि पाठ को पृष्ठ की सीमाओं के भीतर फिट करने के लिए ठीक से काटा और लपेटा गया है।
+PDF में पृष्ठ विराम को संभालने के लिए, सेट करें `IsAutoTruncated` और `IsWordWrapped` गुण `true` में `TextState`यह सुनिश्चित करता है कि पाठ को पृष्ठ की सीमाओं के भीतर फिट करने के लिए ठीक से काटा और लपेटा गया है।
 
 ### मैं अपने पीडीएफ दस्तावेज़ों को वॉटरमार्क से कैसे सुरक्षित रख सकता हूँ?
 
@@ -208,10 +210,12 @@ textFragment.getTextState().setFont(FontRepository.findFont("Arial"));
 
 ### मैं Java के लिए Aspose.PDF के बारे में अधिक जानकारी और दस्तावेज़ कहां पा सकता हूं?
 
- आप Java के लिए Aspose.PDF का विस्तृत दस्तावेज़ीकरण यहां पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/java/).
+आप Java के लिए Aspose.PDF का विस्तृत दस्तावेज़ीकरण यहां पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Gömülü Kaynak Kullanarak Lisans Ayarla
-linktitle: Gömülü Kaynak Kullanarak Lisans Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı kılavuzla Aspose.PDF for .NET'in gücünü açığa çıkarın. Lisansları ayarlamayı, PDF'leri düzenlemeyi ve daha fazlasını öğrenin.
-weight: 50
-url: /tr/net/licensing-aspose-pdf/set-license-using-embedded-resource/
+"description": "Bu kapsamlı kılavuzla Aspose.PDF for .NET'in gücünü açığa çıkarın. Lisansları ayarlamayı, PDF'leri düzenlemeyi ve daha fazlasını öğrenin."
+"linktitle": "Gömülü Kaynak Kullanarak Lisans Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Gömülü Kaynak Kullanarak Lisans Ayarla"
+"url": "/tr/net/licensing-aspose-pdf/set-license-using-embedded-resource/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gömülü Kaynak Kullanarak Lisans Ayarla
@@ -23,7 +25,7 @@ Koda geçmeden önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu eğitim için kullanacağımız IDE bu.
 2. .NET Framework: .NET Framework'ün yüklü olduğundan emin olun. Aspose.PDF çeşitli sürümleri destekler, bu nedenle uyumluluk için belgeleri kontrol edin.
-3.  Aspose.PDF Kütüphanesi: Kütüphaneyi şu adresten indirebilirsiniz:[Aspose PDF for .NET sürümleri sayfası](https://releases.aspose.com/pdf/net/)İsterseniz önce denemek için ücretsiz deneme seçeneğini de tercih edebilirsiniz.
+3. Aspose.PDF Kütüphanesi: Kütüphaneyi şu adresten indirebilirsiniz: [Aspose PDF for .NET sürümleri sayfası](https://releases.aspose.com/pdf/net/)İsterseniz önce denemek için ücretsiz deneme seçeneğini de tercih edebilirsiniz.
 4. Temel C# Bilgisi: C# programlamaya aşinalık, örnekleri daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -52,11 +54,11 @@ Lisansı ayarlamadan önce, belgeler dizininize giden yolu belirtmeniz gerekir. 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızı depolamak istediğiniz gerçek yol ile. Bu adım çok önemlidir çünkü kütüphanenin lisans dosyasını nerede arayacağını bilmesi gerekir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızı depolamak istediğiniz gerçek yol ile. Bu adım çok önemlidir çünkü kütüphanenin lisans dosyasını nerede arayacağını bilmesi gerekir.
 
 ## Adım 2: Lisans Nesnesini Başlatın
 
- Daha sonra, bir örnek oluşturmanız gerekir`License` Aspose.PDF tarafından sağlanan sınıf. Bu nesne lisansınızı ayarlamak için kullanılacaktır.
+Daha sonra, bir örnek oluşturmanız gerekir `License` Aspose.PDF tarafından sağlanan sınıf. Bu nesne lisansınızı ayarlamak için kullanılacaktır.
 
 ```csharp
 // Lisans nesnesini başlat
@@ -69,14 +71,14 @@ Bu kod satırı lisans nesnesini başlatır ve lisansı ayarlayacağımız bir s
 
 ### Lisansın Uygulanması
 
-Şimdi heyecan verici kısım geliyor: lisansı ayarlama! Aspose.PDF'e lisans dosyanızı kullanmasını söylediğiniz yer burasıdır. Lisans dosyanız gömülü bir kaynaksa, bunu şu şekilde ayarlayabilirsiniz:
+Şimdi heyecan verici kısım geliyor: lisansı ayarlama! Aspose.PDF'e lisans dosyanızı kullanmasını söylediğiniz yer burası. Lisans dosyanız gömülü bir kaynaksa, bunu şu şekilde ayarlayabilirsiniz:
 
 ```csharp
 // Lisans ayarla
 // lisans.SetLicense("MergedAPI.Aspose.Total.lic");
 ```
 
- Satırın yorumunu kaldırdığınızdan ve değiştirdiğinizden emin olun`"MergedAPI.Aspose.Total.lic"` lisans dosyanızın gerçek adıyla. Bu adım, Aspose.PDF kütüphanesinin tüm potansiyelini ortaya çıkarmak için önemlidir.
+Satırın yorumunu kaldırdığınızdan ve değiştirdiğinizden emin olun `"MergedAPI.Aspose.Total.lic"` lisans dosyanızın gerçek adıyla. Bu adım, Aspose.PDF kütüphanesinin tüm potansiyelini ortaya çıkarmak için önemlidir.
 
 ## Adım 4: Lisans Ayarını Onaylayın
 
@@ -100,19 +102,21 @@ Tebrikler! Aspose.PDF for .NET'i nasıl kuracağınızı ve kullanacağınızı 
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve değiştirmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF için lisansı nasıl ayarlarım?
- Lisansı, bir lisans oluşturarak ayarlayabilirsiniz.`License` nesne ve kullanımı`SetLicense` Lisans dosyanızın yolunu içeren yöntem.
+Lisansı, bir lisans oluşturarak ayarlayabilirsiniz. `License` nesne ve kullanımı `SetLicense` Lisans dosyanızın yolunu içeren yöntem.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
 Evet, Aspose satın almadan önce kütüphaneyi test edebilmeniz için ücretsiz deneme sürümü sunuyor.
 
 ### Aspose.PDF'in dokümanlarını nerede bulabilirim?
- Belgeler bulunabilir[Burada](https://reference.aspose.com/pdf/net/).
+Belgeler bulunabilir [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Sorunla karşılaşırsam ne yapmalıyım?
- Herhangi bir sorunla karşılaşırsanız, yardım isteyebilirsiniz.[Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Herhangi bir sorunla karşılaşırsanız, yardım isteyebilirsiniz. [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

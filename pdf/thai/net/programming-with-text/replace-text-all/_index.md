@@ -1,14 +1,16 @@
 ---
-title: แทนที่ข้อความทั้งหมดในไฟล์ PDF
-linktitle: แทนที่ข้อความทั้งหมดในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการแทนที่ข้อความในไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET พร้อมคู่มือฉบับสมบูรณ์พร้อมตัวอย่างโค้ด
-weight: 350
-url: /th/net/programming-with-text/replace-text-all/
+"description": "เรียนรู้วิธีการแทนที่ข้อความในไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET พร้อมคู่มือฉบับสมบูรณ์พร้อมตัวอย่างโค้ด"
+"linktitle": "แทนที่ข้อความทั้งหมดในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "แทนที่ข้อความทั้งหมดในไฟล์ PDF"
+"url": "/th/net/programming-with-text/replace-text-all/"
+"weight": 350
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทนที่ข้อความทั้งหมดในไฟล์ PDF
@@ -21,7 +23,7 @@ url: /th/net/programming-with-text/replace-text-all/
 
 ก่อนที่เราจะเริ่มออกเดินทาง เรามาตรวจสอบกันก่อนว่าคุณพร้อมแล้วหรือยัง นี่คือสิ่งของที่คุณต้องมี:
 
-1.  Aspose.PDF สำหรับ .NET: ก่อนอื่นเลย คุณต้องติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้อย่างง่ายดายจาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: ก่อนอื่นเลย คุณต้องติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้อย่างง่ายดายจาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 2. สภาพแวดล้อม .NET: ตรวจสอบว่าคุณมีสภาพแวดล้อม .NET ที่ใช้งานได้ เช่น Visual Studio ตรวจสอบให้แน่ใจว่าโครงการของคุณกำหนดเป้าหมายไปที่ .NET Framework หรือ .NET Core ที่เข้ากันได้กับ Aspose.PDF
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะทำให้การปฏิบัติตามคู่มือนี้ราบรื่นยิ่งขึ้น
 
@@ -46,7 +48,7 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
- นี่จะบอกโครงการของคุณว่าคุณต้องการใช้`Aspose.Pdf` ไลบรารีสำหรับทำงานกับไฟล์ PDF
+นี่จะบอกโครงการของคุณว่าคุณต้องการใช้ `Aspose.Pdf` ไลบรารีสำหรับทำงานกับไฟล์ PDF
 
 ตอนนี้คุณพร้อมแล้ว มาดูขั้นตอนการแทนที่ข้อความในไฟล์ PDF ทีละขั้นตอนกัน ไม่ต้องกังวล ฉันจะอธิบายทุกอย่างให้ฟัง ดังนั้นจึงทำตามได้ง่ายมาก
 
@@ -58,27 +60,27 @@ using Aspose.Pdf.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่จัดเก็บไฟล์ PDF ที่มีอยู่ของคุณ เหมือนกับการให้แผนที่แก่โปรแกรมของคุณเพื่อค้นหาสมบัติ!
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่จัดเก็บไฟล์ PDF ที่มีอยู่ของคุณ เหมือนกับการให้แผนที่แก่โปรแกรมของคุณเพื่อค้นหาสมบัติ!
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร
 
- จากนั้นคุณต้องโหลดเอกสาร PDF ลงในโปรแกรมของคุณโดยใช้`Document` ระดับ.
+ขั้นตอนต่อไป คุณต้องโหลดเอกสาร PDF ลงในโปรแกรมของคุณโดยใช้ `Document` ระดับ.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "ReplaceTextAll.pdf");
 ```
 
- ที่นี่คุณกำลังเปิดไฟล์ PDF ที่ชื่อ`ReplaceTextAll.pdf`คิดว่าขั้นตอนนี้คือการปลดล็อคหนังสือเพื่ออ่านเนื้อหา
+ที่นี่คุณกำลังเปิดไฟล์ PDF ที่ชื่อ `ReplaceTextAll.pdf`คิดว่าขั้นตอนนี้คือการปลดล็อคหนังสือเพื่ออ่านเนื้อหา
 
 ## ขั้นตอนที่ 3: สร้าง Text Absorber
 
- ตอนนี้คุณจะสร้าง`TextFragmentAbsorber`ซึ่งเป็นวัตถุเฉพาะทางที่ช่วยในการค้นหาอินสแตนซ์ของข้อความที่คุณต้องการแทนที่ 
+ตอนนี้คุณจะสร้าง `TextFragmentAbsorber`ซึ่งเป็นวัตถุเฉพาะทางที่ช่วยในการค้นหาอินสแตนซ์ของข้อความที่คุณต้องการแทนที่ 
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
 
- ในบรรทัดนี้ให้แทนที่`"text"` โดยใช้ข้อความจริงที่คุณกำลังค้นหา ซึ่งคล้ายกับการใช้ปากกาเน้นข้อความเพื่อทำเครื่องหมายคำบนหน้ากระดาษ
+ในบรรทัดนี้ให้แทนที่ `"text"` โดยใช้ข้อความจริงที่คุณกำลังค้นหา ซึ่งคล้ายกับการใช้ปากกาเน้นข้อความเพื่อทำเครื่องหมายคำบนหน้ากระดาษ
 
 ## ขั้นตอนที่ 4: ยอมรับตัวดูดซับสำหรับทุกหน้า
 
@@ -102,12 +104,12 @@ TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragmen
 
 ## ขั้นตอนที่ 6: วนซ้ำผ่านชิ้นส่วนข้อความ
 
-นี่คือจุดที่เวทมนตร์เกิดขึ้น เมื่อคุณรวบรวมชิ้นส่วนข้อความทั้งหมดแล้ว คุณสามารถวนซ้ำแต่ละอินสแตนซ์ที่ต้องแทนที่ได้ 
+นี่คือจุดที่เวทมนตร์เกิดขึ้น เมื่อคุณรวบรวมชิ้นส่วนข้อความทั้งหมดแล้ว คุณสามารถวนซ้ำผ่านแต่ละอินสแตนซ์ที่ต้องแทนที่ได้ 
 
 ```csharp
 foreach (TextFragment textFragment in textFragmentCollection)
 {
-    // โค้ดสำหรับอัพเดทข้อความและคุณสมบัติอื่น ๆ
+    // โค้ดสำหรับอัพเดทข้อความและคุณสมบัติอื่นๆ
 }
 ```
 
@@ -120,12 +122,12 @@ foreach (TextFragment textFragment in textFragmentCollection)
 ```csharp
 textFragment.Text = "TEXT"; // ข้อความใหม่
 textFragment.TextState.Font = FontRepository.FindFont("Verdana"); // ฟอนต์ใหม่
-textFragment.TextState.FontSize = 22; //ขนาดตัวอักษรใหม่
+textFragment.TextState.FontSize = 22; // ขนาดตัวอักษรใหม่
 textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Blue); // สีข้อความ
 textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green); // สีพื้นหลัง
 ```
 
- แทนที่`"TEXT"` ด้วยข้อความใหม่ที่คุณต้องการแทรกเข้าไป ซึ่งจะทำให้คุณไม่เพียงแต่เปลี่ยนข้อความเท่านั้น แต่ยังปรับเปลี่ยนรูปลักษณ์ของข้อความได้อีกด้วย
+แทนที่ `"TEXT"` ด้วยข้อความใหม่ที่คุณต้องการแทรกเข้าไป วิธีนี้ช่วยให้คุณไม่เพียงแต่เปลี่ยนข้อความเท่านั้น แต่ยังปรับเปลี่ยนรูปลักษณ์ของข้อความได้อีกด้วย
 
 ## ขั้นตอนที่ 8: บันทึกเอกสาร
 
@@ -136,7 +138,7 @@ dataDir = dataDir + "ReplaceTextAll_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- บรรทัดนี้จะบันทึก PDF ที่อัปเดตของคุณเป็น`ReplaceTextAll_out.pdf`. มันเหมือนกับการปิดผนึกหนังสือของคุณหลังจากที่คุณแก้ไขเสร็จแล้ว!
+บรรทัดนี้จะบันทึก PDF ที่อัปเดตของคุณเป็น `ReplaceTextAll_out.pdf`. มันเหมือนกับการปิดผนึกหนังสือของคุณหลังจากที่คุณแก้ไขเสร็จแล้ว!
 
 ## ขั้นตอนที่ 9: ยืนยันการเปลี่ยนแปลง
 
@@ -146,7 +148,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nText replaced successfully.\nFile saved at " + dataDir);
 ```
 
-คำติชมนี้เปรียบเสมือนกับการได้รับคำตอบว่า “คุณทำได้แล้ว!” เมื่อคุณทำโปรเจ็กต์ที่ท้าทายเสร็จ
+คำติชมนี้เปรียบเสมือนกับการได้รับคำบอกว่า “คุณทำได้แล้ว!” เมื่อคุณทำโปรเจ็กต์ที่ท้าทายเสร็จ
 
 ## บทสรุป
 
@@ -158,19 +160,21 @@ Console.WriteLine("\nText replaced successfully.\nFile saved at " + dataDir);
 ใช่ คุณสามารถทำซ้ำผ่าน TextFragmentCollection และใช้เงื่อนไขต่าง ๆ เพื่อแทนที่ข้อความต่าง ๆ ได้
 
 ### .NET เวอร์ชันใดบ้างที่เข้ากันได้กับ Aspose.PDF?
- Aspose.PDF รองรับหลายเวอร์ชัน รวมถึง .NET Framework และ .NET Core ตรวจสอบเสมอ[เอกสารประกอบ](https://reference.aspose.com/pdf/net/) เพื่อความเข้ากันได้
+Aspose.PDF รองรับหลายเวอร์ชัน รวมถึง .NET Framework และ .NET Core ตรวจสอบเสมอ [เอกสารประกอบ](https://reference.aspose.com/pdf/net/) เพื่อความเข้ากันได้
 
 ### มีวิธีรับ Aspose.PDF รุ่นทดลองใช้งานฟรีหรือไม่
- แน่นอน! คุณสามารถรับรุ่นทดลองใช้ Aspose.PDF ฟรีได้จาก[หน้าวางจำหน่าย](https://releases.aspose.com/).
+แน่นอน! คุณสามารถรับรุ่นทดลองใช้ Aspose.PDF ฟรีได้จาก [หน้าวางจำหน่าย](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?
- ฟอรัมชุมชน Aspose เป็นสถานที่ที่ยอดเยี่ยมสำหรับความช่วยเหลือ คุณสามารถเยี่ยมชม[สนับสนุน](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือ
+ฟอรัมชุมชน Aspose เป็นสถานที่ที่ยอดเยี่ยมสำหรับความช่วยเหลือ คุณสามารถเยี่ยมชม [สนับสนุน](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือ
 
 ### การใช้ Aspose.PDF หลังจากการทดลองใช้จะมีค่าใช้จ่ายหรือไม่
- ใช่ Aspose.PDF เป็นผลิตภัณฑ์ที่ต้องชำระเงิน คุณสามารถดูตัวเลือกการซื้อได้[ที่นี่](https://purchase.aspose.com/buy).
+ใช่ Aspose.PDF เป็นผลิตภัณฑ์ที่ต้องชำระเงิน คุณสามารถดูตัวเลือกการซื้อได้ [ที่นี่](https://purchase-aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

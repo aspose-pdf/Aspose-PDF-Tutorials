@@ -1,14 +1,16 @@
 ---
-title: Trang sang PNG
-linktitle: Trang sang PNG
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi trang PDF sang hình ảnh PNG dễ dàng bằng Aspose.PDF cho .NET trong hướng dẫn từng bước chi tiết của chúng tôi.
-weight: 220
-url: /vi/net/programming-with-images/page-to-png/
+"description": "Tìm hiểu cách chuyển đổi trang PDF sang hình ảnh PNG dễ dàng bằng Aspose.PDF cho .NET trong hướng dẫn từng bước chi tiết của chúng tôi."
+"linktitle": "Trang sang PNG"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Trang sang PNG"
+"url": "/vi/net/programming-with-images/page-to-png/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trang sang PNG
@@ -21,7 +23,7 @@ Trong thế giới kỹ thuật số, chúng ta thường thấy mình cần ph�
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập mọi thứ. Sau đây là những gì bạn cần:
 - Hiểu biết cơ bản về C#: Bạn nên quen thuộc với những kiến thức cơ bản về lập trình trong C# và .NET framework.
--  Thư viện Aspose.PDF: Đảm bảo đã tải xuống và tham chiếu thư viện Aspose.PDF trong dự án của bạn. Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/).
+- Thư viện Aspose.PDF: Đảm bảo đã tải xuống và tham chiếu thư viện Aspose.PDF trong dự án của bạn. Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Chúng tôi khuyên bạn nên sử dụng Visual Studio làm IDE để phát triển các ứng dụng .NET.
 - .NET framework: Đảm bảo bạn đã cài đặt .NET framework trên hệ thống của mình.
 - Tệp PDF mẫu: Chuẩn bị tệp PDF mà bạn muốn chuyển đổi thành hình ảnh PNG.
@@ -68,7 +70,7 @@ Tiếp theo, bạn sẽ muốn mở tài liệu PDF của mình. Việc này đ�
 Document pdfDocument = new Document(dataDir + "PageToPNG.pdf");
 ```
 
- Đây,`PageToPNG.pdf` là tên tệp PDF bạn muốn chuyển đổi.
+Đây, `PageToPNG.pdf` là tên tệp PDF bạn muốn chuyển đổi.
 
 ## Bước 3: Tạo FileStream cho Hình ảnh
 
@@ -79,7 +81,7 @@ using (FileStream imageStream = new FileStream(dataDir + "aspose-logo.png", File
 {
 ```
 
- Trong ví dụ này,`aspose-logo.png` là tên của tệp PNG bạn muốn tạo.
+Trong ví dụ này, `aspose-logo.png` là tên của tệp PNG bạn muốn tạo.
 
 ## Bước 4: Thiết lập độ phân giải
 
@@ -110,7 +112,7 @@ Bây giờ là lúc thực hiện phép thuật! Đây là nơi bạn chuyển �
 pngDevice.Process(pdfDocument.Pages[1], imageStream);
 ```
 
- Trong dòng này,`pdfDocument.Pages[1]` đề cập đến trang thứ hai của tài liệu PDF của bạn (lập chỉ mục bắt đầu từ 1).
+Trong dòng này, `pdfDocument.Pages[1]` đề cập đến trang thứ hai của tài liệu PDF của bạn (lập chỉ mục bắt đầu từ 1).
 
 ## Bước 7: Đóng luồng hình ảnh
 
@@ -137,13 +139,15 @@ Có! Bạn có thể lặp qua từng trang trong PDF và chuyển đổi tất 
 Chắc chắn rồi! Bạn cũng có thể chuyển đổi các trang PDF sang các định dạng như JPEG, BMP và TIFF, ngoài PNG.
 
 ### Có giấy phép tạm thời cho Aspose.PDF không?  
- Có! Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để dùng thử thư viện.
+Có! Bạn có thể xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/) để dùng thử thư viện.
 
 ### Làm thế nào để khắc phục sự cố khi sử dụng Aspose.PDF?  
- Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose[đây](https://forum.aspose.com/c/pdf/10), nơi các thành viên cộng đồng và nhà phát triển thảo luận về các vấn đề và giải pháp.
+Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10), nơi các thành viên cộng đồng và nhà phát triển thảo luận về các vấn đề và giải pháp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

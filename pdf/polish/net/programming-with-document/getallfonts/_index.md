@@ -1,14 +1,16 @@
 ---
-title: Pobierz wszystkie czcionki w pliku PDF
-linktitle: Pobierz wszystkie czcionki w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyodrębnić wszystkie czcionki z pliku PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Idealne dla programistów i entuzjastów PDF.
-weight: 160
-url: /pl/net/programming-with-document/getallfonts/
+"description": "Dowiedz się, jak wyodrębnić wszystkie czcionki z pliku PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Idealne dla programistów i entuzjastów PDF."
+"linktitle": "Pobierz wszystkie czcionki w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz wszystkie czcionki w pliku PDF"
+"url": "/pl/net/programming-with-document/getallfonts/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz wszystkie czcionki w pliku PDF
@@ -22,7 +24,7 @@ Czy kiedykolwiek zastanawiałeś się, jak wyodrębnić wszystkie czcionki użyt
 Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To IDE, którego będziemy używać w tym samouczku.
-2.  Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
 ## Importuj pakiety
@@ -61,27 +63,27 @@ Po pierwsze, musisz określić ścieżkę do swojego dokumentu PDF. To tutaj Asp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF. Może to być coś takiego`@"C:\Documents\"`.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF. Może to być coś takiego `@"C:\Documents\"`.
 
 ## Krok 2: Załaduj dokument PDF
 
- Następnie będziesz chciał załadować dokument PDF do swojej aplikacji. Można to zrobić za pomocą`Document` Klasa udostępniona przez Aspose.PDF.
+Następnie będziesz chciał załadować dokument PDF do swojej aplikacji. Można to zrobić za pomocą `Document` Klasa udostępniona przez Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Tutaj zamień`"input.pdf"` z nazwą pliku PDF. Ta linia kodu inicjuje nowy`Document` Obiekt reprezentujący Twój plik PDF.
+Tutaj zamień `"input.pdf"` z nazwą pliku PDF. Ta linia kodu inicjuje nowy `Document` Obiekt reprezentujący Twój plik PDF.
 
 ## Krok 3: Pobierz wszystkie czcionki
 
- Teraz nadchodzi ekscytująca część! Użyjesz`FontUtilities` Klasa ta umożliwia pobranie wszystkich czcionek użytych w dokumencie.
+Teraz nadchodzi ekscytująca część! Użyjesz `FontUtilities` Klasa ta umożliwia pobranie wszystkich czcionek użytych w dokumencie.
 
 ```csharp
 Aspose.Pdf.Text.Font[] fonts = doc.FontUtilities.GetAllFonts();
 ```
 
- Ten wiersz pobiera tablicę`Font` obiekty, z których każdy reprezentuje czcionkę używaną w pliku PDF.
+Ten wiersz pobiera tablicę `Font` obiekty, z których każdy reprezentuje czcionkę używaną w pliku PDF.
 
 ## Krok 4: Przejrzyj czcionki
 
@@ -98,7 +100,7 @@ Ta pętla przechodzi przez każdą czcionkę w tablicy i drukuje jej nazwę na k
 
 ## Wniosek
 
-I masz! Udało Ci się wyodrębnić wszystkie czcionki z pliku PDF za pomocą Aspose.PDF dla .NET. Ta potężna biblioteka ułatwia manipulowanie dokumentami PDF, a za pomocą zaledwie kilku linijek kodu możesz uzyskać dostęp do cennych informacji, takich jak nazwy czcionek. Niezależnie od tego, czy rozwijasz przeglądarkę PDF, analizujesz dokumenty, czy po prostu jesteś ciekawy, ta wiedza okaże się przydatna.
+masz! Udało Ci się wyodrębnić wszystkie czcionki z pliku PDF za pomocą Aspose.PDF dla .NET. Ta potężna biblioteka ułatwia manipulowanie dokumentami PDF, a za pomocą zaledwie kilku linijek kodu możesz uzyskać dostęp do cennych informacji, takich jak nazwy czcionek. Niezależnie od tego, czy rozwijasz przeglądarkę PDF, analizujesz dokumenty, czy po prostu jesteś ciekawy, ta wiedza okaże się przydatna.
 
 ## Najczęściej zadawane pytania
 
@@ -106,19 +108,21 @@ I masz! Udało Ci się wyodrębnić wszystkie czcionki z pliku PDF za pomocą As
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Pełną dokumentację można znaleźć na stronie[Strona internetowa Aspose](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację można znaleźć na stronie [Strona internetowa Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Czy można wyodrębnić inne informacje z pliku PDF?
 Oczywiście! Aspose.PDF pozwala wyodrębnić tekst, obrazy i metadane, między innymi.
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Możesz uzyskać pomoc odwiedzając stronę[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać pomoc odwiedzając stronę [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

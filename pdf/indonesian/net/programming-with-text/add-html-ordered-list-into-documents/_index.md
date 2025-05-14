@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Daftar HTML yang Diurutkan ke dalam Dokumen
-linktitle: Tambahkan Daftar HTMLOrdered ke dalam Dokumen
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan daftar HTML yang diurutkan dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Temukan petunjuk langkah demi langkah dalam tutorial terperinci ini.
-weight: 30
-url: /id/net/programming-with-text/add-html-ordered-list-into-documents/
+"description": "Pelajari cara menambahkan daftar HTML yang diurutkan dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Temukan petunjuk langkah demi langkah dalam tutorial terperinci ini."
+"linktitle": "Tambahkan Daftar HTMLOrdered ke dalam Dokumen"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Daftar HTML yang Diurutkan ke dalam Dokumen"
+"url": "/id/net/programming-with-text/add-html-ordered-list-into-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Daftar HTML yang Diurutkan ke dalam Dokumen
@@ -22,9 +24,9 @@ Membuat dokumen PDF dengan cepat dapat membuka banyak kemungkinan bagi para peng
 Sebelum kita memulai perjalanan manipulasi PDF ini, mari pastikan Anda telah menyiapkan semua yang dibutuhkan. Berikut ini ikhtisar singkat tentang apa yang Anda perlukan:
 
 1. Lingkungan Pengembangan .NET: Pastikan Anda memiliki IDE seperti Visual Studio yang terpasang di komputer Anda. Ini akan menjadi tempat bermain Anda untuk membuat kode.
-2.  Pustaka Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukan file yang diperlukan[Di Sini](https://releases.aspose.com/pdf/net/). 
+2. Pustaka Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukan file yang diperlukan [Di Sini](https://releases.aspose.com/pdf/net/). 
 3. Pengetahuan Dasar C#: Memiliki pengetahuan tentang pemrograman C# akan bermanfaat karena kita akan membuat kode dalam bahasa ini.
-4.  Akses ke Dokumentasi: Untuk membiasakan diri Anda dengan berbagai fungsi Aspose.PDF, ada baiknya memiliki[Dokumentasi Aspose.PDF untuk .NET](https://reference.aspose.com/pdf/net/) berguna untuk referensi.
+4. Akses ke Dokumentasi: Untuk membiasakan diri Anda dengan berbagai fungsi Aspose.PDF, ada baiknya memiliki [Dokumentasi Aspose.PDF untuk .NET](https://reference.aspose.com/pdf/net/) berguna untuk referensi.
 
 Setelah prasyarat kita terpenuhi, mari kita mulai bekerja!
 
@@ -44,7 +46,7 @@ Buka Visual Studio Anda dan buat proyek Aplikasi Konsol baru. Beri nama yang ses
 
 ### Mengimpor Ruang Nama yang Diperlukan
 
- Di dalam kamu`Program.cs`file, mulailah dengan menambahkan perintah using berikut di bagian atas:
+Di dalam kamu `Program.cs` file, mulailah dengan menambahkan perintah using berikut di bagian atas:
 
 ```csharp
 using System;
@@ -64,10 +66,10 @@ Kita akan mulai dengan menyiapkan dokumen PDF kita dan mendefinisikan konten HTM
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Jalur ke dokumen keluaran.
+// Jalur ke dokumen keluaran.  
 string outFile = dataDir + "AddHTMLOrderedListIntoDocuments_out.pdf";
 
-// Membuat instance objek Dokumen
+// Membuat instance objek Dokumen  
 Document doc = new Document();
 ```
 
@@ -75,10 +77,10 @@ Pada langkah ini, kami mengatur jalur berkas tempat kami ingin menyimpan dokumen
 
 ## Langkah 2: Buat Fragmen HTML
 
- Selanjutnya, kita akan membuat`HtmlFragment` objek yang berisi HTML kita. Di sini kita akan menyertakan daftar berurutan beserta beberapa teks.
+Selanjutnya, kita akan membuat `HtmlFragment` objek yang berisi HTML kita. Di sini kita akan menyertakan daftar berurutan beserta beberapa teks.
 
 ```csharp
-// Buat instance objek HtmlFragment dengan fragmen HTML yang sesuai
+// Buat instance objek HtmlFragment dengan fragmen HTML yang sesuai  
 HtmlFragment htmlFragment = new HtmlFragment("<body style='line-height: 100px;'><ul><li>First</li><li>Second</li><li>Third</li><li>Fourth</li><li>Fifth</li></ul>Text after the list.<br/>Next line<br/>Last line</body>");
 ```
 
@@ -89,7 +91,7 @@ Di sini, kami telah membuat fragmen HTML yang berisi daftar item. HTML disimpan 
 Sekarang, kita perlu menambahkan halaman ke dokumen PDF kita. Setiap PDF perlu memiliki halaman, dan kita pun demikian!
 
 ```csharp
-//Tambahkan Halaman di Koleksi Halaman
+// Tambahkan Halaman di Koleksi Halaman  
 Page page = doc.Pages.Add();
 ```
 
@@ -100,7 +102,7 @@ Baris kode ini menambahkan halaman baru ke dokumen kita. Ingat, setiap halaman d
 Di sinilah keajaiban terjadi! Sekarang kita akan menambahkan fragmen HTML yang telah kita definisikan sebelumnya ke halaman yang baru saja kita buat.
 
 ```csharp
-// Tambahkan HtmlFragment di dalam halaman
+// Tambahkan HtmlFragment di dalam halaman  
 page.Paragraphs.Add(htmlFragment);
 ```
 
@@ -111,15 +113,15 @@ Dengan menambahkan fragmen HTML ke paragraf halaman kita, pada dasarnya kita mem
 Setelah semua konten siap, langkah terakhir adalah menyimpan dokumen ke dalam disk.
 
 ```csharp
-// Simpan file PDF yang dihasilkan
+// Simpan file PDF yang dihasilkan  
 doc.Save(outFile);
 ```
 
- Di sini kita menyebutnya`Save` pada objek dokumen kita, yang menentukan jalur file keluaran tempat PDF baru kita akan berada.
+Di sini kita menyebutnya `Save` pada objek dokumen kita, yang menentukan jalur file keluaran tempat PDF baru kita akan berada.
 
 ## Kesimpulan
 
-Baik Anda membuat laporan, dokumen desain, atau proyek pribadi, kemampuan untuk mengubah konten HTML ke dalam format PDF dapat sangat memperkaya aplikasi Anda. Bereksperimenlah dengan elemen HTML lain dan lihat seberapa jauh Anda dapat mengembangkan kreasi PDF Anda!
+Baik Anda membuat laporan, dokumen desain, atau proyek pribadi, kemampuan untuk mengubah konten HTML ke dalam format PDF dapat sangat memperkaya aplikasi Anda. Bereksperimenlah dengan elemen HTML lainnya dan lihat seberapa jauh Anda dapat mengembangkan kreasi PDF Anda!
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -136,10 +138,12 @@ Tentu saja! Anda dapat menerapkan gaya dan kelas CSS untuk mengontrol visualisas
 Tidak, setelah dipasang, perpustakaan beroperasi secara offline.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat mencari dukungan dan berinteraksi dengan pengguna lain di[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat mencari dukungan dan berinteraksi dengan pengguna lain di [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

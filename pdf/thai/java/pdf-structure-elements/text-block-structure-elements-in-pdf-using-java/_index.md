@@ -1,14 +1,16 @@
 ---
-title: องค์ประกอบโครงสร้างบล็อกข้อความใน PDF โดยใช้ Java
-linktitle: องค์ประกอบโครงสร้างบล็อกข้อความใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้โครงสร้างองค์ประกอบบล็อกข้อความ PDF ขั้นพื้นฐานใน Java - คำแนะนำทีละขั้นตอนในการใช้ Aspose.PDF สำหรับ Java
-weight: 13
-url: /th/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-java/
+"description": "เรียนรู้โครงสร้างองค์ประกอบบล็อกข้อความ PDF ขั้นพื้นฐานใน Java - คำแนะนำทีละขั้นตอนในการใช้ Aspose.PDF สำหรับ Java"
+"linktitle": "องค์ประกอบโครงสร้างบล็อกข้อความใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "องค์ประกอบโครงสร้างบล็อกข้อความใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # องค์ประกอบโครงสร้างบล็อกข้อความใน PDF โดยใช้ Java
@@ -20,7 +22,7 @@ url: /th/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-
 
 ## ทำความเข้าใจองค์ประกอบโครงสร้าง PDF
 
-ก่อนที่เราจะเจาะลึกถึงองค์ประกอบโครงสร้างแบบบล็อกข้อความ เรามาทำความเข้าใจองค์ประกอบโครงสร้างโดยรวมของ PDF กันก่อน เอกสาร PDF มีโครงสร้างตามลำดับชั้น โดยมีองค์ประกอบหลายประเภทที่ช่วยจัดระเบียบเนื้อหา องค์ประกอบเหล่านี้ได้แก่:
+ก่อนที่เราจะเจาะลึกถึงองค์ประกอบโครงสร้างบล็อกข้อความ เรามาทำความเข้าใจองค์ประกอบโครงสร้างโดยรวมของ PDF กันก่อน เอกสาร PDF มีโครงสร้างตามลำดับชั้น โดยมีองค์ประกอบหลายประเภทที่ช่วยจัดระเบียบเนื้อหา องค์ประกอบเหล่านี้ได้แก่:
 
 - เอกสาร: องค์ประกอบระดับสูงสุดที่แสดงเอกสาร PDF ทั้งหมด
 - หน้า: แต่ละหน้าภายในเอกสารเป็นองค์ประกอบโครงสร้างที่แยกจากกัน
@@ -35,7 +37,7 @@ url: /th/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-
 
 ก่อนทำงานกับ PDF ใน Java ให้แน่ใจว่าคุณได้ติดตั้งเครื่องมือและไลบรารีที่จำเป็นแล้ว คุณสามารถใช้ Aspose.PDF สำหรับ Java ซึ่งเป็นไลบรารีอันทรงพลังสำหรับการจัดการ PDF วิธีตั้งค่ามีดังนี้:
 
-1.  ดาวน์โหลด Aspose.PDF สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+1. ดาวน์โหลด Aspose.PDF สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 2. เพิ่มไลบรารีลงในโปรเจ็กต์ Java ของคุณ
 
 ### ขั้นตอนที่ 2: โหลดเอกสาร PDF
@@ -48,7 +50,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("example.pdf")
 
 ### ขั้นตอนที่ 3: แยกบล็อกข้อความ
 
-ต่อไปเรามาแยกบล็อคข้อความจากเอกสาร PDF กัน:
+ต่อไปเรามาแยกบล็อกข้อความจากเอกสาร PDF กัน:
 
 ```java
 for (com.aspose.pdf.Page page : pdfDocument.getPages()) {
@@ -83,18 +85,20 @@ for (com.aspose.pdf.Page page : pdfDocument.getPages()) {
 
 ### Aspose.PDF สำหรับ Java สามารถใช้งานร่วมกับ PDF เวอร์ชันต่างๆ ได้หรือไม่
 
-ใช่ Aspose.PDF สำหรับ Java รองรับ PDF เวอร์ชันต่างๆ เพื่อให้มั่นใจว่าเข้ากันได้กับเอกสาร PDF หลากหลายประเภท
+ใช่ Aspose.PDF สำหรับ Java รองรับ PDF เวอร์ชันต่างๆ เพื่อให้มั่นใจว่าสามารถใช้งานร่วมกับเอกสาร PDF ได้หลากหลาย
 
 ### ฉันจะจัดรูปแบบข้อความภายในบล็อกข้อความ เช่น การเปลี่ยนขนาดหรือสีของแบบอักษรได้อย่างไร
 
-คุณสามารถจัดรูปแบบข้อความภายในบล็อกข้อความได้โดยใช้ Aspose.PDF สำหรับ Java โดยการปรับเปลี่ยนคุณสมบัติของข้อความ รวมถึงขนาดแบบอักษร สไตล์ และสี
+คุณสามารถจัดรูปแบบข้อความภายในบล็อกข้อความได้โดยใช้ Aspose.PDF สำหรับ Java โดยการแก้ไขคุณสมบัติของข้อความ รวมถึงขนาดแบบอักษร สไตล์ และสี
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถเข้าถึงเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถเข้าถึงเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

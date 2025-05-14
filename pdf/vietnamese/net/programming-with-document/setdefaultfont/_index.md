@@ -1,17 +1,19 @@
 ---
-title: Đặt Phông chữ Mặc định Trong Tệp PDF
-linktitle: Đặt Phông chữ Mặc định Trong Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách đặt phông chữ mặc định trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn cải thiện tài liệu PDF.
-weight: 280
-url: /vi/net/programming-with-document/setdefaultfont/
+"description": "Tìm hiểu cách đặt phông chữ mặc định trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn cải thiện tài liệu PDF."
+"linktitle": "Đặt Phông Chữ Mặc Định Trong Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đặt Phông Chữ Mặc Định Trong Tệp PDF"
+"url": "/vi/net/programming-with-document/setdefaultfont/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đặt Phông chữ Mặc định Trong Tệp PDF
+# Đặt Phông Chữ Mặc Định Trong Tệp PDF
 
 ## Giới thiệu
 
@@ -22,7 +24,7 @@ Bạn đã bao giờ mở một tài liệu PDF và thấy rằng phông chữ b
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là IDE tốt nhất cho phát triển .NET.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ giúp bạn hiểu rõ hơn các ví dụ chúng tôi sẽ đề cập.
 
 ## Nhập gói
@@ -31,9 +33,9 @@ Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau
 
 1. Mở dự án Visual Studio của bạn.
 2. Nhấp chuột phải vào dự án của bạn trong Solution Explorer và chọn "Quản lý gói NuGet".
-3.  Tìm kiếm`Aspose.PDF` và cài đặt phiên bản mới nhất.
+3. Tìm kiếm `Aspose.PDF` và cài đặt phiên bản mới nhất.
 
-Sau khi cài đặt gói, bạn đã sẵn sàng để bắt đầu viết mã!
+Sau khi cài đặt xong gói, bạn đã sẵn sàng để bắt đầu viết mã!
 
 ## Bước 1: Thiết lập dự án của bạn
 
@@ -43,11 +45,11 @@ Trước tiên, hãy tạo một dự án C# mới trong Visual Studio:
 
 - Mở Visual Studio và chọn "Tạo dự án mới".
 - Chọn "Console App (.NET Core)" và nhấp vào "Next".
--  Đặt tên cho dự án của bạn (ví dụ:`AsposePdfExample`) và nhấp vào "Tạo".
+- Đặt tên cho dự án của bạn (ví dụ: `AsposePdfExample`) và nhấp vào "Tạo".
 
 ### Thêm Sử dụng Chỉ thị
 
- Bây giờ, hãy thêm các chỉ thị sử dụng cần thiết vào đầu`Program.cs` tài liệu:
+Bây giờ, hãy thêm các chỉ thị sử dụng cần thiết vào đầu `Program.cs` tài liệu:
 
 ```csharp
 using Aspose.Pdf;
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay thế bằng thư mục th�
 string documentName = Path.Combine(dataDir, "input.pdf");
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp PDF của bạn.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp PDF của bạn.
 
 ### Tải Tài liệu
 
@@ -81,13 +83,13 @@ using (FileStream fs = new FileStream(documentName, FileMode.Open))
 }
 ```
 
- Đoạn mã này mở tệp PDF và tạo một`Document` đối tượng mà bạn có thể thao tác.
+Đoạn mã này mở tệp PDF và tạo một `Document` đối tượng mà bạn có thể thao tác.
 
 ## Bước 3: Đặt Phông chữ Mặc định
 
 ### Tạo PdfSaveOptions
 
- Bây giờ đến phần thú vị! Bạn sẽ cần tạo một phiên bản của`PdfSaveOptions` để chỉ định phông chữ mặc định:
+Bây giờ đến phần thú vị! Bạn sẽ cần tạo một phiên bản của `PdfSaveOptions` để chỉ định phông chữ mặc định:
 
 ```csharp
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
@@ -111,7 +113,7 @@ Cuối cùng, đã đến lúc lưu tài liệu PDF đã chỉnh sửa với ph�
 document.Save(Path.Combine(dataDir, "output_out.pdf"), pdfSaveOptions);
 ```
 
- Dòng này lưu tài liệu dưới dạng`output_out.pdf` trong thư mục được chỉ định.
+Dòng này lưu tài liệu dưới dạng `output_out.pdf` trong thư mục được chỉ định.
 
 ## Phần kết luận
 
@@ -120,7 +122,7 @@ Và bạn đã có nó! Bạn đã thiết lập thành công phông chữ mặc
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng phông chữ khác ngoài Arial không?
 Có, bạn có thể chỉ định bất kỳ phông chữ nào được cài đặt trên hệ thống của bạn làm phông chữ mặc định.
@@ -129,13 +131,15 @@ Có, bạn có thể chỉ định bất kỳ phông chữ nào được cài đ
 Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần phải mua giấy phép.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể nhận được hỗ trợ thông qua diễn đàn Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ thông qua diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

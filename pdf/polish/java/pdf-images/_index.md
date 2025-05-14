@@ -1,14 +1,16 @@
 ---
-title: Obrazy PDF
-linktitle: Obrazy PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Poznaj manipulację obrazami PDF za pomocą Aspose.PDF dla Java. Naucz się bez wysiłku wstawiać, modyfikować i optymalizować obrazy w plikach PDF.
-weight: 12
-url: /pl/java/pdf-images/
+"description": "Poznaj manipulację obrazami PDF za pomocą Aspose.PDF dla Java. Naucz się bez wysiłku wstawiać, modyfikować i optymalizować obrazy w plikach PDF."
+"linktitle": "Obrazy PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Obrazy PDF"
+"url": "/pl/java/pdf-images/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obrazy PDF
@@ -40,14 +42,16 @@ Dowiedz się, jak usuwać obrazy z dokumentów PDF za pomocą Aspose.PDF dla Jav
 ### [Usuwanie obrazów z pliku PDF za pomocą Java](./delete-images-from-pdf-file-using-java/)
 Dowiedz się, jak usuwać obrazy z pliku PDF za pomocą Javy z Aspose.PDF dla Javy. Przewodnik krok po kroku z kodem źródłowym do wydajnego usuwania obrazów w plikach PDF.
 ### [Wyodrębnij właściwości obrazu z pliku PDF w Javie](./extract-image-properties-from-pdf-in-java/)
-Dowiedz się, jak wyodrębnić właściwości obrazu z plików PDF w Javie przy użyciu Aspose.PDF dla Javy. Przewodnik krok po kroku z kodem źródłowym. Udoskonal swoje umiejętności przetwarzania plików PDF już dziś!
+Dowiedz się, jak wyodrębnić właściwości obrazu z plików PDF w Javie za pomocą Aspose.PDF dla Javy. Przewodnik krok po kroku z kodem źródłowym. Udoskonal swoje umiejętności przetwarzania plików PDF już dziś!
 ### [Wyodrębnij obrazy z pliku PDF za pomocą Java](./extract-images-from-pdf-file-using-java/)
 Dowiedz się, jak wyodrębnić obrazy z pliku PDF za pomocą Java z Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym. Odblokuj wyodrębnianie obrazów PDF teraz.
 ### [Pobierz nazwy obrazów osadzonych w pliku PDF za pomocą Java](./get-name-of-images-embedded-in-pdf-file-using-java/)
 Dowiedz się, jak wyodrębnić osadzone nazwy obrazów z plików PDF za pomocą Java i Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym do wydajnej ekstrakcji danych PDF
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

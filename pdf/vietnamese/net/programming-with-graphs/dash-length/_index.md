@@ -1,30 +1,32 @@
 ---
-title: Chiều dài dấu gạch ngang
-linktitle: Chiều dài dấu gạch ngang
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tùy chỉnh các mẫu gạch ngang trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo để thêm kiểu cho tài liệu của bạn.
-weight: 70
-url: /vi/net/programming-with-graphs/dash-length/
+"description": "Tìm hiểu cách tùy chỉnh các mẫu gạch ngang trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo để thêm kiểu cho tài liệu của bạn."
+"linktitle": "Chiều dài dấu gạch ngang"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Chiều dài dấu gạch ngang"
+"url": "/vi/net/programming-with-graphs/dash-length/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chiều dài dấu gạch ngang
 
 ## Giới thiệu
 
-Bạn có muốn thêm một chút sáng tạo vào tài liệu PDF của mình bằng cách tùy chỉnh các dòng với nhiều mẫu gạch ngang khác nhau không? Với Aspose.PDF cho .NET, bạn có thể dễ dàng sửa đổi các kiểu dòng để phù hợp với nhu cầu của tài liệu. Trong hướng dẫn này, chúng ta sẽ khám phá cách điều chỉnh độ dài gạch ngang của các dòng trong tài liệu PDF bằng Aspose.PDF cho .NET. Cho dù bạn đang hướng đến một dòng gạch ngang hay một mẫu chấm bi, hướng dẫn này sẽ cung cấp cho bạn các công cụ và các bước cần thiết để đạt được kết quả mong muốn.
+Bạn có muốn thêm một chút sáng tạo vào tài liệu PDF của mình bằng cách tùy chỉnh các dòng với nhiều mẫu gạch ngang khác nhau không? Với Aspose.PDF cho .NET, bạn có thể dễ dàng sửa đổi các kiểu dòng để phù hợp với nhu cầu của tài liệu. Trong hướng dẫn này, chúng ta sẽ khám phá cách điều chỉnh độ dài gạch ngang của các dòng trong tài liệu PDF bằng Aspose.PDF cho .NET. Cho dù bạn đang hướng đến một đường gạch ngang hay một mẫu chấm bi, hướng dẫn này sẽ cung cấp cho bạn các công cụ và các bước cần thiết để đạt được kết quả mong muốn.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu hướng dẫn, bạn cần chuẩn bị một số thứ sau:
 
-1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 2. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#. Nếu bạn mới làm quen với C#, bạn có thể muốn ôn lại những kiến thức cơ bản trước.
 3. Visual Studio: Mặc dù bạn có thể sử dụng bất kỳ IDE nào, nhưng hướng dẫn này giả định rằng bạn đang sử dụng Visual Studio để viết và chạy mã C#.
-4.  Tài khoản Aspose: Để có thêm tài nguyên và hỗ trợ, hãy đảm bảo bạn có tài khoản với Aspose. Bạn có thể đăng ký[dùng thử miễn phí](https://releases.aspose.com/) hoặc mua giấy phép[đây](https://purchase.aspose.com/buy).
+4. Tài khoản Aspose: Để có thêm tài nguyên và hỗ trợ, hãy đảm bảo bạn có tài khoản với Aspose. Bạn có thể đăng ký [dùng thử miễn phí](https://releases.aspose.com/) hoặc mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ## Nhập gói
 
@@ -57,11 +59,11 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Ở đây, chúng tôi tạo ra một`Document` đối tượng và thêm một cái mới`Page` với nó. Điều này thiết lập nền tảng để bạn vẽ đường.
+Ở đây, chúng tôi tạo ra một `Document` đối tượng và thêm một cái mới `Page` với nó. Điều này thiết lập nền tảng để bạn vẽ đường.
 
 ## Bước 3: Tạo đối tượng vẽ
 
- Tiếp theo, tạo một`Graph` đối tượng đại diện cho khu vực bạn sẽ vẽ. Xác định kích thước của nó theo yêu cầu của bạn.
+Tiếp theo, tạo một `Graph` đối tượng đại diện cho khu vực bạn sẽ vẽ. Xác định kích thước của nó theo yêu cầu của bạn.
 
 ```csharp
 // Tạo đối tượng bản vẽ có kích thước nhất định
@@ -71,18 +73,18 @@ Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 page.Paragraphs.Add(canvas);
 ```
 
- Các`Graph` Đối tượng đóng vai trò là nơi chứa các thành phần bản vẽ của bạn. Ở đây, nó được đặt thành chiều rộng 100 đơn vị và chiều cao 400 đơn vị.
+Các `Graph` Đối tượng đóng vai trò là nơi chứa các thành phần bản vẽ của bạn. Ở đây, nó được đặt thành chiều rộng 100 đơn vị và chiều cao 400 đơn vị.
 
-## Bước 4: Xác định đường thẳng
+## Bước 4: Xác định đường
 
- Bây giờ là lúc tạo ra`Line`đối tượng. Chỉ định điểm bắt đầu và kết thúc của đường thẳng và tùy chỉnh kiểu của nó.
+Bây giờ là lúc tạo ra `Line` đối tượng. Chỉ định điểm bắt đầu và kết thúc của đường và tùy chỉnh kiểu của nó.
 
 ```csharp
 // Tạo đối tượng Line
 Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { 100, 100, 200, 100 });
 ```
 
-Dòng này bắt đầu tại tọa độ (100, 100) và kết thúc tại (200, 100). Bạn có thể điều chỉnh các tọa độ này để phù hợp với nhu cầu cụ thể của mình.
+Đường này bắt đầu tại tọa độ (100, 100) và kết thúc tại (200, 100). Bạn có thể điều chỉnh các tọa độ này để phù hợp với nhu cầu cụ thể của mình.
 
 ## Bước 5: Tùy chỉnh Kiểu Đường
 
@@ -100,12 +102,12 @@ line.GraphInfo.DashPhase = 1;
 ```
 
 - `line.GraphInfo.Color`: Thiết lập màu của đường. Trong trường hợp này là màu đỏ.
-- `line.GraphInfo.DashArray` : Xác định mẫu gạch ngang. Ở đây,`{ 0, 1, 0 }` thể hiện một mẫu nét đứt.
+- `line.GraphInfo.DashArray`: Xác định mẫu gạch ngang. Ở đây, `{ 0, 1, 0 }` biểu thị một mẫu nét đứt.
 - `line.GraphInfo.DashPhase`: Điều chỉnh điểm bắt đầu của mẫu nét gạch ngang.
 
 ## Bước 6: Thêm đường vào bản vẽ
 
- Với dòng của bạn được tạo kiểu, hãy thêm nó vào`Graph` sự vật.
+Với dòng của bạn được tạo kiểu, hãy thêm nó vào `Graph` sự vật.
 
 ```csharp
 // Thêm đường thẳng vào bộ sưu tập hình dạng của đối tượng vẽ
@@ -135,22 +137,24 @@ Tùy chỉnh kiểu đường nét trong tài liệu PDF có thể thêm nét ch
 ## Câu hỏi thường gặp
 
 ### Làm thế nào để cài đặt Aspose.PDF cho .NET?
- Bạn có thể cài đặt nó thông qua NuGet trong Visual Studio hoặc tải xuống từ[Trang web của Aspose](https://releases.aspose.com/pdf/net/).
+Bạn có thể cài đặt nó thông qua NuGet trong Visual Studio hoặc tải xuống từ [Trang web của Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Tôi có thể sử dụng Aspose.PDF cho .NET miễn phí không?
- Có, Aspose cung cấp một[dùng thử miễn phí](https://releases.aspose.com/) vì vậy bạn có thể kiểm tra các tính năng trước khi mua giấy phép.
+Có, Aspose cung cấp một [dùng thử miễn phí](https://releases.aspose.com/) vì vậy bạn có thể kiểm tra các tính năng của nó trước khi mua giấy phép.
 
 ### Tôi có thể tùy chỉnh những dòng nào khác trong tệp PDF?
- Bạn có thể điều chỉnh độ dày của đường, màu sắc và kiểu nét gạch ngang. Tham khảo[tài liệu](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết.
+Bạn có thể điều chỉnh độ dày của đường, màu sắc và kiểu nét gạch ngang. Tham khảo [tài liệu](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết.
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
- Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể truy cập hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể mua giấy phép Aspose.PDF cho .NET ở đâu?
-Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

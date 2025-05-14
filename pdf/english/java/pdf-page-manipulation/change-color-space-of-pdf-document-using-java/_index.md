@@ -8,7 +8,9 @@ url: /java/pdf-page-manipulation/change-color-space-of-pdf-document-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Color Space of PDF Document using Java
@@ -124,6 +126,7 @@ Yes, you can automate batch processing of multiple PDF documents using Aspose.PD
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

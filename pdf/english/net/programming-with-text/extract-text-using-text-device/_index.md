@@ -8,7 +8,9 @@ url: /net/programming-with-text/extract-text-using-text-device/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Text Using Text Device
@@ -151,6 +153,7 @@ Yes, Aspose.PDF for .NET is fully compatible with .NET Core and .NET Framework.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

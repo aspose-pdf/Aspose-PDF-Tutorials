@@ -8,7 +8,9 @@ url: /net/programming-with-text/add-text-border/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Text Border In PDF File
@@ -163,6 +165,7 @@ Aspose provides a [temporary license](https://purchase.aspose.com/temporary-lice
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

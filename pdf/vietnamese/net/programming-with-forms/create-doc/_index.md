@@ -1,14 +1,16 @@
 ---
-title: Tạo Tài Liệu
-linktitle: Tạo Tài Liệu
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Học cách tạo tài liệu PDF tương tác với các nút radio bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này.
-weight: 40
-url: /vi/net/programming-with-forms/create-doc/
+"description": "Học cách tạo tài liệu PDF tương tác với các nút radio bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này."
+"linktitle": "Tạo Tài Liệu"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo Tài Liệu"
+"url": "/vi/net/programming-with-forms/create-doc/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo Tài Liệu
@@ -22,7 +24,7 @@ Tạo biểu mẫu tương tác trong PDF có thể cải thiện đáng kể tr
 Trước khi bắt đầu viết mã, bạn cần lưu ý một số điều cần thiết để đảm bảo mọi thứ diễn ra suôn sẻ:
 
 1. Môi trường phát triển .NET: Bạn nên quen thuộc với môi trường phát triển .NET, như Visual Studio, để viết và thực thi mã của mình.
-2. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể dễ dàng tải xuống từ[trang tải xuống](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể dễ dàng tải xuống từ [trang tải xuống](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Cần có hiểu biết cơ bản về C# vì đó là ngôn ngữ chúng ta sẽ sử dụng cho các ví dụ.
 4. Thư mục tài liệu của bạn: Thiết lập một thư mục nơi bạn sẽ lưu trữ tài liệu để tránh mọi vấn đề liên quan đến đường dẫn.
 
@@ -34,7 +36,7 @@ Khi đã đáp ứng được những điều kiện tiên quyết này, bạn �
 
 ### Cài đặt thư viện Aspose.PDF
 
-Đầu tiên, bạn cần thêm thư viện Aspose.PDF vào dự án của mình. Nếu bạn đang sử dụng NuGet, bạn có thể chạy lệnh sau trong NuGet Package Manager Console:
+Trước tiên, bạn cần thêm thư viện Aspose.PDF vào dự án của mình. Nếu bạn đang sử dụng NuGet, bạn có thể chạy lệnh sau trong NuGet Package Manager Console:
 
 ```bash
 Install-Package Aspose.PDF
@@ -66,7 +68,7 @@ Bước đầu tiên trong hành trình mã hóa của chúng ta là thiết l�
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";  // Thay thế bằng đường dẫn của bạn
 ```
- Dòng này tạo ra một biến chuỗi`dataDir` nơi bạn sẽ lưu trữ PDF đầu ra. Hãy đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế.
+Dòng này tạo ra một biến chuỗi `dataDir` nơi bạn sẽ lưu trữ PDF đầu ra. Hãy đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế.
 
 ## Bước 2: Tạo một tài liệu mới
 
@@ -76,7 +78,7 @@ Tiếp theo, chúng ta sẽ khởi tạo đối tượng tài liệu. Điều n�
 // Tạo một tài liệu mới
 Document doc = new Document();
 ```
-Dòng này khởi tạo một tài liệu PDF mới. Bạn có thể nghĩ đến việc tạo một tệp mới nơi bạn sẽ thêm nội dung.
+Dòng này khởi tạo một tài liệu PDF mới. Bạn có thể nghĩ về nó như việc tạo một tệp mới nơi bạn sẽ thêm nội dung.
 
 ## Bước 3: Thêm Trang vào Tài liệu
 
@@ -97,7 +99,7 @@ RadioButtonField field = new RadioButtonField(page);
 field.Rect = new Aspose.Pdf.Rectangle(40, 650, 100, 720);
 field.PartialName = "NewField";
 ```
- Ở đây, chúng tôi tạo ra một`RadioButtonField` đối tượng mà chúng ta gán cho trang của chúng ta.`Rect` tham số xác định vị trí và kích thước của trường nút radio trên trang.
+Ở đây, chúng tôi tạo ra một `RadioButtonField` đối tượng mà chúng ta gán cho trang của chúng ta. `Rect` tham số xác định vị trí và kích thước của trường nút radio trên trang.
 
 ## Bước 5: Xác định tùy chọn nút radio
 
@@ -128,7 +130,7 @@ opt3.Border = new Border(opt3);
 opt3.Border.Width = 1;
 opt3.Characteristics.Border = System.Drawing.Color.Black;
 ```
- Trong mỗi khối này, chúng tôi tạo ra`RadioButtonOptionField` các đối tượng và xác định vị trí của chúng với`.Rect` gán tên bằng cách sử dụng`.OptionName`và thiết lập các thuộc tính đường viền của chúng.
+Trong mỗi khối này, chúng tôi tạo ra `RadioButtonOptionField` các đối tượng và xác định vị trí của chúng với `.Rect`, gán tên bằng cách sử dụng `.OptionName`và thiết lập các thuộc tính đường viền của chúng.
 
 ## Bước 6: Thêm Tùy chọn vào Trường
 
@@ -168,7 +170,7 @@ Bằng cách gói mã của chúng ta trong khối try-catch, chúng ta có th�
 
 Tạo PDF tương tác với các nút radio bằng Aspose.PDF cho .NET thoạt đầu có vẻ phức tạp, nhưng với các bước rõ ràng và dễ thực hiện này, bạn sẽ thấy dễ dàng và thậm chí thú vị. Thư viện mạnh mẽ này cho phép bạn tạo các tài liệu động thu hút người dùng hiệu quả, giúp việc gửi biểu mẫu trở thành trải nghiệm không rắc rối. Bằng cách làm theo hướng dẫn này, bạn đã thành thạo nghệ thuật thêm nút radio vào PDF của mình. 
 
- Vậy, bạn còn chờ gì nữa? Hãy sáng tạo! Bắt đầu xây dựng các tài liệu tương tác ngay hôm nay và nâng cao bộ sưu tập dữ liệu của bạn lên một tầm cao mới. Để khám phá thêm, đừng ngần ngại kiểm tra[tài liệu](https://reference.aspose.com/pdf/net/) để có thêm nhiều tính năng và khả năng hơn.
+Vậy, bạn còn chờ gì nữa? Hãy sáng tạo! Bắt đầu xây dựng các tài liệu tương tác ngay hôm nay và nâng cao bộ sưu tập dữ liệu của bạn lên một tầm cao mới. Để khám phá thêm, đừng ngần ngại kiểm tra [tài liệu](https://reference.aspose.com/pdf/net/) để có thêm nhiều tính năng và khả năng hơn.
 
 ## Câu hỏi thường gặp
 
@@ -176,19 +178,21 @@ Tạo PDF tương tác với các nút radio bằng Aspose.PDF cho .NET thoạt 
 Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi các tệp PDF trong ứng dụng .NET của họ.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
-Có, Aspose cung cấp bản dùng thử miễn phí cho người dùng để kiểm tra thư viện. Bạn có thể truy cập nó[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí cho người dùng để kiểm tra thư viện. Bạn có thể truy cập nó [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để xử lý ngoại lệ trong Aspose.PDF?
 Sử dụng các khối try-catch trong mã của bạn để quản lý dễ dàng mọi lỗi thời gian chạy có thể xảy ra trong quá trình tạo hoặc xử lý PDF.
 
 ### Tôi có thể tìm thêm tài nguyên ở đâu?
- Ghé thăm[diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10) hoặc[tải về](https://releases.aspose.com/pdf/net/) thư viện để bắt đầu.
+Ghé thăm [diễn đàn hỗ trợ](https://fhoặcum.aspose.com/c/pdf/10) or [tải về](https://releases.aspose.com/pdf/net/) thư viện để bắt đầu.
 
 ### Làm thế nào để tôi mua Aspose.PDF?
- Bạn có thể mua thư viện trực tiếp từ[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua thư viện trực tiếp từ [trang mua hàng](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

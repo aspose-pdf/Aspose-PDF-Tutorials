@@ -1,40 +1,42 @@
 ---
-title: Zachovat práva
-linktitle: Zachovat práva
-second_title: Aspose.PDF pro .NET API Reference
-description: Zachovejte práva na formuláře ve svých dokumentech PDF pomocí Aspose.PDF pro .NET.
-weight: 210
-url: /cs/net/programming-with-forms/preserve-rights/
+"description": "Zachovejte práva k formulářům ve vašich PDF dokumentech s Aspose.PDF pro .NET."
+"linktitle": "Zachovat práva"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Zachovat práva"
+"url": "/cs/net/programming-with-forms/preserve-rights/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zachovat práva
 
 ## Zavedení
 
-Vítejte ve světě Aspose.PDF pro .NET! Pokud chcete programově manipulovat s dokumenty PDF, jste na správném místě. Aspose.PDF je výkonná knihovna, která umožňuje vývojářům snadno vytvářet, upravovat a převádět soubory PDF. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vás provede základy používání Aspose.PDF pro .NET a zajistí, že budete mít všechny nástroje, které potřebujete k úspěchu.
+Vítejte ve světě Aspose.PDF pro .NET! Pokud chcete programově manipulovat s PDF dokumenty, jste na správném místě. Aspose.PDF je výkonná knihovna, která vývojářům umožňuje snadno vytvářet, upravovat a převádět PDF soubory. Ať už jste zkušený vývojář, nebo teprve začínáte, tato příručka vás provede základy používání Aspose.PDF pro .NET a zajistí, že budete mít všechny nástroje potřebné k úspěchu.
 
 ## Předpoklady
 
 Než začneme, je třeba mít připraveno několik věcí:
 
-1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to IDE, které budeme používat pro náš vývoj .NET.
-2.  .NET Framework: Ujistěte se, že máte nainstalované rozhraní .NET Framework. Aspose.PDF podporuje různé verze, takže zkontrolujte[dokumentace](https://reference.aspose.com/pdf/net/) kvůli kompatibilitě.
-3.  Knihovna Aspose.PDF: Budete si muset stáhnout knihovnu Aspose.PDF. Můžete to získat z[odkaz ke stažení](https://releases.aspose.com/pdf/net/).
-4. Základní znalost C#: Znalost programování v C# vám pomůže snadněji se orientovat.
+1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to IDE, které budeme používat pro náš vývoj v .NET.
+2. .NET Framework: Ujistěte se, že máte nainstalovaný .NET Framework. Soubor Aspose.PDF podporuje různé verze, proto zkontrolujte [dokumentace](https://reference.aspose.com/pdf/net/) kvůli kompatibilitě.
+3. Knihovna Aspose.PDF: Budete si muset stáhnout knihovnu Aspose.PDF. Můžete ji získat z [odkaz ke stažení](https://releases.aspose.com/pdf/net/).
+4. Základní znalost C#: Znalost programování v C# vám pomůže snáze se orientovat.
 
-Jakmile máte tyto předpoklady na místě, jste připraveni začít pracovat s Aspose.PDF!
+Jakmile splníte tyto předpoklady, můžete začít pracovat s Aspose.PDF!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít používat Aspose.PDF ve svém projektu, budete muset importovat potřebné balíčky. Jak na to:
+Abyste mohli ve svém projektu začít používat soubor Aspose.PDF, budete muset importovat potřebné balíčky. Postupujte takto:
 
 1. Vytvoření nového projektu: Otevřete Visual Studio a vytvořte nový projekt C#.
-2. Přidat referenci: Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení, vyberte „Přidat“ a poté „Odkaz“. Přejděte do umístění, kam jste stáhli knihovnu Aspose.PDF, a přidejte ji.
-3. Použití směrnice: Na začátek souboru C# přidejte následující příkaz using:
+2. Přidání reference: Klikněte pravým tlačítkem myši na projekt v Průzkumníku řešení, vyberte „Přidat“ a poté „Reference“. Přejděte do umístění, kam jste si stáhli knihovnu Aspose.PDF, a přidejte ji.
+3. Použití direktivy: Na začátek souboru C# přidejte následující direktivu using:
 
 ```csharp
 using System.IO;
@@ -44,55 +46,55 @@ using Aspose.Pdf.Forms;
 using System;
 ```
 
-Nyní jste připraveni začít kódovat pomocí Aspose.PDF!
+Nyní jste připraveni začít programovat s Aspose.PDF!
 
-V této části si projdeme praktický příklad, jak zachovat práva v dokumentu PDF pomocí Aspose.PDF pro .NET. Rozdělíme si to na zvládnutelné kroky.
+V této části si ukážeme praktický příklad, jak zachovat práva v PDF dokumentu pomocí Aspose.PDF pro .NET. Rozdělíme si to do snadno zvládnutelných kroků.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíte definovat cestu k adresáři dokumentů. Zde budou uloženy vaše soubory PDF. Jak na to:
+Nejdříve je třeba definovat cestu k adresáři s vašimi dokumenty. Zde budou uloženy vaše PDF soubory. Postupujte takto:
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jsou umístěny vaše soubory PDF.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nacházejí vaše soubory PDF.
 
 ## Krok 2: Otevřete dokument PDF
 
- Dále budete chtít otevřít dokument PDF, který chcete upravit. To se provádí pomocí a`FileStream` objekt. Zde je postup:
+Dále budete chtít otevřít dokument PDF, který chcete upravit. To se provádí pomocí `FileStream` objekt. Zde je návod:
 
 ```csharp
-// Přečtěte si zdrojový formulář PDF pomocí FileAccess of Read and Write.
+// Přečtěte si zdrojový PDF formulář pomocí FileAccess s oprávněními pro čtení a zápis.
 FileStream fs = new FileStream(dataDir + "input.pdf", FileMode.Open, FileAccess.ReadWrite);
 ```
 
- Tento fragment kódu otevře soubor`input.pdf` soubor v režimu čtení-zápis, což vám umožní provádět změny.
+Tento úryvek kódu otevře `input.pdf` soubor v režimu čtení i zápisu, což vám umožní provádět změny.
 
-## Krok 3: Vytvořte instanci objektu dokumentu
+## Krok 3: Vytvoření instance objektu Document
 
- Nyní, když máte souborový stream připravený, je čas vytvořit instanci souboru`Document` třída. Tento objekt představuje váš dokument PDF v paměti:
+Nyní, když máte připravený souborový stream, je čas vytvořit instanci `Document` třída. Tento objekt představuje váš PDF dokument v paměti:
 
 ```csharp
-// Instancia dokumentu instance
+// Vytvoření instance dokumentu
 Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(fs);
 ```
 
- Pomocí tohoto řádku jste načetli svůj PDF do souboru`pdfDocument` objekt.
+Tímto řádkem jste načetli PDF do `pdfDocument` objekt.
 
 ## Krok 4: Přístup k polím formuláře
 
-Chcete-li upravit obsah PDF, budete potřebovat přístup k polím formuláře. Zde je návod, jak procházet všemi poli v dokumentu:
+Chcete-li upravit obsah PDF souboru, budete potřebovat přístup k jeho polím formuláře. Zde je návod, jak procházet všechna pole v dokumentu:
 
 ```csharp
-//Získejte hodnoty ze všech polí
+// Získání hodnot ze všech polí
 foreach (Field formField in pdfDocument.Form)
 {
-    // Pokud celý název pole obsahuje A1, proveďte operaci
+    // Pokud celý název pole obsahuje A1, proveďte operaci.
     if (formField.FullName.Contains("A1"))
     {
-        // Přenést pole formuláře jako textové pole
+        // Převod pole formuláře na textové pole
         TextBoxField textBoxField = formField as TextBoxField;
         // Upravit hodnotu pole
         textBoxField.Value = "Testing";
@@ -100,11 +102,11 @@ foreach (Field formField in pdfDocument.Form)
 }
 ```
 
- V tomto kódu kontrolujeme, zda název pole obsahuje "A1". Pokud ano, přeneseme to na a`TextBoxField` a změňte jeho hodnotu na "Testování".
+V tomto kódu kontrolujeme, zda název pole obsahuje „A1“. Pokud ano, převedeme ho na `TextBoxField` a změňte jeho hodnotu na „Testování“.
 
 ## Krok 5: Uložte aktualizovaný dokument
 
-Po provedení úprav je důležité aktualizovaný dokument uložit. Jak na to:
+Po provedení úprav je nezbytné aktualizovaný dokument uložit. Postupujte takto:
 
 ```csharp
 // Uložte aktualizovaný dokument do save FileStream
@@ -113,42 +115,44 @@ pdfDocument.Save();
 
 Tento řádek uloží všechny změny, které jste provedli v původním souboru PDF.
 
-## Krok 6: Zavřete Stream souborů
+## Krok 6: Zavřete souborový stream
 
-Nakonec nezapomeňte zavřít stream souborů, abyste uvolnili zdroje:
+Nakonec nezapomeňte zavřít souborový stream, abyste uvolnili zdroje:
 
 ```csharp
-// Zavřete objekt File Stream
+// Zavření objektu File Stream
 fs.Close();
 ```
 
-A je to! Úspěšně jste upravili dokument PDF pomocí Aspose.PDF pro .NET.
+A to je vše! Úspěšně jste upravili PDF dokument pomocí Aspose.PDF pro .NET.
 
 ## Závěr
 
-Gratuluji! Právě jste se naučili, jak manipulovat s dokumenty PDF pomocí Aspose.PDF pro .NET. Od nastavení prostředí až po úpravu polí formuláře nyní máte dovednosti zacházet s PDF jako profesionál. Pamatujte, že praxe dělá mistra, takže neváhejte experimentovat s různými funkcemi knihovny Aspose.PDF.
+Gratulujeme! Právě jste se naučili, jak manipulovat s PDF dokumenty pomocí Aspose.PDF pro .NET. Od nastavení prostředí až po úpravu polí formuláře – nyní máte dovednosti pro práci s PDF jako profesionál. Pamatujte, že praxe dělá mistra, takže neváhejte experimentovat s různými funkcemi knihovny Aspose.PDF.
 
- Pokud máte nějaké dotazy nebo potřebujete další pomoc, neváhejte se podívat na[fórum podpory](https://forum.aspose.com/c/pdf/10) nebo prozkoumat[dokumentace](https://reference.aspose.com/pdf/net/).
+Pokud máte jakékoli dotazy nebo potřebujete další pomoc, neváhejte se podívat na [fórum podpory](https://forum.aspose.com/c/pdf/10) nebo prozkoumejte [dokumentace](https://reference.aspose.com/pdf/net/).
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je knihovna, která umožňuje vývojářům vytvářet, upravovat a manipulovat s dokumenty PDF programově.
+Aspose.PDF pro .NET je knihovna, která umožňuje vývojářům programově vytvářet, upravovat a manipulovat s PDF dokumenty.
 
 ### Jak nainstaluji Aspose.PDF?
- Knihovnu si můžete stáhnout z[odkaz ke stažení](https://releases.aspose.com/pdf/net/) a přidejte jej do projektu sady Visual Studio.
+Knihovnu si můžete stáhnout z [odkaz ke stažení](https://releases.aspose.com/pdf/net/) přidejte ho do svého projektu ve Visual Studiu.
 
 ### Mohu používat Aspose.PDF zdarma?
- Ano, Aspose nabízí a[zkušební verze zdarma](https://releases.aspose.com/) abyste si knihovnu před zakoupením otestovali.
+Ano, Aspose nabízí [bezplatná zkušební verze](https://releases.aspose.com/) abyste si knihovnu mohli před zakoupením vyzkoušet.
 
 ### Kde najdu další příklady?
- Další příklady a návody najdete v[dokumentace](https://reference.aspose.com/pdf/net/).
+Další příklady a návody najdete v [dokumentace](https://reference.aspose.com/pdf/net/).
 
 ### Co mám dělat, když narazím na problémy?
- Pokud narazíte na nějaké problémy, zkontrolujte[fórum podpory](https://forum.aspose.com/c/pdf/10) za pomoc od komunity.
+Pokud narazíte na nějaké problémy, zkontrolujte [fórum podpory](https://forum.aspose.com/c/pdf/10) o pomoc od komunity.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

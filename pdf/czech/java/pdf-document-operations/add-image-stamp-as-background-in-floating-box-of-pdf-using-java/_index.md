@@ -1,120 +1,124 @@
 ---
-title: Přidejte razítko obrázku jako pozadí do plovoucího rámečku PDF pomocí Javy
-linktitle: Přidejte razítko obrázku jako pozadí do plovoucího rámečku PDF pomocí Javy
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se přidávat obrazová razítka jako pozadí do PDF pomocí Java a Aspose.PDF pro Java. Podrobný průvodce s příklady kódu pro přizpůsobenou značku a informace.
-weight: 10
-url: /cs/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/
+"description": "Naučte se, jak přidat obrázková razítka jako pozadí do PDF pomocí Javy a Aspose.PDF pro Javu. Podrobný návod s příklady kódu pro přizpůsobení brandingu a informacemi."
+"linktitle": "Přidání obrazového razítka jako pozadí v plovoucím poli PDF pomocí Javy"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Přidání obrazového razítka jako pozadí v plovoucím poli PDF pomocí Javy"
+"url": "/cs/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte razítko obrázku jako pozadí do plovoucího rámečku PDF pomocí Javy
+# Přidání obrazového razítka jako pozadí v plovoucím poli PDF pomocí Javy
 
 
 ## Úvod do obrazových razítek
 
-Obrazová razítka jsou grafické prvky přidávané do PDF dokumentů. Slouží k různým účelům, jako je přidávání log, vodoznaků nebo anotací, aby byl dokument vizuálně přitažlivější nebo informativní.
+Razítka obrázků jsou grafické prvky přidávané do dokumentů PDF. Slouží k různým účelům, například k přidávání log, vodoznaků nebo anotací, aby byl dokument vizuálně přitažlivější nebo informativnější.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK) nainstalován
+- Nainstalovaná vývojářská sada Java (JDK)
 - Integrované vývojové prostředí (IDE) pro Javu, jako je IntelliJ IDEA nebo Eclipse
--  Aspose.PDF pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF pro knihovnu Java. Můžete si ji stáhnout z [zde](https://releases.aspose.com/pdf/java/).
 
-## Co je Aspose.PDF pro Java?
+## Co je Aspose.PDF pro Javu?
 
-Aspose.PDF for Java je výkonné API, které umožňuje vývojářům pracovat se soubory PDF v jejich aplikacích Java. Poskytuje širokou škálu funkcí pro vytváření, manipulaci a optimalizaci dokumentů PDF, díky čemuž je cenným nástrojem pro firmy i jednotlivce, kteří s PDF pravidelně pracují.
+Aspose.PDF pro Javu je výkonné API, které umožňuje vývojářům pracovat s PDF soubory v jejich Java aplikacích. Nabízí širokou škálu funkcí pro vytváření, manipulaci a optimalizaci PDF dokumentů, což z něj činí cenný nástroj pro firmy i jednotlivce, kteří s PDF soubory pravidelně pracují.
 
-## Pochopení obrazových razítek
+## Principy obrazových razítek
 
-Obrazová razítka v souborech PDF jsou grafické prvky, které lze přidat do dokumentu za účelem předávání informací nebo brandingu. V tomto tutoriálu se zaměříme na přidávání obrazových razítek jako pozadí do plovoucích rámečků, což může být užitečné zejména pro vytváření šablon, hlavičkových papírů nebo formulářů.
+Razítka s obrázky v PDF jsou grafické prvky, které lze přidat do dokumentu za účelem sdělení informací nebo označení značky. V tomto tutoriálu se zaměříme na přidávání razítek s obrázky jako pozadí v plovoucích rámečcích, což může být obzvláště užitečné pro vytváření šablon, hlavičkových papírů nebo formulářů.
 
-## Příprava vašeho vývojového prostředí
+## Příprava vývojového prostředí
 
- Než se vrhneme na kód, musíte nastavit vývojové prostředí. Ujistěte se, že máte v projektu Java nainstalovanou a nakonfigurovanou knihovnu Aspose.PDF for Java. Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/pdf/java/).
+Než se pustíme do kódu, je třeba nastavit vývojové prostředí. Ujistěte se, že máte ve svém projektu Java nainstalovanou a nakonfigurovanou knihovnu Aspose.PDF pro Javu. Knihovnu si můžete stáhnout z [zde](https://releases.aspose.com/pdf/java/).
 
-## Vytvoření dokumentu PDF
+## Vytvoření PDF dokumentu
 
-Chcete-li začít, vytvořte nový dokument PDF pomocí Aspose.PDF pro Java. Vytvoříme prázdný dokument, do kterého můžeme později přidat razítko obrázku.
+Pro začátek si vytvořme nový PDF dokument pomocí Aspose.PDF pro Javu. Vytvoříme prázdný dokument, do kterého později přidáme razítko s obrázkem.
 
 ```java
-// Java kód pro vytvoření dokumentu PDF
+// Kód v Javě pro vytvoření PDF dokumentu
 Document pdfDocument = new Document();
 ```
 
 ## Přidání obrazového razítka
 
- Dále do dokumentu PDF přidáme obrázkové razítko. Pro tento krok byste měli mít připravený soubor obrázku. Použijeme`addStamp` způsob přidání obrázku jako razítka.
+Dále do dokumentu PDF přidáme obrázkové razítko. Pro tento krok byste měli mít připravený soubor s obrázkem. Použijeme `addStamp` metoda pro přidání obrázku jako razítka.
 
 ```java
-// Java kód pro přidání obrazového razítka
+// Kód v Javě pro přidání razítka s obrázkem
 Stamp stamp = new Stamp();
 stamp.setBackground(true);
 stamp.setOpacity(0.5);
 stamp.setWidth(200);
 stamp.setHeight(100);
 
-// Načtěte obrázek ze souboru
+// Načíst obrázek ze souboru
 stamp.setImage("path/to/your/image.png");
 
-// Přidejte razítko na stránku PDF
+// Přidání razítka na stránku PDF
 pdfDocument.getPages().get_Item(1).addStamp(stamp);
 ```
 
 ## Konfigurace obrazového razítka
 
-Můžete nakonfigurovat různé vlastnosti obrazového razítka, jako je jeho poloha, velikost, krytí a další. Upravte tato nastavení tak, aby vyhovovala vašim specifickým požadavkům.
+Můžete nakonfigurovat různé vlastnosti obrazového razítka, jako je jeho poloha, velikost, neprůhlednost a další. Upravte tato nastavení podle svých specifických požadavků.
 
 ## Uložení dokumentu PDF
 
-Jakmile přidáte razítko obrázku, můžete uložit dokument PDF s přiloženým razítkem. Vyberte vhodnou cestu k souboru a použijte následující kód:
+Jakmile přidáte razítko s obrázkem, můžete uložit dokument PDF s ním. Vyberte vhodnou cestu k souboru a použijte následující kód:
 
 ```java
-// Java kód pro uložení dokumentu PDF
+// Kód v Javě pro uložení dokumentu PDF
 pdfDocument.save("output.pdf");
 ```
 
-## Spuštění kódu Java
+## Spuštění kódu v Javě
 
-Zkompilujte a spusťte kód Java pro vygenerování dokumentu PDF s razítkem obrázku. Měli byste vidět obrazové razítko přidané jako pozadí v plovoucím rámečku.
+Zkompilujte a spusťte kód Java pro generování dokumentu PDF s obrázkovým razítkem. Obrázkové razítko byste měli vidět přidané jako pozadí v plovoucím rámečku.
 
 ## Další možnosti přizpůsobení
 
-Aspose.PDF for Java nabízí mnoho možností přizpůsobení obrazových razítek a dokumentů PDF. Prozkoumejte dokumentaci API a zjistěte další způsoby, jak vylepšit vaše soubory PDF.
+Aspose.PDF pro Javu nabízí mnoho možností přizpůsobení pro obrazová razítka a PDF dokumenty. Prozkoumejte dokumentaci k API a objevte další způsoby, jak vylepšit vaše PDF soubory.
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak přidat razítko obrázku jako pozadí do plovoucího rámečku dokumentu PDF pomocí Java a Aspose.PDF for Java API. To může být cenná funkce pro vytváření profesionálních dokumentů PDF s přizpůsobenou značkou a informacemi.
+V tomto tutoriálu jsme se naučili, jak přidat obrázkové razítko jako pozadí do plovoucího rámečku PDF dokumentu pomocí Javy a rozhraní Aspose.PDF for Java API. To může být cenná funkce pro vytváření profesionálních PDF dokumentů s přizpůsobeným brandingem a informacemi.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak mohu změnit polohu obrazového razítka v PDF?
 
- Polohu obrazového razítka můžete upravit úpravou jeho souřadnic X a Y pomocí`stamp.setX` a`stamp.setY` metody.
+Polohu obrazového razítka můžete upravit úpravou jeho souřadnic X a Y pomocí `stamp.setX` a `stamp.setY` metody.
 
-### Mohu přidat více obrazových razítek do stejného dokumentu PDF?
+### Mohu do stejného dokumentu PDF přidat více obrazových razítek?
 
-Ano, do dokumentu PDF můžete přidat více obrazových razítek opakováním procesu razítkování pro každý obraz.
+Ano, do dokumentu PDF můžete přidat více obrazových razítek opakováním procesu razítka pro každý obrázek.
 
-### Je Aspose.PDF for Java vhodný pro komerční použití?
+### Je Aspose.PDF pro Javu vhodný pro komerční použití?
 
-Ano, Aspose.PDF for Java je vhodný pro komerční i osobní použití. Nabízí možnosti licencování pro uspokojení různých potřeb.
+Ano, Aspose.PDF pro Javu je vhodný pro komerční i osobní použití. Nabízí možnosti licencování, které vyhoví různým potřebám.
 
 ### Mohu přidat textová razítka spolu s obrazovými razítky?
 
-Jistě! Vedle obrazových razítek můžete přidat textová razítka a poskytnout tak další informace nebo štítky v dokumentech PDF.
+Jistě! Vedle obrazových razítek můžete přidat i textová razítka, abyste do dokumentů PDF poskytli další informace nebo popisky.
 
 ### Kde najdu další příklady a dokumentaci k Aspose.PDF pro Javu?
 
- Úplnou dokumentaci a příklady můžete najít na stránce dokumentace Aspose.PDF for Java:[zde](https://reference.aspose.com/pdf/java/).
+Komplexní dokumentaci a příklady naleznete na stránce s dokumentací k souboru Aspose.PDF pro Javu: [zde](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

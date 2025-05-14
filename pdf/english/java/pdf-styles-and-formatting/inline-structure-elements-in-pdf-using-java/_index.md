@@ -8,7 +8,9 @@ url: /java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Inline Structure Elements in PDF using Java
@@ -222,6 +224,7 @@ To create hyperlinks in a PDF, use Aspose.PDF for Java to create a `LinkAnnotati
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

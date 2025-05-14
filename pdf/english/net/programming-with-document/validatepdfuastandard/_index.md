@@ -8,7 +8,9 @@ url: /net/programming-with-document/validatepdfuastandard/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validate PDF UA Standard
@@ -122,6 +124,7 @@ The validation results are saved in an XML file, which provides detailed informa
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thêm các tiêu đề khác nhau vào tệp PDF
-linktitle: Thêm các tiêu đề khác nhau vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm các tiêu đề khác nhau vào tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để tùy chỉnh tệp PDF của bạn.
-weight: 30
-url: /vi/net/programming-with-stamps-and-watermarks/adding-different-headers/
+"description": "Tìm hiểu cách thêm các tiêu đề khác nhau vào tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để tùy chỉnh tệp PDF của bạn."
+"linktitle": "Thêm các tiêu đề khác nhau vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm các tiêu đề khác nhau vào tệp PDF"
+"url": "/vi/net/programming-with-stamps-and-watermarks/adding-different-headers/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm các tiêu đề khác nhau vào tệp PDF
@@ -22,7 +24,7 @@ Trong bài viết này, chúng ta sẽ tìm hiểu sâu hơn về cách sử d�
 Trước khi đi sâu vào phần mã hóa, bạn cần đảm bảo một số điều sau để có thể thực hiện theo hướng dẫn này:
 
 - Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính, vì chúng ta sẽ sử dụng nó để chạy mã .NET.
--  Thư viện Aspose.PDF: Bạn sẽ cần phải có thư viện Aspose.PDF. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/) . Nếu bạn mới làm quen với nó, bạn có thể muốn thử[dùng thử miễn phí](https://releases.aspose.com/).
+- Thư viện Aspose.PDF: Bạn sẽ cần phải có thư viện Aspose.PDF. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/). Nếu bạn mới làm quen với nó, bạn có thể muốn thử [dùng thử miễn phí](https://releases.aspose.com/).
 - .NET Framework: Đảm bảo bạn đã cài đặt phiên bản .NET Framework tương thích để chạy thư viện Aspose.PDF.
 
 Khi đã đáp ứng được những điều kiện tiên quyết này, bạn sẽ có thể tạo tệp PDF của riêng mình với các tiêu đề có thể tùy chỉnh!
@@ -44,7 +46,7 @@ using Aspose.Pdf.Text;
 
 ## Bước 1: Xác định đường dẫn đến tài liệu của bạn
 
- Đầu tiên, hãy thiết lập đường dẫn đến thư mục tài liệu PDF của bạn. Đây là nơi chúng ta sẽ truy cập tệp PDF và lưu tệp đã cập nhật. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn.
+Đầu tiên, hãy thiết lập đường dẫn đến thư mục tài liệu PDF của bạn. Đây là nơi chúng ta sẽ truy cập tệp PDF và lưu tệp đã cập nhật. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Mở Tài liệu Nguồn của Bạn
 
- Bây giờ chúng ta đã thiết lập thư mục tài liệu của mình, bước tiếp theo là mở tệp PDF mà chúng ta muốn thêm tiêu đề. Chúng ta sẽ sử dụng`Aspose.Pdf.Document` lớp học này.
+Bây giờ chúng ta đã thiết lập thư mục tài liệu của mình, bước tiếp theo là mở tệp PDF mà chúng ta muốn thêm tiêu đề. Chúng ta sẽ sử dụng `Aspose.Pdf.Document` lớp học này.
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddingDifferentHeaders.pdf");
@@ -70,7 +72,7 @@ Aspose.Pdf.TextStamp stamp3 = new Aspose.Pdf.TextStamp("Header 3");
 
 ## Bước 4: Tùy chỉnh Tiêu đề đầu tiên
 
-Bây giờ là lúc cá nhân hóa tiêu đề đầu tiên của chúng ta. Chúng ta sẽ thiết lập căn chỉnh, kiểu dáng, màu sắc và kích thước để làm cho nó nổi bật.
+Bây giờ là lúc cá nhân hóa tiêu đề đầu tiên của chúng ta. Chúng ta sẽ thiết lập căn chỉnh, kiểu dáng, màu sắc và kích thước để làm cho tiêu đề nổi bật.
 
 ```csharp
 // Đặt căn chỉnh tem
@@ -95,7 +97,7 @@ stamp2.Zoom = 10;
 
 ## Bước 6: Tùy chỉnh Tiêu đề thứ ba
 
-Đối với tiêu đề thứ ba, chúng ta sẽ thêm một chút hoa văn bằng cách thiết lập xoay theo một góc và đổi màu nền thành màu hồng. Đây là cách thực hiện:
+Đối với tiêu đề thứ ba, chúng ta sẽ thêm một chút phong cách bằng cách thiết lập xoay theo một góc và đổi màu nền thành màu hồng. Đây là cách thực hiện:
 
 ```csharp
 stamp3.VerticalAlignment = Aspose.Pdf.VerticalAlignment.Top;
@@ -117,7 +119,7 @@ doc.Pages[3].AddStamp(stamp3); // Thêm tem thứ ba
 
 ## Bước 8: Lưu tài liệu đã cập nhật
 
-Bước cuối cùng là lưu các thay đổi của bạn. Giống như lưu công việc của bạn trong trình chỉnh sửa tài liệu, chúng ta cần lưu PDF mới sửa đổi của mình.
+Bước cuối cùng là lưu các thay đổi của bạn. Giống như lưu công việc của bạn trong trình chỉnh sửa tài liệu, chúng ta cần lưu tệp PDF mới sửa đổi của mình.
 
 ```csharp
 dataDir = dataDir + "multiheader_out.pdf";
@@ -134,22 +136,24 @@ Trong hướng dẫn này, chúng tôi đã đề cập đến cách sử dụng
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thay đổi phông chữ của tiêu đề không?  
- Có, bạn có thể! Sửa đổi`stamp.TextState.Font` Thuộc tính này cho phép áp dụng bất kỳ phông chữ nào từ các phông chữ có sẵn trong Aspose.
+Có, bạn có thể! Sửa đổi `stamp.TextState.Font` Thuộc tính này cho phép áp dụng bất kỳ phông chữ nào từ các phông chữ có sẵn trong Aspose.
 
 ### Có giới hạn số lượng tiêu đề tôi có thể thêm không?  
 Không, bạn có thể thêm bao nhiêu tiêu đề tùy thích; chỉ cần đảm bảo bạn tạo một con dấu tương ứng cho mỗi tiêu đề.
 
 ### Tôi có thể sử dụng phương pháp này để thêm hình ảnh làm tiêu đề không?  
-Hiện tại, hướng dẫn này tập trung vào dấu văn bản, nhưng Aspose.PDF cũng cho phép thêm dấu hình ảnh.
+Hiện tại, hướng dẫn này tập trung vào tem văn bản, nhưng Aspose.PDF cũng cho phép thêm tem hình ảnh.
 
 ### Làm thế nào để căn giữa tiêu đề theo chiều dọc?  
- Bạn có thể sử dụng`VerticalAlignment.Center` để làm được điều đó, hãy đảm bảo nó được căn chỉnh hoàn hảo.
+Bạn có thể sử dụng `VerticalAlignment.Center` để làm được điều đó, hãy đảm bảo nó được căn chỉnh hoàn hảo.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.PDF ở đâu?  
- Bạn có thể kiểm tra[tài liệu](https://reference.aspose.com/pdf/net/) để biết hướng dẫn chi tiết và ví dụ.
+Bạn có thể kiểm tra [tài liệu](https://reference.aspose.com/pdf/net/) để biết hướng dẫn chi tiết và ví dụ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

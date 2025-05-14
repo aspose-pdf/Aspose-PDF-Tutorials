@@ -1,14 +1,16 @@
 ---
-title: Buộc hiển thị bảng trên trang mới trong PDF bằng Java
-linktitle: Buộc hiển thị bảng trên trang mới trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách buộc hiển thị bảng trên trang mới trong PDF bằng Java với Aspose.PDF. Hướng dẫn từng bước này bao gồm mã nguồn và mẹo chuyên gia để định dạng tài liệu PDF chính xác.
-weight: 11
-url: /vi/java/pdf-tables/force-table-rendering-on-new-page-in-pdf-using-java/
+"description": "Tìm hiểu cách buộc hiển thị bảng trên trang mới trong PDF bằng Java với Aspose.PDF. Hướng dẫn từng bước này bao gồm mã nguồn và mẹo chuyên gia để định dạng tài liệu PDF chính xác."
+"linktitle": "Buộc hiển thị bảng trên trang mới trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Buộc hiển thị bảng trên trang mới trong PDF bằng Java"
+"url": "/vi/java/pdf-tables/force-table-rendering-on-new-page-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buộc hiển thị bảng trên trang mới trong PDF bằng Java
@@ -26,7 +28,7 @@ Kết xuất PDF bao gồm việc tạo một tài liệu PDF và thêm nội du
 
 ## Kiểm soát ngắt trang trong PDF
 
-Ngắt trang đóng vai trò quan trọng trong tài liệu PDF. Chúng xác định nơi nội dung chảy từ trang này sang trang tiếp theo. Theo mặc định, các công cụ kết xuất PDF xử lý ngắt trang tự động dựa trên kích thước nội dung và kích thước trang. Tuy nhiên, trong một số trường hợp, bạn có thể muốn kiểm soát nhiều hơn đối với ngắt trang, đặc biệt là khi xử lý bảng.
+Ngắt trang đóng vai trò quan trọng trong tài liệu PDF. Chúng xác định nội dung chảy từ trang này sang trang tiếp theo. Theo mặc định, các công cụ kết xuất PDF xử lý ngắt trang tự động dựa trên kích thước nội dung và kích thước trang. Tuy nhiên, trong một số trường hợp, bạn có thể muốn kiểm soát nhiều hơn đối với ngắt trang, đặc biệt là khi xử lý bảng.
 
 ## Buộc hiển thị bảng trên một trang mới
 
@@ -38,7 +40,7 @@ Ngắt trang đóng vai trò quan trọng trong tài liệu PDF. Chúng xác đ�
 
 ### Bước 1: Thiết lập dự án Java của bạn
 
- Trước khi bắt đầu, hãy đảm bảo bạn đã tích hợp Aspose.PDF for Java vào dự án của mình. Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/pdf/java/).
+Trước khi bắt đầu, hãy đảm bảo bạn đã tích hợp Aspose.PDF for Java vào dự án của mình. Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/pdf/java/).
 
 ### Bước 2: Tạo tài liệu PDF
 
@@ -74,7 +76,7 @@ Cell cell2 = row.getCells().add("Column 2 Data");
 
 ### Bước 5: Kiểm soát ngắt trang
 
- Để buộc bảng hiển thị trên một trang mới, bạn có thể kiểm soát ngắt trang bằng cách sử dụng`IsInNewPage` tài sản.
+Để buộc bảng hiển thị trên một trang mới, bạn có thể kiểm soát ngắt trang bằng cách sử dụng `IsInNewPage` tài sản.
 
 ```java
 // Buộc bảng bắt đầu ở một trang mới
@@ -92,7 +94,7 @@ pdfDocument.save("output.pdf");
 
 ## Thêm dữ liệu vào bảng PDF
 
-Bây giờ chúng tôi đã triển khai tính năng kết xuất bảng force, bạn có thể thêm dữ liệu của mình vào bảng PDF. Đảm bảo rằng cấu trúc bảng và dữ liệu được sắp xếp hợp lý.
+Bây giờ chúng tôi đã triển khai tính năng kết xuất bảng force, bạn có thể thêm dữ liệu của mình vào bảng PDF. Đảm bảo rằng cấu trúc bảng và dữ liệu được sắp xếp phù hợp.
 
 ## Tạo kiểu cho bảng
 
@@ -111,7 +113,7 @@ Trong bài viết này, chúng ta đã học cách buộc hiển thị bảng tr
 ### Làm thế nào để thêm Aspose.PDF cho Java vào dự án của tôi?
 
 Để thêm Aspose.PDF cho Java vào dự án của bạn, hãy làm theo các bước sau:
-1.  Tải xuống thư viện từ[đây](https://releases.aspose.com/pdf/java/).
+1. Tải xuống thư viện từ [đây](https://releases.aspose.com/pdf/java/).
 2. Thêm các tệp JAR vào classpath của dự án.
 3. Bạn đã sẵn sàng sử dụng Aspose.PDF trong dự án Java của mình.
 
@@ -129,10 +131,12 @@ Có, Aspose.PDF for Java phù hợp để tạo PDF quy mô lớn và cung cấp
 
 ### Tôi có thể ngắt trang tại những điểm cụ thể trong tài liệu PDF không?
 
- Có, bạn có thể buộc ngắt trang tại các điểm cụ thể trong tài liệu PDF bằng cách thao tác`IsInNewPage` tài sản như đã trình bày trong bài viết này.
+Có, bạn có thể buộc ngắt trang tại các điểm cụ thể trong tài liệu PDF bằng cách thao tác `IsInNewPage` tài sản như đã trình bày trong bài viết này.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

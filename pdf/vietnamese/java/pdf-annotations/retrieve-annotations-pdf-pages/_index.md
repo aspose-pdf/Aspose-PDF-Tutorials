@@ -1,14 +1,16 @@
 ---
-title: Lấy chú thích từ các trang PDF
-linktitle: Lấy chú thích từ các trang PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách lấy chú thích từ các trang PDF bằng Aspose.PDF cho Java. Khám phá hướng dẫn từng bước và ví dụ mã trong hướng dẫn toàn diện này.
-weight: 13
-url: /vi/java/pdf-annotations/retrieve-annotations-pdf-pages/
+"description": "Tìm hiểu cách lấy chú thích từ các trang PDF bằng Aspose.PDF cho Java. Khám phá hướng dẫn từng bước và ví dụ mã trong hướng dẫn toàn diện này."
+"linktitle": "Lấy chú thích từ các trang PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Lấy chú thích từ các trang PDF"
+"url": "/vi/java/pdf-annotations/retrieve-annotations-pdf-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy chú thích từ các trang PDF
@@ -72,10 +74,10 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách lấy chú thích t
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Để cài đặt Aspose.PDF cho Java, hãy truy cập liên kết tải xuống tại[đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp trên trang web.
+Để cài đặt Aspose.PDF cho Java, hãy truy cập liên kết tải xuống tại [đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp trên trang web.
 
 ### Tôi có thể lấy chú thích từ các trang cụ thể trong tài liệu PDF không?
-Có, bạn có thể lấy chú thích từ các trang cụ thể trong tài liệu PDF bằng cách chỉ định số trang trong mã của bạn. Chỉ cần tải tài liệu PDF và truy cập trang mong muốn bằng cách sử dụng`get_Item` phương pháp.
+Có, bạn có thể lấy chú thích từ các trang cụ thể trong tài liệu PDF bằng cách chỉ định số trang trong mã của bạn. Chỉ cần tải tài liệu PDF và truy cập trang mong muốn bằng cách sử dụng `get_Item` phương pháp.
 
 ### Tôi có thể lấy những loại chú thích nào bằng Aspose.PDF cho Java?
 
@@ -88,9 +90,11 @@ Có, Aspose.PDF for Java phù hợp cho cả mục đích sử dụng cá nhân 
 ### Tôi có thể tự động hóa quá trình truy xuất chú thích bằng Aspose.PDF cho Java không?
 
 Có, bạn có thể tự động hóa quy trình truy xuất chú thích bằng Aspose.PDF cho Java. Bạn có thể tạo các tập lệnh hoặc ứng dụng để truy xuất chú thích theo chương trình từ các tài liệu PDF, biến nó thành một công cụ có giá trị cho quy trình xử lý tài liệu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

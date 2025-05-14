@@ -1,14 +1,16 @@
 ---
-title: Metin Aygıtını Kullanarak Metni Çıkarın
-linktitle: Metin Aygıtını Kullanarak Metni Çıkarın
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET'teki Metin Aygıtını kullanarak bir PDF belgesinden metnin nasıl çıkarılacağını öğrenin.
-weight: 210
-url: /tr/net/programming-with-text/extract-text-using-text-device/
+"description": "Aspose.PDF for .NET'teki Metin Aygıtını kullanarak bir PDF belgesinden metnin nasıl çıkarılacağını öğrenin."
+"linktitle": "Metin Aygıtını Kullanarak Metni Çıkarın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Metin Aygıtını Kullanarak Metni Çıkarın"
+"url": "/tr/net/programming-with-text/extract-text-using-text-device/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metin Aygıtını Kullanarak Metni Çıkarın
@@ -21,10 +23,10 @@ Bir PDF'den metin çıkarmak, özellikle çeşitli biçimler, gömülü yazı ti
 
 Koda geçmeden önce, takip etmek için her şeyin yerli yerinde olduğundan emin olun. İhtiyacınız olanlar şunlar:
 
-1.  Aspose.PDF for .NET: En son sürümü şu adresten indirin:[Aspose.PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: En son sürümü şu adresten indirin: [Aspose.PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir C# geliştirme ortamı.
 3. .NET Framework: Projenizin .NET Framework 4.x veya üzerini hedeflediğinden emin olun.
-4. Giriş PDF Dosyası: Metin çıkarmak için kullanacağınız bir PDF dosyası. Bunu makinenizdeki bir dizine yerleştirin (buna şu şekilde atıfta bulunacağız:`YOUR DOCUMENT DIRECTORY`).
+4. Giriş PDF Dosyası: Metin çıkarmak için kullanacağınız bir PDF dosyası. Bunu makinenizdeki bir dizine yerleştirin (buna şu şekilde atıfta bulunacağız: `YOUR DOCUMENT DIRECTORY`).
 
 ## Paketleri İçe Aktar
 
@@ -41,7 +43,7 @@ using System.Text;
 
 ## Adım 1: PDF Belgenizi Yükleyin
 
- Metni çıkarmadan önce PDF belgesini belleğe yüklememiz gerekir. Bu adımda, PDF'nizi Aspose.PDF'in`Document` sınıf. Bu, dosyadaki tüm sayfalara ve içeriklere erişmenizi sağlayacaktır.
+Metni çıkarmadan önce PDF belgesini belleğe yüklememiz gerekir. Bu adımda, PDF'nizi Aspose.PDF'in `Document` sınıf. Bu, dosyadaki tüm sayfalara ve içeriklere erişmenizi sağlayacaktır.
 
 ```csharp
 // PDF belgenize giden yolu tanımlayın
@@ -51,22 +53,22 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Burada, şunu kullanıyoruz`Document pdfDocument = new Document(dataDir + "input.pdf");` PDF'yi yüklemek için`dataDir` değişkeni PDF dosyanızın dizin yolunu tutar. Bu bize tüm belgeye erişim sağlayacak, sayfalar arasında dolaşıp içerik çıkarmamızı sağlayacaktır.
+Burada, şunu kullanıyoruz `Document pdfDocument = new Document(dataDir + "input.pdf");` PDF'yi yüklemek için `dataDir` değişkeni PDF dosyanızın dizin yolunu tutar. Bu bize tüm belgeye erişim sağlayacak, sayfalar arasında dolaşıp içerik çıkarmamızı sağlayacaktır.
 
 ## Adım 2: Metin Depolama için Bir Dize Oluşturucu Ayarlayın
 
- Artık belge yüklendiğine göre, çıkarılan metni depolamanın bir yoluna ihtiyacımız var. Bunun için bir`StringBuilder` verimli dize birleştirmeye olanak tanır.
+Artık belge yüklendiğine göre, çıkarılan metni depolamanın bir yoluna ihtiyacımız var. Bunun için bir `StringBuilder` verimli dize birleştirmeye olanak tanır.
 
 ```csharp
 // Çıkarılan metni tutacak StringBuilder
 StringBuilder builder = new StringBuilder();
 ```
 
- Birini başlatıyoruz`StringBuilder`her sayfadan çıkarılan metni toplayacak olan örnek. Döngüdeki normal dize birleştirmeye kıyasla büyük dizeleri işlemenin daha verimli bir yoludur.
+Birini başlatıyoruz `StringBuilder` her sayfadan çıkarılan metni toplayacak olan örnek. Döngüdeki normal dize birleştirmeye kıyasla büyük dizeleri işlemenin daha verimli bir yoludur.
 
 ## Adım 3: PDF Sayfaları Arasında Döngü
 
- Sonra, metni çıkarmak için PDF belgesinin her sayfasında döngü oluşturacağız. Her sayfayı tek tek şu şekilde işleyeceğiz:`TextDevice` PDF içeriğini metin formatına dönüştürmekten sorumlu sınıf.
+Sonra, metni çıkarmak için PDF belgesinin her sayfasında döngü oluşturacağız. Her sayfayı tek tek şu şekilde işleyeceğiz: `TextDevice` PDF içeriğini metin formatına dönüştürmekten sorumlu sınıf.
 
 ```csharp
 // PDF'deki tüm sayfalarda dolaş
@@ -76,11 +78,11 @@ foreach (Page pdfPage in pdfDocument.Pages)
 }
 ```
 
-Bu döngü PDF'nin her sayfasından geçer (`pdfDocument.Pages` ). Her sayfa için metni çıkarıp kendimize ekleyeceğiz.`StringBuilder`.
+Bu döngü PDF'nin her sayfasından geçer (`pdfDocument.Pages`). Her sayfa için metni çıkarıp kendimize ekleyeceğiz. `StringBuilder`.
 
 ## Adım 4: Her Sayfadan Metni Çıkarın
 
- Şimdi, her sayfa için metin çıkarma işlemini ayarlıyoruz. Burada, bir`TextDevice` nesneyi kullanın ve PDF sayfalarını işlemek için kullanın.`TextDevice` Ayarladığımız çıkarma seçeneklerine göre ham veya biçimlendirilmiş metni çıkarır.
+Şimdi, her sayfa için metin çıkarma işlemini ayarlıyoruz. Burada, bir `TextDevice` nesneyi kullanın ve PDF sayfalarını işlemek için kullanın. `TextDevice` Ayarladığımız çıkarma seçeneklerine göre ham veya biçimlendirilmiş metni çıkarır.
 
 ```csharp
 using (MemoryStream textStream = new MemoryStream())
@@ -92,7 +94,7 @@ using (MemoryStream textStream = new MemoryStream())
     TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);
     textDevice.ExtractionOptions = textExtOptions;
 
-    //Metni geçerli sayfadan çıkarın ve bellek akışına kaydedin
+    // Metni geçerli sayfadan çıkarın ve bellek akışına kaydedin
     textDevice.Process(pdfPage, textStream);
 
     // Bellek akışını metne dönüştür
@@ -103,14 +105,14 @@ using (MemoryStream textStream = new MemoryStream())
 }
 ```
 
-- `TextDevice textDevice = new TextDevice();` : :`TextDevice` sınıfı PDF'den metin çıkarmak için kullanılır.
-- `TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);` : Bu seçenek, yazı tipleri veya konumlar gibi herhangi bir biçimlendirmeyi korumadan ham metni çıkarır. Ayrıca şunu da kullanabilirsiniz:`TextFormattingMode.Raw` Biçimlendirme üzerinde daha fazla kontrole ihtiyacınız varsa.
-- `textDevice.Process(pdfPage, textStream);` : Bu, PDF'nin her sayfasını işler ve çıkarılan metni bir`MemoryStream`.
--  Son olarak metni şu şekilde dönüştürüyoruz:`MemoryStream` bir dizeye ekleyin ve onu dizeye ekleyin`StringBuilder`.
+- `TextDevice textDevice = new TextDevice();`: : `TextDevice` sınıfı PDF'den metin çıkarmak için kullanılır.
+- `TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);`: Bu seçenek, yazı tipleri veya konumlar gibi herhangi bir biçimlendirmeyi korumadan ham metni çıkarır. Ayrıca şunu da kullanabilirsiniz: `TextFormattingMode.Raw` Biçimlendirme üzerinde daha fazla kontrole ihtiyacınız varsa.
+- `textDevice.Process(pdfPage, textStream);`: Bu, PDF'nin her sayfasını işler ve çıkarılan metni bir `MemoryStream`.
+- Son olarak metni şu şekilde dönüştürüyoruz: `MemoryStream` bir dizeye ekleyin ve onu dizeye ekleyin `StringBuilder`.
 
 ## Adım 5: Çıkarılan Metni Bir Dosyaya Kaydet
 
- Tüm sayfalar işlendikten sonra metin şuraya kaydedilir:`StringBuilder`Son adım, çıkarılan bu metni bir dosyaya kaydetmektir.
+Tüm sayfalar işlendikten sonra metin şuraya kaydedilir: `StringBuilder`Son adım, çıkarılan bu metni bir dosyaya kaydetmektir.
 
 ```csharp
 // Metin dosyası için çıktı yolunu tanımlayın
@@ -122,8 +124,8 @@ File.WriteAllText(dataDir, builder.ToString());
 Console.WriteLine("\nText extracted successfully from PDF document.\nFile saved at " + dataDir);
 ```
 
-- `File.WriteAllText(dataDir, builder.ToString());` : Bu, tüm içeriği yazar`StringBuilder` Bir metin dosyasına.
-- Çıktı dosyasının yolu, bir dosya adı eklenerek ayarlanır (`"input_Text_Extracted_out.txt"` ) için`dataDir` yol.
+- `File.WriteAllText(dataDir, builder.ToString());`: Bu, tüm içeriği yazar `StringBuilder` Bir metin dosyasına.
+- Çıktı dosyasının yolu, bir dosya adı eklenerek ayarlanır (`"input_Text_Extracted_out.txt"`) için `dataDir` yol.
 
 ## Çözüm
 
@@ -147,9 +149,11 @@ Aspose.PDF iki mod sunar: Raw ve Pure. Raw modu orijinal düzeni korumaya çalı
 
 ### Aspose.PDF for .NET, .NET Core ile uyumlu mudur?
 Evet, Aspose.PDF for .NET, .NET Core ve .NET Framework ile tam uyumludur.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

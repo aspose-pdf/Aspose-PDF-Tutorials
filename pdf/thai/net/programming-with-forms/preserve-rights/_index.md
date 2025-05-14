@@ -1,14 +1,16 @@
 ---
-title: สงวนสิทธิ์
-linktitle: สงวนสิทธิ์
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: รักษาสิทธิ์แบบฟอร์มในเอกสาร PDF ของคุณด้วย Aspose.PDF สำหรับ .NET
-weight: 210
-url: /th/net/programming-with-forms/preserve-rights/
+"description": "รักษาสิทธิ์แบบฟอร์มในเอกสาร PDF ของคุณด้วย Aspose.PDF สำหรับ .NET"
+"linktitle": "สงวนสิทธิ์"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "สงวนสิทธิ์"
+"url": "/th/net/programming-with-forms/preserve-rights/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สงวนสิทธิ์
@@ -22,8 +24,8 @@ url: /th/net/programming-with-forms/preserve-rights/
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณจะต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่คือ IDE ที่เราจะใช้ในการพัฒนา .NET
-2.  .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว Aspose.PDF รองรับหลายเวอร์ชัน ดังนั้นโปรดตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/pdf/net/) เพื่อความเข้ากันได้
-3.  ไลบรารี Aspose.PDF: คุณจะต้องดาวน์โหลดไลบรารี Aspose.PDF คุณสามารถรับได้จาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/pdf/net/).
+2. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว Aspose.PDF รองรับหลายเวอร์ชัน ดังนั้นโปรดตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/pdf/net/) เพื่อความเข้ากันได้
+3. ไลบรารี Aspose.PDF: คุณจะต้องดาวน์โหลดไลบรารี Aspose.PDF คุณสามารถรับได้จาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/pdf/net/).
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้ง่ายขึ้น
 
 เมื่อคุณมีข้อกำหนดเบื้องต้นเหล่านี้แล้ว คุณก็พร้อมที่จะเริ่มทำงานกับ Aspose.PDF ได้!
@@ -57,42 +59,42 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
- ขั้นต่อไป คุณจะต้องเปิดเอกสาร PDF ที่คุณต้องการแก้ไข ซึ่งทำได้โดยใช้`FileStream` วัตถุ. นี่คือวิธีการ:
+ขั้นต่อไป คุณจะต้องเปิดเอกสาร PDF ที่คุณต้องการแก้ไข ซึ่งทำได้โดยใช้ `FileStream` วัตถุ. นี่คือวิธีการ:
 
 ```csharp
 // อ่านแบบฟอร์ม PDF ต้นฉบับด้วย FileAccess ของ Read and Write
 FileStream fs = new FileStream(dataDir + "input.pdf", FileMode.Open, FileAccess.ReadWrite);
 ```
 
- โค้ดชิ้นนี้จะเปิด`input.pdf` ไฟล์ในโหมดอ่าน-เขียน ช่วยให้คุณสามารถทำการเปลี่ยนแปลงได้
+โค้ดสั้นๆ นี้จะเปิด `input.pdf` ไฟล์ในโหมดอ่าน-เขียน ช่วยให้คุณสามารถทำการเปลี่ยนแปลงได้
 
 ## ขั้นตอนที่ 3: สร้างอินสแตนซ์ของวัตถุเอกสาร
 
- ตอนนี้คุณมีสตรีมไฟล์พร้อมแล้ว ถึงเวลาสร้างอินสแตนซ์ของ`Document` คลาส วัตถุนี้แสดงเอกสาร PDF ของคุณในหน่วยความจำ:
+ตอนนี้คุณมีสตรีมไฟล์พร้อมแล้ว ถึงเวลาสร้างอินสแตนซ์ของ `Document` คลาส วัตถุนี้แสดงเอกสาร PDF ของคุณในหน่วยความจำ:
 
 ```csharp
 // สร้างอินสแตนซ์เอกสาร
 Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(fs);
 ```
 
- ด้วยบรรทัดนี้ คุณได้โหลด PDF ของคุณลงใน`pdfDocument` วัตถุ.
+ด้วยบรรทัดนี้ คุณได้โหลด PDF ของคุณลงใน `pdfDocument` วัตถุ.
 
 ## ขั้นตอนที่ 4: เข้าถึงช่องฟอร์ม
 
 หากต้องการแก้ไขเนื้อหาของ PDF คุณจะต้องเข้าถึงฟิลด์ฟอร์มของไฟล์นั้น วิธีวนซ้ำฟิลด์ทั้งหมดในเอกสารมีดังนี้
 
 ```csharp
-//รับค่าจากทุกฟิลด์
+// รับค่าจากทุกฟิลด์
 foreach (Field formField in pdfDocument.Form)
 {
     // หากชื่อเต็มของฟิลด์มี A1 ให้ดำเนินการ
     if (formField.FullName.Contains("A1"))
     {
-        // แคสต์ฟอร์มฟิลด์เป็น TextBox
+        // ฟอร์มฟิลด์แคสต์เป็น TextBox
         TextBoxField textBoxField = formField as TextBoxField;
         // ปรับเปลี่ยนค่าฟิลด์
         textBoxField.Value = "Testing";
@@ -100,7 +102,7 @@ foreach (Field formField in pdfDocument.Form)
 }
 ```
 
- ในโค้ดนี้ เรากำลังตรวจสอบว่าชื่อฟิลด์มี "A1" หรือไม่ หากเป็นเช่นนั้น เราจะแคสต์เป็น`TextBoxField` และเปลี่ยนค่าเป็น “ทดสอบ”
+ในโค้ดนี้ เรากำลังตรวจสอบว่าชื่อฟิลด์มี "A1" หรือไม่ หากเป็นเช่นนั้น เราจะแคสต์เป็น `TextBoxField` และเปลี่ยนค่าเป็น “ทดสอบ”
 
 ## ขั้นตอนที่ 5: บันทึกเอกสารที่อัปเดต
 
@@ -128,7 +130,7 @@ fs.Close();
 
 ขอแสดงความยินดี! คุณเพิ่งเรียนรู้วิธีการจัดการเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET ตั้งแต่การตั้งค่าสภาพแวดล้อมไปจนถึงการแก้ไขฟิลด์ฟอร์ม ตอนนี้คุณมีทักษะในการจัดการ PDF เหมือนมืออาชีพแล้ว จำไว้ว่าการฝึกฝนทำให้เก่ง ดังนั้นอย่าลังเลที่จะทดลองใช้ฟีเจอร์ต่างๆ ของไลบรารี Aspose.PDF
 
- หากคุณมีคำถามหรือต้องการความช่วยเหลือเพิ่มเติม โปรดตรวจสอบ[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10) หรือสำรวจ[เอกสารประกอบ](https://reference.aspose.com/pdf/net/).
+หากคุณมีคำถามหรือต้องการความช่วยเหลือเพิ่มเติม โปรดตรวจสอบ [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10) หรือสำรวจ [เอกสารประกอบ](https://reference-aspose.com/pdf/net/).
 
 ## คำถามที่พบบ่อย
 
@@ -136,19 +138,21 @@ fs.Close();
 Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และจัดการเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันจะติดตั้ง Aspose.PDF ได้อย่างไร?
- คุณสามารถดาวน์โหลดห้องสมุดได้จาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/pdf/net/) และเพิ่มลงในโครงการ Visual Studio ของคุณ
+คุณสามารถดาวน์โหลดห้องสมุดได้จาก [ลิงค์ดาวน์โหลด](https://releases.aspose.com/pdf/net/) และเพิ่มลงในโครงการ Visual Studio ของคุณ
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose เสนอ[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อให้คุณได้ทดสอบไลบรารีก่อนการซื้อ
+ใช่ Aspose เสนอ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อให้คุณได้ทดสอบไลบรารีก่อนการซื้อ
 
 ### ฉันสามารถหาตัวอย่างเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาตัวอย่างและบทช่วยสอนเพิ่มเติมได้ใน[เอกสารประกอบ](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาตัวอย่างและบทช่วยสอนเพิ่มเติมได้ใน [เอกสารประกอบ](https://reference-aspose.com/pdf/net/).
 
 ### ฉันควรทำอย่างไรหากพบปัญหา?
- หากคุณประสบปัญหาใด ๆ ให้ตรวจสอบ[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือจากชุมชน
+หากคุณประสบปัญหาใด ๆ ให้ตรวจสอบ [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือจากชุมชน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

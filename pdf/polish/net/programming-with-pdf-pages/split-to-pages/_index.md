@@ -1,14 +1,16 @@
 ---
-title: Podziel na strony
-linktitle: Podziel na strony
-second_title: Aspose.PDF dla .NET API Reference
-description: Łatwo podziel pliki PDF na pojedyncze strony za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu samouczkowi. Zawiera przewodnik krok po kroku.
-weight: 140
-url: /pl/net/programming-with-pdf-pages/split-to-pages/
+"description": "Łatwo podziel pliki PDF na pojedyncze strony za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu samouczkowi. Zawiera przewodnik krok po kroku."
+"linktitle": "Podziel na strony"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Podziel na strony"
+"url": "/pl/net/programming-with-pdf-pages/split-to-pages/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podziel na strony
@@ -21,7 +23,7 @@ Zarządzanie plikami PDF może czasami przypominać zaganianie kotów. Niezależ
 
 Zanim przejdziemy do samouczka, ważne jest, aby mieć do dyspozycji odpowiednie narzędzia. Oto, czego będziesz potrzebować:
 
-1. Aspose.PDF dla .NET: Ta biblioteka to Twoja magiczna różdżka do operacji PDF w środowiskach .NET. Pakiet można znaleźć na[Aspose.PDF do pobrania dla .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Ta biblioteka to Twoja magiczna różdżka do operacji PDF w środowiskach .NET. Pakiet można znaleźć na [Aspose.PDF do pobrania dla .NET](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Będziesz potrzebować tego IDE do tworzenia i zarządzania projektami .NET. Upewnij się, że masz zainstalowaną najnowszą wersję, aby móc korzystać ze wszystkich najnowszych funkcji.
 3. Podstawowa znajomość języka C#: Ponieważ będziemy pisać trochę kodu, znajomość języka C# pomoże Ci bezproblemowo nadążać za tematem.
 4. Przykładowy plik PDF: Do celów testowych będziesz potrzebować pliku PDF, który chcesz podzielić. Możesz go utworzyć lub pobrać przykład, gotowy do podziału.
@@ -44,7 +46,7 @@ Pierwszą rzeczą, którą musisz zrobić, jest skonfigurowanie projektu i zaimp
 
 1. W eksploratorze rozwiązań projektu kliknij prawym przyciskiem myszy nazwę projektu.
 2. Wybierz opcję Zarządzaj pakietami NuGet.
-3.  Przejdź do zakładki Przeglądaj, wyszukaj`Aspose.PDF`i kliknij Zainstaluj.
+3. Przejdź do zakładki Przeglądaj, wyszukaj `Aspose.PDF`i kliknij Zainstaluj.
 4. Zaakceptuj wszystkie monity, aby dokończyć instalację.
 
 ```csharp
@@ -64,7 +66,7 @@ Należy zadeklarować zmienną wskazującą na folder, w którym znajduje się p
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Po prostu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie przechowywany jest plik PDF. Ułatwia to lokalizację plików.
+Po prostu zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie przechowywany jest plik PDF. Ułatwia to zlokalizowanie Twoich plików.
 
 ## Krok 2: Załaduj dokument PDF
 
@@ -74,7 +76,7 @@ Następnie musisz załadować dokument PDF, który chcesz podzielić.
 Document pdfDocument = new Document(dataDir + "SplitToPages.pdf");
 ```
 
- Tutaj pamiętaj o zastąpieniu`"SplitToPages.pdf"` rzeczywistą nazwą twojego pliku PDF. Ta linia tworzy obiekt typu`Document`, informując Aspose, który plik Cię interesuje.
+Tutaj pamiętaj o zastąpieniu `"SplitToPages.pdf"` rzeczywistą nazwą twojego pliku PDF. Ta linia tworzy obiekt typu `Document`, informując Aspose, który plik Cię interesuje.
 
 ## Krok 3: Przygotuj się do podziału
 
@@ -84,7 +86,7 @@ Będziesz potrzebować licznika, aby śledzić każdą podzieloną stronę.
 int pageCount = 1;
 ```
 
- Ta zmienna całkowita,`pageCount`, pomoże utworzyć indywidualne nazwy plików dla każdego nowego pliku PDF.
+Ta zmienna całkowita, `pageCount`, pomoże utworzyć indywidualne nazwy plików dla każdego nowego pliku PDF.
 
 ## Krok 4: Przejdź przez każdą stronę
 
@@ -100,11 +102,11 @@ foreach (Page pdfPage in pdfDocument.Pages)
 }
 ```
 
--  Tworzenie nowego dokumentu: Dla każdej strony tworzymy nowy dokument`Document` obiekt przechowujący pojedynczą stronę.
+- Tworzenie nowego dokumentu: Dla każdej strony tworzymy nowy dokument `Document` obiekt przechowujący pojedynczą stronę.
   
--  Dodawanie strony: Używamy`Add()` metoda wstawiania określonej strony z oryginalnego dokumentu do nowego.
+- Dodawanie strony: Używamy `Add()` metoda wstawiania określonej strony z oryginalnego dokumentu do nowego.
 
--  Zapisywanie pliku: Na koniec zapisujemy go pod unikalną nazwą pliku (np.`page_1_out.pdf`, `page_2_out.pdf` , itd.). Za każdym razem, gdy pętla jest iterowana,`pageCount` zwiększa się o jeden, zapewniając, że każdy nowy plik jest prawidłowo indeksowany. 
+- Zapisywanie pliku: Na koniec zapisujemy go pod unikalną nazwą pliku (np. `page_1_out.pdf`, `page_2_out.pdf`, itd.). Za każdym razem, gdy pętla jest iterowana, `pageCount` zwiększa się o jeden, zapewniając, że każdy nowy plik jest prawidłowo indeksowany. 
 
 ## Wniosek
 
@@ -116,7 +118,7 @@ Dzielenie plików PDF nigdy nie było łatwiejsze, prawda? Za pomocą zaledwie k
 Tak, ale przed podzieleniem musisz podać hasło, aby otworzyć dokument.
 
 ### Czy korzystanie z Aspose.PDF jest bezpłatne?
- Aby uzyskać pełną licencję Aspose, wymagany jest zakup, ale oferują one:[bezpłatny okres próbny](https://releases.aspose.com/).
+Aby uzyskać pełną licencję Aspose, wymagany jest zakup, ale oferują one: [bezpłatny okres próbny](https://releases.aspose.com/).
 
 ### Z jakimi formatami plików mogę pracować korzystając z Aspose.PDF?
 Można konwertować i edytować różne formaty, takie jak DOCX, HTML, a także obrazy i pliki PDF.
@@ -126,9 +128,11 @@ Aspose.PDF jest zoptymalizowany pod kątem wydajności i zapewnia szybsze przetw
 
 ### Czy mogę używać pliku Aspose.PDF w usłudze Azure Functions?
 Oczywiście! Jako biblioteka .NET, możesz jej używać bezproblemowo w ramach Azure Functions.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

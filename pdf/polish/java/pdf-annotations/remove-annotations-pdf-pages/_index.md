@@ -1,14 +1,16 @@
 ---
-title: Usuń adnotacje ze stron PDF
-linktitle: Usuń adnotacje ze stron PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak bez wysiłku usuwać adnotacje PDF za pomocą Aspose.PDF dla Java. Zawiera przewodnik krok po kroku i kod.
-weight: 11
-url: /pl/java/pdf-annotations/remove-annotations-pdf-pages/
+"description": "Dowiedz się, jak bez wysiłku usuwać adnotacje PDF za pomocą Aspose.PDF dla Java. Zawiera przewodnik krok po kroku i kod."
+"linktitle": "Usuń adnotacje ze stron PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Usuń adnotacje ze stron PDF"
+"url": "/pl/java/pdf-annotations/remove-annotations-pdf-pages/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń adnotacje ze stron PDF
@@ -22,7 +24,7 @@ Aspose.PDF for Java to solidna biblioteka, która umożliwia programistom pracę
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
--  Aspose.PDF dla Java: Upewnij się, że biblioteka Aspose.PDF dla Java jest zainstalowana i skonfigurowana w Twoim projekcie Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla Java: Upewnij się, że biblioteka Aspose.PDF dla Java jest zainstalowana i skonfigurowana w Twoim projekcie Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Ładowanie dokumentu PDF
 
@@ -33,7 +35,7 @@ Aby pracować z dokumentem PDF, musisz go najpierw załadować do swojej aplikac
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Zastępować`"example.pdf"` ze ścieżką do pliku PDF.
+Zastępować `"example.pdf"` ze ścieżką do pliku PDF.
 
 
 ## Identyfikowanie i uzyskiwanie dostępu do adnotacji
@@ -66,7 +68,7 @@ Po usunięciu adnotacji należy zapisać zmodyfikowany dokument PDF:
 pdfDocument.save("modified.pdf");
 ```
 
- Zastępować`"modified.pdf"` z żądaną nazwą pliku wyjściowego.
+Zastępować `"modified.pdf"` z żądaną nazwą pliku wyjściowego.
 
 ## Wniosek
 
@@ -76,7 +78,7 @@ W tym przewodniku przyjrzeliśmy się sposobowi usuwania adnotacji ze stron PDF 
 
 ### Jak zainstalować Aspose.PDF dla Java?
 
- Możesz pobrać Aspose.PDF dla Javy ze strony[Tutaj](https://releases.aspose.com/pdf/java/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
+Możesz pobrać Aspose.PDF dla Javy ze strony [Tutaj](https://releases.aspose.com/pdf/java/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
 
 ### Czy mogę usunąć określone typy adnotacji, na przykład tylko komentarze tekstowe?
 
@@ -92,10 +94,12 @@ Tak, Aspose.PDF for Java obsługuje pracę z zaszyfrowanymi plikami PDF i zapewn
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.PDF dla Java?
 
- Szczegółową dokumentację i przykłady można znaleźć na stronie dokumentacji Aspose.PDF dla języka Java:[Tutaj](https://reference.aspose.com/pdf/java/).
+Szczegółową dokumentację i przykłady można znaleźć na stronie dokumentacji Aspose.PDF dla języka Java: [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

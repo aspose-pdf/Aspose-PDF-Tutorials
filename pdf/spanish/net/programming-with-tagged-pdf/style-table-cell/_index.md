@@ -1,34 +1,36 @@
 ---
-title: Celda de tabla de estilos
-linktitle: Celda de tabla de estilos
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a aplicar estilo a las celdas de una tabla en un PDF con Aspose.PDF para .NET con este tutorial detallado. Siga las instrucciones para crear y dar formato a hermosas tablas PDF.
-weight: 160
-url: /es/net/programming-with-tagged-pdf/style-table-cell/
+"description": "Aprenda a aplicar estilo a las celdas de una tabla PDF con Aspose.PDF para .NET con este tutorial detallado. Siga las instrucciones para crear y dar formato a atractivas tablas PDF."
+"linktitle": "Celda de tabla de estilos"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Celda de tabla de estilos"
+"url": "/es/net/programming-with-tagged-pdf/style-table-cell/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Celda de tabla de estilos
 
 ## Introducción
 
-Crear tablas PDF de aspecto profesional puede ser complicado, pero con Aspose.PDF para .NET, ¡es sorprendentemente sencillo! Ya sea que esté diseñando encabezados, pies de página o celdas de tabla específicas, esta poderosa biblioteca le proporciona todas las herramientas que necesita para crear documentos PDF con un formato atractivo. En este tutorial, le mostraremos cómo diseñar celdas de tabla en un documento PDF con Aspose.PDF para .NET. No se preocupe, lo desglosaremos todo en pasos fáciles de seguir.
+Crear tablas PDF con aspecto profesional puede ser complicado, pero con Aspose.PDF para .NET, ¡es sorprendentemente sencillo! Ya sea que estés aplicando estilo a encabezados, pies de página o celdas de tabla específicas, esta potente biblioteca te proporciona todas las herramientas necesarias para crear documentos PDF con un formato impecable. En este tutorial, te explicaremos cómo aplicar estilo a las celdas de una tabla en un documento PDF con Aspose.PDF para .NET. No te preocupes, lo explicaremos paso a paso.
 
 ## Prerrequisitos
 
 Antes de sumergirse en el código, asegúrese de tener los siguientes requisitos previos:
 
-1. Aspose.PDF para .NET: Descargue e instale la última versión de Aspose.PDF desde[aquí](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF para .NET: Descargue e instale la última versión de Aspose.PDF desde [aquí](https://releases.aspose.com/pdf/net/).
 2. IDE (como Visual Studio): configure un entorno de desarrollo .NET.
 3. Conocimientos básicos de programación en C#: Se requiere un poco de familiaridad con C#.
-4.  Licencia de Aspose.PDF: Obtenga una licencia temporal o completa para desbloquear todas las funciones de la biblioteca. Puede obtener una versión de prueba gratuita[aquí](https://purchase.aspose.com/temporary-license/).
+4. Licencia de Aspose.PDF: Obtenga una licencia temporal o completa para acceder a todas las funciones de la biblioteca. Puede obtener una prueba gratuita. [aquí](https://purchase.aspose.com/temporary-license/).
 
 ## Importar paquetes
 
-Antes de comenzar, asegúrese de importar los espacios de nombres necesarios. Necesitará lo siguiente en su proyecto:
+Antes de empezar, asegúrese de importar los espacios de nombres necesarios. Necesitará lo siguiente en su proyecto:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -42,11 +44,11 @@ using System.Text;
 
 ¡Ahora que todo está configurado, pasemos a la guía paso a paso!
 
-Vamos a crear una tabla en un documento PDF y aplicar estilo a sus celdas. En cada paso se explicará el proceso en detalle.
+Vamos a crear una tabla en un documento PDF y a aplicar estilo a sus celdas. Cada paso explicará el proceso en detalle.
 
 ## Paso 1: Crear un nuevo documento PDF
 
- El primer paso es crear un nuevo documento PDF. En Aspose.PDF, puede inicializar un nuevo`Document` objeto, que representa su archivo PDF.
+El primer paso es crear un nuevo documento PDF. En Aspose.PDF, puedes inicializar un nuevo `Document` objeto, que representa su archivo PDF.
 
 ```csharp
 // La ruta al directorio de documentos.
@@ -59,14 +61,14 @@ taggedContent.SetTitle("Example table cell style");
 taggedContent.SetLanguage("en-US");
 ```
 
-Aquí inicializamos un documento PDF y configuramos su título e idioma. Esto le otorga al documento una estructura adecuada, lo cual es esencial para la compatibilidad con PDF/UA.
+Aquí, inicializamos un documento PDF y configuramos su título e idioma. Esto le otorga al documento una estructura adecuada, esencial para la compatibilidad con PDF/UA.
 
 ## Paso 2: Configurar la estructura de la tabla
 
-Las tablas en archivos PDF se definen dentro de elementos de estructura. Vamos a crear la tabla y definir sus filas y columnas.
+Las tablas en archivos PDF se definen dentro de los elementos de estructura. Cree la tabla y defina sus filas y columnas.
 
 ```csharp
-// Obtener el elemento de estructura raíz
+// Obtener el elemento de la estructura raíz
 StructureElement rootElement = taggedContent.RootElement;
 
 // Crear un elemento de estructura de tabla
@@ -77,11 +79,11 @@ TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 ```
 
-Ahora hemos definido la cabecera de la tabla (`TableTHeadElement`), cuerpo (`TableTBodyElement`), y pie (`TableTFootElement`) secciones. Puedes pensar en ellas como el esqueleto de tu tabla.
+Ahora hemos definido la cabecera de la tabla (`TableTHeadElement`), cuerpo (`TableTBodyElement`), y pie (`TableTFootElement`) secciones. Puedes considerarlas como el esqueleto de tu tabla.
 
 ## Paso 3: Dar estilo a las celdas del encabezado
 
-Al darle estilo a las celdas del encabezado, las hacemos resaltar. Aquí, aplicamos colores de fondo, bordes y alineación del texto.
+Al aplicar estilo a las celdas del encabezado, se resaltan. Aquí, aplicamos colores de fondo, bordes y alineación del texto.
 
 ```csharp
 int colCount = 4;
@@ -100,11 +102,11 @@ for (int colIndex = 0; colIndex < colCount; colIndex++)
 }
 ```
 
-En este paso, recorreremos cada celda del encabezado, dándole un fondo verde-amarillo, un borde gris y un texto alineado a la derecha. Puedes ajustar estas propiedades para que coincidan con el diseño que desees.
+En este paso, recorremos cada celda del encabezado, asignándole un fondo verde-amarillo, un borde gris y un texto alineado a la derecha. Puede ajustar estas propiedades para que coincidan con el diseño deseado.
 
-## Paso 4: Completar y dar estilo al cuerpo de la tabla
+## Paso 4: Rellenar y dar estilo al cuerpo de la tabla
 
-El cuerpo de la tabla contiene los datos reales. Aquí se explica cómo aplicar estilo a cada celda con márgenes, bordes y configuraciones de texto específicos.
+El cuerpo de la tabla contiene los datos. Aquí te mostramos cómo aplicar estilo a cada celda con márgenes, bordes y configuraciones de texto específicos.
 
 ```csharp
 int rowCount = 4;
@@ -133,7 +135,7 @@ for (int rowIndex = 0; rowIndex < rowCount; rowIndex++)
 }
 ```
 
- En este paso, rellenamos el cuerpo de la tabla con cuatro filas y aplicamos estilo a cada celda con fondos amarillos y texto azul centrado y en negrita. También usamos el`MarginInfo`clase para definir el relleno alrededor del texto.
+En este paso, rellenamos el cuerpo de la tabla con cuatro filas y aplicamos estilo a cada celda con fondos amarillos y texto azul en negrita y centrado. También usamos `MarginInfo` clase para definir el relleno alrededor del texto.
 
 ## Paso 5: Dar estilo al pie de página
 
@@ -150,7 +152,7 @@ for (int colIndex = 0; colIndex < colCount; colIndex++)
 }
 ```
 
-La sección de pie de página tiene un estilo similar al encabezado, lo que facilita que los lectores sigan la estructura de la tabla.
+La sección de pie de página tiene un estilo similar al del encabezado, lo que facilita que los lectores sigan la estructura de la tabla.
 
 ## Paso 6: Guardar y validar el documento PDF
 
@@ -166,31 +168,33 @@ bool isPdfUaCompliance = document.Validate(dataDir + "StyleTableCell.xml", PdfFo
 Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
 ```
 
- Guardamos el PDF y lo utilizamos`Validate` método para garantizar que cumple con los estándares de accesibilidad (conformidad con PDF/UA).
+Guardamos el PDF y lo usamos `Validate` método para garantizar que cumple con los estándares de accesibilidad (cumplimiento de PDF/UA).
 
 ## Conclusión
 
-La aplicación de estilos a las tablas de un PDF con Aspose.PDF para .NET es tan eficaz como flexible. Con unas pocas líneas de código, puede crear diseños de tablas personalizados que harán que sus documentos PDF se destaquen. Desde la personalización de los bordes y fondos de las celdas hasta la garantía del cumplimiento de las normas de accesibilidad, Aspose.PDF facilita la creación de archivos PDF pulidos.
+Aplicar estilos a las tablas de un PDF con Aspose.PDF para .NET es potente y flexible. Con solo unas líneas de código, puede crear diseños de tabla personalizados que harán que sus documentos PDF destaquen. Desde la personalización de bordes y fondos de celda hasta la garantía de accesibilidad, Aspose.PDF facilita la creación de archivos PDF impecables.
 
 ## Preguntas frecuentes
 
 ### ¿Puedo aplicar diferentes estilos a celdas individuales de una tabla?  
-Sí, puedes diseñar celdas individuales personalizando el`TableTDElement` propiedades.
+Sí, puedes darle estilo a celdas individuales personalizando el `TableTDElement` propiedades.
 
 ### ¿Cómo puedo fusionar celdas de una tabla?  
- Puedes utilizar el`ColSpan` y`RowSpan` Propiedades para fusionar celdas en una tabla.
+Puedes utilizar el `ColSpan` y `RowSpan` Propiedades para fusionar celdas en una tabla.
 
 ### ¿Es posible crear una tabla compatible con PDF/UA?  
- Sí, como se demuestra en esta guía, puede garantizar la conformidad con PDF/UA al validar su documento utilizando el`Validate` método.
+Sí, como se demuestra en esta guía, puede garantizar la conformidad con PDF/UA al validar su documento utilizando el `Validate` método.
 
 ### ¿Puedo utilizar diferentes fuentes en las celdas de la tabla?  
- ¡Por supuesto! Puedes especificar diferentes fuentes usando el`TextState` objeto para cada celda.
+¡Por supuesto! Puedes especificar diferentes fuentes usando el `TextState` objeto para cada celda.
 
 ### ¿Cómo descargo Aspose.PDF para .NET?  
- Puedes descargarlo desde[Página de lanzamientos](https://releases.aspose.com/pdf/net/).
+Puedes descargarlo desde [página de lanzamientos](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

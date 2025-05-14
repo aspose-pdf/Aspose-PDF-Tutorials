@@ -1,14 +1,16 @@
 ---
-title: Элементы структуры текста в PDF с использованием Java
-linktitle: Элементы структуры текста в PDF с использованием Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как манипулировать структурами текста PDF в Java с помощью Aspose.PDF для Java. Изучите пошаговые руководства с исходным кодом для эффективной обработки текста PDF.
-weight: 14
-url: /ru/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/
+"description": "Узнайте, как манипулировать структурами текста PDF в Java с помощью Aspose.PDF для Java. Изучите пошаговые руководства с исходным кодом для эффективной обработки текста PDF."
+"linktitle": "Элементы структуры текста в PDF с использованием Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Элементы структуры текста в PDF с использованием Java"
+"url": "/ru/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Элементы структуры текста в PDF с использованием Java
@@ -16,11 +18,11 @@ url: /ru/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/
 
 ## Введение в элементы структуры текста в PDF с использованием Java
 
-В мире современных технологий работа с PDF-документами стала рутинной задачей для многих разработчиков. Будь то создание счетов-фактур, отчетов или любого другого типа документов, умение программно манипулировать PDF-файлами может быть ценным навыком. Разработчикам Java повезло иметь в своем распоряжении мощный инструмент - Aspose.PDF для Java. В этом пошаговом руководстве мы рассмотрим, как работать с элементами структуры текста в PDF с помощью Java с помощью API Aspose.PDF для Java. Мы рассмотрим все, от основ до более сложных тем, так что давайте погрузимся в это!
+В мире современных технологий работа с PDF-документами стала рутинной задачей для многих разработчиков. Будь то создание счетов-фактур, отчетов или любого другого типа документов, способность программно манипулировать PDF-файлами может быть ценным навыком. Разработчикам Java повезло иметь в своем распоряжении мощный инструмент - Aspose.PDF для Java. В этом пошаговом руководстве мы рассмотрим, как работать с элементами структуры текста в PDF с помощью Java с помощью API Aspose.PDF для Java. Мы рассмотрим все, от основ до более сложных тем, так что давайте погрузимся в это!
 
 ## Начиная
 
- Прежде чем углубляться в детали, убедитесь, что у вас установлен Aspose.PDF for Java. Вы можете скачать его с сайта[здесь](https://releases.aspose.com/pdf/java/).
+Прежде чем углубляться в детали, убедитесь, что у вас установлен Aspose.PDF for Java. Вы можете скачать его с сайта [здесь](https://releases.aspose.com/pdf/java/).
 
 ## Настройка вашего проекта Java
 
@@ -42,7 +44,7 @@ com.aspose.pdf.Page page = pdfDocument.getPages().add();
 // Создать объект TextFragment
 com.aspose.pdf.TextFragment textFragment = new com.aspose.pdf.TextFragment("Hello, Aspose.PDF!");
 
-//Задайте свойства текста (шрифт, размер, цвет и т. д.)
+// Задайте свойства текста (шрифт, размер, цвет и т. д.)
 textFragment.getTextState().setFont(com.aspose.pdf.FontRepository.findFont("Arial"));
 textFragment.getTextState().setFontSize(12);
 textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getBlack());
@@ -64,7 +66,7 @@ pdfDocument.save("output.pdf");
 // Создать PDF-документ с тегами
 pdfDocument.setTagged(true);
 
-// Включить теги для страницы
+// Включить тегирование для страницы
 page.setTagged(true);
 
 // Создать элемент структуры (абзац)
@@ -135,10 +137,12 @@ Aspose.PDF для Java — это библиотека Java, которая по
 
 ### Где я могу найти дополнительную документацию и ресурсы по Aspose.PDF для Java?
 
- Подробную документацию и ресурсы по Aspose.PDF для Java можно найти на веб-сайте:[здесь](https://reference.aspose.com/pdf/java/).
+Подробную документацию и ресурсы по Aspose.PDF для Java можно найти на веб-сайте: [здесь](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

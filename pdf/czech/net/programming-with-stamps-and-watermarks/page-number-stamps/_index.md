@@ -1,48 +1,50 @@
 ---
-title: Číslo stránky Razítka V Souboru PDF
-linktitle: Číslo stránky Razítka V Souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak přidat razítka s čísly stránek do souborů PDF pomocí Aspose.PDF for .NET, prostřednictvím našeho snadno srozumitelného průvodce, doplněného o příklad kódu.
-weight: 160
-url: /cs/net/programming-with-stamps-and-watermarks/page-number-stamps/
+"description": "Naučte se, jak přidat razítka s čísly stránek do PDF souborů pomocí Aspose.PDF pro .NET, a to v našem snadno srozumitelném návodu s ukázkovým kódem."
+"linktitle": "Razítka s čísly stránek v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Razítka s čísly stránek v souboru PDF"
+"url": "/cs/net/programming-with-stamps-and-watermarks/page-number-stamps/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Číslo stránky Razítka V Souboru PDF
+# Razítka s čísly stránek v souboru PDF
 
 ## Zavedení
 
-Přistihli jste se někdy, že zápasíte s dokumentem PDF a přejete si, aby měl čísla stránek pro snadnější navigaci? Ať už jste student sdílející poznámky, profesionál předkládající zprávy nebo kdokoli, kdo spravuje vícestránkové dokumenty, přidání čísel stránek může skutečně zlepšit přehlednost vašich souborů PDF. Naštěstí s výkonnou knihovnou Aspose.PDF for .NET můžete do dokumentů PDF snadno přidat razítka s čísly stránek. V této příručce vás krok za krokem provedeme celým procesem a zajistíme, že budete vybaveni všemi znalostmi, které potřebujete. Pojďme se ponořit!
+Už jste někdy zápasili s PDF dokumentem a přáli jste si, aby měl čísla stránek pro snazší navigaci? Ať už jste student, který sdílí poznámky, profesionál prezentující zprávy, nebo někdo, kdo spravuje vícestránkové dokumenty, přidání čísel stránek může skutečně zlepšit přehlednost vašich PDF souborů. Naštěstí s výkonnou knihovnou Aspose.PDF pro .NET můžete do svých PDF dokumentů snadno přidávat razítka s čísly stránek. V této příručce vás krok za krokem provedeme celým procesem a zajistíme, abyste měli všechny potřebné znalosti. Pojďme se do toho pustit!
 
 ## Předpoklady
 
-Než začneme s přidáváním razítek s čísly stránek do vašich dokumentů PDF, ujistěte se, že máte splněny následující předpoklady:
+Než začneme s přidáváním razítek s číslováním stránek do dokumentů PDF, ujistěte se, že máte splněny následující předpoklady:
 
 1. Visual Studio: Ujistěte se, že máte v systému nainstalované Visual Studio. Zde budete psát a spouštět svůj kód.
-2. .NET Framework: Znalost programování v C# a .NET frameworku je nezbytná, protože Aspose.PDF je navržen pro .NET aplikace.
-3.  Knihovna Aspose.PDF: Knihovnu Aspose.PDF si můžete stáhnout z[Aspose PDF Releases](https://releases.aspose.com/pdf/net/). 
-4. Základní porozumění souborům PDF: I když nemusíte být odborníkem, základní pochopení toho, jak soubory PDF fungují, vám pomůže lépe porozumět výukovému programu.
+2. .NET Framework: Znalost programování v C# a frameworku .NET je nezbytná, protože Aspose.PDF je určen pro .NET aplikace.
+3. Knihovna Aspose.PDF: Knihovnu Aspose.PDF si můžete stáhnout z [PDF verze Aspose](https://releases.aspose.com/pdf/net/). 
+4. Základní znalost PDF souborů: I když nemusíte být odborníkem, základní znalost fungování PDF souborů vám pomůže lépe porozumět tutoriálu.
 
-Jakmile budete mít tyto předpoklady nastaveny, budete připraveni začít razit čísla stránek!
+Jakmile budete mít tyto předpoklady nastavené, budete připraveni začít s razítkováním čísel stránek!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než se ponoříte do kódování, musíte zajistit, aby byly do vašeho projektu importovány potřebné balíčky Aspose.PDF. To je klíčové pro bezproblémové využití funkcí knihovny. Jak na to:
+Než se pustíte do kódování, musíte se ujistit, že máte do projektu importovány potřebné balíčky Aspose.PDF. To je klíčové pro bezproblémové využití funkcí knihovny. Zde je návod, jak to udělat:
 
 ### Vytvořit nový projekt
 
 1. Otevřete Visual Studio.
-2.  Klikněte na`File` >`New` >`Project`.
-3.  Vyberte šablonu vhodnou pro C# (např. Console Application), pojmenujte ji a klikněte`Create`.
+2. Klikněte na `File` > `New` > `Project`.
+3. Vyberte šablonu vhodnou pro C# (např. Konzolová aplikace), pojmenujte ji a klikněte `Create`.
 
-### Přidejte odkaz Aspose.PDF
+### Přidat odkaz na Aspose.PDF
 
-1. Klepněte pravým tlačítkem myši na název projektu v Průzkumníku řešení.
-2.  Klikněte na`Manage NuGet Packages`.
-3.  Hledat`Aspose.PDF` a nainstalujte nejnovější verzi.
+1. Klikněte pravým tlačítkem myši na název projektu v Průzkumníku řešení.
+2. Klikněte na `Manage NuGet Packages`.
+3. Hledat `Aspose.PDF` a nainstalujte nejnovější verzi.
 
 ```csharp
 using System.IO;
@@ -51,43 +53,43 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-knihovnou připravenou k provozu se vrhneme do kódování!
+knihovnou připravenou k nastartování se pojďme pustit do kódování!
 
-Nyní, když je naše prostředí nastaveno, je čas přidat razítka s čísly stránek do souboru PDF. Pro lepší pochopení tento proces rozdělíme do jasných kroků.
+Nyní, když je naše prostředí nastavené, je čas přidat do PDF souboru razítka s čísly stránek. Pro lepší pochopení si tento proces rozdělíme do jasných kroků.
 
 ## Krok 1: Zadejte adresář dokumentů
 
-Chcete-li začít, musíte určit adresář, kde je umístěn váš soubor PDF. Toto je výchozí bod vašeho projektu.
+Nejprve je třeba zadat adresář, kde se nachází váš PDF soubor. Toto je výchozí bod vašeho projektu.
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // Aktualizujte tuto cestu
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Aktualizovat tuto cestu
 ```
 
- Vysvětlení: Vyměnit`"YOUR DOCUMENT DIRECTORY"` s cestou vedoucí do adresáře obsahujícího váš soubor PDF. To je důležité, protože říká vašemu kódu, kde najít soubor, se kterým chcete manipulovat.
+Vysvětlení: Nahradit `"YOUR DOCUMENT DIRECTORY"` s cestou vedoucí k adresáři obsahujícímu váš PDF soubor. To je důležité, protože to vašemu kódu říká, kde má najít soubor, se kterým chcete manipulovat.
 
 ## Krok 2: Otevřete dokument
 
-Dále otevřeme stávající PDF dokument, do kterého chceme přidat razítka s čísly stránek.
+Dále otevřeme existující dokument PDF, do kterého chceme přidat razítka s čísly stránek.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "PageNumberStamp.pdf");
 ```
 
- Vysvětlení: Zde používáme`Document` třídy poskytované Aspose.PDF k otevření našeho konkrétního souboru PDF. Ujistěte se, že název souboru odpovídá skutečnému souboru, který máte ve svém adresáři.
+Vysvětlení: Zde používáme `Document` třída poskytovaná Aspose.PDF pro otevření našeho konkrétního PDF souboru. Ujistěte se, že název souboru odpovídá skutečnému souboru, který máte ve svém adresáři.
 
 ## Krok 3: Vytvořte razítko s číslem stránky
 
-Nyní přichází ta zábavná část! Pojďme vytvořit razítko s číslem stránky, které přidáme do našeho PDF.
+teď přichází ta zábavná část! Pojďme si vytvořit razítko s číslem stránky, které přidáme do našeho PDF.
 
 ```csharp
 PageNumberStamp pageNumberStamp = new PageNumberStamp();
 ```
 
- Vysvětlení: The`PageNumberStamp`třídy nám umožní vytvořit razítko, které bude zobrazovat aktuální číslo stránky vzhledem k celkovému počtu stránek v dokumentu.
+Vysvětlení: `PageNumberStamp` Třída nám umožní vytvořit razítko, které zobrazí aktuální číslo stránky vzhledem k celkovému počtu stránek v dokumentu.
 
-## Krok 4: Nakonfigurujte razítko
+## Krok 4: Konfigurace razítka
 
-Nyní budete muset nakonfigurovat nastavení razítka. Zde navrhnete, jak razítko vypadá a jak se chová.
+Nyní budete muset nakonfigurovat nastavení razítka. Zde navrhujete, jak bude razítko vypadat a chovat se.
 
 ```csharp
 pageNumberStamp.Background = false;
@@ -98,15 +100,15 @@ pageNumberStamp.StartingNumber = 1;
 ```
 
 Vysvětlení:
-- `Background = false`: To znamená, že razítko se objeví v popředí.
-- `Format`: Zde nastavujete formát tak, aby se zobrazoval „Stránka X z Y“, kde dynamicky načítáte celkový počet stránek v dokumentu.
-- `BottomMargin`: Upraví vzdálenost od spodní části stránky.
-- `HorizontalAlignment`: Vodorovně vycentruje razítko.
+- `Background = false`: To znamená, že se razítko zobrazí v popředí.
+- `Format`Zde nastavujete formát pro zobrazení „Stránka X z Y“, kde dynamicky načítáte celkový počet stránek v dokumentu.
+- `BottomMargin`: Upraví vzdálenost od spodního okraje stránky.
+- `HorizontalAlignment`: Vycentruje razítko vodorovně.
 - `StartingNumber`: Nastavuje počáteční číslo stránky, obvykle od 1.
 
-## Krok 5: Nastavte vlastnosti textu
+## Krok 5: Nastavení vlastností textu
 
-Dále můžete upravit vzhled textu v razítku.
+Dále si můžete přizpůsobit vzhled textu v razítku.
 
 ```csharp
 pageNumberStamp.TextState.Font = FontRepository.FindFont("Arial");
@@ -118,19 +120,19 @@ pageNumberStamp.TextState.ForegroundColor = Color.Aqua;
 
 Vysvětlení: Tyto atributy konfigurují typ písma, velikost písma, styl (tučné i kurzíva) a barvu textu v razítku, aby byl vizuálně přitažlivý.
 
-## Krok 6: Přidejte razítko na konkrétní stránku
+## Krok 6: Přidání razítka na konkrétní stránku
 
-nakonfigurovaným razítkem je čas přidat ho na konkrétní stránku v dokumentu.
+Jakmile máte razítko nakonfigurované, je čas ho přidat na konkrétní stránku v dokumentu.
 
 ```csharp
 pdfDocument.Pages[1].AddStamp(pageNumberStamp);
 ```
 
- Vysvětlení: Tento řádek přidá razítko na první stránku PDF. Můžete upravit`Pages[1]` index pro další stránky podle potřeby.
+Vysvětlení: Tento řádek přidá razítko na první stránku PDF. Můžete upravit `Pages[1]` indexovat další stránky dle potřeby.
 
-## Krok 7: Uložte výstupní dokument
+## Krok 7: Uložení výstupního dokumentu
 
-Nakonec upravený dokument PDF uložte, aby byly změny trvalé.
+Nakonec upravený dokument PDF uložte, aby změny byly trvalé.
 
 ```csharp
 dataDir = dataDir + "PageNumberStamp_out.pdf";
@@ -138,31 +140,33 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nPage number stamp added successfully.\nFile saved at " + dataDir);
 ```
 
-Vysvětlení: Definujete cestu k výstupnímu souboru a ukládáte dokument. Konzole vám dá vědět, že razítko bylo úspěšně přidáno a kde je soubor uložen.
+Vysvětlení: Definujete cestu k výstupnímu souboru a ukládáte dokument. Konzola vás upozorní, že razítko bylo úspěšně přidáno a kam je soubor uložen.
 
 ## Závěr
 
-Přidávání razítek s čísly stránek do souborů PDF pomocí Aspose.PDF for .NET je nejen jednoduché, ale také vysoce přizpůsobitelné. Prošli jsme vytvořením razítka s číslem stránky krok za krokem, abychom vám zajistili jasné vodítko. Nyní máte znalosti, jak vylepšit své dokumenty PDF, aby byly uživatelsky přívětivější a profesionálnější. 
+Přidávání razítek s čísly stránek do PDF souborů pomocí Aspose.PDF pro .NET je nejen jednoduché, ale také vysoce přizpůsobitelné. Postupně jsme vás krok za krokem provedl procesem vytváření razítka s čísly stránek, abyste měli jasné pokyny. Nyní máte znalosti, které vám pomohou vylepšit vaše PDF dokumenty, učinit je uživatelsky přívětivějšími a profesionálnějšími. 
 
-## FAQ
+## Často kladené otázky
 
-### Mohu upravit vzhled čísel stránek?  
-Ano! Můžete změnit písmo, velikost, barvu a formátování čísel stránek, jak je ukázáno v průvodci.
+### Mohu si přizpůsobit vzhled čísel stránek?  
+Ano! Písmo, velikost, barvu a formátování čísel stránek můžete změnit, jak je znázorněno v průvodci.
 
 ### Je Aspose.PDF zdarma k použití?  
- Aspose.PDF nabízí bezplatnou zkušební verzi, ale pro rozsáhlé použití budete potřebovat licenci. Podívejte se na[koupit stránku](https://purchase.aspose.com/buy) pro více informací.
+Aspose.PDF nabízí bezplatnou zkušební verzi, ale pro rozsáhlé použití budete potřebovat licenci. Podívejte se na [koupit stránku](https://purchase.aspose.com/buy) pro více informací.
 
-### Co když při implementaci narazím na problémy?  
- Můžete navštívit[Aspose Support Forum](https://forum.aspose.com/c/pdf/10) o pomoc.
+### Co když narazím na problémy při implementaci?  
+Můžete navštívit [Fórum podpory Aspose](https://forum.aspose.com/c/pdf/10) pomoc.
 
 ### Jak mohu automaticky generovat čísla stránek pro více stránek?  
-Kód průvodce automaticky vypočítá celkový počet stránek, takže přizpůsobení pro více stránek je snadné.
+Kód průvodce automaticky vypočítá celkový počet stránek, což usnadňuje přizpůsobení pro více stránek.
 
 ### Mohu použít Aspose.PDF v jiných programovacích jazycích?  
-Zatímco se tato příručka zaměřuje na .NET, Aspose má knihovny pro Javu, Python a další.
+Ačkoli se tato příručka zaměřuje na .NET, Aspose nabízí knihovny pro Javu, Python a další.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

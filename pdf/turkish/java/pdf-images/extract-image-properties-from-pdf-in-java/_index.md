@@ -1,14 +1,16 @@
 ---
-title: Java'da PDF'den Görüntü Özelliklerini Çıkarma
-linktitle: Java'da PDF'den Görüntü Özelliklerini Çıkarma
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java'da Aspose.PDF for Java kullanarak PDF'lerden görüntü özelliklerini nasıl çıkaracağınızı öğrenin. Kaynak kodlu adım adım kılavuz. PDF işleme becerilerinizi bugün geliştirin!
-weight: 23
-url: /tr/java/pdf-images/extract-image-properties-from-pdf-in-java/
+"description": "Java'da Aspose.PDF for Java kullanarak PDF'lerden görüntü özelliklerini nasıl çıkaracağınızı öğrenin. Kaynak kodlu adım adım kılavuz. PDF işleme becerilerinizi bugün geliştirin!"
+"linktitle": "Java'da PDF'den Görüntü Özelliklerini Çıkarma"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java'da PDF'den Görüntü Özelliklerini Çıkarma"
+"url": "/tr/java/pdf-images/extract-image-properties-from-pdf-in-java/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java'da PDF'den Görüntü Özelliklerini Çıkarma
@@ -22,7 +24,7 @@ PDF belgeleri genellikle resimler içerir ve bu resimler hakkında programatik o
 
 ## 2. Java için Aspose.PDF Kurulumu
 
- Başlamadan önce projenizde Java için Aspose.PDF'yi ayarlamanız gerekir. Kütüphaneyi web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/) ve kurulum talimatlarını izleyin.
+Başlamadan önce projenizde Java için Aspose.PDF'yi ayarlamanız gerekir. Kütüphaneyi web sitesinden indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/) ve kurulum talimatlarını izleyin.
 
 ## 3. PDF Belgesi Yükleme
 
@@ -33,11 +35,11 @@ Bir PDF belgesiyle çalışmak için, öncelikle onu Java için Aspose.PDF kulla
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Yer değiştirmek`"example.pdf"` PDF dosyanızın yolunu belirtin.
+Yer değiştirmek `"example.pdf"` PDF dosyanızın yolunu belirtin.
 
 ## 4. Görüntü Özelliklerini Çıkarma
 
- Artık PDF belgesini yüklediğimize göre, resim özelliklerini çıkaralım. Java için Aspose.PDF şunları sağlar:`Page.getResources()` Bir sayfanın görselleri de dahil olmak üzere kaynaklarına erişim yöntemi.
+Artık PDF belgesini yüklediğimize göre, resim özelliklerini çıkaralım. Java için Aspose.PDF şunları sağlar: `Page.getResources()` Bir sayfanın görselleri de dahil olmak üzere kaynaklarına erişim yöntemi.
 
 ```java
 // Belgenin ilk sayfasına erişin
@@ -96,11 +98,11 @@ Bu kılavuzda, Java için Aspose.PDF kullanarak bir PDF belgesinden görüntü �
 
 ### Java için Aspose.PDF'yi nasıl yüklerim?
 
- Java için Aspose.PDF'yi web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/) ve dokümanlarda verilen kurulum talimatlarını izleyin.
+Java için Aspose.PDF'yi web sitesinden indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/) ve dokümanlarda verilen kurulum talimatlarını izleyin.
 
 ### PDF'deki belirli sayfalardan resim özelliklerini çıkarabilir miyim?
 
-Evet, istediğiniz sayfaya erişerek belirli sayfalardan resim özelliklerini çıkarabilirsiniz.`pdfDocument.getPages().get_Item(pageNumber)` ve ardından kılavuzda belirtilen aynı adımları izleyin.
+Evet, istediğiniz sayfaya erişerek belirli sayfalardan resim özelliklerini çıkarabilirsiniz. `pdfDocument.getPages().get_Item(pageNumber)` ve ardından kılavuzda belirtilen aynı adımları izleyin.
 
 ### Aspose.PDF for Java'yı kullanarak görüntü özelliklerini değiştirebilir miyim?
 
@@ -108,11 +110,13 @@ Evet, Aspose.PDF for Java kullanarak görüntüleri yeniden boyutlandırma, sık
 
 ### Java için Aspose.PDF hakkında daha fazla doküman ve örneği nerede bulabilirim?
 
- Java API dokümantasyonu için Aspose.PDF web sitesinde kapsamlı dokümanlara ve örneklere erişebilirsiniz:[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+Java API dokümantasyonu için Aspose.PDF web sitesinde kapsamlı dokümanlara ve örneklere erişebilirsiniz: [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

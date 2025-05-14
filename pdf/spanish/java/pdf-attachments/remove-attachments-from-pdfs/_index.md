@@ -1,14 +1,16 @@
 ---
-title: Eliminar archivos adjuntos de archivos PDF
-linktitle: Eliminar archivos adjuntos de archivos PDF
-second_title: API de procesamiento de PDF de Java Aspose.PDF
-description: Aprenda a eliminar archivos adjuntos de archivos PDF en Java con Aspose.PDF. Guía paso a paso y código para la manipulación de archivos PDF.
-weight: 11
-url: /es/java/pdf-attachments/remove-attachments-from-pdfs/
+"description": "Aprende a eliminar archivos adjuntos de PDF en Java con Aspose.PDF. Guía paso a paso y código para la manipulación de PDF."
+"linktitle": "Eliminar archivos adjuntos de archivos PDF"
+"second_title": "API de procesamiento de PDF de Java Aspose.PDF"
+"title": "Eliminar archivos adjuntos de archivos PDF"
+"url": "/es/java/pdf-attachments/remove-attachments-from-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eliminar archivos adjuntos de archivos PDF
@@ -16,14 +18,14 @@ url: /es/java/pdf-attachments/remove-attachments-from-pdfs/
 
 ## Introducción a la eliminación de archivos adjuntos de archivos PDF
 
-En la era digital actual, trabajar con archivos PDF se ha convertido en una parte integral de muchas aplicaciones de software. A menudo, estos archivos PDF contienen varios archivos adjuntos, como imágenes, documentos u otros archivos. Sin embargo, puede haber situaciones en las que necesite eliminar estos archivos adjuntos mediante programación, y ahí es donde Aspose.PDF para Java viene al rescate. En esta guía paso a paso, exploraremos cómo eliminar archivos adjuntos de archivos PDF usando Aspose.PDF en Java.
+En la era digital actual, trabajar con archivos PDF se ha convertido en una parte integral de muchas aplicaciones de software. A menudo, estos PDF contienen diversos archivos adjuntos, como imágenes, documentos u otros. Sin embargo, puede haber situaciones en las que sea necesario eliminarlos mediante programación, y ahí es donde Aspose.PDF para Java viene al rescate. En esta guía paso a paso, exploraremos cómo eliminar archivos adjuntos de PDF usando Aspose.PDF en Java.
 
 ## Prerrequisitos
 
 Antes de sumergirnos en el código, asegurémonos de que tienes todo lo que necesitas:
 
 - Entorno de desarrollo Java: asegúrese de tener Java instalado en su sistema.
--  Aspose.PDF para Java: Puede descargar la biblioteca desde[aquí](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF para Java: Puede descargar la biblioteca desde [aquí](https://releases.aspose.com/pdf/java/).
 
 ## Configuración de su proyecto
 
@@ -45,14 +47,14 @@ Document pdfDocument = new Document("path/to/your/pdf/file.pdf");
 ### Paso 2: Obtenga la colección de archivos adjuntos
 
 ```java
-// Obtenga la colección de archivos adjuntos
+// Obtener la colección de archivos adjuntos
 AttachmentCollection attachments = pdfDocument.getEmbeddedFiles();
 ```
 
-### Paso 3: eliminar archivos adjuntos
+### Paso 3: Eliminar archivos adjuntos
 
 ```java
-// Recorrer los accesorios y quitarlos
+// Pase los accesorios por el bucle y retírelos
 for (Attachment attachment : attachments) {
     attachments.remove(attachment);
 }
@@ -67,7 +69,7 @@ pdfDocument.save("path/to/save/modified/file.pdf");
 
 ## Conclusión
 
-Eliminar archivos adjuntos de archivos PDF con Aspose.PDF para Java es un proceso sencillo. Con solo unas pocas líneas de código, puede manipular archivos PDF y adaptarlos a sus necesidades específicas.
+Eliminar archivos adjuntos de PDF con Aspose.PDF para Java es un proceso sencillo. Con solo unas pocas líneas de código, puedes manipular archivos PDF y adaptarlos a tus necesidades específicas.
 
 Pruébelo y vea cómo Aspose.PDF simplifica el trabajo con documentos PDF en sus aplicaciones Java.
 
@@ -75,7 +77,7 @@ Pruébelo y vea cómo Aspose.PDF simplifica el trabajo con documentos PDF en sus
 
 ### ¿Cómo puedo comprobar si un PDF tiene archivos adjuntos antes de eliminarlos?
 
- Puedes utilizar el`getEmbeddedFiles()` Método para recuperar la colección de archivos adjuntos. Si está vacía, no hay archivos adjuntos en el PDF.
+Puedes utilizar el `getEmbeddedFiles()` Método para recuperar la colección de adjuntos. Si está vacía, significa que no hay adjuntos en el PDF.
 
 ### ¿Puedo eliminar archivos adjuntos específicos y conservar otros?
 
@@ -91,10 +93,12 @@ Sí, Aspose.PDF está disponible para múltiples lenguajes de programación, lo 
 
 ### ¿Cómo puedo obtener más ayuda con Aspose.PDF para Java?
 
- Puede visitar la documentación de Aspose.PDF para Java en[aquí](https://reference.aspose.com/pdf/java/) para obtener información detallada y ejemplos.
+Puede visitar la documentación de Aspose.PDF para Java en [aquí](https://reference.aspose.com/pdf/java/) para obtener información detallada y ejemplos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

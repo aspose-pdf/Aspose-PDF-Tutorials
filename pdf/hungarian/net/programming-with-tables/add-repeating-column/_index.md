@@ -1,72 +1,74 @@
 ---
-title: Ismétlődő oszlop hozzáadása a PDF-dokumentumhoz
-linktitle: Ismétlődő oszlop hozzáadása a PDF-dokumentumhoz
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan adhat hozzá ismétlődő oszlopokat PDF-dokumentumokhoz az Aspose.PDF for .NET használatával. Lépésről lépésre útmutató példákkal és kóddal. Tökéletes fejlesztőknek.
-weight: 20
-url: /hu/net/programming-with-tables/add-repeating-column/
+"description": "Tanuld meg, hogyan adhatsz hozzá ismétlődő oszlopokat PDF dokumentumokhoz az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató példákkal és kóddal. Tökéletes fejlesztők számára."
+"linktitle": "Ismétlődő oszlop hozzáadása PDF dokumentumban"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Ismétlődő oszlop hozzáadása PDF dokumentumban"
+"url": "/hu/net/programming-with-tables/add-repeating-column/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ismétlődő oszlop hozzáadása a PDF-dokumentumhoz
+# Ismétlődő oszlop hozzáadása PDF dokumentumban
 
 ## Bevezetés
 
-Ha PDF-dokumentumokkal dolgozik, és ismétlődő oszlopokat kell hozzáadnia, akkor jó helyen jár! Az Aspose.PDF for .NET használatával könnyedén kezelheti a PDF-ben található táblázatokat és tartalmakat. Akár dinamikus jelentéseket, számlákat vagy bármilyen más strukturált dokumentumot készít, az ismétlődő oszlopok megváltoztathatják az adatok rendszerezését. Vessen egy pillantást egy lépésről lépésre szóló útmutatóra, amely bemutatja, hogyan adhatunk ismétlődő oszlopokat egy PDF-dokumentumhoz.
+Ha PDF dokumentumokkal dolgozol, és ismétlődő oszlopokat kell hozzáadnod, jó helyen jársz! Az Aspose.PDF for .NET segítségével könnyedén kezelheted a táblázatokat és a tartalmat egy PDF dokumentumban. Akár dinamikus jelentéseket, számlákat vagy bármilyen más strukturált dokumentumot készítesz, az ismétlődő oszlopok forradalmi változást hozhatnak az adatok rendszerezésében. Nézzük meg lépésről lépésre, hogyan adhatsz hozzá ismétlődő oszlopokat egy PDF dokumentumhoz.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, győződjön meg arról, hogy mindent beállított:
+Mielőtt belevágnánk a kódba, győződjünk meg róla, hogy mindent beállítottunk:
 
-- Aspose.PDF for .NET: telepítenie kell az Aspose.PDF for .NET könyvtárat a projektben.
-- [Töltse le az Aspose.PDF-et .NET-hez](https://releases.aspose.com/pdf/net/)
+- Aspose.PDF .NET-hez: Telepítenie kell az Aspose.PDF .NET-hez könyvtárat a projektjébe.
+- [Aspose.PDF letöltése .NET-hez](https://releases.aspose.com/pdf/net/)
 - [Ingyenes próbaverzió](https://releases.aspose.com/)
-- Fejlesztői környezet: Győződjön meg arról, hogy telepítve van egy .NET-kompatibilis IDE, például a Visual Studio.
-- A C# alapvető ismerete: Noha mindent fel fogunk bontani, a C# alapvető ismerete segít a zökkenőmentes követésben.
+- Fejlesztői környezet: Győződjön meg róla, hogy telepítve van egy .NET-kompatibilis IDE, például a Visual Studio.
+- C# alapismeretek: Bár mindent részletesen bemutatunk, a C# alapvető ismerete segít abban, hogy zökkenőmentesen kövesd a feladatot.
   
- Ha még nem rendelkezik Aspose.PDF .NET-hez, beszerezheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hogy elkezdje felfedezni jellemzőit.
+Ha még nincs meg az Aspose.PDF .NET-hez készült fájlod, letöltheted [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hogy elkezdhesd felfedezni a funkcióit.
 
 ## Csomagok importálása
 
-kezdéshez importálnia kell a szükséges névtereket az Aspose.PDF fájlból a .NET-hez. Íme, hogyan kell csinálni:
+Kezdéshez importálnia kell a szükséges névtereket az Aspose.PDF for .NET fájlból. Így teheti meg:
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-Ezek a csomagok biztosítják a PDF-dokumentumok kezeléséhez és a táblázatok kezeléséhez szükséges alapvető osztályokat és módszereket.
+Ezek a csomagok biztosítják a PDF dokumentumokkal való munkához és a táblázatok kezeléséhez szükséges alapvető osztályokat és metódusokat.
 
-Most bontsuk le a folyamatot több lépésre, hogy ismétlődő oszlopokat adjunk a PDF-dokumentumhoz. Kövessetek!
+Most bontsuk le a folyamatot több lépésre, hogy ismétlődő oszlopokat adjunk hozzá egy PDF dokumentumhoz. Kövesd a példát!
 
-## 1. lépés: Állítsa be a dokumentumkönyvtár elérési útját
+## 1. lépés: Állítsa be a Dokumentumok könyvtár elérési útját
 
-Mielőtt bármilyen fájlt létrehoznánk vagy manipulálnánk, meg kell határoznunk az elérési utat, ahová a generált PDF mentésre kerül. A C# projektben állítsa be a könyvtár elérési útját, ahol a fájlok találhatók:
+Mielőtt bármilyen fájlt létrehoznánk vagy módosítanánk, meg kell adnunk azt az elérési utat, ahová a létrehozott PDF mentésre kerül. A C# projektedben állítsd be a fájlok tárolási útvonalát:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outFile = dataDir + "AddRepeatingColumn_out.pdf";
 ```
 
- Ez az útvonal arra a könyvtárra mutat, ahová a kimeneti PDF mentésre kerül. Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal a gépen.
+Ez az elérési út arra a könyvtárra mutat, ahová a kimeneti PDF mentésre kerül. Csere `"YOUR DOCUMENT DIRECTORY"` a gépeden lévő tényleges elérési úttal.
 
-## 2. lépés: Hozzon létre egy új PDF-dokumentumot
+## 2. lépés: Új PDF dokumentum létrehozása
 
- Kezdésként példányosítson egy újat`Document` objektum. Ez tárolóként fog szolgálni a PDF-ben található összes oldal és tartalom számára.
+Kezdésként hozz létre egy új példányt `Document` objektum. Ez fog tárolóként szolgálni a PDF összes oldalának és tartalmának.
 
 ```csharp
 Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
- Itt létrehoztunk egy új PDF-dokumentumot, és hozzáadtunk egy üres oldalt. A`doc.Pages.Add()` metódus új oldalt szúr be a dokumentumba.
+Itt létrehoztunk egy új PDF dokumentumot, és hozzáadtunk egy üres oldalt. `doc.Pages.Add()` A metódus új oldalt szúr be a dokumentumba.
 
-## 3. lépés: Példányosítsa a külső táblázatot
+## 3. lépés: A külső tábla példányosítása
 
-Ezután létrehozunk egy külső táblázatot. Ez a táblázat átfogja az oldal teljes szélességét, és tárolóként szolgál más táblázatok számára, beleértve azt is, amelyik az ismétlődő oszlopokat tartalmazza.
+Ezután létrehozunk egy külső táblázatot. Ez a táblázat az oldal teljes szélességét kitölti, és tárolóként szolgál más táblázatok számára, beleértve azt is, amelyik az ismétlődő oszlopokat fogja tartalmazni.
 
 ```csharp
 Aspose.Pdf.Table outerTable = new Aspose.Pdf.Table();
@@ -74,11 +76,11 @@ outerTable.ColumnWidths = "100%";
 outerTable.HorizontalAlignment = HorizontalAlignment.Left;
 ```
 
- Beállítottuk a`ColumnWidths` tulajdonság "100%-ra", ami azt jelenti, hogy a táblázat az oldal teljes szélességében kiterjed.
+Beállítottuk a `ColumnWidths` tulajdonságot „100%-ra” állítja, ami azt jelenti, hogy a táblázat a teljes oldalszélességre kiterjed.
 
-## 4. lépés: Hozza létre a belső táblázatot
+## 4. lépés: A belső táblázat létrehozása
 
- Most hozzuk létre a belső táblázatot, amelyben ismétlődő oszlopok lesznek. A legfontosabb tulajdonságok itt vannak`Broken` , amely lehetővé teszi, hogy a táblázat ugyanazon az oldalon folytatódjon, és`ColumnAdjustment`, amely automatikusan a tartalomhoz igazítja az oszlopszélességeket.
+Most hozzuk létre a belső táblázatot, amely ismétlődő oszlopokat fog tartalmazni. A legfontosabb tulajdonságok a következők: `Broken`, amely lehetővé teszi a táblázat folytatását ugyanazon az oldalon keresztül, és `ColumnAdjustment`, amely automatikusan a tartalomhoz igazítja az oszlopszélességet.
 
 ```csharp
 Aspose.Pdf.Table mytable = new Aspose.Pdf.Table();
@@ -86,11 +88,11 @@ mytable.Broken = TableBroken.VerticalInSamePage;
 mytable.ColumnAdjustment = ColumnAdjustment.AutoFitToContent;
 ```
 
-Ez a belső táblázat a külső táblán belül lesz beágyazva.
+Ez a belső tábla a külső táblába lesz beágyazva.
 
-## 5. lépés: Adjon hozzá táblázatokat az oldalhoz
+## 5. lépés: Táblázatok hozzáadása az oldalhoz
 
-Most, hogy a külső és a belső táblázatok is készen vannak, tegyük fel az oldalra. Ez a lépés biztosítja, hogy a táblázatok szerepeljenek a dokumentum szerkezetében.
+Most, hogy mind a külső, mind a belső táblázatok készen állnak, adjuk hozzá őket az oldalhoz. Ez a lépés biztosítja, hogy a táblázatok bekerüljenek a dokumentum struktúrájába.
 
 ```csharp
 page.Paragraphs.Add(outerTable);
@@ -100,11 +102,11 @@ bodyCell.Paragraphs.Add(mytable);
 mytable.RepeatingColumnsCount = 5;
 ```
 
- Itt hozzáadtuk a`outerTable` oldalra, majd a külső táblán belül beágyaztuk a`mytable` . Ezenkívül beállítottuk`RepeatingColumnsCount`5-ig, megadva, hogy hány oszlopnak kell ismétlődnie az adatok hozzáadásakor.
+Itt hozzáadtuk a `outerTable` az oldalra, majd a külső táblázatba beágyaztuk a `mytable`Ezenkívül beállítottuk `RepeatingColumnsCount` 5-ig, megadva, hogy hány oszlop ismétlődjön az adatok hozzáadásakor.
 
-## 6. lépés: Adja hozzá a fejlécsort
+## 6. lépés: Fejlécsor hozzáadása
 
-Itt az ideje, hogy hozzáadja a fejléceket a táblázathoz. A fejléc sor kontextust ad az adatokhoz, és segít az oszlopok strukturálásában. 
+Most itt az ideje, hogy hozzáadjuk a fejléceket a táblázathoz. A fejlécsor kontextust ad az adatoknak, és segít az oszlopok strukturálásában. 
 
 ```csharp
 Aspose.Pdf.Row row = mytable.Rows.Add();
@@ -124,11 +126,11 @@ row.Cells.Add("header 16");
 row.Cells.Add("header 17");
 ```
 
-Ez a kódrészlet hozzáadja az első sort (amelyet fejlécként fogunk használni), és olyan cellákkal tölti fel, amelyek szöveget tartalmaznak, például „fejléc 1”, „fejléc 2” stb.
+Ez a kódrészlet hozzáadja az első sort (amelyet fejlécként fogunk használni), és olyan szöveget tartalmazó cellákkal tölti fel, mint például a „fejléc 1”, „fejléc 2” stb.
 
 ## 7. lépés: Adatsorok hozzáadása
 
-Végül hozzáadhatunk néhány adatot a táblázathoz. Ez a ciklus dinamikusan hoz létre sorokat, és tartalommal tölti meg a cellákat:
+Végül hozzáadhatunk néhány adatot a táblázathoz. Ez a ciklus dinamikusan létrehozza a sorokat és kitölti a cellákat tartalommal:
 
 ```csharp
 for (int RowCounter = 0; RowCounter <= 5; RowCounter++)
@@ -151,41 +153,43 @@ for (int RowCounter = 0; RowCounter <= 5; RowCounter++)
 }
 ```
 
-A ciklus hatszor ismétlődik, sorokat ad hozzá, és minden cellát kitölt a megfelelő oszlopadatokkal (pl. „1. oszlop, 1. oszlop”, „2. oszlop, 2. oszlop” stb.).
+A ciklus hatszor ismétlődik, sorokat ad hozzá, és minden cellát a megfelelő oszlopadatokkal tölt fel (pl. „1. oszlop, 1”, „2. oszlop, 2” stb.).
 
-## 8. lépés: Mentse el a dokumentumot
+## 8. lépés: A dokumentum mentése
 
-Az összes sor és oszlop hozzáadása után az utolsó lépés a dokumentum mentése a megadott fájl elérési útra.
+Miután az összes sort és oszlopot hozzáadtuk, az utolsó lépés a dokumentum mentése a megadott fájlútvonalra.
 
 ```csharp
 doc.Save(outFile);
 ```
 
-A dokumentum ismétlődő oszlopokkal mentésre kerül!
+A dokumentum most ismétlődő oszlopokkal lett mentve!
 
 ## Következtetés
 
-Megvan! Ezekkel az egyszerű lépésekkel az Aspose.PDF for .NET használatával PDF-dokumentumot hozhat létre ismétlődő oszlopokkal. A beágyazott táblák rugalmasságának kiaknázásával olyan összetett elrendezéseket érhet el, amelyek professzionális és szervezett PDF-eket eredményeznek. Próbálja ki ezt a következő projektje során, és fedezze fel az Aspose.PDF-ben rejlő lehetőségeket a PDF generálási igényeinek kielégítésére.
+Íme, itt van! Ezekkel az egyszerű lépésekkel ismétlődő oszlopokkal rendelkező PDF dokumentumot hozhatsz létre az Aspose.PDF for .NET segítségével. A beágyazott táblázatok rugalmasságát kihasználva összetett elrendezéseket érhetsz el, amelyek professzionális és rendezett megjelenést kölcsönöznek PDF-eidnek. Próbáld ki ezt a következő projektedhez, és fedezd fel az Aspose.PDF teljes potenciálját a PDF-generálási igényeid kielégítésére.
 
 ## GYIK
 
-### Mi az Aspose.PDF for .NET?
-Az Aspose.PDF for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a PDF-dokumentumok programozott létrehozását, szerkesztését és kezelését.
+### Mi az Aspose.PDF .NET-hez?
+Az Aspose.PDF for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, szerkeszthessenek és kezelhessenek PDF dokumentumokat.
 
-### Dinamikusan módosíthatom az ismétlődő oszlopok számát?
- Igen, módosíthatja az ismétlődő oszlopok számát a`RepeatingColumnsCount` ingatlan.
+### Dinamikusan beállíthatom az ismétlődő oszlopok számát?
+Igen, az ismétlődő oszlopok számát módosíthatja a `RepeatingColumnsCount` ingatlan.
 
-### Hogyan kérhetek licencet az Aspose.PDF fájlhoz .NET-hez?
- Fájlból vagy adatfolyamból licencet igényelhet, ha követi a[dokumentáció](https://reference.aspose.com/pdf/net/).
+### Hogyan igényelhetek licencet az Aspose.PDF for .NET fájlhoz?
+Fájlból vagy adatfolyamból is alkalmazhat licencet a következő utasítások végrehajtásával. [dokumentáció](https://reference.aspose.com/pdf/net/).
 
-### Lehetséges képeket hozzáadni a táblázat celláihoz?
-Igen, az Aspose.PDF for .NET támogatja különféle típusú tartalom hozzáadását a táblázatcellákhoz, beleértve a képeket.
+### Lehet képeket hozzáadni a táblázat celláihoz?
+Igen, az Aspose.PDF for .NET támogatja különféle típusú tartalmak, beleértve a képeket is, táblázatcellákhoz való hozzáadását.
 
-### Testreszabhatom a táblázat elrendezését?
-Teljesen! Az Aspose.PDF kiterjedt funkciókat kínál a táblázatstílusok testreszabásához, beleértve a szegélyeket, a kitöltést, az igazítást és egyebeket.
+### Testreszabhatom a táblázat elrendezését tovább?
+Abszolút! Az Aspose.PDF kiterjedt funkciókat kínál a táblázatstílusok testreszabásához, beleértve a szegélyeket, a kitöltést, az igazítást és egyebeket.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

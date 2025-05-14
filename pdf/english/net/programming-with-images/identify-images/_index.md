@@ -8,7 +8,9 @@ url: /net/programming-with-images/identify-images/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Identify Images In PDF File
@@ -157,6 +159,7 @@ Yes, you can extract images and save them in different formats like PNG, JPEG, e
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: XPS do PDF
-linktitle: XPS do PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak konwertować pliki XPS do PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów i entuzjastów dokumentów.
-weight: 350
-url: /pl/net/document-conversion/xps-to-pdf/
+"description": "Dowiedz się, jak konwertować pliki XPS do PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów i entuzjastów dokumentów."
+"linktitle": "XPS do PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "XPS do PDF"
+"url": "/pl/net/document-conversion/xps-to-pdf/"
+"weight": 350
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # XPS do PDF
@@ -22,7 +24,7 @@ dzisiejszym cyfrowym świecie potrzeba konwersji plików z jednego formatu na in
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio: Upewnij się, że masz zainstalowane Visual Studio na swoim komputerze. Tutaj będziemy pisać i wykonywać nasz kod.
-2.  Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 4. Plik XPS: Przygotuj plik XPS do konwersji. Możesz go utworzyć lub pobrać próbkę z Internetu.
 
@@ -30,7 +32,7 @@ Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
 Aby rozpocząć pracę z Aspose.PDF dla .NET, musisz zaimportować niezbędne pakiety do swojego projektu. Oto, jak możesz to zrobić:
 
-1. Otwórz projekt programu Visual Studio.
+1. Otwórz projekt Visual Studio.
 2. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań i wybierz opcję „Zarządzaj pakietami NuGet”.
 3. Wyszukaj „Aspose.PDF” i zainstaluj najnowszą wersję.
 
@@ -44,7 +46,7 @@ using Aspose.Pdf;
 
 Zanim będziesz mógł przekonwertować plik XPS, musisz skonfigurować katalog, w którym przechowywane są Twoje dokumenty. Jest to kluczowe, ponieważ kod będzie szukał pliku XPS w tym katalogu.
 
- tym kroku zdefiniujesz zmienną typu string, która wskazuje na lokalizację Twoich dokumentów. Pamiętaj, aby zastąpić`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się plik XPS.
+W tym kroku zdefiniujesz zmienną typu string, która wskazuje na lokalizację Twoich dokumentów. Pamiętaj, aby zastąpić `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się plik XPS.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,9 +54,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Utwórz obiekt LoadOption
 
- Następnie musisz utworzyć instancję`LoadOptions` klasa używająca opcji ładowania XPS. Informuje Aspose.PDF, jak obsługiwać plik XPS.
+Następnie musisz utworzyć instancję `LoadOptions` klasa używająca opcji ładowania XPS. Informuje Aspose.PDF, jak obsługiwać plik XPS.
 
- Ten`XpsLoadOptions` Klasa jest specjalnie zaprojektowana do ładowania plików XPS. Tworząc wystąpienie tej klasy, przygotowujesz bibliotekę do prawidłowego odczytu formatu XPS.
+Ten `XpsLoadOptions` Klasa jest specjalnie zaprojektowana do ładowania plików XPS. Tworząc wystąpienie tej klasy, przygotowujesz bibliotekę do prawidłowego odczytu formatu XPS.
 
 ```csharp
 Aspose.Pdf.LoadOptions options = new XpsLoadOptions();
@@ -64,7 +66,7 @@ Aspose.Pdf.LoadOptions options = new XpsLoadOptions();
 
 Teraz nadszedł czas na utworzenie obiektu dokumentu, który będzie zawierał zawartość pliku XPS.
 
- Ten`Document` Klasa w Aspose.PDF jest główną klasą do pracy z dokumentami PDF. Przekazując ścieżkę do pliku XPS i opcje ładowania, tworzysz obiekt dokumentu, który reprezentuje plik XPS.
+Ten `Document` Klasa w Aspose.PDF jest główną klasą do pracy z dokumentami PDF. Przekazując ścieżkę do pliku XPS i opcje ładowania, tworzysz obiekt dokumentu, który reprezentuje plik XPS.
 
 ```csharp
 Aspose.Pdf.Document document = new Aspose.Pdf.Document(dataDir + "XPSToPDF.xps", options);
@@ -74,7 +76,7 @@ Aspose.Pdf.Document document = new Aspose.Pdf.Document(dataDir + "XPSToPDF.xps",
 
 Po pomyślnym załadowaniu pliku XPS ostatnim krokiem jest zapisanie przekonwertowanego dokumentu w formacie PDF.
 
- Możesz użyć`Save` metoda`Document` class, aby zapisać plik. Określ żądaną ścieżkę wyjściową i nazwę pliku dla swojego dokumentu PDF.
+Możesz użyć `Save` metoda `Document` klasa, aby zapisać plik. Określ żądaną ścieżkę wyjściową i nazwę pliku dla swojego dokumentu PDF.
 
 ```csharp
 document.Save(dataDir + "XPSToPDF_out.pdf");
@@ -110,16 +112,18 @@ Aspose.PDF for .NET to biblioteka umożliwiająca programistom tworzenie, edytow
 Tak, Aspose.PDF obsługuje różne formaty plików, w tym XPS, HTML i obrazy, umożliwiając ich konwersję do formatu PDF.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.PDF?
- Tak, możesz pobrać bezpłatną wersję próbną Aspose.PDF ze strony[strona internetowa](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną Aspose.PDF ze strony [strona internetowa](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
- Wsparcie i zadawanie pytań można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Wsparcie i zadawanie pytań można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Jak uzyskać tymczasową licencję na Aspose.PDF?
- Możesz poprosić o tymczasową licencję[strona zakupu](https://purchase.aspose.com/temporary-license/).
+Możesz poprosić o tymczasową licencję [strona zakupu](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

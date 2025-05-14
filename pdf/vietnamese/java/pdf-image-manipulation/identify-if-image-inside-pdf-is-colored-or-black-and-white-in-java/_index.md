@@ -1,14 +1,16 @@
 ---
-title: Xác định xem hình ảnh bên trong PDF có màu hay đen trắng trong Java
-linktitle: Xác định xem hình ảnh bên trong PDF có màu hay đen trắng trong Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách nhận dạng hình ảnh màu hoặc đen trắng bên trong PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình.
-weight: 10
-url: /vi/java/pdf-image-manipulation/identify-if-image-inside-pdf-is-colored-or-black-and-white-in-java/
+"description": "Tìm hiểu cách nhận dạng hình ảnh màu hoặc đen trắng bên trong PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình."
+"linktitle": "Xác định xem hình ảnh bên trong PDF có màu hay đen trắng trong Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Xác định xem hình ảnh bên trong PDF có màu hay đen trắng trong Java"
+"url": "/vi/java/pdf-image-manipulation/identify-if-image-inside-pdf-is-colored-or-black-and-white-in-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xác định xem hình ảnh bên trong PDF có màu hay đen trắng trong Java
@@ -31,7 +33,7 @@ Aspose.PDF for Java là một thư viện mạnh mẽ cho phép các nhà phát 
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Bộ phát triển Java (JDK)
--  Thư viện Aspose.PDF cho Java (Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/)
+- Thư viện Aspose.PDF cho Java (Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/)
 
 ## Tải một tài liệu PDF
 
@@ -126,10 +128,12 @@ Có, Aspose.PDF for Java cung cấp các tính năng để chỉnh sửa hình �
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

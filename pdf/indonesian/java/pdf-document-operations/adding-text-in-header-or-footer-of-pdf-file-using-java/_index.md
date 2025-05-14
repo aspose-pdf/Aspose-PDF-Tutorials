@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Teks di Header atau Footer File PDF menggunakan Java
-linktitle: Menambahkan Teks di Header atau Footer File PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menyempurnakan dokumen PDF dengan menambahkan teks ke header atau footer menggunakan Java. Jelajahi petunjuk langkah demi langkah dengan Aspose.PDF untuk Java.
-weight: 14
-url: /id/java/pdf-document-operations/adding-text-in-header-or-footer-of-pdf-file-using-java/
+"description": "Pelajari cara menyempurnakan dokumen PDF dengan menambahkan teks ke header atau footer menggunakan Java. Jelajahi petunjuk langkah demi langkah dengan Aspose.PDF untuk Java."
+"linktitle": "Menambahkan Teks di Header atau Footer File PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Teks di Header atau Footer File PDF menggunakan Java"
+"url": "/id/java/pdf-document-operations/adding-text-in-header-or-footer-of-pdf-file-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Teks di Header atau Footer File PDF menggunakan Java
@@ -23,7 +25,7 @@ Dalam panduan lengkap ini, kita akan membahas cara menambahkan teks ke header at
 Sebelum kita mulai menerapkannya, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Langkah 1: Buat Proyek Java Baru
 
@@ -43,7 +45,7 @@ Pada langkah ini, kami menginisialisasi dokumen PDF baru dan membuat halaman unt
 
 ## Langkah 3: Tambahkan Teks ke Header atau Footer
 
- Untuk menambahkan teks ke header atau footer PDF, Anda dapat menggunakan`TextStamp` kelas. Berikut ini contoh cara menambahkan teks ke header:
+Untuk menambahkan teks ke header atau footer PDF, Anda dapat menggunakan `TextStamp` kelas. Berikut ini contoh cara menambahkan teks ke header:
 
 ```java
 // Membuat objek TextStamp
@@ -56,7 +58,7 @@ textStamp.setYIndent(20);
 page.addStamp(textStamp);
 ```
 
- Anda dapat menyesuaikan teks, posisi, dan properti lainnya`TextStamp` sesuai dengan kebutuhan Anda. Untuk menambahkan teks ke footer, ikuti pendekatan serupa dengan koordinat yang sesuai.
+Anda dapat menyesuaikan teks, posisi, dan properti lainnya `TextStamp` sesuai dengan kebutuhan Anda. Untuk menambahkan teks ke footer, ikuti pendekatan serupa dengan koordinat yang sesuai.
 
 ## Langkah 4: Simpan Dokumen PDF
 
@@ -75,15 +77,15 @@ Dalam panduan ini, kita telah mempelajari cara menambahkan teks ke header atau f
 
 ### Bagaimana cara mengubah gaya font teks header?
 
- Untuk mengubah gaya font teks header, Anda dapat menggunakan`TextStamp.setFont()` metode dan tentukan pengaturan font yang diinginkan.
+Untuk mengubah gaya font teks header, Anda dapat menggunakan `TextStamp.setFont()` metode dan tentukan pengaturan font yang diinginkan.
 
 ### Bisakah saya menambahkan gambar ke header atau footer sebagai pengganti teks?
 
- Ya, Anda dapat menambahkan gambar ke header atau footer dengan menggunakan`ImageStamp` kelas yang disediakan oleh Aspose.PDF untuk Java.
+Ya, Anda dapat menambahkan gambar ke header atau footer dengan menggunakan `ImageStamp` kelas yang disediakan oleh Aspose.PDF untuk Java.
 
 ### Apakah mungkin untuk memiliki header dan footer yang berbeda pada halaman yang berbeda?
 
- Ya, Anda dapat memiliki header dan footer yang berbeda pada halaman yang berbeda dengan memanipulasi`TextStamp` atau`ImageStamp` objek secara individual untuk setiap halaman.
+Ya, Anda dapat memiliki header dan footer yang berbeda pada halaman yang berbeda dengan memanipulasi `TextStamp` atau `ImageStamp` objek secara individual untuk setiap halaman.
 
 ### Dapatkah saya menambahkan konten dinamis, seperti nomor halaman, ke header atau footer?
 
@@ -91,10 +93,12 @@ Tentu saja! Aspose.PDF untuk Java memungkinkan Anda menambahkan konten dinamis s
 
 ### Di mana saya dapat menemukan informasi dan contoh lebih lanjut untuk Aspose.PDF untuk Java?
 
- Anda dapat menjelajahi dokumentasi Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/) untuk informasi mendalam dan contoh kode.
+Anda dapat menjelajahi dokumentasi Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/) untuk informasi mendalam dan contoh kode.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

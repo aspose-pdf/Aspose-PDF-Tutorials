@@ -1,14 +1,16 @@
 ---
-title: Bidang Formulir PDF
-linktitle: Bidang Formulir PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara membuat formulir PDF interaktif dengan Aspose.PDF untuk Java. Tutorial lengkap untuk manipulasi bidang formulir yang efisien.
-weight: 11
-url: /id/java/pdf-form-fields/
+"description": "Pelajari cara membuat formulir PDF interaktif dengan Aspose.PDF untuk Java. Tutorial lengkap untuk manipulasi bidang formulir yang efisien."
+"linktitle": "Bidang Formulir PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Bidang Formulir PDF"
+"url": "/id/java/pdf-form-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bidang Formulir PDF
@@ -47,11 +49,13 @@ Pelajari cara mudah menambahkan stempel nomor halaman ke dokumen PDF menggunakan
 Pelajari cara mengontrol kualitas gambar saat menambahkan stempel gambar ke PDF menggunakan Java dengan petunjuk langkah demi langkah.
 ### [Menentukan Penyelarasan untuk Objek Cap Teks dalam PDF menggunakan Java](./define-alignment-for-text-stamp-object-in-pdf-using-java/)
 Pelajari cara menyelaraskan objek stempel teks dengan tepat dalam PDF menggunakan Java dengan Aspose.PDF untuk Java. Tingkatkan tampilan dan keterbacaan dokumen.
-### [Ekstrak Teks dari Anotasi Stempel dalam PDF menggunakan Java](./extract-text-from-stamp-annotation-in-pdf-using-java/)
+### [Ekstrak Teks dari Anotasi Stempel di PDF menggunakan Java](./extract-text-from-stamp-annotation-in-pdf-using-java/)
 Pelajari cara mengekstrak teks dari Stamp Annotations dalam PDF menggunakan Java dengan panduan lengkap ini. Gunakan Aspose.PDF untuk Java untuk pemrosesan dokumen PDF yang efisien.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

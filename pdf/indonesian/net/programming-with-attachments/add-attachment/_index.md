@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Lampiran Dalam File PDF
-linktitle: Tambahkan Lampiran Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan lampiran ke berkas PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurnakan dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/programming-with-attachments/add-attachment/
+"description": "Pelajari cara menambahkan lampiran ke berkas PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurnakan dokumen Anda dengan mudah."
+"linktitle": "Tambahkan Lampiran Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Lampiran Dalam File PDF"
+"url": "/id/net/programming-with-attachments/add-attachment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Lampiran Dalam File PDF
@@ -21,7 +23,7 @@ Pernahkah Anda merasa perlu melampirkan berkas ke dokumen PDF? Baik itu berkas t
 
 Sebelum kita menyelami seluk-beluk penambahan lampiran, ada beberapa prasyarat yang perlu Anda penuhi:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Lingkungan pengembangan tempat Anda dapat menulis dan menguji kode .NET Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
@@ -48,29 +50,29 @@ Langkah pertama adalah menentukan jalur ke direktori dokumen Anda. Di sinilah be
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Anda disimpan.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Anda disimpan.
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya, Anda perlu membuka dokumen PDF yang ingin Anda tambahkan lampirannya. Ini dilakukan dengan menggunakan`Document` kelas disediakan oleh Aspose.PDF.
+Selanjutnya, Anda perlu membuka dokumen PDF yang ingin Anda tambahkan lampirannya. Ini dilakukan dengan menggunakan `Document` kelas disediakan oleh Aspose.PDF.
 
 ```csharp
 // Buka dokumen
 Document pdfDocument = new Document(dataDir + "AddAttachment.pdf");
 ```
 
- Pada baris ini, kita membuat instance baru dari`Document` kelas dan memuat file PDF yang ada bernama`AddAttachment.pdf`.
+Pada baris ini, kita membuat instance baru dari `Document` kelas dan memuat file PDF yang ada bernama `AddAttachment.pdf`.
 
 ## Langkah 3: Siapkan File yang Akan Dilampirkan
 
- Sekarang saatnya menentukan file yang ingin Anda lampirkan. Anda perlu membuat`FileSpecification` objek yang berisi jalur ke berkas dan deskripsinya.
+Sekarang saatnya menentukan berkas yang ingin Anda lampirkan. Anda perlu membuat `FileSpecification` objek yang berisi jalur ke berkas dan deskripsinya.
 
 ```csharp
 // Siapkan file baru untuk ditambahkan sebagai lampiran
 FileSpecification fileSpecification = new FileSpecification(dataDir + "test.txt", "Sample text file");
 ```
 
- Di sini, kami sedang mempersiapkan untuk melampirkan file teks bernama`test.txt` dengan deskripsi "Contoh berkas teks."
+Di sini, kami sedang mempersiapkan untuk melampirkan file teks bernama `test.txt` dengan deskripsi "Contoh berkas teks."
 
 ## Langkah 4: Tambahkan Lampiran ke Dokumen
 
@@ -93,11 +95,11 @@ dataDir = dataDir + "AddAttachment_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Pada langkah ini, kami menyimpan PDF yang dimodifikasi sebagai`AddAttachment_out.pdf` di direktori yang sama.
+Pada langkah ini, kami menyimpan PDF yang dimodifikasi sebagai `AddAttachment_out.pdf` di direktori yang sama.
 
 ## Langkah 6: Konfirmasikan Operasi
 
-Terakhir, sebaiknya Anda selalu mengonfirmasi bahwa operasi berhasil. Anda dapat melakukannya dengan mencetak pesan ke konsol.
+Terakhir, sebaiknya selalu pastikan bahwa operasi berhasil. Anda dapat melakukannya dengan mencetak pesan ke konsol.
 
 ```csharp
 Console.WriteLine("\nSample text file attached successfully.\nFile saved at " + dataDir);
@@ -121,13 +123,15 @@ Aspose.PDF menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda p
 Ya, Anda dapat menambahkan beberapa file ke koleksi lampiran PDF.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?
- Anda dapat menemukan dokumentasi lengkap di[Situs web Aspose](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di [Situs web Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

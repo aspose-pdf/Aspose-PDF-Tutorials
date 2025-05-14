@@ -1,14 +1,16 @@
 ---
-title: PDF Belgesi Oluşturulurken Yazı Tipini Göm
-linktitle: PDF Belgesi Oluşturulurken Yazı Tipini Göm
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF belgelerine yazı tiplerini nasıl yerleştireceğinizi öğrenin. PDF'nizin görünümünü geliştirin.
-weight: 140
-url: /tr/net/programming-with-document/embedfontwhiledoccreation/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF belgelerine yazı tiplerini nasıl yerleştireceğinizi öğrenin. PDF'nizin görünümünü geliştirin."
+"linktitle": "PDF Belgesi Oluşturulurken Yazı Tipini Göm"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Belgesi Oluşturulurken Yazı Tipini Göm"
+"url": "/tr/net/programming-with-document/embedfontwhiledoccreation/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Belgesi Oluşturulurken Yazı Tipini Göm
@@ -21,7 +23,7 @@ Günümüzün dijital dünyasında profesyonel ve cilalı görünen PDF belgeler
 
 Koda geçmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Kodunuzu yazıp test edebileceğiniz bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
@@ -47,11 +49,11 @@ Artık ön koşullarımızı tamamladığımıza göre, yazı tiplerini bir PDF 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"`PDF'yi kaydetmek istediğiniz sisteminizdeki gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF'yi kaydetmek istediğiniz sisteminizdeki gerçek yol ile.
 
 ## Adım 2: PDF Belgesini Örneklendirin
 
- Daha sonra, bir örnek oluşturacaksınız`Document` sınıf. Bu sınıf PDF belgenizi temsil eder.
+Daha sonra, bir örnek oluşturacaksınız `Document` sınıf. Bu sınıf PDF belgenizi temsil eder.
 
 ```csharp
 // Boş oluşturucusunu çağırarak PDF nesnesini örneklendirin
@@ -73,13 +75,13 @@ Bu kod satırı belgenize yeni bir sayfa ekleyerek içerik eklemeye başlamanız
 
 ## Adım 4: Bir Metin Parçası Oluşturun
 
- PDF'nize metin eklemek için bir`TextFragment`Bu nesne görüntülemek istediğiniz metni tutacaktır.
+PDF'nize metin eklemek için bir `TextFragment`Bu nesne görüntülemek istediğiniz metni tutacaktır.
 
 ```csharp
 Aspose.Pdf.Text.TextFragment fragment = new Aspose.Pdf.Text.TextFragment("");
 ```
 
- Burada yeni bir tane başlatıyoruz`TextFragment`Bunu metniniz için bir kap olarak düşünebilirsiniz.
+Burada yeni bir tane başlatıyoruz `TextFragment`Bunu metniniz için bir kap olarak düşünebilirsiniz.
 
 ## Adım 5: Metin Bölümleri Ekleyin
 
@@ -93,7 +95,7 @@ Metni istediğiniz gibi değiştirmekten çekinmeyin. Bu sizin içeriğiniz!
 
 ## Adım 6: Metin Durumunu Tanımlayın ve Yazı Tipini Gömün
 
- Yazı tipinizin PDF'ye gömülmesini sağlamak için, yazı tipi özelliklerini ayarlamanız gerekir.`TextState` nesne.
+Yazı tipinizin PDF'ye gömülmesini sağlamak için, yazı tipi özelliklerini ayarlamanız gerekir. `TextState` nesne.
 
 ```csharp
 Aspose.Pdf.Text.TextState ts = new Aspose.Pdf.Text.TextState();
@@ -138,7 +140,7 @@ Bu kod çıktı dosya adını belge dizin yolunuza birleştirir ve PDF'yi kayded
 
 ## Çözüm
 
-Ve işte oldu! Aspose.PDF for .NET kullanarak gömülü yazı tipleriyle bir PDF belgesini başarıyla oluşturdunuz. Bu işlem yalnızca belgelerinizin görsel çekiciliğini artırmakla kalmaz, aynı zamanda farklı platformlarda biçimlendirmelerini korumalarını da sağlar. 
+Ve işte oldu! Aspose.PDF for .NET kullanarak gömülü yazı tipleriyle bir PDF belgesini başarıyla oluşturdunuz. Bu süreç yalnızca belgelerinizin görsel çekiciliğini artırmakla kalmaz, aynı zamanda farklı platformlarda biçimlendirmelerini korumalarını da sağlar. 
 
 ## SSS
 
@@ -152,13 +154,15 @@ Yazı tiplerini yerleştirmek, belgenizin tüm cihazlarda aynı görünmesini, a
 Evet, sisteminizde mevcut olduğu ve kodunuzda doğru şekilde referanslandığı sürece özel yazı tiplerini kullanabilirsiniz.
 
 ### Aspose.PDF için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/).
 
 ### Aspose.PDF için desteği nerede bulabilirim?
- Destek bulabilir ve soru sorabilirsiniz.[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek bulabilir ve soru sorabilirsiniz. [Aspose forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

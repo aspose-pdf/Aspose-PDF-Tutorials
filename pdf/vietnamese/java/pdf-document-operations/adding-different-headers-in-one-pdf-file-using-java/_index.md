@@ -1,14 +1,16 @@
 ---
-title: Thêm các tiêu đề khác nhau vào một tệp PDF bằng Java
-linktitle: Thêm các tiêu đề khác nhau vào một tệp PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm nhiều tiêu đề khác nhau vào một tệp PDF bằng Java với Aspose.PDF. Hướng dẫn từng bước để tùy chỉnh tiêu đề PDF.
-weight: 11
-url: /vi/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/
+"description": "Tìm hiểu cách thêm nhiều tiêu đề khác nhau vào một tệp PDF bằng Java với Aspose.PDF. Hướng dẫn từng bước để tùy chỉnh tiêu đề PDF."
+"linktitle": "Thêm các tiêu đề khác nhau vào một tệp PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm các tiêu đề khác nhau vào một tệp PDF bằng Java"
+"url": "/vi/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm các tiêu đề khác nhau vào một tệp PDF bằng Java
@@ -22,7 +24,7 @@ Trong lĩnh vực xử lý tài liệu trong Java, Aspose.PDF là một đồng 
 
 Trước khi bắt đầu hành trình này, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
--  Aspose.PDF cho Thư viện Java: Tải xuống và cài đặt từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Thư viện Java: Tải xuống và cài đặt từ [đây](https://releases.aspose.com/pdf/java/).
 
 Bây giờ, chúng ta hãy cùng tìm hiểu sâu hơn về cách thêm các tiêu đề khác nhau vào tệp PDF theo từng bước.
 
@@ -115,10 +117,12 @@ Có, Aspose.PDF cho Java yêu cầu giấy phép hợp lệ để sử dụng tr
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể khám phá tài liệu và ví dụ toàn diện tại[Tài liệu tham khảo API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+Bạn có thể khám phá tài liệu và ví dụ toàn diện tại [Tài liệu tham khảo API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

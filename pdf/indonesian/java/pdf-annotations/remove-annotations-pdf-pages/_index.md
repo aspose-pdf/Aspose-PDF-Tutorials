@@ -1,14 +1,16 @@
 ---
-title: Hapus Anotasi dari Halaman PDF
-linktitle: Hapus Anotasi dari Halaman PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menghapus anotasi PDF dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dan kode disertakan.
-weight: 11
-url: /id/java/pdf-annotations/remove-annotations-pdf-pages/
+"description": "Pelajari cara menghapus anotasi PDF dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dan kode disertakan."
+"linktitle": "Hapus Anotasi dari Halaman PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Hapus Anotasi dari Halaman PDF"
+"url": "/id/java/pdf-annotations/remove-annotations-pdf-pages/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Anotasi dari Halaman PDF
@@ -22,7 +24,7 @@ Aspose.PDF untuk Java adalah pustaka tangguh yang memungkinkan pengembang untuk 
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.PDF untuk Java: Pastikan Anda telah menginstal dan mengonfigurasi pustaka Aspose.PDF untuk Java di proyek Java Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Pastikan Anda telah menginstal dan mengonfigurasi pustaka Aspose.PDF untuk Java di proyek Java Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Memuat Dokumen PDF
 
@@ -33,7 +35,7 @@ Untuk bekerja dengan dokumen PDF, pertama-tama Anda perlu memuatnya ke dalam apl
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Mengganti`"example.pdf"` dengan jalur ke berkas PDF Anda.
+Mengganti `"example.pdf"` dengan jalur ke berkas PDF Anda.
 
 
 ## Mengidentifikasi dan Mengakses Anotasi
@@ -57,7 +59,7 @@ Setelah Anda mengakses anotasi, Anda dapat melanjutkan untuk menghapusnya dari h
 annotations.delete();
 ```
 
-## Menyimpan PDF yang Telah Dimodifikasi
+## Menyimpan PDF yang Dimodifikasi
 
 Setelah menghapus anotasi, Anda perlu menyimpan dokumen PDF yang dimodifikasi:
 
@@ -66,7 +68,7 @@ Setelah menghapus anotasi, Anda perlu menyimpan dokumen PDF yang dimodifikasi:
 pdfDocument.save("modified.pdf");
 ```
 
- Mengganti`"modified.pdf"` dengan nama file keluaran yang diinginkan.
+Mengganti `"modified.pdf"` dengan nama file keluaran yang diinginkan.
 
 ## Kesimpulan
 
@@ -76,7 +78,7 @@ Dalam panduan ini, kami membahas cara menghapus anotasi dari halaman PDF menggun
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Anda dapat mengunduh Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan.
+Anda dapat mengunduh Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan.
 
 ### Bisakah saya menghapus jenis anotasi tertentu, seperti hanya komentar teks?
 
@@ -92,10 +94,12 @@ Ya, Aspose.PDF untuk Java mendukung pekerjaan dengan PDF terenkripsi dan menyedi
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat menjelajahi dokumentasi dan contoh terperinci di halaman dokumentasi Aspose.PDF untuk Java:[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menjelajahi dokumentasi dan contoh terperinci di halaman dokumentasi Aspose.PDF untuk Java: [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

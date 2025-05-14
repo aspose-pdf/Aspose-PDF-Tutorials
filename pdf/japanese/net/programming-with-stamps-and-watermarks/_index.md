@@ -1,45 +1,49 @@
 ---
-title: スタンプと透かしを使ったプログラミング
-linktitle: スタンプと透かしを使ったプログラミング
-weight: 24
-url: /ja/net/programming-with-stamps-and-watermarks/
-description: Aspose.PDF for .NET のスタンプと透かしを使用したプログラミング チュートリアルでは、PDF ドキュメントにセキュリティ要素とパーソナライズ要素を追加する方法を学習します。
+"description": "Aspose.PDF for .NET のスタンプと透かしを使用したプログラミング チュートリアルでは、PDF ドキュメントにセキュリティとパーソナライズの要素を追加する方法を学習します。"
+"linktitle": "スタンプと透かしを使ったプログラミング"
+"title": "スタンプと透かしを使ったプログラミング"
+"url": "/ja/net/programming-with-stamps-and-watermarks/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # スタンプと透かしを使ったプログラミング
 
 
-Aspose.PDF の .NET 向け「スタンプと透かしを使ったプログラミング」チュートリアルでは、PDF ドキュメントにスタンプと透かしを追加する手順を順を追って説明します。スタンプをカスタマイズする方法、テキストとグラフィックの透かしを適用する方法、およびそれらの位置と外観を管理する方法を学習します。これらのチュートリアルは、PDF ファイルにセキュリティと識別のレイヤーを簡単かつ効果的に追加するのに役立ちます。
+Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使ったプログラミング」では、PDF ドキュメントにスタンプや透かしを追加する手順を詳しく説明します。スタンプのカスタマイズ、テキストやグラフィックの透かしの適用、位置や外観の管理方法を学ぶことができます。これらのチュートリアルは、PDF ファイルにセキュリティと識別機能を簡単に効果的に追加するのに役立ちます。
 
 ## チュートリアル
-| タイトル | 説明 |
+タイトル | 説明 |
 | --- | --- | 
-| [PDF ファイルに日付タイムスタンプを追加する](./add-date-time-stamp/) | このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ファイルに日付と時刻のスタンプを追加する方法を説明します。ドキュメントの信頼性を高めるのに最適です。 |  
-| [PDF ファイルに画像スタンプを追加する](./add-image-stamp/) | Aspose.PDF for .NET を使用して PDF ファイルに画像スタンプを追加する方法を、ステップバイステップのガイダンスとサンプル コードを使用して学習します。 |  
-| [PDF ファイルに異なるヘッダーを追加する](./adding-different-headers/) | Aspose.PDF for .NET を使用して PDF ファイルにさまざまなヘッダーを追加する方法を学びます。PDF をカスタマイズするためのステップバイステップ ガイド。 |  
-| [PDF ファイルに PDF ページ スタンプを追加する](./add-pdf-page-stamp/) | この詳細なガイドでは、Aspose.PDF for .NET を使用して PDF ページ スタンプを追加する方法を説明します。PDF ドキュメントのインパクトを高めます。 |  
-| [PDF ファイルにテキスト スタンプを追加する](./add-text-stamp/) | Aspose.PDF for .NET を使用して PDF ファイルにテキスト スタンプを追加する方法をステップ バイ ステップ ガイドで学習し、ドキュメントのプレゼンテーションを向上させましょう。 |  
-| [PDF ファイル内のアーティファクトのカウント](./counting-artifacts/) | Aspose.PDF for .NET を使用して PDF 内の透かしをカウントする方法を学びます。事前の経験を必要としない初心者向けのステップバイステップ ガイドです。 |  
-| [PDF ファイル内の配置を定義する](./define-alignment/) | このガイドでは、Aspose.PDF for .NET を使用して PDF ファイル内のテキスト配置を定義する方法について、ステップバイステップのチュートリアルとともに説明します。 |  
-| [スタンプ注釈からテキストを抽出する](./extract-text-from-stamp-annotation/) | このステップバイステップのチュートリアルでは、詳細なコード例を使用して、Aspose.PDF for .NET を使用して PDF 内のスタンプ注釈からテキストを抽出する方法を学習します。 |  
-| [PDF ファイルにストロークテキストを記入する](./fill-stroke-text/) | 実用的な例が満載のこのステップバイステップ ガイドで、Aspose.PDF for .NET を使用して PDF ファイルにストローク テキストを簡単に入力する方法を学びます。 |  
-| [PDF ファイルから透かしを取得する](./get-watermark/) | Aspose.PDF for .NET を使用して PDF ファイルから透かしを抽出する方法をステップバイステップ ガイドで学習します。透かし抽出の詳細なチュートリアル。 |  
-| [ヘッダー フッター セクションの画像とページ番号](./image-and-page-number-in-header-footer-section/) | このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF のヘッダーとフッターに画像とページ番号を追加する方法を学習します。 |  
-| [ヘッダー フッター セクションのインラインの画像とページ番号](./image-and-page-number-in-header-footer-section-inline/) | このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF のヘッダー セクションに画像とページ番号をインラインで追加する方法を学習します。 |  
-| [フッター内の画像](./image-in-footer/) | この詳細なステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF のフッターに画像を追加する方法を学びます。ドキュメントを強化するのに最適です。 |  
-| [ヘッダー内の画像](./image-in-header/) | このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF のヘッダーに画像を追加する方法を学習します。 |  
-| [フローティングボックスを使用したヘッダー フッターのページ番号](./page-number-in-header-footer-using-floating-box/) | このステップバイステップのチュートリアルでは、Aspose.PDF for .NET のフローティング ボックスを使用して、PDF のヘッダーとフッターにページ番号を簡単に追加できます。 |  
-| [PDF ファイルのページ番号スタンプ](./page-number-stamps/) | コード例付きのわかりやすいガイドを通じて、Aspose.PDF for .NET を使用して PDF ファイルにページ番号スタンプを追加する方法を学習します。 |  
-| [ヘッダー フッター セクションの表](./table-in-header-footer-section/) | Aspose.PDF for .NET を使用して PDF ファイルのフッターにテキストを簡単に追加する方法を学びます。シームレスな統合のためのステップバイステップ ガイドが含まれています。 |  
-| [PDF ファイルのフッターのテキスト](./text-in-footer/) | Aspose.PDF for .NET を使用して PDF ファイルのフッターにテキストを追加する方法を学習します。 |  
-| [PDF ファイルのヘッダー内のテキスト](./text-in-header/) | このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF にテキスト ヘッダーを追加する方法を学習します。ドキュメントを効率的かつ効果的に強化します。 |  
+| [PDFファイルに日付タイムスタンプを追加する](./add-date-time-stamp/) Aspose.PDF for .NET を使用してPDFファイルに日付と時刻のスタンプを追加する方法を、ステップバイステップで解説します。ドキュメントの信頼性を高めるのに最適です。 |  
+| [PDFファイルに画像スタンプを追加する](./add-image-stamp/) Aspose.PDF for .NET を使用して PDF ファイルに画像スタンプを追加する方法を、ステップバイステップのガイドとサンプル コードを使用して学習します。 |  
+| [PDFファイルに異なるヘッダーを追加する](./adding-different-headers/) Aspose.PDF for .NET を使用して PDF ファイルにさまざまなヘッダーを追加する方法を学びます。PDF をカスタマイズするためのステップバイステップガイドです。 |  
+| [PDFファイルにPDFページスタンプを追加する](./add-pdf-page-stamp/) Aspose.PDF for .NET を使用してPDFにページスタンプを追加する方法を、この詳細なガイドで学びましょう。PDFドキュメントのインパクトを高めましょう。 |  
+| [PDFファイルにテキストスタンプを追加する](./add-text-stamp/) ステップバイステップ ガイドに従って Aspose.PDF for .NET を使用して PDF ファイルにテキスト スタンプを追加し、ドキュメントのプレゼンテーションを向上させる方法を学習します。 |  
+| [PDFファイル内のアーティファクトのカウント](./counting-artifacts/) Aspose.PDF for .NET を使用して PDF 内の透かしをカウントする方法を学びましょう。初心者向けのステップバイステップガイドで、事前の経験は必要ありません。 |  
+| [PDFファイル内の配置を定義する](./define-alignment/) このガイドでは、Aspose.PDF for .NET を使用して PDF ファイル内のテキスト配置を定義する方法について、ステップバイステップのチュートリアルとともに説明します。 |  
+| [スタンプ注釈からテキストを抽出する](./extract-text-from-stamp-annotation/) このステップバイステップのチュートリアルでは、詳細なコード例を使用して、Aspose.PDF for .NET を使用して PDF 内のスタンプ注釈からテキストを抽出する方法を学習します。 |  
+| [PDFファイル内のストロークテキストの塗りつぶし](./fill-stroke-text/) 実用的な例が満載のステップバイステップ ガイドで、Aspose.PDF for .NET を使用して PDF ファイルにストローク テキストを簡単に入力する方法を学びます。 |  
+| [PDFファイルから透かしを取得する](./get-watermark/) Aspose.PDF for .NET を使用してPDFファイルから透かしを抽出する方法をステップバイステップで解説します。透かし抽出の詳細なチュートリアルです。 |  
+| [ヘッダーフッターセクションの画像とページ番号](./image-and-page-number-in-header-footer-section/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF のヘッダーとフッターに画像とページ番号を追加する方法を学習します。 |  
+| [ヘッダーフッターセクションのインライン画像とページ番号](./image-and-page-number-in-header-footer-section-inline/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF のヘッダー セクションに画像とページ番号をインラインで追加する方法を説明します。 |  
+| [フッター内の画像](./image-in-footer/) Aspose.PDF for .NET を使ってPDFのフッターに画像を追加する方法を、ステップバイステップで詳しく解説するチュートリアルで学びましょう。ドキュメントの見栄えを良くするのに最適です。 |  
+| [ヘッダー内の画像](./image-in-header/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF のヘッダーに画像を追加する方法を学習します。 |  
+| [フローティングボックスを使用したヘッダーフッターのページ番号](./page-number-in-header-footer-using-floating-box/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET のフローティング ボックスを使用して、PDF のヘッダーとフッターにページ番号を簡単に追加します。 |  
+| [PDFファイルのページ番号スタンプ](./page-number-stamps/) コード例を含むわかりやすいガイドを通じて、Aspose.PDF for .NET を使用して PDF ファイルにページ番号スタンプを追加する方法を学習します。 |  
+| [ヘッダーフッターセクションの表](./table-in-header-footer-section/) Aspose.PDF for .NET を使用して、PDF ファイルのフッターにテキストを簡単に追加する方法を学びましょう。シームレスな統合のためのステップバイステップガイドが付属しています。 |  
+| [PDFファイルのフッター内のテキスト](./text-in-footer/) Aspose.PDF for .NET を使用して PDF ファイルのフッターにテキストを追加する方法を学習します。 |  
+| [PDFファイルのヘッダー内のテキスト](./text-in-header/) Aspose.PDF for .NET を使用してPDFにテキストヘッダーを追加する方法をステップバイステップで学ぶチュートリアルです。ドキュメントを効率的かつ効果的に強化しましょう。 |  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

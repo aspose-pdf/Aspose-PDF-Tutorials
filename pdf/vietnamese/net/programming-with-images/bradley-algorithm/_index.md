@@ -1,14 +1,16 @@
 ---
-title: Thuật toán Bradley
-linktitle: Thuật toán Bradley
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi PDF sang TIFF bằng thuật toán Bradley trong Aspose.PDF cho .NET. Hướng dẫn từng bước, điều kiện tiên quyết và câu hỏi thường gặp để chuyển đổi liền mạch.
-weight: 30
-url: /vi/net/programming-with-images/bradley-algorithm/
+"description": "Tìm hiểu cách chuyển đổi PDF sang TIFF bằng thuật toán Bradley trong Aspose.PDF cho .NET. Hướng dẫn từng bước, điều kiện tiên quyết và câu hỏi thường gặp để chuyển đổi liền mạch."
+"linktitle": "Thuật toán Bradley"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thuật toán Bradley"
+"url": "/vi/net/programming-with-images/bradley-algorithm/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thuật toán Bradley
@@ -23,10 +25,10 @@ Hướng dẫn này sẽ hướng dẫn bạn quy trình chi tiết, dễ thực
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để làm theo:
 
--  Aspose.PDF cho .NET: Bạn sẽ cần thư viện. Tải xuống từ[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Bạn sẽ cần thư viện. Tải xuống từ [đây](https://releases.aspose.com/pdf/net/).
 - Visual Studio (hoặc bất kỳ IDE C# nào).
 - Kiến thức cơ bản về C#.
--  Một giấy phép hợp lệ hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) từ Aspose.
+- Một giấy phép hợp lệ hoặc một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) từ Aspose.
 
 ## Nhập gói
 
@@ -58,7 +60,7 @@ Bây giờ đường dẫn đã được thiết lập, đã đến lúc mở t�
 Document pdfDocument = new Document(dataDir + "PageToTIFF.pdf");
 ```
 
- Đây,`PageToTIFF.pdf` là tệp mẫu. Bạn có thể thay thế bằng bất kỳ tệp PDF nào bạn chọn. Đối tượng tài liệu hiện giữ tệp PDF để thao tác thêm.
+Đây, `PageToTIFF.pdf` là tệp mẫu. Bạn có thể thay thế bằng bất kỳ tệp PDF nào bạn chọn. Đối tượng tài liệu hiện giữ tệp PDF để thao tác thêm.
 
 ## Bước 3: Xác định Đường dẫn Đầu ra cho Hình ảnh
 
@@ -105,7 +107,7 @@ Thiết bị TIFF là cốt lõi của hoạt động này. Nó lấy tài liệ
 
 ## Bước 7: Chuyển đổi trang PDF sang TIFF
 
- Đã đến lúc xử lý PDF và chuyển đổi trang đầu tiên thành hình ảnh TIFF.`Process` phương pháp này cho phép bạn chuyển đổi các trang cụ thể hoặc toàn bộ tài liệu. Trong ví dụ này, chúng tôi đang chuyển đổi trang đầu tiên.
+Đã đến lúc xử lý PDF và chuyển đổi trang đầu tiên thành hình ảnh TIFF. `Process` phương pháp này cho phép bạn chuyển đổi các trang cụ thể hoặc toàn bộ tài liệu. Trong ví dụ này, chúng tôi đang chuyển đổi trang đầu tiên.
 
 ```csharp
 tiffDevice.Process(pdfDocument, outputImageFile);
@@ -127,7 +129,7 @@ using (FileStream inStream = new FileStream(outputImageFile, FileMode.Open))
 }
 ```
 
- Phương pháp BinarizeBradley sử dụng hai luồng tệp (đầu vào và đầu ra) cũng như một giá trị ngưỡng (ở đây,`0.1`) xác định mức nhị phân hóa. Sau khi thực hiện, bạn sẽ có một hình ảnh nhị phân hóa hoàn hảo, sẵn sàng để sử dụng.
+Phương pháp BinarizeBradley sử dụng hai luồng tệp (đầu vào và đầu ra) cũng như một giá trị ngưỡng (ở đây, `0.1`xác định mức nhị phân hóa. Sau khi thực hiện, bạn sẽ có một hình ảnh nhị phân hóa hoàn hảo, sẵn sàng để sử dụng.
 
 ## Bước 9: Xác nhận chuyển đổi thành công
 
@@ -149,19 +151,21 @@ Vậy là xong! Bạn vừa học cách chuyển đổi trang PDF thành hình �
 Thuật toán Bradley là một kỹ thuật nhị phân hóa chuyển đổi hình ảnh thang độ xám thành hình ảnh nhị phân (đen trắng) bằng cách xác định ngưỡng thích ứng cho từng pixel dựa trên môi trường xung quanh.
 
 ### Tôi có thể chuyển đổi nhiều trang PDF sang TIFF bằng phương pháp này không?
- Có, bạn có thể sửa đổi`Process` phương pháp chuyển đổi tất cả các trang bằng cách lặp qua các trang trong tài liệu.
+Có, bạn có thể sửa đổi `Process` phương pháp chuyển đổi tất cả các trang bằng cách lặp qua các trang trong tài liệu.
 
 ### Độ phân giải tối ưu để chuyển đổi PDF sang TIFF là bao nhiêu?
 Đối với hình ảnh chất lượng cao, thường khuyến nghị 300 DPI. Tuy nhiên, bạn có thể điều chỉnh giá trị này dựa trên nhu cầu của mình.
 
-### 1bpp có nghĩa là gì về độ sâu màu?
+### Độ sâu màu 1bpp có nghĩa là gì?
 1bpp (1 bit cho mỗi pixel) nghĩa là hình ảnh sẽ có màu đen và trắng, trong đó mỗi pixel có màu đen hoàn toàn hoặc màu trắng hoàn toàn.
 
 ### Thuật toán Bradley có phù hợp với OCR không?
 Có, Thuật toán Bradley thường được sử dụng trong quá trình xử lý trước OCR vì nó tăng cường độ tương phản của văn bản trong các tài liệu được quét.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Przenieś pole formularza
-linktitle: Przenieś pole formularza
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak przenosić pola formularzy w dokumentach PDF za pomocą Aspose.PDF dla .NET z tego przewodnika. Postępuj zgodnie z tym szczegółowym samouczkiem, aby łatwo modyfikować lokalizacje pól tekstowych.
-weight: 200
-url: /pl/net/programming-with-forms/move-form-field/
+"description": "Dowiedz się, jak przenosić pola formularzy w dokumentach PDF za pomocą Aspose.PDF dla .NET z tego przewodnika. Postępuj zgodnie z tym szczegółowym samouczkiem, aby łatwo modyfikować lokalizacje pól tekstowych."
+"linktitle": "Przenieś pole formularza"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Przenieś pole formularza"
+"url": "/pl/net/programming-with-forms/move-form-field/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przenieś pole formularza
@@ -28,13 +30,13 @@ Zanim zaczniemy, oto kilka rzeczy, których będziesz potrzebować:
 
 ### Instalowanie Aspose.PDF dla .NET
 
- Najnowszą wersję pliku Aspose.PDF dla platformy .NET można pobrać ze strony[Strona pobierania Aspose](https://releases.aspose.com/pdf/net/)Po pobraniu możesz zainstalować go za pomocą NuGet w Visual Studio, uruchamiając następujące polecenie:
+Najnowszą wersję pliku Aspose.PDF dla platformy .NET można pobrać ze strony [Strona pobierania Aspose](https://releases.aspose.com/pdf/net/). Po pobraniu możesz zainstalować go za pomocą NuGet w Visual Studio, uruchamiając następujące polecenie:
 
 ```bash
 Install-Package Aspose.PDF
 ```
 
- Będziesz także musiał uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub zakup licencję od[Sklep Aspose](https://purchase.aspose.com/buy).
+Będziesz także musiał uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub zakup licencję od [Sklep Aspose](https://purchase.aspose.com/buy).
 
 ## Importuj pakiety
 
@@ -63,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "MoveFormField.pdf");
 ```
 
- Ten kod inicjuje dokument, ładując go z określonego katalogu. Upewnij się, że zastąpiłeś`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką pliku, w której przechowywany jest Twój plik PDF. Ten plik PDF powinien zawierać co najmniej jedno pole formularza, z którym będziesz mógł pracować.
+Ten kod inicjuje dokument, ładując go z określonego katalogu. Upewnij się, że zastąpiłeś `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką pliku, w której przechowywany jest Twój plik PDF. Ten plik PDF powinien zawierać co najmniej jedno pole formularza, z którym będziesz mógł pracować.
 
 ## Krok 2: Uzyskaj dostęp do pola formularza, które ma zostać przeniesione
 
@@ -74,7 +76,7 @@ Po załadowaniu pliku PDF następnym krokiem jest dostęp do pola formularza, kt
 TextBoxField textBoxField = pdfDocument.Form["textbox1"] as TextBoxField;
 ```
 
- Tutaj uzyskujemy dostęp do pola formularza o nazwie`"textbox1"`. Upewnij się, że znasz nazwę pola formularza, którym chcesz manipulować, lub możesz użyć innych technik, aby wyświetlić listę lub przeszukać pola formularza, jeśli to konieczne.
+Tutaj uzyskujemy dostęp do pola formularza o nazwie `"textbox1"`. Upewnij się, że znasz nazwę pola formularza, którym chcesz manipulować, lub możesz użyć innych technik, aby wyświetlić listę lub przeszukać pola formularza, jeśli to konieczne.
 
 ## Krok 3: Zmień lokalizację pola
 
@@ -102,7 +104,7 @@ Dokument zostanie zapisany w tym samym katalogu ze zaktualizowaną nazwą (`Move
 
 ## Wniosek
 
- Przenoszenie pól formularza w pliku PDF przy użyciu Aspose.PDF dla platformy .NET jest proste, gdy tylko zrozumiesz podstawy pracy z tym narzędziem.`Rectangle` pola obiektów i formularzy. Za pomocą powyższego kodu możesz łatwo modyfikować położenie dowolnego pola formularza, co pomoże Ci dostosować układy PDF i interakcje użytkowników.
+Przenoszenie pól formularza w pliku PDF przy użyciu Aspose.PDF dla platformy .NET jest proste, gdy tylko zrozumiesz podstawy pracy z tym narzędziem. `Rectangle` pola obiektów i formularzy. Za pomocą powyższego kodu możesz łatwo modyfikować położenie dowolnego pola formularza, co pomoże Ci dostosować układy PDF i interakcje użytkowników.
 
 ## Najczęściej zadawane pytania
 
@@ -110,19 +112,21 @@ Dokument zostanie zapisany w tym samym katalogu ze zaktualizowaną nazwą (`Move
 Tak, możesz przenieść dowolne pole formularza, w tym pola wyboru, przyciski radiowe i podpisy, korzystając z tej samej metody, uzyskując dostęp do określonego typu pola.
 
 ### Jak mogę pobrać nazwy wszystkich pól formularza w pliku PDF?
- Możesz iterować pola formularza za pomocą`pdfDocument.Form.Fields` aby wyświetlić listę wszystkich pól formularza i ich nazw.
+Możesz iterować pola formularza za pomocą `pdfDocument.Form.Fields` aby wyświetlić listę wszystkich pól formularza i ich nazw.
 
 ### Co zrobić, jeśli zamiast przenosić pole formularza, chcę je zmienić?
- Możesz zmienić zarówno położenie, jak i rozmiar, dostosowując`Rectangle` szerokość i wysokość obiektu podczas ustawiania nowych współrzędnych.
+Możesz zmienić zarówno położenie, jak i rozmiar, dostosowując `Rectangle` szerokość i wysokość obiektu podczas ustawiania nowych współrzędnych.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF na platformie .NET?
- Tak, Aspose.PDF wymaga licencji do użytku produkcyjnego, ale możesz uzyskać licencję[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+Tak, Aspose.PDF wymaga licencji do użytku produkcyjnego, ale możesz uzyskać licencję [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
 
 ### Czy mogę przenieść wiele pól formularza jednocześnie?
- Tak, poprzez dostęp do każdego pola formularza i jego modyfikację`Rect` właściwość, możesz przenosić wiele pól jednocześnie.
+Tak, poprzez dostęp do każdego pola formularza i jego modyfikację `Rect` właściwość, możesz przenosić wiele pól jednocześnie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

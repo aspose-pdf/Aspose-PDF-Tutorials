@@ -1,14 +1,16 @@
 ---
-title: Tablo Elemanı Oluştur
-linktitle: Tablo Elemanı Oluştur
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF ile dizi öğesi oluşturmaya yönelik adım adım kılavuz. Tablolar içeren dinamik PDF'leri kolayca oluşturun.
-weight: 80
-url: /tr/net/programming-with-tagged-pdf/create-table-element/
+"description": "Aspose.PDF for .NET ile dizi elemanı oluşturmaya yönelik adım adım kılavuz. Tablolar içeren dinamik PDF'leri kolayca oluşturun."
+"linktitle": "Tablo Elemanı Oluştur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Tablo Elemanı Oluştur"
+"url": "/tr/net/programming-with-tagged-pdf/create-table-element/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablo Elemanı Oluştur
@@ -20,11 +22,11 @@ url: /tr/net/programming-with-tagged-pdf/create-table-element/
 ## Ön koşullar
 
 Başlamadan önce birkaç şeyin hazır olması gerekir:
-1.  Aspose.PDF for .NET: En son sürümü şu adresten indirin:[Aspose.PDF for .NET İndir](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: En son sürümü şu adresten indirin: [Aspose.PDF for .NET İndir](https://releases.aspose.com/pdf/net/).
 2. Geliştirme Ortamı: Herhangi bir .NET destekli IDE (örneğin, Visual Studio).
 3. Temel C# Bilgisi: C# programlamaya aşinalık tavsiye edilir.
 
- Son olarak, Aspose.PDF lisansınızı unutmayın. Eğer yoksa, şunu kullanabilirsiniz:[ücretsiz deneme](https://releases.aspose.com/) veya bir talepte bulunun[geçici lisans](https://purchase.aspose.com/temporary-license/) her şeyi denemek için.
+Son olarak, Aspose.PDF lisansınızı unutmayın. Eğer yoksa, şunu kullanabilirsiniz: [ücretsiz deneme](https://releases.aspose.com/) veya bir talepte bulunun [geçici lisans](https://purchase.aspose.com/temporary-license/) her şeyi denemek için.
 
 ## Paketleri İçe Aktar
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Burada, yeni bir örneğini başlatıyoruz`Document` sınıfımız, boş PDF dosyamız olacak. Dosya yolunuzu tanımlamayı unutmayın!
+Burada, yeni bir örneğini başlatıyoruz `Document` sınıfımız, boş PDF dosyamız olacak. Dosya yolunuzu tanımlamayı unutmayın!
 
 ## Adım 2: Etiketli İçeriği Ayarlayın
 
@@ -80,7 +82,7 @@ TableElement tableElement = taggedContent.CreateTableElement();
 rootElement.AppendChild(tableElement);
 ```
 
- Burada şunu kullanıyoruz:`RootElement` Tablomuza eklemek için etiketli içeriğin. Bu, esasen bir tabloyu belgenin yapısına bir alt düğüm olarak eklemektir.
+Burada şunu kullanıyoruz: `RootElement` Tablomuza eklemek için etiketli içeriğin. Bu, esasen bir tabloyu belgenin yapısına bir alt düğüm olarak eklemektir.
 
 ## Adım 4: Tablo Kenarlıklarını ve Başlıklarını Özelleştirin
 
@@ -93,7 +95,7 @@ TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 ```
 
- Sınırları tanımlıyoruz ve tabloya başlıklar, gövde ve altbilgiler ekliyoruz. Kullanımını fark edin`BorderInfo` Masa kenarlarını koyu mavi renkle şekillendirmek.
+Sınırları tanımlıyoruz ve tabloya başlıklar, gövde ve altbilgiler ekliyoruz. Kullanımını fark edin `BorderInfo` Masa kenarlarını koyu mavi renkle şekillendirmek.
 
 ## Adım 5: Tabloya Satır ve Hücreler Ekleyin
 
@@ -116,7 +118,7 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- 4 sütunlu bir başlık satırı oluşturuyoruz ve her başlık hücresinin arka plan rengi şu şekilde olacak:`GreenYellow`Ayrıca başlıklar için bir kenarlık ve hizalama belirledik.
+sütunlu bir başlık satırı oluşturuyoruz ve her başlık hücresinin arka plan rengi şu şekilde olacak: `GreenYellow`Ayrıca başlıklar için bir kenarlık ve hizalama belirledik.
 
 ### Adım 5.2: Gövde Satırlarını Ekle
 
@@ -153,7 +155,7 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- Tabloyu tamamlamak için, ortalanmış metin ve bir altbilgi ekliyoruz`LightSeaGreen` arka plan.
+Tabloyu tamamlamak için, ortalanmış metin ve bir altbilgi ekliyoruz `LightSeaGreen` arka plan.
 
 ## Adım 6: PDF/UA Uyumluluğunu Doğrulayın
 
@@ -172,27 +174,29 @@ Bu kod parçası PDF dosyasını kaydeder ve PDF/UA uyumluluk standartlarını k
 
 ## Çözüm
 
-Tebrikler! Aspose.PDF for .NET kullanarak bir PDF'de tamamen özelleştirilmiş bir tabloyu başarıyla oluşturdunuz. Tabloyu biçimlendirmekten PDF/UA uyumluluğunu sağlamaya kadar, artık PDF belgelerinizde dinamik tablolar oluşturmak için sağlam bir temele sahipsiniz. Belgelerinizi daha da geliştirmek için Aspose.PDF'nin kapsamlı özelliklerini keşfetmeyi unutmayın!
+Tebrikler! Aspose.PDF for .NET kullanarak PDF'de tamamen özelleştirilmiş bir tabloyu başarıyla oluşturdunuz. Tabloyu biçimlendirmekten PDF/UA uyumluluğunu sağlamaya kadar, artık PDF belgelerinizde dinamik tablolar oluşturmak için sağlam bir temele sahipsiniz. Belgelerinizi daha da geliştirmek için Aspose.PDF'nin kapsamlı özelliklerini keşfetmeyi unutmayın!
 
 ## SSS
 
 ### Tablonun yazı tipini ve metin stilini özelleştirebilir miyim?
-Evet, Aspose.PDF, yazı tiplerini, metin stillerini ve hizalamayı tamamen özelleştirmenize olanak tanır.`TextState` sınıf.
+Evet, Aspose.PDF, yazı tiplerini, metin stillerini ve hizalamayı tamamen özelleştirmenize olanak tanır. `TextState` sınıf.
 
 ### Dinamik olarak daha fazla sütun veya satır nasıl eklerim?
- Sütun veya satır sayısını değiştirerek ayarlayabilirsiniz.`rowIndex` Ve`colIndex` döngülerde.
+Sütun veya satır sayısını değiştirerek ayarlayabilirsiniz. `rowIndex` Ve `colIndex` döngülerde.
 
 ### Tablodaki hücreleri birleştirmek mümkün müdür?
- Evet, kullanabilirsiniz`ColSpan` Ve`RowSpan` Sütunlar veya satırlar arasında hücreleri birleştirme özellikleri.
+Evet, kullanabilirsiniz `ColSpan` Ve `RowSpan` Sütunlar veya satırlar arasında hücreleri birleştirme özellikleri.
 
 ### PDF/UA uyumluluğu nedir?
 PDF/UA uyumluluğu, belgenin uluslararası erişilebilirlik standartlarına uygun olarak engelli kullanıcılar tarafından da erişilebilir olmasını sağlar.
 
 ### Aspose.PDF'de PDF/UA uyumluluğunu nasıl test edebilirim?
- Kullanabilirsiniz`Validate` Belgenin PDF/UA standartlarına uygun olup olmadığını kontrol etme yöntemi.
+Kullanabilirsiniz `Validate` Belgenin PDF/UA standartlarına uygun olup olmadığını kontrol etme yöntemi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

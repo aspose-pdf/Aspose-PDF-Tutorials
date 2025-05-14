@@ -1,30 +1,32 @@
 ---
-title: PDF Dosyasında Kontrol Dikdörtgeni Z Sırası
-linktitle: PDF Dosyasında Kontrol Dikdörtgeni Z Sırası
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu ayrıntılı adım adım eğitimde .NET için Aspose.PDF kullanarak PDF'deki dikdörtgen Z düzenini nasıl kontrol edeceğinizi öğrenin. PDF belgelerini geliştirmek isteyen geliştiriciler için idealdir.
-weight: 40
-url: /tr/net/programming-with-graphs/control-rectangle-z-order/
+"description": "Bu ayrıntılı adım adım eğitimde .NET için Aspose.PDF kullanarak PDF'deki dikdörtgen Z düzenini nasıl kontrol edeceğinizi öğrenin. PDF belgelerini geliştirmek isteyen geliştiriciler için idealdir."
+"linktitle": "PDF Dosyasında Kontrol Dikdörtgeni Z Sırası"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Kontrol Dikdörtgeni Z Sırası"
+"url": "/tr/net/programming-with-graphs/control-rectangle-z-order/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Kontrol Dikdörtgeni Z Sırası
 
 ## giriiş
 
-Zengin görsel bileşenlere sahip PDF'ler oluşturmak hem zorlu hem de ödüllendirici olabilir. Hiç kendinizi bir PDF'nin görsel öğelerini manipüle etmek zorunda buldunuz mu, belki de şekilleri katmanlamak veya göründükleri sırayı ayarlamak zorunda kaldınız mı? Bu eğitim, .NET için Aspose.PDF kullanarak PDF manipülasyonunun büyüleyici dünyasına dalıyor ve özellikle bir PDF belgesindeki dikdörtgenlerin Z sırasını kontrol etmeye odaklanıyor. 
+Zengin görsel bileşenlere sahip PDF'ler oluşturmak hem zorlu hem de ödüllendirici olabilir. Hiç kendinizi bir PDF'nin görsel öğelerini manipüle etmek zorunda buldunuz mu, belki de şekilleri katmanlamak veya göründükleri sırayı ayarlamak? Bu eğitim, .NET için Aspose.PDF kullanarak PDF manipülasyonunun büyüleyici dünyasına dalıyor ve özellikle bir PDF belgesindeki dikdörtgenlerin Z sırasını kontrol etmeye odaklanıyor. 
 
 ## Ön koşullar 
 
 Koda geçmeden önce, ayarladığınızdan emin olmanız gereken birkaç şey var:
 
 1. .NET Geliştirme için IDE: Daha önce yapmadıysanız, Visual Studio veya JetBrains Rider gibi bir Entegre Geliştirme Ortamı (IDE) seçin ve kurun. Bu araçlar kodunuzu verimli bir şekilde yazmanıza, test etmenize ve hata ayıklamanıza yardımcı olacaktır.
-2.  .NET için Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesini indirerek başlayabilirsiniz.[indirme sayfası](https://releases.aspose.com/pdf/net/) en son sürümü edinmek için. Bu kütüphane PDF belgeleri oluşturmak ve düzenlemek için gereklidir.
+2. .NET için Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesini indirerek başlayabilirsiniz. [indirme sayfası](https://releases.aspose.com/pdf/net/) en son sürümü edinmek için. Bu kütüphane PDF belgeleri oluşturmak ve düzenlemek için gereklidir.
 3. Temel C# Bilgisi: Bu kılavuz sizi her konuda yönlendirecek olsa da, C# hakkında temel bir anlayışa sahip olmak kavramları daha hızlı kavramanıza yardımcı olacaktır.
-4.  .NET Framework: Makinenizde .NET Framework'ün yüklü olduğundan emin olun. Gerekli gereksinimleri şu adreste bulabilirsiniz:[Aspose belgeleri](https://reference.aspose.com/pdf/net/).
+4. .NET Framework: Makinenizde .NET Framework'ün yüklü olduğundan emin olun. Gerekli gereksinimleri şurada bulabilirsiniz: [Aspose belgeleri](https://reference.aspose.com/pdf/net/).
 
 Artık ön koşulları tamamladığımıza göre, eğlenceli kısma geçelim: Üzerinde çalışacağımız paketleri içe aktarmak.
 
@@ -53,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Belge sınıf nesnesini örnekle
 Document doc1 = new Document();
 ```
- Burada, PDF'nizi kaydetmek istediğiniz dizini tanımlayarak başlıyorsunuz.`Document` Daha sonra Aspose.PDF'den bir sınıf oluşturulur ve bu sınıf PDF dosyanızın ana nesnesi olarak hizmet eder.
+Burada, PDF'nizi kaydetmek istediğiniz dizini tanımlayarak başlıyorsunuz. `Document` Daha sonra Aspose.PDF'den bir sınıf oluşturulur ve bu sınıf PDF dosyanızın ana nesnesi olarak hizmet eder.
 
 ## Adım 2: Belgenize Bir Sayfa Ekleyin
 
@@ -62,10 +64,10 @@ Her PDF'in içerik görüntülemek için en az bir sayfaya ihtiyacı vardır. Bi
 ```csharp
 // PDF dosyasının sayfa sayfa koleksiyonunu ekle
 Aspose.Pdf.Page page1 = doc1.Pages.Add();
-//PDF sayfasının boyutunu ayarla
+// PDF sayfasının boyutunu ayarla
 page1.SetPageSize(375, 300);
 ```
- Bu adımda şunu kullanırız:`Add()` belgemiz içinde yeni bir sayfa oluşturma yöntemi. Ayrıca sayfa boyutunu 375px x 300px olarak ayarladık, bu da bize çalışabileceğimiz bir tuval sağladı.
+Bu adımda şunu kullanırız: `Add()` belgemiz içinde yeni bir sayfa oluşturma yöntemi. Ayrıca sayfa boyutunu 375px x 300px olarak ayarladık, bu da bize çalışabileceğimiz bir tuval sağladı.
 
 ## Adım 3: Sayfa Kenar Boşluklarını Ayarlayın 
 
@@ -107,7 +109,7 @@ Artık yukarıda tanımladığımız yöntemi kullanarak sayfamızda dikdörtgen
 AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
 // Renk olarak Mavi, Z-Sırası olarak 0 ve belirli boyutlara sahip yeni bir dikdörtgen oluşturun
 AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
-// Yeşil Renk, 0 Z Sırası ve belirli boyutlara sahip yeni bir dikdörtgen oluşturun
+// Rengi Yeşil, Z-Sırası 0 ve belirli boyutları olan yeni bir dikdörtgen oluşturun
 AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
 ```
 Burada, farklı renklere ve Z-düzeni değerlerine sahip üç dikdörtgen ekliyoruz. En yüksek Z-düzeni değerine sahip dikdörtgen, PDF'de görüntülendiğinde en üstte görünecektir.
@@ -121,7 +123,7 @@ dataDir = dataDir + "ControlRectangleZOrder_out.pdf";
 // Sonuç PDF dosyasını kaydedin
 doc1.Save(dataDir);
 ```
- Sadece dosya adını belirtin ve`Save()` PDF belgenizi oluşturma yöntemi.
+Sadece dosya adını belirtin ve `Save()` PDF belgenizi oluşturma yöntemi.
 
 ## Çözüm 
 
@@ -135,19 +137,21 @@ Unutmayın, pratik yapmak anahtardır! Farklı şekiller, boyutlar ve renklerle 
 Z-düzeni görsel öğelerin yığın düzenini ifade eder. Daha yüksek Z-düzeni olan öğeler, daha düşük Z-düzeni olanların üstünde görünür.
 
 ### Aspose.PDF for .NET'i nereden indirebilirim?
- Bunu şuradan indirebilirsiniz:[indirme sayfası](https://releases.aspose.com/pdf/net/).
+Bunu şuradan indirebilirsiniz: [indirme sayfası](https://releases.aspose.com/pdf/net/).
 
 ### Aspose için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Ziyaret edebilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/pdf/10) yardım için.
+Ziyaret edebilirsiniz [Aspose destek forumu](https://forum.aspose.com/c/pdf/10) yardım için.
 
 ### Aspose.PDF için geçici lisans alabilir miyim?
- Kesinlikle! Geçici lisans için başvurabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Kesinlikle! Geçici lisans için başvurabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına Tarih Saat Damgası Ekle
-linktitle: PDF Dosyasına Tarih Saat Damgası Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarınıza tarih ve saat damgası eklemeyi öğrenin. Belgenin gerçekliğini artırmak için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-stamps-and-watermarks/add-date-time-stamp/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarınıza tarih ve saat damgası eklemeyi öğrenin. Belgenin gerçekliğini artırmak için mükemmeldir."
+"linktitle": "PDF Dosyasına Tarih Saat Damgası Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Tarih Saat Damgası Ekle"
+"url": "/tr/net/programming-with-stamps-and-watermarks/add-date-time-stamp/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Tarih Saat Damgası Ekle
@@ -24,9 +26,9 @@ Bu makale anlaşılır ve takip etmesi kolay olacak şekilde tasarlanmıştır, 
 Başlamadan önce, yerine getirmeniz gereken birkaç ön koşul var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Kodunuzu burada yazacak ve çalıştıracaksınız.
-2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekir. En son sürümü bulabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekir. En son sürümü bulabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak örnekleri daha iyi anlamanıza yardımcı olacaktır, ancak yeni başlıyorsanız endişelenmeyin; her şeyi adım adım açıklayacağız.
-4.  Bir PDF Dosyası: Hazır bir örnek PDF dosyanız olsun. Örneğimiz için, adlı bir dosya kullanacağız`AddTextStamp.pdf`.
+4. Bir PDF Dosyası: Hazır bir örnek PDF dosyanız olsun. Örneğimiz için, adlı bir dosya kullanacağız `AddTextStamp.pdf`.
 
 Bu ön koşullara sahip olduğunuzda, PDF dosyalarınıza tarih ve saat damgaları eklemeye başlayabilirsiniz!
 
@@ -39,7 +41,7 @@ Başlamak için, C# projenize gerekli ad alanlarını içe aktarmanız gerekir. 
 1. Visual Studio'yu açın: Visual Studio uygulamanızı başlatın.
 2. Yeni Proje Oluşturma: Başlangıç ekranından “Yeni proje oluştur” seçeneğini seçin.
 3. Konsol Uygulamasını Seçin: Proje şablonları listesinden “Konsol Uygulaması (.NET Framework)” seçeneğini belirleyin.
-4.  Projenize İsim Verin: Projenize bir isim verin, örneğin:`PDFDateTimeStamp`.
+4. Projenize İsim Verin: Projenize bir isim verin, örneğin: `PDFDateTimeStamp`.
 
 ### Aspose.PDF Referansını Ekle
 
@@ -49,7 +51,7 @@ Başlamak için, C# projenize gerekli ad alanlarını içe aktarmanız gerekir. 
 
 ### Gerekli Ad Alanlarını İçe Aktar
 
- En üstte`Program.cs` dosyanız varsa, aşağıdaki ad alanlarını içe aktarmanız gerekir:
+En üstte `Program.cs` dosyanız varsa, aşağıdaki ad alanlarını içe aktarmanız gerekir:
 
 ```csharp
 using System.IO;
@@ -70,7 +72,7 @@ Artık her şeyi ayarladığımıza göre, bir PDF dosyasına tarih ve saat damg
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Gerçek yolunuzla değiştirin
 ```
 
- Değiştirdiğinizden emin olun`YOUR DOCUMENT DIRECTORY` PDF dosyanızın gerçek yolunu belirtin.
+Değiştirdiğinizden emin olun `YOUR DOCUMENT DIRECTORY` PDF dosyanızın gerçek yolunu belirtin.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -81,7 +83,7 @@ Daha sonra zaman damgasını eklemek istediğiniz PDF belgesini açacaksınız.
 Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 ```
 
- Bu kod satırı şunu başlatır:`Document` sınıfa yükleyin ve PDF dosyanızı yükleyin`pdfDocument` nesne.
+Bu kod satırı şunu başlatır: `Document` sınıfa yükleyin ve PDF dosyanızı yükleyin `pdfDocument` nesne.
 
 ## Adım 3: Tarih Saat Damgasını Oluşturun
 
@@ -91,18 +93,18 @@ Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 string annotationText = DateTime.Now.ToString("MM/dd/yy hh:mm:ss tt ");
 ```
 
- Burada,`DateTime.Now` geçerli tarih ve saati alır ve`ToString` istediğiniz formata dönüştürür.
+Burada, `DateTime.Now` geçerli tarih ve saati alır ve `ToString` istediğiniz formata dönüştürür.
 
 ## Adım 4: Bir Metin Damgası Oluşturun
 
-Tarih ve saat dizesi hazır olduğuna göre artık PDF'nize eklenecek bir metin damgası oluşturabilirsiniz.
+Tarih ve saat dizesi hazır olduğuna göre artık PDF'inize eklenecek bir metin damgası oluşturabilirsiniz.
 
 ```csharp
 // Metin damgası oluştur
 TextStamp textStamp = new TextStamp(annotationText);
 ```
 
- Bu satır yeni bir örnek oluşturur`TextStamp` biçimlendirilmiş tarih ve saat dizesini kullanarak.
+Bu satır yeni bir örnek oluşturur `TextStamp` biçimlendirilmiş tarih ve saat dizesini kullanarak.
 
 ## Adım 5: Damganın Özelliklerini Ayarlayın
 
@@ -131,7 +133,7 @@ Bu satır, damgayı PDF'in ilk sayfasına ekler. Farklı bir sayfaya yerleştirm
 
 ## Adım 7: Ücretsiz Metin Açıklaması Oluşturun (İsteğe bağlı)
 
-Damgaya bir açıklama eklemek istiyorsanız, bir`FreeTextAnnotation` aşağıdaki gibi:
+Damgaya bir açıklama eklemek istiyorsanız, bir `FreeTextAnnotation` aşağıdaki gibi:
 
 ```csharp
 DefaultAppearance default_appearance = new DefaultAppearance("Arial", 6, System.Drawing.Color.Black);
@@ -177,22 +179,24 @@ Tebrikler! Aspose.PDF for .NET kullanarak bir PDF dosyasına başarıyla tarih v
 ## SSS
 
 ### Zaman damgasındaki tarih biçimini özelleştirebilir miyim?
- Evet, değiştirebilirsiniz`ToString`Tarih formatını kendi isteğinize göre değiştirme yöntemi.
+Evet, değiştirebilirsiniz `ToString` Tarih formatını kendi isteğinize göre değiştirme yöntemi.
 
 ### Aspose.PDF'i kullanmak ücretsiz mi?
- Aspose.PDF ücretsiz deneme sunuyor ancak tüm özellikler için bir lisans satın almanız gerekiyor. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF ücretsiz deneme sunuyor ancak tüm özellikler için bir lisans satın almanız gerekiyor. Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Bir PDF'e birden fazla zaman damgası ekleyebilir miyim?
- Kesinlikle! Birden fazla oluşturabilirsiniz`TextStamp` Örnekleri oluşturun ve bunları PDF'deki farklı sayfalara veya konumlara ekleyin.
+Kesinlikle! Birden fazla oluşturabilirsiniz `TextStamp` Örnekleri oluşturun ve bunları PDF'deki farklı sayfalara veya konumlara ekleyin.
 
 ### Ya Visual Studio'm yoksa?
 Herhangi bir C# IDE'sini veya metin düzenleyicisini kullanabilirsiniz, ancak projenizi çalıştırmak ve hata ayıklamak için Visual Studio önerilir.
 
 ### Aspose.PDF kullanımına dair daha fazla örneği nerede bulabilirim?
- Daha fazla örnek ve öğreticiyi şu adreste inceleyebilirsiniz:[Aspose.PDF belgeleri](https://reference.aspose.com/pdf/net/).
+Daha fazla örnek ve öğreticiyi şu adreste inceleyebilirsiniz: [Aspose.PDF belgeleri](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

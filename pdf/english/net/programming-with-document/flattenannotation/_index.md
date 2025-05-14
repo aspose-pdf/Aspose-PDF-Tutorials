@@ -8,7 +8,9 @@ url: /net/programming-with-document/flattenannotation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Flatten Annotation In PDF File
@@ -127,6 +129,7 @@ No, once annotations are flattened, they become part of the static content and c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

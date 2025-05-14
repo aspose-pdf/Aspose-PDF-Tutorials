@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Latex Komut Dosyasını Kullan
-linktitle: PDF Dosyasında Latex Komut Dosyasını Kullan
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak bir PDF belgesine matematiksel ifadeler veya formüller eklemek için Latex betiğinin nasıl kullanılacağını öğrenin.
-weight: 550
-url: /tr/net/programming-with-text/use-latex-script/
+"description": "Aspose.PDF for .NET kullanarak bir PDF belgesine matematiksel ifadeler veya formüller eklemek için Latex betiğinin nasıl kullanılacağını öğrenin."
+"linktitle": "PDF Dosyasında Latex Komut Dosyasını Kullan"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Latex Komut Dosyasını Kullan"
+"url": "/tr/net/programming-with-text/use-latex-script/"
+"weight": 550
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Latex Komut Dosyasını Kullan
@@ -21,10 +23,10 @@ PDF dosyalarıyla çalışmak hiç bu kadar heyecan verici olmamıştı, özelli
 
 Gerçek kodlama kısmına dalmadan önce, her şeyin yerli yerinde olduğundan emin olalım. Hiç kimse bir projenin ortasındayken temel bir aracın eksik olduğunu fark etmek istemez. Bu yüzden, ihtiyacınız olan şey şu:
 
-1.  .NET için Aspose.PDF yüklü – Şunları yapabilirsiniz[buradan indirin](https://releases.aspose.com/pdf/net/). 
+1. .NET için Aspose.PDF yüklü – Şunları yapabilirsiniz [buradan indirin](https://releases.aspose.com/pdf/net/). 
 2. C# hakkında temel bilgi.
 3. Visual Studio veya herhangi bir uyumlu IDE.
-4.  Etkin bir Aspose lisansı (yok mu? Bir tane alabilirsiniz)[ücretsiz deneme burada](https://releases.aspose.com/) veya bir[burada geçici lisans](https://purchase.aspose.com/temporary-license/)).
+4. Etkin bir Aspose lisansı (yok mu? Bir tane alabilirsiniz) [ücretsiz deneme burada](https://releases.aspose.com/) veya bir [burada geçici lisans](https://purchase.aspose.com/temporary-license/)).
 5. .NET Framework (Aspose.PDF for .NET ile uyumlu sürüm).
 
 Bu ön koşulları yerine getirdikten sonra eğlenceli kısımlara geçmeye hazırız.
@@ -46,31 +48,31 @@ Artık içe aktarma işlemlerini ayarladığımıza göre, güzel konuya geçeli
 
 Her proje sağlam bir temelle başlar. Bu proje için, bu temel belge dizininizi kurmaktır. Oluşturduğunuz PDF'lerin yaşayacağı yer burasıdır. Bu adım, dosyaların nereye gideceğini tahmin etmememizi sağlar.
 
-PDF dosyalarınızı depolayacağınız dizine giden yolu tanımlayın. Bu, kodunuzda bir yol dizesi atamak kadar basittir.
+PDF dosyalarınızı depolayacağınız dizine giden yolu tanımlayın. Kodunuzda bir yol dizesi atamak kadar basittir.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` PDF'nizin kaydedilmesini istediğiniz gerçek yol ile.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF'nizin kaydedilmesini istediğiniz gerçek yol ile.
 
 ## Adım 2: Yeni Bir Belge Nesnesi Oluşturun
 
 Tamam, şimdi dizinimizi kurduğumuza göre, yeni bir belge oluşturarak eylemin özüne inelim. Bunu, bir şaheser çizmeden önce yeni bir tuvalle başlamak gibi düşünün.
 
- Kullanın`Document` Aspose.PDF'den yeni bir PDF belgesi oluşturmak için sınıf.
+Kullanın `Document` Aspose.PDF'den yeni bir PDF belgesi oluşturmak için sınıf.
 
 ```csharp
 Document doc = new Document();
 ```
 
-Böylece elimizde artık elemanlar, sayfalar ve tabii ki LaTeX betikleri eklemeye başlayabileceğimiz boş bir PDF var!
+Böylece elimizde artık elemanlar, sayfalar ve tabii ki LaTeX scriptleri eklemeye başlayabileceğimiz boş bir PDF var!
 
 ## Adım 3: Belgeye Bir Sayfa Ekleyin
 
 Sayfaları olmayan bir PDF ne işe yarar? Kağıdı olmayan bir deftere yazmak gibi! Burada, işleri yoluna koymak için belgeye bir sayfa ekleyeceğiz.
 
- Kullanın`Pages.Add()` Belgeye yeni boş bir sayfa ekleme yöntemi.
+Kullanın `Pages.Add()` Belgeye yeni boş bir sayfa ekleme yöntemi.
 
 ```csharp
 Page page = doc.Pages.Add();
@@ -82,7 +84,7 @@ Artık PDF dokümanımız içerik eklemeye hazır!
 
 Tablolar, içeriği düzgün bir şekilde organize etmek söz konusu olduğunda mükemmeldir ve bu örnekte, LaTeX betiğimizi yerleştirmek için bir tablo kullanacağız. Bunu, şeylerin rahatça oturacağı bir ızgara veya yapı oluşturmak olarak düşünün.
 
- Kullanarak bir tablo oluşturun`Table` sınıfını seçin ve ardından bunu belgeye ekleyin.
+Kullanarak bir tablo oluşturun `Table` sınıfını seçin ve ardından bunu belgeye ekleyin.
 
 ```csharp
 Table table = new Table();
@@ -127,13 +129,13 @@ TeXFragment ltext1 = new TeXFragment(latexText1, true);
 cell.Paragraphs.Add(ltext1);
 ```
 
- The`TeXFragment` burada gösterinin yıldızıdır. LaTeX betiğini alır ve onu PDF içinde görsel olarak tanınabilir bir şeye dönüştürür.
+The `TeXFragment` burada gösterinin yıldızıdır. LaTeX betiğini alır ve onu PDF içinde görsel olarak tanınabilir bir şeye dönüştürür.
 
 ## Adım 8: Tabloyu Sayfaya Ekleyin
 
 Artık tablomuz hazır ve içinde bir LaTeX betiği var, şimdi tabloyu daha önce oluşturduğumuz sayfaya ekleme zamanı.
 
- Kullanın`Paragraphs.Add()` tabloyu sayfaya ekleme yöntemi.
+Kullanın `Paragraphs.Add()` tabloyu sayfaya ekleme yöntemi.
 
 ```csharp
 page.Paragraphs.Add(table);
@@ -143,9 +145,9 @@ Bu, LaTeX betiğini tutan tablomuzu belgedeki sayfaya yerleştirir. Neredeyse ba
 
 ## Adım 9: Belgeyi Kaydedin
 
-Tüm bunları yapmanın anlamı, çalışmanızı kaydetmezseniz nedir? Bu son adımda, PDF'yi içine gömülü LaTeX betiğiyle kaydedeceğiz.
+Çalışmanızı kaydetmezseniz tüm bunları yapmanın anlamı nedir? Bu son adımda, PDF'yi içine gömülü LaTeX betiğiyle kaydedeceğiz.
 
- Kullanın`Save()` Adım 1'de belirttiğiniz yola belgeyi kaydetme yöntemi.
+Kullanın `Save()` Adım 1'de belirttiğiniz yola belgeyi kaydetme yöntemi.
 
 ```csharp
 doc.Save(dataDir + "LatexScriptInPdf_out.pdf");
@@ -169,13 +171,15 @@ Kesinlikle! Yukarıdaki adımları farklı hücreler veya tablolar için tekrarl
 Aspose.PDF for .NET, basit denklemlerden daha karmaşık integrallere ve toplamlara kadar geniş bir yelpazedeki LaTeX ifadelerini işleyebilir.
 
 ### Aspose.PDF for .NET'i kullanmak için lisansa ihtiyacım var mı?
- Evet, tam olarak kullanmak için aktif bir lisansa ihtiyacınız olacak. Ancak, ücretsiz olarak deneyebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Evet, tam olarak kullanmak için aktif bir lisansa ihtiyacınız olacak. Ancak, ücretsiz olarak deneyebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### LaTeX betikleri PDF'e eklendikten sonra bunları düzenleyebilir miyim?
-Bir LaTeX betiği PDF'e eklenip kaydedildiğinde, değişiklik yapmak için kaynak kodunu değiştirmeniz ve belgeyi yeniden oluşturmanız gerekecektir.
+Bir LaTeX betiği eklenip PDF'e kaydedildikten sonra, değişiklik yapmak için kaynak kodunu değiştirmeniz ve belgeyi yeniden oluşturmanız gerekecektir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

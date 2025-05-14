@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Gambar ke File PDF yang Ada di Java
-linktitle: Menambahkan Gambar ke File PDF yang Ada di Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan gambar ke berkas PDF yang sudah ada di Java dengan mudah menggunakan Aspose.PDF untuk Java. Sempurnakan dokumen PDF Anda dengan panduan langkah demi langkah dan contoh kode.
-weight: 11
-url: /id/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/
+"description": "Pelajari cara menambahkan gambar ke berkas PDF yang sudah ada di Java dengan mudah menggunakan Aspose.PDF untuk Java. Sempurnakan dokumen PDF Anda dengan panduan langkah demi langkah dan contoh kode."
+"linktitle": "Menambahkan Gambar ke File PDF yang Ada di Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Gambar ke File PDF yang Ada di Java"
+"url": "/id/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Gambar ke File PDF yang Ada di Java
@@ -24,7 +26,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Pengetahuan praktis tentang pemrograman Java
 - Java Development Kit (JDK) terinstal di sistem Anda
--  Aspose.PDF untuk pustaka Java, yang dapat Anda unduh dari[Di Sini](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF untuk pustaka Java, yang dapat Anda unduh dari [Di Sini](https://releases.aspose.com/pdf/java/)
 
 ## Langkah 1: Menyiapkan Lingkungan Pengembangan Anda
 
@@ -84,7 +86,7 @@ pdfDocument.save("output.pdf");
 
 ## Langkah 5: Menyesuaikan Penempatan Gambar
 
- Anda dapat menyesuaikan penempatan dan ukuran gambar yang ditambahkan menggunakan properti seperti`setHorizontalAlignment`, `setVerticalAlignment` , Dan`setRectangle`Sesuaikan properti ini sesuai kebutuhan untuk mencapai penempatan dan ukuran yang diinginkan.
+Anda dapat menyesuaikan penempatan dan ukuran gambar yang ditambahkan menggunakan properti seperti `setHorizontalAlignment`Bahasa Indonesia: `setVerticalAlignment`, Dan `setRectangle`Sesuaikan properti ini sesuai kebutuhan untuk mencapai penempatan dan ukuran yang diinginkan.
 
 ```java
 // Sesuaikan penempatan gambar
@@ -95,7 +97,7 @@ image.setRectangle(new Rectangle(100, 100, 200, 200)); // Tetapkan dimensi khusu
 
 ## Langkah 6: Menyimpan PDF yang Dimodifikasi
 
- Terakhir, simpan PDF yang dimodifikasi dengan gambar yang ditambahkan menggunakan`save` metode.
+Terakhir, simpan PDF yang dimodifikasi dengan gambar yang ditambahkan menggunakan `save` metode.
 
 ```java
 pdfDocument.save("output.pdf");
@@ -123,14 +125,16 @@ Ya, Aspose.PDF untuk Java mendukung berbagai format gambar seperti JPEG, PNG, BM
 
 ### Bagaimana cara mengontrol transparansi gambar yang ditambahkan?
 
- Anda dapat mengatur opasitas gambar menggunakan`setOpacity` metode untuk mengendalikan transparansi.
+Anda dapat mengatur opasitas gambar menggunakan `setOpacity` metode untuk mengendalikan transparansi.
 
 ### Bisakah saya memutar gambar yang ditambahkan?
 
- Ya, Anda bisa menggunakan`setRotate` metode untuk memutar gambar sesuai kebutuhan.
+Ya, Anda bisa menggunakan `setRotate` metode untuk memutar gambar sesuai kebutuhan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Implementing PDF Layer Rendering with Aspose.PDF Java
 ## Advanced Features
@@ -159,7 +161,11 @@ By following this guide, you've learned how to open and manipulate PDF files usi
 - Support: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
 Start exploring the capabilities of Aspose.PDF Java today and enhance your document processing workflows!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

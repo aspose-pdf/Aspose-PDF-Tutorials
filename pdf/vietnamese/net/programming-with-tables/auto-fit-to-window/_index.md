@@ -1,14 +1,16 @@
 ---
-title: Tự động phù hợp với cửa sổ
-linktitle: Tự động phù hợp với cửa sổ
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tự động điều chỉnh bảng vào cửa sổ bằng Aspose.PDF cho .NET trong hướng dẫn từng bước chi tiết này. Hoàn hảo để tạo các bảng được trau chuốt và vừa vặn trong PDF.
-weight: 50
-url: /vi/net/programming-with-tables/auto-fit-to-window/
+"description": "Tìm hiểu cách tự động điều chỉnh bảng vào cửa sổ bằng Aspose.PDF cho .NET trong hướng dẫn từng bước chi tiết này. Hoàn hảo để tạo các bảng được trau chuốt và vừa vặn trong PDF."
+"linktitle": "Tự động phù hợp với cửa sổ"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tự động phù hợp với cửa sổ"
+"url": "/vi/net/programming-with-tables/auto-fit-to-window/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tự động phù hợp với cửa sổ
@@ -21,11 +23,11 @@ Khi làm việc với PDF, việc xử lý bảng là điều thường gặp v�
 
 Trước khi đi vào hướng dẫn từng bước, bạn cần chuẩn bị một số thứ sau:
 
-1. Aspose.PDF cho .NET được cài đặt trong dự án của bạn. Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/) hoặc khám phá của họ[phiên bản dùng thử miễn phí](https://releases.aspose.com/).
+1. Aspose.PDF cho .NET được cài đặt trong dự án của bạn. Nếu bạn chưa có, bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/) hoặc khám phá của họ [phiên bản dùng thử miễn phí](https://releases.aspose.com/).
 2. Hiểu biết cơ bản về lập trình .NET.
 3. Visual Studio hoặc bất kỳ IDE nào hỗ trợ .NET được cài đặt trên hệ thống của bạn.
 
->  PS Đừng quên bạn sẽ cần giấy phép để sử dụng Aspose.PDF mà không có giới hạn. Bạn có thể mua một[đây](https://purchase.aspose.com/buy) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử tất cả các tính năng.
+> PS Đừng quên bạn sẽ cần giấy phép để sử dụng Aspose.PDF mà không có giới hạn. Bạn có thể mua một [đây](https://purchase.aspose.com/buy) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử tất cả các tính năng.
 
 ## Nhập gói
 
@@ -51,18 +53,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
   
- Ở đây, chúng tôi tạo một tài liệu mới bằng cách sử dụng`Document` lớp từ Aspose.PDF.`dataDir` là vị trí mà tệp PDF của bạn sẽ được lưu sau khi hoàn tất.
+Ở đây, chúng tôi tạo một tài liệu mới bằng cách sử dụng `Document` lớp từ Aspose.PDF. `dataDir` là vị trí mà tệp PDF của bạn sẽ được lưu sau khi hoàn tất.
 
 ## Bước 2: Thêm Trang vào Tài liệu
 
-Một tài liệu PDF cần nhiều trang, đúng không? Hãy thêm một trang.
+Một tài liệu PDF cần có trang, đúng không? Hãy thêm một trang.
 
 ```csharp
 // Tạo một phần (trang) trong đối tượng Pdf
 Page sec1 = doc.Pages.Add();
 ```
   
- Chúng tôi đã thêm một trang mới vào tài liệu bằng cách sử dụng`Pages.Add()` phương pháp. Bạn có thể nghĩ về điều này như việc thêm một trang tính mới vào tài liệu của mình để đặt bảng.
+Chúng tôi đã thêm một trang mới vào tài liệu bằng cách sử dụng `Pages.Add()` phương pháp. Bạn có thể nghĩ về điều này như việc thêm một trang tính mới vào tài liệu của mình để đặt bảng.
 
 ## Bước 3: Tạo và cấu hình bảng
 
@@ -75,7 +77,7 @@ Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 sec1.Paragraphs.Add(tab1);
 ```
   
- Chúng tôi đã khởi tạo một cái mới`Table` đối tượng và thêm nó vào bộ sưu tập đoạn văn của trang. Mỗi trang PDF có thể có các đoạn văn khác nhau và ở đây chúng tôi coi bảng như một đoạn văn.
+Chúng tôi đã khởi tạo một cái mới `Table` đối tượng và thêm nó vào bộ sưu tập đoạn văn của trang. Mỗi trang PDF có thể có các đoạn văn khác nhau và ở đây chúng tôi coi bảng như một đoạn văn.
 
 ## Bước 4: Xác định chiều rộng cột và tự động điều chỉnh cho vừa với cửa sổ
 
@@ -87,7 +89,7 @@ tab1.ColumnWidths = "50 50 50";
 tab1.ColumnAdjustment = ColumnAdjustment.AutoFitToWindow;
 ```
   
- Chúng tôi thiết lập chiều rộng cột cố định cho bảng nhưng cũng đã thêm`ColumnAdjustment.AutoFitToWindow`, đảm bảo rằng bảng sẽ điều chỉnh kích thước sao cho vừa với cửa sổ có sẵn.
+Chúng tôi thiết lập chiều rộng cột cố định cho bảng nhưng cũng đã thêm `ColumnAdjustment.AutoFitToWindow`, đảm bảo rằng bảng sẽ điều chỉnh kích thước sao cho vừa với cửa sổ có sẵn.
 
 ## Bước 5: Thiết lập đường viền và lề cho bảng và ô
 
@@ -111,14 +113,14 @@ margin.Bottom = 5f;
 tab1.DefaultCellPadding = margin;
 ```
   
- Đường viền được thêm vào cả bảng và ô bằng cách sử dụng`BorderInfo` lớp, nơi bạn xác định độ dày. Lề được thiết lập để cung cấp cho các ô một số khoảng đệm.
+Đường viền được thêm vào cả bảng và ô bằng cách sử dụng `BorderInfo` lớp, nơi bạn xác định độ dày. Lề được thiết lập để cung cấp cho các ô một số khoảng trống đệm.
 
 ## Bước 6: Thêm Hàng và Ô vào Bảng
 
 Một bảng không có nội dung? Không ổn chút nào! Hãy thêm một số hàng và ô.
 
 ```csharp
-//Tạo các hàng trong bảng và sau đó tạo các ô trong các hàng
+// Tạo các hàng trong bảng và sau đó tạo các ô trong các hàng
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("col1");
 row1.Cells.Add("col2");
@@ -142,7 +144,7 @@ dataDir = dataDir + "AutoFitToWindow_out.pdf";
 doc.Save(dataDir);
 ```
   
- Các`doc.Save()` phương pháp lưu PDF vào thư mục được chỉ định. Trong trường hợp này, tài liệu sẽ được lưu dưới dạng`AutoFitToWindow_out.pdf` trong thư mục bạn đã xác định.
+Các `doc.Save()` phương pháp lưu PDF vào thư mục được chỉ định. Trong trường hợp này, tài liệu sẽ được lưu dưới dạng `AutoFitToWindow_out.pdf` trong thư mục bạn đã xác định.
 
 ## Phần kết luận
 
@@ -151,10 +153,10 @@ Và bạn đã có nó! Bạn vừa tạo một bảng tự động vừa với 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thêm nhiều hàng một cách động không?  
- Có, bạn có thể tiếp tục thêm hàng bằng cách sử dụng`tab1.Rows.Add()` phương pháp, dựa trên nội dung một cách năng động.
+Có, bạn có thể tiếp tục thêm hàng bằng cách sử dụng `tab1.Rows.Add()` phương pháp, dựa trên nội dung một cách năng động.
 
 ### Tôi phải điều chỉnh bàn như thế nào nếu tôi không muốn nó tự động vừa khít?  
- Bạn có thể thiết lập thủ công`ColumnWidths` không sử dụng`ColumnAdjustment.AutoFitToWindow` để duy trì chiều rộng cố định của bảng.
+Bạn có thể thiết lập thủ công `ColumnWidths` không sử dụng `ColumnAdjustment.AutoFitToWindow` để duy trì chiều rộng cố định của bảng.
 
 ### Tôi có thể thêm hình ảnh hoặc nội dung khác vào ô không?  
 Có, Aspose.PDF cho phép bạn thêm hình ảnh, văn bản và thậm chí cả các bảng khác vào trong ô!
@@ -164,9 +166,11 @@ Bạn có thể tùy chỉnh thêm kiểu bảng và ô bằng cách sử dụng
 
 ### Có thể xuất bảng này sang các định dạng khác ngoài PDF không?  
 Chắc chắn rồi! Aspose.PDF hỗ trợ xuất sang nhiều định dạng khác nhau như HTML, DOCX, v.v.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

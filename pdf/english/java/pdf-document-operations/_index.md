@@ -8,7 +8,9 @@ url: /java/pdf-document-operations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Document Operations
@@ -41,9 +43,11 @@ Learn how to add image stamps to PDF files using Java with this comprehensive As
 Learn how to add PDF page stamps in Java using Aspose.PDF. This step-by-step guide shows you how to customize stamps for your PDF documents effortlessly.
 ### [Adding Text in Header or Footer of PDF File using Java](./adding-text-in-header-or-footer-of-pdf-file-using-java/)
 Learn how to enhance PDF documents by adding text to the header or footer using Java. Explore step-by-step instructions with Aspose.PDF for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

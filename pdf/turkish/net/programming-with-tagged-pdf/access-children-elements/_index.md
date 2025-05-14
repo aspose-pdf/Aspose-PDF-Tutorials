@@ -1,14 +1,16 @@
 ---
-title: Çocuk Öğelerine Erişim
-linktitle: Çocuk Öğelerine Erişim
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimde, Aspose.PDF for .NET ile etiketli PDF'lerdeki alt öğelere nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin.
-weight: 10
-url: /tr/net/programming-with-tagged-pdf/access-children-elements/
+"description": "Bu adım adım eğitimde, Aspose.PDF for .NET ile etiketli PDF'lerdeki alt öğelere nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin."
+"linktitle": "Çocuk Öğelerine Erişim"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Çocuk Öğelerine Erişim"
+"url": "/tr/net/programming-with-tagged-pdf/access-children-elements/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çocuk Öğelerine Erişim
@@ -22,7 +24,7 @@ PDF belgelerini programatik olarak düzenlemeye gelince, Aspose.PDF for .NET kap
 Koda geçmeden önce, başlamak için ihtiyacınız olacak birkaç şey var:
 
 1. .NET Framework: Makinenizde .NET Framework'ün bir sürümünün yüklü olduğundan emin olun. Aspose.PDF, .NET Core'u da destekler.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olması gerekir. En son sürümü şu adresten indirebilirsiniz:[Aspose İndirme Sayfası](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olması gerekir. En son sürümü şu adresten indirebilirsiniz: [Aspose İndirme Sayfası](https://releases.aspose.com/pdf/net/).
 3. Geliştirme Ortamı: C# kodlarınızı yazıp çalıştırabileceğiniz Visual Studio gibi bir IDE kurun.
 4. Örnek PDF Dosyası: Çalışmak için etiketli bir PDF belgesine ihtiyacınız olacak. Bu eğitim için, projenizin belge dizinine yerleştirmeniz gereken "StructureElementsTree.pdf" dosyasını kullanacağız.
 
@@ -52,7 +54,7 @@ PDF belgelerinizi depolayacağınız dizini tanımlayarak başlayalım. Bu adım
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Basitçe değiştirin`"YOUR DOCUMENT DIRECTORY"` makinenizdeki gerçek yol ile. 
+Basitçe değiştirin `"YOUR DOCUMENT DIRECTORY"` makinenizdeki gerçek yol ile. 
 
 ## Adım 2: PDF Belgesini açın
 
@@ -67,7 +69,7 @@ Sağladığınız yolun, düzenlemek istediğiniz PDF dosyasına işaret ettiği
 
 ## Adım 3: Etiketli İçeriği Alın
 
-Şimdi, yapı elemanlarıyla kolayca etkileşime girmenizi sağlayan belgeden etiketli içeriklere erişeceğiz.
+Şimdi, yapı elemanlarıyla kolayca etkileşime geçmenizi sağlayan belgedeki etiketli içeriklere erişeceğiz.
 
 ```csharp
 // TaggedPdf ile çalışmak için İçerik Alın
@@ -121,7 +123,7 @@ Artık kök elemanlara eriştiğimize göre, şimdi çocuklarına erişmek için
 elementList = taggedContent.RootElement.ChildElements[1].ChildElements;
 ```
 
- Değiştirerek`ChildElements[1]` Başka bir indekse geçerek, varsa farklı kök öğelerini inceleyebilirsiniz.
+Değiştirerek `ChildElements[1]` Başka bir indekse geçerek, varsa farklı kök öğelerini inceleyebilirsiniz.
 
 ## Adım 7: Alt Öğe Özelliklerini Değiştirin
 
@@ -171,14 +173,16 @@ Evet, bu eğitim yapı elemanlarına odaklansa da, diğer eleman türlerine de e
 ### Aspose.PDF'i kullanmak için satın almam gerekiyor mu?
 Başlangıçta ücretsiz deneyebilirsiniz ancak tüm özelliklerden ve destekten yararlanmak için satın alma yapmanız gerekebilir.
 
-### Aspose.PDF .NET Core ile uyumlu mudur?
+### Aspose.PDF .NET Core ile uyumlu mu?
 Evet, Aspose.PDF .NET Core'un yanı sıra .NET Framework'ün diğer sürümlerini de destekler.
 
 ### Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?
- Ek belgeleri şu adreste bulabilirsiniz:[Aspose Belgeleme Sayfası](https://reference.aspose.com/pdf/net/).
+Ek belgeleri şu adreste bulabilirsiniz: [Aspose Belgeleme Sayfası](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

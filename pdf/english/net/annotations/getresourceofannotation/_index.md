@@ -8,7 +8,9 @@ url: /net/annotations/getresourceofannotation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Resource Of Annotation
@@ -197,6 +199,7 @@ Absolutely! You can buy the product through the [purchase page](https://purchase
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Добавить подсказку в поле формы PDF с помощью Java
-linktitle: Добавить подсказку в поле формы PDF с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как добавлять подсказки к полям формы PDF с помощью Java. Пошаговое руководство с использованием Aspose.PDF для Java API.
-weight: 11
-url: /ru/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
+"description": "Узнайте, как добавлять подсказки к полям формы PDF с помощью Java. Пошаговое руководство с использованием Aspose.PDF для Java API."
+"linktitle": "Добавить подсказку в поле формы PDF с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Добавить подсказку в поле формы PDF с помощью Java"
+"url": "/ru/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить подсказку в поле формы PDF с помощью Java
@@ -28,7 +30,7 @@ url: /ru/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
 
 - Установлен комплект разработки Java (JDK)
 - Интегрированная среда разработки (IDE), например Eclipse или IntelliJ IDEA
--  Aspose.PDF для библиотеки Java (Вы можете загрузить ее с[здесь](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF для библиотеки Java (Вы можете загрузить ее с [здесь](https://releases.aspose.com/pdf/java/)
 
 ## Добавление зависимостей
 
@@ -48,13 +50,13 @@ Document pdfDocument = new Document();
 Далее давайте добавим поля формы в наш PDF-документ. Вы можете добавлять различные типы полей формы, такие как текстовые поля, флажки, радиокнопки и т. д. Для этого примера мы добавим текстовое поле.
 
 ```java
-//Код Java для добавления текстового поля
+// Java-код для добавления текстового поля
 TextField textField = new TextField(pdfDocument.getPages().get_Item(1), new Rectangle(100, 100, 200, 30));
 ```
 
 ## Добавление подсказок к полям формы
 
- Теперь наступает решающая часть — добавление подсказок к полям формы. Мы можем задать текст подсказки для поля с помощью`setTooltip` метод.
+Теперь наступает решающая часть — добавление подсказок к полям формы. Мы можем задать текст подсказки для поля, используя `setTooltip` метод.
 
 ```java
 // Код Java для добавления подсказки в текстовое поле
@@ -99,9 +101,11 @@ pdfDocument.save("sample.pdf");
 ### Можно ли добавлять всплывающие подсказки к элементам, не являющимся формами, в PDF-файле?
 
 Нет, подсказки обычно связаны с полями форм в документах PDF. Если вам нужно добавить подсказки к элементам, не являющимся формами, вам, возможно, придется изучить другие методы редактирования PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

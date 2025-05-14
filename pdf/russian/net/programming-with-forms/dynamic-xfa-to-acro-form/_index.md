@@ -1,14 +1,16 @@
 ---
-title: Динамическая XFA в форме Acro
-linktitle: Динамическая XFA в форме Acro
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как преобразовать динамические формы XFA в стандартные формы AcroForms с помощью Aspose.PDF для .NET в этом пошаговом руководстве.
-weight: 70
-url: /ru/net/programming-with-forms/dynamic-xfa-to-acro-form/
+"description": "Узнайте, как преобразовать динамические формы XFA в стандартные AcroForms с помощью Aspose.PDF для .NET в этом пошаговом руководстве."
+"linktitle": "Динамическая XFA в форме Acro"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Динамическая XFA в форме Acro"
+"url": "/ru/net/programming-with-forms/dynamic-xfa-to-acro-form/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Динамическая XFA в форме Acro
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-forms/dynamic-xfa-to-acro-form/
 Прежде чем перейти к коду, вам необходимо выполнить несколько действий:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Это будет наша среда разработки.
-2.  Aspose.PDF для .NET: Вам нужно будет скачать и установить библиотеку Aspose.PDF. Вы можете найти ее[здесь](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF для .NET: Вам нужно будет скачать и установить библиотеку Aspose.PDF. Вы можете найти ее [здесь](https://releases.aspose.com/pdf/net/).
 3. Базовые знания C#: фундаментальное понимание программирования на C# поможет вам легко освоить материал.
 
 ## Импортные пакеты
@@ -47,7 +49,7 @@ using Aspose.Pdf.Forms;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Обязательно замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения ваших PDF-файлов.
+Обязательно замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения ваших PDF-файлов.
 
 ## Шаг 2: Загрузите динамическую форму XFA
 
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "DynamicXFAToAcroForm.pdf");
 ```
 
- Здесь мы создаем новый`Document` объект и передаем путь к нашему динамическому файлу XFA PDF. Если файл расположен правильно, он будет загружен в наш`document` переменная.
+Здесь мы создаем новый `Document` объект и передаем путь к нашему динамическому файлу XFA PDF. Если файл расположен правильно, он будет загружен в наш `document` переменная.
 
 ## Шаг 3: Установите тип полей формы
 
@@ -69,7 +71,7 @@ Document document = new Document(dataDir + "DynamicXFAToAcroForm.pdf");
 document.Form.Type = FormType.Standard;
 ```
 
- Установив тип формы на`Standard`, мы говорим Aspose.PDF, что форму следует обрабатывать как стандартную AcroForm, которая имеет более широкую поддержку и с которой проще работать.
+Установив тип формы на `Standard`, мы говорим Aspose.PDF, что форму следует обрабатывать как стандартную AcroForm, которая имеет более широкую поддержку и с которой проще работать.
 
 ## Шаг 4: Сохраните полученный PDF-файл.
 
@@ -81,7 +83,7 @@ dataDir = dataDir + "Standard_AcroForm_out.pdf";
 document.Save(dataDir);
 ```
 
- Здесь мы добавляем новое имя файла к нашему`dataDir` и сохраните документ. Это создаст новый PDF-файл, содержащий преобразованный AcroForm.
+Здесь мы добавляем новое имя файла к нашему `dataDir` и сохраните документ. Это создаст новый PDF-файл, содержащий преобразованный AcroForm.
 
 ## Шаг 5: Подтвердите конвертацию
 
@@ -109,13 +111,15 @@ Console.WriteLine("\nDynamic XFA form converted to standard AcroForm successfull
 Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для тестирования библиотеки перед покупкой.
 
 ### Где я могу найти дополнительную документацию?
- Вы можете найти подробную документацию[здесь](https://reference.aspose.com/pdf/net/).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/pdf/net/).
 
 ### Что делать, если у меня возникнут проблемы?
- Вы можете обратиться за поддержкой в сообщество Aspose.[здесь](https://forum.aspose.com/c/pdf/10).
+Вы можете обратиться за поддержкой в сообщество Aspose. [здесь](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

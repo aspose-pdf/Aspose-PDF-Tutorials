@@ -1,14 +1,16 @@
 ---
-title: Tentukan Pemisahan Tabel dalam File PDF
-linktitle: Tentukan Pemisahan Tabel dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Temukan cara menentukan jeda tabel dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami, termasuk contoh kode dan kiat pemecahan masalah.
-weight: 60
-url: /id/net/programming-with-tables/determine-table-break/
+"description": "Temukan cara menentukan jeda tabel dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami, termasuk contoh kode dan kiat pemecahan masalah."
+"linktitle": "Tentukan Pemisahan Tabel dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tentukan Pemisahan Tabel dalam File PDF"
+"url": "/id/net/programming-with-tables/determine-table-break/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tentukan Pemisahan Tabel dalam File PDF
@@ -19,10 +21,10 @@ Membuat dan memanipulasi file PDF bisa terasa seperti menjinakkan binatang buas.
 
 ## Prasyarat
 
-Sebelum kita masuk ke pengkodean sebenarnya, mari pastikan Anda telah menyiapkan semuanya:
+Sebelum kita masuk ke pengkodean yang sebenarnya, mari pastikan Anda telah menyiapkan semuanya:
 
 1. Lingkungan Pengembangan .NET: Pastikan Anda telah menginstal Visual Studio atau IDE yang kompatibel.
-2.  Pustaka Aspose.PDF: Anda perlu menambahkan pustaka Aspose.PDF ke proyek Anda. Anda dapat mengunduhnya dari[Unduhan PDF Aspose](https://releases.aspose.com/pdf/net/) halaman, atau Anda dapat menginstalnya melalui NuGet Package Manager:
+2. Pustaka Aspose.PDF: Anda perlu menambahkan pustaka Aspose.PDF ke proyek Anda. Anda dapat mengunduhnya dari [Unduhan PDF Aspose](https://releases.aspose.com/pdf/net/) halaman, atau Anda dapat menginstalnya melalui NuGet Package Manager:
    ```bash
    Install-Package Aspose.PDF
    ```
@@ -47,7 +49,7 @@ Mari kita uraikan proses ini menjadi beberapa langkah yang dapat dikelola. Kita 
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
-Sebelum Anda mulai membuat kode, tentukan lokasi penyimpanan hasil PDF Anda. Ini penting karena di sinilah Anda akan menemukan dokumen yang dihasilkan nanti.
+Sebelum Anda mulai membuat kode, tentukan lokasi penyimpanan PDF keluaran Anda. Ini penting karena di sinilah Anda akan menemukan dokumen yang dihasilkan nanti.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ganti dengan direktori Anda.
@@ -55,7 +57,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ganti dengan direktori Anda.
 
 ## Langkah 2: Buat Instansiasi Dokumen PDF
 
- Berikutnya, Anda akan membuat instance baru dari`Document` kelas dari pustaka Aspose.PDF. Di sinilah semua keajaiban PDF Anda akan terjadi!
+Berikutnya, Anda akan membuat instance baru dari `Document` kelas dari pustaka Aspose.PDF. Di sinilah semua keajaiban PDF Anda akan terjadi!
 
 ```csharp
 Document pdf = new Document();
@@ -91,14 +93,14 @@ page.Paragraphs.Add(table1);
 Mari tentukan beberapa properti penting untuk tabel kita, seperti lebar dan batas kolom.
 
 ```csharp
-table1.ColumnWidths = "100 100 100"; // Tiap kolom lebarnya 100 satuan.
+table1.ColumnWidths = "100 100 100"; // Tiap kolom lebarnya 100 unit.
 table1.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.1F);
 table1.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 1F);
 ```
 
 ## Langkah 7: Mengatur Margin Sel
 
-Kita perlu memastikan bahwa sel-sel kita memiliki bantalan untuk penyajian yang lebih baik. Berikut cara mengaturnya.
+Kita perlu memastikan bahwa sel-sel kita memiliki bantalan untuk presentasi yang lebih baik. Berikut cara mengaturnya.
 
 ```csharp
 Aspose.Pdf.MarginInfo margin = new Aspose.Pdf.MarginInfo(5f, 5f, 5f, 5f); // Atas, Kiri, Kanan, Bawah
@@ -188,19 +190,21 @@ Dalam panduan ini, kami telah mencermati cara menentukan kapan tabel dalam dokum
 Aspose.PDF untuk .NET adalah pustaka tangguh yang memungkinkan pengembang untuk membuat, mengonversi, dan memanipulasi dokumen PDF langsung di aplikasi .NET mereka.
 
 ### Bisakah saya mendapatkan uji coba Aspose.PDF gratis?
- Ya! Anda dapat mengunduh[uji coba gratis](https://releases.aspose.com/) untuk menjelajahi fitur-fiturnya sebelum melakukan pembelian.
+Ya! Anda dapat mengunduh [uji coba gratis](https://releases.aspose.com/) untuk menjelajahi fitur-fiturnya sebelum melakukan pembelian.
 
 ### Bagaimana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat menemukan informasi bermanfaat dan mendapatkan dukungan dari komunitas Aspose di[forum dukungan](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan informasi bermanfaat dan mendapatkan dukungan dari komunitas Aspose di [forum dukungan](https://forum.aspose.com/c/pdf/10).
 
 ### Apa yang terjadi jika saya membutuhkan lebih dari 17 baris dalam tabel saya?
 Jika Anda melampaui ruang yang tersedia, tabel Anda tidak akan muat di halaman, dan Anda harus mengambil tindakan yang tepat untuk memformatnya dengan benar.
 
 ### Di mana saya dapat membeli pustaka Aspose.PDF?
- Anda dapat membeli perpustakaan dari[halaman pembelian](https://purchase.aspose.com/buy).
+Anda dapat membeli perpustakaan dari [halaman pembelian](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java'da PDF'nin Ürün ve Yapı Bilgilerini Alın
-linktitle: Java'da PDF'nin Ürün ve Yapı Bilgilerini Alın
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java'da Aspose.PDF for Java kullanarak PDF dosyalarından ürün ve yapı bilgilerini nasıl çıkaracağınızı öğrenin. Verimli PDF veri çıkarma için kod örnekleriyle adım adım bir kılavuz.
-weight: 13
-url: /tr/java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-java/
+"description": "Java için Aspose.PDF kullanarak Java'da PDF dosyalarından ürün ve yapı bilgilerini nasıl çıkaracağınızı öğrenin. Verimli PDF veri çıkarma için kod örnekleriyle adım adım bir kılavuz."
+"linktitle": "Java'da PDF'nin Ürün ve Yapı Bilgilerini Alın"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java'da PDF'nin Ürün ve Yapı Bilgilerini Alın"
+"url": "/tr/java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java'da PDF'nin Ürün ve Yapı Bilgilerini Alın
@@ -16,7 +18,7 @@ url: /tr/java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-
 
 ## Java'da PDF'nin Ürün ve Yapı Bilgilerini Alma Girişi
 
-Aspose.PDF for Java, geliştiricilerin Java uygulamalarında PDF dosyalarıyla çalışmasına olanak tanıyan güçlü bir kütüphanedir. Bu makalede, Aspose.PDF for Java kullanarak PDF belgelerinden ürün ve yapı bilgilerinin nasıl çıkarılacağını inceleyeceğiz.
+Java için Aspose.PDF, geliştiricilerin Java uygulamalarında PDF dosyalarıyla çalışmasına olanak tanıyan güçlü bir kütüphanedir. Bu makalede, Java için Aspose.PDF kullanarak PDF belgelerinden ürün ve yapı bilgilerinin nasıl çıkarılacağını inceleyeceğiz.
 
 ## Ön koşullar
 
@@ -88,7 +90,7 @@ System.out.println("Document Summary:\n" + documentSummary);
 
 ## Çözüm
 
-Bu makalede, Java için Aspose.PDF kullanarak PDF dosyalarından ürün ve yapı bilgilerinin nasıl çıkarılacağını inceledik. Başlamak, ürün ve yapı ayrıntılarını çıkarmak ve bunları kullanışlı bir belge özetinde birleştirmek için temel adımları ele aldık. Java için Aspose.PDF, PDF belgeleriyle çalışan geliştiriciler için çeşitli görevler için gereken esnekliği ve işlevselliği sağlayan değerli bir araçtır.
+Bu makalede, Java için Aspose.PDF kullanarak Java'da PDF dosyalarından ürün ve yapı bilgilerinin nasıl çıkarılacağını inceledik. Başlamak, ürün ve yapı ayrıntılarını çıkarmak ve bunları kullanışlı bir belge özetinde birleştirmek için temel adımları ele aldık. Java için Aspose.PDF, PDF belgeleriyle çalışan geliştiriciler için çeşitli görevler için gereken esnekliği ve işlevselliği sağlayan değerli bir araçtır.
 
 ## SSS
 
@@ -97,7 +99,7 @@ Bu makalede, Java için Aspose.PDF kullanarak PDF dosyalarından ürün ve yapı
 Java için Aspose.PDF'yi kullanarak bir PDF dosyasından ürün bilgilerini çıkarmak için şu adımları izleyin:
 1. Aspose.PDF kütüphanesini içe aktarın.
 2. PDF belgesini yükleyin.
-3.  Kullanın`getProductName()`, `getProductVersion()` , Ve`getProductManufacturer()` Ürün ayrıntılarını çıkarma yöntemleri.
+3. Kullanın `getProductName()`, `getProductVersion()`, Ve `getProductManufacturer()` Ürün ayrıntılarını çıkarma yöntemleri.
 
 ### Yapı bilgisi nedir ve neden önemlidir?
 
@@ -114,9 +116,11 @@ Java için Aspose.PDF güçlü bir kütüphanedir, ancak herhangi bir yazılım 
 ### Aspose.PDF for Java hem küçük hem de büyük PDF dosyaları için uygun mudur?
 
 Evet, Aspose.PDF for Java hem küçük hem de büyük PDF dosyalarını işlemek için uygundur. Çeşitli boyutlardaki PDF belgeleriyle çalışmak için verimli yöntemler sunar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

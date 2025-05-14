@@ -1,14 +1,16 @@
 ---
-title: Các thành phần cấu trúc khối văn bản trong PDF sử dụng Java
-linktitle: Các thành phần cấu trúc khối văn bản trong PDF sử dụng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Nắm vững các thành phần cấu trúc khối văn bản PDF trong Java - Hướng dẫn từng bước sử dụng Aspose.PDF cho Java.
-weight: 13
-url: /vi/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-java/
+"description": "Nắm vững các thành phần cấu trúc khối văn bản PDF trong Java - Hướng dẫn từng bước sử dụng Aspose.PDF cho Java."
+"linktitle": "Các thành phần cấu trúc khối văn bản trong PDF sử dụng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Các thành phần cấu trúc khối văn bản trong PDF sử dụng Java"
+"url": "/vi/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các thành phần cấu trúc khối văn bản trong PDF sử dụng Java
@@ -35,7 +37,7 @@ Khối văn bản là thành phần cơ bản của tài liệu PDF, vì chúng 
 
 Trước khi làm việc với PDF trong Java, hãy đảm bảo bạn đã cài đặt các công cụ và thư viện cần thiết. Bạn có thể sử dụng Aspose.PDF cho Java, một thư viện mạnh mẽ để thao tác PDF. Sau đây là cách thiết lập:
 
-1.  Tải xuống Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+1. Tải xuống Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 2. Thêm thư viện vào dự án Java của bạn.
 
 ### Bước 2: Tải tài liệu PDF
@@ -91,10 +93,12 @@ Bạn có thể định dạng văn bản trong khối văn bản bằng Aspose.
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

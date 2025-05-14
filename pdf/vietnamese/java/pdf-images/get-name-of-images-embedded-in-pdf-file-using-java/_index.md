@@ -1,14 +1,16 @@
 ---
-title: Lấy tên hình ảnh nhúng trong tệp PDF bằng Java
-linktitle: Lấy tên hình ảnh nhúng trong tệp PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách trích xuất tên hình ảnh nhúng từ tệp PDF bằng Java và Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn để trích xuất dữ liệu PDF hiệu quả.
-weight: 14
-url: /vi/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/
+"description": "Tìm hiểu cách trích xuất tên hình ảnh nhúng từ tệp PDF bằng Java và Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn để trích xuất dữ liệu PDF hiệu quả."
+"linktitle": "Lấy tên hình ảnh nhúng trong tệp PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Lấy tên hình ảnh nhúng trong tệp PDF bằng Java"
+"url": "/vi/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy tên hình ảnh nhúng trong tệp PDF bằng Java
@@ -42,7 +44,7 @@ Aspose.PDF for Java là một thư viện mạnh mẽ để làm việc với c�
 
 ## Tải tệp PDF
 
- Trong bước này, chúng ta sẽ viết mã Java để tải tệp PDF vào ứng dụng của chúng ta. Bạn nên thay thế`"input.pdf"` với đường dẫn đến tệp PDF của bạn.
+Trong bước này, chúng ta sẽ viết mã Java để tải tệp PDF vào ứng dụng của chúng ta. Bạn nên thay thế `"input.pdf"` với đường dẫn đến tệp PDF của bạn.
 
 ```java
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("input.pdf");
@@ -104,9 +106,11 @@ Nếu bạn gặp bất kỳ vấn đề nào hoặc có thắc mắc về việ
 ### Aspose.PDF cho Java có miễn phí sử dụng không?
 
 Aspose.PDF for Java là một thư viện thương mại có bản dùng thử miễn phí. Bạn có thể khám phá các tính năng của nó trong thời gian dùng thử và cân nhắc mua giấy phép để tiếp tục sử dụng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

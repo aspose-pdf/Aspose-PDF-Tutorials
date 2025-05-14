@@ -1,50 +1,56 @@
 ---
-title: C# で PDF から画像を抽出する.NET のためにAspose.PDFを使用する.
-weight: 7700
-limit: 
-description: PDFから画像を抽出し,C#でJPEGファイルとして保存する方法. .NET用のAspose.PDFを使用して.コード例のステップバイステップガイド. 
-keywords: [Extract images from PDF C#, Aspose.PDF for .NET image extraction, Save PDF images as JPEG, C# PDF image processing, Extract images from PDF Aspose]
-url: /ja/net/images/extract-image/
+"description": "Aspose.PDF for .NET を使用して、C# で PDF から画像を抽出し、JPEG ファイルとして保存する方法を学びます。コード例を交えたステップバイステップのガイドです。"
+"title": "Aspose.PDF for .NET を使用して C# で PDF から画像を抽出する"
+"url": "/ja/net/images/extract-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDFを使用してC#でPDFから画像を抽出する
+# Aspose.PDF を使用して C# で PDF から画像を抽出する
  
-PDF文書から画像を抽出することは,アーカイブ,処理,共有など多くのアプリケーションで一般的な要件です.[Aspose.PDF は .NET に](https://docs.aspose.com/pdf/net/)簡単に PDF から画像を抽出して JPEG などの様々なフォーマットで保存できます. このチュートリアルでは,C# を使用して PDF から画像を抽出するための簡単なステップバイステップガイドを提供します. PDF を開く方法,画像を取得し,保存し,元の PDF 文書を更新する方法を学びます.この機能を.NET アプリケーションにシームレスに統合するために,例コードに従ってください.
+PDF文書から画像を抽出することは、アーカイブ、処理、共有など、多くのアプリケーションで共通の要件です。 [Aspose.PDF .NET 版](https://docs.aspose.com/pdf/net/)を使えば、PDFから画像を簡単に抽出し、JPEGなどの様々な形式で保存できます。このチュートリアルでは、C#を使ってPDFから画像を抽出する方法を、ステップバイステップで分かりやすく解説します。PDFを開き、画像を取得して保存し、元のPDF文書を更新する方法を学びます。サンプルコードに沿って操作すれば、この機能を.NETアプリケーションにシームレスに統合できます。
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/extract-image/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置説明書:  
+## インストール手順:  
 
-C# プロジェクトで .NET のためにAspose.PDFを使用するには,次の手順を実行します:  
+C# プロジェクトで Aspose.PDF for .NET を使用するには、次の手順に従います。  
 
-1. NuGet パッケージマネージャーでインストール:  
-* ビジュアル・スタジオを開け  
-* ツール > NuGet パッケージマネージャ > ソリューションのための NuGet パッケージを管理する  
-* Aspose.PDFを検索してインストールします.  
-* パッケージ管理コンソールで次のコマンドを実行します.  
+1. NuGet パッケージ マネージャー経由でインストールします。  
+- Visual Studio を開きます。  
+- [ツール] > [NuGet パッケージ マネージャー] > [ソリューションの NuGet パッケージの管理] に移動します。  
+- Aspose.PDF を検索してインストールします。  
+- または、パッケージ マネージャー コンソールで次のコマンドを実行します。  
 
   ```powershell
   Install-Package Aspose.PDF
   ```
 
-2. DLL でインストールする ダウンロード:  
-* 最新バージョンをダウンロード[Aspose.PDFをダウンロードする](https://releases.aspose.com/pdf/net/)わかった  
-* ダウンロードしたパッケージを抽出します.  
-* プロジェクトにAspose.PDF.dllの参照を追加します.  
+2. DLLダウンロードによるインストール:  
+- 最新バージョンをダウンロードするには [Aspose.PDF for .NET のダウンロード](https://releases。aspose.com/pdf/net/).  
+- ダウンロードしたパッケージを解凍します。  
+- .NET プロジェクトに Aspose.PDF.dll への参照を追加します。  
 
-3. ライセンス申請 (オプション)  
-* 買える[無料の一時免許](https://purchase.aspose.com/temporary-license/)機能が完全に機能する  
+3. ライセンスを適用する（オプション）:  
+- あなたは [無料の一時ライセンス](https://purchase.aspose.com/temporary-license/) 完全な機能を実現します。  
 
-## 詳細なAPI参照
-[Aspose.PDF は .NET API ドキュメンテーション](https://reference.aspose.com/pdf/net/)わかった
+## 詳細なAPIリファレンスについては
+[Aspose.PDF for .NET API ドキュメント](https://reference。aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

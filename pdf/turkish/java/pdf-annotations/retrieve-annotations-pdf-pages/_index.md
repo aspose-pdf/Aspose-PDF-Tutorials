@@ -1,14 +1,16 @@
 ---
-title: PDF Sayfalarından Açıklamaları Al
-linktitle: PDF Sayfalarından Açıklamaları Al
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF kullanarak PDF sayfalarından açıklamaların nasıl alınacağını öğrenin. Bu kapsamlı kılavuzda adım adım talimatları ve kod örneklerini keşfedin.
-weight: 13
-url: /tr/java/pdf-annotations/retrieve-annotations-pdf-pages/
+"description": "Java için Aspose.PDF kullanarak PDF sayfalarından açıklamaların nasıl alınacağını öğrenin. Bu kapsamlı kılavuzda adım adım talimatları ve kod örneklerini keşfedin."
+"linktitle": "PDF Sayfalarından Açıklamaları Al"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF Sayfalarından Açıklamaları Al"
+"url": "/tr/java/pdf-annotations/retrieve-annotations-pdf-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Sayfalarından Açıklamaları Al
@@ -16,7 +18,7 @@ url: /tr/java/pdf-annotations/retrieve-annotations-pdf-pages/
 
 ## giriiş
 
-Belge işleme dünyasında PDF'ler önemli bir rol oynar. Bilgi paylaşımı ve sunumu için çok yönlü bir formattır. Ancak PDF'ler genellikle değerli içgörüler barındıran açıklamalar içerir. Bu makale, PDF işleme için güçlü bir API olan Java için Aspose.PDF'yi kullanarak PDF sayfalarından açıklamaların nasıl alınacağını araştırır.
+Belge işleme dünyasında PDF'ler önemli bir rol oynar. Bilgi paylaşımı ve sunumu için çok yönlü bir formattır. Ancak PDF'ler genellikle değerli içgörüler barındıran açıklamalar içerir. Bu makale, PDF işleme için güçlü bir API olan Aspose.PDF for Java kullanılarak PDF sayfalarından açıklamaların nasıl alınacağını araştırır.
 
 ## Ön koşullar
 Ayrıntılara girmeden önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
@@ -49,7 +51,7 @@ Page page = pdfDocument.getPages().get_Item(1); // İstediğiniz sayfa numarası
 ```
 
 ### Adım 5: Açıklamaları Alın
-Sayfadan açıklamaları almak için bir döngü kullanabilir ve ilginizi çeken açıklamaları (örneğin metin açıklamaları) filtreleyebilirsiniz:
+Sayfadaki açıklamaları almak için bir döngü kullanabilir ve ilginizi çeken açıklamaları (örneğin metin açıklamaları) filtreleyebilirsiniz:
 ```java
 for (com.aspose.pdf.Annotation annotation : page.getAnnotations()) {
     if (annotation instanceof TextAnnotation) {
@@ -72,10 +74,10 @@ Bu eğitimde, Java için Aspose.PDF kullanarak PDF sayfalarından açıklamalar�
 
 ### Java için Aspose.PDF'yi nasıl kurabilirim?
 
- Java için Aspose.PDF'yi yüklemek için indirme bağlantısını ziyaret edin[Burada](https://releases.aspose.com/pdf/java/) ve web sitesinde verilen kurulum talimatlarını izleyin.
+Java için Aspose.PDF'yi yüklemek için indirme bağlantısını ziyaret edin [Burada](https://releases.aspose.com/pdf/java/) ve web sitesinde verilen kurulum talimatlarını izleyin.
 
 ### PDF belgesinde belirli sayfalardaki açıklamaları alabilir miyim?
-Evet, kodunuzda sayfa numarasını belirterek PDF belgesindeki belirli sayfalardan açıklamalar alabilirsiniz. PDF belgesini yükleyin ve istediğiniz sayfaya erişmek için`get_Item` Yöntem.
+Evet, kodunuzda sayfa numarasını belirterek PDF belgesindeki belirli sayfalardan açıklamalar alabilirsiniz. PDF belgesini yükleyin ve istediğiniz sayfaya erişmek için `get_Item` yöntem.
 
 ### Aspose.PDF for Java ile hangi tür açıklamaları alabilirim?
 
@@ -88,9 +90,11 @@ Evet, Aspose.PDF for Java hem kişisel hem de kurumsal kullanım için uygundur.
 ### Aspose.PDF for Java'yı kullanarak açıklama alma sürecini otomatikleştirebilir miyim?
 
 Evet, Java için Aspose.PDF kullanarak açıklama alma sürecini otomatikleştirebilirsiniz. PDF belgelerinden açıklamaları programatik olarak alan betikler veya uygulamalar oluşturabilir ve bu da onu belge işleme iş akışları için değerli bir araç haline getirir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,34 +1,36 @@
 ---
-title: Simboli sostituibili nell'intestazione e nel piè di pagina
-linktitle: Simboli sostituibili nell'intestazione e nel piè di pagina
-second_title: Riferimento API Aspose.PDF per .NET
-description: Scopri come utilizzare simboli sostituibili nell'intestazione e nel piè di pagina di un documento PDF utilizzando Aspose.PDF per .NET.
-weight: 320
-url: /it/net/programming-with-text/replaceable-symbols-in-header-footer/
+"description": "Scopri come utilizzare simboli sostituibili nell'intestazione e nel piè di pagina di un documento PDF utilizzando Aspose.PDF per .NET."
+"linktitle": "Simboli sostituibili nell'intestazione e nel piè di pagina"
+"second_title": "Riferimento API Aspose.PDF per .NET"
+"title": "Simboli sostituibili nell'intestazione e nel piè di pagina"
+"url": "/it/net/programming-with-text/replaceable-symbols-in-header-footer/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Simboli sostituibili nell'intestazione e nel piè di pagina
 
 ## Introduzione
 
-Quando si lavora con file PDF, a volte è necessario personalizzare intestazioni e piè di pagina con contenuti dinamici come numeri di pagina, nomi di report o date generate. Fortunatamente, Aspose.PDF per .NET semplifica questo processo, consentendo di creare PDF con simboli aggiornati automaticamente in intestazioni e piè di pagina, come numeri di pagina o dettagli di generazione di report. Questo articolo ti guiderà passo dopo passo nel processo di sostituzione dei simboli in intestazioni e piè di pagina utilizzando Aspose.PDF per .NET, in un modo non solo semplice ma anche incredibilmente efficiente.
+Quando si lavora con file PDF, a volte è necessario personalizzare intestazioni e piè di pagina con contenuti dinamici come numeri di pagina, nomi di report o date di generazione. Fortunatamente, Aspose.PDF per .NET semplifica questo processo, consentendo di creare PDF con simboli aggiornati automaticamente in intestazioni e piè di pagina, come numeri di pagina o dettagli di generazione dei report. Questo articolo vi guiderà passo dopo passo attraverso la sostituzione dei simboli in intestazioni e piè di pagina utilizzando Aspose.PDF per .NET, in un modo non solo semplice ma anche incredibilmente efficiente.
 
 ## Prerequisiti
 
 Prima di immergerti nella guida passo passo, assicurati di avere quanto segue:
 
--  Aspose.PDF per la libreria .NET –[Scaricamento](https://releases.aspose.com/pdf/net/) o ottenere un[prova gratuita](https://releases.aspose.com/).
+- Aspose.PDF per la libreria .NET – [Scaricamento](https://releases.aspose.com/pdf/net/) o ottenere un [prova gratuita](https://releases.aspose.com/).
 - Visual Studio o qualsiasi IDE C# installato sul sistema.
 - Conoscenza di base dello sviluppo C# e .NET.
--  Un valido[licenza](https://purchase.aspose.com/temporary-license/) per Aspose.PDF oppure puoi utilizzare la versione di prova.
+- Un valido [licenza](https://purchase.aspose.com/temporary-license/) per Aspose.PDF oppure puoi utilizzare la versione di prova.
 
 ## Importa pacchetti
 
-Per iniziare, devi importare i namespace necessari che abiliteranno la funzionalità di Aspose.PDF per .NET. Di seguito è riportata l'importazione necessaria:
+Per iniziare, è necessario importare gli spazi dei nomi necessari per abilitare la funzionalità di Aspose.PDF per .NET. Di seguito è riportato il processo di importazione necessario:
 
 ```csharp
 using System.IO;
@@ -43,7 +45,7 @@ Scomponiamo il codice di esempio in passaggi facili da comprendere.
 
 ## Passaggio 1: impostare il documento e la pagina
 
-Per prima cosa, dobbiamo inizializzare il documento e aggiungervi una pagina. Questo pone le basi per aggiungere intestazioni e piè di pagina.
+Per prima cosa, dobbiamo inizializzare il documento e aggiungervi una pagina. Questo getta le basi per l'aggiunta di intestazioni e piè di pagina.
 
 ```csharp
 // Imposta la directory dei documenti
@@ -56,7 +58,7 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Qui stiamo impostando un documento PDF utilizzando`Document` classe e aggiunta di una pagina con`doc.Pages.Add()`Questa pagina conterrà l'intestazione, il piè di pagina e altri contenuti.
+Qui stiamo impostando un documento PDF utilizzando `Document` classe e aggiunta di una pagina con `doc.Pages.Add()`Questa pagina conterrà l'intestazione, il piè di pagina e altri contenuti.
 
 ## Passaggio 2: configurare i margini della pagina
 
@@ -72,11 +74,11 @@ marginInfo.Right = 50;
 page.PageInfo.Margin = marginInfo;
 ```
 
- Qui abbiamo definito i margini superiore, inferiore, sinistro e destro utilizzando`MarginInfo` classe e l'ho applicata alla pagina usando`page.PageInfo.Margin`.
+Qui abbiamo definito i margini superiore, inferiore, sinistro e destro utilizzando il `MarginInfo` classe e l'ho applicata alla pagina usando `page.PageInfo.Margin`.
 
 ## Passaggio 3: creare e configurare l'intestazione
 
-Ora, creiamo un'intestazione e aggiungiamola alla pagina. L'intestazione includerà il titolo e il nome del report.
+Ora creiamo un'intestazione e aggiungiamola alla pagina. L'intestazione includerà il titolo e il nome del report.
 
 ```csharp
 // Crea intestazione
@@ -104,7 +106,7 @@ t2.TextState.HorizontalAlignment = Aspose.Pdf.HorizontalAlignment.Center;
 hfFirst.Paragraphs.Add(t2);
 ```
 
- Ne abbiamo aggiunti due`TextFragment` oggetti all'intestazione: uno per il titolo del report e un altro per il nome del report. Il testo è formattato utilizzando`TextState` proprietà come carattere, dimensione e allineamento.
+Ne abbiamo aggiunti due `TextFragment` oggetti all'intestazione: uno per il titolo del report e un altro per il nome del report. Il testo è formattato utilizzando `TextState` proprietà come carattere, dimensione e allineamento.
 
 ## Passaggio 4: creare e configurare il piè di pagina
 
@@ -125,14 +127,14 @@ TextFragment t4 = new TextFragment("Report Name");
 TextFragment t5 = new TextFragment("Page $p of $P");
 ```
 
-Nel piè di pagina includiamo frammenti per la data di generazione, il nome del report e i numeri di pagina dinamici (`$p` E`$P` rappresentano rispettivamente il numero di pagina corrente e il numero totale di pagine).
+Nel piè di pagina includiamo frammenti per la data di generazione, il nome del report e i numeri di pagina dinamici (`$p` E `$P` rappresentano rispettivamente il numero di pagina corrente e il numero totale di pagine).
 
 ## Passaggio 5: creare una tabella nel piè di pagina
 
-Puoi anche aggiungere elementi più complessi, come tabelle, nel piè di pagina per organizzare meglio i tuoi dati.
+Puoi anche aggiungere elementi più complessi, come tabelle nel piè di pagina, per organizzare meglio i tuoi dati.
 
 ```csharp
-// Crea tabella per il piè di pagina
+// Crea una tabella per il piè di pagina
 Table tab2 = new Table();
 hfFoot.Paragraphs.Add(tab2);
 tab2.ColumnWidths = "165 172 165";
@@ -158,14 +160,14 @@ Questo blocco di codice crea una tabella a 3 colonne nel piè di pagina, in cui 
 
 ## Passaggio 6: aggiungere contenuto alla pagina
 
-Oltre alle intestazioni e ai piè di pagina, puoi aggiungere contenuti al corpo della pagina PDF. Qui, aggiungiamo una tabella con del testo segnaposto.
+Oltre a intestazioni e piè di pagina, è possibile aggiungere contenuti al corpo della pagina PDF. Qui, aggiungiamo una tabella con del testo segnaposto.
 
 ```csharp
 Table table = new Table();
 table.ColumnWidths = "33% 33% 34%";
 page.Paragraphs.Add(table);
 
-// Aggiungere contenuto alla tabella
+// Aggiungi contenuto alla tabella
 for (int i = 0; i <= 10; i++)
 {
     Row row = table.Rows.Add();
@@ -177,9 +179,9 @@ for (int i = 0; i <= 10; i++)
 }
 ```
 
-Questo codice aggiunge una semplice tabella con tre colonne alla pagina. Puoi modificarla per adattarla alle tue esigenze specifiche.
+Questo codice aggiunge una semplice tabella con tre colonne alla pagina. Puoi modificarla in base alle tue esigenze specifiche.
 
-## Passaggio 7: Salva il PDF
+## Passaggio 7: salva il PDF
 
 Una volta impostato tutto, l'ultimo passaggio consiste nel salvare il documento PDF nella posizione desiderata.
 
@@ -189,11 +191,11 @@ doc.Save(dataDir);
 Console.WriteLine("Symbols replaced successfully in header and footer. File saved at " + dataDir);
 ```
 
- Si specifica il percorso del file e si salva il documento utilizzando`doc.Save()`Ecco fatto! Hai creato con successo un PDF con intestazioni e piè di pagina personalizzati.
+Si specifica il percorso del file e si salva il documento utilizzando `doc.Save()`Ecco fatto! Hai creato con successo un PDF con intestazioni e piè di pagina personalizzati.
 
 ## Conclusione
 
-Sostituire i simboli nelle intestazioni e nei piè di pagina usando Aspose.PDF per .NET non è solo semplice ma anche potente. Seguendo la guida passo passo sopra, puoi personalizzare facilmente i tuoi PDF con contenuti dinamici, come numeri di pagina, nomi di report e date. Questo metodo è altamente flessibile, consentendoti di inserire tabelle, modificare la formattazione e controllare il layout per adattarlo ai tuoi requisiti specifici.
+Sostituire i simboli in intestazioni e piè di pagina con Aspose.PDF per .NET non è solo semplice, ma anche potente. Seguendo la guida dettagliata qui sopra, puoi personalizzare facilmente i tuoi PDF con contenuti dinamici, come numeri di pagina, nomi di report e date. Questo metodo è altamente flessibile e consente di inserire tabelle, modificare la formattazione e controllare il layout in base alle proprie esigenze specifiche.
 
 ## Domande frequenti
 
@@ -201,19 +203,21 @@ Sostituire i simboli nelle intestazioni e nei piè di pagina usando Aspose.PDF p
 Sì, puoi personalizzare completamente i caratteri, le dimensioni, i colori e gli stili del testo nelle intestazioni e nei piè di pagina.
 
 ### Come faccio ad aggiungere immagini alle intestazioni e ai piè di pagina?  
- Puoi usare`ImageStamp` per inserire immagini nelle intestazioni e nei piè di pagina.
+Puoi usare `ImageStamp` per inserire immagini nelle intestazioni e nei piè di pagina.
 
 ### È possibile aggiungere collegamenti ipertestuali nelle intestazioni o nei piè di pagina?  
- Sì, puoi usare`TextFragment` con un collegamento ipertestuale impostando il`Hyperlink` proprietà.
+Sì, puoi usare `TextFragment` con un collegamento ipertestuale impostando `Hyperlink` proprietà.
 
 ### Posso usare intestazioni diverse per le pagine pari e dispari?  
 Sì, Aspose.PDF consente di specificare intestazioni e piè di pagina diversi per le pagine pari e dispari.
 
-### Come faccio a modificare le posizioni di intestazione e piè di pagina?  
+### Come posso modificare le posizioni di intestazione e piè di pagina?  
 È possibile regolare i margini e le proprietà di allineamento per controllare la posizione delle intestazioni e dei piè di pagina.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

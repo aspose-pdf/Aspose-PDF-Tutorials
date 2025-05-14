@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,6 +160,9 @@ In this guide, we've explored how to add page stamps using Aspose.PDF for .NET. 
 We hope this guide helps you integrate page stamping into your applications seamlessly. If you found it helpful, consider sharing it with others who might benefit!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,20 +1,22 @@
 ---
-title: ลบภาพออกจากแหล่งข้อมูล PDF โดยใช้ Java
-linktitle: ลบภาพออกจากแหล่งข้อมูล PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีลบรูปภาพออกจากเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดการ PDF อย่างมีประสิทธิภาพ
-weight: 21
-url: /th/java/pdf-images/delete-image-from-pdf-resources-using-java/
+"description": "เรียนรู้วิธีลบรูปภาพออกจากเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดการ PDF อย่างมีประสิทธิภาพ"
+"linktitle": "ลบภาพออกจากแหล่งข้อมูล PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ลบภาพออกจากแหล่งข้อมูล PDF โดยใช้ Java"
+"url": "/th/java/pdf-images/delete-image-from-pdf-resources-using-java/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบภาพออกจากแหล่งข้อมูล PDF โดยใช้ Java
 
 
-ในคู่มือทีละขั้นตอนนี้ เราจะแนะนำคุณเกี่ยวกับกระบวนการลบรูปภาพออกจากเอกสาร PDF โดยใช้ไลบรารี Aspose.PDF สำหรับ Java Aspose.PDF เป็น Java API ที่ทรงพลังซึ่งช่วยให้คุณสามารถจัดการไฟล์ PDF ได้ด้วยโปรแกรม ไม่ว่าคุณจะต้องเพิ่ม แก้ไข หรือลบเนื้อหาจาก PDF Aspose.PDF ก็มีเครื่องมือที่คุณต้องการ
+ในคู่มือทีละขั้นตอนนี้ เราจะแนะนำคุณเกี่ยวกับกระบวนการลบรูปภาพจากเอกสาร PDF โดยใช้ไลบรารี Aspose.PDF สำหรับ Java Aspose.PDF เป็น Java API ที่ทรงพลังซึ่งช่วยให้คุณสามารถจัดการไฟล์ PDF ได้ด้วยโปรแกรม ไม่ว่าคุณจะต้องเพิ่ม แก้ไข หรือลบเนื้อหาจาก PDF Aspose.PDF ก็มีเครื่องมือที่คุณต้องการ
 
 ## Aspose.PDF สำหรับ Java คืออะไร?
 
@@ -26,7 +28,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที
 
 - ติดตั้ง Java Development Kit (JDK) บนระบบของคุณ
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) สำหรับ Java (เช่น Eclipse, IntelliJ IDEA)
--  Aspose.PDF สำหรับไลบรารี Java ซึ่งคุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF สำหรับไลบรารี Java ซึ่งคุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/)
 
 ## การตั้งค่าสภาพแวดล้อมการพัฒนาของคุณ
 
@@ -111,13 +113,13 @@ public class DeleteImagesFromPDF {
 
 ในคู่มือทีละขั้นตอนนี้ เราได้เรียนรู้วิธีการลบรูปภาพออกจากเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java ไลบรารีอันทรงพลังนี้ทำให้การจัดการไฟล์ PDF ด้วยโปรแกรมเป็นเรื่องง่าย ทำให้คุณควบคุมเนื้อหาได้เต็มที่
 
- สำหรับข้อมูลเพิ่มเติมและเอกสารรายละเอียด โปรดไปที่[เอกสารอ้างอิง Aspose.PDF สำหรับ Java API](https://reference.aspose.com/pdf/java/).
+สำหรับข้อมูลเพิ่มเติมและเอกสารรายละเอียด โปรดไปที่ [เอกสารอ้างอิง Aspose.PDF สำหรับ Java API](https://reference-aspose.com/pdf/java/).
 
 ## คำถามที่พบบ่อย
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- หากต้องการติดตั้ง Aspose.PDF สำหรับ Java คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์[ที่นี่](https://releases.aspose.com/pdf/java/). ปฏิบัติตามคำแนะนำในการติดตั้งซึ่งมีอยู่ในเอกสารประกอบ
+หากต้องการติดตั้ง Aspose.PDF สำหรับ Java คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์ [ที่นี่](https://releases.aspose.com/pdf/java/). ปฏิบัติตามคำแนะนำในการติดตั้งซึ่งมีอยู่ในเอกสารประกอบ
 
 ### ฉันสามารถลบรูปภาพที่ต้องการจาก PDF โดยใช้ Aspose.PDF สำหรับ Java ได้หรือไม่
 
@@ -126,9 +128,11 @@ public class DeleteImagesFromPDF {
 ### Aspose.PDF สำหรับ Java เหมาะกับงานจัดการ PDF อื่นๆ หรือไม่
 
 ใช่ Aspose.PDF สำหรับ Java เป็นไลบรารีที่มีความยืดหยุ่นที่สามารถจัดการงานจัดการ PDF ต่างๆ ได้ เช่น การเพิ่มข้อความ รูปภาพ คำอธิบายประกอบ และอื่นๆ อีกมากมาย นอกจากนี้ยังเป็นโซลูชันที่ครอบคลุมสำหรับการทำงานกับไฟล์ PDF ในแอปพลิเคชัน Java
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

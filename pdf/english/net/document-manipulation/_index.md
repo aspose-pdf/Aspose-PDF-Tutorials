@@ -6,7 +6,9 @@ url: "/net/document-manipulation/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Document Manipulation Tutorials for Aspose.PDF .NET
@@ -318,6 +320,9 @@ Learn how to master PDF manipulation using Aspose.PDF for .NET. This guide cover
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

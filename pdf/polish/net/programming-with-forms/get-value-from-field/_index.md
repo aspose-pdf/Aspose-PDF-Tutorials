@@ -1,14 +1,16 @@
 ---
-title: Pobierz wartość z pola w dokumencie PDF
-linktitle: Pobierz wartość z pola w dokumencie PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak łatwo wyodrębnić wartości z pól formularza w dokumencie PDF za pomocą Aspose.PDF dla .NET, korzystając z tego samouczka krok po kroku.
-weight: 140
-url: /pl/net/programming-with-forms/get-value-from-field/
+"description": "Dowiedz się, jak łatwo wyodrębnić wartości z pól formularza w dokumencie PDF za pomocą Aspose.PDF dla .NET, korzystając z tego samouczka krok po kroku."
+"linktitle": "Pobierz wartość z pola w dokumencie PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz wartość z pola w dokumencie PDF"
+"url": "/pl/net/programming-with-forms/get-value-from-field/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz wartość z pola w dokumencie PDF
@@ -19,16 +21,16 @@ Praca z dokumentami PDF programowo może być zarówno wydajna, jak i wydajna, z
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do kodu, przypomnijmy sobie pokrótce, co będzie potrzebne, aby móc kontynuować:
+Zanim przejdziemy do kodu, przypomnijmy sobie pokrótce, co będzie potrzebne, aby móc kontynuować pracę:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowany Aspose.PDF dla .NET w swoim środowisku programistycznym. Możesz go pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowany Aspose.PDF dla .NET w swoim środowisku programistycznym. Możesz go pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
 2. IDE: Będziesz potrzebować zintegrowanego środowiska programistycznego (IDE), np. Visual Studio.
 3. Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę o języku C# i programowaniu obiektowym.
 4. Dokument PDF: Przygotuj dokument PDF z polami formularza. Jeśli go nie masz, możesz go łatwo utworzyć lub użyć istniejącego dokumentu zawierającego pola, takie jak pola tekstowe lub pola wyboru.
 
 ## Importuj pakiety
 
-Aby rozpocząć pracę z Aspose.PDF dla .NET, musisz zaimportować niezbędne przestrzenie nazw do swojego projektu. Są to narzędzia w Twoim zestawie narzędzi, dzięki którym masz do dyspozycji wszystko, czego potrzebujesz.
+Aby rozpocząć pracę z Aspose.PDF dla .NET, musisz zaimportować niezbędne przestrzenie nazw do swojego projektu. Są to narzędzia w Twoim zestawie narzędzi, dzięki którym masz wszystko, czego potrzebujesz, do swojej dyspozycji.
 
 ```csharp
 using System.IO;
@@ -49,7 +51,7 @@ Po pierwsze — musisz określić, gdzie jest przechowywany Twój dokument PDF. 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF. Pozwoli to Twojemu programowi zlokalizować i otworzyć dokument.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF. Pozwoli to Twojemu programowi zlokalizować i otworzyć dokument.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -60,7 +62,7 @@ Następnie musisz otworzyć dokument PDF w swoim programie. Ten krok jest kluczo
 Document pdfDocument = new Document(dataDir + "GetValueFromField.pdf");
 ```
 
- Tutaj używamy`Document` klasę z biblioteki Aspose.PDF, aby otworzyć plik PDF o nazwie „GetValueFromField.pdf”. Oczywiście możesz zastąpić go dowolnym plikiem PDF zawierającym pole formularza, które chcesz pobrać.
+Tutaj używamy `Document` klasę z biblioteki Aspose.PDF, aby otworzyć plik PDF o nazwie „GetValueFromField.pdf”. Oczywiście możesz zastąpić go dowolnym plikiem PDF zawierającym pole formularza, które chcesz pobrać.
 
 ## Krok 3: Uzyskaj dostęp do żądanego pola formularza
 
@@ -71,7 +73,7 @@ Po otwarciu dokumentu następnym krokiem jest dostęp do konkretnego pola formul
 TextBoxField textBoxField = pdfDocument.Form["textbox1"] as TextBoxField;
 ```
 
- Tutaj,`"textbox1"` jest nazwą pola formularza, do którego dążymy. Zakłada się, że znasz wcześniej nazwę pola. Możesz uzyskać dostęp do różnych typów pól, takich jak`TextBoxField`, `CheckBoxField`itp., w zależności od typu formularza.
+Tutaj, `"textbox1"` jest nazwą pola formularza, do którego dążymy. Zakłada się, że znasz wcześniej nazwę pola. Możesz uzyskać dostęp do różnych typów pól, takich jak `TextBoxField`, `CheckBoxField`itp., w zależności od typu formularza.
 
 ## Krok 4: Pobierz i wyświetl wartość pola
 
@@ -83,7 +85,7 @@ Console.WriteLine("PartialName : {0} ", textBoxField.PartialName);
 Console.WriteLine("Value : {0} ", textBoxField.Value);
 ```
 
- Ten`PartialName` właściwość podaje nazwę pola, podczas gdy`Value` właściwość pobiera dane wprowadzone do tego pola. Możesz wyświetlić je w konsoli lub zapisać do dalszego wykorzystania.
+Ten `PartialName` właściwość podaje nazwę pola, podczas gdy `Value` właściwość pobiera dane wprowadzone do tego pola. Możesz wyświetlić je w konsoli lub zapisać do dalszego wykorzystania.
 
 ## Krok 5: Uruchom program
 
@@ -105,13 +107,15 @@ Nie, Aspose.PDF dla platformy .NET nie nakłada żadnych ograniczeń na liczbę 
 Tak, oprócz pobierania wartości można również ustawiać i modyfikować wartości pól formularza, korzystając z Aspose.PDF dla .NET.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF?  
- Tak, Aspose.PDF dla .NET wymaga licencji do użytku produkcyjnego. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+Tak, Aspose.PDF dla .NET wymaga licencji do użytku produkcyjnego. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
 
 ### Czy Aspose.PDF jest zgodny z platformą .NET Core?  
 Oczywiście! Aspose.PDF dla .NET jest w pełni kompatybilny zarówno z .NET Framework, jak i .NET Core.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

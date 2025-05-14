@@ -1,30 +1,32 @@
 ---
-title: Lề hoặc đệm
-linktitle: Lề hoặc đệm
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách quản lý lề và khoảng đệm trong Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này để tạo các tệp PDF hoàn chỉnh.
-weight: 140
-url: /vi/net/programming-with-tables/margins-or-padding/
+"description": "Tìm hiểu cách quản lý lề và khoảng đệm trong Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này để tạo các tệp PDF hoàn chỉnh."
+"linktitle": "Lề hoặc đệm"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Lề hoặc đệm"
+"url": "/vi/net/programming-with-tables/margins-or-padding/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lề hoặc đệm
 
 ## Giới thiệu
 
-Bạn đã bao giờ tự hỏi tại sao một số tệp PDF trông bóng bẩy hơn những tệp khác không? Thường thì, vấn đề nằm ở các chi tiết — lề và khoảng đệm rất quan trọng để đạt được vẻ ngoài tinh tế đó. Giống như không gian làm việc sạch sẽ có thể giúp bạn suy nghĩ tốt hơn, nội dung được sắp xếp hợp lý trên tệp PDF giúp tăng khả năng đọc và hiểu. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách sử dụng Aspose.PDF để tạo bảng với các thiết lập lề và khoảng đệm chính xác. Cuối cùng, bạn sẽ được trang bị các kỹ năng quan trọng để nâng cao khả năng sáng tạo tệp PDF của mình.
+Bạn đã bao giờ tự hỏi tại sao một số tệp PDF trông bóng bẩy hơn những tệp khác không? Thông thường, vấn đề nằm ở các chi tiết — lề và khoảng đệm rất quan trọng để đạt được vẻ ngoài tinh tế đó. Giống như không gian làm việc sạch sẽ có thể giúp bạn suy nghĩ tốt hơn, nội dung được sắp xếp hợp lý trên tệp PDF giúp tăng khả năng đọc và hiểu. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách sử dụng Aspose.PDF để tạo bảng với các thiết lập lề và khoảng đệm chính xác. Cuối cùng, bạn sẽ được trang bị các kỹ năng quan trọng để nâng cao khả năng sáng tạo tệp PDF của mình.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết:
 
--  Aspose.PDF cho Thư viện .NET: Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho Thư viện .NET: Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Môi trường phát triển tích hợp để viết mã C#. 
 - Kiến thức cơ bản về lập trình C#: Một chút quen thuộc với mã hóa sẽ giúp bạn nắm bắt các khái niệm tốt hơn.
--  Tài khoản Aspose: Nếu bạn đang muốn mua giấy phép hoặc cần hỗ trợ, hãy xem[Trang mua hàng Aspose](https://purchase.aspose.com/buy) hoặc ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+- Tài khoản Aspose: Nếu bạn đang muốn mua giấy phép hoặc cần hỗ trợ, hãy xem [Trang mua hàng Aspose](https://purchase.aspose.com/buy) hoặc ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
 
 ## Nhập gói
 
@@ -59,7 +61,7 @@ Khởi tạo đối tượng Tài liệu
 Document doc = new Document();
 ```
 
- Trong bước này, chúng ta tạo một phiên bản mới của`Document` lớp từ thư viện Aspose.PDF. Đối tượng này biểu thị tệp PDF của bạn và là điểm bắt đầu để thêm nội dung.
+Trong bước này, chúng ta tạo một phiên bản mới của `Document` lớp từ thư viện Aspose.PDF. Đối tượng này biểu thị tệp PDF của bạn và là điểm bắt đầu để thêm nội dung.
 
 ## Bước 3: Thêm trang mới
 
@@ -109,7 +111,7 @@ Bước này là nơi chúng ta xác định độ rộng của các cột trong
 tab1.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.1F);
 ```
 
-Bạn muốn bảng của mình trông có tổ chức, phải không? Đây là nơi chúng ta đặt đường viền mặc định cho các ô của bảng, đảm bảo chúng được phân định trực quan.
+Bạn muốn bảng của mình trông có tổ chức, phải không? Đây là nơi chúng tôi đặt đường viền mặc định cho các ô của bảng, đảm bảo chúng được phân định trực quan.
 
 ## Bước 8: Tùy chỉnh đường viền bảng
 
@@ -195,19 +197,21 @@ Và bạn đã có nó! Bằng cách tuân thủ các bước này, bạn có th
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển .NET tạo, chỉnh sửa và thao tác các tài liệu PDF theo chương trình.
 
 ### Tôi có thể dùng thử Aspose.PDF miễn phí không?
- Có! Bạn có thể tải xuống và sử dụng bản dùng thử miễn phí của Aspose.PDF từ[đây](https://releases.aspose.com/).
+Có! Bạn có thể tải xuống và sử dụng bản dùng thử miễn phí của Aspose.PDF từ [đây](https://releases.aspose.com/).
 
 ### Tôi có cần giấy phép sử dụng Aspose.PDF không?
- Có, nếu bạn muốn sử dụng nó cho mục đích thương mại, bạn sẽ cần phải mua giấy phép, bạn có thể tìm thấy[đây](https://purchase.aspose.com/buy).
+Có, nếu bạn muốn sử dụng nó cho mục đích thương mại, bạn sẽ cần phải mua giấy phép, bạn có thể tìm thấy [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.PDF như thế nào?
- Cộng đồng Aspose cung cấp hỗ trợ chi tiết thông qua[diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+Cộng đồng Aspose cung cấp hỗ trợ chi tiết thông qua [diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
 
 ### Có cách nào để xin được giấy phép tạm thời không?
- Chắc chắn rồi! Vì mục đích thử nghiệm, bạn có thể nộp đơn xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/). 
+Chắc chắn rồi! Vì mục đích thử nghiệm, bạn có thể nộp đơn xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/). 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

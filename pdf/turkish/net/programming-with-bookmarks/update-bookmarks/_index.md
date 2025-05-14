@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Yer İşaretlerini Güncelle
-linktitle: PDF Dosyasındaki Yer İşaretlerini Güncelle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kılavuzla .NET için Aspose.PDF kullanarak bir PDF dosyasındaki yer imlerini nasıl güncelleyeceğinizi öğrenin. PDF yer imlerini etkili bir şekilde değiştirmek isteyen geliştiriciler için mükemmeldir.
-weight: 100
-url: /tr/net/programming-with-bookmarks/update-bookmarks/
+"description": "Bu kılavuzla .NET için Aspose.PDF kullanarak bir PDF dosyasındaki yer imlerini nasıl güncelleyeceğinizi öğrenin. PDF yer imlerini etkili bir şekilde değiştirmek isteyen geliştiriciler için mükemmeldir."
+"linktitle": "PDF Dosyasındaki Yer İşaretlerini Güncelle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Yer İşaretlerini Güncelle"
+"url": "/tr/net/programming-with-bookmarks/update-bookmarks/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Yer İşaretlerini Güncelle
@@ -21,12 +23,12 @@ PDF dosyalarıyla çalışmak genellikle metin, resim, tablo ve tabii ki yer iml
 
 Koda dalmadan önce, her şeyin hazır olduğundan emin olalım. İhtiyacınız olanlar şunlar:
 
-1.  Aspose.PDF for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: İndirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: Sisteminizde .NET'in yüklü olduğundan emin olun.
 3. IDE: Tercihen Visual Studio veya .NET'i destekleyen herhangi bir IDE.
 4. Mevcut yer imlerinin bulunduğu bir PDF dosyası: Bu, yer imlerini güncellemek için kullanacağınız test dosyanız olacaktır.
 
- .NET için Aspose.PDF'niz henüz yoksa, bir tane edinin[ücretsiz deneme](https://releases.aspose.com/) veya[satın al](https://purchase.aspose.com/buy)tüm özelliklerinin kilidini açmaya hazırsanız. Ayrıca, geliştirme sırasında sınırlamalar olmadan kullanmak istiyorsanız, bir[geçici lisans](https://purchase.aspose.com/temporary-license/) işe yarayacaktır.
+.NET için Aspose.PDF'niz henüz yoksa, bir tane edinin [ücretsiz deneme](https://releases.aspose.com/) veya [satın al](https://purchase.aspose.com/buy) tüm özelliklerinin kilidini açmaya hazırsanız. Ayrıca, geliştirme sırasında sınırlamalar olmadan kullanmak istiyorsanız, bir [geçici lisans](https://purchase.aspose.com/temporary-license/) işe yarayacaktır.
 
 ## Paketleri İçe Aktar
 
@@ -59,11 +61,11 @@ Dizininizi yerleştirdikten sonraki adım, PDF dosyasını Aspose.PDF for .NET k
 Document pdfDocument = new Document(dataDir + "UpdateBookmarks.pdf");
 ```
 
- Burada,`Document` PDF dosyasını belleğe yüklemek için kullanılan sınıftır. Dosya adının dizininizdekiyle eşleştiğinden emin olun. 
+Burada, `Document` PDF dosyasını belleğe yüklemek için kullanılan sınıftır. Dosya adının dizininizdekiyle eşleştiğinden emin olun. 
 
 ## Adım 3: Yer İşareti Nesnesine Erişim
 
- Artık PDF dosyanız yüklendiğine göre, güncellemek istediğiniz belirli yer imini bulma zamanı geldi. PDF'deki yer imleri şurada saklanır:`Outlines` koleksiyon. Endeks numarası (`[1]`) yer iminin koleksiyondaki konumunu ifade eder.
+Artık PDF dosyanız yüklendiğine göre, güncellemek istediğiniz belirli yer imini bulma zamanı geldi. PDF'deki yer imleri şurada saklanır: `Outlines` koleksiyon. Endeks numarası (`[1]`) yer iminin koleksiyondaki konumunu ifade eder.
 
 ```csharp
 // Bir yer imi nesnesi alın
@@ -82,7 +84,7 @@ pdfOutline.Italic = true;
 pdfOutline.Bold = true;
 ```
 
- Değiştirme`Title` yer iminde görüntülenen metni güncellerken, ayarlarken`Italic` Ve`Bold` ile`true` yazı tipi stilini değiştirir. Bu değişiklikler yer imlerinizin ihtiyaçlarınıza göre güncellenmesini sağlar.
+Değiştirme `Title` yer iminde görüntülenen metni güncellerken, ayarlarken `Italic` Ve `Bold` ile `true` yazı tipi stilini değiştirir. Bu değişiklikler yer imlerinizin ihtiyaçlarınıza göre güncellenmesini sağlar.
 
 ## Adım 5: Güncellenen PDF Dosyasını Kaydedin
 
@@ -93,7 +95,7 @@ dataDir = dataDir + "UpdateBookmarks_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Bu, yer imlerine uygulanan değişikliklerle güncellenmiş PDF dosyasını kaydedecektir. Yeni dosya şu şekilde adlandırılacaktır:`UpdateBookmarks_out.pdf`Orijinalini olduğu gibi muhafaza ettiğinizden emin olun.
+Bu, yer imlerine uygulanan değişikliklerle güncellenmiş PDF dosyasını kaydedecektir. Yeni dosya şu şekilde adlandırılacaktır: `UpdateBookmarks_out.pdf`Orijinalini bozulmadan koruduğunuzdan emin olun.
 
 ## Adım 6: Başarılı Mesajını Göster
 
@@ -103,7 +105,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nBookmarks updated successfully.\nFile saved at " + dataDir);
 ```
 
-Konsolda yer imlerinin güncellendiğini ve dosyanın başarıyla kaydedildiğini doğrulayan basit bir mesaj görünecektir.
+Konsolda bu basit mesaj görünecek ve yer imlerinin güncellendiğini ve dosyanın başarıyla kaydedildiğini doğrulayacaktır.
 
 ## Çözüm
 
@@ -112,22 +114,24 @@ Ve işte bu kadar! Artık Aspose.PDF for .NET kullanarak bir PDF dosyasındaki y
 ## SSS
 
 ### Aynı PDF dosyasındaki birden fazla yer imini güncelleyebilir miyim?  
- Evet, birden fazla yer imini döngüye alarak güncelleyebilirsiniz.`Outlines` her yer imini gerektiği gibi toplayıp düzenleyebilme.
+Evet, birden fazla yer imini döngüye alarak güncelleyebilirsiniz. `Outlines` her yer imini gerektiği gibi toplayıp düzenleyebilme.
 
 ### Varolmayan bir yer imine erişmeye çalışırsam ne olur?  
- Bir tane alacaksın`IndexOutOfRangeException` var olmayan bir yer imi dizinine erişmeye çalışırsanız. Dizinin her zaman var olan bir yer imine karşılık geldiğinden emin olun.
+Bir tane alacaksın `IndexOutOfRangeException` var olmayan bir yer imi dizinine erişmeye çalışırsanız. Dizinin her zaman var olan bir yer imine karşılık geldiğinden emin olun.
 
 ### Renk veya eylem gibi diğer yer imi özelliklerini değiştirebilir miyim?  
- Kesinlikle! Diğer özellikleri şu şekilde değiştirebilirsiniz:`Destination`, `Color`ve yer imine bağlı eylemler.
+Kesinlikle! Diğer özellikleri şu şekilde değiştirebilirsiniz: `Destination`, `Color`ve yer imine bağlı eylemler.
 
 ### Mevcut yer imlerini güncellemek yerine yeni yer imlerini nasıl eklerim?  
- Yeni yer imleri eklemek için yeni bir örnek oluşturabilirsiniz`OutlineItemCollection` ve bunu ekle`Outlines` koleksiyon.
+Yeni yer imleri eklemek için yeni bir örnek oluşturabilirsiniz `OutlineItemCollection` ve bunu ekle `Outlines` koleksiyon.
 
 ### Aspose.PDF for .NET'i kullanmak için lisansa ihtiyacım var mı?  
- Evet, üretim kullanımı için bir lisansa ihtiyacınız olacak. Ancak, bir lisans alabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) geliştirme amaçlı veya kullanım amaçlı[ücretsiz deneme](https://releases.aspose.com/).
+Evet, üretim kullanımı için bir lisansa ihtiyacınız olacak. Ancak, bir lisans alabilirsiniz. [geçici lisans](https://purchase.aspose.com/temporary-license/) geliştirme amaçlı veya kullanım amaçlı [ücretsiz deneme](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

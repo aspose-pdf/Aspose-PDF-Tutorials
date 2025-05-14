@@ -1,14 +1,16 @@
 ---
-title: पेज को PNG में बदलें
-linktitle: पेज को PNG में बदलें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: हमारे विस्तृत चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF पृष्ठों को आसानी से PNG छवियों में कैसे परिवर्तित किया जाए।
-weight: 220
-url: /hi/net/programming-with-images/page-to-png/
+"description": "हमारे विस्तृत चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF पृष्ठों को आसानी से PNG छवियों में कैसे परिवर्तित किया जाए।"
+"linktitle": "पेज को PNG में बदलें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पेज को PNG में बदलें"
+"url": "/hi/net/programming-with-images/page-to-png/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पेज को PNG में बदलें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-images/page-to-png/
 
 शुरू करने से पहले, आइए सुनिश्चित करें कि आपने सब कुछ सेट कर लिया है। आपको ये चीज़ें चाहिए:
 - C# की बुनियादी समझ: आपको C# और .NET फ्रेमवर्क में प्रोग्रामिंग की मूल बातों से परिचित होना चाहिए।
--  Aspose.PDF लाइब्रेरी: सुनिश्चित करें कि Aspose.PDF लाइब्रेरी डाउनलोड की गई है और आपके प्रोजेक्ट में इसका संदर्भ दिया गया है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF लाइब्रेरी: सुनिश्चित करें कि Aspose.PDF लाइब्रेरी डाउनलोड हो और आपके प्रोजेक्ट में इसका संदर्भ हो। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 - विज़ुअल स्टूडियो: हम .NET अनुप्रयोगों को विकसित करने के लिए IDE के रूप में विज़ुअल स्टूडियो का उपयोग करने की अनुशंसा करते हैं।
 - .NET फ्रेमवर्क: सुनिश्चित करें कि आपके सिस्टम पर .NET फ्रेमवर्क स्थापित है।
 - नमूना पीडीएफ फाइल: एक पीडीएफ फाइल तैयार रखें जिसे आप पीएनजी छवि में बदलना चाहते हैं।
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "PageToPNG.pdf");
 ```
 
- यहाँ,`PageToPNG.pdf` यह उस पीडीएफ फाइल का नाम है जिसे आप कनवर्ट करना चाहते हैं।
+यहाँ, `PageToPNG.pdf` यह उस पीडीएफ फाइल का नाम है जिसे आप कनवर्ट करना चाहते हैं।
 
 ## चरण 3: छवि के लिए फ़ाइलस्ट्रीम बनाएँ
 
@@ -79,7 +81,7 @@ using (FileStream imageStream = new FileStream(dataDir + "aspose-logo.png", File
 {
 ```
 
- इस उदाहरण में,`aspose-logo.png` यह उस PNG फ़ाइल का नाम है जिसे आप बनाना चाहते हैं.
+इस उदाहरण में, `aspose-logo.png` यह उस PNG फ़ाइल का नाम है जिसे आप बनाना चाहते हैं.
 
 ## चरण 4: रिज़ॉल्यूशन सेट करें
 
@@ -110,7 +112,7 @@ PngDevice pngDevice = new PngDevice(resolution);
 pngDevice.Process(pdfDocument.Pages[1], imageStream);
 ```
 
- इस पंक्ति में,`pdfDocument.Pages[1]` आपके पीडीएफ दस्तावेज़ के दूसरे पृष्ठ को संदर्भित करता है (अनुक्रमण 1 से शुरू होता है)।
+इस पंक्ति में, `pdfDocument.Pages[1]` आपके पीडीएफ दस्तावेज़ के दूसरे पृष्ठ को संदर्भित करता है (अनुक्रमण 1 से शुरू होता है)।
 
 ## चरण 7: छवि स्ट्रीम बंद करें
 
@@ -137,13 +139,15 @@ imageStream.Close();
 बिल्कुल! आप PDF पृष्ठों को PNG के अलावा JPEG, BMP और TIFF जैसे प्रारूपों में भी परिवर्तित कर सकते हैं।
 
 ### क्या Aspose.PDF के लिए अस्थायी लाइसेंस उपलब्ध है?  
- हाँ! आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/) पुस्तकालय का अनुभव करने के लिए.
+हाँ! आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/) पुस्तकालय का अनुभव करने के लिए.
 
 ### मैं Aspose.PDF का उपयोग करते समय समस्याओं का निवारण कैसे करूँ?  
- सहायता के लिए, आप Aspose फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/pdf/10), जहां समुदाय के सदस्य और डेवलपर्स मुद्दों और समाधानों पर चर्चा करते हैं।
+सहायता के लिए, आप Aspose फ़ोरम पर जा सकते हैं [यहाँ](https://forum.aspose.com/c/pdf/10), जहां समुदाय के सदस्य और डेवलपर्स मुद्दों और समाधानों पर चर्चा करते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

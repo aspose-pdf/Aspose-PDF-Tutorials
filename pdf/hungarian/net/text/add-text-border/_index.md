@@ -1,48 +1,53 @@
 ---
-title: A .NET-hez használt Aspose.PDF használatával a PDF dokumentumokban a határokkal ellátott stílusos szöveg létrehozása
-weight: 7700
-limit: 
-description: Hozzon létre professzionális PDF dokumentumokat stílusos szövegszakaszokkal, amelyek egyedi betűtípusokat, színeket és határokat tartalmaznak a .NET könyvtárhoz használt Aspose.PDF használatával.  
-keywords: [Aspose.PDF for .NET, PDF creation, text styling, border effects, text fragments, C# PDF library, document formatting]
-url: /hu/net/text/add-text-border/
+"description": "Készítsen professzionális PDF dokumentumokat stílusos szövegrészletekkel, egyéni betűtípusokkal, színekkel és szegélyekkel az Aspose.PDF for .NET könyvtár segítségével."
+"title": "Stílusos szöveg létrehozása szegéllyel PDF dokumentumokban az Aspose.PDF for .NET használatával"
+"url": "/hu/net/text/add-text-border/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A PDF-dokumentumok határos stílusos szövegének létrehozása
+# Stílusos szöveg létrehozása szegéllyel PDF dokumentumokban
 
-Az Aspose.PDF .NET-hez egy erőteljes PDF feldolgozó API, amely lehetővé teszi a fejlesztők számára, hogy Adobe Acrobat nélkül hozzanak létre, szerkesszenek, manipuláljanak és konvertáljanak PDF dokumentumokat. Ez a példa bemutatja, hogyan lehet létrehozni egy PDF dokumentumot egy olyan szövegfragmenttel, amely speciális stílusú és határú, ami különösen hasznos a dokumentumok fontos tartalmának kiemeléséhez.
+Az Aspose.PDF for .NET egy hatékony PDF-feldolgozó API, amely lehetővé teszi a fejlesztők számára PDF-dokumentumok létrehozását, szerkesztését, kezelését és konvertálását Adobe Acrobat nélkül. Ez a példa bemutatja, hogyan hozhat létre egy PDF-dokumentumot egy meghatározott stílusú szövegrészlettel és szegéllyel, ami különösen hasznos a dokumentumok fontos tartalmának kiemeléséhez.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/add-text-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## A szerelési utasítások
+## Telepítési utasítások
 
-1. A NuGet csomagkezelő segítségével telepíteni:
+1. Telepítés a NuGet csomagkezelőn keresztül:
    ```
    Install-Package Aspose.PDF
    ```
 
-2. A .NET CLI segítségével telepíteni:
+2. Telepítés .NET CLI-n keresztül:
    ```
    dotnet add package Aspose.PDF
    ```
 
-3. Kézi telepítés:
-   * Letöltsd a legújabb verziót a [Aspose.PDF a .NET kiadásokhoz](https://releases.aspose.com/pdf/net/)
-   * Adjon hozzá hivatkozást az Aspose.PDF.dll-hez a projektben
+3. Manuális telepítés:
+   - Töltsd le a legújabb verziót innen: [Aspose.PDF .NET kiadásokhoz](https://releases.aspose.com/pdf/net/)
+   - Adjon hozzá hivatkozást az Aspose.PDF.dll fájlhoz a projektben
 
-## A források
+## Erőforrás
 
-* [Aspose.PDF a .NET dokumentációhoz](https://docs.aspose.com/pdf/net/)
-* [Aspose.PDF a .NET API hivatkozáshoz](https://reference.aspose.com/pdf/net/)
+- [Aspose.PDF .NET dokumentációhoz](https://docs.aspose.com/pdf/net/)
+- [Aspose.PDF .NET API referenciafájlhoz](https://reference.aspose.com/pdf/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

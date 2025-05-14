@@ -1,32 +1,34 @@
 ---
-title: Buňka tabulky stylu
-linktitle: Buňka tabulky stylu
-second_title: Aspose.PDF pro .NET API Reference
-description: V tomto podrobném kurzu se dozvíte, jak upravit styl buněk tabulky v PDF pomocí Aspose.PDF for .NET. Postupujte podle pokynů a vytvořte a naformátujte krásné tabulky PDF.
-weight: 160
-url: /cs/net/programming-with-tagged-pdf/style-table-cell/
+"description": "Naučte se, jak stylovat buňky tabulky v PDF pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Postupujte podle pokynů k vytvoření a formátování krásných tabulek v PDF."
+"linktitle": "Buňka tabulky stylů"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Buňka tabulky stylů"
+"url": "/cs/net/programming-with-tagged-pdf/style-table-cell/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buňka tabulky stylu
+# Buňka tabulky stylů
 
 ## Zavedení
 
-Vytváření profesionálně vypadajících tabulek PDF může být složité, ale s Aspose.PDF pro .NET je to překvapivě jednoduché! Ať už upravujete záhlaví, zápatí nebo konkrétní buňky tabulky, tato výkonná knihovna vám poskytuje všechny nástroje, které potřebujete k vytváření krásně formátovaných dokumentů PDF. V tomto tutoriálu si projdeme, jak stylovat buňky tabulky v dokumentu PDF pomocí Aspose.PDF for .NET. Nebojte se – vše rozdělíme do snadno pochopitelných kroků.
+Vytváření profesionálně vypadajících tabulek v PDF může být složité, ale s Aspose.PDF pro .NET je to překvapivě jednoduché! Ať už stylujete záhlaví, zápatí nebo konkrétní buňky tabulky, tato výkonná knihovna vám poskytne všechny nástroje, které potřebujete k vytváření krásně formátovaných dokumentů PDF. V tomto tutoriálu si ukážeme, jak stylovat buňky tabulky v dokumentu PDF pomocí Aspose.PDF pro .NET. Nebojte se – vše rozdělíme do snadno sledovatelných kroků.
 
 ## Předpoklady
 
 Než se ponoříte do kódu, ujistěte se, že máte následující předpoklady:
 
-1. Aspose.PDF pro .NET: Stáhněte si a nainstalujte nejnovější verzi Aspose.PDF z[zde](https://releases.aspose.com/pdf/net/).
-2. IDE (jako Visual Studio): Nastavte vývojové prostředí .NET.
-3. Základní znalost programování v C#: Vyžaduje se trochu znalosti C#.
-4.  Licence Aspose.PDF: Získejte dočasnou nebo plnou licenci k odemknutí všech funkcí knihovny. Můžete získat bezplatnou zkušební verzi[zde](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF pro .NET: Stáhněte a nainstalujte nejnovější verzi souboru Aspose.PDF z [zde](https://releases.aspose.com/pdf/net/).
+2. IDE (jako Visual Studio): Nastavení vývojového prostředí .NET.
+3. Základní znalost programování v C#: Je vyžadována určitá znalost jazyka C#.
+4. Licence Aspose.PDF: Získejte dočasnou nebo plnou licenci pro odemknutí všech funkcí knihovny. Můžete získat bezplatnou zkušební verzi. [zde](https://purchase.aspose.com/temporary-license/).
 
-## Importujte balíčky
+## Importovat balíčky
 
 Než začnete, nezapomeňte importovat potřebné jmenné prostory. Ve svém projektu budete potřebovat následující:
 
@@ -40,36 +42,36 @@ using System.Linq;
 using System.Text;
 ```
 
-Nyní, když je vše nastaveno, pojďme se vrhnout na průvodce krok za krokem!
+Nyní, když je vše nastaveno, pojďme se pustit do podrobného návodu!
 
-Vytvoříme tabulku v dokumentu PDF a upravíme styl jejích buněk. Každý krok podrobně vysvětlí proces.
+Vytvoříme tabulku v dokumentu PDF a upravíme její buňky. Každý krok bude podrobně vysvětlen.
 
 ## Krok 1: Vytvořte nový dokument PDF
 
- Prvním krokem je vytvoření nového dokumentu PDF. V Aspose.PDF můžete inicializovat nový`Document` objekt, který představuje váš soubor PDF.
+Prvním krokem je vytvoření nového PDF dokumentu. V souboru Aspose.PDF můžete inicializovat nový `Document` objekt, který představuje váš PDF soubor.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Vytvořte nový dokument PDF
+// Vytvořte nový PDF dokument
 Document document = new Document();
 ITaggedContent taggedContent = document.TaggedContent;
 taggedContent.SetTitle("Example table cell style");
 taggedContent.SetLanguage("en-US");
 ```
 
-Zde inicializujeme dokument PDF a nastavíme jeho název a jazyk. To dává vašemu dokumentu správnou strukturu, která je nezbytná pro shodu s PDF/UA.
+Zde inicializujeme PDF dokument a nastavíme jeho název a jazyk. Tím dosáhnete správné struktury dokumentu, která je nezbytná pro shodu s PDF/UA.
 
-## Krok 2: Nastavte strukturu tabulky
+## Krok 2: Nastavení struktury tabulky
 
-Tabulky v PDF jsou definovány v prvcích struktury. Pojďme vytvořit tabulku a definovat řádky a sloupce tabulky.
+Tabulky v PDF souborech jsou definovány v rámci strukturních prvků. Vytvořme tabulku a definujme její řádky a sloupce.
 
 ```csharp
 // Získejte prvek kořenové struktury
 StructureElement rootElement = taggedContent.RootElement;
 
-// Vytvořte prvek struktury tabulky
+// Vytvoření prvku struktury tabulky
 TableElement tableElement = taggedContent.CreateTableElement();
 rootElement.AppendChild(tableElement);
 TableTHeadElement tableTHeadElement = tableElement.CreateTHead();
@@ -77,11 +79,11 @@ TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 ```
 
-Nyní jsme definovali hlavu tabulky (`TableTHeadElement`), tělo (`TableTBodyElement`), a noha (`TableTFootElement`) oddíly. Můžete si je představit jako kostru vašeho stolu.
+Nyní jsme definovali záhlaví tabulky (`TableTHeadElement`), tělo (`TableTBodyElement`) a noha (`TableTFootElement`) sekce. Můžete si je představit jako kostru vaší tabulky.
 
-## Krok 3: Upravte styl buněk záhlaví
+## Krok 3: Stylizace buněk záhlaví
 
-Styling buněk záhlaví je zvýrazní. Zde použijeme barvy pozadí, ohraničení a zarovnání textu.
+Stylizace buněk záhlaví je zvýrazní. Zde použijeme barvy pozadí, ohraničení a zarovnání textu.
 
 ```csharp
 int colCount = 4;
@@ -100,11 +102,11 @@ for (int colIndex = 0; colIndex < colCount; colIndex++)
 }
 ```
 
-V tomto kroku procházíme každou buňku záhlaví a dáváme jí zeleno-žluté pozadí, šedý okraj a text zarovnaný doprava. Tyto vlastnosti můžete upravit tak, aby odpovídaly vašemu požadovanému designu.
+V tomto kroku projdeme každou buňku záhlaví a přiřadíme jí zelenožluté pozadí, šedý okraj a text zarovnaný vpravo. Tyto vlastnosti můžete upravit tak, aby odpovídaly požadovanému designu.
 
-## Krok 4: Vyplňte a upravte styl těla tabulky
+## Krok 4: Naplnění a stylování těla tabulky
 
-Tělo tabulky obsahuje aktuální data. Zde je návod, jak můžete upravit styl každé buňky pomocí specifických okrajů, ohraničení a nastavení textu.
+Tělo tabulky obsahuje skutečná data. Zde je návod, jak můžete každou buňku stylovat pomocí specifických okrajů, ohraničení a nastavení textu.
 
 ```csharp
 int rowCount = 4;
@@ -133,11 +135,11 @@ for (int rowIndex = 0; rowIndex < rowCount; rowIndex++)
 }
 ```
 
- V tomto kroku vyplníme tělo tabulky čtyřmi řádky a nastylujeme každou buňku žlutým pozadím a vycentrovaným, tučným modrým textem. Používáme také`MarginInfo`třídy k definování výplně kolem textu.
+V tomto kroku vyplníme tělo tabulky čtyřmi řádky a každou buňku upravíme žlutým pozadím a vycentrovaným tučným modrým textem. Použijeme také `MarginInfo` třída pro definování odsazení kolem textu.
 
-## Krok 5: Upravte styl zápatí
+## Krok 5: Styl zápatí
 
-Aby tabulka získala úplnou strukturu, přidáme a nastylujeme buňky zápatí, stejně jako jsme to udělali se záhlavím.
+Abychom tabulce dodali úplnou strukturu, přidáme a upravíme styl buněk zápatí, stejně jako jsme to udělali u záhlaví.
 
 ```csharp
 TableTRElement footTrElement = tableTFootElement.CreateTR();
@@ -150,14 +152,14 @@ for (int colIndex = 0; colIndex < colCount; colIndex++)
 }
 ```
 
-Zápatí je stylizováno podobně jako záhlaví, takže čtenáři mohou snadno sledovat strukturu tabulky.
+Zápatí je stylizováno podobně jako záhlaví, což čtenářům usnadňuje sledování struktury tabulky.
 
-## Krok 6: Uložte a ověřte dokument PDF
+## Krok 6: Uložení a ověření dokumentu PDF
 
-Nakonec dokument PDF uložíme a zkontrolujeme, zda je kompatibilní s PDF/UA.
+Nakonec uložíme PDF dokument a zkontrolujeme, zda je kompatibilní s PDF/UA.
 
 ```csharp
-// Uložte tagovaný dokument PDF
+// Uložení tagovaného dokumentu PDF
 document.Save(dataDir + "StyleTableCell.pdf");
 
 // Kontrola shody s PDF/UA
@@ -166,31 +168,33 @@ bool isPdfUaCompliance = document.Validate(dataDir + "StyleTableCell.xml", PdfFo
 Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
 ```
 
- Uložíme PDF a použijeme`Validate` způsob, jak zajistit, že splňuje standardy přístupnosti (shoda PDF/UA).
+Uložíme PDF a použijeme `Validate` metodu, která zajistí, že splňuje standardy přístupnosti (soulad s PDF/UA).
 
 ## Závěr
 
-Stylování tabulek v PDF pomocí Aspose.PDF pro .NET je výkonné a flexibilní. Pomocí několika řádků kódu můžete vytvořit vlastní návrhy tabulek, díky kterým budou vaše dokumenty PDF vynikat. Aspose.PDF usnadňuje vytváření leštěných souborů PDF, od přizpůsobení ohraničení buněk a pozadí až po zajištění shody s přístupností.
+Stylizace tabulek v PDF pomocí Aspose.PDF pro .NET je výkonná i flexibilní. S několika řádky kódu můžete vytvořit vlastní návrhy tabulek, díky nimž vaše PDF dokumenty vyniknou. Od úpravy okrajů buněk a pozadí až po zajištění shody s pravidly přístupnosti, Aspose.PDF usnadňuje vytváření propracovaných PDF souborů.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu na jednotlivé buňky tabulky použít různé styly?  
-Ano, můžete upravit jednotlivé buňky přizpůsobením`TableTDElement` vlastnosti.
+Ano, můžete upravovat styl jednotlivých buněk přizpůsobením `TableTDElement` vlastnosti.
 
 ### Jak mohu sloučit buňky tabulky?  
- Můžete použít`ColSpan` a`RowSpan` vlastnosti pro sloučení buněk v tabulce.
+Můžete použít `ColSpan` a `RowSpan` vlastnosti pro sloučení buněk v tabulce.
 
 ### Je možné vytvořit tabulku kompatibilní s PDF/UA?  
- Ano, jak je ukázáno v této příručce, shodu s PDF/UA můžete zajistit ověřením dokumentu pomocí`Validate` metoda.
+Ano, jak je ukázáno v této příručce, můžete zajistit soulad s PDF/UA ověřením dokumentu pomocí `Validate` metoda.
 
 ### Mohu v buňkách tabulky použít různá písma?  
- Absolutně! Můžete zadat různá písma pomocí`TextState` objekt pro každou buňku.
+Rozhodně! Můžete zadat různá písma pomocí `TextState` objekt pro každou buňku.
 
-### Jak si stáhnu Aspose.PDF pro .NET?  
- Můžete si jej stáhnout z[stránka vydání](https://releases.aspose.com/pdf/net/).
+### Jak si stáhnu soubor Aspose.PDF pro .NET?  
+Můžete si ho stáhnout z [stránka s vydáními](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

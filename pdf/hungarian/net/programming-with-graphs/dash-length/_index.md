@@ -1,34 +1,36 @@
 ---
-title: Dash Length
-linktitle: Dash Length
-second_title: Aspose.PDF for .NET API Reference
-description: Lépésről lépésre szóló útmutatónk segítségével megtudhatja, hogyan szabhatja testre a vonalak szaggatott mintáit PDF-fájlokban az Aspose.PDF for .NET használatával. Tökéletes, hogy stílust adjon dokumentumaihoz.
-weight: 70
-url: /hu/net/programming-with-graphs/dash-length/
+"description": "Tanuld meg, hogyan szabhatod testre a PDF-ekben található vonalvezetési mintákat az Aspose.PDF for .NET segítségével lépésről lépésre szóló útmutatónkkal. Tökéletes a dokumentumok stílusának bővítéséhez."
+"linktitle": "Vonószál hossza"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Vonószál hossza"
+"url": "/hu/net/programming-with-graphs/dash-length/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dash Length
+# Vonószál hossza
 
 ## Bevezetés
 
-Egy kis kreativitást szeretne adni PDF-dokumentumainak a vonalak testreszabásával különféle szaggatott mintákkal? Az Aspose.PDF for .NET segítségével könnyedén módosíthatja a sorstílusokat a dokumentum igényeinek megfelelően. Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthatja be a vonalak kötőjelének hosszát egy PDF-dokumentumban az Aspose.PDF for .NET használatával. Akár szaggatott vonalat, akár pontozott mintát szeretne elérni, ez az útmutató biztosítja a kívánt eredmény eléréséhez szükséges eszközöket és lépéseket.
+Szeretnéd egy csipetnyi kreativitást adni PDF dokumentumaidnak a vonalak testreszabásával, különféle szaggatott mintákkal? Az Aspose.PDF for .NET segítségével könnyedén módosíthatod a vonalstílusokat a dokumentum igényeinek megfelelően. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan állíthatod be a vonalak szaggatott hosszát egy PDF dokumentumban az Aspose.PDF for .NET segítségével. Akár szaggatott vonalat, akár pontozott mintát szeretnél létrehozni, ez az útmutató biztosítja a kívánt eredmény eléréséhez szükséges eszközöket és lépéseket.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, néhány dologra lesz szüksége:
+Mielőtt belevágnál az oktatóanyagba, van néhány dolog, amire szükséged lesz:
 
-1. Aspose.PDF .NET-hez: Győződjön meg arról, hogy az Aspose.PDF for .NET telepítve van. Ha még nem telepítette, letöltheti innen[Aspose.PDF for .NET](https://releases.aspose.com/pdf/net/).
-2. Alapvető C# ismeretek: Ez az oktatóanyag feltételezi, hogy rendelkezik alapvető ismeretekkel a C# programozásról. Ha még nem ismeri a C#-t, érdemes először az alapokat felfrissíteni.
-3. Visual Studio: Bár bármilyen IDE-t használhat, ez az útmutató feltételezi, hogy a Visual Studio-t használja a C#-kód írásához és futtatásához.
-4.  Aspose-fiók: További forrásokért és támogatásért győződjön meg arról, hogy rendelkezik Aspose-fiókkal. Jelentkezni lehet a[ingyenes próbaverzió](https://releases.aspose.com/) vagy vásároljon licencet[itt](https://purchase.aspose.com/buy).
+1. Aspose.PDF .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.PDF .NET-hez fájl. Ha még nem telepítette, letöltheti innen: [Aspose.PDF .NET-hez](https://releases.aspose.com/pdf/net/).
+2. C# alapismeretek: Ez az oktatóanyag feltételezi, hogy rendelkezel C# programozási alapismeretekkel. Ha még csak most ismerkedsz a C#-kal, érdemes lehet először felfrissíteni az alapokat.
+3. Visual Studio: Bár bármilyen IDE-t használhatsz, ez az útmutató feltételezi, hogy a Visual Studio-t használod a C# kód írásához és futtatásához.
+4. Aspose fiók: További forrásokért és támogatásért győződjön meg arról, hogy rendelkezik Aspose fiókkal. Regisztrálhat egy [ingyenes próba](https://releases.aspose.com/) vagy vásároljon licencet [itt](https://purchase.aspose.com/buy).
 
 ## Csomagok importálása
 
-Az Aspose.PDF for .NET használatához importálnia kell a megfelelő névtereket. A következőképpen teheti meg:
+Az Aspose.PDF for .NET használatának megkezdéséhez importálnia kell a vonatkozó névtereket. Így teheti meg:
 
 ```csharp
 using System.IO;
@@ -36,76 +38,76 @@ using System;
 using Aspose.Pdf;
 ```
 
-Ezek a névterek a PDF dokumentumok, rajzok és vonalak kezeléséhez szükséges osztályokat és módszereket tartalmazzák.
+Ezek a névterek tartalmazzák a PDF dokumentumokkal, rajzokkal és vonalakkal való munkához szükséges osztályokat és metódusokat.
 
-## 1. lépés: Állítsa be a projektet
+## 1. lépés: A projekt beállítása
 
-kódolás megkezdése előtt állítson be egy új C#-projektet a Visual Studióban. Adja hozzá az Aspose.PDF for .NET könyvtárat a projekthez a NuGet segítségével vagy a DLL manuális hivatkozásával. 
+Mielőtt elkezdenéd a kódolást, hozz létre egy új C# projektet a Visual Studioban. Add hozzá az Aspose.PDF for .NET könyvtárat a projektedhez a NuGet segítségével, vagy a DLL manuális hivatkozásával. 
 
-## 2. lépés: Inicializálja a dokumentumot
+## 2. lépés: A dokumentum inicializálása
 
-Kezdje új PDF-dokumentum létrehozásával, és adjon hozzá egy oldalt. Ez az a vászon, amelyre megrajzolja a vonalait.
+Kezdésként hozz létre egy új PDF dokumentumot, és adj hozzá egy oldalt. Ez lesz a vászon, amelyre a vonalakat fogod rajzolni.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Példányos dokumentum példány
+// Dokumentumpéldány példányosítása
 Document doc = new Document();
 
-// Oldal hozzáadása a Dokumentumobjektum oldalgyűjteményéhez
+// Oldal hozzáadása a Dokumentum objektum oldalgyűjteményéhez
 Page page = doc.Pages.Add();
 ```
 
- Itt létrehozunk a`Document` objektumot, és adjunk hozzá egy újat`Page` hozzá. Ez megteremti az alapot a vonal megrajzolásához.
+Itt létrehozunk egy `Document` objektumot, és adj hozzá egy újat `Page` hozzá. Ez megalapozza a vonal meghúzását.
 
-## 3. lépés: Hozd létre a rajzobjektumot
+## 3. lépés: A rajzobjektum létrehozása
 
- Ezután hozzon létre a`Graph` objektum, amely azt a területet képviseli, ahol rajzolni fog. Határozza meg a méreteit igényei szerint.
+Ezután hozzon létre egy `Graph` egy objektum, amely a rajzolni kívánt területet jelöli. Adja meg a méreteit az igényeinek megfelelően.
 
 ```csharp
-// Rajzobjektum létrehozása bizonyos méretekkel
+// Rajzobjektum létrehozása meghatározott méretekkel
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 // Rajzobjektum hozzáadása az oldalpéldány bekezdésgyűjteményéhez
 page.Paragraphs.Add(canvas);
 ```
 
- A`Graph` Az objektum a rajzelemek tárolójaként működik. Itt 100 egység szélességre és 400 egység magasságra van beállítva.
+A `Graph` Az objektum a rajzelemek tárolójaként szolgál. Itt a szélessége 100 egység, a magassága pedig 400 egység.
 
-## 4. lépés: Határozza meg a vonalat
+## 4. lépés: A vonal meghatározása
 
- Most itt az ideje létrehozni a`Line`objektum. Adja meg a vonal kezdő- és végpontját, és szabja testre a stílusát.
+Most itt az ideje létrehozni a `Line` objektum. Adja meg a vonal kezdő- és végpontját, és szabja testre a stílusát.
 
 ```csharp
 // Vonal objektum létrehozása
 Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { 100, 100, 200, 100 });
 ```
 
-Ez a vonal a (100, 100) koordinátákkal kezdődik és (200, 100) pontban ér véget. Ezeket a koordinátákat saját igényei szerint állíthatja be.
+Ez a vonal a (100, 100) koordinátáknál kezdődik és a (200, 100) koordinátáknál végződik. Ezeket a koordinátákat az igényeidnek megfelelően módosíthatod.
 
 ## 5. lépés: A vonalstílus testreszabása
 
-Állítsa be a vonal színét és szaggatott mintáját. Itt kiemelheti vonalát.
+Állítsd be a vonal színét és szaggatott mintázatát. Itt tudod kiemelni a vonaladat.
 
 ```csharp
-// Állítsa be a vonal objektum színét
+// Vonal objektum színének beállítása
 line.GraphInfo.Color = Aspose.Pdf.Color.Red;
 
-// Adja meg a vonalobjektum kötőjeltömbjét
+// Vonalobjektumhoz tartozó szaggatott tömb megadása
 line.GraphInfo.DashArray = new int[] { 0, 1, 0 };
 
-// Állítsa be a vonalpéldány kötőjel fázisát
+// Állítsa be a kötőjel fázisát a vonalpéldányhoz
 line.GraphInfo.DashPhase = 1;
 ```
 
 - `line.GraphInfo.Color`: Beállítja a vonal színét. Ebben az esetben piros.
-- `line.GraphInfo.DashArray` : Meghatározza a szaggatott mintát. Itt,`{ 0, 1, 0 }` szaggatott mintát jelent.
-- `line.GraphInfo.DashPhase`: Beállítja a kötőjelminta kezdőpontját.
+- `line.GraphInfo.DashArray`: Meghatározza a kötőjel mintázatát. Itt, `{ 0, 1, 0 }` szaggatott mintázatot jelöl.
+- `line.GraphInfo.DashPhase`: Beállítja a szaggatott minta kezdőpontját.
 
-## 6. lépés: Adja hozzá a vonalat a rajzhoz
+## 6. lépés: Vonal hozzáadása a rajzhoz
 
- A vonal stílusával adja hozzá a`Graph` objektum.
+Miután megformáztad a vonaladat, add hozzá a `Graph` objektum.
 
 ```csharp
 // Vonal hozzáadása a rajzobjektum alakzatgyűjteményéhez
@@ -114,9 +116,9 @@ canvas.Shapes.Add(line);
 
 Ez integrálja a vonalat a rajzvászonba.
 
-## 7. lépés: Mentse el a dokumentumot
+## 7. lépés: A dokumentum mentése
 
-Végül mentse a dokumentumot egy megadott elérési útra. Itt jön létre a PDF fájl.
+Végül mentse el a dokumentumot a megadott elérési útra. Itt jön létre a PDF fájl.
 
 ```csharp
 dataDir = dataDir + "DashLength_out.pdf";
@@ -126,31 +128,33 @@ doc.Save(dataDir);
 Console.WriteLine("\nLength dashed successfully in black and white.\nFile saved at " + dataDir);
 ```
 
-Ez a kódsor menti a PDF-dokumentumot, és egy megerősítő üzenetet ad, amely jelzi, hogy a fájl hova lett elmentve.
+Ez a kódsor menti a PDF dokumentumot, és egy megerősítő üzenetben jelzi, hogy hová lett mentve a fájl.
 
 ## Következtetés
 
-A PDF-dokumentumok vonalstílusainak testreszabása professzionális megjelenést adhat jelentéseinek, prezentációinak és egyéb dokumentumainak. Az oktatóanyag követésével megtanulta, hogyan állíthatja be a vonalak kötőjelének hosszát az Aspose.PDF for .NET használatával. Akár egyszerű szaggatott vonalakat, akár összetettebb mintákat hoz létre, az Aspose.PDF biztosítja azt a rugalmasságot, amelyre szüksége van ahhoz, hogy dokumentumai kiemelkedjenek. Kísérletezzen különböző vonalmintákkal és színekkel, hogy megtalálja az igényeinek leginkább megfelelő stílust.
+PDF dokumentumokban található vonalstílusok testreszabása professzionális megjelenést kölcsönözhet jelentéseinek, prezentációinak és egyéb dokumentumainak. Ezzel az oktatóanyaggal megtanulta, hogyan állíthatja be a vonalak szaggatott vonalának hosszát az Aspose.PDF for .NET segítségével. Akár egyszerű szaggatott vonalakat, akár összetettebb mintákat hoz létre, az Aspose.PDF biztosítja a szükséges rugalmasságot, hogy dokumentumai kiemelkedjenek. Kísérletezzen különböző szaggatott mintákkal és színekkel, hogy megtalálja az igényeinek leginkább megfelelő stílust.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.PDF-et .NET-hez?
- Telepítheti a NuGet segítségével a Visual Studio alkalmazásban, vagy letöltheti a webhelyről[Aspose honlapja](https://releases.aspose.com/pdf/net/).
+### Hogyan telepíthetem az Aspose.PDF for .NET fájlt?
+Telepítheted a NuGet segítségével a Visual Studio-ban, vagy letöltheted innen: [Aspose weboldala](https://releases.aspose.com/pdf/net/).
 
-### Használhatom ingyenesen az Aspose.PDF-et .NET-hez?
- Igen, az Aspose kínál a[ingyenes próbaverzió](https://releases.aspose.com/) így a licenc megvásárlása előtt tesztelheti a funkcióit.
+### Ingyenesen használhatom az Aspose.PDF for .NET fájlt?
+Igen, az Aspose kínál egy [ingyenes próba](https://releases.aspose.com/) így a licenc megvásárlása előtt kipróbálhatja a funkcióit.
 
-### Milyen egyéb testreszabásokat végezhetek a PDF sorain?
- Beállíthatja a vonalvastagságot, a színt és a szaggatott mintákat. Lásd a[dokumentáció](https://reference.aspose.com/pdf/net/) további részletekért.
+### Milyen egyéb testreszabási lehetőségeket tudok alkalmazni egy PDF sorain?
+Beállíthatja a vonal vastagságát, színét és a szaggatott mintákat. Lásd a [dokumentáció](https://reference.aspose.com/pdf/net/) további részletekért.
 
 ### Hogyan kaphatok támogatást, ha problémákba ütközöm?
- A támogatást a következőn keresztül érheti el[Aspose fórum](https://forum.aspose.com/c/pdf/10).
+A támogatást a következőn keresztül veheti igénybe: [Aspose Fórum](https://forum.aspose.com/c/pdf/10).
 
-### Hol vásárolhatok licencet az Aspose.PDF for .NET számára?
-Vásárolhat licencet[itt](https://purchase.aspose.com/buy).
+### Hol vásárolhatok licencet az Aspose.PDF for .NET fájlhoz?
+Licenc vásárlása lehetséges [itt](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

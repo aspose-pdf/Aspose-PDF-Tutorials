@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ फाइल में विशेष एनोटेशन हटाएं
-linktitle: पीडीएफ फाइल में विशेष एनोटेशन हटाएं
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में किसी विशेष एनोटेशन को हटाने का तरीका जानें।
-weight: 50
-url: /hi/net/annotations/deleteparticularannotation/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में किसी विशेष एनोटेशन को हटाने का तरीका जानें।"
+"linktitle": "पीडीएफ फाइल में विशेष एनोटेशन हटाएं"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ फाइल में विशेष एनोटेशन हटाएं"
+"url": "/hi/net/annotations/deleteparticularannotation/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ फाइल में विशेष एनोटेशन हटाएं
@@ -21,7 +23,7 @@ url: /hi/net/annotations/deleteparticularannotation/
 
 ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
-1.  .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके पास Aspose.PDF लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[साइट](https://releases.aspose.com/pdf/net/).
+1. .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके पास Aspose.PDF लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [साइट](https://releases.aspose.com/pdf/net/).
 2. विज़ुअल स्टूडियो: आपके .NET कोड को लिखने और निष्पादित करने के लिए एक विकास वातावरण।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
 
@@ -45,7 +47,7 @@ string dataDir = "YOUR DATA DIRECTORY";
 
 ## चरण 2: पीडीएफ दस्तावेज़ खोलें
 
-इसके बाद, आप वह पीडीएफ दस्तावेज़ खोलेंगे जिससे आप एनोटेशन हटाना चाहते हैं। यह काम करने के लिए`Document` Aspose.PDF द्वारा प्रदान की गई क्लास.
+इसके बाद, आप वह पीडीएफ दस्तावेज़ खोलेंगे जिससे आप एनोटेशन हटाना चाहते हैं। यह काम इस प्रकार किया जाता है `Document` Aspose.PDF द्वारा प्रदान की गई क्लास.
 
 ```csharp
 // दस्तावेज़ खोलें
@@ -54,7 +56,7 @@ Document pdfDocument = new Document(dataDir + "DeleteParticularAnnotation.pdf");
 
 ## चरण 3: विशेष एनोटेशन हटाएं
 
-अब सबसे महत्वपूर्ण हिस्सा आता है - एनोटेशन को हटाना। आप इंडेक्स के आधार पर यह तय कर सकते हैं कि किस एनोटेशन को हटाना है। इस उदाहरण में, हम पहले पेज पर इंडेक्स 1 पर एनोटेशन को हटा रहे हैं।
+अब सबसे महत्वपूर्ण हिस्सा आता है - एनोटेशन को हटाना। आप यह निर्दिष्ट कर सकते हैं कि किस एनोटेशन को उसके इंडेक्स द्वारा हटाना है। इस उदाहरण में, हम पहले पेज पर इंडेक्स 1 पर एनोटेशन को हटा रहे हैं।
 
 ```csharp
 // विशेष एनोटेशन हटाएं
@@ -92,17 +94,19 @@ Console.WriteLine("\nParticular annotation deleted successfully.\nFile saved at 
 हां, आप एनोटेशन संग्रह के माध्यम से लूप कर सकते हैं और अपने मानदंडों के आधार पर कई एनोटेशन हटा सकते हैं।
 
 ### क्या Aspose.PDF के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं।[Aspose वेबसाइट](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/).
 
 ### यदि मुझे Aspose.PDF का उपयोग करते समय सहायता की आवश्यकता हो तो क्या होगा?
- आप यहां जा सकते हैं[Aspose समर्थन मंच](https://forum.aspose.com/c/pdf/10) सहायता के लिए.
+आप यहां जा सकते हैं [Aspose समर्थन मंच](https://forum.aspose.com/c/pdf/10) सहायता के लिए.
 
 ### मैं Aspose.PDF के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
-आप अस्थायी लाइसेंस के लिए आवेदन कर सकते हैं[Aspose खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस के लिए आवेदन कर सकते हैं [Aspose खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

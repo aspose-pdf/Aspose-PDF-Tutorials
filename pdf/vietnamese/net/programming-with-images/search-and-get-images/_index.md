@@ -1,14 +1,16 @@
 ---
-title: Tìm kiếm và lấy hình ảnh trong tệp PDF
-linktitle: Tìm kiếm và lấy hình ảnh trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất hình ảnh dễ dàng từ tệp PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để nâng cao kỹ năng xử lý PDF của bạn.
-weight: 260
-url: /vi/net/programming-with-images/search-and-get-images/
+"description": "Tìm hiểu cách trích xuất hình ảnh dễ dàng từ tệp PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để nâng cao kỹ năng xử lý PDF của bạn."
+"linktitle": "Tìm kiếm và lấy hình ảnh trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tìm kiếm và lấy hình ảnh trong tệp PDF"
+"url": "/vi/net/programming-with-images/search-and-get-images/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tìm kiếm và lấy hình ảnh trong tệp PDF
@@ -27,7 +29,7 @@ Trước khi đi sâu vào chi tiết về mã, có một số điều kiện ti
 
 ### Thư viện Aspose.PDF
 
- Bạn sẽ cần quyền truy cập vào thư viện Aspose.PDF. Nếu bạn chưa có, bạn có thể tải xuống từ liên kết này:[Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/) . Ngoài ra, bạn có thể khám phá chúng[dùng thử miễn phí một tháng](https://releases.aspose.com/) để khởi động dự án của bạn mà không mất bất kỳ chi phí nào.
+Bạn sẽ cần quyền truy cập vào thư viện Aspose.PDF. Nếu bạn chưa có, bạn có thể tải xuống từ liên kết này: [Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/)Ngoài ra, bạn có thể khám phá chúng [dùng thử miễn phí một tháng](https://releases.aspose.com/) để khởi động dự án của bạn mà không mất bất kỳ chi phí nào.
 
 ### Môi trường phát triển
 
@@ -43,21 +45,21 @@ using Aspose.Pdf;
 using System;
 ```
 
- Mỗi gói này phục vụ các mục đích cụ thể khi thao tác với các tài liệu PDF.`Aspose.Pdf` không gian tên là nền tảng cho hoạt động của bạn, trong khi hai không gian tên còn lại giúp xử lý hình ảnh và văn bản trong PDF.
+Mỗi gói này phục vụ các mục đích cụ thể khi thao tác với các tài liệu PDF. `Aspose.Pdf` không gian tên là nền tảng cho hoạt động của bạn, trong khi hai không gian tên còn lại giúp xử lý hình ảnh và văn bản trong PDF.
 
 ## Bước 1: Thiết lập đường dẫn tài liệu của bạn
 
-Trước hết, bạn cần xác định đường dẫn đến vị trí tệp PDF của bạn. Đoạn mã này thiết lập điều đó:
+Trước hết, bạn cần xác định đường dẫn đến vị trí tệp PDF của mình. Đoạn mã này thiết lập điều đó:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế "THƯ MỤC TÀI LIỆU CỦA BẠN" bằng đường dẫn thực tế đến thư mục chứa tệp PDF của bạn, ví dụ:`C:\Documents\`.
+Thay thế "THƯ MỤC TÀI LIỆU CỦA BẠN" bằng đường dẫn thực tế đến thư mục chứa tệp PDF của bạn, ví dụ: `C:\Documents\`.
 
 ## Bước 2: Mở Tài liệu PDF
 
- Tiếp theo, bạn sẽ muốn tải tài liệu PDF vào ứng dụng của mình. Điều này được thực hiện bằng cách tạo một`Document` trường hợp với đường dẫn tệp bạn vừa chỉ định:
+Tiếp theo, bạn sẽ muốn tải tài liệu PDF vào ứng dụng của mình. Điều này được thực hiện bằng cách tạo một `Document` trường hợp với đường dẫn tệp bạn vừa chỉ định:
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SearchAndGetImages.pdf");
@@ -65,7 +67,7 @@ Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SearchAndGetImages.
 
 ## Bước 3: Tạo ImagePlacementAbsorber
 
- Để tìm kiếm hình ảnh trong PDF, bạn cần một`ImagePlacementAbsorber` đối tượng. Lớp này giúp hấp thụ hình ảnh từ PDF trong quá trình trích xuất:
+Để tìm kiếm hình ảnh trong PDF, bạn cần một `ImagePlacementAbsorber` đối tượng. Lớp này giúp hấp thụ hình ảnh từ PDF trong quá trình trích xuất:
 
 ```csharp
 ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
@@ -73,7 +75,7 @@ ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
 
 ## Bước 4: Chấp nhận Absorber cho tất cả các trang
 
- Bước này rất quan trọng vì nó cho biết`Document` để áp dụng trình hấp thụ hình ảnh trên tất cả các trang. Nó đảm bảo rằng bất kỳ hình ảnh nào được đặt ở bất kỳ đâu trong tài liệu sẽ được nhận dạng:
+Bước này rất quan trọng vì nó cho biết `Document` để áp dụng trình hấp thụ hình ảnh trên tất cả các trang. Nó đảm bảo rằng bất kỳ hình ảnh nào được đặt ở bất kỳ đâu trong tài liệu sẽ được nhận dạng:
 
 ```csharp
 doc.Pages.Accept(abs);
@@ -92,7 +94,7 @@ foreach (ImagePlacement imagePlacement in abs.ImagePlacements)
 
 ## Bước 6: Trích xuất thuộc tính hình ảnh
 
- Bên trong vòng lặp, bạn có thể bắt đầu lấy các thuộc tính có giá trị về mỗi hình ảnh. Sử dụng`imagePlacement` đối tượng, bạn có thể truy cập kích thước và độ phân giải:
+Bên trong vòng lặp, bạn có thể bắt đầu lấy các thuộc tính có giá trị về mỗi hình ảnh. Sử dụng `imagePlacement` đối tượng, bạn có thể truy cập kích thước và độ phân giải:
 
 ```csharp
 XImage image = imagePlacement.Image; // Nhận hình ảnh
@@ -124,10 +126,12 @@ Có thể trích xuất tất cả hình ảnh nhúng bất kể định dạng 
 Không có giới hạn cứng nào cả; nó phụ thuộc vào chính tệp PDF.
 
 ### Tôi có thể lưu hình ảnh đã trích xuất vào đĩa không?  
- Có, bạn có thể lưu hình ảnh vào đĩa bằng cách sử dụng`XImage` đối tượng trong mã của bạn.
+Có, bạn có thể lưu hình ảnh vào đĩa bằng cách sử dụng `XImage` đối tượng trong mã của bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Yuvarlak Köşe Masası PDF Belgesinde
-linktitle: Yuvarlak Köşe Masası PDF Belgesinde
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerinizde güzel yuvarlak köşeli bir tablonun nasıl oluşturulacağını öğrenin.
-weight: 190
-url: /tr/net/programming-with-tables/rounded-corner-table/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerinizde güzel yuvarlak köşeli bir tablonun nasıl oluşturulacağını öğrenin."
+"linktitle": "Yuvarlak Köşe Masası PDF Belgesinde"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Yuvarlak Köşe Masası PDF Belgesinde"
+"url": "/tr/net/programming-with-tables/rounded-corner-table/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yuvarlak Köşe Masası PDF Belgesinde
@@ -23,7 +25,7 @@ Yuvarlak köşeli masalara olan serüvenimize başlamadan önce, elinizde olmas�
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu, kodlama ve test için oyun alanınız olacak.
 2. .NET Framework: Aspose.PDF ile uyumlu .NET Framework'ün ilgili sürümünü kullandığınızdan emin olun.
-3. .NET için Aspose.PDF: Aspose.PDF kütüphanesine ihtiyacınız var. Bunu şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/pdf/net/).
+3. .NET için Aspose.PDF: Aspose.PDF kütüphanesine ihtiyacınız var. Bunu şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/pdf/net/).
 4. Uygun bir IDE: Visual Studio tercih edilse de, C# destekleyen herhangi bir diğer IDE de işi görebilir.
 5. Temel C# bilgisi: C# programlamanın temellerini anlamak, içeriği daha hızlı kavramanıza yardımcı olacaktır.
 
@@ -42,13 +44,13 @@ Tamamdır, kodlama işlemine geçmeden önce gerekli tüm paketleri içe aktarar
 Projeniz kurulduktan sonra:
 - Çözüm Gezgini’nde projeye sağ tıklayın.
 - “NuGet Paketlerini Yönet” seçeneğini seçin.
--  Arama`Aspose.PDF` ve kurun.
+- Arama `Aspose.PDF` ve kurun.
 
 Artık yola çıkmaya hazırsınız!
 
 ### Aspose.PDF Ad Alanını İçe Aktar
 
- En üstte`Program.cs` veya ana kodunuzun bulunduğu yere şunu eklemek isteyebilirsiniz:
+En üstte `Program.cs` veya ana kodunuzun bulunduğu yere şunu eklemek isteyebilirsiniz:
 
 ```csharp
 using System.IO;
@@ -62,17 +64,17 @@ Tamam, hadi kolları sıvayalım ve eğlenceli kısma geçelim - yuvarlak köşe
 
 ## Adım 1: Dizini Ayarlayın
 
-Başlamak için, PDF dosyanızın depolanacağı yolu ayarlamanız gerekir. Burası, kodunuza PDF belgesini oluşturma talimatını vereceğiniz yerdir.
+Başlamak için PDF dosyanızın depolanacağı yolu ayarlamanız gerekir. Burası, kodunuza PDF belgesini oluşturma talimatını vereceğiniz yerdir.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirmek`YOUR DOCUMENT DIRECTORY` PDF'inizin kaydedilmesini istediğiniz gerçek yola. 
+Değiştirmek `YOUR DOCUMENT DIRECTORY` PDF'inizin kaydedilmesini istediğiniz gerçek yola. 
 
 ## Adım 2: Belgeyi Başlatın
 
-Dizin ayarlandıktan sonraki adım yeni bir PDF belgesi oluşturmaktır. Bu, bir evin temellerini atmak gibidir – diğer her şey bunun üzerine inşa edilecektir.
+Dizin ayarlandıktan sonraki adım yeni bir PDF belgesi oluşturmaktır. Bu, bir evin temellerini atmak gibidir - diğer her şey bunun üzerine inşa edilecektir.
 
 ```csharp
 Document pdfDocument = new Document();
@@ -90,7 +92,7 @@ Bu satır, sihir için hazır yeni bir tablo nesnesi oluşturur!
 
 ## Adım 4: Sınır Bilgilerini Oluşturun
 
- Tablonuza güzel bir taslak ve yuvarlatılmış köşeler efekti vermek için bir örnek oluşturmanız gerekir`BorderInfo`.
+Tablonuza güzel bir taslak ve yuvarlatılmış köşeler efekti vermek için bir örnek oluşturmanız gerekir `BorderInfo`.
 
 ```csharp
 GraphInfo graph = new GraphInfo();
@@ -128,7 +130,7 @@ Tablonuza kenarlık bilgilerini uygulayarak her şeyi bir araya getirelim.
 tab1.Border = bInfo;
 ```
 
-Pat! Masanızın artık yuvarlak köşeli bir kenarı var.
+Pat! Masanızın artık köşeleri yuvarlatılmış bir kenarı var.
 
 ## Adım 8: Tabloyu PDF Belgesine Ekleyin
 
@@ -160,19 +162,21 @@ Burada, bunu "RoundedCornerTable.pdf" adıyla belirtilen dizine kaydedeceksiniz.
 Aspose.PDF for .NET, .NET uygulamalarının PDF belgelerini kolayca oluşturmasına ve düzenlemesine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet! Aspose.PDF'yi ücretsiz deneme sürümüyle deneyebilirsiniz.[yayın sayfası](https://releases.aspose.com/).
+Evet! Aspose.PDF'yi ücretsiz deneme sürümüyle deneyebilirsiniz. [yayın sayfası](https://releases.aspose.com/).
 
 ### Yuvarlak köşeli masalar ne işe yarar?
 PDF belgelerindeki tabloların görsel çekiciliğini artırarak okuyucular için daha ilgi çekici hale getirirler.
 
 ### Aspose.PDF'i nereden satın alabilirim?
- Bunu doğrudan şu adresten satın alabilirsiniz:[Aspose satın alma sayfası](https://purchase.aspose.com/buy).
+Bunu doğrudan şu adresten satın alabilirsiniz: [Aspose satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Desteğe ihtiyacım olursa ne olur?
- Yardım için Aspose destek forumlarını ziyaret edebilirsiniz:[Aspose Desteği](https://forum.aspose.com/c/pdf/10).
+Yardım için Aspose destek forumlarını ziyaret edebilirsiniz: [Aspose Desteği](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

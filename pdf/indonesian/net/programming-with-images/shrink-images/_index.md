@@ -1,14 +1,16 @@
 ---
-title: Mengecilkan Gambar Dalam File PDF
-linktitle: Mengecilkan Gambar Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Kecilkan gambar dalam file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini, memastikan ukuran file yang lebih kecil dengan tetap menjaga kualitas.
-weight: 280
-url: /id/net/programming-with-images/shrink-images/
+"description": "Kecilkan gambar dalam file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini, memastikan ukuran file yang lebih kecil dengan tetap menjaga kualitas."
+"linktitle": "Mengecilkan Gambar Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Mengecilkan Gambar Dalam File PDF"
+"url": "/id/net/programming-with-images/shrink-images/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengecilkan Gambar Dalam File PDF
@@ -19,14 +21,14 @@ Di era digital, bekerja dengan file PDF telah menjadi praktik umum di berbagai b
 
 ## Prasyarat
 
-Sebelum kita memulai proses pengoptimalan gambar, ada beberapa prasyarat yang perlu Anda siapkan:
+Sebelum kita memulai proses pengoptimalan gambar, ada beberapa prasyarat yang perlu Anda penuhi:
 
 1. .NET Framework: Pastikan Anda memiliki versi .NET Framework yang kompatibel yang terpasang di komputer Anda. Aspose.PDF untuk .NET berfungsi dengan .NET Framework atau .NET Core.
-2.  Aspose.PDF untuk .NET: Jika Anda belum melakukannya, unduh versi terbaru Aspose.PDF untuk .NET dari[halaman unduhan](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Jika Anda belum melakukannya, unduh versi terbaru Aspose.PDF untuk .NET dari [halaman unduhan](https://releases.aspose.com/pdf/net/).
 3. Lingkungan Pengembangan: Akan sangat membantu jika memiliki Lingkungan Pengembangan Terpadu (IDE), seperti Visual Studio, tempat Anda dapat menulis dan mengeksekusi kode Anda.
-4. Pengetahuan Dasar Pemrograman: Keakraban dengan pemrograman C# akan membuat proses ini lebih lancar. Jika Anda memiliki pengalaman sebelumnya dengan pengodean, itu akan menjadi nilai tambah!
+4. Pengetahuan Dasar Pemrograman: Keakraban dengan pemrograman C# akan membuat proses ini lebih lancar. Jika Anda memiliki pengalaman sebelumnya dengan pengkodean, itu akan menjadi nilai tambah!
 
-Sekarang Anda sudah siap dan siap, mari masuk ke inti proses mengimpor paket yang diperlukan.
+Sekarang Anda sudah siap dan siap, mari kita masuk ke inti proses mengimpor paket yang diperlukan.
 
 ## Paket Impor
 
@@ -46,10 +48,10 @@ Selanjutnya, sertakan referensi pustaka Aspose.PDF dalam proyek Anda. Anda dapat
   - Cari "Aspose.PDF" dan instal.
 
 - Menambahkan DLL secara manual:
-  - Unduh Aspose.PDF untuk .NET dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
+  - Unduh Aspose.PDF untuk .NET dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
   - Tambahkan berkas DLL ke referensi proyek Anda.
 
- Setelah selesai, gunakan yang berikut ini`using` pernyataan di bagian atas kode Anda:
+Setelah selesai, gunakan yang berikut ini `using` pernyataan di bagian atas kode Anda:
 
 ```csharp
 using System;
@@ -68,7 +70,7 @@ Hal pertama yang perlu kita lakukan adalah menentukan jalur penyimpanan dokumen 
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 ```
 
- Ingat untuk mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya pada sistem Anda.
+Ingat untuk mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya pada sistem Anda.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -78,7 +80,7 @@ Sekarang setelah kita memiliki jalur ke dokumen, gunakan pustaka Aspose.PDF untu
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 ```
 
- Baris ini menciptakan`Document` objek dari berkas PDF Anda. Jika berkas tidak ada di jalur yang ditentukan, pengecualian akan dikeluarkan.
+Baris ini menciptakan `Document` objek dari berkas PDF Anda. Jika berkas tidak ada di jalur yang ditentukan, pengecualian akan dikeluarkan.
 
 ## Langkah 3: Inisialisasi Opsi Optimasi
 
@@ -133,7 +135,7 @@ pdfDocument.Save(dataDir);
 
 ## Langkah 7: Beritahu Pengguna
 
-Agar pengguna Anda selalu mengetahui informasi terkini, sebaiknya sertakan pesan konsol yang menunjukkan keberhasilan.
+Agar pengguna Anda selalu mendapat informasi terkini, sebaiknya sertakan pesan konsol yang menunjukkan keberhasilan.
 
 ```csharp
 Console.WriteLine("\nImage shrinked successfully.\nFile saved at " + dataDir);
@@ -158,10 +160,12 @@ Pengurangan tersebut sebagian besar bergantung pada kualitas gambar asli dan nil
 Aspose.PDF menawarkan versi uji coba gratis, tetapi penggunaan berkelanjutan memerlukan pembelian lisensi.
 
 ### Di mana saya dapat menemukan dukungan atau dokumentasi lebih lanjut?  
- Anda dapat menemukan sumber daya yang luas di[Halaman dokumentasi PDF Aspose](https://reference.aspose.com/pdf/net/)dan mengajukan pertanyaan tentang[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan sumber daya yang luas di [Halaman dokumentasi PDF Aspose](https://reference.aspose.com/pdf/net/) dan mengajukan pertanyaan tentang [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

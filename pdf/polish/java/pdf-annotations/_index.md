@@ -1,14 +1,16 @@
 ---
-title: Adnotacje PDF
-linktitle: Adnotacje PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Zapoznaj się z samouczkami dotyczącymi adnotacji plików PDF za pomocą Aspose.PDF dla języka Java, dowiedz się, jak dodawać interaktywność, komentarze i inne funkcje do plików PDF.
-weight: 10
-url: /pl/java/pdf-annotations/
+"description": "Zapoznaj się z samouczkami dotyczącymi adnotacji plików PDF za pomocą Aspose.PDF dla języka Java, dowiedz się, jak dodawać interaktywność, komentarze i inne funkcje do plików PDF."
+"linktitle": "Adnotacje PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Adnotacje PDF"
+"url": "/pl/java/pdf-annotations/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adnotacje PDF
@@ -39,9 +41,11 @@ Dowiedz się, jak wyodrębnić określone adnotacje z plików PDF za pomocą Asp
 Odkryj możliwości redagowania poufnych treści w plikach PDF za pomocą Aspose.PDF dla Java.
 ### [Przekreśl tekst za pomocą adnotacji](./strike-through-text-using-annotations/)
 Dowiedz się, jak dodawać przekreślone adnotacje tekstowe do dokumentów PDF za pomocą Aspose.PDF dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby precyzyjnie manipulować dokumentami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

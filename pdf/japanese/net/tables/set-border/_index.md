@@ -1,51 +1,56 @@
 ---
-title: .NET のAspose.PDFを使用して,ダブル境界表で PDF を作成する 
-weight: 7700
-limit: 
-description: 双面の表で PDF 文書を作成する方法について学びます. 簡単な設定説明やコード例が含まれています.  
-keywords: [Aspose PDF, .NET PDF example, double borders, PDF table, create PDF, Aspose documentation]
-url: /ja/net/tables/set-border/
+"description": "二重罫線付きの表を含むPDFドキュメントの作成方法を学びましょう。簡単な設定手順とコード例も含まれています。"
+"title": "Aspose.PDF for .NET を使用して二重罫線付きの表を含む PDF を作成する"
+"url": "/ja/net/tables/set-border/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDFを使用して,ダブル境界表で PDFを作成する
+# Aspose.PDF を使用して二重罫線付きの表を含む PDF を作成する
 
-この例では,セルの上と下側にダブル境界を持つテーブルを特徴とする.NET用のAspose.PDFを使用してPDF文書を作成する方法を示します.この機能をアプリケーションにシームレスに実装するには,手順の指示に従ってください.
+この例では、Aspose.PDF for .NET を使用して、セルの上下に二重罫線が引かれた表を含むPDFドキュメントを作成する方法を説明します。ステップバイステップの手順に従って、この機能をアプリケーションにシームレスに実装してください。
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/set-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## 設置説明書
-.NET のAspose.PDFを起動するには,以下のインストール手順に従ってください:
+## インストール手順
+Aspose.PDF for .NET を使い始めるには、次のインストール手順に従ってください。
 
-1. Aspose.PDFをダウンロードする 
-   * 訪問する[アポス・ウェブサイト](https://www.aspose.com/downloads/pdf/net)ダウンロードするには,このページをクリックしてください.
+1. Aspose.PDF をダウンロード: 
+   - 訪問 [Aspose ウェブサイト](https://www.aspose.com/downloads/pdf/net) Aspose.PDF for .NET の最新バージョンをダウンロードしてください。
 
-2. NuGet パッケージマネージャーでインストール:
-   * Visual Studio でプロジェクトを開きます.
-   * ツール > NuGet パッケージマネージャ > ソリューションのための NuGet パッケージを管理する
-   * Aspose.PDFを検索してパッケージをインストールします.
+2. NuGet パッケージ マネージャー経由でインストールします。
+   - Visual Studio でプロジェクトを開きます。
+   - [ツール] > [NuGet パッケージ マネージャー] > [ソリューションの NuGet パッケージの管理] に移動します。
+   - 「Aspose.PDF」を検索してパッケージをインストールします。
 
-3. 参照を追加する:
-   * プロジェクトにAspose.PDFDLLを参照していることを確認してください.`パッケージ`フォルダ
+3. 参照を追加:
+   - プロジェクトがAspose.PDF DLLを参照していることを確認してください。 `packages` フォルダ。
    
-4. プロジェクトにAspose.PDFの名前空間に追加する:  
+4. プロジェクトに Aspose.PDF 名前空間を含める:  
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Text;
    ```
 
-## 詳細は  
-[Aspose.PDF は .NET ドキュメンテーション](https://docs.aspose.com/pdf/net/)  
-[Aspose.PDF は .NET API 参照の](https://reference.aspose.com/pdf/net/) 
+## 詳細については、以下をご覧ください。  
+[Aspose.PDF for .NET ドキュメント](https://docs.aspose.com/pdf/net/)  
+[Aspose.PDF for .NET API リファレンス](https://reference.aspose.com/pdf/net/) 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

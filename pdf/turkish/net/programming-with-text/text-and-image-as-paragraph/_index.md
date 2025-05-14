@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Metin Ve Resim Paragraf Olarak
-linktitle: PDF Dosyasında Metin Ve Resim Paragraf Olarak
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak metin ve resimlerle PDF'ler oluşturun. Adım adım metin ve satır içi resimlerin nasıl ekleneceğini öğrenin.
-weight: 530
-url: /tr/net/programming-with-text/text-and-image-as-paragraph/
+"description": "Aspose.PDF for .NET kullanarak metin ve resimlerle PDF'ler oluşturun. Adım adım metin ve satır içi resimlerin nasıl ekleneceğini öğrenin."
+"linktitle": "PDF Dosyasında Metin Ve Resim Paragraf Olarak"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Metin Ve Resim Paragraf Olarak"
+"url": "/tr/net/programming-with-text/text-and-image-as-paragraph/"
+"weight": 530
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Metin Ve Resim Paragraf Olarak
@@ -21,12 +23,12 @@ Günümüzün dijital dünyasında, PDF'ler çoğumuzun günlük olarak karşıl
 
 Koda dalmadan önce, sorunsuz bir şekilde takip edebilmeniz için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.PDF for .NET Kütüphanesi: Aspose.PDF for .NET'i yüklemeniz gerekecek. İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF for .NET Kütüphanesi: Aspose.PDF for .NET'i yüklemeniz gerekecek. İndirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 - Visual Studio: .NET'i destekleyen herhangi bir sürüm sorunsuz çalışacaktır.
 - C# ile İlgili Temel Bilgiler: C# ile ilgili bazı bilgilere sahip olmak faydalı olacaktır ancak endişelenmeyin; her adımda size yol göstereceğim!
 - PDF Belgesi Hazır: Özel bir resim eklemek istiyorsanız, hazır bulundurun.
 
- Ayrıca kütüphanenin ücretsiz deneme sürümünü de alabilirsiniz[Burada](https://releases.aspose.com/) veya büyük ölçekli bir proje üzerinde çalışıyorsanız, satın almayı düşünün[Burada](https://purchase.aspose.com/buy) . Daha fazla ayrıntıya mı ihtiyacınız var? Belgelere göz atın[Burada](https://reference.aspose.com/pdf/net/).
+Ayrıca kütüphanenin ücretsiz deneme sürümünü de alabilirsiniz [Burada](https://releases.aspose.com/)veya büyük ölçekli bir proje üzerinde çalışıyorsanız, satın almayı düşünün [Burada](https://purchase.aspose.com/buy). Daha fazla ayrıntıya mı ihtiyacınız var? Belgelere göz atın [Burada](https://reference.aspose.com/pdf/net/).
 
 ## Paketleri İçe Aktar
 
@@ -57,7 +59,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Burada neler oluyor? Biz sadece şunu kullanarak yeni bir belge oluşturuyoruz:`Document`sınıfını ve PDF'yi kaydetmek istediğiniz dizini tanımlayın. Bu, şaheseriniz için yeni bir tuval açmak gibi!
+Burada neler oluyor? Biz sadece şunu kullanarak yeni bir belge oluşturuyoruz: `Document` sınıfını ve PDF'yi kaydetmek istediğiniz dizini tanımlayın. Bu, şaheseriniz için yeni bir tuval açmak gibi!
 
 ## Adım 2: PDF'nize Bir Sayfa Ekleyin
 
@@ -81,7 +83,7 @@ TextFragment text = new TextFragment("Hello World.. ");
 page.Paragraphs.Add(text);
 ```
 
- Burada bir tane yaratıyoruz`TextFragment` "Merhaba Dünya.." metnini tutan nesne, daha sonra sayfaya bir paragraf olarak eklenir. PDF belgenizin ilk cümlesini yazmak gibidir.
+Burada bir tane yaratıyoruz `TextFragment` "Merhaba Dünya.." metnini tutan nesne, daha sonra sayfaya bir paragraf olarak eklenir. PDF belgenizin ilk cümlesini yazmak gibidir.
 
 ## Adım 4: Bir Resmi Satır İçi Paragraf Olarak Ekleme
 
@@ -90,14 +92,14 @@ Artık metnimiz olduğuna göre, satır içi paragraf olarak bir resim ekleyerek
 ```csharp
 // Bir görüntü örneği oluşturun
 Aspose.Pdf.Image image = new Aspose.Pdf.Image();
-// Resmi satır içi paragraf olarak ayarlayın, böylece hemen sonra görünür
+// Resmi satır içi paragraf olarak ayarlayın, böylece hemen sonra görünür 
 // Önceki paragraf nesnesi (TextFragment)
 image.IsInLineParagraph = true;
-// Görüntü dosya yolunu belirtin
+// Görüntü dosya yolunu belirtin 
 image.File = dataDir + "aspose-logo.jpg";
 ```
 
- Bu kod parçacığında bir tane oluşturuyoruz`Image` nesne, metinle aynı hizada hizalanmasını söyleyin ve resim dosyasının yolunu belirtin. Bu, bir belgedeki bir cümlenin hemen ardından bir resim yapıştırmakla eşdeğerdir. "aspose-logo.jpg"yi istediğiniz resimle değiştirebilirsiniz.
+Bu kod parçacığında bir tane oluşturuyoruz `Image` nesne, metinle aynı hizada hizalanmasını söyleyin ve resim dosyasının yolunu belirtin. Bu, bir belgedeki bir cümlenin hemen ardından bir resim yapıştırmaya eşdeğerdir. "aspose-logo.jpg"yi istediğiniz resimle değiştirebilirsiniz.
 
 ## Adım 5: Görüntü Boyutunu Ayarlayın (İsteğe bağlı)
 
@@ -136,7 +138,7 @@ text.IsInLineParagraph = true;
 page.Paragraphs.Add(text);
 ```
 
- Biz yeniden kullanıyoruz`TextFragment`nesneyi buraya yeni metinle ("Merhaba Tekrar..") ekleyin ve onu satır içi olarak, resmin hemen sonrasına yerleştirin. Bu, PDF'nize akıcı, tutarlı bir görünüm kazandırır.
+Biz yeniden kullanıyoruz `TextFragment` nesneyi buraya yeni metinle ("Merhaba Tekrar..") ekleyin ve onu satır içi olarak, resmin hemen sonrasına yerleştirin. Bu, PDF'nize akıcı, tutarlı bir görünüm kazandırır.
 
 ## Adım 8: PDF Belgesini Kaydedin
 
@@ -157,22 +159,24 @@ Ve işte karşınızda—Aspose.PDF for .NET kullanarak satır içi paragraflar 
 ## SSS
 
 ### Satır içi paragraflara birden fazla resim ekleyebilir miyim?  
- Evet, ayrı ayrı resimler oluşturarak birden fazla resim ekleyebilirsiniz.`Image` nesneleri ve paragraf koleksiyonuna ekleme.
+Evet, ayrı ayrı resimler oluşturarak birden fazla resim ekleyebilirsiniz. `Image` nesneleri ve paragraf koleksiyonuna ekleme.
 
 ### PDF'deki metnin ve görselin konumunu kontrol edebilir miyim?  
 Evet, kenar boşlukları gibi özellikleri kullanarak metninizin ve görsellerinizin tam yerleşimini kontrol edebilirsiniz.
 
 ### Aspose.PDF for .NET ücretsiz mi?  
- Hayır, lisanslı bir ürün ama bir tane alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) veya bir lisans satın alın[Burada](https://purchase.aspose.com/buy).
+Hayır, lisanslı bir ürün ama bir tane alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) veya bir lisans satın alın [Burada](https://purchase.aspose.com/buy).
 
 ### Metne köprü metni ekleyebilir miyim?  
- Evet, Aspose.PDF metin parçalarına köprüler eklemenize olanak tanır.[belgeleme](https://reference.aspose.com/pdf/net/) Daha detaylı bilgi için.
+Evet, Aspose.PDF metin parçalarına köprüler eklemenize olanak tanır. [belgeleme](https://reference.aspose.com/pdf/net/) Daha detaylı bilgi için.
 
 ### Metnin yazı tipini ve stilini özelleştirebilir miyim?  
 Kesinlikle! Metin parçalarının yazı tiplerini, renklerini ve diğer stil özelliklerini kolayca özelleştirebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

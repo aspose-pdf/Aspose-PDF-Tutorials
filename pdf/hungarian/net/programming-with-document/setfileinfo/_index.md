@@ -1,39 +1,41 @@
 ---
-title: Állítsa be a fájl adatait a PDF-fájlban
-linktitle: Állítsa be a fájl adatait a PDF-fájlban
-second_title: Aspose.PDF for .NET API Reference
-description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan állíthat be fájladatokat PDF-dokumentumokban az Aspose.PDF for .NET használatával. Egyszerűen javíthatja PDF-fájljait metaadatokkal.
-weight: 310
-url: /hu/net/programming-with-document/setfileinfo/
+"description": "Tanulja meg, hogyan állíthat be fájlinformációkat PDF dokumentumokban az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. PDF fájljai egyszerűen metaadatokkal bővíthetők."
+"linktitle": "Fájlinformációk beállítása PDF fájlban"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Fájlinformációk beállítása PDF fájlban"
+"url": "/hu/net/programming-with-document/setfileinfo/"
+"weight": 310
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be a fájl adatait a PDF-fájlban
+# Fájlinformációk beállítása PDF fájlban
 
 ## Bevezetés
 
-A PDF-fájlok kezelésénél kulcsfontosságú a dokumentumok metaadatainak ellenőrzése. Akár szerzői információkat, kulcsszavakat vagy akár tárgysort szeretne hozzáadni, az Aspose.PDF for .NET zökkenőmentes módot kínál a fájladatok megadására PDF-dokumentumaiban. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton, biztosítva, hogy a folyamat során megértse a kód minden részét. Tehát fogd a kódoló kalapod, és merüljünk el a PDF-manipuláció világában!
+PDF-fájlok kezelésekor kulcsfontosságú a dokumentum metaadatainak feletti ellenőrzés. Akár szerzői információkat, kulcsszavakat vagy akár tárgysort szeretne hozzáadni, az Aspose.PDF for .NET zökkenőmentes módot kínál a fájladatok PDF-dokumentumokban való beállítására. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton, biztosítva, hogy a kód minden egyes részét megértse. Tehát ragadja meg a programozó sapkáját, és merüljünk el a PDF-manipuláció világában!
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, néhány dolgot meg kell tennie:
+Mielőtt belekezdenénk, van néhány dolog, aminek a helyén kell lennie:
 
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Itt kell írni és végrehajtani a .NET kódot.
+1. Visual Studio: Győződjön meg róla, hogy a Visual Studio telepítve van a gépén. Itt fogja írni és végrehajtani a .NET kódot.
    
-2.  Aspose.PDF .NET-hez: Le kell töltenie és telepítenie kell az Aspose.PDF könyvtárat. Beszerezheti a[Aspose Letöltések oldal](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF .NET-hez: Le kell töltened és telepítened az Aspose.PDF könyvtárat. Letöltheted innen: [Aspose letöltési oldal](https://releases.aspose.com/pdf/net/).
 
-3. Alapvető C# ismerete: A C# programozás ismerete segít megérteni az általunk használt kódrészleteket.
+3. C# alapismeretek: A C# programozással való ismeret segít megérteni a használni kívánt kódrészleteket.
 
-4.  PDF-fájl: Készítsen egy minta PDF-fájlt, amelyet módosítani szeretne. Ebben az oktatóanyagban a következőképpen fogunk hivatkozni rá:`SetFileInfo.pdf`.
+4. PDF-fájl: Készítsen elő egy minta PDF-fájlt, amelyet módosítani szeretne. Ebben az oktatóanyagban a következőképpen fogjuk megnevezni: `SetFileInfo.pdf`.
 
-Ha mindezt beállította, készen állunk, hogy belevágjunk a kódba!
+Miután mindent beállítottál, elkezdhetjük a kódot!
 
 ## Csomagok importálása
 
-A kezdéshez importálnia kell a szükséges csomagokat, amelyek lehetővé teszik a PDF fájlokkal való munkát. A C# projektben adja hozzá a következőket a kódfájl tetején található direktívák használatával:
+A kezdéshez importálnod kell a szükséges csomagokat, amelyek lehetővé teszik a PDF fájlokkal való munkát. A C# projektedben add hozzá a következőket direktívák használatával a kódfájl elejéhez:
 
 ```csharp
 using System;
@@ -41,44 +43,44 @@ using System.IO;
 using Aspose.Pdf;
 ```
 
-Ezek a névterek hozzáférést biztosítanak a PDF-dokumentumok hatékony kezeléséhez szükséges osztályokhoz és módszerekhez.
+Ezek a névterek hozzáférést biztosítanak a PDF dokumentumok hatékony kezeléséhez szükséges osztályokhoz és metódusokhoz.
 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár meghatározása
 
-Először is meg kell adnia a könyvtárat, ahol a PDF-fájl található. Ez döntő fontosságú, mert a fájlt erről az útvonalról fogja megnyitni.
+Először is meg kell adnod azt a könyvtárat, ahol a PDF fájlod található. Ez azért fontos, mert erről az elérési útról fogod megnyitni a fájlt.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Magyarázat: Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a mappát tartalmazó mappa tényleges elérési útjával`SetFileInfo.pdf`. Ez megmondja a programnak, hogy hol keresse a PDF-fájlt.
+Magyarázat: Csere `"YOUR DOCUMENT DIRECTORY"` a mappa tényleges elérési útjával, amely tartalmazza a `SetFileInfo.pdf`Ez megmondja a programnak, hogy hol keresse a PDF fájlt.
 
-## 2. lépés: Nyissa meg a PDF-dokumentumot
+## 2. lépés: Nyissa meg a PDF dokumentumot
 
- Ezután nyissa meg a módosítani kívánt PDF-dokumentumot. Ez a`Document` osztály az Aspose.PDF könyvtárból.
+Ezután nyissuk meg a módosítani kívánt PDF dokumentumot. Ezt a következővel tehetjük meg: `Document` osztály az Aspose.PDF könyvtárból.
 
 ```csharp
-// Nyissa meg a dokumentumot
+// Dokumentum megnyitása
 Document pdfDocument = new Document(dataDir + "SetFileInfo.pdf");
 ```
 
- Magyarázat: Itt létrehozzuk a`Document`osztályt, és adja át a PDF fájl elérési útját. Ezzel betölti a dokumentumot a memóriába, és készen áll a szerkesztésre.
+Magyarázat: Itt létrehozunk egy új példányt a `Document` osztályt, és adja meg a PDF fájl elérési útját. Ez betölti a dokumentumot a memóriába, készen áll a szerkesztésre.
 
-## 3. lépés: Hozzon létre dokumentuminformációs objektumot
+## 3. lépés: Dokumentuminformációs objektum létrehozása
 
-Most, hogy a dokumentum nyitva van, létre kell hoznunk egy objektumot, amely a dokumentum információit fogja tárolni.
+Most, hogy megnyitottuk a dokumentumot, létre kell hoznunk egy objektumot, amely a dokumentum adatait fogja tárolni.
 
 ```csharp
-// Adja meg a dokumentum adatait
+// Dokumentumadatok megadása
 DocumentInfo docInfo = new DocumentInfo(pdfDocument);
 ```
 
- Magyarázat: A`DocumentInfo` osztály lehetővé teszi különböző metaadat-tulajdonságok beállítását a PDF-hez. Ez az objektum olyan információk tárolására szolgál, mint a szerző, a létrehozás dátuma stb.
+Magyarázat: A `DocumentInfo` osztály lehetővé teszi számunkra, hogy különféle metaadat-tulajdonságokat állítsunk be a PDF-hez. Ez az objektum olyan információk tárolására szolgál, mint a szerző, a létrehozási dátum és egyebek.
 
-## 4. lépés: Állítsa be a dokumentum metaadatait
+## 4. lépés: Dokumentum metaadatainak beállítása
 
- A`DocumentInfo` az objektum készen áll, ideje feltölteni a megfelelő metaadatokkal. Itt adhatja meg a szerzőt, a létrehozás dátumát, a kulcsszavakat, a módosítás dátumát, a tárgyat és a dokumentum címét.
+A `DocumentInfo` Miután az objektum elkészült, itt az ideje feltölteni a vonatkozó metaadatokkal. Itt adhatja meg a dokumentum szerzőjét, létrehozási dátumát, kulcsszavait, módosítási dátumát, tárgyát és címét.
 
 ```csharp
 docInfo.Author = "Aspose";
@@ -89,53 +91,55 @@ docInfo.Subject = "PDF Information";
 docInfo.Title = "Setting PDF Document Information";
 ```
 
- Magyarázat: Minden sor a dokumentum egy adott tulajdonságát állítja be. Például,`docInfo.Author` beállítja a szerző nevét, míg`docInfo.CreationDate` beállítja a dokumentum létrehozásának dátumát. Ezeket az értékeket szükség szerint személyre szabhatja.
+Magyarázat: Minden sor a dokumentum egy adott tulajdonságát állítja be. Például: `docInfo.Author` beállítja a szerző nevét, miközben `docInfo.CreationDate` beállítja a dokumentum létrehozásának dátumát. Ezeket az értékeket szükség szerint testreszabhatja.
 
-## 5. lépés: Mentse el a dokumentumot
+## 5. lépés: A dokumentum mentése
 
-kívánt metaadatok beállítása után a következő lépés a módosított PDF mentése. Meg kell adnia egy új elérési utat a kimeneti fájlhoz.
+A kívánt metaadatok beállítása után a következő lépés a módosított PDF mentése. Meg kell adnia egy új elérési utat a kimeneti fájl számára.
 
 ```csharp
 dataDir = dataDir + "SetFileInfo_out.pdf";
-// Mentse a kimeneti dokumentumot
+// Kimeneti dokumentum mentése
 pdfDocument.Save(dataDir);
 ```
 
- Magyarázat: Itt, hozzáfűzzük`_out.pdf` az eredeti fájlnévre, hogy új fájlt hozzon létre a módosított dokumentumhoz. A`Save` metódus, majd beírja a módosításokat az új fájlba.
+Magyarázat: Itt hozzáfűzzük `_out.pdf` az eredeti fájlnévre, hogy új fájlt hozzon létre a módosított dokumentumhoz. `Save` A metódus ezután kiírja a módosításokat ebbe az új fájlba.
 
-## 6. lépés: Erősítse meg a változtatásokat
+## 6. lépés: A változtatások megerősítése
 
-Végül mindig jó ötlet ellenőrizni, hogy az információ helyesen lett-e beállítva. Ezt úgy teheti meg, hogy sikerüzenetet nyomtat a konzolra.
+Végül mindig jó ötlet megerősíteni, hogy az információk helyesen lettek beállítva. Ezt úgy teheted meg, hogy egy sikeres üzenetet írsz a konzolra.
 
 ```csharp
 Console.WriteLine("\nFile informations setup successfully.\nFile saved at " + dataDir);
 ```
 
-Magyarázat: Ez a sor egy üzenetet ad ki, amely jelzi, hogy a fájl sikeresen el lett mentve, az új fájl elérési útjával együtt. Ez egy egyszerű módja annak, hogy minden a terv szerint haladjon.
+Magyarázat: Ez a sor egy üzenetet jelenít meg, amely jelzi, hogy a fájl mentése sikeresen megtörtént, valamint az új fájl elérési útját. Ez egy egyszerű módja annak, hogy megbizonyosodjunk arról, hogy minden a terv szerint ment.
 
 ## Következtetés
 
-fájladatok beállítása PDF-dokumentumokban az Aspose.PDF for .NET használatával egyszerű folyamat, amely nagymértékben javíthatja a PDF-fájlok használhatóságát. Ha követi ezeket a lépéseket, könnyen hozzáadhat metaadatokat, például a szerzőt, a létrehozás dátumát és egyebeket, így a dokumentumok informatívabbak és professzionálisabbak. Függetlenül attól, hogy PDF-eket generáló alkalmazásokat fejleszt, vagy egyszerűen csak jobban szeretné kezelni a dokumentumokat, az Aspose.PDF biztosítja a munka hatékony elvégzéséhez szükséges eszközöket.
+A PDF dokumentumokban található fájlinformációk beállítása az Aspose.PDF for .NET segítségével egy egyszerű folyamat, amely jelentősen javíthatja a PDF-ek használhatóságát. A következő lépéseket követve könnyedén hozzáadhat metaadatokat, például a szerzőt, a létrehozási dátumot és egyebeket, így dokumentumai informatívabbak és professzionálisabbak lesznek. Akár PDF-eket generáló alkalmazásokat fejleszt, akár egyszerűen csak jobban szeretné kezelni dokumentumait, az Aspose.PDF biztosítja a hatékony munkavégzéshez szükséges eszközöket.
 
 ## GYIK
 
-### Mi az Aspose.PDF for .NET?
-Az Aspose.PDF for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára PDF-dokumentumok programozott létrehozását, kezelését és konvertálását.
+### Mi az Aspose.PDF .NET-hez?
+Az Aspose.PDF for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, szerkesszenek és konvertáljanak PDF dokumentumokat.
 
-### Használhatom ingyenesen az Aspose.PDF-et?
- Igen, az Aspose ingyenes próbaverziót kínál, amellyel értékelheti a könyvtárat. Látogassa meg a[Ingyenes próbaoldal](https://releases.aspose.com/) további információkért.
+### Ingyenesen használhatom az Aspose.PDF fájlt?
+Igen, az Aspose ingyenes próbaverziót kínál, amellyel kiértékelheti a könyvtárat. Látogassa meg a [Ingyenes próbaoldal](https://releases.aspose.com/) további információkért.
 
 ### Hol találom a dokumentációt?
- Az Aspose.PDF teljes dokumentációja megtalálható[itt](https://reference.aspose.com/pdf/net/).
+Az Aspose.PDF teljes dokumentációja megtalálható itt: [itt](https://reference.aspose.com/pdf/net/).
 
-### Hogyan vásárolhatom meg az Aspose.PDF-et?
- Az Aspose.PDF licencét a következőn keresztül vásárolhatja meg[vásárlási oldal](https://purchase.aspose.com/buy).
+### Hogyan vásárolhatom meg az Aspose.PDF fájlt?
+Az Aspose.PDF licencét a következő címen vásárolhatja meg: [vásárlási oldal](https://purchase.aspose.com/buy).
 
 ### Mi van, ha támogatásra van szükségem?
-Ha bármilyen kérdése van, vagy segítségre van szüksége, keresse fel a[Aspose támogatási fórum](https://forum.aspose.com/c/pdf/10).
+Ha bármilyen kérdése van, vagy segítségre van szüksége, látogasson el a [Aspose Támogatási Fórum](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

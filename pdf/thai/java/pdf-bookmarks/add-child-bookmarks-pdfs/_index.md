@@ -1,14 +1,16 @@
 ---
-title: เพิ่มบุ๊กมาร์กย่อยลงใน PDF
-linktitle: เพิ่มบุ๊กมาร์กย่อยลงใน PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการปรับปรุงเอกสาร PDF ด้วยบุ๊กมาร์กย่อยโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการนำทางและการจัดระเบียบที่ดีขึ้น
-weight: 11
-url: /th/java/pdf-bookmarks/add-child-bookmarks-pdfs/
+"description": "เรียนรู้วิธีการปรับปรุงเอกสาร PDF ด้วยบุ๊กมาร์กย่อยโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการนำทางและการจัดระเบียบที่ดีขึ้น"
+"linktitle": "เพิ่มบุ๊กมาร์กย่อยลงใน PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มบุ๊กมาร์กย่อยลงใน PDF"
+"url": "/th/java/pdf-bookmarks/add-child-bookmarks-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มบุ๊กมาร์กย่อยลงใน PDF
@@ -23,7 +25,7 @@ url: /th/java/pdf-bookmarks/add-child-bookmarks-pdfs/
 ก่อนที่จะเจาะลึกการใช้งานจริง ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - สภาพแวดล้อมการพัฒนา Java ติดตั้งอยู่บนระบบของคุณ
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การจัดเตรียมสภาพแวดล้อม
 
@@ -79,7 +81,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//เพิ่มบุ๊กมาร์กย่อยลงในบุ๊กมาร์กหลัก 2
+// เพิ่มบุ๊กมาร์กย่อยลงในบุ๊กมาร์กหลัก 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -154,7 +156,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//เพิ่มบุ๊กมาร์กย่อยลงในบุ๊กมาร์กหลัก 2
+// เพิ่มบุ๊กมาร์กย่อยลงในบุ๊กมาร์กหลัก 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -180,7 +182,7 @@ pdfDocument.save("output.pdf");
 
 ### ฉันสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้อย่างไร
 
- คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์[ที่นี่](https://releases.aspose.com/pdf/java/).
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ### โปรแกรมดู PDF ทั้งหมดรองรับบุ๊กมาร์กย่อยหรือไม่
 
@@ -190,16 +192,18 @@ pdfDocument.save("output.pdf");
 
 ใช่ คุณสามารถปรับแต่งลักษณะที่ปรากฏของบุ๊กมาร์กได้โดยการปรับแต่งรูปแบบข้อความ สีและไอคอนให้เหมาะกับการออกแบบเอกสารของคุณ
 
-### ฉันสามารถเพิ่มการกระทำอื่น ๆ อะไรลงในบุ๊กมาร์กได้บ้าง
+### ฉันสามารถเพิ่มการกระทำอื่นๆ อะไรลงในบุ๊กมาร์กได้บ้าง
 
 นอกจากการดำเนินการ "GoTo" แล้ว คุณสามารถเพิ่มการดำเนินการต่างๆ เช่น การดำเนินการ "URI" เพื่อเปิดลิงก์เว็บ หรือการดำเนินการ "JavaScript" เพื่อรันสคริปต์ที่กำหนดเองเมื่อมีการคลิกที่บุ๊กมาร์ก
 
 ### Aspose.PDF สำหรับ Java เหมาะกับโปรเจ็กต์เชิงพาณิชย์หรือไม่
 
 ใช่ Aspose.PDF สำหรับ Java เหมาะสำหรับทั้งโปรเจ็กต์ส่วนบุคคลและเชิงพาณิชย์ และยังมีฟีเจอร์ต่างๆ มากมายสำหรับการจัดการและสร้าง PDF
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,41 +1,43 @@
 ---
-title: Otočit Text pomocí fragmentu textu a odstavce
-linktitle: Otočit Text pomocí fragmentu textu a odstavce
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se otáčet text pomocí fragmentu textu a odstavce v dokumentu PDF pomocí Aspose.PDF for .NET.
-weight: 400
-url: /cs/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/
+"description": "Naučte se, jak otáčet text pomocí fragmentu textu a odstavce v dokumentu PDF pomocí Aspose.PDF pro .NET."
+"linktitle": "Otočení textu pomocí fragmentu textu a odstavce"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Otočení textu pomocí fragmentu textu a odstavce"
+"url": "/cs/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/"
+"weight": 400
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Otočit Text pomocí fragmentu textu a odstavce
+# Otočení textu pomocí fragmentu textu a odstavce
 
 ## Zavedení
 
-Pokud jde o generování dynamických dokumentů, soubory PDF jsou zlatým standardem. Díky své univerzální přitažlivosti a očekávané profesionalitě se soubory PDF běžně používají v různých odvětvích, včetně právního, vzdělávacího a podnikového prostředí. V tomto článku se blíže podíváme na to, jak využít Aspose.PDF pro .NET k vytvoření dokumentu PDF s otočenými fragmenty textu – ideální pro přidání šmrncu do vašich dokumentů nebo zdůraznění důležitých informací. Začněme!
+Pokud jde o generování dynamických dokumentů, PDF soubory jsou zlatým standardem. Díky své univerzální přitažlivosti a očekávané profesionalitě se PDF soubory běžně používají v různých odvětvích, včetně právního, vzdělávacího a korporátního prostředí. V tomto článku se blíže podíváme na to, jak využít Aspose.PDF pro .NET k vytvoření PDF dokumentu s otočenými textovými fragmenty – ideální pro přidání šmrncu do vašich dokumentů nebo zdůraznění důležitých informací. Začněme!
 
 ## Předpoklady
 
-Než se ponoříte do technických matic a šroubů, ujistěte se, že máte na svém místě několik věcí:
+Než se pustíte do technických detailů, ujistěte se, že máte připraveno několik věcí:
 
-1. Základní porozumění .NET Framework: Znalost C# nebo VB.NET bude přínosem, protože Aspose.PDF bezproblémově spolupracuje s aplikacemi .NET.
+1. Základní znalost .NET Frameworku: Znalost C# nebo VB.NET bude výhodou, protože Aspose.PDF bez problémů funguje s .NET aplikacemi.
   
-2.  Aspose.PDF for .NET Library: Budete potřebovat knihovnu Aspose.PDF. Nedělejte si starosti; je snadné stáhnout! Můžete to chytit přímo zde:[Stáhněte si Aspose.PDF pro .NET](https://releases.aspose.com/pdf/net/).
+2. Knihovna Aspose.PDF pro .NET: Budete potřebovat knihovnu Aspose.PDF. Nebojte se, je snadné ji stáhnout! Můžete si ji stáhnout přímo zde: [Stáhnout Aspose.PDF pro .NET](https://releases.aspose.com/pdf/net/).
 
-3. Vývojové prostředí: Můžete použít jakékoli IDE, které podporuje vývoj .NET, jako je Visual Studio. Ujistěte se, že vaše IDE má přístup ke stažené knihovně Aspose.PDF.
+3. Vývojové prostředí: Můžete použít jakékoli IDE, které podporuje vývoj v .NET, například Visual Studio. Ujistěte se, že vaše IDE má přístup ke stažené knihovně Aspose.PDF.
 
-4.  Dočasná licence (volitelné): I když můžete začít s bezplatnou zkušební verzí, pokud potřebujete vytvořit produkční aplikaci, zvažte pořízení[dočasná licence](https://purchase.aspose.com/temporary-license/) pro kompletní funkčnost.
+4. Dočasná licence (volitelné): I když můžete začít s bezplatnou zkušební verzí, pokud potřebujete vytvořit produkční aplikaci, zvažte pořízení [dočasná licence](https://purchase.aspose.com/temporary-license/) pro plnou funkčnost.
 
-5. Připojení k internetu: Může se to zdát jako samozřejmost, ale budete jej potřebovat pro přístup k online dokumentaci, kde najdete další pokyny a řešení problémů.
+5. Připojení k internetu: Může se to zdát jako samozřejmost, ale budete ho potřebovat pro přístup k online dokumentaci s dalšími pokyny a řešením problémů.
 
-Jakmile budete mít své předpoklady vyřešené, je čas se vrhnout do akce!
+Jakmile máte splněny všechny předpoklady, je čas pustit se do akce!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než začneme s kódovací částí, musíme se ujistit, že do našeho .NET projektu importujeme potřebné balíčky. 
+Než se pustíme do kódování, musíme se ujistit, že jsme do našeho .NET projektu importovali potřebné balíčky. 
 
 Chcete-li začít, ujistěte se, že v horní části souboru C# používáte následující jmenné prostory:
 
@@ -47,11 +49,11 @@ using Aspose.Pdf.Text;
 using Aspose.Pdf.Facades;
 ```
 
-To vám umožní přístup k funkcím manipulace s dokumenty PDF a textovým funkcím, které poskytuje knihovna Aspose.PDF.
+To vám umožní přístup k funkcím pro manipulaci s PDF dokumenty a textovým funkcím poskytovaným knihovnou Aspose.PDF.
 
-Nyní začíná zábava! Vytvoříme jednoduchou aplikaci pro generování dokumentu PDF obsahujícího standardní i otočené fragmenty textu. Zhluboka se nadechněte a pojďme si to projít krok za krokem.
+teď začíná zábava! Vytvoříme jednoduchou aplikaci pro generování PDF dokumentu obsahujícího standardní i otočené textové fragmenty. Zhluboka se nadechněte a pojďme si to krok za krokem projít.
 
-## Krok 1: Inicializujte objekt dokumentu
+## Krok 1: Inicializace objektu dokumentu
 
 V tomto kroku vytvoříme nový dokument PDF.
 
@@ -62,136 +64,138 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document();
 ```
 
-Tento řádek kódu nám nastavuje nové plátno pro vytváření našeho obsahu. Představte si to jako nalít na plátno čerstvou dávku barvy. Je to vzrušující!
+Tento řádek kódu nám připraví nové plátno pro tvorbu našeho obsahu. Představte si to jako nalití čerstvé dávky barvy na plátno. Je to vzrušující!
 
-## Krok 2: Přidejte stránku
+## Krok 2: Přidání stránky
 
-Dále musíme do našeho dokumentu přidat stránku. Tady se stane kouzlo.
+Dále musíme do našeho dokumentu přidat stránku. Tady se začne dít ta pravá magie.
 
 ```csharp
-// Získejte konkrétní stránku
+// Získat konkrétní stránku
 Page pdfPage = (Page)pdfDocument.Pages.Add();
 ```
 
-Představte si tento krok jako položení základů pro vaše mistrovské dílo. Bez stránky nelze nic malovat ani psát!
+Představte si tento krok jako položení základů pro vaše mistrovské dílo. Bez stránky se nedá nic namalovat ani napsat!
 
 ## Krok 3: Vytvořte svůj první textový fragment
 
-Nyní do našeho PDF přidáme nějaký text. Začněme se standardním fragmentem textu.
+Nyní do našeho PDF přidáme nějaký text. Začněme standardním textovým fragmentem.
 
 ```csharp
-// Vytvořte fragment textu
+// Vytvořit fragment textu
 TextFragment textFragment1 = new TextFragment("main text");
-// Nastavte vlastnosti textu
+// Nastavení vlastností textu
 textFragment1.TextState.FontSize = 12;
 textFragment1.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 ```
 
-Zde jsme vytvořili náš první textový fragment s názvem`textFragment1`. Nastavili jsme také vlastnosti jeho písma – víte, aby vypadalo dobře!
+Zde jsme vytvořili náš první textový fragment s názvem `textFragment1`Také jsme nastavili vlastnosti písma – víte, aby to vypadalo dobře!
 
-## Krok 4: Přidejte na stránku první textový fragment
+## Krok 4: Přidání prvního textového fragmentu na stránku
 
-Když je náš fragment textu připraven, je čas jej umístit na stránku.
+S připraveným fragmentem textu je čas ho umístit na stránku.
 
 ```csharp
 pdfPage.Paragraphs.Add(textFragment1);
 ```
 
-Tento kód v podstatě umístí váš standardní text na plátno. Je to jako položit štětec na plátno a vytvořit první linii svého uměleckého díla!
+Tento kód v podstatě umístí váš standardní text na plátno. Je to jako byste položili štětec na plátno a vytvořili tak první řádek svého díla!
 
 ## Krok 5: Vytvořte otočené textové fragmenty
 
-Dále přidáme nějaký otočený text, abychom upoutali pozornost. Pusťme se do toho.
+Dále přidáme trochu otočeného textu, aby upoutal pozornost. Pojďme se na to pustit.
 
 ### Vytvoření prvního otočeného textového fragmentu
 
 ```csharp
-// Vytvořte fragment textu
+// Vytvořit fragment textu
 TextFragment textFragment2 = new TextFragment("rotated text");
-// Nastavte vlastnosti textu
+// Nastavení vlastností textu
 textFragment2.TextState.FontSize = 12;
 textFragment2.TextState.Font = FontRepository.FindFont("TimesNewRoman");
-// Nastavte rotaci
+// Nastavit rotaci
 textFragment2.TextState.Rotation = 315;
 ```
 
- V tomto úryvku jsme vytvořili textový fragment s názvem`textFragment2`. Nastavili jsme jeho rotaci na 315 stupňů, což je naklonění pěkně, ale ne úplně vzhůru nohama. To by mohlo představovat text, který potřebuje trochu vkusu!
+V tomto úryvku jsme vytvořili textový fragment s názvem `textFragment2`Nastavili jsme jeho rotaci na 315 stupňů, což je sice pěkně nakloněné, ale ne úplně vzhůru nohama. To by mohlo představovat text, který potřebuje trochu vylepšit!
 
 ### Přidání otočeného textového fragmentu na stránku
 
-Je čas přidat tento poutavý text také na stránku!
+Je čas přidat na stránku i tento poutavý text!
 
 ```csharp
 pdfPage.Paragraphs.Add(textFragment2);
 ```
 
-Skvělé, že? Je to jako přidat na plátno šplouchnutí barvy, aby se věci opravdu rozproudily!
+Skvělé, že? Je to jako přidat na plátno trochu barvy, aby to opravdu vyniklo!
 
-### Vytvoření dalšího otočeného textového fragmentu
+### Vytvoření dalšího otočeného fragmentu textu
 
-Pro dobrou míru přidáme další otočený fragment textu.
+Pro jistotu přidejme další otočený fragment textu.
 
 ```csharp
-// Vytvořte fragment textu
+// Vytvořit fragment textu
 TextFragment textFragment3 = new TextFragment("another rotated text");
-// Nastavte vlastnosti textu
+// Nastavení vlastností textu
 textFragment3.TextState.FontSize = 12;
 textFragment3.TextState.Font = FontRepository.FindFont("TimesNewRoman");
-// Nastavte rotaci
+// Nastavit rotaci
 textFragment3.TextState.Rotation = 270;
 ```
 
-Stejně jako předtím přidáváme další část otočeného textu. Tentokrát se otočil o 270 stupňů – takže je téměř vzhůru nohama!
+Stejně jako předtím přidáváme další otočený text. Tentokrát je otočený o 270 stupňů – takže je téměř vzhůru nohama!
 
-## Krok 6: Přidejte na stránku druhý otočený textový fragment
+## Krok 6: Přidání druhého otočeného textového fragmentu na stránku
 
-Nyní přidáme tento poslední dotek.
+A teď přidejme tento poslední detail.
 
 ```csharp
 pdfPage.Paragraphs.Add(textFragment3);
 ```
 
-Stejně tak máte několik otočených fragmentů textu, které spolupracují na plátně!
+Prostě takhle máte na plátně několik otočených fragmentů textu, které spolupracují!
 
 ## Krok 7: Uložte dokument
 
-Nyní, když máme dokument nabitý fantastickými prvky, dokončeme věci jeho uložením.
+Nyní, když máme dokument plný fantastických prvků, pojďme to dokončit jeho uložením.
 
 ```csharp
 // Uložit dokument
 pdfDocument.Save(dataDir + "TextFragmentTests_Rotated3_out.pdf");
 ```
 
-A tady to máte; vaše kreativní mistrovské dílo bylo uloženo ve formátu PDF. Můžete si to představit jako vystavení vašeho uměleckého díla v galerii – je připraveno, aby ho viděl celý svět!
+A tady to máte; vaše kreativní mistrovské dílo bylo uloženo ve formátu PDF. Můžete si to představit jako vystavení svého uměleckého díla v galerii – je připraveno pro svět!
 
 ## Závěr
 
-Gratuluji! Právě jste vytvořili dynamický dokument PDF se standardními i otočenými fragmenty textu pomocí Aspose.PDF for .NET. To otevírá svět možností, jak můžete prezentovat své informace. Tyto techniky vám pomohou dosáhnout vašich cílů, ať už potřebujete zdůraznit klíčové body ve zprávě nebo jen chcete dodat svým dokumentům vizuální šmrnc.
+Gratulujeme! Právě jste vytvořili dynamický PDF dokument se standardními i rotovanými textovými fragmenty pomocí Aspose.PDF pro .NET. To otevírá svět možností, jak prezentovat informace. Ať už potřebujete zdůraznit klíčové body ve zprávě, nebo chcete svým dokumentům jen dodat vizuální šmrnc, tyto techniky vám pomohou dosáhnout vašich cílů.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
 
-Aspose.PDF for .NET je robustní knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory PDF pomocí aplikací .NET.
+Aspose.PDF pro .NET je robustní knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory PDF pomocí aplikací .NET.
 
 ### Mohu použít Aspose.PDF ve webové aplikaci?
 
-Absolutně! Aspose.PDF lze integrovat do jakékoli aplikace .NET, včetně webových aplikací, desktopových aplikací a služeb.
+Rozhodně! Aspose.PDF lze integrovat do jakékoli .NET aplikace, včetně webových aplikací, desktopových aplikací a služeb.
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.PDF?
 
- Ano, před nákupem můžete využít bezplatnou zkušební verzi a prozkoumat jeho funkce. Podívejte se na[Aspose zkušební verze zdarma](https://releases.aspose.com/).
+Ano, před nákupem si můžete vyzkoušet bezplatnou zkušební verzi. Podívejte se na [Bezplatná zkušební verze Aspose](https://releases.aspose.com/).
 
 ### Jak mohu otočit text v PDF pomocí Aspose.PDF?
 
- Text můžete otáčet nastavením`Rotation` majetek a`TextFragment` objekt, jak je ukázáno v tomto tutoriálu.
+Text můžete otočit nastavením `Rotation` majetek `TextFragment` objekt, jak je ukázáno v tomto tutoriálu.
 
 ### Kde najdu podporu pro Aspose.PDF?
 
- V případě jakékoli podpory nebo dotazů můžete navštívit stránku[Aspose Support Forum](https://forum.aspose.com/c/pdf/10).
+V případě jakékoli podpory nebo dotazů můžete navštívit [Fórum podpory Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

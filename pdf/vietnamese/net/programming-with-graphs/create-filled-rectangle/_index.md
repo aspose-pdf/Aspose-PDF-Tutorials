@@ -1,14 +1,16 @@
 ---
-title: Tạo hình chữ nhật đã tô
-linktitle: Tạo hình chữ nhật đã tô
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo hình chữ nhật tô màu trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ.
-weight: 50
-url: /vi/net/programming-with-graphs/create-filled-rectangle/
+"description": "Tìm hiểu cách tạo hình chữ nhật tô màu trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ."
+"linktitle": "Tạo hình chữ nhật đã tô"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo hình chữ nhật đã tô"
+"url": "/vi/net/programming-with-graphs/create-filled-rectangle/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo hình chữ nhật đã tô
@@ -22,7 +24,7 @@ Bạn đã bao giờ muốn tạo PDF hấp dẫn về mặt hình ảnh theo ch
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là IDE tuyệt vời cho phát triển .NET.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -56,11 +58,11 @@ Trước tiên, bạn cần chỉ định đường dẫn nơi tệp PDF của b
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn nơi bạn muốn lưu tệp PDF.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn nơi bạn muốn lưu tệp PDF.
 
 ## Bước 2: Tạo một phiên bản tài liệu
 
- Tiếp theo, chúng ta sẽ tạo một phiên bản của`Document`lớp. Lớp này đại diện cho tài liệu PDF mà bạn sẽ làm việc.
+Tiếp theo, chúng ta sẽ tạo một phiên bản của `Document` lớp. Lớp này đại diện cho tài liệu PDF mà bạn sẽ làm việc.
 
 ```csharp
 // Tạo phiên bản Tài liệu
@@ -78,11 +80,11 @@ Bây giờ, hãy thêm một trang vào tài liệu của chúng ta. Mỗi tệp
 Page page = doc.Pages.Add();
 ```
 
-Đoạn mã này thêm một trang mới vào tài liệu, cho phép chúng ta vẽ hình dạng trên đó.
+Đoạn mã này thêm một trang mới vào tài liệu, cho phép chúng ta vẽ hình trên đó.
 
 ## Bước 4: Tạo một thể hiện đồ thị
 
- Để vẽ các hình dạng, chúng ta cần tạo một`Graph` Ví dụ. Hãy nghĩ về biểu đồ như một tấm vải mà bạn có thể vẽ nhiều hình dạng khác nhau.
+Để vẽ các hình dạng, chúng ta cần tạo một `Graph` Ví dụ. Hãy nghĩ về biểu đồ như một tấm vải mà bạn có thể vẽ nhiều hình dạng khác nhau.
 
 ```csharp
 // Tạo phiên bản đồ thị
@@ -145,7 +147,7 @@ dataDir = dataDir + "CreateFilledRectangle_out.pdf";
 doc.Save(dataDir);
 ```
 
- Mã này lưu tệp PDF với tên`CreateFilledRectangle_out.pdf` trong thư mục bạn đã chỉ định trước đó.
+Mã này lưu tệp PDF với tên `CreateFilledRectangle_out.pdf` trong thư mục bạn đã chỉ định trước đó.
 
 ## Bước 10: Tin nhắn xác nhận
 
@@ -164,22 +166,24 @@ Và bạn đã có nó! Bạn đã tạo thành công một hình chữ nhật �
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Có cách nào để nhận được hỗ trợ cho Aspose.PDF không?
- Chắc chắn rồi! Bạn có thể nhận được hỗ trợ thông qua diễn đàn Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Chắc chắn rồi! Bạn có thể nhận được hỗ trợ thông qua diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể mua Aspose.PDF như thế nào?
- Bạn có thể mua Aspose.PDF bằng cách truy cập trang mua hàng[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.PDF bằng cách truy cập trang mua hàng [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tạo những loại hình dạng nào bằng Aspose.PDF?
 Bạn có thể tạo nhiều hình dạng khác nhau, bao gồm hình chữ nhật, hình tròn, đường thẳng, v.v. bằng thư viện Aspose.PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

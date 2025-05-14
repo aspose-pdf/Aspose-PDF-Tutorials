@@ -1,14 +1,16 @@
 ---
-title: Gunakan Skrip Latex Dalam File PDF
-linktitle: Gunakan Skrip Latex Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menggunakan skrip Latex untuk menambahkan ekspresi atau rumus matematika dalam dokumen PDF menggunakan Aspose.PDF untuk .NET.
-weight: 550
-url: /id/net/programming-with-text/use-latex-script/
+"description": "Pelajari cara menggunakan skrip Latex untuk menambahkan ekspresi atau rumus matematika dalam dokumen PDF menggunakan Aspose.PDF untuk .NET."
+"linktitle": "Gunakan Skrip Latex Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Gunakan Skrip Latex Dalam File PDF"
+"url": "/id/net/programming-with-text/use-latex-script/"
+"weight": 550
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gunakan Skrip Latex Dalam File PDF
@@ -19,12 +21,12 @@ Bekerja dengan file PDF tidak pernah semenyenangkan ini, terutama saat melibatka
 
 ## Prasyarat
 
-Sebelum masuk ke bagian pengodean yang sebenarnya, mari pastikan Anda sudah menyiapkan semuanya. Tidak ada yang ingin mengerjakan proyek di tengah jalan dan menyadari bahwa mereka kehilangan alat yang penting. Jadi, berikut ini yang Anda butuhkan:
+Sebelum masuk ke bagian pengodean yang sebenarnya, mari pastikan Anda sudah menyiapkan semuanya. Tidak ada yang ingin mengerjakan setengah proyek hanya untuk menyadari bahwa mereka kehilangan alat yang penting. Jadi, berikut ini yang Anda butuhkan:
 
-1.  Aspose.PDF untuk .NET terinstal – Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/). 
+1. Aspose.PDF untuk .NET terinstal – Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/). 
 2. Pemahaman dasar tentang C#.
 3. Visual Studio atau IDE lain yang kompatibel.
-4.  Lisensi Aspose aktif (tidak punya? Anda bisa mendapatkannya[uji coba gratis di sini](https://releases.aspose.com/) atau sebuah[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/)).
+4. Lisensi Aspose aktif (tidak punya? Anda bisa mendapatkannya [uji coba gratis di sini](https://releases.aspose.com/) atau sebuah [lisensi sementara di sini](https://purchase.aspose.com/temporary-license/)).
 5. .NET Framework (versi yang kompatibel dengan Aspose.PDF untuk .NET).
 
 Setelah Anda memenuhi prasyarat ini, kita siap untuk beralih ke hal yang menyenangkan.
@@ -52,13 +54,13 @@ Tentukan jalur ke direktori tempat Anda akan menyimpan file PDF. Caranya semudah
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF Anda.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF Anda.
 
 ## Langkah 2: Buat Objek Dokumen Baru
 
 Baiklah, setelah direktori kita siap, mari kita masuk ke inti tindakan dengan membuat dokumen baru. Anggap saja seperti memulai dengan kanvas baru sebelum melukis sebuah mahakarya.
 
- Gunakan`Document` kelas dari Aspose.PDF untuk membuat dokumen PDF baru.
+Gunakan `Document` kelas dari Aspose.PDF untuk membuat dokumen PDF baru.
 
 ```csharp
 Document doc = new Document();
@@ -70,7 +72,7 @@ Dengan ini, kita sekarang memiliki PDF kosong yang dapat kita mulai tambahkan el
 
 Apa gunanya PDF tanpa halaman? Seperti menulis di buku catatan tanpa kertas! Di sini, kita akan menambahkan halaman ke dokumen untuk memulai.
 
- Gunakan`Pages.Add()` metode untuk menambahkan halaman kosong baru ke dokumen.
+Gunakan `Pages.Add()` metode untuk menambahkan halaman kosong baru ke dokumen.
 
 ```csharp
 Page page = doc.Pages.Add();
@@ -82,13 +84,13 @@ Sekarang, dokumen PDF kita siap untuk ditambahkan konten!
 
 Tabel sangat cocok untuk mengatur konten dengan rapi, dan untuk contoh ini, kita akan menggunakan tabel untuk menanamkan skrip LaTeX kita. Anggap saja seperti membuat kisi atau struktur tempat berbagai hal akan tersusun dengan nyaman.
 
- Buat tabel menggunakan`Table` kelas lalu menambahkannya ke dokumen.
+Buat tabel menggunakan `Table` kelas lalu menambahkannya ke dokumen.
 
 ```csharp
 Table table = new Table();
 ```
 
-Sekarang, kita punya objek tabel, tetapi saat ini masih kosong. Saatnya mengisinya!
+Sekarang, kita punya objek tabel, tetapi masih kosong. Saatnya mengisinya!
 
 ## Langkah 5: Tambahkan Baris ke Tabel
 
@@ -127,13 +129,13 @@ TeXFragment ltext1 = new TeXFragment(latexText1, true);
 cell.Paragraphs.Add(ltext1);
 ```
 
- Itu`TeXFragment` adalah bintang pertunjukan di sini. Ia mengambil skrip LaTeX dan mengubahnya menjadi sesuatu yang dapat dikenali secara visual dalam PDF.
+Itu `TeXFragment` adalah bintang pertunjukan di sini. Ia mengambil skrip LaTeX dan mengubahnya menjadi sesuatu yang dapat dikenali secara visual dalam PDF.
 
 ## Langkah 8: Tambahkan Tabel ke Halaman
 
 Sekarang setelah tabel kita lengkap dengan skrip LaTeX di dalamnya, saatnya menambahkan tabel ke halaman yang kita buat sebelumnya.
 
- Gunakan`Paragraphs.Add()` metode untuk menambahkan tabel ke halaman.
+Gunakan `Paragraphs.Add()` metode untuk menambahkan tabel ke halaman.
 
 ```csharp
 page.Paragraphs.Add(table);
@@ -145,7 +147,7 @@ Ini menempatkan tabel kita, yang berisi skrip LaTeX, ke halaman dalam dokumen. K
 
 Apa gunanya melakukan semua ini jika Anda tidak menyimpan pekerjaan Anda? Pada langkah terakhir ini, kita akan menyimpan PDF dengan skrip LaTeX yang tertanam di dalamnya.
 
- Gunakan`Save()` metode untuk menyimpan dokumen ke jalur yang Anda tentukan pada Langkah 1.
+Gunakan `Save()` metode untuk menyimpan dokumen ke jalur yang Anda tentukan pada Langkah 1.
 
 ```csharp
 doc.Save(dataDir + "LatexScriptInPdf_out.pdf");
@@ -169,13 +171,15 @@ Tentu saja! Anda dapat menambahkan skrip LaTeX sebanyak yang Anda perlukan denga
 Aspose.PDF untuk .NET dapat menangani berbagai ekspresi LaTeX, dari persamaan sederhana hingga integral dan penjumlahan yang lebih kompleks.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF untuk .NET?
- Ya, untuk menggunakannya secara penuh, Anda memerlukan lisensi aktif. Namun, Anda dapat mencobanya secara gratis dengan[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Ya, untuk menggunakannya secara penuh, Anda memerlukan lisensi aktif. Namun, Anda dapat mencobanya secara gratis dengan [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ### Dapatkah saya mengedit skrip LaTeX setelah ditambahkan ke PDF?
 Setelah skrip LaTeX ditambahkan dan disimpan dalam PDF, Anda perlu memodifikasi kode sumber dan membuat ulang dokumen untuk membuat perubahan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

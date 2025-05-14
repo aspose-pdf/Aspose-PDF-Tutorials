@@ -1,14 +1,16 @@
 ---
-title: पृष्ठ सामग्री का पुनः उपयोग करने की अनुमति दें
-linktitle: पृष्ठ सामग्री का पुनः उपयोग करने की अनुमति दें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: .NET के लिए Aspose.PDF का उपयोग करके "पुनः उपयोग पृष्ठ सामग्री की अनुमति दें" सुविधा को सक्षम करके PDF को अनुकूलित करने का तरीका जानें। फ़ाइल का आकार कम करें और प्रदर्शन में सुधार करें।
-weight: 50
-url: /hi/net/programming-with-document/allowresusepagecontent/
+"description": ".NET के लिए Aspose.PDF का उपयोग करके \"पुनः उपयोग पृष्ठ सामग्री की अनुमति दें\" सुविधा को सक्षम करके PDF को अनुकूलित करने का तरीका जानें। फ़ाइल का आकार कम करें और प्रदर्शन में सुधार करें।"
+"linktitle": "पृष्ठ सामग्री का पुनः उपयोग करने की अनुमति दें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पृष्ठ सामग्री का पुनः उपयोग करने की अनुमति दें"
+"url": "/hi/net/programming-with-document/allowresusepagecontent/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पृष्ठ सामग्री का पुनः उपयोग करने की अनुमति दें
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-document/allowresusepagecontent/
 इससे पहले कि हम पीडीएफ को अनुकूलित करने की बारीकियों में उतरें, कुछ चीजें हैं जिन्हें आपको ध्यान में रखना होगा:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यहीं पर आप अपना .NET कोड लिखेंगे और चलाएँगे।
-2.  .NET के लिए Aspose.PDF: आप लाइब्रेरी को यहां से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/pdf/net/) यदि आप इसे पहले आज़माना चाहते हैं, तो आप भी प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/).
+2. .NET के लिए Aspose.PDF: आप लाइब्रेरी को यहां से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/pdf/net/)यदि आप इसे पहले आज़माना चाहते हैं, तो आप भी प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको हमारे द्वारा उपयोग किए जाने वाले कोड स्निपेट को समझने में मदद मिलेगी।
 
 ## पैकेज आयात करें
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## चरण 2: पीडीएफ दस्तावेज़ लोड करें
 
- इसके बाद, आप उस पीडीएफ दस्तावेज़ को लोड करेंगे जिसे आप ऑप्टिमाइज़ करना चाहते हैं।`Document` Aspose.PDF लाइब्रेरी से क्लास.
+इसके बाद, आप उस पीडीएफ दस्तावेज़ को लोड करेंगे जिसे आप ऑप्टिमाइज़ करना चाहते हैं। `Document` Aspose.PDF लाइब्रेरी से क्लास.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
@@ -114,10 +116,12 @@ Console.WriteLine("Original file size: {0}. Reduced file size: {1}", fi1.Length,
 पीडीएफ फाइलों को अनुकूलित करने से उनका आकार कम हो जाता है, जिससे उन्हें साझा करना और संग्रहीत करना आसान हो जाता है, तथा गुणवत्ता भी बनी रहती है।
 
 ### मैं Aspose.PDF के लिए समर्थन कहां पा सकता हूं?
- आप सहायता पा सकते हैं और प्रश्न पूछ सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/pdf/10).
+आप सहायता पा सकते हैं और प्रश्न पूछ सकते हैं [Aspose फ़ोरम](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

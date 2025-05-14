@@ -8,7 +8,9 @@ url: /net/programming-with-tables/text-alignment-for-table-row-content/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Text Alignment For Table Row Content
@@ -146,6 +148,7 @@ For any queries or issues, you can reach out to the Aspose community support [he
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

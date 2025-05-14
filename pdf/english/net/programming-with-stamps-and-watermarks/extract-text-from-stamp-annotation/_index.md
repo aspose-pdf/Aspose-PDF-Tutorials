@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/extract-text-from-stamp-annotat
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Text From Stamp Annotation
@@ -130,6 +132,7 @@ Aspose.PDF for .NET offers a free trial, but to access the full set of features,
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

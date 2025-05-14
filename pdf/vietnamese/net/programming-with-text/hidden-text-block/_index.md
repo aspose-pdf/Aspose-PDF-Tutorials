@@ -1,14 +1,16 @@
 ---
-title: Khối văn bản ẩn trong tệp PDF
-linktitle: Khối văn bản ẩn trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tạo PDF tương tác với các khối văn bản ẩn bằng Aspose.PDF cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước để cải thiện tài liệu của bạn.
-weight: 230
-url: /vi/net/programming-with-text/hidden-text-block/
+"description": "Tạo PDF tương tác với các khối văn bản ẩn bằng Aspose.PDF cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước để cải thiện tài liệu của bạn."
+"linktitle": "Khối văn bản ẩn trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Khối văn bản ẩn trong tệp PDF"
+"url": "/vi/net/programming-with-text/hidden-text-block/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Khối văn bản ẩn trong tệp PDF
@@ -21,7 +23,7 @@ Trong bối cảnh kỹ thuật số ngày nay, PDF vẫn là định dạng đ�
 
 Trước khi xắn tay áo và bắt đầu, hãy đảm bảo bạn có mọi thứ mình cần. Sau đây là những gì bạn cần:
 
-1. Aspose.PDF cho .NET: Thư viện này rất cần thiết để làm việc với các tệp PDF trong các ứng dụng .NET. Bạn có thể kiểm tra, tải xuống hoặc thậm chí dùng thử miễn phí từ[Tài liệu PDF Aspose](https://reference.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Thư viện này rất cần thiết để làm việc với các tệp PDF trong các ứng dụng .NET. Bạn có thể kiểm tra, tải xuống hoặc thậm chí dùng thử miễn phí từ [Tài liệu PDF Aspose](https://reference.aspose.com/pdf/net/).
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework vì nó cần thiết để chạy thư viện Aspose.PDF.
 3. Môi trường phát triển: Trình soạn thảo mã hoặc Môi trường phát triển tích hợp (IDE) như Visual Studio sẽ giúp việc viết mã trở nên dễ dàng. 
 4. Kiến thức cơ bản về C#: Vì chúng ta sẽ lập trình bằng C#, nên việc hiểu biết cơ bản về ngôn ngữ này sẽ giúp bạn nắm bắt các khái niệm dễ dàng hơn nhiều.
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outputFile = dataDir + "TextBlock_HideShow_MouseOverOut_out.pdf";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn nơi bạn muốn tạo tệp PDF.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn nơi bạn muốn tạo tệp PDF.
 
 ## Bước 2: Tạo một tài liệu mẫu
 
@@ -90,11 +92,11 @@ Bây giờ chúng ta đã có tài liệu ban đầu, hãy mở nó ra để ch�
 Document document = new Document(outputFile);
 ```
 
-Dòng này tải tài liệu chúng ta vừa tạo để chúng ta có thể thay đổi tài liệu đó.
+Dòng này tải tài liệu chúng ta vừa tạo để chúng ta có thể thực hiện thay đổi trên đó.
 
 ## Bước 4: Tạo TextAbsorber để tìm cụm từ
 
- Tiếp theo, chúng ta muốn xác định đoạn văn bản mà chúng ta sẽ làm việc. Đây là nơi`TextFragmentAbsorber` có hiệu lực:
+Tiếp theo, chúng ta muốn xác định đoạn văn bản mà chúng ta sẽ làm việc. Đây là nơi `TextFragmentAbsorber` có hiệu lực:
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber("Move the mouse cursor here to display floating text");
@@ -185,19 +187,21 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn đã t�
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
 
 ### Làm thế nào để cài đặt Aspose.PDF?  
-Bạn có thể cài đặt nó thông qua NuGet Package Manager trong Visual Studio. Chỉ cần sử dụng lệnh:`Install-Package Aspose.PDF`.
+Bạn có thể cài đặt nó thông qua NuGet Package Manager trong Visual Studio. Chỉ cần sử dụng lệnh: `Install-Package Aspose.PDF`.
 
 ### Tôi có thể tạo các thành phần tương tác khác trong tệp PDF không?  
 Có, ngoài các khối văn bản ẩn, bạn có thể thêm nút, siêu liên kết, chú thích và nhiều thứ khác bằng Aspose.PDF.
 
 ### Có bản dùng thử miễn phí không?  
- Chắc chắn rồi! Bạn có thể nhận được bản dùng thử miễn phí từ[Trang phát hành Aspose](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể nhận được bản dùng thử miễn phí từ [Trang phát hành Aspose](https://releases.aspose.com/).
 
 ### Tôi phải làm sao nếu cần trợ giúp về Aspose.PDF?  
- Hãy thoải mái tìm kiếm sự hỗ trợ trên[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10) để giải đáp mọi thắc mắc hoặc vấn đề bạn có thể gặp phải.
+Hãy thoải mái tìm kiếm sự hỗ trợ trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10) để giải đáp mọi thắc mắc hoặc vấn đề bạn có thể gặp phải.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

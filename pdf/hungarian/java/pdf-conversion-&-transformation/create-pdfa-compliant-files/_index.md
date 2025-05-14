@@ -1,169 +1,173 @@
 ---
-title: Hozzon létre PDF/A-kompatibilis fájlokat
-linktitle: Hozzon létre PDF/A-kompatibilis fájlokat
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan hozhat létre PDF/A-kompatibilis fájlokat az Aspose.PDF for Java használatával. Lépésről lépésre útmutató kódpéldákkal iparági szabványos PDF-fájlokhoz.
-weight: 18
-url: /hu/java/pdf-conversion-transformation/create-pdfa-compliant-files/
+"description": "Tanuld meg, hogyan hozhatsz létre PDF/A-kompatibilis fájlokat az Aspose.PDF for Java segítségével. Lépésről lépésre útmutató kódpéldákkal iparági szabványú PDF-ekhez."
+"linktitle": "PDF/A-kompatibilis fájlok létrehozása"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "PDF/A-kompatibilis fájlok létrehozása"
+"url": "/hu/java/pdf-conversion-transformation/create-pdfa-compliant-files/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hozzon létre PDF/A-kompatibilis fájlokat
+# PDF/A-kompatibilis fájlok létrehozása
 
 
 ## Bevezetés
 
-PDF/A szabványnak megfelelő PDF-dokumentumok létrehozása biztosítja, hogy a fájlok idővel elérhetőek és megbízhatóak legyenek. Az Aspose.PDF for Java egyszerűvé teszi ezt a feladatot robusztus szolgáltatáskészletével és könnyen használható API-jával.
+PDF/A szabványnak megfelelő PDF dokumentumok létrehozása biztosítja, hogy fájljai hosszú távon is elérhetőek és megbízhatóak maradjanak. Az Aspose.PDF for Java robusztus funkciókészletével és könnyen használható API-jával ezt a feladatot egyszerűvé teszi.
 
-## A PDF/A megfelelőség megértése
+## PDF/A megfelelőség megértése
 
-A PDF/A megfelelőség garantálja, hogy a dokumentum a jövőben pontosan ugyanúgy jelenjen meg, mint ma, függetlenül a használt szoftvertől vagy hardvertől. Azt is biztosítja, hogy a dokumentumon belüli szöveg kereshető és kiválasztható legyen.
+A PDF/A megfelelőség garantálja, hogy egy dokumentum a jövőben pontosan ugyanúgy jelenik meg, mint ma, függetlenül a használt szoftvertől vagy hardvertől. Azt is biztosítja, hogy a dokumentumon belüli szöveg kereshető és kijelölhető legyen.
 
-## Fejlesztői környezet beállítása
+## A fejlesztői környezet beállítása
 
- Mielőtt elkezdené, győződjön meg arról, hogy a Java telepítve van a rendszeren. Letöltheti innen[itt](https://www.java.com/download/). Győződjön meg arról is, hogy rendelkezik integrált fejlesztői környezettel (IDE), például IntelliJ IDEA vagy Eclipse.
+Mielőtt elkezdenénk, győződjünk meg róla, hogy telepítve van a Java a rendszerünkön. Letöltheti innen: [itt](https://www.java.com/download/)Ezenkívül győződjön meg arról, hogy rendelkezik integrált fejlesztői környezettel (IDE), például IntelliJ IDEA-val vagy Eclipse-szel.
 
 ## Új Java projekt létrehozása
 
-Kezdje egy új Java-projekt létrehozásával a kívánt IDE-ben. Adjon nevet, és válassza ki a megfelelő beállításokat a projekthez.
+Kezdésként hozz létre egy új Java projektet a kívánt IDE-ben. Adj neki nevet, és válaszd ki a projektedhez illő beállításokat.
 
-## Aspose.PDF for Java hozzáadása projektjéhez
+## Aspose.PDF hozzáadása Java-hoz a projekthez
 
- Az Aspose.PDF Java-hoz használatához hozzá kell adnia az Aspose.PDF könyvtárat a projekthez. Letöltheti a[Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)A letöltés után adja hozzá a JAR-fájlt a projekt osztályútvonalához.
+Az Aspose.PDF Java-beli használatához hozzá kell adnia az Aspose.PDF könyvtárat a projektjéhez. Letöltheti innen: [Aspose.PDF Java-hoz](https://releases.aspose.com/pdf/java/)A letöltés után add hozzá a JAR fájlt a projekted osztályútvonalához.
 
-## PDF-dokumentum inicializálása
+## PDF dokumentum inicializálása
 
-Java kódjában importálja a szükséges osztályokat az Aspose.PDF könyvtárból, és hozzon létre egy új PDF dokumentum objektumot.
+A Java kódodban importáld a szükséges osztályokat az Aspose.PDF könyvtárból, és hozz létre egy új PDF dokumentum objektumot.
 
 ```java
 import com.aspose.pdf.Document;
 
-// Hozzon létre egy új PDF dokumentumot
+// Új PDF dokumentum létrehozása
 Document pdfDocument = new Document();
 ```
 
 ## Tartalom hozzáadása a PDF-hez
 
-Különféle elemeket adhat hozzá a PDF-hez, beleértve a szöveget, képeket és táblázatokat. Íme egy példa a szöveg dokumentumhoz való hozzáadására:
+Különböző elemeket adhatsz a PDF-hez, beleértve szöveget, képeket és táblázatokat. Íme egy példa a szöveg dokumentumhoz való hozzáadására:
 
 ```java
 import com.aspose.pdf.Page;
 import com.aspose.pdf.TextFragment;
 
-// Adjon hozzá egy oldalt a dokumentumhoz
+// Oldal hozzáadása a dokumentumhoz
 Page page = pdfDocument.getPages().add();
 
-// Hozzon létre egy szövegrészletet
+// Szövegrészlet létrehozása
 TextFragment textFragment = new TextFragment("Hello, PDF/A!");
 
-// Adja hozzá a szövegrészletet az oldalhoz
+// Szövegrészlet hozzáadása az oldalhoz
 page.getParagraphs().add(textFragment);
 ```
 
-## A PDF/A megfelelőségi szint beállítása
+## PDF/A megfelelőségi szint beállítása
 
-A PDF/A megfelelőség biztosításához állítsa be a PDF-dokumentum megfelelőségi szintjét:
+A PDF/A megfelelőség biztosításához állítsa be a PDF dokumentum megfelelőségi szintjét:
 
 ```java
 import com.aspose.pdf.PdfFormat;
 
-// Állítsa be a PDF/A megfelelőségi szintet
+// PDF/A megfelelőségi szint beállítása
 pdfDocument.setPdfFormat(PdfFormat.PDF_A_1B);
 ```
 
-## A PDF/A megfelelőség ellenőrzése
+## PDF/A megfelelőség érvényesítése
 
-Az Aspose.PDF for Java beépített érvényesítő eszközöket biztosít annak ellenőrzésére, hogy a dokumentum PDF/A kompatibilis-e:
+Az Aspose.PDF for Java beépített ellenőrző eszközöket kínál annak ellenőrzésére, hogy a dokumentum PDF/A-kompatibilis-e:
 
 ```java
 import com.aspose.pdf.PdfFormatConversionOptions;
 
-// Érvényesítse a PDF/A megfelelőséget
+// PDF/A megfelelőség ellenőrzése
 PdfFormatConversionOptions conversionOptions = new PdfFormatConversionOptions(PdfFormat.PDF_A_1B, new PdfFormatConversionOptions(), 1000);
 boolean isCompliant = pdfDocument.validate(conversionOptions);
 ```
 
-## A PDF/A fájl mentése
+## PDF/A fájl mentése
 
-Mentse el a PDF/A-kompatibilis dokumentumot fájlba:
+PDF/A kompatibilis dokumentum mentése fájlba:
 
 ```java
-// Mentse el a PDF/A fájlt
+// PDF/A fájl mentése
 pdfDocument.save("output.pdf");
 ```
 
 ## További funkciók és testreszabás
 
-Az Aspose.PDF for Java funkciók széles skáláját kínálja a PDF-dokumentumok testreszabásához, beleértve a fejlécek, láblécek, vízjelek és egyebek hozzáadását. Fedezze fel a[dokumentáció](https://reference.aspose.com/pdf/java/) a testreszabási lehetőségekkel kapcsolatos részletes információkért.
+Az Aspose.PDF for Java számos funkciót kínál a PDF-dokumentumok testreszabásához, beleértve a fejlécek, láblécek, vízjelek és egyebek hozzáadását. Fedezze fel a [dokumentáció](https://reference.aspose.com/pdf/java/) a testreszabási lehetőségekkel kapcsolatos részletes információkért.
 
 ## Következtetés
 
-A PDF/A-kompatibilis fájlok létrehozása az Aspose.PDF for Java használatával egyszerű folyamat, amely biztosítja a dokumentumok hosszú távú hozzáférhetőségét és megbízhatóságát. Kezdje el a PDF/A megfelelőség beépítését projektjeibe még ma a jobb dokumentummegőrzés érdekében.
+A PDF/A-kompatibilis fájlok létrehozása az Aspose.PDF for Java segítségével egyszerű folyamat, amely biztosítja dokumentumai hosszú távú hozzáférhetőségét és megbízhatóságát. Kezdje el beépíteni a PDF/A-megfelelőséget projektjeibe még ma a dokumentumok jobb megőrzése érdekében.
 
 ## GYIK
 
-### Hogyan adhatok képeket PDF-dokumentumokhoz az Aspose.PDF for Java használatával?
+### Hogyan adhatok hozzá képeket egy PDF dokumentumhoz az Aspose.PDF for Java használatával?
 
- Ha képeket szeretne hozzáadni egy PDF dokumentumhoz, használja a`Image` osztály az Aspose.PDF for Java-ból. Íme egy alapvető példa:
+Képek PDF dokumentumhoz való hozzáadásához használhatja a `Image` osztály az Aspose.PDF-ből Java-hoz. Íme egy alapvető példa:
 
 ```java
 import com.aspose.pdf.Image;
 
-// Hozzon létre egy képobjektumot
+// Képobjektum létrehozása
 Image image = new Image();
 image.setFile("image.jpg");
 
-// Adja hozzá a képet a PDF-dokumentum egyik oldalához
+// Kép hozzáadása egy oldalhoz a PDF dokumentumban
 page.getParagraphs().add(image);
 ```
 
-### Megvédhetek jelszóval egy PDF/A kompatibilis dokumentumot az Aspose.PDF for Java segítségével?
+### Lehet jelszóval védeni egy PDF/A kompatibilis dokumentumot az Aspose.PDF for Java programmal?
 
-Igen, jelszóval védheti a PDF/A-kompatibilis dokumentumokat az Aspose.PDF for Java használatával. Beállíthat jelszót a dokumentum megnyitásához, vagy korlátozhat különféle engedélyeket, például a tartalom nyomtatását vagy másolását. A részletes utasításokat a dokumentációban találja.
+Igen, jelszóval védheti a PDF/A kompatibilis dokumentumokat az Aspose.PDF for Java segítségével. Beállíthat jelszót a dokumentum megnyitásához, vagy korlátozhat különféle engedélyeket, például a tartalom nyomtatását vagy másolását. Részletes utasításokért lásd a dokumentációt.
 
-### Az Aspose.PDF for Java kompatibilis a Java 11-gyel?
+### Kompatibilis az Aspose.PDF Java-hoz a Java 11-gyel?
 
-Igen, az Aspose.PDF for Java kompatibilis a Java 11 és újabb verzióival. Győződjön meg arról, hogy a megfelelő Java verzió telepítve van a rendszerére a zökkenőmentes integráció érdekében.
+Igen, az Aspose.PDF for Java kompatibilis a Java 11-es és újabb verzióival. A zökkenőmentes integráció érdekében győződjön meg arról, hogy a megfelelő Java verzió telepítve van a rendszerén.
 
-### Hogyan adhatok hiperhivatkozásokat a PDF-dokumentum szövegéhez?
+### Hogyan adhatok hozzá hiperhivatkozásokat egy PDF dokumentum szövegéhez?
 
- Ha hiperhivatkozásokat szeretne hozzáadni egy PDF-dokumentum szövegéhez, használja a`LinkAnnotation` osztály az Aspose.PDF for Java-ból. Íme egy egyszerű példa:
+PDF dokumentum szövegéhez hiperhivatkozások hozzáadásához használhatja a `LinkAnnotation` osztály az Aspose.PDF-ből Java-hoz. Íme egy egyszerű példa:
 
 ```java
 import com.aspose.pdf.LinkAnnotation;
 
-// Hozzon létre egy hivatkozási megjegyzést
+// Hivatkozáshoz fűzött megjegyzés létrehozása
 LinkAnnotation link = new LinkAnnotation(page, new Rectangle(100, 100, 200, 120));
-link.setAction(new GoToURIAction("https://example.com"));
+link.setAction(new GoToURIAction("https://példa.com"));
 link.setBorderStyle(new BorderStyle());
 link.setHighlightMode(HighlightMode.INVERT);
 
-// Adja hozzá a linket az oldalhoz
+// Add hozzá a linket az oldalhoz
 page.getAnnotations().add(link);
 ```
 
-### Hogyan bonthatok ki szöveget egy PDF-dokumentumból az Aspose.PDF for Java segítségével?
+### Hogyan tudok szöveget kinyerni egy PDF dokumentumból az Aspose.PDF for Java használatával?
 
- A PDF-dokumentumból szöveget bonthat ki a`TextAbsorber` osztályt az Aspose.PDF biztosítja Java számára. Íme egy alapvető példa:
+PDF dokumentumból szöveget kinyerhet a következővel: `TextAbsorber` az Aspose.PDF által Java-hoz biztosított osztály. Íme egy alapvető példa:
 
 ```java
 import com.aspose.pdf.TextAbsorber;
 
-// A TextAbsorber inicializálása
+// TextAbsorber inicializálása
 TextAbsorber textAbsorber = new TextAbsorber();
 
-//Fogadja el a PDF dokumentumot
+// PDF dokumentum elfogadása
 pdfDocument.getPages().accept(textAbsorber);
 
-// Szerezd meg a kivont szöveget
+// A kivont szöveg beolvasása
 String extractedText = textAbsorber.getText();
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

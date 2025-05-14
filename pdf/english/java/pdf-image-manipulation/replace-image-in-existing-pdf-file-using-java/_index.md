@@ -8,7 +8,9 @@ url: /java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replace Image in Existing PDF File using Java
@@ -116,6 +118,7 @@ For additional support and resources, you can visit the documentation for Aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

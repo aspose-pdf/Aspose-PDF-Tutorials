@@ -8,7 +8,9 @@ url: /java/pdf-tags-and-structure/create-structure-element-tree-in-pdf-using-jav
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Structure Element Tree in PDF using Java
@@ -103,9 +105,11 @@ Yes, Aspose.PDF for Java provides features to programmatically tag existing PDF 
 ### What are some best practices for creating accessible PDF documents?
 
 Some best practices include adding alternative text to images, using proper heading structure, providing descriptive links, and ensuring a logical reading order for content.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

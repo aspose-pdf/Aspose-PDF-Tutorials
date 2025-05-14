@@ -8,7 +8,9 @@ url: /net/programming-with-links-and-actions/set-destination-link/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Destination Link In PDF File
@@ -136,6 +138,7 @@ You can access the [support forum](https://forum.aspose.com/c/pdf/10) for help a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

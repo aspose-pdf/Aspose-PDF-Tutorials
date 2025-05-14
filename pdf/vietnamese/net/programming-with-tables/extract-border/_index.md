@@ -1,14 +1,16 @@
 ---
-title: Trích xuất đường viền trong tệp PDF
-linktitle: Trích xuất đường viền trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất đường viền từ tệp PDF và lưu chúng dưới dạng hình ảnh bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các mẫu mã và mẹo để thành công.
-weight: 80
-url: /vi/net/programming-with-tables/extract-border/
+"description": "Tìm hiểu cách trích xuất đường viền từ tệp PDF và lưu chúng dưới dạng hình ảnh bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các mẫu mã và mẹo để thành công."
+"linktitle": "Trích xuất đường viền trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Trích xuất đường viền trong tệp PDF"
+"url": "/vi/net/programming-with-tables/extract-border/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất đường viền trong tệp PDF
@@ -21,9 +23,9 @@ Khi làm việc với PDF, việc trích xuất các thành phần cụ thể nh
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn đã thiết lập mọi thứ:
 
-1.  Aspose.PDF cho .NET: Nếu bạn chưa cài đặt thư viện Aspose.PDF, bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/). Bạn cũng cần phải áp dụng giấy phép, thông qua bản dùng thử miễn phí hoặc giấy phép đã mua.
+1. Aspose.PDF cho .NET: Nếu bạn chưa cài đặt thư viện Aspose.PDF, bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/). Bạn cũng cần phải áp dụng giấy phép, thông qua bản dùng thử miễn phí hoặc giấy phép đã mua.
 2. Thiết lập IDE: Thiết lập dự án C# trong Visual Studio hoặc bất kỳ IDE .NET nào khác. Đảm bảo bạn đã thêm các tham chiếu cần thiết vào thư viện Aspose.PDF.
-3. Đầu vào tệp PDF: Chuẩn bị tệp PDF mà bạn sẽ trích xuất các đường viền. Hướng dẫn này sẽ tham chiếu đến tệp có tên`input.pdf`.
+3. Đầu vào tệp PDF: Chuẩn bị tệp PDF mà bạn sẽ trích xuất các đường viền. Hướng dẫn này sẽ tham chiếu đến tệp có tên `input.pdf`.
 
 ## Nhập các gói cần thiết
 
@@ -46,14 +48,14 @@ Bây giờ chúng ta đã nắm được những kiến thức cơ bản, hãy c
 
 Bước đầu tiên là tải tài liệu PDF có chứa đường viền bạn muốn trích xuất. Hãy nghĩ về việc này giống như việc mở một cuốn sách trước khi bạn bắt đầu đọc — bạn cần truy cập vào nội dung!
 
- Chúng tôi sẽ bắt đầu bằng cách chỉ định thư mục lưu trữ tệp PDF của bạn và tải tài liệu bằng cách sử dụng`Aspose.Pdf.Document` lớp học.
+Chúng tôi sẽ bắt đầu bằng cách chỉ định thư mục lưu trữ tệp PDF của bạn và tải tài liệu bằng cách sử dụng `Aspose.Pdf.Document` lớp học.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Mã này tải`input.pdf` tệp từ thư mục bạn chỉ định. Đảm bảo đường dẫn tệp là chính xác, nếu không bạn có thể gặp lỗi không tìm thấy tệp.
+Mã này tải `input.pdf` tệp từ thư mục bạn chỉ định. Đảm bảo đường dẫn tệp là chính xác, nếu không bạn có thể gặp lỗi không tìm thấy tệp.
 
 ## Bước 2: Thiết lập đồ họa và Bitmap
 
@@ -93,7 +95,7 @@ Mã lặp qua mọi toán tử vẽ trong luồng nội dung của PDF. Mỗi to
 Mỗi toán tử trong tệp PDF điều khiển một hành động. Để trích xuất đường viền, chúng ta cần xác định các lệnh như "di chuyển đến", "đường thẳng đến" và "vẽ hình chữ nhật". Các toán tử sau xử lý các hành động này:
 
 - MoveTo: Di chuyển con trỏ đến điểm bắt đầu.
-- LineTo: Vẽ một đường thẳng từ điểm hiện tại đến một điểm mới.
+- LineTo: Vẽ một đường thẳng từ điểm hiện tại đến điểm mới.
 - Trả lời: Vẽ một hình chữ nhật (đây có thể là một phần của đường viền).
 
 ```csharp
@@ -120,7 +122,7 @@ else if (opRe != null)
 
 Ở bước này:
 - Chúng tôi ghi lại các điểm cho mỗi đường thẳng hoặc hình dạng được vẽ.
-- Đối với hình chữ nhật (`opRe` ), chúng tôi thêm chúng trực tiếp vào`graphicsPath`, chúng ta sẽ sử dụng sau để vẽ đường viền.
+- Đối với hình chữ nhật (`opRe`), chúng tôi thêm chúng trực tiếp vào `graphicsPath`, chúng ta sẽ sử dụng sau để vẽ đường viền.
 
 ## Bước 5: Vẽ đường viền
 
@@ -157,22 +159,24 @@ Trích xuất đường viền từ tệp PDF bằng Aspose.PDF cho .NET có v�
 ## Câu hỏi thường gặp
 
 ### Tôi phải xử lý nhiều trang trong tệp PDF như thế nào?  
- Bạn có thể lặp qua từng trang trong tài liệu bằng cách lặp lại`doc.Pages` thay vì mã hóa cứng`doc.Pages[1]`.
+Bạn có thể lặp qua từng trang trong tài liệu bằng cách lặp lại `doc.Pages` thay vì mã hóa cứng `doc.Pages[1]`.
 
 ### Tôi có thể trích xuất các thành phần khác, như văn bản, bằng cách sử dụng phương pháp tương tự không?  
 Có, Aspose.PDF cung cấp các API phong phú để trích xuất văn bản, hình ảnh và nội dung khác từ tệp PDF.
 
 ### Tôi phải áp dụng giấy phép như thế nào để tránh bị hạn chế?  
- Bạn có thể[áp dụng giấy phép](https://purchase.aspose.com/temporary-license/) bằng cách tải nó thông qua`License` lớp học do Aspose cung cấp.
+Bạn có thể [áp dụng giấy phép](https://purchase.aspose.com/temporary-license/) bằng cách tải nó qua `License` lớp học do Aspose cung cấp.
 
 ### Nếu tệp PDF của tôi không có đường viền thì sao?  
-Nếu PDF của bạn không có đường viền nào có thể nhìn thấy, quá trình trích xuất đồ họa có thể không mang lại kết quả nào. Đảm bảo rằng nội dung PDF bao gồm đường viền có thể vẽ được.
+Nếu PDF của bạn không có đường viền hiển thị, quá trình trích xuất đồ họa có thể không mang lại kết quả nào. Đảm bảo rằng nội dung PDF bao gồm đường viền có thể vẽ được.
 
 ### Tôi có thể lưu đầu ra ở định dạng khác ngoài PNG không?  
- Vâng, chỉ cần thay đổi`ImageFormat.Png` sang một định dạng được hỗ trợ khác như`ImageFormat.Jpeg`.
+Vâng, chỉ cần thay đổi `ImageFormat.Png` sang một định dạng được hỗ trợ khác như `ImageFormat.Jpeg`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

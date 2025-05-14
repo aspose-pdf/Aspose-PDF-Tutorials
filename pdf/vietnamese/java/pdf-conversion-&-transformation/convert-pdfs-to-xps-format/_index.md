@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi PDF sang định dạng XPS
-linktitle: Chuyển đổi PDF sang định dạng XPS
-second_title: API xử lý PDF Java Aspose.PDF
-description: Chuyển đổi PDF sang định dạng XPS dễ dàng với Aspose.PDF cho Java. Mở khóa khả năng in ấn, bảo mật và tương thích nâng cao.
-weight: 13
-url: /vi/java/pdf-conversion-transformation/convert-pdfs-to-xps-format/
+"description": "Chuyển đổi PDF sang định dạng XPS dễ dàng với Aspose.PDF cho Java. Mở khóa khả năng in ấn, bảo mật và tương thích nâng cao."
+"linktitle": "Chuyển đổi PDF sang định dạng XPS"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Chuyển đổi PDF sang định dạng XPS"
+"url": "/vi/java/pdf-conversion-transformation/convert-pdfs-to-xps-format/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi PDF sang định dạng XPS
@@ -20,7 +22,7 @@ Trong thời đại kỹ thuật số ngày nay, chuyển đổi tài liệu là
 
 ## Aspose.PDF dành cho Java là gì?
 
-Aspose.PDF for Java là một thư viện Java cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tài liệu PDF trong các ứng dụng Java. Nó cung cấp nhiều tính năng, bao gồm chuyển đổi PDF sang XPS, khiến nó trở thành một công cụ có giá trị để xử lý các định dạng tài liệu một cách hiệu quả.
+Aspose.PDF for Java là một thư viện Java cho phép các nhà phát triển tạo, thao tác và chuyển đổi tài liệu PDF trong các ứng dụng Java. Nó cung cấp nhiều tính năng, bao gồm chuyển đổi PDF sang XPS, khiến nó trở thành một công cụ có giá trị để xử lý các định dạng tài liệu một cách hiệu quả.
 
 ## Tại sao phải chuyển đổi PDF sang định dạng XPS?
 
@@ -51,7 +53,7 @@ Bước đầu tiên là tải tài liệu PDF bạn muốn chuyển đổi. Sau
 Document pdfDocument = new Document("input.pdf");
 ```
 
- Thay thế`"input.pdf"` với đường dẫn đến tệp PDF của bạn.
+Thay thế `"input.pdf"` với đường dẫn đến tệp PDF của bạn.
 
 ## Chuyển đổi PDF sang XPS
 
@@ -79,7 +81,7 @@ Trong ví dụ này, chúng tôi đã đặt chất lượng hình ảnh JPEG th
 
 ## Xử lý lỗi
 
-Xử lý lỗi là rất quan trọng khi xử lý chuyển đổi tài liệu. Aspose.PDF cho Java cung cấp các cơ chế xử lý lỗi mạnh mẽ để đảm bảo quá trình chuyển đổi diễn ra suôn sẻ. Bạn có thể bắt và xử lý các ngoại lệ để giải quyết mọi vấn đề có thể phát sinh trong quá trình chuyển đổi.
+Xử lý lỗi là rất quan trọng khi xử lý chuyển đổi tài liệu. Aspose.PDF cho Java cung cấp các cơ chế xử lý lỗi mạnh mẽ để đảm bảo quá trình chuyển đổi diễn ra suôn sẻ. Bạn có thể phát hiện và xử lý các ngoại lệ để giải quyết mọi vấn đề có thể phát sinh trong quá trình chuyển đổi.
 
 ## Tối ưu hóa hiệu suất
 
@@ -110,9 +112,11 @@ Có, bạn có thể tùy chỉnh đầu ra chuyển đổi XPS để kiểm so�
 ### Có bất kỳ hạn chế nào khi chuyển đổi PDF sang XPS không?
 
 Các giới hạn có thể khác nhau tùy theo giấy phép và độ phức tạp của tài liệu PDF. Kiểm tra tài liệu và thông tin chi tiết về giấy phép để biết thông tin cụ thể về các giới hạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

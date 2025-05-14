@@ -8,7 +8,9 @@ url: /java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Style Table Cell in PDF using Java
@@ -108,6 +110,7 @@ For comprehensive tutorials and documentation, visit the Aspose.PDF for Java doc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

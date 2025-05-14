@@ -1,14 +1,16 @@
 ---
-title: Cyfrowo podpisz plik PDF
-linktitle: Cyfrowo podpisz plik PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak cyfrowo podpisywać pliki PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku, który zapewni bezpieczeństwo i autentyczność dokumentów.
-weight: 40
-url: /pl/net/programming-with-security-and-signatures/digitally-sign/
+"description": "Dowiedz się, jak cyfrowo podpisywać pliki PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku, który zapewni bezpieczeństwo i autentyczność dokumentów."
+"linktitle": "Cyfrowo podpisz plik PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Cyfrowo podpisz plik PDF"
+"url": "/pl/net/programming-with-security-and-signatures/digitally-sign/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cyfrowo podpisz plik PDF
@@ -22,8 +24,8 @@ W naszym cyfrowym świecie nie można przecenić znaczenia zabezpieczania dokume
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby rozpocząć cyfrowe podpisywanie plików PDF. Oto lista wymagań wstępnych:
 
 1. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework na swoim komputerze. Aspose.PDF dla .NET obsługuje kilka wersji frameworka.
-2.  Biblioteka Aspose.PDF: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją pobrać z[link do wydania](https://releases.aspose.com/pdf/net/).
-3.  Certyfikat cyfrowy: Do podpisywania plików PDF potrzebny będzie certyfikat cyfrowy —`.pfx` plik zazwyczaj.
+2. Biblioteka Aspose.PDF: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją pobrać z [link do wydania](https://releases.aspose.com/pdf/net/).
+3. Certyfikat cyfrowy: Do podpisywania plików PDF potrzebny będzie certyfikat cyfrowy — `.pfx` plik zazwyczaj.
 4. Środowisko programistyczne: Użyj Visual Studio lub dowolnego wybranego środowiska IDE obsługującego język C#.
 
 Gdy już spełnisz te wymagania wstępne, będziesz gotowy rozpocząć podpisywanie dokumentów PDF!
@@ -46,7 +48,7 @@ Te przestrzenie nazw zawierają podstawowe klasy i metody, których będziesz u�
 
 ## Krok 1: Skonfiguruj ścieżki dokumentów
 
-Pierwszym krokiem jest ustawienie ścieżek dla plików PDF wejściowych i wyjściowych oraz certyfikatu cyfrowego. Zastąp`YOUR DOCUMENTS DIRECTORY` z rzeczywistą ścieżką w systemie, gdzie znajdują się Twoje pliki.
+Pierwszym krokiem jest ustawienie ścieżek dla plików PDF wejściowych i wyjściowych oraz certyfikatu cyfrowego. Zastąp `YOUR DOCUMENTS DIRECTORY` z rzeczywistą ścieżką w systemie, gdzie znajdują się Twoje pliki.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -54,16 +56,16 @@ string pbxFile = ""; // Ścieżka do Twojego certyfikatu cyfrowego (.pfx)
 string inFile = dataDir + @"DigitallySign.pdf";
 string outFile = dataDir + @"DigitallySign_out.pdf";
 ```
- W tym fragmencie,`inFile` to jest Twój oryginalny plik PDF, który chcesz podpisać, i`outFile` tutaj zostanie zapisany podpisany plik PDF.
+W tym fragmencie, `inFile` to jest Twój oryginalny plik PDF, który chcesz podpisać, i `outFile` tutaj zostanie zapisany podpisany plik PDF.
 
 ## Krok 2: Załaduj dokument PDF
 
- Następnie musimy załadować dokument PDF, który chcemy podpisać.`Document` klasa z Aspose.PDF jest tutaj użyta:
+Następnie musimy załadować dokument PDF, który chcemy podpisać. `Document` klasa z Aspose.PDF jest tutaj użyta:
 
 ```csharp
 using (Document document = new Document(inFile))
 {
-    // Kontynuuj tutaj logikę podpisu...
+    // Kontynuuj tutaj logikę podpisów...
 }
 ```
 
@@ -71,7 +73,7 @@ Ten kod otwiera plik PDF i przygotowuje go do dalszych operacji.
 
 ## Krok 3: Zainicjuj klasę PdfFileSignature
 
- Po załadowaniu dokumentu tworzymy jego wystąpienie`PdfFileSignature` klasa, która umożliwi nam pracę z podpisami cyfrowymi w naszym załadowanym dokumencie PDF.
+Po załadowaniu dokumentu tworzymy jego wystąpienie `PdfFileSignature` klasa, która umożliwi nam pracę z podpisami cyfrowymi w naszym załadowanym dokumencie PDF.
 
 ```csharp
 using (PdfFileSignature signature = new PdfFileSignature(document))
@@ -84,13 +86,13 @@ Te zajęcia to Twoja wiedza na temat podpisów PDF!
 
 ## Krok 4: Utwórz instancję certyfikatu cyfrowego
 
-Tutaj ustawiasz swój certyfikat, który będzie używany do podpisywania pliku PDF. Musisz podać ścieżkę swojego`.pfx` plik wraz z powiązanym z nim hasłem.
+Tutaj ustawiasz swój certyfikat, który będzie używany do podpisywania pliku PDF. Musisz podać ścieżkę swojego `.pfx` plik wraz z powiązanym z nim hasłem.
 
 ```csharp
 PKCS7 pkcs = new PKCS7(pbxFile, "WebSales");
 ```
 
- Pamiętaj o wymianie`"WebSales"` z aktualnym hasłem certyfikatu.
+Pamiętaj o wymianie `"WebSales"` z aktualnym hasłem certyfikatu.
 
 ## Krok 5: Skonfiguruj wygląd podpisu
 
@@ -131,7 +133,7 @@ using (Document document = new Document(outFile))
                 {
                     if (signature.GetAccessPermissions() == DocMDPAccessPermissions.FillingInForms) 
                     {
-                        //Podpis jest ważny i poświadczony
+                        // Podpis jest ważny i poświadczony
                     }
                 }
             }
@@ -153,7 +155,7 @@ catch (Exception ex)
 }
 ```
 
-W ten sposób, jeśli wydarzy się coś nieoczekiwanego, będziesz dokładnie wiedział, co poszło nie tak, nie powodując przy tym awarii aplikacji.
+ten sposób, jeśli wydarzy się coś nieoczekiwanego, będziesz dokładnie wiedział, co poszło nie tak, nie powodując przy tym awarii aplikacji.
 
 ## Wniosek
 
@@ -168,16 +170,18 @@ Podpis cyfrowy jest kryptograficznym odpowiednikiem podpisu odręcznego. Zapewni
 Tak! Aspose.PDF dla .NET jest kompatybilny z różnymi aplikacjami .NET, w tym desktopowymi, internetowymi i usługami.
 
 ### Jakie rodzaje certyfikatów cyfrowych mogę stosować?
- Możesz użyć dowolnego certyfikatu PKCS#12, zazwyczaj zapisanego w`.pfx` Lub`.p12` plik.
+Możesz użyć dowolnego certyfikatu PKCS#12, zazwyczaj zapisanego w `.pfx` Lub `.p12` plik.
 
 ### Czy jest dostępna wersja próbna Aspose.PDF?
- Tak! Możesz pobrać bezpłatną wersję próbną z[Strona wydań Aspose](https://releases.aspose.com/).
+Tak! Możesz pobrać bezpłatną wersję próbną z [Strona wydań Aspose](https://releases.aspose.com/).
 
 ### Jak mogę uzyskać pomoc, jeśli napotkam problemy?
- Aby uzyskać pomoc, możesz odwiedzić stronę[Forum PDF Aspose](https://forum.aspose.com/c/pdf/10).
+Aby uzyskać pomoc, możesz odwiedzić stronę [Forum PDF Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

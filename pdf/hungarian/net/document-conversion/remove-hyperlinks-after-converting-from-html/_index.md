@@ -1,37 +1,39 @@
 ---
-title: Html-ből való konvertálás után távolítsa el a hiperhivatkozásokat
-linktitle: Html-ből való konvertálás után távolítsa el a hiperhivatkozásokat
-second_title: Aspose.PDF for .NET API Reference
-description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan távolíthat el hiperhivatkozásokat HTML-dokumentumokból, miután az Aspose.PDF for .NET segítségével PDF-formátumba konvertálta.
-weight: 250
-url: /hu/net/document-conversion/remove-hyperlinks-after-converting-from-html/
+"description": "Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan távolíthat el hiperhivatkozásokat a HTML dokumentumokból, miután azokat PDF-be konvertálta az Aspose.PDF for .NET segítségével."
+"linktitle": "Hiperhivatkozások eltávolítása HTML-ből konvertálás után"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Hiperhivatkozások eltávolítása HTML-ből konvertálás után"
+"url": "/hu/net/document-conversion/remove-hyperlinks-after-converting-from-html/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Html-ből való konvertálás után távolítsa el a hiperhivatkozásokat
+# Hiperhivatkozások eltávolítása HTML-ből konvertálás után
 
 ## Bevezetés
 
-A digitális korban gyakori feladat a HTML-dokumentumok PDF-be konvertálása. Előfordulhat azonban, hogy különféle okokból – például az olvashatóság javítása vagy a nem kívánt navigáció megakadályozása miatt – el szeretné távolítani a hiperhivatkozásokat a konvertált PDF-fájlból. Ebben az oktatóanyagban megvizsgáljuk, hogyan érhetjük el ezt az Aspose.PDF for .NET használatával. 
+A digitális korban a HTML dokumentumok PDF-be konvertálása gyakori feladat. Előfordulhat azonban, hogy különféle okokból, például az olvashatóság javítása vagy a nem kívánt navigáció megakadályozása érdekében el kell távolítani a hiperhivatkozásokat a konvertált PDF-ből. Ebben az oktatóanyagban megvizsgáljuk, hogyan érhető el ez az Aspose.PDF for .NET használatával. 
 
 ## Előfeltételek
 
-Mielőtt belemerülne a kódba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt belemerülnél a kódba, győződj meg róla, hogy a következő előfeltételek teljesülnek:
 
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Ez lesz az Ön fejlesztési környezete.
-2.  Aspose.PDF .NET-hez: rendelkeznie kell az Aspose.PDF könyvtárral. Letöltheti innen[itt](https://releases.aspose.com/pdf/net/).
-3. Alapvető C# ismerete: A C# programozás ismerete segít a kód jobb megértésében.
+1. Visual Studio: Győződjön meg róla, hogy a Visual Studio telepítve van a gépén. Ez lesz a fejlesztői környezete.
+2. Aspose.PDF .NET-hez: Szükséged lesz az Aspose.PDF könyvtárra. Letöltheted innen: [itt](https://releases.aspose.com/pdf/net/).
+3. C# alapismeretek: A C# programozással való ismeret segít jobban megérteni a kódot.
 
 ## Csomagok importálása
 
-A kezdéshez importálnia kell a szükséges csomagokat a C# projektbe. A következőképpen teheti meg:
+A kezdéshez importálnod kell a szükséges csomagokat a C# projektedbe. Így teheted meg:
 
-1. Nyissa meg a Visual Studio projektet.
-2. Kattintson a jobb gombbal a projektre a Solution Explorerben, és válassza a "NuGet-csomagok kezelése" lehetőséget.
-3.  Keressen rá`Aspose.PDF` és telepítse.
+1. Nyisd meg a Visual Studio-projektedet.
+2. Kattintson jobb gombbal a projektjére a Megoldáskezelőben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
+3. Keresés `Aspose.PDF` és telepítse.
 
 ```csharp
 using Aspose.Pdf.Annotations;
@@ -39,58 +41,58 @@ using Aspose.Pdf.Text;
 using System.IO;
 ```
 
-Most, hogy mindent beállított, részletezzük a hiperhivatkozások eltávolításának folyamatát egy HTML-fájlból, miután PDF formátumba konvertálta.
+Most, hogy mindent beállítottál, bontsuk le a hiperhivatkozások eltávolításának folyamatát egy HTML-fájlból a PDF-be konvertálás után.
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár beállítása
 
-Először is meg kell adnia a dokumentumkönyvtár elérési útját. Itt található a HTML-fájl, és a kimeneti PDF mentésre kerül.
+Először is meg kell adnia a dokumentumok könyvtárának elérési útját. Itt található a HTML-fájl, és itt lesz mentve a kimeneti PDF.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a HTML-fájl tárolási útvonalával.
+Csere `"YOUR DOCUMENT DIRECTORY"` a HTML-fájl tényleges tárolási útvonalával.
 
-## 2. lépés: Töltse be a HTML-dokumentumot
+## 2. lépés: Töltse be a HTML dokumentumot
 
- Ezután töltse be a HTML dokumentumot a`Document` osztály az Aspose.PDF-ből. Ez az osztály lehetővé teszi a PDF dokumentumok egyszerű kezelését.
+Ezután betöltöd a HTML dokumentumot a következővel: `Document` osztály az Aspose.PDF-ből. Ez az osztály lehetővé teszi a PDF dokumentumokkal való egyszerű munkát.
 
 ```csharp
 Document doc = new Document(dataDir + "SampleHtmlFile.html", new HtmlLoadOptions());
 ```
 
- Itt betöltjük a nevű HTML-fájlt`SampleHtmlFile.html`. Győződjön meg arról, hogy ez a fájl létezik a megadott könyvtárban.
+Itt betöltjük a következő HTML fájlt: `SampleHtmlFile.html`Győződjön meg róla, hogy a fájl létezik a megadott könyvtárban.
 
-## 3. lépés: Mentse el a dokumentumot a memóriafolyamba
+## 3. lépés: Dokumentum mentése a Memory Streambe
 
-Mielőtt elkezdené a megjegyzések feldolgozását, el kell mentenünk a dokumentumot egy memóriafolyamba. Ez a lépés kulcsfontosságú, mivel előkészíti a dokumentumot a további manipulációkhoz.
+Mielőtt elkezdenénk a megjegyzések feldolgozását, el kell mentenünk a dokumentumot egy memóriafolyamba. Ez a lépés kulcsfontosságú, mivel előkészíti a dokumentumot a további feldolgozásra.
 
 ```csharp
 doc.Save(new MemoryStream());
 ```
 
-Ez a sor a memóriába menti a dokumentumot, így anélkül dolgozhatunk vele, hogy még lemezre írnánk.
+Ez a sor elmenti a dokumentumot a memóriába, lehetővé téve számunkra, hogy anélkül dolgozzunk vele, hogy egyelőre lemezre írnánk.
 
-## 4. lépés: Ismétlés megjegyzésekkel
+## 4. lépés: Ismételd át a jegyzeteket
 
-Most ismételjük a dokumentum megjegyzéseit. A kommentárok olyan elemek, mint a linkek, megjegyzések és kiemelések. Kifejezetten a link-annotációk érdekelnek bennünket.
+Most végigmegyünk a dokumentumban található annotációkon. Az annotációk olyan elemek, mint a hivatkozások, megjegyzések és kiemelések. Minket kifejezetten a hivatkozásokhoz tartozó annotációk érdekelnek.
 
 ```csharp
 foreach (Annotation a in doc.Pages[1].Annotations)
 {
     if (a.AnnotationType == AnnotationType.Link)
     {
-        // A link megjegyzés feldolgozása
+        // A hivatkozáshoz tartozó megjegyzés feldolgozása
     }
 }
 ```
 
-Ebben a ciklusban ellenőrizzük, hogy a megjegyzés típusa hivatkozás. Ha igen, akkor folytassa a következő lépésekkel.
+Ebben a ciklusban azt ellenőrizzük, hogy a megjegyzés típusa hivatkozás-e. Ha igen, akkor a következő lépésekkel folytatjuk.
 
-## 5. lépés: Távolítsa el a hiperhivatkozási műveletet
+## 5. lépés: A hiperhivatkozás művelet eltávolítása
 
-Minden hivatkozás megjegyzésénél ellenőriznünk kell, hogy van-e benne hiperhivatkozási művelet. Ha igen, akkor eltávolítjuk a hiperhivatkozást úgy, hogy az URI-jét üres karakterláncra állítjuk.
+Minden egyes hivatkozáshoz tartozó annotáció esetében ellenőriznünk kell, hogy van-e hiperhivatkozás művelete. Ha igen, akkor a hiperhivatkozást úgy távolítjuk el, hogy az URI-ját egy üres karakterláncra állítjuk.
 
 ```csharp
 LinkAnnotation la = (LinkAnnotation)a;
@@ -100,11 +102,11 @@ if (la.Action is GoToURIAction)
     gta.URI = "";
 ```
 
-Ez a kódrészlet biztosítja a hiperhivatkozási művelet hatékony eltávolítását.
+Ez a kódrészlet biztosítja, hogy a hiperhivatkozás művelete hatékonyan eltávolításra kerüljön.
 
-## 6. lépés: Szövegtöredékek felszívása
+## 6. lépés: Szövegrészletek elnyelése
 
-Ezután felvesszük a hivatkozás megjegyzéséhez kapcsolódó szövegrészleteket. Ez lehetővé teszi számunkra, hogy módosítsuk a szöveg megjelenését.
+Ezután a hivatkozáshoz tartozó annotációhoz tartozó szövegrészeket fogjuk beolvasztani. Ez lehetővé teszi számunkra a szöveg megjelenésének manipulálását.
 
 ```csharp
 TextFragmentAbsorber tfa = new TextFragmentAbsorber();
@@ -112,11 +114,11 @@ tfa.TextSearchOptions = new TextSearchOptions(a.Rect);
 doc.Pages[a.PageIndex].Accept(tfa);
 ```
 
- Itt létrehozunk a`TextFragmentAbsorber` és állítsa be a keresési beállításait a megjegyzés téglalapjára. Ez segít megtalálni a linkelt szöveget.
+Itt létrehozunk egy `TextFragmentAbsorber` és a keresési beállításokat a megjegyzés téglalapjára kell állítani. Ez segít megtalálni a hivatkozott szöveget.
 
-## 7. lépés: Módosítsa a szöveg megjelenését
+## 7. lépés: A szöveg megjelenésének módosítása
 
-Ha megvannak a szövegrészletek, módosíthatjuk a megjelenésüket. Ebben az esetben eltávolítjuk az aláhúzást, és a szöveg színét feketére változtatjuk.
+Miután megkaptuk a szövegrészeket, módosíthatjuk a megjelenésüket. Ebben az esetben eltávolítjuk az aláhúzást, és a szöveg színét feketére változtatjuk.
 
 ```csharp
 foreach (TextFragment tf in tfa.TextFragments)
@@ -126,11 +128,11 @@ foreach (TextFragment tf in tfa.TextFragments)
 }
 ```
 
-Ez a lépés javítja a szöveg olvashatóságát azáltal, hogy eltávolítja a hiperhivatkozás stílusát.
+Ez a lépés a hiperhivatkozás stílusának eltávolításával javítja a szöveg olvashatóságát.
 
-## 8. lépés: Törölje a megjegyzést
+## 8. lépés: A megjegyzés törlése
 
-A szöveg módosítása után nyugodtan törölhetjük a hivatkozási megjegyzést a dokumentumból.
+A szöveg módosítása után biztonságosan törölhetjük a hivatkozáshoz tartozó megjegyzést a dokumentumból.
 
 ```csharp
 doc.Pages[a.PageIndex].Annotations.Delete(a);
@@ -141,37 +143,39 @@ Ez a sor eltávolítja a hiperhivatkozást a PDF-ből, biztosítva, hogy az már
 
 ## 9. lépés: Mentse el a módosított dokumentumot
 
-Végül el kell mentenünk a módosított dokumentumot egy új PDF fájlba. Ez folyamatunk utolsó lépése.
+Végül a módosított dokumentumot egy új PDF fájlba kell mentenünk. Ez a folyamat utolsó lépése.
 
 ```csharp
 doc.Save(dataDir + "RemoveHyperlinksFromText_out.pdf");
 ```
 
- Ez a sor menti a dokumentumot a hiperhivatkozások eltávolításával, és létrehoz egy új nevű PDF-fájlt`RemoveHyperlinksFromText_out.pdf`.
+Ez a sor a hivatkozások eltávolításával menti el a dokumentumot, létrehozva egy új PDF fájlt, amelynek neve `RemoveHyperlinksFromText_out.pdf`.
 
 ## Következtetés
 
-És megvan! Sikeresen eltávolította a hiperhivatkozásokat egy HTML-dokumentumból, miután PDF-be konvertálta az Aspose.PDF for .NET segítségével. Ez a folyamat nemcsak a PDF olvashatóságát javítja, hanem a megjelenített tartalom felett is irányítani tudja. 
+És íme! Sikeresen eltávolítottad a hiperhivatkozásokat egy HTML dokumentumból, miután PDF-be konvertáltad az Aspose.PDF for .NET segítségével. Ez a folyamat nemcsak a PDF olvashatóságát javítja, hanem a megjelenített tartalom feletti kontrollt is biztosít. 
 
 ## GYIK
 
-### Eltávolíthatom a hiperhivatkozásokat bármely PDF-dokumentumból?
-Igen, az Aspose.PDF for .NET használatával eltávolíthat hivatkozásokat bármely PDF-dokumentumból.
+### Eltávolíthatok hiperhivatkozásokat bármelyik PDF dokumentumból?
+Igen, az Aspose.PDF for .NET segítségével eltávolíthatja a hiperhivatkozásokat bármely PDF dokumentumból.
 
 ### Ingyenesen használható az Aspose.PDF?
- Az Aspose.PDF ingyenes próbaverziót kínál, de a teljes funkciók használatához licencet kell vásárolnia. Ellenőrizze a[oldal vásárlása](https://purchase.aspose.com/buy).
+Az Aspose.PDF ingyenes próbaverziót kínál, de a teljes funkciók eléréséhez licencet kell vásárolnia. Ellenőrizze a [vásárlási oldal](https://purchase.aspose.com/buy).
 
-### Mi a teendő, ha problémákat tapasztalok az Aspose.PDF használata közben?
- Segítséget kérhetsz a[támogatási fórum](https://forum.aspose.com/c/pdf/10).
+### Mi van, ha problémákba ütközöm az Aspose.PDF használata során?
+Segítséget kérhetsz a [támogatási fórum](https://forum.aspose.com/c/pdf/10).
 
 ### Átalakíthatok más fájlformátumokat PDF-be az Aspose segítségével?
-Igen, az Aspose különféle fájlformátumokat támogat a PDF-be való konvertáláshoz.
+Igen, az Aspose különféle fájlformátumokat támogat PDF-be konvertáláshoz.
 
-### Honnan tölthetem le az Aspose.PDF-et .NET-hez?
- Letöltheti a[letöltési link](https://releases.aspose.com/pdf/net/).
+### Hol tudom letölteni az Aspose.PDF fájlt .NET-hez?
+Letöltheted innen: [letöltési link](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

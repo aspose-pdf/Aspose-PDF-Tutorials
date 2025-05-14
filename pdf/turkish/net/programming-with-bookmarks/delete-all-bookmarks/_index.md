@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Tüm Yer İşaretlerini Sil
-linktitle: PDF Dosyasındaki Tüm Yer İşaretlerini Sil
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasındaki tüm yer imlerini nasıl sileceğinizi öğrenin. PDF yönetiminizi basitleştirin.
-weight: 30
-url: /tr/net/programming-with-bookmarks/delete-all-bookmarks/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasındaki tüm yer imlerini nasıl sileceğinizi öğrenin. PDF yönetiminizi basitleştirin."
+"linktitle": "PDF Dosyasındaki Tüm Yer İşaretlerini Sil"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Tüm Yer İşaretlerini Sil"
+"url": "/tr/net/programming-with-bookmarks/delete-all-bookmarks/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Tüm Yer İşaretlerini Sil
@@ -21,7 +23,7 @@ Hiç kendinizi bir PDF dosyasını karıştırırken buldunuz mu, sadece bir yı
 
 Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: .NET kodlarınızı yazıp çalıştırabileceğiniz bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
@@ -53,7 +55,7 @@ Artık her şeyi ayarladığımıza göre, yer imlerini silmek için gerçek kod
 
 ## Adım 1: Belge Dizinini Tanımlayın
 
-Öncelikle PDF dosyanızın yolunu belirtmeniz gerekir. Orijinal PDF'inizin bulunduğu ve güncellenen dosyanın kaydedileceği yer burasıdır.
+Öncelikle PDF dosyanızın yolunu belirtmeniz gerekir. Orijinal PDF'nizin bulunduğu ve güncellenen dosyanın kaydedileceği yer burasıdır.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -69,7 +71,7 @@ Document pdfDocument = new Document(dataDir + "DeleteAllBookmarks.pdf");
 
 ## Adım 3: Tüm Yer İşaretlerini Sil
 
- Şimdi kritik kısım geliyor: yer imlerini silmek. Aspose.PDF bunu inanılmaz derecede basit hale getiriyor. Sadece`Delete()` yöntem üzerinde`Outlines` belgenin mülkiyeti:
+Şimdi kritik kısım geliyor: yer imlerini silmek. Aspose.PDF bunu inanılmaz derecede basit hale getiriyor. Sadece `Delete()` yöntem üzerinde `Outlines` belgenin mülkiyeti:
 
 ```csharp
 pdfDocument.Outlines.Delete();
@@ -99,22 +101,24 @@ Ve işte karşınızda! Sadece birkaç basit adımda, Aspose.PDF for .NET kullan
 ## SSS
 
 ### Tüm yer imleri yerine belirli yer imlerini silebilir miyim?
- Evet, yineleme yapabilirsiniz`Outlines` Kriterlerinize göre belirli yer imlerini toplayın ve silin.
+Evet, yineleme yapabilirsiniz `Outlines` Kriterlerinize göre belirli yer imlerini toplayın ve silin.
 
 ### Aspose.PDF'i kullanmak ücretsiz mi?
- Aspose.PDF ücretsiz deneme sunuyor, ancak tam işlevsellik için bir lisans satın almanız gerekecek. Şuraya göz atın:[satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose.PDF ücretsiz deneme sunuyor, ancak tam işlevsellik için bir lisans satın almanız gerekecek. Şuraya göz atın: [satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Yer imlerini silerken bir hatayla karşılaşırsam ne olur?
 PDF dosyanızın bozulmadığından ve onu değiştirmek için gerekli izinlere sahip olduğunuzdan emin olun.
 
 ### Sildiğim yer imlerine yer imi ekleyebilir miyim?
- Kesinlikle! Yeni yer imlerini kullanarak ekleyebilirsiniz.`Outlines` eskileri silindikten sonra özellik.
+Kesinlikle! Yeni yer imlerini kullanarak ekleyebilirsiniz. `Outlines` eskileri silindikten sonra özellik.
 
 ### Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?
- Kapsamlı belgeleri şurada bulabilirsiniz:[Aspose web sitesi](https://reference.aspose.com/pdf/net/).
+Kapsamlı belgeleri şurada bulabilirsiniz: [Aspose web sitesi](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

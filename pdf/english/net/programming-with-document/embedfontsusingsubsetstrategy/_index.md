@@ -8,7 +8,9 @@ url: /net/programming-with-document/embedfontsusingsubsetstrategy/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Embed Fonts In PDF File With Subset Strategy
@@ -125,6 +127,7 @@ If you run into any problems, you can seek help on the Aspose support forum [her
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

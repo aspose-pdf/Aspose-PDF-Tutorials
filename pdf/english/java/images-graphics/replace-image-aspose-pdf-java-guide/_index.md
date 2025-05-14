@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Replace an Image in a PDF Using Aspose.PDF for Java: A Step-by-Step Guide
 
@@ -163,7 +165,11 @@ You've learned how to efficiently replace an image within a PDF using Aspose.PDF
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
 By following this guide, you're equipped to handle image replacements in PDFs seamlessly. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

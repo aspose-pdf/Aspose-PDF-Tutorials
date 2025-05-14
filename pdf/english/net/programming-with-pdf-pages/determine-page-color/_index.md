@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/determine-page-color/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Determine Page Color
@@ -134,6 +136,7 @@ You can use the Aspose support forum [here](https://forum.aspose.com/c/pdf/10) f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

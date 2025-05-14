@@ -1,14 +1,16 @@
 ---
-title: รายการสิ่งที่แนบมาทั้งหมดในเอกสาร PDF
-linktitle: รายการสิ่งที่แนบมาทั้งหมดในเอกสาร PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: ค้นพบวิธีการแสดงรายการไฟล์แนบใน PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนในการแยกไฟล์แนบ PDF อย่างง่ายดาย
-weight: 13
-url: /th/java/pdf-attachments/list-all-attachments-pdf-documents/
+"description": "ค้นพบวิธีการแสดงรายการไฟล์แนบใน PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนในการแยกไฟล์แนบ PDF อย่างง่ายดาย"
+"linktitle": "รายการสิ่งที่แนบมาทั้งหมดในเอกสาร PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "รายการสิ่งที่แนบมาทั้งหมดในเอกสาร PDF"
+"url": "/th/java/pdf-attachments/list-all-attachments-pdf-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รายการสิ่งที่แนบมาทั้งหมดในเอกสาร PDF
@@ -20,14 +22,14 @@ url: /th/java/pdf-attachments/list-all-attachments-pdf-documents/
 
 ## ทำความเข้าใจ Aspose.PDF สำหรับ Java
 
-ก่อนที่จะเจาะลึกโค้ด มาทำความรู้จักกับ Aspose.PDF สำหรับ Java กันก่อน Aspose.PDF เป็นไลบรารี Java ที่ทรงพลังที่ช่วยให้คุณสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม ด้วย Aspose.PDF คุณสามารถทำงานต่างๆ ได้มากมาย รวมถึงการแยกไฟล์แนบจาก PDF
+ก่อนจะเจาะลึกโค้ด มาทำความรู้จักกับ Aspose.PDF สำหรับ Java กันก่อน Aspose.PDF เป็นไลบรารี Java ที่ทรงพลังที่ช่วยให้คุณสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม ด้วย Aspose.PDF คุณสามารถทำงานต่างๆ ได้มากมาย รวมถึงการแยกไฟล์แนบจาก PDF
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้น ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ตอนนี้ เรามาดูขั้นตอนในการแสดงรายการสิ่งที่แนบมาทั้งหมดในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java กัน
 
@@ -46,7 +48,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("path_to_your_
 
 ### ขั้นตอนที่ 3: รับสิ่งที่แนบมา
 
- หากต้องการดึงสิ่งที่แนบมา ให้ใช้`getEmbeddedFiles` วิธี:
+หากต้องการดึงสิ่งที่แนบมา ให้ใช้ `getEmbeddedFiles` วิธี:
 
 ```java
 // รับรายการสิ่งที่แนบมา
@@ -83,7 +85,7 @@ pdfDocument.close();
 
 ### ฉันจะแยกสิ่งที่แนบมาจากหน้าเฉพาะของ PDF ได้อย่างไร
 
- หากต้องการแยกสิ่งที่แนบมาจากหน้าเฉพาะของ PDF คุณสามารถใช้`getPage` วิธีการเข้าถึงหน้าใดหน้าหนึ่งและดึงสิ่งที่แนบมาจากหน้านั้น
+หากต้องการแยกสิ่งที่แนบมาจากหน้าเฉพาะของ PDF คุณสามารถใช้ `getPage` วิธีการเข้าถึงหน้าใดหน้าหนึ่งและดึงสิ่งที่แนบมาจากหน้านั้น
 
 ### ฉันสามารถดึงไฟล์แนบประเภทเฉพาะ เช่น ไฟล์รูปภาพเท่านั้นได้หรือไม่
 
@@ -99,10 +101,12 @@ Aspose.PDF สำหรับ Java สามารถจัดการไฟล
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

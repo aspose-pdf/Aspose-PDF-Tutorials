@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/zoom-to-page-contents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zoom To Page Contents In PDF File
@@ -168,6 +170,7 @@ Support can be found through the Aspose forum [here](https://forum.aspose.com/c/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

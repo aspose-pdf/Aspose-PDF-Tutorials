@@ -1,14 +1,16 @@
 ---
-title: Tạo đối tượng hình chữ nhật đã tô đầy trong PDF bằng Java
-linktitle: Tạo đối tượng hình chữ nhật đã tô đầy trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách tạo hình chữ nhật tô màu trong PDF bằng Java với Aspose.PDF cho Java. Hướng dẫn từng bước có ví dụ về mã.
-weight: 12
-url: /vi/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
+"description": "Tìm hiểu cách tạo hình chữ nhật tô màu trong PDF bằng Java với Aspose.PDF cho Java. Hướng dẫn từng bước có ví dụ về mã."
+"linktitle": "Tạo đối tượng hình chữ nhật đã tô đầy trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Tạo đối tượng hình chữ nhật đã tô đầy trong PDF bằng Java"
+"url": "/vi/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo đối tượng hình chữ nhật đã tô đầy trong PDF bằng Java
@@ -20,7 +22,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo đối tượng
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
+Trước khi bắt đầu, hãy đảm bảo rằng bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Đã cài đặt Java Development Kit (JDK)
 - Môi trường phát triển tích hợp (IDE) như Eclipse hoặc IntelliJ
@@ -30,7 +32,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 
 Để bắt đầu, bạn cần tải xuống Aspose.PDF cho Java từ trang web. Thực hiện theo các bước sau:
 
-1.  Truy cập tài liệu Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+1. Truy cập tài liệu Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
 
 2. Tải thư viện xuống và làm theo hướng dẫn cài đặt được cung cấp.
 
@@ -66,7 +68,7 @@ page.getParagraphs().add(filledRectangle);
 ```
 
 Trong đoạn mã này:
--  Chúng tôi tạo ra một cái mới`Rectangle` đối tượng, chỉ định vị trí (x=100, y=100), chiều rộng (200) và chiều cao (50) của nó.
+- Chúng tôi tạo ra một cái mới `Rectangle` đối tượng, chỉ định vị trí (x=100, y=100), chiều rộng (200) và chiều cao (50) của nó.
 - Chúng ta thiết lập màu nền của hình chữ nhật là màu đỏ.
 - Cuối cùng, chúng ta thêm hình chữ nhật vào trang.
 
@@ -102,7 +104,7 @@ Bạn có thể cài đặt Aspose.PDF cho Java bằng cách tải xuống thư 
 
 ### Tôi có thể thay đổi màu của hình chữ nhật đã tô không?
 
- Có, bạn có thể tùy chỉnh màu của hình chữ nhật đã tô bằng cách đặt màu nền của nó bằng cách sử dụng`setBackgroundColor`phương pháp như được trình bày trong hướng dẫn.
+Có, bạn có thể tùy chỉnh màu của hình chữ nhật đã tô bằng cách đặt màu nền của nó bằng cách sử dụng `setBackgroundColor` phương pháp như được trình bày trong hướng dẫn.
 
 ### Aspose.PDF cho Java có miễn phí sử dụng không?
 
@@ -110,10 +112,12 @@ Aspose.PDF for Java là một thư viện thương mại và bạn có thể c�
 
 ### Tôi có thể tìm thêm ví dụ về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thêm ví dụ và tài liệu chi tiết về cách sử dụng Aspose.PDF cho Java trên trang web Aspose tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thêm ví dụ và tài liệu chi tiết về cách sử dụng Aspose.PDF cho Java trên trang web Aspose tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

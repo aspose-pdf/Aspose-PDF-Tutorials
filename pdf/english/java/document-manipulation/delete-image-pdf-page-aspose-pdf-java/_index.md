@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove a Specific Image from a PDF Page Using Aspose.PDF for Java
 
@@ -174,6 +176,9 @@ A5: Use the `decrypt` method with your password before performing any modificati
 Now that you're equipped with this knowledge, go ahead and try implementing it in your projects!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına Katmanlar Ekle
-linktitle: PDF Dosyasına Katmanlar Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF'lere katmanların nasıl ekleneceğini keşfedin. Bu adım adım kılavuz PDF düzenleme becerilerinizi geliştirecektir.
-weight: 20
-url: /tr/net/programming-with-document/addlayers/
+"description": "Aspose.PDF for .NET kullanarak PDF'lere katmanların nasıl ekleneceğini keşfedin. Bu adım adım kılavuz PDF düzenleme becerilerinizi geliştirecektir."
+"linktitle": "PDF Dosyasına Katmanlar Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Katmanlar Ekle"
+"url": "/tr/net/programming-with-document/addlayers/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Katmanlar Ekle
@@ -22,15 +24,15 @@ Dijital dokümantasyon çağında, PDF'ler her yerde bulunur hale geldi ve bilgi
 Bu yolculuğa çıkmadan önce, her şeyin yolunda gitmesini sağlamak için listenizde işaretlemeniz gereken birkaç ön koşul var:
 
 1. C# Hakkında Temel Bilgi: C# dilinde yazacağımız için, dilin temellerini bilmek, üzerinde çalışacağınız kodu anlamanıza yardımcı olacaktır.
-2.  .NET Kütüphanesi için Aspose.PDF: .NET projenizde Aspose.PDF kütüphanesinin yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/pdf/net/).
+2. .NET Kütüphanesi için Aspose.PDF: .NET projenizde Aspose.PDF kütüphanesinin yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/pdf/net/).
 3. Visual Studio veya herhangi bir C# IDE: Kodunuzu yazmak, derlemek ve çalıştırmak için makinenizde kurulu bir IDE'ye ihtiyacınız olacak. Visual Studio, .NET uygulamalarına yönelik entegre desteği nedeniyle şiddetle tavsiye edilir.
 4. Örnek PDF Belgesi: Bu eğitim yeni bir PDF oluşturmaya odaklansa da, katmanlarınızı test etmek için örnek bir PDF bulundurmak faydalı olabilir.
 
-Her şey tamam mı? Harika! Gerekli paketleri içe aktarmaya geçelim.
+Her şeyi aldınız mı? Harika! Gerekli paketleri içe aktarmaya geçelim.
 
 ## Paketleri İçe Aktar
 
-.NET için Aspose.PDF ile çalışmaya başlamak için projemize birkaç temel paketi içe aktarmamız gerekecek. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Aspose.PDF for .NET ile çalışmaya başlamak için projemize birkaç temel paketi içe aktarmamız gerekecek. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ### Projenizi Açın
 
@@ -38,7 +40,7 @@ C# projenizi Visual Studio'da veya tercih ettiğiniz IDE'de başlatın. Kodlama 
 
 ### Referans Ekle
 
-Aspose.PDF kütüphanesine referanslar eklemeniz gerekecek. NuGet Paket Yöneticisi aracılığıyla yüklediyseniz, bu adımı atlayabilirsiniz. Aksi takdirde, Çözüm Gezgini'nde projenize sağ tıklayın, "Ekle" > "Referans"ı seçin ve Aspose.PDF DLL'sini bulmak için göz atın.
+Aspose.PDF kitaplığına referanslar eklemeniz gerekecek. NuGet Paket Yöneticisi aracılığıyla yüklediyseniz, bu adımı atlayabilirsiniz. Aksi takdirde, Çözüm Gezgini'nde projenize sağ tıklayın, "Ekle" > "Referans"ı seçin ve Aspose.PDF DLL'sini bulmak için göz atın.
 
 ### Gerekli Ad Alanlarını İçe Aktar
 
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Bu adımda, yeni bir örneğini başlatıyorsunuz`Document`gelecekteki katmanlarımız için tuval görevi gören sınıf. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` PDF dosyasını daha sonra kaydetmek istediğiniz gerçek yol ile.
+Bu adımda, yeni bir örneğini başlatıyorsunuz `Document` gelecekteki katmanlarımız için tuval görevi gören sınıf. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF dosyasını daha sonra kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Yeni Bir Sayfa Oluşturun
 
@@ -88,9 +90,9 @@ layer.Contents.Add(new LineTo(400, 700));
 layer.Contents.Add(new Stroke());
 ```
 
--  Tanımlayıcı ile yeni bir katman başlatıyoruz`"oc1"` ve bir açıklama`"Red Line"`.
--  Daha sonra kontur rengini kırmızıya ayarlıyoruz (ile gösterilir)`(1, 0, 0)`).
--  Bundan sonra şunu kullanırız:`MoveTo` başlangıç noktamızı konumlandırmak ve sonra`LineTo` bir çizgi çekmek.
+- Tanımlayıcı ile yeni bir katman başlatıyoruz `"oc1"` ve bir açıklama `"Red Line"`.
+- Daha sonra kontur rengini kırmızıya ayarlıyoruz (ile gösterilir) `(1, 0, 0)`).
+- Bundan sonra şunu kullanırız: `MoveTo` başlangıç noktamızı konumlandırmak ve sonra `LineTo` bir çizgi çekmek.
 - Son olarak çizgiyi görünür hale getirmek için vuruşu uyguluyoruz.
 
 Bu, bir ressama fırçasını tuvalde nereye koyacağını söylemek gibi!
@@ -142,22 +144,24 @@ Tebrikler! .NET için Aspose.PDF kullanarak bir PDF dosyasına katmanlar ekledin
 ## SSS
 
 ### Aspose.PDF for .NET nedir?
-Aspose.PDF for .NET, geliştiricilerin .NET uygulamaları içerisinde PDF belgelerini kolayca oluşturmalarına ve düzenlemelerine olanak tanıyan bir kütüphanedir.
+Aspose.PDF for .NET, geliştiricilerin .NET uygulamaları içerisinde PDF belgeleri kolayca oluşturmalarına ve düzenlemelerine olanak tanıyan bir kütüphanedir.
 
 ### Bir PDF'e birden fazla katman ekleyebilir miyim?
 Evet, tek bir PDF dosyasına her biri benzersiz içerik ve özelliklere sahip birden fazla katman ekleyebilirsiniz.
 
 ### Aspose.PDF for .NET'i nasıl indirebilirim?
- Kütüphaneyi indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+Kütüphaneyi indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 
 ### Ücretsiz deneme imkanı var mı?
- Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümüne erişebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için desteği nerede bulabilirim?
-Aspose destek forumunda yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose destek forumunda yardım isteyebilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

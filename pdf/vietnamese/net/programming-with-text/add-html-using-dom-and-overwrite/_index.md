@@ -1,30 +1,32 @@
 ---
-title: Thêm HTML bằng DOM và ghi đè PDF
-linktitle: Thêm HTML bằng DOM và ghi đè
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm nội dung HTML vào PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến lưu cuối cùng.
-weight: 50
-url: /vi/net/programming-with-text/add-html-using-dom-and-overwrite/
+"description": "Tìm hiểu cách thêm nội dung HTML vào PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến lưu cuối cùng."
+"linktitle": "Thêm HTML bằng DOM và ghi đè"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm HTML bằng DOM và ghi đè PDF"
+"url": "/vi/net/programming-with-text/add-html-using-dom-and-overwrite/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm HTML bằng DOM và ghi đè PDF
 
 ## Giới thiệu
 
-Khi chúng ta khám phá thế giới hấp dẫn của thao tác PDF với Aspose.PDF cho .NET, bạn có thể tự hỏi làm thế nào để tích hợp HTML vào tài liệu PDF của mình một cách liền mạch. Cho dù bạn muốn tạo báo cáo, thêm nội dung động hay chỉ đơn giản là làm đẹp PDF, Aspose.PDF cung cấp các công cụ mạnh mẽ để đạt được chính xác điều đó. Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm nội dung HTML vào PDF bằng Document Object Model (DOM) của PDF và cách ghi đè lên nội dung hiện có. Vậy thì, hãy lấy một tách cà phê và bắt đầu hành trình thú vị này nhé!
+Khi chúng ta khám phá thế giới hấp dẫn của thao tác PDF với Aspose.PDF cho .NET, bạn có thể tự hỏi làm thế nào để tích hợp HTML vào tài liệu PDF của mình một cách liền mạch. Cho dù bạn muốn tạo báo cáo, thêm nội dung động hay chỉ đơn giản là làm đẹp PDF, Aspose.PDF cung cấp các công cụ mạnh mẽ để đạt được chính xác điều đó. Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm nội dung HTML vào PDF bằng Document Object Model (DOM) của nó và cách ghi đè lên nội dung hiện có. Vậy thì, hãy lấy một tách cà phê và bắt đầu cuộc hành trình thú vị này!
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu cuộc phiêu lưu này, bạn cần đảm bảo rằng mình đã thiết lập mọi thứ đúng cách để sử dụng Aspose.PDF cho .NET. Sau đây là những gì bạn cần:
 
--  Visual Studio: Đảm bảo bạn đã cài đặt phiên bản Visual Studio. Nếu chưa, bạn có thể tải bản sao[đây](https://visualstudio.microsoft.com/).
--  Aspose.PDF cho Thư viện .NET: Bạn sẽ cần tải xuống và tham chiếu thư viện trong dự án của mình. Bạn có thể tìm thấy phiên bản mới nhất[đây](https://releases.aspose.com/pdf/net/).
-- .NET Framework: Đảm bảo rằng dự án của bạn dựa trên phiên bản tương thích của .NET Framework. Kiểm tra tài liệu của Aspose để biết thông tin chi tiết mới nhất về khả năng tương thích.
-- Kiến thức cơ bản về C#: Bạn nên nắm rõ các khái niệm lập trình C# cơ bản để dễ dàng theo dõi.
+- Visual Studio: Đảm bảo bạn đã cài đặt phiên bản Visual Studio. Nếu chưa, bạn có thể tải bản sao [đây](https://visualstudio.microsoft.com/).
+- Aspose.PDF cho Thư viện .NET: Bạn sẽ cần tải xuống và tham chiếu thư viện trong dự án của mình. Bạn có thể tìm thấy phiên bản mới nhất [đây](https://releases.aspose.com/pdf/net/).
+- .NET Framework: Đảm bảo rằng dự án của bạn dựa trên phiên bản tương thích của .NET Framework. Kiểm tra tài liệu của Aspose để biết thông tin chi tiết về khả năng tương thích mới nhất.
+- Kiến thức cơ bản về C#: Bạn nên nắm vững các khái niệm lập trình C# cơ bản để dễ dàng theo dõi.
 
 Khi đã đáp ứng được những điều kiện tiên quyết này, bạn đã sẵn sàng để bắt đầu viết mã!
 
@@ -51,11 +53,11 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Chỉ cần hoán đổi`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế trên máy của bạn. Điều này sẽ giúp bạn sắp xếp mọi thứ một cách có tổ chức.
+Chỉ cần hoán đổi `YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế trên máy của bạn. Điều này sẽ giúp bạn sắp xếp mọi thứ một cách có tổ chức.
 
 ## Bước 2: Tạo đối tượng tài liệu
 
- Tiếp theo, chúng ta cần tạo một phiên bản của`Document`lớp. Hãy nghĩ về điều này như việc mở một trang giấy trắng nơi chúng ta sẽ tạo ra kiệt tác PDF của mình.
+Tiếp theo, chúng ta cần tạo một phiên bản của `Document` lớp. Hãy nghĩ về điều này như việc mở một trang giấy trắng nơi chúng ta sẽ tạo ra kiệt tác PDF của mình.
 
 ```csharp
 // Khởi tạo đối tượng Tài liệu
@@ -66,7 +68,7 @@ Lệnh này khởi tạo một tài liệu PDF mới, giúp nó sẵn sàng cho 
 
 ## Bước 3: Thêm Trang vào Tài liệu
 
-Mọi tác phẩm nghệ thuật tuyệt vời đều cần một bề mặt để hiển thị, và PDF cũng không ngoại lệ. Chúng ta sẽ thêm một trang mới vào tài liệu của mình.
+Mọi tác phẩm nghệ thuật tuyệt vời đều cần một bề mặt để trưng bày, và PDF cũng không ngoại lệ. Chúng ta sẽ thêm một trang mới vào tài liệu của mình.
 
 ```csharp
 // Thêm một trang vào bộ sưu tập trang của tệp PDF
@@ -84,14 +86,14 @@ Bây giờ chúng ta đến phần thú vị – tạo nội dung HTML mà chún
 HtmlFragment title = new HtmlFragment("<p style='font-family: Verdana'><b><i>Table contains text</i></b></p>");
 ```
 
- Dòng này thiết lập một`HtmlFragment` – một gói nhỏ gọn chứa mã HTML của chúng tôi, bao gồm cả kiểu dáng cho họ phông chữ. 
+Dòng này thiết lập một `HtmlFragment` – một gói nhỏ gọn chứa mã HTML của chúng tôi, bao gồm cả kiểu dáng cho họ phông chữ. 
 
 ## Bước 5: Điều chỉnh Thuộc tính Văn bản
 
 Một đoạn văn bản không có tính thẩm mỹ thì sẽ thế nào, đúng không? Hãy thiết lập kiểu phông chữ và kích thước để làm cho tiêu đề của chúng ta nổi bật trong PDF.
 
 ```csharp
-//Font-family từ 'Verdana' sẽ được thiết lập lại thành 'Arial'
+// Font-family từ 'Verdana' sẽ được thiết lập lại thành 'Arial'
 title.TextState = new TextState("Arial");
 title.TextState.FontSize = 20;
 ```
@@ -120,7 +122,7 @@ Sau khi đã chuẩn bị và hoàn thiện đoạn mã HTML, đã đến lúc t
 page.Paragraphs.Add(title);
 ```
 
-Bước này sẽ lấy nội dung HTML của chúng ta và đưa nó vào bộ sưu tập đoạn văn của trang, về cơ bản là đặt nó vào canvas của chúng ta.
+Bước này sẽ lấy nội dung HTML của chúng ta và đưa nó vào bộ sưu tập đoạn văn của trang, về cơ bản là đặt nó vào khung vẽ của chúng ta.
 
 ## Bước 8: Lưu PDF
 
@@ -133,7 +135,7 @@ dataDir = dataDir + "AddHTMLUsingDOMAndOverwrite_out.pdf";
 doc.Save(dataDir);
 ```
 
-Bằng cách thêm tên tệp đầu ra vào`dataDir`, chúng ta đã sẵn sàng để lưu tài liệu. Bây giờ bạn đã có tệp PDF có thêm nội dung HTML!
+Bằng cách thêm tên tệp đầu ra vào `dataDir`, chúng ta đã sẵn sàng để lưu tài liệu. Bây giờ bạn đã có tệp PDF có thêm nội dung HTML!
 
 ## Phần kết luận
 
@@ -148,16 +150,18 @@ Aspose.PDF for .NET là một thư viện mạnh mẽ để tạo và xử lý c
 Có, Aspose.PDF cho phép bạn dễ dàng chèn hình ảnh cùng với văn bản và nội dung HTML.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Chắc chắn rồi! Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com).
+Chắc chắn rồi! Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com).
 
 ### Aspose.PDF có hỗ trợ nhiều ngôn ngữ lập trình khác nhau không?
-Có, Aspose có SDK dành cho .NET, Java, C++và nhiều hơn nữa!
+Có, Aspose có SDK dành cho .NET, Java, C++ và nhiều ngôn ngữ khác!
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể truy cập diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể truy cập diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

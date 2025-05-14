@@ -1,17 +1,19 @@
 ---
-title: Perbarui Bookmark dalam PDF
-linktitle: Perbarui Bookmark dalam PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara memperbarui bookmark PDF secara efisien menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya.
-weight: 16
-url: /id/java/pdf-bookmarks/update-bookmarks-pdfs/
+"description": "Pelajari cara memperbarui bookmark PDF secara efisien menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya."
+"linktitle": "Memperbarui Bookmark dalam PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Memperbarui Bookmark dalam PDF"
+"url": "/id/java/pdf-bookmarks/update-bookmarks-pdfs/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Perbarui Bookmark dalam PDF
+# Memperbarui Bookmark dalam PDF
 
 
 ## Perkenalan
@@ -20,7 +22,7 @@ Dalam tutorial ini, kita akan menjelajahi cara memperbarui bookmark dalam PDF me
 
 ## Memahami Aspose.PDF untuk Java
 
-Aspose.PDF untuk Java adalah pustaka manipulasi PDF kaya fitur yang memungkinkan pengembang untuk membuat, mengedit, dan memanipulasi dokumen PDF dalam aplikasi Java. Pustaka ini menawarkan berbagai kemampuan, termasuk kemampuan untuk bekerja dengan bookmark, yang merupakan tautan interaktif atau kerangka yang menyediakan daftar isi untuk file PDF.
+Aspose.PDF untuk Java adalah pustaka manipulasi PDF yang kaya fitur yang memungkinkan pengembang untuk membuat, mengedit, dan memanipulasi dokumen PDF dalam aplikasi Java. Pustaka ini menawarkan berbagai kemampuan, termasuk kemampuan untuk bekerja dengan bookmark, yang merupakan tautan interaktif atau garis besar yang menyediakan daftar isi untuk file PDF.
 
 ## Prasyarat
 
@@ -51,7 +53,7 @@ Sekarang, mari buat proyek Java baru di IDE Anda:
 
 Untuk bekerja dengan Aspose.PDF untuk Java, Anda perlu menambahkan pustaka ke proyek Anda:
 
-1.  Unduh pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+1. Unduh pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 2. Tambahkan berkas JAR ke classpath proyek Anda.
 
 ## Memperbarui Bookmark dalam PDF
@@ -113,10 +115,12 @@ Meskipun Aspose.PDF untuk Java merupakan pustaka serbaguna, penting untuk meninj
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi lengkap, tutorial, dan sumber daya tambahan untuk Aspose.PDF untuk Java di situs web Aspose:[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi lengkap, tutorial, dan sumber daya tambahan untuk Aspose.PDF untuk Java di situs web Aspose: [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

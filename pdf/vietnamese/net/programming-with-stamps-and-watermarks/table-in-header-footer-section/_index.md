@@ -1,29 +1,31 @@
 ---
-title: Bảng Trong Phần Đầu Trang Chân Trang
-linktitle: Bảng Trong Phần Đầu Trang Chân Trang
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm bảng vào phần đầu trang/chân trang của tài liệu PDF bằng Aspose.PDF cho .NET.
-weight: 170
-url: /vi/net/programming-with-stamps-and-watermarks/table-in-header-footer-section/
+"description": "Tìm hiểu cách thêm bảng vào phần đầu trang/chân trang của tài liệu PDF bằng Aspose.PDF cho .NET."
+"linktitle": "Bảng Trong Phần Đầu Trang Chân Trang"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Bảng Trong Phần Đầu Trang Chân Trang"
+"url": "/vi/net/programming-with-stamps-and-watermarks/table-in-header-footer-section/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảng Trong Phần Đầu Trang Chân Trang
 
 ## Giới thiệu
 
-Bạn đã bao giờ thấy mình đang nhìn chằm chằm vào một tài liệu PDF đơn giản, ước rằng nó có thêm nét riêng biệt đó không? Vâng, bạn thật may mắn! Aspose.PDF cho .NET cho phép bạn tạo và thao tác các tệp PDF như một chuyên gia. Hôm nay, chúng ta sẽ tìm hiểu một tính năng tiện dụng cho phép bạn thêm một bảng vào tiêu đề của tài liệu PDF. Bạn sẽ không chỉ học cách thực hiện mà tôi còn hướng dẫn bạn từng bước, giúp toàn bộ quá trình trở nên dễ dàng như bơ. 🎉
+Bạn đã bao giờ thấy mình đang nhìn chằm chằm vào một tài liệu PDF đơn giản, ước rằng nó có thêm nét riêng biệt chưa? Vâng, bạn thật may mắn! Aspose.PDF cho .NET cho phép bạn tạo và thao tác các tệp PDF như một chuyên gia. Hôm nay, chúng ta sẽ tìm hiểu một tính năng tiện dụng cho phép bạn thêm một bảng vào tiêu đề của tài liệu PDF. Bạn sẽ không chỉ học cách thực hiện mà tôi còn hướng dẫn bạn từng bước, giúp toàn bộ quá trình trở nên dễ dàng như bơ. 🎉
 
 ## Điều kiện tiên quyết
 
 Trước khi chúng ta bắt đầu phần mã hóa thực tế, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu. Sau đây là những gì bạn cần:
 
-1.  Visual Studio: Đảm bảo rằng bạn đã cài đặt Visual Studio trên máy tính của mình. Nếu chưa, bạn có thể tải xuống từ[Trang web của Microsoft](https://visualstudio.microsoft.com/).
-2.  Thư viện Aspose.PDF: Bạn phải có thư viện Aspose.PDF cho .NET. Bạn có thể sử dụng liên kết sau để lấy[Aspose.PDF cho gói .NET](https://releases.aspose.com/pdf/net/).
-3. Kiến thức cơ bản về C#: Bạn nên có ít nhất một hiểu biết cơ bản về C#. Đừng lo lắng nếu bạn vẫn đang học; Tôi sẽ làm cho nó đơn giản nhất có thể!
+1. Visual Studio: Đảm bảo rằng bạn đã cài đặt Visual Studio trên máy tính của mình. Nếu chưa, bạn có thể tải xuống từ [Trang web của Microsoft](https://visualstudio.microsoft.com/).
+2. Thư viện Aspose.PDF: Bạn phải có thư viện Aspose.PDF cho .NET. Bạn có thể sử dụng liên kết sau để lấy [Aspose.PDF cho gói .NET](https://releases.aspose.com/pdf/net/).
+3. Kiến thức cơ bản về C#: Bạn nên có ít nhất một hiểu biết cơ bản về C#. Đừng lo lắng nếu bạn vẫn đang học; Tôi sẽ giữ cho nó đơn giản nhất có thể!
 
 ## Nhập gói
 
@@ -49,7 +51,7 @@ Trước khi bắt đầu tạo PDF, chúng ta cần xác định nơi lưu tr�
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay đổi thư mục này thành thư mục thực tế của bạn
 ```
 
- Thay thế`YOUR DOCUMENT DIRECTORY`với đường dẫn mà bạn muốn lưu PDF. Đường dẫn này có thể nằm ở bất kỳ đâu trên hệ thống của bạn—chỉ cần đảm bảo rằng đường dẫn đó có thể truy cập được!
+Thay thế `YOUR DOCUMENT DIRECTORY` với đường dẫn mà bạn muốn lưu PDF. Đường dẫn này có thể nằm ở bất kỳ đâu trên hệ thống của bạn—chỉ cần đảm bảo rằng đường dẫn đó có thể truy cập được!
 
 ## Bước 2: Khởi tạo tài liệu
 
@@ -98,7 +100,7 @@ page.Header = header;
 Để đảm bảo phần tiêu đề có đủ khoảng trống ở phía trên, hãy điều chỉnh lề.
 
 ```csharp
-//Đặt lề trên cho phần tiêu đề
+// Đặt lề trên cho phần tiêu đề
 header.Margin.Top = 20;
 ```
 
@@ -147,7 +149,7 @@ Các giá trị thể hiện chiều rộng của mỗi cột theo điểm. Hãy
 Đã đến lúc thêm vào một số hàng và ô! 
 
 ```csharp
-//Tạo các hàng trong bảng và sau đó tạo các ô trong các hàng
+// Tạo các hàng trong bảng và sau đó tạo các ô trong các hàng
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("Table in Header Section");
 row1.BackgroundColor = Color.Gray;
@@ -190,7 +192,7 @@ Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 img.File = dataDir + "aspose-logo.jpg"; // Hãy chắc chắn đặt hình ảnh vào thư mục của bạn
 ```
 
- Đừng quên thay thế`"aspose-logo.jpg"` với tên thực tế của hình ảnh của bạn!
+Đừng quên thay thế `"aspose-logo.jpg"` với tên thực tế của hình ảnh của bạn!
 
 ## Bước 15: Điều chỉnh chiều rộng hình ảnh
 
@@ -200,7 +202,7 @@ img.File = dataDir + "aspose-logo.jpg"; // Hãy chắc chắn đặt hình ảnh
 // Đặt chiều rộng hình ảnh là 60
 img.FixWidth = 60;
 
-//Thêm hình ảnh vào ô bảng
+// Thêm hình ảnh vào ô bảng
 Aspose.Pdf.Cell cell2 = row2.Cells.Add();
 cell2.Paragraphs.Add(img);
 ```
@@ -237,7 +239,7 @@ Và thế là xong! Bạn đã tạo được một tệp PDF tuyệt đẹp có
 
 ## Phần kết luận
 
-Và thế là xong! Bạn đã thêm thành công một bảng vào tiêu đề của tài liệu PDF bằng Aspose.PDF cho .NET. Thật tuyệt vời khi chỉ cần một vài dòng mã có thể biến một tệp PDF đơn giản thành một tài liệu trông chuyên nghiệp. Cho dù bạn đang chuẩn bị báo cáo, hóa đơn hay bài thuyết trình, thêm một chút sáng tạo có thể tạo nên sự khác biệt. 
+Và bạn đã có nó! Bạn đã thêm thành công một bảng vào tiêu đề của tài liệu PDF bằng Aspose.PDF cho .NET. Thật tuyệt vời khi chỉ cần một vài dòng mã có thể biến một tệp PDF đơn giản thành một tài liệu trông chuyên nghiệp. Cho dù bạn đang chuẩn bị báo cáo, hóa đơn hay bài thuyết trình, thêm một chút sáng tạo có thể tạo nên sự khác biệt. 
 
 ## Câu hỏi thường gặp
 
@@ -245,19 +247,21 @@ Và thế là xong! Bạn đã thêm thành công một bảng vào tiêu đề 
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo và xử lý các tài liệu PDF theo chương trình.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF không?
- Trong khi bạn có thể sử dụng thư viện miễn phí trong thời gian dùng thử, bạn cần phải có giấy phép để sử dụng lâu dài. Bạn có thể lấy[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+Trong khi bạn có thể sử dụng thư viện miễn phí trong thời gian dùng thử, bạn cần phải có giấy phép để sử dụng lâu dài. Bạn có thể lấy [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
 
 ### Tôi có thể tìm tài liệu ở đâu?
-Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên[Trang tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên [Trang tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/).
 
 ### Tôi có thể liên hệ với bộ phận hỗ trợ về các vấn đề kỹ thuật bằng cách nào?
- Bạn có thể liên hệ để được hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể liên hệ để được hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể tạo bảng ở các phần khác của tệp PDF không?
 Hoàn toàn được! Bạn cũng có thể tạo bảng ở phần chân trang và phần thân bài; chỉ cần làm theo các bước tương tự.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/pdf-annotations/retrieve-annotations-pdf-pages/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Retrieve Annotations from PDF Pages
@@ -92,6 +94,7 @@ Yes, you can automate the annotation retrieval process using Aspose.PDF for Java
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

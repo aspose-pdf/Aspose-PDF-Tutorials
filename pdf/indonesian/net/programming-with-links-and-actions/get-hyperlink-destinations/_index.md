@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Tujuan Hyperlink Dalam File PDF
-linktitle: Dapatkan Tujuan Hyperlink Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak tujuan hyperlink dari file PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Ikuti tutorial langkah demi langkah yang mudah ini.
-weight: 60
-url: /id/net/programming-with-links-and-actions/get-hyperlink-destinations/
+"description": "Pelajari cara mengekstrak tujuan hyperlink dari file PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Ikuti tutorial langkah demi langkah yang mudah ini."
+"linktitle": "Dapatkan Tujuan Hyperlink Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Tujuan Hyperlink Dalam File PDF"
+"url": "/id/net/programming-with-links-and-actions/get-hyperlink-destinations/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Tujuan Hyperlink Dalam File PDF
@@ -25,7 +27,7 @@ Sebelum Anda membaca artikel ini, mari pastikan Anda sudah menyiapkan semua perl
 Pastikan Anda telah menyiapkan lingkungan pengembangan .NET. Anda dapat menggunakan Visual Studio atau IDE C# lain sesuai pilihan Anda. 
 
 ### Aspose.PDF untuk Pustaka .NET 
- Anda memerlukan pustaka Aspose.PDF. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[tautan ini](https://releases.aspose.com/pdf/net/) Ingin mengujinya sebelum berkomitmen? Cobalah[uji coba gratis](https://releases.aspose.com/) Pertama!
+Anda memerlukan pustaka Aspose.PDF. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari [tautan ini](https://releases.aspose.com/pdf/net/)Ingin mengujinya sebelum berkomitmen? Cobalah [uji coba gratis](https://releases.aspose.com/) Pertama!
 
 ### Pengetahuan Pemrograman Dasar 
 Keakraban dengan C# dan pemrograman berorientasi objek adalah suatu keharusan. Jika Anda pernah membuat kode sebelumnya, Anda berada di posisi yang tepat!
@@ -64,10 +66,10 @@ Sekarang, pastikan proyek Anda diatur untuk menjalankan .NET Core atau kerangka 
 
 Untuk memanfaatkan fitur-fitur hebat yang disediakan Aspose.PDF, Anda perlu menambahkan pustaka ke proyek Anda.
 
-1. Gunakan Pengelola Paket NuGet:
+1. Gunakan NuGet Package Manager:
    - Klik kanan pada proyek Anda di Solution Explorer.
    - Klik "Kelola Paket NuGet".
-   -  Pencarian untuk`Aspose.PDF` dan menginstalnya.
+   - Pencarian untuk `Aspose.PDF` dan menginstalnya.
 
 Ini akan menambahkan berkas rakitan yang diperlukan sehingga Anda dapat memulai membuat kode.
 
@@ -80,7 +82,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "input.pdf");
 ```
 
- Penjelasan: Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat PDF Anda berada. Bagian kode ini menginisialisasi`Document` kelas yang disediakan oleh Aspose, yang benar-benar membuka PDF Anda untuk bisnis!
+Penjelasan: Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat PDF Anda berada. Bagian kode ini menginisialisasi `Document` kelas yang disediakan oleh Aspose, yang benar-benar membuka PDF Anda untuk bisnis!
 
 ## Langkah 4: Telusuri Halaman PDF
 
@@ -97,14 +99,14 @@ Mengapa Loop?: Setiap halaman dapat memiliki tautan yang berbeda, dan kami ingin
 
 ## Langkah 5: Ambil Anotasi Tautan
 
- Setelah kita berada di halaman, mari kita cari anotasi tautan. Kita akan menggunakan`AnnotationSelector`.
+Setelah kita berada di halaman, mari kita cari anotasi tautan. Kita akan menggunakan `AnnotationSelector`.
 
 ```csharp
 AnnotationSelector selector = new AnnotationSelector(new LinkAnnotation(page, Rectangle.Trivial));
 page.Accept(selector);
 ```
 
- Memahami`AnnotationSelector` :Kelas ini membantu mengidentifikasi tautan pada halaman dengan memilih anotasi yang bertipe`LinkAnnotation`. 
+Memahami `AnnotationSelector`:Kelas ini membantu mengidentifikasi tautan pada halaman dengan memilih anotasi yang bertipe `LinkAnnotation`. 
 
 ## Langkah 6: Simpan dan Ulangi Melalui Anotasi Tautan
 
@@ -118,7 +120,7 @@ foreach (LinkAnnotation a in list)
 }
 ```
 
-Rincian lebih lanjut:
+Uraian Terperinci:
 - `IList<Annotation> list`: Ini menyimpan semua anotasi tautan yang dipilih.
 - Mengulangi daftar: Untuk setiap tautan, kami mengambil URI tujuan dan mencetaknya. 
 
@@ -149,7 +151,7 @@ Mengekstrak tujuan hyperlink dari file PDF menggunakan Aspose.PDF untuk .NET cuk
 Aspose.PDF untuk .NET adalah pustaka hebat yang menyediakan metode untuk memanipulasi dan membuat PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya! Anda dapat mencobanya menggunakan[uji coba gratis](https://releases.aspose.com/).
+Ya! Anda dapat mencobanya menggunakan [uji coba gratis](https://releases.aspose.com/).
 
 ### Bahasa pemrograman apa yang didukung Aspose?
 Selain .NET, Aspose juga menawarkan pustaka untuk Java, Python, dan bahasa lainnya.
@@ -158,10 +160,12 @@ Selain .NET, Aspose juga menawarkan pustaka untuk Java, Python, dan bahasa lainn
 Keterampilan pemrograman dasar dalam C# atau bahasa .NET lainnya akan membantu Anda memahami contoh dengan lebih baik.
 
 ### Di mana saya dapat menemukan dukungan dan dokumentasi tambahan?
- Anda dapat menelusuri[dokumentasi](https://reference.aspose.com/pdf/net/) atau[forum dukungan](https://forum.aspose.com/c/pdf/10) untuk bantuan.
+Anda dapat menelusuri [dokumentasi](https://reference.aspose.com/pdf/net/) atau [forum dukungan](https://forum.aspose.com/c/pdf/10) untuk bantuan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

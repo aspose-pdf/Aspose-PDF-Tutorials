@@ -1,20 +1,22 @@
 ---
-title: PDF Ekleri
-linktitle: PDF Ekleri
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF ile Java'da PDF eklerini yönetmeyi öğrenin. PDF'lerinize dosyaları, resimleri ve daha fazlasını zahmetsizce ekleyin.
-weight: 11
-url: /tr/java/pdf-attachments/
+"description": "Aspose.PDF ile Java'da PDF eklerini yönetmeyi öğrenin. PDF'lerinize dosyaları, resimleri ve daha fazlasını zahmetsizce ekleyin."
+"linktitle": "PDF Ekleri"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF Ekleri"
+"url": "/tr/java/pdf-attachments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Ekleri
 
 
-PDF ekleri, PDF belgelerinizin içeriğini ve etkileşimini geliştirmek için değerli bir özelliktir. Java için Aspose.PDF tarafından desteklenen eğitim serimizde, PDF eklerini kolaylıkla yönetme sürecinde size rehberlik edeceğiz. İster PDF'lerinize dosya, resim veya başka veriler eklemek, ister mevcut belgelerden ekleri çıkarmak isteyin, bu eğitimler bunu verimli bir şekilde yapmanız için gereken becerileri size kazandıracaktır.
+PDF ekleri, PDF belgelerinizin içeriğini ve etkileşimini geliştirmek için değerli bir özelliktir. Java için Aspose.PDF tarafından desteklenen eğitim serimizde, PDF eklerini kolaylıkla yönetme sürecinde size rehberlik edeceğiz. İster PDF'lerinize dosya, resim veya başka veriler eklemek, ister mevcut belgelerden ekleri çıkarmak isteyin, bu eğitimler size bunu verimli bir şekilde yapmanız için gereken becerileri kazandıracaktır.
 
 ## PDF Eklerini Ustalaştırma
 
@@ -33,9 +35,11 @@ Aspose.PDF ile Java'da PDF'lerden ekleri nasıl kaldıracağınızı öğrenin. 
 Aspose.PDF kullanarak Java'da PDF eklerini nasıl alacağınızı öğrenin. PDF belge eklerini yönetmek için kod örnekleriyle adım adım kılavuz.
 ### [PDF Belgelerindeki Tüm Ekleri Listele](./list-all-attachments-pdf-documents/)
 Java için Aspose.PDF'yi kullanarak PDF'lerdeki Ekleri Nasıl Listeleyeceğinizi Keşfedin. PDF Eklerini Kolayca Çıkarmak İçin Adım Adım Kılavuz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

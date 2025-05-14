@@ -1,14 +1,16 @@
 ---
-title: SVG ke PDF
-linktitle: SVG ke PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengonversi SVG ke PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Sempurna untuk pengembang dan desainer.
-weight: 280
-url: /id/net/document-conversion/svg-to-pdf/
+"description": "Pelajari cara mengonversi SVG ke PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Sempurna untuk pengembang dan desainer."
+"linktitle": "SVG ke PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "SVG ke PDF"
+"url": "/id/net/document-conversion/svg-to-pdf/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # SVG ke PDF
@@ -22,7 +24,7 @@ Di dunia digital saat ini, kebutuhan untuk mengonversi file dari satu format ke 
 Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sinilah Anda akan menulis dan menjalankan kode .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C# akan membantu Anda mengikuti contoh-contohnya.
 4. Berkas SVG: Siapkan berkas SVG untuk konversi. Anda dapat membuat berkas SVG atau mengunduh contoh berkas SVG dari internet.
 
@@ -47,13 +49,13 @@ Dalam kode Anda, Anda akan menentukan variabel string yang menunjuk ke direktori
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder dokumen Anda.
 
 ## Langkah 2: Buat Instansiasi Objek LoadOption
 
- Selanjutnya, Anda perlu membuat instance dari`LoadOptions` kelas khusus untuk berkas SVG. Kelas ini memberi tahu Aspose.PDF cara menangani berkas SVG selama proses konversi.
+Selanjutnya, Anda perlu membuat instance dari `LoadOptions` kelas khusus untuk berkas SVG. Kelas ini memberi tahu Aspose.PDF cara menangani berkas SVG selama proses konversi.
 
- Itu`SvgLoadOptions` Kelas ini dirancang untuk memuat berkas SVG. Dengan membuat contoh kelas ini, Anda memastikan bahwa pustaka mengetahui bahwa Anda sedang bekerja dengan berkas SVG.
+Itu `SvgLoadOptions` Kelas ini dirancang untuk memuat berkas SVG. Dengan membuat contoh kelas ini, Anda memastikan bahwa pustaka mengetahui bahwa Anda sedang bekerja dengan berkas SVG.
 
 ```csharp
 Aspose.Pdf.LoadOptions loadopt = new Aspose.Pdf.SvgLoadOptions();
@@ -61,27 +63,27 @@ Aspose.Pdf.LoadOptions loadopt = new Aspose.Pdf.SvgLoadOptions();
 
 ## Langkah 3: Buat Objek Dokumen
 
- Sekarang saatnya untuk membuat`Document`objek. Objek ini akan mewakili berkas SVG Anda dalam kode.
+Sekarang saatnya untuk membuat `Document` objek. Objek ini akan mewakili berkas SVG Anda dalam kode.
 
- Itu`Document` class merupakan inti dari pustaka Aspose.PDF. Dengan meneruskan jalur berkas SVG dan opsi pemuatan yang baru saja Anda buat, Anda memberi tahu pustaka untuk memuat berkas SVG ke dalam memori.
+Itu `Document` class merupakan inti dari pustaka Aspose.PDF. Dengan meneruskan jalur berkas SVG dan opsi pemuatan yang baru saja Anda buat, Anda memberi tahu pustaka untuk memuat berkas SVG ke dalam memori.
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SVGToPDF.svg", loadopt);
 ```
 
- Pastikan untuk mengganti`"SVGToPDF.svg"` dengan nama berkas SVG Anda yang sebenarnya.
+Pastikan untuk mengganti `"SVGToPDF.svg"` dengan nama berkas SVG Anda yang sebenarnya.
 
 ## Langkah 4: Simpan Dokumen PDF yang Dihasilkan
 
 Terakhir, Anda akan menyimpan dokumen PDF yang telah dikonversi. Ini adalah langkah terakhir dalam proses konversi.
 
- Itu`Save` metode dari`Document` class memungkinkan Anda menentukan nama dan format file keluaran. Dalam hal ini, Anda akan menyimpannya sebagai PDF.
+Itu `Save` metode dari `Document` class memungkinkan Anda menentukan nama dan format file keluaran. Dalam hal ini, Anda akan menyimpannya sebagai PDF.
 
 ```csharp
 doc.Save(dataDir + "SVGToPDF_out.pdf");
 ```
 
- Sekali lagi, ganti`"SVGToPDF_out.pdf"` dengan nama file keluaran yang Anda inginkan.
+Sekali lagi, ganti `"SVGToPDF_out.pdf"` dengan nama file keluaran yang Anda inginkan.
 
 ## Kesimpulan
 
@@ -99,13 +101,15 @@ PDF adalah format yang digunakan secara luas untuk berbagi dan mencetak dokumen,
 Ya, Anda dapat mengulang direktori file SVG dan mengonversi masing-masing file ke PDF menggunakan kode yang serupa.
 
 ### Apakah Aspose.PDF gratis?
- Aspose.PDF menawarkan uji coba gratis, tetapi untuk fitur lengkap, Anda perlu membeli lisensi. Anda dapat menemukan informasi lebih lanjut[Di Sini](https://purchase.aspose.com/buy).
+Aspose.PDF menawarkan uji coba gratis, tetapi untuk fitur lengkap, Anda perlu membeli lisensi. Anda dapat menemukan informasi lebih lanjut [Di Sini](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dari komunitas Aspose di[forum dukungan](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dari komunitas Aspose di [forum dukungan](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

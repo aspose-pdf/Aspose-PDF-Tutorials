@@ -1,14 +1,16 @@
 ---
-title: Renderuj tabelę w dokumencie PDF
-linktitle: Renderuj tabelę w dokumencie PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Twórz profesjonalne pliki PDF łatwo, renderując tabele za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby opanować generowanie dokumentów.
-weight: 170
-url: /pl/net/programming-with-tables/render-table/
+"description": "Twórz profesjonalne pliki PDF łatwo, renderując tabele za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby opanować generowanie dokumentów."
+"linktitle": "Renderuj tabelę w dokumencie PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Renderuj tabelę w dokumencie PDF"
+"url": "/pl/net/programming-with-tables/render-table/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Renderuj tabelę w dokumencie PDF
@@ -21,8 +23,8 @@ Tworzenie profesjonalnie wyglądających plików PDF programowo może wydawać s
 
 Zanim zagłębimy się w kod, oto czego będziesz potrzebować:
 
--  Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Możesz je pobrać[Tutaj](https://visualstudio.microsoft.com/downloads/).
--  Aspose.PDF dla .NET: Bibliotekę Aspose.PDF można łatwo pobrać ze strony[Strona wydania Aspose](https://releases.aspose.com/pdf/net/).
+- Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Możesz je pobrać [Tutaj](https://visualstudio.microsoft.com/downloads/).
+- Aspose.PDF dla .NET: Bibliotekę Aspose.PDF można łatwo pobrać ze strony [Strona wydania Aspose](https://releases.aspose.com/pdf/net/).
 - Podstawowa wiedza o języku C#: Zrozumienie podstaw języka C# pomoże Ci lepiej nadążać.
 - .NET Framework: Najlepiej upewnij się, że pracujesz w kompatybilnym środowisku .NET.
 
@@ -39,7 +41,7 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
- Upewnij się, że dodałeś niezbędne odniesienia do biblioteki Aspose.PDF w swoim projekcie. Jeśli używasz NuGet, możesz je łatwo dodać, wyszukując`Aspose.PDF`.
+Upewnij się, że dodałeś niezbędne odniesienia do biblioteki Aspose.PDF w swoim projekcie. Jeśli używasz NuGet, możesz je łatwo dodać, wyszukując `Aspose.PDF`.
 
 Teraz, gdy wszystko jest już skonfigurowane, podzielmy proces na łatwe do opanowania kroki renderowania tabeli w dokumencie PDF. Nie martw się; przeprowadzę Cię przez każdy krok z jasnymi instrukcjami!
 
@@ -63,7 +65,7 @@ pageInfo.IsLandscape = true;
 
 Wyjaśnienie: 
 - Zacznijmy od zdefiniowania miejsca, w którym zostanie zapisany nasz dokument (`dataDir`). 
--  Następnie tworzymy nową instancję`Document` klasa. 
+- Następnie tworzymy nową instancję `Document` klasa. 
 - Konfigurujemy marginesy strony tak, aby stworzyć trochę przestrzeni wokół naszej tabeli.
 - Na koniec ustawiamy orientację dokumentu na poziomą, co jest pomocne przy wyświetlaniu szerszych tabel.
 
@@ -76,7 +78,7 @@ Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 table.ColumnWidths = "50 100"; // Zdefiniuj szerokości kolumn
 ```
 
- Wyjaśnienie: Tutaj tworzymy instancję`Table` klasa i ustaw szerokości kolumn. Pierwsza kolumna będzie miała 50 jednostek szerokości, a druga kolumna będzie miała 100 jednostek szerokości.
+Wyjaśnienie: Tutaj tworzymy instancję `Table` klasa i ustaw szerokości kolumn. Pierwsza kolumna będzie miała 50 jednostek szerokości, a druga kolumna będzie miała 100 jednostek szerokości.
 
 ## Krok 3: Wypełnij tabelę wierszami
 
@@ -87,7 +89,7 @@ Page curPage = doc.Pages.Add(); // Dodawanie nowej strony
 for (int i = 1; i <= 120; i++)
 {
     Aspose.Pdf.Row row = table.Rows.Add();
-    row.FixedRowHeight = 15; // Ustaw stałą wysokość dla wierszy
+    row.FixedRowHeight = 15; // Ustaw stałą wysokość wierszy
     
     Aspose.Pdf.Cell cell1 = row.Cells.Add();
     cell1.Paragraphs.Add(new TextFragment("Content 1"));
@@ -99,7 +101,7 @@ for (int i = 1; i <= 120; i++)
 
 Wyjaśnienie: 
 - Tutaj tworzymy nową stronę, aby dodać naszą tabelę.
--  Używamy`for` pętla, aby dodać 120 wierszy do naszej tabeli. Każdy wiersz ma stałą wysokość 15 jednostek.
+- Używamy `for` pętla, aby dodać 120 wierszy do naszej tabeli. Każdy wiersz ma stałą wysokość 15 jednostek.
 - W każdym wierszu dodajemy dwie komórki i wypełniamy je tekstem.
 
 ## Krok 4: Dodaj pierwszą tabelę do strony
@@ -135,8 +137,8 @@ paragraphs.Add(table1);
 
 Wyjaśnienie: 
 - Ten fragment kodu tworzy nową tabelę z dwiema kolumnami, obie o szerokości 100 jednostek.
--  A`for` Pętla dodaje 10 wierszy z przykładową zawartością.
--  Poprzez ustawienie`table1.IsInNewPage` aby była prawdziwa, upewniamy się, że tabela ta pojawi się na nowej stronie, dzięki czemu wszystko będzie zorganizowane i przejrzyste.
+- A `for` Pętla dodaje 10 wierszy z przykładową zawartością.
+- Poprzez ustawienie `table1.IsInNewPage` aby była prawdziwa, upewniamy się, że tabela ta pojawi się na nowej stronie, dzięki czemu wszystko będzie zorganizowane i przejrzyste.
 
 ## Krok 6: Zapisz dokument
 
@@ -147,7 +149,7 @@ dataDir = dataDir + "IsNewPageProperty_Test_out.pdf";
 doc.Save(dataDir);
 ```
 
- Wyjaśnienie: Określamy nazwę pliku i zapisujemy dokument w zdefiniowanym katalogu. Po uruchomieniu tego kodu zostanie utworzony plik PDF o nazwie`IsNewPageProperty_Test_out.pdf` zostanie utworzony w podanej lokalizacji.
+Wyjaśnienie: Określamy nazwę pliku i zapisujemy dokument w zdefiniowanym katalogu. Po uruchomieniu tego kodu zostanie utworzony plik PDF o nazwie `IsNewPageProperty_Test_out.pdf` zostanie utworzony w podanej lokalizacji.
 
 ## Krok 7: Wiadomość potwierdzająca
 
@@ -169,19 +171,21 @@ I masz to! Udało Ci się wyrenderować tabele w dokumencie PDF przy użyciu Asp
 Oczywiście! Możesz dostosować kolory, obramowania, style czcionek i inne właściwości, aby poprawić wygląd swoich tabel.
 
 ### Czy korzystanie z Aspose.PDF jest bezpłatne?  
- Aspose.PDF oferuje bezpłatną wersję próbną, ale do użytku komercyjnego wymagany jest zakup. Możesz sprawdzić ceny[Tutaj](https://purchase.aspose.com/buy).
+Aspose.PDF oferuje bezpłatną wersję próbną, ale do użytku komercyjnego wymagany jest zakup. Możesz sprawdzić ceny [Tutaj](https://purchase.aspose.com/buy).
 
 ### Gdzie mogę uzyskać pomoc w rozwiązaniu problemów z plikiem Aspose.PDF?  
- Możesz szukać pomocy na forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz szukać pomocy na forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Czy istnieją jakieś ograniczenia wersji próbnej?  
- Tak, wersja próbna może mieć pewne ograniczenia, takie jak znakowanie wodne na generowanych dokumentach. Aby uzyskać pełną funkcjonalność, rozważ uzyskanie licencji tymczasowej[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, wersja próbna może mieć pewne ograniczenia, takie jak znakowanie wodne na generowanych dokumentach. Aby uzyskać pełną funkcjonalność, rozważ uzyskanie licencji tymczasowej [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć więcej informacji o funkcjach pliku Aspose.PDF?  
- Możesz zapoznać się z dostępną kompleksową dokumentacją[Tutaj](https://reference.aspose.com/pdf/net/).
+Możesz zapoznać się z dostępną kompleksową dokumentacją [Tutaj](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

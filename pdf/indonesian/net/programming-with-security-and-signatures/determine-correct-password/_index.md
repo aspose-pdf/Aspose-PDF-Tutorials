@@ -1,14 +1,16 @@
 ---
-title: Tentukan Kata Sandi yang Benar Dalam File PDF
-linktitle: Tentukan Kata Sandi yang Benar Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Buka kunci file PDF dengan kata sandi yang tepat menggunakan Aspose.PDF untuk .NET. Pelajari cara mengidentifikasi kata sandi yang tepat dengan mudah.
-weight: 30
-url: /id/net/programming-with-security-and-signatures/determine-correct-password/
+"description": "Buka kunci file PDF dengan kata sandi yang tepat menggunakan Aspose.PDF untuk .NET. Pelajari cara mengidentifikasi kata sandi yang tepat dengan mudah."
+"linktitle": "Tentukan Kata Sandi yang Benar Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tentukan Kata Sandi yang Benar Dalam File PDF"
+"url": "/id/net/programming-with-security-and-signatures/determine-correct-password/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tentukan Kata Sandi yang Benar Dalam File PDF
@@ -24,7 +26,7 @@ Sebelum memulai tutorial, mari pastikan Anda telah menyiapkan semua yang dibutuh
 ### Perangkat Lunak dan Alat
 
 1. .NET Framework atau .NET Core: Pastikan Anda telah menginstal .NET Framework atau .NET Core di lingkungan pengembangan Anda.
-2.  Aspose.PDF untuk .NET: Anda harus memiliki pustaka Aspose.PDF yang tersedia di proyek Anda. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda harus memiliki pustaka Aspose.PDF yang tersedia di proyek Anda. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/).
    
 ### Lingkungan Pengembangan
 
@@ -33,7 +35,7 @@ Sebelum memulai tutorial, mari pastikan Anda telah menyiapkan semua yang dibutuh
 
 ### API dan Lisensi
 
--  Jika Anda berencana untuk menggunakan fungsionalitas penuh Aspose.PDF, pertimbangkan untuk mendapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau sebuah[lisensi permanen](https://purchase.aspose.com/buy).
+- Jika Anda berencana untuk menggunakan fungsionalitas penuh Aspose.PDF, pertimbangkan untuk mendapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau sebuah [lisensi permanen](https://purchase.aspose.com/buy).
   
 Setelah semuanya siap, Anda siap mengungkap rahasia PDF yang dilindungi kata sandi!
 
@@ -66,7 +68,7 @@ Sekarang, mari kita bahas langkah-langkah utama yang terlibat dalam mengidentifi
 
 ## Langkah 1: Siapkan Jalur File
 
- Sebelum melakukan hal lain, Anda perlu menentukan jalur ke file PDF yang sedang Anda kerjakan. Pastikan untuk mengganti`"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
+Sebelum melakukan hal lain, Anda perlu menentukan jalur ke file PDF yang sedang Anda kerjakan. Pastikan untuk mengganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -74,14 +76,14 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## Langkah 2: Muat File PDF Sumber
 
- Selanjutnya, manfaatkan`PdfFileInfo` untuk memuat berkas PDF sumber Anda:
+Selanjutnya, manfaatkan `PdfFileInfo` untuk memuat berkas PDF sumber Anda:
 
 ```csharp
 PdfFileInfo info = new PdfFileInfo();
 info.BindPdf(dataDir + "IsPasswordProtected.pdf");
 ```
 
- Langkah ini mengikat file PDF ke`info` objek, yang memungkinkan kita mengakses propertinya.
+Langkah ini mengikat file PDF ke `info` objek, yang memungkinkan kita mengakses propertinya.
 
 ## Langkah 3: Periksa apakah PDF dienkripsi
 
@@ -91,17 +93,17 @@ Sekarang, saatnya menentukan apakah dokumen PDF benar-benar dilindungi kata sand
 Console.WriteLine("File is password protected " + info.IsEncrypted);
 ```
 
- Dengan memeriksa`IsEncrypted` properti, Anda dapat memastikan status kunci dokumen. Jika itu`true`, maka Anda harus memecahkan kodenya!
+Dengan memeriksa `IsEncrypted` properti, Anda dapat memastikan status kunci dokumen. Jika itu `true`, maka Anda harus memecahkan kodenya!
 
 ## Langkah 4: Siapkan Daftar Kata Sandi yang Mungkin
 
-Untuk melakukan perburuan kata sandi, siapkan serangkaian string yang berisi kata sandi potensial yang ingin Anda uji:
+Untuk melakukan perburuan kata sandi, siapkan array string yang berisi kata sandi potensial yang ingin Anda uji:
 
 ```csharp
 String[] passwords = new String[5] { "test", "test1", "test2", "test3", "sample" };
 ```
 
-Anda dapat memodifikasi susunan ini berdasarkan kebutuhan atau kemungkinan kata sandi yang paling mungkin.
+Anda dapat memodifikasi susunan ini berdasarkan kebutuhan atau kemungkinan kata sandi yang paling tepat.
 
 ## Langkah 5: Coba Buka PDF dengan Setiap Kata Sandi
 
@@ -125,7 +127,7 @@ for (int passwordcount = 0; passwordcount < passwords.Length; passwordcount++)
 
 ## Kesimpulan
 
-Nah, itu dia! Kini Anda telah mempelajari cara menentukan kata sandi yang benar untuk berkas PDF yang dilindungi kata sandi menggunakan Aspose.PDF for .NET. Fungsionalitas semacam ini sangat membantu bagi mereka yang sering berurusan dengan dokumen PDF yang terkunci. Prosesnya mudah, berkat API canggih yang disediakan oleh Aspose.PDF. Baik untuk penggunaan profesional maupun proyek pribadi, menguasai keterampilan ini akan menghemat waktu dan mengurangi rasa frustrasi Anda.
+Nah, itu dia! Kini Anda telah mempelajari cara menentukan kata sandi yang benar untuk berkas PDF yang dilindungi kata sandi menggunakan Aspose.PDF untuk .NET. Fungsionalitas semacam ini sangat membantu bagi mereka yang sering berurusan dengan dokumen PDF yang terkunci. Prosesnya mudah, berkat API canggih yang disediakan oleh Aspose.PDF. Baik untuk penggunaan profesional maupun proyek pribadi, menguasai keterampilan ini akan menghemat waktu dan mengurangi rasa frustrasi Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -133,7 +135,7 @@ Nah, itu dia! Kini Anda telah mempelajari cara menentukan kata sandi yang benar 
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengelola dokumen PDF secara terprogram.
 
 ### Dapatkah saya mencoba Aspose.PDF secara gratis?
- Ya, Anda dapat mengunduh uji coba gratis Aspose.PDF[Di Sini](https://releases.aspose.com).
+Ya, Anda dapat mengunduh uji coba gratis Aspose.PDF [Di Sini](https://releases.aspose.com).
 
 ### Apa yang harus saya lakukan jika saya lupa kata sandi PDF saya?
 Jika Anda memiliki beberapa kata sandi potensial, Anda dapat menggunakan metode yang dijelaskan di atas untuk mencoba membukanya. Namun, pastikan Anda mematuhi pedoman hukum.
@@ -142,10 +144,12 @@ Jika Anda memiliki beberapa kata sandi potensial, Anda dapat menggunakan metode 
 Membuka kunci PDF hanya sah jika Anda memiliki hak untuk mengakses konten tersebut. Selalu pastikan Anda memiliki izin sebelum mencoba melewati keamanan apa pun.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PDF?
-Untuk pertanyaan dan dukungan, Anda dapat mengunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Untuk pertanyaan dan dukungan, Anda dapat mengunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

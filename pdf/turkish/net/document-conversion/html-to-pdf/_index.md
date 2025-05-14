@@ -1,14 +1,16 @@
 ---
-title: HTML'den PDF'e
-linktitle: HTML'den PDF'e
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı adım adım kılavuzla Aspose.PDF for .NET'i kullanarak HTML'yi PDF'ye nasıl dönüştüreceğinizi öğrenin.
-weight: 50
-url: /tr/net/document-conversion/html-to-pdf/
+"description": "Bu kapsamlı adım adım kılavuzla Aspose.PDF for .NET'i kullanarak HTML'yi PDF'ye nasıl dönüştüreceğinizi öğrenin."
+"linktitle": "HTML'den PDF'e"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "HTML'den PDF'e"
+"url": "/tr/net/document-conversion/html-to-pdf/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML'den PDF'e
@@ -23,7 +25,7 @@ Başlamadan önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu bizim geliştirme ortamımız olacak.
 2. .NET Framework: .NET Framework'ün yüklü olduğundan emin olun. Aspose.PDF çeşitli sürümleri destekler, bu nedenle projenizle uyumluluğunu kontrol edin.
-3. Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesini indirip yüklemeniz gerekir. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesini indirip yüklemeniz gerekir. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 4. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -42,8 +44,8 @@ Artık her şeyi ayarladığımıza göre, HTML'yi PDF'ye dönüştürme süreci
 
 Herhangi bir kod yazmadan önce proje dizininizi ayarlamanız gerekir. HTML dosyalarınızı ve çıktı PDF'inizi burada saklayacaksınız.
 
--  Bilgisayarınızda HTML dosyalarınızı saklayacağınız bir klasör oluşturun. Örneğin, buna şu adı verebilirsiniz:`Documents`.
--  HTML dosyanızı yerleştirin (örneğin,`HTMLToPDF.html`) bu klasörde.
+- Bilgisayarınızda HTML dosyalarınızı saklayacağınız bir klasör oluşturun. Örneğin, buna şu adı verebilirsiniz: `Documents`.
+- HTML dosyanızı yerleştirin (örneğin, `HTMLToPDF.html`) bu klasörde.
 
 Şimdi, dönüşümü gerçekleştirmek için kodu yazalım. Ana C# dosyanızı açın ve şu adımları izleyin:
 
@@ -55,11 +57,11 @@ Herhangi bir kod yazmadan önce proje dizininizi ayarlamanız gerekir. HTML dosy
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`YOUR DOCUMENT DIRECTORY` gerçek yolunuzla`Documents` dosya.
+Yer değiştirmek `YOUR DOCUMENT DIRECTORY` gerçek yolunuzla `Documents` dosya.
 
 ### Adım 3: HtmlLoadOptions'ı Oluşturun
 
-Daha sonra, bir örnek oluşturacaksınız`HtmlLoadOptions`Bu sınıf, harici kaynakların nasıl yükleneceğini özelleştirmenize olanak tanır.
+Daha sonra, bir örnek oluşturacaksınız `HtmlLoadOptions`Bu sınıf, harici kaynakların nasıl yükleneceğini özelleştirmenize olanak tanır.
 
 ```csharp
 HtmlLoadOptions options = new HtmlLoadOptions();
@@ -70,7 +72,7 @@ Bu kod parçacığı, harici kaynakların yüklenmesine ilişkin seçenekleri ay
 
 ### Adım 4: HTML Belgesini Yükleyin
 
- Şimdi HTML belgenizi bir Aspose.PDF'e yükleme zamanı`Document` nesne.
+Şimdi HTML belgenizi bir Aspose.PDF'e yükleme zamanı `Document` nesne.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "HTMLToPDF.html", options);
@@ -115,19 +117,21 @@ Tebrikler! Aspose.PDF for .NET kullanarak HTML'yi PDF'ye dönüştürmeyi başar
 Aspose.PDF, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir .NET kütüphanesidir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
-### Aspose.PDF .NET Core ile uyumlu mudur?
+### Aspose.PDF .NET Core ile uyumlu mu?
 Evet, Aspose.PDF .NET Core'u destekler ve bu sayede onu modern uygulamalarda kullanabilirsiniz.
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF'i nereden satın alabilirim?
- Aspose.PDF için bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.PDF için bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

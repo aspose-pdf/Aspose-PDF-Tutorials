@@ -1,14 +1,16 @@
 ---
-title: Coret Teks Menggunakan Anotasi
-linktitle: Coret Teks Menggunakan Anotasi
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan anotasi teks yang dicoret ke dokumen PDF menggunakan Aspose.PDF untuk Java. Ikuti panduan langkah demi langkah kami untuk manipulasi dokumen yang tepat.
-weight: 16
-url: /id/java/pdf-annotations/strike-through-text-using-annotations/
+"description": "Pelajari cara menambahkan anotasi teks yang dicoret ke dokumen PDF menggunakan Aspose.PDF untuk Java. Ikuti panduan langkah demi langkah kami untuk manipulasi dokumen yang tepat."
+"linktitle": "Coret Teks Menggunakan Anotasi"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Coret Teks Menggunakan Anotasi"
+"url": "/id/java/pdf-annotations/strike-through-text-using-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Coret Teks Menggunakan Anotasi
@@ -16,7 +18,7 @@ url: /id/java/pdf-annotations/strike-through-text-using-annotations/
 
 ## Pengantar untuk Mencoret Teks Menggunakan Anotasi
 
-Dalam dunia manipulasi dokumen, ketepatan dan kejelasan adalah yang terpenting. Anotasi teks yang dicoret adalah alat yang berharga untuk menyorot perubahan, menunjukkan penghapusan, atau menekankan konten tertentu dalam dokumen PDF. Aspose.PDF untuk Java menyediakan serangkaian fitur yang tangguh untuk mencapai hal ini dengan mudah. Dalam panduan ini, kami akan memandu Anda melalui proses penambahan anotasi teks yang dicoret ke dokumen PDF Anda menggunakan Aspose.PDF untuk Java.
+Dalam dunia manipulasi dokumen, ketepatan dan kejelasan adalah yang terpenting. Anotasi teks yang dicoret merupakan alat yang berharga untuk menyorot perubahan, menunjukkan penghapusan, atau menekankan konten tertentu dalam dokumen PDF. Aspose.PDF untuk Java menyediakan serangkaian fitur yang tangguh untuk mencapai hal ini dengan mudah. Dalam panduan ini, kami akan memandu Anda melalui proses penambahan anotasi teks yang dicoret ke dokumen PDF Anda menggunakan Aspose.PDF untuk Java.
 
 ## Prasyarat
 
@@ -24,7 +26,7 @@ Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
 1. Lingkungan Pengembangan Java: Pastikan Anda memiliki Java dan IDE yang sesuai (Eclipse, IntelliJ IDEA, atau lainnya) yang terpasang di sistem Anda.
 
-2.  Pustaka Aspose.PDF untuk Java: Unduh dan sertakan pustaka Aspose.PDF untuk Java dalam proyek Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/pdf/java/).
+2. Pustaka Aspose.PDF untuk Java: Unduh dan sertakan pustaka Aspose.PDF untuk Java dalam proyek Anda. Anda dapat menemukan tautan unduhan [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Langkah 1: Menyiapkan Proyek Java Anda
 
@@ -84,7 +86,7 @@ Selamat! Anda telah berhasil menambahkan anotasi teks yang dicoret ke dokumen PD
 
 ### Bagaimana cara mengubah warna anotasi yang dicoret?
 
- Untuk mengubah warna anotasi yang dicoret, Anda dapat menggunakan`setColor` metode dan tentukan warna yang diinginkan. Dalam contoh yang diberikan, kami mengaturnya menjadi merah menggunakan`setColor(com.aspose.pdf.Color.getRed())`.
+Untuk mengubah warna anotasi yang dicoret, Anda dapat menggunakan `setColor` metode dan tentukan warna yang diinginkan. Dalam contoh yang diberikan, kami mengaturnya menjadi merah menggunakan `setColor(com.aspose.pdf.Color.getRed())`.
 
 ### Bisakah saya menambahkan beberapa anotasi yang dicoret ke satu dokumen PDF?
 
@@ -100,10 +102,12 @@ Ya, Aspose.PDF untuk Java mendukung berbagai jenis anotasi, termasuk teks, sorot
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Untuk dokumentasi lengkap dan sumber daya lainnya, kunjungi halaman dokumentasi Aspose.PDF untuk Java:[Di Sini](https://reference.aspose.com/pdf/java/).
+Untuk dokumentasi lengkap dan sumber daya lainnya, kunjungi halaman dokumentasi Aspose.PDF untuk Java: [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

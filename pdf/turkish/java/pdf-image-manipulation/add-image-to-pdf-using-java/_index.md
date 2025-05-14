@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'ye Resim Ekleme
-linktitle: Java kullanarak PDF'ye Resim Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Adım adım kılavuzumuzla Java kullanarak PDF'lere resim eklemeyi öğrenin. PDF belgelerinizi görsellerle zahmetsizce zenginleştirin.
-weight: 10
-url: /tr/java/pdf-image-manipulation/add-image-to-pdf-using-java/
+"description": "Adım adım kılavuzumuzla Java kullanarak PDF'lere resim eklemeyi öğrenin. PDF belgelerinizi görsellerle zahmetsizce zenginleştirin."
+"linktitle": "Java kullanarak PDF'ye Resim Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'ye Resim Ekleme"
+"url": "/tr/java/pdf-image-manipulation/add-image-to-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'ye Resim Ekleme
@@ -28,7 +30,7 @@ Kodlamaya başlamadan önce aşağıdaki ayarların yapıldığından emin olun:
 
 ## Başlarken
 
-Java projemizi kurarak ve Aspose.PDF kütüphanesini ekleyerek başlayalım. Eğer henüz yapmadıysanız, Java kütüphanesi için Aspose.PDF'yi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/).
+Java projemizi kurarak ve Aspose.PDF kütüphanesini ekleyerek başlayalım. Eğer henüz yapmadıysanız, Java için Aspose.PDF kütüphanesini şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Mevcut Bir PDF'ye Resim Ekleme
 
@@ -48,18 +50,18 @@ import com.aspose.pdf.*;
 Document pdfDocument = new Document("path_to_existing_pdf.pdf");
 ```
 
- Yer değiştirmek`"path_to_existing_pdf.pdf"` PDF dosyanızın gerçek yolunu belirtin.
+Yer değiştirmek `"path_to_existing_pdf.pdf"` PDF dosyanızın gerçek yolunu belirtin.
 
 ### Adım 3: Görseli ekleyin
 
- PDF'e bir resim eklemek için şunu kullanabilirsiniz:`Image` Aspose.PDF'den bir sınıf oluşturun. İlk olarak, bir`Image` nesneyi seçin ve görüntü dosyasının yolunu belirtin:
+PDF'e bir resim eklemek için şunu kullanabilirsiniz: `Image` Aspose.PDF'den bir sınıf oluşturun. İlk olarak, bir `Image` nesneyi seçin ve görüntü dosyasının yolunu belirtin:
 
 ```java
 Image image = new Image();
 image.setFile("path_to_image.png");
 ```
 
- Yer değiştirmek`"path_to_image.png"` Eklemek istediğiniz görselin yolunu yazın.
+Yer değiştirmek `"path_to_image.png"` Eklemek istediğiniz görselin yolunu yazın.
 
 ### Adım 4: Görüntü boyutlarını ve konumunu ayarlayın
 
@@ -93,13 +95,13 @@ pdfDocument.save("output.pdf");
 
 ## Çözüm
 
-Java ve Aspose.PDF kütüphanesini kullanarak bir PDF belgesine başarıyla bir resim eklediniz. Bu, Java uygulamalarınızda görsel açıdan zengin PDF'ler oluşturmanız gerektiğinde inanılmaz derecede faydalı olabilir.
+Java ve Aspose.PDF kütüphanesini kullanarak bir PDF belgesine başarıyla bir resim eklediniz. Bu, Java uygulamalarınızda görsel olarak zengin PDF'ler oluşturmanız gerektiğinde inanılmaz derecede faydalı olabilir.
 
 ## SSS
 
 ### PDF içindeki görselin boyutunu nasıl değiştirebilirim?
 
- Resmi yeniden boyutlandırmak için şunu kullanın:`setFixWidth` Ve`setFixHeight` yöntemleri`Image` Bu kılavuzun 4. Adımında gösterildiği gibi sınıf.
+Resmi yeniden boyutlandırmak için şunu kullanın: `setFixWidth` Ve `setFixHeight` yöntemleri `Image` Bu kılavuzun 4. Adımında gösterildiği gibi sınıf.
 
 ### Aynı PDF belgesine birden fazla resim ekleyebilir miyim?
 
@@ -116,9 +118,11 @@ Java için Aspose.PDF, PNG, JPEG, GIF ve BMP dahil olmak üzere çok çeşitli r
 ### PDF sayfasındaki belirli yerlere resim ekleyebilir miyim?
 
 Evet, 4. Adımda gösterildiği gibi, üst ve sol kenar boşluklarını ayarlayarak görüntünün PDF sayfasındaki tam konumunu belirleyebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

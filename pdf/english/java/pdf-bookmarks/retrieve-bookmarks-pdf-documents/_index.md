@@ -8,7 +8,9 @@ url: /java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Retrieve Bookmarks from PDF Documents
@@ -123,6 +125,7 @@ You can find comprehensive documentation and support for Aspose.PDF for Java at 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

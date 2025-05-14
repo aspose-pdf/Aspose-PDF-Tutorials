@@ -1,14 +1,16 @@
 ---
-title: Sembunyikan Batas Sel yang Terbentang di PDF menggunakan Java
-linktitle: Sembunyikan Batas Sel yang Terbentang di PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menyembunyikan batas sel yang terbentang dalam PDF menggunakan Java dengan tutorial Aspose.PDF untuk Java langkah demi langkah.
-weight: 12
-url: /id/java/pdf-tables/hide-spanned-cell-border-in-pdf-using-java/
+"description": "Pelajari cara menyembunyikan batas sel yang terbentang dalam PDF menggunakan Java dengan tutorial Aspose.PDF untuk Java langkah demi langkah."
+"linktitle": "Sembunyikan Batas Sel yang Terbentang di PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Sembunyikan Batas Sel yang Terbentang di PDF menggunakan Java"
+"url": "/id/java/pdf-tables/hide-spanned-cell-border-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sembunyikan Batas Sel yang Terbentang di PDF menggunakan Java
@@ -20,7 +22,7 @@ Di era digital saat ini, membuat dokumen PDF secara dinamis merupakan tugas umum
 
 ## Memahami Batas Sel yang Terbentang dalam PDF
 
-Sebelum membahas solusinya, penting untuk memahami konsep sel yang direntangkan dalam tabel PDF. Sel yang direntangkan adalah sel yang menempati lebih dari satu baris atau kolom dalam tabel. Saat Anda membuat tabel seperti itu, pustaka PDF sering kali menampilkan batas yang terlihat di sekitar sel ini, sehingga struktur tabel menjadi lebih jelas.
+Sebelum membahas solusinya, penting untuk memahami konsep sel yang direntangkan dalam tabel PDF. Sel yang direntangkan adalah sel yang menempati lebih dari satu baris atau kolom dalam tabel. Saat Anda membuat tabel seperti itu, pustaka PDF sering kali menampilkan batas yang terlihat di sekitar sel-sel ini, sehingga struktur tabel menjadi lebih jelas.
 
 ## Tantangan Menyembunyikan Batas Sel yang Terbentang
 
@@ -40,7 +42,7 @@ Sebelum kita mulai membuat kode, pastikan Anda memiliki alat yang diperlukan. An
 
 ### Langkah 2: Membuat Dokumen PDF
 
- Mulailah dengan membuat proyek Java baru di IDE Anda. Kemudian, tambahkan pustaka Aspose.PDF for Java ke dependensi proyek Anda. Anda dapat mengunduh pustaka dari[Di Sini](https://releases.aspose.com/pdf/java/).
+Mulailah dengan membuat proyek Java baru di IDE Anda. Kemudian, tambahkan pustaka Aspose.PDF for Java ke dependensi proyek Anda. Anda dapat mengunduh pustaka dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 Selanjutnya, buat kelas Java baru, dan mari kita mulai dengan mengimpor paket yang diperlukan:
 
@@ -116,9 +118,11 @@ Ya, ada pustaka lain seperti Apache PDFBox dan iText yang dapat Anda jelajahi un
 ### Bisakah saya menyembunyikan batas secara selektif untuk sel tertentu?
 
 Tentu saja! Anda dapat menerapkan logika penyembunyian batas secara selektif berdasarkan struktur dan desain tabel Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

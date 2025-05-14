@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add Text to PDF with Aspose.PDF for Java: A Step-by-Step Guide
 
@@ -187,7 +189,11 @@ A: Yes, specify the desired page number when calling `addText`.
 - **Download:** [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)
 - **Purchase:** [Buy Aspose License](https://purchase.aspose.com/buy)
 - **Free Trial:** [Try Out Free License](https://www.aspose.com/purchase/free-trial.aspx)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

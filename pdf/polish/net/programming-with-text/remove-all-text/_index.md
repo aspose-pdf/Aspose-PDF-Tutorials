@@ -1,14 +1,16 @@
 ---
-title: Usuń cały tekst w pliku PDF
-linktitle: Usuń cały tekst w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Łatwo usuń cały tekst z pliku PDF za pomocą Aspose.PDF dla .NET, korzystając z naszego przewodnika krok po kroku.
-weight: 280
-url: /pl/net/programming-with-text/remove-all-text/
+"description": "Łatwo usuń cały tekst z pliku PDF za pomocą Aspose.PDF dla .NET, korzystając z naszego przewodnika krok po kroku."
+"linktitle": "Usuń cały tekst w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Usuń cały tekst w pliku PDF"
+"url": "/pl/net/programming-with-text/remove-all-text/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń cały tekst w pliku PDF
@@ -27,7 +29,7 @@ Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz
 Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Możesz użyć Visual Studio lub dowolnego wybranego IDE, które obsługuje programowanie .NET.
 
 ### 2. Biblioteka Aspose.PDF  
- Pobierz najnowszą wersję biblioteki Aspose.PDF dla .NET. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/)Ta biblioteka będzie narzędziem, którego będziemy używać do łatwego manipulowania dokumentami PDF.
+Pobierz najnowszą wersję biblioteki Aspose.PDF dla .NET. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/)Ta biblioteka będzie narzędziem, którego będziemy używać do łatwego manipulowania dokumentami PDF.
 
 ### 3. Podstawowe zrozumienie języka C#  
 Podstawowa znajomość programowania w C# pomoże Ci lepiej zrozumieć fragmenty kodu. Nie musisz być profesjonalistą, ale znajomość podstaw będzie bardzo pomocna.
@@ -65,7 +67,7 @@ Przede wszystkim musisz określić, gdzie w systemie będzie się znajdował Tw�
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zastąp swoją ścieżką
 ```
 
- W tym wierszu pamiętaj o zastąpieniu`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu, w którym przechowywany jest plik PDF.
+W tym wierszu pamiętaj o zastąpieniu `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu, w którym przechowywany jest plik PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -76,7 +78,7 @@ Następnie musisz załadować dokument, którym chcesz manipulować.
 Document pdfDocument = new Document(dataDir + "RemoveAllText.pdf");
 ```
 
-Ten wiersz tworzy nowy obiekt dokumentu, który otworzy określony plik PDF. Jeśli masz plik o nazwie`RemoveAllText.pdf` w Twoim katalogu, wszystko gotowe!
+Ten wiersz tworzy nowy obiekt dokumentu, który otworzy określony plik PDF. Jeśli masz plik o nazwie `RemoveAllText.pdf` w Twoim katalogu, wszystko gotowe!
 
 ## Krok 3: Przejrzyj wszystkie strony
 
@@ -90,7 +92,7 @@ for (int i = 1; i <= pdfDocument.Pages.Count; i++)
     OperatorSelector operatorSelector = new OperatorSelector(new Aspose.Pdf.Operators.TextShowOperator());
 ```
 
- W tym bloku kodu inicjujemy pętlę, która przechodzi przez każdą stronę pliku PDF. Dla każdej strony tworzymy nową instancję`OperatorSelector` co pomoże nam zaznaczyć tekst.
+W tym bloku kodu inicjujemy pętlę, która przechodzi przez każdą stronę pliku PDF. Dla każdej strony tworzymy nową instancję `OperatorSelector` co pomoże nam zaznaczyć tekst.
 
 ## Krok 4: Zaznacz cały tekst na stronie
 
@@ -101,11 +103,11 @@ Zaznaczmy całą zawartość tekstową na bieżącej stronie.
     page.Contents.Accept(operatorSelector);
 ```
 
- Używanie`Accept` metoda na`Contents`, zaznaczamy tekst. Teraz jesteśmy gotowi go usunąć!
+Używanie `Accept` metoda na `Contents`, zaznaczamy tekst. Teraz jesteśmy gotowi go usunąć!
 
 ## Krok 5: Usuń zaznaczony tekst
 
-Teraz, gdy zaznaczyliśmy tekst, możemy go poddać działaniu i usunąć.
+Teraz, gdy zaznaczyliśmy tekst, możemy go wprowadzić w życie i usunąć.
 
 ```csharp
     // Usuń cały tekst
@@ -124,7 +126,7 @@ Nie chcemy stracić efektów naszej ciężkiej pracy, więc zapiszmy dokument.
 pdfDocument.Save(dataDir + "RemoveAllText_out.pdf", Aspose.Pdf.SaveFormat.Pdf);
 ```
 
- Tutaj zapisujemy zmodyfikowany plik PDF do nowego pliku o nazwie`RemoveAllText_out.pdf`. Jeśli chcesz, możesz zmienić tę nazwę!
+Tutaj zapisujemy zmodyfikowany plik PDF do nowego pliku o nazwie `RemoveAllText_out.pdf`. Jeśli chcesz, możesz zmienić tę nazwę!
 
 ## Wniosek
 
@@ -136,19 +138,21 @@ Gratulacje! Udało Ci się usunąć cały tekst z pliku PDF za pomocą Aspose.PD
 Tak, możesz zmodyfikować pętlę, aby obejmowała konkretne strony, a nie wszystkie.
 
 ### W jakich formatach mogę zapisać plik PDF?
- Pliki PDF można zapisywać w różnych formatach za pomocą`Aspose.Pdf.SaveFormat`.
+Pliki PDF można zapisywać w różnych formatach za pomocą `Aspose.Pdf.SaveFormat`.
 
 ### Czy Aspose.PDF jest kompatybilny z innymi językami programowania?
 Aspose.PDF jest przeznaczony głównie dla platformy .NET, ale istnieją wersje dla języków Java, Python i innych.
 
 ### Czy mogę wypróbować Aspose.PDF za darmo?
- Tak! Możesz zacząć od bezpłatnego okresu próbnego dostępnego[Tutaj](https://releases.aspose.com/).
+Tak! Możesz zacząć od bezpłatnego okresu próbnego dostępnego [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę kupić Aspose.PDF?
- Możesz to kupić[Tutaj](https://purchase.aspose.com/buy).
+Możesz to kupić [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

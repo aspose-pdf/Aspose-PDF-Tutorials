@@ -1,14 +1,16 @@
 ---
-title: Đặt liên kết mục tiêu trong tệp PDF
-linktitle: Đặt liên kết mục tiêu trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thiết lập liên kết mục tiêu hiệu quả trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo để tăng cường điều hướng tài liệu.
-weight: 100
-url: /vi/net/programming-with-links-and-actions/set-target-link/
+"description": "Tìm hiểu cách thiết lập liên kết mục tiêu hiệu quả trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo để tăng cường điều hướng tài liệu."
+"linktitle": "Đặt liên kết mục tiêu trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đặt liên kết mục tiêu trong tệp PDF"
+"url": "/vi/net/programming-with-links-and-actions/set-target-link/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt liên kết mục tiêu trong tệp PDF
@@ -22,7 +24,7 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thi�
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết bên mình. Đừng lo lắng; đây không phải là danh sách kiểm tra chi tiết! Sau đây là những gì bạn cần:
 
 ### Aspose.PDF cho Thư viện .NET
--  Trước tiên và quan trọng nhất, bạn phải cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ[Trang Tải xuống PDF Aspose](https://releases.aspose.com/pdf/net/). Họ cung cấp bản dùng thử miễn phí, vì vậy bạn sẽ được hỗ trợ nếu mới bắt đầu!
+- Trước tiên và quan trọng nhất, bạn phải cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ [Trang Tải xuống PDF Aspose](https://releases.aspose.com/pdf/net/). Họ cung cấp bản dùng thử miễn phí, vì vậy bạn sẽ được hỗ trợ nếu mới bắt đầu!
 
 ### Môi trường phát triển
 - Đảm bảo bạn đã thiết lập môi trường phát triển .NET—Visual Studio được khuyến khích sử dụng. Nó cung cấp giao diện thân thiện với người dùng để mã hóa và gỡ lỗi.
@@ -58,7 +60,7 @@ using Aspose.Pdf.Annotations;
 
 Sau khi thiết lập xong, chúng ta hãy cùng bắt tay vào viết mã nhé!
 
-Bạn đã sẵn sàng thay đổi cách liên kết hoạt động trong tài liệu PDF chưa? Chúng ta hãy cùng phân tích mã từng bước để việc thiết lập liên kết mục tiêu trở nên dễ quản lý hơn.
+Bạn đã sẵn sàng thay đổi cách liên kết hoạt động trong tài liệu PDF chưa? Hãy cùng phân tích mã từng bước để việc thiết lập liên kết mục tiêu trở nên dễ quản lý.
 
 ## Bước 1: Xác định thư mục tài liệu 
 
@@ -69,7 +71,7 @@ Trước tiên, bạn cần chỉ định nơi lưu trữ tài liệu của mìn
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  Giải thích: Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn (`UpdateLinks.pdf`) cư trú.
+- Giải thích: Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn (`UpdateLinks.pdf`) cư trú.
 
 ## Bước 2: Tải tệp PDF 
 
@@ -79,7 +81,7 @@ Bây giờ, hãy tải tệp PDF mà bạn muốn chỉnh sửa.
 Document document = new Document(dataDir + "UpdateLinks.pdf");
 ```
 
--  Giải thích: Ở đây, chúng ta tạo một cái mới`Document` đối tượng. Dòng này đọc tệp PDF từ thư mục được chỉ định.
+- Giải thích: Ở đây, chúng ta tạo một cái mới `Document` đối tượng. Dòng này đọc tệp PDF từ thư mục được chỉ định.
 
 ## Bước 3: Truy cập chú thích liên kết 
 
@@ -101,14 +103,14 @@ GoToRemoteAction goToR = (GoToRemoteAction)linkAnnot.Action;
 goToR.Destination = new XYZExplicitDestination(2, 0, 0, 1.5);
 ```
 
--  Giải thích:`GoToRemoteAction` cho phép chúng ta sửa đổi hành động của liên kết.`XYZExplicitDestination` thiết lập trang đích (thiết lập thành trang 2), tọa độ x và y (cả hai đều thiết lập thành 0) và mức thu phóng (thiết lập thành 1,5). Hãy thoải mái điều chỉnh các thông số này để phù hợp với nhu cầu của bạn!
+- Giải thích: `GoToRemoteAction` cho phép chúng ta sửa đổi hành động của liên kết. `XYZExplicitDestination` thiết lập trang đích (thiết lập thành trang 2), tọa độ x và y (cả hai đều thiết lập thành 0) và mức thu phóng (thiết lập thành 1,5). Hãy thoải mái điều chỉnh các thông số này để phù hợp với nhu cầu của bạn!
 
 ## Bước 5: Chỉ định tệp để liên kết tới 
 
-Bây giờ, hãy liên kết tới một tệp khác nếu cần. 
+Bây giờ, hãy liên kết đến một tệp khác nếu cần. 
 
 ```csharp
-//Tệp cập nhật dòng tiếp theo
+// Cập nhật tập tin dòng tiếp theo
 goToR.File = new FileSpecification(dataDir + "input.pdf");
 ```
 
@@ -125,7 +127,7 @@ document.Save(dataDir);
 Console.WriteLine("\nTarget link setup successfully.\nFile saved at " + dataDir);
 ```
 
--  Giải thích: Tệp đầu ra được đặt tên là`SetTargetLink_out.pdf`và tài liệu được lưu với những thay đổi đã thực hiện. Bảng điều khiển in ra thông báo xác nhận với đường dẫn tệp.
+- Giải thích: Tệp đầu ra được đặt tên là `SetTargetLink_out.pdf`và tài liệu được lưu với những thay đổi đã thực hiện. Bảng điều khiển in ra thông báo xác nhận với đường dẫn tệp.
 
 ## Bước 7: Xử lý ngoại lệ 
 
@@ -144,7 +146,7 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn có th�
 
 ## Phần kết luận
 
-Thật tuyệt vời khi chỉ cần một vài dòng mã có thể cách mạng hóa cách bạn xử lý PDF? Đặt liên kết mục tiêu trong tài liệu của bạn có thể hợp lý hóa điều hướng và nâng cao trải nghiệm của người dùng. Bây giờ bạn đã có hướng dẫn này trong bộ công cụ của mình, hãy thoải mái thử nghiệm và khám phá thêm các chức năng do Aspose.PDF cung cấp. Tải xuống thư viện ngay hôm nay và bắt đầu hành trình quản lý PDF hiệu quả của bạn!
+Thật tuyệt vời khi chỉ cần một vài dòng mã có thể cách mạng hóa cách bạn xử lý PDF phải không? Đặt liên kết mục tiêu trong tài liệu của bạn có thể hợp lý hóa điều hướng và nâng cao trải nghiệm của người dùng. Bây giờ bạn đã có hướng dẫn này trong bộ công cụ của mình, hãy thoải mái thử nghiệm và khám phá thêm các chức năng do Aspose.PDF cung cấp. Tải xuống thư viện ngay hôm nay và bắt đầu hành trình quản lý PDF hiệu quả của bạn!
 
 ## Câu hỏi thường gặp
 
@@ -155,16 +157,18 @@ Aspose.PDF for .NET là thư viện cho phép các nhà phát triển xử lý t
 Có, Aspose.PDF tương thích với tất cả các nền tảng .NET chính, bao gồm .NET Core, .NET Framework, v.v.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF không?
- Bạn có thể bắt đầu bằng bản dùng thử miễn phí; tuy nhiên, để sử dụng sản xuất, cần có giấy phép thương mại. Bạn có thể mua một[đây](https://purchase.aspose.com/buy).
+Bạn có thể bắt đầu bằng bản dùng thử miễn phí; tuy nhiên, để sử dụng sản xuất, cần có giấy phép thương mại. Bạn có thể mua một [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể thực hiện những loại thao tác nào với Aspose.PDF?
 Bạn có thể tạo, chỉnh sửa và thao tác với các tài liệu PDF, bao gồm thêm hình ảnh, chú thích và liên kết.
 
 ### Tôi có thể tìm thêm ví dụ hoặc hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể tìm thấy tài liệu mở rộng và hỗ trợ cộng đồng trên[Trang tài liệu PDF Aspose](https://reference.aspose.com/pdf/net/) và[Diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm thấy tài liệu mở rộng và hỗ trợ cộng đồng trên [Trang tài liệu PDF Aspose](https://reference.aspose.com/pdf/net/) và [Diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

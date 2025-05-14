@@ -1,14 +1,16 @@
 ---
-title: PDF'leri DOC veya DOCX Formatına Dönüştürün
-linktitle: PDF'leri DOC veya DOCX Formatına Dönüştürün
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF for Java kullanarak PDF'leri DOC veya DOCX formatına zahmetsizce nasıl dönüştüreceğinizi öğrenin. Sorunsuz belge dönüşümü için kaynak kodu ve SSS içeren adım adım bir kılavuz.
-weight: 14
-url: /tr/java/pdf-conversion-transformation/change-pdfs-to-doc-or-docx-format/
+"description": "Aspose.PDF for Java kullanarak PDF'leri DOC veya DOCX formatına zahmetsizce nasıl dönüştüreceğinizi öğrenin. Sorunsuz belge dönüşümü için kaynak kodu ve SSS içeren adım adım bir kılavuz."
+"linktitle": "PDF'leri DOC veya DOCX Formatına Dönüştürün"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF'leri DOC veya DOCX Formatına Dönüştürün"
+"url": "/tr/java/pdf-conversion-transformation/change-pdfs-to-doc-or-docx-format/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'leri DOC veya DOCX Formatına Dönüştürün
@@ -80,14 +82,16 @@ Aspose.PDF for Java ticari bir kütüphanedir, ancak değerlendirme için ücret
 
 ### Aspose.PDF for Java diğer çıktı formatlarını destekliyor mu?
 
-Evet, Java için Aspose.PDF DOCX, HTML ve daha fazlası dahil olmak üzere çeşitli çıktı biçimlerini destekler.
+Evet, Aspose.PDF for Java, DOCX, HTML ve daha fazlası dahil olmak üzere çeşitli çıktı biçimlerini destekler.
 
 ### Java için Aspose.PDF dokümanlarını nerede bulabilirim?
 
- Java için Aspose.PDF belgelerini şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF belgelerini şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

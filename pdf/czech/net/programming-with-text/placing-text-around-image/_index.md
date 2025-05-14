@@ -1,36 +1,38 @@
 ---
-title: Umístění textu kolem obrázku v souboru PDF
-linktitle: Umístění textu kolem obrázku v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak umístit text kolem obrázků v PDF pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného průvodce a vytvořte profesionální soubory PDF s obrázky a textem vedle sebe.
-weight: 260
-url: /cs/net/programming-with-text/placing-text-around-image/
+"description": "Naučte se, jak umístit text kolem obrázků v PDF souborech pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného návodu a vytvořte profesionální PDF soubory s obrázky a textem vedle sebe."
+"linktitle": "Umístění textu kolem obrázku v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Umístění textu kolem obrázku v souboru PDF"
+"url": "/cs/net/programming-with-text/placing-text-around-image/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Umístění textu kolem obrázku v souboru PDF
 
 ## Zavedení
 
-Zkoušeli jste někdy umístit text kolem obrázku v souboru PDF, ale zdálo se vám to náročné? Pokud ano, jste na správném místě! Aspose.PDF for .NET tento proces zjednodušuje a umožňuje vám umístit text vedle obrázků pomocí pouhých několika řádků kódu. Ať už vytváříte zprávy, dokumenty nebo prezentace, tato funkce je fantastickým způsobem, jak vylepšit rozvržení obsahu a učinit jej vizuálně přitažlivějším. Dnes si projdeme, jak používat Aspose.PDF pro .NET k umístění textu kolem obrázků v dokumentu PDF.
+Už jste někdy zkoušeli umístit text kolem obrázku v souboru PDF, ale shledali jste to náročným? Pokud ano, jste na správném místě! Aspose.PDF pro .NET tento proces zjednodušuje a umožňuje vám umístit text vedle obrázků pomocí několika řádků kódu. Ať už vytváříte zprávy, dokumenty nebo prezentace, tato funkce je fantastickým způsobem, jak vylepšit rozvržení obsahu a učinit ho vizuálně atraktivnějším. Dnes si ukážeme, jak pomocí Aspose.PDF pro .NET umístit text kolem obrázků v dokumentu PDF.
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že máme vše nastaveno. Zde je to, co budete potřebovat:
+Než se pustíme do kódu, ujistěme se, že máme vše nastavené. Zde je to, co budete potřebovat:
 
--  Aspose.PDF pro .NET: Můžete si jej stáhnout z[zde](https://releases.aspose.com/pdf/net/).
-- Visual Studio: Ujistěte se, že máte nainstalovanou nejnovější verzi, abyste mohli hladce pokračovat.
-- .NET Framework: Tento příklad používá .NET, takže se ujistěte, že je vaše prostředí nastaveno pro vývoj .NET.
--  Dočasná licence: Můžete požádat o dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pokud hodnotíte produkt.
+- Aspose.PDF pro .NET: Můžete si jej stáhnout z [zde](https://releases.aspose.com/pdf/net/).
+- Visual Studio: Pro bezproblémový chod se ujistěte, že máte nainstalovanou nejnovější verzi.
+- .NET Framework: Tento příklad používá .NET, proto se ujistěte, že je vaše prostředí nastaveno pro vývoj v .NET.
+- Dočasná licence: Můžete požádat o dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/) pokud hodnotíte produkt.
 
-Pokud jste ještě nenastavili Aspose.PDF pro .NET, postupujte podle pokynů k instalaci v souboru[dokumentace](https://reference.aspose.com/pdf/net/).
+Pokud jste ještě nenastavili Aspose.PDF pro .NET, postupujte podle pokynů k instalaci v [dokumentace](https://reference.aspose.com/pdf/net/).
 
 ## Importovat jmenné prostory
 
-Než začneme kódovat, musíme naimportovat potřebné jmenné prostory. Zde je fragment kódu, jak to udělat:
+Než začneme s kódováním, musíme importovat potřebné jmenné prostory. Zde je úryvek kódu, který to udělá:
 
 ```csharp
 using System;
@@ -39,24 +41,24 @@ using System.Linq;
 using System.Text;
 ```
 
- Tyto jmenné prostory jsou nezbytné, protože poskytují přístup k třídám jako`Document`, `Page`, `Image` a`HtmlFragment`, který použijeme k vytvoření a manipulaci s PDF.
+Tyto jmenné prostory jsou nezbytné, protože poskytují přístup ke třídám jako `Document`, `Page`, `Image`a `HtmlFragment`, který použijeme k vytvoření a manipulaci s PDF.
 
-Nyní, když jsme připravili scénu, pojďme si rozebrat, jak umístit text kolem obrázku v souboru PDF pomocí Aspose.PDF for .NET. Tímto vás krok za krokem provedeme.
+Nyní, když jsme si připravili půdu, pojďme si rozebrat, jak umístit text kolem obrázku v souboru PDF pomocí Aspose.PDF pro .NET. Provedeme vás tím krok za krokem.
 
-## Krok 1: Vytvořte instanci objektu dokumentu
+## Krok 1: Vytvoření instance objektu Document
 
- Nejprve musíte vytvořit dokument PDF. V Aspose.PDF se to provede vytvořením instance a`Document` objekt. Tento objekt bude sloužit jako základ pro veškerý obsah, který přidáme.
+Nejprve je třeba vytvořit dokument PDF. V Aspose.PDF se to provádí vytvořením instance `Document` objekt. Tento objekt bude sloužit jako základ pro veškerý obsah, který budeme přidávat.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
-Zde jsme vytvořili prázdný dokument PDF. Zatím nemá žádné stránky, ale nebojte se, v dalším kroku jednu přidáme.
+Zde jsme vytvořili prázdný PDF dokument. Zatím nemá žádné stránky, ale nebojte se, v dalším kroku jednu přidáme.
 
-## Krok 2: Přidejte stránku do dokumentu
+## Krok 2: Přidání stránky do dokumentu
 
-Nyní, když máme dokument, je čas přidat stránku. Berte to jako vytvoření prázdného listu papíru, kam přidáte svůj obsah.
+Teď, když máme dokument, je čas přidat stránku. Představte si to jako vytvoření prázdného listu papíru, kam přidáte svůj obsah.
 
 ```csharp
 Aspose.Pdf.Page page = doc.Pages.Add();
@@ -66,28 +68,28 @@ Tento kód přidá do dokumentu novou stránku. Ve výchozím nastavení je str�
 
 ## Krok 3: Vytvořte tabulku pro uspořádání obsahu
 
-Aby náš obrázek a text byly správně zarovnány, použijeme tabulku. Tabulky v PDF mohou pomoci strukturovat vaše rozvržení, podobně jako v dokumentech Word nebo HTML.
+Abychom zachovali správné zarovnání obrázku a textu, použijeme tabulku. Tabulky v PDF souborech mohou pomoci strukturovat rozvržení, podobně jako v dokumentech Word nebo HTML.
 
 ```csharp
 Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
 page.Paragraphs.Add(table1);
 ```
 
-Tento úryvek vytvoří tabulku a přidá ji na stránku. Představte si tabulku jako rámec pro zarovnání obrázku a textu.
+Tento úryvek kódu vytvoří tabulku a přidá ji na stránku. Představte si tabulku jako rámec pro zarovnání obrázku a textu.
 
-## Krok 4: Nastavte šířku sloupců pro tabulku
+## Krok 4: Nastavení šířky sloupců pro tabulku
 
-Nyní, když jsme přidali tabulku, musíme definovat, jak široké mají být sloupce. To zajistí, že obrázek a text budou mít na stránce vhodnou velikost.
+Nyní, když jsme přidali tabulku, musíme definovat, jak široké by měly být sloupce. Tím zajistíme, že obrázek a text budou na stránce mít vhodnou velikost.
 
 ```csharp
 table1.ColumnWidths = "120 270";
 ```
 
-Tento řádek nastavuje šířku dvou sloupců – jednoho pro obrázek a druhého pro text. Upravte tyto hodnoty, pokud váš obrázek nebo text potřebuje více nebo méně místa.
+Tento řádek nastavuje šířku dvou sloupců – jednoho pro obrázek a druhého pro text. Upravte tyto hodnoty, pokud váš obrázek nebo text potřebuje více či méně místa.
 
-## Krok 5: Definujte okraje a odsazení
+## Krok 5: Definování okrajů a odsazení
 
-Aby vše vypadalo úhledně, přidejte na stůl nějaké okraje a vycpávky.
+Aby vše vypadalo úhledně, přidejme k tabulce okraje a odsazení.
 
 ```csharp
 Aspose.Pdf.MarginInfo margin = new Aspose.Pdf.MarginInfo();
@@ -98,11 +100,11 @@ margin.Bottom = 5f;
 table1.DefaultCellPadding = margin;
 ```
 
-Tato nastavení zajistí, že vaše tabulka bude mít konzistentní mezery, díky čemuž bude obsah vizuálně přitažlivý.
+Tato nastavení zajišťují, že tabulka má konzistentní rozestupy, díky čemuž je obsah vizuálně atraktivní.
 
-## Krok 6: Vložte obrázek do tabulky
+## Krok 6: Vložení obrázku do tabulky
 
-Nyní pojďme k zábavnější části – přidání obrázku. V tomto případě přidáme logo Aspose, ale můžete použít libovolný obrázek, který se vám líbí.
+A teď se pustíme do té zábavné části – přidání obrázku. V tomto případě přidáme logo Aspose, ale klidně můžete použít jakýkoli obrázek, který se vám líbí.
 
 ```csharp
 Aspose.Pdf.Row row1 = table1.Rows.Add();
@@ -114,14 +116,14 @@ row1.Cells.Add();
 row1.Cells[0].Paragraphs.Add(logo);
 ```
 
-Zde je to, co se děje:
+Zde se dozvíte, co se děje:
 - Načteme obrázek z vámi zadaného adresáře.
 - Nastavíme výšku a šířku obrázku.
 - Nakonec přidáme obrázek do první buňky v tabulce.
 
-## Krok 7: Přidejte text vedle obrázku
+## Krok 7: Přidání textu vedle obrázku
 
-Nyní, když je obrázek na místě, přidáme k němu nějaký text. V tomto příkladu použijeme ke stylování obsahu text ve formátu HTML.
+Nyní, když je obrázek na místě, přidejme vedle něj nějaký text. V tomto příkladu použijeme text ve formátu HTML k úpravě stylu obsahu.
 
 ```csharp
 string TitleString = "<font face=\"Arial\" size=6 color=\"#101090\"><b> Aspose.Pdf for .NET</b></font>";
@@ -132,21 +134,21 @@ row1.Cells.Add();
 row1.Cells[1].Paragraphs.Add(TitleText);
 ```
 
-Tento blok přidá stylizovaný název a popis do buňky vedle obrázku. Pro větší přizpůsobení můžete text formátovat pomocí značek HTML.
+Tento blok přidá stylizovaný název a popis do buňky vedle obrázku. Text můžete formátovat pomocí HTML tagů pro větší přizpůsobení.
 
-## Krok 8: Upravte vertikální zarovnání
+## Krok 8: Úprava svislého zarovnání
 
-Ve výchozím nastavení se obsah v buňkách tabulky nemusí zarovnat tak, jak chcete. V tomto případě se chceme ujistit, že je text zarovnán k horní části buňky.
+Ve výchozím nastavení se obsah v buňkách tabulky nemusí zarovnat požadovaným způsobem. V tomto případě se chceme ujistit, že je text zarovnán k hornímu okraji buňky.
 
 ```csharp
 row1.Cells[1].VerticalAlignment = Aspose.Pdf.VerticalAlignment.Top;
 ```
 
-Tím je zajištěno, že text bude umístěn v horní části buňky a rozvržení zůstane čisté a profesionální.
+Díky tomu bude text umístěn v horní části buňky, což zachovává čisté a profesionální rozvržení.
 
 ## Krok 9: Přidejte další text pod obrázek a popis
 
-Možná budete chtít zahrnout více obsahu pod obrázek a text. Za tímto účelem přidáme do tabulky další řádek.
+Možná budete chtít pod obrázek a text vložit další obsah. Pro tento účel přidejme do tabulky další řádek.
 
 ```csharp
 Aspose.Pdf.Row SecondRow = table1.Rows.Add();
@@ -159,9 +161,9 @@ Aspose.Pdf.HtmlFragment SecondRowText = new Aspose.Pdf.HtmlFragment(SecondRowStr
 SecondRow.Cells[0].Paragraphs.Add(SecondRowText);
 ```
 
-Zde jsme přidali další řádek s dalším textem, který zahrnuje oba sloupce, abychom zachovali rovnováhu v rozložení.
+Zde jsme přidali další řádek s dalším textem, který se rozprostírá přes oba sloupce, aby byla zachována rovnováha v rozvržení.
 
-## Krok 10: Uložte dokument PDF
+## Krok 10: Uložení dokumentu PDF
 
 Nakonec musíme dokument uložit, abyste si mohli prohlédnout změny.
 
@@ -169,31 +171,33 @@ Nakonec musíme dokument uložit, abyste si mohli prohlédnout změny.
 doc.Save(dataDir + "PlacingTextAroundImage_out.pdf");
 ```
 
-Tím se uloží PDF s obrázkem a textem ve formátu, jak chceme.
+Tím se uloží PDF s obrázkem a textem formátovaným přesně tak, jak chceme.
 
 ## Závěr
 
-Umístění textu kolem obrázků v PDF se může zdát jako skličující úkol, ale Aspose.PDF for .NET tento proces zjednodušuje. Využitím tabulek, obrázků a stylizovaného textu můžete s minimálním úsilím vytvářet profesionálně vypadající soubory PDF. Pomocí pouhých několika řádků kódu můžete umístit obsah přesně tam, kde ho chcete, a dodat vašim dokumentům uhlazený a dobře organizovaný vzhled.
+Umístění textu kolem obrázků v PDF se může zdát jako náročný úkol, ale Aspose.PDF pro .NET tento proces zjednodušuje. Využitím tabulek, obrázků a stylizovaného textu můžete s minimálním úsilím vytvářet profesionálně vypadající PDF soubory. S pouhými několika řádky kódu můžete umístit obsah přesně tam, kam chcete, a dodat tak svým dokumentům elegantní a dobře organizovaný vzhled.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu použít tuto metodu k umístění více obrázků s textem?
-Ano, jednoduše přidejte do tabulky další řádky a buňky a zahrňte tak další obrázky a text.
+### Mohu tuto metodu použít k umístění více obrázků s textem?
+Ano, jednoduše přidejte do tabulky další řádky a buňky, abyste mohli zahrnout další obrázky a text.
 
 ### Mohu změnit zarovnání obrázku?
-Absolutně! Zarovnání obrázku můžete upravit úpravou vlastností zarovnání buňky.
+Rozhodně! Zarovnání obrázku můžete upravit úpravou vlastností zarovnání buňky.
 
 ### Jak mohu text dále stylizovat?
- Můžete použít HTML tagy v`HtmlFragment` objekt pro použití různých stylů, jako je tučné písmo, kurzíva nebo různá písma.
+Můžete použít HTML tagy v rámci `HtmlFragment` objekt pro použití různých stylů, jako je tučné písmo, kurzíva nebo jiná písma.
 
 ### Mohu ovládat mezery mezi textem a obrázkem?
- Ano, pomocí`MarginInfo` objekt umožňuje ovládat odsazení a okraje mezi prvky.
+Ano, s použitím `MarginInfo` Objekt umožňuje ovládat odsazení a okraje mezi prvky.
 
 ### Je možné do textu přidat odkazy?
- Rozhodně! Hypertextové odkazy můžete vložit do textu ve formátu HTML pomocí`<a>` štítek.
+Rozhodně! Hypertextové odkazy můžete vkládat do textu ve formátu HTML pomocí `<a>` štítek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

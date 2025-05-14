@@ -8,7 +8,9 @@ url: /java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Custom Tag Name for PDF using Java
@@ -109,9 +111,11 @@ You can use accessibility testing tools and screen readers to evaluate the effec
 
 ### 5. Are there any best practices for choosing custom tag names?
 Choose tag names that accurately describe the content and follow accessibility guidelines for consistency and clarity.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

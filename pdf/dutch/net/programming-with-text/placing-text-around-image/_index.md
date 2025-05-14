@@ -1,36 +1,38 @@
 ---
-title: Tekst rond afbeelding in PDF-bestand plaatsen
-linktitle: Tekst rond afbeelding in PDF-bestand plaatsen
-second_title: Aspose.PDF voor .NET API-referentie
-description: Leer hoe u tekst rond afbeeldingen in PDF's plaatst met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding om professionele PDF's te maken met afbeeldingen en tekst naast elkaar.
-weight: 260
-url: /nl/net/programming-with-text/placing-text-around-image/
+"description": "Leer hoe u tekst rond afbeeldingen in PDF's plaatst met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding om professionele PDF's te maken met afbeeldingen en tekst naast elkaar."
+"linktitle": "Tekst rond een afbeelding in een PDF-bestand plaatsen"
+"second_title": "Aspose.PDF voor .NET API-referentie"
+"title": "Tekst rond een afbeelding in een PDF-bestand plaatsen"
+"url": "/nl/net/programming-with-text/placing-text-around-image/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tekst rond afbeelding in PDF-bestand plaatsen
+# Tekst rond een afbeelding in een PDF-bestand plaatsen
 
 ## Invoering
 
-Heb je ooit geprobeerd om tekst rond een afbeelding in een PDF-bestand te plaatsen, maar vond je het lastig? Dan ben je hier aan het juiste adres! Aspose.PDF voor .NET maakt dit proces eenvoudig, zodat je met slechts een paar regels code tekst naast afbeeldingen kunt plaatsen. Of je nu rapporten, documenten of presentaties maakt, deze functie is een fantastische manier om de lay-out van je content te verbeteren en deze visueel aantrekkelijker te maken. Vandaag laten we je zien hoe je Aspose.PDF voor .NET kunt gebruiken om tekst rond afbeeldingen in een PDF-document te plaatsen.
+Heb je ooit geprobeerd tekst rond een afbeelding in een PDF-bestand te plaatsen, maar vond je het lastig? Zo ja, dan ben je hier aan het juiste adres! Aspose.PDF voor .NET maakt dit proces eenvoudig, waardoor je met slechts een paar regels code tekst naast afbeeldingen kunt plaatsen. Of je nu rapporten, documenten of presentaties maakt, deze functie is een fantastische manier om de lay-out van je content te verbeteren en visueel aantrekkelijker te maken. Vandaag laten we zien hoe je Aspose.PDF voor .NET kunt gebruiken om tekst rond afbeeldingen in een PDF-document te plaatsen.
 
 ## Vereisten
 
-Voordat we in de code duiken, zorgen we ervoor dat alles is ingesteld. Dit is wat je nodig hebt:
+Voordat we de code induiken, zorgen we ervoor dat alles klaar staat. Dit heb je nodig:
 
--  Aspose.PDF voor .NET: U kunt het downloaden van[hier](https://releases.aspose.com/pdf/net/).
-- Visual Studio: Zorg ervoor dat u de nieuwste versie hebt geïnstalleerd om soepel te kunnen werken.
+- Aspose.PDF voor .NET: U kunt het downloaden van [hier](https://releases.aspose.com/pdf/net/).
+- Visual Studio: Zorg ervoor dat u de nieuwste versie hebt geïnstalleerd, zodat u soepel kunt werken.
 - .NET Framework: In dit voorbeeld wordt .NET gebruikt. Zorg er dus voor dat uw omgeving is ingesteld voor .NET-ontwikkeling.
--  Een tijdelijke licentie: U kunt een tijdelijke licentie aanvragen[hier](https://purchase.aspose.com/temporary-license/) als u het product evalueert.
+- Een tijdelijke licentie: U kunt een tijdelijke licentie aanvragen [hier](https://purchase.aspose.com/temporary-license/) als u het product evalueert.
 
-Als u Aspose.PDF voor .NET nog niet hebt ingesteld, volgt u de installatie-instructies in de[documentatie](https://reference.aspose.com/pdf/net/).
+Als u Aspose.PDF voor .NET nog niet hebt ingesteld, volgt u de installatie-instructies in de [documentatie](https://reference.aspose.com/pdf/net/).
 
 ## Naamruimten importeren
 
-Voordat we beginnen met coderen, moeten we de benodigde namespaces importeren. Hier is het codefragment om dat te doen:
+Voordat we beginnen met coderen, moeten we de benodigde naamruimten importeren. Hier is het codefragment dat daarvoor nodig is:
 
 ```csharp
 using System;
@@ -39,45 +41,45 @@ using System.Linq;
 using System.Text;
 ```
 
- Deze naamruimten zijn essentieel omdat ze toegang bieden tot klassen zoals`Document`, `Page`, `Image` , En`HtmlFragment`, die we gebruiken om de PDF te maken en te bewerken.
+Deze naamruimten zijn essentieel omdat ze toegang bieden tot klassen zoals `Document`, `Page`, `Image`, En `HtmlFragment`, waarmee we de PDF gaan maken en bewerken.
 
-Nu we de toon hebben gezet, gaan we kijken hoe je tekst rond een afbeelding in je PDF-bestand plaatst met Aspose.PDF voor .NET. We leiden je hier stap voor stap doorheen.
+Nu we de basis hebben gelegd, laten we eens kijken hoe je tekst rond een afbeelding in je PDF-bestand plaatst met Aspose.PDF voor .NET. We leiden je hier stap voor stap doorheen.
 
 ## Stap 1: Instantieer het documentobject
 
- Eerst moet u een PDF-document maken. In Aspose.PDF doet u dit door een`Document` object. Dit object zal dienen als basis voor alle content die we zullen toevoegen.
+Eerst moet je een PDF-document maken. In Aspose.PDF doe je dit door een `Document` object. Dit object vormt de basis voor alle content die we toevoegen.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
-Hier hebben we een leeg PDF-document gemaakt. Het heeft nog geen pagina's, maar maak je geen zorgen, we voegen er in de volgende stap een toe.
+We hebben hier een leeg PDF-document gemaakt. Het bevat nog geen pagina's, maar maak je geen zorgen, we voegen er in de volgende stap een toe.
 
 ## Stap 2: Een pagina toevoegen aan het document
 
-Nu we ons document hebben, is het tijd om een pagina toe te voegen. Zie dit als het maken van een leeg vel papier waar je je content aan toevoegt.
+Nu we ons document hebben, is het tijd om een pagina toe te voegen. Zie dit als het creëren van een leeg vel papier waar je je content op plaatst.
 
 ```csharp
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
-Deze code voegt een nieuwe pagina toe aan het document. Standaard is de pagina leeg, maar dat gaan we nu veranderen.
+Deze code voegt een nieuwe pagina toe aan het document. Standaard is de pagina leeg, maar dat gaan we veranderen.
 
 ## Stap 3: Maak een tabel om inhoud te organiseren
 
-Om onze afbeelding en tekst goed uitgelijnd te houden, gebruiken we een tabel. Tabellen in PDF's kunnen helpen bij het structureren van uw lay-out, net als in Word-documenten of HTML.
+Om de afbeelding en tekst goed uitgelijnd te houden, gebruiken we een tabel. Tabellen in pdf's kunnen je helpen bij het structureren van je lay-out, net als in Word-documenten of HTML.
 
 ```csharp
 Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
 page.Paragraphs.Add(table1);
 ```
 
-Dit fragment maakt een tabel en voegt deze toe aan de pagina. Zie de tabel als het raamwerk voor het uitlijnen van uw afbeelding en tekst.
+Dit fragment maakt een tabel en voegt deze toe aan de pagina. Beschouw de tabel als het kader voor het uitlijnen van je afbeelding en tekst.
 
 ## Stap 4: Kolombreedtes voor de tabel instellen
 
-Nu we een tabel hebben toegevoegd, moeten we definiëren hoe breed de kolommen moeten zijn. Dit zorgt ervoor dat de afbeelding en tekst de juiste grootte hebben op de pagina.
+Nu we een tabel hebben toegevoegd, moeten we bepalen hoe breed de kolommen moeten zijn. Dit zorgt ervoor dat de afbeelding en tekst de juiste afmetingen op de pagina hebben.
 
 ```csharp
 table1.ColumnWidths = "120 270";
@@ -98,11 +100,11 @@ margin.Bottom = 5f;
 table1.DefaultCellPadding = margin;
 ```
 
-Met deze instellingen zorgt u ervoor dat uw tabel een consistente spatie heeft, waardoor de inhoud visueel aantrekkelijk wordt.
+Met deze instellingen weet u zeker dat de tabel een consistente regelafstand heeft, waardoor de inhoud visueel aantrekkelijk wordt.
 
 ## Stap 6: Een afbeelding in de tabel invoegen
 
-Nu gaan we naar het leuke gedeelte: een afbeelding toevoegen. In dit geval voegen we het Aspose-logo toe, maar voel je vrij om elke afbeelding te gebruiken die je wilt.
+Laten we nu naar het leukste gedeelte gaan: een afbeelding toevoegen. In dit geval voegen we het Aspose-logo toe, maar je kunt gerust elke gewenste afbeelding gebruiken.
 
 ```csharp
 Aspose.Pdf.Row row1 = table1.Rows.Add();
@@ -121,7 +123,7 @@ Dit is wat er gebeurt:
 
 ## Stap 7: Voeg tekst toe naast de afbeelding
 
-Nu de afbeelding op zijn plek staat, voegen we er wat tekst aan toe. Voor dit voorbeeld gebruiken we HTML-geformatteerde tekst om de content te stylen.
+Nu de afbeelding op zijn plaats staat, voegen we er wat tekst aan toe. In dit voorbeeld gebruiken we HTML-tekst om de inhoud vorm te geven.
 
 ```csharp
 string TitleString = "<font face=\"Arial\" size=6 color=\"#101090\"><b> Aspose.Pdf for .NET</b></font>";
@@ -132,21 +134,21 @@ row1.Cells.Add();
 row1.Cells[1].Paragraphs.Add(TitleText);
 ```
 
-Dit blok voegt een gestileerde titel en beschrijving toe in de cel naast de afbeelding. U kunt de tekst opmaken met HTML-tags voor meer maatwerk.
+Dit blok voegt een gestileerde titel en beschrijving toe aan de cel naast de afbeelding. Je kunt de tekst opmaken met HTML-tags voor meer personalisatie.
 
-## Stap 8: Pas de verticale uitlijning aan
+## Stap 8: Verticale uitlijning aanpassen
 
-Standaard wordt de inhoud van tabelcellen mogelijk niet uitgelijnd zoals u wilt. In dit geval willen we ervoor zorgen dat de tekst bovenaan de cel is uitgelijnd.
+Standaard wordt de inhoud van tabelcellen mogelijk niet uitgelijnd zoals u wilt. In dit geval willen we ervoor zorgen dat de tekst bovenaan de cel wordt uitgelijnd.
 
 ```csharp
 row1.Cells[1].VerticalAlignment = Aspose.Pdf.VerticalAlignment.Top;
 ```
 
-Hierdoor staat de tekst bovenaan de cel, waardoor de lay-out netjes en professioneel blijft.
+Hierdoor staat de tekst bovenaan de cel en blijft de lay-out netjes en professioneel.
 
 ## Stap 9: Voeg meer tekst toe onder de afbeelding en beschrijving
 
-U wilt misschien meer content onder de afbeelding en tekst opnemen. Laten we hiervoor een extra rij aan de tabel toevoegen.
+Mogelijk wilt u meer inhoud onder de afbeelding en tekst plaatsen. Laten we hiervoor een extra rij aan de tabel toevoegen.
 
 ```csharp
 Aspose.Pdf.Row SecondRow = table1.Rows.Add();
@@ -159,7 +161,7 @@ Aspose.Pdf.HtmlFragment SecondRowText = new Aspose.Pdf.HtmlFragment(SecondRowStr
 SecondRow.Cells[0].Paragraphs.Add(SecondRowText);
 ```
 
-Hier hebben we een extra rij met tekst toegevoegd, verdeeld over beide kolommen, om de balans in de lay-out te behouden.
+Hier hebben we nog een rij met extra tekst toegevoegd, verdeeld over beide kolommen, om een evenwicht in de lay-out te behouden.
 
 ## Stap 10: Sla het PDF-document op
 
@@ -169,11 +171,11 @@ Ten slotte moeten we het document opslaan, zodat u de wijzigingen kunt bekijken.
 doc.Save(dataDir + "PlacingTextAroundImage_out.pdf");
 ```
 
-Hiermee wordt de PDF opgeslagen met de afbeelding en tekst in de gewenste opmaak.
+Hiermee wordt het PDF-bestand opgeslagen met de afbeelding en tekst in de opmaak die u wenst.
 
 ## Conclusie
 
-Tekst rond afbeeldingen in een PDF plaatsen lijkt misschien een lastige klus, maar Aspose.PDF voor .NET vereenvoudigt het proces. Door tabellen, afbeeldingen en opgemaakte tekst te gebruiken, kunt u met minimale inspanning professioneel ogende PDF's maken. Met slechts een paar regels code kunt u inhoud precies op de gewenste plek plaatsen, waardoor uw documenten een gepolijste en goed georganiseerde uitstraling krijgen.
+Het plaatsen van tekst rond afbeeldingen in een PDF lijkt misschien een lastige klus, maar Aspose.PDF voor .NET vereenvoudigt het proces. Door gebruik te maken van tabellen, afbeeldingen en opgemaakte tekst, kunt u met minimale inspanning professioneel ogende PDF's maken. Met slechts een paar regels code kunt u de inhoud precies daar plaatsen waar u wilt, waardoor uw documenten er verzorgd en overzichtelijk uitzien.
 
 ## Veelgestelde vragen
 
@@ -183,17 +185,19 @@ Ja, u kunt eenvoudig meer rijen en cellen aan uw tabel toevoegen om extra afbeel
 ### Kan ik de uitlijning van de afbeelding wijzigen?
 Absoluut! U kunt de uitlijning van de afbeelding wijzigen door de uitlijningseigenschappen van de cel aan te passen.
 
-### Hoe kan ik de tekst verder vormgeven?
- U kunt HTML-tags gebruiken binnen de`HtmlFragment` object om verschillende stijlen toe te passen, zoals vet, cursief of verschillende lettertypen.
+### Hoe kan ik de tekst verder opmaken?
+U kunt HTML-tags gebruiken binnen de `HtmlFragment` object om verschillende stijlen toe te passen, zoals vet, cursief of verschillende lettertypen.
 
 ### Kan ik de afstand tussen de tekst en de afbeelding bepalen?
- Ja, met behulp van de`MarginInfo` Met object kunt u de opvulling en marges tussen elementen bepalen.
+Ja, met behulp van de `MarginInfo` Met object kunt u de opvulling en marges tussen elementen bepalen.
 
 ### Is het mogelijk om links aan de tekst toe te voegen?
- Zeker! U kunt hyperlinks in de HTML-geformatteerde tekst insluiten met behulp van de`<a>` label.
+Zeker! U kunt hyperlinks in de HTML-tekst insluiten met behulp van de `<a>` label.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

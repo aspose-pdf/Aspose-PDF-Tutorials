@@ -6,7 +6,9 @@ url: "/net/metadata-document-info/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Metadata and Document Information Tutorials for Aspose.PDF .NET
@@ -66,6 +68,9 @@ Learn how to efficiently set metadata like author, title, and keywords in PDFs u
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

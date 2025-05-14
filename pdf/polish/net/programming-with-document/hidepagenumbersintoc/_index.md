@@ -1,14 +1,16 @@
 ---
-title: Ukryj numery stron w spisie treści
-linktitle: Ukryj numery stron w spisie treści
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak ukryć numery stron w spisie treści za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem z przykładami kodu, aby tworzyć profesjonalne pliki PDF.
-weight: 220
-url: /pl/net/programming-with-document/hidepagenumbersintoc/
+"description": "Dowiedz się, jak ukryć numery stron w spisie treści za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem z przykładami kodu, aby tworzyć profesjonalne pliki PDF."
+"linktitle": "Ukryj numery stron w spisie treści"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ukryj numery stron w spisie treści"
+"url": "/pl/net/programming-with-document/hidepagenumbersintoc/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ukryj numery stron w spisie treści
@@ -23,9 +25,9 @@ Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu. Oto krótka 
 
 - Zainstalowany program Visual Studio: Aby kodować, potrzebna będzie działająca wersja programu Visual Studio.
 - Biblioteka Aspose.PDF dla platformy .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.PDF dla platformy .NET.
-  -  Link do pobrania:[Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/)
+  - Link do pobrania: [Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/)
 - Licencja tymczasowa: Jeśli testujesz funkcje, przydatne może okazać się posiadanie licencji tymczasowej.
-  -  Licencja tymczasowa:[Zdobądź to tutaj](https://purchase.aspose.com/temporary-license/)
+  - Licencja tymczasowa: [Zdobądź to tutaj](https://purchase.aspose.com/temporary-license/)
 
 ## Importuj pakiety
 
@@ -82,7 +84,7 @@ tocInfo.IsShowPageNumbers = false;
 tocInfo.FormatArrayLength = 4;
 ```
 
--  IsShowPageNumbers: To magiczny przełącznik, który ukrywa numery stron. Ustaw go na`false`, a numery stron nie pojawią się w spisie treści.
+- IsShowPageNumbers: To magiczny przełącznik, który ukrywa numery stron. Ustaw go na `false`a numery stron nie pojawią się w spisie treści.
 - FormatArrayLength: Ustawiamy tę wartość na 4, wskazując, że chcemy zdefiniować formatowanie dla czterech poziomów nagłówków spisu treści.
 
 ## Krok 4: Dostosuj formatowanie spisu treści
@@ -145,19 +147,21 @@ Tworzenie spisu treści w pliku PDF i ukrywanie numerów stron może wydawać si
 Nie, Aspose.PDF ukrywa lub pokazuje numery stron dla całego spisu treści. Nie można ich selektywnie ukrywać dla konkretnych wpisów.
 
 ### Czy można dodać więcej poziomów do spisu treści?
- Tak, możesz zwiększyć`FormatArrayLength` aby zdefiniować więcej poziomów nagłówków spisu treści.
+Tak, możesz zwiększyć `FormatArrayLength` aby zdefiniować więcej poziomów nagłówków spisu treści.
 
 ### Jak mogę zmienić czcionkę dla wszystkich wpisów w spisie treści?
- Możesz zmienić czcionkę, modyfikując`TextState.Font` nieruchomość dla każdego poziomu w`FormatArray`.
+Możesz zmienić czcionkę, modyfikując `TextState.Font` nieruchomość dla każdego poziomu w `FormatArray`.
 
 ### Czy mogę wstawiać hiperłącza do spisu treści?
- Tak, możesz połączyć każdy wpis spisu treści z konkretną sekcją w dokumencie, używając`Heading.TocPage` nieruchomość.
+Tak, możesz połączyć każdy wpis spisu treści z konkretną sekcją w dokumencie, używając `Heading.TocPage` nieruchomość.
 
 ### Czy potrzebuję licencji na Aspose.PDF?
-Tak, do użytku produkcyjnego wymagana jest ważna licencja. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/) aby przetestować funkcje.
+Tak, do użytku produkcyjnego wymagana jest ważna licencja. Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/) aby przetestować funkcje.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

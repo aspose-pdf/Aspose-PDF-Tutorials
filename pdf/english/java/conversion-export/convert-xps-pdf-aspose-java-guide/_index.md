@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert XPS Files to PDF Using Aspose.PDF in Java
 
@@ -167,7 +169,11 @@ You've now mastered converting XPS files to PDF format using Aspose.PDF Java! Re
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
 Try implementing this solution today and streamline your document conversion processes with Aspose.PDF for Java!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

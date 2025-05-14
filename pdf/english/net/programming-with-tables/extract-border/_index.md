@@ -8,7 +8,9 @@ url: /net/programming-with-tables/extract-border/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Border In PDF File
@@ -174,6 +176,7 @@ Yes, simply change the `ImageFormat.Png` to another supported format such as `Im
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

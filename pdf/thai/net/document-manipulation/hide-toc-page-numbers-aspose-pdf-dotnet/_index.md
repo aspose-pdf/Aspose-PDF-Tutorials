@@ -1,0 +1,166 @@
+---
+"date": "2025-04-11"
+"description": "เรียนรู้วิธีการลบหมายเลขหน้าออกจากสารบัญในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้มีคำแนะนำทีละขั้นตอนและตัวเลือกการกำหนดค่าคีย์"
+"title": "ซ่อนหมายเลขหน้า TOC ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอน"
+"url": "/th/net/document-manipulation/hide-toc-page-numbers-aspose-pdf-dotnet/"
+"weight": 1
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+
+# ซ่อนหมายเลขหน้า TOC ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน
+
+## การแนะนำ
+
+ปรับปรุงความสวยงามของเอกสาร PDF ของคุณโดยการลบหมายเลขหน้าออกจากสารบัญ (TOC) คู่มือนี้จะแนะนำคุณเกี่ยวกับการใช้ Aspose.PDF สำหรับ .NET เพื่อให้ได้รูปลักษณ์ที่สะอาดตาขึ้น ช่วยให้เอกสารของคุณยังคงความเป็นมืออาชีพและนำทางได้ง่าย
+
+**สิ่งที่คุณจะได้เรียนรู้:**
+- การตั้งค่า Aspose.PDF สำหรับ .NET
+- ขั้นตอนการปรับแต่ง TOC โดยไม่ต้องใช้หมายเลขหน้า
+- ตัวเลือกการกำหนดค่าคีย์และเคล็ดลับการแก้ไขปัญหา
+
+## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมี:
+- **Aspose.PDF สำหรับ .NET**:ไลบรารีนี้มีความจำเป็นสำหรับการจัดการ PDF
+- **สภาพแวดล้อมการพัฒนา**: Visual Studio หรือสภาพแวดล้อมที่เข้ากันได้ใด ๆ ที่รองรับแอปพลิเคชัน .NET
+- **ความรู้พื้นฐานเกี่ยวกับ C# และโครงสร้าง PDF**:การเข้าใจสิ่งเหล่านี้จะช่วยในการดำเนินการ
+
+## การตั้งค่า Aspose.PDF สำหรับ .NET
+### การติดตั้ง
+หากต้องการติดตั้ง Aspose.PDF ให้เลือกหนึ่งในวิธีต่อไปนี้:
+**.NET CLI**
+```bash
+dotnet add package Aspose.PDF
+```
+**ตัวจัดการแพ็คเกจ**
+```powershell
+Install-Package Aspose.PDF
+```
+**UI ตัวจัดการแพ็กเกจ NuGet**ค้นหา "Aspose.PDF" และติดตั้งเวอร์ชันล่าสุดโดยตรงผ่านสภาพแวดล้อมการพัฒนาของคุณ
+
+### การขอใบอนุญาต
+- **ทดลองใช้งานฟรี**:เริ่มต้นด้วยการทดลองใช้ฟรีเพื่อสำรวจคุณสมบัติต่างๆ
+- **ใบอนุญาตชั่วคราว**:รับอันหนึ่งหากคุณต้องการขยายการเข้าถึงระหว่างการพัฒนา
+- **ซื้อ**:ควรพิจารณาซื้อใบอนุญาตเพื่อใช้งานในระยะยาว เยี่ยมชม [การซื้อ Aspose](https://purchase.aspose.com/buy) สำหรับข้อมูลเพิ่มเติม
+
+### การเริ่มต้นขั้นพื้นฐาน
+หลังจากการติดตั้งให้รวมเนมสเปซที่จำเป็น:
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Text;
+```
+เริ่มต้น `Document` วัตถุที่จะเริ่มทำงานกับไฟล์ PDF:
+```csharp
+document doc = new Document();
+```
+## คู่มือการใช้งาน
+หัวข้อนี้จะกล่าวถึงวิธีซ่อนหมายเลขหน้าจาก TOC โดยใช้ Aspose.PDF สำหรับ .NET
+### คุณสมบัติ: ซ่อนหมายเลขหน้าในสารบัญ
+1. **สร้างเอกสาร PDF ใหม่**
+   เริ่มต้นด้วยการตั้งค่าเอกสารของคุณและเพิ่มหน้าใหม่ที่จะทำหน้าที่เป็น TOC:
+   ```csharp
+   string dataDir = "YOUR_DOCUMENT_DIRECTORY"; // แทนที่ด้วยเส้นทางไดเร็กทอรีเอกสารจริงของคุณ
+   string outFile = dataDir + "/HiddenPageNumbers_out.pdf";
+   Document doc = new Document();
+   Page tocPage = doc.Pages.Add();
+   ```
+2. **กำหนดค่าข้อมูล TOC**
+   กำหนดนิยาม `TocInfo` วัตถุ ตั้งชื่อเรื่อง และซ่อนหมายเลขหน้า:
+   ```csharp
+   TocInfo tocInfo = new TocInfo();
+   TextFragment title = new TextFragment("Table Of Contents");
+   title.TextState.FontSize = 20;
+   title.TextState.FontStyle = FontStyles.Bold;
+   tocInfo.Title = title;
+   tocPage.TocInfo = tocInfo;
+   tocInfo.IsShowPageNumbers = false; // ซ่อนหมายเลขหน้า
+   ```
+3. **กำหนดรูปแบบอาร์เรย์ TOC**
+   ปรับแต่งลักษณะของรายการ TOC ของคุณ:
+   ```csharp
+tocInfo.FormatArrayLength = 4;
+   
+   // ระดับ 1: ตัวหนาและตัวเอียง ไม่มีระยะขอบขวา
+   tocInfo.FormatArray[0].Margin.Right = 0;
+   tocInfo.FormatArray[0].TextState.FontStyle = FontStyles.Bold | FontStyles.ตัวเอียง;
+   
+   // ระดับ 2: ขีดเส้นใต้ด้วยระยะขอบซ้ายที่เฉพาะเจาะจง
+   tocInfo.FormatArray[1].Margin.Left = 30;
+   tocInfo.FormatArray[1].TextState.Underline = จริง;
+   tocInfo.FormatArray[1].TextState.FontSize = 10;
+   
+   // ระดับ 3 และ 4: สไตล์ที่เป็นตัวหนาสำหรับทั้งสอง
+   tocInfo.FormatArray[2].TextState.FontStyle = FontStyles.Bold;
+   tocInfo.FormatArray[3].TextState.FontStyle = FontStyles.Bold;
+   ```
+4. **Add Headings to Demonstrate TOC Entries**
+   Add sample headings to the document to see how they are listed in the TOC:
+   ```csharp
+   Page page = doc.Pages.Add();
+   for (int Level = 1; Level != 5; Level++)
+   {
+       Heading heading2 = new Heading(Level);
+       TextSegment segment2 = new TextSegment();
+       heading2.TocPage = tocPage;
+       heading2.Segments.Add(segment2);
+       heading2.IsAutoSequence = true;
+       segment2.Text = "this is heading of level " + Level;
+       heading2.IsInList = true;
+       page.Paragraphs.Add(heading2);
+   }
+   ```
+5. **บันทึกเอกสาร**
+   สุดท้ายให้บันทึกเอกสารของคุณเพื่อสังเกตการเปลี่ยนแปลง:
+   ```csharp
+doc.Save(outFile);
+   ```
+### Troubleshooting Tips
+- Ensure all paths and directories are correctly specified.
+- Verify that Aspose.PDF is properly installed and referenced in your project.
+- Check for any exceptions during execution to troubleshoot issues.
+## Practical Applications
+This feature can be particularly useful in scenarios such as:
+1. **Publishing**: Creating cleaner layouts for digital magazines or books without distracting page numbers.
+2. **Internal Reports**: Preparing documents where reordering is frequent, and page numbers are irrelevant initially.
+3. **Educational Materials**: Developing study guides where the focus should be on content rather than pagination.
+## Performance Considerations
+To optimize performance when working with Aspose.PDF:
+- **Resource Management**: Dispose of objects appropriately to manage memory usage effectively.
+- **Batch Processing**: If processing multiple PDFs, consider doing so in batches to prevent resource exhaustion.
+- **Asynchronous Operations**: Use asynchronous methods where available for non-blocking operations.
+## Conclusion
+By following this guide, you've learned how to hide page numbers from a TOC in your PDF documents using Aspose.PDF for .NET. This feature can enhance the readability and appearance of your documents, making them more professional and user-friendly.
+**Next Steps**: Try integrating these techniques into your projects or explore additional features offered by Aspose.PDF to further customize your PDFs.
+## FAQ Section
+1. **Can I add page numbers later?**
+   - Yes, you can update the TOC settings to show page numbers if needed.
+2. **Is it possible to change TOC styles dynamically?**
+   - Absolutely, adjust `TocFormat` properties based on your requirements.
+3. **How do I handle large documents efficiently?**
+   - Use Aspose.PDF's efficient memory management features and process in chunks if necessary.
+4. **Can this be integrated with other .NET applications?**
+   - Yes, Aspose.PDF integrates seamlessly within any .NET application.
+5. **What are the licensing options for production use?**
+   - Visit [Aspose Purchase](https://purchase.aspose.com/buy) to explore various licensing options suitable for your needs.
+## Resources
+- [Documentation](https://reference.aspose.com/pdf/net/)
+- [Download Aspose.PDF](https://releases.aspose.com/pdf/net/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/pdf/net/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/pdf/10)
+By understanding and implementing these steps, you'll be well on your way to mastering PDF manipulation with Aspose.PDF for .NET. Happy coding!
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

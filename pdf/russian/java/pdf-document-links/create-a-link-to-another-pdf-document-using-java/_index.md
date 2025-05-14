@@ -1,14 +1,16 @@
 ---
-title: Создать ссылку на другой PDF-документ с помощью Java
-linktitle: Создать ссылку на другой PDF-документ с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как легко создавать ссылки на документы PDF в Java с помощью Aspose.PDF для Java. Пошаговое руководство по интерактивности PDF.
-weight: 14
-url: /ru/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/
+"description": "Узнайте, как легко создавать ссылки на документы PDF в Java с помощью Aspose.PDF для Java. Пошаговое руководство по интерактивности PDF."
+"linktitle": "Создать ссылку на другой PDF-документ с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Создать ссылку на другой PDF-документ с помощью Java"
+"url": "/ru/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать ссылку на другой PDF-документ с помощью Java
@@ -81,13 +83,13 @@ link.getBorder().setWidth(1);
 
 ## Заключение
 
-Создание ссылки на другой PDF-документ с помощью Java и Aspose.PDF для Java — это простой процесс, который может повысить интерактивность и удобство использования ваших PDF-файлов. Следуя шагам, описанным в этом руководстве, вы сможете легко соединить несколько PDF-документов, упростив навигацию для ваших пользователей.
+Создание ссылки на другой PDF-документ с помощью Java и Aspose.PDF для Java — это простой процесс, который может повысить интерактивность и удобство использования ваших PDF-файлов. Выполняя шаги, описанные в этом руководстве, вы можете легко соединить несколько PDF-документов, упростив навигацию для ваших пользователей.
 
 ## Часто задаваемые вопросы
 
 ### Как загрузить Aspose.PDF для Java?
 
- Вы можете загрузить Aspose.PDF для Java с веб-сайта по адресу[здесь](https://releases.aspose.com/pdf/java/).
+Вы можете загрузить Aspose.PDF для Java с веб-сайта по адресу [здесь](https://releases.aspose.com/pdf/java/).
 
 ### Могу ли я использовать Aspose.PDF для Java в коммерческих проектах?
 
@@ -99,14 +101,16 @@ link.getBorder().setWidth(1);
 
 ### Как добавить ссылки на определенные страницы в PDF-документе?
 
- Вы можете использовать`GoToAction`класс в Aspose.PDF для Java для создания ссылок на определенные страницы в документе PDF. Проверьте документацию для получения подробных примеров.
+Вы можете использовать `GoToAction` класс в Aspose.PDF для Java для создания ссылок на определенные страницы в документе PDF. Проверьте документацию для получения подробных примеров.
 
 ### Могу ли я дополнительно настроить внешний вид ссылки?
 
 Конечно! Aspose.PDF для Java предоставляет обширные возможности для настройки внешнего вида ссылок, включая цвет, стиль и многое другое. Ознакомьтесь с документацией для получения информации о дополнительных методах настройки.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

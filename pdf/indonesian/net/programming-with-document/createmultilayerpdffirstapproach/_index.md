@@ -1,14 +1,16 @@
 ---
-title: Buat File PDF Multilayer Pendekatan Pertama
-linktitle: Buat Pendekatan Pertama PDF Multilayer
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat file PDF berlapis-lapis menggunakan Pendekatan Pertama dengan Aspose.PDF untuk .NET. Tambahkan teks, gambar, dan lainnya untuk menyempurnakan PDF Anda.
-weight: 70
-url: /id/net/programming-with-document/createmultilayerpdffirstapproach/
+"description": "Pelajari cara membuat file PDF berlapis-lapis menggunakan Pendekatan Pertama dengan Aspose.PDF untuk .NET. Tambahkan teks, gambar, dan lainnya untuk menyempurnakan PDF Anda."
+"linktitle": "Buat Pendekatan Pertama PDF Multilayer"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat File PDF Multilayer Pendekatan Pertama"
+"url": "/id/net/programming-with-document/createmultilayerpdffirstapproach/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat File PDF Multilayer Pendekatan Pertama
@@ -23,9 +25,9 @@ Di akhir tutorial ini, Anda akan mengetahui cara membuat PDF berlapis-lapis meng
 
 Sebelum kita masuk ke kode sebenarnya, mari pastikan Anda telah menyiapkan semuanya:
 
-1.  Pustaka Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[Halaman Unduhan Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
+1. Pustaka Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari [Halaman unduhan Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: Tutorial ini mengasumsikan Anda menggunakan .NET. Pastikan Anda memiliki lingkungan kerja yang disiapkan dengan Visual Studio atau IDE serupa.
-3.  Lisensi Sementara: Ingin mencoba Aspose.PDF tanpa batasan? Dapatkan lisensi sementara.[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/).
+3. Lisensi Sementara: Ingin mencoba Aspose.PDF tanpa batasan? Dapatkan lisensi sementara. [lisensi sementara di sini](https://purchase.aspose.com/temporary-license/).
 4. Pemahaman Dasar tentang C#: Sedikit pengetahuan tentang C# dan .NET akan membantu, tetapi kami akan menjelaskan setiap langkahnya!
 
 ## Mengimpor Ruang Nama
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";  // Ganti dengan jalur direktori And
 Aspose.Pdf.Document pdf = new Aspose.Pdf.Document();
 ```
 
- Di Sini,`dataDir` adalah tempat PDF Anda akan disimpan setelah dibuat. Anda juga membuat file kosong`pdf` dokumen menggunakan`Document` kelas dari Aspose.PDF.
+Di Sini, `dataDir` adalah tempat PDF Anda akan disimpan setelah dibuat. Anda juga membuat file kosong `pdf` dokumen menggunakan `Document` kelas dari Aspose.PDF.
 
 ## Langkah 2: Tambahkan Halaman Baru ke PDF Anda
 
@@ -64,7 +66,7 @@ Dengan baris kode ini, Anda menambahkan halaman kosong ke dokumen, siap diisi de
 
 ## Langkah 3: Masukkan Teks ke dalam PDF
 
- Sekarang kita sudah punya halaman, mari kita taburi dengan beberapa teks! Menambahkan`TextFragment` memungkinkan kita menyisipkan dan memformat teks dalam dokumen.
+Sekarang kita sudah punya halaman, mari kita taburi dengan beberapa teks! Menambahkan `TextFragment` memungkinkan kita menyisipkan dan memformat teks dalam dokumen.
 
 ```csharp
 Aspose.Pdf.Text.TextFragment t1 = new Aspose.Pdf.Text.TextFragment("paragraph 3 segment");
@@ -94,11 +96,11 @@ Aspose.Pdf.Image image1 = new Aspose.Pdf.Image();
 image1.File = dataDir + "test_image.png";
 ```
 
- Anda dapat menempatkan gambar apa pun dengan menentukan jalur berkasnya. Pastikan gambar Anda berada di direktori yang telah Anda tetapkan di`dataDir`Di sinilah keajaiban pelapisan muncul—gambar Anda akan berada di atas lapisan teks.
+Anda dapat menempatkan gambar apa pun dengan menentukan jalur berkasnya. Pastikan gambar Anda berada di direktori yang telah Anda tetapkan di `dataDir`Di sinilah keajaiban pelapisan muncul—gambar Anda akan berada di atas lapisan teks.
 
 ## Langkah 6: Buat Kotak Mengambang
 
-Kami ingin menambahkan gambar di dalam kotak yang mengambang. Anggap kotak yang mengambang ini sebagai lapisan terpisah, seperti tatakan kue plastik untuk menambah gaya!
+Kami ingin menambahkan gambar di dalam kotak mengambang. Anggap kotak mengambang ini sebagai lapisan terpisah, seperti tatakan kue plastik untuk menambah gaya!
 
 ```csharp
 Aspose.Pdf.FloatingBox box1 = new Aspose.Pdf.FloatingBox(117, 21);
@@ -148,19 +150,21 @@ Nah, itu dia! Anda baru saja membuat PDF berlapis-lapis menggunakan Aspose.PDF u
 Ya! Anda dapat terus menambahkan lapisan sebanyak yang dibutuhkan, seperti menumpuk lapisan kue tambahan.
 
 ### Bagaimana cara menyesuaikan font lebih lanjut?  
- Anda dapat mengubah`TextState` properti untuk mengubah gaya font, warna, ukuran, dan banyak lagi.
+Anda dapat mengubah `TextState` properti untuk mengubah gaya font, warna, ukuran, dan banyak lagi.
 
 ### Bisakah saya mengatur posisi kotak apung dengan lebih tepat?  
- Tentu saja!`Left` Dan`Top` Properti dapat disetel halus untuk penempatan piksel sempurna.
+Tentu saja! `Left` Dan `Top` Properti dapat disetel halus untuk penempatan piksel sempurna.
 
 ### Format file apa yang didukung untuk gambar?  
 Anda dapat menggunakan format gambar populer seperti PNG, JPEG, BMP, dan GIF.
 
 ### Apakah ada cara untuk melihat pratinjau PDF sebelum menyimpannya?  
 Aspose.PDF sendiri tidak menyediakan fitur pratinjau, tetapi Anda dapat membuka file yang disimpan di penampil PDF mana pun untuk memeriksa hasilnya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

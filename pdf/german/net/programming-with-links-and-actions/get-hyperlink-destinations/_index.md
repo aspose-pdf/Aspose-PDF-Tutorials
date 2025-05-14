@@ -1,21 +1,23 @@
 ---
-title: Holen Sie sich Hyperlink-Ziele in PDF-Datei
-linktitle: Holen Sie sich Hyperlink-Ziele in PDF-Datei
-second_title: Aspose.PDF für .NET API-Referenz
-description: Erfahren Sie, wie Sie mit Aspose.PDF für .NET ganz einfach Hyperlinkziele aus PDF-Dateien extrahieren. Folgen Sie diesem einfachen Schritt-für-Schritt-Tutorial.
-weight: 60
-url: /de/net/programming-with-links-and-actions/get-hyperlink-destinations/
+"description": "Erfahren Sie, wie Sie mit Aspose.PDF für .NET einfach Hyperlink-Ziele aus PDF-Dateien extrahieren. Folgen Sie dieser einfachen Schritt-für-Schritt-Anleitung."
+"linktitle": "Holen Sie sich Hyperlink-Ziele in PDF-Datei"
+"second_title": "Aspose.PDF für .NET API-Referenz"
+"title": "Holen Sie sich Hyperlink-Ziele in PDF-Datei"
+"url": "/de/net/programming-with-links-and-actions/get-hyperlink-destinations/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Holen Sie sich Hyperlink-Ziele in PDF-Datei
 
 ## Einführung
 
-Beim Verwalten von PDFs kann das Extrahieren von Hyperlink-Zielen eine überraschend knifflige Aufgabe sein. Egal, ob Sie an einem Geschäftsbericht, einer Forschungsarbeit oder einem anderen Dokument voller Links arbeiten, Sie benötigen möglicherweise schnellen Zugriff auf diese Hyperlinks. Was wäre, wenn ich Ihnen sagen würde, dass es mit Aspose.PDF für .NET eine einfache Möglichkeit gibt, genau das zu tun? Bleiben Sie dran, während wir herausfinden, wie Sie Hyperlink-Ziele mit Stil extrahieren können – ohne den Kopf in der Codekomplexität zu verlieren!
+Beim Verwalten von PDFs kann das Extrahieren von Hyperlink-Zielen eine überraschend knifflige Aufgabe sein. Egal, ob Sie an einem Geschäftsbericht, einer Forschungsarbeit oder einem anderen Dokument mit vielen Links arbeiten, benötigen Sie möglicherweise schnellen Zugriff auf diese Hyperlinks. Wie wäre es, wenn ich Ihnen sagen würde, dass es mit Aspose.PDF für .NET eine einfache Möglichkeit gibt, genau das zu tun? Bleiben Sie dran, während wir zeigen, wie Sie Hyperlink-Ziele stilvoll extrahieren – ohne den Kopf in der Code-Komplexität zu verlieren!
 
 ## Voraussetzungen
 
@@ -25,13 +27,13 @@ Bevor Sie sich in diesen Artikel vertiefen, stellen wir sicher, dass Sie alles z
 Stellen Sie sicher, dass Sie eine .NET-Entwicklungsumgebung eingerichtet haben. Sie können Visual Studio oder eine andere C#-IDE Ihrer Wahl verwenden. 
 
 ### Aspose.PDF für .NET-Bibliothek 
- Sie benötigen die Aspose.PDF-Bibliothek. Wenn Sie sie noch nicht haben, können Sie sie hier herunterladen:[dieser Link](https://releases.aspose.com/pdf/net/) . Möchten Sie es testen, bevor Sie es übernehmen? Probieren Sie die[Kostenlose Testversion](https://releases.aspose.com/) Erste!
+Sie benötigen die Aspose.PDF-Bibliothek. Falls Sie diese noch nicht haben, können Sie sie hier herunterladen: [dieser Link](https://releases.aspose.com/pdf/net/). Möchten Sie es testen, bevor Sie es übernehmen? Probieren Sie die [kostenlose Testversion](https://releases.aspose.com/) Erste!
 
 ### Grundlegende Programmierkenntnisse 
-Kenntnisse in C# und objektorientierter Programmierung sind ein Muss. Wenn Sie bereits programmiert haben, sind Sie gut aufgestellt!
+Kenntnisse in C# und objektorientierter Programmierung sind ein Muss. Wenn Sie bereits Programmiererfahrung haben, sind Sie gut aufgestellt!
 
 ### Eine PDF-Eingabedatei 
-Schnappen Sie sich eine PDF-Datei mit Hyperlinks – sie wird Ihr Versuchskaninchen für den Extraktionsprozess!
+Schnappen Sie sich eine PDF-Datei mit Hyperlinks – das wird Ihr Laborratte für den Extraktionsprozess!
 
 Nachdem Sie nun alles vorbereitet haben, können wir mit dem spaßigen Teil beginnen!
 
@@ -52,61 +54,61 @@ Diese Zeilen teilen unserem Programm im Wesentlichen mit, welche Bibliotheken wi
 
 ## Schritt 1: Richten Sie Ihr Projekt ein
 
-Beginnen Sie mit der Erstellung eines neuen C#-Projekts. So geht's:
+Erstellen Sie zunächst ein neues C#-Projekt. So geht's:
 
 1. Öffnen Sie Visual Studio oder Ihre bevorzugte IDE.
 2. Erstellen Sie ein neues Projekt und wählen Sie eine Konsolenanwendung aus.
 3. Geben Sie Ihrem Projekt einen Namen wie etwa „PDFHyperlinkExtractor“.
 
-Stellen wir nun sicher, dass Ihr Projekt auf die Ausführung von .NET Core oder eines anderen von Ihnen bevorzugten Frameworks eingestellt ist.
+Stellen wir nun sicher, dass Ihr Projekt so eingestellt ist, dass es .NET Core oder das von Ihnen bevorzugte Framework ausführt.
 
 ## Schritt 2: Hinzufügen der Aspose.PDF-Bibliothek
 
-Um die leistungsstarken Funktionen von Aspose.PDF nutzen zu können, müssen Sie die Bibliothek zu Ihrem Projekt hinzufügen.
+Um die leistungsstarken Funktionen von Aspose.PDF zu nutzen, müssen Sie die Bibliothek zu Ihrem Projekt hinzufügen.
 
 1. Verwenden Sie den NuGet-Paket-Manager:
    - Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf Ihr Projekt.
    - Klicken Sie auf „NuGet-Pakete verwalten“.
-   -  Suchen nach`Aspose.PDF` und installieren Sie es.
+   - Suchen nach `Aspose.PDF` und installieren Sie es.
 
 Dadurch werden die erforderlichen Assemblydateien hinzugefügt, sodass Sie mit der Codierung beginnen können.
 
 ## Schritt 3: Laden Sie Ihr PDF-Dokument
 
-Laden wir nun die PDF-Datei, mit der Sie arbeiten möchten. Sie müssen den Pfad zu Ihrer PDF-Datei korrekt angeben.
+Laden wir nun die PDF-Datei, mit der Sie arbeiten möchten. Sie benötigen den korrekten Pfad zu Ihrem PDF-Set.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "input.pdf");
 ```
 
- Erklärung: Ersetzen`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad, in dem sich Ihr PDF befindet. Dieser Code initialisiert die`Document` Klasse von Aspose, die Ihr PDF buchstäblich für geschäftliche Zwecke öffnet!
+Erklärung: Ersetzen `"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad, in dem sich Ihr PDF befindet. Dieser Code initialisiert die `Document` Klasse von Aspose, die Ihr PDF buchstäblich für geschäftliche Zwecke öffnet!
 
-## Schritt 4: Durch die Seiten der PDF-Datei blättern
+## Schritt 4: Durch die Seiten der PDF-Datei navigieren
 
-Als Nächstes durchlaufen wir jede Seite im PDF-Dokument. Es ist, als würden Sie durch die Seiten eines Buches blättern.
+Als Nächstes durchlaufen wir jede Seite des PDF-Dokuments. Es ist, als würden Sie die Seiten eines Buches durchblättern.
 
 ```csharp
 foreach (Aspose.Pdf.Page page in document.Pages)
 {
-    //... Code zum Extrahieren von Links kommt hier rein
+    //... Code zum Extrahieren von Links kommt hier hin
 }
 ```
 
-Warum Loop?: Jede Seite kann verschiedene Links enthalten und wir möchten jeden einzelnen überprüfen. Auf diese Weise entgehen Ihnen keine darin versteckten Goldnuggets.
+Warum Loop?: Jede Seite kann verschiedene Links enthalten, und wir möchten jeden einzelnen überprüfen. So entgehen Ihnen keine versteckten Goldstücke.
 
-## Schritt 5: Linkanmerkungen abrufen
+## Schritt 5: Link-Anmerkungen abrufen
 
- Sobald wir auf einer Seite sind, suchen wir nach Linkanmerkungen. Wir verwenden eine`AnnotationSelector`.
+Sobald wir auf einer Seite sind, suchen wir nach Link-Anmerkungen. Wir verwenden eine `AnnotationSelector`.
 
 ```csharp
 AnnotationSelector selector = new AnnotationSelector(new LinkAnnotation(page, Rectangle.Trivial));
 page.Accept(selector);
 ```
 
- Verstehen der`AnnotationSelector` : Diese Klasse hilft bei der Identifizierung der Links auf der Seite durch Auswahl von Anmerkungen des Typs`LinkAnnotation`. 
+Verstehen der `AnnotationSelector`: Diese Klasse hilft bei der Identifizierung der Links auf der Seite, indem sie Anmerkungen vom Typ `LinkAnnotation`. 
 
-## Schritt 6: Linkanmerkungen speichern und durchlaufen
+## Schritt 6: Link-Anmerkungen speichern und durchlaufen
 
 Jetzt sammeln wir die Links in einer Liste und durchlaufen sie, um ihre Ziele anzuzeigen.
 
@@ -119,12 +121,12 @@ foreach (LinkAnnotation a in list)
 ```
 
 Detaillierte Aufschlüsselung:
-- `IList<Annotation> list`: Dadurch werden alle ausgewählten Linkanmerkungen gespeichert.
-- Durch die Liste iterieren: Für jeden Link erfassen wir die Ziel-URI und drucken sie aus. 
+- `IList<Annotation> list`: Hiermit werden alle ausgewählten Linkanmerkungen gespeichert.
+- Durchlaufen der Liste: Für jeden Link erfassen wir die Ziel-URI und drucken sie aus. 
 
 ## Schritt 7: Ausnahmen behandeln
 
-Stellen Sie sicher, dass Sie Ihre Arbeit in einen Try-Catch-Block einbinden. Dadurch können Sie eventuell auftretende Probleme erkennen, z. B. den Zugriff auf eine nicht vorhandene Datei oder fehlerhafte Linkanmerkungen.
+Stellen Sie sicher, dass Sie Ihre Arbeit in einen Try-Catch-Block einbetten. So können Sie eventuell auftretende Probleme erkennen, z. B. den Zugriff auf eine nicht vorhandene Datei oder fehlerhafte Linkanmerkungen.
 
 ```csharp
 catch (Exception ex)
@@ -135,13 +137,13 @@ catch (Exception ex)
 
 Warum ist das wichtig?: Niemand mag unerwartete Abstürze, oder? So bleibt Ihr Programm robust und benutzerfreundlich.
 
-## Schritt 8: Kompilieren und ausführen
+## Schritt 8: Kompilieren und Ausführen
 
-Endlich ist es Zeit für den Moment der Wahrheit! Klicken Sie auf die Schaltfläche „Ausführen“ und prüfen Sie, ob sich Ihr Programm wie erwartet verhält. Sie sollten die extrahierten Hyperlink-Ziele in Ihrer Konsole angezeigt sehen.
+Endlich ist es Zeit für die Wahrheit! Klicken Sie auf „Ausführen“ und prüfen Sie, ob Ihr Programm wie erwartet funktioniert. Die extrahierten Hyperlink-Ziele sollten in Ihrer Konsole angezeigt werden.
 
 ## Abschluss
 
-Das Extrahieren von Hyperlink-Zielen aus einer PDF-Datei mit Aspose.PDF für .NET ist ziemlich unkompliziert, nicht wahr? Mit nur wenigen Codezeilen können Sie Ihre Links mühelos erfassen und so Zeit und Mühe sparen. Die objektorientierte Struktur der Bibliothek macht die Arbeit intuitiv und das Ergebnis ist eine saubere Konsolenausgabe, die all Ihre harte Arbeit widerspiegelt. Sind Sie bereit, mehr Aufgaben in Ihrem PDF-Management zu automatisieren? Der Himmel ist die Grenze!
+Das Extrahieren von Hyperlink-Zielen aus einer PDF-Datei mit Aspose.PDF für .NET ist kinderleicht, nicht wahr? Mit nur wenigen Codezeilen können Sie Ihre Links mühelos erfassen und sparen so Zeit und Aufwand. Die objektorientierte Struktur der Bibliothek ermöglicht eine intuitive Bedienung, und das Ergebnis ist eine übersichtliche Konsolenausgabe, die Ihre harte Arbeit widerspiegelt. Sind Sie bereit, weitere Aufgaben in Ihrem PDF-Management zu automatisieren? Der Fantasie sind keine Grenzen gesetzt!
 
 ## Häufig gestellte Fragen
 
@@ -149,19 +151,21 @@ Das Extrahieren von Hyperlink-Zielen aus einer PDF-Datei mit Aspose.PDF für .NE
 Aspose.PDF für .NET ist eine leistungsstarke Bibliothek, die Methoden zum programmgesteuerten Bearbeiten und Erstellen von PDFs bereitstellt.
 
 ### Kann ich Aspose.PDF kostenlos nutzen?
- Ja! Sie können es ausprobieren mit dem[Kostenlose Testversion](https://releases.aspose.com/).
+Ja! Sie können es ausprobieren mit dem [kostenlose Testversion](https://releases.aspose.com/).
 
 ### Welche Programmiersprachen unterstützt Aspose?
 Neben .NET bietet Aspose auch Bibliotheken für Java, Python und andere Sprachen.
 
 ### Benötige ich Programmiererfahrung?
-Grundlegende Programmierkenntnisse in C# oder einer anderen .NET-Sprache helfen Ihnen, die Beispiele besser zu bewältigen.
+Grundlegende Programmierkenntnisse in C# oder einer anderen .NET-Sprache helfen Ihnen, die Beispiele besser zu verstehen.
 
 ### Wo finde ich zusätzlichen Support und Dokumentation?
- Sie können die[Dokumentation](https://reference.aspose.com/pdf/net/) oder die[Support-Forum](https://forum.aspose.com/c/pdf/10) um Hilfe.
+Sie können die [Dokumentation](https://reference.aspose.com/pdf/net/) oder die [Support-Forum](https://forum.aspose.com/c/pdf/10) um Hilfe.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

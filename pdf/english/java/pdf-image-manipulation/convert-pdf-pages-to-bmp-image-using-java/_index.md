@@ -8,7 +8,9 @@ url: /java/pdf-image-manipulation/convert-pdf-pages-to-bmp-image-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert PDF Pages to BMP Image using Java
@@ -112,6 +114,7 @@ Yes, you can customize various settings, such as image resolution and quality, w
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

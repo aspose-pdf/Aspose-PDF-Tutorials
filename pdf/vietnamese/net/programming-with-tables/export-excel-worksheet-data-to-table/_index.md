@@ -1,14 +1,16 @@
 ---
-title: Xuất dữ liệu bảng tính Excel sang bảng
-linktitle: Xuất dữ liệu bảng tính Excel sang bảng
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xuất dữ liệu bảng tính Excel sang bảng PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các ví dụ về mã, điều kiện tiên quyết và mẹo hữu ích.
-weight: 70
-url: /vi/net/programming-with-tables/export-excel-worksheet-data-to-table/
+"description": "Tìm hiểu cách xuất dữ liệu bảng tính Excel sang bảng PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các ví dụ về mã, điều kiện tiên quyết và mẹo hữu ích."
+"linktitle": "Xuất dữ liệu bảng tính Excel sang bảng"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xuất dữ liệu bảng tính Excel sang bảng"
+"url": "/vi/net/programming-with-tables/export-excel-worksheet-data-to-table/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xuất dữ liệu bảng tính Excel sang bảng
@@ -21,12 +23,12 @@ Bạn đã bao giờ cần xuất dữ liệu từ bảng tính Excel sang tệp
 
 Trước khi đi sâu vào mã hóa, chúng ta hãy thiết lập một vài thứ:
 
-1.  Aspose.PDF cho Thư viện .NET – Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
-2.  Aspose.Cells cho Thư viện .NET – Bạn sẽ cần thư viện này để xử lý các hoạt động của Excel. Tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+1. Aspose.PDF cho Thư viện .NET – Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.Cells cho Thư viện .NET – Bạn sẽ cần thư viện này để xử lý các hoạt động của Excel. Tải xuống từ [đây](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển .NET – Một công cụ như Visual Studio sẽ hoạt động hoàn hảo để mã hóa.
 4. Tệp Excel – Chuẩn bị sẵn tệp Excel chứa dữ liệu bạn muốn xuất.
 
- Nếu bạn không có thư viện Aspose.PDF và Aspose.Cells, bạn có thể bắt đầu bằng[dùng thử miễn phí](https://releases.aspose.com/).
+Nếu bạn không có thư viện Aspose.PDF và Aspose.Cells, bạn có thể bắt đầu bằng [dùng thử miễn phí](https://releases.aspose.com/).
 
 ## Nhập gói
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(new FileStream(dataDir + "newBook1.xlsx", FileMode.Open));
 ```
 
- Giải thích: Ở đây, chúng tôi chỉ định đường dẫn thư mục nơi tệp Excel của chúng tôi được đặt và tải sổ làm việc bằng cách sử dụng`Aspose.Cells.Workbook` . Hãy chắc chắn điều chỉnh`"YOUR DOCUMENT DIRECTORY"` để trỏ đến vị trí tệp của bạn.
+Giải thích: Ở đây, chúng tôi chỉ định đường dẫn thư mục nơi tệp Excel của chúng tôi được đặt và tải sổ làm việc bằng cách sử dụng `Aspose.Cells.Workbook`. Hãy chắc chắn điều chỉnh `"YOUR DOCUMENT DIRECTORY"` để trỏ đến vị trí tệp của bạn.
 
 ## Bước 2: Truy cập vào Bảng tính đầu tiên
 
@@ -69,14 +71,14 @@ Giải thích: Bước này khá đơn giản, chúng ta lấy bảng tính đ�
 
 ## Bước 3: Xuất dữ liệu vào DataTable
 
-Bây giờ, chúng ta hãy xuất dữ liệu từ bảng tính Excel sang đối tượng DataTable, đối tượng này sẽ đóng vai trò trung gian để chuyển dữ liệu sang PDF.
+Bây giờ, hãy xuất dữ liệu từ bảng tính Excel sang đối tượng DataTable, đối tượng này sẽ đóng vai trò trung gian để chuyển dữ liệu sang PDF.
 
 ```csharp
 // Xuất nội dung của 7 hàng và 2 cột bắt đầu từ ô thứ 1 vào DataTable
 DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, worksheet.Cells.MaxRow + 1, worksheet.Cells.MaxColumn + 1, true);
 ```
 
- Giải thích:`ExportDataTable` phương pháp trích xuất dữ liệu bắt đầu từ ô đầu tiên của bảng tính và trải dài tất cả các hàng và cột. Dữ liệu này sau đó được lưu trữ trong`DataTable` để sử dụng sau này.
+Giải thích: `ExportDataTable` phương pháp trích xuất dữ liệu bắt đầu từ ô đầu tiên của bảng tính và trải dài tất cả các hàng và cột. Dữ liệu này sau đó được lưu trữ trong `DataTable` để sử dụng sau này.
 
 ## Bước 4: Tạo một tài liệu PDF mới
 
@@ -90,7 +92,7 @@ Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document();
 Aspose.Pdf.Page page = pdfDocument.Pages.Add();
 ```
 
- Giải thích: Ở đây, chúng ta khởi tạo một`Aspose.Pdf.Document`và thêm một trang vào đó. Trang này sau đó sẽ chứa bảng chúng ta tạo từ dữ liệu Excel.
+Giải thích: Ở đây, chúng ta khởi tạo một `Aspose.Pdf.Document` và thêm một trang vào đó. Trang này sau đó sẽ chứa bảng chúng ta tạo từ dữ liệu Excel.
 
 ## Bước 5: Tạo đối tượng bảng trong PDF
 
@@ -104,7 +106,7 @@ Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 page.Paragraphs.Add(table);
 ```
 
- Giải thích: Chúng tôi tạo ra một`Aspose.Pdf.Table` đối tượng và thêm nó vào bộ sưu tập đoạn văn của trang, đảm bảo rằng bảng được hiển thị trên trang.
+Giải thích: Chúng tôi tạo ra một `Aspose.Pdf.Table` đối tượng và thêm nó vào bộ sưu tập đoạn văn của trang, đảm bảo rằng bảng được hiển thị trên trang.
 
 ## Bước 6: Thiết lập độ rộng cột và đường viền
 
@@ -118,7 +120,7 @@ table.ColumnWidths = "40 100 100";
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.1F);
 ```
 
- Giải thích: Chúng tôi thiết lập chiều rộng của ba cột và cung cấp cho tất cả các ô một đường viền mặc định có độ dày là`0.1F`.
+Giải thích: Chúng tôi thiết lập chiều rộng của ba cột và cung cấp cho tất cả các ô một đường viền mặc định có độ dày là `0.1F`.
 
 ## Bước 7: Nhập dữ liệu từ DataTable vào bảng PDF
 
@@ -129,7 +131,7 @@ Bây giờ là lúc nhập dữ liệu từ DataTable vào bảng PDF của chú
 table.ImportDataTable(dataTable, true, 0, 0, dataTable.Rows.Count + 1, dataTable.Columns.Count);
 ```
 
- Giải thích:`ImportDataTable`phương pháp chuyển tất cả dữ liệu từ`DataTable` vào bảng PDF. Thao tác này sẽ điền dữ liệu từ bảng tính Excel của bạn vào bảng.
+Giải thích: `ImportDataTable` phương pháp chuyển tất cả dữ liệu từ `DataTable` vào bảng PDF. Thao tác này sẽ điền dữ liệu từ bảng tính Excel của bạn vào bảng.
 
 ## Bước 8: Định dạng hàng tiêu đề
 
@@ -189,19 +191,21 @@ Và bạn đã có nó! Chỉ trong vài bước, bạn đã xuất dữ liệu 
 Hoàn toàn có thể! Bạn có thể chỉnh sửa màu sắc, phông chữ, căn chỉnh và thậm chí thêm đường viền vào các ô cụ thể.
 
 ### Aspose.PDF cho .NET có miễn phí không?
- Nó cung cấp bản dùng thử miễn phí, nhưng để sử dụng lâu dài, bạn sẽ cần giấy phép. Bạn có thể[mua nó ở đây](https://purchase.aspose.com/buy).
+Nó cung cấp bản dùng thử miễn phí, nhưng để sử dụng lâu dài, bạn sẽ cần giấy phép. Bạn có thể [mua nó ở đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể chỉ xuất những hàng và cột cụ thể không?
- Có, bạn có thể sửa đổi các thông số trong`ExportDataTable` phương pháp xuất các phạm vi cụ thể.
+Có, bạn có thể sửa đổi các thông số trong `ExportDataTable` phương pháp xuất các phạm vi cụ thể.
 
-### Cách này có hiệu quả với các file Excel lớn không?
+### Cách này có hiệu quả với các tệp Excel lớn không?
 Có, Aspose.Cells được thiết kế để xử lý các tệp Excel lớn một cách hiệu quả.
 
 ### Làm thế nào để tôi có thể thêm nhiều trang vào PDF?
- Bạn có thể sử dụng`pdfDocument.Pages.Add()` để thêm nhiều trang tùy theo nhu cầu của bạn.
+Bạn có thể sử dụng `pdfDocument.Pages.Add()` để thêm nhiều trang tùy theo nhu cầu của bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

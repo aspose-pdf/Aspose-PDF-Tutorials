@@ -1,14 +1,16 @@
 ---
-title: Xác thực tệp PDF
-linktitle: Xác thực tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xác thực tệp PDF bằng Aspose.PDF cho .NET. Kiểm tra xem tệp có tuân thủ các tiêu chuẩn hay không và tạo báo cáo xác thực.
-weight: 240
-url: /vi/net/programming-with-tagged-pdf/validate-pdf/
+"description": "Tìm hiểu cách xác thực tệp PDF bằng Aspose.PDF cho .NET. Kiểm tra sự tuân thủ các tiêu chuẩn và tạo báo cáo xác thực."
+"linktitle": "Xác thực tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xác thực tệp PDF"
+"url": "/vi/net/programming-with-tagged-pdf/validate-pdf/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xác thực tệp PDF
@@ -22,7 +24,7 @@ Trong bối cảnh kỹ thuật số ngày nay, PDF là một trong những đ�
 Trước khi đi sâu vào việc xác thực tệp PDF, bạn cần chuẩn bị một số thứ. Sau đây là danh sách kiểm tra:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt phiên bản Visual Studio mới nhất trên máy của mình vì chúng ta sẽ viết mã .NET tại đây.
-2.  Aspose.PDF cho Thư viện .NET: Bạn sẽ cần phải có thư viện Aspose.PDF. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/pdf/net/) Ngoài ra, bạn có thể xin giấy phép tạm thời nếu bạn muốn thử nghiệm thư viện mà không có bất kỳ hạn chế nào, có sẵn[đây](https://purchase.aspose.com/temporary-license/).
+2. Aspose.PDF cho Thư viện .NET: Bạn sẽ cần phải có thư viện Aspose.PDF. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/pdf/net/)Ngoài ra, bạn có thể xin giấy phép tạm thời nếu bạn muốn thử nghiệm thư viện mà không có bất kỳ hạn chế nào, có sẵn [đây](https://purchase.aspose.com/temporary-license/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# và hiểu biết về cách làm việc với các thư viện sẽ rất có lợi.
 4. Tệp PDF để xác thực: Chuẩn bị tệp PDF của bạn để thử nghiệm. Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng tệp có tên “StructureElements.pdf”.
 
@@ -57,7 +59,7 @@ using System.Text;
 
 Và chỉ cần thế thôi, bạn đã sẵn sàng để viết code rồi!
 
-Bây giờ, chúng ta hãy cùng tìm hiểu cách xác thực tệp PDF theo từng bước.
+Bây giờ, chúng ta hãy cùng tìm hiểu từng bước xác thực tệp PDF.
 
 ## Bước 1: Thiết lập thư mục tài liệu
 
@@ -67,7 +69,7 @@ Bây giờ, chúng ta hãy cùng tìm hiểu cách xác thực tệp PDF theo t�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Giải thích: Thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn mà bạn đã lưu trữ “StructureElements.pdf”. Điều này có thể giống như`C:\Users\YourName\Documents\`.
+Giải thích: Thay thế `YOUR DOCUMENT DIRECTORY` với đường dẫn mà bạn đã lưu trữ “StructureElements.pdf”. Điều này có thể giống như `C:\Users\YourName\Documents\`.
 
 ## Bước 2: Xác định tên tệp đầu vào và đầu ra
 
@@ -78,7 +80,7 @@ string inputFileName = dataDir + "StructureElements.pdf";
 string outputLogName = dataDir + "ua-20.xml";
 ```
 
- Giải thích:`inputFileName` là PDF chúng tôi sẽ xác thực và`outputLogName` là nơi chúng ta sẽ viết kết quả xác thực, được định dạng là “ua-20.xml”.
+Giải thích: `inputFileName` là PDF chúng tôi sẽ xác thực và `outputLogName` là nơi chúng ta sẽ viết kết quả xác thực, được định dạng là “ua-20.xml”.
 
 ## Bước 3: Tải tài liệu PDF
 
@@ -91,7 +93,7 @@ using (var document = new Aspose.Pdf.Document(inputFileName))
 }
 ```
 
- Giải thích:`using`câu lệnh này đảm bảo rằng tài liệu sẽ được xử lý đúng cách sau khi chúng ta hoàn tất việc xử lý nó, giúp quản lý bộ nhớ hiệu quả.
+Giải thích: `using` câu lệnh này đảm bảo rằng tài liệu sẽ được xử lý đúng cách sau khi chúng ta hoàn tất việc xử lý nó, giúp quản lý bộ nhớ hiệu quả.
 
 ## Bước 4: Xác thực tài liệu PDF
 
@@ -101,7 +103,7 @@ Sau khi tải xong tài liệu PDF, chúng ta có thể thực hiện xác thự
 bool isValid = document.Validate(outputLogName, Aspose.Pdf.PdfFormat.PDF_UA_1);
 ```
 
- Giải thích: Dòng này sử dụng`Validate` phương pháp của`Document` lớp. Nó kiểm tra tài liệu để tuân thủ các tiêu chuẩn PDF/UA-1 (Khả năng truy cập toàn cầu). Nếu cấu trúc PDF hợp lệ, nó trả về`true`; nếu không, nó sẽ ghi lại thông tin chi tiết xác thực vào tệp đầu ra đã chỉ định.
+Giải thích: Dòng này sử dụng `Validate` phương pháp của `Document` lớp. Nó kiểm tra tài liệu để tuân thủ các tiêu chuẩn PDF/UA-1 (Khả năng truy cập toàn cầu). Nếu cấu trúc PDF hợp lệ, nó trả về `true`; nếu không, nó sẽ ghi lại thông tin chi tiết xác thực vào tệp đầu ra đã chỉ định.
 
 ## Bước 5: Kiểm tra kết quả xác thực
 
@@ -118,7 +120,7 @@ else
 }
 ```
 
- Giải thích: Ở đây, chúng tôi cung cấp phản hồi cho người dùng dựa trên kết quả xác thực. Nếu tài liệu không hợp lệ, hãy kiểm tra`ua-20.xml` tập tin sẽ chỉ ra những vấn đề cần khắc phục.
+Giải thích: Ở đây, chúng tôi cung cấp phản hồi cho người dùng dựa trên kết quả xác thực. Nếu tài liệu không hợp lệ, hãy kiểm tra `ua-20.xml` tập tin sẽ chỉ ra những vấn đề cần khắc phục.
 
 ## Phần kết luận
 
@@ -133,16 +135,18 @@ PDF/UA là viết tắt của PDF Universal Accessibility, một tiêu chuẩn �
 Ví dụ hiện tại xác thực từng tệp PDF một. Tuy nhiên, bạn có thể sửa đổi mã của mình để lặp qua nhiều tệp trong một thư mục.
 
 ### Tôi có thể tìm tài liệu bổ sung ở đâu?  
- Bạn có thể kiểm tra[Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết về các tính năng và chức năng nâng cao.
+Bạn có thể kiểm tra [Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết về các tính năng và chức năng nâng cao.
 
 ### Tôi phải làm gì nếu tệp PDF của tôi không hợp lệ?  
 Xem lại tệp nhật ký đầu ra (`ua-20.xml`) đối với các vấn đề cụ thể, sau đó cập nhật tệp PDF của bạn để giải quyết các lỗi được ghi chú trong nhật ký.
 
 ### Tôi có thể dùng thử phiên bản Aspose.PDF không?  
- Có! Bạn có thể tải xuống phiên bản dùng thử miễn phí từ[Trang phát hành Aspose](https://releases.aspose.com/).
+Có! Bạn có thể tải xuống phiên bản dùng thử miễn phí từ [Trang phát hành Aspose](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

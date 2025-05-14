@@ -1,21 +1,23 @@
 ---
-title: Element tabeli stylów
-linktitle: Element tabeli stylów
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak utworzyć i stylizować element tabeli w programie Aspose.PDF dla platformy .NET, korzystając z instrukcji krok po kroku, niestandardowego stylu i zgodności ze standardem PDF/UA.
-weight: 170
-url: /pl/net/programming-with-tagged-pdf/style-table-element/
+"description": "Dowiedz się, jak utworzyć i stylizować element tabeli w programie Aspose.PDF dla platformy .NET, korzystając z instrukcji krok po kroku, niestandardowego stylu i zgodności ze standardem PDF/UA."
+"linktitle": "Element tabeli stylów"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Element tabeli stylów"
+"url": "/pl/net/programming-with-tagged-pdf/style-table-element/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Element tabeli stylów
 
 ## Wstęp
 
-W tym artykule zagłębimy się w sposób tworzenia i stylizowania elementu tabeli przy użyciu Aspose.PDF dla .NET. Dowiesz się, jak strukturować tabelę, stosować niestandardowe style i sprawdzać zgodność dokumentu z PDF/UA. Pod koniec tego samouczka będziesz w stanie z łatwością tworzyć profesjonalnie wyglądające tabele w swoich plikach PDF!
+tym artykule zagłębimy się w sposób tworzenia i stylizowania elementu tabeli przy użyciu Aspose.PDF dla .NET. Dowiesz się, jak strukturować tabelę, stosować niestandardowe style i sprawdzać zgodność dokumentu z PDF/UA. Pod koniec tego samouczka będziesz w stanie z łatwością tworzyć profesjonalnie wyglądające tabele w swoich plikach PDF!
 
 ## Wymagania wstępne
 
@@ -23,8 +25,8 @@ Zanim rozpoczniesz samouczek, upewnij się, że posiadasz następujące elementy
 
 1. Na Twoim komputerze zainstalowany jest program Visual Studio lub podobne środowisko IDE.
 2. .NET Framework lub .NET Core SDK do uruchomienia aplikacji.
-3.  Aspose.PDF dla biblioteki .NET pobrany i przywoływany w Twoim projekcie. Możesz pobrać najnowszą wersję z[Tutaj](https://releases.aspose.com/pdf/net/).
-4.  Ważna licencja Aspose lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować pełną funkcjonalność biblioteki.
+3. Aspose.PDF dla biblioteki .NET pobrany i przywoływany w Twoim projekcie. Możesz pobrać najnowszą wersję z [Tutaj](https://releases.aspose.com/pdf/net/).
+4. Ważna licencja Aspose lub [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować pełną funkcjonalność biblioteki.
 
 ## Importuj pakiety
 
@@ -61,7 +63,7 @@ taggedContent.SetTitle("Example table style");
 taggedContent.SetLanguage("en-US");
 ```
 
- Zaczynamy od stworzenia nowego`Document` obiekt, reprezentujący nasz PDF.`TaggedContent`obiekt służy do zarządzania strukturą dokumentu, zapewniając zgodność ze standardami dostępności. Ustawiamy tytuł i język dokumentu w celu prawidłowego tagowania.
+Zaczynamy od stworzenia nowego `Document` obiekt, reprezentujący nasz PDF. `TaggedContent` obiekt służy do zarządzania strukturą dokumentu, zapewniając zgodność ze standardami dostępności. Ustawiamy tytuł i język dokumentu w celu prawidłowego tagowania.
 
 ## Krok 2: Zdefiniuj element główny
 
@@ -72,11 +74,11 @@ Następnie utworzymy element struktury głównej, który będzie pełnił funkcj
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
- Ten`RootElement` służy jako podstawowy kontener dla wszystkich ustrukturyzowanych elementów, w tym naszej tabeli. Pomaga utrzymać hierarchię strukturalną dokumentu, co jest ważne zarówno dla organizacji, jak i dostępności.
+Ten `RootElement` służy jako podstawowy kontener dla wszystkich ustrukturyzowanych elementów, w tym naszej tabeli. Pomaga utrzymać hierarchię strukturalną dokumentu, co jest ważne zarówno dla organizacji, jak i dostępności.
 
 ## Krok 3: Utwórz i nadaj styl elementowi tabeli
 
- Teraz, gdy element główny jest już skonfigurowany, utworzymy`TableElement` i zastosuj style, takie jak kolor tła, obramowanie i wyrównanie.
+Teraz, gdy element główny jest już skonfigurowany, utworzymy `TableElement` i zastosuj style, takie jak kolor tła, obramowanie i wyrównanie.
 
 ```csharp
 // Utwórz element struktury tabeli
@@ -91,7 +93,7 @@ tableElement.Broken = TableBroken.Vertical;
 tableElement.ColumnAdjustment = ColumnAdjustment.AutoFitToWindow;
 ```
 
- Tworzymy`TableElement` , która definiuje strukturę naszej tabeli.`BackgroundColor`, `Border` , I`Alignment` Właściwości pozwalają nam dostosować wygląd tabeli.`Broken` Właściwość ta zapewnia, że jeśli tabela zostanie podzielona między strony, nastąpi podział pionowy.
+Tworzymy `TableElement`, który definiuje strukturę naszej tabeli. `BackgroundColor`, `Border`, I `Alignment` Właściwości pozwalają nam dostosować wygląd tabeli. `Broken` Właściwość ta zapewnia, że jeśli tabela zostanie podzielona między strony, nastąpi podział pionowy.
 
 ## Krok 4: Ustaw wymiary tabeli i style komórek
 
@@ -105,7 +107,7 @@ tableElement.DefaultCellTextState.ForegroundColor = Color.DarkCyan;
 tableElement.DefaultCellTextState.FontSize = 8F;
 ```
 
- Określamy szerokości kolumn, aby zapewnić równomierne rozmieszczenie każdej kolumny w tabeli.`DefaultCellBorder`, `DefaultCellPadding` , I`DefaultCellTextState` zdefiniuj domyślne style komórek, obejmujące obramowanie, wypełnienie, kolor tekstu i rozmiar czcionki.
+Określamy szerokości kolumn, aby zapewnić równomierne rozmieszczenie każdej kolumny w tabeli. `DefaultCellBorder`, `DefaultCellPadding`, I `DefaultCellTextState` zdefiniuj domyślne style komórek, obejmujące obramowanie, wypełnienie, kolor tekstu i rozmiar czcionki.
 
 ## Krok 5: Dodaj powtarzające się wiersze i style niestandardowe
 
@@ -118,7 +120,7 @@ rowStyle.BackgroundColor = Color.LightCoral;
 tableElement.RepeatingRowsStyle = rowStyle;
 ```
 
- Ten`RepeatingRowsCount` zapewnia, że pierwsze trzy wiersze powtarzają się, jeśli tabela obejmuje wiele stron. Ustawiamy`RepeatingRowsStyle` aby zastosować niestandardowy kolor tła do tych wierszy.
+Ten `RepeatingRowsCount` zapewnia, że pierwsze trzy wiersze powtarzają się, jeśli tabela obejmuje wiele stron. Ustawiamy `RepeatingRowsStyle` aby zastosować niestandardowy kolor tła do tych wierszy.
 
 ## Krok 6: Dodaj elementy nagłówka, korpusu i stopy tabeli
 
@@ -150,7 +152,7 @@ for (int rowIndex = 0; rowIndex < 10; rowIndex++)
 }
 ```
 
- Tabela jest podzielona na trzy części: głowa, ciało i stopa. Najpierw tworzymy wiersz nagłówka za pomocą`TableTHElement` dodajemy nagłówki kolumn. Następnie wypełniamy treść tabeli`TableTDElement`, wypełniając każdą komórkę etykietą zawierającą jej pozycję.
+Tabela jest podzielona na trzy części: głowa, ciało i stopa. Najpierw tworzymy wiersz nagłówka za pomocą `TableTHElement` i dodajemy nagłówki kolumn. Następnie wypełniamy treść tabeli `TableTDElement`, wypełniając każdą komórkę etykietą zawierającą jej pozycję.
 
 ## Krok 7: Zapisz dokument
 
@@ -178,27 +180,29 @@ Tutaj ponownie ładujemy dokument i weryfikujemy go pod kątem standardów PDF/U
 
 ## Wniosek
 
-Dzięki Aspose.PDF dla .NET tworzenie i stylizowanie tabel w dokumentach PDF jest proste i intuicyjne. Postępując zgodnie z krokami opisanymi w tym samouczku, możesz tworzyć tabele ze stylami dostosowanymi do potrzeb i upewnić się, że Twoje pliki PDF spełniają standardy dostępności. Niezależnie od tego, czy generujesz raporty, czy tworzysz ustrukturyzowane dokumenty, tabele są potężnym narzędziem do przejrzystej prezentacji danych.
+Dzięki Aspose.PDF dla .NET tworzenie i stylizowanie tabel w dokumentach PDF jest proste i intuicyjne. Postępując zgodnie z krokami opisanymi w tym samouczku, możesz tworzyć tabele ze stylami dostosowanymi do potrzeb i upewnić się, że Twoje pliki PDF spełniają standardy dostępności. Niezależnie od tego, czy generujesz raporty, czy tworzysz ustrukturyzowane dokumenty, tabele są potężnym narzędziem do przejrzystego prezentowania danych.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dodawać obrazy do komórek tabeli?
- Tak, możesz wstawiać obrazy do komórek tabeli za pomocą`Image` element.
+Tak, możesz wstawiać obrazy do komórek tabeli za pomocą `Image` element.
 
 ### Jak dynamicznie dostosować szerokość kolumn?
- Możesz ustawić`ColumnAdjustment` nieruchomość do`AutoFitToWindow` aby automatycznie dostosowywać szerokość kolumn na podstawie zawartości.
+Możesz ustawić `ColumnAdjustment` nieruchomość do `AutoFitToWindow` aby automatycznie dostosowywać szerokość kolumn na podstawie zawartości.
 
 ### Czy zgodność ze standardem PDF/UA jest obowiązkowa dla wszystkich dokumentów?
 Choć nie jest to obowiązkowe, zaleca się to w przypadku dokumentów wymagających wysokich standardów dostępności.
 
 ### Czy mogę zastosować różne style do konkretnych wierszy?
- Tak, możesz dostosować poszczególne wiersze lub komórki, dostosowując ich`TextState` Lub`BackgroundColor`.
+Tak, możesz dostosować poszczególne wiersze lub komórki, dostosowując ich `TextState` Lub `BackgroundColor`.
 
-### Jakie są korzyści ze stosowania treści oznaczonych tagami?
+### Jakie są korzyści z używania treści oznaczonych tagami?
 Oznaczona treść poprawia dostępność dokumentu i pomaga zapewnić zgodność ze standardami takimi jak PDF/UA.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

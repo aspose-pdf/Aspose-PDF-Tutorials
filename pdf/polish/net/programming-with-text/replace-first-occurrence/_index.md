@@ -1,14 +1,16 @@
 ---
-title: Zastąp pierwsze wystąpienie
-linktitle: Zastąp pierwsze wystąpienie
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak zastąpić pierwsze wystąpienie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne dla programistów i osób zajmujących się dokumentami.
-weight: 330
-url: /pl/net/programming-with-text/replace-first-occurrence/
+"description": "Dowiedz się, jak zastąpić pierwsze wystąpienie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne dla programistów i osób zajmujących się dokumentami."
+"linktitle": "Zastąp pierwsze wystąpienie"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zastąp pierwsze wystąpienie"
+"url": "/pl/net/programming-with-text/replace-first-occurrence/"
+"weight": 330
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zastąp pierwsze wystąpienie
@@ -22,11 +24,11 @@ Czy zdarzyło Ci się potrzebować zmodyfikować tekst w dokumencie PDF, ale nie
 Zanim zaczniemy, musisz zadbać o kilka niezbędnych rzeczy:
 
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# bardzo pomoże Ci w poruszaniu się po przykładach kodu.
--  Aspose.PDF dla .NET SDK: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Można to łatwo zrobić z[Strona internetowa Aspose](https://releases.aspose.com/pdf/net/). 
+- Aspose.PDF dla .NET SDK: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Można to łatwo zrobić z [Strona internetowa Aspose](https://releases.aspose.com/pdf/net/). 
 - Środowisko programistyczne .NET: upewnij się, że masz zainstalowany program Visual Studio lub inne środowisko programistyczne zgodne z platformą .NET, w którym możesz pisać i testować kod.
-- Przykładowy plik PDF: Aby ćwiczyć, przygotuj plik PDF, którym możesz manipulować. Ten przewodnik będzie się do niego odwoływał jako`ReplaceTextPage.pdf`.
+- Przykładowy plik PDF: Aby ćwiczyć, przygotuj plik PDF, którym możesz manipulować. Ten przewodnik będzie się do niego odwoływał jako `ReplaceTextPage.pdf`.
 
-Po spełnieniu tych warunków wstępnych możesz rozpocząć zastępowanie tekstu w pliku PDF!
+Po spełnieniu tych warunków możesz rozpocząć zastępowanie tekstu w pliku PDF!
 
 ## Importuj pakiety
 
@@ -50,7 +52,7 @@ Zanim przejdziesz do kodu, musisz określić lokalizację swoich dokumentów. To
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Zastępować`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, gdzie znajdują się Twoje pliki PDF. To przygotowuje grunt pod resztę operacji.
+Zastępować `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, gdzie znajdują się Twoje pliki PDF. To przygotowuje grunt pod resztę operacji.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -59,16 +61,16 @@ Następnie musisz załadować dokument PDF, który chcesz edytować.
 ```csharp
 Document pdfDocument = new Document(dataDir + "ReplaceTextPage.pdf");
 ```
-Tutaj tworzymy instancję`Document` klasa, ładując nasz przykładowy plik PDF do pamięci. To pozwala nam manipulować jego zawartością.
+Tutaj tworzymy instancję `Document` klasa, ładując nasz przykładowy plik PDF do pamięci. To pozwala nam manipulować jego zawartością.
 
 ## Krok 3: Utwórz absorber tekstu, aby znaleźć tekst
 
- Mając otwarty dokument, czas zlokalizować konkretny tekst, który chcesz zastąpić. Robimy to za pomocą`TextFragmentAbsorber` klasa.
+Mając otwarty dokument, czas zlokalizować konkretny tekst, który chcesz zastąpić. Robimy to za pomocą `TextFragmentAbsorber` klasa.
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
- Poprzez instancjonowanie`TextFragmentAbsorber` wpisując frazę wyszukiwania (w tym przypadku „tekst”), absorber przeszuka wszystkie wystąpienia tej frazy w całym pliku PDF.
+Poprzez instancjonowanie `TextFragmentAbsorber` wpisując frazę wyszukiwania (w tym przypadku „tekst”), absorber przeszuka wszystkie wystąpienia tej frazy w całym pliku PDF.
 
 ## Krok 4: Akceptuj Absorber dla wszystkich stron
 
@@ -86,7 +88,7 @@ Teraz, gdy zebraliśmy już wszystkie istotne fragmenty tekstu, wyodrębnijmy je
 ```csharp
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
- Ten`TextFragments` Właściwość umożliwia dostęp do zbioru znalezionych fragmentów tekstu, umożliwiając sprawdzenie liczby znalezionych dopasowań.
+Ten `TextFragments` Właściwość umożliwia dostęp do zbioru znalezionych fragmentów tekstu, umożliwiając sprawdzenie liczby znalezionych dopasowań.
 
 ## Krok 6: Sprawdź zgodność i zamień tekst
 
@@ -98,7 +100,7 @@ if (textFragmentCollection.Count > 0)
     TextFragment textFragment = textFragmentCollection[1];  // Pobierz pierwsze wystąpienie
     textFragment.Text = "New Phrase"; // Zaktualizuj tekst
 ```
- Ten`Count` właściwość sprawdza, czy znaleziono jakieś wystąpienia. Jeśli tak, przechodzimy do dostępu do pierwszego fragmentu w kolekcji (należy zauważyć, że indeksowanie zaczyna się od 1 w kolekcji dla Aspose). Następnie`Text` Właściwość została zmodyfikowana w celu zastąpienia oryginalnego tekstu frazą „Nowa fraza”.
+Ten `Count` właściwość sprawdza, czy znaleziono jakieś wystąpienia. Jeśli tak, przechodzimy do dostępu do pierwszego fragmentu w kolekcji (należy zauważyć, że indeksowanie zaczyna się od 1 w kolekcji dla Aspose). Następnie `Text` Właściwość została zmodyfikowana w celu zastąpienia oryginalnego tekstu frazą „Nowa fraza”.
 
 ## Krok 7: Dostosuj wygląd tekstu (opcjonalnie)
 
@@ -134,27 +136,29 @@ Ten prosty komunikat konsoli informuje o zakończeniu operacji i miejscu znalezi
 
 Gratulacje! Właśnie nauczyłeś się, jak zastąpić pierwsze wystąpienie tekstu w dokumencie PDF za pomocą Aspose.PDF dla .NET! Niezależnie od tego, czy modyfikujesz zawartość raportu, czy udoskonalasz prezentację, ta umiejętność może być niezwykle przydatna. 
 
-Z praktyką możesz poczuć się bardziej komfortowo korzystając z Aspose.PDF i odkryć jego rozbudowane możliwości, takie jak wyodrębnianie danych, scalanie dokumentów, a nawet tworzenie plików PDF od podstaw. Pamiętaj, im więcej będziesz go używać, tym więcej się nauczysz!
+praktyką możesz poczuć się bardziej komfortowo korzystając z Aspose.PDF i odkryć jego rozbudowane możliwości, takie jak wyodrębnianie danych, łączenie dokumentów, a nawet tworzenie plików PDF od podstaw. Pamiętaj, im więcej będziesz go używać, tym więcej się nauczysz!
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę zastąpić wiele wystąpień tekstu?
- Tak, możesz przejść przez pętlę`textFragmentCollection` aby w razie potrzeby zastąpić wszystkie wystąpienia.
+Tak, możesz przejść przez pętlę `textFragmentCollection` aby w razie potrzeby zastąpić wszystkie wystąpienia.
 
 ### Co zrobić, jeśli tekst, który chcę zastąpić, zawiera znaki specjalne?
- Ten`TextFragmentAbsorber` może obsługiwać znaki specjalne, ale upewnij się, że używasz prawidłowego kodowania.
+Ten `TextFragmentAbsorber` może obsługiwać znaki specjalne, ale upewnij się, że używasz prawidłowego kodowania.
 
 ### Czy istnieje sposób na cofnięcie zmian?
 Zawsze zapisuj swój oryginalny dokument oddzielnie przed wprowadzeniem zmian. W ten sposób możesz łatwo cofnąć zmiany, jeśli zajdzie taka potrzeba.
 
 ### Czy mogę zmienić coś więcej niż tylko właściwości tekstu?
- Oczywiście! Możesz manipulować wieloma właściwościami`TextFragment`, w tym położenie i obrót.
+Oczywiście! Możesz manipulować wieloma właściwościami `TextFragment`, w tym położenie i obrót.
 
 ### Gdzie mogę znaleźć więcej przykładów wykorzystania Aspose.PDF?
- Sprawdź[Strona samouczka Aspose](https://releases.aspose.com/pdf/net/) aby zapoznać się ze szczegółowymi przykładami i fragmentami kodu.
+Sprawdź [Strona samouczka Aspose](https://releases.aspose.com/pdf/net/) aby zapoznać się ze szczegółowymi przykładami i fragmentami kodu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dodaj adnotację do pliku PDF
-linktitle: Dodaj adnotację
-second_title: Aspose.PDF dla .NET API Reference
-description: Łatwo dodawaj niestandardowe adnotacje do swoich plików PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Dostosuj swoje adnotacje za pomocą konkretnych szczegółów i ikon.
-weight: 10
-url: /pl/net/annotations/addannotation/
+"description": "Łatwo dodawaj niestandardowe adnotacje do swoich plików PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Dostosuj swoje adnotacje za pomocą konkretnych szczegółów i ikon."
+"linktitle": "Dodaj adnotację"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj adnotację do pliku PDF"
+"url": "/pl/net/annotations/addannotation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj adnotację do pliku PDF
@@ -21,12 +23,12 @@ Adnotacje to świetny sposób na wzbogacenie dokumentów PDF, czyniąc je intera
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[Strona pobierania Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [Strona pobierania Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
 - Środowisko programistyczne: Visual Studio lub inne dowolne środowisko programistyczne C#.
 - Podstawowa wiedza o języku C#: W tym przewodniku założono, że znasz już programowanie w języku C#.
 - Dokument PDF: przykładowy plik PDF, do którego będziesz dodawać adnotacje.
 
- Jeśli nie posiadasz jeszcze biblioteki Aspose.PDF, możesz ją pobrać z powyższego łącza i rozpocząć[bezpłatny okres próbny](https://releases.aspose.com/) lub kup[licencja](https://purchase.aspose.com/buy). 
+Jeśli nie posiadasz jeszcze biblioteki Aspose.PDF, możesz ją pobrać z powyższego łącza i rozpocząć [bezpłatny okres próbny](https://releases.aspose.com/) lub kup [licencja](https://purchase.aspose.com/buy). 
 
 ## Importuj pakiety
 
@@ -50,12 +52,12 @@ string dataDir = "YOUR DATA DIRECTORY";
 Document pdfDocument = new Document(dataDir + "AddAnnotation.pdf");
 ```
 
- Oto, co się dzieje: określasz katalog, w którym przechowywany jest plik PDF, a następnie ładujesz go za pomocą`Document` Klasa dostarczona przez Aspose.PDF. Ten krok jest kluczowy, ponieważ bez załadowania dokumentu nie można wprowadzać w nim żadnych zmian.
+Oto, co się dzieje: określasz katalog, w którym przechowywany jest plik PDF, a następnie ładujesz go za pomocą `Document` Klasa dostarczona przez Aspose.PDF. Ten krok jest kluczowy, ponieważ bez załadowania dokumentu nie można wprowadzać w nim żadnych zmian.
 
 ## Krok 2: Utwórz adnotację
 
 ### Definiowanie właściwości adnotacji
- Teraz utwórzmy samą adnotację. Użyjemy`TextAnnotation`, co jest idealnym rozwiązaniem do dodawania komentarzy i notatek do pliku PDF.
+Teraz utwórzmy samą adnotację. Użyjemy `TextAnnotation`, co jest idealnym rozwiązaniem do dodawania komentarzy i notatek do pliku PDF.
 
 ```csharp
 // Utwórz adnotację
@@ -68,13 +70,13 @@ textAnnotation.Icon = TextIcon.Key;
 ```
 
 W tym fragmencie:
--  Lokalizacja i rozmiar:`Rectangle` Klasa definiuje, gdzie na stronie pojawi się Twoja adnotacja i jej wymiary.
+- Lokalizacja i rozmiar: `Rectangle` Klasa definiuje, gdzie na stronie pojawi się Twoja adnotacja i jej wymiary.
 - Tytuł, Temat i Zawartość: Te właściwości umożliwiają określenie, czego dotyczy adnotacja i co będzie zawierać.
--  Ikona:`TextIcon.Key` ustawia ikonę dla adnotacji, dzięki czemu staje się ona bardziej atrakcyjna wizualnie.
+- Ikona: `TextIcon.Key` ustawia ikonę dla adnotacji, dzięki czemu staje się ona bardziej atrakcyjna wizualnie.
 
 ## Krok 3: Dostosuj wygląd adnotacji
 
-Następnie wyróżnijmy tę adnotację, dodając obramowanie i dostosowując jej wygląd.
+Następnie wyróżnijmy tę adnotację, dodając obramowanie i zmieniając jej wygląd.
 
 ```csharp
 Border border = new Border(textAnnotation);
@@ -85,19 +87,19 @@ textAnnotation.Rect = new Aspose.Pdf.Rectangle(200, 400, 400, 600);
 ```
 
 Oto podsumowanie tego, co się dzieje:
--  Granica: Tworzymy`Border` obiekt i ustaw jego szerokość na 5, nadając naszej adnotacji widoczny zarys.
--  Wzór kreskowy:`Dash` Właściwość ta umożliwia utworzenie przerywanej ramki, co dodaje odrobinę stylu do adnotacji.
+- Granica: Tworzymy `Border` obiekt i ustaw jego szerokość na 5, nadając naszej adnotacji widoczny zarys.
+- Wzór kreskowy: `Dash` Właściwość ta umożliwia utworzenie przerywanej ramki, dodającej odrobinę stylu do adnotacji.
 
 ## Krok 4: Dodaj adnotację do strony PDF
 
 Po utworzeniu i dostosowaniu adnotacji czas dodać ją do strony PDF.
 
 ```csharp
-// Dodaj adnotację do kolekcji adnotacji strony
+// Dodaj adnotację do zbioru adnotacji strony
 pdfDocument.Pages[1].Annotations.Add(textAnnotation);
 ```
 
- Ten kod dodaje adnotację do pierwszej strony pliku PDF.`Annotations` kolekcja zawiera wszystkie adnotacje dla konkretnej strony, a ten krok zapewnia, że Twoja nowa adnotacja będzie częścią tej kolekcji.
+Ten kod dodaje adnotację do pierwszej strony pliku PDF. `Annotations` kolekcja zawiera wszystkie adnotacje dla konkretnej strony, a ten krok zapewnia, że Twoja nowa adnotacja będzie częścią tej kolekcji.
 
 ## Krok 5: Zapisz zaktualizowany dokument PDF
 
@@ -128,13 +130,15 @@ Oczywiście! Możesz dostosować rozmiar, kolor, obramowanie, a nawet ikonę swo
 Tak, możesz dodać dowolną liczbę adnotacji do dowolnej strony swojego pliku PDF.
 
 ### Czy mogę usunąć adnotacje po ich dodaniu?
- Tak, adnotacje można usunąć za pomocą`Annotations.Delete` metoda dostarczona przez Aspose.PDF.
+Tak, adnotacje można usunąć za pomocą `Annotations.Delete` metoda dostarczona przez Aspose.PDF.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF na platformie .NET?
- Tak, aby odblokować wszystkie funkcje i uniknąć wszelkich ograniczeń, będziesz potrzebować[licencja](https://purchase.aspose.com/buy) . Możesz również otrzymać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
+Tak, aby odblokować wszystkie funkcje i uniknąć jakichkolwiek ograniczeń, będziesz potrzebować [licencja](https://purchase.aspose.com/buy). Możesz również otrzymać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

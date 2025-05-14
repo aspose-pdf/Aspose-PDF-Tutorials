@@ -8,7 +8,9 @@ url: /net/programming-with-attachments/delete-all-attachments/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete All Attachments In PDF File
@@ -130,6 +132,7 @@ You can seek help from the Aspose community on their [support forum](https://for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

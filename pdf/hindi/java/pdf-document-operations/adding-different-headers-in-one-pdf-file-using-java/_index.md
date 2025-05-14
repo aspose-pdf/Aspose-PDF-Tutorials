@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके एक पीडीएफ फाइल में विभिन्न हेडर जोड़ना
-linktitle: जावा का उपयोग करके एक पीडीएफ फाइल में विभिन्न हेडर जोड़ना
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Aspose.PDF के साथ Java का उपयोग करके एक PDF फ़ाइल में अलग-अलग हेडर जोड़ना सीखें। PDF हेडर को कस्टमाइज़ करने के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 11
-url: /hi/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/
+"description": "Aspose.PDF के साथ Java का उपयोग करके एक PDF फ़ाइल में अलग-अलग हेडर जोड़ना सीखें। PDF हेडर को कस्टमाइज़ करने के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा का उपयोग करके एक पीडीएफ फाइल में विभिन्न हेडर जोड़ना"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके एक पीडीएफ फाइल में विभिन्न हेडर जोड़ना"
+"url": "/hi/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके एक पीडीएफ फाइल में विभिन्न हेडर जोड़ना
@@ -22,7 +24,7 @@ url: /hi/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-u
 
 इससे पहले कि हम इस यात्रा पर निकलें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
--  Aspose.PDF for Java लाइब्रेरी: इसे यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java लाइब्रेरी: इसे यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/pdf/java/).
 
 अब, आइए चरण दर चरण एक पीडीएफ फाइल में विभिन्न हेडर जोड़ने की बारीकियों पर गौर करें।
 
@@ -50,7 +52,7 @@ Document pdfDocument = new Document();
 
 ## चरण 4: पीडीएफ में पृष्ठ जोड़ें
 
-अपने PDF दस्तावेज़ में ज़रूरी पेज जोड़ें। हर पेज के लिए, आप ज़रूरत के हिसाब से अलग-अलग हेडर निर्धारित कर सकते हैं। यहाँ तीन पेज जोड़ने का एक उदाहरण दिया गया है:
+अपने PDF दस्तावेज़ में ज़रूरी पेज जोड़ें। हर पेज के लिए, आप ज़रूरत के हिसाब से अलग-अलग हेडर परिभाषित कर सकते हैं। यहाँ तीन पेज जोड़ने का एक उदाहरण दिया गया है:
 
 ```java
 Page page1 = pdfDocument.getPages().add();
@@ -105,7 +107,7 @@ pdfDocument.save("output.pdf");
 
 हां, Java के लिए Aspose.PDF Java 8 और उच्चतर संस्करणों के साथ संगत है।
 
-### क्या मैं अलग-अलग फ़ुटर भी जोड़ सकता हूँ?
+### क्या मैं अलग फ़ुटर भी जोड़ सकता हूँ?
 
 बिल्कुल! आप अपने पीडीएफ दस्तावेज़ के प्रत्येक पृष्ठ पर अलग-अलग फ़ुटर जोड़ने के लिए इसी प्रक्रिया का पालन कर सकते हैं।
 
@@ -115,10 +117,12 @@ pdfDocument.save("output.pdf");
 
 ### मैं Java के लिए Aspose.PDF के अधिक उदाहरण और दस्तावेज़ कहां पा सकता हूं?
 
- आप यहां पर विस्तृत दस्तावेज और उदाहरण देख सकते हैं[जावा एपीआई संदर्भ के लिए Aspose.PDF](https://reference.aspose.com/pdf/java/).
+आप यहां पर विस्तृत दस्तावेज और उदाहरण देख सकते हैं [जावा एपीआई संदर्भ के लिए Aspose.PDF](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

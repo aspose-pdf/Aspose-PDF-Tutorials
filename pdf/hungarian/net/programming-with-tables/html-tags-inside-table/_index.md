@@ -1,68 +1,70 @@
 ---
-title: HTML-címkék a táblázatban PDF-fájlban
-linktitle: HTML-címkék a táblázatban PDF-fájlban
-second_title: Aspose.PDF for .NET API Reference
-description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan ágyazhat be HTML-címkéket PDF-fájl táblázatcelláiba az Aspose.PDF for .NET használatával. Hozzon létre dinamikus, professzionális PDF dokumentumokat.
-weight: 100
-url: /hu/net/programming-with-tables/html-tags-inside-table/
+"description": "Tanuld meg, hogyan ágyazhatsz be HTML-címkéket PDF-táblázatok celláiba az Aspose.PDF for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Hozz létre dinamikus, professzionális PDF-dokumentumokat."
+"linktitle": "HTML címkék a PDF fájl táblázatában"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "HTML címkék a PDF fájl táblázatában"
+"url": "/hu/net/programming-with-tables/html-tags-inside-table/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML-címkék a táblázatban PDF-fájlban
+# HTML címkék a PDF fájl táblázatában
 
 ## Bevezetés
 
-Amikor PDF-ekkel dolgozik .NET-ben, az Aspose.PDF könyvtár kivételes eszköz a PDF-dokumentumok létrehozásához, kezeléséhez és átalakításához. Az Aspose.PDF által kínált fejlett funkciók egyike a HTML-tartalom PDF-fájl táblázatcelláiba való belefoglalása. Ez az oktatóanyag végigvezeti Önt, hogyan érheti el ezt az Aspose.PDF for .NET használatával. Az útmutató végére képes lesz dinamikusan generálni táblázatokat a cellákba ágyazott HTML-tartalommal.
+Amikor .NET-ben PDF-ekkel dolgozol, az Aspose.PDF könyvtár kivételes eszköz a PDF dokumentumok létrehozásához, kezeléséhez és átalakításához. Az Aspose.PDF egyik fejlett funkciója a HTML-tartalom PDF-fájlok táblázatcelláiba való beillesztésének lehetősége. Ez az oktatóanyag bemutatja, hogyan érheted el ezt az Aspose.PDF for .NET használatával. Az útmutató végére dinamikusan tudsz majd táblázatokat generálni a cellákba ágyazott HTML-tartalommal.
 
 ## Előfeltételek
 
-Mielőtt belevágna a részletes útmutatóba, győződjön meg arról, hogy rendelkezik a követéshez szükséges eszközökkel és erőforrásokkal.
+Mielőtt belemerülnénk a lépésről lépésre szóló útmutatóba, győződjünk meg arról, hogy rendelkezünk a szükséges eszközökkel és forrásokkal a követéshez.
 
--  Aspose.PDF .NET-hez: Az Aspose.PDF legújabb verziójára lesz szüksége.[Töltse le itt](https://releases.aspose.com/pdf/net/).
-- .NET-környezet: Győződjön meg arról, hogy a Visual Studio vagy bármely más kompatibilis IDE be van állítva a .NET-keretrendszerrel.
--  Licenc: Ha nem az Aspose.PDF licencelt verzióját használja, beszerezheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
-- A C# alapjai: A C# és az objektumorientált programozás ismerete hasznos.
-- HTML ismeretek: A HTML szerkezetének némi megértése hasznos lenne ebben az oktatóanyagban.
+- Aspose.PDF .NET-hez: Az Aspose.PDF legújabb verziójára lesz szükséged. [Töltsd le itt](https://releases.aspose.com/pdf/net/).
+- .NET környezet: Győződjön meg róla, hogy a Visual Studio vagy bármilyen más kompatibilis IDE telepítve van a .NET keretrendszerrel.
+- Licenc: Ha nem az Aspose.PDF licencelt verzióját használja, beszerezhet egyet. [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+- C# alapismeretek: A C# és az objektumorientált programozás ismerete előnyös.
+- HTML ismeretek: A HTML struktúra némi ismerete előnyös lenne ehhez az oktatóanyaghoz.
 
-## szükséges csomagok importálása
+## Szükséges csomagok importálása
 
-Mielőtt elkezdenénk írni a kódot, kulcsfontosságú a szükséges névterek importálása. Ezek a névterek lehetővé teszik számunkra, hogy az Aspose.PDF osztályokkal és metódusokkal dolgozzunk, amelyeket a PDF-dokumentumok kezelésére fogunk használni.
+Mielőtt elkezdenénk a kód írását, elengedhetetlen a szükséges névterek importálása. Ezek a névterek lehetővé teszik számunkra, hogy az Aspose.PDF osztályokkal és metódusokkal dolgozzunk, amelyeket a PDF dokumentumok kezeléséhez fogunk használni.
 
 ```csharp
 using System;
 using System.Data;
 ```
 
-Most bontsuk le a feladatot részletes lépésekre, ahol világosan és tömören elmagyarázzuk a folyamat egyes részeit.
+Most bontsuk le a feladatot részletes lépésekre, ahol világosan és tömören elmagyarázzuk a folyamat minden részét.
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: Dokumentumkönyvtár beállítása
 
-Az első lépés a dokumentumkönyvtár elérési útjának meghatározása. Ez az a hely, ahol a PDF mentésre kerül, miután elkészítettük és manipuláltuk.
+Az első lépés a dokumentumok könyvtárának elérési útjának meghatározása. Ide kerül mentésre a PDF, miután létrehoztuk és szerkesztettük.
 
 ```csharp
-// Határozza meg a dokumentumok könyvtárának elérési útját.
+// Adja meg a dokumentumok könyvtárának elérési útját.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR DOCUMENT DIRECTORY"` tényleges elérési úttal, ahová a PDF-fájlt menteni szeretné. Ez elengedhetetlen ahhoz, hogy a dokumentum generálásakor könnyen megtalálhassa azt.
+Mindenképpen cserélje ki `"YOUR DOCUMENT DIRECTORY"` a PDF-fájl mentésének tényleges elérési útjával. Ez azért fontos, hogy a dokumentum létrehozásakor könnyen megtalálhassa.
 
-## 2. lépés: Hozzon létre és töltsön fel DataTable-t HTML-tartalommal
+## 2. lépés: Adattábla létrehozása és feltöltése HTML tartalommal
 
- Most létrehozunk a`DataTable` hogy tároljuk azokat az adatokat, amelyek a táblázatban jelennek meg a PDF-ben. Ez`DataTable` tárolja a HTML tartalmat, mint pl`<li>` címkéket, amelyeket a cellákba szeretnénk beágyazni.
+Most létrehozunk egy `DataTable` hogy tárolja azokat az adatokat, amelyek a PDF-ben a táblázatban jelennek meg. Ez `DataTable` tárolja a HTML tartalmat, például `<li>` címkék, amelyeket a cellákba szeretnénk beágyazni.
 
 ```csharp
-// Hozzon létre egy DataTable-t, és adjon hozzá oszlopokat
+// Hozz létre egy adattáblát és adj hozzá oszlopokat
 DataTable dt = new DataTable("Employee");
 dt.Columns.Add("data", System.Type.GetType("System.String"));
 ```
 
- Egyszer a`DataTable` létrejön, fel kell töltenie a táblázatban megjeleníteni kívánt HTML-tartalommal. Ebben az esetben HTML listaelemeket adunk hozzá címekkel.
+Miután a `DataTable` létrejön, ki kell töltened a táblázatban megjeleníteni kívánt HTML-tartalommal. Ebben az esetben címeket tartalmazó HTML-listaelemeket adunk hozzá.
 
 ```csharp
-// Adjon hozzá sorokat HTML-tartalommal
+// HTML tartalmú sorok hozzáadása
 DataRow dr = dt.NewRow();
 dr[0] = "<li>Department of Emergency Medicine: 3400 Spruce Street Ground Silverstein Bldg Philadelphia PA 19104-4206</li>";
 dt.Rows.Add(dr);
@@ -74,92 +76,94 @@ dr[0] = "<li>UPHS/Presbyterian - Dept. of Emergency Medicine: 51 N. 39th Street 
 dt.Rows.Add(dr);
 ```
 
-Ez a lépés biztosítja, hogy a táblázat cellái HTML-formátumú tartalmat fognak tartalmazni, amely megfelelően lesz megjelenítve a PDF-dokumentumban.
+Ez a lépés biztosítja, hogy a táblázat cellái HTML formátumú tartalmat tartalmazzanak, amely megfelelően jelenik meg a PDF dokumentumban.
 
-## 3. lépés: Hozzon létre egy új PDF-dokumentumot
+## 3. lépés: Új PDF dokumentum létrehozása
 
-Ha megvannak az adataink, a következő lépés egy új PDF dokumentum inicializálása. Ez a dokumentum szolgál majd vászonként, amelyhez hozzáadjuk a táblázatunkat.
+Miután megkaptuk az adatainkat, a következő lépés egy új PDF dokumentum inicializálása. Ez a dokumentum fog szolgálni vászonként, ahová hozzáadjuk a táblázatunkat.
 
 ```csharp
-// Új PDF-dokumentum inicializálása
+// Új PDF dokumentum inicializálása
 Document doc = new Document();
 doc.Pages.Add();
 ```
 
-Ez az egyszerű kódrészlet létrehoz egy üres PDF-dokumentumot, és hozzáad egy új oldalt, amely később tartalmazza a táblázatot.
+Ez az egyszerű kódrészlet létrehoz egy üres PDF dokumentumot, és hozzáad egy új oldalt, amely később a táblázatot fogja tartalmazni.
 
-## 4. lépés: Állítsa fel az asztalt
+## 4. lépés: Az asztal előkészítése
 
-Most létrehozzuk és beállítjuk a táblázatot a PDF-dokumentumban. Ez a táblázat határozza meg az oszlopszélességeket és a szegélybeállításokat.
+Most létrehozzuk és beállítjuk a táblázatot a PDF dokumentumon belül. Ez a táblázat fogja meghatározni az oszlopszélességeket és a szegélybeállításokat.
 
 ```csharp
-// Inicializálja a tábla új példányát
+// A tábla új példányának inicializálása
 Aspose.Pdf.Table tableProvider = new Aspose.Pdf.Table();
-// Állítsa be a táblázat oszlopszélességét
+// A táblázat oszlopszélességének beállítása
 tableProvider.ColumnWidths = "400 50";
-// Állítsa a táblázat szegélyének színét LightGray-re
+// Táblázat szegélyének színének beállítása világosszürkére
 tableProvider.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.5F, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
-// Állítsa be az egyes táblázatcellák szegélyét
+// Az egyes táblázatcellák szegélyének beállítása
 tableProvider.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.5F, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
 ```
 
-Ebben a lépésben sikeresen létrehozott egy táblázatot, és egyéni oszlopszélességeket és szegélyeket állított be mind a táblázathoz, mind a celláihoz. Az oszlopszélességek biztosítják az adatok megfelelő igazítását a táblázaton belül.
+Ebben a lépésben sikeresen létrehoztál egy táblázatot, és egyéni oszlopszélességeket és szegélyeket állítottál be mind a táblázathoz, mind a celláihoz. Az oszlopszélességek biztosítják az adatok megfelelő igazítását a táblázaton belül.
 
-## 5. lépés: Adja meg a kitöltést és importálja az adatokat
+## 5. lépés: Kitöltés definiálása és adatok importálása
 
- A táblázat vizuális esztétikájának javítása érdekében a cellákhoz kitöltést határozunk meg. Ezután importáljuk a`DataTable` HTML-tartalommal a PDF-táblázatba.
+A táblázat vizuális esztétikájának fokozása érdekében definiáljuk a cellák kitöltéseit. Ezután importáljuk a `DataTable` HTML tartalommal a PDF táblázatba.
 
 ```csharp
-// Állítsa be a táblázatcellák kitöltését
+// Táblázatcellák kitöltés beállítása
 Aspose.Pdf.MarginInfo margin = new Aspose.Pdf.MarginInfo();
 margin.Top = 2.5F;
 margin.Left = 2.5F;
 margin.Bottom = 1.0F;
 tableProvider.DefaultCellPadding = margin;
 
-// Importálja a DataTable-t a PDF-táblázatba
+// Importálja az adattáblát a PDF táblázatba
 tableProvider.ImportDataTable(dt, false, 0, 0, 3, 1, true);
 ```
 
- margók beállításával némi lélegzetet biztosítunk a táblázat celláinak, így a tartalom látványosabbá válik. A`ImportDataTable` módszer behúzza a`DataTable` korábban készítettünk, biztosítva, hogy a HTML-tartalom beágyazódjon a cellákba.
+A margók beállításával némi mozgásteret adunk a táblázat celláinak, így a tartalom vizuálisan vonzóbbá válik. `ImportDataTable` a metódus behúzza a `DataTable` korábban létrehoztunk, biztosítva, hogy a HTML-tartalom beágyazva legyen a cellákba.
 
-## 6. lépés: Adja hozzá a táblázatot a PDF-hez, és mentse
+## 6. lépés: Táblázat hozzáadása a PDF-hez és mentés
 
-Végül hozzáadjuk a táblázatot a PDF dokumentum első oldalához, és elmentjük a fájlt.
+Végül hozzáadjuk a táblázatot a PDF dokumentum első oldalához, és mentjük a fájlt.
 
 ```csharp
-// Adja hozzá a táblázatot a PDF dokumentum első oldalához
+// Táblázat hozzáadása a PDF dokumentum első oldalához
 doc.Pages[1].Paragraphs.Add(tableProvider);
 
-// Mentse el a PDF dokumentumot
+// PDF dokumentum mentése
 doc.Save(dataDir + "HTMLInsideTableCell_out.pdf");
 ```
 
-Ebben a lépésben a HTML-tartalmú táblázat a PDF első oldalára kerül, és a fájl a megadott könyvtárba kerül.
+Ebben a lépésben a HTML tartalmú táblázat a PDF első oldalára kerül, és a fájl a megadott könyvtárba kerül mentésre.
 
 ## Következtetés
 
-fenti lépések követésével sikeresen beágyazta a HTML-címkéket egy PDF-dokumentum táblázatcelláiba az Aspose.PDF for .NET használatával. Ez az oktatóanyag bemutatja, hogyan használhatja ki az Aspose.PDF hatékony funkcióit dinamikus és tetszetős PDF-dokumentumok létrehozásához .NET-alkalmazásaiban. Akár számlákat, jelentéseket vagy részletes táblázatokat állít elő HTML-tartalommal, ez a módszer szilárd alapot biztosít PDF-kezelési igényeihez.
+A fenti lépéseket követve sikeresen beágyazta a HTML-címkéket a PDF-dokumentum táblázatcelláiba az Aspose.PDF for .NET segítségével. Ez az oktatóanyag bemutatja, hogyan használhatja ki az Aspose.PDF hatékony funkcióit dinamikus és vizuálisan vonzó PDF-dokumentumok létrehozásához .NET-alkalmazásaiban. Akár számlákat, jelentéseket vagy HTML-tartalmú részletes táblázatokat generál, ez a módszer szilárd alapot biztosít a PDF-manipulációs igényeihez.
 
 ## GYIK
 
-### Az Aspose.PDF képes kezelni a táblázatcellákon belüli összetett HTML-tartalmat?  
-Igen, az Aspose.PDF képes feldolgozni és megjeleníteni a táblázatcellákon belüli HTML-címkék széles skáláját, beleértve a listákat, képeket és hivatkozásokat.
+### Képes az Aspose.PDF összetett HTML tartalmat kezelni a táblázatcellákon belül?  
+Igen, az Aspose.PDF képes feldolgozni és megjeleníteni a táblázatcellákban található HTML-címkék széles skáláját, beleértve a listákat, képeket és hivatkozásokat.
 
-### Hogyan állíthatom be a táblázat oszlopainak méretét?  
- Az oszlopok szélességét a gombbal szabályozhatja`ColumnWidths` tulajdonság az egyes oszlopok szélességének megadásával.
+### Hogyan tudom beállítani az oszlopok méretét a táblázatban?  
+Az oszlopok szélességét a következővel szabályozhatod: `ColumnWidths` tulajdonságot az egyes oszlopok szélességének megadásával.
 
-### Lehetséges formázni a szöveget a táblázat celláiban?  
- Teljesen! Használhat HTML címkéket, mint pl`<b>`, `<i>` , és`<u>` a tartalomban a táblázatcellákon belüli szöveg formázásához.
+### Lehetséges formázni a táblázatcellákban lévő szöveget?  
+Természetesen! Használhatsz HTML-címkéket, például `<b>`, `<i>`, és `<u>` a tartalomban a táblázatcellákon belüli szöveg formázásához.
 
-### Mi történik, ha a HTML-tartalmam túl nagy a táblázatcellához?  
-Ha a tartalom túlcsordul a cellán, a táblázat automatikusan igazodik, de testreszabhatja a cella méretét és a tördelési beállításokat a tartalom megjelenítésének szabályozásához.
+### Mi történik, ha a HTML-tartalmam túl nagy a táblázat cellájához képest?  
+Ha a tartalom túlcsordul a cellán, a táblázat automatikusan igazodik, de testreszabhatja a cellaméretet és a sortörési beállításokat a tartalom megjelenítésének szabályozásához.
 
 ### Hozzáadhatok egynél több táblázatot egy PDF dokumentumhoz?  
-Igen, több táblázatot is hozzáadhat egy PDF-dokumentumhoz úgy, hogy egyszerűen megismétli a táblázatok hozzáadásának lépéseit, mindegyiket a PDF új oldalán vagy szakaszán.
+Igen, több táblázatot is hozzáadhat egy PDF dokumentumhoz a táblázatok hozzáadásának lépéseinek megismétlésével, mindegyiket a PDF új oldalán vagy szakaszában.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

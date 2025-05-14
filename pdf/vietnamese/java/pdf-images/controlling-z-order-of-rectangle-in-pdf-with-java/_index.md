@@ -1,14 +1,16 @@
 ---
-title: Kiểm soát thứ tự Z của hình chữ nhật trong PDF bằng Java
-linktitle: Kiểm soát thứ tự Z của hình chữ nhật trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách kiểm soát thứ tự Z của hình chữ nhật trong PDF bằng Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước để thao tác PDF chính xác.
-weight: 11
-url: /vi/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/
+"description": "Tìm hiểu cách kiểm soát thứ tự Z của hình chữ nhật trong PDF bằng Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước để thao tác PDF chính xác."
+"linktitle": "Kiểm soát thứ tự Z của hình chữ nhật trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Kiểm soát thứ tự Z của hình chữ nhật trong PDF bằng Java"
+"url": "/vi/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểm soát thứ tự Z của hình chữ nhật trong PDF bằng Java
@@ -35,7 +37,7 @@ Kiểm soát thứ tự Z của các thành phần trong PDF là điều cần t
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 - Thiết lập môi trường phát triển Java.
--  Đã cài đặt thư viện Aspose.PDF cho Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Đã cài đặt thư viện Aspose.PDF cho Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Hướng dẫn từng bước
 
@@ -92,7 +94,7 @@ Trong bài viết này, chúng tôi đã khám phá tầm quan trọng của vi�
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
-Để cài đặt Aspose.PDF cho Java, bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/pdf/java/) và bao gồm tệp JAR trong phần phụ thuộc của dự án Java của bạn.
+Để cài đặt Aspose.PDF cho Java, bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/pdf/java/) và bao gồm tệp JAR trong phần phụ thuộc của dự án Java của bạn.
 
 ### Tôi có thể kiểm soát thứ tự Z của các thành phần PDF khác ngoài hình chữ nhật không?
 
@@ -108,10 +110,12 @@ Có, Aspose.PDF for Java rất linh hoạt và có thể được sử dụng ch
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể khám phá tài liệu chi tiết và nhiều ví dụ mã hơn trên[Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/) trang.
+Bạn có thể khám phá tài liệu chi tiết và nhiều ví dụ mã hơn trên [Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/) trang.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

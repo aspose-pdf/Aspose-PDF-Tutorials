@@ -1,30 +1,32 @@
 ---
-title: PDF Dosyasında Özel Sekme Durakları
-linktitle: PDF Dosyasında Özel Sekme Durakları
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF kullanarak bir PDF'de özel sekme duraklarının nasıl ayarlanacağını öğrenin. Bu eğitim, metni profesyonelce hizalamak için adım adım talimatları kapsar.
-weight: 120
-url: /tr/net/programming-with-text/custom-tab-stops/
+"description": ".NET için Aspose.PDF kullanarak bir PDF'de özel sekme duraklarının nasıl ayarlanacağını öğrenin. Bu eğitim, metni profesyonelce hizalamak için adım adım talimatları kapsar."
+"linktitle": "PDF Dosyasında Özel Sekme Durakları"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Özel Sekme Durakları"
+"url": "/tr/net/programming-with-text/custom-tab-stops/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Özel Sekme Durakları
 
 ## giriiş
 
-Hiç PDF içindeki metni biçimlendirmek zorunda kaldınız mı ve her kelimenin nasıl sıralanacağı konusunda kesin bir kontrole sahip olmayı dilediniz mi? İşte tam bu noktada sekme durakları işe yarıyor! Word belgelerinde olduğu gibi, metninizi PDF'nizdeki belirli noktalarda mükemmel bir şekilde hizalamak için özel sekme duraklarını kullanabilirsiniz. İçeriği sağa hizalamak, ortaya hizalamak veya sola hizalamak isteyip istemediğinize bakılmaksızın, Aspose.PDF for .NET bunu kolaylaştırır. Bu eğitimde, Aspose.PDF for .NET kullanarak PDF dosyanızda özel sekme duraklarını nasıl ayarlayacağınızı göstereceğiz. Sonunda, kolayca güzelce hizalanmış bir belge oluşturabileceksiniz.
+Hiç PDF içindeki metni biçimlendirmek zorunda kaldınız mı ve her bir kelimenin nasıl sıralanacağı konusunda kesin bir kontrole sahip olmayı dilediniz mi? İşte tam bu noktada sekme durakları işe yarıyor! Word belgelerinde olduğu gibi, metninizi PDF'nizdeki belirli noktalarda mükemmel bir şekilde hizalamak için özel sekme duraklarını kullanabilirsiniz. İçeriği sağa hizalamak, ortaya hizalamak veya sola hizalamak isteyip istemediğinize bakılmaksızın, Aspose.PDF for .NET bunu kolaylaştırır. Bu eğitimde, Aspose.PDF for .NET kullanarak PDF dosyanızda özel sekme duraklarını nasıl ayarlayacağınızı göstereceğiz. Sonunda, kolayca güzelce hizalanmış bir belge oluşturabileceksiniz.
 
 ## Ön koşullar
 
 Başlamadan önce, takip etmeniz gerekenler şunlardır:
 
--  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olması gerekir.[buradan indirin](https://releases.aspose.com/pdf/net/).
+- .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olması gerekir. [buradan indirin](https://releases.aspose.com/pdf/net/).
 - .NET Geliştirme Ortamı: .NET uygulamalarını çalıştırmak için Visual Studio veya başka bir IDE'nin kurulu olduğundan emin olun.
 - C# Hakkında Temel Bilgi: C# dilinde kod yazacağız, dolayısıyla bu dile aşina olmanız önerilir.
--  Geçici Lisans: Şunu kullanabilirsiniz:[geçici lisans](https://purchase.aspose.com/temporary-license/)Aspose.PDF for .NET'in tüm özelliklerinin kilidini açmak için.
+- Geçici Lisans: Şunu kullanabilirsiniz: [geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.PDF for .NET'in tüm özelliklerinin kilidini açmak için.
 
 Her şey hazır olduğunda, gerekli paketleri içeri aktarma ve ortamı ayarlama aşamasına geçelim.
 
@@ -39,7 +41,7 @@ using Aspose.Pdf.Text;
 using System;
 ```
 
- Bu iki satır önemlidir.`Aspose.Pdf` namespace belge yapısını sağlarken`Aspose.Pdf.Text` bize özel sekme durakları gibi metne özgü özelliklere erişim sağlar.
+Bu iki satır önemlidir. `Aspose.Pdf` namespace belge yapısını sağlarken, `Aspose.Pdf.Text` bize özel sekme durakları gibi metne özgü özelliklere erişim sağlar.
 
 PDF'de özel sekme durakları ayarlama sürecini parçalara ayıralım. Tam olarak ne olduğunu anlamanızı sağlamak için her adımı ayrıntılı olarak ele alacağız.
 
@@ -54,8 +56,8 @@ Page page = _pdfdocument.Pages.Add();
 ```
 
 Bu kesitte:
--  Yeni bir şey yaratıyoruz`Document` nesne.
--  Belgeye yeni bir sayfa eklemek için şunu kullanıyoruz:`Pages.Add()`. Buraya tab duraklı metni ekleyeceğiz.
+- Yeni bir şey yaratıyoruz `Document` nesne.
+- Belgeye yeni bir sayfa eklemek için şunu kullanıyoruz: `Pages.Add()`Buraya tab duraklı metni ekleyeceğiz.
 
 ## Adım 2: Sekme Duraklarını Ayarlayın
 
@@ -69,9 +71,9 @@ ts1.LeaderType = TabLeaderType.Solid;
 ```
 
 Burada biz:
--  Birini başlat`TabStops` Özel sekme duraklarımızı tutacak nesne.
--  100 piksel işaretinde bir sekme durağı ekleyin`ts.Add(100)`. Bu sekmenin nerede oluşacağını tanımlar.
--  Hizalama türünü şu şekilde ayarlayın:`Right`, bu sekme durağına çarpan metnin sağa hizalanacağı anlamına gelir.
+- Birini başlat `TabStops` Özel sekme duraklarımızı tutacak nesne.
+- 100 piksel işaretinde bir sekme durağı ekleyin `ts.Add(100)`. Bu sekmenin nerede oluşacağını tanımlar.
+- Hizalama türünü şu şekilde ayarlayın: `Right`, bu sekme durağına çarpan metnin sağa hizalanacağı anlamına gelir.
 - Bir lider türü tanımlayın. Liderler, sekme durağının önündeki boşluğu dolduran noktalar veya çizgilerdir. Bu durumda, düz bir çizgi kullanırız.
 
 ## Adım 3: Daha Fazla Sekme Durağı Ekleyin
@@ -103,11 +105,11 @@ TextFragment text1 = new TextFragment("#$TABdata11 #$TABdata12 #$TABdata13", ts)
 
 - `TextFragment` bir metin parçasını temsil eder.
 - Sekme işaretleyicileri kullanıyoruz (`#$TAB`) PDF'e sekme duraklarının nerede uygulanacağını söylemek için.
--  Örneğin,`text0`, `#$TABHead1` ilk sekme durağına göre hizalanacaktır,`#$TABHead2` ikinciye hizalanacak ve bu böyle devam edecek.
+- Örneğin, `text0`, `#$TABHead1` ilk sekme durağına göre hizalanacaktır, `#$TABHead2` ikinciye hizalanacak ve bu böyle devam edecek.
 
 ## Adım 5: Metne Segmentler Ekleyin
 
- Bazen metninizi her biri kendi sekme durağına sahip birden fazla parçaya bölmek isteyebilirsiniz. İşte tam da bu noktada`TextSegment` işe yarar.
+Bazen metninizi her biri kendi sekme durağına sahip birden fazla parçaya bölmek isteyebilirsiniz. İşte tam da bu noktada `TextSegment` işe yarar.
 
 ```csharp
 TextFragment text2 = new TextFragment("#$TABdata21 ", ts);
@@ -118,8 +120,8 @@ text2.Segments.Add(new TextSegment("data23"));
 ```
 
 Bu durumda:
--  Şöyle başlayalım`#$TABdata21`, ilk sekme durağına hizalanır.
--  Daha fazla segment ekliyoruz`data22` Ve`data23`, her biri farklı sekme duraklarına hizalanır.
+- Şöyle başlayalım `#$TABdata21`, ilk sekme durağına hizalanır.
+- Daha fazla segment ekliyoruz `data22` Ve `data23`, her biri farklı sekme duraklarına hizalanır.
 
 ## Adım 6: PDF Sayfasına Metin Ekleme
 
@@ -132,7 +134,7 @@ page.Paragraphs.Add(text1);
 page.Paragraphs.Add(text2);
 ```
 
- Bu kod her birini ekler`TextFragment`PDF sayfasına, metnin sekme duraklarına göre biçimlendirilmesini sağlayarak.
+Bu kod her birini ekler `TextFragment` PDF sayfasına, metnin sekme duraklarına göre biçimlendirilmesini sağlayarak.
 
 ## Adım 7: PDF Belgesini Kaydedin
 
@@ -167,9 +169,11 @@ Hayır, tasarım gereksinimlerinize uyacak şekilde istediğiniz kadar sekme dur
 
 ### Sekme duraklarının konumunu özelleştirebilir miyim?  
 Evet, her sekme durağı için düzeninize uyacak şekilde tam piksel konumunu tanımlayabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

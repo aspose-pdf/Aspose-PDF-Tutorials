@@ -1,44 +1,46 @@
 ---
-title: Hozzon létre PDF-et címkézett képpel Java nyelven
-linktitle: Hozzon létre PDF-et címkézett képpel Java nyelven
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan hozhat létre hozzáférhető címkézett PDF-fájlokat Java nyelven az Aspose.PDF for Java segítségével. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes PDF generáláshoz.
-weight: 13
-url: /hu/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/
+"description": "Tanuld meg, hogyan hozhatsz létre akadálymentesített címkézett képes PDF-eket Java nyelven az Aspose.PDF for Java segítségével. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes PDF-generáláshoz."
+"linktitle": "PDF létrehozása címkézett képpel Java-ban"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "PDF létrehozása címkézett képpel Java-ban"
+"url": "/hu/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hozzon létre PDF-et címkézett képpel Java nyelven
+# PDF létrehozása címkézett képpel Java-ban
 
 
-## Bevezetés a címkézett képpel rendelkező PDF létrehozásához Java nyelven az Aspose.PDF for Java használatával
+## Bevezetés a címkézett képpel ellátott PDF létrehozásához Java nyelven az Aspose.PDF for Java használatával
 
-digitális korban a címkézett képeket tartalmazó PDF-ek létrehozása általános követelmény a különféle alkalmazásoknál. A címkézett képek elengedhetetlenek az akadálymentesítéshez, biztosítva, hogy a látássérült felhasználók hozzáférjenek és megértsék a tartalmat. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan hozhat létre címkézett képeket tartalmazó PDF-fájlokat Java nyelven az Aspose.PDF for Java használatával. Ez a hatékony könyvtár széleskörű támogatást nyújt a PDF-ekkel való munkavégzéshez, beleértve a címkézett képek könnyű hozzáadását is.
+A digitális korban a címkézett képeket tartalmazó PDF-ek létrehozása gyakori követelmény a különféle alkalmazások számára. A címkézett képek elengedhetetlenek az akadálymentesítéshez, biztosítva, hogy a látássérült felhasználók is hozzáférhessenek és megérthessék a tartalmat. Ebben a lépésről lépésre szóló útmutatóban megvizsgáljuk, hogyan hozhatunk létre címkézett képeket tartalmazó PDF-eket Java nyelven az Aspose.PDF for Java használatával. Ez a hatékony könyvtár széleskörű támogatást nyújt a PDF-ekkel való munkához, beleértve a címkézett képek egyszerű hozzáadásának lehetőségét is.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
--  Java Development Kit (JDK): Java-t kell telepítenie a rendszerére. Letöltheti innen[Az Oracle webhelye](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java fejlesztőkészlet (JDK): Telepítenie kell a Java-t a rendszerére. Letöltheti innen [Az Oracle weboldala](https://www.oracle.com/java/technologies/javase-downloads.html).
 
--  Aspose.PDF for Java: rendelkeznie kell az Aspose.PDF for Java könyvtárral. Letöltheti a[Aspose honlapja](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF Java-hoz: Rendelkeznie kell az Aspose.PDF Java-hoz könyvtárral. Letöltheti innen: [Aspose weboldal](https://releases.aspose.com/pdf/java/).
 
 ## A projekt beállítása
 
-Kezdjük azzal, hogy beállítjuk Java projektünket címkézett PDF-ek létrehozásához. Kövesse az alábbi lépéseket:
+Kezdjük a Java projektünk beállításával címkézett PDF-ek létrehozásához. Kövesd az alábbi lépéseket:
 
-1. Java-projekt létrehozása: Nyissa meg kedvenc Java-fejlesztői környezetét (például Eclipse vagy IntelliJ IDEA), és hozzon létre egy új Java-projektet.
+1. Java projekt létrehozása: Nyissa meg kedvenc Java fejlesztői környezetét (például Eclipse vagy IntelliJ IDEA), és hozzon létre egy új Java projektet.
 
 2. Aspose.PDF könyvtár hozzáadása: Adja hozzá az Aspose.PDF for Java könyvtárat a projekthez. Ezt általában úgy teheti meg, hogy hozzáadja a JAR fájlt a projekt osztályútvonalához.
 
 ## Címkézett kép PDF létrehozása
 
-Most, hogy elkészült a projektünk, lépésről lépésre hozzunk létre egy címkézett PDF-képet.
+Most, hogy beállítottuk a projektünket, hozzunk létre egy címkézett képes PDF-et lépésről lépésre.
 
-### 1. lépés: Inicializálja az Aspose.PDF fájlt
+### 1. lépés: Az Aspose.PDF inicializálása
 
 ```java
 import com.aspose.pdf.Document;
@@ -47,10 +49,10 @@ import com.aspose.pdf.Document;
 Document pdfDocument = new Document();
 ```
 
-### 2. lépés: Adjon hozzá egy oldalt
+### 2. lépés: Oldal hozzáadása
 
 ```java
-// Adjon hozzá egy oldalt a dokumentumhoz
+// Oldal hozzáadása a dokumentumhoz
 pdfDocument.getPages().add();
 ```
 
@@ -63,47 +65,49 @@ image.setFile("path/to/your/image.png");
 pdfDocument.getPages().get_Item(1).getParagraphs().add(image);
 ```
 
-### 4. lépés: Mentse el a PDF-fájlt
+### 4. lépés: Mentse el a PDF-et
 
 ```java
-// Mentse el a PDF dokumentumot
+// PDF dokumentum mentése
 pdfDocument.save("tagged_image.pdf");
 ```
 
 ## Következtetés
 
-A címkézett kép-PDF-ek létrehozása Java nyelven az Aspose.PDF for Java használatával egyszerű folyamat. Ez a könyvtár leegyszerűsíti a képek PDF-dokumentumokhoz való hozzáadását, és biztosítja, hogy azok megfelelő címkézést kapjanak a hozzáférhetőség érdekében.
+címkézett képes PDF-ek létrehozása Java nyelven az Aspose.PDF for Java segítségével egy egyszerű folyamat. Ez a könyvtár leegyszerűsíti a képek PDF-dokumentumokhoz való hozzáadásának feladatát, és biztosítja, hogy azok megfelelően legyenek címkézve az akadálymentesítés érdekében.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.PDF for Java fájlt?
+### Hogyan telepíthetem az Aspose.PDF fájlt Java-hoz?
 
-Az Aspose.PDF for Java telepítéséhez kövesse az alábbi lépéseket:
+Az Aspose.PDF Java-hoz telepítéséhez kövesse az alábbi lépéseket:
 
-1.  Töltse le a könyvtárat a[Aspose honlapja](https://releases.aspose.com/pdf/java/).
+1. Töltsd le a könyvtárat a [Aspose weboldal](https://releases.aspose.com/pdf/java/).
 
-2. Adja hozzá a letöltött JAR-fájlt a Java-projekt osztályútvonalához.
+2. Add hozzá a letöltött JAR fájlt a Java projekted osztályútvonalához.
 
-3. Készen áll az Aspose.PDF for Java használatára projektjében.
+3. Készen állsz az Aspose.PDF for Java használatára a projektedben.
 
-### Használhatom ingyenesen az Aspose.PDF for Java-t?
+### Ingyenesen használhatom az Aspose.PDF fájlt Java-hoz?
 
-Az Aspose.PDF for Java egy kereskedelmi könyvtár, és próbaverzióval érkezik. A teljes értékű használathoz azonban licencet kell vásárolnia az Aspose-tól.
+Az Aspose.PDF for Java egy kereskedelmi forgalomban kapható könyvtár, amelyhez próbaverzió is tartozik. A teljes körű használathoz azonban licencet kell vásárolnia az Aspose-tól.
 
-### Lehetséges-e alternatív szöveget hozzáadni a PDF-ben lévő címkézett képekhez?
+### Lehetséges helyettesítő szöveget hozzáadni a PDF-ben lévő címkézett képekhez?
 
-Igen, az Aspose.PDF for Java használatával alternatív szöveget (alternatív szöveget) is hozzáadhat a PDF-ben lévő címkézett képekhez. Ez elengedhetetlen az akadálymentesítés szempontjából.
+Igen, hozzáadhatsz alternatív szöveget (alt text) a címkézett képekhez a PDF-ben az Aspose.PDF for Java segítségével. Ez elengedhetetlen az akadálymentesítéshez.
 
-### Vannak más könyvtárak a PDF-ekkel való munkavégzéshez Java nyelven?
+### Vannak más könyvtárak a PDF-ekkel való munkához Java-ban?
 
-Igen, számos más könyvtár is létezik a PDF-ekkel való munkavégzéshez Java nyelven, például az Apache PDFBox és az iText. Az Aspose.PDF for Java azonban robusztus szolgáltatásairól és egyszerű használatáról ismert.
+Igen, számos más könyvtár is létezik a PDF-fájlok Java-ban történő kezelésére, például az Apache PDFBox és az iText. Az Aspose.PDF for Java azonban robusztus funkcióiról és könnyű használhatóságáról ismert.
 
-### Hol találok további dokumentációt az Aspose.PDF for Java fájlhoz?
+### Hol találok további dokumentációt az Aspose.PDF for Java-hoz?
 
- Az Aspose.PDF for Java átfogó dokumentációját a következő helyen találja:[Aspose dokumentációs webhely](https://reference.aspose.com/pdf/java/).
+Az Aspose.PDF for Java átfogó dokumentációját itt találja: [Aspose dokumentációs weboldal](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

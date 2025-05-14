@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for Aspose.PDF installation, licensing, set
 weight: 1
 url: "/java/getting-started/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.PDF Getting Started Tutorials for Java Developers
 
@@ -29,7 +32,11 @@ Learn how to implement Aspose.PDF and Aspose.Words licenses in Java, create PDF 
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

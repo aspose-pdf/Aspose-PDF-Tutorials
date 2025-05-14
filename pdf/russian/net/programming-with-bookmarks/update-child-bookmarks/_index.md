@@ -1,14 +1,16 @@
 ---
-title: Обновление дочерних закладок в PDF-файле
-linktitle: Обновление дочерних закладок в PDF-файле
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как обновить дочерние закладки в файлах PDF с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Улучшите навигацию по PDF.
-weight: 110
-url: /ru/net/programming-with-bookmarks/update-child-bookmarks/
+"description": "Узнайте, как обновить дочерние закладки в файлах PDF с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Улучшите навигацию по PDF."
+"linktitle": "Обновление дочерних закладок в PDF-файле"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Обновление дочерних закладок в PDF-файле"
+"url": "/ru/net/programming-with-bookmarks/update-child-bookmarks/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обновление дочерних закладок в PDF-файле
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-bookmarks/update-child-bookmarks/
 Прежде чем перейти к коду, давайте убедимся, что у вас есть все необходимое для начала работы:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Это идеальная IDE для разработки .NET.
-2.  Aspose.PDF для .NET: Вам нужно будет скачать и установить библиотеку Aspose.PDF. Вы можете найти ее[здесь](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF для .NET: Вам нужно будет скачать и установить библиотеку Aspose.PDF. Вы можете найти ее [здесь](https://releases.aspose.com/pdf/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понимать фрагменты кода.
 
 ## Импортные пакеты
@@ -46,7 +48,7 @@ using Aspose.Pdf.Outline;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где хранится ваш PDF-файл. Этот шаг имеет решающее значение, поскольку он сообщает вашей программе, где найти PDF-файл, с которым вы хотите работать.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где хранится ваш PDF-файл. Этот шаг имеет решающее значение, поскольку он сообщает вашей программе, где найти PDF-файл, с которым вы хотите работать.
 
 ## Шаг 2: Откройте PDF-документ.
 
@@ -56,11 +58,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "UpdateChildBookmarks.pdf");
 ```
 
- Эта строка кода создает новый`Document` объект, который представляет ваш PDF-файл. Убедитесь, что имя файла совпадает с тем, что у вас в каталоге.
+Эта строка кода создает новый `Document` объект, который представляет ваш PDF-файл. Убедитесь, что имя файла совпадает с тем, что у вас в каталоге.
 
 ## Шаг 3: Получите доступ к коллекции закладок
 
- Теперь, когда документ открыт, пришло время получить доступ к закладкам. Закладки в PDF-файле организованы в коллекцию, называемую`Outlines`. Вот как до них можно добраться:
+Теперь, когда документ открыт, пришло время получить доступ к закладкам. Закладки в PDF-файле организованы в коллекцию, называемую `Outlines`. Вот как до них можно добраться:
 
 ```csharp
 OutlineItemCollection pdfOutline = pdfDocument.Outlines[1];
@@ -121,19 +123,21 @@ Console.WriteLine("\nChild bookmarks updated successfully.\nFile saved at " + da
 Aspose.PDF для .NET — это мощная библиотека, которая позволяет разработчикам программно создавать, изменять и конвертировать PDF-документы.
 
 ### Могу ли я использовать Aspose.PDF бесплатно?
- Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для изучения ее функций. Вы можете загрузить ее[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для изучения ее функций. Вы можете загрузить ее [здесь](https://releases.aspose.com/).
 
 ### Как получить поддержку по Aspose.PDF?
- Вы можете получить поддержку, посетив форум Aspose.[здесь](https://forum.aspose.com/c/pdf/10).
+Вы можете получить поддержку, посетив форум Aspose. [здесь](https://forum.aspose.com/c/pdf/10).
 
 ### Есть ли временная лицензия?
- Да, Aspose предоставляет временную лицензию, которую вы можете получить[здесь](https://purchase.aspose.com/temporary-license/).
+Да, Aspose предоставляет временную лицензию, которую вы можете получить [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Где можно купить Aspose.PDF для .NET?
- Вы можете приобрести Aspose.PDF для .NET на их веб-сайте[здесь](https://purchase.aspose.com/buy).
+Вы можете приобрести Aspose.PDF для .NET на их веб-сайте [здесь](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

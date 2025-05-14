@@ -1,29 +1,31 @@
 ---
-title: Dodaj i wyszukaj ukryty tekst w pliku PDF
-linktitle: Dodaj i wyszukaj ukryty tekst w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Naucz się dodawać i wyszukiwać ukryty tekst w dokumentach PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
-weight: 20
-url: /pl/net/programming-with-text/add-and-search-hidden-text/
+"description": "Naucz się dodawać i wyszukiwać ukryty tekst w dokumentach PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu."
+"linktitle": "Dodaj i wyszukaj ukryty tekst w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj i wyszukaj ukryty tekst w pliku PDF"
+"url": "/pl/net/programming-with-text/add-and-search-hidden-text/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj i wyszukaj ukryty tekst w pliku PDF
 
 ## Wstęp
 
-W tym samouczku przeprowadzimy Cię przez przewodnik krok po kroku, jak dodawać i wyszukiwać ukryty tekst w pliku PDF za pomocą Aspose.PDF dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, który chce poprawić swoje umiejętności programistyczne, ten artykuł dostarczy Ci informacji, których potrzebujesz, aby włączyć funkcjonalność ukrytego tekstu do swoich aplikacji.
+tym samouczku przeprowadzimy Cię przez przewodnik krok po kroku, jak dodawać i wyszukiwać ukryty tekst w pliku PDF za pomocą Aspose.PDF dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, który chce poprawić swoje umiejętności programistyczne, ten artykuł dostarczy Ci informacji, których potrzebujesz, aby włączyć funkcjonalność ukrytego tekstu do swoich aplikacji.
 
 ## Wymagania wstępne
 
 Zanim przejdziesz do części poświęconej kodowaniu, musisz spełnić kilka warunków wstępnych:
 
 ### Lista kontrolna wymagań
-- Visual Studio: Upewnij się, że masz zainstalowany Visual Studio. Ten samouczek zakłada, że używasz .NET Framework.
--  Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+- Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio. Ten samouczek zakłada, że używasz .NET Framework.
+- Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
 ## Importuj pakiety
@@ -32,8 +34,8 @@ Zanim zaczniesz pracę nad kodem, musisz upewnić się, że zaimportowałeś nie
 
 ### Skonfiguruj swój projekt
 1. Otwórz program Visual Studio i utwórz nowy projekt C# lub użyj istniejącego.
-2.  Zainstaluj Aspose.PDF, dodając pakiet NuGet. Możesz to zrobić, przechodząc do Menedżera pakietów NuGet i wyszukując`Aspose.PDF`. 
-3.  Alternatywnie możesz pobrać bibliotekę bezpośrednio z[Tutaj](https://releases.aspose.com/pdf/net/) i dodaj go jako odniesienie w swoim projekcie.
+2. Zainstaluj Aspose.PDF, dodając pakiet NuGet. Możesz to zrobić, przechodząc do Menedżera pakietów NuGet i wyszukując `Aspose.PDF`. 
+3. Alternatywnie możesz pobrać bibliotekę bezpośrednio z [Tutaj](https://releases.aspose.com/pdf/net/) i dodaj go jako odniesienie w swoim projekcie.
 
 ### Importuj wymagane przestrzenie nazw
 Na górze pliku C# zaimportuj następujące przestrzenie nazw:
@@ -59,7 +61,7 @@ Najpierw musisz ustawić ścieżkę, w której plik PDF zostanie zapisany. To tu
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zmień to na swój katalog
 ```
 
- Ta linia definiuje, gdzie będzie przechowywany wygenerowany plik PDF. Nie zapomnij zastąpić`YOUR DOCUMENT DIRECTORY` z twoją rzeczywistą ścieżką.
+Ta linia definiuje, gdzie będzie przechowywany wygenerowany plik PDF. Nie zapomnij zastąpić `YOUR DOCUMENT DIRECTORY` z twoją rzeczywistą ścieżką.
 
 ### Krok 2: Utwórz dokument PDF
 Następnie utwórzmy nowy dokument PDF i dodajmy do niego strony.
@@ -79,16 +81,16 @@ TextFragment frag1 = new TextFragment("This is common text.");
 TextFragment frag2 = new TextFragment("This is invisible text.");
 ```
 
- W tym fragmencie,`frag1` będzie widoczny, podczas gdy`frag2` zostanie ustawiony jako niewidoczny.
+W tym fragmencie, `frag1` będzie widoczny, podczas gdy `frag2` Następnie zostanie ustawiony jako niewidoczny.
 
 ### Krok 4: Ustaw tekst jako niewidoczny
- Aby utworzyć tekst`frag2` niewidoczne, po prostu je modyfikujesz`TextState`.
+Aby utworzyć tekst `frag2` niewidoczne, po prostu je modyfikujesz `TextState`.
 
 ```csharp
 frag2.TextState.Invisible = true;
 ```
 
- Ustawiając tę właściwość, każdy tekst powiązany z`frag2` nie zostanie wyświetlona podczas przeglądania pliku PDF.
+Ustawiając tę właściwość, każdy tekst powiązany z `frag2` nie zostanie wyświetlona podczas przeglądania pliku PDF.
 
 ### Krok 5: Dodaj fragmenty tekstu do strony
 Na koniec dodajemy te fragmenty tekstu do strony i zapisujemy plik PDF.
@@ -114,7 +116,7 @@ doc = new Aspose.Pdf.Document(dataDir + "39400_out.pdf");
 ```
 
 ### Krok 2: Utwórz absorber fragmentów tekstu
- Użyjemy`TextFragmentAbsorber` aby przechwycić wszystkie fragmenty tekstu w pliku PDF.
+Użyjemy `TextFragmentAbsorber` aby przechwycić wszystkie fragmenty tekstu w pliku PDF.
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber();
@@ -134,7 +136,7 @@ foreach (TextFragment fragment in absorber.TextFragments)
 }
 ```
 
- Ta pętla sprawdza każdy fragment tekstu i drukuje jego zawartość wraz z jego pozycją i statusem widoczności. Jeśli`fragment.TextState.Invisible` jest ustawione na true, oznacza to, że tekst jest ukryty!
+Ta pętla sprawdza każdy fragment tekstu i drukuje jego zawartość wraz z jego pozycją i statusem widoczności. Jeśli `fragment.TextState.Invisible` jest ustawione na true, oznacza to, że tekst jest ukryty!
 
 ### Krok 4: Usuń dokument
 Na koniec pamiętaj, żeby usunąć dokument, gdy już skończysz.
@@ -145,7 +147,7 @@ doc.Dispose();
 
 ## Wniosek
 
-W tym samouczku przeszliśmy przez ekscytujący proces dodawania i wyszukiwania ukrytego tekstu w plikach PDF przy użyciu Aspose.PDF dla .NET. Dowiedzieliśmy się, jak utworzyć dokument PDF z widocznym i ukrytym tekstem, a także jak programowo wyszukiwać ten ukryty tekst. Ta możliwość może być niezwykle przydatna w różnych aplikacjach, niezależnie od tego, czy musisz przechowywać poufne informacje, czy zapewnić unikalne wrażenia użytkownika w swoich dokumentach.
+tym samouczku przeszliśmy przez ekscytujący proces dodawania i wyszukiwania ukrytego tekstu w plikach PDF przy użyciu Aspose.PDF dla .NET. Dowiedzieliśmy się, jak utworzyć dokument PDF z widocznym i ukrytym tekstem, a także jak programowo wyszukiwać ten ukryty tekst. Ta możliwość może być niezwykle przydatna w różnych aplikacjach, niezależnie od tego, czy musisz przechowywać poufne informacje, czy zapewnić unikalne wrażenia użytkownika w swoich dokumentach.
 
 W miarę jak będziesz coraz bardziej zaznajomiony z ASPose.PDF, możliwości staną się nieograniczone. Eksperymentuj i przesuwaj granice tego, co możesz osiągnąć dzięki swoim dokumentom PDF!
 
@@ -155,19 +157,21 @@ W miarę jak będziesz coraz bardziej zaznajomiony z ASPose.PDF, możliwości st
 Tak, Aspose.PDF obsługuje szyfrowanie i deszyfrowanie dokumentów PDF. Możesz łatwo zabezpieczyć swoje pliki PDF hasłami.
 
 ### Czy jest dostępna wersja próbna Aspose.PDF?  
- Oczywiście! Możesz pobrać darmową wersję próbną z[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz pobrać darmową wersję próbną z [Tutaj](https://releases.aspose.com/).
 
 ### Jakie języki programowania obsługuje Aspose.PDF?  
 Aspose.PDF obsługuje wiele języków, w tym C#, Java i Python.
 
 ### Gdzie mogę znaleźć dokumentację dla Aspose.PDF?  
- Możesz uzyskać dostęp do dokumentacji[Tutaj](https://reference.aspose.com/pdf/net/).
+Możesz uzyskać dostęp do dokumentacji [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Jak mogę uzyskać pomoc, jeśli napotkam problemy?  
- Aby uzyskać pomoc, możesz odwiedzić fora Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Aby uzyskać pomoc, możesz odwiedzić fora Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

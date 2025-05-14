@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PDF to XPS with Selectable Text Using Aspose.PDF for Java
 
@@ -120,7 +122,11 @@ Finally, save the document in XPS format to your desired output directory:
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 pdfDocument.save(outputDir + "/ConvertPDFtoXPS_out.xps\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

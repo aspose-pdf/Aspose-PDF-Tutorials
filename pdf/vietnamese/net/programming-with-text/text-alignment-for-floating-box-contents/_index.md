@@ -1,14 +1,16 @@
 ---
-title: Căn chỉnh văn bản cho nội dung hộp nổi trong tệp PDF
-linktitle: Căn chỉnh văn bản cho nội dung hộp nổi trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách căn chỉnh nội dung hộp nổi trong tệp PDF bằng Aspose.PDF cho .NET. Tạo tài liệu tuyệt đẹp với bố cục chuyên nghiệp.
-weight: 520
-url: /vi/net/programming-with-text/text-alignment-for-floating-box-contents/
+"description": "Tìm hiểu cách căn chỉnh nội dung hộp nổi trong tệp PDF bằng Aspose.PDF cho .NET. Tạo tài liệu tuyệt đẹp với bố cục chuyên nghiệp."
+"linktitle": "Căn chỉnh văn bản cho nội dung hộp nổi trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Căn chỉnh văn bản cho nội dung hộp nổi trong tệp PDF"
+"url": "/vi/net/programming-with-text/text-alignment-for-floating-box-contents/"
+"weight": 520
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Căn chỉnh văn bản cho nội dung hộp nổi trong tệp PDF
@@ -22,7 +24,7 @@ Tạo PDF hấp dẫn về mặt thị giác là một kỹ năng quan trọng t
 Trước khi bắt đầu hướng dẫn, bạn cần có một số thông tin cần thiết sau:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework tương thích trên máy của mình, vì đây là nơi bạn sẽ chạy mã của mình.
-2.  Thư viện Aspose.PDF: Bạn cần có thư viện Aspose.PDF. Nếu bạn chưa tải xuống, bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/).
+2. Thư viện Aspose.PDF: Bạn cần có thư viện Aspose.PDF. Nếu bạn chưa tải xuống, bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/).
 3. IDE: Môi trường phát triển tích hợp (IDE) như Visual Studio sẽ hữu ích cho việc mã hóa và gỡ lỗi.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng theo dõi và hiểu các đoạn mã.
 
@@ -58,7 +60,7 @@ Aspose.Pdf.Document doc = new Document();
 doc.Pages.Add();
 ```
 
- Trong đoạn mã này, hãy thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình.
+Trong đoạn mã này, hãy thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình.
 
 ## Bước 2: Tạo hộp nổi đầu tiên
 
@@ -95,7 +97,7 @@ Giống như hộp đầu tiên, chúng tôi đã đặt căn chỉnh theo chi�
 
 ## Bước 4: Tạo hộp nổi thứ ba
 
-Bây giờ, đối với hộp nổi thứ ba và cũng là hộp cuối cùng, chúng ta sẽ căn chỉnh nội dung ở góc trên bên phải.
+Bây giờ, đối với hộp nổi thứ ba và cũng là hộp nổi cuối cùng, chúng ta sẽ căn chỉnh nội dung ở góc trên bên phải.
 
 ```csharp
 Aspose.Pdf.FloatingBox floatBox2 = new Aspose.Pdf.FloatingBox(100, 100);
@@ -116,7 +118,7 @@ Cuối cùng, đã đến lúc lưu tài liệu của bạn. Bạn sẽ lưu nó
 doc.Save(dataDir + "FloatingBox_alignment_review_out.pdf");
 ```
 
- Tập tin sẽ được lưu với tên`FloatingBox_alignment_review_out.pdf` trong thư mục đã chỉ định. Hãy đảm bảo kiểm tra vị trí này để xem tệp PDF bạn đã tạo.
+Tập tin sẽ được lưu với tên `FloatingBox_alignment_review_out.pdf` trong thư mục đã chỉ định. Hãy đảm bảo kiểm tra vị trí này để xem tệp PDF bạn đã tạo.
 
 ## Phần kết luận
 
@@ -137,10 +139,12 @@ Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng cần phải trả p
 Hoàn toàn có thể! Bạn có thể thêm nhiều loại nội dung khác nhau, bao gồm cả hình ảnh, vào hộp nổi.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.PDF ở đâu?  
- Có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/pdf/net/).
+Có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

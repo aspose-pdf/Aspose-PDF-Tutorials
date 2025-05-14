@@ -1,14 +1,16 @@
 ---
-title: Hapus Hyperlink Setelah Mengonversi Dari Html
-linktitle: Hapus Hyperlink Setelah Mengonversi Dari Html
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menghapus hyperlink dari dokumen HTML setelah mengonversi ke PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini.
-weight: 250
-url: /id/net/document-conversion/remove-hyperlinks-after-converting-from-html/
+"description": "Pelajari cara menghapus hyperlink dari dokumen HTML setelah mengonversi ke PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini."
+"linktitle": "Hapus Hyperlink Setelah Mengonversi Dari Html"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Hapus Hyperlink Setelah Mengonversi Dari Html"
+"url": "/id/net/document-conversion/remove-hyperlinks-after-converting-from-html/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Hyperlink Setelah Mengonversi Dari Html
@@ -22,7 +24,7 @@ Di era digital, mengonversi dokumen HTML ke PDF merupakan tugas yang umum. Namun
 Sebelum menyelami kode, pastikan Anda memiliki prasyarat berikut:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan Anda.
-2.  Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami kode dengan lebih baik.
 
 ## Paket Impor
@@ -31,7 +33,7 @@ Untuk memulai, Anda perlu mengimpor paket yang diperlukan ke dalam proyek C# And
 
 1. Buka proyek Visual Studio Anda.
 2. Klik kanan pada proyek Anda di Solution Explorer dan pilih "Kelola Paket NuGet."
-3.  Pencarian untuk`Aspose.PDF` dan menginstalnya.
+3. Pencarian untuk `Aspose.PDF` dan menginstalnya.
 
 ```csharp
 using Aspose.Pdf.Annotations;
@@ -50,17 +52,17 @@ Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas HTML Anda disimpan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas HTML Anda disimpan.
 
 ## Langkah 2: Muat Dokumen HTML
 
- Selanjutnya, Anda akan memuat dokumen HTML menggunakan`Document` kelas dari Aspose.PDF. Kelas ini memudahkan Anda untuk bekerja dengan dokumen PDF.
+Selanjutnya, Anda akan memuat dokumen HTML menggunakan `Document` kelas dari Aspose.PDF. Kelas ini memudahkan Anda untuk bekerja dengan dokumen PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "SampleHtmlFile.html", new HtmlLoadOptions());
 ```
 
- Di sini, kita memuat file HTML bernama`SampleHtmlFile.html`Pastikan berkas ini ada di direktori yang Anda tentukan.
+Di sini, kita memuat file HTML bernama `SampleHtmlFile.html`Pastikan berkas ini ada di direktori yang Anda tentukan.
 
 ## Langkah 3: Simpan Dokumen ke Aliran Memori
 
@@ -112,7 +114,7 @@ tfa.TextSearchOptions = new TextSearchOptions(a.Rect);
 doc.Pages[a.PageIndex].Accept(tfa);
 ```
 
- Di sini, kita membuat`TextFragmentAbsorber` dan mengatur opsi pencariannya ke persegi panjang anotasi. Ini membantu kita menemukan teks yang ditautkan.
+Di sini, kita membuat `TextFragmentAbsorber` dan mengatur opsi pencariannya ke persegi panjang anotasi. Ini membantu kita menemukan teks yang ditautkan.
 
 ## Langkah 7: Ubah Tampilan Teks
 
@@ -147,7 +149,7 @@ Terakhir, kita perlu menyimpan dokumen yang dimodifikasi ke berkas PDF baru. Ini
 doc.Save(dataDir + "RemoveHyperlinksFromText_out.pdf");
 ```
 
- Baris ini menyimpan dokumen dengan hyperlink dihapus, membuat file PDF baru bernama`RemoveHyperlinksFromText_out.pdf`.
+Baris ini menyimpan dokumen dengan hyperlink dihapus, membuat file PDF baru bernama `RemoveHyperlinksFromText_out.pdf`.
 
 ## Kesimpulan
 
@@ -159,19 +161,21 @@ Nah, itu dia! Anda telah berhasil menghapus hyperlink dari dokumen HTML setelah 
 Ya, Anda dapat menghapus hyperlink dari dokumen PDF apa pun menggunakan Aspose.PDF untuk .NET.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?
- Aspose.PDF menawarkan uji coba gratis, tetapi untuk fitur lengkap, Anda perlu membeli lisensi. Periksa[halaman pembelian](https://purchase.aspose.com/buy).
+Aspose.PDF menawarkan uji coba gratis, tetapi untuk fitur lengkap, Anda perlu membeli lisensi. Periksa [halaman pembelian](https://purchase.aspose.com/buy).
 
 ### Bagaimana jika saya mengalami masalah saat menggunakan Aspose.PDF?
- Anda dapat mencari bantuan di[forum dukungan](https://forum.aspose.com/c/pdf/10).
+Anda dapat mencari bantuan di [forum dukungan](https://forum.aspose.com/c/pdf/10).
 
 ### Bisakah saya mengonversi format file lain ke PDF menggunakan Aspose?
 Ya, Aspose mendukung berbagai format file untuk konversi ke PDF.
 
 ### Di mana saya dapat mengunduh Aspose.PDF untuk .NET?
- Anda dapat mengunduhnya dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
+Anda dapat mengunduhnya dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

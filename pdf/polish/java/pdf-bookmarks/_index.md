@@ -1,14 +1,16 @@
 ---
-title: Zakładki PDF
-linktitle: Zakładki PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Naucz się tworzyć interaktywne zakładki PDF za pomocą Aspose.PDF dla Java. Podnieś poziom nawigacji w dokumencie i doświadczenia użytkownika.
-weight: 12
-url: /pl/java/pdf-bookmarks/
+"description": "Naucz się tworzyć interaktywne zakładki PDF za pomocą Aspose.PDF dla Java. Podnieś poziom nawigacji w dokumencie i doświadczenia użytkownika."
+"linktitle": "Zakładki PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Zakładki PDF"
+"url": "/pl/java/pdf-bookmarks/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zakładki PDF
@@ -37,10 +39,12 @@ Dowiedz się, jak wyświetlać rozszerzone zakładki w plikach PDF za pomocą As
 ### [Pobieranie zakładek z dokumentów PDF](./retrieve-bookmarks-pdf-documents/)
 Dowiedz się, jak efektywnie pobierać zakładki PDF za pomocą Aspose.PDF dla Java, korzystając z tego kompleksowego przewodnika.
 ### [Aktualizuj zakładki w plikach PDF](./update-bookmarks-pdfs/)
-Dowiedz się, jak wydajnie aktualizować zakładki PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku upraszcza ten proces.
+Dowiedz się, jak skutecznie aktualizować zakładki PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku upraszcza ten proces.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

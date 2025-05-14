@@ -1,14 +1,16 @@
 ---
-title: Xóa tất cả chú thích khỏi trang
-linktitle: Xóa tất cả chú thích khỏi trang
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xóa tất cả chú thích khỏi trang PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để dọn dẹp PDF của bạn một cách hiệu quả.
-weight: 40
-url: /vi/net/annotations/deleteallannotationsfrompage/
+"description": "Tìm hiểu cách xóa tất cả chú thích khỏi trang PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để dọn dẹp PDF của bạn một cách hiệu quả."
+"linktitle": "Xóa tất cả chú thích khỏi trang"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xóa tất cả chú thích khỏi trang"
+"url": "/vi/net/annotations/deleteallannotationsfrompage/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa tất cả chú thích khỏi trang
@@ -20,15 +22,15 @@ Bạn đã bao giờ cần xóa tất cả các chú thích khó chịu khỏi t
 
 Trước khi đi sâu vào hướng dẫn từng bước, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Aspose.PDF cho .NET: Bạn sẽ cần thư viện Aspose.PDF cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/) hoặc tải qua NuGet trong Visual Studio.
+1. Aspose.PDF cho .NET: Bạn sẽ cần thư viện Aspose.PDF cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/) hoặc tải qua NuGet trong Visual Studio.
 2. Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Visual Studio là lựa chọn phổ biến, nhưng bất kỳ IDE tương thích nào cũng có thể hoạt động.
 3. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về C#. Nếu bạn mới làm quen với C#, đừng lo lắng—tôi sẽ giải thích mọi thứ rõ ràng.
 4. Tệp PDF mẫu: Có tệp PDF mẫu có chú thích mà bạn muốn xóa. Bạn có thể sử dụng bất kỳ tệp PDF nào, nhưng hãy đảm bảo tệp có chú thích cho hướng dẫn này.
-5.  Giấy phép Aspose: Để tránh những hạn chế về đánh giá, hãy xem xét[áp dụng giấy phép](https://purchase.aspose.com/temporary-license/) cho Aspose.PDF cho .NET.
+5. Giấy phép Aspose: Để tránh những hạn chế về đánh giá, hãy xem xét [áp dụng giấy phép](https://purchase.aspose.com/temporary-license/) cho Aspose.PDF cho .NET.
 
 ## Nhập gói
 
-Trước tiên, hãy nhập các không gian tên cần thiết. Đây là các khối xây dựng cơ bản mà bạn sẽ cần để tương tác với các tệp PDF bằng Aspose.PDF cho .NET.
+Trước tiên, hãy nhập các không gian tên cần thiết. Đây là các khối xây dựng cơ bản mà bạn cần để tương tác với các tệp PDF bằng Aspose.PDF cho .NET.
 
 ```csharp
 using System.IO;
@@ -50,7 +52,7 @@ Giải thích: Việc thiết lập thư mục tài liệu đảm bảo rằng �
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục lưu trữ PDF của bạn. Đây là thư mục mà Aspose.PDF sẽ sử dụng để định vị tệp của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục lưu trữ PDF của bạn. Đây là thư mục mà Aspose.PDF sẽ sử dụng để định vị tệp của bạn.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -62,7 +64,7 @@ Giải thích: Mở tài liệu PDF cho phép ứng dụng tải tệp vào bộ
 Document pdfDocument = new Document(dataDir + "DeleteAllAnnotationsFromPage.pdf");
 ```
 
- Đây,`Document` là lớp được sử dụng để biểu diễn tệp PDF trong Aspose.PDF.`dataDir + "DeleteAllAnnotationsFromPage.pdf"`nối đường dẫn thư mục với tên tệp để mở tệp PDF cụ thể.
+Đây, `Document` là lớp được sử dụng để biểu diễn tệp PDF trong Aspose.PDF. `dataDir + "DeleteAllAnnotationsFromPage.pdf"` nối đường dẫn thư mục với tên tệp để mở tệp PDF cụ thể.
 
 ## Bước 3: Xóa tất cả chú thích khỏi trang đầu tiên
 
@@ -74,7 +76,7 @@ Giải thích: Dòng mã này truy cập trang đầu tiên của tệp PDF và 
 pdfDocument.Pages[1].Annotations.Delete();
 ```
 
- Đây,`Pages[1]` đề cập đến trang đầu tiên của tài liệu và`Annotations.Delete()` là phương pháp xóa tất cả chú thích khỏi trang đó. Nếu tệp PDF của bạn có nhiều trang và bạn muốn xóa chú thích khỏi một trang khác, chỉ cần thay đổi số chỉ mục.
+Đây, `Pages[1]` đề cập đến trang đầu tiên của tài liệu và `Annotations.Delete()` là phương pháp xóa tất cả chú thích khỏi trang đó. Nếu tệp PDF của bạn có nhiều trang và bạn muốn xóa chú thích khỏi một trang khác, chỉ cần thay đổi số chỉ mục.
 
 ## Bước 4: Lưu tài liệu đã cập nhật
 
@@ -87,18 +89,18 @@ dataDir = dataDir + "DeleteAllAnnotationsFromPage_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Mã này lưu tệp PDF đã sửa đổi với tên mới (`DeleteAllAnnotationsFromPage_out.pdf`trong cùng một thư mục, giữ nguyên tệp gốc của bạn.
+Mã này lưu tệp PDF đã sửa đổi với tên mới (`DeleteAllAnnotationsFromPage_out.pdf`) trong cùng một thư mục, giữ nguyên tệp gốc của bạn.
 
 ## Phần kết luận
 
 Và thế là xong! Bạn đã xóa thành công tất cả các chú thích khỏi một trang trong tài liệu PDF của mình bằng Aspose.PDF cho .NET. Phương pháp đơn giản nhưng mạnh mẽ này có thể tiết kiệm thời gian thực sự khi xử lý các tệp PDF có chú thích. Cho dù bạn đang chuẩn bị tài liệu để sử dụng chuyên nghiệp hay chỉ dọn dẹp các tệp của mình, hướng dẫn này đã cung cấp cho bạn các công cụ để xử lý chú thích một cách hiệu quả.
 
- Aspose.PDF cho .NET là một thư viện đa năng cung cấp nhiều tính năng hơn ngoài việc quản lý chú thích. Tôi khuyến khích bạn khám phá hết tiềm năng của nó bằng cách xem[tài liệu](https://reference.aspose.com/pdf/net/).
+Aspose.PDF for .NET là một thư viện đa năng cung cấp nhiều tính năng hơn ngoài việc quản lý chú thích. Tôi khuyến khích bạn khám phá hết tiềm năng của nó bằng cách xem [tài liệu](https://reference.aspose.com/pdf/net/).
 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể xóa chú thích khỏi tất cả các trang trong tệp PDF cùng một lúc không?
- Có, bạn có thể lặp qua tất cả các trang trong tài liệu và áp dụng`Annotations.Delete()` phương pháp cho từng người.
+Có, bạn có thể lặp qua tất cả các trang trong tài liệu và áp dụng `Annotations.Delete()` phương pháp cho từng người.
 
 ### Có thể loại bỏ những loại chú thích nào bằng phương pháp này?
 Phương pháp này xóa mọi chú thích, bao gồm văn bản, phần tô sáng, dấu và bình luận.
@@ -107,13 +109,15 @@ Phương pháp này xóa mọi chú thích, bao gồm văn bản, phần tô sá
 Không, chỉ có chú thích bị xóa. Phần còn lại của nội dung PDF vẫn không thay đổi.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF cho .NET không?
- Mặc dù bạn có thể sử dụng thư viện mà không cần giấy phép, nhưng việc áp dụng[giấy phép tạm thời hoặc đầy đủ](https://purchase.aspose.com/temporary-license/) xóa bỏ những hạn chế trong việc đánh giá.
+Mặc dù bạn có thể sử dụng thư viện mà không cần giấy phép, nhưng việc áp dụng [giấy phép tạm thời hoặc đầy đủ](https://purchase.aspose.com/temporary-license/) xóa bỏ những hạn chế trong việc đánh giá.
 
 ### Tôi có thể xóa một số loại chú thích nhất định một cách có chọn lọc không?
 Có, Aspose.PDF cho phép bạn lọc và xóa các loại chú thích cụ thể nếu cần.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

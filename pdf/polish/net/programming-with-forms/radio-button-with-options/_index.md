@@ -1,14 +1,16 @@
 ---
-title: Przycisk radiowy z opcjami
-linktitle: Przycisk radiowy z opcjami
-second_title: Aspose.PDF dla .NET API Reference
-description: Odblokuj potencjał interaktywnych plików PDF, dodając przyciski radiowe za pomocą Aspose.PDF dla .NET. Twórz angażujące formularze z łatwością i popraw wrażenia użytkownika.
-weight: 230
-url: /pl/net/programming-with-forms/radio-button-with-options/
+"description": "Odblokuj potencjał interaktywnych plików PDF, dodając przyciski radiowe za pomocą Aspose.PDF dla .NET. Twórz angażujące formularze z łatwością i popraw wrażenia użytkownika."
+"linktitle": "Przycisk radiowy z opcjami"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Przycisk radiowy z opcjami"
+"url": "/pl/net/programming-with-forms/radio-button-with-options/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przycisk radiowy z opcjami
@@ -21,9 +23,9 @@ Tworzenie interaktywnych dokumentów PDF może znacznie zwiększyć zaangażowan
 
 Zanim zaczniemy, musisz skonfigurować kilka rzeczy, aby zapewnić płynny przebieg tworzenia pliku PDF z przyciskami radiowymi:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że biblioteka Aspose.PDF jest zainstalowana w Twoim projekcie. Jeśli jeszcze jej nie masz, możesz ją łatwo pobrać z[strona wydania](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że biblioteka Aspose.PDF jest zainstalowana w Twoim projekcie. Jeśli jeszcze jej nie masz, możesz ją łatwo pobrać z [strona wydania](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: Podstawowa znajomość platformy .NET Framework pomoże Ci uporać się z problemami, jakie napotkasz po drodze.
-3. Środowisko programistyczne: Będziesz potrzebować odpowiedniego środowiska IDE dla platformy .NET (np. Visual Studio), w którym będziesz mógł pisać i testować swój kod.
+3. Środowisko programistyczne: Będziesz potrzebować odpowiedniego środowiska IDE dla platformy .NET (np. Visual Studio), w którym będziesz mógł pisać i testować kod.
 4. Znajomość języka C#: Nie musisz być profesjonalistą, ale dobra znajomość programowania w języku C# na pewno ułatwi ten proces i sprawi, że będzie on przyjemniejszy.
 5. Podstawowa wiedza o strukturze plików PDF: Zrozumienie struktury plików PDF może być pomocne podczas rozwiązywania problemów lub dalszego dostosowywania formularzy.
 
@@ -65,7 +67,7 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- W tym fragmencie kodu tworzymy nowy`Document` obiekt i dodanie`Page` do tego dla naszej treści. Upewnij się, że zastąpisz`YOUR DOCUMENT DIRECTORY` ze ścieżką, pod którą chcesz zapisać plik PDF.
+W tym fragmencie kodu tworzymy nowy `Document` obiekt i dodanie `Page` do tego dla naszej treści. Upewnij się, że zastąpisz `YOUR DOCUMENT DIRECTORY` ze ścieżką, pod którą chcesz zapisać plik PDF.
 
 ## Krok 2: Utwórz tabelę do układu
 
@@ -77,7 +79,7 @@ table.ColumnWidths = "120 120 120"; // Zdefiniuj szerokości kolumn
 page.Paragraphs.Add(table);
 ```
 
- Tutaj stworzyliśmy`Table`obiekt i określił szerokości dla naszych trzech kolumn. To tworzy uporządkowany układ dla naszych opcji.
+Tutaj stworzyliśmy `Table` obiekt i określił szerokości dla naszych trzech kolumn. To tworzy uporządkowany układ dla naszych opcji.
 
 ## Krok 3: Dodaj wiersze do tabeli
 
@@ -94,7 +96,7 @@ Tworzymy nowy wiersz i trzy komórki w wierszu. Każda komórka będzie zawiera�
 
 ## Krok 4: Dodaj pole przycisku radiowego
 
-Tu zaczyna się zabawa – dodajmy pole przycisku radiowego do naszego pliku PDF!
+I tu zaczyna się zabawa – dodajmy pole przycisku radiowego do naszego pliku PDF!
 
 ```csharp
 RadioButtonField rf = new RadioButtonField(page);
@@ -102,7 +104,7 @@ rf.PartialName = "radio";
 doc.Form.Add(rf, 1);
 ```
 
- Tworzymy instancję`RadioButtonField`, ustaw jego nazwę, a następnie dodaj go do formularza dokumentu. To pole pozwoli użytkownikom dokonać wyboru.
+Tworzymy instancję `RadioButtonField`, ustaw jego nazwę, a następnie dodaj go do formularza dokumentu. To pole pozwoli użytkownikom dokonać wyboru.
 
 ## Krok 5: Skonfiguruj opcje przycisków radiowych
 
@@ -117,7 +119,7 @@ opt2.OptionName = "Item2";
 opt3.OptionName = "Item3";
 ```
 
- Tutaj tworzymy trzy`RadioButtonOptionField` instancji dla każdego z naszych wyborów i przypisać im nazwy. Kreatywne podejście do tych nazw może pomóc użytkownikom lepiej wskazać, co wybrać.
+Tutaj tworzymy trzy `RadioButtonOptionField` instancji dla każdego z naszych wyborów i przypisać im nazwy. Kreatywne podejście do tych nazw może pomóc użytkownikom lepiej wskazać, co wybrać.
 
 ## Krok 6: Ustaw wymiary dla opcji
 
@@ -159,7 +161,7 @@ opt1.DefaultAppearance.TextColor = System.Drawing.Color.Red;
 opt1.Caption = new TextFragment("Item1");
 ```
 
- Powtórz tę stylizację dla`opt2` I`opt3`, odpowiednio dostosowując podpisy. Dzięki temu każda opcja wygląda profesjonalnie i angażująco.
+Powtórz tę stylizację dla `opt2` I `opt3`, odpowiednio dostosowując podpisy. Dzięki temu każda opcja wygląda profesjonalnie i angażująco.
 
 ## Krok 9: Dodaj opcje do komórek
 
@@ -196,19 +198,21 @@ Opanowanie umiejętności tworzenia interaktywnych elementów, takich jak przyci
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie i modyfikowanie dokumentów PDF.
 
 ### Jak zainstalować Aspose.PDF dla platformy .NET?
- Bibliotekę można pobrać ze strony[Strona wydania Aspose](https://releases.aspose.com/pdf/net/) i dodaj do swojego projektu.
+Bibliotekę można pobrać ze strony [Strona wydania Aspose](https://releases.aspose.com/pdf/net/) i dodaj do swojego projektu.
 
 ### Czy mogę tworzyć przyciski radiowe w plikach PDF, korzystając z innych języków programowania?
 Tak, Aspose.PDF jest również dostępny dla języka Java i innych języków, oferujących podobne funkcje.
 
 ### Czy istnieje bezpłatna wersja próbna Aspose.PDF?
- Tak, możesz zapoznać się z funkcjonalnościami Aspose.PDF, pobierając plik[bezpłatna wersja próbna](https://releases.aspose.com/).
+Tak, możesz zapoznać się z funkcjonalnościami Aspose.PDF, pobierając [bezpłatna wersja próbna](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.PDF?
- Aby uzyskać pomoc, możesz odwiedzić stronę[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10) aby uzyskać pomoc od ekspertów i członków społeczności.
+Aby uzyskać pomoc, możesz odwiedzić stronę [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10) aby uzyskać pomoc od ekspertów i członków społeczności.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

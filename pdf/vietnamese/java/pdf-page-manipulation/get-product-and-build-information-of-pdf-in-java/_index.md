@@ -1,14 +1,16 @@
 ---
-title: Nhận thông tin sản phẩm và xây dựng của PDF trong Java
-linktitle: Nhận thông tin sản phẩm và xây dựng của PDF trong Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách trích xuất sản phẩm và xây dựng thông tin từ các tệp PDF trong Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để trích xuất dữ liệu PDF hiệu quả.
-weight: 13
-url: /vi/java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-java/
+"description": "Tìm hiểu cách trích xuất sản phẩm và xây dựng thông tin từ các tệp PDF trong Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để trích xuất dữ liệu PDF hiệu quả."
+"linktitle": "Nhận thông tin sản phẩm và xây dựng của PDF trong Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Nhận thông tin sản phẩm và xây dựng của PDF trong Java"
+"url": "/vi/java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận thông tin sản phẩm và xây dựng của PDF trong Java
@@ -97,7 +99,7 @@ Trong bài viết này, chúng tôi đã khám phá cách trích xuất thông t
 Để trích xuất thông tin sản phẩm từ tệp PDF bằng Aspose.PDF cho Java, hãy làm theo các bước sau:
 1. Nhập thư viện Aspose.PDF.
 2. Tải tài liệu PDF.
-3.  Sử dụng`getProductName()`, `getProductVersion()` , Và`getProductManufacturer()` phương pháp trích xuất thông tin chi tiết sản phẩm.
+3. Sử dụng `getProductName()`, `getProductVersion()`, Và `getProductManufacturer()` phương pháp trích xuất thông tin chi tiết sản phẩm.
 
 ### Thông tin xây dựng là gì và tại sao nó lại quan trọng?
 
@@ -105,7 +107,7 @@ Xây dựng thông tin trong tệp PDF bao gồm thông tin chi tiết về th�
 
 ### Tôi có thể tùy chỉnh cách hiển thị thông tin trích xuất không?
 
-Có, bạn có thể tùy chỉnh định dạng đầu ra cho phù hợp với nhu cầu của mình. Bạn có thể định dạng dữ liệu đã trích xuất theo yêu cầu của ứng dụng.
+Có, bạn có thể tùy chỉnh định dạng đầu ra cho phù hợp với nhu cầu của mình. Bạn có thể định dạng dữ liệu được trích xuất theo yêu cầu của ứng dụng.
 
 ### Có bất kỳ hạn chế nào khi trích xuất dữ liệu bằng Aspose.PDF cho Java không?
 
@@ -114,9 +116,11 @@ Aspose.PDF for Java là một thư viện mạnh mẽ, nhưng giống như bất
 ### Aspose.PDF cho Java có phù hợp với cả tệp PDF nhỏ và lớn không?
 
 Có, Aspose.PDF for Java phù hợp để xử lý cả tệp PDF nhỏ và lớn. Nó cung cấp các phương pháp hiệu quả để làm việc với các tài liệu PDF có kích thước khác nhau.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

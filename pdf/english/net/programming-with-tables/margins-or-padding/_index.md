@@ -8,7 +8,9 @@ url: /net/programming-with-tables/margins-or-padding/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Margins Or Padding
@@ -209,6 +211,7 @@ Absolutely! For testing purposes, you can apply for a temporary license [here](h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

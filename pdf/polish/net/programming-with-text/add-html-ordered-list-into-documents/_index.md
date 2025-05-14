@@ -1,14 +1,16 @@
 ---
-title: Dodaj uporządkowaną listę HTML do dokumentów
-linktitle: Dodaj listę HTMLOrdered do dokumentów
-second_title: Aspose.PDF dla .NET API Reference
-description: Naucz się dodawać uporządkowane listy HTML w dokumentach PDF za pomocą Aspose.PDF dla .NET. Odkryj instrukcje krok po kroku w tym szczegółowym samouczku.
-weight: 30
-url: /pl/net/programming-with-text/add-html-ordered-list-into-documents/
+"description": "Naucz się dodawać uporządkowane listy HTML w dokumentach PDF za pomocą Aspose.PDF dla .NET. Odkryj instrukcje krok po kroku w tym szczegółowym samouczku."
+"linktitle": "Dodaj listę HTMLOrdered do dokumentów"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj uporządkowaną listę HTML do dokumentów"
+"url": "/pl/net/programming-with-text/add-html-ordered-list-into-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj uporządkowaną listę HTML do dokumentów
@@ -22,15 +24,15 @@ Tworzenie dokumentów PDF w locie może otworzyć przed deweloperami świat moż
 Zanim wyruszymy w tę podróż manipulacji PDF, upewnijmy się, że masz wszystko na swoim miejscu. Oto krótki przegląd tego, czego będziesz potrzebować:
 
 1. Środowisko programistyczne .NET: Upewnij się, że masz zainstalowane na swoim komputerze IDE, takie jak Visual Studio. To będzie Twój plac zabaw do kodowania.
-2.  Aspose.PDF dla biblioteki .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Niezbędne pliki znajdziesz[Tutaj](https://releases.aspose.com/pdf/net/). 
+2. Aspose.PDF dla biblioteki .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Niezbędne pliki znajdziesz [Tutaj](https://releases.aspose.com/pdf/net/). 
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie pomocna, ponieważ będziemy kodować w tym języku.
-4.  Dostęp do dokumentacji: Aby zapoznać się z różnymi funkcjonalnościami Aspose.PDF, dobrze jest mieć dostęp do dokumentacji.[Aspose.PDF dla dokumentacji .NET](https://reference.aspose.com/pdf/net/) przydatne jako punkt odniesienia.
+4. Dostęp do dokumentacji: Aby zapoznać się z różnymi funkcjonalnościami Aspose.PDF, dobrze jest mieć dostęp do dokumentacji. [Aspose.PDF dla dokumentacji .NET](https://reference.aspose.com/pdf/net/) przydatne jako punkt odniesienia.
 
 Skoro już mamy za sobą wszystkie niezbędne formalności, możemy zabrać się do pracy!
 
 ## Importuj pakiety
 
-Po pierwsze, musisz zaimportować wymagane pakiety do swojej aplikacji C#. Umożliwi ci to dostęp do klas i metod udostępnianych przez bibliotekę Aspose.PDF. 
+Przede wszystkim musisz zaimportować wymagane pakiety do swojej aplikacji C#. Umożliwi ci to dostęp do klas i metod udostępnianych przez bibliotekę Aspose.PDF. 
 
 ### Utwórz nowy projekt
 
@@ -44,7 +46,7 @@ Otwórz Visual Studio i utwórz nowy projekt aplikacji konsoli. Nadaj mu odpowie
 
 ### Importuj wymagane przestrzenie nazw
 
- W twoim`Program.cs`pliku, zacznij od dodania na górze następującej dyrektywy:
+W twoim `Program.cs` pliku, zacznij od dodania na górze następującej dyrektywy:
 
 ```csharp
 using System;
@@ -64,10 +66,10 @@ Zaczniemy od utworzenia dokumentu PDF i zdefiniowania zawartości HTML, która b
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Ścieżka do dokumentu wyjściowego.
+// Ścieżka do dokumentu wyjściowego.  
 string outFile = dataDir + "AddHTMLOrderedListIntoDocuments_out.pdf";
 
-// Utwórz obiekt dokumentu
+// Utwórz obiekt dokumentu  
 Document doc = new Document();
 ```
 
@@ -75,10 +77,10 @@ W tym kroku ustawiamy ścieżki do plików, w których później chcemy zapisać
 
 ## Krok 2: Utwórz fragment HTML
 
- Następnie utworzymy`HtmlFragment` obiekt zawierający nasz kod HTML. Tutaj dodamy uporządkowaną listę wraz z tekstem.
+Następnie utworzymy `HtmlFragment` obiekt zawierający nasz kod HTML. Tutaj dodamy uporządkowaną listę wraz z tekstem.
 
 ```csharp
-// Utwórz obiekt HtmlFragment z odpowiadającym mu fragmentem HTML
+// Utwórz obiekt HtmlFragment z odpowiadającym mu fragmentem HTML  
 HtmlFragment htmlFragment = new HtmlFragment("<body style='line-height: 100px;'><ul><li>First</li><li>Second</li><li>Third</li><li>Fourth</li><li>Fifth</li></ul>Text after the list.<br/>Next line<br/>Last line</body>");
 ```
 
@@ -89,7 +91,7 @@ Tutaj utworzyliśmy fragment HTML zawierający listę elementów. HTML jest prze
 Teraz musimy dodać stronę do naszego dokumentu PDF. Każdy plik PDF musi mieć strony, a my nie jesteśmy wyjątkiem!
 
 ```csharp
-//Dodaj stronę do kolekcji stron
+// Dodaj stronę do kolekcji stron  
 Page page = doc.Pages.Add();
 ```
 
@@ -100,7 +102,7 @@ Ta linia kodu dodaje nową stronę do naszego dokumentu. Pamiętaj, że każda s
 Tutaj dzieje się magia! Teraz dodamy nasz wcześniej zdefiniowany fragment HTML do strony, którą właśnie utworzyliśmy.
 
 ```csharp
-// Dodaj fragment HTML do strony
+// Dodaj fragment HTML do strony  
 page.Paragraphs.Add(htmlFragment);
 ```
 
@@ -111,11 +113,11 @@ Dodając fragment HTML do akapitów naszej strony, w zasadzie mówimy plikowi PD
 Gdy już cała treść jest gotowa, ostatnim krokiem jest zapisanie dokumentu na dysku.
 
 ```csharp
-// Zapisz wynikowy plik PDF
+// Zapisz wynikowy plik PDF  
 doc.Save(outFile);
 ```
 
- Tutaj nazywamy`Save` metodę na naszym obiekcie dokumentu, określając ścieżkę do pliku wyjściowego, w którym będzie umieszczony nasz nowy plik PDF.
+Tutaj nazywamy `Save` metodę na naszym obiekcie dokumentu, określając ścieżkę do pliku wyjściowego, w którym będzie umieszczony nasz nowy plik PDF.
 
 ## Wniosek
 
@@ -136,10 +138,12 @@ Oczywiście! Możesz stosować style i klasy CSS, aby kontrolować wizualizację
 Nie, po zainstalowaniu biblioteka działa w trybie offline.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
- Możesz szukać wsparcia i komunikować się z innymi użytkownikami na[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+Możesz szukać wsparcia i komunikować się z innymi użytkownikami na [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

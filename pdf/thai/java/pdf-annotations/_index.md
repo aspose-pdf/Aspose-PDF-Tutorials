@@ -1,14 +1,16 @@
 ---
-title: คำอธิบาย PDF
-linktitle: คำอธิบาย PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: สำรวจบทช่วยสอนการใส่คำอธิบายประกอบ PDF ด้วย Aspose.PDF สำหรับ Java เรียนรู้การเพิ่มการโต้ตอบ ความคิดเห็น และอื่นๆ ลงใน PDF ของคุณ
-weight: 10
-url: /th/java/pdf-annotations/
+"description": "สำรวจบทช่วยสอนการใส่คำอธิบายประกอบ PDF ด้วย Aspose.PDF สำหรับ Java เรียนรู้การเพิ่มการโต้ตอบ ความคิดเห็น และอื่นๆ ลงใน PDF ของคุณ"
+"linktitle": "คำอธิบาย PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "คำอธิบาย PDF"
+"url": "/th/java/pdf-annotations/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # คำอธิบาย PDF
@@ -39,9 +41,11 @@ url: /th/java/pdf-annotations/
 ค้นพบพลังของการแก้ไขเนื้อหาที่ละเอียดอ่อนใน PDF ด้วย Aspose.PDF สำหรับ Java
 ### [ขีดฆ่าข้อความโดยใช้คำอธิบายประกอบ](./strike-through-text-using-annotations/)
 เรียนรู้วิธีเพิ่มคำอธิบายข้อความแบบขีดฆ่าลงในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการเอกสารอย่างแม่นยำ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

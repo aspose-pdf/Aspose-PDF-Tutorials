@@ -1,14 +1,16 @@
 ---
-title: عنصر جدول الأنماط في PDF باستخدام Java
-linktitle: عنصر جدول الأنماط في PDF باستخدام Java
-second_title: واجهة برمجة تطبيقات معالجة PDF الخاصة بـ Aspose.PDF Java
-description: تعلم كيفية تنسيق الجداول في مستندات PDF باستخدام Java مع Aspose.PDF. قم بإنشاء جداول جذابة بصريًا وتخصيص مظهرها لملفات PDF الاحترافية.
-weight: 14
-url: /ar/java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/
+"description": "تعلم تنسيق الجداول في مستندات PDF باستخدام جافا مع Aspose.PDF. أنشئ جداول جذابة بصريًا وخصّص مظهرها لملفات PDF احترافية."
+"linktitle": "عنصر جدول الأنماط في PDF باستخدام Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PDF في Java لـ Aspose.PDF"
+"title": "عنصر جدول الأنماط في PDF باستخدام Java"
+"url": "/ar/java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # عنصر جدول الأنماط في PDF باستخدام Java
@@ -16,19 +18,19 @@ url: /ar/java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/
 
 ## مقدمة
 
-تشكل الجداول جزءًا أساسيًا من العديد من مستندات PDF، ويمكن أن يؤدي تصميمها إلى تحسين العرض المرئي لبياناتك بشكل كبير. في هذه المقالة، سنرشدك خلال عملية تصميم عناصر الجدول في ملفات PDF باستخدام Java وAspose.PDF.
+تُعد الجداول جزءًا أساسيًا من العديد من مستندات PDF، ويُمكن لتصميمها أن يُحسّن بشكل كبير العرض المرئي لبياناتك. في هذه المقالة، سنرشدك خلال عملية تصميم عناصر الجداول في ملفات PDF باستخدام Java وAspose.PDF.
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، تأكد من أن لديك ما يلي:
 
 - بيئة تطوير جافا
-- Aspose.PDF مكتبة لجافا
-- المعرفة الأساسية لبرمجة جافا
+- مكتبة Aspose.PDF لـ Java
+- المعرفة الأساسية ببرمجة جافا
 
 ## إعداد Aspose.PDF لـ Java
 
- للبدء، قم بتنزيل مكتبة Aspose.PDF لـ Java من موقع الويب:[تنزيل Aspose.PDF لـ Java](https://releases.aspose.com/pdf/java/)
+للبدء، قم بتنزيل مكتبة Aspose.PDF لـ Java من موقع الويب: [تنزيل Aspose.PDF لـ Java](https://releases.aspose.com/pdf/java/)
 
 بمجرد تنزيل المكتبة، قم بتضمينها في مشروع Java الخاص بك.
 
@@ -43,7 +45,7 @@ Document pdfDocument = new Document();
 
 ## إضافة جدول
 
-الآن، لنقم بإضافة جدول إلى مستند PDF الخاص بنا. يمكننا تحديد عدد الصفوف والأعمدة للجدول.
+الآن، لنُضِف جدولًا إلى مستند PDF. يُمكننا تحديد عدد الصفوف والأعمدة للجدول.
 
 ```java
 // كود جافا لإضافة جدول
@@ -52,12 +54,12 @@ table.setColumnWidths("100");
 pdfDocument.getPages().get_Item(1).getParagraphs().add(table);
 ```
 
-## تصميم الطاولة
+## تصميم الجدول
 
-لتصميم الجدول، يمكنك تخصيص جوانب مختلفة مثل لون خلفية الخلية وخط النص والمزيد.
+لتخصيص الجدول، يمكنك تخصيص جوانب مختلفة مثل لون خلفية الخلية وخط النص والمزيد.
 
 ```java
-//كود جافا لتصميم الجدول
+// كود جافا لتصميم الجدول
 table.setDefaultCellBorder(new BorderInfo(BorderSide.All, 1F));
 table.setDefaultCellPadding(new MarginInfo(5, 5, 5, 5));
 table.setDefaultCellTextState(new TextState());
@@ -65,7 +67,7 @@ table.setDefaultCellTextState(new TextState());
 
 ## إضافة البيانات إلى الجدول
 
-دعنا نضيف بعض البيانات إلى الجدول. يمكنك ملء الخلايا بالمحتوى الذي تريده.
+لنُضِف بعض البيانات إلى الجدول. يُمكنك ملء الخلايا بالمحتوى الذي تُريده.
 
 ```java
 // كود جافا لإضافة البيانات إلى الجدول
@@ -103,7 +105,7 @@ cell.setAlignment(HorizontalAlignment.Center);
 
 ## إضافة الرؤوس والتذييلات
 
-تعد الرؤوس والتذييلات ضرورية لمستندات PDF. يمكنك إضافتها إلى الجدول حسب الحاجة.
+الرؤوس والتذييلات أساسية لمستندات PDF. يمكنك إضافتها إلى جدولك عند الحاجة.
 
 ```java
 // كود جافا لإضافة الرؤوس والتذييلات
@@ -113,7 +115,7 @@ table.setTop(header);
 
 ## حفظ مستند PDF
 
-وأخيرًا، قم بحفظ مستند PDF في الموقع المطلوب.
+وأخيرًا، احفظ مستند PDF في الموقع المطلوب.
 
 ```java
 // كود جافا لحفظ مستند PDF
@@ -122,32 +124,34 @@ pdfDocument.save("styled_table_example.pdf");
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، استكشفنا كيفية تنسيق عناصر الجدول في مستندات PDF باستخدام Java مع Aspose.PDF. لقد تعلمت كيفية إنشاء الجداول وتخصيص مظهرها وإضافة البيانات وتنسيق محتوى الخلايا. باستخدام هذه المعرفة، يمكنك إنشاء ملفات PDF ذات مظهر احترافي مع جداول مصممة لتطبيقات مختلفة.
+في هذا البرنامج التعليمي، استكشفنا كيفية تنسيق عناصر الجداول في مستندات PDF باستخدام جافا مع Aspose.PDF. تعلمت إنشاء الجداول، وتخصيص مظهرها، وإضافة البيانات، وتنسيق محتوى الخلايا. بفضل هذه المعرفة، يمكنك إنشاء ملفات PDF احترافية بجداول مصممة خصيصًا لتطبيقات متنوعة.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تغيير لون خلفية الجدول؟
 
- لتغيير لون خلفية الجدول، يمكنك استخدام`table.setBackgroundColor(Color)` الطريقة وتحديد اللون المطلوب.
+لتغيير لون خلفية الجدول، يمكنك استخدام `table.setBackgroundColor(Color)` الطريقة وتحديد اللون المطلوب.
 
 ### هل يمكنني دمج الخلايا في جدول؟
 
- نعم، يمكنك دمج الخلايا في جدول باستخدام`Cell` الصف`setColSpan(int)` و`setRowSpan(int)` طُرق.
+نعم، يمكنك دمج الخلايا في جدول باستخدام `Cell` الصف `setColSpan(int)` و `setRowSpan(int)` طُرق.
 
 ### كيف أضيف حدودًا إلى خلية معينة؟
 
- لإضافة حدود إلى خلية معينة، يمكنك استخدام`Cell` الصف`setBorder` الطريقة وتحديد خصائص الحدود.
+لإضافة حدود إلى خلية معينة، يمكنك استخدام `Cell` الصف `setBorder` الطريقة وتحديد خصائص الحدود.
 
-### هل Aspose.PDF for Java متوافق مع بيئات التطوير المتكاملة Java IDE المختلفة؟
+### هل Aspose.PDF لـ Java متوافق مع بيئات التطوير المتكاملة Java IDE المختلفة؟
 
-نعم، يعد Aspose.PDF for Java متوافقًا مع بيئات التطوير المتكاملة (IDE) الخاصة بـ Java المختلفة، بما في ذلك Eclipse، وIntelliJ IDEA، وNetBeans.
+نعم، يعد Aspose.PDF for Java متوافقًا مع بيئات التطوير المتكاملة Java (IDEs) المتنوعة، بما في ذلك Eclipse، وIntelliJ IDEA، وNetBeans.
 
 ### أين يمكنني العثور على مزيد من الوثائق الخاصة بـ Aspose.PDF لـ Java؟
 
- يمكنك العثور على وثائق مفصلة ومراجع API لـ Aspose.PDF لـ Java على[توثيق Aspose.PDF لـ Java](https://reference.aspose.com/pdf/java/).
+يمكنك العثور على وثائق مفصلة ومراجع API لـ Aspose.PDF لـ Java على [توثيق Aspose.PDF لـ Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

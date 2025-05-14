@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating and Styling PDF Tables with Aspose.PDF for Java: A Comprehensive Guide
 
@@ -219,6 +221,9 @@ A4: Use methods like `setColSpan()` and `setBackgroundColor()` to style individu
 A5: Yes, you can insert images into table cells using Aspose.PDF's API. Refer to their documentation for detailed instructions on adding images.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

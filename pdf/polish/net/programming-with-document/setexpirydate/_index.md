@@ -1,28 +1,30 @@
 ---
-title: Ustaw datę wygaśnięcia w pliku PDF
-linktitle: Ustaw datę wygaśnięcia w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak ustawić datę wygaśnięcia w plikach PDF za pomocą Aspose.PDF dla platformy .NET. Zwiększ bezpieczeństwo dokumentów dzięki temu przewodnikowi krok po kroku.
-weight: 300
-url: /pl/net/programming-with-document/setexpirydate/
+"description": "Dowiedz się, jak ustawić datę wygaśnięcia w plikach PDF za pomocą Aspose.PDF dla platformy .NET. Zwiększ bezpieczeństwo dokumentów dzięki temu przewodnikowi krok po kroku."
+"linktitle": "Ustaw datę wygaśnięcia w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ustaw datę wygaśnięcia w pliku PDF"
+"url": "/pl/net/programming-with-document/setexpirydate/"
+"weight": 300
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw datę wygaśnięcia w pliku PDF
 
 ## Wstęp
 
-dzisiejszej erze cyfrowej zarządzanie dokumentami i ich zabezpieczanie jest ważniejsze niż kiedykolwiek. Wyobraź sobie wysłanie pliku PDF, który automatycznie staje się niedostępny po upływie określonej daty. Brzmi jak magia, prawda? Cóż, dzięki Aspose.PDF dla .NET możesz łatwo ustawić datę wygaśnięcia dla swoich plików PDF. Ta funkcja jest szczególnie przydatna w przypadku poufnych dokumentów, które muszą zostać ograniczone po upływie określonego czasu. W tym samouczku przeprowadzimy Cię przez proces ustawiania daty wygaśnięcia w pliku PDF krok po kroku. Więc chwyć swój kapelusz kodera i zanurzmy się!
+W dzisiejszej erze cyfrowej zarządzanie dokumentami i ich zabezpieczanie jest ważniejsze niż kiedykolwiek. Wyobraź sobie wysłanie pliku PDF, który automatycznie staje się niedostępny po upływie określonej daty. Brzmi jak magia, prawda? Cóż, dzięki Aspose.PDF dla .NET możesz łatwo ustawić datę wygaśnięcia dla swoich plików PDF. Ta funkcja jest szczególnie przydatna w przypadku poufnych dokumentów, które muszą zostać ograniczone po upływie określonego czasu. W tym samouczku przeprowadzimy Cię przez proces ustawiania daty wygaśnięcia w pliku PDF krok po kroku. Więc chwyć swój kapelusz kodera i zanurzmy się!
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
-1. Środowisko programistyczne: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Może to być Visual Studio lub inne IDE obsługujące .NET.
-2.  Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Środowisko programistyczne: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Może to być Visual Studio lub dowolne inne IDE obsługujące .NET.
+2. Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o C#: Ten samouczek zakłada, że posiadasz podstawową wiedzę na temat programowania w C#. Jeśli jesteś nowy w C#, nie martw się! Utrzymamy to w prostocie i przejrzystości.
 
 ## Importuj pakiety
@@ -47,17 +49,17 @@ Po pierwsze, musisz określić ścieżkę do katalogu dokumentów. To tutaj zost
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której chcesz zapisać plik PDF. To tak, jakbyś powiedział swojemu programowi: „Hej, tutaj trzymam swoje pliki!”
+Zastępować `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, w której chcesz zapisać plik PDF. To tak, jakbyś powiedział swojemu programowi: „Hej, tutaj trzymam swoje pliki!”
 
 ## Krok 2: Utwórz obiekt dokumentu
 
- Następnie należy utworzyć nową instancję`Document` klasa. To jest twoje płótno, na którym utworzysz swój plik PDF.
+Następnie należy utworzyć nową instancję `Document` klasa. To jest twoje płótno, na którym utworzysz swój plik PDF.
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
- Pomyśl o`Document` obiekt jako pusta kartka papieru. Możesz dodać do niego treść, jak tylko chcesz!
+Pomyśl o `Document` obiekt jako pusta kartka papieru. Możesz dodać do niego treść, jak tylko chcesz!
 
 ## Krok 3: Dodaj stronę do pliku PDF
 
@@ -130,19 +132,21 @@ I masz! Udało Ci się utworzyć plik PDF z datą wygaśnięcia przy użyciu Asp
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów PDF w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, możesz użyć bezpłatnej wersji próbnej Aspose.PDF. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, możesz użyć bezpłatnej wersji próbnej Aspose.PDF. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Jak mogę zakupić Aspose.PDF?
-Możesz kupić Aspose.PDF odwiedzając stronę[strona zakupu](https://purchase.aspose.com/buy).
+Możesz kupić Aspose.PDF odwiedzając stronę [strona zakupu](https://purchase.aspose.com/buy).
 
 ### A co jeśli będę potrzebować wsparcia?
-Jeśli masz jakieś pytania lub potrzebujesz pomocy, możesz odwiedzić stronę[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+Jeśli masz jakieś pytania lub potrzebujesz pomocy, możesz odwiedzić stronę [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Czy mogę otrzymać tymczasową licencję na Aspose.PDF?
- Tak, możesz poprosić o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, możesz poprosić o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

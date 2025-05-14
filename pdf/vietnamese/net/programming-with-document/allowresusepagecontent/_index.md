@@ -1,14 +1,16 @@
 ---
-title: Cho phép sử dụng lại nội dung trang
-linktitle: Cho phép sử dụng lại nội dung trang
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tối ưu hóa PDF bằng cách bật tính năng "Cho phép sử dụng lại nội dung trang" bằng Aspose.PDF cho .NET. Giảm kích thước tệp và cải thiện hiệu suất.
-weight: 50
-url: /vi/net/programming-with-document/allowresusepagecontent/
+"description": "Tìm hiểu cách tối ưu hóa PDF bằng cách bật tính năng \"Cho phép sử dụng lại nội dung trang\" bằng Aspose.PDF cho .NET. Giảm kích thước tệp và cải thiện hiệu suất."
+"linktitle": "Cho phép sử dụng lại nội dung trang"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Cho phép sử dụng lại nội dung trang"
+"url": "/vi/net/programming-with-document/allowresusepagecontent/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cho phép sử dụng lại nội dung trang
@@ -22,7 +24,7 @@ Trong thế giới kỹ thuật số ngày nay, PDF có ở khắp mọi nơi. C
 Trước khi đi sâu vào chi tiết về cách tối ưu hóa tệp PDF, bạn cần phải chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết và chạy mã .NET của mình.
-2.  Aspose.PDF cho .NET: Bạn có thể tải xuống thư viện từ[Trang web Aspose](https://releases.aspose.com/pdf/net/) . Nếu bạn muốn dùng thử trước, bạn cũng có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/).
+2. Aspose.PDF cho .NET: Bạn có thể tải xuống thư viện từ [Trang web Aspose](https://releases.aspose.com/pdf/net/)Nếu bạn muốn dùng thử trước, bạn cũng có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã chúng ta sẽ sử dụng.
 
 ## Nhập gói
@@ -36,7 +38,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Bây giờ bạn đã thiết lập mọi thứ, hãy cùng bắt đầu quá trình tối ưu hóa!
+Bây giờ bạn đã thiết lập xong mọi thứ, hãy cùng bắt đầu quá trình tối ưu hóa!
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
@@ -49,13 +51,13 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải Tài liệu PDF
 
- Tiếp theo, bạn sẽ tải tài liệu PDF mà bạn muốn tối ưu hóa. Điều này được thực hiện bằng cách sử dụng`Document` lớp từ thư viện Aspose.PDF.
+Tiếp theo, bạn sẽ tải tài liệu PDF mà bạn muốn tối ưu hóa. Điều này được thực hiện bằng cách sử dụng `Document` lớp từ thư viện Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
-## Bước 3: Thiết lập tùy chọn tối ưu hóa
+## Bước 3: Thiết lập Tùy chọn Tối ưu hóa
 
 Bây giờ là lúc thiết lập các tùy chọn tối ưu hóa. Trong trường hợp này, chúng tôi muốn cho phép sử dụng lại nội dung trang, điều này có thể làm giảm đáng kể kích thước tệp.
 
@@ -113,11 +115,13 @@ Bạn có thể cài đặt nó thông qua NuGet Package Manager trong Visual St
 ### Lợi ích của việc tối ưu hóa tệp PDF là gì?
 Việc tối ưu hóa các tệp PDF sẽ làm giảm kích thước của tệp, giúp chia sẻ và lưu trữ dễ dàng hơn, đồng thời vẫn đảm bảo chất lượng.
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

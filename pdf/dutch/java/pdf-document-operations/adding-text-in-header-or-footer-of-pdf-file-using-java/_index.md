@@ -1,33 +1,35 @@
 ---
-title: Tekst toevoegen aan kop- of voettekst van PDF-bestand met behulp van Java
-linktitle: Tekst toevoegen aan kop- of voettekst van PDF-bestand met behulp van Java
-second_title: Aspose.PDF Java PDF-verwerkings-API
-description: Leer hoe u PDF-documenten kunt verbeteren door tekst toe te voegen aan de kop- of voettekst met behulp van Java. Bekijk stapsgewijze instructies met Aspose.PDF voor Java.
-weight: 14
-url: /nl/java/pdf-document-operations/adding-text-in-header-or-footer-of-pdf-file-using-java/
+"description": "Leer hoe u PDF-documenten kunt verbeteren door tekst toe te voegen aan de kop- of voettekst met behulp van Java. Bekijk stapsgewijze instructies met Aspose.PDF voor Java."
+"linktitle": "Tekst toevoegen aan de kop- of voettekst van een PDF-bestand met behulp van Java"
+"second_title": "Aspose.PDF Java PDF-verwerkings-API"
+"title": "Tekst toevoegen aan de kop- of voettekst van een PDF-bestand met behulp van Java"
+"url": "/nl/java/pdf-document-operations/adding-text-in-header-or-footer-of-pdf-file-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tekst toevoegen aan kop- of voettekst van PDF-bestand met behulp van Java
+# Tekst toevoegen aan de kop- of voettekst van een PDF-bestand met behulp van Java
 
 
 ## Inleiding tot het toevoegen van tekst in de kop- of voettekst van een PDF-bestand met behulp van Java
 
-In deze uitgebreide gids gaan we onderzoeken hoe u tekst toevoegt aan de header of footer van een PDF-bestand met behulp van Java. Aspose.PDF voor Java biedt een robuuste API voor het werken met PDF-documenten, waardoor u eenvoudig headers en footers kunt aanpassen aan uw specifieke vereisten.
+In deze uitgebreide handleiding leggen we uit hoe je met Java tekst toevoegt aan de kop- of voettekst van een PDF-bestand. Aspose.PDF voor Java biedt een robuuste API voor het werken met PDF-documenten, waardoor je kop- en voetteksten eenvoudig kunt aanpassen aan je specifieke wensen.
 
 ## Vereisten
 
 Voordat we met de implementatie beginnen, moet u ervoor zorgen dat de volgende vereisten aanwezig zijn:
 
 - Java Development Kit (JDK) op uw systeem geïnstalleerd.
--  Aspose.PDF voor Java-bibliotheek. U kunt het downloaden van[hier](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF voor de Java-bibliotheek. U kunt het downloaden van [hier](https://releases.aspose.com/pdf/java/).
 
-## Stap 1: Maak een nieuw Java-project
+## Stap 1: Een nieuw Java-project maken
 
-Begin met het maken van een nieuw Java-project in uw favoriete Integrated Development Environment (IDE). Zorg ervoor dat u de Aspose.PDF-bibliotheek opneemt in het classpath van uw project.
+Begin met het aanmaken van een nieuw Java-project in uw favoriete Integrated Development Environment (IDE). Zorg ervoor dat u de Aspose.PDF-bibliotheek opneemt in het classpath van uw project.
 
 ## Stap 2: PDF-document initialiseren
 
@@ -43,7 +45,7 @@ In deze stap initialiseren we een nieuw PDF-document en maken we een pagina om i
 
 ## Stap 3: Tekst toevoegen aan kop- of voettekst
 
- Om tekst toe te voegen aan de kop- of voettekst van de PDF, kunt u de`TextStamp` klasse. Hier is een voorbeeld van hoe je tekst aan de header toevoegt:
+Om tekst toe te voegen aan de kop- of voettekst van de PDF, kunt u de `TextStamp` klasse. Hier is een voorbeeld van hoe je tekst aan de koptekst toevoegt:
 
 ```java
 // Een TextStamp-object maken
@@ -56,7 +58,7 @@ textStamp.setYIndent(20);
 page.addStamp(textStamp);
 ```
 
- U kunt de tekst, positie en andere eigenschappen van de`TextStamp` volgens uw vereisten. Om tekst aan de voettekst toe te voegen, volgt u een vergelijkbare aanpak met de juiste coördinaten.
+U kunt de tekst, positie en andere eigenschappen van de `TextStamp` naar uw wensen. Om tekst aan de voettekst toe te voegen, volgt u een vergelijkbare aanpak met de juiste coördinaten.
 
 ## Stap 4: Sla het PDF-document op
 
@@ -69,21 +71,21 @@ pdfDocument.save("output.pdf");
 
 ## Conclusie
 
-In deze handleiding hebben we geleerd hoe u tekst toevoegt aan de kop- of voettekst van een PDF-bestand met behulp van Java en Aspose.PDF voor Java. Met deze mogelijkheid kunt u uw PDF-documenten aanpassen om indien nodig belangrijke informatie in kop- en voetteksten op te nemen.
+In deze handleiding hebben we geleerd hoe je tekst toevoegt aan de kop- of voettekst van een PDF-bestand met behulp van Java en Aspose.PDF voor Java. Met deze functie kun je je PDF-documenten aanpassen en indien nodig belangrijke informatie in kop- en voetteksten opnemen.
 
 ## Veelgestelde vragen
 
 ### Hoe verander ik het lettertype van de koptekst?
 
- Om het lettertype van de koptekst te wijzigen, kunt u de`TextStamp.setFont()` methode en geef de gewenste lettertype-instellingen op.
+Om het lettertype van de koptekst te wijzigen, kunt u de `TextStamp.setFont()` en geef de gewenste lettertype-instellingen op.
 
-### Kan ik afbeeldingen toevoegen aan de kop- of voettekst in plaats van tekst?
+### Kan ik afbeeldingen in plaats van tekst toevoegen aan de kop- of voettekst?
 
- Ja, u kunt afbeeldingen toevoegen aan de kop- of voettekst met behulp van de`ImageStamp` klasse geleverd door Aspose.PDF voor Java.
+Ja, u kunt afbeeldingen toevoegen aan de kop- of voettekst met behulp van de `ImageStamp` klasse geleverd door Aspose.PDF voor Java.
 
 ### Is het mogelijk om verschillende kop- en voetteksten op verschillende pagina's te gebruiken?
 
- Ja, u kunt verschillende kop- en voetteksten op verschillende pagina's hebben door de`TextStamp` of`ImageStamp` objecten individueel voor elke pagina.
+Ja, u kunt verschillende kop- en voetteksten op verschillende pagina's hebben door de `TextStamp` of `ImageStamp` objecten individueel voor elke pagina.
 
 ### Kan ik dynamische inhoud, zoals paginanummers, toevoegen aan de kop- of voettekst?
 
@@ -91,10 +93,12 @@ Absoluut! Met Aspose.PDF voor Java kunt u dynamische inhoud, zoals paginanummers
 
 ### Waar kan ik meer informatie en voorbeelden vinden voor Aspose.PDF voor Java?
 
- U kunt de Aspose.PDF voor Java-documentatie bekijken op[hier](https://reference.aspose.com/pdf/java/) voor diepgaande informatie en codevoorbeelden.
+U kunt de Aspose.PDF voor Java-documentatie bekijken op [hier](https://reference.aspose.com/pdf/java/) voor diepgaande informatie en codevoorbeelden.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

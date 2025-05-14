@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Accessible Tagged Tables in PDFs Using Aspose.PDF for Java
 
@@ -236,7 +238,11 @@ document.save("AccessibleTaggedTable.pdf");
 ## Conclusion
 
 By following this tutorial, you have learned how to create accessible tagged tables in PDFs using Aspose.PDF for Java. This process not only enhances the usability of your documents but also ensures compliance with accessibility standards.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

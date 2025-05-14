@@ -1,28 +1,30 @@
 ---
-title: PDF Dosyasında Metin Parçasını Kullanarak Metni Döndürme
-linktitle: PDF Dosyasında Metin Parçasını Kullanarak Metni Döndürme
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyalarındaki metni adım adım bir kılavuzla nasıl döndüreceğinizi öğrenin. Konumlandırmadan döndürmeye kadar metin işleme tekniklerini keşfedin.
-weight: 390
-url: /tr/net/programming-with-text/rotate-text-using-text-fragment/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyalarındaki metni adım adım bir kılavuzla nasıl döndüreceğinizi öğrenin. Konumlandırmadan döndürmeye kadar metin işleme tekniklerini keşfedin."
+"linktitle": "PDF Dosyasında Metin Parçasını Kullanarak Metni Döndürme"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Metin Parçasını Kullanarak Metni Döndürme"
+"url": "/tr/net/programming-with-text/rotate-text-using-text-fragment/"
+"weight": 390
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Metin Parçasını Kullanarak Metni Döndürme
 
 ## giriiş
 
-PDF'ler oluşturmak bir şeydir, ancak bunları belirli gereksinimlere uyacak şekilde düzenlemek? Gerçek sihir burada gerçekleşir! Bir PDF'deki metnin nasıl döndürüleceğini hiç merak ettiniz mi? İster raporlar üretiyor olun ister özel tasarımlı bir belge oluşturuyor olun, metin parçalarını döndürmek PDF'lerinizi görsel olarak daha çekici hale getirebilir. Bu eğitimde, PDF belgelerinin sorunsuz bir şekilde işlenmesine olanak tanıyan güçlü bir kitaplık olan Aspose.PDF for .NET'i kullanarak metnin nasıl döndürüleceğini keşfedeceğiz.
+PDF'ler oluşturmak bir şeydir, ancak bunları belirli gereksinimlere uyacak şekilde düzenlemek? Gerçek sihir burada gerçekleşir! Bir PDF'deki metnin nasıl döndürüleceğini hiç merak ettiniz mi? İster raporlar üretiyor olun ister özel tasarımlı bir belge oluşturuyor olun, metin parçalarını döndürmek PDF'lerinizi görsel olarak daha çekici hale getirebilir. Bu eğitimde, PDF belgelerinin sorunsuz bir şekilde düzenlenmesine olanak tanıyan güçlü bir kitaplık olan Aspose.PDF for .NET'i kullanarak metnin nasıl döndürüleceğini inceleyeceğiz.
 
 ## Ön koşullar
 
 Koda geçmeden önce, ihtiyacınız olacak araçlara ve kurulumlara hızlıca bir göz atalım. Her şeyin hazır olmasını istersiniz, böylece zahmetsizce takip edebilirsiniz.
 
 ### .NET Kütüphanesi için Aspose.PDF
-Öncelikle, projenizde Aspose.PDF for .NET'in yüklü olması gerekir. Bu kütüphane, PDF dosyalarını programatik olarak oluşturmanıza, değiştirmenize ve yönetmenize yardımcı olacak özelliklerle doludur. Henüz indirmediyseniz, işte nereden edinebileceğiniz:
+Öncelikle projenizde Aspose.PDF for .NET'in yüklü olması gerekir. Bu kütüphane, PDF dosyalarını programatik olarak oluşturmanıza, değiştirmenize ve yönetmenize yardımcı olacak özelliklerle doludur. Henüz indirmediyseniz, işte nereden edinebileceğiniz:
 - [.NET için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/net/)
 
 Bu eğitim için kütüphanenin en son sürümünü kullandığınızdan emin olun.
@@ -56,7 +58,7 @@ using Aspose.Pdf.Facades;
 
 Her PDF düzenlemesi bir PDF belgesi oluşturmak veya yüklemekle başlar. Burada, Aspose.PDF kullanarak sıfırdan yeni bir PDF belgesi başlatacağız.
 
- Yeni bir şey yaratıyoruz`Document` PDF dosyasını temsil eden nesne. Başlangıçta, bu belge boştur.
+Yeni bir şey yaratıyoruz `Document` PDF dosyasını temsil eden nesne. Başlangıçta, bu belge boştur.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -112,7 +114,7 @@ textFragment2.TextState.Rotation = 45;
 ```
 
 Burada önemli değişiklik şudur:
-- TextState.Rotation: Bu özellik metin parçasının dönüş açısını ayarlar ve bu durumda 45 derecedir.
+- TextState.Rotation: Bu özellik, metin parçasının dönüş açısını ayarlar ve bu durumda 45 derecedir.
 
 ### Metin Parçasını 90 Derece Döndürme
 
@@ -160,10 +162,10 @@ PDF'deki metni döndürmek, belgelerinize profesyonel bir dokunuş katabilir, on
 ## SSS
 
 ### Metin parçalarını istediğim açıda döndürebilir miyim?
- Evet! Ayarlayabilirsiniz`TextState.Rotation` Metni gerektiği gibi döndürmek için herhangi bir dereceye (negatif açılar dahil) kadar özelliği kullanabilirsiniz.
+Evet! Ayarlayabilirsiniz `TextState.Rotation` Metni gerektiği gibi döndürmek için herhangi bir dereceye (negatif açılar dahil) kadar özelliği kullanabilirsiniz.
 
 ### Her metin parçası için farklı yazı tipleri kullanabilir miyim?
- Kesinlikle. Her metin parçasının yazı tipini kullanarak özelleştirebilirsiniz.`FontRepository.FindFont` ve uygulamak istediğiniz yazı tipini geçin.
+Kesinlikle. Her metin parçasının yazı tipini kullanarak özelleştirebilirsiniz. `FontRepository.FindFont` ve uygulamak istediğiniz yazı tipini geçin.
 
 ### Aspose.PDF çok sayfalı PDF'leri destekliyor mu?
 Evet, PDF belgenize birden fazla sayfa ekleyebilir ve her sayfayı bağımsız olarak düzenleyebilirsiniz.
@@ -173,9 +175,11 @@ Hayır, ihtiyacınız olduğu kadar çok metin parçası ekleyebilirsiniz. Sadec
 
 ### Metin parçalarını ekledikten sonra değiştirebilir miyim?
 Evet, bir metin parçası eklendikten sonra özelliklerini güncelleyebilir veya sayfadan kaldırabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

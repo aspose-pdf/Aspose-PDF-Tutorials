@@ -1,24 +1,26 @@
 ---
-title: Nombre de etiqueta personalizado para PDF mediante Java
-linktitle: Nombre de etiqueta personalizado para PDF mediante Java
-second_title: API de procesamiento de PDF de Java Aspose.PDF
-description: Aprenda a establecer nombres de etiquetas personalizados para documentos PDF usando Java con Aspose.PDF para Java.
-weight: 13
-url: /es/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/
+"description": "Aprenda a establecer nombres de etiquetas personalizados para documentos PDF usando Java con Aspose.PDF para Java."
+"linktitle": "Nombre de etiqueta personalizado para PDF mediante Java"
+"second_title": "API de procesamiento de PDF de Java Aspose.PDF"
+"title": "Nombre de etiqueta personalizado para PDF mediante Java"
+"url": "/es/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nombre de etiqueta personalizado para PDF mediante Java
 
 
-En esta guía paso a paso, le explicaremos el proceso de configuración de nombres de etiquetas personalizados para documentos PDF mediante Java con Aspose.PDF para Java. Los nombres de etiquetas personalizados ayudan a mejorar la accesibilidad de sus documentos PDF, haciéndolos más fáciles de usar para personas con discapacidades.
+En esta guía paso a paso, le guiaremos en el proceso de configurar nombres de etiquetas personalizados para documentos PDF usando Java con Aspose.PDF para Java. Los nombres de etiquetas personalizados ayudan a mejorar la accesibilidad de sus documentos PDF, haciéndolos más fáciles de usar para personas con discapacidades.
 
 ## Introducción
 
-Los documentos PDF suelen contener contenido complejo, como tablas, imágenes y texto. Para garantizar que todos los usuarios puedan acceder a estos documentos, es fundamental utilizar el etiquetado adecuado. Los nombres de etiquetas personalizados permiten definir nombres significativos y descriptivos para los elementos de un PDF, lo que facilita la interpretación del contenido por parte de los lectores de pantalla y otras tecnologías de asistencia.
+Los documentos PDF suelen contener contenido complejo, como tablas, imágenes y texto. Para garantizar que estos documentos sean accesibles para todos los usuarios, es fundamental usar un etiquetado adecuado. Los nombres de etiqueta personalizados permiten definir nombres significativos y descriptivos para los elementos del PDF, lo que facilita la interpretación del contenido por parte de lectores de pantalla y otras tecnologías de asistencia.
 
 ## Prerrequisitos
 
@@ -29,7 +31,7 @@ Antes de sumergirnos en el código, asegúrese de tener los siguientes requisito
 
 ## Paso 1: Crear un documento PDF
 
-Primero, necesitamos crear un documento PDF con el que trabajaremos. Puedes usar el siguiente código para crear un documento PDF simple usando Aspose.PDF para Java:
+Primero, necesitamos crear un documento PDF con el que trabajaremos. Puedes usar el siguiente código para crear un documento PDF simple con Aspose.PDF para Java:
 
 ```java
 // Importar las clases necesarias
@@ -41,7 +43,7 @@ Document pdfDocument = new Document();
 
 ## Paso 2: Agregar contenido al PDF
 
-Ahora, agreguemos algo de contenido a nuestro documento PDF. Para este ejemplo, agregaremos un encabezado y un párrafo:
+Ahora, agreguemos contenido a nuestro documento PDF. En este ejemplo, agregaremos un encabezado y un párrafo:
 
 ```java
 // Crear una página en el PDF
@@ -58,7 +60,7 @@ page.getParagraphs().add(paragraph);
 
 ## Paso 3: Definir nombres de etiquetas personalizados
 
- Para establecer nombres de etiquetas personalizados, deberá utilizar el`Tagged` Función proporcionada por Aspose.PDF. Aquí se explica cómo definir nombres de etiquetas personalizados para los elementos que agregamos:
+Para establecer nombres de etiquetas personalizados, deberá utilizar el `Tagged` Función proporcionada por Aspose.PDF. Aquí te explicamos cómo definir nombres de etiquetas personalizados para los elementos que hemos añadido:
 
 ```java
 // Habilitar la función Etiquetado
@@ -79,7 +81,7 @@ paragraph.setTagLanguage("en-US");
 paragraphElement.appendChild(new StructureText(paragraph));
 ```
 
-## Paso 4: Guarde el documento PDF
+## Paso 4: Guardar el documento PDF
 
 Por último, guardemos el documento PDF con nombres de etiquetas personalizados:
 
@@ -89,29 +91,31 @@ pdfDocument.save("CustomTagNames.pdf");
 
 ## Conclusión
 
-En este tutorial, aprendió a configurar nombres de etiquetas personalizados para documentos PDF mediante Java con Aspose.PDF para Java. Las etiquetas personalizadas mejoran la accesibilidad de sus archivos PDF, haciéndolos más inclusivos y fáciles de usar.
+En este tutorial, aprendiste a configurar nombres de etiquetas personalizados para documentos PDF usando Java con Aspose.PDF para Java. Las etiquetas personalizadas mejoran la accesibilidad de tus PDF, haciéndolos más inclusivos y fáciles de usar.
 
-Siéntete libre de explorar funciones más avanzadas y personalizar aún más tus archivos PDF con Aspose.PDF para Java. ¡Disfruta de la codificación!
+Explora funciones más avanzadas y personaliza aún más tus PDF con Aspose.PDF para Java. ¡Que disfrutes programando!
 
 ## Preguntas frecuentes
 
 ### 1. ¿Por qué debería utilizar nombres de etiquetas personalizados en archivos PDF?
-Los nombres de etiquetas personalizados mejoran la accesibilidad de los documentos PDF, haciéndolos más fáciles de navegar para los usuarios con discapacidades.
+Los nombres de etiquetas personalizados mejoran la accesibilidad de los documentos PDF, lo que hace que sea más fácil navegar por ellos para los usuarios con discapacidades.
 
 ### 2. ¿Puedo cambiar los nombres de etiquetas personalizadas después de crear un PDF?
-Sí, puede modificar los nombres de etiquetas personalizados en cualquier momento accediendo a los elementos de la estructura y actualizando las propiedades de las etiquetas.
+Sí, puede modificar los nombres de etiquetas personalizadas en cualquier momento accediendo a los elementos de la estructura y actualizando las propiedades de las etiquetas.
 
 ### 3. ¿Los nombres de etiquetas personalizados son específicos del idioma?
 Los nombres de etiquetas personalizados pueden ser específicos del idioma, lo que le permite brindar soporte de accesibilidad para diferentes idiomas.
 
 ### 4. ¿Cómo puedo probar la accesibilidad de mi PDF etiquetado?
-Puede utilizar herramientas de pruebas de accesibilidad y lectores de pantalla para evaluar la eficacia de sus nombres de etiquetas personalizados.
+Puede utilizar herramientas de prueba de accesibilidad y lectores de pantalla para evaluar la eficacia de sus nombres de etiquetas personalizados.
 
 ### 5. ¿Existen prácticas recomendadas para elegir nombres de etiquetas personalizados?
 Elija nombres de etiquetas que describan con precisión el contenido y siga las pautas de accesibilidad para lograr coherencia y claridad.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

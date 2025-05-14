@@ -1,14 +1,16 @@
 ---
-title: Manipuluj tabelą w pliku PDF
-linktitle: Manipuluj tabelą w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak manipulować tabelami w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z samouczka krok po kroku, który zawiera przykłady kodu i najlepsze praktyki.
-weight: 130
-url: /pl/net/programming-with-tables/manipulate-table/
+"description": "Dowiedz się, jak manipulować tabelami w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z samouczka krok po kroku, który zawiera przykłady kodu i najlepsze praktyki."
+"linktitle": "Manipuluj tabelą w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Manipuluj tabelą w pliku PDF"
+"url": "/pl/net/programming-with-tables/manipulate-table/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipuluj tabelą w pliku PDF
@@ -21,11 +23,11 @@ Jeśli pracujesz z dokumentami PDF w .NET i musisz manipulować tabelami, trafi�
 
 Zanim zaczniesz manipulować tabelami w pliku PDF za pomocą Aspose.PDF dla platformy .NET, musisz zadbać o kilka rzeczy:
 
-1.  Aspose.PDF dla biblioteki .NET – Będziesz potrzebować zainstalowanej biblioteki Aspose.PDF dla .NET. Możesz ją pobrać z[Strona wydań Aspose](https://releases.aspose.com/pdf/net/) lub zainstaluj go za pomocą Menedżera pakietów NuGet w programie Visual Studio.
+1. Aspose.PDF dla biblioteki .NET – Będziesz potrzebować zainstalowanej biblioteki Aspose.PDF dla .NET. Możesz ją pobrać z [Strona wydań Aspose](https://releases.aspose.com/pdf/net/) lub zainstaluj go za pomocą Menedżera pakietów NuGet w programie Visual Studio.
 2. Zainstalowany .NET Framework – Upewnij się, że w systemie zainstalowano .NET Framework.
 3. Przykładowy plik PDF – W tym samouczku użyjemy pliku PDF zawierającego tabelę. Możesz utworzyć własną lub użyć istniejącej.
 
- Aby otrzymać bezpłatną wersję próbną Aspose.PDF dla .NET, zapoznaj się z[ten link](https://releases.aspose.com/).
+Aby otrzymać bezpłatną wersję próbną Aspose.PDF dla .NET, zapoznaj się z [ten link](https://releases.aspose.com/).
 
 ## Importuj pakiety
 
@@ -53,22 +55,22 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Tutaj określiliśmy katalog pliku PDF i załadowaliśmy go do`pdfDocument` obiekt. Ten dokument zostanie zmanipulowany później w procesie.
+Tutaj określiliśmy katalog pliku PDF i załadowaliśmy go do `pdfDocument` obiekt. Ten dokument zostanie zmanipulowany później w procesie.
 
 ## Krok 2: Utwórz obiekt TableAbsorber
 
- Aby pracować z tabelami w pliku PDF, należy utworzyć wystąpienie`TableAbsorber`Ta klasa pomaga wchłonąć (lub odzyskać) tabele ze strony w dokumencie PDF.
+Aby pracować z tabelami w pliku PDF, należy utworzyć wystąpienie `TableAbsorber`Ta klasa pomaga wchłonąć (lub odzyskać) tabele ze strony w dokumencie PDF.
 
 ```csharp
 // Utwórz obiekt TableAbsorber, aby znaleźć tabele
 TableAbsorber absorber = new TableAbsorber();
 ```
 
- Pomyśl o`TableAbsorber`jako odkurzacz do tabel — wciąga wszystkie tabele ze strony, dzięki czemu możesz z nimi pracować!
+Pomyśl o `TableAbsorber` jako odkurzacz do tabel — wciąga wszystkie tabele ze strony, dzięki czemu możesz z nimi pracować!
 
 ## Krok 3: Odwiedź konkretną stronę
 
- Teraz, gdy masz`TableAbsorber` obiekt gotowy, musisz mu powiedzieć, którą stronę pliku PDF analizować pod kątem tabel. Tutaj określamy pierwszą stronę (`Pages[1]`).
+Teraz, gdy masz `TableAbsorber` obiekt gotowy, musisz powiedzieć mu, którą stronę PDF-a analizować pod kątem tabel. Tutaj określamy pierwszą stronę (`Pages[1]`).
 
 ```csharp
 // Odwiedź pierwszą stronę z absorberem
@@ -79,7 +81,7 @@ Ten krok zasadniczo nakazuje absorberowi spojrzeć na pierwszą stronę i znale�
 
 ## Krok 4: Dostęp do pierwszej tabeli i jej komórek
 
- Po wchłonięciu tabel ze strony można uzyskać do nich dostęp za pomocą`TableList` właściwość absorbera. Następnie przejdź przez wiersze, komórki i fragmenty tekstu w tabeli.
+Po wchłonięciu tabel ze strony można uzyskać do nich dostęp za pomocą `TableList` właściwość absorbera. Następnie przejdź przez wiersze, komórki i fragmenty tekstu w tabeli.
 
 ```csharp
 // Uzyskaj dostęp do pierwszej tabeli na stronie, pierwszej komórki i fragmentów tekstu w niej zawartych
@@ -109,11 +111,11 @@ dataDir = dataDir + "ManipulateTable_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Tutaj zapisujemy zmodyfikowany dokument jako`ManipulateTable_out.pdf`Możesz nadać jej dowolną nazwę.
+Tutaj zapisujemy zmodyfikowany dokument jako `ManipulateTable_out.pdf`Możesz nadać mu dowolną nazwę.
 
 ## Krok 7: Obsługa wyjątków (opcjonalne, ale zalecane)
 
-Podczas pracy nad manipulacjami na plikach zawsze dobrym pomysłem jest umieszczenie kodu w bloku try-catch, aby sprawnie obsłużyć potencjalne błędy.
+Podczas pracy nad manipulacjami plikami zawsze dobrym pomysłem jest umieszczenie kodu w bloku try-catch, aby sprawnie obsłużyć potencjalne błędy.
 
 ```csharp
 try
@@ -135,22 +137,24 @@ masz to! Manipulowanie tabelami w pliku PDF przy użyciu Aspose.PDF dla .NET jes
 ## Najczęściej zadawane pytania
 
 ### Czy mogę modyfikować wiele tabel w pliku PDF jednocześnie?  
- Tak! Możesz przejść przez`TableList` własność`TableAbsorber` obiekt umożliwiający manipulowanie wieloma tabelami w tym samym dokumencie PDF.
+Tak! Możesz przejść przez `TableList` własność `TableAbsorber` obiekt umożliwiający manipulowanie wieloma tabelami w tym samym dokumencie PDF.
 
 ### A co jeśli plik PDF nie zawiera żadnych tabel?  
- Jeżeli na analizowanej stronie nie znaleziono żadnych tabel,`TableList` właściwość będzie pusta. Zawsze sprawdzaj, czy istnieją jakieś tabele, zanim spróbujesz je zmodyfikować.
+Jeżeli na analizowanej stronie nie znaleziono żadnych tabel, `TableList` właściwość będzie pusta. Zawsze sprawdzaj, czy istnieją jakieś tabele, zanim spróbujesz je zmodyfikować.
 
 ### Czy mogę zmienić styl tabel po zmodyfikowaniu tekstu?  
 Oczywiście. Aspose.PDF pozwala zmienić styl tabeli, taki jak czcionka, kolor i tło, poprzez dostęp do właściwości tabeli.
 
 ### Czy Aspose.PDF dla .NET jest darmowy?  
- Aspose.PDF nie jest darmowy, ale możesz go wypróbować za pomocą[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub zdobądź[bezpłatny okres próbny](https://releases.aspose.com/).
+Aspose.PDF nie jest darmowy, ale możesz go wypróbować za pomocą [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub zdobądź [bezpłatny okres próbny](https://releases.aspose.com/).
 
 ### Jak zainstalować Aspose.PDF dla platformy .NET?  
- Możesz łatwo zainstalować Aspose.PDF za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać go ze strony[Strona pobierania pliku PDF Aspose](https://releases.aspose.com/pdf/net/).
+Możesz łatwo zainstalować Aspose.PDF za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać go ze strony [Strona pobierania pliku PDF Aspose](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'de Yapı Elemanı Ağacı Oluşturun
-linktitle: Java kullanarak PDF'de Yapı Elemanı Ağacı Oluşturun
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF kullanarak Java'da Yapı Eleman Ağacı içeren erişilebilir bir PDF'nin nasıl oluşturulacağını öğrenin ve tüm kullanıcılar için kapsayıcılığı garantileyin.
-weight: 11
-url: /tr/java/pdf-tags-and-structure/create-structure-element-tree-in-pdf-using-java/
+"description": "Aspose.PDF kullanarak Java'da Yapı Eleman Ağacı içeren erişilebilir bir PDF'nin nasıl oluşturulacağını öğrenin ve tüm kullanıcılar için kapsayıcılığı garantileyin."
+"linktitle": "Java kullanarak PDF'de Yapı Elemanı Ağacı Oluşturun"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'de Yapı Elemanı Ağacı Oluşturun"
+"url": "/tr/java/pdf-tags-and-structure/create-structure-element-tree-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'de Yapı Elemanı Ağacı Oluşturun
@@ -17,7 +19,7 @@ Bu eğitimde, Java için Aspose.PDF kullanarak bir PDF belgesinde Yapı Elemanı
 
 ## giriiş
 
-PDF belgeleri genellikle organize edilmesi ve yapılandırılmış bir şekilde sunulması gereken karmaşık içerikler içerir. Bu, erişilebilirlik ve görme engelliler de dahil olmak üzere tüm kullanıcıların belgenin içeriğini anlayabilmesini sağlamak için önemlidir. Bu eğitimde, Java için Aspose.PDF kullanarak bir PDF belgesinde Yapı Elemanı Ağacının nasıl oluşturulacağını inceleyeceğiz.
+PDF belgeleri genellikle organize edilmesi ve yapılandırılmış bir şekilde sunulması gereken karmaşık içerikler içerir. Bu, erişilebilirlik ve görme engelliler de dahil olmak üzere tüm kullanıcıların belgenin içeriğini anlayabilmesini sağlamak için önemlidir. Bu eğitimde, Java için Aspose.PDF kullanarak bir PDF belgesinde Yapı Elemanı Ağacı'nın nasıl oluşturulacağını inceleyeceğiz.
 
 ## Yapı Elemanı Ağacı Nedir?
 
@@ -25,7 +27,7 @@ Genellikle "Etiketli PDF" olarak adlandırılan bir Yapı Elemanı Ağacı, bir 
 
 ## Adım 1: Geliştirme Ortamınızı Kurma
 
- Koda dalmadan önce, Java için Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/).
+Koda dalmadan önce, Java için Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/).
 
 Daha sonra bir Java projesi oluşturun ve Aspose.PDF for Java kütüphanesini projenizin sınıf yoluna ekleyin.
 
@@ -53,7 +55,7 @@ page.getParagraphs().add(new com.aspose.pdf.TextFragment("Hello, World!"));
 
 ## Adım 4: Yapı Elemanları Ekleme
 
- Belgeyi erişilebilir kılmak için yapı öğelerini tanımlamamız gerekir. Bunu kullanabilirsiniz`com.aspose.pdf.Tagged.TagArtifact` İçeriğinize yapı öğeleri eklemek için sınıf:
+Belgeyi erişilebilir kılmak için yapı öğelerini tanımlamamız gerekir. Bunu kullanabilirsiniz `com.aspose.pdf.Tagged.TagArtifact` İçeriğinize yapı öğeleri eklemek için sınıf:
 
 ```java
 // Metin için bir TagArtifact nesnesi oluşturun
@@ -65,7 +67,7 @@ tagArtifact.setParagraph(page.getParagraphs().get_Item(1));
 tagArtifact.setTag(page.getParagraphs().get_Item(1));
 ```
 
- Bu kod parçacığı şunu ilişkilendirir:`P` metinle yapı türü.
+Bu kod parçacığı şunu ilişkilendirir: `P` metinle yapı türü.
 
 ## Adım 5: PDF Belgesini Kaydetme
 
@@ -90,7 +92,7 @@ Yapı Elemanı Ağacı, bir PDF belgesindeki içeriğin mantıksal yapısını t
 
 ### Etiketli bir PDF belgesine nasıl resim ekleyebilirim?
 
- Kullanabilirsiniz`com.aspose.pdf.Image` Etiketli bir PDF belgesine resim eklemek için sınıf. Erişilebilirlik için resimlerle uygun yapı öğelerini ilişkilendirdiğinizden emin olun.
+Kullanabilirsiniz `com.aspose.pdf.Image` Etiketli bir PDF belgesine resim eklemek için sınıf. Erişilebilirlik için resimlerle uygun yapı öğelerini ilişkilendirdiğinizden emin olun.
 
 ### Etiketli PDF belgeleri erişilebilirlik uyumluluğu için bir gereklilik midir?
 
@@ -103,9 +105,11 @@ Evet, Java için Aspose.PDF, mevcut PDF belgelerini erişilebilir kılmak için 
 ### Erişilebilir PDF belgeleri oluşturmak için en iyi uygulamalar nelerdir?
 
 En iyi uygulamalardan bazıları; görsellere alternatif metin eklemek, uygun başlık yapısı kullanmak, açıklayıcı bağlantılar sağlamak ve içerik için mantıksal bir okuma sırası sağlamak şeklinde sıralanabilir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

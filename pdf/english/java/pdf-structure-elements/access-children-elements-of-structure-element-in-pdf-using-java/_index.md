@@ -8,7 +8,9 @@ url: /java/pdf-structure-elements/access-children-elements-of-structure-element-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Children Elements of Structure Element in PDF using Java
@@ -127,6 +129,7 @@ For additional examples, documentation, and resources on using Aspose.PDF for Ja
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

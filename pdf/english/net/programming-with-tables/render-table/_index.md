@@ -8,7 +8,9 @@ url: /net/programming-with-tables/render-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Render Table In PDF Document
@@ -183,6 +185,7 @@ You can explore the comprehensive documentation available [here](https://referen
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

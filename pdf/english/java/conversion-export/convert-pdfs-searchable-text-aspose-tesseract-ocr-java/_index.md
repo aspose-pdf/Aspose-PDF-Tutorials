@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PDFs to Searchable Text Using Aspose.PDF and Tesseract OCR in Java
 
@@ -208,7 +210,11 @@ Ready to try it out? Begin implementing these techniques in your projects today!
 - **Download:** Access the latest versions of Aspose.PDF via [Downloads Page](https://releases.aspose.com/pdf/java/).
 - **Purchase:** Obtain licenses directly from [Aspose Purchase Page](https://purchase.aspose.com/buy).
 - **Free Trial:** Try out features with a free trial at [Aspose Free Trials](https://releases.aspose.com/pdf/java/#downloads).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

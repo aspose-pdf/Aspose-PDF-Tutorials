@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Validate PDF Files for Accessibility Using Aspose.PDF Java for Compliance with PDF/UA-1 Standards
 
@@ -130,7 +132,11 @@ A5: Visit the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) for assi
 - **Purchase**: [Buy a License](https://purchase.aspose.com/buy)
 - **Free Trial**: [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Request Here](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

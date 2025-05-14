@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Process files sequentially and utilize `using` statements for automatic resource
 With this guide, you're well-equipped to start adding and aligning text stamps in your PDF documents using Aspose.PDF for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Nhận Thuộc tính PDF
-linktitle: Nhận Thuộc tính PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất hiệu quả các thuộc tính PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các ví dụ về mã và các biện pháp thực hành tốt nhất.
-weight: 100
-url: /vi/net/programming-with-pdf-pages/get-properties/
+"description": "Tìm hiểu cách trích xuất hiệu quả các thuộc tính PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các ví dụ về mã và các biện pháp thực hành tốt nhất."
+"linktitle": "Nhận Thuộc tính PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhận Thuộc tính PDF"
+"url": "/vi/net/programming-with-pdf-pages/get-properties/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận Thuộc tính PDF
@@ -23,7 +25,7 @@ Trước khi bắt đầu viết mã, điều quan trọng là phải đảm b�
 
 1. Môi trường .NET: Đảm bảo bạn có môi trường .NET đang hoạt động. Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE phù hợp nào khác.
    
-2.  Aspose.PDF cho .NET: Bạn cần phải cài đặt Aspose.PDF. Bạn có thể tải xuống thư viện từ[Bản phát hành PDF của Aspose](https://releases.aspose.com/pdf/net/) trang.
+2. Aspose.PDF cho .NET: Bạn cần phải cài đặt Aspose.PDF. Bạn có thể tải xuống thư viện từ [Bản phát hành PDF của Aspose](https://releases.aspose.com/pdf/net/) trang.
 
 3. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ hữu ích vì chúng ta sẽ viết mã bằng C#.
 
@@ -37,7 +39,7 @@ Sau khi đã chuẩn bị xong các công cụ và tệp PDF, đây là cách b�
 
 2. Thêm tham chiếu: Bao gồm Aspose.PDF assembly. Bạn có thể thực hiện việc này thông qua NuGet Package Manager hoặc bằng cách thêm tham chiếu trực tiếp đến DLL.
 
-3.  Chuẩn bị tệp PDF của bạn: Đặt mẫu "GetProperties.pdf" của bạn vào một thư mục mà mã của bạn có thể truy cập dễ dàng, chẳng hạn như`"YOUR DOCUMENT DIRECTORY"`.
+3. Chuẩn bị tệp PDF của bạn: Đặt mẫu "GetProperties.pdf" của bạn vào một thư mục mà mã của bạn có thể truy cập dễ dàng, chẳng hạn như `"YOUR DOCUMENT DIRECTORY"`.
 
 ## Nhập gói
 
@@ -66,14 +68,14 @@ Dòng mã này đảm bảo rằng chúng ta chỉ định được nơi Aspose 
 
 ## Bước 2: Mở Tài liệu PDF
 
- Tiếp theo, chúng ta sẽ mở tài liệu PDF bằng cách sử dụng`Document` lớp từ thư viện Aspose.PDF. Đây là bước quan trọng vì nó tải PDF vào bộ nhớ.
+Tiếp theo, chúng ta sẽ mở tài liệu PDF bằng cách sử dụng `Document` lớp từ thư viện Aspose.PDF. Đây là bước quan trọng vì nó tải PDF vào bộ nhớ.
 
 ```csharp
 // Mở tài liệu
 Document pdfDocument = new Document(dataDir + "GetProperties.pdf");
 ```
 
- Bằng cách thực hiện dòng này, chúng ta tạo ra một phiên bản của`Document` lớp biểu diễn tệp PDF của chúng ta, giúp truy cập được tất cả các thuộc tính của tệp.
+Bằng cách thực hiện dòng này, chúng ta tạo ra một phiên bản của `Document` lớp biểu diễn tệp PDF của chúng ta, giúp truy cập được tất cả các thuộc tính của tệp.
 
 ## Bước 3: Truy cập Bộ sưu tập trang
 
@@ -84,7 +86,7 @@ Sau khi mở tài liệu, chúng ta cần truy cập các trang trong tài liệ
 PageCollection pageCollection = pdfDocument.Pages;
 ```
 
- Nghĩ về`PageCollection` như một chỉ mục giúp chúng ta điều hướng qua các trang trong tài liệu PDF của mình.
+Nghĩ về `PageCollection` như một chỉ mục giúp chúng ta điều hướng qua các trang trong tài liệu PDF của mình.
 
 ## Bước 4: Lấy một trang cụ thể
 
@@ -95,7 +97,7 @@ Bây giờ chúng ta đã có quyền truy cập vào các trang của mình, đ
 Page pdfPage = pageCollection[1];
 ```
 
- Hãy nhớ rằng đây là lập chỉ mục dựa trên số không. Vì vậy, nếu bạn muốn truy cập trang đầu tiên, bạn cần lập chỉ mục nó như`1`.
+Hãy nhớ rằng đây là lập chỉ mục dựa trên số không. Vì vậy, nếu bạn muốn truy cập trang đầu tiên, bạn cần lập chỉ mục nó như `1`.
 
 ## Bước 5: Lấy và Hiển thị Thuộc tính Trang
 
@@ -137,19 +139,21 @@ Và bạn đã có nó rồi — hướng dẫn đầy đủ về cách lấy c�
 Bạn có thể cài đặt nó thông qua NuGet Package Manager trong Visual Studio hoặc tải trực tiếp từ trang web Aspose.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?  
- Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể nhận được[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể nhận được [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu về Aspose.PDF ở đâu?  
- Bạn có thể tham khảo tài liệu tại[Tài liệu Aspose.pdf](https://reference.aspose.com/pdf/net/).
+Bạn có thể tham khảo tài liệu tại [Tài liệu Aspose.pdf](https://reference.aspose.com/pdf/net/).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?  
- Bạn có thể truy cập diễn đàn Aspose để được hỗ trợ, nơi bạn có thể đặt câu hỏi về các vấn đề của mình[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể truy cập diễn đàn Aspose để được hỗ trợ, nơi bạn có thể đặt câu hỏi về các vấn đề của mình [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Có giấy phép tạm thời không?  
-Có, bạn có thể yêu cầu cấp giấy phép tạm thời để đánh giá bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể yêu cầu cấp giấy phép tạm thời để đánh giá bằng cách truy cập [liên kết này](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sắp xếp lại nội dung bằng cách sử dụng thay thế văn bản
-linktitle: Sắp xếp lại nội dung bằng cách sử dụng thay thế văn bản
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách sắp xếp lại nội dung PDF bằng cách thay thế văn bản với Aspose.PDF cho .NET. Hướng dẫn từng bước để nâng cao kỹ năng chỉnh sửa tài liệu của bạn.
-weight: 270
-url: /vi/net/programming-with-text/rearrange-contents-using-text-replacement/
+"description": "Tìm hiểu cách sắp xếp lại nội dung PDF bằng cách thay thế văn bản với Aspose.PDF cho .NET. Hướng dẫn từng bước để nâng cao kỹ năng chỉnh sửa tài liệu của bạn."
+"linktitle": "Sắp xếp lại nội dung bằng cách sử dụng thay thế văn bản"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Sắp xếp lại nội dung bằng cách sử dụng thay thế văn bản"
+"url": "/vi/net/programming-with-text/rearrange-contents-using-text-replacement/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sắp xếp lại nội dung bằng cách sử dụng thay thế văn bản
@@ -21,9 +23,9 @@ Khi nói đến việc làm việc với các tài liệu PDF theo chương trì
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị những thứ sau:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF trong dự án của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF trong dự án của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/).
 2. Môi trường phát triển .NET: Môi trường .NET đang hoạt động (như Visual Studio) là điều bắt buộc. Các ví dụ mã sẽ hoạt động với C#.
-3. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn điều hướng qua mã một cách hiệu quả.
+3. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn điều hướng mã một cách hiệu quả.
 
 ## Nhập gói
 
@@ -60,18 +62,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Tải tệp PDF nguồn
 Document doc = new Document(dataDir + "ExtractTextPage.pdf");
 ```
- Tại đây, bạn chỉ định thư mục nơi lưu trữ PDF của bạn.`Document`lớp được sử dụng để tải tệp PDF hiện có của chúng tôi`ExtractTextPage.pdf`.
+Tại đây, bạn chỉ định thư mục nơi lưu trữ PDF của bạn. `Document` lớp được sử dụng để tải tệp PDF hiện có của chúng tôi `ExtractTextPage.pdf`.
 
 ## Bước 2: Tạo TextFragment Absorber
 
- Tiếp theo, chúng ta sẽ tạo một`TextFragmentAbsorber` đối tượng. Điều này cho phép chúng ta tìm các đoạn văn bản cụ thể bằng cách sử dụng biểu thức chính quy.
+Tiếp theo, chúng ta sẽ tạo một `TextFragmentAbsorber` đối tượng. Điều này cho phép chúng ta tìm các đoạn văn bản cụ thể bằng cách sử dụng biểu thức chính quy.
 
 ```csharp
 // Tạo đối tượng TextFragment Absorber với biểu thức chính quy
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("[TextFragmentAbsorber,companyname,Textbox,50]");
 doc.Pages.Accept(textFragmentAbsorber);
 ```
- Các`TextFragmentAbsorber` sử dụng một mẫu để xác định vị trí các đoạn văn bản bạn muốn thay thế. Điều chỉnh biểu thức chính quy khi cần thiết cho văn bản cụ thể của bạn.
+Các `TextFragmentAbsorber` sử dụng một mẫu để xác định vị trí các đoạn văn bản bạn muốn thay thế. Điều chỉnh biểu thức chính quy khi cần thiết cho văn bản cụ thể của bạn.
 
 ## Bước 3: Thay thế từng đoạn văn bản
 
@@ -90,7 +92,7 @@ foreach (TextFragment textFragment in textFragmentAbsorber.TextFragments)
     textFragment.Text = "This is a Larger String for the Testing of this issue";
 }
 ```
- Bên trong vòng lặp, chúng ta lặp lại từng`TextFragment` đã tìm thấy. Ở đây, chúng tôi tùy chỉnh kiểu phông chữ, kích thước và màu sắc. Quan trọng nhất, chúng tôi thay thế văn bản gốc bằng chuỗi mới của mình.
+Bên trong vòng lặp, chúng ta lặp lại từng `TextFragment` đã tìm thấy. Ở đây, chúng tôi tùy chỉnh kiểu phông chữ, kích thước và màu sắc. Quan trọng nhất, chúng tôi thay thế văn bản gốc bằng chuỗi mới của mình.
 
 ## Bước 4: Lưu tài liệu đã sửa đổi
 
@@ -102,7 +104,7 @@ dataDir = dataDir + "RearrangeContentsUsingTextReplacement_out.pdf";
 doc.Save(dataDir);
 Console.WriteLine("\nContents rearranged successfully using text replacement.\nFile saved at " + dataDir);
 ```
- PDF đã sửa đổi được lưu bằng cách sử dụng`Save`phương pháp. Đảm bảo bạn thêm tên tệp phù hợp để tránh ghi đè lên tệp gốc.
+PDF đã sửa đổi được lưu bằng cách sử dụng `Save` phương pháp. Đảm bảo bạn thêm tên tệp thích hợp để tránh ghi đè lên tệp gốc.
 
 ## Bước 5: Xử lý ngoại lệ
 
@@ -135,10 +137,12 @@ Bộ hấp thụ sẽ chỉ trả về một bộ sưu tập rỗng. Đảm bả
 Aspose.PDF cũng cung cấp nhiều phương pháp khác nhau để chỉnh sửa hình ảnh.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể tìm thấy sự trợ giúp trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm thấy sự trợ giúp trên [diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

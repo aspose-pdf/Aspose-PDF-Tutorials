@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Köprü Bağlantısı Hedeflerini Alın
-linktitle: PDF Dosyasında Köprü Bağlantısı Hedeflerini Alın
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyalarından köprü metni hedeflerini nasıl kolayca çıkaracağınızı öğrenin. Bu basit adım adım öğreticiyi izleyin.
-weight: 60
-url: /tr/net/programming-with-links-and-actions/get-hyperlink-destinations/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyalarından köprü metni hedeflerini nasıl kolayca çıkaracağınızı öğrenin. Bu basit adım adım öğreticiyi izleyin."
+"linktitle": "PDF Dosyasında Köprü Bağlantısı Hedeflerini Alın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Köprü Bağlantısı Hedeflerini Alın"
+"url": "/tr/net/programming-with-links-and-actions/get-hyperlink-destinations/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Köprü Bağlantısı Hedeflerini Alın
@@ -22,16 +24,16 @@ PDF'leri yönetmeye gelince, köprü metni hedeflerini çıkarmak şaşırtıcı
 Bu makaleye dalmadan önce, her şeyin elinizin altında olduğundan emin olalım.
 
 ### .NET Ortamı 
-.NET geliştirme ortamınızın kurulu olduğundan emin olun. Visual Studio veya seçtiğiniz herhangi bir C# IDE'yi kullanabilirsiniz. 
+Bir .NET geliştirme ortamının kurulu olduğundan emin olun. Visual Studio veya seçtiğiniz herhangi bir C# IDE'yi kullanabilirsiniz. 
 
 ### .NET Kütüphanesi için Aspose.PDF 
- Aspose.PDF kütüphanesine ihtiyacınız olacak. Eğer henüz yoksa, şuradan indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/pdf/net/) . Taahhüt etmeden önce test etmek ister misiniz? Şunu deneyin:[ücretsiz deneme](https://releases.aspose.com/) Birinci!
+Aspose.PDF kütüphanesine ihtiyacınız olacak. Eğer henüz yoksa, şuradan indirebilirsiniz: [bu bağlantı](https://releases.aspose.com/pdf/net/). Taahhüt etmeden önce test etmek ister misiniz? Şunu deneyin: [ücretsiz deneme](https://releases.aspose.com/) Birinci!
 
 ### Temel Programlama Bilgisi 
 C# ve nesne yönelimli programlamaya aşinalık şarttır. Daha önce kod yazdıysanız, iyi bir noktadasınız!
 
 ### Bir Giriş PDF Dosyası 
-İçerisinde köprü metinleri bulunan bir PDF dosyası edinin; bu, çıkarma işlemi için sizin laboratuvar fareniz olacak!
+Köprü metinleri içeren bir PDF dosyası alın; bu, çıkarma işlemi için sizin laboratuvar fareniz olacak!
 
 Artık her şey hazır olduğuna göre, eğlenceli kısma geçebiliriz!
 
@@ -67,7 +69,7 @@ Aspose.PDF'in sunduğu güçlü özelliklerden yararlanmak için kütüphaneyi p
 1. NuGet Paket Yöneticisini kullanın:
    - Çözüm Gezgini’nde projenizin üzerine sağ tıklayın.
    - "NuGet Paketlerini Yönet" seçeneğine tıklayın.
-   -  Arama`Aspose.PDF` ve kurun.
+   - Arama `Aspose.PDF` ve kurun.
 
 Bu, kodlamaya başlayabilmeniz için gerekli montaj dosyalarını ekleyecektir.
 
@@ -80,7 +82,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "input.pdf");
 ```
 
- Açıklama: Değiştir`"YOUR DOCUMENT DIRECTORY"` PDF'nizin bulunduğu gerçek yol ile. Bu kod parçası,`Document` Aspose tarafından sağlanan ve PDF'nizi kelimenin tam anlamıyla işinize açan sınıf!
+Açıklama: Değiştir `"YOUR DOCUMENT DIRECTORY"` PDF'nizin bulunduğu gerçek yol ile. Bu kod parçası, `Document` Aspose tarafından sağlanan ve PDF'nizi kelimenin tam anlamıyla işinize açan sınıf!
 
 ## Adım 4: PDF'nin Sayfalarını Gezin
 
@@ -97,14 +99,14 @@ Neden Loop?: Her sayfanın farklı bağlantıları olabilir ve her birini kontro
 
 ## Adım 5: Bağlantı Açıklamalarını Alın
 
- Bir sayfaya geldiğimizde, bağlantı açıklamalarını aramaya başlayalım. Bir`AnnotationSelector`.
+Bir sayfaya geldiğimizde, bağlantı açıklamalarını aramaya başlayalım. Bir `AnnotationSelector`.
 
 ```csharp
 AnnotationSelector selector = new AnnotationSelector(new LinkAnnotation(page, Rectangle.Trivial));
 page.Accept(selector);
 ```
 
- Anlamak`AnnotationSelector` : Bu sınıf, sayfadaki bağlantıları, türdeki açıklamaları seçerek tanımlamaya yardımcı olur`LinkAnnotation`. 
+Anlamak `AnnotationSelector`: Bu sınıf, sayfadaki bağlantıları, türdeki açıklamaları seçerek tanımlamaya yardımcı olur `LinkAnnotation`. 
 
 ## Adım 6: Bağlantı Açıklamalarını Saklayın ve Tekrarlayın
 
@@ -149,7 +151,7 @@ Aspose.PDF for .NET kullanarak bir PDF dosyasından köprü metni hedeflerini ç
 Aspose.PDF for .NET, PDF'leri programlı olarak düzenlemek ve oluşturmak için yöntemler sağlayan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet! Bunu kullanarak deneyebilirsiniz[ücretsiz deneme](https://releases.aspose.com/).
+Evet! Bunu kullanarak deneyebilirsiniz [ücretsiz deneme](https://releases.aspose.com/).
 
 ### Aspose hangi programlama dillerini destekliyor?
 Aspose, .NET'in yanı sıra Java, Python ve diğer diller için de kütüphaneler sunuyor.
@@ -158,10 +160,12 @@ Aspose, .NET'in yanı sıra Java, Python ve diğer diller için de kütüphanele
 C# veya başka bir .NET dilinde temel programlama becerilerine sahip olmak, örnekler arasında daha iyi gezinmenize yardımcı olacaktır.
 
 ### Ek destek ve dokümanları nerede bulabilirim?
- Göz atabilirsiniz[belgeleme](https://reference.aspose.com/pdf/net/) veya[destek forumu](https://forum.aspose.com/c/pdf/10) yardım için.
+Göz atabilirsiniz [belgeleme](https://reference.aspose.com/pdf/net/) veya [destek forumu](https://forum.aspose.com/c/pdf/10) yardım için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

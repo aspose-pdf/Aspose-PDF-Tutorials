@@ -1,14 +1,16 @@
 ---
-title: ลบข้อความทั้งหมดในไฟล์ PDF
-linktitle: ลบข้อความทั้งหมดในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: ลบข้อความทั้งหมดออกจากไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา
-weight: 280
-url: /th/net/programming-with-text/remove-all-text/
+"description": "ลบข้อความทั้งหมดออกจากไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา"
+"linktitle": "ลบข้อความทั้งหมดในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ลบข้อความทั้งหมดในไฟล์ PDF"
+"url": "/th/net/programming-with-text/remove-all-text/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบข้อความทั้งหมดในไฟล์ PDF
@@ -27,7 +29,7 @@ url: /th/net/programming-with-text/remove-all-text/
 ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา .NET ไว้แล้ว คุณสามารถใช้ Visual Studio หรือ IDE ใดๆ ก็ได้ตามต้องการที่รองรับการพัฒนา .NET
 
 ### 2. ไลบรารี Aspose.PDF  
- ดาวน์โหลดเวอร์ชันล่าสุดของไลบรารี Aspose.PDF สำหรับ .NET คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/pdf/net/)ไลบรารีนี้จะเป็นเครื่องมือที่เราใช้จัดการเอกสาร PDF ได้อย่างง่ายดาย
+ดาวน์โหลดเวอร์ชันล่าสุดของไลบรารี Aspose.PDF สำหรับ .NET คุณสามารถค้นหาได้ [ที่นี่](https://releases.aspose.com/pdf/net/)ไลบรารีนี้จะเป็นเครื่องมือที่เราใช้จัดการเอกสาร PDF ได้อย่างง่ายดาย
 
 ### 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#  
 การมีความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจโค้ดต่างๆ ได้ดีขึ้น คุณไม่จำเป็นต้องเป็นผู้เชี่ยวชาญ แต่การรู้พื้นฐานจะช่วยให้คุณเข้าใจได้มากขึ้น
@@ -65,7 +67,7 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // แทนที่ด้วยเส้นทางของคุณ
 ```
 
- ในบรรทัดนี้อย่าลืมเปลี่ยน`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงของไดเร็กทอรีที่จัดเก็บไฟล์ PDF ของคุณ
+ในบรรทัดนี้อย่าลืมเปลี่ยน `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงของไดเร็กทอรีที่จัดเก็บไฟล์ PDF ของคุณ
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
@@ -76,7 +78,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // แทนที่ด้วยเ
 Document pdfDocument = new Document(dataDir + "RemoveAllText.pdf");
 ```
 
-บรรทัดนี้จะสร้างวัตถุเอกสารใหม่ที่จะเปิดไฟล์ PDF ที่ระบุ หากคุณมีไฟล์ชื่อ`RemoveAllText.pdf` ในไดเร็กทอรีของคุณ เราพร้อมแล้ว!
+บรรทัดนี้จะสร้างวัตถุเอกสารใหม่ที่จะเปิดไฟล์ PDF ที่ระบุ หากคุณมีไฟล์ชื่อ `RemoveAllText.pdf` ในไดเร็กทอรีของคุณ เราพร้อมแล้ว!
 
 ## ขั้นตอนที่ 3: วนซ้ำผ่านหน้าทั้งหมด
 
@@ -90,7 +92,7 @@ for (int i = 1; i <= pdfDocument.Pages.Count; i++)
     OperatorSelector operatorSelector = new OperatorSelector(new Aspose.Pdf.Operators.TextShowOperator());
 ```
 
- ในบล็อกโค้ดนี้ เราจะเริ่มต้นลูปที่ดำเนินไปในแต่ละหน้าของ PDF สำหรับทุกหน้า เราจะสร้างอินสแตนซ์ใหม่ของ`OperatorSelector` ซึ่งจะช่วยให้เราเลือกข้อความได้
+ในบล็อกโค้ดนี้ เราจะเริ่มต้นลูปที่ดำเนินไปในแต่ละหน้าของ PDF สำหรับทุกหน้า เราจะสร้างอินสแตนซ์ใหม่ของ `OperatorSelector` ซึ่งจะช่วยให้เราเลือกข้อความได้
 
 ## ขั้นตอนที่ 4: เลือกข้อความทั้งหมดในหน้า
 
@@ -101,7 +103,7 @@ for (int i = 1; i <= pdfDocument.Pages.Count; i++)
     page.Contents.Accept(operatorSelector);
 ```
 
- โดยใช้`Accept` วิธีการบน`Contents`เราเลือกข้อความ ตอนนี้เราพร้อมที่จะลบมันแล้ว!
+โดยใช้ `Accept` วิธีการบน `Contents`เราเลือกข้อความ ตอนนี้เราพร้อมที่จะลบมันแล้ว!
 
 ## ขั้นตอนที่ 5: ลบข้อความที่เลือก
 
@@ -124,7 +126,7 @@ for (int i = 1; i <= pdfDocument.Pages.Count; i++)
 pdfDocument.Save(dataDir + "RemoveAllText_out.pdf", Aspose.Pdf.SaveFormat.Pdf);
 ```
 
- ที่นี่เราบันทึก PDF ที่แก้ไขแล้วลงในไฟล์ใหม่ชื่อ`RemoveAllText_out.pdf`. คุณสามารถเปลี่ยนชื่อนี้ได้หากคุณต้องการ!
+ที่นี่เราบันทึก PDF ที่แก้ไขแล้วลงในไฟล์ใหม่ชื่อ `RemoveAllText_out.pdf`. คุณสามารถเปลี่ยนชื่อนี้ได้หากคุณต้องการ!
 
 ## บทสรุป
 
@@ -136,19 +138,21 @@ pdfDocument.Save(dataDir + "RemoveAllText_out.pdf", Aspose.Pdf.SaveFormat.Pdf);
 ใช่ คุณสามารถปรับเปลี่ยนลูปเพื่อกำหนดเป้าหมายไปที่หน้าเฉพาะเจาะจง แทนที่จะกำหนดเป้าหมายไปที่หน้าทั้งหมด
 
 ### ฉันสามารถบันทึก PDF ในรูปแบบใดได้บ้าง
- คุณสามารถบันทึกไฟล์ PDF ในรูปแบบต่างๆ ได้โดยใช้`Aspose.Pdf.SaveFormat`.
+คุณสามารถบันทึกไฟล์ PDF ในรูปแบบต่างๆ ได้โดยใช้ `Aspose-Pdf.SaveFormat`.
 
 ### Aspose.PDF สามารถใช้งานร่วมกับภาษาการเขียนโปรแกรมอื่นได้หรือไม่
 Aspose.PDF มีไว้สำหรับ .NET เป็นหลัก แต่ยังมีเวอร์ชันสำหรับ Java, Python และอื่นๆ อีกมากมาย
 
 ### ฉันสามารถทดลองใช้ Aspose.PDF ฟรีได้หรือไม่?
- ใช่! คุณสามารถเริ่มต้นด้วยการทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่! คุณสามารถเริ่มต้นด้วยการทดลองใช้ฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถซื้อ Aspose.PDF ได้จากที่ไหน
- คุณสามารถซื้อมันได้[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถซื้อมันได้ [ที่นี่](https://purchase-aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

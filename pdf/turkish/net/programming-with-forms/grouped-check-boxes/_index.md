@@ -1,14 +1,16 @@
 ---
-title: PDF Belgesinde Gruplandırılmış Onay Kutuları
-linktitle: PDF Belgesinde Gruplandırılmış Onay Kutuları
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimle Aspose.PDF for .NET kullanarak bir PDF belgesinde gruplanmış onay kutularının (radyo düğmeleri) nasıl oluşturulacağını öğrenin.
-weight: 170
-url: /tr/net/programming-with-forms/grouped-check-boxes/
+"description": "Bu adım adım eğitimle Aspose.PDF for .NET kullanarak bir PDF belgesinde gruplanmış onay kutularının (radyo düğmeleri) nasıl oluşturulacağını öğrenin."
+"linktitle": "PDF Belgesinde Gruplandırılmış Onay Kutuları"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Belgesinde Gruplandırılmış Onay Kutuları"
+"url": "/tr/net/programming-with-forms/grouped-check-boxes/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Belgesinde Gruplandırılmış Onay Kutuları
@@ -21,11 +23,11 @@ Etkileşimli PDF'ler oluşturmak, özellikle Aspose.PDF for .NET gibi güçlü a
 
 Adım adım kılavuza dalmadan önce, bazı temel ön koşulları ele alalım:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Değilse,[buradan indirin](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Değilse, [buradan indirin](https://releases.aspose.com/pdf/net/).
 2. IDE: Visual Studio gibi bir geliştirme ortamınız olmalı.
 3. .NET Framework: Projenin Aspose.PDF ile uyumlu bir .NET Framework sürümünü hedeflemesi gerekir.
 4. Temel C# Bilgisi: Akıcı bir şekilde takip edebilmek için C# ve PDF düzenleme konusunda bilgi sahibi olmak gerekir.
-5.  Lisans: Aspose.PDF'in tam işlevsellik için bir lisansa ihtiyacı vardır.[geçici lisans almak](https://purchase.aspose.com/temporary-license/) eğer gerekirse.
+5. Lisans: Aspose.PDF'in tam işlevsellik için bir lisansa ihtiyacı vardır. [geçici lisans almak](https://purchase.aspose.com/temporary-license/) eğer gerekirse.
 
 ## Paketleri İçe Aktar
 
@@ -41,11 +43,11 @@ using Aspose.Pdf.Forms;
 
 Bu paketler, radyo düğmeleri oluşturma ve özelliklerini tanımlama dahil olmak üzere PDF belgelerini düzenlemek için gereken tüm sınıflara ve yöntemlere erişmenizi sağlayacaktır.
 
-Bu bölümde, gruplanmış onay kutuları (radyo düğmeleri) oluşturma sürecini net ve anlaşılması kolay adımlara ayıracağız.
+Bu bölümde, gruplanmış onay kutuları (radyo düğmeleri) oluşturma sürecini açık ve anlaşılması kolay adımlara ayıracağız.
 
 ## Adım 1: Yeni bir PDF Belgesi Oluşturun
 
- İlk adım, bir örnek oluşturmaktır`Document` nesne, PDF dosyanızı temsil edecektir. Ardından, gruplanmış onay kutularınızı yerleştireceğiniz belgenize boş bir sayfa ekleyin.
+İlk adım, bir örnek oluşturmaktır `Document` nesne, PDF dosyanızı temsil edecektir. Ardından, gruplanmış onay kutularınızı yerleştireceğiniz belgenize boş bir sayfa ekleyin.
 
 ```csharp
 // Belge nesnesini örnekle
@@ -59,7 +61,7 @@ Bu, PDF'ye radyo düğmeleri gibi herhangi bir öğe eklemek için temel oluştu
 
 ## Adım 2: Radyo Düğmesi Alanını Başlatın
 
-Daha sonra, bir tane oluşturmamız gerekiyor`RadioButtonField` gruplanmış onay kutularını (radyo düğmeleri) tutacak nesne. Bu alan, onay kutularının görüneceği belirli sayfaya eklenir.
+Daha sonra, bir tane oluşturmamız gerekiyor `RadioButtonField` gruplanmış onay kutularını (radyo düğmeleri) tutacak nesne. Bu alan, onay kutularının görüneceği belirli sayfaya eklenir.
 
 ```csharp
 // RadioButtonField nesnesini örneklendirin ve ilk sayfaya atayın
@@ -70,7 +72,7 @@ Bunu, bireysel radyo düğmesi seçeneklerini bir araya toplayacak bir kapsayıc
 
 ## Adım 3: Radyo Düğmesi Seçeneklerini Ekleyin
 
- Şimdi, alana bireysel radyo düğmesi seçeneklerini ekleyelim. Bu örnekte, iki radyo düğmesi ekleyeceğiz ve konumlarını kullanarak belirteceğiz`Rectangle` nesne.
+Şimdi, alana bireysel radyo düğmesi seçeneklerini ekleyelim. Bu örnekte, iki radyo düğmesi ekleyeceğiz ve konumlarını kullanarak belirteceğiz `Rectangle` nesne.
 
 ```csharp
 // İlk radyo düğmesi seçeneğini ekleyin ve konumunu Dikdörtgen kullanarak belirtin
@@ -82,11 +84,11 @@ opt1.OptionName = "Option1";
 opt2.OptionName = "Option2";
 ```
 
- Burada,`Rectangle` nesnesi sayfadaki her bir radyo düğmesinin koordinatlarını ve boyutunu tanımlar.
+Burada, `Rectangle` nesnesi sayfadaki her bir radyo düğmesinin koordinatlarını ve boyutunu tanımlar.
 
 ## Adım 4: Radyo Düğmelerinin Stilini Özelleştirin
 
- Radyo düğmelerinin görünümünü, bunların ayarlarını yaparak özelleştirebilirsiniz.`Style` Örneğin, kare şeklinde onay kutuları veya çapraz şeklinde onay kutuları isteyebilirsiniz.
+Radyo düğmelerinin görünümünü, bunların ayarlarını yaparak özelleştirebilirsiniz. `Style` Örneğin, kare şeklinde onay kutuları veya çapraz şeklinde onay kutuları isteyebilirsiniz.
 
 ```csharp
 // Radyo düğmelerinin stilini ayarlayın
@@ -146,27 +148,29 @@ Ve işte bu kadar! Aspose.PDF for .NET kullanarak gruplanmış onay kutularına 
 
 ## Çözüm
 
-PDF belgelerine gruplanmış onay kutuları gibi etkileşimli öğeler eklemek ilk başta zor görünebilir, ancak Aspose.PDF for .NET ile bu çok kolay hale gelir. Bu adım adım kılavuzu izleyerek, temel bir PDF belgesini nasıl ayarlayacağınızı, gruplanmış radyo düğmeleri nasıl ekleyeceğinizi, görünümlerini nasıl özelleştireceğinizi ve nihai sonucu nasıl kaydedeceğinizi öğrendiniz. Formlar, anketler veya başka herhangi bir tür etkileşimli PDF oluşturuyor olun, bu kılavuz size başlamak için sağlam bir temel sağlar.
+PDF belgelerine gruplanmış onay kutuları gibi etkileşimli öğeler eklemek ilk başta zor görünebilir, ancak .NET için Aspose.PDF ile bu çok kolay hale gelir. Bu adım adım kılavuzu izleyerek, temel bir PDF belgesini nasıl ayarlayacağınızı, gruplanmış radyo düğmeleri nasıl ekleyeceğinizi, görünümlerini nasıl özelleştireceğinizi ve nihai sonucu nasıl kaydedeceğinizi öğrendiniz. Formlar, anketler veya başka herhangi bir tür etkileşimli PDF oluşturuyor olun, bu kılavuz size başlamak için sağlam bir temel sağlar.
 
 ## SSS
 
 ### Bir gruba ikiden fazla radyo düğmesi ekleyebilir miyim?
- Kesinlikle! Sadece ek örnek oluşturun`RadioButtonOptionField` nesneleri ekleyin ve bunları`RadioButtonField` eğitimde gösterildiği gibi.
+Kesinlikle! Sadece ek örnek oluşturun `RadioButtonOptionField` nesneleri ekleyin ve bunları `RadioButtonField` eğitimde gösterildiği gibi.
 
 ### Bir belgede birden fazla onay kutusu grubunu nasıl işlerim?
-Birden fazla grup oluşturmak için ayrı gruplar oluşturun`RadioButtonField` Her grup için nesneler.
+Birden fazla grup oluşturmak için ayrı gruplar oluşturun `RadioButtonField` Her grup için nesneler.
 
 ### Ekleyebileceğim onay kutusu sayısında bir sınırlama var mı?
 Hayır, Aspose.PDF for .NET, bir PDF'ye ekleyebileceğiniz onay kutusu sayısına herhangi bir sınırlama getirmez.
 
-### Onay kutularının görünümünü eklendikten sonra değiştirebilir miyim?
+### Onay kutularının görünümünü ekledikten sonra değiştirebilir miyim?
 Evet, onay kutuları eklendikten sonra kenarlık stili, genişliği ve rengi gibi özellikleri değiştirebilirsiniz.
 
 ### Görüntüleri radyo düğmesi olarak kullanmak mümkün müdür?
- Evet, Aspose.PDF, özel görüntüleri radyo düğmeleri olarak kullanmanıza olanak tanır.`Appearance` Her radyo düğmesi seçeneğinin özelliği.
+Evet, Aspose.PDF, özel görüntüleri radyo düğmeleri olarak kullanmanıza olanak tanır. `Appearance` her radyo düğmesi seçeneğinin özelliği.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

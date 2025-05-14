@@ -1,14 +1,16 @@
 ---
-title: Lấy tất cả chú thích từ trang
-linktitle: Lấy tất cả chú thích từ trang
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất chú thích từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ.
-weight: 70
-url: /vi/net/annotations/getallannotationsfrompage/
+"description": "Tìm hiểu cách trích xuất chú thích từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ."
+"linktitle": "Lấy tất cả chú thích từ trang"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Lấy tất cả chú thích từ trang"
+"url": "/vi/net/annotations/getallannotationsfrompage/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy tất cả chú thích từ trang
@@ -23,7 +25,7 @@ Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi th�
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi chúng ta sẽ viết và chạy mã của mình.
 2. .NET Framework: Sự quen thuộc với .NET framework là điều cần thiết. Nếu bạn là người mới, đừng lo lắng; chúng tôi sẽ giữ mọi thứ đơn giản.
-3.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 4. Tệp PDF mẫu: Đối với hướng dẫn này, bạn sẽ cần một tệp PDF có chú thích. Bạn có thể tạo một tệp hoặc tải xuống mẫu từ internet.
 
 ## Nhập gói
@@ -46,22 +48,22 @@ Trước khi chúng ta có thể trích xuất chú thích, chúng ta cần ch�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này rất quan trọng vì chương trình cần biết nơi tìm tệp.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này rất quan trọng vì chương trình cần biết nơi tìm tệp.
 
 ## Bước 2: Mở Tài liệu PDF
 
- Bây giờ chúng ta đã thiết lập xong thư mục tài liệu, đã đến lúc mở tệp PDF. Chúng ta sẽ sử dụng`Document` lớp từ thư viện Aspose.PDF để thực hiện việc này.
+Bây giờ chúng ta đã thiết lập xong thư mục tài liệu, đã đến lúc mở tệp PDF. Chúng ta sẽ sử dụng `Document` lớp từ thư viện Aspose.PDF để thực hiện việc này.
 
 ```csharp
 // Mở tài liệu
 Document pdfDocument = new Document(dataDir + "GetAllAnnotationsFromPage.pdf");
 ```
 
- Trong dòng này, chúng ta tạo một phiên bản mới của`Document` lớp và truyền đường dẫn đến tệp PDF của chúng tôi. Điều này cho phép chúng tôi tương tác với nội dung của PDF.
+Trong dòng này, chúng ta tạo một phiên bản mới của `Document` lớp và truyền đường dẫn đến tệp PDF của chúng tôi. Điều này cho phép chúng tôi tương tác với nội dung của PDF.
 
 ## Bước 3: Lặp qua các chú thích
 
-Khi tài liệu đã mở, giờ chúng ta có thể truy cập vào các chú thích của tài liệu. Chú thích là các bình luận, phần tô sáng hoặc ghi chú được thêm vào PDF. Chúng ta sẽ lặp lại tất cả các chú thích trên trang đầu tiên của tài liệu.
+Khi mở tài liệu, giờ chúng ta có thể truy cập vào các chú thích của tài liệu. Chú thích là các bình luận, phần tô sáng hoặc ghi chú được thêm vào PDF. Chúng ta sẽ lặp lại tất cả các chú thích trên trang đầu tiên của tài liệu.
 
 ```csharp
 // Lặp lại tất cả các chú thích
@@ -74,7 +76,7 @@ foreach (MarkupAnnotation annotation in pdfDocument.Pages[1].Annotations)
 }
 ```
 
- Trong đoạn mã này, chúng tôi sử dụng`foreach` vòng lặp để lặp qua từng chú thích trên trang đầu tiên. Đối với mỗi chú thích, chúng tôi in tiêu đề, chủ đề và nội dung của chú thích đó ra bảng điều khiển. Đây là nơi bạn có thể thấy phép thuật xảy ra!
+Trong đoạn mã này, chúng tôi sử dụng `foreach` vòng lặp để lặp qua từng chú thích trên trang đầu tiên. Đối với mỗi chú thích, chúng tôi in tiêu đề, chủ đề và nội dung của chú thích đó ra bảng điều khiển. Đây là nơi bạn có thể thấy phép thuật xảy ra!
 
 ## Phần kết luận
 
@@ -83,22 +85,24 @@ Xin chúc mừng! Bạn đã học thành công cách trích xuất chú thích 
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và quản lý tài liệu PDF theo chương trình.
+Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và quản lý tài liệu PDF theo chương trình.
 
 ### Làm thế nào để cài đặt Aspose.PDF?
-Bạn có thể cài đặt Aspose.PDF thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống trực tiếp từ[Trang web Aspose](https://releases.aspose.com/pdf/net/).
+Bạn có thể cài đặt Aspose.PDF thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống trực tiếp từ [Trang web Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Tôi có thể trích xuất chú thích từ nhiều trang không?
 Có, bạn có thể duyệt qua tất cả các trang trong tài liệu và trích xuất chú thích từ mỗi trang.
 
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể dùng thử Aspose.PDF miễn phí bằng cách tải xuống phiên bản dùng thử từ[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử Aspose.PDF miễn phí bằng cách tải xuống phiên bản dùng thử từ [đây](https://releases.aspose.com/).
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

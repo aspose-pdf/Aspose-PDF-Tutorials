@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Resimleri Yeniden Boyutlandırma
-linktitle: PDF Dosyasındaki Resimleri Yeniden Boyutlandırma
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu ayrıntılı kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasındaki görsellerin boyutunu nasıl değiştireceğinizi öğrenin. Kaliteyi kaybetmeden dosya boyutunu optimize edin.
-weight: 250
-url: /tr/net/programming-with-images/resize-images/
+"description": "Bu ayrıntılı kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasındaki görsellerin boyutunu nasıl değiştireceğinizi öğrenin. Kaliteyi kaybetmeden dosya boyutunu optimize edin."
+"linktitle": "PDF Dosyasındaki Resimleri Yeniden Boyutlandırma"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Resimleri Yeniden Boyutlandırma"
+"url": "/tr/net/programming-with-images/resize-images/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Resimleri Yeniden Boyutlandırma
@@ -23,9 +25,9 @@ PDF dosyanızdaki görselleri yeniden boyutlandırma sürecine başlamadan önce
 
 1. Visual Studio Kurulu: Makinenizde Visual Studio'nun bir sürümünün kurulu olması gerekir. Aspose.PDF kütüphanesiyle etkileşime girmek için kodumuzu burada yazacağız.
 2. .NET Framework: .NET Framework'ün yüklü olduğundan emin olun. Bu eğitim en azından .NET Framework 4.0 veya üzeri kullandığınızı varsayar.
-3. .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesini indirmeniz gerekecek. Bu güçlü araç, PDF dosyalarını programatik olarak düzenlemeyi kolaylaştırır.[buradan indirin](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF for .NET Library: Aspose.PDF kütüphanesini indirmeniz gerekecek. Bu güçlü araç, PDF dosyalarını programatik olarak düzenlemeyi kolaylaştırır. [buradan indirin](https://releases.aspose.com/pdf/net/).
 4. C#'ın Temel Anlayışı: C# programlamaya aşinalık faydalı olacaktır. Basit C# kodunu nasıl yazacağınızı biliyorsanız, gayet iyi olacaksınız!
-5.  Test Edilecek Bir PDF Dosyası: Görüntü yeniden boyutlandırma işlevini test etmek için hazır bir örnek PDF dosyası edinin. Bu eğitim için, adında bir tane olduğunu varsayacağız`ResizeImage.pdf`.
+5. Test Edilecek Bir PDF Dosyası: Görüntü yeniden boyutlandırma işlevini test etmek için hazır bir örnek PDF dosyası edinin. Bu eğitim için, adında bir tane olduğunu varsayacağız `ResizeImage.pdf`.
 
 Artık bunu hallettiğimize göre, Aspose.PDF yeteneklerinden yararlanmak için gerekli paketleri içe aktarmaya geçebiliriz.
 
@@ -68,7 +70,7 @@ Sonra, PDF belgenizin nerede bulunduğunu belirlemeniz gerekir. Bu, proje yapın
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` dosyanıza giden gerçek yol ile doğru bir şekilde yönlendirdiğinden emin olun`ResizeImage.pdf`.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` dosyanıza giden gerçek yol ile doğru bir şekilde yönlendirdiğinden emin olun `ResizeImage.pdf`.
 
 ## Adım 3: PDF Belgesini açın
 
@@ -78,11 +80,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 ```
 
- Bu satır, yeni bir örnek oluşturur`Document` PDF dosyanızı temsil eden sınıf. Onu düzenlemeye hazırsınız!
+Bu satır, yeni bir örnek oluşturur `Document` PDF dosyanızı temsil eden sınıf. Onu düzenlemeye hazırsınız!
 
 ## Adım 4: Optimizasyon Seçeneklerini Başlatın
 
- Görüntüleri yeniden boyutlandırmak için öncelikle bir örnek oluşturmamız gerekiyor`OptimizationOptions`Bu, görüntüleri nasıl sıkıştıracağımızı ve yeniden boyutlandıracağımızı tanımlamamıza yardımcı olacaktır:
+Görüntüleri yeniden boyutlandırmak için öncelikle bir örnek oluşturmamız gerekiyor `OptimizationOptions`Bu, görüntüleri nasıl sıkıştıracağımızı ve yeniden boyutlandıracağımızı tanımlamamıza yardımcı olacaktır:
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
@@ -155,7 +157,7 @@ Bu eğitimde, .NET için Aspose.PDF kullanarak bir PDF dosyasındaki görselleri
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmasını, düzenlemesini ve dönüştürmesini sağlayan bir sınıf kütüphanesidir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose ücretsiz deneme sunuyor. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose ücretsiz deneme sunuyor. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF kullanarak hangi tür dosyalar oluşturabilirim?
 Metin, resim ve vektör grafikleri içerenler de dahil olmak üzere çok çeşitli PDF dosyaları oluşturabilir ve düzenleyebilirsiniz.
@@ -164,10 +166,12 @@ Metin, resim ve vektör grafikleri içerenler de dahil olmak üzere çok çeşit
 Hayır, Aspose.PDF Java ve Android dahil olmak üzere çeşitli platformlar için mevcuttur.
 
 ### Aspose.PDF sorunlarıyla ilgili desteği nereden alabilirim?
- Aspose forumunda destek bulabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose forumunda destek bulabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

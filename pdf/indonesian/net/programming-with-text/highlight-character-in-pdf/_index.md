@@ -1,14 +1,16 @@
 ---
-title: Sorot Karakter Dalam File PDF
-linktitle: Sorot Karakter Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menyorot karakter dalam PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini.
-weight: 240
-url: /id/net/programming-with-text/highlight-character-in-pdf/
+"description": "Pelajari cara menyorot karakter dalam PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Sorot Karakter Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Sorot Karakter Dalam File PDF"
+"url": "/id/net/programming-with-text/highlight-character-in-pdf/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sorot Karakter Dalam File PDF
@@ -22,7 +24,7 @@ Saat bekerja dengan PDF, kebutuhan untuk menyorot teks atau karakter sering munc
 Sebelum kita mulai membuat kode, mari kita pastikan kita memiliki semua yang kita butuhkan. Berikut ini yang akan Anda perlukan:
 
 1. Lingkungan Pengembangan: Tutorial ini mengasumsikan Anda bekerja di Visual Studio atau IDE .NET serupa.
-2.  Aspose.PDF untuk Pustaka .NET: Jika Anda belum melakukannya, Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/) dan menambahkannya ke proyek Anda. 
+2. Aspose.PDF untuk Pustaka .NET: Jika Anda belum melakukannya, Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/) dan menambahkannya ke proyek Anda. 
 3. Pengetahuan Dasar C#: Pengenalan pemrograman C# akan membantu Anda memahami implementasinya dengan mudah.
 4. Dokumen PDF: Anda harus memiliki contoh berkas PDF yang siap digunakan. Anda dapat membuat satu atau memanfaatkan dokumen yang sudah ada.
 
@@ -52,7 +54,7 @@ Langkah pertama adalah menginisialisasi dokumen PDF Anda. Ini melibatkan pemuata
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Pastikan untuk mengatur jalur yang benar.
 Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(dataDir + "input.pdf");
 ```
-Dalam cuplikan ini, ganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya pada mesin Anda tempat file PDF input Anda berada.`Aspose.Pdf.Document` kelas dibuat untuk memuat PDF Anda.
+Dalam cuplikan ini, ganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya pada mesin Anda tempat file PDF input Anda berada. `Aspose.Pdf.Document` kelas dibuat untuk memuat PDF Anda.
 
 ## Langkah 2: Siapkan Proses Rendering
 
@@ -67,7 +69,7 @@ using (MemoryStream ms = new MemoryStream())
     conv.GetNextImage(ms, System.Drawing.Imaging.ImageFormat.Png);
     Bitmap bmp = (Bitmap)Bitmap.FromStream(ms);
 ```
- Kami menentukan resolusi untuk kejelasan, yang memungkinkan teks ditampilkan dengan benar.`PdfConverter`mengubah halaman PDF menjadi gambar sehingga kita dapat menggambar di atasnya.
+Kami menentukan resolusi untuk kejelasan, yang memungkinkan teks ditampilkan dengan benar. `PdfConverter` mengubah halaman PDF menjadi gambar sehingga kita dapat menggambar di atasnya.
 
 ## Langkah 3: Buat Objek Grafik untuk Menggambar
 
@@ -93,7 +95,7 @@ for (int i = 0; i < pdfDocument.Pages.Count; i++)
     textFragmentAbsorber.TextSearchOptions.IsRegularExpressionUsed = true;
     page.Accept(textFragmentAbsorber);
 ```
- Kami mengakses setiap halaman dan mencari semua teks menggunakan`TextFragmentAbsorber` Pola ekspresi reguler`@"[\S]+"` menangkap semua karakter selain spasi.
+Kami mengakses setiap halaman dan mencari semua teks menggunakan `TextFragmentAbsorber`Pola ekspresi reguler `@"[\S]+"` menangkap semua karakter selain spasi.
 
 ## Langkah 5: Ekstrak Fragmen Teks dan Sorot
 
@@ -120,7 +122,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
     }
 }
 ```
-Kita mengulang setiap fragmen teks, segmen-segmennya, dan karakter-karakter individual, menggambar persegi panjang di sekelilingnya menggunakan objek grafik yang telah dibuat sebelumnya.
+Kami mengulang setiap fragmen teks, segmen-segmennya, dan karakter-karakter individual, menggambar persegi panjang di sekelilingnya menggunakan objek grafik yang telah dibuat sebelumnya.
 
 ## Langkah 6: Simpan Gambar yang Dimodifikasi
 
@@ -139,7 +141,7 @@ Terakhir, sebaiknya Anda membungkus kode Anda dalam blok try-catch, untuk memast
 ```csharp
 catch (Exception ex)
 {
-    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://pembelian.aspose.com/temporary-license/).");
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://pembelian.aspose.com/lisensi-sementara/).");
 }
 ```
 
@@ -161,13 +163,15 @@ Ya, kode yang disediakan dapat disesuaikan untuk menyorot beberapa fragmen denga
 Ya, Aspose menawarkan uji coba gratis, jadi Anda dapat menguji pustaka sebelum membeli.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF?
-Ya, lisensi yang valid diperlukan untuk penggunaan komersial, tetapi Anda dapat memperoleh lisensi sementara selama 30 hari untuk pengujian.
+Ya, lisensi yang valid diperlukan untuk penggunaan komersial, tetapi Anda dapat memperoleh lisensi sementara 30 hari untuk pengujian.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat merujuk ke[Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) untuk informasi lebih rinci tentang implementasi dan fitur.
+Anda dapat merujuk ke [Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) untuk informasi lebih rinci tentang implementasi dan fitur.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

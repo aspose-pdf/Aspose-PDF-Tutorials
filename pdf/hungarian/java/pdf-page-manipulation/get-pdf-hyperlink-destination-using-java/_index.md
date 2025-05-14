@@ -1,65 +1,67 @@
 ---
-title: PDF hiperhivatkozási cél beszerzése Java használatával
-linktitle: PDF hiperhivatkozási cél beszerzése Java használatával
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Fedezze fel, hogyan lehet letölteni PDF hiperhivatkozási célokat Java használatával az Aspose.PDF for Java segítségével. Tanuljon lépésről lépésre kódpéldákkal ebben az átfogó oktatóanyagban.
-weight: 10
-url: /hu/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
+"description": "Fedezze fel, hogyan lehet PDF hivatkozási célokat lekérni Java használatával az Aspose.PDF for Java segítségével. Tanulja meg lépésről lépésre kódpéldákkal ebben az átfogó oktatóanyagban."
+"linktitle": "PDF hiperhivatkozás céljának lekérése Java használatával"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "PDF hiperhivatkozás céljának lekérése Java használatával"
+"url": "/hu/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF hiperhivatkozási cél beszerzése Java használatával
+# PDF hiperhivatkozás céljának lekérése Java használatával
 
 
 ## Bevezetés
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan szerezhet be PDF hiperhivatkozási célokat Java használatával az Aspose.PDF for Java segítségével. A hiperhivatkozások a PDF-dokumentumok alapvető elemei, amelyek lehetővé teszik a felhasználók számára, hogy meghatározott célhelyekre navigáljanak a PDF-ben vagy a külső forrásokban. Lépésről lépésre végigjárjuk a folyamatot, kódpéldákkal és magyarázatokkal.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan lehet PDF hiperhivatkozások célpontjait Javában lekérdezni az Aspose.PDF for Java segítségével. A hiperhivatkozások alapvető elemek a PDF dokumentumokban, lehetővé téve a felhasználók számára, hogy a PDF-en vagy külső forrásokon belül adott célpontokra navigáljanak. Lépésről lépésre végigvezetjük a folyamaton, kódpéldákkal és magyarázatokkal.
 
-## A PDF-hiperhivatkozások megértése
+## PDF hiperhivatkozások megértése
 
-A PDF hiperhivatkozások olyan interaktív elemek, amelyek lehetővé teszik a felhasználók számára, hogy a PDF-dokumentumban vagy külső webhelyeken különböző helyekre kattintsanak és navigáljanak. Két fő összetevőből állnak: a hivatkozás megjegyzéséből és a célból. A cél megadja, hogy a hiperhivatkozás hova viszi a felhasználót.
+A PDF-hiperhivatkozások interaktív elemek, amelyek lehetővé teszik a felhasználók számára, hogy a PDF-dokumentumon vagy külső webhelyeken belül különböző helyekre kattintsanak és navigáljanak. Két fő összetevőből állnak: a hivatkozás jegyzetéből és a célhelyből. A célhely határozza meg, hogy hová viszi a hiperhivatkozás a felhasználót.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 - Java fejlesztői környezet
-- Aspose.PDF a Java könyvtárhoz
-- Java programozási alapismeretek
+- Aspose.PDF Java könyvtárhoz
+- Alapvető Java programozási ismeretek
 
-## Az Aspose.PDF beállítása Java számára
+## Az Aspose.PDF beállítása Java-hoz
 
-A kezdéshez be kell állítania az Aspose.PDF for Java fájlt a projektben. Kövesse az alábbi lépéseket:
-1.  Az Aspose.PDF for Java letöltése innen:[itt](https://releases.aspose.com/pdf/java/).
-2. Adja hozzá az Aspose.PDF könyvtárat a Java projekthez.
+kezdéshez be kell állítania az Aspose.PDF for Java fájlt a projektjében. Kövesse az alábbi lépéseket:
+1. Töltse le az Aspose.PDF-et Java-hoz innen: [itt](https://releases.aspose.com/pdf/java/).
+2. Add hozzá az Aspose.PDF könyvtárat a Java projektedhez.
 
 ## PDF dokumentum betöltése
 
-Először egy PDF dokumentumot töltünk be az Aspose.PDF for Java használatával. Íme a kód ehhez:
+Először betöltünk egy PDF dokumentumot az Aspose.PDF for Java használatával. Íme a kód ehhez:
 
 ```java
-// Töltse be a PDF dokumentumot
+// PDF dokumentum betöltése
 Document pdfDocument = new Document("sample.pdf");
 ```
 
 ## Hiperhivatkozások lekérése
 
-Ezután le kell kérnünk a PDF dokumentumban található hiperhivatkozásokat. Az Aspose.PDF kényelmes módot kínál erre:
+Ezután vissza kell szereznünk a PDF dokumentumban található hiperhivatkozásokat. Az Aspose.PDF egy kényelmes módot kínál erre:
 
 ```java
-// Szerezze be a linkgyűjteményt az első oldalról
+// Szerezd meg a linkek gyűjteményét az első oldalról
 Page page = pdfDocument.getPages().get_Item(1);
 LinkAnnotationCollection linkAnnotations = page.getAnnotations().getLinkAnnotations();
 ```
 
-## Hiperhivatkozási célhelyek kibontása
+## Hiperhivatkozás célpontjainak kinyerése
 
-Most, hogy megvannak a hivatkozás megjegyzései, kibonthatjuk a hiperhivatkozási célokat:
+Most, hogy megvannak a hivatkozás-annotációk, kinyerhetjük a hivatkozások célpontjait:
 
 ```java
-// Hiperhivatkozási célhelyek kibontása és nyomtatása
+// Hivatkozási célok kinyerése és nyomtatása
 for (LinkAnnotation link : linkAnnotations) {
     String destination = link.getAction().getDestination();
     System.out.println("Hyperlink Destination: " + destination);
@@ -68,32 +70,34 @@ for (LinkAnnotation link : linkAnnotations) {
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan szerezhet be PDF hiperhivatkozási célokat Java és Aspose.PDF for Java használatával. Áttekintettük a PDF hiperhivatkozások alapjait, beállítottuk a szükséges környezetet, betöltöttünk egy PDF-dokumentumot, letöltöttük a hiperhivatkozásokat, és kibontottuk a rendeltetési helyüket. Ez a tudás értékes lehet a Java alkalmazások különféle PDF-kezelési feladataihoz.
+Ebben az oktatóanyagban megtanultuk, hogyan lehet PDF hiperhivatkozások célállomásait lekérni Java és az Aspose.PDF for Java használatával. Áttekintettük a PDF hiperhivatkozások alapjait, beállítottuk a szükséges környezetet, betöltöttünk egy PDF dokumentumot, lekértük a hiperhivatkozásokat, és kinyertük a célállomásaikat. Ez a tudás értékes lehet a Java alkalmazásokban végzett különféle PDF-manipulációs feladatokhoz.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.PDF for Java fájlt?
+### Hogyan telepíthetem az Aspose.PDF fájlt Java-hoz?
 
- Az Aspose.PDF for Java telepítéséhez töltse le a könyvtárat innen[itt](https://releases.aspose.com/pdf/java/) és adja hozzá a Java-projekt függőségeihez.
+Az Aspose.PDF Java-hoz telepítéséhez töltse le a könyvtárat innen: [itt](https://releases.aspose.com/pdf/java/) és add hozzá a Java projekted függőségeihez.
 
-### Használhatom ingyenesen az Aspose.PDF for Java-t?
+### Ingyenesen használhatom az Aspose.PDF fájlt Java-hoz?
 
-Az Aspose.PDF for Java egy kereskedelmi célú könyvtár, de a funkcióit ingyenes próbaverzióval fedezheti fel.
+Az Aspose.PDF for Java egy kereskedelmi forgalomban kapható könyvtár, de a funkcióit egy ingyenes próbaverzióval is felfedezheted.
 
-### Milyen típusú hiperhivatkozásokat tudok lekérni az Aspose.PDF for Java használatával?
+### Milyen típusú hiperhivatkozásokat kérhetek le az Aspose.PDF for Java használatával?
 
-Az Aspose.PDF for Java lehetővé teszi a PDF-dokumentumokban található belső és külső hivatkozások lekérését.
+Az Aspose.PDF for Java lehetővé teszi a PDF dokumentumban található belső és külső hiperhivatkozások lekérését.
 
-### Hogyan módosíthatom vagy távolíthatom el a hiperhivatkozásokat PDF-ben az Aspose.PDF for Java segítségével?
+### Hogyan módosíthatom vagy távolíthatom el a hiperhivatkozásokat egy PDF-ben az Aspose.PDF for Java használatával?
 
-Módosíthatja vagy eltávolíthatja a hiperhivatkozásokat, ha eléri a hivatkozás megjegyzéseit és a kapcsolódó műveleteket a PDF-dokumentumban.
+hiperhivatkozásokat a PDF dokumentumban található hivatkozásjegyzetek és a hozzájuk tartozó műveletek elérésével módosíthatja vagy eltávolíthatja.
 
 ### Hol találok további dokumentációt az Aspose.PDF for Java-ról?
 
- Az Aspose.PDF for Java részletes dokumentációját itt találja[itt](https://reference.aspose.com/pdf/java/).
+Az Aspose.PDF for Java részletes dokumentációját itt találja: [itt](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

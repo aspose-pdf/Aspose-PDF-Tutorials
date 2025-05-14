@@ -1,14 +1,16 @@
 ---
-title: Wyodrębnij tekst z adnotacji stempla
-linktitle: Wyodrębnij tekst z adnotacji stempla
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyodrębnić tekst z adnotacji stempla w pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego samouczka krok po kroku, który zawiera szczegółowy przykład kodu.
-weight: 80
-url: /pl/net/programming-with-stamps-and-watermarks/extract-text-from-stamp-annotation/
+"description": "Dowiedz się, jak wyodrębnić tekst z adnotacji stempla w pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego samouczka krok po kroku, który zawiera szczegółowy przykład kodu."
+"linktitle": "Wyodrębnij tekst z adnotacji stempla"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wyodrębnij tekst z adnotacji stempla"
+"url": "/pl/net/programming-with-stamps-and-watermarks/extract-text-from-stamp-annotation/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnij tekst z adnotacji stempla
@@ -21,7 +23,7 @@ Podczas pracy z plikami PDF wyodrębnianie określonych danych, takich jak tekst
 
 Zanim przejdziemy do samouczka, jest kilka rzeczy, których będziesz potrzebować:
 
--  Aspose.PDF dla .NET: Musisz mieć zainstalowany Aspose.PDF dla .NET. Możesz[pobierz najnowszą wersję tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Musisz mieć zainstalowany Aspose.PDF dla .NET. Możesz [pobierz najnowszą wersję tutaj](https://releases.aspose.com/pdf/net/).
 - Visual Studio: W tym przewodniku założono, że używasz programu Visual Studio jako zintegrowanego środowiska programistycznego (IDE).
 - Podstawowa wiedza o języku C#: Powinieneś posiadać podstawową wiedzę na temat programowania w języku C#.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "test.pdf");
 ```
 
- Tutaj używamy`Document` Klasa dostarczona przez Aspose.PDF do otwierania i interakcji z plikiem PDF.`dataDir` zmienna reprezentuje ścieżkę do twojego pliku. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój plik PDF.
+Tutaj używamy `Document` Klasa dostarczona przez Aspose.PDF do otwierania i interakcji z plikiem PDF. `dataDir` zmienna reprezentuje ścieżkę do twojego pliku. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój plik PDF.
 
 ## Krok 2: Zidentyfikuj adnotację na znaczku
 
@@ -63,7 +65,7 @@ StampAnnotation annot = doc.Pages[1].Annotations[3] as StampAnnotation;
 W tym wierszu kodu:
 - `doc.Pages[1]`: Umożliwia dostęp do pierwszej strony dokumentu.
 - `Annotations[3]`:Odnosi się do czwartej adnotacji na stronie (ponieważ indeksowanie zaczyna się od 0).
-- `as StampAnnotation` :Rzuca adnotację do`StampAnnotation` obiekt, który jest konkretnym typem adnotacji, z którym mamy do czynienia.
+- `as StampAnnotation`:Rzuca adnotację do `StampAnnotation` obiekt, który jest konkretnym typem adnotacji, z którym mamy do czynienia.
 
 ## Krok 3: Utwórz absorber tekstu
 
@@ -73,7 +75,7 @@ Aby wyodrębnić tekst z adnotacji znaczka, musimy użyć Text Absorber. To narz
 TextAbsorber ta = new TextAbsorber();
 ```
 
- Ten`TextAbsorber` Klasa ta jest przeznaczona do wyodrębniania tekstu z dowolnej części dokumentu. Będziemy jej używać do określania wyglądu adnotacji.
+Ten `TextAbsorber` Klasa ta jest przeznaczona do wyodrębniania tekstu z dowolnej części dokumentu. Będziemy jej używać do określania wyglądu adnotacji.
 
 ## Krok 4: Wyodrębnij wygląd adnotacji stempla
 
@@ -88,13 +90,13 @@ Tutaj:
 
 ## Krok 5: Wyodrębnij zawartość tekstową
 
- Teraz, gdy mamy już wygląd, możemy użyć`TextAbsorber` aby zobaczyć wygląd i uchwycić tekst.
+Teraz, gdy mamy już wygląd, możemy użyć `TextAbsorber` aby zobaczyć wygląd i uchwycić tekst.
 
 ```csharp
 ta.Visit(ap);
 ```
 
- Ten`Visit` metoda pozwala na`TextAbsorber` aby przeanalizować wygląd i wyodrębnić osadzoną w nim treść tekstową.
+Ten `Visit` metoda pozwala na `TextAbsorber` aby przeanalizować wygląd i wyodrębnić osadzoną w nim treść tekstową.
 
 ## Krok 6: Wyświetl wyodrębniony tekst
 
@@ -108,7 +110,7 @@ Ta prosta linia kodu wyświetla wyodrębniony tekst w oknie konsoli. Możesz ró
 
 ## Wniosek
 
-Praca z adnotacjami w dokumentach PDF, zwłaszcza adnotacjami stempli, może dodać znaczną funkcjonalność do Twoich aplikacji. Dzięki Aspose.PDF dla .NET masz solidny zestaw narzędzi, który ułatwia wyodrębnianie danych, manipulowanie adnotacjami i interakcję z plikami PDF w znaczący sposób. W tym samouczku pokazaliśmy Ci, jak wyodrębnić tekst z adnotacji stempla w zaledwie kilku prostych krokach. Teraz Twoja kolej, aby poeksperymentować z tymi funkcjami w swoich projektach!
+Praca z adnotacjami w dokumentach PDF, zwłaszcza adnotacjami stempli, może znacznie zwiększyć funkcjonalność Twoich aplikacji. Dzięki Aspose.PDF dla .NET masz solidny zestaw narzędzi, które ułatwiają wyodrębnianie danych, manipulowanie adnotacjami i interakcję z plikami PDF w znaczący sposób. W tym samouczku pokazaliśmy Ci, jak wyodrębnić tekst z adnotacji stempla w zaledwie kilku prostych krokach. Teraz Twoja kolej, aby poeksperymentować z tymi funkcjami w swoich projektach!
 
 ## Najczęściej zadawane pytania
 
@@ -116,7 +118,7 @@ Praca z adnotacjami w dokumentach PDF, zwłaszcza adnotacjami stempli, może dod
 Tak, Aspose.PDF pozwala wyodrębniać tekst z różnych typów adnotacji, takich jak adnotacje tekstowe, adnotacje w formie swobodnego tekstu i inne, nie tylko adnotacje stemplowe.
 
 ### Czy Aspose.PDF obsługuje dodawanie niestandardowych adnotacji?  
-Oczywiście! Aspose.PDF obsługuje tworzenie i dodawanie niestandardowych adnotacji do dokumentów PDF, dając Ci elastyczność w zarządzaniu danymi i ich prezentacji.
+Oczywiście! Aspose.PDF obsługuje tworzenie i dodawanie niestandardowych adnotacji do dokumentów PDF, dając Ci elastyczność w zarządzaniu i prezentowaniu danych.
 
 ### Czy mogę wyodrębnić obrazy z adnotacji na znaczkach?  
 Tak, możesz wyodrębnić obrazy z adnotacji do znaczków, stosując podobne metody, uzyskując dostęp do wyglądu i pobierając dane obrazu.
@@ -125,10 +127,12 @@ Tak, możesz wyodrębnić obrazy z adnotacji do znaczków, stosując podobne met
 Aspose.PDF dla platformy .NET oferuje szeroką gamę funkcji, w tym manipulację tekstem, obsługę pól formularzy, konwersję dokumentów i wiele innych.
 
 ### Czy Aspose.PDF dla .NET jest darmowy?  
- Aspose.PDF dla .NET oferuje bezpłatną wersję próbną, ale aby uzyskać dostęp do pełnego zestawu funkcji, musisz kupić licencję. Możesz również ubiegać się o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF dla .NET oferuje bezpłatną wersję próbną, ale aby uzyskać dostęp do pełnego zestawu funkcji, musisz kupić licencję. Możesz również ubiegać się o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,21 +1,23 @@
 ---
-title: Utwórz plik PDF z tekstem oznaczonym
-linktitle: Utwórz plik PDF z tekstem oznaczonym
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak tworzyć oznaczone pliki PDF z dostępną zawartością przy użyciu Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku.
-weight: 50
-url: /pl/net/programming-with-tagged-pdf/create-pdf-with-tagged-text/
+"description": "Dowiedz się, jak tworzyć oznaczone pliki PDF z dostępną zawartością przy użyciu Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku."
+"linktitle": "Utwórz plik PDF z tekstem oznaczonym"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Utwórz plik PDF z tekstem oznaczonym"
+"url": "/pl/net/programming-with-tagged-pdf/create-pdf-with-tagged-text/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz plik PDF z tekstem oznaczonym
 
 ## Wstęp
 
-W dzisiejszej erze cyfrowej dokumenty PDF stały się jednym z najpopularniejszych formatów udostępniania i wyświetlania treści. Niezależnie od tego, czy są to raporty biznesowe, prace naukowe czy instrukcje użytkownika, pliki PDF są wszędzie! Ale tym, co odróżnia dobry plik PDF od świetnego, jest dostępność i struktura. Dokładnie tak! Oznaczone pliki PDF ułatwiają czytnikom ekranu i technologiom wspomagającym zrozumienie treści i nawigację po niej. I zgadnij co? W tym samouczku przeprowadzę Cię przez proces tworzenia oznaczonych plików PDF przy użyciu Aspose.PDF dla .NET, krok po kroku! 
+dzisiejszej erze cyfrowej dokumenty PDF stały się jednym z najpopularniejszych formatów udostępniania i wyświetlania treści. Niezależnie od tego, czy są to raporty biznesowe, prace naukowe czy instrukcje użytkownika, pliki PDF są wszędzie! Ale tym, co odróżnia dobry plik PDF od świetnego, jest dostępność i struktura. Dokładnie tak! Oznaczone pliki PDF ułatwiają czytnikom ekranu i technologiom wspomagającym zrozumienie treści i poruszanie się po niej. I zgadnij co? W tym samouczku przeprowadzę Cię przez proces tworzenia oznaczonych plików PDF przy użyciu Aspose.PDF dla .NET, krok po kroku! 
 
 Więc weź swój ulubiony napój, usiądź wygodnie i zanurz się w świecie tagowanych plików PDF!
 
@@ -24,7 +26,7 @@ Więc weź swój ulubiony napój, usiądź wygodnie i zanurz się w świecie tag
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio - Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Możesz użyć dowolnej wersji, która obsługuje .NET.
-2.  Aspose.PDF dla .NET — Pobierz najnowszą wersję Aspose.PDF dla .NET ze strony[strona internetowa](https://releases.aspose.com/pdf/net/)Możesz również zdecydować się na bezpłatną wersję próbną, aby poznać jej funkcje.
+2. Aspose.PDF dla .NET — Pobierz najnowszą wersję Aspose.PDF dla .NET ze strony [strona internetowa](https://releases.aspose.com/pdf/net/)Możesz również zdecydować się na bezpłatną wersję próbną, aby poznać jej funkcje.
 3. .NET Framework - Te przykłady zostaną zbudowane dla .NET. Upewnij się, że masz zainstalowaną kompatybilną wersję na swoim komputerze.
 4. Podstawowa znajomość języka C# - Znajomość programowania w języku C# okaże się przydatna podczas pisania kodu!
 
@@ -41,7 +43,7 @@ Najpierw uruchom program Visual Studio i utwórz nowy projekt w języku C#.
 1. Otwórz program Visual Studio.
 2. Kliknij „Utwórz nowy projekt”.
 3. Wybierz „Aplikacja konsolowa (.NET)” i kliknij „Dalej”.
-4.  Nadaj nazwę swojemu projektowi (np.`TaggedPdfExample`) i ustaw jego lokalizację.
+4. Nadaj nazwę swojemu projektowi (np. `TaggedPdfExample`) i ustaw jego lokalizację.
 5. Kliknij „Utwórz”.
 
 ### Dodaj odniesienie Aspose.PDF
@@ -54,7 +56,7 @@ Teraz dodajmy bibliotekę Aspose.PDF:
 
 ### Importuj wymagane przestrzenie nazw
 
- Na górze głównego pliku programu (takiego jak`Program.cs`), zaimportuj następujące przestrzenie nazw:
+Na górze głównego pliku programu (takiego jak `Program.cs`), zaimportuj następujące przestrzenie nazw:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -77,11 +79,11 @@ Zanim zaczniemy kodować, zdefiniujmy katalog dokumentu, w którym zapiszemy nas
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zaktualizuj to do swojej ścieżki
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, pod którą chcesz zapisać plik PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` ze ścieżką, pod którą chcesz zapisać plik PDF.
 
 ## Krok 2: Utwórz dokument PDF
 
-Utwórzmy nową instancję dokumentu PDF. To jak rysowanie pustego płótna, na którym będziemy dodawać naszą treść. 
+Utwórzmy nową instancję dokumentu PDF. To jest jak rysowanie pustego płótna, na którym będziemy dodawać naszą treść. 
 
 ```csharp
 // Utwórz dokument PDF
@@ -169,19 +171,21 @@ Tworzenie oznaczonych plików PDF za pomocą Aspose.PDF dla .NET jest dziecinnie
 Oznaczony plik PDF zawiera ustrukturyzowane dane, dzięki którym czytniki ekranu i technologie wspomagające mogą łatwiej poruszać się po treści.
 
 ### Czy muszę kupić Aspose.PDF, żeby z niego korzystać?  
- Chociaż możesz zacząć od bezpłatnego okresu próbnego, licencja będzie wymagana do długoterminowego użytkowania. Możesz dowiedzieć się więcej[Tutaj](https://purchase.aspose.com/buy).
+Chociaż możesz zacząć od bezpłatnego okresu próbnego, licencja będzie wymagana do długoterminowego użytkowania. Możesz dowiedzieć się więcej [Tutaj](https://purchase.aspose.com/buy).
 
-### Czy mogę dostosować elementy struktury w moim pliku PDF?  
+### Czy mogę dostosować elementy struktury w pliku PDF?  
 Oczywiście! Możesz manipulować różnymi elementami i tworzyć złożone struktury w oparciu o swoje wymagania.
 
 ### Czy Aspose.PDF jest kompatybilny ze wszystkimi aplikacjami .NET?  
 Tak, Aspose.PDF został zaprojektowany do działania na różnych platformach .NET, w tym .NET Framework, .NET Core i innych.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?  
- Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10) w przypadku jakichkolwiek pytań lub problemów.
+Możesz odwiedzić [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10) w przypadku jakichkolwiek pytań lub problemów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

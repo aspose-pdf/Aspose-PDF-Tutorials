@@ -8,7 +8,9 @@ url: /net/programming-with-links-and-actions/add-hyperlink/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Hyperlink In PDF File
@@ -161,6 +163,7 @@ You can find more tutorials in the [documentation](https://reference.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

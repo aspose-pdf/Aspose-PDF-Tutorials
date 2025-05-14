@@ -1,34 +1,36 @@
 ---
-title: Tagga bild i befintlig PDF
-linktitle: Tagga bild i befintlig PDF
-second_title: Aspose.PDF för .NET API Referens
-description: Lär dig hur du taggar bilder i befintliga PDF-filer med Aspose.PDF för .NET. Steg-för-steg-guide för att förbättra tillgängligheten med PDF/UA-kompatibilitet.
-weight: 210
-url: /sv/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/
+"description": "Lär dig hur du taggar bilder i befintliga PDF-filer med Aspose.PDF för .NET. Steg-för-steg-guide för att förbättra tillgängligheten med PDF/UA-kompatibilitet."
+"linktitle": "Tagga bild i befintlig PDF"
+"second_title": "Aspose.PDF för .NET API-referens"
+"title": "Tagga bild i befintlig PDF"
+"url": "/sv/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tagga bild i befintlig PDF
 
 ## Introduktion
 
-den här handledningen går vi igenom hur du taggar en bild i en befintlig PDF med Aspose.PDF för .NET. I slutet av den här guiden kommer du att kunna ställa in alternativ text för bilder, justera layoutattribut och se till att din PDF följer tillgänglighetsstandarder.
+I den här handledningen går vi igenom hur du taggar en bild i en befintlig PDF med hjälp av Aspose.PDF för .NET. I slutet av guiden kommer du att kunna ange alternativ text för bilder, justera layoutattribut och säkerställa att din PDF uppfyller tillgänglighetsstandarder.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi dyker in, låt oss gå igenom vad du behöver för att komma igång:
+Innan vi börjar, låt oss gå igenom vad du behöver för att komma igång:
 
--  Aspose.PDF för .NET: Se till att du har laddat ner och installerat den senaste versionen av Aspose.PDF för .NET.[Ladda ner här](https://releases.aspose.com/pdf/net/).
-- .NET Framework: Se till att du har en .NET-utvecklingsmiljö som Visual Studio inställd.
-- Grundläggande förståelse för PDF-struktur: Bekantskap med PDF-strukturelement som stycken, spann, tabeller och bilder.
--  En giltig licens: Du kan antingen köpa en licens[här](https://purchase.aspose.com/buy) eller använd en tillfällig[här](https://purchase.aspose.com/temporary-license/).
+- Aspose.PDF för .NET: Se till att du har laddat ner och installerat den senaste versionen av Aspose.PDF för .NET. [Ladda ner här](https://releases.aspose.com/pdf/net/).
+- .NET Framework: Se till att du har en .NET-utvecklingsmiljö som Visual Studio konfigurerad.
+- Grundläggande förståelse för PDF-struktur: Bekantskap med PDF-strukturelement som stycken, intervall, tabeller och bilder.
+- Giltig licens: Du kan antingen köpa en licens [här](https://purchase.aspose.com/buy) eller använd en tillfällig [här](https://purchase.aspose.com/temporary-license/).
 
 ## Importera paket
 
-För att börja koda måste du importera de väsentliga namnområdena från Aspose.PDF för .NET. Dessa ger dig tillgång till de nödvändiga klasserna och metoderna för att manipulera PDF-dokumentet.
+För att börja koda behöver du importera de nödvändiga namnrymderna från Aspose.PDF för .NET. Dessa ger dig tillgång till de nödvändiga klasser och metoderna för att manipulera PDF-dokumentet.
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -39,11 +41,11 @@ using System.Linq;
 using System.Text;
 ```
 
-Nu när vi har satt scenen, låt oss dela upp processen att tagga en bild i flera steg.
+Nu när vi har förberett oss, låt oss dela upp processen att tagga en bild i flera steg.
 
 ## Steg 1: Ladda det befintliga PDF-dokumentet
 
-Det första steget är att ladda PDF-filen som du vill arbeta med. Detta kan vara vilken PDF-fil som helst med en bild som du vill tagga.
+Det första steget är att ladda PDF-filen som du vill arbeta med. Det kan vara vilken PDF-fil som helst med en bild som du vill tagga.
 
 ```csharp
 // Sökvägen till dokumentkatalogen.
@@ -56,12 +58,12 @@ string logFile = dataDir + "TH_out.xml";
 Document document = new Document(inFile);
 ```
 
--  Ersätta`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen till din fil.
--  De`Document` klass låter dig ladda en befintlig PDF. Du kommer att ändra denna PDF för att tagga bilden.
+- Ersätta `"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen till din fil.
+- De `Document` Med klassen kan du ladda en befintlig PDF. Du kommer att modifiera denna PDF för att tagga bilden.
 
-## Steg 2: Få åtkomst till taggat innehåll och rotstrukturelement
+## Steg 2: Åtkomst till taggat innehåll och rotstrukturelement
 
-När du har öppnat PDF-filen är nästa steg att komma åt det taggade innehållet och identifiera rotstrukturelementet. Detta är avgörande eftersom det låter dig navigera genom elementen i PDF:en och göra ändringar.
+När du har öppnat PDF-filen är nästa steg att komma åt det taggade innehållet och identifiera rotstrukturelementet. Detta är avgörande eftersom det låter dig navigera bland elementen i PDF-filen och göra ändringar.
 
 ```csharp
 // Få taggat innehåll och rotstrukturelement
@@ -69,48 +71,48 @@ ITaggedContent taggedContent = document.TaggedContent;
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
-- `TaggedContent` ger tillgång till de strukturerade elementen i PDF:en.
--  De`RootElement` är det översta strukturelementet, från vilket du kan gå ner till andra element som stycken, tabeller och bilder.
+- `TaggedContent` ger åtkomst till de strukturerade elementen i PDF-filen.
+- De `RootElement` är det översta strukturelementet, från vilket du kan gå ner till andra element som stycken, tabeller och bilder.
 
-## Steg 3: Ställ in titeln för det taggade PDF-dokumentet
+## Steg 3: Ange titeln för det taggade PDF-dokumentet
 
-Genom att lägga till en titel till det taggade PDF-dokumentet säkerställs att ditt dokument är korrekt märkt, vilket är användbart för tillgänglighet och PDF/UA-kompatibilitet.
+Att lägga till en titel på det taggade PDF-dokumentet säkerställer att dokumentet är korrekt märkt, vilket är bra för tillgänglighet och PDF/UA-efterlevnad.
 
 ```csharp
 // Ange titel för det taggade PDF-dokumentet
 taggedContent.SetTitle("Document with images");
 ```
 
-- Att ställa in en titel för din taggade PDF förbättrar tillgängligheten och förbättrar dokumenttydligheten för skärmläsare och hjälpmedel.
+- Att ange en titel för din taggade PDF förbättrar tillgängligheten och förbättrar dokumentets tydlighet för skärmläsare och hjälpmedelstekniker.
 
 ## Steg 4: Hitta och tagga bilden
 
- Låt oss nu hitta bildelementet (kallas en`FigureElement` i Aspose.PDF), ställ in en alternativ text för den och konfigurera dess layoutattribut.
+Nu ska vi hitta bildelementet (kallat ett `FigureElement` i Aspose.PDF), ange en alternativ text för den och konfigurera dess layoutattribut.
 
 ```csharp
-// Gå igenom alla figurelement (bilder) och ställ in alternativa text- och layoutattribut
+// Loopa igenom alla figurelement (bilder) och ange alternativ text och layoutattribut
 foreach (FigureElement figureElement in rootElement.FindElements<FigureElement>(true))
 {
-    // Ställ in alternativ text för figuren
+    // Ange alternativ text för figuren
     figureElement.AlternativeText = "Figure alternative text (technique 2)";
     
-    // Skapa och ställ in BBox-attribut (gränsruta)
+    // Skapa och ange BBox-attribut (avgränsningsram)
     StructureAttribute bboxAttribute = new StructureAttribute(AttributeKey.BBox);
     bboxAttribute.SetRectangleValue(new Aspose.Pdf.Rectangle(0.0, 0.0, 100.0, 100.0));
     
-    // Ställ in layoutattribut för figuren
+    // Ange layoutattribut för figuren
     StructureAttributes figureLayoutAttributes = figureElement.Attributes.GetAttributes(AttributeOwnerStandard.Layout);
     figureLayoutAttributes.SetAttribute(bboxAttribute);
 }
 ```
 
--  Denna kod går igenom alla`FigureElement` objekt i rotstrukturen, som representerar bilder.
-- Den ställer in den alternativa texten för tillgänglighet (skärmläsare kommer att använda detta för att beskriva bilden).
-- Begränsningsrutan (`BBox`anger koordinaterna för bildens layout och säkerställer att den visas korrekt i dokumentet.
+- Den här koden loopar igenom alla `FigureElement` objekt i rotstrukturen, vilka representerar bilder.
+- Den anger alternativ text för tillgänglighet (skärmläsare använder detta för att beskriva bilden).
+- Avgränsningsrutan (`BBox`) anger koordinaterna för bildens layout och säkerställer att den visas korrekt i dokumentet.
 
-## Steg 5: Ändra spannelement i tabellen
+## Steg 5: Ändra Span-element i tabellen
 
- I vissa fall kan du behöva ändra span-element i en tabell. Här kommer vi att visa hur du hittar en`SpanElement` och flytta det till ett stycke.
+vissa fall kan du behöva ändra span-element i en tabell. Här visar vi hur man hittar en `SpanElement` och flytta den till ett stycke.
 
 ```csharp
 // Hitta tabell-, span- och styckeelementen
@@ -119,16 +121,16 @@ SpanElement spanElement = tableElement.FindElements<SpanElement>(true)[0];
 TableTDElement firstTdElement = tableElement.FindElements<TableTDElement>(true)[0];
 ParagraphElement paragraph = firstTdElement.FindElements<ParagraphElement>(true)[0];
 
-// Flytta span-elementet till stycket
+// Flytta span-elementet in i stycket
 spanElement.ChangeParentElement(paragraph);
 ```
 
--  Här hittar vi`TableElement`, `SpanElement` , och`ParagraphElement` i PDF:en.
--  Med hjälp av`ChangeParentElement` metoden flyttar vi spann in i stycket för att säkerställa korrekt taggning och struktur.
+- Här lokaliserar vi `TableElement`, `SpanElement`och `ParagraphElement` i PDF-filen.
+- Använda `ChangeParentElement` Med metoden flyttar vi intervallet in i stycket för att säkerställa korrekt taggning och struktur.
 
 ## Steg 6: Spara dokumentet och validera PDF/UA-efterlevnad
 
-När alla ändringar är gjorda är det sista steget att spara den uppdaterade PDF-filen och kontrollera om den överensstämmer med PDF/UA-standarderna.
+När alla ändringar är gjorda är det sista steget att spara den uppdaterade PDF-filen och kontrollera om den uppfyller PDF/UA-standarderna.
 
 ```csharp
 // Spara det uppdaterade PDF-dokumentet
@@ -140,32 +142,34 @@ bool isPdfUaCompliance = document.Validate(logFile, PdfFormat.PDF_UA_1);
 Console.WriteLine(String.Format("PDF/UA compliance: {0}", isPdfUaCompliance));
 ```
 
--  De`Validate` metoden kontrollerar PDF-dokumentet mot PDF/UA-standarder och loggar resultaten.
-- Att säkerställa efterlevnad bidrar till att förbättra tillgängligheten och uppfylla regulatoriska krav för dokumentpublicering.
+- De `Validate` Metoden kontrollerar PDF-dokumentet mot PDF/UA-standarder och loggar resultaten.
+- Att säkerställa efterlevnad bidrar till att förbättra tillgängligheten och uppfylla lagkrav för dokumentpublicering.
 
 ## Slutsats
 
-den här handledningen har vi visat dig hur du taggar bilder i en befintlig PDF med Aspose.PDF för .NET. Genom att ställa in alternativ text, justera layoutattribut och validera dokumentet för PDF/UA-kompatibilitet kan du säkerställa att dina PDF-filer är tillgängliga och uppfyller moderna standarder. Aspose.PDF gör det enkelt att arbeta med strukturerade element, vilket ger dig kontroll över ditt dokuments layout och tillgänglighet.
+den här handledningen har vi visat dig hur du taggar bilder i en befintlig PDF med hjälp av Aspose.PDF för .NET. Genom att ange alternativ text, justera layoutattribut och validera dokumentet för PDF/UA-kompatibilitet kan du säkerställa att dina PDF-filer är tillgängliga och uppfyller moderna standarder. Aspose.PDF gör det enkelt att arbeta med strukturerade element, vilket ger dig kontroll över dokumentets layout och tillgänglighet.
 
-## FAQ's
+## Vanliga frågor
 
 ### Vad används Aspose.PDF för .NET till?
 Aspose.PDF för .NET är ett kraftfullt bibliotek som används för att skapa, redigera och manipulera PDF-dokument programmatiskt i en .NET-miljö.
 
-### Hur säkerställer jag att PDF/UA efterlevs?
- Du kan använda Aspose.PDF:s`Validate` metod för att kontrollera om PDF/UA efterlevs efter att ha gjort ändringar i dokumentet.
+### Hur säkerställer jag PDF/UA-kompatibilitet?
+Du kan använda Aspose.PDF:er `Validate` metod för att kontrollera PDF/UA-kompatibilitet efter att ha gjort ändringar i dokumentet.
 
 ### Vad är alternativ text i PDF-filer?
-Alternativ text är en beskrivning som läggs till bilder i PDF-filer för att förbättra tillgängligheten, särskilt för användare som förlitar sig på skärmläsare.
+Alternativtext är en beskrivning som läggs till bilder i PDF-filer för att förbättra tillgängligheten, särskilt för användare som använder skärmläsare.
 
-### Kan jag manipulera tabeller och intervall i en PDF med Aspose.PDF?
+### Kan jag manipulera tabeller och spann i en PDF med Aspose.PDF?
 Ja, Aspose.PDF låter dig manipulera tabeller, spann och andra strukturerade element i ett PDF-dokument.
 
 ### Var kan jag ladda ner Aspose.PDF för .NET?
- Du kan ladda ner den senaste versionen av Aspose.PDF för .NET[här](https://releases.aspose.com/pdf/net/).
+Du kan ladda ner den senaste versionen av Aspose.PDF för .NET [här](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

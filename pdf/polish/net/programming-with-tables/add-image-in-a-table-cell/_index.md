@@ -1,14 +1,16 @@
 ---
-title: Dodaj obraz do komórki tabeli
-linktitle: Dodaj obraz do komórki tabeli
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak łatwo dodawać obrazy do komórek tabeli za pomocą Aspose.PDF dla .NET, zwiększając atrakcyjność wizualną dokumentów PDF. Dostarczono przewodnik krok po kroku.
-weight: 10
-url: /pl/net/programming-with-tables/add-image-in-a-table-cell/
+"description": "Dowiedz się, jak łatwo dodawać obrazy do komórek tabeli za pomocą Aspose.PDF dla .NET, zwiększając atrakcyjność wizualną dokumentów PDF. Dostarczono przewodnik krok po kroku."
+"linktitle": "Dodaj obraz do komórki tabeli"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj obraz do komórki tabeli"
+"url": "/pl/net/programming-with-tables/add-image-in-a-table-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj obraz do komórki tabeli
@@ -27,7 +29,7 @@ Powinieneś mieć podstawową wiedzę na temat programowania .NET. Znajomość j
 
 ### Aspose.PDF dla biblioteki .NET
 
- Upewnij się, że masz bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać i zacząć eksperymentować! Pobierz ją z[Link do pobrania](https://releases.aspose.com/pdf/net/).
+Upewnij się, że masz bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać i zacząć eksperymentować! Pobierz ją z [Link do pobrania](https://releases.aspose.com/pdf/net/).
 
 ### Konfiguracja IDE
 
@@ -45,7 +47,7 @@ Zanim zaczniesz kodować, upewnijmy się, że zaimportowałeś niezbędne pakiet
 
 1. Otwórz program Visual Studio (lub preferowane środowisko IDE).
 2. Utwórz nowy projekt C#.
-3.  Znajdź Menedżera pakietów NuGet i wyszukaj`Aspose.PDF`. 
+3. Znajdź Menedżera pakietów NuGet i wyszukaj `Aspose.PDF`. 
 4. Zainstaluj pakiet w swoim projekcie. Ten krok daje Twojej aplikacji możliwość łatwego manipulowania dokumentami PDF.
 
 ### Korzystanie z dyrektyw
@@ -75,7 +77,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document();
 ```
 
- Tutaj określamy miejsce, w którym zostanie zapisany nasz dokument i tworzymy nowy`Document` instancja dla naszej pracy. Zastąp`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, pod którą chcesz zapisać plik PDF. 
+Tutaj określamy miejsce, w którym zostanie zapisany nasz dokument i tworzymy nowy `Document` instancja dla naszej pracy. Zastąp `"YOUR DOCUMENT DIRECTORY"` ze ścieżką, pod którą chcesz zapisać plik PDF. 
 
 ## Krok 2: Tworzenie strony
 
@@ -86,7 +88,7 @@ Następnie dodajemy stronę do naszego nowo utworzonego dokumentu. Ta strona bę
 Page sec1 = pdfDocument.Pages.Add();
 ```
 
- Każdy`Document` może zawierać wiele stron. W tym przypadku dodajemy tylko jedną.
+Każdy `Document` może zawierać wiele stron. W tym przypadku dodajemy tylko jedną.
 
 ## Krok 3: Tworzenie instancji tabeli
 
@@ -97,7 +99,7 @@ Teraz utwórzmy naszą tabelę:
 Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 ```
 
- Ten`Table` Obiekt będzie zawierał naszą zawartość, łącznie z obrazem, który planujemy dodać.
+Ten `Table` Obiekt będzie zawierał naszą zawartość, łącznie z obrazem, który planujemy dodać.
 
 ## Krok 4: Dodawanie tabeli do strony
 
@@ -137,7 +139,7 @@ Tutaj definiujemy trzy kolumny o określonych szerokościach pikseli. Możesz do
 Następnie tworzymy wiersz i zaczynamy wypełniać go komórkami:
 
 ```csharp
-//Utwórz wiersze w tabeli, a następnie komórki w wierszach
+// Utwórz wiersze w tabeli, a następnie komórki w wierszach
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("Sample text in cell");
 ```
@@ -146,14 +148,14 @@ Ten wiersz dodaje pojedynczy wiersz do naszej tabeli i wypełnia pierwszą komó
 
 ## Krok 8: Dodawanie obrazu do komórki
 
- Teraz ekscytująca część — dodanie obrazu! Najpierw musimy zainicjować`Image` obiekt:
+Teraz ekscytująca część — dodanie obrazu! Najpierw musimy zainicjować `Image` obiekt:
 
 ```csharp
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 img.File = dataDir + "aspose.jpg"; // Upewnij się, że podajesz prawidłową ścieżkę
 ```
 
- Pamiętaj o wymianie`"aspose.jpg"` z nazwą aktualnego pliku obrazu. 
+Pamiętaj o wymianie `"aspose.jpg"` z nazwą aktualnego pliku obrazu. 
 
 ## Krok 9: Dodawanie obrazu do komórki tabeli
 
@@ -162,7 +164,7 @@ Dodajmy teraz nasz obraz do drugiej komórki w wierszu:
 ```csharp
 // Dodaj komórkę, która zawiera obraz
 Aspose.Pdf.Cell cell2 = row1.Cells.Add();
-//Dodaj obraz do komórki tabeli
+// Dodaj obraz do komórki tabeli
 cell2.Paragraphs.Add(img);
 ```
 
@@ -206,13 +208,15 @@ Tak, możesz dodać wiele obrazów do komórki tabeli, dodając dodatkowe obiekt
 Aspose.PDF obsługuje różne formaty obrazów, w tym JPEG, PNG, BMP i GIF. Upewnij się tylko, że są to prawidłowe formaty.
 
 ### Czy muszę kupić licencję, aby korzystać z Aspose.PDF?  
- Aspose.PDF oferuje bezpłatną wersję próbną, która pozwala na zapoznanie się z jego funkcjami. Jeśli planujesz używać go w celach komercyjnych, wymagana jest licencja. Możesz ją uzyskać od[Tutaj](https://purchase.aspose.com/buy).
+Aspose.PDF oferuje bezpłatną wersję próbną, która pozwala na zapoznanie się z jego funkcjami. Jeśli planujesz używać go w celach komercyjnych, wymagana jest licencja. Możesz ją uzyskać od [Tutaj](https://purchase.aspose.com/buy).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?  
- Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10) w celu uzyskania pomocy społeczności i rozwiązywania problemów.
+Możesz odwiedzić [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10) w celu uzyskania pomocy społeczności i rozwiązywania problemów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

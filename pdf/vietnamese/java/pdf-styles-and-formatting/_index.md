@@ -1,14 +1,16 @@
 ---
-title: Kiểu và định dạng PDF
-linktitle: Kiểu và định dạng PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu về các kiểu PDF và định dạng trong Java với Aspose.PDF cho Java. Làm chủ tính thẩm mỹ và bố cục của PDF để có những tài liệu tuyệt đẹp.
-weight: 22
-url: /vi/java/pdf-styles-and-formatting/
+"description": "Tìm hiểu về các kiểu PDF và định dạng trong Java với Aspose.PDF cho Java. Làm chủ tính thẩm mỹ và bố cục của PDF để có những tài liệu tuyệt đẹp."
+"linktitle": "Kiểu và định dạng PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Kiểu và định dạng PDF"
+"url": "/vi/java/pdf-styles-and-formatting/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểu và định dạng PDF
@@ -43,9 +45,11 @@ Học cách định dạng bảng trong tài liệu PDF bằng Java với Aspose
 Tìm hiểu cách định dạng các hàng bảng PDF trong Java bằng Aspose.PDF cho Java. Tùy chỉnh màu sắc, thêm đường viền và nhiều hơn nữa trong hướng dẫn toàn diện này.
 ### [Cấu trúc văn bản theo phong cách trong PDF bằng Java](./style-text-structure-in-pdf-using-java/)
 Tìm hiểu cách định dạng cấu trúc văn bản trong PDF bằng Java với hướng dẫn từng bước của chúng tôi. Tùy chỉnh phông chữ, màu sắc, siêu liên kết và nhiều thứ khác để có tài liệu trông chuyên nghiệp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

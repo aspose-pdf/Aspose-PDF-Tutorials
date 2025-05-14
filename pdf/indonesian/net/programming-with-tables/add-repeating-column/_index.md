@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Kolom Berulang Dalam Dokumen PDF
-linktitle: Tambahkan Kolom Berulang Dalam Dokumen PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan kolom berulang ke dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah dengan contoh dan kode. Sempurna untuk pengembang.
-weight: 20
-url: /id/net/programming-with-tables/add-repeating-column/
+"description": "Pelajari cara menambahkan kolom berulang ke dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah dengan contoh dan kode. Sempurna untuk pengembang."
+"linktitle": "Tambahkan Kolom Berulang Dalam Dokumen PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Kolom Berulang Dalam Dokumen PDF"
+"url": "/id/net/programming-with-tables/add-repeating-column/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Kolom Berulang Dalam Dokumen PDF
@@ -27,7 +29,7 @@ Sebelum kita masuk ke kode, mari pastikan Anda sudah menyiapkan semuanya:
 - Lingkungan Pengembangan: Pastikan Anda memiliki IDE yang kompatibel dengan .NET seperti Visual Studio yang terpasang.
 - Pemahaman Dasar C#: Meskipun kami akan menguraikan semuanya, pemahaman dasar C# akan membantu Anda mengikutinya dengan lancar.
   
- Jika Anda belum memiliki Aspose.PDF untuk .NET, Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mulai menjelajahi fitur-fiturnya.
+Jika Anda belum memiliki Aspose.PDF untuk .NET, Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mulai menjelajahi fitur-fiturnya.
 
 ## Paket Impor
 
@@ -51,18 +53,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outFile = dataDir + "AddRepeatingColumn_out.pdf";
 ```
 
- Jalur ini menunjuk ke direktori tempat PDF keluaran akan disimpan. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
+Jalur ini menunjuk ke direktori tempat PDF keluaran akan disimpan. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
 
 ## Langkah 2: Buat Dokumen PDF Baru
 
- Untuk memulai, buat instance baru`Document` objek. Ini akan berfungsi sebagai wadah untuk semua halaman dan konten dalam PDF.
+Untuk memulai, buat instance baru `Document` objek. Ini akan berfungsi sebagai wadah untuk semua halaman dan konten dalam PDF.
 
 ```csharp
 Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
- Di sini, kami telah membuat dokumen PDF baru dan menambahkan halaman kosong ke dalamnya.`doc.Pages.Add()` metode menyisipkan halaman baru ke dalam dokumen.
+Di sini, kami telah membuat dokumen PDF baru dan menambahkan halaman kosong ke dalamnya. `doc.Pages.Add()` metode menyisipkan halaman baru ke dalam dokumen.
 
 ## Langkah 3: Buat Instansiasi Tabel Luar
 
@@ -74,11 +76,11 @@ outerTable.ColumnWidths = "100%";
 outerTable.HorizontalAlignment = HorizontalAlignment.Left;
 ```
 
- Kami telah mengatur`ColumnWidths` properti menjadi "100%", yang berarti tabel akan membentang di seluruh lebar halaman.
+Kami telah mengatur `ColumnWidths` properti menjadi "100%", yang berarti tabel akan membentang di seluruh lebar halaman.
 
 ## Langkah 4: Buat Tabel Dalam
 
- Sekarang, mari kita buat tabel bagian dalam, yang akan memiliki kolom berulang. Properti kunci di sini adalah`Broken` , yang memungkinkan tabel untuk terus berlanjut di halaman yang sama, dan`ColumnAdjustment`, yang secara otomatis menyesuaikan lebar kolom agar sesuai dengan konten.
+Sekarang, mari kita buat tabel bagian dalam, yang akan memiliki kolom berulang. Properti kunci di sini adalah `Broken`, yang memungkinkan tabel untuk terus berlanjut di halaman yang sama, dan `ColumnAdjustment`, yang secara otomatis menyesuaikan lebar kolom agar sesuai dengan konten.
 
 ```csharp
 Aspose.Pdf.Table mytable = new Aspose.Pdf.Table();
@@ -100,11 +102,11 @@ bodyCell.Paragraphs.Add(mytable);
 mytable.RepeatingColumnsCount = 5;
 ```
 
- Di sini, kami menambahkan`outerTable` ke halaman, dan kemudian di dalam tabel luar, kami menumpuk`mytable` Selain itu, kami juga menetapkan`RepeatingColumnsCount`hingga 5, yang menentukan berapa banyak kolom yang harus diulang saat data ditambahkan.
+Di sini, kami menambahkan `outerTable` ke halaman, dan kemudian di dalam tabel luar, kami menumpuk `mytable`Selain itu, kami juga menetapkan `RepeatingColumnsCount` hingga 5, yang menentukan berapa banyak kolom yang harus diulang saat data ditambahkan.
 
 ## Langkah 6: Tambahkan Baris Header
 
-Sekarang saatnya menambahkan tajuk ke tabel. Baris tajuk memberikan konteks pada data dan membantu menyusun kolom. 
+Sekarang saatnya menambahkan tajuk ke tabel. Baris tajuk memberikan konteks ke data dan membantu menyusun kolom. 
 
 ```csharp
 Aspose.Pdf.Row row = mytable.Rows.Add();
@@ -173,19 +175,21 @@ Nah, itu dia! Dengan langkah-langkah sederhana ini, Anda dapat membuat dokumen P
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, mengedit, dan mengelola dokumen PDF secara terprogram.
 
 ### Dapatkah saya menyesuaikan jumlah kolom berulang secara dinamis?
- Ya, Anda dapat mengubah jumlah kolom berulang dengan memodifikasi`RepeatingColumnsCount` milik.
+Ya, Anda dapat mengubah jumlah kolom berulang dengan memodifikasi `RepeatingColumnsCount` milik.
 
 ### Bagaimana cara mengajukan lisensi ke Aspose.PDF untuk .NET?
- Anda dapat menerapkan lisensi dari file atau aliran dengan mengikuti[dokumentasi](https://reference.aspose.com/pdf/net/).
+Anda dapat menerapkan lisensi dari file atau aliran dengan mengikuti [dokumentasi](https://reference.aspose.com/pdf/net/).
 
 ### Apakah mungkin untuk menambahkan gambar ke sel tabel?
 Ya, Aspose.PDF untuk .NET mendukung penambahan berbagai jenis konten, termasuk gambar, ke sel tabel.
 
 ### Bisakah saya menyesuaikan tata letak tabel lebih lanjut?
 Tentu saja! Aspose.PDF menyediakan fitur-fitur lengkap untuk menyesuaikan gaya tabel, termasuk border, padding, alignment, dan banyak lagi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

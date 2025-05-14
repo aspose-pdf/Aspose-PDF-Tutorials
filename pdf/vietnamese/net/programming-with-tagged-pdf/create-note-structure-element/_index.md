@@ -1,14 +1,16 @@
 ---
-title: Tạo phần tử cấu trúc ghi chú
-linktitle: Tạo phần tử cấu trúc ghi chú
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Học cách tạo các thành phần cấu trúc ghi chú trong tệp PDF bằng Aspose.PDF cho .NET thông qua hướng dẫn chi tiết từng bước này.
-weight: 30
-url: /vi/net/programming-with-tagged-pdf/create-note-structure-element/
+"description": "Học cách tạo các thành phần cấu trúc ghi chú trong tệp PDF bằng Aspose.PDF cho .NET thông qua hướng dẫn chi tiết từng bước này."
+"linktitle": "Tạo phần tử cấu trúc ghi chú"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo phần tử cấu trúc ghi chú"
+"url": "/vi/net/programming-with-tagged-pdf/create-note-structure-element/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo phần tử cấu trúc ghi chú
@@ -22,7 +24,7 @@ Tạo tài liệu có cấu trúc là điều cần thiết trong thế giới k
 Trước khi bắt đầu viết mã và tạo các thành phần cấu trúc ghi chú, hãy đảm bảo rằng bạn đã chuẩn bị mọi thứ cần thiết:
 
 1. Môi trường .NET: Bạn nên thiết lập môi trường phát triển .NET, chẳng hạn như Visual Studio.
-2.  Thư viện Aspose.PDF: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/pdf/net/).
+2. Thư viện Aspose.PDF: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Cần phải quen thuộc với lập trình C# để tận dụng tối đa hướng dẫn này.
 4. Truy cập vào .NET Framework: Đảm bảo rằng dự án của bạn đang hướng tới phiên bản tương thích của .NET Framework.
 5. Thư mục tài liệu: Thiết lập thư mục để lưu trữ tệp PDF và tệp nhật ký của bạn. 
@@ -57,7 +59,7 @@ string logFile = dataDir + "45929_log.xml";
 // Tạo Tài Liệu PDF
 Document document = new Document();
 ```
-Mã này khởi tạo một cái mới`Document` đối tượng và thiết lập đường dẫn tệp cho tệp PDF đầu ra và tệp nhật ký. Đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thư mục thực tế của bạn.
+Mã này khởi tạo một cái mới `Document` đối tượng và thiết lập đường dẫn tệp cho tệp PDF đầu ra và tệp nhật ký. Đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thư mục thực tế của bạn.
 
 ## Bước 2: Thiết lập Thuộc tính Nội dung được gắn thẻ
 
@@ -68,7 +70,7 @@ ITaggedContent taggedContent = document.TaggedContent;
 taggedContent.SetTitle("Sample of Note Elements");
 taggedContent.SetLanguage("en-US");
 ```
- Ở đây, chúng ta đang truy cập`TaggedContent` của tài liệu và thiết lập tiêu đề và ngôn ngữ của nó. Điều này rất quan trọng đối với các tiêu chuẩn về khả năng truy cập và mang lại cho tài liệu của bạn nét chuyên nghiệp hơn.
+Ở đây, chúng ta đang truy cập `TaggedContent` của tài liệu và thiết lập tiêu đề và ngôn ngữ của nó. Điều này rất quan trọng đối với các tiêu chuẩn về khả năng truy cập và mang lại cho tài liệu của bạn nét chuyên nghiệp hơn.
 
 ## Bước 3: Tạo phần tử đoạn văn
 
@@ -79,7 +81,7 @@ Bây giờ, chúng ta sẽ thêm một phần tử đoạn văn vào nội dung 
 ParagraphElement paragraph = taggedContent.CreateParagraphElement();
 taggedContent.RootElement.AppendChild(paragraph);
 ```
- Bằng cách tạo ra một`ParagraphElement`, chúng tôi cung cấp một cơ sở nơi các thành phần ghi chú sẽ được thêm vào. Tương tự như việc đặt nền móng cho một ngôi nhà trước khi xây tường.
+Bằng cách tạo ra một `ParagraphElement`, chúng tôi cung cấp một cơ sở nơi các thành phần ghi chú sẽ được thêm vào. Tương tự như việc đặt nền móng cho một ngôi nhà trước khi xây tường.
 
 ## Bước 4: Thêm các phần tử ghi chú
 
@@ -104,7 +106,7 @@ paragraph.AppendChild(note2);
 note2.SetText("Note with ID = 'note_002'. ");
 note2.SetId("note_002");
 ```
- Đối với ghi chú thứ hai, chúng tôi thiết lập rõ ràng một ID của`note_002`. Điều quan trọng là phải lưu ý đến ID vì chúng cung cấp cách tham chiếu đến các ghi chú cụ thể sau này.
+Đối với ghi chú thứ hai, chúng tôi thiết lập rõ ràng một ID của `note_002`. Điều quan trọng là phải lưu ý đến ID vì chúng cung cấp cách tham chiếu đến các ghi chú cụ thể sau này.
 
 ### Bước 4.3: Thêm nốt thứ ba
 
@@ -116,7 +118,7 @@ note3.SetText("Note with ID = 'note_003'. ");
 note3.SetId("note_003");
 // Phải ném ngoại lệ - Aspose.Pdf.Tagged.TaggedException: Phần tử cấu trúc có ID='note_002' đã tồn tại
 ```
- Ghi chú thứ ba này khá giống với ghi chú thứ hai nhưng sử dụng một ID duy nhất khác. Hãy cẩn thận; cố gắng tạo một ghi chú khác có cùng ID với`note_002` sẽ đưa ra ngoại lệ. 
+Ghi chú thứ ba này khá giống với ghi chú thứ hai nhưng sử dụng một ID duy nhất khác. Hãy cẩn thận; cố gắng tạo một ghi chú khác có cùng ID với `note_002` sẽ đưa ra ngoại lệ. 
 
 ## Bước 5: Lưu tài liệu
 
@@ -159,10 +161,12 @@ Có! Aspose.PDF hỗ trợ nhiều thành phần như hình ảnh, bảng và si
 Việc tuân thủ PDF/UA đảm bảo rằng người khuyết tật có thể truy cập được tệp PDF, phù hợp với các tiêu chuẩn toàn cầu.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10) nơi bạn có thể đặt câu hỏi và chia sẻ kinh nghiệm của mình.
+Để được hỗ trợ, hãy truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10) nơi bạn có thể đặt câu hỏi và chia sẻ kinh nghiệm của mình.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

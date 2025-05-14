@@ -1,14 +1,16 @@
 ---
-title: Kotak Centang yang Dikelompokkan dalam Dokumen PDF
-linktitle: Kotak Centang yang Dikelompokkan dalam Dokumen PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat kotak centang yang dikelompokkan (tombol radio) dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini.
-weight: 170
-url: /id/net/programming-with-forms/grouped-check-boxes/
+"description": "Pelajari cara membuat kotak centang yang dikelompokkan (tombol radio) dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini."
+"linktitle": "Kotak Centang yang Dikelompokkan dalam Dokumen PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Kotak Centang yang Dikelompokkan dalam Dokumen PDF"
+"url": "/id/net/programming-with-forms/grouped-check-boxes/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kotak Centang yang Dikelompokkan dalam Dokumen PDF
@@ -21,11 +23,11 @@ Membuat PDF interaktif tidak sesulit kedengarannya, terutama jika Anda memiliki 
 
 Sebelum kita menyelami panduan langkah demi langkah, mari kita bahas beberapa prasyarat penting:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Jika tidak, Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Jika tidak, Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 2. IDE: Anda harus menyiapkan lingkungan pengembangan, seperti Visual Studio.
 3. .NET Framework: Proyek harus menargetkan versi .NET Framework yang kompatibel dengan Aspose.PDF.
 4. Pengetahuan Dasar C#: Keakraban dengan C# dan manipulasi PDF diperlukan untuk mengikutinya dengan lancar.
-5.  Lisensi: Aspose.PDF memerlukan lisensi untuk fungsionalitas penuh. Anda dapat[memperoleh lisensi sementara](https://purchase.aspose.com/temporary-license/) jika diperlukan.
+5. Lisensi: Aspose.PDF memerlukan lisensi untuk fungsionalitas penuh. Anda dapat [memperoleh lisensi sementara](https://purchase.aspose.com/temporary-license/) jika diperlukan.
 
 ## Paket Impor
 
@@ -45,7 +47,7 @@ Di bagian ini, kami akan menguraikan proses pembuatan kotak centang berkelompok 
 
 ## Langkah 1: Buat Dokumen PDF Baru
 
- Langkah pertama adalah membuat instance dari`Document` objek, yang akan mewakili berkas PDF Anda. Lalu, tambahkan halaman kosong ke dokumen Anda tempat Anda akan menempatkan kotak centang yang dikelompokkan.
+Langkah pertama adalah membuat instance dari `Document` objek, yang akan mewakili berkas PDF Anda. Lalu, tambahkan halaman kosong ke dokumen Anda tempat Anda akan menempatkan kotak centang yang dikelompokkan.
 
 ```csharp
 // Membuat instance objek Dokumen
@@ -59,18 +61,18 @@ Ini menyiapkan fondasi untuk menambahkan elemen apa pun, seperti tombol radio, k
 
 ## Langkah 2: Inisialisasi Bidang Tombol Radio
 
-Selanjutnya, kita perlu membuat`RadioButtonField` objek, yang akan menampung kotak centang yang dikelompokkan (tombol radio). Bidang ini ditambahkan ke halaman tertentu tempat kotak centang akan muncul.
+Selanjutnya, kita perlu membuat `RadioButtonField` objek, yang akan menampung kotak centang yang dikelompokkan (tombol radio). Bidang ini ditambahkan ke halaman tertentu tempat kotak centang akan muncul.
 
 ```csharp
 // Buat instance objek RadioButtonField dan tetapkan ke halaman pertama
 RadioButtonField radio = new RadioButtonField(pdfDocument.Pages[1]);
 ```
 
-Anggap ini sebagai wadah yang akan mengelompokkan opsi tombol radio individual bersama-sama.
+Anggaplah ini sebagai wadah yang akan mengelompokkan opsi tombol radio individual bersama-sama.
 
 ## Langkah 3: Tambahkan Opsi Tombol Radio
 
- Sekarang, mari tambahkan opsi tombol radio individual ke kolom. Dalam contoh ini, kita akan menambahkan dua tombol radio dan menentukan posisinya menggunakan`Rectangle` obyek.
+Sekarang, mari tambahkan opsi tombol radio individual ke kolom. Dalam contoh ini, kita akan menambahkan dua tombol radio dan menentukan posisinya menggunakan `Rectangle` obyek.
 
 ```csharp
 // Tambahkan opsi tombol radio pertama dan tentukan posisinya menggunakan Persegi Panjang
@@ -82,11 +84,11 @@ opt1.OptionName = "Option1";
 opt2.OptionName = "Option2";
 ```
 
- Di sini,`Rectangle` Objek mendefinisikan koordinat dan ukuran setiap tombol radio pada halaman.
+Di sini, `Rectangle` Objek mendefinisikan koordinat dan ukuran setiap tombol radio pada halaman.
 
 ## Langkah 4: Sesuaikan Gaya Tombol Radio
 
- Anda dapat menyesuaikan tampilan tombol radio dengan mengaturnya`Style` properti. Misalnya, Anda mungkin menginginkan kotak centang berbentuk persegi atau berbentuk silang.
+Anda dapat menyesuaikan tampilan tombol radio dengan mengaturnya `Style` properti. Misalnya, Anda mungkin menginginkan kotak centang berbentuk persegi atau berbentuk silang.
 
 ```csharp
 // Mengatur gaya tombol radio
@@ -151,10 +153,10 @@ Menambahkan elemen interaktif seperti kotak centang yang dikelompokkan ke dokume
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menambahkan lebih dari dua tombol radio ke satu grup?
- Tentu saja! Cukup buat instance tambahan`RadioButtonOptionField` objek dan menambahkannya ke`RadioButtonField` seperti yang ditunjukkan dalam tutorial.
+Tentu saja! Cukup buat instance tambahan `RadioButtonOptionField` objek dan menambahkannya ke `RadioButtonField` seperti yang ditunjukkan dalam tutorial.
 
 ### Bagaimana cara menangani beberapa kelompok kotak centang dalam satu dokumen?
-Untuk membuat beberapa grup, buat instance terpisah`RadioButtonField` objek untuk setiap kelompok.
+Untuk membuat beberapa grup, buat instance terpisah `RadioButtonField` objek untuk setiap kelompok.
 
 ### Apakah ada batasan jumlah kotak centang yang dapat saya tambahkan?
 Tidak, Aspose.PDF untuk .NET tidak memberlakukan batasan apa pun pada jumlah kotak centang yang dapat Anda tambahkan ke PDF.
@@ -163,10 +165,12 @@ Tidak, Aspose.PDF untuk .NET tidak memberlakukan batasan apa pun pada jumlah kot
 Ya, Anda dapat mengubah properti seperti gaya batas, lebar, dan warna setelah kotak centang ditambahkan.
 
 ### Apakah mungkin untuk menggunakan gambar sebagai tombol radio?
- Ya, Aspose.PDF memungkinkan Anda menggunakan gambar kustom sebagai tombol radio dengan mengatur`Appearance` properti setiap opsi tombol radio.
+Ya, Aspose.PDF memungkinkan Anda menggunakan gambar khusus sebagai tombol radio dengan mengatur `Appearance` properti dari setiap opsi tombol radio.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

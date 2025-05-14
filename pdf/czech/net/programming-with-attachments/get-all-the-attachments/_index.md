@@ -1,47 +1,49 @@
 ---
-title: Získejte všechny přílohy v souboru PDF
-linktitle: Získejte všechny přílohy v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: V tomto podrobném návodu se dozvíte, jak extrahovat všechny přílohy ze souboru PDF pomocí Aspose.PDF for .NET.
-weight: 40
-url: /cs/net/programming-with-attachments/get-all-the-attachments/
+"description": "Naučte se v tomto podrobném návodu, jak extrahovat všechny přílohy ze souboru PDF pomocí Aspose.PDF pro .NET."
+"linktitle": "Získejte všechny přílohy v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Získejte všechny přílohy v souboru PDF"
+"url": "/cs/net/programming-with-attachments/get-all-the-attachments/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Získejte všechny přílohy v souboru PDF
 
 ## Zavedení
 
-V digitálním věku se soubory PDF staly základem sdílení dokumentů. Jsou univerzální, bezpečné a mohou obsahovat velké množství informací, včetně příloh. Přemýšleli jste někdy, jak extrahovat všechny ty skryté drahokamy ze souboru PDF? Tak to máš štěstí! V tomto tutoriálu se ponoříme do používání Aspose.PDF pro .NET k získání všech příloh v souboru PDF. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vás provede procesem krok za krokem.
+digitálním věku se PDF soubory staly základem pro sdílení dokumentů. Jsou všestranné, bezpečné a mohou obsahovat velké množství informací, včetně příloh. Přemýšleli jste někdy, jak extrahovat všechny tyto skryté poklady ze souboru PDF? Máte štěstí! V tomto tutoriálu se ponoříme do použití Aspose.PDF pro .NET k získání všech příloh v souboru PDF. Ať už jste zkušený vývojář, nebo teprve začínáte, tento průvodce vás provede celým procesem krok za krokem.
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete, abyste mohli začít:
+Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete k zahájení:
 
-1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to výchozí IDE pro vývoj .NET.
-2.  Aspose.PDF for .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Můžete to najít[zde](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to klíčové vývojové prostředí (IDE) pro vývoj v .NET.
+2. Aspose.PDF pro .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Najdete ji [zde](https://releases.aspose.com/pdf/net/).
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět úryvkům kódu.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, budete muset importovat potřebné balíčky do svého projektu C#. Jak na to:
+Pro začátek budete muset importovat potřebné balíčky do vašeho projektu C#. Zde je návod, jak to udělat:
 
 ### Vytvořit nový projekt
 
-Otevřete Visual Studio a vytvořte nový projekt C#. Pro jednoduchost zvolte konzolovou aplikaci.
+Otevřete Visual Studio a vytvořte nový projekt v C#. Pro zjednodušení vyberte konzolovou aplikaci.
 
-### Přidejte odkaz Aspose.PDF
+### Přidat odkaz na Aspose.PDF
 
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
-2. Vyberte „Spravovat balíčky NuGet“.
-3. Vyhledejte „Aspose.PDF“ a nainstalujte nejnovější verzi.
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+2. Vyberte možnost „Spravovat balíčky NuGet“.
+3. Vyhledejte soubor „Aspose.PDF“ a nainstalujte nejnovější verzi.
 
-### Importujte jmenný prostor
+### Importovat jmenný prostor
 
-V horní části souboru C# importujte jmenný prostor Aspose.PDF
+V horní části souboru C# importujte jmenný prostor Aspose.PDF.
 
 ```csharp
 using System.IO;
@@ -49,51 +51,51 @@ using Aspose.Pdf;
 using System;
 ```
 
-Nyní, když máme naše prostředí nastavené, pojďme se pustit do hrubky extrahování příloh ze souboru PDF.
+Nyní, když máme nastavené prostředí, pojďme se pustit do detailů extrahování příloh ze souboru PDF.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíte zadat cestu k adresáři dokumentů. Zde bude umístěn váš soubor PDF.
+Nejprve je třeba zadat cestu k adresáři s vašimi dokumenty. Zde bude umístěn váš PDF soubor.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`YOUR DOCUMENT DIRECTORY` se skutečnou cestou, kde je uložen váš soubor PDF. To je zásadní, protože program potřebuje vědět, kde má soubor hledat.
+Nahradit `YOUR DOCUMENT DIRECTORY` se skutečnou cestou, kde je váš PDF soubor uložen. To je zásadní, protože program potřebuje vědět, kde má soubor hledat.
 
 ## Krok 2: Otevřete dokument PDF
 
-Dále otevřeme dokument PDF pomocí knihovny Aspose.PDF. Tady začíná kouzlo!
+Dále otevřeme PDF dokument pomocí knihovny Aspose.PDF. A tady začíná kouzlo!
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
 ```
 
- Zde vytvoříme nový`Document` objekt a předat cestu k souboru PDF. Ujistěte se, že se název souboru přesně shoduje, včetně přípony.
+Zde vytváříme nový `Document` objekt a předejte cestu k PDF souboru. Ujistěte se, že název souboru přesně odpovídá, včetně přípony.
 
-## Krok 3: Přístup ke kolekci Embedded Files
+## Krok 3: Přístup ke kolekci vložených souborů
 
-Nyní, když máme dokument otevřený, pojďme se dostat do kolekce vložených souborů. Zde jsou uloženy všechny přílohy.
+Nyní, když máme dokument otevřený, přejděme ke kolekci vložených souborů. Zde jsou uloženy všechny přílohy.
 
 ```csharp
 EmbeddedFileCollection embeddedFiles = pdfDocument.EmbeddedFiles;
 ```
 
-Pomocí tohoto řádku stahujeme všechny vložené soubory do kolekce, kterou můžeme snadno procházet.
+Tímto řádkem stahujeme všechny vložené soubory do kolekce, kterou můžeme snadno procházet.
 
 ## Krok 4: Spočítejte vložené soubory
 
-Vždy je dobré vědět, s kolika přílohami máte co do činění. Pojďme si vytisknout celkový počet vložených souborů.
+Vždy je dobré vědět, s kolika přílohami máte co do činění. Vytiskněme si celkový počet vložených souborů.
 
 ```csharp
 Console.WriteLine("Total files : {0}", embeddedFiles.Count);
 ```
 
-Získáte tak rychlý přehled o tom, kolik příloh je ve vašem PDF.
+Díky tomu získáte rychlý přehled o tom, kolik příloh je ve vašem PDF souboru.
 
-## Krok 5: Projděte přílohy
+## Krok 5: Procházení příloh
 
-Nyní přichází ta zábavná část! Projdeme každou specifikaci souboru v kolekci vložených souborů a extrahujeme podrobnosti.
+A teď přichází ta zábavná část! Projdeme si každou specifikaci souboru v kolekci vložených souborů a extrahujeme podrobnosti.
 
 ```csharp
 int count = 1;
@@ -105,11 +107,11 @@ foreach (FileSpecification fileSpecification in embeddedFiles)
     Console.WriteLine("Mime Type: {0}", fileSpecification.MIMEType);
 ```
 
-V této smyčce vytiskneme název, popis a typ MIME každé přílohy. Získáte tak jasný obrázek o tom, co je uvnitř vašeho PDF.
+této smyčce vypíšeme název, popis a MIME typ každé přílohy. To vám poskytne jasný přehled o tom, co je uvnitř vašeho PDF souboru.
 
-## Krok 6: Zkontrolujte další parametry
+## Krok 6: Kontrola dalších parametrů
 
-Některé přílohy mohou mít další parametry. Zkontrolujeme, zda existují a vytiskneme je.
+Některé přílohy mohou mít další parametry. Zkontrolujme, zda existují, a vytiskněme je.
 
 ```csharp
 if (fileSpecification.Params != null)
@@ -121,11 +123,11 @@ if (fileSpecification.Params != null)
 }
 ```
 
-Tento krok zajistí, že vám nebudou chybět žádné důležité podrobnosti o přílohách.
+Tento krok zajistí, že vám neuniknou žádné důležité podrobnosti o přílohách.
 
-## Krok 7: Rozbalte a uložte přílohy
+## Krok 7: Extrahujte a uložte přílohy
 
-Nakonec rozbalme obsah každé přílohy a uložme ji do souboru. Tady uvidíte výsledky své tvrdé práce!
+Nakonec extrahujeme obsah každé přílohy a uložíme ho do souboru. Zde uvidíte výsledky své tvrdé práce!
 
 ```csharp
 byte[] fileContent = new byte[fileSpecification.Contents.Length];
@@ -136,31 +138,33 @@ fileStream.Close();
 count += 1;
 ```
 
- V tomto kódu načteme obsah každé přílohy do bajtového pole a poté jej zapíšeme do nového souboru. Soubory budou pojmenovány postupně (např.`1_out.txt`, `2_out.txt`atd.).
+V tomto kódu načteme obsah každé přílohy do bajtového pole a poté jej zapíšeme do nového souboru. Soubory budou pojmenovány postupně (např. `1_out.txt`, `2_out.txt`atd.).
 
 ## Závěr
 
-A tady to máte! Úspěšně jste extrahovali všechny přílohy ze souboru PDF pomocí Aspose.PDF pro .NET. Tato výkonná knihovna usnadňuje manipulaci s dokumenty PDF a přístup k jejich skrytým pokladům. Ať už pracujete na osobním projektu nebo na profesionální aplikaci, vědět, jak extrahovat přílohy, může být neuvěřitelně užitečné.
+tady to máte! Úspěšně jste extrahovali všechny přílohy ze souboru PDF pomocí Aspose.PDF pro .NET. Tato výkonná knihovna usnadňuje manipulaci s dokumenty PDF a přístup k jejich skrytým pokladům. Ať už pracujete na osobním projektu nebo profesionální aplikaci, znalost extrakce příloh může být neuvěřitelně užitečná.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty PDF programově.
+Aspose.PDF pro .NET je knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět PDF dokumenty.
 
 ### Mohu používat Aspose.PDF zdarma?
- Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání funkcí knihovny. Podívejte se na to[zde](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání funkcí knihovny. Vyzkoušejte ji. [zde](https://releases.aspose.com/).
 
 ### Jak získám podporu pro Aspose.PDF?
- Podporu můžete získat prostřednictvím fóra Aspose[zde](https://forum.aspose.com/c/pdf/10).
+Podporu můžete získat prostřednictvím fóra Aspose [zde](https://forum.aspose.com/c/pdf/10).
 
 ### Je k dispozici dočasná licence?
-Ano, můžete získat dočasnou licenci pro Aspose.PDF[zde](https://purchase.aspose.com/temporary-license/).
+Ano, můžete získat dočasnou licenci pro Aspose.PDF. [zde](https://purchase.aspose.com/temporary-license/).
 
 ### Kde najdu dokumentaci?
- Dokumentaci k Aspose.PDF pro .NET lze nalézt[zde](https://reference.aspose.com/pdf/net/).
+Dokumentaci k souboru Aspose.PDF pro .NET naleznete [zde](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

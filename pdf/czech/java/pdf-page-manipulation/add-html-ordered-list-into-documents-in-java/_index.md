@@ -1,60 +1,62 @@
 ---
-title: Přidejte HTML uspořádaný seznam do dokumentů v Javě
-linktitle: Přidejte HTML uspořádaný seznam do dokumentů v Javě
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se přidávat uspořádané seznamy HTML do dokumentů PDF pomocí Aspose.PDF for Java. Průvodce krok za krokem se zdrojovým kódem.
-weight: 11
-url: /cs/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/
+"description": "Naučte se, jak přidávat seřazené seznamy HTML do PDF dokumentů pomocí Aspose.PDF pro Javu. Podrobný návod se zdrojovým kódem."
+"linktitle": "Přidání seřazeného seznamu HTML do dokumentů v Javě"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Přidání seřazeného seznamu HTML do dokumentů v Javě"
+"url": "/cs/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte HTML uspořádaný seznam do dokumentů v Javě
+# Přidání seřazeného seznamu HTML do dokumentů v Javě
 
 
-tomto tutoriálu vás provedeme procesem přidávání uspořádaného seznamu HTML do dokumentů pomocí Aspose.PDF pro Java. Aspose.PDF for Java je výkonná knihovna, která vám umožňuje vytvářet, manipulovat a převádět dokumenty PDF v aplikacích Java. 
+V tomto tutoriálu vás provedeme procesem přidávání seřazeného seznamu HTML do dokumentů pomocí knihovny Aspose.PDF pro Javu. Aspose.PDF pro Javu je výkonná knihovna, která umožňuje vytvářet, manipulovat a převádět dokumenty PDF v aplikacích Java. 
 
 ## Úvod do Aspose.PDF pro Javu
 
-Aspose.PDF for Java je knihovna Java, která vám umožňuje pracovat s dokumenty PDF ve vašich aplikacích Java. Poskytuje širokou škálu funkcí pro vytváření, úpravy a manipulaci se soubory PDF, což z něj činí cenný nástroj pro vývojáře.
+Aspose.PDF pro Javu je knihovna Java, která vám umožňuje pracovat s PDF dokumenty ve vašich Java aplikacích. Nabízí širokou škálu funkcí pro vytváření, úpravu a manipulaci s PDF soubory, což z ní činí cenný nástroj pro vývojáře.
 
-## Pochopení uspořádaných seznamů HTML
+## Principy uspořádaných seznamů v HTML
 
-Seřazené seznamy HTML se používají k zobrazení seznamu položek v sekvenčním pořadí, obvykle s čísly nebo písmeny. V tomto tutoriálu se naučíme, jak převést uspořádaný seznam HTML do dokumentu PDF pomocí Aspose.PDF pro Javu.
+Seřazené seznamy HTML se používají k zobrazení seznamu položek v postupném pořadí, obvykle s čísly nebo písmeny. V tomto tutoriálu se naučíme, jak převést seřazený seznam HTML do dokumentu PDF pomocí Aspose.PDF pro Javu.
 
-## Přidání Aspose.PDF pro Java do vašeho projektu
+## Přidání Aspose.PDF pro Javu do vašeho projektu
 
- Než začneme, musíte do svého projektu Java přidat Aspose.PDF for Java. Knihovnu si můžete stáhnout z webových stránek na adrese[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) a postupujte podle dodaných pokynů k instalaci.
+Než začneme, je třeba do vašeho projektu v Javě přidat soubor Aspose.PDF pro Javu. Knihovnu si můžete stáhnout z webových stránek na adrese [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) a postupujte podle přiložených pokynů k instalaci.
 
-## Vytvoření nového dokumentu PDF
+## Vytvoření nového PDF dokumentu
 
 Chcete-li začít, vytvořte nový projekt Java a importujte knihovnu Aspose.PDF. Poté vytvořte nový dokument PDF, který bude obsahovat seřazený seznam HTML.
 
 ```java
-// Vytvořte nový dokument PDF
+// Vytvořte nový PDF dokument
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 ```
 
-## Přidání uspořádaného seznamu HTML do PDF
+## Přidání seřazeného seznamu HTML do PDF
 
- Dále budete muset analyzovat uspořádaný seznam HTML a přidat jej do dokumentu PDF. Aspose.PDF pro Java poskytuje pohodlný způsob, jak toho dosáhnout pomocí`HtmlFragment` třída.
+Dále budete muset analyzovat seřazený seznam HTML a přidat ho do dokumentu PDF. Aspose.PDF pro Javu nabízí pohodlný způsob, jak toho dosáhnout pomocí `HtmlFragment` třída.
 
 ```java
 // Vytvořte fragment HTML
 com.aspose.pdf.HtmlFragment htmlFragment = new com.aspose.pdf.HtmlFragment("<ol><li>Item 1</li><li>Item 2</li><li>Item 3</li></ol>");
 
-// Přidejte fragment HTML do dokumentu PDF
+// Přidání HTML fragmentu do PDF dokumentu
 pdfDocument.getPages().get_Item(1).getParagraphs().add(htmlFragment);
 ```
 
-## Úprava uspořádaného seznamu
+## Stylování seřazeného seznamu
 
-Můžete také použít styly na uspořádaný seznam HTML a přizpůsobit jeho vzhled v dokumentu PDF. Můžete například změnit velikost písma, barvu a zarovnání.
+Na seřazený seznam HTML můžete také použít styly a přizpůsobit tak jeho vzhled v dokumentu PDF. Můžete například změnit velikost písma, barvu a zarovnání.
 
 ```java
-// Přizpůsobte styl fragmentu HTML
+// Přizpůsobení stylu HTML fragmentu
 htmlFragment.getTextState().setFontSize(12);
 htmlFragment.getTextState().setFont(Color.BLUE);
 htmlFragment.setHorizontalAlignment(HorizontalAlignment.Left);
@@ -62,37 +64,39 @@ htmlFragment.setHorizontalAlignment(HorizontalAlignment.Left);
 
 ## Uložení dokumentu PDF
 
-Jakmile přidáte uspořádaný seznam HTML a přizpůsobíte jeho styl, můžete dokument PDF uložit do souboru.
+Jakmile přidáte seřazený seznam HTML a upravíte jeho styl, můžete dokument PDF uložit do souboru.
 
 ```java
-// Uložte dokument PDF do souboru
+// Uložení PDF dokumentu do souboru
 pdfDocument.save("output.pdf");
 ```
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak přidat uspořádaný seznam HTML do dokumentů v Javě pomocí Aspose.PDF pro Javu. Tato výkonná knihovna vám umožňuje snadno manipulovat s dokumenty PDF a vytvářet dynamický obsah.
+V tomto tutoriálu jsme se naučili, jak přidat seřazený seznam HTML do dokumentů v Javě pomocí knihovny Aspose.PDF pro Javu. Tato výkonná knihovna umožňuje snadnou manipulaci s dokumenty PDF a vytváření dynamického obsahu.
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-### Jak si stáhnu Aspose.PDF pro Javu?
+### Jak si stáhnu soubor Aspose.PDF pro Javu?
 
-Aspose.PDF pro Java si můžete stáhnout z webové stránky na adrese[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Soubor Aspose.PDF pro Javu si můžete stáhnout z webových stránek na adrese [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
-### Mohu přizpůsobit styl uspořádaného seznamu HTML?
+### Mohu si přizpůsobit styl seřazeného seznamu HTML?
 
-Ano, styl uspořádaného seznamu HTML můžete přizpůsobit změnou velikosti písma, barvy, zarovnání a dalších.
+Ano, styl seřazeného seznamu HTML si můžete přizpůsobit změnou velikosti písma, barvy, zarovnání a dalších prvků.
 
-### Je Aspose.PDF for Java zdarma k použití?
+### Je Aspose.PDF pro Javu zdarma k použití?
 
-Aspose.PDF for Java je komerční knihovna a možná budete muset zakoupit licenci pro určité scénáře použití. Informace o licencích naleznete na webových stránkách.
+Aspose.PDF pro Javu je komerční knihovna a pro určité scénáře použití může být nutné zakoupit licenci. Informace o licencování naleznete na webových stránkách.
 
-### Poskytuje Aspose.PDF pro Javu nějaké další funkce?
+### Nabízí Aspose.PDF pro Javu nějaké další funkce?
 
- Ano, Aspose.PDF for Java nabízí širokou škálu funkcí pro práci s dokumenty PDF, včetně extrakce textu, převodu do PDF a dalších. Dokumentaci si můžete prohlédnout na[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) pro podrobné informace.
+Ano, Aspose.PDF pro Javu nabízí širokou škálu funkcí pro práci s PDF dokumenty, včetně extrakce textu, konverze PDF a dalších. Dokumentaci si můžete prohlédnout na adrese [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) pro podrobné informace.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

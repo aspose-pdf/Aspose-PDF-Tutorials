@@ -8,7 +8,9 @@ url: /java/pdf-document-operations/add-image-stamp-as-background-in-floating-box
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Image Stamp as Background in Floating Box of PDF using Java
@@ -116,6 +118,7 @@ You can find comprehensive documentation and examples on the Aspose.PDF for Java
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

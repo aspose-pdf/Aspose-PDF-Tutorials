@@ -1,14 +1,16 @@
 ---
-title: Manipulacja obrazami PDF
-linktitle: Manipulacja obrazami PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Naucz się manipulować obrazami PDF za pomocą Aspose.PDF dla Java. Przekształcaj, edytuj i optymalizuj obrazy w dokumentach PDF bez wysiłku.
-weight: 13
-url: /pl/java/pdf-image-manipulation/
+"description": "Naucz się manipulować obrazami PDF za pomocą Aspose.PDF dla Java. Przekształcaj, edytuj i optymalizuj obrazy w dokumentach PDF bez wysiłku."
+"linktitle": "Manipulacja obrazami PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Manipulacja obrazami PDF"
+"url": "/pl/java/pdf-image-manipulation/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulacja obrazami PDF
@@ -28,7 +30,7 @@ Chcesz ulepszyć wygląd wizualny swoich dokumentów PDF? Dzięki Aspose.PDF for
 
 Optymalizacja obrazów w plikach PDF jest niezbędna do zmniejszenia rozmiaru pliku i poprawy wydajności dokumentu. Pokażemy, jak Aspose.PDF for Java pozwala optymalizować obrazy poprzez dostosowanie ich ustawień kompresji i jakości. Pod koniec tych samouczków będziesz biegły w osiąganiu idealnej równowagi między jakością obrazu a rozmiarem dokumentu, zapewniając płynne działanie użytkownika.
 
-Dołącz do nas w tej podróży, aby zostać ekspertem w zakresie manipulacji obrazami PDF dzięki Aspose.PDF dla Java. Niezależnie od tego, czy jesteś programistą, który chce udoskonalić swoje możliwości przetwarzania dokumentów, czy osobą, która chce tworzyć wizualnie oszałamiające pliki PDF, te samouczki pozwolą Ci bezproblemowo przekształcać, edytować i optymalizować obrazy w dokumentach PDF.
+Dołącz do nas w tej podróży, aby zostać ekspertem w zakresie manipulacji obrazami PDF dzięki Aspose.PDF dla Java. Niezależnie od tego, czy jesteś programistą, który chce ulepszyć swoje możliwości przetwarzania dokumentów, czy osobą, która chce tworzyć wizualnie oszałamiające pliki PDF, te samouczki pozwolą Ci bezproblemowo przekształcać, edytować i optymalizować obrazy w dokumentach PDF.
 
 ## Samouczki dotyczące manipulacji obrazami w formacie PDF
 ### [Dodaj obraz do pliku PDF za pomocą Java](./add-image-to-pdf-using-java/)
@@ -47,9 +49,11 @@ Dowiedz się, jak identyfikować kolorowe lub czarno-białe obrazy w plikach PDF
 Dowiedz się, jak zamieniać obrazy w plikach PDF za pomocą Javy, używając Aspose.PDF dla Javy. Przewodnik krok po kroku z przykładami kodu dla bezproblemowej zamiany obrazów.
 ### [Ustawianie DPI lub PPI obrazów w PDF za pomocą Java](./setting-dpi-or-ppi-of-images-in-pdf-using-java/)
 Zoptymalizuj jakość obrazu PDF dzięki naszemu przewodnikowi krok po kroku dotyczącemu ustawiania DPI/PPI w PDF przy użyciu Java. Dowiedz się, jak ulepszyć swoje dokumenty do druku i wyświetlania cyfrowego.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

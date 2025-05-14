@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Lampiran Individual Dalam File PDF
-linktitle: Dapatkan Lampiran Individual Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak lampiran individual dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini.
-weight: 60
-url: /id/net/programming-with-attachments/get-individual-attachment/
+"description": "Pelajari cara mengekstrak lampiran individual dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini."
+"linktitle": "Dapatkan Lampiran Individual Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Lampiran Individual Dalam File PDF"
+"url": "/id/net/programming-with-attachments/get-individual-attachment/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Lampiran Individual Dalam File PDF
@@ -22,7 +24,7 @@ Di era digital, PDF telah menjadi kebutuhan pokok untuk berbagi dokumen. Baik it
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE yang tepat untuk pengembangan .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C# akan membantu Anda mengikutinya dengan lancar.
 
 ## Paket Impor
@@ -31,7 +33,7 @@ Untuk memulai, Anda perlu mengimpor paket yang diperlukan ke dalam proyek C# And
 
 1. Buka proyek Visual Studio Anda.
 2. Klik kanan pada proyek Anda di Solution Explorer dan pilih "Kelola Paket NuGet."
-3.  Pencarian untuk`Aspose.PDF` dan menginstalnya.
+3. Pencarian untuk `Aspose.PDF` dan menginstalnya.
 
 ```csharp
 using System.IO;
@@ -50,7 +52,7 @@ Langkah pertama dalam perjalanan kita adalah menyiapkan direktori tempat file PD
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Ini bisa jadi seperti ini`C:\\Documents\\`atau jalur lain tempat PDF Anda disimpan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Ini bisa jadi seperti ini `C:\\Documents\\` atau jalur lain tempat PDF Anda disimpan.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -61,7 +63,7 @@ Setelah direktori kita siap, saatnya membuka dokumen PDF. Di sinilah keajaiban d
 Document pdfDocument = new Document(dataDir + "GetIndividualAttachment.pdf");
 ```
 
- Di sini, kita membuat yang baru`Document` objek dan berikan jalur berkas PDF kita. Baris kode ini memuat PDF ke dalam memori, sehingga kita dapat berinteraksi dengannya.
+Di sini, kita membuat yang baru `Document` objek dan berikan jalur berkas PDF kita. Baris kode ini memuat PDF ke dalam memori, sehingga kita dapat berinteraksi dengannya.
 
 ## Langkah 3: Akses File Tertanam
 
@@ -102,7 +104,7 @@ if (fileSpecification.Params != null)
 }
 ```
 
- Pada langkah ini, kami memeriksa apakah`Params` objek tidak null. Jika berisi data, kami mencetak checksum, tanggal pembuatan, tanggal modifikasi, dan ukuran file. Ini dapat membantu Anda memverifikasi integritas dan riwayat lampiran.
+Pada langkah ini, kami memeriksa apakah `Params` objek tidak null. Jika berisi data, kami mencetak checksum, tanggal pembuatan, tanggal modifikasi, dan ukuran file. Ini dapat membantu Anda memverifikasi integritas dan riwayat lampiran.
 
 ## Langkah 6: Ekstrak Lampiran
 
@@ -117,7 +119,7 @@ fileStream.Write(fileContent, 0, fileContent.Length);
 fileStream.Close();
 ```
 
- Dalam potongan kode ini, pertama-tama kita membuat array byte untuk menampung konten file. Kemudian kita membaca konten file yang disematkan ke dalam array ini. Terakhir, kita membuat aliran file baru untuk menulis konten ke file baru bernama`test_out.txt`Anda dapat mengubah nama file dan ekstensi sesuai kebutuhan.
+Dalam potongan kode ini, pertama-tama kita membuat array byte untuk menampung konten file. Kemudian kita membaca konten file yang disematkan ke dalam array ini. Terakhir, kita membuat aliran file baru untuk menulis konten ke file baru bernama `test_out.txt`Anda dapat mengubah nama file dan ekstensi sesuai kebutuhan.
 
 ## Kesimpulan
 
@@ -129,20 +131,22 @@ Nah, itu dia! Anda telah berhasil mengekstrak lampiran individual dari file PDF 
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Bisakah saya mengekstrak beberapa lampiran dari PDF?
- Ya, Anda dapat melakukan pengulangan`EmbeddedFiles` koleksi untuk mengekstrak beberapa lampiran.
+Ya, Anda dapat melakukan pengulangan melalui `EmbeddedFiles` koleksi untuk mengekstrak beberapa lampiran.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?
 Aspose.PDF menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda harus membeli lisensi.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan melalui forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan melalui forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

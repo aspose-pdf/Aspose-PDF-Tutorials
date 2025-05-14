@@ -1,14 +1,16 @@
 ---
-title: Hình ảnh và số trang trong phần Header Footer
-linktitle: Hình ảnh và số trang trong phần Header Footer
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm hình ảnh và số trang vào đầu trang và chân trang của tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này.
-weight: 110
-url: /vi/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section/
+"description": "Tìm hiểu cách thêm hình ảnh và số trang vào đầu trang và chân trang của tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này."
+"linktitle": "Hình ảnh và số trang trong phần Header Footer"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Hình ảnh và số trang trong phần Header Footer"
+"url": "/vi/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hình ảnh và số trang trong phần Header Footer
@@ -22,7 +24,7 @@ Khi nói đến việc tạo tài liệu PDF chuyên nghiệp, việc kiểm so�
 Trước khi đi sâu vào hướng dẫn này, hãy đảm bảo bạn đã sắp xếp các mục sau:
 
 1. .NET Framework: Bạn cần cài đặt bất kỳ phiên bản .NET framework nào trên máy tính của mình. Nếu bạn không có, bạn có thể dễ dàng tải xuống từ trang web của Microsoft.
-2.  Aspose.PDF cho .NET: Vì chúng ta sẽ sử dụng Aspose.PDF, hãy đảm bảo bạn đã cài đặt nó trong dự án của mình. Bạn có thể tải xuống phiên bản dùng thử[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Vì chúng ta sẽ sử dụng Aspose.PDF, hãy đảm bảo bạn đã cài đặt nó trong dự án của mình. Bạn có thể tải xuống phiên bản dùng thử [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# cơ bản chắc chắn sẽ giúp bạn hiểu được mã mà không gặp nhiều khó khăn.
 4. Tệp hình ảnh: Bạn sẽ cần một hình ảnh mà bạn muốn đặt vào tiêu đề của tài liệu PDF, chẳng hạn như logo. Lưu nó trong một thư mục có thể truy cập được. 
 5. IDE: Sử dụng Môi trường phát triển tích hợp (IDE) theo lựa chọn của bạn, như Visual Studio, để làm việc với dự án .NET của bạn.
@@ -51,7 +53,7 @@ Mọi dự án tốt đều bắt đầu bằng việc tổ chức. Xác định
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nhớ thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF và nơi lưu trữ hình ảnh của bạn.
+Nhớ thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF và nơi lưu trữ hình ảnh của bạn.
 
 ## Bước 2: Tạo một tài liệu PDF mới
 
@@ -98,7 +100,7 @@ Aspose.Pdf.Image image1 = new Aspose.Pdf.Image();
 image1.File = dataDir + "aspose-logo.jpg";
 ```
 
-Cuối cùng, thêm hình ảnh vào tiêu đề của bạn:
+Cuối cùng, thêm hình ảnh vào tiêu đề:
 
 ```csharp
 header.Paragraphs.Add(image1);
@@ -153,7 +155,7 @@ Và bạn đã có nó! Bạn vừa tạo một tệp PDF có hình ảnh ở ti
 Có, Aspose.PDF cho .NET hỗ trợ nhiều nền tảng .NET bao gồm .NET Framework, .NET Core, v.v.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Chắc chắn rồi! Bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể tải xuống phiên bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Định dạng hình ảnh nào được hỗ trợ cho tiêu đề?
 Aspose.PDF hỗ trợ hầu hết các định dạng hình ảnh phổ biến như JPG, PNG và BMP cho phần đầu trang và chân trang.
@@ -162,10 +164,12 @@ Aspose.PDF hỗ trợ hầu hết các định dạng hình ảnh phổ biến n
 Có, bạn có thể dễ dàng tùy chỉnh văn bản và định dạng chân trang theo nhu cầu của mình.
 
 ### Có hỗ trợ kỹ thuật không?
- Có, Aspose cung cấp hỗ trợ chuyên dụng thông qua diễn đàn của họ. Bạn có thể liên hệ để được trợ giúp[đây](https://forum.aspose.com/c/pdf/10).
+Có, Aspose cung cấp hỗ trợ chuyên dụng thông qua diễn đàn của họ. Bạn có thể liên hệ để được trợ giúp [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

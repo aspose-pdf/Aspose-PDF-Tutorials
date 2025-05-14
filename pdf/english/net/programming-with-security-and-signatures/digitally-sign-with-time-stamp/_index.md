@@ -8,7 +8,9 @@ url: /net/programming-with-security-and-signatures/digitally-sign-with-time-stam
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Digitally Sign With Time Stamp In PDF File
@@ -151,6 +153,7 @@ Yes, you can pass `false` to the `Sign` method's visibility parameter to make th
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

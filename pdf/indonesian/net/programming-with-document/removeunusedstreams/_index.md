@@ -1,30 +1,32 @@
 ---
-title: Hapus Aliran yang Tidak Digunakan Dalam File PDF
-linktitle: Hapus Aliran yang Tidak Digunakan Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menghapus aliran yang tidak digunakan dalam berkas PDF menggunakan Aspose.PDF untuk .NET guna mengoptimalkan ukuran dan kinerja berkas.
-weight: 270
-url: /id/net/programming-with-document/removeunusedstreams/
+"description": "Pelajari cara menghapus aliran yang tidak digunakan dalam file PDF menggunakan Aspose.PDF untuk .NET untuk mengoptimalkan ukuran dan kinerja file."
+"linktitle": "Hapus Aliran yang Tidak Digunakan Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Hapus Aliran yang Tidak Digunakan Dalam File PDF"
+"url": "/id/net/programming-with-document/removeunusedstreams/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Aliran yang Tidak Digunakan Dalam File PDF
 
 ## Perkenalan
 
-Mengelola file PDF secara efektif merupakan suatu keharusan di era digital saat ini. Baik Anda bekerja dengan dokumen besar atau mengoptimalkan file untuk kinerja yang lebih baik, memastikan data yang tidak digunakan tidak memenuhi file Anda adalah hal yang penting. Aspose.PDF untuk .NET menyediakan fitur canggih yang memungkinkan pengembang mengoptimalkan file PDF dengan menghapus aliran yang tidak digunakan. Dalam artikel ini, kami akan memandu Anda langkah demi langkah tentang cara menghapus aliran yang tidak digunakan dalam file PDF menggunakan Aspose.PDF untuk .NET.
+Mengelola file PDF secara efektif merupakan suatu keharusan di era digital saat ini. Baik Anda bekerja dengan dokumen berukuran besar atau mengoptimalkan file untuk kinerja yang lebih baik, memastikan data yang tidak digunakan tidak memenuhi file Anda adalah hal yang penting. Aspose.PDF for .NET menyediakan fitur canggih yang memungkinkan pengembang mengoptimalkan file PDF dengan menghapus aliran yang tidak digunakan. Dalam artikel ini, kami akan memandu Anda langkah demi langkah tentang cara menghapus aliran yang tidak digunakan dalam file PDF menggunakan Aspose.PDF for .NET.
 
 ## Prasyarat
 
 Sebelum menyelami panduan langkah demi langkah, mari kita bahas prasyarat penting yang Anda perlukan untuk memulai:
 
-1.  Pustaka Aspose.PDF untuk .NET: Pertama, Anda perlu memasang Aspose.PDF untuk .NET di proyek Anda. Jika Anda belum mengunduhnya, Anda dapat mengunduh versi terbaru dari[halaman rilis](https://releases.aspose.com/pdf/net/).
+1. Pustaka Aspose.PDF untuk .NET: Pertama, Anda perlu memasang Aspose.PDF untuk .NET di proyek Anda. Jika Anda belum mengunduhnya, Anda dapat mengunduh versi terbaru dari [halaman rilis](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework. Aspose.PDF for .NET berfungsi dengan lancar dengan berbagai versi .NET.
 3. Pemahaman Dasar tentang C#: Anda harus memiliki pemahaman dasar tentang C# dan pemrograman berorientasi objek untuk mengikuti potongan kode dan penjelasannya.
-4.  Lisensi Sementara (Opsional): Untuk fungsionalitas lanjutan tanpa batasan, Anda dapat meminta lisensi sementara.[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+4. Lisensi Sementara (Opsional): Untuk fungsionalitas lanjutan tanpa batasan, Anda dapat meminta lisensi sementara (Opsional): [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 
 ## Paket Impor
@@ -48,21 +50,21 @@ Pertama-tama, Anda perlu menentukan direktori tempat file PDF Anda berada. Ini a
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Di sini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Jika dokumen tersebut berada di direktori yang sama dengan proyek Anda, Anda dapat membuatnya tetap sederhana dengan hanya memberi nama berkas tersebut.
+Di sini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Jika dokumen tersebut berada di direktori yang sama dengan proyek Anda, Anda dapat membuatnya tetap sederhana dengan hanya memberi nama berkas tersebut.
 
 ## Langkah 2: Muat Dokumen PDF
 
-Selanjutnya, Anda perlu memuat dokumen PDF yang ingin Anda optimalkan. Dalam kasus ini, kita bekerja dengan file bernama "OptimizeDocument.pdf". Memuat dokumen ke dalam`Document` objeknya sederhana.
+Selanjutnya, Anda perlu memuat dokumen PDF yang ingin Anda optimalkan. Dalam kasus ini, kita bekerja dengan file bernama "OptimizeDocument.pdf". Memuat dokumen ke dalam `Document` objeknya sederhana.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
- Kode ini membaca file dari direktori yang ditentukan dan memuatnya ke dalam`pdfDocument` objek, membuatnya siap untuk dimanipulasi.
+Kode ini membaca file dari direktori yang ditentukan dan memuatnya ke dalam `pdfDocument` objek, membuatnya siap untuk dimanipulasi.
 
 ## Langkah 3: Tetapkan Opsi Optimasi
 
- Aspose.PDF untuk .NET menawarkan berbagai opsi pengoptimalan, tetapi untuk tutorial ini, kami berfokus pada penghapusan aliran yang tidak digunakan. Anda perlu mengonfigurasi`OptimizationOptions` kelas dan mengatur`RemoveUnusedStreams` properti untuk`true`.
+Aspose.PDF untuk .NET menawarkan berbagai opsi pengoptimalan, tetapi untuk tutorial ini, kami berfokus pada penghapusan aliran yang tidak digunakan. Anda perlu mengonfigurasi `OptimizationOptions` kelas dan mengatur `RemoveUnusedStreams` properti untuk `true`.
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions
@@ -71,11 +73,11 @@ var optimizeOptions = new Pdf.Optimization.OptimizationOptions
 };
 ```
 
- Dengan pengaturan`RemoveUnusedStreams = true`, kami menginstruksikan sistem untuk mencari dan menghilangkan aliran apa pun yang tidak lagi diperlukan dalam berkas PDF. Langkah ini dapat membantu mengurangi ukuran berkas dan meningkatkan kinerja.
+Dengan pengaturan `RemoveUnusedStreams = true`, kami menginstruksikan sistem untuk mencari dan menghilangkan aliran apa pun yang tidak lagi diperlukan dalam berkas PDF. Langkah ini dapat membantu mengurangi ukuran berkas dan meningkatkan kinerja.
 
 ## Langkah 4: Optimalkan Dokumen PDF
 
- Sekarang saatnya menerapkan opsi pengoptimalan ke dokumen PDF. Dengan memanggil`OptimizeResources` metode, proses pengoptimalan akan dimulai, dan aliran yang tidak digunakan akan dihapus berdasarkan opsi yang telah Anda tentukan.
+Sekarang saatnya menerapkan opsi pengoptimalan ke dokumen PDF. Dengan memanggil `OptimizeResources` metode, proses pengoptimalan akan dimulai, dan aliran yang tidak digunakan akan dihapus berdasarkan opsi yang telah Anda tentukan.
 
 ```csharp
 pdfDocument.OptimizeResources(optimizeOptions);
@@ -107,16 +109,18 @@ Ini menghapus aliran yang tidak diperlukan yang tidak digunakan secara aktif ole
 Ya, Aspose.PDF menyediakan beberapa fitur pengoptimalan, seperti kompresi gambar, pengoptimalan font, dan banyak lagi. Anda dapat menggabungkannya sesuai kebutuhan.
 
 ### Apakah fitur ini mempengaruhi kualitas PDF?
-Tidak, menghapus aliran yang tidak digunakan tidak akan mengurangi kualitas visual atau struktural PDF. Penghapusan aliran tersebut hanya akan membuang data yang tidak penting.
+Tidak, menghapus aliran yang tidak digunakan tidak akan mengurangi kualitas visual atau struktural PDF. Penghapusan ini hanya akan membuang data yang tidak penting.
 
 ### Apakah Aspose.PDF untuk .NET gratis untuk digunakan?
- Aspose.PDF untuk .NET menawarkan uji coba gratis dengan fungsionalitas terbatas. Untuk akses penuh, Anda dapat membeli lisensi dari[halaman pembelian](https://purchase.aspose.com/buy).
+Aspose.PDF untuk .NET menawarkan uji coba gratis dengan fungsionalitas terbatas. Untuk akses penuh, Anda dapat membeli lisensi dari [halaman pembelian](https://purchase.aspose.com/buy).
 
 ### Bagaimana cara mendapatkan lisensi sementara?
- Anda dapat dengan mudah meminta[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menguji kemampuan penuh Aspose.PDF untuk .NET sebelum melakukan pembelian.
+Anda dapat dengan mudah meminta [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menguji kemampuan penuh Aspose.PDF untuk .NET sebelum melakukan pembelian.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

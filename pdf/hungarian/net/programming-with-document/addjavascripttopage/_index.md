@@ -1,34 +1,36 @@
 ---
-title: Java Script hozzáadása PDF fájlhoz
-linktitle: Java Script PDF fájl hozzáadása
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan adhat hozzá JavaScriptet PDF-fájlhoz az Aspose.PDF for .NET használatával. Lépésről lépésre útmutató kóddal oktatóanyaggal a dokumentum- és oldalszintű szkriptekhez.
-weight: 10
-url: /hu/net/programming-with-document/addjavascripttopage/
+"description": "Tanuld meg, hogyan adhatsz JavaScriptet PDF fájlokhoz az Aspose.PDF for .NET használatával. Lépésről lépésre útmutató kód oktatóanyagokkal dokumentum- és oldalszintű szkripteléshez."
+"linktitle": "Java Script PDF fájl hozzáadása"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Java szkript hozzáadása PDF fájlhoz"
+"url": "/hu/net/programming-with-document/addjavascripttopage/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Script hozzáadása PDF fájlhoz
+# Java szkript hozzáadása PDF fájlhoz
 
 ## Bevezetés
 
-Gondolkozott már azon, hogyan javíthatja PDF-fájljait interaktív elemekkel, például előugró figyelmeztetésekkel vagy automatikus nyomtatási funkciókkal? Nos, jó hír – megteheti! Az Aspose.PDF for .NET használatával zökkenőmentesen hozzáadhatja a JavaScriptet PDF-dokumentumaihoz. Akár feladatokat automatizál, akár dinamikus felhasználói élményt hoz létre, a JavaScript beágyazása PDF-fájlokba extra szintű funkcionalitást biztosít fájljainak.
+Elgondolkodott már azon, hogyan teheti jobbá PDF-fájljait interaktív elemekkel, például felugró ablakokkal vagy automatikus nyomtatási funkciókkal? Nos, jó hírünk van – megteheti! Az Aspose.PDF for .NET használatával zökkenőmentesen adhat hozzá JavaScriptet PDF-dokumentumaihoz. Akár feladatokat automatizál, akár dinamikus felhasználói élményt hoz létre, a JavaScript PDF-fájlokba ágyazása extra funkcionalitást biztosít fájljainak.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódolási részbe, néhány dolgot be kell állítania:
+Mielőtt belevágnánk a kódolásba, van néhány dolog, amit be kell állítanod:
 
--  Aspose.PDF for .NET: Töltse le a könyvtárat innen[Aspose Releases](https://releases.aspose.com/pdf/net/) vagy kap a[ingyenes próbaverzió](https://releases.aspose.com/).
+- Aspose.PDF .NET-hez: Töltse le a könyvtárat innen [Aspose kiadások](https://releases.aspose.com/pdf/net/) vagy szerezz egy [ingyenes próba](https://releases.aspose.com/).
 - Fejlesztői környezet: Bármely .NET-kompatibilis IDE, például a Visual Studio.
-- Alapvető C# ismeretek: Ez az útmutató feltételezi, hogy ismeri az alapvető C# szintaxist.
--  Ideiglenes jogosítvány (opcionális): Kaphat a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha szeretné elkerülni a korlátokat a fejlődése során.
+- Alapvető C# ismeretek: Ez az útmutató feltételezi, hogy ismered az alapvető C# szintaxist.
+- Ideiglenes engedély (opcionális): Szerezhet egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha el szeretnéd kerülni a korlátozásokat a fejlesztésed során.
 
 ## Csomagok importálása
 
-Mielőtt elkezdené a kódírást, importálnia kell a szükséges névtereket az Aspose.PDF könyvtárból. Ezek a névterek lehetővé teszik a PDF-fájlok kezelését és a JavaScript-műveletek egyszerű hozzáadását.
+Mielőtt elkezdenéd a kódírást, importálnod kell a szükséges névtereket az Aspose.PDF könyvtárból. Ezek a névterek lehetővé teszik a PDF-ek egyszerű kezelését és JavaScript műveletek hozzáadását.
 
 ```csharp
 using System.IO;
@@ -38,50 +40,50 @@ using Aspose.Pdf.Annotations;
 using Aspose.Pdf.Text;
 ```
 
-Most, hogy importálta a megfelelő névtereket, készen áll a kódolás megkezdésére.
+Most, hogy importáltad a megfelelő névtereket, készen állsz a kódolás megkezdésére.
 
-## 1. lépés: Töltsön be egy meglévő PDF-fájlt
+## 1. lépés: Meglévő PDF betöltése
 
-Először is – be kell töltenie azt a PDF-dokumentumot, amelyhez JavaScriptet szeretne hozzáadni. Ez a lépés megadja a terepet az összes további módosításhoz. Képzelje el, hogy van egy PDF-fájlja, amelyet dinamikus funkciókkal szeretne javítani, például a dokumentum automatikus kinyomtatását megnyitáskor.
+Először is be kell töltened azt a PDF dokumentumot, amelyhez JavaScriptet szeretnél hozzáadni. Ez a lépés előkészíti a terepet a további módosításokhoz. Képzeld el, hogy van egy PDF dokumentumod, amelyet dinamikus funkciókkal szeretnél kiegészíteni, például a dokumentum automatikus kinyomtatásával megnyitáskor.
 
-A következőképpen töltheti be a PDF-fájlt:
+Így töltheted be a PDF fájlt:
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Töltsön be egy meglévő PDF-fájlt
+// Meglévő PDF fájl betöltése
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Ebben a kódrészletben a`Document` osztályt egy meglévő PDF fájl betöltéséhez a megadott könyvtárból. Ügyeljen arra, hogy cserélje ki`"YOUR DOCUMENT DIRECTORY"` a PDF-fájl tényleges elérési útjával.
+Ebben a kódrészletben a következőt használjuk: `Document` osztály egy meglévő PDF fájl betöltéséhez a megadott könyvtárból. Ügyeljen arra, hogy lecserélje `"YOUR DOCUMENT DIRECTORY"` a PDF-fájl tényleges elérési útjával.
 
-## 2. lépés: Adjon hozzá JavaScriptet a dokumentum szintjén
+## 2. lépés: JavaScript hozzáadása a dokumentum szintjén
 
-Most adjunk hozzá néhány JavaScriptet, amely a dokumentum megnyitásakor aktiválódik. Ebben a példában egy szkriptet írunk, amely azonnal megnyitja a nyomtatási párbeszédpanelt, amint a felhasználó megnyitja a PDF-fájlt.
+Most adjunk hozzá egy JavaScript kódot, amely a dokumentum megnyitásakor aktiválódik. Ebben a példában egy olyan szkriptet fogunk írni, amely megnyitja a nyomtatási párbeszédablakot, amint a felhasználó megnyitja a PDF-et.
 
-A dokumentum szintű JavaScript tökéletes a teljes PDF-re alkalmazni kívánt műveletekhez. Gondoljon úgy, mintha egy globális szabályt állítana be a dokumentumához.
+A dokumentumszintű JavaScript tökéletes azokhoz a műveletekhez, amelyeket a teljes PDF-re alkalmazni szeretnél. Gondolj rá úgy, mintha egy globális szabályt állítanál be a dokumentumodhoz.
 
-Íme a kód:
+Itt a kód:
 
 ```csharp
-// JavaScript hozzáadása dokumentum szinten
-// Példányosítsa a JavascriptAction-t a kívánt JavaScript-utasítással
+// JavaScript hozzáadása dokumentumszinten
+// JavascriptAction példányosítása a kívánt JavaScript utasítással
 JavascriptAction javaScript = new JavascriptAction("this.print({bUI:true,bSilent:false,bShrinkToFit:true});");
 
-// Rendelje hozzá a JavascriptAction objektumot a dokumentum OpenAction műveletéhez
+// JavascriptAction objektum hozzárendelése a dokumentum OpenAction műveletéhez
 doc.OpenAction = javaScript;
 ```
 
- Ebben a lépésben létrehozzuk a`JavascriptAction` objektum, amely egy JavaScript függvényt határoz meg a nyomtatási párbeszédpanel megnyitásához a dokumentum megnyitásakor. A`doc.OpenAction` A tulajdonság ezután hozzá van rendelve ehhez a JavaScript-művelethez.
+Ebben a lépésben létrehozunk egy `JavascriptAction` egy JavaScript függvényt definiáló objektum, amely a dokumentum megnyitásakor megnyitja a nyomtatási párbeszédablakot. `doc.OpenAction` tulajdonsághoz ezután hozzárendelődik ez a JavaScript művelet.
 
-## 3. lépés: Adjon hozzá JavaScriptet az oldal szintjén
+## 3. lépés: JavaScript hozzáadása az oldal szintjén
 
-Nem kell minden műveletnek kihatnia a teljes dokumentumra. Néha bizonyos műveleteket szeretne végrehajtani bizonyos oldalak megnyitásakor vagy bezárásakor. Itt JavaScript-műveleteket állítunk be egy adott oldal (tegyük fel a 2. oldal) megnyitásakor és bezárásakor.
+Nem kell minden műveletnek a teljes dokumentumra hatással lennie. Előfordulhat, hogy bizonyos műveletek végrehajtása akkor történik meg, amikor bizonyos oldalakat megnyitunk vagy bezárunk. Itt JavaScript műveleteket fogunk beállítani egy adott oldal (mondjuk a 2. oldal) megnyitásakor és bezárásakor.
 
-Az oldalszintű JavaScript hasznos a célzott interakciókhoz. Bármi lehet az üzenet megjelenítésétől, amikor a felhasználó egy oldalra navigál, az egyéni műveletekig, például az űrlapmezők automatikus kitöltése.
+Az oldalszintű JavaScript hasznos a célzott interakciókhoz. Bármi lehet, az üzenet megjelenítésétől kezdve, amikor a felhasználó egy oldalra navigál, egészen az egyéni műveletekig, például az űrlapmezők automatikus kitöltéséig.
 
-Íme, hogyan kell csinálni:
+Így kell csinálni:
 
 ```csharp
 // JavaScript hozzáadása oldalszinten
@@ -89,17 +91,17 @@ doc.Pages[2].Actions.OnOpen = new JavascriptAction("app.alert('Page 2 opened')")
 doc.Pages[2].Actions.OnClose = new JavascriptAction("app.alert('Page 2 closed')");
 ```
 
-Ebben a kódrészletben két JavaScript-műveletet adunk hozzá:
-1. OnOpen művelet: „A 2. oldal megnyitva” figyelmeztetést jelenít meg, amikor a felhasználó megnyitja a 2. oldalt.
-2. OnClose-művelet: „A 2. oldal lezárva” figyelmeztetést jelenít meg, amikor a felhasználó elnavigál a 2. oldalról.
+Ebben a kódrészletben két JavaScript műveletet adunk hozzá:
+1. Megnyitáskor művelet: Egy „2. oldal megnyitva” értesítést jelenít meg, amikor a felhasználó megnyitja a 2. oldalt.
+2. Bezáráskor művelet: Egy „2. oldal bezárva” értesítést jelenít meg, amikor a felhasználó elhagyja a 2. oldalt.
 
-Ez egy réteg interaktivitást ad a PDF-hez. Képzelje el, hogy a felhasználót egy sor lépésen keresztül vezeti végig a különböző oldalakon, figyelmeztető jelzésekkel, amelyek felbukkannak, amikor belép egy oldalra vagy elhagyja azt.
+Ez egy interaktív réteget ad a PDF-hez. Képzelje el, hogy végigvezeti a felhasználót egy sor lépésen a különböző oldalakon, figyelmeztetésekkel, amelyek felugró ablakokban jelennek meg, amikor belépnek vagy elhagyják az oldalt.
 
-## 4. lépés: Mentse el a PDF-dokumentumot
+## 4. lépés: Mentse el a PDF dokumentumot
 
-Ezzel a JavaScriptet mind a dokumentumhoz, mind az egyes oldalakhoz hozzáadta. Az utolsó lépés a módosított PDF mentése a kívánt helyre. Ez a rész egyszerű, de kulcsfontosságú – ne felejtse el menteni a munkáját!
+Most hozzáadtad a JavaScriptet mind a dokumentumhoz, mind az egyes oldalakhoz. Az utolsó lépés a módosított PDF mentése a kívánt helyre. Ez a rész egyszerű, de kulcsfontosságú – ne felejtsd el menteni a munkádat!
 
-Íme a kód:
+Itt a kód:
 
 ```csharp
 // Adja meg a kimeneti fájl elérési útját
@@ -111,31 +113,33 @@ doc.Save(dataDir);
 Console.WriteLine("\nJavaScript added successfully to the PDF.\nFile saved at " + dataDir);
 ```
 
- Ebben a részletben elmentjük a frissített dokumentumot a hozzáadott JavaScripttel egy új nevű fájlba`"JavaScript-Added_out.pdf"`. Ez biztosítja, hogy ne írja felül az eredeti fájlt, és biztonsági másolatot ad a munkavégzéshez.
+Ebben a kódrészletben a frissített dokumentumot a hozzáadott JavaScript-kóddal együtt egy új, a következő nevű fájlba mentjük el: `"JavaScript-Added_out.pdf"`Ez biztosítja, hogy ne írja felül az eredeti fájlt, és egy biztonsági mentést biztosít, amellyel dolgozhat.
 
 ## Következtetés
 
-A JavaScript hozzáadása PDF-fájlokhoz az Aspose.PDF for .NET használatával hatékony módja interaktív, dinamikus PDF-ek létrehozásának. Függetlenül attól, hogy automatizálja az olyan feladatokat, mint a nyomtatás vagy egyéni figyelmeztetések létrehozása, a JavaScript PDF-be ágyazásának képessége vonzóbbá és funkcionálisabbá teszi dokumentumait.
+Az Aspose.PDF for .NET segítségével JavaScript kód hozzáadása PDF fájlokhoz hatékony módja az interaktív, dinamikus PDF dokumentumok létrehozásának. Akár automatizál olyan feladatokat, mint a nyomtatás, akár egyéni riasztások létrehozása, a JavaScript PDF-be ágyazásának lehetősége vonzóbbá és funkcionálisabbá teszi dokumentumait.
 
 ## GYIK
 
-### Hozzáadhatok több JavaScript-műveletet a PDF különböző oldalaihoz?
-Igen, különböző JavaScript-műveleteket rendelhet az egyes oldalakhoz vagy a teljes dokumentumhoz.
+### Hozzáadhatok több JavaScript műveletet egy PDF különböző oldalaihoz?
+Igen, különböző JavaScript műveleteket rendelhet hozzá az egyes oldalakhoz vagy a teljes dokumentumhoz.
 
-### Eltávolítható a JavaScript a PDF-ből a hozzáadása után?
-Igen, eltávolíthatja vagy módosíthatja a meglévő JavaScript-műveleteket, ha törli a`Actions` a dokumentum vagy oldal tulajdonságait.
+### Lehetséges eltávolítani a JavaScriptet egy PDF-ből a hozzáadása után?
+Igen, eltávolíthatja vagy módosíthatja a meglévő JavaScript műveleteket a `Actions` a dokumentum vagy az oldal tulajdonságai.
 
-### Milyen JavaScript-függvényeket használhatok PDF-ben?
-Az Adobe Acrobat JavaScript-motorja által támogatott bármely JavaScriptet használhatja, például nyomtatást, figyelmeztetéseket és űrlapkezelést.
+### Milyen JavaScript függvényeket használhatok egy PDF-ben?
+Az Adobe Acrobat JavaScript motorja által támogatott bármely JavaScriptet használhatja, például nyomtatáshoz, riasztásokhoz és űrlapkezeléshez.
 
-### Működik a JavaScript minden PDF-megtekintőben?
-A legtöbb JavaScript-művelet működik az interaktív PDF-eket támogató PDF-megtekintőkben, például az Adobe Acrobatban. Előfordulhat azonban, hogy egyes alapvető PDF-olvasók nem támogatják a JavaScriptet.
+### A JavaScript minden PDF-megjelenítőben működik?
+A legtöbb JavaScript művelet működni fog az interaktív PDF-eket támogató PDF-megjelenítőkben, mint például az Adobe Acrobat. Előfordulhat azonban, hogy egyes alapvető PDF-olvasók nem támogatják a JavaScriptet.
 
-### Kiválthatok JavaScript-műveleteket a PDF-ben szereplő felhasználói bevitel alapján?
-Igen, a JavaScriptet olyan mezőkhöz kötheti, amelyek a felhasználói bevitelen alapuló műveleteket váltanak ki.
+### Aktiválhatok JavaScript műveleteket a PDF-ben megadott felhasználói bevitel alapján?
+Igen, JavaScriptet köthet űrlapmezőkhöz, hogy felhasználói bevitel alapján műveleteket indítson el.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

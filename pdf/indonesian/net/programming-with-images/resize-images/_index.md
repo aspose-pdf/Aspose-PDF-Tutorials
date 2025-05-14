@@ -1,14 +1,16 @@
 ---
-title: Ubah Ukuran Gambar Dalam File PDF
-linktitle: Ubah Ukuran Gambar Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengubah ukuran gambar dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan terperinci ini. Optimalkan ukuran file tanpa kehilangan kualitas.
-weight: 250
-url: /id/net/programming-with-images/resize-images/
+"description": "Pelajari cara mengubah ukuran gambar dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan terperinci ini. Optimalkan ukuran file tanpa kehilangan kualitas."
+"linktitle": "Ubah Ukuran Gambar Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ubah Ukuran Gambar Dalam File PDF"
+"url": "/id/net/programming-with-images/resize-images/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah Ukuran Gambar Dalam File PDF
@@ -23,9 +25,9 @@ Sebelum kita memulai proses sebenarnya untuk mengubah ukuran gambar dalam berkas
 
 1. Visual Studio Terpasang: Anda harus memiliki versi Visual Studio yang terpasang di komputer Anda. Di sinilah kita akan menulis kode untuk berinteraksi dengan pustaka Aspose.PDF.
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework. Tutorial ini mengasumsikan Anda menggunakan minimal .NET Framework 4.0 atau yang lebih tinggi.
-3. Pustaka Aspose.PDF untuk .NET: Anda perlu mengunduh pustaka Aspose.PDF. Alat canggih ini memudahkan manipulasi file PDF secara terprogram. Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+3. Pustaka Aspose.PDF untuk .NET: Anda perlu mengunduh pustaka Aspose.PDF. Alat canggih ini memudahkan manipulasi file PDF secara terprogram. Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 4. Pemahaman Dasar tentang C#: Keakraban dengan pemrograman C# akan sangat bermanfaat. Jika Anda tahu cara menulis kode C# yang sederhana, Anda akan baik-baik saja!
-5.  File PDF untuk Diuji: Siapkan contoh file PDF untuk menguji fungsionalitas pengubahan ukuran gambar. Untuk tutorial ini, kami akan menganggap Anda memiliki satu file bernama`ResizeImage.pdf`.
+5. File PDF untuk Diuji: Siapkan contoh file PDF untuk menguji fungsionalitas pengubahan ukuran gambar. Untuk tutorial ini, kami akan menganggap Anda memiliki satu file bernama `ResizeImage.pdf`.
 
 Sekarang setelah kita menyelesaikannya, mari kita lanjutkan dengan mengimpor paket yang diperlukan untuk memanfaatkan kemampuan Aspose.PDF.
 
@@ -68,7 +70,7 @@ Selanjutnya, Anda perlu menentukan lokasi dokumen PDF Anda. Hal ini dapat bervar
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke file Anda, memastikannya mengarah dengan benar ke`ResizeImage.pdf`.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke file Anda, memastikannya mengarah dengan benar ke `ResizeImage.pdf`.
 
 ## Langkah 3: Buka Dokumen PDF
 
@@ -78,11 +80,11 @@ Sekarang saatnya membuka berkas PDF Anda. Dengan Aspose.PDF, ini sangat mudah:
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 ```
 
- Baris ini membuat contoh baru dari`Document` kelas yang mewakili berkas PDF Anda. Anda siap untuk memanipulasinya!
+Baris ini membuat contoh baru dari `Document` kelas yang mewakili berkas PDF Anda. Anda siap untuk memanipulasinya!
 
 ## Langkah 4: Inisialisasi Opsi Optimasi
 
- Untuk mengubah ukuran gambar, pertama-tama kita perlu membuat contoh`OptimizationOptions`Ini akan membantu menentukan bagaimana kita ingin mengompres dan mengubah ukuran gambar:
+Untuk mengubah ukuran gambar, pertama-tama kita perlu membuat contoh `OptimizationOptions`Ini akan membantu menentukan bagaimana kita ingin mengompres dan mengubah ukuran gambar:
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
@@ -95,10 +97,10 @@ Dengan baris ini, Anda telah menyiapkan tempat bermain untuk pengaturan pengopti
 Sekarang setelah Anda menyiapkan opsi pengoptimalan, saatnya mengonfigurasinya. Mari tetapkan beberapa properti penting:
 
 ```csharp
-// Tetapkan opsi CompressImages
+// Atur opsi CompressImages
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
 
-// Tetapkan opsi Kualitas Gambar
+// Atur opsi ImageQuality
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
 
 // Atur opsi ResizeImages
@@ -111,7 +113,7 @@ optimizeOptions.ImageCompressionOptions.MaxResolution = 300;
 Berikut ini fungsi masing-masing pengaturan:
 - CompressImages: Opsi ini menunjukkan bahwa kita ingin mengompres gambar dalam PDF.
 - ImageQuality: Mengaturnya sekitar 75 akan menyeimbangkan kualitas dan ukuran berkas. Anda dapat menyesuaikannya sesuai kebutuhan.
-- ResizeImages: Opsi ini, jika ditetapkan ke benar, memungkinkan perpustakaan mengubah ukuran gambar untuk kinerja optimal.
+- ResizeImages: Opsi ini, jika ditetapkan ke benar, memungkinkan perpustakaan mengubah ukuran gambar agar berkinerja optimal.
 - MaxResolution: Dengan menetapkan resolusi maksimum ke 300, Anda memastikan bahwa gambar tidak terlalu besar namun tetap terlihat bagus.
 
 ## Langkah 6: Optimalkan Sumber Daya PDF
@@ -155,7 +157,7 @@ Dalam tutorial ini, kami telah membahas cara mengubah ukuran gambar dalam file P
 Aspose.PDF untuk .NET adalah pustaka kelas yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan uji coba gratis. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan uji coba gratis. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/).
 
 ### Jenis berkas apa yang dapat saya buat menggunakan Aspose.PDF?
 Anda dapat membuat dan memanipulasi berbagai macam berkas PDF, termasuk yang berisi teks, gambar, dan grafik vektor.
@@ -164,10 +166,12 @@ Anda dapat membuat dan memanipulasi berbagai macam berkas PDF, termasuk yang ber
 Tidak, Aspose.PDF tersedia untuk berbagai platform, termasuk Java dan Android, antara lain.
 
 ### Di mana saya bisa mendapatkan dukungan untuk masalah Aspose.PDF?
- Anda dapat menemukan dukungan di forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dukungan di forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

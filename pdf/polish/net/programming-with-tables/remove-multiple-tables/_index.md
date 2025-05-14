@@ -1,14 +1,16 @@
 ---
-title: Usuń wiele tabel w dokumencie PDF
-linktitle: Usuń wiele tabel w dokumencie PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak usunąć wiele tabel w dokumencie PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami kodu, często zadawanymi pytaniami i szczegółowymi wyjaśnieniami.
-weight: 150
-url: /pl/net/programming-with-tables/remove-multiple-tables/
+"description": "Dowiedz się, jak usunąć wiele tabel w dokumencie PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami kodu, często zadawanymi pytaniami i szczegółowymi wyjaśnieniami."
+"linktitle": "Usuń wiele tabel w dokumencie PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Usuń wiele tabel w dokumencie PDF"
+"url": "/pl/net/programming-with-tables/remove-multiple-tables/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń wiele tabel w dokumencie PDF
@@ -24,9 +26,9 @@ Ten przewodnik jest przeznaczony nie tylko dla doświadczonych programistów, al
 Zanim zaczniesz pracować z tym kodem, musisz zadbać o kilka rzeczy:
 
 1. Visual Studio: Będziesz potrzebować programu Visual Studio lub innego środowiska programistycznego .NET, aby pisać i wykonywać kod.
-2. Aspose.PDF dla .NET: Zainstaluj bibliotekę Aspose.PDF dla .NET, pobierając ją z witryny[Strona wydań Aspose](https://releases.aspose.com/pdf/net/) lub instalując go za pomocą NuGet w programie Visual Studio.
+2. Aspose.PDF dla .NET: Zainstaluj bibliotekę Aspose.PDF dla .NET, pobierając ją z witryny [Strona wydań Aspose](https://releases.aspose.com/pdf/net/) lub instalując go za pomocą NuGet w programie Visual Studio.
 3. Dokument PDF: Na potrzeby tego samouczka upewnij się, że masz przykładowy dokument PDF zawierający tabele, które chcesz usunąć.
-4.  Licencja tymczasowa: Jeśli używasz Aspose.PDF po raz pierwszy, możesz ubiegać się o licencję tymczasową.[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować wszystkie funkcje.
+4. Licencja tymczasowa: Jeśli używasz Aspose.PDF po raz pierwszy, możesz ubiegać się o licencję tymczasową. [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować wszystkie funkcje.
 
 ## Importuj pakiety
 
@@ -50,7 +52,7 @@ Pierwszą rzeczą, którą musisz zrobić, jest zdefiniowanie ścieżki do dokum
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- W tym kroku wystarczy zastąpić`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką folderu zawierającego plik PDF. To tutaj przechowywany jest dokument wejściowy i tutaj zostanie zapisany końcowy plik wyjściowy.
+W tym kroku wystarczy zastąpić `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką folderu zawierającego plik PDF. To tutaj przechowywany jest dokument wejściowy i tutaj zostanie zapisany końcowy plik wyjściowy.
 
 ## Krok 2: Załaduj dokument PDF
 Następnie musisz załadować plik PDF do swojej aplikacji. Aspose.PDF dla .NET pozwala na łatwe załadowanie dokumentu PDF za pomocą kilku linijek kodu.
@@ -60,17 +62,17 @@ Następnie musisz załadować plik PDF do swojej aplikacji. Aspose.PDF dla .NET 
 Document pdfDocument = new Document(dataDir + "Table_input2.pdf");
 ```
 
- Korzystając z`Document` klasa, wejście PDF (`Table_input2.pdf`) jest załadowany i gotowy do manipulacji. Zawsze upewnij się, że nazwa pliku odpowiada faktycznemu plikowi w twoim katalogu.
+Korzystając z `Document` klasa, wejście PDF (`Table_input2.pdf`) jest załadowany i gotowy do manipulacji. Zawsze upewnij się, że nazwa pliku odpowiada faktycznemu plikowi w twoim katalogu.
 
 ## Krok 3: Utwórz obiekt absorbera tabeli
- Teraz, gdy Twój plik PDF jest załadowany, czas wyszukać tabele.`TableAbsorber` Obiekt jest specjalnie zaprojektowany do tego celu. Analizuje i identyfikuje tabele w dokumencie PDF.
+Teraz, gdy Twój plik PDF jest załadowany, czas wyszukać tabele. `TableAbsorber` obiekt jest specjalnie zaprojektowany do tego celu. Analizuje i identyfikuje tabele w dokumencie PDF.
 
 ```csharp
 // Utwórz obiekt TableAbsorber, aby znaleźć tabele
 TableAbsorber absorber = new TableAbsorber();
 ```
 
- Ten`TableAbsorber` obiekt przeskanuje dokument, umożliwiając znalezienie tabel i manipulowanie nimi.
+Ten `TableAbsorber` obiekt przeskanuje dokument, umożliwiając znalezienie tabel i manipulowanie nimi.
 
 ## Krok 4: Odwiedź stronę docelową
 Następnie musimy skupić się na stronie, na której znajdują się tabele. W tym samouczku zajmujemy się drugą stroną pliku PDF, ale możesz zmienić ją na dowolny numer strony w oparciu o swój dokument.
@@ -80,10 +82,10 @@ Następnie musimy skupić się na stronie, na której znajdują się tabele. W t
 absorber.Visit(pdfDocument.Pages[1]);
 ```
 
- Ta linia instruuje`absorber` obiekt do skanowania pierwszej strony (indeks 0 odnosi się do pierwszej strony). Jeśli musisz pracować z inną stroną, po prostu odpowiednio dostosuj numer strony.
+Ta linia instruuje `absorber` obiekt do skanowania pierwszej strony (indeks 0 odnosi się do pierwszej strony). Jeśli musisz pracować z inną stroną, po prostu odpowiednio dostosuj numer strony.
 
 ## Krok 5: Pobierz listę tabel
- Po zeskanowaniu strony,`TableAbsorber` obiekt teraz zawiera wszystkie tabele. Aby je usunąć, najpierw utworzymy kopię kolekcji tabel, abyśmy mogli przejść przez każdą z nich i je usunąć.
+Po zeskanowaniu strony, `TableAbsorber` obiekt teraz zawiera wszystkie tabele. Aby je usunąć, najpierw utworzymy kopię kolekcji tabel, dzięki czemu będziemy mogli przejść przez każdą z nich i je usunąć.
 
 ```csharp
 // Pobierz kopię kolekcji tabel
@@ -91,13 +93,13 @@ AbsorbedTable[] tables = new AbsorbedTable[absorber.TableList.Count];
 absorber.TableList.CopyTo(tables, 0);
 ```
 
- Ten`TableList` zawiera wszystkie tabele wykryte na stronie i kopiujemy tę listę do tablicy, aby móc ją przetworzyć w następnym kroku.
+Ten `TableList` zawiera wszystkie tabele wykryte na stronie i kopiujemy tę listę do tablicy, aby móc ją przetworzyć w następnym kroku.
 
 ## Krok 6: Usuń tabele
- Teraz nadchodzi krytyczna część — usuwanie tabel. Przejdziemy przez tablicę tabel i użyjemy`Remove` metodę usuwania każdego z nich z dokumentu.
+Teraz nadchodzi krytyczna część — usuwanie tabel. Przejdziemy przez tablicę tabel i użyjemy `Remove` metodę usuwania każdego z nich z dokumentu.
 
 ```csharp
-//Przejrzyj kopię kolekcji i usuń tabele
+// Przejrzyj kopię kolekcji i usuń tabele
 foreach (AbsorbedTable table in tables)
     absorber.Remove(table);
 ```
@@ -112,7 +114,7 @@ Na koniec, po usunięciu wszystkich tabel, musisz zapisać zmodyfikowany plik PD
 pdfDocument.Save(dataDir + "Table2_out.pdf");
 ```
 
- Tutaj zapisujemy zmodyfikowany dokument jako`Table2_out.pdf` w tym samym katalogu. Jeśli chcesz zapisać go gdzie indziej lub pod inną nazwą, możesz swobodnie zmienić ścieżkę.
+Tutaj zapisujemy zmodyfikowany dokument jako `Table2_out.pdf` w tym samym katalogu. Jeśli chcesz zapisać go gdzie indziej lub pod inną nazwą, możesz swobodnie zmienić ścieżkę.
 
 ## Wniosek
 
@@ -120,8 +122,8 @@ I masz to! Usuwanie tabel z dokumentu PDF za pomocą Aspose.PDF dla .NET jest ta
 
 ## Najczęściej zadawane pytania
 
-### Czy mogę usunąć tabele z wielu stron jednocześnie?
- Tak, możesz przejrzeć wszystkie strony dokumentu i zastosować`TableAbsorber` do każdej strony indywidualnie.
+### Czy mogę usuwać tabele z wielu stron jednocześnie?
+Tak, możesz przejrzeć wszystkie strony dokumentu i zastosować `TableAbsorber` do każdej strony osobno.
 
 ### Czy jest możliwe usunięcie konkretnych tabel zamiast wszystkich?
 Oczywiście. Możesz zidentyfikować tabele według ich pozycji lub struktury i selektywnie je usunąć.
@@ -130,13 +132,15 @@ Oczywiście. Możesz zidentyfikować tabele według ich pozycji lub struktury i 
 Nie, zmiany są zapisywane w nowym pliku PDF. Oryginalny plik pozostaje nienaruszony, chyba że zdecydujesz się go nadpisać.
 
 ### Czy mogę używać Aspose.PDF bez licencji?
- Tak, możesz używać Aspose.PDF z ograniczoną funkcjonalnością lub złożyć wniosek o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować pełne funkcje na krótki okres.
+Tak, możesz używać Aspose.PDF z ograniczoną funkcjonalnością lub złożyć wniosek o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować pełne funkcje na krótki okres.
 
 ### Jak zainstalować Aspose.PDF dla platformy .NET?
- Możesz zainstalować Aspose.PDF za pomocą NuGet w programie Visual Studio lub pobrać go ze strony[Strona wydań Aspose](https://releases.aspose.com/pdf/net/).
+Możesz zainstalować Aspose.PDF za pomocą NuGet w programie Visual Studio lub pobrać go ze strony [Strona wydań Aspose](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

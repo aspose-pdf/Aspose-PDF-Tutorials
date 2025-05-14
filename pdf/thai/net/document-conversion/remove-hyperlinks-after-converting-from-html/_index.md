@@ -1,14 +1,16 @@
 ---
-title: ลบไฮเปอร์ลิงก์หลังจากการแปลงจาก HTML
-linktitle: ลบไฮเปอร์ลิงก์หลังจากการแปลงจาก HTML
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีลบไฮเปอร์ลิงก์ออกจากเอกสาร HTML หลังจากแปลงเป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้
-weight: 250
-url: /th/net/document-conversion/remove-hyperlinks-after-converting-from-html/
+"description": "เรียนรู้วิธีลบไฮเปอร์ลิงก์ออกจากเอกสาร HTML หลังจากแปลงเป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้"
+"linktitle": "ลบไฮเปอร์ลิงก์หลังจากการแปลงจาก HTML"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ลบไฮเปอร์ลิงก์หลังจากการแปลงจาก HTML"
+"url": "/th/net/document-conversion/remove-hyperlinks-after-converting-from-html/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบไฮเปอร์ลิงก์หลังจากการแปลงจาก HTML
@@ -19,10 +21,10 @@ url: /th/net/document-conversion/remove-hyperlinks-after-converting-from-html/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเจาะลึกโค้ด ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+ก่อนที่จะดำดิ่งลงไปในโค้ด ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่จะเป็นสภาพแวดล้อมการพัฒนาของคุณ
-2.  Aspose.PDF สำหรับ .NET: คุณต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจโค้ดได้ดีขึ้น
 
 ## แพ็คเกจนำเข้า
@@ -31,7 +33,7 @@ url: /th/net/document-conversion/remove-hyperlinks-after-converting-from-html/
 
 1. เปิดโครงการ Visual Studio ของคุณ
 2. คลิกขวาที่โครงการของคุณใน Solution Explorer และเลือก "จัดการแพ็คเกจ NuGet"
-3.  ค้นหา`Aspose.PDF` และติดตั้งมัน
+3. ค้นหา `Aspose.PDF` และติดตั้งมัน
 
 ```csharp
 using Aspose.Pdf.Annotations;
@@ -50,17 +52,17 @@ using System.IO;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมด้วยเส้นทางจริงที่จัดเก็บไฟล์ HTML ของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมด้วยเส้นทางจริงที่จัดเก็บไฟล์ HTML ของคุณ
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร HTML
 
- ต่อไปคุณจะโหลดเอกสาร HTML โดยใช้`Document` คลาสจาก Aspose.PDF คลาสนี้ช่วยให้คุณทำงานกับเอกสาร PDF ได้อย่างง่ายดาย
+ต่อไปคุณจะโหลดเอกสาร HTML โดยใช้ `Document` คลาสจาก Aspose.PDF คลาสนี้ช่วยให้คุณทำงานกับเอกสาร PDF ได้อย่างง่ายดาย
 
 ```csharp
 Document doc = new Document(dataDir + "SampleHtmlFile.html", new HtmlLoadOptions());
 ```
 
- ที่นี่เรากำลังโหลดไฟล์ HTML ชื่อ`SampleHtmlFile.html`. ตรวจสอบให้แน่ใจว่ามีไฟล์อยู่ในไดเร็กทอรีที่คุณระบุ
+ที่นี่เรากำลังโหลดไฟล์ HTML ชื่อ `SampleHtmlFile.html`. ตรวจสอบให้แน่ใจว่ามีไฟล์อยู่ในไดเร็กทอรีที่คุณระบุ
 
 ## ขั้นตอนที่ 3: บันทึกเอกสารลงในสตรีมหน่วยความจำ
 
@@ -112,7 +114,7 @@ tfa.TextSearchOptions = new TextSearchOptions(a.Rect);
 doc.Pages[a.PageIndex].Accept(tfa);
 ```
 
- ที่นี่เราสร้าง`TextFragmentAbsorber` และตั้งค่าตัวเลือกการค้นหาให้เป็นรูปสี่เหลี่ยมผืนผ้าของคำอธิบายประกอบ ซึ่งจะช่วยให้เราค้นหาข้อความที่เชื่อมโยงได้
+ที่นี่เราสร้าง `TextFragmentAbsorber` และตั้งค่าตัวเลือกการค้นหาให้เป็นรูปสี่เหลี่ยมผืนผ้าของคำอธิบายประกอบ ซึ่งจะช่วยให้เราค้นหาข้อความที่เชื่อมโยงได้
 
 ## ขั้นตอนที่ 7: ปรับเปลี่ยนลักษณะข้อความ
 
@@ -130,14 +132,14 @@ foreach (TextFragment tf in tfa.TextFragments)
 
 ## ขั้นตอนที่ 8: ลบคำอธิบายประกอบ
 
-หลังจากแก้ไขข้อความแล้ว เราก็ลบคำอธิบายลิงค์ออกจากเอกสารได้อย่างปลอดภัย
+หลังจากแก้ไขข้อความแล้ว เราก็สามารถลบคำอธิบายลิงก์ออกจากเอกสารได้อย่างปลอดภัย
 
 ```csharp
 doc.Pages[a.PageIndex].Annotations.Delete(a);
 }
 ```
 
-บรรทัดนี้จะลบไฮเปอร์ลิงก์ออกจาก PDF เพื่อให้แน่ใจว่าจะไม่มีไฮเปอร์ลิงก์ปรากฏอยู่ในผลลัพธ์สุดท้ายอีกต่อไป
+บรรทัดนี้จะลบไฮเปอร์ลิงก์ออกจาก PDF และให้แน่ใจว่าจะไม่มีอยู่ในผลลัพธ์สุดท้ายอีกต่อไป
 
 ## ขั้นตอนที่ 9: บันทึกเอกสารที่แก้ไข
 
@@ -147,7 +149,7 @@ doc.Pages[a.PageIndex].Annotations.Delete(a);
 doc.Save(dataDir + "RemoveHyperlinksFromText_out.pdf");
 ```
 
- บรรทัดนี้จะบันทึกเอกสารโดยลบไฮเปอร์ลิงก์ออก และสร้างไฟล์ PDF ใหม่ที่ชื่อ`RemoveHyperlinksFromText_out.pdf`.
+บรรทัดนี้จะบันทึกเอกสารโดยลบไฮเปอร์ลิงก์ออก และสร้างไฟล์ PDF ใหม่ที่ชื่อ `RemoveHyperlinksFromText_out-pdf`.
 
 ## บทสรุป
 
@@ -155,23 +157,25 @@ doc.Save(dataDir + "RemoveHyperlinksFromText_out.pdf");
 
 ## คำถามที่พบบ่อย
 
-### ฉันสามารถลบไฮเปอร์ลิงก์จากเอกสาร PDF ใดๆ ได้หรือไม่
+### ฉันสามารถลบไฮเปอร์ลิงก์ออกจากเอกสาร PDF ใดๆ ได้หรือไม่
 ใช่ คุณสามารถลบไฮเปอร์ลิงก์จากเอกสาร PDF ใดๆ ได้โดยใช้ Aspose.PDF สำหรับ .NET
 
 ### Aspose.PDF ใช้ได้ฟรีหรือไม่?
- Aspose.PDF เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้ฟีเจอร์เต็มรูปแบบ คุณต้องซื้อใบอนุญาต ตรวจสอบ[หน้าซื้อ](https://purchase.aspose.com/buy).
+Aspose.PDF เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้ฟีเจอร์เต็มรูปแบบ คุณต้องซื้อใบอนุญาต ตรวจสอบ [หน้าซื้อ](https://purchase-aspose.com/buy).
 
 ### จะเกิดอะไรขึ้นหากฉันประสบปัญหาขณะใช้ Aspose.PDF?
- คุณสามารถขอความช่วยเหลือได้ที่[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10).
+คุณสามารถขอความช่วยเหลือได้ที่ [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันสามารถแปลงไฟล์รูปแบบอื่นเป็น PDF โดยใช้ Aspose ได้หรือไม่
 ใช่ Aspose รองรับรูปแบบไฟล์ต่างๆ สำหรับการแปลงเป็น PDF
 
 ### ฉันสามารถดาวน์โหลด Aspose.PDF สำหรับ .NET ได้ที่ไหน
- คุณสามารถดาวน์โหลดได้จาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/pdf/net/).
+คุณสามารถดาวน์โหลดได้จาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

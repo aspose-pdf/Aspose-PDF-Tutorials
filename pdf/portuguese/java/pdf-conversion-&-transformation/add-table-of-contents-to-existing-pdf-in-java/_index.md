@@ -1,40 +1,42 @@
 ---
-title: Adicionar índice a um PDF existente em Java
-linktitle: Adicionar índice a um PDF existente em Java
-second_title: API de processamento de PDF Java Aspose.PDF
-description: Aprenda como adicionar um índice a um PDF em Java usando Aspose.PDF para Java. Melhore a navegação do documento com este guia passo a passo.
-weight: 34
-url: /pt/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/
+"description": "Aprenda a adicionar um sumário a um PDF em Java usando o Aspose.PDF para Java. Aprimore a navegação no documento com este guia passo a passo."
+"linktitle": "Adicionar índice a um PDF existente em Java"
+"second_title": "API de processamento de PDF Java Aspose.PDF"
+"title": "Adicionar índice a um PDF existente em Java"
+"url": "/pt/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/"
+"weight": 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adicionar índice a um PDF existente em Java
 
 
 ## Introdução
-Neste guia passo a passo, aprenderemos como adicionar um índice a um PDF existente em Java usando a biblioteca Aspose.PDF para Java. O índice é um recurso útil em documentos PDF que permite que os leitores naveguem pelo documento rapidamente.
+Neste guia passo a passo, aprenderemos como adicionar um sumário a um PDF existente em Java usando a biblioteca Aspose.PDF para Java. O sumário é um recurso útil em documentos PDF que permite aos leitores navegar pelo documento rapidamente.
 
 ## Pré-requisitos
 Antes de começar, certifique-se de que você tenha os seguintes pré-requisitos:
 - Java Development Kit (JDK) instalado no seu sistema.
--  Aspose.PDF para biblioteca Java. Você pode baixá-lo de[aqui](https://releases.aspose.com/pdf/java/).
+- Biblioteca Aspose.PDF para Java. Você pode baixá-la em [aqui](https://releases.aspose.com/pdf/java/).
 
 ## Adicionando Dependências
-Para começar, crie um novo projeto Java e adicione a biblioteca Aspose.PDF for Java às dependências do seu projeto. Você pode fazer isso incluindo o arquivo JAR no caminho de construção do seu projeto.
+Para começar, crie um novo projeto Java e adicione a biblioteca Aspose.PDF para Java às dependências do seu projeto. Você pode fazer isso incluindo o arquivo JAR no caminho de compilação do seu projeto.
 
 ## Criando um novo documento PDF
-Vamos começar criando um novo documento PDF ao qual adicionaremos um índice. Aqui está um código de exemplo para criar um novo documento PDF:
+Vamos começar criando um novo documento PDF ao qual adicionaremos um sumário. Aqui está um código de exemplo para criar um novo documento PDF:
 
 ```java
 // Criar um novo documento PDF
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 ```
 
-## Adicionar um índice
-Para adicionar um índice ao documento PDF, precisamos criar um objeto TableOfContents e especificar suas propriedades. Veja como você pode fazer isso:
+## Adicionando um Índice
+Para adicionar um índice ao documento PDF, precisamos criar um objeto TableOfContents e especificar suas propriedades. Veja como fazer isso:
 
 ```java
 // Crie um objeto TableOfContents
@@ -43,8 +45,8 @@ tableOfContents.setTitle("Table of Contents"); // Defina o título do índice
 tableOfContents.setDisplayPageNumbers(true); // Exibir números de página
 ```
 
-## Adicionando Seções ao Documento
-Em seguida, adicionaremos seções ao documento PDF. Essas seções representarão os diferentes capítulos ou seções do documento. Aqui está um exemplo:
+## Adicionando seções ao documento
+Em seguida, adicionaremos seções ao documento PDF. Essas seções representarão os diferentes capítulos ou seções do documento. Veja um exemplo:
 
 ```java
 // Criar uma seção
@@ -66,7 +68,7 @@ pdfDocument.getPages().accept(new PageNumberStamp());
 ```
 
 ## Estilizando o Índice
-Você pode personalizar a aparência do índice definindo suas propriedades, como tamanho da fonte, cor e estilo. Aqui está um exemplo:
+Você pode personalizar a aparência do sumário definindo suas propriedades, como tamanho da fonte, cor e estilo. Veja um exemplo:
 
 ```java
 // Personalize a aparência do índice
@@ -85,7 +87,7 @@ pdfDocument.save("output.pdf");
 ```
 
 ## Conclusão
-Neste guia, aprendemos como adicionar um índice a um PDF existente em Java usando a biblioteca Aspose.PDF para Java. O índice aprimora a experiência do usuário ao fornecer navegação rápida dentro do documento.
+Neste guia, aprendemos como adicionar um sumário a um PDF existente em Java usando a biblioteca Aspose.PDF para Java. O sumário aprimora a experiência do usuário, proporcionando uma navegação rápida dentro do documento.
 
 ## Perguntas frequentes
 ### Como posso personalizar a aparência do índice?
@@ -95,18 +97,20 @@ Você pode personalizar a aparência do índice modificando o tamanho da fonte, 
 Sim, você pode adicionar hiperlinks ao índice para navegar para seções ou páginas específicas dentro do documento PDF.
 
 ### O Aspose.PDF para Java oferece suporte a outros recursos de manipulação de PDF?
-Sim, o Aspose.PDF para Java oferece uma ampla variedade de recursos para trabalhar com documentos PDF, incluindo extração de texto, manipulação de páginas e muito mais.
+Sim, o Aspose.PDF para Java oferece uma ampla gama de recursos para trabalhar com documentos PDF, incluindo extração de texto, manipulação de páginas e muito mais.
 
 ### Existe uma versão de teste do Aspose.PDF para Java disponível?
- Sim, você pode baixar uma versão de teste do Aspose.PDF para Java em[Aspose.Compras](https://purchase.aspose.com/temporary-license/) para avaliar seus recursos antes de comprar uma licença.
+Sim, você pode baixar uma versão de teste do Aspose.PDF para Java em [Aspose.Compras](https://purchase.aspose.com/temporary-license/) para avaliar seus recursos antes de comprar uma licença.
 
 ### Como posso acessar mais tutoriais e documentação do Aspose.PDF para Java?
- Você pode encontrar tutoriais e documentação abrangentes para Aspose.PDF para Java no site em[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+Você pode encontrar tutoriais e documentação abrangentes para Aspose.PDF para Java no site em [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
 
-Neste artigo, exploramos como adicionar um índice a um documento PDF existente usando a biblioteca Aspose.PDF para Java. Esse recurso pode melhorar muito a usabilidade dos seus documentos PDF, permitindo que os leitores naveguem facilmente para seções ou capítulos específicos. Além disso, abordamos como personalizar a aparência do índice e gerar números de página. O Aspose.PDF para Java oferece uma ampla gama de recursos de manipulação de PDF, tornando-o uma ferramenta poderosa para trabalhar com PDFs em aplicativos Java. Se precisar de mais assistência ou quiser explorar mais recursos do Aspose.PDF para Java, certifique-se de verificar sua documentação e tutoriais.
+Neste artigo, exploramos como adicionar um sumário a um documento PDF existente usando a biblioteca Aspose.PDF para Java. Esse recurso pode melhorar significativamente a usabilidade dos seus documentos PDF, permitindo que os leitores naveguem facilmente por seções ou capítulos específicos. Além disso, abordamos como personalizar a aparência do sumário e gerar números de página. O Aspose.PDF para Java oferece uma ampla gama de recursos de manipulação de PDF, tornando-o uma ferramenta poderosa para trabalhar com PDFs em aplicativos Java. Se precisar de mais ajuda ou quiser explorar mais recursos do Aspose.PDF para Java, consulte a documentação e os tutoriais.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

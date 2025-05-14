@@ -8,7 +8,9 @@ url: /net/programming-with-text/extract-paragraphs/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Paragraphs In PDF File
@@ -151,6 +153,7 @@ Yes, you can download a free trial version from the Aspose website [here](https:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

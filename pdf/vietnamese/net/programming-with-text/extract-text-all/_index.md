@@ -1,14 +1,16 @@
 ---
-title: Trích xuất toàn bộ văn bản trong tệp PDF
-linktitle: Trích xuất văn bản AllIn PDF File
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất văn bản từ tệp PDF dễ dàng bằng Aspose.PDF cho .NET với hướng dẫn từng bước này.
-weight: 180
-url: /vi/net/programming-with-text/extract-text-all/
+"description": "Tìm hiểu cách trích xuất văn bản từ tệp PDF dễ dàng bằng Aspose.PDF cho .NET với hướng dẫn từng bước này."
+"linktitle": "Trích xuất văn bản AllIn PDF File"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Trích xuất toàn bộ văn bản trong tệp PDF"
+"url": "/vi/net/programming-with-text/extract-text-all/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất toàn bộ văn bản trong tệp PDF
@@ -21,9 +23,9 @@ Trong kỷ nguyên số này, việc xử lý các tài liệu PDF đã trở th
 
 Trước khi đi sâu vào cách trích xuất văn bản từ tệp PDF, bạn cần đáp ứng một số yêu cầu cơ bản sau:
 
-1. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy phát triển của mình. Aspose.PDF hoạt động liền mạch với .NET, do đó, có phiên bản mới nhất là một lợi thế.
-2. Thư viện Aspose.PDF: Bạn sẽ cần thư viện Aspose.PDF cho .NET để xử lý các thao tác PDF. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
-3. Môi trường phát triển: IDE như Visual Studio được khuyến khích sử dụng. Nó cung cấp giao diện thân thiện với người dùng để viết, xây dựng và gỡ lỗi mã của bạn.
+1. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy phát triển của mình. Aspose.PDF hoạt động liền mạch với .NET, vì vậy việc có phiên bản mới nhất là một lợi thế.
+2. Thư viện Aspose.PDF: Bạn sẽ cần thư viện Aspose.PDF cho .NET để xử lý các thao tác PDF. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+3. Môi trường phát triển: Một IDE như Visual Studio được khuyến khích sử dụng. Nó cung cấp giao diện thân thiện với người dùng để viết, xây dựng và gỡ lỗi mã của bạn.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn hiểu rõ hơn các đoạn mã mà chúng ta sắp khám phá.
 
 Bây giờ chúng ta đã sắp xếp xong các điều kiện tiên quyết, hãy nhập các gói cần thiết!
@@ -54,11 +56,11 @@ Mẫu mã:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Trong đoạn trích này, chỉ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn nằm. Ví dụ, nếu tệp của bạn nằm trong`C:\Documents` , bạn sẽ thiết lập`dataDir` theo con đường đó.
+Trong đoạn trích này, chỉ cần thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn nằm. Ví dụ, nếu tệp của bạn nằm trong `C:\Documents`, bạn sẽ thiết lập `dataDir` theo con đường đó.
 
 ## Bước 2: Mở Tài liệu PDF
 
- Sau khi bạn đã thiết lập thư mục, bạn cần mở tài liệu PDF mà bạn muốn trích xuất văn bản. Điều này được thực hiện bằng cách sử dụng`Document` lớp từ không gian tên Aspose.PDF.
+Sau khi bạn đã thiết lập thư mục, bạn cần mở tài liệu PDF mà bạn muốn trích xuất văn bản. Điều này được thực hiện bằng cách sử dụng `Document` lớp từ không gian tên Aspose.PDF.
 
 Mẫu mã:
 
@@ -67,11 +69,11 @@ Mẫu mã:
 Document pdfDocument = new Document(dataDir + "ExtractTextAll.pdf");
 ```
 
- Ở đây, hãy đảm bảo rằng tên tệp`ExtractTextAll.pdf` là đúng. Đây là tệp bạn sẽ sử dụng để trích xuất văn bản.
+Ở đây, hãy đảm bảo rằng tên tệp `ExtractTextAll.pdf` là đúng. Đây là tệp bạn sẽ sử dụng để trích xuất văn bản.
 
 ## Bước 3: Tạo đối tượng hấp thụ văn bản
 
- Bước tiếp theo là tạo ra một`TextAbsorber` đối tượng. Đây là công cụ kỳ diệu giúp bạn tiếp thu toàn bộ văn bản có trong PDF.
+Bước tiếp theo là tạo ra một `TextAbsorber` đối tượng. Đây là công cụ kỳ diệu giúp bạn tiếp thu toàn bộ văn bản có trong PDF.
 
 Mẫu mã:
 
@@ -80,7 +82,7 @@ Mẫu mã:
 TextAbsorber textAbsorber = new TextAbsorber();
 ```
 
- Bằng cách khởi tạo`TextAbsorber`, bạn chuẩn bị trích xuất toàn bộ nội dung văn bản từ các trang PDF.
+Bằng cách khởi tạo `TextAbsorber`, bạn chuẩn bị trích xuất toàn bộ nội dung văn bản từ các trang PDF.
 
 ## Bước 4: Chấp nhận Absorber cho tất cả các trang
 
@@ -106,7 +108,7 @@ Mẫu mã:
 string extractedText = textAbsorber.Text;
 ```
 
- Bây giờ, biến`extractedText` chứa tất cả văn bản thu thập được từ PDF của bạn. Thật tuyệt phải không?
+Bây giờ, biến `extractedText` chứa tất cả văn bản thu thập được từ PDF của bạn. Thật tuyệt phải không?
 
 ## Bước 6: Ghi văn bản đã trích xuất vào một tệp
 
@@ -123,31 +125,33 @@ tw.WriteLine(extractedText);
 tw.Close();
 ```
 
- Mã này mở một tập tin mới có tên là`extracted-text.txt`ghi tất cả nội dung đã trích xuất vào đó, sau đó đóng tệp. Vì vậy, bây giờ, bất cứ khi nào bạn muốn xem văn bản đã trích xuất, chỉ cần xem trong thư mục tài liệu của bạn!
+Mã này mở một tập tin mới có tên là `extracted-text.txt`, ghi tất cả nội dung đã trích xuất vào đó, sau đó đóng tệp. Vì vậy, bây giờ, bất cứ khi nào bạn muốn xem văn bản đã trích xuất, chỉ cần xem trong thư mục tài liệu của bạn!
 
 ## Phần kết luận
 
- Vậy là xong! Chỉ với vài bước đơn giản, bạn có thể trích xuất văn bản từ bất kỳ tệp PDF nào bằng Aspose.PDF cho .NET. Cho dù bạn đang xây dựng ứng dụng để phân tích tài liệu hay chỉ cần lấy một vài ghi chú từ PDF, Aspose.PDF cung cấp API mạnh mẽ, dễ sử dụng giúp cuộc sống của bạn dễ dàng hơn. Hãy nhớ xem[tài liệu](https://reference.aspose.com/pdf/net/) để biết thêm nhiều tính năng và khả năng mà thư viện mạnh mẽ này cung cấp.
+Vậy là xong! Chỉ với vài bước đơn giản, bạn có thể trích xuất văn bản từ bất kỳ tệp PDF nào bằng Aspose.PDF cho .NET. Cho dù bạn đang xây dựng ứng dụng để phân tích tài liệu hay chỉ cần lấy một vài ghi chú từ PDF, Aspose.PDF cung cấp API mạnh mẽ, dễ sử dụng giúp cuộc sống của bạn dễ dàng hơn. Hãy nhớ xem [tài liệu](https://reference.aspose.com/pdf/net/) để biết thêm nhiều tính năng và khả năng mà thư viện mạnh mẽ này cung cấp.
 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng Aspose.PDF cho .NET miễn phí không?
- Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Nếu tệp PDF của tôi có hình ảnh và đồ họa thì sao?
 Aspose.PDF tập trung vào việc trích xuất văn bản. Nếu PDF của bạn bao gồm hình ảnh, bạn có thể cần một cách tiếp cận khác để xử lý chúng.
 
 ### Có giấy phép tạm thời không?
- Chắc chắn rồi! Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Chắc chắn rồi! Bạn có thể xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và thảo luận của cộng đồng trên[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm thấy sự hỗ trợ và thảo luận của cộng đồng trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể lưu văn bản đã trích xuất ở định dạng nào?
- Bạn có thể lưu văn bản ở nhiều định dạng khác nhau như`.txt`, `.docx`hoặc thậm chí trực tiếp vào cơ sở dữ liệu.
+Bạn có thể lưu văn bản ở nhiều định dạng khác nhau như `.txt`, `.docx`hoặc thậm chí trực tiếp vào cơ sở dữ liệu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

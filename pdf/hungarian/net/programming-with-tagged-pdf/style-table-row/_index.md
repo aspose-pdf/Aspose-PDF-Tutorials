@@ -1,36 +1,38 @@
 ---
-title: Stílus táblázat sor
-linktitle: Stílus táblázat sor
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan stílusozhat táblázatsorokat PDF-ben az Aspose.PDF for .NET használatával egy lépésről lépésre szóló útmutatóval, amellyel könnyedén javíthatja a dokumentumformázást.
-weight: 180
-url: /hu/net/programming-with-tagged-pdf/style-table-row/
+"description": "Tanuld meg, hogyan formázhatod a táblázat sorait PDF-ben az Aspose.PDF for .NET segítségével egy lépésről lépésre bemutató útmutató segítségével, amely segít a dokumentumok formázásának egyszerű javításában."
+"linktitle": "Stílustábla sor"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Stílustábla sor"
+"url": "/hu/net/programming-with-tagged-pdf/style-table-row/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stílus táblázat sor
+# Stílustábla sor
 
 ## Bevezetés
 
-Ha jól strukturált és szépen formázott PDF-dokumentumokról van szó, az Aspose.PDF for .NET kiváló megoldás. Függetlenül attól, hogy automatizálja a jelentéseket, számlákat vagy dinamikus táblázatokat hoz létre, a táblázatok különféle stílusokkal történő formázása kulcsfontosságú a csiszolt dokumentumhoz. Ebben az oktatóanyagban részletesen elmerülünk a táblázatsorok stílusában az Aspose.PDF for .NET használatával. És ne aggódj, lépésről lépésre elvezetlek, akárcsak egy jó beszélgetés egy kávé mellett!
+Ha jól strukturált és szépen formázott PDF dokumentumok létrehozásáról van szó, az Aspose.PDF for .NET a tökéletes megoldás. Akár jelentéseket, számlákat automatizál, akár dinamikus táblázatokat hoz létre, a táblázatok különböző stílusokkal való formázása kulcsfontosságú a kifinomult dokumentumhoz. Ebben az oktatóanyagban mélyrehatóan elmerülünk egy táblázatsor formázásában az Aspose.PDF for .NET használatával. És ne aggódjon, lépésről lépésre végigvezetem Önt, akárcsak egy jó beszélgetést egy kávé mellett!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kacsikba, győződjünk meg arról, hogy az összes kacsa sorban van. Szükséged lesz:
+Mielőtt belevágnánk a lényegbe, győződjünk meg róla, hogy minden kacsa egy sorban van. Szükséged lesz:
 
-1. Aspose.PDF for .NET Library  
-    Ha még nem rendelkezik vele, akkor előveheti[itt](https://releases.aspose.com/pdf/net/) . Azt is kaphat a[ingyenes próbaverzió](https://releases.aspose.com/) kezdeni.
-2. Fejlesztési környezet  
-   Állítsa be a Visual Studio-t vagy bármely tetszőleges C# IDE-t. Szükséged lesz a .NET-re is, de gondolom ezt már ismered.
-3. C# és .NET alapszintű ismerete  
-   A C# jó ismerete gyerekjáték lesz ez az oktatóanyag. De ne aggódj, minden lépést részletesen elmagyarázok!
+1. Aspose.PDF .NET könyvtárhoz  
+   Ha még nincs meg, akkor innen szerezheted be [itt](https://releases.aspose.com/pdf/net/). Kaphatsz egy [ingyenes próba](https://releases.aspose.com/) hogy elkezdhessük.
+2. Fejlesztői környezet  
+   Állítsd be a Visual Studio-t vagy bármilyen általad választott C# IDE-t. Szükséged lesz a .NET telepítésére is, de gondolom, azzal már ismered.
+3. C# és .NET alapismeretek  
+   C# alapos ismerete gyerekjátékká teszi ezt az oktatóanyagot. De ne aggódj, minden lépést részletesen elmagyarázok!
 
 ## Csomagok importálása
 
-Mielőtt elkezdhetnénk dolgozni az Aspose.PDF-fel, importálnunk kell a szükséges névtereket. A C# projektben győződjön meg róla, hogy tartalmazza a következőket:
+Mielőtt elkezdhetnénk dolgozni az Aspose.PDF fájllal, importálnunk kell a szükséges névtereket. A C# projektedben győződj meg róla, hogy a következőket is belefoglaltad:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -42,13 +44,13 @@ using System.Linq;
 using System.Text;
 ```
 
-Ezek elengedhetetlenek a táblázat létrehozásához és stílusához, és természetesen a címkézett tartalommal való együttműködéshez a megfelelőség érdekében.
+Ezek elengedhetetlenek a táblázat létrehozásához és formázásához, és természetesen a címkézett tartalommal való munkához a megfelelőség érdekében.
 
-Most bontsuk le a feladatot lépésről lépésre, hogy profi stílusban formázhassa táblázatsorait!
+Most bontsuk le lépésről lépésre a feladatot, hogy profi módon formázhasd a táblázat sorait!
 
-## 1. lépés: Hozzon létre egy új PDF-dokumentumot
+## 1. lépés: Új PDF dokumentum létrehozása
 
-Először is: hozzunk létre egy vadonatúj PDF-dokumentumot. Ez a dokumentum tartalmazza az összes stílusos táblázatsort.
+Először is: hozzunk létre egy vadonatúj PDF dokumentumot. Ez a dokumentum fogja tartalmazni az összes formázott táblázatsort.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -58,11 +60,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Itt egyszerűen inicializálunk egy újat`Document` objektum, amely a PDF-fájlunkat fogja képviselni. Ügyeljen arra, hogy beállítsa a könyvtár elérési útját, ahová a kimeneti fájlokat menteni fogja.
+Itt egyszerűen csak egy újat inicializálunk `Document` objektum, amely a PDF fájlunkat fogja reprezentálni. Ügyeljen arra, hogy beállítsa a könyvtár elérési útját, ahová a kimeneti fájlokat menteni fogja.
 
-## 2. lépés: Munkavégzés a címkézett tartalommal
+## 2. lépés: Címkézett tartalommal való munka
 
-A PDF-fájl akadálymentesítésének kialakítása érdekében címkézett tartalommal dolgozunk. Ez segít strukturált elemek, például táblázatok létrehozásában, biztosítva, hogy azok megfeleljenek az akadálymentesítési szabványoknak, például a PDF/UA.
+PDF akadálymentesítéséhez címkézett tartalommal fogunk dolgozni. Ez segít strukturált elemek, például táblázatok létrehozásában, biztosítva, hogy azok megfeleljenek az akadálymentesítési szabványoknak, például a PDF/UA-nak.
 
 ```csharp
 ITaggedContent taggedContent = document.TaggedContent;
@@ -70,17 +72,17 @@ taggedContent.SetTitle("Example table row style");
 taggedContent.SetLanguage("en-US");
 ```
 
-Itt beállítjuk a PDF címkézett tartalmának címét és nyelvét. Ez olyan, mintha nevet adna a PDF-nek, és megmondaná, milyen nyelven beszéljen!
+Itt a PDF címkézett tartalmának címét és nyelvét állítjuk be. Olyan ez, mintha nevet adnál a PDF-nek, és megmondanád neki, hogy milyen nyelven beszéljen!
 
-## 3. lépés: Határozza meg a táblázat szerkezetét
+## 3. lépés: A tábla szerkezetének meghatározása
 
-Ezután határozzuk meg a létrehozandó táblázat szerkezetét. Minden táblázatnak szüksége van fejlécre, törzsre és láblécre – hasonlóan egy jól szervezett blogbejegyzéshez!
+Következő lépésként definiáljuk a létrehozni kívánt táblázat szerkezetét. Minden táblázatnak szüksége van fejlécre, törzsre és láblécre – hasonlóan egy jól szervezett blogbejegyzéshez!
 
 ```csharp
-// Gyökérstruktúra elem lekérése
+// Gyökérszerkezeti elem lekérése
 StructureElement rootElement = taggedContent.RootElement;
 
-// Táblázatstruktúra elem létrehozása
+// Táblázatszerkezeti elem létrehozása
 TableElement tableElement = taggedContent.CreateTableElement();
 rootElement.AppendChild(tableElement);
 TableTHeadElement tableTHeadElement = tableElement.CreateTHead();
@@ -88,11 +90,11 @@ TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 ```
 
-Itt egy táblázatot készítünk fejléccel (`THead`), test (`TBody`), és lábléc (`TFoot`). Ezek az elemek fogják tartani a sorainkat.
+Amit itt csinálunk, az egy táblázat létrehozása fejléccel (`THead`), test (`TBody`), és lábléc (`TFoot`). Ezek az elemek fogják tartalmazni a sorainkat.
 
-## 4. lépés: Adja hozzá a táblázat fejlécét
+## 4. lépés: Táblázat fejléc sorának hozzáadása
 
-A fejléc nélküli táblázatok olyanok, mint a cím nélküli könyvek. Először hozzuk létre a fejléc sort, hogy kontextust biztosítsunk az adatokhoz.
+A fejléc nélküli táblázatok olyanok, mint a cím nélküli könyvek. Először hozzuk létre a fejlécsort, hogy kontextust biztosítsunk az adatoknak.
 
 ```csharp
 TableTRElement headTrElement = tableTHeadElement.CreateTR();
@@ -104,11 +106,11 @@ for (int colIndex = 0; colIndex < 3; colIndex++)
 }
 ```
 
-Itt áthurkoljuk és hozzáadunk három fejlécet (`TableTHElement`), mindegyiknek egy-egy leíró szöveget adva. Egyszerű, igaz?
+Itt végigmegyünk a cikluson, és hozzáadunk három fejléccellát (`TableTHElement`), mindegyikhez egy leíró szöveget adva. Egyszerű, ugye?
 
-## 5. lépés: Adjon hozzá stílusos törzssorokat
+## 5. lépés: Stílusos törzssorok hozzáadása
 
-Most jön a szórakoztató rész – a sorok formázása! Hozzon létre hét sort egyéni stílusokkal. Beállítjuk a háttérszíneket, a szegélyeket, a kitöltést és a szövegigazítást.
+Most jön a mókás rész – a sorok stílusának beállítása! Hozzunk létre hét sort egyéni stílusokkal. Beállítjuk a háttérszíneket, a szegélyeket, a kitöltést és a szöveg igazítását.
 
 ```csharp
 for (int rowIndex = 0; rowIndex < 7; rowIndex++)
@@ -131,12 +133,12 @@ for (int rowIndex = 0; rowIndex < 7; rowIndex++)
 }
 ```
 
-- Háttérszín: Világos aranyvesszősárgát használtunk a professzionális, mégis meleg érintéshez.
-- Szegélyek: Minden sor sötétszürke külső szegélyt és kék cellaszegélyt kap az éles megjelenés érdekében.
-- Magasság és párnázás: A sormagasság be van állítva, és párnázás kerül hozzáadásra a tiszta megjelenés érdekében.
-- Oldaltörések: A táblázat olvashatóbbá tétele érdekében minden második sor új oldalon kezdődik.
+- Háttérszín: Világos aranyvesszősárgát használtunk a professzionális, mégis meleg hatás érdekében.
+- Szegélyek: Minden sor sötétszürke külső szegélyt és kék cellaszegélyeket kap az éles megjelenés érdekében.
+- Magasság és kitöltés: A sorok magassága be van állítva, és a kitöltés hozzáadva van a letisztult megjelenés érdekében.
+- Oldaltörések: A táblázat olvashatóságának javítása érdekében minden második sor új oldalon kezdődik.
 
-## 6. lépés: Adja hozzá a láblécsort
+## 6. lépés: Láblécsor hozzáadása
 
 A fejléchez hasonlóan a lábléc is rögzíti a táblázatot. Hozzunk létre egyet.
 
@@ -150,21 +152,21 @@ for (int colIndex = 0; colIndex < 3; colIndex++)
 }
 ```
 
-Egyszerűen átugorunk három lábléccellán, és hozzáadunk egy kis szöveget. A lábléc alternatív szövege a „Foot Row”, hogy elérhető legyen.
+Egyszerűen végigmegyünk három lábléccellán, és hozzáadunk egy kis szöveget. A lábléc alternatív szövege a „Lábsor”, hogy akadálymentes legyen.
 
-## 7. lépés: Mentse el a PDF-dokumentumot
+## 7. lépés: Mentse el a PDF dokumentumot
 
-Most, hogy az asztal készen van, itt az ideje, hogy megmentse remekművét!
+Most, hogy az asztal készen áll, itt az ideje megmenteni a remekművet!
 
 ```csharp
 document.Save(dataDir + "StyleTableRow.pdf");
 ```
 
-Ugyanígy a PDF-fájl mentése az összes gyönyörű táblázatsorral együtt, amelyet most alakítottunk ki.
+Így a PDF-fájl mentésre kerül az összes gyönyörű táblázatsorral, amelyeket az imént formáztunk meg.
 
-## 8. lépés: Érvényesítse a PDF/UA megfelelőséget
+## 8. lépés: PDF/UA megfelelőség ellenőrzése
 
-Annak érdekében, hogy PDF-ünk megfeleljen a kisegítő lehetőségek szabványainak, ellenőrizni fogjuk a PDF/UA megfelelőség szempontjából.
+Annak érdekében, hogy PDF-fájlunk megfeleljen az akadálymentesítési szabványoknak, ellenőrizzük a PDF/UA megfelelőségét.
 
 ```csharp
 document = new Document(dataDir + "StyleTableRow.pdf");
@@ -172,31 +174,33 @@ bool isPdfUaCompliance = document.Validate(dataDir + "StyleTableRow.xml", PdfFor
 Console.WriteLine(String.Format("PDF/UA compliance: {0}", isPdfUaCompliance));
 ```
 
-Ez biztosítja, hogy a PDF megfelel a PDF/UA szabványnak, így mindenki számára elérhetővé válik. Az akadálymentesítés a játék neve!
+Ez biztosítja, hogy a PDF-ed megfeleljen a PDF/UA szabványnak, így mindenki számára hozzáférhetővé válik. Az akadálymentesítés a lényeg!
 
 ## Következtetés
 
-És megvan! Néhány sornyi kóddal egy teljesen stílusos táblázatot hozott létre PDF-ben az Aspose.PDF for .NET használatával. A fejlécektől a láblécekig minden sort stílusosan alakítottunk, kisegítő elemeket adtunk hozzá, és még a dokumentum megfelelőségét is ellenőriztük. Akár vállalati jelentésekkel, prezentációkkal dolgozik, akár csak szórakozik a PDF-ekkel, ez az útmutató mindenre kiterjed. Most pedig kezdje el az asztalok stílusát profi módon!
+És íme! Néhány sornyi kóddal létrehoztál egy teljesen formázott táblázatot egy PDF-ben az Aspose.PDF for .NET segítségével. A fejlécektől a láblécekig minden sort formáztunk, akadálymentesítési elemeket adtunk hozzá, sőt, még a dokumentum megfelelőségét is ellenőriztük. Akár vállalati jelentéseken, prezentációkon dolgozol, vagy csak szórakozol PDF-ekkel, ez az útmutató mindent segít. Most pedig vágj bele, és kezdd el profi módon formázni a táblázataidat!
 
 ## GYIK
 
-### Módosíthatom a táblázat betűstílusát is?  
- Igen! A betűtípus stílusát a gombbal módosíthatja`TextState` objektum minden cellához, lehetővé téve a teljes testreszabást.
+### A táblázat betűstílusát is meg lehet változtatni?  
+Igen! A betűtípust a következővel módosíthatja: `TextState` objektum minden cellához, ami teljes testreszabást tesz lehetővé.
 
-### Hogyan adhatok több oszlopot a táblázatomhoz?  
- Csak állítsa be a`colCount`változót, és adjon hozzá több cellát a ciklusokhoz a fejlécekhez, a törzshöz és a láblécekhez.
+### Hogyan adhatok hozzá több oszlopot a táblázatomhoz?  
+Csak igazítsd be a `colCount` változót, és adjon hozzá további cellákat a ciklusokban a fejlécekhez, a törzshöz és a láblécekhez.
 
-### Mi történik, ha nem állítom be a sormagasságot?  
-Ha nem állítja be a sor magasságát, a táblázat automatikusan a tartalom alapján módosul.
+### Mi történik, ha nem állítom be a sor magasságát?  
+Ha nem állítja be a sormagasságot, a táblázat automatikusan igazodik a tartalomhoz.
 
-### Használhatom ezt dinamikus számú sorhoz?  
-Teljesen! Adatokat lekérhet adatbázisból vagy bármely más forrásból, és dinamikusan módosíthatja a sorok és oszlopok számát.
+### Használhatom ezt dinamikus sorszámhoz?  
+Természetesen! Adatbázisból vagy bármilyen más forrásból lekérhet adatokat, és dinamikusan módosíthatja a sorok és oszlopok számát.
 
 ### Ingyenesen használható az Aspose.PDF for .NET?  
- Az Aspose.PDF for .NET egy licencelt termék, de kipróbálhatja a[ingyenes próbaverzió](https://releases.aspose.com/) vagy kap a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+Az Aspose.PDF for .NET egy licencelt termék, de kipróbálható egy [ingyenes próba](https://releases.aspose.com/) vagy szerezz egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

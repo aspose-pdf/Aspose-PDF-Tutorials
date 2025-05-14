@@ -8,7 +8,9 @@ url: /net/programming-with-bookmarks/delete-all-bookmarks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete All Bookmarks In PDF File
@@ -116,6 +118,7 @@ You can find comprehensive documentation on the [Aspose website](https://referen
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

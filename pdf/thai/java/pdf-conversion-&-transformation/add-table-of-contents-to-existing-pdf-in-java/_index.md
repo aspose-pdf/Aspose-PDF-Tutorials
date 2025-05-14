@@ -1,14 +1,16 @@
 ---
-title: เพิ่มสารบัญลงใน PDF ที่มีอยู่แล้วใน Java
-linktitle: เพิ่มสารบัญลงใน PDF ที่มีอยู่แล้วใน Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีเพิ่มสารบัญใน PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java ปรับปรุงการนำทางเอกสารด้วยคู่มือทีละขั้นตอนนี้
-weight: 34
-url: /th/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/
+"description": "เรียนรู้วิธีเพิ่มสารบัญใน PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java ปรับปรุงการนำทางเอกสารด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "เพิ่มสารบัญลงใน PDF ที่มีอยู่แล้วใน Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มสารบัญลงใน PDF ที่มีอยู่แล้วใน Java"
+"url": "/th/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/"
+"weight": 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มสารบัญลงใน PDF ที่มีอยู่แล้วใน Java
@@ -20,7 +22,7 @@ url: /th/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pd
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การเพิ่มการอ้างอิง
 ในการเริ่มต้น ให้สร้างโปรเจ็กต์ Java ใหม่และเพิ่มไลบรารี Aspose.PDF สำหรับ Java ลงในส่วนที่ต้องมีของโปรเจ็กต์ของคุณ คุณสามารถทำได้โดยรวมไฟล์ JAR ไว้ในเส้นทางการสร้างของโปรเจ็กต์
@@ -98,15 +100,17 @@ pdfDocument.save("output.pdf");
 ใช่ Aspose.PDF สำหรับ Java มีฟีเจอร์มากมายสำหรับการทำงานกับเอกสาร PDF รวมถึงการแยกข้อความ การจัดการหน้า และอื่นๆ อีกมากมาย
 
 ### มี Aspose.PDF เวอร์ชันทดลองใช้สำหรับ Java หรือไม่
- ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ของ Aspose.PDF สำหรับ Java ได้จาก[Aspose.การซื้อ](https://purchase.aspose.com/temporary-license/) เพื่อประเมินคุณสมบัติก่อนซื้อใบอนุญาต
+ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ของ Aspose.PDF สำหรับ Java ได้จาก [Aspose.การซื้อ](https://purchase.aspose.com/temporary-license/) เพื่อประเมินคุณสมบัติก่อนซื้อใบอนุญาต
 
 ### ฉันสามารถเข้าถึงบทช่วยสอนและเอกสาร Aspose.PDF สำหรับ Java เพิ่มเติมได้อย่างไร
- คุณสามารถค้นหาบทช่วยสอนและเอกสารประกอบที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาบทช่วยสอนและเอกสารประกอบที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์ [https://reference.aspose.com/pdf/java/](https://reference-aspose.com/pdf/java/).
 
 ในบทความนี้ เราได้ศึกษาวิธีการเพิ่มสารบัญลงในเอกสาร PDF ที่มีอยู่โดยใช้ไลบรารี Aspose.PDF สำหรับ Java ฟีเจอร์นี้สามารถปรับปรุงการใช้งานเอกสาร PDF ของคุณได้อย่างมาก ช่วยให้ผู้อ่านสามารถนำทางไปยังส่วนหรือบทที่ต้องการได้อย่างง่ายดาย นอกจากนี้ เรายังได้ครอบคลุมถึงวิธีการปรับแต่งลักษณะของสารบัญและสร้างหมายเลขหน้า Aspose.PDF สำหรับ Java นำเสนอความสามารถในการจัดการ PDF ที่หลากหลาย ทำให้เป็นเครื่องมือที่มีประสิทธิภาพสำหรับการทำงานกับ PDF ในแอปพลิเคชัน Java หากคุณต้องการความช่วยเหลือเพิ่มเติมหรือต้องการสำรวจฟีเจอร์เพิ่มเติมของ Aspose.PDF สำหรับ Java อย่าลืมตรวจสอบเอกสารและบทช่วยสอนของพวกเขา
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Explore other features offered by Aspose.PDF .NET, such as text annotations or f
 We hope this tutorial has been helpful in your quest to add measured line annotations to PDFs. Experiment with the various features of Aspose.PDF .NET to unlock even more potential for your documents!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ में चित्रण संरचना तत्व
-linktitle: जावा का उपयोग करके पीडीएफ में चित्रण संरचना तत्व
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Aspose.PDF के साथ जावा का उपयोग करके पीडीएफ फाइलों में चित्रण और संरचना तत्वों को बनाना सीखें।
-weight: 14
-url: /hi/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/
+"description": "Aspose.PDF के साथ जावा का उपयोग करके पीडीएफ फाइलों में चित्रण और संरचना तत्वों को बनाना सीखें।"
+"linktitle": "जावा का उपयोग करके पीडीएफ में चित्रण संरचना तत्व"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ में चित्रण संरचना तत्व"
+"url": "/hi/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ में चित्रण संरचना तत्व
@@ -28,14 +30,14 @@ url: /hi/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-usin
 
 - जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा स्थापित है।
 
--  Java के लिए Aspose.PDF: Java के लिए Aspose.PDF लाइब्रेरी को यहाँ से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/pdf/java/).
+- Java के लिए Aspose.PDF: Java के लिए Aspose.PDF लाइब्रेरी को यहाँ से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ## अपना प्रोजेक्ट सेट अप करना
 
 अब, आरंभ करने के लिए एक जावा प्रोजेक्ट सेट अप करें। अपने पसंदीदा IDE में एक नया जावा प्रोजेक्ट बनाएँ और अपने प्रोजेक्ट के क्लासपाथ में Aspose.PDF लाइब्रेरी जोड़ें।
 
 ```java
-//अपने जावा प्रोजेक्ट में Aspose.PDF लाइब्रेरी जोड़ें
+// अपने जावा प्रोजेक्ट में Aspose.PDF लाइब्रेरी जोड़ें
 import com.aspose.pdf.Document;
 import com.aspose.pdf.Page;
 import com.aspose.pdf.Rectangle;
@@ -82,7 +84,7 @@ Document pdfDocument = new Document();
 // दस्तावेज़ में एक पृष्ठ जोड़ें
 Page page = pdfDocument.getPages().add();
 
-//छवि लोड करें
+// छवि लोड करें
 com.aspose.pdf.Image image = new com.aspose.pdf.Image();
 image.setFile("logo.png"); // अपनी छवि फ़ाइल पथ से बदलें
 
@@ -102,12 +104,12 @@ pdfDocument.save("Illustration.pdf");
 
 बधाई हो! आपने सीख लिया है कि Java और Aspose.PDF का उपयोग करके PDF फ़ाइलों में चित्र और संरचना तत्व कैसे बनाएँ। अब आप अपने PDF दस्तावेज़ों को टेक्स्ट, छवियों और अन्य चीज़ों से बेहतर बना सकते हैं।
 
- यदि आपके कोई प्रश्न हों या आपको और सहायता की आवश्यकता हो, तो कृपया हमसे संपर्क करें[जावा के लिए Aspose.PDF दस्तावेज़](https://reference.aspose.com/pdf/java/) अधिक गहन विवरण के लिए.
+यदि आपके कोई प्रश्न हों या आपको और सहायता की आवश्यकता हो, तो कृपया हमसे संपर्क करें [जावा के लिए Aspose.PDF दस्तावेज़](https://reference.aspose.com/pdf/java/) अधिक गहन विवरण के लिए.
 
 ## पूछे जाने वाले प्रश्न
 
 ### Java के लिए Aspose.PDF क्या है?
-   Aspose.PDF for Java, जावा अनुप्रयोगों में प्रोग्रामेटिक रूप से PDF दस्तावेज़ों के साथ काम करने के लिए एक मजबूत लाइब्रेरी है।
+   Aspose.PDF for Java जावा अनुप्रयोगों में प्रोग्रामेटिक रूप से PDF दस्तावेज़ों के साथ काम करने के लिए एक मजबूत लाइब्रेरी है।
 
 ### क्या मैं एक ही PDF दस्तावेज़ में एकाधिक चित्र जोड़ सकता हूँ?
    बिल्कुल! आप एक पीडीएफ दस्तावेज़ में आवश्यकतानुसार जितने चाहें उतने चित्र जोड़ सकते हैं।
@@ -122,9 +124,11 @@ pdfDocument.save("Illustration.pdf");
    उदाहरणों और संसाधनों के भंडार के लिए Aspose.PDF for Java API दस्तावेज़ देखें।
    
 अब आप Java और Aspose.PDF के साथ आकर्षक और जानकारीपूर्ण PDF दस्तावेज़ बनाने के लिए पूरी तरह तैयार हैं। हैप्पी कोडिंग!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

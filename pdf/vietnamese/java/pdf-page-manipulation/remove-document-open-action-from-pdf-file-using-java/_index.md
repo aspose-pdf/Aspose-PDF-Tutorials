@@ -1,14 +1,16 @@
 ---
-title: Xóa hành động mở tài liệu khỏi tệp PDF bằng Java
-linktitle: Xóa hành động mở tài liệu khỏi tệp PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách xóa Document Open Action khỏi tệp PDF bằng Java và Aspose.PDF cho Java. Tăng cường bảo mật và tùy chỉnh.
-weight: 11
-url: /vi/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/
+"description": "Tìm hiểu cách xóa Document Open Action khỏi tệp PDF bằng Java và Aspose.PDF cho Java. Tăng cường bảo mật và tùy chỉnh."
+"linktitle": "Xóa hành động mở tài liệu khỏi tệp PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Xóa hành động mở tài liệu khỏi tệp PDF bằng Java"
+"url": "/vi/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa hành động mở tài liệu khỏi tệp PDF bằng Java
@@ -22,7 +24,7 @@ Tệp PDF thường chứa Document Open Actions, có thể thực hiện các h
 
 Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
--  Thư viện Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+- Thư viện Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 
 - Môi trường phát triển Java: Đảm bảo bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình.
 
@@ -112,10 +114,12 @@ Không, có những thư viện và công cụ khác có sẵn để làm việc
 
 ### Tôi có thể tìm thêm thông tin về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu và ví dụ toàn diện về Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu và ví dụ toàn diện về Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

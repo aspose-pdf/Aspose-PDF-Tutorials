@@ -1,14 +1,16 @@
 ---
-title: Thao tác bảng trong tệp PDF
-linktitle: Thao tác bảng trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thao tác bảng trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước, bao gồm các ví dụ về mã và các biện pháp thực hành tốt nhất.
-weight: 130
-url: /vi/net/programming-with-tables/manipulate-table/
+"description": "Tìm hiểu cách thao tác các bảng trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước, bao gồm các ví dụ về mã và các biện pháp thực hành tốt nhất."
+"linktitle": "Thao tác bảng trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thao tác bảng trong tệp PDF"
+"url": "/vi/net/programming-with-tables/manipulate-table/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thao tác bảng trong tệp PDF
@@ -21,11 +23,11 @@ Nếu bạn đang làm việc với các tài liệu PDF trong .NET và cần th
 
 Trước khi bạn có thể thao tác các bảng trong PDF bằng Aspose.PDF cho .NET, bạn cần thực hiện một số điều sau:
 
-1.  Aspose.PDF cho Thư viện .NET – Bạn sẽ cần cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/pdf/net/) hoặc cài đặt thông qua NuGet Package Manager trong Visual Studio.
+1. Aspose.PDF cho Thư viện .NET – Bạn sẽ cần cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/pdf/net/) hoặc cài đặt thông qua NuGet Package Manager trong Visual Studio.
 2. Đã cài đặt .NET Framework – Đảm bảo bạn đã cài đặt .NET trên hệ thống của mình.
 3. Tệp PDF mẫu – Chúng tôi sẽ sử dụng tệp PDF có chứa bảng cho hướng dẫn này. Bạn có thể tự tạo hoặc sử dụng tệp có sẵn.
 
- Để dùng thử miễn phí Aspose.PDF cho .NET, hãy xem[liên kết này](https://releases.aspose.com/).
+Để dùng thử miễn phí Aspose.PDF cho .NET, hãy xem [liên kết này](https://releases.aspose.com/).
 
 ## Nhập gói
 
@@ -53,22 +55,22 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Ở đây, chúng tôi đã chỉ định thư mục của tệp PDF và tải nó vào`pdfDocument` đối tượng. Tài liệu này sẽ được xử lý sau trong quá trình này.
+Ở đây, chúng tôi đã chỉ định thư mục của tệp PDF và tải nó vào `pdfDocument` đối tượng. Tài liệu này sẽ được xử lý sau trong quá trình này.
 
 ## Bước 2: Tạo đối tượng TableAbsorber
 
- Để làm việc với các bảng trong PDF, bạn cần tạo một phiên bản của`TableAbsorber`. Lớp này giúp hấp thụ (hoặc lấy) các bảng từ một trang trong tài liệu PDF.
+Để làm việc với các bảng trong PDF, bạn cần tạo một phiên bản của `TableAbsorber`. Lớp này giúp hấp thụ (hoặc lấy) các bảng từ một trang trong tài liệu PDF.
 
 ```csharp
 // Tạo đối tượng TableAbsorber để tìm bảng
 TableAbsorber absorber = new TableAbsorber();
 ```
 
- Nghĩ về`TableAbsorber`như một máy hút bụi cho bảng—nó hút sạch tất cả các bảng trên một trang để bạn có thể làm việc với chúng!
+Nghĩ về `TableAbsorber` như một máy hút bụi cho bảng—nó hút sạch tất cả các bảng trên một trang để bạn có thể làm việc với chúng!
 
 ## Bước 3: Truy cập một trang cụ thể
 
- Bây giờ bạn đã có`TableAbsorber` đối tượng đã sẵn sàng, bạn cần cho nó biết trang nào của PDF cần phân tích để có bảng. Ở đây, chúng tôi đang chỉ định trang đầu tiên (`Pages[1]`).
+Bây giờ bạn đã có `TableAbsorber` đối tượng đã sẵn sàng, bạn cần cho nó biết trang nào của PDF cần phân tích để có bảng. Ở đây, chúng tôi đang chỉ định trang đầu tiên (`Pages[1]`).
 
 ```csharp
 // Truy cập trang đầu tiên với bộ hấp thụ
@@ -79,7 +81,7 @@ Về cơ bản, bước này yêu cầu trình hấp thụ xem trang đầu tiê
 
 ## Bước 4: Truy cập Bảng đầu tiên và các ô của nó
 
- Sau khi hấp thụ các bảng từ trang, bạn có thể truy cập chúng bằng cách sử dụng`TableList` thuộc tính của bộ hấp thụ. Sau đó, điều hướng qua các hàng, ô và đoạn văn bản trong bảng.
+Sau khi hấp thụ các bảng từ trang, bạn có thể truy cập chúng bằng cách sử dụng `TableList` thuộc tính của bộ hấp thụ. Sau đó, điều hướng qua các hàng, ô và đoạn văn bản trong bảng.
 
 ```csharp
 // Truy cập vào bảng đầu tiên trên trang, ô đầu tiên của chúng và các đoạn văn bản trong đó
@@ -90,7 +92,7 @@ Trong ví dụ này, chúng ta đang truy cập vào bảng đầu tiên (`Table
 
 ## Bước 5: Sửa đổi văn bản trong ô bảng
 
-Khi bạn có quyền truy cập vào một đoạn văn bản cụ thể bên trong bảng, bạn có thể dễ dàng sửa đổi nội dung của nó. Hãy thay đổi văn bản thành "hi world".
+Khi bạn có quyền truy cập vào một đoạn văn bản cụ thể bên trong bảng, bạn có thể dễ dàng sửa đổi nội dung của nó. Hãy đổi văn bản thành "hi world".
 
 ```csharp
 // Thay đổi văn bản của đoạn văn bản đầu tiên trong ô
@@ -109,7 +111,7 @@ dataDir = dataDir + "ManipulateTable_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Ở đây, chúng tôi lưu tài liệu đã sửa đổi dưới dạng`ManipulateTable_out.pdf`. Bạn có thể đặt cho nó bất kỳ tên nào bạn thích.
+Ở đây, chúng tôi lưu tài liệu đã sửa đổi dưới dạng `ManipulateTable_out.pdf`. Bạn có thể đặt cho nó bất kỳ tên nào bạn thích.
 
 ## Bước 7: Xử lý ngoại lệ (Tùy chọn nhưng được khuyến nghị)
 
@@ -135,22 +137,24 @@ Và bạn đã có nó! Thao tác các bảng trong tệp PDF bằng Aspose.PDF 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sửa đổi nhiều bảng trong một tệp PDF cùng lúc không?  
- Vâng! Bạn có thể lặp lại`TableList` tài sản của`TableAbsorber` đối tượng để thao tác nhiều bảng trong cùng một tài liệu PDF.
+Vâng! Bạn có thể lặp qua `TableList` tài sản của `TableAbsorber` đối tượng để thao tác nhiều bảng trong cùng một tài liệu PDF.
 
 ### Nếu tệp PDF không chứa bất kỳ bảng nào thì sao?  
- Nếu không tìm thấy bảng nào trên trang bạn đang phân tích,`TableList` thuộc tính sẽ trống. Luôn kiểm tra xem có bảng nào tồn tại không trước khi cố gắng sửa đổi chúng.
+Nếu không tìm thấy bảng nào trên trang bạn đang phân tích, `TableList` thuộc tính sẽ trống. Luôn kiểm tra xem có bảng nào tồn tại không trước khi cố gắng sửa đổi chúng.
 
 ### Tôi có thể định dạng bảng sau khi sửa đổi văn bản không?  
 Hoàn toàn có thể. Aspose.PDF cho phép bạn thay đổi kiểu của bảng, chẳng hạn như phông chữ, màu sắc và nền, bằng cách truy cập vào thuộc tính của bảng.
 
 ### Aspose.PDF cho .NET có miễn phí không?  
- Aspose.PDF không miễn phí, nhưng bạn có thể dùng thử với[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc nhận được một[dùng thử miễn phí](https://releases.aspose.com/).
+Aspose.PDF không miễn phí, nhưng bạn có thể dùng thử với [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc nhận được một [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Làm thế nào để cài đặt Aspose.PDF cho .NET?  
- Bạn có thể dễ dàng cài đặt Aspose.PDF thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống từ[Trang tải xuống PDF Aspose](https://releases.aspose.com/pdf/net/).
+Bạn có thể dễ dàng cài đặt Aspose.PDF thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống từ [Trang tải xuống PDF Aspose](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

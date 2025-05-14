@@ -1,14 +1,16 @@
 ---
-title: Xóa bảng khỏi PDF hiện có bằng Java
-linktitle: Xóa bảng khỏi PDF hiện có bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách dễ dàng xóa bảng khỏi tệp PDF bằng Java với Aspose.PDF cho Java. Hướng dẫn từng bước để xóa bảng hiệu quả.
-weight: 14
-url: /vi/java/pdf-tables/remove-tables-from-existing-pdf-using-java/
+"description": "Tìm hiểu cách dễ dàng xóa bảng khỏi tệp PDF bằng Java với Aspose.PDF cho Java. Hướng dẫn từng bước để xóa bảng hiệu quả."
+"linktitle": "Xóa bảng khỏi PDF hiện có bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Xóa bảng khỏi PDF hiện có bằng Java"
+"url": "/vi/java/pdf-tables/remove-tables-from-existing-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa bảng khỏi PDF hiện có bằng Java
@@ -16,14 +18,14 @@ url: /vi/java/pdf-tables/remove-tables-from-existing-pdf-using-java/
 
 ## Giới thiệu
 
-Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách xóa bảng khỏi tài liệu PDF hiện có bằng Java với sự trợ giúp của thư viện Aspose.PDF cho Java. Bảng thường được sử dụng trong tài liệu PDF để trình bày dữ liệu, nhưng có thể có những tình huống bạn cần trích xuất hoặc xóa chúng. Cho dù đó là để phân tích dữ liệu hay điều chỉnh định dạng, chúng tôi đều có thể giúp bạn. Hãy cùng tìm hiểu cách thực hiện điều này bằng Aspose.PDF cho Java.
+Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách xóa bảng khỏi tài liệu PDF hiện có bằng Java với sự trợ giúp của thư viện Aspose.PDF cho Java. Bảng thường được sử dụng trong tài liệu PDF để trình bày dữ liệu, nhưng có thể có những trường hợp bạn cần trích xuất hoặc xóa chúng. Cho dù đó là để phân tích dữ liệu hay điều chỉnh định dạng, chúng tôi đều có thể giúp bạn. Hãy cùng tìm hiểu cách thực hiện điều này bằng Aspose.PDF cho Java.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Bước 1: Thiết lập dự án Java của bạn
 
@@ -94,10 +96,12 @@ Có, Aspose.PDF for Java được thiết kế để xử lý các tài liệu P
 
 ### Tôi có thể truy cập thêm tài nguyên và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện cho Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu và tài nguyên toàn diện cho Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

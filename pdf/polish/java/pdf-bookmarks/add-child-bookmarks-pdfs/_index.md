@@ -1,14 +1,16 @@
 ---
-title: Dodawanie zakładek dziecięcych do plików PDF
-linktitle: Dodawanie zakładek dziecięcych do plików PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak ulepszyć dokumenty PDF za pomocą zakładek podrzędnych przy użyciu Aspose.PDF dla Java. Przewodnik krok po kroku z przykładami kodu dla ulepszonej nawigacji i organizacji.
-weight: 11
-url: /pl/java/pdf-bookmarks/add-child-bookmarks-pdfs/
+"description": "Dowiedz się, jak ulepszyć dokumenty PDF za pomocą zakładek podrzędnych przy użyciu Aspose.PDF dla Java. Przewodnik krok po kroku z przykładami kodu dla ulepszonej nawigacji i organizacji."
+"linktitle": "Dodawanie zakładek dziecięcych do plików PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodawanie zakładek dziecięcych do plików PDF"
+"url": "/pl/java/pdf-bookmarks/add-child-bookmarks-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie zakładek dziecięcych do plików PDF
@@ -16,14 +18,14 @@ url: /pl/java/pdf-bookmarks/add-child-bookmarks-pdfs/
 
 ## Wprowadzenie do dodawania zakładek podrzędnych do plików PDF
 
-W tym artykule przyjrzymy się sposobowi dodawania zakładek podrzędnych do dokumentów PDF przy użyciu Aspose.PDF dla Java. Zakładki podrzędne to wygodny sposób na organizowanie i nawigowanie po zawartości dokumentu PDF, ułatwiający użytkownikom znajdowanie określonych sekcji lub tematów w dokumencie.
+tym artykule przyjrzymy się sposobowi dodawania zakładek podrzędnych do dokumentów PDF przy użyciu Aspose.PDF dla Java. Zakładki podrzędne to wygodny sposób na organizowanie i nawigowanie po zawartości dokumentu PDF, ułatwiający użytkownikom znajdowanie określonych sekcji lub tematów w dokumencie.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do wdrożenia, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Środowisko programistyczne Java zainstalowane w Twoim systemie.
--  Aspose.PDF dla biblioteki Java. Możesz pobrać ją z[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla biblioteki Java. Możesz pobrać ją z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Konfigurowanie środowiska
 
@@ -45,7 +47,7 @@ pdfDocument.getPages().add();
 pdfDocument.getPages().add();
 ```
 
-W tym przykładzie utworzyliśmy nowy dokument PDF i dodaliśmy do niego dwie strony.
+tym przykładzie utworzyliśmy nowy dokument PDF i dodaliśmy do niego dwie strony.
 
 ## Dodawanie zakładek nadrzędnych
 
@@ -65,7 +67,7 @@ outline.add(parentBookmark);
 
 Dodaliśmy dwie zakładki nadrzędne: „Zakładka nadrzędna 1” i „Zakładka nadrzędna 2”.
 
-## Dodawanie zakładek dla dzieci
+## Dodawanie zakładek dziecięcych
 
 Teraz czas dodać zakładki podrzędne do zakładek nadrzędnych, które utworzyliśmy wcześniej. Zakładki podrzędne reprezentują określone tematy lub podsekcje w obrębie każdej zakładki nadrzędnej. Oto, jak możesz to zrobić:
 
@@ -79,7 +81,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Dodaj zakładki dla dzieci do zakładki dla rodziców 2
+// Dodaj zakładki dla dzieci do zakładki dla rodziców 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -154,7 +156,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Dodaj zakładki dla dzieci do zakładki dla rodziców 2
+// Dodaj zakładki dla dzieci do zakładki dla rodziców 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -180,7 +182,7 @@ Dodawanie zakładek podrzędnych do plików PDF za pomocą Aspose.PDF dla Java t
 
 ### Jak mogę pobrać Aspose.PDF dla Java?
 
- Możesz pobrać Aspose.PDF dla Javy ze strony internetowej[Tutaj](https://releases.aspose.com/pdf/java/).
+Możesz pobrać Aspose.PDF dla Javy ze strony internetowej [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ### Czy zakładki podrzędne są obsługiwane we wszystkich przeglądarkach PDF?
 
@@ -196,10 +198,12 @@ Oprócz akcji „GoTo” możesz dodać akcje „URI” otwierające łącza int
 
 ### Czy Aspose.PDF dla Java nadaje się do projektów komercyjnych?
 
-Tak, Aspose.PDF for Java nadaje się zarówno do projektów prywatnych, jak i komercyjnych, oferując szeroki zakres funkcji do generowania i modyfikowania plików PDF.
+Tak, Aspose.PDF for Java nadaje się zarówno do projektów prywatnych, jak i komercyjnych, oferując szeroką gamę funkcji do generowania i manipulowania plikami PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

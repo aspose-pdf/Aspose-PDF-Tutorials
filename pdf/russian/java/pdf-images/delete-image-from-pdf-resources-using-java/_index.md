@@ -1,14 +1,16 @@
 ---
-title: Удалить изображение из PDF-ресурсов с помощью Java
-linktitle: Удалить изображение из PDF-ресурсов с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как удалять изображения из PDF-документов с помощью Aspose.PDF для Java. Пошаговое руководство с исходным кодом для эффективной обработки PDF-файлов.
-weight: 21
-url: /ru/java/pdf-images/delete-image-from-pdf-resources-using-java/
+"description": "Узнайте, как удалять изображения из PDF-документов с помощью Aspose.PDF для Java. Пошаговое руководство с исходным кодом для эффективной обработки PDF-файлов."
+"linktitle": "Удалить изображение из PDF-ресурсов с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Удалить изображение из PDF-ресурсов с помощью Java"
+"url": "/ru/java/pdf-images/delete-image-from-pdf-resources-using-java/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить изображение из PDF-ресурсов с помощью Java
@@ -26,7 +28,7 @@ Aspose.PDF для Java — это библиотека Java, которая по
 
 - Java Development Kit (JDK), установленный в вашей системе
 - Интегрированная среда разработки (IDE) для Java (например, Eclipse, IntelliJ IDEA)
--  Библиотека Aspose.PDF для Java, которую можно загрузить с сайта[здесь](https://releases.aspose.com/pdf/java/)
+- Библиотека Aspose.PDF для Java, которую можно загрузить с сайта [здесь](https://releases.aspose.com/pdf/java/)
 
 ## Настройка среды разработки
 
@@ -111,13 +113,13 @@ public class DeleteImagesFromPDF {
 
 В этом пошаговом руководстве мы узнали, как удалять изображения из документа PDF с помощью Aspose.PDF для Java. Эта мощная библиотека позволяет легко программно манипулировать файлами PDF, предоставляя вам полный контроль над содержимым.
 
- Для получения дополнительной информации и подробной документации посетите[Справочник по API Aspose.PDF для Java](https://reference.aspose.com/pdf/java/).
+Для получения дополнительной информации и подробной документации посетите [Справочник по API Java Aspose.PDF](https://reference.aspose.com/pdf/java/).
 
 ## Часто задаваемые вопросы
 
 ### Как установить Aspose.PDF для Java?
 
- Чтобы установить Aspose.PDF для Java, вы можете загрузить библиотеку с сайта[здесь](https://releases.aspose.com/pdf/java/). Следуйте инструкциям по установке, приведенным в документации.
+Чтобы установить Aspose.PDF для Java, вы можете загрузить библиотеку с сайта [здесь](https://releases.aspose.com/pdf/java/). Следуйте инструкциям по установке, приведенным в документации.
 
 ### Можно ли удалить определенные изображения из PDF-файла с помощью Aspose.PDF для Java?
 
@@ -126,9 +128,11 @@ public class DeleteImagesFromPDF {
 ### Подходит ли Aspose.PDF для Java для других задач по работе с PDF-файлами?
 
 Да, Aspose.PDF для Java — это универсальная библиотека, которая может выполнять различные задачи по обработке PDF-файлов, включая добавление текста, изображений, аннотаций и т. д. Это комплексное решение для работы с PDF-файлами в приложениях Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

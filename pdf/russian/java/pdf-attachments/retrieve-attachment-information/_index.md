@@ -1,14 +1,16 @@
 ---
-title: Получить информацию о вложении
-linktitle: Получить информацию о вложении
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как извлекать вложения PDF в Java с помощью Aspose.PDF. Пошаговое руководство с примерами кода для управления вложениями PDF-документов.
-weight: 12
-url: /ru/java/pdf-attachments/retrieve-attachment-information/
+"description": "Узнайте, как извлекать вложения PDF в Java с помощью Aspose.PDF. Пошаговое руководство с примерами кода для управления вложениями PDF-документов."
+"linktitle": "Получить информацию о вложении"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Получить информацию о вложении"
+"url": "/ru/java/pdf-attachments/retrieve-attachment-information/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить информацию о вложении
@@ -23,7 +25,7 @@ url: /ru/java/pdf-attachments/retrieve-attachment-information/
 Прежде чем начать, убедитесь, что у вас есть следующие предварительные условия:
 
 1. Установлена среда разработки Java (JDK).
-2.  Aspose.PDF для библиотеки Java. Вы можете скачать ее здесь[здесь](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF для библиотеки Java. Вы можете скачать ее здесь [здесь](https://releases.aspose.com/pdf/java/).
 
 ## Шаг 1: Создайте проект Java
 
@@ -40,7 +42,7 @@ Document pdfDocument = new Document("path/to/your/pdf/document.pdf");
 
 ## Шаг 3: Извлечение информации о вложении
 
-Теперь вы можете получить информацию о вложениях из загруженного документа PDF. Вот как вы можете получить список вложений и отобразить их данные:
+Теперь вы можете получить информацию о вложениях из загруженного документа PDF. Вот как можно получить список вложений и отобразить их данные:
 
 ```java
 // Получить коллекцию вложений
@@ -75,7 +77,7 @@ if (attachments.size() > 0) {
 
 ### Как извлечь вложения из PDF-файла?
 
- Для извлечения вложений вы можете использовать`attachment.getData()` метод получения содержимого вложения и последующего сохранения его в локальном файле.
+Для извлечения вложений вы можете использовать `attachment.getData()` метод получения содержимого вложения и последующего сохранения его в локальном файле.
 
 ### Могу ли я изменять вложения в PDF-документе?
 Да, вы можете добавлять, удалять или обновлять вложения в PDF-документе с помощью Aspose.PDF for Java. Более подробную информацию см. в документации.
@@ -86,10 +88,12 @@ Aspose.PDF для Java поддерживает широкий спектр фо
 
 ### Как добавить новые вложения в PDF-файл?
 
- Вы можете добавлять вложения в PDF-документ с помощью`AttachmentCollection.add()`Метод. Просто укажите имя вложения, его описание и содержимое, и оно будет добавлено в документ.
+Вы можете добавлять вложения в PDF-документ с помощью `AttachmentCollection.add()` Метод. Просто укажите имя вложения, его описание и содержимое, и оно будет добавлено в документ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

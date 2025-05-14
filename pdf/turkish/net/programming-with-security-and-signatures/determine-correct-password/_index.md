@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Doğru Şifreyi Belirleyin
-linktitle: PDF Dosyasında Doğru Şifreyi Belirleyin
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyalarının kilidini doğru parolayla açın. Doğru parolayı kolayca nasıl belirleyeceğinizi öğrenin.
-weight: 30
-url: /tr/net/programming-with-security-and-signatures/determine-correct-password/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyalarının kilidini doğru parolayla açın. Doğru parolayı kolayca nasıl belirleyeceğinizi öğrenin."
+"linktitle": "PDF Dosyasında Doğru Şifreyi Belirleyin"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Doğru Şifreyi Belirleyin"
+"url": "/tr/net/programming-with-security-and-signatures/determine-correct-password/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Doğru Şifreyi Belirleyin
@@ -24,7 +26,7 @@ Eğitimimize başlamadan önce, başlamak için ihtiyacınız olan her şeye sah
 ### Yazılım ve Araçlar
 
 1. .NET Framework veya .NET Core: Geliştirme ortamınızda .NET Framework veya .NET Core'un yüklü olduğundan emin olun.
-2.  .NET için Aspose.PDF: Projenizde Aspose.PDF kütüphanesinin mevcut olması gerekir. İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Projenizde Aspose.PDF kütüphanesinin mevcut olması gerekir. Bunu indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
    
 ### Geliştirme Ortamı
 
@@ -33,7 +35,7 @@ Eğitimimize başlamadan önce, başlamak için ihtiyacınız olan her şeye sah
 
 ### API'ler ve Lisanslar
 
--  Aspose.PDF'nin tüm işlevlerini kullanmayı planlıyorsanız, bir tane edinmeyi düşünün[geçici lisans](https://purchase.aspose.com/temporary-license/) veya bir[kalıcı lisans](https://purchase.aspose.com/buy).
+- Aspose.PDF'nin tüm işlevlerini kullanmayı planlıyorsanız, bir tane edinmeyi düşünün [geçici lisans](https://purchase.aspose.com/temporary-license/) veya bir [kalıcı lisans](https://purchase.aspose.com/buy).
   
 Her şey hazır olduğunda, parola korumalı PDF'lerin sırlarını çözmeye hazırsınız!
 
@@ -66,7 +68,7 @@ Bu komut Aspose.PDF'yi projenize getirir ve kurar, böylece başarıya ulaşman�
 
 ## Adım 1: Dosya Yolunu Ayarlayın
 
- Başka bir şey yapmadan önce, üzerinde çalıştığınız PDF dosyasının yolunu belirtmeniz gerekir. Değiştirdiğinizden emin olun`"YOUR DOCUMENTS DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile.
+Başka bir şey yapmadan önce, üzerinde çalıştığınız PDF dosyasının yolunu belirtmeniz gerekir. Değiştirdiğinizden emin olun `"YOUR DOCUMENTS DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -74,14 +76,14 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## Adım 2: Kaynak PDF Dosyasını Yükleyin
 
- Sonra, kullanın`PdfFileInfo` kaynak PDF dosyanızı yüklemek için:
+Sonra, kullanın `PdfFileInfo` kaynak PDF dosyanızı yüklemek için:
 
 ```csharp
 PdfFileInfo info = new PdfFileInfo();
 info.BindPdf(dataDir + "IsPasswordProtected.pdf");
 ```
 
- Bu adım PDF dosyasını şuraya bağlar:`info` nesnenin özelliklerine erişmemizi sağlar.
+Bu adım PDF dosyasını şuraya bağlar: `info` nesnenin özelliklerine erişmemizi sağlar.
 
 ## Adım 3: PDF'nin Şifreli Olup Olmadığını Kontrol Edin
 
@@ -91,7 +93,7 @@ info.BindPdf(dataDir + "IsPasswordProtected.pdf");
 Console.WriteLine("File is password protected " + info.IsEncrypted);
 ```
 
- Kontrol ederek`IsEncrypted` özelliği, belgenin kilit durumunu belirleyebilirsiniz. Eğer öyleyse`true`, o zaman şifreyi çözmeniz gerekecek!
+Kontrol ederek `IsEncrypted` özelliği, belgenin kilit durumunu belirleyebilirsiniz. Eğer öyleyse `true`, o zaman şifreyi çözmeniz gerekecek!
 
 ## Adım 4: Olası Parolaların Bir Listesini Hazırlayın
 
@@ -133,19 +135,21 @@ for (int passwordcount = 0; passwordcount < passwords.Length; passwordcount++)
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve yönetmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz deneyebilir miyim?
- Evet, Aspose.PDF'in ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com).
+Evet, Aspose.PDF'in ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com).
 
 ### PDF şifremi unutursam ne yapmalıyım?
-Birden fazla olası şifreniz varsa, kilidini açmak için yukarıda açıklanan yöntemi kullanabilirsiniz. Ancak, yasal yönergelere uyduğunuzdan emin olun.
+Birden fazla olası parolanız varsa, kilidini açmak için yukarıda açıklanan yöntemi kullanabilirsiniz. Ancak, yasal yönergelere uyduğunuzdan emin olun.
 
 ### Korunan bir PDF'yi açmak yasal mıdır?
 Bir PDF'in kilidini açmak yalnızca içeriğe erişim hakkınız varsa yasaldır. Herhangi bir güvenliği aşmaya çalışmadan önce her zaman izniniz olduğundan emin olun.
 
 ### Aspose.PDF için desteği nereden alabilirim?
-Sorularınız ve destek için şu adresi ziyaret edebilirsiniz:[Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10).
+Sorularınız ve destek için şu adresi ziyaret edebilirsiniz: [Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

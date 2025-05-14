@@ -1,14 +1,16 @@
 ---
-title: Удалить все вложения в PDF-файле
-linktitle: Удалить все вложения в PDF-файле
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как удалить все вложения в файле PDF с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Упростите управление PDF.
-weight: 20
-url: /ru/net/programming-with-attachments/delete-all-attachments/
+"description": "Узнайте, как удалить все вложения в файле PDF с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Упростите управление PDF."
+"linktitle": "Удалить все вложения в PDF-файле"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Удалить все вложения в PDF-файле"
+"url": "/ru/net/programming-with-attachments/delete-all-attachments/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить все вложения в PDF-файле
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-attachments/delete-all-attachments/
 
 Прежде чем мы углубимся в код, вам необходимо выполнить несколько действий:
 
-1.  Aspose.PDF для .NET: Убедитесь, что у вас установлена библиотека Aspose.PDF. Вы можете загрузить ее с[веб-сайт](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF для .NET: Убедитесь, что у вас установлена библиотека Aspose.PDF. Вы можете загрузить ее с [веб-сайт](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: среда разработки, в которой вы можете писать и выполнять свой код .NET.
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понимать фрагменты кода.
 
@@ -41,7 +43,7 @@ url: /ru/net/programming-with-attachments/delete-all-attachments/
 
 ### Импорт требуемых пространств имен
 
- После добавления библиотеки откройте`Program.cs` файл и импортируйте необходимые пространства имен в верхней части файла:
+После добавления библиотеки откройте `Program.cs` файл и импортируйте необходимые пространства имен в верхней части файла:
 
 ```csharp
 using System.IO;
@@ -60,7 +62,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"`с фактическим путем, где хранится ваш PDF-файл. Это важно, поскольку программе необходимо знать, где найти файл, который вы хотите изменить.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где хранится ваш PDF-файл. Это важно, поскольку программе необходимо знать, где найти файл, который вы хотите изменить.
 
 ## Шаг 2: Откройте PDF-документ.
 
@@ -71,7 +73,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "DeleteAllAttachments.pdf");
 ```
 
- Эта строка кода создает новый`Document` объект, который представляет ваш PDF-файл. Убедитесь, что имя файла совпадает с тем, что у вас в каталоге.
+Эта строка кода создает новый `Document` объект, который представляет ваш PDF-файл. Убедитесь, что имя файла совпадает с тем, что у вас в каталоге.
 
 ## Шаг 3: Удалить все вложения
 
@@ -104,7 +106,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nAll attachments deleted successfully.\nFile saved at " + dataDir);
 ```
 
-Эта строка выведет сообщение в консоли, подтверждающее удаление вложений и показывающее, где сохранен новый файл.
+Эта строка выведет сообщение в консоль, подтверждающее удаление вложений и показывающее, где сохранен новый файл.
 
 ## Заключение
 
@@ -113,22 +115,24 @@ Console.WriteLine("\nAll attachments deleted successfully.\nFile saved at " + da
 ## Часто задаваемые вопросы
 
 ### Могу ли я удалить определенные вложения, а не все?
- Да, вы можете выборочно удалять вложения, открыв их через`EmbeddedFiles` коллекция.
+Да, вы можете выборочно удалять вложения, открыв их через `EmbeddedFiles` коллекция.
 
 ### Что произойдет, если я удалю вложения?
 После удаления вложения невозможно восстановить, если у вас нет резервной копии исходного PDF-файла.
 
 ### Можно ли использовать Aspose.PDF бесплатно?
-Aspose.PDF предлагает бесплатную пробную версию, но для полной функциональности вам необходимо приобрести лицензию. Ознакомьтесь с[купить страницу](https://purchase.aspose.com/buy) для более подробной информации.
+Aspose.PDF предлагает бесплатную пробную версию, но для полной функциональности вам необходимо приобрести лицензию. Ознакомьтесь с [купить страницу](https://purchase.aspose.com/buy) для более подробной информации.
 
 ### Где я могу найти дополнительную документацию?
- Подробную документацию можно найти на Aspose.PDF для .NET[здесь](https://reference.aspose.com/pdf/net/).
+Подробную документацию можно найти на Aspose.PDF для .NET [здесь](https://reference.aspose.com/pdf/net/).
 
 ### Как мне получить поддержку, если у меня возникнут проблемы?
- Вы можете обратиться за помощью к сообществу Aspose на их сайте[форум поддержки](https://forum.aspose.com/c/pdf/10).
+Вы можете обратиться за помощью к сообществу Aspose на их сайте [форум поддержки](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-document/optimizedocument/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Optimize PDF Document
@@ -119,6 +121,7 @@ No, once a PDF is optimized and saved, the changes are permanent. You should alw
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

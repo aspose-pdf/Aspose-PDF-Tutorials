@@ -1,14 +1,16 @@
 ---
-title: Menggambar XForm Di Halaman
-linktitle: Menggambar XForm Di Halaman
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menggambar XForms dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/programming-with-operators/draw-xform-on-page/
+"description": "Pelajari cara menggambar XForms dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Menggambar XForm Di Halaman"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Menggambar XForm Di Halaman"
+"url": "/id/net/programming-with-operators/draw-xform-on-page/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggambar XForm Di Halaman
@@ -21,7 +23,7 @@ Membuat dokumen PDF yang dinamis dan menarik secara visual telah menjadi keteram
 
 Sebelum memulai, Anda memerlukan beberapa hal untuk memastikan pengalaman yang lancar:
 
-1.  Pustaka Aspose.PDF untuk .NET: Pastikan Anda telah memasang pustaka Aspose.PDF. Jika Anda belum memasangnya, unduh dari[Di Sini](https://releases.aspose.com/pdf/net/).
+1. Pustaka Aspose.PDF untuk .NET: Pastikan Anda telah memasang pustaka Aspose.PDF. Jika Anda belum memasangnya, unduh dari [Di Sini](https://releases.aspose.com/pdf/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan .NET yang berfungsi (seperti Visual Studio 2019 atau yang lebih baru).
 3. Contoh File PDF dan Gambar: Anda memerlukan file PDF dasar tempat kami akan menggambar XForm dan gambar untuk menunjukkan fungsionalitasnya. Jangan ragu untuk menggunakan contoh PDF dan gambar yang tersedia di direktori dokumen Anda.
 
@@ -52,7 +54,7 @@ string inFile = dataDir + "DrawXFormOnPage.pdf"; // Masukan file PDF
 string outFile = dataDir + "blank-sample2_out.pdf"; // Keluaran file PDF
 ```
 
- Di Sini,`dataDir`adalah direktori dasar tempat file Anda berada, jadi pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya.
+Di Sini, `dataDir` adalah direktori dasar tempat file Anda berada, jadi pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya.
 
 ## Langkah 2: Buat Contoh Dokumen Baru
 
@@ -67,7 +69,7 @@ using (Document doc = new Document(inFile))
 }
 ```
 
- Menggunakan`using` pernyataan memastikan bahwa sumber daya secara otomatis dibersihkan setelah operasi selesai.
+Menggunakan `using` pernyataan memastikan bahwa sumber daya secara otomatis dibersihkan setelah operasi selesai.
 
 ## Langkah 3: Akses Konten Halaman dan Mulai Menggambar
 
@@ -93,13 +95,13 @@ pageContents.Add(new GRestore());
 pageContents.Add(new GSave());
 ```
 
- Itu`GSave` operator menyimpan status grafik saat ini, sementara`GRestore`mengembalikannya nanti, memastikan kita kembali ke konteks asli setelah menggambar.
+Itu `GSave` operator menyimpan status grafik saat ini, sementara `GRestore` mengembalikannya nanti, memastikan kita kembali ke konteks asli setelah menggambar.
 
 ## Langkah 5: Buat XForm
 
 Membuat XForm Anda
 
-Di sini, kita akan membuat objek XForm. Ini adalah wadah untuk operasi menggambar kita, yang memungkinkan kita untuk merangkumnya dengan rapi.
+Di sini, kita akan membuat objek XForm. Ini adalah wadah untuk operasi menggambar, yang memungkinkan kita untuk merangkumnya dengan rapi.
 
 ```csharp
 XForm form = XForm.CreateNewForm(doc.Pages[1], doc);
@@ -107,7 +109,7 @@ doc.Pages[1].Resources.Forms.Add(form);
 form.Contents.Add(new GSave());
 ```
 
- Baris ini membuat XForm baru dan menambahkannya ke formulir sumber daya halaman.`GSave` digunakan lagi untuk mempertahankan status grafik dalam XForm.
+Baris ini membuat XForm baru dan menambahkannya ke formulir sumber daya halaman. `GSave` digunakan lagi untuk mempertahankan status grafik dalam XForm.
 
 ## Langkah 6: Tambahkan Gambar dan Atur Dimensi
 
@@ -121,13 +123,13 @@ Stream imageStream = new FileStream(imageFile, FileMode.Open);
 form.Resources.Images.Add(imageStream);
 ```
 
- Kode ini mengatur ukuran gambar dengan`ConcatenateMatrix`, yang menentukan bagaimana gambar akan diubah. Aliran gambar ditambahkan ke sumber daya XForm.
+Kode ini mengatur ukuran gambar dengan `ConcatenateMatrix`, yang menentukan bagaimana gambar akan diubah. Aliran gambar ditambahkan ke sumber daya XForm.
 
 ## Langkah 7: Gambarlah Gambarnya
 
 Menampilkan Gambar
 
- Sekarang, mari kita gunakan`Do` operator untuk benar-benar menggambar gambar yang telah kita tambahkan ke XForm di halaman kita.
+Sekarang, mari kita gunakan `Do` operator untuk benar-benar menggambar gambar yang telah kita tambahkan ke XForm di halaman kita.
 
 ```csharp
 XImage ximage = form.Resources.Images[form.Resources.Images.Count];
@@ -135,13 +137,13 @@ form.Contents.Add(new Do(ximage.Name));
 form.Contents.Add(new GRestore());
 ```
 
- Itu`Do` Operator adalah cara kita menampilkan gambar ke halaman PDF. Setelah itu, kita mengembalikan status grafis.
+Itu `Do` Operator adalah cara kita menampilkan gambar ke halaman PDF. Setelah itu, kita mengembalikan status grafis.
 
 ## Langkah 8: Posisikan XForm di Halaman
 
 Menempatkan XForm
 
- Untuk merender XForm pada koordinat tertentu di halaman, kita akan menggunakan yang lain`ConcatenateMatrix` operasi.
+Untuk merender XForm pada koordinat tertentu di halaman, kita akan menggunakan yang lain `ConcatenateMatrix` operasi.
 
 ```csharp
 pageContents.Add(new ConcatenateMatrix(1, 0, 0, 1, 100, 500));
@@ -149,7 +151,7 @@ pageContents.Add(new Do(form.Name));
 pageContents.Add(new GRestore());
 ```
 
- Potongan kode ini menempatkan XForm pada koordinat`x=100`, `y=500`.
+Potongan kode ini menempatkan XForm pada koordinat `x=100`Bahasa Indonesia: `y=500`.
 
 ## Langkah 9: Gambar Lagi di Lokasi Berbeda
 
@@ -187,19 +189,21 @@ Selamat! Anda telah berhasil mempelajari cara menggambar XForm pada halaman PDF 
 XForm adalah formulir yang dapat digunakan ulang yang dapat merangkum grafik dan konten, sehingga dapat digambar di beberapa halaman atau di lokasi berbeda dalam dokumen PDF.
 
 ### Bagaimana cara mengubah ukuran gambar di XForm?
- Anda dapat menyesuaikan ukuran dengan memodifikasi parameter di dalam`ConcatenateMatrix` operator, yang mengatur skala konten yang digambar.
+Anda dapat menyesuaikan ukuran dengan memodifikasi parameter di dalam `ConcatenateMatrix` operator, yang mengatur skala konten yang digambar.
 
 ### Bisakah saya menambahkan teks beserta gambar di XForm?
 Ya! Anda juga dapat menambahkan teks menggunakan operator teks yang disediakan oleh pustaka Aspose.PDF, dengan pendekatan yang sama seperti menambahkan gambar.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?
- Meskipun Aspose.PDF menawarkan uji coba gratis, namun memerlukan lisensi untuk penggunaan lebih lanjut setelah masa uji coba. Anda dapat menjelajahi opsi lisensi[Di Sini](https://purchase.aspose.com/buy).
+Meskipun Aspose.PDF menawarkan uji coba gratis, namun memerlukan lisensi untuk penggunaan lebih lanjut setelah masa uji coba. Anda dapat menjelajahi opsi lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci?
- Anda dapat menemukan dokumentasi Aspose.PDF lengkap[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi Aspose.PDF lengkap [Di Sini](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

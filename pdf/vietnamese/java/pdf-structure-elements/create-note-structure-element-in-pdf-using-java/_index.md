@@ -1,14 +1,16 @@
 ---
-title: Tạo phần tử cấu trúc ghi chú trong PDF bằng Java
-linktitle: Tạo phần tử cấu trúc ghi chú trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách tạo các thành phần cấu trúc ghi chú tương tác trong PDF bằng Java với Aspose.PDF cho Java. Cải thiện tài liệu của bạn bằng các ghi chú thông tin.
-weight: 12
-url: /vi/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-java/
+"description": "Tìm hiểu cách tạo các thành phần cấu trúc ghi chú tương tác trong PDF bằng Java với Aspose.PDF cho Java. Cải thiện tài liệu của bạn bằng các ghi chú thông tin."
+"linktitle": "Tạo phần tử cấu trúc ghi chú trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Tạo phần tử cấu trúc ghi chú trong PDF bằng Java"
+"url": "/vi/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo phần tử cấu trúc ghi chú trong PDF bằng Java
@@ -23,7 +25,7 @@ Trong thế giới tài liệu kỹ thuật số, PDF thống trị tối cao. C
 Trước khi đi sâu vào mã, hãy đảm bảo rằng chúng ta đã thiết lập mọi thứ:
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt môi trường phát triển Java trên hệ thống của mình.
--  Aspose.PDF cho Java: Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Java: Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Hướng dẫn từng bước
 
@@ -58,7 +60,7 @@ Page page = pdfDocument.getPages().add();
 Bây giờ, hãy thêm một phần tử cấu trúc ghi chú vào tài liệu PDF của chúng ta. Đây sẽ là phần tử tương tác mà người dùng có thể nhấp vào để xem ghi chú.
 
 ```java
-//Thêm một phần tử cấu trúc ghi chú vào trang
+// Thêm một phần tử cấu trúc ghi chú vào trang
 com.aspose.pdf.annotations.Note annotation = new com.aspose.pdf.annotations.Note(page, new com.aspose.pdf.Rectangle(100, 100, 200, 200));
 ```
 
@@ -109,9 +111,11 @@ Bạn có thể chỉ định tọa độ và kích thước của ghi chú khi 
 ### Tôi có thể đính kèm tập tin vào ghi chú không?
 
 Có, bạn có thể đính kèm tệp vào ghi chú, cung cấp thêm tài nguyên hoặc tham khảo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

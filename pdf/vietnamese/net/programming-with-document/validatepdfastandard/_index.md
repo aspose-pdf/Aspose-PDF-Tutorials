@@ -1,14 +1,16 @@
 ---
-title: Xác thực các tập tin PDF Một tiêu chuẩn
-linktitle: Xác thực PDF A Standard
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xác thực tệp PDF theo tiêu chuẩn PDF/A-1a bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này.
-weight: 390
-url: /vi/net/programming-with-document/validatepdfastandard/
+"description": "Tìm hiểu cách xác thực tệp PDF theo tiêu chuẩn PDF/A-1a bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này."
+"linktitle": "Xác thực PDF A Standard"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xác thực các tập tin PDF Một tiêu chuẩn"
+"url": "/vi/net/programming-with-document/validatepdfastandard/"
+"weight": 390
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xác thực các tập tin PDF Một tiêu chuẩn
@@ -22,7 +24,7 @@ Trong thế giới kỹ thuật số ngày nay, việc đảm bảo rằng các 
 Trước khi đi sâu vào mã, bạn cần phải có một số điều kiện tiên quyết sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển của chúng tôi.
-2.  Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -44,18 +46,18 @@ Bước đầu tiên trong quy trình xác thực của chúng tôi là thiết 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi các tệp PDF của bạn được lưu trữ. Đây có thể là đường dẫn cục bộ hoặc đường dẫn mạng, tùy thuộc vào nơi lưu trữ tệp của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi các tệp PDF của bạn được lưu trữ. Đây có thể là đường dẫn cục bộ hoặc đường dẫn mạng, tùy thuộc vào nơi lưu trữ tệp của bạn.
 
 ## Bước 2: Mở Tài liệu PDF
 
- Bây giờ chúng ta đã thiết lập thư mục tài liệu, bước tiếp theo là mở tài liệu PDF mà chúng ta muốn xác thực. Điều này được thực hiện bằng cách sử dụng`Document` lớp được cung cấp bởi Aspose.PDF.
+Bây giờ chúng ta đã thiết lập thư mục tài liệu, bước tiếp theo là mở tài liệu PDF mà chúng ta muốn xác thực. Điều này được thực hiện bằng cách sử dụng `Document` lớp được cung cấp bởi Aspose.PDF.
 
 ```csharp
 // Mở tài liệu
 Document pdfDocument = new Document(dataDir + "ValidatePDFAStandard.pdf");
 ```
 
- Trong dòng này, chúng ta tạo một phiên bản mới của`Document` class và truyền đường dẫn đến tệp PDF mà chúng ta muốn xác thực. Đảm bảo rằng tên tệp khớp với tên bạn có trong thư mục của mình.
+Trong dòng này, chúng ta tạo một phiên bản mới của `Document` class và truyền đường dẫn đến tệp PDF mà chúng ta muốn xác thực. Đảm bảo rằng tên tệp khớp với tên bạn có trong thư mục của mình.
 
 ## Bước 3: Xác thực tài liệu PDF
 
@@ -66,7 +68,7 @@ Khi tài liệu PDF đã mở, chúng ta có thể tiến hành xác thực nó 
 pdfDocument.Validate(dataDir + "validation-result-A1A.xml", PdfFormat.PDF_A_1A);
 ```
 
-Trong bước này, chúng ta gọi`Validate` phương pháp của chúng tôi`pdfDocument` đối tượng. Chúng tôi truyền hai tham số: đường dẫn nơi chúng tôi muốn lưu kết quả xác thực và định dạng PDF mà chúng tôi đang xác thực. Trong trường hợp này, chúng tôi đang xác thực`PdfFormat.PDF_A_1A`.
+Trong bước này, chúng ta gọi `Validate` phương pháp của chúng tôi `pdfDocument` đối tượng. Chúng tôi truyền hai tham số: đường dẫn nơi chúng tôi muốn lưu kết quả xác thực và định dạng PDF mà chúng tôi đang xác thực. Trong trường hợp này, chúng tôi đang xác thực `PdfFormat.PDF_A_1A`.
 
 ## Bước 4: Kiểm tra kết quả xác thực
 
@@ -90,13 +92,15 @@ Việc xác thực đảm bảo rằng tài liệu của bạn đáp ứng các 
 Có, Aspose.PDF cung cấp nhiều chức năng, bao gồm tạo, chỉnh sửa và chuyển đổi tài liệu PDF.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí từ [Trang web Aspose](https://releases.aspose.com/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

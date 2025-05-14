@@ -1,14 +1,16 @@
 ---
-title: การเปลี่ยนพื้นที่สีของเอกสาร PDF โดยใช้ Java
-linktitle: การเปลี่ยนพื้นที่สีของเอกสาร PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีเปลี่ยนพื้นที่สีของเอกสาร PDF โดยใช้ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด เพิ่มประสิทธิภาพ PDF ของคุณสำหรับการพิมพ์และการแสดง
-weight: 12
-url: /th/java/pdf-page-manipulation/change-color-space-of-pdf-document-using-java/
+"description": "เรียนรู้วิธีเปลี่ยนพื้นที่สีของเอกสาร PDF โดยใช้ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด เพิ่มประสิทธิภาพ PDF ของคุณสำหรับการพิมพ์และการแสดง"
+"linktitle": "การเปลี่ยนพื้นที่สีของเอกสาร PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "การเปลี่ยนพื้นที่สีของเอกสาร PDF โดยใช้ Java"
+"url": "/th/java/pdf-page-manipulation/change-color-space-of-pdf-document-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเปลี่ยนพื้นที่สีของเอกสาร PDF โดยใช้ Java
@@ -32,7 +34,7 @@ url: /th/java/pdf-page-manipulation/change-color-space-of-pdf-document-using-jav
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) ที่คุณเลือก
 - Aspose.PDF สำหรับไลบรารี Java
 
- คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF ได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/)อย่าลืมเพิ่มลงในโปรเจ็กต์ Java ของคุณ
+คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF ได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/)อย่าลืมเพิ่มลงในโปรเจ็กต์ Java ของคุณ
 
 ## คำแนะนำทีละขั้นตอน
 
@@ -49,7 +51,7 @@ url: /th/java/pdf-page-manipulation/change-color-space-of-pdf-document-using-jav
 Document pdfDocument = new Document("input.pdf");
 ```
 
- แทนที่`"input.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
+แทนที่ `"input.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
 
 ### การเปลี่ยนแปลงพื้นที่สี
 
@@ -71,7 +73,7 @@ pdfDocument.convert(ColorSpaceType.Cmyk);
 pdfDocument.save("output.pdf");
 ```
 
- แทนที่`"output.pdf"` พร้อมชื่อที่ต้องการให้กับไฟล์ PDF ที่คุณแก้ไข
+แทนที่ `"output.pdf"` พร้อมชื่อที่ต้องการให้กับไฟล์ PDF ที่คุณแก้ไข
 
 ## ตัวอย่างโค้ด
 
@@ -103,7 +105,7 @@ public class PDFColorSpaceConverter {
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสาร
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสาร
 
 ### ฉันสามารถเปลี่ยนช่องสีเป็น RGB แทน CMYK ได้หรือไม่?
 
@@ -120,9 +122,11 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 ### ฉันสามารถแปลงเอกสาร PDF หลายฉบับในชุดเดียวได้ไหม
 
 ใช่ คุณสามารถทำการประมวลผลเอกสาร PDF หลายฉบับแบบแบตช์อัตโนมัติได้โดยใช้ Aspose.PDF สำหรับ Java
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

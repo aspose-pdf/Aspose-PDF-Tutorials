@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ों में HTML क्रमबद्ध सूची जोड़ें
-linktitle: दस्तावेज़ों में HTMLOrdered सूची जोड़ें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में HTML क्रमबद्ध सूचियाँ जोड़ना सीखें। इस विस्तृत ट्यूटोरियल में चरण-दर-चरण निर्देश पाएँ।
-weight: 30
-url: /hi/net/programming-with-text/add-html-ordered-list-into-documents/
+"description": ".NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में HTML क्रमबद्ध सूचियाँ जोड़ना सीखें। इस विस्तृत ट्यूटोरियल में चरण-दर-चरण निर्देश पाएँ।"
+"linktitle": "दस्तावेज़ों में HTMLOrdered सूची जोड़ें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "दस्तावेज़ों में HTML क्रमबद्ध सूची जोड़ें"
+"url": "/hi/net/programming-with-text/add-html-ordered-list-into-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ों में HTML क्रमबद्ध सूची जोड़ें
@@ -22,9 +24,9 @@ url: /hi/net/programming-with-text/add-html-ordered-list-into-documents/
 इससे पहले कि हम PDF में हेरफेर करने की इस यात्रा पर आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास सब कुछ सही जगह पर है। यहाँ एक संक्षिप्त विवरण दिया गया है कि आपको क्या चाहिए:
 
 1. .NET डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके कंप्यूटर पर Visual Studio जैसा कोई IDE इंस्टॉल है। यह कोडिंग के लिए आपका प्लेग्राउंड होगा।
-2.  .NET लाइब्रेरी के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप आवश्यक फ़ाइलें पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/). 
+2. .NET लाइब्रेरी के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप आवश्यक फ़ाइलें पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/). 
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से कुछ परिचित होना लाभदायक होगा क्योंकि हम इसी भाषा में कोडिंग करेंगे।
-4.  दस्तावेज़ तक पहुंच: Aspose.PDF की विभिन्न कार्यात्मकताओं से परिचित होने के लिए, यह बहुत अच्छा है[.NET दस्तावेज़ीकरण के लिए Aspose.PDF](https://reference.aspose.com/pdf/net/) संदर्भ के लिए उपयोगी.
+4. दस्तावेज़ तक पहुंच: Aspose.PDF की विभिन्न कार्यात्मकताओं से परिचित होने के लिए, यह बहुत अच्छा है [.NET दस्तावेज़ीकरण के लिए Aspose.PDF](https://reference.aspose.com/pdf/net/) संदर्भ के लिए उपयोगी.
 
 हमारी पूर्व-आवश्यकताओं को पूरा करने के बाद, आइए हम अपने हाथों को गंदा करें!
 
@@ -44,7 +46,7 @@ url: /hi/net/programming-with-text/add-html-ordered-list-into-documents/
 
 ### आवश्यक नामस्थान आयात करें
 
- आपके`Program.cs`फ़ाइल में, सबसे ऊपर निम्नलिखित using निर्देश जोड़कर प्रारंभ करें:
+आपके `Program.cs` फ़ाइल में, सबसे ऊपर निम्नलिखित using निर्देश जोड़कर प्रारंभ करें:
 
 ```csharp
 using System;
@@ -64,10 +66,10 @@ HTML क्रमबद्ध सूची के साथ PDF बनाने 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// आउटपुट दस्तावेज़ का पथ.
+// आउटपुट दस्तावेज़ का पथ.  
 string outFile = dataDir + "AddHTMLOrderedListIntoDocuments_out.pdf";
 
-// दस्तावेज़ ऑब्जेक्ट को इंस्टैंशिएट करें
+// दस्तावेज़ ऑब्जेक्ट को इंस्टैंशिएट करें  
 Document doc = new Document();
 ```
 
@@ -75,21 +77,21 @@ Document doc = new Document();
 
 ## चरण 2: HTML फ़्रैगमेंट बनाएँ
 
- इसके बाद, हम एक बनाएंगे`HtmlFragment` वह ऑब्जेक्ट जिसमें हमारा HTML शामिल है। यहाँ हम कुछ टेक्स्ट के साथ एक क्रमबद्ध सूची शामिल करेंगे।
+इसके बाद, हम एक बनाएंगे `HtmlFragment` वह ऑब्जेक्ट जिसमें हमारा HTML शामिल है। यहाँ हम कुछ टेक्स्ट के साथ एक क्रमबद्ध सूची शामिल करेंगे।
 
 ```csharp
-// HtmlFragment ऑब्जेक्ट को संगत HTML फ़्रैगमेंट के साथ इंस्टैंशिएट करें
+// HtmlFragment ऑब्जेक्ट को संगत HTML फ़्रैगमेंट के साथ इंस्टैंशिएट करें  
 HtmlFragment htmlFragment = new HtmlFragment("<body style='line-height: 100px;'><ul><li>First</li><li>Second</li><li>Third</li><li>Fourth</li><li>Fifth</li></ul>Text after the list.<br/>Next line<br/>Last line</body>");
 ```
 
-यहाँ हमने एक HTML फ़्रैगमेंट बनाया है जिसमें आइटम की एक सूची शामिल है। HTML को एक स्ट्रिंग के रूप में संग्रहीत किया जाता है, जिससे इसे हेरफेर करना आसान हो जाता है।
+यहाँ हमने एक HTML फ़्रैगमेंट बनाया है जिसमें आइटम की एक सूची शामिल है। HTML को स्ट्रिंग के रूप में संग्रहीत किया जाता है, जिससे इसे हेरफेर करना आसान हो जाता है।
 
 ## चरण 3: दस्तावेज़ में एक पृष्ठ जोड़ें
 
 अब, हमें अपने PDF दस्तावेज़ में एक पेज जोड़ना होगा। हर PDF में पेज होने चाहिए, और हम भी इससे अलग नहीं हैं!
 
 ```csharp
-//पेज संग्रह में पेज जोड़ें
+// पेज संग्रह में पेज जोड़ें  
 Page page = doc.Pages.Add();
 ```
 
@@ -100,7 +102,7 @@ Page page = doc.Pages.Add();
 यहीं पर जादू होता है! अब हम अपने पहले से परिभाषित HTML अंश को उस पेज में जोड़ेंगे जिसे हमने अभी बनाया है।
 
 ```csharp
-// पेज के अंदर HtmlFragment जोड़ें
+// पेज के अंदर HtmlFragment जोड़ें  
 page.Paragraphs.Add(htmlFragment);
 ```
 
@@ -111,11 +113,11 @@ page.Paragraphs.Add(htmlFragment);
 हमारी सारी सामग्री तैयार हो जाने के बाद, अंतिम चरण दस्तावेज़ को डिस्क पर सहेजना है।
 
 ```csharp
-// परिणामी PDF फ़ाइल सहेजें
+// परिणामी PDF फ़ाइल सहेजें  
 doc.Save(outFile);
 ```
 
- यहाँ हम कहते हैं`Save` हमारे दस्तावेज़ ऑब्जेक्ट पर विधि, आउटपुट फ़ाइल पथ निर्दिष्ट करती है जहां हमारा नया पीडीएफ रहेगा।
+यहाँ हम कहते हैं `Save` हमारे दस्तावेज़ ऑब्जेक्ट पर विधि, आउटपुट फ़ाइल पथ निर्दिष्ट करती है जहां हमारा नया पीडीएफ रहेगा।
 
 ## निष्कर्ष
 
@@ -136,10 +138,12 @@ doc.Save(outFile);
 नहीं, एक बार इंस्टॉल हो जाने पर लाइब्रेरी ऑफलाइन संचालित होती है।
 
 ### मैं Aspose.PDF के लिए समर्थन कहां पा सकता हूं?
- आप सहायता प्राप्त कर सकते हैं और अन्य उपयोगकर्ताओं के साथ बातचीत कर सकते हैं[Aspose समर्थन मंच](https://forum.aspose.com/c/pdf/10).
+आप सहायता प्राप्त कर सकते हैं और अन्य उपयोगकर्ताओं के साथ बातचीत कर सकते हैं [Aspose समर्थन मंच](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

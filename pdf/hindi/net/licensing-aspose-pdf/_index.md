@@ -1,13 +1,15 @@
 ---
-title: .NET के लिए Aspose.PDF का लाइसेंस
-linktitle: .NET के लिए Aspose.PDF का लाइसेंस
-weight: 21
-url: /hi/net/licensing-aspose-pdf/
-description: .NET के लिए Aspose.PDF का लाइसेंसिंग ट्यूटोरियल आपको .NET के लिए Aspose.PDF का उपयोग करने के लिए लाइसेंस को प्रबंधित करने में मार्गदर्शन करता है, जिसमें लाइसेंस को लोड करना और लागू करना शामिल है।
+"description": ".NET के लिए Aspose.PDF का लाइसेंसिंग ट्यूटोरियल आपको .NET के लिए Aspose.PDF का उपयोग करने के लिए लाइसेंस को प्रबंधित करने में मार्गदर्शन करता है, जिसमें लाइसेंस को लोड करना और लागू करना शामिल है।"
+"linktitle": ".NET के लिए Aspose.PDF का लाइसेंस"
+"title": ".NET के लिए Aspose.PDF का लाइसेंस"
+"url": "/hi/net/licensing-aspose-pdf/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET के लिए Aspose.PDF का लाइसेंस
@@ -18,13 +20,15 @@ description: .NET के लिए Aspose.PDF का लाइसेंसिं
 | शीर्षक | विवरण |
 | --- | --- | 
 | [पीडीएफ फाइल में मीटर्ड लाइसेंस कुंजी कॉन्फ़िगर करें](./configure-metered-license/) | इस व्यापक, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके अपनी PDF फ़ाइलों में मीटर्ड लाइसेंस कुंजियों को कॉन्फ़िगर करना सीखें। |  
-| [फ़ाइल से लाइसेंस लोड करें](./load-license-from-file/) | इस व्यापक गाइड के साथ .NET के लिए Aspose.PDF में फ़ाइल से लाइसेंस लोड करना सीखें। अपने लाइसेंस को सही तरीके से सेट करके पूरी कार्यक्षमता सुनिश्चित करें। |  
+| [फ़ाइल से लाइसेंस लोड करें](./load-license-from-file/) | इस व्यापक गाइड के साथ .NET के लिए Aspose.PDF में फ़ाइल से लाइसेंस लोड करना सीखें। अपने लाइसेंस को सही तरीके से सेट करके पूर्ण कार्यक्षमता सुनिश्चित करें। |  
 | [स्ट्रीम ऑब्जेक्ट से लाइसेंस लोड करें](./load-license-from-stream-object/) | इस व्यापक, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF में स्ट्रीम ऑब्जेक्ट से लाइसेंस लोड करना सीखें। |  
 | [पीडीएफ फाइल में सुरक्षित लाइसेंस](./secure-license/) | इस चरण-दर-चरण मार्गदर्शिका के साथ PDF फ़ाइल में अपने Aspose.PDF लाइसेंस को सुरक्षित करने का तरीका जानें। उन्नत सुविधाओं को अनलॉक करें और आसानी से अनुपालन सुनिश्चित करें। |  
 | [एम्बेडेड संसाधन का उपयोग करके लाइसेंस सेट करें](./set-license-using-embedded-resource/) | इस व्यापक गाइड के साथ .NET के लिए Aspose.PDF की शक्ति को अनलॉक करें। लाइसेंस सेट करना, PDF में हेरफेर करना और बहुत कुछ सीखें। |  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

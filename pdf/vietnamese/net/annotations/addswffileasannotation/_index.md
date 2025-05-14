@@ -1,14 +1,16 @@
 ---
-title: Thêm tệp Swf dưới dạng chú thích PDF
-linktitle: Thêm tệp Swf làm chú thích
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm tệp SWF làm chú thích PDF bằng Aspose.PDF cho .NET. Tăng cường PDF của bạn bằng nội dung đa phương tiện tương tác thông qua hướng dẫn chi tiết này.
-weight: 30
-url: /vi/net/annotations/addswffileasannotation/
+"description": "Tìm hiểu cách thêm tệp SWF làm chú thích PDF bằng Aspose.PDF cho .NET. Tăng cường PDF của bạn bằng nội dung đa phương tiện tương tác thông qua hướng dẫn chi tiết này."
+"linktitle": "Thêm tệp Swf làm chú thích"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm tệp Swf dưới dạng chú thích PDF"
+"url": "/vi/net/annotations/addswffileasannotation/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm tệp Swf dưới dạng chú thích PDF
@@ -19,9 +21,9 @@ Bạn đã bao giờ muốn thêm nội dung đa phương tiện tương tác nh
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào hướng dẫn từng bước, chúng ta hãy cùng tìm hiểu những điều cần thiết mà bạn cần để bắt đầu:
+Trước khi đi sâu vào hướng dẫn từng bước, chúng ta hãy cùng tìm hiểu những điều cần thiết để bắt đầu:
 
-- Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho .NET. Nếu bạn chưa có, bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho .NET. Nếu bạn chưa có, bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/).
 - Môi trường phát triển: Môi trường phát triển .NET như Visual Studio được khuyến nghị cho hướng dẫn này.
 - Tệp SWF: Bạn sẽ cần một tệp SWF mà bạn muốn nhúng vào PDF.
 - Tài liệu PDF: Chuẩn bị sẵn một tài liệu PDF mà bạn muốn thêm tệp SWF làm chú thích.
@@ -49,17 +51,17 @@ Sau khi nhập các gói này, bạn đã sẵn sàng bắt đầu làm việc v
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục chứa các tệp PDF và SWF của bạn. Bước này đảm bảo rằng mã của bạn biết chính xác nơi tìm các tệp cần thiết.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục chứa các tệp PDF và SWF của bạn. Bước này đảm bảo rằng mã của bạn biết chính xác vị trí tìm các tệp cần thiết.
 
 ## Bước 2: Mở Tài liệu PDF
 
- Tiếp theo, hãy mở tài liệu PDF mà bạn muốn thêm tệp SWF làm chú thích. Điều này được thực hiện bằng cách tạo một phiên bản của`Document` lớp và truyền đường dẫn tệp PDF của bạn tới lớp đó.
+Tiếp theo, hãy mở tài liệu PDF mà bạn muốn thêm tệp SWF làm chú thích. Điều này được thực hiện bằng cách tạo một phiên bản của `Document` lớp và truyền đường dẫn tệp PDF của bạn tới lớp đó.
 
 ```csharp
 Document doc = new Document(dataDir + "AddSwfFileAsAnnotation.pdf");
 ```
 
- Trong bước này, thay thế`"AddSwfFileAsAnnotation.pdf"` với tên thực tế của tệp PDF của bạn.`Document` đối tượng bây giờ đại diện cho tệp PDF mà bạn sẽ làm việc.
+Trong bước này, thay thế `"AddSwfFileAsAnnotation.pdf"` với tên thực tế của tệp PDF của bạn. `Document` đối tượng bây giờ đại diện cho tệp PDF mà bạn sẽ làm việc.
 
 ## Bước 3: Truy cập trang mục tiêu
 
@@ -73,13 +75,13 @@ Dòng mã này truy cập trang đầu tiên của tài liệu PDF. Nếu bạn 
 
 ## Bước 4: Tạo chú thích màn hình
 
- Đây là nơi phép thuật xảy ra! Chúng tôi sẽ tạo ra một`ScreenAnnotation` đối tượng và truyền cho nó tham chiếu trang, kích thước của hình chữ nhật chú thích và đường dẫn đến tệp SWF của bạn.
+Đây là nơi phép thuật xảy ra! Chúng tôi sẽ tạo ra một `ScreenAnnotation` đối tượng và truyền cho nó tham chiếu trang, kích thước của hình chữ nhật chú thích và đường dẫn đến tệp SWF của bạn.
 
 ```csharp
 ScreenAnnotation annotation = new ScreenAnnotation(page, new Aspose.Pdf.Rectangle(0, 400, 600, 700), dataDir + "input.swf");
 ```
 
- Trong bước này,`Rectangle` các tham số xác định vị trí và kích thước của chú thích trên trang (trái, dưới, phải, trên). Bạn có thể điều chỉnh các giá trị này để phù hợp với thiết kế của mình.`input.swf` là tệp SWF bạn muốn nhúng.
+Trong bước này, `Rectangle` các tham số xác định vị trí và kích thước của chú thích trên trang (trái, dưới, phải, trên). Bạn có thể điều chỉnh các giá trị này để phù hợp với thiết kế của mình. `input.swf` là tệp SWF bạn muốn nhúng.
 
 ## Bước 5: Thêm chú thích vào trang
 
@@ -117,16 +119,18 @@ Có, Aspose.PDF for .NET hỗ trợ thêm nhiều định dạng đa phương ti
 Chắc chắn rồi! Bạn có thể thêm tệp SWF vào nhiều trang bằng cách lặp lại quy trình cho từng trang.
 
 ### Làm thế nào tôi có thể kiểm soát việc phát lại tệp SWF trong PDF?
- Bạn có thể thiết lập các thuộc tính bổ sung trên`ScreenAnnotation` đối tượng để kiểm soát các tùy chọn phát lại, chẳng hạn như phát tự động và lặp lại.
+Bạn có thể thiết lập các thuộc tính bổ sung trên `ScreenAnnotation` đối tượng để kiểm soát các tùy chọn phát lại, chẳng hạn như phát tự động và lặp lại.
 
 ### Có giới hạn nào về kích thước của tệp SWF có thể nhúng không?
 Kích thước của tệp SWF có thể ảnh hưởng đến kích thước tổng thể của tài liệu PDF, nhưng Aspose.PDF không áp đặt giới hạn cụ thể nào. Tuy nhiên, các tệp lớn hơn có thể ảnh hưởng đến hiệu suất.
 
 ### Tôi có thể xóa hoặc thay thế chú thích SWF hiện có trong PDF không?
- Có, bạn có thể xóa hoặc thay thế chú thích bằng cách truy cập`Annotations` thu thập một trang và sử dụng các phương pháp thích hợp.
+Có, bạn có thể xóa hoặc thay thế chú thích bằng cách truy cập `Annotations` thu thập một trang và sử dụng các phương pháp thích hợp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

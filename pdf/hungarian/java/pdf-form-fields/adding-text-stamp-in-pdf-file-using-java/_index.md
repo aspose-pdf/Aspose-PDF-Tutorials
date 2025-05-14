@@ -1,37 +1,39 @@
 ---
-title: Szöveges bélyegző hozzáadása PDF fájlhoz Java használatával
-linktitle: Szöveges bélyegző hozzáadása PDF fájlhoz Java használatával
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan adhat szövegbélyegeket PDF-fájlokhoz Java használatával az Aspose.PDF for Java segítségével. Könnyedén testreszabhatja PDF-dokumentumait.
-weight: 10
-url: /hu/java/pdf-form-fields/adding-text-stamp-in-pdf-file-using-java/
+"description": "Tanulja meg, hogyan adhat hozzá szövegbélyegzőket PDF fájlokhoz Java használatával az Aspose.PDF for Java segítségével. Szabja testre PDF dokumentumait könnyedén."
+"linktitle": "Szövegbélyegző hozzáadása PDF fájlhoz Java használatával"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "Szövegbélyegző hozzáadása PDF fájlhoz Java használatával"
+"url": "/hu/java/pdf-form-fields/adding-text-stamp-in-pdf-file-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szöveges bélyegző hozzáadása PDF fájlhoz Java használatával
+# Szövegbélyegző hozzáadása PDF fájlhoz Java használatával
 
 
-## Bevezetés a szövegbélyegző hozzáadása PDF-fájlba Java használatával
+## Bevezetés a szövegbélyegző PDF fájlokba való hozzáadásába Java használatával
 
-A digitális dokumentumok világában a PDF fájlok jelentős szerepet játszanak. Széles körben használják az információk megosztására és a tartalom integritásának megőrzésére. Sok esetben elengedhetetlenné válik további információk, például bélyegzők, vízjelek vagy megjegyzések hozzáadása a PDF-fájlhoz. Ebben a cikkben megvizsgáljuk, hogyan adhatunk szövegbélyeget egy PDF-fájlhoz Java programozással az Aspose.PDF for Java segítségével.
+digitális dokumentumok világában a PDF fájlok jelentős szerepet játszanak. Széles körben használják őket információk megosztására és a tartalom integritásának megőrzésére. Sok esetben elengedhetetlen további információk hozzáadása a PDF fájlokhoz, például bélyegzők, vízjelek vagy megjegyzések. Ebben a cikkben azt vizsgáljuk meg, hogyan adhatunk hozzá szöveges bélyegzőt egy PDF fájlhoz Java programozással az Aspose.PDF for Java segítségével.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódolási részbe, győződjünk meg arról, hogy mindennel rendelkezik, amire szüksége van:
+Mielőtt belevágnánk a kódolásba, győződjünk meg róla, hogy minden szükséges dolog megvan:
 
-- Java Development Kit (JDK) telepítve a rendszerére.
-- Integrált fejlesztőkörnyezet (IDE) Java-hoz (Eclipse, IntelliJ IDEA stb.).
--  Aspose.PDF a Java könyvtárhoz. Letöltheti[itt](https://releases.aspose.com/pdf/java/).
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Integrált fejlesztői környezet (IDE) Java-hoz (Eclipse, IntelliJ IDEA, stb.).
+- Aspose.PDF a Java könyvtárhoz. Letöltheted [itt](https://releases.aspose.com/pdf/java/).
 
-## A Java projekt beállítása
+## Java projekt beállítása
 
-1. Hozzon létre egy új Java-projektet a kívánt IDE-ben.
-2. Adja hozzá az Aspose.PDF for Java könyvtárat a projekt felépítési útvonalához.
+1. Hozz létre egy új Java projektet a kívánt IDE-ben.
+2. Add hozzá az Aspose.PDF for Java könyvtárat a projekted építési útvonalához.
 
-## PDF dokumentum készítése
+## PDF dokumentum létrehozása
 
 Kezdjük egy új PDF dokumentum létrehozásával az Aspose.PDF for Java használatával.
 
@@ -40,10 +42,10 @@ import com.aspose.pdf.Document;
 
 public class Main {
     public static void main(String[] args) {
-        // Hozzon létre egy új PDF dokumentumot
+        // Új PDF dokumentum létrehozása
         Document pdfDocument = new Document();
         
-        // Adjon hozzá egy oldalt a dokumentumhoz
+        // Oldal hozzáadása a dokumentumhoz
         pdfDocument.getPages().add();
         
         // Mentse el a dokumentumot
@@ -52,11 +54,11 @@ public class Main {
 }
 ```
 
-Ebben a kódrészletben importáljuk a szükséges osztályokat az Aspose.PDF könyvtárból, létrehozunk egy új PDF dokumentumot, hozzáadunk egy oldalt, és elmentjük "output.pdf" néven.
+Ebben a kódrészletben importáljuk a szükséges osztályokat az Aspose.PDF könyvtárból, létrehozunk egy új PDF dokumentumot, hozzáadunk egy oldalt, és elmentjük „output.pdf” néven.
 
-## Szöveges bélyegző hozzáadása
+## Szövegbélyegző hozzáadása
 
-Most folytassuk a szövegbélyegző hozzáadásával PDF-dokumentumunkhoz. Szöveges bélyegzővel meg lehet jelölni a dokumentumot fontos információkkal, például vázlatos vízjellel vagy bizalmas címkével.
+Most pedig adjunk hozzá egy szöveges bélyegzőt a PDF dokumentumunkhoz. A szöveges bélyegző segítségével fontos információkkal jelölhetjük meg a dokumentumot, például egy vázlat vízjellel vagy egy bizalmas címkével.
 
 ```java
 import com.aspose.pdf.*;
@@ -64,19 +66,19 @@ import com.aspose.pdf.facades.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Hozzon létre egy új PDF dokumentumot
+        // Új PDF dokumentum létrehozása
         Document pdfDocument = new Document();
         
-        // Adjon hozzá egy oldalt a dokumentumhoz
+        // Oldal hozzáadása a dokumentumhoz
         pdfDocument.getPages().add();
         
-        // Hozzon létre egy szövegbélyegző objektumot
+        // TextStamp objektum létrehozása
         TextStamp textStamp = new TextStamp("Confidential");
         textStamp.getTextState().setFont(FontRepository.findFont("Arial"));
         textStamp.getTextState().setFontSize(18);
         textStamp.getTextState().setForegroundColor(Color.getRed());
         
-        // Adja hozzá a szövegbélyeget az oldalhoz
+        // Szövegbélyegző hozzáadása az oldalhoz
         pdfDocument.getPages().get_Item(1).addStamp(textStamp);
         
         // Mentse el a dokumentumot
@@ -85,47 +87,49 @@ public class Main {
 }
 ```
 
- Ebben a kódban először létrehozunk egy`TextStamp` objektum a "Bizalmas" szöveggel. Testreszabjuk a betűtípust, a betűméretet és az előtér színét. Ezután hozzáadjuk a szövegbélyeget PDF dokumentumunk első oldalához. Végül elmentjük a dokumentumot "bélyegzett_dokumentum.pdf" néven.
+Ebben a kódban először létrehozunk egy `TextStamp` objektumot a „Bizalmas” szöveggel. Testre szabjuk a betűtípusát, betűméretét és előtérszínét. Ezután hozzáadjuk a szövegbélyegzőt a PDF dokumentum első oldalához. Végül elmentjük a dokumentumot „bélyegzett_dokumentum.pdf” néven.
 
 ## Következtetés
 
-Ebből a cikkből megtudtuk, hogyan adhatunk szövegbélyeget egy PDF-fájlhoz Java és Aspose.PDF for Java használatával. Ez különféle célokra hasznos lehet, például dokumentumok címkézésére, piszkozatként való megjelölésére vagy fontos megjegyzések hozzáadására. Az Aspose.PDF for Java hatékony és rugalmas módot kínál a PDF-fájlok programozott kezelésére, így teljes ellenőrzést biztosít a tartalom felett.
+Ebben a cikkben megtanultuk, hogyan adhatunk hozzá szövegbélyegzőt egy PDF fájlhoz Java és az Aspose.PDF for Java használatával. Ez különféle célokra lehet hasznos, például dokumentumok címkézésére, piszkozatként való megjelölésére vagy fontos megjegyzések hozzáadására. Az Aspose.PDF for Java hatékony és rugalmas módot kínál a PDF fájlok programozott kezelésére, teljes kontrollt biztosítva a tartalmuk felett.
 
-Most már birtokában van a tudásnak és az eszközöknek ahhoz, hogy PDF-dokumentumait szövegbélyegzőkkel javítsa Java nyelven. Kísérletezzen különböző szövegekkel, betűtípusokkal és színekkel, hogy sajátos igényeinek megfelelő bélyegzőket hozzon létre.
+Most már rendelkezik a szükséges tudással és eszközökkel ahhoz, hogy PDF-dokumentumait Java nyelven készült szövegbélyegzőkkel gazdagítsa. Kísérletezzen különböző szövegekkel, betűtípusokkal és színekkel, hogy olyan bélyegzőket hozzon létre, amelyek megfelelnek az Ön igényeinek.
 
 ## GYIK
 
-### Hogyan változtathatom meg a szövegbélyegző helyét a PDF-ben?
+### Hogyan tudom megváltoztatni a szövegbélyegző pozícióját a PDF-ben?
 
- Ha módosítani szeretné a szövegbélyegző helyét a PDF-ben, beállíthatja azt`XIndent` és`YIndent` tulajdonságait. Ezek a tulajdonságok határozzák meg a bélyeg vízszintes és függőleges helyzetét az oldalon.
+A szövegbélyegző PDF-ben való pozíciójának módosításához beállíthatja annak `XIndent` és `YIndent` tulajdonságok. Ezek a tulajdonságok határozzák meg a bélyegző vízszintes és függőleges helyzetét az oldalon.
 
 ```java
 textStamp.setXIndent(100);
 textStamp.setYIndent(200);
 ```
 
-### Hozzáadhatok egyéni képeket bélyegként a szöveg mellett?
+### Hozzáadhatok egyéni képeket bélyegzőként a szöveg mellett?
 
- Igen, az Aspose.PDF for Java használatával egyéni képeket is hozzáadhat bélyegzőként a szöveg mellett. Létrehozhat egy`ImageStamp`és testreszabhatja a képfájljával.
+Igen, az Aspose.PDF for Java segítségével szöveg mellett egyéni képeket is hozzáadhat bélyegzőként. Létrehozhat egy `ImageStamp` és szabd testre a képfájloddal.
 
-### Ingyenesen használható az Aspose.PDF for Java?
+### Ingyenesen használható az Aspose.PDF Java-hoz?
 
-Az Aspose.PDF for Java egy kereskedelmi célú könyvtár, és éles környezetben való használatához érvényes licenc szükséges. Próba módban azonban ingyenesen kipróbálhatja.
+Az Aspose.PDF for Java egy kereskedelmi célú könyvtár, amelynek éles környezetben való használatához érvényes licenc szükséges. Próbaverzióban azonban ingyenesen kipróbálható.
 
-### Hogyan forgathatom el a szövegbélyeget a PDF-ben?
+### Hogyan tudom elforgatni a szövegbélyegzőt a PDF-ben?
 
- A szövegbélyegző elforgatásához a PDF-ben használhatja a`setRotate` módszere a`TextStamp` osztály. Például a bélyegző 45 fokkal történő elforgatásához:
+A szövegbélyegző PDF-ben való elforgatásához használhatja a `setRotate` a módszer `TextStamp` osztály. Például a bélyegző 45 fokkal történő elforgatásához:
 
 ```java
 textStamp.setRotation(45);
 ```
 
-### Hol találok további dokumentációt és példákat az Aspose.PDF for Java fájlhoz?
+### Hol találok további dokumentációt és példákat az Aspose.PDF for Java-hoz?
 
- Az Aspose.PDF for Java fájlhoz átfogó dokumentációt és példákat találhat a dokumentációs webhelyen:[Aspose.PDF a Java dokumentációhoz](https://reference.aspose.com/pdf/java/).
+Az Aspose.PDF for Java fájl átfogó dokumentációját és példáit a dokumentációs weboldalon találja: [Aspose.PDF Java dokumentációhoz](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

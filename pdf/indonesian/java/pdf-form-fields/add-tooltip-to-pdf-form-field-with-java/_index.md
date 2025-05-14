@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Tooltip ke Bidang Formulir PDF dengan Java
-linktitle: Tambahkan Tooltip ke Bidang Formulir PDF dengan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari Cara Menambahkan Tooltips ke Kolom Formulir PDF dengan Java. Panduan langkah demi langkah menggunakan Aspose.PDF untuk API Java.
-weight: 11
-url: /id/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
+"description": "Pelajari Cara Menambahkan Tooltips ke Kolom Formulir PDF dengan Java. Panduan langkah demi langkah menggunakan Aspose.PDF untuk API Java."
+"linktitle": "Tambahkan Tooltip ke Bidang Formulir PDF dengan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Tambahkan Tooltip ke Bidang Formulir PDF dengan Java"
+"url": "/id/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Tooltip ke Bidang Formulir PDF dengan Java
@@ -28,7 +30,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal
 - Lingkungan Pengembangan Terpadu (IDE) seperti Eclipse atau IntelliJ IDEA
--  Aspose.PDF untuk pustaka Java (Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF untuk pustaka Java (Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/)
 
 ## Menambahkan Ketergantungan
 
@@ -48,13 +50,13 @@ Document pdfDocument = new Document();
 Selanjutnya, mari tambahkan kolom formulir ke dokumen PDF kita. Anda dapat menambahkan berbagai jenis kolom formulir, seperti kolom teks, kotak centang, tombol radio, dan lainnya. Untuk contoh ini, kita akan menambahkan kolom teks.
 
 ```java
-//Kode Java untuk menambahkan kolom teks
+// Kode Java untuk menambahkan kolom teks
 TextField textField = new TextField(pdfDocument.getPages().get_Item(1), new Rectangle(100, 100, 200, 30));
 ```
 
 ## Menambahkan Tooltip ke Kolom Formulir
 
- Sekarang tibalah bagian yang penting—menambahkan tooltip ke kolom formulir kita. Kita dapat mengatur teks tooltip untuk kolom menggunakan`setTooltip` metode.
+Sekarang tibalah bagian yang penting—menambahkan tooltip ke kolom formulir kita. Kita dapat mengatur teks tooltip untuk kolom menggunakan `setTooltip` metode.
 
 ```java
 // Kode Java untuk menambahkan tooltip ke kolom teks
@@ -72,7 +74,7 @@ pdfDocument.save("sample.pdf");
 
 ## Menguji Tooltip
 
-Untuk memastikan tooltip berfungsi dengan benar, buka PDF yang dihasilkan di penampil PDF. Arahkan kursor ke kolom teks, dan Anda akan melihat pesan tooltip.
+Untuk memastikan bahwa tooltip berfungsi dengan benar, buka PDF yang dihasilkan dalam penampil PDF. Arahkan kursor ke kolom teks, dan Anda akan melihat pesan tooltip.
 
 ## Kesimpulan
 
@@ -99,9 +101,11 @@ Tooltip adalah fitur PDF standar dan didukung oleh sebagian besar penampil PDF m
 ### Bisakah saya menambahkan tooltip ke elemen nonformulir dalam PDF?
 
 Tidak, tooltip biasanya dikaitkan dengan kolom formulir dalam dokumen PDF. Jika Anda perlu menambahkan tooltip ke elemen nonformulir, Anda mungkin perlu mempelajari teknik penyuntingan PDF lainnya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

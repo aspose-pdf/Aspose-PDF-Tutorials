@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'de İllüstrasyon Yapı Elemanları
-linktitle: Java kullanarak PDF'de İllüstrasyon Yapı Elemanları
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF ile Java kullanarak PDF dosyalarında çizimler ve yapı öğelerinin nasıl oluşturulacağını öğrenin.
-weight: 14
-url: /tr/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/
+"description": "Aspose.PDF ile Java kullanarak PDF dosyalarında çizimler ve yapı öğelerinin nasıl oluşturulacağını öğrenin."
+"linktitle": "Java kullanarak PDF'de İllüstrasyon Yapı Elemanları"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'de İllüstrasyon Yapı Elemanları"
+"url": "/tr/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'de İllüstrasyon Yapı Elemanları
@@ -16,7 +18,7 @@ url: /tr/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-usin
 
 # Java kullanarak PDF'de İllüstrasyon Yapı Elemanları
 
-Bu adım adım kılavuzda, güçlü Aspose.PDF kütüphanesi sayesinde, Java kullanarak PDF dosyalarında illüstrasyon yapı öğeleri oluşturmanın büyüleyici dünyasına dalacağız. İster deneyimli bir geliştirici olun, ister PDF manipülasyonuna yeni adım atıyor olun, bu eğitim size başlamak için ihtiyaç duyduğunuz bilgi ve kaynak kodunu sağlayacaktır.
+Bu adım adım kılavuzda, güçlü Aspose.PDF kütüphanesi sayesinde Java kullanarak PDF dosyalarında illüstrasyon yapı öğeleri oluşturmanın büyüleyici dünyasına dalacağız. İster deneyimli bir geliştirici olun, ister PDF manipülasyonuna yeni adım atıyor olun, bu eğitim size başlamak için ihtiyaç duyduğunuz bilgi ve kaynak kodunu sağlayacaktır.
 
 ## giriiş
 
@@ -28,14 +30,14 @@ PDF çizim maceramıza başlamadan önce aşağıdaki ön koşulların mevcut ol
 
 - Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
 
--  Java için Aspose.PDF: Java için Aspose.PDF kitaplığını şu adresten indirin ve yükleyin:[Burada](https://releases.aspose.com/pdf/java/).
+- Java için Aspose.PDF: Java için Aspose.PDF kitaplığını şu adresten indirin ve yükleyin: [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Projenizi Kurma
 
 Şimdi başlamak için bir Java projesi ayarlayalım. Favori IDE'nizde yeni bir Java projesi oluşturun ve Aspose.PDF kütüphanesini projenizin sınıf yoluna ekleyin.
 
 ```java
-//Java projenize Aspose.PDF kütüphanesini ekleyin
+// Java projenize Aspose.PDF kütüphanesini ekleyin
 import com.aspose.pdf.Document;
 import com.aspose.pdf.Page;
 import com.aspose.pdf.Rectangle;
@@ -82,9 +84,9 @@ Document pdfDocument = new Document();
 // Belgeye bir sayfa ekle
 Page page = pdfDocument.getPages().add();
 
-//Bir resim yükle
+// Bir resim yükle
 com.aspose.pdf.Image image = new com.aspose.pdf.Image();
-image.setFile("logo.png"); // Görüntü dosyanızın yolu ile değiştirin
+image.setFile("logo.png"); // Görüntü dosyanızın yolunu kullanarak değiştirin
 
 // Görüntü boyutlarını ve konumunu ayarlayın
 image.setFixWidth(200);
@@ -102,7 +104,7 @@ pdfDocument.save("Illustration.pdf");
 
 Tebrikler! Java ve Aspose.PDF kullanarak PDF dosyalarında çizimler ve yapı öğeleri oluşturmayı öğrendiniz. Artık PDF belgelerinizi metin, resim ve daha fazlasıyla zenginleştirebilirsiniz.
 
- Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, lütfen şuraya göz atın:[Java belgeleri için Aspose.PDF](https://reference.aspose.com/pdf/java/) Daha detaylı bilgi için.
+Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, lütfen şuraya göz atın: [Java belgeleri için Aspose.PDF](https://reference.aspose.com/pdf/java/) Daha detaylı bilgi için.
 
 ## SSS
 
@@ -122,9 +124,11 @@ Tebrikler! Java ve Aspose.PDF kullanarak PDF dosyalarında çizimler ve yapı ö
    Çok sayıda örnek ve kaynak için Aspose.PDF for Java API dokümanına göz atın.
    
 Artık Java ve Aspose.PDF ile ilgi çekici ve bilgilendirici PDF belgeleri oluşturmaya hazırsınız. İyi kodlamalar!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

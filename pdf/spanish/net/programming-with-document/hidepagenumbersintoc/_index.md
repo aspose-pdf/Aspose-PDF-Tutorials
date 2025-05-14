@@ -1,42 +1,44 @@
 ---
-title: Ocultar números de página en la tabla de contenidos
-linktitle: Ocultar números de página en la tabla de contenidos
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a ocultar los números de página en la tabla de contenido con Aspose.PDF para .NET. Siga esta guía detallada con ejemplos de código para crear archivos PDF profesionales.
-weight: 220
-url: /es/net/programming-with-document/hidepagenumbersintoc/
+"description": "Aprenda a ocultar los números de página en la tabla de contenido con Aspose.PDF para .NET. Siga esta guía detallada con ejemplos de código para crear archivos PDF profesionales."
+"linktitle": "Ocultar números de página en la tabla de contenidos"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Ocultar números de página en la tabla de contenidos"
+"url": "/es/net/programming-with-document/hidepagenumbersintoc/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ocultar números de página en la tabla de contenidos
 
 ## Introducción
 
-Cuando trabajas con archivos PDF, a veces es posible que quieras generar una tabla de contenido (TOC) pero mantener la nitidez ocultando los números de página. Tal vez el documento fluya mejor sin ellos, o tal vez sea una elección estética. Cualquiera sea tu motivo, si trabajas con Aspose.PDF para .NET, este tutorial te mostrará exactamente cómo ocultar los números de página en tu TOC.
+Al trabajar con archivos PDF, a veces es posible que quieras generar una tabla de contenido (TOC) pero mantener la nitidez ocultando los números de página. Quizás el documento fluya mejor sin ellos, o quizás sea una cuestión estética. Sea cual sea el motivo, si trabajas con Aspose.PDF para .NET, este tutorial te mostrará exactamente cómo ocultar los números de página en tu TOC.
 
 ## Prerrequisitos
 
-Antes de comenzar, hay algunas cosas que necesitará tener en cuenta. A continuación, se incluye una lista de verificación rápida:
+Antes de empezar, hay algunas cosas que necesitarás tener en cuenta. Aquí tienes una lista rápida:
 
 - Visual Studio instalado: necesitará una versión funcional de Visual Studio para codificar.
 - Biblioteca Aspose.PDF para .NET: asegúrese de haber instalado la biblioteca Aspose.PDF para .NET.
-  -  Enlace de descarga:[Aspose.PDF para .NET](https://releases.aspose.com/pdf/net/)
+  - Enlace de descarga: [Aspose.PDF para .NET](https://releases.aspose.com/pdf/net/)
 - Licencia temporal: si está probando las funciones, es útil tener una licencia temporal.
-  -  Licencia temporal:[Consíguelo aquí](https://purchase.aspose.com/temporary-license/)
+  - Licencia temporal: [Consíguelo aquí](https://purchase.aspose.com/temporary-license/)
 
 ## Importar paquetes
 
-Antes de comenzar a trabajar con el código, asegúrese de importar los siguientes espacios de nombres en su proyecto de C#. Estos proporcionarán las clases y los métodos necesarios para trabajar con documentos PDF y crear su tabla de contenido (TOC).
+Antes de comenzar con el código, asegúrese de importar los siguientes espacios de nombres a su proyecto de C#. Estos proporcionarán las clases y los métodos necesarios para trabajar con documentos PDF y crear su tabla de contenido (TOC).
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-Ahora que su entorno está listo y se importaron los paquetes, desglosaremos cada paso del proceso. Cubriremos cada parte del código para garantizar la claridad, de modo que pueda seguirlo fácilmente.
+Ahora que su entorno está listo y los paquetes se han importado, desglosemos cada paso del proceso. Cubriremos cada parte del código para garantizar la claridad y que pueda seguirlo fácilmente.
 
 ## Paso 1: Inicialice su documento PDF
 
@@ -51,13 +53,13 @@ Document doc = new Document();
 Page tocPage = doc.Pages.Add();
 ```
 
-- dataDir: este es el directorio donde se guardará su archivo de salida.
-- Document(): Inicializa un nuevo documento PDF.
-- Pages.Add(): agrega una nueva página en blanco al documento, que luego contendrá su tabla de contenidos.
+- dataDir: este es el directorio donde se guardará el archivo de salida.
+- Documento(): Inicializa un nuevo documento PDF.
+- Pages.Add(): agrega una nueva página en blanco al documento, que más tarde contendrá su tabla de contenidos.
 
 ## Paso 2: Configurar la información y el título de la tabla de contenidos
 
-continuación, definiremos la información de la tabla de contenidos, incluida la configuración del título que aparecerá en la parte superior de la tabla de contenidos.
+A continuación, definiremos la información de la tabla de contenidos, incluida la configuración del título que aparecerá en la parte superior de la tabla de contenidos.
 
 ```csharp
 TocInfo tocInfo = new TocInfo();
@@ -75,15 +77,15 @@ tocPage.TocInfo = tocInfo;
 
 ## Paso 3: Ocultar los números de página en la tabla de contenidos
 
-¡Ahora viene la parte divertida! Aquí es donde configuramos la tabla de contenidos para ocultar los números de página.
+¡Ahora viene la parte divertida! Aquí configuramos la tabla de contenidos para ocultar los números de página.
 
 ```csharp
 tocInfo.IsShowPageNumbers = false;
 tocInfo.FormatArrayLength = 4;
 ```
 
--  IsShowPageNumbers: este es el interruptor mágico que oculta los números de página. Configúrelo en`false`, y los números de página no aparecerán en la tabla de contenidos.
-- FormatArrayLength: establecemos esto en 4, lo que indica que queremos definir el formato para cuatro niveles de encabezados de TOC.
+- IsShowPageNumbers: Este es el interruptor que oculta los números de página. Configúrelo en `false`y los números de página no aparecerán en la tabla de contenidos.
+- FormatArrayLength: lo establecemos en 4, lo que indica que queremos definir el formato para cuatro niveles de encabezados de TOC.
 
 ## Paso 4: Personalizar el formato de la tabla de contenidos
 
@@ -99,7 +101,7 @@ tocInfo.FormatArray[2].TextState.FontStyle = FontStyles.Bold;
 tocInfo.FormatArray[3].TextState.FontStyle = FontStyles.Bold;
 ```
 
-- FormatArray: esta matriz controla el formato de las entradas de la tabla de contenidos. Cada índice representa un nivel de encabezado diferente.
+- FormatArray: Esta matriz controla el formato de las entradas de la tabla de contenidos. Cada índice representa un nivel de encabezado diferente.
 - Margen y estilo de texto: establecemos márgenes y aplicamos estilos de fuente como negrita, cursiva y subrayado para cada nivel de encabezado.
 
 ## Paso 5: Agregar encabezados al documento
@@ -121,8 +123,8 @@ for (int Level = 1; Level != 5; Level++)
 }
 ```
 
-- Encabezado y segmento de texto: representan los encabezados que aparecerán en la tabla de contenidos. Cada nivel tiene su propio encabezado.
-- IsAutoSequence: Numera automáticamente los encabezados.
+- Encabezado y segmento de texto: Representan los encabezados que aparecerán en la tabla de contenidos. Cada nivel tiene su propio encabezado.
+- IsAutoSequence: numera automáticamente los encabezados.
 - IsInList: garantiza que cada encabezado aparezca en la tabla de contenidos.
 
 ## Paso 6: Guardar el documento
@@ -133,31 +135,33 @@ Una vez que todo esté configurado, guarde el documento PDF en el archivo de sal
 doc.Save(outFile);
 ```
 
-¡Y eso es todo! ¡Has creado con éxito un PDF con una tabla de contenidos y los números de página están ocultos!
+¡Listo! Has creado un PDF con índice, ¡y los números de página están ocultos!
 
 ## Conclusión
 
-Crear una tabla de contenido en un PDF y ocultar los números de página puede parecer complicado, pero con Aspose.PDF para .NET, es muy fácil. Siguiendo esta guía paso a paso, aprendió a personalizar el formato de la tabla de contenido, ocultar los números de página y aplicar diferentes estilos a los encabezados. Ahora puede crear archivos PDF profesionales adaptados a sus necesidades exactas.
+Crear una tabla de contenido en un PDF y ocultar los números de página puede parecer complicado, pero con Aspose.PDF para .NET, es facilísimo. Siguiendo esta guía paso a paso, has aprendido a personalizar el formato de la tabla de contenido, ocultar los números de página y aplicar diferentes estilos a tus encabezados. Ahora puedes crear PDF profesionales adaptados a tus necesidades.
 
 ## Preguntas frecuentes
 
 ### ¿Puedo mostrar números de página para encabezados específicos en la tabla de contenidos?
-No, Aspose.PDF oculta o muestra los números de página de toda la tabla de contenidos. No es posible ocultarlos de forma selectiva para entradas específicas.
+No, Aspose.PDF oculta o muestra los números de página de toda la tabla de contenidos. No se pueden ocultar de forma selectiva para entradas específicas.
 
 ### ¿Es posible agregar más niveles al TOC?
- Sí, puedes aumentar el`FormatArrayLength` para definir más niveles de encabezados de TOC.
+Sí, puedes aumentar el `FormatArrayLength` para definir más niveles de encabezados de TOC.
 
 ### ¿Cómo puedo cambiar la fuente de todas las entradas de la tabla de contenidos?
- Puede cambiar la fuente modificando el`TextState.Font` propiedad para cada nivel en el`FormatArray`.
+Puede cambiar la fuente modificando el `TextState.Font` propiedad para cada nivel en el `FormatArray`.
 
 ### ¿Puedo insertar hipervínculos en la tabla de contenidos?
- Sí, puede vincular cada entrada de la tabla de contenidos a una sección específica del documento utilizando el`Heading.TocPage` propiedad.
+Sí, puedes vincular cada entrada de la tabla de contenidos a una sección específica del documento mediante el botón `Heading.TocPage` propiedad.
 
 ### ¿Necesito una licencia para Aspose.PDF?
-Sí, se requiere una licencia válida para el uso en producción. Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) Para probar las funciones.
+Sí, se requiere una licencia válida para el uso en producción. Puede obtener una licencia temporal. [aquí](https://purchase.aspose.com/temporary-license/) para probar las funciones.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

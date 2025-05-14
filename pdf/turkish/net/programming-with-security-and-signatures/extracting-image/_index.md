@@ -1,14 +1,16 @@
 ---
-title: Görüntüyü Çıkarma
-linktitle: Görüntüyü Çıkarma
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF'lerden görüntüleri nasıl çıkaracağınızı kolayca öğrenin. Sorunsuz görüntü çıkarma için adım adım kılavuzumuzu izleyin.
-weight: 70
-url: /tr/net/programming-with-security-and-signatures/extracting-image/
+"description": "Aspose.PDF for .NET kullanarak PDF'lerden görüntüleri nasıl çıkaracağınızı kolayca öğrenin. Sorunsuz görüntü çıkarma için adım adım kılavuzumuzu izleyin."
+"linktitle": "Görüntüyü Çıkarma"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Görüntüyü Çıkarma"
+"url": "/tr/net/programming-with-security-and-signatures/extracting-image/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Görüntüyü Çıkarma
@@ -25,16 +27,16 @@ Görüntü çıkarmanın inceliklerine girmeden önce, ayarlamanız gereken birk
 
 İlk önce, .NET ile kurulmuş bir geliştirme ortamına sahip olmanız gerekir. Bu genellikle şunları içerir:
 
--  Visual Studio: .NET uygulamaları için güçlü bir IDE'dir. Henüz indirmediyseniz, şu adresten edinebilirsiniz:[Visual Studio web sitesi](https://visualstudio.microsoft.com/).
+- Visual Studio: .NET uygulamaları için güçlü bir IDE'dir. Henüz indirmediyseniz, şu adresten edinebilirsiniz: [Visual Studio web sitesi](https://visualstudio.microsoft.com/).
 - .NET Framework: Bilgisayarınızda .NET Framework 4.5 veya üzeri sürümün yüklü olduğundan emin olun.
 
 ### .NET Kütüphanesi için Aspose.PDF
 
 PDF'lerle çalışmak için Aspose.PDF kütüphanesine ihtiyacınız olacak. Bu kütüphane, PDF dosyalarını özgürce düzenlemenize, resim çıkarmanıza olanak tanır. İşte nasıl edinebileceğiniz:
 
--  Yapabilirsiniz[en son sürümü indirin](https://releases.aspose.com/pdf/net/) .NET için Aspose.PDF'nin.
--  Satın almadan önce denemek isterseniz,[ücretsiz deneme](https://releases.aspose.com/) Mevcuttur.
--  Uzun vadede kullanmaya devam etmeye karar verirseniz,[lisans satın al](https://purchase.aspose.com/buy) veya hatta[geçici lisans talebinde bulunun](https://purchase.aspose.com/temporary-license/) test amaçlı.
+- Yapabilirsiniz [en son sürümü indirin](https://releases.aspose.com/pdf/net/) .NET için Aspose.PDF'nin.
+- Satın almadan önce denemek isterseniz, [ücretsiz deneme](https://releases.aspose.com/) Mevcuttur.
+- Uzun vadede kullanmaya devam etmeye karar verirseniz, [lisans satın al](https://purchase.aspose.com/buy) veya hatta [geçici lisans talebinde bulunun](https://purchase.aspose.com/temporary-license/) test amaçlı.
 
 ### C# Temel Bilgisi
 
@@ -67,7 +69,7 @@ Başlamak için, PDF belgenizin nerede yaşadığını tanımlamamız gerekir. B
 string dataDir = "YOUR DOCUMENTS DIRECTORY"; // Belgelerinizin dizinini değiştirin
 string input = dataDir + @"ExtractingImage.pdf"; // PDF dosyasını girin
 ```
- Yer değiştirmek`"YOUR DOCUMENTS DIRECTORY"` PDF dosyanızın saklandığı klasörün yolu ile. Bu çok önemlidir çünkü programın PDF'nizi nerede bulacağını bilmesi gerekir.
+Yer değiştirmek `"YOUR DOCUMENTS DIRECTORY"` PDF dosyanızın saklandığı klasörün yolu ile. Bu çok önemlidir çünkü programın PDF'nizi nerede bulacağını bilmesi gerekir.
 
 ## Adım 2: PDF Belgesini Yükleyin
 
@@ -79,7 +81,7 @@ using (Document pdfDocument = new Document(input))
     // Bu, işimiz bittiğinde PDF'nin düzgün bir şekilde kapatılmasını sağlayacaktır.
 }
 ```
- The`using` ifadesi, PDF belgesiyle işimiz bittiğinde belgenin düzgün bir şekilde imha edilmesini sağlayarak bellek sızıntılarını önler.
+The `using` ifadesi, PDF belgesiyle işimiz bittiğinde belgenin düzgün bir şekilde imha edilmesini sağlayarak bellek sızıntılarını önler.
 
 ## Adım 3: İmza Alanlarında Yineleme Yapın
 
@@ -95,7 +97,7 @@ foreach (Field field in pdfDocument.Form)
     }
 }
 ```
- Burada bir`foreach` PDF formundaki her alanı kontrol etmek için döngü. Bir imza alanı bulursak, görüntüyü çıkarmaya devam edebiliriz.
+Burada bir `foreach` PDF formundaki her alanı kontrol etmek için döngü. Bir imza alanı bulursak, görüntüyü çıkarmaya devam edebiliriz.
 
 ## Adım 4: Görüntüyü Çıkarın
 
@@ -116,8 +118,8 @@ using (Stream imageStream = sf.ExtractImage())
 ```
 
 - Çıkarılan görüntünün kaydedileceği çıktı dosyası yolunu tanımlıyoruz.
--  Biz kullanıyoruz`sf.ExtractImage()` İmza alanından görüntü akışını yakalamak için.
--  Kontrol ediyoruz eğer`imageStream` Çıkarılacak bir görüntü olduğundan emin olmak için null olması gerekmez.
+- Biz kullanıyoruz `sf.ExtractImage()` İmza alanından görüntü akışını yakalamak için.
+- Kontrol ediyoruz eğer `imageStream` Çıkarılacak bir görüntü olduğundan emin olmak için null olması gerekmez.
 - Son olarak akışı Bitmap'e dönüştürüp JPEG dosyası olarak kaydediyoruz.
 
 ## Çözüm
@@ -133,16 +135,18 @@ Evet, gömülü resimler veya imza alanları içerdiği sürece herhangi bir PDF
 Ücretsiz deneme sürümünü kullanarak test edebilirsiniz ancak uzun vadeli veya ticari kullanım için ücretli lisansa ihtiyacınız var.
 
 ### Birden fazla görseli aynı anda çıkarmak mümkün müdür?  
-Evet, kodu birden fazla alanda döngü oluşturacak ve tüm görselleri çıkaracak şekilde değiştirebilirsiniz.
+Evet, kodu birden fazla alanda döngü oluşturacak ve tüm resimleri çıkaracak şekilde değiştirebilirsiniz.
 
 ### Çıkarılan görüntüleri hangi görüntü formatlarında kaydedebilirim?  
 Çıkarılan görselleri, kendi isteklerinize göre JPEG, PNG, BMP vb. gibi çeşitli formatlarda kaydedebilirsiniz.
 
 ### Aspose.PDF için daha fazla kaynağı nerede bulabilirim?  
- Kontrol edebilirsiniz[Aspose.PDF Belgeleri](https://reference.aspose.com/pdf/net/) Daha fazla kaynak ve örnek için.
+Kontrol edebilirsiniz [Aspose.PDF Belgeleri](https://reference.aspose.com/pdf/net/) Daha fazla kaynak ve örnek için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

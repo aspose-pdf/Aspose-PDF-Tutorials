@@ -8,7 +8,9 @@ url: /java/pdf-annotations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Annotations
@@ -39,9 +41,11 @@ Learn how to extract specific annotations from PDFs using Aspose.PDF for Java. T
 Discover the power of redacting sensitive content in PDFs with Aspose.PDF for Java.
 ### [Strike Through Text using Annotations](./strike-through-text-using-annotations/)
 Learn how to add strike-through text annotations to PDF documents using Aspose.PDF for Java. Follow our step-by-step guide for precise document manipulation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

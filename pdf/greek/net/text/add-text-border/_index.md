@@ -1,23 +1,26 @@
 ---
-title: Δημιουργία στυλιζόμενου κειμένου με όρια σε έγγραφα PDF χρησιμοποιώντας το Aspose.PDF για .NET
-weight: 7700
-limit: 
-description: Δημιουργήστε επαγγελματικά έγγραφα PDF με στυλιζόμενα τμήματα κειμένου με προσαρμοσμένες γραμματοσειρές, χρώματα και όρια χρησιμοποιώντας το Aspose.PDF για τη βιβλιοθήκη .NET.  
-keywords: [Aspose.PDF for .NET, PDF creation, text styling, border effects, text fragments, C# PDF library, document formatting]
-url: /el/net/text/add-text-border/
+"description": "Δημιουργήστε επαγγελματικά έγγραφα PDF με στυλιζαρισμένα τμήματα κειμένου που διαθέτουν προσαρμοσμένες γραμματοσειρές, χρώματα και περιγράμματα χρησιμοποιώντας το Aspose.PDF για βιβλιοθήκη .NET."
+"title": "Δημιουργία κειμένου με στυλ και περιγράμματα σε έγγραφα PDF χρησιμοποιώντας το Aspose.PDF για .NET"
+"url": "/el/net/text/add-text-border/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία στυλιζόμενου κειμένου με όρια σε έγγραφα PDF
+# Δημιουργία κειμένου με στυλ και περιγράμματα σε έγγραφα PDF
 
-Το Aspose.PDF για το .NET είναι ένα ισχυρό API επεξεργασίας PDF που επιτρέπει στους προγραμματιστές να δημιουργούν, να επεξεργάζονται, να χειρίζονται και να μετατρέπουν έγγραφα PDF χωρίς να απαιτούν Adobe Acrobat.
+Το Aspose.PDF για .NET είναι ένα ισχυρό API επεξεργασίας PDF που επιτρέπει στους προγραμματιστές να δημιουργούν, να επεξεργάζονται, να χειρίζονται και να μετατρέπουν έγγραφα PDF χωρίς να απαιτείται το Adobe Acrobat. Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF με ένα τμήμα κειμένου που έχει συγκεκριμένο στυλ και ένα περίγραμμα, το οποίο είναι ιδιαίτερα χρήσιμο για την επισήμανση σημαντικού περιεχομένου στα έγγραφά σας.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/add-text-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Οδηγίες εγκατάστασης
@@ -32,17 +35,19 @@ url: /el/net/text/add-text-border/
    dotnet add package Aspose.PDF
    ```
 
-3. Εγχειριτική εγκατάσταση:
-   * Κατεβάστε την τελευταία έκδοση από το [Aspose.PDF για εκδόσεις .NET](https://releases.aspose.com/pdf/net/)
-   * Προσθέστε αναφορά στο Aspose.PDF.dll στο έργο σας
+3. Χειροκίνητη εγκατάσταση:
+   - Κατεβάστε την τελευταία έκδοση από [Aspose.PDF για εκδόσεις .NET](https://releases.aspose.com/pdf/net/)
+   - Προσθέστε αναφορά στο Aspose.PDF.dll στο έργο σας
 
-## Επενδύσεις
+## Πόροι
 
-* [Aspose.PDF για την τεκμηρίωση .NET](https://docs.aspose.com/pdf/net/)
-* [Aspose.PDF για την αναφορά .NET API](https://reference.aspose.com/pdf/net/)
+- [Aspose.PDF για τεκμηρίωση .NET](https://docs.aspose.com/pdf/net/)
+- [Aspose.PDF για αναφορά API .NET](https://reference.aspose.com/pdf/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

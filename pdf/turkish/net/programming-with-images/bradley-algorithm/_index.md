@@ -1,14 +1,16 @@
 ---
-title: Bradley Algoritması
-linktitle: Bradley Algoritması
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET'te Bradley algoritmasını kullanarak bir PDF'yi TIFF'e nasıl dönüştüreceğinizi öğrenin. Sorunsuz dönüşüm için adım adım kılavuz, ön koşullar ve SSS.
-weight: 30
-url: /tr/net/programming-with-images/bradley-algorithm/
+"description": "Aspose.PDF for .NET'te Bradley algoritmasını kullanarak bir PDF'yi TIFF'e nasıl dönüştüreceğinizi öğrenin. Sorunsuz dönüşüm için adım adım kılavuz, ön koşullar ve SSS."
+"linktitle": "Bradley Algoritması"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Bradley Algoritması"
+"url": "/tr/net/programming-with-images/bradley-algorithm/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bradley Algoritması
@@ -23,10 +25,10 @@ Bu eğitim, Bradley Binarization Algorithm ile bir PDF sayfasını TIFF görünt
 
 Koda dalmadan önce, takip etmeniz gereken her şeye sahip olduğunuzdan emin olalım:
 
--  .NET için Aspose.PDF: Kütüphaneye ihtiyacınız olacak. Buradan indirin[Burada](https://releases.aspose.com/pdf/net/).
+- .NET için Aspose.PDF: Kütüphaneye ihtiyacınız olacak. Buradan indirin [Burada](https://releases.aspose.com/pdf/net/).
 - Visual Studio (veya herhangi bir C# IDE).
 - Temel C# bilgisi.
--  Geçerli bir lisans veya[geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose'dan.
+- Geçerli bir lisans veya [geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose'dan.
 
 ## Paketleri İçe Aktar
 
@@ -38,7 +40,7 @@ using System;
 using Aspose.Pdf;
 ```
 
-Süreci sorunsuz bir şekilde takip edebilmeniz için süreci kolay adımlara bölelim. Bu kılavuzun sonunda, Bradley algoritmasını kullanarak bir PDF sayfasını ikili TIFF görüntüsüne başarıyla dönüştürmüş olacaksınız.
+Sorunsuz bir şekilde takip edebilmeniz için süreci kolay adımlara bölelim. Bu kılavuzun sonunda, Bradley algoritmasını kullanarak bir PDF sayfasını ikili TIFF görüntüsüne başarıyla dönüştürmüş olacaksınız.
 
 ## Adım 1: Belge Dizinini Ayarlayın
 
@@ -52,13 +54,13 @@ Burada hem kaynak PDF'yi hem de dönüştürülmüş TIFF dosyalarını depolars
 
 ## Adım 2: PDF Belgesini açın
 
-Artık yol ayarlandığına göre, dönüştürmek istediğiniz PDF belgesini açmanın zamanı geldi. Aspose.PDF for .NET, daha fazla işlem için bir belgenin yüklenmesini kolaylaştırır.
+Artık yol ayarlandığına göre, dönüştürmek istediğiniz PDF belgesini açmanın zamanı geldi. Aspose.PDF for .NET, daha fazla işlem için bir belgeyi yüklemeyi kolaylaştırır.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "PageToTIFF.pdf");
 ```
 
- Burada,`PageToTIFF.pdf` örnek dosyadır. Bunu istediğiniz herhangi bir PDF dosyasıyla değiştirebilirsiniz. Belge nesnesi artık daha fazla düzenleme için PDF'yi tutar.
+Burada, `PageToTIFF.pdf` örnek dosyadır. Bunu istediğiniz herhangi bir PDF dosyasıyla değiştirebilirsiniz. Belge nesnesi artık daha fazla düzenleme için PDF'yi tutar.
 
 ## Adım 3: Görüntüler için Çıktı Yollarını Tanımlayın
 
@@ -105,7 +107,7 @@ TIFF aygıtı bu işlemin çekirdeğidir. PDF belgesini alır ve her sayfayı ö
 
 ## Adım 7: PDF Sayfasını TIFF'e Dönüştürün
 
- PDF'yi işleme ve ilk sayfayı bir TIFF görüntüsüne dönüştürme zamanı.`Process` yöntemi belirli sayfaları veya tüm belgeyi dönüştürmenize olanak tanır. Bu örnekte, ilk sayfayı dönüştürüyoruz.
+PDF'yi işleme ve ilk sayfayı bir TIFF görüntüsüne dönüştürme zamanı. `Process` yöntemi belirli sayfaları veya tüm belgeyi dönüştürmenize olanak tanır. Bu örnekte, ilk sayfayı dönüştürüyoruz.
 
 ```csharp
 tiffDevice.Process(pdfDocument, outputImageFile);
@@ -127,7 +129,7 @@ using (FileStream inStream = new FileStream(outputImageFile, FileMode.Open))
 }
 ```
 
- BinarizeBradley yöntemi iki dosya akışı (giriş ve çıkış) ve bir eşik değeri (burada) alır`0.1`) ikilileştirme seviyesini belirler. Yürütmenin ardından, kullanıma hazır mükemmel bir şekilde ikilileştirilmiş bir görüntünüz olacak.
+BinarizeBradley yöntemi iki dosya akışı (giriş ve çıkış) ve bir eşik değeri (burada) alır `0.1`ikilileştirme seviyesini belirler. Yürütmenin ardından, kullanıma hazır mükemmel bir şekilde ikilileştirilmiş bir görüntünüz olacak.
 
 ## Adım 9: Başarılı Dönüşümü Onaylayın
 
@@ -141,7 +143,7 @@ Bunu yazdırdığınızda PDF sayfanızın ikili TIFF görüntüsüne başarıyl
 
 ## Çözüm
 
-İşte oldu! Aspose.PDF for .NET kullanarak bir PDF sayfasını bir TIFF görüntüsüne nasıl dönüştüreceğinizi ve Bradley ikilileştirme algoritmasını nasıl uygulayacağınızı öğrendiniz. Bu işlem, belge arşivleme, optik karakter tanıma (OCR) ve diğer profesyonel uygulamalar için olmazsa olmazdır. Yüksek kaliteli çözünürlük ve verimli sıkıştırma ile belge görüntülerinizin hem net hem de boyut olarak yönetilebilir olmasını sağlayabilirsiniz.
+İşte oldu! Bir PDF sayfasını TIFF görüntüsüne nasıl dönüştüreceğinizi ve .NET için Aspose.PDF kullanarak Bradley ikilileştirme algoritmasını nasıl uygulayacağınızı öğrendiniz. Bu işlem, belge arşivleme, optik karakter tanıma (OCR) ve diğer profesyonel uygulamalar için olmazsa olmazdır. Yüksek kaliteli çözünürlük ve verimli sıkıştırma ile belge görüntülerinizin hem net hem de boyut olarak yönetilebilir olmasını sağlayabilirsiniz.
 
 ## SSS
 
@@ -149,7 +151,7 @@ Bunu yazdırdığınızda PDF sayfanızın ikili TIFF görüntüsüne başarıyl
 Bradley Algoritması, her piksel için çevresine bağlı olarak uyarlanabilir bir eşik değeri belirleyerek gri tonlamalı görüntüleri ikili (siyah-beyaz) görüntülere dönüştüren bir ikilileştirme tekniğidir.
 
 ### Bu yöntemi kullanarak birden fazla PDF sayfasını TIFF'e dönüştürebilir miyim?
- Evet, değiştirebilirsiniz`Process` Belgedeki sayfalar arasında döngü yaparak tüm sayfaları dönüştürme yöntemi.
+Evet, değiştirebilirsiniz `Process` Belgedeki sayfalar arasında döngü yaparak tüm sayfaları dönüştürme yöntemi.
 
 ### PDF'leri TIFF'e dönüştürmek için en uygun çözünürlük nedir?
 Yüksek kaliteli görüntüler için genellikle 300 DPI önerilir. Ancak bu değeri ihtiyaçlarınıza göre ayarlayabilirsiniz.
@@ -159,9 +161,11 @@ Yüksek kaliteli görüntüler için genellikle 300 DPI önerilir. Ancak bu değ
 
 ### Bradley Algoritması OCR için uygun mudur?
 Evet, Bradley Algoritması taranan belgelerdeki metnin kontrastını artırdığı için OCR ön işlemede sıklıkla kullanılır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

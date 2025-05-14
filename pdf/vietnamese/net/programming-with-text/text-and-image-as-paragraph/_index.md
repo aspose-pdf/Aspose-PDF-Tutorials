@@ -1,14 +1,16 @@
 ---
-title: Văn bản và hình ảnh như đoạn văn trong tệp PDF
-linktitle: Văn bản và hình ảnh như đoạn văn trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tạo PDF có văn bản và hình ảnh bằng Aspose.PDF cho .NET. Tìm hiểu cách thêm văn bản và hình ảnh nội tuyến từng bước.
-weight: 530
-url: /vi/net/programming-with-text/text-and-image-as-paragraph/
+"description": "Tạo PDF có văn bản và hình ảnh bằng Aspose.PDF cho .NET. Tìm hiểu cách thêm văn bản và hình ảnh nội tuyến từng bước."
+"linktitle": "Văn bản và hình ảnh như đoạn văn trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Văn bản và hình ảnh như đoạn văn trong tệp PDF"
+"url": "/vi/net/programming-with-text/text-and-image-as-paragraph/"
+"weight": 530
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Văn bản và hình ảnh như đoạn văn trong tệp PDF
@@ -21,12 +23,12 @@ Trong thế giới kỹ thuật số ngày nay, PDF là định dạng tài li�
 
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để theo dõi một cách suôn sẻ:
 
--  Aspose.PDF cho Thư viện .NET: Bạn sẽ cần cài đặt Aspose.PDF cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho Thư viện .NET: Bạn sẽ cần cài đặt Aspose.PDF cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Bất kỳ phiên bản nào hỗ trợ .NET đều hoạt động tốt.
 - Hiểu biết cơ bản về C#: Một chút quen thuộc với C# sẽ hữu ích nhưng đừng lo lắng—tôi sẽ hướng dẫn bạn từng bước!
-- Tài liệu PDF đã sẵn sàng: Nếu bạn muốn thêm hình ảnh tùy chỉnh, hãy chuẩn bị sẵn hình ảnh.
+- Tài liệu PDF đã sẵn sàng: Nếu bạn muốn thêm hình ảnh tùy chỉnh, hãy chuẩn bị sẵn.
 
- Bạn cũng có thể dùng thử thư viện miễn phí[đây](https://releases.aspose.com/) hoặc nếu bạn đang làm việc trên một dự án quy mô lớn, hãy cân nhắc mua nó[đây](https://purchase.aspose.com/buy) . Cần thêm thông tin chi tiết? Kiểm tra tài liệu[đây](https://reference.aspose.com/pdf/net/).
+Bạn cũng có thể dùng thử thư viện miễn phí [đây](https://releases.aspose.com/)hoặc nếu bạn đang làm việc trên một dự án quy mô lớn, hãy cân nhắc mua nó [đây](https://purchase.aspose.com/buy). Cần thêm thông tin chi tiết? Kiểm tra tài liệu [đây](https://reference.aspose.com/pdf/net/).
 
 ## Nhập gói
 
@@ -57,7 +59,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Chuyện gì đang xảy ra ở đây? Chúng tôi chỉ đơn giản là tạo một tài liệu mới bằng cách sử dụng`Document`lớp và xác định thư mục bạn muốn lưu PDF. Giống như mở một bức tranh mới cho kiệt tác của bạn vậy!
+Chuyện gì đang xảy ra ở đây? Chúng tôi chỉ đơn giản là tạo một tài liệu mới bằng cách sử dụng `Document` lớp và xác định thư mục bạn muốn lưu PDF. Giống như mở một bức tranh mới cho kiệt tác của bạn vậy!
 
 ## Bước 2: Thêm một trang vào PDF của bạn
 
@@ -81,7 +83,7 @@ TextFragment text = new TextFragment("Hello World.. ");
 page.Paragraphs.Add(text);
 ```
 
- Ở đây, chúng tôi tạo ra một`TextFragment` đối tượng để giữ văn bản "Hello World..", sau đó được thêm vào trang dưới dạng một đoạn văn. Giống như viết câu đầu tiên trong tài liệu PDF của bạn.
+Ở đây, chúng tôi tạo ra một `TextFragment` đối tượng để giữ văn bản "Hello World..", sau đó được thêm vào trang dưới dạng một đoạn văn. Giống như viết câu đầu tiên trong tài liệu PDF của bạn.
 
 ## Bước 4: Thêm hình ảnh dưới dạng đoạn văn nội tuyến
 
@@ -90,14 +92,14 @@ Bây giờ chúng ta đã có văn bản, hãy làm cho mọi thứ trở nên t
 ```csharp
 // Tạo một phiên bản hình ảnh
 Aspose.Pdf.Image image = new Aspose.Pdf.Image();
-// Đặt hình ảnh thành đoạn văn nội tuyến để nó xuất hiện ngay sau
+// Đặt hình ảnh thành đoạn văn nội tuyến để nó xuất hiện ngay sau 
 // Đối tượng đoạn văn trước (TextFragment)
 image.IsInLineParagraph = true;
-// Chỉ định đường dẫn tệp hình ảnh
+// Chỉ định đường dẫn tệp hình ảnh 
 image.File = dataDir + "aspose-logo.jpg";
 ```
 
- Trong đoạn trích này, chúng tôi tạo ra một`Image` đối tượng, yêu cầu nó căn chỉnh theo dòng với văn bản và chỉ định đường dẫn đến tệp hình ảnh. Điều này tương đương với việc dán hình ảnh ngay sau một câu trong tài liệu. Bạn có thể hoán đổi "aspose-logo.jpg" bằng hình ảnh mong muốn của mình.
+Trong đoạn trích này, chúng tôi tạo ra một `Image` đối tượng, yêu cầu nó căn chỉnh theo dòng với văn bản và chỉ định đường dẫn đến tệp hình ảnh. Điều này tương đương với việc dán hình ảnh ngay sau một câu trong tài liệu. Bạn có thể hoán đổi "aspose-logo.jpg" bằng hình ảnh mong muốn của mình.
 
 ## Bước 5: Đặt kích thước hình ảnh (Tùy chọn)
 
@@ -136,7 +138,7 @@ text.IsInLineParagraph = true;
 page.Paragraphs.Add(text);
 ```
 
- Chúng tôi đang tái sử dụng`TextFragment`đối tượng ở đây với văn bản mới ("Xin chào lần nữa..") và chèn nó vào dòng, ngay sau hình ảnh. Điều này mang lại cho PDF của bạn một giao diện liền mạch, gắn kết.
+Chúng tôi đang tái sử dụng `TextFragment` đối tượng ở đây với văn bản mới ("Xin chào lần nữa..") và chèn nó vào dòng, ngay sau hình ảnh. Điều này mang lại cho PDF của bạn một giao diện liền mạch, gắn kết.
 
 ## Bước 8: Lưu tài liệu PDF
 
@@ -157,22 +159,24 @@ Và bạn đã có nó rồi—tạo PDF với văn bản và hình ảnh dướ
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thêm nhiều hình ảnh dưới dạng đoạn văn nội tuyến không?  
- Có, bạn có thể thêm nhiều hình ảnh bằng cách tạo các hình ảnh riêng biệt`Image` đối tượng và thêm chúng vào bộ sưu tập đoạn văn.
+Có, bạn có thể thêm nhiều hình ảnh bằng cách tạo các hình ảnh riêng biệt `Image` đối tượng và thêm chúng vào bộ sưu tập đoạn văn.
 
 ### Tôi có thể kiểm soát vị trí của văn bản và hình ảnh trong PDF không?  
 Có, bằng cách sử dụng các thuộc tính như lề, bạn có thể kiểm soát vị trí chính xác của văn bản và hình ảnh.
 
 ### Aspose.PDF cho .NET có miễn phí không?  
- Không, đó là sản phẩm được cấp phép, nhưng bạn có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/) hoặc mua giấy phép[đây](https://purchase.aspose.com/buy).
+Không, đó là sản phẩm được cấp phép, nhưng bạn có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/) hoặc mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể thêm siêu liên kết vào văn bản không?  
- Có, Aspose.PDF cho phép bạn thêm siêu liên kết trong các đoạn văn bản. Kiểm tra[tài liệu](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết.
+Có, Aspose.PDF cho phép bạn thêm siêu liên kết trong các đoạn văn bản. Kiểm tra [tài liệu](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết.
 
 ### Tôi có thể tùy chỉnh phông chữ và kiểu chữ của văn bản không?  
 Chắc chắn rồi! Bạn có thể dễ dàng tùy chỉnh phông chữ, màu sắc và các thuộc tính kiểu dáng khác của đoạn văn bản.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

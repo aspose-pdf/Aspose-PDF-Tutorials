@@ -1,100 +1,104 @@
 ---
-title: Odstraňte přílohy z PDF
-linktitle: Odstraňte přílohy z PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se odstraňovat přílohy z PDF v Javě pomocí Aspose.PDF. Podrobný průvodce a kód pro manipulaci s PDF.
-weight: 11
-url: /cs/java/pdf-attachments/remove-attachments-from-pdfs/
+"description": "Naučte se, jak v Javě odstranit přílohy z PDF souborů pomocí Aspose.PDF. Podrobný návod a kód pro manipulaci s PDF."
+"linktitle": "Odebrání příloh z PDF souborů"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Odebrání příloh z PDF souborů"
+"url": "/cs/java/pdf-attachments/remove-attachments-from-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Odstraňte přílohy z PDF
+# Odebrání příloh z PDF souborů
 
 
-## Úvod k odstranění příloh z PDF
+## Úvod k odstraňování příloh z PDF souborů
 
-V dnešní digitální době se práce se soubory PDF stala nedílnou součástí mnoha softwarových aplikací. Tyto PDF často obsahují různé přílohy, jako jsou obrázky, dokumenty nebo jiné soubory. Mohou však nastat situace, kdy budete muset tyto přílohy odstranit programově, a právě zde přichází na pomoc Aspose.PDF pro Javu. V tomto podrobném průvodci prozkoumáme, jak odstranit přílohy z PDF pomocí Aspose.PDF v Javě.
+V dnešní digitální době se práce s PDF soubory stala nedílnou součástí mnoha softwarových aplikací. Tyto PDF soubory často obsahují různé přílohy, jako jsou obrázky, dokumenty nebo jiné soubory. Mohou však nastat situace, kdy je potřeba tyto přílohy programově odstranit, a právě v takovém případě přichází na pomoc Aspose.PDF pro Javu. V tomto podrobném návodu se podíváme na to, jak odstranit přílohy z PDF souborů pomocí Aspose.PDF v Javě.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do kódu, ujistěte se, že máte vše potřebné:
 
 - Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
--  Aspose.PDF pro Javu: Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF pro Javu: Knihovnu si můžete stáhnout z [zde](https://releases.aspose.com/pdf/java/).
 
-## Nastavení vašeho projektu
+## Nastavení projektu
 
-1. Vytvořte nový projekt Java ve vašem preferovaném integrovaném vývojovém prostředí (IDE).
+1. Vytvořte nový projekt Java ve vámi preferovaném integrovaném vývojovém prostředí (IDE).
 
-2. Přidejte do svého projektu knihovnu Aspose.PDF for Java. Můžete to provést zahrnutím souboru JAR do cesty sestavení vašeho projektu.
+2. Přidejte do svého projektu knihovnu Aspose.PDF pro Javu. Můžete to provést zahrnutím souboru JAR do cesty sestavení projektu.
 
-3. Nyní jste připraveni začít kódovat!
+3. Nyní jste připraveni začít s kódováním!
 
-## Odebírání příloh
+## Odstranění příloh
 
 ### Krok 1: Načtěte dokument PDF
 
 ```java
-// Načtěte dokument PDF
+// Načíst PDF dokument
 Document pdfDocument = new Document("path/to/your/pdf/file.pdf");
 ```
 
-### Krok 2: Získejte sbírku příloh
+### Krok 2: Získejte kolekci příloh
 
 ```java
-// Získejte sbírku příloh
+// Získejte kolekci příloh
 AttachmentCollection attachments = pdfDocument.getEmbeddedFiles();
 ```
 
-### Krok 3: Odstraňte přílohy
+### Krok 3: Odstranění příloh
 
 ```java
-// Projděte přílohy a odstraňte je
+// Procházejte přílohy a odstraňujte je
 for (Attachment attachment : attachments) {
     attachments.remove(attachment);
 }
 ```
 
-### Krok 4: Uložte upravený PDF
+### Krok 4: Uložení upraveného PDF
 
 ```java
-// Uložte upravené PDF
+// Uložit upravený PDF
 pdfDocument.save("path/to/save/modified/file.pdf");
 ```
 
 ## Závěr
 
-Odebrání příloh z PDF pomocí Aspose.PDF for Java je jednoduchý proces. Pomocí několika řádků kódu můžete manipulovat s PDF a přizpůsobit je svým konkrétním potřebám.
+Odebrání příloh z PDF souborů pomocí Aspose.PDF pro Javu je jednoduchý proces. S několika řádky kódu můžete s PDF soubory manipulovat a přizpůsobit je svým specifickým potřebám.
 
-Vyzkoušejte to a uvidíte, jak Aspose.PDF zjednodušuje práci s dokumenty PDF ve vašich aplikacích Java!
+Vyzkoušejte to a uvidíte, jak Aspose.PDF zjednodušuje práci s PDF dokumenty ve vašich Java aplikacích!
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu zkontrolovat, zda soubor PDF obsahuje přílohy, než je odstraním?
+### Jak mohu zkontrolovat, zda PDF obsahuje přílohy, než je odstraním?
 
- Můžete použít`getEmbeddedFiles()` metoda pro načtení kolekce příloh. Pokud je prázdný, v PDF nejsou žádné přílohy.
+Můžete použít `getEmbeddedFiles()` metoda pro načtení kolekce příloh. Pokud je prázdná, v PDF nejsou žádné přílohy.
 
-### Mohu odebrat konkrétní přílohy a ostatní si ponechat?
+### Mohu odstranit konkrétní přílohy a jiné si ponechat?
 
-Ano, přílohy můžete selektivně odstraňovat zadáním podmínky pro jejich odstranění v kódu.
+Ano, přílohy můžete selektivně odebrat zadáním podmínky pro jejich odebrání ve vašem kódu.
 
-### Je Aspose.PDF for Java zdarma k použití?
+### Je Aspose.PDF pro Javu zdarma k použití?
 
-Aspose.PDF for Java je komerční knihovna, ale nabízí bezplatnou zkušební verzi, kterou můžete použít k vyhodnocení jejích funkcí.
+Aspose.PDF pro Javu je komerční knihovna, která ale nabízí bezplatnou zkušební verzi, kterou můžete použít k otestování jejích funkcí.
 
-### Podporuje Aspose.PDF další programovací jazyky?
+### Podporuje Aspose.PDF i jiné programovací jazyky?
 
-Ano, Aspose.PDF je k dispozici pro více programovacích jazyků, díky čemuž je univerzální pro různá vývojová prostředí.
+Ano, Aspose.PDF je k dispozici pro více programovacích jazyků, takže je všestranný pro různá vývojová prostředí.
 
-### Jak mohu získat další pomoc s Aspose.PDF pro Java?
+### Jak mohu získat další pomoc s Aspose.PDF pro Javu?
 
- Dokumentaci Aspose.PDF pro Java můžete navštívit na adrese[zde](https://reference.aspose.com/pdf/java/) pro podrobné informace a příklady.
+Dokumentaci k Javě ve formátu Aspose.PDF si můžete prohlédnout na adrese [zde](https://reference.aspose.com/pdf/java/) pro podrobné informace a příklady.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

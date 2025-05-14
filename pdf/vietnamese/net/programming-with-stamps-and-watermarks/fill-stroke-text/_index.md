@@ -1,14 +1,16 @@
 ---
-title: Điền nét chữ vào tệp PDF
-linktitle: Điền nét chữ vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách điền nét chữ vào tệp PDF một cách dễ dàng bằng Aspose.PDF cho .NET với hướng dẫn từng bước có nhiều ví dụ thực tế này.
-weight: 90
-url: /vi/net/programming-with-stamps-and-watermarks/fill-stroke-text/
+"description": "Tìm hiểu cách điền nét chữ vào tệp PDF một cách dễ dàng bằng Aspose.PDF cho .NET với hướng dẫn từng bước có nhiều ví dụ thực tế này."
+"linktitle": "Điền nét chữ vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Điền nét chữ vào tệp PDF"
+"url": "/vi/net/programming-with-stamps-and-watermarks/fill-stroke-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Điền nét chữ vào tệp PDF
@@ -22,9 +24,9 @@ Bạn đã bao giờ muốn chỉnh sửa một tệp PDF để làm cho nó n�
 Trước khi đi sâu vào phần mã hóa, bạn cần chuẩn bị một số thứ để thực hiện hướng dẫn này một cách dễ dàng:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình vì chúng ta sẽ viết mã C#.
-2.  Thư viện Aspose.PDF: Đảm bảo bạn đã tải xuống thư viện Aspose.PDF cho .NET. Bạn có thể lấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Thư viện Aspose.PDF: Đảm bảo bạn đã tải xuống thư viện Aspose.PDF cho .NET. Bạn có thể lấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu hướng dẫn dễ dàng hơn.
-4. Tệp PDF mẫu: Bạn sẽ cần một tệp PDF mẫu (`input.pdf`cho mục đích thử nghiệm. Bạn có thể tạo một bản đơn giản hoặc sử dụng bất kỳ tệp PDF nào bạn có.
+4. Tệp PDF mẫu: Bạn sẽ cần một tệp PDF mẫu (`input.pdf`) cho mục đích thử nghiệm. Bạn có thể tạo một bản đơn giản hoặc sử dụng bất kỳ tệp PDF nào bạn có.
 
 Bây giờ chúng ta đã có mọi thứ cần thiết, hãy cùng bắt tay vào thực hiện thao tác chèn nét chữ vào tệp PDF của bạn.
 
@@ -51,7 +53,7 @@ Trước tiên, hãy đảm bảo bạn đã thiết lập mọi thứ đúng tr
 1. Mở Visual Studio.
 2. Tạo một dự án C# mới (ví dụ: Ứng dụng Console).
 3. Nhấp chuột phải vào dự án trong Solution Explorer, chọn “Quản lý gói NuGet”.
-4.  Tìm kiếm`Aspose.PDF` và cài đặt nó.
+4. Tìm kiếm `Aspose.PDF` và cài đặt nó.
 
 ## Bước 2: Xác định thư mục tài liệu của bạn
 
@@ -61,7 +63,7 @@ Mỗi hành trình đều cần có điểm khởi đầu và trong trường h�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp PDF đầu vào của bạn. 
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp PDF đầu vào của bạn. 
 
 ## Bước 3: Tạo đối tượng TextState
 
@@ -71,7 +73,7 @@ Bước này là nơi bạn bắt đầu xác định các thuộc tính của v
 TextState ts = new TextState();
 ```
 
- Các`TextState` đối tượng sẽ giữ các tùy chọn kiểu dáng cho văn bản nét vẽ của bạn.
+Các `TextState` đối tượng sẽ giữ các tùy chọn kiểu dáng cho văn bản nét vẽ của bạn.
 
 ## Bước 4: Thiết lập màu cho nét vẽ
 
@@ -101,7 +103,7 @@ Bây giờ là lúc tải tệp PDF mà bạn sẽ chỉnh sửa.
 Facades.PdfFileStamp fileStamp = new Facades.PdfFileStamp(new Aspose.Pdf.Document(dataDir + "input.pdf"));
 ```
 
-Hãy đảm bảo PDF đầu vào của bạn (`input.pdf`nằm trong thư mục tài liệu được xác định ở các bước trước đó.
+Hãy đảm bảo PDF đầu vào của bạn (`input.pdf`) nằm trong thư mục tài liệu được xác định ở các bước trước đó.
 
 ## Bước 7: Tạo một đối tượng tem
 
@@ -125,7 +127,7 @@ stamp.BindLogo(new Facades.FormattedText("PAID IN FULL", System.Drawing.Color.Gr
 
 ## Bước 9: Liên kết trạng thái văn bản
 
- Bây giờ, hãy ràng buộc`TextState` bạn đã xác định trước đó cho con dấu. 
+Bây giờ, hãy ràng buộc `TextState` bạn đã xác định trước đó cho con dấu. 
 
 ```csharp
 stamp.BindTextState(ts);
@@ -141,7 +143,7 @@ Xác định vị trí con dấu của bạn sẽ xuất hiện trong tệp PDF:
 stamp.SetOrigin(100, 100);
 ```
 
- Các đối số`(100, 100)` biểu thị tọa độ X và Y (tính bằng điểm) cho gốc của văn bản. Điều chỉnh các giá trị này để định vị văn bản của bạn một cách hoàn hảo!
+Các đối số `(100, 100)` biểu thị tọa độ X và Y (tính bằng điểm) cho gốc của văn bản. Điều chỉnh các giá trị này để định vị văn bản của bạn một cách hoàn hảo!
 
 ## Bước 11: Cấu hình Độ mờ và Độ xoay
 
@@ -174,11 +176,11 @@ fileStamp.Save(dataDir + "output_out.pdf");
 fileStamp.Close();
 ```
 
- Tệp PDF mới sửa đổi của bạn chứa văn bản nét vẽ sẽ được lưu dưới dạng`output_out.pdf` trong thư mục tài liệu của bạn. 
+Tệp PDF mới sửa đổi của bạn chứa văn bản nét vẽ sẽ được lưu dưới dạng `output_out.pdf` trong thư mục tài liệu của bạn. 
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bằng cách làm theo các bước đơn giản này, bạn có thể dễ dàng điền văn bản nét vẽ vào tệp PDF bằng Aspose.PDF cho .NET. Cho dù là tài liệu kinh doanh hay dự án cá nhân, kỹ thuật này cho phép bạn thêm nét độc đáo vào tệp PDF của mình, giúp chúng nổi bật trong bất kỳ chồng giấy nào.
+Và bạn đã có nó! Bằng cách làm theo các bước đơn giản này, bạn có thể dễ dàng điền nét chữ vào tệp PDF bằng Aspose.PDF cho .NET. Cho dù là tài liệu kinh doanh hay dự án cá nhân, kỹ thuật này cho phép bạn thêm nét độc đáo vào tệp PDF của mình, giúp chúng nổi bật trong bất kỳ chồng giấy nào.
 
 ## Câu hỏi thường gặp
 
@@ -186,19 +188,21 @@ Và bạn đã có nó! Bằng cách làm theo các bước đơn giản này, b
 Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi các tệp PDF theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
-Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể nhận được nó[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể nhận được nó [đây](https://releases.aspose.com/).
 
 ### Tôi có cần phải trả tiền để được cấp phép không?
- Trong khi thư viện có bản dùng thử miễn phí, bạn cũng có thể mua giấy phép tạm thời tại[liên kết này](https://purchase.aspose.com/temporary-license/).
+Trong khi thư viện có bản dùng thử miễn phí, bạn cũng có thể mua giấy phép tạm thời tại [liên kết này](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm tài liệu ở đâu?
- Bạn có thể truy cập vào tài liệu đầy đủ[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể truy cập vào tài liệu đầy đủ [đây](https://reference.aspose.com/pdf/net/).
 
 ### Tôi có được hỗ trợ nếu gặp vấn đề không?
- Chắc chắn rồi! Bạn có thể nhận được hỗ trợ trên diễn đàn Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Chắc chắn rồi! Bạn có thể nhận được hỗ trợ trên diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

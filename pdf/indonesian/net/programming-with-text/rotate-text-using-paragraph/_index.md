@@ -1,14 +1,16 @@
 ---
-title: Memutar Teks Menggunakan Paragraf Dalam File PDF
-linktitle: Memutar Teks Menggunakan Paragraf Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memutar teks dalam PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk membuat dokumen Anda.
-weight: 380
-url: /id/net/programming-with-text/rotate-text-using-paragraph/
+"description": "Pelajari cara memutar teks dalam PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk membuat dokumen Anda."
+"linktitle": "Memutar Teks Menggunakan Paragraf Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Memutar Teks Menggunakan Paragraf Dalam File PDF"
+"url": "/id/net/programming-with-text/rotate-text-using-paragraph/"
+"weight": 380
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memutar Teks Menggunakan Paragraf Dalam File PDF
@@ -21,7 +23,7 @@ Membuat PDF dengan teks dinamis dapat menjadi cara yang menarik untuk menyampaik
 
 Sebelum kita menyelami dunia rotasi teks yang menarik dalam file PDF, mari pastikan Anda telah menyiapkan semuanya dengan benar. Berikut ini adalah prasyarat yang Anda perlukan:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah memasang Aspose.PDF untuk .NET di proyek Anda. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah memasang Aspose.PDF untuk .NET di proyek Anda. Anda dapat mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Tutorial ini mengasumsikan Anda menggunakan Visual Studio untuk pengembangan .NET Anda.
 3. Pengetahuan Dasar tentang C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contohnya dengan lebih baik. Jika Anda baru, jangan khawatir; kami akan menjelaskannya selangkah demi selangkah!
 4. .NET Framework: Pastikan proyek Anda disiapkan dengan versi .NET Framework yang sesuai. Aspose.PDF mendukung berbagai versi, jadi periksa dokumentasi untuk kompatibilitas.
@@ -99,7 +101,7 @@ Sekarang tibalah bagian yang menyenangkan—membuat fragmen teks! Kita akan memb
 TextFragment textFragment1 = new TextFragment("rotated text");
 textFragment1.TextState.FontSize = 12;
 textFragment1.TextState.Font = FontRepository.FindFont("TimesNewRoman");
-textFragment1.TextState.Rotation = 45; // Mengatur rotasi
+textFragment1.TextState.Rotation = 45; // Atur rotasi
 ```
 Di sini, kita membuat fragmen teks pertama yang bertuliskan "teks yang diputar". Kita atur ukuran font, jenis font, lalu terapkan rotasi 45 derajat.
 
@@ -122,7 +124,7 @@ Terakhir, kita akan membuat fragmen teks diputar lainnya.
 TextFragment textFragment3 = new TextFragment("another rotated text");
 textFragment3.TextState.FontSize = 12;
 textFragment3.TextState.Font = FontRepository.FindFont("TimesNewRoman");
-textFragment3.TextState.Rotation = -45; // Mengatur rotasi
+textFragment3.TextState.Rotation = -45; // Atur rotasi
 ```
 Seperti yang pertama, fragmen ini memiliki rotasi -45 derajat, menambahkan kontras visual yang menarik.
 
@@ -135,7 +137,7 @@ paragraph.AppendLine(textFragment1);
 paragraph.AppendLine(textFragment2);
 paragraph.AppendLine(textFragment3);
 ```
- Kami hanya menambahkan setiap fragmen teks ke paragraf kami.`AppendLine` metode ini memastikan setiap fragmen teks ditumpuk secara vertikal.
+Kami hanya menambahkan setiap fragmen teks ke paragraf kami. `AppendLine` metode memastikan setiap fragmen teks ditumpuk secara vertikal.
 
 ## Langkah 6: Buat Objek TextBuilder
 
@@ -168,19 +170,21 @@ Memutar teks dalam PDF dapat menambah banyak kreativitas dan penekanan pada doku
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF langsung dalam aplikasi .NET.
 
 ### Bagaimana cara memasang Aspose.PDF di proyek saya?
- Anda dapat menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau dengan mengunduhnya dari[Halaman unduhan Aspose](https://releases.aspose.com/pdf/net/).
+Anda dapat menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau dengan mengunduhnya dari  [Halaman unduhan Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose.PDF menawarkan uji coba gratis. Anda dapat memulai dengan[uji coba gratis](https://releases.aspose.com/) dan jelajahi fitur-fiturnya.
+Ya, Aspose.PDF menawarkan uji coba gratis. Anda dapat memulai dengan [uji coba gratis](https://releases.aspose.com/) dan jelajahi fitur-fiturnya.
 
 ### Apakah ada dukungan yang tersedia untuk Aspose.PDF?
- Tentu saja! Anda dapat menghubungi[Aspose dukungan](https://forum.aspose.com/c/pdf/10) untuk bantuan terkait masalah yang Anda hadapi.
+Tentu saja! Anda dapat menghubungi [Aspose dukungan](https://forum.aspose.com/c/pdf/10) untuk bantuan atas masalah yang Anda hadapi.
 
 ### Bagaimana cara memperoleh lisensi sementara untuk Aspose.PDF?
- Anda dapat membeli lisensi sementara dari[Situs web Aspose](https://purchase.aspose.com/temporary-license/) untuk mencoba semua fitur perpustakaan.
+Anda dapat membeli lisensi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/) untuk mencoba semua fitur perpustakaan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

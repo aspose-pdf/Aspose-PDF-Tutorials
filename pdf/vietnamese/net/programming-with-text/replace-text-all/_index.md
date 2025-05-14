@@ -1,14 +1,16 @@
 ---
-title: Thay thế toàn bộ văn bản trong tệp PDF
-linktitle: Thay thế toàn bộ văn bản trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thay thế văn bản trong tệp PDF một cách dễ dàng bằng Aspose.PDF cho .NET. Hướng dẫn đầy đủ có kèm theo đoạn mã.
-weight: 350
-url: /vi/net/programming-with-text/replace-text-all/
+"description": "Tìm hiểu cách thay thế văn bản trong tệp PDF một cách dễ dàng bằng Aspose.PDF cho .NET. Hướng dẫn đầy đủ có kèm theo đoạn mã."
+"linktitle": "Thay thế toàn bộ văn bản trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thay thế toàn bộ văn bản trong tệp PDF"
+"url": "/vi/net/programming-with-text/replace-text-all/"
+"weight": 350
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay thế toàn bộ văn bản trong tệp PDF
@@ -21,11 +23,11 @@ Khi nói đến việc quản lý các tệp PDF, khả năng thao tác nội du
 
 Trước khi bắt đầu hành trình này, hãy đảm bảo bạn đã trang bị đầy đủ. Sau đây là những vật dụng bạn cần có:
 
-1.  Aspose.PDF cho .NET: Trước tiên và quan trọng nhất, bạn cần cài đặt thư viện Aspose.PDF. Bạn có thể dễ dàng tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Trước tiên và quan trọng nhất, bạn cần cài đặt thư viện Aspose.PDF. Bạn có thể dễ dàng tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/).
 2. Môi trường .NET: Đảm bảo bạn có môi trường .NET đang hoạt động, chẳng hạn như Visual Studio. Đảm bảo dự án của bạn nhắm mục tiêu .NET Framework hoặc .NET Core tương thích với Aspose.PDF.
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn thực hiện theo hướng dẫn này dễ dàng hơn nhiều.
 
-Khi bạn đã chuẩn bị xong những thiết bị trên, chúng ta có thể bắt đầu phần thú vị: viết mã!
+Khi bạn đã chuẩn bị xong những thiết bị trên, chúng ta có thể đến phần thú vị: lập trình!
 
 ## Nhập gói
 
@@ -46,39 +48,39 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
- Điều này cho biết dự án của bạn rằng bạn muốn sử dụng`Aspose.Pdf` thư viện để làm việc với các tập tin PDF.
+Điều này cho biết dự án của bạn rằng bạn muốn sử dụng `Aspose.Pdf` thư viện để làm việc với các tập tin PDF.
 
 Bây giờ bạn đã thiết lập xong, chúng ta hãy cùng tìm hiểu quy trình thay thế văn bản trong tệp PDF từng bước. Đừng lo lắng; Tôi sẽ chia nhỏ mọi thứ để bạn có thể dễ dàng thực hiện theo.
 
 ## Bước 1: Xác định đường dẫn tài liệu của bạn
 
-Điều đầu tiên bạn cần làm là chỉ định thư mục tài liệu PDF của bạn. Điều này có nghĩa là cho mã của bạn biết nơi tìm tệp PDF bạn muốn chỉnh sửa. 
+Điều đầu tiên bạn cần làm là chỉ định thư mục của tài liệu PDF. Điều này có nghĩa là cho mã của bạn biết nơi tìm tệp PDF bạn muốn chỉnh sửa. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp PDF hiện tại của bạn. Giống như cung cấp cho chương trình của bạn một bản đồ để tìm kho báu của nó!
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp PDF hiện tại của bạn. Giống như cung cấp cho chương trình của bạn một bản đồ để tìm kho báu của nó!
 
 ## Bước 2: Mở Tài liệu
 
- Tiếp theo, bạn cần tải tài liệu PDF vào chương trình của mình bằng cách sử dụng`Document` lớp học.
+Tiếp theo, bạn cần tải tài liệu PDF vào chương trình của mình bằng cách sử dụng `Document` lớp học.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "ReplaceTextAll.pdf");
 ```
 
- Ở đây, bạn đang mở tệp PDF có tên`ReplaceTextAll.pdf`. Hãy nghĩ về bước này như việc mở khóa một cuốn sách để đọc nội dung của nó.
+Ở đây, bạn đang mở tệp PDF có tên `ReplaceTextAll.pdf`. Hãy nghĩ về bước này như việc mở khóa một cuốn sách để đọc nội dung của nó.
 
 ## Bước 3: Tạo một trình hấp thụ văn bản
 
- Bây giờ, bạn sẽ tạo ra một`TextFragmentAbsorber`, là một đối tượng chuyên biệt giúp xác định vị trí các trường hợp văn bản bạn muốn thay thế. 
+Bây giờ, bạn sẽ tạo ra một `TextFragmentAbsorber`, là một đối tượng chuyên biệt giúp xác định vị trí các trường hợp văn bản bạn muốn thay thế. 
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
 
- Trong dòng này, thay thế`"text"` với văn bản thực tế mà bạn đang tìm kiếm. Điều này tương tự như việc sử dụng bút đánh dấu để đánh dấu các từ trên một trang.
+Trong dòng này, thay thế `"text"` với văn bản thực tế mà bạn đang tìm kiếm. Điều này tương tự như việc sử dụng bút đánh dấu để đánh dấu các từ trên một trang.
 
 ## Bước 4: Chấp nhận Absorber cho tất cả các trang
 
@@ -88,7 +90,7 @@ Sau khi tạo xong absorber, đã đến lúc áp dụng nó cho tất cả các
 pdfDocument.Pages.Accept(textFragmentAbsorber);
 ```
 
-Hãy nghĩ về việc này giống như việc bạn lật từng trang sách và kiểm tra xem có từ nào được tô sáng không.
+Hãy nghĩ đến việc lật từng trang sách và kiểm tra xem có từ nào được tô sáng không.
 
 ## Bước 5: Lấy các đoạn văn bản đã trích xuất
 
@@ -120,12 +122,12 @@ Trong vòng lặp này, bạn sẽ chỉ định những gì cần thay đổi.
 ```csharp
 textFragment.Text = "TEXT"; // văn bản mới
 textFragment.TextState.Font = FontRepository.FindFont("Verdana"); // phông chữ mới
-textFragment.TextState.FontSize = 22; //cỡ chữ mới
+textFragment.TextState.FontSize = 22; // cỡ chữ mới
 textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Blue); // màu văn bản
 textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green); // màu nền
 ```
 
- Thay thế`"TEXT"` với bất kỳ văn bản mới nào bạn muốn chèn. Điều này cho phép bạn không chỉ thay đổi cách diễn đạt mà còn định dạng cách hiển thị của nó!
+Thay thế `"TEXT"` với bất kỳ văn bản mới nào bạn muốn chèn. Điều này cho phép bạn không chỉ thay đổi cách diễn đạt mà còn định dạng giao diện của nó!
 
 ## Bước 8: Lưu tài liệu
 
@@ -136,7 +138,7 @@ dataDir = dataDir + "ReplaceTextAll_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Dòng này lưu PDF đã cập nhật của bạn dưới dạng`ReplaceTextAll_out.pdf`. Giống như việc đóng quyển sách lại sau khi bạn đã sửa đổi vậy!
+Dòng này lưu PDF đã cập nhật của bạn dưới dạng `ReplaceTextAll_out.pdf`. Giống như việc đóng quyển sách lại sau khi bạn đã sửa đổi vậy!
 
 ## Bước 9: Xác nhận thay đổi
 
@@ -158,19 +160,21 @@ Và bạn đã có nó rồi! Bạn vừa học cách thay thế văn bản trê
 Có, bạn có thể lặp lại TextFragmentCollection và áp dụng các điều kiện khác nhau để thay thế nhiều văn bản khác nhau.
 
 ### Phiên bản .NET nào tương thích với Aspose.PDF?
- Aspose.PDF hỗ trợ nhiều phiên bản khác nhau, bao gồm .NET Framework và .NET Core. Luôn kiểm tra[tài liệu](https://reference.aspose.com/pdf/net/) để tương thích.
+Aspose.PDF hỗ trợ nhiều phiên bản khác nhau, bao gồm .NET Framework và .NET Core. Luôn kiểm tra [tài liệu](https://reference.aspose.com/pdf/net/) để tương thích.
 
 ### Có cách nào để dùng thử Aspose.PDF miễn phí không?
- Chắc chắn rồi! Bạn có thể nhận được bản dùng thử miễn phí Aspose.PDF từ họ[trang phát hành](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể nhận được bản dùng thử miễn phí Aspose.PDF từ họ [trang phát hành](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
- Diễn đàn cộng đồng Aspose là nơi tuyệt vời để được trợ giúp. Bạn có thể ghé thăm[Ủng hộ](https://forum.aspose.com/c/pdf/10) để được hỗ trợ.
+Diễn đàn cộng đồng Aspose là nơi tuyệt vời để được trợ giúp. Bạn có thể ghé thăm [Ủng hộ](https://forum.aspose.com/c/pdf/10) để được hỗ trợ.
 
 ### Có mất phí khi sử dụng Aspose.PDF sau thời gian dùng thử không?
- Có, Aspose.PDF là sản phẩm trả phí. Bạn có thể xem các tùy chọn mua hàng[đây](https://purchase.aspose.com/buy).
+Có, Aspose.PDF là sản phẩm trả phí. Bạn có thể xem các tùy chọn mua hàng [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

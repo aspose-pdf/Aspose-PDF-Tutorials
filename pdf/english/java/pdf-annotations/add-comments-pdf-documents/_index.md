@@ -8,7 +8,9 @@ url: /java/pdf-annotations/add-comments-pdf-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Comments to PDF Documents
@@ -93,6 +95,7 @@ You can extract comments from a PDF document using Aspose.PDF for Java by iterat
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

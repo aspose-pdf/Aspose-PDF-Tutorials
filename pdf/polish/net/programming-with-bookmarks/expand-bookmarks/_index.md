@@ -1,28 +1,30 @@
 ---
-title: Rozszerz zakładki w pliku PDF
-linktitle: Rozszerz zakładki w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak rozszerzać zakładki w plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą ulepszyć nawigację w PDF.
-weight: 50
-url: /pl/net/programming-with-bookmarks/expand-bookmarks/
+"description": "Dowiedz się, jak rozszerzać zakładki w plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą ulepszyć nawigację w PDF."
+"linktitle": "Rozszerz zakładki w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Rozszerz zakładki w pliku PDF"
+"url": "/pl/net/programming-with-bookmarks/expand-bookmarks/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozszerz zakładki w pliku PDF
 
 ## Wstęp
 
-Czy kiedykolwiek otworzyłeś plik PDF i odkryłeś, że wszystkie zakładki są zwinięte? To może być frustrujące, zwłaszcza gdy próbujesz poruszać się po długim dokumencie. Na szczęście dzięki Aspose.PDF dla .NET możesz łatwo programowo rozszerzać zakładki w plikach PDF. Ten przewodnik przeprowadzi Cię przez proces krok po kroku, zapewniając, że rozumiesz każdą część kodu i sposób jego działania. Więc weź swój ulubiony napój i zanurzmy się w świecie manipulacji PDF!
+Czy kiedykolwiek otworzyłeś plik PDF tylko po to, aby odkryć, że wszystkie zakładki są zwinięte? Może to być frustrujące, szczególnie gdy próbujesz poruszać się po długim dokumencie. Na szczęście dzięki Aspose.PDF dla .NET możesz łatwo programowo rozszerzać zakładki w plikach PDF. Ten przewodnik przeprowadzi Cię przez proces krok po kroku, zapewniając, że rozumiesz każdą część kodu i jak on działa. Więc weź swój ulubiony napój i zanurzmy się w świecie manipulacji PDF!
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To najlepsze środowisko do rozwoju .NET.
-2.  Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
 ## Importuj pakiety
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Otwórz dokument PDF
 
- Następnie otworzysz dokument PDF zawierający zakładki, które chcesz rozszerzyć. Można to zrobić za pomocą`Document` klasa z biblioteki Aspose.PDF.
+Następnie otworzysz dokument PDF zawierający zakładki, które chcesz rozszerzyć. Można to zrobić za pomocą `Document` klasa z biblioteki Aspose.PDF.
 
 ```csharp
 // Otwórz dokument
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "input-bookmark.pdf");
 Teraz musisz ustawić tryb widoku strony dokumentu. Określa on sposób wyświetlania pliku PDF po jego otwarciu. W tym przypadku chcemy użyć konturów (zakładek).
 
 ```csharp
-//Ustaw tryb widoku strony, np. pokaż miniatury, pełny ekran, pokaż panel załączników
+// Ustaw tryb widoku strony, np. pokaż miniatury, pełny ekran, pokaż panel załączników
 doc.PageMode = PageMode.UseOutlines;
 ```
 
@@ -103,7 +105,7 @@ doc.Save(dataDir);
 
 ## Krok 6: Wiadomość potwierdzająca
 
-Na koniec możesz wydrukować na konsoli komunikat potwierdzający, że zakładki zostały pomyślnie rozszerzone.
+Na koniec możesz wydrukować na konsoli komunikat potwierdzający, że zakładki zostały pomyślnie rozwinięte.
 
 ```csharp
 Console.WriteLine("\nBookmarks expanded successfully.\nFile saved at " + dataDir);
@@ -111,7 +113,7 @@ Console.WriteLine("\nBookmarks expanded successfully.\nFile saved at " + dataDir
 
 ## Wniosek
 
-masz to! Udało Ci się rozszerzyć zakładki w pliku PDF za pomocą Aspose.PDF dla .NET. Ta prosta, ale potężna biblioteka pozwala Ci z łatwością manipulować dokumentami PDF, znacznie ułatwiając Ci życie. Niezależnie od tego, czy pracujesz nad osobistym projektem, czy profesjonalną aplikacją, Aspose.PDF to fantastyczne narzędzie, które warto mieć w swoim arsenale.
+I masz to! Udało Ci się rozszerzyć zakładki w pliku PDF za pomocą Aspose.PDF dla .NET. Ta prosta, ale potężna biblioteka pozwala Ci z łatwością manipulować dokumentami PDF, znacznie ułatwiając Ci życie. Niezależnie od tego, czy pracujesz nad osobistym projektem, czy profesjonalną aplikacją, Aspose.PDF to fantastyczne narzędzie, które warto mieć w swoim arsenale.
 
 ## Najczęściej zadawane pytania
 
@@ -119,19 +121,21 @@ masz to! Udało Ci się rozszerzyć zakładki w pliku PDF za pomocą Aspose.PDF 
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Pełną dokumentację Aspose.PDF dla .NET można znaleźć[Tutaj](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację Aspose.PDF dla .NET można znaleźć [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Czy jest dostępne wsparcie dla Aspose.PDF?
- Oczywiście! Możesz uzyskać wsparcie od społeczności Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Oczywiście! Możesz uzyskać wsparcie od społeczności Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Jak kupić licencję na Aspose.PDF?
- Możesz kupić licencję na Aspose.PDF[Tutaj](https://purchase.aspose.com/buy).
+Możesz kupić licencję na Aspose.PDF [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thêm đường viền văn bản vào tệp PDF
-linktitle: Thêm đường viền văn bản vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm đường viền văn bản vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu PDF của bạn.
-weight: 70
-url: /vi/net/programming-with-text/add-text-border/
+"description": "Tìm hiểu cách thêm đường viền văn bản vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu PDF của bạn."
+"linktitle": "Thêm đường viền văn bản vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm đường viền văn bản vào tệp PDF"
+"url": "/vi/net/programming-with-text/add-text-border/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm đường viền văn bản vào tệp PDF
@@ -22,7 +24,7 @@ Tạo và thao tác các tài liệu PDF đã trở thành một kỹ năng thi�
 Trước khi bắt đầu, có một vài điều bạn cần chuẩn bị. Đừng lo, nó khá đơn giản!
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển nơi bạn sẽ viết và chạy mã của mình.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ[Trang tải xuống Aspose PDF cho .NET](https://releases.aspose.com/pdf/net/) . Nếu bạn muốn dùng thử trước, bạn cũng có thể nhận được[dùng thử miễn phí tại đây](https://releases.aspose.com/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ [Trang tải xuống Aspose PDF cho .NET](https://releases.aspose.com/pdf/net/)Nếu bạn muốn dùng thử trước, bạn cũng có thể nhận được [dùng thử miễn phí tại đây](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về ngôn ngữ lập trình C# sẽ giúp bạn dễ dàng theo dõi các ví dụ.
 4. .NET Framework: Đảm bảo rằng bạn đã cài đặt và thiết lập .NET Framework trong dự án của mình.
 
@@ -52,11 +54,11 @@ Trước tiên, chúng ta cần tạo một tài liệu PDF mới. Đây là nơ
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tạo đối tượng tài liệu mới
+// Tạo đối tượng tài liệu mới 
 Document pdfDocument = new Document();
 ```
 
- Trong bước này, chúng tôi chỉ định thư mục nơi chúng tôi muốn lưu tệp PDF của mình. Sau đó, chúng tôi tạo một phiên bản mới của`Document` lớp đại diện cho tài liệu PDF của chúng ta.
+Trong bước này, chúng tôi chỉ định thư mục nơi chúng tôi muốn lưu tệp PDF của mình. Sau đó, chúng tôi tạo một phiên bản mới của `Document` lớp đại diện cho tài liệu PDF của chúng ta.
 
 ## Bước 2: Thêm trang mới
 
@@ -67,7 +69,7 @@ Tiếp theo, chúng ta cần thêm một trang vào tài liệu của mình. Hã
 Page pdfPage = (Page)pdfDocument.Pages.Add();
 ```
 
- Ở đây, chúng tôi gọi là`Add()` phương pháp trên`Pages` bộ sưu tập của chúng tôi`pdfDocument` đối tượng. Điều này thêm một trang mới vào tài liệu và chúng tôi lưu trữ một tham chiếu đến nó trong`pdfPage` biến đổi.
+Ở đây, chúng tôi gọi là `Add()` phương pháp trên `Pages` bộ sưu tập của chúng tôi `pdfDocument` đối tượng. Điều này thêm một trang mới vào tài liệu và chúng tôi lưu trữ một tham chiếu đến nó trong `pdfPage` biến đổi.
 
 ## Bước 3: Tạo một đoạn văn bản
 
@@ -79,7 +81,7 @@ TextFragment textFragment = new TextFragment("main text");
 textFragment.Position = new Position(100, 600);
 ```
 
- Trong mã này, chúng ta tạo một`TextFragment` đối tượng có văn bản "văn bản chính". Chúng tôi cũng thiết lập vị trí của nó trên trang bằng cách sử dụng`Position` lớp. Tọa độ (100, 600) chỉ định vị trí văn bản sẽ được đặt trên trang.
+Trong mã này, chúng ta tạo một cái mới `TextFragment` đối tượng có văn bản "văn bản chính". Chúng tôi cũng thiết lập vị trí của nó trên trang bằng cách sử dụng `Position` lớp. Tọa độ (100, 600) chỉ định vị trí văn bản sẽ được đặt trên trang.
 
 ## Bước 4: Thiết lập Thuộc tính Văn bản
 
@@ -93,7 +95,7 @@ textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray;
 textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red;
 ```
 
-Ở đây, chúng tôi đặt cỡ chữ là 12, sử dụng "Times New Roman" làm phông chữ và áp dụng màu nền xám nhạt với chữ màu đỏ. Các thuộc tính này giúp tăng cường khả năng hiển thị của văn bản.
+Ở đây, chúng tôi đặt cỡ chữ là 12, sử dụng "Times New Roman" làm phông chữ và áp dụng màu nền xám nhạt với chữ màu đỏ. Các thuộc tính này giúp tăng khả năng hiển thị của văn bản.
 
 ## Bước 5: Thiết lập màu nét cho đường viền
 
@@ -108,14 +110,14 @@ Trong bước này, chúng ta chỉ định màu của đường viền mà chú
 
 ## Bước 6: Kích hoạt Đường viền hình chữ nhật văn bản
 
- Để thực sự vẽ đường viền xung quanh văn bản của chúng ta, chúng ta cần kích hoạt`DrawTextRectangleBorder` tài sản.
+Để thực sự vẽ đường viền xung quanh văn bản của chúng ta, chúng ta cần kích hoạt `DrawTextRectangleBorder` tài sản.
 
 ```csharp
 // Đặt giá trị thuộc tính DrawTextRectangleBorder thành true
 textFragment.TextState.DrawTextRectangleBorder = true;
 ```
 
- Bằng cách thiết lập thuộc tính này thành`true`, chúng tôi yêu cầu Aspose.PDF vẽ đường viền xung quanh hình chữ nhật văn bản dựa trên màu nét được chỉ định.
+Bằng cách thiết lập thuộc tính này thành `true`, chúng tôi yêu cầu Aspose.PDF vẽ đường viền xung quanh hình chữ nhật văn bản dựa trên màu nét được chỉ định.
 
 ## Bước 7: Thêm đoạn văn bản vào trang
 
@@ -126,7 +128,7 @@ TextBuilder tb = new TextBuilder(pdfPage);
 tb.AppendText(textFragment);
 ```
 
- Ở đây, chúng tôi tạo ra một`TextBuilder` đối tượng được liên kết với chúng tôi`pdfPage` . Sau đó chúng tôi sử dụng`AppendText` phương pháp để thêm của chúng tôi`textFragment` vào trang. 
+Ở đây, chúng tôi tạo ra một `TextBuilder` đối tượng được liên kết với chúng tôi `pdfPage`. Sau đó chúng tôi sử dụng `AppendText` phương pháp để thêm của chúng tôi `textFragment` vào trang. 
 
 ## Bước 8: Lưu tài liệu
 
@@ -137,7 +139,7 @@ Cuối cùng, chúng ta cần lưu tài liệu PDF vào thư mục đã chỉ đ
 pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
 ```
 
-Trong bước này, chúng ta gọi`Save` phương pháp của chúng tôi`pdfDocument` đối tượng, cung cấp đường dẫn nơi chúng ta muốn lưu tệp. Sau khi chạy mã, bạn sẽ tìm thấy tệp PDF mới tạo có đường viền văn bản trong thư mục đã chỉ định!
+Trong bước này, chúng ta gọi `Save` phương pháp của chúng tôi `pdfDocument` đối tượng, cung cấp đường dẫn nơi chúng ta muốn lưu tệp. Sau khi chạy mã, bạn sẽ tìm thấy tệp PDF mới tạo có đường viền văn bản trong thư mục đã chỉ định!
 
 ## Phần kết luận
 
@@ -146,22 +148,24 @@ Và thế là xong! Bạn đã thêm thành công đường viền văn bản v�
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và xử lý các tài liệu PDF theo chương trình bằng cách sử dụng nền tảng .NET.
+Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và xử lý các tài liệu PDF theo chương trình bằng cách sử dụng nền tảng .NET.
 
 ### Tôi có thể dùng thử Aspose.PDF miễn phí không?
- Có! Aspose cung cấp một[dùng thử miễn phí](https://releases.aspose.com/) của thư viện PDF, cho phép bạn kiểm tra các tính năng của thư viện trước khi mua.
+Có! Aspose cung cấp một [dùng thử miễn phí](https://releases.aspose.com/) của thư viện PDF, cho phép bạn kiểm tra các tính năng của thư viện trước khi mua.
 
 ### Làm thế nào để mua Aspose.PDF cho .NET?
- Bạn có thể mua Aspose.PDF cho .NET trực tiếp từ[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.PDF cho .NET trực tiếp từ [trang mua hàng](https://purchase.aspose.com/buy).
 
 ### Có hỗ trợ cho Aspose.PDF không?
- Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ bằng cách truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ bằng cách truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Nếu tôi cần giấy phép tạm thời thì sao?
- Aspose cung cấp một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) Tùy chọn dành cho các nhà phát triển cần đánh giá thư viện trong thời gian giới hạn.
+Aspose cung cấp một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) Tùy chọn dành cho các nhà phát triển cần đánh giá thư viện trong thời gian giới hạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

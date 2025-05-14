@@ -1,14 +1,16 @@
 ---
-title: Pobierz liczbę stron w pliku PDF
-linktitle: Pobierz liczbę stron w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Przewodnik krok po kroku, jak uzyskać liczbę stron w pliku PDF za pomocą Aspose.PDF dla .NET. Prosty do wdrożenia, idealny do Twoich projektów.
-weight: 70
-url: /pl/net/programming-with-pdf-pages/get-number-of-pages/
+"description": "Przewodnik krok po kroku, jak uzyskać liczbę stron w pliku PDF za pomocą Aspose.PDF dla .NET. Prosty do wdrożenia, idealny do Twoich projektów."
+"linktitle": "Pobierz liczbę stron w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz liczbę stron w pliku PDF"
+"url": "/pl/net/programming-with-pdf-pages/get-number-of-pages/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz liczbę stron w pliku PDF
@@ -22,7 +24,7 @@ Jeśli chodzi o pracę z plikami PDF, kluczowa jest wiedza, jak skutecznie uzysk
 Zanim przejdziemy do soczystych fragmentów samouczka, upewnijmy się, że masz wszystko, czego potrzebujesz, aby płynnie zacząć. Oto krótka lista kontrolna:
 
 1. Środowisko .NET: Upewnij się, że masz skonfigurowane środowisko programistyczne, może to być Visual Studio lub inne środowisko IDE zgodne z platformą .NET.
-2.  Biblioteka Aspose.PDF: Będziesz potrzebować biblioteki Aspose.PDF zainstalowanej w swoim projekcie. Możesz ją pobrać za pomocą NuGet,[pobierz tutaj](https://releases.aspose.com/pdf/net/)lub kup od[Tutaj](https://purchase.aspose.com/buy).
+2. Biblioteka Aspose.PDF: Będziesz potrzebować biblioteki Aspose.PDF zainstalowanej w swoim projekcie. Możesz ją pobrać za pomocą NuGet, [pobierz tutaj](https://releases.aspose.com/pdf/net/)lub kup od [Tutaj](https://purchase.aspose.com/buy).
 3. Podstawowa znajomość języka C#: Jest to samouczek dotyczący języka C#, więc dobra znajomość tego języka da ci przewagę.
 
 ## Importuj pakiety
@@ -43,7 +45,7 @@ Jeśli jeszcze nie zainstalowałeś biblioteki Aspose.PDF, możesz to zrobić za
 
 ### Napisz oświadczenie importowe
 
- Na górze pliku głównego (np.`Program.cs`), dodaj następującą dyrektywę using:
+Na górze pliku głównego (np. `Program.cs`), dodaj następującą dyrektywę using:
 
 ```csharp
 using System.IO;
@@ -61,16 +63,16 @@ Musisz określić, gdzie znajduje się Twój plik PDF. W tym kroku możesz zdefi
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu zawierającego plik PDF. To tutaj biblioteka Aspose będzie szukać pliku, który chcesz przeanalizować. To tak, jakby dać swojej bibliotece mapę do skarbu!
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu zawierającego plik PDF. To tutaj biblioteka Aspose będzie szukać pliku, który chcesz przeanalizować. To tak, jakbyś dał swojej bibliotece mapę do skarbu!
 
 ## Krok 2: Utwórz instancję dokumentu PDF
 
- Teraz, gdy mamy już skonfigurowany katalog, musimy utworzyć jego wystąpienie`Document` klasa, która będzie przechowywać nasze dane PDF.
+Teraz, gdy mamy już skonfigurowany katalog, musimy utworzyć jego wystąpienie `Document` klasa, która będzie przechowywać nasze dane PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetNumberOfPages.pdf");
 ```
- Ta linia tworzy nowy`Document` obiekt na podstawie określonego pliku PDF. Pamiętaj, że plik PDF powinien odpowiadać nazwie, którą tutaj zdefiniujesz.
+Ta linia tworzy nowy `Document` obiekt na podstawie określonego pliku PDF. Pamiętaj, że plik PDF powinien odpowiadać nazwie, którą tutaj zdefiniujesz.
 
 ## Krok 3: Pobierz liczbę stron
 
@@ -79,7 +81,7 @@ Nadchodzi magiczny moment! Pobierzmy liczbę stron w naszym dokumencie PDF.
 ```csharp
 int pageCount = pdfDocument.Pages.Count;
 ```
- Korzystanie z`Pages` własność`Document`na przykład możemy uzyskać dostęp do liczby stron, które zawiera. To tak proste, jak otwarcie puszki napoju gazowanego — bez wysiłku!
+Korzystanie z `Pages` własność `Document` na przykład możemy uzyskać dostęp do liczby stron, które zawiera. To tak proste, jak otwarcie puszki napoju gazowanego — bez wysiłku!
 
 ## Krok 4: Wyświetl liczbę stron
 
@@ -92,7 +94,7 @@ Ta linia kodu wyprowadzi liczbę stron na konsolę. To jak okrążenie zwycięst
 
 ## Wniosek
 
-I masz to! W zaledwie kilku prostych krokach nauczyłeś się, jak uzyskać liczbę stron w pliku PDF za pomocą Aspose.PDF dla .NET. Niezależnie od tego, czy chodzi o liczenie stron przed operacją, czy po prostu wyświetlanie informacji w aplikacjach, ta funkcjonalność naprawdę zmienia zasady gry. 
+masz to! W zaledwie kilku prostych krokach nauczyłeś się, jak uzyskać liczbę stron w pliku PDF za pomocą Aspose.PDF dla .NET. Niezależnie od tego, czy chodzi o liczenie stron przed operacją, czy po prostu wyświetlanie informacji w aplikacjach, ta funkcjonalność naprawdę zmienia zasady gry. 
 
 Pamiętaj, że praca z plikami PDF nie musi być zniechęcająca. Dzięki narzędziom takim jak Aspose.PDF możesz płynnie poruszać się po dokumentach i nimi manipulować. Więc spróbuj, a zanim się obejrzysz, zostaniesz mistrzem PDF!
 
@@ -102,19 +104,21 @@ Pamiętaj, że praca z plikami PDF nie musi być zniechęcająca. Dzięki narzę
 Aspose.PDF to biblioteka .NET oferująca rozbudowane funkcje do tworzenia, odczytywania i edytowania dokumentów PDF.
 
 ### Czy jest dostępna bezpłatna wersja próbna?
- Tak, możesz wypróbować Aspose.PDF za darmo w okresie próbnym. Możesz go znaleźć[Tutaj](https://releases.aspose.com/).
+Tak, możesz wypróbować Aspose.PDF za darmo w okresie próbnym. Możesz go znaleźć [Tutaj](https://releases.aspose.com/).
 
 ### Jak mogę zakupić Aspose.PDF?
- Możesz zakupić Aspose.PDF odwiedzając stronę[strona zakupu](https://purchase.aspose.com/buy).
+Możesz zakupić Aspose.PDF odwiedzając stronę [strona zakupu](https://purchase.aspose.com/buy).
 
 ### A co jeśli będę potrzebować wsparcia?
- Aspose zapewnia kompleksowe forum wsparcia, na którym możesz zadawać pytania i uzyskać pomoc. Sprawdź to[Tutaj](https://forum.aspose.com/c/pdf/10).
+Aspose zapewnia kompleksowe forum wsparcia, na którym możesz zadawać pytania i uzyskać pomoc. Sprawdź to [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Czy mogę ubiegać się o tymczasową licencję?
- Oczywiście! Możesz poprosić o tymczasową licencję, aby wypróbować pełne funkcje Aspose.PDF, odwiedzając stronę[tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+Oczywiście! Możesz poprosić o tymczasową licencję, aby wypróbować pełne funkcje Aspose.PDF, odwiedzając stronę [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Konversi ke BMP
-linktitle: Konversi ke BMP
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mudah mengonversi PDF ke gambar BMP menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Sempurna untuk pengembang .NET.
-weight: 90
-url: /id/net/programming-with-images/convert-to-bmp/
+"description": "Pelajari cara mudah mengonversi PDF ke gambar BMP menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Sempurna untuk pengembang .NET."
+"linktitle": "Konversi ke BMP"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Konversi ke BMP"
+"url": "/id/net/programming-with-images/convert-to-bmp/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi ke BMP
@@ -21,11 +23,11 @@ Mengonversi PDF ke gambar, seperti BMP, dapat menjadi pengubah permainan. Baik A
 
 Sebelum kita mulai membuat kode, mari kita persiapkan lingkungan Anda. Berikut ini yang Anda perlukan untuk memulai:
 
-1.  Aspose.PDF untuk .NET – Anda perlu mengunduh dan menginstal pustaka tersebut. Anda bisa mendapatkannya[Di Sini](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET – Anda perlu mengunduh dan menginstal pustaka tersebut. Anda bisa mendapatkannya [Di Sini](https://releases.aspose.com/pdf/net/).
 2. .NET Framework atau .NET Core – Pastikan Anda telah menginstal versi .NET yang sesuai.
 3. IDE – Visual Studio atau IDE C# lainnya yang Anda sukai.
-4.  File PDF – File PDF yang ingin Anda konversi (kami akan menggunakan file contoh bernama`AddImage.pdf` untuk contoh ini).
-5.  Lisensi Sementara atau Penuh – Untuk menghapus batasan evaluasi, dapatkan lisensi sementara atau penuh.[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau[membeli](https://purchase.aspose.com/buy) versi lengkap.
+4. File PDF – File PDF yang ingin Anda konversi (kami akan menggunakan file contoh bernama `AddImage.pdf` untuk contoh ini).
+5. Lisensi Sementara atau Penuh – Untuk menghapus batasan evaluasi, dapatkan lisensi sementara atau penuh. [lisensi sementara](https://purchase.aspose.com/tempatauary-license/) or [membeli](https://purchase.aspose.com/buy) versi lengkap.
 
 ## Paket Impor
 
@@ -51,11 +53,11 @@ Hal pertama yang akan kita lakukan adalah menentukan jalur ke dokumen PDF kita. 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Dengan mendefinisikan`dataDir`, kami memberi tahu program tempat menemukan berkas PDF Anda. Ini bisa berupa direktori lokal atau bahkan jalur ke drive jaringan, tergantung di mana berkas Anda disimpan.
+Dengan mendefinisikan `dataDir`, kami memberi tahu program tempat menemukan berkas PDF Anda. Ini bisa berupa direktori lokal atau bahkan jalur ke drive jaringan, tergantung di mana berkas Anda disimpan.
 
 ## Langkah 2: Muat Dokumen PDF
 
- Sekarang setelah kita menentukan jalur file kita, mari muat dokumen PDF ke dalam memori menggunakan Aspose.PDF`Document` objek. Objek ini akan memungkinkan kita untuk memanipulasi PDF dan mengubahnya menjadi format gambar.
+Sekarang setelah kita menentukan jalur file kita, mari muat dokumen PDF ke dalam memori menggunakan Aspose.PDF `Document` objek. Objek ini akan memungkinkan kita untuk memanipulasi PDF dan mengubahnya menjadi format gambar.
 
 
 ```csharp
@@ -63,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "AddImage.pdf");
 ```
 
- Di sini, kita memuat file bernama`AddImage.pdf` ke dalam sebuah contoh`Document` kelas. Anda dapat menggantinya dengan nama file PDF yang ingin Anda konversi.
+Di sini, kita memuat file bernama `AddImage.pdf` ke dalam sebuah contoh `Document` kelas. Anda dapat menggantinya dengan nama file PDF yang ingin Anda konversi.
 
 ## Langkah 3: Ulangi Melalui Halaman PDF
 
@@ -77,11 +79,11 @@ for (int pageCount = 1; pageCount <= pdfDocument.Pages.Count; pageCount++)
 }
 ```
 
-Kami menggunakan yang sederhana`for` loop yang berjalan melalui semua halaman dalam PDF.`pageCount` variabel akan berubah dari`1` ke jumlah total halaman (`pdfDocument.Pages.Count`), memastikan bahwa kami memproses setiap halaman.
+Kami menggunakan yang sederhana `for` loop yang berjalan melalui semua halaman dalam PDF. `pageCount` variabel akan berubah dari `1` ke jumlah total halaman (`pdfDocument.Pages.Count`), memastikan bahwa kami memproses setiap halaman.
 
 ## Langkah 4: Buat FileStream untuk Setiap Halaman
 
- Selanjutnya, untuk setiap halaman, kita perlu membuat`FileStream` yang akan menangani berkas BMP keluaran. Setiap gambar akan diberi nama secara dinamis, berdasarkan nomor halaman.
+Selanjutnya, untuk setiap halaman, kita perlu membuat `FileStream` yang akan menangani berkas BMP keluaran. Setiap gambar akan diberi nama secara dinamis, berdasarkan nomor halaman.
 
 
 ```csharp
@@ -91,7 +93,7 @@ using (FileStream imageStream = new FileStream("image" + pageCount + "_out" + ".
 }
 ```
 
- Ini`using` pernyataan membuat file bernama`imageX_out.bmp` (Di mana`X` adalah nomor halaman) untuk setiap halaman. Ini memastikan bahwa Anda mendapatkan file BMP individual untuk setiap halaman dalam PDF Anda.
+Ini `using` pernyataan membuat file bernama `imageX_out.bmp` (Di mana `X` adalah nomor halaman) untuk setiap halaman. Ini memastikan bahwa Anda mendapatkan file BMP individual untuk setiap halaman dalam PDF Anda.
 
 ## Langkah 5: Atur Resolusi Gambar
 
@@ -103,11 +105,11 @@ Sebelum mengonversi PDF ke BMP, kita perlu menentukan resolusi gambar keluaran. 
 Resolution resolution = new Resolution(300);
 ```
 
- A`Resolution` objek menentukan DPI untuk gambar. DPI yang lebih tinggi berarti kualitas yang lebih baik, tetapi juga ukuran file yang lebih besar. Anda dapat menyesuaikannya berdasarkan kebutuhan Anda.
+A `Resolution` objek menentukan DPI untuk gambar. DPI yang lebih tinggi berarti kualitas yang lebih baik, tetapi juga ukuran file yang lebih besar. Anda dapat menyesuaikannya berdasarkan kebutuhan Anda.
 
 ## Langkah 6: Buat Perangkat BMP
 
- Sekarang tibalah bagian ajaibnya! Kami menciptakan`BmpDevice` objek yang menggunakan resolusi kita sebagai parameter. Perangkat ini bertanggung jawab untuk mengubah halaman PDF menjadi gambar BMP.
+Sekarang tibalah bagian ajaibnya! Kami menciptakan `BmpDevice` objek yang menggunakan resolusi kita sebagai parameter. Perangkat ini bertanggung jawab untuk mengubah halaman PDF menjadi gambar BMP.
 
 
 ```csharp
@@ -115,11 +117,11 @@ Resolution resolution = new Resolution(300);
 BmpDevice bmpDevice = new BmpDevice(resolution);
 ```
 
- Itu`BmpDevice` adalah utilitas Aspose.PDF yang memproses halaman PDF dan mengubahnya menjadi format BMP. Dengan memasukkan`resolution`, kami memastikan bahwa gambar keluaran memenuhi harapan kualitas kami.
+Itu `BmpDevice` adalah utilitas Aspose.PDF yang memproses halaman PDF dan mengubahnya menjadi format BMP. Dengan memasukkan `resolution`, kami memastikan bahwa gambar keluaran memenuhi harapan kualitas kami.
 
 ## Langkah 7: Ubah Halaman PDF ke BMP
 
- Setelah semuanya disiapkan, saatnya mengonversi halaman PDF menjadi gambar BMP dan menyimpannya ke`FileStream`Pada langkah ini semua aksi terjadi!
+Setelah semuanya disiapkan, saatnya mengonversi halaman PDF menjadi gambar BMP dan menyimpannya ke `FileStream`Pada langkah ini semua aksi terjadi!
 
 
 ```csharp
@@ -127,11 +129,11 @@ BmpDevice bmpDevice = new BmpDevice(resolution);
 bmpDevice.Process(pdfDocument.Pages[pageCount], imageStream);
 ```
 
- Itu`Process` metode mengonversi halaman saat ini (`pdfDocument.Pages[pageCount]`) ke dalam format BMP dan menyimpannya ke aliran file (`imageStream`). Baris ini adalah inti dari proses konversi.
+Itu `Process` metode mengonversi halaman saat ini (`pdfDocument.Pages[pageCount]`) ke dalam format BMP dan menyimpannya ke aliran file (`imageStream`). Baris ini adalah inti dari proses konversi.
 
 ## Langkah 8: Tutup Aliran
 
- Setelah gambar BMP disimpan, penting untuk menutupnya`FileStream` untuk memastikan bahwa semua data ditulis ke dalam berkas dan sumber daya dilepaskan dengan benar.
+Setelah gambar BMP disimpan, penting untuk menutupnya `FileStream` untuk memastikan bahwa semua data ditulis ke dalam berkas dan sumber daya dilepaskan dengan benar.
 
 
 ```csharp
@@ -143,7 +145,7 @@ Selalu tutup aliran Anda! Ini memastikan bahwa berkas disimpan dengan benar dan 
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah berhasil mengonversi berkas PDF Anda menjadi gambar BMP menggunakan Aspose.PDF untuk .NET. Metode ini sangat serbaguna, memungkinkan Anda untuk menangani beberapa halaman dan mengontrol resolusi gambar dengan mudah. Baik Anda mengonversi PDF untuk arsip digital atau sekadar mengekstrak gambar berkualitas tinggi, pendekatan ini akan membantu Anda.
+Nah, itu dia! Anda telah berhasil mengonversi berkas PDF Anda menjadi gambar BMP menggunakan Aspose.PDF for .NET. Metode ini sangat serbaguna, memungkinkan Anda menangani beberapa halaman dan mengontrol resolusi gambar dengan mudah. Baik Anda mengonversi PDF untuk arsip digital atau sekadar mengekstrak gambar berkualitas tinggi, pendekatan ini akan membantu Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -151,19 +153,21 @@ Nah, itu dia! Anda telah berhasil mengonversi berkas PDF Anda menjadi gambar BMP
 Tidak, Aspose.PDF memproses setiap halaman secara terpisah. Jika Anda memerlukan satu gambar, Anda harus menggabungkannya setelah konversi menggunakan alat pengolah gambar.
 
 ### Bisakah saya menyesuaikan resolusi untuk mendapatkan ukuran gambar yang lebih kecil?
- Ya, Anda dapat mengubah DPI di`Resolution` objek. Menurunkan DPI akan menghasilkan ukuran file yang lebih kecil tetapi kualitas gambarnya lebih rendah.
+Ya, Anda dapat mengubah DPI di `Resolution` objek. Menurunkan DPI akan menghasilkan ukuran file yang lebih kecil tetapi kualitas gambarnya lebih rendah.
 
 ### Apakah mungkin untuk mengonversi format lain seperti PNG atau JPEG?
 Ya, Aspose.PDF mendukung konversi ke berbagai format, termasuk PNG, JPEG, dan TIFF.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF untuk .NET?
- Anda dapat menggunakan Aspose.PDF dengan beberapa batasan dalam versi gratisnya. Untuk fungsionalitas penuh, Anda dapat memperoleh[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau beli versi lengkapnya.
+Anda dapat menggunakan Aspose.PDF dengan beberapa batasan dalam versi gratisnya. Untuk fungsionalitas penuh, Anda dapat memperoleh [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau beli versi lengkapnya.
 
 ### Bagaimana saya dapat menangani PDF yang terenkripsi?
 Aspose.PDF dapat membuka PDF terenkripsi selama Anda memberikan kata sandi yang benar saat memuat dokumen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Добавление разных заголовков в один PDF-файл с помощью Java
-linktitle: Добавление разных заголовков в один PDF-файл с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как добавлять различные заголовки в один PDF-файл с помощью Java с Aspose.PDF. Пошаговое руководство по настройке заголовков PDF.
-weight: 11
-url: /ru/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/
+"description": "Узнайте, как добавлять различные заголовки в один PDF-файл с помощью Java с Aspose.PDF. Пошаговое руководство по настройке заголовков PDF."
+"linktitle": "Добавление разных заголовков в один PDF-файл с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Добавление разных заголовков в один PDF-файл с помощью Java"
+"url": "/ru/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавление разных заголовков в один PDF-файл с помощью Java
@@ -22,7 +24,7 @@ url: /ru/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-u
 
 Прежде чем отправиться в это путешествие, убедитесь, что у вас выполнены следующие предварительные условия:
 
--  Aspose.PDF для библиотеки Java: загрузите и установите ее с сайта[здесь](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF для библиотеки Java: загрузите и установите ее с сайта [здесь](https://releases.aspose.com/pdf/java/).
 
 Теперь давайте шаг за шагом разберемся с тонкостями добавления различных заголовков в PDF-файл.
 
@@ -99,7 +101,7 @@ pdfDocument.save("output.pdf");
 
 ### Как можно дополнительно настроить содержимое заголовка?
 
-Вы можете настроить содержимое заголовка, добавив текст, изображения или другие элементы, используя богатый набор функций Aspose.PDF.
+Вы можете настраивать содержимое заголовка, добавляя текст, изображения или другие элементы, используя богатый набор функций Aspose.PDF.
 
 ### Совместим ли Aspose.PDF с Java 8?
 
@@ -115,10 +117,12 @@ pdfDocument.save("output.pdf");
 
 ### Где я могу найти больше примеров и документации по Aspose.PDF для Java?
 
- Вы можете изучить подробную документацию и примеры по адресу[Aspose.PDF для справочных материалов API Java](https://reference.aspose.com/pdf/java/).
+Вы можете изучить подробную документацию и примеры по адресу [Aspose.PDF для справочных материалов API Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

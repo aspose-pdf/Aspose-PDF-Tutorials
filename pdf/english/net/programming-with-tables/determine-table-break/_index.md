@@ -8,7 +8,9 @@ url: /net/programming-with-tables/determine-table-break/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Determine Table Break In PDF File
@@ -202,6 +204,7 @@ You can purchase the library from the [purchase page](https://purchase.aspose.co
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dodaj obraz jako tło w pływającym polu pliku PDF za pomocą Java
-linktitle: Dodaj obraz jako tło w pływającym polu pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać stemple graficzne jako tła w plikach PDF przy użyciu Java i Aspose.PDF dla Java. Przewodnik krok po kroku z przykładami kodu do niestandardowego brandingu i informacji.
-weight: 10
-url: /pl/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/
+"description": "Dowiedz się, jak dodawać stemple graficzne jako tła w plikach PDF przy użyciu Java i Aspose.PDF dla Java. Przewodnik krok po kroku z przykładami kodu do niestandardowego brandingu i informacji."
+"linktitle": "Dodaj obraz jako tło w pływającym polu pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodaj obraz jako tło w pływającym polu pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj obraz jako tło w pływającym polu pliku PDF za pomocą Java
@@ -24,7 +26,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 
 - Zainstalowano Java Development Kit (JDK)
 - Zintegrowane środowisko programistyczne (IDE) dla języka Java, np. IntelliJ IDEA lub Eclipse
--  Aspose.PDF dla biblioteki Java. Możesz pobrać ją z[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla biblioteki Java. Możesz pobrać ją z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Czym jest Aspose.PDF dla Java?
 
@@ -36,7 +38,7 @@ Znaczki obrazkowe w plikach PDF to elementy graficzne, które można dodać do d
 
 ## Przygotowanie środowiska programistycznego
 
- Zanim zagłębimy się w kod, musisz skonfigurować środowisko programistyczne. Upewnij się, że biblioteka Aspose.PDF for Java jest zainstalowana i skonfigurowana w projekcie Java. Możesz pobrać bibliotekę z[Tutaj](https://releases.aspose.com/pdf/java/).
+Zanim zagłębimy się w kod, musisz skonfigurować środowisko programistyczne. Upewnij się, że biblioteka Aspose.PDF for Java jest zainstalowana i skonfigurowana w projekcie Java. Możesz pobrać bibliotekę z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Tworzenie dokumentu PDF
 
@@ -49,7 +51,7 @@ Document pdfDocument = new Document();
 
 ## Dodawanie stempla graficznego
 
- Następnie dodamy stempel obrazkowy do dokumentu PDF. Powinieneś mieć gotowy plik obrazu na ten krok. Użyjemy`addStamp` metoda dodania obrazu jako stempla.
+Następnie dodamy stempel obrazkowy do dokumentu PDF. Powinieneś mieć gotowy plik obrazu na ten krok. Użyjemy `addStamp` metoda dodania obrazu jako stempla.
 
 ```java
 // Kod Java do dodania stempla graficznego
@@ -95,7 +97,7 @@ W tym samouczku nauczyliśmy się, jak dodać stempel graficzny jako tło w pły
 
 ### Jak mogę zmienić położenie stempla graficznego w pliku PDF?
 
- Możesz dostosować położenie stempla obrazu, modyfikując jego współrzędne X i Y za pomocą`stamp.setX` I`stamp.setY` metody.
+Możesz dostosować położenie stempla obrazu, modyfikując jego współrzędne X i Y za pomocą `stamp.setX` I `stamp.setY` metody.
 
 ### Czy mogę dodać wiele stempli graficznych do tego samego dokumentu PDF?
 
@@ -111,10 +113,12 @@ Oczywiście! Możesz dodać stemple tekstowe obok stempli obrazkowych, aby zapew
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.PDF dla Java?
 
- Pełną dokumentację i przykłady można znaleźć na stronie dokumentacji Aspose.PDF dla języka Java:[Tutaj](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację i przykłady można znaleźć na stronie dokumentacji Aspose.PDF dla języka Java: [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Search and Extract Text Using Regular Expressions with Aspose.PDF for Java
 
@@ -179,6 +181,9 @@ While Aspose.PDF is powerful, some complex layouts or non-standard fonts may pos
 Experiment with Aspose.PDF for Java today and streamline your PDF processing tasks!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

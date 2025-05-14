@@ -1,35 +1,37 @@
 ---
-title: Kép és oldalszám a Fejléc lábléc szakaszában soron belül
-linktitle: Kép és oldalszám a Fejléc lábléc szakaszában soron belül
-second_title: Aspose.PDF for .NET API Reference
-description: Ebből a lépésről-lépésre szóló útmutatóból megtudhatja, hogyan adhat hozzá közvetlenül egy képet és oldalszámot a PDF fejlécrészéhez az Aspose.PDF for .NET használatával.
-weight: 120
-url: /hu/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section-inline/
+"description": "Tanuld meg, hogyan adhatsz hozzá képet és oldalszámot egy PDF fejléc részéhez az Aspose.PDF for .NET használatával ebből a lépésről lépésre szóló útmutatóból."
+"linktitle": "Kép és oldalszám a fejléc és lábléc szakaszban beágyazva"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Kép és oldalszám a fejléc és lábléc szakaszban beágyazva"
+"url": "/hu/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section-inline/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kép és oldalszám a Fejléc lábléc szakaszában soron belül
+# Kép és oldalszám a fejléc és lábléc szakaszban beágyazva
 
 ## Bevezetés
 
-Az Aspose.PDF for .NET egy hatékony eszköz, amely kiterjedt lehetőségeket biztosít PDF-fájlok kezeléséhez és létrehozásához. Akár képeket kell hozzáadnia, akár testre kell szabnia a fejlécet és láblécet, akár szöveget kell kezelnie, az Aspose.PDF mindent megtesz. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet képet és oldalszámot közvetlenül hozzáadni egy PDF-dokumentum fejlécéhez vagy láblécéhez. Merüljünk el, és bontsuk le a folyamatot lépésről lépésre.
+Az Aspose.PDF for .NET egy hatékony eszköz, amely széleskörű lehetőségeket kínál PDF fájlok manipulálására és létrehozására. Akár képeket kell hozzáadnia, fejléceket és lábléceket kell testreszabnia, akár szöveget kell kezelnie, az Aspose.PDF segít. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhat hozzá képet és oldalszámot egy PDF dokumentum fejlécéhez vagy láblécéhez. Vágjunk bele rögtön, és bontsuk le a folyamatot lépésről lépésre.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, győződjünk meg arról, hogy minden a helyén van a követéshez:
+Mielőtt belevágnánk a kódba, győződjünk meg róla, hogy minden a helyén van a követéshez:
 
--  Aspose.PDF for .NET: Töltse le a legújabb verziót a[Aspose PDF letöltési oldal](https://releases.aspose.com/pdf/net/).
-- Fejlesztési környezet: Szüksége lesz egy C# IDE-re, például a Visual Studiora.
--  Licenc: Ha még nincs jogosítványa, akkor a[ideiglenes engedély itt](https://purchase.aspose.com/temporary-license/) vagy vásároljon egy teljeset a[Aspose üzlet](https://purchase.aspose.com/buy).
+- Aspose.PDF .NET-hez: Töltse le a legújabb verziót innen: [Aspose PDF letöltési oldal](https://releases.aspose.com/pdf/net/).
+- Fejlesztői környezet: Szükséged lesz egy C# IDE-re, például a Visual Studio-ra.
+- Jogosítvány: Ha még nincs jogosítványod, szerezhetsz egyet [ideiglenes jogosítvány itt](https://purchase.aspose.com/temporary-license/) vagy vásároljon egy komplettet a [Aspose áruház](https://purchase.aspose.com/buy).
 
-Most, hogy készen vannak az előfeltételek, kezdjük.
+Most, hogy megvannak az előfeltételek, kezdjük is el.
 
 ## Csomagok importálása
 
-A kódolás megkezdése előtt feltétlenül importálja a szükséges névtereket:
+Mielőtt elkezdenéd a kódolást, győződj meg róla, hogy importáltad a szükséges névtereket:
 
 ```csharp
 using System;
@@ -38,89 +40,89 @@ using System.Linq;
 using System.Text;
 ```
 
-Ezek a csomagok lehetővé teszik a PDF fájlokkal való munkát és a szövegkezelést.
+Ezek a csomagok lehetővé teszik PDF fájlokkal való munkát és szövegszerkesztést.
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár beállítása
 
-Az első dolog, amit meg kell tennünk, hogy meghatározzuk annak a könyvtárnak az elérési útját, ahová a PDF-fájlunk mentésre kerül. Ez az elérési út testreszabható a projekt mappájához vagy a számítógép bármely helyéhez.
+Az első dolog, amit tennünk kell, az az elérési út meghatározása, ahová a PDF fájlunkat menteni fogjuk. Ez az elérési út testreszabható a projekt mappájához vagy a gép bármely más helyéhez.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ez a változó tartalmazza azt a helyet, ahol a dokumentumot tárolni fogják. Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges úttal.
+Ez a változó tartalmazza a dokumentum tárolási helyét. `"YOUR DOCUMENT DIRECTORY"` a tényleges úttal.
 
-## 2. lépés: Példányosítsa a PDF-dokumentumot
+## 2. lépés: A PDF dokumentum példányosítása
 
- Ebben a lépésben létrehozzuk a`Aspose.Pdf.Document` objektum. Ez az objektum szolgál majd a PDF-fájl gerinceként.
+Ebben a lépésben létrehozunk egy új példányt a `Aspose.Pdf.Document` objektum. Ez az objektum a PDF-fájl gerincét fogja képezni.
 
 ```csharp
-// Példányosítson egy dokumentum objektumot az üres konstruktor meghívásával
+// Dokumentum objektum példányosítása az üres konstruktor meghívásával
 Aspose.Pdf.Document pdf1 = new Aspose.Pdf.Document();
 ```
 
-Itt egy üres PDF-fájlt hozunk létre, amelyet később feltölthetünk tartalommal.
+Itt egy üres PDF fájlt hozunk létre, amelyet később tartalommal tölthetünk fel.
 
-## 3. lépés: Adjon hozzá egy oldalt a PDF-hez
+## 3. lépés: Oldal hozzáadása a PDF-hez
 
-A PDF-nek legalább egy oldalra van szüksége, ahol fejléceket, láblécet és tartalmat adhat hozzá. Adjunk hozzá egy üres oldalt a dokumentumunkhoz.
+A PDF-nek legalább egy oldalra van szüksége, ahová fejléceket, lábléceket és tartalmat adhatsz hozzá. Adjunk hozzá egy üres oldalt a dokumentumunkhoz.
 
 ```csharp
-// Hozzon létre egy oldalt a PDF objektumban
+// Hozz létre egy oldalt a PDF objektumban
 Aspose.Pdf.Page page = pdf1.Pages.Add();
 ```
 
- Hívással`pdf1.Pages.Add()`egy új oldal kerül a dokumentumba, amely készen áll a fejléc és lábléc testreszabására.
+Hívással `pdf1.Pages.Add()`, egy új oldal kerül a dokumentumba, amely készen áll a fejléc és a lábléc testreszabására.
 
-## 4. lépés: Hozza létre és állítsa be a fejlécet
+## 4. lépés: Fejléc létrehozása és beállítása
 
-Itt az ideje, hogy létrehozza a dokumentum fejlécét. Itt adjuk hozzá a szöveget, a képet és az oldalszámot.
+Most itt az ideje, hogy létrehozzuk a dokumentum fejlécét. Ide fogjuk hozzáadni a szöveget, a képet és az oldalszámot.
 
 ```csharp
-// Hozzon létre fejléc szakaszt a dokumentumban
+// A dokumentum fejléc szakaszának létrehozása
 Aspose.Pdf.HeaderFooter header = new Aspose.Pdf.HeaderFooter();
-// Állítsa be a PDF-fájl fejlécét
+// PDF fájl fejlécének beállítása
 page.Header = header;
 ```
 
- Létrehozunk a`HeaderFooter` objektumot, és rendelje hozzá a`Header` az oldal tulajdonsága, biztosítva, hogy bármi, amit a fejléchez adunk, az oldal tetején jelenjen meg.
+Létrehozunk egy `HeaderFooter` objektumot, és rendelje hozzá a `Header` az oldal tulajdonsága, biztosítva, hogy bármi, amit a fejléchez adunk, az az oldal tetején jelenjen meg.
 
-## 5. lépés: Adjon hozzá szöveget a fejléchez
+## 5. lépés: Szöveg hozzáadása a fejléchez
 
- Szöveg hozzáadása olyan egyszerű, mint a`TextFragment` és tulajdonságainak megadása. Adjunk hozzá színes szöveget a fejlécünkhöz.
+A szöveg hozzáadása olyan egyszerű, mint egy `TextFragment` és a tulajdonságainak megadása. Adjunk hozzá színes szöveget a fejlécünkhöz.
 
 ```csharp
-// Hozzon létre egy szöveg objektumot
+// Szövegobjektum létrehozása
 Aspose.Pdf.Text.TextFragment txt1 = new Aspose.Pdf.Text.TextFragment("Aspose.Pdf is a Robust component by");
 // Adja meg a színt
 txt1.TextState.ForegroundColor = Color.Blue;
 txt1.IsInLineParagraph = true;
 ```
 
- Ebben a lépésben létrehozzuk a`TextFragment` az "Aspose.Pdf is a Robust komponent by" tartalommal, és állítsa be a színét kékre. A`IsInLineParagraph` A tulajdonság biztosítja, hogy a szöveg soron belüli legyen, vagyis ugyanabban a sorban fog megjelenni, mint a többi elem (például a kép és a kiegészítő szöveg).
+Ebben a lépésben létrehozunk egy `TextFragment` „Aspose.Pdf egy Robust komponens a következő tartalommal:” és állítsd be a színét kékre. `IsInLineParagraph` tulajdonság biztosítja, hogy a szöveg beágyazott legyen, ami azt jelenti, hogy ugyanabban a sorban jelenik meg, mint a többi elem (például a kép és a további szöveg).
 
-## 6. lépés: Szúrjon be egy soron belüli képet a fejlécbe
+## 6. lépés: Szúrjon be egy beágyazott képet a fejlécbe
 
-Annak érdekében, hogy a fejléc vizuálisan tetszetős legyen, hozzáadhat egy képet a szöveghez. Ez lehet a cég logója vagy bármilyen más grafika.
+A fejléc vizuális vonzóbbá tételéhez hozzáadhat egy képet a szövegbe ágyazva. Ez lehet a cége logója vagy bármilyen más grafika.
 
 ```csharp
-// Hozzon létre egy képobjektumot a szakaszban
+// Hozz létre egy képobjektumot a szakaszban
 Aspose.Pdf.Image image1 = new Aspose.Pdf.Image();
 // Állítsa be a képfájl elérési útját
 image1.File = dataDir + "aspose-logo.jpg";
-// Állítsa be a képszélesség információit
+// Kép szélességének beállítása Információk
 image1.FixWidth = 50;
 image1.FixHeight = 20;
-// Jelezze, hogy a seg1 InlineParagraphja egy kép.
+// Jelezze, hogy a seg1 InlineParagraph eleme egy kép.
 image1.IsInLineParagraph = true;
 ```
 
- Itt egy képet adunk a fejléchez úgy, hogy létrehozunk egy`Image` objektumot, útvonalát, valamint a szélességet és magasságot. A`IsInLineParagraph` biztosítja, hogy a kép igazodjon a szöveghez.
+Itt egy képet adunk a fejléchez egy `Image` objektumot, beállítja az útvonalát, valamint a szélességét és magasságát. `IsInLineParagraph` biztosítja, hogy a kép illeszkedjen a szöveghez.
 
-## 7. lépés: Adjon hozzá további soron belüli szöveget a fejléc kitöltéséhez
+## 7. lépés: További beágyazott szöveg hozzáadása a fejléc kiegészítéséhez
 
-Adjunk hozzá további szöveget a soron belüli fejléc kiegészítéséhez.
+Adjunk hozzá még egy kis szöveget a beágyazott fejléc kiegészítéséhez.
 
 ```csharp
 Aspose.Pdf.Text.TextFragment txt2 = new Aspose.Pdf.Text.TextFragment(" Pty Ltd.");
@@ -131,42 +133,44 @@ header.Paragraphs.Add(image1);
 header.Paragraphs.Add(txt2);
 ```
 
- Ebben a részben létrehozunk egy másikat`TextFragment` "Pty Ltd." tartalommal. és állítsa a színét gesztenyebarnara. Mind a szövegtöredékek, mind a kép hozzáadásra kerül a fejléchez.
+Ebben a részben létrehozunk egy másikat `TextFragment` „Pty Ltd.” tartalommal, és a színét bordó színűre állítjuk. Mind a szövegrészek, mind a kép hozzáadódnak a fejléchez.
 
-## 8. lépés: Mentse el a PDF-fájlt
+## 8. lépés: Mentse el a PDF-et
 
-Miután beállította a fejlécet, ideje elmenteni a PDF-fájlt.
+Miután beállítottad a fejlécet, itt az ideje menteni a PDF-et.
 
 ```csharp
-// Mentse el a PDF-et
+// Mentsd el a Pdf-et
 pdf1.Save(dataDir + "ImageAndPageNumberInHeaderFooter_UsingInlineParagraph_out.pdf");
 ```
 
- A`Save` módszer a végső PDF-fájlt a megadott helyre írja.
+A `Save` A metódus a megadott helyre írja a végleges PDF fájlt.
 
 ## Következtetés
 
-Gratulálok! Sikeresen hozzáadott egy képet és szöveget egy PDF-dokumentum fejlécéhez az Aspose.PDF for .NET használatával. Ez az oktatóanyag végigvezeti Önt az alapvető lépéseken, beleértve a dokumentum létrehozását, az oldalak hozzáadását, a fejlécek beszúrását és a beágyazott tartalom, például szöveg és képek elhelyezését. Az Aspose.PDF hihetetlen rugalmasságot biztosít a PDF-fájlok kezelésében, legyen szó fejlécek, láblécek vagy összetett tartalom kezeléséről. 
+Gratulálunk! Sikeresen hozzáadott egy képet és szöveget egy PDF dokumentum fejlécéhez az Aspose.PDF for .NET segítségével. Ez az oktatóanyag végigvezette a legfontosabb lépéseken, beleértve a dokumentum létrehozását, oldalak hozzáadását, fejlécek beszúrását és a szöveg és képekhez hasonló beágyazott tartalom elhelyezését. Az Aspose.PDF hihetetlen rugalmasságot biztosít a PDF-fájlok kezelésében, legyen szó akár fejlécek, láblécek vagy összetett tartalom kezeléséről. 
 
 ## GYIK
 
-### Hozzáadhatok oldalszámot a fejléchez is?
- Igen! Könnyen hozzáadhat oldalszámot a gombbal`TextFragment` osztályt, és szükség szerint formázzuk. Csak illessze be a fejléc részbe soron belüli tartalomként.
+### Hozzáadhatok egy oldalszámot a fejléchez is?
+Igen! Könnyen hozzáadhatsz oldalszámot a használatával `TextFragment` osztályt, és szükség szerint formázd meg. Csak illeszd be a fejléc szakaszba beágyazott tartalomként.
 
-### Hogyan állíthatok be háttérképet a fejlécben?
- Használhatja a`BackgroundImage` tulajdona a`HeaderFooter` osztályban háttérkép beállításához. Ez azonban nem inline tartalom, hanem a teljes fejlécterületet lefedi.
+### Hogyan tudok háttérképet beállítani a fejlécben?
+Használhatod a `BackgroundImage` a tulajdona `HeaderFooter` osztály háttérkép beállításához. Ez azonban nem beágyazott tartalom, és a teljes fejlécterületet lefedi.
 
 ### Lehetséges a JPEG-en kívül más képformátumokat is használni?
-Teljesen! Az Aspose.PDF különféle képformátumokat támogat, például PNG, BMP és GIF.
+Abszolút! Az Aspose.PDF különféle képformátumokat támogat, például PNG-t, BMP-t és GIF-et.
 
 ### Testreszabhatom a fejlécben lévő szöveg betűtípusát?
- Igen, használhatod a`TextState`objektumot a szöveg betűtípusának, méretének és stílusának módosításához.
+Igen, használhatod a `TextState` objektum a szöveg betűtípusának, méretének és stílusának megváltoztatásához.
 
 ### Szükségem van licencre az Aspose.PDF for .NET használatához?
- Igen, az Aspose.PDF éles felhasználáshoz licenc szükséges, de kezdheti a[ingyenes próbaverzió itt](https://releases.aspose.com/).
+Igen, az Aspose.PDF licencet igényel a termelési használathoz, de elkezdheted egy [ingyenes próba itt](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

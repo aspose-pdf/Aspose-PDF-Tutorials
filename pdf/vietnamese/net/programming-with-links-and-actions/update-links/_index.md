@@ -1,14 +1,16 @@
 ---
-title: Cập nhật liên kết trong tệp PDF
-linktitle: Cập nhật liên kết trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Dễ dàng cập nhật liên kết trong tệp PDF của bạn bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này. Đơn giản hóa việc chỉnh sửa PDF của bạn.
-weight: 120
-url: /vi/net/programming-with-links-and-actions/update-links/
+"description": "Dễ dàng cập nhật liên kết trong tệp PDF của bạn bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này. Đơn giản hóa việc chỉnh sửa PDF của bạn."
+"linktitle": "Cập nhật liên kết trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Cập nhật liên kết trong tệp PDF"
+"url": "/vi/net/programming-with-links-and-actions/update-links/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cập nhật liên kết trong tệp PDF
@@ -22,8 +24,8 @@ Bạn đã bao giờ thấy mình trong tình huống cần cập nhật liên k
 Trước khi bắt đầu, bạn cần lưu ý một số điều cần thiết sau:
 
 1. .NET Framework: Đảm bảo bạn có bản cài đặt .NET Framework đang hoạt động. Thư viện này hỗ trợ nhiều phiên bản khác nhau, vì vậy hãy đảm bảo kiểm tra tính tương thích.
-2.  Thư viện Aspose.PDF cho .NET: Bạn có thể tải xuống phiên bản mới nhất của Aspose.PDF cho .NET[đây](https://releases.aspose.com/pdf/net/). Thư viện này chứa tất cả các chức năng chúng ta cần để cập nhật liên kết PDF.
-3.  Visual Studio: Một IDE được ưa chuộng cho phát triển .NET. Bạn có thể tải xuống từ[Trang web của Microsoft](https://visualstudio.microsoft.com/).
+2. Thư viện Aspose.PDF cho .NET: Bạn có thể tải xuống phiên bản mới nhất của Aspose.PDF cho .NET [đây](https://releases.aspose.com/pdf/net/). Thư viện này chứa tất cả các chức năng chúng ta cần để cập nhật liên kết PDF.
+3. Visual Studio: Một IDE được ưa chuộng cho phát triển .NET. Bạn có thể tải xuống từ [Trang web của Microsoft](https://visualstudio.microsoft.com/).
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 5. Tài liệu PDF: Chuẩn bị một tệp PDF mẫu có chứa liên kết để bạn kiểm tra. Bạn có thể tạo một tệp PDF đơn giản có liên kết hoặc tải xuống từ internet.
 
@@ -73,7 +75,7 @@ Bước này đảm bảo rằng bạn có thể sử dụng tất cả các tí
 Đã đến lúc tải tệp PDF bạn muốn chỉnh sửa. Sau đây là cách bạn có thể thực hiện:
 
 1. Xác định đường dẫn lưu trữ tệp PDF của bạn.
-2.  Sử dụng`Document` lớp do Aspose.PDF cung cấp để tải tệp PDF của bạn.
+2. Sử dụng `Document` lớp do Aspose.PDF cung cấp để tải tệp PDF của bạn.
 
 Đây là mã:
 
@@ -86,10 +88,10 @@ Document doc = new Document(dataDir + "UpdateLinks.pdf");
 
 ## Bước 4: Truy cập chú thích liên kết
 
- Tiếp theo, chúng ta cần xác định liên kết cụ thể mà chúng ta muốn cập nhật trong PDF của mình. Đối với điều này, chúng ta sẽ sử dụng`LinkAnnotation` lớp học.
+Tiếp theo, chúng ta cần xác định liên kết cụ thể mà chúng ta muốn cập nhật trong PDF của mình. Đối với điều này, chúng ta sẽ sử dụng `LinkAnnotation` lớp học.
 
 1. Truy cập chú thích ở trang đầu tiên.
-2.  Gửi chú thích đến`LinkAnnotation`.
+2. Gửi chú thích đến `LinkAnnotation`.
 
 Mã cho bước này trông như thế này:
 
@@ -97,14 +99,14 @@ Mã cho bước này trông như thế này:
 LinkAnnotation linkAnnot = (LinkAnnotation)doc.Pages[1].Annotations[1]; // Điều chỉnh các chỉ số khi cần thiết
 ```
 
-Trong mã trên, hãy đảm bảo bạn đang trỏ đến chú thích liên kết chính xác. Các chỉ số bắt đầu từ số 0, vì vậy hãy điều chỉnh chúng nếu cần.
+Trong mã trên, hãy đảm bảo bạn đang trỏ đến chú thích liên kết chính xác. Các chỉ số bắt đầu từ số không, vì vậy hãy điều chỉnh chúng nếu cần.
 
 ## Bước 5: Sửa đổi đích liên kết
 
- Hãy thay đổi nơi liên kết đó trỏ đến. Chúng ta sẽ sử dụng`GoToAction` lớp để sửa đổi đích đến của nó.
+Hãy thay đổi nơi liên kết đó trỏ đến. Chúng ta sẽ sử dụng `GoToAction` lớp để sửa đổi đích đến của nó.
 
 1. Nhận hành động hiện tại của liên kết.
-2.  Đặt đích đến mới bằng cách sử dụng`XYZExplicitDestination`.
+2. Đặt đích đến mới bằng cách sử dụng `XYZExplicitDestination`.
 
 Đây là mã:
 
@@ -130,7 +132,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nLinks updated successfully.\nFile saved at " + dataDir);
 ```
 
-Với mã này, bạn sẽ lưu PDF với các liên kết đã cập nhật trong một tệp mới. Hãy đảm bảo kiểm tra thư mục đầu ra sau khi chạy chương trình.
+Với mã này, bạn sẽ lưu tệp PDF có liên kết đã cập nhật vào một tệp mới. Hãy đảm bảo kiểm tra thư mục đầu ra sau khi chạy chương trình.
 
 ## Bước 7: Xử lý ngoại lệ
 
@@ -152,22 +154,24 @@ Cập nhật liên kết trong tệp PDF bằng Aspose.PDF cho .NET rất đơn 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose.PDF cung cấp bản dùng thử miễn phí mà bạn có thể tìm thấy[đây](https://releases.aspose.com/).
+Có, Aspose.PDF cung cấp bản dùng thử miễn phí mà bạn có thể tìm thấy [đây](https://releases.aspose.com/).
 
 ### Aspose.PDF có tương thích với tất cả các phiên bản .NET không?
 Aspose.PDF hỗ trợ nhiều phiên bản .NET Framework. Hãy chắc chắn kiểm tra danh sách tương thích trên trang web của họ.
 
 ### Tôi có thể tìm tài liệu bổ sung ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/pdf/net/).
 
 ### Tôi phải làm sao nếu gặp sự cố khi sử dụng Aspose.PDF?
- Bạn có thể tìm kiếm sự hỗ trợ trong[diễn đàn](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tiếp cận để được hỗ trợ trong [diễn đàn](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể xin giấy phép thử nghiệm tạm thời bằng cách nào?
- Bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

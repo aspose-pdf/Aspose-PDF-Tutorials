@@ -1,14 +1,16 @@
 ---
-title: PDF'leri XLSX E-Tabloları olarak kaydedin
-linktitle: PDF'leri XLSX E-Tabloları olarak kaydedin
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF ile PDF'leri XLSX elektronik tablolarına nasıl dönüştüreceğinizi öğrenin. Verimli veri çıkarma ve analizi için adım adım kılavuz.
-weight: 21
-url: /tr/java/pdf-conversion-transformation/save-pdfs-as-xlsx-spreadsheets/
+"description": "Aspose.PDF for Java ile PDF'leri XLSX elektronik tablolarına nasıl dönüştüreceğinizi öğrenin. Verimli veri çıkarma ve analizi için adım adım kılavuz."
+"linktitle": "PDF'leri XLSX E-Tabloları olarak kaydedin"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF'leri XLSX E-Tabloları olarak kaydedin"
+"url": "/tr/java/pdf-conversion-transformation/save-pdfs-as-xlsx-spreadsheets/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'leri XLSX E-Tabloları olarak kaydedin
@@ -21,12 +23,12 @@ Java için Aspose.PDF, geliştiricilerin Java uygulamalarında PDF belgeleriyle 
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Sisteminizde Java Development Kit (JDK) yüklü.
--  Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Java Projenizi Kurma
 
 1. Tercih ettiğiniz Entegre Geliştirme Ortamında (IDE) yeni bir Java projesi oluşturun.
-2. Projenizin sınıf yoluna Aspose.PDF for Java kütüphanesini ekleyin.
+2. Aspose.PDF for Java kütüphanesini projenizin sınıf yoluna ekleyin.
 
 ## Kodun Yazılması
 
@@ -58,11 +60,11 @@ public class PdfToXlsxConverter {
 }
 ```
 
- Yukarıdaki kodda bir PDF belgesi yüklüyoruz, Excel kaydetme seçeneklerini başlatıyoruz ve ardından PDF'yi XLSX dosyasına dönüştürmek için PdfConverter sınıfını kullanıyoruz. Değiştirdiğinizden emin olun`"input.pdf"`PDF dosyanızın yolunu ve`"output.xlsx"` İstenilen çıktı dosyası yolu ile.
+Yukarıdaki kodda bir PDF belgesi yüklüyoruz, Excel kaydetme seçeneklerini başlatıyoruz ve ardından PDF'yi XLSX dosyasına dönüştürmek için PdfConverter sınıfını kullanıyoruz. Değiştirdiğinizden emin olun `"input.pdf"` PDF dosyanızın yolunu ve `"output.xlsx"` İstenilen çıktı dosyası yolu ile.
 
 ## Dönüştürmeyi Çalıştırma
 
- Dönüştürmeyi çalıştırmak için, yalnızca şunu çalıştırın:`main` Java projenizdeki yöntem. Dönüştürme tamamlandıktan sonra, PDF belgenizdeki verileri içeren bir XLSX dosyanız olacak.
+Dönüştürmeyi çalıştırmak için, yalnızca şunu çalıştırın: `main` Java projenizdeki yöntem. Dönüştürme tamamlandıktan sonra, PDF belgenizdeki verileri içeren bir XLSX dosyanız olacak.
 
 ## Çözüm
 
@@ -72,7 +74,7 @@ Bu adım adım kılavuzda, PDF'leri XLSX elektronik tablolarına dönüştürmek
 
 ### Java için Aspose.PDF'yi nasıl yüklerim?
 
- Java kütüphanesi için Aspose.PDF'yi şu web sitesinden indirebilirsiniz:[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/). Web sitelerinde verilen kurulum talimatlarını izleyin.
+Java kütüphanesi için Aspose.PDF'yi şu web sitesinden indirebilirsiniz: [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/). Web sitelerinde verilen kurulum talimatlarını izleyin.
 
 ### Aspose.PDF for Java'yı kullanarak PDF'leri diğer formatlara dönüştürebilir miyim?
 
@@ -86,12 +88,14 @@ Aspose.PDF for Java ticari bir kütüphanedir ve kullanımı için bir lisans ge
 
 Evet, kodunuzdaki Excel kaydetme seçeneklerini ayarlayarak XLSX dosyasının görünümünü ve biçimlendirmesini özelleştirebilirsiniz. Özelleştirmeyle ilgili ayrıntılar için belgelere bakın.
 
-### PDF'den XLSX'e dönüştürmede herhangi bir sınırlama var mı?
+### PDF'yi XLSX'e dönüştürmede herhangi bir sınırlama var mı?
 
 Dönüştürme doğruluğu, PDF belgesinin karmaşıklığına ve yapısına bağlı olarak değişebilir. Dönüştürülen dosyayı gözden geçirmek ve gerekli ayarlamaları yapmak önemlidir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

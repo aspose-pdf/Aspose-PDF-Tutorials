@@ -1,14 +1,16 @@
 ---
-title: Trích xuất văn bản từ chú thích tem trong PDF bằng Java
-linktitle: Trích xuất văn bản từ chú thích tem trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách trích xuất văn bản từ Stamp Annotations trong PDF bằng Java với hướng dẫn toàn diện này. Sử dụng Aspose.PDF cho Java để xử lý tài liệu PDF hiệu quả.
-weight: 14
-url: /vi/java/pdf-form-fields/extract-text-from-stamp-annotation-in-pdf-using-java/
+"description": "Tìm hiểu cách trích xuất văn bản từ Stamp Annotations trong PDF bằng Java với hướng dẫn toàn diện này. Sử dụng Aspose.PDF cho Java để xử lý tài liệu PDF hiệu quả."
+"linktitle": "Trích xuất văn bản từ chú thích tem trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Trích xuất văn bản từ chú thích tem trong PDF bằng Java"
+"url": "/vi/java/pdf-form-fields/extract-text-from-stamp-annotation-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất văn bản từ chú thích tem trong PDF bằng Java
@@ -22,9 +24,9 @@ Trong thời đại kỹ thuật số ngày nay, làm việc với các tài li�
 
 Trước khi đi sâu vào mã và hướng dẫn từng bước, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
--  Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải xuống từ[đây](https://www.java.com/download/).
+- Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải xuống từ [đây](https://www.java.com/download/).
 
--  Aspose.PDF cho Java: Bạn sẽ cần thư viện Aspose.PDF cho Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Java: Bạn sẽ cần thư viện Aspose.PDF cho Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 - Môi trường phát triển tích hợp (IDE): Sử dụng IDE theo lựa chọn của bạn; các tùy chọn phổ biến bao gồm Eclipse, IntelliJ IDEA hoặc Visual Studio Code.
 
@@ -104,7 +106,7 @@ Aspose.PDF for Java cung cấp cả phiên bản miễn phí và trả phí. Phi
 
 ### Tôi có thể tùy chỉnh giao diện của Chú thích tem khi trích xuất văn bản không?
 
-Có, bạn có thể tùy chỉnh giao diện của Stamp Annotations trong Aspose.PDF cho Java. Bạn có thể thay đổi màu văn bản, kích thước phông chữ và các thuộc tính khác khi cần.
+Có, bạn có thể tùy chỉnh giao diện của Stamp Annotations trong Aspose.PDF cho Java. Bạn có thể thay đổi màu chữ, cỡ chữ và các thuộc tính khác khi cần.
 
 ### Có giới hạn nào về kích thước của tài liệu PDF mà Aspose.PDF cho Java có thể xử lý không?
 
@@ -112,10 +114,12 @@ Aspose.PDF for Java được thiết kế để xử lý các tài liệu PDF c�
 
 ### Làm thế nào tôi có thể truy cập các tài nguyên và tài liệu bổ sung cho Aspose.PDF cho Java?
 
- Để biết tài liệu toàn diện và các tài nguyên bổ sung, hãy truy cập tài liệu Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Để có tài liệu toàn diện và các tài nguyên bổ sung, hãy truy cập tài liệu Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

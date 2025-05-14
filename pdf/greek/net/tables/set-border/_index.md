@@ -1,51 +1,56 @@
 ---
-title: Δημιουργήστε PDF με διπλό οριοθετημένο πίνακα χρησιμοποιώντας το Aspose.PDF για .NET 
-weight: 7700
-limit: 
-description: Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF με έναν πίνακα με διπλά όρια.  
-keywords: [Aspose PDF, .NET PDF example, double borders, PDF table, create PDF, Aspose documentation]
-url: /el/net/tables/set-border/
+"description": "Μάθετε πώς να δημιουργείτε ένα έγγραφο PDF με πίνακα με διπλά περιγράμματα. Περιλαμβάνονται οδηγίες γρήγορης εγκατάστασης και παραδείγματα κώδικα."
+"title": "Δημιουργήστε PDF με πίνακα με διπλό περίγραμμα χρησιμοποιώντας το Aspose.PDF για .NET"
+"url": "/el/net/tables/set-border/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργήστε PDF με διπλό οριοθετημένο πίνακα χρησιμοποιώντας το Aspose.PDF
+# Δημιουργήστε PDF με πίνακα με διπλό περίγραμμα χρησιμοποιώντας το Aspose.PDF
 
-Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF χρησιμοποιώντας το Aspose.PDF για το .NET, με έναν πίνακα με διπλά όρια στις επάνω και κάτω πλευρές των κυττάρων.
+Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF χρησιμοποιώντας το Aspose.PDF για .NET, το οποίο διαθέτει έναν πίνακα με διπλά περιγράμματα στην επάνω και κάτω πλευρά των κελιών. Ακολουθήστε τις οδηγίες βήμα προς βήμα για να εφαρμόσετε αυτήν τη λειτουργία στις εφαρμογές σας απρόσκοπτα.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/set-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Οδηγίες εγκατάστασης
-Για να ξεκινήσετε με το Aspose.PDF για .NET, ακολουθήστε τις παρακάτω οδηγίες εγκατάστασης:
+Για να ξεκινήσετε με το Aspose.PDF για .NET, ακολουθήστε αυτές τις οδηγίες εγκατάστασης:
 
-1. Κατεβάστε το Aspose.PDF: 
-   * Επισκεφθείτε το [Ιστοσελίδα Aspose](https://www.aspose.com/downloads/pdf/net)για να κατεβάσετε την τελευταία έκδοση του Aspose.PDF για .NET.
+1. Λήψη Aspose.PDF: 
+   - Επισκεφθείτε το [Ιστότοπος Aspose](https://www.aspose.com/downloads/pdf/net) για να κατεβάσετε την τελευταία έκδοση του Aspose.PDF για .NET.
 
 2. Εγκατάσταση μέσω του NuGet Package Manager:
-   * Άνοιξε το πρότζεκτ σου στο Visual Studio.
-   * Πηγαίνετε στα εργαλεία > NuGet Package Manager > Διαχειριστείτε πακέτα NuGet για λύση.
-   * Αναζητήστε το Aspose.PDF και εγκαταστήστε το πακέτο.
+   - Ανοίξτε το έργο σας στο Visual Studio.
+   - Μεταβείτε στα Εργαλεία > Διαχειριστής πακέτων NuGet > Διαχείριση πακέτων NuGet για λύση.
+   - Αναζητήστε το "Aspose.PDF" και εγκαταστήστε το πακέτο.
 
-3. Προσθέστε αναφορές:
-   * Βεβαιωθείτε ότι το έργο σας αναφέρεται στο Aspose.PDF DLL στο `Συσκευές`\- Το φάκελο.
+3. Προσθήκη αναφορών:
+   - Βεβαιωθείτε ότι το έργο σας αναφέρει το αρχείο DLL Aspose.PDF στο `packages` ντοσιέ.
    
-4. Συμπεριλάβετε το χώρο ονομάτων Aspose.PDF στο έργο σας:  
+4. Συμπεριλάβετε το Aspose.PDF namespace στο έργο σας:  
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Text;
    ```
 
 ## Για περισσότερες λεπτομέρειες:  
-[Aspose.PDF για την τεκμηρίωση .NET](https://docs.aspose.com/pdf/net/)  
-[Aspose.PDF για την αναφορά .NET API](https://reference.aspose.com/pdf/net/) 
+[Aspose.PDF για τεκμηρίωση .NET](https://docs.aspose.com/pdf/net/)  
+[Aspose.PDF για αναφορά API .NET](https://reference.aspose.com/pdf/net/) 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

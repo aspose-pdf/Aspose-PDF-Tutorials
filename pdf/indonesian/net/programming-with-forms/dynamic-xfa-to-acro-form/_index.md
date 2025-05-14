@@ -1,17 +1,19 @@
 ---
-title: XFA Dinamis Ke Bentuk Akro
-linktitle: XFA Dinamis Ke Bentuk Akro
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengonversi formulir XFA dinamis ke AcroForms standar menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini.
-weight: 70
-url: /id/net/programming-with-forms/dynamic-xfa-to-acro-form/
+"description": "Pelajari cara mengonversi formulir XFA dinamis ke AcroForms standar menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini."
+"linktitle": "XFA Dinamis ke Bentuk Akro"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "XFA Dinamis ke Bentuk Akro"
+"url": "/id/net/programming-with-forms/dynamic-xfa-to-acro-form/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# XFA Dinamis Ke Bentuk Akro
+# XFA Dinamis ke Bentuk Akro
 
 ## Perkenalan
 
@@ -22,7 +24,7 @@ Dalam dunia dokumen PDF, formulir memainkan peran penting dalam pengumpulan data
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan kita.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C# akan membantu Anda mengikutinya dengan lancar.
 
 ## Paket Impor
@@ -47,18 +49,18 @@ Pertama-tama, kita perlu menentukan di mana dokumen kita disimpan. Ini penting k
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada.
 
 ## Langkah 2: Muat Formulir XFA Dinamis
 
-Setelah direktori dokumen kita siap, saatnya memuat formulir XFA dinamis. Di sinilah keajaiban dimulai!
+Sekarang setelah direktori dokumen kita disiapkan, saatnya memuat formulir XFA dinamis. Di sinilah keajaiban dimulai!
 
 ```csharp
 // Muat formulir XFA dinamis
 Document document = new Document(dataDir + "DynamicXFAToAcroForm.pdf");
 ```
 
- Di sini, kita membuat yang baru`Document` objek dan lewati jalur file PDF XFA dinamis kita. Jika file tersebut berada di lokasi yang benar, maka akan dimuat ke dalam`document` variabel.
+Di sini, kita membuat yang baru `Document` objek dan lewati jalur file PDF XFA dinamis kita. Jika file tersebut berada di lokasi yang benar, maka akan dimuat ke dalam `document` variabel.
 
 ## Langkah 3: Tetapkan Jenis Bidang Formulir
 
@@ -69,7 +71,7 @@ Selanjutnya, kita perlu mengonversi kolom formulir dari XFA dinamis ke AcroForm 
 document.Form.Type = FormType.Standard;
 ```
 
- Dengan mengatur jenis formulir ke`Standard`, kami memberi tahu Aspose.PDF untuk memperlakukan formulir sebagai AcroForm standar, yang didukung secara lebih luas dan lebih mudah dimanipulasi.
+Dengan mengatur jenis formulir ke `Standard`, kami memberi tahu Aspose.PDF untuk memperlakukan formulir sebagai AcroForm standar, yang didukung secara lebih luas dan lebih mudah dimanipulasi.
 
 ## Langkah 4: Simpan PDF yang Dihasilkan
 
@@ -81,7 +83,7 @@ dataDir = dataDir + "Standard_AcroForm_out.pdf";
 document.Save(dataDir);
 ```
 
- Di sini, kami menambahkan nama file baru ke`dataDir` dan simpan dokumen. Ini akan membuat berkas PDF baru yang berisi AcroForm yang dikonversi.
+Di sini, kami menambahkan nama file baru ke `dataDir` dan simpan dokumen. Ini akan membuat berkas PDF baru yang berisi AcroForm yang dikonversi.
 
 ## Langkah 5: Konfirmasikan Konversi
 
@@ -109,13 +111,15 @@ Mengonversi ke AcroForm meningkatkan kompatibilitas dan memungkinkan manipulasi 
 Ya, Aspose menawarkan uji coba gratis yang dapat Anda gunakan untuk menguji pustaka sebelum membeli.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana jika saya mengalami masalah?
- Anda dapat mencari dukungan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda dapat mencari dukungan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

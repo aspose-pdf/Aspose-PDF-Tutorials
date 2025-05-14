@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'deki Metin Yapısı Öğeleri
-linktitle: Java kullanarak PDF'deki Metin Yapısı Öğeleri
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java'da Aspose.PDF for Java kullanarak PDF metin yapılarını nasıl düzenleyeceğinizi öğrenin. Verimli PDF metin işleme için kaynak kodlu adım adım kılavuzları keşfedin.
-weight: 14
-url: /tr/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/
+"description": "Java'da Aspose.PDF for Java kullanarak PDF metin yapılarını nasıl düzenleyeceğinizi öğrenin. Verimli PDF metin işleme için kaynak kodlu adım adım kılavuzları keşfedin."
+"linktitle": "Java kullanarak PDF'deki Metin Yapısı Öğeleri"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'deki Metin Yapısı Öğeleri"
+"url": "/tr/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'deki Metin Yapısı Öğeleri
@@ -20,7 +22,7 @@ Modern teknoloji dünyasında, PDF belgeleriyle uğraşmak birçok geliştirici 
 
 ## Başlarken
 
- Ayrıntılara dalmadan önce, Java için Aspose.PDF'in yüklü olduğundan emin olun. Bunu web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+Ayrıntılara dalmadan önce, Java için Aspose.PDF'in yüklü olduğundan emin olun. Bunu web sitesinden indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Java Projenizi Kurma
 
@@ -33,7 +35,7 @@ Modern teknoloji dünyasında, PDF belgeleriyle uğraşmak birçok geliştirici 
 Basit bir PDF belgesi oluşturarak ve ona metin ekleyerek başlayalım. Başlamanız için işte bazı örnek kodlar:
 
 ```java
-// Yeni bir PDF belgesi başlatın
+// Yeni bir PDF belgesi başlat
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
 // PDF belgesinde bir sayfa oluşturun
@@ -42,7 +44,7 @@ com.aspose.pdf.Page page = pdfDocument.getPages().add();
 // Bir TextFragment nesnesi oluşturun
 com.aspose.pdf.TextFragment textFragment = new com.aspose.pdf.TextFragment("Hello, Aspose.PDF!");
 
-//Metin özelliklerini ayarlayın (yazı tipi, boyut, renk vb.)
+// Metin özelliklerini ayarlayın (yazı tipi, boyut, renk vb.)
 textFragment.getTextState().setFont(com.aspose.pdf.FontRepository.findFont("Arial"));
 textFragment.getTextState().setFontSize(12);
 textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getBlack());
@@ -56,9 +58,9 @@ pdfDocument.save("output.pdf");
 
 Bu kod yeni bir PDF belgesi oluşturur, ona bir sayfa ekler ve sayfaya "Merhaba, Aspose.PDF!" metnini ekler. Ortaya çıkan PDF dosyası "output.pdf" olarak adlandırılacaktır.
 
-## Metin Yapısı Öğelerini Düzenleme
+## Metin Yapı Elemanlarını Düzenleme
 
-Artık basit bir PDF belgesi oluşturduğunuza göre, içindeki metin yapı öğelerini nasıl düzenleyeceğinizi inceleyelim. Metin yapı öğeleri erişilebilirlik ve yardımcı teknolojiler için önemlidir. Yapı türünü belirtebilir ve görme engelli kullanıcılar için alternatif metin ekleyebilirsiniz. Yapılandırılmış bir metin öğesinin nasıl oluşturulacağına dair bir örnek aşağıdadır:
+Artık basit bir PDF belgesi oluşturduğunuza göre, içindeki metin yapı öğelerini nasıl düzenleyeceğinizi inceleyelim. Metin yapı öğeleri erişilebilirlik ve yardımcı teknolojiler için olmazsa olmazdır. Yapı türünü belirtebilir ve görme engelli kullanıcılar için alternatif metin ekleyebilirsiniz. Yapılandırılmış bir metin öğesinin nasıl oluşturulacağına dair bir örnek aşağıdadır:
 
 ```java
 // Etiketli bir PDF belgesi oluşturun
@@ -131,14 +133,16 @@ Evet, Java için Aspose.PDF'yi kullanarak çeşitli biçimlendirme seçenekleriy
 
 ### Aspose.PDF for Java fatura ve rapor oluşturmak için uygun mudur?
 
-Kesinlikle! Aspose.PDF for Java, faturalar, raporlar ve diğer belge türlerini oluşturmak için güçlü bir araçtır. İçeriği ve düzeni özel gereksinimlerinizi karşılayacak şekilde özelleştirebilirsiniz.
+Kesinlikle! Aspose.PDF for Java, faturalar, raporlar ve diğer belge türleri oluşturmak için güçlü bir araçtır. İçeriği ve düzeni özel gereksinimlerinizi karşılayacak şekilde özelleştirebilirsiniz.
 
 ### Java için Aspose.PDF hakkında daha fazla doküman ve kaynağı nerede bulabilirim?
 
- Java için Aspose.PDF'e ilişkin kapsamlı dokümanları ve kaynakları şu web sitesinde bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin kapsamlı dokümanları ve kaynakları şu web sitesinde bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

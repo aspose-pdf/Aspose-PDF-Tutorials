@@ -1,14 +1,16 @@
 ---
-title: Pengaturan Bahasa dan Judul
-linktitle: Pengaturan Bahasa dan Judul
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Panduan langkah demi langkah untuk mengonfigurasi bahasa dan judul dokumen PDF dengan Aspose.PDF untuk .NET. Buat dokumen multibahasa yang dipersonalisasi.
-weight: 140
-url: /id/net/programming-with-tagged-pdf/setup-language-and-title/
+"description": "Panduan langkah demi langkah untuk mengonfigurasi bahasa dan judul dokumen PDF dengan Aspose.PDF untuk .NET. Buat dokumen multibahasa yang dipersonalisasi."
+"linktitle": "Pengaturan Bahasa dan Judul"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Pengaturan Bahasa dan Judul"
+"url": "/id/net/programming-with-tagged-pdf/setup-language-and-title/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pengaturan Bahasa dan Judul
@@ -22,7 +24,7 @@ Membuat PDF yang diberi tag merupakan aktivitas penting untuk memastikan aksesib
 Sebelum menyelami dunia PDF yang diberi tag, mari kita kumpulkan semua yang Anda butuhkan. Berikut ini yang harus Anda siapkan:
 
 - Pengetahuan Dasar tentang .NET: Meskipun Anda tidak perlu menjadi seorang coder yang hebat, keakraban dengan konsep .NET akan membuat perjalanan ini lebih lancar.
--  Aspose.PDF untuk .NET Terpasang: Pastikan Anda telah memasang pustaka tersebut. Anda dapat mengunduhnya untuk evaluasi atau membeli lisensi. Periksa[halaman unduhan di sini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET Terpasang: Pastikan Anda telah memasang pustaka tersebut. Anda dapat mengunduhnya untuk evaluasi atau membeli lisensi. Periksa [halaman unduhan di sini](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Di sinilah Anda akan menulis dan menguji kode Anda. Jika Anda tidak memilikinya, unduh dari situs web Microsoft.
 - Kemahiran Bahasa C#: Panduan ini ditulis dalam bahasa C#. Sedikit pengalaman dengan C# pasti akan membantu Anda memahami bagian-bagian kode dengan mudah.
 
@@ -51,13 +53,13 @@ Di sini, kami membuat dokumen PDF baru. Di sinilah semua konten Anda akan berada
 
 ## Langkah 2: Tentukan Direktori Dokumen
 
-Berikutnya adalah menentukan di mana dokumen Anda akan disimpan. Anda memerlukan tempat untuk menyimpan berkas PDF yang baru Anda buat.
+Berikutnya adalah menentukan tempat penyimpanan dokumen Anda. Anda memerlukan tempat untuk menyimpan berkas PDF yang baru Anda buat.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF. Ini sama seperti mencari tempat parkir untuk mobil baru Anda.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF. Ini sama seperti mencari tempat parkir untuk mobil baru Anda.
 
 ## Langkah 3: Dapatkan Konten yang Ditandai
 
@@ -90,7 +92,7 @@ h1.SetText("Phrase on different languages");
 taggedContent.RootElement.AppendChild(h1);
 ```
 
-Di sini, kami membuat header (H1) dengan teks. Ini seperti menanam rambu yang mengarahkan pembaca ke apa yang akan mereka baca selanjutnya. 
+Di sini, kami telah membuat header (H1) dengan teks. Ini seperti menanam rambu yang mengarahkan pembaca ke apa yang akan mereka baca selanjutnya. 
 
 ## Langkah 6: Tambahkan Paragraf dalam Beberapa Bahasa
 
@@ -175,13 +177,15 @@ Aspose.PDF untuk .NET menyediakan berbagai kelas dan metode yang memungkinkan An
 Ya! Aspose.PDF mendukung berbagai bahasa, sehingga Anda dapat menambahkan konten dalam berbagai bahasa dalam dokumen PDF yang sama.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF?
-Meskipun Anda dapat mencobanya secara gratis, lisensi diperlukan untuk penggunaan produksi. Pertimbangkan untuk mengunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk informasi lebih lanjut.
+Meskipun Anda dapat mencobanya secara gratis, lisensi diperlukan untuk penggunaan produksi. Pertimbangkan untuk mengunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk informasi lebih lanjut.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.PDF?
- Anda dapat menemukan dokumentasi dan dukungan lengkap untuk Aspose.PDF[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi dan dukungan lengkap untuk Aspose.PDF [Di Sini](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

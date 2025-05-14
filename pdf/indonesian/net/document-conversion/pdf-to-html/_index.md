@@ -1,14 +1,16 @@
 ---
-title: PDF ke HTML
-linktitle: PDF ke HTML
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengonversi PDF ke HTML menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang dan kreator konten.
-weight: 130
-url: /id/net/document-conversion/pdf-to-html/
+"description": "Pelajari cara mengonversi PDF ke HTML menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang dan kreator konten."
+"linktitle": "PDF ke HTML"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "PDF ke HTML"
+"url": "/id/net/document-conversion/pdf-to-html/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF ke HTML
@@ -22,13 +24,13 @@ Di era digital saat ini, mengonversi dokumen dari satu format ke format lain mer
 Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sinilah Anda akan menulis dan menjalankan kode .NET.
-2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 4. Contoh Berkas PDF: Untuk tutorial ini, Anda memerlukan contoh berkas PDF untuk digunakan. Anda dapat membuatnya sendiri atau mengunduh contoh dari internet.
 
 ## Paket Impor
 
-Untuk memulai dengan Aspose.PDF, Anda perlu mengimpor paket-paket yang diperlukan ke dalam proyek Anda. Berikut ini cara melakukannya:
+Untuk memulai Aspose.PDF, Anda perlu mengimpor paket-paket yang diperlukan ke dalam proyek Anda. Berikut ini cara melakukannya:
 
 ### Buat Proyek Baru
 
@@ -59,18 +61,18 @@ Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
 
 ## Langkah 2: Buka Dokumen PDF Sumber
 
- Selanjutnya, Anda ingin membuka dokumen PDF yang ingin Anda konversi. Ini dilakukan dengan menggunakan`Document` kelas disediakan oleh Aspose.PDF.
+Selanjutnya, Anda ingin membuka dokumen PDF yang ingin Anda konversi. Ini dilakukan dengan menggunakan `Document` kelas disediakan oleh Aspose.PDF.
 
 ```csharp
 // Buka dokumen PDF sumber
 Document pdfDocument = new Document(dataDir + "PDFToHTML.pdf");
 ```
 
- Pada baris ini, ganti`"PDFToHTML.pdf"` dengan nama berkas PDF Anda.
+Pada baris ini, ganti `"PDFToHTML.pdf"` dengan nama berkas PDF Anda.
 
 ## Langkah 3: Simpan PDF sebagai HTML
 
@@ -81,7 +83,7 @@ Sekarang tibalah bagian yang menarik! Anda akan menyimpan dokumen PDF sebagai fi
 pdfDocument.Save(dataDir + "output_out.html", SaveFormat.Html);
 ```
 
- Di Sini,`"output_out.html"` adalah nama berkas HTML yang akan dibuat. Anda dapat mengubahnya sesuai keinginan.
+Di Sini, `"output_out.html"` adalah nama berkas HTML yang akan dibuat. Anda dapat mengubahnya sesuai keinginan.
 
 
 ## Kesimpulan
@@ -97,16 +99,18 @@ Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk me
 Ya, Anda dapat mengulang beberapa berkas PDF dalam satu direktori dan mengonversi masing-masing berkas menjadi HTML menggunakan kode yang serupa.
 
 ### Apakah ada uji coba gratis yang tersedia?
- Ya, Anda dapat mengunduh uji coba gratis Aspose.PDF untuk .NET[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis Aspose.PDF untuk .NET [Di Sini](https://releases.aspose.com/).
 
 ### Format apa saja yang bisa saya ubah ke PDF?
 Selain HTML, Anda dapat mengonversi PDF ke berbagai format seperti DOCX, XLSX, dan lainnya menggunakan Aspose.PDF.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat menemukan dukungan dan mengajukan pertanyaan di forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dukungan dan mengajukan pertanyaan di forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

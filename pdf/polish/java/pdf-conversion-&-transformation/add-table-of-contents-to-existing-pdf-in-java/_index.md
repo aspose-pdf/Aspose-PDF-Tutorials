@@ -1,26 +1,28 @@
 ---
-title: Dodawanie spisu treści do istniejącego pliku PDF w Javie
-linktitle: Dodawanie spisu treści do istniejącego pliku PDF w Javie
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodać spis treści do pliku PDF w Javie, używając Aspose.PDF dla Javy. Ulepsz nawigację po dokumencie dzięki temu przewodnikowi krok po kroku.
-weight: 34
-url: /pl/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/
+"description": "Dowiedz się, jak dodać spis treści do pliku PDF w Javie, używając Aspose.PDF dla Javy. Ulepsz nawigację po dokumencie dzięki temu przewodnikowi krok po kroku."
+"linktitle": "Dodawanie spisu treści do istniejącego pliku PDF w Javie"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodawanie spisu treści do istniejącego pliku PDF w Javie"
+"url": "/pl/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/"
+"weight": 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie spisu treści do istniejącego pliku PDF w Javie
 
 
 ## Wstęp
-W tym przewodniku krok po kroku nauczymy się, jak dodać spis treści do istniejącego pliku PDF w Javie, korzystając z biblioteki Aspose.PDF for Java. Spis treści to przydatna funkcja w dokumentach PDF, która umożliwia czytelnikom szybkie poruszanie się po dokumencie.
+tym przewodniku krok po kroku nauczymy się, jak dodać spis treści do istniejącego pliku PDF w Javie, korzystając z biblioteki Aspose.PDF for Java. Spis treści to przydatna funkcja w dokumentach PDF, która umożliwia czytelnikom szybkie poruszanie się po dokumencie.
 
 ## Wymagania wstępne
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
--  Aspose.PDF dla biblioteki Java. Możesz pobrać ją z[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla biblioteki Java. Możesz pobrać ją z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Dodawanie zależności
 Aby rozpocząć, utwórz nowy projekt Java i dodaj bibliotekę Aspose.PDF for Java do zależności swojego projektu. Możesz to zrobić, dołączając plik JAR do ścieżki kompilacji swojego projektu.
@@ -98,15 +100,17 @@ Tak, możesz dodać hiperłącza do spisu treści, aby przejść do konkretnych 
 Tak, Aspose.PDF for Java oferuje szeroką gamę funkcji do pracy z dokumentami PDF, w tym wyodrębnianie tekstu, manipulację stronami i wiele innych.
 
 ### Czy jest dostępna wersja próbna Aspose.PDF dla Java?
- Tak, możesz pobrać wersję próbną Aspose.PDF dla Javy ze strony[Aspose.Zakupy](https://purchase.aspose.com/temporary-license/) aby ocenić jego funkcje przed zakupem licencji.
+Tak, możesz pobrać wersję próbną Aspose.PDF dla Javy ze strony [Aspose.Zakupy](https://purchase.aspose.com/temporary-license/) aby ocenić jego funkcje przed zakupem licencji.
 
 ### Jak mogę uzyskać dostęp do większej liczby samouczków i dokumentacji Aspose.PDF dla języka Java?
- Obszerne samouczki i dokumentację dla Aspose.PDF dla Javy można znaleźć na stronie internetowej pod adresem[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+Obszerne samouczki i dokumentację dla Aspose.PDF dla Javy można znaleźć na stronie internetowej pod adresem [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
 
 tym artykule przyjrzeliśmy się sposobowi dodawania spisu treści do istniejącego dokumentu PDF przy użyciu biblioteki Aspose.PDF for Java. Ta funkcja może znacznie poprawić użyteczność dokumentów PDF, umożliwiając czytelnikom łatwe przechodzenie do określonych sekcji lub rozdziałów. Ponadto omówiliśmy, jak dostosować wygląd spisu treści i generować numery stron. Aspose.PDF for Java oferuje szeroki zakres możliwości manipulacji plikami PDF, co czyni go potężnym narzędziem do pracy z plikami PDF w aplikacjach Java. Jeśli potrzebujesz dalszej pomocy lub chcesz poznać więcej funkcji Aspose.PDF for Java, koniecznie sprawdź ich dokumentację i samouczki.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Extracting fonts from PDFs using Aspose.PDF for .NET is a powerful capability th
 This tutorial provides a comprehensive guide to extracting fonts from PDFs using Aspose.PDF for .NET, ensuring smooth integration of this functionality into your projects.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

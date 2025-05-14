@@ -1,14 +1,16 @@
 ---
-title: Стиль ячейки таблицы в PDF с использованием Java
-linktitle: Стиль ячейки таблицы в PDF с использованием Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как стилизовать ячейки таблиц в документах PDF с помощью Aspose.PDF для Java. Улучшите свои приложения Java с помощью этого пошагового руководства по настройке PDF.
-weight: 13
-url: /ru/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/
+"description": "Узнайте, как стилизовать ячейки таблиц в документах PDF с помощью Aspose.PDF для Java. Улучшите свои приложения Java с помощью этого пошагового руководства по настройке PDF."
+"linktitle": "Стиль ячейки таблицы в PDF с использованием Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Стиль ячейки таблицы в PDF с использованием Java"
+"url": "/ru/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Стиль ячейки таблицы в PDF с использованием Java
@@ -24,7 +26,7 @@ url: /ru/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/
 
 - Среда разработки Java: убедитесь, что в вашей системе установлена Java.
 
--  Aspose.PDF для библиотеки Java: Загрузите библиотеку с сайта[здесь](https://releases.aspose.com/pdf/java/) если вы еще этого не сделали.
+- Aspose.PDF для библиотеки Java: Загрузите библиотеку с сайта [здесь](https://releases.aspose.com/pdf/java/) если вы еще этого не сделали.
 
 ## Создание простой таблицы PDF
 
@@ -56,7 +58,7 @@ pdfDocument.save("SimpleTable.pdf");
 
 ## Стилизация ячеек таблицы
 
-Теперь, когда у нас есть базовая таблица, давайте перейдем к стилизации ячеек таблицы. Мы сосредоточимся на изменении цвета фона определенных ячеек.
+Теперь, когда у нас есть наша базовая таблица, давайте перейдем к стилизации ячеек таблицы. Мы сосредоточимся на изменении цвета фона определенных ячеек.
 
 ```java
 // Код Java для стилизации ячеек таблицы в PDF-файле
@@ -87,7 +89,7 @@ pdfDocument.save("StyledTable.pdf");
 
 ### Как установить Aspose.PDF для Java?
 
-Установка Aspose.PDF для Java проста. Вы можете загрузить библиотеку с веб-сайта Aspose по адресу[здесь](https://releases.aspose.com/pdf/java/).
+Установка Aspose.PDF для Java проста. Вы можете загрузить библиотеку с веб-сайта Aspose по адресу [здесь](https://releases.aspose.com/pdf/java/).
 
 ### Могу ли я стилизовать другие аспекты PDF-файла с помощью Aspose.PDF для Java?
 
@@ -103,10 +105,12 @@ pdfDocument.save("StyledTable.pdf");
 
 ### Где я могу найти больше учебных пособий и ресурсов Aspose.PDF для Java?
 
- Подробные руководства и документацию можно найти в документации Aspose.PDF для Java по адресу[здесь](https://reference.aspose.com/pdf/java/).
+Подробные руководства и документацию можно найти в документации Aspose.PDF для Java по адресу [здесь](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

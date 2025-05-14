@@ -1,14 +1,16 @@
 ---
-title: Lebar Garis Anotasi lnk
-linktitle: Lebar Garis Anotasi lnk
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengatur lebar garis anotasi tinta dalam PDF menggunakan Aspose.PDF untuk .NET. Tutorial terperinci ini memandu Anda melalui setiap langkah, memastikan hasil berkualitas tinggi.
-weight: 110
-url: /id/net/annotations/lnkannotationlinewidth/
+"description": "Pelajari cara mengatur lebar garis anotasi tinta dalam PDF menggunakan Aspose.PDF untuk .NET. Tutorial terperinci ini memandu Anda melalui setiap langkah, memastikan hasil berkualitas tinggi."
+"linktitle": "Lebar Garis Anotasi lnk"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Lebar Garis Anotasi lnk"
+"url": "/id/net/annotations/lnkannotationlinewidth/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lebar Garis Anotasi lnk
@@ -21,7 +23,7 @@ Saat bekerja dengan dokumen PDF, menambahkan anotasi dapat menjadi cara yang amp
 
 Sebelum masuk ke kode, mari pastikan Anda telah menyiapkan semuanya untuk mengikuti tutorial ini dengan lancar:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya dari[halaman unduhan](https://releases.aspose.com/pdf/net/) atau menginstalnya melalui NuGet Package Manager di Visual Studio.
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya dari [halaman unduhan](https://releases.aspose.com/pdf/net/) atau menginstalnya melalui NuGet Package Manager di Visual Studio.
 2. Lingkungan Pengembangan: Tutorial ini mengasumsikan Anda bekerja di lingkungan pengembangan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang C# akan membantu Anda mengikuti langkah-langkah pengkodean.
 4. Dokumen PDF: Gunakan dokumen PDF yang ada atau buat yang baru untuk tutorial ini.
@@ -55,7 +57,7 @@ Document doc = new Document();
 doc.Pages.Add(); // Tambahkan halaman kosong ke dokumen
 ```
 
- Di sini, kita sedang menginisialisasi yang baru`Document` objek, yang mewakili berkas PDF kita. Kemudian kita tambahkan halaman kosong ke dokumen ini untuk digunakan.
+Di sini, kita sedang menginisialisasi yang baru `Document` objek, yang mewakili berkas PDF kita. Kemudian kita tambahkan halaman kosong ke dokumen ini untuk digunakan.
 
 ## Langkah 2: Buat Anotasi Tinta
 
@@ -71,7 +73,7 @@ lineInfo.LineColor = Color.Red;
 lineInfo.LineWidth = 2;
 ```
 
- Pada langkah ini, kami mendefinisikan`LineInfo` objek, yang menyimpan koordinat goresan tinta, visibilitasnya, warna, dan lebar garis awal.`VerticeCoordinate` array berisi koordinat X dan Y setiap titik dalam goresan.
+Pada langkah ini, kami mendefinisikan `LineInfo` objek, yang menyimpan koordinat goresan tinta, visibilitasnya, warna, dan lebar garis awal. `VerticeCoordinate` array berisi koordinat X dan Y setiap titik dalam goresan.
 
 ## Langkah 3: Ubah Koordinat menjadi Titik
 
@@ -89,7 +91,7 @@ for (int i = 0; i < length; i++)
 inkList.Add(gesture);
 ```
 
- Loop ini memproses array koordinat, mengubah setiap pasangan koordinat menjadi`Point` objek, yang kemudian ditambahkan ke kami`inkList`.
+Loop ini memproses array koordinat, mengubah setiap pasangan koordinat menjadi `Point` objek, yang kemudian ditambahkan ke kami `inkList`.
 
 ## Langkah 4: Tambahkan Anotasi Tinta ke Halaman PDF
 
@@ -103,7 +105,7 @@ a1.Title = "Title";
 a1.Color = Aspose.Pdf.Color.FromRgb(Color.Green);
 ```
 
- Pada langkah ini, kami menginisialisasi`InkAnnotation`objek, yang menentukan halaman, persegi panjang pembatas, dan daftar poin. Kami juga menetapkan subjek, judul, dan warna anotasi.
+Pada langkah ini, kami menginisialisasi `InkAnnotation` objek, yang menentukan halaman, persegi panjang pembatas, dan daftar poin. Kami juga menetapkan subjek, judul, dan warna anotasi.
 
 ## Langkah 5: Sesuaikan Batas Anotasi
 
@@ -119,7 +121,7 @@ border.Style = BorderStyle.Solid;
 doc.Pages[1].Annotations.Add(a1);
 ```
 
- Di sini, kita membuat`Border` objek untuk anotasi kita, mengatur lebarnya, efeknya, pola garis putus-putusnya, dan gayanya. Langkah ini memastikan bahwa anotasi tersebut menonjol secara visual pada halaman PDF.
+Di sini, kita membuat `Border` objek untuk anotasi kita, mengatur lebarnya, efeknya, pola garis putus-putusnya, dan gayanya. Langkah ini memastikan bahwa anotasi tersebut menonjol secara visual pada halaman PDF.
 
 ## Langkah 6: Simpan Dokumen PDF
 
@@ -132,7 +134,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nInk annotation line width setup successfully.\nFile saved at " + dataDir);
 ```
 
- Kode ini menyimpan dokumen PDF yang dimodifikasi dengan anotasi tinta di direktori yang ditentukan.`Console.WriteLine` pernyataan mengonfirmasi keberhasilan eksekusi kode.
+Kode ini menyimpan dokumen PDF yang dimodifikasi dengan anotasi tinta di direktori yang ditentukan. `Console.WriteLine` pernyataan mengonfirmasi keberhasilan eksekusi kode.
 
 ## Kesimpulan
 
@@ -141,22 +143,24 @@ Selamat! Anda telah berhasil membuat dan menyesuaikan anotasi tinta dalam dokume
 ## Pertanyaan yang Sering Diajukan
 
 ### Dapatkah saya menggunakan warna yang berbeda untuk bagian yang berbeda pada anotasi tinta?  
- Ya, Anda dapat membuat beberapa`InkAnnotation` objek dengan warna berbeda dan menambahkannya ke halaman yang sama atau berbeda di PDF Anda.
+Ya, Anda dapat membuat beberapa `InkAnnotation` objek dengan warna berbeda dan menambahkannya ke halaman yang sama atau berbeda di PDF Anda.
 
 ### Bagaimana cara mengubah lebar garis secara dinamis?  
- Anda dapat menyesuaikan`LineWidth` milik`LineInfo` objek sebelum mengubah koordinat menjadi titik.
+Anda dapat menyesuaikan `LineWidth` milik `LineInfo` objek sebelum mengubah koordinat menjadi titik.
 
 ### Apakah mungkin untuk membuat anotasi tinta menjadi transparan?  
- Ya, Anda dapat memodifikasi`Opacity` milik`InkAnnotation` objek untuk membuatnya transparan.
+Ya, Anda dapat memodifikasi `Opacity` milik `InkAnnotation` objek untuk membuatnya transparan.
 
 ### Bisakah saya menambahkan beberapa anotasi tinta pada halaman yang sama?  
 Tentu saja! Anda dapat menambahkan anotasi tinta sebanyak yang Anda suka ke satu halaman dengan mengulangi prosesnya.
 
 ### Bagaimana cara menghapus anotasi tinta dari PDF?  
- Anda dapat menghapus anotasi menggunakan`doc.Pages[1].Annotations.Delete(a1)` metode, dimana`a1` adalah objek anotasi Anda.
+Anda dapat menghapus anotasi menggunakan `doc.Pages[1].Annotations.Delete(a1)` metode, dimana `a1` adalah objek anotasi Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

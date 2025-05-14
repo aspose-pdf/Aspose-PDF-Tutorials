@@ -1,14 +1,16 @@
 ---
-title: Ustawianie DPI lub PPI obrazów w PDF za pomocą Java
-linktitle: Ustawianie DPI lub PPI obrazów w PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Zoptymalizuj jakość obrazu PDF dzięki naszemu przewodnikowi krok po kroku dotyczącemu ustawiania DPI/PPI w PDF przy użyciu Java. Dowiedz się, jak ulepszyć swoje dokumenty do druku i wyświetlania cyfrowego.
-weight: 12
-url: /pl/java/pdf-image-manipulation/setting-dpi-or-ppi-of-images-in-pdf-using-java/
+"description": "Zoptymalizuj jakość obrazu PDF dzięki naszemu przewodnikowi krok po kroku dotyczącemu ustawiania DPI/PPI w PDF przy użyciu Java. Dowiedz się, jak ulepszyć swoje dokumenty do druku i wyświetlania cyfrowego."
+"linktitle": "Ustawianie DPI lub PPI obrazów w PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Ustawianie DPI lub PPI obrazów w PDF za pomocą Java"
+"url": "/pl/java/pdf-image-manipulation/setting-dpi-or-ppi-of-images-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie DPI lub PPI obrazów w PDF za pomocą Java
@@ -30,9 +32,9 @@ DPI (Dots Per Inch) i PPI (Pixels Per Inch) to pomiary, które określają rozdz
 
 ### Metody ustawiania DPI/PPI przy użyciu Aspose.PDF dla Java
 
-###  Metoda 1: Korzystanie z`setImageResolution` Method
+### Metoda 1: Używanie `setImageResolution` Metoda
 
- Jednym ze sposobów ustawienia DPI/PPI dla obrazów w formacie PDF przy użyciu Aspose.PDF dla języka Java jest wykorzystanie`setImageResolution` Metoda. Ta metoda pozwala określić pożądaną rozdzielczość obrazów w pliku PDF.
+Jednym ze sposobów ustawienia DPI/PPI dla obrazów w formacie PDF przy użyciu Aspose.PDF dla języka Java jest wykorzystanie `setImageResolution` Metoda. Ta metoda pozwala określić pożądaną rozdzielczość obrazów w pliku PDF.
 
 ```java
 // Przykład kodu Java
@@ -41,9 +43,9 @@ imagePlacement.setImageFile("image.jpg");
 imagePlacement.setImageResolution(new Resolution(300, 300));
 ```
 
-###  Metoda 2: Korzystanie z`setResolution` Method
+### Metoda 2: Korzystanie z `setResolution` Metoda
 
- Innym podejściem jest użycie`setResolution` metoda ustawiania DPI/PPI obrazów w pliku PDF. Ta metoda zapewnia elastyczność w definiowaniu ustawień rozdzielczości.
+Innym podejściem jest użycie `setResolution` metoda ustawiania DPI/PPI obrazów w pliku PDF. Ta metoda zapewnia elastyczność w definiowaniu ustawień rozdzielczości.
 
 ```java
 // Przykład kodu Java
@@ -80,7 +82,7 @@ Ustawienie DPI/PPI zapewnia, że obrazy będą wyglądać zgodnie z oczekiwaniam
 
 ### Jak ustawić DPI/PPI za pomocą Aspose.PDF dla Java?
 
- Aspose.PDF dla Javy oferuje metody takie jak`setImageResolution` I`setResolution` aby ustawić DPI/PPI dla obrazów w plikach PDF. Zapoznaj się z naszym przewodnikiem, aby uzyskać szczegółowe przykłady kodu.
+Aspose.PDF dla Javy oferuje metody takie jak `setImageResolution` I `setResolution` aby ustawić DPI/PPI dla obrazów w plikach PDF. Zapoznaj się z naszym przewodnikiem, aby uzyskać szczegółowe przykłady kodu.
 
 ### Czy możesz podać przykład ustawienia DPI/PPI za pomocą kodu?
 
@@ -88,10 +90,12 @@ Oczywiście! W naszym przewodniku zamieściliśmy przykłady kodu Java, aby poka
 
 ### Jakie są zalecane wartości DPI/PPI dla obrazów PDF?
 
-Zalecane wartości DPI/PPI zależą od zamierzonego wykorzystania pliku PDF. Do wyświetlania w sieci często wystarcza 72 DPI. Do druku wysokiej jakości zaleca się 300 DPI lub więcej.
+Zalecane wartości DPI/PPI zależą od zamierzonego zastosowania pliku PDF. Do wyświetlania w sieci często wystarcza 72 DPI. Do druku wysokiej jakości zaleca się 300 DPI lub więcej.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

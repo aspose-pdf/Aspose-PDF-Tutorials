@@ -1,14 +1,16 @@
 ---
-title: Ссылки на PDF-документы
-linktitle: Ссылки на PDF-документы
-second_title: API обработки Java PDF Aspose.PDF
-description: Исследуйте ссылки на документы PDF в Java с помощью учебных пособий Aspose.PDF для Java. Создавайте гиперссылки, закладки и интерактивные PDF-файлы без усилий.
-weight: 15
-url: /ru/java/pdf-document-links/
+"description": "Исследуйте ссылки на документы PDF в Java с помощью учебных пособий Aspose.PDF для Java. Создавайте гиперссылки, закладки и интерактивные PDF-файлы без усилий."
+"linktitle": "Ссылки на PDF-документы"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Ссылки на PDF-документы"
+"url": "/ru/java/pdf-document-links/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ссылки на PDF-документы
@@ -35,9 +37,11 @@ Aspose.PDF для Java позволяет вам создавать высоко
 Узнайте, как добавлять гиперссылки в файлы PDF с помощью Java с пошаговыми инструкциями и исходным кодом. Улучшите свои документы PDF с помощью интерактивности.
 ### [Создать ссылку на другой PDF-документ с помощью Java](./create-a-link-to-another-pdf-document-using-java/)
 Узнайте, как легко создавать ссылки на документы PDF в Java с помощью Aspose.PDF для Java. Пошаговое руководство по интерактивности PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

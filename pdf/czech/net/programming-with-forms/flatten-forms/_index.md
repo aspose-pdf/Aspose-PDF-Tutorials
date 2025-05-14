@@ -1,43 +1,45 @@
 ---
-title: Sloučit formuláře v dokumentu PDF
-linktitle: Sloučit formuláře v dokumentu PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se sloučit formuláře v dokumentech PDF pomocí Aspose.PDF for .NET pomocí tohoto podrobného průvodce. Zabezpečte svá data bez námahy.
-weight: 100
-url: /cs/net/programming-with-forms/flatten-forms/
+"description": "Naučte se, jak sloučit formuláře v PDF dokumentech pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Zabezpečte svá data bez námahy."
+"linktitle": "Zploštění formulářů v dokumentu PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Zploštění formulářů v dokumentu PDF"
+"url": "/cs/net/programming-with-forms/flatten-forms/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sloučit formuláře v dokumentu PDF
+# Zploštění formulářů v dokumentu PDF
 
 ## Zavedení
 
-Přistihli jste se někdy, že řešíte formuláře PDF, které prostě nebudou spolupracovat? Vyplníte je, ale zůstanou upravitelné, takže přemýšlíte, jak je udělat trvalými. Tak to máš štěstí! V tomto tutoriálu se ponoříme do světa Aspose.PDF pro .NET a naučíme se, jak sloučit formuláře v dokumentu PDF. Sloučení formulářů je šikovný trik, který převádí interaktivní pole na statický obsah a zajišťuje, že vaše data zůstanou zachována a neměnná. Takže si vezměte svůj oblíbený nápoj a můžeme začít!
+Už jste se někdy ocitli v situaci, kdy se potýkají s PDF formuláři, které prostě nespolupracují? Vyplníte je, ale zůstanou upravitelné, takže si kladete otázku, jak je trvale upravit. Máte štěstí! V tomto tutoriálu se ponoříme do světa Aspose.PDF pro .NET a naučíme se, jak sloučit formuláře v PDF dokumentu. Sloučení formulářů je šikovný trik, který převádí interaktivní pole na statický obsah a zajišťuje tak, že vaše data zůstanou zachována a nebudou je možné je změnit. Takže si vezměte svůj oblíbený nápoj a pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do samotného kódu, ujistěte se, že máte vše potřebné k jeho dodržování:
 
-1. Visual Studio: K zápisu a spuštění kódu .NET budete potřebovat IDE. Visual Studio je skvělá volba.
-2.  Aspose.PDF for .NET: Tato výkonná knihovna nám pomůže manipulovat se soubory PDF. Můžete si jej stáhnout z[zde](https://releases.aspose.com/pdf/net/).
-3. Základní znalost C#: Trocha obeznámenosti s C# nám pomůže porozumět úryvkům kódu, které budeme používat.
+1. Visual Studio: Pro psaní a spouštění kódu .NET budete potřebovat IDE. Visual Studio je skvělou volbou.
+2. Aspose.PDF pro .NET: Tato výkonná knihovna nám pomůže s manipulací s PDF soubory. Můžete si ji stáhnout z [zde](https://releases.aspose.com/pdf/net/).
+3. Základní znalost C#: Trocha znalosti C# nám hodně pomůže porozumět úryvkům kódu, které budeme používat.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Abychom mohli začít, musíme importovat potřebné balíčky. Můžete to udělat takto:
+Pro začátek musíme importovat potřebné balíčky. Zde je návod, jak to udělat:
 
 ### Vytvořit nový projekt
 
-Otevřete Visual Studio a vytvořte nový projekt C#. Pro jednoduchost zvolte konzolovou aplikaci.
+Otevřete Visual Studio a vytvořte nový projekt v C#. Pro zjednodušení vyberte konzolovou aplikaci.
 
-### Přidejte odkaz Aspose.PDF
+### Přidat odkaz na Aspose.PDF
 
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
-2. Vyberte „Spravovat balíčky NuGet“.
-3. Vyhledejte „Aspose.PDF“ a nainstalujte nejnovější verzi.
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+2. Vyberte možnost „Spravovat balíčky NuGet“.
+3. Vyhledejte soubor „Aspose.PDF“ a nainstalujte nejnovější verzi.
 
 ```csharp
 using System;
@@ -46,36 +48,36 @@ using System.Linq;
 using System.Text;
 ```
 
-Nyní, když máme vše nastaveno, pojďme se ponořit do kódu!
+Teď, když máme vše nastavené, pojďme se ponořit do kódu!
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíme určit, kde jsou umístěny naše soubory PDF. To je zásadní, protože z tohoto adresáře budeme načítat naše zdrojové PDF.
+Nejdříve musíme určit, kde se naše PDF soubory nacházejí. To je klíčové, protože z tohoto adresáře budeme načítat zdrojový PDF.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde je uložen váš soubor PDF. Je to jako připravit půdu pro naše vystoupení!
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam je váš PDF soubor uložen. Je to jako příprava na naše vystoupení!
 
-## Krok 2: Načtěte zdrojový formulář PDF
+## Krok 2: Načtěte zdrojový PDF formulář
 
-Nyní, když máme nastavený adresář, je čas načíst formulář PDF, se kterým chceme pracovat. Tady začíná kouzlo!
+Nyní, když máme nastavený adresář, je čas načíst PDF formulář, se kterým chceme pracovat. Tady začíná kouzlo!
 
 ```csharp
-// Načíst zdrojový formulář PDF
+// Načíst zdrojový PDF formulář
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Tady vytváříme nový`Document`objekt a načteme do něj náš soubor PDF. Ujistěte se, že máte soubor PDF s názvem`input.pdf` ve vámi zadaném adresáři.
+Zde vytváříme nový `Document` objekt a načtení našeho PDF souboru do něj. Ujistěte se, že máte PDF soubor s názvem `input.pdf` ve vámi zadaném adresáři.
 
-## Krok 3: Zkontrolujte pole formuláře
+## Krok 3: Kontrola polí formuláře
 
-Než formuláře sloučíme, musíme zkontrolovat, zda jsou v dokumentu nějaká pole. Je to jako zkontrolovat, zda jsou naše ingredience před vařením čerstvé!
+Než formuláře srovnáme, musíme zkontrolovat, zda jsou v dokumentu nějaká pole. Je to jako když před vařením zkontrolujeme, zda jsou naše ingredience čerstvé!
 
 ```csharp
-// Zploštěné formuláře
+// Zploštění formulářů
 if (doc.Form.Fields.Count() > 0)
 {
     foreach (var item in doc.Form.Fields)
@@ -85,44 +87,46 @@ if (doc.Form.Fields.Count() > 0)
 }
 ```
 
-V tomto úryvku kontrolujeme počet polí formuláře. Pokud nějaké jsou, prokličkujeme každé pole a vyrovnáme je. Zploštění je jako zpečetění dohody – jakmile je hotovo, není cesty zpět!
+V tomto úryvku kontrolujeme počet polí formuláře. Pokud nějaká existují, projdeme každé pole cyklem a srovnáme je. Srovnání je jako uzavření dohody – jakmile je hotovo, není cesty zpět!
 
 ## Krok 4: Uložte aktualizovaný dokument
 
-Po zploštění formulářů musíme uložit naše změny. Toto je poslední krok na naší cestě!
+Po sloučení formulářů musíme uložit změny. Toto je poslední krok na naší cestě!
 
 ```csharp
 dataDir = dataDir + "FlattenForms_out.pdf";
-// Uložte aktualizovaný dokument
+// Uložit aktualizovaný dokument
 doc.Save(dataDir);
 Console.WriteLine("\nForms flattened successfully.\nFile saved at " + dataDir);
 ```
 
- Zde ukládáme aktualizovaný dokument s novým názvem,`FlattenForms_out.pdf`. Tímto způsobem zachováme náš původní soubor nedotčený při vytváření nové verze se sloučenými formuláři.
+Zde ukládáme aktualizovaný dokument s novým názvem, `FlattenForms_out.pdf`Tímto způsobem zachováme původní soubor neporušený, zatímco vytváříme novou verzi se sloučenými formuláři.
 
 ## Závěr
 
-tady to máte! Úspěšně jste sloučili formuláře v dokumentu PDF pomocí Aspose.PDF pro .NET. Tato jednoduchá, ale výkonná technika zajišťuje, že vaše data zůstanou v bezpečí a nelze je upravovat. Ať už pracujete na formulářích pro klienty, interní dokumenty nebo cokoli mezi tím, sloučení formulářů je užitečná dovednost, kterou byste měli mít ve své sadě nástrojů.
+A tady to máte! Úspěšně jste srovnali formuláře v PDF dokumentu pomocí Aspose.PDF pro .NET. Tato jednoduchá, ale účinná technika zajišťuje, že vaše data zůstanou v bezpečí a nebudou je možné je upravovat. Ať už pracujete na formulářích pro klienty, interních dokumentech nebo něčem mezi tím, srovnávání formulářů je užitečná dovednost, kterou byste měli mít ve své sadě nástrojů.
 
-## FAQ
+## Často kladené otázky
 
-### Co je zploštění v PDF?
-Sloučení v PDF se týká procesu převodu interaktivních polí formuláře na statický obsah, takže je nelze upravovat.
+### Co je to zploštění v PDF?
+Zploštění v PDF označuje proces převodu interaktivních polí formuláře na statický obsah, čímž se stanou neupravitelnými.
 
-### Mohu sloučit formuláře v jakémkoli PDF?
-Ano, pokud PDF obsahuje pole formuláře, můžete je sloučit pomocí Aspose.PDF pro .NET.
+### Mohu sloučit formuláře v libovolném PDF?
+Ano, pokud PDF obsahuje pole formuláře, můžete je sloučit do roviny pomocí Aspose.PDF pro .NET.
 
 ### Je Aspose.PDF zdarma k použití?
- Aspose.PDF nabízí bezplatnou zkušební verzi, ale pro plné funkce si budete muset zakoupit licenci. Podívejte se na[koupit odkaz](https://purchase.aspose.com/buy).
+Aspose.PDF nabízí bezplatnou zkušební verzi, ale pro všechny funkce si budete muset zakoupit licenci. Podívejte se na [koupit odkaz](https://purchase.aspose.com/buy).
 
 ### Kde najdu další dokumentaci?
- Kompletní dokumentaci naleznete na Aspose.PDF pro .NET[zde](https://reference.aspose.com/pdf/net/).
+Komplexní dokumentaci pro .NET naleznete na Aspose.PDF. [zde](https://reference.aspose.com/pdf/net/).
 
 ### Co když narazím na problémy?
- Pokud narazíte na nějaké problémy, neváhejte se obrátit na podporu na[Aspose fórum](https://forum.aspose.com/c/pdf/10).
+Pokud narazíte na jakékoli problémy, neváhejte se obrátit na podporu na [Fórum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

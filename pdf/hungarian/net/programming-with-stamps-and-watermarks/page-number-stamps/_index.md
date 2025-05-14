@@ -1,48 +1,50 @@
 ---
-title: Oldalszám bélyegzők PDF fájlban
-linktitle: Oldalszám bélyegzők PDF fájlban
-second_title: Aspose.PDF for .NET API Reference
-description: Könnyen követhető, kódpéldával kiegészített útmutatónkból megtudhatja, hogyan adhat hozzá oldalszámbélyegzőket PDF-fájlokhoz az Aspose.PDF for .NET használatával.
-weight: 160
-url: /hu/net/programming-with-stamps-and-watermarks/page-number-stamps/
+"description": "Tanuld meg, hogyan adhatsz hozzá oldalszámbélyegzőket PDF fájlokhoz az Aspose.PDF for .NET segítségével a könnyen követhető útmutatónkból, amely kódpéldákat is tartalmaz."
+"linktitle": "Oldalszámbélyegzők PDF fájlban"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Oldalszámbélyegzők PDF fájlban"
+"url": "/hu/net/programming-with-stamps-and-watermarks/page-number-stamps/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Oldalszám bélyegzők PDF fájlban
+# Oldalszámbélyegzők PDF fájlban
 
 ## Bevezetés
 
-Előfordult már, hogy egy PDF-dokumentummal birkózik, és azt kívánta, bárcsak oldalszámok szerepelnének a könnyebb navigáció érdekében? Legyen szó jegyzeteket megosztó diákról, jelentéseket prezentáló szakemberről vagy bárki, aki többoldalas dokumentumokat kezel, az oldalszámok hozzáadásával valóban javíthatja a PDF-fájlok tisztaságát. Szerencsére a hatékony Aspose.PDF for .NET könyvtárral könnyedén hozzáadhat oldalszámbélyegzőket PDF-dokumentumaihoz. Ebben az útmutatóban lépésről lépésre végigvezetjük a teljes folyamaton, biztosítva, hogy minden szükséges tudással rendelkezzen. Merüljünk el!
+Előfordult már veled, hogy birkóztál egy PDF dokumentummal, és azt kívántad, bárcsak oldalszámok lennének benne a könnyebb navigáció érdekében? Akár diák vagy, aki jegyzeteket oszt meg, akár profi, aki jelentéseket tart, vagy bárki, aki többoldalas dokumentumokat kezel, az oldalszámok hozzáadása valóban javíthatja a PDF-fájlok áttekinthetőségét. Szerencsére a hatékony Aspose.PDF for .NET könyvtárral könnyedén hozzáadhatsz oldalszámbélyegzőket a PDF-dokumentumaidhoz. Ebben az útmutatóban lépésről lépésre végigvezetünk a teljes folyamaton, biztosítva, hogy minden szükséges tudással rendelkezz. Vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt elkezdené az oldalszámbélyegzőket PDF-dokumentumaihoz adni, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk az oldalszámbélyegzők hozzáadását a PDF dokumentumokhoz, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren. Itt fogja írni és végrehajtani a kódját.
-2. .NET-keretrendszer: A C#-programozás és a .NET-keretrendszer ismerete elengedhetetlen, mivel az Aspose.PDF-et .NET-alkalmazásokhoz tervezték.
-3.  Aspose.PDF könyvtár: Az Aspose.PDF könyvtárat letöltheti a[Aspose PDF kiadások](https://releases.aspose.com/pdf/net/). 
-4. A PDF-ek alapvető ismerete: Bár nem kell szakértőnek lenned, a PDF-fájlok működésének alapvető ismerete segít az oktatóanyag jobb megértésében.
+1. Visual Studio: Győződj meg róla, hogy a Visual Studio telepítve van a rendszereden. Itt fogod írni és végrehajtani a kódodat.
+2. .NET keretrendszer: A C# programozás és a .NET keretrendszer ismerete elengedhetetlen, mivel az Aspose.PDF .NET alkalmazásokhoz készült.
+3. Aspose.PDF könyvtár: Az Aspose.PDF könyvtárat letöltheti innen: [Aspose PDF kiadások](https://releases.aspose.com/pdf/net/). 
+4. PDF-ek alapvető ismerete: Bár nem kell szakértőnek lenned, a PDF-fájlok működésének alapvető ismerete segít jobban megérteni az oktatóanyagot.
 
-Miután beállította ezeket az előfeltételeket, készen áll az oldalszámok bélyegzésére!
+Miután ezeket az előfeltételeket beállítottad, készen állsz az oldalszámok bélyegzésére!
 
 ## Csomagok importálása
 
-Mielőtt belemerülne a kódolásba, meg kell győződnie arról, hogy a szükséges Aspose.PDF csomagok importálva vannak a projektbe. Ez elengedhetetlen a könyvtári funkciók zökkenőmentes kihasználásához. Íme, hogyan kell csinálni:
+Mielőtt belevágnál a kódolásba, ellenőrizned kell, hogy a szükséges Aspose.PDF csomagok importálva vannak-e a projektedbe. Ez elengedhetetlen a könyvtári funkciók zökkenőmentes kihasználásához. Íme, hogyan teheted meg:
 
-### Hozzon létre egy új projektet
+### Új projekt létrehozása
 
-1. Nyissa meg a Visual Studio-t.
-2.  Kattintson rá`File` >`New` >`Project`.
-3.  Válasszon ki egy C#-nak megfelelő sablont (pl. konzolalkalmazás), nevezze el, és kattintson rá`Create`.
+1. Nyisd meg a Visual Studio-t.
+2. Kattintson ide `File` > `New` > `Project`.
+3. Válasszon ki egy C#-hoz illő sablont (pl. Console Application), nevezze el, majd kattintson a `Create`.
 
-### Adja hozzá az Aspose.PDF hivatkozást
+### Aspose.PDF referencia hozzáadása
 
-1. Kattintson a jobb gombbal a projekt nevére a Solution Explorerben.
-2.  Kattintson rá`Manage NuGet Packages`.
-3.  Keressen rá`Aspose.PDF` és telepítse a legújabb verziót.
+1. Kattintson a jobb gombbal a projekt nevére a Megoldáskezelőben.
+2. Kattintson ide `Manage NuGet Packages`.
+3. Keresés `Aspose.PDF` és telepítsd a legújabb verziót.
 
 ```csharp
 using System.IO;
@@ -51,43 +53,43 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-Ha a könyvtár készen áll, ugorjunk bele a kódolásba!
+Miután a könyvtár beüzemelésre kész, vágjunk bele a kódolásba!
 
-Most, hogy a környezetünk be van állítva, itt az ideje, hogy oldalszám-bélyegzőket adjunk egy PDF-fájlhoz. Ezt a folyamatot világos lépésekre bontjuk a jobb megértés érdekében.
+Most, hogy a környezetünk be van állítva, itt az ideje, hogy oldalszámbélyegzőket adjunk hozzá egy PDF fájlhoz. A jobb megértés érdekében ezt a folyamatot világos lépésekre bontjuk.
 
 ## 1. lépés: Adja meg a dokumentumkönyvtárat
 
-A kezdéshez meg kell adnia a könyvtárat, ahol a PDF-fájl található. Ez a projekt kiindulópontja.
+Kezdésként meg kell adnia azt a könyvtárat, ahol a PDF fájl található. Ez a projekt kiindulópontja.
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // Frissítse ezt az útvonalat
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Frissítse ezt az elérési utat
 ```
 
- Magyarázat: Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a PDF-fájlt tartalmazó könyvtár elérési útjával. Ez kritikus fontosságú, mivel megmondja a kódnak, hogy hol találja meg a módosítani kívánt fájlt.
+Magyarázat: Csere `"YOUR DOCUMENT DIRECTORY"` a PDF-fájlt tartalmazó könyvtárhoz vezető elérési úttal. Ez kritikus fontosságú, mivel ez jelzi a kódnak, hogy hol találja a manipulálni kívánt fájlt.
 
 ## 2. lépés: Nyissa meg a dokumentumot
 
-Ezután megnyitjuk a meglévő PDF-dokumentumot, amelyhez az oldalszám bélyegzőit hozzá szeretnénk adni.
+Ezután megnyitjuk a meglévő PDF dokumentumot, amelyhez hozzá szeretnénk adni az oldalszámbélyegzőket.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "PageNumberStamp.pdf");
 ```
 
- Magyarázat: Itt a`Document` Az Aspose.PDF által biztosított osztály az adott PDF fájl megnyitásához. Győződjön meg arról, hogy a fájlnév megegyezik a könyvtárában lévő tényleges fájllal.
+Magyarázat: Itt a következőt használjuk: `Document` Az Aspose.PDF által biztosított osztály segítségével megnyithatjuk a PDF-fájlunkat. Győződjünk meg róla, hogy a fájlnév megegyezik a könyvtárban található tényleges fájl nevével.
 
-## 3. lépés: Hozzon létre egy oldalszám bélyeget
+## 3. lépés: Oldalszámbélyegző létrehozása
 
-Most jön a szórakoztató rész! Hozzon létre egy oldalszám bélyeget, amelyet hozzáadhat a PDF-hez.
+Most jön a mókás rész! Hozzunk létre egy oldalszámozó pecsétet, amit hozzáadhatunk a PDF-ünkhöz.
 
 ```csharp
 PageNumberStamp pageNumberStamp = new PageNumberStamp();
 ```
 
- Magyarázat: A`PageNumberStamp`osztály lehetővé teszi számunkra, hogy bélyegzőt hozzunk létre, amely megjeleníti az aktuális oldalszámot a dokumentum teljes oldalszámához viszonyítva.
+Magyarázat: A `PageNumberStamp` osztály lehetővé teszi számunkra, hogy létrehozzunk egy bélyegzőt, amely az aktuális oldalszámot jeleníti meg a dokumentumban található összes oldal számához viszonyítva.
 
-## 4. lépés: Konfigurálja a bélyegzőt
+## 4. lépés: A bélyegző konfigurálása
 
-Most konfigurálnia kell a bélyegző beállításait. Itt lehet megtervezni a bélyegző megjelenését és viselkedését.
+Most konfigurálnia kell a bélyegző beállításait. Itt tervezheti meg a bélyegző kinézetét és viselkedését.
 
 ```csharp
 pageNumberStamp.Background = false;
@@ -99,12 +101,12 @@ pageNumberStamp.StartingNumber = 1;
 
 Magyarázat:
 - `Background = false`: Ez azt jelenti, hogy a bélyegző az előtérben fog megjelenni.
-- `Format`: Itt úgy állítja be a formátumot, hogy az „Y/X oldal” jelenjen meg, ahol dinamikusan lekéri a dokumentum összes oldalát.
-- `BottomMargin`: Beállítja a távolságot az oldal aljától.
-- `HorizontalAlignment`: A bélyegzőt vízszintesen középre állítja.
-- `StartingNumber`: Beállítja, hogy mi legyen a kezdőoldal száma, általában 1-től.
+- `Format`Itt úgy állítod be a formátumot, hogy az „X/Y oldal” jelenjen meg, ahol dinamikusan lekéred a dokumentumban található összes oldal számát.
+- `BottomMargin`: Beállítja az oldal aljától való távolságot.
+- `HorizontalAlignment`: Vízszintesen középre igazítja a bélyegzőt.
+- `StartingNumber`: Beállítja a kezdő oldalszámot, jellemzően 1-től.
 
-## 5. lépés: Állítsa be a szöveg tulajdonságait
+## 5. lépés: Szövegtulajdonságok beállítása
 
 Ezután testreszabhatja a bélyegző szövegének megjelenését.
 
@@ -116,21 +118,21 @@ pageNumberStamp.TextState.FontStyle = FontStyles.Italic;
 pageNumberStamp.TextState.ForegroundColor = Color.Aqua;
 ```
 
-Magyarázat: Ezek az attribútumok beállítják a betűtípust, a betűméretet, a stílust (félkövér és dőlt) és a bélyegzőn belüli szöveg színét, hogy az vizuálisan vonzó legyen.
+Magyarázat: Ezek az attribútumok konfigurálják a bélyegzőn belüli szöveg betűtípusát, betűméretét, stílusát (félkövér és dőlt egyaránt) és színét, hogy vizuálisan vonzóbbá tegyék azt.
 
-## 6. lépés: Adja hozzá a bélyegzőt egy adott oldalhoz
+## 6. lépés: Bélyegző hozzáadása egy adott oldalhoz
 
-Ha beállította a bélyegzőt, itt az ideje, hogy hozzáadja azt a dokumentum egy adott oldalához.
+Miután beállította a bélyegzőt, itt az ideje, hogy hozzáadja a dokumentum egy adott oldalához.
 
 ```csharp
 pdfDocument.Pages[1].AddStamp(pageNumberStamp);
 ```
 
- Magyarázat: Ez a sor hozzáadja a bélyeget a PDF első oldalához. Beállíthatja a`Pages[1]` szükség szerint további oldalak indexét.
+Magyarázat: Ez a sor hozzáadja a bélyegzőt a PDF első oldalához. Módosíthatja a `Pages[1]` szükség szerint indexelhet más oldalakat is.
 
 ## 7. lépés: Mentse el a kimeneti dokumentumot
 
-Végül mentse el a módosított PDF-dokumentumot, hogy a változtatások véglegesek legyenek.
+Végül mentse el a módosított PDF dokumentumot, hogy a módosítások véglegesek legyenek.
 
 ```csharp
 dataDir = dataDir + "PageNumberStamp_out.pdf";
@@ -138,11 +140,11 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nPage number stamp added successfully.\nFile saved at " + dataDir);
 ```
 
-Magyarázat: Ön határozza meg a kimeneti fájl elérési útját, és menti a dokumentumot. A konzol tudatja Önnel, hogy a bélyegző sikeresen hozzáadásra került, és hová menti a fájlt.
+Magyarázat: Meghatározza a kimeneti fájl elérési útját, és menti a dokumentumot. A konzol tájékoztatja a bélyegző sikeres hozzáadásáról és a fájl mentési helyéről.
 
 ## Következtetés
 
-Az oldalszámbélyegzők hozzáadása a PDF-fájlokhoz az Aspose.PDF for .NET segítségével nem csak egyszerű, hanem nagymértékben testreszabható is. Lépésről lépésre végigjártuk az oldalszámbélyegző létrehozását, biztosítva, hogy egyértelmű útmutatást kapjon az út során. Most már rendelkezik a PDF-dokumentumok fejlesztéséhez szükséges ismeretekkel, amelyek felhasználóbarátabbá és professzionálisabbá teszik azokat. 
+Az Aspose.PDF for .NET segítségével oldalszámbélyegzők hozzáadása PDF-fájljaihoz nemcsak egyszerű, de nagymértékben testreszabható is. Lépésről lépésre végigvezettük Önt az oldalszámbélyegzők létrehozásán, biztosítva, hogy egyértelmű útmutatást kapjon a folyamat során. Most már rendelkezik azzal a tudással, amely lehetővé teszi PDF-dokumentumok fejlesztését, felhasználóbarátabbá és professzionálisabbá tételét. 
 
 ## GYIK
 
@@ -150,19 +152,21 @@ Az oldalszámbélyegzők hozzáadása a PDF-fájlokhoz az Aspose.PDF for .NET se
 Igen! Az útmutatóban bemutatott módon módosíthatja az oldalszámok betűtípusát, méretét, színét és formázását.
 
 ### Ingyenesen használható az Aspose.PDF?  
- Az Aspose.PDF ingyenes próbaverziót kínál, de a széleskörű használathoz licenc szükséges. Nézze meg a[oldal vásárlása](https://purchase.aspose.com/buy) további információkért.
+Az Aspose.PDF ingyenes próbaverziót kínál, de a széleskörű használathoz licencre lesz szükséged. Nézd meg a [vásárlási oldal](https://purchase.aspose.com/buy) további információkért.
 
-### Mi van, ha problémákkal szembesülök a megvalósítás során?  
- Meglátogathatja a[Aspose támogatási fórum](https://forum.aspose.com/c/pdf/10) segítségért.
+### Mi van, ha problémákba ütközöm a megvalósítás során?  
+Meglátogathatod a [Aspose Támogatási Fórum](https://forum.aspose.com/c/pdf/10) segítségért.
 
-### Hogyan generálhatok automatikusan oldalszámokat több oldalhoz?  
-Az útmutató kódja automatikusan kiszámítja az oldalak teljes számát, megkönnyítve a testreszabást több oldalhoz.
+### Hogyan tudok automatikusan oldalszámokat generálni több oldalhoz?  
+Az útmutató kódja automatikusan kiszámítja az oldalak teljes számát, így a több oldalas testreszabás egyszerű.
 
 ### Használhatom az Aspose.PDF-et más programozási nyelveken?  
-Míg ez az útmutató a .NET-re összpontosít, az Aspose könyvtárakat tartalmaz Java, Python és sok más számára.
+Bár ez az útmutató a .NET-re összpontosít, az Aspose Java, Python és más nyelvekhez is kínál könyvtárakat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

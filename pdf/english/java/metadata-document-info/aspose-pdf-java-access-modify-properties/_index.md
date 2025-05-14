@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Access and Modify PDF Properties with Aspose.PDF for Java
 
@@ -263,7 +265,11 @@ Understanding and manipulating PDF properties can be immensely useful in various
 This guide has walked you through the process of accessing and modifying PDF properties using Aspose.PDF for Java. By leveraging these capabilities, you can enhance your applications' interaction with PDF files, providing a more tailored experience for users.
 
 For further exploration, consider diving into Aspose.PDF's extensive documentation and exploring additional features that could benefit your projects.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

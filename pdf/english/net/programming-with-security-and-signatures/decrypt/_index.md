@@ -8,7 +8,9 @@ url: /net/programming-with-security-and-signatures/decrypt/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Decrypt PDF File
@@ -142,6 +144,7 @@ You can visit the [Aspose support forum](https://forum.aspose.com/c/pdf/10) for 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tùy chỉnh số trang khi thêm mục lục
-linktitle: Tùy chỉnh số trang khi thêm mục lục
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tùy chỉnh số trang khi thêm Mục lục vào tài liệu PDF của bạn bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này.
-weight: 100
-url: /vi/net/programming-with-document/customizepagenumbeswhileaddingtoc/
+"description": "Tìm hiểu cách tùy chỉnh số trang khi thêm Mục lục vào tài liệu PDF của bạn bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này."
+"linktitle": "Tùy chỉnh số trang khi thêm mục lục"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tùy chỉnh số trang khi thêm mục lục"
+"url": "/vi/net/programming-with-document/customizepagenumbeswhileaddingtoc/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tùy chỉnh số trang khi thêm mục lục
@@ -22,7 +24,7 @@ Trong thế giới quản lý tài liệu, PDF thống trị tối cao. Chúng l
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển của chúng tôi.
-2. Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 4. Tệp PDF mẫu: Chuẩn bị tệp PDF mẫu mà chúng tôi có thể sử dụng. Bạn có thể tạo tệp PDF đơn giản hoặc tải xuống tệp PDF hiện có.
 
@@ -54,7 +56,7 @@ string inFile = dataDir + "42824.pdf";
 string outFile = dataDir + "42824_out.pdf";
 ```
 
-Trong đoạn trích này, hãy thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế nơi các tệp PDF của bạn được lưu trữ. Điều này sẽ giúp chúng tôi tải tệp PDF hiện có và lưu phiên bản đã sửa đổi.
+Trong đoạn trích này, hãy thay thế `YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế nơi các tệp PDF của bạn được lưu trữ. Điều này sẽ giúp chúng tôi tải tệp PDF hiện có và lưu phiên bản đã sửa đổi.
 
 ## Bước 2: Tải tệp PDF hiện có
 
@@ -64,7 +66,7 @@ Bây giờ chúng ta đã thiết lập xong thư mục tài liệu, hãy tải 
 Document doc = new Document(inFile);
 ```
 
- Ở đây, chúng ta tạo ra một cái mới`Document` đối tượng bằng cách truyền đường dẫn tệp đầu vào. Điều này cho phép chúng ta thao tác nội dung PDF theo chương trình.
+Ở đây, chúng ta tạo ra một cái mới `Document` đối tượng bằng cách truyền đường dẫn tệp đầu vào. Điều này cho phép chúng ta thao tác nội dung PDF theo chương trình.
 
 ## Bước 3: Chèn một trang mới cho mục lục
 
@@ -90,7 +92,7 @@ tocInfo.PageNumbersPrefix = "P";
 tocPage.TocInfo = tocInfo;
 ```
 
- Trong bước này, chúng ta tạo ra một`TocInfo` đối tượng và đặt tiêu đề của nó thành "Mục lục". Chúng tôi cũng tùy chỉnh kích thước và kiểu phông chữ.`PageNumbersPrefix` được đặt thành "P", sẽ thêm tiền tố vào số trang trong mục lục.
+Trong bước này, chúng ta tạo ra một `TocInfo` đối tượng và đặt tiêu đề của nó thành "Mục lục". Chúng tôi cũng tùy chỉnh kích thước và kiểu phông chữ. `PageNumbersPrefix` được đặt thành "P", sẽ thêm tiền tố vào số trang trong mục lục.
 
 ## Bước 5: Thêm Tiêu đề vào Mục lục
 
@@ -110,7 +112,7 @@ for (int i = 1; i < doc.Pages.Count; i++)
 }
 ```
 
- Trong vòng lặp này, chúng ta tạo ra một vòng lặp mới`Heading` đối tượng cho mỗi trang. Chúng tôi thiết lập trang đích cho mỗi tiêu đề và chỉ định văn bản hiển thị, đó là "Trang X" trong đó X là số trang. Cuối cùng, chúng tôi thêm tiêu đề vào trang TOC.
+Trong vòng lặp này, chúng ta tạo ra một vòng lặp mới `Heading` đối tượng cho mỗi trang. Chúng tôi thiết lập trang đích cho mỗi tiêu đề và chỉ định văn bản hiển thị, đó là "Trang X" trong đó X là số trang. Cuối cùng, chúng tôi thêm tiêu đề vào trang TOC.
 
 ## Bước 6: Lưu tài liệu đã cập nhật
 
@@ -120,7 +122,7 @@ Sau khi thêm tất cả các tiêu đề cần thiết, đã đến lúc lưu t
 doc.Save(outFile);
 ```
 
-Dòng này lưu PDF đã sửa đổi với TOC được bao gồm. Bây giờ bạn có thể mở tệp đầu ra và xem Mục lục tùy chỉnh của mình!
+Dòng này lưu tệp PDF đã sửa đổi có kèm theo TOC. Bây giờ bạn có thể mở tệp đầu ra và xem Mục lục tùy chỉnh của mình!
 
 ## Phần kết luận
 
@@ -129,22 +131,24 @@ Và thế là xong! Bạn đã tùy chỉnh thành công số trang trong khi th
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập diễn đàn Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Có giấy phép tạm thời không?
- Có, bạn có thể yêu cầu cấp giấy phép tạm thời cho Aspose.PDF[đây](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể yêu cầu cấp giấy phép tạm thời cho Aspose.PDF [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể mua Aspose.PDF cho .NET ở đâu?
- Bạn có thể mua Aspose.PDF cho .NET[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.PDF cho .NET [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

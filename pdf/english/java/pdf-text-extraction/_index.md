@@ -8,7 +8,9 @@ url: /java/pdf-text-extraction/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Text Extraction
@@ -27,9 +29,11 @@ Our tutorials not only focus on text extraction but also emphasize efficiency an
 ## PDF Text Extraction Tutorials
 ### [Tagged PDF Content Extraction using Java](./tagged-pdf-content-extraction-using-java/)
 Unlock the power of tagged PDF content extraction in Java with Aspose.PDF for Java. This step-by-step guide provides source code examples for seamless access to structured PDF content.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

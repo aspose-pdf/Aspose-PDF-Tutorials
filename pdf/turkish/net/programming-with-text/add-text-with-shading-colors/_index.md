@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına Gölgelendirme Renkleriyle Metin Ekleme
-linktitle: PDF Dosyasına Gölgelendirme Renkleriyle Metin Ekleme
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF dosyalarına metin gölgelendirmesi eklemeyi öğrenin. Belgelerinizi renkli degradelerle özelleştirin.
-weight: 80
-url: /tr/net/programming-with-text/add-text-with-shading-colors/
+"description": "Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF dosyalarına metin gölgelendirmesi eklemeyi öğrenin. Belgelerinizi renkli degradelerle özelleştirin."
+"linktitle": "PDF Dosyasına Gölgelendirme Renkleriyle Metin Ekleme"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Gölgelendirme Renkleriyle Metin Ekleme"
+"url": "/tr/net/programming-with-text/add-text-with-shading-colors/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Gölgelendirme Renkleriyle Metin Ekleme
@@ -21,11 +23,11 @@ PDF belgelerini biraz renkle görsel olarak öne çıkarmanız gerektiğini hiç
 
 Koda dalmadan önce, bu eğitimi takip etmek için ayarlamanız gereken birkaç şey var. İşte ihtiyacınız olanlar:
 
-1.  .NET için Aspose.PDF: Aspose.PDF'in en son sürümünü indirip yüklediğinizden emin olun.[buradan indirin](https://releases.aspose.com/pdf/net/).
-2. IDE (Bütünleşik Geliştirme Ortamı): Herhangi bir .NET uyumlu IDE kullanabilirsiniz, ancak Visual Studio şiddetle tavsiye edilir.
+1. .NET için Aspose.PDF: Aspose.PDF'in en son sürümünü indirip yüklediğinizden emin olun. [buradan indirin](https://releases.aspose.com/pdf/net/).
+2. IDE (Bütünleşik Geliştirme Ortamı): Herhangi bir .NET uyumlu IDE kullanabilirsiniz ancak Visual Studio şiddetle tavsiye edilir.
 3. Temel C# Bilgisi: C# sözdizimine ve .NET ortamına aşina olmalısınız.
 4. Örnek PDF Dosyası: Çalışmak için bir örnek PDF dosyasına ihtiyacınız olacak. Eğer yoksa, basit bir metin PDF'si oluşturabilir veya gösteri için mevcut herhangi bir dosyayı kullanabilirsiniz.
-5.  Aspose.PDF Lisansı: Aspose.PDF'yi bir[geçici lisans](https://purchase.aspose.com/temporary-license/)Ayrıca ücretsiz deneme sürümünü kullanarak özellikleri keşfedebilirsiniz.
+5. Aspose.PDF Lisansı: Aspose.PDF'yi bir [geçici lisans](https://purchase.aspose.com/temporary-license/)Ayrıca ücretsiz deneme sürümünü kullanarak özellikleri keşfedebilirsiniz.
 
 ## Paketleri İçe Aktar
 
@@ -49,11 +51,11 @@ Aspose.PDF for .NET kullanarak bir PDF dosyasındaki metne gölgelendirme ekleme
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın gerçek yoluyla. Bu, kodunuzun nerede bakacağını ve düzenlenen belgeyi nereye kaydedeceğini bilmesini sağlar.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın gerçek yoluyla. Bu, kodunuzun nerede bakacağını ve düzenlenen belgeyi nereye kaydedeceğini bilmesini sağlar.
 
 ## Adım 2: Mevcut bir PDF Belgesini Yükleyin
 
-Belge dizininiz ayarlandıktan sonra, düzenlemek istediğiniz PDF dosyasını yükleme zamanı gelir. Bu örnekte, adlı bir dosya kullanıyoruz`"text_sample4.pdf"`.
+Belge dizininiz ayarlandıktan sonra, düzenlemek istediğiniz PDF dosyasını yükleme zamanı gelir. Bu örnekte, adlı bir dosya kullanıyoruz `"text_sample4.pdf"`.
 
 ```csharp
 using (Document pdfDocument = new Document(dataDir + "text_sample4.pdf"))
@@ -62,7 +64,7 @@ using (Document pdfDocument = new Document(dataDir + "text_sample4.pdf"))
 }
 ```
 
- The`Document` Aspose.PDF'den alınan nesne PDF'yi açmamıza ve üzerinde çalışmamıza yardımcı olacaktır.
+The `Document` Aspose.PDF'den alınan nesne PDF'yi açmamıza ve üzerinde çalışmamıza yardımcı olacaktır.
 
 ## Adım 3: TextFragmentAbsorber Kullanarak Belirli Bir Metni Arayın
 
@@ -73,7 +75,7 @@ TextFragmentAbsorber absorber = new TextFragmentAbsorber("Lorem ipsum");
 pdfDocument.Pages.Accept(absorber);
 ```
 
- Bu örnekte PDF'de "Lorem ipsum" ifadesini arıyoruz.`Accept` Yöntem sayfaları işler ve emicinin metin parçalarını tanımlamasına olanak tanır.
+Bu örnekte PDF'de "Lorem ipsum" ifadesini arıyoruz. `Accept` Yöntem sayfaları işler ve emicinin metin parçalarını tanımlamasına olanak tanır.
 
 ## Adım 4: Değiştirmek İstediğiniz Metin Parçasına Erişin
 
@@ -96,11 +98,11 @@ textFragment.TextState.ForegroundColor = new Aspose.Pdf.Color()
 };
 ```
 
- Bu, seçili metinde kırmızıdan maviye doğru yumuşak bir degrade oluşturur.`PatternColorSpace` Bu özel renk efektini tanımlamak için kullanılır.
+Bu, seçili metinde kırmızıdan maviye doğru yumuşak bir degrade oluşturur. `PatternColorSpace` Bu özel renk efektini tanımlamak için kullanılır.
 
 ## Adım 6: Metnin altını çizin (İsteğe bağlı)
 
- Metne ekstra vurgu için alt çizgi eklemek istiyorsanız, bunu şu şekilde ayarlayabilirsiniz:`Underline` mülk`true`.
+Metne ekstra vurgu için alt çizgi eklemek istiyorsanız, bunu şu şekilde ayarlayabilirsiniz: `Underline` mülk `true`.
 
 ```csharp
 textFragment.TextState.Underline = true;
@@ -116,7 +118,7 @@ Son olarak gölgelendirme ve diğer istenilen değişiklikler uygulandıktan son
 pdfDocument.Save(dataDir + "text_out.pdf");
 ```
 
- Değiştirilen PDF şu adla kaydedilecektir:`"text_out.pdf"`daha önce belirttiğiniz dizinde. Şimdi dosyayı açabilir ve güzel gölgelendirilmiş metninizi görebilirsiniz!
+Değiştirilen PDF şu adla kaydedilecektir: `"text_out.pdf"` daha önce belirttiğiniz dizinde. Şimdi dosyayı açabilir ve güzel gölgelendirilmiş metninizi görebilirsiniz!
 
 ## Çözüm
 
@@ -132,16 +134,18 @@ Evet! TextFragments koleksiyonunda yineleme yaparak her bir parçaya ayrı ayrı
 Kesinlikle! GradientAxialShading kullanarak degrade için istediğiniz renkleri tanımlayabilirsiniz.
 
 ### Bu özelliği kullanmak için ücretli lisansa ihtiyacım var mı?
- Bu özelliği kullanarak deneyebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) veya bir[geçici lisans](https://purchase.aspose.com/temporary-license/), ancak tam işlevsellik için ücretli bir lisans önerilir.
+Bu özelliği kullanarak deneyebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) veya bir [geçici lisans](https://purchase.aspose.com/temporary-license/), ancak tam işlevsellik için ücretli bir lisans önerilir.
 
 ### Metnin yazı tipini nasıl değiştirebilirim?
- Yazı tipi boyutu, stil ve kalınlık gibi özellikleri TextState nesnesi üzerinden şu gibi özellikleri ayarlayarak değiştirebilirsiniz:`FontSize` Ve`FontStyle`.
+Yazı tipi boyutu, stil ve kalınlık gibi özellikleri TextState nesnesi üzerinden şu gibi özellikleri ayarlayarak değiştirebilirsiniz: `FontSize` Ve `FontStyle`.
 
 ### Yeni eklenen metne gölgelendirme ekleyebilir miyim?
 Evet, bu kılavuzda anlatılan yöntemi kullanarak PDF'e yeni metin ekleyebilir ve gölgelendirme uygulayabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,43 +1,45 @@
 ---
-title: Přidat popisek k textu v souboru PDF
-linktitle: Přidat popisek k textu v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se přidávat popisky k textu v souborech PDF pomocí Aspose.PDF for .NET. Bez námahy vylepšete své soubory PDF informativními texty.
-weight: 90
-url: /cs/net/programming-with-text/add-tooltip-to-text/
+"description": "Naučte se, jak přidávat popisky k textu v PDF souborech pomocí Aspose.PDF pro .NET. Vylepšete své PDF soubory informativním textem při najetí myší."
+"linktitle": "Přidat popisek k textu v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Přidat popisek k textu v souboru PDF"
+"url": "/cs/net/programming-with-text/add-tooltip-to-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Přidat popisek k textu v souboru PDF
 
 ## Zavedení
 
-Pokud jde o vytváření poutavých a interaktivních souborů PDF, mohou být popisy nástrojů neocenitelné. Znáte ty malé vyskakovací rámečky, které vám poskytnou další informace, když na něco najedete? Mohou poskytnout kontext, popisy nebo dokonce rady, aniž by váš dokument zaplnily. V tomto tutoriálu si projdeme, jak přidat popisky k textu v souboru PDF pomocí knihovny Aspose.PDF for .NET. Ať už jste ostřílený vývojář nebo si jen smočíte nohy ve světě PDF, jste na správném místě! Pojďme se tedy ponořit!
+Pokud jde o vytváření poutavých a interaktivních PDF souborů, mohou být popisky neocenitelné. Znáte ty malé vyskakovací okna, která vám po najetí myší na něco poskytnou další informace? Mohou poskytnout kontext, popisy nebo dokonce i rady, aniž by zahltily váš dokument. V tomto tutoriálu si ukážeme, jak přidat popisky k textu v PDF souboru pomocí knihovny Aspose.PDF pro .NET. Ať už jste zkušený vývojář, nebo se ve světě PDF teprve seznamujete, jste na správném místě! Tak se do toho pustíme!
 
 ## Předpoklady
 
-Než se vrhneme na část kódování, ujistěte se, že máte vše, co potřebujete, abyste mohli hladce sledovat.
+Než se pustíme do kódování, ujistěte se, že máte vše potřebné k hladkému průběhu.
 
-### Visual Studio nainstalováno
-Je nezbytné mít na svém počítači nainstalované Visual Studio, protože to bude vaše primární vývojové prostředí pro aplikace .NET.
+### Nainstalováno Visual Studio
+Je nezbytné mít na svém počítači nainstalované Visual Studio, protože to bude vaše primární vývojové prostředí pro .NET aplikace.
 
 ### Aspose.PDF pro knihovnu .NET
- Dále budete potřebovat mít k dispozici knihovnu Aspose.PDF. Můžete[stáhněte si jej zde](https://releases.aspose.com/pdf/net/). Nezapomeňte jej zahrnout do referencí projektu.
+Budete také potřebovat k dispozici knihovnu Aspose.PDF. Můžete [stáhněte si to zde](https://releases.aspose.com/pdf/net/)Nezapomeňte to uvést v referencích projektu.
 
 ### Základní znalost C#
-Pozadí v C# nám hodně pomůže, protože budeme kódovat v tomto jazyce. Ale nezoufejte – provedu vás každým krokem!
+Znalost C# nám hodně pomůže, protože v tomto jazyce budeme programovat. Ale nebojte se – provedu vás každým krokem!
 
-### Dokument PDF pro práci
-Můžete začít s prázdným dokumentem PDF, jako to děláme v tomto příkladu, nebo použít existující, pokud chcete.
+### PDF dokument pro práci
+Můžete začít s prázdným dokumentem PDF, jako v tomto příkladu, nebo použít existující, pokud chcete.
 
-Nyní přejděme k části kódování!
+A teď se pojďme pustit do kódování!
 
-## Importujte balíčky 
+## Importovat balíčky 
 
- První krok v našem dobrodružství s kódováním zahrnuje import potřebných balíčků. Otevřete projekt sady Visual Studio a v horní části souboru C# budete chtít přidat následující`using` směrnice:
+Prvním krokem v našem kódovacím dobrodružství je import potřebných balíčků. Otevřete si projekt Visual Studia a na začátek souboru C# budete chtít přidat následující `using` směrnice:
 
 ```csharp
 using Aspose.Pdf.Forms;
@@ -46,89 +48,89 @@ using Aspose.Pdf.Text;
 
 Tyto balíčky vám poskytují přístup ke všem třídám a funkcím, které potřebujete pro vytváření a manipulaci s dokumenty PDF.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíme nastavit cestu, kam budete dokumenty ukládat. Berte to jako nalezení útulného místa ve vašem souborovém systému, kde budou umístěny všechny vaše výtvory.
+Nejdříve musíme nastavit cestu, kam budeme ukládat své dokumenty. Představte si to jako nalezení útulného místa ve vašem souborovém systému, kde budou uloženy všechny vaše výtvory.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outputFile = dataDir + "Tooltip_out.pdf";
 ```
 
- Nezapomeňte vyměnit`YOUR DOCUMENT DIRECTORY` se skutečnou cestou na vašem počítači.
+Nezapomeňte vyměnit `YOUR DOCUMENT DIRECTORY` se skutečnou cestou na vašem počítači.
 
 ## Krok 2: Vytvořte vzorový dokument PDF
 
-Dále je čas vytvořit jednoduché PDF s nějakým textem. Zde zahajujeme náš tvůrčí proces!
+Dále je čas vytvořit jednoduchý PDF soubor s nějakým textem. Zde zahájíme náš tvůrčí proces!
 
 ```csharp
-//Vytvořte vzorový dokument s textem
+// Vytvořit vzorový dokument s textem
 Document doc = new Document();
 doc.Pages.Add().Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a tooltip"));
 doc.Pages[1].Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a very long tooltip"));
 doc.Save(outputFile);
 ```
 
-V tomto kroku vytvoříme dokument, přidáme dva textové fragmenty a uložíme jej do naší dříve určené cesty.
+V tomto kroku vytvoříme dokument, přidáme dva textové fragmenty a uložíme ho do dříve zadané cesty.
 
-## Krok 3: Otevřete dokument ke zpracování
+## Krok 3: Otevření dokumentu pro zpracování
 
-Nyní, když máme vytvořený dokument, pojďme jej otevřít, abychom mohli pracovat na těchto nápovědách!
+Teď, když máme dokument vytvořený, otevřeme ho, abychom mohli pracovat na popiscích!
 
 ```csharp
-// Otevřete dokument s textem
+// Otevřít dokument s textem
 Document document = new Document(outputFile);
 ```
 
 Zde jednoduše načteme dokument, který jsme právě vytvořili.
 
-## Krok 4: Vytvořte absorbér textu pro vyhledání fragmentů textu
+## Krok 4: Vytvořte absorbér textu pro vyhledávání fragmentů textu
 
-Musíme najít fragmenty textu, kam chceme přidat popisky. Je to jako používat lupu ke zvýraznění konkrétní části velké mapy! 
+Potřebujeme najít fragmenty textu, kam chceme přidat popisky. Je to jako použití lupy k zvýraznění určité části velké mapy! 
 
 ```csharp
-// Vytvořte objekt TextAbsorber a najděte všechny fráze odpovídající regulárnímu výrazu
+// Vytvořte objekt TextAbsorber pro nalezení všech frází odpovídajících regulárnímu výrazu.
 TextFragmentAbsorber absorber = new TextFragmentAbsorber("Move the mouse cursor here to display a tooltip");
 document.Pages.Accept(absorber);
 ```
 
-## Krok 5: Extrahujte textové fragmenty
+## Krok 5: Extrahování fragmentů textu
 
-Dále extrahujeme fragmenty textu, které jsme našli v našem předchozím kroku.
+Dále extrahujeme fragmenty textu, které jsme našli v předchozím kroku.
 
 ```csharp
 // Získejte extrahované fragmenty textu
 TextFragmentCollection textFragments = absorber.TextFragments;
 ```
 
-Tento úryvek nám umožňuje uchovat si odkazy na části textu, které nás zajímají.
+Tento úryvek nám umožňuje uchovávat reference pro textové fragmenty, které nás zajímají.
 
-## Krok 6: Projděte fragmenty a přidejte popisky
+## Krok 6: Procházení fragmentů a přidání popisků
 
-Nyní přichází ta zábavná část! Projdeme každý z textových fragmentů a ke každému přidáme nápovědu. Představte si, že kolem konkrétních položek (úryvků textu) zabalíte malé dárky (popisy).
+A teď přichází ta zábavná část! Projdeme si každý textový fragment a ke každému z nich přidáme popisek. Představte si, že kolem konkrétních položek (textových fragmentů) balíte malé dárky (popisky).
 
 ```csharp
-// Projděte fragmenty
+// Procházejte fragmenty
 foreach (TextFragment fragment in textFragments)
 {
 	// Vytvořit neviditelné tlačítko na pozici fragmentu textu
 	ButtonField field = new ButtonField(fragment.Page, fragment.Rectangle);
-	// Hodnota AlternateName se zobrazí jako nápověda aplikace prohlížeče
+	// Hodnota AlternateName se zobrazí jako popisek v prohlížeči.
 	field.AlternateName = "Tooltip for text.";
-	// Přidejte do dokumentu pole tlačítka
+	// Přidat do dokumentu pole tlačítka
 	document.Form.Add(field);
 }
 ```
 
-V každé iteraci vytvoříme pole tlačítka, které odpovídá poloze textového fragmentu, a přiřadíme k němu text popisku.
+V každé iteraci vytvoříme pole tlačítka, které odpovídá pozici fragmentu textu, a přiřadíme mu text popisku.
 
 ## Krok 7: Opakujte pro dlouhé popisky
 
-Stejně jako jsme přidali jednoduchý popis, můžeme totéž udělat pro delší text. Pojďme rozšířit naši kreativitu!
+Stejně jako jsme přidali jednoduchý popisek, můžeme totéž udělat pro delší text. Pojďme rozšířit naši kreativitu!
 
 ```csharp
-// Dále bude ukázka velmi dlouhého popisku
+// Dále bude ukázka velmi dlouhého tooltipu
 absorber = new TextFragmentAbsorber("Move the mouse cursor here to display a very long tooltip");
 document.Pages.Accept(absorber);
 textFragments = absorber.TextFragments;
@@ -148,44 +150,46 @@ foreach (TextFragment fragment in textFragments)
 }
 ```
 
-Zde děláme stejný druh práce jako dříve, ale s mnohem rozšířenějším popisem.
+Zde děláme stejnou práci jako předtím, ale s mnohem rozšířenějším popiskem.
 
 ## Krok 8: Uložte dokument
 
-Posledním krokem je uložení dokumentu se všemi těmi novými nápovědami. 
+Posledním krokem je uložení dokumentu se všemi těmi novými a lesklými popisky. 
 
 ```csharp
 // Uložit dokument
 document.Save(outputFile);
 ```
 
-právě tak máte hotovo! Do souboru PDF jste přidali nápovědu, takže je uživatelsky přívětivější a interaktivnější.
+A je to! Přidali jste do PDF popisky, díky nimž je uživatelsky přívětivější a interaktivnější.
 
 ## Závěr
 
-Tady to máte – snadno srozumitelný návod, jak přidat popisky k textu v souborech PDF pomocí Aspose.PDF pro .NET. Tato technika může výrazně zlepšit uživatelskou zkušenost a učinit vaše dokumenty informativnějšími, aniž by čtenáře zahltily příliš velkým množstvím textu najednou. 
+Tak tady to máte – snadno srozumitelný návod, jak přidat popisky k textu v PDF souborech pomocí Aspose.PDF pro .NET. Tato technika může výrazně vylepšit uživatelský zážitek a učinit vaše dokumenty informativnějšími, aniž by čtenáře zahltila příliš velkým množstvím textu najednou. 
 
-Pouhým najetím kurzoru na slovo nebo frázi získá čtenář relevantní informace, které přidávají hodnotu bez zbytečných zbytečností. Tak si vyhrňte rukávy a vyzkoušejte to! Než se nadějete, můžete vytvářet nejrůznější poutavé dokumenty, které vynikají.
+Pouhým najetím myší na slovo nebo frázi čtenář získá relevantní informace, které mu přidají hodnotu, a to bez zbytečných detailů. Vyhrňte si tedy rukávy a zkuste to! Než se nadějete, můžete vytvářet nejrůznější poutavé dokumenty, které vyčnívají.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty PDF v aplikacích .NET.
+Aspose.PDF pro .NET je knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět PDF dokumenty v .NET aplikacích.
 
 ### Mohu používat Aspose.PDF zdarma?
- Ano, Aspose nabízí bezplatnou zkušební verzi, abyste mohli prozkoumat jeho funkce! Můžete to najít[zde](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi, abyste si mohli prohlédnout jeho funkce! Najdete ji [zde](https://releases.aspose.com/).
 
-### Jsou pro Aspose.PDF k dispozici nějaké možnosti licencování?
-Ano, můžete si zakoupit licenci nebo získat dočasnou licenci. Podívejte se na možnosti[zde](https://purchase.aspose.com/).
+### Existují nějaké možnosti licencování pro Aspose.PDF?
+Ano, můžete si zakoupit licenci nebo získat dočasnou licenci. Podívejte se na možnosti. [zde](https://purchase.aspose.com/).
 
-### Mohu pomocí Aspose.PDF přidat jiné interaktivní prvky než popisky?
-Absolutně! Aspose.PDF umožňuje přidávání různých interaktivních prvků, jako jsou hypertextové odkazy, tlačítka a formuláře.
+### Mohu pomocí Aspose.PDF přidat interaktivní prvky jiné než popisky?
+Rozhodně! Aspose.PDF umožňuje přidávat různé interaktivní prvky, jako jsou hypertextové odkazy, tlačítka a formuláře.
 
-### Kde najdu další dokumentaci na Aspose.PDF?
- Můžete se podívat na dokumentaci[zde](https://reference.aspose.com/pdf/net/) pro podrobnější návod.
+### Kde najdu další dokumentaci k Aspose.PDF?
+Můžete si prohlédnout dokumentaci [zde](https://reference.aspose.com/pdf/net/) pro podrobnější pokyny.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

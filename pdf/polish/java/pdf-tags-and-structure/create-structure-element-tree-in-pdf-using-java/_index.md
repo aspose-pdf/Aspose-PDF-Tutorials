@@ -1,19 +1,21 @@
 ---
-title: Utwórz drzewo elementów struktury w formacie PDF za pomocą języka Java
-linktitle: Utwórz drzewo elementów struktury w formacie PDF za pomocą języka Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak utworzyć dostępny plik PDF ze strukturą drzewa elementów w języku Java, korzystając z Aspose.PDF, zapewniając dostępność wszystkim użytkownikom.
-weight: 11
-url: /pl/java/pdf-tags-and-structure/create-structure-element-tree-in-pdf-using-java/
+"description": "Dowiedz się, jak utworzyć dostępny plik PDF ze strukturą drzewa elementów w języku Java, korzystając z Aspose.PDF, zapewniając dostępność wszystkim użytkownikom."
+"linktitle": "Utwórz drzewo elementów struktury w formacie PDF za pomocą języka Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Utwórz drzewo elementów struktury w formacie PDF za pomocą języka Java"
+"url": "/pl/java/pdf-tags-and-structure/create-structure-element-tree-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz drzewo elementów struktury w formacie PDF za pomocą języka Java
 
-W tym samouczku przeprowadzimy Cię przez proces tworzenia drzewa elementów struktury w dokumencie PDF przy użyciu Aspose.PDF dla Java. Drzewa elementów struktury są niezbędne do tworzenia dokumentów PDF dostępnych i dobrze ustrukturyzowanych, szczególnie dla użytkowników z wadami wzroku, którzy polegają na czytnikach ekranu. Zapewnimy Ci instrukcje krok po kroku i kod źródłowy Java, aby to osiągnąć.
+tym samouczku przeprowadzimy Cię przez proces tworzenia drzewa elementów struktury w dokumencie PDF przy użyciu Aspose.PDF dla Java. Drzewa elementów struktury są niezbędne do tworzenia dokumentów PDF dostępnych i dobrze ustrukturyzowanych, szczególnie dla użytkowników z wadami wzroku, którzy polegają na czytnikach ekranu. Zapewnimy Ci instrukcje krok po kroku i kod źródłowy Java, aby to osiągnąć.
 
 ## Wstęp
 
@@ -25,7 +27,7 @@ Drzewo elementów struktury, często nazywane „Tagged PDF”, to hierarchiczna
 
 ## Krok 1: Konfigurowanie środowiska programistycznego
 
- Zanim zagłębimy się w kod, upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF for Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/java/).
+Zanim zagłębimy się w kod, upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF for Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 Następnie utwórz projekt Java i dodaj bibliotekę Aspose.PDF for Java do ścieżki klas swojego projektu.
 
@@ -53,7 +55,7 @@ Możesz dodać różne rodzaje treści, takie jak obrazy, tabele i inne, zależn
 
 ## Krok 4: Dodawanie elementów struktury
 
- Aby udostępnić dokument, musimy zdefiniować elementy struktury. Możesz użyć`com.aspose.pdf.Tagged.TagArtifact` klasa umożliwiająca dodanie elementów struktury do treści:
+Aby udostępnić dokument, musimy zdefiniować elementy struktury. Możesz użyć `com.aspose.pdf.Tagged.TagArtifact` klasa umożliwiająca dodanie elementów struktury do treści:
 
 ```java
 // Utwórz obiekt TagArtifact dla tekstu
@@ -65,7 +67,7 @@ tagArtifact.setParagraph(page.getParagraphs().get_Item(1));
 tagArtifact.setTag(page.getParagraphs().get_Item(1));
 ```
 
- Ten fragment kodu łączy`P` typ struktury z tekstem.
+Ten fragment kodu łączy `P` typ struktury z tekstem.
 
 ## Krok 5: Zapisywanie dokumentu PDF
 
@@ -90,7 +92,7 @@ Drzewo elementów struktury przedstawia logiczną strukturę zawartości dokumen
 
 ### Jak mogę dodać obrazy do tagowanego dokumentu PDF?
 
- Możesz użyć`com.aspose.pdf.Image` klasa do dodawania obrazów do oznaczonego dokumentu PDF. Upewnij się, że skojarzysz odpowiednie elementy struktury z obrazami w celu zapewnienia dostępności.
+Możesz użyć `com.aspose.pdf.Image` klasa do dodawania obrazów do oznaczonego dokumentu PDF. Upewnij się, że skojarzysz odpowiednie elementy struktury z obrazami w celu zapewnienia dostępności.
 
 ### Czy tagowane dokumenty PDF są wymogiem zgodności z zasadami dostępności?
 
@@ -103,9 +105,11 @@ Tak, Aspose.PDF for Java oferuje funkcje umożliwiające programowe tagowanie is
 ### Jakie są najlepsze praktyki tworzenia dostępnych dokumentów PDF?
 
 Do najlepszych praktyk zalicza się dodawanie alternatywnego tekstu do obrazów, stosowanie właściwej struktury nagłówków, udostępnianie opisowych linków i dbanie o logiczną kolejność czytania treści.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Cập nhật dấu trang con trong tệp PDF
-linktitle: Cập nhật dấu trang con trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách cập nhật dấu trang con trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện điều hướng PDF của bạn.
-weight: 110
-url: /vi/net/programming-with-bookmarks/update-child-bookmarks/
+"description": "Tìm hiểu cách cập nhật dấu trang con trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện điều hướng PDF của bạn."
+"linktitle": "Cập nhật dấu trang con trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Cập nhật dấu trang con trong tệp PDF"
+"url": "/vi/net/programming-with-bookmarks/update-child-bookmarks/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cập nhật dấu trang con trong tệp PDF
@@ -22,7 +24,7 @@ Bạn đã bao giờ thấy mình đang duyệt qua một tài liệu PDF có c�
 Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là IDE phù hợp để phát triển .NET.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -46,7 +48,7 @@ Trước tiên, bạn cần chỉ định đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Bước này rất quan trọng vì nó cho chương trình biết nơi tìm tệp PDF mà bạn muốn làm việc.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Bước này rất quan trọng vì nó cho chương trình biết nơi tìm tệp PDF bạn muốn làm việc.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -56,11 +58,11 @@ Tiếp theo, chúng ta cần mở tài liệu PDF có chứa các dấu trang b�
 Document pdfDocument = new Document(dataDir + "UpdateChildBookmarks.pdf");
 ```
 
- Dòng mã này tạo ra một cái mới`Document` đối tượng, đại diện cho tệp PDF của bạn. Đảm bảo tên tệp khớp với tên bạn có trong thư mục.
+Dòng mã này tạo ra một cái mới `Document` đối tượng, đại diện cho tệp PDF của bạn. Đảm bảo tên tệp khớp với tên bạn có trong thư mục.
 
 ## Bước 3: Truy cập Bộ sưu tập dấu trang
 
- Bây giờ chúng ta đã mở tài liệu, đã đến lúc truy cập vào các dấu trang. Các dấu trang trong PDF được sắp xếp trong một bộ sưu tập được gọi là`Outlines`. Sau đây là cách bạn có thể tiếp cận chúng:
+Bây giờ chúng ta đã mở tài liệu, đã đến lúc truy cập vào các dấu trang. Các dấu trang trong PDF được sắp xếp trong một bộ sưu tập được gọi là `Outlines`. Sau đây là cách bạn có thể tiếp cận chúng:
 
 ```csharp
 OutlineItemCollection pdfOutline = pdfDocument.Outlines[1];
@@ -70,7 +72,7 @@ OutlineItemCollection pdfOutline = pdfDocument.Outlines[1];
 
 ## Bước 4: Nhận Dấu trang Trẻ em
 
-Sau khi có dấu trang cha, bạn có thể truy cập vào các dấu trang con của nó. Giả sử bạn muốn cập nhật dấu trang con thứ hai. Sau đây là cách bạn có thể thực hiện:
+Sau khi có dấu trang cha, bạn có thể truy cập các dấu trang con của nó. Giả sử bạn muốn cập nhật dấu trang con thứ hai. Sau đây là cách bạn có thể thực hiện:
 
 ```csharp
 OutlineItemCollection childOutline = pdfOutline[1];
@@ -121,19 +123,21 @@ Và thế là xong! Bạn đã cập nhật thành công các dấu trang con tr
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của nó. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của nó. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập diễn đàn Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Có giấy phép tạm thời không?
- Có, Aspose cung cấp giấy phép tạm thời mà bạn có thể có được[đây](https://purchase.aspose.com/temporary-license/).
+Có, Aspose cung cấp giấy phép tạm thời mà bạn có thể có được [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể mua Aspose.PDF cho .NET ở đâu?
- Bạn có thể mua Aspose.PDF cho .NET từ trang web của họ[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.PDF cho .NET từ trang web của họ [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

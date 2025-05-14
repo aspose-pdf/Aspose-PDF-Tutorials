@@ -1,14 +1,16 @@
 ---
-title: Załaduj licencję z pliku
-linktitle: Załaduj licencję z pliku
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak załadować licencję z pliku w Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi. Zapewnij pełną funkcjonalność, ustawiając licencję poprawnie.
-weight: 20
-url: /pl/net/licensing-aspose-pdf/load-license-from-file/
+"description": "Dowiedz się, jak załadować licencję z pliku w Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi. Zapewnij pełną funkcjonalność, ustawiając licencję poprawnie."
+"linktitle": "Załaduj licencję z pliku"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Załaduj licencję z pliku"
+"url": "/pl/net/licensing-aspose-pdf/load-license-from-file/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Załaduj licencję z pliku
@@ -21,8 +23,8 @@ url: /pl/net/licensing-aspose-pdf/load-license-from-file/
 
 Zanim przejdziemy do przewodnika krok po kroku, upewnijmy się, że masz wszystko na swoim miejscu. Oto, czego będziesz potrzebować:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
-2.  Plik licencji: Uzyskaj ważny plik licencji dla Aspose.PDF. Jeśli go nie masz, możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
+2. Plik licencji: Uzyskaj ważny plik licencji dla Aspose.PDF. Jeśli go nie masz, możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 3. Środowisko programistyczne: Do kodowania i testowania zaleca się korzystanie ze środowiska programistycznego, takiego jak Visual Studio.
 4. Podstawowa znajomość języka C#: Znajomość języka C# i środowiska .NET pomoże Ci bez problemu nadążać za nauką.
 
@@ -49,7 +51,7 @@ Aby użyć Aspose.PDF w swoim projekcie, musisz dodać odwołanie do biblioteki 
 
 ## Krok 2: Zainicjuj obiekt licencji
 
- Przed załadowaniem licencji należy utworzyć wystąpienie licencji`Aspose.Pdf.License` Klasa. Ten obiekt będzie odpowiedzialny za ustawienie licencji w Twojej aplikacji.
+Przed załadowaniem licencji należy utworzyć wystąpienie licencji `Aspose.Pdf.License` Klasa. Ten obiekt będzie odpowiedzialny za ustawienie licencji w Twojej aplikacji.
 
 ```csharp
 Aspose.Pdf.License license = new Aspose.Pdf.License();
@@ -59,23 +61,23 @@ Pomyśl o tym kroku jako o ustawieniu fundamentu. Bez zainicjowania obiektu lice
 
 ## Krok 3: Ustaw ścieżkę licencji
 
- Musisz określić ścieżkę do pliku licencji. Jest to plik, który uzyskałeś od Aspose i zazwyczaj ma on`.lic` rozszerzenie. Zdefiniuj ścieżkę jako zmienną ciągu w swoim kodzie.
+Musisz określić ścieżkę do pliku licencji. Jest to plik, który uzyskałeś od Aspose i zazwyczaj ma on `.lic` rozszerzenie. Zdefiniuj ścieżkę jako zmienną ciągu w swoim kodzie.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką do pliku licencji. Ważne jest, aby zrobić to poprawnie; w przeciwnym razie program nie będzie w stanie znaleźć pliku licencji.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką do pliku licencji. Ważne jest, aby zrobić to poprawnie; w przeciwnym razie program nie będzie w stanie znaleźć pliku licencji.
 
 ## Krok 4: Załaduj plik licencji
 
- Teraz, gdy masz już gotowy obiekt licencji i ścieżkę do pliku, czas załadować licencję. Użyjesz`SetLicense` metoda`Aspose.Pdf.License` klasa, aby to osiągnąć.
+Teraz, gdy masz już gotowy obiekt licencji i ścieżkę do pliku, czas załadować licencję. Użyjesz `SetLicense` metoda `Aspose.Pdf.License` klasa, aby to osiągnąć.
 
 ```csharp
 license.SetLicense(dataDir + "Aspose.Pdf.net.lic");
 ```
 
- Ta linia kodu ładuje plik licencji do biblioteki Aspose.PDF, odblokowując jej pełne możliwości.`SetLicense` Metoda przyjmuje ścieżkę do pliku licencji jako parametr i stosuje ją.
+Ta linia kodu ładuje plik licencji do biblioteki Aspose.PDF, odblokowując jej pełne możliwości. `SetLicense` Metoda przyjmuje ścieżkę do pliku licencji jako parametr i stosuje ją.
 
 ## Krok 5: Zweryfikuj licencję
 
@@ -85,7 +87,7 @@ Po ustawieniu licencji, dobrą praktyką jest sprawdzenie, czy została ona popr
 Console.WriteLine("License set successfully.");
 ```
 
-Ten wiersz wyśle wiadomość potwierdzającą do konsoli, jeśli licencja zostanie załadowana bez żadnych problemów. To szybki i łatwy sposób, aby upewnić się, że wszystko działa zgodnie z oczekiwaniami.
+Ten wiersz wyświetli komunikat potwierdzający na konsoli, jeśli licencja zostanie załadowana bez żadnych problemów. To szybki i łatwy sposób, aby upewnić się, że wszystko działa zgodnie z oczekiwaniami.
 
 ## Wniosek
 
@@ -98,20 +100,22 @@ Pamiętaj, że prawidłowe skonfigurowanie środowiska i skrupulatne wykonywanie
 ### Co się stanie, jeśli nie załaduję licencji?  
 Jeśli nie załadujesz licencji, Aspose.PDF będzie działać w trybie testowym, który wiąże się z pewnymi ograniczeniami, takimi jak znaki wodne na generowanych plikach PDF i ograniczona funkcjonalność.
 
-### Czy mogę pobrać licencję ze strumienia zamiast z pliku?  
- Tak, Aspose.PDF pozwala na załadowanie licencji ze strumienia. Użyłbyś`SetLicense`ale przekazuje obiekt strumieniowy zamiast ścieżki do pliku.
+### Czy mogę wczytać licencję ze strumienia zamiast z pliku?  
+Tak, Aspose.PDF pozwala na załadowanie licencji ze strumienia. Użyłbyś `SetLicense` ale przekazuje obiekt strumieniowy zamiast ścieżki do pliku.
 
 ### Jak uzyskać licencję na Aspose.PDF?  
- Możesz zakupić licencję od[Strona internetowa Aspose](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz zakupić licencję od [Strona internetowa Aspose](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Co zrobić, jeśli mój plik licencyjny nie zostanie rozpoznany?  
- Upewnij się, że ścieżka do pliku licencji jest poprawna i że plik jest dostępny dla Twojej aplikacji. Jeśli problem będzie się powtarzał, możesz skontaktować się z[Wsparcie Aspose](https://forum.aspose.com/c/pdf/10) po pomoc.
+Upewnij się, że ścieżka do pliku licencji jest poprawna i że plik jest dostępny dla Twojej aplikacji. Jeśli problem będzie się powtarzał, możesz skontaktować się z [Wsparcie Aspose](https://forum.aspose.com/c/pdf/10) po pomoc.
 
 ### Czy można zastosować licencję licznikową?  
- Tak, Aspose.PDF obsługuje licencjonowanie licznikowe, co pozwala płacić tylko za zasoby, które zużywasz. Można to skonfigurować podobnie, inicjując`Metered` zajęcia i ustawienie kluczy.
+Tak, Aspose.PDF obsługuje licencjonowanie licznikowe, co pozwala płacić tylko za zasoby, które zużywasz. Można to skonfigurować podobnie, inicjując `Metered` zajęcia i ustawienie kluczy.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

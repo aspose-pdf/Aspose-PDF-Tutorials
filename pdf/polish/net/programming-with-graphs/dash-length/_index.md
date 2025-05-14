@@ -1,14 +1,16 @@
 ---
-title: Długość kreski
-linktitle: Długość kreski
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dostosować wzory linii przerywanych w plikach PDF za pomocą Aspose.PDF dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne do dodawania stylu do dokumentów.
-weight: 70
-url: /pl/net/programming-with-graphs/dash-length/
+"description": "Dowiedz się, jak dostosować wzory linii przerywanych w plikach PDF za pomocą Aspose.PDF dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne do dodawania stylu do dokumentów."
+"linktitle": "Długość kreski"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Długość kreski"
+"url": "/pl/net/programming-with-graphs/dash-length/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Długość kreski
@@ -21,10 +23,10 @@ Czy chcesz dodać odrobinę kreatywności do swoich dokumentów PDF, dostosowuj�
 
 Zanim przejdziesz do samouczka, będziesz potrzebować kilku rzeczy:
 
-1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowany Aspose.PDF dla .NET. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać z[Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowany Aspose.PDF dla .NET. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać z [Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
 2. Podstawowa wiedza o C#: Ten samouczek zakłada, że posiadasz podstawową wiedzę na temat programowania w C#. Jeśli dopiero zaczynasz przygodę z C#, możesz najpierw odświeżyć podstawy.
 3. Visual Studio: Chociaż możesz użyć dowolnego środowiska IDE, w tym przewodniku zakładamy, że do pisania i uruchamiania kodu C# używasz programu Visual Studio.
-4.  Konto Aspose: Aby uzyskać dodatkowe zasoby i wsparcie, upewnij się, że masz konto w Aspose. Możesz zapisać się na[bezpłatny okres próbny](https://releases.aspose.com/) lub kup licencję[Tutaj](https://purchase.aspose.com/buy).
+4. Konto Aspose: Aby uzyskać dodatkowe zasoby i wsparcie, upewnij się, że masz konto w Aspose. Możesz zapisać się na [bezpłatny okres próbny](https://releases.aspose.com/) lub kup licencję [Tutaj](https://purchase.aspose.com/buy).
 
 ## Importuj pakiety
 
@@ -57,11 +59,11 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Tutaj tworzymy`Document` obiekt i dodaj nowy`Page` do niego. To tworzy podstawę do narysowania linii.
+Tutaj tworzymy `Document` obiekt i dodaj nowy `Page` do tego. To tworzy podstawę do narysowania linii.
 
 ## Krok 3: Utwórz obiekt rysunkowy
 
- Następnie utwórz`Graph` obiekt, który reprezentuje obszar, na którym będziesz rysować. Określ jego wymiary zgodnie ze swoimi wymaganiami.
+Następnie utwórz `Graph` obiekt, który reprezentuje obszar, na którym będziesz rysować. Zdefiniuj jego wymiary zgodnie ze swoimi wymaganiami.
 
 ```csharp
 // Utwórz obiekt rysunkowy o określonych wymiarach
@@ -71,11 +73,11 @@ Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 page.Paragraphs.Add(canvas);
 ```
 
- Ten`Graph` obiekt działa jako kontener dla elementów rysunku. Tutaj jest ustawiony na szerokość 100 jednostek i wysokość 400 jednostek.
+Ten `Graph` obiekt działa jako kontener dla elementów rysunku. Tutaj jest ustawiony na szerokość 100 jednostek i wysokość 400 jednostek.
 
 ## Krok 4: Zdefiniuj linię
 
- Teraz czas na stworzenie`Line`obiekt. Określ punkt początkowy i końcowy linii i dostosuj jej styl.
+Teraz czas na stworzenie `Line` obiekt. Określ punkt początkowy i końcowy linii i dostosuj jej styl.
 
 ```csharp
 // Utwórz obiekt linii
@@ -100,12 +102,12 @@ line.GraphInfo.DashPhase = 1;
 ```
 
 - `line.GraphInfo.Color`: Ustawia kolor linii. W tym przypadku jest to kolor czerwony.
-- `line.GraphInfo.DashArray` : Definiuje wzór myślnika. Tutaj,`{ 0, 1, 0 }` przedstawia przerywany wzór.
+- `line.GraphInfo.DashArray`: Definiuje wzór myślnika. Tutaj, `{ 0, 1, 0 }` przedstawia przerywany wzór.
 - `line.GraphInfo.DashPhase`: Dostosowuje punkt początkowy wzoru kreskowego.
 
 ## Krok 6: Dodaj linię do rysunku
 
- Po nadaniu linii odpowiedniego stylu dodaj ją do`Graph` obiekt.
+Po nadaniu linii odpowiedniego stylu dodaj ją do `Graph` obiekt.
 
 ```csharp
 // Dodaj linię do kolekcji kształtów obiektu rysunkowego
@@ -130,27 +132,29 @@ Ta linia kodu zapisuje dokument PDF i wyświetla komunikat potwierdzający, gdzi
 
 ## Wniosek
 
-Dostosowywanie stylów linii w dokumentach PDF może dodać profesjonalnego charakteru Twoim raportom, prezentacjom i innym dokumentom. Postępując zgodnie z tym samouczkiem, nauczyłeś się, jak dostosować długość linii za pomocą Aspose.PDF dla .NET. Niezależnie od tego, czy tworzysz proste linie przerywane, czy bardziej złożone wzory, Aspose.PDF zapewnia elastyczność, której potrzebujesz, aby Twoje dokumenty się wyróżniały. Eksperymentuj z różnymi wzorami i kolorami linii, aby znaleźć styl, który najlepiej odpowiada Twoim potrzebom.
+Dostosowywanie stylów linii w dokumentach PDF może dodać profesjonalnego charakteru Twoim raportom, prezentacjom i innym dokumentom. Postępując zgodnie z tym samouczkiem, nauczyłeś się, jak dostosować długość linii za pomocą Aspose.PDF dla .NET. Niezależnie od tego, czy tworzysz proste linie przerywane, czy bardziej złożone wzory, Aspose.PDF zapewnia elastyczność, której potrzebujesz, aby Twoje dokumenty się wyróżniały. Eksperymentuj z różnymi wzorami i kolorami linii przerywanych, aby znaleźć styl, który najlepiej odpowiada Twoim potrzebom.
 
 ## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.PDF dla platformy .NET?
- Można go zainstalować za pomocą NuGet w programie Visual Studio lub pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
+Można go zainstalować za pomocą NuGet w programie Visual Studio lub pobrać ze strony [Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Czy mogę używać Aspose.PDF dla .NET bezpłatnie?
- Tak, Aspose oferuje[bezpłatny okres próbny](https://releases.aspose.com/) dzięki czemu możesz przetestować jego funkcje przed zakupem licencji.
+Tak, Aspose oferuje [bezpłatny okres próbny](https://releases.aspose.com/) dzięki czemu możesz przetestować jego funkcje przed zakupem licencji.
 
 ### Jakie inne dostosowania mogę wprowadzić do wierszy w pliku PDF?
- Możesz dostosować grubość linii, kolor i wzory kresek. Zapoznaj się z[dokumentacja](https://reference.aspose.com/pdf/net/) po więcej szczegółów.
+Możesz dostosować grubość linii, kolor i wzory kresek. Zapoznaj się z [dokumentacja](https://reference.aspose.com/pdf/net/) po więcej szczegółów.
 
 ### Jak mogę uzyskać pomoc, jeśli napotkam problemy?
- Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Dostęp do pomocy technicznej można uzyskać za pośrednictwem [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Gdzie mogę nabyć licencję na Aspose.PDF dla platformy .NET?
-Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+Możesz kupić licencję [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

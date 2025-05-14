@@ -1,14 +1,16 @@
 ---
-title: Wyodrębnij obrazy z pliku PDF
-linktitle: Wyodrębnij obrazy z pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyodrębnić obrazy z pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Zacznij od łatwych do wykonania instrukcji.
-weight: 120
-url: /pl/net/programming-with-images/extract-images/
+"description": "Dowiedz się, jak wyodrębnić obrazy z pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Zacznij od łatwych do wykonania instrukcji."
+"linktitle": "Wyodrębnij obrazy z pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wyodrębnij obrazy z pliku PDF"
+"url": "/pl/net/programming-with-images/extract-images/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnij obrazy z pliku PDF
@@ -21,11 +23,11 @@ Czy kiedykolwiek zastanawiałeś się, jak wyciągnąć obrazy z pliku PDF? Moż
 
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto, czego potrzebujesz:
 
-1.  Aspose.PDF dla biblioteki .NET: Upewnij się, że masz[Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/) biblioteka zainstalowana. Możesz ją pobrać z linku lub zainstalować za pomocą NuGet w Visual Studio.
+1. Aspose.PDF dla biblioteki .NET: Upewnij się, że masz [Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/) biblioteka zainstalowana. Możesz ją pobrać z linku lub zainstalować za pomocą NuGet w Visual Studio.
 2. IDE (zintegrowane środowisko programistyczne): Zalecany jest program Visual Studio, ale sprawdzi się każde środowisko IDE zgodne z platformą .NET.
 3. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# będzie pomocna, ale nie martw się, jeśli jesteś początkującym — przeprowadzimy Cię przez kod!
 4. Dokument PDF z obrazami: przykładowy plik PDF z obrazami, które chcesz wyodrębnić.
-5.  Licencja: Możesz użyć[licencja tymczasowa](https://zakup.aspose.com/temporary-license/) Lub[purchase](https://purchase.aspose.com/buy) pełna licencja, jeśli nie korzystasz z bezpłatnego okresu próbnego.
+5. Licencja: Możesz użyć [licencja tymczasowa](https://purchase.aspose.com/tempLubary-license/) or [zakup](https://purchase.aspose.com/buy) pełna licencja, jeśli nie korzystasz z bezpłatnego okresu próbnego.
 
 ## Importuj pakiety
 
@@ -50,7 +52,7 @@ Zanim będziesz mógł wyodrębnić obrazy, musisz określić, gdzie znajduje si
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- W tym wierszu zamień`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, gdzie przechowywany jest Twój plik PDF. Ustawia lokalizację Twoich plików wejściowych i wyjściowych.
+W tym wierszu zamień `"YOUR DOCUMENT DIRECTORY"` ze ścieżką, gdzie przechowywany jest Twój plik PDF. Ustawia lokalizację Twoich plików wejściowych i wyjściowych.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -60,7 +62,7 @@ Następnie musisz załadować dokument PDF, z którego chcesz wyodrębnić obraz
 Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
 ```
 
- Tutaj mówisz Aspose.PDF, aby otworzył plik`"ExtractImages.pdf"` z katalogu określonego w poprzednim kroku. Upewnij się, że nazwa pliku jest dokładnie taka sama.
+Tutaj mówisz Aspose.PDF, aby otworzył plik `"ExtractImages.pdf"` z katalogu określonego w poprzednim kroku. Upewnij się, że nazwa pliku jest dokładnie taka sama.
 
 ## Krok 3: Uzyskaj dostęp do pierwszego obrazu na pierwszej stronie
 
@@ -70,7 +72,7 @@ Teraz, gdy dokument PDF został załadowany, następnym krokiem jest uzyskanie d
 XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
 ```
 
- Ten kod pobiera pierwszy obraz na pierwszej stronie. Jeśli Twój plik PDF ma wiele stron lub obrazów, możesz odpowiednio dostosować liczby.`Pages[1]` odnosi się do pierwszej strony i`Images[1]` odnosi się do pierwszego obrazu na tej stronie.
+Ten kod pobiera pierwszy obraz na pierwszej stronie. Jeśli Twój plik PDF ma wiele stron lub obrazów, możesz odpowiednio dostosować liczby. `Pages[1]` odnosi się do pierwszej strony i `Images[1]` odnosi się do pierwszego obrazu na tej stronie.
 
 ## Krok 4: Utwórz strumień plików dla obrazu wyjściowego
 
@@ -80,7 +82,7 @@ Po uzyskaniu dostępu do obrazu musisz utworzyć strumień plików, aby go zapis
 FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
 ```
 
- Tutaj zapisujesz wyodrębniony obraz jako`"output.jpg"` w tym samym katalogu co plik PDF. Jeśli chcesz go zapisać gdzie indziej lub zmienić format, możesz swobodnie zmienić ścieżkę i nazwę pliku.
+Tutaj zapisujesz wyodrębniony obraz jako `"output.jpg"` w tym samym katalogu co plik PDF. Jeśli chcesz go zapisać gdzie indziej lub zmienić format, możesz swobodnie zmienić ścieżkę i nazwę pliku.
 
 ## Krok 5: Zapisz wyodrębniony obraz
 
@@ -90,7 +92,7 @@ Gdy obraz jest już załadowany, a strumień pliku jest gotowy, pora zapisać ob
 xImage.Save(outputImage, ImageFormat.Jpeg);
 ```
 
- Ta linia kodu zapisuje obraz jako plik JPEG. Możesz również zapisać go w innych formatach, takich jak PNG lub BMP, zmieniając`ImageFormat` parametr.
+Ta linia kodu zapisuje obraz jako plik JPEG. Możesz również zapisać go w innych formatach, takich jak PNG lub BMP, zmieniając `ImageFormat` parametr.
 
 ## Krok 6: Zamknij strumień plików
 
@@ -111,7 +113,7 @@ dataDir = dataDir + "ExtractImages_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Ten kod zapisuje zaktualizowany plik PDF jako`"ExtractImages_out.pdf"`. Jeśli w pliku PDF nie wprowadzono żadnych zmian, możesz pominąć ten krok.
+Ten kod zapisuje zaktualizowany plik PDF jako `"ExtractImages_out.pdf"`. Jeśli w pliku PDF nie wprowadzono żadnych zmian, możesz pominąć ten krok.
 
 ## Wniosek
 
@@ -123,7 +125,7 @@ I to wszystko! Wyodrębnianie obrazów z pliku PDF za pomocą Aspose.PDF dla .NE
 Tak, możesz przeglądać strony i obrazy na każdej stronie, aby wyodrębnić wiele obrazów na raz.
 
 ### Czy można zapisać obrazy w innych formatach niż JPEG?
- Oczywiście! Możesz zapisać obrazy w różnych formatach, takich jak PNG, BMP lub TIFF, dostosowując`ImageFormat` parametr.
+Oczywiście! Możesz zapisać obrazy w różnych formatach, takich jak PNG, BMP lub TIFF, dostosowując `ImageFormat` parametr.
 
 ### Co zrobić, jeśli mój plik PDF nie zawiera żadnych obrazów?
 Jeśli w pliku PDF nie ma żadnych obrazów, Aspose.PDF dla .NET nie zgłosi błędu, ale niczego nie wyodrębni. Możesz dodać obsługę błędów, aby zarządzać takimi przypadkami.
@@ -132,10 +134,12 @@ Jeśli w pliku PDF nie ma żadnych obrazów, Aspose.PDF dla .NET nie zgłosi bł
 Tak, jeśli podasz prawidłowe hasło, Aspose.PDF dla .NET może otwierać zaszyfrowane pliki PDF i wyodrębniać obrazy.
 
 ### Jak zainstalować Aspose.PDF dla platformy .NET?
- Można go pobrać ze strony[Aspose.PDF dla strony .NET](https://releases.aspose.com/pdf/net/) lub zainstaluj go za pomocą NuGet w programie Visual Studio.
+Można go pobrać ze strony [Aspose.PDF dla strony .NET](https://releases.aspose.com/pdf/net/) lub zainstaluj go za pomocą NuGet w programie Visual Studio.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

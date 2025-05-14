@@ -1,14 +1,16 @@
 ---
-title: Buat PDF dengan Gambar yang Ditandai
-linktitle: Buat PDF dengan Gambar yang Ditandai
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat PDF berlabel dengan gambar menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk pembuatan dokumen yang mudah diakses dan profesional.
-weight: 40
-url: /id/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/
+"description": "Pelajari cara membuat PDF berlabel dengan gambar menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk pembuatan dokumen yang mudah diakses dan profesional."
+"linktitle": "Buat PDF dengan Gambar yang Ditandai"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat PDF dengan Gambar yang Ditandai"
+"url": "/id/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat PDF dengan Gambar yang Ditandai
@@ -21,9 +23,9 @@ Membuat PDF bisa menjadi tugas yang rumit, tetapi tidak harus demikian! Hari ini
 
 Sebelum Anda mulai membuat PDF dengan gambar yang diberi tag, ada beberapa hal yang Anda perlukan:
 
-1. Aspose.PDF untuk .NET: Pustaka canggih ini penting untuk menangani dokumen PDF dalam aplikasi .NET. Anda dapat menemukan pustaka tersebut di sini:[Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pustaka canggih ini penting untuk menangani dokumen PDF dalam aplikasi .NET. Anda dapat menemukan pustaka tersebut di sini: [Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
 2. .NET Framework atau .NET Core: Pastikan Anda memiliki versi .NET Framework atau .NET Core yang kompatibel di komputer Anda. Pustaka ini mendukung keduanya.
-3. Berkas Gambar: Anda akan memerlukan berkas gambar untuk disematkan ke dalam PDF Anda. Dalam contoh kita, kita akan menggunakan 'aspose-logo.png'. Pastikan untuk menyiapkannya di direktori dokumen Anda. 
+3. Berkas Gambar: Anda akan memerlukan berkas gambar untuk disematkan ke dalam PDF Anda. Dalam contoh kita, kita akan menggunakan 'aspose-logo.png'. Pastikan Anda telah menyiapkan berkas tersebut di direktori dokumen Anda. 
 
 Dengan memastikan Anda telah memenuhi prasyarat ini, Anda siap untuk memulai!
 
@@ -44,7 +46,7 @@ Untuk memulai petualangan coding kita, kita perlu menyiapkan ruang kerja dengan 
 
 ### Impor Namespace yang Diperlukan
 
- Di bagian atas file program utama Anda (seperti`Program.cs`), impor namespace berikut:
+Di bagian atas file program utama Anda (seperti `Program.cs`), impor namespace berikut:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Atur jalur ke direktori Anda
 Document document = new Document();
 ```
 
--  Apa yang terjadi di sini? Kami sedang membuat contoh baru`Document` objek yang mewakili PDF kita. Anggap saja sebagai kanvas kosong yang menunggu karya agung Anda!
+- Apa yang terjadi di sini? Kami sedang membuat contoh baru `Document` objek yang mewakili PDF kita. Anggap saja sebagai kanvas kosong yang menunggu karya agung Anda!
 
 ## Langkah 2: Siapkan Konten yang Ditandai
 
@@ -100,7 +102,7 @@ IllustrationElement figure1 = taggedContent.CreateFigureElement();
 taggedContent.RootElement.AppendChild(figure1);
 ```
 
--  Begitu saja?! Ya!`CreateFigureElement` Metode ini memungkinkan kita membuat ilustrasi baru, dan kita menambahkannya ke elemen akar konten yang diberi tag.
+- Begitu saja?! Ya! `CreateFigureElement` Metode ini memungkinkan kita membuat ilustrasi baru, dan kita menambahkannya ke elemen akar konten yang diberi tag.
 
 ## Langkah 5: Mengatur Properti Gambar
 
@@ -144,19 +146,21 @@ Membuat PDF dengan gambar yang diberi tag menggunakan Aspose.PDF untuk .NET muda
 PDF yang diberi tag dirancang agar mudah diakses. PDF tersebut menyertakan metadata yang memungkinkan teknologi bantuan untuk membaca dan menavigasinya dengan benar.
 
 ### Bisakah saya menambahkan beberapa gambar menggunakan Aspose.PDF?
- Tentu saja! Ulangi saja langkah-langkah untuk membuat yang baru`IllustrationElement` contoh dalam dokumen Anda.
+Tentu saja! Ulangi saja langkah-langkah untuk membuat yang baru `IllustrationElement` contoh dalam dokumen Anda.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?
- Lihat dokumentasinya[Di Sini](https://reference.aspose.com/pdf/net/).
+Lihat dokumentasinya [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF?
- Ya! Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya! Anda dapat mengakses uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

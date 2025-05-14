@@ -1,35 +1,37 @@
 ---
-title: Hozzon létre PDF-et címkézett szöveggel Java nyelven
-linktitle: Hozzon létre PDF-et címkézett szöveggel Java nyelven
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan hozhat létre címkézett PDF-fájlokat Java nyelven az Aspose.PDF for Java segítségével. Lépésről lépésre szóló útmutatónk biztosítja a hozzáférhetőséget és a megfelelőséget.
-weight: 14
-url: /hu/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/
+"description": "Tanulja meg, hogyan hozhat létre címkézett PDF-eket Java nyelven az Aspose.PDF for Java segítségével. Lépésről lépésre útmutatónk biztosítja az akadálymentességet és a megfelelőséget."
+"linktitle": "PDF létrehozása címkézett szöveggel Java-ban"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "PDF létrehozása címkézett szöveggel Java-ban"
+"url": "/hu/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hozzon létre PDF-et címkézett szöveggel Java nyelven
+# PDF létrehozása címkézett szöveggel Java-ban
 
 
-## Bevezetés a PDF létrehozásába címkézett szöveggel Java nyelven
+## Bevezetés a címkézett szöveggel rendelkező PDF-ek létrehozásába Java nyelven
 
-dokumentumkezelés világában a PDF-ek univerzális formátumként tűnnek ki, amely megőrzi a konzisztenciát a különböző platformokon. Nemcsak kényelmes módot jelentenek a dokumentumok megtekintésére, hanem a tartalom hozzáférhetőségének hatékony eszközét is. A címkézett PDF-ek különösen fontos szerepet játszanak annak biztosításában, hogy a dokumentumok hozzáférhetők legyenek a fogyatékkal élők számára. Ebben az útmutatóban megvizsgáljuk, hogyan hozhat létre címkézett szöveget tartalmazó PDF-et Java nyelven az Aspose.PDF for Java segítségével.
+dokumentumkezelés világában a PDF-ek univerzális formátumként tűnnek ki, amely a különböző platformokon is egységes marad. Nemcsak a dokumentumok megtekintésének kényelmes módját kínálják, hanem a tartalom akadálymentesítéséhez is hatékony eszközöket. A címkézett PDF-ek különösen fontos szerepet játszanak abban, hogy a dokumentumok hozzáférhetőek legyenek a fogyatékkal élők számára. Ebben az útmutatóban azt vizsgáljuk meg, hogyan hozhatunk létre címkézett szöveget tartalmazó PDF-et Java nyelven az Aspose.PDF for Java segítségével.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Aspose.PDF a Java könyvtárhoz. Letöltheti[itt](https://releases.aspose.com/pdf/java/).
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Aspose.PDF a Java könyvtárhoz. Letöltheted [itt](https://releases.aspose.com/pdf/java/).
 
-## A Java projekt beállítása
+## Java projekt beállítása
 
-A kezdéshez hozzon létre egy új Java-projektet a kívánt integrált fejlesztési környezetben (IDE). Ügyeljen arra, hogy a projekt függőségei között szerepeljen az Aspose.PDF for Java könyvtár.
+Első lépésként hozz létre egy új Java projektet a kívánt integrált fejlesztői környezetben (IDE). Ügyelj arra, hogy az Aspose.PDF for Java könyvtár is szerepeljen a projekt függőségei között.
 
-## Címkézett PDF készítése
+## Címkézett PDF létrehozása
 
 ### 1. lépés: Importálja a szükséges csomagokat
 
@@ -37,13 +39,13 @@ A kezdéshez hozzon létre egy új Java-projektet a kívánt integrált fejleszt
 import com.aspose.pdf.*;
 ```
 
-### 2. lépés: Inicializálja a PDF-dokumentumot
+### 2. lépés: A PDF dokumentum inicializálása
 
 ```java
 Document document = new Document();
 ```
 
-### 3. lépés: Adjon hozzá egy oldalt a dokumentumhoz
+### 3. lépés: Oldal hozzáadása a dokumentumhoz
 
 ```java
 Page page = document.getPages().add();
@@ -56,13 +58,13 @@ TextFragment textFragment = new TextFragment("Hello, Tagged PDF!");
 page.getParagraphs().add(textFragment);
 ```
 
-### 5. lépés: Állítsa be a szöveget címkézettként
+### 5. lépés: Szöveg beállítása címkézettként
 
 ```java
 textFragment.getFormattingOptions().setTagged(true);
 ```
 
-### 6. lépés: Mentse el a PDF-fájlt
+### 6. lépés: Mentse el a PDF-et
 
 ```java
 document.save("tagged_pdf_example.pdf");
@@ -70,32 +72,34 @@ document.save("tagged_pdf_example.pdf");
 
 ## Következtetés
 
-Ebben az útmutatóban megvizsgáltuk, hogyan hozható létre címkézett PDF Java nyelven az Aspose.PDF for Java használatával. A címkézett PDF-ek nem csak a hozzáférhetőség követelménye, hanem a dokumentumok strukturálásának legjobb gyakorlata is. Ha követi ezeket a lépéseket, biztosíthatja, hogy PDF-fájljai ne csak vizuálisan vonzóak legyenek, hanem minden felhasználó számára befogadóak is legyenek.
+Ebben az útmutatóban azt vizsgáltuk meg, hogyan hozhat létre címkézett PDF-et Java nyelven az Aspose.PDF for Java segítségével. A címkézett PDF-ek nemcsak az akadálymentesítés szempontjából szükségesek, hanem a dokumentumstrukturálás bevált gyakorlatát is képezik. A következő lépések követésével biztosíthatja, hogy PDF-jei ne csak vizuálisan vonzóak legyenek, hanem minden felhasználó számára befogadóak is.
 
 ## GYIK
 
-### Hogyan biztosíthatom, hogy a PDF-em kisegítő címkével legyen ellátva?
+### Hogyan biztosíthatom, hogy a PDF-em akadálymentes címkékkel legyen ellátva?
 
- Annak érdekében, hogy a PDF-ben meg legyen jelölve a kisegítő lehetőségek, be kell állítania a`tagged` tulajdonát`true` a címkézni kívánt szöveghez vagy tartalomhoz. Ez általában a Java Aspose.PDF könyvtárával történik, amint az ebben az útmutatóban látható.
+Annak érdekében, hogy a PDF-fájl akadálymentes címkékkel legyen ellátva, be kell állítania a következőt: `tagged` ingatlan `true` a címkézni kívánt szöveghez vagy tartalomhoz. Ez jellemzően az Aspose.PDF könyvtár használatával történik Java nyelven, ahogy az ebben az útmutatóban is látható.
 
-### Mi a címkézett PDF-ek jelentősége?
+### Mi a fontossága a címkézett PDF-eknek?
 
-A címkézett PDF-ek elengedhetetlenek a hozzáférhetőséghez. Szerkezeti információkat nyújtanak a kisegítő technológiák számára, lehetővé téve a fogyatékossággal élő egyének számára, hogy eligazodjanak és megértsék a PDF-ben található tartalmat.
+címkézett PDF-ek elengedhetetlenek az akadálymentesítéshez. Strukturális információkat nyújtanak a segítő technológiáknak, lehetővé téve a fogyatékkal élők számára a PDF-ben való navigálást és a tartalom megértését.
 
-### Hozzáadhatok képeket a címkézett PDF-hez?
+### Hozzáadhatok képeket egy címkézett PDF-hez?
 
-Igen, az Aspose.PDF for Java segítségével képeket adhat hozzá a címkézett PDF-hez. Hasonló módon megcímkézheti a képeket a hozzáférhetőség biztosítása érdekében.
+Igen, képeket adhatsz hozzá egy címkézett PDF-hez az Aspose.PDF for Java segítségével. Hasonlóképpen címkézheted a képeket az akadálymentesítés biztosítása érdekében.
 
 ### Az Aspose.PDF for Java egy ingyenes könyvtár?
 
-Az Aspose.PDF for Java egy kereskedelmi célú könyvtár, de kínál egy próbaverziót, amellyel kiértékelheti szolgáltatásait. A termelésben való használathoz licencet kell szereznie.
+Az Aspose.PDF for Java egy kereskedelmi forgalomban kapható könyvtár, de próbaverziót is kínál, amellyel ki lehet próbálni a funkcióit. Éles környezetben való használatához licencet kell beszerezni.
 
-### Hol találok további forrásokat és dokumentációt az Aspose.PDF for Java fájlhoz?
+### Hol találok további forrásokat és dokumentációt az Aspose.PDF for Java-hoz?
 
- Az Aspose.PDF for Java-hoz átfogó dokumentációt és hivatkozásokat találhat az Aspose webhelyén[itt](https://reference.aspose.com/pdf/java/).
+Az Aspose.PDF for Java fájl átfogó dokumentációját és referenciáit az Aspose weboldalán találja. [itt](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

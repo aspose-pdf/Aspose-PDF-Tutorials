@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/convert-pdfs-to-xml-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert PDFs to XML Format
@@ -119,6 +121,7 @@ Visit the Aspose.PDF for Java documentation [here](https://reference.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

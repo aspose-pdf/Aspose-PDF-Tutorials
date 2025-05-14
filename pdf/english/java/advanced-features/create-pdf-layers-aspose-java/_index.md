@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Customize PDF Layers Using Aspose.PDF for Java
 
@@ -219,7 +221,11 @@ When working with Aspose.PDF, it's important to consider performance, especially
 - **Profiling:** Use profiling tools to identify bottlenecks and optimize code performance.
 
 By following these guidelines, you can create efficient and effective layered PDFs using Aspose.PDF for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

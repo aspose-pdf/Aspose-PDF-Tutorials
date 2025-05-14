@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Text Extraction in PDFs Using Aspose.PDF Java
 
@@ -148,7 +150,11 @@ A: Check [Aspose's forum](https://forum.aspose.com/c/pdf/10) and documentation f
 - **Documentation:** Explore the comprehensive guide at [Aspose Documentation](https://reference.aspose.com/pdf/java/).
 - **Download:** Get started with Aspose.PDF from [here](https://releases.aspose.com/pdf/java/).
 - **Purchase:** Consider purchasing a license for uninterrupted access at [Aspose Purchase](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

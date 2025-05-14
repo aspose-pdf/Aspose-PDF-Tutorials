@@ -1,55 +1,57 @@
 ---
-title: Skrytý Textový Blok V Souboru PDF
-linktitle: Skrytý Textový Blok V Souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Vytvářejte interaktivní soubory PDF se skrytými textovými bloky pomocí Aspose.PDF for .NET. Tento výukový program poskytuje podrobného průvodce pro vylepšení vašich dokumentů.
-weight: 230
-url: /cs/net/programming-with-text/hidden-text-block/
+"description": "Vytvářejte interaktivní PDF soubory se skrytými textovými bloky pomocí Aspose.PDF pro .NET. Tento tutoriál poskytuje podrobný návod, jak vylepšit vaše dokumenty."
+"linktitle": "Skrytý textový blok v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Skrytý textový blok v souboru PDF"
+"url": "/cs/net/programming-with-text/hidden-text-block/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skrytý Textový Blok V Souboru PDF
+# Skrytý textový blok v souboru PDF
 
 ## Zavedení
 
-V dnešním digitálním prostředí zůstávají soubory PDF běžným formátem pro vše od smluv po vzdělávací materiály. Jejich všestrannost a spolehlivost jsou bezkonkurenční. Ale co kdybyste do svých PDF mohli přidat další vrstvu interaktivity? Ponoříme se do světa skrytých textových bloků s Aspose.PDF for .NET, výkonným nástrojem, díky kterému je vytváření poutavých a uživatelsky přívětivých dokumentů snazší než kdy dříve. Ať už jste ostřílený vývojář nebo teprve začínáte, tento tutoriál je navržen pro vás a obsahuje podrobné pokyny a tipy, jak odemknout plný potenciál vašich souborů PDF!
+dnešní digitální krajině zůstávají PDF soubory stále nejpoužívanějším formátem pro vše od smluv až po vzdělávací materiály. Jejich všestrannost a spolehlivost jsou bezkonkurenční. Co kdybyste ale mohli do svých PDF souborů přidat další vrstvu interaktivity? Ponořujeme se do světa skrytých textových bloků s Aspose.PDF pro .NET, což je výkonný nástroj, který usnadňuje vytváření poutavých a uživatelsky přívětivých dokumentů více než kdy jindy. Ať už jste zkušený vývojář, nebo teprve začínáte, tento tutoriál je určen právě vám a je plný podrobných pokynů a tipů, jak plně využít potenciál vašich PDF souborů!
 
 ## Předpoklady
 
-Než si vyhrneme rukávy a začneme, ujistíme se, že máte vše, co potřebujete. Zde je to, co budete potřebovat:
+Než si vyhrneme rukávy a začneme, ujistěme se, že máte vše, co potřebujete. Zde je to, co budete potřebovat:
 
-1. Aspose.PDF for .NET: Tato knihovna je nezbytná pro práci se soubory PDF v aplikacích .NET. Můžete si to prohlédnout, stáhnout nebo dokonce získat bezplatnou zkušební verzi[Aspose PDF dokumentaci](https://reference.aspose.com/pdf/net/).
-2. .NET Framework: Ujistěte se, že máte nainstalovaný .NET framework, protože je nezbytný pro spuštění knihovny Aspose.PDF.
-3. Vývojové prostředí: Díky editoru kódu nebo integrovanému vývojovému prostředí (IDE), jako je Visual Studio, bude kódování hračkou. 
-4. Základní znalost C#: Vzhledem k tomu, že budeme programovat v C#, základní znalost jazyka vám pomůže mnohem snadněji porozumět pojmům.
-5. Vášeň pro učení: V neposlední řadě přineste své nadšení! Dnes se naučíme něco úžasného.
+1. Aspose.PDF pro .NET: Tato knihovna je nezbytná pro práci s PDF soubory v .NET aplikacích. Můžete si ji prohlédnout, stáhnout nebo dokonce získat bezplatnou zkušební verzi z [Dokumentace Aspose PDF](https://reference.aspose.com/pdf/net/).
+2. .NET Framework: Ujistěte se, že máte nainstalovaný .NET Framework, protože je nezbytný pro spuštění knihovny Aspose.PDF.
+3. Vývojové prostředí: Editor kódu nebo integrované vývojové prostředí (IDE), jako je Visual Studio, vám kódování usnadní. 
+4. Základní znalost C#: Protože budeme programovat v C#, základní znalost jazyka vám pomůže mnohem snáze pochopit dané koncepty.
+5. Vášeň pro učení: V neposlední řadě si s sebou přineste nadšení! Dnes se naučíme něco úžasného.
 
-Jakmile máte tyto předpoklady na místě, jste připraveni vytvářet interaktivní skryté textové bloky ve vašich PDF!
+Jakmile splníte tyto předpoklady, můžete ve svých PDF souborech vytvářet interaktivní skryté textové bloky!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít s Aspose.PDF ve svém projektu, budete muset importovat potřebné balíčky. Zde je postup:
+Abyste mohli začít používat Aspose.PDF ve svém projektu, budete muset importovat potřebné balíčky. Postupujte takto:
 
-### Vytvořte projekt C#
+### Vytvořte projekt v C#
 
-Nejprve otevřete Visual Studio nebo libovolné C# IDE a vytvořte nový projekt. Pro zjednodušení vyberte typ aplikace konzoly.
+Nejdříve si otevřete Visual Studio nebo jakékoli C# IDE a vytvořte nový projekt. Pro zjednodušení vyberte typ Konzolová aplikace.
 
 ### Přidejte Aspose.PDF do svého projektu
 
-Do projektu budete muset přidat knihovnu Aspose.PDF. Můžete to udělat pomocí Správce balíčků NuGet. Zde je rychlý jeden řádek:
+Budete muset do svého projektu přidat knihovnu Aspose.PDF. Můžete to udělat pomocí Správce balíčků NuGet. Zde je stručný návod:
 
 ```bash
 Install-Package Aspose.PDF
 ```
 
-Tento příkaz stáhne potřebné soubory, abyste mohli snadno pracovat s dokumenty PDF.
+Tento příkaz načte potřebné soubory pro snadnou práci s dokumenty PDF.
 
 ### Importujte požadované jmenné prostory
 
-Jakmile je balíček nainstalován, dalším krokem je import jmenných prostorů v horní části vašeho souboru C#. To zpřístupňuje všechny skvělé funkce Aspose:
+Jakmile je balíček nainstalován, dalším krokem je import jmenných prostorů z horní části vašeho C# souboru. Tím se zpřístupní všechny skvělé funkce Aspose:
 
 ```csharp
 using Aspose.Pdf.Annotations;
@@ -57,22 +59,22 @@ using Aspose.Pdf.Forms;
 using Aspose.Pdf.Text;
 ```
 
-Nyní, když je vaše prostředí nastaveno, pojďme si krok za krokem rozebrat proces vytváření skrytého textového bloku v souboru PDF.
+Nyní, když je vaše prostředí nastavené, pojďme si krok za krokem rozebrat proces vytvoření skrytého textového bloku v souboru PDF.
 
-## Krok 1: Definujte svůj adresář dokumentů
+## Krok 1: Definujte adresář dokumentů
 
-Definujte, kde budou soubory umístěny. To pomáhá při hladké správě vašich dokumentů. K nastavení použijte následující kód:
+Definujte, kde budou vaše soubory uloženy. To vám pomůže s hladkou správou dokumentů. K nastavení použijte následující kód:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outputFile = dataDir + "TextBlock_HideShow_MouseOverOut_out.pdf";
 ```
 
- Nezapomeňte vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou na vašem počítači, kde chcete PDF vytvořit.
+Nezapomeňte vyměnit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou na vašem počítači, kde chcete PDF soubor vytvořit.
 
 ## Krok 2: Vytvořte vzorový dokument
 
-Nyní vytvoříme základní dokument PDF. Tento počáteční krok zahrnuje inicializaci dokumentu PDF a přidání textového fragmentu, který bude ústředním bodem pro náš skrytý text.
+Nyní si vytvořme základní PDF dokument. Tento první krok zahrnuje inicializaci PDF dokumentu a přidání textového fragmentu, který bude ústředním bodem pro náš skrytý text.
 
 ```csharp
 Document doc = new Document();
@@ -80,11 +82,11 @@ doc.Pages.Add().Paragraphs.Add(new TextFragment("Move the mouse cursor here to d
 doc.Save(outputFile);
 ```
 
-Zde jednoduše přidáme řetězec do dokumentu. To spustí akci skrytého textu, když na něj najedete myší.
+Zde jednoduše přidáváme do dokumentu řetězec. Ten spustí akci skrytého textu, když nad ním najedete myší.
 
 ## Krok 3: Otevřete vytvořený dokument
 
-Nyní, když máme náš původní dokument, otevřeme jej pro další úpravy:
+Nyní, když máme náš původní dokument, otevřeme ho pro další úpravy:
 
 ```csharp
 Document document = new Document(outputFile);
@@ -92,9 +94,9 @@ Document document = new Document(outputFile);
 
 Tento řádek načte dokument, který jsme právě vytvořili, abychom v něm mohli provádět změny.
 
-## Krok 4: Vytvořte TextAbsorber pro hledání frází
+## Krok 4: Vytvořte TextAbsorber pro vyhledávání frází
 
- Dále chceme identifikovat fragment textu, se kterým budeme pracovat. Toto je místo`TextFragmentAbsorber` přichází do hry:
+Dále chceme identifikovat textový fragment, se kterým budeme pracovat. Zde se `TextFragmentAbsorber` vstupuje do hry:
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber("Move the mouse cursor here to display floating text");
@@ -103,20 +105,20 @@ document.Pages.Accept(absorber);
 
 V tomto kroku říkáme Aspose, aby našel text, který jsme zadali dříve.
 
-## Krok 5: Extrahujte textový fragment
+## Krok 5: Extrahujte fragment textu
 
-Jakmile budeme mít textový fragment, extrahujeme jej pomocí následujícího kódu, což nám umožní dále s ním manipulovat:
+Jakmile máme fragment textu, extrahujeme ho pomocí následujícího kódu, který nám umožní s ním dále manipulovat:
 
 ```csharp
 TextFragmentCollection textFragments = absorber.TextFragments;
 TextFragment fragment = textFragments[1];
 ```
 
-Zde se zaměřujeme na první fragment, který byl absorbován. Pokud jste měli více textu, možná budete chtít kolekci opakovat.
+Zde se zaměříme na první absorbovaný fragment. Pokud byste měli více textu, možná byste chtěli iterovat přes celou kolekci.
 
 ## Krok 6: Vytvořte skryté textové pole
 
-Teď k magii! Vytvořte skryté textové pole, které se zobrazí, když uživatel najede myší na zadaný text. Použijte tento fragment kódu:
+A teď ta magie! Vytvořte skryté textové pole, které se zobrazí, když uživatel najede myší na zadaný text. Použijte tento úryvek kódu:
 
 ```csharp
 TextBoxField floatingField = new TextBoxField(fragment.Page, new Rectangle(100, 700, 220, 740));
@@ -125,11 +127,11 @@ floatingField.ReadOnly = true;
 floatingField.Flags |= AnnotationFlags.Hidden;
 ```
 
-Tento kód definuje pozici plovoucího textu a nastavuje jeho vlastnosti, včetně toho, že je ve výchozím nastavení pouze pro čtení a skrytý.
+Tento kód definuje polohu plovoucího textu a nastavuje jeho vlastnosti, včetně nastavení jeho výchozího stavu pouze pro čtení a skrytí.
 
-## Krok 7: Přizpůsobte vzhled pole
+## Krok 7: Přizpůsobení vzhledu pole
 
-Dejte svému plovoucímu textu trochu šmrncu! Přizpůsobte výchozí vzhled plovoucího textového pole:
+Dejte svému plovoucímu textu trochu šmrncu! Upravte si výchozí vzhled plovoucího textového pole:
 
 ```csharp
 floatingField.PartialName = "FloatingField_1";
@@ -141,9 +143,9 @@ floatingField.Border.Width = 1;
 floatingField.Multiline = true;
 ```
 
-Od velikosti písma po barvy můžete tato nastavení libovolně vyladit, díky čemuž bude rozhraní uživatelsky přívětivější a atraktivnější.
+Od velikosti písma až po barvy si můžete tato nastavení upravit dle libosti, čímž se rozhraní stane uživatelsky přívětivějším a atraktivnějším.
 
-## Krok 8: Přidejte do dokumentu textové pole
+## Krok 8: Přidání textového pole do dokumentu
 
 Po nastavení textového pole je čas přidat do dokumentu plovoucí pole:
 
@@ -153,9 +155,9 @@ document.Form.Add(floatingField);
 
 Tento řádek integruje nově vytvořené skryté textové pole do vašeho PDF.
 
-## Krok 9: Vytvořte pole neviditelného tlačítka
+## Krok 9: Vytvořte neviditelné pole tlačítka
 
-Toto tlačítko bude spravovat akce při najetí na plovoucí textové pole. Chcete-li vytvořit neviditelné tlačítko, přidejte následující kód:
+Toto tlačítko bude spravovat akce při najetí myší na plovoucí textové pole. Přidejte následující kód pro vytvoření neviditelného tlačítka:
 
 ```csharp
 ButtonField buttonField = new ButtonField(fragment.Page, fragment.Rectangle);
@@ -163,41 +165,43 @@ buttonField.Actions.OnEnter = new HideAction(floatingField, false);
 buttonField.Actions.OnExit = new HideAction(floatingField);
 ```
 
-Zde jsme nakonfigurovali tlačítko tak, aby zobrazovalo plovoucí text při vstupu myši a skrylo jej, když myš opustí.
+Zde jsme nakonfigurovali tlačítko tak, aby se plovoucí text zobrazil při najetí myší na tlačítko a skryl se při jeho odjetí.
 
 ## Krok 10: Uložte dokument
 
-Konečně je čas uložit svou práci a podívat se na výsledek:
+Konečně je čas uložit si práci a podívat se na výsledek:
 
 ```csharp
 document.Save(outputFile);
 ```
 
-Díky této akci je nyní váš PDF připraven s interaktivním zážitkem, který uživatelům poskytuje zcela nový způsob, jak se zapojit do vašeho obsahu!
+Díky této akci je váš PDF připraven s interaktivním rozhraním, které uživatelům poskytuje zcela nový způsob interakce s vaším obsahem!
 
 ## Závěr
 
-A tady to máte! Pomocí těchto kroků jste úspěšně vytvořili skrytý textový blok v souboru PDF pomocí Aspose.PDF for .NET. Tato jednoduchá, ale výkonná funkce může výrazně zlepšit interakci uživatele s vašimi dokumenty. Ať už vytváříte výukové materiály nebo klientské zdroje, možnost skrýt a zobrazit informace při umístění kurzoru poskytuje leštěný, moderní nádech. 
+A tady to máte! Dodržováním těchto kroků jste úspěšně vytvořili skrytý textový blok v souboru PDF pomocí Aspose.PDF pro .NET. Tato jednoduchá, ale výkonná funkce může výrazně vylepšit interakci uživatelů ve vašich dokumentech. Ať už vytváříte vzdělávací materiály nebo klientské zdroje, možnost skrýt a zobrazit informace při najetí myší poskytuje elegantní a moderní vzhled. 
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?  
-Aspose.PDF for .NET je robustní knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty PDF v aplikacích .NET.
+Aspose.PDF pro .NET je robustní knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět PDF dokumenty v .NET aplikacích.
 
 ### Jak nainstaluji Aspose.PDF?  
-Můžete jej nainstalovat prostřednictvím Správce balíčků NuGet ve Visual Studiu. Stačí použít příkaz:`Install-Package Aspose.PDF`.
+Můžete si ho nainstalovat pomocí Správce balíčků NuGet ve Visual Studiu. Stačí použít příkaz: `Install-Package Aspose.PDF`.
 
-### Mohu vytvořit další interaktivní prvky v PDF?  
+### Mohu v PDF souborech vytvářet další interaktivní prvky?  
 Ano, kromě skrytých textových bloků můžete pomocí Aspose.PDF přidávat tlačítka, hypertextové odkazy, anotace a mnoho dalšího.
 
 ### Je k dispozici bezplatná zkušební verze?  
- Absolutně! Můžete získat bezplatnou zkušební verzi od[Aspose stránku vydání](https://releases.aspose.com/).
+Rozhodně! Můžete získat bezplatnou zkušební verzi od [Stránka s vydáním Aspose](https://releases.aspose.com/).
 
 ### Co když potřebuji pomoc s Aspose.PDF?  
- Neváhejte a vyhledejte podporu na[Aspose fórum](https://forum.aspose.com/c/pdf/10) pro jakékoli dotazy nebo problémy, se kterými se můžete setkat.
+Neváhejte a vyhledejte podporu na [Fórum Aspose](https://forum.aspose.com/c/pdf/10) pro jakékoli dotazy nebo problémy, se kterými se můžete setkat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

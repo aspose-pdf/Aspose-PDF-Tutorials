@@ -1,14 +1,16 @@
 ---
-title: Mengatur Batas Dalam PDF Ke Tabel
-linktitle: Mengatur Batas Dalam PDF Ke Tabel
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengatur batas dalam tabel PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah kami. Sempurnakan tampilan dokumen Anda dengan mudah.
-weight: 200
-url: /id/net/programming-with-tables/set-border/
+"description": "Pelajari cara mengatur batas dalam tabel PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah kami. Sempurnakan tampilan dokumen Anda dengan mudah."
+"linktitle": "Mengatur Batas Dalam PDF Ke Tabel"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Mengatur Batas Dalam PDF Ke Tabel"
+"url": "/id/net/programming-with-tables/set-border/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur Batas Dalam PDF Ke Tabel
@@ -22,7 +24,7 @@ Membuat dokumen PDF yang tampak profesional lebih mudah dari sebelumnya dengan A
 Sebelum menyelami kode, pastikan Anda memiliki hal berikut:
 
 1. Visual Studio: Lingkungan Pengembangan Terpadu (IDE) yang cocok untuk menulis dan menjalankan aplikasi .NET Anda.
-2.  Pustaka Aspose.PDF untuk .NET: Pastikan Anda telah memasang pustaka ini. Anda dapat mengunduhnya langsung dari[Aspose PDF untuk rilis .NET](https://releases.aspose.com/pdf/net/).
+2. Pustaka Aspose.PDF untuk .NET: Pastikan Anda telah memasang pustaka ini. Anda dapat mengunduhnya langsung dari [Aspose PDF untuk rilis .NET](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami implementasi kode dengan lebih baik.
 4. .NET Framework: Versi apa pun yang kompatibel dengan Aspose.PDF untuk .NET.
 
@@ -48,17 +50,17 @@ Hal pertama yang harus dilakukan! Anda perlu menentukan direktori tempat PDF And
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ini menetapkan jalur dasar untuk file keluaran Anda, jadi ingatlah untuk mengubah`"YOUR DOCUMENT DIRECTORY"` ke jalur sebenarnya di mesin Anda.
+Ini menetapkan jalur dasar untuk file keluaran Anda, jadi ingatlah untuk mengubah `"YOUR DOCUMENT DIRECTORY"` ke jalur sebenarnya di mesin Anda.
 
 ## Langkah 2: Buat Instansiasi Objek Dokumen
 
- Selanjutnya, Anda perlu membuat instance dari`Document` kelas. Kelas ini mewakili keseluruhan dokumen PDF yang akan Anda gunakan.
+Selanjutnya, Anda perlu membuat instance dari `Document` kelas. Kelas ini mewakili keseluruhan dokumen PDF yang akan Anda gunakan.
 
 ```csharp
 Document doc = new Document();
 ```
 
- Dengan membuat instance`Document` objek, Anda sedang bersiap untuk menambahkan halaman dan konten ke PDF Anda.
+Dengan membuat instance `Document` objek, Anda sedang bersiap untuk menambahkan halaman dan konten ke PDF Anda.
 
 ## Langkah 3: Tambahkan Halaman ke Dokumen
 
@@ -68,21 +70,21 @@ Setiap PDF terdiri dari satu atau beberapa halaman. Pada langkah ini, kita akan 
 Page page = doc.Pages.Add();
 ```
 
-Di sini, kita akan memperbesar dokumen kita dengan menambahkan halaman kosong tempat tabel akan diletakkan. Bayangkan seperti menyiapkan kanvas kosong untuk sebuah mahakarya!
+Di sini, kita memperbesar dokumen kita dengan menambahkan halaman kosong tempat tabel akan diletakkan. Bayangkan seperti menyiapkan kanvas kosong untuk sebuah mahakarya!
 
 ## Langkah 4: Buat Objek BorderInfo
 
- Sekarang saatnya untuk mengatur batas untuk tabel kita.`BorderInfo` kelas memungkinkan Anda menentukan properti perbatasan.
+Sekarang saatnya untuk mengatur batas untuk tabel kita. `BorderInfo` kelas memungkinkan Anda menentukan properti perbatasan.
 
 ```csharp
 Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
 ```
 
- Pada baris ini kita membuat`BorderInfo` objek yang akan diterapkan ke semua sisi sel.
+Pada baris ini kita membuat `BorderInfo` objek yang akan diterapkan ke semua sisi sel.
 
 ## Langkah 5: Mengatur Gaya Perbatasan
 
-Berikutnya, kita akan tentukan bagaimana tampilan batasnya. Di sinilah Anda bisa berkreasi!
+Berikutnya, kita akan menentukan bagaimana tampilan batasnya. Di sinilah Anda dapat berkreasi!
 
 ```csharp
 border.Top.IsDoubled = true;
@@ -103,7 +105,7 @@ Sekarang kita memiliki tabel kosong yang siap menampung data. Ini seperti membua
 
 ## Langkah 7: Tentukan Lebar Kolom
 
-Untuk tabel apa pun, pengaturan lebar kolom sangatlah penting. Ini memastikan bahwa konten Anda pas dan tampak teratur.
+Untuk tabel apa pun, pengaturan lebar kolom sangatlah penting. Ini memastikan konten Anda pas dan tampak teratur.
 
 ```csharp
 table.ColumnWidths = "100";
@@ -113,7 +115,7 @@ Baris ini menetapkan lebar seragam 100 poin untuk semua kolom di tabel kita. And
 
 ## Langkah 8: Buat Baris
 
-Setiap tabel membutuhkan setidaknya satu baris, jadi mari tambahkan berikutnya.
+Setiap tabel memerlukan setidaknya satu baris, jadi mari tambahkan berikutnya.
 
 ```csharp
 Aspose.Pdf.Row row = table.Rows.Add();
@@ -129,7 +131,7 @@ Sekarang, mari tambahkan beberapa konten ke tabel kita dengan membuat sel. Sel a
 Aspose.Pdf.Cell cell = row.Cells.Add("some text");
 ```
 
- Jangan ragu untuk mengganti`"some text"` dengan string apa pun yang ingin Anda tampilkan. Ini bisa berupa label, angka, atau informasi tekstual apa pun yang diperlukan untuk dokumen Anda.
+Jangan ragu untuk mengganti `"some text"` dengan string apa pun yang ingin Anda tampilkan. Ini bisa berupa label, angka, atau informasi tekstual apa pun yang diperlukan untuk dokumen Anda.
 
 ## Langkah 10: Mengatur Batas untuk Sel
 
@@ -169,22 +171,24 @@ Membuat dokumen PDF yang menampilkan tabel dengan batas dapat meningkatkan keter
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengubah gaya batas menjadi putus-putus atau bertitik?  
- Ya! Anda dapat mengubah properti perbatasan di`BorderInfo` objek untuk membuat batas putus-putus atau bertitik dengan mengatur properti yang sesuai.
+Ya! Anda dapat mengubah properti perbatasan di `BorderInfo` objek untuk membuat batas putus-putus atau bertitik dengan mengatur properti yang sesuai.
 
 ### Apakah Aspose.PDF mendukung gambar dalam tabel?  
- Tentu saja! Anda dapat menambahkan gambar ke sel tabel seperti halnya Anda dapat menambahkan teks dengan menggunakan`Cell` metode kelas.
+Tentu saja! Anda dapat menambahkan gambar ke sel tabel seperti halnya Anda dapat menambahkan teks dengan menggunakan `Cell` metode kelas.
 
 ### Bagaimana saya dapat menentukan lebar yang berbeda untuk kolom yang berbeda?  
- Anda dapat menentukan lebar setiap kolom secara terpisah dengan menggunakan serangkaian lebar, seperti`"100;150;200"`.
+Anda dapat menentukan lebar setiap kolom secara terpisah dengan menggunakan serangkaian lebar, seperti `"100;150;200"`.
 
 ### Bisakah saya membuat beberapa tabel pada halaman yang sama?  
 Ya! Anda dapat membuat dan menambahkan tabel sebanyak yang Anda perlukan di halaman yang sama dengan mengulangi langkah-langkah pembuatan tabel.
 
 ### Apakah ada cara untuk menerapkan gaya ke sel tabel?  
- Tentu saja! Anda dapat mengatur berbagai properti seperti warna latar belakang, gaya teks, dan perataan pada`Cell` obyek.
+Tentu saja! Anda dapat mengatur berbagai properti seperti warna latar belakang, gaya teks, dan perataan pada `Cell` obyek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

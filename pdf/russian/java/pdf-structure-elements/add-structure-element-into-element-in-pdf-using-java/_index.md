@@ -1,14 +1,16 @@
 ---
-title: Добавить элемент структуры в элемент в PDF с помощью Java
-linktitle: Добавить элемент структуры в элемент в PDF с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как улучшить структуру PDF в Java с помощью Aspose.PDF для Java. Это пошаговое руководство охватывает добавление элементов структуры для доступных и организованных PDF.
-weight: 11
-url: /ru/java/pdf-structure-elements/add-structure-element-into-element-in-pdf-using-java/
+"description": "Узнайте, как улучшить структуру PDF в Java с помощью Aspose.PDF для Java. Это пошаговое руководство охватывает добавление элементов структуры для доступных и организованных PDF."
+"linktitle": "Добавить элемент структуры в элемент в PDF с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Добавить элемент структуры в элемент в PDF с помощью Java"
+"url": "/ru/java/pdf-structure-elements/add-structure-element-into-element-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить элемент структуры в элемент в PDF с помощью Java
@@ -106,7 +108,7 @@ pdfDocument.close();
 
 ### Как загрузить Aspose.PDF для Java?
 
- Вы можете загрузить Aspose.PDF для Java с веб-сайта по адресу[здесь](https://releases.aspose.com/pdf/java/).
+Вы можете загрузить Aspose.PDF для Java с веб-сайта по адресу [здесь](https://releases.aspose.com/pdf/java/).
 
 ### Можно ли использовать Aspose.PDF для Java бесплатно?
 
@@ -122,10 +124,12 @@ Aspose.PDF для Java — это коммерческая библиотека 
 
 ### Где я могу найти дополнительную документацию по Aspose.PDF для Java?
 
- Документацию по Aspose.PDF для Java можно получить по адресу[здесь](https://reference.aspose.com/pdf/java/).
+Документацию по Aspose.PDF для Java можно получить по адресу [здесь](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

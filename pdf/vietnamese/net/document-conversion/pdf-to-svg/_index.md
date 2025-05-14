@@ -1,14 +1,16 @@
 ---
-title: PDF sang SVG
-linktitle: PDF sang SVG
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi tệp PDF sang định dạng SVG bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và nhà thiết kế.
-weight: 180
-url: /vi/net/document-conversion/pdf-to-svg/
+"description": "Tìm hiểu cách chuyển đổi tệp PDF sang định dạng SVG bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và nhà thiết kế."
+"linktitle": "PDF sang SVG"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "PDF sang SVG"
+"url": "/vi/net/document-conversion/pdf-to-svg/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF sang SVG
@@ -21,7 +23,7 @@ Trong thời đại kỹ thuật số, nhu cầu chuyển đổi tệp từ đ�
 
 Trước khi đi sâu vào quá trình chuyển đổi, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Môi trường phát triển nơi bạn có thể viết và kiểm tra mã của mình.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã chúng ta sẽ sử dụng.
 4. Tệp PDF: Chuẩn bị sẵn tệp PDF mẫu để chuyển đổi. 
@@ -57,7 +59,7 @@ Trước khi bạn có thể chuyển đổi PDF, bạn cần chỉ định nơi
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được đặt. Điều này có thể giống như`@"C:\Documents\"`.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được đặt. Điều này có thể giống như `@"C:\Documents\"`.
 
 ## Bước 2: Tải Tài liệu PDF
 
@@ -68,18 +70,18 @@ Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc tải 
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Trong dòng này, chúng ta tạo ra một cái mới`Document` đối tượng và truyền đường dẫn đến tệp PDF mà chúng ta muốn chuyển đổi. Hãy đảm bảo thay thế`"input.pdf"` bằng tên tệp PDF thực tế của bạn.
+Trong dòng này, chúng ta tạo ra một cái mới `Document` đối tượng và truyền đường dẫn đến tệp PDF mà chúng ta muốn chuyển đổi. Hãy đảm bảo thay thế `"input.pdf"` bằng tên tệp PDF thực tế của bạn.
 
 ## Bước 3: Khởi tạo SvgSaveOptions
 
- Tiếp theo, chúng ta cần tạo một thể hiện của`SvgSaveOptions`. Đối tượng này cho phép chúng ta chỉ định cách chúng ta muốn lưu tệp SVG.
+Tiếp theo, chúng ta cần tạo một thể hiện của `SvgSaveOptions`. Đối tượng này cho phép chúng ta chỉ định cách chúng ta muốn lưu tệp SVG.
 
 ```csharp
 // Khởi tạo một đối tượng của SvgSaveOptions
 SvgSaveOptions saveOptions = new SvgSaveOptions();
 ```
 
- Dòng này khởi tạo`SvgSaveOptions` đối tượng mà chúng ta sẽ cấu hình ở bước tiếp theo.
+Dòng này khởi tạo `SvgSaveOptions` đối tượng mà chúng ta sẽ cấu hình ở bước tiếp theo.
 
 ## Bước 4: Cấu hình tùy chọn lưu
 
@@ -90,18 +92,18 @@ Bây giờ, hãy cấu hình tùy chọn lưu của chúng ta. Trong trường h
 saveOptions.CompressOutputToZipArchive = false;
 ```
 
- Bằng cách thiết lập`CompressOutputToZipArchive` ĐẾN`false`, chúng tôi đảm bảo rằng tệp SVG đầu ra được lưu dưới dạng tệp độc lập thay vì được nén.
+Bằng cách thiết lập `CompressOutputToZipArchive` ĐẾN `false`chúng tôi đảm bảo rằng tệp SVG đầu ra được lưu dưới dạng tệp độc lập thay vì được nén.
 
 ## Bước 5: Lưu đầu ra dưới dạng SVG
 
- Cuối cùng, chúng ta có thể lưu tệp SVG đã chuyển đổi bằng cách sử dụng`Save` phương pháp của`Document` lớp học.
+Cuối cùng, chúng ta có thể lưu tệp SVG đã chuyển đổi bằng cách sử dụng `Save` phương pháp của `Document` lớp học.
 
 ```csharp
-//Lưu đầu ra trong các tệp SVG
+// Lưu đầu ra trong các tệp SVG
 doc.Save(dataDir + "PDFToSVG_out.svg", saveOptions);
 ```
 
- Trong dòng này, chúng tôi chỉ định tên tệp đầu ra là`"PDFToSVG_out.svg"`. Bạn có thể thay đổi tùy ý bạn thích.
+Trong dòng này, chúng tôi chỉ định tên tệp đầu ra là `"PDFToSVG_out.svg"`. Bạn có thể thay đổi tùy ý bạn thích.
 
 ## Phần kết luận
 
@@ -116,16 +118,18 @@ Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, ch�
 Có, bạn có thể lặp qua nhiều tệp PDF trong một thư mục và chuyển đổi từng tệp sang SVG bằng phương pháp tương tự.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí từ [Trang web Aspose](https://releases.aspose.com/).
 
 ### Tôi phải làm sao nếu gặp vấn đề trong quá trình chuyển đổi?
- Bạn có thể tìm kiếm sự giúp đỡ từ[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ.
+Bạn có thể tìm kiếm sự giúp đỡ từ [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ.
 
 ### Tôi có thể sử dụng Aspose.PDF cho mục đích thương mại không?
-Có, bạn có thể mua giấy phép sử dụng thương mại từ[Trang mua hàng Aspose](https://purchase.aspose.com/buy).
+Có, bạn có thể mua giấy phép sử dụng thương mại từ [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

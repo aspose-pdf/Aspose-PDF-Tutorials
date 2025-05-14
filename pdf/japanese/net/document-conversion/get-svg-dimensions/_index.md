@@ -1,42 +1,44 @@
 ---
-title: SVG ディメンションを取得
-linktitle: SVG ディメンションを取得
-second_title: Aspose.PDF for .NET API リファレンス
-description: このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して SVG ファイルを PDF に変換する方法を説明します。PDF を操作したい開発者に最適です。
-weight: 40
-url: /ja/net/document-conversion/get-svg-dimensions/
+"description": "このステップバイステップガイドでは、Aspose.PDF for .NET を使用してSVGファイルをPDFに変換する方法を学びます。PDFの操作に興味のある開発者に最適です。"
+"linktitle": "SVGディメンションを取得"
+"second_title": "Aspose.PDF for .NET API リファレンス"
+"title": "SVGディメンションを取得"
+"url": "/ja/net/document-conversion/get-svg-dimensions/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# SVG ディメンションを取得
+# SVGディメンションを取得
 
 ## 導入
 
-Aspose.PDF for .NET の世界へようこそ! PDF ファイルをプログラムで操作したい場合、ここは最適な場所です。Aspose.PDF は、開発者が PDF ドキュメントを簡単に作成、編集、変換できるようにする強力なライブラリです。熟練した開発者でも、初心者でも、このガイドでは、SVG の寸法を取得して PDF 形式に変換する方法を中心に、Aspose.PDF for .NET の使用の基本について説明します。
+Aspose.PDF for .NETの世界へようこそ！PDFファイルをプログラムで操作したいとお考えなら、まさにうってつけの場所です。Aspose.PDFは、開発者がPDFドキュメントを簡単に作成、編集、変換できる強力なライブラリです。経験豊富な開発者の方にも、初心者の方にも、このガイドではAspose.PDF for .NETの使い方の基本を解説します。特にSVGの寸法を取得してPDF形式に変換する方法に重点を置きます。
 
 ## 前提条件
 
-コードに進む前に、準備しておくべきことがいくつかあります。
+コードに進む前に、準備しておく必要のあるものがいくつかあります。
 
-1. Visual Studio: お使いのマシンに Visual Studio がインストールされていることを確認してください。このチュートリアルでは Visual Studio を使用します。
-2.  .NET Framework: .NET Frameworkがインストールされていることを確認してください。Aspose.PDFはさまざまなバージョンをサポートしているので、[ドキュメント](https://reference.aspose.com/pdf/net/)互換性のためです。
-3.  Aspose.PDFライブラリ: Aspose.PDF for .NETの最新バージョンは、[ダウンロードリンク](https://releases.aspose.com/pdf/net/)まずは試してみたいという方は、[無料トライアル](https://releases.aspose.com/).
-4. 基本的な C# の知識: C# プログラミングに精通していると、例をよりよく理解するのに役立ちます。
+1. Visual Studio: お使いのマシンにVisual Studioがインストールされていることを確認してください。このチュートリアルではVisual Studioを使用します。
+2. .NET Framework: .NET Frameworkがインストールされていることを確認してください。Aspose.PDFはさまざまなバージョンをサポートしているので、 [ドキュメント](https://reference.aspose.com/pdf/net/) 互換性のためです。
+3. Aspose.PDFライブラリ: Aspose.PDF for .NETの最新バージョンは、 [ダウンロードリンク](https://releases.aspose.com/pdf/net/)まずは試してみたいという方は、 [無料トライアル](https://releases。aspose.com/).
+4. 基本的な C# の知識: C# プログラミングの知識があると、例をよりよく理解するのに役立ちます。
 
 ## パッケージのインポート
 
-始めるには、必要なパッケージをインポートする必要があります。手順は次のとおりです。
+始めるには、必要なパッケージをインポートする必要があります。手順は以下のとおりです。
 
 1. Visual Studio プロジェクトを開きます。
-2. ソリューション エクスプローラーでプロジェクトを右クリックし、[NuGet パッケージの管理] を選択します。
+2. ソリューション エクスプローラーでプロジェクトを右クリックし、「NuGet パッケージの管理」を選択します。
 3. 「Aspose.PDF」を検索してパッケージをインストールします。
 
 パッケージをインストールしたら、コーディングを開始できます。
 
-## ステップ1: プロジェクトを設定する
+## ステップ1: プロジェクトの設定
 
 ### 新しいプロジェクトを作成する
 
@@ -44,11 +46,11 @@ Aspose.PDF for .NET の世界へようこそ! PDF ファイルをプログラム
 
 - Visual Studio を開き、「新しいプロジェクトの作成」を選択します。
 - 「コンソール アプリ (.NET Framework)」を選択し、「次へ」をクリックします。
-- プロジェクトに名前を付け（例：AsposePDFExample）、［作成］をクリックします。
+- プロジェクトに名前を付け（例：「AsposePDFExample」）、［作成］をクリックします。
 
-### Usingディレクティブを追加する
+### ディレクティブの使用を追加する
 
-プロジェクトの設定が完了したら、必要なusingディレクティブを`Program.cs`ファイル：
+プロジェクトがセットアップされたので、必要なusingディレクティブをファイルの先頭に追加する必要があります。 `Program.cs` ファイル：
 
 ```csharp
 using System.IO;
@@ -62,7 +64,7 @@ using Aspose.Pdf;
 
 ### ドキュメントディレクトリを定義する
 
-SVGドキュメントを読み込む前に、ドキュメントディレクトリへのパスを指定する必要があります。`"YOUR DOCUMENT DIRECTORY"` SVG ファイルが配置されている実際のパスを入力します。
+SVGドキュメントを読み込む前に、ドキュメントディレクトリへのパスを指定する必要があります。 `"YOUR DOCUMENT DIRECTORY"` SVG ファイルが配置されている実際のパスを入力します。
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -70,7 +72,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ### SVGドキュメントを読み込む
 
-さて、SVGドキュメントをロードしてみましょう。`SvgLoadOptions`クラス。このクラスを使用すると、SVG コンテンツに基づいてページ サイズを調整できます。
+さて、SVGドキュメントをロードしてみましょう。 `SvgLoadOptions` クラス。このクラスを使用すると、SVG コンテンツに基づいてページ サイズを調整できます。
 
 ```csharp
 var loadopt = new SvgLoadOptions();
@@ -80,7 +82,7 @@ var svgDoc = new Document(dataDir + "GetSVGDimensions.svg", loadopt);
 
 ## ステップ3: ページの余白を調整する
 
-SVG コンテンツが PDF に完全に収まるようにするには、ページ余白をゼロに設定する必要があります。この手順は、SVG 寸法の整合性を維持するために非常に重要です。
+SVGコンテンツがPDFに完全に収まるようにするには、ページ余白をゼロに設定する必要があります。この手順は、SVGの寸法の整合性を維持するために非常に重要です。
 
 ```csharp
 svgDoc.Pages[1].PageInfo.Margin.Top = 0;
@@ -91,17 +93,17 @@ svgDoc.Pages[1].PageInfo.Margin.Right = 0;
 
 ## ステップ4: ドキュメントをPDFとして保存する
 
-最後に、SVG ドキュメントを PDF として保存します。出力ファイル名とパスは次のように指定できます。
+最後に、SVGドキュメントをPDFとして保存します。出力ファイル名とパスは以下のように指定します。
 
 ```csharp
 svgDoc.Save(dataDir + "GetSVGDimensions_out.pdf");
 ```
 
-これで完了です。Aspose.PDF for .NET を使用して SVG ファイルを PDF に正常に変換できました。
+これで完了です。Aspose.PDF for .NET を使用して SVG ファイルを PDF に変換できました。
 
 ## 結論
 
-おめでとうございます! Aspose.PDF for .NET を使用したシンプルでありながら強力なタスクを完了しました。このガイドに従って、SVG ドキュメントを読み込み、余白を調整し、PDF として保存する方法を学びました。Aspose.PDF の可能性は無限であり、これは氷山の一角にすぎません。複雑な PDF を作成する場合でも、既存の PDF を操作する場合でも、形式を変換する場合でも、Aspose.PDF が対応します。では、何を待っていますか? さらに詳しく見てみましょう。[ドキュメント](https://reference.aspose.com/pdf/net/)このライブラリが提供するすべての機能を探索してください。
+おめでとうございます！Aspose.PDF for .NET を使ったシンプルながらも強力なタスクを完了しました。このガイドでは、SVG ドキュメントの読み込み、余白の調整、そして PDF として保存する方法を学習しました。Aspose.PDF の可能性は無限大。これはほんの一部に過ぎません。複雑な PDF の作成、既存の PDF の操作、あるいは異なる形式の PDF への変換など、Aspose.PDF があらゆるニーズに対応します。さあ、何を待っているのですか？Aspose.PDF についてさらに詳しく見ていきましょう。 [ドキュメント](https://reference.aspose.com/pdf/net/) このライブラリが提供するすべての機能を探索してください。
 
 ## よくある質問
 
@@ -109,19 +111,21 @@ svgDoc.Save(dataDir + "GetSVGDimensions_out.pdf");
 Aspose.PDF for .NET は、開発者がプログラムによって PDF ドキュメントを作成、編集、変換できるようにするライブラリです。
 
 ### Aspose.PDF をインストールするにはどうすればよいですか?
- Aspose.PDFはVisual StudioのNuGetパッケージマネージャーからインストールするか、[サイト](https://releases.aspose.com/pdf/net/).
+Aspose.PDFはVisual StudioのNuGetパッケージマネージャーからインストールするか、 [サイト](https://releases。aspose.com/pdf/net/).
 
-### Aspose.PDF を無料で使用できますか?
-はい、Asposeは[無料トライアル](https://releases.aspose.com/)購入前にライブラリをテストできます。
+### Aspose.PDF は無料で使用できますか?
+はい、Asposeは [無料トライアル](https://releases.aspose.com/) 購入前にライブラリをテストできます。
 
 ### Aspose.PDF のサポートはどこで受けられますか?
-サポートを受けるには[Aspose フォーラム](https://forum.aspose.com/c/pdf/10).
+サポートを受けるには [Asposeフォーラム](https://forum。aspose.com/c/pdf/10).
 
 ### Aspose.PDF の一時ライセンスを取得するにはどうすればよいですか?
-リクエストすることができます[一時ライセンス](https://purchase.aspose.com/temporary-license/)Aspose の Web サイトから。
+リクエストできます [一時ライセンス](https://purchase.aspose.com/temporary-license/) Aspose Web サイトから。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

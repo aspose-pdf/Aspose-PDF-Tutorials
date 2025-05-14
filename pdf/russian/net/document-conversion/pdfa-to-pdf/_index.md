@@ -1,14 +1,16 @@
 ---
-title: PDFA в PDF
-linktitle: PDFA в PDF
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как преобразовать PDF/A в PDF с помощью Aspose.PDF для .NET в этом подробном пошаговом руководстве.
-weight: 100
-url: /ru/net/document-conversion/pdfa-to-pdf/
+"description": "Узнайте, как преобразовать PDF/A в PDF с помощью Aspose.PDF для .NET в этом подробном пошаговом руководстве."
+"linktitle": "PDFA в PDF"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "PDFA в PDF"
+"url": "/ru/net/document-conversion/pdfa-to-pdf/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDFA в PDF
@@ -22,7 +24,7 @@ url: /ru/net/document-conversion/pdfa-to-pdf/
 Прежде чем начать, вам необходимо подготовить несколько вещей:
 
 1. .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework. Aspose.PDF без проблем работает с приложениями .NET.
-2. Библиотека Aspose.PDF: Вам нужно будет скачать библиотеку Aspose.PDF. Вы можете найти ее[здесь](https://releases.aspose.com/pdf/net/).
+2. Библиотека Aspose.PDF: Вам нужно скачать библиотеку Aspose.PDF. Вы можете найти ее [здесь](https://releases.aspose.com/pdf/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понимать фрагменты кода.
 4. IDE: Интегрированная среда разработки (IDE), такая как Visual Studio, упростит кодирование.
 
@@ -59,7 +61,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Шаг 2: Откройте документ PDF/A
 
-Далее мы откроем PDF/A документ, который мы хотим преобразовать. Это делается с помощью`Document` класс предоставлен Aspose.PDF.
+Далее откроем PDF/A документ, который хотим преобразовать. Это делается с помощью `Document` класс предоставлен Aspose.PDF.
 
 ```csharp
 // Открыть документ
@@ -80,7 +82,7 @@ doc.RemovePdfaCompliance();
 Наконец, сохраним обновленный документ. Это создаст новый PDF-файл без соответствия PDF/A.
 
 ```csharp
-// Сохранить обновленный документ
+// Сохранить обновленный документ 
 doc.Save(dataDir + "PDFAToPDF_out.pdf");
 ```
 
@@ -94,19 +96,21 @@ doc.Save(dataDir + "PDFAToPDF_out.pdf");
 PDF/A — это стандартизированная по стандарту ISO версия PDF, специально разработанная для цифрового хранения электронных документов.
 
 ### Могу ли я использовать Aspose.PDF бесплатно?
-Да, Aspose предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти дополнительную документацию?
- Подробную документацию можно найти на Aspose.PDF[здесь](https://reference.aspose.com/pdf/net/).
+Подробную документацию можно найти на Aspose.PDF [здесь](https://reference.aspose.com/pdf/net/).
 
 ### Что делать, если у меня возникнут проблемы?
- Вы можете обратиться за поддержкой в сообщество Aspose.[здесь](https://forum.aspose.com/c/pdf/10).
+Вы можете обратиться за поддержкой в сообщество Aspose. [здесь](https://forum.aspose.com/c/pdf/10).
 
 ### Как получить временную лицензию?
- Вы можете подать заявление на получение временной лицензии[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете подать заявление на получение временной лицензии [здесь](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

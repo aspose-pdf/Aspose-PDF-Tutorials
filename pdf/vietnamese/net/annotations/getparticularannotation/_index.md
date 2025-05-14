@@ -1,14 +1,16 @@
 ---
-title: Nhận chú thích cụ thể trong tệp PDF
-linktitle: Nhận chú thích cụ thể trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất chú thích cụ thể từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết dài 2000 từ này. Hoàn hảo cho các nhà phát triển.
-weight: 80
-url: /vi/net/annotations/getparticularannotation/
+"description": "Tìm hiểu cách trích xuất chú thích cụ thể từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết dài 2000 từ này. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Nhận chú thích cụ thể trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhận chú thích cụ thể trong tệp PDF"
+"url": "/vi/net/annotations/getparticularannotation/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận chú thích cụ thể trong tệp PDF
@@ -21,7 +23,7 @@ Quản lý các tệp PDF đôi khi có thể là một câu đố, phải khôn
 
 Trước khi đi sâu vào chi tiết của hướng dẫn này, hãy đảm bảo rằng bạn có mọi thứ mình cần:
 
--  Aspose.PDF cho .NET: Bạn sẽ cần cài đặt thư viện mạnh mẽ này. Nếu bạn chưa tải xuống, bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Bạn sẽ cần cài đặt thư viện mạnh mẽ này. Nếu bạn chưa tải xuống, bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/).
 - Môi trường phát triển: Visual Studio (hoặc bất kỳ IDE C# nào bạn chọn).
 - Kiến thức cơ bản về C#: Đừng lo, bạn không cần phải là một phù thủy, chỉ cần hiểu biết cơ bản là được.
 - Tệp PDF có chú thích: Bạn sẽ cần tệp PDF có chú thích. Nếu bạn không có, hãy tạo một tệp PDF đơn giản và thêm một vài chú thích để thực hành.
@@ -45,9 +47,9 @@ Bây giờ, chúng ta hãy phân tích quy trình đưa một chú thích cụ t
 
 Trước tiên, bạn cần thiết lập dự án của mình trong Visual Studio. 
 
--  Tạo một dự án mới: Khởi động Visual Studio và tạo một ứng dụng C# Console mới. Đặt tên cho nó là một cái gì đó có ý nghĩa, như`PDFAnnotationExtractor`.
+- Tạo một dự án mới: Khởi động Visual Studio và tạo một ứng dụng C# Console mới. Đặt tên cho nó là một cái gì đó có ý nghĩa, như `PDFAnnotationExtractor`.
   
--  Thêm tham chiếu Aspose.PDF: Nhấp chuột phải vào dự án của bạn trong Solution Explorer, đi tới "Manage NuGet Packages" và tìm kiếm`Aspose.PDF`Cài đặt và bạn đã sẵn sàng!
+- Thêm tham chiếu Aspose.PDF: Nhấp chuột phải vào dự án của bạn trong Solution Explorer, đi tới "Manage NuGet Packages" và tìm kiếm `Aspose.PDF`. Cài đặt và bạn đã sẵn sàng!
 
 ## Bước 2: Xác định đường dẫn đến tài liệu PDF của bạn
 
@@ -57,7 +59,7 @@ Bạn cần cho chương trình biết nơi tìm tệp PDF mà bạn muốn làm
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn nằm. Đảm bảo tệp PDF của bạn nằm trong thư mục đã chỉ định. Ví dụ:
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn nằm. Đảm bảo tệp PDF của bạn nằm trong thư mục đã chỉ định. Ví dụ:
 
 ```csharp
 string dataDir = @"C:\Users\YourName\Documents\";
@@ -71,7 +73,7 @@ Bây giờ chương trình của bạn đã biết tìm tệp PDF ở đâu, đ�
 Document pdfDocument = new Document(dataDir + "GetParticularAnnotation.pdf");
 ```
 
- Ở đây, chúng tôi đang tạo ra một`Document` đối tượng được đặt tên`pdfDocument`. Đối tượng này đại diện cho tệp PDF của bạn, hiện đã mở và sẵn sàng hoạt động.
+Ở đây, chúng tôi đang tạo ra một `Document` đối tượng được đặt tên `pdfDocument`. Đối tượng này đại diện cho tệp PDF của bạn, hiện đã mở và sẵn sàng hoạt động.
 
 ## Bước 4: Truy cập vào chú thích cụ thể
 
@@ -82,9 +84,9 @@ TextAnnotation textAnnotation = (TextAnnotation)pdfDocument.Pages[1].Annotations
 ```
 
 Trong dòng này, chúng tôi sẽ thực hiện một vài điều:
--  Truy cập trang đầu tiên:`pdfDocument.Pages[1]` cho chúng ta trang đầu tiên của tệp PDF.
--  Truy cập chú thích:`Annotations[1]`cung cấp cho chúng ta chú thích thứ hai trên trang đó (hãy nhớ rằng, lập chỉ mục bắt đầu từ 0 trong C#).
--  Chuyển sang TextAnnotation: Chúng tôi đang chuyển sang`TextAnnotation` vì chúng tôi mong đợi chú thích sẽ có dạng này.
+- Truy cập trang đầu tiên: `pdfDocument.Pages[1]` cho chúng ta trang đầu tiên của tệp PDF.
+- Truy cập chú thích: `Annotations[1]` cung cấp cho chúng ta chú thích thứ hai trên trang đó (hãy nhớ rằng, lập chỉ mục bắt đầu từ 0 trong C#).
+- Chuyển sang TextAnnotation: Chúng tôi đang chuyển sang `TextAnnotation` vì chúng tôi mong đợi chú thích sẽ có dạng này.
 
 Bước này rất quan trọng vì nếu bạn không biết loại chú thích, bạn sẽ không thể đưa chú thích vào đúng cách.
 
@@ -102,7 +104,7 @@ Console.WriteLine("Contents : {0} ", textAnnotation.Contents);
 - Chủ đề: Chủ đề của chú thích, có thể cung cấp cho bạn nhiều ngữ cảnh hơn.
 - Nội dung: Nội dung thực tế của chú thích—phần chính của vấn đề.
 
- Những cái này`Console.WriteLine` các câu lệnh sẽ in ra thông tin chi tiết của chú thích vào bảng điều khiển của bạn, giúp bạn có cái nhìn rõ ràng về nội dung bên trong.
+Những cái này `Console.WriteLine` các câu lệnh sẽ in ra thông tin chi tiết của chú thích vào bảng điều khiển của bạn, giúp bạn có cái nhìn rõ ràng về nội dung bên trong.
 
 ## Phần kết luận
 
@@ -110,23 +112,25 @@ Và bạn đã có nó! Bạn vừa học cách trích xuất một chú thích 
 
 ## Câu hỏi thường gặp
 
-###  Tôi có thể lấy chú thích từ một loại cụ thể khác không?`TextAnnotation`?  
- Có, Aspose.PDF hỗ trợ nhiều loại chú thích khác nhau như`HighlightAnnotation`, `StampAnnotation`, v.v. Chỉ cần chuyển chú thích sang loại thích hợp.
+### Tôi có thể lấy chú thích từ một loại cụ thể khác không? `TextAnnotation`?  
+Có, Aspose.PDF hỗ trợ nhiều loại chú thích khác nhau như `HighlightAnnotation`, `StampAnnotation`, v.v. Chỉ cần chuyển chú thích sang loại thích hợp.
 
 ### Nếu tôi không biết chỉ mục của chú thích thì sao?  
- Bạn có thể lặp qua tất cả các chú thích bằng cách sử dụng`foreach` lặp lại và kiểm tra các thuộc tính của chúng để tìm ra thuộc tính bạn đang tìm kiếm.
+Bạn có thể lặp qua tất cả các chú thích bằng cách sử dụng `foreach` lặp lại và kiểm tra các thuộc tính của chúng để tìm ra thuộc tính bạn đang tìm kiếm.
 
 ### Aspose.PDF cho .NET có miễn phí không?  
- Aspose.PDF cho .NET cung cấp bản dùng thử miễn phí, bạn có thể tải xuống[đây](https://releases.aspose.com/) . Để có giấy phép đầy đủ, hãy kiểm tra[giá cả](https://purchase.aspose.com/buy).
+Aspose.PDF cho .NET cung cấp bản dùng thử miễn phí, bạn có thể tải xuống [đây](https://releases.aspose.com/). Để có giấy phép đầy đủ, hãy kiểm tra [giá cả](https://purchase.aspose.com/buy).
 
 ### Làm thế nào để thêm chú thích vào tệp PDF?  
-Việc thêm chú thích cũng rất đơn giản với Aspose.PDF. Bạn có thể sử dụng các phương pháp như`Add` để chèn chú thích mới vào tài liệu PDF của bạn.
+Việc thêm chú thích cũng rất đơn giản với Aspose.PDF. Bạn có thể sử dụng các phương pháp như `Add` để chèn chú thích mới vào tài liệu PDF của bạn.
 
 ### Tôi có thể chỉnh sửa thuộc tính của chú thích sau khi lấy nó không?  
- Chắc chắn rồi! Khi bạn đã có chú thích, bạn có thể sửa đổi các thuộc tính của nó như`Title`, `Subject` , Và`Contents` trước khi lưu lại tài liệu.
+Chắc chắn rồi! Khi bạn đã có chú thích, bạn có thể sửa đổi các thuộc tính của nó như `Title`, `Subject`, Và `Contents` trước khi lưu lại tài liệu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

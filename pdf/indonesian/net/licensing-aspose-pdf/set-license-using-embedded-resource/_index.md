@@ -1,14 +1,16 @@
 ---
-title: Tetapkan Lisensi Menggunakan Sumber Daya Tertanam
-linktitle: Tetapkan Lisensi Menggunakan Sumber Daya Tertanam
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Manfaatkan kekuatan Aspose.PDF untuk .NET dengan panduan lengkap ini. Pelajari cara mengatur lisensi, memanipulasi PDF, dan banyak lagi.
-weight: 50
-url: /id/net/licensing-aspose-pdf/set-license-using-embedded-resource/
+"description": "Manfaatkan kekuatan Aspose.PDF untuk .NET dengan panduan lengkap ini. Pelajari cara mengatur lisensi, memanipulasi PDF, dan banyak lagi."
+"linktitle": "Tetapkan Lisensi Menggunakan Sumber Daya Tertanam"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tetapkan Lisensi Menggunakan Sumber Daya Tertanam"
+"url": "/id/net/licensing-aspose-pdf/set-license-using-embedded-resource/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tetapkan Lisensi Menggunakan Sumber Daya Tertanam
@@ -23,7 +25,7 @@ Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE yang akan kita gunakan untuk tutorial ini.
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework. Aspose.PDF mendukung berbagai versi, jadi periksa dokumentasi untuk kompatibilitas.
-3.  Pustaka Aspose.PDF: Anda dapat mengunduh pustaka dari[Halaman rilis Aspose PDF untuk .NET](https://releases.aspose.com/pdf/net/)Anda juga dapat memilih uji coba gratis jika ingin mencobanya terlebih dahulu.
+3. Pustaka Aspose.PDF: Anda dapat mengunduh pustaka dari [Halaman rilis Aspose PDF untuk .NET](https://releases.aspose.com/pdf/net/)Anda juga dapat memilih uji coba gratis jika ingin mencobanya terlebih dahulu.
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contoh dengan lebih baik.
 
 ## Paket Impor
@@ -52,11 +54,11 @@ Sebelum Anda dapat menetapkan lisensi, Anda perlu menentukan jalur ke direktori 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF. Langkah ini penting karena pustaka perlu mengetahui tempat mencari berkas lisensi.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF. Langkah ini penting karena pustaka perlu mengetahui tempat mencari berkas lisensi.
 
 ## Langkah 2: Inisialisasi Objek Lisensi
 
- Selanjutnya, Anda perlu membuat instance dari`License` kelas yang disediakan oleh Aspose.PDF. Objek ini akan digunakan untuk menetapkan lisensi Anda.
+Selanjutnya, Anda perlu membuat instance dari `License` kelas yang disediakan oleh Aspose.PDF. Objek ini akan digunakan untuk menetapkan lisensi Anda.
 
 ```csharp
 // Inisialisasi objek lisensi
@@ -76,13 +78,13 @@ Sekarang tibalah bagian yang menarik—menetapkan lisensi! Di sinilah Anda membe
 // lisensi.SetLicense("MergedAPI.Aspose.Total.lic");
 ```
 
- Pastikan untuk menghapus komentar pada baris tersebut dan menggantinya`"MergedAPI.Aspose.Total.lic"` dengan nama sebenarnya dari berkas lisensi Anda. Langkah ini penting untuk membuka potensi penuh pustaka Aspose.PDF.
+Pastikan untuk menghapus komentar pada baris tersebut dan menggantinya `"MergedAPI.Aspose.Total.lic"` dengan nama sebenarnya dari berkas lisensi Anda. Langkah ini penting untuk membuka potensi penuh pustaka Aspose.PDF.
 
 ## Langkah 4: Konfirmasikan Pengaturan Lisensi
 
 ### Memverifikasi Lisensi
 
-Setelah menetapkan lisensi, sebaiknya konfirmasikan bahwa lisensi telah berhasil ditetapkan. Anda dapat melakukannya dengan menambahkan pesan konsol sederhana:
+Setelah menetapkan lisensi, sebaiknya pastikan bahwa lisensi telah ditetapkan dengan sukses. Anda dapat melakukannya dengan menambahkan pesan konsol sederhana:
 
 ```csharp
 Console.WriteLine("License set successfully.");
@@ -100,19 +102,21 @@ Selamat! Anda baru saja mempelajari cara menyiapkan dan menggunakan Aspose.PDF u
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, mengedit, dan memanipulasi dokumen PDF secara terprogram.
 
 ### Bagaimana cara mengatur lisensi untuk Aspose.PDF?
- Anda dapat mengatur lisensi dengan membuat`License` objek dan menggunakan`SetLicense` metode dengan jalur ke berkas lisensi Anda.
+Anda dapat mengatur lisensi dengan membuat `License` objek dan menggunakan `SetLicense` metode dengan jalur ke berkas lisensi Anda.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
 Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menguji pustaka sebelum membeli.
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.PDF?
- Dokumentasinya dapat ditemukan[Di Sini](https://reference.aspose.com/pdf/net/).
+Dokumentasinya dapat ditemukan [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Apa yang harus saya lakukan jika saya menemui masalah?
- Jika Anda menghadapi masalah, Anda dapat mencari bantuan di[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Jika Anda menghadapi masalah, Anda dapat mencari bantuan di [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

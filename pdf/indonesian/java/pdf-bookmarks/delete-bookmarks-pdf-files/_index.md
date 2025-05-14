@@ -1,14 +1,16 @@
 ---
-title: Hapus Bookmark dari File PDF
-linktitle: Hapus Bookmark dari File PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menghapus bookmark dari file PDF dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dan contoh kode kami memudahkannya.
-weight: 13
-url: /id/java/pdf-bookmarks/delete-bookmarks-pdf-files/
+"description": "Pelajari cara menghapus bookmark dari file PDF dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dan contoh kode kami memudahkannya."
+"linktitle": "Hapus Bookmark dari File PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Hapus Bookmark dari File PDF"
+"url": "/id/java/pdf-bookmarks/delete-bookmarks-pdf-files/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Bookmark dari File PDF
@@ -16,7 +18,7 @@ url: /id/java/pdf-bookmarks/delete-bookmarks-pdf-files/
 
 ## Pengantar untuk Menghapus Bookmark dari File PDF menggunakan Aspose.PDF untuk Java
 
-File PDF merupakan format yang banyak digunakan untuk berbagi dokumen. File PDF sering kali berisi penanda halaman untuk membantu pengguna menelusuri konten dengan mudah. Namun, ada situasi di mana Anda mungkin perlu menghapus penanda halaman dari file PDF. Artikel ini akan memandu Anda melalui proses menghapus penanda halaman dari file PDF menggunakan Aspose.PDF untuk Java.
+File PDF merupakan format yang banyak digunakan untuk berbagi dokumen. File PDF sering kali berisi penanda halaman untuk membantu pengguna menelusuri konten dengan mudah. Namun, ada situasi di mana Anda mungkin perlu menghapus penanda halaman dari file PDF. Artikel ini akan memandu Anda melalui proses penghapusan penanda halaman dari file PDF menggunakan Aspose.PDF untuk Java.
 
 ## Memahami Aspose.PDF untuk Java
 
@@ -30,7 +32,7 @@ Ada beberapa alasan untuk menghapus bookmark dari file PDF. Mungkin perlu untuk 
 
 Sebelum memulai, Anda perlu menyiapkan Aspose.PDF untuk Java di proyek Java Anda. Ikuti langkah-langkah berikut untuk memulai:
 
-1.  Unduh Aspose.PDF untuk Java: Anda dapat mengunduh pustaka dari situs web Aspose. Gunakan tautan berikut:[Unduh Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/).
+1. Unduh Aspose.PDF untuk Java: Anda dapat mengunduh pustaka dari situs web Aspose. Gunakan tautan berikut: [Unduh Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/).
 
 2. Tambahkan JAR ke Proyek Anda: Sertakan file JAR yang diunduh di classpath proyek Java Anda.
 
@@ -50,7 +52,7 @@ public class Main {
 
 ## Memuat Dokumen PDF
 
-Setelah Anda menyiapkan Aspose.PDF untuk Java, Anda dapat memuat dokumen PDF ke aplikasi Java Anda untuk manipulasi lebih lanjut. Gunakan kode berikut untuk memuat dokumen PDF:
+Setelah Anda menyiapkan Aspose.PDF untuk Java, Anda dapat memuat dokumen PDF ke dalam aplikasi Java Anda untuk manipulasi lebih lanjut. Gunakan kode berikut untuk memuat dokumen PDF:
 
 ```java
 // Memuat file PDF yang ada
@@ -73,7 +75,7 @@ Sekarang, mari kita mulai proses menghapus bookmark dari file PDF. Ikuti langkah
 
 1. Ulangi melalui penanda buku menggunakan perulangan.
 2. Identifikasi penanda yang ingin Anda hapus berdasarkan kriteria Anda.
-3.  Hapus penanda menggunakan`delete` metode.
+3. Hapus penanda menggunakan `delete` metode.
 
 Berikut ini contoh potongan kode untuk membantu Anda memulai:
 
@@ -139,7 +141,7 @@ Untuk menginstal Aspose.PDF untuk Java, ikuti langkah-langkah berikut:
 
 ### Bisakah saya menghapus penanda tertentu berdasarkan kriteria?
 
- Ya, Anda dapat menghapus bookmark tertentu berdasarkan kriteria Anda. Ulangi bookmark, terapkan kriteria Anda, dan gunakan`delete` metode untuk menghapusnya.
+Ya, Anda dapat menghapus bookmark tertentu berdasarkan kriteria Anda. Ulangi bookmark, terapkan kriteria Anda, dan gunakan `delete` metode untuk menghapusnya.
 
 ### Apakah menghapus bookmark akan memengaruhi konten PDF?
 
@@ -151,10 +153,12 @@ Aspose.PDF untuk Java adalah pustaka komersial, dan mungkin memerlukan lisensi u
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan sumber daya Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi dan sumber daya yang komprehensif untuk Aspose.PDF untuk Java di tautan dokumentasi Aspose:[Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi dan sumber daya yang komprehensif untuk Aspose.PDF untuk Java di tautan dokumentasi Aspose: [Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

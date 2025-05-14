@@ -1,14 +1,16 @@
 ---
-title: Zweryfikuj PDF AB Standard
-linktitle: Zweryfikuj PDF AB Standard
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak zweryfikować plik PDF pod kątem standardu PDF/A-1b przy użyciu Aspose.PDF dla .NET w tym samouczku krok po kroku. Zapewnij zgodność w celu długoterminowej archiwizacji.
-weight: 380
-url: /pl/net/programming-with-document/validatepdfabstandard/
+"description": "Dowiedz się, jak zweryfikować plik PDF pod kątem standardu PDF/A-1b przy użyciu Aspose.PDF dla .NET w tym samouczku krok po kroku. Zapewnij zgodność w celu długoterminowej archiwizacji."
+"linktitle": "Zweryfikuj PDF AB Standard"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zweryfikuj PDF AB Standard"
+"url": "/pl/net/programming-with-document/validatepdfabstandard/"
+"weight": 380
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zweryfikuj PDF AB Standard
@@ -24,9 +26,9 @@ Używając Aspose.PDF dla .NET, walidacja pliku PDF pod kątem zgodności z PDF/
 
 Zanim przejdziemy do kodu, upewnij się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.PDF dla .NET: Potrzebujesz najnowszej wersji. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
-- Środowisko .NET: Upewnij się, że masz działające środowisko programistyczne .NET, np. Visual Studio.
--  Licencja: Aby uzyskać pełną funkcjonalność, potrzebujesz licencji Aspose. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)do oceny lub[kup tutaj](https://purchase.aspose.com/buy).
+- Aspose.PDF dla .NET: Potrzebujesz najnowszej wersji. Możesz ją pobrać ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
+- Środowisko .NET: Upewnij się, że dysponujesz działającym środowiskiem programistycznym .NET, np. Visual Studio.
+- Licencja: Aby uzyskać pełną funkcjonalność, potrzebujesz licencji Aspose. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny lub [kup tutaj](https://purchase.aspose.com/buy).
 
 Gdy już spełnisz wszystkie wymagania wstępne, będziesz gotowy wykonać kroki opisane w tym samouczku.
 
@@ -52,7 +54,7 @@ Po pierwsze: musisz wskazać kodowi, gdzie ma znaleźć dokument PDF. Można to 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- W tym wierszu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój plik PDF. Ta ścieżka będzie używana w całym kodzie, aby uzyskać dostęp do pliku PDF, który chcesz zweryfikować.
+W tym wierszu zamień `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, w której znajduje się Twój plik PDF. Ta ścieżka będzie używana w całym kodzie, aby uzyskać dostęp do pliku PDF, który chcesz zweryfikować.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -62,7 +64,7 @@ Teraz, gdy wiemy, gdzie jest plik PDF, otwórzmy go. Aspose.PDF ułatwia ładowa
 Document pdfDocument = new Document(dataDir + "ValidatePDFAStandard.pdf");
 ```
 
- Tutaj,`Document`Klasa służy do otwierania pliku PDF. Upewnij się, że plik znajduje się w prawidłowej lokalizacji, a zostanie załadowany do pamięci i będzie gotowy do walidacji.
+Tutaj, `Document` Klasa służy do otwierania pliku PDF. Upewnij się, że plik znajduje się w prawidłowej lokalizacji, a zostanie załadowany do pamięci i będzie gotowy do walidacji.
 
 ## Krok 3: Zweryfikuj plik PDF pod kątem standardu PDF/A
 
@@ -73,7 +75,7 @@ pdfDocument.Validate(dataDir + "validation-result-A1A.xml", PdfFormat.PDF_A_1B);
 ```
 
 Omówmy to szczegółowo:
--  Ten`Validate` Metoda przyjmuje dwa parametry. Pierwszy to ścieżka, w której zostaną zapisane wyniki walidacji. Drugi to format PDF/A, względem którego przeprowadzasz walidację — w tym przypadku`PDF_A_1B`.
+- Ten `Validate` Metoda przyjmuje dwa parametry. Pierwszy to ścieżka, w której zostaną zapisane wyniki walidacji. Drugi to format PDF/A, względem którego przeprowadzasz walidację — w tym przypadku `PDF_A_1B`.
 - Wyniki zostaną zapisane w pliku XML, zawierającym szczegółowe informacje o tym, czy dokument przeszedł walidację i czy wystąpiły jakieś problemy.
 
 ## Krok 4: Obsługa wyników walidacji
@@ -100,13 +102,15 @@ Tak! Aspose.PDF obsługuje walidację dla różnych standardów PDF/A, w tym PDF
 Wyniki walidacji zapisywane są w pliku XML, który można otworzyć za pomocą dowolnego edytora tekstu lub XML, aby przejrzeć błędy, ostrzeżenia lub komunikaty o powodzeniu.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF do walidacji PDF/A?
- Tak, potrzebujesz licencji, aby odblokować pełen potencjał Aspose.PDF. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup pełną licencję[Tutaj](https://purchase.aspose.com/buy).
+Tak, potrzebujesz licencji, aby odblokować pełen potencjał Aspose.PDF. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup pełną licencję [Tutaj](https://purchase.aspose.com/buy).
 
 ### Co się stanie, jeśli mój plik PDF nie przejdzie weryfikacji PDF/A?
 Jeśli Twój plik PDF nie przejdzie walidacji, plik wyników XML dostarczy szczegółów na temat konkretnych problemów. Następnie możesz zmodyfikować dokument odpowiednio, korzystając z potężnych funkcji edycyjnych Aspose.PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

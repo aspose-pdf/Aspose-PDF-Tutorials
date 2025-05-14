@@ -1,14 +1,16 @@
 ---
-title: Thêm văn bản với màu đổ bóng trong tệp PDF
-linktitle: Thêm văn bản với màu đổ bóng trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm đổ bóng văn bản vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tùy chỉnh tài liệu của bạn bằng các gradient màu.
-weight: 80
-url: /vi/net/programming-with-text/add-text-with-shading-colors/
+"description": "Tìm hiểu cách thêm đổ bóng văn bản vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tùy chỉnh tài liệu của bạn bằng các gradient màu."
+"linktitle": "Thêm văn bản với màu đổ bóng trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm văn bản với màu đổ bóng trong tệp PDF"
+"url": "/vi/net/programming-with-text/add-text-with-shading-colors/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm văn bản với màu đổ bóng trong tệp PDF
@@ -21,11 +23,11 @@ Bạn đã bao giờ thấy mình cần làm cho các tài liệu PDF trở nên
 
 Trước khi đi sâu vào mã, có một vài thứ bạn cần thiết lập để làm theo hướng dẫn này. Sau đây là những gì bạn cần:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã tải xuống và cài đặt phiên bản mới nhất của Aspose.PDF. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã tải xuống và cài đặt phiên bản mới nhất của Aspose.PDF. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 2. IDE (Môi trường phát triển tích hợp): Bạn có thể sử dụng bất kỳ IDE nào tương thích với .NET, nhưng Visual Studio được khuyến khích sử dụng.
 3. Kiến thức cơ bản về C#: Bạn phải quen thuộc với cú pháp C# và môi trường .NET.
 4. Tệp PDF mẫu: Bạn sẽ cần một tệp PDF mẫu để làm việc. Nếu không có, bạn có thể tạo một tệp PDF văn bản đơn giản hoặc sử dụng bất kỳ tệp nào hiện có để trình diễn.
-5.  Giấy phép Aspose.PDF: Mặc dù bạn có thể dùng thử Aspose.PDF với[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/), bạn cũng có thể khám phá các tính năng bằng cách dùng thử miễn phí.
+5. Giấy phép Aspose.PDF: Mặc dù bạn có thể dùng thử Aspose.PDF với [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/), bạn cũng có thể khám phá các tính năng bằng cách dùng thử miễn phí.
 
 ## Nhập gói
 
@@ -49,11 +51,11 @@ Trước tiên, bạn cần xác định vị trí của tài liệu. Hãy nghĩ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp PDF của bạn. Điều này đảm bảo mã của bạn biết nơi cần tìm và nơi lưu tài liệu đã chỉnh sửa.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp PDF của bạn. Điều này đảm bảo mã của bạn biết nơi cần tìm và nơi lưu tài liệu đã chỉnh sửa.
 
 ## Bước 2: Tải một tài liệu PDF hiện có
 
-Sau khi bạn đã thiết lập thư mục tài liệu, đã đến lúc tải tệp PDF bạn muốn chỉnh sửa. Trong ví dụ này, chúng tôi đang sử dụng tệp có tên`"text_sample4.pdf"`.
+Sau khi bạn đã thiết lập thư mục tài liệu, đã đến lúc tải tệp PDF bạn muốn chỉnh sửa. Trong ví dụ này, chúng tôi đang sử dụng tệp có tên `"text_sample4.pdf"`.
 
 ```csharp
 using (Document pdfDocument = new Document(dataDir + "text_sample4.pdf"))
@@ -62,7 +64,7 @@ using (Document pdfDocument = new Document(dataDir + "text_sample4.pdf"))
 }
 ```
 
- Các`Document` đối tượng từ Aspose.PDF sẽ giúp chúng ta mở và làm việc với PDF.
+Các `Document` đối tượng từ Aspose.PDF sẽ giúp chúng ta mở và làm việc với PDF.
 
 ## Bước 3: Tìm kiếm văn bản cụ thể bằng TextFragmentAbsorber
 
@@ -73,7 +75,7 @@ TextFragmentAbsorber absorber = new TextFragmentAbsorber("Lorem ipsum");
 pdfDocument.Pages.Accept(absorber);
 ```
 
- Trong ví dụ này, chúng tôi đang tìm cụm từ “Lorem ipsum” trong PDF.`Accept` Phương pháp này xử lý các trang và cho phép bộ hấp thụ xác định các đoạn văn bản.
+Trong ví dụ này, chúng tôi đang tìm cụm từ “Lorem ipsum” trong PDF. `Accept` Phương pháp này xử lý các trang và cho phép bộ hấp thụ xác định các đoạn văn bản.
 
 ## Bước 4: Truy cập vào đoạn văn bản bạn muốn sửa đổi
 
@@ -96,11 +98,11 @@ textFragment.TextState.ForegroundColor = new Aspose.Pdf.Color()
 };
 ```
 
- Điều này tạo ra một gradient mượt mà từ đỏ sang xanh trong văn bản đã chọn.`PatternColorSpace` được sử dụng để xác định hiệu ứng màu đặc biệt này.
+Điều này tạo ra một gradient mượt mà từ đỏ sang xanh trong văn bản đã chọn. `PatternColorSpace` được sử dụng để xác định hiệu ứng màu đặc biệt này.
 
 ## Bước 6: Gạch chân văn bản (Tùy chọn)
 
- Nếu bạn muốn thêm gạch chân vào văn bản để nhấn mạnh thêm, bạn có thể thực hiện bằng cách đặt`Underline` tài sản để`true`.
+Nếu bạn muốn thêm gạch chân vào văn bản để nhấn mạnh thêm, bạn có thể thực hiện bằng cách đặt `Underline` tài sản để `true`.
 
 ```csharp
 textFragment.TextState.Underline = true;
@@ -110,13 +112,13 @@ Thêm gạch chân có thể làm cho văn bản được tô bóng của bạn 
 
 ## Bước 7: Lưu tài liệu PDF đã cập nhật
 
-Cuối cùng, sau khi đã tô bóng và áp dụng bất kỳ sửa đổi mong muốn nào, hãy lưu tệp PDF vào thư mục.
+Cuối cùng, sau khi đã tô bóng và áp dụng bất kỳ sửa đổi mong muốn nào, hãy lưu PDF vào thư mục.
 
 ```csharp
 pdfDocument.Save(dataDir + "text_out.pdf");
 ```
 
- PDF đã sửa đổi sẽ được lưu với tên`"text_out.pdf"`trong thư mục bạn đã chỉ định trước đó. Bây giờ, bạn có thể mở tệp và xem văn bản được tô bóng đẹp mắt của mình!
+PDF đã sửa đổi sẽ được lưu với tên `"text_out.pdf"` trong thư mục bạn đã chỉ định trước đó. Bây giờ, bạn có thể mở tệp và xem văn bản được tô bóng đẹp mắt của mình!
 
 ## Phần kết luận
 
@@ -132,16 +134,18 @@ Có! Bằng cách lặp qua bộ sưu tập TextFragments, bạn có thể áp d
 Hoàn toàn có thể! Bạn có thể xác định bất kỳ màu nào bạn muốn cho gradient bằng GradientAxialShading.
 
 ### Tôi có cần phải trả phí để sử dụng tính năng này không?
- Bạn có thể thử tính năng này bằng cách sử dụng[dùng thử miễn phí](https://releases.aspose.com/) hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/), nhưng để có đầy đủ chức năng, bạn nên sử dụng giấy phép trả phí.
+Bạn có thể thử tính năng này bằng cách sử dụng [dùng thử miễn phí](https://releases.aspose.com/) hoặc một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/), nhưng để có đầy đủ chức năng, bạn nên sử dụng giấy phép trả phí.
 
 ### Làm thế nào để tôi có thể thay đổi kiểu phông chữ của văn bản?
- Bạn có thể sửa đổi các thuộc tính như kích thước phông chữ, kiểu và độ đậm thông qua đối tượng TextState bằng cách thiết lập các thuộc tính như`FontSize` Và`FontStyle`.
+Bạn có thể sửa đổi các thuộc tính như kích thước phông chữ, kiểu và độ đậm thông qua đối tượng TextState bằng cách thiết lập các thuộc tính như `FontSize` Và `FontStyle`.
 
 ### Tôi có thể thêm bóng vào văn bản mới thêm không?
 Có, bạn có thể thêm văn bản mới vào PDF và áp dụng bóng đổ bằng phương pháp tương tự như hướng dẫn này.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

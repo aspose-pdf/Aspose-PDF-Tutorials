@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PDF RGB to Grayscale Using Aspose.PDF for Java: A Step-by-Step Guide
 
@@ -157,7 +159,11 @@ For more information and tools related to Aspose.PDF:
 - **Support**: [Aspose Forums](https://forum.aspose.com/c/pdf/10)
 
 By following this guide, you can effectively convert your PDFs from RGB to grayscale using Aspose.PDF for Java. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

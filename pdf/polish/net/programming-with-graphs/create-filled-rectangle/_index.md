@@ -1,14 +1,16 @@
 ---
-title: Utwórz wypełniony prostokąt
-linktitle: Utwórz wypełniony prostokąt
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak utworzyć wypełniony prostokąt w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów na każdym poziomie.
-weight: 50
-url: /pl/net/programming-with-graphs/create-filled-rectangle/
+"description": "Dowiedz się, jak utworzyć wypełniony prostokąt w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów na każdym poziomie."
+"linktitle": "Utwórz wypełniony prostokąt"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Utwórz wypełniony prostokąt"
+"url": "/pl/net/programming-with-graphs/create-filled-rectangle/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz wypełniony prostokąt
@@ -22,7 +24,7 @@ Czy kiedykolwiek chciałeś programowo tworzyć atrakcyjne wizualnie pliki PDF? 
 Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To fantastyczne IDE do rozwoju .NET.
-2.  Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Niewielka znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
 ## Importuj pakiety
@@ -56,11 +58,11 @@ Po pierwsze, musisz określić ścieżkę, w której zostanie zapisany Twój pli
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie chcesz zapisać plik PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie chcesz zapisać plik PDF.
 
 ## Krok 2: Utwórz instancję dokumentu
 
- Następnie utworzymy instancję`Document`klasa. Ta klasa reprezentuje dokument PDF, z którym będziesz pracować.
+Następnie utworzymy instancję `Document` klasa. Ta klasa reprezentuje dokument PDF, z którym będziesz pracować.
 
 ```csharp
 // Utwórz instancję dokumentu
@@ -82,7 +84,7 @@ Ten kod dodaje nową stronę do dokumentu, umożliwiając rysowanie na niej kszt
 
 ## Krok 4: Utwórz instancję grafu
 
- Aby narysować kształty, musimy utworzyć`Graph` przykład. Wyobraź sobie wykres jako płótno, na którym możesz rysować różne kształty.
+Aby narysować kształty, musimy utworzyć `Graph` przykład. Wyobraź sobie wykres jako płótno, na którym możesz rysować różne kształty.
 
 ```csharp
 // Utwórz instancję Graph
@@ -93,14 +95,14 @@ Tutaj tworzymy graf o szerokości 100 i wysokości 400.
 
 ## Krok 5: Dodaj wykres do strony
 
-Teraz, gdy mamy już wykres, dodajmy go do strony, którą wcześniej utworzyliśmy.
+Teraz, gdy mamy już wykres, dodajmy go do strony, którą utworzyliśmy wcześniej.
 
 ```csharp
 // Dodaj obiekt wykresu do kolekcji akapitów instancji strony
 page.Paragraphs.Add(graph);
 ```
 
-Ta linia mocuje wykres do strony, przygotowując go do rysowania.
+Ta linia mocuje wykres do strony i przygotowuje go do rysowania.
 
 ## Krok 6: Utwórz instancję prostokąta
 
@@ -115,7 +117,7 @@ W tym kodzie definiujemy pozycję i rozmiar prostokąta. Parametry reprezentują
 
 ## Krok 7: Określ kolor wypełnienia
 
-Teraz wybierzmy kolor dla naszego prostokąta. Wypełnimy go kolorem czerwonym w tym przykładzie.
+Teraz wybierzmy kolor dla naszego prostokąta. Wypełnimy go na czerwono w tym przykładzie.
 
 ```csharp
 // Określ kolor wypełnienia dla obiektu Graph
@@ -126,7 +128,7 @@ Ta linia ustawia kolor wypełnienia prostokąta na czerwony. Możesz wybrać dow
 
 ## Krok 8: Dodaj prostokąt do wykresu
 
-Mając gotowy prostokąt, czas dodać go do wykresu.
+Mając już gotowy prostokąt, czas dodać go do wykresu.
 
 ```csharp
 // Dodaj obiekt prostokąta do kolekcji kształtów obiektu Graph
@@ -145,7 +147,7 @@ dataDir = dataDir + "CreateFilledRectangle_out.pdf";
 doc.Save(dataDir);
 ```
 
- Ten kod zapisuje plik PDF pod nazwą`CreateFilledRectangle_out.pdf` w katalogu, który wcześniej określiłeś.
+Ten kod zapisuje plik PDF pod nazwą `CreateFilledRectangle_out.pdf` w katalogu, który wcześniej określiłeś.
 
 ## Krok 10: Wiadomość potwierdzająca
 
@@ -159,7 +161,7 @@ Ten wiersz spowoduje wyświetlenie komunikatu na konsoli potwierdzającego, że 
 
 ## Wniosek
 
-masz! Udało Ci się utworzyć wypełniony prostokąt w dokumencie PDF przy użyciu Aspose.PDF dla .NET. Ta potężna biblioteka otwiera świat możliwości manipulacji PDF, umożliwiając programowe tworzenie oszałamiających dokumentów. Niezależnie od tego, czy generujesz raporty, faktury czy jakikolwiek inny typ pliku PDF, Aspose.PDF ma dla Ciebie rozwiązanie.
+I masz! Udało Ci się utworzyć wypełniony prostokąt w dokumencie PDF przy użyciu Aspose.PDF dla .NET. Ta potężna biblioteka otwiera świat możliwości manipulacji PDF, umożliwiając programowe tworzenie oszałamiających dokumentów. Niezależnie od tego, czy generujesz raporty, faktury czy jakikolwiek inny typ pliku PDF, Aspose.PDF ma dla Ciebie rozwiązanie.
 
 ## Najczęściej zadawane pytania
 
@@ -167,19 +169,21 @@ masz! Udało Ci się utworzyć wypełniony prostokąt w dokumencie PDF przy uży
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Czy istnieje sposób na uzyskanie wsparcia dla Aspose.PDF?
- Oczywiście! Możesz uzyskać wsparcie przez forum Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Oczywiście! Możesz uzyskać wsparcie przez forum Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Jak mogę zakupić Aspose.PDF?
- Możesz kupić Aspose.PDF odwiedzając stronę zakupu[Tutaj](https://purchase.aspose.com/buy).
+Możesz kupić Aspose.PDF odwiedzając stronę zakupu [Tutaj](https://purchase.aspose.com/buy).
 
 ### Jakie typy kształtów mogę tworzyć za pomocą Aspose.PDF?
 Za pomocą biblioteki Aspose.PDF możesz tworzyć różne kształty, w tym prostokąty, okręgi, linie i inne.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Membuat Elemen Tabel dalam PDF menggunakan Java
-linktitle: Membuat Elemen Tabel dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Temukan cara membuat dan menyesuaikan tabel dalam dokumen PDF menggunakan Java dan Aspose.PDF untuk Java. Ikuti panduan terperinci kami dengan contoh kode sumber untuk kontrol yang tepat atas tabel PDF Anda.
-weight: 12
-url: /id/java/pdf-tags-and-structure/create-table-element-in-pdf-using-java/
+"description": "Temukan cara membuat dan menyesuaikan tabel dalam dokumen PDF menggunakan Java dan Aspose.PDF untuk Java. Ikuti panduan terperinci kami dengan contoh kode sumber untuk kontrol yang tepat atas tabel PDF Anda."
+"linktitle": "Membuat Elemen Tabel dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Membuat Elemen Tabel dalam PDF menggunakan Java"
+"url": "/id/java/pdf-tags-and-structure/create-table-element-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Elemen Tabel dalam PDF menggunakan Java
@@ -23,7 +25,7 @@ Sebelum mulai membuat tabel, pastikan Anda telah menyiapkan prasyarat berikut:
 
 1. Lingkungan Pengembangan Java: Pastikan Anda memiliki lingkungan pengembangan Java yang berfungsi pada sistem Anda.
 
-2.  Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari[Situs web Aspose](https://releases.aspose.com/pdf/java/)Anda memerlukan pustaka ini untuk memanipulasi berkas PDF secara terprogram.
+2. Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari [Situs web Aspose](https://releases.aspose.com/pdf/java/)Anda memerlukan pustaka ini untuk memanipulasi berkas PDF secara terprogram.
 
 ## Langkah 1: Menyiapkan Proyek Java Anda
 
@@ -114,7 +116,7 @@ Dengan mengikuti langkah-langkah ini, Anda dapat membuat tabel yang sesuai denga
    Ya, Anda dapat menyisipkan gambar ke dalam sel tabel dengan membuat contoh Gambar dan menambahkannya sebagai konten sel. Jelajahi dokumentasi Aspose.PDF untuk petunjuk terperinci.
 
 ### Bisakah sel dalam tabel digabungkan?
-    Tentu saja! Anda dapat menggabungkan sel dalam tabel menggunakan`setColSpan` Dan`setRowSpan`metode kelas Cell. Ini memungkinkan Anda membuat tata letak tabel yang kompleks.
+   Tentu saja! Anda dapat menggabungkan sel dalam tabel menggunakan `setColSpan` Dan `setRowSpan` metode kelas Cell. Ini memungkinkan Anda membuat tata letak tabel yang kompleks.
 
 ### Bagaimana dengan paginasi tabel untuk set data yang besar?
    Aspose.PDF untuk Java mendukung pagination tabel, memastikan bahwa tabel besar dibagi dengan benar di beberapa halaman untuk menjaga keterbacaan.
@@ -123,10 +125,12 @@ Dengan mengikuti langkah-langkah ini, Anda dapat membuat tabel yang sesuai denga
    Ya, Anda dapat menerapkan pemformatan bersyarat ke sel tabel untuk menyorot data tertentu berdasarkan kondisi. Fitur ini sangat dapat disesuaikan.
 
 ### Di mana saya dapat menemukan opsi penyesuaian tabel tingkat lanjut?
-    Jelajahi[Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/) untuk daftar lengkap fitur dan opsi penyesuaian untuk tabel PDF.
+   Jelajahi [Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/) untuk daftar lengkap fitur dan opsi penyesuaian untuk tabel PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ลบคำอธิบายเฉพาะในไฟล์ PDF
-linktitle: ลบคำอธิบายเฉพาะในไฟล์ PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการลบคำอธิบายประกอบเฉพาะในไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการจัดการคำอธิบายประกอบ PDF ที่แม่นยำ
-weight: 12
-url: /th/java/pdf-annotations/delete-specific-annotations-pdf-files/
+"description": "เรียนรู้วิธีการลบคำอธิบายประกอบเฉพาะในไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการจัดการคำอธิบายประกอบ PDF ที่แม่นยำ"
+"linktitle": "ลบคำอธิบายเฉพาะในไฟล์ PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ลบคำอธิบายเฉพาะในไฟล์ PDF"
+"url": "/th/java/pdf-annotations/delete-specific-annotations-pdf-files/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบคำอธิบายเฉพาะในไฟล์ PDF
@@ -23,7 +25,7 @@ url: /th/java/pdf-annotations/delete-specific-annotations-pdf-files/
 ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Eclipse หรือ IntelliJ IDEA
 
 ## การตั้งค่าโครงการของคุณ
@@ -41,11 +43,11 @@ url: /th/java/pdf-annotations/delete-specific-annotations-pdf-files/
 Document pdfDocument = new Document("sample.pdf");
 ```
 
- แทนที่`"sample.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
+แทนที่ `"sample.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
 
 ### ขั้นตอนที่ 2: ระบุคำอธิบายประกอบที่จะลบ
 
-คุณต้องระบุเกณฑ์ในการระบุคำอธิบายประกอบที่คุณต้องการลบ ตัวอย่างเช่น คุณสามารถกำหนดเป้าหมายคำอธิบายประกอบตามผู้เขียน ประเภท หรือเนื้อหา
+คุณต้องระบุเกณฑ์สำหรับการระบุคำอธิบายประกอบที่คุณต้องการลบ ตัวอย่างเช่น คุณสามารถกำหนดเป้าหมายคำอธิบายประกอบตามผู้เขียน ประเภท หรือเนื้อหา
 
 ```java
 for (Page page : pdfDocument.getPages()) {
@@ -68,7 +70,7 @@ for (Page page : pdfDocument.getPages()) {
 pdfDocument.save("modified.pdf");
 ```
 
- แทนที่`"modified.pdf"` ด้วยเส้นทางไฟล์เอาท์พุตตามที่ต้องการ
+แทนที่ `"modified.pdf"` ด้วยเส้นทางไฟล์เอาท์พุตตามที่ต้องการ
 
 ## บทสรุป
 
@@ -78,11 +80,11 @@ pdfDocument.save("modified.pdf");
 
 ### ฉันจะลบคำอธิบายตามประเภทได้อย่างไร
 
- หากต้องการลบคำอธิบายประกอบตามประเภท คุณสามารถแก้ไขโค้ดในขั้นตอนที่ 2 แทนที่จะตรวจสอบผู้เขียน ให้ตรวจสอบประเภทของคำอธิบายประกอบ ตัวอย่างเช่น หากต้องการลบคำอธิบายประกอบข้อความทั้งหมด คุณสามารถใช้`annotation instanceof TextAnnotation`.
+หากต้องการลบคำอธิบายประกอบตามประเภท คุณสามารถแก้ไขโค้ดในขั้นตอนที่ 2 แทนที่จะตรวจสอบผู้เขียน ให้ตรวจสอบประเภทของคำอธิบายประกอบ ตัวอย่างเช่น หากต้องการลบคำอธิบายประกอบข้อความทั้งหมด คุณสามารถใช้ `annotation instanceof TextAnnotation`-
 
 ### ฉันสามารถลบคำอธิบายจากเฉพาะหน้าได้หรือไม่
 
-ใช่ คุณสามารถลบคำอธิบายประกอบจากหน้าใดหน้าหนึ่งได้โดยการทำซ้ำคำอธิบายประกอบในหน้านั้น เพียงกรองคำอธิบายประกอบตามหมายเลขหน้าก่อนการลบ
+ใช่ คุณสามารถลบคำอธิบายประกอบจากหน้าใดหน้าหนึ่งได้โดยการทำซ้ำคำอธิบายประกอบในหน้านั้น เพียงกรองคำอธิบายประกอบตามหมายเลขหน้าก่อนจะลบ
 
 ### Aspose.PDF สำหรับ Java สามารถใช้งานร่วมกับไลบรารี Java อื่นๆ ได้หรือไม่
 
@@ -94,10 +96,12 @@ Aspose.PDF สำหรับ Java สามารถทำงานร่วม
 
 ### ฉันสามารถหาเอกสารและแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถเข้าถึงเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถเข้าถึงเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

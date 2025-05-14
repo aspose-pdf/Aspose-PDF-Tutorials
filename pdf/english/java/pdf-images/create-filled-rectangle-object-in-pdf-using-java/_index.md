@@ -8,7 +8,9 @@ url: /java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Filled Rectangle Object in PDF using Java
@@ -115,6 +117,7 @@ You can find more examples and detailed documentation on how to use Aspose.PDF f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

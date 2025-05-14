@@ -1,14 +1,16 @@
 ---
-title: Penghentian Tab Kustom Dalam File PDF
-linktitle: Penghentian Tab Kustom Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengatur tab stop khusus dalam PDF menggunakan Aspose.PDF untuk .NET. Tutorial ini mencakup petunjuk langkah demi langkah untuk menyelaraskan teks secara profesional.
-weight: 120
-url: /id/net/programming-with-text/custom-tab-stops/
+"description": "Pelajari cara mengatur tab stop khusus dalam PDF menggunakan Aspose.PDF untuk .NET. Tutorial ini mencakup petunjuk langkah demi langkah untuk menyelaraskan teks secara profesional."
+"linktitle": "Penghentian Tab Kustom Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Penghentian Tab Kustom Dalam File PDF"
+"url": "/id/net/programming-with-text/custom-tab-stops/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Penghentian Tab Kustom Dalam File PDF
@@ -21,10 +23,10 @@ Pernahkah Anda harus memformat teks dalam PDF dan berharap dapat mengontrol deng
 
 Sebelum kita mulai, berikut ini hal-hal yang perlu Anda ikuti:
 
--  Aspose.PDF untuk .NET: Anda harus menginstal pustaka Aspose.PDF. Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Anda harus menginstal pustaka Aspose.PDF. Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 - Lingkungan Pengembangan .NET: Pastikan Anda telah menyiapkan Visual Studio atau IDE lain untuk menjalankan aplikasi .NET.
 - Pemahaman Dasar tentang C#: Kita akan menulis kode dalam C#, jadi disarankan untuk memahaminya.
--  Lisensi Sementara: Anda dapat menggunakan[lisensi sementara](https://purchase.aspose.com/temporary-license/)untuk membuka semua fitur Aspose.PDF untuk .NET.
+- Lisensi Sementara: Anda dapat menggunakan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk membuka semua fitur Aspose.PDF untuk .NET.
 
 Setelah semuanya siap, mari kita lanjutkan dengan mengimpor paket yang diperlukan dan menyiapkan lingkungan.
 
@@ -39,7 +41,7 @@ using Aspose.Pdf.Text;
 using System;
 ```
 
- Kedua garis ini sangat penting.`Aspose.Pdf` namespace menyediakan struktur dokumen, sementara`Aspose.Pdf.Text` memberi kita akses ke fitur khusus teks seperti penghentian tab khusus.
+Kedua garis ini sangat penting. `Aspose.Pdf` namespace menyediakan struktur dokumen, sementara `Aspose.Pdf.Text` memberi kita akses ke fitur khusus teks seperti penghentian tab khusus.
 
 Mari kita bahas proses pengaturan tab stop kustom dalam PDF. Kami akan membahas setiap langkah secara terperinci untuk memastikan Anda memahami dengan tepat apa yang terjadi.
 
@@ -54,8 +56,8 @@ Page page = _pdfdocument.Pages.Add();
 ```
 
 Dalam cuplikan ini:
--  Kami membuat yang baru`Document` obyek.
--  Kami menambahkan halaman baru ke dokumen menggunakan`Pages.Add()`Di sinilah kita akan menyisipkan teks dengan tab stop.
+- Kami membuat yang baru `Document` obyek.
+- Kami menambahkan halaman baru ke dokumen menggunakan `Pages.Add()`Di sinilah kita akan menyisipkan teks dengan tab stop.
 
 ## Langkah 2: Mengatur Tab Stop
 
@@ -69,9 +71,9 @@ ts1.LeaderType = TabLeaderType.Solid;
 ```
 
 Di sini, kami:
--  Inisialisasi a`TabStops` objek, yang akan menampung penghentian tab kustom kita.
--  Tambahkan tab stop pada tanda 100 piksel menggunakan`ts.Add(100)`Ini menentukan di mana tab akan muncul.
--  Atur jenis penyelarasan ke`Right`, artinya teks yang menyentuh tab stop ini akan rata kanan.
+- Inisialisasi a `TabStops` objek, yang akan menampung penghentian tab kustom kita.
+- Tambahkan tab stop pada tanda 100 piksel menggunakan `ts.Add(100)`Ini menentukan di mana tab akan muncul.
+- Atur jenis penyelarasan ke `Right`, artinya teks yang menyentuh tab stop ini akan rata kanan.
 - Tentukan jenis garis batas. Garis batas adalah titik atau garis putus-putus yang mengisi ruang sebelum tab stop. Dalam kasus ini, kami menggunakan garis utuh.
 
 ## Langkah 3: Tambahkan Lebih Banyak Tab Stop
@@ -103,11 +105,11 @@ TextFragment text1 = new TextFragment("#$TABdata11 #$TABdata12 #$TABdata13", ts)
 
 - `TextFragment` mewakili sepotong teks.
 - Kami menggunakan penanda tab (`#$TAB`) untuk memberi tahu PDF di mana harus menerapkan penghentian tab.
--  Misalnya saja di`text0`, `#$TABHead1` akan menyelaraskan sesuai dengan pemberhentian tab pertama,`#$TABHead2` akan sejajar dengan yang kedua, dan seterusnya.
+- Misalnya saja di `text0`Bahasa Indonesia: `#$TABHead1` akan menyelaraskan sesuai dengan pemberhentian tab pertama, `#$TABHead2` akan sejajar dengan yang kedua, dan seterusnya.
 
 ## Langkah 5: Tambahkan Segmen ke Teks
 
- Terkadang, Anda mungkin ingin membagi teks Anda menjadi beberapa segmen, masing-masing dengan tab stop-nya sendiri. Di sinilah`TextSegment` sangat berguna.
+Terkadang, Anda mungkin ingin membagi teks Anda menjadi beberapa segmen, masing-masing dengan tab stop-nya sendiri. Di sinilah `TextSegment` sangat berguna.
 
 ```csharp
 TextFragment text2 = new TextFragment("#$TABdata21 ", ts);
@@ -118,8 +120,8 @@ text2.Segments.Add(new TextSegment("data23"));
 ```
 
 Dalam kasus ini:
--  Kita mulai dengan`#$TABdata21`, yang sejajar dengan perhentian tab pertama.
--  Kami menambahkan lebih banyak segmen seperti`data22` Dan`data23`, masing-masing selaras dengan perhentian tab yang berbeda.
+- Kita mulai dengan `#$TABdata21`, yang sejajar dengan perhentian tab pertama.
+- Kami menambahkan lebih banyak segmen seperti `data22` Dan `data23`, masing-masing selaras dengan perhentian tab yang berbeda.
 
 ## Langkah 6: Tambahkan Teks ke Halaman PDF
 
@@ -132,7 +134,7 @@ page.Paragraphs.Add(text1);
 page.Paragraphs.Add(text2);
 ```
 
- Kode ini menambahkan setiap`TextFragment`ke halaman PDF, memastikan bahwa teks diformat sesuai dengan tab stop.
+Kode ini menambahkan setiap `TextFragment` ke halaman PDF, memastikan bahwa teks diformat sesuai dengan tab stop.
 
 ## Langkah 7: Simpan Dokumen PDF
 
@@ -167,9 +169,11 @@ Tidak, Anda dapat menambahkan tab stop sebanyak-banyaknya sesuai kebutuhan desai
 
 ### Bisakah saya menyesuaikan posisi tab stop?  
 Ya, Anda dapat menentukan posisi piksel yang tepat untuk setiap perhentian tab agar sesuai dengan tata letak Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

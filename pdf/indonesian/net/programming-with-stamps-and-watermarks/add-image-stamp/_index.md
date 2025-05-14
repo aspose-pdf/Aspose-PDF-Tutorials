@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Stempel Gambar Dalam File PDF
-linktitle: Tambahkan Stempel Gambar Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan stempel gambar ke file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah dan contoh kode.
-weight: 20
-url: /id/net/programming-with-stamps-and-watermarks/add-image-stamp/
+"description": "Pelajari cara menambahkan stempel gambar ke file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah dan contoh kode."
+"linktitle": "Tambahkan Stempel Gambar Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Stempel Gambar Dalam File PDF"
+"url": "/id/net/programming-with-stamps-and-watermarks/add-image-stamp/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Stempel Gambar Dalam File PDF
@@ -22,7 +24,7 @@ Dalam hal memanipulasi file PDF, hanya sedikit alat yang sekuat dan semudah Aspo
 Sebelum menyelami seluk-beluk kode, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut ini yang Anda perlukan:
 
 1. Visual Studio atau IDE .NET apa pun: Anda harus memiliki lingkungan pengembangan .NET untuk mengimplementasikan cuplikan kode.
-2.  Pustaka Aspose.PDF untuk .NET: Ini adalah alat utama yang akan kita gunakan. Anda dapat mengunduh versi terbaru pustaka dari[Halaman rilis Aspose](https://releases.aspose.com/pdf/net/).
+2. Pustaka Aspose.PDF untuk .NET: Ini adalah alat utama yang akan kita gunakan. Anda dapat mengunduh versi terbaru pustaka dari [Halaman rilis Aspose](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C# akan membantu Anda menavigasi kode dengan lancar.
 4. Berkas Gambar: Anda memerlukan berkas gambar yang ingin digunakan sebagai prangko. Pastikan berkas tersebut dalam format yang didukung (seperti JPEG, PNG, dll.).
 5. Berkas PDF yang Ada: Miliki contoh berkas PDF tempat Anda akan menambahkan stempel gambar.
@@ -44,13 +46,13 @@ Ini akan memungkinkan Anda untuk mengakses berbagai kelas dan metode yang disedi
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
- Langkah pertama adalah menentukan jalur ke dokumen Anda. Anda ingin menyimpan dokumen dan gambar dalam direktori yang ditentukan dengan baik. Untuk mempermudah, nyatakan variabel`dataDir` seperti ini:
+Langkah pertama adalah menentukan jalur ke dokumen Anda. Anda ingin menyimpan dokumen dan gambar dalam direktori yang ditentukan dengan baik. Untuk mempermudah, nyatakan variabel `dataDir` seperti ini:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -60,7 +62,7 @@ Selanjutnya, kita perlu membuka dokumen PDF yang ingin kita ubah. Di sinilah Asp
 Document pdfDocument = new Document(dataDir + "AddImageStamp.pdf");
 ```
 
- Baris ini membuat yang baru`Document`objek dengan memuat berkas PDF yang Anda tentukan. Pastikan berkas tersebut ada di direktori yang Anda tentukan; jika tidak, Anda akan mengalami galat berkas tidak ditemukan!
+Baris ini membuat yang baru `Document` objek dengan memuat berkas PDF yang Anda tentukan. Pastikan berkas tersebut ada di direktori yang Anda tentukan; jika tidak, Anda akan mengalami galat berkas tidak ditemukan!
 
 ## Langkah 3: Buat Stempel Gambar
 
@@ -70,11 +72,11 @@ Sekarang tibalah bagian yang menyenangkan—menambahkan stempel gambar! Pertama,
 ImageStamp imageStamp = new ImageStamp(dataDir + "aspose-logo.jpg");
 ```
 
- Baris ini menginisialisasi`ImageStamp` objek yang mewakili gambar yang ingin Anda tambahkan. Sangat penting untuk memeriksa apakah jalur berkas gambar Anda sudah benar.
+Baris ini menginisialisasi `ImageStamp` objek yang mewakili gambar yang ingin Anda tambahkan. Sangat penting untuk memeriksa apakah jalur berkas gambar Anda sudah benar.
 
 ## Langkah 4: Konfigurasikan Properti Cap Gambar
 
-Di sinilah Anda dapat berkreasi dan menyesuaikan prangko Anda. Anda dapat mengatur properti seperti posisi, ukuran, rotasi, dan opasitas. Berikut ini contoh cara melakukannya:
+Di sinilah Anda dapat berkreasi dan menyesuaikan prangko Anda. Anda dapat mengatur properti seperti posisi, ukuran, rotasi, dan opasitas. Berikut contoh cara melakukannya:
 
 ```csharp
 imageStamp.Background = true; // Atur ke benar jika Anda ingin prangko berada di latar belakang
@@ -90,7 +92,7 @@ Jangan ragu untuk mengubah nilai-nilai ini sesuai dengan kebutuhan Anda! Kustomi
 
 ## Langkah 5: Tambahkan Prangko ke Halaman Tertentu
 
-Setelah prangko dikonfigurasi, langkah berikutnya adalah menentukan tempat untuk meletakkannya dalam dokumen PDF. Dalam contoh ini, kita akan menambahkannya ke halaman pertama:
+Setelah prangko dikonfigurasi, langkah berikutnya adalah menentukan di mana kita ingin meletakkannya dalam dokumen PDF. Dalam contoh ini, kita akan menambahkannya ke halaman pertama:
 
 ```csharp
 pdfDocument.Pages[1].AddStamp(imageStamp);
@@ -126,22 +128,24 @@ Selamat! Anda baru saja menambahkan stempel gambar ke PDF menggunakan Aspose.PDF
 ## Pertanyaan yang Sering Diajukan
 
 ### Apakah Aspose.PDF untuk .NET gratis untuk digunakan?  
- Aspose.PDF menawarkan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan lanjutan setelah masa uji coba. Anda dapat memeriksa[pilihan harga di sini](https://purchase.aspose.com/buy).
+Aspose.PDF menawarkan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan lanjutan setelah masa uji coba. Anda dapat memeriksa [pilihan harga di sini](https://purchase.aspose.com/buy).
 
 ### Bisakah saya menambahkan beberapa prangko ke satu PDF?  
- Tentu saja! Anda dapat membuat beberapa`ImageStamp` objek dan menambahkannya ke halaman mana saja di PDF.
+Tentu saja! Anda dapat membuat beberapa `ImageStamp` objek dan menambahkannya ke halaman mana saja di PDF.
 
 ### Format gambar apa yang didukung untuk prangko?  
 Aspose.PDF mendukung berbagai format gambar, termasuk JPEG, PNG, dan BMP.
 
 ### Bagaimana cara memutar prangko gambar?  
- Anda dapat mengatur`Rotate` milik`ImageStamp` objek untuk memutar gambar pada sudut yang diinginkan. Pilihannya meliputi`Rotation.on90`, `Rotation.on180`, dll.
+Anda dapat mengatur `Rotate` milik `ImageStamp` objek untuk memutar gambar pada sudut yang diinginkan. Pilihannya meliputi `Rotation.on90`Bahasa Indonesia: `Rotation.on180`, dll.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?  
- Anda dapat menjelajahi referensi dan dokumentasi API lengkap[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menjelajahi referensi dan dokumentasi API lengkap [Di Sini](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF Belgesinin Renk Alanını Değiştirme
-linktitle: Java kullanarak PDF Belgesinin Renk Alanını Değiştirme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java kullanarak bir PDF belgesinin renk alanını nasıl değiştireceğinizi öğrenin. Kod örnekleriyle adım adım kılavuz. PDF'lerinizi yazdırma ve görüntüleme için optimize edin.
-weight: 12
-url: /tr/java/pdf-page-manipulation/change-color-space-of-pdf-document-using-java/
+"description": "Java kullanarak bir PDF belgesinin renk alanını nasıl değiştireceğinizi öğrenin. Kod örnekleriyle adım adım kılavuz. PDF'lerinizi yazdırma ve görüntüleme için optimize edin."
+"linktitle": "Java kullanarak PDF Belgesinin Renk Alanını Değiştirme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF Belgesinin Renk Alanını Değiştirme"
+"url": "/tr/java/pdf-page-manipulation/change-color-space-of-pdf-document-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF Belgesinin Renk Alanını Değiştirme
@@ -32,7 +34,7 @@ Java'da bir PDF belgesinin renk alanını değiştirmeye başlamak için aşağ�
 - Tercih ettiğiniz Entegre Geliştirme Ortamı (IDE)
 - Java kütüphanesi için Aspose.PDF
 
- Aspose.PDF kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/). Java projenize eklemeyi unutmayın.
+Aspose.PDF kütüphanesini şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/)Java projenize eklemeyi unutmayın.
 
 ## Adım Adım Kılavuz
 
@@ -49,7 +51,7 @@ Java'da bir PDF belgesinin renk alanını değiştirmeye başlamak için aşağ�
 Document pdfDocument = new Document("input.pdf");
 ```
 
- Yer değiştirmek`"input.pdf"` PDF dosyanızın yolunu belirtin.
+Yer değiştirmek `"input.pdf"` PDF dosyanızın yolunu belirtin.
 
 ### Renk Alanını Değiştirme
 
@@ -71,7 +73,7 @@ Renk alanını değiştirdikten sonra, değiştirilen PDF belgesini kaydedebilir
 pdfDocument.save("output.pdf");
 ```
 
- Yer değiştirmek`"output.pdf"` Değiştirdiğiniz PDF dosyanız için istediğiniz ismi yazın.
+Yer değiştirmek `"output.pdf"` Değiştirdiğiniz PDF dosyanız için istediğiniz ismi yazın.
 
 ## Kod Örneği
 
@@ -103,7 +105,7 @@ Bu eğitimde, Java ve Aspose.PDF for Java kütüphanesini kullanarak bir PDF bel
 
 ### Java için Aspose.PDF'yi nasıl yüklerim?
 
- Java için Aspose.PDF'yi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/) ve dokümanlarda verilen kurulum talimatlarını izleyin.
+Java için Aspose.PDF'yi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/) ve dokümanlarda verilen kurulum talimatlarını izleyin.
 
 ### Renk uzayını CMYK yerine RGB olarak değiştirebilir miyim?
 
@@ -120,9 +122,11 @@ Aspose.PDF for Java'yı etkili bir şekilde kullanmak için temel Java programla
 ### Birden fazla PDF belgesini toplu olarak dönüştürebilir miyim?
 
 Evet, Aspose.PDF for Java'yı kullanarak birden fazla PDF belgesinin toplu işlenmesini otomatikleştirebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

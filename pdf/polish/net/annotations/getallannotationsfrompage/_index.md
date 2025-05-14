@@ -1,14 +1,16 @@
 ---
-title: Pobierz wszystkie adnotacje ze strony
-linktitle: Pobierz wszystkie adnotacje ze strony
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyodrębnić adnotacje z plików PDF za pomocą Aspose.PDF dla .NET w tym przewodniku krok po kroku. Idealne dla programistów na każdym poziomie.
-weight: 70
-url: /pl/net/annotations/getallannotationsfrompage/
+"description": "Dowiedz się, jak wyodrębnić adnotacje z plików PDF za pomocą Aspose.PDF dla .NET w tym przewodniku krok po kroku. Idealne dla programistów na każdym poziomie."
+"linktitle": "Pobierz wszystkie adnotacje ze strony"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz wszystkie adnotacje ze strony"
+"url": "/pl/net/annotations/getallannotationsfrompage/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz wszystkie adnotacje ze strony
@@ -23,7 +25,7 @@ Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Tutaj napiszemy i uruchomimy nasz kod.
 2. .NET Framework: Znajomość .NET Framework jest niezbędna. Jeśli jesteś nowy, nie martw się; zachowamy prostotę.
-3.  Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 4. Przykładowy plik PDF: Do tego samouczka będziesz potrzebować pliku PDF z adnotacjami. Możesz go utworzyć lub pobrać przykład z Internetu.
 
 ## Importuj pakiety
@@ -46,18 +48,18 @@ Zanim będziemy mogli wyodrębnić adnotacje, musimy określić, gdzie znajduje 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest plik PDF. Jest to kluczowe, ponieważ program musi wiedzieć, gdzie znaleźć plik.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest plik PDF. Jest to kluczowe, ponieważ program musi wiedzieć, gdzie znaleźć plik.
 
 ## Krok 2: Otwórz dokument PDF
 
- Teraz, gdy mamy już skonfigurowany katalog dokumentów, czas otworzyć plik PDF. Użyjemy`Document` Aby to zrobić, należy użyć klasy z biblioteki Aspose.PDF.
+Teraz, gdy mamy już skonfigurowany katalog dokumentów, czas otworzyć plik PDF. Użyjemy `Document` Aby to zrobić, należy użyć klasy z biblioteki Aspose.PDF.
 
 ```csharp
 // Otwórz dokument
 Document pdfDocument = new Document(dataDir + "GetAllAnnotationsFromPage.pdf");
 ```
 
- W tym wierszu tworzymy nową instancję`Document` class i przekazać ścieżkę do naszego pliku PDF. To pozwala nam na interakcję z zawartością pliku PDF.
+W tym wierszu tworzymy nową instancję `Document` class i przekazać ścieżkę do naszego pliku PDF. To pozwala nam na interakcję z zawartością pliku PDF.
 
 ## Krok 3: Przejrzyj adnotacje
 
@@ -74,7 +76,7 @@ foreach (MarkupAnnotation annotation in pdfDocument.Pages[1].Annotations)
 }
 ```
 
- W tym fragmencie kodu używamy`foreach` pętla do iterowania przez każdą adnotację na pierwszej stronie. Dla każdej adnotacji drukujemy jej tytuł, temat i zawartość na konsoli. To tutaj możesz zobaczyć, jak dzieje się magia!
+W tym fragmencie kodu używamy `foreach` pętla do iterowania przez każdą adnotację na pierwszej stronie. Dla każdej adnotacji drukujemy jej tytuł, temat i zawartość na konsoli. To tutaj możesz zobaczyć, jak dzieje się magia!
 
 ## Wniosek
 
@@ -86,19 +88,21 @@ Gratulacje! Udało Ci się nauczyć, jak wyodrębniać adnotacje z dokumentu PDF
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i zarządzanie dokumentami PDF.
 
 ### Jak zainstalować Aspose.PDF?
-Możesz zainstalować Aspose.PDF za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać go bezpośrednio z[Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
+Możesz zainstalować Aspose.PDF za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać go bezpośrednio z [Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Czy mogę wyodrębnić adnotacje z wielu stron?
 Tak, możesz przeglądać wszystkie strony dokumentu i wyciągać adnotacje z każdej z nich.
 
 ### Czy jest dostępna bezpłatna wersja próbna?
- Tak, możesz wypróbować Aspose.PDF bezpłatnie, pobierając wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+Tak, możesz wypróbować Aspose.PDF bezpłatnie, pobierając wersję próbną ze strony [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
- Wsparcie i zadawanie pytań można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Wsparcie i zadawanie pytań można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

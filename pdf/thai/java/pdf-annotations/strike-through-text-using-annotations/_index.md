@@ -1,14 +1,16 @@
 ---
-title: ขีดฆ่าข้อความโดยใช้คำอธิบายประกอบ
-linktitle: ขีดฆ่าข้อความโดยใช้คำอธิบายประกอบ
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีเพิ่มคำอธิบายข้อความแบบขีดฆ่าลงในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการเอกสารอย่างแม่นยำ
-weight: 16
-url: /th/java/pdf-annotations/strike-through-text-using-annotations/
+"description": "เรียนรู้วิธีเพิ่มคำอธิบายข้อความแบบขีดฆ่าลงในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการเอกสารอย่างแม่นยำ"
+"linktitle": "ขีดฆ่าข้อความโดยใช้คำอธิบายประกอบ"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ขีดฆ่าข้อความโดยใช้คำอธิบายประกอบ"
+"url": "/th/java/pdf-annotations/strike-through-text-using-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ขีดฆ่าข้อความโดยใช้คำอธิบายประกอบ
@@ -24,7 +26,7 @@ url: /th/java/pdf-annotations/strike-through-text-using-annotations/
 
 1. สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณมี Java และ IDE ที่เหมาะสม (Eclipse, IntelliJ IDEA หรืออื่น ๆ) ติดตั้งอยู่บนระบบของคุณ
 
-2.  Aspose.PDF สำหรับไลบรารี Java: ดาวน์โหลดและรวมไลบรารี Aspose.PDF สำหรับ Java ไว้ในโปรเจ็กต์ของคุณ คุณสามารถค้นหาลิงก์ดาวน์โหลด[ที่นี่](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF สำหรับไลบรารี Java: ดาวน์โหลดและรวมไลบรารี Aspose.PDF สำหรับ Java ไว้ในโปรเจ็กต์ของคุณ คุณสามารถค้นหาลิงก์ดาวน์โหลด [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## ขั้นตอนที่ 1: การตั้งค่าโครงการ Java ของคุณ
 
@@ -52,7 +54,7 @@ com.aspose.pdf.TextFragment textFragment = new com.aspose.pdf.TextFragment("This
 page.getParagraphs().add(textFragment);
 ```
 
-## ขั้นตอนที่ 4: เพิ่มคำอธิบายขีดฆ่า
+## ขั้นตอนที่ 4: เพิ่มคำอธิบายแบบขีดฆ่า
 
 ตอนนี้มาถึงส่วนที่น่าตื่นเต้น นั่นก็คือการเพิ่มคำอธิบายแบบขีดฆ่าลงในข้อความ
 
@@ -84,7 +86,7 @@ pdfDocument.save("output.pdf");
 
 ### ฉันจะเปลี่ยนสีของคำอธิบายที่ขีดฆ่าได้อย่างไร
 
- หากต้องการเปลี่ยนสีของคำอธิบายขีดทับ คุณสามารถใช้`setColor` และระบุสีที่ต้องการ ในตัวอย่างที่ให้มา เราตั้งค่าเป็นสีแดงโดยใช้`setColor(com.aspose.pdf.Color.getRed())`.
+หากต้องการเปลี่ยนสีของคำอธิบายขีดทับ คุณสามารถใช้ `setColor` และระบุสีที่ต้องการ ในตัวอย่างที่ให้มา เราตั้งค่าเป็นสีแดงโดยใช้ `setColor(com-aspose.pdf.Color.getRed())`.
 
 ### ฉันสามารถเพิ่มคำอธิบายแบบขีดฆ่าหลายรายการในเอกสาร PDF เดียวได้หรือไม่
 
@@ -100,10 +102,12 @@ Aspose.PDF สำหรับ Java สามารถใช้งานได้
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- สำหรับเอกสารประกอบที่ครอบคลุมและทรัพยากรเพิ่มเติม โปรดไปที่หน้าเอกสาร Aspose.PDF สำหรับ Java:[ที่นี่](https://reference.aspose.com/pdf/java/).
+สำหรับเอกสารประกอบที่ครอบคลุมและทรัพยากรเพิ่มเติม โปรดไปที่หน้าเอกสาร Aspose.PDF สำหรับ Java: [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

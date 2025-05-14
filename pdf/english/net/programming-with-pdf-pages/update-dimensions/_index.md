@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/update-dimensions/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update PDF Page Dimensions
@@ -164,6 +166,7 @@ Yes, Aspose has a dedicated support forum that you can access [here](https://for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

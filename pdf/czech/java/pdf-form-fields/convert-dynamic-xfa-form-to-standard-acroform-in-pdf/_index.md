@@ -1,100 +1,104 @@
 ---
-title: Převeďte dynamický formulář XFA na standardní AcroForm v PDF
-linktitle: Převeďte dynamický formulář XFA na standardní AcroForm v PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se, jak bez námahy převést dynamické formuláře XFA na standardní AcroForms v PDF pomocí Aspose.PDF pro Java. Zajistěte kompatibilitu a dostupnost.
-weight: 12
-url: /cs/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/
+"description": "Naučte se, jak snadno převést dynamické formuláře XFA do standardních AcroForms v PDF pomocí Aspose.PDF pro Javu. Zajistěte kompatibilitu a přístupnost."
+"linktitle": "Převod dynamického formuláře XFA na standardní AcroForm v PDF"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Převod dynamického formuláře XFA na standardní AcroForm v PDF"
+"url": "/cs/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převeďte dynamický formulář XFA na standardní AcroForm v PDF
+# Převod dynamického formuláře XFA na standardní AcroForm v PDF
 
 
-## Úvod do převodu dynamického formuláře XFA na standardní AcroForm v PDF
+## Úvod do převodu dynamického formuláře XFA do standardního AcroFormu v PDF
 
-Ve světě manipulace a generování PDF je běžným požadavkem potřeba převést formuláře Dynamic XFA (XML Forms Architecture) na standardní AcroForms. Formuláře XFA, známé pro své dynamické a interaktivní funkce, mají své výhody. Přesto v některých případech kvůli problémům s kompatibilitou a potřebě širší přístupnosti je nutné je převést na univerzálněji podporované AcroForms. V této příručce vás provedeme krok za krokem procesem převodu dynamických formulářů XFA na standardní AcroForms v PDF pomocí Aspose.PDF for Java.
+Ve světě manipulace a generování PDF je běžným požadavkem potřeba převést dynamické formuláře XFA (XML Forms Architecture) na standardní AcroForms. Formuláře XFA, známé svými dynamickými a interaktivními funkcemi, mají své výhody. V některých případech však problémy s kompatibilitou a potřeba širší přístupnosti vyžadují jejich převod na univerzálněji podporované AcroForms. V této příručce vás krok za krokem provedeme procesem převodu dynamických formulářů XFA na standardní AcroForms v PDF pomocí Aspose.PDF pro Javu.
 
 ## Předpoklady
 
-Než se pustíme do procesu převodu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do procesu konverze, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Environment: Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit (JDK).
--  Aspose.PDF for Java: Stáhněte si a nainstalujte knihovnu Aspose.PDF for Java z[zde](https://releases.aspose.com/pdf/java/).
-- Java Integrated Development Environment (IDE): Můžete použít populární IDE jako Eclipse nebo IntelliJ IDEA.
+- Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit (JDK).
+- Aspose.PDF pro Javu: Stáhněte a nainstalujte knihovnu Aspose.PDF pro Javu z [zde](https://releases.aspose.com/pdf/java/).
+- Integrované vývojové prostředí Java (IDE): Můžete použít oblíbená IDE, jako je Eclipse nebo IntelliJ IDEA.
 
-## Převod XFA na AcroForm
+## Převod XFA do AcroFormu
 
-### Krok 1: Inicializujte dokument PDF
+### Krok 1: Inicializace dokumentu PDF
 
-Chcete-li spustit převod, vytvořte nový projekt Java ve svém IDE a přidejte do projektu knihovnu Aspose.PDF for Java. Poté inicializujte dokument PDF následovně:
+Chcete-li spustit konverzi, vytvořte v IDE nový projekt Java a přidejte do něj knihovnu Aspose.PDF pro Javu. Poté inicializujte dokument PDF takto:
 
 ```java
-//Importujte potřebné třídy
+// Importovat potřebné třídy
 import com.aspose.pdf.Document;
 
-// Inicializujte dokument PDF
+// Inicializace dokumentu PDF
 Document pdfDocument = new Document();
 ```
 
-### Krok 2: Načtěte formulář XFA
+### Krok 2: Načtení formuláře XFA
 
-Dále musíte načíst formulář XFA z existujícího souboru PDF. Použijte následující fragment kódu:
+Dále je třeba načíst formulář XFA z existujícího souboru PDF. Použijte následující úryvek kódu:
 
 ```java
-// Načtěte zdrojové PDF s formulářem XFA
+// Načtěte zdrojový PDF soubor s formulářem XFA
 pdfDocument.setXfa(dataDir + "input.pdf");
 ```
 
-### Krok 3: Převeďte na AcroForm
+### Krok 3: Převod do formátu AcroForm
 
-Nyní je čas provést konverzi. Aspose.PDF for Java poskytuje přímou metodu převodu formulářů XFA na AcroForms:
+Nyní je čas provést konverzi. Aspose.PDF pro Javu nabízí přímočarou metodu pro převod formulářů XFA do AcroForms:
 
 ```java
-// Převést XFA na AcroForm
+// Převod XFA na AcroForm
 pdfDocument.convert();
 ```
 
-### Krok 4: Uložte převedené PDF
+### Krok 4: Uložte převedený PDF
 
 Po dokončení převodu uložte upravený dokument PDF do nového souboru:
 
 ```java
-// Uložte převedené PDF do nového souboru
+// Uložení převedeného PDF do nového souboru
 pdfDocument.save(dataDir + "output.pdf");
 ```
 
 ## Závěr
 
-Převod dynamických formulářů XFA na standardní AcroForms v PDF je s Aspose.PDF pro Javu snadný. Tato výkonná knihovna zjednodušuje proces a zajišťuje kompatibilitu mezi různými prohlížeči a aplikacemi PDF. Ať už se zabýváte složitými interaktivními formuláři nebo zjednodušujete pracovní tok dokumentů, Aspose.PDF pro Java vás pokryje.
+Převod dynamických formulářů XFA na standardní AcroForms v PDF je díky knihovně Aspose.PDF pro Javu snadný. Tato výkonná knihovna zefektivňuje proces a zajišťuje kompatibilitu mezi různými prohlížeči PDF a aplikacemi. Ať už pracujete se složitými interaktivními formuláři nebo zjednodušujete pracovní postup s dokumenty, knihovna Aspose.PDF pro Javu vám pomůže.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu získat přístup k dokumentaci Aspose.PDF for Java?
+### Jak mohu získat přístup k souboru Aspose.PDF pro dokumentaci k Javě?
 
- Můžete získat přístup k dokumentaci Aspose.PDF pro Java[zde](https://reference.aspose.com/pdf/java/).
+Dokumentaci k souboru Aspose.PDF pro Javu si můžete prohlédnout [zde](https://reference.aspose.com/pdf/java/).
 
-### Je Aspose.PDF for Java kompatibilní s různými Java IDE?
+### Je Aspose.PDF pro Javu kompatibilní s různými Java IDE?
 
-Ano, Aspose.PDF for Java je kompatibilní s populárními Java Integrated Development Environments (IDE) jako Eclipse a IntelliJ IDEA.
+Ano, Aspose.PDF pro Javu je kompatibilní s populárními integrovanými vývojovými prostředími (IDE) pro Javu, jako jsou Eclipse a IntelliJ IDEA.
 
-### Zachová proces převodu rozvržení původního formuláře?
+### Zachovává proces konverze původní rozvržení formuláře?
 
-Ano, proces převodu zajišťuje zachování rozvržení a obsahu původního formuláře v převedeném PDF.
+Ano, proces převodu zajišťuje, že rozvržení a obsah původního formuláře budou v převedeném PDF zachovány.
 
 ### Mohu převést více formulářů XFA do jednoho dokumentu PDF?
 
-Absolutně! Pomocí Aspose.PDF for Java můžete převést více formulářů XFA v rámci jednoho dokumentu PDF.
+Rozhodně! Pomocí Aspose.PDF pro Javu můžete převést více formulářů XFA v rámci jednoho dokumentu PDF.
 
-### Kde si mohu stáhnout Aspose.PDF pro Java?
+### Kde si mohu stáhnout Aspose.PDF pro Javu?
 
- Knihovnu Aspose.PDF for Java si můžete stáhnout z[tento odkaz](https://releases.aspose.com/pdf/java/).
+Knihovnu Aspose.PDF pro Javu si můžete stáhnout z [tento odkaz](https://releases.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

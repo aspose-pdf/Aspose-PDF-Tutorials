@@ -1,14 +1,16 @@
 ---
-title: Nén giải mã phẳng
-linktitle: Nén giải mã phẳng
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Học cách sử dụng Flate Decode Compression trong Aspose.PDF cho .NET. Tối ưu hóa kích thước tệp PDF hiệu quả với hướng dẫn từng bước này.
-weight: 140
-url: /vi/net/programming-with-images/flate-decode-compression/
+"description": "Học cách sử dụng Flate Decode Compression trong Aspose.PDF cho .NET. Tối ưu hóa kích thước tệp PDF hiệu quả với hướng dẫn từng bước này."
+"linktitle": "Nén giải mã phẳng"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nén giải mã phẳng"
+"url": "/vi/net/programming-with-images/flate-decode-compression/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nén giải mã phẳng
@@ -22,7 +24,7 @@ Khi nói đến việc xử lý PDF, tối ưu hóa kích thước tệp mà kh�
 Trước khi đi sâu vào các chi tiết kỹ thuật, bạn sẽ cần một vài thứ để hành trình này diễn ra suôn sẻ hơn:
 
 - Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# là điều cần thiết. Đừng lo lắng nếu bạn không phải là chuyên gia; chỉ cần một chút quen thuộc là được!
--  Aspose.PDF cho Thư viện .NET: Bạn cần cài đặt thư viện này trong dự án của mình. Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho Thư viện .NET: Bạn cần cài đặt thư viện này trong dự án của mình. Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/).
 - Visual Studio hoặc bất kỳ IDE C# nào: Bạn đã thiết lập môi trường mã hóa yêu thích của mình chưa? Hãy đảm bảo rằng bạn đã sẵn sàng để viết một số mã!
 
 Nếu bạn đã đánh dấu vào các ô này thì bạn đã sẵn sàng rồi!
@@ -47,7 +49,7 @@ Bây giờ, bạn đã sẵn sàng cho sự kiện chính chưa? Chúng ta hãy 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn nơi tệp PDF bạn muốn tối ưu hóa nằm. Đây là bước đầu tiên để đảm bảo rằng bạn đang trỏ đến đúng tệp!
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn nơi tệp PDF bạn muốn tối ưu hóa nằm. Đây là bước đầu tiên để đảm bảo rằng bạn đang trỏ đến đúng tệp!
 
 ## Bước 2: Mở tài liệu PDF của bạn
 
@@ -56,20 +58,20 @@ Tiếp theo, chúng ta cần mở tài liệu PDF mà bạn muốn tối ưu hó
 ```csharp
 Document doc = new Document(dataDir + "AddImage.pdf");
 ```
- Ở đây, chúng tôi đang tạo ra một cái mới`Document`Ví dụ. Giống như nói, “Này, Aspose, mang cho tôi cuốn sách có tên là 'AddImage.pdf' để tôi có thể đọc (và tối ưu hóa) nó!”
+Ở đây, chúng tôi đang tạo ra một cái mới `Document` Ví dụ. Giống như nói, “Này, Aspose, mang cho tôi cuốn sách có tên là 'AddImage.pdf' để tôi có thể đọc (và tối ưu hóa) nó!”
 
-## Bước 3: Khởi tạo Tùy chọn Tối ưu hóa
+## Bước 3: Khởi tạo tùy chọn tối ưu hóa
 
 Bây giờ, chúng ta hãy đến với phần quan trọng nhất—thiết lập các tùy chọn tối ưu hóa. Đây là nơi chúng ta chỉ định cách chúng ta muốn nén hình ảnh của mình.
 
 ```csharp
 var optimizationOptions = new OptimizationOptions();
 ```
- Mã này tạo ra một phiên bản mới của`OptimizationOptions`Giống như bạn đang lấy ra một hộp công cụ để thực hiện công việc tối ưu hóa.
+Mã này tạo ra một trường hợp mới của `OptimizationOptions`Giống như bạn đang lấy ra một hộp công cụ để thực hiện công việc tối ưu hóa.
 
 ## Bước 4: Thiết lập nén Flate Decode
 
-Chúng tôi muốn sử dụng phương pháp nén FlateDecode cho hình ảnh trong PDF của mình. Hãy chỉ định điều đó trong các tùy chọn tối ưu hóa của chúng tôi.
+Chúng tôi muốn sử dụng phương pháp nén FlateDecode cho hình ảnh trong PDF của mình. Hãy chỉ định điều đó trong tùy chọn tối ưu hóa của chúng tôi.
 
 ```csharp
 optimizationOptions.ImageCompressionOptions.Encoding = ImageEncoding.Flate;
@@ -104,19 +106,21 @@ Tối ưu hóa PDF với Flate Decode Compression thông qua Aspose.PDF cho .NET
 Nén giải mã phẳng là phương pháp được sử dụng để nén dữ liệu hình ảnh trong tệp PDF, giúp giảm kích thước tệp nhưng vẫn đảm bảo chất lượng.
 
 ### Tôi có thể dùng thử Aspose.PDF miễn phí không?  
-Có, bạn có thể dùng thử miễn phí Aspose.PDF cho .NET[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử miễn phí Aspose.PDF cho .NET [đây](https://releases.aspose.com/).
 
 ### Tôi có thể báo cáo sự cố với Aspose.PDF như thế nào?  
- Bạn có thể tìm kiếm sự trợ giúp trong diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm kiếm sự trợ giúp trong diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF không?  
- Có, đối với mục đích thương mại, bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+Có, đối với mục đích thương mại, bạn có thể mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể làm việc với những loại tài liệu nào trong Aspose?  
 Aspose.PDF có thể xử lý nhiều loại tài liệu PDF, bao gồm văn bản, hình ảnh và bố cục phức tạp hơn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

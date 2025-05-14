@@ -1,14 +1,16 @@
 ---
-title: Ekstrak Gambar dari File PDF menggunakan Java
-linktitle: Ekstrak Gambar dari File PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengekstrak gambar dari file PDF menggunakan Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber. Buka kunci ekstraksi gambar PDF sekarang.
-weight: 24
-url: /id/java/pdf-images/extract-images-from-pdf-file-using-java/
+"description": "Pelajari cara mengekstrak gambar dari file PDF menggunakan Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber. Buka kunci ekstraksi gambar PDF sekarang."
+"linktitle": "Ekstrak Gambar dari File PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ekstrak Gambar dari File PDF menggunakan Java"
+"url": "/id/java/pdf-images/extract-images-from-pdf-file-using-java/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrak Gambar dari File PDF menggunakan Java
@@ -29,12 +31,12 @@ Aspose.PDF untuk Java adalah API Java yang disediakan oleh Aspose yang memungkin
 Sebelum memulai, Anda perlu menyiapkan lingkungan pengembangan Anda. Pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal
--  Aspose.PDF untuk pustaka Java (Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/))
+- Aspose.PDF untuk pustaka Java (Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/))
 - Lingkungan pengembangan terintegrasi (IDE) seperti IntelliJ IDEA atau Eclipse
 
 ## Memuat File PDF
 
-Untuk memulai, mari muat file PDF yang berisi gambar yang ingin kita ekstrak. Anda dapat menggunakan potongan kode berikut:
+Untuk memulai, mari muat berkas PDF yang berisi gambar yang ingin kita ekstrak. Anda dapat menggunakan cuplikan kode berikut:
 
 ```java
 import com.aspose.pdf.Document;
@@ -67,13 +69,13 @@ Gambar yang diekstrak dapat disimpan di lokasi yang Anda inginkan. Dalam kode di
 
 ## Kesimpulan
 
-Dalam panduan langkah demi langkah ini, kita telah mempelajari cara mengekstrak gambar dari berkas PDF menggunakan Java dengan pustaka Aspose.PDF untuk Java. Ini dapat menjadi keterampilan yang berharga saat bekerja dengan dokumen PDF dalam aplikasi Java. Ingatlah untuk memeriksa dokumentasi Aspose.PDF untuk Java untuk fitur dan opsi penyesuaian yang lebih canggih.
+Dalam panduan langkah demi langkah ini, kita telah mempelajari cara mengekstrak gambar dari berkas PDF menggunakan Java dengan pustaka Aspose.PDF for Java. Ini dapat menjadi keterampilan yang berharga saat bekerja dengan dokumen PDF dalam aplikasi Java. Ingatlah untuk memeriksa dokumentasi Aspose.PDF for Java untuk fitur dan opsi penyesuaian yang lebih canggih.
 
 ## Tanya Jawab Umum
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/)Ikuti petunjuk instalasi yang disediakan di situs web untuk mengaturnya di lingkungan Java Anda.
+Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/)Ikuti petunjuk instalasi yang disediakan di situs web untuk mengaturnya di lingkungan Java Anda.
 
 ### Bisakah saya mengekstrak gambar dari halaman tertentu dalam PDF?
 
@@ -85,10 +87,12 @@ Aspose.PDF untuk Java mendukung berbagai format PDF dan kompatibel dengan berbag
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi?
 
-Anda dapat menemukan dokumentasi, tutorial, dan contoh lengkap untuk Aspose.PDF untuk Java di situs web:[Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi, tutorial, dan contoh lengkap untuk Aspose.PDF untuk Java di situs web: [Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: เพิ่มฟอร์มฟิลด์ในเอกสาร PDF โดยใช้ Java
-linktitle: เพิ่มฟอร์มฟิลด์ในเอกสาร PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีเพิ่มฟิลด์ฟอร์มแบบโต้ตอบในเอกสาร PDF โดยใช้ Java และ Aspose.PDF สำหรับ Java สร้างฟอร์ม PDF ที่ใช้งานง่ายได้อย่างง่ายดาย
-weight: 10
-url: /th/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/
+"description": "เรียนรู้วิธีเพิ่มฟิลด์ฟอร์มแบบโต้ตอบในเอกสาร PDF โดยใช้ Java และ Aspose.PDF สำหรับ Java สร้างฟอร์ม PDF ที่ใช้งานง่ายได้อย่างง่ายดาย"
+"linktitle": "เพิ่มฟอร์มฟิลด์ในเอกสาร PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มฟอร์มฟิลด์ในเอกสาร PDF โดยใช้ Java"
+"url": "/th/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มฟอร์มฟิลด์ในเอกสาร PDF โดยใช้ Java
@@ -24,9 +26,9 @@ url: /th/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/
 
 ก่อนที่เราจะเจาะลึกโค้ด คุณต้องตั้งค่าสภาพแวดล้อมการพัฒนาของคุณก่อน ทำตามขั้นตอนเหล่านี้:
 
-1.  ดาวน์โหลด Aspose.PDF สำหรับ Java: เข้าไปที่เว็บไซต์ Aspose และดาวน์โหลด Aspose.PDF สำหรับ Java เวอร์ชันล่าสุด คุณจะพบได้ที่[ที่นี่](https://releases.aspose.com/pdf/java/).
+1. ดาวน์โหลด Aspose.PDF สำหรับ Java: เข้าไปที่เว็บไซต์ Aspose และดาวน์โหลด Aspose.PDF สำหรับ Java เวอร์ชันล่าสุด คุณจะพบได้ที่ [ที่นี่](https://releases-aspose.com/pdf/java/).
 
-2. ติดตั้ง Aspose.PDF: หลังจากดาวน์โหลดแล้ว ให้ติดตั้ง Aspose.PDF โดยทำตามคำแนะนำการติดตั้งที่ให้ไว้บนเว็บไซต์
+2. ติดตั้ง Aspose.PDF: หลังจากดาวน์โหลดแล้ว ให้ติดตั้ง Aspose.PDF โดยทำตามคำแนะนำการติดตั้งที่ให้ไว้ในเว็บไซต์
 
 3. สร้างโครงการ Java: สร้างโครงการ Java ใหม่ใน Integrated Development Environment (IDE) ที่คุณต้องการ และรวมไลบรารี Aspose.PDF ในโครงการของคุณ
 
@@ -105,7 +107,7 @@ RadioButtonOptionField option2 = new RadioButtonOptionField(page, new Rectangle(
 option1.setPartialName("optYes"); // ตั้งชื่อฟิลด์สำหรับตัวเลือก 1
 option2.setPartialName("optNo"); // ตั้งชื่อฟิลด์สำหรับตัวเลือกที่ 2
 
-//เพิ่มตัวเลือกลงในกลุ่มปุ่มตัวเลือก
+// เพิ่มตัวเลือกลงในกลุ่มปุ่มตัวเลือก
 RadioButtonOptionField[] options = {option1, option2};
 RadioButtonField radioButtonField = new RadioButtonField(page, options);
 page.getAnnotations().add(radioButtonField);
@@ -182,7 +184,7 @@ doc.save("FeedbackForm.pdf");
 
 ### บันทึกลงในสตรีม
 
- หากต้องการบันทึกเอกสาร PDF ลงในสตรีม คุณสามารถใช้`OutputStream` ระดับ:
+หากต้องการบันทึกเอกสาร PDF ลงในสตรีม คุณสามารถใช้ `OutputStream` ระดับ:
 
 ```java
 OutputStream outputStream = new FileOutputStream("FeedbackForm.pdf");
@@ -198,7 +200,7 @@ outputStream.close();
 
 ### ฉันจะตั้งค่ารายการดรอปดาวน์ในฟอร์ม PDF ได้อย่างไร
 
- ในการสร้างรายการดรอปดาวน์ (กล่องรวม) ในแบบฟอร์ม PDF คุณสามารถใช้`ComboBoxField` คลาสที่ Aspose.PDF จัดทำขึ้นสำหรับ Java ทำตามแนวทางที่คล้ายคลึงกันกับที่แสดงไว้สำหรับฟิลด์ฟอร์มอื่น ๆ และปรับแต่งตัวเลือกโดยใช้`AddItem` วิธีการนี้ คุณสามารถดูเอกสารรายละเอียดเกี่ยวกับเรื่องนี้ได้ที่เว็บไซต์ Aspose
+ในการสร้างรายการดรอปดาวน์ (กล่องรวม) ในแบบฟอร์ม PDF คุณสามารถใช้ `ComboBoxField` คลาสที่ Aspose.PDF จัดทำขึ้นสำหรับ Java ทำตามแนวทางที่คล้ายคลึงกันกับที่แสดงไว้สำหรับฟิลด์ฟอร์มอื่น ๆ และปรับแต่งตัวเลือกโดยใช้ `AddItem` วิธีการนี้ คุณสามารถดูเอกสารรายละเอียดเกี่ยวกับเรื่องนี้ได้ที่เว็บไซต์ Aspose
 
 ### Aspose.PDF สำหรับ Java สามารถใช้งานร่วมกับไลบรารีและเฟรมเวิร์ก Java อื่นๆ ได้หรือไม่
 
@@ -215,9 +217,11 @@ outputStream.close();
 ### ฉันสามารถสร้างแบบฟอร์ม PDF แบบไดนามิกตามข้อมูลที่ผู้ใช้ป้อนได้หรือไม่
 
 ใช่ คุณสามารถสร้างแบบฟอร์ม PDF แบบไดนามิกตามอินพุตของผู้ใช้โดยใช้ Aspose.PDF สำหรับ Java ขึ้นอยู่กับอินพุตของผู้ใช้หรือตรรกะของแอปพลิเคชัน คุณสามารถสร้างเอกสาร PDF ที่มีฟิลด์แบบฟอร์มและเค้าโครงที่หลากหลาย ความยืดหยุ่นนี้ทำให้สามารถสร้างแบบฟอร์มที่กำหนดเองตามความต้องการหรือสถานการณ์เฉพาะของผู้ใช้ได้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

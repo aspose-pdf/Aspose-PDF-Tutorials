@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Resize PDF Content in Java Using Aspose.PDF: A Step-by-Step Guide
 
@@ -212,7 +214,11 @@ A5: Regularly check Maven or Gradle repositories and update your dependency conf
 - **Purchase:** [Buy Aspose Products](https://purchase.aspose.com/buy)
 - **Free Trial:** [Try Aspose PDF](https://releases.aspose.com/pdf/java/)
 - **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

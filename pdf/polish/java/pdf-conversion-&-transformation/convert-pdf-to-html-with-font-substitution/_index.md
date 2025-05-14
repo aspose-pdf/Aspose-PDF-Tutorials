@@ -1,20 +1,22 @@
 ---
-title: Konwersja PDF do HTML z zamianą czcionek
-linktitle: Konwersja PDF do HTML z zamianą czcionek
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak konwertować PDF do HTML z zamianą czcionek za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym dla bezproblemowych konwersji. Zoptymalizuj swoją zawartość internetową już teraz!
-weight: 30
-url: /pl/java/pdf-conversion-transformation/convert-pdf-to-html-with-font-substitution/
+"description": "Dowiedz się, jak konwertować PDF do HTML z zamianą czcionek za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym dla bezproblemowych konwersji. Zoptymalizuj swoją zawartość internetową już teraz!"
+"linktitle": "Konwersja PDF do HTML z zamianą czcionek"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Konwersja PDF do HTML z zamianą czcionek"
+"url": "/pl/java/pdf-conversion-transformation/convert-pdf-to-html-with-font-substitution/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja PDF do HTML z zamianą czcionek
 
 
-W tym przewodniku krok po kroku pokażemy, jak przekonwertować dokument PDF na HTML z podmianą czcionek za pomocą Aspose.PDF dla Java. Podmiana czcionek jest kluczową funkcją w przypadku dokumentów PDF, które używają czcionek niedostępnych w HTML. Pod koniec tego samouczka będziesz w stanie wykonywać płynne konwersje, zachowując integralność dokumentu.
+tym przewodniku krok po kroku pokażemy, jak przekonwertować dokument PDF na HTML z podmianą czcionek za pomocą Aspose.PDF dla Java. Podmiana czcionek jest kluczową funkcją w przypadku dokumentów PDF, które używają czcionek niedostępnych w HTML. Pod koniec tego samouczka będziesz w stanie wykonywać płynne konwersje, zachowując integralność dokumentu.
 
 ## Wstęp
 
@@ -22,7 +24,7 @@ Aspose.PDF for Java to potężna biblioteka Java, która umożliwia programową 
 
 ## Czym jest Aspose.PDF dla Java?
 
-Aspose.PDF for Java to solidny interfejs API, który umożliwia programistom tworzenie, edytowanie i manipulowanie dokumentami PDF w aplikacjach Java. Zapewnia kompleksowe wsparcie dla różnych operacji związanych z PDF, co czyni go najlepszym wyborem do obsługi PDF w Javie.
+Aspose.PDF for Java to solidny interfejs API, który umożliwia programistom tworzenie, edycję i manipulowanie dokumentami PDF w aplikacjach Java. Zapewnia kompleksowe wsparcie dla różnych operacji związanych z PDF, co czyni go najlepszym wyborem do obsługi PDF w Javie.
 
 ## Dlaczego warto konwertować pliki PDF do HTML z podmianą czcionek?
 
@@ -33,8 +35,8 @@ Konwersja PDF do HTML jest niezbędna, gdy trzeba wyświetlić zawartość PDF w
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Zainstalowano Java Development Kit (JDK)
--  Aspose.PDF dla biblioteki Java (możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/)
-- Zintegrowane środowisko programistyczne (IDE) według Twojego wyboru
+- Aspose.PDF dla biblioteki Java (możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/)
+- Zintegrowane środowisko programistyczne (IDE) według własnego wyboru
 
 ## Konfigurowanie środowiska programistycznego
 
@@ -59,7 +61,7 @@ Document pdfDocument = new Document("input.pdf");
 ## Konfigurowanie podstawiania czcionek
 
 ```java
-//Utwórz instancję HtmlSaveOptions
+// Utwórz instancję HtmlSaveOptions
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 
 // Włącz zastępowanie czcionek
@@ -89,7 +91,7 @@ try {
 
 ## Dostosowywanie konwersji
 
- Możesz dodatkowo dostosować wynik HTML, dostosowując`HtmlSaveOptions` parametrów. Pozwala to kontrolować różne aspekty konwersji, takie jak kompresja obrazu i formatowanie tekstu.
+Możesz dodatkowo dostosować wynik HTML, dostosowując `HtmlSaveOptions` parametrów. Pozwala to kontrolować różne aspekty konwersji, takie jak kompresja obrazu i formatowanie tekstu.
 
 ## Wniosek
 
@@ -118,9 +120,11 @@ Chociaż podstawianie czcionek jest cenną funkcją, może nie pasować idealnie
 ### Czy Aspose.PDF for Java nadaje się do konwersji plików PDF na HTML na dużą skalę?
 
 Tak, Aspose.PDF for Java jest dobrze przystosowany do konwersji PDF do HTML na małą i dużą skalę. Jego solidna wydajność i opcje dostosowywania sprawiają, że jest to niezawodny wybór dla różnych projektów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

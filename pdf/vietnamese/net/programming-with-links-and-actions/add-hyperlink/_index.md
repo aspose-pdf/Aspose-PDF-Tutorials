@@ -1,14 +1,16 @@
 ---
-title: Thêm siêu liên kết vào tệp PDF
-linktitle: Thêm siêu liên kết vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách dễ dàng thêm siêu liên kết vào tệp PDF của bạn bằng Aspose.PDF cho .NET. Tăng cường tính tương tác và sự tham gia của người dùng vào tài liệu của bạn.
-weight: 10
-url: /vi/net/programming-with-links-and-actions/add-hyperlink/
+"description": "Tìm hiểu cách dễ dàng thêm siêu liên kết vào tệp PDF của bạn bằng Aspose.PDF cho .NET. Tăng cường tính tương tác và sự tham gia của người dùng vào tài liệu của bạn."
+"linktitle": "Thêm siêu liên kết vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm siêu liên kết vào tệp PDF"
+"url": "/vi/net/programming-with-links-and-actions/add-hyperlink/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm siêu liên kết vào tệp PDF
@@ -22,7 +24,7 @@ Thêm siêu liên kết vào tệp PDF có thể cải thiện đáng kể tính
 Trước khi đi sâu vào việc thêm siêu liên kết, bạn cần phải đáp ứng một số điều kiện tiên quyết sau:
 
 1. Cài đặt .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework tương thích trên máy của mình. Aspose.PDF hoạt động với nhiều phiên bản khác nhau, vì vậy hãy xác minh tính tương thích với phiên bản bạn đang sử dụng.
-2.  Aspose.PDF cho Thư viện .NET: Bạn sẽ cần thư viện Aspose.PDF. Bạn có thể tải xuống từ[trang tải xuống](https://releases.aspose.com/pdf/net/) nếu bạn chưa làm như vậy.
+2. Aspose.PDF cho Thư viện .NET: Bạn sẽ cần thư viện Aspose.PDF. Bạn có thể tải xuống từ [trang tải xuống](https://releases.aspose.com/pdf/net/) nếu bạn chưa làm như vậy.
 3. Kiến thức cơ bản về C#: Việc quen thuộc với lập trình C# sẽ giúp hướng dẫn này trôi chảy và dễ hiểu hơn.
 4. Môi trường phát triển: Thiết lập một IDE như Visual Studio để viết và thực thi mã của bạn.
 
@@ -49,17 +51,17 @@ Sau khi tìm hiểu xong, chúng ta hãy cùng tìm hiểu từng bước để 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. Đường dẫn này sẽ giúp điều hướng qua các tệp khi chúng ta đọc và viết tệp PDF.
+Thay thế `YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. Đường dẫn này sẽ giúp điều hướng qua các tệp khi chúng ta đọc và viết tệp PDF.
 
 ## Bước 2: Mở tài liệu PDF hiện có
 
- Tiếp theo, hãy mở tệp PDF mà bạn muốn thêm siêu liên kết. Bạn có thể mở tệp PDF hiện có bằng cách sử dụng`Document` lớp từ thư viện Aspose.PDF.
+Tiếp theo, hãy mở tệp PDF mà bạn muốn thêm siêu liên kết. Bạn có thể mở tệp PDF hiện có bằng cách sử dụng `Document` lớp từ thư viện Aspose.PDF.
 
 ```csharp
 Document document = new Document(dataDir + "AddHyperlink.pdf");
 ```
 
- Đoạn mã này đọc tệp PDF của bạn và chuẩn bị cho việc sửa đổi. Hãy đảm bảo`"AddHyperlink.pdf"` có trong thư mục bạn chỉ định hoặc điều chỉnh tên tệp cho phù hợp.
+Đoạn mã này đọc tệp PDF của bạn và chuẩn bị cho việc sửa đổi. Hãy đảm bảo `"AddHyperlink.pdf"` có trong thư mục bạn chỉ định hoặc điều chỉnh tên tệp cho phù hợp.
 
 ## Bước 3: Truy cập trang PDF
 
@@ -79,7 +81,7 @@ Tiếp theo, bạn cần xác định vùng hình chữ nhật nơi siêu liên 
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
- Ở đây, chúng ta đang tạo một hình chữ nhật bắt đầu từ`(100, 100)` và kéo dài đến`(300, 300)`. Điều chỉnh các số này để thay đổi kích thước và vị trí liên kết của bạn.
+Ở đây, chúng ta đang tạo một hình chữ nhật bắt đầu từ `(100, 100)` và kéo dài đến `(300, 300)`. Điều chỉnh các số này để thay đổi kích thước và vị trí liên kết của bạn.
 
 ## Bước 5: Cấu hình đường viền của liên kết
 
@@ -95,13 +97,13 @@ Thao tác này sẽ tạo ra một đường viền liên kết vô hình, hòa 
 
 ## Bước 6: Chỉ định Hành động Siêu liên kết
 
-Bạn sẽ cần chỉ rõ điều gì xảy ra khi người dùng nhấp vào liên kết này. Đối với ví dụ của chúng tôi, chúng tôi sẽ hướng người dùng đến trang web của Aspose:
+Bạn sẽ cần chỉ định điều gì xảy ra khi người dùng nhấp vào liên kết này. Đối với ví dụ của chúng tôi, chúng tôi sẽ hướng người dùng đến trang web của Aspose:
 
 ```csharp
 link.Action = new GoToURIAction("http://www.aspose.com");
 ```
 
- Hãy chắc chắn sử dụng`"http://"` ở đầu địa chỉ web; nếu không, nó có thể không hoạt động bình thường.
+Hãy chắc chắn sử dụng `"http://"` ở đầu địa chỉ web; nếu không, nó có thể không hoạt động bình thường.
 
 ## Bước 7: Thêm chú thích liên kết vào trang
 
@@ -135,7 +137,7 @@ dataDir = dataDir + "AddHyperlink_out.pdf";
 document.Save(dataDir);
 ```
 
- Thao tác này sẽ lưu tệp PDF đã cập nhật của bạn dưới dạng tệp mới có tên`"AddHyperlink_out.pdf"` trong thư mục bạn chỉ định.
+Thao tác này sẽ lưu tệp PDF đã cập nhật của bạn dưới dạng tệp mới có tên `"AddHyperlink_out.pdf"` trong thư mục bạn chỉ định.
 
 ## Phần kết luận
 
@@ -147,19 +149,21 @@ Thêm siêu liên kết vào tài liệu PDF của bạn bằng Aspose.PDF cho .
 Có, bạn có thể thay đổi giao diện của siêu liên kết và văn bản bằng nhiều phông chữ, màu sắc và kiểu đường viền khác nhau.
 
 ### Tôi phải làm sao nếu muốn liên kết đến một trang nội bộ?  
- Bạn có thể sử dụng`GoToAction` thay vì`GoToURIAction` để liên kết đến các trang khác nhau trong PDF.
+Bạn có thể sử dụng `GoToAction` thay vì `GoToURIAction` để liên kết đến các trang khác nhau trong PDF.
 
 ### Aspose.PDF có hỗ trợ các định dạng tệp khác không?  
 Có, Aspose.PDF hỗ trợ nhiều định dạng tệp và chức năng khác nhau để xử lý và chuyển đổi PDF.
 
 ### Làm thế nào để tôi có được giấy phép phát triển tạm thời?  
- Bạn có thể xin giấy phép tạm thời bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời bằng cách truy cập [liên kết này](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm thêm hướng dẫn về Aspose.PDF ở đâu?  
-Bạn có thể tìm thêm hướng dẫn trong[tài liệu](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thêm hướng dẫn trong [tài liệu](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

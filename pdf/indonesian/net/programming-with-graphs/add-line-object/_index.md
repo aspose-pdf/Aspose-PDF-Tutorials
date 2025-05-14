@@ -1,28 +1,30 @@
 ---
-title: Tambahkan Objek Garis Dalam File PDF
-linktitle: Tambahkan Objek Garis Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan objek garis ke berkas PDF menggunakan Aspose.PDF for .NET dalam tutorial langkah demi langkah ini. Sempurna untuk pemula.
-weight: 30
-url: /id/net/programming-with-graphs/add-line-object/
+"description": "Pelajari cara menambahkan objek garis ke berkas PDF menggunakan Aspose.PDF for .NET dalam tutorial langkah demi langkah ini. Sempurna untuk pemula."
+"linktitle": "Tambahkan Objek Garis Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Objek Garis Dalam File PDF"
+"url": "/id/net/programming-with-graphs/add-line-object/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Objek Garis Dalam File PDF
 
 ## Perkenalan
 
-Membuat PDF secara terprogram bisa menjadi tugas yang berat, terutama jika Anda baru dalam hal ini. Namun, jangan khawatir! Dengan Aspose.PDF untuk .NET, menambahkan elemen grafis seperti garis ke berkas PDF Anda menjadi mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses ini langkah demi langkah, memastikan Anda memahami setiap bagian kode. Jadi, ambil minuman favorit Anda, dan mari kita mulai!
+Membuat PDF secara terprogram bisa menjadi tugas yang berat, terutama jika Anda baru dalam hal ini. Namun, jangan khawatir! Dengan Aspose.PDF untuk .NET, menambahkan elemen grafis seperti garis ke file PDF Anda menjadi sangat mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses ini langkah demi langkah, memastikan Anda memahami setiap bagian kode. Jadi, ambil minuman favorit Anda, dan mari kita mulai!
 
 ## Prasyarat
 
 Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE terbaik untuk pengembangan .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -31,7 +33,7 @@ Untuk memulai, Anda perlu mengimpor paket yang diperlukan ke dalam proyek C# And
 
 1. Buka proyek Visual Studio Anda.
 2. Klik kanan pada proyek Anda di Solution Explorer dan pilih "Kelola Paket NuGet."
-3.  Pencarian untuk`Aspose.PDF` dan menginstalnya.
+3. Pencarian untuk `Aspose.PDF` dan menginstalnya.
 
 ```csharp
 using System.IO;
@@ -50,11 +52,11 @@ Pertama-tama, Anda perlu menentukan di mana berkas PDF Anda akan disimpan. Hal i
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF. Hal ini penting karena jika jalurnya salah, berkas Anda tidak akan tersimpan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF. Hal ini penting karena jika jalurnya salah, berkas Anda tidak akan tersimpan.
 
 ## Langkah 2: Buat Contoh Dokumen
 
- Selanjutnya, Anda perlu membuat instance dari`Document` kelas. Kelas ini mewakili dokumen PDF Anda. Berikut cara melakukannya:
+Selanjutnya, Anda perlu membuat instance dari `Document` kelas. Kelas ini mewakili dokumen PDF Anda. Berikut cara melakukannya:
 
 ```csharp
 // Buat contoh Dokumen
@@ -76,7 +78,7 @@ Kode ini menambahkan halaman baru ke dokumen Anda. Anda dapat menganggapnya seba
 
 ## Langkah 4: Buat Contoh Grafik
 
- Untuk menggambar bentuk seperti garis, Anda perlu membuat`Graph` Misalnya. Di sinilah garis akan digambar. Berikut cara membuat grafik:
+Untuk menggambar bentuk seperti garis, Anda perlu membuat `Graph` Misalnya. Di sinilah garis akan digambar. Berikut cara membuat grafik:
 
 ```csharp
 // Buat contoh Grafik
@@ -87,7 +89,7 @@ Dalam contoh ini, grafik diatur pada lebar 100 dan tinggi 400. Anda dapat menyes
 
 ## Langkah 5: Tambahkan Grafik ke Halaman
 
-Setelah Anda memiliki grafik, saatnya menambahkannya ke halaman yang Anda buat sebelumnya. Ini dilakukan dengan menambahkan grafik ke kumpulan paragraf halaman:
+Sekarang setelah Anda memiliki grafik, saatnya untuk menambahkannya ke halaman yang Anda buat sebelumnya. Ini dilakukan dengan menambahkan grafik ke kumpulan paragraf halaman:
 
 ```csharp
 // Tambahkan objek grafik ke koleksi paragraf dari contoh halaman
@@ -117,7 +119,7 @@ line.GraphInfo.DashArray = new int[] { 0, 1, 0 };
 line.GraphInfo.DashPhase = 1;
 ```
 
- Dalam kode ini, kita membuat garis putus-putus.`DashArray`properti mendefinisikan pola tanda hubung dan celah, sementara`DashPhase` menentukan titik awal pola garis putus-putus.
+Dalam kode ini, kita membuat garis putus-putus. `DashArray` properti mendefinisikan pola tanda hubung dan celah, sementara `DashPhase` menentukan titik awal pola garis putus-putus.
 
 ## Langkah 8: Tambahkan Garis ke Grafik
 
@@ -140,7 +142,7 @@ dataDir = dataDir + "AddLineObject_out.pdf";
 doc.Save(dataDir);
 ```
 
- Kode ini menyimpan file PDF Anda dengan nama`AddLineObject_out.pdf` di direktori yang Anda tentukan sebelumnya. 
+Kode ini menyimpan file PDF Anda dengan nama `AddLineObject_out.pdf` di direktori yang Anda tentukan sebelumnya. 
 
 ## Langkah 10: Konfirmasikan Operasi
 
@@ -162,19 +164,21 @@ Nah, itu dia! Anda telah berhasil menambahkan objek garis ke berkas PDF mengguna
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.PDF?
- Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasinya [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara membeli lisensi untuk Aspose.PDF?
- Anda dapat membeli lisensi untuk Aspose.PDF[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi untuk Aspose.PDF [Di Sini](https://purchase.aspose.com/buy).
 
 ### Apa yang harus saya lakukan jika saya menemui masalah?
- Jika Anda menghadapi masalah apa pun, Anda dapat mencari bantuan dari forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Jika Anda menghadapi masalah apa pun, Anda dapat mencari bantuan dari forum dukungan Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

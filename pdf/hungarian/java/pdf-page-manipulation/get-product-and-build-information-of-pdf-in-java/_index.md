@@ -1,53 +1,55 @@
 ---
-title: Szerezze be a PDF termék- és összeállítási adatait Java nyelven
-linktitle: Szerezze be a PDF termék- és összeállítási adatait Java nyelven
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan nyerhet ki termék- és összeállítási információkat a PDF-fájlokból Java nyelven az Aspose.PDF for Java segítségével. Lépésről-lépésre útmutató kódpéldákkal a hatékony PDF-adatok kinyeréséhez.
-weight: 13
-url: /hu/java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-java/
+"description": "Tanulja meg, hogyan kinyerhet termékadatokat és építhet fel információkat PDF fájlokból Java nyelven az Aspose.PDF for Java használatával. Lépésről lépésre útmutató kódpéldákkal a hatékony PDF adatkinyeréshez."
+"linktitle": "PDF termékinformációinak beszerzése és fordítása Java nyelven"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "PDF termékinformációinak beszerzése és fordítása Java nyelven"
+"url": "/hu/java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szerezze be a PDF termék- és összeállítási adatait Java nyelven
+# PDF termékinformációinak beszerzése és fordítása Java nyelven
 
 
-## Bevezetés a PDF termék- és összeállítási információinak beszerzéséhez Java nyelven
+## Bevezetés a PDF termékinformációinak lekéréséhez és a buildinformációkhoz Java nyelven
 
-Az Aspose.PDF for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy PDF fájlokkal dolgozzanak Java alkalmazásokban. Ebben a cikkben megvizsgáljuk, hogyan lehet termék- és összeállítási információkat kinyerni PDF-dokumentumokból az Aspose.PDF for Java segítségével.
+Az Aspose.PDF for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy PDF fájlokkal dolgozzanak Java alkalmazásokban. Ebben a cikkben azt vizsgáljuk meg, hogyan lehet termékinformációkat kinyerni és információkat létrehozni PDF dokumentumokból az Aspose.PDF for Java segítségével.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a részletekbe, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk a részletekbe, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java fejlesztőkészlet (JDK)
-- Aspose.PDF a Java könyvtárhoz
-- Ön által választott integrált fejlesztési környezet (IDE).
+- Aspose.PDF Java könyvtárhoz
+- Integrált fejlesztői környezet (IDE) az Ön által választott
 
-Győződjön meg arról, hogy megfelelően beállította a fejlesztői környezetet az Aspose.PDF for Java használatához.
+Győződjön meg róla, hogy megfelelően beállította a fejlesztői környezetét az Aspose.PDF for Java használatának megkezdéséhez.
 
-## Kezdő lépések
+## Első lépések
 
-A kezdéshez importálnia kell az Aspose.PDF könyvtárat a Java projektbe. Hozzáadhatja a könyvtárat függőségként a projekt konfigurációjához, vagy letöltheti a JAR fájlt az Aspose webhelyéről, és manuálisan beillesztheti a projektbe.
+A kezdéshez importálnia kell az Aspose.PDF könyvtárat a Java projektjébe. Hozzáadhatja a könyvtárat függőségként a projekt konfigurációjában, vagy letöltheti a JAR fájlt az Aspose webhelyéről, és manuálisan is beillesztheti a projektbe.
 
-Miután hozzáadta az Aspose.PDF fájlt a projekthez, létrehozhat egy új PDF-dokumentumot, és elkezdhet vele programozottan dolgozni.
+Miután hozzáadtad az Aspose.PDF fájlt a projektedhez, létrehozhatsz egy új PDF dokumentumot, és elkezdhetsz vele programozottan dolgozni.
 
 ```java
 // Importálja az Aspose.PDF könyvtárat
 import com.aspose.pdf.Document;
 
-// Hozzon létre egy új PDF dokumentumot
+// Új PDF dokumentum létrehozása
 Document pdfDocument = new Document();
 ```
 
 ## Termékinformációk kinyerése
 
-Sok esetben előfordulhat, hogy PDF-fájlokból kell kivonnia a termékinformációkat. Ez olyan részleteket tartalmazhat, mint a termék neve, verziója és gyártója. Az Aspose.PDF for Java megkönnyíti ezen információk lekérését.
+Sok esetben szükség lehet termékinformációk kinyerésére PDF fájlokból. Ez olyan adatokat tartalmazhat, mint a termék neve, verziója és gyártója. Az Aspose.PDF for Java megkönnyíti ezen információk kinyerését.
 
 ```java
-// Termékinformációk kivonata
+// Termékinformációk kinyerése
 String productName = pdfDocument.getProductName();
 String productVersion = pdfDocument.getProductVersion();
 String productManufacturer = pdfDocument.getProductManufacturer();
@@ -58,65 +60,67 @@ System.out.println("Product Version: " + productVersion);
 System.out.println("Product Manufacturer: " + productManufacturer);
 ```
 
-## Build-információk kinyerése
+## Építési információk kinyerése
 
-PDF-fájlok gyakran tartalmaznak összeállítással kapcsolatos adatokat, például a létrehozás vagy módosítás dátumát. Ennek a build-információnak a kinyerése kulcsfontosságú lehet a dokumentumok változásainak ellenőrzéséhez és nyomon követéséhez.
+A PDF fájlok gyakran tartalmaznak builddel kapcsolatos adatokat, például a létrehozás vagy módosítás dátumát. Ezen build információk kinyerése kulcsfontosságú lehet a dokumentumváltozások auditálása és nyomon követése szempontjából.
 
 ```java
-// Építési információk kibontása
+// Építési információk kinyerése
 String creationDate = pdfDocument.getCreationDate();
 String modificationDate = pdfDocument.getModificationDate();
 
-// Összeállítási információk megjelenítése
+// Építési információk megjelenítése
 System.out.println("Creation Date: " + creationDate);
 System.out.println("Modification Date: " + modificationDate);
 ```
 
-## Termék- és összeállítási információk kombinálása
+## Termék- és építési információk kombinálása
 
-Könnyedén kombinálhatja a kibontott terméket és az összeállítási információkat, hogy átfogó jelentést vagy dokumentum-összefoglalót készítsen a Java alkalmazásban.
+A kinyert termék és az összegyűjtött információk könnyen kombinálhatók egy átfogó jelentés vagy dokumentum-összefoglaló létrehozásához a Java alkalmazásban.
 
 ```java
-// Kombinálja a termék- és összeállítási információkat
+// Termék- és építési információk kombinálása
 String documentSummary = "Product: " + productName + " (Version: " + productVersion + ")\n";
 documentSummary += "Created on: " + creationDate + "\n";
 documentSummary += "Last Modified: " + modificationDate;
 
-// Jelenítse meg a dokumentum összefoglalóját
+// A dokumentum összefoglalójának megjelenítése
 System.out.println("Document Summary:\n" + documentSummary);
 ```
 
 ## Következtetés
 
-Ebben a cikkben megvizsgáltuk, hogyan lehet termék- és összeállítási információkat kinyerni PDF-fájlokból Java nyelven az Aspose.PDF for Java segítségével. Áttekintettük az induláshoz szükséges alapvető lépéseket, kivonatoltuk a termék- és konstrukciós részleteket, és összevontuk őket egy hasznos dokumentum-összefoglalóban. Az Aspose.PDF for Java értékes eszköz a PDF-dokumentumokkal dolgozó fejlesztők számára, amely biztosítja a különféle feladatokhoz szükséges rugalmasságot és funkcionalitást.
+Ebben a cikkben azt vizsgáltuk meg, hogyan lehet termék- és buildinformációkat kinyerni PDF-fájlokból Java nyelven az Aspose.PDF for Java segítségével. Áttekintettük az alapvető lépéseket a kezdéshez, a termék- és buildadatok kinyeréséhez, valamint ezek hasznos dokumentum-összefoglalókká való összevonásához. Az Aspose.PDF for Java egy értékes eszköz a PDF dokumentumokkal dolgozó fejlesztők számára, amely rugalmasságot és funkcionalitást biztosít a különféle feladatokhoz.
 
 ## GYIK
 
-### Hogyan bonthatom ki a termékinformációkat PDF-fájlból?
+### Hogyan tudok termékinformációkat kinyerni egy PDF fájlból?
 
-termékinformációk PDF-fájlból való kivonásához az Aspose.PDF for Java segítségével, kövesse az alábbi lépéseket:
+Termékinformációk kinyeréséhez PDF fájlból az Aspose.PDF for Java használatával kövesse az alábbi lépéseket:
 1. Importálja az Aspose.PDF könyvtárat.
 2. Töltse be a PDF dokumentumot.
-3.  Használja a`getProductName()`, `getProductVersion()` , és`getProductManufacturer()` módszerek a termék részleteinek kinyerésére.
+3. Használd a `getProductName()`, `getProductVersion()`, és `getProductManufacturer()` Módszerek a termékadatok kinyerésére.
 
-### Mi az építési információ, és miért fontosak?
+### Mi az a build információ, és miért fontos?
 
-A PDF-fájlban található összeállítási információk tartalmazzák a dokumentum létrehozásának vagy módosításának időpontját. Ez elengedhetetlen a dokumentumelőzmények nyomon követéséhez és a változások ellenőrzéséhez.
+A PDF-fájlokban található összeállítási információk tartalmazzák a dokumentum létrehozásának vagy módosításának időpontjára vonatkozó részleteket. Ez elengedhetetlen a dokumentum előzményeinek nyomon követéséhez és a változások naplózásához.
 
 ### Testreszabhatom a kinyert információk megjelenítésének módját?
 
-Igen, testreszabhatja a kimeneti formátumot igényeinek megfelelően. A kivont adatokat az alkalmazás követelményei szerint formázhatja.
+Igen, testreszabhatja a kimeneti formátumot az igényeinek megfelelően. A kinyert adatokat az alkalmazás követelményeinek megfelelően formázhatja.
 
-### Vannak-e korlátozások az adatok Aspose.PDF for Java segítségével történő kinyerésére?
+### Vannak-e korlátozások az adatok kinyerésére az Aspose.PDF for Java segítségével?
 
-Az Aspose.PDF for Java egy hatékony könyvtár, de mint minden szoftvernek, ennek is lehetnek korlátai. A könyvtár azonban számos forgatókönyv esetén kínál megoldást, és útmutatásért tekintse meg a dokumentációt.
+Az Aspose.PDF for Java egy hatékony könyvtár, de mint minden szoftvernek, ennek is lehetnek korlátai. A könyvtár azonban számos forgatókönyvre kínál kerülő megoldásokat, és útmutatásért tekintse meg a dokumentációt.
 
-### Az Aspose.PDF for Java alkalmas kis és nagy PDF fájlok számára is?
+### Az Aspose.PDF for Java alkalmas mind a kis, mind a nagy PDF fájlokhoz?
 
-Igen, az Aspose.PDF for Java alkalmas kis és nagy PDF fájlok feldolgozására is. Hatékony módszereket kínál a különböző méretű PDF-dokumentumok kezelésére.
+Igen, az Aspose.PDF for Java alkalmas mind a kis, mind a nagy PDF-fájlok feldolgozására. Hatékony módszereket kínál különböző méretű PDF-dokumentumokkal való munkához.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

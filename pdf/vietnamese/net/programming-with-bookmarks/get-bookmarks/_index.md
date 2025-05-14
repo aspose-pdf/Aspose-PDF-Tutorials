@@ -1,14 +1,16 @@
 ---
-title: Nhận Dấu trang trong Tệp PDF
-linktitle: Nhận Dấu trang trong Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất dấu trang từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện khả năng điều hướng PDF của bạn.
-weight: 70
-url: /vi/net/programming-with-bookmarks/get-bookmarks/
+"description": "Tìm hiểu cách trích xuất dấu trang từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện khả năng điều hướng PDF của bạn."
+"linktitle": "Nhận Dấu trang trong Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhận Dấu trang trong Tệp PDF"
+"url": "/vi/net/programming-with-bookmarks/get-bookmarks/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận Dấu trang trong Tệp PDF
@@ -22,7 +24,7 @@ Bạn đã bao giờ thấy mình đang cuộn qua một tài liệu PDF dài, c
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là IDE phù hợp để phát triển .NET.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã chúng ta sẽ sử dụng.
 
 ## Nhập gói
@@ -62,7 +64,7 @@ Trước tiên, bạn cần chỉ định đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này rất quan trọng vì chương trình cần biết nơi tìm tệp PDF.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này rất quan trọng vì chương trình cần biết nơi tìm tệp PDF.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -73,7 +75,7 @@ Tiếp theo, chúng ta sẽ mở tài liệu PDF bằng thư viện Aspose.PDF. 
 Document pdfDocument = new Document(dataDir + "GetBookmarks.pdf");
 ```
 
- Ở đây, chúng ta tạo ra một cái mới`Document`đối tượng và truyền đường dẫn đến tệp PDF của chúng tôi. Đảm bảo tên tệp khớp với tên bạn có trong thư mục của mình.
+Ở đây, chúng ta tạo ra một cái mới `Document` đối tượng và truyền đường dẫn đến tệp PDF của chúng tôi. Đảm bảo tên tệp khớp với tên bạn có trong thư mục của mình.
 
 ## Bước 3: Lặp qua các Dấu trang
 
@@ -90,11 +92,11 @@ foreach (OutlineItemCollection outlineItem in pdfDocument.Outlines)
 }
 ```
 
- Trong đoạn mã này, chúng tôi sử dụng`foreach` vòng lặp để lặp lại qua từng`OutlineItemCollection` trong`pdfDocument.Outlines`. Đối với mỗi dấu trang, chúng tôi in tiêu đề, trạng thái nghiêng, trạng thái đậm và màu sắc của dấu trang đó. Điều này giúp chúng tôi có cái nhìn toàn diện về các dấu trang trong tệp PDF của mình.
+Trong đoạn mã này, chúng tôi sử dụng `foreach` vòng lặp để lặp lại qua từng `OutlineItemCollection` trong `pdfDocument.Outlines`. Đối với mỗi dấu trang, chúng tôi in tiêu đề, trạng thái nghiêng, trạng thái đậm và màu sắc của dấu trang đó. Điều này giúp chúng tôi có cái nhìn toàn diện về các dấu trang trong tệp PDF của mình.
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn đã trích xuất thành công dấu trang từ tệp PDF bằng Aspose.PDF cho .NET. Thư viện mạnh mẽ này không chỉ đơn giản hóa quy trình mà còn nâng cao khả năng sử dụng tài liệu PDF của bạn. Bằng cách triển khai dấu trang, bạn giúp người đọc dễ dàng điều hướng qua nội dung của mình hơn.
+Xin chúc mừng! Bạn đã trích xuất thành công các dấu trang từ tệp PDF bằng Aspose.PDF cho .NET. Thư viện mạnh mẽ này không chỉ đơn giản hóa quy trình mà còn nâng cao khả năng sử dụng các tài liệu PDF của bạn. Bằng cách triển khai các dấu trang, bạn giúp người đọc dễ dàng điều hướng qua nội dung của mình hơn.
 
 ## Câu hỏi thường gặp
 
@@ -102,19 +104,21 @@ Xin chúc mừng! Bạn đã trích xuất thành công dấu trang từ tệp P
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
-Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên diễn đàn Aspose[đây](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.PDF?
- Bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể mua Aspose.PDF không?
- Có, bạn có thể mua Aspose.PDF từ trang web của họ[đây](https://purchase.aspose.com/buy).
+Có, bạn có thể mua Aspose.PDF từ trang web của họ [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

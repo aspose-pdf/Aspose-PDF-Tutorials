@@ -6,8 +6,11 @@ description: Learn how to create a PDF document with a table featuring double bo
 keywords: [Aspose PDF, .NET PDF example, double borders, PDF table, create PDF, Aspose documentation]
 url: /net/tables/set-border/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create PDF with Double-Bordered Table using Aspose.PDF
@@ -15,9 +18,11 @@ url: /net/tables/set-border/
 This example demonstrates how to create a PDF document using Aspose.PDF for .NET, featuring a table with double borders on the top and bottom sides of the cells. Follow the step-by-step instructions to implement this feature in your applications seamlessly.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/set-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installation Instructions
@@ -45,7 +50,9 @@ To get started with Aspose.PDF for .NET, please follow these installation instru
 [Aspose.PDF for .NET API Reference](https://reference.aspose.com/pdf/net/) 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

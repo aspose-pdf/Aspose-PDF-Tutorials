@@ -1,14 +1,16 @@
 ---
-title: Đổi PDF sang định dạng DOC hoặc DOCX
-linktitle: Đổi PDF sang định dạng DOC hoặc DOCX
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách chuyển đổi PDF sang định dạng DOC hoặc DOCX dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn và Câu hỏi thường gặp để chuyển đổi tài liệu liền mạch.
-weight: 14
-url: /vi/java/pdf-conversion-transformation/change-pdfs-to-doc-or-docx-format/
+"description": "Tìm hiểu cách chuyển đổi PDF sang định dạng DOC hoặc DOCX dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn và Câu hỏi thường gặp để chuyển đổi tài liệu liền mạch."
+"linktitle": "Đổi PDF sang định dạng DOC hoặc DOCX"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Đổi PDF sang định dạng DOC hoặc DOCX"
+"url": "/vi/java/pdf-conversion-transformation/change-pdfs-to-doc-or-docx-format/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đổi PDF sang định dạng DOC hoặc DOCX
@@ -84,10 +86,12 @@ Có, Aspose.PDF for Java hỗ trợ nhiều định dạng đầu ra khác nhau,
 
 ### Tôi có thể tìm tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu về Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu về Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

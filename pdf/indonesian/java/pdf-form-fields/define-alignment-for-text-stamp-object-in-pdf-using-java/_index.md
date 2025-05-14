@@ -1,14 +1,16 @@
 ---
-title: Menentukan Penyelarasan untuk Objek Cap Teks dalam PDF menggunakan Java
-linktitle: Menentukan Penyelarasan untuk Objek Cap Teks dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menyelaraskan objek stempel teks dengan tepat dalam PDF menggunakan Java dengan Aspose.PDF untuk Java. Tingkatkan tampilan dan keterbacaan dokumen.
-weight: 13
-url: /id/java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-using-java/
+"description": "Pelajari cara menyelaraskan objek stempel teks dengan tepat dalam PDF menggunakan Java dengan Aspose.PDF untuk Java. Tingkatkan tampilan dan keterbacaan dokumen."
+"linktitle": "Menentukan Penyelarasan untuk Objek Cap Teks dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menentukan Penyelarasan untuk Objek Cap Teks dalam PDF menggunakan Java"
+"url": "/id/java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menentukan Penyelarasan untuk Objek Cap Teks dalam PDF menggunakan Java
@@ -22,8 +24,8 @@ Stempel teks merupakan alat serbaguna untuk membuat anotasi dan menambahkan info
 
 Sebelum kita membahas secara spesifik penyelarasan stempel teks, penting untuk menyiapkan lingkungan pengembangan kita. Pastikan Anda telah menginstal dan mengonfigurasi Aspose.PDF untuk Java di proyek Java Anda. Anda dapat mengakses sumber daya yang diperlukan di sini:
 
--  Dokumentasi:[Referensi API Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/)
--  Unduh:[Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/)
+- Dokumentasi: [Referensi API Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/)
+- Unduh: [Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/)
 
 Setelah semuanya siap, mari beralih ke bagian pengkodean.
 
@@ -38,7 +40,7 @@ Document pdfDocument = new Document();
 // Tambahkan halaman ke dokumen
 Page page = pdfDocument.getPages().add();
 
-// Mengatur properti halaman (misalnya, dimensi, margin)
+// Tetapkan properti halaman (misalnya, dimensi, margin)
 page.setPageSize(new PageSize(600, 400));
 ```
 
@@ -46,7 +48,7 @@ Sekarang setelah dokumen PDF kita siap, mari kita lanjut ke pendefinisian prangk
 
 ## Mendefinisikan Stempel Teks
 
-Stempel teks pada dasarnya adalah sepotong teks yang ingin Anda tambahkan ke dokumen PDF Anda. Stempel ini dapat berisi berbagai informasi, seperti tanggal, tanda air, atau anotasi. Berikut ini cara Anda dapat mendefinisikan stempel teks dasar:
+Stempel teks pada dasarnya adalah sepotong teks yang ingin Anda tambahkan ke dokumen PDF Anda. Stempel ini dapat berisi berbagai informasi, seperti tanggal, tanda air, atau anotasi. Berikut ini cara Anda dapat menentukan stempel teks dasar:
 
 ```java
 // Buat stempel teks
@@ -62,7 +64,7 @@ Sekarang setelah kita memiliki cap teks, mari jelajahi opsi penyelarasan.
 
 ## Opsi Penyelarasan
 
-Menyelaraskan stempel teks dalam dokumen PDF dapat menjadi hal yang penting untuk mencapai tampilan dan nuansa yang diinginkan. Aspose.PDF untuk Java menyediakan berbagai opsi penyelarasan, termasuk:
+Menyelaraskan stempel teks dalam dokumen PDF dapat menjadi hal penting untuk mencapai tampilan dan nuansa yang diinginkan. Aspose.PDF untuk Java menyediakan berbagai opsi penyelarasan, termasuk:
 
 - Menyelaraskan ke kiri atas, tengah atas, kanan atas
 - Menyelaraskan ke tengah kiri, tengah tengah, tengah kanan
@@ -110,14 +112,16 @@ Ya, Aspose.PDF untuk Java mampu menangani dokumen PDF berukuran besar dengan mud
 
 ### Bagaimana cara mengubah jenis huruf dan warna stempel teks?
 
- Anda dapat mengubah font dan warna stempel teks dengan mengonfigurasi properti status teksnya. Gunakan`setTextState` untuk mengatur font, ukuran font, dan warna yang diinginkan.
+Anda dapat mengubah font dan warna stempel teks dengan mengonfigurasi properti status teksnya. Gunakan `setTextState` untuk mengatur font, ukuran font, dan warna yang diinginkan.
 
 ### Apakah ada opsi penyelarasan tingkat lanjut yang tersedia?
 
 Ya, Aspose.PDF untuk Java menawarkan opsi penyelarasan tingkat lanjut, termasuk memusatkan stempel teks secara horizontal dan vertikal, menyelaraskan ke tepi tertentu, dan banyak lagi. Jelajahi dokumentasi untuk contoh terperinci.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

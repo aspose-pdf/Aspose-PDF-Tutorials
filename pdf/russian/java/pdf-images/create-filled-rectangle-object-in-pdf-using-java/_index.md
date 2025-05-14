@@ -1,14 +1,16 @@
 ---
-title: Создание объекта «Заполненный прямоугольник» в PDF с помощью Java
-linktitle: Создание объекта «Заполненный прямоугольник» в PDF с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как создавать заполненные прямоугольники в PDF-файлах с помощью Java с Aspose.PDF для Java. Пошаговое руководство с примерами кода.
-weight: 12
-url: /ru/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
+"description": "Узнайте, как создавать заполненные прямоугольники в PDF-файлах с помощью Java с Aspose.PDF для Java. Пошаговое руководство с примерами кода."
+"linktitle": "Создание объекта «Заполненный прямоугольник» в PDF с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Создание объекта «Заполненный прямоугольник» в PDF с помощью Java"
+"url": "/ru/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создание объекта «Заполненный прямоугольник» в PDF с помощью Java
@@ -30,7 +32,7 @@ url: /ru/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
 
 Для начала вам необходимо скачать Aspose.PDF для Java с сайта. Выполните следующие шаги:
 
-1.  Доступ к документации Aspose.PDF для Java можно получить по адресу[здесь](https://reference.aspose.com/pdf/java/).
+1. Доступ к документации Aspose.PDF для Java можно получить по адресу [здесь](https://reference.aspose.com/pdf/java/).
 
 2. Загрузите библиотеку и следуйте предоставленным инструкциям по установке.
 
@@ -66,13 +68,13 @@ page.getParagraphs().add(filledRectangle);
 ```
 
 В этом коде:
--  Мы создаем новый`Rectangle` объект, указав его положение (x=100, y=100), ширину (200) и высоту (50).
+- Мы создаем новый `Rectangle` объект, указав его положение (x=100, y=100), ширину (200) и высоту (50).
 - Мы устанавливаем красный цвет фона прямоугольника.
 - Наконец, мы добавляем прямоугольник на страницу.
 
 ## Настройка прямоугольника
 
-Вы можете дополнительно настроить прямоугольник, изменив его цвет, границу или другие свойства. Изучите документацию Aspose.PDF для Java для получения дополнительных опций.
+Вы можете настроить прямоугольник еще больше, изменив его цвет, границу или другие свойства. Изучите документацию Aspose.PDF для Java для получения дополнительных опций.
 
 ## Сохранение PDF-файла
 
@@ -102,7 +104,7 @@ Aspose.PDF для Java — это библиотека Java, которая по
 
 ### Могу ли я изменить цвет закрашенного прямоугольника?
 
- Да, вы можете настроить цвет заполненного прямоугольника, задав цвет его фона с помощью`setBackgroundColor`метод, как показано в уроке.
+Да, вы можете настроить цвет заполненного прямоугольника, установив цвет его фона с помощью `setBackgroundColor` метод, как показано в уроке.
 
 ### Можно ли использовать Aspose.PDF для Java бесплатно?
 
@@ -110,10 +112,12 @@ Aspose.PDF для Java — это коммерческая библиотека,
 
 ### Где можно найти больше примеров использования Aspose.PDF для Java?
 
- Дополнительные примеры и подробную документацию по использованию Aspose.PDF для Java можно найти на веб-сайте Aspose по адресу[здесь](https://reference.aspose.com/pdf/java/).
+Дополнительные примеры и подробную документацию по использованию Aspose.PDF для Java можно найти на веб-сайте Aspose по адресу [здесь](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

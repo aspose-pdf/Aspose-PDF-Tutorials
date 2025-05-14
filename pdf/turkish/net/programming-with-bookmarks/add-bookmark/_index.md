@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına Yer İşareti Ekle
-linktitle: PDF Dosyasına Yer İşareti Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarına yer imleri eklemeyi öğrenin. PDF gezinmenizi geliştirin.
-weight: 10
-url: /tr/net/programming-with-bookmarks/add-bookmark/
+"description": "Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarına yer imleri eklemeyi öğrenin. PDF gezinmenizi geliştirin."
+"linktitle": "PDF Dosyasına Yer İşareti Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Yer İşareti Ekle"
+"url": "/tr/net/programming-with-bookmarks/add-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Yer İşareti Ekle
@@ -22,7 +24,7 @@ Hiç kendinizi uzun bir PDF belgesinin içinde gezinirken, ihtiyacınız olan o 
 Başlamadan önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için başvurulacak IDE'dir.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz: [indirme bağlantısı](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşinalık, akıcı bir şekilde takip etmenize yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -43,7 +45,7 @@ Projeniz kurulduktan sonra, Aspose.PDF kütüphanesine bir referans eklemeniz ge
 
 ### Gerekli Ad Alanlarını İçe Aktar
 
- En üstte`Program.cs` dosyaya gerekli ad alanlarını içe aktarın:
+En üstte `Program.cs` dosyaya gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using System;
@@ -55,13 +57,13 @@ Artık her şeyi ayarladığımıza göre, yer imleri eklemek için gerçek koda
 
 ## Adım 1: Belge Dizinini Tanımlayın
 
-Öncelikle, belgeler dizininize giden yolu belirtmeniz gerekir. PDF dosyanız burada bulunacaktır. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Öncelikle, belgeler dizininize giden yolu belirtmeniz gerekir. PDF dosyanız burada bulunacaktır. Bunu şu şekilde yapabilirsiniz:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı gerçek yol ile.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -71,9 +73,9 @@ Sonra, yer imleri eklemek istediğiniz PDF belgesini açmak isteyeceksiniz. Aşa
 Document pdfDocument = new Document(dataDir + "AddBookmark.pdf");
 ```
 
- Bu kod satırı yeni bir başlatır`Document` nesneyi PDF dosyanızla birlikte gönderin.
+Bu kod satırı yeni bir başlatır `Document` nesneyi PDF dosyanızla birlikte gönderin.
 
-## Adım 3: Bir Yer İşareti Nesnesi Oluşturun
+## Adım 3: Bir Yer İmi Nesnesi Oluşturun
 
 Şimdi bir yer imi nesnesi oluşturma zamanı. Burada yer iminizin başlığını ve görünümünü tanımlayacaksınız. İşte nasıl yapacağınız:
 
@@ -88,7 +90,7 @@ Bu örnekte, "Test Anahattı" başlıklı bir yer imi oluşturuyoruz ve onu kal�
 
 ## Adım 4: Hedef Sayfa Numarasını Ayarlayın
 
-Her yer iminin bir hedefi olması gerekir. Yer iminin bağlanacağı sayfa numarasını aşağıdaki kodla ayarlayabilirsiniz:
+Her yer iminin bir hedefe ihtiyacı vardır. Yer iminin bağlanacağı sayfa numarasını aşağıdaki kodla ayarlayabilirsiniz:
 
 ```csharp
 pdfOutline.Action = new GoToAction(pdfDocument.Pages[1]);
@@ -98,7 +100,7 @@ Bu satır, yer iminin PDF'nin ilk sayfasına gitme eylemini ayarlar. Sayfa numar
 
 ## Adım 5: Yer İşaretini Belgeye Ekleyin
 
-Artık yer imlerinizi oluşturduğunuza göre, onu belgenin ana hat koleksiyonuna eklemenin zamanı geldi:
+Artık yer imlerinizi oluşturduğunuza göre, bunları belgenin anahat koleksiyonuna eklemenin zamanı geldi:
 
 ```csharp
 pdfDocument.Outlines.Add(pdfOutline);
@@ -128,19 +130,21 @@ Ve işte oldu! Aspose.PDF for .NET kullanarak bir PDF dosyasına başarıyla yer
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
 ### Bir PDF'e birden fazla yer imi ekleyebilir miyim?
- Evet, birden fazla oluşturabilirsiniz`OutlineItemCollection`nesneleri seçin ve bunları belgenin anahat koleksiyonuna ekleyin.
+Evet, birden fazla oluşturabilirsiniz `OutlineItemCollection` nesneleri seçin ve bunları belgenin anahat koleksiyonuna ekleyin.
 
 ### Aspose.PDF'i kullanmak ücretsiz mi?
- Aspose.PDF ücretsiz deneme sunuyor, ancak tam işlevsellik için bir lisans satın almanız gerekecek. Şuraya göz atın:[satın alma bağlantısı](https://purchase.aspose.com/buy).
+Aspose.PDF ücretsiz deneme sunuyor, ancak tam işlevsellik için bir lisans satın almanız gerekecek. Şuraya göz atın: [satın alma bağlantısı](https://purchase.aspose.com/buy).
 
 ### Daha fazla dokümanı nerede bulabilirim?
- .NET için Aspose.PDF'de kapsamlı belgeler bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+.NET için Aspose.PDF'de kapsamlı belgeler bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Destek için şu adresi ziyaret edebilirsiniz:[Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Destek için şu adresi ziyaret edebilirsiniz: [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

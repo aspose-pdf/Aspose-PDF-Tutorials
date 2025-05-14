@@ -1,14 +1,16 @@
 ---
-title: PDF AB Standardını doğrulayın
-linktitle: PDF AB Standardını doğrulayın
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF/A-1b standardı için bir PDF'yi nasıl doğrulayacağınızı öğrenin. Uzun vadeli arşivleme için uyumluluğu sağlayın.
-weight: 380
-url: /tr/net/programming-with-document/validatepdfabstandard/
+"description": "Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF/A-1b standardı için bir PDF'yi nasıl doğrulayacağınızı öğrenin. Uzun vadeli arşivleme için uyumluluğu sağlayın."
+"linktitle": "PDF AB Standardını doğrulayın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF AB Standardını doğrulayın"
+"url": "/tr/net/programming-with-document/validatepdfabstandard/"
+"weight": 380
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF AB Standardını doğrulayın
@@ -22,17 +24,17 @@ Günümüzün hızlı dijital dünyasında, PDF uyumluluk standartları dijital 
 
 ## Ön koşullar
 
-Koda geçmeden önce takip etmeniz gereken her şeyin elinizde olduğundan emin olun:
+Koda geçmeden önce, takip etmeniz gereken her şeyin elinizde olduğundan emin olun:
 
--  Aspose.PDF for .NET: En son sürüme ihtiyacınız var. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF for .NET: En son sürüme ihtiyacınız var. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/).
 - .NET Ortamı: Visual Studio gibi çalışan bir .NET geliştirme ortamınız olduğundan emin olun.
--  Lisans: Tam işlevsellik için bir Aspose lisansına ihtiyacınız olacak. Bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/)değerlendirme için veya[buradan bir tane satın alın](https://purchase.aspose.com/buy).
+- Lisans: Tam işlevsellik için bir Aspose lisansına ihtiyacınız olacak. Bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) değerlendirme için veya [buradan bir tane satın alın](https://purchase.aspose.com/buy).
 
 Tüm ön koşullar sağlandığında, bu eğitimdeki adımları takip etmeye hazır olacaksınız.
 
 ## Paketleri İçe Aktar
 
-Herhangi bir kod yazmadan önce, gerekli Aspose.PDF ad alanlarını projenize aktarmanız gerekir. Bunu şu şekilde yapabilirsiniz:
+Herhangi bir kod yazmadan önce, gerekli Aspose.PDF ad alanlarını projenize aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
 using System.IO;
@@ -52,7 +54,7 @@ Artık her şey ayarlandığına göre, Aspose.PDF for .NET kullanarak PDF/A sta
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu satırda şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu yol, doğrulamak istediğiniz PDF'e erişmek için kod boyunca kullanılacaktır.
+Bu satırda şunu değiştirin: `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu yol, doğrulamak istediğiniz PDF'e erişmek için kod boyunca kullanılacaktır.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -62,7 +64,7 @@ Artık PDF'in nerede olduğunu bildiğimize göre, onu açalım. Aspose.PDF herh
 Document pdfDocument = new Document(dataDir + "ValidatePDFAStandard.pdf");
 ```
 
- Burada,`Document`sınıfı PDF dosyasını açmak için kullanılır. Sadece dosyanızın doğru konumda olduğundan emin olun, ve belleğe yüklenecek, doğrulama için hazır olacaktır.
+Burada, `Document` sınıfı PDF dosyasını açmak için kullanılır. Sadece dosyanızın doğru konumda olduğundan emin olun, ve belleğe yüklenecek, doğrulama için hazır olacaktır.
 
 ## Adım 3: PDF'yi PDF/A Standardına Göre Doğrulayın
 
@@ -73,7 +75,7 @@ pdfDocument.Validate(dataDir + "validation-result-A1A.xml", PdfFormat.PDF_A_1B);
 ```
 
 Bunu parçalayalım:
--  The`Validate` yöntem iki parametre alır. Birincisi doğrulama sonuçlarının kaydedileceği yoldur. İkincisi doğrulama yaptığınız PDF/A biçimidir—bu durumda,`PDF_A_1B`.
+- The `Validate` yöntem iki parametre alır. Birincisi doğrulama sonuçlarının kaydedileceği yoldur. İkincisi doğrulama yaptığınız PDF/A biçimidir—bu durumda, `PDF_A_1B`.
 - Sonuçlar, belgenin doğrulamadan geçip geçmediği ve herhangi bir sorun olup olmadığı ayrıntılı olarak açıklanarak bir XML dosyasına kaydedilecektir.
 
 ## Adım 4: Doğrulama Sonuçlarını İşleyin
@@ -100,13 +102,15 @@ Evet! Aspose.PDF, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-3a ve daha fazla
 Doğrulama sonuçları, hataları, uyarıları veya başarı mesajlarını incelemek için herhangi bir metin veya XML düzenleyicisiyle açabileceğiniz bir XML dosyasına kaydedilir.
 
 ### PDF/A doğrulaması için Aspose.PDF'yi kullanmak için lisansa ihtiyacım var mı?
- Evet, Aspose.PDF'nin tüm potansiyelini ortaya çıkarmak için bir lisansa ihtiyacınız olacak. Bir lisans alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) veya tam lisans satın alın[Burada](https://purchase.aspose.com/buy).
+Evet, Aspose.PDF'nin tüm potansiyelini ortaya çıkarmak için bir lisansa ihtiyacınız olacak. Bir lisans alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) veya tam lisans satın alın [Burada](https://purchase.aspose.com/buy).
 
 ### Ya PDF'im PDF/A doğrulamasından geçemezse?
 PDF'niz doğrulamayı geçemezse, XML sonuç dosyası belirli sorunlar hakkında ayrıntılar sağlayacaktır. Daha sonra Aspose.PDF'nin güçlü düzenleme özelliklerini kullanarak belgeyi buna göre değiştirebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

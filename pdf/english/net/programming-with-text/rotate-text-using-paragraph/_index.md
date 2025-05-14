@@ -8,7 +8,9 @@ url: /net/programming-with-text/rotate-text-using-paragraph/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rotate Text Using Paragraph In PDF File
@@ -182,6 +184,7 @@ You can purchase a temporary license from [Aspose's website](https://purchase.as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

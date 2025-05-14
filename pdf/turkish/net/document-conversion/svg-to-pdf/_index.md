@@ -1,14 +1,16 @@
 ---
-title: SVG'den PDF'e
-linktitle: SVG'den PDF'e
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimde Aspose.PDF for .NET kullanarak SVG'yi PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve tasarımcılar için mükemmel.
-weight: 280
-url: /tr/net/document-conversion/svg-to-pdf/
+"description": "Bu adım adım eğitimde Aspose.PDF for .NET kullanarak SVG'yi PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve tasarımcılar için mükemmel."
+"linktitle": "SVG'den PDF'e"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "SVG'den PDF'e"
+"url": "/tr/net/document-conversion/svg-to-pdf/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # SVG'den PDF'e
@@ -22,7 +24,7 @@ Günümüzün dijital dünyasında, dosyaları bir formattan diğerine dönüşt
 Başlamadan önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET kodunuzu burada yazıp çalıştıracaksınız.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmak, örnekleri takip etmenize yardımcı olacaktır.
 4. SVG Dosyası: Dönüştürmeye hazır bir SVG dosyanız olsun. Bir tane oluşturabilir veya internetten bir örnek SVG dosyası indirebilirsiniz.
 
@@ -47,13 +49,13 @@ Kodunuzda, SVG dosyanızın bulunduğu dizini işaret eden bir dize değişkeni 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgelerinizin bulunduğu klasöre giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgelerinizin bulunduğu klasöre giden gerçek yol ile.
 
 ## Adım 2: LoadOption Nesnesini Örneklendirin
 
- Daha sonra, bir örnek oluşturmanız gerekir`LoadOptions` SVG dosyaları için özel sınıf. Bu, Aspose.PDF'e dönüştürme işlemi sırasında SVG dosyasını nasıl işleyeceğini söyler.
+Daha sonra, bir örnek oluşturmanız gerekir `LoadOptions` SVG dosyaları için özel sınıf. Bu, Aspose.PDF'e dönüştürme işlemi sırasında SVG dosyasını nasıl işleyeceğini söyler.
 
- The`SvgLoadOptions` sınıfı SVG dosyalarını yüklemek için tasarlanmıştır. Bu sınıfın bir örneğini oluşturarak, kütüphanenin bir SVG dosyasıyla çalıştığınızı bilmesini sağlarsınız.
+The `SvgLoadOptions` sınıfı SVG dosyalarını yüklemek için tasarlanmıştır. Bu sınıfın bir örneğini oluşturarak, kütüphanenin bir SVG dosyasıyla çalıştığınızı bilmesini sağlarsınız.
 
 ```csharp
 Aspose.Pdf.LoadOptions loadopt = new Aspose.Pdf.SvgLoadOptions();
@@ -61,31 +63,31 @@ Aspose.Pdf.LoadOptions loadopt = new Aspose.Pdf.SvgLoadOptions();
 
 ## Adım 3: Belge Nesnesi Oluşturun
 
- Şimdi bir tane yaratmanın zamanı geldi`Document`nesne. Bu nesne kodda SVG dosyanızı temsil edecektir.
+Şimdi bir tane yaratmanın zamanı geldi `Document` nesne. Bu nesne kodda SVG dosyanızı temsil edecektir.
 
- The`Document` class, Aspose.PDF kütüphanesinin çekirdeğidir. SVG dosyanızın yolunu ve az önce oluşturduğunuz yükleme seçeneklerini geçirerek, kütüphaneye SVG dosyanızı belleğe yüklemesini söylüyorsunuz.
+The `Document` class, Aspose.PDF kütüphanesinin çekirdeğidir. SVG dosyanızın yolunu ve az önce oluşturduğunuz yükleme seçeneklerini geçirerek, kütüphaneye SVG dosyanızı belleğe yüklemesini söylersiniz.
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SVGToPDF.svg", loadopt);
 ```
 
- Değiştirdiğinizden emin olun`"SVGToPDF.svg"` gerçek SVG dosyanızın adıyla.
+Değiştirdiğinizden emin olun `"SVGToPDF.svg"` gerçek SVG dosyanızın adıyla.
 
 ## Adım 4: Ortaya Çıkan PDF Belgesini Kaydedin
 
 Son olarak, dönüştürülen PDF belgesini kaydedeceksiniz. Bu, dönüştürme işleminin son adımıdır.
 
- The`Save` yöntemi`Document` class çıktı dosya adını ve biçimini belirtmenize olanak tanır. Bu durumda, bunu PDF olarak kaydedeceksiniz.
+The `Save` yöntemi `Document` class çıktı dosya adını ve biçimini belirtmenize olanak tanır. Bu durumda, bunu PDF olarak kaydedeceksiniz.
 
 ```csharp
 doc.Save(dataDir + "SVGToPDF_out.pdf");
 ```
 
- Tekrar değiştir`"SVGToPDF_out.pdf"` İstediğiniz çıktı dosya adı ile.
+Tekrar değiştir `"SVGToPDF_out.pdf"` İstediğiniz çıktı dosya adı ile.
 
 ## Çözüm
 
-Ve işte karşınızda! Aspose.PDF for .NET kullanarak bir SVG dosyasını başarıyla PDF'ye dönüştürdünüz. Bu işlem yalnızca basit değil aynı zamanda inanılmaz derecede verimlidir ve SVG dosyalarını kolaylıkla işlemenizi sağlar. Sık sık dönüştürme gerektiren bir proje üzerinde çalışıyor olun veya yalnızca tek bir dosyayı dönüştürmeniz gereksin, Aspose.PDF sizin için her şeyi yapar.
+Ve işte oldu! Aspose.PDF for .NET kullanarak bir SVG dosyasını başarıyla PDF'ye dönüştürdünüz. Bu işlem yalnızca basit değil aynı zamanda inanılmaz derecede verimlidir ve SVG dosyalarını kolaylıkla işlemenizi sağlar. Sık sık dönüştürme gerektiren bir proje üzerinde çalışıyor olun veya yalnızca tek bir dosyayı dönüştürmeniz gereksin, Aspose.PDF sizin için her şeyi yapar.
 
 ## SSS
 
@@ -99,13 +101,15 @@ PDF, belgeleri paylaşmak ve yazdırmak için yaygın olarak kullanılan bir for
 Evet, benzer bir kod kullanarak SVG dosyalarının bulunduğu bir dizinde dolaşabilir ve her birini PDF'ye dönüştürebilirsiniz.
 
 ### Aspose.PDF ücretsiz mi?
- Aspose.PDF ücretsiz deneme sunuyor ancak tüm özellikler için bir lisans satın almanız gerekecek. Daha fazla bilgi bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.PDF ücretsiz deneme sunuyor ancak tüm özellikler için bir lisans satın almanız gerekecek. Daha fazla bilgi bulabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.PDF için desteği nerede bulabilirim?
- Aspose topluluğundan destek alabilirsiniz[destek forumu](https://forum.aspose.com/c/pdf/10).
+Aspose topluluğundan destek alabilirsiniz [destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

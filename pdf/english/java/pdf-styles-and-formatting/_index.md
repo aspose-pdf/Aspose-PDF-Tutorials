@@ -8,7 +8,9 @@ url: /java/pdf-styles-and-formatting/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Styles and Formatting
@@ -43,9 +45,11 @@ Learn to style tables in PDF documents using Java with Aspose.PDF. Create visual
 Learn how to style PDF table rows in Java using Aspose.PDF for Java. Customize colors, add borders, and more in this comprehensive guide.
 ### [Style Text Structure in PDF using Java](./style-text-structure-in-pdf-using-java/)
 Learn how to style text structures in PDFs using Java with our step-by-step guide. Customize fonts, colors, hyperlinks, and more for professional-looking documents.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

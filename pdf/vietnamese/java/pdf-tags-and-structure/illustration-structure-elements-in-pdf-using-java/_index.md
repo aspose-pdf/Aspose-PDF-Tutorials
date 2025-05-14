@@ -1,14 +1,16 @@
 ---
-title: Minh họa các thành phần cấu trúc trong PDF sử dụng Java
-linktitle: Minh họa các thành phần cấu trúc trong PDF sử dụng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách tạo hình minh họa và cấu trúc các thành phần trong tệp PDF bằng Java với Aspose.PDF.
-weight: 14
-url: /vi/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/
+"description": "Tìm hiểu cách tạo hình minh họa và cấu trúc các thành phần trong tệp PDF bằng Java với Aspose.PDF."
+"linktitle": "Minh họa các thành phần cấu trúc trong PDF sử dụng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Minh họa các thành phần cấu trúc trong PDF sử dụng Java"
+"url": "/vi/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Minh họa các thành phần cấu trúc trong PDF sử dụng Java
@@ -28,14 +30,14 @@ Trước khi bắt đầu cuộc phiêu lưu minh họa PDF, hãy đảm bảo b
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
 
--  Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập dự án của bạn
 
 Bây giờ, hãy thiết lập một dự án Java để bắt đầu. Tạo một dự án Java mới trong IDE yêu thích của bạn và thêm thư viện Aspose.PDF vào classpath của dự án.
 
 ```java
-//Thêm thư viện Aspose.PDF vào dự án Java của bạn
+// Thêm thư viện Aspose.PDF vào dự án Java của bạn
 import com.aspose.pdf.Document;
 import com.aspose.pdf.Page;
 import com.aspose.pdf.Rectangle;
@@ -82,7 +84,7 @@ Document pdfDocument = new Document();
 // Thêm một trang vào tài liệu
 Page page = pdfDocument.getPages().add();
 
-//Tải một hình ảnh
+// Tải một hình ảnh
 com.aspose.pdf.Image image = new com.aspose.pdf.Image();
 image.setFile("logo.png"); // Thay thế bằng đường dẫn tệp hình ảnh của bạn
 
@@ -102,7 +104,7 @@ pdfDocument.save("Illustration.pdf");
 
 Xin chúc mừng! Bạn đã học cách tạo hình minh họa và cấu trúc các thành phần trong tệp PDF bằng Java và Aspose.PDF. Bây giờ bạn có thể cải thiện tài liệu PDF của mình bằng văn bản, hình ảnh và nhiều thứ khác.
 
- Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ thêm, hãy thoải mái khám phá[Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/) để biết thêm thông tin chi tiết.
+Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ thêm, hãy thoải mái khám phá [Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/) để biết thêm thông tin chi tiết.
 
 ## Câu hỏi thường gặp
 
@@ -122,9 +124,11 @@ Xin chúc mừng! Bạn đã học cách tạo hình minh họa và cấu trúc 
    Tham khảo tài liệu Aspose.PDF dành cho Java API để biết thêm nhiều ví dụ và tài nguyên.
    
 Bây giờ bạn đã sẵn sàng tạo các tài liệu PDF hấp dẫn và nhiều thông tin bằng Java và Aspose.PDF. Chúc bạn viết mã vui vẻ!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,46 +1,48 @@
 ---
-title: Oldalszámok elrejtése a TOC-ban
-linktitle: Oldalszámok elrejtése a TOC-ban
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan rejtheti el az oldalszámokat a tartalomjegyzékben az Aspose.PDF for .NET használatával. Kövesse ezt a részletes útmutatót a kódpéldákkal a professzionális PDF-ek létrehozásához.
-weight: 220
-url: /hu/net/programming-with-document/hidepagenumbersintoc/
+"description": "Tanuld meg, hogyan rejtheted el az oldalszámokat a tartalomjegyzékben az Aspose.PDF for .NET segítségével. Kövesd ezt a részletes útmutatót kódpéldákkal professzionális PDF-ek létrehozásához."
+"linktitle": "Oldalszámok elrejtése a tartalomjegyzékben"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Oldalszámok elrejtése a tartalomjegyzékben"
+"url": "/hu/net/programming-with-document/hidepagenumbersintoc/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Oldalszámok elrejtése a TOC-ban
+# Oldalszámok elrejtése a tartalomjegyzékben
 
 ## Bevezetés
 
-Amikor PDF-ekkel dolgozik, előfordulhat, hogy érdemes létrehozni egy tartalomjegyzéket (TOC), de az oldalszámok elrejtésével a dolgokat karcsúsíthatja. Lehet, hogy a dokumentum jobban megy nélkülük, vagy talán esztétikai választás. Bármi legyen is az oka, ha az Aspose.PDF for .NET-hez dolgozik, ez az oktatóanyag pontosan megmutatja, hogyan rejtheti el az oldalszámokat a tartalomjegyzékben.
+Amikor PDF-ekkel dolgozol, előfordulhat, hogy szeretnél tartalomjegyzéket (TOC) létrehozni, de az oldalszámok elrejtésével megőrizni az esztétikai megjelenést. Lehet, hogy a dokumentum jobban néz ki nélkülük, vagy talán esztétikai okokból. Bármi is legyen az okod, ha az Aspose.PDF for .NET fájllal dolgozol, ez az oktatóanyag pontosan megmutatja, hogyan rejtheted el az oldalszámokat a tartalomjegyzékben.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, néhány dolgot meg kell tennie. Íme egy gyors ellenőrző lista:
+Mielőtt belekezdenénk, van néhány dolog, amire szükséged lesz. Íme egy gyors ellenőrzőlista:
 
-- Visual Studio telepítve: A kódoláshoz szüksége lesz a Visual Studio működő verziójára.
-- Aspose.PDF for .NET Library: Győződjön meg arról, hogy telepítette az Aspose.PDF for .NET könyvtárat.
-  -  Letöltési link:[Aspose.PDF .NET-hez](https://releases.aspose.com/pdf/net/)
-- Ideiglenes licenc: Ha teszteli a szolgáltatásokat, hasznos, ha rendelkezik ideiglenes licenccel.
-  -  Ideiglenes jogosítvány:[Szerezd meg itt](https://purchase.aspose.com/temporary-license/)
+- Visual Studio telepítve: A kódoláshoz a Visual Studio egy működő verziójára lesz szükséged.
+- Aspose.PDF .NET könyvtárhoz: Győződjön meg róla, hogy telepítette az Aspose.PDF .NET könyvtárat.
+  - Letöltési link: [Aspose.PDF .NET-hez](https://releases.aspose.com/pdf/net/)
+- Ideiglenes licenc: Ha teszteli a funkciókat, hasznos, ha ideiglenes licenccel rendelkezik.
+  - Ideiglenes jogosítvány: [Szerezd meg itt](https://purchase.aspose.com/temporary-license/)
 
 ## Csomagok importálása
 
-Mielőtt belevágna a kódba, győződjön meg róla, hogy importálja a következő névtereket a C# projektbe. Ezek biztosítják a szükséges osztályokat és módszereket a PDF-dokumentumokkal való munkához és a tartalomjegyzék (TOC) létrehozásához.
+Mielőtt belevágnál a kódba, mindenképpen importáld a következő névtereket a C# projektedbe. Ezek biztosítják a szükséges osztályokat és metódusokat a PDF dokumentumokkal való munkához és a tartalomjegyzék (TOC) létrehozásához.
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-Most, hogy a környezet készen áll, és a csomagok importálva vannak, bontsuk le a folyamat egyes lépéseit. Az egyértelműség érdekében a kód minden részét lefedjük, így könnyen követheti a lépést.
+Most, hogy a környezeted elkészült és a csomagok importálása megtörtént, bontsuk le a folyamat egyes lépéseit. A kód minden részét áttekintjük az érthetőség kedvéért, hogy könnyen követhesd a folyamatot.
 
-## 1. lépés: Inicializálja a PDF-dokumentumot
+## 1. lépés: PDF dokumentum inicializálása
 
-Először is létre kell hoznunk egy új PDF-dokumentumot, és hozzá kell adni egy oldalt a tartalomjegyzékhez (TOC).
+Az első dolog, amit tennünk kell, egy új PDF dokumentum létrehozása és egy oldal hozzáadása a tartalomjegyzékhez (TOC).
 
 
 ```csharp
@@ -51,13 +53,13 @@ Document doc = new Document();
 Page tocPage = doc.Pages.Add();
 ```
 
-- dataDir: Ez az a könyvtár, ahová a kimeneti fájl mentésre kerül.
-- Document(): Új PDF dokumentum inicializálása.
-- Pages.Add(): Új üres oldalt ad a dokumentumhoz, amely később tartalmazza a tartalomjegyzékét.
+- dataDir: Ez a könyvtár, ahová a kimeneti fájl mentésre kerül.
+- Document(): Inicializál egy új PDF dokumentumot.
+- Pages.Add(): Egy új üres oldalt ad hozzá a dokumentumhoz, amely később a tartalomjegyzéket fogja tartalmazni.
 
-## 2. lépés: Állítsa be a TOC-adatokat és a címet
+## 2. lépés: Tartalomjegyzék-információk és cím beállítása
 
-Ezután meghatározzuk a tartalomjegyzék-információkat, beleértve a tartalomjegyzék tetején megjelenő cím beállítását.
+Ezután meghatározzuk a tartalomjegyzék adatait, beleértve a tartalomjegyzék tetején megjelenő cím beállítását is.
 
 ```csharp
 TocInfo tocInfo = new TocInfo();
@@ -68,26 +70,26 @@ tocInfo.Title = title;
 tocPage.TocInfo = tocInfo;
 ```
 
-- TocInfo: Ez az objektum tartalmazza a tartalomjegyzékről szóló összes információt.
-- TextFragment: A tartalomjegyzék címének szövegét képviseli, itt "Tartalomjegyzék"-ként állítjuk be.
-- FontStyle: A TOC címet úgy alakítjuk ki, hogy a méretét 20-ra állítjuk, és félkövérre szedjük.
-- tocPage.TocInfo: A tartalomjegyzék-információt hozzárendeljük ahhoz az oldalhoz, amelyen megjelenik a tartalomjegyzék.
+- TocInfo: Ez az objektum a tartalomjegyzékkel kapcsolatos összes információt tartalmazza.
+- TextFragment: A tartalomjegyzék címének szövegét jelöli, itt „Tartalomjegyzékként” van beállítva.
+- Betűstílus: A tartalomjegyzék címét úgy formázzuk meg, hogy a méretét 20-ra állítjuk, és félkövér betűtípust használunk.
+- tocPage.TocInfo: A tartalomjegyzék adatait hozzárendeljük ahhoz az oldalhoz, amelyik megjeleníti a tartalomjegyzéket.
 
-## 3. lépés: Az oldalszámok elrejtése a TOC-ban
+## 3. lépés: Oldalszámok elrejtése a tartalomjegyzékben
 
-Most jöjjön a szórakoztató rész! Itt állítjuk be a TOC-t az oldalszámok elrejtésére.
+Most pedig jöjjön a mókás rész! Itt konfiguráljuk a tartalomjegyzéket az oldalszámok elrejtéséhez.
 
 ```csharp
 tocInfo.IsShowPageNumbers = false;
 tocInfo.FormatArrayLength = 4;
 ```
 
--  IsShowPageNumbers: Ez a varázskapcsoló, amely elrejti az oldalszámokat. Állítsa be`false`, és az oldalszámok nem jelennek meg a tartalomjegyzékben.
-- FormatArrayLength: Ezt 4-re állítjuk, jelezve, hogy a TOC címsorok négy szintjéhez szeretnénk formázást definiálni.
+- IsShowPageNumbers: Ez a varázslatos kapcsoló, amely elrejti az oldalszámokat. Állítsa erre: `false`és az oldalszámok nem jelennek meg a tartalomjegyzékben.
+- FormatArrayLength: Ezt 4-re állítottuk be, ami azt jelzi, hogy a tartalomjegyzék címsorainak négy szintjéhez szeretnénk formázást definiálni.
 
-## 4. lépés: A TOC formázásának testreszabása
+## 4. lépés: A tartalomjegyzék formázásának testreszabása
 
-A TOC stílusosabbá tétele érdekében a címsorok különböző szintjeihez formázást határozunk meg.
+A tartalomjegyzék stílusosabbá tételéhez most definiáljuk a különböző szintű címsorok formázását.
 
 ```csharp
 tocInfo.FormatArray[0].Margin.Right = 0;
@@ -99,12 +101,12 @@ tocInfo.FormatArray[2].TextState.FontStyle = FontStyles.Bold;
 tocInfo.FormatArray[3].TextState.FontStyle = FontStyles.Bold;
 ```
 
-- FormatArray: Ez a tömb szabályozza a TOC bejegyzések formázását. Minden index más-más címsorszintet jelöl.
+- FormatArray: Ez a tömb a tartalomjegyzék-bejegyzések formázását szabályozza. Minden index egy másik címsorszintet jelöl.
 - Margó és szövegstílus: Minden címsorszinthez margókat állítunk be, és betűstílusokat alkalmazunk, például félkövér, dőlt és aláhúzott.
 
-## 5. lépés: Adjon hozzá címeket a dokumentumhoz
+## 5. lépés: Címsorok hozzáadása a dokumentumhoz
 
-Végül adjuk hozzá a tényleges címsorokat, amelyek a TOC részét képezik.
+Végül adjuk hozzá a tartalomjegyzék részét képező tényleges címsorokat.
 
 ```csharp
 Page page = doc.Pages.Add();
@@ -121,43 +123,45 @@ for (int Level = 1; Level != 5; Level++)
 }
 ```
 
-- Címsor és szövegszegmens: Ezek a tartalomjegyzékben megjelenő címsorok. Minden szintnek megvan a maga címe.
+- Címsor és szövegszegmens: Ezek jelölik a tartalomjegyzékben megjelenő címsorokat. Minden szintnek saját címsora van.
 - IsAutoSequence: Automatikusan számozza a címsorokat.
 - IsInList: Biztosítja, hogy minden címsor megjelenjen a tartalomjegyzékben.
 
-## 6. lépés: Mentse el a dokumentumot
+## 6. lépés: A dokumentum mentése
 
-Ha mindent beállított, mentse a PDF-dokumentumot a megadott kimeneti fájlba.
+Miután mindent beállítottál, mentsd el a PDF dokumentumot a megadott kimeneti fájlba.
 
 ```csharp
 doc.Save(outFile);
 ```
 
-És ennyi! Sikeresen létrehozott egy PDF-t tartalomjegyzékkel, és az oldalszámok el vannak rejtve!
+És kész is! Sikeresen létrehoztál egy tartalomjegyzékkel ellátott PDF-et, és az oldalszámok rejtve vannak!
 
 ## Következtetés
 
-tartalomjegyzék létrehozása PDF-ben és az oldalszámok elrejtése bonyolultnak tűnhet, de a .NET-hez készült Aspose.PDF használatával ez gyerekjáték. A lépésenkénti útmutató követésével megtanulta, hogyan szabhatja testre a tartalomjegyzék formátumát, hogyan rejtheti el az oldalszámokat, és hogyan alkalmazhat különböző stílusokat a címsorokhoz. Mostantól professzionális PDF-fájlokat készíthet, amelyek pontosan az Ön igényeihez vannak szabva.
+Tartalomjegyzék létrehozása PDF-ben és oldalszámok elrejtése bonyolultnak tűnhet, de az Aspose.PDF for .NET segítségével ez gyerekjáték. Ezzel a lépésről lépésre haladó útmutatóval megtanultad, hogyan szabhatod testre a tartalomjegyzék formátumát, hogyan rejtheted el az oldalszámokat, és hogyan alkalmazhatsz különböző stílusokat a címsorokra. Mostantól professzionális, az igényeidre szabott PDF-eket hozhatsz létre.
 
 ## GYIK
 
-### Megmutathatok oldalszámokat a tartalomjegyzékben bizonyos címsorokhoz?
-Nem, az Aspose.PDF elrejti vagy megjeleníti a teljes tartalomjegyzék oldalszámait. Ezeket nem lehet szelektíven elrejteni bizonyos bejegyzéseknél.
+### Megjeleníthetem az oldalszámokat bizonyos címsorokhoz a tartalomjegyzékben?
+Nem, az Aspose.PDF elrejti vagy megjeleníti az oldalszámokat a teljes tartalomjegyzékben. Nem rejtheted el őket szelektíven bizonyos bejegyzéseknél.
 
-### Lehetséges több szintet hozzáadni a TOC-hoz?
- Igen, növelheti a`FormatArrayLength` a TOC címsorok több szintjének meghatározásához.
+### Lehetséges további szinteket hozzáadni a tartalomjegyzékhez?
+Igen, növelheted a `FormatArrayLength` a tartalomjegyzék címsorainak több szintjének meghatározásához.
 
-### Hogyan változtathatom meg az összes TOC-bejegyzés betűtípusát?
- A betűtípust módosíthatja a`TextState.Font` tulajdonság minden szinten a`FormatArray`.
+### Hogyan tudom megváltoztatni a tartalomjegyzék összes bejegyzésének betűtípusát?
+A betűtípust a következő módosításával módosíthatja: `TextState.Font` tulajdonság minden szinthez a `FormatArray`.
 
-### Beilleszthetek hiperhivatkozásokat a tartalomjegyzékbe?
- Igen, az egyes TOC bejegyzéseket a dokumentum egy adott szakaszához kapcsolhatja a következővel`Heading.TocPage` ingatlan.
+### Beszúrhatok hiperhivatkozásokat a tartalomjegyzékbe?
+Igen, minden tartalomjegyzék-bejegyzést a dokumentum egy adott szakaszához csatolhat a `Heading.TocPage` ingatlan.
 
 ### Szükségem van licencre az Aspose.PDF fájlhoz?
-Igen, a termelési felhasználáshoz érvényes engedély szükséges. Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) a funkciók tesztelésére.
+Igen, érvényes engedély szükséges a termelési célú felhasználáshoz. Ideiglenes engedélyt is igényelhet. [itt](https://purchase.aspose.com/temporary-license/) a funkciók teszteléséhez.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-forms/move-form-field/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Move Form Field
@@ -124,6 +126,7 @@ Yes, by accessing each form field and modifying its `Rect` property, you can mov
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

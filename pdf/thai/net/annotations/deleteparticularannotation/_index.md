@@ -1,14 +1,16 @@
 ---
-title: ลบคำอธิบายประกอบเฉพาะในไฟล์ PDF
-linktitle: ลบคำอธิบายประกอบเฉพาะในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการลบคำอธิบายประกอบที่เฉพาะเจาะจงในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-weight: 50
-url: /th/net/annotations/deleteparticularannotation/
+"description": "เรียนรู้วิธีลบคำอธิบายประกอบที่ต้องการในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "ลบคำอธิบายประกอบเฉพาะในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ลบคำอธิบายประกอบเฉพาะในไฟล์ PDF"
+"url": "/th/net/annotations/deleteparticularannotation/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบคำอธิบายประกอบเฉพาะในไฟล์ PDF
@@ -21,7 +23,7 @@ url: /th/net/annotations/deleteparticularannotation/
 
 ก่อนจะเริ่มบทช่วยสอนนี้ ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
-1.  Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 2. Visual Studio: สภาพแวดล้อมการพัฒนาสำหรับเขียนและดำเนินการโค้ด .NET ของคุณ
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
@@ -45,7 +47,7 @@ string dataDir = "YOUR DATA DIRECTORY";
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
-ขั้นต่อไป คุณจะเปิดเอกสาร PDF ที่คุณต้องการลบคำอธิบายประกอบ ซึ่งทำได้โดยใช้`Document` คลาสที่จัดทำโดย Aspose.PDF
+ขั้นต่อไป คุณจะเปิดเอกสาร PDF ที่คุณต้องการลบคำอธิบายประกอบ ซึ่งทำได้โดยใช้ `Document` คลาสที่จัดทำโดย Aspose.PDF
 
 ```csharp
 // เปิดเอกสาร
@@ -86,23 +88,25 @@ Console.WriteLine("\nParticular annotation deleted successfully.\nFile saved at 
 ## คำถามที่พบบ่อย
 
 ### Aspose.PDF สำหรับ .NET คืออะไร?
-Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ด้วยโปรแกรมได้
+Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันสามารถลบคำอธิบายประกอบหลายรายการพร้อมกันได้ไหม
 ใช่ คุณสามารถวนซ้ำผ่านคอลเลกชันคำอธิบายประกอบ และลบคำอธิบายประกอบหลายรายการตามเกณฑ์ของคุณได้
 
 ### มีรุ่นทดลองใช้งานฟรีสำหรับ Aspose.PDF หรือไม่
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/).
 
 ### จะเกิดอะไรขึ้นหากฉันต้องการการสนับสนุนในระหว่างการใช้งาน Aspose.PDF?
- คุณสามารถเยี่ยมชม[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือ
+คุณสามารถเยี่ยมชม [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือ
 
 ### ฉันจะขอใบอนุญาตชั่วคราวสำหรับ Aspose.PDF ได้อย่างไร
-คุณสามารถสมัครใบอนุญาตชั่วคราวได้ผ่านทาง[หน้าสั่งซื้อ Aspose](https://purchase.aspose.com/temporary-license/).
+คุณสามารถสมัครใบอนุญาตชั่วคราวได้ผ่านทาง [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

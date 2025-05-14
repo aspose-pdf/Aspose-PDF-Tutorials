@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF için Özel Etiket Adı
-linktitle: Java kullanarak PDF için Özel Etiket Adı
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF ile PDF belgeleri için özel etiket adlarının nasıl ayarlanacağını öğrenin.
-weight: 13
-url: /tr/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/
+"description": "Java için Aspose.PDF ile PDF belgeleri için özel etiket adlarının nasıl ayarlanacağını öğrenin."
+"linktitle": "Java kullanarak PDF için Özel Etiket Adı"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF için Özel Etiket Adı"
+"url": "/tr/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF için Özel Etiket Adı
@@ -25,7 +27,7 @@ PDF belgeleri genellikle tablolar, resimler ve metin gibi karmaşık içerikler 
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Sisteminizde Java Development Kit (JDK) yüklü.
-- Aspose.PDF for Java kütüphanesi indirildi ve kuruldu.
+- Java kütüphanesi için Aspose.PDF indirildi ve kuruldu.
 
 ## Adım 1: Bir PDF Belgesi Oluşturun
 
@@ -58,7 +60,7 @@ page.getParagraphs().add(paragraph);
 
 ## Adım 3: Özel Etiket Adlarını Tanımlayın
 
- Özel etiket adları ayarlamak için şunu kullanmanız gerekir:`Tagged` Aspose.PDF tarafından sağlanan özellik. Eklediğimiz öğeler için özel etiket adlarını nasıl tanımlayabileceğiniz aşağıda açıklanmıştır:
+Özel etiket adları ayarlamak için şunu kullanmanız gerekir: `Tagged` Aspose.PDF tarafından sağlanan özellik. Eklediğimiz öğeler için özel etiket adlarını nasıl tanımlayabileceğiniz aşağıda açıklanmıştır:
 
 ```java
 // Etiketli özelliğini etkinleştirin
@@ -91,7 +93,7 @@ pdfDocument.save("CustomTagNames.pdf");
 
 Bu eğitimde, Java ile Aspose.PDF for Java kullanarak PDF belgeleri için özel etiket adlarının nasıl ayarlanacağını öğrendiniz. Özel etiketler, PDF'lerinizin erişilebilirliğini artırarak onları daha kapsayıcı ve kullanıcı dostu hale getirir.
 
-Java için Aspose.PDF ile daha gelişmiş özellikleri keşfetmekten ve PDF'lerinizi daha da özelleştirmekten çekinmeyin. İyi kodlamalar!
+Aspose.PDF for Java ile daha gelişmiş özellikleri keşfetmekten ve PDF'lerinizi daha da özelleştirmekten çekinmeyin. İyi kodlamalar!
 
 ## SSS
 
@@ -109,9 +111,11 @@ Evet, yapı elemanlarına erişip etiket özelliklerini güncelleyerek istediği
 
 ### 5. Özel etiket adlarını seçmek için en iyi uygulamalar var mı?
 İçeriği doğru bir şekilde tanımlayan etiket adları seçin ve tutarlılık ve açıklık için erişilebilirlik yönergelerini izleyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Automatyczne dopasowanie do okna
-linktitle: Automatyczne dopasowanie do okna
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak automatycznie dopasować tabelę do okna za pomocą Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. Idealny do tworzenia dopracowanych i dobrze dopasowanych tabel w plikach PDF.
-weight: 50
-url: /pl/net/programming-with-tables/auto-fit-to-window/
+"description": "Dowiedz się, jak automatycznie dopasować tabelę do okna za pomocą Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. Idealny do tworzenia dopracowanych i dobrze dopasowanych tabel w plikach PDF."
+"linktitle": "Automatyczne dopasowanie do okna"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Automatyczne dopasowanie do okna"
+"url": "/pl/net/programming-with-tables/auto-fit-to-window/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatyczne dopasowanie do okna
@@ -21,11 +23,11 @@ Podczas pracy z plikami PDF często mamy do czynienia z tabelami, a czasami potr
 
 Zanim przejdziemy do szczegółowego przewodnika, jest kilka rzeczy, których będziesz potrzebować:
 
-1. Aspose.PDF dla .NET zainstalowany w Twoim projekcie. Jeśli jeszcze go nie masz, możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/) lub je zbadaj[bezpłatna wersja próbna](https://releases.aspose.com/).
+1. Aspose.PDF dla .NET zainstalowany w Twoim projekcie. Jeśli jeszcze go nie masz, możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/) lub je zbadaj [bezpłatna wersja próbna](https://releases.aspose.com/).
 2. Podstawowa znajomość programowania .NET.
 3. Visual Studio lub dowolne środowisko IDE obsługujące platformę .NET zainstalowane w systemie.
 
->  PS Nie zapomnij, że będziesz potrzebować licencji, aby używać Aspose.PDF bez ograniczeń. Możesz ją kupić[Tutaj](https://purchase.aspose.com/buy) lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby wypróbować wszystkie funkcje.
+> PS Nie zapomnij, że będziesz potrzebować licencji, aby używać Aspose.PDF bez ograniczeń. Możesz ją kupić [Tutaj](https://purchase.aspose.com/buy) lub zdobądź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby wypróbować wszystkie funkcje.
 
 ## Importuj pakiety
 
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
   
- Tutaj tworzymy nowy dokument za pomocą`Document` klasa z Aspose.PDF.`dataDir` jest miejscem, w którym zostanie zapisany plik PDF po zakończeniu pracy.
+Tutaj tworzymy nowy dokument za pomocą `Document` klasa z Aspose.PDF. `dataDir` jest miejscem, w którym zostanie zapisany plik PDF po zakończeniu pracy.
 
 ## Krok 2: Dodaj stronę do dokumentu
 
@@ -62,7 +64,7 @@ Dokument PDF potrzebuje stron, prawda? Dodajmy jedną.
 Page sec1 = doc.Pages.Add();
 ```
   
- Dodaliśmy nową stronę do dokumentu za pomocą`Pages.Add()` metoda. Możesz to sobie wyobrazić jako dodanie nowego arkusza do dokumentu, w którym umieścisz tabelę.
+Dodaliśmy nową stronę do dokumentu za pomocą `Pages.Add()` metoda. Możesz to sobie wyobrazić jako dodanie nowego arkusza do dokumentu, w którym umieścisz tabelę.
 
 ## Krok 3: Utwórz i skonfiguruj tabelę
 
@@ -75,7 +77,7 @@ Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 sec1.Paragraphs.Add(tab1);
 ```
   
- Zainicjowaliśmy nowy`Table` obiekt i dodaliśmy go do kolekcji akapitów strony. Każda strona PDF może mieć różne akapity, a tutaj traktujemy tabelę jako akapit.
+Zainicjowaliśmy nowy `Table` obiekt i dodaliśmy go do kolekcji akapitów strony. Każda strona PDF może mieć różne akapity, a tutaj traktujemy tabelę jako akapit.
 
 ## Krok 4: Zdefiniuj szerokości kolumn i dopasuj je automatycznie do okna
 
@@ -87,7 +89,7 @@ tab1.ColumnWidths = "50 50 50";
 tab1.ColumnAdjustment = ColumnAdjustment.AutoFitToWindow;
 ```
   
- Ustawiliśmy stałe szerokości kolumn dla tabeli, ale dodaliśmy także`ColumnAdjustment.AutoFitToWindow`, co zapewnia dopasowanie rozmiaru tabeli do dostępnego okna.
+Ustawiliśmy stałe szerokości kolumn dla tabeli, ale dodaliśmy także `ColumnAdjustment.AutoFitToWindow`, co zapewnia dopasowanie rozmiaru tabeli do dostępnego okna.
 
 ## Krok 5: Ustaw obramowania i marginesy dla tabeli i komórek
 
@@ -111,14 +113,14 @@ margin.Bottom = 5f;
 tab1.DefaultCellPadding = margin;
 ```
   
- Obramowania są dodawane zarówno do tabeli, jak i komórek za pomocą`BorderInfo` klasa, w której definiujesz grubość. Marginesy są ustawione, aby dać komórkom trochę miejsca na wypełnienie.
+Obramowania są dodawane zarówno do tabeli, jak i komórek za pomocą `BorderInfo` klasa, w której definiujesz grubość. Marginesy są ustawione, aby dać komórkom trochę miejsca na wypełnienie.
 
 ## Krok 6: Dodaj wiersze i komórki do tabeli
 
 Tabela bez zawartości? To nic dobrego! Dodajmy kilka wierszy i komórek.
 
 ```csharp
-//Utwórz wiersze w tabeli, a następnie komórki w wierszach
+// Utwórz wiersze w tabeli, a następnie komórki w wierszach
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("col1");
 row1.Cells.Add("col2");
@@ -142,19 +144,19 @@ dataDir = dataDir + "AutoFitToWindow_out.pdf";
 doc.Save(dataDir);
 ```
   
- Ten`doc.Save()` Metoda zapisuje plik PDF do określonego katalogu. W tym przypadku dokument zostanie zapisany jako`AutoFitToWindow_out.pdf` w zdefiniowanym przez Ciebie katalogu.
+Ten `doc.Save()` Metoda zapisuje plik PDF do określonego katalogu. W tym przypadku dokument zostanie zapisany jako `AutoFitToWindow_out.pdf` zdefiniowanym przez Ciebie katalogu.
 
 ## Wniosek
 
-masz! Właśnie utworzyłeś tabelę, która automatycznie pasuje do okna, używając Aspose.PDF dla .NET. To nie tylko zapewnia, że Twoja tabela wygląda profesjonalnie i jest dobrze dopasowana, ale także daje Ci elastyczność podczas pracy z różnymi rozmiarami danych. Niezależnie od tego, czy tworzysz raporty, faktury czy jakikolwiek dokument wymagający tabel, ta metoda jest świetnym sposobem na utrzymanie czystych i czytelnych układów.
+I masz! Właśnie utworzyłeś tabelę, która automatycznie pasuje do okna, używając Aspose.PDF dla .NET. To nie tylko zapewnia, że Twoja tabela wygląda profesjonalnie i jest dobrze dopasowana, ale także daje Ci elastyczność podczas pracy z różnymi rozmiarami danych. Niezależnie od tego, czy tworzysz raporty, faktury czy jakikolwiek dokument wymagający tabel, ta metoda jest świetnym sposobem na utrzymanie czystych i czytelnych układów.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dynamicznie dodawać więcej wierszy?  
- Tak, możesz nadal dodawać wiersze za pomocą`tab1.Rows.Add()` metoda dynamicznie oparta na zawartości.
+Tak, możesz nadal dodawać wiersze za pomocą `tab1.Rows.Add()` metoda dynamicznie oparta na zawartości.
 
 ### Jak wyregulować stół, jeśli nie chcę, aby dopasowywał się automatycznie?  
- Możesz ustawić ręcznie`ColumnWidths` bez użycia`ColumnAdjustment.AutoFitToWindow` aby zachować stałą szerokość tabeli.
+Możesz ręcznie ustawić `ColumnWidths` bez użycia `ColumnAdjustment.AutoFitToWindow` aby zachować stałą szerokość tabeli.
 
 ### Czy mogę dodać obrazy i inną treść do komórek?  
 Tak, Aspose.PDF pozwala na dodawanie obrazów, tekstu, a nawet innych tabel wewnątrz komórek!
@@ -164,9 +166,11 @@ Możesz dodatkowo dostosować style tabeli i komórek, używając właściwości
 
 ### Czy można wyeksportować tę tabelę do innych formatów niż PDF?  
 Oczywiście! Aspose.PDF obsługuje eksportowanie do różnych formatów, takich jak HTML, DOCX i inne.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

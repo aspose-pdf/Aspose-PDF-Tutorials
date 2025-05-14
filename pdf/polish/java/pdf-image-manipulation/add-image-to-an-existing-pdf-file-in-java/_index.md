@@ -1,14 +1,16 @@
 ---
-title: Dodawanie obrazu do istniejącego pliku PDF w Javie
-linktitle: Dodawanie obrazu do istniejącego pliku PDF w Javie
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak bez wysiłku dodawać obrazy do istniejących plików PDF w Javie dzięki Aspose.PDF dla Javy. Ulepsz swoje dokumenty PDF dzięki wskazówkom krok po kroku i przykładom kodu.
-weight: 11
-url: /pl/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/
+"description": "Dowiedz się, jak bez wysiłku dodawać obrazy do istniejących plików PDF w Javie dzięki Aspose.PDF dla Javy. Ulepsz swoje dokumenty PDF dzięki wskazówkom krok po kroku i przykładom kodu."
+"linktitle": "Dodawanie obrazu do istniejącego pliku PDF w Javie"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodawanie obrazu do istniejącego pliku PDF w Javie"
+"url": "/pl/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie obrazu do istniejącego pliku PDF w Javie
@@ -24,7 +26,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 
 - Znajomość programowania w języku Java
 - Zestaw Java Development Kit (JDK) zainstalowany w Twoim systemie
--  Biblioteka Aspose.PDF dla Java, którą można pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/)
+- Biblioteka Aspose.PDF dla Java, którą można pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/)
 
 ## Krok 1: Konfigurowanie środowiska programistycznego
 
@@ -84,7 +86,7 @@ pdfDocument.save("output.pdf");
 
 ## Krok 5: Dostosowywanie rozmieszczenia obrazu
 
- Możesz dostosować rozmieszczenie i rozmiar dodawanego obrazu, korzystając z właściwości takich jak`setHorizontalAlignment`, `setVerticalAlignment` , I`setRectangle`. Dostosuj te właściwości w razie potrzeby, aby uzyskać pożądane umiejscowienie i rozmiar.
+Możesz dostosować rozmieszczenie i rozmiar dodawanego obrazu, korzystając z właściwości takich jak `setHorizontalAlignment`, `setVerticalAlignment`, I `setRectangle`. Dostosuj te właściwości w razie potrzeby, aby uzyskać pożądane umiejscowienie i rozmiar.
 
 ```java
 // Dostosuj rozmieszczenie obrazu
@@ -95,7 +97,7 @@ image.setRectangle(new Rectangle(100, 100, 200, 200)); // Ustaw niestandardowe w
 
 ## Krok 6: Zapisywanie zmodyfikowanego pliku PDF
 
- Na koniec zapisz zmodyfikowany plik PDF z dodanym obrazem za pomocą`save` metoda.
+Na koniec zapisz zmodyfikowany plik PDF z dodanym obrazem za pomocą `save` metoda.
 
 ```java
 pdfDocument.save("output.pdf");
@@ -123,14 +125,16 @@ Tak, Aspose.PDF dla Java obsługuje różne formaty obrazów, takie jak JPEG, PN
 
 ### Jak mogę kontrolować przezroczystość dodawanych obrazów?
 
- Możesz ustawić krycie obrazu za pomocą`setOpacity` metoda kontrolowania przezroczystości.
+Możesz ustawić krycie obrazu za pomocą `setOpacity` metoda kontrolowania przezroczystości.
 
 ### Czy mogę obrócić dodany obraz?
 
- Tak, możesz użyć`setRotate` metoda obracania obrazu w razie potrzeby.
+Tak, możesz użyć `setRotate` metoda obracania obrazu w razie potrzeby.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

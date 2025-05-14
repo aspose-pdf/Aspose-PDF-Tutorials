@@ -1,14 +1,16 @@
 ---
-title: बच्चों के तत्वों तक पहुँच
-linktitle: बच्चों के तत्वों तक पहुँच
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF के साथ टैग किए गए PDF में चाइल्ड तत्वों तक कैसे पहुंचें और उन्हें कैसे संशोधित करें।
-weight: 10
-url: /hi/net/programming-with-tagged-pdf/access-children-elements/
+"description": "इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF के साथ टैग किए गए PDF में चाइल्ड तत्वों तक कैसे पहुंचें और उन्हें कैसे संशोधित करें।"
+"linktitle": "बच्चों के तत्वों तक पहुँच"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "बच्चों के तत्वों तक पहुँच"
+"url": "/hi/net/programming-with-tagged-pdf/access-children-elements/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # बच्चों के तत्वों तक पहुँच
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-tagged-pdf/access-children-elements/
 इससे पहले कि हम कोड में प्रवेश करें, आपको आरंभ करने के लिए कुछ चीजों की आवश्यकता होगी:
 
 1. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास अपनी मशीन पर .NET फ्रेमवर्क का एक संस्करण स्थापित है। Aspose.PDF .NET Core का भी समर्थन करता है।
-2.  .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी इंस्टॉल करनी होगी। आप नवीनतम संस्करण यहाँ से डाउनलोड कर सकते हैं।[Aspose डाउनलोड पृष्ठ](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी इंस्टॉल करनी होगी। आप नवीनतम संस्करण यहाँ से डाउनलोड कर सकते हैं। [Aspose डाउनलोड पृष्ठ](https://releases.aspose.com/pdf/net/).
 3. विकास वातावरण: विजुअल स्टूडियो जैसा एक IDE स्थापित करें जहां आप अपना C# कोड लिख और चला सकें।
 4. सैंपल पीडीएफ फाइल: आपको काम करने के लिए सैंपल टैग किए गए पीडीएफ दस्तावेज़ की आवश्यकता होगी। इस ट्यूटोरियल के लिए, हम "StructureElementsTree.pdf" का उपयोग करेंगे, जिसे आपको अपने प्रोजेक्ट की दस्तावेज़ निर्देशिका में रखना चाहिए।
 
@@ -52,7 +54,7 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- बस प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके मशीन पर वास्तविक पथ के साथ. 
+बस प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके मशीन पर वास्तविक पथ के साथ. 
 
 ## चरण 2: पीडीएफ दस्तावेज़ खोलें
 
@@ -87,7 +89,7 @@ ElementList elementList = taggedContent.StructTreeRootElement.ChildElements;
 
 यहां, आप मूल के चाइल्ड तत्वों की सूची प्राप्त कर रहे हैं।
 
-## चरण 5: चाइल्ड एलिमेंट गुण प्राप्त करें
+## चरण 5: चाइल्ड एलिमेंट गुण पुनर्प्राप्त करें
 
 अब, आइए प्रत्येक संरचना तत्व से गुण प्राप्त करने के लिए मूल तत्वों के माध्यम से लूप करें। यह चरण यह सत्यापित करने में मदद करता है कि कौन सी सामग्री मौजूद है।
 
@@ -121,11 +123,11 @@ foreach (Element element in elementList)
 elementList = taggedContent.RootElement.ChildElements[1].ChildElements;
 ```
 
- बदलकर`ChildElements[1]` किसी अन्य इंडेक्स पर जाने के लिए, आप विभिन्न मूल तत्वों का पता लगा सकते हैं, यदि वे मौजूद हों।
+बदलकर `ChildElements[1]` किसी अन्य इंडेक्स पर, आप विभिन्न मूल तत्वों का पता लगा सकते हैं, यदि वे मौजूद हों।
 
 ## चरण 7: चाइल्ड एलिमेंट गुण संशोधित करें
 
-एक बार जब आप चाइल्ड एलिमेंट तक पहुँच जाते हैं, तो आप उनकी प्रॉपर्टीज़ को अपडेट करना चाह सकते हैं। यह बहुत आसान है!
+एक बार जब आप चाइल्ड एलिमेंट तक पहुँच जाते हैं, तो आप उनके गुणों को अपडेट करना चाह सकते हैं। यह बहुत आसान है!
 
 ```csharp
 foreach (Element element in elementList)
@@ -158,7 +160,7 @@ document.Save(dataDir + "AccessChildrenElements.pdf");
 
 ## निष्कर्ष
 
-.NET के लिए Aspose.PDF के साथ टैग किए गए PDF दस्तावेज़ में चाइल्ड एलिमेंट तक पहुँचना बहुत आसान है, जिससे आप प्रभावी रूप से सामग्री में हेरफेर कर सकते हैं। इस चरण-दर-चरण मार्गदर्शिका का पालन करके, आप अपने PDF दस्तावेज़ों को आसानी से पढ़, संशोधित और सहेज सकते हैं। चाहे आप मेटाडेटा अपडेट कर रहे हों या संरचना में बदलाव कर रहे हों, Aspose.PDF लाइब्रेरी काम को कुशलतापूर्वक पूरा करने के लिए आवश्यक उपकरण प्रदान करती है।
+.NET के लिए Aspose.PDF के साथ टैग किए गए PDF दस्तावेज़ में चाइल्ड एलिमेंट तक पहुँचना बहुत आसान है, जिससे आप कंटेंट को प्रभावी ढंग से मैनिपुलेट कर सकते हैं। इस चरण-दर-चरण गाइड का पालन करके, आप अपने PDF दस्तावेज़ों को आसानी से पढ़, संशोधित और सहेज सकते हैं। चाहे आप मेटाडेटा अपडेट कर रहे हों या संरचना में बदलाव कर रहे हों, Aspose.PDF लाइब्रेरी काम को कुशलतापूर्वक पूरा करने के लिए आवश्यक उपकरण प्रदान करती है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -175,10 +177,12 @@ document.Save(dataDir + "AccessChildrenElements.pdf");
 हां, Aspose.PDF .NET फ्रेमवर्क के अन्य संस्करणों के साथ .NET कोर का समर्थन करता है।
 
 ### मैं Aspose.PDF पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप अतिरिक्त दस्तावेज़ यहाँ पा सकते हैं[Aspose दस्तावेज़ीकरण पृष्ठ](https://reference.aspose.com/pdf/net/).
+आप अतिरिक्त दस्तावेज़ यहाँ पा सकते हैं [Aspose दस्तावेज़ीकरण पृष्ठ](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

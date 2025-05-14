@@ -1,14 +1,16 @@
 ---
-title: XPS sang PDF
-linktitle: XPS sang PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi tệp XPS sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và những người đam mê tài liệu.
-weight: 350
-url: /vi/net/document-conversion/xps-to-pdf/
+"description": "Tìm hiểu cách chuyển đổi tệp XPS sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và những người đam mê tài liệu."
+"linktitle": "XPS sang PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "XPS sang PDF"
+"url": "/vi/net/document-conversion/xps-to-pdf/"
+"weight": 350
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # XPS sang PDF
@@ -22,7 +24,7 @@ Trong thế giới kỹ thuật số ngày nay, nhu cầu chuyển đổi tệp 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi chúng ta sẽ viết và thực thi mã của mình.
-2.  Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ [trang web](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 4. Tệp XPS: Chuẩn bị tệp XPS để chuyển đổi. Bạn có thể tạo một tệp hoặc tải xuống mẫu từ internet.
 
@@ -44,7 +46,7 @@ using Aspose.Pdf;
 
 Trước khi bạn có thể chuyển đổi tệp XPS, bạn cần thiết lập thư mục lưu trữ tài liệu của mình. Điều này rất quan trọng vì mã sẽ tìm tệp XPS trong thư mục này.
 
-Trong bước này, bạn sẽ định nghĩa một biến chuỗi trỏ đến vị trí tài liệu của bạn. Hãy đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp XPS của bạn.
+Trong bước này, bạn sẽ định nghĩa một biến chuỗi trỏ đến vị trí tài liệu của bạn. Hãy đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp XPS của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,9 +54,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Khởi tạo đối tượng LoadOption
 
- Tiếp theo, bạn cần tạo một phiên bản của`LoadOptions` lớp sử dụng tùy chọn tải XPS. Điều này cho Aspose.PDF biết cách xử lý tệp XPS.
+Tiếp theo, bạn cần tạo một phiên bản của `LoadOptions` lớp sử dụng tùy chọn tải XPS. Điều này cho Aspose.PDF biết cách xử lý tệp XPS.
 
- Các`XpsLoadOptions` lớp được thiết kế riêng để tải các tệp XPS. Bằng cách tạo một phiên bản của lớp này, bạn chuẩn bị thư viện để đọc đúng định dạng XPS.
+Các `XpsLoadOptions` lớp được thiết kế riêng để tải các tệp XPS. Bằng cách tạo một phiên bản của lớp này, bạn chuẩn bị thư viện để đọc đúng định dạng XPS.
 
 ```csharp
 Aspose.Pdf.LoadOptions options = new XpsLoadOptions();
@@ -64,7 +66,7 @@ Aspose.Pdf.LoadOptions options = new XpsLoadOptions();
 
 Bây giờ là lúc tạo một đối tượng tài liệu để lưu trữ nội dung tệp XPS của bạn.
 
- Các`Document` lớp trong Aspose.PDF là lớp chính để làm việc với các tài liệu PDF. Bằng cách truyền đường dẫn của tệp XPS và các tùy chọn tải, bạn tạo một đối tượng tài liệu đại diện cho tệp XPS.
+Các `Document` lớp trong Aspose.PDF là lớp chính để làm việc với các tài liệu PDF. Bằng cách truyền đường dẫn của tệp XPS và các tùy chọn tải, bạn tạo một đối tượng tài liệu đại diện cho tệp XPS.
 
 ```csharp
 Aspose.Pdf.Document document = new Aspose.Pdf.Document(dataDir + "XPSToPDF.xps", options);
@@ -74,7 +76,7 @@ Aspose.Pdf.Document document = new Aspose.Pdf.Document(dataDir + "XPSToPDF.xps",
 
 Sau khi tải thành công tệp XPS, bước cuối cùng là lưu tài liệu đã chuyển đổi dưới dạng PDF.
 
- Bạn có thể sử dụng`Save` phương pháp của`Document` lớp để lưu tệp. Chỉ định đường dẫn đầu ra mong muốn và tên tệp cho tài liệu PDF của bạn.
+Bạn có thể sử dụng `Save` phương pháp của `Document` lớp để lưu tệp. Chỉ định đường dẫn đầu ra mong muốn và tên tệp cho tài liệu PDF của bạn.
 
 ```csharp
 document.Save(dataDir + "XPSToPDF_out.pdf");
@@ -110,16 +112,18 @@ Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, ch�
 Có, Aspose.PDF hỗ trợ nhiều định dạng tệp khác nhau, bao gồm XPS, HTML và hình ảnh, cho phép bạn chuyển đổi chúng sang PDF.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí của Aspose.PDF từ[trang web](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí của Aspose.PDF từ [trang web](https://releases.aspose.com/).
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.PDF?
- Bạn có thể yêu cầu giấy phép tạm thời từ[trang mua hàng](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời từ [trang mua hàng](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: Niestandardowa nazwa tagu
-linktitle: Niestandardowa nazwa tagu
-second_title: Aspose.PDF dla .NET API Reference
-description: Przewodnik krok po kroku dotyczący używania niestandardowej nazwy tagu z Aspose.PDF dla .NET. Popraw strukturę swoich plików PDF za pomocą niestandardowych tagów.
-weight: 90
-url: /pl/net/programming-with-tagged-pdf/custom-tag-name/
+"description": "Przewodnik krok po kroku dotyczący używania niestandardowej nazwy tagu z Aspose.PDF dla .NET. Popraw strukturę swoich plików PDF za pomocą niestandardowych tagów."
+"linktitle": "Niestandardowa nazwa tagu"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Niestandardowa nazwa tagu"
+"url": "/pl/net/programming-with-tagged-pdf/custom-tag-name/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Niestandardowa nazwa tagu
 
 ## Wstęp
 
-dzisiejszej erze cyfrowej pliki PDF są wszechobecne. Od raportów po instrukcje, służą wielu celom w różnych branżach. Jednak zapewnienie dostępności tych dokumentów dla wszystkich, w tym osób niepełnosprawnych, jest kluczowe. To właśnie tutaj wkraczają oznaczone pliki PDF. Ułatwiają one czytnikom ekranu i innym technologiom wspomagającym skuteczną interpretację treści dokumentu.
+W dzisiejszej erze cyfrowej pliki PDF są wszechobecne. Od raportów po instrukcje, służą wielu celom w różnych branżach. Jednak zapewnienie dostępności tych dokumentów dla wszystkich, w tym osób niepełnosprawnych, jest kluczowe. To właśnie tutaj wkraczają oznaczone pliki PDF. Ułatwiają one czytnikom ekranu i innym technologiom wspomagającym skuteczną interpretację treści dokumentu.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do kodowania, ważne jest, aby upewnić się, że wszystko jest gotowe. Oto, czego będziesz potrzebować:
 
 1. Visual Studio — wystarczy dowolna nowsza wersja, jednak w celu uzyskania optymalnej funkcjonalności najlepiej jest korzystać z najnowszej wersji.
-2.  Aspose.PDF dla .NET — Najnowszą wersję można łatwo pobrać ze strony[link do pobrania](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET — Najnowszą wersję można łatwo pobrać ze strony [link do pobrania](https://releases.aspose.com/pdf/net/).
 3. Podstawowa znajomość języka C# — znajomość podstaw programowania w języku C# będzie pomocna podczas implementacji kodu.
 
 ## Importuj pakiety
@@ -65,7 +67,7 @@ Wyjaśnienie: Zastąp „YOUR DOCUMENT DIRECTORY” rzeczywistą ścieżką, w k
 
 ## Krok 2: Utwórz nowy dokument PDF
 
- Następnie utworzymy instancję`Document` klasa.
+Następnie utworzymy instancję `Document` klasa.
 
 ```csharp
 Document document = new Document();
@@ -81,7 +83,7 @@ Teraz czas na sedno tagowania. Pobierzemy oznaczoną zawartość dokumentu.
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- Wyjaśnienie:`TaggedContent` Obiekt ten umożliwia nam manipulowanie logiczną strukturą i dostępnością pliku PDF poprzez hierarchiczną organizację treści.
+Wyjaśnienie: `TaggedContent` Obiekt ten umożliwia nam manipulowanie logiczną strukturą i dostępnością pliku PDF poprzez hierarchiczną organizację treści.
 
 ## Krok 4: Ustaw tytuł i język
 
@@ -103,7 +105,7 @@ SectElement sect = taggedContent.CreateSectElement();
 taggedContent.RootElement.AppendChild(sect);
 ```
 
- Wyjaśnienie: Ten krok wprowadza element sekcji, w którym możesz zacząć dodawać treść.`RootElement` jest Twoją bazą.
+Wyjaśnienie: Ten krok wprowadza element sekcji, w którym możesz zacząć dodawać treść. `RootElement` jest Twoją bazą.
 
 ## Krok 6: Utwórz elementy akapitu
 
@@ -210,20 +212,22 @@ Tworzenie oznaczonych dokumentów PDF przy użyciu Aspose.PDF dla .NET nie poleg
 ### Czym jest plik PDF z tagami?  
 Oznaczony plik PDF zawiera dodatkowe metadane opisujące strukturę i dostępność treści dokumentu, dzięki czemu technologie wspomagające mogą go łatwiej interpretować.
 
-### Dlaczego potrzebuję Aspose.PDF dla .NET?  
+### Dlaczego potrzebuję pliku Aspose.PDF dla platformy .NET?  
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, modyfikowanie i manipulowanie dokumentami PDF programowo, z wykorzystaniem rozbudowanych funkcji.
 
 ### Jak mogę otrzymać wersję próbną Aspose.PDF?  
- Bezpłatną wersję próbną Aspose.PDF można uzyskać, odwiedzając stronę[ten link](https://releases.aspose.com/).
+Bezpłatną wersję próbną Aspose.PDF można uzyskać, odwiedzając stronę [ten link](https://releases.aspose.com/).
 
 ### Czy mogę uzyskać pomoc dotyczącą Aspose.PDF?  
- Tak, możesz skontaktować się z pomocą techniczną za pośrednictwem[forum Aspose](https://forum.aspose.com/c/pdf/10).
+Tak, możesz skontaktować się z pomocą techniczną za pośrednictwem [forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Gdzie mogę znaleźć szczegółową dokumentację Aspose.PDF?  
- Pełną dokumentację można znaleźć[Tutaj](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację można znaleźć [Tutaj](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

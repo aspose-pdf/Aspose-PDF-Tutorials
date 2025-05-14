@@ -1,14 +1,16 @@
 ---
-title: PDF Belgesinde Radyo Düğmesini Seç
-linktitle: PDF Belgesinde Radyo Düğmesini Seç
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF belgelerindeki radyo düğmelerini nasıl seçeceğinizi öğrenin. Form etkileşimlerini kolayca otomatikleştirin.
-weight: 250
-url: /tr/net/programming-with-forms/select-radio-button/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF belgelerindeki radyo düğmelerini nasıl seçeceğinizi öğrenin. Form etkileşimlerini kolayca otomatikleştirin."
+"linktitle": "PDF Belgesinde Radyo Düğmesini Seç"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Belgesinde Radyo Düğmesini Seç"
+"url": "/tr/net/programming-with-forms/select-radio-button/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Belgesinde Radyo Düğmesini Seç
@@ -21,11 +23,11 @@ PDF belgesinde radyo düğmelerini programatik olarak seçmek, özellikle büyü
 
 Koda dalmadan önce aşağıdaki ayarların yapıldığından emin olun:
 
-1.  .NET için Aspose.PDF: En son sürümü indirin ve yükleyin[Aspose.PDF for .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: En son sürümü indirin ve yükleyin [.NET için Aspose.PDF](https://releases.aspose.com/pdf/net/).
 2. IDE: C# kodunuzu yazmak ve çalıştırmak için Visual Studio benzeri bir entegre geliştirme ortamı (IDE).
 3. .NET Framework: Sisteminizde .NET Framework'ün yüklü olduğundan emin olun.
-4.  Radyo Düğmeleri İçeren PDF Belgesi: Radyo düğmeleri içeren bir PDF dosyasına ihtiyacınız olacak (örneğin,`RadioButton.pdf`).
-5.  Aspose.PDF Lisansı: Bir tane edinebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) veya Aspose'un ücretsiz deneme sürümünü kullanın.
+4. Radyo Düğmeleri İçeren PDF Belgesi: Radyo düğmeleri içeren bir PDF dosyasına ihtiyacınız olacak (örneğin, `RadioButton.pdf`).
+5. Aspose.PDF Lisansı: Bir tane edinebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) veya Aspose'un ücretsiz deneme sürümünü kullanın.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -42,7 +44,7 @@ using Aspose.Pdf;
 
 ## Adım 1: PDF Belgesini açın
 
- İlk adım, radyo düğmelerini içeren PDF belgesini yüklemektir. Bunu kullanarak yapabilirsiniz`Document` Aspose.PDF kütüphanesinden sınıf. İşte nasıl:
+İlk adım, radyo düğmelerini içeren PDF belgesini yüklemektir. Bunu kullanarak yapabilirsiniz `Document` Aspose.PDF kütüphanesinden bir sınıf. İşte nasıl:
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -52,20 +54,20 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "RadioButton.pdf");
 ```
 
- Bu örnekte, adlı bir PDF dosyası yüklüyoruz`RadioButton.pdf` . Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"`dosyanın gerçek yolu ile.
+Bu örnekte, adlı bir PDF dosyası yüklüyoruz `RadioButton.pdf`. Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` dosyanın gerçek yolu ile.
 
 ## Adım 2: Radyo Düğmesi Alanına Erişim
 
- Artık belge yüklendiğine göre, bir sonraki adım form alanlarına erişmektir. Özellikle, bir radyo düğmesi grubuyla etkileşim kurmak istiyoruz. Radyo düğmesi alanına şu şekilde erişilebilir:`Form` mülkiyeti`pdfDocument` nesne.
+Artık belge yüklendiğine göre, bir sonraki adım form alanlarına erişmektir. Özellikle, bir radyo düğmesi grubuyla etkileşim kurmak istiyoruz. Radyo düğmesi alanına şu şekilde erişilebilir: `Form` mülkiyeti `pdfDocument` nesne.
 
- İşte radyo düğmesi alanına erişmek için kod:`radio`:
+İşte radyo düğmesi alanına erişmek için kod: `radio`:
 
 ```csharp
 // Bir alan edinin
 RadioButtonField radioField = pdfDocument.Form["radio"] as RadioButtonField;
 ```
 
- Bu örnekte, PDF formundaki radyo düğmesi alanının adının şu olduğunu varsayıyoruz:`radio`. Eğer alanın belgenizde farklı bir adı varsa, bunu buna göre ayarlamanız gerekecektir.
+Bu örnekte, PDF formundaki radyo düğmesi alanının adının şu olduğunu varsayıyoruz: `radio`. Eğer alanın belgenizde farklı bir adı varsa, bunu buna göre ayarlamanız gerekecektir.
 
 ## Adım 3: Gruptan Bir Radyo Düğmesi Seçin
 
@@ -78,7 +80,7 @@ Bir formdaki radyo düğmeleri genellikle bir grubun parçası olarak bulunur ve
 radioField.Selected = 2;
 ```
 
- Endeks şuradan başlıyor:`0`, bu durumda gruptaki ikinci buton seçilmiştir.
+Endeks şuradan başlıyor: `0`, bu durumda gruptaki ikinci buton seçilmiştir.
 
 ## Adım 4: Güncellenen PDF'yi Kaydedin
 
@@ -93,11 +95,11 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nRadioButton from group selected successfully.\nFile saved at " + dataDir);
 ```
 
- Bu kod, değiştirilen PDF'yi şu şekilde kaydeder:`SelectRadioButton_out.pdf` orijinal belgenin bulunduğu dizinde.
+Bu kod, değiştirilen PDF'yi şu şekilde kaydeder: `SelectRadioButton_out.pdf` orijinal belgenin bulunduğu dizinde.
 
 ## Çözüm
 
-İşte karşınızda! Bu adım adım kılavuzu izleyerek, .NET için Aspose.PDF kullanarak bir PDF belgesinde bir radyo düğmesini programatik olarak nasıl seçeceğinizi öğrendiniz. Bu süreç, büyük belgelerdeki form etkileşimlerini otomatikleştirirken veya formları otomatik olarak doldurmak için komut dosyaları oluştururken inanılmaz derecede faydalı olabilir.
+İşte karşınızda! Bu adım adım kılavuzu izleyerek, .NET için Aspose.PDF kullanarak bir PDF belgesinde bir radyo düğmesini programatik olarak nasıl seçeceğinizi öğrendiniz. Bu işlem, büyük belgelerdeki form etkileşimlerini otomatikleştirirken veya formları otomatik olarak doldurmak için komut dosyaları oluştururken inanılmaz derecede faydalı olabilir.
 
 ## SSS
 
@@ -111,13 +113,15 @@ Belirtilen radyo düğmesi alanı mevcut değilse, istisnayı zarif bir şekilde
 Hayır, radyo düğmeleri grup başına yalnızca bir seçime izin verecek şekilde tasarlanmıştır. Birden fazla seçime ihtiyacınız varsa, bunun yerine onay kutuları kullanmayı düşünün.
 
 ### Şu anda seçili olan radyo düğmesini okumak mümkün müdür?  
- Evet, hangi radyo düğmesinin seçili olduğunu okuyarak kontrol edebilirsiniz.`Selected` mülkiyeti`RadioButtonField` nesne.
+Evet, hangi radyo düğmesinin seçili olduğunu okuyarak kontrol edebilirsiniz. `Selected` mülkiyeti `RadioButtonField` nesne.
 
 ### Aspose.PDF for .NET'i kullanmak için lisansa ihtiyacım var mı?  
- Evet, Aspose.PDF'in tam işlevselliği için bir lisansa ihtiyacı vardır. Bir lisans edinebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) veya birini kullanın[ücretsiz deneme](https://releases.aspose.com/) Başlamak için.
+Evet, Aspose.PDF'in tam işlevselliği için bir lisansa ihtiyacı vardır. Bir lisans edinebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) veya birini kullanın [ücretsiz deneme](https://releases.aspose.com/) Başlamak için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

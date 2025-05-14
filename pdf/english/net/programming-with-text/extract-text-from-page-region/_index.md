@@ -8,7 +8,9 @@ url: /net/programming-with-text/extract-text-from-page-region/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Text From Page Region In PDF File
@@ -133,6 +135,7 @@ You’ll need to decrypt the PDF first by providing the correct password, then p
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

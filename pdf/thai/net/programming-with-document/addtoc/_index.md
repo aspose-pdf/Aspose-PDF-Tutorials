@@ -1,14 +1,16 @@
 ---
-title: เพิ่มสารบัญลงในไฟล์ PDF
-linktitle: เพิ่มสารบัญลงในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการเพิ่มสารบัญใน PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะทำให้กระบวนการง่ายขึ้นและช่วยให้การนำทางภายในเอกสารของคุณง่ายดาย
-weight: 40
-url: /th/net/programming-with-document/addtoc/
+"description": "เรียนรู้วิธีการเพิ่มสารบัญใน PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะทำให้กระบวนการง่ายขึ้นและช่วยให้การนำทางภายในเอกสารของคุณง่ายดาย"
+"linktitle": "เพิ่มสารบัญลงในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "เพิ่มสารบัญลงในไฟล์ PDF"
+"url": "/th/net/programming-with-document/addtoc/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มสารบัญลงในไฟล์ PDF
@@ -21,11 +23,11 @@ url: /th/net/programming-with-document/addtoc/
 
 ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณได้เตรียมทุกสิ่งที่คุณต้องการแล้ว:
 
-1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/net/).
    
 2. สภาพแวดล้อมการพัฒนา: ตรวจสอบให้แน่ใจว่าคุณมีสภาพแวดล้อมการพัฒนา .NET เช่น Visual Studio ตั้งค่าไว้บนเครื่องของคุณ
 
-3.  ใบอนุญาต: หากคุณไม่มีใบอนุญาต คุณสามารถทดลองใช้งานฟรีหรือขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+3. ใบอนุญาต: หากคุณไม่มีใบอนุญาต คุณสามารถทดลองใช้งานฟรีหรือขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ## แพ็คเกจนำเข้า
 
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTOC.pdf");
 ```
 
- ในขั้นตอนนี้ เราจะระบุเส้นทางไปยังไดเรกทอรีเอกสารและโหลด PDF โดยใช้`Document` วัตถุ. ให้แน่ใจว่าได้เปลี่ยน`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังไฟล์ของคุณ
+ในขั้นตอนนี้ เราจะระบุเส้นทางไปยังไดเรกทอรีเอกสารและโหลด PDF โดยใช้ `Document` วัตถุ. ให้แน่ใจว่าได้เปลี่ยน `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังไฟล์ของคุณ
 
 ## ขั้นตอนที่ 2: แทรกหน้าใหม่สำหรับ TOC
 
@@ -113,7 +115,7 @@ for (int i = 0; i < 2; i++)
 ```
 
 นี่คือสิ่งที่เกิดขึ้น:
-- หัวข้อ: เราสร้าง`Heading` วัตถุและเพิ่ม`TextSegment` กับมัน
+- หัวข้อ: เราสร้าง `Heading` วัตถุและเพิ่ม `TextSegment` กับมัน
 - หน้าปลายทาง: เราจะกำหนดหน้าที่แต่ละหัวเรื่องจะลิงก์ไปถึง
 - ตำแหน่งบนสุด : เราจะระบุตำแหน่งบนหน้าที่หัวข้อจะชี้ไป
 - ข้อความ: หัวข้อแต่ละหัวข้อจะได้รับชื่อเรื่องจากอาร์เรย์ที่เราสร้างไว้ก่อนหน้านี้
@@ -145,11 +147,11 @@ Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at "
 
 ## คำถามที่พบบ่อย
 
-### ฉันสามารถปรับแต่งรูปลักษณ์ของ TOC ใน Aspose.PDF ได้หรือไม่  
+### ฉันสามารถปรับแต่งลักษณะของ TOC ใน Aspose.PDF ได้หรือไม่  
 ใช่ คุณสามารถปรับแต่งลักษณะของ TOC ได้อย่างเต็มที่ รวมถึงรูปแบบแบบอักษร ขนาด และการจัดตำแหน่ง
 
 ### ฉันจะเพิ่มหัวข้อย่อยลงใน TOC ได้อย่างไร?  
- คุณสามารถเพิ่มหัวข้อย่อยได้โดยการปรับ`Heading` ระดับ (เช่น`Heading(2)`) เพื่อสร้าง TOC แบบลำดับชั้น
+คุณสามารถเพิ่มหัวข้อย่อยได้โดยการปรับ `Heading` ระดับ (เช่น `Heading(2)`) เพื่อสร้าง TOC แบบลำดับชั้น
 
 ### สามารถอัพเดต TOC โดยอัตโนมัติหากเอกสารมีการเปลี่ยนแปลงได้หรือไม่?  
 ไม่ TOC จะไม่อัปเดตโดยอัตโนมัติ คุณจะต้องสร้างใหม่หากโครงสร้างเอกสารมีการเปลี่ยนแปลง
@@ -159,9 +161,11 @@ Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at "
 
 ### Aspose.PDF รองรับ TOC หลายระดับหรือไม่  
 ใช่ Aspose.PDF รองรับ TOC หลายระดับสำหรับเอกสารที่มีความซับซ้อนพร้อมหัวข้อย่อย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

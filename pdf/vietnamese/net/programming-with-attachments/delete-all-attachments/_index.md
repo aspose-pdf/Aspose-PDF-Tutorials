@@ -1,14 +1,16 @@
 ---
-title: Xóa tất cả các tệp đính kèm trong tệp PDF
-linktitle: Xóa tất cả các tệp đính kèm trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xóa tất cả các tệp đính kèm trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý PDF của bạn.
-weight: 20
-url: /vi/net/programming-with-attachments/delete-all-attachments/
+"description": "Tìm hiểu cách xóa tất cả các tệp đính kèm trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý PDF của bạn."
+"linktitle": "Xóa tất cả các tệp đính kèm trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xóa tất cả các tệp đính kèm trong tệp PDF"
+"url": "/vi/net/programming-with-attachments/delete-all-attachments/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa tất cả các tệp đính kèm trong tệp PDF
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình trong tình huống cần dọn dẹp tệp PD
 
 Trước khi đi sâu vào mã, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [trang web](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Môi trường phát triển nơi bạn có thể viết và thực thi mã .NET của mình.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
@@ -41,7 +43,7 @@ Mở Visual Studio và tạo một dự án C# mới. Bạn có thể chọn Ứ
 
 ### Nhập không gian tên bắt buộc
 
- Sau khi thư viện được thêm vào, hãy mở`Program.cs` tệp và nhập các không gian tên cần thiết ở đầu tệp:
+Sau khi thư viện được thêm vào, hãy mở `Program.cs` tệp và nhập các không gian tên cần thiết ở đầu tệp:
 
 ```csharp
 using System.IO;
@@ -60,7 +62,7 @@ Trước tiên, bạn cần chỉ định đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này rất quan trọng vì chương trình cần biết nơi tìm tệp bạn muốn sửa đổi.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này rất quan trọng vì chương trình cần biết nơi tìm tệp bạn muốn sửa đổi.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -71,7 +73,7 @@ Tiếp theo, bạn sẽ muốn mở tài liệu PDF có chứa các tệp đính
 Document pdfDocument = new Document(dataDir + "DeleteAllAttachments.pdf");
 ```
 
- Dòng mã này tạo ra một cái mới`Document` đối tượng, đại diện cho tệp PDF của bạn. Đảm bảo tên tệp khớp với tên bạn có trong thư mục.
+Dòng mã này tạo ra một cái mới `Document` đối tượng, đại diện cho tệp PDF của bạn. Đảm bảo tên tệp khớp với tên bạn có trong thư mục.
 
 ## Bước 3: Xóa tất cả các tệp đính kèm
 
@@ -113,22 +115,24 @@ Và bạn đã có nó! Bạn đã học thành công cách xóa tất cả các
 ## Câu hỏi thường gặp
 
 ### Tôi có thể xóa các tệp đính kèm cụ thể thay vì xóa tất cả không?
- Có, bạn có thể xóa các tệp đính kèm một cách có chọn lọc bằng cách truy cập chúng thông qua`EmbeddedFiles` bộ sưu tập.
+Có, bạn có thể xóa các tệp đính kèm một cách có chọn lọc bằng cách truy cập chúng thông qua `EmbeddedFiles` bộ sưu tập.
 
 ### Điều gì xảy ra nếu tôi xóa tệp đính kèm?
 Sau khi xóa, tệp đính kèm không thể khôi phục được trừ khi bạn có bản sao lưu của tệp PDF gốc.
 
 ### Aspose.PDF có miễn phí sử dụng không?
-Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Kiểm tra[mua trang](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Kiểm tra [mua trang](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET [đây](https://reference.aspose.com/pdf/net/).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
- Bạn có thể tìm kiếm sự trợ giúp từ cộng đồng Aspose trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm kiếm sự trợ giúp từ cộng đồng Aspose trên [diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

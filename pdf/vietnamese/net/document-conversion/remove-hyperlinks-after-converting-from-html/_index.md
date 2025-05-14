@@ -1,17 +1,19 @@
 ---
-title: Xóa siêu liên kết sau khi chuyển đổi từ HTML
-linktitle: Xóa siêu liên kết sau khi chuyển đổi từ HTML
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xóa siêu liên kết khỏi tài liệu HTML sau khi chuyển đổi sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này.
-weight: 250
-url: /vi/net/document-conversion/remove-hyperlinks-after-converting-from-html/
+"description": "Tìm hiểu cách xóa siêu liên kết khỏi tài liệu HTML sau khi chuyển đổi sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này."
+"linktitle": "Xóa siêu liên kết sau khi chuyển đổi từ Html"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xóa siêu liên kết sau khi chuyển đổi từ Html"
+"url": "/vi/net/document-conversion/remove-hyperlinks-after-converting-from-html/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Xóa siêu liên kết sau khi chuyển đổi từ HTML
+# Xóa siêu liên kết sau khi chuyển đổi từ Html
 
 ## Giới thiệu
 
@@ -22,7 +24,7 @@ Trong thời đại kỹ thuật số, việc chuyển đổi tài liệu HTML s
 Trước khi tìm hiểu về mã, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển của bạn.
-2.  Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu mã tốt hơn.
 
 ## Nhập gói
@@ -31,7 +33,7 @@ Trước khi tìm hiểu về mã, hãy đảm bảo bạn có đủ các điề
 
 1. Mở dự án Visual Studio của bạn.
 2. Nhấp chuột phải vào dự án của bạn trong Solution Explorer và chọn "Quản lý gói NuGet".
-3.  Tìm kiếm`Aspose.PDF` và cài đặt nó.
+3. Tìm kiếm `Aspose.PDF` và cài đặt nó.
 
 ```csharp
 using Aspose.Pdf.Annotations;
@@ -50,17 +52,17 @@ Trước tiên, bạn cần chỉ định đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp HTML của bạn được lưu trữ.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp HTML của bạn được lưu trữ.
 
 ## Bước 2: Tải tài liệu HTML
 
- Tiếp theo, bạn sẽ tải tài liệu HTML bằng cách sử dụng`Document` lớp từ Aspose.PDF. Lớp này cho phép bạn làm việc với các tài liệu PDF dễ dàng.
+Tiếp theo, bạn sẽ tải tài liệu HTML bằng cách sử dụng `Document` lớp từ Aspose.PDF. Lớp này cho phép bạn làm việc với các tài liệu PDF dễ dàng.
 
 ```csharp
 Document doc = new Document(dataDir + "SampleHtmlFile.html", new HtmlLoadOptions());
 ```
 
- Ở đây, chúng tôi đang tải tệp HTML có tên`SampleHtmlFile.html`. Đảm bảo rằng tập tin này tồn tại trong thư mục bạn chỉ định.
+Ở đây, chúng tôi đang tải tệp HTML có tên `SampleHtmlFile.html`. Đảm bảo rằng tập tin này tồn tại trong thư mục bạn chỉ định.
 
 ## Bước 3: Lưu tài liệu vào Memory Stream
 
@@ -88,7 +90,7 @@ foreach (Annotation a in doc.Pages[1].Annotations)
 
 Trong vòng lặp này, chúng ta kiểm tra xem loại chú thích có phải là liên kết không. Nếu có, chúng ta sẽ tiến hành các bước tiếp theo.
 
-## Bước 5: Xóa hành động siêu liên kết
+## Bước 5: Xóa Hành động Siêu liên kết
 
 Đối với mỗi chú thích liên kết, chúng ta cần kiểm tra xem nó có hành động siêu liên kết hay không. Nếu có, chúng ta sẽ xóa siêu liên kết bằng cách đặt URI của nó thành một chuỗi rỗng.
 
@@ -112,7 +114,7 @@ tfa.TextSearchOptions = new TextSearchOptions(a.Rect);
 doc.Pages[a.PageIndex].Accept(tfa);
 ```
 
- Ở đây, chúng tôi tạo ra một`TextFragmentAbsorber` và đặt tùy chọn tìm kiếm của nó vào hình chữ nhật của chú thích. Điều này giúp chúng tôi tìm thấy văn bản được liên kết.
+Ở đây, chúng tôi tạo ra một `TextFragmentAbsorber` và đặt tùy chọn tìm kiếm của nó vào hình chữ nhật của chú thích. Điều này giúp chúng tôi tìm thấy văn bản được liên kết.
 
 ## Bước 7: Sửa đổi giao diện văn bản
 
@@ -147,7 +149,7 @@ Cuối cùng, chúng ta cần lưu tài liệu đã sửa đổi vào tệp PDF 
 doc.Save(dataDir + "RemoveHyperlinksFromText_out.pdf");
 ```
 
- Dòng này lưu tài liệu với các siêu liên kết đã được xóa, tạo một tệp PDF mới có tên`RemoveHyperlinksFromText_out.pdf`.
+Dòng này lưu tài liệu với các siêu liên kết đã được xóa, tạo một tệp PDF mới có tên `RemoveHyperlinksFromText_out.pdf`.
 
 ## Phần kết luận
 
@@ -159,19 +161,21 @@ Và bạn đã có nó! Bạn đã xóa thành công siêu liên kết khỏi t�
 Có, bạn có thể xóa siêu liên kết khỏi bất kỳ tài liệu PDF nào bằng Aspose.PDF cho .NET.
 
 ### Aspose.PDF có miễn phí sử dụng không?
- Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ tính năng, bạn cần mua giấy phép. Kiểm tra[mua trang](https://purchase.aspose.com/buy).
+Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ tính năng, bạn cần mua giấy phép. Kiểm tra [mua trang](https://purchase.aspose.com/buy).
 
 ### Tôi phải làm sao nếu gặp sự cố khi sử dụng Aspose.PDF?
- Bạn có thể tìm kiếm sự giúp đỡ trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm kiếm sự giúp đỡ trên [diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể chuyển đổi các định dạng tệp khác sang PDF bằng Aspose không?
 Có, Aspose hỗ trợ nhiều định dạng tệp khác nhau để chuyển đổi sang PDF.
 
 ### Tôi có thể tải xuống Aspose.PDF cho .NET ở đâu?
- Bạn có thể tải nó xuống từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+Bạn có thể tải nó xuống từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Gambar di Footer
-linktitle: Gambar di Footer
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan gambar di bagian bawah PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah yang terperinci ini. Sempurna untuk menyempurnakan dokumen Anda.
-weight: 130
-url: /id/net/programming-with-stamps-and-watermarks/image-in-footer/
+"description": "Pelajari cara menambahkan gambar di bagian bawah PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah yang terperinci ini. Sempurna untuk menyempurnakan dokumen Anda."
+"linktitle": "Gambar di Footer"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Gambar di Footer"
+"url": "/id/net/programming-with-stamps-and-watermarks/image-in-footer/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gambar di Footer
@@ -21,9 +23,9 @@ Dalam hal mengelola berkas PDF, sentuhan profesional dapat membuat perbedaan bes
 
 Sebelum kita masuk ke inti penambahan gambar ke footer PDF Anda, ada beberapa hal yang perlu Anda siapkan:
 
-1. Pustaka Aspose.PDF untuk .NET: Pertama dan terutama, Anda harus menginstal pustaka Aspose.PDF. Pustaka ini merupakan tulang punggung operasi kami, dan Anda bisa mendapatkannya dari[Tautan Unduhan Aspose](https://releases.aspose.com/pdf/net/).
+1. Pustaka Aspose.PDF untuk .NET: Pertama dan terutama, Anda harus menginstal pustaka Aspose.PDF. Pustaka ini merupakan tulang punggung operasi kami, dan Anda bisa mendapatkannya dari [Tautan Unduhan Aspose](https://releases.aspose.com/pdf/net/).
 2. Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan .NET. Ini bisa berupa Visual Studio atau IDE .NET lain yang sesuai dengan gaya Anda.
-3.  File Contoh: Siapkan dokumen PDF yang ingin Anda ubah (sebut saja`ImageInFooter.pdf` ), dan file gambar (seperti`aspose-logo.jpg`) yang ingin Anda tambahkan di footer.
+3. File Contoh: Siapkan dokumen PDF yang ingin Anda ubah (sebut saja `ImageInFooter.pdf`), dan file gambar (seperti `aspose-logo.jpg`) yang ingin Anda tambahkan di footer.
 4. Pengetahuan Dasar C#: Keakraban dengan sintaksis dan operasi dasar C# akan sangat membantu dalam memahami kode.
 
 Setelah semuanya siap, Anda siap untuk mulai membuat footer Anda!
@@ -49,7 +51,7 @@ Sebelum Anda mulai mencari informasi yang lebih penting, tetapkan jalur penyimpa
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di komputer Anda. Anda tinggal mengarahkan kode ke lemari arsip yang tepat.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di komputer Anda. Anda tinggal mengarahkan kode ke lemari arsip yang tepat.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -60,11 +62,11 @@ Setelah direktori Anda disiapkan, saatnya membuka dokumen PDF Anda. Berikut cara
 Document pdfDocument = new Document(dataDir + "ImageInFooter.pdf");
 ```
 
- Baris kode ini membuat`Document` objek dari`Aspose.PDF`, memungkinkan Anda berinteraksi dengan semua halaman dan konten PDF yang ditentukan.
+Baris kode ini membuat `Document` objek dari `Aspose.PDF`, memungkinkan Anda berinteraksi dengan semua halaman dan konten PDF yang ditentukan.
 
 ## Langkah 3: Buat Stempel Gambar
 
-Selanjutnya, Anda akan membuat stempel gambar yang mewakili gambar yang ingin Anda tambahkan ke bagian bawah. Anggap saja ini sebagai catatan tempel yang ingin Anda tempel di bagian bawah setiap halaman.
+Selanjutnya, Anda akan membuat stempel gambar yang mewakili gambar yang ingin Anda tambahkan ke footer. Anggap saja ini sebagai catatan tempel yang ingin Anda tempel di bagian bawah setiap halaman.
 
 ```csharp
 // Buat footer
@@ -86,9 +88,9 @@ imageStamp.HorizontalAlignment = HorizontalAlignment.Center;
 imageStamp.VerticalAlignment = VerticalAlignment.Bottom;
 ```
 
-- BottomMargin: Ini menentukan seberapa jauh Anda ingin gambar berada dari bagian bawah halaman.
--  HorizontalAlignment: Mengatur ini ke`Center` berarti gambar Anda akan diposisikan dengan baik, tepat di tengah secara horizontal.
--  VerticalAlignment: Mengatur ini ke`Bottom` menempatkan gambar Anda di bagian paling bawah setiap halaman.
+- BottomMargin: Ini menentukan seberapa jauh dari bagian bawah halaman Anda ingin gambar berada.
+- HorizontalAlignment: Mengatur ini ke `Center` berarti gambar Anda akan diposisikan dengan baik, tepat di tengah secara horizontal.
+- VerticalAlignment: Mengatur ini ke `Bottom` menempatkan gambar Anda di bagian paling bawah setiap halaman.
 
 ## Langkah 5: Tambahkan Prangko ke Setiap Halaman
 
@@ -116,7 +118,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nImage in footer added successfully.\nFile saved at " + dataDir);
 ```
 
-Di sini, Anda menentukan nama file baru (`ImageInFooter_out.pdf`untuk dokumen yang diperbarui, memastikan Anda tetap menjaga dokumen asli tetap utuh sambil membuat versi baru yang menyertakan footer Anda.
+Di sini, Anda menentukan nama file baru (`ImageInFooter_out.pdf`) untuk dokumen yang diperbarui, memastikan Anda tetap menjaga dokumen asli tetap utuh sambil membuat versi baru yang menyertakan footer Anda.
 
 ## Kesimpulan
 
@@ -131,16 +133,18 @@ Anda dapat menggunakan format populer seperti JPEG, PNG, dan GIF untuk perangko 
 Tentu saja! Anda dapat membuat stempel teks dengan cara yang sama dan menambahkannya ke bagian bawah.
 
 ### Apakah ada versi uji coba yang tersedia?
- Ya! Anda dapat mencoba Aspose.PDF dengan[Uji coba gratis](https://releases.aspose.com/).
+Ya! Anda dapat mencoba Aspose.PDF dengan [Uji coba gratis](https://releases.aspose.com/).
 
 ### Bagaimana jika saya mengalami masalah saat menggunakan Aspose.PDF?
- Anda dapat mencari bantuan di[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat mencari bantuan di [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Bisakah saya mengotomatiskan proses ini untuk beberapa PDF?
 Ya! Anda dapat mengulang beberapa berkas dan menerapkan proses yang sama pada setiap berkas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

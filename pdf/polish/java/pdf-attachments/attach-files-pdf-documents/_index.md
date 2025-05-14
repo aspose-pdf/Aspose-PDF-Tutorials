@@ -1,14 +1,16 @@
 ---
-title: Dołącz pliki do dokumentów PDF
-linktitle: Dołącz pliki do dokumentów PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dołączać pliki do dokumentów PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku sprawia, że manipulacja plikami PDF staje się dziecinnie prosta.
-weight: 10
-url: /pl/java/pdf-attachments/attach-files-pdf-documents/
+"description": "Dowiedz się, jak dołączać pliki do dokumentów PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku sprawia, że manipulacja plikami PDF staje się dziecinnie prosta."
+"linktitle": "Dołącz pliki do dokumentów PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dołącz pliki do dokumentów PDF"
+"url": "/pl/java/pdf-attachments/attach-files-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dołącz pliki do dokumentów PDF
@@ -23,7 +25,7 @@ Aspose.PDF for Java to bogata w funkcje biblioteka, która umożliwia programist
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Środowisko programistyczne Java: Upewnij się, że w systemie zainstalowana jest Java i odpowiednie środowisko IDE.
--  Aspose.PDF dla Java: Pobierz i zainstaluj bibliotekę Aspose.PDF dla Java ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla Java: Pobierz i zainstaluj bibliotekę Aspose.PDF dla Java ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Konfigurowanie projektu Java
 
@@ -33,14 +35,14 @@ Na początek utwórz nowy projekt Java w preferowanym zintegrowanym środowisku 
 
 1. Pobierz bibliotekę Aspose.PDF dla Java ze strony internetowej.
 2. Dodaj pobrany plik JAR do ścieżki klas swojego projektu.
-3. Może być również konieczne dodanie wymaganych zależności, zgodnie ze specyfikacją Aspose.PDF.
+3. Może być również konieczne dodanie wymaganych zależności, zgodnie ze specyfikacją zawartą w dokumentacji Aspose.PDF.
 
 ## Tworzenie dokumentu PDF
 
 W kodzie Java zaimportuj niezbędne klasy z biblioteki Aspose.PDF. Utwórz nowy dokument PDF, używając następującego fragmentu kodu:
 
 ```java
-//Importuj niezbędne klasy
+// Importuj niezbędne klasy
 import com.aspose.pdf.*;
 
 // Utwórz nowy dokument PDF
@@ -87,7 +89,7 @@ Aby wyodrębnić załączniki z pliku PDF, możesz użyć Aspose.PDF dla API Jav
 
 ### Czy mogę dołączyć wiele plików do jednej strony PDF?
 
- Tak, możesz dołączyć wiele plików do jednej strony PDF za pomocą Aspose.PDF dla Java. Po prostu utwórz wiele`FileAttachment` obiekty i dodaj je do adnotacji strony.
+Tak, możesz dołączyć wiele plików do jednej strony PDF za pomocą Aspose.PDF dla Java. Po prostu utwórz wiele `FileAttachment` obiekty i dodać je do adnotacji strony.
 
 ### Czy istnieją jakieś ograniczenia rozmiaru plików, które mogę dołączyć do pliku PDF?
 
@@ -99,10 +101,12 @@ Tak, Aspose.PDF for Java jest kompatybilny z wieloma wersjami Java. Upewnij się
 
 ### Gdzie mogę znaleźć więcej materiałów i dokumentacji dla pliku Aspose.PDF dla języka Java?
 
-Pełną dokumentację i dodatkowe zasoby dla Aspose.PDF dla języka Java można znaleźć pod adresem[Tutaj](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację i dodatkowe zasoby dla Aspose.PDF dla języka Java można znaleźć pod adresem [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

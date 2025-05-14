@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ फाइल में बुकमार्क का विस्तार करें
-linktitle: पीडीएफ फाइल में बुकमार्क का विस्तार करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों में बुकमार्क का विस्तार करना सीखें। PDF नेविगेशन को बेहतर बनाने की चाह रखने वाले डेवलपर्स के लिए बिल्कुल सही।
-weight: 50
-url: /hi/net/programming-with-bookmarks/expand-bookmarks/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों में बुकमार्क का विस्तार करना सीखें। PDF नेविगेशन को बेहतर बनाने की चाह रखने वाले डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "पीडीएफ फाइल में बुकमार्क का विस्तार करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ फाइल में बुकमार्क का विस्तार करें"
+"url": "/hi/net/programming-with-bookmarks/expand-bookmarks/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ फाइल में बुकमार्क का विस्तार करें
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-bookmarks/expand-bookmarks/
 इससे पहले कि हम शुरू करें, कुछ चीजें हैं जिन्हें आपको तैयार रखना होगा:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यह .NET विकास के लिए सबसे अच्छा वातावरण है।
-2.  .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
 
 ## पैकेज आयात करें
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## चरण 2: पीडीएफ दस्तावेज़ खोलें
 
- इसके बाद, आप पीडीएफ दस्तावेज़ खोलेंगे जिसमें वे बुकमार्क हैं जिन्हें आप विस्तारित करना चाहते हैं।`Document` Aspose.PDF लाइब्रेरी से क्लास.
+इसके बाद, आप पीडीएफ दस्तावेज़ खोलेंगे जिसमें वे बुकमार्क होंगे जिन्हें आप विस्तारित करना चाहते हैं। `Document` Aspose.PDF लाइब्रेरी से क्लास.
 
 ```csharp
 // दस्तावेज़ खोलें
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "input-bookmark.pdf");
 अब, आपको दस्तावेज़ का पेज व्यू मोड सेट करना होगा। यह निर्धारित करता है कि पीडीएफ खुलने पर कैसे प्रदर्शित होगा। इस मामले में, हम आउटलाइन (बुकमार्क) का उपयोग करना चाहते हैं।
 
 ```csharp
-//पृष्ठ दृश्य मोड सेट करें अर्थात थंबनेल दिखाएं, पूर्ण-स्क्रीन दिखाएं, अनुलग्नक पैनल दिखाएं
+// पृष्ठ दृश्य मोड सेट करें अर्थात थंबनेल दिखाएं, पूर्ण-स्क्रीन दिखाएं, अनुलग्नक पैनल दिखाएं
 doc.PageMode = PageMode.UseOutlines;
 ```
 
@@ -119,19 +121,21 @@ Console.WriteLine("\nBookmarks expanded successfully.\nFile saved at " + dataDir
 .NET के लिए Aspose.PDF एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PDF दस्तावेज़ बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देती है।
 
 ### क्या मैं Aspose.PDF का निःशुल्क उपयोग कर सकता हूँ?
- हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसका उपयोग आप लाइब्रेरी की विशेषताओं का पता लगाने के लिए कर सकते हैं। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसका उपयोग आप लाइब्रेरी की विशेषताओं का पता लगाने के लिए कर सकते हैं। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
-### मुझे अधिक दस्तावेज कहां मिल सकते हैं?
- आप .NET के लिए Aspose.PDF पर व्यापक दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/net/).
+### मैं अधिक दस्तावेज कहां पा सकता हूं?
+आप .NET के लिए Aspose.PDF पर व्यापक दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/net/).
 
 ### क्या Aspose.PDF के लिए समर्थन उपलब्ध है?
- बिलकुल! आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/pdf/10).
+बिलकुल! आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/pdf/10).
 
 ### मैं Aspose.PDF के लिए लाइसेंस कैसे खरीदूं?
- आप Aspose.PDF के लिए लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप Aspose.PDF के लिए लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Применить редактирование к деликатному контенту
-linktitle: Применить редактирование к деликатному контенту
-second_title: API обработки Java PDF Aspose.PDF
-description: Откройте для себя возможности редактирования конфиденциального контента в PDF-файлах с помощью Aspose.PDF для Java.
-weight: 15
-url: /ru/java/pdf-annotations/apply-redaction-sensitive-content/
+"description": "Откройте для себя возможности редактирования конфиденциального контента в PDF-файлах с помощью Aspose.PDF для Java."
+"linktitle": "Применить редактирование к деликатному контенту"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Применить редактирование к деликатному контенту"
+"url": "/ru/java/pdf-annotations/apply-redaction-sensitive-content/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Применить редактирование к деликатному контенту
@@ -23,7 +25,7 @@ url: /ru/java/pdf-annotations/apply-redaction-sensitive-content/
 Прежде чем мы углубимся в процесс редактирования, убедитесь, что выполнены следующие предварительные условия:
 
 - Среда разработки Java: убедитесь, что в вашей системе установлена Java.
--  Библиотека Aspose.PDF для Java: Загрузите и установите библиотеку Aspose.PDF для Java с сайта[здесь](https://releases.aspose.com/pdf/java/).
+- Библиотека Aspose.PDF для Java: Загрузите и установите библиотеку Aspose.PDF для Java с сайта [здесь](https://releases.aspose.com/pdf/java/).
 
 
 ## Настройка среды Java
@@ -50,7 +52,7 @@ url: /ru/java/pdf-annotations/apply-redaction-sensitive-content/
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Заменять`"example.pdf"` с путем к вашему PDF-файлу.
+Заменять `"example.pdf"` с путем к вашему PDF-файлу.
 
 ## Выявление деликатного контента
 
@@ -112,9 +114,11 @@ pdfDocument.save("redacted.pdf");
 ### Существуют ли какие-либо ограничения по редактированию в Aspose.PDF для Java?
 
 Aspose.PDF для Java предоставляет мощные возможности редактирования, но крайне важно тщательно тестировать отредактированные документы, чтобы убедиться в отсутствии непреднамеренной утечки информации.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

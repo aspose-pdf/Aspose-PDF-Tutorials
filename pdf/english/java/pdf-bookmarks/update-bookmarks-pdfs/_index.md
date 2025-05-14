@@ -8,7 +8,9 @@ url: /java/pdf-bookmarks/update-bookmarks-pdfs/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Bookmarks in PDFs
@@ -118,6 +120,7 @@ You can find comprehensive documentation, tutorials, and additional resources fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

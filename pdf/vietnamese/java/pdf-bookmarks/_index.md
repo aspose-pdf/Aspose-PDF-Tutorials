@@ -1,14 +1,16 @@
 ---
-title: Dấu trang PDF
-linktitle: Dấu trang PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Học cách tạo dấu trang PDF tương tác với Aspose.PDF cho Java. Nâng cao khả năng điều hướng tài liệu và trải nghiệm người dùng.
-weight: 12
-url: /vi/java/pdf-bookmarks/
+"description": "Học cách tạo dấu trang PDF tương tác với Aspose.PDF cho Java. Nâng cao khả năng điều hướng tài liệu và trải nghiệm người dùng."
+"linktitle": "Dấu trang PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Dấu trang PDF"
+"url": "/vi/java/pdf-bookmarks/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dấu trang PDF
@@ -22,7 +24,7 @@ Chuỗi hướng dẫn toàn diện của chúng tôi sẽ bắt đầu bằng c
 
 ## Hướng dẫn từng bước với Aspose.PDF cho Java
 
-Chúng tôi sẽ cung cấp hướng dẫn từng bước, hoàn chỉnh với mã nguồn, bằng cách sử dụng Aspose.PDF cho Java. Bạn sẽ học cách tạo dấu trang động, sắp xếp chúng thành một cấu trúc logic và nâng cao khả năng sử dụng tài liệu PDF của bạn. Nâng cao kỹ năng thao tác PDF của bạn và đưa việc điều hướng tài liệu của bạn lên một tầm cao mới với hướng dẫn về dấu trang Aspose.PDF cho Java.
+Chúng tôi sẽ cung cấp hướng dẫn từng bước, hoàn chỉnh với mã nguồn, bằng cách sử dụng Aspose.PDF cho Java. Bạn sẽ học cách tạo dấu trang động, sắp xếp chúng thành một cấu trúc logic và nâng cao khả năng sử dụng tài liệu PDF của bạn. Nâng cao kỹ năng thao tác PDF của bạn và đưa khả năng điều hướng tài liệu của bạn lên một tầm cao mới với hướng dẫn về dấu trang Aspose.PDF cho Java.
 ## Hướng dẫn về dấu trang PDF
 ### [Tạo dấu trang trong tài liệu PDF](./create-bookmarks-pdf-documents/)
 Tìm hiểu cách tạo dấu trang PDF bằng Aspose.PDF cho Java. Cải thiện khả năng điều hướng tài liệu và trải nghiệm người dùng. Hướng dẫn từng bước với mã nguồn.
@@ -33,14 +35,16 @@ Tìm hiểu cách đặt dấu trang vào đầu trang PDF bằng Aspose.PDF cho
 ### [Xóa dấu trang khỏi tệp PDF](./delete-bookmarks-pdf-files/)
 Tìm hiểu cách xóa dấu trang khỏi tệp PDF dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước và mã mẫu của chúng tôi giúp bạn thực hiện dễ dàng.
 ### [Xem các dấu trang mở rộng trong PDF](./view-expanded-bookmarks-pdfs/)
-Tìm hiểu cách xem các dấu trang mở rộng trong PDF bằng Aspose.PDF cho Java. Cải thiện khả năng điều hướng tài liệu với hướng dẫn từng bước.
+Tìm hiểu cách xem dấu trang mở rộng trong PDF bằng Aspose.PDF cho Java. Cải thiện điều hướng tài liệu với hướng dẫn từng bước.
 ### [Lấy lại dấu trang từ tài liệu PDF](./retrieve-bookmarks-pdf-documents/)
 Tìm hiểu cách lấy dấu trang PDF hiệu quả bằng Aspose.PDF cho Java trong hướng dẫn toàn diện này.
 ### [Cập nhật dấu trang trong PDF](./update-bookmarks-pdfs/)
 Tìm hiểu cách cập nhật dấu trang PDF hiệu quả bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

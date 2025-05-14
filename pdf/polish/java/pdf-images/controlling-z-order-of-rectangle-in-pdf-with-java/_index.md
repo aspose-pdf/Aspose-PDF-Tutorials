@@ -1,14 +1,16 @@
 ---
-title: Sterowanie kolejnością Z prostokąta w PDF za pomocą Java
-linktitle: Sterowanie kolejnością Z prostokąta w PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak kontrolować kolejność prostokątów w plikach PDF za pomocą języka Java, używając Aspose.PDF dla języka Java. Przewodnik krok po kroku do precyzyjnej manipulacji plikami PDF.
-weight: 11
-url: /pl/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/
+"description": "Dowiedz się, jak kontrolować kolejność prostokątów w plikach PDF za pomocą języka Java, używając Aspose.PDF dla języka Java. Przewodnik krok po kroku do precyzyjnej manipulacji plikami PDF."
+"linktitle": "Sterowanie kolejnością Z prostokąta w PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Sterowanie kolejnością Z prostokąta w PDF za pomocą Java"
+"url": "/pl/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sterowanie kolejnością Z prostokąta w PDF za pomocą Java
@@ -35,7 +37,7 @@ Aby uzyskać precyzyjną kontrolę nad kolejnością prostokątów w pliku PDF p
 Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
 
 - Konfiguracja środowiska programistycznego Java.
--  Aspose.PDF dla biblioteki Java zainstalowanej. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla biblioteki Java zainstalowanej. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Przewodnik krok po kroku
 
@@ -92,7 +94,7 @@ W tym artykule zbadaliśmy znaczenie kontrolowania kolejności prostokątów w o
 
 ### Jak zainstalować Aspose.PDF dla Java?
 
-Aby zainstalować Aspose.PDF dla Java, możesz pobrać bibliotekę ze strony[Tutaj](https://releases.aspose.com/pdf/java/) i dołącz plik JAR do zależności swojego projektu Java.
+Aby zainstalować Aspose.PDF dla Java, możesz pobrać bibliotekę ze strony [Tutaj](https://releases.aspose.com/pdf/java/) dołącz plik JAR do zależności swojego projektu Java.
 
 ### Czy mogę kontrolować kolejność wyświetlania innych elementów PDF oprócz prostokątów?
 
@@ -108,10 +110,12 @@ Tak, Aspose.PDF for Java jest wszechstronny i można go używać zarówno do pod
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.PDF dla Java?
 
- Możesz zapoznać się ze szczegółową dokumentacją i dodatkowymi przykładami kodu na stronie[Aspose.PDF dla dokumentacji Java](https://reference.aspose.com/pdf/java/) strona.
+Możesz zapoznać się ze szczegółową dokumentacją i dodatkowymi przykładami kodu na stronie [Aspose.PDF dla dokumentacji Java](https://reference.aspose.com/pdf/java/) strona.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

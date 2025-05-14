@@ -1,42 +1,44 @@
 ---
-title: Eszköztipp hozzáadása a PDF űrlapmezőhöz Java segítségével
-linktitle: Eszköztipp hozzáadása a PDF űrlapmezőhöz Java segítségével
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan adhat eszköztippeket PDF űrlapmezőihez Java segítségével. Útmutató lépésről lépésre az Aspose.PDF for Java API használatával.
-weight: 11
-url: /hu/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
+"description": "Tanuld meg, hogyan adhatsz hozzá eszköztippeket PDF űrlapmezőkhöz Java használatával. Lépésről lépésre útmutató az Aspose.PDF Java API-hoz való használatához."
+"linktitle": "Eszköztipp hozzáadása PDF űrlapmezőhöz Java használatával"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "Eszköztipp hozzáadása PDF űrlapmezőhöz Java használatával"
+"url": "/hu/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eszköztipp hozzáadása a PDF űrlapmezőhöz Java segítségével
+# Eszköztipp hozzáadása PDF űrlapmezőhöz Java használatával
 
 
-## Bevezetés az eszköztipp hozzáadása a PDF űrlapmezőhöz Java segítségével
+## Bevezetés az eszköztipp PDF űrlapmezőhöz való hozzáadásába Java használatával
 
-Ebben a cikkben megvizsgáljuk, hogyan adhat eszköztippeket a PDF űrlapmezőihez a Java és az Aspose.PDF könyvtár használatával. Az eszköztippek értékes információkat nyújtanak, amikor a felhasználók a PDF-dokumentum űrlapmezőire mutatnak. Eszköztippek hozzáadása javíthatja a felhasználói élményt, és felhasználóbarátabbá teheti a PDF-űrlapokat.
+Ebben a cikkben azt vizsgáljuk meg, hogyan adhatunk hozzá eszköztippeket PDF űrlapmezőkhöz Java és az Aspose.PDF könyvtár használatával. Az eszköztippek értékes információkat nyújtanak, amikor a felhasználók az egérmutatót az űrlapmezők fölé viszik egy PDF dokumentumban. Az eszköztippek hozzáadása javíthatja a felhasználói élményt, és felhasználóbarátabbá teheti a PDF űrlapokat.
 
-## Eszköztippek értelmezése PDF űrlapmezőkben
+## Elemleírások megértése PDF űrlapmezőkben
 
-Az eszköztippek kis felugró üzenetek, amelyek akkor jelennek meg, amikor a felhasználó egy adott elem fölé viszi az egérmutatót. A PDF űrlapmezőivel kapcsolatban az eszköztippek további utasításokat, magyarázatokat vagy tippeket adhatnak egy adott mező céljára vonatkozóan. Különösen hasznosak az űrlapok helyes kitöltésében.
+Az eszköztippek kis felugró üzenetek, amelyek akkor jelennek meg, amikor a felhasználó az egérmutatót egy adott elem fölé viszi. PDF űrlapmezők esetén az eszköztippek további utasításokat, magyarázatokat vagy tippeket adhatnak egy adott mező céljáról. Különösen hasznosak a felhasználók számára az űrlapok helyes kitöltésében.
 
 ## A környezet előkészítése
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve
-- Integrált fejlesztői környezet (IDE), mint az Eclipse vagy az IntelliJ IDEA
--  Aspose.PDF for Java könyvtár (letöltheti a[itt](https://releases.aspose.com/pdf/java/)
+- Telepített Java fejlesztőkészlet (JDK)
+- Integrált fejlesztői környezet (IDE), mint például az Eclipse vagy az IntelliJ IDEA
+- Aspose.PDF a Java könyvtárhoz (Letöltheti innen [itt](https://releases.aspose.com/pdf/java/)
 
 ## Függőségek hozzáadása
 
-A kezdéshez hozzon létre egy új Java-projektet az IDE-ben, és adja hozzá az Aspose.PDF könyvtárat függőségként.
+Első lépésként hozz létre egy új Java projektet az IDE-ben, és add hozzá az Aspose.PDF könyvtárat függőségként.
 
-## PDF dokumentum készítése
+## PDF dokumentum létrehozása
 
-Ebben a lépésben létrehozunk egy új PDF-dokumentumot az Aspose.PDF használatával. Igény szerint testreszabhatja a dokumentum méretét, tájolását és egyéb tulajdonságait.
+Ebben a lépésben egy új PDF dokumentumot fogunk létrehozni az Aspose.PDF segítségével. A dokumentum méretét, tájolását és egyéb tulajdonságait szükség szerint testreszabhatod.
 
 ```java
 // Java kód új PDF dokumentum létrehozásához
@@ -45,25 +47,25 @@ Document pdfDocument = new Document();
 
 ## Űrlapmezők hozzáadása
 
-Ezután adjunk űrlapmezőket PDF dokumentumunkhoz. Különféle típusú űrlapmezőket adhat hozzá, például szövegmezőket, jelölőnégyzeteket, választógombokat stb. Ebben a példában egy szövegmezőt adunk hozzá.
+Következő lépésként adjunk hozzá űrlapmezőket a PDF dokumentumunkhoz. Különböző típusú űrlapmezőket adhatunk hozzá, például szövegmezőket, jelölőnégyzeteket, választógombokat és egyebeket. Ebben a példában egy szövegmezőt fogunk hozzáadni.
 
 ```java
-//Java kód szövegmező hozzáadásához
+// Java kód szövegmező hozzáadásához
 TextField textField = new TextField(pdfDocument.getPages().get_Item(1), new Rectangle(100, 100, 200, 30));
 ```
 
-## Eszköztippek hozzáadása az űrlapmezőkhöz
+## Eszköztippek hozzáadása űrlapmezőkhöz
 
- Most jön a döntő rész – eszköztippek hozzáadása űrlapmezőinkhez. A mező elemleírásának szövegét a segítségével állíthatjuk be`setTooltip` módszer.
+Most jön a legfontosabb rész – eszköztippek hozzáadása az űrlapmezőkhöz. A mező eszköztippjének szövegét a következővel állíthatjuk be: `setTooltip` módszer.
 
 ```java
-// Java kód elemleírás hozzáadásához a szövegmezőhöz
+// Java kód egy elemleírás hozzáadásához a szövegmezőhöz
 textField.setTooltip("Enter your name here");
 ```
 
-## A PDF mentése
+## PDF mentése
 
-Az űrlapmezők és eszköztippek hozzáadása után ne felejtse el menteni a PDF-dokumentumot.
+Az űrlapmezők és elemleírások hozzáadása után ne felejtse el menteni a PDF dokumentumot.
 
 ```java
 // Java kód a PDF dokumentum mentéséhez
@@ -72,36 +74,38 @@ pdfDocument.save("sample.pdf");
 
 ## Az eszköztipp tesztelése
 
-Az eszköztippek megfelelő működésének biztosításához nyissa meg a létrehozott PDF-fájlt egy PDF-megtekintőben. Vigye az egeret a szövegmező fölé, és látnia kell az eszköztipp üzenetet.
+tooltipek megfelelő működésének ellenőrzéséhez nyissa meg a létrehozott PDF-et egy PDF-megjelenítőben. Vigye az egérmutatót a szövegmező fölé, és megjelenik az tooltip üzenet.
 
 ## Következtetés
 
-Eszköztippek hozzáadása a PDF űrlapmezőihez Java és Aspose.PDF használatával egyszerű folyamat. Hasznos tippekkel és utasításokkal javítja a felhasználói élményt. Testreszabhatja az eszköztippeket a PDF-dokumentumok különböző űrlapmezőihez.
+Eszköztippek hozzáadása PDF űrlapmezőkhöz Java és Aspose.PDF használatával egy egyszerű folyamat. Javítja a felhasználói élményt azáltal, hogy hasznos tippeket és utasításokat biztosít. Testreszabhatja az eszköztippeket a PDF dokumentumok különböző űrlapmezőihez.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.PDF for Java fájlt?
+### Hogyan telepíthetem az Aspose.PDF fájlt Java-hoz?
 
-Az Aspose.PDF for Java letölthető az Aspose webhelyéről. Kövesse a webhelyükön található telepítési utasításokat a Java projektben való beállításához.
+Az Aspose.PDF for Java fájlt letöltheted az Aspose weboldaláról. Kövesd a weboldalukon található telepítési utasításokat a Java projektedben való beállításához.
 
 ### Testreszabhatom az eszköztippek megjelenését?
 
-Igen, személyre szabhatja az eszköztippek megjelenését, beleértve a betűtípusukat, színüket és helyzetüket. A testreszabási beállításokkal kapcsolatos részletes információkért tekintse meg az Aspose.PDF dokumentációt.
+Igen, testreszabhatja az eszköztippek megjelenését, beleértve a betűtípust, színt és pozíciót. A testreszabási lehetőségekkel kapcsolatos részletes információkért lásd az Aspose.PDF dokumentációt.
 
-### Hozzáadhatok elemleírásokat a meglévő PDF-űrlapokhoz?
+### Hozzáadhatok eszköztippeket a meglévő PDF űrlapokhoz?
 
-Igen, eszköztippeket adhat hozzá a meglévő PDF-dokumentumok űrlapmezőihez. Egyszerűen töltse be a PDF-fájlt, nyissa meg az űrlapmezőket, és állítsa be az eszköztippeket a jelen cikkben bemutatottak szerint.
+Igen, hozzáadhat eszköztippeket a meglévő PDF-dokumentumok űrlapmezőihez. Egyszerűen töltse be a PDF-et, nyissa meg az űrlapmezőket, és állítsa be az eszköztippeket a cikkben bemutatott módon.
 
-### Minden PDF-megtekintő támogatja az eszköztippeket?
+### Minden PDF-megjelenítő támogatja az eszköztippeket?
 
-Az eszköztippek szabványos PDF-funkció, és a legtöbb modern PDF-megjelenítő támogatja őket, beleértve az Adobe Acrobat Readert és a népszerű webalapú PDF-megtekintőket.
+Az eszköztippek a PDF-fájlok szabványos funkciói, és a legtöbb modern PDF-megjelenítő támogatja őket, beleértve az Adobe Acrobat Readert és a népszerű webes PDF-megjelenítőket.
 
-### Hozzáadhatok elemleírásokat a PDF-fájl nem űrlapos elemeihez?
+### Hozzáadhatok eszköztippeket nem űrlapelemekhez egy PDF-ben?
 
-Nem, az eszköztippek általában a PDF-dokumentumok űrlapmezőihez vannak társítva. Ha eszköztippeket kell hozzáadnia a nem űrlapos elemekhez, előfordulhat, hogy más PDF-szerkesztési technikákat kell felfedeznie.
+Nem, az eszköztippek jellemzően űrlapmezőkhöz kapcsolódnak a PDF dokumentumokban. Ha nem űrlapelemekhez kell eszköztippeket hozzáadnia, érdemes lehet más PDF-szerkesztési technikákat is megvizsgálnia.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

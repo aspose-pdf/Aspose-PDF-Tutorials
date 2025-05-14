@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Tablo İçindeki HTML Etiketleri
-linktitle: PDF Dosyasındaki Tablo İçindeki HTML Etiketleri
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla .NET için Aspose.PDF kullanarak bir PDF'deki tablo hücrelerine HTML etiketlerinin nasıl yerleştirileceğini öğrenin. Dinamik, profesyonel PDF belgeleri oluşturun.
-weight: 100
-url: /tr/net/programming-with-tables/html-tags-inside-table/
+"description": "Bu adım adım kılavuzla .NET için Aspose.PDF kullanarak bir PDF'deki tablo hücrelerine HTML etiketlerinin nasıl yerleştirileceğini öğrenin. Dinamik, profesyonel PDF belgeleri oluşturun."
+"linktitle": "PDF Dosyasındaki Tablo İçindeki HTML Etiketleri"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Tablo İçindeki HTML Etiketleri"
+"url": "/tr/net/programming-with-tables/html-tags-inside-table/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Tablo İçindeki HTML Etiketleri
@@ -21,13 +23,13 @@ url: /tr/net/programming-with-tables/html-tags-inside-table/
 
 Adım adım kılavuza dalmadan önce, takip etmeniz için gerekli araç ve kaynaklara sahip olduğunuzdan emin olalım.
 
--  .NET için Aspose.PDF: Aspose.PDF'in en son sürümüne ihtiyacınız olacak.[Buradan indirin](https://releases.aspose.com/pdf/net/).
+- .NET için Aspose.PDF: Aspose.PDF'in en son sürümüne ihtiyacınız olacak. [Buradan indirin](https://releases.aspose.com/pdf/net/).
 - .NET Ortamı: .NET Framework ile Visual Studio veya uyumlu başka bir IDE'nin kurulu olduğundan emin olun.
--  Lisans: Aspose.PDF'nin lisanslı bir sürümünü kullanmıyorsanız, bir tane edinebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/).
+- Lisans: Aspose.PDF'nin lisanslı bir sürümünü kullanmıyorsanız, bir lisans alabilirsiniz. [geçici lisans](https://purchase.aspose.com/temporary-license/).
 - C# Temel Anlayışı: C# ve nesne yönelimli programlamaya aşinalık faydalıdır.
 - HTML Bilgisi: Bu eğitim için HTML yapısı hakkında biraz bilgi sahibi olmak faydalı olacaktır.
 
-## Gerekli Paketleri İçe Aktarma
+## Gerekli Paketleri İçeri Aktarma
 
 Kodu yazmaya başlamadan önce, gerekli ad alanlarını içe aktarmak çok önemlidir. Bu ad alanları, PDF belgelerini işlemek için kullanacağımız Aspose.PDF sınıfları ve yöntemleriyle çalışmamızı sağlar.
 
@@ -47,11 +49,11 @@ using System.Data;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"`PDF dosyanızın kaydedilmesini istediğiniz gerçek yol ile. Bu, belge oluşturulduğunda onu kolayca bulabilmeniz için önemlidir.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın kaydedilmesini istediğiniz gerçek yol ile. Bu, belge oluşturulduğunda onu kolayca bulabilmeniz için önemlidir.
 
 ## Adım 2: DataTable'ı Oluşturun ve HTML İçeriğiyle Doldurun
 
- Şimdi bir tane yaratıyoruz`DataTable` PDF'imizdeki tablonun içinde görüntülenecek verileri tutmak için. Bu`DataTable` HTML içeriğini depolayacaktır, örneğin`<li>` Hücrelerin içine yerleştirmek istediğimiz etiketler.
+Şimdi bir tane yaratıyoruz `DataTable` PDF'imizdeki tablonun içinde görüntülenecek verileri tutmak için. Bu `DataTable` HTML içeriğini depolayacaktır, örneğin `<li>` Hücrelerin içine yerleştirmek istediğimiz etiketler.
 
 ```csharp
 // Bir DataTable oluşturun ve sütunlar ekleyin
@@ -59,7 +61,7 @@ DataTable dt = new DataTable("Employee");
 dt.Columns.Add("data", System.Type.GetType("System.String"));
 ```
 
- Bir kez`DataTable` oluşturulduğunda, tabloda görünmesini istediğiniz HTML içeriğiyle doldurmanız gerekir. Bu durumda, adresli HTML liste öğeleri ekliyoruz.
+Bir kez `DataTable` oluşturulduğunda, tabloda görünmesini istediğiniz HTML içeriğiyle doldurmanız gerekir. Bu durumda, adresli HTML liste öğeleri ekliyoruz.
 
 ```csharp
 // HTML içerikli satırlar ekleyin
@@ -107,7 +109,7 @@ Bu adımda, bir tabloyu başarıyla oluşturdunuz ve hem tablo hem de hücreleri
 
 ## Adım 5: Dolguyu Tanımlayın ve Verileri İçeri Aktarın
 
- Tablonun görsel estetiğini geliştirmek için hücreler için dolgu tanımlayacağız. Ardından,`DataTable` HTML içerikli PDF tablosuna.
+Tablonun görsel estetiğini geliştirmek için hücreler için dolgu tanımlayacağız. Ardından, `DataTable` HTML içerikli PDF tablosuna.
 
 ```csharp
 // Tablo hücreleri için dolguyu ayarlayın
@@ -121,7 +123,7 @@ tableProvider.DefaultCellPadding = margin;
 tableProvider.ImportDataTable(dt, false, 0, 0, 3, 1, true);
 ```
 
-Kenar boşlukları ayarlayarak tablo hücrelerine biraz nefes alma alanı veriyoruz ve içeriği görsel olarak daha çekici hale getiriyoruz.`ImportDataTable` yöntem içeri çeker`DataTable` Daha önce oluşturduğumuz HTML içeriğinin hücrelere gömülmesini sağlayarak.
+Kenar boşlukları ayarlayarak tablo hücrelerine biraz nefes alma alanı veriyoruz ve içeriği görsel olarak daha çekici hale getiriyoruz. `ImportDataTable` yöntem içeri çeker `DataTable` Daha önce oluşturduğumuz HTML içeriğinin hücrelere gömülmesini sağlayarak.
 
 ## Adım 6: Tabloyu PDF'e Ekleyin ve Kaydedin
 
@@ -147,19 +149,21 @@ Yukarıdaki adımları izleyerek, .NET için Aspose.PDF kullanarak bir PDF belge
 Evet, Aspose.PDF listeler, resimler ve bağlantılar dahil olmak üzere tablo hücreleri içindeki çok çeşitli HTML etiketlerini işleyebilir ve oluşturabilir.
 
 ### Tablodaki sütunların boyutunu nasıl ayarlayabilirim?  
- Sütunların genişliğini kullanarak kontrol edebilirsiniz.`ColumnWidths` Her sütun için genişliği belirterek özelliği.
+Sütunların genişliğini kullanarak kontrol edebilirsiniz. `ColumnWidths` Her sütun için genişliği belirterek özelliği.
 
-### Tablo hücrelerinin içindeki metni biçimlendirmek mümkün müdür?  
- Kesinlikle! HTML etiketlerini şu şekilde kullanabilirsiniz:`<b>`, `<i>` , Ve`<u>` Tablo hücrelerinin içindeki metni biçimlendirmek için içerik içinde.
+### Tablo hücreleri içindeki metni biçimlendirmek mümkün müdür?  
+Kesinlikle! HTML etiketlerini şu şekilde kullanabilirsiniz: `<b>`, `<i>`, Ve `<u>` Tablo hücrelerinin içindeki metni biçimlendirmek için içerik içinde.
 
 ### HTML içeriğim tablo hücresi için çok büyük olursa ne olur?  
 İçerik hücrenin dışına taşarsa tablo otomatik olarak ayarlanır; ancak içeriğin nasıl görüntüleneceğini kontrol etmek için hücre boyutunu ve sözcük kaydırma seçeneklerini özelleştirebilirsiniz.
 
 ### Bir PDF belgesine birden fazla tablo ekleyebilir miyim?  
 Evet, tablo ekleme adımlarını tekrarlayarak, her birini PDF'in yeni bir sayfasında veya bölümünde olmak üzere PDF belgesine birden fazla tablo ekleyebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

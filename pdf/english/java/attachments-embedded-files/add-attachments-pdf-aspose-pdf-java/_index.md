@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Attachments to PDFs with Aspose.PDF for Java: A Developer’s Guide
 
@@ -172,6 +174,9 @@ You’ve now mastered how to attach files to PDFs using Aspose.PDF for Java. Thi
 Explore these resources for more detailed information and community support. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

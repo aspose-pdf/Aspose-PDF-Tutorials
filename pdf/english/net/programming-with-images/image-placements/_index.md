@@ -8,7 +8,9 @@ url: /net/programming-with-images/image-placements/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Image Placements
@@ -130,6 +132,7 @@ Yes, it supports .NET Framework, .NET Core, and .NET 5 and above.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

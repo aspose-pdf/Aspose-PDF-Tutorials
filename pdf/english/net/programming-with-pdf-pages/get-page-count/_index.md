@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/get-page-count/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Page Count In PDF File
@@ -121,6 +123,7 @@ You can try it out with a [free trial](https://releases.aspose.com/), but for fu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

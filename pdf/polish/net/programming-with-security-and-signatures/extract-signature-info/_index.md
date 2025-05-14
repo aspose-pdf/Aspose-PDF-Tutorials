@@ -1,14 +1,16 @@
 ---
-title: Wyodrębnij informacje o podpisie
-linktitle: Wyodrębnij informacje o podpisie
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyodrębnić podpisy cyfrowe i informacje o certyfikacie z dokumentów PDF za pomocą Aspose.PDF dla .NET. Kompletny przewodnik krok po kroku dla programistów C#.
-weight: 80
-url: /pl/net/programming-with-security-and-signatures/extract-signature-info/
+"description": "Dowiedz się, jak wyodrębnić podpisy cyfrowe i informacje o certyfikacie z dokumentów PDF za pomocą Aspose.PDF dla .NET. Kompletny przewodnik krok po kroku dla programistów C#."
+"linktitle": "Wyodrębnij informacje o podpisie"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wyodrębnij informacje o podpisie"
+"url": "/pl/net/programming-with-security-and-signatures/extract-signature-info/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnij informacje o podpisie
@@ -21,7 +23,7 @@ dzisiejszym cyfrowym świecie zapewnienie bezpieczeństwa i integralności dokum
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko gotowe do rozpoczęcia pracy.
 
--  Aspose.PDF dla biblioteki .NET: Jeśli jeszcze jej nie masz, możesz ją pobrać ze strony[Strona pobierania Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/). 
+- Aspose.PDF dla biblioteki .NET: Jeśli jeszcze jej nie masz, możesz ją pobrać ze strony [Strona pobierania Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/). 
 - Środowisko programistyczne .NET: Będziesz potrzebować środowiska IDE, np. Visual Studio.
 - Podstawowa wiedza o języku C#: Znajomość języka C# będzie pomocna w zrozumieniu fragmentów kodu w tym samouczku.
 - Dokument PDF z podpisem cyfrowym: W celach testowych upewnij się, że masz plik PDF zawierający co najmniej jeden podpis cyfrowy.
@@ -41,7 +43,7 @@ Teraz, gdy skonfigurowałeś już podstawowe ustawienia, możemy przejść do w�
 
 ## Krok 1: Konfigurowanie katalogu dokumentów
 
- Przed rozpoczęciem pracy nad dokumentem PDF musisz określić lokalizację pliku, którego będziesz używać. Możesz zastąpić`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu, w którym przechowywane są pliki PDF.
+Przed rozpoczęciem pracy nad dokumentem PDF musisz określić lokalizację pliku, którego będziesz używać. Możesz zastąpić `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu, w którym przechowywane są pliki PDF.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -53,7 +55,7 @@ Tutaj określamy katalog zawierający plik PDF i samą nazwę pliku. Upewnij si�
 
 ## Krok 2: Ładowanie dokumentu PDF
 
- Teraz, gdy skonfigurowałeś już swój katalog, następnym krokiem jest załadowanie dokumentu PDF za pomocą`Document` klasa z Aspose.PDF.
+Teraz, gdy skonfigurowałeś już swój katalog, następnym krokiem jest załadowanie dokumentu PDF za pomocą `Document` klasa z Aspose.PDF.
 
 ```csharp
 using (Document pdfDocument = new Document(input))
@@ -62,7 +64,7 @@ using (Document pdfDocument = new Document(input))
 }
 ```
 
- Ta linia kodu inicjuje`Document`obiekt, który reprezentuje plik PDF.`using` Oświadczenie to zapewnia oczyszczenie zasobów po przetworzeniu dokumentu.
+Ta linia kodu inicjuje `Document` obiekt, który reprezentuje plik PDF. `using` Oświadczenie to zapewnia oczyszczenie zasobów po przetworzeniu dokumentu.
 
 ## Krok 3: Dostęp do pól formularza
 
@@ -75,11 +77,11 @@ foreach (Field field in pdfDocument.Form)
 }
 ```
 
- Poprzez iterację`Form` własność`Document` obiekt, możemy zbadać każde pole formularza, aby sprawdzić, czy jest ono polem podpisu.
+Poprzez iterację `Form` własność `Document` obiekt, możemy zbadać każde pole formularza, aby sprawdzić, czy jest ono polem podpisu.
 
 ## Krok 4: Identyfikacja pól podpisu
 
- Po uzyskaniu dostępu do pól formularza, następnym krokiem jest zidentyfikowanie pól podpisu. Możemy to zrobić, rzutując każde pole na`SignatureField` obiekt.
+Po uzyskaniu dostępu do pól formularza, następnym krokiem jest zidentyfikowanie pól podpisu. Możemy to zrobić, rzutując każde pole na `SignatureField` obiekt.
 
 ```csharp
 SignatureField sf = field as SignatureField;
@@ -89,7 +91,7 @@ if (sf != null)
 }
 ```
 
- Tutaj używamy`as` słowo kluczowe, aby spróbować rzutować każde pole formularza na`SignatureField`. Jeśli rzut się powiedzie, wiemy, że pole jest sygnaturą.
+Tutaj używamy `as` słowo kluczowe, aby spróbować rzutować każde pole formularza na `SignatureField`. Jeśli rzut się powiedzie, wiemy, że pole jest sygnaturą.
 
 ## Krok 5: Wyodrębnianie certyfikatu
 
@@ -99,11 +101,11 @@ Teraz, gdy zidentyfikowałeś pole podpisu, następnym zadaniem jest wyodrębnie
 Stream cerStream = sf.ExtractCertificate();
 ```
 
- Ten`ExtractCertificate` metoda zwraca`Stream` obiekt zawierający dane certyfikatu. Ten strumień może być użyty do zapisania certyfikatu do dalszej analizy lub przechowywania.
+Ten `ExtractCertificate` metoda zwraca `Stream` obiekt zawierający dane certyfikatu. Ten strumień może być użyty do zapisania certyfikatu do dalszej analizy lub przechowywania.
 
 ## Krok 6: Zapisywanie certyfikatu do pliku
 
- Po wyodrębnieniu certyfikatu ostatnim krokiem jest zapisanie go do pliku. W tym przypadku zapiszemy certyfikat jako`.cer` plik.
+Po wyodrębnieniu certyfikatu ostatnim krokiem jest zapisanie go do pliku. W tym przypadku zapiszemy certyfikat jako `.cer` plik.
 
 ```csharp
 if (cerStream != null)
@@ -124,11 +126,11 @@ W tym bloku kodu:
 
 1. Sprawdź czy strumień certyfikatu nie jest pusty.
 2. Odczytaj dane certyfikatu do tablicy bajtów.
-3.  Zapisz tablicę bajtów w`.cer` plik w katalogu dokumentów.
+3. Zapisz tablicę bajtów w `.cer` plik w katalogu dokumentów.
 
 ## Wniosek
 
-Wyodrębnianie podpisów cyfrowych i powiązanych z nimi informacji o certyfikacie z dokumentów PDF przy użyciu Aspose.PDF dla .NET jest dość proste, gdy rozłoży się je na proste kroki. Niezależnie od tego, czy audytujesz dokumenty, weryfikujesz podpisy, czy po prostu przechowujesz certyfikaty w celu bezpiecznego przechowywania, ten samouczek wyposaży Cię w wiedzę, aby zrobić to sprawnie. Pamiętaj, że zabezpieczanie i weryfikowanie dokumentów ma kluczowe znaczenie w dzisiejszym cyfrowym świecie, a korzystanie z narzędzi takich jak Aspose.PDF dla .NET znacznie ułatwia obsługę.
+Wyodrębnianie podpisów cyfrowych i powiązanych z nimi informacji o certyfikacie z dokumentów PDF przy użyciu Aspose.PDF dla .NET jest dość proste, gdy podzielisz je na proste kroki. Niezależnie od tego, czy audytujesz dokumenty, weryfikujesz podpisy, czy po prostu przechowujesz certyfikaty w celu bezpiecznego przechowywania, ten samouczek wyposaży Cię w wiedzę, aby zrobić to sprawnie. Pamiętaj, że zabezpieczanie i weryfikowanie dokumentów ma kluczowe znaczenie w dzisiejszym cyfrowym świecie, a korzystanie z narzędzi takich jak Aspose.PDF dla .NET znacznie ułatwia obsługę.
 
 ## Najczęściej zadawane pytania
 
@@ -145,10 +147,12 @@ Chociaż można wyodrębnić certyfikat, sprawdzenie ważności podpisu wymaga d
 Tak, Aspose.PDF umożliwia dostęp i modyfikowanie różnych typów pól formularzy w pliku PDF, nie tylko pól podpisu.
 
 ### Jak mogę wyświetlić szczegóły wyodrębnionego certyfikatu?
- Po zapisaniu certyfikatu jako`.cer` Plik można otworzyć za pomocą dowolnej przeglądarki certyfikatów lub zaimportować do systemowego magazynu certyfikatów w celu dalszej inspekcji.
+Po zapisaniu certyfikatu jako `.cer` Plik można otworzyć za pomocą dowolnej przeglądarki certyfikatów lub zaimportować do systemowego magazynu certyfikatów w celu dalszej inspekcji.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

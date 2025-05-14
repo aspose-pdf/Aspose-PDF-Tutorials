@@ -1,14 +1,16 @@
 ---
-title: เปลี่ยนไฟล์ PDF เป็นรูปแบบ DOC หรือ DOCX
-linktitle: เปลี่ยนไฟล์ PDF เป็นรูปแบบ DOC หรือ DOCX
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการแปลงไฟล์ PDF เป็นรูปแบบ DOC หรือ DOCX ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับและคำถามที่พบบ่อยสำหรับการแปลงเอกสารอย่างราบรื่น
-weight: 14
-url: /th/java/pdf-conversion-transformation/change-pdfs-to-doc-or-docx-format/
+"description": "เรียนรู้วิธีการแปลงไฟล์ PDF เป็นรูปแบบ DOC หรือ DOCX ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับและคำถามที่พบบ่อยสำหรับการแปลงเอกสารอย่างราบรื่น"
+"linktitle": "เปลี่ยนไฟล์ PDF เป็นรูปแบบ DOC หรือ DOCX"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เปลี่ยนไฟล์ PDF เป็นรูปแบบ DOC หรือ DOCX"
+"url": "/th/java/pdf-conversion-transformation/change-pdfs-to-doc-or-docx-format/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เปลี่ยนไฟล์ PDF เป็นรูปแบบ DOC หรือ DOCX
@@ -58,7 +60,7 @@ Aspose.PDF สำหรับ Java มีตัวเลือกขั้นส
 
 ## 8. การจัดการข้อผิดพลาด
 
-การจัดการข้อผิดพลาดถือเป็นสิ่งสำคัญในโครงการพัฒนาซอฟต์แวร์ใดๆ อย่าลืมใช้การจัดการข้อผิดพลาดที่เหมาะสมในโค้ดของคุณ เพื่อจัดการสถานการณ์ที่ไม่คาดคิดระหว่างการแปลง PDF ได้อย่างมีประสิทธิภาพ
+การจัดการข้อผิดพลาดถือเป็นสิ่งสำคัญในโครงการพัฒนาซอฟต์แวร์ใดๆ อย่าลืมใช้การจัดการข้อผิดพลาดที่เหมาะสมในโค้ดของคุณเพื่อจัดการสถานการณ์ที่ไม่คาดคิดระหว่างการแปลง PDF ได้อย่างมีประสิทธิภาพ
 
 ## บทสรุป
 
@@ -84,10 +86,12 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### ฉันสามารถหาเอกสารสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารสำหรับ Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

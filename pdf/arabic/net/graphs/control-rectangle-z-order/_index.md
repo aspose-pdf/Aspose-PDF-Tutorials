@@ -1,41 +1,46 @@
 ---
-title: إنشاء وتخصيص PDF مع مستطيلات في .NET 
-weight: 7700
-limit: 
-description: تعلم كيفية إنشاء مستند PDF في .NET، وإضافة مستطيلات ملونة مع مؤشرات Z مختلفة، وحفظ المستند النهائي باستخدام Aspose.PDF.  
-keywords: [Aspose.PDF, .NET PDF example, create PDF, add rectangles, Z-index, PDF manipulation]
-url: /ar/net/graphs/control-rectangle-z-order/
+"description": "تعرف على كيفية إنشاء مستند PDF في .NET، وإضافة مستطيلات ملونة ذات مؤشرات Z متنوعة، وحفظ المستند النهائي باستخدام Aspose.PDF."
+"title": "إنشاء وتخصيص ملف PDF باستخدام المستطيلات في .NET"
+"url": "/ar/net/graphs/control-rectangle-z-order/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء وتخصيص PDF مع مستطيلات
+# إنشاء وتخصيص ملف PDF باستخدام المستطيلات
 
-يوضح هذا الدليل كيفية إنشاء مستند PDF باستخدام Aspose.PDF لـ .NET ، مع دمج مستطيلات ملونة مع مؤشرات Z مختلفة للتحكم في طبقتها. اتبع التعليمات خطوة بخطوة لإضافة أشكال إلى PDF الخاص بك وحفظ المستند ، مما يعزز قدرات إنتاج PDF للتطبيق الخاص بك.
+يوضح هذا الدليل كيفية إنشاء مستند PDF باستخدام Aspose.PDF لـ .NET، مع دمج مستطيلات ملونة بمؤشرات Z مختلفة للتحكم في طبقاتها. اتبع التعليمات خطوة بخطوة لإضافة أشكال إلى ملف PDF وحفظه، مما يُحسّن إمكانيات إنشاء ملفات PDF في تطبيقك.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/control-rectangle-z-order" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## تعليمات التثبيت
-1. تأكد من وجود بيئة تطوير .NET (مثل فيزيوال ستوديو)
-2. تحميل مكتبة Aspose.PDF من[موقع أسبوس](https://www.aspose.com/purchase). .
-3. قم بتثبيت حزمة NuGet Aspose.PDF عن طريق تنفيذ`حزمة التثبيت Aspose.PDF`في وحدة التحكم في الحزمة.
-4. تضمّن مساحات الأسماء الضرورية في مشروعك:
+1. تأكد من إعداد بيئة تطوير .NET (مثل Visual Studio).
+2. قم بتنزيل مكتبة Aspose.PDF من [موقع Aspose](https://www.aspose.com/purchase).
+3. قم بتثبيت حزمة Aspose.PDF NuGet عن طريق تنفيذ `Install-Package Aspose.PDF` في وحدة تحكم إدارة الحزم.
+4. قم بتضمين المساحات الأساسية اللازمة في مشروعك:
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
    ```
 
-## للحصول على وثائق مفصلة، يرجى زيارة:  
-* [Aspose.PDF لتوثيق .NET](https://docs.aspose.com/pdf/net/)  
-* [مرجع واجهة برمجة التطبيقات Aspose.PDF لـ .NET](https://reference.aspose.com/pdf/net/)  
+## للحصول على توثيق مفصل، قم بزيارة:  
+- [توثيق Aspose.PDF لـ .NET](https://docs.aspose.com/pdf/net/)  
+- [مرجع API لـ Aspose.PDF لـ .NET](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

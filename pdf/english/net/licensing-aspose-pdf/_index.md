@@ -7,7 +7,9 @@ description: Licensing Aspose.PDF for .NET tutorials walk you through managing t
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Licensing Aspose.PDF for .NET
@@ -26,6 +28,7 @@ The "Licensing Aspose.PDF for .NET" tutorials explain in detail how to manage th
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

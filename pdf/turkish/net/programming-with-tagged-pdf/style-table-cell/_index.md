@@ -1,14 +1,16 @@
 ---
-title: Stil Tablo Hücresi
-linktitle: Stil Tablo Hücresi
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu detaylı eğitimle .NET için Aspose.PDF kullanarak bir PDF'deki tablo hücrelerini nasıl biçimlendireceğinizi öğrenin. Güzel PDF tabloları oluşturmak ve biçimlendirmek için talimatları izleyin.
-weight: 160
-url: /tr/net/programming-with-tagged-pdf/style-table-cell/
+"description": "Bu detaylı eğitimle .NET için Aspose.PDF kullanarak bir PDF'deki tablo hücrelerini nasıl biçimlendireceğinizi öğrenin. Güzel PDF tabloları oluşturmak ve biçimlendirmek için talimatları izleyin."
+"linktitle": "Stil Tablo Hücresi"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Stil Tablo Hücresi"
+"url": "/tr/net/programming-with-tagged-pdf/style-table-cell/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stil Tablo Hücresi
@@ -21,10 +23,10 @@ Profesyonel görünümlü PDF tabloları oluşturmak zor olabilir, ancak Aspose.
 
 Koda dalmadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-1. .NET için Aspose.PDF: Aspose.PDF'nin en son sürümünü indirin ve yükleyin[Burada](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF'nin en son sürümünü indirin ve yükleyin [Burada](https://releases.aspose.com/pdf/net/).
 2. IDE (Visual Studio gibi): .NET geliştirme ortamı kurun.
 3. Temel C# programlama bilgisi: C# ile ilgili biraz bilgi sahibi olmak gerekir.
-4.  Aspose.PDF Lisansı: Kütüphanenin tüm özelliklerinin kilidini açmak için geçici veya tam lisans edinin. Ücretsiz deneme alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+4. Aspose.PDF Lisansı: Kütüphanenin tüm özelliklerinin kilidini açmak için geçici veya tam lisans edinin. Ücretsiz deneme alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Paketleri İçe Aktar
 
@@ -46,7 +48,7 @@ Bir PDF belgesinde bir tablo oluşturacağız ve hücrelerini biçimlendireceği
 
 ## Adım 1: Yeni bir PDF Belgesi Oluşturun
 
- İlk adım yeni bir PDF belgesi oluşturmaktır. Aspose.PDF'de yeni bir PDF belgesi başlatabilirsiniz.`Document` PDF dosyanızı temsil eden nesne.
+İlk adım yeni bir PDF belgesi oluşturmaktır. Aspose.PDF'de yeni bir PDF belgesi başlatabilirsiniz. `Document` PDF dosyanızı temsil eden nesne.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -133,11 +135,11 @@ for (int rowIndex = 0; rowIndex < rowCount; rowIndex++)
 }
 ```
 
- Bu adımda, tablo gövdesini dört satırla dolduruyoruz ve her hücreyi sarı arka planlar ve ortalanmış, kalın mavi metinle biçimlendiriyoruz. Ayrıca,`MarginInfo`metnin etrafındaki dolguyu tanımlayan sınıf.
+Bu adımda, tablo gövdesini dört satırla dolduruyoruz ve her hücreyi sarı arka planlar ve ortalanmış, kalın mavi metinle biçimlendiriyoruz. Ayrıca, `MarginInfo` metnin etrafındaki dolguyu tanımlayan sınıf.
 
 ## Adım 5: Altbilgiyi Biçimlendirin
 
-Tabloya eksiksiz bir yapı kazandırmak için, tıpkı başlıkta yaptığımız gibi, altbilgi hücrelerini de ekleyip biçimlendiriyoruz.
+Tabloya tam bir yapı kazandırmak için, tıpkı başlıkta yaptığımız gibi, altbilgi hücrelerini de ekleyip biçimlendiriyoruz.
 
 ```csharp
 TableTRElement footTrElement = tableTFootElement.CreateTR();
@@ -166,31 +168,33 @@ bool isPdfUaCompliance = document.Validate(dataDir + "StyleTableCell.xml", PdfFo
 Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
 ```
 
- PDF'yi kaydediyoruz ve kullanıyoruz`Validate` Erişilebilirlik standartlarını karşıladığından emin olmak için bir yöntem (PDF/UA uyumluluğu).
+PDF'yi kaydediyoruz ve kullanıyoruz `Validate` Erişilebilirlik standartlarını karşıladığından emin olmak için bir yöntem (PDF/UA uyumluluğu).
 
 ## Çözüm
 
-.NET için Aspose.PDF kullanarak bir PDF'deki tabloları biçimlendirmek hem güçlü hem de esnektir. Birkaç satır kodla, PDF belgelerinizin öne çıkmasını sağlayacak özel tablo tasarımları oluşturabilirsiniz. Hücre kenarlıklarını ve arka planlarını özelleştirmekten erişilebilirlik uyumluluğunu sağlamaya kadar, Aspose.PDF cilalı PDF dosyaları oluşturmayı kolaylaştırır.
+.NET için Aspose.PDF kullanarak bir PDF'deki tabloları biçimlendirmek hem güçlü hem de esnektir. Birkaç satır kodla, PDF belgelerinizi öne çıkaracak özel tablo tasarımları oluşturabilirsiniz. Hücre kenarlıklarını ve arka planlarını özelleştirmekten erişilebilirlik uyumluluğunu sağlamaya kadar, Aspose.PDF cilalı PDF dosyaları oluşturmayı kolaylaştırır.
 
 ## SSS
 
 ### Her bir tablo hücresine farklı stiller uygulayabilir miyim?  
-Evet, özelleştirerek tek tek hücrelere stil verebilirsiniz.`TableTDElement` özellikler.
+Evet, özelleştirerek tek tek hücreleri biçimlendirebilirsiniz. `TableTDElement` özellikler.
 
 ### Tablo hücrelerini nasıl birleştirebilirim?  
- Kullanabilirsiniz`ColSpan` Ve`RowSpan` Bir tabloda hücreleri birleştirme özellikleri.
+Kullanabilirsiniz `ColSpan` Ve `RowSpan` Bir tabloda hücreleri birleştirme özellikleri.
 
 ### PDF/UA uyumlu bir tablo oluşturmak mümkün müdür?  
- Evet, bu kılavuzda gösterildiği gibi, belgenizi kullanarak PDF/UA uyumluluğunu doğrulayabilirsiniz.`Validate` Yöntem.
+Evet, bu kılavuzda gösterildiği gibi, belgenizi kullanarak PDF/UA uyumluluğunu doğrulayabilirsiniz. `Validate` yöntem.
 
 ### Tablo hücrelerinde farklı yazı tipleri kullanabilir miyim?  
- Kesinlikle! Farklı yazı tiplerini kullanarak belirtebilirsiniz.`TextState` Her hücre için nesne.
+Kesinlikle! Farklı yazı tiplerini kullanarak belirtebilirsiniz. `TextState` Her hücre için nesne.
 
 ### Aspose.PDF for .NET'i nasıl indirebilirim?  
- Bunu şuradan indirebilirsiniz:[sürüm sayfası](https://releases.aspose.com/pdf/net/).
+Bunu şuradan indirebilirsiniz: [sürüm sayfası](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Prostokąt kontrolny Z kolejność w pliku PDF
-linktitle: Prostokąt kontrolny Z kolejność w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak kontrolować kolejność prostokątów w formacie PDF za pomocą Aspose.PDF dla .NET w tym szczegółowym samouczku krok po kroku. Idealne dla programistów chcących ulepszyć dokumenty PDF.
-weight: 40
-url: /pl/net/programming-with-graphs/control-rectangle-z-order/
+"description": "Dowiedz się, jak kontrolować kolejność prostokątów w formacie PDF za pomocą Aspose.PDF dla .NET w tym szczegółowym samouczku krok po kroku. Idealne dla programistów chcących ulepszyć dokumenty PDF."
+"linktitle": "Prostokąt kontrolny Z kolejność w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Prostokąt kontrolny Z kolejność w pliku PDF"
+"url": "/pl/net/programming-with-graphs/control-rectangle-z-order/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Prostokąt kontrolny Z kolejność w pliku PDF
@@ -22,15 +24,15 @@ Tworzenie plików PDF z bogatymi komponentami wizualnymi może być zarówno tru
 Zanim przejdziemy do kodu, musisz upewnić się, że skonfigurowałeś kilka rzeczy:
 
 1. IDE dla .NET Development: Jeśli jeszcze tego nie zrobiłeś, wybierz i zainstaluj zintegrowane środowisko programistyczne (IDE), takie jak Visual Studio lub JetBrains Rider. Te narzędzia pomogą Ci pisać, testować i debugować kod w wydajny sposób.
-2.  Aspose.PDF dla biblioteki .NET: Możesz zacząć od pobrania biblioteki Aspose.PDF. Odwiedź[strona do pobrania](https://releases.aspose.com/pdf/net/) aby pobrać najnowszą wersję. Ta biblioteka jest niezbędna do tworzenia i manipulowania dokumentami PDF.
+2. Aspose.PDF dla biblioteki .NET: Możesz zacząć od pobrania biblioteki Aspose.PDF. Odwiedź [strona do pobrania](https://releases.aspose.com/pdf/net/) aby pobrać najnowszą wersję. Ta biblioteka jest niezbędna do tworzenia i manipulowania dokumentami PDF.
 3. Podstawowa wiedza o języku C#: Ten przewodnik przeprowadzi Cię przez cały proces, ale podstawowa znajomość języka C# pomoże Ci szybciej zrozumieć koncepcje.
-4.  .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework. Niezbędne wymagania znajdziesz w[Dokumentacja Aspose](https://reference.aspose.com/pdf/net/).
+4. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework. Niezbędne wymagania znajdziesz w [Dokumentacja Aspose](https://reference.aspose.com/pdf/net/).
 
 Teraz, gdy omówiliśmy już wymagania wstępne, możemy przejść do przyjemniejszej części — importowania pakietów, z którymi będziemy pracować.
 
 ## Importuj pakiety
 
-naszych projektach musimy zaimportować niezbędną przestrzeń nazw Aspose.PDF, aby uzyskać dostęp do jej klas i metod. Pozwoli nam to na bezproblemową manipulację plikami PDF. Oto, jak to zrobić:
+W naszych projektach musimy zaimportować niezbędną przestrzeń nazw Aspose.PDF, aby uzyskać dostęp do jej klas i metod. Pozwoli nam to na bezproblemową manipulację plikami PDF. Oto, jak to zrobić:
 
 ```csharp
 using System.IO;
@@ -53,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Utwórz obiekt klasy Dokument
 Document doc1 = new Document();
 ```
- Tutaj zaczynasz od zdefiniowania katalogu, w którym chcesz zapisać swój plik PDF.`Document` Następnie tworzona jest klasa z Aspose.PDF, która będzie służyć jako obiekt główny dla pliku PDF.
+Tutaj zaczynasz od zdefiniowania katalogu, w którym chcesz zapisać swój plik PDF. `Document` Następnie tworzona jest klasa z Aspose.PDF, która będzie służyć jako obiekt główny dla pliku PDF.
 
 ## Krok 2: Dodaj stronę do dokumentu
 
@@ -62,10 +64,10 @@ Każdy plik PDF potrzebuje co najmniej jednej strony do wyświetlenia treści. D
 ```csharp
 // Dodaj stronę do zbioru stron pliku PDF
 Aspose.Pdf.Page page1 = doc1.Pages.Add();
-//Ustaw rozmiar strony PDF
+// Ustaw rozmiar strony PDF
 page1.SetPageSize(375, 300);
 ```
- W tym kroku używamy`Add()` metodę tworzenia nowej strony w naszym dokumencie. Ustawiliśmy również rozmiar strony na 375px na 300px, co dało nam płótno do pracy.
+W tym kroku używamy `Add()` metodę tworzenia nowej strony w naszym dokumencie. Ustawiliśmy również rozmiar strony na 375px na 300px, co dało nam płótno do pracy.
 
 ## Krok 3: Ustaw marginesy strony 
 
@@ -121,11 +123,11 @@ dataDir = dataDir + "ControlRectangleZOrder_out.pdf";
 // Zapisz wynikowy plik PDF
 doc1.Save(dataDir);
 ```
- Wystarczy podać nazwę pliku i wywołać`Save()` metoda tworzenia dokumentu PDF.
+Wystarczy podać nazwę pliku i wywołać `Save()` metoda tworzenia dokumentu PDF.
 
 ## Wniosek 
 
-tak po prostu nauczyłeś się kontrolować kolejność prostokątów w pliku PDF za pomocą Aspose.PDF dla .NET! Możliwość nakładania kształtów i manipulowania ich kolejnością wizualną może znacznie poprawić użyteczność i estetykę dokumentów PDF. Niezależnie od tego, czy generujesz raporty, tworzysz materiały edukacyjne, czy po prostu bawisz się grafiką, techniki te można stosować szeroko.
+I tak po prostu nauczyłeś się kontrolować kolejność prostokątów w pliku PDF za pomocą Aspose.PDF dla .NET! Możliwość nakładania kształtów i manipulowania ich kolejnością wizualną może znacznie poprawić użyteczność i estetykę dokumentów PDF. Niezależnie od tego, czy generujesz raporty, tworzysz materiały edukacyjne, czy po prostu bawisz się grafiką, techniki te można stosować szeroko.
 
 Pamiętaj, praktyka jest kluczowa! Baw się różnymi kształtami, rozmiarami i kolorami. Im więcej eksperymentujesz, tym bardziej będziesz się czuć komfortowo z narzędziami, które masz do dyspozycji.
 
@@ -135,19 +137,21 @@ Pamiętaj, praktyka jest kluczowa! Baw się różnymi kształtami, rozmiarami i 
 Z-order odnosi się do kolejności ułożenia elementów wizualnych. Elementy o wyższym Z-order pojawiają się nad tymi o niższym Z-order.
 
 ### Gdzie mogę pobrać Aspose.PDF dla .NET?
- Można go pobrać ze strony[strona do pobrania](https://releases.aspose.com/pdf/net/).
+Można go pobrać ze strony [strona do pobrania](https://releases.aspose.com/pdf/net/).
 
-### Czy Aspose ma bezpłatną wersję próbną?
- Tak, możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+### Czy jest dostępna bezpłatna wersja próbna Aspose?
+Tak, możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
-### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10) po pomoc.
+### Gdzie mogę uzyskać pomoc dotyczącą Aspose.PDF?
+Możesz odwiedzić [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10) po pomoc.
 
 ### Czy mogę otrzymać tymczasową licencję na Aspose.PDF?
- Oczywiście! Możesz ubiegać się o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Oczywiście! Możesz ubiegać się o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

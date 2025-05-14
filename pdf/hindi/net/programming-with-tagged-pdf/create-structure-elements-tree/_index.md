@@ -1,14 +1,16 @@
 ---
-title: संरचना तत्व वृक्ष बनाएँ
-linktitle: संरचना तत्व वृक्ष बनाएँ
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में संरचना तत्व ट्री बनाने का तरीका जानें। इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 70
-url: /hi/net/programming-with-tagged-pdf/create-structure-elements-tree/
+"description": ".NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में संरचना तत्व ट्री बनाने का तरीका जानें। इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "संरचना तत्व वृक्ष बनाएँ"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "संरचना तत्व वृक्ष बनाएँ"
+"url": "/hi/net/programming-with-tagged-pdf/create-structure-elements-tree/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # संरचना तत्व वृक्ष बनाएँ
@@ -21,11 +23,11 @@ url: /hi/net/programming-with-tagged-pdf/create-structure-elements-tree/
 
 इससे पहले कि हम कोड की बारीकियों में उतरें, सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके पास यह लाइब्रेरी इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं:[.NET के लिए Aspose.PDF डाउनलोड करें](https://releases.aspose.com/pdf/net/).
+1. .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके पास यह लाइब्रेरी इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं: [.NET के लिए Aspose.PDF डाउनलोड करें](https://releases.aspose.com/pdf/net/).
 2. .NET वातावरण: एक कार्यशील .NET विकास वातावरण (जैसे विजुअल स्टूडियो) आवश्यक है।
 3. C# का बुनियादी ज्ञान: C# की बुनियादी समझ आपको अवधारणाओं को शीघ्रता से समझने में मदद करेगी।
 
- यदि आपने अभी तक ऐसा नहीं किया है, तो आप जांचना चाहेंगे[प्रलेखन](https://reference.aspose.com/pdf/net/) अधिक जानकारी के लिए.
+यदि आपने अभी तक ऐसा नहीं किया है, तो आप जांचना चाहेंगे [प्रलेखन](https://reference.aspose.com/pdf/net/) अधिक जानकारी के लिए.
 
 ## पैकेज आयात करें
 
@@ -51,7 +53,7 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`"YOUR DOCUMENT DIRECTORY"` अपने वास्तविक फ़ाइल पथ के साथ। यह वह जगह है जहाँ आपका अंतिम PDF संग्रहीत किया जाएगा।
+प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` अपने वास्तविक फ़ाइल पथ के साथ। यह वह जगह है जहाँ आपका अंतिम PDF संग्रहीत किया जाएगा।
 
 ## चरण 2: एक पीडीएफ दस्तावेज़ बनाएँ
 
@@ -193,22 +195,24 @@ document.Save(dataDir + "StructureElementsTree.pdf");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### .NET के लिए Aspose.PDF क्या है?
-Aspose.PDF for .NET एक शक्तिशाली लाइब्रेरी है जिसका उपयोग .NET अनुप्रयोगों में PDF दस्तावेज़ों को बनाने, हेरफेर करने और प्रबंधित करने के लिए किया जाता है।
+.NET के लिए Aspose.PDF एक शक्तिशाली लाइब्रेरी है जिसका उपयोग .NET अनुप्रयोगों में PDF दस्तावेज़ों को बनाने, हेरफेर करने और प्रबंधित करने के लिए किया जाता है।
 
 ### मैं Aspose.PDF के साथ कैसे शुरुआत करूँ?
- लाइब्रेरी को डाउनलोड करके शुरू करें[Aspose वेबसाइट](https://releases.aspose.com/pdf/net/) और इसे अपने .NET वातावरण में सेट अप करना।
+लाइब्रेरी को डाउनलोड करके शुरू करें [Aspose वेबसाइट](https://releases.aspose.com/pdf/net/) और इसे अपने .NET वातावरण में सेट अप करना।
 
 ### क्या मैं खरीदने से पहले Aspose.PDF का परीक्षण कर सकता हूँ?
- हाँ! आप इसे निःशुल्क आज़मा सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/).
+हाँ! आप इसे निःशुल्क आज़मा सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/).
 
 ### मैं Aspose.PDF के संबंध में सहायता कहां पा सकता हूं?
- सहायता के लिए, यहां जाएं[एस्पोज फोरम](https://forum.aspose.com/c/pdf/10) जहाँ आप प्रश्न पूछ सकते हैं और अंतर्दृष्टि साझा कर सकते हैं।
+सहायता के लिए, यहां जाएं [Aspose फ़ोरम](https://forum.aspose.com/c/pdf/10) जहाँ आप प्रश्न पूछ सकते हैं और अंतर्दृष्टि साझा कर सकते हैं।
 
-### मैं अस्थायी लाइसेंस के लिए आवेदन कैसे कर सकता हूँ?
- आप अस्थायी लाइसेंस के लिए आवेदन कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+### मैं अस्थायी लाइसेंस के लिए कैसे आवेदन कर सकता हूँ?
+आप अस्थायी लाइसेंस के लिए आवेदन कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

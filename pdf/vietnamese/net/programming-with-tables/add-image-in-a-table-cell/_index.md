@@ -1,14 +1,16 @@
 ---
-title: Thêm hình ảnh vào ô bảng
-linktitle: Thêm hình ảnh vào ô bảng
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách dễ dàng thêm hình ảnh vào ô bảng bằng Aspose.PDF cho .NET, tăng cường tính hấp dẫn trực quan cho tài liệu PDF của bạn. Có hướng dẫn từng bước.
-weight: 10
-url: /vi/net/programming-with-tables/add-image-in-a-table-cell/
+"description": "Tìm hiểu cách dễ dàng thêm hình ảnh vào ô bảng bằng Aspose.PDF cho .NET, tăng cường tính hấp dẫn trực quan cho tài liệu PDF của bạn. Có hướng dẫn từng bước."
+"linktitle": "Thêm hình ảnh vào ô bảng"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm hình ảnh vào ô bảng"
+"url": "/vi/net/programming-with-tables/add-image-in-a-table-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm hình ảnh vào ô bảng
@@ -27,7 +29,7 @@ Bạn nên có hiểu biết cơ bản về lập trình .NET. Làm quen với C
 
 ### Aspose.PDF cho Thư viện .NET
 
- Hãy đảm bảo bạn có thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống và bắt đầu thử nghiệm! Lấy nó từ[Liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+Hãy đảm bảo bạn có thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống và bắt đầu thử nghiệm! Lấy nó từ [Liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 
 ### Thiết lập IDE
 
@@ -45,7 +47,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn đã nhập
 
 1. Mở Visual Studio (hoặc IDE mà bạn thích).
 2. Tạo một dự án C# mới.
-3.  Tìm Trình quản lý gói NuGet và tìm kiếm`Aspose.PDF`. 
+3. Tìm Trình quản lý gói NuGet và tìm kiếm `Aspose.PDF`. 
 4. Cài đặt gói vào dự án của bạn. Bước này cấp cho ứng dụng của bạn khả năng thao tác tài liệu PDF dễ dàng.
 
 ### Sử dụng Chỉ thị
@@ -75,7 +77,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document();
 ```
 
- Ở đây, chúng tôi đang chỉ định nơi tài liệu của chúng tôi sẽ được lưu và tạo một tài liệu mới`Document` trường hợp cho công việc của chúng tôi. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. 
+Ở đây, chúng tôi đang chỉ định nơi tài liệu của chúng tôi sẽ được lưu và tạo một tài liệu mới `Document` trường hợp cho công việc của chúng tôi. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. 
 
 ## Bước 2: Tạo trang
 
@@ -86,7 +88,7 @@ Tiếp theo, chúng ta thêm một trang vào tài liệu mới tạo. Trang nà
 Page sec1 = pdfDocument.Pages.Add();
 ```
 
- Mỗi`Document` có thể chứa nhiều trang. Trong trường hợp này, chúng ta chỉ thêm một trang.
+Mỗi `Document` có thể chứa nhiều trang. Trong trường hợp này, chúng ta chỉ thêm một trang.
 
 ## Bước 3: Khởi tạo một bảng
 
@@ -97,7 +99,7 @@ Bây giờ, chúng ta hãy tạo bảng của mình:
 Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 ```
 
- Cái này`Table` đối tượng sẽ chứa nội dung của chúng ta, bao gồm cả hình ảnh mà chúng ta dự định thêm vào.
+Cái này `Table` đối tượng sẽ chứa nội dung của chúng ta, bao gồm cả hình ảnh mà chúng ta dự định thêm vào.
 
 ## Bước 4: Thêm Bảng vào Trang
 
@@ -137,7 +139,7 @@ tab1.ColumnWidths = "100 100 120";
 Tiếp theo, chúng ta tạo một hàng và bắt đầu điền ô vào đó:
 
 ```csharp
-//Tạo các hàng trong bảng và sau đó tạo các ô trong các hàng
+// Tạo các hàng trong bảng và sau đó tạo các ô trong các hàng
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("Sample text in cell");
 ```
@@ -146,14 +148,14 @@ Dòng này thêm một hàng vào bảng của chúng ta và điền một số 
 
 ## Bước 8: Thêm hình ảnh vào ô
 
- Bây giờ đến phần thú vị—thêm hình ảnh! Đầu tiên, chúng ta cần khởi tạo`Image` sự vật:
+Bây giờ đến phần thú vị—thêm hình ảnh! Đầu tiên, chúng ta cần khởi tạo `Image` sự vật:
 
 ```csharp
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 img.File = dataDir + "aspose.jpg"; // Đảm bảo bạn cung cấp đường dẫn chính xác
 ```
 
- Hãy chắc chắn thay thế`"aspose.jpg"` bằng tên tệp hình ảnh thực tế của bạn. 
+Hãy chắc chắn thay thế `"aspose.jpg"` bằng tên tệp hình ảnh thực tế của bạn. 
 
 ## Bước 9: Thêm hình ảnh vào ô bảng
 
@@ -162,7 +164,7 @@ Bây giờ chúng ta hãy thêm hình ảnh vào ô thứ hai trong hàng:
 ```csharp
 // Thêm ô chứa hình ảnh
 Aspose.Pdf.Cell cell2 = row1.Cells.Add();
-//Thêm hình ảnh vào ô bảng
+// Thêm hình ảnh vào ô bảng
 cell2.Paragraphs.Add(img);
 ```
 
@@ -206,13 +208,15 @@ Có, bạn có thể thêm nhiều hình ảnh vào một ô của bảng bằng
 Aspose.PDF hỗ trợ nhiều định dạng hình ảnh bao gồm JPEG, PNG, BMP và GIF. Chỉ cần đảm bảo chúng là định dạng hợp lệ.
 
 ### Tôi có cần mua giấy phép để sử dụng Aspose.PDF không?  
- Aspose.PDF cung cấp bản dùng thử miễn phí cho phép bạn khám phá các tính năng của nó. Nếu bạn có kế hoạch sử dụng nó cho mục đích thương mại, bạn cần phải có giấy phép. Bạn có thể lấy một giấy phép từ[đây](https://purchase.aspose.com/buy).
+Aspose.PDF cung cấp bản dùng thử miễn phí cho phép bạn khám phá các tính năng của nó. Nếu bạn có kế hoạch sử dụng nó cho mục đích thương mại, bạn cần phải có giấy phép. Bạn có thể lấy một giấy phép từ [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tìm hỗ trợ về Aspose.PDF ở đâu?  
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được cộng đồng trợ giúp và khắc phục sự cố.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được cộng đồng trợ giúp và khắc phục sự cố.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

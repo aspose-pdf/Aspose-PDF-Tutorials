@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'de Kök Yapısı
-linktitle: Java kullanarak PDF'de Kök Yapısı
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF kullanarak kök yapı manipülasyonunu öğrenin. PDF'ler oluşturun, değiştirin ve geliştirin.
-weight: 11
-url: /tr/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/
+"description": "Aspose.PDF kullanarak kök yapı manipülasyonunu öğrenin. PDF'ler oluşturun, değiştirin ve geliştirin."
+"linktitle": "Java kullanarak PDF'de Kök Yapısı"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'de Kök Yapısı"
+"url": "/tr/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'de Kök Yapısı
@@ -20,7 +22,7 @@ PDF'ler (Taşınabilir Belge Biçimi) belgeleri paylaşmak ve sunmak için yayg�
 
 ## PDF Belge Yapısını Anlamak
 
-Kök yapıya dalmadan önce, bir PDF belgesinin genel yapısını kısaca anlayalım. Bir PDF, sayfalar, yazı tipleri, resimler ve açıklamalar dahil olmak üzere bir nesne hiyerarşisinden oluşur. Bu hiyerarşinin en üstünde kök yapı yer alır.
+Kök yapıya dalmadan önce, bir PDF belgesinin genel yapısını kısaca anlayalım. Bir PDF, sayfalar, yazı tipleri, resimler ve açıklamalar gibi nesnelerin hiyerarşisinden oluşur. Bu hiyerarşinin en üstünde kök yapı yer alır.
 
 ## Kök Yapısı Nedir?
 
@@ -83,7 +85,7 @@ Bu makalede, Java için Aspose.PDF kullanarak PDF belgelerinin kök yapısını 
 
 ### Aspose.PDF for Java kullanarak bir PDF'e nasıl köprü metni ekleyebilirim?
 
-Bir köprü metni eklemek için şunu kullanın:`HyperlinkAnnotation` sınıfını seçin ve hedef URL'yi belirtin.
+Bir köprü metni eklemek için şunu kullanın: `HyperlinkAnnotation` sınıfını seçin ve hedef URL'yi belirtin.
 
 ### Bir PDF belgesini parola ile şifreleyebilir miyim?
 
@@ -100,9 +102,11 @@ Bir PDF belgesinden metni, metin parçaları arasında gezinerek ve metin içeri
 ### Aspose.PDF for Java ile bir PDF belgesini Word veya Excel gibi diğer formatlara dönüştürebilir miyim?
 
 Evet, Aspose.PDF for Java, PDF belgelerini Word ve Excel dahil olmak üzere çeşitli formatlara dönüştürmeyi destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

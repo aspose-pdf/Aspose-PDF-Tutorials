@@ -1,14 +1,16 @@
 ---
-title: รับข้อมูลไฟล์ในไฟล์ PDF
-linktitle: รับข้อมูลไฟล์ในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีใช้ฟีเจอร์ GetFileInfo ในไฟล์ PDF ของ Aspose.PDF สำหรับ .NET เพื่อรับข้อมูลเมตาเกี่ยวกับเอกสาร PDF
-weight: 180
-url: /th/net/programming-with-document/getfileinfo/
+"description": "เรียนรู้วิธีใช้ฟีเจอร์ GetFileInfo ในไฟล์ PDF ของ Aspose.PDF สำหรับ .NET เพื่อรับข้อมูลเมตาเกี่ยวกับเอกสาร PDF"
+"linktitle": "รับข้อมูลไฟล์ในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "รับข้อมูลไฟล์ในไฟล์ PDF"
+"url": "/th/net/programming-with-document/getfileinfo/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับข้อมูลไฟล์ในไฟล์ PDF
@@ -22,7 +24,7 @@ url: /th/net/programming-with-document/getfileinfo/
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด มีบางสิ่งที่คุณต้องมี:
 
 1. Visual Studio: ตรวจสอบว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว ซึ่งจะเป็นสภาพแวดล้อมการพัฒนาของเรา
-2.  Aspose.PDF สำหรับ .NET: คุณต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถรับได้จาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถรับได้จาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
 ## แพ็คเกจนำเข้า
@@ -43,7 +45,7 @@ url: /th/net/programming-with-document/getfileinfo/
 
 1. เปิด Visual Studio และเลือก "สร้างโครงการใหม่"
 2. เลือก "แอปคอนโซล (.NET Framework)" และคลิก "ถัดไป"
-3.  ตั้งชื่อโครงการของคุณ (เช่น`PDFFileInfoExtractor`) แล้วคลิก "สร้าง"
+3. ตั้งชื่อโครงการของคุณ (เช่น `PDFFileInfoExtractor`) แล้วคลิก "สร้าง"
 
 ### เพิ่มการอ้างอิง Aspose.PDF
 
@@ -57,7 +59,7 @@ url: /th/net/programming-with-document/getfileinfo/
 
 ### การเริ่มต้นเอกสาร
 
- ตอนนี้เรามาเขียนโค้ดเพื่อเปิดเอกสาร PDF และดึงข้อมูลออกมา เริ่มต้นด้วยการเพิ่มคำสั่ง using ต่อไปนี้ที่ด้านบนของเอกสาร`Program.cs` ไฟล์:
+ตอนนี้เรามาเขียนโค้ดเพื่อเปิดเอกสาร PDF และดึงข้อมูลออกมา เริ่มต้นด้วยการเพิ่มคำสั่ง using ต่อไปนี้ที่ด้านบนของเอกสารของคุณ `Program.cs` ไฟล์:
 
 ```csharp
 using System.IO;
@@ -100,7 +102,7 @@ Console.WriteLine("Title: {0}", docInfo.Title);
 
 ## บทสรุป
 
-ขอแสดงความยินดี! คุณได้แยกข้อมูลไฟล์จาก PDF สำเร็จแล้วโดยใช้ Aspose.PDF สำหรับ .NET ไลบรารีอันทรงพลังนี้ไม่เพียงแต่ช่วยให้คุณอ่านข้อมูลเมตาได้เท่านั้น แต่ยังมีคุณสมบัติมากมายสำหรับการจัดการไฟล์ PDF อีกด้วย ไม่ว่าคุณจะกำลังพัฒนาระบบการจัดการเอกสารหรือต้องการแยกข้อมูลสำหรับการรายงาน Aspose.PDF จะช่วยคุณได้ 
+ขอแสดงความยินดี! คุณได้แยกข้อมูลไฟล์จาก PDF สำเร็จแล้วโดยใช้ Aspose.PDF สำหรับ .NET ไลบรารีอันทรงพลังนี้ไม่เพียงแต่ช่วยให้คุณอ่านข้อมูลเมตาได้เท่านั้น แต่ยังมีคุณสมบัติมากมายสำหรับการจัดการไฟล์ PDF อีกด้วย ไม่ว่าคุณจะกำลังพัฒนาระบบการจัดการเอกสารหรือเพียงแค่ต้องการแยกข้อมูลสำหรับการรายงาน Aspose.PDF จะช่วยคุณได้ 
 
 ## คำถามที่พบบ่อย
 
@@ -108,19 +110,21 @@ Console.WriteLine("Title: {0}", docInfo.Title);
 Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ในแอปพลิเคชัน .NET ได้
 
 ### ฉันจะติดตั้ง Aspose.PDF ได้อย่างไร?
- คุณสามารถติดตั้ง Aspose.PDF ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หรือดาวน์โหลดจาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/pdf/net/).
+คุณสามารถติดตั้ง Aspose.PDF ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หรือดาวน์โหลดจาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/pdf/net/).
 
 ### ฉันสามารถดึงภาพจาก PDF โดยใช้ Aspose.PDF ได้หรือไม่
 ใช่ Aspose.PDF มีวิธีการในการแยกภาพจากเอกสาร PDF
 
 ### มีรุ่นทดลองใช้งานฟรีสำหรับ Aspose.PDF หรือไม่
- ใช่ คุณสามารถรับการทดลองใช้ฟรีได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/).
+ใช่ คุณสามารถรับการทดลองใช้ฟรีได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/).
 
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.PDF ได้ที่ไหน
- คุณสามารถค้นหาการสนับสนุนและถามคำถามได้ที่[ฟอรั่ม Aspose](https://forum.aspose.com/c/pdf/10).
+คุณสามารถค้นหาการสนับสนุนและถามคำถามได้ที่ [ฟอรั่ม Aspose](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

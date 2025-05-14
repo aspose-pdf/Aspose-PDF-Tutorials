@@ -8,7 +8,9 @@ url: /net/programming-with-forms/grouped-check-boxes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grouped Check Boxes In PDF Document
@@ -168,6 +170,7 @@ Yes, Aspose.PDF allows you to use custom images as radio buttons by setting the 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

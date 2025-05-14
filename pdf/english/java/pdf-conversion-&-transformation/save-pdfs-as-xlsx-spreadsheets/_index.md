@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/save-pdfs-as-xlsx-spreadsheets/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save PDFs as XLSX Spreadsheets
@@ -93,6 +95,7 @@ The conversion accuracy may vary depending on the complexity and structure of th
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

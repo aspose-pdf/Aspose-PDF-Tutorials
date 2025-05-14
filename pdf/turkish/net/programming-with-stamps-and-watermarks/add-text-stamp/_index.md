@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına Metin Damgası Ekle
-linktitle: PDF Dosyasına Metin Damgası Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET'i kullanarak adım adım bir PDF dosyasına metin damgası eklemeyi öğrenin ve belge sunumlarınızı bir üst seviyeye taşıyın.
-weight: 50
-url: /tr/net/programming-with-stamps-and-watermarks/add-text-stamp/
+"description": "Aspose.PDF for .NET'i kullanarak adım adım bir PDF dosyasına metin damgası eklemeyi öğrenin ve belge sunumlarınızı bir üst seviyeye taşıyın."
+"linktitle": "PDF Dosyasına Metin Damgası Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Metin Damgası Ekle"
+"url": "/tr/net/programming-with-stamps-and-watermarks/add-text-stamp/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Metin Damgası Ekle
@@ -21,7 +23,7 @@ Günümüzün dijital çağında, PDF'ler belgeleri paylaşmak ve iletmek için 
 
 Koda geçmeden önce, her şeyin doğru şekilde ayarlandığından emin olmak için birkaç ön koşul var. İhtiyacınız olanlar şunlar:
 
-1.  .NET için Aspose.PDF: Projenizde Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu henüz yapmadıysanız, şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Projenizde Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu henüz yapmadıysanız, şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio veya Uyumlu IDE: .NET kodunuzu yazmak ve çalıştırmak için bir geliştirme ortamına ihtiyacınız olacak. Visual Studio, geliştiriciler arasında en yaygın tercihtir.
 3. Temel C# Bilgisi: C# ve nesne yönelimli programlama prensiplerine aşinalık, örnekleri daha iyi anlamanıza yardımcı olacaktır.
 4. Örnek PDF Dosyası: Çalışmaya hazır bir PDF dosyanız olmalı. İşlevselliği test etmek için temel bir PDF oluşturabilir veya mevcut herhangi bir PDF'yi kullanabilirsiniz.
@@ -56,18 +58,18 @@ Bu, PDF belgelerini oluşturmak ve düzenlemek için gerekli olan derslere eriş
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Açıklama: Değiştir`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile (`AddTextStamp.pdf`) saklanır. Bu yol daha sonra değiştirilen PDF'yi açmak ve kaydetmek için kullanılır.
+Açıklama: Değiştir `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile (`AddTextStamp.pdf`) saklanır. Bu yol daha sonra değiştirilen PDF'yi açmak ve kaydetmek için kullanılır.
 
 ## Adım 2: PDF Belgesini açın
 
- Daha sonra PDF belgesini şu şekilde açacağız:`Document` Aspose.PDF ad alanından sınıf.
+Daha sonra PDF belgesini şu şekilde açacağız: `Document` Aspose.PDF ad alanından sınıf.
 
 ```csharp
 // Belgeyi aç
 Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 ```
 
- Açıklama: Burada, bir örnek oluşturuyoruz`Document` sınıf ve PDF dosyamıza giden yolu geçiriyoruz. Bu, PDF'yi yükleyecek ve böylece onu düzenleyebileceğiz.
+Açıklama: Burada, bir örnek oluşturuyoruz `Document` sınıf ve PDF dosyamıza giden yolu geçiriyoruz. Bu, PDF'yi yükleyecek ve böylece onu düzenleyebileceğiz.
 
 ## Adım 3: Bir Metin Damgası Oluşturun
 
@@ -78,7 +80,7 @@ Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 TextStamp textStamp = new TextStamp("Sample Stamp");
 ```
 
- Açıklama:`TextStamp` nesne, görüntülemek istediğiniz metinle oluşturulur. Bu durumda, damgamız için metin olarak "Örnek Damga"yı kullanıyoruz.
+Açıklama: `TextStamp` nesne, görüntülemek istediğiniz metinle oluşturulur. Bu durumda, damgamız için metin olarak "Örnek Damga"yı kullanıyoruz.
 
 ## Adım 4: Damga Özelliklerini Ayarlayın
 
@@ -97,7 +99,7 @@ textStamp.Rotate = Rotation.on90;
 ```
 
 Açıklama:
-- Arka Plan: Bunu şu şekilde ayarlayın:`true` damganın PDF içeriğinin arkasında görüneceği anlamına gelir.
+- Arka Plan: Bunu şu şekilde ayarlayın: `true` damganın PDF içeriğinin arkasında görüneceği anlamına gelir.
 - XIndent ve YIndent: Bu özellikler damganın sayfadaki konumunu belirler. Bu örnekte, damga sayfanın sol ve üst kenarlarından 100 birim uzağa yerleştirilecektir.
 - Döndür: Bu, damgayı 90 derece döndürür. Tasarım gereksinimlerinize göre farklı döndürme seçenekleri seçebilirsiniz.
 
@@ -145,7 +147,7 @@ Açıklama: Çıktı dosyası için yeni bir yol tanımlıyoruz ve ardından de�
 
 ## Çözüm
 
-Tebrikler! Aspose.PDF for .NET kullanarak bir PDF dosyasına başarıyla bir metin damgası eklediniz. Bu yöntem, belgelerinize etkili bir şekilde açıklama eklemenizi, hem profesyonelliklerini hem de kullanılabilirliklerini artırmanızı sağlar. Filigran, imza veya basit notlar ekliyor olun, Aspose kitaplığı PDF'lerinizi kolaylıkla düzenlemeniz için güçlü araçlar sunar.
+Tebrikler! Aspose.PDF for .NET kullanarak bir PDF dosyasına başarıyla bir metin damgası eklediniz. Bu yöntem, hem profesyonelliklerini hem de kullanılabilirliklerini artırarak belgelerinize etkili bir şekilde açıklama eklemenizi sağlar. Filigran, imza veya basit notlar ekliyor olun, Aspose kitaplığı PDF'lerinizi kolaylıkla düzenlemeniz için güçlü araçlar sunar.
 
 ## SSS
 
@@ -159,13 +161,15 @@ Evet, Aspose.PDF resim damgalarının eklenmesini de destekliyor ve bu da daha f
 Aspose.PDF öncelikli olarak .NET'e odaklanmıştır, ancak Java ve Python gibi diğer diller için de sürümleri mevcuttur.
 
 ### Aspose.PDF için geçici lisansı nasıl alabilirim?
- Geçici lisans başvurusunu şu adresten yapabilirsiniz:[satın alma bağlantısı](https://purchase.aspose.com/temporary-license/) web sitelerinde.
+Geçici lisans başvurusunu şu adresten yapabilirsiniz: [satın alma bağlantısı](https://purchase.aspose.com/temporary-license/) web sitelerinde.
 
 ### Aspose.PDF için desteği nerede bulabilirim?
- Aspose.PDF desteği şu adreste mevcuttur:[destek forumu](https://forum.aspose.com/c/pdf/10).
+Aspose.PDF desteği şu adreste mevcuttur: [destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Podświetl znak w pliku PDF
-linktitle: Podświetl znak w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Naucz się wyróżniać znaki w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku.
-weight: 240
-url: /pl/net/programming-with-text/highlight-character-in-pdf/
+"description": "Naucz się wyróżniać znaki w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku."
+"linktitle": "Podświetl znak w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Podświetl znak w pliku PDF"
+"url": "/pl/net/programming-with-text/highlight-character-in-pdf/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podświetl znak w pliku PDF
@@ -22,7 +24,7 @@ Jeśli chodzi o pracę z plikami PDF, często pojawia się potrzeba wyróżnieni
 Zanim przejdziemy do kodu, upewnijmy się, że mamy wszystko, czego potrzebujemy. Oto, czego będziesz potrzebować:
 
 1. Środowisko programistyczne: W tym samouczku założono, że pracujesz w programie Visual Studio lub podobnym środowisku IDE platformy .NET.
-2.  Aspose.PDF dla biblioteki .NET: Jeśli jeszcze tego nie zrobiłeś, możesz to zrobić[pobierz tutaj](https://releases.aspose.com/pdf/net/) i dodaj do swojego projektu. 
+2. Aspose.PDF dla biblioteki .NET: Jeśli jeszcze tego nie zrobiłeś, możesz to zrobić [pobierz tutaj](https://releases.aspose.com/pdf/net/) i dodaj do swojego projektu. 
 3. Podstawowa wiedza o języku C#: Wprowadzenie do programowania w języku C# pomoże Ci łatwo zrozumieć implementację.
 4. Dokument PDF: Powinieneś mieć przykładowy plik PDF gotowy do pracy. Możesz go utworzyć lub wykorzystać istniejący dokument.
 
@@ -52,7 +54,7 @@ Pierwszym krokiem jest zainicjowanie dokumentu PDF. Wiąże się to z załadowan
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Upewnij się, że ścieżka jest prawidłowa.
 Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(dataDir + "input.pdf");
 ```
- tym fragmencie kodu zamień`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką na twoim komputerze, gdzie znajduje się twój plik wejściowy PDF.`Aspose.Pdf.Document` Klasa jest tworzona w celu załadowania pliku PDF.
+W tym fragmencie kodu zamień `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką na twoim komputerze, gdzie znajduje się twój plik wejściowy PDF. `Aspose.Pdf.Document` Klasa jest tworzona w celu załadowania pliku PDF.
 
 ## Krok 2: Skonfiguruj proces renderowania
 
@@ -67,7 +69,7 @@ using (MemoryStream ms = new MemoryStream())
     conv.GetNextImage(ms, System.Drawing.Imaging.ImageFormat.Png);
     Bitmap bmp = (Bitmap)Bitmap.FromStream(ms);
 ```
- Definiujemy rozdzielczość dla przejrzystości, umożliwiającą prawidłowe renderowanie tekstu.`PdfConverter`zamienia strony PDF-u w obrazy, dzięki czemu możemy na nich rysować.
+Definiujemy rozdzielczość dla przejrzystości, umożliwiającą prawidłowe renderowanie tekstu. `PdfConverter` zamienia strony PDF-u w obrazy, dzięki czemu możemy na nich rysować.
 
 ## Krok 3: Utwórz obiekt graficzny do rysowania
 
@@ -93,7 +95,7 @@ for (int i = 0; i < pdfDocument.Pages.Count; i++)
     textFragmentAbsorber.TextSearchOptions.IsRegularExpressionUsed = true;
     page.Accept(textFragmentAbsorber);
 ```
- Uzyskujemy dostęp do każdej strony i szukamy całego tekstu za pomocą`TextFragmentAbsorber` . Wzorzec wyrażenia regularnego`@"[\S]+"` wychwytuje wszystkie znaki inne niż spacje.
+Uzyskujemy dostęp do każdej strony i szukamy całego tekstu za pomocą `TextFragmentAbsorber`. Wzorzec wyrażenia regularnego `@"[\S]+"` wychwytuje wszystkie znaki inne niż spacje.
 
 ## Krok 5: Wyodrębnij fragmenty tekstu i wyróżnij je
 
@@ -139,7 +141,7 @@ Na koniec, dobrą praktyką jest umieszczenie kodu w bloku try-catch, co pozwoli
 ```csharp
 catch (Exception ex)
 {
-    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://zakup.aspose.com/tymczasowa-licencja/).");
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://purchase.aspose.com/temporary-license/).");
 }
 ```
 
@@ -155,7 +157,7 @@ masz to! Udało Ci się wyróżnić znaki w pliku PDF za pomocą Aspose.PDF dla 
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF w aplikacjach .NET.
 
 ### Czy mogę zaznaczyć wiele fragmentów tekstu jednocześnie?
-Tak, udostępniony kod można dostosować tak, aby wyróżniał wiele fragmentów, poprzez pętlenie po całym tekście w pliku PDF.
+Tak, udostępniony kod można dostosować tak, aby wyróżniał wiele fragmentów, przechodząc przez cały tekst w pliku PDF.
 
 ### Czy istnieje darmowa wersja Aspose.PDF?
 Tak, Aspose oferuje bezpłatną wersję próbną, dzięki czemu możesz przetestować bibliotekę przed zakupem.
@@ -164,10 +166,12 @@ Tak, Aspose oferuje bezpłatną wersję próbną, dzięki czemu możesz przetest
 Tak, do użytku komercyjnego wymagana jest ważna licencja, ale można nabyć 30-dniową licencję tymczasową w celach testowych.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Możesz zapoznać się z[Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/) aby uzyskać bardziej szczegółowe informacje na temat implementacji i funkcji.
+Możesz zapoznać się z [Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/) aby uzyskać bardziej szczegółowe informacje na temat implementacji i funkcji.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

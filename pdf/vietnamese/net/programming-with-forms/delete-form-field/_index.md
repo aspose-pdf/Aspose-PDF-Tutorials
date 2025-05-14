@@ -1,14 +1,16 @@
 ---
-title: Xóa trường biểu mẫu trong tài liệu PDF
-linktitle: Xóa trường biểu mẫu trong tài liệu PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xóa các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và những người đam mê PDF.
-weight: 50
-url: /vi/net/programming-with-forms/delete-form-field/
+"description": "Tìm hiểu cách xóa các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và những người đam mê PDF."
+"linktitle": "Xóa trường biểu mẫu trong tài liệu PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xóa trường biểu mẫu trong tài liệu PDF"
+"url": "/vi/net/programming-with-forms/delete-form-field/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa trường biểu mẫu trong tài liệu PDF
@@ -22,7 +24,7 @@ Bạn đã bao giờ thấy mình trong tình huống cần phải sửa đổi 
 Trước khi đi sâu vào cách xóa các trường biểu mẫu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi chúng ta sẽ viết và thực thi mã của mình.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã chúng ta sẽ sử dụng.
 4. Tài liệu PDF mẫu: Chuẩn bị sẵn một tài liệu PDF có chứa các trường biểu mẫu. Bạn có thể tạo một tài liệu bằng bất kỳ trình chỉnh sửa PDF nào hoặc tải xuống một mẫu.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Mở Tài liệu PDF
 
- Tiếp theo, chúng ta cần mở tài liệu PDF có chứa trường biểu mẫu bạn muốn xóa. Điều này được thực hiện bằng cách sử dụng`Document` lớp từ thư viện Aspose.PDF.
+Tiếp theo, chúng ta cần mở tài liệu PDF có chứa trường biểu mẫu bạn muốn xóa. Điều này được thực hiện bằng cách sử dụng `Document` lớp từ thư viện Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "DeleteFormField.pdf");
@@ -58,7 +60,7 @@ Document pdfDocument = new Document(dataDir + "DeleteFormField.pdf");
 
 ## Bước 3: Xóa trường biểu mẫu
 
-Bây giờ đến phần thú vị! Chúng ta sẽ xóa trường biểu mẫu cụ thể theo tên của nó. Trong ví dụ này, chúng ta đang nhắm mục tiêu đến hộp văn bản có tên "textbox1". Đảm bảo thay thế "textbox1" bằng tên thực tế của trường bạn muốn xóa.
+Bây giờ đến phần thú vị! Chúng ta sẽ xóa trường biểu mẫu cụ thể theo tên của nó. Trong ví dụ này, chúng ta đang nhắm mục tiêu đến hộp văn bản có tên là "textbox1". Đảm bảo thay thế "textbox1" bằng tên thực tế của trường bạn muốn xóa.
 
 ```csharp
 pdfDocument.Form.Delete("textbox1");
@@ -88,22 +90,24 @@ Và bạn đã có nó! Xóa trường biểu mẫu khỏi tài liệu PDF bằn
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể xóa nhiều trường biểu mẫu cùng lúc không?
 Có, bạn có thể lặp qua các trường biểu mẫu và xóa nhiều trường theo tên của chúng.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí của Aspose.PDF[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí của Aspose.PDF [đây](https://releases.aspose.com/).
 
 ### Tôi phải làm sao nếu không biết tên trường biểu mẫu?
- Bạn có thể liệt kê tất cả các trường biểu mẫu trong tài liệu bằng cách sử dụng`pdfDocument.Form` thuộc tính để tìm tên.
+Bạn có thể liệt kê tất cả các trường biểu mẫu trong tài liệu bằng cách sử dụng `pdfDocument.Form` thuộc tính để tìm tên.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể nhận được sự hỗ trợ từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được sự hỗ trợ từ diễn đàn cộng đồng Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

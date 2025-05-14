@@ -1,40 +1,42 @@
 ---
-title: Szövegbélyegző hozzáadása PDF-fájlhoz
-linktitle: Szövegbélyegző hozzáadása PDF-fájlhoz
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan adhat szövegbélyeget egy PDF-fájlhoz az Aspose.PDF for .NET használatával lépésenkénti útmutatónkkal, és emelje fel a dokumentumbemutatókat.
-weight: 50
-url: /hu/net/programming-with-stamps-and-watermarks/add-text-stamp/
+"description": "Tanuld meg lépésről lépésre bemutatónkkal, hogyan adhatsz hozzá szövegbélyegzőt egy PDF fájlhoz az Aspose.PDF for .NET segítségével, és hogyan emelheted dokumentumbemutatóid színvonalát."
+"linktitle": "Szövegbélyegző hozzáadása PDF fájlhoz"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Szövegbélyegző hozzáadása PDF fájlhoz"
+"url": "/hu/net/programming-with-stamps-and-watermarks/add-text-stamp/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szövegbélyegző hozzáadása PDF-fájlhoz
+# Szövegbélyegző hozzáadása PDF fájlhoz
 
 ## Bevezetés
 
-mai digitális korban a PDF-ek a dokumentumok megosztásának és kézbesítésének elterjedt formátuma. Legyen szó fejlesztőről, tartalomkészítőről vagy csak PDF-fájljait javítani kívánó személyről, a PDF-ek programozott kezelésének ismerete megváltoztathatja a játékot. Az egyik remek funkció, amelyet érdemes használni, az a lehetőség, hogy szöveges bélyegzőket adjon hozzá a PDF-fájlokhoz. Szöveges bélyegző hozzáadásával professzionális megjelenést kölcsönözhet a dokumentumoknak, vagy olyan fontos információkat közvetíthet, mint a „Minta”, „Bizalmas” vagy akár egy vízjel.
+mai digitális korban a PDF fájlok elterjedt formátumot jelentenek a dokumentumok megosztására és kézbesítésére. Akár fejlesztő, tartalomkészítő, vagy csak valaki, aki PDF-fájljait szeretné javítani, a PDF-ek programozott kezelésének ismerete gyökeresen megváltoztathatja a játékszabályokat. Egy hasznos funkció, amelyet érdemes lehet kihasználni, a szövegbélyegzők hozzáadása a PDF-fájlokhoz. Egy szövegbélyegző hozzáadásával professzionális megjelenést kölcsönözhet dokumentumainak, vagy fontos információkat közvetíthet, például „Minta”, „Bizalmas” vagy akár vízjelet.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, van néhány előfeltétel annak biztosítására, hogy minden megfelelően be legyen állítva. Íme, amire szüksége lesz:
+Mielőtt belevágnánk a kódba, van néhány előfeltétel, hogy minden megfelelően legyen beállítva. Íme, amire szükséged lesz:
 
-1.  Aspose.PDF for .NET: Győződjön meg arról, hogy az Aspose.PDF könyvtár telepítve van a projektben. Ha még nem tette meg, letöltheti a webhelyről[Aspose honlapja](https://releases.aspose.com/pdf/net/).
-2. Visual Studio vagy kompatibilis IDE: A .NET-kód írásához és futtatásához fejlesztői környezetre lesz szüksége. A Visual Studio a leggyakoribb választás a fejlesztők körében.
-3. Alapvető C# ismerete: A C# és az objektumorientált programozási elvek ismerete segít a példák jobb megértésében.
-4. Minta PDF fájl: rendelkeznie kell egy PDF-fájllal, amely készen áll a használatra. Létrehozhat egy alap PDF-t, vagy bármilyen meglévő PDF-et használhat a működés teszteléséhez.
+1. Aspose.PDF .NET-hez: Győződjön meg róla, hogy az Aspose.PDF könyvtár telepítve van a projektjében. Ha még nem tette meg, letöltheti innen: [Aspose weboldal](https://releases.aspose.com/pdf/net/).
+2. Visual Studio vagy kompatibilis IDE: Szükséged lesz egy fejlesztői környezetre a .NET kódod írásához és futtatásához. A Visual Studio a leggyakoribb választás a fejlesztők körében.
+3. C# alapismeretek: A C# és az objektumorientált programozási alapelvek ismerete segít jobban megérteni a példákat.
+4. Minta PDF fájl: Készen kell állnia egy PDF fájllal a munkához. Létrehozhat egy alap PDF fájlt, vagy használhat bármilyen meglévő PDF fájlt a funkcionalitás teszteléséhez.
 
-Ha ezeket az előfeltételeket rendezted, folytathatjuk a kódolást!
+Miután ezeket az előfeltételeket rendeztük, továbbléphetünk a kódolásra!
 
 ## Csomagok importálása
 
-Most importáljuk a szükséges csomagokat. Ez a lépés kulcsfontosságú, mivel elérhetővé teszi az Aspose könyvtár osztályait és metódusait a projektben.
+Most importáljuk a szükséges csomagokat. Ez a lépés kulcsfontosságú, mivel az Aspose könyvtár osztályai és metódusai elérhetővé válnak a projektedben.
 
-### Importálja az Aspose.PDF Assembly fájlt
+### Aspose.PDF összeállítás importálása
 
-A kezdéshez importálnia kell az Aspose.PDF névteret. Adja hozzá a következőt a C# fájl tetejéhez direktíva használatával:
+Első lépésként importálnod kell az Aspose.PDF névteret. A C# fájlod tetejére add hozzá a következő using direktívát:
 
 ```csharp
 using System.IO;
@@ -43,70 +45,70 @@ using Aspose.Pdf.Text;
 using System;
 ```
 
-Ez lehetővé teszi a PDF dokumentumok létrehozásához és kezeléséhez nélkülözhetetlen osztályokhoz való hozzáférést.
+Ez lehetővé teszi a PDF dokumentumok létrehozásához és kezeléséhez elengedhetetlen kurzusok elérését.
 
-Most pedig térjünk rá az oktatóanyag lényegére. A folyamatot világos és tömör lépésekre bontjuk. Minden lépés végigvezeti Önt a kódon, amellyel szövegbélyeget adhat egy PDF-fájlhoz.
+Most pedig térjünk rá az oktatóanyag lényegére. A folyamatot világos és tömör lépésekre bontjuk. Minden lépés végigvezet a kódon, hogy hogyan adhatsz hozzá szövegbélyegzőt egy PDF-fájlhoz.
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár beállítása
 
-Először is létre kell hoznia azt a könyvtárat, ahol a PDF dokumentumot tárolja. Ez azt jelenti, hogy a kódnak tudnia kell, hol találja a szerkeszteni kívánt PDF-fájlt.
+Először is meg kell határoznod azt a könyvtárat, ahová a PDF dokumentumod tárolva van. Ez azt jelenti, hogy a kódodnak tudnia kell, hol találja a szerkeszteni kívánt PDF fájlt.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Magyarázat: Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal, ahol a PDF-fájl (`AddTextStamp.pdf`) tárolva van. Ezt az elérési utat használja később a módosított PDF megnyitásához és mentéséhez.
+Magyarázat: Csere `"YOUR DOCUMENT DIRECTORY"` a PDF-fájl tényleges elérési útjával (`AddTextStamp.pdf`) tárolva van. Ezt az elérési utat később a módosított PDF megnyitásához és mentéséhez használják.
 
-## 2. lépés: Nyissa meg a PDF-dokumentumot
+## 2. lépés: Nyissa meg a PDF dokumentumot
 
- Ezután megnyitjuk a PDF dokumentumot a`Document` osztályt az Aspose.PDF névtérből.
+Ezután megnyitjuk a PDF dokumentumot a következővel: `Document` osztály az Aspose.PDF névtérből.
 
 ```csharp
-// Nyissa meg a dokumentumot
+// Dokumentum megnyitása
 Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 ```
 
- Magyarázat: Itt egy példányt hozunk létre a`Document` osztályt, és átadjuk a PDF fájlunk elérési útját. Ez betölti a PDF-fájlt, hogy manipulálhassuk.
+Magyarázat: Itt létrehozunk egy példányt a következőből: `Document` osztályt, és átadjuk a PDF fájlunk elérési útját. Ez betölti a PDF-et, hogy manipulálhassuk.
 
-## 3. lépés: Hozzon létre egy szövegbélyeget
+## 3. lépés: Szövegbélyegző létrehozása
 
-Most létrehozunk egy szövegbélyeget, amelyet később a PDF dokumentumunkra fogunk alkalmazni.
+Most létrehozunk egy szövegbélyegzőt, amelyet később a PDF dokumentumunkra fogunk alkalmazni.
 
 ```csharp
-// Szöveges bélyegző létrehozása
+// Szövegbélyeg létrehozása
 TextStamp textStamp = new TextStamp("Sample Stamp");
 ```
 
- Magyarázat: A`TextStamp` objektum jön létre a megjeleníteni kívánt szöveggel. Ebben az esetben a "Mintabélyegző" szöveget használjuk a bélyegzőnk szövegeként.
+Magyarázat: A `TextStamp` Az objektum létrejön a megjeleníteni kívánt szöveggel. Ebben az esetben a "Mintabélyegző" szöveget használjuk a bélyegző szövegeként.
 
-## 4. lépés: Állítsa be a bélyegző tulajdonságait
+## 4. lépés: Bélyegző tulajdonságainak beállítása
 
-A bélyegző testreszabásához különféle tulajdonságokat állíthatunk be, például a háttérszínt, a pozíciót és az elforgatást. Tegyük meg most:
+A bélyegző testreszabásához különféle tulajdonságokat állíthatunk be, például a háttérszínt, a pozíciót és az elforgatást. Tegyük ezt meg most:
 
 ```csharp
-// Állítsa be, hogy a bélyegző háttér legyen-e
+// Beállítja, hogy a bélyegző háttérként szolgáljon-e
 textStamp.Background = true;
 
-// Állítsa be az eredetet
+// Eredet megadása
 textStamp.XIndent = 100;
 textStamp.YIndent = 100;
 
-// Bélyegző forgatása
+// Bélyegző elforgatása
 textStamp.Rotate = Rotation.on90;
 ```
 
 Magyarázat:
-- Háttér: ennek beállítása`true` azt jelenti, hogy a bélyegző megjelenik a PDF tartalma mögött.
-- XIndent & YIndent: Ezek a tulajdonságok határozzák meg a bélyegző pozícióját az oldalon. Ebben a példában a bélyegző 100 egységnyire lesz elhelyezve az oldal bal és felső szélétől.
-- Elforgatás: 90 fokkal elforgatja a bélyegzőt. Különböző forgatási lehetőségek közül választhat a tervezési igények alapján.
+- Háttér: Ennek beállítása `true` azt jelenti, hogy a bélyegző a PDF tartalma mögött fog megjelenni.
+- XIndent és YIndent: Ezek a tulajdonságok határozzák meg a bélyegző pozícióját az oldalon. Ebben a példában a bélyegző az oldal bal és felső szélétől 100 egységnyire kerül elhelyezésre.
+- Forgatás: Ez a funkció 90 fokkal elforgatja a bélyegzőt. A tervezési követelményektől függően különböző forgatási beállításokat választhat.
 
-## 5. lépés: A szövegtulajdonságok testreszabása
+## 5. lépés: Szövegtulajdonságok testreszabása
 
 Ezután legyünk kreatívak a bélyegzőn belüli szöveg megjelenésének testreszabásával:
 
 ```csharp
-// Állítsa be a szöveg tulajdonságait
+// Szövegtulajdonságok beállítása
 textStamp.TextState.Font = FontRepository.FindFont("Arial");
 textStamp.TextState.FontSize = 14.0F;
 textStamp.TextState.FontStyle = FontStyles.Bold | FontStyles.Italic;
@@ -114,58 +116,60 @@ textStamp.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(Color.Aqua);
 ```
 
 Magyarázat:
-- Betűtípus: Az Arial betűtípust használjuk, félkövérre és dőltre szedjük.
-- Betűméret: 14 pontra van állítva.
-- ForegroundColor: RGB használatával állítsa be a szöveg színét Aqua-ra. Nyugodtan változtassa meg a színt, hogy megfeleljen márka- vagy tervezési igényeinek!
+- Betűtípus: Az Arial betűtípust használjuk, félkövér és dőlt betűtípussal.
+- Betűméret: 14 pontra van beállítva.
+- Előtérszín: Az RGB színskálát használva állítsd be a szöveg színét Aqua-ra. Nyugodtan módosítsd a színt a márkajelzésednek vagy a tervezési igényeidnek megfelelően!
 
-## 6. lépés: Bélyegző hozzáadása a PDF-oldalhoz
+## 6. lépés: Bélyegző hozzáadása a PDF oldalhoz
 
-Itt az ideje, hogy a bélyegzőt a PDF-dokumentum egy adott oldalára helyezze.
+Most itt az ideje, hogy a bélyegzőt a PDF dokumentum egy adott oldalához adjuk.
 
 ```csharp
-// Bélyegző hozzáadása az adott oldalhoz
+// Bélyegző hozzáadása egy adott oldalhoz
 pdfDocument.Pages[1].AddStamp(textStamp);
 ```
 
-Magyarázat: Ebben a példában a bélyegző a PDF első oldalához kerül (az oldalak 1 indexeltek). Állítsa be a dokumentum oldalszámát, ha szükséges.
+Magyarázat: Ebben a példában a bélyegző a PDF első oldalára kerül (az oldalak 1-es indexűek). Szükség szerint állítsa be az oldalszámozást a dokumentumhoz.
 
-## 7. lépés: Mentse el a módosított PDF fájlt
+## 7. lépés: Mentse el a módosított PDF-et
 
 Végül mentsük el a dokumentumot az újonnan hozzáadott szövegbélyegzővel.
 
 ```csharp
 dataDir = dataDir + "AddTextStamp_out.pdf";
 
-// Mentse a kimeneti dokumentumot
+// Kimeneti dokumentum mentése
 pdfDocument.Save(dataDir);
 Console.WriteLine("\nText stamp added successfully.\nFile saved at " + dataDir);
 ```
 
-Magyarázat: Meghatározunk egy új elérési utat a kimeneti fájlhoz, majd mentjük a módosított dokumentumot. Mentés után az elérési út kinyomtatásra kerül a konzolra, megerősítve a sikeres műveletet.
+Magyarázat: Új elérési utat definiálunk a kimeneti fájlhoz, majd mentjük a módosított dokumentumot. A mentés után az elérési út megjelenik a konzolon, megerősítve a sikeres műveletet.
 
 ## Következtetés
 
-Gratulálok! Sikeresen hozzáadott egy szövegbélyeget egy PDF-fájlhoz az Aspose.PDF for .NET használatával. Ez a módszer lehetővé teszi, hogy hatékonyan jegyezze fel a dokumentumokat, javítva azok professzionalizmusát és használhatóságát. Akár vízjeleket, aláírásokat vagy egyszerű jegyzeteket ad hozzá, az Aspose könyvtár hatékony eszközöket biztosít a PDF-fájlok egyszerű kezeléséhez.
+Gratulálunk! Sikeresen hozzáadott egy szövegbélyegzőt egy PDF-fájlhoz az Aspose.PDF for .NET segítségével. Ez a módszer lehetővé teszi a dokumentumok hatékony megjegyzésekkel való ellátását, javítva azok professzionalizmusát és használhatóságát. Akár vízjeleket, aláírásokat vagy egyszerű jegyzeteket ad hozzá, az Aspose könyvtár hatékony eszközöket kínál a PDF-fájlok egyszerű kezeléséhez.
 
 ## GYIK
 
-### Mi az a szövegbélyeg a PDF-ben?
-A szövegbélyegző egy grafikus fedvény, amely szöveget tartalmaz, amely PDF-dokumentumra helyezhető, és gyakran használják megjegyzésekhez vagy vízjelekhez.
+### Mi az a szövegbélyegző egy PDF-ben?
+A szövegbélyegző egy grafikus, szöveget tartalmazó réteg, amely elhelyezhető egy PDF dokumentumon, gyakran jegyzetekhez vagy vízjelekhez használják.
 
 ### Testreszabhatom a bélyegzőt képekkel?
-Igen, az Aspose.PDF támogatja a képbélyegzők hozzáadását is, így nagyobb rugalmasságot biztosít a tervezéshez.
+Igen, az Aspose.PDF képbélyegzők hozzáadását is támogatja, ami nagyobb tervezési rugalmasságot biztosít.
 
-### Milyen programozási nyelveket használhatok az Aspose.PDF-hez?
-Az Aspose.PDF elsősorban a .NET-re összpontosít, de vannak verziók más nyelvekre is, például a Java és a Python számára.
+### Milyen programozási nyelveket használhatok az Aspose.PDF-fel?
+Az Aspose.PDF elsősorban .NET-re fókuszál, de más nyelvekhez, például Java-hoz és Pythonhoz is elérhetők verziók.
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.PDF fájlhoz?
- Ideiglenes jogosítványt igényelhet a címen[vásárlási link](https://purchase.aspose.com/temporary-license/) a honlapjukon.
+Ideiglenes jogosítványt igényelhet a következő címen: [vásárlási link](https://purchase.aspose.com/temporary-license/) weboldalukon.
 
-### Hol találok támogatást az Aspose.PDF számára?
- Az Aspose.PDF támogatása elérhető ezeken[támogatási fórum](https://forum.aspose.com/c/pdf/10).
+### Hol találok támogatást az Aspose.PDF-hez?
+Az Aspose.PDF támogatása elérhető a következő címen: [támogatási fórum](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

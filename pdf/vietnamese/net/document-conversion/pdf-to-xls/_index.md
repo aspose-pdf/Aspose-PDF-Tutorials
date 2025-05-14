@@ -1,14 +1,16 @@
 ---
-title: PDF sang XLS
-linktitle: PDF sang XLS
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Dễ dàng chuyển đổi tệp PDF sang định dạng XLS bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để trích xuất dữ liệu liền mạch.
-weight: 200
-url: /vi/net/document-conversion/pdf-to-xls/
+"description": "Dễ dàng chuyển đổi tệp PDF sang định dạng XLS bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để trích xuất dữ liệu liền mạch."
+"linktitle": "PDF sang XLS"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "PDF sang XLS"
+"url": "/vi/net/document-conversion/pdf-to-xls/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF sang XLS
@@ -22,7 +24,7 @@ Trong thế giới kỹ thuật số ngày nay, dữ liệu thường bị khóa
 Trước khi đi sâu vào cách chuyển đổi PDF sang XLS, bạn cần lưu ý một số điều sau:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Aspose.PDF cho .NET tương thích với nhiều phiên bản khác nhau, vì vậy hãy kiểm tra tài liệu để biết thông tin chi tiết.
-2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy phiên bản mới nhất[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy phiên bản mới nhất [đây](https://releases.aspose.com/pdf/net/).
 3. Môi trường phát triển: Một IDE phù hợp như Visual Studio sẽ giúp cuộc sống của bạn dễ dàng hơn. Hãy đảm bảo bạn đã thiết lập và sẵn sàng sử dụng.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã chúng ta sẽ sử dụng.
 5. Tệp PDF mẫu: Chuẩn bị tệp PDF mẫu để chuyển đổi. Bạn có thể tạo một tệp hoặc tải xuống mẫu từ internet.
@@ -48,7 +50,7 @@ Trước tiên, bạn cần chỉ định đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn. Điều này giống như việc thiết lập sân khấu cho buổi biểu diễn của bạn; mọi thứ cần phải ở đúng vị trí!
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn. Điều này giống như việc thiết lập sân khấu cho buổi biểu diễn của bạn; mọi thứ cần phải ở đúng vị trí!
 
 ## Bước 2: Tải Tài liệu PDF
 
@@ -59,7 +61,7 @@ Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc tải 
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Trong dòng này, chúng tôi đang tạo một phiên bản mới của`Document`lớp và truyền đường dẫn đến tệp PDF của chúng tôi. Giống như mở một cuốn sách; bạn cần phải có nó trước mặt để đọc!
+Trong dòng này, chúng tôi đang tạo một phiên bản mới của `Document` lớp và truyền đường dẫn đến tệp PDF của chúng tôi. Giống như mở một cuốn sách; bạn cần phải có nó trước mặt để đọc!
 
 ## Bước 3: Khởi tạo tùy chọn ExcelSave
 
@@ -70,7 +72,7 @@ Trước khi lưu PDF dưới dạng tệp XLS, chúng ta cần chỉ định c�
 Aspose.Pdf.ExcelSaveOptions excelsave = new ExcelSaveOptions();
 ```
 
- Bằng cách tạo ra một trường hợp của`ExcelSaveOptions`, bạn đang chuẩn bị các thiết lập cho quá trình chuyển đổi của mình. Hãy nghĩ về việc lựa chọn đúng công cụ trước khi bắt đầu một dự án DIY!
+Bằng cách tạo ra một trường hợp của `ExcelSaveOptions`, bạn đang chuẩn bị các thiết lập cho quá trình chuyển đổi của mình. Hãy nghĩ về việc lựa chọn đúng công cụ trước khi bắt đầu một dự án DIY!
 
 ## Bước 4: Lưu đầu ra ở định dạng XLS
 
@@ -81,7 +83,7 @@ Cuối cùng, đã đến lúc lưu tài liệu PDF của chúng ta dưới dạ
 pdfDocument.Save("PDFToXLS_out.xls", excelsave);
 ```
 
- Dòng mã này lấy tệp PDF đã tải của bạn và lưu nó dưới dạng tệp XLS có tên`PDFToXLS_out.xls`. Giống như nhấn nút “xuất bản” sau khi hoàn thành một kiệt tác vậy!
+Dòng mã này lấy tệp PDF đã tải của bạn và lưu nó dưới dạng tệp XLS có tên `PDFToXLS_out.xls`. Giống như nhấn nút “xuất bản” sau khi hoàn thành một kiệt tác vậy!
 
 ## Phần kết luận
 
@@ -96,17 +98,19 @@ Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, ch�
 Có, bạn có thể lặp qua nhiều tệp PDF trong thư mục của mình và chuyển đổi từng tệp một bằng cùng một phương pháp.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.PDF[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.PDF [đây](https://releases.aspose.com/).
 
 ### Tôi phải làm sao nếu gặp vấn đề trong quá trình chuyển đổi?
- Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể mua Aspose.PDF cho .NET ở đâu?
- Bạn có thể mua Aspose.PDF cho .NET[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.PDF cho .NET [đây](https://purchase.aspose.com/buy).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

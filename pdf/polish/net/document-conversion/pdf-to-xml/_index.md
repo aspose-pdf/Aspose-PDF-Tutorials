@@ -1,28 +1,30 @@
 ---
-title: PDF do XML
-linktitle: PDF do XML
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak konwertować PDF do XML za pomocą Aspose.PDF dla .NET w tym kompleksowym samouczku. Przewodnik krok po kroku z dołączonymi przykładami kodu.
-weight: 210
-url: /pl/net/document-conversion/pdf-to-xml/
+"description": "Dowiedz się, jak konwertować PDF do XML za pomocą Aspose.PDF dla .NET w tym kompleksowym samouczku. Przewodnik krok po kroku z dołączonymi przykładami kodu."
+"linktitle": "PDF do XML"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "PDF do XML"
+"url": "/pl/net/document-conversion/pdf-to-xml/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF do XML
 
 ## Wstęp
 
-dzisiejszym cyfrowym świecie umiejętność konwersji dokumentów z jednego formatu na inny jest niezbędna. Niezależnie od tego, czy jesteś programistą, profesjonalistą biznesowym, czy po prostu osobą, która często pracuje z plikami PDF, wiedza o tym, jak konwertować pliki PDF na XML, może być decydująca. XML (eXtensible Markup Language) jest szeroko stosowany do reprezentacji danych i jest szczególnie przydatny do wymiany danych między systemami. W tym samouczku przyjrzymy się, jak używać Aspose.PDF dla .NET do płynnej konwersji plików PDF na format XML. 
+W dzisiejszym cyfrowym świecie umiejętność konwersji dokumentów z jednego formatu na inny jest niezbędna. Niezależnie od tego, czy jesteś programistą, profesjonalistą biznesowym, czy po prostu osobą, która często pracuje z plikami PDF, wiedza o tym, jak konwertować pliki PDF na XML, może być decydująca. XML (eXtensible Markup Language) jest szeroko stosowany do reprezentacji danych i jest szczególnie przydatny do wymiany danych między systemami. W tym samouczku przyjrzymy się, jak używać Aspose.PDF dla .NET do płynnej konwersji plików PDF na format XML. 
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio: Upewnij się, że masz zainstalowane Visual Studio na swoim komputerze. To będzie nasze środowisko programistyczne.
-2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 4. Przykładowy plik PDF: Przygotuj przykładowy plik PDF do konwersji. Możesz utworzyć prosty plik PDF lub pobrać go z Internetu.
 
@@ -53,18 +55,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- W tym fragmencie kodu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF.`Document` Klasa z Aspose.PDF służy do ładowania pliku PDF.
+W tym fragmencie kodu zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF. `Document` Klasa z Aspose.PDF służy do ładowania pliku PDF.
 
 ## Krok 3: Konwersja PDF do XML
 
- Po załadowaniu pliku PDF następnym krokiem jest jego konwersja do formatu XML. Wykonuje się to za pomocą`Save` metoda`Document` klasa. Oto jak:
+Po załadowaniu pliku PDF następnym krokiem jest jego konwersja do formatu XML. Wykonuje się to za pomocą `Save` metoda `Document` klasa. Oto jak:
 
 ```csharp
 // Zapisz dane wyjściowe w formacie XML
 doc.Save(dataDir + "PDFToXML_out.xml", SaveFormat.MobiXml);
 ```
 
- W tym wierszu określamy nazwę i format pliku wyjściowego.`SaveFormat.MobiXml` oznacza, że chcemy zapisać dokument w formacie XML.
+W tym wierszu określamy nazwę i format pliku wyjściowego. `SaveFormat.MobiXml` oznacza, że chcemy zapisać dokument w formacie XML.
 
 ## Wniosek
 
@@ -76,19 +78,21 @@ Gratulacje! Udało Ci się przekonwertować plik PDF do formatu XML za pomocą A
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Czy można przekonwertować XML z powrotem na PDF?
 Tak, Aspose.PDF obsługuje również konwersję plików XML z powrotem do formatu PDF.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Pełną dokumentację Aspose.PDF dla .NET można znaleźć[Tutaj](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację Aspose.PDF dla .NET można znaleźć [Tutaj](https://reference.aspose.com/pdf/net/).
 
-### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Możesz uzyskać pomoc odwiedzając forum Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+### Gdzie mogę uzyskać pomoc dotyczącą Aspose.PDF?
+Możesz uzyskać pomoc odwiedzając forum Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

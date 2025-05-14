@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/insert-empty-page/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Empty Page In PDF File
@@ -146,6 +148,7 @@ You can request a [temporary license](https://purchase.aspose.com/temporary-lice
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

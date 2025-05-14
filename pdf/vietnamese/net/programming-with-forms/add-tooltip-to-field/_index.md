@@ -1,14 +1,16 @@
 ---
-title: Thêm chú giải công cụ vào trường
-linktitle: Thêm chú giải công cụ vào trường
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm chú giải công cụ vào các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện khả năng sử dụng và trải nghiệm của người dùng.
-weight: 10
-url: /vi/net/programming-with-forms/add-tooltip-to-field/
+"description": "Tìm hiểu cách thêm chú giải công cụ vào các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện khả năng sử dụng và trải nghiệm của người dùng."
+"linktitle": "Thêm chú giải công cụ vào trường"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm chú giải công cụ vào trường"
+"url": "/vi/net/programming-with-forms/add-tooltip-to-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm chú giải công cụ vào trường
@@ -21,7 +23,7 @@ Thêm chú giải công cụ vào các trường biểu mẫu PDF là một tín
 
 Trước khi bắt đầu, đây là những thứ bạn cần:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Nếu chưa, bạn có thể tải xuống bằng cách sử dụng[Liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Nếu chưa, bạn có thể tải xuống bằng cách sử dụng [Liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 2. Môi trường phát triển: Bất kỳ IDE nào tương thích với .NET như Visual Studio.
 3. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã quen thuộc với lập trình C# và .NET.
 4. Tài liệu PDF: Bạn sẽ cần một tệp PDF mẫu có các trường biểu mẫu để áp dụng chú giải công cụ. Nếu bạn không có, hãy tạo một biểu mẫu PDF đơn giản bằng Aspose.PDF hoặc bất kỳ công cụ nào khác.
@@ -48,21 +50,21 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTooltipToField.pdf");
 ```
 
--  dataDir: Đây là thư mục lưu trữ tài liệu PDF của bạn. Hãy đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế.
+- dataDir: Đây là thư mục lưu trữ tài liệu PDF của bạn. Hãy đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế.
 - Tài liệu doc: Tải tài liệu PDF vào bộ nhớ để bạn có thể làm việc với nó.
 
 Hãy nghĩ đến việc lấy một tài liệu vật lý ra khỏi kệ và đặt nó lên bàn làm việc của bạn—bây giờ nó đã sẵn sàng để chỉnh sửa!
 
 ## Bước 2: Truy cập vào Trường biểu mẫu
 
- Tiếp theo, bạn cần xác định vị trí trường biểu mẫu cụ thể nơi chú giải công cụ sẽ được áp dụng. Trong ví dụ này, chúng ta đang làm việc với một trường văn bản có tên`"textbox1"`.
+Tiếp theo, bạn cần xác định vị trí trường biểu mẫu cụ thể nơi chú giải công cụ sẽ được áp dụng. Trong ví dụ này, chúng ta đang làm việc với một trường văn bản có tên `"textbox1"`.
 
 ```csharp
 // Truy cập trường văn bản theo tên
 Field textField = doc.Form["textbox1"] as Field;
 ```
 
-- doc. Biểu mẫu["textbox1"]: Điều này định vị trường biểu mẫu theo tên của nó. Sau đó, trường được đúc thành một đối tượng Trường.
+- doc.Form["textbox1"]: Điều này định vị trường biểu mẫu theo tên của nó. Sau đó, trường được đúc thành một đối tượng Trường.
   
 Lúc này, giống như chúng ta đang chỉ vào hộp văn bản trên biểu mẫu và nói "Đây là hộp mà chúng ta sẽ xử lý".
 
@@ -75,9 +77,9 @@ Sau khi bạn đã xác định được trường biểu mẫu, bước tiếp 
 textField.AlternateName = "Text box tool tip";
 ```
 
--  textField.AlternateName: Thuộc tính này cho phép bạn thiết lập chú giải công cụ. Trong ví dụ này, chúng tôi thiết lập chú giải công cụ thành`"Text box tool tip"`.
+- textField.AlternateName: Thuộc tính này cho phép bạn thiết lập chú giải công cụ. Trong ví dụ này, chúng tôi thiết lập chú giải công cụ thành `"Text box tool tip"`.
 
-Điều này giống như dán một tờ giấy nhớ nhỏ bên cạnh trường với nội dung "Đây là những điều bạn cần biết!"
+Điều này giống như dán một tờ giấy nhớ nhỏ bên cạnh trường ghi rằng: “Đây là những điều bạn cần biết!”
 
 ## Bước 4: Lưu PDF đã cập nhật
 
@@ -99,7 +101,7 @@ Hãy tưởng tượng đến cảnh bạn nhấn nút "lưu" tác phẩm của 
 
 Thêm chú giải công cụ vào các trường biểu mẫu trong tài liệu PDF thật dễ dàng với Aspose.PDF cho .NET. Cho dù bạn đang tạo biểu mẫu đơn giản hay tài liệu phức tạp hơn, chú giải công cụ là một cách tuyệt vời để cải thiện trải nghiệm người dùng. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể dễ dàng thêm ngữ cảnh vào bất kỳ trường nào, giúp PDF của bạn trực quan và thân thiện hơn với người dùng.
 
- Bạn cần trợ giúp với một tính năng khác? Aspose.PDF cho .NET có rất nhiều chức năng, vì vậy hãy nhớ kiểm tra[Tài liệu](https://reference.aspose.com/pdf/net/) để biết thêm.
+Bạn cần trợ giúp với một tính năng khác? Aspose.PDF cho .NET có rất nhiều chức năng, vì vậy hãy nhớ kiểm tra [Tài liệu](https://reference.aspose.com/pdf/net/) để biết thêm.
 
 ## Câu hỏi thường gặp
 
@@ -117,9 +119,11 @@ Không, mỗi trường biểu mẫu chỉ có thể có một chú giải công
 
 ### Việc thêm chú giải công cụ có làm tăng kích thước tệp PDF không?  
 Việc thêm chú giải công cụ có tác động tối thiểu đến kích thước tệp, do đó bạn sẽ không nhận thấy bất kỳ sự khác biệt đáng kể nào.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

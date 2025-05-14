@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Import XML Bookmarks into PDFs Using Aspose.PDF Java
 
@@ -188,7 +190,11 @@ You've learned how to import bookmarks into existing PDFs using Aspose.PDF for J
 
 2. **Can I import bookmarks from formats other than XML?**
    - Yes, Aspose.PDF supports importing bookmarks from various file formats like JSON, FDF, etc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

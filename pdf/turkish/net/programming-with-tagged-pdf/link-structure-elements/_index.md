@@ -1,14 +1,16 @@
 ---
-title: Bağlantı Yapısı Elemanları
-linktitle: Bağlantı Yapısı Elemanları
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF kullanarak bir PDF'de bağlantı yapısı öğelerinin nasıl oluşturulacağını öğrenin. Erişilebilir bağlantılar, resimler ve uyumluluk doğrulaması eklemek için adım adım kılavuz.
-weight: 120
-url: /tr/net/programming-with-tagged-pdf/link-structure-elements/
+"description": ".NET için Aspose.PDF kullanarak bir PDF'de bağlantı yapısı öğelerinin nasıl oluşturulacağını öğrenin. Erişilebilir bağlantılar, resimler ve uyumluluk doğrulaması eklemek için adım adım kılavuz."
+"linktitle": "Bağlantı Yapısı Elemanları"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Bağlantı Yapısı Elemanları"
+"url": "/tr/net/programming-with-tagged-pdf/link-structure-elements/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bağlantı Yapısı Elemanları
@@ -21,9 +23,9 @@ PDF içinde bağlantı yapısı öğeleri oluşturmak ve yönetmek, erişilebili
 
 Kodlamaya dalmadan önce, birkaç şeyi aradan çıkaralım. Bunlar, sorunsuz bir geliştirme deneyimi sağlamak için temel gereksinimlerdir.
 
-1.  Aspose.PDF for .NET: En son sürümü indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: En son sürümü indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 2. .NET Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE olsun, onu kurun ve hazır bulundurun.
-3.  Aspose Lisansı: Aspose.PDF'nin ücretsiz deneme sürümünü kullanabilirsiniz[Burada](https://releases.aspose.com/) veya bir tane edinmek[geçici lisans](https://purchase.aspose.com/temporary-license/).
+3. Aspose Lisansı: Aspose.PDF'nin ücretsiz deneme sürümünü kullanabilirsiniz [Burada](https://releases.aspose.com/) veya bir tane edinmek [geçici lisans](https://purchase.aspose.com/temporary-license/).
 4. Temel C# Bilgisi: Biraz C# koduyla çalışacağız, bu nedenle temelleri anlamak işleri çok daha kolaylaştıracaktır.
 
 ## Paketleri İçe Aktar
@@ -61,7 +63,7 @@ Document document = new Document();
 ITaggedContent taggedContent = document.TaggedContent;
 ```
   
- Burada, şunu başlatıyoruz:`Document` PDF dosyamızı temsil eden nesne. Ayrıca şunu da alırız`TaggedContent` Arayüz, paragraflar, bağlantılar ve resimler gibi yapı öğeleri eklememize olanak tanır.
+Burada, şunu başlatıyoruz: `Document` PDF dosyamızı temsil eden nesne. Ayrıca şunu da alırız `TaggedContent` Arayüz, paragraflar, bağlantılar ve resimler gibi yapı öğeleri eklememize olanak tanır.
 
 ## Adım 2: Başlığı ve Dili Ayarlayın  
 
@@ -206,9 +208,11 @@ Evet, span elemanlarını kullanarak metin stilleri uygulayabilirsiniz.
 
 ### Dahili doküman bağlantıları oluşturmak mümkün müdür?  
 Kesinlikle! Aynı belge içerisinde belirli bölümlere bağlantı verebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

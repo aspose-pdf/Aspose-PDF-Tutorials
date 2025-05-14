@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/define-alignment/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Define Alignment In PDF File
@@ -185,6 +187,7 @@ You can find help and support at the [Aspose Forum](https://forum.aspose.com/c/p
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

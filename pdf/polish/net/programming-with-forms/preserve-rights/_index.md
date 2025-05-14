@@ -1,14 +1,16 @@
 ---
-title: Zachowaj prawa
-linktitle: Zachowaj prawa
-second_title: Aspose.PDF dla .NET API Reference
-description: Zachowaj uprawnienia formularzy w dokumentach PDF dzięki Aspose.PDF dla platformy .NET.
-weight: 210
-url: /pl/net/programming-with-forms/preserve-rights/
+"description": "Zachowaj uprawnienia formularzy w dokumentach PDF dzięki Aspose.PDF dla platformy .NET."
+"linktitle": "Zachowaj prawa"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zachowaj prawa"
+"url": "/pl/net/programming-with-forms/preserve-rights/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zachowaj prawa
@@ -22,8 +24,8 @@ Witamy w świecie Aspose.PDF dla .NET! Jeśli chcesz programowo manipulować dok
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To IDE, którego będziemy używać do naszego rozwoju .NET.
-2.  .NET Framework: Upewnij się, że masz zainstalowany .NET Framework. Aspose.PDF obsługuje różne wersje, więc sprawdź[dokumentacja](https://reference.aspose.com/pdf/net/) w celu zapewnienia zgodności.
-3.  Biblioteka Aspose.PDF: Musisz pobrać bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[link do pobrania](https://releases.aspose.com/pdf/net/).
+2. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework. Aspose.PDF obsługuje różne wersje, więc sprawdź [dokumentacja](https://reference.aspose.com/pdf/net/) w celu zapewnienia zgodności.
+3. Biblioteka Aspose.PDF: Musisz pobrać bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [link do pobrania](https://releases.aspose.com/pdf/net/).
 4. Podstawowa znajomość języka C#: Znajomość programowania w języku C# ułatwi Ci zrozumienie tematu.
 
 Gdy już spełnisz te wymagania wstępne, będziesz gotowy zacząć pracę z Aspose.PDF!
@@ -33,7 +35,7 @@ Gdy już spełnisz te wymagania wstępne, będziesz gotowy zacząć pracę z Asp
 Aby rozpocząć używanie Aspose.PDF w swoim projekcie, musisz zaimportować niezbędne pakiety. Oto jak to zrobić:
 
 1. Utwórz nowy projekt: Otwórz program Visual Studio i utwórz nowy projekt C#.
-2. Dodaj odniesienie: Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań, wybierz „Dodaj”, a następnie „Odniesienie”. Przejdź do lokalizacji, w której pobrano bibliotekę Aspose.PDF i dodaj ją.
+2. Dodaj odniesienie: Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań, wybierz „Dodaj”, a następnie „Odniesienie”. Przejdź do lokalizacji, w której pobrałeś bibliotekę Aspose.PDF i dodaj ją.
 3. Dyrektywa using: Na górze pliku C# dodaj następującą dyrektywę using:
 
 ```csharp
@@ -57,36 +59,36 @@ Po pierwsze, musisz zdefiniować ścieżkę do katalogu dokumentów. To tutaj b�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajdują się pliki PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajdują się pliki PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
- Następnie należy otworzyć dokument PDF, który chcesz zmodyfikować. Można to zrobić za pomocą`FileStream` obiekt. Oto jak:
+Następnie należy otworzyć dokument PDF, który chcesz zmodyfikować. Można to zrobić za pomocą `FileStream` obiekt. Oto jak:
 
 ```csharp
 // Przeczytaj źródłowy formularz PDF za pomocą FileAccess z funkcją odczytu i zapisu.
 FileStream fs = new FileStream(dataDir + "input.pdf", FileMode.Open, FileAccess.ReadWrite);
 ```
 
- Ten fragment kodu otwiera`input.pdf` plik w trybie do odczytu i zapisu, co pozwala na wprowadzanie zmian.
+Ten fragment kodu otwiera `input.pdf` plik w trybie do odczytu i zapisu, co pozwala na wprowadzanie zmian.
 
 ## Krok 3: Utwórz obiekt dokumentu
 
- Teraz, gdy masz już gotowy strumień plików, czas utworzyć wystąpienie`Document` Klasa. Ten obiekt reprezentuje Twój dokument PDF w pamięci:
+Teraz, gdy masz już gotowy strumień plików, czas utworzyć wystąpienie `Document` Klasa. Ten obiekt reprezentuje Twój dokument PDF w pamięci:
 
 ```csharp
 // Utwórz wystąpienie dokumentu
 Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(fs);
 ```
 
- Dzięki temu wierszowi załadowałeś swój plik PDF do`pdfDocument` obiekt.
+Dzięki temu wierszowi załadowałeś swój plik PDF do `pdfDocument` obiekt.
 
 ## Krok 4: Dostęp do pól formularza
 
 Aby zmodyfikować zawartość pliku PDF, musisz uzyskać dostęp do pól formularza. Oto jak przejść przez wszystkie pola w dokumencie:
 
 ```csharp
-//Pobierz wartości ze wszystkich pól
+// Pobierz wartości ze wszystkich pól
 foreach (Field formField in pdfDocument.Form)
 {
     // Jeżeli pełna nazwa pola zawiera A1, wykonaj operację
@@ -100,7 +102,7 @@ foreach (Field formField in pdfDocument.Form)
 }
 ```
 
- W tym kodzie sprawdzamy, czy nazwa pola zawiera „A1”. Jeśli tak, rzutujemy ją na`TextBoxField` i zmień jego wartość na „Testowanie”.
+W tym kodzie sprawdzamy, czy nazwa pola zawiera „A1”. Jeśli tak, rzutujemy ją na `TextBoxField` i zmień jego wartość na „Testowanie”.
 
 ## Krok 5: Zapisz zaktualizowany dokument
 
@@ -128,7 +130,7 @@ I to wszystko! Udało Ci się zmodyfikować dokument PDF za pomocą Aspose.PDF d
 
 Gratulacje! Właśnie nauczyłeś się manipulować dokumentami PDF za pomocą Aspose.PDF dla .NET. Od konfiguracji środowiska po modyfikowanie pól formularzy, teraz masz umiejętności, aby obsługiwać pliki PDF jak profesjonalista. Pamiętaj, praktyka czyni mistrza, więc nie wahaj się eksperymentować z różnymi funkcjami biblioteki Aspose.PDF.
 
- Jeśli masz jakiekolwiek pytania lub potrzebujesz dalszej pomocy, możesz zapoznać się z[forum wsparcia](https://forum.aspose.com/c/pdf/10) lub odkryj[dokumentacja](https://reference.aspose.com/pdf/net/).
+Jeśli masz jakiekolwiek pytania lub potrzebujesz dalszej pomocy, możesz zapoznać się z [forum wsparcia](https://forum.aspose.com/c/pdf/10) lub odkryj [dokumentacja](https://reference.aspose.com/pdf/net/).
 
 ## Najczęściej zadawane pytania
 
@@ -136,19 +138,21 @@ Gratulacje! Właśnie nauczyłeś się manipulować dokumentami PDF za pomocą A
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, edycję i manipulowanie dokumentami PDF.
 
 ### Jak zainstalować Aspose.PDF?
- Bibliotekę można pobrać ze strony[link do pobrania](https://releases.aspose.com/pdf/net/) i dodaj do projektu Visual Studio.
+Bibliotekę można pobrać ze strony [link do pobrania](https://releases.aspose.com/pdf/net/) dodaj do projektu Visual Studio.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje[bezpłatny okres próbny](https://releases.aspose.com/) abyś mógł przetestować bibliotekę przed zakupem.
+Tak, Aspose oferuje [bezpłatny okres próbny](https://releases.aspose.com/) abyś mógł przetestować bibliotekę przed zakupem.
 
 ### Gdzie mogę znaleźć więcej przykładów?
- Więcej przykładów i samouczków znajdziesz w[dokumentacja](https://reference.aspose.com/pdf/net/).
+Więcej przykładów i samouczków znajdziesz w [dokumentacja](https://reference.aspose.com/pdf/net/).
 
 ### Co powinienem zrobić, jeśli napotkam problemy?
- Jeśli napotkasz jakiekolwiek problemy, sprawdź[forum wsparcia](https://forum.aspose.com/c/pdf/10) poproś społeczność o pomoc.
+Jeśli napotkasz jakiekolwiek problemy, sprawdź [forum wsparcia](https://forum.aspose.com/c/pdf/10) poproś społeczność o pomoc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-text/extract-columns-text/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Columns Text In PDF File
@@ -141,6 +143,7 @@ For large PDFs, process the document in chunks by extracting text from a few pag
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

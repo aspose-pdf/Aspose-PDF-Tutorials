@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına Gizli Metin Ekleme ve Arama
-linktitle: PDF Dosyasına Gizli Metin Ekleme ve Arama
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF belgelerine gizli metin eklemeyi ve aramayı öğrenin. Kod örneklerinin de dahil olduğu adım adım kılavuz.
-weight: 20
-url: /tr/net/programming-with-text/add-and-search-hidden-text/
+"description": "Aspose.PDF for .NET kullanarak PDF belgelerine gizli metin eklemeyi ve aramayı öğrenin. Kod örnekleriyle birlikte adım adım kılavuz."
+"linktitle": "PDF Dosyasına Gizli Metin Ekleme ve Arama"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Gizli Metin Ekleme ve Arama"
+"url": "/tr/net/programming-with-text/add-and-search-hidden-text/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Gizli Metin Ekleme ve Arama
@@ -23,7 +25,7 @@ Kodlama kısmına geçmeden önce, halletmeniz gereken birkaç ön koşul var:
 
 ### Gereksinim Kontrol Listesi
 - Visual Studio: Visual Studio'nun yüklü olduğundan emin olun. Bu eğitim .NET Framework kullandığınızı varsayar.
--  Aspose.PDF for .NET: Aspose.PDF for .NET kütüphanesine sahip olmanız gerekir. Bunu indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF for .NET: Aspose.PDF for .NET kütüphanesine sahip olmanız gerekir. Bunu indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 - Temel C# bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -32,8 +34,8 @@ Kodunuza başlamadan önce, gerekli Aspose.PDF ad alanlarını içe aktardığı
 
 ### Projenizi Kurun
 1. Visual Studio'yu açın ve yeni bir C# projesi oluşturun veya mevcut bir projeyi kullanın.
-2.  NuGet paketini ekleyerek Aspose.PDF'yi yükleyin. Bunu NuGet Paket Yöneticisi'ne gidip arayarak yapabilirsiniz`Aspose.PDF`. 
-3.  Alternatif olarak, kütüphaneyi doğrudan şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/net/) ve bunu projenize referans olarak ekleyin.
+2. NuGet paketini ekleyerek Aspose.PDF'yi yükleyin. Bunu NuGet Paket Yöneticisi'ne gidip arayarak yapabilirsiniz `Aspose.PDF`. 
+3. Alternatif olarak, kütüphaneyi doğrudan şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/net/) ve bunu projenize referans olarak ekleyin.
 
 ### Gerekli Ad Alanlarını İçe Aktar
 C# dosyanızın en üstüne aşağıdaki ad alanlarını içe aktarın:
@@ -59,7 +61,7 @@ Artık kurulumunuz tamamlandığına göre, hem görünür hem de görünmez met
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Bunu dizininize değiştirin
 ```
 
- Bu satır, oluşturduğunuz PDF'nin nerede saklanacağını tanımlar. Değiştirmeyi unutmayın`YOUR DOCUMENT DIRECTORY` gerçek yolunuzla.
+Bu satır, oluşturduğunuz PDF'nin nerede saklanacağını tanımlar. Değiştirmeyi unutmayın `YOUR DOCUMENT DIRECTORY` gerçek yolunuzla.
 
 ### Adım 2: Bir PDF Belgesi Oluşturun
 Şimdi yeni bir PDF belgesi oluşturalım ve içine sayfalar ekleyelim.
@@ -79,16 +81,16 @@ TextFragment frag1 = new TextFragment("This is common text.");
 TextFragment frag2 = new TextFragment("This is invisible text.");
 ```
 
- Bu kesitte,`frag1` görünür olacak, oysa`frag2` bundan sonra görünmez olarak ayarlanacak.
+Bu kesitte, `frag1` görünür olacak, oysa `frag2` bundan sonra görünmez olarak ayarlanacak.
 
 ### Adım 4: Metni Görünmez Olarak Ayarlayın
- Metnini yapmak için`frag2` görünmez, sadece onu değiştirirsiniz`TextState`.
+Metnini yapmak için `frag2` görünmez, sadece onu değiştirirsiniz `TextState`.
 
 ```csharp
 frag2.TextState.Invisible = true;
 ```
 
- Bu özelliği ayarlayarak, ilişkili herhangi bir metin`frag2` PDF görüntülendiğinde işlenmeyecektir.
+Bu özelliği ayarlayarak, ilişkili herhangi bir metin `frag2` PDF görüntülendiğinde işlenmeyecektir.
 
 ### Adım 5: Sayfaya Metin Parçaları Ekleyin
 Son olarak bu metin parçalarını sayfaya ekleyip PDF'i kaydediyoruz.
@@ -114,7 +116,7 @@ doc = new Aspose.Pdf.Document(dataDir + "39400_out.pdf");
 ```
 
 ### Adım 2: Bir Metin Parçası Emici Oluşturun
- Biz kullanacağız`TextFragmentAbsorber` PDF'deki tüm metin parçalarını yakalamak için.
+Biz kullanacağız `TextFragmentAbsorber` PDF'deki tüm metin parçalarını yakalamak için.
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber();
@@ -134,7 +136,7 @@ foreach (TextFragment fragment in absorber.TextFragments)
 }
 ```
 
- Bu döngü her metin parçasını kontrol eder ve içeriğini konumu ve görünürlük durumuyla birlikte yazdırır.`fragment.TextState.Invisible` true olarak ayarlandığında, metin gizlenir!
+Bu döngü her metin parçasını kontrol eder ve içeriğini konumu ve görünürlük durumuyla birlikte yazdırır. `fragment.TextState.Invisible` true olarak ayarlandığında, metin gizlenir!
 
 ### Adım 4: Belgeyi İmha Edin
 Son olarak, işiniz bittiğinde belgeyi tekrar elden çıkarmayı unutmayın.
@@ -155,19 +157,21 @@ ASPose.PDF'ye daha aşina oldukça, olasılıklar sonsuz hale gelir. Denemeye de
 Evet, Aspose.PDF PDF belgelerinin şifrelenmesini ve şifresinin çözülmesini destekler. PDF'lerinizi parolalarla kolayca güvence altına alabilirsiniz.
 
 ### Aspose.PDF için deneme sürümü mevcut mu?  
- Kesinlikle! Ücretsiz denemeyi şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz denemeyi şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF hangi programlama dillerini destekliyor?  
 Aspose.PDF, C#, Java ve Python da dahil olmak üzere birden fazla dili destekler.
 
 ### Aspose.PDF'in dokümanlarını nerede bulabilirim?  
- Belgelere erişebilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Belgelere erişebilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Sorun yaşarsam nasıl destek alabilirim?  
- Destek için Aspose forumlarını ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Destek için Aspose forumlarını ziyaret edebilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-bookmarks/add-child-bookmark/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Child Bookmark In PDF File
@@ -161,6 +163,7 @@ If you run into any problems, you can seek help on the [Aspose support forum](ht
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

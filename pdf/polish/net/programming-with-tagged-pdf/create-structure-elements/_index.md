@@ -1,14 +1,16 @@
 ---
-title: Utwórz elementy struktury
-linktitle: Utwórz elementy struktury
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak tworzyć elementy struktury w formacie PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku dotyczący ulepszonej dostępności i organizacji plików PDF.
-weight: 60
-url: /pl/net/programming-with-tagged-pdf/create-structure-elements/
+"description": "Dowiedz się, jak tworzyć elementy struktury w formacie PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku dotyczący ulepszonej dostępności i organizacji plików PDF."
+"linktitle": "Utwórz elementy struktury"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Utwórz elementy struktury"
+"url": "/pl/net/programming-with-tagged-pdf/create-structure-elements/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz elementy struktury
@@ -22,8 +24,8 @@ Tworzenie ustrukturyzowanych dokumentów PDF może mieć kluczowe znaczenie dla 
 Zanim przejdziemy do samouczka, omówmy, co będzie Ci potrzebne na początek:
 
 1. .NET Framework: Upewnij się, że masz skonfigurowane zgodne środowisko .NET. Może to być .NET Framework lub .NET Core, w zależności od preferencji.
-2.  Aspose.PDF dla .NET: Pobierz i zainstaluj bibliotekę. Możesz znaleźć najnowszą wersję[Tutaj](https://releases.aspose.com/pdf/net/).
-3. Środowisko programistyczne: Każde środowisko IDE obsługujące platformę .NET, np. Visual Studio, powinno działać prawidłowo.
+2. Aspose.PDF dla .NET: Pobierz i zainstaluj bibliotekę. Możesz znaleźć najnowszą wersję [Tutaj](https://releases.aspose.com/pdf/net/).
+3. Środowisko programistyczne: Każde środowisko IDE obsługujące platformę .NET, np. Visual Studio, powinno działać dobrze.
 4. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć przykłady.
 
 Dobrze! Teraz, gdy masz już swoje wymagania wstępne, zacznijmy tworzyć nasz plik PDF.
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Tutaj zamień`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, w której chcesz zapisać swój plik PDF. Dzięki temu plik wyjściowy będzie miał znaną lokalizację.
+Tutaj zamień `"YOUR DOCUMENT DIRECTORY"` ze ścieżką, w której chcesz zapisać swój plik PDF. Dzięki temu plik wyjściowy będzie miał znaną lokalizację.
 
 ## Krok 2: Uzyskanie oznaczonej treści
 
@@ -79,7 +81,7 @@ taggedContent.SetTitle("Tagged Pdf Document");
 taggedContent.SetLanguage("en-US");
 ```
 
-Dodatek ten nie tylko pomaga w uporządkowaniu dokumentu, ale także poprawia jego dostępność dla czytników ekranowych.
+Dodatek ten nie tylko pomaga w uporządkowaniu dokumentu, ale również poprawia jego dostępność dla czytników ekranowych.
 
 ## Krok 4: Tworzenie elementów grupowania
 
@@ -154,7 +156,7 @@ Chociaż to podejście jest jeszcze w fazie rozwoju, masz już podstawy do włą
 
 ## Krok 9: Tworzenie dodatkowych elementów
 
-Rozszerz możliwości swojego dokumentu, dodając jeszcze więcej elementów strukturalnych.
+Rozszerz możliwości swojego dokumentu, dodając jeszcze więcej elementów struktury.
 
 ```csharp
 ReferenceElement referenceElement = taggedContent.CreateReferenceElement();
@@ -190,19 +192,21 @@ Tworzenie ustrukturyzowanych plików PDF przy użyciu Aspose.PDF dla .NET otwier
 Aspose.PDF for .NET to biblioteka umożliwiająca programistom łatwe tworzenie, edytowanie i konwertowanie dokumentów PDF przy użyciu języków programowania .NET.
 
 ### Jak zainstalować Aspose.PDF dla platformy .NET?
- Możesz to pobrać[Tutaj](https://releases.aspose.com/pdf/net/) i dodaj go do projektu poprzez NuGet lub ręcznie.
+Możesz to pobrać [Tutaj](https://releases.aspose.com/pdf/net/) i dodaj go do projektu poprzez NuGet lub ręcznie.
 
 ### Czy mogę tworzyć tagi ułatwiające dostęp do plików PDF?
 Tak! Aspose.PDF dla .NET obsługuje tworzenie oznaczonych plików PDF, co poprawia dostępność dla czytników ekranu.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.PDF?
- Możesz uzyskać dostęp do szczegółowej dokumentacji[Tutaj](https://reference.aspose.com/pdf/net/).
+Możesz uzyskać dostęp do szczegółowej dokumentacji [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Czy jest dostępna bezpłatna wersja próbna?
- Oczywiście! Sprawdź bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Oczywiście! Sprawdź bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

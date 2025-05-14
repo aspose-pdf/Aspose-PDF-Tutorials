@@ -8,7 +8,9 @@ url: /net/programming-with-tables/get-table-width/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Table Width In PDF File
@@ -142,6 +144,7 @@ You need a .NET compatible development environment. Specific requirements can be
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

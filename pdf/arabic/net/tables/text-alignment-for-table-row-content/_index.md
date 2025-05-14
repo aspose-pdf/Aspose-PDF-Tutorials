@@ -1,51 +1,55 @@
 ---
-title: إنشاء PDF مع محاذاة النص لمحتوى صف الجدول في Aspose.PDF لـ .NET 
-weight: 7700
-limit: 
-description: تعلم كيفية إنشاء مستند PDF مع جدول باستخدام Aspose.PDF لـ .NET. يوضح هذا المثال إضافة 10 صفوف و 3 أعمدة مع محتوى ديناميكي.
-keywords: [Aspose.PDF for .NET, create PDF table, add table to PDF, .NET PDF library, C# PDF table, generate PDF C#, Aspose PDF example, table formatting in PDF]
-url: /ar/net/tables/text-alignment-for-table-row-content/
+"description": "تعرّف على كيفية إنشاء مستند PDF يحتوي على جدول باستخدام Aspose.PDF لـ .NET. يوضح هذا المثال إضافة 10 صفوف و3 أعمدة بمحتوى ديناميكي."
+"title": "إنشاء ملف PDF مع محاذاة النص لمحتوى صف الجدول في Aspose.PDF لـ .NET"
+"url": "/ar/net/tables/text-alignment-for-table-row-content/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إنشاء ملف PDF مع محاذاة النص لمحتوى صف الجدول
 
-يوفر Aspose.PDF لـ .NET واجهة برمجة برمجة قوية لإنشاء وتحرير والتلاعب في مستندات PDF برمجياً. يوضح هذا المثال كيفية إنشاء ملف PDF يحتوي على جدول منظم يحتوي على 10 صفوف و 3 أعمدة. يتم تعبئة كل صف ديناميكياً بالمحتوى ، ويتم تنسيق الجدول بأحواطه رمدية فاتحة. يقدم لك الدليل خطوة بخطوة في إعداد المستند ، وتحديد الجدول ، وتعيين الخصائص ، وأخيراً حفظ مخرج PDF. Aspose.PDF لـ .NET يسهل إنتاج PDF في تطبيقات C # ، مما يجعله مثاليًا لتوليد التقارير الآلية ، وإنشاء الفواتير ، وعرض  
+يوفر Aspose.PDF لـ .NET واجهة برمجة تطبيقات فعّالة لإنشاء مستندات PDF وتحريرها ومعالجتها برمجيًا. يوضح هذا المثال كيفية إنشاء ملف PDF يحتوي على جدول مُهيكل يتكون من 10 صفوف و3 أعمدة. يُملأ كل صف بالمحتوى ديناميكيًا، ويُنسّق الجدول بحدود رمادية فاتحة. يرشدك هذا الدليل خطوة بخطوة خلال تهيئة المستند، وتحديد الجدول، وتعيين الخصائص، وأخيرًا حفظ ملف PDF الناتج. يُبسّط Aspose.PDF لـ .NET إنشاء ملفات PDF في تطبيقات C#، مما يجعله مثاليًا لإنشاء التقارير الآلية، وإنشاء الفواتير، وعرض البيانات المُهيكلة.  
 
 ---
 
 {{< tutorial-widget sourcePath="pdf/net/tables/text-alignment-for-table-row-content" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت:  
-لاستخدام Aspose.PDF لـ .NET في مشروعك، اتبع هذه الخطوات:  
+لاستخدام Aspose.PDF لـ .NET في مشروعك، اتبع الخطوات التالية:  
 
-1. تثبيت عن طريق NuGet Package Manager:  
-   افتح NuGet Package Manager في مشروع Visual Studio الخاص بك واركض:  
+1. التثبيت عبر مدير حزمة NuGet:  
+   افتح NuGet Package Manager في مشروع Visual Studio الخاص بك وقم بتشغيل:  
    ```sh
    Install-Package Aspose.PDF
    ```  
    
-2. تحميل DLL يدوياً:  
-   * زيارة Aspose.PDF لصفحة تنزيل .NET: [تحميل هنا](https://releases.aspose.com/pdf/net/)  
-   * مقتطف ومرجع`أفترض.Pdf.dll`في مشروعك  
+2. تنزيل DLL يدويًا:  
+   - قم بزيارة صفحة تنزيل Aspose.PDF لـ .NET: [التحميل هنا](https://releases.aspose.com/pdf/net/)  
+   - المقتطف والمرجع `Aspose.Pdf.dll` في مشروعك.  
 
-3. طلب ترخيص (اختياري):  
-   * احصل على رخصة مؤقتة مجانية[طلب ترخيص](https://purchase.aspose.com/temporary-license/)  
-   * تطبيقه في رمزك:  
+3. تطبيق الترخيص (اختياري):  
+   - احصل على ترخيص مؤقت مجاني: [طلب الترخيص](https://purchase.aspose.com/temporary-license/)  
+   - قم بتطبيقه في الكود الخاص بك:  
      ```csharp
      Aspose.Pdf.License license = new Aspose.Pdf.License();
      license.SetLicense("Aspose.Pdf.lic");
      ```  
 ## لمزيد من التفاصيل
-* الوثائق:[Aspose.PDF لتوثيق .NET](https://docs.aspose.com/pdf/net/)  
-* مرجع API:[Aspose.PDF لمرجع .NET API](https://reference.aspose.com/pdf/net/)  
+- التوثيق: [توثيق Aspose.PDF لـ .NET](https://docs.aspose.com/pdf/net/)  
+- مرجع واجهة برمجة التطبيقات: [مرجع Aspose.PDF لـ API .NET](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

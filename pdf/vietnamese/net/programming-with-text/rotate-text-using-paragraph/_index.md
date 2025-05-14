@@ -1,14 +1,16 @@
 ---
-title: Xoay văn bản bằng cách sử dụng đoạn văn trong tệp PDF
-linktitle: Xoay văn bản bằng cách sử dụng đoạn văn trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xoay văn bản trong PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để tạo tài liệu của bạn.
-weight: 380
-url: /vi/net/programming-with-text/rotate-text-using-paragraph/
+"description": "Tìm hiểu cách xoay văn bản trong PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để tạo tài liệu của bạn."
+"linktitle": "Xoay văn bản bằng cách sử dụng đoạn văn trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xoay văn bản bằng cách sử dụng đoạn văn trong tệp PDF"
+"url": "/vi/net/programming-with-text/rotate-text-using-paragraph/"
+"weight": 380
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xoay văn bản bằng cách sử dụng đoạn văn trong tệp PDF
@@ -21,7 +23,7 @@ Tạo PDF với văn bản động có thể là một cách hấp dẫn để t
 
 Trước khi chúng ta đi sâu vào thế giới thú vị của việc xoay văn bản trong các tệp PDF, hãy đảm bảo rằng bạn đã thiết lập mọi thứ đúng cách. Sau đây là các điều kiện tiên quyết bạn cần:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET trong dự án của mình. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET trong dự án của mình. Bạn có thể tải xuống từ [trang web](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Hướng dẫn này giả định rằng bạn đang sử dụng Visual Studio để phát triển .NET.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn. Nếu bạn là người mới, đừng lo lắng; chúng tôi sẽ hướng dẫn từng bước!
 4. .NET Framework: Đảm bảo dự án của bạn được thiết lập với phiên bản .NET Framework phù hợp. Aspose.PDF hỗ trợ nhiều phiên bản khác nhau, vì vậy hãy kiểm tra tài liệu để biết khả năng tương thích.
@@ -58,7 +60,7 @@ using Aspose.Pdf.Facades;
 
 Và với điều đó, bạn đã sẵn sàng để bắt đầu viết mã!
 
-Được rồi! Bây giờ chúng ta hãy đi vào trọng tâm vấn đề—xoay văn bản trong PDF. Chúng ta sẽ hướng dẫn từng bước trong mã.
+Được rồi! Bây giờ chúng ta hãy đi vào trọng tâm của vấn đề—xoay văn bản trong PDF. Chúng ta sẽ hướng dẫn từng bước trong mã.
 
 ## Bước 1: Khởi tạo tài liệu
 
@@ -79,7 +81,7 @@ Page pdfPage = (Page)pdfDocument.Pages.Add(); // Lấy trang cụ thể
 ```
 Dòng này thêm một trang mới vào PDF và cho phép chúng ta bắt đầu thêm nội dung vào đó.
 
-## Bước 3: Tạo đoạn văn bản
+## Bước 3: Tạo một đoạn văn bản
 
 Tiếp theo, chúng ta hãy tạo một đoạn văn trong đó chúng ta sẽ thêm các đoạn văn bản:
 
@@ -135,7 +137,7 @@ paragraph.AppendLine(textFragment1);
 paragraph.AppendLine(textFragment2);
 paragraph.AppendLine(textFragment3);
 ```
- Chúng tôi chỉ đơn giản thêm từng đoạn văn bản vào đoạn văn của mình.`AppendLine` Phương pháp này đảm bảo mỗi đoạn văn bản được xếp theo chiều dọc.
+Chúng tôi chỉ đơn giản thêm từng đoạn văn bản vào đoạn văn của mình. `AppendLine` Phương pháp này đảm bảo mỗi đoạn văn bản được xếp theo chiều dọc.
 
 ## Bước 6: Tạo đối tượng TextBuilder
 
@@ -168,19 +170,21 @@ Xoay văn bản trong PDF có thể tăng thêm tính sáng tạo và nhấn m�
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF trực tiếp trong các ứng dụng .NET.
 
 ### Làm thế nào để cài đặt Aspose.PDF vào dự án của tôi?
- Bạn có thể cài đặt Aspose.PDF thông qua NuGet Package Manager trong Visual Studio hoặc bằng cách tải xuống từ[Trang tải xuống Aspose](https://releases.aspose.com/pdf/net/).
+Bạn có thể cài đặt Aspose.PDF thông qua NuGet Package Manager trong Visual Studio hoặc bằng cách tải xuống từ  [Trang tải xuống Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose.PDF cung cấp bản dùng thử miễn phí. Bạn có thể bắt đầu với[dùng thử miễn phí](https://releases.aspose.com/) và khám phá các tính năng của nó.
+Có, Aspose.PDF cung cấp bản dùng thử miễn phí. Bạn có thể bắt đầu với [dùng thử miễn phí](https://releases.aspose.com/) và khám phá các tính năng của nó.
 
 ### Có hỗ trợ cho Aspose.PDF không?
- Chắc chắn rồi! Bạn có thể liên hệ với[Hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ giải quyết mọi vấn đề bạn gặp phải.
+Chắc chắn rồi! Bạn có thể liên hệ với [Hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ giải quyết mọi vấn đề bạn gặp phải.
 
 ### Làm thế nào tôi có thể xin được giấy phép tạm thời cho Aspose.PDF?
- Bạn có thể mua giấy phép tạm thời từ[Trang web của Aspose](https://purchase.aspose.com/temporary-license/) để dùng thử đầy đủ các tính năng của thư viện.
+Bạn có thể mua giấy phép tạm thời từ [Trang web của Aspose](https://purchase.aspose.com/temporary-license/) để dùng thử đầy đủ các tính năng của thư viện.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: มาร์กดาวน์เป็น PDF
-linktitle: มาร์กดาวน์เป็น PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการแปลง Markdown เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงกระบวนการแปลงเอกสาร
-weight: 60
-url: /th/net/document-conversion/markdown-to-pdf/
+"description": "เรียนรู้วิธีการแปลง Markdown เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงกระบวนการแปลงเอกสาร"
+"linktitle": "มาร์กดาวน์เป็น PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "มาร์กดาวน์เป็น PDF"
+"url": "/th/net/document-conversion/markdown-to-pdf/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # มาร์กดาวน์เป็น PDF
@@ -23,7 +25,7 @@ url: /th/net/document-conversion/markdown-to-pdf/
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่คือ IDE ที่เราจะใช้ในบทช่วยสอนนี้
 2. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว Aspose.PDF รองรับหลายเวอร์ชัน ดังนั้นโปรดตรวจสอบความเข้ากันได้
-3.  Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
 ## แพ็คเกจนำเข้า
@@ -48,7 +50,7 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`YOUR DOCUMENT DIRECTORY`ด้วยเส้นทางจริงที่ไฟล์ Markdown ของคุณตั้งอยู่ อาจเป็นเช่นนี้`C:\\Documents\\MarkdownFiles\\`.
+แทนที่ `YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางจริงที่ไฟล์ Markdown ของคุณตั้งอยู่ อาจเป็นเช่นนี้ `C:\\Documents\\MarkdownFiles\\`-
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร Markdown
 
@@ -59,7 +61,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "sample.md", new MdLoadOptions());
 ```
 
- ในบรรทัดนี้เราจะสร้างใหม่`Document` วัตถุและการโหลดไฟล์ Markdown ของเรา (`sample.md` ). การ`MdLoadOptions()` ใช้เพื่อระบุว่าเรากำลังโหลดไฟล์ Markdown
+ในบรรทัดนี้เราจะสร้างใหม่ `Document` วัตถุและการโหลดไฟล์ Markdown ของเรา (`sample.md`). การ `MdLoadOptions()` ใช้เพื่อระบุว่าเรากำลังโหลดไฟล์ Markdown
 
 ## ขั้นตอนที่ 3: บันทึกเอกสารเป็น PDF
 
@@ -70,7 +72,7 @@ Document doc = new Document(dataDir + "sample.md", new MdLoadOptions());
 doc.Save(dataDir + "MarkdownToPDF.pdf");
 ```
 
- ที่นี่เราเรียกกันว่า`Save` วิธีการของเรา`Document` วัตถุและระบุชื่อไฟล์ PDF ที่เราต้องการสร้าง ในกรณีนี้คือ`MarkdownToPDF.pdf`.
+ที่นี่เราเรียกกันว่า `Save` วิธีการของเรา `Document` วัตถุและระบุชื่อไฟล์ PDF ที่เราต้องการสร้าง ในกรณีนี้คือ `MarkdownToPDF-pdf`.
 
 ## บทสรุป
 
@@ -85,17 +87,19 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช
 ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีซึ่งคุณสามารถใช้ทดสอบไลบรารีก่อนการซื้อได้
 
 ### ฉันสามารถค้นหาเอกสารสำหรับ Aspose.PDF ได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารประกอบได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### มีการรองรับ Aspose.PDF หรือไม่
- ใช่ คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/pdf/10).
+ใช่ คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

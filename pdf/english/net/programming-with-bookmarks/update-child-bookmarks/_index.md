@@ -8,7 +8,9 @@ url: /net/programming-with-bookmarks/update-child-bookmarks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Child Bookmarks In PDF File
@@ -135,6 +137,7 @@ You can purchase Aspose.PDF for .NET from their website [here](https://purchase.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

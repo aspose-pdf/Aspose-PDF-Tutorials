@@ -1,20 +1,22 @@
 ---
-title: Atur Bookmark di Awal Halaman PDF
-linktitle: Atur Bookmark di Awal Halaman PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengatur penanda halaman di awal halaman PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami memudahkan navigasi PDF.
-weight: 12
-url: /id/java/pdf-bookmarks/set-bookmark-start-pdf-page/
+"description": "Pelajari cara mengatur penanda halaman di awal halaman PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami memudahkan navigasi PDF."
+"linktitle": "Atur Bookmark di Awal Halaman PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Atur Bookmark di Awal Halaman PDF"
+"url": "/id/java/pdf-bookmarks/set-bookmark-start-pdf-page/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Bookmark di Awal Halaman PDF
 
 
-## Pengantar untuk Mengatur Penanda di Awal Halaman PDF
+## Pengantar untuk Mengatur Bookmark di Awal Halaman PDF
 
 Aspose.PDF untuk Java adalah pustaka yang hebat untuk bekerja dengan dokumen PDF dalam aplikasi Java. Dalam tutorial ini, kita akan mempelajari cara mengatur penanda halaman di awal halaman PDF menggunakan Aspose.PDF untuk Java. Penanda halaman adalah cara yang mudah untuk menavigasi dokumen PDF yang besar, dan dengan Aspose.PDF, Anda dapat dengan mudah menambahkannya ke berkas PDF Anda.
 
@@ -32,7 +34,7 @@ Untuk menggunakan Aspose.PDF untuk Java dalam proyek Anda, Anda perlu menambahka
 
 ## Membuat Dokumen PDF
 
- Mari kita mulai dengan membuat dokumen PDF baru menggunakan Aspose.PDF untuk Java. Anda dapat membuat contoh dokumen PDF baru.`Document` kelas, yang merepresentasikan dokumen PDF, lalu menambahkan halaman ke dalamnya.
+Mari kita mulai dengan membuat dokumen PDF baru menggunakan Aspose.PDF untuk Java. Anda dapat membuat contoh dokumen PDF baru. `Document` kelas, yang merepresentasikan dokumen PDF, lalu menambahkan halaman ke dalamnya.
 
 ```java
 // Buat dokumen PDF baru
@@ -55,7 +57,7 @@ page.getParagraphs().add(textFragment);
 
 ## Menetapkan Bookmark di Awal Halaman
 
- Sekarang, mari kita atur penanda halaman di awal halaman yang kita buat. Penanda halaman ditambahkan ke halaman`Outline` koleksi dokumen PDF. Anda dapat menentukan judul dan halaman tujuan untuk penanda buku.
+Sekarang, mari kita atur penanda halaman di awal halaman yang kita buat. Penanda halaman ditambahkan ke halaman `Outline` koleksi dokumen PDF. Anda dapat menentukan judul dan halaman tujuan untuk penanda buku.
 
 ```java
 // Buat penanda di awal halaman
@@ -104,9 +106,11 @@ Aspose.PDF untuk Java kompatibel dengan Java 1.6 atau yang lebih tinggi. Pastika
 ### Di mana saya dapat menemukan lebih banyak tutorial Aspose.PDF untuk Java?
 
 Anda dapat menemukan lebih banyak tutorial dan dokumentasi Aspose.PDF untuk Java di situs web Aspose. Selain itu, Anda dapat menjelajahi dokumentasi Aspose.PDF untuk mempelajari kemampuan dan penggunaannya secara mendetail.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

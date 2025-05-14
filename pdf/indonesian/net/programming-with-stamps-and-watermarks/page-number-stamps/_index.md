@@ -1,14 +1,16 @@
 ---
-title: Stempel Nomor Halaman Dalam File PDF
-linktitle: Stempel Nomor Halaman Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan stempel nomor halaman ke file PDF menggunakan Aspose.PDF untuk .NET melalui panduan kami yang mudah diikuti, lengkap dengan contoh kode.
-weight: 160
-url: /id/net/programming-with-stamps-and-watermarks/page-number-stamps/
+"description": "Pelajari cara menambahkan stempel nomor halaman ke file PDF menggunakan Aspose.PDF untuk .NET melalui panduan kami yang mudah diikuti, lengkap dengan contoh kode."
+"linktitle": "Stempel Nomor Halaman Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Stempel Nomor Halaman Dalam File PDF"
+"url": "/id/net/programming-with-stamps-and-watermarks/page-number-stamps/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stempel Nomor Halaman Dalam File PDF
@@ -23,7 +25,7 @@ Sebelum kita mulai menambahkan stempel nomor halaman ke dokumen PDF Anda, pastik
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di sistem Anda. Anda akan menulis dan menjalankan kode di sini.
 2. .NET Framework: Kemampuan dalam pemrograman C# dan .NET Framework sangat penting karena Aspose.PDF dirancang untuk aplikasi .NET.
-3.  Pustaka Aspose.PDF: Anda dapat mengunduh pustaka Aspose.PDF dari[Rilis PDF Aspose](https://releases.aspose.com/pdf/net/). 
+3. Pustaka Aspose.PDF: Anda dapat mengunduh pustaka Aspose.PDF dari [Rilis PDF Aspose](https://releases.aspose.com/pdf/net/). 
 4. Pemahaman dasar tentang PDF: Meskipun Anda tidak perlu menjadi seorang ahli, pemahaman dasar tentang cara kerja file PDF akan membantu Anda memahami tutorial dengan lebih baik.
 
 Setelah Anda menyiapkan prasyarat ini, Anda akan siap untuk mulai membubuhkan cap nomor halaman tersebut!
@@ -35,14 +37,14 @@ Sebelum mulai membuat kode, Anda perlu memastikan paket Aspose.PDF yang diperluk
 ### Buat Proyek Baru
 
 1. Buka Visual Studio.
-2.  Klik di sini`File` >`New` >`Project`.
-3.  Pilih template yang sesuai untuk C# (misalnya, Aplikasi Konsol), beri nama, dan klik`Create`.
+2. Klik di sini `File` > `New` > `Project`.
+3. Pilih template yang sesuai untuk C# (misalnya, Aplikasi Konsol), beri nama, dan klik `Create`.
 
 ### Tambahkan Referensi Aspose.PDF
 
 1. Klik kanan pada nama proyek di Solution Explorer.
-2.  Klik di sini`Manage NuGet Packages`.
-3.  Pencarian untuk`Aspose.PDF` dan instal versi terbaru.
+2. Klik di sini `Manage NuGet Packages`.
+3. Pencarian untuk `Aspose.PDF` dan instal versi terbaru.
 
 ```csharp
 using System.IO;
@@ -63,7 +65,7 @@ Untuk memulai, Anda perlu menentukan direktori tempat file PDF Anda berada. Ini 
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Perbarui jalur ini
 ```
 
- Penjelasan: Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur yang mengarah ke direktori yang berisi berkas PDF Anda. Hal ini penting karena memberi tahu kode Anda di mana menemukan berkas yang ingin Anda manipulasi.
+Penjelasan: Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur yang mengarah ke direktori yang berisi berkas PDF Anda. Hal ini penting karena memberi tahu kode Anda di mana menemukan berkas yang ingin Anda manipulasi.
 
 ## Langkah 2: Buka Dokumen
 
@@ -73,7 +75,7 @@ Berikutnya, kita akan membuka dokumen PDF yang sudah ada yang ingin kita tambahk
 Document pdfDocument = new Document(dataDir + "PageNumberStamp.pdf");
 ```
 
- Penjelasan: Di sini, kita menggunakan`Document` kelas yang disediakan oleh Aspose.PDF untuk membuka berkas PDF tertentu. Pastikan nama berkas sesuai dengan berkas sebenarnya yang ada di direktori Anda.
+Penjelasan: Di sini, kita menggunakan `Document` kelas yang disediakan oleh Aspose.PDF untuk membuka berkas PDF tertentu. Pastikan nama berkas sesuai dengan berkas sebenarnya yang ada di direktori Anda.
 
 ## Langkah 3: Buat Stempel Nomor Halaman
 
@@ -83,7 +85,7 @@ Sekarang tibalah bagian yang menyenangkan! Mari kita buat stempel nomor halaman 
 PageNumberStamp pageNumberStamp = new PageNumberStamp();
 ```
 
- Penjelasan:`PageNumberStamp`Kelas ini akan memungkinkan kita membuat prangko yang akan menampilkan nomor halaman saat ini berdasarkan jumlah total halaman dalam dokumen.
+Penjelasan: `PageNumberStamp` Kelas ini akan memungkinkan kita membuat prangko yang akan menampilkan nomor halaman saat ini berdasarkan jumlah total halaman dalam dokumen.
 
 ## Langkah 4: Konfigurasikan Stempel
 
@@ -126,7 +128,7 @@ Setelah prangko Anda dikonfigurasi, saatnya menambahkannya ke halaman tertentu d
 pdfDocument.Pages[1].AddStamp(pageNumberStamp);
 ```
 
- Penjelasan: Baris ini menambahkan stempel ke halaman pertama PDF. Anda dapat menyesuaikannya`Pages[1]` indeks untuk halaman lain bila diperlukan.
+Penjelasan: Baris ini menambahkan stempel ke halaman pertama PDF. Anda dapat menyesuaikannya `Pages[1]` indeks untuk halaman lain bila diperlukan.
 
 ## Langkah 7: Simpan Dokumen Output
 
@@ -150,19 +152,21 @@ Menambahkan stempel nomor halaman ke berkas PDF Anda menggunakan Aspose.PDF untu
 Ya! Anda dapat mengubah jenis huruf, ukuran, warna, dan format nomor halaman seperti yang ditunjukkan dalam panduan.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?  
- Aspose.PDF menawarkan uji coba gratis, tetapi Anda memerlukan lisensi untuk penggunaan yang ekstensif. Lihat[halaman pembelian](https://purchase.aspose.com/buy) untuk info lebih lanjut.
+Aspose.PDF menawarkan uji coba gratis, tetapi Anda memerlukan lisensi untuk penggunaan yang ekstensif. Lihat [halaman pembelian](https://purchase.aspose.com/buy) untuk info lebih lanjut.
 
 ### Bagaimana jika saya menghadapi masalah saat implementasi?  
- Anda dapat mengunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk bantuan.
+Anda dapat mengunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk bantuan.
 
 ### Bagaimana cara membuat nomor halaman secara otomatis untuk beberapa halaman?  
 Kode panduan secara otomatis menghitung jumlah total halaman, sehingga memudahkan penyesuaian untuk beberapa halaman.
 
 ### Bisakah saya menggunakan Aspose.PDF dalam bahasa pemrograman lain?  
 Meskipun panduan ini berfokus pada .NET, Aspose memiliki pustaka untuk Java, Python, dan banyak lagi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

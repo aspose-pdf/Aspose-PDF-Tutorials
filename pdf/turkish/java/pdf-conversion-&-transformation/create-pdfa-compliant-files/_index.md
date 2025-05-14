@@ -1,14 +1,16 @@
 ---
-title: PDF/A Uyumlu Dosyalar Oluşturun
-linktitle: PDF/A Uyumlu Dosyalar Oluşturun
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF kullanarak PDF/A uyumlu dosyaların nasıl oluşturulacağını öğrenin. Endüstri standardı PDF'ler için kod örnekleriyle adım adım kılavuz.
-weight: 18
-url: /tr/java/pdf-conversion-transformation/create-pdfa-compliant-files/
+"description": "Java için Aspose.PDF kullanarak PDF/A uyumlu dosyaların nasıl oluşturulacağını öğrenin. Endüstri standardı PDF'ler için kod örnekleriyle adım adım kılavuz."
+"linktitle": "PDF/A Uyumlu Dosyalar Oluşturun"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF/A Uyumlu Dosyalar Oluşturun"
+"url": "/tr/java/pdf-conversion-transformation/create-pdfa-compliant-files/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF/A Uyumlu Dosyalar Oluşturun
@@ -20,11 +22,11 @@ PDF/A standardına uyan PDF belgeleri oluşturmak, dosyalarınızın zaman için
 
 ## PDF/A Uyumluluğunu Anlamak
 
-PDF/A uyumluluğu, kullanılan yazılım veya donanımdan bağımsız olarak, bir belgenin gelecekte de bugün olduğu gibi işleneceğini garanti eder. Ayrıca, belgedeki metnin aranabilir ve seçilebilir olmasını sağlar.
+PDF/A uyumluluğu, kullanılan yazılım veya donanımdan bağımsız olarak, bir belgenin gelecekte de bugün olduğu gibi aynı şekilde işleneceğini garanti eder. Ayrıca, belgedeki metnin aranabilir ve seçilebilir olmasını sağlar.
 
 ## Geliştirme Ortamınızı Kurma
 
- Başlamadan önce, sisteminizde Java'nın yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Burada](https://www.java.com/download/)Ayrıca IntelliJ IDEA veya Eclipse gibi entegre bir geliştirme ortamına (IDE) sahip olduğunuzdan emin olun.
+Başlamadan önce, sisteminizde Java'nın yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Burada](https://www.java.com/download/)Ayrıca IntelliJ IDEA veya Eclipse gibi entegre bir geliştirme ortamına (IDE) sahip olduğunuzdan emin olun.
 
 ## Yeni Bir Java Projesi Oluşturma
 
@@ -32,7 +34,7 @@ Tercih ettiğiniz IDE'de yeni bir Java projesi oluşturarak başlayın. Bir isim
 
 ## Projenize Aspose.PDF for Java Ekleme
 
- Java için Aspose.PDF'yi kullanmak için projenize Aspose.PDF kütüphanesini eklemeniz gerekir. Bunu şuradan indirebilirsiniz:[Java için Aspose.PDF](https://releases.aspose.com/pdf/java/)İndirdikten sonra JAR dosyasını projenizin sınıf yoluna ekleyin.
+Java için Aspose.PDF'yi kullanmak için projenize Aspose.PDF kütüphanesini eklemeniz gerekir. Bunu şuradan indirebilirsiniz: [Java için Aspose.PDF](https://releases.aspose.com/pdf/java/). İndirdikten sonra JAR dosyasını projenizin sınıf yoluna ekleyin.
 
 ## Bir PDF Belgesini Başlatma
 
@@ -97,7 +99,7 @@ pdfDocument.save("output.pdf");
 
 ## Ek Özellikler ve Özelleştirme
 
-Java için Aspose.PDF, başlıklar, altbilgiler, filigranlar ve daha fazlasını eklemek de dahil olmak üzere PDF belgelerinizi özelleştirmek için çok çeşitli özellikler sunar.[belgeleme](https://reference.aspose.com/pdf/java/) Özelleştirme seçenekleri hakkında detaylı bilgi için.
+Java için Aspose.PDF, başlıklar, altbilgiler, filigranlar ve daha fazlasını eklemek de dahil olmak üzere PDF belgelerinizi özelleştirmek için çok çeşitli özellikler sunar. [belgeleme](https://reference.aspose.com/pdf/java/) Özelleştirme seçenekleri hakkında detaylı bilgi için.
 
 ## Çözüm
 
@@ -107,7 +109,7 @@ Aspose.PDF for Java kullanarak PDF/A uyumlu dosyalar oluşturmak, belgelerinizin
 
 ### Aspose.PDF for Java kullanarak bir PDF belgesine nasıl resim eklerim?
 
- Bir PDF belgesine resim eklemek için şunu kullanabilirsiniz:`Image` Java için Aspose.PDF'den sınıf. İşte basit bir örnek:
+Bir PDF belgesine resim eklemek için şunu kullanabilirsiniz: `Image` Java için Aspose.PDF'den sınıf. İşte basit bir örnek:
 
 ```java
 import com.aspose.pdf.Image;
@@ -130,7 +132,7 @@ Evet, Aspose.PDF for Java, Java 11 ve daha yeni sürümlerle uyumludur. Sorunsuz
 
 ### PDF belgesindeki metne nasıl köprü metni ekleyebilirim?
 
- Bir PDF belgesindeki metne köprü eklemek için şunu kullanabilirsiniz:`LinkAnnotation` Java için Aspose.PDF'den sınıf. İşte basit bir örnek:
+Bir PDF belgesindeki metne köprü eklemek için şunu kullanabilirsiniz: `LinkAnnotation` Java için Aspose.PDF'den sınıf. İşte basit bir örnek:
 
 ```java
 import com.aspose.pdf.LinkAnnotation;
@@ -147,7 +149,7 @@ page.getAnnotations().add(link);
 
 ### Aspose.PDF for Java kullanarak bir PDF belgesinden metni nasıl çıkarabilirim?
 
- Bir PDF belgesinden metni şu şekilde çıkarabilirsiniz:`TextAbsorber` Java için Aspose.PDF tarafından sağlanan sınıf. İşte basit bir örnek:
+Bir PDF belgesinden metni şu şekilde çıkarabilirsiniz: `TextAbsorber` Java için Aspose.PDF tarafından sağlanan sınıf. İşte basit bir örnek:
 
 ```java
 import com.aspose.pdf.TextAbsorber;
@@ -155,15 +157,17 @@ import com.aspose.pdf.TextAbsorber;
 // TextAbsorber'ı Başlat
 TextAbsorber textAbsorber = new TextAbsorber();
 
-//PDF belgesini kabul et
+// PDF belgesini kabul et
 pdfDocument.getPages().accept(textAbsorber);
 
 // Çıkarılan metni alın
 String extractedText = textAbsorber.getText();
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

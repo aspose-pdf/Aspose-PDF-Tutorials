@@ -1,14 +1,16 @@
 ---
-title: Properti Elemen Struktur Dalam File PDF
-linktitle: Properti Elemen Struktur Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Panduan langkah demi langkah untuk bekerja dengan properti elemen struktural dalam file PDF dengan Aspose.PDF untuk .NET. Buat elemen struktural yang kaya informasi.
-weight: 150
-url: /id/net/programming-with-tagged-pdf/structure-elements-properties/
+"description": "Panduan langkah demi langkah untuk bekerja dengan properti elemen struktural dalam file PDF dengan Aspose.PDF untuk .NET. Buat elemen struktural yang kaya informasi."
+"linktitle": "Properti Elemen Struktur Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Properti Elemen Struktur Dalam File PDF"
+"url": "/id/net/programming-with-tagged-pdf/structure-elements-properties/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Properti Elemen Struktur Dalam File PDF
@@ -21,8 +23,8 @@ Apakah Anda ingin menyempurnakan berkas PDF Anda dengan elemen terstruktur mengg
 
 Sebelum kita mulai dan menyelami aspek pengkodean, mari kita lihat sekilas apa saja yang perlu Anda siapkan:
 
-1. Lingkungan .NET: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET yang kompatibel, baik itu Visual Studio atau IDE lainnya.
-2.  Pustaka Aspose.PDF: Anda perlu menginstal pustaka Aspose.PDF untuk .NET. Jika Anda belum memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+1. Lingkungan .NET: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET yang kompatibel, baik itu Visual Studio atau IDE lain.
+2. Pustaka Aspose.PDF: Anda perlu menginstal pustaka Aspose.PDF untuk .NET. Jika Anda belum memilikinya, Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# tentu akan membantu Anda memahami contoh-contohnya dengan lebih baik.
 
 Sekarang setelah kita menyelesaikan prasyaratnya, mari impor paket yang diperlukan untuk tugas kita.
@@ -51,7 +53,7 @@ Pertama-tama, kita perlu membuat direktori dokumen tempat PDF kita akan berada. 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada komputer Anda tempat Anda ingin menyimpan dokumen PDF.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada komputer Anda tempat Anda ingin menyimpan dokumen PDF.
 
 ## Langkah 2: Buat Dokumen PDF Baru
 
@@ -62,7 +64,7 @@ Setelah direktori kita ditetapkan, mari buat dokumen PDF baru.
 Document document = new Document();
 ```
 
- Di sini, kita membuat instance baru`Document` objek, yang mewakili berkas PDF kita. Ini akan berfungsi sebagai wadah untuk semua elemen terstruktur kita.
+Di sini, kita membuat instance baru `Document` objek, yang mewakili berkas PDF kita. Ini akan berfungsi sebagai wadah untuk semua elemen terstruktur kita.
 
 ## Langkah 3: Akses Konten yang Ditandai
 
@@ -73,7 +75,7 @@ Berikutnya, kita perlu mengakses konten yang diberi tag dalam dokumen kita, yang
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- Kami menggunakan`TaggedContent` properti dokumen kami untuk mendapatkan`ITaggedContent` objek. Hal ini penting untuk membuat dan mengelola elemen yang diberi tag di PDF kita.
+Kami menggunakan `TaggedContent` properti dokumen kami untuk mendapatkan `ITaggedContent` objek. Hal ini penting untuk membuat dan mengelola elemen yang diberi tag di PDF kita.
 
 ## Langkah 4: Tetapkan Judul dan Bahasa Dokumen
 
@@ -100,7 +102,7 @@ Kita mulai dengan membuat elemen akar yang akan menampung semua elemen lainnya.
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
- Itu`RootElement`bertindak sebagai induk untuk semua elemen yang akan kita buat.
+Itu `RootElement` bertindak sebagai induk untuk semua elemen yang akan kita buat.
 
 ### Langkah 5.2: Buat Elemen Bagian
 
@@ -111,7 +113,7 @@ SectElement sect = taggedContent.CreateSectElement();
 rootElement.AppendChild(sect);
 ```
 
- A`SectElement` dapat dianggap sebagai subbagian atau bab dalam dokumen, yang memungkinkan konten terorganisir.
+A `SectElement` dapat dianggap sebagai subbagian atau bab dalam dokumen, yang memungkinkan konten terorganisir.
 
 ### Langkah 5.3: Buat Elemen Header
 
@@ -122,7 +124,7 @@ HeaderElement h1 = taggedContent.CreateHeaderElement(1);
 sect.AppendChild(h1);
 ```
 
- Itu`HeaderElement` adalah tempat kita dapat menempatkan judul atau tajuk dalam bagian kita. Nomor yang diteruskan ke`CreateHeaderElement` metode menentukan level header (1 adalah yang tertinggi).
+Itu `HeaderElement` adalah tempat kita dapat menempatkan judul atau tajuk dalam bagian kita. Nomor yang diteruskan ke `CreateHeaderElement` metode menentukan level header (1 adalah yang tertinggi).
 
 ### Langkah 5.4: Mengatur Teks dan Properti Header
 
@@ -148,7 +150,7 @@ Setelah semua elemen dibuat dan diisi, waktunya menyimpan pekerjaan kita!
 document.Save(dataDir + "StructureElementsProperties.pdf");
 ```
 
- Dengan menelepon`Save`metode pada objek dokumen kita, kita menulis PDF terstruktur kita ke jalur yang ditentukan. Voilà! Anda telah membuat PDF dengan elemen terstruktur.
+Dengan menelepon `Save` metode pada objek dokumen kita, kita menulis PDF terstruktur kita ke jalur yang ditentukan. Voilà! Anda telah membuat PDF dengan elemen terstruktur.
 
 ## Kesimpulan
 
@@ -166,13 +168,15 @@ Anda dapat menggunakan Aspose.PDF secara gratis dengan beberapa batasan. Untuk m
 Meskipun hal itu dimungkinkan dengan pustaka dan teknik lain, Aspose.PDF menyederhanakan proses tersebut secara signifikan dengan fitur-fiturnya yang tangguh.
 
 ### Apakah ada dukungan yang tersedia jika saya memiliki pertanyaan?
-Ya! Anda dapat mengajukan pertanyaan Anda di[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Ya! Anda dapat mengajukan pertanyaan Anda di [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana saya dapat mempelajari lebih lanjut tentang bekerja dengan Aspose.PDF?
- Lihat di sini[dokumentasi](https://reference.aspose.com/pdf/net/) untuk panduan mendalam dan fitur tambahan.
+Lihat di sini [dokumentasi](https://reference.aspose.com/pdf/net/) untuk panduan mendalam dan fitur tambahan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

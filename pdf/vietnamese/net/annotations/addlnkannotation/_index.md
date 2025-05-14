@@ -1,14 +1,16 @@
 ---
-title: Thêm chú thích liên kết
-linktitle: Thêm chú thích liên kết
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm chú thích bằng mực vào tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước hấp dẫn này.
-weight: 20
-url: /vi/net/annotations/addlnkannotation/
+"description": "Tìm hiểu cách thêm chú thích bằng mực vào tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước hấp dẫn này."
+"linktitle": "Thêm chú thích liên kết"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm chú thích liên kết"
+"url": "/vi/net/annotations/addlnkannotation/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm chú thích liên kết
@@ -22,7 +24,7 @@ Chào mừng đến với thế giới thao tác PDF với Aspose.PDF cho .NET! 
 Trước khi đi sâu vào phép thuật mã hóa, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET trên máy của mình. Thư viện này hoạt động liền mạch với nhiều phiên bản .NET khác nhau, bao gồm .NET Core.
-2.  Thư viện Aspose.PDF: Bạn sẽ cần phải tải xuống và tham chiếu thư viện Aspose.PDF cho .NET trong dự án của mình. Nếu bạn chưa thực hiện việc này, bạn có thể lấy phiên bản mới nhất từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+2. Thư viện Aspose.PDF: Bạn sẽ cần phải tải xuống và tham chiếu thư viện Aspose.PDF cho .NET trong dự án của mình. Nếu bạn chưa thực hiện việc này, bạn có thể lấy phiên bản mới nhất từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 3. Trình soạn thảo mã: Bạn có thể sử dụng bất kỳ trình soạn thảo mã nào bạn chọn, nhưng Visual Studio được khuyến khích sử dụng vì dễ sử dụng với các ứng dụng .NET.
 4. Hiểu biết cơ bản về C#: Kiến thức cơ bản về C# sẽ giúp bạn dễ dàng xử lý các ví dụ mã hóa.
 5. Thiết lập môi trường phát triển của bạn: Đảm bảo IDE của bạn được thiết lập để xử lý các dự án .NET và bạn đã tham chiếu thư viện Aspose.PDF đúng cách trong dự án của mình. 
@@ -54,7 +56,7 @@ Bây giờ chúng ta đã thiết lập xong bối cảnh, đã đến lúc xắ
 string dataDir = "YOUR DATA DIRECTORY";
 Document doc = new Document();
 ```
- Chúng tôi định nghĩa một biến`dataDir` , trỏ đến thư mục nơi tệp PDF kết quả sẽ được lưu.`Document` sau đó đối tượng được khởi tạo, tạo một tài liệu PDF mới để chỉnh sửa.
+Chúng tôi định nghĩa một biến `dataDir`, trỏ đến thư mục nơi tệp PDF kết quả sẽ được lưu. `Document` sau đó đối tượng được khởi tạo, tạo một tài liệu PDF mới để chỉnh sửa.
 
 ## Bước 2: Thêm một trang vào tài liệu của bạn
 
@@ -77,7 +79,7 @@ drect.X = 0;
 drect.Y = 0;
 Aspose.Pdf.Rectangle arect = Aspose.Pdf.Rectangle.FromRect(drect);
 ```
- Ở đây, chúng tôi tạo ra một`Rectangle` đối tượng chỉ định khu vực trên trang mà chúng ta sẽ thêm chú thích mực. Chúng ta đang thiết lập kích thước của nó để phù hợp với toàn bộ trang, bắt đầu từ (0,0).
+Ở đây, chúng tôi tạo ra một `Rectangle` đối tượng chỉ định khu vực trên trang mà chúng ta sẽ thêm chú thích mực. Chúng ta đang thiết lập kích thước của nó để phù hợp với toàn bộ trang, bắt đầu từ (0,0).
 
 ## Bước 4: Chuẩn bị các điểm mực
 
@@ -105,7 +107,7 @@ InkAnnotation ia = new InkAnnotation(pdfPage, arect, inkList)
     CapStyle = CapStyle.Rounded
 };
 ```
- Chúng tôi thực hiện`InkAnnotation`đối tượng, truyền vào trang, hình chữ nhật và các điểm mực. Ngoài ra, chúng tôi đang thiết lập một số thuộc tính như`Title`, `Color` , Và`CapStyle`. Tùy chỉnh những điều này để phù hợp với nhu cầu của bạn!
+Chúng tôi thực hiện `InkAnnotation` đối tượng, truyền vào trang, hình chữ nhật và các điểm mực. Ngoài ra, chúng tôi đang thiết lập một số thuộc tính như `Title`, `Color`, Và `CapStyle`. Tùy chỉnh những điều này để phù hợp với nhu cầu của bạn!
 
 ## Bước 6: Thiết lập đường viền và độ mờ
 
@@ -136,11 +138,11 @@ dataDir = dataDir + "AddInkAnnotation_out.pdf";
 doc.Save(dataDir);
 Console.WriteLine("\nInk annotation added successfully.\nFile saved at " + dataDir);
 ```
- Chúng tôi sửa đổi của chúng tôi`dataDir` để bao gồm tên tệp đầu ra và lưu tài liệu. Một thông báo xác nhận được in ra bảng điều khiển để cho bạn biết mọi thứ diễn ra suôn sẻ.
+Chúng tôi sửa đổi của chúng tôi `dataDir` để bao gồm tên tệp đầu ra và lưu tài liệu. Một thông báo xác nhận được in ra bảng điều khiển để cho bạn biết mọi thứ diễn ra suôn sẻ.
 
 ## Phần kết luận
 
-Và thế là xong! Bạn đã thêm thành công chú thích mực vào tài liệu PDF của mình bằng Aspose.PDF cho .NET. Tính năng đơn giản nhưng hiệu quả này có thể cải thiện tài liệu của bạn và khiến chúng trở nên tương tác. Cho dù bạn đang thêm chữ ký, ghi chú hay hình vẽ nguệch ngoạc, chú thích mực cung cấp một cách độc đáo để làm phong phú nội dung.
+Và bạn đã có nó! Bạn đã thêm thành công chú thích mực vào tài liệu PDF của mình bằng Aspose.PDF cho .NET. Tính năng đơn giản nhưng hiệu quả này có thể cải thiện tài liệu của bạn và làm cho chúng trở nên tương tác. Cho dù bạn đang thêm chữ ký, ghi chú hay hình vẽ nguệch ngoạc, chú thích mực cung cấp một cách độc đáo để làm phong phú nội dung.
 
 ## Câu hỏi thường gặp
 
@@ -148,19 +150,21 @@ Và thế là xong! Bạn đã thêm thành công chú thích mực vào tài li
 Aspose.PDF là một thư viện dùng để tạo, chỉnh sửa và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có! Aspose cung cấp phiên bản dùng thử miễn phí để đánh giá sản phẩm của họ. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có! Aspose cung cấp phiên bản dùng thử miễn phí để đánh giá sản phẩm của họ. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Có thể thêm nhiều chú thích bằng mực không?
- Chắc chắn rồi! Bạn có thể tạo nhiều`InkAnnotation` đối tượng và thêm chúng vào trang tài liệu của bạn.
+Chắc chắn rồi! Bạn có thể tạo nhiều `InkAnnotation` đối tượng và thêm chúng vào trang tài liệu của bạn.
 
 ### Tôi có thể tìm thêm ví dụ ở đâu?
- Bạn có thể kiểm tra[tài liệu](https://reference.aspose.com/pdf/net/) để biết hướng dẫn chi tiết và mẫu.
+Bạn có thể kiểm tra [tài liệu](https://reference.aspose.com/pdf/net/) để biết hướng dẫn chi tiết và mẫu.
 
 ### Tôi phải làm gì nếu cần hỗ trợ?
- Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp trên [diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

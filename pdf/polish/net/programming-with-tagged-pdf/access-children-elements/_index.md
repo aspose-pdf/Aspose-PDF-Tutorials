@@ -1,28 +1,30 @@
 ---
-title: Dostęp do elementów dziecięcych
-linktitle: Dostęp do elementów dziecięcych
-second_title: Aspose.PDF dla .NET API Reference
-description: W tym samouczku krok po kroku dowiesz się, jak uzyskać dostęp do elementów podrzędnych w oznaczonych plikach PDF i je modyfikować za pomocą Aspose.PDF dla platformy .NET.
-weight: 10
-url: /pl/net/programming-with-tagged-pdf/access-children-elements/
+"description": "W tym samouczku krok po kroku dowiesz się, jak uzyskać dostęp do elementów podrzędnych w oznaczonych plikach PDF i je modyfikować za pomocą Aspose.PDF dla platformy .NET."
+"linktitle": "Dostęp do elementów dziecięcych"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dostęp do elementów dziecięcych"
+"url": "/pl/net/programming-with-tagged-pdf/access-children-elements/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostęp do elementów dziecięcych
 
 ## Wstęp
 
-Jeśli chodzi o programowe manipulowanie dokumentami PDF, Aspose.PDF dla .NET wyróżnia się kompleksowym API, umożliwiającym programistom wykonywanie różnych zadań z precyzją. Jedną z kluczowych cech pracy z oznaczonymi plikami PDF jest dostęp do elementów podrzędnych w strukturze dokumentu i ich modyfikacja. W tym artykule zagłębimy się w to, jak można wykorzystać tę funkcjonalność do uzyskiwania dostępu i ustawiania właściwości elementów podrzędnych w oznaczonym pliku PDF.
+Jeśli chodzi o programowe manipulowanie dokumentami PDF, Aspose.PDF dla .NET wyróżnia się kompleksowym API, umożliwiającym programistom wykonywanie różnych zadań z precyzją. Jedną z kluczowych cech pracy z oznaczonymi plikami PDF jest dostęp do elementów podrzędnych w strukturze dokumentu i ich modyfikowanie. W tym artykule zagłębimy się w to, jak można wykorzystać tę funkcjonalność do uzyskiwania dostępu i ustawiania właściwości elementów podrzędnych w oznaczonym pliku PDF.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do kodu, jest kilka rzeczy, których będziesz potrzebować na początek:
 
 1. .NET Framework: Upewnij się, że masz zainstalowaną wersję .NET Framework na swoim komputerze. Aspose.PDF obsługuje również .NET Core.
-2.  Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Najnowszą wersję możesz pobrać ze strony[Strona pobierania Aspose](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Najnowszą wersję możesz pobrać ze strony [Strona pobierania Aspose](https://releases.aspose.com/pdf/net/).
 3. Środowisko programistyczne: Skonfiguruj środowisko IDE, np. Visual Studio, w którym będziesz mógł pisać i uruchamiać kod C#.
 4. Przykładowy plik PDF: Będziesz potrzebować przykładowego dokumentu PDF z tagami, aby z nim pracować. W tym samouczku użyjemy „StructureElementsTree.pdf”, który powinieneś umieścić w katalogu dokumentów swojego projektu.
 
@@ -52,7 +54,7 @@ Zacznijmy od zdefiniowania katalogu, w którym będziesz przechowywać swoje dok
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Po prostu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze. 
+Po prostu zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze. 
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -74,7 +76,7 @@ Teraz uzyskamy dostęp do oznaczonej zawartości dokumentu, co umożliwi łatwą
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
-Ten wiersz pozwala Ci zagłębić się w strukturę pliku PDF.
+Ten wiersz pozwala na zagłębienie się w strukturę pliku PDF.
 
 ## Krok 4: Dostęp do elementów głównych
 
@@ -121,7 +123,7 @@ Teraz, gdy mamy już dostęp do elementów głównych, możemy zagłębić się 
 elementList = taggedContent.RootElement.ChildElements[1].ChildElements;
 ```
 
- Zmieniając`ChildElements[1]` do innego indeksu, możesz eksplorować różne elementy główne, jeśli takie istnieją.
+Zmieniając `ChildElements[1]` do innego indeksu, możesz eksplorować różne elementy główne, jeśli takie istnieją.
 
 ## Krok 7: Modyfikuj właściwości elementu podrzędnego
 
@@ -175,10 +177,12 @@ Początkowo możesz wypróbować aplikację za darmo, ale w celu uzyskania pełn
 Tak, Aspose.PDF obsługuje platformę .NET Core oraz inne wersje platformy .NET Framework.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.PDF?
- Dodatkową dokumentację można znaleźć na stronie[Strona dokumentacji Aspose](https://reference.aspose.com/pdf/net/).
+Dodatkową dokumentację można znaleźć na stronie [Strona dokumentacji Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

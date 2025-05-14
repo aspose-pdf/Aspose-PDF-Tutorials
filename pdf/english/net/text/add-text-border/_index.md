@@ -6,8 +6,11 @@ description: Create professional PDF documents with styled text fragments featur
 keywords: [Aspose.PDF for .NET, PDF creation, text styling, border effects, text fragments, C# PDF library, document formatting]
 url: /net/text/add-text-border/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Styled Text with Borders in PDF Documents
@@ -15,9 +18,11 @@ url: /net/text/add-text-border/
 Aspose.PDF for .NET is a powerful PDF processing API that allows developers to create, edit, manipulate, and convert PDF documents without requiring Adobe Acrobat. This example demonstrates how to create a PDF document with a text fragment that has specific styling and a border, which is particularly useful for highlighting important content in your documents.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/add-text-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installation Instructions
@@ -42,7 +47,9 @@ Aspose.PDF for .NET is a powerful PDF processing API that allows developers to c
 - [Aspose.PDF for .NET API Reference](https://reference.aspose.com/pdf/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

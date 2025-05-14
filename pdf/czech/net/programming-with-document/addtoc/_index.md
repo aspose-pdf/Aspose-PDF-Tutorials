@@ -1,35 +1,37 @@
 ---
-title: Přidat TOC do souboru PDF
-linktitle: Přidat TOC do souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak přidat obsah do PDF pomocí Aspose.PDF for .NET. Tento průvodce krok za krokem zjednodušuje proces a zajišťuje snadnou navigaci ve vašich dokumentech.
-weight: 40
-url: /cs/net/programming-with-document/addtoc/
+"description": "Naučte se, jak přidat obsah do PDF pomocí Aspose.PDF pro .NET. Tato podrobná příručka zjednodušuje proces a zajišťuje snadnou navigaci v dokumentech."
+"linktitle": "Přidat obsah do PDF souboru"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Přidat obsah do PDF souboru"
+"url": "/cs/net/programming-with-document/addtoc/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidat TOC do souboru PDF
+# Přidat obsah do PDF souboru
 
 ## Zavedení
 
-Už jste někdy donekonečna listovali dlouhým PDF a přáli si, aby měl dobře uspořádaný obsah? No, dnes je váš šťastný den! V tomto tutoriálu se naučíte, jak přidat TOC do souboru PDF pomocí Aspose.PDF pro .NET. Ať už pracujete na komplexní zprávě, elektronické knize nebo obchodním návrhu, TOC může přeměnit váš dokument na profesionální mistrovské dílo, které lze snadno ovládat.
+Už jste někdy donekonečna procházeli dlouhý PDF dokument a přáli si, aby měl dobře uspořádaný obsah? Dnes máte štěstí! V tomto tutoriálu se naučíte, jak přidat obsah do PDF souboru pomocí Aspose.PDF pro .NET. Ať už pracujete na složité zprávě, elektronické knize nebo obchodním návrhu, obsah může proměnit váš dokument v profesionální a snadno ovladatelné mistrovské dílo.
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do kódu, ujistěme se, že máte vše potřebné:
 
-1. Aspose.PDF for .NET: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.PDF. Můžete si jej stáhnout z[zde](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF pro .NET: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.PDF. Můžete si ji stáhnout z [zde](https://releases.aspose.com/pdf/net/).
    
-2. Vývojové prostředí: Ujistěte se, že máte na svém počítači nastavené vývojové prostředí .NET, jako je Visual Studio.
+2. Vývojové prostředí: Ujistěte se, že máte na počítači nainstalované vývojové prostředí .NET, jako je Visual Studio.
 
-3.  Licence: Pokud nemáte licenci, můžete získat bezplatnou zkušební verzi nebo požádat o dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+3. Licence: Pokud nemáte licenci, můžete si ji zdarma vyzkoušet nebo požádat o dočasnou licenci. [zde](https://purchase.aspose.com/temporary-license/).
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, nezapomeňte importovat potřebné jmenné prostory na začátku souboru kódu. Zde je postup:
+Chcete-li začít, nezapomeňte importovat potřebné jmenné prostory na začátek souboru s kódem. Postupujte takto:
 
 ```csharp
 using System.IO;
@@ -38,34 +40,34 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-Tyto jmenné prostory umožňují přístup k funkcím specifickým pro PDF a manipulaci s textovými prvky v dokumentu.
+Tyto jmenné prostory vám umožňují přístup k funkcím specifickým pro PDF a manipulaci s textovými prvky v dokumentu.
 
-Pojďme si tento úkol rozdělit na malé kroky. Každý krok vás provede procesem vytváření a vkládání obsahu do vašeho dokumentu PDF.
+Rozdělme si tento úkol na několik kroků. Každý krok vás provede procesem vytvoření a vložení obsahu do vašeho PDF dokumentu.
 
 ## Krok 1: Načtěte dokument PDF
 
-První věc, kterou musíme udělat, je načíst existující soubor PDF, kam chceme přidat obsah.
+První věc, kterou musíme udělat, je načíst existující PDF soubor, kam chceme přidat obsah.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTOC.pdf");
 ```
 
- V tomto kroku určíme cestu k adresáři dokumentu a načteme PDF pomocí`Document` objekt. Nezapomeňte vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu souboru.
+V tomto kroku zadáme cestu k adresáři dokumentů a načteme PDF pomocí `Document` předmět. Nezapomeňte jej vyměnit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu souboru.
 
-## Krok 2: Vložte novou stránku pro TOC
+## Krok 2: Vložení nové stránky pro obsah
 
-Dále vložíme novou stránku na začátek dokumentu PDF. Tato stránka bude hostit obsah.
+Dále vložíme novou stránku na začátek PDF dokumentu. Tato stránka bude obsahovat obsah.
 
 ```csharp
 Page tocPage = doc.Pages.Insert(1);
 ```
 
-Vložením stránky obsahu na začátek zajistíme, že se zobrazí jako úplně první věc, kterou čtenáři v PDF uvidí.
+Vložením stránky s obsahem na začátek zajistíme, že se čtenáři v PDF zobrazí jako úplně první věc, kterou uvidí.
 
-## Krok 3: Vytvořte objekt TOC Information Object
+## Krok 3: Vytvoření informačního objektu obsahu
 
-Nyní vytvoříme objekt, který bude reprezentovat informace TOC. Do obsahu také přidáme název, aby vynikl.
+Nyní si vytvořme objekt, který bude reprezentovat informace z obsahu. Také k obsahu přidáme název, aby vynikl.
 
 ```csharp
 TocInfo tocInfo = new TocInfo();
@@ -76,11 +78,11 @@ tocInfo.Title = title;
 tocPage.TocInfo = tocInfo;
 ```
 
-Zde jsme nastavili název obsahu jako „Table Of Contents“, zvětšili jsme velikost písma a zdůraznili ho tučným písmem.
+Zde jsme název obsahu nastavili na „Obsah“, zvětšili velikost písma a pro zdůraznění jsme jej zvýraznili tučně.
 
-## Krok 4: Definujte prvky TOC
+## Krok 4: Definování prvků obsahu
 
-V tomto kroku definujeme prvky (nebo nadpisy), které se budou zobrazovat v TOC. Tyto prvky pomohou čtenářům přejít do konkrétních částí dokumentu.
+V tomto kroku definujeme prvky (nebo nadpisy), které se budou zobrazovat v obsahu. Tyto prvky pomohou čtenářům orientovat se v konkrétních částech dokumentu.
 
 ```csharp
 string[] titles = new string[4];
@@ -90,7 +92,7 @@ titles[2] = "Third page";
 titles[3] = "Fourth page";
 ```
 
-Vytvořili jsme pole řetězců, které budou sloužit jako naše položky obsahu odpovídající různým stránkám v PDF.
+Vytvořili jsme pole řetězců, které budou sloužit jako položky obsahu a odpovídají různým stránkám v PDF.
 
 ## Krok 5: Vytvořte nadpisy obsahu
 
@@ -112,17 +114,17 @@ for (int i = 0; i < 2; i++)
 }
 ```
 
-Zde je to, co se děje:
-- Nadpis: Vytváříme a`Heading` objekt a přidejte a`TextSegment` k tomu.
-- Cílová stránka: Nastavíme stránku, na kterou bude odkazovat každý nadpis.
-- Horní pozice: Určujeme pozici na stránce, kam bude nadpis ukazovat.
+Zde se dozvíte, co se děje:
+- Nadpis: Tvoříme `Heading` objekt a přidat `TextSegment` k tomu.
+- Cílová stránka: Nastavíme stránku, na kterou bude každý nadpis odkazovat.
+- Horní pozice: Určíme pozici na stránce, kam bude nadpis ukazovat.
 - Text: Každý nadpis získá svůj příslušný název z pole, které jsme vytvořili dříve.
 
-Tato smyčka vytváří nadpisy pro první dva prvky v obsahu a spojuje je s odpovídajícími stránkami.
+Tato smyčka vytváří nadpisy pro první dva prvky v obsahu a propojuje je s odpovídajícími stránkami.
 
-## Krok 6: Uložte soubor PDF s obsahem
+## Krok 6: Uložte PDF s obsahem
 
-Nakonec, když jsme přidali všechny prvky TOC, je čas uložit aktualizované PDF.
+Nakonec, po přidání všech prvků obsahu, je čas uložit aktualizovaný PDF.
 
 ```csharp
 dataDir = dataDir + "TOC_out.pdf";
@@ -131,9 +133,9 @@ doc.Save(dataDir);
 
 Soubor je nyní uložen s obsahem přidaným do PDF. Gratulujeme – úspěšně jste přidali obsah!
 
-## Krok 7: Potvrzující zpráva
+## Krok 7: Potvrzovací zpráva
 
-Aby uživatel věděl, že proces je dokončen, zobrazíme v konzole jednoduchou zprávu.
+Abychom uživatele informovali o dokončení procesu, zobrazíme v konzoli jednoduchou zprávu.
 
 ```csharp
 Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at " + dataDir);
@@ -141,27 +143,29 @@ Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at "
 
 ## Závěr
 
-tady to máte! S Aspose.PDF pro .NET je přidání obsahu do PDF nejen snadné, ale také přizpůsobitelné. Ať už potřebujete vytvořit jednoduché navigační odkazy nebo složité struktury, tento nástroj vás pokryje. Takže až budete příště pracovat na zdlouhavém PDF, nezapomeňte přidat TOC pro profesionální dotek!
+A tady to máte! S Aspose.PDF pro .NET je přidání obsahu do PDF nejen snadné, ale i přizpůsobitelné. Ať už potřebujete vytvořit jednoduché navigační odkazy nebo složité struktury, tento nástroj vám pomůže. Takže až budete příště pracovat na dlouhém PDF, nezapomeňte pro profesionální vzhled přidat obsah!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu upravit vzhled obsahu v Aspose.PDF?  
-Ano, můžete si plně přizpůsobit vzhled obsahu, včetně stylu písma, velikosti a zarovnání.
+### Mohu si přizpůsobit vzhled obsahu v souboru Aspose.PDF?  
+Ano, vzhled obsahu si můžete plně přizpůsobit, včetně stylu písma, velikosti a zarovnání.
 
 ### Jak přidám podnadpisy do obsahu?  
- Můžete přidat podnadpisy úpravou`Heading` úroveň (např.`Heading(2)`) vytvořit hierarchický TOC.
+Podnadpisy můžete přidat úpravou `Heading` úroveň (např. `Heading(2)`) k vytvoření hierarchického obsahu.
 
-### Je možné automaticky aktualizovat TOC, pokud se dokument změní?  
-Ne, obsah se neaktualizuje automaticky. Pokud se změní struktura dokumentu, budete jej muset znovu vytvořit.
+### Je možné automaticky aktualizovat obsah, pokud se dokument změní?  
+Ne, obsah se neaktualizuje automaticky. Pokud se změní struktura dokumentu, budete ho muset znovu vytvořit.
 
-### Mohu propojit položky TOC s externími dokumenty?  
-Ano, můžete použít hypertextové odkazy k propojení položek obsahu s externími soubory PDF nebo URL.
+### Mohu propojit položky obsahu s externími dokumenty?  
+Ano, hypertextové odkazy můžete použít k propojení položek obsahu s externími soubory PDF nebo URL.
 
-### Podporuje Aspose.PDF víceúrovňové TOC?  
-Ano, Aspose.PDF podporuje víceúrovňové TOC pro složité dokumenty s podsekcemi.
+### Podporuje Aspose.PDF víceúrovňový obsah?  
+Ano, Aspose.PDF podporuje víceúrovňové obsahy pro složité dokumenty s podsekcemi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

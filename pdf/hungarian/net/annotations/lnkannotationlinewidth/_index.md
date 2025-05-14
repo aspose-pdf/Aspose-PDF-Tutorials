@@ -1,34 +1,36 @@
 ---
-title: lnk Annotation Line Width
-linktitle: lnk Annotation Line Width
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan állíthatja be a tinta megjegyzés vonalszélességét egy PDF-fájlban az Aspose.PDF for .NET használatával. Ez a részletes oktatóanyag végigvezeti Önt az egyes lépéseken, biztosítva a kiváló minőségű kimenetet.
-weight: 110
-url: /hu/net/annotations/lnkannotationlinewidth/
+"description": "Ismerje meg, hogyan állíthatja be a tintajelölések vonalvastagságát PDF-ben az Aspose.PDF for .NET használatával. Ez a részletes oktatóanyag végigvezeti Önt minden lépésen, biztosítva a kiváló minőségű kimenetet."
+"linktitle": "lnk Annotáció vonalvastagsága"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "lnk Annotáció vonalvastagsága"
+"url": "/hu/net/annotations/lnkannotationlinewidth/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# lnk Annotation Line Width
+# lnk Annotáció vonalvastagsága
 
 ## Bevezetés
 
-Amikor PDF-dokumentumokkal dolgozik, a megjegyzések hozzáadása hatékony módja lehet az információk kiemelésének vagy interaktív elemek hozzáadásának a fájlokhoz. Az egyik ilyen megjegyzés az Ink Annotation, amely lehetővé teszi, hogy szabad formájú vonalakat rajzoljon a PDF-fájlba. De mi van akkor, ha testre kell szabnia e vonalak megjelenését, különösen a vonalszélességet? Ebben az oktatóanyagban végigvezetjük a tinta megjegyzés vonalszélességének beállításán az Aspose.PDF for .NET használatával.
+PDF dokumentumokkal való munka során a megjegyzések hozzáadása hatékony módja lehet az információk kiemelésének vagy interaktív elemek hozzáadásának a fájlokhoz. Az egyik ilyen megjegyzés a tintahasználatos megjegyzés, amely lehetővé teszi szabadkézi vonalak rajzolását a PDF-en. De mi van akkor, ha testre kell szabnia ezeknek a vonalaknak a megjelenését, különösen a vonalvastagságot? Ebben az oktatóanyagban végigvezetjük a tintahasználatos megjegyzések vonalvastagságának beállításán az Aspose.PDF for .NET használatával.
 
 ## Előfeltételek
 
-Mielőtt belemerülne a kódba, győződjön meg arról, hogy minden be van állítva az oktatóanyag zökkenőmentes követéséhez:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy mindent beállítottunk a bemutató zökkenőmentes követéséhez:
 
-1.  Aspose.PDF for .NET: Győződjön meg arról, hogy telepítve van az Aspose.PDF for .NET könyvtár. Letöltheti a[letöltési oldal](https://releases.aspose.com/pdf/net/) vagy telepítse a NuGet Package Manager segítségével a Visual Studio alkalmazásban.
-2. Fejlesztési környezet: Ez az oktatóanyag feltételezi, hogy .NET fejlesztői környezetben, például a Visual Studioban dolgozik.
-3. Alapvető C# ismerete: A C# alapvető ismerete segít a kódolási lépések követésében.
-4. PDF-dokumentum: Használjon egy meglévő PDF-dokumentumot, vagy hozzon létre egy újat ehhez az oktatóanyaghoz.
+1. Aspose.PDF .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.PDF .NET-hez könyvtár. Letöltheti innen: [letöltési oldal](https://releases.aspose.com/pdf/net/) vagy telepítse a NuGet csomagkezelőn keresztül a Visual Studio-ban.
+2. Fejlesztői környezet: Ez az oktatóanyag feltételezi, hogy egy .NET fejlesztői környezetben, például a Visual Studio-ban dolgozol.
+3. C# alapismeretek: A C# alapvető ismerete segít a kódolási lépések követésében.
+4. PDF dokumentum: Használjon egy meglévő PDF dokumentumot, vagy hozzon létre egy újat ehhez az oktatóanyaghoz.
 
-## A szükséges névterek importálása
+## Szükséges névterek importálása
 
-A kódolás megkezdése előtt feltétlenül importálja a szükséges névtereket a projektbe:
+Mielőtt elkezdenéd a kódolást, győződj meg róla, hogy importáltad a szükséges névtereket a projektedbe:
 
 ```csharp
 using System.IO;
@@ -40,29 +42,29 @@ using System.Collections;
 using System.Collections.Generic;
 ```
 
-Ezek a névterek biztosítják a PDF-dokumentumok kezeléséhez, a megjegyzésekkel való munkához és a grafikus elemek kezeléséhez szükséges osztályokat és módszereket.
+Ezek a névterek biztosítják a PDF dokumentumok kezeléséhez, a jegyzetekkel való munkához és a grafikus elemek kezeléséhez szükséges osztályokat és metódusokat.
 
-Most, hogy megvannak az előfeltételeink, bontsuk le a tinta annotáció vonalszélességének beállítását egyértelmű, kezelhető lépésekre.
+Most, hogy megvannak az előfeltételeink, bontsuk le a tintajelöléses vonalszélesség beállításának folyamatát világos, kezelhető lépésekre.
 
-## 1. lépés: Inicializálja a PDF-dokumentumot
+## 1. lépés: A PDF dokumentum inicializálása
 
-Először is létre kell hoznunk vagy meg kell nyitnunk egy PDF dokumentumot. Ehhez az oktatóanyaghoz egy új PDF-dokumentumot készítünk a semmiből.
+Először létre kell hoznunk vagy meg kell nyitnunk egy PDF dokumentumot. Ebben az oktatóanyagban egy új PDF dokumentumot fogunk létrehozni a nulláról.
 
 ```csharp
-// Inicializálja a PDF-dokumentumot
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // Adja meg a dokumentumkönyvtárat
+// PDF dokumentum inicializálása
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Adja meg a dokumentum könyvtárát
 Document doc = new Document();
-doc.Pages.Add(); // Adjon hozzá egy üres oldalt a dokumentumhoz
+doc.Pages.Add(); // Üres oldal hozzáadása a dokumentumhoz
 ```
 
- Itt inicializálunk egy újat`Document` objektum, amely a mi PDF fájlunkat képviseli. Ezután hozzáadunk egy üres oldalt ehhez a dokumentumhoz.
+Itt inicializálunk egy újat `Document` objektum, amely a PDF fájlunkat képviseli. Ezután hozzáadunk egy üres oldalt ehhez a dokumentumhoz, hogy azzal dolgozhassunk.
 
-## 2. lépés: Hozza létre a tintajegyzetet
+## 2. lépés: A tintajelölés létrehozása
 
-Ezután létrehozzuk magát a tinta-annotációt. Ez magában foglalja a tintavonásokat alkotó pontok meghatározását.
+Ezután létrehozzuk magát a tintajelölést. Ez magában foglalja a tintavonásokat alkotó pontok meghatározását.
 
 ```csharp
-// Hozzon létre tintajegyzetet
+// Hozd létre a tintajelölést
 IList<Point[]> inkList = new List<Point[]>();
 LineInfo lineInfo = new LineInfo();
 lineInfo.VerticeCoordinate = new float[] { 55, 55, 70, 70, 70, 90, 150, 60 };
@@ -71,14 +73,14 @@ lineInfo.LineColor = Color.Red;
 lineInfo.LineWidth = 2;
 ```
 
- Ebben a lépésben meghatározzuk a`LineInfo` objektum, amely tartalmazza a tintavonások koordinátáit, láthatóságát, színét és kezdeti vonalszélességét. A`VerticeCoordinate` A tömb a körvonal minden pontjának X és Y koordinátáit tartalmazza.
+Ebben a lépésben definiáljuk a `LineInfo` objektum, amely a tintavonások koordinátáit, láthatóságát, színét és kezdeti vonalvastagságát tartalmazza. `VerticeCoordinate` A tömb tartalmazza a körvonal egyes pontjainak X és Y koordinátáit.
 
-## 3. lépés: Konvertálja a koordinátákat pontokká
+## 3. lépés: Koordináták pontokká konvertálása
 
-Most ezeket a koordinátákat olyan pontokká kell konvertálnunk, amelyeket az Ink Annotation használhat.
+Most ezeket a koordinátákat pontokká kell konvertálnunk, amelyeket a tintarajzolás használhat.
 
 ```csharp
-// Konvertálja a koordinátákat pontokká
+// Koordináták pontokká konvertálása
 int length = lineInfo.VerticeCoordinate.Length / 2;
 Aspose.Pdf.Point[] gesture = new Aspose.Pdf.Point[length];
 for (int i = 0; i < length; i++)
@@ -89,28 +91,28 @@ for (int i = 0; i < length; i++)
 inkList.Add(gesture);
 ```
 
- Ez a ciklus feldolgozza a koordinátatömböt, és minden koordinátapárt a-vá alakít`Point` objektum, amely azután hozzáadódik a mi`inkList`.
+Ez a ciklus feldolgozza a koordináta-tömböt, és minden koordinátapárt egy `Point` objektum, amelyet aztán hozzáadunk a miénkhez `inkList`.
 
-## 4. lépés: Adja hozzá a tinta megjegyzést a PDF-oldalhoz
+## 4. lépés: Tintajelölés hozzáadása a PDF oldalhoz
 
-Ha készen vannak a pontok, most elkészíthetjük a tinta annotációt, és hozzáadhatjuk a PDF oldalhoz.
+Miután a pontok készen állnak, létrehozhatjuk a tintajelölést, és hozzáadhatjuk a PDF oldalhoz.
 
 ```csharp
-// Adja hozzá a tinta megjegyzést a PDF-oldalhoz
+// Tintajegyzet hozzáadása a PDF oldalhoz
 InkAnnotation a1 = new InkAnnotation(doc.Pages[1], new Aspose.Pdf.Rectangle(100, 100, 300, 300), inkList);
 a1.Subject = "Test";
 a1.Title = "Title";
 a1.Color = Aspose.Pdf.Color.FromRgb(Color.Green);
 ```
 
- Ebben a lépésben inicializálunk egy`InkAnnotation`objektumot, megadva az oldalt, egy határoló téglalapot és a pontlistánkat. Beállítjuk a kommentár tárgyát, címét és színét is.
+Ebben a lépésben inicializálunk egy `InkAnnotation` objektumot, megadva az oldalt, egy határoló téglalapot és a pontok listáját. Beállítjuk a megjegyzés tárgyát, címét és színét is.
 
-## 5. lépés: A kommentár szegélyének testreszabása
+## 5. lépés: A jegyzet szegélyének testreszabása
 
-A kommentár megjelenésének további testreszabása érdekében módosítjuk a szegély tulajdonságait.
+A megjegyzés megjelenésének további testreszabásához módosítjuk a szegély tulajdonságait.
 
 ```csharp
-// Testreszabhatja a kommentár szegélyét
+// A jegyzet szegélyének testreszabása
 Border border = new Border(a1);
 border.Width = 3;
 border.Effect = BorderEffect.Cloudy;
@@ -119,44 +121,46 @@ border.Style = BorderStyle.Solid;
 doc.Pages[1].Annotations.Add(a1);
 ```
 
- Itt létrehozunk a`Border` objektumot a megjegyzésünkhöz, beállítva annak szélességét, hatását, szaggatott mintáját és stílusát. Ez a lépés biztosítja, hogy a megjegyzés vizuálisan kiemelkedjen a PDF-oldalon.
+Itt létrehozunk egy `Border` objektumot a jegyzetünkhöz, beállítva annak szélességét, hatását, vonásmintáját és stílusát. Ez a lépés biztosítja, hogy a jegyzet vizuálisan kiemelkedjen a PDF oldalon.
 
-## 6. lépés: Mentse el a PDF-dokumentumot
+## 6. lépés: Mentse el a PDF dokumentumot
 
-Végül az összes szükséges módosítás elvégzése után eljött az ideje a dokumentum mentésének.
+Végül, miután elvégeztük az összes szükséges módosítást, itt az ideje menteni a dokumentumot.
 
 ```csharp
-// Mentse el a PDF dokumentumot
+// PDF dokumentum mentése
 dataDir = dataDir + "lnkAnnotationLineWidth_out.pdf";
 doc.Save(dataDir);
 Console.WriteLine("\nInk annotation line width setup successfully.\nFile saved at " + dataDir);
 ```
 
- Ez a kód elmenti a módosított PDF dokumentumot a tinta megjegyzéssel a megadott könyvtárba. A`Console.WriteLine` utasítás megerősíti a kód sikeres végrehajtását.
+Ez a kód a módosított PDF dokumentumot a megadott könyvtárba menti a tintajelöléssel együtt. `Console.WriteLine` utasítás megerősíti a kód sikeres végrehajtását.
 
 ## Következtetés
 
-Gratulálok! Sikeresen létrehozott és testreszabott egy tintajegyzetet egy PDF-dokumentumban az Aspose.PDF for .NET használatával. Ez az oktatóanyag a teljes folyamatot lefedte, a dokumentum inicializálásától a végső fájl mentéséig. Ezzel a tudással tovább fedezheti az Aspose.PDF for .NET hatalmas képességeit, és hasonló technikákat alkalmazhat más típusú megjegyzéseknél vagy PDF-manipulációknál.
+Gratulálunk! Sikeresen létrehoztál és testreszabtál egy tintahasználattal készült jegyzetet egy PDF dokumentumban az Aspose.PDF for .NET segítségével. Ez az oktatóanyag a teljes folyamatot lefedte, a dokumentum inicializálásától a végső fájl mentéséig. Ezzel a tudással tovább felfedezheted az Aspose.PDF for .NET hatalmas képességeit, és hasonló technikákat alkalmazhatsz más típusú jegyzetekre vagy PDF-manipulációkra.
 
 ## GYIK
 
-### Használhatok különböző színeket a tintajegyzet különböző részeihez?  
- Igen, létrehozhat többször is`InkAnnotation` különböző színű objektumokat, és adja hozzá őket a PDF-fájl azonos vagy különböző oldalaihoz.
+### Használhatok különböző színeket a tintajelölés különböző részeihez?  
+Igen, többet is létrehozhatsz `InkAnnotation` különböző színű objektumokat, és azokat a PDF ugyanazon vagy különböző oldalaira helyezheti.
 
-### Hogyan változtathatom meg dinamikusan a vonal szélességét?  
- Beállíthatja a`LineWidth` tulajdona a`LineInfo` objektumot a koordináták pontokká alakítása előtt.
+### Hogyan tudom dinamikusan megváltoztatni a vonalvastagságot?  
+Beállíthatja a `LineWidth` a tulajdona `LineInfo` objektumot a koordináták pontokká konvertálása előtt.
 
-### Lehetséges-e átlátszóvá tenni a tinta annotációt?  
- Igen, módosíthatja a`Opacity` tulajdona a`InkAnnotation` tárgyat, hogy átlátszó legyen.
+### Átlátszóvá tehető a tintajelölés?  
+Igen, módosíthatja a `Opacity` a tulajdona `InkAnnotation` objektumot, hogy átlátszóvá tegye.
 
-### Hozzáadhatok több tintajelölést ugyanarra az oldalra?  
-Teljesen! A folyamat megismétlésével tetszőleges számú tintajegyzetet adhat hozzá egyetlen oldalhoz.
+### Hozzáadhatok több szabadkézi jegyzetet ugyanahhoz az oldalhoz?  
+Természetesen! A folyamat megismétlésével annyi szabadkézi jegyzetet adhatsz egyetlen oldalhoz, amennyit csak szeretnél.
 
-### Hogyan távolíthatok el egy tintajelölést a PDF-ből?  
- A kommentárt a következővel távolíthatja el`doc.Pages[1].Annotations.Delete(a1)` módszer, hol`a1` az annotációs objektuma.
+### Hogyan távolíthatok el egy tintajelölést egy PDF-ből?  
+Eltávolíthat egy megjegyzést a következővel: `doc.Pages[1].Annotations.Delete(a1)` módszer, ahol `a1` a te annotációs objektumod.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

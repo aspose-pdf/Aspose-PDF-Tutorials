@@ -1,14 +1,16 @@
 ---
-title: Обработка изображений в формате PDF
-linktitle: Обработка изображений в формате PDF
-second_title: API обработки Java PDF Aspose.PDF
-description: Изучите обработку изображений PDF с помощью Aspose.PDF для Java. Преобразуйте, редактируйте и оптимизируйте изображения в ваших документах PDF без усилий.
-weight: 13
-url: /ru/java/pdf-image-manipulation/
+"description": "Изучите обработку изображений PDF с помощью Aspose.PDF для Java. Преобразуйте, редактируйте и оптимизируйте изображения в ваших документах PDF без усилий."
+"linktitle": "Обработка изображений в формате PDF"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Обработка изображений в формате PDF"
+"url": "/ru/java/pdf-image-manipulation/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обработка изображений в формате PDF
@@ -47,9 +49,11 @@ url: /ru/java/pdf-image-manipulation/
 Узнайте, как заменить изображения в файлах PDF с помощью Java с помощью Aspose.PDF для Java. Пошаговое руководство с примерами кода для бесшовной замены изображений.
 ### [Настройка DPI или PPI изображений в PDF с помощью Java](./setting-dpi-or-ppi-of-images-in-pdf-using-java/)
 Оптимизируйте качество изображения PDF с помощью нашего пошагового руководства по настройке DPI/PPI в PDF с использованием Java. Узнайте, как улучшить ваши документы для печати и цифрового отображения.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

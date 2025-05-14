@@ -1,42 +1,44 @@
 ---
-title: Firmar con tarjeta inteligente utilizando la firma de archivo PDF
-linktitle: Firmar con tarjeta inteligente utilizando la firma de archivo PDF
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a firmar archivos PDF con una tarjeta inteligente con Aspose.PDF para .NET. Siga esta guía paso a paso para obtener firmas digitales seguras.
-weight: 110
-url: /es/net/programming-with-security-and-signatures/sign-with-smart-card-using-pdf-file-signature/
+"description": "Aprenda a firmar archivos PDF con una tarjeta inteligente con Aspose.PDF para .NET. Siga esta guía paso a paso para obtener firmas digitales seguras."
+"linktitle": "Firmar con tarjeta inteligente usando la firma de archivo PDF"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Firmar con tarjeta inteligente usando la firma de archivo PDF"
+"url": "/es/net/programming-with-security-and-signatures/sign-with-smart-card-using-pdf-file-signature/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Firmar con tarjeta inteligente utilizando la firma de archivo PDF
+# Firmar con tarjeta inteligente usando la firma de archivo PDF
 
 ## Introducción
 
-En la era digital, proteger los documentos es más importante que nunca. Ya sea un contrato, un acuerdo o cualquier información confidencial, es fundamental garantizar que el documento sea auténtico y no haya sido alterado. ¡Entran en escena las firmas digitales! Hoy, analizaremos en profundidad cómo firmar un archivo PDF con una tarjeta inteligente con Aspose.PDF para .NET. Esta potente biblioteca permite a los desarrolladores manipular y crear documentos PDF de manera eficiente, incluida la incorporación de firmas digitales seguras. ¡Así que coge tu tarjeta inteligente y comencemos!
+En la era digital, proteger los documentos es más crucial que nunca. Ya sea un contrato, un acuerdo o cualquier información confidencial, garantizar que el documento sea auténtico y no haya sido manipulado es fundamental. ¡Presentamos las firmas digitales! Hoy profundizaremos en cómo firmar un archivo PDF con una tarjeta inteligente con Aspose.PDF para .NET. Esta potente biblioteca permite a los desarrolladores manipular y crear documentos PDF de forma eficiente, incluyendo la adición de firmas digitales seguras. ¡Así que, toma tu tarjeta inteligente y comencemos!
 
 ## Prerrequisitos
 
-Antes de comenzar con los detalles de la firma de un archivo PDF, asegurémonos de que tienes todo lo que necesitas. Aquí tienes una lista de verificación para ayudarte a prepararte:
+Antes de entrar en los detalles de la firma de un archivo PDF, asegurémonos de que tienes todo lo necesario. Aquí tienes una lista de verificación para ayudarte a prepararte:
 
-1.  Aspose.PDF para .NET: Asegúrese de tener instalada la biblioteca Aspose.PDF. Puede descargarla desde el sitio web[sitio](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF para .NET: Asegúrese de tener instalada la biblioteca Aspose.PDF. Puede descargarla desde [sitio](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: un entorno de desarrollo donde puedes escribir y ejecutar tu código .NET.
 3. Tarjeta inteligente: necesitará una tarjeta inteligente con un certificado digital válido instalado.
 4. Comprensión básica de C#: la familiaridad con la programación en C# será beneficiosa ya que escribiremos fragmentos de código en este lenguaje.
-5. Documento PDF: Un archivo PDF de muestra (como`blank.pdf`) para probar nuestro proceso de firma.
+5. Documento PDF: un archivo PDF de muestra (como `blank.pdf`) para probar nuestro proceso de firma.
 
 ¡Con estos requisitos previos establecidos, estás listo para sumergirte en el código!
 
 ## Importar paquetes
 
-Lo primero es lo primero: importemos los paquetes necesarios. Deberá agregar referencias a la biblioteca Aspose.PDF en su proyecto. A continuación, le indicamos cómo hacerlo:
+Primero, importemos los paquetes necesarios. Necesitará agregar referencias a la biblioteca Aspose.PDF en su proyecto. Así es como puede hacerlo:
 
 1. Abra Visual Studio.
 2. Crea un nuevo proyecto o abre uno existente.
-3.  Haga clic derecho en su proyecto en el Explorador de soluciones y seleccione`Manage NuGet Packages`.
-4.  Buscar`Aspose.PDF` e instalar la última versión.
+3. Haga clic derecho en su proyecto en el Explorador de soluciones y seleccione `Manage NuGet Packages`.
+4. Buscar `Aspose.PDF` e instalar la última versión.
 
 ```csharp
 using System;
@@ -49,24 +51,24 @@ Ahora que tenemos los paquetes necesarios importados, analicemos el código paso
 
 ## Paso 1: Configura tu documento
 
-El primer paso de nuestro proceso es configurar el documento PDF que queremos firmar. A continuación, le indicamos cómo hacerlo:
+El primer paso de nuestro proceso es configurar el documento PDF que queremos firmar. Así es como se hace:
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "blank.pdf");
 ```
- En este fragmento, definimos la ruta a nuestro directorio de documentos y creamos una instancia de`Document` clase usando un archivo PDF de muestra llamado`blank.pdf` Asegúrese de reemplazar`"YOUR DOCUMENTS DIRECTORY"` con la ruta real donde se encuentra tu PDF.
+En este fragmento, definimos la ruta a nuestro directorio de documentos y creamos una instancia del `Document` clase usando un archivo PDF de muestra llamado `blank.pdf`Asegúrese de reemplazar `"YOUR DOCUMENTS DIRECTORY"` con la ruta real donde se encuentra tu PDF.
 
 ## Paso 2: Inicializar PdfFileSignature
 
- A continuación, inicializaremos el`PdfFileSignature` clase, que es responsable de manejar el proceso de firma.
+A continuación, inicializaremos el `PdfFileSignature` clase, que es responsable de manejar el proceso de firma.
 
 ```csharp
 using (Facades.PdfFileSignature pdfSign = new Facades.PdfFileSignature())
 {
     pdfSign.BindPdf(doc);
 ```
-Aquí, creamos una instancia de`PdfFileSignature` vincularlo a nuestro documento PDF. Esto prepara el documento para firmarlo.
+Aquí, creamos una instancia de `PdfFileSignature` y vincularlo a nuestro documento PDF. Esto prepara el documento para la firma.
 
 ## Paso 3: Acceda al certificado de la tarjeta inteligente
 
@@ -87,7 +89,7 @@ System.Security.Cryptography.X509Certificates.X509Certificate2Collection sel =
     System.Security.Cryptography.X509Certificates.X509Certificate2UI.SelectFromCollection(
         store.Certificates, null, null, System.Security.Cryptography.X509Certificates.X509SelectionFlag.SingleSelection);
 ```
-Este código solicita al usuario que seleccione un certificado de la colección. La interfaz de usuario mostrará todos los certificados disponibles, lo que le permitirá elegir el asociado con su tarjeta inteligente.
+Este código solicita al usuario que seleccione un certificado de la colección. La interfaz de usuario mostrará todos los certificados disponibles, permitiéndole elegir el asociado a su tarjeta inteligente.
 
 ## Paso 4: Crear la firma externa
 
@@ -96,26 +98,26 @@ Una vez que haya seleccionado su certificado, el siguiente paso es crear una fir
 ```csharp
 Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.ExternalSignature(sel[0]);
 ```
-Aquí, creamos una instancia de`ExternalSignature` Utilizando el certificado seleccionado. Este objeto se utilizará para firmar el documento PDF.
+Aquí, creamos una instancia de `ExternalSignature` Utilizando el certificado seleccionado. Este objeto se usará para firmar el documento PDF.
 
 ## Paso 5: Establecer la apariencia de la firma
 
-Ahora, configuremos la apariencia de nuestra firma. Aquí es donde puede personalizar cómo se ve su firma en el documento.
+Ahora, configuremos la apariencia de nuestra firma. Aquí puedes personalizar cómo se verá tu firma en el documento.
 
 ```csharp
 pdfSign.SignatureAppearance = dataDir + "demo.png";
 ```
- En este fragmento, especificamos la apariencia de la firma proporcionando la ruta a un archivo de imagen (como un logotipo o un gráfico de firma). Asegúrese de reemplazar`"demo.png"` con la imagen real que desea utilizar.
+En este fragmento, especificamos la apariencia de la firma proporcionando la ruta a un archivo de imagen (como un logotipo o un gráfico de firma). Asegúrese de reemplazar `"demo.png"` con la imagen real que desea utilizar.
 
 ## Paso 6: Firma el PDF
 
-¡Con todo configurado, es hora de firmar el documento PDF!
+Con todo configurado, ¡es hora de firmar el documento PDF!
 
 ```csharp
 pdfSign.Sign(1, "Reason", "Contact", "Location", true, new System.Drawing.Rectangle(100, 100, 200, 200), externalSignature);
 pdfSign.Save(dataDir + "externalSignature2.pdf");
 ```
-En este paso, llamamos al`Sign` método en nuestro`pdfSign` objeto. Esto es lo que significa cada parámetro:
+En este paso, llamamos al `Sign` método en nuestro `pdfSign` objeto. Esto es lo que significa cada parámetro:
 - `1`:El número de página donde aparecerá la firma.
 - `"Reason"`:El motivo de la firma del documento.
 - `"Contact"`:Información de contacto del firmante.
@@ -124,11 +126,11 @@ En este paso, llamamos al`Sign` método en nuestro`pdfSign` objeto. Esto es lo q
 - `new System.Drawing.Rectangle(100, 100, 200, 200)`:La posición y el tamaño de la firma en el PDF.
 - `externalSignature`:El objeto de firma que creamos anteriormente.
 
- Finalmente guardamos el documento firmado como`externalSignature2.pdf`.
+Finalmente guardamos el documento firmado como `externalSignature2.pdf`.
 
 ## Paso 7: Verificar la firma
 
-Después de firmar el documento, es fundamental verificar que la firma sea válida. A continuación, le indicamos cómo hacerlo:
+Tras firmar el documento, es fundamental verificar la validez de la firma. A continuación, se explica cómo hacerlo:
 
 ### Inicializar el proceso de verificación
 
@@ -137,7 +139,7 @@ using (Facades.PdfFileSignature pdfSign = new Facades.PdfFileSignature(new Docum
 {
     IList<string> sigNames = pdfSign.GetSignNames();
 ```
- Creamos una nueva instancia de`PdfFileSignature` para el documento firmado. A continuación, recuperamos los nombres de todas las firmas presentes en el documento.
+Creamos una nueva instancia de `PdfFileSignature` Para el documento firmado. Luego, recuperamos los nombres de todas las firmas presentes en el documento.
 
 ### Comprobar la validez de la firma
 
@@ -150,11 +152,11 @@ for (int index = 0; index <= sigNames.Count - 1; index++)
     }
 }
 ```
-Recorremos cada nombre de firma y verificamos su validez. Si alguna firma no supera la verificación, se genera una excepción que indica que la firma no es válida.
+Recorremos cada nombre de firma y verificamos su validez. Si alguna firma no supera la verificación, se lanza una excepción que indica que no es válida.
 
 ## Conclusión
 
-¡Y ya está! Ha firmado correctamente un documento PDF con una tarjeta inteligente con Aspose.PDF para .NET. Este proceso no solo protege su documento, sino que también añade una capa de autenticidad que resulta crucial en el mundo digital actual. Ya sea que se trate de contratos, documentos legales o cualquier información confidencial, saber cómo implementar firmas digitales es una habilidad valiosa. 
+¡Y listo! Has firmado correctamente un documento PDF con una tarjeta inteligente con Aspose.PDF para .NET. Este proceso no solo protege tu documento, sino que también añade una capa de autenticidad crucial en el mundo digital actual. Ya sea que trabajes con contratos, documentos legales o cualquier información confidencial, saber cómo implementar firmas digitales es una habilidad valiosa. 
 
 ## Preguntas frecuentes
 
@@ -171,10 +173,12 @@ Sí, puedes usar cualquier archivo PDF, pero asegúrate de que no esté protegid
 Puede obtener un certificado digital de una autoridad de certificación (CA) confiable o utilizar un certificado autofirmado para fines de prueba.
 
 ### ¿Hay una versión de prueba de Aspose.PDF disponible?
- Sí, puedes descargar una versión de prueba gratuita desde[Sitio web de Aspose](https://releases.aspose.com/).
+Sí, puedes descargar una versión de prueba gratuita desde [Sitio web de Aspose](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

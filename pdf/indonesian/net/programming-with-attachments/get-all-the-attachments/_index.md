@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Semua Lampiran Dalam File PDF
-linktitle: Dapatkan Semua Lampiran Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak semua lampiran dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini.
-weight: 40
-url: /id/net/programming-with-attachments/get-all-the-attachments/
+"description": "Pelajari cara mengekstrak semua lampiran dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini."
+"linktitle": "Dapatkan Semua Lampiran Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Semua Lampiran Dalam File PDF"
+"url": "/id/net/programming-with-attachments/get-all-the-attachments/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Semua Lampiran Dalam File PDF
@@ -22,7 +24,7 @@ Di era digital, PDF telah menjadi andalan untuk berbagi dokumen. PDF serbaguna, 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE yang tepat untuk pengembangan .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -59,7 +61,7 @@ Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat file PDF Anda disimpan. Hal ini penting karena program perlu mengetahui tempat mencari file tersebut.
+Mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat file PDF Anda disimpan. Hal ini penting karena program perlu mengetahui tempat mencari file tersebut.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -69,7 +71,7 @@ Selanjutnya, kita akan membuka dokumen PDF menggunakan pustaka Aspose.PDF. Di si
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
 ```
 
- Di sini, kita membuat yang baru`Document` objek dan berikan jalur file PDF. Pastikan nama file sama persis, termasuk ekstensinya.
+Di sini, kita membuat yang baru `Document` objek dan berikan jalur file PDF. Pastikan nama file sama persis, termasuk ekstensinya.
 
 ## Langkah 3: Akses Koleksi File Tertanam
 
@@ -109,7 +111,7 @@ Dalam proses ini, kami mencetak nama, deskripsi, dan tipe MIME setiap lampiran. 
 
 ## Langkah 6: Periksa Parameter Tambahan
 
-Beberapa lampiran mungkin memiliki parameter tambahan. Mari kita periksa apakah ada dan cetak.
+Beberapa lampiran mungkin memiliki parameter tambahan. Mari kita periksa apakah ada dan cetak parameter tersebut.
 
 ```csharp
 if (fileSpecification.Params != null)
@@ -125,7 +127,7 @@ Langkah ini memastikan Anda tidak kehilangan detail penting apa pun tentang lamp
 
 ## Langkah 7: Ekstrak dan Simpan Lampiran
 
-Terakhir, mari kita ekstrak isi setiap lampiran dan simpan ke dalam sebuah berkas. Di sinilah Anda akan melihat hasil kerja keras Anda!
+Terakhir, mari kita ekstrak isi setiap lampiran dan simpan ke dalam sebuah file. Di sinilah Anda akan melihat hasil kerja keras Anda!
 
 ```csharp
 byte[] fileContent = new byte[fileSpecification.Contents.Length];
@@ -136,7 +138,7 @@ fileStream.Close();
 count += 1;
 ```
 
- Dalam kode ini, kita membaca isi setiap lampiran ke dalam array byte dan kemudian menuliskannya ke file baru. File-file tersebut akan diberi nama secara berurutan (misalnya,`1_out.txt`, `2_out.txt`, dll.).
+Dalam kode ini, kita membaca isi setiap lampiran ke dalam array byte dan kemudian menuliskannya ke file baru. File-file tersebut akan diberi nama secara berurutan (misalnyaBahasa Indonesia: `1_out.txt`, `2_out.txt`, dll.).
 
 ## Kesimpulan
 
@@ -148,19 +150,21 @@ Nah, itu dia! Anda telah berhasil mengekstrak semua lampiran dari file PDF mengg
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Lihatlah[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Lihatlah [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan melalui forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan melalui forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Apakah ada lisensi sementara yang tersedia?
-Ya, Anda bisa mendapatkan lisensi sementara untuk Aspose.PDF[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Anda bisa mendapatkan lisensi sementara untuk Aspose.PDF [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan dokumentasinya?
- Dokumentasi untuk Aspose.PDF untuk .NET dapat ditemukan[Di Sini](https://reference.aspose.com/pdf/net/).
+Dokumentasi untuk Aspose.PDF untuk .NET dapat ditemukan [Di Sini](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

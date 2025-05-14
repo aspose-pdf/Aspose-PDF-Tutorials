@@ -1,14 +1,16 @@
 ---
-title: Thêm tệp đính kèm vào PDFA
-linktitle: Thêm tệp đính kèm vào PDFA
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm tệp đính kèm vào tài liệu PDF/A bằng Aspose.PDF cho .NET với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/document-conversion/add-attachment-to-pdfa/
+"description": "Tìm hiểu cách thêm tệp đính kèm vào tài liệu PDF/A bằng Aspose.PDF cho .NET với hướng dẫn từng bước này."
+"linktitle": "Thêm tệp đính kèm vào PDFA"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm tệp đính kèm vào PDFA"
+"url": "/vi/net/document-conversion/add-attachment-to-pdfa/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm tệp đính kèm vào PDFA
@@ -21,11 +23,11 @@ Bạn đã bao giờ cần đính kèm một tệp bổ sung vào tài liệu PD
 
 Trước khi xắn tay áo và bắt tay vào code, có một vài điều bạn cần chuẩn bị. Sau đây là những gì bạn cần để bắt đầu:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET. Bạn có thể tải xuống từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/) hoặc sử dụng thông qua NuGet trong Visual Studio.
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET. Bạn có thể tải xuống từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/) hoặc sử dụng thông qua NuGet trong Visual Studio.
 2. Môi trường phát triển: Bạn nên thiết lập môi trường phát triển .NET. Visual Studio là một lựa chọn tuyệt vời.
-3. Kiến thức cơ bản về C#: Mặc dù hướng dẫn này dành cho người mới bắt đầu, nhưng hiểu biết cơ bản về C# sẽ giúp bạn theo dõi dễ dàng hơn.
-4. Tài liệu PDF và tệp để đính kèm: Bạn sẽ cần một tài liệu PDF hiện có và tệp bạn muốn đính kèm. Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng một tài liệu PDF và một tệp hình ảnh lớn.
-5.  Giấy phép tạm thời: Để mở khóa toàn bộ tiềm năng của Aspose.PDF mà không có bất kỳ hạn chế nào, bạn có thể muốn có một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+3. Kiến thức cơ bản về C#: Mặc dù hướng dẫn này dành cho người mới bắt đầu, nhưng hiểu biết cơ bản về C# sẽ giúp bạn dễ dàng theo dõi hơn.
+4. Tài liệu PDF và tệp đính kèm: Bạn sẽ cần một tài liệu PDF hiện có và tệp bạn muốn đính kèm. Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng một tài liệu PDF và một tệp hình ảnh lớn.
+5. Giấy phép tạm thời: Để mở khóa toàn bộ tiềm năng của Aspose.PDF mà không có bất kỳ hạn chế nào, bạn có thể muốn có một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -53,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Giải thích: Trong bước này, chúng tôi tải tài liệu PDF hiện có bằng cách sử dụng`Document` lớp được cung cấp bởi Aspose.PDF. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ.
+Giải thích: Trong bước này, chúng tôi tải tài liệu PDF hiện có bằng cách sử dụng `Document` lớp được cung cấp bởi Aspose.PDF. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ.
 
 ## Bước 2: Thiết lập tệp đính kèm
 
@@ -64,18 +66,18 @@ Tiếp theo, chúng ta cần chuẩn bị tệp mà chúng ta muốn đính kèm
 FileSpecification fileSpecification = new FileSpecification(dataDir + "aspose-logo.jpg", "Large Image file");
 ```
 
- Giải thích: Ở đây, chúng ta tạo ra một`FileSpecification` đối tượng. Đối tượng này biểu thị tệp bạn sẽ đính kèm. Tham số đầu tiên là đường dẫn đến tệp và tham số thứ hai là mô tả về tệp. Trong ví dụ này, chúng tôi đang đính kèm một tệp hình ảnh lớn có tên là "aspose-logo.jpg".
+Giải thích: Ở đây, chúng ta tạo ra một `FileSpecification` đối tượng. Đối tượng này biểu diễn tệp bạn sẽ đính kèm. Tham số đầu tiên là đường dẫn đến tệp và tham số thứ hai là mô tả về tệp. Trong ví dụ này, chúng tôi đang đính kèm một tệp hình ảnh lớn có tên là "aspose-logo.jpg".
 
 ## Bước 3: Thêm tệp đính kèm vào tài liệu PDF
 
- Sau khi tệp được thiết lập, bước tiếp theo là thực sự đính kèm nó vào tài liệu PDF. Điều này bao gồm việc thêm`FileSpecification` vào bộ sưu tập tệp đính kèm của tài liệu.
+Sau khi tệp được thiết lập, bước tiếp theo là thực sự đính kèm nó vào tài liệu PDF. Điều này bao gồm việc thêm `FileSpecification` vào bộ sưu tập tệp đính kèm của tài liệu.
 
 ```csharp
 // Thêm tệp đính kèm vào bộ sưu tập tệp đính kèm của tài liệu
 doc.EmbeddedFiles.Add(fileSpecification);
 ```
 
- Giải thích:`EmbeddedFiles` tài sản của`Document` đối tượng là một bộ sưu tập chứa tất cả các tệp đính kèm cho tài liệu. Bằng cách thêm`FileSpecification` với bộ sưu tập này, về cơ bản chúng tôi đính kèm tệp của mình vào PDF.
+Giải thích: `EmbeddedFiles` tài sản của `Document` đối tượng là một bộ sưu tập chứa tất cả các tệp đính kèm cho tài liệu. Bằng cách thêm `FileSpecification` với bộ sưu tập này, về cơ bản chúng tôi đính kèm tệp của mình vào PDF.
 
 ## Bước 4: Chuyển đổi PDF sang định dạng PDF/A
 
@@ -86,7 +88,7 @@ doc.EmbeddedFiles.Add(fileSpecification);
 doc.Convert(dataDir + "log.txt", Aspose.Pdf.PdfFormat.PDF_A_3A, ConvertErrorAction.Delete);
 ```
 
- Giải thích:`Convert` phương pháp được sử dụng để chuyển đổi tài liệu PDF thành tệp tuân thủ PDF/A. Ở đây, chúng tôi đang chuyển đổi thành`PDF_A_3A` , hỗ trợ các tệp nhúng. Tham số đầu tiên chỉ định đường dẫn cho tệp nhật ký, tệp này sẽ lưu trữ thông tin chi tiết về chuyển đổi.`ConvertErrorAction.Delete` Tùy chọn này yêu cầu bộ chuyển đổi xóa bất kỳ phần tử nào không tuân thủ tiêu chuẩn PDF/A.
+Giải thích: `Convert` phương pháp được sử dụng để chuyển đổi tài liệu PDF thành tệp tuân thủ PDF/A. Ở đây, chúng tôi đang chuyển đổi thành `PDF_A_3A`, hỗ trợ các tệp nhúng. Tham số đầu tiên chỉ định đường dẫn cho tệp nhật ký, tệp này sẽ lưu trữ thông tin chi tiết về chuyển đổi. `ConvertErrorAction.Delete` Tùy chọn này yêu cầu bộ chuyển đổi xóa bất kỳ phần tử nào không tuân thủ tiêu chuẩn PDF/A.
 
 ## Bước 5: Lưu tài liệu PDF/A kết quả
 
@@ -97,7 +99,7 @@ Cuối cùng, sau khi đính kèm tệp và chuyển đổi tài liệu, đã đ
 doc.Save(dataDir + "AddAttachmentToPDFA_out.pdf");
 ```
 
- Giải thích:`Save` phương pháp được sử dụng để lưu tài liệu PDF đã cập nhật. Tệp đầu ra,`"AddAttachmentToPDFA_out.pdf"`, là sản phẩm cuối cùng bao gồm tệp đính kèm và tuân thủ tiêu chuẩn PDF/A.
+Giải thích: `Save` phương pháp được sử dụng để lưu tài liệu PDF đã cập nhật. Tệp đầu ra, `"AddAttachmentToPDFA_out.pdf"`là sản phẩm cuối cùng bao gồm tệp đính kèm và tuân thủ tiêu chuẩn PDF/A.
 
 ## Bước 6: Xác minh tệp đính kèm (Tùy chọn)
 
@@ -128,10 +130,12 @@ PDF/A là phiên bản PDF được tối ưu hóa để lưu trữ và bảo qu
 Bạn có thể kiểm tra tính tuân thủ của PDF với các tiêu chuẩn PDF/A bằng nhiều công cụ PDF khác nhau, bao gồm Adobe Acrobat và Aspose.PDF. Aspose.PDF cung cấp các phương pháp để xác thực tính tuân thủ PDF/A theo chương trình.
 
 ### Có thể xóa tệp đính kèm khỏi tài liệu PDF không?  
- Có, bạn có thể xóa tệp đính kèm khỏi tài liệu PDF bằng Aspose.PDF bằng cách truy cập`EmbeddedFiles` thu thập và loại bỏ cụ thể`FileSpecification`.
+Có, bạn có thể xóa tệp đính kèm khỏi tài liệu PDF bằng Aspose.PDF bằng cách truy cập `EmbeddedFiles` thu thập và loại bỏ cụ thể `FileSpecification`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

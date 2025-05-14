@@ -1,17 +1,19 @@
 ---
-title: Dodaj znacznik daty i godziny w pliku PDF
-linktitle: Dodaj znacznik daty i godziny w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodać znacznik daty i godziny do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Idealne do zwiększenia autentyczności dokumentów.
-weight: 10
-url: /pl/net/programming-with-stamps-and-watermarks/add-date-time-stamp/
+"description": "Dowiedz się, jak dodać znacznik daty i godziny do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Idealne do zwiększenia autentyczności dokumentów."
+"linktitle": "Dodaj znacznik daty i godziny do pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj znacznik daty i godziny do pliku PDF"
+"url": "/pl/net/programming-with-stamps-and-watermarks/add-date-time-stamp/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj znacznik daty i godziny w pliku PDF
+# Dodaj znacznik daty i godziny do pliku PDF
 
 ## Wstęp
 
@@ -24,9 +26,9 @@ Ten artykuł został zaprojektowany tak, aby był prosty i łatwy do zrozumienia
 Zanim zaczniemy, musisz spełnić kilka warunków wstępnych:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Tutaj będziesz pisać i wykonywać swój kod.
-2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Najnowszą wersję znajdziesz[Tutaj](https://releases.aspose.com/pdf/net/).
-3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć przykłady, ale nie martw się, jeśli dopiero zaczynasz – wyjaśnimy wszystko krok po kroku.
-4.  Plik PDF: Przygotuj przykładowy plik PDF. W naszym przykładzie użyjemy pliku o nazwie`AddTextStamp.pdf`.
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Najnowszą wersję znajdziesz [Tutaj](https://releases.aspose.com/pdf/net/).
+3. Podstawowa wiedza z zakresu języka C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć przykłady, ale nie martw się, jeśli dopiero zaczynasz – wyjaśnimy wszystko krok po kroku.
+4. Plik PDF: Przygotuj przykładowy plik PDF. W naszym przykładzie użyjemy pliku o nazwie `AddTextStamp.pdf`.
 
 Gdy już spełnisz te wymagania wstępne, będziesz gotowy dodać znaczniki daty i godziny do swoich plików PDF!
 
@@ -39,7 +41,7 @@ Na początek musisz zaimportować niezbędne przestrzenie nazw do swojego projek
 1. Otwórz program Visual Studio: Uruchom aplikację Visual Studio.
 2. Utwórz nowy projekt: Wybierz opcję „Utwórz nowy projekt” na ekranie startowym.
 3. Wybierz aplikację konsolową: Wybierz „Aplikacja konsolowa (.NET Framework)” z listy szablonów projektu.
-4.  Nazwij swój projekt: Nadaj swojemu projektowi nazwę, na przykład:`PDFDateTimeStamp`.
+4. Nazwij swój projekt: Nadaj swojemu projektowi nazwę, na przykład: `PDFDateTimeStamp`.
 
 ### Dodaj odniesienie Aspose.PDF
 
@@ -49,7 +51,7 @@ Na początek musisz zaimportować niezbędne przestrzenie nazw do swojego projek
 
 ### Importuj wymagane przestrzenie nazw
 
- Na szczycie twojego`Program.cs` plik, należy zaimportować następujące przestrzenie nazw:
+Na szczycie twojego `Program.cs` plik, należy zaimportować następujące przestrzenie nazw:
 
 ```csharp
 using System.IO;
@@ -70,7 +72,7 @@ Najpierw musisz określić katalog, w którym znajduje się plik PDF. Jest to kl
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zastąp swoją rzeczywistą ścieżką
 ```
 
- Pamiętaj o wymianie`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką do pliku PDF.
+Pamiętaj o wymianie `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką do pliku PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -81,7 +83,7 @@ Następnie otwórz dokument PDF, do którego chcesz dodać znacznik czasu.
 Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 ```
 
- Ta linia kodu inicjuje`Document` klasa i ładuje plik PDF do`pdfDocument` obiekt.
+Ta linia kodu inicjuje `Document` klasa i ładuje plik PDF do `pdfDocument` obiekt.
 
 ## Krok 3: Utwórz znacznik daty i godziny
 
@@ -91,7 +93,7 @@ Teraz czas wygenerować znacznik daty i godziny. Sformatuj go, aby wyświetlał 
 string annotationText = DateTime.Now.ToString("MM/dd/yy hh:mm:ss tt ");
 ```
 
- Tutaj,`DateTime.Now` pobiera aktualną datę i godzinę, i`ToString` formatuje go do żądanego formatu.
+Tutaj, `DateTime.Now` pobiera aktualną datę i godzinę, i `ToString` formatuje go do żądanego formatu.
 
 ## Krok 4: Utwórz stempel tekstowy
 
@@ -102,7 +104,7 @@ Mając już gotowy ciąg daty i godziny, możesz utworzyć znacznik tekstowy, kt
 TextStamp textStamp = new TextStamp(annotationText);
 ```
 
- Ten wiersz tworzy nową instancję`TextStamp` używając sformatowanego ciągu daty i godziny.
+Ten wiersz tworzy nową instancję `TextStamp` używając sformatowanego ciągu daty i godziny.
 
 ## Krok 5: Ustaw właściwości znaczka
 
@@ -131,7 +133,7 @@ Ten wiersz dodaje znaczek do pierwszej strony pliku PDF. Możesz zmienić numer 
 
 ## Krok 7: Utwórz adnotację tekstową (opcjonalnie)
 
-Jeśli chcesz dodać adnotację do znaczka, możesz utworzyć`FreeTextAnnotation` następująco:
+Jeśli chcesz dodać adnotację do znaczka, możesz utworzyć `FreeTextAnnotation` następująco:
 
 ```csharp
 DefaultAppearance default_appearance = new DefaultAppearance("Arial", 6, System.Drawing.Color.Black);
@@ -177,22 +179,24 @@ Gratulacje! Udało Ci się dodać znacznik daty i godziny do pliku PDF za pomoc�
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dostosować format daty w znaczniku czasu?
- Tak, możesz zmodyfikować`ToString`metoda zmiany formatu daty według własnych preferencji.
+Tak, możesz zmodyfikować `ToString` metoda zmiany formatu daty według własnych preferencji.
 
 ### Czy korzystanie z Aspose.PDF jest bezpłatne?
- Aspose.PDF oferuje bezpłatną wersję próbną, ale aby korzystać z pełnych funkcji, musisz kupić licencję. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF oferuje bezpłatną wersję próbną, ale aby korzystać z pełnych funkcji, musisz kupić licencję. Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy mogę dodać wiele znaczników czasu do pliku PDF?
- Oczywiście! Możesz utworzyć wiele`TextStamp` wystąpienia i dodać je do różnych stron lub pozycji w pliku PDF.
+Oczywiście! Możesz utworzyć wiele `TextStamp` wystąpienia i dodać je do różnych stron lub pozycji w pliku PDF.
 
 ### A co jeśli nie mam programu Visual Studio?
 Możesz wykorzystać dowolne środowisko IDE języka C# lub edytor tekstu, ale do uruchamiania i debugowania projektu zaleca się korzystanie z programu Visual Studio.
 
 ### Gdzie mogę znaleźć więcej przykładów wykorzystania Aspose.PDF?
- Więcej przykładów i samouczków znajdziesz w[Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/).
+Więcej przykładów i samouczków znajdziesz w [Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

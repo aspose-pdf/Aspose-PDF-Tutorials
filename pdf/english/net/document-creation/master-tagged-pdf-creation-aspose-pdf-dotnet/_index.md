@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ To optimize performance when working with Aspose.PDF:
 Creating tagged PDFs using Aspose.PDF for .NET is straightforward with the right guidance. By setting document properties, adding links, and embedding images, you can create accessible, SEO-friendly documents. Continue exploring Aspose.PDF's capabilities by delving into its comprehensive documentation.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

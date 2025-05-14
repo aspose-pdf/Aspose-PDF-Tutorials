@@ -1,13 +1,15 @@
 ---
-title: Programowanie z operatorami
-linktitle: Programowanie z operatorami
-weight: 23
-url: /pl/net/programming-with-operators/
-description: Samouczki Aspose.PDF for .NET Programming with Operators uczą podstawowych technik pracy z operatorami w programowaniu PDF.
+"description": "Samouczki Aspose.PDF for .NET Programming with Operators uczą podstawowych technik pracy z operatorami w programowaniu PDF."
+"linktitle": "Programowanie z operatorami"
+"title": "Programowanie z operatorami"
+"url": "/pl/net/programming-with-operators/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programowanie z operatorami
@@ -18,12 +20,14 @@ Samouczki „Programowanie z operatorami” Aspose.PDF for .NET przeprowadzą Ci
 ## Samouczki
 | Tytuł | Opis |
 | --- | --- | 
-| [Narysuj XForm na stronie](./draw-xform-on-page/) | dowiedz się, jak rysować formularze XForms w formacie PDF za pomocą Aspose.PDF dla platformy .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. |  
-| [Operatorzy PDF](./pdf-operators/) | Przewodnik krok po kroku dotyczący używania operatorów PDF w Aspose.PDF dla .NET. Dodaj obraz do strony PDF i określ jego pozycję. |  
-| [Usuń obiekty graficzne w pliku PDF](./remove-graphics-objects/) | Dowiedz się, jak usuwać obiekty graficzne z pliku PDF za pomocą Aspose.PDF dla .NET w tym przewodniku krok po kroku. Uprość swoje zadania związane z manipulacją PDF. |  
+| [Narysuj XForm na stronie](./draw-xform-on-page/) | dowiedz się, jak rysować formularze XForm w formacie PDF za pomocą Aspose.PDF dla platformy .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. |  
+| [Operatorzy PDF](./pdf-operators/) | Przewodnik krok po kroku dotyczący korzystania z operatorów PDF w Aspose.PDF dla platformy .NET. Dodaj obraz do strony PDF i określ jego pozycję. |  
+| [Usuń obiekty graficzne w pliku PDF](./remove-graphics-objects/) Dowiedz się, jak usuwać obiekty graficzne z pliku PDF za pomocą Aspose.PDF dla .NET w tym przewodniku krok po kroku. Uprość swoje zadania związane z manipulacją PDF. |  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

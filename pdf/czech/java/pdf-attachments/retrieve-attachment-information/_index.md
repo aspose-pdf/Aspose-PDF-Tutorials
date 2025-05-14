@@ -1,14 +1,16 @@
 ---
-title: Načíst informace o příloze
-linktitle: Načíst informace o příloze
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se, jak načíst přílohy PDF v Javě pomocí Aspose.PDF. Podrobný průvodce s příklady kódu pro správu příloh PDF dokumentů.
-weight: 12
-url: /cs/java/pdf-attachments/retrieve-attachment-information/
+"description": "Naučte se, jak načíst přílohy PDF v Javě pomocí Aspose.PDF. Podrobný návod s příklady kódu pro správu příloh PDF dokumentů."
+"linktitle": "Načíst informace o příloze"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Načíst informace o příloze"
+"url": "/cs/java/pdf-attachments/retrieve-attachment-information/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Načíst informace o příloze
@@ -16,41 +18,41 @@ url: /cs/java/pdf-attachments/retrieve-attachment-information/
 
 ## Zavedení
 
-V tomto tutoriálu se naučíte, jak používat Aspose.PDF pro Java k načtení informací o příloze z dokumentu PDF. Přílohy mohou být soubory nebo dokumenty vložené do PDF a možná budete muset přistupovat k jejich podrobnostem programově.
+V tomto tutoriálu se naučíte, jak používat Aspose.PDF pro Javu k načtení informací o přílohách z dokumentu PDF. Přílohy mohou být soubory nebo dokumenty vložené do PDF a k jejich podrobnostem budete možná potřebovat programově přistupovat.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující předpoklady:
 
-1. Java Development Environment (JDK) nainstalováno.
-2.  Aspose.PDF pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/pdf/java/).
+1. Nainstalované vývojové prostředí Java (JDK).
+2. Aspose.PDF pro knihovnu Java. Můžete si ji stáhnout z [zde](https://releases.aspose.com/pdf/java/).
 
-## Krok 1: Vytvořte projekt Java
+## Krok 1: Vytvořte projekt v Javě
 
-Vytvořte nový projekt Java ve svém oblíbeném integrovaném vývojovém prostředí (IDE) a zahrňte do svého projektu knihovnu Aspose.PDF for Java.
+Vytvořte nový projekt Java ve vašem oblíbeném integrovaném vývojovém prostředí (IDE) a do projektu přidejte knihovnu Aspose.PDF pro Javu.
 
 ## Krok 2: Načtěte dokument PDF
 
-Nejprve musíte načíst dokument PDF, který obsahuje přílohy. K načtení souboru PDF použijte následující kód:
+Nejprve je třeba načíst PDF dokument, který obsahuje přílohy. Pro načtení PDF souboru použijte následující kód:
 
 ```java
-// Načtěte dokument PDF
+// Načíst PDF dokument
 Document pdfDocument = new Document("path/to/your/pdf/document.pdf");
 ```
 
-## Krok 3: Načtěte informace o příloze
+## Krok 3: Načtení informací o příloze
 
-Nyní můžete načíst informace o příloze z načteného dokumentu PDF. Zde je návod, jak můžete získat seznam příloh a zobrazit jejich podrobnosti:
+Nyní můžete z načteného dokumentu PDF načíst informace o přílohách. Zde je návod, jak získat seznam příloh a zobrazit jejich podrobnosti:
 
 ```java
-// Získejte sbírku příloh
+// Získejte kolekci příloh
 AttachmentCollection attachments = pdfDocument.getAttachments();
 
-// Zkontrolujte, zda nejsou nějaké přílohy
+// Zkontrolujte, zda jsou k dispozici nějaké přílohy
 if (attachments.size() > 0) {
     System.out.println("Attachments found:");
 
-    // Projděte každou přílohu
+    // Iterujte pro každou přílohu
     for (Attachment attachment : attachments) {
         System.out.println("Name: " + attachment.getName());
         System.out.println("Description: " + attachment.getDescription());
@@ -63,33 +65,35 @@ if (attachments.size() > 0) {
 }
 ```
 
-## Krok 4: Uložte nebo zpracujte přílohy
+## Krok 4: Uložení nebo zpracování příloh
 
-Přílohy můžete podle potřeby dále zpracovávat nebo ukládat. Můžete je například extrahovat a uložit do místního adresáře nebo provádět další akce na základě požadavků vaší aplikace.
+Přílohy můžete podle potřeby dále zpracovávat nebo ukládat. Můžete je například extrahovat a ukládat do lokálního adresáře nebo provádět další akce na základě požadavků vaší aplikace.
 
 ## Závěr
 
-tomto tutoriálu jste se naučili, jak získat informace o příloze z dokumentu PDF pomocí Aspose.PDF for Java. Nyní můžete tuto funkci začlenit do svých aplikací Java, abyste mohli efektivně pracovat s přílohami PDF.
+V tomto tutoriálu jste se naučili, jak načíst informace o přílohách z PDF dokumentu pomocí Aspose.PDF pro Javu. Nyní můžete tuto funkci začlenit do svých Java aplikací pro efektivní práci s PDF přílohami.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak mohu extrahovat přílohy z PDF?
 
- Chcete-li extrahovat přílohy, můžete použít`attachment.getData()` získat obsah přílohy a poté ji uložit do místního souboru.
+Pro extrahování příloh můžete použít `attachment.getData()` metoda pro získání obsahu přílohy a její následné uložení do lokálního souboru.
 
-### Mohu upravit přílohy v dokumentu PDF?
-Ano, můžete přidávat, odstraňovat nebo aktualizovat přílohy v dokumentu PDF pomocí Aspose.PDF for Java. Další podrobnosti naleznete v dokumentaci.
+### Mohu upravovat přílohy v dokumentu PDF?
+Ano, pomocí nástroje Aspose.PDF pro Javu můžete přidávat, odebírat nebo aktualizovat přílohy v dokumentu PDF. Další podrobnosti naleznete v dokumentaci.
 
 ### Jaké jsou podporované formáty příloh?
 
-Aspose.PDF for Java podporuje širokou škálu formátů příloh, včetně PDF, obrázků, dokumentů a dalších. Vlastnost MIME Type může pomoci identifikovat formát.
+Aspose.PDF pro Javu podporuje širokou škálu formátů příloh, včetně PDF, obrázků, dokumentů a dalších. Vlastnost MIME Type může pomoci identifikovat formát.
 
-### Jak mohu přidat nové přílohy do PDF?
+### Jak mohu přidat nové přílohy do PDF souboru?
 
- K dokumentu PDF můžete přidat přílohy pomocí`AttachmentCollection.add()`metoda. Jednoduše zadejte název, popis a obsah přílohy a příloha bude přidána do dokumentu.
+K dokumentu PDF můžete přidat přílohy pomocí `AttachmentCollection.add()` metoda. Jednoduše zadejte název, popis a obsah přílohy a ta bude přidána do dokumentu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

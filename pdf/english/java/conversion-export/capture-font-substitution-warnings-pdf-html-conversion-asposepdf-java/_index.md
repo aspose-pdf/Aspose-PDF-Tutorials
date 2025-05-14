@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Capture Font Substitution Warnings in PDF to HTML Conversion Using Aspose.PDF Java
 
@@ -120,7 +122,11 @@ Finally, save your PDF document as an HTML file using the specified options.
 
 ```java
 pdfDoc.save("YOUR_OUTPUT_DIRECTORY/getWarningForFontSubstitution.html\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

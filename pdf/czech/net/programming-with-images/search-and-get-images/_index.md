@@ -1,41 +1,43 @@
 ---
-title: Vyhledávejte a získejte obrázky v souboru PDF
-linktitle: Vyhledávejte a získejte obrázky v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak bez námahy extrahovat obrázky ze souborů PDF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného průvodce a zdokonalte své dovednosti při zpracování PDF.
-weight: 260
-url: /cs/net/programming-with-images/search-and-get-images/
+"description": "Naučte se, jak snadno extrahovat obrázky ze souborů PDF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete si své dovednosti v oblasti zpracování PDF."
+"linktitle": "Vyhledávání a získávání obrázků v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Vyhledávání a získávání obrázků v souboru PDF"
+"url": "/cs/net/programming-with-images/search-and-get-images/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vyhledávejte a získejte obrázky v souboru PDF
+# Vyhledávání a získávání obrázků v souboru PDF
 
 ## Zavedení
 
-Hledáte přímočarý způsob, jak extrahovat obrázky ze souborů PDF pomocí Aspose.PDF pro .NET? Jste na správném místě! V tomto článku se ponoříme do specifik, jak efektivně vyhledávat a načítat obrázky vložené do PDF dokumentu. Ať už jste ostřílený vývojář nebo jen ponoříte prsty do světa manipulace s PDF, tento průvodce vás krok za krokem provede celým procesem.
+Hledáte jednoduchý způsob, jak extrahovat obrázky z PDF souborů pomocí Aspose.PDF pro .NET? Jste na správném místě! V tomto článku se ponoříme do detailů, jak efektivně vyhledávat a načítat obrázky vložené do PDF dokumentu. Ať už jste zkušený vývojář, nebo se teprve ponořujete do světa manipulace s PDF, tento průvodce vás provede celým procesem krok za krokem.
 
 ## Předpoklady
 
-Než se pustíme do hrubšího kódu, existuje několik předpokladů, které musíte zaškrtnout ze seznamu. 
+Než se pustíme do detailů kódu, je třeba splnit několik předpokladů. 
 
 ### .NET Framework
 
-Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET Framework. Aspose.PDF for .NET je kompatibilní s různými verzemi, ale nejlepší je použít nejnovější stabilní verzi, abyste si mohli užít všechny nejnovější funkce a vylepšení.
+Ujistěte se, že máte na svém počítači nainstalovaný .NET Framework. Aspose.PDF pro .NET je kompatibilní s různými verzemi, ale pro využití všech nejnovějších funkcí a vylepšení je nejlepší používat nejnovější stabilní verzi.
 
 ### Knihovna Aspose.PDF
 
- Budete potřebovat přístup do knihovny Aspose.PDF. Pokud jste tak ještě neučinili, můžete si jej stáhnout z tohoto odkazu:[Stáhněte si Aspose.PDF pro .NET](https://releases.aspose.com/pdf/net/) . Kromě toho můžete prozkoumat jejich[měsíční zkušební verze zdarma](https://releases.aspose.com/) nastartovat své projekty bez jakýchkoli nákladů.
+Budete potřebovat přístup ke knihovně Aspose.PDF. Pokud ji ještě nemáte, můžete si ji stáhnout z tohoto odkazu: [Stáhnout Aspose.PDF pro .NET](https://releases.aspose.com/pdf/net/)Kromě toho si můžete prohlédnout jejich [měsíční bezplatná zkušební verze](https://releases.aspose.com/) nastartovat vaše projekty bez jakýchkoli nákladů.
 
 ### Vývojové prostředí
 
-Pro bezproblémové psaní a spouštění kódu by mělo být nastaveno vhodné vývojové prostředí, jako je Visual Studio nebo libovolné IDE podle vašich preferencí.
+Pro bezproblémový zápis a spouštění kódu by mělo být nastaveno vhodné vývojové prostředí, jako je Visual Studio nebo jakékoli jiné IDE dle vašeho výběru.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li pracovat s Aspose.PDF pro .NET, budete muset do svého projektu nejprve importovat příslušné jmenné prostory. Zde je to, co musíte udělat:
+Abyste mohli pracovat s Aspose.PDF pro .NET, musíte nejprve importovat příslušné jmenné prostory do svého projektu. Zde je to, co je třeba udělat:
 
 ```csharp
 using System.IO;
@@ -43,29 +45,29 @@ using Aspose.Pdf;
 using System;
 ```
 
- Každý z těchto balíků slouží ke specifickým účelům při manipulaci s dokumenty PDF. The`Aspose.Pdf` jmenný prostor je základním kamenem vašich operací, zatímco další dva pomáhají pracovat s obrázky a textem v PDF.
+Každý z těchto balíčků slouží specifickým účelům při manipulaci s PDF dokumenty. `Aspose.Pdf` Jmenný prostor je základem vašich operací, zatímco další dva pomáhají s obrázky a textem v PDF.
 
-## Krok 1: Nastavte cestu k dokumentu
+## Krok 1: Nastavení cesty k dokumentu
 
-Před čímkoli jiným musíte definovat cestu, kde se váš soubor PDF nachází. Tento kus kódu to nastavuje:
+Především je třeba definovat cestu, kde se nachází váš PDF soubor. Nastaví to tento kus kódu:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahraďte „VÁŠ ADRESÁŘ DOKUMENTŮ“ skutečnou cestou k adresáři obsahujícímu váš soubor PDF, např.`C:\Documents\`.
+Nahraďte „ADRESÁŘ S DOKUMENTY“ skutečnou cestou k adresáři obsahujícímu váš soubor PDF, například `C:\Documents\`.
 
 ## Krok 2: Otevřete dokument PDF
 
- Dále budete chtít načíst dokument PDF do aplikace. To se provádí vytvořením nového`Document` instance s cestou k souboru, kterou jste právě zadali:
+Dále budete chtít načíst PDF dokument do vaší aplikace. To se provede vytvořením nového `Document` instance s cestou k souboru, kterou jste právě zadali:
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SearchAndGetImages.pdf");
 ```
 
-## Krok 3: Vytvořte ImagePlacementAbsorber
+## Krok 3: Vytvořte absorbér ImagePlacementAbsorber
 
- Chcete-li vyhledávat obrázky v PDF, potřebujete`ImagePlacementAbsorber` objekt. Tato třída pomáhá při vstřebávání obrázků z PDF během procesu extrakce:
+Pro vyhledávání obrázků v PDF souboru potřebujete `ImagePlacementAbsorber` objekt. Tato třída pomáhá s absorpcí obrázků z PDF během procesu extrakce:
 
 ```csharp
 ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
@@ -73,15 +75,15 @@ ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
 
 ## Krok 4: Přijměte absorbér pro všechny stránky
 
- Tento krok je zásadní, protože říká`Document` aplikujte absorbér obrazu na všechny stránky. Zajišťuje, že všechny obrázky umístěné kdekoli v dokumentu budou identifikovány:
+Tento krok je klíčový, protože říká `Document` aplikovat absorbér obrazu na všechny stránky. Zajistí to, že všechny obrázky umístěné kdekoli v dokumentu budou identifikovány:
 
 ```csharp
 doc.Pages.Accept(abs);
 ```
 
-## Krok 5: Projděte si umístění obrázků
+## Krok 5: Procházení umístění obrázků
 
-Nyní, když jste obrázky vstřebali, je čas se do nich ponořit. Budete procházet každým umístěním obrázku extrahovaným z PDF:
+Nyní, když jste si prohlédli obrázky, je čas se do nich ponořit. Projdete si jednotlivé umístění obrázků extrahovaných z PDF:
 
 ```csharp
 foreach (ImagePlacement imagePlacement in abs.ImagePlacements)
@@ -90,9 +92,9 @@ foreach (ImagePlacement imagePlacement in abs.ImagePlacements)
 }
 ```
 
-## Krok 6: Extrahujte vlastnosti obrázku
+## Krok 6: Extrahování vlastností obrazu
 
- Uvnitř smyčky můžete začít získávat cenné vlastnosti o každém obrázku. Pomocí`imagePlacement` objektu, můžete přistupovat k rozměrům a rozlišení:
+Uvnitř smyčky můžete začít načítat cenné vlastnosti každého obrázku. Pomocí `imagePlacement` objektu, máte přístup k rozměrům a rozlišení:
 
 ```csharp
 XImage image = imagePlacement.Image; // Získejte obrázek
@@ -107,27 +109,29 @@ Console.Out.WriteLine("image vertical resolution:" + imagePlacement.Resolution.Y
 
 ## Závěr
 
-A tady to máte! Podle těchto kroků můžete efektivně vyhledávat a získávat obrázky ze souborů PDF pomocí Aspose.PDF for .NET. Pomocí několika řádků kódu můžete extrahovat cenné obrázky a jejich vlastnosti a otevřít dveře mnoha možnostem ve vaší aplikaci.
+A tady to máte! Dodržováním těchto kroků můžete efektivně vyhledávat a načítat obrázky z PDF souborů pomocí Aspose.PDF pro .NET. S pouhými několika řádky kódu můžete extrahovat cenné obrázky a jejich vlastnosti, což vám otevře dveře k mnoha možnostem ve vaší aplikaci.
 
-## FAQ
+## Často kladené otázky
 
 ### Je knihovna Aspose.PDF zdarma k použití?  
-Aspose.PDF for .NET je placená knihovna, ale můžete si stáhnout bezplatnou zkušební verzi na jeden měsíc.
+Aspose.PDF pro .NET je placená knihovna, ale můžete si stáhnout bezplatnou zkušební verzi na jeden měsíc.
 
 ### Mohu extrahovat obrázky ze souborů PDF chráněných heslem?  
-Ano, ale při otevírání dokumentu musíte zadat heslo.
+Ano, ale při otevírání dokumentu je nutné zadat heslo.
 
 ### Jaké typy obrázků lze extrahovat z PDF?  
 Všechny vložené obrázky bez ohledu na formát (JPEG, PNG atd.) lze extrahovat.
 
-### Existuje nějaký limit na počet obrázků, které mohu extrahovat?  
-Neexistuje žádný pevný limit; záleží na samotném souboru PDF.
+### Existuje nějaký limit pro počet obrázků, které mohu extrahovat?  
+Neexistuje žádné pevné omezení; záleží na samotném souboru PDF.
 
-### Mohu extrahované obrázky uložit na disk?  
- Ano, obrázky můžete uložit na disk pomocí`XImage` objekt ve vašem kódu.
+### Mohu uložit extrahované obrázky na disk?  
+Ano, obrázky můžete uložit na disk pomocí `XImage` objekt ve vašem kódu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

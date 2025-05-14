@@ -1,75 +1,77 @@
 ---
-title: Přidejte obsah do existujícího PDF v Javě
-linktitle: Přidejte obsah do existujícího PDF v Javě
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se, jak přidat obsah do PDF v Javě pomocí Aspose.PDF pro Javu. Vylepšete navigaci v dokumentech pomocí tohoto podrobného průvodce.
-weight: 34
-url: /cs/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/
+"description": "Naučte se, jak přidat obsah do PDF v Javě pomocí Aspose.PDF pro Javu. Vylepšete navigaci v dokumentu s tímto podrobným návodem."
+"linktitle": "Přidání obsahu do existujícího PDF v Javě"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Přidání obsahu do existujícího PDF v Javě"
+"url": "/cs/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/"
+"weight": 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte obsah do existujícího PDF v Javě
+# Přidání obsahu do existujícího PDF v Javě
 
 
 ## Zavedení
-V tomto podrobném průvodci se naučíme, jak přidat obsah do existujícího PDF v Javě pomocí knihovny Aspose.PDF for Java. Obsah je užitečná funkce v dokumentech PDF, která umožňuje čtenářům rychle procházet dokumentem.
+tomto podrobném návodu se naučíme, jak přidat obsah do existujícího PDF souboru v Javě pomocí knihovny Aspose.PDF pro Javu. Obsah je užitečná funkce v dokumentech PDF, která čtenářům umožňuje rychlou navigaci v dokumentu.
 
 ## Předpoklady
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Aspose.PDF pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/pdf/java/).
+- Na vašem systému nainstalovaná sada pro vývoj Java (JDK).
+- Aspose.PDF pro knihovnu Java. Můžete si ji stáhnout z [zde](https://releases.aspose.com/pdf/java/).
 
-## Přidání závislostí
-Chcete-li začít, vytvořte nový projekt Java a přidejte knihovnu Aspose.PDF for Java do závislostí vašeho projektu. Můžete to provést zahrnutím souboru JAR do cesty sestavení vašeho projektu.
+## Přidávání závislostí
+Chcete-li začít, vytvořte nový projekt Java a přidejte knihovnu Aspose.PDF pro Javu do závislostí projektu. Toho dosáhnete zahrnutím souboru JAR do cesty sestavení projektu.
 
-## Vytvoření nového dokumentu PDF
-Začněme vytvořením nového dokumentu PDF, ke kterému přidáme obsah. Zde je ukázkový kód pro vytvoření nového dokumentu PDF:
+## Vytvoření nového PDF dokumentu
+Začněme vytvořením nového PDF dokumentu, do kterého přidáme obsah. Zde je ukázkový kód pro vytvoření nového PDF dokumentu:
 
 ```java
-// Vytvořte nový dokument PDF
+// Vytvořte nový PDF dokument
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 ```
 
 ## Přidání obsahu
-Chcete-li do dokumentu PDF přidat obsah, musíme vytvořit objekt TableOfContents a určit jeho vlastnosti. Můžete to udělat takto:
+Abychom do dokumentu PDF přidali obsah, musíme vytvořit objekt TableOfContents a specifikovat jeho vlastnosti. Zde je návod, jak to udělat:
 
 ```java
 // Vytvořte objekt TableOfContents
 com.aspose.pdf.TableOfContents tableOfContents = new com.aspose.pdf.TableOfContents();
 tableOfContents.setTitle("Table of Contents"); // Nastavte název obsahu
-tableOfContents.setDisplayPageNumbers(true); // Zobrazte čísla stránek
+tableOfContents.setDisplayPageNumbers(true); // Zobrazit čísla stránek
 ```
 
-## Přidání sekcí do dokumentu
-Dále do dokumentu PDF přidáme sekce. Tyto části budou představovat různé kapitoly nebo části dokumentu. Zde je příklad:
+## Přidávání sekcí do dokumentu
+Dále do dokumentu PDF přidáme sekce. Tyto sekce budou představovat různé kapitoly nebo části dokumentu. Zde je příklad:
 
 ```java
 // Vytvořte sekci
 com.aspose.pdf.Section section = pdfDocument.getSections().add();
 
-// Přidejte obsah do sekce (např. text, obrázky atd.)
+// Přidejte do sekce obsah (např. text, obrázky atd.)
 // Zde můžete přidat obsah dokumentu
 
-// Přidejte sekci do obsahu
+// Přidat sekci do obsahu
 tableOfContents.getSections().add(section);
 ```
 
 ## Generování čísel stránek
-Chcete-li vygenerovat čísla stránek pro obsah, můžete použít následující kód:
+Pro generování čísel stránek pro obsah můžete použít následující kód:
 
 ```java
-// Vygenerujte čísla stránek pro obsah
+// Generování čísel stránek pro obsah
 pdfDocument.getPages().accept(new PageNumberStamp());
 ```
 
-## Úprava stylu obsahu
-Vzhled obsahu můžete přizpůsobit nastavením jeho vlastností, jako je velikost písma, barva a styl. Zde je příklad:
+## Stylizace obsahu
+Vzhled obsahu si můžete přizpůsobit nastavením jeho vlastností, jako je velikost písma, barva a styl. Zde je příklad:
 
 ```java
-// Přizpůsobte vzhled obsahu
+// Přizpůsobení vzhledu obsahu
 TextState textState = tableOfContents.getTextState();
 textState.setFont(FontRepository.findFont("Arial"));
 textState.setFontSize(12);
@@ -85,28 +87,30 @@ pdfDocument.save("output.pdf");
 ```
 
 ## Závěr
-V této příručce jsme se naučili, jak přidat obsah do existujícího PDF v Javě pomocí knihovny Aspose.PDF for Java. Obsah zlepšuje uživatelskou zkušenost tím, že poskytuje rychlou navigaci v dokumentu.
+V této příručce jsme se naučili, jak přidat obsah do existujícího PDF souboru v Javě pomocí knihovny Aspose.PDF pro Javu. Obsah vylepšuje uživatelský zážitek tím, že umožňuje rychlou navigaci v dokumentu.
 
-## Nejčastější dotazy
-### Jak mohu přizpůsobit vzhled obsahu?
-Vzhled obsahu můžete upravit úpravou velikosti písma, barvy, stylu a dalších vlastností pomocí knihovny Aspose.PDF for Java.
+## Často kladené otázky
+### Jak si mohu přizpůsobit vzhled obsahu?
+Vzhled obsahu si můžete přizpůsobit úpravou velikosti písma, barvy, stylu a dalších vlastností pomocí knihovny Aspose.PDF pro Javu.
 
-### Mohu přidat hypertextové odkazy do obsahu?
-Ano, do obsahu můžete přidat hypertextové odkazy, abyste mohli v dokumentu PDF přejít na určité sekce nebo stránky.
+### Mohu do obsahu přidat hypertextové odkazy?
+Ano, do obsahu můžete přidat hypertextové odkazy pro navigaci na konkrétní sekce nebo stránky v dokumentu PDF.
 
-### Podporuje Aspose.PDF for Java další funkce pro manipulaci s PDF?
-Ano, Aspose.PDF for Java poskytuje širokou škálu funkcí pro práci s dokumenty PDF, včetně extrakce textu, manipulace se stránkami a dalších.
+### Podporuje Aspose.PDF pro Javu i další funkce pro manipulaci s PDF?
+Ano, Aspose.PDF pro Javu nabízí širokou škálu funkcí pro práci s PDF dokumenty, včetně extrakce textu, manipulace se stránkami a dalších.
 
-### Je k dispozici zkušební verze Aspose.PDF pro Javu?
- Ano, zkušební verzi Aspose.PDF pro Javu si můžete stáhnout z[Aspose.Purchases](https://purchase.aspose.com/temporary-license/) k vyhodnocení jeho funkcí před zakoupením licence.
+### Je k dispozici zkušební verze souboru Aspose.PDF pro Javu?
+Ano, zkušební verzi souboru Aspose.PDF pro Javu si můžete stáhnout z [Aspose.Nákupy](https://purchase.aspose.com/temporary-license/) aby si před zakoupením licence mohl/a vyhodnotit jeho funkce.
 
-### Jak mohu získat přístup k dalším výukovým programům a dokumentaci Aspose.PDF for Java?
- Komplexní návody a dokumentaci k Aspose.PDF pro Javu naleznete na webových stránkách na adrese[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+### Jak mohu získat přístup k dalším tutoriálům a dokumentaci k souboru Aspose.PDF pro Javu?
+Komplexní návody a dokumentaci k souboru Aspose.PDF pro Javu naleznete na webových stránkách na adrese [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
 
-tomto článku jsme prozkoumali, jak přidat obsah do existujícího dokumentu PDF pomocí knihovny Aspose.PDF for Java. Tato funkce může výrazně zlepšit použitelnost vašich dokumentů PDF a umožňuje čtenářům snadno přejít na konkrétní sekce nebo kapitoly. Dále jsme probrali, jak přizpůsobit vzhled obsahu a generovat čísla stránek. Aspose.PDF for Java nabízí širokou škálu možností pro manipulaci s PDF, což z něj činí výkonný nástroj pro práci s PDF v aplikacích Java. Pokud potřebujete další pomoc nebo chcete prozkoumat další funkce Aspose.PDF pro Java, nezapomeňte se podívat na jejich dokumentaci a výukové programy.
+tomto článku jsme prozkoumali, jak přidat obsah do existujícího PDF dokumentu pomocí knihovny Aspose.PDF pro Javu. Tato funkce může výrazně zlepšit použitelnost vašich PDF dokumentů a umožnit čtenářům snadnou navigaci do konkrétních sekcí nebo kapitol. Dále jsme se zabývali tím, jak přizpůsobit vzhled obsahu a generovat čísla stránek. Aspose.PDF pro Javu nabízí širokou škálu možností manipulace s PDF, což z něj činí výkonný nástroj pro práci s PDF v aplikacích Java. Pokud potřebujete další pomoc nebo chcete prozkoumat další funkce Aspose.PDF pro Javu, nezapomeňte si prohlédnout jejich dokumentaci a návody.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

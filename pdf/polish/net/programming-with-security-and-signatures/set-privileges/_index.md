@@ -1,14 +1,16 @@
 ---
-title: Ustaw uprawnienia w pliku PDF
-linktitle: Ustaw uprawnienia w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak ustawić uprawnienia PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Skutecznie zabezpiecz swoje dokumenty.
-weight: 100
-url: /pl/net/programming-with-security-and-signatures/set-privileges/
+"description": "Dowiedz się, jak ustawić uprawnienia PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Skutecznie zabezpiecz swoje dokumenty."
+"linktitle": "Ustaw uprawnienia w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ustaw uprawnienia w pliku PDF"
+"url": "/pl/net/programming-with-security-and-signatures/set-privileges/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw uprawnienia w pliku PDF
@@ -27,11 +29,11 @@ Upewnij się, że masz działające środowisko .NET. Aspose.PDF dla .NET obsłu
 
 ### 2. Aspose.PDF dla biblioteki .NET
 
- Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Jeśli jeszcze tego nie zrobiłeś, przejdź do[Wydanie pliku PDF Aspose](https://releases.aspose.com/pdf/net/) strona umożliwiająca pobranie najnowszej wersji.
+Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Jeśli jeszcze tego nie zrobiłeś, przejdź do [Wydanie pliku PDF Aspose](https://releases.aspose.com/pdf/net/) strona umożliwiająca pobranie najnowszej wersji.
 
 ### 3. Źródło dokumentu PDF
 
- Przygotuj źródłowy plik PDF. W celach demonstracyjnych użyjmy pliku wejściowego o nazwie`input.pdf`Możesz utworzyć prosty plik PDF za pomocą dowolnego edytora tekstu lub pobrać jeden.
+Przygotuj źródłowy plik PDF. W celach demonstracyjnych użyjmy pliku wejściowego o nazwie `input.pdf`Możesz utworzyć prosty plik PDF za pomocą dowolnego edytora tekstu lub pobrać jeden.
 
 ### 4. Twoje środowisko programistyczne
 
@@ -39,7 +41,7 @@ Upewnij się, że masz skonfigurowany projekt w swoim ulubionym środowisku IDE 
 
 ## Importuj pakiety
 
- Aby skorzystać z biblioteki Aspose.PDF, musisz najpierw zaimportować wymagane pakiety do swojego projektu. Główna przestrzeń nazw, z którą będziesz pracować, to`Aspose.Pdf`.
+Aby skorzystać z biblioteki Aspose.PDF, musisz najpierw zaimportować wymagane pakiety do swojego projektu. Główna przestrzeń nazw, z którą będziesz pracować, to `Aspose.Pdf`.
 
 Oto jak to zrobić:
 
@@ -65,7 +67,7 @@ Po pierwsze, musisz ustalić ścieżkę do katalogu dokumentów. To tutaj będą
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
- Zastępować`"YOUR DOCUMENTS DIRECTORY"` z rzeczywistym katalogiem w systemie, w którym zapisałeś swoje`input.pdf`.
+Zastępować `"YOUR DOCUMENTS DIRECTORY"` z rzeczywistym katalogiem w systemie, w którym zapisałeś swoje `input.pdf`.
 
 ## Krok 2: Załaduj plik źródłowy PDF
 
@@ -77,11 +79,11 @@ using (Document document = new Document(dataDir + "input.pdf"))
     // Twój kod będzie kontynuowany tutaj
 }
 ```
- Tutaj używamy`using` oświadczenie dotyczące zarządzania zasobami. Dzięki temu będziesz mieć pewność, że Twój dokument zostanie prawidłowo zamknięty i usunięty po zakończeniu przetwarzania.
+Tutaj używamy `using` oświadczenie dotyczące zarządzania zasobami. Dzięki temu będziesz mieć pewność, że Twój dokument zostanie prawidłowo zamknięty i usunięty po zakończeniu przetwarzania.
 
 ## Krok 3: Utwórz obiekt uprawnień dokumentu
 
-Teraz, gdy dokument został załadowany, nadszedł czas na utworzenie jego wystąpienia`DocumentPrivilege` klasa. To pozwoli ci określić, jakie uprawnienia ustawić.
+Teraz, gdy dokument został załadowany, nadszedł czas na utworzenie jego wystąpienia `DocumentPrivilege` klasa. To pozwoli ci określić, jakie uprawnienia ustawić.
 
 ```csharp
 DocumentPrivilege documentPrivilege = DocumentPrivilege.ForbidAll;
@@ -104,7 +106,7 @@ Teraz nadchodzi najważniejsza część: zaszyfrowanie dokumentu przy użyciu ha
 ```csharp
 document.Encrypt("user", "owner", documentPrivilege, CryptoAlgorithm.AESx128, false);
 ```
- Zastępować`"user"` I`"owner"` z hasłami wybranymi przez Ciebie. Użytkownik będzie potrzebował hasła użytkownika, aby wyświetlić dokument, podczas gdy hasło właściciela daje pełną kontrolę nad uprawnieniami. 
+Zastępować `"user"` I `"owner"` hasłami wybranymi przez Ciebie. Użytkownik będzie potrzebował hasła użytkownika, aby wyświetlić dokument, podczas gdy hasło właściciela daje pełną kontrolę nad uprawnieniami. 
 
 ## Krok 6: Zapisz zaktualizowany dokument
 
@@ -113,7 +115,7 @@ Na koniec, gdy już wprowadzisz wszystkie modyfikacje, nie zapomnij zapisać zak
 ```csharp
 document.Save(dataDir + "SetPrivileges_out.pdf");
 ```
- Ten wiersz zapisuje zmiany, które wprowadziłeś, w nowym pliku o nazwie`SetPrivileges_out.pdf` w tym samym katalogu. Zawsze dobrym pomysłem jest zachowanie oryginału w całości!
+Ten wiersz zapisuje zmiany, które wprowadziłeś, w nowym pliku o nazwie `SetPrivileges_out.pdf` w tym samym katalogu. Zawsze dobrym pomysłem jest zachowanie oryginału w całości!
 
 ## Wniosek
 
@@ -128,16 +130,18 @@ Uprawnienia dokumentu określają, jakie czynności użytkownicy mogą wykonywa�
 Możesz zainstalować go za pomocą NuGet w Visual Studio. Wyszukaj 'Aspose.PDF' w NuGet Package Manager.
 
 ### Czy mogę przyznać wiele uprawnień jednocześnie?  
-Tak, możesz ustawić wiele uprawnień, dostosowując`DocumentPrivilege` ustawienia odpowiednio.
+Tak, możesz ustawić wiele uprawnień, dostosowując `DocumentPrivilege` ustawienia odpowiednio.
 
 ### Jakie algorytmy szyfrowania obsługuje Aspose?  
 Aspose.PDF obsługuje różne algorytmy, w tym AES-128, AES-256 i RC4 (zarówno 40-bitowe, jak i 128-bitowe).
 
 ### Czy istnieje wersja próbna Aspose.PDF?  
- Tak, możesz otrzymać bezpłatną wersję próbną[Aspose PDF Bezpłatna wersja próbna](https://releases.aspose.com/).
+Tak, możesz otrzymać bezpłatną wersję próbną [Aspose PDF Bezpłatna wersja próbna](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

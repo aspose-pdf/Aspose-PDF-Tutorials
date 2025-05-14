@@ -1,14 +1,16 @@
 ---
-title: Mengonversi Gambar ke PDF menggunakan Java
-linktitle: Mengonversi Gambar ke PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengonversi gambar ke PDF menggunakan Java dengan panduan lengkap ini. Petunjuk langkah demi langkah dan contoh kode disertakan.
-weight: 12
-url: /id/java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/
+"description": "Pelajari cara mengonversi gambar ke PDF menggunakan Java dengan panduan lengkap ini. Petunjuk langkah demi langkah dan contoh kode disertakan."
+"linktitle": "Mengonversi Gambar ke PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Mengonversi Gambar ke PDF menggunakan Java"
+"url": "/id/java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengonversi Gambar ke PDF menggunakan Java
@@ -24,7 +26,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Anda harus menginstal Java JDK pada sistem Anda.
 
--  Aspose.PDF untuk Java: Unduh dan sertakan pustaka Aspose.PDF untuk Java dalam proyek Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Unduh dan sertakan pustaka Aspose.PDF untuk Java dalam proyek Anda. Anda dapat menemukan tautan unduhan [Di Sini](https://releases.aspose.com/pdf/java/).
 
 - Gambar yang Akan Dikonversi: Siapkan berkas gambar yang ingin Anda konversi ke PDF. Pastikan berkas tersebut dapat diakses dalam proyek Java Anda.
 
@@ -61,7 +63,7 @@ pdfDocument.getPages().add();
 // Muat file gambar
 String imagePath = "path/to/your/image.jpg";
 
-//Tambahkan gambar ke halaman pertama
+// Tambahkan gambar ke halaman pertama
 pdfDocument.getPages().get_Item(1).getParagraphs().add(new com.aspose.pdf.Image(imagePath));
 ```
 
@@ -84,7 +86,7 @@ Untuk menambahkan beberapa gambar ke satu dokumen PDF, Anda dapat mengikuti lang
 
 ### Dapatkah saya menyesuaikan tampilan halaman PDF, seperti mengatur dimensi atau marginnya?
 
-Ya, Anda dapat menyesuaikan tampilan halaman PDF dengan menyesuaikan dimensi, margin, dan atribut lainnya menggunakan Aspose.PDF untuk Java. Lihat dokumentasi[Di Sini](https://reference.aspose.com/pdf/java/) untuk informasi terperinci tentang penyesuaian halaman.
+Ya, Anda dapat menyesuaikan tampilan halaman PDF dengan menyesuaikan dimensi, margin, dan atribut lainnya menggunakan Aspose.PDF untuk Java. Lihat dokumentasi [Di Sini](https://reference.aspose.com/pdf/java/) untuk informasi terperinci tentang penyesuaian halaman.
 
 ### Apakah Aspose.PDF untuk Java pustaka gratis?
 
@@ -97,9 +99,11 @@ Aspose.PDF untuk Java tidak memberlakukan batasan ketat pada ukuran gambar yang 
 ### Bisakah saya melindungi dokumen PDF yang dihasilkan dengan kata sandi?
 
 Ya, Anda dapat menambahkan proteksi kata sandi ke dokumen PDF yang dihasilkan menggunakan Aspose.PDF untuk Java. Lihat dokumentasi pustaka untuk panduan tentang cara menambahkan fitur keamanan ke dokumen PDF Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

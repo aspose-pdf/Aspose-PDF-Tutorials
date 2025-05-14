@@ -1,14 +1,16 @@
 ---
-title: เพิ่มตารางในเอกสาร PDF ที่มีอยู่โดยใช้ Java
-linktitle: เพิ่มตารางในเอกสาร PDF ที่มีอยู่โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีเพิ่มตารางในเอกสาร PDF ที่มีอยู่โดยใช้ Java และ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
-weight: 10
-url: /th/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
+"description": "เรียนรู้วิธีเพิ่มตารางในเอกสาร PDF ที่มีอยู่โดยใช้ Java และ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด"
+"linktitle": "เพิ่มตารางในเอกสาร PDF ที่มีอยู่โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มตารางในเอกสาร PDF ที่มีอยู่โดยใช้ Java"
+"url": "/th/java/pdf-tables/add-table-in-existing-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มตารางในเอกสาร PDF ที่มีอยู่โดยใช้ Java
@@ -20,11 +22,11 @@ url: /th/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
 
 ## ความต้องการ
 
-ก่อนที่เราจะเริ่มต้น ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - ติดตั้ง Java Development Kit (JDK) แล้ว
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA หรือ Eclipse
--  Aspose.PDF สำหรับไลบรารี Java ซึ่งคุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java ซึ่งคุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การจัดเตรียมสภาพแวดล้อม
 
@@ -33,7 +35,7 @@ url: /th/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
 
 ## การเพิ่มการอ้างอิง
 
- ในโครงการของคุณ`pom.xml` (ถ้าคุณใช้ Maven) หรือไฟล์ build.gradle (ถ้าคุณใช้ Gradle) ให้เพิ่มการอ้างอิงต่อไปนี้:
+ในโครงการของคุณ `pom.xml` (ถ้าคุณใช้ Maven) หรือไฟล์ build.gradle (ถ้าคุณใช้ Gradle) ให้เพิ่มการอ้างอิงต่อไปนี้:
 
 ```xml
 <dependencies>
@@ -45,7 +47,7 @@ url: /th/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
 </dependencies>
 ```
 
- แทนที่`latest_version` ด้วยเวอร์ชันจริงของไลบรารี Aspose.PDF ที่คุณดาวน์โหลด
+แทนที่ `latest_version` ด้วยเวอร์ชันจริงของไลบรารี Aspose.PDF ที่คุณดาวน์โหลด
 
 ## การสร้างตาราง
 
@@ -103,7 +105,7 @@ TextState textState = new TextState();
 textState.setFontSize(12);
 table.setDefaultCellTextState(textState);
 
-// ตั้งค่าสีพื้นหลังเซลล์
+// ตั้งค่าสีพื้นหลังของเซลล์
 row.getCells().get_Item(0).getBackgroundColour().setColor(Color.getLightGray());
 
 // ใช้รูปแบบเพิ่มเติมตามความจำเป็น
@@ -125,11 +127,11 @@ pdfDocument.save("modified-document.pdf");
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/). ทำตามคำแนะนำการติดตั้งที่อยู่ในเว็บไซต์
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/). ทำตามคำแนะนำการติดตั้งที่อยู่ในเว็บไซต์
 
 ### ฉันสามารถเพิ่มรูปภาพลงในเซลล์ตารางได้หรือไม่
 
-ใช่ คุณสามารถเพิ่มรูปภาพลงในเซลล์ตารางได้โดยใช้ไลบรารี Aspose.PDF โปรดดูเอกสารประกอบสำหรับตัวอย่างเฉพาะ
+ใช่ คุณสามารถเพิ่มรูปภาพลงในเซลล์ตารางได้โดยใช้ไลบรารี Aspose.PDF โปรดดูตัวอย่างเฉพาะในเอกสารประกอบ
 
 ### Aspose.PDF สำหรับ Java สามารถใช้งานร่วมกับ PDF เวอร์ชันต่างๆ ได้หรือไม่
 
@@ -137,14 +139,16 @@ pdfDocument.save("modified-document.pdf");
 
 ### ฉันจะตั้งค่าเส้นขอบแบบกำหนดเองให้กับเซลล์ตารางได้อย่างไร
 
- คุณสามารถปรับแต่งขอบเซลล์ได้โดยการปรับ`BorderInfo` คุณสมบัติ โปรดดูเอกสาร Aspose.PDF เพื่อดูตัวอย่างโดยละเอียด
+คุณสามารถปรับแต่งขอบเซลล์ได้โดยการปรับ `BorderInfo` คุณสมบัติ โปรดดูเอกสาร Aspose.PDF เพื่อดูตัวอย่างโดยละเอียด
 
 ### ฉันสามารถดึงข้อมูลจากตารางที่มีอยู่แล้วในเอกสาร PDF ได้หรือไม่
 
 ใช่ คุณสามารถดึงข้อมูลจากตารางที่มีอยู่ในเอกสาร PDF ได้โดยใช้ Aspose.PDF สำหรับ Java โปรดดูเอกสารประกอบสำหรับวิธีการดึงข้อมูลและตัวอย่าง
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

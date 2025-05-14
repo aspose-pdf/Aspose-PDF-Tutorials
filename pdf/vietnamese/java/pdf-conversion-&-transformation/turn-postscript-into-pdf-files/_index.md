@@ -1,14 +1,16 @@
 ---
-title: Chuyển PostScript thành tệp PDF
-linktitle: Chuyển PostScript thành tệp PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách chuyển đổi tệp PostScript thành PDF dễ dàng bằng Aspose.PDF cho Java. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi định dạng tệp liền mạch.
-weight: 23
-url: /vi/java/pdf-conversion-transformation/turn-postscript-into-pdf-files/
+"description": "Tìm hiểu cách chuyển đổi tệp PostScript thành PDF dễ dàng bằng Aspose.PDF cho Java. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi định dạng tệp liền mạch."
+"linktitle": "Chuyển PostScript thành tệp PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Chuyển PostScript thành tệp PDF"
+"url": "/vi/java/pdf-conversion-transformation/turn-postscript-into-pdf-files/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển PostScript thành tệp PDF
@@ -20,8 +22,8 @@ Trong thời đại kỹ thuật số ngày nay, khả năng chuyển đổi nhi
 
 Trước khi bắt đầu quá trình chuyển đổi, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 - Kiến thức cơ bản về lập trình Java.
 
 Bây giờ, chúng ta hãy bắt đầu nhé!
@@ -81,7 +83,7 @@ Quá trình chuyển đổi phần lớn phụ thuộc vào độ phức tạp c
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên tài liệu tham khảo API Aspose.PDF cho Java[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên tài liệu tham khảo API Aspose.PDF cho Java [đây](https://reference.aspose.com/pdf/java/).
 
 ## Phần kết luận
 
@@ -89,10 +91,12 @@ Chuyển đổi tệp PostScript thành PDF trở nên đơn giản với Aspose
 
 Bây giờ bạn đã biết cách thực hiện chuyển đổi này, bạn có thể hợp lý hóa quy trình quản lý tài liệu và đảm bảo nội dung của bạn có thể tiếp cận được với nhiều đối tượng hơn.
 
- Để biết thêm thông tin và truy cập tài liệu Aspose.PDF cho Java, hãy truy cập[đây](https://reference.aspose.com/pdf/java/).
+Để biết thêm thông tin và truy cập tài liệu Aspose.PDF cho Java, hãy truy cập [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

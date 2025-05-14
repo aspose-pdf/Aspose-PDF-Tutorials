@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Eserlerin Sayımı
-linktitle: PDF Dosyasında Eserlerin Sayımı
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak bir PDF'deki filigranları nasıl sayacağınızı öğrenin. Herhangi bir ön deneyim gerektirmeyen yeni başlayanlar için adım adım kılavuz.
-weight: 60
-url: /tr/net/programming-with-stamps-and-watermarks/counting-artifacts/
+"description": "Aspose.PDF for .NET kullanarak bir PDF'deki filigranları nasıl sayacağınızı öğrenin. Herhangi bir ön deneyim gerektirmeyen yeni başlayanlar için adım adım kılavuz."
+"linktitle": "PDF Dosyasında Eserlerin Sayımı"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Eserlerin Sayımı"
+"url": "/tr/net/programming-with-stamps-and-watermarks/counting-artifacts/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Eserlerin Sayımı
@@ -22,9 +24,9 @@ PDF'lerle uğraşırken, dosyanın içinde filigranlar, açıklamalar ve diğer 
 Koda girip bu anlaşılması zor eser sayılarını çıkarmaya başlamadan önce, yerine getirmeniz gereken birkaç ön koşul var:
 
 1. Geliştirme Ortamı: .NET geliştirme ortamınızın kurulu olduğundan emin olun. Bu, Visual Studio veya .NET'i destekleyen herhangi bir IDE olabilir.
-2. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla kolayca yapabilir veya şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla kolayca yapabilir veya şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: Bu eğitimi takip etmek için C# programlamanın temellerini anlamak şarttır.
-4.  Örnek PDF Belgesi: Hazırlanmış bir örnek PDF dosyasına sahip olun, muhtemelen şu şekilde adlandırılmış olsun:`watermark.pdf`Bu belge, eser sayımımızı test etmek için bazı filigranlar içermelidir.
+4. Örnek PDF Belgesi: Hazırlanmış bir örnek PDF dosyasına sahip olun, muhtemelen şu şekilde adlandırılmış olsun: `watermark.pdf`Bu belge, eser sayımımızı test etmek için bazı filigranlar içermelidir.
 
 Artık ön koşullarınızı tamamladığınıza göre, asıl önemli kısma geçelim: Gerekli paketleri içe aktarmak!
 
@@ -44,14 +46,14 @@ Bu satırların C# dosyanızın en üstünde olduğundan emin olun. Bunlar Aspos
 
 ## Adım 1: Belge Dizinini Ayarlayın
 
- İlk önce, PDF dosyalarınızın saklandığı belge dizininiz için yolu ayarlamanız gerekir. Bu, PDF dosyalarınızı bulmak için önemlidir.`watermark.pdf` dosya.
+İlk önce, PDF dosyalarınızın saklandığı belge dizininiz için yolu ayarlamanız gerekir. Bu, PDF dosyalarınızı bulmak için önemlidir. `watermark.pdf` dosya.
 
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Gerçek yolunuzla değiştirin
 ```
 
- Şunlardan emin olmak isteyeceksiniz:`dataDir` değişkeni PDF dosyanızın doğru konumunu gösterir. 
+Şunlardan emin olmak isteyeceksiniz: `dataDir` değişkeni PDF dosyanızın doğru konumunu gösterir. 
 
 ## Adım 2: Belgeyi açın
 
@@ -62,7 +64,7 @@ Sonra, Aspose.PDF kullanarak PDF belgesini açacağız. Bu adımda, belgenizin i
 Document pdfDocument = new Document(dataDir + "watermark.pdf");
 ```
 
- Burada yeni bir örnek oluşturuyoruz`Document` PDF dosyamız için nesne. Bu nesne artık PDF'nizdeki verileri temsil ediyor ve bu sayede ondan bilgi çıkarmamıza veya onu düzenlememize olanak sağlıyor.
+Burada yeni bir örnek oluşturuyoruz `Document` PDF dosyamız için nesne. Bu nesne artık PDF'nizdeki verileri temsil ediyor ve bu sayede ondan bilgi çıkarmamıza veya onu düzenlememize olanak sağlıyor.
 
 ## Adım 3: Sayacı Başlatın
 
@@ -116,13 +118,15 @@ Evet! Sadece durumunuzdaki farklı alt tiplere karşı kontrol etmeniz gerekiyor
 Aspose.PDF ticari bir üründür, ancak deneme sürümüyle ücretsiz deneyebilirsiniz. 
 
 ### Daha fazla örneği nerede bulabilirim?  
- Aspose'un[belgeleme](https://reference.aspose.com/pdf/net/)Daha fazla öğretici ve örnek için.
+Aspose'un [belgeleme](https://reference.aspose.com/pdf/net/) Daha fazla öğretici ve örnek için.
 
 ### Aspose.PDF için lisans nasıl satın alabilirim?  
- Aspose.PDF için bir lisansı şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose.PDF için bir lisansı şu adresten satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

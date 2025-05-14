@@ -1,14 +1,16 @@
 ---
-title: Berikan Kredensial Selama HTML Ke PDF
-linktitle: Berikan Kredensial Selama HTML Ke PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengonversi HTML ke PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin menyederhanakan pembuatan dokumen.
-weight: 240
-url: /id/net/document-conversion/provide-credentials-during-html-to-pdf/
+"description": "Pelajari cara mengonversi HTML ke PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin menyederhanakan pembuatan dokumen."
+"linktitle": "Berikan Kredensial Selama HTML Ke PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Berikan Kredensial Selama HTML Ke PDF"
+"url": "/id/net/document-conversion/provide-credentials-during-html-to-pdf/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Berikan Kredensial Selama HTML Ke PDF
@@ -22,13 +24,13 @@ Dalam dunia pengembangan perangkat lunak, mengonversi HTML ke PDF merupakan pers
 Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan kita.
-2.  Aspose.PDF untuk .NET: Anda dapat mengunduh pustaka dari[situs web](https://releases.aspose.com/pdf/net/) Jika Anda ingin mencobanya terlebih dahulu, Anda juga bisa mendapatkan[uji coba gratis](https://releases.aspose.com/).
+2. Aspose.PDF untuk .NET: Anda dapat mengunduh pustaka dari [situs web](https://releases.aspose.com/pdf/net/)Jika Anda ingin mencobanya terlebih dahulu, Anda juga bisa mendapatkan [uji coba gratis](https://releases.aspose.com/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contohnya dengan lebih baik.
 4. Akses Internet: Karena kami akan mengambil konten HTML dari URL, pastikan Anda memiliki koneksi internet aktif.
 
 ## Paket Impor
 
-Untuk memulai dengan Aspose.PDF, Anda perlu mengimpor paket-paket yang diperlukan ke dalam proyek Anda. Berikut ini cara melakukannya:
+Untuk memulai Aspose.PDF, Anda perlu mengimpor paket-paket yang diperlukan ke dalam proyek Anda. Berikut ini cara melakukannya:
 
 1. Buka proyek Visual Studio Anda.
 2. Klik kanan pada proyek Anda di Solution Explorer dan pilih "Kelola Paket NuGet."
@@ -50,11 +52,11 @@ Sebelum kita dapat mengonversi HTML ke PDF, kita perlu menentukan di mana output
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF. Ini bisa berupa folder di desktop atau lokasi lain di sistem Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF. Ini bisa berupa folder di desktop atau lokasi lain di sistem Anda.
 
 ## Langkah 2: Buat Permintaan Web
 
- Selanjutnya, kita perlu membuat permintaan untuk mengambil konten HTML dari URL tertentu. Di sinilah kita akan menggunakan`WebRequest` kelas.
+Selanjutnya, kita perlu membuat permintaan untuk mengambil konten HTML dari URL tertentu. Di sinilah kita akan menggunakan `WebRequest` kelas.
 
 ```csharp
 WebRequest request = WebRequest.Create("http://My.signchart.com/Report/PrintBook.asp?ProjectGuid=6FB9DBB0-");
@@ -64,13 +66,13 @@ Di sini, kami membuat permintaan ke URL yang berisi HTML yang ingin kami ubah. P
 
 ## Langkah 3: Tetapkan Kredensial (Jika Diperlukan)
 
-Jika server memerlukan kredensial untuk mengakses konten, kita perlu mengaturnya. Ini dilakukan dengan menggunakan`CredentialCache.DefaultCredentials`.
+Jika server memerlukan kredensial untuk mengakses konten, kita perlu mengaturnya. Ini dilakukan dengan menggunakan `CredentialCache.DefaultCredentials`.
 
 ```csharp
 request.Credentials = CredentialCache.DefaultCredentials;
 ```
 
- Baris ini memastikan bahwa permintaan menggunakan kredensial default dari pengguna saat ini. Jika Anda perlu memberikan kredensial tertentu, Anda dapat membuat yang baru`NetworkCredential` obyek.
+Baris ini memastikan bahwa permintaan menggunakan kredensial default dari pengguna saat ini. Jika Anda perlu memberikan kredensial tertentu, Anda dapat membuat yang baru `NetworkCredential` obyek.
 
 ## Langkah 4: Dapatkan Respons
 
@@ -84,7 +86,7 @@ Baris ini mengirimkan permintaan dan menunggu server merespons. Jika semuanya be
 
 ## Langkah 5: Baca Aliran Respons
 
- Setelah kita mendapatkan respons, kita perlu membaca konten yang dikembalikan oleh server. Ini dilakukan dengan menggunakan`StreamReader`.
+Setelah kita mendapatkan respons, kita perlu membaca konten yang dikembalikan oleh server. Ini dilakukan dengan menggunakan `StreamReader`.
 
 ```csharp
 Stream dataStream = response.GetResponseStream();
@@ -95,7 +97,7 @@ dataStream.Close();
 response.Close();
 ```
 
- Di sini, kita membaca seluruh konten aliran respons ke dalam variabel string yang disebut`responseFromServer`Jangan lupa untuk menutup pembaca dan aliran untuk mengosongkan sumber daya.
+Di sini, kita membaca seluruh konten aliran respons ke dalam variabel string yang disebut `responseFromServer`Jangan lupa untuk menutup pembaca dan aliran untuk mengosongkan sumber daya.
 
 ## Langkah 6: Ubah HTML ke PDF
 
@@ -109,7 +111,7 @@ options.ExternalResourcesCredentials = CredentialCache.DefaultCredentials;
 Document pdfDocument = new Document(stream, options);
 ```
 
-Pada langkah ini, kita membuat sebuah`MemoryStream` dari konten HTML dan pengaturan`HtmlLoadOptions`Hal ini memungkinkan kita menentukan URL dasar untuk sumber daya eksternal apa pun (seperti gambar atau style sheet) yang mungkin dirujuk oleh HTML.
+Pada langkah ini, kita membuat sebuah `MemoryStream` dari konten HTML dan pengaturan `HtmlLoadOptions`Hal ini memungkinkan kita menentukan URL dasar untuk sumber daya eksternal apa pun (seperti gambar atau style sheet) yang mungkin dirujuk oleh HTML.
 
 ## Langkah 7: Simpan Dokumen PDF
 
@@ -119,7 +121,7 @@ Terakhir, kita perlu menyimpan dokumen PDF yang dihasilkan ke direktori yang dit
 pdfDocument.Save(dataDir + "ProvideCredentialsDuringHTMLToPDF_out.pdf");
 ```
 
- Baris ini menyimpan file PDF dengan nama`ProvideCredentialsDuringHTMLToPDF_out.pdf` di direktori yang kita tentukan sebelumnya.
+Baris ini menyimpan file PDF dengan nama `ProvideCredentialsDuringHTMLToPDF_out.pdf` di direktori yang kita tentukan sebelumnya.
 
 ## Kesimpulan
 
@@ -131,7 +133,7 @@ Nah, itu dia! Anda telah berhasil mengonversi HTML ke PDF menggunakan Aspose.PDF
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF dalam aplikasi .NET.
 
 ### Bagaimana cara menginstal Aspose.PDF?
- Anda dapat menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
+Anda dapat menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
 Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka sebelum membeli.
@@ -140,10 +142,12 @@ Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengev
 Anda dapat membuat berbagai macam dokumen, termasuk laporan, faktur, dan formulir, menggunakan Aspose.PDF.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dukungan dan mengajukan pertanyaan di [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

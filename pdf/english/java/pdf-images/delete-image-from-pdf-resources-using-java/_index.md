@@ -8,7 +8,9 @@ url: /java/pdf-images/delete-image-from-pdf-resources-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete Image from PDF Resources using Java
@@ -130,6 +132,7 @@ Yes, Aspose.PDF for Java is a versatile library that can handle various PDF mani
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

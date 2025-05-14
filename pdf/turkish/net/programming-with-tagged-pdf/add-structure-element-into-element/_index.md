@@ -1,14 +1,16 @@
 ---
-title: Elemana Yapı Elemanı Ekle
-linktitle: Elemana Yapı Elemanı Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı adım adım eğitimde, Aspose.PDF for .NET kullanarak PDF'lere erişilebilirlik yapı öğelerinin nasıl ekleneceğini öğrenin.
-weight: 20
-url: /tr/net/programming-with-tagged-pdf/add-structure-element-into-element/
+"description": "Bu kapsamlı adım adım eğitimde, Aspose.PDF for .NET kullanarak PDF'lere erişilebilirlik yapı öğelerinin nasıl ekleneceğini öğrenin."
+"linktitle": "Elemana Yapı Elemanı Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Elemana Yapı Elemanı Ekle"
+"url": "/tr/net/programming-with-tagged-pdf/add-structure-element-into-element/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elemana Yapı Elemanı Ekle
@@ -21,10 +23,10 @@ Günümüzün dijital dünyasında erişilebilirlik anahtardır. Herkesin bilgiy
 
 PDF yapı öğelerinin dünyasına yolculuğumuza başlamadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Görsel Stüdyo: Bu, C# kodunuzu yazacağınız ve çalıştıracağınız IDE'nizdir. Buradan indirebilirsiniz[Visual Studio](https://visualstudio.microsoft.com/) Eğer henüz yapmadıysanız.
-2.  .NET için Aspose.PDF Kütüphanesi: PDF'leri düzenlemek için kütüphaneye ihtiyacınız olacak. En son sürümü şu adresten indirin:[Aspose web sitesi](https://releases.aspose.com/pdf/net/)Bu kütüphane projemiz için çok önemli.
+1. Visual Studio: Bu, C# kodunuzu yazacağınız ve çalıştıracağınız IDE'nizdir. Buradan indirebilirsiniz [Görsel Stüdyo](https://visualstudio.microsoft.com/) Eğer henüz yapmadıysanız.
+2. .NET için Aspose.PDF Kütüphanesi: PDF'leri düzenlemek için kütüphaneye ihtiyacınız olacak. En son sürümü şu adresten indirin: [Aspose web sitesi](https://releases.aspose.com/pdf/net/)Bu kütüphane projemiz için çok önemli.
 3. Temel C# Bilgisi: C# sözdizimi ve nesne yönelimli programlamaya aşinalık faydalı olacaktır. Birkaç satır C# yazabiliyorsanız, hazırsınız demektir!
-4. PDF Belge Dizini: Bu eğitim için giriş ve çıkış PDF dosyalarını saklayacağınız sisteminizde bir dizin oluşturun.
+4. PDF Belge Dizini: Bu eğitim için giriş ve çıkış PDF dosyalarını tutacağınız sisteminizde bir dizin oluşturun.
 
 Artık araçlarımızı ve bilgilerimizi hazırladığımıza göre, işe koyulmak için gerekli paketleri hazırlayalım!
 
@@ -49,7 +51,7 @@ Herhangi bir kodlama gerçekleşmeden önce, dosyalarımızı nereye kaydedeceğ
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızı saklamak istediğiniz gerçek yol ile. Bu, aşağıdaki gibi bir şey olabilir`C:\\PDFs\\`.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızı saklamak istediğiniz gerçek yol ile. Bu, aşağıdaki gibi bir şey olabilir `C:\\PDFs\\`.
 
 ## Adım 2: Yeni bir PDF Belgesi Oluşturun
 
@@ -59,7 +61,7 @@ Artık dizinimiz hazır olduğuna göre, yapı elemanlarımızı ekleyeceğimiz 
 Document document = new Document();
 ```
 
- Bu satır, yeni bir örneğini başlatır`Document` Sınıf, PDF içeriğimizle çalışmaya başlamamızı sağlıyor.
+Bu satır, yeni bir örneğini başlatır `Document` Sınıf, PDF içeriğimizle çalışmaya başlamamızı sağlıyor.
 
 ## Adım 3: Etiketli İçeriğe Erişim ve Kurulum
 
@@ -114,7 +116,7 @@ SpanElement span12 = taggedContent.CreateSpanElement();
 span12.SetText(" and Span_12.");
 ```
 
- The`span` öğeler, daha büyük paragrafımızın içindeki mini paragraflar gibidir. Metin biçimlendirmesi üzerinde daha ince kontrol sağlarlar.
+The `span` öğeler, daha büyük paragrafımızın içindeki mini paragraflar gibidir. Metin biçimlendirmesi üzerinde daha ince kontrol sağlarlar.
 
 ### Hepsini Birleştir
 
@@ -142,7 +144,7 @@ p2.SetText(" and ");
 p2.AppendChild(span22);
 ```
 
- Sadece yaratmaya devam et`ParagraphElement` kum`SpanElement` s, bunları ekleyerek`rootElement` yukarıda gösterildiği gibi aynı şekilde`p1`.
+Sadece yaratmaya devam et `ParagraphElement`kum `SpanElement`s, bunları ekleyerek `rootElement` yukarıda gösterildiği gibi aynı şekilde `p1`.
 
 ## Adım 5: Belgenizi Kaydedin
 
@@ -179,7 +181,7 @@ Bu, erişilebilirlik açısından önemli olan belgenizin PDF/UA standartlarına
 
 ## Çözüm
 
-İşte karşınızda! Aspose.PDF for .NET kullanarak bir PDF belgesine yapı öğelerinin nasıl ekleneceğini öğrendiniz. Bu adımları izleyerek, herhangi bir PDF'yi standartlara uyan erişilebilir bir biçime dönüştürebilir ve herkesin bilgiye eşit erişimden yararlanmasını sağlayabilirsiniz. 
+İşte bu kadar! Aspose.PDF for .NET kullanarak bir PDF belgesine yapı öğelerinin nasıl ekleneceğini öğrendiniz. Bu adımları izleyerek, herhangi bir PDF'yi standartlara uyan erişilebilir bir biçime dönüştürebilir ve herkesin bilgiye eşit erişimden yararlanmasını sağlayabilirsiniz. 
 
 ## SSS
 
@@ -190,16 +192,18 @@ Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde o
 Erişilebilirlik yönergelerine uyduğundan emin olmak için Aspose.PDF kütüphanesini kullanarak PDF'nizi PDF/UA standartlarına göre doğrulayabilirsiniz.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose ücretsiz deneme sürümü sunuyor ve bu sayede özelliklerini hiçbir maliyet olmadan keşfedebilirsiniz. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose ücretsiz deneme sürümü sunuyor ve bu sayede özelliklerini hiçbir maliyet olmadan keşfedebilirsiniz. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF'in dokümanlarını nerede bulabilirim?
-Aspose.PDF için kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Aspose.PDF için kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için lisans nasıl satın alabilirim?
- Lisansı doğrudan Aspose web sitesinden satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Lisansı doğrudan Aspose web sitesinden satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

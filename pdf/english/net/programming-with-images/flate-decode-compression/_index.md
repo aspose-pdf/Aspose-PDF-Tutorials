@@ -8,7 +8,9 @@ url: /net/programming-with-images/flate-decode-compression/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Flate Decode Compression
@@ -118,6 +120,7 @@ Aspose.PDF can handle various types of PDF documents, including text, images, an
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

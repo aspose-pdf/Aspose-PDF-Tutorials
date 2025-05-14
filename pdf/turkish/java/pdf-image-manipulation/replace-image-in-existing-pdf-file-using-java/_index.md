@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak mevcut PDF dosyasındaki görüntüyü değiştirme
-linktitle: Java kullanarak mevcut PDF dosyasındaki görüntüyü değiştirme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF for Java kullanarak PDF dosyalarındaki görselleri Java ile nasıl değiştireceğinizi öğrenin. Sorunsuz görsel değiştirme için kod örnekleriyle adım adım kılavuz.
-weight: 11
-url: /tr/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-java/
+"description": "Aspose.PDF for Java kullanarak PDF dosyalarındaki görselleri Java ile nasıl değiştireceğinizi öğrenin. Sorunsuz görsel değiştirme için kod örnekleriyle adım adım kılavuz."
+"linktitle": "Java kullanarak mevcut PDF dosyasındaki görüntüyü değiştirme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak mevcut PDF dosyasındaki görüntüyü değiştirme"
+"url": "/tr/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak mevcut PDF dosyasındaki görüntüyü değiştirme
@@ -24,7 +26,7 @@ Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Sisteminizde Java Development Kit (JDK) yüklü.
 - Tercih ettiğiniz Entegre Geliştirme Ortamı (IDE) (örneğin, Eclipse, IntelliJ IDEA).
--  Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Ortamın Kurulması
 
@@ -53,7 +55,7 @@ Başlamak için, değiştirmek istediğiniz bir görüntüye sahip mevcut bir PD
 Document pdfDocument = new Document("path/to/your/pdf/file.pdf");
 ```
 
- Yer değiştirmek`"path/to/your/pdf/file.pdf"` PDF dosyanızın gerçek yolunu belirtin.
+Yer değiştirmek `"path/to/your/pdf/file.pdf"` PDF dosyanızın gerçek yolunu belirtin.
 
 ## PDF'deki Bir Resmi Değiştirme
 
@@ -65,7 +67,7 @@ int pageNumber = 0;
 
 // Görüntünün değiştirileceği koordinatları belirtin
 float x = 100; // X koordinatı
-float y = 200; // koordinatı
+float y = 200; // Y koordinatı
 
 // Yeni görüntüye giden yolu belirtin
 String newImagePath = "path/to/your/new/image.png";
@@ -85,7 +87,7 @@ Resmi değiştirdikten sonra değiştirilmiş PDF belgesini kaydedebilirsiniz.
 pdfDocument.save("path/to/your/output/modified.pdf");
 ```
 
- Yer değiştirmek`"path/to/your/output/modified.pdf"` Değiştirilen PDF için istenilen yol ve dosya adı ile.
+Yer değiştirmek `"path/to/your/output/modified.pdf"` Değiştirilen PDF için istenilen yol ve dosya adı ile.
 
 ## Çözüm
 
@@ -95,7 +97,7 @@ Tebrikler! Java ve Aspose.PDF for Java kütüphanesini kullanarak mevcut bir PDF
 
 ### Aspose.PDF for Java kütüphanesini nasıl edinebilirim?
 
- Java kütüphanesi için Aspose.PDF'yi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/).
+Java kütüphanesi için Aspose.PDF'yi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/).
 
 ### Aspose.PDF kütüphanesini kullanmak ücretsiz mi?
 
@@ -111,10 +113,12 @@ Aspose.PDF for Java, JPEG, PNG, GIF ve daha fazlası dahil olmak üzere çok çe
 
 ### Destek veya daha fazla yardıma nasıl ulaşabilirim?
 
- Ek destek ve kaynaklar için Java için Aspose.PDF belgelerini şu adreste ziyaret edebilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Ek destek ve kaynaklar için Java için Aspose.PDF belgelerini şu adreste ziyaret edebilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

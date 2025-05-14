@@ -1,30 +1,32 @@
 ---
-title: Wyodrębnij tekst z adnotacji stempla w PDF za pomocą Java
-linktitle: Wyodrębnij tekst z adnotacji stempla w PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak wyodrębnić tekst z adnotacji Stamp w PDF przy użyciu Java z tego kompleksowego przewodnika. Użyj Aspose.PDF dla Java do wydajnego przetwarzania dokumentów PDF.
-weight: 14
-url: /pl/java/pdf-form-fields/extract-text-from-stamp-annotation-in-pdf-using-java/
+"description": "Dowiedz się, jak wyodrębnić tekst z adnotacji Stamp w PDF przy użyciu Java z tego kompleksowego przewodnika. Użyj Aspose.PDF dla Java do wydajnego przetwarzania dokumentów PDF."
+"linktitle": "Wyodrębnij tekst z adnotacji stempla w pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Wyodrębnij tekst z adnotacji stempla w pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-form-fields/extract-text-from-stamp-annotation-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyodrębnij tekst z adnotacji stempla w PDF za pomocą Java
+# Wyodrębnij tekst z adnotacji stempla w pliku PDF za pomocą Java
 
 
 ## Wprowadzenie do wyodrębniania tekstu z adnotacji stempla w formacie PDF przy użyciu języka Java
 
-dzisiejszej erze cyfrowej praca z dokumentami PDF stała się istotną częścią wielu aplikacji i przepływów pracy. Pliki PDF oferują standardowy format udostępniania i prezentowania dokumentów na różnych platformach. Jednak zdarzają się sytuacje, w których może być konieczne wyodrębnienie określonych informacji lub adnotacji z dokumentu PDF. W tym kompleksowym przewodniku przyjrzymy się sposobowi wyodrębniania tekstu z adnotacji Stamp w pliku PDF przy użyciu biblioteki Aspose.PDF for Java.
+W dzisiejszej erze cyfrowej praca z dokumentami PDF stała się istotną częścią wielu aplikacji i przepływów pracy. Pliki PDF oferują standardowy format udostępniania i prezentowania dokumentów na różnych platformach. Jednak zdarzają się sytuacje, w których może być konieczne wyodrębnienie określonych informacji lub adnotacji z dokumentu PDF. W tym kompleksowym przewodniku przyjrzymy się sposobowi wyodrębniania tekstu z adnotacji Stamp w pliku PDF przy użyciu biblioteki Aspose.PDF for Java.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do kodu i instrukcji krok po kroku, upewnij się, że spełnione są następujące wymagania wstępne:
 
--  Środowisko programistyczne Java: Upewnij się, że masz zainstalowaną Javę w swoim systemie. Możesz ją pobrać z[Tutaj](https://www.java.com/download/).
+- Środowisko programistyczne Java: Upewnij się, że masz zainstalowaną Javę w swoim systemie. Możesz ją pobrać z [Tutaj](https://www.java.com/download/).
 
--  Aspose.PDF dla Java: Będziesz potrzebować biblioteki Aspose.PDF dla Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla Java: Będziesz potrzebować biblioteki Aspose.PDF dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 - Zintegrowane środowisko programistyczne (IDE): Użyj wybranego przez siebie środowiska IDE; popularne opcje to Eclipse, IntelliJ IDEA lub Visual Studio Code.
 
@@ -90,11 +92,11 @@ for (StampAnnotation stampAnnotation : pdfDocument.getPages().get_Item(1).getAnn
 
 ## Wniosek
 
-W tym przewodniku sprawdziliśmy, jak wyodrębnić tekst z adnotacji Stamp w dokumencie PDF przy użyciu biblioteki Aspose.PDF for Java. Przy użyciu odpowiednich narzędzi i kilku linijek kodu możesz wydajnie wyodrębnić cenne informacje z plików PDF, usprawniając przepływy pracy przetwarzania dokumentów.
+W tym przewodniku przyjrzeliśmy się sposobowi wyodrębniania tekstu z adnotacji Stamp w dokumencie PDF przy użyciu biblioteki Aspose.PDF for Java. Przy użyciu odpowiednich narzędzi i kilku linijek kodu możesz wydajnie wyodrębniać cenne informacje z plików PDF, usprawniając przepływy pracy przetwarzania dokumentów.
 
 ## Najczęściej zadawane pytania
 
-### W jaki sposób mogę wyodrębnić obrazy z adnotacji do stempli w pliku PDF, korzystając z języka Java?
+### jaki sposób mogę wyodrębnić obrazy z adnotacji do stempli w pliku PDF, korzystając z języka Java?
 
 Aby wyodrębnić obrazy z adnotacji Stamp, możesz użyć funkcji ekstrakcji obrazów biblioteki Aspose.PDF for Java. Po prostu przejrzyj adnotacje Stamp, sprawdź, czy zawierają obrazy i odpowiednio je wyodrębnij.
 
@@ -112,10 +114,12 @@ Aspose.PDF for Java jest przeznaczony do obsługi dokumentów PDF o różnych ro
 
 ### Jak mogę uzyskać dostęp do dodatkowych zasobów i dokumentacji dla Aspose.PDF dla Java?
 
- Aby uzyskać pełną dokumentację i dodatkowe zasoby, odwiedź dokument Aspose.PDF dotyczący języka Java pod adresem[Tutaj](https://reference.aspose.com/pdf/java/).
+Aby uzyskać pełną dokumentację i dodatkowe zasoby, odwiedź dokument Aspose.PDF dotyczący języka Java pod adresem [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

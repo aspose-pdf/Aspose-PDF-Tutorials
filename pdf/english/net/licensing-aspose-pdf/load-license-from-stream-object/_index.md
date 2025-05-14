@@ -8,7 +8,9 @@ url: /net/licensing-aspose-pdf/load-license-from-stream-object/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Load License From Stream Object
@@ -130,6 +132,7 @@ You can usually tell if the license was applied successfully by looking for the 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

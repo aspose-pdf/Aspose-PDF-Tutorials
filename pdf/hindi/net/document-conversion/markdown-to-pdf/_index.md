@@ -1,14 +1,16 @@
 ---
-title: मार्कडाउन टू पीडीएफ
-linktitle: मार्कडाउन टू पीडीएफ
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके Markdown को PDF में कैसे परिवर्तित किया जाए। दस्तावेज़ रूपांतरण को सरल बनाने की चाह रखने वाले डेवलपर्स के लिए यह बिल्कुल सही है।
-weight: 60
-url: /hi/net/document-conversion/markdown-to-pdf/
+"description": "इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके Markdown को PDF में कैसे परिवर्तित किया जाए। दस्तावेज़ रूपांतरण को सरल बनाने की चाह रखने वाले डेवलपर्स के लिए यह बिल्कुल सही है।"
+"linktitle": "मार्कडाउन टू पीडीएफ"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "मार्कडाउन टू पीडीएफ"
+"url": "/hi/net/document-conversion/markdown-to-pdf/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # मार्कडाउन टू पीडीएफ
@@ -23,12 +25,12 @@ url: /hi/net/document-conversion/markdown-to-pdf/
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यह वह IDE है जिसका उपयोग हम इस ट्यूटोरियल के लिए करेंगे।
 2. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास .NET फ्रेमवर्क स्थापित है। Aspose.PDF विभिन्न संस्करणों का समर्थन करता है, इसलिए संगतता की जाँच करें।
-3.  .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+3. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 4. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
 
 ## पैकेज आयात करें
 
-एक बार जब आप सब कुछ सेट कर लें, तो अगला कदम आवश्यक पैकेज आयात करना है। आप इसे इस प्रकार कर सकते हैं:
+एक बार जब आप सब कुछ सेट कर लें, तो अगला कदम आवश्यक पैकेज आयात करना है। आप इसे इस तरह कर सकते हैं:
 
 ```csharp
 using System;
@@ -37,7 +39,7 @@ using System.Linq;
 using System.Text;
 ```
 
-अब जबकि हमारे पास पैकेज तैयार हैं, तो आइए मार्कडाउन फ़ाइल को पीडीएफ में परिवर्तित करने की प्रक्रिया को चरण दर चरण समझते हैं।
+अब जब हमारे पास पैकेज तैयार हैं, तो आइए मार्कडाउन फ़ाइल को पीडीएफ में परिवर्तित करने की प्रक्रिया को चरण दर चरण समझें।
 
 ## चरण 1: अपनी दस्तावेज़ निर्देशिका सेट करें
 
@@ -48,7 +50,7 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`YOUR DOCUMENT DIRECTORY`वास्तविक पथ के साथ जहाँ आपकी मार्कडाउन फ़ाइल स्थित है। यह कुछ इस तरह हो सकता है`C:\\Documents\\MarkdownFiles\\`.
+प्रतिस्थापित करें `YOUR DOCUMENT DIRECTORY` वास्तविक पथ के साथ जहाँ आपकी मार्कडाउन फ़ाइल स्थित है। यह कुछ इस तरह हो सकता है `C:\\Documents\\MarkdownFiles\\`.
 
 ## चरण 2: मार्कडाउन दस्तावेज़ खोलें
 
@@ -59,7 +61,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "sample.md", new MdLoadOptions());
 ```
 
- इस पंक्ति में, हम एक नया निर्माण कर रहे हैं`Document` ऑब्जेक्ट और हमारी मार्कडाउन फ़ाइल लोड करना (`sample.md` ) द`MdLoadOptions()` इसका उपयोग यह निर्दिष्ट करने के लिए किया जाता है कि हम मार्कडाउन फ़ाइल लोड कर रहे हैं।
+इस पंक्ति में, हम एक नया निर्माण कर रहे हैं `Document` ऑब्जेक्ट और हमारी मार्कडाउन फ़ाइल लोड करना (`sample.md`) द `MdLoadOptions()` इसका उपयोग यह निर्दिष्ट करने के लिए किया जाता है कि हम मार्कडाउन फ़ाइल लोड कर रहे हैं।
 
 ## चरण 3: दस्तावेज़ को PDF के रूप में सहेजें
 
@@ -70,7 +72,7 @@ Document doc = new Document(dataDir + "sample.md", new MdLoadOptions());
 doc.Save(dataDir + "MarkdownToPDF.pdf");
 ```
 
- यहाँ, हम बुला रहे हैं`Save` हमारी विधि`Document` ऑब्जेक्ट और उस पीडीएफ फाइल का नाम निर्दिष्ट करना जिसे हम बनाना चाहते हैं। इस मामले में, यह है`MarkdownToPDF.pdf`.
+यहाँ, हम बुला रहे हैं `Save` हमारी विधि `Document` ऑब्जेक्ट और उस पीडीएफ फाइल का नाम निर्दिष्ट करना जिसे हम बनाना चाहते हैं। इस मामले में, यह है `MarkdownToPDF.pdf`.
 
 ## निष्कर्ष
 
@@ -85,17 +87,19 @@ doc.Save(dataDir + "MarkdownToPDF.pdf");
 हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसका उपयोग आप खरीदने से पहले लाइब्रेरी का परीक्षण करने के लिए कर सकते हैं।
 
 ### मैं Aspose.PDF के लिए दस्तावेज़ कहां पा सकता हूं?
- आप दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/net/).
+आप दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/net/).
 
 ### क्या Aspose.PDF के लिए समर्थन उपलब्ध है?
- हां, आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/pdf/10).
+हां, आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/pdf/10).
 
 ### मैं Aspose.PDF के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
- आप अस्थायी लाइसेंस का अनुरोध कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस का अनुरोध कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

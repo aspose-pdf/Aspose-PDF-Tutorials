@@ -8,7 +8,9 @@ url: /net/programming-with-headings/apply-number-style/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Number Style In PDF File
@@ -179,6 +181,7 @@ You can obtain a temporary license from [here](https://purchase.aspose.com/tempo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

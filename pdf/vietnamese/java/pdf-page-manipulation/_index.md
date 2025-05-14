@@ -1,14 +1,16 @@
 ---
-title: Thao tác trang PDF
-linktitle: Thao tác trang PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Khám phá Thao tác trang PDF với Aspose.PDF cho Java. Học cách sắp xếp lại, trích xuất và cải thiện các trang PDF một cách dễ dàng.
-weight: 16
-url: /vi/java/pdf-page-manipulation/
+"description": "Khám phá Thao tác trang PDF với Aspose.PDF cho Java. Học cách sắp xếp lại, trích xuất và cải thiện các trang PDF một cách dễ dàng."
+"linktitle": "Thao tác trang PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thao tác trang PDF"
+"url": "/vi/java/pdf-page-manipulation/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thao tác trang PDF
@@ -20,14 +22,14 @@ Trong lĩnh vực thao tác tài liệu PDF, khả năng kiểm soát và tối 
 
 Sắp xếp lại các trang một cách hiệu quả trong một tài liệu PDF là một yêu cầu phổ biến. Aspose.PDF for Java đơn giản hóa nhiệm vụ này. Trong hướng dẫn của chúng tôi, bạn sẽ học cách sắp xếp lại các trang, di chuyển chúng giữa các tài liệu và thậm chí sao chép chúng nếu cần. Cho dù bạn đang sắp xếp lại một báo cáo dài hay biên soạn một tài liệu tùy chỉnh, việc thành thạo sắp xếp lại trang bằng Aspose.PDF sẽ giúp bạn tiết kiệm thời gian và công sức.
 
-## Trích xuất và nâng cao trang
+## Trích xuất và cải thiện trang
 
 Đôi khi, bạn cần trích xuất các trang cụ thể từ PDF hoặc cải thiện chúng bằng nội dung bổ sung. Aspose.PDF for Java cung cấp cho bạn các công cụ để hoàn thành các tác vụ này một cách dễ dàng. Các hướng dẫn của chúng tôi sẽ hướng dẫn bạn cách trích xuất các trang để tạo tài liệu mới hoặc thêm hình mờ, tiêu đề và chân trang để cải thiện nội dung trang. Với các kỹ năng này, bạn có thể tùy chỉnh tài liệu PDF của mình để đáp ứng các yêu cầu cụ thể, đảm bảo chúng truyền tải thông tin một cách hiệu quả và chuyên nghiệp.
 
 Mở khóa tiềm năng thao tác trang PDF trong Java với Aspose.PDF. Cho dù bạn là nhà phát triển đang tìm cách tự động hóa quá trình xử lý tài liệu hay người dùng muốn hợp lý hóa quy trình làm việc PDF của mình, hướng dẫn của chúng tôi cung cấp kiến thức và mã nguồn bạn cần để trở nên thành thạo trong thao tác trang PDF.
 
 ## Hướng dẫn thao tác trang PDF
-### [Nhận đích đến của siêu liên kết PDF bằng Java](./get-pdf-hyperlink-destination-using-java/)
+### [Nhận Điểm đến Siêu liên kết PDF bằng Java](./get-pdf-hyperlink-destination-using-java/)
 Khám phá cách lấy các đích đến siêu liên kết PDF bằng Java với Aspose.PDF cho Java. Tìm hiểu từng bước với các ví dụ mã trong hướng dẫn toàn diện này.
 ### [Xóa hành động mở tài liệu khỏi tệp PDF bằng Java](./remove-document-open-action-from-pdf-file-using-java/)
 Tìm hiểu cách xóa Document Open Action khỏi tệp PDF bằng Java và Aspose.PDF cho Java. Tăng cường bảo mật và tùy chỉnh.
@@ -45,9 +47,11 @@ Tìm hiểu cách thao tác nội dung HTML trong Java bằng DOM (Mô hình đ�
 Tìm hiểu cách thêm chuỗi HTML vào tài liệu PDF bằng thư viện Aspose.PDF cho Java. Hướng dẫn từng bước này sẽ chỉ cho bạn quy trình với các ví dụ về mã nguồn.
 ### [Thêm văn bản xoay trong PDF bằng Java](./add-rotated-text-in-pdf-using-java/)
 Tìm hiểu cách chèn văn bản xoay vào tài liệu PDF bằng Java. Thực hiện theo hướng dẫn từng bước chi tiết này với các ví dụ mã để cải thiện PDF của bạn bằng văn bản xoay.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

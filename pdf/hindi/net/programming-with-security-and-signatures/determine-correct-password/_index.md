@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ फाइल में सही पासवर्ड निर्धारित करें
-linktitle: पीडीएफ फाइल में सही पासवर्ड निर्धारित करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: .NET के लिए Aspose.PDF का उपयोग करके सही पासवर्ड के साथ PDF फ़ाइलें अनलॉक करें। आसानी से सही पासवर्ड की पहचान करना सीखें।
-weight: 30
-url: /hi/net/programming-with-security-and-signatures/determine-correct-password/
+"description": ".NET के लिए Aspose.PDF का उपयोग करके सही पासवर्ड से PDF फ़ाइलें अनलॉक करें। आसानी से सही पासवर्ड की पहचान करना सीखें।"
+"linktitle": "पीडीएफ फाइल में सही पासवर्ड निर्धारित करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ फाइल में सही पासवर्ड निर्धारित करें"
+"url": "/hi/net/programming-with-security-and-signatures/determine-correct-password/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ फाइल में सही पासवर्ड निर्धारित करें
@@ -24,7 +26,7 @@ url: /hi/net/programming-with-security-and-signatures/determine-correct-password
 ### सॉफ्टवेयर और उपकरण
 
 1. .NET फ्रेमवर्क या .NET कोर: सुनिश्चित करें कि आपके विकास वातावरण में .NET फ्रेमवर्क या .NET कोर स्थापित है।
-2.  .NET के लिए Aspose.PDF: आपको अपने प्रोजेक्ट में Aspose.PDF लाइब्रेरी उपलब्ध करानी होगी। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपको अपने प्रोजेक्ट में Aspose.PDF लाइब्रेरी उपलब्ध करानी होगी। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
    
 ### विकास पर्यावरण
 
@@ -33,7 +35,7 @@ url: /hi/net/programming-with-security-and-signatures/determine-correct-password
 
 ### एपीआई और लाइसेंस
 
--  यदि आप Aspose.PDF की पूर्ण कार्यक्षमता का उपयोग करने की योजना बना रहे हैं, तो प्राप्त करने पर विचार करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या एक[स्थायी लाइसेंस](https://purchase.aspose.com/buy).
+- यदि आप Aspose.PDF की पूर्ण कार्यक्षमता का उपयोग करने की योजना बना रहे हैं, तो प्राप्त करने पर विचार करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या एक [स्थायी लाइसेंस](https://purchase.aspose.com/buy).
   
 सब कुछ सेट अप करने के बाद, आप पासवर्ड-संरक्षित पीडीएफ के रहस्यों को जानने के लिए तैयार हैं!
 
@@ -60,13 +62,13 @@ using System;
 Install-Package Aspose.PDF
 ```
 
-यह कमांड आपके प्रोजेक्ट में Aspose.PDF को लाता है और स्थापित करता है, जिससे आप सफलता प्राप्त कर सकते हैं।
+यह कमांड आपके प्रोजेक्ट में Aspose.PDF को लाता है और स्थापित करता है, जिससे आप सफलता के लिए तैयार हो जाते हैं।
 
 अब, आइए PDF फ़ाइल के लिए सही पासवर्ड की पहचान करने में शामिल मुख्य चरणों को समझें। स्पष्टता के लिए हम एक नमूना कार्यान्वयन चरण-दर-चरण के माध्यम से चलेंगे।
 
 ## चरण 1: फ़ाइल पथ सेट करें
 
- किसी भी अन्य चीज़ से पहले, आपको उस PDF फ़ाइल का पथ निर्दिष्ट करना होगा जिस पर आप काम कर रहे हैं।`"YOUR DOCUMENTS DIRECTORY"` वास्तविक पथ के साथ जहां आपकी पीडीएफ फाइल स्थित है।
+किसी भी अन्य चीज़ से पहले, आपको उस PDF फ़ाइल का पथ निर्दिष्ट करना होगा जिस पर आप काम कर रहे हैं। `"YOUR DOCUMENTS DIRECTORY"` वास्तविक पथ के साथ जहां आपकी पीडीएफ फाइल स्थित है।
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -74,14 +76,14 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## चरण 2: स्रोत पीडीएफ फ़ाइल लोड करें
 
- अगला, उपयोग करें`PdfFileInfo` अपनी स्रोत पीडीएफ फाइल लोड करने के लिए:
+अगला, उपयोग करें `PdfFileInfo` अपनी स्रोत पीडीएफ फाइल लोड करने के लिए:
 
 ```csharp
 PdfFileInfo info = new PdfFileInfo();
 info.BindPdf(dataDir + "IsPasswordProtected.pdf");
 ```
 
- यह चरण पीडीएफ फाइल को बांधता है`info` ऑब्जेक्ट, हमें इसकी विशेषताओं तक पहुंचने की अनुमति देता है।
+यह चरण पीडीएफ फाइल को बांधता है `info` ऑब्जेक्ट, हमें इसकी विशेषताओं तक पहुंचने की अनुमति देता है।
 
 ## चरण 3: जाँचें कि क्या PDF एन्क्रिप्टेड है
 
@@ -91,7 +93,7 @@ info.BindPdf(dataDir + "IsPasswordProtected.pdf");
 Console.WriteLine("File is password protected " + info.IsEncrypted);
 ```
 
- जाँच करके`IsEncrypted` प्रॉपर्टी, आप दस्तावेज़ की लॉक स्थिति का पता लगा सकते हैं। अगर यह है`true`, तो आपको कोड को क्रैक करना होगा!
+जाँच करके `IsEncrypted` प्रॉपर्टी, आप दस्तावेज़ की लॉक स्थिति का पता लगा सकते हैं। अगर यह है `true`, तो आपको कोड को क्रैक करना होगा!
 
 ## चरण 4: संभावित पासवर्डों की सूची तैयार करें
 
@@ -133,7 +135,7 @@ for (int passwordcount = 0; passwordcount < passwords.Length; passwordcount++)
 .NET के लिए Aspose.PDF एक लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PDF दस्तावेज़ बनाने, हेरफेर करने और प्रबंधित करने की अनुमति देती है।
 
 ### क्या मैं Aspose.PDF को निःशुल्क आज़मा सकता हूँ?
- हां, आप Aspose.PDF का निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com).
+हां, आप Aspose.PDF का निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com).
 
 ### यदि मैं अपना पीडीएफ पासवर्ड भूल गया तो मुझे क्या करना चाहिए?
 यदि आपके पास कई संभावित पासवर्ड हैं, तो आप इसे अनलॉक करने के लिए ऊपर वर्णित विधि का उपयोग कर सकते हैं। हालाँकि, सुनिश्चित करें कि आप कानूनी दिशा-निर्देशों का पालन करते हैं।
@@ -142,10 +144,12 @@ for (int passwordcount = 0; passwordcount < passwords.Length; passwordcount++)
 पीडीएफ को अनलॉक करना तभी वैध है जब आपके पास कंटेंट तक पहुंचने का अधिकार हो। किसी भी सुरक्षा को बायपास करने का प्रयास करने से पहले हमेशा सुनिश्चित करें कि आपके पास अनुमति है।
 
 ### मुझे Aspose.PDF के लिए समर्थन कहां मिल सकता है?
-प्रश्नों और सहायता के लिए, आप यहां जा सकते हैं[Aspose समर्थन मंच](https://forum.aspose.com/c/pdf/10).
+प्रश्नों और सहायता के लिए, आप यहां जा सकते हैं [Aspose समर्थन मंच](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

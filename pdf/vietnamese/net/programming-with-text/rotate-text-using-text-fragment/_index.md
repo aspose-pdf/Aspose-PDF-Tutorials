@@ -1,14 +1,16 @@
 ---
-title: Xoay văn bản bằng cách sử dụng đoạn văn bản trong tệp PDF
-linktitle: Xoay văn bản bằng cách sử dụng đoạn văn bản trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xoay văn bản trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước. Khám phá các kỹ thuật thao tác văn bản, từ định vị đến xoay.
-weight: 390
-url: /vi/net/programming-with-text/rotate-text-using-text-fragment/
+"description": "Tìm hiểu cách xoay văn bản trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước. Khám phá các kỹ thuật thao tác văn bản, từ định vị đến xoay."
+"linktitle": "Xoay văn bản bằng cách sử dụng đoạn văn bản trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xoay văn bản bằng cách sử dụng đoạn văn bản trong tệp PDF"
+"url": "/vi/net/programming-with-text/rotate-text-using-text-fragment/"
+"weight": 390
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xoay văn bản bằng cách sử dụng đoạn văn bản trong tệp PDF
@@ -56,7 +58,7 @@ Bây giờ, chúng ta hãy phân tích từng bước trong mã ví dụ để b
 
 Mọi thao tác PDF đều bắt đầu bằng việc tạo hoặc tải một tài liệu PDF. Ở đây, chúng ta sẽ khởi tạo một tài liệu PDF mới từ đầu bằng Aspose.PDF.
 
- Chúng tôi đang tạo ra một cái mới`Document` đối tượng đại diện cho tệp PDF. Ban đầu, tài liệu này trống.
+Chúng tôi đang tạo ra một cái mới `Document` đối tượng đại diện cho tệp PDF. Ban đầu, tài liệu này trống rỗng.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -160,22 +162,24 @@ Xoay văn bản trong PDF có thể thêm nét chuyên nghiệp cho tài liệu 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể xoay các đoạn văn bản ở bất kỳ góc độ nào không?
- Vâng! Bạn có thể thiết lập`TextState.Rotation` thuộc tính ở bất kỳ mức độ nào (kể cả góc âm) để xoay văn bản khi cần.
+Vâng! Bạn có thể thiết lập `TextState.Rotation` thuộc tính ở bất kỳ mức độ nào (kể cả góc âm) để xoay văn bản khi cần.
 
 ### Tôi có thể sử dụng phông chữ khác nhau cho mỗi đoạn văn bản không?
- Chắc chắn rồi. Bạn có thể tùy chỉnh phông chữ của từng đoạn văn bản bằng cách sử dụng`FontRepository.FindFont` và nhập phông chữ bạn muốn áp dụng.
+Chắc chắn rồi. Bạn có thể tùy chỉnh phông chữ của từng đoạn văn bản bằng cách sử dụng `FontRepository.FindFont` và nhập phông chữ bạn muốn áp dụng.
 
 ### Aspose.PDF có hỗ trợ tệp PDF nhiều trang không?
 Có, bạn có thể thêm nhiều trang vào tài liệu PDF và thao tác từng trang độc lập.
 
 ### Có giới hạn số lượng đoạn văn bản tôi có thể thêm không?
-Không, bạn có thể thêm bao nhiêu đoạn văn bản tùy ý. Chỉ cần đảm bảo chúng được đặt đúng vị trí trên trang.
+Không, bạn có thể thêm bao nhiêu đoạn văn bản tùy ý. Chỉ cần đảm bảo chúng được định vị đúng trên trang.
 
 ### Tôi có thể chỉnh sửa các đoạn văn bản sau khi thêm chúng vào không?
 Có, sau khi thêm một đoạn văn bản, bạn vẫn có thể cập nhật thuộc tính của đoạn văn bản đó hoặc xóa nó khỏi trang.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

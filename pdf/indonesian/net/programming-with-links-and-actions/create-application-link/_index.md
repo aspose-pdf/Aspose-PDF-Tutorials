@@ -1,14 +1,16 @@
 ---
-title: Buat Tautan Aplikasi Dalam File PDF
-linktitle: Buat Tautan Aplikasi Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat tautan aplikasi dalam file PDF menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah untuk meningkatkan interaktivitas dalam PDF Anda.
-weight: 20
-url: /id/net/programming-with-links-and-actions/create-application-link/
+"description": "Pelajari cara membuat tautan aplikasi dalam file PDF menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah untuk meningkatkan interaktivitas dalam PDF Anda."
+"linktitle": "Buat Tautan Aplikasi Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat Tautan Aplikasi Dalam File PDF"
+"url": "/id/net/programming-with-links-and-actions/create-application-link/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat Tautan Aplikasi Dalam File PDF
@@ -62,7 +64,7 @@ Pertama-tama, kita perlu menentukan direktori tempat dokumen PDF kita disimpan. 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder yang berisi dokumen PDF Anda. Variabel ini akan bertindak sebagai jalur dasar untuk manipulasi PDF kita.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder yang berisi dokumen PDF Anda. Variabel ini akan bertindak sebagai jalur dasar untuk manipulasi PDF kita.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -72,7 +74,7 @@ Berikutnya, kita perlu membuka berkas PDF di mana kita ingin membuat tautan apli
 Document document = new Document(dataDir + "CreateApplicationLink.pdf");
 ```
 
- Kami menggunakan`Document` kelas dari Aspose.PDF untuk memuat berkas PDF kita. Contoh ini akan memungkinkan kita untuk mengedit dan memanipulasi PDF.
+Kami menggunakan `Document` kelas dari Aspose.PDF untuk memuat berkas PDF kita. Contoh ini akan memungkinkan kita untuk mengedit dan memanipulasi PDF.
 
 ## Langkah 3: Buat Anotasi Tautan
 
@@ -83,8 +85,8 @@ Page page = document.Pages[1];
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
--  Di Sini,`page` menunjukkan halaman mana Anda akan menerapkan tautan (dalam kasus ini, halaman pertama).
--  Itu`LinkAnnotation`kelas membuat tautan baru pada halaman yang ditentukan, yang didefinisikan oleh area persegi panjang yang dimulai pada (100,100) dan berakhir pada (300,300). Persegi panjang ini menentukan area yang dapat diklik dari tautan dalam PDF.
+- Di Sini, `page` menunjukkan halaman mana Anda akan menerapkan tautan (dalam kasus ini, halaman pertama).
+- Itu `LinkAnnotation` kelas membuat tautan baru pada halaman yang ditentukan, yang didefinisikan oleh area persegi panjang yang dimulai pada (100,100) dan berakhir pada (300,300). Persegi panjang ini menentukan area yang dapat diklik dari tautan dalam PDF.
 
 ## Langkah 4: Mengatur Warna Tautan
 
@@ -94,7 +96,7 @@ Setelah membuat tautan, waktunya menyesuaikan tampilannya.
 link.Color = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green);
 ```
 
-Anda dapat mengubah warna anotasi tautan. Dalam kasus ini, kami akan menyetelnya ke warna hijau yang sering digunakan untuk menandakan tautan yang dapat diklik.
+Anda dapat mengubah warna anotasi tautan. Dalam kasus ini, kami menyetelnya ke warna hijau yang sering digunakan untuk menandakan tautan yang dapat diklik.
 
 ## Langkah 5: Tentukan Tindakan Tautan
 
@@ -104,7 +106,7 @@ Sekarang saatnya membuat anotasi berfungsi dengan mengatur tindakannya. Tindakan
 link.Action = new LaunchAction(document, dataDir + "CreateApplicationLink.pdf");
 ```
 
- Dengan`LaunchAction`, kami tentukan apa yang dilakukan tautan saat diklik. Di sini, kami telah menetapkannya untuk membuka berkas PDF yang sama. Anda dapat dengan mudah mengubahnya untuk menautkan ke aplikasi atau dokumen lain sesuai kebutuhan.
+Dengan `LaunchAction`, kami tentukan apa yang dilakukan tautan saat diklik. Di sini, kami telah menetapkannya untuk membuka berkas PDF yang sama. Anda dapat dengan mudah mengubahnya untuk menautkan ke aplikasi atau dokumen lain sesuai kebutuhan.
 
 ## Langkah 6: Tambahkan Anotasi ke Halaman
 
@@ -139,7 +141,7 @@ Ini hanya akan mencetak pesan sukses ke konsol, yang menunjukkan tempat penyimpa
 
 ## Kesimpulan
 
-Hanya dalam beberapa langkah sederhana, Anda telah mempelajari cara membuat tautan aplikasi dalam file PDF menggunakan Aspose.PDF for .NET. Alat canggih ini memungkinkan Anda untuk menyempurnakan dokumen PDF, membuatnya lebih interaktif dan menarik bagi pengguna Anda. Dengan tautan, Anda dapat secara efektif memandu audiens Anda ke informasi atau aplikasi yang berharga, memastikan pengalaman yang lebih terintegrasi.
+Hanya dalam beberapa langkah sederhana, Anda telah mempelajari cara membuat tautan aplikasi dalam file PDF menggunakan Aspose.PDF untuk .NET. Alat canggih ini memungkinkan Anda untuk menyempurnakan dokumen PDF, membuatnya lebih interaktif dan menarik bagi pengguna Anda. Dengan tautan, Anda dapat secara efektif memandu audiens Anda ke informasi atau aplikasi yang berharga, memastikan pengalaman yang lebih terintegrasi.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -147,19 +149,21 @@ Hanya dalam beberapa langkah sederhana, Anda telah mempelajari cara membuat taut
 Aspose.PDF untuk .NET adalah pustaka yang hebat untuk membuat dan memanipulasi file PDF dalam aplikasi yang dikembangkan dengan kerangka kerja .NET.
 
 ### Bagaimana cara mengunduh Aspose.PDF?  
- Anda dapat mengunduh Aspose.PDF untuk .NET dengan mengunjungi[tautan ini](https://releases.aspose.com/pdf/net/).
+Anda dapat mengunduh Aspose.PDF untuk .NET dengan mengunjungi [tautan ini](https://releases.aspose.com/pdf/net/).
 
 ### Apakah ada pilihan untuk uji coba Aspose gratis?  
- Ya, Anda dapat mengakses uji coba gratis Aspose.PDF[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengakses uji coba gratis Aspose.PDF [Di Sini](https://releases.aspose.com/).
 
 ### Bisakah saya mendapatkan dukungan untuk menggunakan Aspose.PDF?  
- Tentu saja! Untuk pertanyaan terkait dukungan, kunjungi[Forum Dukungan Aspose PDF](https://forum.aspose.com/c/pdf/10).
+Tentu saja! Untuk pertanyaan terkait dukungan, kunjungi [Forum Dukungan Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose?  
- Anda dapat memperoleh lisensi sementara dari[halaman ini](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara dari [halaman ini](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

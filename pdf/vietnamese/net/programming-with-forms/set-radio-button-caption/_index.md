@@ -1,14 +1,16 @@
 ---
-title: Đặt tiêu đề nút radio
-linktitle: Đặt tiêu đề nút radio
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách đặt tiêu đề nút radio trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này hướng dẫn bạn cách tải, sửa đổi và lưu biểu mẫu PDF của mình.
-weight: 280
-url: /vi/net/programming-with-forms/set-radio-button-caption/
+"description": "Tìm hiểu cách đặt tiêu đề nút radio trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này hướng dẫn bạn cách tải, sửa đổi và lưu biểu mẫu PDF của mình."
+"linktitle": "Đặt tiêu đề nút radio"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đặt tiêu đề nút radio"
+"url": "/vi/net/programming-with-forms/set-radio-button-caption/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt tiêu đề nút radio
@@ -26,7 +28,7 @@ Trước khi tìm hiểu về mã, bạn cần đảm bảo một số điều s
 3. Mẫu biểu mẫu PDF: Đối với hướng dẫn này, bạn sẽ cần một biểu mẫu PDF mẫu có nút radio. Bạn có thể sử dụng bất kỳ biểu mẫu PDF hiện có nào hoặc tạo biểu mẫu mới có nút radio.
 4. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về các khái niệm lập trình C# và .NET.
 
- Nếu bạn chưa cài đặt Aspose.PDF cho .NET hoặc bạn cần giấy phép tạm thời, bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/) hoặc[xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Nếu bạn chưa cài đặt Aspose.PDF cho .NET hoặc bạn cần giấy phép tạm thời, bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/) hoặc [xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -43,7 +45,7 @@ Hãy đảm bảo rằng bạn đã thêm các gói này vào dự án của mì
 
 ## Bước 1: Tải biểu mẫu PDF
 
- Đầu tiên, bạn cần tải biểu mẫu PDF có chứa các nút radio.`Aspose.Pdf.Facades.Form`lớp được sử dụng cho mục đích này. Đây là cách bạn thực hiện:
+Đầu tiên, bạn cần tải biểu mẫu PDF có chứa các nút radio. `Aspose.Pdf.Facades.Form` lớp được sử dụng cho mục đích này. Đây là cách bạn thực hiện:
 
 ```csharp
 // Xác định đường dẫn đến thư mục tài liệu của bạn
@@ -76,7 +78,7 @@ Trong vòng lặp này:
 
 ## Bước 3: Sửa đổi tùy chọn nút radio
 
- Sau khi bạn đã xác định được các trường nút radio, bạn có thể sửa đổi các tùy chọn của chúng. Đối với điều này, bạn cần phải chuyển trường thành`RadioButtonField` và cập nhật các tùy chọn của nó:
+Sau khi bạn đã xác định được các trường nút radio, bạn có thể sửa đổi các tùy chọn của chúng. Đối với điều này, bạn cần phải chuyển trường thành `RadioButtonField` và cập nhật các tùy chọn của nó:
 
 ```csharp
     if (item.Contains("radio1"))
@@ -89,11 +91,11 @@ Trong vòng lặp này:
 
 Đây:
 - Chúng tôi kiểm tra xem tên trường có chứa "radio1" hay không để xác định trường nút radio cụ thể mà chúng tôi muốn sửa đổi.
-- `RadioButtonField`được đúc từ các trường biểu mẫu để thực hiện các sửa đổi cụ thể.
+- `RadioButtonField` được đúc từ các trường biểu mẫu để thực hiện các sửa đổi cụ thể.
 
 ## Bước 4: Đặt tiêu đề cho nút radio
 
- Để thiết lập hoặc cập nhật chú thích cho nút radio, bạn sẽ cần tạo một`TextFragment` và sử dụng`TextBuilder` để đặt nó vào vị trí mong muốn:
+Để thiết lập hoặc cập nhật chú thích cho nút radio, bạn sẽ cần tạo một `TextFragment` và sử dụng `TextBuilder` để đặt nó vào vị trí mong muốn:
 
 ```csharp
         var updatedFragment = new Aspose.Pdf.Text.TextFragment("test123");
@@ -144,7 +146,7 @@ Sửa đổi tiêu đề nút radio trong biểu mẫu PDF bằng Aspose.PDF cho
 Có, bạn có thể lặp lại tất cả các trường nút radio và áp dụng các thay đổi khi cần.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF không?
- Bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng cần phải có giấy phép để sử dụng lâu dài.[Nhận giấy phép ở đây](https://purchase.aspose.com/buy).
+Bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng cần phải có giấy phép để sử dụng lâu dài. [Nhận giấy phép ở đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể kiểm tra những thay đổi như thế nào trước khi lưu tệp PDF?
 Bạn có thể xem trước tệp PDF trong môi trường phát triển của mình hoặc sử dụng trình xem PDF để kiểm tra các sửa đổi.
@@ -154,9 +156,11 @@ Aspose.PDF hỗ trợ nhiều phiên bản .NET. Đảm bảo bạn kiểm tra k
 
 ### Tôi có thể thao tác các trường biểu mẫu khác theo cách tương tự không?
 Có, các kỹ thuật tương tự có thể được áp dụng cho các loại trường biểu mẫu khác trong tài liệu PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

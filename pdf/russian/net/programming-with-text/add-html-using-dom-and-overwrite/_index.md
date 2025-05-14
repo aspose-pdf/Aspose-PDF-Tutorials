@@ -1,14 +1,16 @@
 ---
-title: Добавить HTML с помощью DOM и перезаписать PDF
-linktitle: Добавить HTML с помощью DOM и перезаписать
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как добавлять HTML-контент в PDF с помощью Aspose.PDF для .NET. Это пошаговое руководство охватывает все, от настройки до окончательного сохранения.
-weight: 50
-url: /ru/net/programming-with-text/add-html-using-dom-and-overwrite/
+"description": "Узнайте, как добавлять HTML-контент в PDF с помощью Aspose.PDF для .NET. Это пошаговое руководство охватывает все, от настройки до окончательного сохранения."
+"linktitle": "Добавить HTML с помощью DOM и перезаписать"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Добавить HTML с помощью DOM и перезаписать PDF"
+"url": "/ru/net/programming-with-text/add-html-using-dom-and-overwrite/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить HTML с помощью DOM и перезаписать PDF
@@ -21,8 +23,8 @@ url: /ru/net/programming-with-text/add-html-using-dom-and-overwrite/
 
 Прежде чем мы отправимся в это приключение, вам нужно убедиться, что у вас все настроено правильно для использования Aspose.PDF для .NET. Вот что вам нужно:
 
--  Visual Studio: Убедитесь, что у вас установлена версия Visual Studio. Если нет, вы можете получить копию[здесь](https://visualstudio.microsoft.com/).
--  Aspose.PDF для .NET Library: Вам нужно будет загрузить и сослаться на библиотеку в вашем проекте. Вы можете найти последнюю версию[здесь](https://releases.aspose.com/pdf/net/).
+- Visual Studio: Убедитесь, что у вас установлена версия Visual Studio. Если нет, вы можете получить копию [здесь](https://visualstudio.microsoft.com/).
+- Aspose.PDF для .NET Library: Вам нужно будет загрузить и сослаться на библиотеку в вашем проекте. Вы можете найти последнюю версию [здесь](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Убедитесь, что ваш проект основан на совместимой версии .NET Framework. Проверьте документацию Aspose для получения последних сведений о совместимости.
 - Базовые знания C#: для легкого понимания материала вы должны хорошо знать основные концепции программирования на C#.
 
@@ -51,18 +53,18 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Просто поменяй местами`YOUR DOCUMENT DIRECTORY` с реальным путем на вашем компьютере. Это поможет вам все организовать.
+Просто поменяй местами `YOUR DOCUMENT DIRECTORY` с реальным путем на вашем компьютере. Это поможет вам все организовать.
 
 ## Шаг 2: Создание объекта документа
 
- Далее нам нужно создать экземпляр`Document`класс. Думайте об этом как об открытии чистого холста, на котором мы создадим наш PDF-шедевр.
+Далее нам нужно создать экземпляр `Document` класс. Думайте об этом как об открытии чистого холста, на котором мы создадим наш PDF-шедевр.
 
 ```csharp
 // Создать экземпляр объекта Document
 Document doc = new Document();
 ```
 
-Эта команда инициализирует новый PDF-документ, подготавливая его к нашему контенту.
+Эта команда инициализирует новый PDF-документ, подготавливая его для нашего контента.
 
 ## Шаг 3: Добавьте страницу в документ
 
@@ -73,7 +75,7 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
-Здесь мы просто сообщаем PDF-документу о необходимости добавить новую страницу, на которую впоследствии будет помещено наше HTML-содержимое.
+Здесь мы просто говорим PDF-документу добавить новую страницу, на которую мы впоследствии поместим наш HTML-контент.
 
 ## Шаг 4: Создайте HTML-фрагмент
 
@@ -84,14 +86,14 @@ Page page = doc.Pages.Add();
 HtmlFragment title = new HtmlFragment("<p style='font-family: Verdana'><b><i>Table contains text</i></b></p>");
 ```
 
- Эта линия устанавливает`HtmlFragment` – небольшой аккуратный пакет, содержащий наш HTML, включая стили для font-family. 
+Эта линия устанавливает `HtmlFragment` – небольшой аккуратный пакет, содержащий наш HTML, включая стили для font-family. 
 
 ## Шаг 5: Настройка атрибутов текста
 
 Что такое текст без правильной эстетики, верно? Давайте установим стиль и размер шрифта, чтобы наш заголовок выделялся в PDF.
 
 ```csharp
-//Семейство шрифтов «Verdana» будет сброшено на «Arial»
+// Семейство шрифтов «Verdana» будет сброшено на «Arial»
 title.TextState = new TextState("Arial");
 title.TextState.FontSize = 20;
 ```
@@ -133,7 +135,7 @@ dataDir = dataDir + "AddHTMLUsingDOMAndOverwrite_out.pdf";
 doc.Save(dataDir);
 ```
 
-Добавляя имя выходного файла к`dataDir`, мы готовы сохранить документ. Теперь у вас есть PDF-файл с добавленным HTML-контентом!
+Добавляя имя выходного файла к `dataDir`, мы готовы сохранить документ. Теперь у вас есть файл PDF с добавленным содержимым HTML!
 
 ## Заключение
 
@@ -148,16 +150,18 @@ Aspose.PDF для .NET — мощная библиотека для создан
 Да, Aspose.PDF позволяет легко вставлять изображения вместе с текстом и HTML-контентом.
 
 ### Существует ли бесплатная пробная версия Aspose.PDF?
- Конечно! Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com).
+Конечно! Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com).
 
 ### Поддерживает ли Aspose.PDF разные языки программирования?
-Да, у Aspose есть SDK для .NET, Java, C++и многое другое!
+Да, у Aspose есть SDK для .NET, Java, C++ и других платформ!
 
 ### Где я могу найти поддержку по Aspose.PDF?
- Вы можете посетить форум поддержки Aspose[здесь](https://forum.aspose.com/c/pdf/10).
+Вы можете посетить форум поддержки Aspose [здесь](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Đặt liên kết đích trong tệp PDF
-linktitle: Đặt liên kết đích trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thiết lập liên kết đích trong tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để tăng cường tính tương tác của PDF.
-weight: 90
-url: /vi/net/programming-with-links-and-actions/set-destination-link/
+"description": "Tìm hiểu cách thiết lập liên kết đích trong tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để tăng cường tính tương tác của PDF."
+"linktitle": "Đặt liên kết đích trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đặt liên kết đích trong tệp PDF"
+"url": "/vi/net/programming-with-links-and-actions/set-destination-link/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt liên kết đích trong tệp PDF
@@ -22,7 +24,7 @@ Trong thế giới tài liệu kỹ thuật số phát triển nhanh, khả năn
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Thư viện Aspose.PDF cho .NET:
-    Bạn sẽ cần tải xuống và cài đặt gói Aspose.PDF cho .NET. Bạn có thể tìm thấy các tệp cài đặt[đây](https://releases.aspose.com/pdf/net/).
+   Bạn sẽ cần tải xuống và cài đặt gói Aspose.PDF cho .NET. Bạn có thể tìm thấy các tệp cài đặt [đây](https://releases.aspose.com/pdf/net/).
 
 2. Môi trường phát triển:
    Bạn nên cài đặt Visual Studio hoặc bất kỳ IDE nào tương thích với .NET trên máy tính của mình.
@@ -34,7 +36,7 @@ Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
    Bắt đầu một dự án C# mới trong IDE ưa thích của bạn. Thiết lập này sẽ là nơi diễn ra thao tác PDF của bạn.
 
 5. Một mẫu PDF:
-    Để trình diễn, bạn sẽ cần một tệp PDF mẫu (ví dụ:`UpdateLinks.pdf`) nơi chúng ta sẽ áp dụng sửa đổi liên kết.
+   Để trình diễn, bạn sẽ cần một tệp PDF mẫu (ví dụ: `UpdateLinks.pdf`) nơi chúng ta sẽ áp dụng sửa đổi liên kết.
 
 ## Nhập gói
 
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "UpdateLinks.pdf");
 ```
 
- Ở đây, thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế đến tệp PDF của bạn trong hệ thống tệp của bạn. Mã này khởi tạo một`Document` đối tượng chứa tệp PDF đã tải.
+Ở đây, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp PDF của bạn trong hệ thống tệp của bạn. Mã này khởi tạo một `Document` đối tượng chứa tệp PDF đã tải.
 
 ## Bước 2: Truy cập vào chú thích liên kết
 
@@ -84,7 +86,7 @@ Bây giờ đến phần thú vị! Bạn có thể sửa đổi hành động c
 linkAnnot.Action = new GoToURIAction("www.aspose.com");
 ```
 
- Dòng này thiết lập hành động của`linkAnnot`đến một hành động URI mới, về cơ bản là thay đổi nơi liên kết sẽ chuyển hướng người dùng khi nhấp vào.
+Dòng này thiết lập hành động của `linkAnnot` đến một hành động URI mới, về cơ bản là thay đổi nơi liên kết sẽ chuyển hướng người dùng khi nhấp vào.
 
 ## Bước 4: Lưu tài liệu
 
@@ -128,13 +130,15 @@ Có, bạn có thể thêm nhiều liên kết bằng cách truy cập các chú
 Aspose.PDF cung cấp phiên bản dùng thử miễn phí. Để sử dụng toàn diện, có thể mua giấy phép.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF ở đâu?
- Bạn có thể tìm thấy tài liệu mở rộng hơn[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu mở rộng hơn [đây](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10) để được trợ giúp và giải đáp thắc mắc.
+Bạn có thể truy cập [diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10) để được trợ giúp và giải đáp thắc mắc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thiết lập Thuộc tính cho Hộp thoại In
-linktitle: Thiết lập Thuộc tính cho Hộp thoại In
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Mở khóa tiềm năng tạo PDF với Aspose.PDF cho .NET. Hướng dẫn này giúp bạn thiết lập thuộc tính in dễ dàng.
-weight: 320
-url: /vi/net/programming-with-document/setpropertiesforprintdialog/
+"description": "Mở khóa tiềm năng tạo PDF với Aspose.PDF cho .NET. Hướng dẫn này giúp bạn thiết lập thuộc tính in dễ dàng."
+"linktitle": "Thiết lập Thuộc tính cho Hộp thoại In"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thiết lập Thuộc tính cho Hộp thoại In"
+"url": "/vi/net/programming-with-document/setpropertiesforprintdialog/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập Thuộc tính cho Hộp thoại In
@@ -22,7 +24,7 @@ Bạn có muốn khai thác sức mạnh của việc tạo PDF trong các ứng
 Trước khi đi sâu vào hướng dẫn, chúng ta hãy cùng tìm hiểu những gì bạn cần chuẩn bị:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Đừng lo lắng; nó rất đơn giản! Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Đừng lo lắng; nó rất đơn giản! Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ hữu ích. Nếu bạn mới làm quen, đừng lo lắng! Chúng ta sẽ cùng nhau tìm hiểu những điều cơ bản. 
 
 Khi đã thiết lập xong các điều kiện tiên quyết này, bạn đã sẵn sàng bắt đầu tạo tệp PDF!
@@ -64,7 +66,7 @@ Trước khi thực hiện bất kỳ thao tác nào với tài liệu PDF, bạ
 ```csharp
 var dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi bạn muốn lưu trữ tệp đầu ra. Điều này giúp giữ cho các tệp của bạn được sắp xếp và dễ tìm sau này.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi bạn muốn lưu trữ tệp đầu ra. Điều này giúp giữ cho các tệp của bạn được sắp xếp và dễ tìm sau này.
 
 ## Bước 2: Tạo một phiên bản tài liệu
 
@@ -74,7 +76,7 @@ Tiếp theo, bạn sẽ tạo một phiên bản của Tài liệu PDF. Đối t
 using (Document doc = new Document())
 ```
 
- Sử dụng một`using` tuyên bố ở đây đảm bảo rằng`Document` đối tượng sẽ được loại bỏ đúng cách sau khi chúng ta thực hiện xong, ngăn ngừa rò rỉ bộ nhớ tiềm ẩn.
+Sử dụng một `using` tuyên bố ở đây đảm bảo rằng `Document` đối tượng sẽ được loại bỏ đúng cách sau khi chúng ta thực hiện xong, ngăn ngừa rò rỉ bộ nhớ tiềm ẩn.
 
 ## Bước 3: Thêm Trang vào Tài liệu
 
@@ -113,10 +115,10 @@ Và bạn đã có nó rồi—thiết lập thuộc tính cho hộp thoại in 
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Aspose.PDF có miễn phí sử dụng không?
- Bạn có thể bắt đầu với bản dùng thử miễn phí[đây](https://releases.aspose.com/), nhưng cần phải có giấy phép để có đầy đủ tính năng sau đó.
+Bạn có thể bắt đầu với bản dùng thử miễn phí [đây](https://releases.aspose.com/), nhưng cần phải có giấy phép để có đầy đủ tính năng sau đó.
 
 ### Tôi có thể xây dựng những loại ứng dụng nào bằng Aspose.PDF?
 Bạn có thể tạo bất kỳ ứng dụng nào yêu cầu tạo hoặc chỉnh sửa PDF, chẳng hạn như hệ thống lập hóa đơn, giải pháp quản lý tài liệu, v.v.
@@ -124,11 +126,13 @@ Bạn có thể tạo bất kỳ ứng dụng nào yêu cầu tạo hoặc chỉ
 ### In hai mặt là gì?
 In hai mặt là in trên cả hai mặt của một trang giấy, có thể tiết kiệm giấy và cải thiện hình thức của tài liệu.
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể truy cập hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

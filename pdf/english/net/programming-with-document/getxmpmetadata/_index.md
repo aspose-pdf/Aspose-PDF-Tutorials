@@ -8,7 +8,9 @@ url: /net/programming-with-document/getxmpmetadata/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get XMP Metadata
@@ -157,6 +159,7 @@ Yes, Aspose.PDF for .NET supports batch processing, allowing you to handle multi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

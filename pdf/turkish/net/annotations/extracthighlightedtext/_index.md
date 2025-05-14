@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Vurgulanan Metni Çıkar
-linktitle: PDF Dosyasındaki Vurgulanan Metni Çıkar
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu eğitimle Aspose.PDF for .NET kullanarak bir PDF dosyasından vurgulanan metni etkili bir şekilde nasıl çıkaracağınızı öğrenin. Veri analizi ve içerik incelemesi için mükemmeldir.
-weight: 60
-url: /tr/net/annotations/extracthighlightedtext/
+"description": "Bu eğitimle Aspose.PDF for .NET kullanarak bir PDF dosyasından vurgulanan metni etkili bir şekilde nasıl çıkaracağınızı öğrenin. Veri analizi ve içerik incelemesi için mükemmeldir."
+"linktitle": "PDF Dosyasındaki Vurgulanan Metni Çıkar"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Vurgulanan Metni Çıkar"
+"url": "/tr/net/annotations/extracthighlightedtext/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Vurgulanan Metni Çıkar
@@ -21,10 +23,10 @@ PDF dosyalarıyla çalışırken, vurgulanan metni çıkarmak, ister veri analiz
 
 Koda dalmadan önce, yerinde olması gereken birkaç şey var:
 
--  .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Değilse, şuradan indirebilirsiniz:[yayın sayfası](https://releases.aspose.com/pdf/net/).
+- .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Değilse, şuradan indirebilirsiniz: [yayın sayfası](https://releases.aspose.com/pdf/net/).
 - Geliştirme Ortamı: Visual Studio gibi çalışan bir geliştirme ortamı kurmuş olmanız gerekir.
 - Temel C# Bilgisi: C# programlama dili ve nesne yönelimli programlamaya aşinalık şarttır.
--  Geçerli Bir Aspose Lisansı: Ücretsiz bir denemeyle başlayabilmenize rağmen, bir Aspose Lisansı edinmeyi düşünün.[geçici lisans](https://purchase.aspose.com/temporary-license/) veya bir tane satın almak[Burada](https://purchase.aspose.com/buy) sınırsız kullanım için.
+- Geçerli Bir Aspose Lisansı: Ücretsiz bir denemeyle başlayabilmenize rağmen, bir Aspose Lisansı edinmeyi düşünün. [geçici lisans](https://purchase.aspose.com/temporary-license/) veya bir tane satın almak [Burada](https://purchase.aspose.com/buy) sınırsız kullanım için.
 
 ## Paketleri İçe Aktar
 
@@ -49,17 +51,17 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"`PDF dosyasının bulunduğu dizinin gerçek yolu ile. Bu dizin, uygulamanın işleme için PDF'yi getireceği yerdir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyasının bulunduğu dizinin gerçek yolu ile. Bu dizin, uygulamanın işleme için PDF'yi getireceği yerdir.
 
 ## Adım 2: PDF Belgesini Yükleyin
 
- Sonra, vurgulanan metni çıkarmak istediğiniz PDF belgesini yüklemeniz gerekir. Bu, şu şekilde yapılır:`Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
+Sonra, vurgulanan metni çıkarmak istediğiniz PDF belgesini yüklemeniz gerekir. Bu, şu şekilde yapılır: `Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
 
 ```csharp
 Document doc = new Document(dataDir + "ExtractHighlightedText.pdf");
 ```
 
- The`Document` sınıf, PDF dosyasının yoluyla örneklendirilir. Burada,`"ExtractHighlightedText.pdf"` vurgulanan metni içeren PDF dosyasının adıdır. Bu dosyanın belirtilen dizinde bulunduğundan emin olun.
+The `Document` sınıf, PDF dosyasının yolu ile örneklendirilir. Burada, `"ExtractHighlightedText.pdf"` vurgulanan metni içeren PDF dosyasının adıdır. Bu dosyanın belirtilen dizinde bulunduğundan emin olun.
 
 ## Adım 3: Açıklamalar Koleksiyonuna Erişim
 
@@ -70,7 +72,7 @@ foreach (Annotation annotation in doc.Pages[1].Annotations)
 {
 ```
 
- The`Annotations` mülkiyeti`Page` nesne, PDF'in belirli bir sayfasındaki tüm açıklamalara erişim sağlar. Burada, ilk sayfadaki her açıklama arasında döngü oluşturuyoruz.
+The `Annotations` mülkiyeti `Page` nesne, PDF'in belirli bir sayfasındaki tüm açıklamalara erişim sağlar. Burada, ilk sayfadaki her açıklama arasında döngü oluşturuyoruz.
 
 ## Adım 4: Vurgulanan Metin Açıklamaları için Filtre
 
@@ -82,7 +84,7 @@ if (annotation is TextMarkupAnnotation)
     TextMarkupAnnotation highlightedAnnotation = annotation as TextMarkupAnnotation;
 ```
 
- The`TextMarkupAnnotation` sınıf, vurgulamalar da dahil olmak üzere metin işaretleme açıklamalarını temsil etmek için kullanılır.`is` anahtar kelime, açıklamanın türünde olup olmadığını kontrol eder`TextMarkupAnnotation` ve eğer öyleyse, açıklamayı şu şekilde yayınlar:`TextMarkupAnnotation`.
+The `TextMarkupAnnotation` sınıf, vurgulamalar da dahil olmak üzere metin işaretleme açıklamalarını temsil etmek için kullanılır. `is` anahtar kelime, açıklamanın türünde olup olmadığını kontrol eder `TextMarkupAnnotation`ve eğer öyleyse, açıklamayı şu şekilde yayınlar: `TextMarkupAnnotation`.
 
 ## Adım 5: Vurgulanan Metni Çıkarın
 
@@ -96,7 +98,7 @@ foreach (TextFragment tf in collection)
 }
 ```
 
- The`GetMarkedTextFragments()` yöntem bir koleksiyon döndürür`TextFragment` nesneler, her biri vurgulanan metnin bir bölümünü temsil eder. Bu koleksiyonda döngü yaparız ve her parçanın metnini konsola yazdırırız.
+The `GetMarkedTextFragments()` yöntem bir koleksiyon döndürür `TextFragment` nesneler, her biri vurgulanan metnin bir bölümünü temsil eder. Bu koleksiyonda döngü yaparız ve her parçanın metnini konsola yazdırırız.
 
 ## Çözüm
 
@@ -105,22 +107,24 @@ Aspose.PDF for .NET kullanarak bir PDF'den vurgulanan metni çıkarmak, özellik
 ## SSS
 
 ### Bu yöntemi kullanarak başka türde açıklamalar çıkarabilir miyim?  
- Evet, diğer türdeki açıklamaları değiştirerek çıkarabilirsiniz.`if` farklı açıklama türlerini kontrol etmek için koşul, örneğin`TextAnnotation`, `StampAnnotation`, vesaire.
+Evet, diğer türdeki açıklamaları değiştirerek çıkarabilirsiniz. `if` farklı açıklama türlerini kontrol etmek için koşul, örneğin `TextAnnotation`, `StampAnnotation`, vesaire.
 
 ### PDF'in tüm sayfalarından vurgulanan metni çıkarmak mümkün müdür?  
 Kesinlikle! PDF belgesinin her sayfasında dolaşabilir ve her sayfadan vurgulanan metni toplamak için aynı çıkarma mantığını uygulayabilirsiniz.
 
 ### Aspose.PDF for .NET'i kullanmak için lisansa ihtiyacım var mı?  
- Ücretsiz denemeyle başlayabilmenize rağmen, bir tane edinmeniz önerilir[geçici lisans](https://purchase.aspose.com/temporary-license/)veya tüm özelliklere sınırsız erişim için tam lisans satın alın.
+Ücretsiz denemeyle başlayabilmenize rağmen, bir tane edinmeniz önerilir [geçici lisans](https://purchase.aspose.com/temporary-license/) veya tüm özelliklere sınırsız erişim için tam lisans satın alın.
 
 ### Çıkarılan metni konsola yazdırmak yerine bir dosyaya kaydedebilir miyim?  
 Evet, çıkarılan metni bir metin dosyasına veya istediğiniz başka bir biçime kaydetmek için kodu kolayca değiştirebilirsiniz.
 
 ### Aspose.PDF .NET dışında başka platformları da destekliyor mu?  
 Evet, Aspose.PDF Java ve diğer platformları da destekler ve farklı ortamlarda benzer işlevler sunar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

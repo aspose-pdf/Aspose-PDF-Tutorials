@@ -1,14 +1,16 @@
 ---
-title: Użyj skryptu Latex w pliku PDF
-linktitle: Użyj skryptu Latex w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak używać skryptu Latex do dodawania wyrażeń matematycznych lub wzorów w dokumencie PDF za pomocą Aspose.PDF dla platformy .NET.
-weight: 550
-url: /pl/net/programming-with-text/use-latex-script/
+"description": "Dowiedz się, jak używać skryptu Latex do dodawania wyrażeń matematycznych lub wzorów w dokumencie PDF za pomocą Aspose.PDF dla platformy .NET."
+"linktitle": "Użyj skryptu Latex w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Użyj skryptu Latex w pliku PDF"
+"url": "/pl/net/programming-with-text/use-latex-script/"
+"weight": 550
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Użyj skryptu Latex w pliku PDF
@@ -21,10 +23,10 @@ Praca z plikami PDF nigdy nie była bardziej ekscytująca, zwłaszcza gdy wiąż
 
 Zanim przejdziemy do właściwej części kodowania, upewnijmy się, że wszystko jest na swoim miejscu. Nikt nie chce być w połowie projektu, tylko po to, aby zdać sobie sprawę, że brakuje mu niezbędnego narzędzia. Oto, czego potrzebujesz:
 
-1.  Aspose.PDF dla .NET zainstalowany – Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/). 
+1. Aspose.PDF dla .NET zainstalowany – Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/). 
 2. Podstawowa znajomość języka C#.
 3. Visual Studio lub inne zgodne środowisko IDE.
-4.  Aktywna licencja Aspose (nie masz jej? Możesz ją uzyskać[bezpłatna wersja próbna tutaj](https://releases.aspose.com/) lub[tymczasowa licencja tutaj](https://purchase.aspose.com/temporary-license/)).
+4. Aktywna licencja Aspose (nie masz jej? Możesz ją uzyskać [bezpłatna wersja próbna tutaj](https://releases.aspose.com/) lub [tymczasowa licencja tutaj](https://purchase.aspose.com/temporary-license/)).
 5. .NET Framework (wersja zgodna z Aspose.PDF dla .NET).
 
 Gdy już spełnisz te wymagania wstępne, możemy przejść do konkretów.
@@ -52,13 +54,13 @@ Zdefiniuj ścieżkę do katalogu, w którym będziesz przechowywać pliki PDF. T
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, pod którą chcesz zapisać plik PDF.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` ze ścieżką, pod którą chcesz zapisać plik PDF.
 
 ## Krok 2: Utwórz nowy obiekt dokumentu
 
 Dobrze, teraz, gdy mamy już skonfigurowany katalog, przejdźmy do sedna akcji, tworząc nowy dokument. Pomyśl o tym jak o rozpoczęciu od świeżego płótna przed namalowaniem arcydzieła.
 
- Użyj`Document` klasę z Aspose.PDF, aby utworzyć zupełnie nowy dokument PDF.
+Użyj `Document` klasę z Aspose.PDF w celu utworzenia zupełnie nowego dokumentu PDF.
 
 ```csharp
 Document doc = new Document();
@@ -70,7 +72,7 @@ Dzięki temu mamy teraz pusty plik PDF, do którego możemy zacząć dodawać el
 
 Czym jest PDF bez żadnych stron? To jak pisanie w notesie bez papieru! Tutaj dodamy stronę do dokumentu, aby wszystko ruszyło.
 
- Użyj`Pages.Add()` metoda dodania nowej, pustej strony do dokumentu.
+Użyj `Pages.Add()` metoda dodania nowej, pustej strony do dokumentu.
 
 ```csharp
 Page page = doc.Pages.Add();
@@ -82,7 +84,7 @@ Teraz nasz dokument PDF jest gotowy, aby dodać do niego treść!
 
 Tabele są idealne, jeśli chodzi o uporządkowanie treści, a w tym przykładzie użyjemy jednej z nich, aby osadzić nasz skrypt LaTeX. Pomyśl o tym jak o tworzeniu siatki lub struktury, w której rzeczy będą wygodnie ułożone.
 
- Utwórz tabelę za pomocą`Table` klasę, a następnie dodaj ją do dokumentu.
+Utwórz tabelę za pomocą `Table` klasę, a następnie dodaj ją do dokumentu.
 
 ```csharp
 Table table = new Table();
@@ -127,13 +129,13 @@ TeXFragment ltext1 = new TeXFragment(latexText1, true);
 cell.Paragraphs.Add(ltext1);
 ```
 
- Ten`TeXFragment` jest gwiazdą pokazu. Bierze skrypt LaTeX i konwertuje go na coś wizualnie rozpoznawalnego w pliku PDF.
+Ten `TeXFragment` jest gwiazdą pokazu. Bierze skrypt LaTeX i konwertuje go na coś wizualnie rozpoznawalnego w pliku PDF.
 
 ## Krok 8: Dodaj tabelę do strony
 
 Teraz, gdy mamy już tabelę zawierającą skrypt LaTeX, czas dodać tabelę do strony, którą utworzyliśmy wcześniej.
 
- Użyj`Paragraphs.Add()` metoda dodania tabeli do strony.
+Użyj `Paragraphs.Add()` metoda dodania tabeli do strony.
 
 ```csharp
 page.Paragraphs.Add(table);
@@ -145,7 +147,7 @@ To umieszcza naszą tabelę, która zawiera skrypt LaTeX, na stronie dokumentu. 
 
 Jaki jest sens robienia tego wszystkiego, jeśli nie zapiszesz swojej pracy? W tym ostatnim kroku zapiszemy plik PDF ze skryptem LaTeX osadzonym w środku.
 
- Użyj`Save()` metodę zapisywania dokumentu w ścieżce określonej w kroku 1.
+Użyj `Save()` metodę zapisywania dokumentu w ścieżce określonej w kroku 1.
 
 ```csharp
 doc.Save(dataDir + "LatexScriptInPdf_out.pdf");
@@ -169,13 +171,15 @@ Oczywiście! Możesz dodać tyle skryptów LaTeX, ile potrzebujesz, powtarzając
 Aspose.PDF dla platformy .NET obsługuje szeroki zakres wyrażeń LaTeX — od prostych równań do bardziej złożonych całek i sumowań.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF na platformie .NET?
- Tak, aby w pełni z niego korzystać, potrzebujesz aktywnej licencji. Możesz jednak wypróbować go za darmo z[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+Tak, aby w pełni z niego korzystać, potrzebujesz aktywnej licencji. Możesz jednak wypróbować go za darmo z [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 ### Czy mogę edytować skrypty LaTeX po dodaniu ich do pliku PDF?
 Po dodaniu skryptu LaTeX i zapisaniu go w pliku PDF należy zmodyfikować kod źródłowy i ponownie wygenerować dokument, aby wprowadzić zmiany.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDFA ถึง PDF
-linktitle: PDFA ถึง PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีแปลง PDF/A เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-weight: 100
-url: /th/net/document-conversion/pdfa-to-pdf/
+"description": "เรียนรู้วิธีแปลง PDF/A เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "PDFA ถึง PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "PDFA ถึง PDF"
+"url": "/th/net/document-conversion/pdfa-to-pdf/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDFA ถึง PDF
@@ -22,7 +24,7 @@ url: /th/net/document-conversion/pdfa-to-pdf/
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณจะต้องมี:
 
 1. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ไว้ในเครื่องของคุณแล้ว Aspose.PDF ทำงานร่วมกับแอปพลิเคชัน .NET ได้อย่างราบรื่น
-2. ไลบรารี Aspose.PDF: คุณจะต้องดาวน์โหลดไลบรารี Aspose.PDF คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. ไลบรารี Aspose.PDF: คุณจะต้องดาวน์โหลดไลบรารี Aspose.PDF คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 4. IDE: สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Visual Studio จะทำให้การเขียนโค้ดง่ายขึ้น
 
@@ -50,7 +52,7 @@ using Aspose.Pdf;
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
-ขั้นแรก คุณต้องระบุเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ นี่คือตำแหน่งที่ไฟล์ PDF/A ของคุณอยู่ และตำแหน่งที่จะบันทึกไฟล์ PDF ที่แปลงแล้ว
+ขั้นแรก คุณต้องระบุเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ นี่คือตำแหน่งที่ไฟล์ PDF/A ของคุณอยู่ และตำแหน่งที่จะบันทึก PDF ที่แปลงแล้ว
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -59,7 +61,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF/A
 
-ต่อไปเราจะเปิดเอกสาร PDF/A ที่ต้องการแปลง ซึ่งทำได้โดยใช้`Document` คลาสที่จัดทำโดย Aspose.PDF
+ต่อไปเราจะเปิดเอกสาร PDF/A ที่ต้องการแปลง ซึ่งทำได้โดยใช้ `Document` คลาสที่จัดทำโดย Aspose.PDF
 
 ```csharp
 // เปิดเอกสาร
@@ -80,13 +82,13 @@ doc.RemovePdfaCompliance();
 สุดท้ายเราจะบันทึกเอกสารที่อัปเดต ซึ่งจะสร้างไฟล์ PDF ใหม่โดยไม่รองรับ PDF/A
 
 ```csharp
-// บันทึกเอกสารอัพเดต
+// บันทึกเอกสารอัพเดต 
 doc.Save(dataDir + "PDFAToPDF_out.pdf");
 ```
 
 ## บทสรุป
 
-และแล้วคุณก็จะได้มัน! คุณได้แปลงเอกสาร PDF/A เป็น PDF มาตรฐานสำเร็จแล้วโดยใช้ Aspose.PDF สำหรับ .NET ไลบรารีอันทรงพลังนี้ทำให้การจัดการไฟล์ PDF เป็นเรื่องง่าย และด้วยโค้ดเพียงไม่กี่บรรทัด คุณก็จะได้รับผลลัพธ์ที่ยอดเยี่ยม โปรดจำไว้ว่าการฝึกฝนทำให้เก่ง ดังนั้นอย่าลังเลที่จะทดลองใช้ฟีเจอร์อื่นๆ ของ Aspose.PDF!
+และแล้วคุณก็ทำได้! คุณได้แปลงเอกสาร PDF/A เป็น PDF มาตรฐานสำเร็จแล้วโดยใช้ Aspose.PDF สำหรับ .NET ไลบรารีอันทรงพลังนี้ทำให้การจัดการไฟล์ PDF เป็นเรื่องง่าย และด้วยโค้ดเพียงไม่กี่บรรทัด คุณก็จะได้รับผลลัพธ์ที่ยอดเยี่ยม โปรดจำไว้ว่าการฝึกฝนทำให้เก่ง ดังนั้นอย่าลังเลที่จะทดลองใช้ฟีเจอร์อื่นๆ ของ Aspose.PDF!
 
 ## คำถามที่พบบ่อย
 
@@ -94,19 +96,21 @@ doc.Save(dataDir + "PDFAToPDF_out.pdf");
 PDF/A คือเวอร์ชัน PDF ที่ได้มาตรฐาน ISO ซึ่งได้รับการออกแบบมาเพื่อการเก็บรักษาเอกสารอิเล็กทรอนิกส์ในรูปแบบดิจิทัลโดยเฉพาะ
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
-ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ที่ Aspose.PDF[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ที่ Aspose.PDF [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### หากฉันประสบปัญหาจะทำอย่างไร?
- คุณสามารถขอความช่วยเหลือจากชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/pdf/10).
+คุณสามารถขอความช่วยเหลือจากชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวได้อย่างไร?
- คุณสามารถสมัครขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถสมัครขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

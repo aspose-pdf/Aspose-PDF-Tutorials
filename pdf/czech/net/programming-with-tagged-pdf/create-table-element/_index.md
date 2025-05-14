@@ -1,34 +1,36 @@
 ---
-title: Vytvořit prvek tabulky
-linktitle: Vytvořit prvek tabulky
-second_title: Aspose.PDF pro .NET API Reference
-description: Krok za krokem průvodce vytvořením prvku pole pomocí Aspose.PDF pro .NET. Snadno generujte dynamické soubory PDF s tabulkami.
-weight: 80
-url: /cs/net/programming-with-tagged-pdf/create-table-element/
+"description": "Podrobný návod k vytvoření prvku pole s Aspose.PDF pro .NET. Snadné generování dynamických PDF s tabulkami."
+"linktitle": "Vytvořit prvek tabulky"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Vytvořit prvek tabulky"
+"url": "/cs/net/programming-with-tagged-pdf/create-table-element/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vytvořit prvek tabulky
 
 ## Zavedení
 
-Přemýšleli jste někdy o tom, jak můžete bez námahy vytvářet a přizpůsobovat prvky tabulky v PDF pomocí .NET? Aspose.PDF pro .NET je vaším oblíbeným řešením! Ať už automatizujete generování sestav nebo dynamicky vytváříte tabulky pro různé dokumenty, Aspose.PDF poskytuje bohaté API pro práci s prvky tabulky. Tato příručka vás provede krok za krokem, jak vytvořit tabulku, upravit její styl a dokonce zajistit, aby splňovala standardy PDF/UA. Zní to vzrušující, že? Pojďme se do toho ponořit!
+Přemýšleli jste někdy, jak snadno vytvářet a upravovat prvky tabulky v PDF pomocí .NET? Aspose.PDF pro .NET je pro vás to pravé řešení! Ať už automatizujete generování sestav nebo dynamicky vytváříte tabulky pro různé dokumenty, Aspose.PDF poskytuje bohaté API pro práci s prvky tabulky. Tato příručka vás krok za krokem provede vytvořením tabulky, jejím stylizací a dokonce zajištěním, aby splňovala standardy PDF/UA. Zní to zajímavě, že? Pojďme se do toho rovnou pustit!
 
 ## Předpoklady
 
 Než začneme, budete potřebovat několik věcí:
-1.  Aspose.PDF pro .NET: Stáhněte si nejnovější verzi z[Aspose.PDF pro .NET ke stažení](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF pro .NET: Stáhněte si nejnovější verzi z [Aspose.PDF pro stažení pro .NET](https://releases.aspose.com/pdf/net/).
 2. Vývojové prostředí: Jakékoli IDE s podporou .NET (např. Visual Studio).
 3. Základní znalost C#: Doporučuje se znalost programování v C#.
 
- Nakonec nezapomeňte na licenci Aspose.PDF. Pokud žádný nemáte, můžete použít[zkušební verze zdarma](https://releases.aspose.com/) nebo požádat a[dočasná licence](https://purchase.aspose.com/temporary-license/) vše vyzkoušet.
+Nakonec nezapomeňte na licenci Aspose.PDF. Pokud ji nemáte, můžete použít [bezplatná zkušební verze](https://releases.aspose.com/) nebo požádejte o [dočasná licence](https://purchase.aspose.com/temporary-license/) abych všechno otestoval/a.
 
-## Importujte balíčky
+## Importovat balíčky
 
-První věci – importujme potřebné balíčky. To nám umožní pracovat se všemi relevantními třídami pro vytváření tabulek v dokumentech PDF.
+Nejdříve to nejdůležitější – importujme potřebné balíčky. To nám umožní pracovat se všemi relevantními třídami pro vytváření tabulek v PDF dokumentech.
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -40,25 +42,25 @@ using System.Linq;
 using System.Text;
 ```
 
-V této části rozdělíme proces vytváření tabulky do několika kroků. Každý krok se zaměřuje na různé části procesu vytváření a přizpůsobení tabulky.
+V této části si rozdělíme proces vytváření tabulky do několika kroků. Každý krok se zaměřuje na jiné části procesu vytváření a přizpůsobení tabulky.
 
 ## Krok 1: Vytvořte nový dokument PDF
 
-První věc, kterou musíme udělat, je vytvořit nový dokument PDF. To bude sloužit jako kontejner pro náš stůl.
+První věc, kterou musíme udělat, je vytvořit nový PDF dokument. Ten bude sloužit jako kontejner pro naši tabulku.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Vytvořte nový dokument PDF
+// Vytvořte nový PDF dokument
 Document document = new Document();
 ```
 
- Zde inicializujeme novou instanci souboru`Document` třídy, což bude náš prázdný soubor PDF. Nezapomeňte definovat cestu k souboru!
+Zde inicializujeme novou instanci třídy `Document` třída, což bude náš prázdný PDF soubor. Nezapomeňte definovat cestu k souboru!
 
 ## Krok 2: Nastavení označeného obsahu
 
-Dále musíme povolit označený obsah, který zajistí dostupnost pro tabulku. Tagované PDF jsou vyžadovány pro soulad s PDF/UA (Universal Accessibility).
+Dále musíme povolit tagovaný obsah, což zajistí přístupnost tabulky. Tagované PDF soubory jsou vyžadovány pro splnění standardu PDF/UA (Universal Accessibility).
 
 ```csharp
 // Povolit označený obsah
@@ -67,11 +69,11 @@ taggedContent.SetTitle("Example Table");
 taggedContent.SetLanguage("en-US");
 ```
 
-Tento krok nastavuje název a jazyk dokumentu a zajišťuje, že tabulka odpovídá standardům přístupnosti. Mít přístupné dokumenty je zásadní pro uživatelskou zkušenost a právní požadavky v některých odvětvích.
+tomto kroku se nastaví název a jazyk dokumentu a zajistí se, že tabulka splňuje standardy přístupnosti. Přístupnost dokumentů je v některých odvětvích zásadní pro uživatelskou zkušenost a splnění právních požadavků.
 
 ## Krok 3: Vytvořte prvek tabulky
 
-Nyní přichází ta zábavná část – vytvoření samotného stolu!
+A teď přichází ta zábavná část – výroba samotného stolu!
 
 ```csharp
 // Získejte prvek kořenové struktury
@@ -80,11 +82,11 @@ TableElement tableElement = taggedContent.CreateTableElement();
 rootElement.AppendChild(tableElement);
 ```
 
- Zde používáme`RootElement` označeného obsahu k připojení naší tabulky. Jedná se v podstatě o přidání tabulky jako podřízeného uzlu do struktury dokumentu.
+Zde používáme `RootElement` označeného obsahu, ke kterému se má připojit naše tabulka. V podstatě se jedná o přidání tabulky jako podřízeného uzlu do struktury dokumentu.
 
-## Krok 4: Přizpůsobte ohraničení a záhlaví tabulky
+## Krok 4: Úprava ohraničení a záhlaví tabulky
 
-Nechcete, aby váš stůl vypadal nevýrazně, že? Přidejme trochu stylu!
+Nechcete, aby váš stůl vypadal fádně, že? Pojďme mu dodat trochu stylu!
 
 ```csharp
 tableElement.Border = new BorderInfo(BorderSide.All, 1.2F, Color.DarkBlue);
@@ -93,13 +95,13 @@ TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 ```
 
- Definujeme ohraničení a přidáváme do tabulky záhlaví, tělo a zápatí. Všimněte si použití`BorderInfo` upravit okraje stolu tmavě modrou barvou.
+Definujeme ohraničení a přidáváme do tabulky záhlaví, tělo a zápatí. Všimněte si použití `BorderInfo` chcete-li okraje tabulky obarvit tmavě modrou barvou.
 
-## Krok 5: Přidejte do tabulky řádky a buňky
+## Krok 5: Přidání řádků a buněk do tabulky
 
-Nyní naplníme naši tabulku řádky a buňkami. V této části procesu definujeme rozložení naší tabulky.
+Nyní si naplníme tabulku řádky a buňkami. V této části procesu definujeme rozvržení naší tabulky.
 
-### Krok 5.1: Vytvořte řádek záhlaví
+### Krok 5.1: Vytvoření řádku záhlaví
 
 ```csharp
 TableTRElement headTrElement = tableTHeadElement.CreateTR();
@@ -116,9 +118,9 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- Vytváříme řádek záhlaví se 4 sloupci a každá buňka záhlaví má styl s barvou pozadí`GreenYellow`. Nastavili jsme také ohraničení a zarovnání pro záhlaví.
+Vytváříme řádek záhlaví se 4 sloupci a každá buňka záhlaví je stylizována barvou pozadí `GreenYellow`Také jsme nastavili ohraničení a zarovnání záhlaví.
 
-### Krok 5.2: Přidejte řádky těla
+### Krok 5.2: Přidání řádků těla
 
 ```csharp
 for (int rowIndex = 0; rowIndex < 50; rowIndex++)
@@ -136,9 +138,9 @@ for (int rowIndex = 0; rowIndex < 50; rowIndex++)
 }
 ```
 
-Zde dynamicky vytváříme 50 řádků a 4 sloupce, plníme je textem a upravujeme styly buněk. Barva pozadí je nastavena na žlutou a text je vycentrován.
+Zde dynamicky vytváříme 50 řádků a 4 sloupce, vyplňujeme je textem a upravujeme styl buněk. Barva pozadí je nastavena na žlutou a text je zarovnán na střed.
 
-### Krok 5.3: Přidejte řádek zápatí
+### Krok 5.3: Přidání řádku zápatí
 
 ```csharp
 TableTRElement footTrElement = tableTFootElement.CreateTR();
@@ -153,46 +155,48 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- Pro doplnění tabulky přidáme zápatí s textem na střed a a`LightSeaGreen` pozadí.
+Pro dokončení tabulky přidáme zápatí s textem zarovnaným na střed a `LightSeaGreen` pozadí.
 
-## Krok 6: Ověřte soulad s PDF/UA
+## Krok 6: Ověření shody s PDF/UA
 
-Jakmile je tabulka vytvořena, je důležité zajistit, aby PDF bylo kompatibilní s PDF/UA.
+Jakmile je tabulka vytvořena, je zásadní zajistit, aby PDF soubor byl kompatibilní s PDF/UA.
 
 ```csharp
 document.Save(dataDir + "CreateTableElement.pdf");
 
-// Ověřte shodu s PDF/UA
+// Ověření shody s PDF/UA
 document = new Document(dataDir + "CreateTableElement.pdf");
 bool isPdfUaCompliance = document.Validate(dataDir + "table.xml", PdfFormat.PDF_UA_1);
 Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
 ```
 
-Tento úryvek uloží soubor PDF a zkontroluje, zda splňuje standardy PDF/UA. Pokud je dokument v souladu, je přístupný uživatelům se zdravotním postižením.
+Tento úryvek kódu uloží soubor PDF a zkontroluje, zda splňuje standardy PDF/UA. Pokud dokument splňuje požadavky, je přístupný uživatelům se zdravotním postižením.
 
 ## Závěr
 
-Gratuluji! Úspěšně jste vytvořili plně přizpůsobenou tabulku v PDF pomocí Aspose.PDF pro .NET. Od stylování tabulky až po zajištění souladu s PDF/UA, nyní máte robustní základ pro generování dynamických tabulek v dokumentech PDF. Nezapomeňte prozkoumat rozsáhlé funkce Aspose.PDF pro další vylepšení vašich dokumentů!
+Gratulujeme! Úspěšně jste vytvořili plně přizpůsobenou tabulku v PDF pomocí Aspose.PDF pro .NET. Od stylování tabulky až po zajištění kompatibility s PDF/UA nyní máte robustní základ pro generování dynamických tabulek ve vašich PDF dokumentech. Nezapomeňte prozkoumat rozsáhlé funkce Aspose.PDF pro další vylepšení vašich dokumentů!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu přizpůsobit písmo a styl textu tabulky?
-Ano, Aspose.PDF vám umožňuje plně přizpůsobit písma, styly textu a zarovnání pomocí`TextState` třída.
+### Mohu si přizpůsobit písmo a styl textu tabulky?
+Ano, Aspose.PDF umožňuje plně přizpůsobit písma, styly textu a zarovnání pomocí `TextState` třída.
 
-### Jak dynamicky přidám další sloupce nebo řádky?
- Počet sloupců nebo řádků můžete upravit úpravou`rowIndex` a`colIndex` ve smyčkách.
+### Jak mohu dynamicky přidat další sloupce nebo řádky?
+Počet sloupců nebo řádků můžete upravit úpravou `rowIndex` a `colIndex` ve smyčkách.
 
 ### Je možné sloučit buňky v tabulce?
- Ano, můžete použít`ColSpan` a`RowSpan` vlastnosti pro sloučení buněk napříč sloupci nebo řádky.
+Ano, můžete použít `ColSpan` a `RowSpan` vlastnosti pro sloučení buněk napříč sloupci nebo řádky.
 
-### Co je soulad s PDF/UA?
-Soulad s PDF/UA zajišťuje, že dokument je přístupný uživatelům se zdravotním postižením v souladu s mezinárodními standardy přístupnosti.
+### Co je shoda s PDF/UA?
+Soulad s PDF/UA zajišťuje, že dokument je přístupný i uživatelům se zdravotním postižením v souladu s mezinárodními standardy přístupnosti.
 
 ### Jak otestuji shodu s PDF/UA v Aspose.PDF?
- Můžete použít`Validate` způsob kontroly, zda dokument vyhovuje standardům PDF/UA.
+Můžete použít `Validate` metoda pro kontrolu, zda dokument splňuje standardy PDF/UA.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

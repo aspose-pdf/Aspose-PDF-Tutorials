@@ -1,14 +1,16 @@
 ---
-title: Hapus Semua Lampiran Dalam File PDF
-linktitle: Hapus Semua Lampiran Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menghapus semua lampiran dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sederhanakan pengelolaan PDF Anda.
-weight: 20
-url: /id/net/programming-with-attachments/delete-all-attachments/
+"description": "Pelajari cara menghapus semua lampiran dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sederhanakan pengelolaan PDF Anda."
+"linktitle": "Hapus Semua Lampiran Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Hapus Semua Lampiran Dalam File PDF"
+"url": "/id/net/programming-with-attachments/delete-all-attachments/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Semua Lampiran Dalam File PDF
@@ -21,7 +23,7 @@ Pernahkah Anda berada dalam situasi di mana Anda perlu membersihkan berkas PDF d
 
 Sebelum kita menyelami kodenya, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Lingkungan pengembangan tempat Anda dapat menulis dan mengeksekusi kode .NET Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
@@ -41,7 +43,7 @@ Buka Visual Studio dan buat proyek C# baru. Anda dapat memilih Aplikasi Konsol u
 
 ### Mengimpor Ruang Nama yang Diperlukan
 
- Setelah perpustakaan ditambahkan, buka`Program.cs` file dan impor namespace yang diperlukan di bagian atas file:
+Setelah perpustakaan ditambahkan, buka `Program.cs` file dan impor namespace yang diperlukan di bagian atas file:
 
 ```csharp
 using System.IO;
@@ -60,7 +62,7 @@ Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya tempat file PDF Anda disimpan. Hal ini penting karena program perlu mengetahui tempat menemukan file yang ingin Anda ubah.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Hal ini penting karena program perlu mengetahui tempat menemukan file yang ingin Anda ubah.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -71,7 +73,7 @@ Selanjutnya, Anda perlu membuka dokumen PDF yang berisi lampiran yang ingin Anda
 Document pdfDocument = new Document(dataDir + "DeleteAllAttachments.pdf");
 ```
 
- Baris kode ini membuat yang baru`Document` objek, yang mewakili berkas PDF Anda. Pastikan nama berkas sesuai dengan nama yang ada di direktori Anda.
+Baris kode ini membuat yang baru `Document` objek, yang mewakili berkas PDF Anda. Pastikan nama berkas sesuai dengan nama yang ada di direktori Anda.
 
 ## Langkah 3: Hapus Semua Lampiran
 
@@ -113,22 +115,24 @@ Nah, itu dia! Anda telah berhasil mempelajari cara menghapus semua lampiran dari
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menghapus lampiran tertentu, bukan semuanya?
- Ya, Anda dapat menghapus lampiran secara selektif dengan mengaksesnya melalui`EmbeddedFiles` koleksi.
+Ya, Anda dapat menghapus lampiran secara selektif dengan mengaksesnya melalui `EmbeddedFiles` koleksi.
 
 ### Apa yang terjadi jika saya menghapus lampiran?
 Setelah dihapus, lampiran tidak dapat dipulihkan kecuali Anda memiliki cadangan file PDF asli.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?
-Aspose.PDF menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Lihat[halaman pembelian](https://purchase.aspose.com/buy) untuk lebih jelasnya.
+Aspose.PDF menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Lihat [halaman pembelian](https://purchase.aspose.com/buy) untuk lebih jelasnya.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat mencari bantuan dari komunitas Aspose di[forum dukungan](https://forum.aspose.com/c/pdf/10).
+Anda dapat mencari bantuan dari komunitas Aspose di [forum dukungan](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

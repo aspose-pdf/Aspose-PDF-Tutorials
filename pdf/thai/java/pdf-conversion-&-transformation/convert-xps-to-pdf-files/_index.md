@@ -1,14 +1,16 @@
 ---
-title: แปลง XPS เป็นไฟล์ PDF
-linktitle: แปลง XPS เป็นไฟล์ PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการแปลงไฟล์ XPS เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนของเราจะทำให้กระบวนการนี้ง่ายขึ้น
-weight: 27
-url: /th/java/pdf-conversion-transformation/convert-xps-to-pdf-files/
+"description": "เรียนรู้วิธีการแปลงไฟล์ XPS เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนของเราจะทำให้กระบวนการนี้ง่ายขึ้น"
+"linktitle": "แปลง XPS เป็นไฟล์ PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "แปลง XPS เป็นไฟล์ PDF"
+"url": "/th/java/pdf-conversion-transformation/convert-xps-to-pdf-files/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลง XPS เป็นไฟล์ PDF
@@ -24,7 +26,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีที่ม
 
 - ชุดพัฒนา Java (JDK)
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Eclipse หรือ IntelliJ IDEA
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การตั้งค่าโครงการ
 
@@ -63,7 +65,7 @@ Aspose.PDF สำหรับ Java มีตัวเลือกต่างๆ
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- หากต้องการติดตั้ง Aspose.PDF สำหรับ Java ให้ดาวน์โหลดไลบรารีจาก[ที่นี่](https://releases.aspose.com/pdf/java/) และเพิ่มลงใน classpath ของโปรเจ็กต์ Java ของคุณ
+หากต้องการติดตั้ง Aspose.PDF สำหรับ Java ให้ดาวน์โหลดไลบรารีจาก [ที่นี่](https://releases.aspose.com/pdf/java/) และเพิ่มลงใน classpath ของโปรเจ็กต์ Java ของคุณ
 
 ### ฉันสามารถแปลงไฟล์ XPS หลายไฟล์เป็น PDF ในครั้งเดียวได้ไหม
 
@@ -75,14 +77,16 @@ Aspose.PDF สำหรับ Java มีตัวเลือกต่างๆ
 
 ### Aspose.PDF สำหรับ Java รองรับรูปแบบเอกสารอื่น ๆ หรือไม่
 
-ใช่ Aspose.PDF สำหรับ Java รองรับรูปแบบเอกสารหลากหลาย เช่น PDF, XPS, HTML และอื่นๆ อีกมากมาย คุณสามารถใช้โปรแกรมนี้สำหรับงานที่เกี่ยวข้องกับเอกสารต่างๆ ในแอปพลิเคชัน Java ของคุณได้
+ใช่ Aspose.PDF สำหรับ Java รองรับรูปแบบเอกสารหลากหลาย เช่น PDF, XPS, HTML และอื่นๆ คุณสามารถใช้โปรแกรมนี้สำหรับงานที่เกี่ยวข้องกับเอกสารต่างๆ ในแอปพลิเคชัน Java ของคุณได้
 
 ### Aspose.PDF สำหรับ Java เหมาะกับการประมวลผลเอกสารขนาดใหญ่หรือไม่
 
 ใช่ Aspose.PDF สำหรับ Java ได้รับการออกแบบมาเพื่อจัดการการประมวลผลเอกสารขนาดใหญ่ได้อย่างมีประสิทธิภาพ ถือเป็นตัวเลือกที่มีประสิทธิภาพสำหรับแอปพลิเคชันที่ต้องการการดำเนินการที่เกี่ยวข้องกับ PDF จำนวนมาก
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

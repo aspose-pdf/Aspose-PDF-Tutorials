@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PDF to HTML with All Resources Embedded Using Aspose.PDF for Java
 
@@ -162,6 +164,9 @@ To further explore the capabilities of Aspose.PDF, consider diving deeper into i
 We hope this tutorial has equipped you with the knowledge to successfully convert PDFs to HTML using Aspose.PDF for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

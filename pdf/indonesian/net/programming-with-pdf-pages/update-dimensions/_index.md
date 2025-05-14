@@ -1,14 +1,16 @@
 ---
-title: Perbarui Dimensi Halaman PDF
-linktitle: Perbarui Dimensi Halaman PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Temukan cara memperbarui dimensi halaman PDF dengan mudah dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini.
-weight: 150
-url: /id/net/programming-with-pdf-pages/update-dimensions/
+"description": "Temukan cara memperbarui dimensi halaman PDF dengan mudah dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Perbarui Dimensi Halaman PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Perbarui Dimensi Halaman PDF"
+"url": "/id/net/programming-with-pdf-pages/update-dimensions/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perbarui Dimensi Halaman PDF
@@ -25,7 +27,7 @@ Sebelum kita mulai beraksi, ada beberapa hal yang perlu Anda siapkan:
 
 2. .NET Framework: Pastikan Anda memiliki versi .NET Framework yang kompatibel yang terpasang di sistem Anda.
 
-3. Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang paket Aspose.PDF. Anda dapat dengan mudah mendapatkan paket ini melalui tautan berikut:[Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang paket Aspose.PDF. Anda dapat dengan mudah mendapatkan paket ini melalui tautan berikut: [Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
 
 4. Keterampilan Pengkodean Dasar: Menguasai dasar-dasar pemrograman C# akan sangat membantu dalam memahami tutorial ini.
 
@@ -55,7 +57,7 @@ Sekarang, kita perlu menambahkan pustaka Aspose.PDF ke proyek kita. Ini dapat di
 
 ### Impor Namespace
 
- Di dalam kamu`Program.cs` file, impor namespace Aspose.PDF sehingga Anda dapat mengakses fungsinya:
+Di dalam kamu `Program.cs` file, impor namespace Aspose.PDF sehingga Anda dapat mengakses fungsinya:
 
 ```csharp
 using System.IO;
@@ -63,7 +65,7 @@ using System;
 using Aspose.Pdf;
 ```
 
-Sekarang setelah semuanya siap dan tertata, mari kita mulai memodifikasi dimensi halaman.
+Sekarang setelah semuanya siap dan tertata, mari beralih ke modifikasi dimensi halaman.
 
 Sekarang, mari kita bahas langkah-langkah sebenarnya yang diperlukan untuk memperbarui dimensi halaman PDF secara efektif.
 
@@ -75,7 +77,7 @@ Sebelum membuka berkas PDF, Anda perlu menentukan lokasinya. Ini membantu progra
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Pikirkanlah`dataDir` sebagai alamat dokumen Anda. Pastikan untuk mengganti “DIREKTORI DOKUMEN ANDA” dengan jalur sebenarnya tempat file PDF Anda berada.
+Pikirkanlah `dataDir` sebagai alamat dokumen Anda. Pastikan untuk mengganti “DIREKTORI DOKUMEN ANDA” dengan jalur sebenarnya tempat file PDF Anda berada.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -85,7 +87,7 @@ Sekarang saatnya memuat dokumen PDF yang ingin Anda ubah.
 // Buka dokumen
 Document pdfDocument = new Document(dataDir + "UpdateDimensions.pdf");
 ```
- Di sini, kita membuat yang baru`Document` objek, dengan meneruskan jalur file PDF. Ini memungkinkan kita untuk bekerja dengan dokumen tersebut dalam kode kita.
+Di sini, kita membuat yang baru `Document` objek, dengan meneruskan jalur file PDF. Hal ini memungkinkan kita untuk bekerja dengan dokumen tersebut dalam kode kita.
 
 ## Langkah 3: Akses Koleksi Halaman
 
@@ -95,7 +97,7 @@ Selanjutnya, akses halaman-halaman dalam dokumen PDF. Ini memungkinkan Anda untu
 // Dapatkan koleksi halaman
 PageCollection pageCollection = pdfDocument.Pages;
 ```
- Bayangkan`PageCollection`sebagai rak buku yang setiap halaman PDF-nya merupakan buku. Anda dapat dengan mudah menelusuri halaman-halaman tersebut untuk menemukan halaman yang ingin Anda ubah.
+Bayangkan `PageCollection` sebagai rak buku yang setiap halaman PDF-nya merupakan buku. Anda dapat dengan mudah menelusuri halaman-halaman tersebut untuk menemukan halaman yang ingin Anda ubah.
 
 ## Langkah 4: Dapatkan Halaman Tertentu
 
@@ -150,19 +152,21 @@ Jadi lanjutkan, bebaskan kreativitas Anda, dan buat PDF tersebut terlihat persis
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF menggunakan kerangka kerja .NET.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan uji coba gratis. Anda bisa mendapatkannya dari[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan uji coba gratis. Anda bisa mendapatkannya dari [Di Sini](https://releases.aspose.com/).
 
 ### Bahasa pemrograman apa yang didukung Aspose.PDF?
 Aspose.PDF mendukung beberapa bahasa pemrograman termasuk C#, Java, dan Python.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?
- Anda dapat menemukan dokumentasi lengkap di Aspose.PDF[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di Aspose.PDF [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Apakah ada forum dukungan untuk pengguna Aspose.PDF?
- Ya, Aspose memiliki forum dukungan khusus yang dapat Anda akses[Di Sini](https://forum.aspose.com/c/pdf/10).
+Ya, Aspose memiliki forum dukungan khusus yang dapat Anda akses [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Bảng PDF
-linktitle: Bảng PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Khám phá các bảng PDF với Aspose.PDF cho Java. Tạo và thao tác các bảng trong tài liệu PDF của bạn một cách dễ dàng.
-weight: 19
-url: /vi/java/pdf-tables/
+"description": "Khám phá các bảng PDF với Aspose.PDF cho Java. Tạo và thao tác các bảng trong tài liệu PDF của bạn một cách dễ dàng."
+"linktitle": "Bảng PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Bảng PDF"
+"url": "/vi/java/pdf-tables/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảng PDF
@@ -35,9 +37,11 @@ Tìm hiểu cách ẩn đường viền ô trải dài trong PDF bằng Java v�
 Tìm hiểu cách thao tác bảng PDF bằng Java với Aspose.PDF for Java. Hướng dẫn từng bước này bao gồm trích xuất bảng, sửa đổi và nhiều hơn nữa để xử lý PDF hiệu quả.
 ### [Xóa bảng khỏi PDF hiện có bằng Java](./remove-tables-from-existing-pdf-using-java/)
 Tìm hiểu cách dễ dàng xóa bảng khỏi tệp PDF bằng Java với Aspose.PDF cho Java. Hướng dẫn từng bước để xóa bảng hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

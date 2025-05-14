@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Bidang Formulir dalam Dokumen PDF menggunakan Java
-linktitle: Menambahkan Bidang Formulir dalam Dokumen PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan kolom formulir interaktif ke dokumen PDF Anda menggunakan Java dan Aspose.PDF untuk Java. Buat formulir PDF yang mudah digunakan dengan mudah.
-weight: 10
-url: /id/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/
+"description": "Pelajari cara menambahkan kolom formulir interaktif ke dokumen PDF Anda menggunakan Java dan Aspose.PDF untuk Java. Buat formulir PDF yang mudah digunakan dengan mudah."
+"linktitle": "Menambahkan Bidang Formulir dalam Dokumen PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Bidang Formulir dalam Dokumen PDF menggunakan Java"
+"url": "/id/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Bidang Formulir dalam Dokumen PDF menggunakan Java
@@ -24,7 +26,7 @@ Kami akan menggunakan Aspose.PDF untuk Java, pustaka canggih yang menyederhanaka
 
 Sebelum kita mulai membuat kode, Anda perlu menyiapkan lingkungan pengembangan. Ikuti langkah-langkah berikut:
 
-1.  Unduh Aspose.PDF untuk Java: Kunjungi situs web Aspose dan unduh versi terbaru Aspose.PDF untuk Java. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/java/).
+1. Unduh Aspose.PDF untuk Java: Kunjungi situs web Aspose dan unduh versi terbaru Aspose.PDF untuk Java. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/java/).
 
 2. Instal Aspose.PDF: Setelah mengunduh, instal Aspose.PDF dengan mengikuti petunjuk instalasi yang disediakan di situs web.
 
@@ -105,7 +107,7 @@ RadioButtonOptionField option2 = new RadioButtonOptionField(page, new Rectangle(
 option1.setPartialName("optYes"); // Tetapkan nama bidang untuk opsi 1
 option2.setPartialName("optNo"); // Tetapkan nama bidang untuk opsi 2
 
-//Tambahkan opsi ke grup tombol radio
+// Tambahkan opsi ke grup tombol radio
 RadioButtonOptionField[] options = {option1, option2};
 RadioButtonField radioButtonField = new RadioButtonField(page, options);
 page.getAnnotations().add(radioButtonField);
@@ -182,7 +184,7 @@ doc.save("FeedbackForm.pdf");
 
 ### Simpan ke Aliran
 
- Untuk menyimpan dokumen PDF ke aliran, Anda dapat menggunakan`OutputStream` kelas:
+Untuk menyimpan dokumen PDF ke aliran, Anda dapat menggunakan `OutputStream` kelas:
 
 ```java
 OutputStream outputStream = new FileOutputStream("FeedbackForm.pdf");
@@ -198,7 +200,7 @@ Dalam panduan lengkap ini, kami telah mempelajari cara menambahkan kolom formuli
 
 ### Bagaimana cara mengatur daftar dropdown dalam formulir PDF?
 
- Untuk membuat daftar dropdown (kotak kombo) dalam formulir PDF, Anda dapat menggunakan`ComboBoxField` kelas yang disediakan oleh Aspose.PDF untuk Java. Ikuti pendekatan serupa seperti yang ditunjukkan untuk bidang formulir lainnya, dan sesuaikan opsi menggunakan`AddItem` metode. Anda dapat menemukan dokumentasi terperinci tentang ini di situs web Aspose.
+Untuk membuat daftar dropdown (kotak kombo) dalam formulir PDF, Anda dapat menggunakan `ComboBoxField` kelas yang disediakan oleh Aspose.PDF untuk Java. Ikuti pendekatan serupa seperti yang ditunjukkan untuk bidang formulir lainnya, dan sesuaikan opsi menggunakan `AddItem` metode. Anda dapat menemukan dokumentasi terperinci tentang ini di situs web Aspose.
 
 ### Apakah Aspose.PDF untuk Java kompatibel dengan pustaka dan kerangka kerja Java lainnya?
 
@@ -215,9 +217,11 @@ Untuk mengekstrak data yang dikirimkan melalui formulir PDF, Anda perlu menangan
 ### Bisakah saya membuat formulir PDF secara dinamis berdasarkan masukan pengguna?
 
 Ya, Anda dapat membuat formulir PDF secara dinamis berdasarkan masukan pengguna menggunakan Aspose.PDF untuk Java. Bergantung pada masukan pengguna atau logika aplikasi, Anda dapat membuat dokumen PDF dengan berbagai bidang dan tata letak formulir. Fleksibilitas ini memungkinkan pembuatan formulir khusus yang disesuaikan dengan kebutuhan atau skenario pengguna tertentu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

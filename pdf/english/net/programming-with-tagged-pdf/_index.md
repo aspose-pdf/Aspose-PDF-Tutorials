@@ -7,7 +7,9 @@ description: Check out Aspose.PDF for .NET's Programming with Tagged PDF tutoria
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Tagged PDF
@@ -46,6 +48,7 @@ Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

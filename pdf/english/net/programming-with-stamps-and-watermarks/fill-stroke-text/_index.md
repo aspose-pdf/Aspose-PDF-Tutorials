@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/fill-stroke-text/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fill Stroke Text In PDF File
@@ -200,6 +202,7 @@ Absolutely! You can get support on the Aspose forum [here](https://forum.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Zaman Damgasıyla Dijital İmza
-linktitle: PDF Dosyasında Zaman Damgasıyla Dijital İmza
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF kullanarak bir PDF'yi zaman damgasıyla dijital olarak nasıl imzalayacağınızı öğrenin. Bu adım adım kılavuz ön koşulları, sertifika kurulumunu, zaman damgasını ve daha fazlasını kapsar.
-weight: 50
-url: /tr/net/programming-with-security-and-signatures/digitally-sign-with-time-stamp/
+"description": ".NET için Aspose.PDF kullanarak bir PDF'yi zaman damgasıyla dijital olarak nasıl imzalayacağınızı öğrenin. Bu adım adım kılavuz ön koşulları, sertifika kurulumunu, zaman damgasını ve daha fazlasını kapsar."
+"linktitle": "PDF Dosyasında Zaman Damgasıyla Dijital İmza"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Zaman Damgasıyla Dijital İmza"
+"url": "/tr/net/programming-with-security-and-signatures/digitally-sign-with-time-stamp/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Zaman Damgasıyla Dijital İmza
@@ -21,13 +23,13 @@ Daha fazla güvenlik için bir PDF'yi dijital olarak imzalamanız ve bir zaman d
 
 Koda dalmadan önce, takip etmek için ayarlamanız gereken birkaç şey var. Başlamanız için ön koşulların hızlı bir kontrol listesi şöyle:
 
--  Aspose.PDF for .NET Kütüphanesi: Projenizde Aspose.PDF for .NET kütüphanesinin yüklü olması gerekir.[en son sürümü buradan indirin](https://releases.aspose.com/pdf/net/) veya NuGet aracılığıyla projenize ekleyin.
-- PDF belgesi: Çalışmak için örnek bir PDF dosyasına ihtiyacınız olacak. İmzalamak istediğiniz projenizin dizininde bir dosya olduğundan emin olun.
--  Dijital Sertifika (PFX dosyası): Dijital bir sertifikanız olduğundan emin olun (bir`.pfx` (dosya) belgeyi dijital olarak imzalamak.
+- Aspose.PDF for .NET Kütüphanesi: Projenizde Aspose.PDF for .NET kütüphanesinin yüklü olması gerekir. [en son sürümü buradan indirin](https://releases.aspose.com/pdf/net/) veya NuGet aracılığıyla projenize ekleyin.
+- Bir PDF belgesi: Çalışmak için bir örnek PDF dosyasına ihtiyacınız olacak. İmzalamak istediğiniz projenizin dizininde bir dosya olduğundan emin olun.
+- Dijital Sertifika (PFX dosyası): Dijital bir sertifikanız olduğundan emin olun (bir `.pfx` (dosya) belgeyi dijital olarak imzalamak.
 - Zaman Damgası URL'si: Bu, dijital imzaya zaman damgası eklemek için kullanılacak çevrimiçi bir zaman damgası hizmetidir. 
 - Temel C# bilgisi: Uzman olmanıza gerek yok, ancak C#'ın temellerini bilmek, kodu anlamanıza ve özelleştirmenize yardımcı olacaktır.
 
-Tüm bu kutuları işaretlediğinizde kodlamaya başlamaya hazırsınız!
+Tüm bu kutuları işaretlediğinizde, kodlamaya başlamaya hazırsınız!
 
 ## Paketleri İçe Aktar
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document document = new Document(dataDir + @"DigitallySign.pdf");
 ```
 
- Bu adım oldukça basittir. Sadece imzalamak istediğimiz belgenin yolunu tanımlıyoruz.`Document` Aspose.PDF'deki sınıf dosyanın yüklenmesini yönetir.
+Bu adım oldukça basittir. Sadece imzalamak istediğimiz belgenin yolunu tanımlıyoruz. `Document` Aspose.PDF'deki sınıf dosyanın yüklenmesini yönetir.
 
 ## Adım 2: Dijital İmzayı Ayarlayın
 
@@ -71,7 +73,7 @@ PdfFileSignature signature = new PdfFileSignature(document);
 PKCS7 pkcs = new PKCS7(pfxFile, "pfx_password");
 ```
 
- Bu noktada, Aspose'a belgeyi imzalamak için dijital sertifikanızı kullanmasını söylüyorsunuz.`PKCS7`nesnesi tüm kriptografik işi sizin yerinize halleder, böylece siz ince ayrıntılarla uğraşmak zorunda kalmazsınız.
+Bu noktada, Aspose'a belgeyi imzalamak için dijital sertifikanızı kullanmasını söylüyorsunuz. `PKCS7` nesnesi tüm kriptografik işi sizin yerinize halleder, böylece siz ayrıntılarla uğraşmak zorunda kalmazsınız.
 
 ## Adım 3: Zaman Damgası Ayarlarını Ekleyin
 
@@ -92,7 +94,7 @@ Burada, imzanıza otomatik olarak bir saat ve tarih sağlayacak olan zaman damga
 Şimdi, imzanın PDF'de nerede görüneceğini ve boyutlarını tanımlayacağız. İmza kutusunun sayfadaki konumunu ve boyutunu özelleştirebilirsiniz.
 
 ```csharp
-//İmzanın görünümünü ve yerini tanımlayın (sayfa 1, belirtilen dikdörtgenle)
+// İmzanın görünümünü ve yerini tanımlayın (sayfa 1, belirtilen dikdörtgenle)
 System.Drawing.Rectangle rect = new System.Drawing.Rectangle(100, 100, 200, 100);
 ```
 
@@ -118,7 +120,7 @@ signature.Sign(1, "Signature Reason", "Contact", "Location", true, rect, pkcs);
 
 ## Adım 6: İmzalanmış PDF'yi Kaydedin
 
-Belge imzalandıktan sonra geriye sadece kaydetmek kalır. Hem orijinal hem de imzalanmış sürümleri saklamak için yeni bir dosya adı seçebilirsiniz.
+Belge imzalandıktan sonra geriye sadece kaydetmek kalır. Hem orijinali hem de imzalanmış sürümleri saklamak için yeni bir dosya adı seçebilirsiniz.
 
 ```csharp
 // İmzalanmış PDF belgesini kaydedin
@@ -140,16 +142,18 @@ Evet, ancak eğitim, dijital sertifikalar için en yaygın format olan PFX dosya
 Evet, zaman damgası çevrimiçi bir zaman damgası yetkilisinden alındığı için internet erişimine ihtiyacınız olacak.
 
 ### PDF'de birden fazla sayfayı imzalayabilir miyim?  
- Kesinlikle! Değiştirebilirsiniz`signature.Sign()` birden fazla sayfayı hedeflemek veya tüm sayfalarda döngü oluşturmak için bir yöntem.
+Kesinlikle! Değiştirebilirsiniz `signature.Sign()` birden fazla sayfayı hedeflemek veya tüm sayfalarda döngü oluşturmak için bir yöntem.
 
 ### PFX dosya şifresi yanlışsa ne olur?  
 Şifreniz yanlışsa istisna alırsınız, bu yüzden şifrenizi doğru girdiğinizden emin olun.
 
 ### İmzayı görünmez yapabilir miyim?  
- Evet, geçebilirsin`false` için`Sign` İmzayı görünmez yapmak için metodun görünürlük parametresi.
+Evet, geçebilirsin `false` için `Sign` İmzayı görünmez yapmak için metodun görünürlük parametresi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Przyciski radiowe poziomo i pionowo
-linktitle: Przyciski radiowe poziomo i pionowo
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak tworzyć przyciski radiowe wyrównane poziomo i pionowo w pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego samouczka krok po kroku.
-weight: 180
-url: /pl/net/programming-with-forms/horizontally-and-vertically-radio-buttons/
+"description": "Dowiedz się, jak tworzyć przyciski radiowe wyrównane poziomo i pionowo w pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego samouczka krok po kroku."
+"linktitle": "Przyciski radiowe poziomo i pionowo"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Przyciski radiowe poziomo i pionowo"
+"url": "/pl/net/programming-with-forms/horizontally-and-vertically-radio-buttons/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przyciski radiowe poziomo i pionowo
@@ -21,7 +23,7 @@ Tworzenie interaktywnych formularzy PDF może znacznie poprawić doświadczenia 
 
 Zanim zagłębisz się w kod, musisz spełnić kilka warunków wstępnych:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[strona](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [strona](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: środowisko programistyczne, w którym można pisać i testować kod.
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
@@ -57,18 +59,18 @@ W tym kroku zdefiniujemy ścieżkę do katalogu, w którym będą przechowywane 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której chcesz zapisać plik PDF. Jest to kluczowe, ponieważ informuje program, gdzie szukać plików wejściowych i gdzie zapisać dane wyjściowe.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, w której chcesz zapisać plik PDF. Jest to kluczowe, ponieważ informuje program, gdzie szukać plików wejściowych i gdzie zapisać dane wyjściowe.
 
 ## Krok 2: Załaduj istniejący dokument PDF
 
- Następnie musimy załadować dokument PDF, z którym będziemy pracować. Robimy to za pomocą`FormEditor` klasa.
+Następnie musimy załadować dokument PDF, z którym będziemy pracować. Robimy to za pomocą `FormEditor` klasa.
 
 ```csharp
 FormEditor formEditor = new FormEditor();
 formEditor.BindPdf(dataDir + "input.pdf");
 ```
 
-Tutaj tworzymy instancję`FormEditor` i powiąż go z istniejącym plikiem PDF o nazwie`input.pdf`. Upewnij się, że ten plik istnieje w określonym katalogu.
+Tutaj tworzymy instancję `FormEditor` i powiąż go z istniejącym plikiem PDF o nazwie `input.pdf`. Upewnij się, że ten plik istnieje w określonym katalogu.
 
 ## Krok 3: Skonfiguruj właściwości przycisku radiowego
 
@@ -82,7 +84,7 @@ formEditor.Facade.BorderWidth = 1; // Szerokość obramowania
 formEditor.Facade.BorderColor = System.Drawing.Color.Black; // Kolor obramowania
 ```
 
- Te właściwości pomogą zdefiniować, jak przyciski radiowe będą wyglądać w pliku PDF.`RadioGap` właściwość kontroluje odstęp między przyciskami, podczas gdy`RadioHoriz` określa ich układ.
+Te właściwości pomogą zdefiniować, jak przyciski radiowe będą wyglądać w pliku PDF. `RadioGap` właściwość kontroluje odstęp między przyciskami, podczas gdy `RadioHoriz` określa ich układ.
 
 ## Krok 4: Dodaj poziome przyciski radiowe
 
@@ -93,7 +95,7 @@ formEditor.Items = new string[] { "First", "Second", "Third" };
 formEditor.AddField(FieldType.Radio, "NewField1", 1, 40, 600, 120, 620);
 ```
 
- W tym kodzie definiujemy elementy dla przycisków radiowych i dodajemy je do pliku PDF.`AddField`Metoda przyjmuje kilka parametrów, w tym typ pola, nazwę pola i współrzędne umieszczenia.
+W tym kodzie definiujemy elementy dla przycisków radiowych i dodajemy je do pliku PDF. `AddField` Metoda przyjmuje kilka parametrów, w tym typ pola, nazwę pola i współrzędne umieszczenia.
 
 ## Krok 5: Dodaj pionowe przyciski radiowe
 
@@ -129,19 +131,21 @@ Tworzenie przycisków radiowych w pliku PDF przy użyciu Aspose.PDF dla .NET to 
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Możesz uzyskać pomoc odwiedzając stronę[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać pomoc odwiedzając stronę [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Czy można tworzyć inne elementy formularza za pomocą Aspose.PDF?
 Oczywiście! Aspose.PDF obsługuje różne elementy formularzy, w tym pola tekstowe, pola wyboru i listy rozwijane.
 
 ### Gdzie mogę kupić Aspose.PDF dla .NET?
- Aspose.PDF dla .NET można kupić na stronie[strona zakupu](https://purchase.aspose.com/buy).
+Aspose.PDF dla .NET można kupić na stronie [strona zakupu](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Image Integration in PDFs: A Step-by-Step Guide Using Aspose.PDF for Java
 
@@ -217,6 +219,9 @@ This guide explored how to add images to existing or new PDF documents using Asp
    - Use try-catch blocks to manage IOExceptions or other exceptions that may arise during file operations.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tên thẻ tùy chỉnh
-linktitle: Tên thẻ tùy chỉnh
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Hướng dẫn từng bước sử dụng tên thẻ tùy chỉnh với Aspose.PDF cho .NET. Cải thiện cấu trúc tệp PDF của bạn bằng thẻ tùy chỉnh.
-weight: 90
-url: /vi/net/programming-with-tagged-pdf/custom-tag-name/
+"description": "Hướng dẫn từng bước sử dụng tên thẻ tùy chỉnh với Aspose.PDF cho .NET. Cải thiện cấu trúc tệp PDF của bạn bằng thẻ tùy chỉnh."
+"linktitle": "Tên thẻ tùy chỉnh"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tên thẻ tùy chỉnh"
+"url": "/vi/net/programming-with-tagged-pdf/custom-tag-name/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tên thẻ tùy chỉnh
@@ -22,7 +24,7 @@ Trong thời đại kỹ thuật số ngày nay, PDF có mặt ở khắp mọi 
 Trước khi bắt đầu viết mã, điều quan trọng là phải đảm bảo bạn đã chuẩn bị mọi thứ. Sau đây là những gì bạn cần:
 
 1. Visual Studio - Bạn có thể sử dụng bất kỳ phiên bản nào gần đây, nhưng tốt nhất là nên sử dụng phiên bản mới nhất để có chức năng tối ưu.
-2.  Aspose.PDF cho .NET - Bạn có thể dễ dàng tải xuống phiên bản mới nhất từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET - Bạn có thể dễ dàng tải xuống phiên bản mới nhất từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C# - Sự quen thuộc với các nguyên tắc cơ bản của lập trình C# sẽ có lợi khi bạn triển khai mã.
 
 ## Nhập gói
@@ -65,7 +67,7 @@ Giải thích: Thay thế "YOUR DOCUMENT DIRECTORY" bằng đường dẫn thự
 
 ## Bước 2: Tạo một tài liệu PDF mới
 
- Tiếp theo, chúng ta sẽ tạo một phiên bản của`Document` lớp học.
+Tiếp theo, chúng ta sẽ tạo một phiên bản của `Document` lớp học.
 
 ```csharp
 Document document = new Document();
@@ -75,13 +77,13 @@ Giải thích: Dòng này khởi tạo một tài liệu PDF mới. Hãy nghĩ v
 
 ## Bước 3: Tạo nội dung được gắn thẻ
 
-Bây giờ là lúc đi vào trọng tâm của việc gắn thẻ. Chúng ta sẽ lấy lại nội dung được gắn thẻ của tài liệu.
+Bây giờ, đã đến lúc đi vào trọng tâm của việc gắn thẻ. Chúng ta sẽ lấy lại nội dung được gắn thẻ của tài liệu.
 
 ```csharp
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- Giải thích:`TaggedContent` Đối tượng cho phép chúng ta thao tác cấu trúc logic và khả năng truy cập của PDF bằng cách sắp xếp nội dung theo thứ bậc.
+Giải thích: `TaggedContent` Đối tượng cho phép chúng ta thao tác cấu trúc logic và khả năng truy cập của PDF bằng cách sắp xếp nội dung theo thứ bậc.
 
 ## Bước 4: Đặt Tiêu đề và Ngôn ngữ
 
@@ -103,7 +105,7 @@ SectElement sect = taggedContent.CreateSectElement();
 taggedContent.RootElement.AppendChild(sect);
 ```
 
- Giải thích: Bước này giới thiệu một phần tử phần nơi bạn có thể bắt đầu thêm nội dung.`RootElement` là căn cứ của bạn.
+Giải thích: Bước này giới thiệu một phần tử phần nơi bạn có thể bắt đầu thêm nội dung. `RootElement` là căn cứ của bạn.
 
 ## Bước 6: Tạo các phần tử đoạn văn
 
@@ -176,7 +178,7 @@ span3.SetTag("Sp");
 span4.SetTag("TheSpan");
 ```
 
-Giải thích: Việc gắn thẻ các khoảng thời gian một cách chính xác sẽ đảm bảo rằng tất cả các sắc thái đều được thể hiện chính xác, tạo ra một tài liệu phong phú cho bất kỳ ai gặp phải.
+Giải thích: Việc gắn thẻ các khoảng thời gian một cách chính xác đảm bảo rằng tất cả các sắc thái đều được thể hiện chính xác, tạo ra một tài liệu phong phú cho bất kỳ ai gặp phải.
 
 ## Bước 11: Thêm Spans vào Đoạn văn
 
@@ -214,16 +216,18 @@ Tệp PDF được gắn thẻ chứa siêu dữ liệu bổ sung mô tả cấu
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và thao tác các tài liệu PDF theo chương trình với nhiều tính năng mở rộng.
 
 ### Làm thế nào tôi có thể nhận được phiên bản dùng thử của Aspose.PDF?  
- Bạn có thể dùng thử Aspose.PDF miễn phí bằng cách truy cập[liên kết này](https://releases.aspose.com/).
+Bạn có thể dùng thử Aspose.PDF miễn phí bằng cách truy cập [liên kết này](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.PDF không?  
- Có, bạn có thể liên hệ để được hỗ trợ qua[diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Có, bạn có thể liên hệ để được hỗ trợ qua [diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể tìm tài liệu chi tiết về Aspose.PDF ở đâu?  
- Tài liệu đầy đủ có thể được tìm thấy[đây](https://reference.aspose.com/pdf/net/).
+Tài liệu đầy đủ có thể được tìm thấy [đây](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

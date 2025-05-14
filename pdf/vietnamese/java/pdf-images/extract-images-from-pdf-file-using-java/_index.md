@@ -1,14 +1,16 @@
 ---
-title: Trích xuất hình ảnh từ tệp PDF bằng Java
-linktitle: Trích xuất hình ảnh từ tệp PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách trích xuất hình ảnh từ tệp PDF bằng Java với Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn. Mở khóa trích xuất hình ảnh PDF ngay.
-weight: 24
-url: /vi/java/pdf-images/extract-images-from-pdf-file-using-java/
+"description": "Tìm hiểu cách trích xuất hình ảnh từ tệp PDF bằng Java với Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn. Mở khóa trích xuất hình ảnh PDF ngay."
+"linktitle": "Trích xuất hình ảnh từ tệp PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Trích xuất hình ảnh từ tệp PDF bằng Java"
+"url": "/vi/java/pdf-images/extract-images-from-pdf-file-using-java/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất hình ảnh từ tệp PDF bằng Java
@@ -29,7 +31,7 @@ Aspose.PDF for Java là một Java API do Aspose cung cấp cho phép các nhà 
 Trước khi bắt đầu, bạn cần thiết lập môi trường phát triển của mình. Đảm bảo bạn có các điều kiện tiên quyết sau:
 
 - Đã cài đặt Java Development Kit (JDK)
--  Thư viện Aspose.PDF cho Java (bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/))
+- Thư viện Aspose.PDF cho Java (bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/))
 - Một môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse
 
 ## Tải tệp PDF
@@ -73,7 +75,7 @@ Trong hướng dẫn từng bước này, chúng ta đã học cách trích xu�
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp trên trang web để thiết lập nó trong môi trường Java của bạn.
+Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/)Thực hiện theo hướng dẫn cài đặt được cung cấp trên trang web để thiết lập nó trong môi trường Java của bạn.
 
 ### Tôi có thể trích xuất hình ảnh từ một trang cụ thể trong PDF không?
 
@@ -85,10 +87,12 @@ Aspose.PDF for Java hỗ trợ nhiều định dạng PDF và tương thích v�
 
 ### Tôi có thể tìm thêm tài liệu và nguồn lực ở đâu?
 
-Bạn có thể tìm thấy tài liệu, hướng dẫn và ví dụ chi tiết về Aspose.PDF cho Java trên trang web:[Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu, hướng dẫn và ví dụ chi tiết về Aspose.PDF cho Java trên trang web: [Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/pdf-image-manipulation/identify-if-image-inside-pdf-is-colored-or-bla
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Identify if Image Inside PDF is Colored or Black and White in Java
@@ -131,6 +133,7 @@ You can access comprehensive documentation and resources for Aspose.PDF for Java
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

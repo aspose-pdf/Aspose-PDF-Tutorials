@@ -1,14 +1,16 @@
 ---
-title: Các thành phần cấu trúc PDF
-linktitle: Các thành phần cấu trúc PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Khám phá hướng dẫn Aspose.PDF cho Java để nắm vững các thành phần cấu trúc PDF. Tạo PDF có tổ chức, dễ dàng truy cập.
-weight: 20
-url: /vi/java/pdf-structure-elements/
+"description": "Khám phá hướng dẫn Aspose.PDF cho Java để nắm vững các thành phần cấu trúc PDF. Tạo PDF có tổ chức, dễ dàng truy cập."
+"linktitle": "Các thành phần cấu trúc PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Các thành phần cấu trúc PDF"
+"url": "/vi/java/pdf-structure-elements/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các thành phần cấu trúc PDF
@@ -42,9 +44,11 @@ Tìm hiểu cách tạo PDF được gắn thẻ trong Java với Aspose.PDF cho
 Nắm vững các thành phần cấu trúc khối văn bản PDF trong Java - Hướng dẫn từng bước sử dụng Aspose.PDF cho Java.
 ### [Cấu trúc văn bản trong PDF sử dụng Java](./text-structure-elements-in-pdf-using-java/)
 Tìm hiểu cách thao tác cấu trúc văn bản PDF trong Java bằng Aspose.PDF cho Java. Khám phá hướng dẫn từng bước với mã nguồn để xử lý văn bản PDF hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

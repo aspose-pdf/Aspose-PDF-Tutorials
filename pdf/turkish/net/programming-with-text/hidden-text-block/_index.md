@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Gizli Metin Bloğu
-linktitle: PDF Dosyasında Gizli Metin Bloğu
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF kullanarak gizli metin bloklarıyla etkileşimli PDF'ler oluşturun. Bu eğitim, belgelerinizi geliştirmek için adım adım bir kılavuz sağlar.
-weight: 230
-url: /tr/net/programming-with-text/hidden-text-block/
+"description": ".NET için Aspose.PDF kullanarak gizli metin blokları içeren etkileşimli PDF'ler oluşturun. Bu eğitim, belgelerinizi geliştirmek için adım adım bir kılavuz sağlar."
+"linktitle": "PDF Dosyasında Gizli Metin Bloğu"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Gizli Metin Bloğu"
+"url": "/tr/net/programming-with-text/hidden-text-block/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Gizli Metin Bloğu
@@ -21,7 +23,7 @@ Günümüzün dijital ortamında, PDF'ler sözleşmelerden eğitim materyallerin
 
 Kollarımızı sıvayıp başlamadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İhtiyacınız olanlar şunlardır:
 
-1. Aspose.PDF for .NET: Bu kütüphane, .NET uygulamalarında PDF dosyalarıyla çalışmak için olmazsa olmazdır. Bunu kontrol edebilir, indirebilir veya hatta ücretsiz deneme sürümünü alabilirsiniz.[Aspose PDF Belgeleri](https://reference.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: Bu kütüphane, .NET uygulamalarında PDF dosyalarıyla çalışmak için olmazsa olmazdır. Bunu kontrol edebilir, indirebilir veya hatta ücretsiz bir deneme sürümü alabilirsiniz. [Aspose PDF Belgeleri](https://reference.aspose.com/pdf/net/).
 2. .NET Framework: Aspose.PDF kitaplığını çalıştırmak için gerekli olduğundan .NET Framework'ün yüklü olduğundan emin olun.
 3. Geliştirme Ortamı: Visual Studio gibi bir kod düzenleyici veya Entegre Geliştirme Ortamı (IDE) kodlamayı kolaylaştıracaktır. 
 4. Temel C# Bilgisi: C# ile programlama yapacağımız için dilin temellerine hakim olmak kavramları çok daha kolay kavramanıza yardımcı olacaktır.
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outputFile = dataDir + "TextBlock_HideShow_MouseOverOut_out.pdf";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` PDF'nin oluşturulmasını istediğiniz makinedeki gerçek yol ile.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF'nin oluşturulmasını istediğiniz makinedeki gerçek yol ile.
 
 ## Adım 2: Örnek Bir Belge Oluşturun
 
@@ -94,7 +96,7 @@ Bu satır, az önce oluşturduğumuz belgeyi yükler ve üzerinde değişiklikle
 
 ## Adım 4: İfadeleri Bulmak İçin Bir TextAbsorber Oluşturun
 
- Sonra, üzerinde çalışacağımız metin parçasını tanımlamak istiyoruz. İşte burası`TextFragmentAbsorber` devreye giriyor:
+Sonra, üzerinde çalışacağımız metin parçasını tanımlamak istiyoruz. İşte burası `TextFragmentAbsorber` devreye giriyor:
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber("Move the mouse cursor here to display floating text");
@@ -177,7 +179,7 @@ Bu eylemle PDF'niz artık etkileşimli bir deneyimle hazır hale gelir ve kullan
 
 ## Çözüm
 
-Ve işte karşınızda! Bu adımları izleyerek, .NET için Aspose.PDF kullanarak bir PDF dosyasında gizli bir metin bloğu başarıyla oluşturdunuz. Bu basit ama güçlü özellik, belgelerinizdeki kullanıcı etkileşimini önemli ölçüde artırabilir. İster eğitim materyalleri ister müşteri kaynakları hazırlayın, gezinme sırasında bilgileri gizleme ve gösterme yeteneği cilalı, modern bir dokunuş sağlar. 
+İşte karşınızda! Bu adımları izleyerek, .NET için Aspose.PDF kullanarak bir PDF dosyasında gizli bir metin bloğu başarıyla oluşturdunuz. Bu basit ama güçlü özellik, belgelerinizdeki kullanıcı etkileşimini önemli ölçüde artırabilir. İster eğitim materyalleri ister müşteri kaynakları oluşturun, gezinme sırasında bilgileri gizleme ve gösterme yeteneği cilalı, modern bir dokunuş sağlar. 
 
 ## SSS
 
@@ -185,19 +187,21 @@ Ve işte karşınızda! Bu adımları izleyerek, .NET için Aspose.PDF kullanara
 Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan sağlam bir kütüphanedir.
 
 ### Aspose.PDF'yi nasıl yüklerim?  
-Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyebilirsiniz. Sadece şu komutu kullanın:`Install-Package Aspose.PDF`.
+Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyebilirsiniz. Sadece şu komutu kullanın: `Install-Package Aspose.PDF`.
 
 ### PDF'lerde başka etkileşimli öğeler oluşturabilir miyim?  
 Evet, gizli metin bloklarının ötesinde, Aspose.PDF'i kullanarak düğmeler, köprüler, açıklamalar ve çok daha fazlasını ekleyebilirsiniz.
 
 ### Ücretsiz deneme imkanı var mı?  
- Kesinlikle! Ücretsiz denemeyi şuradan alabilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz denemeyi şuradan alabilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/).
 
 ### Aspose.PDF ile ilgili yardıma ihtiyacım olursa ne yapmalıyım?  
- Destek almaktan çekinmeyin[Aspose forumu](https://forum.aspose.com/c/pdf/10) Herhangi bir soru veya sorunla karşılaştığınızda bize ulaşın.
+Destek almaktan çekinmeyin [Aspose forumu](https://forum.aspose.com/c/pdf/10) Herhangi bir soru veya sorunla karşılaştığınızda bize ulaşın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

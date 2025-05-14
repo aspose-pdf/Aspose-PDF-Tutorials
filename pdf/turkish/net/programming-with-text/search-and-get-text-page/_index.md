@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Metin Sayfasını Ara ve Al
-linktitle: PDF Dosyasında Metin Sayfasını Ara ve Al
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyasındaki belirli bir sayfadaki metni nasıl arayacağınızı ve alacağınızı öğrenin.
-weight: 430
-url: /tr/net/programming-with-text/search-and-get-text-page/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyasındaki belirli bir sayfadaki metni nasıl arayacağınızı ve alacağınızı öğrenin."
+"linktitle": "PDF Dosyasında Metin Sayfasını Ara ve Al"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Metin Sayfasını Ara ve Al"
+"url": "/tr/net/programming-with-text/search-and-get-text-page/"
+"weight": 430
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Metin Sayfasını Ara ve Al
@@ -21,9 +23,9 @@ Hiç bir PDF belgesinde belirli bir metni aramanız ve daha sonra kullanmak üze
 
 Kodlamaya başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.PDF for .NET Kütüphanesi: Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/) veya aynı bağlantıdan ücretsiz deneme sürümünü edinin. Satın almak için şuraya gidin:[Aspose mağazası](https://purchase.aspose.com/buy).
+1. Aspose.PDF for .NET Kütüphanesi: Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/) veya aynı bağlantıdan ücretsiz deneme sürümünü edinin. Satın almak için şuraya gidin: [Aspose mağazası](https://purchase.aspose.com/buy).
 2. .NET Framework: Visual Studio gibi çalışan bir .NET geliştirme ortamına ihtiyacınız olacak.
-3. Bir PDF dosyası: Metni arayıp çıkarabileceğimiz bir örnek PDF dosyasına ihtiyacınız olacak. Bu eğitim için dosyanın adının şu olduğunu varsayalım:`SearchAndGetTextPage.pdf`.
+3. Bir PDF dosyası: Metni arayıp çıkarabileceğimiz bir örnek PDF dosyasına ihtiyacınız olacak. Bu eğitim için dosyanın adının şu olduğunu varsayalım: `SearchAndGetTextPage.pdf`.
 
 ## Paketleri İçe Aktar
 
@@ -46,7 +48,7 @@ PDF'nizle etkileşime girmeden önce, PDF belgenizin depolandığı yolu tanıml
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  dataDir: Bu, PDF dosyalarınızın saklandığı klasörün yoludur. Değiştir`"YOUR DOCUMENT DIRECTORY"` PDF'nin bulunduğu gerçek yol ile.
+- dataDir: Bu, PDF dosyalarınızın saklandığı klasörün yoludur. Değiştir `"YOUR DOCUMENT DIRECTORY"` PDF'nin bulunduğu gerçek yol ile.
 
 ## Adım 2: PDF Belgesini Yükleyin
 
@@ -61,7 +63,7 @@ Document pdfDocument = new Document(dataDir + "SearchAndGetTextPage.pdf");
 
 ## Adım 3: Bir Metin Emici Nesne Oluşturun
 
- The`TextFragmentAbsorber`class, PDF içinde belirli bir metni aramanıza olanak tanır. Belirli bir arama ifadesinin tüm örneklerini bulmak için bu sınıfın bir örneğini oluşturalım.
+The `TextFragmentAbsorber` class, PDF içinde belirli bir metni aramanıza olanak tanır. Belirli bir arama ifadesinin tüm örneklerini bulmak için bu sınıfın bir örneğini oluşturalım.
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("Figure");
@@ -92,7 +94,7 @@ TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragmen
 
 ## Adım 6: Her Parçayı Döngüye Alın ve Verileri Çıkarın
 
-Şimdi döngüye gireceğiz`textFragmentCollection` ve her metin parçasının konumu, yazı tipi ayrıntıları ve rengi gibi çeşitli özelliklerini çıkarın.
+Şimdi döngüye gireceğiz `textFragmentCollection` ve her metin parçasının konumu, yazı tipi ayrıntıları ve rengi gibi çeşitli özelliklerini çıkarın.
 
 ```csharp
 foreach (TextFragment textFragment in textFragmentCollection)
@@ -126,22 +128,24 @@ Ve işte oldu! Artık Aspose.PDF for .NET kullanarak bir PDF dosyasından metni 
 ## SSS
 
 ### Birden fazla ifadeyi aynı anda arayabilir miyim?  
- Evet, birden fazla ifadeyi aramak için kodu birden fazla ifade oluşturarak değiştirebilirsiniz.`TextFragmentAbsorber` nesneler.
+Evet, birden fazla ifadeyi aramak için kodu birden fazla ifade oluşturarak değiştirebilirsiniz. `TextFragmentAbsorber` nesneler.
 
 ### Belirli bir sayfadan metni nasıl çıkarabilirim?  
- Belirli bir sayfayı hedefleyebilirsiniz.`TextFragmentAbsorber` tüm belge yerine tek bir sayfaya. Örneğin:`pdfDocument.Pages[1].Accept(textFragmentAbsorber);`.
+Uygulayarak belirli bir sayfayı hedefleyebilirsiniz. `TextFragmentAbsorber` tüm belge yerine tek bir sayfaya. Örneğin: `pdfDocument.Pages[1].Accept(textFragmentAbsorber);`.
 
 ### Aspose.PDF for .NET ücretsiz mi?  
- Aspose.PDF ticari bir üründür, ancak bunu bir[ücretsiz deneme](https://releases.aspose.com/).
+Aspose.PDF ticari bir üründür, ancak bunu bir [ücretsiz deneme](https://releases.aspose.com/).
 
 ### Aspose.PDF kullanarak PDF'den resim çıkarabilir miyim?  
- Evet, Aspose.PDF metne ek olarak görselleri de çıkarmanıza olanak tanır.[belgeleme](https://reference.aspose.com/pdf/net/) Daha detaylı bilgi için.
+Evet, Aspose.PDF metne ek olarak görselleri de çıkarmanıza olanak tanır. [belgeleme](https://reference.aspose.com/pdf/net/) Daha detaylı bilgi için.
 
-### Daha fazla yardıma veya desteğe ihtiyacım olursa ne olacak?  
- Her zaman yardım alabilirsiniz[Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10).
+### Daha fazla yardıma veya desteğe ihtiyacım olursa ne olur?  
+Her zaman yardım alabilirsiniz [Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Hapus Bidang Formulir Dalam Dokumen PDF
-linktitle: Hapus Bidang Formulir Dalam Dokumen PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menghapus kolom formulir dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang dan penggemar PDF.
-weight: 50
-url: /id/net/programming-with-forms/delete-form-field/
+"description": "Pelajari cara menghapus kolom formulir dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang dan penggemar PDF."
+"linktitle": "Hapus Bidang Formulir Dalam Dokumen PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Hapus Bidang Formulir Dalam Dokumen PDF"
+"url": "/id/net/programming-with-forms/delete-form-field/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Bidang Formulir Dalam Dokumen PDF
@@ -22,7 +24,7 @@ Pernahkah Anda berada dalam situasi di mana Anda perlu mengubah dokumen PDF, khu
 Sebelum kita masuk ke inti penghapusan kolom formulir, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sinilah kita akan menulis dan mengeksekusi kode.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode yang akan kita gunakan.
 4. Contoh Dokumen PDF: Siapkan dokumen PDF yang berisi kolom formulir. Anda dapat membuatnya menggunakan editor PDF apa pun atau mengunduh contohnya.
 
@@ -40,7 +42,7 @@ using Aspose.Pdf;
 
 Sekarang setelah semuanya disiapkan, mari kita uraikan proses penghapusan kolom formulir dalam dokumen PDF ke dalam langkah-langkah yang lebih mudah dikelola.
 
-## Langkah 1: Atur Jalur ke Direktori Dokumen Anda
+## Langkah 1: Tetapkan Jalur ke Direktori Dokumen Anda
 
 Langkah pertama adalah menentukan jalur ke direktori tempat dokumen PDF Anda berada. Hal ini penting karena memberi tahu program Anda di mana menemukan berkas yang ingin Anda ubah.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya, kita perlu membuka dokumen PDF yang berisi kolom formulir yang ingin Anda hapus. Ini dilakukan dengan menggunakan`Document` kelas dari pustaka Aspose.PDF.
+Selanjutnya, kita perlu membuka dokumen PDF yang berisi kolom formulir yang ingin Anda hapus. Ini dilakukan dengan menggunakan `Document` kelas dari pustaka Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "DeleteFormField.pdf");
@@ -94,16 +96,18 @@ Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat,
 Ya, Anda dapat melakukan pengulangan pada kolom formulir dan menghapus beberapa kolom berdasarkan namanya.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF?
- Ya, Anda dapat mengunduh uji coba gratis Aspose.PDF[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis Aspose.PDF [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana jika saya tidak tahu nama kolom formulir?
- Anda dapat mencantumkan semua bidang formulir dalam dokumen menggunakan`pdfDocument.Form` properti untuk menemukan nama.
+Anda dapat mencantumkan semua bidang formulir dalam dokumen menggunakan `pdfDocument.Form` properti untuk menemukan nama.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dari forum komunitas Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dari forum komunitas Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

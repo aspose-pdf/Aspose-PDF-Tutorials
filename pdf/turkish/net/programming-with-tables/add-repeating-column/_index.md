@@ -1,14 +1,16 @@
 ---
-title: PDF Belgesine Tekrarlayan Sütun Ekle
-linktitle: PDF Belgesine Tekrarlayan Sütun Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF belgelerine tekrarlayan sütunların nasıl ekleneceğini öğrenin. Örnekler ve kod içeren adım adım kılavuz. Geliştiriciler için mükemmel.
-weight: 20
-url: /tr/net/programming-with-tables/add-repeating-column/
+"description": "Aspose.PDF for .NET kullanarak PDF belgelerine tekrarlayan sütunların nasıl ekleneceğini öğrenin. Örnekler ve kod içeren adım adım kılavuz. Geliştiriciler için mükemmel."
+"linktitle": "PDF Belgesine Tekrarlayan Sütun Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Belgesine Tekrarlayan Sütun Ekle"
+"url": "/tr/net/programming-with-tables/add-repeating-column/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Belgesine Tekrarlayan Sütun Ekle
@@ -27,7 +29,7 @@ Koda geçmeden önce her şeyin ayarlandığından emin olalım:
 - Geliştirme Ortamı: Visual Studio gibi .NET uyumlu bir IDE'nin yüklü olduğundan emin olun.
 - C# Hakkında Temel Bilgi: Her şeyi parçalara ayıracağız ancak C# hakkında temel bir bilgiye sahip olmak, konuyu akıcı bir şekilde takip etmenize yardımcı olacaktır.
   
- Eğer .NET için Aspose.PDF'niz henüz yoksa, bir tane edinebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Özelliklerini keşfetmeye başlamak için.
+.NET için Aspose.PDF'niz henüz yoksa, bir tane edinebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Özelliklerini keşfetmeye başlamak için.
 
 ## Paketleri İçe Aktar
 
@@ -44,25 +46,25 @@ Bu paketler PDF belgeleriyle çalışmak ve tabloları düzenlemek için gereken
 
 ## Adım 1: Belgeler Dizininize Giden Yolu Ayarlayın
 
-Herhangi bir dosyayı oluşturmadan veya düzenlemeden önce, oluşturulan PDF'in kaydedileceği yolu tanımlamamız gerekir. C# projenizde, dosyalarınızın bulunacağı dizin yolunu ayarlayın:
+Herhangi bir dosyayı oluşturmadan veya düzenlemeden önce, oluşturulan PDF'in kaydedileceği yolu tanımlamamız gerekir. C# projenizde, dizin yolunu dosyalarınızın bulunacağı yere ayarlayın:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outFile = dataDir + "AddRepeatingColumn_out.pdf";
 ```
 
- Bu yol, çıktı PDF'sinin kaydedileceği dizini gösterir. Değiştir`"YOUR DOCUMENT DIRECTORY"` makinenizdeki gerçek yol ile.
+Bu yol, çıktı PDF'sinin kaydedileceği dizini gösterir. Değiştir `"YOUR DOCUMENT DIRECTORY"` makinenizdeki gerçek yol ile.
 
 ## Adım 2: Yeni bir PDF Belgesi Oluşturun
 
- Başlamak için yeni bir örnek oluşturun`Document` nesne. Bu, PDF içindeki tüm sayfalar ve içerikler için kapsayıcı görevi görecektir.
+Başlamak için yeni bir örnek oluşturun `Document` nesne. Bu, PDF içindeki tüm sayfalar ve içerikler için kapsayıcı görevi görecektir.
 
 ```csharp
 Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
- Burada yeni bir PDF belgesi oluşturduk ve buna boş bir sayfa ekledik.`doc.Pages.Add()` metodu belgeye yeni bir sayfa ekler.
+Burada yeni bir PDF belgesi oluşturduk ve buna boş bir sayfa ekledik. `doc.Pages.Add()` metodu belgeye yeni bir sayfa ekler.
 
 ## Adım 3: Dış Tabloyu Örneklendirin
 
@@ -74,11 +76,11 @@ outerTable.ColumnWidths = "100%";
 outerTable.HorizontalAlignment = HorizontalAlignment.Left;
 ```
 
- Biz ayarladık`ColumnWidths` Özelliği "%100" olarak ayarlayın, bu da tablonun tüm sayfa genişliğine yayılacağı anlamına gelir.
+Biz ayarladık `ColumnWidths` Özelliği "%100" olarak ayarlayın, bu da tablonun tüm sayfa genişliğine yayılacağı anlamına gelir.
 
 ## Adım 4: İç Tabloyu Oluşturun
 
- Şimdi, tekrarlayan sütunlara sahip olacak iç tabloyu oluşturalım. Buradaki temel özellikler şunlardır:`Broken` , tablonun aynı sayfada devam etmesini sağlar ve`ColumnAdjustment`İçeriğe uyacak şekilde sütun genişliklerini otomatik olarak ayarlayan.
+Şimdi, tekrarlayan sütunlara sahip olacak iç tabloyu oluşturalım. Buradaki temel özellikler şunlardır: `Broken`, tablonun aynı sayfada devam etmesini sağlar ve `ColumnAdjustment`İçeriğe uyacak şekilde sütun genişliklerini otomatik olarak ayarlayan.
 
 ```csharp
 Aspose.Pdf.Table mytable = new Aspose.Pdf.Table();
@@ -100,7 +102,7 @@ bodyCell.Paragraphs.Add(mytable);
 mytable.RepeatingColumnsCount = 5;
 ```
 
- Burada, şunu ekledik:`outerTable` sayfaya ve ardından dış tablonun içine yerleştirdik`mytable` Ek olarak, şunu belirledik:`RepeatingColumnsCount`5'e kadar, veri eklendiğinde kaç sütunun tekrarlanacağını belirtir.
+Burada, şunu ekledik: `outerTable` sayfaya ve ardından dış tablonun içine yerleştirdik `mytable`Ek olarak, şunu belirledik: `RepeatingColumnsCount` 5'e kadar, veri eklendiğinde kaç sütunun tekrarlanacağını belirtir.
 
 ## Adım 6: Başlık Satırı Ekle
 
@@ -124,7 +126,7 @@ row.Cells.Add("header 16");
 row.Cells.Add("header 17");
 ```
 
-Bu kod parçacığı ilk satırı (bunu başlık olarak kullanacağız) ekler ve "başlık 1", "başlık 2" gibi metin içeren hücrelerle doldurur.
+Bu kod parçacığı ilk satırı (bunu başlık olarak kullanacağız) ekler ve bunu "başlık 1", "başlık 2" gibi metin içeren hücrelerle doldurur.
 
 ## Adım 7: Veri Satırları Ekleyin
 
@@ -165,27 +167,29 @@ Belgeniz artık tekrarlayan sütunlarla kaydedildi!
 
 ## Çözüm
 
-İşte bu kadar! Bu basit adımlarla, Aspose.PDF for .NET kullanarak tekrarlayan sütunlara sahip bir PDF belgesi oluşturabilirsiniz. İç içe geçmiş tabloların esnekliğinden yararlanarak, PDF'lerinizi profesyonel ve düzenli gösteren karmaşık düzenler elde edebilirsiniz. Bunu bir sonraki projeniz için deneyin ve PDF oluşturma ihtiyaçlarınızı karşılamak için Aspose.PDF'nin tüm potansiyelini keşfedin.
+İşte bu kadar! Bu basit adımlarla, Aspose.PDF for .NET kullanarak tekrarlayan sütunlara sahip bir PDF belgesi oluşturabilirsiniz. İç içe geçmiş tabloların esnekliğinden yararlanarak, PDF'lerinizi profesyonel ve düzenli gösteren karmaşık düzenler elde edebilirsiniz. Bunu bir sonraki projenizde deneyin ve PDF oluşturma ihtiyaçlarınızı karşılamak için Aspose.PDF'nin tüm potansiyelini keşfedin.
 
 ## SSS
 
 ### Aspose.PDF for .NET nedir?
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve yönetmelerine olanak tanıyan güçlü bir kütüphanedir.
 
-### Tekrarlanan sütun sayısını dinamik olarak ayarlayabilir miyim?
- Evet, tekrar eden sütunların sayısını,`RepeatingColumnsCount` mülk.
+### Tekrar eden sütun sayısını dinamik olarak ayarlayabilir miyim?
+Evet, tekrar eden sütunların sayısını, `RepeatingColumnsCount` mülk.
 
 ### Aspose.PDF for .NET'e nasıl lisans uygulayabilirim?
- Aşağıdaki adımları izleyerek bir dosyadan veya akıştan lisans uygulayabilirsiniz:[belgeleme](https://reference.aspose.com/pdf/net/).
+Aşağıdaki adımları izleyerek bir dosyadan veya akıştan lisans uygulayabilirsiniz: [belgeleme](https://reference.aspose.com/pdf/net/).
 
 ### Tablo hücrelerine resim eklemek mümkün mü?
 Evet, Aspose.PDF for .NET, tablo hücrelerine resim dahil olmak üzere çeşitli içerik türlerinin eklenmesini destekler.
 
 ### Tablo düzenini daha fazla özelleştirebilir miyim?
 Kesinlikle! Aspose.PDF, kenarlıklar, dolgu, hizalama ve daha fazlası dahil olmak üzere tablo stillerini özelleştirmek için kapsamlı özellikler sunar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Osadź czcionkę podczas tworzenia dokumentu PDF
-linktitle: Osadź czcionkę podczas tworzenia dokumentu PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak osadzać czcionki w dokumentach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz wygląd swojego pliku PDF.
-weight: 140
-url: /pl/net/programming-with-document/embedfontwhiledoccreation/
+"description": "Dowiedz się, jak osadzać czcionki w dokumentach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz wygląd swojego pliku PDF."
+"linktitle": "Osadź czcionkę podczas tworzenia dokumentu PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Osadź czcionkę podczas tworzenia dokumentu PDF"
+"url": "/pl/net/programming-with-document/embedfontwhiledoccreation/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Osadź czcionkę podczas tworzenia dokumentu PDF
@@ -21,7 +23,7 @@ Tworzenie dokumentów PDF, które wyglądają profesjonalnie i są dopracowane, 
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1.  Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: środowisko programistyczne, w którym można pisać i testować kod.
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
@@ -36,7 +38,7 @@ using Aspose.Pdf.Text;
 
 Te przestrzenie nazw dadzą ci dostęp do klas i metod wymaganych do tworzenia i modyfikowania dokumentów PDF.
 
-Teraz, gdy zadbaliśmy o wszystkie wymagania wstępne, podzielmy proces osadzania czcionek w dokumencie PDF na mniejsze, łatwiejsze do wykonania kroki.
+Teraz, gdy zadbaliśmy już o nasze wymagania wstępne, podzielmy proces osadzania czcionek w dokumencie PDF na mniejsze, łatwiejsze do wykonania kroki.
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
@@ -47,11 +49,11 @@ Po pierwsze, musisz zdefiniować ścieżkę, w której zostanie zapisany Twój d
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką w systemie, gdzie chcesz zapisać plik PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w systemie, gdzie chcesz zapisać plik PDF.
 
 ## Krok 2: Utwórz dokument PDF
 
- Następnie utworzysz wystąpienie`Document` klasa. Ta klasa reprezentuje Twój dokument PDF.
+Następnie utworzysz wystąpienie `Document` klasa. Ta klasa reprezentuje Twój dokument PDF.
 
 ```csharp
 // Utwórz obiekt PDF, wywołując jego pusty konstruktor
@@ -73,13 +75,13 @@ Ta linijka kodu dodaje nową stronę do dokumentu, umożliwiając rozpoczęcie d
 
 ## Krok 4: Utwórz fragment tekstu
 
- Aby dodać tekst do pliku PDF, musisz utworzyć`TextFragment`. Ten obiekt będzie zawierał tekst, który chcesz wyświetlić.
+Aby dodać tekst do pliku PDF, musisz utworzyć `TextFragment`Ten obiekt będzie zawierał tekst, który chcesz wyświetlić.
 
 ```csharp
 Aspose.Pdf.Text.TextFragment fragment = new Aspose.Pdf.Text.TextFragment("");
 ```
 
- Tutaj inicjujemy nowy`TextFragment`Można to traktować jako pojemnik na tekst.
+Tutaj inicjujemy nowy `TextFragment`Można to traktować jako pojemnik na tekst.
 
 ## Krok 5: Dodaj segmenty tekstu
 
@@ -93,7 +95,7 @@ Możesz swobodnie zmienić tekst na cokolwiek chcesz. To jest twoja treść!
 
 ## Krok 6: Zdefiniuj stan tekstu i osadź czcionkę
 
- Aby mieć pewność, że czcionka zostanie osadzona w pliku PDF, należy ustawić właściwości czcionki w`TextState` obiekt.
+Aby mieć pewność, że czcionka zostanie osadzona w pliku PDF, należy ustawić właściwości czcionki w `TextState` obiekt.
 
 ```csharp
 Aspose.Pdf.Text.TextState ts = new Aspose.Pdf.Text.TextState();
@@ -152,13 +154,15 @@ Osadzanie czcionek zapewnia, że dokument będzie wyglądał tak samo na wszystk
 Tak, możesz używać niestandardowych czcionek, pod warunkiem że są one dostępne w systemie i odpowiednio odwołane w kodzie.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.PDF?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Strona internetowa Aspose](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Strona internetowa Aspose](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
- Wsparcie i zadawanie pytań można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Wsparcie i zadawanie pytań można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

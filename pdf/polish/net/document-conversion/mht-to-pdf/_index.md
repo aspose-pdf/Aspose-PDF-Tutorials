@@ -1,14 +1,16 @@
 ---
-title: MHT do PDF
-linktitle: MHT do PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak konwertować pliki MHT do PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Łatwa i wydajna konwersja dokumentów.
-weight: 70
-url: /pl/net/document-conversion/mht-to-pdf/
+"description": "Dowiedz się, jak konwertować pliki MHT do PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Łatwa i wydajna konwersja dokumentów."
+"linktitle": "MHT do PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "MHT do PDF"
+"url": "/pl/net/document-conversion/mht-to-pdf/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # MHT do PDF
@@ -22,7 +24,7 @@ dzisiejszym cyfrowym świecie potrzeba konwersji plików z jednego formatu na in
 Zanim przejdziemy do procesu konwersji, musisz zadbać o kilka rzeczy:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Tutaj będziesz pisać i uruchamiać swój kod .NET.
-2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci zrozumieć fragmenty kodu, z których będziemy korzystać.
 4. Plik MHT: Przygotuj plik MHT do konwersji. Możesz go utworzyć, zapisując stronę internetową jako MHT w przeglądarce.
 
@@ -58,11 +60,11 @@ Po pierwsze, musisz określić ścieżkę do katalogu dokumentów. To tutaj znaj
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na twojej maszynie. To może być coś takiego`@"C:\Documents\"`.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na twojej maszynie. To może być coś takiego `@"C:\Documents\"`.
 
 ## Krok 2: Załaduj opcje MHT
 
- Następnie musisz utworzyć instancję`MhtLoadOptions`Ta klasa umożliwia określenie opcji ładowania plików MHT.
+Następnie musisz utworzyć instancję `MhtLoadOptions`Ta klasa umożliwia określenie opcji ładowania plików MHT.
 
 ```csharp
 MhtLoadOptions options = new MhtLoadOptions();
@@ -72,14 +74,14 @@ Ten krok jest kluczowy, gdyż przygotowuje bibliotekę do prawidłowej obsługi 
 
 ## Krok 3: Załaduj dokument MHT
 
- Teraz czas załadować dokument MHT do biblioteki Aspose.PDF. Można to zrobić za pomocą`Document` klasa.
+Teraz czas załadować dokument MHT do biblioteki Aspose.PDF. Można to zrobić za pomocą `Document` klasa.
 
 ```csharp
 // Załaduj dokument
 Document document = new Document(dataDir + "test.mht", options);
 ```
 
- Pamiętaj o wymianie`"test.mht"` z nazwą pliku MHT. Ta linia kodu odczytuje plik MHT i przygotowuje go do konwersji.
+Pamiętaj o wymianie `"test.mht"` z nazwą pliku MHT. Ta linia kodu odczytuje plik MHT i przygotowuje go do konwersji.
 
 ## Krok 4: Zapisz dokument jako PDF
 
@@ -105,16 +107,18 @@ Plik MHT to format archiwum stron internetowych, który zapisuje całą stronę 
 Tak, możesz przejrzeć wiele plików MHT w swoim katalogu i przekonwertować je jeden po drugim, stosując tę samą metodę.
 
 ### Czy Aspose.PDF dla .NET jest darmowy?
- Aspose.PDF oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Więcej informacji znajdziesz[Tutaj](https://purchase.aspose.com/buy).
+Aspose.PDF oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Więcej informacji znajdziesz [Tutaj](https://purchase.aspose.com/buy).
 
 ### Co zrobić, jeśli podczas konwersji wystąpią błędy?
- Sprawdź forum pomocy technicznej Aspose, aby uzyskać pomoc. Możesz je znaleźć[Tutaj](https://forum.aspose.com/c/pdf/10).
+Sprawdź forum pomocy technicznej Aspose, aby uzyskać pomoc. Możesz je znaleźć [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Czy mogę używać Aspose.PDF do innych formatów plików?
 Oczywiście! Aspose.PDF obsługuje różne formaty, w tym HTML, DOCX i inne.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

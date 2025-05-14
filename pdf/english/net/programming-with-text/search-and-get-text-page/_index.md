@@ -8,7 +8,9 @@ url: /net/programming-with-text/search-and-get-text-page/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Search And Get Text Page In PDF File
@@ -143,6 +145,7 @@ You can always get help from the [Aspose Support Forum](https://forum.aspose.com
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

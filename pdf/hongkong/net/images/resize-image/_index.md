@@ -1,37 +1,42 @@
 ---
-title: 優化PDF圖片使用Aspose.PDF
-weight: 7700
-limit: 
-description: 學習如何使用Aspose.PDF壓縮和改變PDF文件中的圖像.
-keywords: [Aspose.PDF, .NET, PDF optimization, image compression, PDF resizing, PDF resources, Aspose documentation]
-url: /zh-hant/net/images/resize-image/
+"description": "透過這個綜合範例學習使用 Aspose.PDF for .NET 壓縮和調整 PDF 文件中的圖片大小。"
+"title": "使用 Aspose.PDF for .NET 最佳化 PDF 影像"
+"url": "/zh-hant/net/images/resize-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 透過Aspose.PDF優化PDF圖片
+# 使用 Aspose.PDF 優化 PDF 影像
 
-這樣的方法可以幫助您將文件的檔案大小縮小,並保持可接受的圖像品質. 這對提高性能和降低存儲成本尤其有用.
+此範例示範如何使用 Aspose.PDF for .NET 壓縮和調整其中的圖片大小來最佳化 PDF 文件。透過遵循提供的程式碼，您可以有效地減少 PDF 文件的檔案大小，同時保持可接受的影像品質。這對於提高效能和降低儲存成本特別有用。
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/resize-image/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## 設置說明
-1. 請下載Aspose.PDF[網頁下載頁面的Aspose.PDF](https://docs.aspose.com/pdf/net/)獲得最新版本.
-2. 透過NuGet安裝:在Visual Studio中開啟您的項目,
+## 安裝說明
+1. 下載 Aspose.PDF for .NET：訪問 [Aspose.PDF for .NET下載頁面](https://docs.aspose.com/pdf/net/) 取得最新版本。
+2. 透過 NuGet 安裝：在 Visual Studio 中開啟您的專案並在套件管理器控制台中使用以下命令：
    ```
    Install-Package Aspose.PDF
    ```
 
-## 更多詳細
-請參考這些資料.[請使用Aspose.PDF來查看.](https://reference.aspose.com/pdf/net/)我們都在等.
+## 欲了解更多詳情
+文檔，請訪問 [Aspose.PDF for .NET API參考](https://reference。aspose.com/pdf/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

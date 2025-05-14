@@ -1,14 +1,16 @@
 ---
-title: Java ile PDF'de Sayfa Boyunca Çizgi Çizme
-linktitle: Java ile PDF'de Sayfa Boyunca Çizgi Çizme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF'yi kullanarak PDF'lerde çizgi çizmeyi öğrenin. PDF çizgi çizimi için kaynak kodlu adım adım kılavuz.
-weight: 13
-url: /tr/java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/
+"description": "Java için Aspose.PDF'yi kullanarak Java ile PDF'lere çizgi çizmeyi öğrenin. PDF çizgi çizimi için kaynak kodlu adım adım kılavuz."
+"linktitle": "Java ile PDF'de Sayfa Boyunca Çizgi Çizme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java ile PDF'de Sayfa Boyunca Çizgi Çizme"
+"url": "/tr/java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java ile PDF'de Sayfa Boyunca Çizgi Çizme
@@ -20,7 +22,7 @@ Java için Aspose.PDF, geliştiricilerin Java uygulamalarında PDF belgeleriyle 
 
 ## Java için Aspose.PDF'ye Başlarken
 
-Koda dalmadan önce projenizde Aspose.PDF for Java'nın yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/) ve sitede verilen kurulum talimatlarını takip edin.
+Koda dalmadan önce projenizde Aspose.PDF for Java'nın yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/) ve sitede verilen kurulum talimatlarını takip edin.
 
 ## Aspose.PDF'yi Projenize Ekleme
 
@@ -53,7 +55,7 @@ public class CreatePDF {
 
 ## Sayfanın Üzerine Bir Çizgi Çizmek
 
- Sayfanın üzerine bir çizgi çizmek için şunu kullanabilirsiniz:`Line` Aspose.PDF tarafından sağlanan sınıf. Basit bir yatay çizginin nasıl çizileceğine dair bir örnek:
+Sayfanın üzerine bir çizgi çizmek için şunu kullanabilirsiniz: `Line` Aspose.PDF tarafından sağlanan sınıf. Basit bir yatay çizginin nasıl çizileceğine dair bir örnek:
 
 ```java
 import com.aspose.pdf.*;
@@ -107,7 +109,7 @@ Bu eğitimde, Java için Aspose.PDF kullanarak bir PDF belgesinde çizgi çizmen
 
 ### PDF belgeme dikey çizgi nasıl eklerim?
 
-Dikey bir çizgi eklemek için, çizgiyi oluştururken koordinatları ayarlamanız yeterlidir.`Line` nesne. Örneğin, (200, 100) noktasından başlayıp (200, 400) noktasında biten dikey bir çizgi eklemek için koordinatları aşağıdaki gibi değiştirin:
+Dikey bir çizgi eklemek için, oluştururken koordinatları ayarlamanız yeterlidir. `Line` nesne. Örneğin, (200, 100) noktasından başlayıp (200, 400) noktasında biten dikey bir çizgi eklemek için koordinatları aşağıdaki gibi değiştirin:
 
 ```java
 Line verticalLine = new Line(new float[] { 200, 100, 200, 400 });
@@ -130,14 +132,16 @@ Evet, Aspose.PDF for Java, Java 8 ve sonraki sürümlerle uyumludur. Java ortam�
 
 ### Çizdiğim çizginin üstüne nasıl metin ekleyebilirim?
 
- Satırın üstüne metin eklemek için şunu kullanabilirsiniz:`TextFragment` Aspose.PDF tarafından sağlanan sınıf. Bir tane oluşturun`TextFragment` nesneyi seçin ve sayfaya ekleyin.
+Satırın üstüne metin eklemek için şunu kullanabilirsiniz: `TextFragment` Aspose.PDF tarafından sağlanan sınıf. Bir tane oluşturun `TextFragment` nesneyi seçin ve sayfaya ekleyin.
 
 ### Java için Aspose.PDF için daha fazla örnek ve dokümanı nerede bulabilirim?
 
- Aspose.PDF for Java dokümantasyon sayfasında kapsamlı dokümantasyon ve daha fazla örnek bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Aspose.PDF for Java dokümantasyon sayfasında kapsamlı dokümantasyon ve daha fazla örnek bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

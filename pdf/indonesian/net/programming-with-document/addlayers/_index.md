@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Lapisan Ke File PDF
-linktitle: Tambahkan Lapisan Ke File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Temukan cara menambahkan lapisan ke PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini akan meningkatkan keterampilan manipulasi PDF Anda.
-weight: 20
-url: /id/net/programming-with-document/addlayers/
+"description": "Temukan cara menambahkan lapisan ke PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini akan meningkatkan keterampilan manipulasi PDF Anda."
+"linktitle": "Tambahkan Lapisan Ke File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Lapisan Ke File PDF"
+"url": "/id/net/programming-with-document/addlayers/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Lapisan Ke File PDF
@@ -22,7 +24,7 @@ Di era dokumentasi digital, PDF telah menjadi hal yang umum, berfungsi sebagai f
 Sebelum kita memulai perjalanan ini, ada beberapa prasyarat yang perlu Anda penuhi untuk memastikan semuanya berjalan lancar:
 
 1. Pemahaman Dasar tentang C#: Karena kita akan menulis dalam C#, pemahaman dasar tentang bahasa tersebut akan membantu Anda memahami kode yang akan Anda kerjakan.
-2.  Pustaka Aspose.PDF untuk .NET: Anda perlu memasang pustaka Aspose.PDF di proyek .NET Anda. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/pdf/net/).
+2. Pustaka Aspose.PDF untuk .NET: Anda perlu memasang pustaka Aspose.PDF di proyek .NET Anda. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/pdf/net/).
 3. Visual Studio atau IDE C# apa pun: Untuk menulis, mengompilasi, dan mengeksekusi kode, Anda memerlukan IDE yang sudah disiapkan di komputer Anda. Visual Studio sangat direkomendasikan karena dukungannya yang terintegrasi untuk aplikasi .NET.
 4. Contoh Dokumen PDF: Meskipun tutorial ini berfokus pada pembuatan PDF baru, memiliki contoh PDF untuk menguji lapisan Anda dapat bermanfaat.
 
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Pada langkah ini, Anda menginisialisasi instance baru dari`Document`kelas, yang berfungsi sebagai kanvas untuk lapisan masa depan kita. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF nanti.
+Pada langkah ini, Anda menginisialisasi instance baru dari `Document` kelas, yang berfungsi sebagai kanvas untuk lapisan masa depan kita. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF nanti.
 
 ## Langkah 2: Buat Halaman Baru
 
@@ -88,9 +90,9 @@ layer.Contents.Add(new LineTo(400, 700));
 layer.Contents.Add(new Stroke());
 ```
 
--  Kami menginisialisasi lapisan baru dengan pengenal`"oc1"` dan deskripsi`"Red Line"`.
--  Kemudian kita atur warna guratan menjadi merah (diwakili oleh`(1, 0, 0)`).
--  Setelah itu kita menggunakan`MoveTo` untuk memposisikan titik awal kita dan kemudian`LineTo` untuk menggambar garis.
+- Kami menginisialisasi lapisan baru dengan pengenal `"oc1"` dan deskripsi `"Red Line"`.
+- Kemudian kita atur warna guratan menjadi merah (diwakili oleh `(1, 0, 0)`).
+- Setelah itu kita menggunakan `MoveTo` untuk memposisikan titik awal kita dan kemudian `LineTo` untuk menggambar garis.
 - Terakhir, kita terapkan goresan untuk membuat garis terlihat.
 
 Itu seperti mengarahkan seorang pelukis di mana harus menaruh kuasnya di kanvas!
@@ -137,7 +139,7 @@ Di sini, kita menggabungkan nama berkas keluaran ke jalur direktori yang kita in
 
 ## Kesimpulan
 
-Selamat! Anda baru saja menambahkan lapisan ke berkas PDF menggunakan Aspose.PDF untuk .NET. Dengan pustaka yang hebat ini, kemungkinannya hampir tak terbatas. Anda dapat menyempurnakan dokumen Anda dengan berbagai elemen artistik, yang disesuaikan dengan preferensi pengguna dan meningkatkan pengalaman secara keseluruhan. Bayangkan saja bagaimana audiens dapat berinteraksi dengan PDF Anda sekarang—lapisan untuk ditampilkan atau disembunyikan, informasi yang terorganisasi dengan baik, dan tata letak yang menarik secara visual yang siap untuk mengesankan. Jadi, mengapa tidak mencoba lebih dalam? Dengan eksplorasi lebih lanjut terhadap fitur-fitur Aspose.PDF, Anda dapat mengubah keterampilan penanganan PDF Anda dari dasar menjadi tingkat lanjut!
+Selamat! Anda baru saja menambahkan lapisan ke berkas PDF menggunakan Aspose.PDF untuk .NET. Dengan pustaka yang hebat ini, kemungkinannya hampir tak terbatas. Anda dapat menyempurnakan dokumen Anda dengan berbagai elemen artistik, yang disesuaikan dengan preferensi pengguna dan meningkatkan pengalaman secara keseluruhan. Bayangkan saja bagaimana audiens dapat berinteraksi dengan PDF Anda sekarang—lapisan untuk ditampilkan atau disembunyikan, informasi yang tertata rapi, dan tata letak yang menarik secara visual yang siap untuk mengesankan. Jadi, mengapa tidak mencoba lebih dalam? Dengan eksplorasi lebih lanjut terhadap fitur-fitur Aspose.PDF, Anda dapat mengubah keterampilan penanganan PDF Anda dari dasar menjadi tingkat lanjut!
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -145,19 +147,21 @@ Selamat! Anda baru saja menambahkan lapisan ke berkas PDF menggunakan Aspose.PDF
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat dan memanipulasi dokumen PDF dalam aplikasi .NET dengan mudah.
 
 ### Bisakah saya menambahkan lebih dari satu lapisan dalam PDF?
-Ya, Anda dapat menambahkan beberapa lapisan, masing-masing dengan konten dan karakteristik unik dalam satu file PDF.
+Ya, Anda dapat menambahkan beberapa lapisan, masing-masing dengan konten dan karakteristik unik dalam satu berkas PDF.
 
 ### Bagaimana cara mengunduh Aspose.PDF untuk .NET?
- Anda dapat mengunduh perpustakaan[Di Sini](https://releases.aspose.com/pdf/net/).
+Anda dapat mengunduh perpustakaan [Di Sini](https://releases.aspose.com/pdf/net/).
 
 ### Apakah ada uji coba gratis yang tersedia?
- Ya, Anda dapat mengakses versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengakses versi uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
-Anda dapat meminta bantuan di forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda dapat meminta bantuan di forum dukungan Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

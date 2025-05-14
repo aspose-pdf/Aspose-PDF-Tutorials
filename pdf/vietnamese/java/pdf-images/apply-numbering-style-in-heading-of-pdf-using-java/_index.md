@@ -1,14 +1,16 @@
 ---
-title: Áp dụng kiểu đánh số trong tiêu đề của PDF bằng Java
-linktitle: Áp dụng kiểu đánh số trong tiêu đề của PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách áp dụng kiểu đánh số cho tiêu đề PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi cung cấp các ví dụ về mã nguồn để tạo nét chuyên nghiệp cho tài liệu của bạn.
-weight: 14
-url: /vi/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/
+"description": "Tìm hiểu cách áp dụng kiểu đánh số cho tiêu đề PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi cung cấp các ví dụ về mã nguồn để tạo nét chuyên nghiệp cho tài liệu của bạn."
+"linktitle": "Áp dụng kiểu đánh số trong tiêu đề của PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Áp dụng kiểu đánh số trong tiêu đề của PDF bằng Java"
+"url": "/vi/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng kiểu đánh số trong tiêu đề của PDF bằng Java
@@ -50,12 +52,12 @@ heading.getTextState().setForegroundColor(com.aspose.pdf.Color.getBlack());
 heading.getTextState().setBackgroundColor(com.aspose.pdf.Color.getLightGray());
 
 // Đặt tiêu đề văn bản
-TextFragment titleFragment = new TextFragment("Applying Numbering Style");
+TextFragment titleFragment = new TextFragment("Áp dụng phong cách đánh số");
 heading.getFragments().add(titleFragment);
 pdfDocument.getPages().get_Item(1).getParagraphs().add(heading);
 ```
 
-## Áp dụng phong cách đánh số
+## Applying Numbering Style
 
 Bây giờ đến phần thú vị—áp dụng kiểu đánh số cho tiêu đề của chúng ta. Aspose.PDF for Java cung cấp một cách đơn giản để thực hiện điều này. Sau đây là một ví dụ về việc áp dụng đánh số:
 
@@ -102,8 +104,8 @@ Trong hướng dẫn từng bước này, chúng tôi đã khám phá cách áp 
 
 Để cài đặt Aspose.PDF cho Java, hãy làm theo các bước sau:
 
-1.  Truy cập tài liệu Aspose.PDF dành cho Java tại[đây](https://reference.aspose.com/pdf/java/).
-2.  Tải xuống phiên bản mới nhất của thư viện từ[đây](https://releases.aspose.com/pdf/java/).
+1. Truy cập tài liệu Aspose.PDF dành cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+2. Tải xuống phiên bản mới nhất của thư viện từ [đây](https://releases.aspose.com/pdf/java/).
 3. Tích hợp thư viện vào dự án Java của bạn theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
 ### Tôi có thể sử dụng Aspose.PDF cho Java miễn phí không?
@@ -112,7 +114,7 @@ Aspose.PDF for Java cung cấp phiên bản dùng thử miễn phí mà bạn c�
 
 ### Có thể áp dụng các kiểu đánh số khác nhau cho các phần khác nhau của tài liệu không?
 
- Có, bạn có thể áp dụng các kiểu đánh số khác nhau cho các phần khác nhau của tài liệu PDF bằng Aspose.PDF cho Java. Chỉ cần tạo riêng`Heading` đối tượng và tùy chỉnh kiểu đánh số cho từng phần.
+Có, bạn có thể áp dụng các kiểu đánh số khác nhau cho các phần khác nhau của tài liệu PDF bằng Aspose.PDF cho Java. Chỉ cần tạo riêng `Heading` đối tượng và tùy chỉnh kiểu đánh số cho từng phần.
 
 ### Tôi có thể xuất tệp PDF có đánh số tiêu đề sang các định dạng khác như DOCX hoặc HTML không?
 
@@ -120,10 +122,12 @@ Có, Aspose.PDF for Java cung cấp khả năng xuất tài liệu PDF có tiêu
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện, ví dụ mã và tham chiếu API cho Aspose.PDF dành cho Java trên trang web tài liệu tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu toàn diện, ví dụ mã và tham chiếu API cho Aspose.PDF dành cho Java trên trang web tài liệu tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

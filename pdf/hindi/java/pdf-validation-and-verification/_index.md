@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ सत्यापन और सत्यापन
-linktitle: पीडीएफ सत्यापन और सत्यापन
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.PDF का उपयोग करके PDF सत्यापन और सत्यापन का अन्वेषण करें। हमारे व्यापक ट्यूटोरियल में दस्तावेज़ की अखंडता और अनुपालन सुनिश्चित करें।
-weight: 24
-url: /hi/java/pdf-validation-and-verification/
+"description": "Java के लिए Aspose.PDF का उपयोग करके PDF सत्यापन और सत्यापन का अन्वेषण करें। हमारे व्यापक ट्यूटोरियल में दस्तावेज़ की अखंडता और अनुपालन सुनिश्चित करें।"
+"linktitle": "पीडीएफ सत्यापन और सत्यापन"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "पीडीएफ सत्यापन और सत्यापन"
+"url": "/hi/java/pdf-validation-and-verification/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ सत्यापन और सत्यापन
@@ -31,9 +33,11 @@ url: /hi/java/pdf-validation-and-verification/
 ## पीडीएफ सत्यापन और सत्यापन ट्यूटोरियल
 ### [जावा में पीडीएफ़ को मान्य करें](./validate-pdf-in-java/)
 Aspose.PDF का उपयोग करके जावा में PDF दस्तावेज़ों को मान्य करना सीखें, जिससे आपकी PDF फ़ाइलों की अखंडता और अनुपालन सुनिश्चित हो।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Nhận cảnh báo khi thay thế phông chữ
-linktitle: Nhận cảnh báo khi thay thế phông chữ
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách sử dụng tính năng GetWarningsForFontSubstitution của Aspose.PDF cho .NET để phát hiện cảnh báo thay thế phông chữ khi mở tài liệu PDF.
-weight: 190
-url: /vi/net/programming-with-document/getwarningsforfontsubstitution/
+"description": "Tìm hiểu cách sử dụng tính năng GetWarningsForFontSubstitution của Aspose.PDF cho .NET để phát hiện cảnh báo thay thế phông chữ khi mở tài liệu PDF."
+"linktitle": "Nhận cảnh báo khi thay thế phông chữ"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhận cảnh báo khi thay thế phông chữ"
+"url": "/vi/net/programming-with-document/getwarningsforfontsubstitution/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận cảnh báo khi thay thế phông chữ
@@ -22,7 +24,7 @@ Trong thế giới xử lý tài liệu, việc đảm bảo rằng các tệp P
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số điều sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết và chạy mã .NET của mình.
-2.  Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 4. Tài liệu PDF: Chuẩn bị sẵn một tài liệu PDF mẫu mà bạn có thể sử dụng để kiểm tra khả năng phát hiện thay thế phông chữ.
 
@@ -61,21 +63,21 @@ Bây giờ bạn đã thiết lập mọi thứ, hãy chia nhỏ quy trình phá
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp PDF của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp PDF của bạn.
 
 ## Bước 2: Mở Tài liệu PDF
 
- Tiếp theo, bạn sẽ mở tài liệu PDF bằng cách sử dụng`Document` lớp được cung cấp bởi Aspose.PDF.
+Tiếp theo, bạn sẽ mở tài liệu PDF bằng cách sử dụng `Document` lớp được cung cấp bởi Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Dòng mã này khởi tạo một cái mới`Document` đối tượng với tệp PDF của bạn.
+Dòng mã này khởi tạo một cái mới `Document` đối tượng với tệp PDF của bạn.
 
 ## Bước 3: Thiết lập Phát hiện Thay thế Phông chữ
 
- Bây giờ, đã đến lúc thiết lập trình xử lý sự kiện sẽ phát hiện cảnh báo thay thế phông chữ. Bạn sẽ cần đăng ký`FontSubstitution` sự kiện của`Document` lớp học.
+Bây giờ, đã đến lúc thiết lập trình xử lý sự kiện sẽ phát hiện cảnh báo thay thế phông chữ. Bạn sẽ cần đăng ký `FontSubstitution` sự kiện của `Document` lớp học.
 
 ```csharp
 doc.FontSubstitution += new Document.FontSubstitutionHandler(OnFontSubstitution);
@@ -116,13 +118,15 @@ Việc thay thế phông chữ xảy ra khi phông chữ gốc được sử d�
 Có, Aspose.PDF cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để kiểm tra các tính năng của nó.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết về Aspose.PDF cho .NET[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu chi tiết về Aspose.PDF cho .NET [đây](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

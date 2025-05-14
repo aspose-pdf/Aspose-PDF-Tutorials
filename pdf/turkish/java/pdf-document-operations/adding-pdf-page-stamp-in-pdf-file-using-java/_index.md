@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF Dosyasına PDF Sayfa Damgası Ekleme
-linktitle: Java kullanarak PDF Dosyasına PDF Sayfa Damgası Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF kullanarak Java'da PDF sayfa damgalarının nasıl ekleneceğini öğrenin. Bu adım adım kılavuz, PDF belgeleriniz için damgaları zahmetsizce nasıl özelleştireceğinizi gösterir.
-weight: 13
-url: /tr/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/
+"description": "Aspose.PDF kullanarak Java'da PDF sayfa damgalarının nasıl ekleneceğini öğrenin. Bu adım adım kılavuz, PDF belgeleriniz için damgaları zahmetsizce nasıl özelleştireceğinizi gösterir."
+"linktitle": "Java kullanarak PDF Dosyasına PDF Sayfa Damgası Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF Dosyasına PDF Sayfa Damgası Ekleme"
+"url": "/tr/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF Dosyasına PDF Sayfa Damgası Ekleme
@@ -28,7 +30,7 @@ Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Kiti (JDK) yüklendi
 - Eclipse veya IntelliJ IDEA gibi Entegre Geliştirme Ortamı (IDE)
--  Java kütüphanesi için Aspose.PDF (Bunu indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF (Bunu indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Ortamın Kurulması
 
@@ -40,7 +42,7 @@ IDE'nizde yeni bir Java projesi oluşturun ve Aspose.PDF for Java kütüphanesin
 
 ## Bir Java Projesi Oluşturma
 
-IDE'nizde yeni bir Java projesi oluşturun ve tercihinize göre bir isim verin.
+IDE'nizde yeni bir Java projesi oluşturun ve ismini tercihinize göre belirleyin.
 
 ## Aspose.PDF Kütüphanesini İçe Aktarma
 
@@ -58,7 +60,7 @@ Bir PDF belgesiyle çalışmak için önce onu tanımlamanız gerekir. Bir PDF b
 Document pdfDocument = new Document("input.pdf");
 ```
 
-## Bir Sayfa Damgası Oluşturma
+## Sayfa Damgası Oluşturma
 
 Şimdi, bir resim veya metin olabilen bir sayfa damgası oluşturalım. Bu örnek için bir metin damgası oluşturacağız:
 
@@ -99,7 +101,7 @@ pdfDocument.save("output.pdf");
 
 ## Java Uygulamasını Çalıştırma
 
-Artık Java uygulamanızı çalıştırabilirsiniz. Belirtilen PDF belgesine sayfa damgasını ekleyecektir.
+Şimdi Java uygulamanızı çalıştırabilirsiniz. Belirtilen PDF belgesine sayfa damgasını ekleyecektir.
 
 ## Çözüm
 
@@ -109,7 +111,7 @@ Bu eğitimde, Java ve Aspose.PDF for Java kütüphanesini kullanarak bir PDF dos
 
 ### Metin yerine resim damgası nasıl ekleyebilirim?
 
- Bir tane yaratabilirsiniz`ImageStamp` yerine bir`TextStamp` ve bunu görüntü dosyanızla yapılandırın.
+Bir tane yaratabilirsiniz `ImageStamp` yerine bir `TextStamp` ve bunu görüntü dosyanızla yapılandırın.
 
 ### Sayfa damgasının konumunu özelleştirebilir miyim?
 
@@ -125,10 +127,12 @@ Aspose.PDF for Java ticari bir kütüphanedir, ancak ücretsiz deneme lisansıyl
 
 ### Daha fazla doküman ve örneği nerede bulabilirim?
 
- Aspose.PDF for Java dokümantasyon sayfasında kapsamlı dokümantasyon ve örnekler bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/)
+Aspose.PDF for Java dokümantasyon sayfasında kapsamlı dokümantasyon ve örnekler bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/image-as-background/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Image As Page Background In PDF File
@@ -128,6 +130,7 @@ Yes, the background image stays in the back, allowing you to add text, tables, o
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

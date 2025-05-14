@@ -1,28 +1,30 @@
 ---
-title: Làm nổi bật ký tự trong tệp PDF
-linktitle: Làm nổi bật ký tự trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách làm nổi bật các ký tự trong PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này.
-weight: 240
-url: /vi/net/programming-with-text/highlight-character-in-pdf/
+"description": "Tìm hiểu cách làm nổi bật các ký tự trong PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này."
+"linktitle": "Làm nổi bật ký tự trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Làm nổi bật ký tự trong tệp PDF"
+"url": "/vi/net/programming-with-text/highlight-character-in-pdf/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm nổi bật ký tự trong tệp PDF
 
 ## Giới thiệu
 
-Khi làm việc với PDF, nhu cầu làm nổi bật văn bản hoặc ký tự thường nảy sinh—cho dù là vì mục đích học thuật, chỉnh sửa hay chỉ để cải thiện khả năng đọc. Hãy tưởng tượng bạn có một tài liệu đẹp, nhưng bạn muốn nhấn mạnh một số phần nhất định. Đó là lúc tính năng làm nổi bật xuất hiện! Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách làm nổi bật các ký tự trong tệp PDF bằng thư viện Aspose.PDF mạnh mẽ cho .NET. 
+Khi làm việc với PDF, nhu cầu làm nổi bật văn bản hoặc ký tự thường nảy sinh—cho dù là vì mục đích học thuật, chỉnh sửa hay chỉ để cải thiện khả năng đọc. Hãy tưởng tượng bạn có một tài liệu đẹp, nhưng bạn muốn nhấn mạnh một số phần nhất định. Đó chính là lúc tính năng làm nổi bật xuất hiện! Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách làm nổi bật các ký tự trong tệp PDF bằng thư viện Aspose.PDF mạnh mẽ dành cho .NET. 
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu code, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết. Sau đây là những gì bạn cần:
 
 1. Môi trường phát triển: Hướng dẫn này giả định rằng bạn đang làm việc trong Visual Studio hoặc một IDE .NET tương tự.
-2.  Aspose.PDF cho Thư viện .NET: Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/) và thêm nó vào dự án của bạn. 
+2. Aspose.PDF cho Thư viện .NET: Nếu bạn chưa có, bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/) và thêm nó vào dự án của bạn. 
 3. Kiến thức cơ bản về C#: Một bài học cơ bản về lập trình C# sẽ giúp bạn hiểu cách triển khai dễ dàng.
 4. Tài liệu PDF: Bạn nên có một tệp PDF mẫu sẵn sàng để làm việc. Bạn có thể tạo một tệp hoặc sử dụng một tài liệu hiện có.
 
@@ -46,13 +48,13 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước dễ hiểu
 
 ## Bước 1: Khởi tạo Tài liệu PDF
 
-Bước đầu tiên là khởi tạo tài liệu PDF của bạn. Điều này bao gồm việc tải tệp PDF mà bạn sẽ làm việc. Sau đây là cách thực hiện:
+Bước đầu tiên là khởi tạo tài liệu PDF của bạn. Điều này liên quan đến việc tải tệp PDF mà bạn sẽ làm việc. Sau đây là cách thực hiện:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Hãy chắc chắn thiết lập đường dẫn chính xác.
 Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(dataDir + "input.pdf");
 ```
-Trong đoạn trích này, hãy thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế trên máy của bạn nơi tệp PDF đầu vào của bạn được đặt.`Aspose.Pdf.Document` lớp được khởi tạo để tải tệp PDF của bạn.
+Trong đoạn trích này, hãy thay thế `YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế trên máy của bạn nơi tệp PDF đầu vào của bạn được đặt. `Aspose.Pdf.Document` lớp được khởi tạo để tải tệp PDF của bạn.
 
 ## Bước 2: Thiết lập quy trình kết xuất
 
@@ -67,7 +69,7 @@ using (MemoryStream ms = new MemoryStream())
     conv.GetNextImage(ms, System.Drawing.Imaging.ImageFormat.Png);
     Bitmap bmp = (Bitmap)Bitmap.FromStream(ms);
 ```
- Chúng tôi xác định độ phân giải để làm rõ, cho phép văn bản được hiển thị đúng cách.`PdfConverter`biến các trang PDF thành hình ảnh để chúng ta có thể vẽ trên đó.
+Chúng tôi xác định độ phân giải để làm rõ, cho phép văn bản được hiển thị đúng cách. `PdfConverter` biến các trang PDF thành hình ảnh để chúng ta có thể vẽ trên đó.
 
 ## Bước 3: Tạo đối tượng đồ họa để vẽ
 
@@ -93,7 +95,7 @@ for (int i = 0; i < pdfDocument.Pages.Count; i++)
     textFragmentAbsorber.TextSearchOptions.IsRegularExpressionUsed = true;
     page.Accept(textFragmentAbsorber);
 ```
- Chúng tôi truy cập từng trang và tìm kiếm tất cả văn bản bằng cách sử dụng`TextFragmentAbsorber` . Mẫu biểu thức chính quy`@"[\S]+"` bắt giữ tất cả các ký tự không phải khoảng trắng.
+Chúng tôi truy cập từng trang và tìm kiếm tất cả văn bản bằng cách sử dụng `TextFragmentAbsorber`. Mẫu biểu thức chính quy `@"[\S]+"` bắt giữ tất cả các ký tự không phải khoảng trắng.
 
 ## Bước 5: Trích xuất các đoạn văn bản và tô sáng
 
@@ -134,12 +136,12 @@ Dòng này lưu hình ảnh bitmap đã chỉnh sửa của bạn dưới dạng
 
 ## Bước 7: Kết thúc bằng Xử lý ngoại lệ
 
-Cuối cùng, bạn nên gói mã của mình trong khối try-catch, đảm bảo rằng chúng ta xử lý mọi lỗi không mong muốn một cách khéo léo:
+Cuối cùng, bạn nên gói mã của mình trong khối try-catch, đảm bảo rằng chúng ta xử lý mọi lỗi không mong muốn một cách bình tĩnh:
 
 ```csharp
 catch (Exception ex)
 {
-    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://mua.aspose.com/temporary-license/).");
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://purchase.aspose.com/temporary-license/).");
 }
 ```
 
@@ -164,10 +166,12 @@ Có, Aspose cung cấp bản dùng thử miễn phí để bạn có thể dùng
 Có, cần phải có giấy phép hợp lệ để sử dụng cho mục đích thương mại, nhưng bạn có thể xin giấy phép tạm thời trong 30 ngày để thử nghiệm.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tham khảo[Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để biết thông tin chi tiết hơn về cách triển khai và các tính năng.
+Bạn có thể tham khảo [Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để biết thông tin chi tiết hơn về cách triển khai và các tính năng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

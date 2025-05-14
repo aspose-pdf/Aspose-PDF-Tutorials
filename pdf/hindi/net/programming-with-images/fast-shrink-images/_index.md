@@ -1,14 +1,16 @@
 ---
-title: तेजी से सिकुड़ने वाली छवियाँ
-linktitle: तेजी से सिकुड़ने वाली छवियाँ
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: जानें कि PDF फ़ाइलों में छवियों को छोटा करने के लिए .NET के लिए Aspose.PDF का कुशलतापूर्वक उपयोग कैसे करें, गुणवत्ता बनाए रखते हुए आकार को अनुकूलित करें।
-weight: 130
-url: /hi/net/programming-with-images/fast-shrink-images/
+"description": "जानें कि PDF फ़ाइलों में छवियों को छोटा करने के लिए .NET के लिए Aspose.PDF का कुशलतापूर्वक उपयोग कैसे करें, गुणवत्ता बनाए रखते हुए आकार को अनुकूलित करें।"
+"linktitle": "तेजी से सिकुड़ने वाली छवियाँ"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "तेजी से सिकुड़ने वाली छवियाँ"
+"url": "/hi/net/programming-with-images/fast-shrink-images/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # तेजी से सिकुड़ने वाली छवियाँ
@@ -22,11 +24,11 @@ url: /hi/net/programming-with-images/fast-shrink-images/
 इससे पहले कि हम कोड में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास आरंभ करने के लिए आवश्यक सभी चीज़ें हैं। यहाँ कुछ पूर्वापेक्षाएँ दी गई हैं:
 
 - C# की बुनियादी समझ: अगर आप C# में कोडिंग करने में सहज हैं, तो आप पहले से ही आधे रास्ते पर हैं। अगर नहीं, तो चिंता न करें - इस गाइड का पालन करना आसान है।
--  .NET के लिए Aspose.PDF: आपको अपने .NET प्रोजेक्ट में Aspose.PDF डाउनलोड करके उसका संदर्भ देना होगा। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
--  एकीकृत विकास वातावरण (IDE): कोई भी .NET-संगत IDE काम करेगा, जैसे कि Visual Studio. अगर आपके पास यह इंस्टॉल नहीं है, तो Visual Studio देखें[यहाँ](https://visualstudio.microsoft.com/).
+- .NET के लिए Aspose.PDF: आपको अपने .NET प्रोजेक्ट में Aspose.PDF डाउनलोड करके उसका संदर्भ देना होगा। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
+- एकीकृत विकास वातावरण (IDE): कोई भी .NET-संगत IDE काम करेगा, जैसे कि Visual Studio. अगर आपके पास यह इंस्टॉल नहीं है, तो Visual Studio देखें [यहाँ](https://visualstudio.microsoft.com/).
 - कार्यशील पीडीएफ दस्तावेज़: एक पीडीएफ दस्तावेज़ अपने पास रखें जिसे आप अनुकूलित करना चाहते हैं। यह रिपोर्ट से लेकर नीलामी फ़्लायर तक कुछ भी हो सकता है; बस सुनिश्चित करें कि इसमें कुछ छवियाँ हों।
 
-इन पूर्वापेक्षाओं को पूरा करने के बाद, आप मौज-मस्ती के लिए तैयार हैं!
+इन पूर्व-आवश्यकताओं को पूरा करने के बाद, आप मौज-मस्ती के लिए तैयार हैं!
 
 ## पैकेज आयात करें
 
@@ -79,7 +81,7 @@ var time = DateTime.Now.Ticks;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आपकी फ़ाइल स्थित है। उदाहरण के लिए:
+प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आपकी फ़ाइल स्थित है। उदाहरण के लिए:
 
 ```csharp
 string dataDir = @"C:\Documents\MyPDFs\";
@@ -93,7 +95,7 @@ string dataDir = @"C:\Documents\MyPDFs\";
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 ```
 
- यह पंक्ति एक आरंभीकरण करती है`Document` ऑब्जेक्ट जो PDF का प्रतिनिधित्व करता है। बस बदलें`"Shrinkimage.pdf"` अपने दस्तावेज़ के नाम के साथ.
+यह पंक्ति एक आरंभीकरण करती है `Document` ऑब्जेक्ट जो PDF का प्रतिनिधित्व करता है। बस बदलें `"Shrinkimage.pdf"` अपने दस्तावेज़ के नाम के साथ.
 
 ## चरण 4: अनुकूलन विकल्प आरंभ करें
 
@@ -103,7 +105,7 @@ Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 ```
 
- इससे एक उदाहरण निर्मित होगा`OptimizationOptions`, जहां हम निर्दिष्ट कर सकते हैं कि हम छवियों को कैसे संपीड़ित करना चाहते हैं।
+इससे एक उदाहरण निर्मित होगा `OptimizationOptions`, जहां हम निर्दिष्ट कर सकते हैं कि हम छवियों को कैसे संपीड़ित करना चाहते हैं।
 
 ## चरण 5: छवि संपीड़न सेटिंग्स कॉन्फ़िगर करें
 
@@ -121,14 +123,14 @@ optimizeOptions.ImageCompressionOptions.CompressImages = true;
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
 ```
 
-छवि गुणवत्ता को समायोजित करके, आप फ़ाइल आकार को दृश्य अखंडता के साथ संतुलित कर रहे हैं। 75 की गुणवत्ता आम तौर पर एक अच्छी जगह है!
+छवि गुणवत्ता को समायोजित करके, आप दृश्य अखंडता के साथ फ़ाइल आकार को संतुलित कर रहे हैं। 75 की गुणवत्ता आम तौर पर एक अच्छी जगह है!
 
 ## चरण 6: संपीड़न संस्करण चुनें
 
 जब आप सोच रहे थे कि हमारा काम लगभग पूरा हो चुका है, तो हमारे पास एक और सेटिंग है जिसे संशोधित करना है:
 
 ```csharp
-// छवि संपीड़न संस्करण को तेज़ पर सेट करें
+// छवि संपीड़न संस्करण को तेज़ पर सेट करें 
 optimizeOptions.ImageCompressionOptions.Version = Pdf.Optimization.ImageCompressionVersion.Fast;
 ```
 
@@ -176,7 +178,7 @@ Console.WriteLine("\nImage fast shrinked successfully.\nFile saved at " + dataDi
 .NET के लिए Aspose.PDF एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PDF दस्तावेज़ बनाने, संशोधित करने और हेरफेर करने में सक्षम बनाती है।
 
 ### क्या मैं खरीदने से पहले Aspose.PDF का परीक्षण कर सकता हूँ?
- बिलकुल! आप कर सकते हैं[यहां से निःशुल्क परीक्षण डाउनलोड करें](https://releases.aspose.com/).
+बिलकुल! आप कर सकते हैं [यहां से निःशुल्क परीक्षण डाउनलोड करें](https://releases.aspose.com/).
 
 ### Aspose.PDF अन्य कौन सी कार्यक्षमताएं प्रदान करता है?
 छवि अनुकूलन के अलावा, Aspose.PDF पाठ निष्कर्षण, दस्तावेज़ विलय, पीडीएफ रूपांतरण और बहुत कुछ की अनुमति देता है।
@@ -185,10 +187,12 @@ Console.WriteLine("\nImage fast shrinked successfully.\nFile saved at " + dataDi
 हाँ! NuGet के माध्यम से इसे जोड़ने से एकीकरण आसान हो जाता है, और दस्तावेज़ीकरण स्पष्ट मार्गदर्शन प्रदान करता है।
 
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?
- किसी भी प्रश्न या समस्या के लिए, यहां जाएं[सहायता के लिए Aspose PDF फ़ोरम](https://forum.aspose.com/c/pdf/10).
+किसी भी प्रश्न या समस्या के लिए, यहां जाएं [सहायता के लिए Aspose PDF फ़ोरम](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

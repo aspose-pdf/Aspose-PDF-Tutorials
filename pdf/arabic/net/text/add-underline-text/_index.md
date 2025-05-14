@@ -1,23 +1,26 @@
 ---
-title: إضافة نص مشدود في PDF باستخدام Aspose.PDF لـ .NET
-weight: 7700
-limit: 
-description: تعلم كيفية إضافة نص مشدود إلى مستندات PDF باستخدام Aspose.PDF لمكتبة .NET مع هذا المثال والإرشادات الدقيقة للبرنامج.
-keywords: [Aspose.PDF, .NET, PDF creation, underline text, C#, text formatting, PDF manipulation, document processing, TextFragment, TextBuilder]
-url: /ar/net/text/add-underline-text/
+"description": "تعرف على كيفية إضافة نص مسطر إلى مستندات PDF باستخدام مكتبة Aspose.PDF لـ .NET باستخدام مثال التعليمات البرمجية خطوة بخطوة هذا."
+"title": "إضافة نص مسطر في PDF باستخدام Aspose.PDF لـ .NET"
+"url": "/ar/net/text/add-underline-text/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إضافة نص مشدود في PDF باستخدام Aspose.PDF لـ .NET
+# إضافة نص مسطر في PDF باستخدام Aspose.PDF لـ .NET
 
-Aspose.PDF لـ .NET هي مكتبة معالجة PDF قوية تسمح للمطورين بإنشاء وتعديل والتلاعب في مستندات PDF دون الحاجة إلى Adobe Acrobat. يوضح هذا المثال كيفية إنشاء مستند PDF جديد وإضافة نص مع تنسيق تحتية باستخدام فئات TextBuilder و TextFragment. يخلق الرمز PDF بسيطًا مع رسالة اختبارية تم تنسيقها في خط Arial مع تصميم تحتية ، ووضعها في إحداثيات محددة داخل الصفحة.
+Aspose.PDF for .NET هي مكتبة معالجة PDF فعّالة، تُمكّن المطورين من إنشاء مستندات PDF وتعديلها ومعالجتها دون الحاجة إلى Adobe Acrobat. يوضح هذا المثال كيفية إنشاء مستند PDF جديد وإضافة نص بتنسيق مسطر باستخدام فئتي TextBuilder وTextFragment. يُنشئ الكود ملف PDF بسيطًا يحتوي على رسالة اختبار بتنسيق Arial مع نمط مسطر، مع تحديد موضعها في إحداثيات محددة داخل الصفحة.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/add-underline-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت
 
@@ -25,25 +28,25 @@ Aspose.PDF لـ .NET هي مكتبة معالجة PDF قوية تسمح للمط
 
 يمكنك تثبيت Aspose.PDF لـ .NET باستخدام إحدى الطرق التالية:
 
-باستخدام NuGet Package Manager:
+استخدام مدير حزمة NuGet:
 
 ```csharp
 Install-Package Aspose.PDF
 ```
 
-باستخدام .NET CLI:
+استخدام .NET CLI:
 
 ```bash
 dotnet add package Aspose.PDF
 ```
 
-باستخدام PackageReference في ملف المشروع الخاص بك:
+استخدام PackageReference في ملف مشروعك:
 
 ```xml
 <PackageReference Include="Aspose.PDF" Version="23.1.0" />
 ```
 
-2: إضافة بيانات استخدام مطلوبة
+2: إضافة عبارات الاستخدام المطلوبة
 
 ```csharp
 using Aspose.Pdf;
@@ -52,11 +55,13 @@ using Aspose.Pdf.Text;
 
 ## موارد إضافية
 
-* [Aspose.PDF لتوثيق .NET](https://docs.aspose.com/pdf/net/)
-* [Aspose.PDF لمرجع .NET API](https://reference.aspose.com/pdf/net/)
+- [توثيق Aspose.PDF لـ .NET](https://docs.aspose.com/pdf/net/)
+- [مرجع Aspose.PDF لـ API .NET](https://reference.aspose.com/pdf/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

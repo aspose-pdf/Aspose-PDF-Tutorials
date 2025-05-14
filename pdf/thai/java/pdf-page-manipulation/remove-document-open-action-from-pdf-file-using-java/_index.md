@@ -1,14 +1,16 @@
 ---
-title: ลบการดำเนินการเปิดเอกสารจากไฟล์ PDF โดยใช้ Java
-linktitle: ลบการดำเนินการเปิดเอกสารจากไฟล์ PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีลบ Document Open Action จากไฟล์ PDF โดยใช้ Java และ Aspose.PDF สำหรับ Java เพิ่มความปลอดภัยและปรับแต่งได้
-weight: 11
-url: /th/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/
+"description": "เรียนรู้วิธีลบ Document Open Action จากไฟล์ PDF โดยใช้ Java และ Aspose.PDF สำหรับ Java เพิ่มความปลอดภัยและปรับแต่งได้"
+"linktitle": "ลบการดำเนินการเปิดเอกสารจากไฟล์ PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ลบการดำเนินการเปิดเอกสารจากไฟล์ PDF โดยใช้ Java"
+"url": "/th/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบการดำเนินการเปิดเอกสารจากไฟล์ PDF โดยใช้ Java
@@ -22,7 +24,7 @@ url: /th/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-us
 
 ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.PDF สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 - สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนระบบของคุณแล้ว
 
@@ -112,10 +114,12 @@ pdfDocument.save("output.pdf");
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

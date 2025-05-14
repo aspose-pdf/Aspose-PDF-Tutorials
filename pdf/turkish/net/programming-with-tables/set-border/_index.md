@@ -1,14 +1,16 @@
 ---
-title: PDF'deki Kenarlığı Tabloya Ayarla
-linktitle: PDF'deki Kenarlığı Tabloya Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuzla PDF tablosunda kenarlıkları nasıl ayarlayacağınızı öğrenin. Belgenizin görünümünü kolayca geliştirin.
-weight: 200
-url: /tr/net/programming-with-tables/set-border/
+"description": "Aspose.PDF for .NET'i kullanarak PDF tablosunda kenarlıkları nasıl ayarlayacağınızı adım adım kılavuzumuzla öğrenin. Belgenizin görünümünü kolayca geliştirin."
+"linktitle": "PDF'deki Kenarlığı Tabloya Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF'deki Kenarlığı Tabloya Ayarla"
+"url": "/tr/net/programming-with-tables/set-border/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'deki Kenarlığı Tabloya Ayarla
@@ -22,7 +24,7 @@ Aspose.PDF for .NET ile profesyonel görünümlü PDF belgeleri oluşturmak her 
 Koda dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 1. Visual Studio: .NET uygulamalarınızı yazmak ve çalıştırmak için uygun bir Entegre Geliştirme Ortamı (IDE).
-2.  Aspose.PDF for .NET Library: Bu kütüphaneyi yüklediğinizden emin olun. Doğrudan şuradan indirebilirsiniz:[Aspose PDF for .NET sürümleri](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF for .NET Library: Bu kütüphaneyi yüklediğinizden emin olun. Doğrudan şuradan indirebilirsiniz: [Aspose PDF for .NET sürümleri](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşinalık, kod uygulamasını daha iyi anlamanıza yardımcı olacaktır.
 4. .NET Framework: Aspose.PDF for .NET ile uyumlu herhangi bir sürüm.
 
@@ -48,17 +50,17 @@ Bu, PDF belgeleri oluşturmak ve düzenlemek için ihtiyaç duyduğunuz sınıfl
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu, çıktı dosyanız için temel yolu belirler, bu nedenle değiştirmeyi unutmayın`"YOUR DOCUMENT DIRECTORY"` makinenizdeki gerçek bir yola.
+Bu, çıktı dosyanız için temel yolu belirler, bu nedenle değiştirmeyi unutmayın `"YOUR DOCUMENT DIRECTORY"` makinenizdeki gerçek bir yola.
 
 ## Adım 2: Belge Nesnesini Örneklendirin
 
- Daha sonra, bir örnek oluşturmanız gerekir`Document` sınıf. Bu sınıf, üzerinde çalışacağınız tüm PDF belgesini temsil eder.
+Daha sonra, bir örnek oluşturmanız gerekir `Document` sınıf. Bu sınıf, üzerinde çalışacağınız tüm PDF belgesini temsil eder.
 
 ```csharp
 Document doc = new Document();
 ```
 
- Örnekleme yaparak`Document` nesne, PDF'nize sayfalar ve içerik eklemeye hazırlanıyorsunuz.
+Örnekleme yaparak `Document` nesne, PDF'nize sayfalar ve içerik eklemeye hazırlanıyorsunuz.
 
 ## Adım 3: Belgeye Bir Sayfa Ekleyin
 
@@ -72,13 +74,13 @@ Burada, tablomuzun gideceği yere boş bir sayfa ekleyerek belgemizi büyütüyo
 
 ## Adım 4: BorderInfo Nesnesini Oluşturun
 
- Şimdi masamızın sınırlarını belirleme zamanı.`BorderInfo` sınıfı, kenarlık özelliklerini belirtmenize olanak tanır.
+Şimdi masamızın sınırlarını belirleme zamanı. `BorderInfo` sınıfı, kenarlık özelliklerini belirtmenize olanak tanır.
 
 ```csharp
 Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
 ```
 
- Bu satırda bir tane oluşturuyoruz`BorderInfo` Hücrelerin tüm kenarlarına uygulanacak nesne.
+Bu satırda bir tane oluşturuyoruz `BorderInfo` Hücrelerin tüm kenarlarına uygulanacak nesne.
 
 ## Adım 5: Kenarlık Stillerini Ayarlayın
 
@@ -109,7 +111,7 @@ Herhangi bir tablo için sütun genişliklerini ayarlamak çok önemlidir. Bu, i
 table.ColumnWidths = "100";
 ```
 
-Bu satır tablomuzdaki tüm sütunlar için 100 puanlık tekdüze bir genişlik belirler. Bunu içerik ihtiyaçlarınıza göre ayarlayabilirsiniz.
+Bu satır, tablomuzdaki tüm sütunlar için 100 puanlık tekdüze bir genişlik belirler. Bunu içerik ihtiyaçlarınıza göre ayarlayabilirsiniz.
 
 ## Adım 8: Bir Satır Oluşturun
 
@@ -123,13 +125,13 @@ Bu komutla, yeni oluşturduğumuz tabloya yeni bir satır ekliyoruz. Bir binanı
 
 ## Adım 9: Metinli Bir Hücre Ekleyin
 
-Şimdi, bir hücre oluşturarak tablomuza biraz içerik ekleyelim. Hücreler gerçek verilerin bulunduğu yerlerdir.
+Şimdi, bir hücre oluşturarak tablomuza biraz içerik ekleyelim. Hücreler gerçek verilerin bulunduğu yerdir.
 
 ```csharp
 Aspose.Pdf.Cell cell = row.Cells.Add("some text");
 ```
 
- Değiştirmekten çekinmeyin`"some text"` görüntülemek istediğiniz herhangi bir dizeyle. Bu bir etiket, bir sayı veya belgeniz için gerekli herhangi bir metinsel bilgi olabilir.
+Değiştirmekten çekinmeyin `"some text"` görüntülemek istediğiniz herhangi bir dizeyle. Bu bir etiket, bir sayı veya belgeniz için gerekli herhangi bir metinsel bilgi olabilir.
 
 ## Adım 10: Hücre için Kenarlığı Ayarlayın
 
@@ -169,22 +171,24 @@ Kenarlıklı bir tablo içeren bir PDF belgesi oluşturmak, okunabilirliğini ve
 ## SSS
 
 ### Kenarlık stilini kesikli veya noktalı olarak değiştirebilir miyim?  
- Evet! Kenarlık özelliklerini değiştirebilirsiniz.`BorderInfo` Uygun özellikleri ayarlayarak kesikli veya noktalı kenarlıklar oluşturmak için nesne.
+Evet! Kenarlık özelliklerini değiştirebilirsiniz. `BorderInfo` Uygun özellikleri ayarlayarak kesikli veya noktalı kenarlıklar oluşturmak için nesne.
 
 ### Aspose.PDF tablolardaki resimleri destekliyor mu?  
- Kesinlikle! Tıpkı metinde olduğu gibi tablo hücrelerine de resim ekleyebilirsiniz.`Cell` sınıfın yöntemleri.
+Kesinlikle! Tıpkı metinde olduğu gibi tablo hücrelerine de resim ekleyebilirsiniz. `Cell` sınıfın yöntemleri.
 
 ### Farklı sütunlar için farklı genişlikleri nasıl belirleyebilirim?  
- Genişlik dizelerini kullanarak her sütun genişliğini ayrı ayrı tanımlayabilirsiniz, örneğin:`"100;150;200"`.
+Genişlik dizelerini kullanarak her sütun genişliğini ayrı ayrı tanımlayabilirsiniz, örneğin: `"100;150;200"`.
 
 ### Aynı sayfada birden fazla tablo oluşturabilir miyim?  
 Evet! Tablo oluşturma adımlarını tekrarlayarak aynı sayfada ihtiyacınız kadar tablo oluşturabilir ve ekleyebilirsiniz.
 
 ### Tablo hücrelerine stil uygulamanın bir yolu var mı?  
- Elbette! Arka plan rengi, metin stili ve hizalama gibi çeşitli özellikleri ayarlayabilirsiniz.`Cell` nesne.
+Elbette! Arka plan rengi, metin stili ve hizalama gibi çeşitli özellikleri ayarlayabilirsiniz. `Cell` nesne.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF'den SVG'ye
-linktitle: PDF'den SVG'ye
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarını SVG formatına nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve tasarımcılar için mükemmel.
-weight: 180
-url: /tr/net/document-conversion/pdf-to-svg/
+"description": "Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarını SVG formatına nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve tasarımcılar için mükemmel."
+"linktitle": "PDF'den SVG'ye"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF'den SVG'ye"
+"url": "/tr/net/document-conversion/pdf-to-svg/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'den SVG'ye
@@ -21,7 +23,7 @@ Dijital çağda, dosyaları bir formattan diğerine dönüştürme ihtiyacı her
 
 Dönüştürme sürecinin ayrıntılarına girmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Kodunuzu yazıp test edebileceğiniz bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşinalık, kullanacağımız kod parçacıklarını anlamanıza yardımcı olacaktır.
 4. PDF Dosyası: Dönüştürmeye hazır bir örnek PDF dosyanız olsun. 
@@ -57,7 +59,7 @@ PDF'nizi dönüştürebilmeniz için belgelerinizin nerede saklandığını beli
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu, şuna benzer bir şey olabilir`@"C:\Documents\"`.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu, şuna benzer bir şey olabilir `@"C:\Documents\"`.
 
 ## Adım 2: PDF Belgesini Yükleyin
 
@@ -68,18 +70,18 @@ Artık dizinimiz ayarlandığına göre, dönüştürmek istediğimiz PDF belges
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Bu satırda yeni bir tane oluşturuyoruz`Document` nesne ve dönüştürmek istediğimiz PDF dosyasının yolunu iletin. Değiştirdiğinizden emin olun`"input.pdf"` gerçek PDF dosyanızın adıyla.
+Bu satırda yeni bir tane oluşturuyoruz `Document` nesne ve dönüştürmek istediğimiz PDF dosyasının yolunu iletin. Değiştirdiğinizden emin olun `"input.pdf"` Gerçek PDF dosyanızın adıyla.
 
 ## Adım 3: SvgSaveOptions'ı örneklendirin
 
- Daha sonra, bir örnek oluşturmamız gerekiyor`SvgSaveOptions`Bu nesne, SVG dosyasının nasıl kaydedileceğini belirtmemize olanak tanır.
+Daha sonra, bir örnek oluşturmamız gerekiyor `SvgSaveOptions`Bu nesne, SVG dosyasının nasıl kaydedileceğini belirtmemize olanak tanır.
 
 ```csharp
 // SvgSaveOptions nesnesini örneklendir
 SvgSaveOptions saveOptions = new SvgSaveOptions();
 ```
 
- Bu satır, şunu başlatır:`SvgSaveOptions` Bir sonraki adımda yapılandıracağımız nesne.
+Bu satır, şunu başlatır: `SvgSaveOptions` Bir sonraki adımda yapılandıracağımız nesne.
 
 ## Adım 4: Kaydetme Seçeneklerini Yapılandırın
 
@@ -90,18 +92,18 @@ SvgSaveOptions saveOptions = new SvgSaveOptions();
 saveOptions.CompressOutputToZipArchive = false;
 ```
 
- Ayarlayarak`CompressOutputToZipArchive` ile`false`, çıktı SVG dosyasının sıkıştırılmış bir dosya yerine tek başına bir dosya olarak kaydedilmesini sağlıyoruz.
+Ayarlayarak `CompressOutputToZipArchive` ile `false`çıktı SVG dosyasının sıkıştırılmış bir dosya yerine tek başına bir dosya olarak kaydedilmesini sağlıyoruz.
 
 ## Adım 5: Çıktıyı SVG olarak kaydedin
 
- Son olarak, dönüştürülen SVG dosyasını kullanarak kaydedebiliriz`Save` yöntemi`Document` sınıf.
+Son olarak, dönüştürülen SVG dosyasını kullanarak kaydedebiliriz `Save` yöntemi `Document` sınıf.
 
 ```csharp
-//Çıktıyı SVG dosyalarında kaydedin
+// Çıktıyı SVG dosyalarında kaydedin
 doc.Save(dataDir + "PDFToSVG_out.svg", saveOptions);
 ```
 
- Bu satırda çıktı dosyasının adını şu şekilde belirtiyoruz:`"PDFToSVG_out.svg"`Bunu dilediğiniz gibi değiştirebilirsiniz.
+Bu satırda çıktı dosyasının adını şu şekilde belirtiyoruz: `"PDFToSVG_out.svg"`Bunu dilediğiniz gibi değiştirebilirsiniz.
 
 ## Çözüm
 
@@ -110,22 +112,24 @@ Ve işte karşınızda! Aspose.PDF for .NET kullanarak bir PDF dosyasını SVG f
 ## SSS
 
 ### Aspose.PDF for .NET nedir?
-Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
+Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan bir kütüphanedir.
 
 ### Birden fazla PDF dosyasını aynı anda dönüştürebilir miyim?
 Evet, bir dizindeki birden fazla PDF dosyası arasında geçiş yapabilir ve aynı yöntemi kullanarak her birini SVG'ye dönüştürebilirsiniz.
 
 ### Aspose.PDF için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/).
 
 ### Dönüştürme sırasında sorunlarla karşılaşırsam ne olur?
- Yardım isteyebilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/pdf/10) yardım için.
+Yardım isteyebilirsiniz [Aspose destek forumu](https://forum.aspose.com/c/pdf/10) yardım için.
 
 ### Aspose.PDF'yi ticari amaçlarla kullanabilir miyim?
-Evet, ticari kullanım için bir lisans satın alabilirsiniz.[Aspose satın alma sayfası](https://purchase.aspose.com/buy).
+Evet, ticari kullanım için bir lisans satın alabilirsiniz. [Aspose satın alma sayfası](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

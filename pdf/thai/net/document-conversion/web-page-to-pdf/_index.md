@@ -1,14 +1,16 @@
 ---
-title: หน้าเว็บเป็น PDF
-linktitle: หน้าเว็บเป็น PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีแปลงหน้าเว็บเป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้
-weight: 320
-url: /th/net/document-conversion/web-page-to-pdf/
+"description": "เรียนรู้วิธีแปลงหน้าเว็บเป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "หน้าเว็บเป็น PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "หน้าเว็บเป็น PDF"
+"url": "/th/net/document-conversion/web-page-to-pdf/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # หน้าเว็บเป็น PDF
@@ -22,7 +24,7 @@ url: /th/net/document-conversion/web-page-to-pdf/
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่จำเป็นสำหรับการเริ่มต้น:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่คือที่ที่คุณจะเขียนและดำเนินการโค้ด .NET
-2.  Aspose.PDF สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจตัวอย่างต่างๆ ได้ดีขึ้น
 4. การเข้าถึงอินเทอร์เน็ต: เนื่องจากเราจะดึงเนื้อหาจากเว็บเพจ ดังนั้นโปรดตรวจสอบให้แน่ใจว่าสภาพแวดล้อมการพัฒนาของคุณสามารถเข้าถึงอินเทอร์เน็ตได้
 
@@ -44,7 +46,7 @@ url: /th/net/document-conversion/web-page-to-pdf/
 
 ### นำเข้าเนมสเปซที่จำเป็น
 
- เมื่อเพิ่มห้องสมุดแล้วให้เปิด`Program.cs` ไฟล์และนำเข้าเนมสเปซที่จำเป็นที่ด้านบนของไฟล์:
+เมื่อเพิ่มห้องสมุดแล้วให้เปิด `Program.cs` ไฟล์และนำเข้าเนมสเปซที่จำเป็นที่ด้านบนของไฟล์:
 
 ```csharp
 using System.IO;
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // แทนที่ด้วยเ
 ขั้นต่อไป คุณจะต้องสร้างคำขอเพื่อดึงเนื้อหาจากเว็บเพจที่คุณต้องการแปลง โดยทำได้ดังนี้:
 
 ```csharp
-WebRequest request = WebRequest.Create("https://en.wikipedia.org/wiki/Main_Page");
+WebRequest request = WebRequest.Create("https://th.wikipedia.org/wiki/Main_Page);
 request.Credentials = CredentialCache.DefaultCredentials;
 ```
 
@@ -92,14 +94,14 @@ response.Close();
 
 ## ขั้นตอนที่ 4: โหลดเนื้อหา HTML ลงในหน่วยความจำ
 
-ตอนนี้เรามีเนื้อหา HTML แล้ว เราต้องโหลดมันเข้าใน`MemoryStream` เพื่อให้เราสามารถประมวลผลด้วย Aspose.PDF ได้:
+ตอนนี้เรามีเนื้อหา HTML แล้ว เราต้องโหลดมันลงใน `MemoryStream` เพื่อให้เราสามารถประมวลผลด้วย Aspose.PDF ได้:
 
 ```csharp
 MemoryStream stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(responseFromServer));
 HtmlLoadOptions options = new HtmlLoadOptions("https://th.wikipedia.org/wiki/");
 ```
 
- ในขั้นตอนนี้ เราจะแปลงการตอบสนองของสตริงเป็นอาร์เรย์ไบต์และโหลดลงใน`MemoryStream` . การ`HtmlLoadOptions` ช่วยให้เราสามารถระบุ URL ฐานสำหรับลิงก์สัมพันธ์ใด ๆ ใน HTML ได้
+ในขั้นตอนนี้ เราจะแปลงการตอบสนองของสตริงเป็นอาร์เรย์ไบต์และโหลดลงใน `MemoryStream`. การ `HtmlLoadOptions` ช่วยให้เราสามารถระบุ URL ฐานสำหรับลิงก์สัมพันธ์ใด ๆ ใน HTML ได้
 
 ## ขั้นตอนที่ 5: สร้างเอกสาร PDF
 
@@ -109,11 +111,11 @@ HtmlLoadOptions options = new HtmlLoadOptions("https://th.wikipedia.org/wiki/");
 Document pdfDocument = new Document(stream, options);
 ```
 
- บรรทัดโค้ดนี้จะเริ่มต้นสิ่งใหม่`Document` วัตถุซึ่งแสดงถึง PDF ที่เราจะสร้าง
+บรรทัดโค้ดนี้จะเริ่มต้นสิ่งใหม่ `Document` วัตถุซึ่งแสดงถึง PDF ที่เราจะสร้าง
 
 ## ขั้นตอนที่ 6: ตั้งค่าทิศทางหน้า
 
-หากคุณต้องการปรับแต่งเค้าโครงของ PDF เช่น ตั้งเป็นแนวนอน คุณสามารถทำได้โดยใช้โค้ดต่อไปนี้:
+หากคุณต้องการปรับแต่งเค้าโครงของ PDF เช่น ตั้งเป็นโหมดแนวนอน คุณสามารถทำได้โดยใช้โค้ดต่อไปนี้:
 
 ```csharp
 options.PageInfo.IsLandscape = true;
@@ -123,13 +125,13 @@ options.PageInfo.IsLandscape = true;
 
 ## ขั้นตอนที่ 7: บันทึก PDF
 
-ในที่สุด ก็ถึงเวลาบันทึกเอกสาร PDF ไปยังไดเร็กทอรีที่ระบุ:
+ในที่สุด ก็ถึงเวลาบันทึกเอกสาร PDF ไปยังไดเร็กทอรีที่ระบุแล้ว:
 
 ```csharp
 pdfDocument.Save(dataDir + "WebPageToPDF_out.pdf");
 ```
 
- บรรทัดนี้จะบันทึกไฟล์ PDF ที่มีชื่อ`WebPageToPDF_out.pdf` ในไดเร็กทอรีเอกสารที่คุณระบุ
+บรรทัดนี้จะบันทึกไฟล์ PDF ที่มีชื่อ `WebPageToPDF_out.pdf` ในไดเร็กทอรีเอกสารที่คุณระบุ
 
 ## ขั้นตอนที่ 8: จัดการข้อยกเว้น
 
@@ -161,16 +163,18 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช
 ใช่ ตราบใดที่หน้าเว็บสามารถเข้าถึงได้สาธารณะ คุณสามารถแปลงเป็น PDF โดยใช้ Aspose.PDF ได้
 
 ### มีการทดลองใช้ฟรีหรือไม่?
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีของ Aspose.PDF สำหรับ .NET ได้จาก[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีของ Aspose.PDF สำหรับ .NET ได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้จากที่ไหน
- คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ที่[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10).
+คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ที่ [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวได้อย่างไร?
- คุณสามารถสมัครขอใบอนุญาตชั่วคราวได้ที่[เว็บไซต์อาโพส](https://purchase.aspose.com/temporary-license/).
+คุณสามารถสมัครขอใบอนุญาตชั่วคราวได้ที่ [เว็บไซต์อาโพส](https://purchase-aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

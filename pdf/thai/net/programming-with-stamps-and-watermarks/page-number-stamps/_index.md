@@ -1,14 +1,16 @@
 ---
-title: แสตมป์หมายเลขหน้าในไฟล์ PDF
-linktitle: แสตมป์หมายเลขหน้าในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการเพิ่มแสตมป์หมายเลขหน้าลงในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ได้จากคู่มือที่ทำตามง่ายของเรา พร้อมด้วยตัวอย่างโค้ด
-weight: 160
-url: /th/net/programming-with-stamps-and-watermarks/page-number-stamps/
+"description": "เรียนรู้วิธีการเพิ่มแสตมป์หมายเลขหน้าลงในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ได้จากคู่มือที่ทำตามง่ายของเรา พร้อมด้วยตัวอย่างโค้ด"
+"linktitle": "แสตมป์หมายเลขหน้าในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "แสตมป์หมายเลขหน้าในไฟล์ PDF"
+"url": "/th/net/programming-with-stamps-and-watermarks/page-number-stamps/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แสตมป์หมายเลขหน้าในไฟล์ PDF
@@ -23,7 +25,7 @@ url: /th/net/programming-with-stamps-and-watermarks/page-number-stamps/
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในระบบของคุณแล้ว คุณจะเขียนและรันโค้ดได้ที่นี่
 2. .NET Framework: ความคุ้นเคยกับการเขียนโปรแกรม C# และ .NET framework เป็นสิ่งจำเป็น เนื่องจาก Aspose.PDF ได้รับการออกแบบมาสำหรับแอปพลิเคชัน .NET
-3.  ไลบรารี Aspose.PDF: คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF ได้จาก[เผยแพร่ PDF ของ Aspose](https://releases.aspose.com/pdf/net/). 
+3. ไลบรารี Aspose.PDF: คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF ได้จาก [เผยแพร่ PDF ของ Aspose](https://releases-aspose.com/pdf/net/). 
 4. ความเข้าใจพื้นฐานเกี่ยวกับ PDF: แม้ว่าคุณไม่จำเป็นต้องเป็นผู้เชี่ยวชาญ ความเข้าใจพื้นฐานเกี่ยวกับการทำงานของไฟล์ PDF จะช่วยให้คุณเข้าใจบทช่วยสอนได้ดีขึ้น
 
 เมื่อคุณตั้งค่าข้อกำหนดเบื้องต้นเหล่านี้เสร็จเรียบร้อยแล้ว คุณก็พร้อมเริ่มประทับหมายเลขหน้าได้แล้ว!
@@ -35,14 +37,14 @@ url: /th/net/programming-with-stamps-and-watermarks/page-number-stamps/
 ### สร้างโครงการใหม่
 
 1. เปิด Visual Studio
-2.  คลิ๊กที่นี่`File` -`New` -`Project`.
-3.  เลือกเทมเพลตที่เหมาะกับ C# (เช่น แอปพลิเคชันคอนโซล) ตั้งชื่อ และคลิก`Create`.
+2. คลิ๊กที่นี่ `File` - `New` - `Project`-
+3. เลือกเทมเพลตที่เหมาะกับ C# (เช่น แอปพลิเคชันคอนโซล) ตั้งชื่อ และคลิก `Create`-
 
 ### เพิ่มการอ้างอิง Aspose.PDF
 
 1. คลิกขวาที่ชื่อโครงการใน Solution Explorer
-2.  คลิ๊กที่นี่`Manage NuGet Packages`.
-3.  ค้นหา`Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
+2. คลิ๊กที่นี่ `Manage NuGet Packages`-
+3. ค้นหา `Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
 
 ```csharp
 using System.IO;
@@ -63,7 +65,7 @@ using Aspose.Pdf.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // อัพเดตเส้นทางนี้
 ```
 
- คำอธิบาย : แทนที่`"YOUR DOCUMENT DIRECTORY"` โดยมีเส้นทางไปยังไดเร็กทอรีที่มีไฟล์ PDF ของคุณ ซึ่งถือเป็นเรื่องสำคัญ เนื่องจากจะแจ้งให้โค้ดของคุณทราบว่าจะค้นหาไฟล์ที่คุณต้องการจัดการได้จากที่ใด
+คำอธิบาย : แทนที่ `"YOUR DOCUMENT DIRECTORY"` โดยมีเส้นทางไปยังไดเร็กทอรีที่มีไฟล์ PDF ของคุณ ซึ่งถือเป็นเรื่องสำคัญ เนื่องจากจะแจ้งให้โค้ดของคุณทราบว่าจะค้นหาไฟล์ที่คุณต้องการจัดการได้จากที่ใด
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร
 
@@ -73,7 +75,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // อัพเดตเส้นท
 Document pdfDocument = new Document(dataDir + "PageNumberStamp.pdf");
 ```
 
- คำอธิบาย: ที่นี่เราใช้`Document` คลาสที่ Aspose.PDF จัดเตรียมไว้เพื่อเปิดไฟล์ PDF เฉพาะของเรา ตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรงกับไฟล์จริงที่คุณมีในไดเร็กทอรีของคุณ
+คำอธิบาย: ที่นี่เราจะใช้ `Document` คลาสที่ Aspose.PDF จัดเตรียมไว้เพื่อเปิดไฟล์ PDF เฉพาะของเรา ตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรงกับไฟล์จริงที่คุณมีในไดเร็กทอรีของคุณ
 
 ## ขั้นตอนที่ 3: สร้างตราประทับหมายเลขหน้า
 
@@ -83,7 +85,7 @@ Document pdfDocument = new Document(dataDir + "PageNumberStamp.pdf");
 PageNumberStamp pageNumberStamp = new PageNumberStamp();
 ```
 
- คำอธิบาย :`PageNumberStamp`คลาสนี้จะอนุญาตให้เราสร้างสแตมป์ที่จะแสดงหมายเลขหน้าปัจจุบันเทียบกับจำนวนหน้าทั้งหมดในเอกสาร
+คำอธิบาย : `PageNumberStamp` คลาสนี้จะช่วยให้เราสร้างสแตมป์ที่จะแสดงหมายเลขหน้าปัจจุบันเทียบกับจำนวนหน้าทั้งหมดในเอกสารได้
 
 ## ขั้นตอนที่ 4: กำหนดค่าแสตมป์
 
@@ -102,7 +104,7 @@ pageNumberStamp.StartingNumber = 1;
 - `Format`:ที่นี่ คุณกำลังตั้งค่ารูปแบบให้แสดง "หน้า X จาก Y" ซึ่งคุณดึงจำนวนหน้าทั้งหมดในเอกสารแบบไดนามิก
 - `BottomMargin`: ปรับระยะห่างจากด้านล่างของหน้า
 - `HorizontalAlignment`:จัดแสตมป์ให้อยู่กึ่งกลางแนวนอน
-- `StartingNumber`: กำหนดหมายเลขหน้าเริ่มต้น โดยทั่วไปจะเริ่มจาก 1
+- `StartingNumber`:กำหนดหมายเลขหน้าเริ่มต้น โดยทั่วไปจะเริ่มจาก 1
 
 ## ขั้นตอนที่ 5: ตั้งค่าคุณสมบัติข้อความ
 
@@ -126,7 +128,7 @@ pageNumberStamp.TextState.ForegroundColor = Color.Aqua;
 pdfDocument.Pages[1].AddStamp(pageNumberStamp);
 ```
 
- คำอธิบาย: บรรทัดนี้จะเพิ่มตราประทับลงในหน้าแรกของไฟล์ PDF คุณสามารถปรับเปลี่ยนได้`Pages[1]` ดัชนีสำหรับหน้าอื่น ๆ ตามความจำเป็น
+คำอธิบาย: บรรทัดนี้จะเพิ่มตราประทับลงในหน้าแรกของไฟล์ PDF คุณสามารถปรับเปลี่ยนได้ `Pages[1]` ดัชนีสำหรับหน้าอื่น ๆ ตามความจำเป็น
 
 ## ขั้นตอนที่ 7: บันทึกเอกสารผลลัพธ์
 
@@ -150,19 +152,21 @@ Console.WriteLine("\nPage number stamp added successfully.\nFile saved at " + da
 ใช่! คุณสามารถเปลี่ยนแบบอักษร ขนาด สี และการจัดรูปแบบของหมายเลขหน้าได้ตามที่แสดงในคู่มือ
 
 ### Aspose.PDF ใช้ได้ฟรีหรือไม่?  
- Aspose.PDF เสนอให้ทดลองใช้งานฟรี แต่คุณจะต้องมีใบอนุญาตจึงจะสามารถใช้งานได้อย่างครอบคลุม ลองดู[หน้าซื้อ](https://purchase.aspose.com/buy) สำหรับข้อมูลเพิ่มเติม
+Aspose.PDF เสนอให้ทดลองใช้งานฟรี แต่คุณจะต้องมีใบอนุญาตจึงจะสามารถใช้งานได้อย่างครอบคลุม ลองใช้ดู [หน้าซื้อ](https://purchase.aspose.com/buy) สำหรับข้อมูลเพิ่มเติม
 
 ### จะเกิดอะไรขึ้นหากฉันประสบปัญหาในระหว่างการใช้งาน?  
- คุณสามารถเยี่ยมชม[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือ
+คุณสามารถเยี่ยมชม [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือ
 
 ### ฉันสามารถสร้างหมายเลขหน้าโดยอัตโนมัติสำหรับหลาย ๆ หน้าได้อย่างไร  
 โค้ดของคู่มือจะคำนวณจำนวนหน้าทั้งหมดโดยอัตโนมัติ ทำให้สามารถปรับแต่งหลายหน้าได้อย่างง่ายดาย
 
 ### ฉันสามารถใช้ Aspose.PDF ในภาษาการเขียนโปรแกรมอื่นได้หรือไม่  
-แม้ว่าคู่มือนี้จะเน้นที่ .NET แต่ Aspose ก็ยังมีไลบรารีสำหรับ Java, Python และอื่นๆ อีกมากมาย
+แม้ว่าคู่มือนี้จะเน้นที่ .NET แต่ Aspose ยังมีไลบรารีสำหรับ Java, Python และอื่นๆ อีกมากมาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

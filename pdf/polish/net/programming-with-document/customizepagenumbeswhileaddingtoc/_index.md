@@ -1,14 +1,16 @@
 ---
-title: Dostosuj numerację stron podczas dodawania spisu treści
-linktitle: Dostosuj numerację stron podczas dodawania spisu treści
-second_title: Aspose.PDF dla .NET API Reference
-description: W tym kompleksowym samouczku dowiesz się, jak dostosować numerację stron, dodając spis treści do dokumentów PDF za pomocą Aspose.PDF dla platformy .NET.
-weight: 100
-url: /pl/net/programming-with-document/customizepagenumbeswhileaddingtoc/
+"description": "W tym kompleksowym samouczku dowiesz się, jak dostosować numerację stron, dodając spis treści do dokumentów PDF za pomocą Aspose.PDF dla platformy .NET."
+"linktitle": "Dostosuj numerację stron podczas dodawania spisu treści"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dostosuj numerację stron podczas dodawania spisu treści"
+"url": "/pl/net/programming-with-document/customizepagenumbeswhileaddingtoc/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostosuj numerację stron podczas dodawania spisu treści
@@ -22,7 +24,7 @@ url: /pl/net/programming-with-document/customizepagenumbeswhileaddingtoc/
 Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio: Upewnij się, że masz zainstalowane Visual Studio na swoim komputerze. To będzie nasze środowisko programistyczne.
-2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 4. Przykładowy plik PDF: Przygotuj przykładowy plik PDF, z którym możemy pracować. Możesz utworzyć prosty plik lub pobrać istniejący plik PDF.
 
@@ -54,7 +56,7 @@ string inFile = dataDir + "42824.pdf";
 string outFile = dataDir + "42824_out.pdf";
 ```
 
- tym fragmencie kodu zamień`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, gdzie znajdują się Twoje pliki PDF. Pomoże nam to załadować istniejący plik PDF i zapisać zmodyfikowaną wersję.
+W tym fragmencie kodu zamień `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, gdzie znajdują się Twoje pliki PDF. Pomoże nam to załadować istniejący plik PDF i zapisać zmodyfikowaną wersję.
 
 ## Krok 2: Załaduj istniejący plik PDF
 
@@ -64,7 +66,7 @@ Teraz, gdy mamy już skonfigurowany katalog dokumentów, wczytajmy istniejący p
 Document doc = new Document(inFile);
 ```
 
- Tutaj tworzymy nowy`Document` obiekt, przekazując ścieżkę pliku wejściowego. Pozwala nam to programowo manipulować zawartością PDF.
+Tutaj tworzymy nowy `Document` obiekt, przekazując ścieżkę pliku wejściowego. Pozwala nam to programowo manipulować zawartością PDF.
 
 ## Krok 3: Wstaw nową stronę dla spisu treści
 
@@ -90,7 +92,7 @@ tocInfo.PageNumbersPrefix = "P";
 tocPage.TocInfo = tocInfo;
 ```
 
- W tym kroku tworzymy`TocInfo` obiekt i ustaw jego tytuł na „Spis treści”. Dostosowujemy również rozmiar i styl czcionki.`PageNumbersPrefix` jest ustawiony na „P”, co spowoduje dodanie prefiksu do numerów stron w spisie treści.
+W tym kroku tworzymy `TocInfo` obiekt i ustaw jego tytuł na „Spis treści”. Dostosowujemy również rozmiar i styl czcionki. `PageNumbersPrefix` jest ustawiony na „P”, co spowoduje dodanie prefiksu do numerów stron w spisie treści.
 
 ## Krok 5: Dodaj nagłówki do spisu treści
 
@@ -110,7 +112,7 @@ for (int i = 1; i < doc.Pages.Count; i++)
 }
 ```
 
- W tej pętli tworzymy nowy`Heading` obiekt dla każdej strony. Ustawiamy stronę docelową dla każdego nagłówka i określamy tekst do wyświetlenia, który jest „Strona X”, gdzie X jest numerem strony. Na koniec dodajemy nagłówek do strony TOC.
+W tej pętli tworzymy nowy `Heading` obiekt dla każdej strony. Ustawiamy stronę docelową dla każdego nagłówka i określamy tekst do wyświetlenia, który jest „Strona X”, gdzie X jest numerem strony. Na koniec dodajemy nagłówek do strony TOC.
 
 ## Krok 6: Zapisz zaktualizowany dokument
 
@@ -124,7 +126,7 @@ Ten wiersz zapisuje zmodyfikowany plik PDF z dołączonym spisem treści. Teraz 
 
 ## Wniosek
 
-masz to! Udało Ci się dostosować numery stron, dodając spis treści do dokumentu PDF za pomocą Aspose.PDF dla .NET. Ta potężna biblioteka ułatwia manipulowanie plikami PDF, a za pomocą kilku linijek kodu możesz znacznie ulepszyć swoje dokumenty. Niezależnie od tego, czy tworzysz raporty, e-booki, czy jakikolwiek inny typ pliku PDF, posiadanie spisu treści może znacznie usprawnić nawigację dla Twoich czytelników. Na co więc czekasz? Zanurz się w Aspose.PDF i zacznij tworzyć niesamowite pliki PDF już dziś!
+I masz to! Udało Ci się dostosować numery stron, dodając spis treści do dokumentu PDF za pomocą Aspose.PDF dla .NET. Ta potężna biblioteka ułatwia manipulowanie plikami PDF, a za pomocą kilku linijek kodu możesz znacznie ulepszyć swoje dokumenty. Niezależnie od tego, czy tworzysz raporty, e-booki, czy jakikolwiek inny typ pliku PDF, posiadanie spisu treści może znacznie usprawnić nawigację dla Twoich czytelników. Na co więc czekasz? Zanurz się w Aspose.PDF i zacznij tworzyć niesamowite pliki PDF już dziś!
 
 ## Najczęściej zadawane pytania
 
@@ -132,19 +134,21 @@ masz to! Udało Ci się dostosować numery stron, dodając spis treści do dokum
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Możesz uzyskać pomoc odwiedzając forum Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać pomoc odwiedzając forum Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Czy jest dostępna licencja tymczasowa?
- Tak, możesz poprosić o tymczasową licencję na Aspose.PDF[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, możesz poprosić o tymczasową licencję na Aspose.PDF [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę kupić Aspose.PDF dla .NET?
- Możesz zakupić Aspose.PDF dla .NET[Tutaj](https://purchase.aspose.com/buy).
+Możesz zakupić Aspose.PDF dla .NET [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

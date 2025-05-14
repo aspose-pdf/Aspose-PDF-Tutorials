@@ -1,14 +1,16 @@
 ---
-title: Konversi Formulir XFA Dinamis ke AcroForm Standar dalam PDF
-linktitle: Konversi Formulir XFA Dinamis ke AcroForm Standar dalam PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengonversi formulir XFA Dinamis ke AcroForms Standar dalam format PDF dengan mudah menggunakan Aspose.PDF untuk Java. Pastikan kompatibilitas dan aksesibilitas.
-weight: 12
-url: /id/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/
+"description": "Pelajari cara mengonversi formulir XFA Dinamis ke AcroForms Standar dalam format PDF dengan mudah menggunakan Aspose.PDF untuk Java. Pastikan kompatibilitas dan aksesibilitas."
+"linktitle": "Konversi Formulir XFA Dinamis ke AcroForm Standar dalam PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Konversi Formulir XFA Dinamis ke AcroForm Standar dalam PDF"
+"url": "/id/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi Formulir XFA Dinamis ke AcroForm Standar dalam PDF
@@ -23,7 +25,7 @@ Dalam dunia manipulasi dan pembuatan PDF, kebutuhan untuk mengonversi formulir D
 Sebelum kita masuk ke proses konversi, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda.
--  Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 - Java Integrated Development Environment (IDE): Anda dapat menggunakan IDE populer seperti Eclipse atau IntelliJ IDEA.
 
 ## Mengonversi XFA ke AcroForm
@@ -33,7 +35,7 @@ Sebelum kita masuk ke proses konversi, pastikan Anda memiliki prasyarat berikut:
 Untuk memulai konversi, buat proyek Java baru di IDE Anda dan tambahkan pustaka Aspose.PDF for Java ke proyek Anda. Kemudian, inisialisasi dokumen PDF sebagai berikut:
 
 ```java
-//Impor kelas yang diperlukan
+// Impor kelas yang diperlukan
 import com.aspose.pdf.Document;
 
 // Inisialisasi dokumen PDF
@@ -75,7 +77,7 @@ Mengonversi formulir XFA Dinamis ke AcroForms Standar dalam format PDF menjadi m
 
 ### Bagaimana cara mengakses dokumentasi Aspose.PDF untuk Java?
 
- Anda dapat mengakses dokumentasi untuk Aspose.PDF untuk Java[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat mengakses dokumentasi untuk Aspose.PDF untuk Java [Di Sini](https://reference.aspose.com/pdf/java/).
 
 ### Apakah Aspose.PDF untuk Java kompatibel dengan IDE Java yang berbeda?
 
@@ -91,10 +93,12 @@ Tentu saja! Anda dapat mengonversi beberapa formulir XFA dalam satu dokumen PDF 
 
 ### Di mana saya dapat mengunduh Aspose.PDF untuk Java?
 
- Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari[tautan ini](https://releases.aspose.com/pdf/java/).
+Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari [tautan ini](https://releases.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

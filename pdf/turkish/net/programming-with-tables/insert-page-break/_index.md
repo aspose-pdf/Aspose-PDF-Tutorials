@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına Sayfa Sonu Ekle
-linktitle: PDF Dosyasına Sayfa Sonu Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak bir PDF belgesine sayfa sonlarının nasıl ekleneceğini öğrenin. Sorunsuz PDF yönetimi için bu adım adım kılavuzu izleyin.
-weight: 110
-url: /tr/net/programming-with-tables/insert-page-break/
+"description": "Aspose.PDF for .NET kullanarak bir PDF belgesine sayfa sonlarının nasıl ekleneceğini öğrenin. Sorunsuz PDF yönetimi için bu adım adım kılavuzu izleyin."
+"linktitle": "PDF Dosyasına Sayfa Sonu Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Sayfa Sonu Ekle"
+"url": "/tr/net/programming-with-tables/insert-page-break/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Sayfa Sonu Ekle
@@ -21,10 +23,10 @@ PDF dosyasına dinamik olarak sayfa sonları eklemeyi hiç merak ettiniz mi? İs
 
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  .NET için Aspose.PDF: Kütüphaneyi şu adresten indirin:[Aspose.PDF İndirmeleri](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Kütüphaneyi şu adresten indirin: [Aspose.PDF İndirmeleri](https://releases.aspose.com/pdf/net/).
 2. IDE: Visual Studio gibi .NET uyumlu bir IDE'ye ihtiyacınız var.
 3. .NET Framework: .NET Framework'ün yüklü olduğundan emin olun.
-4.  Lisans: Lisansı şu adresten satın alabilirsiniz:[Aspose](https://purchase.aspose.com/buy) veya geçici bir lisans kullanın[Burada](https://purchase.aspose.com/temporary-license/).
+4. Lisans: Lisansı şu adresten satın alabilirsiniz: [Aspose](https://purchase.aspose.com/buy) veya geçici bir lisans kullanın [Burada](https://purchase.aspose.com/temporary-license/).
 5. Temel C# bilgisi: C#'a aşina olmanız konuyu daha kolay takip etmenize yardımcı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
@@ -44,7 +46,7 @@ Artık her şey ayarlandığına göre, bir tablo kullanarak bir PDF belgesine s
 
 ## Adım 1: Belgeyi Örneklendirin
 
- Aspose.PDF kullanarak herhangi bir PDF dosyasıyla çalışmanın ilk adımı, bir`Document` nesne. Bu, PDF dosyamızın temelini oluşturur.
+Aspose.PDF kullanarak herhangi bir PDF dosyasıyla çalışmanın ilk adımı, bir `Document` nesne. Bu, PDF dosyamızın temelini oluşturur.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -54,18 +56,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Burada PDF'imizin kaydedileceği dizini tanımlıyoruz ve ardından yeni bir tane oluşturuyoruz`Document` nesne. Bu nesne, içeriğimizi ekleyeceğimiz PDF dosyasını temsil edecektir.
+Burada PDF'imizin kaydedileceği dizini tanımlıyoruz ve ardından yeni bir tane oluşturuyoruz. `Document` nesne. Bu nesne, içeriğimizi ekleyeceğimiz PDF dosyasını temsil edecektir.
 
 ## Adım 2: Belgeye Yeni Bir Sayfa Ekleyin
 
- Bir kere sahip olduğumuzda`Document` nesne, tablomuzun ve içeriklerimizin yerleştirileceği bir sayfayı PDF'e eklememiz gerekiyor.
+Bir kere sahip olduğumuzda `Document` nesne, tablomuzun ve içeriklerimizin yerleştirileceği bir sayfayı PDF'e eklememiz gerekiyor.
 
 ```csharp
 // PDF dosyasının sayfa sayfa koleksiyonunu ekle
 doc.Pages.Add();
 ```
 
- The`Pages.Add()` yöntemi PDF belgesine yeni bir boş sayfa eklemek için kullanılır. Tablomuzu buraya yerleştireceğiz.
+The `Pages.Add()` yöntemi PDF belgesine yeni bir boş sayfa eklemek için kullanılır. Tablomuzu buraya yerleştireceğiz.
 
 ## Adım 3: Tabloyu Oluşturun ve Yapılandırın
 
@@ -85,7 +87,7 @@ tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Asp
 tab.ColumnWidths = "100 100";
 ```
 
- Burada bir tane yaratıyoruz`Table` nesneyi seçin ve tabloya ve hücrelerine kırmızı bir kenarlık uygulayın. Sütun genişlikleri şu şekilde ayarlanır:`100` her biri iki eşit büyüklükte sütun tanımlayan birimler.
+Burada bir tane yaratıyoruz `Table` nesneyi seçin ve tabloya ve hücrelerine kırmızı bir kenarlık uygulayın. Sütun genişlikleri şu şekilde ayarlanır: `100` her biri iki eşit büyüklükte sütun tanımlayan birimler.
 
 ## Adım 4: Tabloyu Satırlar ve Hücrelerle Doldurun
 
@@ -115,14 +117,14 @@ Tabloya 200 satır eklemek için bir döngü kullanırız. Her satır iki hücre
 
 ## Adım 5: Tabloyu Sayfaya Ekleyin
 
-Artık tablomuz hazır olduğuna göre, daha önce oluşturduğumuz sayfaya eklememiz gerekiyor.
+Artık tablomuz hazır olduğuna göre, bunu daha önce oluşturduğumuz sayfaya eklememiz gerekiyor.
 
 ```csharp
 // PDF dosyasının paragraf koleksiyonuna tablo ekle
 doc.Pages[1].Paragraphs.Add(tab);
 ```
 
- Tablo, PDF belgesinin ilk sayfasına şu şekilde eklenir:`Paragraphs.Add()` Yöntem.
+Tablo, PDF belgesinin ilk sayfasına şu şekilde eklenir: `Paragraphs.Add()` yöntem.
 
 ## Adım 6: Belgeyi Kaydedin
 
@@ -136,11 +138,11 @@ doc.Save(dataDir);
 Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir);
 ```
 
- The`Save()` method belgeyi belirtilen dizine kaydeder. PDF kaydedildikten sonra, konsol dosya yolunu gösteren bir onay mesajı yazdıracaktır.
+The `Save()` method belgeyi belirtilen dizine kaydeder. PDF kaydedildikten sonra, konsol dosya yolunu gösteren bir onay mesajı yazdıracaktır.
 
 ## Çözüm
 
-İşte karşınızda! Aspose.PDF for .NET kullanarak bir PDF belgesine sayfa sonlarını başarıyla eklediniz. Döngülerin, tablo yönetiminin ve sayfa oluşturma özelliklerinin gücünden yararlanarak, içerik büyüdükçe düzenlerini dinamik olarak ayarlayan PDF'ler oluşturabilirsiniz. İster raporlar oluşturmak, ister karmaşık tablolar oluşturmak veya okunabilir biçimlendirme sağlamak üzerinde çalışıyor olun, Aspose.PDF for .NET sizin için her şeyi yapar.
+Ve işte oldu! Aspose.PDF for .NET kullanarak bir PDF belgesine sayfa sonlarını başarıyla eklediniz. Döngülerin, tablo yönetiminin ve sayfa oluşturma özelliklerinin gücünden yararlanarak, içerik büyüdükçe düzenlerini dinamik olarak ayarlayan PDF'ler oluşturabilirsiniz. İster raporlar oluşturmak, ister karmaşık tablolar oluşturmak veya okunabilir biçimlendirme sağlamak üzerinde çalışıyor olun, Aspose.PDF for .NET sizin için her şeyi yapar.
 
 ## SSS
 
@@ -148,19 +150,21 @@ Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDi
 PDF'deki sayfa sonları görünür çizgiler oluşturmaz. Bunlar yalnızca içeriği yeni bir sayfaya taşır.
 
 ### PDF'ime üstbilgi ve altbilgi nasıl ekleyebilirim?  
- Başlıkları ve altbilgileri kullanarak kolayca ekleyebilirsiniz.`HeaderFooter` Aspose.PDF'deki sınıf.
+Başlıkları ve altbilgileri kullanarak kolayca ekleyebilirsiniz. `HeaderFooter` Aspose.PDF'deki sınıf.
 
 ### Aspose.PDF for .NET filigran eklemeyi destekliyor mu?  
 Evet, Aspose.PDF hem metin hem de resim filigranı eklemenize olanak tanır.
 
 ### Tablo kullanmadan sayfa sonu ekleyebilir miyim?  
- Kesinlikle! Yeni sayfaları doğrudan ekleyerek veya kullanarak sayfa sonları ekleyebilirsiniz.`IsInNewPage` diğer bağlamlarda mülkiyet.
+Kesinlikle! Yeni sayfaları doğrudan ekleyerek veya kullanarak sayfa sonları ekleyebilirsiniz. `IsInNewPage` diğer bağlamlarda mülkiyet.
 
 ### PDF düzenlerini dinamik olarak yönetmek mümkün müdür?  
 Evet, Aspose.PDF sayfa sonlarını, kenar boşluklarını ve daha fazlasını yönetmek de dahil olmak üzere düzeni dinamik olarak yönetmek için çeşitli araçlar sağlar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

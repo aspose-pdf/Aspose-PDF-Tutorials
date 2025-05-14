@@ -8,7 +8,9 @@ url: /java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Document Open Action from PDF File using Java
@@ -117,6 +119,7 @@ You can find comprehensive documentation and examples for Aspose.PDF for Java at
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

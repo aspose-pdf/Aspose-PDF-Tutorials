@@ -1,14 +1,16 @@
 ---
-title: Lấy các trường từ vùng trong tệp PDF
-linktitle: Lấy các trường từ vùng trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất các trường từ một vùng cụ thể trong tệp PDF một cách dễ dàng bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này.
-weight: 130
-url: /vi/net/programming-with-forms/get-fields-from-region/
+"description": "Tìm hiểu cách trích xuất các trường từ một vùng cụ thể trong tệp PDF một cách dễ dàng bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này."
+"linktitle": "Lấy các trường từ vùng trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Lấy các trường từ vùng trong tệp PDF"
+"url": "/vi/net/programming-with-forms/get-fields-from-region/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy các trường từ vùng trong tệp PDF
@@ -25,7 +27,7 @@ Trước khi bắt đầu cuộc phiêu lưu trích xuất PDF này, bạn cần
 
 1. Đã cài đặt Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio hoặc bất kỳ IDE tương thích nào trên máy của mình, vì đây sẽ là nơi bạn lập trình.
    
-2.  Aspose.PDF cho .NET: Bạn phải có quyền truy cập vào thư viện Aspose.PDF. Đừng lo lắng; nó rất dễ dàng để có được! Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn phải có quyền truy cập vào thư viện Aspose.PDF. Đừng lo lắng; nó rất dễ dàng để có được! Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# và .NET framework sẽ giúp bạn nắm bắt các khái niệm và mã hiệu quả hơn.
 
@@ -75,11 +77,11 @@ Sau đây là cách bạn có thể thiết lập đường dẫn:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục nơi tệp PDF của bạn nằm. Nó có thể đơn giản như`"C:/Documents/"` tùy thuộc vào cách sắp xếp tệp của bạn.
+- Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục nơi tệp PDF của bạn nằm. Nó có thể đơn giản như `"C:/Documents/"` tùy thuộc vào cách sắp xếp tập tin của bạn.
 
 ## Bước 3: Mở tệp PDF
 
- Bây giờ, hãy mở tệp PDF bằng Aspose.PDF. Đây là một quá trình đơn giản liên quan đến việc tạo một phiên bản của`Document` lớp và truyền đường dẫn đến tệp PDF của bạn.
+Bây giờ, hãy mở tệp PDF bằng Aspose.PDF. Đây là một quá trình đơn giản liên quan đến việc tạo một phiên bản của `Document` lớp và truyền đường dẫn đến tệp PDF của bạn.
 
 Sau đây là đoạn mã:
 
@@ -88,16 +90,16 @@ Sau đây là đoạn mã:
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "GetFieldsFromRegion.pdf");
 ```
 
--  Dòng này tạo ra một cái mới`Document` đối tượng bằng cách tải tệp PDF đã chỉ định. Đảm bảo rằng tên tệp PDF khớp chính xác, bao gồm cả phần mở rộng tệp.
+- Dòng này tạo ra một cái mới `Document` đối tượng bằng cách tải tệp PDF đã chỉ định. Đảm bảo rằng tên tệp PDF khớp chính xác, bao gồm cả phần mở rộng tệp.
 
 ## Bước 4: Xác định diện tích hình chữ nhật
 
- Tiếp theo là xác định vùng hình chữ nhật nơi chúng ta muốn trích xuất các trường.`Rectangle` lớp được sử dụng cho mục đích này. Bạn sẽ cần chỉ định tọa độ của hình chữ nhật.
+Tiếp theo là xác định vùng hình chữ nhật nơi chúng ta muốn trích xuất các trường. `Rectangle` lớp được sử dụng cho mục đích này. Bạn sẽ cần chỉ định tọa độ của hình chữ nhật.
 
 Sau đây là cách thực hiện:
 
 ```csharp
-//Tạo một đối tượng hình chữ nhật để lấy các trường trong khu vực đó
+// Tạo một đối tượng hình chữ nhật để lấy các trường trong khu vực đó
 Aspose.Pdf.Rectangle rectangle = new Aspose.Pdf.Rectangle(35, 30, 500, 500);
 ```
 
@@ -106,7 +108,7 @@ Aspose.Pdf.Rectangle rectangle = new Aspose.Pdf.Rectangle(35, 30, 500, 500);
 
 ## Bước 5: Truy cập vào biểu mẫu PDF
 
- Bây giờ, chúng ta cần truy cập vào biểu mẫu trong tài liệu PDF của mình. Điều này được thực hiện thông qua`Forms` tài sản của`Document` sự vật.
+Bây giờ, chúng ta cần truy cập vào biểu mẫu trong tài liệu PDF của mình. Điều này được thực hiện thông qua `Forms` tài sản của `Document` sự vật.
 
 Để truy cập vào biểu mẫu, hãy sử dụng mã sau:
 
@@ -119,7 +121,7 @@ Aspose.Pdf.Forms.Form form = doc.Form;
 
 ## Bước 6: Lấy các trường trong khu vực được chỉ định
 
- Đây là nơi phép thuật xảy ra! Chúng ta sẽ trích xuất các trường nằm trong hình chữ nhật được xác định bằng cách sử dụng`GetFieldsInRect` phương pháp.
+Đây là nơi phép thuật xảy ra! Chúng ta sẽ trích xuất các trường nằm trong hình chữ nhật được xác định bằng cách sử dụng `GetFieldsInRect` phương pháp.
 
 Sau đây là mã để thực hiện việc đó:
 
@@ -128,7 +130,7 @@ Sau đây là mã để thực hiện việc đó:
 Aspose.Pdf.Forms.Field[] fields = form.GetFieldsInRect(rectangle);
 ```
 
--  Điều này sẽ lấp đầy`fields`mảng với tất cả các trường nằm trong hình chữ nhật được chỉ định. Chúng tôi vừa yêu cầu Aspose tìm kiếm và nắm bắt các trường đó cho chúng tôi!
+- Điều này sẽ lấp đầy `fields` mảng với tất cả các trường nằm trong hình chữ nhật được chỉ định. Chúng tôi vừa yêu cầu Aspose tìm kiếm và nắm bắt các trường đó cho chúng tôi!
 
 ## Bước 7: Hiển thị Tên và Giá trị Trường
 
@@ -145,7 +147,7 @@ foreach (Field field in fields)
 }
 ```
 
--  Vòng lặp này lặp lại qua từng trường trong`fields` mảng, in ra cả tên và giá trị của từng trường vào bảng điều khiển.
+- Vòng lặp này lặp lại qua từng trường trong `fields` mảng, in ra cả tên và giá trị của từng trường vào bảng điều khiển.
 
 ## Phần kết luận
 
@@ -160,16 +162,18 @@ Aspose.PDF for .NET là một thư viện toàn diện cho phép các nhà phát
 Có! Aspose.PDF cho .NET có thể chạy trên nhiều nền tảng khác nhau, bao gồm cả Linux, theo thời gian chạy .NET phù hợp.
 
 ### Có bản dùng thử miễn phí không?
- Chắc chắn rồi! Bạn có thể truy cập một[dùng thử miễn phí](https://releases.aspose.com/) của Aspose.PDF dành cho .NET để bắt đầu khám phá các tính năng của nó.
+Chắc chắn rồi! Bạn có thể truy cập một [dùng thử miễn phí](https://releases.aspose.com/) của Aspose.PDF dành cho .NET để bắt đầu khám phá các tính năng của nó.
 
 ### Aspose.PDF hỗ trợ những ngôn ngữ lập trình nào?
 Aspose.PDF chủ yếu nhắm mục tiêu vào các ứng dụng .NET nhưng có thể sử dụng với bất kỳ ngôn ngữ nào tương thích với .NET, bao gồm C#, VB.NET và F#.
 
 ### Tôi có thể tìm tài liệu và hỗ trợ ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/pdf/net/) và tham gia cộng đồng để được hỗ trợ[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/pdf/net/) và tham gia cộng đồng để được hỗ trợ [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

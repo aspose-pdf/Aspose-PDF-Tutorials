@@ -1,14 +1,16 @@
 ---
-title: İmza Bilgilerini Çıkar
-linktitle: İmza Bilgilerini Çıkar
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF belgelerinden dijital imzaları ve sertifika bilgilerini nasıl çıkaracağınızı öğrenin. C# geliştiricileri için eksiksiz bir adım adım kılavuz.
-weight: 80
-url: /tr/net/programming-with-security-and-signatures/extract-signature-info/
+"description": "Aspose.PDF for .NET kullanarak PDF belgelerinden dijital imzaları ve sertifika bilgilerini nasıl çıkaracağınızı öğrenin. C# geliştiricileri için eksiksiz bir adım adım kılavuz."
+"linktitle": "İmza Bilgilerini Çıkar"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "İmza Bilgilerini Çıkar"
+"url": "/tr/net/programming-with-security-and-signatures/extract-signature-info/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İmza Bilgilerini Çıkar
@@ -21,10 +23,10 @@ Günümüzün dijital dünyasında, belgelerin güvenliğini ve bütünlüğün�
 
 Başlamadan önce, başlamak için her şeyin hazır olduğundan emin olalım.
 
--  Aspose.PDF for .NET Kütüphanesi: Eğer henüz sahip değilseniz, şu adresten indirebilirsiniz:[Aspose.PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/). 
+- Aspose.PDF for .NET Kütüphanesi: Eğer henüz sahip değilseniz, şu adresten indirebilirsiniz: [Aspose.PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/). 
 - .NET Geliştirme Ortamı: Visual Studio gibi bir IDE'ye ihtiyacınız olacak.
-- Temel C# Bilgisi: Bu eğitimdeki kod parçacıklarını anlamak için C#'a aşina olmak faydalı olacaktır.
-- Dijital İmzalı PDF Belgesi: Test amaçlı olarak, en az bir dijital imza içeren bir PDF dosyanız olduğundan emin olun.
+- Temel C# Bilgisi: Bu eğitimdeki kod parçacıklarını anlamak için C#'a aşina olmak faydalıdır.
+- Dijital İmzalı PDF Belgesi: Test amaçlı olarak en az bir dijital imza içeren bir PDF dosyanız olduğundan emin olun.
 
 ## Gerekli Ad Alanlarını İçe Aktarma
 
@@ -41,7 +43,7 @@ Artık temelleri kurduğumuza göre, PDF'den imza bilgilerini çıkarma sürecin
 
 ## Adım 1: Belge Dizinini Ayarlama
 
- Bir PDF belgesi üzerinde çalışmaya başlamadan önce, kullanacağınız dosyanın konumunu belirtmeniz gerekir.`"YOUR DOCUMENT DIRECTORY"` PDF'lerinizin saklandığı dizinin gerçek yolu ile.
+Bir PDF belgesi üzerinde çalışmaya başlamadan önce, kullanacağınız dosyanın konumunu belirtmeniz gerekir. `"YOUR DOCUMENT DIRECTORY"` PDF'lerinizin saklandığı dizinin gerçek yolu ile.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -53,7 +55,7 @@ Burada, PDF dosyasının bulunduğu dizini ve dosya adını belirtiyoruz. Dosyan
 
 ## Adım 2: PDF Belgesini Yükleme
 
- Artık dizininizi ayarladığınıza göre, bir sonraki adım PDF belgesini yüklemektir.`Document` Aspose.PDF'den sınıf.
+Artık dizininizi ayarladığınıza göre, bir sonraki adım PDF belgesini yüklemektir. `Document` Aspose.PDF'den sınıf.
 
 ```csharp
 using (Document pdfDocument = new Document(input))
@@ -62,7 +64,7 @@ using (Document pdfDocument = new Document(input))
 }
 ```
 
- Bu kod satırı bir`Document`PDF dosyasını temsil eden nesne.`using` ifadesi, belge işlendikten sonra kaynakların temizlenmesini sağlar.
+Bu kod satırı bir `Document` PDF dosyasını temsil eden nesne. `using` ifadesi, belge işlendikten sonra kaynakların temizlenmesini sağlar.
 
 ## Adım 3: Form Alanlarına Erişim
 
@@ -75,11 +77,11 @@ foreach (Field field in pdfDocument.Form)
 }
 ```
 
- Yineleme yoluyla`Form` mülkiyeti`Document` nesne, her form alanını inceleyerek imza alanı olup olmadığını kontrol edebiliriz.
+Yineleme yoluyla `Form` mülkiyeti `Document` nesne, her form alanını inceleyerek imza alanı olup olmadığını kontrol edebiliriz.
 
 ## Adım 4: İmza Alanlarını Tanımlama
 
- Form alanlarına eriştiğinizde, bir sonraki adım hangilerinin imza alanları olduğunu belirlemektir. Bunu, her alanı bir`SignatureField` nesne.
+Form alanlarına eriştiğinizde, bir sonraki adım hangilerinin imza alanları olduğunu belirlemektir. Bunu, her alanı bir `SignatureField` nesne.
 
 ```csharp
 SignatureField sf = field as SignatureField;
@@ -89,21 +91,21 @@ if (sf != null)
 }
 ```
 
- Burada şunu kullanıyoruz:`as` her form alanını bir anahtar kelimeye dönüştürmeye çalışmak için`SignatureField`Eğer oyuncu seçimi başarılı olursa, sahanın bir imza olduğunu anlarız.
+Burada şunu kullanıyoruz: `as` her form alanını bir anahtar kelimeye dönüştürmeye çalışmak için `SignatureField`Eğer oyuncu seçimi başarılı olursa, sahanın bir imza olduğunu anlarız.
 
 ## Adım 5: Sertifikayı Çıkarma
 
-İmza alanını tanımladığınıza göre, bir sonraki görev sertifikayı imzadan çıkarmaktır. Sertifikalar, imzalayan ve imzanın geçerliliği hakkında önemli bilgiler içerir.
+İmza alanını tanımladığınıza göre, bir sonraki görev sertifikayı imzadan çıkarmaktır. Sertifikalar imzalayan ve imzanın geçerliliği hakkında önemli bilgiler içerir.
 
 ```csharp
 Stream cerStream = sf.ExtractCertificate();
 ```
 
- The`ExtractCertificate` yöntem bir döndürür`Stream` sertifika verilerini içeren nesne. Bu akış, sertifikayı daha ileri analiz veya depolama için kaydetmek için kullanılabilir.
+The `ExtractCertificate` yöntem bir döndürür `Stream` sertifika verilerini içeren nesne. Bu akış, sertifikayı daha ileri analiz veya depolama için kaydetmek için kullanılabilir.
 
 ## Adım 6: Sertifikayı Bir Dosyaya Kaydetme
 
- Sertifikayı çıkardıktan sonra, son adım onu bir dosyaya kaydetmektir. Bu durumda, sertifikayı bir`.cer` dosya.
+Sertifikayı çıkardıktan sonra, son adım onu bir dosyaya kaydetmektir. Bu durumda, sertifikayı bir `.cer` dosya.
 
 ```csharp
 if (cerStream != null)
@@ -124,7 +126,7 @@ Bu kod bloğunda:
 
 1. Sertifika akışının boş olmadığını kontrol edin.
 2. Sertifika verilerini bir bayt dizisine oku.
-3.  Bayt dizisini bir diziye yazın`.cer` Belge dizinindeki dosya.
+3. Bayt dizisini bir diziye yazın `.cer` Belge dizinindeki dosya.
 
 ## Çözüm
 
@@ -145,10 +147,12 @@ Sertifikayı çıkarabilirsiniz ancak imzanın geçerliliğini doğrulamak, sert
 Evet, Aspose.PDF yalnızca imza alanlarına değil, PDF'deki çeşitli form alanlarına erişmenize ve bunları değiştirmenize olanak tanır.
 
 ### Çıkarılan sertifikanın detaylarını nasıl görebilirim?
- Sertifika bir kez kaydedildiğinde`.cer` Dosyayı herhangi bir sertifika görüntüleyicisini kullanarak açabilir veya daha detaylı inceleme için bir sistem sertifika deposuna aktarabilirsiniz.
+Sertifika bir kez kaydedildiğinde `.cer` Dosyayı herhangi bir sertifika görüntüleyicisini kullanarak açabilir veya daha detaylı inceleme için bir sistem sertifika deposuna aktarabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

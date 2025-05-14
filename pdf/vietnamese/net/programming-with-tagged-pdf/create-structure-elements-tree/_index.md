@@ -1,17 +1,19 @@
 ---
-title: Tạo Cấu trúc Cây Thành phần
-linktitle: Tạo Cấu trúc Cây Thành phần
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo cây thành phần cấu trúc trong tài liệu PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước này.
-weight: 70
-url: /vi/net/programming-with-tagged-pdf/create-structure-elements-tree/
+"description": "Tìm hiểu cách tạo cây thành phần cấu trúc trong tài liệu PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước này."
+"linktitle": "Tạo cây thành phần cấu trúc"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo cây thành phần cấu trúc"
+"url": "/vi/net/programming-with-tagged-pdf/create-structure-elements-tree/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo Cấu trúc Cây Thành phần
+# Tạo cây thành phần cấu trúc
 
 ## Giới thiệu
 
@@ -21,11 +23,11 @@ Khi làm việc với PDF, đặc biệt là đối với những người muố
 
 Trước khi đi sâu vào chi tiết của mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.PDF cho .NET: Đảm bảo rằng bạn đã cài đặt thư viện này. Bạn có thể tải xuống từ đây:[Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo rằng bạn đã cài đặt thư viện này. Bạn có thể tải xuống từ đây: [Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 2. Môi trường .NET: Cần có môi trường phát triển .NET đang hoạt động (như Visual Studio).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn nắm bắt các khái niệm một cách nhanh chóng.
 
- Nếu bạn chưa làm như vậy, bạn có thể muốn kiểm tra[tài liệu](https://reference.aspose.com/pdf/net/) để có thêm thông tin chi tiết.
+Nếu bạn chưa làm như vậy, bạn có thể muốn kiểm tra [tài liệu](https://reference.aspose.com/pdf/net/) để có thêm thông tin chi tiết.
 
 ## Nhập gói
 
@@ -51,11 +53,11 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn tệp thực tế của bạn. Đây là nơi tệp PDF cuối cùng của bạn sẽ được lưu trữ.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn tệp thực tế của bạn. Đây là nơi tệp PDF cuối cùng của bạn sẽ được lưu trữ.
 
 ## Bước 2: Tạo một tài liệu PDF
 
-Bây giờ là lúc tạo ra chính tài liệu đó. Hãy nghĩ về điều này như việc tạo ra trang đầu tiên của cuốn sách của bạn. 
+Bây giờ là lúc tạo ra tài liệu. Hãy nghĩ về điều này như việc tạo ra trang đầu tiên của cuốn sách của bạn. 
 
 ```csharp
 Document document = new Document();
@@ -177,14 +179,14 @@ Cứ như vậy, tài liệu của bạn sẽ chứa đầy nội dung có cấu
 
 ## Bước 12: Lưu tài liệu
 
-Sau tất cả những công sức khó khăn, đã đến lúc lưu lại sáng tạo của bạn. Hãy nghĩ về việc đặt cuốn sách của bạn lên kệ sau khi viết xong!
+Sau tất cả những công sức khó khăn, đã đến lúc lưu lại tác phẩm của bạn. Hãy nghĩ về việc đặt cuốn sách của bạn lên kệ sau khi viết xong!
 
 ```csharp
 // Lưu tài liệu PDF có gắn thẻ
 document.Save(dataDir + "StructureElementsTree.pdf");
 ```
 
-Lệnh này sẽ lưu tài liệu PDF mới có cấu trúc của bạn vào thư mục được chỉ định.
+Lệnh này sẽ lưu tài liệu PDF mới có cấu trúc của bạn vào thư mục đã chỉ định.
 
 ## Phần kết luận
 
@@ -196,19 +198,21 @@ Tạo cây thành phần cấu trúc với Aspose.PDF cho .NET giống như xây
 Aspose.PDF for .NET là một thư viện mạnh mẽ được sử dụng để tạo, thao tác và quản lý tài liệu PDF trong các ứng dụng .NET.
 
 ### Làm thế nào để bắt đầu sử dụng Aspose.PDF?
- Bắt đầu bằng cách tải xuống thư viện từ[Trang web Aspose](https://releases.aspose.com/pdf/net/) và thiết lập nó trong môi trường .NET của bạn.
+Bắt đầu bằng cách tải xuống thư viện từ [Trang web Aspose](https://releases.aspose.com/pdf/net/) và thiết lập nó trong môi trường .NET của bạn.
 
 ### Tôi có thể dùng thử Aspose.PDF trước khi mua không?
- Có! Bạn có thể dùng thử miễn phí bằng cách sử dụng[dùng thử miễn phí](https://releases.aspose.com/).
+Có! Bạn có thể dùng thử miễn phí bằng cách sử dụng [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể tìm trợ giúp về Aspose.PDF ở đâu?
- Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10) nơi bạn có thể đặt câu hỏi và chia sẻ hiểu biết.
+Để được hỗ trợ, hãy truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10) nơi bạn có thể đặt câu hỏi và chia sẻ hiểu biết.
 
 ### Tôi có thể xin cấp giấy phép tạm thời bằng cách nào?
- Bạn có thể nộp đơn xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể nộp đơn xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

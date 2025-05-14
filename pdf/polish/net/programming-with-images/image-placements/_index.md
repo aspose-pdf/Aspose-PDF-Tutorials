@@ -1,14 +1,16 @@
 ---
-title: Umieszczanie obrazów
-linktitle: Umieszczanie obrazów
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyodrębnić i manipulować umiejscowieniem obrazów w dokumentach PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami i fragmentami kodu.
-weight: 170
-url: /pl/net/programming-with-images/image-placements/
+"description": "Dowiedz się, jak wyodrębnić i manipulować umiejscowieniem obrazów w dokumentach PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami i fragmentami kodu."
+"linktitle": "Umieszczanie obrazów"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Umieszczanie obrazów"
+"url": "/pl/net/programming-with-images/image-placements/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Umieszczanie obrazów
@@ -21,10 +23,10 @@ Praca z obrazami w plikach PDF może być trudna, ale dzięki Aspose.PDF dla .NE
 
 Zanim przejdziemy do samouczka, jest kilka rzeczy, które musisz mieć na miejscu. Oto krótka lista kontrolna:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
 2. Środowisko programistyczne: Będziesz potrzebować programu Visual Studio lub innego środowiska IDE obsługującego platformę .NET zainstalowanego na swoim komputerze.
-3. Dokument PDF: Przygotuj przykładowy dokument PDF zawierający obrazy. W tym przykładzie użyjemy pliku o nazwie`ImagePlacement.pdf`.
-4. Podstawowa wiedza o języku C#: Chociaż niniejszy przewodnik jest przyjazny dla początkujących, podstawowa wiedza o języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
+3. Dokument PDF: Przygotuj przykładowy dokument PDF zawierający obrazy. W tym przykładzie użyjemy pliku o nazwie `ImagePlacement.pdf`.
+4. Podstawowa wiedza o języku C#: Choć niniejszy przewodnik jest przyjazny dla początkujących, podstawowa wiedza o języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
 ## Importuj pakiety
 
@@ -37,7 +39,7 @@ using System;
 using System.Drawing;
 ```
 
-Pakiety te umożliwiają pracę z plikami PDF (`Aspose.Pdf`), manipuluj rozmieszczeniem obrazów (`Aspose.Pdf.ImagePlacement`) i obsługiwać strumienie obrazów i grafikę (`System.Drawing` I`System.IO`).
+Pakiety te umożliwiają pracę z plikami PDF (`Aspose.Pdf`), manipuluj rozmieszczeniem obrazów (`Aspose.Pdf.ImagePlacement`) i obsługiwać strumienie obrazów i grafikę (`System.Drawing` I `System.IO`).
 
 Teraz, gdy mamy już wszystkie wymagania wstępne i pakiety, możemy omówić każdą część samouczka w formie prostego, łatwego do zrozumienia przewodnika.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "ImagePlacement.pdf");
 ```
 
- W tym kroku zdefiniujemy ścieżkę do pliku dokumentu PDF za pomocą`dataDir` następnie utworzenie nowego wystąpienia`Aspose.Pdf.Document` class. To pozwala nam załadować plik PDF do naszego programu. Proste, prawda? Tak jak otwieramy książkę, aby zacząć czytać, teraz jesteśmy gotowi, aby zbadać zawartość w środku.
+W tym kroku zdefiniujemy ścieżkę do pliku dokumentu PDF za pomocą `dataDir` a następnie utworzenie nowego wystąpienia `Aspose.Pdf.Document` class. To pozwala nam załadować plik PDF do naszego programu. Proste, prawda? Tak jak otwieramy książkę, aby zacząć czytać, teraz jesteśmy gotowi, aby zbadać zawartość w środku.
 
 ## Krok 2: Zainicjuj absorber umiejscowienia obrazu
 
@@ -60,7 +62,7 @@ Aby wyodrębnić obrazy, potrzebujemy czegoś, co nazywa się „Image Placement
 ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
 ```
 
- Tutaj tworzymy instancję`ImagePlacementAbsorber`. Ten obiekt będzie zbierał i przechowywał informacje o wszystkich umiejscowieniach obrazów na określonej stronie PDF. Wyobraź sobie skanowanie strony lupą i identyfikowanie wszystkich obrazów na niej!
+Tutaj tworzymy instancję `ImagePlacementAbsorber`Ten obiekt będzie zbierał i przechowywał informacje o wszystkich umiejscowieniach obrazów na określonej stronie PDF. Wyobraź sobie skanowanie strony lupą i identyfikowanie wszystkich obrazów na niej!
 
 ## Krok 3: Zaakceptuj Absorber na pierwszej stronie
 
@@ -70,7 +72,7 @@ Następnie musimy powiedzieć absorberowi, którą stronę pliku PDF zeskanować
 doc.Pages[1].Accept(abs);
 ```
 
- Ten`Accept` Metoda ta skanuje pierwszą stronę dokumentu PDF w poszukiwaniu obrazów i zapisuje wyniki w pliku`ImagePlacementAbsorber`To tak, jakby mówić lupie, gdzie ma szukać obrazów.
+Ten `Accept` Metoda ta skanuje pierwszą stronę dokumentu PDF w poszukiwaniu obrazów i zapisuje wyniki w pliku `ImagePlacementAbsorber`To tak, jakby mówić lupie, gdzie ma szukać obrazów.
 
 ## Krok 4: Przejrzyj położenie każdego obrazu
 
@@ -88,7 +90,7 @@ foreach (ImagePlacement imagePlacement in abs.ImagePlacements)
 }
 ```
 
-Ta pętla przechodzi przez każdy obraz znaleziony na stronie. Drukujemy szerokość, wysokość, dolny lewy x (LLX), dolny lewy y (LLY) i rozdzielczość obrazu (zarówno poziomą, jak i pionową). Te szczegóły pomagają zrozumieć rozmiar i pozycjonowanie każdego obrazu w pliku PDF.
+Ta pętla przechodzi przez każdy obraz znaleziony na stronie. Drukujemy szerokość, wysokość, lewy dolny x (LLX), lewy dolny y (LLY) i rozdzielczość obrazu (zarówno poziomą, jak i pionową). Te szczegóły pomagają zrozumieć rozmiar i pozycjonowanie każdego obrazu w pliku PDF.
 
 ## Krok 5: Wyodrębnij obraz z widocznymi wymiarami
 
@@ -104,7 +106,7 @@ using (MemoryStream imageStream = new MemoryStream())
 }
 ```
 
- Ten fragment kodu pobiera obraz z pliku PDF i skaluje go do rzeczywistych wymiarów zdefiniowanych w`ImagePlacement` obiekt. Zapisując obraz w strumieniu pamięci i skalując go, zapewniasz, że wyodrębniony obraz zachowa dokładny rozmiar, w jakim był wyświetlany w pliku PDF.
+Ten fragment kodu pobiera obraz z pliku PDF i skaluje go do rzeczywistych wymiarów zdefiniowanych w `ImagePlacement` obiekt. Zapisując obraz w strumieniu pamięci i skalując go, zapewniasz, że wyodrębniony obraz zachowa dokładny rozmiar, w jakim był wyświetlany w pliku PDF.
 
 ## Wniosek
 
@@ -113,22 +115,24 @@ Wyodrębnianie umiejscowień obrazów z dokumentu PDF za pomocą Aspose.PDF dla 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę wyodrębnić obrazy z konkretnej strony pliku PDF?  
- Tak, poprzez podanie numeru strony podczas korzystania z`Accept` Dzięki tej metodzie możesz skupić się na dowolnej konkretnej stronie.
+Tak, poprzez podanie numeru strony podczas korzystania z `Accept` Dzięki tej metodzie możesz skupić się na dowolnej konkretnej stronie.
 
 ### Jakie formaty obrazów są obsługiwane przy ekstrakcji?  
 Aspose.PDF obsługuje różne formaty, w tym PNG, JPEG, BMP i inne.
 
 ### Czy można manipulować wyodrębnionym obrazem?  
- Oczywiście! Po wyekstrahowaniu możesz użyć`System.Drawing` przestrzeń nazw do manipulowania obrazem.
+Oczywiście! Po wyekstrahowaniu możesz użyć `System.Drawing` przestrzeń nazw do manipulowania obrazem.
 
 ### Czy mogę wyodrębnić obrazy z plików PDF chronionych hasłem?  
 Tak, możesz to zrobić, ale przed wyodrębnieniem obrazów musisz odblokować plik PDF przy użyciu odpowiednich danych logowania.
 
 ### Czy Aspose.PDF dla .NET działa na wszystkich platformach .NET?  
 Tak, obsługuje .NET Framework, .NET Core i .NET 5 oraz nowsze wersje.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

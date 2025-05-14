@@ -1,14 +1,16 @@
 ---
-title: Добавить Java-скрипт в PDF-файл
-linktitle: Добавить PDF-файл Java Script
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как добавить JavaScript в PDF-файл с помощью Aspose.PDF для .NET. Пошаговое руководство с обучающими материалами по коду для сценариев на уровне документа и страницы.
-weight: 10
-url: /ru/net/programming-with-document/addjavascripttopage/
+"description": "Узнайте, как добавить JavaScript в PDF-файл с помощью Aspose.PDF для .NET. Пошаговое руководство с обучающими материалами по коду для сценариев на уровне документа и страницы."
+"linktitle": "Добавить файл PDF Java Script"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Добавить Java-скрипт в PDF-файл"
+"url": "/ru/net/programming-with-document/addjavascripttopage/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить Java-скрипт в PDF-файл
@@ -21,10 +23,10 @@ url: /ru/net/programming-with-document/addjavascripttopage/
 
 Прежде чем перейти к написанию кода, вам необходимо настроить несколько вещей:
 
--  Aspose.PDF для .NET: Загрузите библиотеку с сайта[Релизы Aspose](https://releases.aspose.com/pdf/net/) или получить[бесплатная пробная версия](https://releases.aspose.com/).
+- Aspose.PDF для .NET: Загрузите библиотеку с сайта [Релизы Aspose](https://releases.aspose.com/pdf/net/) или получить [бесплатная пробная версия](https://releases.aspose.com/).
 - Среда разработки: любая совместимая с .NET среда разработки, например Visual Studio.
 - Базовые знания C#: это руководство предполагает, что вы знакомы с базовым синтаксисом C#.
--  Временная лицензия (необязательно): Вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) если вы хотите избежать ограничений в процессе разработки.
+- Временная лицензия (необязательно): Вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/) если вы хотите избежать ограничений в процессе разработки.
 
 ## Импортные пакеты
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- В этом фрагменте кода мы используем`Document` класс для загрузки существующего PDF-файла из указанного каталога. Обязательно замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему PDF-файлу.
+В этом фрагменте кода мы используем `Document` класс для загрузки существующего PDF-файла из указанного каталога. Обязательно замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему PDF-файлу.
 
 ## Шаг 2: Добавьте JavaScript на уровне документа
 
@@ -73,7 +75,7 @@ JavascriptAction javaScript = new JavascriptAction("this.print({bUI:true,bSilent
 doc.OpenAction = javaScript;
 ```
 
- На этом этапе мы создаем`JavascriptAction` объект, который определяет функцию JavaScript для открытия диалогового окна печати при открытии документа.`doc.OpenAction` Затем этому действию JavaScript присваивается свойство.
+На этом этапе мы создаем `JavascriptAction` объект, который определяет функцию JavaScript для открытия диалогового окна печати при открытии документа. `doc.OpenAction` Затем этому действию JavaScript присваивается свойство.
 
 ## Шаг 3: Добавьте JavaScript на уровне страницы
 
@@ -91,7 +93,7 @@ doc.Pages[2].Actions.OnClose = new JavascriptAction("app.alert('Page 2 closed')"
 
 В этом фрагменте кода мы добавляем два действия JavaScript:
 1. Действие OnOpen: отображает предупреждение «Страница 2 открыта», когда пользователь открывает страницу 2.
-2. Действие OnClose: отображает предупреждение «Страница 2 закрыта», когда пользователь покидает страницу 2.
+2. Действие OnClose: отображает предупреждение «Страница 2 закрыта», когда пользователь уходит со страницы 2.
 
 Это добавляет слой интерактивности в ваш PDF. Представьте, что вы проводите пользователя через ряд шагов на разных страницах, с оповещениями, которые всплывают, когда он входит или покидает страницу.
 
@@ -111,7 +113,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nJavaScript added successfully to the PDF.\nFile saved at " + dataDir);
 ```
 
- В этом фрагменте мы сохраняем обновленный документ с добавленным JavaScript в новый файл с именем`"JavaScript-Added_out.pdf"`. Это гарантирует, что вы не перезапишете исходный файл, и у вас будет резервная копия для работы.
+В этом фрагменте мы сохраняем обновленный документ с добавленным JavaScript в новый файл с именем `"JavaScript-Added_out.pdf"`. Это гарантирует, что вы не перезапишете исходный файл, и у вас будет резервная копия для работы.
 
 ## Заключение
 
@@ -123,7 +125,7 @@ Console.WriteLine("\nJavaScript added successfully to the PDF.\nFile saved at " 
 Да, вы можете назначать различные действия JavaScript отдельным страницам или всему документу.
 
 ### Можно ли удалить JavaScript из PDF-файла после его добавления?
-Да, вы можете удалить или изменить существующие действия JavaScript, очистив`Actions` свойства документа или страницы.
+Да, вы можете удалить или изменить существующие действия JavaScript, очистив `Actions` свойства документа или страницы.
 
 ### Какие функции JavaScript можно использовать в PDF-файле?
 Вы можете использовать любой JavaScript, поддерживаемый движком JavaScript Adobe Acrobat, например, для печати, оповещений и манипуляций с формами.
@@ -133,9 +135,11 @@ Console.WriteLine("\nJavaScript added successfully to the PDF.\nFile saved at " 
 
 ### Могу ли я запускать действия JavaScript на основе ввода данных пользователем в PDF-файле?
 Да, вы можете привязать JavaScript к полям формы, чтобы инициировать действия на основе пользовательского ввода.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

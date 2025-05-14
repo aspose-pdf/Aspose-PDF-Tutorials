@@ -8,7 +8,9 @@ url: /java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add HTML Ordered List into Documents in Java
@@ -90,9 +92,11 @@ Aspose.PDF for Java is a commercial library, and you may need to purchase a lice
 ### Are there any other features provided by Aspose.PDF for Java?
 
 Yes, Aspose.PDF for Java offers a wide range of features for working with PDF documents, including text extraction, PDF conversion, and more. You can explore the documentation at [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) for detailed information.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

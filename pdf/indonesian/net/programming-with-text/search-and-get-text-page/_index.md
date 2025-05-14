@@ -1,14 +1,16 @@
 ---
-title: Cari dan Dapatkan Halaman Teks Dalam File PDF
-linktitle: Cari dan Dapatkan Halaman Teks Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mencari dan mendapatkan teks dari halaman tertentu dalam berkas PDF menggunakan Aspose.PDF untuk .NET.
-weight: 430
-url: /id/net/programming-with-text/search-and-get-text-page/
+"description": "Pelajari cara mencari dan mendapatkan teks dari halaman tertentu dalam berkas PDF menggunakan Aspose.PDF untuk .NET."
+"linktitle": "Cari dan Dapatkan Halaman Teks Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Cari dan Dapatkan Halaman Teks Dalam File PDF"
+"url": "/id/net/programming-with-text/search-and-get-text-page/"
+"weight": 430
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cari dan Dapatkan Halaman Teks Dalam File PDF
@@ -21,9 +23,9 @@ Pernahkah Anda merasa perlu mencari teks tertentu dalam dokumen PDF dan mengekst
 
 Sebelum kita mulai coding, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Aspose.PDF untuk Pustaka .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/) atau dapatkan versi uji coba gratis dari tautan yang sama. Untuk pembelian, kunjungi[Toko Aspose](https://purchase.aspose.com/buy).
+1. Aspose.PDF untuk Pustaka .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/) atau dapatkan versi uji coba gratis dari tautan yang sama. Untuk pembelian, kunjungi [Toko Aspose](https://purchase.aspose.com/buy).
 2. .NET Framework: Anda memerlukan lingkungan pengembangan .NET yang berfungsi seperti Visual Studio.
-3. File PDF: Anda memerlukan contoh file PDF tempat kita dapat mencari dan mengekstrak teks. Untuk tutorial ini, mari kita asumsikan file tersebut diberi nama`SearchAndGetTextPage.pdf`.
+3. File PDF: Anda memerlukan contoh file PDF tempat kita dapat mencari dan mengekstrak teks. Untuk tutorial ini, mari kita asumsikan file tersebut diberi nama `SearchAndGetTextPage.pdf`.
 
 ## Paket Impor
 
@@ -46,7 +48,7 @@ Sebelum berinteraksi dengan PDF Anda, Anda perlu menentukan jalur penyimpanan do
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  dataDir: Ini adalah jalur ke folder tempat file PDF Anda disimpan. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat PDF berada.
+- dataDir: Ini adalah jalur ke folder tempat file PDF Anda disimpan. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat PDF berada.
 
 ## Langkah 2: Muat Dokumen PDF
 
@@ -61,7 +63,7 @@ Document pdfDocument = new Document(dataDir + "SearchAndGetTextPage.pdf");
 
 ## Langkah 3: Buat Objek Penyerap Teks
 
- Itu`TextFragmentAbsorber`Kelas ini memungkinkan Anda mencari teks tertentu dalam PDF. Mari buat contoh kelas ini untuk menemukan semua contoh frasa pencarian tertentu.
+Itu `TextFragmentAbsorber` Kelas ini memungkinkan Anda mencari teks tertentu dalam PDF. Mari buat contoh kelas ini untuk menemukan semua contoh frasa pencarian tertentu.
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("Figure");
@@ -92,7 +94,7 @@ TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragmen
 
 ## Langkah 6: Ulangi Setiap Fragmen dan Ekstrak Data
 
-Sekarang kita akan mengulang melalui`textFragmentCollection` dan mengekstrak berbagai properti setiap segmen teks, seperti posisinya, detail font, dan warna.
+Sekarang kita akan mengulang melalui `textFragmentCollection` dan mengekstrak berbagai properti setiap segmen teks, seperti posisinya, detail font, dan warna.
 
 ```csharp
 foreach (TextFragment textFragment in textFragmentCollection)
@@ -117,7 +119,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
 - TextSegment: Setiap fragmen dapat memiliki beberapa segmen, yang mewakili bagian teks yang berbeda.
 - TextState: Ini menyediakan informasi terperinci tentang font, ukuran, dan warna teks.
 
-Dalam loop ini, kami mencetak detail seperti teks sebenarnya, posisinya (koordinat X dan Y), font, apakah font tertanam dalam PDF, dan warna latar depan teks.
+Dalam loop ini, kami mencetak rincian seperti teks sebenarnya, posisinya (koordinat X dan Y), font, apakah font tertanam dalam PDF, dan warna latar depan teks.
 
 ## Kesimpulan
 
@@ -126,22 +128,24 @@ Nah, itu dia! Anda sekarang telah berhasil mencari dan mengekstrak teks dari fil
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mencari beberapa frasa sekaligus?  
- Ya, Anda dapat mengubah kode untuk mencari beberapa frasa dengan membuat beberapa`TextFragmentAbsorber` objek.
+Ya, Anda dapat mengubah kode untuk mencari beberapa frasa dengan membuat beberapa `TextFragmentAbsorber` objek.
 
 ### Bagaimana cara mengekstrak teks dari halaman tertentu?  
- Anda dapat menargetkan halaman tertentu dengan menerapkan`TextFragmentAbsorber` ke satu halaman saja, bukan ke seluruh dokumen. Misalnya:`pdfDocument.Pages[1].Accept(textFragmentAbsorber);`.
+Anda dapat menargetkan halaman tertentu dengan menerapkan `TextFragmentAbsorber` ke satu halaman saja, bukan ke seluruh dokumen. Misalnya: `pdfDocument.Pages[1].Accept(textFragmentAbsorber);`.
 
 ### Apakah Aspose.PDF untuk .NET gratis?  
- Aspose.PDF adalah produk komersial, tetapi Anda dapat menggunakannya dengan[uji coba gratis](https://releases.aspose.com/).
+Aspose.PDF adalah produk komersial, tetapi Anda dapat menggunakannya dengan [uji coba gratis](https://releases.aspose.com/).
 
 ### Bisakah saya mengekstrak gambar dari PDF menggunakan Aspose.PDF?  
- Ya, Aspose.PDF memungkinkan Anda untuk mengekstrak gambar selain teks. Periksa[dokumentasi](https://reference.aspose.com/pdf/net/) untuk lebih jelasnya.
+Ya, Aspose.PDF memungkinkan Anda untuk mengekstrak gambar selain teks. Periksa [dokumentasi](https://reference.aspose.com/pdf/net/) untuk lebih jelasnya.
 
 ### Bagaimana jika saya membutuhkan bantuan atau dukungan lebih lanjut?  
- Anda selalu bisa mendapatkan bantuan dari[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Anda selalu bisa mendapatkan bantuan dari [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

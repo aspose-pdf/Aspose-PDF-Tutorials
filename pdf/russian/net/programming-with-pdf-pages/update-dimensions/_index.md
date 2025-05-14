@@ -1,14 +1,16 @@
 ---
-title: Обновить размеры страницы PDF
-linktitle: Обновить размеры страницы PDF
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как легко обновить размеры страницы PDF с помощью Aspose.PDF для .NET в этом подробном пошаговом руководстве.
-weight: 150
-url: /ru/net/programming-with-pdf-pages/update-dimensions/
+"description": "Узнайте, как легко обновить размеры страницы PDF с помощью Aspose.PDF для .NET в этом подробном пошаговом руководстве."
+"linktitle": "Обновить размеры страницы PDF"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Обновить размеры страницы PDF"
+"url": "/ru/net/programming-with-pdf-pages/update-dimensions/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обновить размеры страницы PDF
@@ -25,7 +27,7 @@ url: /ru/net/programming-with-pdf-pages/update-dimensions/
 
 2. .NET Framework: убедитесь, что в вашей системе установлена совместимая версия .NET Framework.
 
-3. Aspose.PDF для .NET: Вам необходимо загрузить и установить пакет Aspose.PDF. Вы можете легко получить этот пакет по следующей ссылке:[Загрузить Aspose.PDF для .NET](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF для .NET: Вам необходимо загрузить и установить пакет Aspose.PDF. Вы можете легко получить этот пакет по следующей ссылке: [Загрузить Aspose.PDF для .NET](https://releases.aspose.com/pdf/net/).
 
 4. Базовые навыки кодирования: владение основами программирования на C# будет иметь большое значение для понимания этого руководства.
 
@@ -55,7 +57,7 @@ url: /ru/net/programming-with-pdf-pages/update-dimensions/
 
 ### Импорт пространства имен
 
- В вашем`Program.cs` импортируйте пространство имен Aspose.PDF, чтобы получить доступ к его функциям:
+В вашем `Program.cs` импортируйте пространство имен Aspose.PDF, чтобы получить доступ к его функциям:
 
 ```csharp
 using System.IO;
@@ -75,7 +77,7 @@ using Aspose.Pdf;
 // Путь к каталогу документов.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Подумайте о`dataDir` как адрес вашего документа. Обязательно замените «ВАШ КАТАЛОГ ДОКУМЕНТОВ» на фактический путь, где находится ваш PDF-файл.
+Подумайте о `dataDir` как адрес вашего документа. Обязательно замените «ВАШ КАТАЛОГ ДОКУМЕНТОВ» на фактический путь, где находится ваш PDF-файл.
 
 ## Шаг 2: Откройте PDF-документ.
 
@@ -85,7 +87,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Открыть документ
 Document pdfDocument = new Document(dataDir + "UpdateDimensions.pdf");
 ```
- Здесь мы создаем новый`Document` объект, передавая ему путь к файлу PDF. Это позволяет нам работать с документом в нашем коде.
+Здесь мы создаем новый `Document` объект, передавая ему путь к файлу PDF. Это позволяет нам работать с документом в нашем коде.
 
 ## Шаг 3: Получите доступ к коллекции страниц
 
@@ -95,7 +97,7 @@ Document pdfDocument = new Document(dataDir + "UpdateDimensions.pdf");
 // Получить коллекцию страниц
 PageCollection pageCollection = pdfDocument.Pages;
 ```
- Представьте себе`PageCollection`как книжная полка, где каждая страница PDF — это книга. Вы можете легко перемещаться по страницам, чтобы найти ту, которую хотите изменить.
+Представьте себе `PageCollection` как книжная полка, где каждая страница PDF — это книга. Вы можете легко перемещаться по страницам, чтобы найти ту, которую хотите изменить.
 
 ## Шаг 4: Получите определенную страницу
 
@@ -150,19 +152,21 @@ System.Console.WriteLine("\nPage dimensions updated successfully.\nFile saved at
 Aspose.PDF для .NET — это мощная библиотека, которая позволяет разработчикам создавать, обрабатывать и конвертировать PDF-документы с использованием платформы .NET.
 
 ### Могу ли я использовать Aspose.PDF бесплатно?
- Да, Aspose предлагает бесплатную пробную версию. Вы можете получить ее здесь[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию. Вы можете получить ее здесь [здесь](https://releases.aspose.com/).
 
 ### Какие языки программирования поддерживает Aspose.PDF?
 Aspose.PDF поддерживает несколько языков программирования, включая C#, Java и Python.
 
 ### Где я могу найти дополнительную документацию по Aspose.PDF?
- Подробную документацию можно найти на Aspose.PDF[здесь](https://reference.aspose.com/pdf/net/).
+Подробную документацию можно найти на Aspose.PDF [здесь](https://reference.aspose.com/pdf/net/).
 
 ### Существует ли форум поддержки для пользователей Aspose.PDF?
- Да, у Aspose есть специальный форум поддержки, к которому вы можете получить доступ.[здесь](https://forum.aspose.com/c/pdf/10).
+Да, у Aspose есть специальный форум поддержки, к которому вы можете получить доступ. [здесь](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

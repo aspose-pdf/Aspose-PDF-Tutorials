@@ -1,34 +1,36 @@
 ---
-title: Javascript eltávolítása hozzáadása PDF-dokumentumhoz
-linktitle: Javascript eltávolítása hozzáadása a dokumentumhoz
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan adhat hozzá és távolíthat el JavaScriptet PDF-dokumentumhoz az Aspose.PDF for .NET használatával. Lépésről lépésre útmutató kóddal oktatóanyaggal a dokumentumszintű szkriptekhez.
-weight: 30
-url: /hu/net/programming-with-document/addremovejavascripttodoc/
+"description": "Tanuld meg, hogyan adhatsz hozzá és távolíthatsz el JavaScriptet PDF dokumentumokból az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató kód oktatóanyagokkal dokumentumszintű szkripteléshez."
+"linktitle": "Javascript hozzáadása/eltávolítása a dokumentumhoz"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Javascript hozzáadása és eltávolítása PDF dokumentumból"
+"url": "/hu/net/programming-with-document/addremovejavascripttodoc/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Javascript eltávolítása hozzáadása PDF-dokumentumhoz
+# Javascript hozzáadása és eltávolítása PDF dokumentumból
 
 ## Bevezetés
 
-Ebben az útmutatóban bemutatjuk, hogyan használhatja az Aspose.PDF for .NET fájlt JavaScript-fájl PDF-fájlba való beillesztéséhez, és hogyan távolíthatja el, ha szükséges. Ennek az oktatóanyagnak a végére világosan megérti, hogyan lehet könnyedén manipulálni a JavaScriptet PDF-fájlokban.
+Ebben az útmutatóban bemutatjuk, hogyan használhatod az Aspose.PDF for .NET fájlt JavaScript beszúrására egy PDF fájlba, és hogyan távolíthatod el azt szükség esetén. A bemutató végére világosan megérted majd, hogyan manipulálhatod könnyedén a JavaScriptet a PDF fájlokban.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, néhány dolgot be kell állítania:
+Mielőtt belemerülnénk a kódba, van néhány dolog, amit be kell állítanod:
 
-1.  Aspose.PDF for .NET: Az Aspose.PDF for .NET könyvtárat telepítenie kell a projektben. Ha még nincs meg, szerezze be a könyvtárat a[Aspose.PDF .NET letöltési oldalhoz](https://releases.aspose.com/pdf/net/).
-2. IDE vagy szövegszerkesztő: Használhat bármilyen .NET-kompatibilis IDE-t, például a Visual Studio-t.
-3. Alapvető C#-ismeretek: Ez az oktatóanyag feltételezi, hogy jól ismeri a C#-t, és ismeri a PDF-kezelést.
-4. Licenc: A korlátozások elkerülése érdekében érvényes licencet kell alkalmazni. Ideiglenes jogosítványt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF .NET-hez: A projektedben telepíteni kell az Aspose.PDF .NET-hez könyvtárat. Ha még nincs telepítve, töltsd le a könyvtárat innen: [Aspose.PDF .NET letöltési oldalhoz](https://releases.aspose.com/pdf/net/).
+2. IDE vagy szövegszerkesztő: Bármely .NET-kompatibilis IDE-t használhat, például a Visual Studio-t.
+3. C# alapismeretek: Ez az oktatóanyag feltételezi, hogy jártas vagy a C# használatában és ismered a PDF-szerkesztést.
+4. Engedély: A korlátozások elkerülése érdekében győződjön meg róla, hogy érvényes engedélyt igényel. Ideiglenes engedélyt szerezhet be a következő címen: [itt](https://purchase.aspose.com/temporary-license/).
 
 ## Csomagok importálása
 
-Az Aspose.PDF for .NET használatának megkezdéséhez importálnia kell a szükséges névtereket a projektbe. Íme, hogyan:
+Az Aspose.PDF for .NET használatának megkezdéséhez importálnia kell a szükséges névtereket a projektjébe. Így teheti meg:
 
 ```csharp
 using System.IO;
@@ -39,56 +41,56 @@ using Aspose.Pdf.Text;
 using System.Collections;
 ```
 
- Ez a két névtér elengedhetetlen.`Aspose.Pdf` lehetővé teszi a PDF dokumentumokkal való munkát, míg`System.Collections` JavaScript kulcsok kezelésére lesz használva.
+Ez a két névtér elengedhetetlen. `Aspose.Pdf` lehetővé teszi a PDF dokumentumokkal való munkát, miközben `System.Collections` JavaScript kulcsok kezelésére lesz használva.
 
-Bontsuk le a JavaScript PDF-fájlból való hozzáadásának és eltávolításának teljes folyamatát egyszerűen követhető lépésekre.
+Bontsuk le a JavaScript PDF-hez való hozzáadásának és eltávolításának teljes folyamatát könnyen követhető lépésekre.
 
-## 1. lépés: Új PDF-dokumentum inicializálása
+## 1. lépés: Új PDF dokumentum inicializálása
 
-Az első dolog, amit meg kell tennie, egy új PDF dokumentum létrehozása. Ez a dokumentum üres vászonként fog szolgálni a JavaScript hozzáadásához.
+Az első dolog, amit tenned kell, egy új PDF dokumentum létrehozása. Ez a dokumentum szolgál majd üres vászonként a JavaScript hozzáadásához.
 
 ```csharp
 Document doc = new Document();
 doc.Pages.Add();
 ```
 
- Itt inicializálunk egy újat`Document` objektumot, és adjunk hozzá egy üres oldalt. Tekintse ezt PDF-je alapjaként.
+Itt inicializálunk egy újat `Document` objektumot, és egy üres oldalt adsz hozzá. Gondolj erre úgy, mint a PDF alapjának.
 
-## 2. lépés: Adjon hozzá JavaScriptet a PDF-hez
+## 2. lépés: JavaScript hozzáadása a PDF-hez
 
-Most, hogy van egy dokumentumunk, ideje hozzáadni néhány JavaScriptet. A PDF-ekben található JavaScript használható egyéni viselkedések, például riasztások vagy űrlapellenőrzés hozzáadására.
+Most, hogy elkészült a dokumentumunk, itt az ideje, hogy JavaScriptet adjunk hozzá. A PDF-ekben található JavaScript segítségével egyéni viselkedéseket adhatunk hozzá, például riasztásokat vagy űrlapérvényesítést.
 
 ```csharp
 doc.JavaScript["func1"] = "function func1() { hello(); }";
 doc.JavaScript["func2"] = "function func2() { hello(); }";
 ```
 
-Ebben a kódrészletben két JavaScript-függvényt adunk (`func1` és`func2` ) a PDF-be. Ezek a funkciók különféle feladatokat hajthatnak végre az Ön igényeitől függően. Itt csak egy helyőrző függvényt hívunk meg`hello()`.
+Ebben a kódrészletben két JavaScript függvényt adunk hozzá (`func1` és `func2`) a PDF-hez. Ezek a függvények az igényeidtől függően különféle feladatokat hajthatnak végre. Itt csak egy helykitöltő függvényt hívunk meg, amelynek neve `hello()`.
 
-## 3. lépés: Mentse el a PDF-fájlt JavaScript segítségével
+## 3. lépés: Mentse el a PDF-et JavaScript használatával
 
-Miután hozzáadta a kívánt JavaScriptet, ideje elmenteni a PDF-fájlt.
+Miután hozzáadtad a kívánt JavaScriptet, itt az ideje menteni a PDF-et.
 
 ```csharp
 doc.Save(dataDir + "AddJavascript.pdf");
 ```
 
- Ezzel elmenti a dokumentumot JavaScripttel a név alatt`AddJavascript.pdf` a megadott könyvtárban (`dataDir`).
+Ez a dokumentumot JavaScript-tel menti el a következő néven: `AddJavascript.pdf` a megadott könyvtárban (`dataDir`).
 
-## 4. lépés: Töltse be és tekintse meg a JavaScriptet a meglévő PDF-ben
+## 4. lépés: JavaScript betöltése és megtekintése a meglévő PDF-ben
 
-Tegyük fel, hogy ellenőriznie kell vagy módosítania kell a JavaScript-függvényeket egy meglévő PDF-ben. Az első lépés a PDF-fájl betöltése és a JavaScript-kulcsok elérése.
+Tegyük fel, hogy ellenőriznie vagy módosítania kell a JavaScript függvényeket egy meglévő PDF-ben. Az első lépés a PDF fájl betöltése és a JavaScript kulcsok elérése.
 
 ```csharp
 Document doc1 = new Document(dataDir + "AddJavascript.pdf");
 IList keys = (System.Collections.IList)doc1.JavaScript.Keys;
 ```
 
- Feltöltjük a meglévőt`AddJavascript.pdf` és a JavaScript kulcsok listában való tárolása. A`Keys` tulajdonság a dokumentumhoz csatolt összes JavaScript-függvény nevét adja vissza.
+A meglévőket töltjük fel `AddJavascript.pdf` és a JavaScript kulcsok egy listában történő tárolása. `Keys` A tulajdonság visszaadja a dokumentumhoz csatolt összes JavaScript függvény nevét.
 
-## 5. lépés: Jelenítse meg a JavaScript függvényeket
+## 5. lépés: JavaScript függvények megjelenítése
 
-Ezután ismételgethetjük a JavaScript függvényeket, hogy megnézzük, mi érhető el a dokumentumban.
+Ezután végiglépkedhetünk a JavaScript függvényeken, hogy lássuk, mi érhető el a dokumentumban.
 
 ```csharp
 Console.WriteLine("=============================== ");
@@ -98,22 +100,22 @@ foreach (string key in keys)
 }
 ```
 
-Ez minden JavaScript-függvény nevét és a hozzá tartozó kódot kinyomtatja a konzolra. Hasznos, ha ellenőrizni szeretné, hogy jelenleg milyen funkciók vannak a dokumentumban.
+Ez kinyomtatja az egyes JavaScript függvények nevét és a hozzájuk tartozó kódot a konzolra. Hasznos, ha ellenőrizni szeretnéd, hogy milyen függvények vannak jelenleg a dokumentumban.
 
-## 6. lépés: Távolítsa el a JavaScriptet a PDF-ből
+## 6. lépés: JavaScript eltávolítása a PDF-ből
 
- Tegyük fel, hogy el szeretne távolítani egy adott JavaScript-függvényt, mint pl`func1`. Ezt a következőképpen teheti meg:
+Tegyük fel, hogy el szeretnél távolítani egy adott JavaScript függvényt, például `func1`Így teheted ezt meg:
 
 ```csharp
 doc1.JavaScript.Remove("func1");
 Console.WriteLine("Key 'func1' removed ");
 ```
 
- A`Remove` metódus a JavaScript függvény nevét veszi argumentumként, és törli a dokumentumból.
+A `Remove` A metódus argumentumként fogadja a JavaScript függvény nevét, és törli azt a dokumentumból.
 
-## 7. lépés: Ellenőrizze a JavaScript eltávolítását
+## 7. lépés: A JavaScript eltávolításának ellenőrzése
 
- A JavaScript eltávolítása után a fennmaradó függvényeket újranyomtathatja ennek megerősítésére`func1` sikeresen törölve lett.
+JavaScript eltávolítása után újra kinyomtathatja a fennmaradó függvényeket annak megerősítéséhez, hogy `func1` sikeresen törölve lett.
 
 ```csharp
 Console.WriteLine("=============================== ");
@@ -124,31 +126,33 @@ foreach (string key in keys)
 Console.WriteLine("Javascript added/removed successfully.");
 ```
 
-A kód utolsó része biztosítja, hogy minden a helyén legyen, és a JavaScript-funkciók megfelelően frissüljenek.
+A kód ezen utolsó része biztosítja, hogy minden a helyén legyen, és a JavaScript függvények megfelelően frissüljenek.
 
 ## Következtetés
 
-Gratulálok! Most tanulta meg, hogyan lehet JavaScriptet hozzáadni és eltávolítani egy PDF-dokumentumból az Aspose.PDF for .NET használatával. Ez a hatékony funkció számos feladathoz használható, a dinamikus üzenetek hozzáadásától kezdve az egyéni számítások vagy ellenőrzések elvégzéséig. A JavaScript PDF-ben történő manipulálásával jelentősen javíthatja a felhasználói élményt.
+Gratulálunk! Most megtanultad, hogyan adhatsz hozzá és távolíthatsz el JavaScript kódot egy PDF dokumentumból az Aspose.PDF for .NET segítségével. Ez a hatékony funkció számos feladatra használható, a dinamikus üzenetek hozzáadásától kezdve az egyéni számítások elvégzéséig vagy érvényesítésekig. A JavaScript PDF-ben történő manipulálásával jelentősen javíthatod a felhasználói élményt.
 
 ## GYIK
 
 ### Hozzáadhatok több JavaScript függvényt egyetlen PDF-hez?
- Teljesen! Annyi JavaScript függvényt adhat hozzá, amennyire szüksége van a`doc.JavaScript` gyűjtemény.
+Természetesen! Annyi JavaScript függvényt adhatsz hozzá, amennyire szükséged van a használatával `doc.JavaScript` gyűjtemény.
 
-### Mi történik, ha megpróbálok eltávolítani egy nem létező JavaScript-függvényt?
- Ha a függvény nem létezik, a`Remove` A módszer nem ad hibát, de nem is távolít el semmit.
+### Mi történik, ha megpróbálok eltávolítani egy nem létező JavaScript függvényt?
+Ha a függvény nem létezik, akkor a `Remove` A metódus nem dob hibát, de nem is távolít el semmit.
 
-### Lehetséges a JavaScript futtatása a PDF megnyitása után?
-Igen! Beállíthatja, hogy a JavaScript bizonyos triggereken fusson, mint például a dokumentum megnyitása vagy egy gombra kattintás.
+### Lehetséges JavaScriptet futtatni, amint a PDF megnyílik?
+Igen! Beállíthatja, hogy a JavaScript bizonyos eseményekre fusson, például a dokumentum megnyitásakor vagy egy gombra kattintva.
 
-### Szerkeszthetem a JavaScriptet, miután hozzáadta a PDF-hez?
-Igen, betölthet egy meglévő PDF-et, hozzáférhet a JavaScripthez, módosíthatja a kódot, és újra mentheti a dokumentumot.
+### Szerkeszthetem a JavaScriptet, miután hozzáadtam a PDF-hez?
+Igen, betölthet egy meglévő PDF-et, hozzáférhet a JavaScriptjéhez, módosíthatja a kódot, és újra mentheti a dokumentumot.
 
-### A JavaScript eltávolítása hatással van a PDF-tartalom többi részére?
+### A JavaScript eltávolítása befolyásolja a PDF többi tartalmát?
 Nem, a JavaScript eltávolítása csak a szkriptet érinti. A PDF tartalma változatlan marad.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

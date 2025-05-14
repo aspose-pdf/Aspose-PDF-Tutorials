@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove Tables from a PDF Document Using Aspose.PDF for Java
 
@@ -166,7 +168,11 @@ Ensure your code handles nested structures appropriately, potentially by recursi
 - **Free Trial**: [Get Started with a Free Trial](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

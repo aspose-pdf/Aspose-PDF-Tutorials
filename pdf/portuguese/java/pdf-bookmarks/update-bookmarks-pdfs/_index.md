@@ -1,32 +1,34 @@
 ---
-title: Atualizar marcadores em PDFs
-linktitle: Atualizar marcadores em PDFs
-second_title: API de processamento de PDF Java Aspose.PDF
-description: Aprenda como atualizar marcadores de PDF de forma eficiente usando Aspose.PDF para Java. Nosso guia passo a passo simplifica o processo.
-weight: 16
-url: /pt/java/pdf-bookmarks/update-bookmarks-pdfs/
+"description": "Aprenda a atualizar marcadores de PDF com eficiência usando o Aspose.PDF para Java. Nosso guia passo a passo simplifica o processo."
+"linktitle": "Atualizar favoritos em PDFs"
+"second_title": "API de processamento de PDF Java Aspose.PDF"
+"title": "Atualizar favoritos em PDFs"
+"url": "/pt/java/pdf-bookmarks/update-bookmarks-pdfs/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Atualizar marcadores em PDFs
+# Atualizar favoritos em PDFs
 
 
 ## Introdução
 
-Neste tutorial, exploraremos como atualizar marcadores em PDFs usando o Aspose.PDF para Java, uma poderosa biblioteca Java para trabalhar com documentos PDF. Os marcadores são essenciais para melhorar a navegação e a usabilidade de arquivos PDF, e o Aspose.PDF para Java fornece uma maneira conveniente de modificá-los programaticamente.
+Neste tutorial, exploraremos como atualizar marcadores em PDFs usando o Aspose.PDF para Java, uma poderosa biblioteca Java para trabalhar com documentos PDF. Os marcadores são essenciais para aprimorar a navegação e a usabilidade de arquivos PDF, e o Aspose.PDF para Java oferece uma maneira conveniente de modificá-los programaticamente.
 
-## Compreendendo Aspose.PDF para Java
+## Compreendendo o Aspose.PDF para Java
 
-Aspose.PDF para Java é uma biblioteca de manipulação de PDF rica em recursos que permite aos desenvolvedores criar, editar e manipular documentos PDF em aplicativos Java. Ela oferece uma ampla gama de recursos, incluindo a capacidade de trabalhar com marcadores, que são links interativos ou contornos que fornecem um índice para arquivos PDF.
+Aspose.PDF para Java é uma biblioteca de manipulação de PDF rica em recursos que permite aos desenvolvedores criar, editar e manipular documentos PDF em aplicativos Java. Ela oferece uma ampla gama de recursos, incluindo a possibilidade de trabalhar com marcadores, que são links ou estruturas interativas que fornecem um sumário para arquivos PDF.
 
 ## Pré-requisitos
 
 Antes de começarmos o tutorial, você precisará dos seguintes pré-requisitos:
 
-- Uma compreensão básica da programação Java.
+- Um conhecimento básico de programação Java.
 - Java Development Kit (JDK) instalado no seu sistema.
 - Ambiente de Desenvolvimento Integrado (IDE) como IntelliJ IDEA ou Eclipse.
 
@@ -38,7 +40,7 @@ Vamos começar configurando nosso ambiente de desenvolvimento:
 2. Crie um novo projeto Java.
 3. Adicione Aspose.PDF para Java ao seu projeto.
 
-## Criando um projeto Java
+## Criando um Projeto Java
 
 Agora, vamos criar um novo projeto Java no seu IDE:
 
@@ -51,7 +53,7 @@ Agora, vamos criar um novo projeto Java no seu IDE:
 
 Para trabalhar com Aspose.PDF para Java, você precisa adicionar a biblioteca ao seu projeto:
 
-1.  Baixe a biblioteca Aspose.PDF para Java em[aqui](https://releases.aspose.com/pdf/java/).
+1. Baixe a biblioteca Aspose.PDF para Java em [aqui](https://releases.aspose.com/pdf/java/).
 2. Adicione o arquivo JAR ao classpath do seu projeto.
 
 ## Atualizando marcadores em PDFs
@@ -63,13 +65,13 @@ Agora, vamos nos aprofundar na atualização de favoritos em PDFs usando o Aspos
 Para começar, precisamos carregar um documento PDF existente que contenha marcadores:
 
 ```java
-// Carregue o documento PDF
+// Carregar o documento PDF
 Document pdfDocument = new Document("example.pdf");
 ```
 
 ### Modificando marcadores
 
-Em seguida, podemos modificar os marcadores conforme necessário. Por exemplo, vamos renomear um marcador existente:
+Em seguida, podemos modificar os favoritos conforme necessário. Por exemplo, vamos renomear um favorito existente:
 
 ```java
 // Acesse o primeiro marcador
@@ -79,7 +81,7 @@ bookmarks.setTitle("New Bookmark Title");
 
 ### Salvando o PDF atualizado
 
-Após fazer as alterações necessárias, salve o documento PDF atualizado:
+Depois de fazer as alterações necessárias, salve o documento PDF atualizado:
 
 ```java
 pdfDocument.save("updated_example.pdf");
@@ -87,25 +89,25 @@ pdfDocument.save("updated_example.pdf");
 
 ## Executando e testando o aplicativo
 
-Agora, você pode executar seu aplicativo Java para atualizar marcadores em PDFs. Teste o aplicativo para garantir que os marcadores foram atualizados com sucesso.
+Agora, você pode executar seu aplicativo Java para atualizar os favoritos em PDFs. Teste o aplicativo para garantir que os favoritos foram atualizados com sucesso.
 
 ## Conclusão
 
-Neste tutorial, aprendemos como atualizar marcadores em PDFs usando Aspose.PDF para Java. Esta biblioteca poderosa simplifica o processo de trabalhar com documentos PDF e permite que você aprimore a navegação e a usabilidade dos seus arquivos PDF.
+Neste tutorial, aprendemos como atualizar marcadores em PDFs usando o Aspose.PDF para Java. Esta poderosa biblioteca simplifica o processo de trabalho com documentos PDF e permite aprimorar a navegação e a usabilidade dos seus arquivos PDF.
 
 ## Perguntas frequentes
 
 ### Como posso adicionar novos marcadores a um PDF usando o Aspose.PDF para Java?
 
-Você pode adicionar novos marcadores a um PDF usando o Aspose.PDF para Java criando novos itens de estrutura de tópicos e adicionando-os à coleção de estrutura de tópicos do documento PDF. Isso permite que você crie um índice ou estrutura de navegação para seu PDF.
+Você pode adicionar novos marcadores a um PDF usando o Aspose.PDF para Java criando novos itens de estrutura de tópicos e adicionando-os à coleção de estruturas de tópicos do documento PDF. Isso permite criar um sumário ou uma estrutura de navegação para o seu PDF.
 
 ### O Aspose.PDF para Java é adequado para lidar com grandes documentos PDF?
 
-Sim, o Aspose.PDF para Java é capaz de manipular documentos PDF grandes de forma eficiente. Ele foi projetado para trabalhar com PDFs de vários tamanhos e complexidades, tornando-o adequado para uma ampla gama de aplicações.
+Sim, o Aspose.PDF para Java é capaz de lidar com documentos PDF grandes com eficiência. Ele foi projetado para funcionar com PDFs de diversos tamanhos e complexidades, tornando-o adequado para uma ampla gama de aplicações.
 
-### Posso automatizar atualizações de favoritos no processamento em lote usando Aspose.PDF para Java?
+### Posso automatizar atualizações de favoritos no processamento em lote usando o Aspose.PDF para Java?
 
-Sim, você pode automatizar atualizações de favoritos em processamento em lote usando Aspose.PDF para Java. Você pode criar um programa Java para iterar por uma coleção de arquivos PDF e atualizar favoritos conforme necessário.
+Sim, você pode automatizar atualizações de favoritos no processamento em lote usando o Aspose.PDF para Java. Você pode criar um programa Java para iterar por uma coleção de arquivos PDF e atualizar os favoritos conforme necessário.
 
 ### Há alguma limitação ou restrição ao usar o Aspose.PDF para Java para atualizações de favoritos?
 
@@ -113,10 +115,12 @@ Embora o Aspose.PDF para Java seja uma biblioteca versátil, é essencial revisa
 
 ### Onde posso encontrar mais recursos e documentação para Aspose.PDF para Java?
 
- Você pode encontrar documentação abrangente, tutoriais e recursos adicionais para Aspose.PDF para Java no site da Aspose:[aqui](https://reference.aspose.com/pdf/java/).
+Você pode encontrar documentação abrangente, tutoriais e recursos adicionais para Aspose.PDF para Java no site da Aspose: [aqui](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

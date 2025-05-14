@@ -8,7 +8,9 @@ url: /net/document-conversion/add-attachment-to-pdfa/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Attachment to PDFA
@@ -133,6 +135,7 @@ Yes, you can remove an attachment from a PDF document using Aspose.PDF by access
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

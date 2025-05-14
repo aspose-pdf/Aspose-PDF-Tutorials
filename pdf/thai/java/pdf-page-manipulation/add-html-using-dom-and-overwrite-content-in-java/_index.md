@@ -1,14 +1,16 @@
 ---
-title: เพิ่ม HTML โดยใช้ DOM และเขียนทับเนื้อหาใน Java
-linktitle: เพิ่ม HTML โดยใช้ DOM และเขียนทับเนื้อหาใน Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการจัดการเนื้อหา HTML ใน Java โดยใช้ DOM (Document Object Model) และเขียนทับเนื้อหาที่มีอยู่ ทำตามคำแนะนำทีละขั้นตอนนี้พร้อมตัวอย่างโค้ดต้นฉบับโดยใช้ Aspose.PDF สำหรับ Java
-weight: 13
-url: /th/java/pdf-page-manipulation/add-html-using-dom-and-overwrite-content-in-java/
+"description": "เรียนรู้วิธีการจัดการเนื้อหา HTML ใน Java โดยใช้ DOM (Document Object Model) และเขียนทับเนื้อหาที่มีอยู่ ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมตัวอย่างโค้ดต้นฉบับโดยใช้ Aspose.PDF สำหรับ Java"
+"linktitle": "เพิ่ม HTML โดยใช้ DOM และเขียนทับเนื้อหาใน Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่ม HTML โดยใช้ DOM และเขียนทับเนื้อหาใน Java"
+"url": "/th/java/pdf-page-manipulation/add-html-using-dom-and-overwrite-content-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่ม HTML โดยใช้ DOM และเขียนทับเนื้อหาใน Java
@@ -24,7 +26,7 @@ url: /th/java/pdf-page-manipulation/add-html-using-dom-and-overwrite-content-in-
 
 1. สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว
 
-2.  Aspose.PDF สำหรับ Java: ดาวน์โหลดและรวมไลบรารี Aspose.PDF ไว้ในโปรเจ็กต์ Java ของคุณ คุณสามารถค้นหาลิงก์ดาวน์โหลด[ที่นี่](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF สำหรับ Java: ดาวน์โหลดและรวมไลบรารี Aspose.PDF ไว้ในโปรเจ็กต์ Java ของคุณ คุณสามารถค้นหาลิงก์ดาวน์โหลด [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## ขั้นตอนที่ 1: สร้างเอกสาร PDF ใหม่
 
@@ -49,13 +51,13 @@ com.aspose.pdf.Document existingPdf = new com.aspose.pdf.Document("path/to/exist
 ขั้นตอนต่อไปคือสร้างหน้าใหม่หรือเลือกหน้าที่มีอยู่แล้วเพื่อใช้งาน เราจะเพิ่มเนื้อหา HTML ลงในหน้านี้:
 
 ```java
-//เพิ่มหน้าใหม่ลงในเอกสาร
+// เพิ่มหน้าใหม่ลงในเอกสาร
 com.aspose.pdf.Page page = pdfDocument.getPages().add();
 ```
 
 ## ขั้นตอนที่ 4: เพิ่มเนื้อหา HTML
 
- หากต้องการเพิ่มเนื้อหา HTML ลงในหน้า คุณสามารถใช้`HtmlFragment` ชั้นเรียน นี่คือตัวอย่าง:
+หากต้องการเพิ่มเนื้อหา HTML ลงในหน้า คุณสามารถใช้ `HtmlFragment` ชั้นเรียน นี่คือตัวอย่าง:
 
 ```java
 // สร้างส่วน HTML
@@ -66,7 +68,7 @@ com.aspose.pdf.HtmlFragment htmlFragment = new com.aspose.pdf.HtmlFragment("<h1>
 
 ## ขั้นตอนที่ 5: เขียนทับเนื้อหาที่มีอยู่
 
- หากคุณต้องการเขียนทับเนื้อหาที่มีอยู่บนเพจด้วยส่วน HTML ให้ใช้`setHtmlContent` วิธี:
+หากคุณต้องการเขียนทับเนื้อหาที่มีอยู่บนเพจด้วยส่วน HTML ให้ใช้ `setHtmlContent` วิธี:
 
 ```java
 // เขียนทับเนื้อหาที่มีอยู่ด้วยส่วน HTML
@@ -99,14 +101,16 @@ pdfDocument.save("output.pdf");
    Aspose.PDF สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ที่มีประสิทธิภาพ แต่มีเวอร์ชันทดลองใช้งานฟรีสำหรับการทดสอบและประเมินผล คุณสามารถเลือกตัวเลือกการออกใบอนุญาตที่เหมาะสมได้ ขึ้นอยู่กับข้อกำหนดของโครงการของคุณ
 
 ### 4. ฉันจะเพิ่มรูปภาพลงในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java ได้อย่างไร
-    คุณสามารถปรับปรุงเอกสาร PDF ของคุณได้โดยการเพิ่มรูปภาพ ใช้`com.aspose.pdf.Image`คลาสสำหรับสร้างและแทรกภาพลงในหน้า PDF ช่วยให้คุณสามารถรวมองค์ประกอบภาพต่างๆ เข้าด้วยกันได้อย่างลงตัว
+   คุณสามารถปรับปรุงเอกสาร PDF ของคุณได้โดยการเพิ่มรูปภาพ ใช้ `com.aspose.pdf.Image` คลาสสำหรับสร้างและแทรกภาพลงในหน้า PDF ช่วยให้คุณสามารถรวมองค์ประกอบภาพต่างๆ เข้าด้วยกันได้อย่างลงตัว
 
 ### 5. มีไลบรารี Java อื่นสำหรับทำงานกับ PDF หรือไม่
    แม้ว่า Aspose.PDF สำหรับ Java จะเป็นตัวเลือกที่มีประสิทธิภาพ แต่คุณยังสามารถลองใช้ไลบรารีอื่น ๆ เช่น iText และ PDFBox สำหรับการทำงานกับ PDF ใน Java ได้ ไลบรารีแต่ละแห่งมีคุณลักษณะและความสามารถเฉพาะตัว ดังนั้น ให้เลือกไลบรารีที่เหมาะกับความต้องการของโครงการของคุณมากที่สุด
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

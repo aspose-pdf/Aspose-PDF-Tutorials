@@ -7,7 +7,9 @@ description: Check out Aspose.PDF for .NET's Programming with Text tutorials, wh
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Text
@@ -72,6 +74,7 @@ Aspose.PDF's "Programming with Text" tutorials for .NET offer a comprehensive ra
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

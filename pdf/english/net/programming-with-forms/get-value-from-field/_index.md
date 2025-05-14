@@ -8,7 +8,9 @@ url: /net/programming-with-forms/get-value-from-field/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Value From Field In PDF Document
@@ -113,6 +115,7 @@ Absolutely! Aspose.PDF for .NET is fully compatible with both .NET Framework and
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

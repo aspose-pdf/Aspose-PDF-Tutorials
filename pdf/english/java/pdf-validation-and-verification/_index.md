@@ -8,7 +8,9 @@ url: /java/pdf-validation-and-verification/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Validation and Verification
@@ -31,9 +33,11 @@ The final section of our tutorials addresses document integrity and compliance. 
 ## PDF Validation and Verification Tutorials
 ### [Validate PDF in Java](./validate-pdf-in-java/)
 Learn how to validate PDF documents in Java using Aspose.PDF, ensuring the integrity and compliance of your PDF files.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

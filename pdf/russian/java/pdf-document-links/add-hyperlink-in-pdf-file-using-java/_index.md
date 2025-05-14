@@ -1,14 +1,16 @@
 ---
-title: Добавить гиперссылку в PDF-файл с помощью Java
-linktitle: Добавить гиперссылку в PDF-файл с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как добавлять гиперссылки в файлы PDF с помощью Java с пошаговыми инструкциями и исходным кодом. Улучшите свои документы PDF с помощью интерактивности.
-weight: 13
-url: /ru/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/
+"description": "Узнайте, как добавлять гиперссылки в файлы PDF с помощью Java с пошаговыми инструкциями и исходным кодом. Улучшите свои документы PDF с помощью интерактивности."
+"linktitle": "Добавить гиперссылку в PDF-файл с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Добавить гиперссылку в PDF-файл с помощью Java"
+"url": "/ru/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить гиперссылку в PDF-файл с помощью Java
@@ -30,7 +32,7 @@ url: /ru/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/
 - Интегрированная среда разработки (IDE) по вашему выбору (например, Eclipse, IntelliJ IDEA)
 - Aspose.PDF для библиотеки Java
 
- Вы можете загрузить библиотеку Aspose.PDF для Java с сайта[здесь](https://releases.aspose.com/pdf/java/).
+Вы можете загрузить библиотеку Aspose.PDF для Java с сайта [здесь](https://releases.aspose.com/pdf/java/).
 
 ## Добавление гиперссылок в PDF-файлы с помощью Aspose.PDF для Java
 
@@ -105,9 +107,11 @@ Aspose.PDF для Java предлагает как бесплатную проб
 ### Как настроить внешний вид гиперссылок в PDF-файле?
 
 Вы можете задать различные свойства гиперссылок, такие как цвет, стиль границы и подсветку, чтобы настроить их внешний вид.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

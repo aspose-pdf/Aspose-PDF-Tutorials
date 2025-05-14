@@ -1,51 +1,56 @@
 ---
-title: สร้าง PDF ด้วยตารางที่มีขอบสองแบบ โดยใช้ Aspose.PDF สําหรับ .NET 
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการสร้างเอกสาร PDF ด้วยตารางที่มีขอบสอง. คําแนะนําการตั้งค่ารวดเร็วและตัวอย่างโค้ดรวม  
-keywords: [Aspose PDF, .NET PDF example, double borders, PDF table, create PDF, Aspose documentation]
-url: /th/net/tables/set-border/
+"description": "เรียนรู้วิธีสร้างเอกสาร PDF ที่มีตารางที่มีขอบสองชั้น มีคำแนะนำในการตั้งค่าด่วนและตัวอย่างโค้ดรวมอยู่ด้วย"
+"title": "สร้าง PDF ที่มีตารางขอบคู่โดยใช้ Aspose.PDF สำหรับ .NET"
+"url": "/th/net/tables/set-border/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้าง PDF ด้วยตารางที่มีขอบสองขอบ โดยใช้ Aspose.PDF
+# สร้าง PDF ที่มีตารางขอบคู่โดยใช้ Aspose.PDF
 
-ตัวอย่างนี้แสดงวิธีการสร้างเอกสาร PDF โดยใช้ Aspose.PDF สําหรับ .NET โดยมีตารางที่มีขอบสองด้านบนและด้านล่างของเซลล์.ปฏิบัติตามคําแนะนําอย่างละขั้นตอนเพื่อนําลักษณะนี้ไปใช้ในแอพลิเคชั่นของคุณอย่างเรียบร้อย
+ตัวอย่างนี้สาธิตวิธีการสร้างเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET โดยมีตารางที่มีเส้นขอบสองชั้นที่ด้านบนและด้านล่างของเซลล์ ปฏิบัติตามคำแนะนำทีละขั้นตอนเพื่อนำฟีเจอร์นี้ไปใช้ในแอปพลิเคชันของคุณได้อย่างราบรื่น
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/set-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## คําแนะนําการติดตั้ง
-เพื่อเริ่มต้นกับ Aspose.PDF สําหรับ .NET กรุณาปฏิบัติตามคําแนะนําการติดตั้งนี้:
+## คำแนะนำในการติดตั้ง
+หากต้องการเริ่มต้นใช้งาน Aspose.PDF สำหรับ .NET โปรดปฏิบัติตามคำแนะนำในการติดตั้งต่อไปนี้:
 
 1. ดาวน์โหลด Aspose.PDF: 
-   * ไปเยี่ยม[เว็บไซต์ Aspose](https://www.aspose.com/downloads/pdf/net)เพื่อดาวน์โหลดเวอร์ชั่นล่าสุดของ Aspose.PDF สําหรับ .NET
+   - เยี่ยมชม [เว็บไซต์อาโพส](https://www.aspose.com/downloads/pdf/net) ดาวน์โหลด Aspose.PDF เวอร์ชันล่าสุดสำหรับ .NET
 
-2. อุปกรณ์ติดตั้งผ่าน NuGet Package Manager:
-   * เปิดโครงการของคุณใน Visual Studio
-   * ไปยังเครื่องมือ > NuGet Package Manager > บริหาร NuGet Packages สําหรับการแก้ไข
-   * ค้นหา "Aspose.PDF" และติดตั้งแพคเกจ
+2. ติดตั้งผ่านตัวจัดการแพ็กเกจ NuGet:
+   - เปิดโปรเจ็กต์ของคุณใน Visual Studio
+   - ไปที่เครื่องมือ > ตัวจัดการแพ็กเกจ NuGet > จัดการแพ็กเกจ NuGet สำหรับโซลูชัน
+   - ค้นหา "Aspose.PDF" และติดตั้งแพ็กเกจ
 
-3. เพิ่มอ้างอิง:
-   * มั่นใจว่าโครงการของคุณอ้างอิง Aspose.PDF DLL ใน`กล่อง`แฟ้ม
+3. เพิ่มการอ้างอิง:
+   - ตรวจสอบให้แน่ใจว่าโครงการของคุณอ้างอิง DLL Aspose.PDF ใน `packages` โฟลเดอร์
    
-4. รวมพื้นที่ชื่อ Aspose.PDF ในโครงการของคุณ:  
+4. รวมเนมสเปซ Aspose.PDF ในโครงการของคุณ:  
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Text;
    ```
 
-## สําหรับรายละเอียดเพิ่มเติม:  
-[Aspose.PDF สําหรับ .NET Documentation](https://docs.aspose.com/pdf/net/)  
-[Aspose.PDF สําหรับ .NET API Reference](https://reference.aspose.com/pdf/net/) 
+## หากต้องการรายละเอียดเพิ่มเติม:  
+[Aspose.PDF สำหรับเอกสาร .NET](https://docs.aspose.com/pdf/net/)  
+[เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET](https://reference.aspose.com/pdf/net/) 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

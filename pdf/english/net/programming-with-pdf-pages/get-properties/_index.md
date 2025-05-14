@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/get-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get PDF Properties
@@ -151,6 +153,7 @@ Yes, you can request a temporary license for evaluation by visiting [this link](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

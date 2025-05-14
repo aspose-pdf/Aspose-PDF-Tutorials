@@ -8,7 +8,9 @@ url: /net/programming-with-tables/rounded-corner-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rounded Corner Table In PDF Document
@@ -174,6 +176,7 @@ For assistance, you can visit the Aspose support forums at [Aspose Support](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

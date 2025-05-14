@@ -1,50 +1,52 @@
 ---
-title: PDF oldalbélyegző hozzáadása a PDF fájlhoz Java használatával
-linktitle: PDF oldalbélyegző hozzáadása a PDF fájlhoz Java használatával
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan adhat hozzá PDF-oldalbélyegzőket Java nyelven az Aspose.PDF használatával. Ez a lépésről lépésre bemutatja, hogyan szabhatja testre a bélyegzőket PDF-dokumentumaihoz könnyedén.
-weight: 13
-url: /hu/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/
+"description": "Tanuld meg, hogyan adhatsz hozzá PDF oldalbélyegzőket Java nyelven az Aspose.PDF segítségével. Ez a lépésről lépésre szóló útmutató bemutatja, hogyan szabhatod testre könnyedén a PDF dokumentumok bélyegzőit."
+"linktitle": "PDF oldalbélyegző hozzáadása a PDF fájlhoz Java használatával"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "PDF oldalbélyegző hozzáadása a PDF fájlhoz Java használatával"
+"url": "/hu/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF oldalbélyegző hozzáadása a PDF fájlhoz Java használatával
 
 
-## Bevezetés a PDF-oldalbélyegző hozzáadásához a PDF-fájlhoz Java használatával
+## Bevezetés a PDF oldalbélyegző hozzáadásához a PDF fájlhoz Java használatával
 
-A PDF-ek széles körben használt formátum a dokumentumok megosztására és archiválására. Gyakran előfordul, hogy további információkat vagy márkajelzéseket kell hozzáadni a meglévő PDF-dokumentumokhoz. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhat hozzá PDF-oldalbélyeget Java használatával az Aspose.PDF for Java segítségével.
+A PDF fájlok széles körben használt formátumok a dokumentumok megosztásához és archiválásához. Gyakran szükség van további információk vagy márkajelzések hozzáadására a meglévő PDF dokumentumokhoz. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk hozzá PDF oldalbélyegzőt Java használatával az Aspose.PDF for Java segítségével.
 
-## PDF-oldalbélyegzők megértése
+## PDF oldalbélyegzők megértése
 
-A PDF-oldalbélyegző olyan kép vagy szöveg, amelyet a PDF-oldalhoz fedvényként adnak hozzá. Ez hasznos lehet vízjelek, logók, oldalszámok vagy bármely más olyan információ hozzáadásához, amelynek a PDF-dokumentum minden oldalán meg kell jelennie.
+A PDF oldalbélyegző egy kép vagy szöveg, amelyet átfedésként adnak hozzá egy PDF oldalhoz. Ez hasznos lehet vízjelek, logók, oldalszámok vagy bármilyen más információ hozzáadásához, amelynek a PDF dokumentum minden oldalán meg kell jelennie.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve
-- Integrált fejlesztői környezet (IDE), mint az Eclipse vagy az IntelliJ IDEA
--  Aspose.PDF for Java könyvtár (letöltheti[itt](https://releases.aspose.com/pdf/java/).
+- Telepített Java fejlesztőkészlet (JDK)
+- Integrált fejlesztői környezet (IDE), mint például az Eclipse vagy az IntelliJ IDEA
+- Aspose.PDF a Java könyvtárhoz (Letöltheti [itt](https://releases.aspose.com/pdf/java/).
 
 ## A környezet beállítása
 
-Kezdjük a fejlesztői környezet beállításával. Győződjön meg arról, hogy a JDK és az IDE telepítve és konfigurálva van.
+Kezdjük a fejlesztői környezet beállításával. Győződjön meg róla, hogy a JDK és az IDE telepítve és konfigurálva van.
 
 ## Függőségek hozzáadása
 
-Hozzon létre egy új Java-projektet az IDE-ben, és adja hozzá az Aspose.PDF for Java könyvtárat a projekt függőségeihez. Ezt úgy teheti meg, hogy hozzáadja a JAR fájlt a projekt felépítési útvonalához.
+Hozz létre egy új Java projektet az IDE-ben, és add hozzá az Aspose.PDF for Java könyvtárat a projekt függőségeihez. Ezt úgy teheted meg, hogy hozzáadod a JAR fájlt a projekt build útvonalához.
 
 ## Java projekt létrehozása
 
-Hozzon létre egy új Java-projektet az IDE-ben, és nevezze el ízlése szerint.
+Hozz létre egy új Java projektet az IDE-dben, és nevezd el a kívánt néven.
 
-## Az Aspose.PDF Library importálása
+## Aspose.PDF könyvtár importálása
 
-Importálja az Aspose.PDF könyvtárat a Java osztály elején:
+Importáld az Aspose.PDF könyvtárat a Java osztályod elején:
 
 ```java
 import com.aspose.pdf.*;
@@ -52,23 +54,23 @@ import com.aspose.pdf.*;
 
 ## A PDF dokumentum meghatározása
 
-Ha PDF-dokumentummal szeretne dolgozni, először meg kell határoznia azt. Hozzon létre egy PDF dokumentum objektumot:
+A PDF dokumentummal való munkához először definiálnia kell azt. Hozzunk létre egy PDF dokumentum objektumot:
 
 ```java
 Document pdfDocument = new Document("input.pdf");
 ```
 
-## Oldalbélyegző készítése
+## Oldalbélyegző létrehozása
 
-Most hozzunk létre egy oldalbélyeget, amely lehet kép vagy szöveg. Ehhez a példához szövegbélyeget fogunk létrehozni:
+Most hozzunk létre egy oldalbélyegzőt, ami lehet kép vagy szöveg. Ebben a példában egy szövegbélyegzőt fogunk létrehozni:
 
 ```java
 TextStamp textStamp = new TextStamp("Sample Stamp Text");
 ```
 
-## Az oldalbélyegző beállítása
+## Az oldalbélyegző konfigurálása
 
-Beállíthatja az oldalbélyegző különféle tulajdonságait, például a betűtípust, a színt és a pozíciót. Íme egy példa a szövegbélyegző beállítására:
+Az oldalbélyegző különböző tulajdonságait, például a betűtípust, a színt és a pozíciót konfigurálhatja. Íme egy példa a szövegbélyegző konfigurálására:
 
 ```java
 textStamp.getTextState().setFont(FontRepository.findFont("Arial"));
@@ -79,9 +81,9 @@ textStamp.setVerticalAlignment(VerticalAlignment.Top);
 textStamp.setHorizontalAlignment(HorizontalAlignment.Center);
 ```
 
-## Oldalbélyegző alkalmazása
+## Az oldalbélyegző alkalmazása
 
-Most, hogy beállítottuk oldalbélyegzőnket, alkalmazzuk a PDF-oldalakra:
+Most, hogy beállítottuk az oldalbélyegzőnket, alkalmazzuk azt a PDF oldalakra:
 
 ```java
 for (int pageNumber = 1; pageNumber <= pdfDocument.getPages().size(); pageNumber++) {
@@ -91,7 +93,7 @@ for (int pageNumber = 1; pageNumber <= pdfDocument.getPages().size(); pageNumber
 
 ## A módosított PDF mentése
 
-Miután az oldalbélyegzőt az összes oldalra alkalmazta, mentse el a módosított PDF-fájlt:
+Miután az oldalbélyegzőt az összes oldalra alkalmazta, mentse el a módosított PDF-et:
 
 ```java
 pdfDocument.save("output.pdf");
@@ -99,36 +101,38 @@ pdfDocument.save("output.pdf");
 
 ## A Java alkalmazás futtatása
 
-Most már futtathatja a Java alkalmazást. Hozzáadja az oldalbélyeget a megadott PDF dokumentumhoz.
+Most már futtathatja a Java alkalmazást. Az hozzáadja az oldalbélyegzőt a megadott PDF dokumentumhoz.
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan adhatunk PDF-oldalbélyeget egy PDF-fájlhoz Java és az Aspose.PDF for Java könyvtár használatával. Megvizsgáltuk az alapvető lépéseket, a környezet beállításától a bélyegző konfigurálásáig és alkalmazásáig. Mostantól vízjelek, logók vagy egyéb információk egyszerű hozzáadásával javíthatja PDF-dokumentumait. Boldog kódolást!
+Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá PDF oldalbélyegzőt egy PDF fájlhoz Java és az Aspose.PDF for Java könyvtár használatával. Megvizsgáltuk az alapvető lépéseket, a környezet beállításától a bélyegző konfigurálásáig és alkalmazásáig. Mostantól könnyedén javíthatod PDF dokumentumaidat vízjelek, logók vagy egyéb információk hozzáadásával. Jó kódolást!
 
 ## GYIK
 
-### Hogyan adhatok hozzá képbélyeget szöveg helyett?
+### Hogyan adhatok hozzá képes bélyegzőt szöveg helyett?
 
- Létrehozhat egy`ImageStamp` helyett a`TextStamp` és állítsa be a képfájljával.
+Létrehozhatsz egy `ImageStamp` egy helyett `TextStamp` és konfiguráld a képfájloddal.
 
 ### Testreszabhatom az oldalbélyegző pozícióját?
 
-Igen, beállíthatja a függőleges és vízszintes igazítást, hogy a bélyegzőt az Ön igényei szerint helyezze el.
+Igen, a függőleges és vízszintes igazítást az igényeidnek megfelelően állíthatod be.
 
-### Az Aspose.PDF for Java támogatja a PDF egyéb módosításait?
+### Az Aspose.PDF for Java támogatja az egyéb PDF-módosításokat is?
 
-Igen, az Aspose.PDF for Java szolgáltatások széles skáláját kínálja a PDF-kezeléshez, beleértve a szöveg- és képkivonást, egyesítést és egyebeket.
+Igen, az Aspose.PDF for Java számos funkciót kínál a PDF-szerkesztéshez, beleértve a szöveg- és képkivonást, az egyesítést és egyebeket.
 
-### Ingyenesen használható az Aspose.PDF for Java?
+### Ingyenesen használható az Aspose.PDF Java-hoz?
 
-Az Aspose.PDF for Java egy kereskedelmi könyvtár, de ingyenes próbalicenc segítségével kiértékelheti.
+Az Aspose.PDF for Java egy kereskedelmi forgalomban kapható könyvtár, de ingyenes próbalicenccel kiértékelhető.
 
 ### Hol találok további dokumentációt és példákat?
 
- Átfogó dokumentációt és példákat találhat az Aspose.PDF for Java dokumentációs oldalán:[itt](https://reference.aspose.com/pdf/java/)
+Átfogó dokumentációt és példákat az Aspose.PDF for Java dokumentációs oldalán talál: [itt](https://reference.aspose.com/pdf/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

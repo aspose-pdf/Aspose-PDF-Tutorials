@@ -1,28 +1,30 @@
 ---
-title: Pobierz wszystkie załączniki w pliku PDF
-linktitle: Pobierz wszystkie załączniki w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: W tym samouczku krok po kroku dowiesz się, jak wyodrębnić wszystkie załączniki z pliku PDF za pomocą Aspose.PDF dla .NET.
-weight: 40
-url: /pl/net/programming-with-attachments/get-all-the-attachments/
+"description": "W tym samouczku krok po kroku dowiesz się, jak wyodrębnić wszystkie załączniki z pliku PDF za pomocą Aspose.PDF dla .NET."
+"linktitle": "Pobierz wszystkie załączniki w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz wszystkie załączniki w pliku PDF"
+"url": "/pl/net/programming-with-attachments/get-all-the-attachments/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz wszystkie załączniki w pliku PDF
 
 ## Wstęp
 
-W erze cyfrowej pliki PDF stały się podstawą udostępniania dokumentów. Są wszechstronne, bezpieczne i mogą zawierać mnóstwo informacji, w tym załączniki. Czy kiedykolwiek zastanawiałeś się, jak wyodrębnić wszystkie te ukryte perełki z pliku PDF? Cóż, masz szczęście! W tym samouczku zagłębimy się w używanie Aspose.PDF dla .NET, aby uzyskać wszystkie załączniki w pliku PDF. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik przeprowadzi Cię przez ten proces krok po kroku.
+erze cyfrowej pliki PDF stały się podstawą udostępniania dokumentów. Są wszechstronne, bezpieczne i mogą zawierać mnóstwo informacji, w tym załączniki. Czy kiedykolwiek zastanawiałeś się, jak wyodrębnić wszystkie te ukryte perełki z pliku PDF? Cóż, masz szczęście! W tym samouczku zagłębimy się w używanie Aspose.PDF dla .NET, aby uzyskać wszystkie załączniki w pliku PDF. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik przeprowadzi Cię przez ten proces krok po kroku.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
 1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To najlepsze IDE do tworzenia oprogramowania .NET.
-2.  Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
 ## Importuj pakiety
@@ -59,7 +61,7 @@ Po pierwsze, musisz określić ścieżkę do katalogu dokumentów. To tutaj będ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, gdzie przechowywany jest plik PDF. Jest to kluczowe, ponieważ program musi wiedzieć, gdzie szukać pliku.
+Zastępować `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, gdzie przechowywany jest plik PDF. Jest to kluczowe, ponieważ program musi wiedzieć, gdzie szukać pliku.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -69,7 +71,7 @@ Następnie otworzymy dokument PDF za pomocą biblioteki Aspose.PDF. To tutaj zac
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
 ```
 
- Tutaj tworzymy nowy`Document` obiekt i przekaż ścieżkę do pliku PDF. Upewnij się, że nazwa pliku jest dokładnie taka sama, łącznie z rozszerzeniem.
+Tutaj tworzymy nowy `Document` obiekt i przekaż ścieżkę do pliku PDF. Upewnij się, że nazwa pliku jest dokładnie taka sama, łącznie z rozszerzeniem.
 
 ## Krok 3: Uzyskaj dostęp do kolekcji osadzonych plików
 
@@ -105,7 +107,7 @@ foreach (FileSpecification fileSpecification in embeddedFiles)
     Console.WriteLine("Mime Type: {0}", fileSpecification.MIMEType);
 ```
 
-W tej pętli drukujemy nazwę, opis i typ MIME każdego załącznika. Daje to jasny obraz tego, co znajduje się w pliku PDF.
+tej pętli drukujemy nazwę, opis i typ MIME każdego załącznika. Daje to jasny obraz tego, co znajduje się w pliku PDF.
 
 ## Krok 6: Sprawdź dodatkowe parametry
 
@@ -136,11 +138,11 @@ fileStream.Close();
 count += 1;
 ```
 
- W tym kodzie odczytujemy zawartość każdego załącznika do tablicy bajtów, a następnie zapisujemy ją do nowego pliku. Pliki będą nazywane sekwencyjnie (np.`1_out.txt`, `2_out.txt`itp.).
+W tym kodzie odczytujemy zawartość każdego załącznika do tablicy bajtów, a następnie zapisujemy ją do nowego pliku. Pliki będą nazywane sekwencyjnie (np. `1_out.txt`, `2_out.txt`itp.).
 
 ## Wniosek
 
-I masz to! Udało Ci się wyodrębnić wszystkie załączniki z pliku PDF za pomocą Aspose.PDF dla .NET. Ta potężna biblioteka ułatwia manipulowanie dokumentami PDF i dostęp do ich ukrytych skarbów. Niezależnie od tego, czy pracujesz nad osobistym projektem, czy profesjonalną aplikacją, wiedza o tym, jak wyodrębnić załączniki, może być niezwykle przydatna.
+masz to! Udało Ci się wyodrębnić wszystkie załączniki z pliku PDF za pomocą Aspose.PDF dla .NET. Ta potężna biblioteka ułatwia manipulowanie dokumentami PDF i dostęp do ich ukrytych skarbów. Niezależnie od tego, czy pracujesz nad osobistym projektem, czy profesjonalną aplikacją, wiedza o tym, jak wyodrębnić załączniki, może być niezwykle przydatna.
 
 ## Najczęściej zadawane pytania
 
@@ -148,19 +150,21 @@ I masz to! Udało Ci się wyodrębnić wszystkie załączniki z pliku PDF za pom
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Sprawdź ją[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Sprawdź ją [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Możesz uzyskać pomoc poprzez forum Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać pomoc poprzez forum Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Czy jest dostępna licencja tymczasowa?
-Tak, możesz uzyskać tymczasową licencję na Aspose.PDF[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, możesz uzyskać tymczasową licencję na Aspose.PDF [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć dokumentację?
- Dokumentację Aspose.PDF dla .NET można znaleźć[Tutaj](https://reference.aspose.com/pdf/net/).
+Dokumentację Aspose.PDF dla .NET można znaleźć [Tutaj](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

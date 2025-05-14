@@ -1,14 +1,16 @@
 ---
-title: Скрыть номера страниц в оглавлении
-linktitle: Скрыть номера страниц в оглавлении
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как скрыть номера страниц в оглавлении с помощью Aspose.PDF для .NET. Следуйте этому подробному руководству с примерами кода для создания профессиональных PDF-файлов.
-weight: 220
-url: /ru/net/programming-with-document/hidepagenumbersintoc/
+"description": "Узнайте, как скрыть номера страниц в оглавлении с помощью Aspose.PDF для .NET. Следуйте этому подробному руководству с примерами кода для создания профессиональных PDF-файлов."
+"linktitle": "Скрыть номера страниц в оглавлении"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Скрыть номера страниц в оглавлении"
+"url": "/ru/net/programming-with-document/hidepagenumbersintoc/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Скрыть номера страниц в оглавлении
@@ -23,9 +25,9 @@ url: /ru/net/programming-with-document/hidepagenumbersintoc/
 
 - Установленная среда Visual Studio: для написания кода вам понадобится рабочая версия Visual Studio.
 - Библиотека Aspose.PDF для .NET: убедитесь, что вы установили библиотеку Aspose.PDF для .NET.
-  -  Ссылка для скачивания:[Aspose.PDF для .NET](https://releases.aspose.com/pdf/net/)
+  - Ссылка для скачивания: [Aspose.PDF для .NET](https://releases.aspose.com/pdf/net/)
 - Временная лицензия: если вы тестируете функции, будет полезно иметь временную лицензию.
-  -  Временная лицензия:[Получите это здесь](https://purchase.aspose.com/temporary-license/)
+  - Временная лицензия: [Получите это здесь](https://purchase.aspose.com/temporary-license/)
 
 ## Импортные пакеты
 
@@ -82,7 +84,7 @@ tocInfo.IsShowPageNumbers = false;
 tocInfo.FormatArrayLength = 4;
 ```
 
--  IsShowPageNumbers: Это волшебный переключатель, который скрывает номера страниц. Установите его в положение`false`, и номера страниц не будут отображаться в оглавлении.
+- IsShowPageNumbers: Это волшебный переключатель, который скрывает номера страниц. Установите его в положение `false`и номера страниц не будут отображаться в оглавлении.
 - FormatArrayLength: мы устанавливаем значение 4, указывая, что мы хотим определить форматирование для четырех уровней заголовков оглавления.
 
 ## Шаг 4: Настройте форматирование оглавления
@@ -145,19 +147,21 @@ doc.Save(outFile);
 Нет, Aspose.PDF скрывает или показывает номера страниц для всего TOC. Вы не можете выборочно скрыть их для определенных записей.
 
 ### Можно ли добавить больше уровней в оглавление?
- Да, вы можете увеличить`FormatArrayLength` для определения большего количества уровней заголовков TOC.
+Да, вы можете увеличить `FormatArrayLength` для определения большего количества уровней заголовков TOC.
 
 ### Как изменить шрифт для всех записей оглавления?
- Вы можете изменить шрифт, изменив`TextState.Font` свойство для каждого уровня в`FormatArray`.
+Вы можете изменить шрифт, изменив `TextState.Font` свойство для каждого уровня в `FormatArray`.
 
 ### Могу ли я вставлять гиперссылки в оглавление?
- Да, вы можете связать каждую запись оглавления с определенным разделом документа, используя`Heading.TocPage` свойство.
+Да, вы можете связать каждую запись оглавления с определенным разделом документа, используя `Heading.TocPage` свойство.
 
 ### Нужна ли мне лицензия для Aspose.PDF?
-Да, для использования в производстве требуется действующая лицензия. Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) для проверки функций.
+Да, для использования в производстве требуется действующая лицензия. Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/) для проверки функций.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

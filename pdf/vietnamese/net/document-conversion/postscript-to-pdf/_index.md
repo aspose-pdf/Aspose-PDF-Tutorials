@@ -1,14 +1,16 @@
 ---
-title: Phụ lục sang PDF
-linktitle: Phụ lục sang PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi tệp Postscript sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ.
-weight: 230
-url: /vi/net/document-conversion/postscript-to-pdf/
+"description": "Tìm hiểu cách chuyển đổi tệp Postscript sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ."
+"linktitle": "Phụ lục sang PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Phụ lục sang PDF"
+"url": "/vi/net/document-conversion/postscript-to-pdf/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phụ lục sang PDF
@@ -22,7 +24,7 @@ Bạn đang muốn chuyển đổi các tệp Postscript sang PDF một cách d�
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để làm theo:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là IDE phù hợp để phát triển .NET.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -31,9 +33,9 @@ Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ c�
 
 1. Mở dự án Visual Studio của bạn.
 2. Nhấp chuột phải vào dự án của bạn trong Solution Explorer và chọn “Quản lý gói NuGet”.
-3.  Tìm kiếm`Aspose.PDF` và cài đặt phiên bản mới nhất.
+3. Tìm kiếm `Aspose.PDF` và cài đặt phiên bản mới nhất.
 
-Sau khi cài đặt gói, bạn đã sẵn sàng để bắt đầu viết mã!
+Sau khi cài đặt xong gói, bạn đã sẵn sàng để bắt đầu viết mã!
 
 ## Bước 1: Thiết lập dự án của bạn
 
@@ -43,11 +45,11 @@ Trước tiên, hãy tạo một dự án C# mới trong Visual Studio:
 
 - Mở Visual Studio và chọn “Tạo dự án mới”.
 - Chọn “Console App (.NET Core)” và nhấp vào “Next”.
--  Đặt tên cho dự án của bạn (ví dụ:`PostscriptToPDF`) và nhấp vào “Tạo”.
+- Đặt tên cho dự án của bạn (ví dụ: `PostscriptToPDF`) và nhấp vào “Tạo”.
 
 ### Thêm Sử dụng Chỉ thị
 
- Bây giờ, hãy thêm các chỉ thị sử dụng cần thiết vào đầu`Program.cs` tài liệu:
+Bây giờ, hãy thêm các chỉ thị sử dụng cần thiết vào đầu `Program.cs` tài liệu:
 
 ```csharp
 using System;
@@ -67,13 +69,13 @@ Tiếp theo, bạn cần xác định đường dẫn đến thư mục tài li�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn.
 
 ## Bước 3: Tải tài liệu Postscript
 
 ### Tạo tùy chọn tải
 
-Bây giờ, chúng ta hãy tạo một thể hiện của`PsLoadOptions` để chỉ định cách chúng ta muốn tải tài liệu Postscript:
+Bây giờ, chúng ta hãy tạo một thể hiện của `PsLoadOptions` để chỉ định cách chúng ta muốn tải tài liệu Postscript:
 
 ```csharp
 // Tạo một phiên bản mới của PsLoadOptions
@@ -89,7 +91,7 @@ Sau khi thiết lập tùy chọn tải, bây giờ bạn có thể mở tài li
 Document pdfDocument = new Document(dataDir + "input.ps", options);
 ```
 
- Hãy chắc chắn thay thế`"input.ps"` bằng tên tập tin Postscript của bạn.
+Hãy chắc chắn thay thế `"input.ps"` bằng tên tập tin Postscript của bạn.
 
 ## Bước 4: Lưu tài liệu dưới dạng PDF
 
@@ -112,19 +114,21 @@ Xin chúc mừng! Bạn đã chuyển đổi thành công tệp Postscript sang 
 Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu chính thức cho Aspose.PDF dành cho .NET[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu chính thức cho Aspose.PDF dành cho .NET [đây](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập diễn đàn Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Có giấy phép tạm thời không?
- Có, bạn có thể yêu cầu cấp giấy phép tạm thời cho Aspose.PDF[đây](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể yêu cầu cấp giấy phép tạm thời cho Aspose.PDF [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-text/add-transparent-text/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Transparent Text In PDF File
@@ -165,6 +167,7 @@ Absolutely! You can create and add multiple `TextFragment` instances with differ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

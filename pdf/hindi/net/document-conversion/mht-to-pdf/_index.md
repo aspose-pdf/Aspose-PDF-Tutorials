@@ -1,14 +1,16 @@
 ---
-title: MHT से PDF में
-linktitle: MHT से PDF में
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके MHT फ़ाइलों को PDF में कैसे परिवर्तित किया जाए। आसान और कुशल दस्तावेज़ रूपांतरण।
-weight: 70
-url: /hi/net/document-conversion/mht-to-pdf/
+"description": "इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके MHT फ़ाइलों को PDF में कैसे परिवर्तित किया जाए। आसान और कुशल दस्तावेज़ रूपांतरण।"
+"linktitle": "MHT से PDF में"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "MHT से PDF में"
+"url": "/hi/net/document-conversion/mht-to-pdf/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # MHT से PDF में
@@ -22,7 +24,7 @@ url: /hi/net/document-conversion/mht-to-pdf/
 इससे पहले कि हम रूपांतरण प्रक्रिया में उतरें, कुछ चीजें हैं जिन्हें आपको ध्यान में रखना होगा:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यहीं पर आप अपना .NET कोड लिखेंगे और चलाएँगे।
-2. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको हमारे द्वारा उपयोग किए जाने वाले कोड स्निपेट को समझने में मदद मिलेगी।
 4. MHT फ़ाइल: रूपांतरण के लिए एक MHT फ़ाइल तैयार रखें। आप अपने ब्राउज़र में किसी वेब पेज को MHT के रूप में सहेजकर एक फ़ाइल बना सकते हैं।
 
@@ -58,11 +60,11 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपकी मशीन पर वास्तविक पथ के साथ। यह कुछ इस तरह हो सकता है`@"C:\Documents\"`.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपकी मशीन पर वास्तविक पथ के साथ। यह कुछ इस तरह हो सकता है `@"C:\Documents\"`.
 
 ## चरण 2: MHT विकल्प लोड करें
 
- इसके बाद, आपको इसका एक उदाहरण बनाना होगा`MhtLoadOptions`यह वर्ग आपको MHT फ़ाइलें लोड करने के लिए विकल्प निर्दिष्ट करने की अनुमति देता है।
+इसके बाद, आपको इसका एक उदाहरण बनाना होगा `MhtLoadOptions`यह वर्ग आपको MHT फ़ाइलें लोड करने के लिए विकल्प निर्दिष्ट करने की अनुमति देता है।
 
 ```csharp
 MhtLoadOptions options = new MhtLoadOptions();
@@ -72,14 +74,14 @@ MhtLoadOptions options = new MhtLoadOptions();
 
 ## चरण 3: MHT दस्तावेज़ लोड करें
 
- अब आपके MHT दस्तावेज़ को Aspose.PDF लाइब्रेरी में लोड करने का समय आ गया है। यह कार्य इस प्रकार किया जाता है:`Document` कक्षा।
+अब आपके MHT दस्तावेज़ को Aspose.PDF लाइब्रेरी में लोड करने का समय आ गया है। यह कार्य इस प्रकार किया जाता है: `Document` कक्षा।
 
 ```csharp
 // दस्तावेज़ लोड करें
 Document document = new Document(dataDir + "test.mht", options);
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`"test.mht"` अपनी MHT फ़ाइल के नाम के साथ। कोड की यह पंक्ति MHT फ़ाइल को पढ़ती है और इसे रूपांतरण के लिए तैयार करती है।
+प्रतिस्थापित करना सुनिश्चित करें `"test.mht"` अपनी MHT फ़ाइल के नाम के साथ। कोड की यह पंक्ति MHT फ़ाइल को पढ़ती है और इसे रूपांतरण के लिए तैयार करती है।
 
 ## चरण 4: दस्तावेज़ को PDF के रूप में सहेजें
 
@@ -90,7 +92,7 @@ Document document = new Document(dataDir + "test.mht", options);
 document.Save(dataDir + "MHTToPDF_out.pdf");
 ```
 
-यह लाइन कन्वर्ट की गई PDF को आपकी MHT फ़ाइल वाली डायरेक्टरी में सेव करती है। आप आउटपुट फ़ाइल का नाम आवश्यकतानुसार बदल सकते हैं।
+यह लाइन कन्वर्ट की गई PDF को आपकी MHT फ़ाइल वाली ही डायरेक्टरी में सेव करती है। आप आउटपुट फ़ाइल का नाम आवश्यकतानुसार बदल सकते हैं।
 
 ## निष्कर्ष
 
@@ -105,16 +107,18 @@ document.Save(dataDir + "MHTToPDF_out.pdf");
 हां, आप अपनी निर्देशिका में एकाधिक MHT फ़ाइलों को लूप कर सकते हैं और उन्हें एक ही विधि का उपयोग करके एक-एक करके परिवर्तित कर सकते हैं।
 
 ### क्या .NET के लिए Aspose.PDF निःशुल्क है?
- Aspose.PDF निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा। आप अधिक जानकारी पा सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+Aspose.PDF निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा। आप अधिक जानकारी पा सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### यदि रूपांतरण के दौरान मुझे कोई त्रुटि आती है तो क्या होगा?
- सहायता के लिए Aspose सहायता फ़ोरम देखें। आप इसे पा सकते हैं[यहाँ](https://forum.aspose.com/c/pdf/10).
+सहायता के लिए Aspose सहायता फ़ोरम देखें। आप इसे पा सकते हैं [यहाँ](https://forum.aspose.com/c/pdf/10).
 
 ### क्या मैं अन्य फ़ाइल स्वरूपों के लिए Aspose.PDF का उपयोग कर सकता हूँ?
 बिल्कुल! Aspose.PDF HTML, DOCX, और अन्य सहित विभिन्न प्रारूपों का समर्थन करता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

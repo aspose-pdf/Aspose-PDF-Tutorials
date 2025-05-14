@@ -1,14 +1,16 @@
 ---
-title: Đặt Văn Bản Xung Quanh Hình Ảnh Trong Tệp PDF
-linktitle: Đặt Văn Bản Xung Quanh Hình Ảnh Trong Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách đặt văn bản xung quanh hình ảnh trong PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo PDF chuyên nghiệp với hình ảnh và văn bản cạnh nhau.
-weight: 260
-url: /vi/net/programming-with-text/placing-text-around-image/
+"description": "Tìm hiểu cách đặt văn bản xung quanh hình ảnh trong PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo PDF chuyên nghiệp với hình ảnh và văn bản cạnh nhau."
+"linktitle": "Đặt Văn Bản Xung Quanh Hình Ảnh Trong Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đặt Văn Bản Xung Quanh Hình Ảnh Trong Tệp PDF"
+"url": "/vi/net/programming-with-text/placing-text-around-image/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt Văn Bản Xung Quanh Hình Ảnh Trong Tệp PDF
@@ -21,16 +23,16 @@ Bạn đã bao giờ thử đặt văn bản xung quanh hình ảnh trong tệp 
 
 Trước khi bắt đầu vào mã, hãy đảm bảo rằng chúng ta đã thiết lập mọi thứ. Sau đây là những gì bạn cần:
 
--  Aspose.PDF cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Đảm bảo bạn đã cài đặt phiên bản mới nhất để thực hiện dễ dàng.
 - .NET Framework: Ví dụ này sử dụng .NET, vì vậy hãy đảm bảo môi trường của bạn được thiết lập để phát triển .NET.
--  Giấy phép tạm thời: Bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) nếu bạn đang đánh giá sản phẩm.
+- Giấy phép tạm thời: Bạn có thể yêu cầu cấp giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/) nếu bạn đang đánh giá sản phẩm.
 
-Nếu bạn chưa thiết lập Aspose.PDF cho .NET, hãy làm theo hướng dẫn cài đặt trong[tài liệu](https://reference.aspose.com/pdf/net/).
+Nếu bạn chưa thiết lập Aspose.PDF cho .NET, hãy làm theo hướng dẫn cài đặt trong [tài liệu](https://reference.aspose.com/pdf/net/).
 
 ## Nhập không gian tên
 
-Trước khi bắt đầu mã hóa, chúng ta cần nhập các không gian tên cần thiết. Sau đây là đoạn mã để thực hiện việc đó:
+Trước khi bắt đầu viết mã, chúng ta cần nhập các không gian tên cần thiết. Sau đây là đoạn mã để thực hiện việc đó:
 
 ```csharp
 using System;
@@ -39,13 +41,13 @@ using System.Linq;
 using System.Text;
 ```
 
- Các không gian tên này rất cần thiết vì chúng cung cấp quyền truy cập vào các lớp như`Document`, `Page`, `Image` , Và`HtmlFragment`, chúng ta sẽ sử dụng để tạo và thao tác với PDF.
+Các không gian tên này rất cần thiết vì chúng cung cấp quyền truy cập vào các lớp như `Document`, `Page`, `Image`, Và `HtmlFragment`, chúng ta sẽ sử dụng để tạo và thao tác với PDF.
 
 Bây giờ chúng ta đã thiết lập xong bối cảnh, hãy cùng tìm hiểu cách đặt văn bản xung quanh hình ảnh trong tệp PDF của bạn bằng Aspose.PDF cho .NET. Chúng tôi sẽ hướng dẫn bạn từng bước.
 
 ## Bước 1: Khởi tạo đối tượng tài liệu
 
- Đầu tiên, bạn cần tạo một tài liệu PDF. Trong Aspose.PDF, điều này được thực hiện bằng cách tạo một`Document` đối tượng. Đối tượng này sẽ đóng vai trò là nền tảng cho toàn bộ nội dung chúng ta sẽ thêm vào.
+Đầu tiên, bạn cần tạo một tài liệu PDF. Trong Aspose.PDF, điều này được thực hiện bằng cách tạo một `Document` đối tượng. Đối tượng này sẽ đóng vai trò là nền tảng cho toàn bộ nội dung chúng ta sẽ thêm vào.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -75,7 +77,7 @@ page.Paragraphs.Add(table1);
 
 Đoạn mã này tạo một bảng và thêm vào trang. Hãy nghĩ về bảng như một khuôn khổ để căn chỉnh hình ảnh và văn bản của bạn.
 
-## Bước 4: Thiết lập độ rộng cột cho bảng
+## Bước 4: Đặt độ rộng cột cho bảng
 
 Bây giờ chúng ta đã thêm một bảng, chúng ta cần xác định độ rộng của các cột. Điều này đảm bảo rằng hình ảnh và văn bản có kích thước phù hợp trên trang.
 
@@ -181,19 +183,21 @@ Thao tác này sẽ lưu tệp PDF với hình ảnh và văn bản được đ�
 Có, bạn chỉ cần thêm nhiều hàng và ô vào bảng để thêm hình ảnh và văn bản.
 
 ### Tôi có thể thay đổi cách căn chỉnh hình ảnh không?
-Hoàn toàn có thể! Bạn có thể thay đổi cách căn chỉnh hình ảnh bằng cách điều chỉnh thuộc tính căn chỉnh của ô.
+Hoàn toàn được! Bạn có thể thay đổi cách căn chỉnh hình ảnh bằng cách điều chỉnh thuộc tính căn chỉnh của ô.
 
 ### Tôi có thể định dạng văn bản thêm như thế nào?
- Bạn có thể sử dụng thẻ HTML trong`HtmlFragment` đối tượng áp dụng nhiều kiểu chữ khác nhau như in đậm, in nghiêng hoặc phông chữ khác nhau.
+Bạn có thể sử dụng thẻ HTML trong `HtmlFragment` đối tượng áp dụng nhiều kiểu chữ khác nhau như in đậm, in nghiêng hoặc phông chữ khác nhau.
 
 ### Tôi có thể kiểm soát khoảng cách giữa văn bản và hình ảnh không?
- Có, sử dụng`MarginInfo` đối tượng cho phép bạn kiểm soát khoảng đệm và lề giữa các phần tử.
+Có, sử dụng `MarginInfo` đối tượng cho phép bạn kiểm soát khoảng đệm và lề giữa các phần tử.
 
 ### Có thể thêm liên kết vào văn bản không?
- Chắc chắn rồi! Bạn có thể nhúng siêu liên kết vào văn bản định dạng HTML bằng cách sử dụng`<a>` nhãn.
+Chắc chắn rồi! Bạn có thể nhúng siêu liên kết vào văn bản định dạng HTML bằng cách sử dụng `<a>` nhãn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,21 +1,23 @@
 ---
-title: Crie PDF com texto marcado
-linktitle: Crie PDF com texto marcado
-second_title: Referência da API do Aspose.PDF para .NET
-description: Aprenda a criar PDFs marcados com conteúdo acessível usando o Aspose.PDF para .NET neste tutorial abrangente passo a passo.
-weight: 50
-url: /pt/net/programming-with-tagged-pdf/create-pdf-with-tagged-text/
+"description": "Aprenda a criar PDFs marcados com conteúdo acessível usando o Aspose.PDF para .NET neste tutorial passo a passo abrangente."
+"linktitle": "Criar PDF com texto marcado"
+"second_title": "Referência da API Aspose.PDF para .NET"
+"title": "Criar PDF com texto marcado"
+"url": "/pt/net/programming-with-tagged-pdf/create-pdf-with-tagged-text/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crie PDF com texto marcado
+# Criar PDF com texto marcado
 
 ## Introdução
 
-Na era digital de hoje, os documentos PDF se tornaram um dos formatos mais populares para compartilhar e exibir conteúdo. Sejam relatórios de negócios, artigos acadêmicos ou manuais do usuário, os PDFs estão em todos os lugares! Mas o que diferencia um bom PDF de um ótimo é a acessibilidade e a estrutura. Isso mesmo! Os PDFs marcados facilitam a compreensão e a navegação pelo conteúdo por leitores de tela e tecnologias assistivas. E adivinha? Neste tutorial, vou orientá-lo no processo de criação de um PDF marcado usando o Aspose.PDF para .NET, passo a passo! 
+Na era digital atual, os documentos PDF se tornaram um dos formatos mais populares para compartilhamento e exibição de conteúdo. Sejam relatórios empresariais, artigos acadêmicos ou manuais do usuário, os PDFs estão por toda parte! Mas o que diferencia um bom PDF de um ótimo é a acessibilidade e a estrutura. É isso mesmo! PDFs com tags facilitam a compreensão e a navegação pelo conteúdo por leitores de tela e tecnologias assistivas. E adivinha? Neste tutorial, vou mostrar passo a passo o processo de criação de um PDF com tags usando o Aspose.PDF para .NET! 
 
 Então, pegue sua bebida favorita, acomode-se e vamos mergulhar no mundo dos PDFs marcados!
 
@@ -23,16 +25,16 @@ Então, pegue sua bebida favorita, acomode-se e vamos mergulhar no mundo dos PDF
 
 Antes de começar, há algumas coisas que você precisa ter em mãos:
 
-1. Visual Studio - Certifique-se de ter o Visual Studio instalado em sua máquina. Você pode usar qualquer versão que suporte .NET.
-2.  Aspose.PDF para .NET - Baixe a versão mais recente do Aspose.PDF para .NET do[site](https://releases.aspose.com/pdf/net/)Você também pode optar por um teste gratuito para explorar seus recursos.
-3. .NET Framework - Esses exemplos serão criados para .NET. Certifique-se de ter uma versão compatível instalada em sua máquina.
-4. Conhecimento básico de C# - A familiaridade com a programação em C# será útil quando escrevermos algum código!
+1. Visual Studio - Certifique-se de ter o Visual Studio instalado em sua máquina. Você pode usar qualquer versão compatível com .NET.
+2. Aspose.PDF para .NET - Baixe a versão mais recente do Aspose.PDF para .NET em [site](https://releases.aspose.com/pdf/net/)Você também pode optar por um teste gratuito para explorar seus recursos.
+3. .NET Framework - Estes exemplos serão criados para .NET. Certifique-se de ter uma versão compatível instalada em sua máquina.
+4. Conhecimento básico de C# - A familiaridade com a programação em C# será útil enquanto escrevemos algum código!
 
-Pegou tudo? Ótimo! Vamos codificar!
+Entendeu tudo? Ótimo! Vamos programar!
 
 ## Pacotes de importação
 
-Agora que temos nossos pré-requisitos resolvidos, vamos para a parte divertida: importar os pacotes necessários. Para trabalhar com Aspose.PDF, você definitivamente precisa adicionar a biblioteca ao seu projeto. 
+Agora que definimos nossos pré-requisitos, vamos para a parte divertida: importar os pacotes necessários. Para trabalhar com o Aspose.PDF, você definitivamente precisa adicionar a biblioteca ao seu projeto. 
 
 ### Criar um novo projeto
 
@@ -41,7 +43,7 @@ Primeiro, inicie o Visual Studio e crie um novo projeto C#.
 1. Abra o Visual Studio.
 2. Clique em "Criar um novo projeto".
 3. Escolha "Aplicativo de console (.NET)" e clique em "Avançar".
-4.  Dê um nome ao seu projeto (por exemplo,`TaggedPdfExample`) e defina sua localização.
+4. Dê um nome ao seu projeto (por exemplo, `TaggedPdfExample`) e defina sua localização.
 5. Clique em "Criar".
 
 ### Adicionar referência Aspose.PDF
@@ -54,7 +56,7 @@ Agora, vamos adicionar a biblioteca Aspose.PDF:
 
 ### Importe os namespaces necessários
 
- No topo do seu arquivo de programa principal (como`Program.cs`), importe os seguintes namespaces:
+No topo do seu arquivo de programa principal (como `Program.cs`), importe os seguintes namespaces:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -66,22 +68,22 @@ using System.Linq;
 using System.Text;
 ```
 
-Agora que configuramos tudo, vamos dividir o código em partes mais fáceis de entender e criar um PDF marcado passo a passo!
+Agora que configuramos tudo, vamos dividir o código em partes mais fáceis de entender e criar um PDF com tags passo a passo!
 
-## Etapa 1: Defina o diretório de documentos
+## Etapa 1: definir o diretório de documentos
 
 Antes de começar a codificar, vamos definir o diretório do documento onde salvaremos nosso arquivo PDF:
 
 ```csharp
 // O caminho para o diretório de documentos.
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // Atualize isso para o seu caminho
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Atualize isso para seu caminho
 ```
 
- Substituir`"YOUR DOCUMENT DIRECTORY"` com o caminho real onde você deseja salvar seu PDF.
+Substituir `"YOUR DOCUMENT DIRECTORY"` com o caminho real onde você deseja salvar seu PDF.
 
-## Etapa 2: Crie um documento PDF
+## Etapa 2: Criar um documento PDF
 
-Vamos criar uma nova instância de documento PDF. Isso é como desenhar uma tela em branco onde adicionaremos nosso conteúdo. 
+Vamos criar uma nova instância de documento PDF. É como desenhar uma tela em branco onde adicionaremos nosso conteúdo. 
 
 ```csharp
 // Criar documento PDF
@@ -99,7 +101,7 @@ ITaggedContent taggedContent = document.TaggedContent;
 
 ## Etapa 4: Defina o título e o idioma do documento
 
-Agora, vamos definir o título e o idioma do nosso documento. Isso é super importante para acessibilidade!
+Agora, vamos definir o título e o idioma do nosso documento. Isso é superimportante para acessibilidade!
 
 ```csharp
 // Definir título e idioma para documento
@@ -107,23 +109,23 @@ taggedContent.SetTitle("Tagged Pdf Document");
 taggedContent.SetLanguage("en-US");
 ```
 
-## Etapa 5: Crie elementos de estrutura em nível de bloco de texto
+## Etapa 5: Criar elementos de estrutura em nível de bloco de texto
 
-É aqui que criaremos nosso conteúdo. Faremos cabeçalhos e parágrafos, como blocos de construção!
+É aqui que criaremos nosso conteúdo. Criaremos cabeçalhos e parágrafos, como blocos de construção!
 
-### Etapa 5.1: Crie um elemento de cabeçalho
+### Etapa 5.1: Criar um elemento de cabeçalho
 
 Para começar, vamos criar um elemento de cabeçalho:
 
 ```csharp
-// Criar elementos de estrutura de nível de bloco de texto
+// Criar elementos de estrutura em nível de bloco de texto
 HeaderElement headerElement = taggedContent.CreateHeaderElement();
 headerElement.ActualText = "Heading 1";
 ```
 
 ### Etapa 5.2: Criar elementos de parágrafo
 
-Em seguida, vamos adicionar alguns parágrafos. Vou adicionar vários para você, mas você pode personalizar isso de acordo com suas necessidades!
+Em seguida, vamos adicionar alguns parágrafos. Vou adicionar vários para você, mas você pode personalizar de acordo com suas necessidades!
 
 ```csharp
 ParagraphElement paragraphElement1 = taggedContent.CreateParagraphElement();
@@ -150,7 +152,7 @@ paragraphElement7.ActualText = "test 7";
 
 ## Etapa 6: Salve o documento PDF
 
-Por fim, vamos salvar esta obra-prima! Veja como você salva seu PDF marcado:
+Por fim, vamos salvar esta obra-prima! Veja como salvar seu PDF marcado:
 
 ```csharp
 // Salvar documento PDF
@@ -161,27 +163,29 @@ Você acabou de criar um PDF marcado!
 
 ## Conclusão
 
-Criar um PDF marcado com Aspose.PDF para .NET é muito fácil quando você pega o jeito! Ele torna seus documentos não apenas fáceis de usar, mas também acessíveis a um público mais amplo. Enfatizar a estrutura semântica definitivamente valerá a pena, especialmente se você estiver em setores onde a acessibilidade do conteúdo é essencial. 
+Criar um PDF com tags com o Aspose.PDF para .NET é muito fácil depois que você pega o jeito! Ele torna seus documentos não apenas fáceis de usar, mas também acessíveis a um público mais amplo. Enfatizar a estrutura semântica certamente valerá a pena, especialmente se você atua em setores onde a acessibilidade do conteúdo é essencial. 
 
 ## Perguntas frequentes
 
 ### O que é um PDF marcado?  
-Um PDF marcado contém dados estruturados que facilitam a navegação eficaz pelo conteúdo por leitores de tela e tecnologias assistivas.
+Um PDF marcado contém dados estruturados que facilitam a navegação eficaz do conteúdo por leitores de tela e tecnologias assistivas.
 
 ### Preciso comprar o Aspose.PDF para usá-lo?  
- Embora você possa começar com um teste gratuito, uma licença será necessária para uso a longo prazo. Você pode descobrir mais[aqui](https://purchase.aspose.com/buy).
+Embora você possa começar com um teste gratuito, será necessária uma licença para uso a longo prazo. Você pode descobrir mais [aqui](https://purchase.aspose.com/buy).
 
 ### Posso personalizar os elementos estruturais do meu PDF?  
-Absolutamente! Você pode manipular vários elementos e criar estruturas complexas com base em seus requisitos.
+Com certeza! Você pode manipular vários elementos e criar estruturas complexas de acordo com suas necessidades.
 
 ### O Aspose.PDF é compatível com todos os aplicativos .NET?  
-Sim, o Aspose.PDF foi projetado para funcionar em diversas plataformas .NET, incluindo .NET Framework, .NET Core e muito mais.
+Sim, o Aspose.PDF foi projetado para funcionar em várias plataformas .NET, incluindo .NET Framework, .NET Core e muito mais.
 
 ### Onde posso encontrar suporte para o Aspose.PDF?  
- Você pode visitar o[Fórum de suporte Aspose](https://forum.aspose.com/c/pdf/10) para quaisquer dúvidas ou problemas que você encontrar.
+Você pode visitar o [Fórum de Suporte Aspose](https://forum.aspose.com/c/pdf/10) para quaisquer dúvidas ou problemas que você encontrar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

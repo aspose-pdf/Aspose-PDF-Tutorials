@@ -8,7 +8,9 @@ url: /net/programming-with-document/setzoomfactor/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Zoom Factor In PDF File
@@ -137,6 +139,7 @@ If you run into any problems, you can seek help on the [Aspose support forum](ht
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

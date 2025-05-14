@@ -1,104 +1,167 @@
 ---
-title: Aspose.PDF دروس مرئية 
-weight: 10
-limit:
-description: استكشف Aspose.PDF الدروس البصرية مع أدلة خطوة بخطوة وأمثلة رمزية. تعلم معالجة PDF بسهولة مع صور تفاعلية.
-keywords:
-url: /ar/
+"description": "استكشف دروس Aspose.PDF المرئية مع أدلة خطوة بخطوة وأمثلة برمجية. تعلم معالجة ملفات PDF بسهولة باستخدام المرئيات التفاعلية."
+"title": "دروس مرئية حول Aspose.PDF"
+"url": "/ar/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDF دروس مرئية
+# دروس مرئية حول Aspose.PDF
   
-توفر الدروس البصرية Aspose.PDF تجربة تعليمية تفاعلية للمطورين الذين يعملون مع ملفات PDF في .NET. تغطي هذه الدروس مهام معالجة PDF الأساسية مثل إنشاء وتحرير وتحويل وتأمين ملفات PDF مع صور في الوقت الحقيقي وأمثلة رمز. سواء كنت مبتدئًا أو مطورًا ذو خبرة ، فإن أداتنا خطوة بخطوة تبسط العمليات المعقدة ، مما يساعدك على تنفيذ الميزات بسرعة وكفاءة.  
+توفر دروس Aspose.PDF المرئية تجربة تعليمية تفاعلية للمطورين الذين يعملون على ملفات PDF في .NET. تغطي هذه الدروس مهام معالجة PDF الأساسية، مثل إنشاء ملفات PDF وتحريرها وتحويلها وتأمينها، باستخدام عروض مرئية وأمثلة برمجية آنية. سواء كنت مبتدئًا أو مطوّرًا خبيرًا، تُبسّط أدلتنا خطوة بخطوة العمليات المعقدة، وتساعدك على تطبيق الميزات بسرعة وكفاءة.  
 
-يتضمن كل دروس تصفحات عالية الجودة، لقطات شاشة مفسرة، ومقتطفات رمز C# جاهزة للاستخدام لتعزيز فهمك. مع أمثلة عملية ودروس منظمة، يمكنك إتقان Aspose.PDF لـ .NET بسهولة. استكشف دروسنا اليوم ورفع مهارات تطوير PDF الخاصة بك!
+يتضمن كل برنامج تعليمي رسومًا توضيحية عالية الجودة، ولقطات شاشة مُعلّقة، ومقاطع برمجية جاهزة للاستخدام بلغة C# لتعزيز فهمك. مع أمثلة عملية ودروس مُنظّمة، يمكنك إتقان Aspose.PDF لـ .NET بسهولة. استكشف برامجنا التعليمية اليوم وطوّر مهاراتك في تطوير ملفات PDF!
 
-## [Aspose.PDF لـ .NET Visual Tutorials](./net/)
+## [دروس Aspose.PDF لـ .NET Visual](./net/)
 
-Aspose.PDF لـ .NET Visual Tutorials يوفر أدلة شاملة خطوة بخطوة لمساعدة المطورين على إتقان معالجة PDF باستخدام C #. سواء كنت بحاجة إلى إنشاء أو تحرير أو تحويل أو التلاعب في ملفات PDF ، فإن هذه الدروس تقدم تفسيرات واضحة وأمثلة رمزية عملية. مع التركيز على سيناريوهات العالم الحقيقي ، فإنها تجعل مهام PDF المعقدة بسيطة وفعالة.
+توفر دروس Aspose.PDF لـ .NET المرئية أدلة شاملة وشرحًا خطوة بخطوة لمساعدة المطورين على إتقان معالجة ملفات PDF باستخدام C#. سواءً كنت بحاجة إلى إنشاء ملفات PDF أو تحريرها أو تحويلها أو التعامل معها، تقدم هذه الدروس شرحًا واضحًا وأمثلة عملية على الكود البرمجي. بتركيزها على سيناريوهات واقعية، تجعل مهام PDF المعقدة بسيطة وفعالة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [إنشاء الرسوم البيانية في PDF باستخدام Aspose.PDF لـ .NET](./net/graphs/)
-تعلم كيفية إنشاء وتخصيص الرسوم البيانية في PDF باستخدام Aspose.PDF لـ .NET. أضف الرسوم البيانية الخطية والشريطية والبيانات المعدنية بسهولة مع أمثلة رمز C #.
+تعلّم كيفية إنشاء وتخصيص الرسوم البيانية بصيغة PDF باستخدام Aspose.PDF لـ .NET. أضف مخططات خطية وعمودية ودائرية بسهولة باستخدام أمثلة أكواد C#.
 
-{{< tutorial-card link="./net/graphs/add-drawing/" title="إنشاء PDF مع الرسوم البيانية الشفافة باستخدام Aspose.PDF" imgSrc="/pdf/net/graphs/add-drawing/images/thumb.png" >}}
-{{< tutorial-card link="./net/graphs/control-rectangle-z-order/" title="إنشاء وتخصيص PDF مع مستطيلات في .NET" imgSrc="/pdf/net/graphs/control-rectangle-z-order/images/thumb.png" >}}
-{{< tutorial-card link="./net/graphs/create-rectangle-with-alpha-color/" title="إنشاء PDF مع مستطيلات وألوان ألفا في Aspose.PDF" imgSrc="/pdf/net/graphs/create-rectangle-with-alpha-color/images/thumb.png" >}}
-{{< tutorial-card link="./net/graphs/drawing-line/" title="رسم خطوط قطرية في PDF باستخدام Aspose.PDF لـ .NET" imgSrc="/pdf/net/graphs/drawing-line/images/thumb.png" >}}
+{{< tutorial-card link="./net/graphs/add-drawing/" title="إنشاء ملف PDF برسوم بيانية شفافة باستخدام Aspose.PDF" imgSrc="./net/graphs/add-drawing/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/graphs/control-rectangle-z-order/" title="إنشاء وتخصيص ملف PDF باستخدام المستطيلات في .NET" imgSrc="./net/graphs/control-rectangle-z-order/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/graphs/create-rectangle-with-alpha-color/" title="إنشاء ملف PDF باستخدام المستطيلات وألوان ألفا في Aspose.PDF" imgSrc="./net/graphs/create-rectangle-with-alpha-color/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/graphs/drawing-line/" title="ارسم خطوطًا قطرية في PDF باستخدام Aspose.PDF لـ .NET" imgSrc="./net/graphs/drawing-line/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## [توليد الصور من PDF باستخدام Aspose.PDF لـ .NET](./net/images/)
-تعلم كيفية إنشاء صور من ملفات PDF باستخدام Aspose.PDF لـ .NET. تحويل صفحات PDF إلى JPEG أو PNG أو BMP بسهولة في C # بجودة عالية.
+## [إنشاء صور من PDF باستخدام Aspose.PDF لـ .NET](./net/images/)
+تعلّم كيفية إنشاء صور من ملفات PDF باستخدام Aspose.PDF لـ .NET. حوّل صفحات PDF إلى JPEG أو PNG أو BMP بسهولة باستخدام C# وبجودة عالية.
 
-{{< tutorial-card link="./net/images/extract-image/" title="استخراج الصور من PDF في C # باستخدام Aspose.PDF" imgSrc="/pdf/net/images/extract-image/images/thumb.png" >}}
-{{< tutorial-card link="./net/images/resize-image/" title="تحسين صور PDF مع Aspose.PDF لـ .NET" imgSrc="/pdf/net/images/resize-image/images/thumb.png" >}}
-{{< tutorial-card link="./net/images/set-image-size/" title="إنشاء وتعديل ملف PDF مع الصور باستخدام Aspose.PDF" imgSrc="/pdf/net/images/set-image-size/images/thumb.png" >}}
-{{< tutorial-card link="./net/images/shrink-image/" title="تحسين PDF عن طريق ضغط الصور في Aspose.PDF" imgSrc="/pdf/net/images/shrink-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/images/extract-image/" title="استخراج الصور من PDF في C# باستخدام Aspose.PDF" imgSrc="./net/images/extract-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/images/resize-image/" title="تحسين صور PDF باستخدام Aspose.PDF لـ .NET" imgSrc="./net/images/resize-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/images/set-image-size/" title="إنشاء وتعديل ملف PDF مع الصور باستخدام Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/images/shrink-image/" title="تحسين ملفات PDF عن طريق ضغط الصور في Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## [دروس شاملة جداول في Aspose.PDF لـ .NET](./net/tables/)
-تعلم كيفية إنشاء وتنسيق وتلاعب الجداول في مستندات PDF باستخدام Aspose.PDF لـ .NET مع دروس خطوة بخطوة وأمثلة رمز.
+## [دروس شاملة حول الجداول في Aspose.PDF لـ .NET](./net/tables/)
+تعرف على كيفية إنشاء الجداول وتنسيقها ومعالجتها في مستندات PDF باستخدام Aspose.PDF لـ .NET من خلال البرامج التعليمية خطوة بخطوة وأمثلة التعليمات البرمجية.
 
-{{< tutorial-card link="./net/tables/add-table/" title="إضافة الجدول إلى PDF موجود باستخدام Aspose.PDF لـ .NET" imgSrc="/pdf/net/tables/add-table/images/thumb.png" >}}
-{{< tutorial-card link="./net/tables/insert-page-break/" title="إنشاء PDF مع الجداول والصفحات باستخدام Aspose.PDF" imgSrc="/pdf/net/tables/insert-page-break/images/thumb.png" >}}
-{{< tutorial-card link="./net/tables/render-table/" title="إنشاء PDF مع الجداول باستخدام Aspose.PDF لـ .NET" imgSrc="/pdf/net/tables/render-table/images/thumb.png" >}}
-{{< tutorial-card link="./net/tables/set-border/" title="إنشاء PDF مع الجدول المزدوج الحدود باستخدام Aspose.PDF" imgSrc="/pdf/net/tables/set-border/images/thumb.png" >}}
-{{< tutorial-card link="./net/tables/text-alignment-for-table-row-content/" title="إنشاء ملف PDF مع محاذاة النص لمحتوى صف الجدول" imgSrc="/pdf/net/tables/text-alignment-for-table-row-content/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/add-table/" title="إضافة جدول إلى ملف PDF موجود باستخدام Aspose.PDF لـ .NET" imgSrc="./net/tables/add-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/tables/insert-page-break/" title="إنشاء ملف PDF مع الجداول والترقيم الصفحي باستخدام Aspose.PDF" imgSrc="./net/tables/insert-page-break/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/tables/render-table/" title="إنشاء ملف PDF يحتوي على جداول باستخدام Aspose.PDF لـ .NET" imgSrc="./net/tables/render-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/tables/set-border/" title="إنشاء ملف PDF بجدول ذي حدود مزدوجة باستخدام Aspose.PDF" imgSrc="./net/tables/set-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/tables/text-alignment-for-table-row-content/" title="إنشاء ملف PDF مع محاذاة النص لمحتوى صف الجدول" imgSrc="./net/tables/text-alignment-for-table-row-content/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## [دروس شاملة معالجة النصوص في Aspose.PDF لـ .NET](./net/text/)
-تعلم كيفية إنشاء وتنسيق وتلاعب الجداول في مستندات PDF باستخدام Aspose.PDF لـ .NET مع دروس خطوة بخطوة وأمثلة رمز.
+## [دروس تعليمية شاملة حول التعامل مع النصوص في Aspose.PDF لـ .NET](./net/text/)
+تعرف على كيفية إنشاء الجداول وتنسيقها ومعالجتها في مستندات PDF باستخدام Aspose.PDF لـ .NET من خلال البرامج التعليمية خطوة بخطوة وأمثلة التعليمات البرمجية.
 
-{{< tutorial-card link="./net/text/add-text/" title="إضافة نص إلى مستندات PDF باستخدام Aspose.PDF" imgSrc="/pdf/net/text/add-text/images/thumb.png" >}}
-{{< tutorial-card link="./net/text/add-text-border/" title="إنشاء نص مصمم مع الحدود في مستندات PDF باستخدام Aspose.PDF" imgSrc="/pdf/net/text/add-text-border/images/thumb.png" >}}
-{{< tutorial-card link="./net/text/add-transparent-text/" title="إنشاء تأثيرات نص شفافة في PDF مع Aspose.PDF" imgSrc="/pdf/net/text/add-transparent-text/images/thumb.png" >}}
-{{< tutorial-card link="./net/text/add-underline-text/" title="إضافة نص مشدود في PDF باستخدام Aspose.PDF" imgSrc="/pdf/net/text/add-underline-text/images/thumb.png" >}}
-{{< tutorial-card link="./net/text/create-multi-column/" title="إنشاء PDF متعدد الأعمدة باستخدام Aspose.PDF لـ .NET" imgSrc="/pdf/net/text/create-multi-column/images/thumb.png" >}}
-{{< tutorial-card link="./net/text/multicolumn-paragraphs/" title="الفقرات متعددة الأعمدة في PDF باستخدام Aspose.PDF" imgSrc="/pdf/net/text/multicolumn-paragraphs/images/thumb.png" >}}
+{{< tutorial-card link="./net/text/add-text/" title="إضافة نص إلى مستندات PDF باستخدام Aspose.PDF" imgSrc="./net/text/add-text/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/add-text-border/" title="إنشاء نص منسق مع حدود في مستندات PDF باستخدام Aspose.PDF" imgSrc="./net/text/add-text-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/add-transparent-text/" title="إنشاء تأثيرات نصية شفافة في PDF باستخدام Aspose.PDF" imgSrc="./net/text/add-transparent-text/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/add-underline-text/" title="إضافة نص مسطر في PDF باستخدام Aspose.PDF" imgSrc="./net/text/add-underline-text/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/create-multi-column/" title="إنشاء ملف PDF متعدد الأعمدة باستخدام Aspose.PDF لـ .NET" imgSrc="./net/text/create-multi-column/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/multicolumn-paragraphs/" title="فقرات متعددة الأعمدة في PDF باستخدام Aspose.PDF" imgSrc="./net/text/multicolumn-paragraphs/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 وفيما يلي روابط لبعض الموارد المفيدة:
-- [البرمجة باستخدام الوثيقة](./net/programming-with-document/)
+- [ابدء](./net/getting-started/)
+- [البرمجة باستخدام المستندات](./net/programming-with-document/)
 - [البرمجة باستخدام التعليقات التوضيحية](./net/annotations/)  
 - [تحويل المستندات](./net/document-conversion/)
 - [البرمجة باستخدام النماذج](./net/programming-with-forms/)
 - [البرمجة باستخدام الجداول](./net/programming-with-tables/) 
 - [البرمجة باستخدام صفحات PDF](./net/programming-with-pdf-pages/)
 - [البرمجة باستخدام الرسوم البيانية](./net/programming-with-graphs/)
+- [إنشاء المستندات](./net/document-creation/)
+- [معالجة المستندات](./net/document-manipulation/)
+- [عمليات النص](./net/text-operations/)
+- [الصور والرسومات](./net/images-graphics/)
+- [الجداول والقوائم](./net/tables-lists/)
+- [النماذج والتعليقات التوضيحية](./net/forms-annotations/)
+- [الأمان والأذونات](./net/security-permissions/)
+- [التحويل والتصدير](./net/conversion-export/)
+- [الطباعة والتقديم](./net/printing-rendering/)
+- [المرفقات والملفات المضمنة](./net/attachments-embedded-files/)
+- [البيانات الوصفية ومعلومات الوثيقة](./net/metadata-document-info/)
+- [الامتثال لـ PDF/A](./net/pdfa-compliance/)
+- [الإشارات المرجعية والتنقل](./net/bookmarks-navigation/)
+- [العلامات المائية والخلفيات](./net/watermarks-backgrounds/)
+- [التوقيعات الرقمية](./net/digital-signatures/)
+- [الميزات المتقدمة](./net/advanced-features/)
+- [تحسين الأداء](./net/performance-optimization/)
+- [ملفات PDF](./net/pdf-portfolios/)
  
-## واجهة برمجة تطبيقات معالجة Aspose.PDF للغة Java
+## واجهة برمجة تطبيقات معالجة Aspose.PDF لـ Java
+
 {{% alert color="primary" %}}
-أتقن استخدام Aspose.PDF للغة Java من خلال دروس تعليمية شاملة. أنشئ ملفات PDF وقم بتحريرها وتحسينها بسهولة. ارتق بمهاراتك في تطوير ملفات PDF اليوم!
+أتقن استخدام Aspose.PDF لجافا مع دروس تعليمية شاملة. أنشئ ملفات PDF، حرّرها، وحسّنها بكل سهولة. طوّر مهاراتك في تطوير ملفات PDF اليوم!
+
 {{% /alert %}}
 
 وفيما يلي روابط لبعض الموارد المفيدة:
+- [ابدء](./java/getting-started/)	
 - [تعليقات PDF](./java/pdf-annotations/)
-- [المرفقات PDF](./java/pdf-attachments/)
+- [مرفقات PDF](./java/pdf-attachments/)
 - [إشارات مرجعية PDF](./java/pdf-bookmarks/)
 - [تحويل وتحويل ملفات PDF](./java/pdf-conversion-transformation/)
 - [صور PDF](./java/pdf-images/)
-- [معالجة الصور بصيغة PDF](./java/pdf-image-manipulation/)
+- [معالجة صور PDF](./java/pdf-image-manipulation/)
 - [روابط مستندات PDF](./java/pdf-document-links/)
-- [التلاعب بصفحات PDF](./java/pdf-page-manipulation/)
-- [عمليات مستند PDF](./java/pdf-document-operations/)
+- [معالجة صفحات PDF](./java/pdf-page-manipulation/)
+- [عمليات مستندات PDF](./java/pdf-document-operations/)
 - [حقول نموذج PDF](./java/pdf-form-fields/)
 - [جداول PDF](./java/pdf-tables/)
 - [عناصر هيكل PDF](./java/pdf-structure-elements/)
-- [علامات وبنية PDF](./java/pdf-tags-and-structure/)
+- [علامات PDF وبنيتها](./java/pdf-tags-and-structure/)
 - [أنماط وتنسيقات PDF](./java/pdf-styles-and-formatting/)
 - [استخراج نص PDF](./java/pdf-text-extraction/)
 - [التحقق من صحة ملفات PDF](./java/pdf-validation-and-verification/)
-
+- [إنشاء المستندات](./java/document-creation/)
+- [معالجة المستندات](./java/document-manipulation/)
+- [عمليات النص](./java/text-operations/)
+- [الصور والرسومات](./java/images-graphics/)
+- [الجداول والقوائم](./java/tables-lists/)
+- [النماذج والتعليقات التوضيحية](./java/forms-annotations/)
+- [الأمان والأذونات](./java/security-permissions/)
+- [التحويل والتصدير](./java/conversion-export/)
+- [الطباعة والتقديم](./java/printing-rendering/)
+- [المرفقات والملفات المضمنة](./java/attachments-embedded-files/)
+- [البيانات الوصفية ومعلومات الوثيقة](./java/metadata-document-info/)
+- [الامتثال لـ PDF/A](./java/pdfa-compliance/)
+- [الإشارات المرجعية والتنقل](./java/bookmarks-navigation/)
+- [العلامات المائية والخلفيات](./java/watermarks-backgrounds/)
+- [التوقيعات الرقمية](./java/digital-signatures/)
+- [الميزات المتقدمة](./java/advanced-features/)
+- [تحسين الأداء](./java/performance-optimization/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

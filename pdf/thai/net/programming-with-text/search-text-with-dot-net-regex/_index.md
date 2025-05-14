@@ -1,14 +1,16 @@
 ---
-title: ค้นหาข้อความด้วย Dot Net Regex
-linktitle: ค้นหาข้อความด้วย Dot Net Regex
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีค้นหาข้อความใน PDF โดยใช้ .NET Regex กับ Aspose.PDF ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราและทำให้ภารกิจ PDF ของคุณง่ายขึ้น
-weight: 480
-url: /th/net/programming-with-text/search-text-with-dot-net-regex/
+"description": "เรียนรู้วิธีค้นหาข้อความใน PDF โดยใช้ .NET Regex กับ Aspose.PDF ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราและทำให้ภารกิจ PDF ของคุณง่ายขึ้น"
+"linktitle": "ค้นหาข้อความด้วย Dot Net Regex"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ค้นหาข้อความด้วย Dot Net Regex"
+"url": "/th/net/programming-with-text/search-text-with-dot-net-regex/"
+"weight": 480
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ค้นหาข้อความด้วย Dot Net Regex
@@ -25,10 +27,10 @@ url: /th/net/programming-with-text/search-text-with-dot-net-regex/
 ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET framework บนคอมพิวเตอร์ของคุณแล้ว Aspose.PDF รองรับแอปพลิเคชัน .NET Core และ .NET Framework
 
 ### Aspose.PDF สำหรับ .NET
- คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF หากยังไม่ได้ทำ คุณสามารถรับได้จาก[หน้าเผยแพร่ PDF ของ Aspose](https://releases.aspose.com/pdf/net/).
+คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF หากยังไม่ได้ทำ คุณสามารถรับได้จาก [หน้าเผยแพร่ PDF ของ Aspose](https://releases-aspose.com/pdf/net/).
 
 ### ความรู้พื้นฐานเกี่ยวกับ C#
-ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# และสภาพแวดล้อม .NET จะช่วยให้คุณทำตามบทช่วยสอนนี้ได้อย่างราบรื่นยิ่งขึ้น
+ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# และสภาพแวดล้อม .NET จะช่วยให้คุณทำตามบทช่วยสอนนี้ได้ราบรื่นยิ่งขึ้น
 
 ### IDE ของคุณ
 การมีสภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Visual Studio หรือ Visual Studio Code จะช่วยให้คุณเขียนและทดสอบโค้ดได้อย่างมีประสิทธิภาพ
@@ -37,7 +39,7 @@ url: /th/net/programming-with-text/search-text-with-dot-net-regex/
 
 ## การนำเข้าแพ็คเกจ
 
-เมื่อเราตั้งค่าทุกอย่างเรียบร้อยแล้ว ขั้นตอนแรกในการค้นหาข้อความในเอกสาร PDF คือการนำเข้าแพ็คเกจที่จำเป็น ในแอปพลิเคชัน C# ของคุณ คุณจะต้องรวมการอ้างอิงไปยังไลบรารี Aspose.PDF ซึ่งโดยปกติแล้วจะทำโดยใช้ตัวจัดการแพ็คเกจ เช่น NuGet
+เมื่อเราตั้งค่าทุกอย่างเรียบร้อยแล้ว ขั้นตอนแรกในการค้นหาข้อความในเอกสาร PDF คือการนำเข้าแพ็คเกจที่จำเป็น ในแอปพลิเคชัน C# ของคุณ คุณจะต้องรวมการอ้างอิงไปยังไลบรารี Aspose.PDF ซึ่งโดยทั่วไปจะทำโดยใช้ตัวจัดการแพ็คเกจ เช่น NuGet
 
 ```csharp
 using Aspose.Pdf.Text;
@@ -58,7 +60,7 @@ using System.Text;
 Install-Package Aspose.PDF
 ```
 
-คำสั่งนี้จะดาวน์โหลดและรวมแพ็กเกจ Aspose.PDF เข้าในโปรเจ็กต์ของคุณ ทำให้คุณสามารถเข้าถึงฟังก์ชันต่างๆ ทั้งหมดได้
+คำสั่งนี้จะดาวน์โหลดและรวมแพ็กเกจ Aspose.PDF เข้าในโครงการของคุณ ทำให้คุณสามารถเข้าถึงฟังก์ชันต่างๆ ทั้งหมดได้
 
 ตอนนี้เราได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว มาดูโค้ดจริงกันเลย เราจะแบ่งโค้ดออกเป็นขั้นตอนที่จัดการได้เพื่อความชัดเจนยิ่งขึ้น
 
@@ -69,7 +71,7 @@ Install-Package Aspose.PDF
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางที่ไฟล์ PDF เป้าหมายของคุณตั้งอยู่ ขั้นตอนนี้จะช่วยให้แอปพลิเคชันของคุณสามารถค้นหาเอกสาร PDF ที่คุณต้องการค้นหาได้อย่างง่ายดาย
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางที่ไฟล์ PDF เป้าหมายของคุณตั้งอยู่ ขั้นตอนนี้จะช่วยให้แอปพลิเคชันของคุณสามารถค้นหาเอกสาร PDF ที่คุณต้องการค้นหาได้อย่างง่ายดาย
 
 ## ขั้นตอนที่ 3: สร้างวัตถุ Regex
 
@@ -78,7 +80,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```csharp
 System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex(@"[\S]+");
 ```
- การแสดงออกของ Regex`@"[\S]+"` ตรงกับลำดับอักขระที่ไม่ใช่ช่องว่างในเอกสาร คุณสามารถปรับเปลี่ยนรูปแบบได้ตามต้องการหากคุณมีข้อกำหนดในการค้นหาที่เฉพาะเจาะจง
+การแสดงออกของ Regex `@"[\S]+"` ตรงกับลำดับอักขระที่ไม่ใช่ช่องว่างในเอกสาร คุณสามารถปรับเปลี่ยนรูปแบบได้ตามต้องการหากคุณมีข้อกำหนดในการค้นหาที่เฉพาะเจาะจง
 
 ## ขั้นตอนที่ 4: เปิดเอกสาร PDF
 
@@ -87,7 +89,7 @@ System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.
 ```csharp
 Aspose.Pdf.Document document = new Aspose.Pdf.Document(dataDir + "SearchTextRegex.pdf");
 ```
- แทนที่`"SearchTextRegex.pdf"`โดยใช้ชื่อจริงของไฟล์ PDF ของคุณ บรรทัดโค้ดนี้จะเริ่มต้นวัตถุ Aspose.PDF Document ซึ่งช่วยให้คุณสามารถจัดการ PDF ได้
+แทนที่ `"SearchTextRegex.pdf"` โดยใช้ชื่อจริงของไฟล์ PDF ของคุณ บรรทัดโค้ดนี้จะเริ่มต้นวัตถุ Aspose.PDF Document ซึ่งช่วยให้คุณสามารถจัดการ PDF ได้
 
 ## ขั้นตอนที่ 5: เข้าถึงหน้าที่ต้องการ
 
@@ -115,7 +117,7 @@ textFragmentAbsorber.TextSearchOptions.IsRegularExpressionUsed = true;
 ```csharp
 page.Accept(textFragmentAbsorber);
 ```
- โดยการโทรหา`Accept` วิธีการนี้เราแนะนำให้เพจใช้ TextAbsorber เพื่อดำเนินการค้นหาภายในเพจนั้น
+โดยการโทรหา `Accept` วิธีการนี้เราแนะนำให้เพจใช้ TextAbsorber เพื่อดำเนินการค้นหาภายในเพจนั้น
 
 ## ขั้นตอนที่ 8: ดึงชิ้นส่วนข้อความที่พบ
 
@@ -124,7 +126,7 @@ page.Accept(textFragmentAbsorber);
 ```csharp
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
- การ`TextFragments` คุณสมบัติประกอบด้วยข้อความสั้นๆ ทั้งหมดที่ค้นพบโดยการค้นหา Regex ของเรา 
+การ `TextFragments` คุณสมบัติประกอบด้วยข้อความสั้นๆ ทั้งหมดที่ค้นพบโดยการค้นหา Regex ของเรา 
 
 ## ขั้นตอนที่ 9: วนซ้ำและแสดงผลลัพธ์
 
@@ -148,19 +150,21 @@ foreach (TextFragment textFragment in textFragmentCollection)
 Aspose.PDF เป็นไลบรารี .NET ที่ช่วยให้นักพัฒนาสามารถสร้างและจัดการเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันสามารถดาวน์โหลด Aspose.PDF สำหรับ .NET ได้อย่างไร
- คุณสามารถดาวน์โหลดได้จาก[หน้าเผยแพร่ PDF ของ Aspose](https://releases.aspose.com/pdf/net/).
+คุณสามารถดาวน์โหลดได้จาก [หน้าเผยแพร่ PDF ของ Aspose](https://releases-aspose.com/pdf/net/).
 
 ### ฉันสามารถใช้นิพจน์ทั่วไปในการค้นหา PDF ได้หรือไม่
 ใช่! Aspose.PDF รองรับนิพจน์ทั่วไปสำหรับการค้นหาข้อความ
 
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.PDF ได้ที่ไหน
- คุณสามารถเข้าถึงการสนับสนุนได้ที่[ฟอรั่ม PDF Aspose](https://forum.aspose.com/c/pdf/10).
+คุณสามารถเข้าถึงการสนับสนุนได้ที่ [ฟอรั่ม PDF Aspose](https://forum-aspose.com/c/pdf/10).
 
 ### มีเวอร์ชันทดลองใช้สำหรับ Aspose.PDF หรือไม่
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

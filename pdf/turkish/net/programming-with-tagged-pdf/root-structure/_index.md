@@ -1,32 +1,34 @@
 ---
-title: Kök Yapısı
-linktitle: Kök Yapısı
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile kök yapı öğelerini kullanarak PDF belgesinin köküne ve StructTreeRoot nesnesine erişmeye yönelik adım adım kılavuz.
-weight: 130
-url: /tr/net/programming-with-tagged-pdf/root-structure/
+"description": "Aspose.PDF for .NET ile kök yapı öğelerini kullanarak PDF belgesinin köküne ve StructTreeRoot nesnesine erişmeye yönelik adım adım kılavuz."
+"linktitle": "Kök Yapısı"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Kök Yapısı"
+"url": "/tr/net/programming-with-tagged-pdf/root-structure/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kök Yapısı
 
 ## giriiş
 
-.NET ortamında PDF'lerle çalışırken, Aspose.PDF karmaşık PDF belgelerini yönetmeyi çocuk oyuncağı haline getiren güçlü araçlar sunar. PDF oluşturmayı, düzenlemeyi veya bir PDF içindeki öğeleri etiketlemeyi otomatikleştiriyor olun, Aspose.PDF for .NET oyunun kurallarını değiştirir. Bu eğitimde, Aspose.PDF for .NET kullanarak etiketli bir PDF belgesi oluşturmanın nasıl mümkün olduğunu derinlemesine inceleyeceğiz. Etiketli PDF'ler erişilebilirlik ve anlamsal yapı için olmazsa olmazdır ve içeriği ekran okuyucular için daha okunabilir hale getirir. Hazır mısınız? Hadi başlayalım!
+.NET ortamında PDF'lerle çalışırken, Aspose.PDF karmaşık PDF belgelerini yönetmeyi çocuk oyuncağı haline getiren güçlü araçlar sunar. PDF oluşturmayı, düzenlemeyi veya bir PDF içindeki öğeleri etiketlemeyi otomatikleştiriyor olun, Aspose.PDF for .NET oyunun kurallarını değiştirir. Bu eğitimde, Aspose.PDF for .NET kullanarak etiketli bir PDF belgesinin nasıl oluşturulabileceğini derinlemesine inceleyeceğiz. Etiketli PDF'ler erişilebilirlik ve anlamsal yapı için olmazsa olmazdır ve içeriği ekran okuyucular için daha okunabilir hale getirir. Hazır mısınız? Hadi başlayalım!
 
 ## Ön koşullar
 
 Etiketli PDF'ler oluşturmaya başlamadan önce, bu eğitimi takip etmek için gereken her şeyin yerinde olduğundan emin olalım.
 
-1.  Aspose.PDF for .NET Kütüphanesi: Aspose.PDF for .NET paketini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz:[Burada](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET Kütüphanesi: Aspose.PDF for .NET paketini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz: [Burada](https://releases.aspose.com/pdf/net/).
 2. Geliştirme Ortamı: Visual Studio gibi bir geliştirme ortamı bu eğitimi kodlarken ana oyun alanınız olacaktır.
 3. .NET Framework: Sisteminizde .NET Framework'ün yüklü olduğundan emin olun.
 4. C# Hakkında Temel Bilgi: Uzman olmanıza gerek yok, ancak C# hakkında temel bir bilgiye sahip olmak bu eğitimi daha anlaşılır hale getirecektir.
 
- Aspose.PDF kitaplığınız yoksa, ayrıca bir tane talep edebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) veya indirin[ücretsiz deneme](https://releases.aspose.com/).
+Aspose.PDF kitaplığınız yoksa, ayrıca bir tane talep edebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) veya indirin [ücretsiz deneme](https://releases.aspose.com/).
 
 ## Paketleri İçe Aktar
 
@@ -50,7 +52,7 @@ Artık sahneyi hazırladığımıza göre, etiketli bir PDF belgesi oluşturman�
 Herhangi bir PDF oluşturmanın ilk adımı yeni bir belge nesnesi başlatmaktır.
 
 ### Adım 1.1: PDF Belgesini Başlatın
- PDF oluşturmak için bir örnek oluşturmanız gerekir`Document` nesne. İşte nasıl:
+PDF oluşturmak için bir örnek oluşturmanız gerekir `Document` nesne. İşte nasıl:
 
 ```csharp
 // Yeni bir PDF Belgesi Oluştur
@@ -71,7 +73,7 @@ Artık projeniz nihai PDF dosyasının nereye kaydedileceğini biliyor.
 
 ## Adım 2: Etiketli İçeriğe Erişim
 
- Etiketli PDF'ler tamamen erişilebilirlikle ilgilidir ve bu, ekran okuyucular gibi araçların yapıyı anlamasına yardımcı olmak için içerik içinde özel "etiketler" gerektirir. Bununla çalışmak için,`ITaggedContent` arayüz.
+Etiketli PDF'ler tamamen erişilebilirlikle ilgilidir ve bu, ekran okuyucular gibi araçların yapıyı anlamasına yardımcı olmak için içerik içinde özel "etiketler" gerektirir. Bununla çalışmak için, `ITaggedContent` arayüz.
 
 PDF'in etiketli içerik bölümüne şu şekilde erişin:
 
@@ -118,7 +120,7 @@ Kök yapı öğesi, etiketli içeriğiniz için temel görevi görür. Bunu belg
 StructTreeRootElement structTreeRootElement = taggedContent.StructTreeRootElement;
 ```
 
- The`StructTreeRootElement` nesnesi, öğeleri hiyerarşik olarak yapılandırmanıza olanak tanır.
+The `StructTreeRootElement` nesnesi, öğeleri hiyerarşik olarak yapılandırmanıza olanak tanır.
 
 ### Adım 4.2: Kök Elemanı Tanımlayın
 Şimdi PDF'in kök yapı elemanını alalım:
@@ -128,7 +130,7 @@ StructTreeRootElement structTreeRootElement = taggedContent.StructTreeRootElemen
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
- Bu`rootElement` belgenin etiketleri için en üst düzey yapı olarak hizmet edecektir.
+Bu `rootElement` belgenin etiketleri için en üst düzey yapı olarak hizmet edecektir.
 
 ## Adım 5: Belgeyi Kaydedin
 
@@ -163,9 +165,11 @@ Ve işte bu kadar! Aspose.PDF for .NET kullanarak etiketli bir PDF'i başarıyla
 
 5. Aspose.PDF .NET'in tüm sürümleriyle uyumlu mudur?  
    Evet, Aspose.PDF for .NET, .NET Core ve .NET Framework ile uyumludur.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

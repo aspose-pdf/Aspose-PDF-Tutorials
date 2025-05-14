@@ -8,7 +8,9 @@ url: /java/pdf-page-manipulation/how-to-add-drawing-with-transparent-color-in-pd
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Add Drawing with Transparent Color in PDF using Java
@@ -113,6 +115,7 @@ You can refer to the Aspose.PDF for Java documentation at [here](https://referen
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

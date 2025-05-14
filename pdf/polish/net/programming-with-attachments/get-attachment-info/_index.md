@@ -1,14 +1,16 @@
 ---
-title: Uzyskaj informacje o załączniku
-linktitle: Uzyskaj informacje o załączniku
-second_title: Aspose.PDF dla .NET API Reference
-description: W tym kompleksowym samouczku dowiesz się, jak pobierać informacje o załącznikach z plików PDF za pomocą Aspose.PDF dla platformy .NET.
-weight: 50
-url: /pl/net/programming-with-attachments/get-attachment-info/
+"description": "W tym kompleksowym samouczku dowiesz się, jak pobierać informacje o załącznikach z plików PDF za pomocą Aspose.PDF dla platformy .NET."
+"linktitle": "Uzyskaj informacje o załączniku"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Uzyskaj informacje o załączniku"
+"url": "/pl/net/programming-with-attachments/get-attachment-info/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uzyskaj informacje o załączniku
@@ -22,7 +24,7 @@ W świecie zarządzania dokumentami zrozumienie, jak wyodrębniać i manipulowa�
 Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio: Upewnij się, że masz zainstalowane Visual Studio na swoim komputerze. To będzie Twoje środowisko programistyczne.
-2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 4. Przykładowy dokument PDF: Do tego samouczka będziesz potrzebować dokumentu PDF, który zawiera osadzone pliki. Możesz go utworzyć lub pobrać przykład z Internetu.
 
@@ -30,9 +32,9 @@ Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
 Aby zacząć, musisz zaimportować niezbędne pakiety do swojego projektu C#. Oto, jak możesz to zrobić:
 
-1. Otwórz projekt programu Visual Studio.
+1. Otwórz projekt Visual Studio.
 2. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań i wybierz opcję „Zarządzaj pakietami NuGet”.
-3.  Szukaj`Aspose.PDF` i zainstaluj najnowszą wersję.
+3. Szukaj `Aspose.PDF` i zainstaluj najnowszą wersję.
 
 ```csharp
 using System.IO;
@@ -51,18 +53,18 @@ Pierwszym krokiem w naszej podróży jest skonfigurowanie katalogu, w którym zn
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu dokumentów. To tutaj powinien znajdować się plik PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu dokumentów. To tutaj powinien znajdować się plik PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
- Teraz, gdy mamy już skonfigurowany katalog, czas otworzyć dokument PDF. Można to zrobić za pomocą`Document` Klasa udostępniona przez Aspose.PDF.
+Teraz, gdy mamy już skonfigurowany katalog, czas otworzyć dokument PDF. Można to zrobić za pomocą `Document` Klasa udostępniona przez Aspose.PDF.
 
 ```csharp
 // Otwórz dokument
 Document pdfDocument = new Document(dataDir + "GetAttachmentInfo.pdf");
 ```
 
- Tutaj tworzymy nową instancję`Document` class i przekazać ścieżkę do naszego pliku PDF. To pozwala nam na interakcję z zawartością pliku PDF.
+Tutaj tworzymy nową instancję `Document` class i przekazać ścieżkę do naszego pliku PDF. To pozwala nam na interakcję z zawartością pliku PDF.
 
 ## Krok 3: Dostęp do osadzonych plików
 
@@ -73,7 +75,7 @@ Po otwarciu dokumentu możemy uzyskać dostęp do osadzonych plików. Aspose.PDF
 FileSpecification fileSpecification = pdfDocument.EmbeddedFiles[1];
 ```
 
-W tym wierszu uzyskujemy dostęp do kolekcji osadzonych plików i pobieramy drugi plik (indeks 1). Upewnij się, że Twój plik PDF ma co najmniej dwa osadzone pliki; w przeciwnym razie może wystąpić błąd.
+tym wierszu uzyskujemy dostęp do kolekcji osadzonych plików i pobieramy drugi plik (indeks 1). Upewnij się, że Twój plik PDF ma co najmniej dwa osadzone pliki; w przeciwnym razie może wystąpić błąd.
 
 ## Krok 4: Pobierz właściwości pliku
 
@@ -103,7 +105,7 @@ if (fileSpecification.Params != null)
 }
 ```
 
- W tym kroku sprawdzamy, czy`Params` obiekt nie jest nullem. Jeśli zawiera dane, drukujemy sumę kontrolną, datę utworzenia, datę modyfikacji i rozmiar pliku. Te dodatkowe informacje mogą być bardzo pomocne w celach audytu i śledzenia.
+W tym kroku sprawdzamy, czy `Params` obiekt nie jest nullem. Jeśli zawiera dane, drukujemy sumę kontrolną, datę utworzenia, datę modyfikacji i rozmiar pliku. Te dodatkowe informacje mogą być bardzo pomocne w celach audytu i śledzenia.
 
 ## Wniosek
 
@@ -115,19 +117,21 @@ Gratulacje! Udało Ci się nauczyć, jak pobierać informacje o załącznikach z
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Jak zainstalować Aspose.PDF dla platformy .NET?
- Można go zainstalować za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
+Można go zainstalować za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
- Możesz uzyskać wsparcie na forum społeczności Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać wsparcie na forum społeczności Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Jakie typy plików mogę osadzić w pliku PDF?
 Możesz osadzać różne typy plików, w tym obrazy, dokumenty i arkusze kalkulacyjne, pod warunkiem, że są one obsługiwane przez format PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

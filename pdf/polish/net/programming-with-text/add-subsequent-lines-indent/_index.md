@@ -1,30 +1,32 @@
 ---
-title: Dodaj kolejne wcięcia linii w pliku PDF
-linktitle: Dodaj kolejne wcięcia linii w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać wcięcia kolejnych wierszy do plików PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem krok po kroku dotyczącym profesjonalnego formatowania tekstu.
-weight: 60
-url: /pl/net/programming-with-text/add-subsequent-lines-indent/
+"description": "Dowiedz się, jak dodawać wcięcia kolejnych wierszy do plików PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem krok po kroku dotyczącym profesjonalnego formatowania tekstu."
+"linktitle": "Dodaj kolejne wcięcia linii w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj kolejne wcięcia linii w pliku PDF"
+"url": "/pl/net/programming-with-text/add-subsequent-lines-indent/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj kolejne wcięcia linii w pliku PDF
 
 ## Wstęp
 
-Tworzenie atrakcyjnych wizualnie plików PDF często wymaga czegoś więcej niż tylko umieszczenia tekstu na stronie. Czy kiedykolwiek zastanawiałeś się, jak możesz dodać wcięcia do kolejnych wierszy w dokumencie PDF, aby wyglądał bardziej profesjonalnie? Niezależnie od tego, czy tworzysz raport, e-booka, czy jakikolwiek dokument, w którym układ ma znaczenie, możliwość kontrolowania przepływu tekstu jest kluczowa. Dzisiaj przyjrzymy się, jak dodać wcięcia do kolejnych wierszy w pliku PDF za pomocą Aspose.PDF dla .NET. Ta funkcja może być szczególnie przydatna w przypadku akapitów, które wymagają wcięcia wiszącego, co poprawia czytelność i estetykę. Więc przejdźmy do rzeczy!
+Tworzenie atrakcyjnych wizualnie plików PDF często wymaga czegoś więcej niż tylko umieszczenia tekstu na stronie. Czy kiedykolwiek zastanawiałeś się, jak dodać wcięcia do kolejnych wierszy w dokumencie PDF, aby wyglądał bardziej profesjonalnie? Niezależnie od tego, czy tworzysz raport, e-booka, czy jakikolwiek dokument, w którym układ ma znaczenie, możliwość kontrolowania przepływu tekstu jest kluczowa. Dzisiaj przyjrzymy się, jak dodać wcięcia do kolejnych wierszy w pliku PDF za pomocą Aspose.PDF dla .NET. Ta funkcja może być szczególnie przydatna w przypadku akapitów, które wymagają wcięcia wiszącego, co poprawia czytelność i estetykę. Więc przejdźmy do rzeczy!
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, musisz zadbać o kilka rzeczy:
 
--  Aspose.PDF dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Jeśli jeszcze tego nie zrobiłeś, możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Jeśli jeszcze tego nie zrobiłeś, możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 - Środowisko programistyczne: Przydatna będzie podstawowa znajomość języka C# i środowiska IDE, np. Visual Studio.
 - .NET Framework: W tym samouczku zakładamy, że pracujesz w środowisku .NET.
--  Licencja tymczasowa: Jeśli nie posiadasz pełnej licencji na Aspose.PDF, możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+- Licencja tymczasowa: Jeśli nie posiadasz pełnej licencji na Aspose.PDF, możesz poprosić o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 Teraz, gdy jesteś już gotowy, przejdźmy do sekcji kodowania!
 
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Utwórz nowy obiekt dokumentu
 Aspose.Pdf.Document document = new Aspose.Pdf.Document();
 
-//Dodaj nową stronę do dokumentu
+// Dodaj nową stronę do dokumentu
 Aspose.Pdf.Page page = document.Pages.Add();
 ```
 
@@ -60,7 +62,7 @@ Tutaj inicjujemy dokument PDF i dodajemy do niego pustą stronę. Do tej pory ca
 
 ## Krok 2: Utwórz fragment tekstu
 
- Następnie musisz utworzyć`TextFragment` obiekt, który będzie zawierał tekst, który wyświetlisz w swoim pliku PDF. Ten tekst zostanie później sformatowany z wymaganymi wcięciami.
+Następnie musisz utworzyć `TextFragment` obiekt, który będzie zawierał tekst, który wyświetlisz w swoim pliku PDF. Ten tekst zostanie później sformatowany z wymaganymi wcięciami.
 
 ```csharp
 Aspose.Pdf.Text.TextFragment text = new Aspose.Pdf.Text.TextFragment(
@@ -76,7 +78,7 @@ To jest po prostu prosty przykładowy tekst powtarzany wielokrotnie, aby wypełn
 
 ## Krok 3: Zainicjuj opcje formatowania tekstu
 
- To tutaj dzieje się magia! Teraz, gdy masz swoje`TextFragment` , musisz zainicjować opcje formatowania tekstu, aby określić`SubsequentLinesIndent`To ustawienie zastosuje wcięcie do wszystkich wierszy oprócz pierwszego.
+To tutaj dzieje się magia! Teraz, gdy masz swoje `TextFragment`, musisz zainicjować opcje formatowania tekstu, aby określić `SubsequentLinesIndent`To ustawienie zastosuje wcięcie do wszystkich wierszy oprócz pierwszego.
 
 ```csharp
 // Zainicjuj opcję TextFormattingOptions dla fragmentu tekstu i określ wartość FurtherLinesIndent
@@ -86,11 +88,11 @@ text.TextState.FormattingOptions = new Aspose.Pdf.Text.TextFormattingOptions()
 };
 ```
 
-tym przykładzie ustawiliśmy wcięcie na 20 jednostek. Oznacza to, że każdy wiersz po pierwszym będzie wcięty o 20 jednostek, tworząc wizualnie odrębne wcięcie wiszące.
+W tym przykładzie ustawiliśmy wcięcie na 20 jednostek. Oznacza to, że każdy wiersz po pierwszym będzie wcięty o 20 jednostek, tworząc wizualnie odrębne wcięcie wiszące.
 
 ## Krok 4: Dodaj tekst do strony
 
- Teraz, gdy zastosowałeś niezbędne formatowanie, czas dodać tekst do strony. Można to zrobić, dodając`TextFragment` do zbioru akapitów strony.
+Teraz, gdy zastosowałeś niezbędne formatowanie, czas dodać tekst do strony. Można to zrobić, dodając `TextFragment` do zbioru akapitów strony.
 
 ```csharp
 page.Paragraphs.Add(text);
@@ -135,9 +137,9 @@ I masz to! Właśnie nauczyłeś się, jak dodawać kolejne wcięcia wiersza do 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę stosować różne wcięcia w różnych akapitach?  
- Tak, możesz zastosować różne ustawienia wcięć do każdego`TextFragment` poprzez modyfikację ich indywidualnych`TextState.FormattingOptions`.
+Tak, możesz zastosować różne ustawienia wcięć do każdego `TextFragment` poprzez modyfikację ich indywidualnych `TextState.FormattingOptions`.
 
-###  Jakie jednostki są używane do`SubsequentLinesIndent` property?  
+### Jakie jednostki są używane do `SubsequentLinesIndent` nieruchomość?  
 Wcięcie mierzy się w punktach, co jest standardową jednostką miary w dokumentach PDF.
 
 ### Czy mogę zastosować tę funkcję do już istniejących plików PDF?  
@@ -147,10 +149,12 @@ Oczywiście! Możesz załadować istniejący plik PDF i zastosować te zmiany w 
 Nie ma sztywnego limitu, ale ze względu na czytelność zaleca się, aby wcięcia mieściły się w rozsądnych granicach.
 
 ### Czy mogę połączyć tę opcję z innymi opcjami formatowania tekstu?  
- Tak! Możesz połączyć`SubsequentLinesIndent` właściwość z innymi opcjami formatowania tekstu, takimi jak rozmiar czcionki, kolor i wyrównanie, aby jeszcze bardziej dostosować tekst.
+Tak! Możesz połączyć `SubsequentLinesIndent` właściwość z innymi opcjami formatowania tekstu, takimi jak rozmiar czcionki, kolor i wyrównanie, aby jeszcze bardziej dostosować tekst.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

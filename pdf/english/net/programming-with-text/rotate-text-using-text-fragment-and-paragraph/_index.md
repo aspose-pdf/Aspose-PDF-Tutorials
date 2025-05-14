@@ -8,7 +8,9 @@ url: /net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rotate Text Using Text Fragment And Paragraph
@@ -193,6 +195,7 @@ For any support or queries, you can visit the [Aspose Support Forum](https://for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ फाइल में अक्षर हाइलाइट करें
-linktitle: पीडीएफ फाइल में अक्षर हाइलाइट करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस व्यापक चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके PDF में वर्णों को हाइलाइट करना सीखें।
-weight: 240
-url: /hi/net/programming-with-text/highlight-character-in-pdf/
+"description": "इस व्यापक चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके PDF में वर्णों को हाइलाइट करना सीखें।"
+"linktitle": "पीडीएफ फाइल में अक्षर हाइलाइट करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ फाइल में अक्षर हाइलाइट करें"
+"url": "/hi/net/programming-with-text/highlight-character-in-pdf/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ फाइल में अक्षर हाइलाइट करें
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-text/highlight-character-in-pdf/
 कोड में जाने से पहले, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जिसकी हमें ज़रूरत है। आपको इसकी ज़रूरत होगी:
 
 1. विकास परिवेश: यह ट्यूटोरियल मानता है कि आप विजुअल स्टूडियो या किसी समान .NET IDE में काम कर रहे हैं।
-2.  .NET लाइब्रेरी के लिए Aspose.PDF: यदि आपने पहले से ऐसा नहीं किया है, तो आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/pdf/net/) और इसे अपने प्रोजेक्ट में जोड़ें. 
+2. .NET लाइब्रेरी के लिए Aspose.PDF: यदि आपने पहले से ऐसा नहीं किया है, तो आप कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/pdf/net/) और इसे अपने प्रोजेक्ट में जोड़ें. 
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग की प्रारंभिक जानकारी आपको कार्यान्वयन को आसानी से समझने में मदद करेगी।
 4. एक पीडीएफ दस्तावेज़: आपके पास काम करने के लिए एक नमूना पीडीएफ फ़ाइल तैयार होनी चाहिए। आप एक बना सकते हैं या किसी मौजूदा दस्तावेज़ का उपयोग कर सकते हैं।
 
@@ -52,7 +54,7 @@ using System.Drawing;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // सही रास्ता तय करना सुनिश्चित करें.
 Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(dataDir + "input.pdf");
 ```
-इस स्निपेट में, प्रतिस्थापित करें`YOUR DOCUMENT DIRECTORY` आपकी मशीन पर वास्तविक पथ के साथ जहाँ आपकी इनपुट पीडीएफ फाइल स्थित है।`Aspose.Pdf.Document` क्लास को आपके पीडीएफ को लोड करने के लिए इंस्टैंशिएट किया गया है।
+इस स्निपेट में, प्रतिस्थापित करें `YOUR DOCUMENT DIRECTORY` आपकी मशीन पर वास्तविक पथ के साथ जहाँ आपकी इनपुट पीडीएफ फाइल स्थित है। `Aspose.Pdf.Document` क्लास को आपके पीडीएफ को लोड करने के लिए इंस्टैंशिएट किया गया है।
 
 ## चरण 2: रेंडरिंग प्रक्रिया सेट करें
 
@@ -67,7 +69,7 @@ using (MemoryStream ms = new MemoryStream())
     conv.GetNextImage(ms, System.Drawing.Imaging.ImageFormat.Png);
     Bitmap bmp = (Bitmap)Bitmap.FromStream(ms);
 ```
- हम स्पष्टता के लिए एक रिज़ॉल्यूशन परिभाषित करते हैं, जिससे पाठ को ठीक से प्रस्तुत किया जा सके।`PdfConverter`पीडीएफ पृष्ठों को चित्रों में बदल देता है ताकि हम उन पर चित्र बना सकें।
+हम स्पष्टता के लिए एक रिज़ॉल्यूशन परिभाषित करते हैं, जिससे पाठ को ठीक से प्रस्तुत किया जा सके। `PdfConverter` पीडीएफ पृष्ठों को चित्रों में बदल देता है ताकि हम उन पर चित्र बना सकें।
 
 ## चरण 3: ड्राइंग के लिए ग्राफ़िक्स ऑब्जेक्ट बनाएँ
 
@@ -93,7 +95,7 @@ for (int i = 0; i < pdfDocument.Pages.Count; i++)
     textFragmentAbsorber.TextSearchOptions.IsRegularExpressionUsed = true;
     page.Accept(textFragmentAbsorber);
 ```
- हम प्रत्येक पृष्ठ पर पहुंचते हैं और सभी पाठों को खोजते हैं`TextFragmentAbsorber` . नियमित अभिव्यक्ति पैटर्न`@"[\S]+"` सभी गैर-रिक्त स्थान वर्णों को कैप्चर करता है.
+हम प्रत्येक पृष्ठ पर पहुंचते हैं और सभी पाठों को खोजते हैं `TextFragmentAbsorber`. नियमित अभिव्यक्ति पैटर्न `@"[\S]+"` सभी गैर-रिक्त स्थान वर्णों को कैप्चर करता है.
 
 ## चरण 5: टेक्स्ट के टुकड़े निकालें और हाइलाइट करें
 
@@ -139,7 +141,7 @@ bmp.Save(dataDir, System.Drawing.Imaging.ImageFormat.Png);
 ```csharp
 catch (Exception ex)
 {
-    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://buy.aspose.com/temporary-license/)");
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://purchase.aspose.com/temporary-license/)");
 }
 ```
 
@@ -147,7 +149,7 @@ catch (Exception ex)
 
 ## निष्कर्ष
 
-और अब आप इसे प्राप्त कर चुके हैं! आपने .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में सफलतापूर्वक वर्णों को हाइलाइट किया है। यह शक्तिशाली लाइब्रेरी PDF हेरफेर में अनंत संभावनाओं के द्वार खोलती है - चाहे आप एनोटेशन, फ़ॉर्म भरने या यहां तक कि दस्तावेज़ रूपांतरण के साथ काम कर रहे हों। Aspose के साथ अपनी यात्रा जारी रखते हुए, याद रखें कि अभ्यास महत्वपूर्ण है। विभिन्न सुविधाओं के साथ प्रयोग करते रहें, और आप जल्दी ही PDF प्रो बन जाएंगे!
+और अब यह हो गया! आपने .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में सफलतापूर्वक वर्णों को हाइलाइट कर लिया है। यह शक्तिशाली लाइब्रेरी PDF हेरफेर में अनंत संभावनाओं के द्वार खोलती है - चाहे आप एनोटेशन, फ़ॉर्म भरने या यहां तक कि दस्तावेज़ रूपांतरण के साथ काम कर रहे हों। Aspose के साथ अपनी यात्रा जारी रखते हुए, याद रखें कि अभ्यास महत्वपूर्ण है। विभिन्न सुविधाओं के साथ प्रयोग करते रहें, और आप जल्दी ही PDF प्रो बन जाएंगे!
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -163,11 +165,13 @@ catch (Exception ex)
 ### क्या मुझे Aspose.PDF का उपयोग करने के लिए किसी लाइसेंस की आवश्यकता है?
 हां, व्यावसायिक उपयोग के लिए वैध लाइसेंस की आवश्यकता होती है, लेकिन आप परीक्षण के लिए 30-दिन का अस्थायी लाइसेंस प्राप्त कर सकते हैं।
 
-### मुझे अधिक दस्तावेज कहां मिल सकते हैं?
- आप इसका संदर्भ ले सकते हैं[Aspose.PDF दस्तावेज़ीकरण](https://reference.aspose.com/pdf/net/) कार्यान्वयन और सुविधाओं पर अधिक विस्तृत जानकारी के लिए.
+### मैं अधिक दस्तावेज कहां पा सकता हूं?
+आप इसका संदर्भ ले सकते हैं [Aspose.PDF दस्तावेज़ीकरण](https://reference.aspose.com/pdf/net/) कार्यान्वयन और सुविधाओं पर अधिक विस्तृत जानकारी के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

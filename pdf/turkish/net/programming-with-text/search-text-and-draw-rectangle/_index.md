@@ -1,14 +1,16 @@
 ---
-title: Metin Ara ve Dikdörtgen Çiz
-linktitle: Metin Ara ve Dikdörtgen Çiz
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF'lerde metin aramayı ve dikdörtgenlerle vurgulamayı öğrenin! Gelişmiş PDF düzenleme becerileri için kolay adım adım eğitim.
-weight: 460
-url: /tr/net/programming-with-text/search-text-and-draw-rectangle/
+"description": "Aspose.PDF for .NET kullanarak PDF'lerde metin aramayı ve dikdörtgenlerle vurgulamayı öğrenin! Gelişmiş PDF düzenleme becerileri için kolay adım adım eğitim."
+"linktitle": "Metin Ara ve Dikdörtgen Çiz"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Metin Ara ve Dikdörtgen Çiz"
+"url": "/tr/net/programming-with-text/search-text-and-draw-rectangle/"
+"weight": 460
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metin Ara ve Dikdörtgen Çiz
@@ -25,9 +27,9 @@ Eğitime başlamadan önce, sorunsuz bir iş akışı için ihtiyacınız olanla
    
 2. Visual Studio Kurulu: Kodunuzu yazmak ve test etmek için entegre bir geliştirme ortamına (IDE) ihtiyacınız olacak. Visual Studio Community harika bir seçenektir ve ücretsizdir.
    
-3. .NET için Aspose.PDF: Projenizde Aspose.PDF kütüphanesinin kurulu olması gerekir. İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/) veya bir düşünün[geçici lisans](https://purchase.aspose.com/temporary-license/) Genişletilmiş özellikler için.
+3. .NET için Aspose.PDF: Projenizde Aspose.PDF kütüphanesinin kurulu olması gerekir. İndirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/) veya bir düşünün [geçici lisans](https://purchase.aspose.com/temporary-license/) Genişletilmiş özellikler için.
    
-4.  Örnek PDF Belgesi: Bu eğitim için, şu adla örnek bir PDF dosyasına ihtiyacınız olacak:`SearchAndGetTextFromAll.pdf` proje dizininizde saklanır. 
+4. Örnek PDF Belgesi: Bu eğitim için, şu adla örnek bir PDF dosyasına ihtiyacınız olacak: `SearchAndGetTextFromAll.pdf` proje dizininizde saklanır. 
 
 ## Paketleri İçe Aktar
 
@@ -41,7 +43,7 @@ Visual Studio'yu başlatın ve yeni bir Konsol Uygulaması oluşturun veya PDF i
 
 1. Çözüm Gezgini’nde projenizin üzerine sağ tıklayın.
 2. "NuGet Paketlerini Yönet" seçeneğini seçin.
-3.  Arama`Aspose.PDF` ve en son sürümü yükleyin.
+3. Arama `Aspose.PDF` ve en son sürümü yükleyin.
 
 Bunu yaparak, gerçekleştirmek üzere olduğunuz tüm muhteşem PDF düzenlemeleri için zemin hazırlamış olursunuz.
 
@@ -64,7 +66,7 @@ Artık her şeyi ayarladığınıza göre, PDF'te metin arama ve etrafına dikd�
 
 ## Adım 1: Belgeniz için Yolu Ayarlayın
 
- İlk olarak PDF dosyanızın yolunu ayarlayın. Değiştirdiğinizden emin olun`YOUR DOCUMENT DIRECTORY` gerçek yolunuzla`SearchAndGetTextFromAll.pdf` saklanır.
+İlk olarak PDF dosyanızın yolunu ayarlayın. Değiştirdiğinizden emin olun `YOUR DOCUMENT DIRECTORY` gerçek yolunuzla `SearchAndGetTextFromAll.pdf` saklanır.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -72,7 +74,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: PDF Belgesini açın
 
- Sonra, şunun bir örneğini oluşturun:`Document` PDF'nizi yüklemek için sınıf:
+Sonra, şunun bir örneğini oluşturun: `Document` PDF'nizi yüklemek için sınıf:
 
 ```csharp
 Document document = new Document(dataDir + "SearchAndGetTextFromAll.pdf");
@@ -82,13 +84,13 @@ Bu kod satırı belirttiğiniz PDF dosyasını açar ve dosya üzerinde daha faz
 
 ## Adım 3: Bir Metin Emici Oluşturun
 
- Şimdi, bu belge içinde metin aramanın bir yoluna ihtiyacınız olacak. Bunun için şunu kullanırız:`TextFragmentAbsorber`:
+Şimdi, bu belge içinde metin aramanın bir yoluna ihtiyacınız olacak. Bunun için şunu kullanırız: `TextFragmentAbsorber`:
 
 ```csharp
 TextFragmentAbsorber textAbsorber = new TextFragmentAbsorber(@"[\S]+");
 ```
 
- Düzenli ifade`@"[\S]+"` PDF'deki boşluk olmayan herhangi bir dizeyle eşleşecek şekilde tasarlanmıştır. 
+Düzenli ifade `@"[\S]+"` PDF'deki boşluk olmayan herhangi bir dizeyle eşleşecek şekilde tasarlanmıştır. 
 
 ## Adım 4: Metin Arama Seçeneklerini Yapılandırın
 
@@ -99,11 +101,11 @@ TextSearchOptions textSearchOptions = new TextSearchOptions(true);
 textAbsorber.TextSearchOptions = textSearchOptions;
 ```
 
- Burada,`true` parametresi aramanın büyük/küçük harfe duyarlı olacağı anlamına gelir. Bunu şu şekilde ayarlayabilirsiniz:`false` eğer büyük/küçük harfe duyarlı olmayan bir arama istiyorsanız.
+Burada, `true` parametresi aramanın büyük/küçük harfe duyarlı olacağı anlamına gelir. Bunu şu şekilde ayarlayabilirsiniz: `false` eğer büyük/küçük harfe duyarlı olmayan bir arama istiyorsanız.
 
 ## Adım 5: Belgedeki Metin Emiciyi Kabul Edin
 
- Seninle`TextFragmentAbsorber` ve arama seçenekleri hazır, şimdi belgeden metni özümseme zamanı:
+Seninle `TextFragmentAbsorber` ve arama seçenekleri hazır, şimdi belgeden metni özümseme zamanı:
 
 ```csharp
 document.Pages.Accept(textAbsorber);
@@ -113,7 +115,7 @@ Bu yöntem, belirtilen desene uyan metin parçalarını bulmak için PDF'nizdeki
 
 ## Adım 6: Bir PdfContentEditor Oluşturun
 
- Belgeye şekiller çizmek için şunlara ihtiyacınız olacak:`PdfContentEditor`:
+Belgeye şekiller çizmek için şunlara ihtiyacınız olacak: `PdfContentEditor`:
 
 ```csharp
 var editor = new PdfContentEditor(document);
@@ -135,11 +137,11 @@ foreach (TextFragment textFragment in textAbsorber.TextFragments)
 }
 ```
 
- Bu döngü, her metin parçası ve bunların bölümleri üzerinde yineleme yaparak bir`DrawBox` dikdörtgen çizim yöntemi.
+Bu döngü, her metin parçası ve bunların bölümleri üzerinde yineleme yaparak bir `DrawBox` dikdörtgen çizim yöntemi.
 
 ## Adım 8: DrawBox Yöntemini Tanımlayın
 
- Tanımlamanız gerekiyor`DrawBox` dikdörtgen çizim mantığını ele alacak yöntem. İşte basit bir uygulama:
+Tanımlamanız gerekiyor `DrawBox` dikdörtgen çizim mantığını ele alacak yöntem. İşte basit bir uygulama:
 
 ```csharp
 private static void DrawBox(PdfContentEditor editor, int pageNumber, TextSegment textSegment, System.Drawing.Color color)
@@ -176,7 +178,7 @@ Son olarak, işlemin başarılı olduğunu bildirmek için konsola bir onay mesa
 Console.WriteLine("\nRectangle drawn successfully on searched text.\nFile saved at " + dataDir);
 ```
 
-Ve işte karşınızda! PDF'de metin aramak ve dikdörtgenlerle vurgulamak için bir betik başarıyla oluşturdunuz.
+Ve işte karşınızda! PDF'de metin aramak ve onu dikdörtgenlerle vurgulamak için bir betik başarıyla oluşturdunuz.
 
 ## Çözüm
 
@@ -188,19 +190,21 @@ Tebrikler! Aspose.PDF for .NET kullanarak PDF düzenleme yeteneklerinizi büyük
 Aspose.PDF for .NET, PDF belgelerini programlı olarak oluşturmak, düzenlemek ve dönüştürmek için kapsamlı bir yol sağlayan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
-Evet, Aspose kütüphanenin işlevlerini test etmek için kullanabileceğiniz ücretsiz bir deneme sunuyor. Kontrol edin[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphanenin işlevlerini test etmek için kullanabileceğiniz ücretsiz bir deneme sunuyor. Kontrol edin [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF for .NET ile hangi programlama dilini kullanmam gerekiyor?
 Aspose.PDF for .NET, C# ve diğer .NET dilleriyle kullanılmak üzere tasarlanmıştır.
 
 ### Aspose.PDF konusunda nasıl yardım alabilirim?
- Herhangi bir sorun veya sorunuzla ilgili yardım almak için Aspose destek forumunu ziyaret edebilirsiniz. Destek bulun[Burada](https://forum.aspose.com/c/pdf/10).
+Herhangi bir sorun veya sorunuzla ilgili yardım almak için Aspose destek forumunu ziyaret edebilirsiniz. Destek bulun [Burada](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF for .NET'i nereden indirebilirim?
- Kütüphaneyi Aspose web sitesinden indirebilirsiniz.[Burada](https://releases.aspose.com/pdf/net/).
+Kütüphaneyi Aspose web sitesinden indirebilirsiniz. [Burada](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

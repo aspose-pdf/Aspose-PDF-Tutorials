@@ -1,14 +1,16 @@
 ---
-title: Tệp đính kèm PDF
-linktitle: Tệp đính kèm PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Học cách quản lý tệp đính kèm PDF trong Java với Aspose.PDF. Đính kèm tệp, hình ảnh và nhiều thứ khác vào PDF của bạn một cách dễ dàng.
-weight: 11
-url: /vi/java/pdf-attachments/
+"description": "Học cách quản lý tệp đính kèm PDF trong Java với Aspose.PDF. Đính kèm tệp, hình ảnh và nhiều thứ khác vào PDF của bạn một cách dễ dàng."
+"linktitle": "Tệp đính kèm PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Tệp đính kèm PDF"
+"url": "/vi/java/pdf-attachments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tệp đính kèm PDF
@@ -33,9 +35,11 @@ Tìm hiểu cách xóa tệp đính kèm khỏi PDF trong Java bằng Aspose.PDF
 Tìm hiểu cách lấy tệp đính kèm PDF trong Java bằng Aspose.PDF. Hướng dẫn từng bước với các ví dụ mã để quản lý tệp đính kèm tài liệu PDF.
 ### [Liệt kê tất cả các tệp đính kèm trong tài liệu PDF](./list-all-attachments-pdf-documents/)
 Khám phá cách liệt kê các tệp đính kèm trong PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước để trích xuất tệp đính kèm PDF dễ dàng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

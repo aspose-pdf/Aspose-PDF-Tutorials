@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'ye Döndürülmüş Metin Ekleme
-linktitle: Java kullanarak PDF'ye Döndürülmüş Metin Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java kullanarak bir PDF belgesine döndürülmüş metin eklemeyi öğrenin. PDF'lerinizi döndürülmüş metinle geliştirmek için kod örnekleriyle bu ayrıntılı adım adım kılavuzu izleyin.
-weight: 14
-url: /tr/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/
+"description": "Java kullanarak bir PDF belgesine döndürülmüş metin eklemeyi öğrenin. PDF'lerinizi döndürülmüş metinle geliştirmek için kod örnekleriyle bu ayrıntılı adım adım kılavuzu izleyin."
+"linktitle": "Java kullanarak PDF'ye Döndürülmüş Metin Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'ye Döndürülmüş Metin Ekleme"
+"url": "/tr/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'ye Döndürülmüş Metin Ekleme
@@ -24,7 +26,7 @@ Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 1. Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
 
-2.  Java için Aspose.PDF: Java projenize Aspose.PDF kütüphanesini indirin ve ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+2. Java için Aspose.PDF: Java projenize Aspose.PDF kütüphanesini indirin ve ekleyin. İndirme bağlantısını bulabilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Adım 1: Yeni bir PDF Belgesi Oluşturun
 
@@ -40,13 +42,13 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 Daha sonra, döndürülmüş metni eklemek istediğiniz sayfayı PDF belgesine ekleyin:
 
 ```java
-//Belgeye yeni bir sayfa ekle
+// Belgeye yeni bir sayfa ekle
 com.aspose.pdf.Page page = pdfDocument.getPages().add();
 ```
 
 ## Adım 3: Döndürülmüş Metni Tanımlayın
 
-Şimdi eklemek ve döndürmek istediğiniz metni tanımlayalım. Metni, yazı tipini ve döndürme açısını ihtiyaçlarınıza göre özelleştirebilirsiniz:
+Şimdi eklemek ve döndürmek istediğiniz metni tanımlayalım. Metni, yazı tipini ve dönüş açısını ihtiyaçlarınıza göre özelleştirebilirsiniz:
 
 ```java
 // Metin içeriğini tanımlayın
@@ -110,7 +112,7 @@ Aspose.PDF for Java'nın yetenekleri sayesinde, döndürülmüş metni kolayca e
    Evet, aynı PDF belgesine farklı açılara sahip birden fazla döndürülmüş metin örneği ekleyebilirsiniz. Bu eğitimde açıklanan işlemi her bir döndürülmüş metin parçası için tekrarlamanız yeterlidir.
 
 ### 2. Döndürülmüş metnin rengini nasıl değiştirebilirim?
-    Metin rengini değiştirmek için şunu kullanın:`textFragment.getTextState().setForegroundColor` yöntemini kullanın ve rengi RGB biçiminde belirtin. Örneğin, metin rengini kırmızıya ayarlamak için şunu kullanın:`textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getRed());`.
+   Metin rengini değiştirmek için şunu kullanın: `textFragment.getTextState().setForegroundColor` yöntemini kullanın ve rengi RGB biçiminde belirtin. Örneğin, metin rengini kırmızıya ayarlamak için şunu kullanın: `textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getRed());`.
 
 ### 3. Aspose.PDF for Java ücretsiz bir kütüphane midir?
    Java için Aspose.PDF güçlü bir ticari kütüphanedir, ancak test ve değerlendirme için ücretsiz bir deneme sürümü sunar. Projenizin gereksinimlerine bağlı olarak uygun bir lisanslama seçeneği seçebilirsiniz.
@@ -120,9 +122,11 @@ Aspose.PDF for Java'nın yetenekleri sayesinde, döndürülmüş metni kolayca e
 
 ### 5. Java'da PDF'lerle çalışmak için başka kütüphaneler var mı?
    Evet, iText ve PDFBox gibi çeşitli kütüphaneler Java'da PDF düzenleme için kullanılabilir. Her kütüphanenin kendine özgü özellikleri ve yetenekleri vardır, bu yüzden projenizin ihtiyaçlarına en uygun olanı seçin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

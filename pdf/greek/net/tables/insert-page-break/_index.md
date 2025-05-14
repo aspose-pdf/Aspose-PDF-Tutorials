@@ -1,57 +1,62 @@
 ---
-title: Δημιουργήστε ένα PDF με πίνακες και σελίδες χρησιμοποιώντας το Aspose.PDF 
-weight: 7700
-limit: 
-description: Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF, να προσθέσετε πίνακες με όρια και να εφαρμόσετε pagination χρησιμοποιώντας το Aspose.PDF για το .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.  
-keywords: [Aspose.PDF for .NET, create PDF in C#, add table to PDF, set table border, pagination in PDF, generate PDF, insert page break, .NET PDF library]
-url: /el/net/tables/insert-page-break/
+"description": "Μάθετε πώς να δημιουργείτε ένα έγγραφο PDF, να προσθέτετε πίνακες με περιγράμματα και να εφαρμόζετε σελιδοποίηση χρησιμοποιώντας το Aspose.PDF για .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα."
+"title": "Δημιουργήστε ένα PDF με πίνακες και σελιδοποίηση χρησιμοποιώντας το Aspose.PDF"
+"url": "/el/net/tables/insert-page-break/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία PDF με πίνακες και σελίδες
+# Δημιουργήστε ένα PDF με πίνακες και σελιδοποίηση
  
-Το Aspose.PDF για το .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να δημιουργούν, να χειρίζονται και να μετατρέπουν έγγραφα PDF με προγραμματισμό. Σε αυτό το παράδειγμα, θα δείξουμε πώς να δημιουργήσετε ένα αρχείο PDF, να προσθέσετε έναν πίνακα με κόκκινα όρια, να τον γεμίσετε με 200 σειρές και να εισαγάγετε αυτόματα σπασμούς σελίδας μετά από κάθε 10 σειρές.  
+Το Aspose.PDF για .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να δημιουργούν, να χειρίζονται και να μετατρέπουν έγγραφα PDF μέσω προγραμματισμού. Σε αυτό το παράδειγμα, παρουσιάζουμε πώς να δημιουργήσετε ένα αρχείο PDF, να προσθέσετε έναν πίνακα με κόκκινα περιγράμματα, να τον συμπληρώσετε με 200 γραμμές και να εισαγάγετε αυτόματες αλλαγές σελίδας μετά από κάθε 10 γραμμές. Αυτή η προσέγγιση διασφαλίζει δομημένη μορφοποίηση περιεχομένου και απρόσκοπτη σελιδοποίηση για μεγάλα σύνολα δεδομένων.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/insert-page-break/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Οδηγίες εγκατάστασης  
-Για να ξεκινήσετε με το Aspose.PDF για .NET, ακολουθήστε τα παρακάτω βήματα:  
+Για να ξεκινήσετε με το Aspose.PDF για .NET, ακολουθήστε τα εξής βήματα:  
 
 1. Εγκατάσταση μέσω του NuGet Package Manager  
-   * Άνοιξε το πρότζεκτ σου στο Visual Studio.  
-   * Πηγαίνετε στα εργαλεία > NuGet Package Manager > Διαχειριστείτε πακέτα NuGet για λύση.  
-   * Αναζητήστε το Aspose.PDF και κάντε κλικ στην επιλογή "Εγκατάσταση".  
+   - Ανοίξτε το έργο σας στο Visual Studio.  
+   - Μεταβείτε στα Εργαλεία > Διαχειριστής πακέτων NuGet > Διαχείριση πακέτων NuGet για λύση.  
+   - Αναζητήστε το Aspose.PDF και κάντε κλικ στην επιλογή Εγκατάσταση.  
 
-   Εναλλακτικά, χρησιμοποιήστε την ακόλουθη εντολή στην κονσόλα Διαχειριστή Πακέτων:  
+   Εναλλακτικά, χρησιμοποιήστε την ακόλουθη εντολή στην Κονσόλα Διαχείρισης Πακέτων:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. Κατεβάστε το DLL χειροκίνητα  
-   * Βρες την τελευταία έκδοση από το [Aspose.PDF Κατεβάσεις](https://releases.aspose.com/pdf/net/)\- Τι;  
-   * Προσθέστε μια αναφορά στο Aspose.PDF.dll στο έργο σας.  
+2. Λήψη του DLL με μη αυτόματο τρόπο  
+   - Αποκτήστε την τελευταία έκδοση από [Λήψεις Aspose.PDF](https://releases.aspose.com/pdf/net/).  
+   - Προσθέστε μια αναφορά στο Aspose.PDF.dll στο έργο σας.  
 
-3. Εφαρμογή άδειας (προαιρετική)  
-   * Εάν χρησιμοποιείτε την δωρεάν δοκιμαστική έκδοση, ενδέχεται να αντιμετωπίσετε νεροσήματα ή περιορισμούς.  
-   * Αγοράστε άδεια από το [Αγορά](https://purchase.aspose.com/buy)ή να ζητήσεις ένα[Προσωρινή άδεια](https://purchase.aspose.com/temporary-license/)\- Τι;  
-   * Εφαρμόστε την άδεια στον κώδικα σας:  
+3. Εφαρμογή Άδειας Χρήσης (Προαιρετικό)  
+   - Εάν χρησιμοποιείτε τη δωρεάν δοκιμαστική έκδοση, ενδέχεται να αντιμετωπίσετε υδατογραφήματα ή περιορισμούς.  
+   - Αγοράστε μια άδεια χρήσης από [Αγορά Aspose](https://purchase.aspose.com/buy) ή να ζητήσετε ένα [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/).  
+   - Εφαρμόστε την άδεια χρήσης στον κώδικά σας:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.PDF.lic");
      ```
 
-## Για λεπτομέρειες
-Επισκέψεις [Aspose.PDF για την τεκμηρίωση .NET](https://docs.aspose.com/pdf/net/)\- Τι;  
-Δείτε την αναφορά API στο [Aspose.PDF για την αναφορά .NET API](https://reference.aspose.com/pdf/net/)\- Τι;
+## Για λεπτομερείς
+τεκμηρίωση, επισκεφθείτε [Aspose.PDF για τεκμηρίωση .NET](https://docs.aspose.com/pdf/net/).  
+Δείτε την αναφορά API στη διεύθυνση [Aspose.PDF για αναφορά API .NET](https://reference.aspose.com/pdf/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

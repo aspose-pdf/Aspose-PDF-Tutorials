@@ -1,23 +1,26 @@
 ---
-title: Aspose.PDF로 PDF에서 투명한 텍스트 효과를 생성합니다.
-weight: 7700
-limit: 
-description: .NET용 Aspose.PDF를 사용하여 투명한 텍스트와 모양을 가진 PDF 문서를 생성합니다. 워터 마크와 시각적으로 매력적인 디자인에 적합합니다. 
-keywords: [Aspose.PDF, .NET PDF library, transparent text, PDF transparency, C# PDF generation, PDF manipulation, rectangle shapes, opacity effects, document creation, PDF programming]
-url: /ko/net/text/add-transparent-text/
+"description": "Aspose.PDF for .NET을 사용하여 투명한 텍스트와 도형이 포함된 PDF 문서를 만들어 보세요. 워터마크와 시각적으로 매력적인 디자인에 적합합니다."
+"title": "Aspose.PDF for .NET을 사용하여 PDF에 투명 텍스트 효과 만들기"
+"url": "/ko/net/text/add-transparent-text/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDF로 PDF에서 투명한 텍스트 효과를 생성합니다.
+# Aspose.PDF for .NET을 사용하여 PDF에 투명 텍스트 효과 만들기
 
-.NET용 Aspose.PDF를 사용하여 투명한 텍스트와 모양으로 PDF 문서를 향상시킵니다. 이 강력한 라이브러리는 워터 마크, 오버레이 및 창의적인 문서 디자인에 적합합니다. 텍스트 및 그래픽 요소에 투명성 효과를 적용하여 시각적으로 매력적인 문서를 만들 수 있습니다.
+Aspose.PDF for .NET을 사용하여 투명한 텍스트와 도형으로 PDF 문서를 더욱 돋보이게 하세요. 이 강력한 라이브러리를 사용하면 텍스트와 그래픽 요소 모두에 투명 효과를 적용하여 시각적으로 매력적인 문서를 만들 수 있으며, 워터마크, 오버레이 및 창의적인 문서 디자인에 적합합니다.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/add-transparent-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## 설치 지침
@@ -32,11 +35,11 @@ url: /ko/net/text/add-transparent-text/
    dotnet add package Aspose.PDF
    ```
 
-3. 참고 문자를 수동으로 추가합니다:
-   * 도서관을 다운로드하세요[아스포스 발매](https://releases.aspose.com/pdf/net/)
-   * 프로젝트에서 Aspose.PDF.dll에 참조를 추가
+3. 수동으로 참조 추가:
+   - 라이브러리를 다운로드하세요 [Aspose 릴리스](https://releases.aspose.com/pdf/net/)
+   - 프로젝트에 Aspose.PDF.dll에 대한 참조를 추가하세요.
 
-4. Using statement 를 추가합니다:
+4. Using 문을 추가합니다.
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
@@ -44,12 +47,14 @@ url: /ko/net/text/add-transparent-text/
 
 ## 자원
 
-* [Aspose.PDF를 위해 .NET 문서](https://docs.aspose.com/pdf/net/)
-* [Aspose.PDF를 위해 .NET API 참조](https://reference.aspose.com/pdf/net/)
-* [최신 버전을 다운로드](https://releases.aspose.com/pdf/net/)
+- [.NET 설명서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)
+- [.NET API 참조용 Aspose.PDF](https://reference.aspose.com/pdf/net/)
+- [최신 버전 다운로드](https://releases.aspose.com/pdf/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

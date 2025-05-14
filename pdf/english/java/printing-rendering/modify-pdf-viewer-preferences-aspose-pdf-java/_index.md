@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Change PDF Viewer Preferences Using Aspose.PDF for Java: A Comprehensive Guide
 
@@ -181,6 +183,9 @@ In this guide, we've explored how to modify PDF viewer preferences using Aspose.
 By following this guide, you're well-equipped to modify PDF viewer preferences using Aspose.PDF for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

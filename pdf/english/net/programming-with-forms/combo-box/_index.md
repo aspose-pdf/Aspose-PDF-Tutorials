@@ -8,7 +8,9 @@ url: /net/programming-with-forms/combo-box/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Combo Box
@@ -133,6 +135,7 @@ While Aspose.PDF for .NET offers a free trial, you will need a valid license for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

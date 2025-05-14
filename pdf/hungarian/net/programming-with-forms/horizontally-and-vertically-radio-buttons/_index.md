@@ -1,43 +1,45 @@
 ---
-title: Vízszintesen és függőlegesen Rádiógombok
-linktitle: Vízszintesen és függőlegesen Rádiógombok
-second_title: Aspose.PDF for .NET API Reference
-description: Ebben a lépésenkénti oktatóanyagban megtudhatja, hogyan hozhat létre vízszintesen és függőlegesen igazított választógombokat PDF-ben az Aspose.PDF for .NET használatával.
-weight: 180
-url: /hu/net/programming-with-forms/horizontally-and-vertically-radio-buttons/
+"description": "Tanuld meg, hogyan hozhatsz létre vízszintesen és függőlegesen igazított választógombokat PDF formátumban az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval."
+"linktitle": "Vízszintesen és függőlegesen választógombok"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Vízszintesen és függőlegesen választógombok"
+"url": "/hu/net/programming-with-forms/horizontally-and-vertically-radio-buttons/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vízszintesen és függőlegesen Rádiógombok
+# Vízszintesen és függőlegesen választógombok
 
 ## Bevezetés
 
-Az interaktív PDF-űrlapok létrehozása jelentősen javíthatja a felhasználói élményt, különösen, ha információgyűjtésről van szó. Az egyik legelterjedtebb űrlapelem a választógomb, amely lehetővé teszi a felhasználók számára, hogy egy beállítást válasszanak ki egy halmazból. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhatók létre vízszintesen és függőlegesen elhelyezett választógombok az Aspose.PDF for .NET használatával. Akár tapasztalt fejlesztő, akár csak kezdő, ez az útmutató lépésről lépésre végigvezeti Önt a folyamaton, biztosítva, hogy az egyes részeket egyértelműen megértse.
+Az interaktív PDF űrlapok létrehozása jelentősen javíthatja a felhasználói élményt, különösen az információgyűjtés terén. Az egyik leggyakoribb űrlapelem a választógomb, amely lehetővé teszi a felhasználók számára, hogy egy lehetőség közül válasszanak egyet egy készletből. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan hozhatunk létre vízszintesen és függőlegesen igazított választógombokat az Aspose.PDF for .NET használatával. Akár tapasztalt fejlesztő vagy, akár most kezded, ez az útmutató lépésről lépésre végigvezet a folyamaton, biztosítva, hogy minden egyes részt világosan megérts.
 
 ## Előfeltételek
 
-Mielőtt belemerülne a kódba, meg kell felelnie néhány előfeltételnek:
+Mielőtt belemerülnénk a kódba, van néhány előfeltétel, aminek teljesülnie kell:
 
-1.  Aspose.PDF for .NET: Győződjön meg arról, hogy telepítve van az Aspose.PDF könyvtár. Letöltheti a[telek](https://releases.aspose.com/pdf/net/).
-2. Visual Studio: Egy fejlesztői környezet, ahol megírhatja és tesztelheti kódját.
-3. Alapvető C# ismerete: A C# programozás ismerete segít jobban megérteni a kódrészleteket.
+1. Aspose.PDF .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.PDF könyvtár. Letöltheti innen: [telek](https://releases.aspose.com/pdf/net/).
+2. Visual Studio: Egy fejlesztői környezet, ahol kódot írhatsz és tesztelhetsz.
+3. C# alapismeretek: A C# programozással való ismeret segít jobban megérteni a kódrészleteket.
 
 ## Csomagok importálása
 
-A kezdéshez importálnia kell a szükséges csomagokat a C# projektbe. A következőképpen teheti meg:
+A kezdéshez importálnod kell a szükséges csomagokat a C# projektedbe. Így teheted meg:
 
-### Hozzon létre egy új projektet
+### Új projekt létrehozása
 
-Nyissa meg a Visual Studio-t, és hozzon létre egy új C#-projektet. Az egyszerűség kedvéért választhat egy konzolalkalmazást.
+Nyisd meg a Visual Studiot, és hozz létre egy új C# projektet. Az egyszerűség kedvéért választhatsz egy konzolalkalmazást.
 
-### Adja hozzá az Aspose.PDF hivatkozást
+### Aspose.PDF referencia hozzáadása
 
-1. Kattintson a jobb gombbal a projektre a Solution Explorerben.
-2. Válassza a "NuGet-csomagok kezelése" lehetőséget.
-3. Keresse meg az "Aspose.PDF" kifejezést, és telepítse a legújabb verziót.
+1. Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
+2. Válassza a „NuGet-csomagok kezelése” lehetőséget.
+3. Keresd meg az „Aspose.PDF” fájlt, és telepítsd a legújabb verziót.
 
 ```csharp
 using System;
@@ -47,44 +49,44 @@ using Aspose.Pdf;
 using Aspose.Pdf.Forms;
 ```
 
-Most, hogy mindent beállított, bontsuk le a kódot vízszintesen és függőlegesen igazított rádiógombok létrehozásához.
+Most, hogy mindent beállítottál, bontsuk le a kódot, hogy vízszintesen és függőlegesen igazított választógombokat hozzunk létre.
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár beállítása
 
-Ebben a lépésben meghatározzuk annak a könyvtárnak az elérési útját, ahol a PDF-dokumentumok tárolásra kerülnek.
+Ebben a lépésben meghatározzuk annak a könyvtárnak az elérési útját, ahová a PDF dokumentumokat tárolni fogjuk.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal, ahová a PDF-fájlt menteni szeretné. Ez döntő fontosságú, mivel megmondja a programnak, hogy hol keresse a bemeneti fájlokat, és hova mentse a kimenetet.
+Csere `"YOUR DOCUMENT DIRECTORY"` PDF-fájl mentési útvonalával. Ez azért kulcsfontosságú, mert megmondja a programnak, hogy hol keresse a bemeneti fájlokat, és hová mentse a kimenetet.
 
-## 2. lépés: Töltse be a meglévő PDF-dokumentumot
+## 2. lépés: Töltse be a meglévő PDF dokumentumot
 
- Ezután be kell töltenünk a PDF dokumentumot, amellyel dolgozni fogunk. Ez a`FormEditor` osztály.
+Ezután be kell töltenünk a PDF dokumentumot, amellyel dolgozni fogunk. Ezt a következővel tehetjük meg: `FormEditor` osztály.
 
 ```csharp
 FormEditor formEditor = new FormEditor();
 formEditor.BindPdf(dataDir + "input.pdf");
 ```
 
-Itt létrehozunk egy példányt`FormEditor` és kösse össze egy létező nevű PDF fájlhoz`input.pdf`. Győződjön meg arról, hogy ez a fájl létezik a megadott könyvtárban.
+Itt létrehozunk egy példányt a következőből: `FormEditor` és kösd össze egy meglévő, úgynevezett PDF fájllal `input.pdf`Győződjön meg róla, hogy a fájl létezik a megadott könyvtárban.
 
-## 3. lépés: Konfigurálja a rádiógomb tulajdonságait
+## 3. lépés: A választógomb tulajdonságainak konfigurálása
 
-Most állítsunk be néhány tulajdonságot a rádiógombokhoz. Ez magában foglalja a gombok közötti rést, a tájolásukat és a méretüket.
+Most állítsunk be néhány tulajdonságot a választógombjainkhoz. Ez magában foglalja a gombok közötti távolságot, azok tájolását és méretét.
 
 ```csharp
-formEditor.RadioGap = 4; // A rádiógomb opciói közötti távolság
-formEditor.RadioHoriz = true; // Állítsa igazra a vízszintes igazításhoz
+formEditor.RadioGap = 4; // Rádiógomb opciók közötti távolság
+formEditor.RadioHoriz = true; // Vízszintes igazításhoz igazra állítva
 formEditor.RadioButtonItemSize = 20; // A rádiógomb mérete
 formEditor.Facade.BorderWidth = 1; // Szegély szélessége
 formEditor.Facade.BorderColor = System.Drawing.Color.Black; // Szegély színe
 ```
 
- Ezek a tulajdonságok segítenek meghatározni, hogy a választógombok hogyan jelenjenek meg a PDF-ben. A`RadioGap` tulajdonság szabályozza a gombok közötti teret, míg`RadioHoriz` meghatározza az elrendezésüket.
+Ezek a tulajdonságok segítenek meghatározni, hogyan jelenjenek meg a választógombok a PDF-ben. `RadioGap` tulajdonság a gombok közötti távolságot szabályozza, míg a `RadioHoriz` meghatározza azok elrendezését.
 
-## 4. lépés: Adjon hozzá vízszintes rádiógombokat
+## 4. lépés: Vízszintes választógombok hozzáadása
 
 Most adjuk hozzá a vízszintes választógombokat a PDF-hez.
 
@@ -93,21 +95,21 @@ formEditor.Items = new string[] { "First", "Second", "Third" };
 formEditor.AddField(FieldType.Radio, "NewField1", 1, 40, 600, 120, 620);
 ```
 
- Ebben a kódban meghatározzuk a választógombok elemeit, és hozzáadjuk őket a PDF-hez. A`AddField`metódus számos paramétert vesz igénybe, beleértve a mező típusát, a mező nevét és az elhelyezés koordinátáit.
+Ebben a kódban definiáljuk a rádiógombok elemeit, és hozzáadjuk azokat a PDF-hez. `AddField` A metódus számos paramétert fogad el, beleértve a mező típusát, a mező nevét és az elhelyezés koordinátáit.
 
-## 5. lépés: Adjon hozzá függőleges rádiógombokat
+## 5. lépés: Függőleges választógombok hozzáadása
 
-Ezután hozzáadjuk a függőleges rádiógombokat. Ehhez vissza kell állítanunk a tájolást függőlegesre.
+Ezután hozzáadjuk a függőleges választógombokat. Ehhez vissza kell állítanunk a tájolást függőlegesre.
 
 ```csharp
-formEditor.RadioHoriz = false; // Állítsa false értékre a függőleges igazításhoz
+formEditor.RadioHoriz = false; // Függőleges igazításhoz állítsa hamisra
 formEditor.Items = new string[] { "First", "Second", "Third" };
 formEditor.AddField(FieldType.Radio, "NewField2", 1, 40, 500, 60, 550);
 ```
 
-Csakúgy, mint korábban, itt is meghatározzuk az elemeket, és hozzáadjuk őket a PDF-hez, de ezúttal függőlegesen lesznek igazítva.
+A korábbiakhoz hasonlóan definiáljuk az elemeket és hozzáadjuk őket a PDF-hez, de ezúttal függőlegesen lesznek igazítva.
 
-## 6. lépés: Mentse el a PDF-dokumentumot
+## 6. lépés: Mentse el a PDF dokumentumot
 
 Végül el kell mentenünk a módosított PDF dokumentumot.
 
@@ -117,31 +119,33 @@ formEditor.Save(dataDir);
 Console.WriteLine("\nHorizontally and vertically laid out radio buttons successfully.\nFile saved at " + dataDir);
 ```
 
-Ez a kód elmenti a PDF-fájlt az újonnan hozzáadott választógombokkal. Ügyeljen arra, hogy ellenőrizze a kimeneti fájl megadott könyvtárát.
+Ez a kód az újonnan hozzáadott választógombokkal menti el a PDF-et. Ügyeljen arra, hogy ellenőrizze a kimeneti fájl megadott könyvtárát.
 
 ## Következtetés
 
-A választógombok létrehozása PDF-ben az Aspose.PDF for .NET használatával egyszerű folyamat. Az oktatóanyagban ismertetett lépések követésével könnyedén hozzáadhat vízszintesen és függőlegesen igazított választógombokat PDF-űrlapjaihoz. Ez nemcsak a dokumentumok interaktivitását javítja, hanem az általános felhasználói élményt is. Szóval, hajrá, és próbáld ki!
+Rádiógombok létrehozása PDF-ben az Aspose.PDF for .NET használatával egy egyszerű folyamat. Az ebben az oktatóanyagban ismertetett lépéseket követve könnyedén hozzáadhat vízszintesen és függőlegesen is igazított rádiógombokat a PDF űrlapokhoz. Ez nemcsak a dokumentumok interaktivitását fokozza, hanem az általános felhasználói élményt is javítja. Tehát próbálja ki!
 
 ## GYIK
 
-### Mi az Aspose.PDF for .NET?
-Az Aspose.PDF for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára PDF-dokumentumok programozott létrehozását, kezelését és konvertálását.
+### Mi az Aspose.PDF .NET-hez?
+Az Aspose.PDF for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, szerkesszenek és konvertáljanak PDF dokumentumokat.
 
-### Használhatom ingyenesen az Aspose.PDF-et?
- Igen, az Aspose ingyenes próbaverziót kínál, amellyel értékelheti a könyvtárat. Letöltheti[itt](https://releases.aspose.com/).
+### Ingyenesen használhatom az Aspose.PDF fájlt?
+Igen, az Aspose ingyenes próbaverziót kínál, amellyel kiértékelheted a könyvtárat. Letöltheted. [itt](https://releases.aspose.com/).
 
 ### Hogyan kaphatok támogatást az Aspose.PDF fájlhoz?
- Támogatást kaphat, ha ellátogat a[Aspose fórum](https://forum.aspose.com/c/pdf/10).
+Támogatást kaphatsz, ha ellátogatsz a következő oldalra: [Aspose fórum](https://forum.aspose.com/c/pdf/10).
 
 ### Lehetséges más űrlapelemeket létrehozni az Aspose.PDF segítségével?
-Teljesen! Az Aspose.PDF különféle űrlapelemeket támogat, beleértve a szövegmezőket, jelölőnégyzeteket és legördülő listákat.
+Abszolút! Az Aspose.PDF különféle űrlapelemeket támogat, beleértve a szövegmezőket, jelölőnégyzeteket és legördülő menüket.
 
-### Hol vásárolhatom meg az Aspose.PDF-et .NET-hez?
- Az Aspose.PDF for .NET a következő webhelyről vásárolható meg[vásárlási oldal](https://purchase.aspose.com/buy).
+### Hol tudom megvásárolni az Aspose.PDF for .NET fájlt?
+Az Aspose.PDF for .NET fájlt megvásárolhatod a következő címen: [vásárlási oldal](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

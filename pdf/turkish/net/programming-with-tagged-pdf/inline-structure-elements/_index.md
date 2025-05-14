@@ -1,14 +1,16 @@
 ---
-title: Satır İçi Yapı Elemanları
-linktitle: Satır İçi Yapı Elemanları
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile çevrimiçi yapısal öğelerin kullanımına ilişkin adım adım kılavuz. PDF'lerinizi başlıklar ve paragraflarla düzenleyin.
-weight: 110
-url: /tr/net/programming-with-tagged-pdf/inline-structure-elements/
+"description": "Aspose.PDF for .NET ile çevrimiçi yapısal öğelerin kullanımına ilişkin adım adım kılavuz. PDF'lerinizi başlıklar ve paragraflarla düzenleyin."
+"linktitle": "Satır İçi Yapı Elemanları"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Satır İçi Yapı Elemanları"
+"url": "/tr/net/programming-with-tagged-pdf/inline-structure-elements/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Satır İçi Yapı Elemanları
@@ -23,8 +25,8 @@ Aksiyona geçmeden önce, takip etmeniz gereken her şeye sahip olduğunuzdan em
 
 1. Temel C# Bilgisi: C# programlama ve .NET framework temellerine aşinalık şarttır.
 2. Visual Studio Kurulu: Kodunuzu yazıp çalıştırmak için Visual Studio gibi bir IDE'ye ihtiyacınız olacak.
-3.  Aspose.PDF for .NET: Aspose.PDF for .NET'i indirip kurduğunuzdan emin olun. Bunu şuradan alabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/pdf/net/).
-4. Geçici Lisans: Bu isteğe bağlıdır, ancak tüm özellikleri sınırlama olmaksızın değerlendirmek istiyorsanız, bir tane edinmeyi düşünün.[geçici lisans](https://purchase.aspose.com/temporary-license/).
+3. Aspose.PDF for .NET: Aspose.PDF for .NET'i indirip kurduğunuzdan emin olun. Bunu şuradan alabilirsiniz: [indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+4. Geçici Lisans: Bu isteğe bağlıdır, ancak tüm özellikleri sınırlama olmaksızın değerlendirmek istiyorsanız, bir tane edinmeyi düşünün. [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 Bu ön koşulları sağladığınızda, ilk etiketli PDF belgenizi oluşturmaya hazırsınız!
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Gerçek yolunuzla değiştirin
 
 ### Adım 2: Bir PDF Belgesi Örneği Oluşturun
 
- Sonra, şunun bir örneğini oluşturun:`Document` PDF içeriklerinizin konteyneri olarak hizmet edecek sınıf.
+Sonra, şunun bir örneğini oluşturun: `Document` PDF içeriklerinizin konteyneri olarak hizmet edecek sınıf.
 
 ```csharp
 Document document = new Document();
@@ -92,9 +94,9 @@ Belgenize öğeler eklemeye başlayalım. İlk olarak, belgenizin yapısını ol
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
-### Adım 6: Başlık Öğeleri Oluşturun
+### Adım 6: Başlık Öğelerini Oluşturun
 
-Şimdi başlık öğeleri oluşturma zamanı. Bu, içeriği bir hiyerarşiye göre düzenlemeye yardımcı olacaktır. Altı düzeyde başlık oluşturacağız.
+Şimdi başlık öğeleri oluşturma zamanı. Bu, içeriği bir hiyerarşiye göre düzenlemeye yardımcı olacaktır. Altı seviyede başlık oluşturacağız.
 
 ```csharp
 HeaderElement h1 = taggedContent.CreateHeaderElement(1);
@@ -178,16 +180,18 @@ Etiketli PDF, belgenin yapısı hakkında bilgi içeren ve bu sayede engelli kul
 Etiketleme erişilebilirliği artırarak ekran okuyucuların belgeyi net bir şekilde yorumlamasına olanak tanır ve böylece engelli kullanıcılar için daha iyi bir deneyim sunar.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose.PDF for .NET'i şu şekilde değerlendirebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/).
+Evet, Aspose.PDF for .NET'i şu şekilde değerlendirebilirsiniz: [ücretsiz deneme](https://releases.aspose.com/).
 
 ### Aspose.PDF için desteği nereden alabilirim?
- Desteğe şuradan erişilebilir:[Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Desteğe şuradan erişilebilir: [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF for .NET lisansını nasıl satın alabilirim?
- Lisansı doğrudan şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Lisansı doğrudan şu adresten satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

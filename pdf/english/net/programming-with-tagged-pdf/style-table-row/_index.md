@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/style-table-row/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Style Table Row
@@ -198,6 +200,7 @@ Aspose.PDF for .NET is a licensed product, but you can try it out with a [free t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

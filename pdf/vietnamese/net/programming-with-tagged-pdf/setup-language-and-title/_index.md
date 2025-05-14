@@ -1,14 +1,16 @@
 ---
-title: Thiết lập ngôn ngữ và tiêu đề
-linktitle: Thiết lập ngôn ngữ và tiêu đề
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Hướng dẫn từng bước để cấu hình ngôn ngữ và tiêu đề của tài liệu PDF bằng Aspose.PDF cho .NET. Tạo tài liệu đa ngôn ngữ được cá nhân hóa.
-weight: 140
-url: /vi/net/programming-with-tagged-pdf/setup-language-and-title/
+"description": "Hướng dẫn từng bước để cấu hình ngôn ngữ và tiêu đề của tài liệu PDF bằng Aspose.PDF cho .NET. Tạo tài liệu đa ngôn ngữ được cá nhân hóa."
+"linktitle": "Thiết lập ngôn ngữ và tiêu đề"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thiết lập ngôn ngữ và tiêu đề"
+"url": "/vi/net/programming-with-tagged-pdf/setup-language-and-title/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập ngôn ngữ và tiêu đề
@@ -22,7 +24,7 @@ Tạo PDF được gắn thẻ là hoạt động quan trọng để đảm bả
 Trước khi đi sâu vào thế giới PDF được gắn thẻ, hãy cùng thu thập mọi thứ bạn cần. Sau đây là những gì bạn cần chuẩn bị:
 
 - Kiến thức cơ bản về .NET: Mặc dù bạn không cần phải là một lập trình viên xuất chúng, nhưng việc quen thuộc với các khái niệm về .NET sẽ giúp hành trình này trở nên dễ dàng hơn.
--  Aspose.PDF cho .NET đã cài đặt: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể tải xuống để đánh giá hoặc mua giấy phép. Kiểm tra[tải trang ở đây](https://releases.aspose.com/pdf/net/).
+- Đã cài đặt Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể tải xuống để đánh giá hoặc mua giấy phép. Kiểm tra [tải trang ở đây](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Đây là nơi bạn sẽ viết và kiểm tra mã của mình. Nếu bạn không có, hãy tải xuống từ trang web của Microsoft.
 - Thành thạo ngôn ngữ C#: Hướng dẫn này được viết bằng C#. Một chút kinh nghiệm với C# chắc chắn sẽ giúp bạn dễ dàng vượt qua các phần mã hóa.
 
@@ -57,11 +59,11 @@ Tiếp theo là xác định nơi lưu trữ tài liệu của bạn. Bạn cầ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu PDF. Điều này tương tự như việc tìm chỗ đậu xe cho chiếc xe mới của bạn.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu PDF. Điều này tương tự như việc tìm chỗ đậu xe cho chiếc xe mới của bạn.
 
 ## Bước 3: Nhận nội dung được gắn thẻ
 
-Bây giờ, hãy truy cập nội dung được gắn thẻ của tài liệu. Nội dung được gắn thẻ đóng vai trò là xương sống để tạo PDF có thể truy cập được. 
+Bây giờ, hãy truy cập nội dung được gắn thẻ của tài liệu. Nội dung được gắn thẻ đóng vai trò là xương sống để tạo ra các tệp PDF có thể truy cập được. 
 
 ```csharp
 Tagged.ITaggedContent taggedContent = document.TaggedContent;
@@ -71,7 +73,7 @@ Bằng cách này, bạn có thể tạo cấu trúc cho tệp PDF của mình, 
 
 ## Bước 4: Đặt Tiêu đề và Ngôn ngữ
 
-Khi đã có nội dung được gắn thẻ, đã đến lúc chỉ định tiêu đề tài liệu và ngôn ngữ chính. 
+Khi nội dung được gắn thẻ đã sẵn sàng, đã đến lúc chỉ định tiêu đề tài liệu và ngôn ngữ chính. 
 
 ```csharp
 taggedContent.SetTitle("Example Tagged Document");
@@ -156,7 +158,7 @@ Bây giờ bạn đã xây dựng tài liệu của mình với nhiều ngôn ng
 document.Save(dataDir + "SetupLanguageAndTitle.pdf");
 ```
 
-Và cứ như vậy, sáng tạo của bạn đã được hoàn thiện và lưu trữ! Hãy coi đây như việc dán phong bì trước khi gửi thư.
+Và cứ như vậy, sáng tạo của bạn đã được hoàn thiện và lưu trữ! Hãy coi đây như việc niêm phong phong bì trước khi gửi thư.
 
 ## Phần kết luận
 
@@ -172,16 +174,18 @@ PDF được gắn thẻ là loại tài liệu PDF có chứa thông tin bổ s
 Aspose.PDF cho .NET cung cấp nhiều lớp và phương thức cho phép bạn dễ dàng tạo và thao tác với PDF, bao gồm cả việc thêm nội dung được gắn thẻ để dễ truy cập.
 
 ### Tôi có thể tạo tệp PDF có gắn thẻ bằng nhiều ngôn ngữ không?
-Có! Aspose.PDF hỗ trợ nhiều ngôn ngữ, cho phép bạn thêm nội dung bằng nhiều ngôn ngữ khác nhau trong cùng một tài liệu PDF.
+Có! Aspose.PDF hỗ trợ nhiều ngôn ngữ, cho phép bạn thêm nội dung bằng nhiều ngôn ngữ khác nhau vào cùng một tài liệu PDF.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF không?
-Mặc dù bạn có thể dùng thử miễn phí, nhưng cần có giấy phép để sử dụng sản xuất. Hãy cân nhắc đến việc truy cập[trang mua hàng](https://purchase.aspose.com/buy) để biết thêm thông tin.
+Mặc dù bạn có thể dùng thử miễn phí, nhưng cần có giấy phép để sử dụng sản xuất. Hãy cân nhắc đến việc truy cập [trang mua hàng](https://purchase.aspose.com/buy) để biết thêm thông tin.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.PDF ở đâu?
- Bạn có thể tìm thấy tài liệu và hỗ trợ toàn diện cho Aspose.PDF[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu và hỗ trợ toàn diện cho Aspose.PDF [đây](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

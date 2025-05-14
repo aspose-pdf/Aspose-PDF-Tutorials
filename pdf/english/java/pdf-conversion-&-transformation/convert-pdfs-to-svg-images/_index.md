@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/convert-pdfs-to-svg-images/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert PDFs to SVG Images
@@ -131,6 +133,7 @@ Yes, Aspose.PDF for Java is well-suited for batch PDF processing tasks, making i
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,34 +1,36 @@
 ---
-title: Prvek tabulky stylu
-linktitle: Prvek tabulky stylu
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se vytvářet a upravovat prvky tabulky v Aspose.PDF pro .NET pomocí podrobných pokynů, vlastního stylu a souladu s PDF/UA.
-weight: 170
-url: /cs/net/programming-with-tagged-pdf/style-table-element/
+"description": "Naučte se, jak vytvořit a stylovat prvek tabulky v Aspose.PDF pro .NET s podrobnými pokyny, vlastním stylováním a kompatibilitou s PDF/UA."
+"linktitle": "Prvek tabulky stylů"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Prvek tabulky stylů"
+"url": "/cs/net/programming-with-tagged-pdf/style-table-element/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Prvek tabulky stylu
+# Prvek tabulky stylů
 
 ## Zavedení
 
-V tomto článku se ponoříme do toho, jak vytvořit a nastylovat prvek tabulky pomocí Aspose.PDF pro .NET. Dozvíte se, jak strukturovat tabulku, používat vlastní styly a ověřovat shodu vašeho dokumentu s PDF/UA. Na konci tohoto tutoriálu budete schopni snadno vytvářet profesionálně vypadající tabulky ve vašich PDF!
+tomto článku se ponoříme do toho, jak vytvořit a stylovat prvek tabulky pomocí Aspose.PDF pro .NET. Naučíte se, jak strukturovat tabulku, používat vlastní styly a ověřit shodu dokumentu s PDF/UA. Po absolvování tohoto tutoriálu budete schopni snadno vytvářet profesionálně vypadající tabulky ve svých PDF souborech!
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, musíte se ujistit, že máte následující:
+Než se pustíte do tutoriálu, musíte se ujistit, že máte následující:
 
 1. Visual Studio nebo podobné IDE nainstalované na vašem počítači.
 2. .NET Framework nebo .NET Core SDK pro spuštění aplikace.
-3.  Knihovna Aspose.PDF for .NET stažená a odkazovaná ve vašem projektu. Nejnovější verzi si můžete stáhnout z[zde](https://releases.aspose.com/pdf/net/).
-4.  Platná licence Aspose nebo a[dočasná licence](https://purchase.aspose.com/temporary-license/) k odemknutí plné funkčnosti knihovny.
+3. Knihovna Aspose.PDF pro .NET byla stažena a uvedena ve vašem projektu. Nejnovější verzi si můžete stáhnout z [zde](https://releases.aspose.com/pdf/net/).
+4. Platná licence Aspose nebo [dočasná licence](https://purchase.aspose.com/temporary-license/) odemknout plnou funkčnost knihovny.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, importujte potřebné jmenné prostory do svého projektu:
+Pro začátek importujte potřebné jmenné prostory do projektu:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -40,50 +42,50 @@ using System.Linq;
 using System.Text;
 ```
 
-Tyto jmenné prostory pokrývají základní operace PDF, tagovaný obsah, tabulky a formátování textu.
+Tyto jmenné prostory pokrývají základní operace s PDF, tagovaný obsah, tabulky a formátování textu.
 
-Nyní si rozeberme proces vytváření a stylování tabulky v Aspose.PDF. Projdeme si každou část podrobně, abyste ji mohli sledovat.
+Nyní si rozebereme proces vytváření a stylování tabulky v Aspose.PDF. Projdeme si každou část podrobně, abyste mohli lépe sledovat.
 
 ## Krok 1: Vytvořte nový dokument PDF a nastavte označený obsah
 
-V tomto prvním kroku vytvoříme prázdný dokument PDF a nastavíme jeho tagovaný obsah.
+V tomto prvním kroku vytvoříme prázdný dokument PDF a nastavíme jeho označený obsah.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Vytvořte nový dokument PDF
+// Vytvořte nový PDF dokument
 Document document = new Document();
 
-// Nastavení označeného obsahu
+// Nastavení tagovaného obsahu
 ITaggedContent taggedContent = document.TaggedContent;
 taggedContent.SetTitle("Example table style");
 taggedContent.SetLanguage("en-US");
 ```
 
- Začneme vytvořením nového`Document` objekt představující naše PDF. The`TaggedContent`objekt slouží ke správě struktury dokumentu a zajišťuje soulad se standardy přístupnosti. Nastavíme název a jazyk dokumentu pro správné tagování.
+Začneme vytvořením nového `Document` objekt, který představuje náš PDF. `TaggedContent` Objekt se používá ke správě struktury dokumentu a zajišťuje soulad se standardy přístupnosti. Nastavujeme název a jazyk dokumentu pro správné tagování.
 
-## Krok 2: Definujte kořenový prvek
+## Krok 2: Definování kořenového prvku
 
-Dále vytvoříme element kořenové struktury, který funguje jako kontejner pro veškerý obsah v našem PDF.
+Dále vytvoříme kořenový strukturní element, který bude sloužit jako kontejner pro veškerý obsah v našem PDF.
 
 ```csharp
 // Získejte prvek kořenové struktury
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
- The`RootElement` slouží jako základní kontejner pro všechny strukturované prvky včetně našeho stolu. Pomáhá udržovat strukturní hierarchii dokumentu, což je důležité pro organizaci i dostupnost.
+Ten/Ta/To `RootElement` slouží jako základní kontejner pro všechny strukturované prvky, včetně naší tabulky. Pomáhá udržovat strukturální hierarchii dokumentu, což je důležité jak pro organizaci, tak pro přístupnost.
 
 ## Krok 3: Vytvořte a upravte styl prvku tabulky
 
- Nyní, když je kořenový prvek nastaven, vytvoříme a`TableElement` a použít styly, jako je barva pozadí, okraje a zarovnání.
+Nyní, když je kořenový element nastaven, vytvoříme `TableElement` a aplikovat styly, jako je barva pozadí, ohraničení a zarovnání.
 
 ```csharp
-// Vytvořte prvek struktury tabulky
+// Vytvořit prvek struktury tabulky
 TableElement tableElement = taggedContent.CreateTableElement();
 rootElement.AppendChild(tableElement);
 
-// Upravte styl stolu
+// Stylizace stolu
 tableElement.BackgroundColor = Color.Beige;
 tableElement.Border = new BorderInfo(BorderSide.All, 0.80F, Color.Gray);
 tableElement.Alignment = HorizontalAlignment.Center;
@@ -91,9 +93,9 @@ tableElement.Broken = TableBroken.Vertical;
 tableElement.ColumnAdjustment = ColumnAdjustment.AutoFitToWindow;
 ```
 
- Vytváříme a`TableElement` , který definuje strukturu naší tabulky. The`BackgroundColor`, `Border` a`Alignment` vlastnosti nám umožňují přizpůsobit vzhled tabulky. The`Broken` Vlastnost zajišťuje, že pokud se tabulka přeruší přes stránky, přeruší se vertikálně.
+Vytvoříme `TableElement`, který definuje strukturu naší tabulky. `BackgroundColor`, `Border`a `Alignment` Vlastnosti nám umožňují přizpůsobit vzhled tabulky. `Broken` Vlastnost zajišťuje, že pokud se tabulka zalomí napříč stránkami, zalomí se svisle.
 
-## Krok 4: Nastavte rozměry tabulky a styly buněk
+## Krok 4: Nastavení rozměrů tabulky a stylů buněk
 
 V tomto kroku definujeme počet sloupců, odsazení buněk a další důležité vlastnosti tabulky.
 
@@ -105,11 +107,11 @@ tableElement.DefaultCellTextState.ForegroundColor = Color.DarkCyan;
 tableElement.DefaultCellTextState.FontSize = 8F;
 ```
 
- Specifikujeme šířky sloupců, abychom zajistili, že každý sloupec v tabulce bude rovnoměrně rozmístěn. The`DefaultCellBorder`, `DefaultCellPadding` a`DefaultCellTextState` definovat výchozí styly pro buňky, včetně ohraničení, odsazení, barvy textu a velikosti písma.
+Šířku sloupců určujeme tak, aby všechny sloupce v tabulce byly rovnoměrně rozmístěny. `DefaultCellBorder`, `DefaultCellPadding`a `DefaultCellTextState` definujte výchozí styly pro buňky, včetně ohraničení, odsazení, barvy textu a velikosti písma.
 
-## Krok 5: Přidejte opakující se řádky a vlastní styly
+## Krok 5: Přidání opakujících se řádků a vlastních stylů
 
-Můžeme také definovat styly pro opakování řádků a dalších specifických prvků tabulky, jako jsou záhlaví a zápatí.
+Můžeme také definovat styly pro opakující se řádky a další specifické prvky tabulky, jako jsou záhlaví a zápatí.
 
 ```csharp
 tableElement.RepeatingRowsCount = 3;
@@ -118,18 +120,18 @@ rowStyle.BackgroundColor = Color.LightCoral;
 tableElement.RepeatingRowsStyle = rowStyle;
 ```
 
- The`RepeatingRowsCount` zajišťuje, že se první tři řádky opakují, pokud tabulka zahrnuje více stránek. Nastavili jsme`RepeatingRowsStyle` chcete-li na tyto řádky použít vlastní barvu pozadí.
+Ten/Ta/To `RepeatingRowsCount` zajišťuje, že se první tři řádky opakují, pokud tabulka zabírá více stránek. Nastavíme `RepeatingRowsStyle` použít na tyto řádky vlastní barvu pozadí.
 
-## Krok 6: Přidejte prvky hlavy, těla a nohy stolu
+## Krok 6: Přidání prvků záhlaví, těla a nohou stolu
 
-Nyní vytvoříme sekce záhlaví, těla a zápatí tabulky a naplníme je obsahem.
+Nyní si vytvořme záhlaví, tělo a zápatí tabulky a naplníme je obsahem.
 
 ```csharp
 TableTHeadElement tableTHeadElement = tableElement.CreateTHead();
 TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 
-// Vytvořte řádek záhlaví
+// Vytvořit řádek záhlaví
 TableTRElement headTrElement = tableTHeadElement.CreateTR();
 headTrElement.AlternativeText = "Head Row";
 for (int colIndex = 0; colIndex < 5; colIndex++)
@@ -138,7 +140,7 @@ for (int colIndex = 0; colIndex < 5; colIndex++)
     thElement.SetText($"Head {colIndex}");
 }
 
-// Naplňte tělo tabulky
+// Naplnění těla tabulky
 for (int rowIndex = 0; rowIndex < 10; rowIndex++)
 {
     TableTRElement trElement = tableTBodyElement.CreateTR();
@@ -150,22 +152,22 @@ for (int rowIndex = 0; rowIndex < 10; rowIndex++)
 }
 ```
 
- Stůl je rozdělen na tři části: hlavu, tělo a nohu. Nejprve vytvoříme řádek záhlaví pomocí`TableTHElement` přidejte záhlaví sloupců. Poté naplníme tělo tabulky`TableTDElement`, vyplní každou buňku štítkem, který obsahuje její polohu.
+Tabulka je rozdělena na tři části: záhlaví, tělo a patu. Nejprve vytvoříme záhlaví pomocí `TableTHElement` a přidáme záhlaví sloupců. Poté naplníme tělo tabulky `TableTDElement`a vyplní každou buňku popiskem, který obsahuje její pozici.
 
 ## Krok 7: Uložte dokument
 
-Nakonec PDF dokument uložíme do určeného adresáře.
+Nakonec uložíme PDF dokument do zadaného adresáře.
 
 ```csharp
-// Uložte tagovaný dokument PDF
+// Uložení tagovaného dokumentu PDF
 document.Save(dataDir + "StyleTableElement.pdf");
 ```
 
-Tento krok dokončuje proces vytváření dokumentu uložením souboru PDF se stylizovanou tabulkou.
+Tento krok dokončí proces vytváření dokumentu uložením souboru PDF se stylizovanou tabulkou.
 
-## Krok 8: Ověřte soulad s PDF/UA
+## Krok 8: Ověření shody s PDF/UA
 
-Po uložení dokumentu je nezbytné zajistit, aby vyhovoval standardům PDF/UA (Universal Accessibility).
+Po uložení dokumentu je nezbytné zajistit, aby splňoval standardy PDF/UA (Universal Accessibility).
 
 ```csharp
 // Zkontrolujte shodu s PDF/UA
@@ -174,31 +176,33 @@ bool isPdfUaCompliance = document.Validate(dataDir + "StyleTableElement.xml", Pd
 Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
 ```
 
-Zde znovu načteme dokument a ověříme jej podle standardů PDF/UA. Soulad zajišťuje, že vaše PDF splňuje požadavky na přístupnost, takže je vhodné pro širokou škálu uživatelů.
+Zde dokument znovu načteme a ověříme ho podle standardů PDF/UA. Soulad s předpisy zajišťuje, že váš PDF soubor splňuje požadavky na přístupnost, takže je vhodný pro širokou škálu uživatelů.
 
 ## Závěr
 
-Aspose.PDF pro .NET je vytváření a stylování tabulek v dokumentech PDF jednoduché a intuitivní. Podle kroků uvedených v tomto kurzu můžete vytvářet tabulky s přizpůsobenými styly a zajistit, aby vaše soubory PDF splňovaly standardy usnadnění. Ať už generujete sestavy nebo vytváříte strukturované dokumenty, tabulky jsou mocným nástrojem pro přehlednou prezentaci dat.
+S Aspose.PDF pro .NET je vytváření a stylování tabulek ve vašich PDF dokumentech jednoduché a intuitivní. Dodržováním kroků uvedených v tomto tutoriálu můžete vytvářet tabulky s přizpůsobenými styly a zajistit, aby vaše PDF soubory splňovaly standardy přístupnosti. Ať už generujete sestavy nebo vytváříte strukturované dokumenty, tabulky jsou mocným nástrojem pro přehlednou prezentaci dat.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu přidat obrázky do buněk tabulky?
- Ano, obrázky můžete vkládat do buněk tabulky pomocí`Image` živel.
+### Mohu vkládat obrázky do buněk tabulky?
+Ano, obrázky můžete vkládat do buněk tabulky pomocí `Image` živel.
 
-### Jak dynamicky upravím šířku sloupců?
- Můžete nastavit`ColumnAdjustment` majetek do`AutoFitToWindow` pro automatickou úpravu šířky sloupců podle obsahu.
+### Jak mohu dynamicky upravit šířku sloupců?
+Můžete nastavit `ColumnAdjustment` majetek `AutoFitToWindow` automaticky upravovat šířku sloupců na základě obsahu.
 
-### Je soulad s PDF/UA povinný pro všechny dokumenty?
-I když to není povinné, doporučuje se pro dokumenty, které vyžadují vysoké standardy přístupnosti.
+### Je shoda s PDF/UA povinná pro všechny dokumenty?
+I když to není povinné, doporučuje se to pro dokumenty, které vyžadují vysoké standardy přístupnosti.
 
 ### Mohu na konkrétní řádky použít různé styly?
- Ano, můžete přizpůsobit jednotlivé řádky nebo buňky jejich úpravou`TextState` nebo`BackgroundColor`.
+Ano, jednotlivé řádky nebo buňky si můžete přizpůsobit úpravou jejich `TextState` nebo `BackgroundColor`.
 
-### Jaká je výhoda používání označeného obsahu?
-Tagovaný obsah zlepšuje dostupnost dokumentů a pomáhá zajistit shodu se standardy jako PDF/UA.
+### Jaká je výhoda používání tagovaného obsahu?
+Označený obsah zlepšuje přístupnost dokumentů a pomáhá zajistit soulad se standardy, jako je PDF/UA.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

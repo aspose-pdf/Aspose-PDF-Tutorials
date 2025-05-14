@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/style-table-element/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Style Table Element
@@ -200,6 +202,7 @@ Tagged content improves document accessibility and helps ensure compliance with 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

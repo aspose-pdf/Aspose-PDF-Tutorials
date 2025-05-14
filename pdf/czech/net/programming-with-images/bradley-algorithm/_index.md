@@ -1,36 +1,38 @@
 ---
-title: Bradleyho algoritmus
-linktitle: Bradleyho algoritmus
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak převést PDF na TIFF pomocí Bradleyho algoritmu v Aspose.PDF pro .NET. Podrobný průvodce, předpoklady a často kladené otázky pro bezproblémový převod.
-weight: 30
-url: /cs/net/programming-with-images/bradley-algorithm/
+"description": "Naučte se, jak převést PDF do formátu TIFF pomocí Bradleyho algoritmu v Aspose.PDF pro .NET. Podrobný návod, předpoklady a nejčastější dotazy pro bezproblémový převod."
+"linktitle": "Bradleyho algoritmus"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Bradleyho algoritmus"
+"url": "/cs/net/programming-with-images/bradley-algorithm/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bradleyho algoritmus
 
 ## Zavedení
 
-Práce se soubory PDF může někdy vyžadovat více než jen jejich čtení nebo úpravy – možná je budete muset převést na obrázky. Jedním z účinných způsobů, jak převést soubory PDF na obrázky TIFF, je použití Bradleyho algoritmu prostřednictvím knihovny Aspose.PDF for .NET. Tato metoda zajišťuje vysoce kvalitní binární obrazy, ideální pro archivaci dokumentů a další specializované případy použití.
+Práce se soubory PDF může někdy vyžadovat více než jen jejich čtení nebo úpravu – možná je budete muset převést do obrázků. Jedním z účinných způsobů, jak převést soubory PDF do obrázků TIFF, je použití Bradleyho algoritmu prostřednictvím knihovny Aspose.PDF pro .NET. Tato metoda zajišťuje vysoce kvalitní binární obrazy, ideální pro archivaci dokumentů a další specializované případy použití.
 
-Tento tutoriál vás provede podrobným a snadno pochopitelným procesem převodu stránky PDF na obrázek TIFF pomocí algoritmu Bradley Binarization Algorithm. Aspose.PDF for .NET tento úkol zjednodušuje a poskytuje vám možnost automatizovat a zefektivnit vaše pracovní postupy s dokumenty.
+Tento tutoriál vás provede podrobným a snadno srozumitelným postupem pro převod stránky PDF do obrázku TIFF pomocí Bradleyho binarizačního algoritmu. Aspose.PDF pro .NET tento úkol zjednodušuje a poskytuje vám možnost automatizovat a zefektivnit vaše pracovní postupy s dokumenty.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte vše, co potřebujete k dodržení:
+Než se pustíme do kódu, ujistěte se, že máte vše potřebné k jeho dodržování:
 
--  Aspose.PDF pro .NET: Budete potřebovat knihovnu. Stáhněte si jej z[zde](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF pro .NET: Budete potřebovat knihovnu. Stáhněte si ji z [zde](https://releases.aspose.com/pdf/net/).
 - Visual Studio (nebo jakékoli C# IDE).
 - Základní znalost C#.
--  Platná licence nebo a[dočasná licence](https://purchase.aspose.com/temporary-license/) od Aspose.
+- Platný řidičský průkaz nebo [dočasná licence](https://purchase.aspose.com/temporary-license/) z Aspose.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Nejprve se ujistěte, že jste do projektu importovali potřebné jmenné prostory. Tyto knihovny vám poskytnou nástroje pro manipulaci s dokumenty PDF, jejich převod do formátu TIFF a aplikaci Bradleyho binarizačního algoritmu.
+V první řadě se ujistěte, že jste do projektu importovali potřebné jmenné prostory. Tyto knihovny vám poskytnou nástroje pro manipulaci s dokumenty PDF, jejich převod do formátu TIFF a použití Bradleyho binarizačního algoritmu.
 
 ```csharp
 using System.IO;
@@ -38,52 +40,52 @@ using System;
 using Aspose.Pdf;
 ```
 
-Pojďme si tento proces rozdělit do jednoduchých kroků, abyste zajistili, že budete moci plynule pokračovat. Na konci této příručky úspěšně převedete stránku PDF na binární obrázek TIFF pomocí Bradleyho algoritmu.
+Rozdělme si proces do jednoduchých kroků, abyste v něm mohli hladce pokračovat. Na konci této příručky budete mít úspěšně převedenu stránku PDF do binárního obrázku TIFF pomocí Bradleyho algoritmu.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Prvním krokem je zadat cestu k adresáři, kde se nachází váš dokument PDF. Také definujete výstupní cesty pro obrázky TIFF, které budou generovány.
+Prvním krokem je zadání cesty k adresáři, kde se nachází váš dokument PDF. Také definujete výstupní cesty pro generované obrázky TIFF.
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // Cesta k vašemu souboru PDF
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Cesta k vašemu PDF souboru
 ```
 
-Zde ukládáte zdrojové soubory PDF i převedené soubory TIFF. Ujistěte se, že je adresář správně nastaven, aby kód mohl číst a zapisovat soubory bez chyb.
+Zde se ukládají zdrojový PDF i převedené soubory TIFF. Ujistěte se, že je adresář správně nastaven, aby kód mohl číst a zapisovat soubory bez chyb.
 
 ## Krok 2: Otevřete dokument PDF
 
-Nyní, když je cesta nastavena, je čas otevřít dokument PDF, který chcete převést. Aspose.PDF pro .NET usnadňuje načtení dokumentu pro další zpracování.
+Nyní, když je cesta nastavena, je čas otevřít PDF dokument, který chcete převést. Aspose.PDF pro .NET usnadňuje načtení dokumentu pro další zpracování.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "PageToTIFF.pdf");
 ```
 
- Zde,`PageToTIFF.pdf` je ukázkový soubor. Můžete jej nahradit libovolným souborem PDF podle vašeho výběru. Objekt dokumentu nyní uchovává PDF pro další manipulaci.
+Zde, `PageToTIFF.pdf` je vzorový soubor. Můžete jej nahradit libovolným souborem PDF dle vlastního výběru. Objekt dokument nyní obsahuje PDF pro další manipulaci.
 
-## Krok 3: Definujte výstupní cesty pro obrázky
+## Krok 3: Definování výstupních cest pro obrázky
 
-Dále určíte výstupní cesty pro vygenerované soubory TIFF, včetně standardního TIFF i binarizované verze.
+Dále určíte výstupní cesty pro generované soubory TIFF, a to jak standardní TIFF, tak i binarizované verze.
 
 ```csharp
 string outputImageFile = dataDir + "resultant_out.tif";
 string outputBinImageFile = dataDir + "37116-bin_out.tif";
 ```
 
-Oddělením těchto cest získáte po použití Bradleyho algoritmu jeden soubor pro standardní převod TIFF a další pro binarizovaný obrázek.
+Oddělením těchto cest získáte jeden soubor pro standardní konverzi TIFF a druhý pro binarizovaný obrázek po aplikaci Bradleyho algoritmu.
 
 ## Krok 4: Vytvořte objekt rozlišení
 
-Při převodu PDF na TIFF hraje rozlišení významnou roli při určování kvality obrazu. Pro naše účely jej nastavíme na 300 DPI, abychom zajistili vysoce kvalitní výstup.
+Při převodu PDF do formátu TIFF hraje rozlišení významnou roli při určování kvality obrazu. Pro naše účely jej nastavíme na 300 DPI, abychom zajistili vysoce kvalitní výstup.
 
 ```csharp
 Resolution resolution = new Resolution(300);
 ```
 
-Vyšší DPI znamená lepší čistotu obrazu, zejména při práci s dokumenty, které se budou tisknout nebo archivovat.
+Vyšší DPI znamená lepší ostrost obrazu, zejména při práci s dokumenty, které budou vytištěny nebo archivovány.
 
-## Krok 5: Nakonfigurujte nastavení TIFF
+## Krok 5: Konfigurace nastavení TIFF
 
-Dále budete muset nakonfigurovat nastavení pro obrázek TIFF. Zde použijeme kompresi LZW a nastavíme barevnou hloubku na 1bpp (1bit na pixel), abychom dosáhli binárního obrazu.
+Dále budete muset nakonfigurovat nastavení pro obrázek TIFF. Zde použijeme kompresi LZW a nastavíme barevnou hloubku na 1 bpp (1 bit na pixel), abychom dosáhli binárního obrazu.
 
 ```csharp
 TiffSettings tiffSettings = new TiffSettings();
@@ -91,31 +93,31 @@ tiffSettings.Compression = CompressionType.LZW;
 tiffSettings.Depth = Aspose.Pdf.Devices.ColorDepth.Format1bpp;
 ```
 
-Nastavením hloubky na 1bpp připravíme obraz pro binární výstup. Komprese LZW je zvolena pro svou účinnost při snižování velikosti souboru bez ztráty kvality.
+Nastavením hloubky na 1 bpp připravíme obrázek pro binární výstup. LZW komprese je zvolena pro svou efektivitu při zmenšování velikosti souboru bez ztráty kvality.
 
 ## Krok 6: Vytvořte zařízení TIFF
 
-Nyní budete muset vytvořit zařízení TIFF, které převod zvládne. Toto zařízení používá rozlišení a nastavení TIFF definované dříve.
+Nyní budete muset vytvořit zařízení TIFF, které bude provádět konverzi. Toto zařízení použije rozlišení a nastavení TIFF definované dříve.
 
 ```csharp
 TiffDevice tiffDevice = new TiffDevice(resolution, tiffSettings);
 ```
 
-Jádrem této operace je zařízení TIFF. Vezme dokument PDF a převede každou stránku na obrázek TIFF na základě vašeho předdefinovaného nastavení.
+Jádrem této operace je zařízení TIFF. Vezme dokument PDF a převede každou stránku do obrázku TIFF na základě předdefinovaných nastavení.
 
-## Krok 7: Převeďte stránku PDF na TIFF
+## Krok 7: Převod stránky PDF do formátu TIFF
 
- Je čas zpracovat PDF a převést první stránku na obrázek TIFF. The`Process` umožňuje převést konkrétní stránky nebo celý dokument. V tomto příkladu převádíme první stránku.
+Je čas zpracovat PDF a převést první stránku do obrázku ve formátu TIFF. `Process` Metoda umožňuje převést konkrétní stránky nebo celý dokument. V tomto příkladu převádíme první stránku.
 
 ```csharp
 tiffDevice.Process(pdfDocument, outputImageFile);
 ```
 
-Jakmile bude metoda dokončena, budete mít obrázek TIFF uložený na místě definovaném dříve.
+Po dokončení metody budete mít obrázek TIFF uložený v dříve definovaném umístění.
 
-## Krok 8: Použijte Bradleyův binarizační algoritmus
+## Krok 8: Aplikujte Bradleyho binarizační algoritmus
 
-Nyní přichází kouzlo – Bradleyho algoritmus! Tento algoritmus převádí obrázek TIFF ve stupních šedi na binární obrázek a optimalizuje jej pro systémy rozpoznávání dokumentů.
+A teď přichází na řadu kouzlo – Bradleyho algoritmus! Tento algoritmus převádí šedotónový TIFF obrázek na binární obrázek a optimalizuje ho pro systémy rozpoznávání dokumentů.
 
 ```csharp
 using (FileStream inStream = new FileStream(outputImageFile, FileMode.Open))
@@ -127,11 +129,11 @@ using (FileStream inStream = new FileStream(outputImageFile, FileMode.Open))
 }
 ```
 
- Metoda BinarizeBradley bere dva proudy souborů (vstup a výstup) a také prahovou hodnotu (zde,`0.1`), který určuje úroveň binarizace. Po spuštění budete mít dokonale binarizovaný obrázek připravený k použití.
+Metoda BinarizeBradley přijímá dva souborové streamy (vstupní a výstupní) a také prahovou hodnotu (zde `0.1`), která určuje úroveň binarizace. Po spuštění budete mít dokonale zbinovaný obraz připravený k použití.
 
-## Krok 9: Potvrďte úspěšnou konverzi
+## Krok 9: Potvrzení úspěšné konverze
 
-Nakonec je dobrým zvykem informovat uživatele, že proces byl úspěšný. Můžete to udělat pomocí jednoduchého výstupu konzoly.
+Nakonec je dobrým zvykem informovat uživatele o úspěšném dokončení procesu. To lze provést jednoduchým výstupem do konzole.
 
 ```csharp
 System.Console.WriteLine("Conversion using Bradley algorithm performed successfully!");
@@ -141,27 +143,29 @@ Jakmile se to vytiskne, víte, že vaše stránka PDF byla úspěšně převeden
 
 ## Závěr
 
-Tady to máš! Právě jste se naučili, jak převést stránku PDF na obrázek TIFF a použít Bradleyův binarizační algoritmus pomocí Aspose.PDF for .NET. Tento proces je nezbytný pro archivaci dokumentů, optické rozpoznávání znaků (OCR) a další profesionální aplikace. S vysoce kvalitním rozlišením a efektivní kompresí můžete zajistit, že obrázky dokumentů budou jasné a jejich velikost se dá spravovat.
+A tady to máte! Právě jste se naučili, jak převést stránku PDF do obrázku TIFF a použít Bradleyho binarizační algoritmus pomocí Aspose.PDF pro .NET. Tento proces je nezbytný pro archivaci dokumentů, optické rozpoznávání znaků (OCR) a další profesionální aplikace. Díky vysokému rozlišení a efektivní kompresi si můžete být jisti, že obrázky vašich dokumentů budou jasné a zároveň zvládnutelné velikosti.
 
-## FAQ
+## Často kladené otázky
 
-### Co je to Bradleyho algoritmus?
-Bradleyho algoritmus je binarizační technika, která převádí obrázky ve stupních šedi na binární (černé a bílé) obrázky určením adaptivního prahu pro každý pixel na základě jeho okolí.
+### Co je Bradleyho algoritmus?
+Bradleyho algoritmus je binarizační technika, která převádí obrazy ve stupních šedi na binární (černobílé) obrazy určením adaptivního prahu pro každý pixel na základě jeho okolí.
 
-### Mohu pomocí této metody převést více stránek PDF na TIFF?
- Ano, můžete upravit`Process` metoda pro převod všech stránek procházením stránek v dokumentu.
+### Mohu touto metodou převést více stránek PDF do formátu TIFF?
+Ano, můžete upravit `Process` metoda pro převod všech stránek smyčkou procházením stránek v dokumentu.
 
-### Jaké je optimální rozlišení pro převod PDF na TIFF?
+### Jaké je optimální rozlišení pro převod PDF do TIFF?
 Pro vysoce kvalitní obrázky se obecně doporučuje 300 DPI. Tuto hodnotu však můžete upravit podle svých potřeb.
 
 ### Co znamená 1bpp v barevné hloubce?
-1bpp (1 bit na pixel) znamená, že obrázek bude černobílý, přičemž každý pixel bude buď zcela černý, nebo zcela bílý.
+1bpp (1 bit na pixel) znamená, že obraz bude černobílý, přičemž každý pixel bude buď zcela černý, nebo zcela bílý.
 
-### Je Bradleyův algoritmus vhodný pro OCR?
-Ano, Bradleyův algoritmus se často používá při předběžném zpracování OCR, protože zvyšuje kontrast textu v naskenovaných dokumentech.
+### Je Bradleyho algoritmus vhodný pro OCR?
+Ano, Bradleyho algoritmus se často používá v předzpracování OCR, protože zvyšuje kontrast textu ve skenovaných dokumentech.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

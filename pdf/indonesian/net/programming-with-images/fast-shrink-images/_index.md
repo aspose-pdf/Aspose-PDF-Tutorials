@@ -1,14 +1,16 @@
 ---
-title: Gambar Cepat Menyusut
-linktitle: Gambar Cepat Menyusut
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menggunakan Aspose.PDF for .NET secara efisien untuk mengecilkan gambar dalam berkas PDF, mengoptimalkan ukuran sambil mempertahankan kualitas.
-weight: 130
-url: /id/net/programming-with-images/fast-shrink-images/
+"description": "Pelajari cara menggunakan Aspose.PDF for .NET secara efisien untuk mengecilkan gambar dalam berkas PDF, mengoptimalkan ukuran sambil mempertahankan kualitas."
+"linktitle": "Gambar Cepat Menyusut"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Gambar Cepat Menyusut"
+"url": "/id/net/programming-with-images/fast-shrink-images/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gambar Cepat Menyusut
@@ -22,8 +24,8 @@ Dalam panduan ini, kita akan membahas cara mengecilkan gambar dalam file PDF den
 Sebelum kita mulai membuat kode, pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini adalah prasyaratnya:
 
 - Pemahaman Dasar tentang C#: Jika Anda merasa nyaman membuat kode dalam C#, berarti Anda sudah setengah jalan. Jika belum, jangan khawatir—panduan ini mudah diikuti.
--  Aspose.PDF untuk .NET: Anda harus mengunduh Aspose.PDF dan merujuknya ke proyek .NET Anda. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/).
--  Lingkungan Pengembangan Terpadu (IDE): IDE apa pun yang kompatibel dengan .NET dapat digunakan, seperti Visual Studio. Jika Anda belum menginstalnya, cobalah Visual Studio[Di Sini](https://visualstudio.microsoft.com/).
+- Aspose.PDF untuk .NET: Anda harus mengunduh Aspose.PDF dan merujuknya ke proyek .NET Anda. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/).
+- Lingkungan Pengembangan Terpadu (IDE): IDE apa pun yang kompatibel dengan .NET dapat digunakan, seperti Visual Studio. Jika Anda belum menginstalnya, cobalah Visual Studio [Di Sini](https://visualstudio.microsoft.com/).
 - Dokumen PDF yang Berfungsi: Siapkan PDF yang ingin Anda optimalkan. Bisa berupa laporan atau brosur lelang; pastikan ada beberapa gambar di dalamnya.
 
 Jika semua prasyarat ini terpenuhi, Anda siap untuk bersenang-senang secara langsung!
@@ -59,7 +61,7 @@ using System.Text;
 
 Impor ini penting karena memberi Anda akses ke kelas dan metode yang diperlukan untuk memanipulasi berkas PDF Anda.
 
-Sekarang setelah semuanya siap, mari kita bahas kode yang akan membantu kita mengecilkan gambar dalam PDF. Kita akan uraikan menjadi beberapa langkah yang jelas dan mudah dikelola.
+Setelah semuanya siap, mari kita bahas kode yang akan membantu kita mengecilkan gambar dalam PDF. Kita akan uraikan menjadi beberapa langkah yang jelas dan mudah dikelola.
 
 ## Langkah 1: Inisialisasi Timer
 
@@ -69,7 +71,7 @@ Sebelum kita mulai memproses, mari kita pantau berapa lama waktu yang dibutuhkan
 var time = DateTime.Now.Ticks;
 ```
 
-Dengan demikian, Anda dapat cepat mengukur kinerja, yang penting dalam aplikasi yang lebih besar.
+Dengan demikian, Anda dapat dengan cepat mengukur kinerja, yang dapat menjadi vital dalam aplikasi yang lebih besar.
 
 ## Langkah 2: Tentukan Jalur Dokumen Anda
 
@@ -79,7 +81,7 @@ Berikutnya, kita perlu menentukan jalur ke dokumen PDF kita:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Anda berada. Misalnya:
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Anda berada. Misalnya:
 
 ```csharp
 string dataDir = @"C:\Documents\MyPDFs\";
@@ -93,7 +95,7 @@ Sekarang saatnya membuka berkas PDF yang ingin kita optimalkan. Ini cukup mudah 
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 ```
 
- Baris ini menginisialisasi`Document` objek yang mewakili PDF. Cukup ganti`"Shrinkimage.pdf"` dengan nama dokumen Anda.
+Baris ini menginisialisasi `Document` objek yang mewakili PDF. Cukup ganti `"Shrinkimage.pdf"` dengan nama dokumen Anda.
 
 ## Langkah 4: Inisialisasi Opsi Optimasi
 
@@ -103,21 +105,21 @@ Untuk mengoptimalkan PDF kita, kita perlu mengatur opsi pengoptimalan:
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 ```
 
- Ini akan membuat contoh`OptimizationOptions`, di mana kita dapat menentukan bagaimana kita ingin mengkompres gambar.
+Ini akan membuat contoh `OptimizationOptions`, di mana kita dapat menentukan bagaimana kita ingin mengkompres gambar.
 
 ## Langkah 5: Konfigurasikan Pengaturan Kompresi Gambar
 
 Sekarang mari kita tetapkan spesifikasi untuk optimasi kita:
 
 ```csharp
-// Tetapkan opsi CompressImages
+// Atur opsi CompressImages
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
 ```
 
 Baris ini memberi tahu program bahwa kita ingin mengompres gambar dalam PDF. Selanjutnya, kita akan mengatur kualitas gambar:
 
 ```csharp
-// Tetapkan opsi Kualitas Gambar
+// Atur opsi ImageQuality
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
 ```
 
@@ -125,10 +127,10 @@ Dengan menyesuaikan kualitas gambar, Anda menyeimbangkan ukuran berkas dengan in
 
 ## Langkah 6: Pilih Versi Kompresi
 
-Tepat saat Anda mengira kita hampir selesai, kita punya satu pengaturan lagi yang perlu diubah:
+Tepat saat Anda mengira kami hampir selesai, kami memiliki satu pengaturan lagi yang perlu diubah:
 
 ```csharp
-// Atur Versi Kompresi Gambar menjadi cepat
+// Atur Versi Kompresi Gambar menjadi cepat 
 optimizeOptions.ImageCompressionOptions.Version = Pdf.Optimization.ImageCompressionVersion.Fast;
 ```
 
@@ -176,7 +178,7 @@ Nah, itu dia! Anda telah berhasil mempelajari cara mengecilkan gambar dalam file
 Aspose.PDF untuk .NET adalah pustaka canggih yang memungkinkan pengembang untuk membuat, memodifikasi, dan memanipulasi dokumen PDF secara terprogram.
 
 ### Bisakah saya mencoba Aspose.PDF sebelum membeli?
- Tentu saja! Kamu bisa[unduh uji coba gratis di sini](https://releases.aspose.com/).
+Tentu saja! Kamu bisa [unduh uji coba gratis di sini](https://releases.aspose.com/).
 
 ### Fungsionalitas apa lagi yang ditawarkan Aspose.PDF?
 Selain pengoptimalan gambar, Aspose.PDF memungkinkan ekstraksi teks, penggabungan dokumen, konversi PDF, dan banyak lagi.
@@ -185,10 +187,12 @@ Selain pengoptimalan gambar, Aspose.PDF memungkinkan ekstraksi teks, penggabunga
 Ya! Menambahkannya melalui NuGet membuat integrasi menjadi mudah, dan dokumentasinya memberikan panduan yang jelas.
 
 ### Bagaimana saya bisa mendapatkan dukungan jika saya menghadapi masalah?
- Untuk pertanyaan atau masalah apa pun, kunjungi[Forum Aspose PDF untuk dukungan](https://forum.aspose.com/c/pdf/10).
+Untuk pertanyaan atau masalah apa pun, kunjungi [Forum Aspose PDF untuk dukungan](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ký bằng thẻ thông minh sử dụng trường chữ ký
-linktitle: Ký bằng thẻ thông minh sử dụng trường chữ ký
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách ký PDF an toàn bằng thẻ thông minh với Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng.
-weight: 120
-url: /vi/net/programming-with-security-and-signatures/sign-with-smart-card-using-signature-field/
+"description": "Tìm hiểu cách ký PDF an toàn bằng thẻ thông minh với Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng."
+"linktitle": "Ký bằng thẻ thông minh sử dụng trường chữ ký"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Ký bằng thẻ thông minh sử dụng trường chữ ký"
+"url": "/vi/net/programming-with-security-and-signatures/sign-with-smart-card-using-signature-field/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ký bằng thẻ thông minh sử dụng trường chữ ký
@@ -21,7 +23,7 @@ Trong thế giới kỹ thuật số ngày nay, việc bảo mật tài liệu q
 
 Trước khi đi sâu vào chi tiết của quá trình ký kết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu. Sau đây là danh sách kiểm tra các điều kiện tiên quyết:
 
-1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF trong môi trường .NET của mình. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF trong môi trường .NET của mình. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/).
 
 2. Visual Studio: Bạn sẽ cần một IDE để viết và chạy mã .NET. Visual Studio Community Edition là một lựa chọn miễn phí tuyệt vời.
 
@@ -59,7 +61,7 @@ Cần làm gì: Xác định đường dẫn đến thư mục tài liệu của
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Giải thích: Thay thế`"YOUR DOCUMENTS DIRECTORY"` với đường dẫn thực tế nơi các tệp PDF của bạn được lưu trữ. Đây là nơi chúng tôi sẽ đọc tệp PDF trống và lưu tài liệu đã ký.
+Giải thích: Thay thế `"YOUR DOCUMENTS DIRECTORY"` với đường dẫn thực tế nơi các tệp PDF của bạn được lưu trữ. Đây là nơi chúng tôi sẽ đọc tệp PDF trống và lưu tài liệu đã ký.
 
 ### Bước 2: Sao chép tệp PDF trống
 
@@ -69,7 +71,7 @@ Cần làm gì: Tạo một bản sao PDF trống để làm việc.
 File.Copy(dataDir + "blank.pdf", dataDir + "externalSignature1.pdf", true);
 ```
 
- Giải thích: Dòng này sao chép`blank.pdf`tập tin vào một tập tin mới có tên`externalSignature1.pdf` . Các`true` tham số cho phép ghi đè nếu tệp đã tồn tại.
+Giải thích: Dòng này sao chép `blank.pdf` tập tin vào một tập tin mới có tên `externalSignature1.pdf`. Các `true` tham số cho phép ghi đè nếu tệp đã tồn tại.
 
 ### Bước 3: Mở Tài liệu PDF
 
@@ -85,7 +87,7 @@ using (FileStream fs = new FileStream(dataDir + "externalSignature1.pdf", FileMo
 }
 ```
 
- Giải thích: Chúng tôi sử dụng một`FileStream` để mở tệp PDF của chúng tôi.`Document` lớp từ Aspose.PDF cho phép chúng ta thao tác nội dung PDF.
+Giải thích: Chúng tôi sử dụng một `FileStream` để mở tệp PDF của chúng tôi. `Document` lớp từ Aspose.PDF cho phép chúng ta thao tác nội dung PDF.
 
 ### Bước 4: Tạo trường chữ ký
 
@@ -95,7 +97,7 @@ Cần làm gì: Xác định trường chữ ký trong tệp PDF nơi chữ ký 
 SignatureField field1 = new SignatureField(doc.Pages[1], new Rectangle(100, 400, 10, 10));
 ```
 
- Giải thích: Ở đây, chúng ta tạo ra một`SignatureField` trên trang thứ hai (chỉ mục trang bắt đầu từ 1) của PDF.`Rectangle` xác định vị trí và kích thước của trường chữ ký.
+Giải thích: Ở đây, chúng ta tạo ra một `SignatureField` trên trang thứ hai (trang chỉ mục bắt đầu từ 1) của PDF. `Rectangle` xác định vị trí và kích thước của trường chữ ký.
 
 ### Bước 5: Truy cập vào Kho lưu trữ chứng chỉ thẻ thông minh
 
@@ -120,7 +122,7 @@ Giải thích: Dòng này mở hộp thoại để bạn chọn chứng chỉ. B
 
 ### Bước 7: Tạo chữ ký bên ngoài
 
- Cần làm gì: Tạo một phiên bản của`ExternalSignature` sử dụng chứng chỉ đã chọn.
+Cần làm gì: Tạo một phiên bản của `ExternalSignature` sử dụng chứng chỉ đã chọn.
 
 ```csharp
 Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.ExternalSignature(sel[0])
@@ -131,7 +133,7 @@ Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.Exte
 };
 ```
 
- Giải thích: Chúng tôi khởi tạo`ExternalSignature` với chứng chỉ đã chọn. Bạn cũng có thể thiết lập thẩm quyền, lý do ký và thông tin liên hệ.
+Giải thích: Chúng tôi khởi tạo `ExternalSignature` với chứng chỉ đã chọn. Bạn cũng có thể thiết lập thẩm quyền, lý do ký và thông tin liên hệ.
 
 ### Bước 8: Thêm Trường Chữ ký vào Tài liệu
 
@@ -173,7 +175,7 @@ using (PdfFileSignature pdfSign = new PdfFileSignature(new Document(dataDir + "e
 }
 ```
 
-Giải thích: Chúng ta tạo một thể hiện của`PdfFileSignature` để xác minh chữ ký trong tài liệu. Nếu chữ ký không hợp lệ, một ngoại lệ sẽ được đưa ra.
+Giải thích: Chúng ta tạo một thể hiện của `PdfFileSignature` để xác minh chữ ký trong tài liệu. Nếu chữ ký không hợp lệ, một ngoại lệ sẽ được đưa ra.
 
 ## Phần kết luận
 
@@ -188,16 +190,18 @@ Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát 
 Có, cần có thẻ thông minh để ký PDF một cách an toàn bằng chứng chỉ số.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Aspose.PDF cung cấp bản dùng thử miễn phí, bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Aspose.PDF cung cấp bản dùng thử miễn phí, bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
-### Tôi có thể xác minh tệp PDF đã ký như thế nào?
- Bạn có thể sử dụng`PdfFileSignature` lớp trong Aspose.PDF để xác minh chữ ký trong tài liệu PDF của bạn.
+### Tôi có thể xác minh tệp PDF đã ký bằng cách nào?
+Bạn có thể sử dụng `PdfFileSignature` lớp trong Aspose.PDF để xác minh chữ ký trong tài liệu PDF của bạn.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF ở đâu?
- Bạn có thể kiểm tra[Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết và ví dụ.
+Bạn có thể kiểm tra [Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết và ví dụ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ubah PDF ke Format DOC atau DOCX
-linktitle: Ubah PDF ke Format DOC atau DOCX
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengonversi PDF ke format DOC atau DOCX dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber dan Tanya Jawab Umum untuk transformasi dokumen yang lancar.
-weight: 14
-url: /id/java/pdf-conversion-transformation/change-pdfs-to-doc-or-docx-format/
+"description": "Pelajari cara mengonversi PDF ke format DOC atau DOCX dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber dan Tanya Jawab Umum untuk transformasi dokumen yang lancar."
+"linktitle": "Ubah PDF ke Format DOC atau DOCX"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ubah PDF ke Format DOC atau DOCX"
+"url": "/id/java/pdf-conversion-transformation/change-pdfs-to-doc-or-docx-format/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah PDF ke Format DOC atau DOCX
@@ -26,7 +28,7 @@ Aspose.PDF untuk Java adalah pustaka Java yang memungkinkan pengembang untuk mem
 
 Ada beberapa alasan mengapa Anda mungkin ingin mengonversi PDF ke format DOC atau DOCX:
 
-- Penyuntingan: Format pengolah kata seperti DOC dan DOCX lebih mudah disunting dibandingkan PDF, sehingga memudahkan modifikasi konten.
+- Pengeditan: Format pengolah kata seperti DOC dan DOCX lebih mudah diedit dibandingkan PDF, sehingga memudahkan modifikasi konten.
 
 - Ekstraksi Teks: Mengonversi PDF ke DOC atau DOCX memungkinkan Anda mengekstrak teks dan menggunakannya dalam aplikasi atau proses lain.
 
@@ -84,10 +86,12 @@ Ya, Aspose.PDF untuk Java mendukung berbagai format keluaran, termasuk DOCX, HTM
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi untuk Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi untuk Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

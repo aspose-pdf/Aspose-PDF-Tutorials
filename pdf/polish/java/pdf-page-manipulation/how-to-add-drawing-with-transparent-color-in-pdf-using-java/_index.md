@@ -1,14 +1,16 @@
 ---
-title: Jak dodać rysunek z przezroczystym kolorem do pliku PDF za pomocą Java
-linktitle: Jak dodać rysunek z przezroczystym kolorem do pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać rysunki z przezroczystymi kolorami do plików PDF za pomocą Java i Aspose.PDF dla Java. Twórz dynamiczne, atrakcyjne wizualnie pliki PDF z instrukcjami krok po kroku i przykładami kodu.
-weight: 14
-url: /pl/java/pdf-page-manipulation/how-to-add-drawing-with-transparent-color-in-pdf-using-java/
+"description": "Dowiedz się, jak dodawać rysunki z przezroczystymi kolorami do plików PDF za pomocą Java i Aspose.PDF dla Java. Twórz dynamiczne, atrakcyjne wizualnie pliki PDF z instrukcjami krok po kroku i przykładami kodu."
+"linktitle": "Jak dodać rysunek z przezroczystym kolorem do pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Jak dodać rysunek z przezroczystym kolorem do pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-page-manipulation/how-to-add-drawing-with-transparent-color-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jak dodać rysunek z przezroczystym kolorem do pliku PDF za pomocą Java
@@ -23,7 +25,7 @@ W tym samouczku pokażemy, jak dodawać rysunki z przezroczystymi kolorami do do
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
--  Biblioteka Aspose.PDF dla Java, którą można pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+- Biblioteka Aspose.PDF dla Java, którą można pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 - Zintegrowane środowisko programistyczne (IDE), takie jak Eclipse lub IntelliJ IDEA.
 
 ## Konfigurowanie projektu
@@ -50,7 +52,7 @@ public class AddDrawingToPDF {
 }
 ```
 
- W tym kodzie importujemy`Document`klasę z Aspose.PDF i tworzymy nowy dokument PDF. Następnie zapisujemy dokument do pliku o nazwie „output.pdf”.
+W tym kodzie importujemy `Document` klasę z Aspose.PDF i tworzymy nowy dokument PDF. Następnie zapisujemy dokument do pliku o nazwie „output.pdf”.
 
 ## Dodawanie rysunków z przezroczystym kolorem
 
@@ -98,20 +100,22 @@ Aby zmienić poziom przezroczystości, możesz zmodyfikować wartość alfa kolo
 
 Tak, możesz dodać tekst z przezroczystymi kolorami, używając Aspose.PDF for Java API. Po prostu ustaw kolor tekstu z pożądanym poziomem przezroczystości podczas dodawania go do dokumentu PDF.
 
-### Czy są inne kształty, które mogę dodać za pomocą przezroczystych kolorów?
+### Czy są inne kształty, które mogę dodać z przezroczystymi kolorami?
 
 Oczywiście! Możesz dodać różne kształty, takie jak okręgi, elipsy i wielokąty z przezroczystymi kolorami, używając Aspose.PDF for Java API. Eksperymentuj z różnymi kształtami, aby uzyskać pożądane efekty wizualne.
 
 ### Jak zapisać dokument PDF pod inną nazwą lub w innej lokalizacji?
 
- Podczas wywoływania można określić żądaną ścieżkę i nazwę pliku.`save` metoda na`Document`obiekt. Po prostu podaj pełną ścieżkę, w tym nazwę pliku i rozszerzenie.
+Podczas wywoływania można określić żądaną ścieżkę i nazwę pliku. `save` metoda na `Document` obiekt. Po prostu podaj pełną ścieżkę, w tym nazwę pliku i rozszerzenie.
 
 ### Gdzie mogę znaleźć więcej informacji i dokumentację dotyczącą Aspose.PDF dla Java?
 
- Dokumentację języka Java można znaleźć w pliku Aspose.PDF pod adresem[Tutaj](https://reference.aspose.com/pdf/java/) aby uzyskać kompleksowe informacje na temat korzystania z API, w tym szczegółowe przykłady kodu i przewodniki.
+Dokumentację języka Java można znaleźć w pliku Aspose.PDF pod adresem [Tutaj](https://reference.aspose.com/pdf/java/) aby uzyskać kompleksowe informacje na temat korzystania z API, w tym szczegółowe przykłady kodu i przewodniki.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

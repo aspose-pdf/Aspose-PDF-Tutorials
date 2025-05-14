@@ -1,14 +1,16 @@
 ---
-title: Sisipkan Font Saat Pembuatan Dokumen PDF
-linktitle: Sisipkan Font Saat Pembuatan Dokumen PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menyematkan font dalam dokumen PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurnakan tampilan PDF Anda.
-weight: 140
-url: /id/net/programming-with-document/embedfontwhiledoccreation/
+"description": "Pelajari cara menyematkan font dalam dokumen PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurnakan tampilan PDF Anda."
+"linktitle": "Sisipkan Font Saat Pembuatan Dokumen PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Sisipkan Font Saat Pembuatan Dokumen PDF"
+"url": "/id/net/programming-with-document/embedfontwhiledoccreation/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Font Saat Pembuatan Dokumen PDF
@@ -21,7 +23,7 @@ Membuat dokumen PDF yang terlihat profesional dan menawan sangat penting di duni
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1.  Aspose.PDF untuk .NET: Anda harus menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Anda harus menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Lingkungan pengembangan tempat Anda dapat menulis dan menguji kode Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
@@ -47,11 +49,11 @@ Pertama-tama, Anda perlu menentukan jalur penyimpanan dokumen PDF Anda. Hal ini 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya pada sistem Anda tempat Anda ingin menyimpan PDF.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda tempat Anda ingin menyimpan PDF.
 
 ## Langkah 2: Buat Instansiasi Dokumen Pdf
 
- Berikutnya, Anda akan membuat sebuah instance dari`Document` kelas. Kelas ini mewakili dokumen PDF Anda.
+Berikutnya, Anda akan membuat sebuah instance dari `Document` kelas. Kelas ini mewakili dokumen PDF Anda.
 
 ```csharp
 // Buat instance objek Pdf dengan memanggil konstruktor kosongnya
@@ -73,13 +75,13 @@ Baris kode ini menambahkan halaman baru ke dokumen Anda, memungkinkan Anda untuk
 
 ## Langkah 4: Buat Fragmen Teks
 
- Untuk menambahkan teks ke PDF Anda, Anda perlu membuat`TextFragment`Objek ini akan menampung teks yang ingin Anda tampilkan.
+Untuk menambahkan teks ke PDF Anda, Anda perlu membuat `TextFragment`Objek ini akan menampung teks yang ingin Anda tampilkan.
 
 ```csharp
 Aspose.Pdf.Text.TextFragment fragment = new Aspose.Pdf.Text.TextFragment("");
 ```
 
- Di sini, kita sedang menginisialisasi yang baru`TextFragment`Anda dapat menganggapnya sebagai wadah untuk teks Anda.
+Di sini, kita sedang menginisialisasi yang baru `TextFragment`Anda dapat menganggapnya sebagai wadah untuk teks Anda.
 
 ## Langkah 5: Tambahkan Segmen Teks
 
@@ -93,7 +95,7 @@ Jangan ragu untuk mengubah teks sesuai keinginan Anda. Ini konten Anda!
 
 ## Langkah 6: Tentukan Status Teks dan Sisipkan Font
 
- Untuk memastikan font Anda tertanam dalam PDF, Anda perlu mengatur properti font di`TextState` obyek.
+Untuk memastikan font Anda tertanam dalam PDF, Anda perlu mengatur properti font di `TextState` obyek.
 
 ```csharp
 Aspose.Pdf.Text.TextState ts = new Aspose.Pdf.Text.TextState();
@@ -152,13 +154,15 @@ Menanamkan font memastikan dokumen Anda tampak sama di semua perangkat, memperta
 Ya, Anda dapat menggunakan font khusus asalkan tersedia di sistem Anda dan direferensikan dengan benar dalam kode Anda.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF?
- Ya, Anda dapat mengunduh versi uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh versi uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dukungan dan mengajukan pertanyaan di [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

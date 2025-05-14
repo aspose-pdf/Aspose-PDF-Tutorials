@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/change-text-to-pdf-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Text to PDF Files
@@ -114,6 +116,7 @@ You can implement error handling in your Java application to handle any exceptio
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

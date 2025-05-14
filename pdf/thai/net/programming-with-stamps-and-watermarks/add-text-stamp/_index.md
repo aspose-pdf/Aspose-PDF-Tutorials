@@ -1,14 +1,16 @@
 ---
-title: เพิ่มตราประทับข้อความในไฟล์ PDF
-linktitle: เพิ่มตราประทับข้อความในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการเพิ่มตราประทับข้อความในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET พร้อมด้วยคำแนะนำทีละขั้นตอนของเรา และยกระดับการนำเสนอเอกสารของคุณ
-weight: 50
-url: /th/net/programming-with-stamps-and-watermarks/add-text-stamp/
+"description": "เรียนรู้วิธีการเพิ่มตราประทับข้อความในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET พร้อมด้วยคำแนะนำทีละขั้นตอนของเรา และยกระดับการนำเสนอเอกสารของคุณ"
+"linktitle": "เพิ่มตราประทับข้อความในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "เพิ่มตราประทับข้อความในไฟล์ PDF"
+"url": "/th/net/programming-with-stamps-and-watermarks/add-text-stamp/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มตราประทับข้อความในไฟล์ PDF
@@ -21,8 +23,8 @@ url: /th/net/programming-with-stamps-and-watermarks/add-text-stamp/
 
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด มีข้อกำหนดเบื้องต้นบางประการเพื่อให้แน่ใจว่าคุณได้ตั้งค่าทุกอย่างอย่างถูกต้อง นี่คือสิ่งที่คุณต้องการ:
 
-1.  Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF ไว้ในโปรเจ็กต์ของคุณแล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/pdf/net/).
-2. Visual Studio หรือ IDE ที่เข้ากันได้: คุณจะต้องมีสภาพแวดล้อมการพัฒนาเพื่อเขียนและรันโค้ด .NET Visual Studio เป็นตัวเลือกที่นิยมใช้กันมากที่สุดในหมู่นักพัฒนา
+1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF ไว้ในโปรเจ็กต์ของคุณแล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/pdf/net/).
+2. Visual Studio หรือ IDE ที่เข้ากันได้: คุณจะต้องมีสภาพแวดล้อมการพัฒนาเพื่อเขียนและรันโค้ด .NET ของคุณ Visual Studio เป็นตัวเลือกที่นิยมใช้กันมากที่สุดในหมู่นักพัฒนา
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# และหลักการเขียนโปรแกรมเชิงวัตถุจะช่วยให้คุณเข้าใจตัวอย่างต่างๆ ได้ดีขึ้น
 4. ไฟล์ PDF ตัวอย่าง: คุณควรมีไฟล์ PDF ที่พร้อมใช้งาน คุณสามารถสร้าง PDF พื้นฐานหรือใช้ PDF ที่มีอยู่เพื่อทดสอบฟังก์ชันการทำงาน
 
@@ -34,7 +36,7 @@ url: /th/net/programming-with-stamps-and-watermarks/add-text-stamp/
 
 ### นำเข้าชุด Aspose.PDF
 
-ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซ Aspose.PDF ที่ด้านบนของไฟล์ C# ให้เพิ่มคำสั่ง using ต่อไปนี้:
+ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซ Aspose.PDF ที่ด้านบนของไฟล์ C# ให้เพิ่มคำสั่ง using ดังต่อไปนี้:
 
 ```csharp
 using System.IO;
@@ -56,18 +58,18 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- คำอธิบาย : แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ PDF ของคุณ (`AddTextStamp.pdf`) จะถูกเก็บไว้ เส้นทางนี้จะถูกใช้ในภายหลังเพื่อเปิดและบันทึก PDF ที่แก้ไขแล้ว
+คำอธิบาย : แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ PDF ของคุณ (`AddTextStamp.pdf`) จะถูกเก็บไว้ เส้นทางนี้จะถูกใช้ในภายหลังเพื่อเปิดและบันทึก PDF ที่แก้ไขแล้ว
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
- ต่อไปเราจะเปิดเอกสาร PDF โดยใช้`Document` คลาสจากเนมสเปซ Aspose.PDF
+ต่อไปเราจะเปิดเอกสาร PDF โดยใช้ `Document` คลาสจากเนมสเปซ Aspose.PDF
 
 ```csharp
 // เปิดเอกสาร
 Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 ```
 
- คำอธิบาย: ที่นี่เราจะสร้างอินสแตนซ์ของ`Document` คลาสและส่งเส้นทางไปยังไฟล์ PDF ของเรา ซึ่งจะโหลด PDF เพื่อให้เราสามารถจัดการได้
+คำอธิบาย: ที่นี่เราจะสร้างอินสแตนซ์ของ `Document` คลาสและส่งเส้นทางไปยังไฟล์ PDF ของเรา ซึ่งจะโหลด PDF เพื่อให้เราสามารถจัดการได้
 
 ## ขั้นตอนที่ 3: สร้างแสตมป์ข้อความ
 
@@ -78,7 +80,7 @@ Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 TextStamp textStamp = new TextStamp("Sample Stamp");
 ```
 
- คำอธิบาย :`TextStamp` วัตถุถูกสร้างขึ้นด้วยข้อความที่คุณต้องการให้แสดง ในกรณีนี้ เราใช้ "Sample Stamp" เป็นข้อความสำหรับแสตมป์ของเรา
+คำอธิบาย : `TextStamp` วัตถุถูกสร้างขึ้นด้วยข้อความที่คุณต้องการให้แสดง ในกรณีนี้ เราใช้ "Sample Stamp" เป็นข้อความสำหรับแสตมป์ของเรา
 
 ## ขั้นตอนที่ 4: ตั้งค่าคุณสมบัติแสตมป์
 
@@ -97,7 +99,7 @@ textStamp.Rotate = Rotation.on90;
 ```
 
 คำอธิบาย:
-- พื้นหลัง: การตั้งค่านี้เป็น`true` หมายความว่าแสตมป์จะปรากฏอยู่ด้านหลังเนื้อหาของ PDF
+- พื้นหลัง: การตั้งค่านี้เป็น `true` หมายความว่าแสตมป์จะปรากฏอยู่ด้านหลังเนื้อหาของ PDF
 - XIndent และ YIndent: คุณสมบัติเหล่านี้จะกำหนดตำแหน่งของแสตมป์บนหน้า ในตัวอย่างนี้ แสตมป์จะวางห่างจากขอบซ้ายและขอบบนของหน้า 100 หน่วย
 - หมุน: หมุนแสตมป์ 90 องศา คุณสามารถเลือกตัวเลือกการหมุนต่างๆ ได้ตามความต้องการในการออกแบบของคุณ
 
@@ -159,13 +161,15 @@ Console.WriteLine("\nText stamp added successfully.\nFile saved at " + dataDir);
 Aspose.PDF มุ่งเน้นที่ .NET เป็นหลัก แต่ยังมีเวอร์ชันสำหรับภาษาอื่นๆ เช่น Java และ Python อีกด้วย
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถสมัครใบอนุญาตชั่วคราวได้โดยไปที่[ลิงค์ซื้อ](https://purchase.aspose.com/temporary-license/) บนเว็บไซต์ของพวกเขา
+คุณสามารถสมัครใบอนุญาตชั่วคราวได้โดยไปที่ [ลิงค์ซื้อ](https://purchase.aspose.com/temporary-license/) บนเว็บไซต์ของพวกเขา
 
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.PDF ได้ที่ไหน
- รองรับ Aspose.PDF บน[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10).
+รองรับ Aspose.PDF บน [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

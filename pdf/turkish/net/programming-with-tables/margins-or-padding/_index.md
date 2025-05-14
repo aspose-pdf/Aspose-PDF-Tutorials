@@ -1,30 +1,32 @@
 ---
-title: Kenar Boşlukları veya Dolgu
-linktitle: Kenar Boşlukları veya Dolgu
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF'de kenar boşluklarını ve dolguyu nasıl yöneteceğinizi öğrenmek için bu kapsamlı adım adım kılavuzu izleyin.
-weight: 140
-url: /tr/net/programming-with-tables/margins-or-padding/
+"description": ".NET için Aspose.PDF'de kenar boşluklarını ve dolguyu nasıl yöneteceğinizi öğrenmek için bu kapsamlı adım adım kılavuzu izleyin."
+"linktitle": "Kenar Boşlukları veya Dolgu"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Kenar Boşlukları veya Dolgu"
+"url": "/tr/net/programming-with-tables/margins-or-padding/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kenar Boşlukları veya Dolgu
 
 ## giriiş
 
-Bazı PDF'lerin neden diğerlerinden daha cilalı göründüğünü hiç merak ettiniz mi? Genellikle ayrıntılara iner - kenar boşlukları ve dolgular o rafine görünümü elde etmek için çok önemlidir. Tıpkı temiz bir çalışma alanının daha iyi düşünmenize yardımcı olabilmesi gibi, PDF'deki iyi düzenlenmiş içerikler okunabilirliği ve anlaşılırlığı kolaylaştırır. Bu kılavuzda, Aspose.PDF'yi kullanarak hassas kenar boşlukları ve dolgu ayarları olan bir tablo oluşturmanın nasıl yapılacağını ele alacağız. Sonunda, PDF kreasyonlarınızı geliştirmek için hayati becerilerle donatılmış olacaksınız.
+Bazı PDF'lerin neden diğerlerinden daha cilalı göründüğünü hiç merak ettiniz mi? Genellikle ayrıntılara iner - kenar boşlukları ve dolgular o rafine görünümü elde etmek için çok önemlidir. Tıpkı temiz bir çalışma alanının daha iyi düşünmenize yardımcı olabilmesi gibi, PDF'deki iyi organize edilmiş içerikler okunabilirliği ve anlaşılırlığı kolaylaştırır. Bu kılavuzda, hassas kenar boşlukları ve dolgu ayarları olan bir tablo oluşturmak için Aspose.PDF'yi nasıl kullanacağınızı ele alacağız. Sonunda, PDF kreasyonlarınızı geliştirmek için hayati becerilerle donatılmış olacaksınız.
 
 ## Ön koşullar
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.PDF for .NET Kütüphanesi: Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF for .NET Kütüphanesi: Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/net/).
 - Visual Studio: C# kodunuzu yazmak için entegre bir geliştirme ortamı. 
 - C# Programlamanın Temel Bilgileri: Kodlama konusunda biraz bilgi sahibi olmak, kavramları daha iyi kavramanıza yardımcı olacaktır.
--  Aspose Hesabı: Lisans satın almak istiyorsanız veya desteğe ihtiyacınız varsa, şuraya göz atın:[Aspose Satınalma sayfası](https://purchase.aspose.com/buy) veya ziyaret edin[Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10).
+- Aspose Hesabı: Lisans satın almak istiyorsanız veya desteğe ihtiyacınız varsa, şuraya göz atın: [Aspose Satın Alma Sayfası](https://purchase.aspose.com/buy) veya ziyaret edin [Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10).
 
 ## Paketleri İçe Aktar
 
@@ -59,7 +61,7 @@ Belge nesnesini örneklendirin
 Document doc = new Document();
 ```
 
- Bu adımda, yeni bir örnek oluşturuyoruz`Document` Aspose.PDF kütüphanesinden sınıf. Bu nesne PDF dosyanızı temsil eder ve içerik eklemek için başlangıç noktasıdır.
+Bu adımda, yeni bir örnek oluşturuyoruz `Document` Aspose.PDF kütüphanesinden sınıf. Bu nesne PDF dosyanızı temsil eder ve içerik eklemek için başlangıç noktasıdır.
 
 ## Adım 3: Yeni Bir Sayfa Ekleyin
 
@@ -143,7 +145,7 @@ Hücrelere dolgu uygula
 tab1.DefaultCellPadding = margin;
 ```
 
-Dolgu, konforla ilgilidir - her hücrenin içindeki metnin etrafında ne kadar boşluk istediğinizle ilgilidir. Bunu ayarlayarak, metnin sıkışık hissettirmemesini sağlarsınız.
+Dolgu, konforla ilgilidir - her hücrenin içindeki metnin etrafında ne kadar boşluk istediğiniz. Bunu ayarlayarak, metnin sıkışık hissettirmemesini sağlarsınız.
 
 ## Adım 11: Tabloya Satır ve Hücreler Ekleyin
 
@@ -183,7 +185,7 @@ dataDir = dataDir + "MarginsOrPadding_out.pdf";
 doc.Save(dataDir);
 ```
 
-Son olarak, belgenizi oluşturduktan sonra onu kaydetme zamanı! İşte sıkı çalışmanızın karşılığını burada alırsınız. PDF'nizi zahmetsizce bulabilmeniz için dosya yolunun doğru olduğundan emin olun.
+Son olarak, belgenizi oluşturduktan sonra, onu kaydetme zamanı! İşte sıkı çalışmanızın karşılığını aldığınız yer burasıdır. PDF'nizi zahmetsizce bulabilmeniz için dosya yolunun doğru olduğundan emin olun.
 
 ## Çözüm
 
@@ -195,19 +197,21 @@ Son olarak, belgenizi oluşturduktan sonra onu kaydetme zamanı! İşte sıkı �
 Aspose.PDF for .NET, .NET geliştiricilerinin PDF belgelerini programlı bir şekilde oluşturmasını, düzenlemesini ve değiştirmesini sağlayan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz deneyebilir miyim?
- Evet! Aspose.PDF'in ücretsiz deneme sürümünü indirebilir ve kullanabilirsiniz[Burada](https://releases.aspose.com/).
+Evet! Aspose.PDF'in ücretsiz deneme sürümünü indirebilir ve kullanabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için lisansa ihtiyacım var mı?
- Evet, ticari amaçlarla kullanmak istiyorsanız, bulabileceğiniz bir lisans satın almanız gerekecektir.[Burada](https://purchase.aspose.com/buy).
+Evet, ticari amaçlarla kullanmak istiyorsanız, bulabileceğiniz bir lisans satın almanız gerekecektir. [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Aspose topluluğu, ayrıntılı destek sunmaktadır[destek forumu](https://forum.aspose.com/c/pdf/10).
+Aspose topluluğu, ayrıntılı destek sunmaktadır [destek forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Geçici lisans almanın bir yolu var mı?
- Kesinlikle! Test amaçlı olarak geçici lisans başvurusunda bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/). 
+Kesinlikle! Test amaçlı olarak geçici lisans başvurusunda bulunabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/). 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

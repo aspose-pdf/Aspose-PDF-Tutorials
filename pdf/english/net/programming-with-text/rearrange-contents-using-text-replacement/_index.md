@@ -8,7 +8,9 @@ url: /net/programming-with-text/rearrange-contents-using-text-replacement/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rearrange Contents Using Text Replacement
@@ -140,6 +142,7 @@ You can find help on their [support forum](https://forum.aspose.com/c/pdf/10).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

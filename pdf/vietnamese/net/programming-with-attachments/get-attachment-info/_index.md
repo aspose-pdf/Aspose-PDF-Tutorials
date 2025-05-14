@@ -1,14 +1,16 @@
 ---
-title: Nhận thông tin đính kèm
-linktitle: Nhận thông tin đính kèm
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách lấy thông tin đính kèm từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này.
-weight: 50
-url: /vi/net/programming-with-attachments/get-attachment-info/
+"description": "Tìm hiểu cách lấy thông tin đính kèm từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này."
+"linktitle": "Nhận thông tin đính kèm"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhận thông tin đính kèm"
+"url": "/vi/net/programming-with-attachments/get-attachment-info/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận thông tin đính kèm
@@ -22,7 +24,7 @@ Trong thế giới quản lý tài liệu, việc hiểu cách trích xuất và
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển của bạn.
-2. Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 4. Tài liệu PDF mẫu: Đối với hướng dẫn này, bạn sẽ cần một tài liệu PDF có chứa các tệp nhúng. Bạn có thể tạo một tài liệu hoặc tải xuống mẫu từ internet.
 
@@ -32,7 +34,7 @@ Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau
 
 1. Mở dự án Visual Studio của bạn.
 2. Nhấp chuột phải vào dự án của bạn trong Solution Explorer và chọn "Quản lý gói NuGet".
-3.  Tìm kiếm`Aspose.PDF` và cài đặt phiên bản mới nhất.
+3. Tìm kiếm `Aspose.PDF` và cài đặt phiên bản mới nhất.
 
 ```csharp
 using System.IO;
@@ -51,18 +53,18 @@ Bước đầu tiên trong hành trình của chúng ta là thiết lập thư m
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Đây là nơi tệp PDF của bạn sẽ nằm.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Đây là nơi tệp PDF của bạn sẽ nằm.
 
 ## Bước 2: Mở Tài liệu PDF
 
- Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc mở tài liệu PDF. Việc này được thực hiện bằng cách sử dụng`Document` lớp được cung cấp bởi Aspose.PDF.
+Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc mở tài liệu PDF. Việc này được thực hiện bằng cách sử dụng `Document` lớp được cung cấp bởi Aspose.PDF.
 
 ```csharp
 // Mở tài liệu
 Document pdfDocument = new Document(dataDir + "GetAttachmentInfo.pdf");
 ```
 
- Ở đây, chúng ta tạo một phiên bản mới của`Document` lớp và truyền đường dẫn đến tệp PDF của chúng tôi. Điều này cho phép chúng tôi tương tác với nội dung của PDF.
+Ở đây, chúng ta tạo một phiên bản mới của `Document` lớp và truyền đường dẫn đến tệp PDF của chúng tôi. Điều này cho phép chúng tôi tương tác với nội dung của PDF.
 
 ## Bước 3: Truy cập các tệp nhúng
 
@@ -103,7 +105,7 @@ if (fileSpecification.Params != null)
 }
 ```
 
- Trong bước này, chúng tôi kiểm tra xem`Params` đối tượng không phải là null. Nếu nó chứa dữ liệu, chúng tôi sẽ in ra tổng kiểm tra, ngày tạo, ngày sửa đổi và kích thước của tệp. Thông tin bổ sung này có thể rất hữu ích cho mục đích kiểm tra và theo dõi.
+Trong bước này, chúng tôi kiểm tra xem `Params` đối tượng không phải là null. Nếu nó chứa dữ liệu, chúng tôi sẽ in ra tổng kiểm tra, ngày tạo, ngày sửa đổi và kích thước của tệp. Thông tin bổ sung này có thể rất hữu ích cho mục đích kiểm tra và theo dõi.
 
 ## Phần kết luận
 
@@ -112,22 +114,24 @@ Xin chúc mừng! Bạn đã học thành công cách lấy thông tin đính k�
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Làm thế nào để cài đặt Aspose.PDF cho .NET?
- Bạn có thể cài đặt nó thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống từ[trang web](https://releases.aspose.com/pdf/net/).
+Bạn có thể cài đặt nó thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống từ [trang web](https://releases.aspose.com/pdf/net/).
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/).
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể nhận được sự hỗ trợ từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể nhận được sự hỗ trợ từ diễn đàn cộng đồng Aspose [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể nhúng những loại tập tin nào vào PDF?
 Bạn có thể nhúng nhiều loại tệp khác nhau, bao gồm hình ảnh, tài liệu và bảng tính, miễn là chúng được định dạng PDF hỗ trợ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

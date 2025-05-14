@@ -8,7 +8,9 @@ url: /net/programming-with-text/add-tooltip-to-text/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Tooltip To Text In PDF File
@@ -187,6 +189,7 @@ You can check out the documentation [here](https://reference.aspose.com/pdf/net/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

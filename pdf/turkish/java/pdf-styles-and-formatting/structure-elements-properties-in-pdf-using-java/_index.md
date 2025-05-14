@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'de Yapı Elemanları Özellikleri
-linktitle: Java kullanarak PDF'de Yapı Elemanları Özellikleri
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF ile Java'da PDF Yapı Öğelerinin Gücünü Açın. Erişilebilirlik için PDF'leri Oluşturmayı, Değiştirmeyi ve Optimize Etmeyi Öğrenin.
-weight: 12
-url: /tr/java/pdf-styles-and-formatting/structure-elements-properties-in-pdf-using-java/
+"description": "Aspose.PDF ile Java'da PDF Yapı Öğelerinin Gücünü Açın. Erişilebilirlik için PDF'leri Oluşturmayı, Değiştirmeyi ve Optimize Etmeyi Öğrenin."
+"linktitle": "Java kullanarak PDF'de Yapı Elemanları Özellikleri"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'de Yapı Elemanları Özellikleri"
+"url": "/tr/java/pdf-styles-and-formatting/structure-elements-properties-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'de Yapı Elemanları Özellikleri
@@ -24,12 +26,12 @@ Koda dalmadan önce, sisteminizde Java'nın yüklü olduğundan emin olun. Ayrı
 
 ## Aspose.PDF'yi Projenize Ekleme
 
- Başlamak için Aspose.PDF kütüphanesini projemize ekleyelim. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/) ve verilen kurulum talimatlarını izleyin.
+Başlamak için Aspose.PDF kütüphanesini projemize ekleyelim. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/) ve verilen kurulum talimatlarını izleyin.
 
 ## PDF Belgesi Oluşturma
 
 ```java
-// Yeni bir PDF belgesi başlatın
+// Yeni bir PDF belgesi başlat
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 ```
 
@@ -117,9 +119,11 @@ Evet, verimli veri yapıları, önbelleğe alma ve G/Ç işlemlerini en aza indi
 ### Aspose.PDF ticari projeler için uygun mudur?
 
 Evet, Aspose.PDF hem kişisel hem de ticari projeler için uygun, Java'da PDF düzenleme için kapsamlı özellikler sunan güçlü bir kütüphanedir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

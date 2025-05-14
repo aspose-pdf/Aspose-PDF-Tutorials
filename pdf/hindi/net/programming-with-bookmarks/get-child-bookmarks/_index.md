@@ -1,14 +1,16 @@
 ---
-title: चाइल्ड बुकमार्क्स को पीडीएफ फाइल में प्राप्त करें
-linktitle: चाइल्ड बुकमार्क्स को पीडीएफ फाइल में प्राप्त करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में चाइल्ड बुकमार्क प्राप्त करना सीखें। अपने PDF नेविगेशन को बेहतर बनाएँ।
-weight: 80
-url: /hi/net/programming-with-bookmarks/get-child-bookmarks/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में चाइल्ड बुकमार्क प्राप्त करना सीखें। अपने PDF नेविगेशन को बेहतर बनाएँ।"
+"linktitle": "चाइल्ड बुकमार्क्स को पीडीएफ फाइल में प्राप्त करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "चाइल्ड बुकमार्क्स को पीडीएफ फाइल में प्राप्त करें"
+"url": "/hi/net/programming-with-bookmarks/get-child-bookmarks/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चाइल्ड बुकमार्क्स को पीडीएफ फाइल में प्राप्त करें
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-bookmarks/get-child-bookmarks/
 इससे पहले कि हम कोड में प्रवेश करें, कुछ चीजें हैं जिन्हें आपको ध्यान में रखना होगा:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यह .NET विकास के लिए सबसे उपयोगी IDE है।
-2.  .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
 
 ## पैकेज आयात करें
@@ -60,18 +62,18 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपकी पीडीएफ फाइल स्थित है।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपकी पीडीएफ फाइल स्थित है।
 
 ## चरण 2: पीडीएफ दस्तावेज़ खोलें
 
-इसके बाद, हम PDF दस्तावेज़ को खोलेंगे`Document` Aspose.PDF द्वारा प्रदान की गई क्लास.
+इसके बाद, हम PDF दस्तावेज़ को खोलेंगे `Document` Aspose.PDF द्वारा प्रदान की गई क्लास.
 
 ```csharp
 // दस्तावेज़ खोलें
 Document pdfDocument = new Document(dataDir + "GetChildBookmarks.pdf");
 ```
 
- कोड की यह पंक्ति एक नया आरंभ करती है`Document` अपनी PDF फ़ाइल के साथ ऑब्जेक्ट जोड़ें। सुनिश्चित करें कि फ़ाइल का नाम आपके पास मौजूद फ़ाइल नाम से मेल खाता है।
+कोड की यह पंक्ति एक नया आरंभ करती है `Document` अपनी PDF फ़ाइल के साथ ऑब्जेक्ट जोड़ें। सुनिश्चित करें कि फ़ाइल का नाम आपके पास मौजूद फ़ाइल नाम से मेल खाता है।
 
 ## चरण 3: बुकमार्क के माध्यम से लूप करें
 
@@ -87,7 +89,7 @@ foreach (OutlineItemCollection outlineItem in pdfDocument.Outlines)
     Console.WriteLine(outlineItem.Color);
 ```
 
- यहाँ, हम एक का उपयोग कर रहे हैं`foreach` दस्तावेज़ में प्रत्येक बुकमार्क के माध्यम से पुनरावृति करने के लिए लूप। हम प्रत्येक बुकमार्क का शीर्षक, इटैलिक स्थिति, बोल्ड स्थिति और रंग प्रिंट करते हैं।
+यहाँ, हम एक का उपयोग कर रहे हैं `foreach` दस्तावेज़ में प्रत्येक बुकमार्क के माध्यम से पुनरावृति करने के लिए लूप। हम प्रत्येक बुकमार्क का शीर्षक, इटैलिक स्थिति, बोल्ड स्थिति और रंग प्रिंट करते हैं।
 
 ## चरण 4: चाइल्ड बुकमार्क की जाँच करें
 
@@ -97,7 +99,7 @@ foreach (OutlineItemCollection outlineItem in pdfDocument.Outlines)
 if (outlineItem.Count > 0)
 {
     Console.WriteLine("Child Bookmarks");
-    // वहाँ चाइल्ड बुकमार्क्स भी हैं, तो उसके माध्यम से भी लूप करें
+    // वहाँ चाइल्ड बुकमार्क्स भी हैं, तो उसमें भी लूप करें
     foreach (OutlineItemCollection childOutline in outlineItem)
     {
         Console.WriteLine(childOutline.Title);
@@ -108,7 +110,7 @@ if (outlineItem.Count > 0)
 }
 ```
 
-इस स्निपेट में, हम जाँचते हैं कि क्या मौजूदा बुकमार्क में कोई चाइल्ड बुकमार्क है। अगर है, तो हम उनमें लूप करते हैं और उनका विवरण प्रिंट करते हैं।
+इस स्निपेट में, हम जाँचते हैं कि क्या मौजूदा बुकमार्क में कोई चाइल्ड बुकमार्क है। अगर है, तो हम उनके माध्यम से लूप करते हैं और उनका विवरण प्रिंट करते हैं।
 
 ## निष्कर्ष
 
@@ -120,19 +122,21 @@ if (outlineItem.Count > 0)
 .NET के लिए Aspose.PDF एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PDF दस्तावेज़ बनाने, हेरफेर करने और प्रबंधित करने की अनुमति देती है।
 
 ### क्या मैं Aspose.PDF का निःशुल्क उपयोग कर सकता हूँ?
- हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसका उपयोग आप लाइब्रेरी की विशेषताओं का पता लगाने के लिए कर सकते हैं। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसका उपयोग आप लाइब्रेरी की विशेषताओं का पता लगाने के लिए कर सकते हैं। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
-### मुझे अधिक दस्तावेज कहां मिल सकते हैं?
- आप .NET के लिए Aspose.PDF पर व्यापक दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/net/).
+### मैं अधिक दस्तावेज कहां पा सकता हूं?
+आप .NET के लिए Aspose.PDF पर व्यापक दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/net/).
 
 ### मैं लाइसेंस कैसे खरीदूं?
- आप Aspose.PDF के लिए लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप Aspose.PDF के लिए लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### यदि मुझे सहायता की आवश्यकता हो तो क्या होगा?
- यदि आपके कोई प्रश्न हों या आपको सहायता की आवश्यकता हो, तो आप Aspose सहायता फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/pdf/10).
+यदि आपके कोई प्रश्न हों या आपको सहायता की आवश्यकता हो, तो आप Aspose सहायता फ़ोरम पर जा सकते हैं [यहाँ](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

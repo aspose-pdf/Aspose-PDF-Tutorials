@@ -8,7 +8,9 @@ url: /java/pdf-bookmarks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Bookmarks
@@ -38,9 +40,11 @@ Learn how to view expanded bookmarks in PDFs using Aspose.PDF for Java. Enhance 
 Learn how to retrieve PDF bookmarks efficiently using Aspose.PDF for Java in this comprehensive guide.
 ### [Update Bookmarks in PDFs](./update-bookmarks-pdfs/)
 Learn how to update PDF bookmarks efficiently using Aspose.PDF for Java. Our step-by-step guide simplifies the process.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

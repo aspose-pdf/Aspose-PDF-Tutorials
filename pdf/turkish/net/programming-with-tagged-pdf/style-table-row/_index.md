@@ -1,14 +1,16 @@
 ---
-title: Stil Tablo Satırı
-linktitle: Stil Tablo Satırı
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF'yi kullanarak PDF'deki tablo satırlarını nasıl biçimlendireceğinizi adım adım anlatan bir kılavuzla öğrenin ve belge biçimlendirmenizi kolaylıkla geliştirin.
-weight: 180
-url: /tr/net/programming-with-tagged-pdf/style-table-row/
+"description": "Aspose.PDF for .NET'i kullanarak PDF'deki tablo satırlarını nasıl biçimlendireceğinizi adım adım anlatan bir kılavuzla öğrenin ve belge biçimlendirmenizi kolaylıkla geliştirin."
+"linktitle": "Stil Tablo Satırı"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Stil Tablo Satırı"
+"url": "/tr/net/programming-with-tagged-pdf/style-table-row/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stil Tablo Satırı
@@ -22,9 +24,9 @@ url: /tr/net/programming-with-tagged-pdf/style-table-row/
 Ayrıntılara girmeden önce, tüm işlerinizi yoluna koyduğunuzdan emin olalım. İhtiyacınız olacaklar:
 
 1. .NET Kütüphanesi için Aspose.PDF  
-    Eğer henüz sahip değilseniz, şuradan alabilirsiniz:[Burada](https://releases.aspose.com/pdf/net/) Ayrıca bir tane de alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Başlamak için.
+   Eğer henüz sahip değilseniz, şuradan alabilirsiniz: [Burada](https://releases.aspose.com/pdf/net/)Ayrıca bir tane de alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) Başlamak için.
 2. Geliştirme Ortamı  
-   Visual Studio'yu veya istediğiniz herhangi bir C# IDE'yi kurun. Ayrıca .NET'in de yüklü olması gerekir, ancak buna zaten aşina olduğunuzu tahmin ediyorum.
+   Visual Studio'yu veya istediğiniz herhangi bir C# IDE'yi kurun. Ayrıca .NET'in de yüklü olması gerekir, ancak sanırım buna zaten aşinasınızdır.
 3. C# ve .NET'in Temel Bilgileri  
    C#'ı iyi anlamak bu eğitimi çocuk oyuncağı yapacaktır. Ama endişelenmeyin, her adımı detaylı bir şekilde açıklayacağım!
 
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Burada, yalnızca yeni bir tane başlatıyoruz`Document` PDF dosyamızı temsil edecek nesne. Çıktı dosyalarınızı kaydedeceğiniz dizin yolunu ayarladığınızdan emin olun.
+Burada, yalnızca yeni bir tane başlatıyoruz `Document` PDF dosyamızı temsil edecek nesne. Çıktı dosyalarınızı kaydedeceğiniz dizin yolunu ayarladığınızdan emin olun.
 
 ## Adım 2: Etiketli İçerikle Çalışın
 
@@ -70,11 +72,11 @@ taggedContent.SetTitle("Example table row style");
 taggedContent.SetLanguage("en-US");
 ```
 
-Burada, PDF'in etiketli içeriği için başlığı ve dili ayarlıyoruz. Bu, PDF'nize bir isim verip hangi dili konuşması gerektiğini söylemek gibidir!
+Burada, PDF'nin etiketli içeriği için başlığı ve dili ayarlıyoruz. Bu, PDF'nize bir isim verip hangi dili konuşması gerektiğini söylemek gibidir!
 
 ## Adım 3: Tablo Yapısını Tanımlayın
 
-Şimdi, oluşturmak üzere olduğumuz tablonun yapısını tanımlayalım. Her tablonun bir başlığa, gövdeye ve alt bilgiye ihtiyacı vardır - tıpkı iyi düzenlenmiş bir blog yazısı gibi!
+Şimdi, oluşturmak üzere olduğumuz tablonun yapısını tanımlayalım. Her tablonun bir üstbilgi, gövde ve altbilgiye ihtiyacı vardır - tıpkı iyi düzenlenmiş bir blog yazısı gibi!
 
 ```csharp
 // Kök yapı elemanını al
@@ -88,7 +90,7 @@ TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 ```
 
-Burada yaptığımız şey, bir başlık ( ile bir tablo oluşturmaktır`THead`), vücut (`TBody`), ve altbilgi (`TFoot`). Bu elemanlar satırlarımızı tutacak.
+Burada yaptığımız şey, bir başlığa sahip bir tablo oluşturmaktır (`THead`), vücut (`TBody`), ve altbilgi (`TFoot`). Bu elemanlar satırlarımızı tutacak.
 
 ## Adım 4: Tablo Başlığı Satırını Ekleyin
 
@@ -181,10 +183,10 @@ Bu, PDF'nizin PDF/UA standardını karşılamasını ve herkes tarafından eriş
 ## SSS
 
 ### Tablonun yazı tipini de değiştirebilir miyim?  
- Evet! Yazı tipi stilini şu şekilde değiştirebilirsiniz:`TextState` Her hücre için nesne, tam özelleştirmeye olanak tanır.
+Evet! Yazı tipi stilini şu şekilde değiştirebilirsiniz: `TextState` Her hücre için nesne, tam özelleştirmeye olanak tanır.
 
 ### Tabloma nasıl daha fazla sütun eklerim?  
- Sadece ayarlayın`colCount`değişkenini ayarlayın ve döngülere başlıklar, gövde ve altbilgiler için daha fazla hücre ekleyin.
+Sadece ayarlayın `colCount` değişkenini kullanın ve döngülere başlıklar, gövde ve altbilgiler için daha fazla hücre ekleyin.
 
 ### Satır yüksekliğini ayarlamazsam ne olur?  
 Satır yüksekliğini ayarlamazsanız tablo içeriğe göre otomatik olarak ayarlanır.
@@ -193,10 +195,12 @@ Satır yüksekliğini ayarlamazsanız tablo içeriğe göre otomatik olarak ayar
 Kesinlikle! Bir veritabanından veya başka bir kaynaktan veri alabilir ve satır ve sütun sayılarını dinamik olarak ayarlayabilirsiniz.
 
 ### Aspose.PDF for .NET'i kullanmak ücretsiz mi?  
- Aspose.PDF for .NET lisanslı bir üründür, ancak bunu bir[ücretsiz deneme](https://releases.aspose.com/) veya bir tane al[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF for .NET lisanslı bir üründür, ancak bunu bir [ücretsiz deneme](https://releases.aspose.com/) veya bir tane al [geçici lisans](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

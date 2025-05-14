@@ -1,14 +1,16 @@
 ---
-title: Obraz CGM do PDF
-linktitle: Obraz CGM do PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Łatwo konwertuj obrazy CGM do formatu PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym prostym przewodnikiem krok po kroku i usprawnij proces konwersji plików.
-weight: 40
-url: /pl/net/programming-with-images/cgm-image-to-pdf/
+"description": "Łatwo konwertuj obrazy CGM do formatu PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym prostym przewodnikiem krok po kroku i usprawnij proces konwersji plików."
+"linktitle": "Obraz CGM do PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Obraz CGM do PDF"
+"url": "/pl/net/programming-with-images/cgm-image-to-pdf/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obraz CGM do PDF
@@ -46,7 +48,7 @@ Otwórz projekt .NET w programie Visual Studio.
 ### Dodaj odniesienie do biblioteki Aspose.PDF
 
 1. W Eksploratorze rozwiązań w programie Visual Studio kliknij prawym przyciskiem myszy projekt i wybierz opcję „Zarządzaj pakietami NuGet”.
-2.  Przejdź do zakładki „Przeglądaj” i wyszukaj`Aspose.PDF`.
+2. Przejdź do zakładki „Przeglądaj” i wyszukaj `Aspose.PDF`.
 3. Kliknij na pakiet i naciśnij przycisk „Instaluj”.
 
 ```csharp
@@ -90,11 +92,11 @@ Zanim jednak magia zacznie działać, musisz wskazać programowi miejsce, w któ
 dataDir = dataDir + "CGMImageToPDF_out.pdf"; // Ustaw nazwę pliku wyjściowego PDF
 ```
 
- Możesz nazwać swój plik wyjściowy jak chcesz. Upewnij się tylko, że kończy się na`.pdf`.
+Możesz nazwać swój plik wyjściowy jak chcesz. Upewnij się tylko, że kończy się na `.pdf`.
 
 ## Krok 4: Wykonaj konwersję
 
-Teraz zaczyna się zabawa; tutaj następuje konwersja! Używając biblioteki Aspose.PDF możesz przekonwertować obraz CGM do formatu PDF za pomocą jednej linijki kodu:
+Teraz nadchodzi zabawna część; tutaj następuje konwersja! Używając biblioteki Aspose.PDF możesz przekonwertować obraz CGM do formatu PDF za pomocą jednej linijki kodu:
 
 ```csharp
 PdfProducer.Produce(inputFile, ImportFormat.Cgm, dataDir);
@@ -124,17 +126,19 @@ Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca program
 ### Jak zainstalować Aspose.PDF dla platformy .NET?  
 Bibliotekę Aspose.PDF for .NET można zainstalować za pomocą Menedżera pakietów NuGet w programie Visual Studio.
 
-### Czy za pomocą Aspose mogę konwertować inne formaty do formatu PDF?  
-Oczywiście! Aspose.PDF obsługuje wiele formatów plików, w tym Word, Excel i obrazy, co pozwala na szerokie możliwości konwersji plików.
+### Czy mogę konwertować inne formaty do PDF za pomocą Aspose?  
+Oczywiście! Aspose.PDF obsługuje wiele formatów plików, w tym Word, Excel i obrazy, co pozwala na rozbudowane możliwości konwersji plików.
 
 ### Gdzie mogę znaleźć dokumentację Aspose.PDF?  
- Możesz zapoznać się z pełną dokumentacją[Tutaj](https://reference.aspose.com/pdf/net/).
+Możesz zapoznać się z pełną dokumentacją [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Czy jest dostępna wersja próbna Aspose.PDF?  
- Tak, możesz użyć bezpłatnej wersji próbnej, aby przetestować wszystkie funkcje Aspose.PDF dla .NET. Pobierz ją[Tutaj](https://releases.aspose.com/).
+Tak, możesz użyć bezpłatnej wersji próbnej, aby przetestować wszystkie funkcje Aspose.PDF dla .NET. Pobierz ją [Tutaj](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

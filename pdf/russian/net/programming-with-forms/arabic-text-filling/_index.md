@@ -1,14 +1,16 @@
 ---
-title: Заполнение арабского текста
-linktitle: Заполнение арабского текста
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как заполнять арабский текст в формах PDF с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Улучшите свои навыки работы с PDF.
-weight: 20
-url: /ru/net/programming-with-forms/arabic-text-filling/
+"description": "Узнайте, как заполнять арабский текст в формах PDF с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Улучшите свои навыки работы с PDF."
+"linktitle": "Заполнение арабского текста"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Заполнение арабского текста"
+"url": "/ru/net/programming-with-forms/arabic-text-filling/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Заполнение арабского текста
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-forms/arabic-text-filling/
 Прежде чем мы углубимся в код, необходимо выполнить несколько предварительных условий:
 
 1. Базовые знания C#: знакомство с языком программирования C# поможет вам лучше понять примеры.
-2.  Aspose.PDF для .NET: Вам необходимо установить библиотеку Aspose.PDF. Вы можете загрузить ее с[здесь](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF для .NET: Вам необходимо установить библиотеку Aspose.PDF. Вы можете загрузить ее с [здесь](https://releases.aspose.com/pdf/net/).
 3. Visual Studio: Для написания и тестирования кода рекомендуется использовать среду разработки, такую как Visual Studio.
 4. Форма PDF: у вас должна быть форма PDF с по крайней мере одним текстовым полем, в которое вы хотите ввести арабский текст. Вы можете создать простую форму PDF с помощью любого редактора PDF.
 
@@ -47,11 +49,11 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Обязательно замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашей PDF-формы.
+Обязательно замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашей PDF-формы.
 
 ## Шаг 2: Загрузите PDF-форму
 
- Далее вам нужно загрузить PDF-форму, которую вы хотите заполнить. Это делается с помощью`FileStream` для чтения PDF-файла.
+Далее вам нужно загрузить PDF-форму, которую вы хотите заполнить. Это делается с помощью `FileStream` для чтения PDF-файла.
 
 ```csharp
 using (FileStream fs = new FileStream(dataDir + "FillFormField.pdf", FileMode.Open, FileAccess.ReadWrite))
@@ -65,7 +67,7 @@ using (FileStream fs = new FileStream(dataDir + "FillFormField.pdf", FileMode.Op
 
 ## Шаг 3: Доступ к TextBoxField
 
- После загрузки документа PDF вам необходимо получить доступ к определенному полю формы, в которое вы хотите ввести арабский текст. В этом случае мы ищем поле текстового поля с именем`"textbox1"`.
+После загрузки документа PDF вам необходимо получить доступ к определенному полю формы, в которое вы хотите ввести арабский текст. В этом случае мы ищем поле текстового поля с именем `"textbox1"`.
 
 ```csharp
 TextBoxField txtFld = pdfDocument.Form["textbox1"] as TextBoxField;
@@ -85,14 +87,14 @@ txtFld.Value = "يولد جميع الناس أحراراً متساوين في"
 
 ## Шаг 5: Сохраните обновленный документ.
 
-После заполнения текста необходимо сохранить обновленный PDF-документ. Укажите путь, куда вы хотите сохранить новый файл.
+После заполнения текста необходимо сохранить обновленный PDF-документ. Укажите путь, по которому вы хотите сохранить новый файл.
 
 ```csharp
 dataDir = dataDir + "ArabicTextFilling_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Это сохранит заполненный PDF-файл как`ArabicTextFilling_out.pdf` в указанном каталоге.
+Это сохранит заполненный PDF-файл как `ArabicTextFilling_out.pdf` в указанном каталоге.
 
 ## Шаг 6: Подтвердите операцию
 
@@ -113,20 +115,22 @@ Console.WriteLine("\nArabic text filled successfully in form field.\nFile saved 
 ### Что такое Aspose.PDF для .NET?
 Aspose.PDF для .NET — это библиотека, которая позволяет разработчикам создавать, редактировать и обрабатывать PDF-документы программным способом.
 
-### Могу ли я заполнять PDF-формы на других языках?
+### Могу ли я заполнять формы PDF на других языках?
 Да, Aspose.PDF поддерживает несколько языков, включая арабский, английский, французский и другие.
 
 ### Где можно скачать Aspose.PDF для .NET?
- Вы можете скачать его с сайта[Сайт Aspose](https://releases.aspose.com/pdf/net/).
+Вы можете скачать его с сайта [Сайт Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Есть ли бесплатная пробная версия?
- Да, вы можете попробовать Aspose.PDF бесплатно, загрузив пробную версию.[здесь](https://releases.aspose.com/).
+Да, вы можете попробовать Aspose.PDF бесплатно, загрузив пробную версию. [здесь](https://releases.aspose.com/).
 
 ### Как я могу получить поддержку по Aspose.PDF?
- Вы можете получить поддержку, посетив[Форум Aspose](https://forum.aspose.com/c/pdf/10).
+Вы можете получить поддержку, посетив [Форум Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

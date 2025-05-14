@@ -1,14 +1,16 @@
 ---
-title: Xóa trường biểu mẫu cụ thể khỏi tài liệu PDF trong Java
-linktitle: Xóa trường biểu mẫu cụ thể khỏi tài liệu PDF trong Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách xóa một trường biểu mẫu cụ thể khỏi tài liệu PDF trong Java một cách dễ dàng với Aspose.PDF cho Java. Hướng dẫn từng bước và mã nguồn được cung cấp.
-weight: 13
-url: /vi/java/pdf-form-fields/delete-particular-form-field-from-pdf-document-in-java/
+"description": "Tìm hiểu cách xóa một trường biểu mẫu cụ thể khỏi tài liệu PDF trong Java một cách dễ dàng với Aspose.PDF cho Java. Hướng dẫn từng bước và mã nguồn được cung cấp."
+"linktitle": "Xóa trường biểu mẫu cụ thể khỏi tài liệu PDF trong Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Xóa trường biểu mẫu cụ thể khỏi tài liệu PDF trong Java"
+"url": "/vi/java/pdf-form-fields/delete-particular-form-field-from-pdf-document-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa trường biểu mẫu cụ thể khỏi tài liệu PDF trong Java
@@ -23,7 +25,7 @@ Trong thời đại kỹ thuật số ngày nay, việc quản lý và thao tác
 Trước khi đi sâu vào chi tiết triển khai, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
 - Kiến thức cơ bản về lập trình Java.
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 - Môi trường phát triển tích hợp (IDE) theo lựa chọn của bạn, chẳng hạn như Eclipse hoặc IntelliJ IDEA.
 
 ## Bước 1: Thiết lập dự án của bạn
@@ -32,7 +34,7 @@ Bắt đầu bằng cách tạo một dự án Java mới trong IDE của bạn 
 
 ## Bước 2: Tải tài liệu PDF
 
- Trong bước này, chúng ta sẽ tải tài liệu PDF có chứa trường biểu mẫu mà chúng ta muốn xóa. Bạn nên thay thế`"input.pdf"` với đường dẫn đến tệp PDF của bạn.
+Trong bước này, chúng ta sẽ tải tài liệu PDF có chứa trường biểu mẫu mà chúng ta muốn xóa. Bạn nên thay thế `"input.pdf"` với đường dẫn đến tệp PDF của bạn.
 
 ```java
 // Tải tài liệu PDF
@@ -41,7 +43,7 @@ Document pdfDocument = new Document("input.pdf");
 
 ## Bước 3: Xác định trường biểu mẫu
 
- Bây giờ, chúng ta cần xác định trường biểu mẫu cụ thể mà bạn muốn xóa. Bạn có thể thực hiện việc này bằng tên của nó. Thay thế`"fieldName"` bằng tên thực tế của trường biểu mẫu mà bạn muốn xóa.
+Bây giờ, chúng ta cần xác định trường biểu mẫu cụ thể mà bạn muốn xóa. Bạn có thể thực hiện việc này bằng tên của nó. Thay thế `"fieldName"` bằng tên thực tế của trường biểu mẫu mà bạn muốn xóa.
 
 ```java
 // Xác định trường biểu mẫu theo tên
@@ -49,7 +51,7 @@ String fieldName = "fieldName";
 Field formField = pdfDocument.getForm().getField(fieldName);
 ```
 
-## Bước 4: Xóa Trường Biểu mẫu
+## Bước 4: Xóa trường biểu mẫu
 
 Sau khi xác định được trường biểu mẫu, chúng ta có thể tiến hành xóa trường đó khỏi tài liệu PDF.
 
@@ -91,10 +93,12 @@ Có, bạn có thể ẩn các trường biểu mẫu bằng cách đặt thuộ
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện và các tài nguyên bổ sung cho Aspose.PDF cho Java trên trang web:[Tài liệu tham khảo API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu toàn diện và các tài nguyên bổ sung cho Aspose.PDF cho Java trên trang web: [Tài liệu tham khảo API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tabela w sekcji nagłówka i stopki
-linktitle: Tabela w sekcji nagłówka i stopki
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodać tabelę w sekcji nagłówka/stopki dokumentu PDF za pomocą Aspose.PDF dla platformy .NET.
-weight: 170
-url: /pl/net/programming-with-stamps-and-watermarks/table-in-header-footer-section/
+"description": "Dowiedz się, jak dodać tabelę w sekcji nagłówka/stopki dokumentu PDF za pomocą Aspose.PDF dla platformy .NET."
+"linktitle": "Tabela w sekcji nagłówka i stopki"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Tabela w sekcji nagłówka i stopki"
+"url": "/pl/net/programming-with-stamps-and-watermarks/table-in-header-footer-section/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabela w sekcji nagłówka i stopki
@@ -21,8 +23,8 @@ Czy zdarzyło Ci się kiedyś patrzeć na zwykły dokument PDF, marząc o czymś
 
 Zanim przejdziemy do właściwej części kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto, czego będziesz potrzebować:
 
-1.  Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio na swoim komputerze. Jeśli nie, możesz go pobrać z[Witryna firmy Microsoft](https://visualstudio.microsoft.com/).
-2.  Biblioteka Aspose.PDF: Musisz mieć bibliotekę Aspose.PDF dla .NET. Możesz użyć następującego łącza, aby ją pobrać[Aspose.PDF dla pakietu .NET](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio na swoim komputerze. Jeśli nie, możesz go pobrać z [Witryna firmy Microsoft](https://visualstudio.microsoft.com/).
+2. Biblioteka Aspose.PDF: Musisz mieć bibliotekę Aspose.PDF dla .NET. Możesz użyć następującego łącza, aby ją pobrać [Aspose.PDF dla pakietu .NET](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o C#: Powinieneś mieć przynajmniej podstawową wiedzę o C#. Nie martw się, jeśli nadal się uczysz; postaram się, żeby było to tak proste, jak to możliwe!
 
 ## Importuj pakiety
@@ -49,7 +51,7 @@ Zanim zaczniemy tworzyć nasz plik PDF, musimy zdefiniować, gdzie będzie przec
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zmień to na swój rzeczywisty katalog
 ```
 
- Zastępować`YOUR DOCUMENT DIRECTORY`ze ścieżką, w której chcesz zapisać swój plik PDF. Może to być dowolne miejsce w systemie — upewnij się tylko, że jest dostępne!
+Zastępować `YOUR DOCUMENT DIRECTORY` ze ścieżką, w której chcesz zapisać swój plik PDF. Może to być dowolne miejsce w systemie — upewnij się tylko, że jest dostępne!
 
 ## Krok 2: Utwórz instancję dokumentu
 
@@ -71,7 +73,7 @@ Dodajmy nową stronę do naszego dokumentu.
 Aspose.Pdf.Page page = pdfDocument.Pages.Add();
 ```
 
-Pomyśl o tej stronie jako o pustym płótnie, na którym namalujesz swoje arcydzieło!
+Wyobraź sobie tę stronę jako puste płótno, na którym namalujesz swoje arcydzieło!
 
 ## Krok 4: Utwórz sekcję nagłówka
 
@@ -98,7 +100,7 @@ page.Header = header;
 Aby mieć pewność, że nasz nagłówek ma trochę przestrzeni u góry, dostosujmy margines.
 
 ```csharp
-//Ustaw górny margines dla sekcji nagłówka
+// Ustaw górny margines dla sekcji nagłówka
 header.Margin.Top = 20;
 ```
 
@@ -115,7 +117,7 @@ Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 
 ## Krok 8: Dodaj tabelę do nagłówka
 
-Dodamy naszą nowo utworzoną tabelę do zbioru akapitów nagłówka.
+Dodamy naszą nowo utworzoną tabelę do kolekcji akapitów nagłówka.
 
 ```csharp
 // Dodaj tabelę w kolekcji akapitów żądanej sekcji
@@ -147,7 +149,7 @@ Wartości przedstawiają szerokość każdej kolumny w punktach. Możesz je swob
 Czas dodać kilka wierszy i komórek! 
 
 ```csharp
-//Utwórz wiersze w tabeli, a następnie komórki w wierszach
+// Utwórz wiersze w tabeli, a następnie komórki w wierszach
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("Table in Header Section");
 row1.BackgroundColor = Color.Gray;
@@ -190,7 +192,7 @@ Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 img.File = dataDir + "aspose-logo.jpg"; // Upewnij się, że umieściłeś obraz w swoim katalogu
 ```
 
- Nie zapomnij wymienić`"aspose-logo.jpg"` z prawdziwą nazwą Twojego obrazu!
+Nie zapomnij wymienić `"aspose-logo.jpg"` z prawdziwą nazwą Twojego obrazu!
 
 ## Krok 15: Dostosuj szerokość obrazu
 
@@ -200,7 +202,7 @@ Ustaw szerokość obrazu, aby mieć pewność, że będzie on idealnie pasował 
 // Ustaw szerokość obrazu na 60
 img.FixWidth = 60;
 
-//Dodaj obraz do komórki tabeli
+// Dodaj obraz do komórki tabeli
 Aspose.Pdf.Cell cell2 = row2.Cells.Add();
 cell2.Paragraphs.Add(img);
 ```
@@ -219,7 +221,7 @@ row2.Cells[1].DefaultCellTextState.Font = FontRepository.FindFont("Helvetica");
 Upewnij się, że wszystko wygląda schludnie. Wyrównaj tekst!
 
 ```csharp
-// Ustaw pionowe wyrównanie tekstu jako wyrównane do środka
+// Ustaw pionowe wyrównanie tekstu jako wyrównanie do środka
 row2.Cells[1].VerticalAlignment = Aspose.Pdf.VerticalAlignment.Center;
 row2.Cells[1].Alignment = Aspose.Pdf.HorizontalAlignment.Center;
 ```
@@ -233,7 +235,7 @@ I na koniec, co nie mniej ważne, ratujmy nasze dzieło!
 pdfDocument.Save(dataDir + "TableInHeaderFooterSection_out.pdf");
 ```
 
-I voilà! Stworzyłeś oszałamiający plik PDF z tabelą w sekcji nagłówka!
+voilà! Stworzyłeś oszałamiający plik PDF z tabelą w sekcji nagłówka!
 
 ## Wniosek
 
@@ -245,19 +247,21 @@ I masz! Udało Ci się dodać tabelę do nagłówka dokumentu PDF za pomocą Asp
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie i modyfikowanie dokumentów PDF.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF?
- Podczas okresu próbnego możesz korzystać z biblioteki za darmo, ale do dłuższego użytkowania wymagana jest licencja. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
+Podczas okresu próbnego możesz korzystać z biblioteki za darmo, ale do dłuższego użytkowania wymagana jest licencja. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
 
 ### Gdzie mogę znaleźć dokumentację?
-Pełną dokumentację i przykłady można znaleźć na stronie[Strona dokumentacji Aspose.PDF](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację i przykłady można znaleźć na stronie [Strona dokumentacji Aspose.PDF](https://reference.aspose.com/pdf/net/).
 
 ### Jak mogę skontaktować się z pomocą techniczną w przypadku problemów technicznych?
- Możesz uzyskać wsparcie za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać wsparcie za pośrednictwem [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Czy mogę tworzyć tabele w innych sekcjach pliku PDF?
 Oczywiście! Możesz tworzyć tabele również w stopkach i sekcjach body; po prostu wykonaj podobne kroki.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

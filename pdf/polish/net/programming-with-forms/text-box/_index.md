@@ -1,21 +1,23 @@
 ---
-title: Pole tekstowe
-linktitle: Pole tekstowe
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak bez wysiłku dodawać pola tekstowe do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz interakcję użytkownika.
-weight: 290
-url: /pl/net/programming-with-forms/text-box/
+"description": "Dowiedz się, jak bez wysiłku dodawać pola tekstowe do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz interakcję użytkownika."
+"linktitle": "Pole tekstowe"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pole tekstowe"
+"url": "/pl/net/programming-with-forms/text-box/"
+"weight": 290
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pole tekstowe
 
 ## Wstęp
 
-dziedzinie dokumentacji cyfrowej tworzenie interaktywnych formularzy PDF może znacznie poprawić wrażenia użytkownika i wydajność gromadzenia danych. Aspose.PDF dla .NET zapewnia potężny i prosty sposób na włączenie różnych pól formularzy, umożliwiając deweloperom angażowanie użytkowników w sposób, w jaki statyczne dokumenty po prostu nie mogą. Spośród różnych typów pól formularzy, które można dodać do pliku PDF, wyróżniają się pola tekstowe, ponieważ ułatwiają wprowadzanie danych przez użytkownika w przejrzysty i uporządkowany sposób. Wyobraź sobie tworzenie dokumentu PDF, który nie tylko przekazuje informacje, ale także zachęca użytkowników do interakcji z nim! W tym samouczku zagłębimy się w proces dodawania pola tekstowego do pliku PDF za pomocą Aspose.PDF dla .NET, rozbijając każdy krok i upewniając się, że dokładnie rozumiesz całą koncepcję.
+dziedzinie dokumentacji cyfrowej tworzenie interaktywnych formularzy PDF może znacznie poprawić wrażenia użytkownika i wydajność gromadzenia danych. Aspose.PDF dla .NET zapewnia potężny i prosty sposób na włączenie różnych pól formularza, umożliwiając deweloperom angażowanie użytkowników w sposób, w jaki statyczne dokumenty po prostu nie mogą. Spośród różnych typów pól formularza, które można dodać do pliku PDF, wyróżniają się pola tekstowe, ponieważ ułatwiają wprowadzanie danych przez użytkownika w przejrzysty i uporządkowany sposób. Wyobraź sobie tworzenie dokumentu PDF, który nie tylko przekazuje informacje, ale także zachęca użytkowników do interakcji z nim! W tym samouczku zagłębimy się w proces dodawania pola tekstowego do pliku PDF za pomocą Aspose.PDF dla .NET, rozbijając każdy krok i upewniając się, że dokładnie rozumiesz całą koncepcję.
 
 Czy jesteś gotowy ulepszyć swoje pliki PDF i uczynić je naprawdę interaktywnymi? Zaczynajmy!
 
@@ -24,7 +26,7 @@ Czy jesteś gotowy ulepszyć swoje pliki PDF i uczynić je naprawdę interaktywn
 Zanim przejdziemy do tworzenia pola tekstowego w dokumencie PDF, musimy zadbać o kilka rzeczy:
 
 1. Podstawowa wiedza o języku C#: Zrozumienie składni i struktury języka C# pomoże Ci łatwiej poruszać się po kodzie.
-2.  Aspose.PDF dla .NET zainstalowany: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[link do pobrania](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET zainstalowany: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [link do pobrania](https://releases.aspose.com/pdf/net/).
 3. Środowisko programistyczne: IDE, np. Visual Studio, sprawdzi się najlepiej do uruchamiania i testowania kodu.
 4. .NET Framework: Ten samouczek jest przeznaczony dla aplikacji .NET, dlatego kluczowe jest zainstalowanie zgodnej wersji.
 
@@ -56,7 +58,7 @@ Ten krok integruje bibliotekę Aspose.PDF z Twoim projektem, umożliwiając bezp
 
 ### Importuj przestrzeń nazw Aspose.PDF
 
- Na górze głównego pliku programu (zwykle`Program.cs`), aby uzyskać dostęp do funkcjonalności Aspose.PDF, należy uwzględnić następujący wiersz:
+Na górze głównego pliku programu (zwykle `Program.cs`), aby uzyskać dostęp do funkcjonalności Aspose.PDF, należy uwzględnić następujący wiersz:
 
 ```csharp
 using System.IO;
@@ -74,7 +76,7 @@ Przyjrzyjmy się krok po kroku procesowi dodawania pola tekstowego!
 
 ## Krok 1: Zdefiniuj katalog dokumentów
 
- Po pierwsze, musimy określić, gdzie znajduje się nasz dokument PDF. Upewnij się, że zastąpiłeś`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twoich plików.
+Po pierwsze, musimy określić, gdzie znajduje się nasz dokument PDF. Upewnij się, że zastąpiłeś `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twoich plików.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -90,7 +92,7 @@ Następnie otwórz dokument PDF, w którym planujesz dodać pole tekstowe. Oto j
 Document pdfDocument = new Document(dataDir + "TextField.pdf");
 ```
 
- Ten wiersz ładuje plik PDF do instancji`Document` klasa. Upewnij się, że`"TextField.pdf"` znajduje się w podanym przez Ciebie katalogu.
+Ten wiersz ładuje plik PDF do instancji `Document` klasa. Upewnij się, że `"TextField.pdf"` znajduje się w podanym przez Ciebie katalogu.
 
 ## Krok 3: Utwórz pole tekstowe
 
@@ -101,8 +103,8 @@ TextBoxField textBoxField = new TextBoxField(pdfDocument.Pages[1], new Aspose.Pd
 ```
 
 Ten wiersz wykonuje kilka rzeczy:
--  Inicjuje nowy`TextBoxField` obiekt, który zostanie dodany do drugiej strony pliku PDF (należy pamiętać, że indeksowanie stron zaczyna się od numeru 1).
--  Ten`Rectangle` Parametr definiuje pozycję i rozmiar pola tekstowego, określone jako współrzędne (x1, y1, x2, y2).
+- Inicjuje nowy `TextBoxField` obiekt, który zostanie dodany do drugiej strony pliku PDF (należy pamiętać, że indeksowanie stron zaczyna się od numeru 1).
+- Ten `Rectangle` Parametr definiuje pozycję i rozmiar pola tekstowego, określone jako współrzędne (x1, y1, x2, y2).
 
 ## Krok 4: Ustaw właściwości pola tekstowego 
 
@@ -115,7 +117,7 @@ textBoxField.Value = "Text Box";
 
 W tym przykładzie:
 - `PartialName` ustawia unikalny identyfikator dla pola tekstowego.
-- `Value`definiuje domyślny tekst wyświetlany wewnątrz pola.
+- `Value` definiuje domyślny tekst wyświetlany wewnątrz pola.
 
 ## Krok 5: Dostosuj obramowanie
 
@@ -166,19 +168,21 @@ Gratulacje! Udało Ci się dodać pole tekstowe do dokumentu PDF za pomocą Aspo
 Aspose.PDF dla platformy .NET to kompleksowa biblioteka umożliwiająca tworzenie, edytowanie i konwertowanie dokumentów PDF przy użyciu aplikacji .NET.
 
 ### Czy mogę wypróbować Aspose.PDF za darmo?
- Tak, Aspose oferuje bezpłatny okres próbny, do którego możesz uzyskać dostęp[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatny okres próbny, do którego możesz uzyskać dostęp [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Wsparcie i dyskusje społecznościowe można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Wsparcie i dyskusje społecznościowe można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Jakie typy pól formularzy mogę dodać za pomocą Aspose.PDF?
 Możesz dodawać pola tekstowe, pola wyboru, przyciski radiowe, listy rozwijane i wiele więcej.
 
 ### Jak mogę uzyskać tymczasową licencję na Aspose.PDF?
- Możesz poprosić o tymczasową licencję[ten link](https://purchase.aspose.com/temporary-license/).
+Możesz poprosić o tymczasową licencję [ten link](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

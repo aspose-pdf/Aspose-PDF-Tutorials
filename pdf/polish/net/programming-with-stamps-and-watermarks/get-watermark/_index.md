@@ -1,14 +1,16 @@
 ---
-title: Pobierz znak wodny z pliku PDF
-linktitle: Pobierz znak wodny z pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyodrębnić znaki wodne z plików PDF za pomocą Aspose.PDF dla .NET, korzystając z przewodnika krok po kroku. Szczegółowy samouczek dotyczący wyodrębniania znaków wodnych.
-weight: 100
-url: /pl/net/programming-with-stamps-and-watermarks/get-watermark/
+"description": "Dowiedz się, jak wyodrębnić znaki wodne z plików PDF za pomocą Aspose.PDF dla .NET, korzystając z przewodnika krok po kroku. Szczegółowy samouczek dotyczący wyodrębniania znaków wodnych."
+"linktitle": "Pobierz znak wodny z pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz znak wodny z pliku PDF"
+"url": "/pl/net/programming-with-stamps-and-watermarks/get-watermark/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz znak wodny z pliku PDF
@@ -21,12 +23,12 @@ Jeśli chodzi o pracę z plikami PDF, Aspose.PDF dla .NET wyróżnia się jako p
 
 Zanim zagłębisz się w kod, musisz zadbać o kilka rzeczy, aby móc korzystać z tego samouczka:
 
--  Aspose.PDF dla biblioteki .NET: Pobierz bibliotekę ze strony[Tutaj](https://releases.aspose.com/pdf/net/) lub zainstaluj go przy użyciu menedżera pakietów NuGet.
+- Aspose.PDF dla biblioteki .NET: Pobierz bibliotekę ze strony [Tutaj](https://releases.aspose.com/pdf/net/) lub zainstaluj go przy użyciu menedżera pakietów NuGet.
 - Środowisko programistyczne .NET: Do programowania w języku C# możesz użyć programu Visual Studio lub dowolnego preferowanego środowiska IDE.
 - Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz praktyczną wiedzę na temat programowania w języku C# i .NET.
--  Plik PDF: Miej pod ręką plik PDF zawierający znak wodny do celów testowych. Będziemy się do niego odnosić jako`watermark.pdf` w całym samouczku.
+- Plik PDF: Miej pod ręką plik PDF zawierający znak wodny do celów testowych. Będziemy się do tego odnosić jako `watermark.pdf` w całym samouczku.
 
- Aby rozpocząć pracę z Aspose.PDF, możesz zapoznać się z[dokumentacja](https://reference.aspose.com/pdf/net/) aby zapoznać się z biblioteką.
+Aby rozpocząć pracę z Aspose.PDF, możesz zapoznać się z [dokumentacja](https://reference.aspose.com/pdf/net/) aby zapoznać się z biblioteką.
 
 ## Importuj pakiety
 
@@ -52,7 +54,7 @@ Zanim będziesz mógł otworzyć i przetworzyć plik PDF, musisz określić, gdz
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ta linia definiuje lokalizację pliku PDF w systemie. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistym katalogiem, w którym znajduje się Twój`watermark.pdf` jest przechowywany. Na przykład:
+Ta linia definiuje lokalizację pliku PDF w systemie. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistym katalogiem, w którym znajduje się Twój `watermark.pdf` jest przechowywany. Na przykład:
 
 ```csharp
 string dataDir = "C:\\MyDocuments\\";
@@ -60,17 +62,17 @@ string dataDir = "C:\\MyDocuments\\";
 
 ## Krok 2: Otwórz dokument PDF
 
- Następnym krokiem jest załadowanie pliku PDF do`Aspose.Pdf.Document` obiekt. Ten obiekt reprezentuje plik PDF i pozwala na interakcję z jego zawartością:
+Następnym krokiem jest załadowanie pliku PDF do `Aspose.Pdf.Document` obiekt. Ten obiekt reprezentuje plik PDF i pozwala na interakcję z jego zawartością:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "watermark.pdf");
 ```
 
- Tutaj używamy`Document` klasę z biblioteki Aspose.PDF, aby załadować`watermark.pdf` plik znajduje się w określonym katalogu. Upewnij się, że plik istnieje w ścieżce, do której się odwołujesz; w przeciwnym razie pojawi się błąd „file not found”.
+Tutaj używamy `Document` klasę z biblioteki Aspose.PDF, aby załadować `watermark.pdf` plik znajduje się w określonym katalogu. Upewnij się, że plik istnieje w ścieżce, do której się odwołujesz; w przeciwnym razie pojawi się błąd file not found.
 
 ## Krok 3: Uzyskaj dostęp do artefaktów na pierwszej stronie
 
-Znaki wodne są uważane za artefakty w terminologii PDF. Aspose.PDF pozwala na iteracyjne przeglądanie tych artefaktów w celu identyfikacji i wyodrębnienia informacji o znaku wodnym. Aby to zrobić, należy skupić się na pierwszej stronie dokumentu PDF:
+Znaki wodne są uważane za artefakty w terminologii PDF. Aspose.PDF pozwala na iteracyjne przeglądanie tych artefaktów w celu zidentyfikowania i wyodrębnienia informacji o znaku wodnym. Aby to zrobić, należy skupić się na pierwszej stronie dokumentu PDF:
 
 ```csharp
 foreach (Artifact artifact in pdfDocument.Pages[1].Artifacts)
@@ -79,7 +81,7 @@ foreach (Artifact artifact in pdfDocument.Pages[1].Artifacts)
 }
 ```
 
- W tej pętli uzyskujemy dostęp do`Artifacts` kolekcja pierwszej strony (`Pages[1]` ). Jeśli Twój plik PDF ma znaki wodne na różnych stronach, może być konieczna odpowiednia modyfikacja indeksu stron. Każda strona w pliku PDF jest oparta na zerach, więc pierwsza strona jest`Pages[1]`.
+W tej pętli uzyskujemy dostęp do `Artifacts` kolekcja pierwszej strony (`Pages[1]`). Jeśli Twój plik PDF ma znaki wodne na różnych stronach, może być konieczna odpowiednia modyfikacja indeksu stron. Każda strona w pliku PDF jest oparta na zerach, więc pierwsza strona jest `Pages[1]`.
 
 ## Krok 4: Pobierz informacje o znaku wodnym
 
@@ -97,11 +99,11 @@ Po uruchomieniu tego kodu zostaną wyświetlone informacje o typie artefaktu, te
 
 ## Wniosek
 
-W tym samouczku omówiliśmy, jak wyodrębnić szczegóły znaku wodnego z dokumentu PDF za pomocą Aspose.PDF dla .NET. Postępując zgodnie z opisanymi tutaj krokami, możesz łatwo uzyskać dostęp do znaków wodnych i innych artefaktów w plikach PDF. Niezależnie od tego, czy musisz zalogować, zmodyfikować lub usunąć te znaki wodne, biblioteka Aspose.PDF oferuje potężne narzędzia do ich obsługi.
+tym samouczku omówiliśmy, jak wyodrębnić szczegóły znaku wodnego z dokumentu PDF za pomocą Aspose.PDF dla .NET. Postępując zgodnie z opisanymi tutaj krokami, możesz łatwo uzyskać dostęp do znaków wodnych i innych artefaktów w plikach PDF. Niezależnie od tego, czy musisz zalogować, zmodyfikować lub usunąć te znaki wodne, biblioteka Aspose.PDF oferuje potężne narzędzia do ich obsługi.
 
 Koniecznie eksperymentuj z różnymi plikami PDF, ponieważ sposób implementacji znaków wodnych może się różnić w zależności od dokumentu. I pamiętaj, że Aspose.PDF potrafi znacznie więcej niż tylko obsługiwać znaki wodne — jego bogaty zestaw funkcji umożliwia rozległą manipulację plikami PDF.
 
- Aby uzyskać bardziej szczegółowe informacje, odwiedź stronę[Aspose.PDF dla dokumentacji .NET](https://reference.aspose.com/pdf/net/) i odkrywaj dalej.
+Aby uzyskać bardziej szczegółowe informacje, odwiedź stronę [Aspose.PDF dla dokumentacji .NET](https://reference.aspose.com/pdf/net/) i odkrywaj dalej.
 
 ## Najczęściej zadawane pytania
 
@@ -109,7 +111,7 @@ Koniecznie eksperymentuj z różnymi plikami PDF, ponieważ sposób implementacj
 Tak, Aspose.PDF może wyodrębnić zarówno tekstowe, jak i graficzne znaki wodne z plików PDF. Właściwość artifacts dostarcza informacji o wszystkich typach znaków wodnych.
 
 ### Co zrobić, jeśli mój znak wodny znajduje się na innej stronie?
- Możesz zmienić indeks strony w`pdfDocument.Pages[]` tablica umożliwiająca dostęp do artefaktów na innych stronach.
+Możesz zmienić indeks strony w `pdfDocument.Pages[]` tablica umożliwiająca dostęp do artefaktów na innych stronach.
 
 ### Czy istnieje sposób na usunięcie znaku wodnego po jego odzyskaniu?
 Tak, możesz użyć Aspose.PDF nie tylko do odczytu, ale także do usuwania znaków wodnych z pliku PDF. Biblioteka udostępnia metody modyfikowania lub usuwania artefaktów.
@@ -119,9 +121,11 @@ Oczywiście! Pętla przechodzi przez wszystkie artefakty na stronie, więc jeśl
 
 ### Czy Aspose.PDF jest zgodny z platformą .NET Core?
 Tak, Aspose.PDF jest kompatybilny zarówno z .NET Framework, jak i .NET Core, co czyni go uniwersalnym rozwiązaniem dla różnych typów projektów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

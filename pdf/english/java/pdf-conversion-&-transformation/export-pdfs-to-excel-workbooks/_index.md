@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/export-pdfs-to-excel-workbooks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export PDFs to Excel Workbooks
@@ -115,6 +117,7 @@ You can find comprehensive documentation and additional resources for Aspose.PDF
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

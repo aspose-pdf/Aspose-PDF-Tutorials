@@ -1,14 +1,16 @@
 ---
-title: Truy cập các phần tử con
-linktitle: Truy cập các phần tử con
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách truy cập và sửa đổi các phần tử con trong tệp PDF được gắn thẻ bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/programming-with-tagged-pdf/access-children-elements/
+"description": "Tìm hiểu cách truy cập và sửa đổi các phần tử con trong tệp PDF được gắn thẻ bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này."
+"linktitle": "Truy cập các phần tử con"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Truy cập các phần tử con"
+"url": "/vi/net/programming-with-tagged-pdf/access-children-elements/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Truy cập các phần tử con
@@ -19,10 +21,10 @@ Khi nói đến việc thao tác các tài liệu PDF theo chương trình, Aspo
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào mã, bạn cần có một số điều sau để bắt đầu:
+Trước khi tìm hiểu về mã, bạn cần có một số điều sau để bắt đầu:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt phiên bản .NET Framework trên máy của mình. Aspose.PDF cũng hỗ trợ .NET Core.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống phiên bản mới nhất từ[Trang Tải xuống Aspose](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống phiên bản mới nhất từ [Trang Tải xuống Aspose](https://releases.aspose.com/pdf/net/).
 3. Môi trường phát triển: Thiết lập một IDE như Visual Studio nơi bạn có thể viết và chạy mã C#.
 4. Tệp PDF mẫu: Bạn sẽ cần một tài liệu PDF được gắn thẻ mẫu để làm việc. Đối với hướng dẫn này, chúng tôi sẽ sử dụng "StructureElementsTree.pdf", mà bạn nên đặt trong thư mục tài liệu của dự án.
 
@@ -52,7 +54,7 @@ Hãy bắt đầu bằng cách xác định thư mục nơi bạn sẽ lưu tr�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Chỉ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn. 
+Chỉ cần thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn. 
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -121,7 +123,7 @@ Bây giờ chúng ta đã truy cập vào các phần tử gốc, hãy đi sâu 
 elementList = taggedContent.RootElement.ChildElements[1].ChildElements;
 ```
 
- Bằng cách thay đổi`ChildElements[1]` đối với một chỉ mục khác, bạn có thể khám phá các phần tử gốc khác nhau, nếu chúng tồn tại.
+Bằng cách thay đổi `ChildElements[1]` đối với một chỉ mục khác, bạn có thể khám phá các phần tử gốc khác nhau, nếu chúng tồn tại.
 
 ## Bước 7: Sửa đổi Thuộc tính của Phần tử Con
 
@@ -175,10 +177,12 @@ Ban đầu bạn có thể dùng thử miễn phí, nhưng có thể phải mua 
 Có, Aspose.PDF hỗ trợ .NET Core cùng với các phiên bản khác của .NET Framework.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF ở đâu?
- Bạn có thể tìm thấy tài liệu bổ sung trên[Trang tài liệu Aspose](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu bổ sung trên [Trang tài liệu Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

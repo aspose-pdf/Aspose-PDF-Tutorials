@@ -1,74 +1,76 @@
 ---
-title: Připojit soubory k dokumentům PDF
-linktitle: Připojit soubory k dokumentům PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se připojovat soubory k dokumentům PDF pomocí Aspose.PDF for Java. Díky našemu podrobnému průvodci je manipulace s PDF hračkou.
-weight: 10
-url: /cs/java/pdf-attachments/attach-files-pdf-documents/
+"description": "Naučte se, jak připojit soubory k PDF dokumentům pomocí Aspose.PDF pro Javu. Náš podrobný návod vám usnadní manipulaci s PDF."
+"linktitle": "Připojení souborů k PDF dokumentům"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Připojení souborů k PDF dokumentům"
+"url": "/cs/java/pdf-attachments/attach-files-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Připojit soubory k dokumentům PDF
+# Připojení souborů k PDF dokumentům
 
 
 ## Úvod do Aspose.PDF pro Javu
 
-Aspose.PDF for Java je knihovna bohatá na funkce, která umožňuje vývojářům pracovat s dokumenty PDF v jejich aplikacích Java. Nabízí širokou škálu možností, včetně vytváření PDF, manipulace a extrakce.
+Aspose.PDF pro Javu je knihovna bohatá na funkce, která umožňuje vývojářům pracovat s PDF dokumenty v jejich Java aplikacích. Nabízí širokou škálu možností, včetně vytváření, manipulace a extrakce PDF.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-- Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu a vhodné IDE.
--  Aspose.PDF for Java: Stáhněte si a nainstalujte knihovnu Aspose.PDF for Java z[zde](https://releases.aspose.com/pdf/java/).
+- Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu a vhodné vývojové prostředí (IDE).
+- Aspose.PDF pro Javu: Stáhněte a nainstalujte knihovnu Aspose.PDF pro Javu z [zde](https://releases.aspose.com/pdf/java/).
 
-## Nastavení vašeho projektu Java
+## Nastavení vašeho projektu v Javě
 
 Chcete-li začít, vytvořte nový projekt Java ve vámi preferovaném integrovaném vývojovém prostředí (IDE).
 
-## Přidání Aspose.PDF do vašeho projektu
+## Přidání souboru Aspose.PDF do vašeho projektu
 
-1. Stáhněte si knihovnu Aspose.PDF for Java z webu.
-2. Přidejte stažený soubor JAR do cesty třídy vašeho projektu.
-3. Možná budete muset přidat jakékoli požadované závislosti, jak je uvedeno v dokumentaci Aspose.PDF.
+1. Stáhněte si knihovnu Aspose.PDF pro Javu z webových stránek.
+2. Přidejte stažený soubor JAR do třídní cesty vašeho projektu.
+3. Možná budete také muset přidat všechny požadované závislosti, jak je uvedeno v dokumentaci k souboru Aspose.PDF.
 
-## Vytvoření dokumentu PDF
+## Vytvoření PDF dokumentu
 
-Ve svém kódu Java importujte potřebné třídy z knihovny Aspose.PDF. Vytvořte nový dokument PDF pomocí následujícího fragmentu kódu:
+Do kódu Java importujte potřebné třídy z knihovny Aspose.PDF. Vytvořte nový dokument PDF pomocí následujícího úryvku kódu:
 
 ```java
-//Importujte potřebné třídy
+// Importovat potřebné třídy
 import com.aspose.pdf.*;
 
-// Vytvořte nový dokument PDF
+// Vytvořte nový PDF dokument
 Document pdfDocument = new Document();
 ```
 
-## Připojování souborů k PDF
+## Připojení souborů k PDF
 
-Nyní připojíme soubory k dokumentu PDF. Můžete připojit různé typy souborů, jako jsou obrázky, dokumenty nebo dokonce další soubory PDF. Zde je příklad, jak připojit soubor:
+Nyní si k dokumentu PDF připojíme soubory. Můžete připojit různé typy souborů, například obrázky, dokumenty nebo dokonce jiné soubory PDF. Zde je příklad, jak připojit soubor:
 
 ```java
-// Zadejte soubor, který má být připojen
+// Zadejte soubor, který chcete přiložit
 String filePath = "path/to/your/file.pdf";
 
-// Vytvořte přílohu
+// Vytvořit přílohu
 FileAttachment fileAttachment = new FileAttachment(pdfDocument.getPages().get_Item(1), filePath);
 
-// Nastavte vzhled přílohy
+// Nastavení vzhledu přílohy
 fileAttachment.setIcon(FileIcon.Paperclip);
 fileAttachment.setColor(Color.getBlue());
 
-// Přidejte přílohu k dokumentu PDF
+// Přidat přílohu k PDF dokumentu
 pdfDocument.getPages().get_Item(1).getAnnotations().add(fileAttachment);
 ```
 
 ## Uložení upraveného PDF
 
-Po připojení souborů uložte upravený dokument PDF do požadovaného umístění:
+Po připojení souborů uložte upravený dokument PDF na požadované místo:
 
 ```java
 // Uložte PDF s přílohami
@@ -77,32 +79,34 @@ pdfDocument.save("output.pdf");
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak připojit soubory k dokumentu PDF pomocí Aspose.PDF pro Java. Zabývali jsme se nastavením vývojového prostředí, přidáním Aspose.PDF do vašeho projektu, vytvořením dokumentu PDF, připojením souborů a uložením upraveného PDF.
+V tomto tutoriálu jsme se seznámili s tím, jak připojit soubory k PDF dokumentu pomocí Aspose.PDF pro Javu. Probrali jsme nastavení vývojového prostředí, přidání Aspose.PDF do vašeho projektu, vytvoření PDF dokumentu, připojení souborů a uložení upraveného PDF.
 
-## FAQ
+## Často kladené otázky
 
-### Jak extrahuji přílohy z PDF vytvořeného pomocí Aspose.PDF for Java?
+### Jak extrahovat přílohy z PDF vytvořeného pomocí Aspose.PDF pro Javu?
 
-Chcete-li extrahovat přílohy z PDF, můžete použít Aspose.PDF pro Java API. Můžete iterovat poznámky v dokumentu PDF a identifikovat přílohy souboru. Poté můžete tyto přílohy extrahovat a uložit na požadované místo.
+Pro extrahování příloh z PDF souboru můžete použít rozhraní Aspose.PDF pro Java API. Můžete procházet anotacemi v PDF dokumentu a identifikovat soubory příloh. Poté můžete tyto přílohy extrahovat a uložit do požadovaného umístění.
 
 ### Mohu k jedné stránce PDF připojit více souborů?
 
- Ano, pomocí Aspose.PDF for Java můžete k jedné stránce PDF připojit více souborů. Jednoduše vytvořte více`FileAttachment` objekty a přidejte je do anotací stránky.
+Ano, pomocí Aspose.PDF pro Javu můžete k jedné stránce PDF připojit více souborů. Jednoduše vytvořte více `FileAttachment` objekty a přidat je do anotací stránky.
 
 ### Existují nějaká omezení velikosti souborů, které mohu připojit k PDF?
 
-Velikost souborů, které můžete připojit k PDF, závisí na různých faktorech, včetně možností prohlížeče PDF a zdrojů vašeho systému. Je však vhodné zachovat přiměřené velikosti souborů, aby bylo zajištěno hladké prohlížení a manipulace s PDF.
+Velikost souborů, které můžete připojit k PDF, závisí na různých faktorech, včetně možností prohlížeče PDF a systémových prostředků. Je však vhodné udržovat velikosti souborů v rozumné velikosti, aby bylo zajištěno bezproblémové prohlížení a manipulace s PDF.
 
-### Je Aspose.PDF for Java kompatibilní s různými verzemi Java?
+### Je Aspose.PDF pro Javu kompatibilní s různými verzemi Javy?
 
-Ano, Aspose.PDF for Java je kompatibilní s řadou verzí Java. Ujistěte se, že v dokumentaci najdete podrobnosti o kompatibilitě konkrétní verze.
+Ano, Aspose.PDF pro Javu je kompatibilní s řadou verzí Javy. Podrobnosti o kompatibilitě konkrétních verzí naleznete v dokumentaci.
 
 ### Kde najdu další zdroje a dokumentaci k Aspose.PDF pro Javu?
 
-Komplexní dokumentaci a další zdroje pro Aspose.PDF pro Javu naleznete na[zde](https://reference.aspose.com/pdf/java/).
+Komplexní dokumentaci a další zdroje pro soubor Aspose.PDF pro Javu naleznete na adrese [zde](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

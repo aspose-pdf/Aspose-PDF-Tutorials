@@ -1,14 +1,16 @@
 ---
-title: Cập nhật dấu trang trong tệp PDF
-linktitle: Cập nhật dấu trang trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách cập nhật dấu trang trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn này. Hoàn hảo cho các nhà phát triển muốn sửa đổi dấu trang PDF hiệu quả.
-weight: 100
-url: /vi/net/programming-with-bookmarks/update-bookmarks/
+"description": "Tìm hiểu cách cập nhật dấu trang trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn này. Hoàn hảo cho các nhà phát triển muốn sửa đổi dấu trang PDF hiệu quả."
+"linktitle": "Cập nhật dấu trang trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Cập nhật dấu trang trong tệp PDF"
+"url": "/vi/net/programming-with-bookmarks/update-bookmarks/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cập nhật dấu trang trong tệp PDF
@@ -21,12 +23,12 @@ Làm việc với các tệp PDF thường đòi hỏi phải xử lý nhiều t
 
 Trước khi đi sâu vào mã, hãy đảm bảo bạn đã chuẩn bị mọi thứ sẵn sàng. Sau đây là những gì bạn cần:
 
-1.  Aspose.PDF cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET trên hệ thống của mình.
 3. IDE: Tốt nhất là Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
 4. Tệp PDF có dấu trang hiện có: Đây sẽ là tệp thử nghiệm để cập nhật dấu trang.
 
- Nếu bạn chưa có Aspose.PDF cho .NET, hãy tải ngay[dùng thử miễn phí](https://releases.aspose.com/) hoặc[mua nó](https://purchase.aspose.com/buy)nếu bạn đã sẵn sàng mở khóa tất cả các tính năng của nó. Ngoài ra, nếu bạn muốn sử dụng nó mà không có giới hạn trong quá trình phát triển,[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) sẽ có ích.
+Nếu bạn chưa có Aspose.PDF cho .NET, hãy tải ngay [dùng thử miễn phí](https://releases.aspose.com/) hoặc [mua nó](https://purchase.aspose.com/buy) nếu bạn đã sẵn sàng mở khóa tất cả các tính năng của nó. Ngoài ra, nếu bạn muốn sử dụng nó mà không có giới hạn trong quá trình phát triển, [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) sẽ có ích.
 
 ## Nhập gói
 
@@ -37,7 +39,7 @@ using Aspose.Pdf;
 using Aspose.Pdf.Annotations;
 ```
 
-Hãy cùng bắt tay vào làm một số mã. Chúng tôi sẽ hướng dẫn bạn từng bước để đảm bảo bạn hiểu được những gì đang diễn ra ở từng giai đoạn.
+Hãy cùng bắt tay vào làm một số mã. Chúng ta sẽ thực hiện từng bước trong quy trình để đảm bảo bạn hiểu được những gì đang diễn ra ở từng giai đoạn.
 
 ## Bước 1: Thiết lập đường dẫn thư mục cho tệp PDF của bạn
 
@@ -59,11 +61,11 @@ Sau khi bạn đã có thư mục, bước tiếp theo là mở tệp PDF bằng
 Document pdfDocument = new Document(dataDir + "UpdateBookmarks.pdf");
 ```
 
- Đây,`Document` là lớp được sử dụng để tải tệp PDF vào bộ nhớ. Đảm bảo tên tệp khớp với tên trong thư mục của bạn. 
+Đây, `Document` là lớp được sử dụng để tải tệp PDF vào bộ nhớ. Đảm bảo tên tệp khớp với tên trong thư mục của bạn. 
 
 ## Bước 3: Truy cập Đối tượng Đánh dấu
 
- Bây giờ tệp PDF của bạn đã được tải, đã đến lúc xác định dấu trang cụ thể mà bạn muốn cập nhật. Các dấu trang trong PDF được lưu trữ trong`Outlines` bộ sưu tập. Số chỉ mục (`[1]`) đề cập đến vị trí của dấu trang trong bộ sưu tập.
+Bây giờ tệp PDF của bạn đã được tải, đã đến lúc xác định dấu trang cụ thể mà bạn muốn cập nhật. Các dấu trang trong PDF được lưu trữ trong `Outlines` bộ sưu tập. Số chỉ mục (`[1]`) đề cập đến vị trí của dấu trang trong bộ sưu tập.
 
 ```csharp
 // Nhận một đối tượng đánh dấu
@@ -82,7 +84,7 @@ pdfOutline.Italic = true;
 pdfOutline.Bold = true;
 ```
 
- Thay đổi`Title` cập nhật văn bản hiển thị trong dấu trang, trong khi thiết lập`Italic` Và`Bold` ĐẾN`true` thay đổi kiểu phông chữ. Những thay đổi này đảm bảo dấu trang của bạn được cập nhật theo nhu cầu của bạn.
+Thay đổi `Title` cập nhật văn bản hiển thị trong dấu trang, trong khi thiết lập `Italic` Và `Bold` ĐẾN `true` thay đổi kiểu phông chữ. Những thay đổi này đảm bảo dấu trang của bạn được cập nhật theo nhu cầu của bạn.
 
 ## Bước 5: Lưu tệp PDF đã cập nhật
 
@@ -93,7 +95,7 @@ dataDir = dataDir + "UpdateBookmarks_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Thao tác này sẽ lưu tệp PDF đã cập nhật với các thay đổi được áp dụng cho dấu trang. Tệp mới sẽ được đặt tên`UpdateBookmarks_out.pdf`, đảm bảo giữ nguyên bản gốc.
+Thao tác này sẽ lưu tệp PDF đã cập nhật với các thay đổi được áp dụng cho dấu trang. Tệp mới sẽ được đặt tên `UpdateBookmarks_out.pdf`, đảm bảo giữ nguyên bản gốc.
 
 ## Bước 6: Hiển thị thông báo thành công
 
@@ -112,22 +114,24 @@ Và thế là xong! Bây giờ bạn đã biết cách cập nhật dấu trang 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể cập nhật nhiều dấu trang trong cùng một tệp PDF không?  
- Có, bạn có thể cập nhật nhiều dấu trang bằng cách lặp qua`Outlines` thu thập và sửa đổi từng dấu trang khi cần thiết.
+Có, bạn có thể cập nhật nhiều dấu trang bằng cách lặp qua `Outlines` thu thập và sửa đổi từng dấu trang khi cần thiết.
 
 ### Điều gì xảy ra nếu tôi cố truy cập vào một dấu trang không tồn tại?  
- Bạn sẽ nhận được một`IndexOutOfRangeException` nếu bạn cố gắng truy cập vào một chỉ mục dấu trang không tồn tại. Luôn đảm bảo chỉ mục tương ứng với một dấu trang hiện có.
+Bạn sẽ nhận được một `IndexOutOfRangeException` nếu bạn cố gắng truy cập vào một chỉ mục dấu trang không tồn tại. Luôn đảm bảo chỉ mục tương ứng với một dấu trang hiện có.
 
 ### Tôi có thể thay đổi các thuộc tính khác của dấu trang như màu sắc hoặc hành động không?  
- Chắc chắn rồi! Bạn có thể sửa đổi các thuộc tính khác như`Destination`, `Color`và các hành động liên quan đến dấu trang.
+Chắc chắn rồi! Bạn có thể sửa đổi các thuộc tính khác như `Destination`, `Color`và các hành động liên quan đến dấu trang.
 
 ### Làm thế nào để thêm dấu trang mới thay vì cập nhật dấu trang hiện có?  
- Để thêm dấu trang mới, bạn có thể tạo một phiên bản mới của`OutlineItemCollection` và thêm nó vào`Outlines` bộ sưu tập.
+Để thêm dấu trang mới, bạn có thể tạo một phiên bản mới của `OutlineItemCollection` và thêm nó vào `Outlines` bộ sưu tập.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF cho .NET không?  
- Vâng, bạn sẽ cần giấy phép để sử dụng sản xuất. Tuy nhiên, bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích phát triển hoặc sử dụng[dùng thử miễn phí](https://releases.aspose.com/).
+Vâng, bạn sẽ cần giấy phép để sử dụng sản xuất. Tuy nhiên, bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích phát triển hoặc sử dụng [dùng thử miễn phí](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

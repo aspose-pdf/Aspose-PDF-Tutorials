@@ -1,53 +1,58 @@
 ---
-title: Aspose.PDF を使ってPDF で斜線を描く.
-weight: 7700
-limit: 
-description: .NET の PDF でAspose.PDFを使用して,PDF の横線を描く方法を学びます.PDF ドキュメントを作成し保存するには,C# のコード例でステップバイステップの指示に従ってください.  
-keywords: [Aspose.PDF for .NET, draw lines in PDF, diagonal lines PDF, C# PDF drawing, create PDF with lines, Aspose.PDF tutorial, .NET PDF example]
-url: /ja/net/graphs/drawing-line/
+"description": "Aspose.PDF for .NET を使用して PDF に斜め線を描く方法を学びましょう。C# のコード例を使ったステップバイステップの手順に従って、PDF ドキュメントを作成し、保存します。"
+"title": "Aspose.PDF for .NET を使用して PDF に斜めの線を描く"
+"url": "/ja/net/graphs/drawing-line/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
   
-# Aspose.PDF を使ってPDF で斜線を描く.
+# Aspose.PDF for .NET を使用して PDF に斜めの線を描く
 
-Aspose.PDFは,開発者が簡単に PDF 文書を作成,操作,編集できるようにします.この例では,C#を使用して PDF ページに 2 つの斜線をプログラム的に描く方法を示します. PDF 文書を初期化し,ページプロパティを設定し,グラフィック要素を追加し,最終出力を保存する方法を学びます.このガイドは,ステップバイステップアプローチを提供し,この機能を .NET アプリケーションに簡単に統合します.  
+Aspose.PDF for .NET を使用すると、開発者は PDF ドキュメントを簡単に作成、操作、編集できます。この例では、C# を使用してプログラム的に PDF ページに 2 本の対角線を描画する方法を紹介します。PDF ドキュメントの初期化、ページプロパティの設定、グラフィカル要素の追加、そして最終出力の保存方法を学習します。このガイドでは、ステップバイステップのアプローチで、この機能を .NET アプリケーションに簡単に統合できます。  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/drawing-line" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置説明書:  
+## インストール手順:  
 
-この手順を実行してください.  
+プロジェクトで Aspose.PDF for .NET を使用するには、次の手順に従います。  
 
-1. NuGet パッケージマネージャーでインストール  
-* Visual Studioを開いて新しい .NET プロジェクトを作成します.  
-* パッケージマネージャコンソール (Tools → NuGet パッケージマネージャ → パッケージマネージャ コンソール) を開いて実行します.  
+1. NuGet パッケージ マネージャー経由でインストールする  
+- Visual Studio を開き、新しい .NET プロジェクトを作成します。  
+- パッケージ マネージャー コンソール (ツール → NuGet パッケージ マネージャー → パッケージ マネージャー コンソール) を開き、次を実行します。  
   ```powershell
   Install-Package Aspose.PDF
   ```
 
-2. .NET CLI でインストール  
-代替として,パッケージをインストールするには .NET CLI を使用します.  
+2. .NET CLI 経由でインストール  
+または、.NET CLI を使用してパッケージをインストールします。  
 ```bash
 dotnet add package Aspose.PDF
 ```
 
-3. C#コードに名前空間に追加  
-Aspose.PDFの機能を使用するには,次の名前空間に追加します.  
+3. C# コードに名前空間を追加する  
+Aspose.PDF 機能を使用するには、次の名前空間を含めます。  
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 ```
-## 役に立つリンク:  
-* 文書:[Aspose.PDF は .NET ドキュメンテーション](https://docs.aspose.com/pdf/net/)  
-* API参照: [Aspose.PDF は .NET API 参照の](https://reference.aspose.com/pdf/net/)  
+## 便利なリンク:  
+- ドキュメント: [Aspose.PDF for .NET ドキュメント](https://docs.aspose.com/pdf/net/)  
+- APIリファレンス: [Aspose.PDF for .NET API リファレンス](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

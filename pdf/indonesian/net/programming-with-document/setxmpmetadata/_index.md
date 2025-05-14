@@ -1,14 +1,16 @@
 ---
-title: Mengatur XMPMetadata dalam File PDF
-linktitle: Mengatur XMPMetadata dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengatur metadata XMP dalam file PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda melalui seluruh proses, mulai dari pengaturan hingga penyimpanan dokumen.
-weight: 330
-url: /id/net/programming-with-document/setxmpmetadata/
+"description": "Pelajari cara mengatur metadata XMP dalam file PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda melalui seluruh proses, mulai dari pengaturan hingga penyimpanan dokumen."
+"linktitle": "Mengatur XMPMetadata dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Mengatur XMPMetadata dalam File PDF"
+"url": "/id/net/programming-with-document/setxmpmetadata/"
+"weight": 330
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur XMPMetadata dalam File PDF
@@ -21,7 +23,7 @@ Apakah Anda ingin menambahkan metadata ke berkas PDF Anda? Mungkin Anda ingin me
 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda persiapkan:
 
-1.  Pustaka Aspose.PDF untuk .NET: Jika Anda belum melakukannya, unduh versi terbaru Aspose.PDF untuk .NET dari[Di Sini](https://releases.aspose.com/pdf/net/).
+1. Pustaka Aspose.PDF untuk .NET: Jika Anda belum melakukannya, unduh versi terbaru Aspose.PDF untuk .NET dari [Di Sini](https://releases.aspose.com/pdf/net/).
 2. Lingkungan Pengembangan: Anda memerlukan Visual Studio atau lingkungan pengembangan .NET lainnya untuk menulis dan menjalankan kode.
 3. Pengetahuan Dasar C#: Jangan khawatir, kami akan menjelaskannya secara sederhana, tetapi pemahaman dasar tentang C# akan membantu.
 
@@ -41,7 +43,7 @@ Sekarang, mari kita masuk ke inti tutorial: mengatur metadata XMP dalam file PDF
 
 ## Langkah 1: Siapkan Jalur Direktori
 
- Hal pertama yang perlu Anda lakukan adalah menentukan direktori tempat file PDF Anda disimpan. Jika dokumen Anda berada di tempat lain, cukup ubah direktori tersebut`dataDir` variabel untuk menunjuk ke lokasi yang benar.
+Hal pertama yang perlu Anda lakukan adalah menentukan direktori tempat file PDF Anda disimpan. Jika dokumen Anda berada di tempat lain, cukup ubah direktori tersebut. `dataDir` variabel untuk menunjuk ke lokasi yang benar.
 
 Anggap langkah ini sebagai pemberian alamat rumah kepada kode Anda tempat ia dapat menemukan berkas PDF Anda. Tanpa alamat ini, kode tidak akan tahu di mana harus mencarinya.
 
@@ -53,7 +55,7 @@ Di sinilah Anda akan memberi tahu program di mana berkas Anda berada. Ini pentin
 
 ## Langkah 2: Buka Dokumen PDF
 
- Sekarang setelah kita mengatur direktori, langkah selanjutnya adalah memuat dokumen PDF Anda menggunakan`Document` kelas dari Aspose.PDF.
+Sekarang setelah kita mengatur direktori, langkah selanjutnya adalah memuat dokumen PDF Anda menggunakan `Document` kelas dari Aspose.PDF.
 
 Bayangkan Anda sedang membuka buku fisik. Langkah ini adalah padanan digital dari membuka PDF sehingga Anda dapat mulai membuat perubahan.
 
@@ -61,13 +63,13 @@ Bayangkan Anda sedang membuka buku fisik. Langkah ini adalah padanan digital dar
 Document pdfDocument = new Document(dataDir + "SetXMPMetadata.pdf");
 ```
 
- Baris kode ini memuat file PDF ke dalam`pdfDocument` objek. Pastikan nama berkas sesuai dengan nama di direktori Anda, atau program akan menampilkan kesalahan.
+Baris kode ini memuat file PDF ke dalam `pdfDocument` objek. Pastikan nama berkas sesuai dengan nama di direktori Anda, atau program akan menampilkan kesalahan.
 
 ## Langkah 3: Tetapkan Properti Metadata XMP
 
 Di sinilah keajaiban terjadi! Sekarang setelah dokumen PDF dimuat, kita dapat mengatur properti metadata seperti tanggal pembuatan, nama panggilan, atau properti kustom apa pun yang Anda inginkan.
 
-Anggap langkah ini seperti mengisi bagian "Tentang Saya" pada profil Anda. Di bagian ini, Anda menambahkan tanggal pembuatan, nama panggilan, atau detail lain yang ingin disematkan pada berkas PDF.
+Anggap langkah ini seperti mengisi bagian "Tentang Saya" pada profil Anda. Di bagian ini, Anda menambahkan tanggal pembuatan, nama panggilan, atau detail lain yang ingin disematkan dalam berkas PDF.
 
 ```csharp
 pdfDocument.Metadata["xmp:CreateDate"] = DateTime.Now;
@@ -82,7 +84,7 @@ Mari kita uraikannya:
 
 ## Langkah 4: Simpan Dokumen PDF yang Diperbarui
 
- Setelah mengatur metadata XMP, saatnya menyimpan dokumen PDF yang telah diperbarui. Kami akan memodifikasi`dataDir` jalur untuk memastikan file baru disimpan dengan nama yang berbeda.
+Setelah mengatur metadata XMP, saatnya menyimpan dokumen PDF yang telah diperbarui. Kami akan memodifikasi `dataDir` jalur untuk memastikan file baru disimpan dengan nama yang berbeda.
 
 Bayangkan Anda telah menulis catatan penting di buku catatan Anda. Sekarang, Anda perlu menaruhnya kembali di rak, tetapi kali ini, catatan tersebut berisi detail tambahan. Langkah ini menyimpan "buku catatan" baru Anda beserta metadatanya.
 
@@ -91,7 +93,7 @@ dataDir = dataDir + "SetXMPMetadata_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Baris kode ini menyimpan PDF yang diperbarui dengan nama`SetXMPMetadata_out.pdf`Anda dapat mengubah nama berkas jika Anda mau.
+Baris kode ini menyimpan PDF yang diperbarui dengan nama `SetXMPMetadata_out.pdf`Anda dapat mengubah nama berkas jika Anda mau.
 
 ## Langkah 5: Menampilkan Pesan Sukses
 
@@ -114,19 +116,21 @@ Nah, itu dia! Hanya dalam beberapa langkah sederhana, kita telah mempelajari car
 Metadata XMP merujuk pada data yang tertanam dalam berkas PDF yang menjelaskan berbagai properti dokumen, seperti tanggal pembuatan, penulis, dan properti kustom.
 
 ### Bisakah saya menambahkan beberapa properti khusus ke PDF saya?  
- Ya, Anda dapat menambahkan properti kustom sebanyak yang Anda suka menggunakan`Metadata`objek, hanya dengan menetapkan nilai ke kunci baru.
+Ya, Anda dapat menambahkan properti kustom sebanyak yang Anda suka menggunakan `Metadata` objek, hanya dengan menetapkan nilai ke kunci baru.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF untuk .NET?  
- Ya, Aspose.PDF untuk .NET memerlukan lisensi, tetapi Anda juga dapat mencobanya menggunakan[uji coba gratis](https://releases.aspose.com/).
+Ya, Aspose.PDF untuk .NET memerlukan lisensi, tetapi Anda juga dapat mencobanya menggunakan [uji coba gratis](https://releases.aspose.com/).
 
 ### Apa yang terjadi jika jalur berkas salah?  
 Jika jalur berkas tidak benar, program akan menampilkan kesalahan yang menyatakan bahwa berkas tidak dapat ditemukan. Pastikan nama berkas dan jalurnya benar.
 
 ### Bisakah saya mengubah metadata PDF yang dienkripsi?  
 Jika PDF dienkripsi, Anda harus mendekripsinya terlebih dahulu sebelum mengubah metadata.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

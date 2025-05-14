@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ दस्तावेज़ में फ़ॉर्म फ़ील्ड हटाएं
-linktitle: पीडीएफ दस्तावेज़ में फ़ॉर्म फ़ील्ड हटाएं
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में फ़ॉर्म फ़ील्ड को हटाना सीखें। डेवलपर्स और PDF उत्साही लोगों के लिए बिल्कुल सही।
-weight: 50
-url: /hi/net/programming-with-forms/delete-form-field/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में फ़ॉर्म फ़ील्ड को हटाना सीखें। डेवलपर्स और PDF उत्साही लोगों के लिए बिल्कुल सही।"
+"linktitle": "पीडीएफ दस्तावेज़ में फ़ॉर्म फ़ील्ड हटाएं"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ दस्तावेज़ में फ़ॉर्म फ़ील्ड हटाएं"
+"url": "/hi/net/programming-with-forms/delete-form-field/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ दस्तावेज़ में फ़ॉर्म फ़ील्ड हटाएं
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-forms/delete-form-field/
 इससे पहले कि हम फॉर्म फ़ील्ड्स को हटाने की बारीकियों में जाएं, कुछ चीजें हैं जिन्हें आपको ध्यान में रखना होगा:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यहीं पर हम अपना कोड लिखेंगे और निष्पादित करेंगे।
-2.  .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको हमारे द्वारा उपयोग किए जाने वाले कोड स्निपेट को समझने में मदद मिलेगी।
 4. एक नमूना पीडीएफ दस्तावेज़: एक पीडीएफ दस्तावेज़ तैयार रखें जिसमें फ़ॉर्म फ़ील्ड शामिल हों। आप किसी भी पीडीएफ संपादक का उपयोग करके इसे बना सकते हैं या एक नमूना डाउनलोड कर सकते हैं।
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## चरण 2: पीडीएफ दस्तावेज़ खोलें
 
- इसके बाद, हमें पीडीएफ दस्तावेज़ खोलना होगा जिसमें वह फ़ॉर्म फ़ील्ड है जिसे आप हटाना चाहते हैं। यह काम करने के लिए`Document` Aspose.PDF लाइब्रेरी से क्लास.
+इसके बाद, हमें पीडीएफ दस्तावेज़ खोलना होगा जिसमें वह फ़ॉर्म फ़ील्ड है जिसे आप हटाना चाहते हैं। यह काम करने के लिए `Document` Aspose.PDF लाइब्रेरी से क्लास.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "DeleteFormField.pdf");
@@ -94,16 +96,18 @@ Console.WriteLine("\nParticular field deleted successfully.\nFile saved at " + d
 हां, आप फॉर्म फ़ील्ड्स में लूप कर सकते हैं और कई फ़ील्ड्स को उनके नाम से हटा सकते हैं।
 
 ### क्या Aspose.PDF के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप Aspose.PDF का निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप Aspose.PDF का निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### यदि मुझे फॉर्म फ़ील्ड का नाम नहीं पता तो क्या होगा?
- आप दस्तावेज़ में सभी फ़ॉर्म फ़ील्ड को सूचीबद्ध कर सकते हैं`pdfDocument.Form` नाम खोजने के लिए संपत्ति का उपयोग करें।
+आप दस्तावेज़ में सभी फ़ॉर्म फ़ील्ड को सूचीबद्ध कर सकते हैं `pdfDocument.Form` नाम खोजने के लिए संपत्ति का उपयोग करें।
 
 ### मुझे Aspose.PDF के लिए समर्थन कहां मिल सकता है?
- आप Aspose समुदाय मंच से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/pdf/10).
+आप Aspose समुदाय मंच से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

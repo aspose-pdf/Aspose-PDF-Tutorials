@@ -1,14 +1,16 @@
 ---
-title: Pobierz informacje o załączniku
-linktitle: Pobierz informacje o załączniku
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak pobierać załączniki PDF w Javie za pomocą Aspose.PDF. Przewodnik krok po kroku z przykładami kodu do zarządzania załącznikami dokumentów PDF.
-weight: 12
-url: /pl/java/pdf-attachments/retrieve-attachment-information/
+"description": "Dowiedz się, jak pobierać załączniki PDF w Javie za pomocą Aspose.PDF. Przewodnik krok po kroku z przykładami kodu do zarządzania załącznikami dokumentów PDF."
+"linktitle": "Pobierz informacje o załączniku"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Pobierz informacje o załączniku"
+"url": "/pl/java/pdf-attachments/retrieve-attachment-information/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz informacje o załączniku
@@ -23,7 +25,7 @@ W tym samouczku dowiesz się, jak używać Aspose.PDF dla Java do pobierania inf
 Zanim zaczniesz, upewnij się, że spełniasz następujące wymagania wstępne:
 
 1. Zainstalowano środowisko programistyczne Java (JDK).
-2.  Aspose.PDF dla biblioteki Java. Możesz pobrać ją z[Tutaj](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF dla biblioteki Java. Możesz pobrać ją z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Krok 1: Utwórz projekt Java
 
@@ -69,13 +71,13 @@ Możesz dalej przetwarzać lub zapisywać załączniki w razie potrzeby. Na przy
 
 ## Wniosek
 
-tym samouczku nauczyłeś się, jak pobierać informacje o załącznikach z dokumentu PDF za pomocą Aspose.PDF dla Java. Teraz możesz włączyć tę funkcjonalność do swoich aplikacji Java, aby efektywnie pracować z załącznikami PDF.
+W tym samouczku nauczyłeś się, jak pobierać informacje o załącznikach z dokumentu PDF za pomocą Aspose.PDF dla Java. Teraz możesz włączyć tę funkcjonalność do swoich aplikacji Java, aby efektywnie pracować z załącznikami PDF.
 
 ## Najczęściej zadawane pytania
 
 ### Jak mogę wyodrębnić załączniki z pliku PDF?
 
- Aby wyodrębnić załączniki, możesz użyć`attachment.getData()` metoda umożliwiająca pobranie zawartości załącznika i zapisanie jej w pliku lokalnym.
+Aby wyodrębnić załączniki, możesz użyć `attachment.getData()` metoda umożliwiająca pobranie zawartości załącznika i zapisanie jej w pliku lokalnym.
 
 ### Czy mogę modyfikować załączniki w dokumencie PDF?
 Tak, możesz dodawać, usuwać lub aktualizować załączniki w dokumencie PDF za pomocą Aspose.PDF dla Java. Więcej szczegółów znajdziesz w dokumentacji.
@@ -86,10 +88,12 @@ Aspose.PDF for Java obsługuje szeroki zakres formatów załączników, w tym PD
 
 ### Jak mogę dodać nowe załączniki do pliku PDF?
 
- Za pomocą opcji możesz dodawać załączniki do dokumentu PDF`AttachmentCollection.add()`metoda. Wystarczy podać nazwę, opis i zawartość załącznika, a zostanie on dodany do dokumentu.
+Za pomocą opcji możesz dodawać załączniki do dokumentu PDF `AttachmentCollection.add()` metoda. Wystarczy podać nazwę, opis i zawartość załącznika, a zostanie on dodany do dokumentu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

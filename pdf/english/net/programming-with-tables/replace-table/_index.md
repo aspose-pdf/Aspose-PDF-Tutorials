@@ -8,7 +8,9 @@ url: /net/programming-with-tables/replace-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replace Table In PDF Document
@@ -166,6 +168,7 @@ You can request a temporary license to evaluate the product before making a purc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

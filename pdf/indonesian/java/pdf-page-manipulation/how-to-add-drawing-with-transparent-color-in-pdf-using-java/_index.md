@@ -1,14 +1,16 @@
 ---
-title: Cara Menambahkan Gambar dengan Warna Transparan dalam PDF menggunakan Java
-linktitle: Cara Menambahkan Gambar dengan Warna Transparan dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan gambar dengan warna transparan ke PDF menggunakan Java dan Aspose.PDF untuk Java. Buat PDF yang dinamis dan menarik secara visual dengan panduan langkah demi langkah dan contoh kode.
-weight: 14
-url: /id/java/pdf-page-manipulation/how-to-add-drawing-with-transparent-color-in-pdf-using-java/
+"description": "Pelajari cara menambahkan gambar dengan warna transparan ke PDF menggunakan Java dan Aspose.PDF untuk Java. Buat PDF yang dinamis dan menarik secara visual dengan panduan langkah demi langkah dan contoh kode."
+"linktitle": "Cara Menambahkan Gambar dengan Warna Transparan dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Cara Menambahkan Gambar dengan Warna Transparan dalam PDF menggunakan Java"
+"url": "/id/java/pdf-page-manipulation/how-to-add-drawing-with-transparent-color-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cara Menambahkan Gambar dengan Warna Transparan dalam PDF menggunakan Java
@@ -16,14 +18,14 @@ url: /id/java/pdf-page-manipulation/how-to-add-drawing-with-transparent-color-in
 
 ## Perkenalan
 
-Dalam tutorial ini, kita akan menjelajahi cara menambahkan gambar dengan warna transparan ke dokumen PDF menggunakan Java dan API Aspose.PDF untuk Java. Menambahkan gambar dengan warna transparan dapat menjadi fitur yang berguna saat Anda ingin membuat dokumen PDF yang menarik secara visual dan dinamis. Kami akan membahas seluruh proses langkah demi langkah, termasuk menyiapkan lingkungan, membuat dokumen PDF, menambahkan gambar, dan memastikan transparansi untuk warna yang digunakan dalam gambar tersebut.
+Dalam tutorial ini, kita akan menjelajahi cara menambahkan gambar dengan warna transparan ke dokumen PDF menggunakan Java dan API Aspose.PDF for Java. Menambahkan gambar dengan warna transparan dapat menjadi fitur yang berguna saat Anda ingin membuat dokumen PDF yang menarik secara visual dan dinamis. Kami akan membahas seluruh proses langkah demi langkah, termasuk menyiapkan lingkungan, membuat dokumen PDF, menambahkan gambar, dan memastikan transparansi untuk warna yang digunakan dalam gambar tersebut.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.PDF untuk pustaka Java, yang dapat Anda unduh dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java, yang dapat Anda unduh dari [Di Sini](https://releases.aspose.com/pdf/java/).
 - Lingkungan Pengembangan Terpadu (IDE) seperti Eclipse atau IntelliJ IDEA.
 
 ## Menyiapkan Proyek
@@ -50,7 +52,7 @@ public class AddDrawingToPDF {
 }
 ```
 
- Dalam kode ini, kita mengimpor`Document`kelas dari Aspose.PDF dan buat dokumen PDF baru. Kemudian, kami menyimpan dokumen tersebut ke dalam berkas bernama "output.pdf."
+Dalam kode ini, kita mengimpor `Document` kelas dari Aspose.PDF dan buat dokumen PDF baru. Kemudian, kami menyimpan dokumen tersebut ke dalam file bernama "output.pdf."
 
 ## Menambahkan Gambar dengan Warna Transparan
 
@@ -86,7 +88,7 @@ Dalam kode ini, kita membuat sebuah halaman, mendefinisikan sebuah persegi panja
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah mempelajari cara menambahkan gambar dengan warna transparan ke dokumen PDF menggunakan Java dan API Aspose.PDF untuk Java. Fitur ini memungkinkan Anda membuat PDF yang menarik secara visual dan dinamis, sehingga dokumen Anda menjadi lebih menarik dan informatif.
+Dalam tutorial ini, kita telah mempelajari cara menambahkan gambar dengan warna transparan ke dokumen PDF menggunakan Java dan API Aspose.PDF untuk Java. Fitur ini memungkinkan Anda membuat PDF yang menarik secara visual dan dinamis, sehingga dokumen Anda lebih menarik dan informatif.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -104,14 +106,16 @@ Tentu saja! Anda dapat menambahkan berbagai bentuk seperti lingkaran, elips, dan
 
 ### Bagaimana cara menyimpan dokumen PDF dengan nama atau lokasi yang berbeda?
 
- Anda dapat menentukan jalur dan nama file yang diinginkan saat memanggil`save` metode pada`Document`objek. Cukup berikan path lengkap, termasuk nama file dan ekstensinya.
+Anda dapat menentukan jalur dan nama file yang diinginkan saat memanggil `save` metode pada `Document` objek. Cukup berikan path lengkap, termasuk nama file dan ekstensinya.
 
 ### Di mana saya dapat menemukan informasi dan dokumentasi lebih lanjut untuk Aspose.PDF untuk Java?
 
- Anda dapat merujuk ke dokumentasi Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/) untuk informasi lengkap tentang penggunaan API, termasuk contoh kode terperinci dan panduan.
+Anda dapat merujuk ke dokumentasi Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/) untuk informasi lengkap tentang penggunaan API, termasuk contoh kode terperinci dan panduan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

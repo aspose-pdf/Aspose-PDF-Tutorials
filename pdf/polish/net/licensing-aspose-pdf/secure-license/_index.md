@@ -1,14 +1,16 @@
 ---
-title: Bezpieczna licencja w pliku PDF
-linktitle: Bezpieczna licencja w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak zabezpieczyć licencję Aspose.PDF w pliku PDF dzięki temu przewodnikowi krok po kroku. Odblokuj zaawansowane funkcje i zapewnij zgodność bez wysiłku.
-weight: 40
-url: /pl/net/licensing-aspose-pdf/secure-license/
+"description": "Dowiedz się, jak zabezpieczyć licencję Aspose.PDF w pliku PDF dzięki temu przewodnikowi krok po kroku. Odblokuj zaawansowane funkcje i zapewnij zgodność bez wysiłku."
+"linktitle": "Bezpieczna licencja w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Bezpieczna licencja w pliku PDF"
+"url": "/pl/net/licensing-aspose-pdf/secure-license/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bezpieczna licencja w pliku PDF
@@ -22,27 +24,27 @@ url: /pl/net/licensing-aspose-pdf/secure-license/
 Zanim zagłębisz się w kod, musisz spełnić kilka warunków wstępnych:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Tutaj będziesz pisać i wykonywać swój kod .NET.
-2.  Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[Wydania PDF Aspose](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [Wydania PDF Aspose](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
-4.  Plik licencyjny: Powinieneś mieć gotowy plik licencyjny Aspose. Jeśli go nie masz, możesz go uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach testowych.
+4. Plik licencyjny: Powinieneś mieć gotowy plik licencyjny Aspose. Jeśli go nie masz, możesz go uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach testowych.
 
 ## Importuj pakiety
 
 Aby zacząć, musisz zaimportować niezbędne pakiety do swojego projektu C#. Oto, jak możesz to zrobić:
 
-1. Otwórz projekt programu Visual Studio.
+1. Otwórz projekt Visual Studio.
 2. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań i wybierz opcję „Zarządzaj pakietami NuGet”.
-3.  Szukaj`Aspose.PDF` i zainstaluj najnowszą wersję.
+3. Szukaj `Aspose.PDF` i zainstaluj najnowszą wersję.
 
 Po zainstalowaniu pakietu możesz zacząć pisać kod zabezpieczający licencję.
 
 ## Krok 1: Utwórz nowy plik C#
 
-Po pierwsze, utwórz nowy plik C# w swoim projekcie. Możesz go nazwać`SecureLicense.cs`. Ten plik będzie zawierał cały kod potrzebny do zabezpieczenia Twojej licencji.
+Po pierwsze, utwórz nowy plik C# w swoim projekcie. Możesz go nazwać `SecureLicense.cs`. Ten plik będzie zawierał cały kod potrzebny do zabezpieczenia Twojej licencji.
 
 ## Krok 2: Dodaj dyrektywy Using
 
- Na szczycie twojego`SecureLicense.cs` plik, dodaj następujące dyrektywy using. Umożliwią one dostęp do klas i metod, których potrzebujesz z biblioteki Aspose.
+Na szczycie twojego `SecureLicense.cs` pliku, dodaj następujące dyrektywy using. Umożliwią one dostęp do klas i metod, których potrzebujesz z biblioteki Aspose.
 
 ```csharp
 using System.IO;
@@ -51,7 +53,7 @@ using Ionic.Zip;
 
 ## Krok 3: Zainicjuj bezpieczną licencję
 
- Teraz zainicjujmy bezpieczną licencję. To tutaj dzieje się magia. Będziesz używać`SecureLicense` klasa do zarządzania plikiem licencji. Oto jak to zrobić:
+Teraz zainicjujmy bezpieczną licencję. To tutaj dzieje się magia. Będziesz używać `SecureLicense` klasa do zarządzania plikiem licencji. Oto jak to zrobić:
 
 ```csharp
 using (Stream zip = new SecureLicense().GetType().Assembly.GetManifestResourceStream("Aspose.Total.lic.zip"))
@@ -68,7 +70,7 @@ using (Stream zip = new SecureLicense().GetType().Assembly.GetManifestResourceSt
 
 
 - Strumień zip: Ten wiersz inicjuje strumień w celu odczytania pliku licencji osadzonego w zestawie.
--  Plik Zip zf: Tutaj tworzymy nową instancję`ZipFile` aby odczytać zawartość pliku zip.
+- Plik Zip zf: Tutaj tworzymy nową instancję `ZipFile` aby odczytać zawartość pliku zip.
 - MemoryStream ms: Ten strumień pamięci będzie zawierał wyodrębniony plik licencji.
 - ZipEntry e: Ten wiersz pobiera konkretny wpis licencji z pliku zip.
 - ExtractWithPassword: Na koniec wyodrębniamy plik licencji korzystając z podanego hasła.
@@ -82,7 +84,7 @@ License license = new License();
 license.SetLicense(ms);
 ```
 
--  Licencja licencja: Tworzy nową instancję`License` klasa.
+- Licencja licencja: Tworzy nową instancję `License` klasa.
 - SetLicense(ms): Ta metoda ładuje licencję ze strumienia pamięci, który utworzyliśmy wcześniej.
 
 ## Krok 5: Przetestuj licencję
@@ -109,19 +111,21 @@ Zabezpieczenie licencji w pliku PDF za pomocą Aspose.PDF dla .NET to prosty pro
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów PDF w aplikacjach .NET.
 
 ### Jak uzyskać tymczasową licencję na Aspose.PDF?
- Możesz uzyskać tymczasową licencję, odwiedzając stronę[tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję, odwiedzając stronę [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
 Aspose oferuje bezpłatną wersję próbną, dzięki której możesz zapoznać się z biblioteką przed zakupem licencji.
 
 ### Gdzie mogę znaleźć dokumentację Aspose.PDF?
- Dokumentację można znaleźć pod adresem[Dokumentacja PDF Aspose](https://reference.aspose.com/pdf/net/).
+Dokumentację można znaleźć pod adresem [Dokumentacja PDF Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Co powinienem zrobić, jeśli mam problemy z prawem jazdy?
- Jeśli napotkasz jakiekolwiek problemy, możesz zwrócić się o pomoc do[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+Jeśli napotkasz jakiekolwiek problemy, możesz zwrócić się o pomoc do [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Belgesindeki Tüm Alanlardan Değerleri Al
-linktitle: PDF Belgesindeki Tüm Alanlardan Değerleri Al
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak bir PDF belgesindeki tüm alanlardan değerlerin nasıl çıkarılacağını öğrenin.
-weight: 150
-url: /tr/net/programming-with-forms/get-values-from-all-fields/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak bir PDF belgesindeki tüm alanlardan değerlerin nasıl çıkarılacağını öğrenin."
+"linktitle": "PDF Belgesindeki Tüm Alanlardan Değerleri Al"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Belgesindeki Tüm Alanlardan Değerleri Al"
+"url": "/tr/net/programming-with-forms/get-values-from-all-fields/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Belgesindeki Tüm Alanlardan Değerleri Al
@@ -22,7 +24,7 @@ Hiç bir PDF formundan veri çıkarmanız gerektiğini fark ettiniz mi? İster v
 Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. .NET Framework: Makinenizde .NET Framework'ün yüklü olduğundan emin olun. Aspose.PDF, .NET uygulamalarıyla sorunsuz bir şekilde çalışır.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. Visual Studio: İyi bir IDE kodlama deneyiminizi daha akıcı hale getirecektir. Visual Studio, .NET geliştirme için popüler bir seçimdir.
 4. Temel C# Bilgisi: C# programlamaya aşina olmak örnekleri daha iyi anlamanıza yardımcı olacaktır.
 
@@ -58,7 +60,7 @@ Artık her şeyi ayarladığımıza göre koda geçelim!
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu önemlidir çünkü yol yanlışsa, program PDF'nizi bulamaz.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu önemlidir çünkü yol yanlışsa, program PDF'nizi bulamaz.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -69,14 +71,14 @@ Artık yolu kurduğumuza göre, PDF belgesini açmanın zamanı geldi. Sihir bur
 Document pdfDocument = new Document(dataDir + "GetValuesFromAllFields.pdf");
 ```
 
- Burada, yeni bir örnek oluşturuyoruz`Document` sınıf ve PDF dosyamızın yolunu geç. Bu kod satırı PDF'yi belleğe yükleyerek onu işleme hazır hale getirir.
+Burada, yeni bir örnek oluşturuyoruz `Document` sınıf ve PDF dosyamızın yolunu geç. Bu kod satırı PDF'yi belleğe yükleyerek onu işleme hazır hale getirir.
 
 ## Adım 3: Form Alanlarına Erişim
 
 Belge açıkken artık form alanlarına erişebiliriz. Aspose.PDF, PDF formundaki tüm alanlar arasında kolayca yineleme yapmamızı sağlar.
 
 ```csharp
-//Tüm alanlardan değerleri al
+// Tüm alanlardan değerleri al
 foreach (Field formField in pdfDocument.Form)
 {
     Console.WriteLine("Field Name : {0} ", formField.PartialName);
@@ -84,7 +86,7 @@ foreach (Field formField in pdfDocument.Form)
 }
 ```
 
- Bu döngüde PDF formundaki her alanı inceliyoruz.`PartialName` özellik bize alanın adını verirken,`Value` property, o alana girilen verileri sağlar. Burada sıkı çalışmanızın sonuçlarını göreceksiniz!
+Bu döngüde PDF formundaki her alanı inceliyoruz. `PartialName` mülk bize alanın adını verirken, `Value` property, o alana girilen verileri sağlar. Burada sıkı çalışmanızın sonuçlarını göreceksiniz!
 
 ## Çözüm
 
@@ -93,22 +95,24 @@ Tebrikler! Aspose.PDF for .NET kullanarak bir PDF belgesindeki tüm alanlardan d
 ## SSS
 
 ### Aspose.PDF for .NET nedir?
-Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
+Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphanenin özelliklerini keşfetmeniz için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphanenin özelliklerini keşfetmeniz için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Dokümantasyonu nerede bulabilirim?
- .NET için Aspose.PDF'nin belgeleri şurada bulunabilir:[Burada](https://reference.aspose.com/pdf/net/).
+.NET için Aspose.PDF'nin belgeleri şurada bulunabilir: [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Lisansı nasıl satın alabilirim?
- Aspose.PDF için bir lisans satın almak için satın alma sayfasını ziyaret edebilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.PDF için bir lisans satın almak için satın alma sayfasını ziyaret edebilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Desteğe ihtiyacım olursa ne olur?
- Herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa Aspose destek forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa Aspose destek forumunu ziyaret edebilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

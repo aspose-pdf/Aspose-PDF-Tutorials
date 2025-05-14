@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PDF Manipulation: Adding an Image Stamp with Aspose.PDF Java
 
@@ -200,6 +202,9 @@ Ready to try it out? Apply these techniques to your projects and elevate your PD
 Explore these resources to deepen your understanding and harness the full potential of Aspose.PDF. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

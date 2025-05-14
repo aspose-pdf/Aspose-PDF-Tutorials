@@ -1,21 +1,23 @@
 ---
-title: PDF Dosyasında Köprü Metnini Alın
-linktitle: PDF Dosyasında Köprü Metnini Alın
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak bir PDF dosyasından köprü metnini zahmetsizce nasıl çıkaracağınızı öğrenin. Adım adım kılavuz ve kod dahildir.
-weight: 70
-url: /tr/net/programming-with-links-and-actions/get-hyperlink-text/
+"description": "Aspose.PDF for .NET kullanarak bir PDF dosyasından köprü metnini zahmetsizce nasıl çıkaracağınızı öğrenin. Adım adım kılavuz ve kod dahildir."
+"linktitle": "PDF Dosyasında Köprü Metnini Alın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Köprü Metnini Alın"
+"url": "/tr/net/programming-with-links-and-actions/get-hyperlink-text/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Köprü Metnini Alın
 
 ## giriiş
 
-PDF dosyalarıyla çalışmaya gelince, köprü metinlerini çıkarmak zorlu bir görev olabilir. İster bir geliştirici, ister bir veri analisti veya sadece belge işlemelerini kolaylaştırmak isteyen biri olun, doğru araç takımına sahip olmak büyük fark yaratabilir. PDF dosyalarını zahmetsizce düzenlemek için başvuracağınız kütüphaneniz olan Aspose.PDF for .NET'e girin. Bu makalede, bir PDF dosyasından köprü metni çıkarmayı adım adım inceleyeceğiz. O halde kemerlerinizi bağlayın ve PDF'lerin karmaşık dünyasına dalalım!
+PDF dosyalarıyla çalışmaya gelince, köprü metinlerini çıkarmak zorlu bir görev olabilir. İster bir geliştirici, ister bir veri analisti veya sadece belge işlemelerini kolaylaştırmak isteyen biri olun, doğru araç takımına sahip olmak büyük fark yaratabilir. PDF dosyalarını zahmetsizce düzenlemek için başvuracağınız kütüphaneniz olan Aspose.PDF for .NET'e girin. Bu makalede, bir PDF dosyasından köprü metni çıkarmayı adım adım inceleyeceğiz. O halde, kemerlerinizi bağlayın ve PDF'lerin karmaşık dünyasına dalalım!
 
 ## Ön koşullar
 
@@ -23,7 +25,7 @@ PDF'lerden köprü metni çıkarma yolculuğumuza başlamadan önce, başlamak i
 
 1. Temel C# Bilgisi: Biraz kod yazacağımız için C# programlamaya hakim olmak faydalı olacaktır.
 2. Visual Studio Kurulu: Makinenizde Visual Studio'nun kurulu olduğundan emin olun. Bu, kod yazma ve test etme oyun alanımız olacak.
-3.  .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/pdf/net/)veya ücretsiz denemeyle başlayın[Burada](https://releases.aspose.com/).
+3. .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/pdf/net/) veya ücretsiz denemeyle başlayın [Burada](https://releases.aspose.com/).
 
 ## Paketleri İçe Aktar
 
@@ -37,7 +39,7 @@ Her şeyi ayarladıktan sonra yapmamız gereken ilk şey gerekli paketleri içe 
 
 1. Çözüm Gezgini’nde projenizin üzerine sağ tıklayın.
 2. "NuGet Paketlerini Yönet" seçeneğini seçin.
-3.  Arama`Aspose.PDF` ve kurun.
+3. Arama `Aspose.PDF` ve kurun.
 4. Bu, Aspose.PDF tarafından sağlanan tüm harika sınıflara ve yöntemlere erişmenizi sağlayacaktır.
 
 ```csharp
@@ -59,11 +61,11 @@ Kodumuzda, öncelikle PDF belgemizin bulunduğu yolu belirtmemiz gerekecek. Bu, 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın gerçek yoluyla. Örneğin, şöyle görünebilir`"C:\\Documents\\"`.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın gerçek yoluyla. Örneğin, şöyle görünebilir `"C:\\Documents\\"`.
 
 ## Adım 2: PDF Belgesini Yükleyin
 
- Bir sonraki adım, işlemeye başlayabilmemiz için PDF dosyasını yüklemeyi içerir. Bir örneğini oluşturacağız`Document` sınıfını oluşturup dosya yolumuzu ona geçirelim.
+Bir sonraki adım, işlemeye başlayabilmemiz için PDF dosyasını yüklemeyi içerir. Bir örneğini oluşturacağız `Document` sınıfını oluşturup dosya yolumuzu ona geçirelim.
 
 ```csharp
 Document document = new Document(dataDir + "input.pdf");
@@ -83,7 +85,7 @@ foreach (Page page in document.Pages)
 }
 ```
 
- Bu döngüde, adında bir yöntem tanımlayacağız`ShowLinkAnnotations` hiperlinklerin çıkarılmasını gerçekleştirecek. 
+Bu döngüde, adında bir yöntem tanımlayacağız `ShowLinkAnnotations` hiperlinklerin çıkarılmasını gerçekleştirecek. 
 
 ## Adım 4: ShowLinkAnnotations Yöntemini Tanımlayın
 
@@ -103,8 +105,8 @@ private static void ShowLinkAnnotations(Page page)
 }
 ```
 
--  Açıklamanın Bağlantı Olup Olmadığını Kontrol Edin: Burada, sayfadaki açıklamanın bir Bağlantı olup olmadığını kontrol ediyoruz.`LinkAnnotation`Eğer öyleyse, başlığını ve URI'sini çıkarmaya devam ediyoruz.
--  Köprü Metnini Görüntüle: Kullanarak`Console.WriteLine`, bağlantı metnini ve ilgili URI'yi yazdırıyoruz.
+- Açıklamanın Bağlantı Olup Olmadığını Kontrol Edin: Burada, sayfadaki açıklamanın bir Bağlantı olup olmadığını kontrol ediyoruz. `LinkAnnotation`Eğer öyleyse, başlığını ve URI'sini çıkarmaya devam ediyoruz.
+- Köprü Metnini Görüntüle: Kullanarak `Console.WriteLine`, bağlantı metnini ve ilgili URI'yi yazdırıyoruz.
 
 ## Adım 5: İstisna İşleme
 
@@ -133,19 +135,21 @@ Tebrikler! Aspose.PDF for .NET kullanarak bir PDF dosyasından köprü metni ç�
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Ücretsiz bir sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Hangi tür hiper bağlantıları çıkarabilirim?
-PDF'de bulunan herhangi bir köprü metnini, ister tipik bir web URL'si, ister belge içindeki çapraz referans bağlantısı olsun, çıkarabilirsiniz.
+PDF içerisinde bulunan herhangi bir köprü metnini, ister tipik bir web URL'si, ister belge içerisinde çapraz referans bağlantısı olsun, çıkarabilirsiniz.
 
 ### Resim ve metinleri hiperlinklerle birlikte çıkarabilir miyim?
 Kesinlikle! Aspose.PDF yalnızca köprü metinlerini değil aynı zamanda PDF'lerden resim ve metinleri de çıkarma işlevi sağlar.
 
 ### Daha fazla Aspose.PDF kaynağını nerede bulabilirim?
- Ayrıntılı belgeler için şu adresi ziyaret edin:[Aspose PDF Belgeleri](https://reference.aspose.com/pdf/net/).
+Ayrıntılı belgeler için şu adresi ziyaret edin: [Aspose PDF Belgeleri](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: PDF Dosyasına Standart Tip 1 Yazı Tiplerini Göm
-linktitle: PDF Dosyasına Standart Tip 1 Yazı Tiplerini Göm
-second_title: Aspose.PDF for .NET API Referansı
-description: Belgenizin erişilebilirliğini artırmak için bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarına Standart Tip 1 yazı tiplerini nasıl yerleştireceğinizi öğrenin.
-weight: 140
-url: /tr/net/programming-with-text/embed-standard-type-1fonts/
+"description": "Belgenizin erişilebilirliğini artırmak için bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarına Standart Tip 1 yazı tiplerini nasıl yerleştireceğinizi öğrenin."
+"linktitle": "PDF Dosyasına Standart Tip 1 Yazı Tiplerini Göm"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Standart Tip 1 Yazı Tiplerini Göm"
+"url": "/tr/net/programming-with-text/embed-standard-type-1fonts/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Standart Tip 1 Yazı Tiplerini Göm
 
 ## giriiş
 
-Dijital dünyamızda PDF'ler en yaygın dosya türlerinden biridir. Akademik makalelerden iş sözleşmelerine kadar her şey için yaygın olarak kullanılırlar. Ancak, bir PDF'yi yalnızca metnin garip veya karışık göründüğünü bulmak için açtığınız oldu mu? Bu genellikle gerekli yazı tipleri belgeye yerleştirilmediğinde olur. Neyse ki, Aspose.PDF for .NET, Standart Tip 1 yazı tiplerini sorunsuz bir şekilde yerleştirmenize olanak tanır ve PDF'nizin her cihazda tam olarak tasarlandığı gibi görünmesini sağlar. Bu kılavuzda, Aspose.PDF for .NET kullanarak PDF belgelerinize yazı tiplerini yerleştirme adımlarını açıklayarak belgelerinizi platformlar arasında daha erişilebilir ve tutarlı hale getireceğiz.
+Dijital dünyamızda PDF'ler en yaygın dosya türlerinden biridir. Akademik makalelerden iş sözleşmelerine kadar her şey için yaygın olarak kullanılırlar. Ancak, hiç bir PDF'yi açıp metnin garip veya karışık göründüğünü gördünüz mü? Bu genellikle gerekli yazı tipleri belgeye yerleştirilmediğinde olur. Neyse ki, Aspose.PDF for .NET, Standart Tip 1 yazı tiplerini sorunsuz bir şekilde yerleştirmenize olanak tanır ve PDF'nizin her cihazda tam olarak tasarlandığı gibi görünmesini sağlar. Bu kılavuzda, Aspose.PDF for .NET kullanarak PDF belgelerinize yazı tiplerini yerleştirme adımlarını açıklayarak belgelerinizi platformlar arasında daha erişilebilir ve tutarlı hale getireceğiz.
 
 ## Ön koşullar
 
-PDF dosyalarınıza yazı tiplerini yerleştirmenin inceliklerine dalmadan önce, karşılamanız gereken birkaç ön koşul vardır:
+PDF dosyalarınıza yazı tiplerini yerleştirmenin inceliklerine dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
 1. C#'ın Temel Anlayışı: C# programlamasını kavramak hayati önem taşır. Bu dilin temellerine aşinaysanız, bu iyi bir başlangıçtır.
-2. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu henüz yapmadıysanız endişelenmeyin![buradan indirin](https://releases.aspose.com/pdf/net/). 
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu henüz yapmadıysanız endişelenmeyin! [buradan indirin](https://releases.aspose.com/pdf/net/). 
 3. Geliştirme Ortamı: Visual Studio gibi bir geliştirme ortamı önerilir. Bu, C# kodunuzu verimli bir şekilde yazmanıza, test etmenize ve çalıştırmanıza olanak tanır.
 4. Mevcut PDF Belgesi: Fontları yerleştirmek için temel dosya görevi görecek mevcut bir PDF belgeniz olduğundan emin olun.
 
@@ -30,7 +32,7 @@ Artık ön koşullarımızı tamamladığımıza göre, yazı tiplerini yerleşt
 
 ## Paketleri İçe Aktar
 
-Fontları yerleştirmeye başlamak için öncelikle Aspose.PDF kitaplığından gerekli paketleri içe aktarmanız gerekir. Bu adım çok önemlidir çünkü bu içe aktarmalar olmadan uygulamanız Aspose nesnelerini tanımaz. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Yazı tiplerini yerleştirmeye başlamak için öncelikle Aspose.PDF kitaplığından gerekli paketleri içe aktarmanız gerekir. Bu adım çok önemlidir çünkü bu içe aktarmalar olmadan uygulamanız Aspose nesnelerini tanımaz. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
 using System;
@@ -39,7 +41,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Bu içe aktarma işlemleri tamamlandığında, PDF belgeleriyle profesyonel gibi çalışmaya doğru yol alacaksınız.
+Bu içe aktarma işlemleri tamamlandığında, PDF belgeleriyle profesyonel gibi çalışmaya başlayacaksınız.
 
 Bunu net, uygulanabilir adımlara bölelim. Her adım, Standart Tip 1 yazı tiplerini PDF dosyanıza yerleştirme sürecinde size rehberlik edecektir.
 
@@ -51,21 +53,21 @@ Yapmak isteyeceğiniz ilk şey, belgelerinizin depolandığı yolu belirtmektir.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Basitçe değiştirin`"YOUR DOCUMENT DIRECTORY"` makinenizdeki gerçek yol ile.
+Basitçe değiştirin `"YOUR DOCUMENT DIRECTORY"` makinenizdeki gerçek yol ile.
 
 ## Adım 2: Mevcut bir PDF Belgesini Yükleyin
 
- Artık dizine işaret ettiğinize göre, mevcut PDF belgenizi yükleme zamanı geldi. Bu, şu şekilde yapılır:`Document` Aspose.PDF kütüphanesinden sınıf:
+Artık dizine işaret ettiğinize göre, mevcut PDF belgenizi yükleme zamanı geldi. Bu, şu şekilde yapılır: `Document` Aspose.PDF kütüphanesinden sınıf:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Bu satır, yeni bir örnek oluşturur`Document` sınıf, belirttiğiniz PDF'yi yüklüyor. Emin olun`"input.pdf"` PDF dosyanızın adıyla eşleşiyor.
+Bu satır, yeni bir örnek oluşturur `Document` sınıf, belirttiğiniz PDF'yi yüklüyor. Emin olun `"input.pdf"` PDF dosyanızın adıyla eşleşiyor.
 
 ## Adım 3: EmbedStandardFonts Özelliğini Ayarlayın
 
- Belgeniz yüklendiğinde, bu yazı tiplerini yerleştirmeye neredeyse hazırsınız. Bir sonraki adım,`EmbedStandardFonts` Belgenin özelliğini true olarak ayarlayın. Bu, Aspose.PDF'ye Standart Tip 1 yazı tiplerini belgeye yerleştirmesini söyler. 
+Belgeniz yüklendiğinde, bu yazı tiplerini yerleştirmeye neredeyse hazırsınız. Bir sonraki adım, `EmbedStandardFonts` Belgenin özelliğini true olarak ayarlayın. Bu, Aspose.PDF'ye Standart Tip 1 yazı tiplerini belgeye yerleştirmesini söyler. 
 
 ```csharp
 pdfDocument.EmbedStandardFonts = true;
@@ -97,7 +99,7 @@ foreach (Aspose.Pdf.Page page in pdfDocument.Pages)
 Bu kod bloğunda neler oluyor:
 - PDF'in her sayfasında dolaşıyorsunuz.
 - Her sayfa için kaynaklarda herhangi bir font olup olmadığını kontrol edersiniz.
--  Daha sonra, her bir yazı tipini dolaşıp gömülü olup olmadığını kontrol edersiniz. Eğer gömülü değilse, onu ayarlarsınız`IsEmbedded` mülkiyeti doğruya.
+- Daha sonra, her bir yazı tipini dolaşıp gömülü olup olmadığını kontrol edersiniz. Eğer gömülü değilse, onu ayarlarsınız `IsEmbedded` mülkiyetin doğruya çevrilmesi.
 
 ## Adım 5: Güncellenen PDF Belgesini Kaydedin
 
@@ -121,19 +123,21 @@ PDF belgelerinize font yerleştirmek, farklı platformlarda görsel bütünlüğ
 Standart Tip 1 yazı tipleri, Adobe tarafından tanımlanan bir yazı tipi kümesidir. Times, Helvetica ve Courier gibi popüler yazı tiplerini içerir.
 
 ### Aspose.PDF'i kullanmak için lisansa ihtiyacım var mı?
- Ücretsiz denemeyle başlayabilirsiniz ancak uzun süreli kullanım için ücretli lisans gereklidir. Daha fazla bilgi edinin[Burada](https://purchase.aspose.com/buy).
+Ücretsiz denemeyle başlayabilirsiniz ancak uzun süreli kullanım için ücretli lisans gereklidir. Daha fazla bilgi edinin [Burada](https://purchase.aspose.com/buy).
 
-### Bir fontun PDF'e gömülü olup olmadığını nasıl kontrol edebilirim?
- Kontrol ederek`IsEmbedded`Aspose.PDF aracılığıyla PDF'nizdeki yazı tipinin özelliği.
+### Bir yazı tipinin PDF'e gömülü olup olmadığını nasıl kontrol edebilirim?
+Kontrol ederek `IsEmbedded` Aspose.PDF aracılığıyla PDF'nizdeki yazı tipinin özelliği.
 
-### Diğer yazı tiplerini eklemenin bir yolu var mı?
+### Diğer yazı tiplerini yerleştirmenin bir yolu var mı?
 Evet! Aspose.PDF, Standart Tip 1'in yanı sıra çeşitli yazı tiplerinin gömülmesini destekler. Ayrıntılar için belgelere bakın.
 
 ###5. Sorunlarla karşılaşırsam nereden destek alabilirim?
- Aspose ürünlerine ilişkin desteği şu adreste bulabilirsiniz:[destek forumu](https://forum.aspose.com/c/pdf/10).
+Aspose ürünlerine yönelik desteğe şu adresten ulaşabilirsiniz: [destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

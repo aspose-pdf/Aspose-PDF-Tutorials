@@ -1,14 +1,16 @@
 ---
-title: Tag dan Struktur PDF
-linktitle: Tag dan Struktur PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Kuasai tag dan struktur PDF di Java dengan tutorial Aspose.PDF untuk Java. Buat PDF yang mudah diakses dan terorganisasi dengan mudah.
-weight: 21
-url: /id/java/pdf-tags-and-structure/
+"description": "Kuasai tag dan struktur PDF di Java dengan tutorial Aspose.PDF untuk Java. Buat PDF yang mudah diakses dan terorganisasi dengan mudah."
+"linktitle": "Tag dan Struktur PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Tag dan Struktur PDF"
+"url": "/id/java/pdf-tags-and-structure/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tag dan Struktur PDF
@@ -40,9 +42,11 @@ Temukan cara membuat dan menyesuaikan tabel dalam dokumen PDF menggunakan Java d
 Pelajari cara mengatur nama tag khusus untuk dokumen PDF menggunakan Java dengan Aspose.PDF untuk Java.
 ### [Ilustrasi Elemen Struktur dalam PDF menggunakan Java](./illustration-structure-elements-in-pdf-using-java/)
 Pelajari cara membuat ilustrasi dan elemen struktur dalam file PDF menggunakan Java dengan Aspose.PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

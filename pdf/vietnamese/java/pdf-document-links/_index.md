@@ -1,14 +1,16 @@
 ---
-title: Liên kết tài liệu PDF
-linktitle: Liên kết tài liệu PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Khám phá các liên kết tài liệu PDF trong Java với hướng dẫn Aspose.PDF cho Java. Tạo siêu liên kết, dấu trang và PDF tương tác dễ dàng.
-weight: 15
-url: /vi/java/pdf-document-links/
+"description": "Khám phá các liên kết tài liệu PDF trong Java với hướng dẫn Aspose.PDF cho Java. Tạo siêu liên kết, dấu trang và PDF tương tác dễ dàng."
+"linktitle": "Liên kết tài liệu PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Liên kết tài liệu PDF"
+"url": "/vi/java/pdf-document-links/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Liên kết tài liệu PDF
@@ -35,9 +37,11 @@ Mở khóa tiềm năng của liên kết tài liệu PDF trong Java với hư�
 Tìm hiểu cách thêm siêu liên kết vào tệp PDF bằng Java với hướng dẫn từng bước và mã nguồn. Nâng cao tài liệu PDF của bạn bằng tính tương tác.
 ### [Tạo liên kết đến tài liệu PDF khác bằng Java](./create-a-link-to-another-pdf-document-using-java/)
 Tìm hiểu cách tạo liên kết tài liệu PDF trong Java dễ dàng với Aspose.PDF cho Java. Hướng dẫn từng bước để tương tác với PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

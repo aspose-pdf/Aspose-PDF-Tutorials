@@ -1,14 +1,16 @@
 ---
-title: Thêm chú giải công cụ vào văn bản trong tệp PDF
-linktitle: Thêm chú giải công cụ vào văn bản trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm chú giải công cụ vào văn bản trong tệp PDF bằng Aspose.PDF cho .NET. Cải thiện tệp PDF của bạn bằng văn bản thông tin di chuột dễ dàng.
-weight: 90
-url: /vi/net/programming-with-text/add-tooltip-to-text/
+"description": "Tìm hiểu cách thêm chú giải công cụ vào văn bản trong tệp PDF bằng Aspose.PDF cho .NET. Cải thiện tệp PDF của bạn bằng văn bản thông tin di chuột dễ dàng."
+"linktitle": "Thêm chú giải công cụ vào văn bản trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm chú giải công cụ vào văn bản trong tệp PDF"
+"url": "/vi/net/programming-with-text/add-tooltip-to-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm chú giải công cụ vào văn bản trong tệp PDF
@@ -21,11 +23,11 @@ Khi nói đến việc tạo PDF hấp dẫn và tương tác, chú giải công
 
 Trước khi bắt đầu phần mã hóa, hãy đảm bảo rằng bạn có mọi thứ cần thiết để theo dõi một cách suôn sẻ.
 
-### Đã cài đặt Visual Studio
+### Visual Studio đã được cài đặt
 Điều cần thiết là phải cài đặt Visual Studio trên máy của bạn vì đây sẽ là môi trường phát triển chính cho các ứng dụng .NET.
 
 ### Aspose.PDF cho Thư viện .NET
- Bạn cũng sẽ cần phải có thư viện Aspose.PDF theo ý của bạn. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/). Hãy đảm bảo đưa nó vào phần tham khảo dự án của bạn.
+Bạn cũng sẽ cần phải có thư viện Aspose.PDF theo ý của bạn. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/)Hãy đảm bảo đưa nó vào phần tham khảo dự án của bạn.
 
 ### Kiến thức cơ bản về C#
 Nền tảng về C# sẽ giúp ích rất nhiều vì chúng ta sẽ mã hóa bằng ngôn ngữ đó. Nhưng đừng lo lắng—tôi sẽ hướng dẫn bạn từng bước!
@@ -37,7 +39,7 @@ Bây giờ, chúng ta hãy chuyển sang phần mã hóa!
 
 ## Nhập gói 
 
- Bước đầu tiên trong cuộc phiêu lưu mã hóa của chúng ta bao gồm việc nhập các gói cần thiết. Mở dự án Visual Studio của bạn và ở đầu tệp C#, bạn sẽ muốn thêm nội dung sau`using` chỉ thị:
+Bước đầu tiên trong cuộc phiêu lưu mã hóa của chúng ta bao gồm việc nhập các gói cần thiết. Mở dự án Visual Studio của bạn và ở đầu tệp C#, bạn sẽ muốn thêm nội dung sau `using` chỉ thị:
 
 ```csharp
 using Aspose.Pdf.Forms;
@@ -48,7 +50,7 @@ Các gói này cung cấp cho bạn quyền truy cập vào tất cả các lớ
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
-Trước tiên, chúng ta cần thiết lập đường dẫn nơi bạn sẽ lưu tài liệu. Hãy nghĩ về điều này như việc tìm một vị trí thoải mái trong hệ thống tệp của bạn, nơi lưu trữ tất cả các sáng tạo của bạn.
+Trước tiên, chúng ta cần thiết lập đường dẫn nơi bạn sẽ lưu tài liệu của mình. Hãy nghĩ về điều này như việc tìm một vị trí thoải mái trong hệ thống tệp của bạn, nơi tất cả các sáng tạo của bạn sẽ nằm.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -56,14 +58,14 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outputFile = dataDir + "Tooltip_out.pdf";
 ```
 
- Hãy chắc chắn thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế trên máy của bạn.
+Hãy chắc chắn thay thế `YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế trên máy của bạn.
 
 ## Bước 2: Tạo một tài liệu PDF mẫu
 
 Tiếp theo, đã đến lúc tạo một tệp PDF đơn giản có một số văn bản. Đây là nơi chúng ta bắt đầu quá trình sáng tạo của mình!
 
 ```csharp
-//Tạo tài liệu mẫu có văn bản
+// Tạo tài liệu mẫu có văn bản
 Document doc = new Document();
 doc.Pages.Add().Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a tooltip"));
 doc.Pages[1].Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a very long tooltip"));
@@ -173,19 +175,21 @@ Chỉ cần di chuột qua một từ hoặc cụm từ, người đọc sẽ nh
 Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp bản dùng thử miễn phí để bạn khám phá các tính năng của nó! Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí để bạn khám phá các tính năng của nó! Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/).
 
 ### Có tùy chọn cấp phép nào cho Aspose.PDF không?
-Có, bạn có thể mua giấy phép hoặc xin giấy phép tạm thời. Kiểm tra các tùy chọn[đây](https://purchase.aspose.com/).
+Có, bạn có thể mua giấy phép hoặc xin giấy phép tạm thời. Kiểm tra các tùy chọn [đây](https://purchase.aspose.com/).
 
 ### Tôi có thể thêm các thành phần tương tác khác ngoài chú giải công cụ bằng Aspose.PDF không?
 Hoàn toàn có thể! Aspose.PDF cho phép thêm nhiều thành phần tương tác khác nhau như siêu liên kết, nút và biểu mẫu.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF ở đâu?
- Bạn có thể kiểm tra tài liệu[đây](https://reference.aspose.com/pdf/net/) để được hướng dẫn chi tiết hơn.
+Bạn có thể kiểm tra tài liệu [đây](https://reference.aspose.com/pdf/net/) để được hướng dẫn chi tiết hơn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

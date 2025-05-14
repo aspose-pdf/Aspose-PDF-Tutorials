@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set PDF Privileges Using Aspose.PDF Java: A Secure Guide for Document Management
 
@@ -155,7 +157,11 @@ By following this guide, you've learned how to set PDF document privileges using
 - **Free Trial:** [Try Aspose PDF for Java](https://releases.aspose.com/pdf/java/)
 - **Temporary License:** [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum:** [Aspose Support Community](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

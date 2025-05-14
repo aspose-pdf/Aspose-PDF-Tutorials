@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasını Şifrele
-linktitle: PDF Dosyasını Şifrele
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyalarınızı zahmetsizce nasıl şifreleyeceğinizi öğrenin. Kolay adım adım kılavuzumuzla hassas bilgileri güvence altına alın.
-weight: 60
-url: /tr/net/programming-with-security-and-signatures/encrypt/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyalarınızı zahmetsizce nasıl şifreleyeceğinizi öğrenin. Kolay adım adım kılavuzumuzla hassas bilgileri güvence altına alın."
+"linktitle": "PDF Dosyasını Şifrele"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasını Şifrele"
+"url": "/tr/net/programming-with-security-and-signatures/encrypt/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasını Şifrele
@@ -22,7 +24,7 @@ PDF dosyalarınızı yetkisiz erişime karşı korumak mı istiyorsunuz? Öyleys
 Adım adım kılavuza geçmeden önce birkaç şeyden emin olmanız gerekir:
 
 1. Visual Studio Kurulu Olmalıdır: Kodumuzu C# ile yazacağımız için makinenizde Visual Studio kurulu olmalıdır.
-2.  Aspose.PDF for .NET: Bu, PDF'lerimizi şifrelemek için kullanacağımız kütüphanedir. Ücretsiz deneme sürümünü şuradan edinebilirsiniz:[Aspose'un web sitesi](https://releases.aspose.com/).
+2. Aspose.PDF for .NET: Bu, PDF'lerimizi şifrelemek için kullanacağımız kütüphanedir. Ücretsiz deneme sürümünü şuradan edinebilirsiniz: [Aspose'un web sitesi](https://releases.aspose.com/).
 3. Temel C# Bilgisi: C# programlamaya aşinalık, kodu daha iyi anlamanıza yardımcı olacaktır.
 4. Belgeler Dizini: PDF dosyalarınızın bulunduğu bir dizininiz olduğundan emin olun. Tanıtım amaçlı olarak buna "BELGELER DİZİNİNİZ" diyeceğiz.
 
@@ -30,7 +32,7 @@ Bu ön koşulları sağladıktan sonra yola çıkmaya hazırsınız!
 
 ## Paketleri İçe Aktar
 
- Başlamak için gerekli paketleri projenize aktarmanız gerekir. C# kodunuzda aşağıdakilere sahip olduğunuzdan emin olun`using` en üstteki direktif:
+Başlamak için gerekli paketleri projenize aktarmanız gerekir. C# kodunuzda aşağıdakilere sahip olduğunuzdan emin olun `using` en üstteki direktif:
 
 ```csharp
 using System;
@@ -49,7 +51,7 @@ PDF'nizi şifrelemeden önce, PDF dosyanızın bulunduğu yolu belirtmeniz gerek
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Sadece değiştir`YOUR DOCUMENTS DIRECTORY` bilgisayarınızdaki gerçek yol ile. Örneğin, şöyle görünebilir`C:\\Documents\\`.
+Sadece değiştir `YOUR DOCUMENTS DIRECTORY` bilgisayarınızdaki gerçek yol ile. Örneğin, şöyle görünebilir `C:\\Documents\\`.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -60,7 +62,7 @@ Artık dosyanın yolu ayarlandığına göre, şifrelemek istediğiniz PDF belge
 Document document = new Document(dataDir + "Encrypt.pdf");
 ```
 
- Burada, değiştirin`"Encrypt.pdf"` PDF dosyanızın gerçek adıyla. Bu kod satırı bir`Document` PDF'nizi temsil eden nesne.
+Burada, değiştirin `"Encrypt.pdf"` PDF dosyanızın gerçek adıyla. Bu kod satırı bir `Document` PDF'nizi temsil eden nesne.
 
 ## Adım 3: PDF Belgesini Şifreleyin
 
@@ -72,10 +74,10 @@ document.Encrypt("user", "owner", 0, CryptoAlgorithm.RC4x128);
 ```
 
 Bunu biraz açalım:
--  Kullanıcı Şifresi: Ayarla`"user"`, bu birisinin PDF'yi görüntülemesine izin verecek şifredir.
--  Sahip Parolası: Ayarla`"owner"`Bu parola, belge üzerinde yazdırma veya içerik kopyalama izinleri gibi tam kontrol sağlayacaktır.
--  Şifreleme Seviyesi:`0` şifrelemenin izinsiz olarak ayarlandığı anlamına gelir.
--  Kripto Algoritması: Biz seçtik`RC4x128`, ancak keşfedebileceğiniz başka seçenekler de var.
+- Kullanıcı Şifresi: Ayarla `"user"`, bu birisinin PDF'yi görüntülemesine izin verecek şifredir.
+- Sahip Parolası: Ayarla `"owner"`Bu parola, belge üzerinde yazdırma veya içerik kopyalama izinleri gibi tam kontrol sağlayacaktır.
+- Şifreleme Seviyesi: `0` şifrelemenin izinsiz olarak ayarlandığı anlamına gelir.
+- Kripto Algoritması: Biz seçtik `RC4x128`, ancak keşfedebileceğiniz başka seçenekler de var.
 
 ## Adım 4: Şifrelenmiş PDF'yi kaydedin
 
@@ -86,7 +88,7 @@ dataDir = dataDir + "Encrypt_out.pdf";
 document.Save(dataDir);
 ```
 
- Bu kod şifrelenmiş PDF'nizi yeni bir adla kaydeder.`Encrypt_out.pdf`. Kolay, değil mi?
+Bu kod şifrelenmiş PDF'nizi yeni bir adla kaydeder. `Encrypt_out.pdf`. Kolay, değil mi?
 
 ## Adım 5: Şifrelemenin Başarılı Olduğunu Onaylayın
 
@@ -108,7 +110,7 @@ Ve işte oldu! Aspose.PDF for .NET kullanarak bir PDF dosyasını nasıl şifrel
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve yönetmelerine olanak tanıyan sağlam bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz deneyebilir miyim?
- Kesinlikle! Ücretsiz denemeyle başlayabilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz denemeyle başlayabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF hangi şifreleme algoritmalarını destekler?
 Aspose.PDF, RC4, AES vb. dahil olmak üzere çeşitli algoritmaları destekler. İhtiyaçlarınıza uygun olanı seçebilirsiniz.
@@ -117,10 +119,12 @@ Aspose.PDF, RC4, AES vb. dahil olmak üzere çeşitli algoritmaları destekler. 
 Şifreleme sırasında, içerik yazdırma ve kopyalama gibi etkinliklere izin veren veya bunları kısıtlayan izin düzeylerini belirleyebilirsiniz.
 
 ### Daha fazla yardım veya desteği nereden bulabilirim?
- Herhangi bir soru veya destek için lütfen şu adresi ziyaret edin:[Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Herhangi bir soru veya destek için lütfen şu adresi ziyaret edin: [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

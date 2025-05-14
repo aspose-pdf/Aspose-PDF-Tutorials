@@ -8,7 +8,9 @@ url: /net/programming-with-document/customizepagenumbeswhileaddingtoc/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Customize Page Numbes While Adding TOC
@@ -146,6 +148,7 @@ You can purchase Aspose.PDF for .NET [here](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

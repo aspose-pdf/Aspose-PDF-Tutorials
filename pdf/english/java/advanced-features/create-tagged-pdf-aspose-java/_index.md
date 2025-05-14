@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating a Tagged PDF Document Using Aspose.PDF for Java
 
@@ -232,6 +234,9 @@ A5: Optimize your code by managing resources efficiently and using appropriate m
 By following this guide, you're well on your way to mastering the creation of tagged PDFs with Aspose.PDF for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

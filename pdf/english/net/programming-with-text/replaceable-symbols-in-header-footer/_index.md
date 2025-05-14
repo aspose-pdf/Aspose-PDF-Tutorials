@@ -8,7 +8,9 @@ url: /net/programming-with-text/replaceable-symbols-in-header-footer/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replaceable Symbols In Header Footer
@@ -215,6 +217,7 @@ You can adjust the margins and alignment properties to control the position of y
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

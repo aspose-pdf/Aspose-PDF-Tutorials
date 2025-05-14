@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Validate PDF Documents for PDF/A-1b Compliance Using Aspose.PDF for Java
 
@@ -161,6 +163,9 @@ To further explore Aspose.PDF's features, consider experimenting with document c
 Embark on your journey to mastering PDF validation with Aspose.PDF for Java and enhance the reliability of your digital documents today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

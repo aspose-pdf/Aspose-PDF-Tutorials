@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert XFA to AcroForms in Java with Aspose.PDF
 ## Introduction
@@ -114,7 +116,11 @@ By following this guide, you've learned how to convert XFA forms into AcroForms 
 - **Purchase**: [Buy Aspose License](https://purchase.aspose.com/buy)
 - **Free Trial & Temporary License**: [Get Started with Aspose](https://releases.aspose.com/pdf/java/), [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

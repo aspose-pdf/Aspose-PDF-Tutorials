@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/text-in-footer/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Text In Footer Of PDF File
@@ -145,6 +147,7 @@ You can clear existing stamps using the `Page.DeleteStampById` method or by usin
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

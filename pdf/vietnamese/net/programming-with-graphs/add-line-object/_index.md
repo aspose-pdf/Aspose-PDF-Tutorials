@@ -1,14 +1,16 @@
 ---
-title: Thêm đối tượng đường thẳng vào tệp PDF
-linktitle: Thêm đối tượng đường thẳng vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm đối tượng đường thẳng vào tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho người mới bắt đầu.
-weight: 30
-url: /vi/net/programming-with-graphs/add-line-object/
+"description": "Tìm hiểu cách thêm đối tượng đường thẳng vào tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho người mới bắt đầu."
+"linktitle": "Thêm đối tượng đường thẳng vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm đối tượng đường thẳng vào tệp PDF"
+"url": "/vi/net/programming-with-graphs/add-line-object/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm đối tượng đường thẳng vào tệp PDF
@@ -22,7 +24,7 @@ Tạo PDF theo chương trình có thể là một nhiệm vụ khó khăn, đ�
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là IDE tốt nhất cho phát triển .NET.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -31,7 +33,7 @@ Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Mở dự án Visual Studio của bạn.
 2. Nhấp chuột phải vào dự án của bạn trong Solution Explorer và chọn "Quản lý gói NuGet".
-3.  Tìm kiếm`Aspose.PDF` và cài đặt nó.
+3. Tìm kiếm `Aspose.PDF` và cài đặt nó.
 
 ```csharp
 using System.IO;
@@ -39,7 +41,7 @@ using System;
 using Aspose.Pdf;
 ```
 
-Sau khi cài đặt gói, bạn có thể bắt đầu viết mã!
+Sau khi cài đặt xong gói, bạn có thể bắt đầu viết mã!
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
@@ -50,11 +52,11 @@ Trước tiên, bạn cần xác định nơi lưu tệp PDF của mình. Điề
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. Điều này rất quan trọng vì nếu đường dẫn không đúng, tệp của bạn sẽ không được lưu.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. Điều này rất quan trọng vì nếu đường dẫn không đúng, tệp của bạn sẽ không được lưu.
 
 ## Bước 2: Tạo một phiên bản tài liệu
 
- Tiếp theo, bạn cần tạo một phiên bản của`Document` lớp. Lớp này đại diện cho tài liệu PDF của bạn. Sau đây là cách thực hiện:
+Tiếp theo, bạn cần tạo một phiên bản của `Document` lớp. Lớp này đại diện cho tài liệu PDF của bạn. Sau đây là cách thực hiện:
 
 ```csharp
 // Tạo phiên bản Tài liệu
@@ -72,11 +74,11 @@ Bây giờ bạn đã có tài liệu, đã đến lúc thêm một trang vào �
 Page page = doc.Pages.Add();
 ```
 
-Mã này thêm một trang mới vào tài liệu của bạn. Bạn có thể nghĩ về nó như việc thêm một khung vẽ trống nơi bạn có thể vẽ hoặc viết.
+Mã này thêm một trang mới vào tài liệu của bạn. Bạn có thể nghĩ về nó như việc thêm một trang vải trống nơi bạn có thể vẽ hoặc viết.
 
 ## Bước 4: Tạo một thể hiện đồ thị
 
- Để vẽ các hình dạng như đường thẳng, bạn cần tạo một`Graph` Ví dụ. Đây là nơi đường của bạn sẽ được vẽ. Sau đây là cách tạo biểu đồ:
+Để vẽ các hình dạng như đường thẳng, bạn cần tạo một `Graph` Ví dụ. Đây là nơi đường của bạn sẽ được vẽ. Sau đây là cách tạo biểu đồ:
 
 ```csharp
 // Tạo phiên bản đồ thị
@@ -117,7 +119,7 @@ line.GraphInfo.DashArray = new int[] { 0, 1, 0 };
 line.GraphInfo.DashPhase = 1;
 ```
 
- Trong mã này, chúng ta đang tạo một đường nét đứt.`DashArray`thuộc tính xác định mẫu dấu gạch ngang và khoảng trống, trong khi`DashPhase` chỉ định điểm bắt đầu của mẫu gạch ngang.
+Trong mã này, chúng ta đang tạo một đường nét đứt. `DashArray` thuộc tính xác định mẫu dấu gạch ngang và khoảng trống, trong khi `DashPhase` chỉ định điểm bắt đầu của mẫu gạch ngang.
 
 ## Bước 8: Thêm đường thẳng vào biểu đồ
 
@@ -140,7 +142,7 @@ dataDir = dataDir + "AddLineObject_out.pdf";
 doc.Save(dataDir);
 ```
 
- Mã này lưu tệp PDF của bạn với tên`AddLineObject_out.pdf` trong thư mục bạn đã chỉ định trước đó. 
+Mã này lưu tệp PDF của bạn với tên `AddLineObject_out.pdf` trong thư mục bạn đã chỉ định trước đó. 
 
 ## Bước 10: Xác nhận thao tác
 
@@ -162,19 +164,21 @@ Và thế là xong! Bạn đã thêm thành công một đối tượng đườn
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu về Aspose.PDF ở đâu?
- Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu [đây](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để mua giấy phép cho Aspose.PDF?
- Bạn có thể mua giấy phép cho Aspose.PDF[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép cho Aspose.PDF [đây](https://purchase.aspose.com/buy).
 
 ### Tôi phải làm gì nếu gặp vấn đề?
- Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

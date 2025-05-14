@@ -1,14 +1,16 @@
 ---
-title: Отключить сжатие файлов в PDF-файле
-linktitle: Отключить сжатие файлов в PDF-файле
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как отключить сжатие файлов в PDF-файлах с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Улучшите свои навыки управления PDF-файлами.
-weight: 30
-url: /ru/net/programming-with-attachments/disable-files-compression/
+"description": "Узнайте, как отключить сжатие файлов в PDF-файлах с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Улучшите свои навыки управления PDF-файлами."
+"linktitle": "Отключить сжатие файлов в PDF-файле"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Отключить сжатие файлов в PDF-файле"
+"url": "/ru/net/programming-with-attachments/disable-files-compression/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Отключить сжатие файлов в PDF-файле
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-attachments/disable-files-compression/
 
 Прежде чем погрузиться в код, необходимо выполнить несколько предварительных условий:
 
-1.  Aspose.PDF для .NET: Убедитесь, что у вас установлена библиотека Aspose.PDF. Вы можете загрузить ее с[веб-сайт](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF для .NET: Убедитесь, что у вас установлена библиотека Aspose.PDF. Вы можете загрузить ее с [веб-сайт](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: среда разработки, в которой вы можете писать и выполнять свой код .NET.
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понимать фрагменты кода.
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Шаг 2: Загрузите PDF-документ
 
- Далее вы загрузите PDF-документ, который вы хотите изменить. Это делается с помощью`Document` класс предоставлен Aspose.PDF.
+Далее вы загрузите PDF-документ, который вы хотите изменить. Это делается с помощью `Document` класс предоставлен Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
@@ -77,7 +79,7 @@ FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sam
 
 ## Шаг 4: Укажите свойство кодировки
 
- Чтобы гарантировать, что файл будет добавлен без сжатия, необходимо установить свойство кодировки спецификации файла на`FileEncoding.None`Этот шаг имеет решающее значение, поскольку он напрямую влияет на то, как файл будет встроен в PDF-файл.
+Чтобы гарантировать, что файл будет добавлен без сжатия, необходимо установить свойство кодировки спецификации файла на `FileEncoding.None`Этот шаг имеет решающее значение, поскольку он напрямую влияет на то, как файл будет встроен в PDF-файл.
 
 ```csharp
 fileSpecification.Encoding = FileEncoding.None;
@@ -118,19 +120,21 @@ Console.WriteLine("\nFile compression disabled successfully.\nFile saved at " + 
 Aspose.PDF для .NET — это библиотека, которая позволяет разработчикам создавать, изменять и конвертировать PDF-документы программным способом.
 
 ### Зачем мне отключать сжатие файлов в формате PDF?
-Отключение сжатия файлов гарантирует, что встроенные файлы останутся в своем исходном формате, что может быть важно для целостности данных.
+Отключение сжатия файлов гарантирует, что встроенные файлы останутся в исходном формате, что может быть важно для целостности данных.
 
 ### Могу ли я использовать Aspose.PDF бесплатно?
- Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для оценки библиотеки. Вы можете загрузить ее[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для оценки библиотеки. Вы можете загрузить ее [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти дополнительную документацию по Aspose.PDF?
- Вы можете найти подробную документацию по[Сайт Aspose](https://reference.aspose.com/pdf/net/).
+Вы можете найти подробную документацию по [Сайт Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Как получить поддержку по Aspose.PDF?
- Вы можете получить поддержку, посетив[Форум Aspose](https://forum.aspose.com/c/pdf/10).
+Вы можете получить поддержку, посетив [Форум Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: PDF Dosyasına Sayı Stili Uygula
-linktitle: PDF Dosyasına Sayı Stili Uygula
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak bir PDF'deki başlıklara farklı sayı stilleri (Romen rakamları, alfabetik) uygulamayı öğrenin.
-weight: 10
-url: /tr/net/programming-with-headings/apply-number-style/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak bir PDF'deki başlıklara farklı sayı stilleri (Romen rakamları, alfabetik) uygulamayı öğrenin."
+"linktitle": "PDF Dosyasına Sayı Stili Uygula"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Sayı Stili Uygula"
+"url": "/tr/net/programming-with-headings/apply-number-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Sayı Stili Uygula
 
 ## giriiş
 
-PDF belgelerinize güzel numaralandırılmış listeler ekleme ihtiyacı hissettiniz mi hiç? İster yasal belgeleri, ister raporları veya sunumları biçimlendiriyor olun, bilgileri düzenlemek için doğru numaralandırma stilleri olmazsa olmazdır. Aspose.PDF for .NET ile PDF dosyanızın başlıklarına çeşitli numaralandırma stilleri uygulayabilir, iyi yapılandırılmış ve profesyonel belgeler oluşturabilirsiniz. 
+PDF belgelerinize güzel numaralandırılmış listeler ekleme ihtiyacı hissettiniz mi hiç? İster yasal belgeleri, raporları veya sunumları biçimlendiriyor olun, bilgileri düzenlemek için doğru numaralandırma stilleri olmazsa olmazdır. .NET için Aspose.PDF ile PDF dosyanızın başlıklarına çeşitli numaralandırma stilleri uygulayabilir, iyi yapılandırılmış ve profesyonel belgeler oluşturabilirsiniz. 
 
 ## Ön koşullar
 
 Kodlamaya başlamadan önce, neye ihtiyacınız olacağına bir bakalım:
 
-1. .NET için Aspose.PDF: Aspose.PDF'in en son sürümünü şu adresten indirin:[Burada](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF'in en son sürümünü şu adresten indirin: [Burada](https://releases.aspose.com/pdf/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE'ye sahip olduğunuzdan emin olun.
 3. .NET Framework: .NET Framework 4.0 veya üzeri sürümün yüklü olduğundan emin olun.
-4.  Lisans: Geçici bir lisans kullanabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) veya keşfedin[ücretsiz deneme](https://releases.aspose.com/) seçenekler.
+4. Lisans: Geçici bir lisans kullanabilirsiniz. [Burada](https://purchase.aspose.com/temporary-license/) veya keşfedin [ücretsiz deneme](https://releases.aspose.com/) seçenekler.
 
 ## Paketleri İçe Aktar
 
@@ -78,7 +80,7 @@ pdfPage.PageInfo.Margin.Top = 72;
 pdfPage.PageInfo.Margin.Bottom = 72;
 ```
 
-## Adım 3: Yüzen Kutu Oluşturun
+## Adım 3: Yüzen Bir Kutu Oluşturun
 
 Bir FloatingBox, içeriği (metin veya başlıklar gibi) sayfanın akışından bağımsız davranan bir kutunun içine yerleştirmenize olanak tanır. Bu, içeriğinizin düzeni üzerinde tam kontrole sahip olmak istediğinizde faydalıdır.
 
@@ -165,19 +167,21 @@ Console.WriteLine("\nNumber style applied successfully in headings.\nFile saved 
 Evet, Aspose.PDF for .NET, aynı belge içerisinde Roma rakamları, Arap rakamları ve alfabetik numaralandırma gibi farklı numaralandırma stillerini karıştırmanıza olanak tanır.
 
 ### Başlıkların başlangıç numarasını nasıl özelleştirebilirim?  
- Herhangi bir başlık için başlangıç numarasını, kullanarak ayarlayabilirsiniz.`StartNumber` mülk.
+Herhangi bir başlık için başlangıç numarasını, kullanarak ayarlayabilirsiniz. `StartNumber` mülk.
 
 ### Numaralandırma sırasını sıfırlamanın bir yolu var mı?  
-Evet, numaralandırmayı ayarlayarak sıfırlayabilirsiniz.`StartNumber` Her başlık için özellik.
+Evet, numaralandırmayı ayarlayarak sıfırlayabilirsiniz. `StartNumber` Her başlık için özellik.
 
 ### Numaralandırmaya ek olarak başlıklara kalın veya italik stili uygulayabilir miyim?  
- Kesinlikle! Yazı tipi, boyut, kalın ve italik gibi özellikleri değiştirerek başlık stillerini özelleştirebilirsiniz.`TextState` nesne.
+Kesinlikle! Yazı tipi, boyut, kalın ve italik gibi özellikleri değiştirerek başlık stillerini özelleştirebilirsiniz. `TextState` nesne.
 
 ### Aspose.PDF için geçici lisansı nasıl alabilirim?  
- Geçici lisansı şuradan alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/) Aspose.PDF'yi kısıtlama olmaksızın test etmek için.
+Geçici lisansı şuradan alabilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/) Aspose.PDF'yi kısıtlama olmaksızın test etmek için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

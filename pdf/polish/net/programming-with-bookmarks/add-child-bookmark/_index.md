@@ -1,14 +1,16 @@
 ---
-title: Dodaj zakładkę dla dziecka w pliku PDF
-linktitle: Dodaj zakładkę dla dziecka w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać zakładki podrzędne w plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz nawigację w plikach PDF.
-weight: 20
-url: /pl/net/programming-with-bookmarks/add-child-bookmark/
+"description": "Dowiedz się, jak dodawać zakładki podrzędne w plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz nawigację w plikach PDF."
+"linktitle": "Dodaj zakładkę dla dziecka w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj zakładkę dla dziecka w pliku PDF"
+"url": "/pl/net/programming-with-bookmarks/add-child-bookmark/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj zakładkę dla dziecka w pliku PDF
@@ -21,7 +23,7 @@ W erze cyfrowej efektywne zarządzanie dokumentami jest kluczowe, zwłaszcza je�
 
 Zanim zagłębimy się w szczegóły dodawania zakładek, musisz zadbać o kilka rzeczy:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[strona](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [strona](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: środowisko programistyczne, w którym można pisać i testować kod.
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
@@ -41,7 +43,7 @@ Otwórz Visual Studio i utwórz nowy projekt C#. Wybierz aplikację konsolową d
 
 ### Importuj wymagane przestrzenie nazw
 
- Na szczycie twojego`Program.cs` plik, zaimportuj niezbędne przestrzenie nazw:
+Na szczycie twojego `Program.cs` plik, zaimportuj niezbędne przestrzenie nazw:
 
 ```csharp
 using System;
@@ -49,7 +51,7 @@ using System.IO;
 using Aspose.Pdf.Annotations;
 using Aspose.Pdf;
 ```
-Teraz, gdy wszystko już skonfigurowałeś, omówimy krok po kroku proces dodawania zakładek podrzędnych.
+Teraz, gdy wszystko już skonfigurowałeś, omówmy krok po kroku proces dodawania zakładek podrzędnych.
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
@@ -60,7 +62,7 @@ Zanim będziesz mógł manipulować jakimkolwiek plikiem PDF, musisz określić,
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF. To tak, jakby dać swojemu kodowi mapę do znalezienia skarbu!
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF. To tak, jakby dać swojemu kodowi mapę do znalezienia skarbu!
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -71,7 +73,7 @@ Teraz, gdy katalog jest już skonfigurowany, czas otworzyć dokument PDF, z któ
 Document pdfDocument = new Document(dataDir + "AddChildBookmark.pdf");
 ```
 
- Tutaj tworzymy nowy`Document` obiekt, który ładuje Twój plik PDF. Pomyśl o tym jak o otwarciu książki, aby zacząć czytać.
+Tutaj tworzymy nowy `Document` obiekt, który ładuje Twój plik PDF. Pomyśl o tym jak o otwarciu książki, aby zacząć czytać.
 
 ## Krok 3: Utwórz zakładkę nadrzędną
 
@@ -85,7 +87,7 @@ pdfOutline.Italic = true;
 pdfOutline.Bold = true;
 ```
 
- W tym fragmencie kodu tworzymy nowy`OutlineItemCollection` dla zakładki nadrzędnej. Ustawiamy jej tytuł i styl (kursywa i pogrubienie), aby się wyróżniała. To tak, jakbyś nadał rozdziałowi chwytliwy tytuł!
+W tym fragmencie kodu tworzymy nowy `OutlineItemCollection` dla zakładki nadrzędnej. Ustawiamy jej tytuł i styl (kursywa i pogrubienie), aby się wyróżniała. To tak, jakbyś nadał rozdziałowi chwytliwy tytuł!
 
 ## Krok 4: Utwórz zakładkę dla dziecka
 
@@ -134,7 +136,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nChild bookmark added successfully.\nFile saved at " + dataDir);
 ```
 
-Tutaj określamy nazwę pliku wyjściowego i zapisujemy dokument. Zobaczysz komunikat potwierdzający po zakończeniu procesu. To jak zamknięcie książki po napisaniu swojego arcydzieła!
+Tutaj określamy nazwę pliku wyjściowego i zapisujemy dokument. Zobaczysz komunikat potwierdzający po zakończeniu procesu. To jak zamknięcie książki po napisaniu arcydzieła!
 
 ## Wniosek
 
@@ -149,17 +151,19 @@ Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca program
 Tak, możesz utworzyć wiele zakładek podrzędnych pod jedną zakładką nadrzędną, powtarzając kroki tworzenia i dodawania zakładek podrzędnych.
 
 ### Czy korzystanie z Aspose.PDF jest bezpłatne?
- Aspose.PDF oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Sprawdź[kup stronę](https://purchase.aspose.com/buy) po więcej szczegółów.
+Aspose.PDF oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Sprawdź [kup stronę](https://purchase.aspose.com/buy) po więcej szczegółów.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Pełną dokumentację Aspose.PDF dla .NET można znaleźć[Tutaj](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację Aspose.PDF dla .NET można znaleźć [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Co zrobić, jeśli wystąpią problemy?
-Jeśli napotkasz jakiekolwiek problemy, możesz szukać pomocy na[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+Jeśli napotkasz jakiekolwiek problemy, możesz szukać pomocy na [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

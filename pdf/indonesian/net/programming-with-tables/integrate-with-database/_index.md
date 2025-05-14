@@ -1,14 +1,16 @@
 ---
-title: Integrasikan Dengan Basis Data Dalam File PDF
-linktitle: Integrasikan Dengan Basis Data Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengintegrasikan data basis data ke dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang mudah ini.
-weight: 120
-url: /id/net/programming-with-tables/integrate-with-database/
+"description": "Pelajari cara mengintegrasikan data basis data ke dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang mudah ini."
+"linktitle": "Integrasikan Dengan Basis Data Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Integrasikan Dengan Basis Data Dalam File PDF"
+"url": "/id/net/programming-with-tables/integrate-with-database/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Integrasikan Dengan Basis Data Dalam File PDF
@@ -22,7 +24,7 @@ Membuat dokumen PDF dinamis yang menggabungkan data dari basis data mungkin tamp
 Sebelum kita memulai perjalanan pembuatan PDF ini, ada beberapa prasyarat yang perlu Anda penuhi. Jangan khawatir; semuanya mudah sekali! 
 
 1. .NET Framework: Pastikan Anda memiliki versi .NET Framework yang didukung yang terpasang di komputer Anda.
-2.  Aspose.PDF untuk .NET: Anda bisa mendapatkannya dari[Situs web Aspose](https://releases.aspose.com/pdf/net/)Anda perlu mengunduh dan memasangnya ke proyek Anda.
+2. Aspose.PDF untuk .NET: Anda bisa mendapatkannya dari [Situs web Aspose](https://releases.aspose.com/pdf/net/)Anda perlu mengunduh dan memasangnya ke proyek Anda.
 3. Visual Studio IDE: Lingkungan yang ramah untuk menulis kode Anda. Versi terbaru apa pun seharusnya berfungsi.
 4. Pengetahuan Dasar C#: Jika Anda memahami dasar-dasar C#, Anda akan menguasai tutorial ini dengan mudah.
 
@@ -50,7 +52,7 @@ Menetapkan jalur untuk dokumen Anda seperti memilih alamat untuk rumah baru Anda
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF. Ini memudahkan pencarian nanti. 
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF. Ini memudahkan untuk menemukannya nanti. 
 
 ## Langkah 2: Buat DataTable
 
@@ -88,7 +90,7 @@ Di sinilah kita membuat dan menambahkan baris ke dalam DataTable kita. Kita tela
 
 ## Langkah 4: Buat Contoh Dokumen
 
-Mari kita mulai dan membuat dokumen PDF. Ini sama seperti membuat kanvas kosong untuk karya agung kita.
+Mari kita mulai dan membuat dokumen PDF kita. Ini sama seperti membuat kanvas kosong untuk karya agung kita.
 
 ```csharp
 Document doc = new Document();
@@ -173,19 +175,21 @@ Nah, itu dia! Anda telah mempelajari cara mengintegrasikan data dari database de
 Ya! Aspose menawarkan berbagai pustaka untuk berbagai format file termasuk Excel, Word, dan banyak lagi.
 
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.PDF?
- Tentu saja! Anda dapat mengunduh versi uji coba gratis dari[tautan ini](https://releases.aspose.com/).
+Tentu saja! Anda dapat mengunduh versi uji coba gratis dari [tautan ini](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk produk Aspose?
- Anda dapat menghubungi dukungan mereka melalui[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat menghubungi dukungan mereka melalui [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Apa yang ditawarkan lisensi sementara?
- Lisensi sementara memungkinkan Anda untuk menggunakan perangkat lunak dengan semua fitur yang tidak terkunci untuk waktu yang terbatas. Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
+Lisensi sementara memungkinkan Anda menggunakan perangkat lunak dengan semua fitur yang tidak terkunci untuk waktu yang terbatas. Anda bisa mendapatkannya [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Apakah format data dapat disesuaikan dalam PDF?
 Ya! Aspose.PDF menyediakan berbagai opsi penyesuaian untuk tabel, termasuk pemformatan sel, font, warna, dan banyak lagi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

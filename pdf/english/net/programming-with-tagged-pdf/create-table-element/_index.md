@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/create-table-element/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Table Element
@@ -194,6 +196,7 @@ You can use the `Validate` method to check if the document complies with PDF/UA 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

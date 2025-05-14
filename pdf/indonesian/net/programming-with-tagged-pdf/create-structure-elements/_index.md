@@ -1,14 +1,16 @@
 ---
-title: Buat Elemen Struktur
-linktitle: Buat Elemen Struktur
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat elemen struktur dalam PDF dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk aksesibilitas dan pengaturan PDF yang lebih baik.
-weight: 60
-url: /id/net/programming-with-tagged-pdf/create-structure-elements/
+"description": "Pelajari cara membuat elemen struktur dalam PDF dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk aksesibilitas dan pengaturan PDF yang lebih baik."
+"linktitle": "Buat Elemen Struktur"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat Elemen Struktur"
+"url": "/id/net/programming-with-tagged-pdf/create-structure-elements/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat Elemen Struktur
@@ -19,14 +21,14 @@ Membuat dokumen PDF terstruktur dapat menjadi hal yang penting untuk aksesibilit
 
 ## Prasyarat
 
-Sebelum menyelami tutorial, mari kita bahas apa yang Anda perlukan untuk memulai:
+Sebelum memulai tutorial, mari kita bahas apa yang Anda perlukan untuk memulai:
 
 1. .NET Framework: Pastikan Anda telah menyiapkan lingkungan .NET yang kompatibel. Ini bisa berupa .NET Framework atau .NET Core, tergantung pada preferensi Anda.
-2.  Aspose.PDF untuk .NET: Unduh dan instal pustaka. Anda dapat menemukan versi terbaru[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Unduh dan instal pustaka. Anda dapat menemukan versi terbaru [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Lingkungan Pengembangan: IDE apa pun yang mendukung .NET, seperti Visual Studio, seharusnya berfungsi dengan baik.
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contoh dengan lebih baik.
 
-Baiklah! Sekarang setelah Anda menyiapkan prasyarat, mari mulai membuat PDF kita.
+Baiklah! Sekarang setelah Anda menyiapkan prasyarat, mari mulai membuat PDF.
 
 ## Paket Impor
 
@@ -47,7 +49,7 @@ Mari kita uraikan ini menjadi beberapa langkah yang mudah dikelola. Setiap langk
 
 ## Langkah 1: Menyiapkan Dokumen
 
-Mulailah dengan menentukan jalur untuk dokumen Anda dan membuat PDF baru.
+Mulailah dengan menentukan jalur untuk dokumen Anda dan buat PDF baru.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Di sini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan PDF. Ini memastikan bahwa berkas keluaran Anda memiliki lokasi yang diketahui.
+Di sini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan PDF. Ini memastikan bahwa berkas keluaran Anda memiliki lokasi yang diketahui.
 
 ## Langkah 2: Mendapatkan Konten yang Ditandai
 
@@ -113,9 +115,9 @@ HeaderElement headerElement = taggedContent.CreateHeaderElement();
 HeaderElement h1Element = taggedContent.CreateHeaderElement(1);
 ```
 
-Kode ini menyiapkan tahapan untuk menambahkan paragraf dan judul, guna menyempurnakan struktur tekstual dokumen Anda.
+Kode ini menyiapkan tahap untuk menambahkan paragraf dan judul, serta menyempurnakan struktur tekstual dokumen Anda.
 
-## Langkah 6: Membuat Elemen Struktur Tingkat Teks Sebaris
+## Langkah 6: Membuat Elemen Struktur Teks Sebaris
 
 Mari kita lihat cara menambahkan elemen teks sebaris.
 
@@ -190,19 +192,21 @@ Membuat PDF terstruktur menggunakan Aspose.PDF for .NET membuka banyak kemungkin
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF dengan mudah menggunakan bahasa pemrograman .NET.
 
 ### Bagaimana cara menginstal Aspose.PDF untuk .NET?
- Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/) dan menambahkannya ke proyek Anda melalui NuGet atau secara manual.
+Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/) dan menambahkannya ke proyek Anda melalui NuGet atau secara manual.
 
 ### Dapatkah saya membuat tag untuk aksesibilitas di PDF saya?
 Ya! Aspose.PDF untuk .NET mendukung pembuatan PDF yang diberi tag, sehingga meningkatkan aksesibilitas bagi pembaca layar.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?
- Anda dapat mengakses dokumentasi terperinci[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat mengakses dokumentasi terperinci [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Apakah ada uji coba gratis yang tersedia?
- Tentu saja! Lihat uji coba gratisnya[Di Sini](https://releases.aspose.com/).
+Tentu saja! Lihat uji coba gratisnya [Di Sini](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

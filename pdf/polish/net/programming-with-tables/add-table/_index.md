@@ -1,32 +1,34 @@
 ---
-title: Dodaj tabelę w pliku PDF
-linktitle: Dodaj tabelę w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak łatwo dodawać tabele do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów C#.
-weight: 40
-url: /pl/net/programming-with-tables/add-table/
+"description": "Dowiedz się, jak łatwo dodawać tabele do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów C#."
+"linktitle": "Dodaj tabelę w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj tabelę w pliku PDF"
+"url": "/pl/net/programming-with-tables/add-table/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj tabelę w pliku PDF
 
 ## Wstęp
 
-Tabele są niezbędne do strukturyzacji i organizacji danych, czy to w raportach, fakturach, czy w jakimkolwiek dokumencie wymagającym przejrzystej prezentacji informacji. Aspose.PDF dla .NET sprawia, że dodawanie tabel do plików PDF jest niezwykle łatwe programowo. Jeśli chcesz zautomatyzować generowanie PDF, ten samouczek jest dokładnie tym, czego potrzebujesz. Przeprowadzimy Cię przez kroki, jak dodać tabelę do dokumentu PDF, rozbijając je w szczegółowy, ale łatwy do naśladowania sposób.
+Tabele są niezbędne do strukturyzacji i organizacji danych, czy to w raportach, fakturach, czy w jakimkolwiek dokumencie wymagającym przejrzystej prezentacji informacji. Aspose.PDF dla .NET sprawia, że dodawanie tabel do plików PDF jest niezwykle łatwe programowo. Jeśli chcesz zautomatyzować generowanie PDF, ten samouczek jest dokładnie tym, czego potrzebujesz. Przeprowadzimy Cię przez kroki, jak dodać tabelę do dokumentu PDF, rozbijając ją w szczegółowy, ale łatwy do naśladowania sposób.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz.
 
--  Aspose.PDF dla .NET: Będziesz potrzebować zainstalowanej biblioteki. Możesz[pobierz Aspose.PDF dla .NET tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Będziesz potrzebować zainstalowanej biblioteki. Możesz [pobierz Aspose.PDF dla .NET tutaj](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Upewnij się, że pracujesz w środowisku .NET.
 - Visual Studio lub inne środowisko IDE języka C#: Użyj preferowanego środowiska IDE do pisania i wykonywania kodu.
 - Podstawowa znajomość języka C#: W tym samouczku zakładamy, że znasz programowanie w języku C#.
 
- Jeśli nie masz licencji, nie martw się! Możesz użyć[bezpłatny okres próbny](https://releases.aspose.com/) lub poproś o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)aby wypróbować funkcje.
+Jeśli nie masz licencji, nie martw się! Możesz użyć [bezpłatny okres próbny](https://releases.aspose.com/) lub poproś o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby wypróbować funkcje.
 
 ## Importuj pakiety
 
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
 ```
  
- Tutaj,`Aspose.Pdf.Document` służy do ładowania istniejącego pliku PDF z określonego katalogu. Ścieżka pliku jest ustawiana przez`dataDir`. Dokument jest teraz załadowany i gotowy do dalszych manipulacji.  
+Tutaj, `Aspose.Pdf.Document` służy do ładowania istniejącego pliku PDF z określonego katalogu. Ścieżka pliku jest ustawiana przez `dataDir`. Dokument jest teraz załadowany i gotowy do dalszych manipulacji.  
 Wyobraź sobie plik PDF jako puste płótno, a tabela stanie się Twoim arcydziełem!
 
 ## Krok 2: Zainicjuj nową tabelę
@@ -60,11 +62,11 @@ Wyobraź sobie plik PDF jako puste płótno, a tabela stanie się Twoim arcydzie
 Teraz, gdy masz już załadowany dokument PDF, następnym krokiem jest utworzenie obiektu tabeli. Ta tabela zostanie później wypełniona wierszami i komórkami.
 
 ```csharp
-//Inicjuje nową instancję tabeli
+// Inicjuje nową instancję tabeli
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 ```
  
- Ten`Table` class jest częścią biblioteki Aspose.PDF. Inicjując ją, zasadniczo mówisz programowi: „Hej, jestem gotowy, aby utworzyć strukturę tabeli!” To tak, jakby skonfigurować szkielet przed dodaniem do niego ciała (danych).
+Ten `Table` class jest częścią biblioteki Aspose.PDF. Inicjując ją, zasadniczo mówisz programowi: „Hej, jestem gotowy, aby utworzyć strukturę tabeli!” To tak, jakby skonfigurować szkielet przed dodaniem do niego ciała (danych).
 
 ## Krok 3: Ustaw obramowanie tabeli i obramowanie komórek
 
@@ -78,14 +80,14 @@ table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
 ```
  
- Ustawiliśmy jasnoszarą obwódkę dla tabeli i każdej komórki, używając`BorderInfo`. Dzięki temu struktura stołu wygląda schludnie i profesjonalnie. To tak, jakby nadać stołowi schludną ramę, dzięki czemu nie będzie wyglądał jak chaotyczny bałagan.
+Ustawiliśmy jasnoszarą obwódkę dla tabeli i każdej komórki, używając `BorderInfo`. Dzięki temu struktura stołu wygląda schludnie i profesjonalnie. To tak, jakby nadać stołowi schludną ramę, dzięki czemu nie będzie wyglądał jak chaotyczny bałagan.
 
 ## Krok 4: Dodaj wiersze i komórki do tabeli
 
 Tutaj wypełniasz tabelę. Utworzymy wiele wierszy, każdy zawierający kilka komórek z danymi.
 
 ```csharp
-//Utwórz pętlę, aby dodać 10 wierszy
+// Utwórz pętlę, aby dodać 10 wierszy
 for (int row_count = 1; row_count < 10; row_count++)
 {
     // Dodaj wiersz do tabeli
@@ -97,7 +99,7 @@ for (int row_count = 1; row_count < 10; row_count++)
 }
 ```
  
- Tutaj utworzyliśmy pętlę, która działa 10 razy, dodając 10 wierszy do tabeli. Każdy wiersz zawiera trzy komórki. Zawartość każdej komórki jest generowana dynamicznie przy użyciu`row_count` aby nadać wygląd prawidłowo zorganizowanej tabeli. Pomyśl o tym jak o wypełnianiu siatki informacjami!
+Tutaj utworzyliśmy pętlę, która działa 10 razy, dodając 10 wierszy do tabeli. Każdy wiersz zawiera trzy komórki. Zawartość każdej komórki jest generowana dynamicznie przy użyciu `row_count` aby nadać wygląd prawidłowo zorganizowanej tabeli. Pomyśl o tym jak o wypełnianiu siatki informacjami!
 
 ## Krok 5: Dodaj tabelę do dokumentu PDF
 
@@ -108,7 +110,7 @@ Po wypełnieniu tabeli czas wstawić ją do dokumentu PDF.
 doc.Pages[1].Paragraphs.Add(table);
 ```
  
- Teraz dodajesz w pełni ustrukturyzowaną tabelę do pierwszej strony dokumentu PDF.`Pages[1]` odnosi się do pierwszej strony i`Paragraphs.Add()` zapewnia, że tabela zostanie dodana jako nowy akapit na tej stronie. To jest moment, w którym tabela zostanie zakotwiczona w pliku PDF.
+Teraz dodajesz w pełni ustrukturyzowaną tabelę do pierwszej strony dokumentu PDF. `Pages[1]` odnosi się do pierwszej strony i `Paragraphs.Add()` zapewnia, że tabela zostanie dodana jako nowy akapit na tej stronie. To jest moment, w którym tabela zostanie zakotwiczona w pliku PDF.
 
 ## Krok 6: Zapisz zaktualizowany dokument PDF
 
@@ -129,22 +131,24 @@ Po wykonaniu tych kroków udało Ci się dodać tabelę do pliku PDF za pomocą 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dodatkowo dostosować tabelę?
- Tak! Możesz dostosować wypełnienie komórek, wyrównanie tekstu, a nawet dodać kolory tła do komórek.`Aspose.PDF.Table` Klasa oferuje wiele opcji personalizacji.
+Tak! Możesz dostosować wypełnienie komórek, wyrównanie tekstu, a nawet dodać kolory tła do komórek. `Aspose.PDF.Table` Klasa oferuje wiele opcji personalizacji.
 
 ### Jak mogę dodać więcej kolumn do tabeli?
- Po prostu zmodyfikuj pętlę, która dodaje komórki do każdego wiersza. Zamiast trzech komórek dodaj tyle, ile potrzebujesz, używając`row.Cells.Add()`.
+Po prostu zmodyfikuj pętlę, która dodaje komórki do każdego wiersza. Zamiast trzech komórek dodaj tyle, ile potrzebujesz, używając `row.Cells.Add()`.
 
 ### Czy Aspose.PDF obsługuje dodawanie obrazów do tabel?
- Tak, możesz wstawiać obrazy do komórek tabeli za pomocą`ImageFragment` klasa.
+Tak, możesz wstawiać obrazy do komórek tabeli za pomocą `ImageFragment` klasa.
 
 ### Czy istnieje sposób na scalenie komórek w tabeli?
- Tak, Aspose.PDF pozwala na scalanie komórek w poziomie lub w pionie za pomocą`ColSpan` I`RowSpan` Właściwości.
+Tak, Aspose.PDF pozwala na scalanie komórek w poziomie lub w pionie za pomocą `ColSpan` I `RowSpan` Właściwości.
 
 ### Czy mogę dodać tabelę do konkretnej strony w pliku PDF?
- Oczywiście! Zamiast`Pages[1]`, możesz określić dowolny numer strony, na której chcesz wstawić tabelę.
+Oczywiście! Zamiast `Pages[1]`, możesz określić dowolny numer strony, na której chcesz wstawić tabelę.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

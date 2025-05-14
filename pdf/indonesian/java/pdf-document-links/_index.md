@@ -1,14 +1,16 @@
 ---
-title: Tautan Dokumen PDF
-linktitle: Tautan Dokumen PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Jelajahi tautan dokumen PDF di Java dengan tutorial Aspose.PDF untuk Java. Buat hyperlink, bookmark, dan PDF interaktif dengan mudah.
-weight: 15
-url: /id/java/pdf-document-links/
+"description": "Jelajahi tautan dokumen PDF dalam Java dengan Aspose.PDF untuk tutorial Java. Buat hyperlink, bookmark, dan PDF interaktif dengan mudah."
+"linktitle": "Tautan Dokumen PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Tautan Dokumen PDF"
+"url": "/id/java/pdf-document-links/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tautan Dokumen PDF
@@ -35,9 +37,11 @@ Manfaatkan potensi tautan dokumen PDF di Java dengan tutorial Aspose.PDF untuk J
 Pelajari cara menambahkan hyperlink ke berkas PDF menggunakan Java dengan petunjuk langkah demi langkah dan kode sumber. Sempurnakan dokumen PDF Anda dengan interaktivitas.
 ### [Membuat Tautan ke Dokumen PDF Lain menggunakan Java](./create-a-link-to-another-pdf-document-using-java/)
 Pelajari cara membuat tautan dokumen PDF di Java dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah untuk interaktivitas PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

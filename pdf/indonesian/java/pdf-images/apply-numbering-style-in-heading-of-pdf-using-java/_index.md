@@ -1,14 +1,16 @@
 ---
-title: Terapkan Gaya Penomoran di Judul PDF menggunakan Java
-linktitle: Terapkan Gaya Penomoran di Judul PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menerapkan gaya penomoran pada judul PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami menyediakan contoh kode sumber untuk sentuhan profesional pada dokumen Anda.
-weight: 14
-url: /id/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/
+"description": "Pelajari cara menerapkan gaya penomoran pada judul PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami menyediakan contoh kode sumber untuk sentuhan profesional pada dokumen Anda."
+"linktitle": "Terapkan Gaya Penomoran di Judul PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Terapkan Gaya Penomoran di Judul PDF menggunakan Java"
+"url": "/id/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Terapkan Gaya Penomoran di Judul PDF menggunakan Java
@@ -50,12 +52,12 @@ heading.getTextState().setForegroundColor(com.aspose.pdf.Color.getBlack());
 heading.getTextState().setBackgroundColor(com.aspose.pdf.Color.getLightGray());
 
 // Mengatur teks judul
-TextFragment titleFragment = new TextFragment("Applying Numbering Style");
+TextFragment titleFragment = new TextFragment("Menerapkan Gaya Penomoran");
 heading.getFragments().add(titleFragment);
 pdfDocument.getPages().get_Item(1).getParagraphs().add(heading);
 ```
 
-## Menerapkan Gaya Penomoran
+## Applying Numbering Style
 
 Sekarang tibalah bagian yang menarik—menerapkan gaya penomoran pada judul kita. Aspose.PDF untuk Java menyediakan cara mudah untuk mencapainya. Berikut ini contoh penerapan penomoran:
 
@@ -102,8 +104,8 @@ Dalam panduan langkah demi langkah ini, kami telah mempelajari cara menerapkan g
 
 Untuk menginstal Aspose.PDF untuk Java, ikuti langkah-langkah berikut:
 
-1.  Kunjungi dokumentasi Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
-2.  Unduh versi terbaru perpustakaan dari[Di Sini](https://releases.aspose.com/pdf/java/).
+1. Kunjungi dokumentasi Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+2. Unduh versi terbaru perpustakaan dari [Di Sini](https://releases.aspose.com/pdf/java/).
 3. Integrasikan pustaka ke dalam proyek Java Anda sesuai dengan petunjuk instalasi yang disediakan dalam dokumentasi.
 
 ### Dapatkah saya menggunakan Aspose.PDF untuk Java secara gratis?
@@ -112,7 +114,7 @@ Aspose.PDF untuk Java menawarkan versi uji coba gratis yang dapat Anda gunakan u
 
 ### Apakah mungkin untuk menerapkan gaya penomoran yang berbeda pada bagian yang berbeda dalam suatu dokumen?
 
- Ya, Anda dapat menerapkan gaya penomoran yang berbeda ke bagian yang berbeda dari dokumen PDF menggunakan Aspose.PDF untuk Java. Cukup buat penomoran terpisah`Heading` objek dan menyesuaikan gaya penomoran untuk setiap bagian.
+Ya, Anda dapat menerapkan gaya penomoran yang berbeda ke bagian yang berbeda dari dokumen PDF menggunakan Aspose.PDF untuk Java. Cukup buat penomoran terpisah `Heading` objek dan menyesuaikan gaya penomoran untuk setiap bagian.
 
 ### Bisakah saya mengekspor PDF dengan judul bernomor ke format lain seperti DOCX atau HTML?
 
@@ -120,10 +122,12 @@ Ya, Aspose.PDF untuk Java menyediakan kemampuan untuk mengekspor dokumen PDF den
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi lengkap, contoh kode, dan referensi API untuk Aspose.PDF untuk Java di situs web dokumentasi di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi lengkap, contoh kode, dan referensi API untuk Aspose.PDF untuk Java di situs web dokumentasi di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

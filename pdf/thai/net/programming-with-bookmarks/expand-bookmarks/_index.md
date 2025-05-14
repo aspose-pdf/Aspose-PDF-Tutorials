@@ -1,14 +1,16 @@
 ---
-title: ขยายบุ๊กมาร์กในไฟล์ PDF
-linktitle: ขยายบุ๊กมาร์กในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีขยายบุ๊กมาร์กในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงการนำทาง PDF
-weight: 50
-url: /th/net/programming-with-bookmarks/expand-bookmarks/
+"description": "เรียนรู้วิธีขยายบุ๊กมาร์กในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงการนำทาง PDF"
+"linktitle": "ขยายบุ๊กมาร์กในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ขยายบุ๊กมาร์กในไฟล์ PDF"
+"url": "/th/net/programming-with-bookmarks/expand-bookmarks/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ขยายบุ๊กมาร์กในไฟล์ PDF
@@ -22,7 +24,7 @@ url: /th/net/programming-with-bookmarks/expand-bookmarks/
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว ซึ่งเป็นสภาพแวดล้อมที่ดีที่สุดสำหรับการพัฒนา .NET
-2.  Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
 ## แพ็คเกจนำเข้า
@@ -53,7 +55,7 @@ using Aspose.Pdf;
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
-ขั้นแรก คุณต้องระบุเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ นี่คือตำแหน่งที่ไฟล์ PDF อินพุตของคุณตั้งอยู่และตำแหน่งที่ไฟล์เอาต์พุตจะถูกบันทึก
+ขั้นแรก คุณต้องระบุเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ นี่คือตำแหน่งที่ไฟล์ PDF อินพุตของคุณตั้งอยู่ และตำแหน่งที่ไฟล์เอาต์พุตจะถูกบันทึก
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
- ต่อไปคุณจะเปิดเอกสาร PDF ที่มีบุ๊กมาร์กที่คุณต้องการขยาย ซึ่งทำได้โดยใช้`Document` คลาสจากไลบรารี Aspose.PDF
+ต่อไปคุณจะเปิดเอกสาร PDF ที่มีบุ๊กมาร์กที่คุณต้องการขยาย ซึ่งทำได้โดยใช้ `Document` คลาสจากไลบรารี Aspose.PDF
 
 ```csharp
 // เปิดเอกสาร
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "input-bookmark.pdf");
 ตอนนี้ คุณต้องตั้งค่าโหมดการดูหน้าเอกสาร ซึ่งจะกำหนดว่าไฟล์ PDF จะแสดงอย่างไรเมื่อเปิดขึ้นมา ในกรณีนี้ เราต้องการใช้โครงร่าง (บุ๊กมาร์ก)
 
 ```csharp
-//ตั้งค่าโหมดการดูหน้า เช่น แสดงภาพขนาดย่อ เต็มจอ แสดงแผงแนบ
+// ตั้งค่าโหมดการดูหน้า เช่น แสดงภาพขนาดย่อ เต็มจอ แสดงแผงแนบ
 doc.PageMode = PageMode.UseOutlines;
 ```
 
@@ -83,7 +85,7 @@ doc.PageMode = PageMode.UseOutlines;
 มาถึงส่วนสนุกแล้ว! คุณจะดูรายการโครงร่างแต่ละรายการในคอลเลกชันโครงร่างของ PDF และตั้งสถานะการเปิดเป็น true วิธีนี้จะช่วยขยายบุ๊กมาร์ก
 
 ```csharp
-// เดินผ่านรายการโครงร่างแต่ละรายการในคอลเล็กชันโครงร่างของไฟล์ PDF
+// เดินผ่านแต่ละรายการโครงร่างในคอลเล็กชันโครงร่างของไฟล์ PDF
 foreach (OutlineItemCollection item in doc.Outlines)
 {
     // กำหนดสถานะเปิดสำหรับรายการโครงร่าง
@@ -116,22 +118,24 @@ Console.WriteLine("\nBookmarks expanded successfully.\nFile saved at " + dataDir
 ## คำถามที่พบบ่อย
 
 ### Aspose.PDF สำหรับ .NET คืออะไร?
-Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ด้วยโปรแกรมได้
+Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้สำรวจฟีเจอร์ต่างๆ ของไลบรารีได้ คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้สำรวจฟีเจอร์ต่างๆ ของไลบรารีได้ คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.PDF สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.PDF สำหรับ .NET ได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### มีการรองรับ Aspose.PDF หรือไม่
- แน่นอน! คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/pdf/10).
+แน่นอน! คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.PDF ได้[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.PDF ได้ [ที่นี่](https://purchase-aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

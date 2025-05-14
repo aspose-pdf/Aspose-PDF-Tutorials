@@ -1,41 +1,46 @@
 ---
-title: .NET'te Düzgenlerle PDF Oluşturun ve Özelleştirin 
-weight: 7700
-limit: 
-description: .NET'te bir PDF belgesini nasıl oluşturacağınızı, değişen Z-indeksleri olan renkli dikdörtgenler ekleyeceğinizi ve nihai belgeyi Aspose.PDF kullanarak nasıl kaydedeceğinizi öğrenin.  
-keywords: [Aspose.PDF, .NET PDF example, create PDF, add rectangles, Z-index, PDF manipulation]
-url: /tr/net/graphs/control-rectangle-z-order/
+"description": ".NET'te PDF belgesi oluşturmayı, farklı Z-indekslerine sahip renkli dikdörtgenler eklemeyi ve Aspose.PDF kullanarak son belgeyi kaydetmeyi öğrenin."
+"title": ".NET'te Dikdörtgenlerle PDF Oluşturun ve Özelleştirin"
+"url": "/tr/net/graphs/control-rectangle-z-order/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Düzgenlerle PDF Oluşturun ve Özelleştirin
+# Dikdörtgenlerle PDF Oluşturun ve Özelleştirin
 
-Bu kılavuz, katmanlarını kontrol etmek için farklı Z-indeksleri olan renkli dikdörtgenleri içeren .NET için Aspose.PDF kullanarak bir PDF belgesi oluşturmayı gösterir. PDF'inize şekil eklemek ve belgeyi kaydetmek için adım adım talimatları izleyin.
+Bu kılavuz, katmanlarını kontrol etmek için farklı Z-indekslerine sahip renkli dikdörtgenler ekleyerek .NET için Aspose.PDF kullanarak bir PDF belgesinin nasıl oluşturulacağını gösterir. PDF'nize şekiller eklemek ve belgeyi kaydetmek için adım adım talimatları izleyin, böylece uygulamanızın PDF oluşturma yeteneklerini geliştirin.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/control-rectangle-z-order" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Kurulum talimatları
-1. .NET geliştirme ortamının kurulduğundan emin olun (örneğin Visual Studio).
-2. Aspose.PDF kitaplığını [Aspose web sitesi](https://www.aspose.com/purchase)\- Hayır .
-3. NuGet paketini Aspose.PDF uygulamasıyla yükleyin.`Aspose.PDF paketini yükle`Paket Yöneticisi Konsolunda.
-4. Projenize gerekli isim alanlarını ekleyin:
+## Kurulum Talimatları
+1. .NET geliştirme ortamınızın (Visual Studio gibi) kurulu olduğundan emin olun.
+2. Aspose.PDF kitaplığını şu adresten indirin: [Aspose web sitesi](https://www.aspose.com/purchase).
+3. Aspose.PDF NuGet paketini çalıştırarak yükleyin `Install-Package Aspose.PDF` Paket Yöneticisi Konsolunda.
+4. Projenize gerekli ad alanlarını ekleyin:
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
    ```
 
-## Ayrıntılı belgelere bakınız:  
-* [Aspose.PDF için .NET Dokümanasyonu](https://docs.aspose.com/pdf/net/)  
-* [Aspose.PDF için API Referansı .NET için](https://reference.aspose.com/pdf/net/)  
+## Ayrıntılı dokümantasyon için şu adresi ziyaret edin:  
+- [.NET için Aspose.PDF Belgeleri](https://docs.aspose.com/pdf/net/)  
+- [.NET için Aspose.PDF API Referansı](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

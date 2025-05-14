@@ -1,27 +1,29 @@
 ---
-title: เปลี่ยน PostScript ให้เป็นไฟล์ PDF
-linktitle: เปลี่ยน PostScript ให้เป็นไฟล์ PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการแปลงไฟล์ PostScript เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงรูปแบบไฟล์ที่ราบรื่น
-weight: 23
-url: /th/java/pdf-conversion-transformation/turn-postscript-into-pdf-files/
+"description": "เรียนรู้วิธีการแปลงไฟล์ PostScript เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงรูปแบบไฟล์ที่ราบรื่น"
+"linktitle": "เปลี่ยน PostScript เป็นไฟล์ PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เปลี่ยน PostScript เป็นไฟล์ PDF"
+"url": "/th/java/pdf-conversion-transformation/turn-postscript-into-pdf-files/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เปลี่ยน PostScript ให้เป็นไฟล์ PDF
+# เปลี่ยน PostScript เป็นไฟล์ PDF
 
 
-ในยุคดิจิทัลทุกวันนี้ ความสามารถในการแปลงไฟล์รูปแบบต่างๆ ถือเป็นสิ่งสำคัญ PostScript ซึ่งเป็นภาษาที่ใช้ในการอธิบายหน้าเอกสาร ถูกใช้กันอย่างแพร่หลายในอุตสาหกรรมการพิมพ์และกราฟิก อย่างไรก็ตาม เมื่อต้องแชร์หรือจัดเก็บเอกสาร PDF ถือเป็นรูปแบบที่มักนิยมใช้ ในคู่มือทีละขั้นตอนนี้ เราจะแนะนำคุณเกี่ยวกับกระบวนการแปลงไฟล์ PostScript เป็น PDF โดยใช้ Aspose.PDF สำหรับ Java 
+ในยุคดิจิทัลทุกวันนี้ ความสามารถในการแปลงไฟล์รูปแบบต่างๆ ถือเป็นสิ่งสำคัญ PostScript ซึ่งเป็นภาษาที่ใช้ในการอธิบายหน้าเอกสาร ถูกใช้กันอย่างแพร่หลายในอุตสาหกรรมการพิมพ์และกราฟิก อย่างไรก็ตาม เมื่อต้องแชร์หรือจัดเก็บเอกสาร PDF เป็นรูปแบบที่มักนิยมใช้ ในคู่มือทีละขั้นตอนนี้ เราจะแนะนำคุณเกี่ยวกับกระบวนการแปลงไฟล์ PostScript เป็น PDF โดยใช้ Aspose.PDF สำหรับ Java 
 
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่จะเริ่มกระบวนการแปลง โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 
 เอาล่ะ มาเริ่มกันเลย!
@@ -30,7 +32,7 @@ url: /th/java/pdf-conversion-transformation/turn-postscript-into-pdf-files/
 
 1. สร้างโครงการ Java: เริ่มต้นด้วยการสร้างโครงการ Java ใหม่ในสภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) ที่คุณชื่นชอบ
 
-2. เพิ่มไลบรารี Aspose.PDF: นำเข้าไลบรารี Aspose.PDF เข้าสู่โปรเจ็กต์ของคุณ คุณสามารถทำได้โดยเพิ่มไฟล์ JAR ลงในเส้นทางการสร้างของโปรเจ็กต์
+2. เพิ่มไลบรารี Aspose.PDF: นำเข้าไลบรารี Aspose.PDF เข้าสู่โปรเจ็กต์ของคุณ คุณสามารถทำได้โดยเพิ่มไฟล์ JAR ลงในเส้นทางการสร้างโปรเจ็กต์ของคุณ
 
 ## การเขียนโค้ด
 
@@ -65,7 +67,7 @@ pdfDocument.save("output.pdf");
 
 ### ฉันจะแปลงไฟล์ PostScript หลายไฟล์เป็น PDF ในครั้งเดียวได้อย่างไร
 
-หากต้องการแปลงไฟล์ PostScript หลายไฟล์เป็น PDF คุณสามารถสร้างลูปในโค้ด Java และทำซ้ำขั้นตอนสำหรับไฟล์แต่ละไฟล์
+หากต้องการแปลงไฟล์ PostScript หลายไฟล์เป็น PDF คุณสามารถสร้างลูปในโค้ด Java และทำซ้ำขั้นตอนนี้สำหรับไฟล์แต่ละไฟล์
 
 ### Aspose.PDF สำหรับ Java สามารถใช้งานฟรีได้หรือไม่?
 
@@ -81,7 +83,7 @@ pdfDocument.save("output.pdf");
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบและตัวอย่างที่ครอบคลุมได้ที่เอกสารอ้างอิง API ของ Aspose.PDF สำหรับ Java[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมได้ที่เอกสารอ้างอิง API ของ Aspose.PDF สำหรับ Java [ที่นี่](https://reference-aspose.com/pdf/java/).
 
 ## บทสรุป
 
@@ -89,10 +91,12 @@ pdfDocument.save("output.pdf");
 
 ตอนนี้คุณได้เรียนรู้วิธีการแปลงข้อมูลนี้แล้ว คุณสามารถปรับกระบวนการจัดการเอกสารของคุณให้มีประสิทธิภาพ และทำให้มั่นใจว่าเนื้อหาของคุณสามารถเข้าถึงผู้คนได้มากขึ้น
 
- สำหรับข้อมูลเพิ่มเติมและการเข้าถึงเอกสาร Aspose.PDF สำหรับ Java โปรดไปที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+สำหรับข้อมูลเพิ่มเติมและการเข้าถึงเอกสาร Aspose.PDF สำหรับ Java โปรดไปที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

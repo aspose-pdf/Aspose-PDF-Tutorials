@@ -1,14 +1,16 @@
 ---
-title: Wybierz przycisk radiowy w dokumencie PDF
-linktitle: Wybierz przycisk radiowy w dokumencie PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wybierać przyciski radiowe w dokumentach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Łatwo automatyzuj interakcje formularzy.
-weight: 250
-url: /pl/net/programming-with-forms/select-radio-button/
+"description": "Dowiedz się, jak wybierać przyciski radiowe w dokumentach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Łatwo automatyzuj interakcje formularzy."
+"linktitle": "Wybierz przycisk radiowy w dokumencie PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wybierz przycisk radiowy w dokumencie PDF"
+"url": "/pl/net/programming-with-forms/select-radio-button/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wybierz przycisk radiowy w dokumencie PDF
@@ -21,11 +23,11 @@ Programowe wybieranie przycisków radiowych w dokumencie PDF może zaoszczędzi�
 
 Zanim zagłębisz się w kod, upewnij się, że masz następujące ustawienia:
 
-1.  Aspose.PDF dla .NET: Pobierz i zainstaluj najnowszą wersję[Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Pobierz i zainstaluj najnowszą wersję [Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
 2. IDE: Zintegrowane środowisko programistyczne (IDE), takie jak Visual Studio, służące do pisania i uruchamiania kodu C#.
 3. .NET Framework: Upewnij się, że w systemie jest zainstalowany .NET Framework.
-4.  Dokument PDF z przyciskami radiowymi: Będziesz potrzebować pliku PDF zawierającego przyciski radiowe (np.`RadioButton.pdf`).
-5.  Licencja Aspose.PDF: Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub skorzystaj z bezpłatnej wersji próbnej Aspose.
+4. Dokument PDF z przyciskami radiowymi: Będziesz potrzebować pliku PDF zawierającego przyciski radiowe (np. `RadioButton.pdf`).
+5. Licencja Aspose.PDF: Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub skorzystaj z bezpłatnej wersji próbnej Aspose.
 
 ## Importuj przestrzenie nazw
 
@@ -42,7 +44,7 @@ Teraz zapoznajmy się z samouczkiem krok po kroku, który pokaże Ci, jak wybra�
 
 ## Krok 1: Otwórz dokument PDF
 
- Pierwszym krokiem jest załadowanie dokumentu PDF zawierającego przyciski radiowe. Możesz to zrobić za pomocą`Document` klasa z biblioteki Aspose.PDF. Oto jak:
+Pierwszym krokiem jest załadowanie dokumentu PDF zawierającego przyciski radiowe. Możesz to zrobić za pomocą `Document` klasa z biblioteki Aspose.PDF. Oto jak:
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -52,20 +54,20 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "RadioButton.pdf");
 ```
 
- W tym przykładzie ładujemy plik PDF o nazwie`RadioButton.pdf` . Zastępować`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką do pliku.
+W tym przykładzie ładujemy plik PDF o nazwie `RadioButton.pdf`. Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku.
 
 ## Krok 2: Uzyskaj dostęp do pola przycisku radiowego
 
- Teraz, gdy dokument jest załadowany, następnym krokiem jest dostęp do pól formularza. Konkretnie, chcemy wejść w interakcję z grupą przycisków radiowych. Dostęp do pola przycisku radiowego można uzyskać za pomocą`Form` własność`pdfDocument` obiekt.
+Teraz, gdy dokument jest załadowany, następnym krokiem jest dostęp do pól formularza. Konkretnie, chcemy wejść w interakcję z grupą przycisków radiowych. Dostęp do pola przycisku radiowego można uzyskać za pomocą `Form` własność `pdfDocument` obiekt.
 
- Oto kod umożliwiający dostęp do pola przycisku radiowego o nazwie`radio`:
+Oto kod umożliwiający dostęp do pola przycisku radiowego o nazwie `radio`:
 
 ```csharp
 // Zdobądź pole
 RadioButtonField radioField = pdfDocument.Form["radio"] as RadioButtonField;
 ```
 
- W tym przykładzie zakładamy, że pole przycisku radiowego w formularzu PDF ma nazwę`radio`. Jeśli pole ma inną nazwę w dokumencie, musisz ją odpowiednio dostosować.
+W tym przykładzie zakładamy, że pole przycisku radiowego w formularzu PDF ma nazwę `radio`. Jeśli pole ma inną nazwę w dokumencie, należy ją odpowiednio dostosować.
 
 ## Krok 3: Wybierz przycisk radiowy z grupy
 
@@ -78,7 +80,7 @@ Oto jak ustawić wybór na drugą opcję w grupie:
 radioField.Selected = 2;
 ```
 
- Indeks zaczyna się od`0`, więc w tym przypadku zaznaczony jest drugi przycisk w grupie.
+Indeks zaczyna się od `0`, więc w tym przypadku zaznaczony jest drugi przycisk w grupie.
 
 ## Krok 4: Zapisz zaktualizowany plik PDF
 
@@ -93,7 +95,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nRadioButton from group selected successfully.\nFile saved at " + dataDir);
 ```
 
- Ten kod zapisuje zmodyfikowany plik PDF jako`SelectRadioButton_out.pdf` w tym samym katalogu, w którym znajduje się oryginalny dokument.
+Ten kod zapisuje zmodyfikowany plik PDF jako `SelectRadioButton_out.pdf` w tym samym katalogu, w którym znajduje się oryginalny dokument.
 
 ## Wniosek
 
@@ -105,19 +107,21 @@ I masz to! Postępując zgodnie z tym przewodnikiem krok po kroku, nauczyłeś s
 Tak, Aspose.PDF dla .NET obsługuje interakcję z różnymi polami formularzy, w tym polami wyboru, polami tekstowymi i innymi. Możesz użyć podobnych metod, aby manipulować polami wyboru.
 
 ### Co się stanie, jeśli plik PDF nie będzie zawierał wskazanego przycisku radiowego?  
-Jeśli określone pole przycisku radiowego nie istnieje, pojawi się błąd, który można przechwycić za pomocą bloku try-catch w celu prawidłowej obsługi wyjątku.
+Jeśli określone pole przycisku radiowego nie istnieje, pojawi się błąd, który można przechwycić za pomocą bloku try-catch w celu poprawnego obsłużenia wyjątku.
 
 ### Czy mogę zaznaczyć kilka przycisków opcji jednocześnie?  
 Nie, przyciski radiowe są zaprojektowane tak, aby umożliwić tylko jeden wybór na grupę. Jeśli potrzebujesz wielu wyborów, rozważ użycie pól wyboru.
 
 ### Czy można odczytać aktualnie zaznaczony przycisk radiowy?  
- Tak, możesz sprawdzić, który przycisk radiowy jest aktualnie zaznaczony, czytając`Selected` własność`RadioButtonField` obiekt.
+Tak, możesz sprawdzić, który przycisk radiowy jest aktualnie zaznaczony, czytając `Selected` własność `RadioButtonField` obiekt.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF na platformie .NET?  
- Tak, Aspose.PDF wymaga licencji dla pełnej funkcjonalności. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub użyj[bezpłatny okres próbny](https://releases.aspose.com/) aby zacząć.
+Tak, Aspose.PDF wymaga licencji dla pełnej funkcjonalności. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub użyj [bezpłatny okres próbny](https://releases.aspose.com/) aby zacząć.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

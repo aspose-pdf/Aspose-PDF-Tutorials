@@ -1,14 +1,16 @@
 ---
-title: Skonfiguruj klucze licencyjne z licznikiem w pliku PDF
-linktitle: Skonfiguruj klucze licencyjne z licznikiem w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak skonfigurować klucze licencji mierzonej w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/licensing-aspose-pdf/configure-metered-license/
+"description": "Dowiedz się, jak skonfigurować klucze licencji mierzonej w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Skonfiguruj klucze licencyjne z licznikiem w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Skonfiguruj klucze licencyjne z licznikiem w pliku PDF"
+"url": "/pl/net/licensing-aspose-pdf/configure-metered-license/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Skonfiguruj klucze licencyjne z licznikiem w pliku PDF
@@ -21,8 +23,8 @@ Czy jesteś gotowy, aby zanurzyć się w świecie manipulacji PDF przy użyciu A
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że pobrałeś i zainstalowałeś najnowszą wersję Aspose.PDF dla .NET. Możesz ją pobrać ze strony[strona do pobrania](https://releases.aspose.com/pdf/net/).
-2.  Ważne klucze licencyjne z licznikiem: Będziesz potrzebować swoich publicznych i prywatnych kluczy z licznikiem. Jeśli ich jeszcze nie masz, możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF dla .NET: Upewnij się, że pobrałeś i zainstalowałeś najnowszą wersję Aspose.PDF dla .NET. Możesz ją pobrać ze strony [strona do pobrania](https://releases.aspose.com/pdf/net/).
+2. Ważne klucze licencyjne z licznikiem: Będziesz potrzebować swoich publicznych i prywatnych kluczy z licznikiem. Jeśli ich jeszcze nie masz, możesz uzyskać tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/).
 3. Środowisko programistyczne: środowisko Visual Studio lub inne zgodne ze środowiskiem programistycznym .NET powinno być skonfigurowane i gotowe do pracy.
 4. Przykładowy dokument PDF: Przygotuj plik PDF, którego możesz użyć do przetestowania procesu konfiguracji.
 
@@ -41,34 +43,34 @@ Podzielmy proces na łatwe do naśladowania kroki. Każdy krok poprowadzi Cię p
 
 ## Krok 1: Konfigurowanie środowiska programistycznego
 
-Zanim zaczniesz pisać kod, upewnij się, że Twoje środowisko programistyczne jest już przygotowane.
+Zanim zaczniesz pisać kod, upewnij się, że Twoje środowisko programistyczne jest gotowe.
 
 - Otwórz Visual Studio: Uruchom Visual Studio i utwórz nowy projekt C#. Jeśli masz już projekt, w którym chcesz skonfigurować licencję mierzoną, otwórz go zamiast tego.
 - Dodaj odniesienie do Aspose.PDF: Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań, przejdź do „Zarządzaj pakietami NuGet” i wyszukaj „Aspose.PDF dla .NET”. Zainstaluj pakiet, aby uwzględnić go w swoim projekcie.
 
 ## Krok 2: Zainicjuj klasę licznikową
 
- Teraz, gdy Twoje środowisko jest gotowe, czas na zainicjowanie`Metered` Klasa udostępniona przez Aspose.PDF.
+Teraz, gdy Twoje środowisko jest gotowe, czas na zainicjowanie `Metered` Klasa udostępniona przez Aspose.PDF.
 
--  Utwórz instancję: Zacznij od utworzenia instancji`Metered` klasa. Ta klasa pomoże Ci skonfigurować klucze licencyjne.
+- Utwórz instancję: Zacznij od utworzenia instancji `Metered` klasa. Ta klasa pomoże Ci skonfigurować klucze licencyjne.
 
 ```csharp
 Aspose.Pdf.Metered metered = new Aspose.Pdf.Metered();
 ```
 
--  Dlaczego to jest ważne:`Metered` Klasa ta jest istotna, ponieważ pozwala na wykorzystanie modelu licencjonowania opartego na liczniku, co może okazać się bardziej opłacalne, jeśli przetwarzasz dużą liczbę dokumentów.
+- Dlaczego to jest ważne: `Metered` Klasa ta jest istotna, ponieważ pozwala na wykorzystanie modelu licencjonowania opartego na liczniku, co może okazać się bardziej opłacalne, jeśli przetwarzasz dużą liczbę dokumentów.
 
 ## Krok 3: Ustaw klucze licencyjne dla licznika
 
- Z`Metered` Po zainicjowaniu klasy nadszedł czas na ustawienie kluczy publicznych i prywatnych.
+Z `Metered` Po zainicjowaniu klasy nadszedł czas na ustawienie kluczy publicznych i prywatnych.
 
--  Uzyskaj dostęp do`SetMeteredKey` Metoda:`SetMeteredKey` Metoda ta służy do zastosowania kluczy publicznych i prywatnych do biblioteki Aspose.PDF.
+- Uzyskaj dostęp do `SetMeteredKey` Metoda: `SetMeteredKey` Metoda ta służy do zastosowania kluczy publicznych i prywatnych do biblioteki Aspose.PDF.
 
 ```csharp
 metered.SetMeteredKey("YOUR_PUBLIC_KEY", "YOUR_PRIVATE_KEY");
 ```
 
--  Ważna uwaga: Wymień`"YOUR_PUBLIC_KEY"` I`"YOUR_PRIVATE_KEY"` twoimi rzeczywistymi kluczami licencyjnymi. Klucze te są kluczowe dla aktywacji pełnych możliwości Aspose.PDF.
+- Ważna uwaga: Wymień `"YOUR_PUBLIC_KEY"` I `"YOUR_PRIVATE_KEY"` twoimi rzeczywistymi kluczami licencyjnymi. Klucze te są kluczowe dla aktywacji pełnych możliwości Aspose.PDF.
 
 ## Krok 4: Załaduj swój dokument PDF
 
@@ -81,7 +83,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
--  Ładowanie dokumentu:`Document` Klasa w Aspose.PDF umożliwia łatwe ładowanie i edytowanie plików PDF.
+- Ładowanie dokumentu: `Document` Klasa w Aspose.PDF umożliwia łatwe ładowanie i edytowanie plików PDF.
 
 ## Krok 5: Sprawdź konfigurację
 
@@ -101,11 +103,11 @@ Gratulacje! Udało Ci się skonfigurować klucze licencyjne dla plików PDF przy
 
 ## Najczęściej zadawane pytania
 
-### Czym jest licencja licznikowa w Aspose.PDF?  
+### Czym jest licencja licznikowa w pliku Aspose.PDF?  
 Licencja licznikowa pozwala płacić za API na podstawie Twojego wykorzystania, a nie jednorazowej opłaty. Jest idealna do przetwarzania dużej ilości dokumentów.
 
 ### Jak uzyskać klucze licencyjne?  
- Klucze licencyjne z licznikiem można uzyskać, kupując licencję od[Tutaj](https://purchase.aspose.com/buy) lub ubiegając się o tymczasową licencję.
+Klucze licencyjne z licznikiem można uzyskać, kupując licencję od [Tutaj](https://purchase.aspose.com/buy) lub ubiegając się o tymczasową licencję.
 
 ### Czy mogę używać Aspose.PDF bez licencji?  
 Tak, ale darmowa wersja ma ograniczenia. Aby uzyskać nieograniczony dostęp do wszystkich funkcji, musisz zastosować ważną licencję.
@@ -116,9 +118,11 @@ Jeśli licencja licznikowa nie jest ustawiona prawidłowo, Twoja aplikacja może
 ### Czy mogę przełączać się między różnymi typami licencji w Aspose.PDF?  
 Tak, Aspose.PDF pozwala na przełączanie się pomiędzy różnymi typami licencji (zwykłą i taryfikowaną) poprzez skonfigurowanie odpowiednich kluczy licencyjnych w aplikacji.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

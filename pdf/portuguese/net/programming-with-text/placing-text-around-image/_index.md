@@ -1,32 +1,34 @@
 ---
-title: Colocando texto ao redor da imagem em arquivo PDF
-linktitle: Colocando texto ao redor da imagem em arquivo PDF
-second_title: Referência da API do Aspose.PDF para .NET
-description: Aprenda a colocar texto ao redor de imagens em PDFs usando Aspose.PDF para .NET. Siga nosso guia passo a passo para criar PDFs profissionais com imagens e texto lado a lado.
-weight: 260
-url: /pt/net/programming-with-text/placing-text-around-image/
+"description": "Aprenda a inserir texto ao redor de imagens em PDFs usando o Aspose.PDF para .NET. Siga nosso guia passo a passo para criar PDFs profissionais com imagens e texto lado a lado."
+"linktitle": "Colocando texto ao redor da imagem em um arquivo PDF"
+"second_title": "Referência da API Aspose.PDF para .NET"
+"title": "Colocando texto ao redor da imagem em um arquivo PDF"
+"url": "/pt/net/programming-with-text/placing-text-around-image/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Colocando texto ao redor da imagem em arquivo PDF
+# Colocando texto ao redor da imagem em um arquivo PDF
 
 ## Introdução
 
-Você já tentou colocar texto ao redor de uma imagem em um arquivo PDF, mas achou desafiador? Se sim, você está no lugar certo! O Aspose.PDF para .NET simplifica esse processo, permitindo que você coloque texto ao lado de imagens com apenas algumas linhas de código. Não importa se você está criando relatórios, documentos ou apresentações, esse recurso é uma maneira fantástica de aprimorar o layout do seu conteúdo e torná-lo mais atraente visualmente. Hoje, mostraremos como usar o Aspose.PDF para .NET para colocar texto ao redor de imagens em um documento PDF.
+Você já tentou inserir texto ao redor de uma imagem em um arquivo PDF, mas achou difícil? Se sim, você está no lugar certo! O Aspose.PDF para .NET simplifica esse processo, permitindo que você insira texto ao lado de imagens com apenas algumas linhas de código. Seja criando relatórios, documentos ou apresentações, esse recurso é uma maneira fantástica de aprimorar o layout do seu conteúdo e torná-lo mais atraente visualmente. Hoje, vamos explicar como usar o Aspose.PDF para .NET para inserir texto ao redor de imagens em um documento PDF.
 
 ## Pré-requisitos
 
-Antes de pularmos para o código, vamos nos certificar de que temos tudo configurado. Aqui está o que você vai precisar:
+Antes de começarmos a programar, vamos garantir que tudo esteja configurado. Aqui está o que você precisa:
 
--  Aspose.PDF para .NET: Você pode baixá-lo em[aqui](https://releases.aspose.com/pdf/net/).
-- Visual Studio: certifique-se de ter a versão mais recente instalada para acompanhar sem problemas.
-- .NET Framework: Este exemplo usa .NET, portanto, certifique-se de que seu ambiente esteja configurado para desenvolvimento .NET.
--  Uma licença temporária: você pode solicitar uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) se você estiver avaliando o produto.
+- Aspose.PDF para .NET: Você pode baixá-lo em [aqui](https://releases.aspose.com/pdf/net/).
+- Visual Studio: certifique-se de ter a versão mais recente instalada para prosseguir sem problemas.
+- .NET Framework: Este exemplo usa .NET, portanto, certifique-se de que seu ambiente esteja configurado para desenvolvimento em .NET.
+- Uma licença temporária: você pode solicitar uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/) se você estiver avaliando o produto.
 
-Se você ainda não configurou o Aspose.PDF para .NET, siga as instruções de instalação no[documentação](https://reference.aspose.com/pdf/net/).
+Se você ainda não configurou o Aspose.PDF para .NET, siga as instruções de instalação no [documentação](https://reference.aspose.com/pdf/net/).
 
 ## Importar namespaces
 
@@ -39,20 +41,20 @@ using System.Linq;
 using System.Text;
 ```
 
- Esses namespaces são essenciais, pois fornecem acesso a classes como`Document`, `Page`, `Image` , e`HtmlFragment`, que usaremos para criar e manipular o PDF.
+Esses namespaces são essenciais, pois fornecem acesso a classes como `Document`, `Page`, `Image`, e `HtmlFragment`, que usaremos para criar e manipular o PDF.
 
-Agora que definimos o cenário, vamos detalhar como colocar texto ao redor de uma imagem no seu arquivo PDF usando o Aspose.PDF para .NET. Nós o guiaremos por isso passo a passo.
+Agora que definimos o cenário, vamos explicar como inserir texto ao redor de uma imagem no seu arquivo PDF usando o Aspose.PDF para .NET. Vamos orientá-lo passo a passo.
 
 ## Etapa 1: Instanciar o objeto Document
 
- Primeiro, você precisa criar um documento PDF. No Aspose.PDF, isso é feito instanciando um`Document` objeto. Este objeto servirá como base para todo o conteúdo que adicionaremos.
+Primeiro, você precisa criar um documento PDF. No Aspose.PDF, isso é feito instanciando um `Document` objeto. Este objeto servirá de base para todo o conteúdo que adicionaremos.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
-Aqui, criamos um documento PDF vazio. Ele ainda não tem nenhuma página, mas não se preocupe, adicionaremos uma na próxima etapa.
+Aqui, criamos um documento PDF vazio. Ele ainda não tem páginas, mas não se preocupe, adicionaremos uma na próxima etapa.
 
 ## Etapa 2: Adicionar uma página ao documento
 
@@ -66,7 +68,7 @@ Este código adiciona uma nova página ao documento. Por padrão, a página est�
 
 ## Etapa 3: Crie uma tabela para organizar o conteúdo
 
-Para manter nossa imagem e texto alinhados corretamente, usaremos uma tabela. Tabelas em PDFs podem ajudar a estruturar seu layout, assim como em documentos Word ou HTML.
+Para manter a imagem e o texto alinhados corretamente, usaremos uma tabela. Tabelas em PDFs podem ajudar a estruturar seu layout, assim como em documentos do Word ou HTML.
 
 ```csharp
 Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
@@ -75,19 +77,19 @@ page.Paragraphs.Add(table1);
 
 Este snippet cria uma tabela e a adiciona à página. Pense na tabela como a estrutura para alinhar sua imagem e texto.
 
-## Etapa 4: Defina as larguras das colunas para a tabela
+## Etapa 4: definir as larguras das colunas para a tabela
 
-Agora que adicionamos uma tabela, precisamos definir a largura das colunas. Isso garante que a imagem e o texto sejam dimensionados apropriadamente na página.
+Agora que adicionamos uma tabela, precisamos definir a largura das colunas. Isso garante que a imagem e o texto tenham o tamanho adequado na página.
 
 ```csharp
 table1.ColumnWidths = "120 270";
 ```
 
-Esta linha define a largura de duas colunas — uma para a imagem e outra para o texto. Ajuste esses valores se sua imagem ou texto precisar de mais ou menos espaço.
+Esta linha define a largura de duas colunas: uma para a imagem e outra para o texto. Ajuste esses valores se a sua imagem ou texto precisar de mais ou menos espaço.
 
-## Etapa 5: Definir margens e preenchimento
+## Etapa 5: definir margens e preenchimento
 
-Para garantir que tudo fique organizado, vamos adicionar algumas margens e preenchimento à tabela.
+Para garantir que tudo pareça organizado, vamos adicionar algumas margens e preenchimento à tabela.
 
 ```csharp
 Aspose.Pdf.MarginInfo margin = new Aspose.Pdf.MarginInfo();
@@ -102,7 +104,7 @@ Essas configurações garantem que sua tabela tenha espaçamento consistente, to
 
 ## Etapa 6: Insira uma imagem na tabela
 
-Agora, vamos para a parte divertida — adicionar uma imagem. Neste caso, adicionaremos o logotipo Aspose, mas fique à vontade para usar qualquer imagem que você goste.
+Agora, vamos à parte divertida: adicionar uma imagem. Neste caso, adicionaremos o logotipo da Aspose, mas fique à vontade para usar qualquer imagem que desejar.
 
 ```csharp
 Aspose.Pdf.Row row1 = table1.Rows.Add();
@@ -121,7 +123,7 @@ Veja o que está acontecendo:
 
 ## Etapa 7: adicione texto ao lado da imagem
 
-Agora que a imagem está no lugar, vamos adicionar algum texto ao lado dela. Para este exemplo, usaremos texto formatado em HTML para estilizar o conteúdo.
+Agora que a imagem está no lugar, vamos adicionar texto ao lado dela. Neste exemplo, usaremos texto em formato HTML para estilizar o conteúdo.
 
 ```csharp
 string TitleString = "<font face=\"Arial\" size=6 color=\"#101090\"><b> Aspose.Pdf for .NET</b></font>";
@@ -132,11 +134,11 @@ row1.Cells.Add();
 row1.Cells[1].Paragraphs.Add(TitleText);
 ```
 
-Este bloco adiciona um título estilizado e uma descrição na célula ao lado da imagem. Você pode formatar o texto usando tags HTML para mais personalização.
+Este bloco adiciona um título e uma descrição estilizados na célula ao lado da imagem. Você pode formatar o texto usando tags HTML para maior personalização.
 
 ## Etapa 8: ajuste o alinhamento vertical
 
-Por padrão, o conteúdo nas células da tabela pode não se alinhar da maneira que você quer. Neste caso, queremos ter certeza de que o texto esteja alinhado ao topo da célula.
+Por padrão, o conteúdo nas células da tabela pode não ser alinhado da maneira desejada. Nesse caso, queremos garantir que o texto esteja alinhado à parte superior da célula.
 
 ```csharp
 row1.Cells[1].VerticalAlignment = Aspose.Pdf.VerticalAlignment.Top;
@@ -173,7 +175,7 @@ Isso salva o PDF com a imagem e o texto formatados exatamente como queremos.
 
 ## Conclusão
 
-Colocar texto em volta de imagens em um PDF pode parecer uma tarefa assustadora, mas o Aspose.PDF para .NET simplifica o processo. Ao aproveitar tabelas, imagens e texto estilizado, você pode criar PDFs com aparência profissional com o mínimo de esforço. Com apenas algumas linhas de código, você pode posicionar o conteúdo exatamente onde quiser, dando aos seus documentos uma aparência polida e bem organizada.
+Inserir texto ao redor de imagens em um PDF pode parecer uma tarefa desafiadora, mas o Aspose.PDF para .NET simplifica o processo. Utilizando tabelas, imagens e texto estilizado, você pode criar PDFs com aparência profissional com o mínimo de esforço. Com apenas algumas linhas de código, você pode posicionar o conteúdo exatamente onde quiser, dando aos seus documentos uma aparência elegante e bem organizada.
 
 ## Perguntas frequentes
 
@@ -181,19 +183,21 @@ Colocar texto em volta de imagens em um PDF pode parecer uma tarefa assustadora,
 Sim, basta adicionar mais linhas e células à sua tabela para incluir imagens e texto adicionais.
 
 ### Posso alterar o alinhamento da imagem?
-Absolutamente! Você pode modificar o alinhamento da imagem ajustando as propriedades de alinhamento da célula.
+Com certeza! Você pode modificar o alinhamento da imagem ajustando as propriedades de alinhamento da célula.
 
 ### Como posso estilizar ainda mais o texto?
- Você pode usar tags HTML dentro do`HtmlFragment` objeto para aplicar vários estilos como negrito, itálico ou fontes diferentes.
+Você pode usar tags HTML dentro do `HtmlFragment` objeto para aplicar vários estilos, como negrito, itálico ou fontes diferentes.
 
 ### Posso controlar o espaçamento entre o texto e a imagem?
- Sim, usando o`MarginInfo` objeto permite que você controle o preenchimento e as margens entre os elementos.
+Sim, usando o `MarginInfo` objeto permite que você controle o preenchimento e as margens entre os elementos.
 
 ### É possível adicionar links ao texto?
- Definitivamente! Você pode incorporar hiperlinks no texto formatado em HTML usando o`<a>` marcação.
+Com certeza! Você pode incorporar hiperlinks no texto em formato HTML usando o `<a>` marcação.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

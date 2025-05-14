@@ -1,14 +1,16 @@
 ---
-title: Thêm bình luận vào tài liệu PDF
-linktitle: Thêm bình luận vào tài liệu PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm chú thích vào tài liệu PDF bằng Aspose.PDF cho Java - Hướng dẫn từng bước có ví dụ về mã.
-weight: 10
-url: /vi/java/pdf-annotations/add-comments-pdf-documents/
+"description": "Tìm hiểu cách thêm chú thích vào tài liệu PDF bằng Aspose.PDF cho Java - Hướng dẫn từng bước có ví dụ về mã."
+"linktitle": "Thêm bình luận vào tài liệu PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm bình luận vào tài liệu PDF"
+"url": "/vi/java/pdf-annotations/add-comments-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm bình luận vào tài liệu PDF
@@ -20,7 +22,7 @@ Tài liệu PDF đã trở thành tiêu chuẩn để chia sẻ thông tin kỹ 
 
 ## Bắt đầu với Aspose.PDF cho Java
 
-Để bắt đầu, bạn sẽ cần thiết lập môi trường phát triển của mình. Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+Để bắt đầu, bạn sẽ cần thiết lập môi trường phát triển của mình. Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Tạo một tài liệu PDF
 
@@ -70,7 +72,7 @@ Thêm chú thích vào tài liệu PDF là một tính năng có giá trị giú
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để thêm bình luận văn bản vào một vị trí cụ thể trong tệp PDF?
+### Làm thế nào để thêm bình luận văn bản vào một vị trí cụ thể trong PDF?
 
 Để thêm chú thích văn bản vào một vị trí cụ thể, hãy tạo chú thích văn bản và đặt vị trí của chú thích đó trong trang PDF.
 
@@ -89,9 +91,11 @@ Số lượng bình luận bạn có thể thêm vào tài liệu PDF phụ thu�
 ### Làm thế nào tôi có thể trích xuất bình luận từ PDF theo chương trình?
 
 Bạn có thể trích xuất các chú thích từ tài liệu PDF bằng Aspose.PDF for Java bằng cách lặp qua các chú thích của tài liệu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

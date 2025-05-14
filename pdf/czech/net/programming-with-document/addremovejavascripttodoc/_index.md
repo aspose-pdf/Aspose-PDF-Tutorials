@@ -1,34 +1,36 @@
 ---
-title: Přidat Odebrat Javascript do dokumentu PDF
-linktitle: Přidat Remove Javascript To Doc
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak přidat a odebrat JavaScript do dokumentu PDF pomocí Aspose.PDF for .NET. Podrobný průvodce s výukovým programem kódu pro skriptování na úrovni dokumentu.
-weight: 30
-url: /cs/net/programming-with-document/addremovejavascripttodoc/
+"description": "Naučte se, jak přidat a odebrat JavaScript do PDF dokumentu pomocí Aspose.PDF pro .NET. Podrobný návod s tutoriály pro skriptování na úrovni dokumentu."
+"linktitle": "Přidat a odebrat Javascript do dokumentu"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Přidat a odstranit Javascript z PDF dokumentu"
+"url": "/cs/net/programming-with-document/addremovejavascripttodoc/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidat Odebrat Javascript do dokumentu PDF
+# Přidat a odstranit Javascript z PDF dokumentu
 
 ## Zavedení
 
-V této příručce si projdeme, jak pomocí Aspose.PDF for .NET vložit JavaScript do souboru PDF a jak jej v případě potřeby odstranit. Na konci tohoto tutoriálu budete mít jasno v tom, jak snadno manipulovat s JavaScriptem v PDF.
+V této příručce si ukážeme, jak pomocí Aspose.PDF pro .NET vložit JavaScript do PDF souboru a jak jej v případě potřeby odebrat. Na konci tohoto tutoriálu budete mít jasnou představu o tom, jak snadno manipulovat s JavaScriptem v PDF souborech.
 
 ## Předpoklady
 
-Než se pustíme do kódu, je potřeba nastavit několik věcí:
+Než se ponoříme do kódu, je třeba mít nastavených několik věcí:
 
-1.  Aspose.PDF for .NET: Budete potřebovat knihovnu Aspose.PDF for .NET nainstalovanou ve vašem projektu. Pokud ji ještě nemáte, stáhněte si knihovnu z[Stránka ke stažení Aspose.PDF pro .NET](https://releases.aspose.com/pdf/net/).
-2. IDE nebo textový editor: Můžete použít jakékoli IDE kompatibilní s .NET, jako je Visual Studio.
-3. Základní znalosti C#: Tento tutoriál předpokládá, že ovládáte C# a znáte práci s PDF.
-4. Licence: Ujistěte se, že používáte platnou licenci, abyste se vyhnuli omezením. Dočasnou licenci můžete získat od[zde](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF pro .NET: Budete potřebovat knihovnu Aspose.PDF pro .NET nainstalovanou ve vašem projektu. Pokud ji ještě nemáte, stáhněte si ji z [Stránka ke stažení souboru Aspose.PDF pro .NET](https://releases.aspose.com/pdf/net/).
+2. IDE nebo textový editor: Můžete použít jakékoli IDE kompatibilní s .NET, například Visual Studio.
+3. Základní znalost jazyka C#: Tento tutoriál předpokládá, že máte zkušenosti s jazykem C# a jste obeznámeni s manipulací s PDF.
+4. Licence: Ujistěte se, že máte platnou licenci, abyste se vyhnuli omezením. Dočasnou licenci můžete získat od [zde](https://purchase.aspose.com/temporary-license/).
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít používat Aspose.PDF pro .NET, budete muset do svého projektu importovat potřebné jmenné prostory. Zde je postup:
+Abyste mohli začít používat Aspose.PDF pro .NET, budete muset do projektu importovat potřebné jmenné prostory. Postupujte takto:
 
 ```csharp
 using System.IO;
@@ -39,33 +41,33 @@ using Aspose.Pdf.Text;
 using System.Collections;
 ```
 
- Tyto dva jmenné prostory jsou nezbytné.`Aspose.Pdf` umožňuje pracovat s dokumenty PDF, přičemž`System.Collections` bude použit pro manipulaci s JavaScriptovými klíči.
+Tyto dva jmenné prostory jsou nezbytné. `Aspose.Pdf` umožňuje pracovat s PDF dokumenty, a zároveň `System.Collections` bude použit pro práci s klíči JavaScriptu.
 
-Pojďme si celý proces přidávání a odebírání JavaScriptu z PDF rozebrat do snadno srozumitelných kroků.
+Pojďme si celý proces přidávání a odebírání JavaScriptu z PDF rozebrat do snadno sledovatelných kroků.
 
-## Krok 1: Inicializujte nový dokument PDF
+## Krok 1: Inicializace nového dokumentu PDF
 
-První věc, kterou musíte udělat, je vytvořit nový dokument PDF. Tento dokument bude sloužit jako naše prázdné plátno pro přidání JavaScriptu.
+První věc, kterou budete muset udělat, je vytvořit nový PDF dokument. Tento dokument bude sloužit jako prázdné plátno pro přidání JavaScriptu.
 
 ```csharp
 Document doc = new Document();
 doc.Pages.Add();
 ```
 
- Zde inicializujeme nový`Document` objekt a přidat k němu prázdnou stránku. Berte to jako základ vašeho PDF.
+Zde inicializujeme nový `Document` objekt a přidáním prázdné stránky k němu. Představte si to jako základ vašeho PDF.
 
-## Krok 2: Přidejte JavaScript do PDF
+## Krok 2: Přidání JavaScriptu do PDF
 
-Nyní, když máme dokument, je čas přidat do něj JavaScript. JavaScript v souborech PDF lze použít k přidání vlastního chování, jako jsou upozornění nebo ověření formuláře.
+Nyní, když máme dokument, je čas do něj přidat JavaScript. JavaScript v PDF souborech lze použít k přidání vlastních funkcí, jako jsou upozornění nebo ověřování formulářů.
 
 ```csharp
 doc.JavaScript["func1"] = "function func1() { hello(); }";
 doc.JavaScript["func2"] = "function func2() { hello(); }";
 ```
 
-Do tohoto fragmentu kódu přidáváme dvě funkce JavaScriptu (`func1` a`func2` ) do PDF. Tyto funkce mohou provádět různé úkoly v závislosti na vašich potřebách. Zde jen voláme zástupnou funkci nazvanou`hello()`.
+V tomto úryvku kódu přidáváme dvě JavaScriptové funkce (`func1` a `func2`) do PDF. Tyto funkce mohou provádět různé úkoly v závislosti na vašich potřebách. Zde pouze voláme zástupnou funkci s názvem `hello()`.
 
-## Krok 3: Uložte PDF pomocí JavaScriptu
+## Krok 3: Uložení PDF souboru s JavaScriptem
 
 Jakmile přidáte požadovaný JavaScript, je čas uložit PDF.
 
@@ -73,22 +75,22 @@ Jakmile přidáte požadovaný JavaScript, je čas uložit PDF.
 doc.Save(dataDir + "AddJavascript.pdf");
 ```
 
- Tím se dokument uloží s JavaScriptem pod jménem`AddJavascript.pdf` v zadaném adresáři (`dataDir`).
+Tím se dokument s JavaScriptem uloží pod názvem `AddJavascript.pdf` v zadaném adresáři (`dataDir`).
 
-## Krok 4: Načtěte a zobrazte JavaScript ve stávajícím PDF
+## Krok 4: Načtení a zobrazení JavaScriptu v existujícím PDF
 
-Řekněme, že potřebujete zkontrolovat nebo upravit funkce JavaScriptu v existujícím PDF. Prvním krokem je načtení souboru PDF a přístup ke klíčům JavaScriptu.
+Řekněme, že potřebujete zkontrolovat nebo upravit funkce JavaScriptu v existujícím PDF souboru. Prvním krokem je načtení PDF souboru a přístup k JavaScriptovým klíčům.
 
 ```csharp
 Document doc1 = new Document(dataDir + "AddJavascript.pdf");
 IList keys = (System.Collections.IList)doc1.JavaScript.Keys;
 ```
 
- Načítáme stávající`AddJavascript.pdf` a uložením JavaScriptových klíčů do seznamu. The`Keys` vlastnost vrací názvy všech funkcí JavaScriptu připojených k dokumentu.
+Načítáme stávající `AddJavascript.pdf` a uložení klíčů JavaScriptu do seznamu. `Keys` Vlastnost vrací názvy všech funkcí JavaScriptu připojených k dokumentu.
 
 ## Krok 5: Zobrazení funkcí JavaScriptu
 
-Dále můžeme iterovat funkce JavaScriptu, abychom viděli, co je v dokumentu k dispozici.
+Dále můžeme iterovat funkcemi JavaScriptu, abychom zjistili, co je v dokumentu k dispozici.
 
 ```csharp
 Console.WriteLine("=============================== ");
@@ -98,22 +100,22 @@ foreach (string key in keys)
 }
 ```
 
-Tím se vytiskne každý název funkce JavaScript a jeho odpovídající kód do konzoly. Je to užitečné, pokud chcete ověřit, jaké funkce jsou aktuálně v dokumentu.
+Tím se do konzole vypíše název každé funkce JavaScriptu a její odpovídající kód. To je užitečné, pokud chcete ověřit, jaké funkce se aktuálně v dokumentu nacházejí.
 
-## Krok 6: Odstraňte JavaScript z PDF
+## Krok 6: Odebrání JavaScriptu z PDF
 
- Nyní řekněme, že chcete odstranit konkrétní funkci JavaScriptu, např`func1`. Můžete to udělat takto:
+Řekněme, že chcete odstranit konkrétní funkci JavaScriptu, například `func1`Zde je návod, jak to můžete udělat:
 
 ```csharp
 doc1.JavaScript.Remove("func1");
 Console.WriteLine("Key 'func1' removed ");
 ```
 
- The`Remove` metoda převezme název funkce JavaScript jako argument a odstraní jej z dokumentu.
+Ten/Ta/To `Remove` Metoda bere název JavaScriptové funkce jako argument a odstraní ji z dokumentu.
 
-## Krok 7: Ověřte odstranění JavaScriptu
+## Krok 7: Ověření odstranění JavaScriptu
 
- Po odstranění JavaScriptu můžete znovu vytisknout zbývající funkce, abyste to potvrdili`func1` byl úspěšně smazán.
+Po odstranění JavaScriptu můžete znovu vytisknout zbývající funkce, abyste to potvrdili. `func1` byl úspěšně smazán.
 
 ```csharp
 Console.WriteLine("=============================== ");
@@ -128,27 +130,29 @@ Tato poslední část kódu zajišťuje, že je vše na svém místě a funkce J
 
 ## Závěr
 
-Gratuluji! Právě jste se naučili přidávat a odstraňovat JavaScript z dokumentu PDF pomocí Aspose.PDF pro .NET. Tuto výkonnou funkci lze využít pro různé úkoly, od přidávání dynamických zpráv až po provádění vlastních výpočtů nebo ověřování. Manipulací s JavaScriptem v rámci PDF můžete výrazně zlepšit uživatelský dojem.
+Gratulujeme! Právě jste se naučili, jak přidávat a odebírat JavaScript z PDF dokumentu pomocí Aspose.PDF pro .NET. Tuto výkonnou funkci lze využít pro řadu úkolů, od přidávání dynamických zpráv až po provádění vlastních výpočtů nebo validací. Manipulací s JavaScriptem v PDF můžete výrazně vylepšit uživatelský zážitek.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu do jednoho PDF přidat více funkcí JavaScriptu?
- Absolutně! Můžete přidat tolik funkcí JavaScript, kolik potřebujete, pomocí`doc.JavaScript` sbírka.
+Rozhodně! Můžete přidat libovolný počet JavaScriptových funkcí pomocí `doc.JavaScript` sbírka.
 
 ### Co se stane, když se pokusím odstranit neexistující funkci JavaScriptu?
- Pokud funkce neexistuje,`Remove` metoda nevyhodí chybu, ale také nic neodstraní.
+Pokud funkce neexistuje, pak `Remove` Metoda nevyvolá chybu, ale také nic neodstraní.
 
-### Je možné spustit JavaScript ihned po otevření PDF?
-Ano! JavaScript můžete nakonfigurovat tak, aby se spouštěl u určitých spouštěčů, jako je otevření dokumentu nebo kliknutí na tlačítko.
+### Je možné spustit JavaScript ihned po otevření PDF souboru?
+Ano! JavaScript můžete nakonfigurovat tak, aby se spouštěl při určitých spouštěčích, jako je otevření dokumentu nebo kliknutí na tlačítko.
 
-### Mohu upravit JavaScript poté, co byl přidán do PDF?
-Ano, můžete načíst existující PDF, získat přístup k jeho JavaScriptu, upravit kód a dokument znovu uložit.
+### Mohu upravit JavaScript po jeho přidání do PDF?
+Ano, můžete načíst existující PDF, přistupovat k jeho JavaScriptu, upravit kód a dokument znovu uložit.
 
-### Má odstranění JavaScriptu vliv na zbytek obsahu PDF?
+### Ovlivní odstranění JavaScriptu zbytek obsahu PDF?
 Ne, odstranění JavaScriptu ovlivní pouze skript. Obsah PDF zůstává nezměněn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

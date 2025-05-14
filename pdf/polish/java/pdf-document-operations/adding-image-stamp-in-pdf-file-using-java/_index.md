@@ -1,14 +1,16 @@
 ---
-title: Dodawanie pieczątki graficznej do pliku PDF za pomocą Java
-linktitle: Dodawanie pieczątki graficznej do pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać stemple graficzne do plików PDF za pomocą języka Java, korzystając z tego kompleksowego samouczka dotyczącego programu Aspose.PDF dla języka Java.
-weight: 12
-url: /pl/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/
+"description": "Dowiedz się, jak dodawać stemple graficzne do plików PDF za pomocą języka Java, korzystając z tego kompleksowego samouczka dotyczącego programu Aspose.PDF dla języka Java."
+"linktitle": "Dodawanie pieczątki graficznej do pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodawanie pieczątki graficznej do pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie pieczątki graficznej do pliku PDF za pomocą Java
@@ -35,14 +37,14 @@ Na początek upewnij się, że masz zainstalowaną Javę w swoim systemie. Może
 
 ## Krok 2: Dodaj Aspose.PDF dla Java do swojego projektu
 
-swoim projekcie Java musisz uwzględnić bibliotekę Aspose.PDF. Możesz to zrobić, dodając bibliotekę jako zależność w pliku kompilacji swojego projektu (np. Maven lub Gradle).
+W swoim projekcie Java musisz uwzględnić bibliotekę Aspose.PDF. Możesz to zrobić, dodając bibliotekę jako zależność w pliku kompilacji swojego projektu (np. Maven lub Gradle).
 
 ## Krok 3: Utwórz dokument PDF
 
 Teraz utwórzmy dokument PDF, do którego dodamy stempel graficzny. Możesz utworzyć nowy dokument PDF za pomocą Aspose.PDF dla Java za pomocą zaledwie kilku linijek kodu.
 
 ```java
-// Kod do tworzenia nowego dokumentu PDF
+// Kod do utworzenia nowego dokumentu PDF
 Document pdfDocument = new Document();
 ```
 
@@ -72,13 +74,13 @@ pdfDocument.save("output.pdf");
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak dodawać stemple graficzne do plików PDF za pomocą Java i Aspose.PDF dla Java. Teraz możesz ulepszyć swoje dokumenty PDF za pomocą stempli graficznych, aby poprawić branding i identyfikację.
+W tym samouczku nauczyliśmy się, jak dodawać stemple graficzne do plików PDF za pomocą Java i Aspose.PDF dla Java. Teraz możesz ulepszyć swoje dokumenty PDF za pomocą stempli graficznych, aby poprawić branding i identyfikację.
 
 ## Najczęściej zadawane pytania
 
 ### Jak mogę zmienić położenie stempla graficznego?
 
-Możesz zmienić położenie stempla obrazu, modyfikując jego współrzędne w dokumencie PDF. Zapoznaj się z dokumentacją Aspose.PDF for Java, aby uzyskać szczegółowe instrukcje.
+Możesz zmienić położenie stempla obrazu, modyfikując jego współrzędne w dokumencie PDF. Szczegółowe instrukcje znajdziesz w dokumentacji Aspose.PDF for Java.
 
 ### Czy mogę dodać wiele stempli graficznych do jednego dokumentu PDF?
 
@@ -94,10 +96,12 @@ Aspose.PDF dla Java obsługuje różne formaty obrazów, takie jak PNG, JPEG, GI
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.PDF dla Java?
 
-Pełną dokumentację i przykłady można znaleźć na stronie internetowej Aspose.PDF for Java pod adresem[Tutaj](https://reference.aspose.com/pdf/java/.)
+Pełną dokumentację i przykłady można znaleźć na stronie internetowej Aspose.PDF for Java pod adresem [Tutaj](https://reference.aspose.com/pdf/java/.)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Export PDF Annotations to XFDF Using Aspose.PDF for Java: A Step-by-Step Guide
 
@@ -172,7 +174,11 @@ This tutorial has covered how to export PDF annotations using **Aspose.PDF for J
 - [Free Trial Version](https://releases.aspose.com/pdf/java/)
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

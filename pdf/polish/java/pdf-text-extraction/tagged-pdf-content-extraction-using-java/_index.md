@@ -1,14 +1,16 @@
 ---
-title: Ekstrakcja zawartości PDF z tagami przy użyciu Java
-linktitle: Ekstrakcja zawartości PDF z tagami przy użyciu Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Odblokuj moc ekstrakcji oznaczonych treści PDF w Javie dzięki Aspose.PDF dla Javy. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego dla bezproblemowego dostępu do ustrukturyzowanej treści PDF.
-weight: 12
-url: /pl/java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/
+"description": "Odblokuj moc ekstrakcji oznaczonych treści PDF w Javie dzięki Aspose.PDF dla Javy. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego dla bezproblemowego dostępu do ustrukturyzowanej treści PDF."
+"linktitle": "Ekstrakcja zawartości PDF z tagami przy użyciu Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Ekstrakcja zawartości PDF z tagami przy użyciu Java"
+"url": "/pl/java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrakcja zawartości PDF z tagami przy użyciu Java
@@ -18,7 +20,7 @@ Oznaczone pliki PDF są ustrukturyzowane w sposób, który sprawia, że są dost
 
 ## Wstęp
 
-Oznaczone pliki PDF zawierają informacje strukturalne, które pomagają czytnikom ekranu i innym technologiom wspomagającym zrozumieć zawartość dokumentu. Wyodrębnianie zawartości z oznaczonych plików PDF jest kluczowe dla różnych aplikacji, takich jak analiza danych, ponowne wykorzystywanie zawartości i zgodność z dostępnością.
+Oznaczone pliki PDF zawierają informacje strukturalne, które pomagają czytnikom ekranu i innym technologiom wspomagającym zrozumieć zawartość dokumentu. Wyodrębnianie zawartości z oznaczonych plików PDF jest kluczowe dla różnych zastosowań, takich jak analiza danych, ponowne wykorzystywanie zawartości i zgodność z dostępnością.
 
 ## Wymagania wstępne
 
@@ -26,7 +28,7 @@ Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
 1. Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowana Java.
 
-2.  Aspose.PDF dla biblioteki Java: Bibliotekę można pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/). Dodaj go do swojego projektu Java.
+2. Aspose.PDF dla biblioteki Java: Bibliotekę można pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/). Dodaj go do swojego projektu Java.
 
 ## Krok 1: Utwórz projekt Java
 
@@ -47,7 +49,7 @@ public class TaggedPDFExtractor {
 }
 ```
 
- Zastępować`"path_to_tagged_pdf.pdf"` z rzeczywistą ścieżką do Twojego oznaczonego pliku PDF.
+Zastępować `"path_to_tagged_pdf.pdf"` z rzeczywistą ścieżką do Twojego oznaczonego pliku PDF.
 
 ## Krok 3: Wyodrębnij oznaczoną treść
 
@@ -107,10 +109,12 @@ Ekstrakcja zawartości z oznaczonych plików PDF przy użyciu Java i Aspose.PDF 
    Aspose.PDF for Java jest biblioteką komercyjną, ale dostępna jest bezpłatna wersja próbna w celach ewaluacyjnych.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.PDF dla Java?
-    Zapoznaj się z dokumentacją API pod adresem[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) aby uzyskać szczegółowe informacje i przykłady.
+   Zapoznaj się z dokumentacją API pod adresem [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) aby uzyskać szczegółowe informacje i przykłady.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

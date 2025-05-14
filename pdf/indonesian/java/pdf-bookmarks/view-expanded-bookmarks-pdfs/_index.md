@@ -1,14 +1,16 @@
 ---
-title: Lihat Bookmark yang Diperluas dalam PDF
-linktitle: Lihat Bookmark yang Diperluas dalam PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara melihat bookmark yang diperluas dalam PDF menggunakan Aspose.PDF untuk Java. Sempurnakan navigasi dokumen dengan panduan langkah demi langkah.
-weight: 14
-url: /id/java/pdf-bookmarks/view-expanded-bookmarks-pdfs/
+"description": "Pelajari cara melihat bookmark yang diperluas dalam PDF menggunakan Aspose.PDF untuk Java. Sempurnakan navigasi dokumen dengan panduan langkah demi langkah."
+"linktitle": "Lihat Bookmark yang Diperluas dalam PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Lihat Bookmark yang Diperluas dalam PDF"
+"url": "/id/java/pdf-bookmarks/view-expanded-bookmarks-pdfs/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lihat Bookmark yang Diperluas dalam PDF
@@ -33,7 +35,7 @@ Aspose.PDF untuk Java adalah API canggih yang memungkinkan pengembang bekerja de
 ## Panduan Langkah demi Langkah
 
 ### Langkah 1: Instalasi
- Sebelum kita mulai, pastikan Anda telah menginstal Aspose.PDF untuk Java di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+Sebelum kita mulai, pastikan Anda telah menginstal Aspose.PDF untuk Java di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ### Langkah 2: Mengimpor Perpustakaan
 Dalam proyek Java Anda, impor pustaka Aspose.PDF. Berikut ini contoh sederhana tentang cara melakukannya:
@@ -71,7 +73,7 @@ Dalam artikel ini, kami membahas pentingnya bookmark yang diperluas dalam dokume
 
 ### Bagaimana cara mengunduh Aspose.PDF untuk Java?
 
- Anda dapat mengunduh Aspose.PDF untuk Java dari[tautan ini](https://releases.aspose.com/pdf/java/).
+Anda dapat mengunduh Aspose.PDF untuk Java dari [tautan ini](https://releases.aspose.com/pdf/java/).
 
 ### Dapatkah saya menggunakan Aspose.PDF untuk Java dalam proyek komersial?
 
@@ -88,9 +90,11 @@ Ya, Aspose.PDF untuk Java menyediakan opsi untuk menyesuaikan tampilan dan peril
 ### Apakah ada versi uji coba Aspose.PDF untuk Java?
 
 Ya, Anda dapat mencoba versi evaluasi gratis Aspose.PDF untuk Java sebelum membuat keputusan pembelian.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

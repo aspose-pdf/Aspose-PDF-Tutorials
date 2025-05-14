@@ -1,14 +1,16 @@
 ---
-title: PDF ke PDFA3b
-linktitle: PDF ke PDFA3b
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengonversi file PDF ke format PDF/A-3B dengan mudah dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini.
-weight: 150
-url: /id/net/document-conversion/pdf-to-pdfa3b/
+"description": "Pelajari cara mengonversi file PDF ke format PDF/A-3B dengan mudah dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini."
+"linktitle": "PDF ke PDFA3b"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "PDF ke PDFA3b"
+"url": "/id/net/document-conversion/pdf-to-pdfa3b/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF ke PDFA3b
@@ -21,16 +23,16 @@ Jadi, Anda punya file PDF dan perlu mengonversinya ke format PDF/A-3B? Jangan kh
 
 Sebelum menyelami kodenya, mari pastikan Anda sudah siap. Berikut ini yang Anda perlukan:
 
-1. Visual Studio: Pertama-tama, Anda memerlukan lingkungan pengkodean. Jika Anda belum menginstal Visual Studio, Anda dapat mengunduhnya dari[lokasi](https://visualstudio.microsoft.com/).
-2.  Aspose.PDF untuk .NET: Anda perlu mengambil pustaka Aspose.PDF. Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
-3. Pengetahuan dasar C#: Keakraban dengan C# sangat penting. Jika Anda tahu cara membuat aplikasi konsol dan bekerja dengan namespace, Anda siap melakukannya!
+1. Visual Studio: Pertama-tama, Anda memerlukan lingkungan pengkodean. Jika Anda belum menginstal Visual Studio, Anda dapat mengunduhnya dari [lokasi](https://visualstudio.microsoft.com/).
+2. Aspose.PDF untuk .NET: Anda perlu mengambil pustaka Aspose.PDF. Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
+3. Pengetahuan dasar C#: Keakraban dengan C# sangatlah penting. Jika Anda tahu cara membuat aplikasi konsol dan bekerja dengan namespace, Anda siap untuk memulai!
 
 ## Paket Impor
 
 Untuk memulai, mari kita siapkan proyek kita dan pastikan kita memiliki semua yang kita butuhkan.
 
 1. Buat Aplikasi Konsol baru: Buka Visual Studio, buat Aplikasi Konsol baru, dan beri nama apa pun yang Anda suka.
-2.  Tambahkan referensi Aspose.PDF: Setelah Anda membuat proyek Anda, buka NuGet Package Manager (klik kanan pada proyek Anda di Solution Explorer -> Kelola Paket NuGet) dan cari`Aspose.PDF`Klik instal untuk menambahkannya ke proyek Anda.
+2. Tambahkan referensi Aspose.PDF: Setelah Anda membuat proyek Anda, buka NuGet Package Manager (klik kanan pada proyek Anda di Solution Explorer -> Kelola Paket NuGet) dan cari `Aspose.PDF`Klik instal untuk menambahkannya ke proyek Anda.
 
 ```csharp
 using System;
@@ -49,7 +51,7 @@ Baiklah, mari kita siapkan direktori dokumen tersebut! Di sinilah berkas PDF mas
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Ini seperti memilih sudut yang nyaman di rumah Anda untuk buku-buku Anda. 
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Ini seperti memilih sudut yang nyaman di rumah Anda untuk buku-buku Anda. 
 
 ### Langkah 2: Buka Dokumen PDF
 
@@ -60,7 +62,7 @@ Selanjutnya, mari kita buka berkas PDF yang ingin kita konversi. Ini seperti mem
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Di Sini,`"input.pdf"` adalah nama berkas PDF Anda. Pastikan berkas tersebut berada di direktori yang ditentukan. Jika PDF Anda adalah sebuah film, inilah saatnya film tersebut mulai diputar!
+Di Sini, `"input.pdf"` adalah nama berkas PDF Anda. Pastikan berkas berada di direktori yang ditentukan. Jika PDF Anda adalah sebuah film, inilah saatnya film tersebut mulai diputar!
 
 ### Langkah 3: Konversi PDF ke Format PDF/A-3B
 
@@ -70,7 +72,7 @@ Kini tibalah saatnya—mengonversi PDF ke format PDF/A-3B. Format ini sangat coc
 pdfDocument.Convert(new MemoryStream(), PdfFormat.PDF_A_3B, ConvertErrorAction.Delete);
 ```
 
- Dalam potongan kode ini, kami mengonversi dokumen menggunakan metode bawaan Aspose.`MemoryStream()`seperti kotak penyimpanan sementara untuk proses konversi. Saat konversi selesai, kami tidak akan menyimpan kesalahan—kesalahan tersebut akan dihapus!
+Dalam potongan kode ini, kami mengonversi dokumen menggunakan metode bawaan Aspose. `MemoryStream()` seperti kotak penyimpanan sementara untuk proses konversi. Saat konversi selesai, kami tidak akan menyimpan kesalahan—kesalahan tersebut akan dihapus!
 
 ### Langkah 4: Simpan Dokumen yang Dikonversi
 
@@ -82,7 +84,7 @@ dataDir = dataDir + "PDFToPDFA3b_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Pada baris ini, kita menyimpan dokumen yang dikonversi sebagai`PDFToPDFA3b_out.pdf`Jalur berkas pada titik ini seperti menaruh buku kembali ke rak di tempat yang semestinya—mudah ditemukan nanti!
+Pada baris ini, kita menyimpan dokumen yang dikonversi sebagai `PDFToPDFA3b_out.pdf`Jalur berkas pada titik ini seperti menaruh buku kembali ke rak di tempat yang semestinya—mudah ditemukan nanti!
 
 ### Langkah 5: Konfirmasikan Konversi
 
@@ -110,13 +112,15 @@ Ya, selama file PDF tidak rusak atau dilindungi kata sandi, Aspose.PDF dapat ber
 Aspose.PDF menawarkan uji coba gratis, tetapi juga memiliki lisensi berbayar untuk akses penuh. Anda dapat mengevaluasi kemampuannya selama fase uji coba!
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.PDF?
- Dokumentasinya tersedia di[Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/).
+Dokumentasinya tersedia di [Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
-Jika Anda mengalami masalah atau memiliki pertanyaan, dukungan komunitas dapat ditemukan di[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Jika Anda mengalami masalah atau memiliki pertanyaan, dukungan komunitas dapat ditemukan di [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

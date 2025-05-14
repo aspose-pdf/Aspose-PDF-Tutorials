@@ -1,14 +1,16 @@
 ---
-title: Buat Elemen Struktur Catatan
-linktitle: Buat Elemen Struktur Catatan
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat elemen struktur catatan dalam PDF dengan Aspose.PDF untuk .NET melalui tutorial langkah demi langkah terperinci ini.
-weight: 30
-url: /id/net/programming-with-tagged-pdf/create-note-structure-element/
+"description": "Pelajari cara membuat elemen struktur catatan dalam PDF dengan Aspose.PDF untuk .NET melalui tutorial langkah demi langkah terperinci ini."
+"linktitle": "Buat Elemen Struktur Catatan"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat Elemen Struktur Catatan"
+"url": "/id/net/programming-with-tagged-pdf/create-note-structure-element/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat Elemen Struktur Catatan
@@ -22,7 +24,7 @@ Membuat dokumen terstruktur sangat penting dalam dunia digital saat ini, terutam
 Sebelum kita mulai membuat kode dan membuat elemen struktur catatan, mari pastikan Anda telah menyiapkan semua yang dibutuhkan:
 
 1. Lingkungan .NET: Anda harus menyiapkan lingkungan pengembangan .NET, seperti Visual Studio.
-2.  Pustaka Aspose.PDF: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Pustaka Aspose.PDF: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# diperlukan untuk memanfaatkan tutorial ini sebaik-baiknya.
 4. Akses ke .NET Framework: Pastikan proyek Anda menargetkan versi .NET Framework yang kompatibel.
 5. Direktori Dokumen: Siapkan direktori untuk menyimpan file PDF dan log Anda. 
@@ -57,7 +59,7 @@ string logFile = dataDir + "45929_log.xml";
 // Buat Dokumen Pdf
 Document document = new Document();
 ```
-Kode ini menginisialisasi yang baru`Document` objek dan mengatur jalur file untuk file PDF dan log keluaran. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur direktori Anda yang sebenarnya.
+Kode ini menginisialisasi yang baru `Document` objek dan mengatur jalur file untuk file PDF dan log keluaran. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur direktori Anda yang sebenarnya.
 
 ## Langkah 2: Mengatur Atribut Konten yang Ditandai
 
@@ -68,7 +70,7 @@ ITaggedContent taggedContent = document.TaggedContent;
 taggedContent.SetTitle("Sample of Note Elements");
 taggedContent.SetLanguage("en-US");
 ```
- Di sini, kita mengakses`TaggedContent` dokumen dan pengaturan judul serta bahasanya. Hal ini penting untuk standar aksesibilitas dan memberikan sentuhan yang lebih profesional pada dokumen Anda.
+Di sini, kita mengakses `TaggedContent` dokumen dan pengaturan judul serta bahasanya. Hal ini penting untuk standar aksesibilitas dan memberikan sentuhan yang lebih profesional pada dokumen Anda.
 
 ## Langkah 3: Membuat Elemen Paragraf
 
@@ -79,7 +81,7 @@ Sekarang, kita akan menambahkan elemen paragraf ke konten yang diberi tag. Ini a
 ParagraphElement paragraph = taggedContent.CreateParagraphElement();
 taggedContent.RootElement.AppendChild(paragraph);
 ```
- Dengan membuat sebuah`ParagraphElement`, kami menyediakan basis tempat elemen-elemen catatan akan ditambahkan. Mirip dengan meletakkan fondasi rumah sebelum membangun dinding.
+Dengan membuat sebuah `ParagraphElement`, kami menyediakan basis tempat elemen-elemen catatan akan ditambahkan. Mirip dengan meletakkan fondasi rumah sebelum membangun dinding.
 
 ## Langkah 4: Menambahkan Elemen Catatan
 
@@ -104,7 +106,7 @@ paragraph.AppendChild(note2);
 note2.SetText("Note with ID = 'note_002'. ");
 note2.SetId("note_002");
 ```
- Untuk catatan kedua, kami secara eksplisit menetapkan ID`note_002`Penting untuk memperhatikan ID karena ID menyediakan cara untuk merujuk catatan tertentu nanti.
+Untuk catatan kedua, kami secara eksplisit menetapkan ID `note_002`Penting untuk memperhatikan ID karena ID menyediakan cara untuk merujuk catatan tertentu nanti.
 
 ### Langkah 4.3: Tambahkan Catatan Ketiga
 
@@ -116,7 +118,7 @@ note3.SetText("Note with ID = 'note_003'. ");
 note3.SetId("note_003");
 // Harus memunculkan pengecualian - Aspose.Pdf.Tagged.TaggedException : Elemen struktur dengan ID='note_002' sudah ada
 ```
- Catatan ketiga ini sangat mirip dengan catatan kedua tetapi menggunakan ID unik lainnya. Berhati-hatilah; mencoba membuat catatan lain dengan ID yang sama`note_002` akan memunculkan pengecualian. 
+Catatan ketiga ini sangat mirip dengan catatan kedua tetapi menggunakan ID unik lainnya. Berhati-hatilah; mencoba membuat catatan lain dengan ID yang sama `note_002` akan memunculkan pengecualian. 
 
 ## Langkah 5: Menyimpan Dokumen
 
@@ -159,10 +161,12 @@ Ya! Aspose.PDF mendukung berbagai elemen seperti gambar, tabel, dan hyperlink un
 Kepatuhan PDF/UA memastikan bahwa PDF dapat diakses oleh individu penyandang disabilitas, selaras dengan standar global.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Untuk dukungan, kunjungi[Forum Aspose](https://forum.aspose.com/c/pdf/10) tempat Anda dapat mengajukan pertanyaan dan berbagi pengalaman.
+Untuk dukungan, kunjungi [Forum Aspose](https://forum.aspose.com/c/pdf/10) tempat Anda dapat mengajukan pertanyaan dan berbagi pengalaman.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Pobierz miejsca docelowe hiperłączy w pliku PDF
-linktitle: Pobierz miejsca docelowe hiperłączy w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak łatwo wyodrębnić miejsca docelowe hiperłączy z plików PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym prostym samouczkiem krok po kroku.
-weight: 60
-url: /pl/net/programming-with-links-and-actions/get-hyperlink-destinations/
+"description": "Dowiedz się, jak łatwo wyodrębnić miejsca docelowe hiperłączy z plików PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym prostym samouczkiem krok po kroku."
+"linktitle": "Pobierz miejsca docelowe hiperłączy w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz miejsca docelowe hiperłączy w pliku PDF"
+"url": "/pl/net/programming-with-links-and-actions/get-hyperlink-destinations/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz miejsca docelowe hiperłączy w pliku PDF
@@ -19,13 +21,13 @@ Jeśli chodzi o zarządzanie plikami PDF, wyodrębnianie miejsc docelowych hiper
 
 ## Wymagania wstępne
 
-Zanim zagłębisz się w ten artykuł, upewnijmy się, że masz wszystko pod ręką.
+Zanim zagłębisz się w ten artykuł, upewnij się, że masz wszystko pod ręką.
 
 ### Środowisko .NET 
 Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Możesz użyć Visual Studio lub dowolnego innego wybranego przez siebie środowiska IDE C#. 
 
 ### Aspose.PDF dla biblioteki .NET 
- Będziesz potrzebować biblioteki Aspose.PDF. Jeśli jej jeszcze nie masz, możesz ją pobrać z[ten link](https://releases.aspose.com/pdf/net/) . Chcesz przetestować przed podjęciem decyzji? Wypróbuj[bezpłatny okres próbny](https://releases.aspose.com/) Pierwszy!
+Będziesz potrzebować biblioteki Aspose.PDF. Jeśli jej jeszcze nie masz, możesz ją pobrać z [ten link](https://releases.aspose.com/pdf/net/). Chcesz przetestować przed podjęciem decyzji? Wypróbuj [bezpłatny okres próbny](https://releases.aspose.com/) Pierwszy!
 
 ### Podstawowa wiedza programistyczna 
 Znajomość języka C# i programowania obiektowego jest koniecznością. Jeśli kodowałeś wcześniej, jesteś w dobrej sytuacji!
@@ -33,7 +35,7 @@ Znajomość języka C# i programowania obiektowego jest koniecznością. Jeśli 
 ### Plik wejściowy PDF 
 Pobierz plik PDF zawierający hiperłącza — będzie on Twoim królikiem doświadczalnym w procesie ekstrakcji!
 
-Teraz, gdy wszystko masz już gotowe, możemy przejść do najlepszej części!
+Teraz, gdy wszystko jest już gotowe, możemy przejść do najlepszej części!
 
 ## Importuj pakiety
 
@@ -54,7 +56,7 @@ Te wiersze w zasadzie informują nasz program, których bibliotek chcemy użyć,
 
 Zacznij od utworzenia nowego projektu C#. Oto jak to zrobić:
 
-1. Otwórz program Visual Studio lub preferowany przez siebie program IDE.
+1. Otwórz program Visual Studio lub preferowane środowisko IDE.
 2. Utwórz nowy projekt i wybierz aplikację konsolową.
 3. Nadaj swojemu projektowi nazwę, np. „PDFHyperlinkExtractor”.
 
@@ -67,7 +69,7 @@ Aby w pełni wykorzystać zaawansowane funkcje udostępniane przez Aspose.PDF, n
 1. Użyj Menedżera pakietów NuGet:
    - Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
    - Kliknij „Zarządzaj pakietami NuGet”.
-   -  Szukaj`Aspose.PDF` i zainstaluj.
+   - Szukaj `Aspose.PDF` i zainstaluj.
 
 Spowoduje to dodanie wymaganych plików assembly, dzięki czemu będzie można rozpocząć kodowanie.
 
@@ -80,7 +82,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "input.pdf");
 ```
 
- Wyjaśnienie: Zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój plik PDF. Ten fragment kodu inicjuje`Document` kurs udostępniony przez Aspose, który dosłownie otwiera Twój plik PDF do użytku biznesowego!
+Wyjaśnienie: Zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój plik PDF. Ten fragment kodu inicjuje `Document` kurs udostępniony przez Aspose, który dosłownie otwiera Twój plik PDF do użytku biznesowego!
 
 ## Krok 4: Przejdź przez strony pliku PDF
 
@@ -97,14 +99,14 @@ Dlaczego Loop?: Każda strona może mieć różne linki, a my chcemy sprawdzić 
 
 ## Krok 5: Pobierz adnotacje linków
 
- Gdy już jesteśmy na stronie, poszukajmy adnotacji linków. Skorzystamy z`AnnotationSelector`.
+Gdy już jesteśmy na stronie, poszukajmy adnotacji linków. Skorzystamy z `AnnotationSelector`.
 
 ```csharp
 AnnotationSelector selector = new AnnotationSelector(new LinkAnnotation(page, Rectangle.Trivial));
 page.Accept(selector);
 ```
 
- Zrozumienie`AnnotationSelector` :Ta klasa pomaga identyfikować linki na stronie poprzez wybieranie adnotacji, które są typu`LinkAnnotation`. 
+Zrozumienie `AnnotationSelector`:Ta klasa pomaga identyfikować linki na stronie poprzez wybieranie adnotacji, które są typu `LinkAnnotation`. 
 
 ## Krok 6: Przechowuj i powtarzaj adnotacje linków
 
@@ -149,7 +151,7 @@ Wyodrębnianie miejsc docelowych hiperłączy z pliku PDF przy użyciu Aspose.PD
 Aspose.PDF dla platformy .NET to rozbudowana biblioteka udostępniająca metody umożliwiające programowe manipulowanie plikami PDF i ich tworzenie.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak! Możesz wypróbować używając[bezpłatny okres próbny](https://releases.aspose.com/).
+Tak! Możesz wypróbować używając [bezpłatny okres próbny](https://releases.aspose.com/).
 
 ### Jakie języki programowania obsługuje Aspose?
 Oprócz .NET, Aspose oferuje również biblioteki dla języków Java, Python i innych.
@@ -158,10 +160,12 @@ Oprócz .NET, Aspose oferuje również biblioteki dla języków Java, Python i i
 Podstawowe umiejętności programowania w języku C# lub innym języku .NET pomogą Ci lepiej poruszać się w przykładach.
 
 ### Gdzie mogę znaleźć dodatkową pomoc i dokumentację?
- Możesz przeglądać[dokumentacja](https://reference.aspose.com/pdf/net/) lub[forum wsparcia](https://forum.aspose.com/c/pdf/10) po pomoc.
+Możesz przeglądać [dokumentacja](https://reference.aspose.com/pdf/net/) lub [forum wsparcia](https://forum.aspose.com/c/pdf/10) po pomoc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

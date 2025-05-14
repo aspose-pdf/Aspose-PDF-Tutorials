@@ -1,14 +1,16 @@
 ---
-title: Элементы структуры PDF
-linktitle: Элементы структуры PDF
-second_title: API обработки Java PDF Aspose.PDF
-description: Изучите руководства Aspose.PDF для Java, чтобы освоить элементы структуры PDF. Создавайте организованные, доступные PDF-файлы без усилий.
-weight: 20
-url: /ru/java/pdf-structure-elements/
+"description": "Изучите руководства Aspose.PDF для Java, чтобы освоить элементы структуры PDF. Создавайте организованные, доступные PDF-файлы без усилий."
+"linktitle": "Элементы структуры PDF"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Элементы структуры PDF"
+"url": "/ru/java/pdf-structure-elements/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Элементы структуры PDF
@@ -42,9 +44,11 @@ url: /ru/java/pdf-structure-elements/
 Освойте элементы структуры текстового блока PDF на Java — пошаговое руководство с использованием Aspose.PDF для Java.
 ### [Элементы структуры текста в PDF с использованием Java](./text-structure-elements-in-pdf-using-java/)
 Узнайте, как манипулировать структурами текста PDF в Java с помощью Aspose.PDF для Java. Изучите пошаговые руководства с исходным кодом для эффективной обработки текста PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

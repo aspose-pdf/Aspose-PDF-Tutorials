@@ -8,7 +8,9 @@ url: /net/programming-with-document/optimizefilesize/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Optimize File Size In PDF File
@@ -139,6 +141,7 @@ If you need help, you can visit the Aspose support forum [here](https://forum.as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/pdf-attachments/attach-files-pdf-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Attach Files to PDF Documents
@@ -104,6 +106,7 @@ You can find comprehensive documentation and additional resources for Aspose.PDF
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

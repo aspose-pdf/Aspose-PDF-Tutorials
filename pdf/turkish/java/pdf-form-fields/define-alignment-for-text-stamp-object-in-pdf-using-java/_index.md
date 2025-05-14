@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'deki Metin Damgası Nesnesi için Hizalamayı Tanımlayın
-linktitle: Java kullanarak PDF'deki Metin Damgası Nesnesi için Hizalamayı Tanımlayın
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java'da Aspose.PDF for Java ile metin damgası nesnelerini PDF'lerde hassas bir şekilde hizalamayı öğrenin. Belge görünümünü ve okunabilirliğini geliştirin.
-weight: 13
-url: /tr/java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-using-java/
+"description": "Java'da Aspose.PDF for Java ile metin damgası nesnelerini hassas bir şekilde hizalamayı öğrenin. Belge görünümünü ve okunabilirliğini geliştirin."
+"linktitle": "Java kullanarak PDF'deki Metin Damgası Nesnesi için Hizalamayı Tanımlayın"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'deki Metin Damgası Nesnesi için Hizalamayı Tanımlayın"
+"url": "/tr/java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'deki Metin Damgası Nesnesi için Hizalamayı Tanımlayın
@@ -22,8 +24,8 @@ Metin damgaları, PDF'lere açıklama ekleme ve bilgi ekleme konusunda çok yön
 
 Metin damgası hizalamasının ayrıntılarına dalmadan önce, geliştirme ortamımızı kurmak çok önemlidir. Java projenizde Aspose.PDF for Java'nın yüklü ve yapılandırılmış olduğundan emin olun. Gerekli kaynaklara buradan erişebilirsiniz:
 
--  Belgeler:[Java API Referansı için Aspose.PDF](https://reference.aspose.com/pdf/java/)
--  İndirmek:[Java için Aspose.PDF](https://releases.aspose.com/pdf/java/)
+- Belgeler: [Java API Referansı için Aspose.PDF](https://reference.aspose.com/pdf/java/)
+- İndirmek: [Java için Aspose.PDF](https://releases.aspose.com/pdf/java/)
 
 Her şey yerli yerindeyse kodlama kısmına geçelim.
 
@@ -110,14 +112,16 @@ Evet, Java için Aspose.PDF büyük PDF belgelerini kolaylıkla işleyebilir. Be
 
 ### Bir metin damgasının yazı tipini ve rengini nasıl değiştirebilirim?
 
- Bir metin damgasının yazı tipini ve rengini, metin durumu özelliklerini yapılandırarak değiştirebilirsiniz.`setTextState` İstediğiniz yazı tipini, yazı boyutunu ve rengini ayarlamak için.
+Bir metin damgasının yazı tipini ve rengini, metin durumu özelliklerini yapılandırarak değiştirebilirsiniz. `setTextState` İstediğiniz yazı tipini, yazı boyutunu ve rengini ayarlamak için.
 
 ### Gelişmiş hizalama seçenekleri mevcut mu?
 
 Evet, Java için Aspose.PDF, metin damgalarını hem yatay hem de dikey olarak ortalama, belirli kenarlara hizalama ve daha fazlası dahil olmak üzere gelişmiş hizalama seçenekleri sunar. Ayrıntılı örnekler için belgeleri inceleyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Sayfa Bölgesinden Metni Çıkar
-linktitle: PDF Dosyasındaki Sayfa Bölgesinden Metni Çıkar
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla .NET için Aspose.PDF kullanarak PDF'deki belirli bir bölgeden metni nasıl çıkaracağınızı öğrenin. Belgelerinizden metni verimli bir şekilde toplayın ve kaydedin.
-weight: 190
-url: /tr/net/programming-with-text/extract-text-from-page-region/
+"description": "Bu adım adım kılavuzla .NET için Aspose.PDF kullanarak bir PDF'deki belirli bir bölgeden metni nasıl çıkaracağınızı öğrenin. Belgelerinizden metni verimli bir şekilde toplayın ve kaydedin."
+"linktitle": "PDF Dosyasındaki Sayfa Bölgesinden Metni Çıkar"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Sayfa Bölgesinden Metni Çıkar"
+"url": "/tr/net/programming-with-text/extract-text-from-page-region/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Sayfa Bölgesinden Metni Çıkar
@@ -21,14 +23,14 @@ PDF'lerle çalışmak, ister formlardan, tablolardan veya bir belgenin belirli b
 
 Koda geçmeden önce aşağıdaki öğelerin yerinde olduğundan emin olun:
 
-1.  Aspose.PDF for .NET: Eğer henüz yapmadıysanız, Aspose.PDF for .NET kütüphanesini indirip kurun.[.NET için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: Eğer henüz yapmadıysanız, Aspose.PDF for .NET kütüphanesini indirip kurun. [.NET için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/net/).
 2. IDE: Visual Studio gibi herhangi bir .NET geliştirme ortamı.
 3. .NET Framework: Projenizin uygun .NET Framework ile kurulduğundan emin olun.
 4. PDF Belgesi: Metni çıkaracağımız örnek PDF.
 
- Bunu yapabileceğini unutma[ücretsiz deneme alın](https://releases.aspose.com/) Aspose.PDF'yi kullanın veya[geçici lisans](https://purchase.aspose.com/temporary-license/) tam işlevsellik için.
+Bunu yapabileceğini unutma [ücretsiz deneme alın](https://releases.aspose.com/) Aspose.PDF'yi kullanın veya [geçici lisans](https://purchase.aspose.com/temporary-license/) Tam işlevsellik için.
 
-## Gerekli Paketleri İçe Aktarma
+## Gerekli Paketleri İçeri Aktarma
 
 Aspose.PDF for .NET ile çalışmaya başlamak için, gerekli ad alanlarını projenize aktarmanız gerekir. Bu paketler, PDF belgelerini işlemek için gerekli sınıfları ve yöntemleri sağlar.
 
@@ -51,18 +53,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "ExtractTextAll.pdf");
 ```
 
- Bu adım, PDF dosyasının düzgün bir şekilde yüklendiğinden ve üzerinde çalışılmaya hazır olduğundan emin olmanızı sağlar.`Document` Aspose.PDF kütüphanesinden gelen sınıf, PDF dosyasını düzenlemenize olanak tanır.
+Bu adım, PDF dosyasının düzgün bir şekilde yüklendiğinden ve üzerinde çalışılmaya hazır olduğundan emin olmanızı sağlar. `Document` Aspose.PDF kütüphanesinden gelen sınıf, PDF dosyasını düzenlemenize olanak tanır.
 
 ## Adım 2: Çıkarım için Metin Emiciyi Başlatın
 
- Bu adımda bir tane oluşturuyoruz`TextAbsorber` PDF belgesinden metin çıkarmak için tasarlanmış nesne.`TextAbsorber` esnektir ve belirli bölgelere veya sayfalara odaklanacak şekilde özelleştirilebilir.
+Bu adımda bir tane oluşturuyoruz `TextAbsorber` PDF belgesinden metin çıkarmak için tasarlanmış nesne. `TextAbsorber` esnektir ve belirli bölgelere veya sayfalara odaklanacak şekilde özelleştirilebilir.
 
 ```csharp
 // Metni çıkarmak için bir TextAbsorber nesnesi oluşturun
 TextAbsorber absorber = new TextAbsorber();
 ```
 
- The`TextAbsorber`class, belirttiğiniz sınırlar içerisindeki tüm metni yakalayan güçlü bir araçtır.
+The `TextAbsorber` class, belirttiğiniz sınırlar içerisindeki tüm metni yakalayan güçlü bir araçtır.
 
 ## Adım 3: Metnin Çıkarılacağı Bölgeyi Tanımlayın
 
@@ -74,22 +76,22 @@ absorber.TextSearchOptions.LimitToPageBounds = true;
 absorber.TextSearchOptions.Rectangle = new Aspose.Pdf.Rectangle(100, 200, 250, 350);
 ```
 
- The`Rectangle` nesne, metnin çıkarılacağı alanın koordinatlarını (nokta cinsinden) tanımlamanıza olanak tanır.`TextSearchOptions.LimitToPageBounds` yalnızca belirtilen dikdörtgenin içindeki metnin çıkarılmasını sağlar.
+The `Rectangle` nesne, metnin çıkarılacağı alanın koordinatlarını (nokta cinsinden) tanımlamanıza olanak tanır. `TextSearchOptions.LimitToPageBounds` yalnızca belirtilen dikdörtgenin içindeki metnin çıkarılmasını sağlar.
 
 ## Adım 4: İstenilen Sayfada Absorber'ı Kabul Edin
 
- Bölgeyi kurduktan sonraki adım, kabul etmektir.`TextAbsorber` Metni çıkarmak istediğiniz belirli sayfa için. Burada, PDF'nin ilk sayfasına odaklanacağız.
+Bölgeyi kurduktan sonraki adım, kabul etmektir. `TextAbsorber` Metni çıkarmak istediğiniz belirli sayfa için. Burada, PDF'nin ilk sayfasına odaklanacağız.
 
 ```csharp
 // İlk sayfa için emiciyi kabul edin
 pdfDocument.Pages[1].Accept(absorber);
 ```
 
- Arayarak`Accept` Sayfadaki yöntemi kullanarak, Aspose.PDF'e emiciyi çalıştırmasını ve tanımlanan bölgeden metni toplamasını talimat veriyoruz.
+Arayarak `Accept` Sayfadaki metodu kullanarak Aspose.PDF'e emiciyi çalıştırmasını ve tanımlanan bölgeden metni toplamasını talimatını veriyoruz.
 
 ## Adım 5: Çıkarılan Metni Alın ve Saklayın
 
- Emici işini yaptıktan sonra, çıkarılan metni toplama ve kaydetme zamanı gelir. Bu adım, metni alıp bir`.txt` dosya.
+Emici işini yaptıktan sonra, çıkarılan metni toplama ve kaydetme zamanı gelir. Bu adım, metni alıp bir `.txt` dosya.
 
 ```csharp
 // Çıkarılan metni alın
@@ -105,33 +107,35 @@ tw.WriteLine(extractedText);
 tw.Close();
 ```
 
- Burada,`TextWriter` sınıf, çıkarılan metni bir metin dosyasına yazmak için kullanılır. Bu, çıkarılan içeriğinizin daha sonraki kullanım için güvenli bir şekilde saklanmasını sağlar.
+Burada, `TextWriter` sınıf, çıkarılan metni bir metin dosyasına yazmak için kullanılır. Bu, çıkarılan içeriğinizin daha sonraki kullanım için güvenli bir şekilde saklanmasını sağlar.
 
 ## Çözüm
 
- PDF belgesindeki belirli bir bölgeden metin çıkarmak, özellikle formlar veya tablolar gibi yapılandırılmış içeriklerle uğraşırken inanılmaz derecede yararlı olabilir. .NET için Aspose.PDF'yi kullanarak, bu görevi yalnızca birkaç satır kodla gerçekleştirebilirsiniz. Bir bölge tanımlayarak, bir`TextAbsorber`ve çıkarılan metni kaydederek, PDF'inizden neyin çıkarılacağı konusunda tam kontrole sahip olursunuz.
+PDF belgesindeki belirli bir bölgeden metin çıkarmak, özellikle formlar veya tablolar gibi yapılandırılmış içeriklerle uğraşırken inanılmaz derecede yararlı olabilir. .NET için Aspose.PDF'yi kullanarak, bu görevi yalnızca birkaç satır kodla gerçekleştirebilirsiniz. Bir bölge tanımlayarak, bir `TextAbsorber`ve çıkarılan metni kaydederek, PDF'inizden neyin çıkarılacağı üzerinde tam kontrole sahip olursunuz.
 
 İster küçük bir proje üzerinde çalışın ister büyük belgeleri yönetin, bu yöntem tüm belgeyi taramadan PDF'lerinizden ilgili verileri çıkarmanın etkili bir yolunu sunar.
 
 ## SSS
 
 ### Birden fazla sayfadan aynı anda metin çıkarabilir miyim?
- Evet, yineleme yoluyla`Pages` koleksiyonu`pdfDocument` , uygulayabilirsiniz`TextAbsorber` birden fazla sayfaya.
+Evet, yineleme yoluyla `Pages` koleksiyonu `pdfDocument`, uygulayabilirsiniz `TextAbsorber` birden fazla sayfaya.
 
 ### Peki ya metin PDF'in farklı bir bölgesindeyse?
- Kolayca ayarlayabilirsiniz`Rectangle` Metninizin bulunduğu bölgeye uyacak şekilde koordinatlar.
+Kolayca ayarlayabilirsiniz `Rectangle` Metninizin bulunduğu bölgeye uyacak şekilde koordinatlar.
 
 ### Bu taranmış PDF'lerde de işe yarıyor mu?
 Hayır, taranmış PDF'lerin görüntüleri metne dönüştürmek için OCR'ye (Optik Karakter Tanıma) ihtiyacı vardır. Aspose.PDF ayrıca OCR özellikleri de sunar.
 
 ### Belirli anahtar kelimelere dayalı metin çıkarmanın bir yolu var mı?
- Evet, kullanabilirsiniz`TextFragmentAbsorber` Anahtar kelime tabanlı metin çıkarımı için.
+Evet, kullanabilirsiniz `TextFragmentAbsorber` Anahtar kelime tabanlı metin çıkarımı için.
 
 ### Şifrelenmiş bir PDF'den metni nasıl çıkarabilirim?
 Öncelikle doğru şifreyi girerek PDF'i şifresini çözmeniz, ardından metin çıkarma işlemine geçmeniz gerekecektir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

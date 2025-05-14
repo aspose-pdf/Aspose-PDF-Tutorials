@@ -1,57 +1,62 @@
 ---
-title: สร้าง PDF ด้วยตารางและการจัดหน้า โดยใช้ Aspose.PDF 
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการสร้างเอกสาร PDF, เพิ่มตารางที่มีขอบ, และนําการจัดหน้าใช้ Aspose.PDF สําหรับ .NET. คู่มือก้าวต่อก้าวที่มีตัวอย่างโค้ด  
-keywords: [Aspose.PDF for .NET, create PDF in C#, add table to PDF, set table border, pagination in PDF, generate PDF, insert page break, .NET PDF library]
-url: /th/net/tables/insert-page-break/
+"description": "เรียนรู้วิธีการสร้างเอกสาร PDF เพิ่มตารางพร้อมเส้นขอบ และนำการแบ่งหน้าไปใช้โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด"
+"title": "สร้าง PDF ที่มีตารางและการแบ่งหน้าโดยใช้ Aspose.PDF"
+"url": "/th/net/tables/insert-page-break/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้าง PDF ด้วยตารางและการจัดหน้า
+# สร้าง PDF ด้วยตารางและการแบ่งหน้า
  
-Aspose.PDF สําหรับ .NET เป็นห้องสมุดที่มีความสามารถที่ทําให้ผู้พัฒนาสามารถสร้าง, การปรับปรุง, และแปลงเอกสาร PDF โดยโปรแกรม. ในตัวอย่างนี้, เราแสดงวิธีการสร้างไฟล์ PDF, เพิ่มตารางที่มีขอบสีแดง, เติมมันด้วย 200 แถว, และใส่การหยุดหน้าอัตโนมัติหลังจากทุก 10 แถว. แนวทางนี้รับประกันการจัดรูปเนื้อหาที่มีโครงสร้างและการจัดหน้าที่เรียบร้อยสําหรับกองข้อมูลขนาดใหญ่.  
+Aspose.PDF สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม ในตัวอย่างนี้ เราจะสาธิตวิธีการสร้างไฟล์ PDF เพิ่มตารางที่มีขอบสีแดง เพิ่มข้อมูล 200 แถว และแทรกตัวแบ่งหน้าอัตโนมัติทุกๆ 10 แถว วิธีนี้ช่วยให้การจัดรูปแบบเนื้อหามีโครงสร้างและการแบ่งหน้าสำหรับชุดข้อมูลขนาดใหญ่เป็นไปอย่างราบรื่น  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/insert-page-break/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## คําแนะนําการติดตั้ง  
-เพื่อเริ่มต้นกับ Aspose.PDF สําหรับ .NET, ทําตามขั้นตอนต่อไปนี้:  
+## คำแนะนำในการติดตั้ง  
+หากต้องการเริ่มต้นใช้งาน Aspose.PDF สำหรับ .NET ให้ทำตามขั้นตอนเหล่านี้:  
 
-1. อุปกรณ์ติดตั้งผ่าน NuGet Package Manager  
-   * เปิดโครงการของคุณใน Visual Studio  
-   * ไปยังเครื่องมือ > NuGet Package Manager > บริหาร NuGet Packages สําหรับการแก้ไข  
-   * ค้นหา Aspose.PDF และคลิกติดตั้ง  
+1. ติดตั้งผ่านตัวจัดการแพ็คเกจ NuGet  
+   - เปิดโปรเจ็กต์ของคุณใน Visual Studio  
+   - ไปที่เครื่องมือ > ตัวจัดการแพ็กเกจ NuGet > จัดการแพ็กเกจ NuGet สำหรับโซลูชัน  
+   - ค้นหา Aspose.PDF และคลิกติดตั้ง  
 
-   หรือใช้คําสั่งต่อไปนี้ใน Package Manager Console:  
+   หรือใช้คำสั่งต่อไปนี้ในคอนโซลตัวจัดการแพ็คเกจ:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. ดาวน์โหลด DLL ด้วยมือ  
-   * รับเวอร์ชั่นล่าสุดจาก[Aspose.PDF ดาวน์โหลด](https://releases.aspose.com/pdf/net/)\- ไม่  
-   * เพิ่มอ้างอิงไปยัง Aspose.PDF.dll ในโครงการของคุณ  
+2. ดาวน์โหลด DLL ด้วยตนเอง  
+   - รับเวอร์ชันล่าสุดได้จาก [ดาวน์โหลด Aspose.PDF](https://releases-aspose.com/pdf/net/).  
+   - เพิ่มการอ้างอิงถึง Aspose.PDF.dll ในโครงการของคุณ  
 
-3. การสมัครใบอนุญาต (ไม่จําเป็น)  
-   * หากใช้โปรแกรมทดลองฟรี คุณอาจพบกับเครื่องหมายน้ําหรือข้อจํากัด  
-   * ซื้อใบอนุญาตจาก[การซื้อ](https://purchase.aspose.com/buy)หรือขอ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)\- ไม่  
-   * ใช้ใบอนุญาตในรหัสของคุณ:  
+3. สมัครใบอนุญาต (ทางเลือก)  
+   - หากใช้รุ่นทดลองใช้งานฟรี คุณอาจพบลายน้ำหรือข้อจำกัดต่างๆ  
+   - ซื้อใบอนุญาตจาก [การซื้อ Aspose](https://purchase.aspose.com/buy) หรือร้องขอ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).  
+   - ใช้ใบอนุญาตในโค้ดของคุณ:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.PDF.lic");
      ```
 
-## สําหรับรายละเอียด
-เอกสาร การเยี่ยมชม[Aspose.PDF สําหรับ .NET Documentation](https://docs.aspose.com/pdf/net/)\- ไม่  
-ดูอ้างอิง API ที่[Aspose.PDF สําหรับ .NET API Reference](https://reference.aspose.com/pdf/net/)\- ไม่
+## สำหรับรายละเอียด
+เอกสารประกอบ เยี่ยมชม [Aspose.PDF สำหรับเอกสาร .NET](https://docs-aspose.com/pdf/net/).  
+ตรวจสอบข้อมูลอ้างอิง API ได้ที่ [เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET](https://reference-aspose.com/pdf/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

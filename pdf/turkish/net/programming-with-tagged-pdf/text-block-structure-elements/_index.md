@@ -1,14 +1,16 @@
 ---
-title: Metin Bloğu Yapı Elemanları
-linktitle: Metin Bloğu Yapı Elemanları
-second_title: Aspose.PDF for .NET API Referansı
-description: Başlıklar ve etiketli paragraflar gibi metin bloğu yapı öğelerini mevcut bir PDF belgesine eklemek için Aspose.PDF for .NET'in nasıl kullanılacağını öğrenin.
-weight: 220
-url: /tr/net/programming-with-tagged-pdf/text-block-structure-elements/
+"description": "Başlıklar ve etiketli paragraflar gibi metin bloğu yapı öğelerini mevcut bir PDF belgesine eklemek için Aspose.PDF for .NET'in nasıl kullanılacağını öğrenin."
+"linktitle": "Metin Bloğu Yapı Elemanları"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Metin Bloğu Yapı Elemanları"
+"url": "/tr/net/programming-with-tagged-pdf/text-block-structure-elements/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metin Bloğu Yapı Elemanları
@@ -21,11 +23,11 @@ Bu eğitimde, .NET için Aspose.PDF'e derinlemesine dalacağız ve çeşitli ba�
 
 Koda dalmadan önce her şeyin ayarlandığından emin olalım.
 
--  Aspose.PDF for .NET: Aspose.PDF for .NET kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan edinebilirsiniz:[Aspose.PDF İndirme Sayfası](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF for .NET: Aspose.PDF for .NET kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan edinebilirsiniz: [Aspose.PDF İndirme Sayfası](https://releases.aspose.com/pdf/net/).
 - Geliştirme Ortamı: Kodu çalıştırmak ve test etmek için Visual Studio gibi bir IDE'ye ihtiyacınız olacak.
 - .NET Framework: Bilgisayarınızda .NET'in yüklü olduğundan emin olun.
 
- Ayrıca, şunlara ihtiyacınız olacak:[geçici lisans](https://purchase.aspose.com/temporary-license/) eğer sadece yazılımı test ediyorsanız veya[tam lisans satın al](https://purchase.aspose.com/buy) Eğer her şeyi ortaya koymaya hazırsanız.
+Ayrıca, şunlara ihtiyacınız olacak: [geçici lisans](https://purchase.aspose.com/temporary-license/) eğer sadece yazılımı test ediyorsanız veya [tam lisans satın al](https://purchase.aspose.com/buy) Eğer her şeyi ortaya koymaya hazırsanız.
 
 ## Paketleri İçe Aktar
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
-Burada neler oluyor? Biz sadece sonunda etiketli PDF dosyamız olacak yeni bir belge oluşturuyoruz.`dataDir` Son PDF'in kaydedilmesini istediğiniz yere. Kolay, değil mi?
+Burada neler oluyor? Biz sadece sonunda etiketli PDF dosyamız olacak yeni bir belge oluşturuyoruz. `dataDir` Son PDF'in kaydedilmesini istediğiniz yere. Kolay, değil mi?
 
 ## Adım 2: Etiketli İçeriğe Erişim
 
@@ -156,13 +158,15 @@ Kesinlikle! PDF'inizdeki başlıklar ve paragraflar için istediğiniz metni aya
 Aspose.PDF for .NET tarafından sağlanan farklı yöntemleri kullanarak resim, tablo ve daha fazlası gibi çeşitli medya öğeleri ekleyebilirsiniz.
 
 ### Aspose.PDF for .NET'i kullanmak ücretsiz mi?
- Bunu ücretsiz olarak deneyebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) ancak uzun vadeli kullanım için,[tam lisans satın al](https://purchase.aspose.com/buy).
+Bunu ücretsiz olarak deneyebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/), ancak uzun vadeli kullanım için, ihtiyacınız olacak [tam lisans satın al](https://purchase.aspose.com/buy).
 
 ### PDF dosyamın erişilebilirliğini nasıl daha da artırabilirim?
 Daha ayrıntılı etiketleme, görseller için alternatif metinler ekleyerek ve yardımcı teknolojiler için daha zengin bir deneyim sağlamak amacıyla anlamsal yapı öğelerini kullanarak erişilebilirliği artırabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

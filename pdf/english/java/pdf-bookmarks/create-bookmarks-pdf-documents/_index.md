@@ -8,7 +8,9 @@ url: /java/pdf-bookmarks/create-bookmarks-pdf-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Bookmarks in PDF Documents
@@ -109,6 +111,7 @@ You can access comprehensive documentation and a wide range of examples on the A
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

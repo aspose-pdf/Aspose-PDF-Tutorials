@@ -8,7 +8,9 @@ url: /net/programming-with-tables/html-tags-inside-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML Tags Inside Table In PDF File
@@ -161,6 +163,7 @@ Yes, you can add multiple tables to a PDF document by simply repeating the steps
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

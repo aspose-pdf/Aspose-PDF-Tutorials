@@ -1,46 +1,48 @@
 ---
-title: Készítsen kitöltött téglalap objektumot PDF-ben Java segítségével
-linktitle: Készítsen kitöltött téglalap objektumot PDF-ben Java segítségével
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan hozhat létre kitöltött téglalapokat PDF-fájlokban Java használatával az Aspose.PDF for Java segítségével. Lépésről lépésre bemutató oktatóprogram kódpéldákkal.
-weight: 12
-url: /hu/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
+"description": "Tanuld meg, hogyan hozhatsz létre kitöltött téglalapokat PDF-ekben Java használatával az Aspose.PDF for Java segítségével. Lépésről lépésre bemutató kódpéldákkal."
+"linktitle": "Kitöltött téglalap objektum létrehozása PDF-ben Java használatával"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "Kitöltött téglalap objektum létrehozása PDF-ben Java használatával"
+"url": "/hu/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Készítsen kitöltött téglalap objektumot PDF-ben Java segítségével
+# Kitöltött téglalap objektum létrehozása PDF-ben Java használatával
 
 
-## Bevezetés a kitöltött téglalap objektumok létrehozásához PDF-ben Java használatával
+## Bevezetés a kitöltött téglalap objektumok PDF-ben történő létrehozásába Java használatával
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan hozható létre kitöltött téglalap alakú objektum PDF dokumentumban Java használatával az Aspose.PDF for Java segítségével. A kitöltött téglalapokat a PDF-fájlokban gyakran használják különféle célokra, például fontos információk kiemelésére vagy vizuális elválasztásra.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan hozhatunk létre kitöltött téglalap objektumot egy PDF dokumentumban Java használatával az Aspose.PDF for Java segítségével. A kitöltött téglalapokat gyakran használják PDF dokumentumokban különféle célokra, például fontos információk kiemelésére vagy vizuális elválasztások létrehozására.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve
-- Integrált fejlesztői környezet (IDE), mint az Eclipse vagy az IntelliJ
-- Aspose.PDF for Java könyvtár letöltve és konfigurálva
+- Telepített Java fejlesztőkészlet (JDK)
+- Integrált fejlesztői környezet (IDE), mint például az Eclipse vagy az IntelliJ
+- Aspose.PDF a Java könyvtárhoz letöltve és konfigurálva
 
-## Az Aspose.PDF beállítása Java számára
+## Az Aspose.PDF beállítása Java-hoz
 
-A kezdéshez le kell töltenie az Aspose.PDF for Java fájlt a webhelyről. Kövesse az alábbi lépéseket:
+kezdéshez le kell töltened az Aspose.PDF for Java fájlt a weboldalról. Kövesd az alábbi lépéseket:
 
-1.  Nyissa meg az Aspose.PDF for Java dokumentációt a címen[itt](https://reference.aspose.com/pdf/java/).
+1. Az Aspose.PDF Java dokumentációhoz a következő címen férhet hozzá: [itt](https://reference.aspose.com/pdf/java/).
 
-2. Töltse le a könyvtárat, és kövesse a mellékelt telepítési utasításokat.
+2. Töltse le a könyvtárat, és kövesse a telepítési utasításokat.
 
-3. Importálja az Aspose.PDF könyvtárat a Java projektbe.
+3. Importálja az Aspose.PDF könyvtárat a Java projektjébe.
 
-Most, hogy beállítottuk az Aspose.PDF-et Java számára, merüljünk el egy kitöltött téglalap létrehozásában egy PDF-dokumentumban.
+Most, hogy beállítottuk az Aspose.PDF-et Java-hoz, vágjunk bele egy kitöltött téglalap létrehozásába egy PDF dokumentumban.
 
 ## Új PDF dokumentum létrehozása
 
-Ebben a részben egy új PDF-dokumentumot fogunk létrehozni az Aspose.PDF for Java segítségével. Először importálja a szükséges osztályokat:
+Ebben a szakaszban egy új PDF dokumentumot fogunk létrehozni az Aspose.PDF for Java használatával. Először importáljuk a szükséges osztályokat:
 
 ```java
 import com.aspose.pdf.Document;
@@ -57,7 +59,7 @@ Page page = pdfDocument.getPages().add();
 
 ## Kitöltött téglalap hozzáadása
 
-Kitöltött téglalap hozzáadásához meg kell adnia annak koordinátáit, méreteit és színét. Íme egy példa kitöltött téglalap létrehozására:
+Kitöltött téglalap hozzáadásához meg kell határoznia a koordinátáit, méreteit és színét. Íme egy példa egy kitöltött téglalap létrehozására:
 
 ```java
 Rectangle filledRectangle = new Rectangle(page, 100, 100, 200, 50);
@@ -66,17 +68,17 @@ page.getParagraphs().add(filledRectangle);
 ```
 
 Ebben a kódban:
--  Létrehozunk egy újat`Rectangle` objektumot, megadva annak pozícióját (x=100, y=100), szélességét (200) és magasságát (50).
-- A téglalap háttérszínét pirosra állítjuk.
+- Újat hozunk létre `Rectangle` objektum, megadva annak pozícióját (x=100, y=100), szélességét (200) és magasságát (50).
+- A téglalap háttérszínét pirosra állítottuk.
 - Végül hozzáadjuk a téglalapot az oldalhoz.
 
 ## A téglalap testreszabása
 
-Tovább szabhatja a téglalapot színének, szegélyének vagy egyéb tulajdonságainak megváltoztatásával. További lehetőségekért tekintse meg az Aspose.PDF for Java dokumentációt.
+A téglalapot tovább testreszabhatja a színének, szegélyének vagy egyéb tulajdonságainak módosításával. További lehetőségekért tekintse meg az Aspose.PDF for Java dokumentációját.
 
-## A PDF mentése
+## PDF mentése
 
-A kitöltött téglalappal rendelkező PDF dokumentum létrehozása után mentse el egy fájlba:
+Miután létrehozta a kitöltött téglalapot tartalmazó PDF dokumentumot, mentse el egy fájlba:
 
 ```java
 pdfDocument.save("FilledRectangle.pdf");
@@ -84,36 +86,38 @@ pdfDocument.save("FilledRectangle.pdf");
 
 ## A kód futtatása
 
-Fordítsa le és futtassa a Java kódot. Most már rendelkeznie kell egy kitöltött téglalappal rendelkező „FilledRectangle.pdf” PDF-fájllal.
+Fordítsd le és futtasd a Java kódodat. Most már egy "FilledRectangle.pdf" nevű PDF fájlodnak kell lennie, amely egy kitöltött téglalapot tartalmaz.
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan hozhat létre kitöltött téglalap objektumot PDF-dokumentumban Java és Aspose.PDF for Java használatával. Ez hasznos lehet fontos információk kiemeléséhez vagy vizuális elemek hozzáadásához a PDF-ekhez. Az Aspose.PDF for Java hatékony és rugalmas módszert kínál a PDF-ekkel való munkavégzéshez Java alkalmazásokban.
+Ebben az oktatóanyagban megtanultuk, hogyan hozhatunk létre kitöltött téglalap objektumot egy PDF dokumentumban Java és az Aspose.PDF for Java használatával. Ez hasznos lehet fontos információk kiemeléséhez vagy vizuális elemek hozzáadásához a PDF fájlokhoz. Az Aspose.PDF for Java hatékony és rugalmas módot kínál a PDF fájlok Java alkalmazásokban történő kezelésére.
 
 ## GYIK
 
-### Mi az Aspose.PDF for Java?
+### Mi az Aspose.PDF Java-hoz?
 
-Az Aspose.PDF for Java egy Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy PDF fájlokkal dolgozzanak Java alkalmazásokban. Funkciók széles skáláját kínálja PDF dokumentumok létrehozásához, kezeléséhez és kezeléséhez.
+Az Aspose.PDF for Java egy Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy PDF fájlokkal dolgozzanak Java alkalmazásokban. Széleskörű funkciókat kínál PDF dokumentumok létrehozásához, kezeléséhez és kezeléséhez.
 
-### Hogyan telepíthetem az Aspose.PDF for Java fájlt?
+### Hogyan telepíthetem az Aspose.PDF fájlt Java-hoz?
 
-Az Aspose.PDF for Java telepítéséhez töltse le a könyvtárat az Aspose webhelyéről, és kövesse a dokumentációban található telepítési utasításokat.
+Az Aspose.PDF for Java fájlt úgy telepítheti, hogy letölti a könyvtárat az Aspose webhelyéről, és követi a dokumentációban található telepítési utasításokat.
 
 ### Meg tudom változtatni a kitöltött téglalap színét?
 
- Igen, testreszabhatja a kitöltött téglalap színét a háttérszín beállításával a`setBackgroundColor`módszert, ahogy az az oktatóanyagban is látható.
+Igen, a kitöltött téglalap színét testreszabhatja a háttérszín beállításával a `setBackgroundColor` metódus, ahogy az a bemutatóban is látható.
 
-### Ingyenesen használható az Aspose.PDF for Java?
+### Ingyenesen használható az Aspose.PDF Java-hoz?
 
-Az Aspose.PDF for Java egy kereskedelmi célú könyvtár, és előfordulhat, hogy licencet kell vásárolnia a projektekben való használatához. Az Aspose webhelyén tekintse meg a licenc részleteit.
+Az Aspose.PDF for Java egy kereskedelmi forgalomban kapható könyvtár, ezért előfordulhat, hogy licencet kell vásárolnia a projektjeiben való használatához. A licencelési részletekért látogasson el az Aspose weboldalára.
 
 ### Hol találok további példákat az Aspose.PDF for Java használatára?
 
- További példákat és részletes dokumentációt találhat az Aspose.PDF for Java használatára vonatkozóan az Aspose webhelyén:[itt](https://reference.aspose.com/pdf/java/).
+További példákat és részletes dokumentációt az Aspose.PDF Java-alapú használatáról az Aspose weboldalán talál a következő címen: [itt](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

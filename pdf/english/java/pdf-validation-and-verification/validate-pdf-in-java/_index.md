@@ -8,7 +8,9 @@ url: /java/pdf-validation-and-verification/validate-pdf-in-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validate PDF in Java
@@ -103,6 +105,7 @@ The validation of PDFs in Java utilizing Aspose.PDF for Java stands as a pivotal
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

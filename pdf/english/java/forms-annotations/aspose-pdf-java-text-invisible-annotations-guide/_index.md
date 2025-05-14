@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add Text & Invisible Annotations in PDFs Using Aspose.PDF for Java
 
@@ -175,6 +177,9 @@ A: Yes, Aspose.PDF supports various interactive content types in annotations bey
 With this guide, you're now equipped to enhance your Java applications with advanced PDF annotation capabilities using Aspose.PDF. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

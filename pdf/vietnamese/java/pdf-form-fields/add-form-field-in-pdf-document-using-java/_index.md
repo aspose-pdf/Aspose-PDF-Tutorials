@@ -1,14 +1,16 @@
 ---
-title: Thêm trường biểu mẫu vào tài liệu PDF bằng Java
-linktitle: Thêm trường biểu mẫu vào tài liệu PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm các trường biểu mẫu tương tác vào tài liệu PDF của bạn bằng Java và Aspose.PDF cho Java. Tạo biểu mẫu PDF thân thiện với người dùng một cách dễ dàng.
-weight: 10
-url: /vi/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/
+"description": "Tìm hiểu cách thêm các trường biểu mẫu tương tác vào tài liệu PDF của bạn bằng Java và Aspose.PDF cho Java. Tạo biểu mẫu PDF thân thiện với người dùng một cách dễ dàng."
+"linktitle": "Thêm trường biểu mẫu vào tài liệu PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm trường biểu mẫu vào tài liệu PDF bằng Java"
+"url": "/vi/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm trường biểu mẫu vào tài liệu PDF bằng Java
@@ -24,7 +26,7 @@ Chúng tôi sẽ sử dụng Aspose.PDF cho Java, một thư viện mạnh mẽ 
 
 Trước khi đi sâu vào mã, bạn cần thiết lập môi trường phát triển của mình. Thực hiện theo các bước sau:
 
-1.  Tải xuống Aspose.PDF cho Java: Truy cập trang web Aspose và tải xuống phiên bản mới nhất của Aspose.PDF cho Java. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/java/).
+1. Tải xuống Aspose.PDF cho Java: Truy cập trang web Aspose và tải xuống phiên bản mới nhất của Aspose.PDF cho Java. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/java/).
 
 2. Cài đặt Aspose.PDF: Sau khi tải xuống, hãy cài đặt Aspose.PDF bằng cách làm theo hướng dẫn cài đặt được cung cấp trên trang web.
 
@@ -63,7 +65,7 @@ public class AddFormFieldPDF {
 }
 ```
 
-Trong đoạn mã này, chúng ta tạo một tài liệu PDF mới, thêm một trang, chèn tiêu đề và một số hướng dẫn.
+Trong đoạn mã này, chúng ta tạo một tài liệu PDF mới, thêm một trang và chèn tiêu đề cùng một số hướng dẫn.
 
 ## Thêm trường biểu mẫu
 
@@ -105,7 +107,7 @@ RadioButtonOptionField option2 = new RadioButtonOptionField(page, new Rectangle(
 option1.setPartialName("optYes"); // Đặt tên trường cho tùy chọn 1
 option2.setPartialName("optNo"); // Đặt tên trường cho tùy chọn 2
 
-//Thêm tùy chọn vào nhóm nút radio
+// Thêm tùy chọn vào nhóm nút radio
 RadioButtonOptionField[] options = {option1, option2};
 RadioButtonField radioButtonField = new RadioButtonField(page, options);
 page.getAnnotations().add(radioButtonField);
@@ -136,7 +138,7 @@ textField.getValidation().add(ValidationType.EMAIL);
 
 ## Thiết lập giá trị trường
 
-Để điền trước dữ liệu vào các trường biểu mẫu, bạn có thể thiết lập các giá trị mặc định của chúng theo chương trình. Điều này hữu ích khi tạo mẫu hoặc điền trước thông tin đã biết.
+Để điền trước dữ liệu vào các trường biểu mẫu, bạn có thể đặt giá trị mặc định của chúng theo chương trình. Điều này hữu ích khi tạo mẫu hoặc điền trước thông tin đã biết.
 
 ```java
 textField.setValue("John Doe"); // Đặt giá trị mặc định cho trường văn bản
@@ -182,7 +184,7 @@ doc.save("FeedbackForm.pdf");
 
 ### Lưu vào một luồng
 
- Để lưu tài liệu PDF vào một luồng, bạn có thể sử dụng`OutputStream` lớp học:
+Để lưu tài liệu PDF vào một luồng, bạn có thể sử dụng `OutputStream` lớp học:
 
 ```java
 OutputStream outputStream = new FileOutputStream("FeedbackForm.pdf");
@@ -198,7 +200,7 @@ Trong hướng dẫn toàn diện này, chúng tôi đã khám phá cách thêm 
 
 ### Làm thế nào để thiết lập danh sách thả xuống trong biểu mẫu PDF?
 
- Để tạo danh sách thả xuống (hộp kết hợp) trong biểu mẫu PDF, bạn có thể sử dụng`ComboBoxField` lớp do Aspose.PDF cung cấp cho Java. Thực hiện theo cách tiếp cận tương tự như được hiển thị cho các trường biểu mẫu khác và tùy chỉnh các tùy chọn bằng cách sử dụng`AddItem` phương pháp. Bạn có thể tìm thấy tài liệu chi tiết về phương pháp này trên trang web Aspose.
+Để tạo danh sách thả xuống (hộp kết hợp) trong biểu mẫu PDF, bạn có thể sử dụng `ComboBoxField` lớp do Aspose.PDF cung cấp cho Java. Thực hiện theo cách tiếp cận tương tự như được hiển thị cho các trường biểu mẫu khác và tùy chỉnh các tùy chọn bằng cách sử dụng `AddItem` phương pháp. Bạn có thể tìm thấy tài liệu chi tiết về phương pháp này trên trang web Aspose.
 
 ### Aspose.PDF cho Java có tương thích với các thư viện và khung Java khác không?
 
@@ -215,9 +217,11 @@ Chắc chắn rồi! Aspose.PDF for Java cho phép bạn thêm bảo vệ bằng
 ### Tôi có thể tạo biểu mẫu PDF động dựa trên thông tin người dùng nhập vào không?
 
 Có, bạn có thể tạo biểu mẫu PDF động dựa trên đầu vào của người dùng bằng Aspose.PDF cho Java. Tùy thuộc vào đầu vào của người dùng hoặc logic ứng dụng, bạn có thể tạo tài liệu PDF với nhiều trường biểu mẫu và bố cục khác nhau. Tính linh hoạt này giúp bạn có thể tạo biểu mẫu tùy chỉnh theo nhu cầu hoặc tình huống cụ thể của người dùng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Aktualizuj zakładki w plikach PDF
-linktitle: Aktualizuj zakładki w plikach PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak wydajnie aktualizować zakładki PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku upraszcza ten proces.
-weight: 16
-url: /pl/java/pdf-bookmarks/update-bookmarks-pdfs/
+"description": "Dowiedz się, jak skutecznie aktualizować zakładki PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku upraszcza ten proces."
+"linktitle": "Aktualizuj zakładki w plikach PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Aktualizuj zakładki w plikach PDF"
+"url": "/pl/java/pdf-bookmarks/update-bookmarks-pdfs/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktualizuj zakładki w plikach PDF
@@ -45,18 +47,18 @@ Teraz utwórzmy nowy projekt Java w IDE:
 1. Otwórz środowisko IDE.
 2. Wybierz „Plik” > „Nowy projekt”.
 3. Wybierz „Java” jako typ projektu.
-4. Postępuj zgodnie z instrukcjami kreatora, aby utworzyć projekt.
+4. Postępuj zgodnie ze wskazówkami kreatora, aby utworzyć projekt.
 
 ## Dodawanie Aspose.PDF dla Java do projektu
 
 Aby pracować z Aspose.PDF dla Java, musisz dodać bibliotekę do swojego projektu:
 
-1.  Pobierz bibliotekę Aspose.PDF dla języka Java ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+1. Pobierz bibliotekę Aspose.PDF dla języka Java ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 2. Dodaj plik JAR do ścieżki klas swojego projektu.
 
 ## Aktualizowanie zakładek w plikach PDF
 
-Teraz zajmiemy się aktualizacją zakładek w plikach PDF przy użyciu Aspose.PDF dla Java.
+Teraz zajmiemy się aktualizacją zakładek w plikach PDF za pomocą Aspose.PDF dla Java.
 
 ### Ładowanie istniejącego dokumentu PDF
 
@@ -91,7 +93,7 @@ Teraz możesz uruchomić aplikację Java, aby zaktualizować zakładki w plikach
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak aktualizować zakładki w plikach PDF za pomocą Aspose.PDF dla Java. Ta potężna biblioteka upraszcza proces pracy z dokumentami PDF i pozwala ulepszyć nawigację i użyteczność plików PDF.
+W tym samouczku nauczyliśmy się, jak aktualizować zakładki w plikach PDF za pomocą Aspose.PDF dla Java. Ta potężna biblioteka upraszcza proces pracy z dokumentami PDF i pozwala ulepszyć nawigację i użyteczność plików PDF.
 
 ## Najczęściej zadawane pytania
 
@@ -103,7 +105,7 @@ Możesz dodać nowe zakładki do pliku PDF za pomocą Aspose.PDF for Java, tworz
 
 Tak, Aspose.PDF for Java jest w stanie sprawnie obsługiwać duże dokumenty PDF. Jest zaprojektowany do pracy z plikami PDF o różnych rozmiarach i złożonościach, dzięki czemu nadaje się do szerokiej gamy aplikacji.
 
-### Czy mogę zautomatyzować aktualizację zakładek w przetwarzaniu wsadowym przy użyciu Aspose.PDF dla Java?
+### Czy mogę zautomatyzować aktualizację zakładek podczas przetwarzania wsadowego przy użyciu Aspose.PDF dla Java?
 
 Tak, możesz zautomatyzować aktualizacje zakładek w przetwarzaniu wsadowym za pomocą Aspose.PDF dla Java. Możesz utworzyć program Java, aby iterować przez zbiór plików PDF i aktualizować zakładki w razie potrzeby.
 
@@ -113,10 +115,12 @@ Chociaż Aspose.PDF for Java jest wszechstronną biblioteką, konieczne jest prz
 
 ### Gdzie mogę znaleźć więcej materiałów i dokumentacji dla pliku Aspose.PDF dla języka Java?
 
- Pełną dokumentację, samouczki i dodatkowe zasoby dotyczące pliku Aspose.PDF dla języka Java można znaleźć na stronie internetowej Aspose:[Tutaj](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację, samouczki i dodatkowe zasoby dotyczące pliku Aspose.PDF dla języka Java można znaleźć na stronie internetowej Aspose: [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

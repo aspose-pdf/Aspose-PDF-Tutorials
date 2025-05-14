@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Yapı Elemanları Özellikleri
-linktitle: PDF Dosyasında Yapı Elemanları Özellikleri
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile PDF dosyasındaki yapısal eleman özellikleriyle çalışmaya yönelik adım adım kılavuz. Bilgi açısından zengin yapısal elemanlar oluşturun.
-weight: 150
-url: /tr/net/programming-with-tagged-pdf/structure-elements-properties/
+"description": "Aspose.PDF for .NET ile PDF dosyasındaki yapısal eleman özellikleriyle çalışmaya yönelik adım adım kılavuz. Bilgi açısından zengin yapısal elemanlar oluşturun."
+"linktitle": "PDF Dosyasında Yapı Elemanları Özellikleri"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Yapı Elemanları Özellikleri"
+"url": "/tr/net/programming-with-tagged-pdf/structure-elements-properties/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Yapı Elemanları Özellikleri
@@ -19,10 +21,10 @@ Aspose.PDF for .NET kullanarak PDF dosyalarınızı yapılandırılmış öğele
 
 ## Ön koşullar
 
-Kolları sıvayıp kodlama kısmına dalmadan önce, hazır bulundurmanız gerekenlere bir göz atalım:
+Kolları sıvayıp kodlama kısmına dalmadan önce, hazırda bulundurmanız gerekenlere bir göz atalım:
 
 1. .NET Ortamı: Visual Studio veya başka bir IDE olsun, uyumlu bir .NET geliştirme ortamı kurduğunuzdan emin olun.
-2.  Aspose.PDF Kütüphanesi: .NET için Aspose.PDF kütüphanesinin yüklü olması gerekir. Henüz yoksa,[buradan indirin](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF Kütüphanesi: .NET için Aspose.PDF kütüphanesinin yüklü olması gerekir. Henüz yoksa, [buradan indirin](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmanız, örnekleri daha iyi anlamanıza kesinlikle yardımcı olacaktır.
 
 Artık ön koşullarımızı tamamladığımıza göre, görevimiz için gerekli paketleri içe aktaralım.
@@ -51,7 +53,7 @@ Bu ad alanları, PDF belge düzenlemesi için gereken sınıfları ve yöntemler
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` PDF belgesini kaydetmek istediğiniz makinenizdeki gerçek yol ile.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF belgesini kaydetmek istediğiniz makinenizdeki gerçek yol.
 
 ## Adım 2: Yeni bir PDF Belgesi Oluşturun
 
@@ -62,18 +64,18 @@ Dizin ayarlarımızı yaptıktan sonra yeni PDF dokümanımızı oluşturalım.
 Document document = new Document();
 ```
 
- Burada yeni bir örnek oluşturuyoruz`Document` PDF dosyamızı temsil eden nesne. Bu, tüm yapılandırılmış öğelerimiz için kapsayıcı görevi görecektir.
+Burada yeni bir örnek oluşturuyoruz `Document` PDF dosyamızı temsil eden nesne. Bu, tüm yapılandırılmış öğelerimiz için kapsayıcı görevi görecektir.
 
 ## Adım 3: Etiketli İçeriğe Erişim
 
-Daha sonra, yapılandırılmış öğelerle çalışmamızı sağlayacak olan belgedeki etiketli içeriğe erişmemiz gerekiyor.
+Daha sonra, yapılandırılmış öğelerle çalışmamızı sağlayacak olan belgedeki etiketli içeriklere erişmemiz gerekiyor.
 
 ```csharp
 // TaggedPdf ile çalışmak için İçerik Alın
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- Biz kullanıyoruz`TaggedContent` belgemizin mülkiyetini almak için`ITaggedContent` nesne. Bu, PDF'imizde etiketli öğeleri oluşturmak ve yönetmek için çok önemlidir.
+Biz kullanıyoruz `TaggedContent` belgemizin mülkiyetini almak için `ITaggedContent` nesne. Bu, PDF'imizde etiketli öğeleri oluşturmak ve yönetmek için çok önemlidir.
 
 ## Adım 4: Belge Başlığını ve Dilini Ayarlayın
 
@@ -100,7 +102,7 @@ Diğer tüm elementlerimizi barındıracak olan kök elementi oluşturarak başl
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
- The`RootElement`yaratmak üzere olduğumuz tüm elementlerin ebeveyni olarak hareket eder.
+The `RootElement` yaratmak üzere olduğumuz tüm elementlerin ebeveyni gibi davranır.
 
 ### Adım 5.2: Bir Bölüm Elemanı Oluşturun
 
@@ -111,7 +113,7 @@ SectElement sect = taggedContent.CreateSectElement();
 rootElement.AppendChild(sect);
 ```
 
- A`SectElement` Belgenin bir alt bölümü veya bölümü olarak düşünülebilir ve bu sayede düzenli bir içerik elde edilebilir.
+A `SectElement` Belgenin bir alt bölümü veya bölümü olarak düşünülebilir ve bu sayede düzenli bir içerik elde edilebilir.
 
 ### Adım 5.3: Başlık Öğesi Oluşturun
 
@@ -122,7 +124,7 @@ HeaderElement h1 = taggedContent.CreateHeaderElement(1);
 sect.AppendChild(h1);
 ```
 
- The`HeaderElement` Bölümlerimiz içinde başlıklar veya başlıklar koyabileceğimiz yer burasıdır. Geçilen sayı`CreateHeaderElement` yöntem başlığın seviyesini belirler (1 en yüksek seviyedir).
+The `HeaderElement` Bölümlerimiz içinde başlıklar veya başlıklar koyabileceğimiz yer burasıdır. Geçilen sayı `CreateHeaderElement` yöntem başlığın seviyesini belirler (1 en yüksek seviyedir).
 
 ### Adım 5.4: Başlık Metnini ve Özelliklerini Ayarlayın
 
@@ -148,7 +150,7 @@ Tüm öğeler oluşturuldu ve dolduruldu, şimdi çalışmamızı kaydetme zaman
 document.Save(dataDir + "StructureElementsProperties.pdf");
 ```
 
- Arayarak`Save`yöntemiyle belge nesnemizde, yapılandırılmış PDF'imizi belirtilen yola yazarız. İşte! Yapılandırılmış öğeler içeren bir PDF oluşturdunuz.
+Arayarak `Save` yöntemiyle belge nesnemizde, yapılandırılmış PDF'imizi belirtilen yola yazarız. İşte! Yapılandırılmış öğeler içeren bir PDF oluşturdunuz.
 
 ## Çözüm
 
@@ -166,13 +168,15 @@ Aspose.PDF'yi bazı sınırlamalarla ücretsiz kullanabilirsiniz. Tam kapasite i
 Diğer kütüphaneler ve tekniklerle mümkün olsa da Aspose.PDF, güçlü özellikleriyle süreci önemli ölçüde basitleştiriyor.
 
 ### Sorularım olduğunda destek alabileceğim bir yer var mı?
-Evet! Sorularınızı şurada sorabilirsiniz:[Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Evet! Sorularınızı şurada sorabilirsiniz: [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF ile çalışma hakkında daha fazla bilgi nasıl edinebilirim?
- Şuna bir göz atın:[belgeleme](https://reference.aspose.com/pdf/net/) Ayrıntılı rehberlik ve ek özellikler için.
+Şuna bir göz atın: [belgeleme](https://reference.aspose.com/pdf/net/) Ayrıntılı rehberlik ve ek özellikler için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

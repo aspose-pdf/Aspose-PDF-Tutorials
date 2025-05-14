@@ -1,14 +1,16 @@
 ---
-title: Thêm chú thích PDF
-linktitle: Thêm chú thích
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Dễ dàng thêm chú thích tùy chỉnh vào PDF của bạn bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tùy chỉnh chú thích của bạn với các chi tiết và biểu tượng cụ thể.
-weight: 10
-url: /vi/net/annotations/addannotation/
+"description": "Dễ dàng thêm chú thích tùy chỉnh vào PDF của bạn bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tùy chỉnh chú thích của bạn với các chi tiết và biểu tượng cụ thể."
+"linktitle": "Thêm chú thích"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm chú thích PDF"
+"url": "/vi/net/annotations/addannotation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm chú thích PDF
@@ -21,12 +23,12 @@ Chú thích là một cách tuyệt vời để làm phong phú thêm tài liệ
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[Trang tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [Trang tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE C# nào khác mà bạn chọn.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã thành thạo lập trình C#.
 - Tài liệu PDF: Một tệp PDF mẫu mà bạn sẽ thêm chú thích vào.
 
- Nếu bạn chưa có thư viện Aspose.PDF, bạn có thể lấy nó từ liên kết ở trên và bắt đầu[dùng thử miễn phí](https://releases.aspose.com/) hoặc mua một[giấy phép](https://purchase.aspose.com/buy). 
+Nếu bạn chưa có thư viện Aspose.PDF, bạn có thể lấy nó từ liên kết ở trên và bắt đầu [dùng thử miễn phí](https://releases.aspose.com/) hoặc mua một [giấy phép](https://purchase.aspose.com/buy). 
 
 ## Nhập gói
 
@@ -50,12 +52,12 @@ string dataDir = "YOUR DATA DIRECTORY";
 Document pdfDocument = new Document(dataDir + "AddAnnotation.pdf");
 ```
 
- Đây là những gì đang xảy ra: bạn đang chỉ định thư mục nơi tệp PDF của bạn được lưu trữ, sau đó tải nó bằng cách sử dụng`Document` lớp do Aspose.PDF cung cấp. Bước này rất quan trọng vì nếu không tải tài liệu, bạn không thể thực hiện bất kỳ thay đổi nào đối với tài liệu đó.
+Đây là những gì đang xảy ra: bạn đang chỉ định thư mục lưu trữ tệp PDF của mình, sau đó tải tệp đó bằng cách sử dụng `Document` lớp do Aspose.PDF cung cấp. Bước này rất quan trọng vì nếu không tải tài liệu, bạn không thể thực hiện bất kỳ thay đổi nào đối với tài liệu đó.
 
 ## Bước 2: Tạo chú thích
 
 ### Xác định các thuộc tính chú thích
- Bây giờ, chúng ta hãy tạo chú thích đó. Chúng ta sẽ sử dụng`TextAnnotation`, rất phù hợp để thêm bình luận hoặc ghi chú vào tệp PDF của bạn.
+Bây giờ, chúng ta hãy tạo chú thích đó. Chúng ta sẽ sử dụng `TextAnnotation`, rất phù hợp để thêm bình luận hoặc ghi chú vào tệp PDF của bạn.
 
 ```csharp
 // Tạo chú thích
@@ -68,9 +70,9 @@ textAnnotation.Icon = TextIcon.Key;
 ```
 
 Trong đoạn trích này:
--  Vị trí và kích thước:`Rectangle` lớp xác định vị trí chú thích của bạn sẽ xuất hiện trên trang và kích thước của nó.
+- Vị trí và kích thước: `Rectangle` lớp xác định vị trí chú thích của bạn sẽ xuất hiện trên trang và kích thước của nó.
 - Tiêu đề, Chủ đề và Nội dung: Các thuộc tính này cho phép bạn chỉ định chú thích của mình nói về điều gì và chú thích sẽ chứa những gì.
--  Biểu tượng:`TextIcon.Key` đặt biểu tượng cho chú thích, làm cho chú thích hấp dẫn hơn về mặt trực quan.
+- Biểu tượng: `TextIcon.Key` đặt biểu tượng cho chú thích, làm cho chú thích hấp dẫn hơn về mặt trực quan.
 
 ## Bước 3: Tùy chỉnh giao diện của chú thích
 
@@ -85,8 +87,8 @@ textAnnotation.Rect = new Aspose.Pdf.Rectangle(200, 400, 400, 600);
 ```
 
 Sau đây là thông tin chi tiết về những gì đang diễn ra:
--  Đường viền: Chúng tôi tạo ra một`Border` đối tượng và đặt chiều rộng của nó thành 5, giúp chú thích của chúng ta có một phác thảo nổi bật.
--  Mẫu gạch ngang:`Dash` Thuộc tính này cho phép bạn tạo đường viền đứt nét, thêm một chút phong cách cho chú thích.
+- Đường viền: Chúng tôi tạo ra một `Border` đối tượng và đặt chiều rộng của nó thành 5, giúp chú thích của chúng ta có một phác thảo nổi bật.
+- Mẫu gạch ngang: `Dash` Thuộc tính này cho phép bạn tạo đường viền đứt nét, thêm một chút phong cách cho chú thích.
 
 ## Bước 4: Thêm chú thích vào trang PDF
 
@@ -97,7 +99,7 @@ Sau khi tạo và tùy chỉnh chú thích, đã đến lúc thêm chú thích v
 pdfDocument.Pages[1].Annotations.Add(textAnnotation);
 ```
 
- Mã này thêm chú thích vào trang đầu tiên của tệp PDF của bạn.`Annotations` bộ sưu tập chứa tất cả chú thích cho một trang cụ thể và bước này đảm bảo chú thích mới của bạn là một phần của bộ sưu tập đó.
+Mã này thêm chú thích vào trang đầu tiên của tệp PDF của bạn. `Annotations` bộ sưu tập chứa tất cả chú thích cho một trang cụ thể và bước này đảm bảo chú thích mới của bạn là một phần của bộ sưu tập đó.
 
 ## Bước 5: Lưu tài liệu PDF đã cập nhật
 
@@ -128,13 +130,15 @@ Chắc chắn rồi! Bạn có thể tùy chỉnh kích thước, màu sắc, đ
 Có, bạn có thể thêm bao nhiêu chú thích tùy thích vào bất kỳ trang nào trong tệp PDF của mình.
 
 ### Tôi có thể xóa chú thích sau khi đã thêm chúng không?
- Có, chú thích có thể được xóa bằng cách sử dụng`Annotations.Delete` phương pháp được cung cấp bởi Aspose.PDF.
+Có, chú thích có thể được xóa bằng cách sử dụng `Annotations.Delete` phương pháp được cung cấp bởi Aspose.PDF.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF cho .NET không?
- Có, để mở khóa tất cả các tính năng và tránh mọi hạn chế, bạn sẽ cần một[giấy phép](https://purchase.aspose.com/buy) . Bạn cũng có thể nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+Có, để mở khóa tất cả các tính năng và tránh mọi hạn chế, bạn sẽ cần một [giấy phép](https://purchase.aspose.com/buy). Bạn cũng có thể nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

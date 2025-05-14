@@ -1,33 +1,35 @@
 ---
-title: Obtener información del archivo en formato PDF
-linktitle: Obtener información del archivo en formato PDF
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a utilizar la función GetFileInfo en archivos PDF de Aspose.PDF para .NET para recuperar información de metadatos sobre un documento PDF.
-weight: 180
-url: /es/net/programming-with-document/getfileinfo/
+"description": "Aprenda a utilizar la función GetFileInfo en archivos PDF de Aspose.PDF para .NET para recuperar información de metadatos sobre un documento PDF."
+"linktitle": "Obtener información del archivo en un archivo PDF"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Obtener información del archivo en un archivo PDF"
+"url": "/es/net/programming-with-document/getfileinfo/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obtener información del archivo en formato PDF
+# Obtener información del archivo en un archivo PDF
 
 ## Introducción
 
-¿Alguna vez te has preguntado qué secretos se esconden en un archivo PDF? Ya sea el autor, la fecha de creación o incluso las palabras clave, los documentos PDF suelen contener metadatos valiosos que pueden ser cruciales para diversas aplicaciones. En este tutorial, exploraremos cómo extraer información de un archivo PDF con Aspose.PDF para .NET. Esta potente biblioteca permite a los desarrolladores manipular archivos PDF con facilidad, lo que la convierte en una opción ideal para muchos. Así que, ¡ponte a programar y sumerjámonos en el mundo de la extracción de metadatos de PDF!
+¿Alguna vez te has preguntado qué secretos esconde un archivo PDF? Ya sea el autor, la fecha de creación o incluso las palabras clave, los documentos PDF suelen contener metadatos valiosos que pueden ser cruciales para diversas aplicaciones. En este tutorial, exploraremos cómo extraer información de un PDF con Aspose.PDF para .NET. Esta potente biblioteca permite a los desarrolladores manipular archivos PDF con facilidad, lo que la convierte en la opción predilecta para muchos. ¡Así que, ponte a programar y adentrémonos en el mundo de la extracción de metadatos de PDF!
 
 ## Prerrequisitos
 
 Antes de pasar al código, hay algunas cosas que debes tener en cuenta:
 
-1. Visual Studio: asegúrese de tener Visual Studio instalado en su equipo. Este será nuestro entorno de desarrollo.
-2.  Aspose.PDF para .NET: Debe descargar e instalar la biblioteca Aspose.PDF. Puede obtenerla desde el sitio web[enlace de descarga](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Asegúrese de tener Visual Studio instalado en su equipo. Este será nuestro entorno de desarrollo.
+2. Aspose.PDF para .NET: Necesita descargar e instalar la biblioteca Aspose.PDF. Puede obtenerla en [enlace de descarga](https://releases.aspose.com/pdf/net/).
 3. Conocimientos básicos de C#: la familiaridad con la programación en C# le ayudará a comprender mejor los fragmentos de código.
 
 ## Importar paquetes
 
-Para comenzar, debemos importar los paquetes necesarios. Abra su proyecto de C# en Visual Studio y agregue una referencia a la biblioteca Aspose.PDF. Puede hacerlo mediante el Administrador de paquetes NuGet:
+Para empezar, necesitamos importar los paquetes necesarios. Abra su proyecto de C# en Visual Studio y agregue una referencia a la biblioteca Aspose.PDF. Puede hacerlo usando el Administrador de paquetes NuGet:
 
 1. Haga clic derecho en su proyecto en el Explorador de soluciones.
 2. Seleccione "Administrar paquetes NuGet".
@@ -39,25 +41,25 @@ Una vez que tengas la biblioteca instalada, puedes comenzar a escribir tu códig
 
 ### Crear un nuevo proyecto
 
-Lo primero es lo primero, creemos un nuevo proyecto de C# en Visual Studio:
+Primero lo primero, creemos un nuevo proyecto de C# en Visual Studio:
 
 1. Abra Visual Studio y seleccione "Crear un nuevo proyecto".
-2. Seleccione "Aplicación de consola (.NET Framework)" y haga clic en "Siguiente".
-3.  Ponle nombre a tu proyecto (por ejemplo,`PDFFileInfoExtractor`) y haga clic en "Crear".
+2. Seleccione “Aplicación de consola (.NET Framework)” y haga clic en “Siguiente”.
+3. Ponle nombre a tu proyecto (por ejemplo, `PDFFileInfoExtractor`) y haga clic en "Crear".
 
 ### Añadir la referencia Aspose.PDF
 
 Ahora que su proyecto está configurado, debe agregar la referencia Aspose.PDF:
 
 1. Haga clic derecho en su proyecto en el Explorador de soluciones.
-2. Seleccione "Agregar" > "Referencia".
+2. Seleccione “Agregar” > “Referencia”.
 3. En el Administrador de referencias, busque y marque Aspose.PDF, luego haga clic en "Aceptar".
 
 ## Paso 2: Escribe el código
 
 ### Inicializar el documento
 
- Ahora, escribamos el código para abrir un documento PDF y extraer su información. Comience agregando la siguiente directiva using en la parte superior de su`Program.cs` archivo:
+Ahora, escribamos el código para abrir un documento PDF y extraer su información. Comience agregando la siguiente directiva using al principio de su... `Program.cs` archivo:
 
 ```csharp
 using System.IO;
@@ -86,7 +88,7 @@ DocumentInfo docInfo = pdfDocument.Info;
 
 ### Mostrar la información
 
-Finalmente, mostremos la información extraída en la consola:
+Por último, mostremos la información extraída en la consola:
 
 ```csharp
 // Mostrar información del documento
@@ -100,7 +102,7 @@ Console.WriteLine("Title: {0}", docInfo.Title);
 
 ## Conclusión
 
-¡Felicitaciones! Ha extraído con éxito la información de un archivo PDF con Aspose.PDF para .NET. Esta potente biblioteca no solo le permite leer metadatos, sino que también ofrece una gran cantidad de funciones para manipular archivos PDF. Ya sea que esté desarrollando un sistema de administración de documentos o simplemente necesite extraer información para generar informes, Aspose.PDF lo tiene cubierto. 
+¡Felicitaciones! Ha extraído correctamente la información de un PDF con Aspose.PDF para .NET. Esta potente biblioteca no solo le permite leer metadatos, sino que también ofrece numerosas funciones para manipular archivos PDF. Ya sea que esté desarrollando un sistema de gestión documental o simplemente necesite extraer información para informes, Aspose.PDF le ayudará. 
 
 ## Preguntas frecuentes
 
@@ -108,19 +110,21 @@ Console.WriteLine("Title: {0}", docInfo.Title);
 Aspose.PDF para .NET es una biblioteca que permite a los desarrolladores crear, manipular y convertir documentos PDF en aplicaciones .NET.
 
 ### ¿Cómo instalo Aspose.PDF?
- Puede instalar Aspose.PDF a través del Administrador de paquetes NuGet en Visual Studio o descargarlo desde[enlace de descarga](https://releases.aspose.com/pdf/net/).
+Puede instalar Aspose.PDF a través del Administrador de paquetes NuGet en Visual Studio o descargarlo desde [enlace de descarga](https://releases.aspose.com/pdf/net/).
 
 ### ¿Puedo extraer imágenes de un PDF usando Aspose.PDF?
 Sí, Aspose.PDF proporciona métodos para extraer imágenes de documentos PDF.
 
 ### ¿Hay una prueba gratuita disponible para Aspose.PDF?
- Sí, puedes obtener una prueba gratuita desde[Sitio web de Aspose](https://releases.aspose.com/).
+Sí, puedes obtener una prueba gratuita desde [Sitio web de Aspose](https://releases.aspose.com/).
 
 ### ¿Dónde puedo encontrar soporte para Aspose.PDF?
- Puede encontrar ayuda y hacer preguntas en el[Foro de Aspose](https://forum.aspose.com/c/pdf/10).
+Puede encontrar ayuda y hacer preguntas en el [Foro de Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

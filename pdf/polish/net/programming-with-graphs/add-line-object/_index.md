@@ -1,14 +1,16 @@
 ---
-title: Dodaj obiekt linii w pliku PDF
-linktitle: Dodaj obiekt linii w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodać obiekt linii do pliku PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Idealne dla początkujących.
-weight: 30
-url: /pl/net/programming-with-graphs/add-line-object/
+"description": "Dowiedz się, jak dodać obiekt linii do pliku PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Idealne dla początkujących."
+"linktitle": "Dodaj obiekt linii w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj obiekt linii w pliku PDF"
+"url": "/pl/net/programming-with-graphs/add-line-object/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj obiekt linii w pliku PDF
@@ -21,17 +23,17 @@ Tworzenie plików PDF programowo może być trudnym zadaniem, zwłaszcza jeśli 
 
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
-1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To najlepsze IDE do rozwoju .NET.
-2.  Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To najlepsze IDE do tworzenia oprogramowania .NET.
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
 ## Importuj pakiety
 
 Na początek musisz zaimportować niezbędne pakiety do swojego projektu C#. Oto jak możesz to zrobić:
 
-1. Otwórz projekt programu Visual Studio.
+1. Otwórz projekt Visual Studio.
 2. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań i wybierz opcję „Zarządzaj pakietami NuGet”.
-3.  Szukaj`Aspose.PDF` i zainstaluj.
+3. Szukaj `Aspose.PDF` i zainstaluj.
 
 ```csharp
 using System.IO;
@@ -50,11 +52,11 @@ Po pierwsze, musisz określić, gdzie zostanie zapisany plik PDF. Można to zrob
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, pod którą chcesz zapisać plik PDF. Jest to kluczowe, ponieważ jeśli ścieżka jest nieprawidłowa, plik nie zostanie zapisany.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać plik PDF. Jest to kluczowe, ponieważ jeśli ścieżka jest nieprawidłowa, plik nie zostanie zapisany.
 
 ## Krok 2: Utwórz instancję dokumentu
 
- Następnie musisz utworzyć instancję`Document` class. Ta klasa reprezentuje Twój dokument PDF. Oto jak to zrobić:
+Następnie musisz utworzyć instancję `Document` class. Ta klasa reprezentuje Twój dokument PDF. Oto jak to zrobić:
 
 ```csharp
 // Utwórz instancję dokumentu
@@ -76,7 +78,7 @@ Ten kod dodaje nową stronę do dokumentu. Możesz to sobie wyobrazić jako doda
 
 ## Krok 4: Utwórz instancję grafu
 
- Aby rysować kształty takie jak linie, musisz utworzyć`Graph` instancja. To tutaj zostanie narysowana linia. Oto jak utworzyć wykres:
+Aby rysować kształty takie jak linie, musisz utworzyć `Graph` instancja. To tutaj zostanie narysowana linia. Oto jak utworzyć wykres:
 
 ```csharp
 // Utwórz instancję Graph
@@ -105,7 +107,7 @@ Mając już wykres, możesz teraz utworzyć obiekt linii. Tutaj definiujesz punk
 Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { 100, 100, 200, 100 });
 ```
 
-W tym przykładzie linia zaczyna się na współrzędnych (100, 100) i kończy na (200, 100). Możesz zmienić te wartości, aby umieścić linię w dowolnym miejscu na wykresie.
+tym przykładzie linia zaczyna się na współrzędnych (100, 100) i kończy na (200, 100). Możesz zmienić te wartości, aby umieścić linię w dowolnym miejscu na wykresie.
 
 ## Krok 7: Dostosuj wygląd linii
 
@@ -117,7 +119,7 @@ line.GraphInfo.DashArray = new int[] { 0, 1, 0 };
 line.GraphInfo.DashPhase = 1;
 ```
 
- W tym kodzie tworzymy linię przerywaną.`DashArray`właściwość definiuje wzór kresek i przerw, podczas gdy`DashPhase` określa punkt początkowy wzoru kreskowego.
+W tym kodzie tworzymy linię przerywaną. `DashArray` właściwość definiuje wzór kresek i przerw, podczas gdy `DashPhase` określa punkt początkowy wzoru kreskowego.
 
 ## Krok 8: Dodaj linię do wykresu
 
@@ -140,7 +142,7 @@ dataDir = dataDir + "AddLineObject_out.pdf";
 doc.Save(dataDir);
 ```
 
- Ten kod zapisuje plik PDF pod nazwą`AddLineObject_out.pdf` w katalogu, który wcześniej określiłeś. 
+Ten kod zapisuje plik PDF pod nazwą `AddLineObject_out.pdf` w katalogu, który wcześniej określiłeś. 
 
 ## Krok 10: Potwierdź operację
 
@@ -154,7 +156,7 @@ Ten komunikat pojawi się w konsoli potwierdzając, że linia została pomyślni
 
 ## Wniosek
 
-masz to! Udało Ci się dodać obiekt linii do pliku PDF za pomocą Aspose.PDF dla .NET. Ten samouczek przeprowadził Cię przez każdy krok, upewniając się, że zrozumiałeś proces. Teraz możesz eksperymentować z różnymi kształtami i stylami, aby tworzyć własne, unikalne pliki PDF. Miłego kodowania!
+I masz to! Udało Ci się dodać obiekt linii do pliku PDF za pomocą Aspose.PDF dla .NET. Ten samouczek przeprowadził Cię przez każdy krok, upewniając się, że zrozumiałeś proces. Teraz możesz eksperymentować z różnymi kształtami i stylami, aby tworzyć własne, unikalne pliki PDF. Miłego kodowania!
 
 ## Często zadawane pytania
 
@@ -162,19 +164,21 @@ masz to! Udało Ci się dodać obiekt linii do pliku PDF za pomocą Aspose.PDF d
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dokumentację dla Aspose.PDF?
- Dokumentację można znaleźć[Tutaj](https://reference.aspose.com/pdf/net/).
+Dokumentację można znaleźć [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Jak kupić licencję na Aspose.PDF?
- Możesz kupić licencję na Aspose.PDF[Tutaj](https://purchase.aspose.com/buy).
+Możesz kupić licencję na Aspose.PDF [Tutaj](https://purchase.aspose.com/buy).
 
 ### Co powinienem zrobić, jeśli napotkam problemy?
- Jeśli napotkasz jakiekolwiek problemy, możesz zwrócić się o pomoc na forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Jeśli napotkasz jakiekolwiek problemy, możesz zwrócić się o pomoc na forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

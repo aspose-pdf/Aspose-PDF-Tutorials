@@ -1,14 +1,16 @@
 ---
-title: รับข้อความไฮเปอร์ลิงก์ในไฟล์ PDF
-linktitle: รับข้อความไฮเปอร์ลิงก์ในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีแยกข้อความไฮเปอร์ลิงก์จากไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET มีคู่มือและโค้ดแบบทีละขั้นตอนรวมอยู่ด้วย
-weight: 70
-url: /th/net/programming-with-links-and-actions/get-hyperlink-text/
+"description": "เรียนรู้วิธีแยกข้อความไฮเปอร์ลิงก์จากไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET มีคู่มือและโค้ดแบบทีละขั้นตอนรวมอยู่ด้วย"
+"linktitle": "รับข้อความไฮเปอร์ลิงก์ในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "รับข้อความไฮเปอร์ลิงก์ในไฟล์ PDF"
+"url": "/th/net/programming-with-links-and-actions/get-hyperlink-text/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับข้อความไฮเปอร์ลิงก์ในไฟล์ PDF
@@ -23,7 +25,7 @@ url: /th/net/programming-with-links-and-actions/get-hyperlink-text/
 
 1. ความรู้พื้นฐานเกี่ยวกับ C#: จะเป็นประโยชน์หากเข้าใจการเขียนโปรแกรม C# เนื่องจากเราจะต้องเขียนโค้ดบ้าง
 2. ติดตั้ง Visual Studio แล้ว: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่จะเป็นพื้นที่สำหรับการเขียนและทดสอบโค้ด
-3.  Aspose.PDF สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/pdf/net/)หรือเริ่มต้นด้วยการทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).
+3. Aspose.PDF สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases.aspose.com/pdf/net/) หรือเริ่มต้นด้วยการทดลองใช้ฟรี [ที่นี่](https://releases-aspose.com/).
 
 ## แพ็คเกจนำเข้า
 
@@ -37,7 +39,7 @@ url: /th/net/programming-with-links-and-actions/get-hyperlink-text/
 
 1. คลิกขวาที่โครงการของคุณใน Solution Explorer
 2. เลือก "จัดการแพ็คเกจ NuGet"
-3.  ค้นหา`Aspose.PDF` และติดตั้งมัน
+3. ค้นหา `Aspose.PDF` และติดตั้งมัน
 4. ซึ่งจะช่วยให้คุณสามารถเข้าถึงคลาสและวิธีการอันยอดเยี่ยมทั้งหมดที่ Aspose.PDF จัดทำไว้
 
 ```csharp
@@ -59,11 +61,11 @@ using Aspose.Pdf.Annotations;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- อย่าลืมเปลี่ยน`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงของไฟล์ PDF ของคุณ ตัวอย่างเช่น อาจมีลักษณะเช่นนี้`"C:\\Documents\\"`.
+อย่าลืมเปลี่ยน `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงของไฟล์ PDF ของคุณ ตัวอย่างเช่น อาจมีลักษณะเช่นนี้ `"C:\\Documents\\"`-
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร PDF
 
- ขั้นตอนต่อไปคือการโหลดไฟล์ PDF เพื่อให้เราสามารถเริ่มประมวลผลได้ เราจะสร้างอินสแตนซ์ของไฟล์`Document` คลาสและส่งเส้นทางไฟล์ของเราไปที่นั่น
+ขั้นตอนต่อไปคือการโหลดไฟล์ PDF เพื่อให้เราสามารถเริ่มประมวลผลได้ เราจะสร้างอินสแตนซ์ของไฟล์ `Document` คลาสและส่งเส้นทางไฟล์ของเราไปที่นั่น
 
 ```csharp
 Document document = new Document(dataDir + "input.pdf");
@@ -83,7 +85,7 @@ foreach (Page page in document.Pages)
 }
 ```
 
- ในลูปนี้เราจะกำหนดวิธีการที่เรียกว่า`ShowLinkAnnotations` ที่จะจัดการการแยกไฮเปอร์ลิงก์ 
+ในลูปนี้เราจะกำหนดวิธีการที่เรียกว่า `ShowLinkAnnotations` ที่จะจัดการการแยกไฮเปอร์ลิงก์ 
 
 ## ขั้นตอนที่ 4: กำหนดวิธีการ ShowLinkAnnotations
 
@@ -103,8 +105,8 @@ private static void ShowLinkAnnotations(Page page)
 }
 ```
 
--  ตรวจสอบว่าคำอธิบายประกอบเป็นลิงก์หรือไม่: ที่นี่เราจะตรวจสอบว่าคำอธิบายประกอบบนเพจเป็น`LinkAnnotation`. หากเป็นเช่นนั้น เราจะดำเนินการแยกชื่อและ URI ของมัน
--  แสดงข้อความไฮเปอร์ลิงก์: การใช้`Console.WriteLine`เราจะพิมพ์ข้อความลิงก์และ URI ที่สอดคล้องกัน
+- ตรวจสอบว่าคำอธิบายประกอบเป็นลิงก์หรือไม่: ที่นี่เราจะตรวจสอบว่าคำอธิบายประกอบบนเพจเป็น `LinkAnnotation`หากเป็นเช่นนั้น เราจะดำเนินการแยกชื่อและ URI ของมัน
+- แสดงข้อความไฮเปอร์ลิงก์: การใช้ `Console.WriteLine`เราจะพิมพ์ข้อความลิงก์และ URI ที่สอดคล้องกัน
 
 ## ขั้นตอนที่ 5: การจัดการข้อยกเว้น
 
@@ -130,10 +132,10 @@ catch (Exception ex)
 ## คำถามที่พบบ่อย
 
 ### Aspose.PDF สำหรับ .NET คืออะไร?
-Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ด้วยโปรแกรมได้
+Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### มีเวอร์ชันฟรีให้ใช้หรือไม่?
- ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถแยกไฮเปอร์ลิงก์ประเภทใดออกมาได้บ้าง
 คุณสามารถดึงไฮเปอร์ลิงก์ใดๆ ที่มีอยู่ใน PDF ได้ ไม่ว่าจะเป็น URL เว็บทั่วไปหรือลิงก์อ้างอิงแบบไขว้ภายในเอกสาร
@@ -142,10 +144,12 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีอันท
 แน่นอน! Aspose.PDF มีฟังก์ชันในการแยกไม่เพียงแค่ไฮเปอร์ลิงก์ แต่ยังรวมถึงรูปภาพและข้อความจาก PDF อีกด้วย
 
 ### ฉันสามารถหาทรัพยากร Aspose.PDF เพิ่มเติมได้ที่ไหน
- สำหรับเอกสารรายละเอียด กรุณาเยี่ยมชม[เอกสาร PDF Aspose](https://reference.aspose.com/pdf/net/).
+สำหรับเอกสารรายละเอียด กรุณาเยี่ยมชม [เอกสาร PDF Aspose](https://reference-aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

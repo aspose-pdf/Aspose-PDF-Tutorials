@@ -1,14 +1,16 @@
 ---
-title: Perbarui Bookmark Anak Dalam File PDF
-linktitle: Perbarui Bookmark Anak Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memperbarui penanda anak dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan navigasi PDF Anda.
-weight: 110
-url: /id/net/programming-with-bookmarks/update-child-bookmarks/
+"description": "Pelajari cara memperbarui penanda anak dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Tingkatkan navigasi PDF Anda."
+"linktitle": "Perbarui Bookmark Anak Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Perbarui Bookmark Anak Dalam File PDF"
+"url": "/id/net/programming-with-bookmarks/update-child-bookmarks/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perbarui Bookmark Anak Dalam File PDF
@@ -22,7 +24,7 @@ Pernahkah Anda menemukan diri Anda menavigasi dokumen PDF dengan struktur yang r
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE yang tepat untuk pengembangan .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -46,7 +48,7 @@ Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Langkah ini penting karena memberi tahu program Anda di mana menemukan PDF yang ingin Anda gunakan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Langkah ini penting karena memberi tahu program Anda di mana menemukan PDF yang ingin Anda gunakan.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -56,11 +58,11 @@ Selanjutnya, kita perlu membuka dokumen PDF yang berisi bookmark yang ingin Anda
 Document pdfDocument = new Document(dataDir + "UpdateChildBookmarks.pdf");
 ```
 
- Baris kode ini membuat yang baru`Document` objek, yang mewakili berkas PDF Anda. Pastikan nama berkas sesuai dengan nama yang ada di direktori Anda.
+Baris kode ini membuat yang baru `Document` objek, yang mewakili berkas PDF Anda. Pastikan nama berkas sesuai dengan nama yang ada di direktori Anda.
 
 ## Langkah 3: Akses Koleksi Bookmark
 
- Sekarang setelah dokumen terbuka, saatnya mengakses bookmark. Bookmark dalam PDF disusun dalam koleksi yang disebut`Outlines`Berikut cara mengaksesnya:
+Sekarang setelah dokumen terbuka, saatnya mengakses bookmark. Bookmark dalam PDF disusun dalam koleksi yang disebut `Outlines`Berikut cara mengaksesnya:
 
 ```csharp
 OutlineItemCollection pdfOutline = pdfDocument.Outlines[1];
@@ -121,19 +123,21 @@ Nah, itu dia! Anda telah berhasil memperbarui bookmark anak dalam file PDF mengg
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fiturnya. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fiturnya. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Apakah ada lisensi sementara yang tersedia?
- Ya, Aspose menyediakan lisensi sementara yang dapat Anda peroleh[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Aspose menyediakan lisensi sementara yang dapat Anda peroleh [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat membeli Aspose.PDF untuk .NET?
- Anda dapat membeli Aspose.PDF untuk .NET dari situs web mereka[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli Aspose.PDF untuk .NET dari situs web mereka [Di Sini](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

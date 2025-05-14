@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Extract PDF Page Properties with Aspose.PDF for Java
 
@@ -173,7 +175,11 @@ Optimize by managing memory efficiently, using built-in methods appropriately, a
 - **Support Forum:** [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
 Start implementing this solution in your Java projects and harness the full potential of Aspose.PDF for enhanced document management!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

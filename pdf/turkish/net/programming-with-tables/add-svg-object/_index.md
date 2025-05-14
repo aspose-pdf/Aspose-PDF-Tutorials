@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına SVG Nesnesi Ekle
-linktitle: PDF Dosyasına SVG Nesnesi Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarına SVG nesnelerini nasıl kolayca ekleyeceğinizi öğrenin. Belgelerinizi geliştirin.
-weight: 30
-url: /tr/net/programming-with-tables/add-svg-object/
+"description": "Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarına SVG nesnelerini nasıl kolayca ekleyeceğinizi öğrenin. Belgelerinizi geliştirin."
+"linktitle": "PDF Dosyasına SVG Nesnesi Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına SVG Nesnesi Ekle"
+"url": "/tr/net/programming-with-tables/add-svg-object/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına SVG Nesnesi Ekle
@@ -22,7 +24,7 @@ PDF belgelerinize ölçeklenebilir vektör grafiklerini (SVG) nasıl dahil edece
 PDF dosyalarına SVG nesneleri eklemenin inceliklerine dalmadan önce, hazırda bulundurmanız gereken birkaç şey var:
 
 1. .NET'in Temel Anlayışı: C# programlama dili ve .NET ortamına aşinalık, konuyu kolayca takip etmenize yardımcı olacaktır.
-2.  Aspose.PDF Kütüphanesi: Aspose.PDF for .NET kütüphanesini indirip yüklemeniz gerekir. Aşağıdaki bağlantıdan edinebilirsiniz:[.NET için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF Kütüphanesi: Aspose.PDF for .NET kütüphanesini indirip yüklemeniz gerekir. Aşağıdaki bağlantıdan edinebilirsiniz: [.NET için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/net/).
 3. Visual Studio veya Herhangi Bir .NET IDE: Kodunuzu yazıp çalıştırabileceğiniz tercih ettiğiniz Entegre Geliştirme Ortamını (IDE) kurun.
 4. Örnek Bir SVG Dosyası: Çalışmak için bir SVG dosyasına ihtiyacınız olacak. Basitçe bir tane oluşturun veya bu örnekte kullanmak için bir örnek SVG dosyası indirin.
 
@@ -55,7 +57,7 @@ Artık her şeyi ayarladığımıza göre, gerçek kodlamaya geçelim. Süreci y
 
 ## Adım 1: Belge Nesnesini Ayarlayın
 
- Yapmak isteyeceğiniz ilk şey, yeni bir örnek oluşturmaktır.`Document` sınıf. Tüm PDF içerikleriniz burada bulunacaktır.
+Yapmak isteyeceğiniz ilk şey, yeni bir örnek oluşturmaktır. `Document` sınıf. Tüm PDF içerikleriniz burada bulunacaktır.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -117,20 +119,20 @@ Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 table.ColumnWidths = "100 100";
 ```
 
- İle`ColumnWidths`, tabloda her sütunun ne kadar yer kaplayacağını belirleyebiliriz. Bu değerleri içerik gereksinimlerinize göre ayarlamakta özgürsünüz.
+İle `ColumnWidths`, tabloda her sütunun ne kadar yer kaplayacağını belirleyebiliriz. Bu değerleri içerik gereksinimlerinize göre ayarlamakta özgürsünüz.
 
 ## Adım 6: Tabloya Satır ve Hücreler Ekleyin
 
 Şimdi tabloya satırlar ekleyeceğiz ve sonrasında SVG resmimizi bir hücreye ekleyeceğiz:
 
 ```csharp
-//Satır nesnesi oluştur ve onu tablo örneğine ekle
+// Satır nesnesi oluştur ve onu tablo örneğine ekle
 Aspose.Pdf.Row row = table.Rows.Add();
 
 // Hücre nesnesi oluştur ve onu satır örneğine ekle
 Aspose.Pdf.Cell cell = row.Cells.Add();
 
-// Hücre nesnesinin paragraf koleksiyonuna metin parçası ekleyin
+// Hücre nesnesinin paragraf koleksiyonuna metin parçası ekle
 cell.Paragraphs.Add(new TextFragment("First cell"));
 
 // Satır nesnesine başka bir hücre ekle
@@ -196,9 +198,11 @@ SVG dosyanızın düzgün biçimlendirildiğinden emin olun; Aspose belgelerini 
 
 ### Aspose.PDF .NET'in tüm sürümleriyle uyumlu mudur?
 Aspose.PDF çeşitli .NET framework'lerini destekler; uyumluluk bilgileri için dokümanları kontrol edin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

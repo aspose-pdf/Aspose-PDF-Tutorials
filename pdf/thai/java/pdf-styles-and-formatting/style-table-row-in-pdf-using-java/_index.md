@@ -1,14 +1,16 @@
 ---
-title: การจัดรูปแบบแถวตารางใน PDF โดยใช้ Java
-linktitle: การจัดรูปแบบแถวตารางใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการกำหนดรูปแบบแถวตาราง PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java ปรับแต่งสี เพิ่มเส้นขอบ และอื่นๆ อีกมากมายในคู่มือที่ครอบคลุมนี้
-weight: 10
-url: /th/java/pdf-styles-and-formatting/style-table-row-in-pdf-using-java/
+"description": "เรียนรู้วิธีการกำหนดรูปแบบแถวตาราง PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java ปรับแต่งสี เพิ่มเส้นขอบ และอื่นๆ อีกมากมายในคู่มือที่ครอบคลุมนี้"
+"linktitle": "การจัดรูปแบบแถวตารางใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "การจัดรูปแบบแถวตารางใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-styles-and-formatting/style-table-row-in-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดรูปแบบแถวตารางใน PDF โดยใช้ Java
@@ -20,9 +22,9 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีอันท
 
 ## การติดตั้งและการตั้งค่า
 
-หากต้องการเริ่มใช้ Aspose.PDF สำหรับ Java คุณต้องตั้งค่าสภาพแวดล้อมการพัฒนาของคุณก่อน ขั้นตอนพื้นฐานมีดังต่อไปนี้:
+หากต้องการเริ่มใช้ Aspose.PDF สำหรับ Java คุณต้องตั้งค่าสภาพแวดล้อมการพัฒนาของคุณก่อน โดยขั้นตอนพื้นฐานมีดังต่อไปนี้:
 
-1.  ดาวน์โหลด Aspose.PDF สำหรับ Java: เยี่ยมชม[ที่นี่](https://releases.aspose.com/pdf/java/) เพื่อดาวน์โหลดห้องสมุด
+1. ดาวน์โหลด Aspose.PDF สำหรับ Java: เยี่ยมชม [ที่นี่](https://releases.aspose.com/pdf/java/) เพื่อดาวน์โหลดห้องสมุด
 
 2. เพิ่ม Aspose.PDF Jar ลงในโปรเจ็กต์ของคุณ: รวมไฟล์ JAR ที่ดาวน์โหลดไว้ในโปรเจ็กต์ Java ของคุณ
 
@@ -119,11 +121,11 @@ Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- หากต้องการติดตั้ง Aspose.PDF สำหรับ Java ให้ดาวน์โหลดไลบรารีจาก[ที่นี่](https://releases.aspose.com/pdf/java/) และรวมไฟล์ JAR ไว้ในโปรเจ็กต์ Java ของคุณ
+หากต้องการติดตั้ง Aspose.PDF สำหรับ Java ให้ดาวน์โหลดไลบรารีจาก [ที่นี่](https://releases.aspose.com/pdf/java/) และรวมไฟล์ JAR ไว้ในโปรเจ็กต์ Java ของคุณ
 
 ### ฉันสามารถกำหนดรูปแบบแต่ละแถวในตาราง PDF ได้หรือไม่
 
-ใช่ คุณสามารถกำหนดรูปแบบแต่ละแถวในตาราง PDF ได้โดยใช้ Aspose.PDF สำหรับ Java โดยปรับแต่งคุณสมบัติเช่นสีพื้นหลัง สีข้อความ แบบอักษร และอื่นๆ
+ใช่ คุณสามารถกำหนดรูปแบบแต่ละแถวในตาราง PDF ได้โดยใช้ Aspose.PDF สำหรับ Java โดยปรับแต่งคุณสมบัติเช่น สีพื้นหลัง สีข้อความ แบบอักษร และอื่นๆ
 
 ### มีข้อจำกัดใด ๆ ในการจัดรูปแบบแถวใน Aspose.PDF สำหรับ Java หรือไม่
 
@@ -131,10 +133,12 @@ Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที
 
 ### ฉันสามารถหาแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- สำหรับเอกสารประกอบที่ครอบคลุมและทรัพยากรเพิ่มเติม โปรดไปที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+สำหรับเอกสารประกอบที่ครอบคลุมและทรัพยากรเพิ่มเติม โปรดไปที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

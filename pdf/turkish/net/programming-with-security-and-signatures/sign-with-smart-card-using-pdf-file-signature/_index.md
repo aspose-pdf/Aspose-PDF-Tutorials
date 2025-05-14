@@ -1,14 +1,16 @@
 ---
-title: PDF Dosya İmzası Kullanarak Akıllı Kartla İmzalayın
-linktitle: PDF Dosya İmzası Kullanarak Akıllı Kartla İmzalayın
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile akıllı kart kullanarak PDF dosyalarını nasıl imzalayacağınızı öğrenin. Güvenli dijital imzalar için bu adım adım kılavuzu izleyin.
-weight: 110
-url: /tr/net/programming-with-security-and-signatures/sign-with-smart-card-using-pdf-file-signature/
+"description": "Aspose.PDF for .NET ile akıllı kart kullanarak PDF dosyalarını nasıl imzalayacağınızı öğrenin. Güvenli dijital imzalar için bu adım adım kılavuzu izleyin."
+"linktitle": "PDF Dosya İmzası Kullanarak Akıllı Kartla İmzalayın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosya İmzası Kullanarak Akıllı Kartla İmzalayın"
+"url": "/tr/net/programming-with-security-and-signatures/sign-with-smart-card-using-pdf-file-signature/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosya İmzası Kullanarak Akıllı Kartla İmzalayın
@@ -21,11 +23,11 @@ Dijital çağda, belgeleri güvence altına almak her zamankinden daha önemlidi
 
 PDF dosyasını imzalamanın inceliklerine dalmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte hazırlanmanıza yardımcı olacak bir kontrol listesi:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: .NET kodlarınızı yazıp çalıştırabileceğiniz bir geliştirme ortamı.
 3. Akıllı Kart: Geçerli bir dijital sertifikaya sahip akıllı karta ihtiyacınız olacak.
 4. C# Temel Anlayışı: Bu dilde kod parçacıkları yazacağımız için C# programlamaya aşina olmak faydalı olacaktır.
-5. PDF Belgesi: Örnek bir PDF dosyası (örneğin`blank.pdf`) İmzalama sürecimizi test etmek için.
+5. PDF Belgesi: Örnek bir PDF dosyası (örneğin `blank.pdf`) İmzalama sürecimizi test etmek için.
 
 Bu ön koşullar sağlandığında, koda dalmaya hazırsınız!
 
@@ -35,8 +37,8 @@ Bu ön koşullar sağlandığında, koda dalmaya hazırsınız!
 
 1. Visual Studio’yu açın.
 2. Yeni bir proje oluşturun veya mevcut bir projeyi açın.
-3.  Çözüm Gezgini'nde projenize sağ tıklayın ve şunu seçin:`Manage NuGet Packages`.
-4.  Arama`Aspose.PDF` ve en son sürümü yükleyin.
+3. Çözüm Gezgini'nde projenize sağ tıklayın ve şunu seçin: `Manage NuGet Packages`.
+4. Arama `Aspose.PDF` ve en son sürümü yükleyin.
 
 ```csharp
 using System;
@@ -55,18 +57,18 @@ Sürecimizin ilk adımı imzalamak istediğimiz PDF belgesini ayarlamaktır. Bun
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "blank.pdf");
 ```
- Bu kod parçacığında, belgeler dizinimize giden yolu tanımlıyoruz ve bir örnek oluşturuyoruz`Document` adlı bir örnek PDF dosyası kullanan sınıf`blank.pdf` . Değiştirdiğinizden emin olun`"YOUR DOCUMENTS DIRECTORY"` PDF'inizin bulunduğu gerçek yol ile.
+Bu kod parçacığında, belgeler dizinimize giden yolu tanımlıyoruz ve bir örnek oluşturuyoruz `Document` adlı bir örnek PDF dosyası kullanan sınıf `blank.pdf`. Değiştirdiğinizden emin olun `"YOUR DOCUMENTS DIRECTORY"` PDF'inizin bulunduğu gerçek yol ile.
 
 ## Adım 2: PdfFileSignature'ı Başlatın
 
- Daha sonra, şunu başlatacağız:`PdfFileSignature` İmzalama sürecini yönetmekten sorumlu sınıf.
+Daha sonra, şunu başlatacağız: `PdfFileSignature` İmzalama sürecini yönetmekten sorumlu sınıf.
 
 ```csharp
 using (Facades.PdfFileSignature pdfSign = new Facades.PdfFileSignature())
 {
     pdfSign.BindPdf(doc);
 ```
-Burada, bir örnek oluşturuyoruz`PdfFileSignature`ve bunu PDF belgemize bağlayalım. Bu, belgeyi imzalamaya hazırlar.
+Burada, bir örnek oluşturuyoruz `PdfFileSignature` ve bunu PDF belgemize bağlayalım. Bu, belgeyi imzalamaya hazırlar.
 
 ## Adım 3: Akıllı Kart Sertifikasına Erişim
 
@@ -96,7 +98,7 @@ Sertifikanızı seçtikten sonraki adım, seçilen sertifikayı kullanarak haric
 ```csharp
 Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.ExternalSignature(sel[0]);
 ```
-Burada, bir örnek oluşturuyoruz`ExternalSignature` seçili sertifikayı kullanarak. Bu nesne PDF belgesini imzalamak için kullanılacaktır.
+Burada, bir örnek oluşturuyoruz `ExternalSignature` seçili sertifikayı kullanarak. Bu nesne PDF belgesini imzalamak için kullanılacaktır.
 
 ## Adım 5: İmza Görünümünü Ayarlayın
 
@@ -105,7 +107,7 @@ Burada, bir örnek oluşturuyoruz`ExternalSignature` seçili sertifikayı kullan
 ```csharp
 pdfSign.SignatureAppearance = dataDir + "demo.png";
 ```
- Bu kod parçacığında, bir resim dosyasına (bir logo veya imza grafiği gibi) giden yolu sağlayarak imzanın görünümünü belirtiyoruz. Değiştirdiğinizden emin olun`"demo.png"` kullanmak istediğiniz gerçek görüntü ile.
+Bu kod parçacığında, bir resim dosyasına (bir logo veya imza grafiği gibi) giden yolu sağlayarak imzanın görünümünü belirtiyoruz. Değiştirdiğinizden emin olun `"demo.png"` kullanmak istediğiniz gerçek görüntü ile.
 
 ## Adım 6: PDF'yi imzalayın
 
@@ -115,7 +117,7 @@ Her şey tamamsa, artık PDF belgesini imzalamanın zamanı geldi!
 pdfSign.Sign(1, "Reason", "Contact", "Location", true, new System.Drawing.Rectangle(100, 100, 200, 200), externalSignature);
 pdfSign.Save(dataDir + "externalSignature2.pdf");
 ```
-Bu adımda şunu çağırıyoruz:`Sign` yöntemimiz`pdfSign` nesne. Her parametrenin anlamı şu şekildedir:
+Bu adımda şunu çağırıyoruz: `Sign` yöntemimiz `pdfSign` nesne. Her parametrenin anlamı şu şekildedir:
 - `1`: İmzanın yer alacağı sayfa numarası.
 - `"Reason"`: Belgenin imzalanma sebebi.
 - `"Contact"`: İmzalayanın iletişim bilgileri.
@@ -124,7 +126,7 @@ Bu adımda şunu çağırıyoruz:`Sign` yöntemimiz`pdfSign` nesne. Her parametr
 - `new System.Drawing.Rectangle(100, 100, 200, 200)`: PDF'deki imzanın konumu ve boyutu.
 - `externalSignature`: Daha önce oluşturduğumuz imza nesnesi.
 
- Son olarak imzalanmış belgeyi şu şekilde kaydediyoruz:`externalSignature2.pdf`.
+Son olarak imzalanmış belgeyi şu şekilde kaydediyoruz: `externalSignature2.pdf`.
 
 ## Adım 7: İmzayı Doğrulayın
 
@@ -137,7 +139,7 @@ using (Facades.PdfFileSignature pdfSign = new Facades.PdfFileSignature(new Docum
 {
     IList<string> sigNames = pdfSign.GetSignNames();
 ```
- Yeni bir örnek oluşturuyoruz`PdfFileSignature` imzalanmış belge için. Daha sonra belgede bulunan tüm imzaların isimlerini alırız.
+Yeni bir örnek oluşturuyoruz `PdfFileSignature` imzalanmış belge için. Daha sonra belgede bulunan tüm imzaların adlarını alırız.
 
 ### İmzanın Geçerliliğini Kontrol Et
 
@@ -171,10 +173,12 @@ Evet, herhangi bir PDF dosyasını kullanabilirsiniz, ancak parola korumalı olm
 Güvenilir bir sertifika yetkilisinden (CA) dijital sertifika alabilir veya test amaçlı kendi kendine imzalı bir sertifika kullanabilirsiniz.
 
 ### Aspose.PDF'in deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

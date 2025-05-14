@@ -1,14 +1,16 @@
 ---
-title: Dodaj załącznik do PDFA
-linktitle: Dodaj załącznik do PDFA
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać załączniki do dokumentów PDF/A za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/document-conversion/add-attachment-to-pdfa/
+"description": "Dowiedz się, jak dodawać załączniki do dokumentów PDF/A za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Dodaj załącznik do PDFA"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj załącznik do PDFA"
+"url": "/pl/net/document-conversion/add-attachment-to-pdfa/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj załącznik do PDFA
@@ -21,11 +23,11 @@ Czy kiedykolwiek musiałeś dołączyć dodatkowy plik do dokumentu PDF, taki ja
 
 Zanim zakasamy rękawy i zanurzymy się w kodzie, jest kilka rzeczy, które musisz mieć na miejscu. Oto, czego potrzebujesz, aby zacząć:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowany Aspose.PDF dla .NET. Możesz go pobrać ze strony[link do pobrania](https://releases.aspose.com/pdf/net/) lub użyj go poprzez NuGet w Visual Studio.
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowany Aspose.PDF dla .NET. Możesz go pobrać ze strony [link do pobrania](https://releases.aspose.com/pdf/net/) lub użyj go poprzez NuGet w Visual Studio.
 2. Środowisko programistyczne: Powinieneś mieć skonfigurowane środowisko programistyczne .NET. Visual Studio jest świetną opcją.
 3. Podstawowa znajomość języka C#: Choć niniejszy przewodnik jest przyjazny dla początkujących, podstawowa znajomość języka C# ułatwi Ci zrozumienie tekstu.
 4. Dokument PDF i plik do dołączenia: Będziesz potrzebować istniejącego dokumentu PDF i pliku, który chcesz dołączyć. W naszym przykładzie użyjemy dokumentu PDF i dużego pliku obrazu.
-5.  Licencja tymczasowa: Aby w pełni wykorzystać potencjał Aspose.PDF bez żadnych ograniczeń, możesz chcieć uzyskać licencję tymczasową.[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+5. Licencja tymczasowa: Aby w pełni wykorzystać potencjał Aspose.PDF bez żadnych ograniczeń, możesz chcieć uzyskać licencję tymczasową. [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
@@ -53,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Wyjaśnienie: W tym kroku ładujemy istniejący dokument PDF za pomocą`Document` klasa dostarczona przez Aspose.PDF. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój plik PDF.
+Wyjaśnienie: W tym kroku ładujemy istniejący dokument PDF za pomocą `Document` klasa dostarczona przez Aspose.PDF. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój plik PDF.
 
 ## Krok 2: Skonfiguruj plik, który ma zostać dołączony
 
@@ -64,18 +66,18 @@ Następnie musimy przygotować plik, który chcemy dołączyć do naszego dokume
 FileSpecification fileSpecification = new FileSpecification(dataDir + "aspose-logo.jpg", "Large Image file");
 ```
 
- Wyjaśnienie: Tutaj tworzymy`FileSpecification` obiekt. Ten obiekt reprezentuje plik, który chcesz dołączyć. Pierwszy parametr to ścieżka do pliku, a drugi parametr to opis pliku. W tym przykładzie dołączamy duży plik obrazu o nazwie „aspose-logo.jpg”.
+Wyjaśnienie: Tutaj tworzymy `FileSpecification` obiekt. Ten obiekt reprezentuje plik, który chcesz dołączyć. Pierwszy parametr to ścieżka do pliku, a drugi parametr to opis pliku. W tym przykładzie dołączamy duży plik obrazu o nazwie „aspose-logo.jpg”.
 
 ## Krok 3: Dodaj załącznik do dokumentu PDF
 
- Po skonfigurowaniu pliku następnym krokiem jest faktyczne dołączenie go do dokumentu PDF. Wiąże się to z dodaniem`FileSpecification` do zbioru załączników dokumentu.
+Po skonfigurowaniu pliku następnym krokiem jest faktyczne dołączenie go do dokumentu PDF. Wiąże się to z dodaniem `FileSpecification` do zbioru załączników dokumentu.
 
 ```csharp
 // Dodaj załącznik do kolekcji załączników dokumentu
 doc.EmbeddedFiles.Add(fileSpecification);
 ```
 
- Wyjaśnienie:`EmbeddedFiles` własność`Document` obiekt jest kolekcją, która zawiera wszystkie załączniki do dokumentu. Dodając`FileSpecification` do tej kolekcji dołączamy skutecznie nasz plik do pliku PDF.
+Wyjaśnienie: `EmbeddedFiles` własność `Document` obiekt jest kolekcją, która zawiera wszystkie załączniki do dokumentu. Dodając `FileSpecification` do tej kolekcji dołączamy skutecznie nasz plik do pliku PDF.
 
 ## Krok 4: Konwertuj plik PDF do formatu PDF/A
 
@@ -86,7 +88,7 @@ To kluczowy krok. Aby mieć pewność, że załącznik zostanie uwzględniony w 
 doc.Convert(dataDir + "log.txt", Aspose.Pdf.PdfFormat.PDF_A_3A, ConvertErrorAction.Delete);
 ```
 
- Wyjaśnienie:`Convert` Metoda ta służy do przekształcania dokumentu PDF w plik zgodny ze standardem PDF/A. Tutaj konwertujemy do`PDF_A_3A` , który obsługuje osadzone pliki. Pierwszy parametr określa ścieżkę do pliku dziennika, w którym przechowywane będą szczegóły konwersji.`ConvertErrorAction.Delete` opcja ta nakazuje konwerterowi usunięcie wszystkich elementów, które nie są zgodne ze standardem PDF/A.
+Wyjaśnienie: `Convert` Metoda ta służy do przekształcania dokumentu PDF w plik zgodny ze standardem PDF/A. Tutaj konwertujemy do `PDF_A_3A`, który obsługuje osadzone pliki. Pierwszy parametr określa ścieżkę do pliku dziennika, w którym przechowywane będą szczegóły konwersji. `ConvertErrorAction.Delete` opcja ta nakazuje konwerterowi usunięcie wszystkich elementów, które nie są zgodne ze standardem PDF/A.
 
 ## Krok 5: Zapisz wynikowy dokument PDF/A
 
@@ -97,9 +99,9 @@ Po dołączeniu pliku i przekonwertowaniu dokumentu czas zapisać nowy dokument 
 doc.Save(dataDir + "AddAttachmentToPDFA_out.pdf");
 ```
 
- Wyjaśnienie:`Save` metoda ta jest używana do zapisywania zaktualizowanego dokumentu PDF. Plik wyjściowy,`"AddAttachmentToPDFA_out.pdf"`, jest produktem finalnym zawierającym załącznik i zgodnym ze standardem PDF/A.
+Wyjaśnienie: `Save` metoda ta jest używana do zapisywania zaktualizowanego dokumentu PDF. Plik wyjściowy, `"AddAttachmentToPDFA_out.pdf"`jest produktem finalnym zawierającym załącznik i zgodnym ze standardem PDF/A.
 
-## Krok 6: Sprawdź załącznik (opcjonalnie)
+## Krok 6: Zweryfikuj załącznik (opcjonalnie)
 
 Po zapisaniu pliku możesz chcieć sprawdzić, czy załącznik został pomyślnie dodany. Ten krok jest opcjonalny, ale zdecydowanie zalecany.
 
@@ -128,10 +130,12 @@ PDF/A to wersja PDF zoptymalizowana pod kątem archiwizacji i długoterminowego 
 Możesz sprawdzić zgodność pliku PDF ze standardami PDF/A za pomocą różnych narzędzi PDF, w tym Adobe Acrobat i Aspose.PDF. Aspose.PDF udostępnia metody programowej weryfikacji zgodności PDF/A.
 
 ### Czy można usunąć załącznik z dokumentu PDF?  
- Tak, możesz usunąć załącznik z dokumentu PDF za pomocą Aspose.PDF, uzyskując dostęp do`EmbeddedFiles` zbieranie i usuwanie konkretnych`FileSpecification`.
+Tak, możesz usunąć załącznik z dokumentu PDF za pomocą Aspose.PDF, uzyskując dostęp do `EmbeddedFiles` zbieranie i usuwanie konkretnych `FileSpecification`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tạo dấu trang trong tài liệu PDF
-linktitle: Tạo dấu trang trong tài liệu PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách tạo dấu trang PDF bằng Aspose.PDF cho Java. Cải thiện khả năng điều hướng tài liệu và trải nghiệm người dùng. Hướng dẫn từng bước với mã nguồn.
-weight: 10
-url: /vi/java/pdf-bookmarks/create-bookmarks-pdf-documents/
+"description": "Tìm hiểu cách tạo dấu trang PDF bằng Aspose.PDF cho Java. Cải thiện khả năng điều hướng tài liệu và trải nghiệm người dùng. Hướng dẫn từng bước với mã nguồn."
+"linktitle": "Tạo dấu trang trong tài liệu PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Tạo dấu trang trong tài liệu PDF"
+"url": "/vi/java/pdf-bookmarks/create-bookmarks-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo dấu trang trong tài liệu PDF
@@ -23,7 +25,7 @@ Trong thời đại kỹ thuật số, việc quản lý và điều hướng qu
 Trước khi đi sâu vào phần mã hóa, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
--  Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Bắt đầu
 
@@ -51,11 +53,11 @@ Bây giờ, chúng ta hãy tiến hành tạo dấu trang trong tài liệu PDF.
 Document pdfDocument = new Document("your_document.pdf");
 ```
 
- Thay thế`"your_document.pdf"` với đường dẫn đến tệp PDF của bạn.
+Thay thế `"your_document.pdf"` với đường dẫn đến tệp PDF của bạn.
 
 ### Bước 4: Thêm dấu trang
 
- Sau khi tài liệu được tải, bạn có thể bắt đầu thêm dấu trang. Dấu trang được thêm vào`OutlineCollection` của tài liệu PDF. Sau đây là cách bạn có thể tạo dấu trang:
+Sau khi tài liệu được tải, bạn có thể bắt đầu thêm dấu trang. Dấu trang được thêm vào `OutlineCollection` của tài liệu PDF. Sau đây là cách bạn có thể tạo dấu trang:
 
 ```java
 OutlineCollection outlines = pdfDocument.getOutlines();
@@ -88,7 +90,7 @@ Trong hướng dẫn này, chúng ta đã học cách tạo dấu trang trong t�
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Cài đặt Aspose.PDF cho Java rất đơn giản. Truy cập trang tải xuống[đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp cho môi trường phát triển cụ thể của bạn.
+Cài đặt Aspose.PDF cho Java rất đơn giản. Truy cập trang tải xuống [đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp cho môi trường phát triển cụ thể của bạn.
 
 ### Tôi có thể tùy chỉnh giao diện của dấu trang không?
 
@@ -104,10 +106,12 @@ Có, bạn có thể tạo dấu trang liên kết đến các phần cụ thể
 
 ### Tôi có thể tìm thêm tài liệu và ví dụ ở đâu?
 
- Bạn có thể truy cập tài liệu toàn diện và nhiều ví dụ trên trang tài liệu Aspose[đây](https://reference.aspose.com/pdf/java/). Đây là nguồn tài nguyên giá trị để thành thạo Aspose.PDF cho Java.
+Bạn có thể truy cập tài liệu toàn diện và nhiều ví dụ trên trang tài liệu Aspose [đây](https://reference.aspose.com/pdf/java/). Đây là nguồn tài nguyên giá trị để thành thạo Aspose.PDF cho Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

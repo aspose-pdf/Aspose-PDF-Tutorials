@@ -1,14 +1,16 @@
 ---
-title: สร้างลิงก์ไปยังเอกสาร PDF อื่นโดยใช้ Java
-linktitle: สร้างลิงก์ไปยังเอกสาร PDF อื่นโดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีสร้างลิงก์เอกสาร PDF ใน Java ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการโต้ตอบกับ PDF
-weight: 14
-url: /th/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/
+"description": "เรียนรู้วิธีสร้างลิงก์เอกสาร PDF ใน Java ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการโต้ตอบกับ PDF"
+"linktitle": "สร้างลิงก์ไปยังเอกสาร PDF อื่นโดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "สร้างลิงก์ไปยังเอกสาร PDF อื่นโดยใช้ Java"
+"url": "/th/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างลิงก์ไปยังเอกสาร PDF อื่นโดยใช้ Java
@@ -62,7 +64,7 @@ pdfDocument.save("linked_document_with_text.pdf");
 
 ## การปรับแต่งรูปลักษณ์ของลิงก์
 
-Aspose.PDF สำหรับ Java ช่วยให้คุณปรับแต่งลักษณะของลิงก์ได้ คุณสามารถเปลี่ยนสี ขอบ และลักษณะภาพอื่นๆ เพื่อให้ตรงกับรูปแบบของเอกสารของคุณได้
+Aspose.PDF สำหรับ Java ช่วยให้คุณสามารถปรับแต่งลักษณะของลิงก์ได้ คุณสามารถเปลี่ยนสี ขอบ และลักษณะภาพอื่นๆ เพื่อให้ตรงกับรูปแบบของเอกสารของคุณได้
 
 ```java
 // รหัส Java สำหรับปรับแต่งรูปลักษณ์ของลิงก์
@@ -87,7 +89,7 @@ link.getBorder().setWidth(1);
 
 ### ฉันสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้อย่างไร
 
- คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ที่[ที่นี่](https://releases.aspose.com/pdf/java/).
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ที่ [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ### ฉันสามารถใช้ Aspose.PDF สำหรับ Java ในโครงการเชิงพาณิชย์ได้หรือไม่
 
@@ -99,14 +101,16 @@ link.getBorder().setWidth(1);
 
 ### ฉันจะเพิ่มลิงก์ไปยังหน้าเฉพาะภายในเอกสาร PDF ได้อย่างไร
 
- คุณสามารถใช้`GoToAction`คลาสใน Aspose.PDF สำหรับ Java เพื่อสร้างลิงก์ไปยังหน้าเฉพาะภายในเอกสาร PDF โปรดดูเอกสารประกอบสำหรับตัวอย่างโดยละเอียด
+คุณสามารถใช้ `GoToAction` คลาสใน Aspose.PDF สำหรับ Java เพื่อสร้างลิงก์ไปยังหน้าเฉพาะภายในเอกสาร PDF โปรดดูเอกสารประกอบสำหรับตัวอย่างโดยละเอียด
 
 ### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของลิงค์เพิ่มเติมได้หรือไม่
 
 แน่นอน! Aspose.PDF สำหรับ Java มีตัวเลือกมากมายสำหรับการปรับแต่งรูปลักษณ์ของลิงก์ รวมถึงสี สไตล์ และอื่นๆ อีกมากมาย โปรดดูเอกสารประกอบสำหรับเทคนิคการปรับแต่งขั้นสูง
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

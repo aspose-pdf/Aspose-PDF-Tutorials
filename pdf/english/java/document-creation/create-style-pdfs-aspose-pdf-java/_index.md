@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Comprehensive Guide: Create and Style PDFs with Aspose.PDF for Java
 
@@ -164,7 +166,11 @@ Feel free to implement these techniques in your projects!
 - [Free Trial](https://releases.aspose.com/pdf/java/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

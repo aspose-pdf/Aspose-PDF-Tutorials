@@ -1,34 +1,36 @@
 ---
-title: Elementos da estrutura do link
-linktitle: Elementos da estrutura do link
-second_title: Referência da API do Aspose.PDF para .NET
-description: Aprenda a criar elementos de estrutura de links em um PDF usando Aspose.PDF para .NET. Guia passo a passo para adicionar links acessíveis, imagens e validação de conformidade.
-weight: 120
-url: /pt/net/programming-with-tagged-pdf/link-structure-elements/
+"description": "Aprenda a criar elementos de estrutura de links em um PDF usando o Aspose.PDF para .NET. Guia passo a passo para adicionar links acessíveis, imagens e validação de conformidade."
+"linktitle": "Elementos da estrutura de links"
+"second_title": "Referência da API Aspose.PDF para .NET"
+"title": "Elementos da estrutura de links"
+"url": "/pt/net/programming-with-tagged-pdf/link-structure-elements/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Elementos da estrutura do link
+# Elementos da estrutura de links
 
 ## Introdução
 
-Criar e gerenciar elementos de estrutura de link dentro de um PDF pode ser crucial para documentos que exigem acessibilidade e navegação suave. Neste tutorial, mostraremos como fazer isso usando o Aspose.PDF para .NET. Se você é novo no Aspose.PDF ou na manipulação de PDF em geral, não se preocupe. Explicarei cada etapa em detalhes para que você possa acompanhar facilmente!
+Criar e gerenciar elementos de estrutura de links em um PDF pode ser crucial para documentos que exigem acessibilidade e navegação fluida. Neste tutorial, mostraremos como fazer isso usando o Aspose.PDF para .NET. Se você é novo no Aspose.PDF ou na manipulação de PDFs em geral, não se preocupe. Explicarei cada passo em detalhes para que você possa acompanhar facilmente!
 
 ## Pré-requisitos  
 
-Antes de mergulharmos na codificação, vamos esclarecer algumas coisas primeiro. Esses são os requisitos básicos para garantir uma experiência de desenvolvimento tranquila.
+Antes de começarmos a programar, vamos esclarecer algumas coisas. Estes são os requisitos básicos para garantir uma experiência de desenvolvimento tranquila.
 
-1.  Aspose.PDF para .NET: Você pode baixar a versão mais recente[aqui](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF para .NET: Você pode baixar a versão mais recente [aqui](https://releases.aspose.com/pdf/net/).
 2. Ambiente de desenvolvimento .NET: seja o Visual Studio ou qualquer IDE compatível com .NET, tenha-o instalado e pronto.
-3.  Licença Aspose: Você pode usar a versão de teste gratuita do Aspose.PDF[aqui](https://releases.aspose.com/) ou adquirir um[licença temporária](https://purchase.aspose.com/temporary-license/).
+3. Licença Aspose: Você pode usar a versão de teste gratuita do Aspose.PDF [aqui](https://releases.aspose.com/) ou adquirir um [licença temporária](https://purchase.aspose.com/temporary-license/).
 4. Conhecimento básico de C#: Trabalharemos com algum código C#, então entender os fundamentos tornará as coisas muito mais fáceis.
 
 ## Pacotes de importação
 
-Você precisará importar alguns pacotes antes de escrever o código para elementos de estrutura de link. Comece referenciando as bibliotecas Aspose.PDF necessárias em seu projeto:
+Você precisará importar alguns pacotes antes de escrever o código para os elementos da estrutura de links. Comece referenciando as bibliotecas Aspose.PDF necessárias no seu projeto:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -41,7 +43,7 @@ using System.Text;
 
 Essas importações nos permitem trabalhar com documentos PDF, adicionar tags e gerenciar elementos de estrutura.
 
-Agora criaremos um documento PDF com diferentes tipos de estruturas de links, e cada etapa será detalhada para ajudar você a entender o processo completamente.
+Agora, criaremos um documento PDF com diferentes tipos de estruturas de links, e cada etapa será detalhada para ajudar você a entender o processo completamente.
 
 ## Etapa 1: Inicializar o documento  
 
@@ -61,9 +63,9 @@ Document document = new Document();
 ITaggedContent taggedContent = document.TaggedContent;
 ```
   
- Aqui, estamos inicializando o`Document` objeto, que representa nosso arquivo PDF. Também recuperamos o`TaggedContent` interface, permitindo-nos adicionar elementos de estrutura como parágrafos, links e imagens.
+Aqui, estamos inicializando o `Document` objeto, que representa nosso arquivo PDF. Também recuperamos o `TaggedContent` interface, permitindo-nos adicionar elementos de estrutura, como parágrafos, links e imagens.
 
-## Etapa 2: Defina o título e o idioma  
+## Etapa 2: definir título e idioma  
 
 Cada PDF deve ter um título e uma configuração de idioma, especialmente se você deseja estar em conformidade com os padrões PDF/UA.
 
@@ -73,7 +75,7 @@ taggedContent.SetTitle("Link Elements Example");
 taggedContent.SetLanguage("en-US");
 ```
   
-Esta etapa garante que seu PDF tenha um título significativo e defina o idioma como inglês (`en-US`). Isso é essencial para acessibilidade e garante que leitores de tela ou outras tecnologias assistivas possam interpretar seu documento corretamente.
+Esta etapa garante que seu PDF tenha um título significativo e defina o idioma como inglês (`en-US`). Isso é essencial para a acessibilidade e garante que leitores de tela ou outras tecnologias assistivas possam interpretar seu documento corretamente.
 
 ## Etapa 3: Criar e anexar parágrafos  
 
@@ -105,7 +107,7 @@ link1.SetText("Google");
 link1.AlternateDescriptions = "Link to Google";
 ```
   
-Nesta etapa, criamos um elemento de link, definimos seu hiperlink como "http://google.com" e fornecemos texto ("Google") para o link. Também adicionamos uma descrição alternativa para garantir acessibilidade.
+Nesta etapa, criamos um elemento de link, definimos seu hiperlink como "http://google.com" e fornecemos o texto ("Google") para o link. Também adicionamos uma descrição alternativa para garantir a acessibilidade.
 
 ## Etapa 5: Adicionando um link com spans  
 
@@ -145,9 +147,9 @@ link4.SetText("The multiline link: Google Google Google Google Google...");
 link4.AlternateDescriptions = "Link to Google (multiline)";
 ```
   
-Nesse caso, criamos um link multilinha simplesmente definindo um valor de texto longo, e o texto será automaticamente quebrado em várias linhas.
+Nesse caso, criamos um link multilinha simplesmente definindo um valor de texto longo, e o texto será quebrado automaticamente em várias linhas.
 
-## Etapa 7: Adicione uma imagem ao link  
+## Etapa 7: adicione uma imagem ao link  
 
 Por fim, você também pode adicionar imagens dentro de um link.
 
@@ -169,7 +171,7 @@ link5.AppendChild(figure5);
 link5.AlternateDescriptions = "Link to Google";
 ```
   
-Esta etapa demonstra como você pode aprimorar seus links com uma imagem. Neste caso, adicionamos um ícone do Google dentro do link. Também garantimos a acessibilidade definindo texto alternativo para a imagem.
+Esta etapa demonstra como você pode aprimorar seus links com uma imagem. Neste caso, adicionamos um ícone do Google dentro do link. Também garantimos a acessibilidade definindo um texto alternativo para a imagem.
 
 ## Etapa 8: Validar PDF para conformidade  
 
@@ -188,7 +190,7 @@ Salvamos o documento e o validamos de acordo com o padrão PDF/UA, o que garante
 
 ## Conclusão  
 
-Neste tutorial, abordamos como criar documentos PDF estruturados usando Aspose.PDF para .NET. Desde adicionar hiperlinks básicos até estruturas mais complexas como spans, links multilinha e até imagens, este guia fornece uma base sólida para manipular elementos de link em seus PDFs. Com o benefício adicional da conformidade com PDF/UA, agora você está equipado para criar PDFs acessíveis e navegáveis.
+Neste tutorial, abordamos como criar documentos PDF estruturados usando o Aspose.PDF para .NET. Da adição de hiperlinks básicos a estruturas mais complexas, como extensões, links multilinha e até imagens, este guia fornece uma base sólida para manipular elementos de link em seus PDFs. Com o benefício adicional da compatibilidade com PDF/UA, você agora está preparado para criar PDFs acessíveis e navegáveis.
 
 ## Perguntas frequentes
 
@@ -205,10 +207,12 @@ O documento não exibirá a imagem e poderá gerar um erro durante a renderizaç
 Sim, você pode aplicar estilos de texto usando os elementos span.
 
 ### É possível criar links internos para documentos?  
-Absolutamente! Você pode vincular a seções específicas dentro do mesmo documento.
+Com certeza! Você pode criar links para seções específicas dentro do mesmo documento.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Đặt ngày hết hạn trong tệp PDF
-linktitle: Đặt ngày hết hạn trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách đặt ngày hết hạn trong tệp PDF bằng Aspose.PDF cho .NET. Tăng cường bảo mật tài liệu với hướng dẫn từng bước này.
-weight: 300
-url: /vi/net/programming-with-document/setexpirydate/
+"description": "Tìm hiểu cách đặt ngày hết hạn trong tệp PDF bằng Aspose.PDF cho .NET. Tăng cường bảo mật tài liệu với hướng dẫn từng bước này."
+"linktitle": "Đặt ngày hết hạn trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đặt ngày hết hạn trong tệp PDF"
+"url": "/vi/net/programming-with-document/setexpirydate/"
+"weight": 300
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt ngày hết hạn trong tệp PDF
@@ -22,7 +24,7 @@ Trong thời đại kỹ thuật số ngày nay, việc quản lý và bảo m�
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Có thể là Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
-2.  Aspose.PDF cho .NET: Bạn cần cài đặt thư viện Aspose.PDF. Nếu bạn chưa thực hiện việc này, bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần cài đặt thư viện Aspose.PDF. Nếu bạn chưa thực hiện việc này, bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#. Nếu bạn mới làm quen với C#, đừng lo lắng! Chúng tôi sẽ hướng dẫn bạn một cách đơn giản và dễ hiểu.
 
 ## Nhập gói
@@ -47,17 +49,17 @@ Trước tiên, bạn cần chỉ định đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. Giống như nói với chương trình của bạn, "Này, đây là nơi tôi lưu trữ các tệp của mình!"
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. Giống như nói với chương trình của bạn rằng, "Này, đây là nơi tôi lưu trữ các tệp của mình!"
 
 ## Bước 2: Khởi tạo đối tượng tài liệu
 
- Tiếp theo, bạn cần tạo một phiên bản mới của`Document` lớp. Đây là nơi bạn sẽ tạo tệp PDF của mình.
+Tiếp theo, bạn cần tạo một phiên bản mới của `Document` lớp. Đây là nơi bạn sẽ tạo tệp PDF của mình.
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
- Nghĩ về`Document` đối tượng như một tờ giấy trắng. Bạn có thể thêm nội dung vào đó theo ý thích!
+Nghĩ về `Document` đối tượng như một tờ giấy trắng. Bạn có thể thêm nội dung vào đó theo ý thích!
 
 ## Bước 3: Thêm một trang vào PDF
 
@@ -118,7 +120,7 @@ dataDir = dataDir + "SetExpiryDate_out.pdf";
 doc.Save(dataDir);
 ```
 
-Dòng này sẽ lưu tệp PDF của bạn vào thư mục được chỉ định với tên "SetExpiryDate_out.pdf". Giống như việc bạn đặt tác phẩm nghệ thuật đã hoàn thành vào trong khung vậy!
+Dòng này lưu tệp PDF của bạn vào thư mục được chỉ định với tên "SetExpiryDate_out.pdf". Giống như việc bạn đặt tác phẩm nghệ thuật đã hoàn thành vào trong khung vậy!
 
 ## Phần kết luận
 
@@ -130,19 +132,21 @@ Và bạn đã có nó! Bạn đã tạo thành công một tệp PDF có ngày 
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, bạn có thể sử dụng phiên bản dùng thử miễn phí của Aspose.PDF. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, bạn có thể sử dụng phiên bản dùng thử miễn phí của Aspose.PDF. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi mua Aspose.PDF?
-Bạn có thể mua Aspose.PDF bằng cách truy cập[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.PDF bằng cách truy cập [trang mua hàng](https://purchase.aspose.com/buy).
 
 ### Tôi phải làm sao nếu cần hỗ trợ?
-Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể nhận được giấy phép tạm thời cho Aspose.PDF không?
- Có, bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể yêu cầu giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

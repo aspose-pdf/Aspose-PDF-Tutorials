@@ -1,37 +1,39 @@
 ---
-title: 在 PDF 文件中新增重複列
-linktitle: 在 PDF 文件中新增重複列
-second_title: Aspose.PDF for .NET API 參考
-description: 了解如何使用 Aspose.PDF for .NET 將重複列新增至 PDF 文件。帶有範例和程式碼的逐步指南。非常適合開發人員。
-weight: 20
-url: /zh-hant/net/programming-with-tables/add-repeating-column/
+"description": "了解如何使用 Aspose.PDF for .NET 在 PDF 文件中新增重複列。帶有範例和程式碼的逐步指南。非常適合開發人員。"
+"linktitle": "在 PDF 文件中新增重複列"
+"second_title": "Aspose.PDF for .NET API參考"
+"title": "在 PDF 文件中新增重複列"
+"url": "/zh-hant/net/programming-with-tables/add-repeating-column/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 PDF 文件中新增重複列
 
 ## 介紹
 
-如果您正在處理 PDF 文件並需要新增重複列，那麼您來對地方了！使用 Aspose.PDF for .NET，您可以輕鬆管理 PDF 中的表單和內容。無論您是建立動態報告、發票或任何其他結構化文檔，重複列都可以改變組織資料的遊戲規則。讓我們深入了解如何在 PDF 文件中新增重複列的逐步指南。
+如果您正在處理 PDF 文件並需要新增重複列，那麼您來對地方了！使用 Aspose.PDF for .NET，您可以輕鬆管理 PDF 中的表單和內容。無論您建立的是動態報告、發票或任何其他結構化文檔，重複列都可以改變資料組織方式。讓我們深入了解如何在 PDF 文件中新增重複列的逐步指南。
 
 ## 先決條件
 
-在我們進入程式碼之前，讓我們確保您已完成所有設定：
+在我們進入程式碼之前，讓我們確保您已設定好一切：
 
 - Aspose.PDF for .NET：您需要在專案中安裝 Aspose.PDF for .NET 程式庫。
-- [下載 .NET 版 Aspose.PDF](https://releases.aspose.com/pdf/net/)
+- [下載 Aspose.PDF for .NET](https://releases.aspose.com/pdf/net/)
 - [免費試用](https://releases.aspose.com/)
-- 開發環境：確保您安裝了 .NET 相容 IDE，例如 Visual Studio。
-- 對 C# 的基本了解：雖然我們將分解所有內容，但對 C# 的基本了解將幫助您順利進行。
+- 開發環境：確保您安裝了與 .NET 相容的 IDE，例如 Visual Studio。
+- 對 C# 的基本了解：雖然我們會將所有內容分解，但對 C# 的基本了解將幫助您順利跟進。
   
-如果您還沒有 Aspose.PDF for .NET，您可以取得[臨時執照](https://purchase.aspose.com/temporary-license/)開始探索它的功能。
+如果您還沒有 Aspose.PDF for .NET，您可以取得 [臨時執照](https://purchase.aspose.com/temporary-license/) 開始探索其功能。
 
 ## 導入包
 
-首先，您需要從 Aspose.PDF for .NET 匯入必要的命名空間。操作方法如下：
+首先，您需要從 Aspose.PDF for .NET 匯入必要的命名空間。以下是操作方法：
 
 ```csharp
 using Aspose.Pdf;
@@ -40,33 +42,33 @@ using Aspose.Pdf.Text;
 
 這些套件提供了處理 PDF 文件和操作表格所需的基本類別和方法。
 
-現在，讓我們將該過程分解為多個步驟，以將重複列新增至 PDF 文件。跟著走吧！
+現在，讓我們將流程分解為多個步驟，以將重複列新增至 PDF 文件。繼續跟進！
 
-## 第 1 步：設定文檔目錄的路徑
+## 步驟 1：設定文檔目錄的路徑
 
-在建立或操作任何文件之前，我們需要定義生成的 PDF 的保存路徑。在您的 C# 專案中，將目錄路徑設定為檔案所在位置：
+在建立或操作任何文件之前，我們需要定義生成的 PDF 的保存路徑。在您的 C# 專案中，設定檔案所在目錄的路徑：
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outFile = dataDir + "AddRepeatingColumn_out.pdf";
 ```
 
-此路徑指向保存輸出 PDF 的目錄。代替`"YOUR DOCUMENT DIRECTORY"`與您機器上的實際路徑。
+此路徑指向將儲存輸出 PDF 的目錄。代替 `"YOUR DOCUMENT DIRECTORY"` 使用您機器上的實際路徑。
 
-## 第 2 步：建立新的 PDF 文檔
+## 步驟2：建立新的PDF文檔
 
-首先，實例化一個新的`Document`目的。這將作為 PDF 中所有頁面和內容的容器。
+首先，實例化一個新的 `Document` 目的。這將作為 PDF 中所有頁面和內容的容器。
 
 ```csharp
 Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
-在這裡，我們建立了一個新的 PDF 文件並向其中添加了一個空白頁。這`doc.Pages.Add()`方法將新頁面插入文件中。
+在這裡，我們建立了一個新的 PDF 文件並向其中添加了一個空白頁。這 `doc.Pages.Add()` 方法將新頁面插入文件中。
 
-## 第三步：實例化外表
+## 步驟 3：實例化外表
 
-接下來，我們創造一個外表。該表將跨越頁面的整個寬度，並用作其他表的容器，包括包含重複列的表。
+接下來，我們創造一個外表。該表將跨越整個頁面的寬度，並作為其他表的容器，包括包含重複列的表。
 
 ```csharp
 Aspose.Pdf.Table outerTable = new Aspose.Pdf.Table();
@@ -74,11 +76,11 @@ outerTable.ColumnWidths = "100%";
 outerTable.HorizontalAlignment = HorizontalAlignment.Left;
 ```
 
-我們已經設定了`ColumnWidths`屬性設定為“100%”，這意味著表格將延伸到整個頁面寬度。
+我們設定了 `ColumnWidths` 屬性為“100%”，表示表格將延伸至整個頁面寬度。
 
-## 第四步：建立內表
+## 步驟 4：建立內部表
 
-現在，讓我們建立內表，該表將具有重複列。這裡的關鍵屬性是`Broken`，這允許表在同一頁上繼續，並且`ColumnAdjustment`，它會自動調整列寬以適合內容。
+現在，讓我們建立具有重複列的內部表。這裡的關鍵屬性是 `Broken`，允許表格延續到同一頁，並且 `ColumnAdjustment`，它會自動調整列寬以適應內容。
 
 ```csharp
 Aspose.Pdf.Table mytable = new Aspose.Pdf.Table();
@@ -86,9 +88,9 @@ mytable.Broken = TableBroken.VerticalInSamePage;
 mytable.ColumnAdjustment = ColumnAdjustment.AutoFitToContent;
 ```
 
-該內部表將嵌套在外部表內。
+該內表將嵌套在外表內。
 
-## 第 5 步：將表格新增至頁面
+## 步驟 5：為頁面新增表格
 
 現在我們已經準備好了外表和內表，讓我們將它們添加到頁面中。此步驟確保表格包含在文件的結構中。
 
@@ -100,11 +102,11 @@ bodyCell.Paragraphs.Add(mytable);
 mytable.RepeatingColumnsCount = 5;
 ```
 
-在這裡，我們添加了`outerTable`到頁面，然後在外表中，我們嵌套`mytable`。另外，我們設定`RepeatingColumnsCount`到 5，指定新增資料時應重複的列數。
+在這裡，我們添加了 `outerTable` 到頁面，然後在外部表格中，我們嵌套了 `mytable`。此外，我們設置 `RepeatingColumnsCount` 到 5，指定新增資料時應重複多少列。
 
-## 第 6 步：新增標題行
+## 步驟 6：新增標題行
 
-現在是時候將標題添加到表中了。標題行提供資料上下文並幫助建立列。 
+現在是時候將標題添加到表中了。標題行提供了資料的背景並有助於建立列。 
 
 ```csharp
 Aspose.Pdf.Row row = mytable.Rows.Add();
@@ -124,9 +126,9 @@ row.Cells.Add("header 16");
 row.Cells.Add("header 17");
 ```
 
-此程式碼片段添加第一行（我們將用作標題），並使用包含“標題 1”、“標題 2”等文字的單元格填充它。
+此程式碼片段新增第一行（我們將使用它作為標題），並用包含「標題 1」、「標題 2」等文字的儲存格填滿它。
 
-## 第7步：新增資料行
+## 步驟 7：新增資料行
 
 最後，我們可以在表中添加一些資料。此循環動態建立行並用內容填充單元格：
 
@@ -151,41 +153,43 @@ for (int RowCounter = 0; RowCounter <= 5; RowCounter++)
 }
 ```
 
-此循環迭代六次，添加行並用相應的列資料填充每個單元格（例如，「col 1, 1」、「col 2, 2」等）。
+循環迭代六次，添加行並用相應的列資料填充每個單元格（例如，“col 1, 1”，“col 2, 2”等）。
 
-## 第 8 步：儲存文檔
+## 步驟8：儲存文檔
 
-新增所有行和列後，最後一步是將文件儲存到指定的檔案路徑。
+新增完所有行和列後，最後一步是將文件儲存到指定的檔案路徑。
 
 ```csharp
 doc.Save(outFile);
 ```
 
-您的文件現在已儲存為重複列！
+您的文件現已儲存，其中包含重複的列！
 
 ## 結論
 
-給你了！透過這些簡單的步驟，您可以使用 Aspose.PDF for .NET 建立具有重複列的 PDF 文件。透過利用巢狀表格的靈活性，您可以實現複雜的佈局，使您的 PDF 看起來專業且有條理。在您的下一個專案中嘗試一下，並探索 Aspose.PDF 的全部潛力來滿足您的 PDF 生成需求。
+就是這樣！透過這些簡單的步驟，您可以使用 Aspose.PDF for .NET 建立具有重複列的 PDF 文件。透過利用巢狀表的靈活性，您可以實現複雜的佈局，使您的 PDF 看起來專業且井然有序。在您的下一個專案中嘗試一下，並探索 Aspose.PDF 的全部潛力來滿足您的 PDF 生成需求。
 
 ## 常見問題解答
 
 ### 什麼是 Aspose.PDF for .NET？
-Aspose.PDF for .NET 是一個功能強大的程式庫，可讓開發人員以程式設計方式建立、編輯和管理 PDF 文件。
+Aspose.PDF for .NET 是一個強大的程式庫，可讓開發人員以程式設計方式建立、編輯和管理 PDF 文件。
 
 ### 我可以動態調整重複列的數量嗎？
-是的，您可以透過修改來更改重複列的數量`RepeatingColumnsCount`財產。
+是的，您可以透過修改 `RepeatingColumnsCount` 財產。
 
 ### 如何向 Aspose.PDF for .NET 申請許可證？
-您可以按照以下方式從文件或串流套用許可證[文件](https://reference.aspose.com/pdf/net/).
+您可以按照以下步驟從文件或流中套用許可證 [文件](https://reference。aspose.com/pdf/net/).
 
-### 是否可以將圖像新增至表格單元格？
-是的，Aspose.PDF for .NET 支援將各種類型的內容（包括影像）新增至表格儲存格。
+### 是否可以為表格單元格新增圖像？
+是的，Aspose.PDF for .NET 支援在表格單元格中新增各種類型的內容，包括圖片。
 
 ### 我可以進一步自訂表格佈局嗎？
-絕對地！ Aspose.PDF 提供了廣泛的自訂表格樣式的功能，包括邊框、填充、對齊方式等。
+絕對地！ Aspose.PDF 提供了用於自訂表格樣式的廣泛功能，包括邊框、填充、對齊等。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

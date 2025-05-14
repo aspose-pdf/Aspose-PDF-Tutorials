@@ -6,7 +6,9 @@ url: "/net/getting-started/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.PDF Getting Started Tutorials for .NET Developers
@@ -39,6 +41,9 @@ Learn how to seamlessly switch between trial and licensed modes for Aspose.PDF i
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

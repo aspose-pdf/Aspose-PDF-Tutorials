@@ -8,7 +8,9 @@ url: /net/licensing-aspose-pdf/load-license-from-file/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Load License From File
@@ -113,6 +115,7 @@ Yes, Aspose.PDF supports metered licensing, which allows you to pay only for the
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

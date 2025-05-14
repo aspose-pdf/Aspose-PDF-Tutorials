@@ -1,14 +1,16 @@
 ---
-title: Tìm kiếm văn bản và thêm siêu liên kết
-linktitle: Tìm kiếm văn bản và thêm siêu liên kết
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tìm kiếm văn bản và thêm siêu liên kết vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi.
-weight: 450
-url: /vi/net/programming-with-text/search-text-and-add-hyperlink/
+"description": "Tìm hiểu cách tìm kiếm văn bản và thêm siêu liên kết vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Tìm kiếm văn bản và thêm siêu liên kết"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tìm kiếm văn bản và thêm siêu liên kết"
+"url": "/vi/net/programming-with-text/search-text-and-add-hyperlink/"
+"weight": 450
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tìm kiếm văn bản và thêm siêu liên kết
@@ -22,7 +24,7 @@ Bạn đang tìm cách không chỉ để thao tác PDF mà còn cải thiện c
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để theo dõi. Sau đây là danh sách kiểm tra hữu ích:
 
 - .NET Framework: Bạn phải cài đặt .NET Framework trên máy của mình (phiên bản 4.0 trở lên).
-- Aspose.PDF cho Thư viện .NET: Đừng quên tải xuống và thêm tham chiếu đến thư viện Aspose.PDF trong dự án của bạn. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho Thư viện .NET: Đừng quên tải xuống và thêm tham chiếu đến thư viện Aspose.PDF trong dự án của bạn. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 - IDE: Bạn sẽ cần một Môi trường phát triển tích hợp (IDE) như Visual Studio để viết và chạy mã.
 - Tệp PDF mẫu: Lấy tệp PDF mẫu mà bạn có thể kiểm tra mã. Bạn có thể tạo tệp PDF đơn giản hoặc sử dụng một trong các tài liệu hiện có của mình.
 
@@ -48,17 +50,17 @@ Bây giờ chúng ta đã thiết lập xong, đã đến lúc hành động. Ch
 
 ### Bước 1: Thiết lập thư mục tài liệu của bạn
 
-Đầu tiên, bạn cần phải chỉ định nơi lưu trữ các tệp PDF của mình. Sửa đổi`dataDir` biến để trỏ đến thư mục tài liệu của bạn. Đây là cách bạn thực hiện:
+Đầu tiên, bạn cần phải chỉ định nơi lưu trữ các tệp PDF của mình. Sửa đổi `dataDir` biến để trỏ đến thư mục tài liệu của bạn. Đây là cách bạn thực hiện:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế tới tài liệu của bạn.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế tới tài liệu của bạn.
 
 ### Bước 2: Tạo TextFragmentAbsorber
 
- Tiếp theo, chúng ta cần một công cụ để tìm văn bản chúng ta muốn liên kết. Nhập`TextFragmentAbsorber`. Anh chàng nhỏ bé này sẽ giúp chúng ta tìm kiếm mẫu văn bản cụ thể trong tệp PDF của mình.
+Tiếp theo, chúng ta cần một công cụ để tìm văn bản chúng ta muốn liên kết. Nhập `TextFragmentAbsorber`. Anh chàng nhỏ bé này sẽ giúp chúng ta tìm kiếm mẫu văn bản cụ thể trong tệp PDF của mình.
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber("\\d{4}-\\d{4}");
@@ -68,7 +70,7 @@ TextFragmentAbsorber absorber = new TextFragmentAbsorber("\\d{4}-\\d{4}");
 
 ### Bước 3: Bật Tìm kiếm biểu thức chính quy
 
- Chúng tôi đã sử dụng biểu thức chính quy để tìm mẫu văn bản của mình, nhưng chúng tôi cần đảm bảo`absorber` biết nó đã được bật. Điều này rất quan trọng để nó có thể tìm kiếm đúng cách.
+Chúng tôi đã sử dụng biểu thức chính quy để tìm mẫu văn bản của mình, nhưng chúng tôi cần đảm bảo `absorber` biết nó đã được bật. Điều này rất quan trọng để nó có thể tìm kiếm đúng cách.
 
 ```csharp
 absorber.TextSearchOptions = new TextSearchOptions(true);
@@ -76,7 +78,7 @@ absorber.TextSearchOptions = new TextSearchOptions(true);
 
 ### Bước 4: Khởi tạo PdfContentEditor
 
- Bây giờ chúng ta đã có bộ hấp thụ sẵn sàng, chúng ta cần một`PdfContentEditor` để làm việc với tệp PDF của chúng tôi. Lớp này cho phép chúng tôi liên kết với PDF và thao tác với nó.
+Bây giờ chúng ta đã có bộ hấp thụ sẵn sàng, chúng ta cần một `PdfContentEditor` để làm việc với tệp PDF của chúng tôi. Lớp này cho phép chúng tôi liên kết với PDF và thao tác với nó.
 
 ```csharp
 PdfContentEditor editor = new PdfContentEditor();
@@ -90,7 +92,7 @@ Sau khi trình chỉnh sửa nội dung đã sẵn sàng, đã đến lúc liên
 editor.BindPdf(dataDir + "SearchRegularExpressionPage.pdf");
 ```
 
- Hãy chắc chắn thay thế`"SearchRegularExpressionPage.pdf"` bằng tên tệp PDF của bạn.
+Hãy chắc chắn thay thế `"SearchRegularExpressionPage.pdf"` bằng tên tệp PDF của bạn.
 
 ### Bước 6: Chấp nhận Absorber cho Trang
 
@@ -160,19 +162,21 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn đã h�
 Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, thao tác và quản lý tài liệu PDF trong các ứng dụng .NET.
 
 ### Làm thế nào tôi có thể tải xuống Aspose.PDF cho .NET?  
- Bạn có thể tải xuống thư viện[đây](https://releases.aspose.com/pdf/net/).
+Bạn có thể tải xuống thư viện [đây](https://releases.aspose.com/pdf/net/).
 
 ### Tôi có thể dùng thử Aspose.PDF miễn phí không?  
- Chắc chắn rồi! Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Có hỗ trợ cho các sản phẩm Aspose không?  
- Có, bạn có thể tìm thấy sự hỗ trợ và thảo luận của cộng đồng[đây](https://forum.aspose.com/c/pdf/10).
+Có, bạn có thể tìm thấy sự hỗ trợ và thảo luận của cộng đồng [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Làm thế nào tôi có thể xin được giấy phép tạm thời cho Aspose.PDF?  
- Bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

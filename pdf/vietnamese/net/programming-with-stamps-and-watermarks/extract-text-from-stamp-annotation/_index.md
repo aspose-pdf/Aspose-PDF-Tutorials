@@ -1,14 +1,16 @@
 ---
-title: Trích xuất văn bản từ chú thích tem
-linktitle: Trích xuất văn bản từ chú thích tem
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất văn bản từ chú thích tem trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này, kèm theo ví dụ mã chi tiết.
-weight: 80
-url: /vi/net/programming-with-stamps-and-watermarks/extract-text-from-stamp-annotation/
+"description": "Tìm hiểu cách trích xuất văn bản từ chú thích tem trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này, kèm theo ví dụ mã chi tiết."
+"linktitle": "Trích xuất văn bản từ chú thích tem"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Trích xuất văn bản từ chú thích tem"
+"url": "/vi/net/programming-with-stamps-and-watermarks/extract-text-from-stamp-annotation/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất văn bản từ chú thích tem
@@ -21,7 +23,7 @@ Khi làm việc với các tệp PDF, việc trích xuất dữ liệu cụ th�
 
 Trước khi bắt đầu hướng dẫn, bạn cần chuẩn bị một số thứ sau:
 
--  Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt Aspose.PDF cho .NET. Bạn có thể[tải phiên bản mới nhất tại đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt Aspose.PDF cho .NET. Bạn có thể [tải phiên bản mới nhất tại đây](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Hướng dẫn này giả định rằng bạn đang sử dụng Visual Studio làm môi trường phát triển tích hợp (IDE).
 - Kiến thức cơ bản về C#: Bạn phải có hiểu biết cơ bản về lập trình C#.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "test.pdf");
 ```
 
- Ở đây, chúng tôi đang sử dụng`Document` lớp do Aspose.PDF cung cấp để mở và tương tác với tệp PDF.`dataDir` biến đại diện cho đường dẫn đến tệp của bạn. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ.
+Ở đây, chúng tôi đang sử dụng `Document` lớp do Aspose.PDF cung cấp để mở và tương tác với tệp PDF. `dataDir` biến đại diện cho đường dẫn đến tệp của bạn. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ.
 
 ## Bước 2: Xác định chú thích tem
 
@@ -63,7 +65,7 @@ StampAnnotation annot = doc.Pages[1].Annotations[3] as StampAnnotation;
 Trong dòng mã này:
 - `doc.Pages[1]`: Truy cập trang đầu tiên của tài liệu.
 - `Annotations[3]`: Chỉ chú thích thứ tư trên trang (vì quá trình lập chỉ mục bắt đầu từ 0).
-- `as StampAnnotation` : Đưa chú thích vào một`StampAnnotation` đối tượng, đây là loại chú thích cụ thể mà chúng ta đang xử lý.
+- `as StampAnnotation`: Đưa chú thích vào một `StampAnnotation` đối tượng, đây là loại chú thích cụ thể mà chúng ta đang xử lý.
 
 ## Bước 3: Tạo một trình hấp thụ văn bản
 
@@ -73,7 +75,7 @@ Trong dòng mã này:
 TextAbsorber ta = new TextAbsorber();
 ```
 
- Các`TextAbsorber` Lớp này được thiết kế để trích xuất văn bản từ bất kỳ phần nào của tài liệu và chúng ta sẽ sử dụng nó để nhắm mục tiêu vào giao diện chú thích.
+Các `TextAbsorber` Lớp này được thiết kế để trích xuất văn bản từ bất kỳ phần nào của tài liệu và chúng ta sẽ sử dụng nó để nhắm mục tiêu vào giao diện chú thích.
 
 ## Bước 4: Trích xuất Giao diện của Chú thích Tem
 
@@ -88,13 +90,13 @@ XForm ap = annot.Appearance["N"];
 
 ## Bước 5: Trích xuất nội dung văn bản
 
- Bây giờ chúng ta đã có giao diện, chúng ta có thể sử dụng`TextAbsorber` để xem giao diện và chụp văn bản.
+Bây giờ chúng ta đã có giao diện, chúng ta có thể sử dụng `TextAbsorber` để xem giao diện và chụp văn bản.
 
 ```csharp
 ta.Visit(ap);
 ```
 
- Các`Visit` phương pháp cho phép`TextAbsorber` để phân tích giao diện và trích xuất bất kỳ nội dung văn bản nào được nhúng trong đó.
+Các `Visit` phương pháp cho phép `TextAbsorber` để phân tích giao diện và trích xuất bất kỳ nội dung văn bản nào được nhúng trong đó.
 
 ## Bước 6: Hiển thị văn bản đã trích xuất
 
@@ -125,10 +127,12 @@ Có, bạn có thể trích xuất hình ảnh từ chú thích tem bằng các 
 Aspose.PDF cho .NET cung cấp nhiều tính năng bao gồm chỉnh sửa văn bản, xử lý trường biểu mẫu, chuyển đổi tài liệu và nhiều tính năng khác.
 
 ### Aspose.PDF cho .NET có miễn phí không?  
- Aspose.PDF cho .NET cung cấp bản dùng thử miễn phí, nhưng để truy cập toàn bộ các tính năng, bạn sẽ cần mua giấy phép. Bạn cũng có thể đăng ký[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF cho .NET cung cấp bản dùng thử miễn phí, nhưng để truy cập toàn bộ các tính năng, bạn sẽ cần mua giấy phép. Bạn cũng có thể đăng ký [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

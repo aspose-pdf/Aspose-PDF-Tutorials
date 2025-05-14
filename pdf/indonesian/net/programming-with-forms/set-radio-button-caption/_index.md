@@ -1,14 +1,16 @@
 ---
-title: Mengatur Judul Tombol Radio
-linktitle: Mengatur Judul Tombol Radio
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengatur teks tombol radio dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda dalam memuat, memodifikasi, dan menyimpan formulir PDF Anda.
-weight: 280
-url: /id/net/programming-with-forms/set-radio-button-caption/
+"description": "Pelajari cara mengatur teks tombol radio dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda dalam memuat, memodifikasi, dan menyimpan formulir PDF Anda."
+"linktitle": "Mengatur Judul Tombol Radio"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Mengatur Judul Tombol Radio"
+"url": "/id/net/programming-with-forms/set-radio-button-caption/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur Judul Tombol Radio
@@ -26,7 +28,7 @@ Sebelum menyelami kode, ada beberapa hal yang perlu Anda pastikan:
 3. Contoh Formulir PDF: Untuk tutorial ini, Anda memerlukan contoh formulir PDF dengan tombol radio. Anda dapat menggunakan formulir PDF yang sudah ada atau membuat yang baru dengan tombol radio.
 4. Pengetahuan Dasar C#: Panduan ini mengasumsikan Anda memiliki pemahaman dasar tentang konsep pemrograman C# dan .NET.
 
- Jika Anda belum menginstal Aspose.PDF untuk .NET atau Anda memerlukan lisensi sementara, Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/) atau[dapatkan lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Jika Anda belum menginstal Aspose.PDF untuk .NET atau Anda memerlukan lisensi sementara, Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/) atau [dapatkan lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ## Paket Impor
 
@@ -43,7 +45,7 @@ Pastikan Anda telah menambahkan paket-paket ini ke proyek Anda melalui NuGet ata
 
 ## Langkah 1: Muat Formulir PDF
 
- Pertama, Anda perlu memuat formulir PDF yang berisi tombol radio.`Aspose.Pdf.Facades.Form`class digunakan untuk tujuan ini. Berikut cara melakukannya:
+Pertama, Anda perlu memuat formulir PDF yang berisi tombol radio. `Aspose.Pdf.Facades.Form` class digunakan untuk tujuan ini. Berikut cara melakukannya:
 
 ```csharp
 // Tentukan jalur ke direktori dokumen Anda
@@ -72,11 +74,11 @@ foreach (var item in form1.FieldNames)
 
 Dalam lingkaran ini:
 - `FieldNames` menyediakan daftar semua nama bidang dalam PDF.
-- `GetButtonOptionValues(item)` mengambil opsi yang tersedia untuk setiap tombol radio.
+- `GetButtonOptionValues(item)` mengambil pilihan yang tersedia untuk setiap tombol radio.
 
 ## Langkah 3: Ubah Opsi Tombol Radio
 
- Setelah Anda mengidentifikasi bidang tombol radio, Anda dapat mengubah opsinya. Untuk ini, Anda perlu mengubah bidang ke`RadioButtonField` dan memperbarui opsinya:
+Setelah Anda mengidentifikasi bidang tombol radio, Anda dapat mengubah opsinya. Untuk ini, Anda perlu mengubah bidang ke `RadioButtonField` dan memperbarui opsinya:
 
 ```csharp
     if (item.Contains("radio1"))
@@ -89,11 +91,11 @@ Dalam lingkaran ini:
 
 Di Sini:
 - Kami memeriksa apakah nama bidang berisi "radio1" untuk mengidentifikasi bidang tombol radio tertentu yang ingin kami ubah.
-- `RadioButtonField`dilemparkan dari bidang formulir untuk membuat modifikasi tertentu.
+- `RadioButtonField` dilemparkan dari bidang formulir untuk membuat modifikasi tertentu.
 
 ## Langkah 4: Mengatur Judul untuk Tombol Radio
 
- Untuk mengatur atau memperbarui judul tombol radio, Anda perlu membuat`TextFragment` dan gunakan`TextBuilder` untuk menempatkannya di lokasi yang diinginkan:
+Untuk mengatur atau memperbarui judul tombol radio, Anda perlu membuat `TextFragment` dan gunakan `TextBuilder` untuk menempatkannya di lokasi yang diinginkan:
 
 ```csharp
         var updatedFragment = new Aspose.Pdf.Text.TextFragment("test123");
@@ -144,7 +146,7 @@ Memodifikasi teks tombol radio dalam formulir PDF menggunakan Aspose.PDF untuk .
 Ya, Anda dapat mengulangi semua bidang tombol radio dan menerapkan perubahan seperlunya.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF?
- Anda dapat memulai dengan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan jangka panjang.[Dapatkan lisensi di sini](https://purchase.aspose.com/buy).
+Anda dapat memulai dengan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan jangka panjang. [Dapatkan lisensi di sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana saya dapat menguji perubahan sebelum menyimpan PDF?
 Anda dapat melihat pratinjau PDF di lingkungan pengembangan Anda atau menggunakan penampil PDF untuk memeriksa modifikasi.
@@ -154,9 +156,11 @@ Aspose.PDF mendukung berbagai versi .NET. Pastikan Anda memeriksa kompatibilitas
 
 ### Bisakah saya memanipulasi kolom formulir lainnya dengan cara yang sama?
 Ya, teknik serupa dapat diterapkan pada jenis bidang formulir lain dalam dokumen PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

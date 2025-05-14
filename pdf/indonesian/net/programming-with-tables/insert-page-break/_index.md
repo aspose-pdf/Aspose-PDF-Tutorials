@@ -1,17 +1,19 @@
 ---
-title: Sisipkan Hentian Halaman dalam File PDF
-linktitle: Sisipkan Hentian Halaman dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menyisipkan pemisah halaman dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk pengelolaan PDF yang lancar.
-weight: 110
-url: /id/net/programming-with-tables/insert-page-break/
+"description": "Pelajari cara menyisipkan pemisah halaman dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk pengelolaan PDF yang lancar."
+"linktitle": "Sisipkan Hentian Halaman Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Sisipkan Hentian Halaman Dalam File PDF"
+"url": "/id/net/programming-with-tables/insert-page-break/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sisipkan Hentian Halaman dalam File PDF
+# Sisipkan Hentian Halaman Dalam File PDF
 
 ## Perkenalan
 
@@ -21,10 +23,10 @@ Pernahkah Anda bertanya-tanya bagaimana cara menambahkan pemisah halaman dalam f
 
 Sebelum menyelami kode, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.PDF untuk .NET: Unduh pustaka dari[Unduhan Aspose.PDF](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Unduh pustaka dari [Unduhan Aspose.PDF](https://releases.aspose.com/pdf/net/).
 2. IDE: Anda memerlukan IDE yang kompatibel dengan .NET seperti Visual Studio.
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework.
-4.  Lisensi: Anda dapat membeli lisensi dari[Aspose](https://purchase.aspose.com/buy) atau menggunakan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+4. Lisensi: Anda dapat membeli lisensi dari [Asumsikan](https://purchase.aspose.com/buy) atau menggunakan lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 5. Pengetahuan dasar C#: Keakraban dengan C# akan membantu Anda mengikutinya dengan mudah.
 
 ## Mengimpor Ruang Nama
@@ -38,13 +40,13 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-Impor ini menghadirkan kelas yang diperlukan untuk memanipulasi dokumen PDF dan menangani teks dalam dokumen tersebut.
+Impor ini menghadirkan kelas-kelas yang diperlukan untuk memanipulasi dokumen PDF dan menangani teks dalam dokumen-dokumen tersebut.
 
 Setelah semuanya siap, mari kita bahas proses penyisipan pemisah halaman dalam dokumen PDF menggunakan tabel. Kami akan membagi tutorial ini menjadi beberapa langkah mudah diikuti untuk memastikan Anda memahami prosesnya secara menyeluruh.
 
 ## Langkah 1: Buat Instansiasi Dokumen
 
- Langkah pertama dalam bekerja dengan file PDF apa pun menggunakan Aspose.PDF adalah membuat`Document` objek. Ini bertindak sebagai fondasi untuk berkas PDF kita.
+Langkah pertama dalam bekerja dengan file PDF apa pun menggunakan Aspose.PDF adalah membuat `Document` objek. Ini bertindak sebagai fondasi untuk berkas PDF kita.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -54,18 +56,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Di sini, kita tentukan direktori tempat PDF kita akan disimpan, lalu buat yang baru`Document` objek. Objek ini akan mewakili berkas PDF yang akan kita tambahkan kontennya.
+Di sini, kita tentukan direktori tempat PDF kita akan disimpan, lalu buat yang baru `Document` objek. Objek ini akan mewakili berkas PDF yang akan kita tambahkan kontennya.
 
 ## Langkah 2: Tambahkan Halaman Baru ke Dokumen
 
- Ketika kita memiliki`Document` objek, kita perlu menambahkan halaman ke PDF tempat tabel dan konten kita akan ditempatkan.
+Ketika kita memiliki `Document` objek, kita perlu menambahkan halaman ke PDF tempat tabel dan konten kita akan ditempatkan.
 
 ```csharp
 // Tambahkan halaman ke koleksi halaman file PDF
 doc.Pages.Add();
 ```
 
- Itu`Pages.Add()` Metode ini digunakan untuk memasukkan halaman kosong baru ke dalam dokumen PDF. Di sinilah kita akan meletakkan tabel kita.
+Itu `Pages.Add()` Metode ini digunakan untuk memasukkan halaman kosong baru ke dalam dokumen PDF. Di sinilah kita akan meletakkan tabel kita.
 
 ## Langkah 3: Membuat dan Mengonfigurasi Tabel
 
@@ -78,14 +80,14 @@ Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
 // Mengatur gaya batas untuk tabel
 tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
-// Tetapkan gaya batas default untuk tabel dengan warna batas sebagai Merah
+// Tetapkan gaya batas default untuk tabel dengan warna batas Merah
 tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
 // Tentukan lebar kolom tabel
 tab.ColumnWidths = "100 100";
 ```
 
- Di sini, kita membuat`Table` objek dan menerapkan batas merah ke tabel serta sel-selnya. Lebar kolom diatur ke`100` unit masing-masing, yang mendefinisikan dua kolom berukuran sama.
+Di sini, kita membuat `Table` objek dan menerapkan batas merah ke tabel serta sel-selnya. Lebar kolom diatur ke `100` masing-masing unit, yang mendefinisikan dua kolom berukuran sama.
 
 ## Langkah 4: Isi Tabel dengan Baris dan Sel
 
@@ -122,7 +124,7 @@ Sekarang tabel kita sudah siap, kita perlu menambahkannya ke halaman yang kita b
 doc.Pages[1].Paragraphs.Add(tab);
 ```
 
- Tabel ditambahkan ke halaman pertama dokumen PDF menggunakan`Paragraphs.Add()` metode.
+Tabel ditambahkan ke halaman pertama dokumen PDF menggunakan `Paragraphs.Add()` metode.
 
 ## Langkah 6: Simpan Dokumen
 
@@ -136,7 +138,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir);
 ```
 
- Itu`Save()` metode menyimpan dokumen ke direktori yang ditentukan. Setelah PDF disimpan, konsol akan mencetak pesan konfirmasi yang menunjukkan jalur file.
+Itu `Save()` metode menyimpan dokumen ke direktori yang ditentukan. Setelah PDF disimpan, konsol akan mencetak pesan konfirmasi yang menunjukkan jalur file.
 
 ## Kesimpulan
 
@@ -148,19 +150,21 @@ Nah, itu dia! Anda telah berhasil menyisipkan pemisah halaman dalam dokumen PDF 
 Pemutus halaman dalam PDF tidak menciptakan garis yang terlihat. Pemutus halaman hanya memindahkan konten ke halaman baru.
 
 ### Bagaimana cara menambahkan header dan footer ke PDF saya?  
- Anda dapat dengan mudah menambahkan header dan footer menggunakan`HeaderFooter` kelas di Aspose.PDF.
+Anda dapat dengan mudah menambahkan header dan footer menggunakan `HeaderFooter` kelas di Aspose.PDF.
 
 ### Apakah Aspose.PDF untuk .NET mendukung penambahan tanda air?  
 Ya, Aspose.PDF memungkinkan Anda menambahkan tanda air teks dan gambar.
 
 ### Bisakah saya menyisipkan jeda halaman tanpa menggunakan tabel?  
- Tentu saja! Anda dapat memasukkan pemisah halaman dengan menambahkan halaman baru secara langsung atau menggunakan`IsInNewPage` properti dalam konteks lain.
+Tentu saja! Anda dapat memasukkan pemisah halaman dengan menambahkan halaman baru secara langsung atau menggunakan `IsInNewPage` properti dalam konteks lain.
 
 ### Apakah mungkin untuk mengelola tata letak PDF secara dinamis?  
 Ya, Aspose.PDF menyediakan berbagai alat untuk mengelola tata letak secara dinamis, termasuk menangani jeda halaman, margin, dan banyak lagi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

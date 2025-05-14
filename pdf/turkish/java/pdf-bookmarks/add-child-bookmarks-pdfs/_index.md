@@ -1,14 +1,16 @@
 ---
-title: PDF'lere Çocuk Yer İşaretleri Ekle
-linktitle: PDF'lere Çocuk Yer İşaretleri Ekle
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF kullanarak PDF belgelerini alt yer imleriyle nasıl geliştireceğinizi öğrenin. Gelişmiş gezinme ve organizasyon için kod örnekleriyle adım adım kılavuz.
-weight: 11
-url: /tr/java/pdf-bookmarks/add-child-bookmarks-pdfs/
+"description": "Java için Aspose.PDF kullanarak PDF belgelerini alt yer imleriyle nasıl geliştireceğinizi öğrenin. Gelişmiş gezinme ve organizasyon için kod örnekleriyle adım adım kılavuz."
+"linktitle": "PDF'lere Çocuk Yer İşaretleri Ekle"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF'lere Çocuk Yer İşaretleri Ekle"
+"url": "/tr/java/pdf-bookmarks/add-child-bookmarks-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'lere Çocuk Yer İşaretleri Ekle
@@ -23,7 +25,7 @@ Bu makalede, Java için Aspose.PDF kullanarak PDF belgelerine alt yer imlerinin 
 Uygulamaya geçmeden önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Sisteminizde yüklü Java geliştirme ortamı.
--  Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Ortamın Kurulması
 
@@ -47,7 +49,7 @@ pdfDocument.getPages().add();
 
 Bu örnekte yeni bir PDF belgesi oluşturduk ve buna iki sayfa ekledik.
 
-## Ebeveyn Yer İşaretleri Ekleme
+## Üst Yer İşaretleri Ekleme
 
 Üst yer imleri PDF belgenizdeki ana bölümler veya kategoriler olarak hizmet eder. Bazı üst yer imleri oluşturalım:
 
@@ -63,14 +65,14 @@ parentBookmark.setTitle("Parent Bookmark 2");
 outline.add(parentBookmark);
 ```
 
-İki adet üst yer imi ekledik: "Üst Yer İmi 1" ve "Üst Yer İmi 2."
+"Ebeveyn Yer İmi 1" ve "Ebeveyn Yer İmi 2" olmak üzere iki adet ebeveyn yer imi ekledik.
 
 ## Çocuk Yer İşaretleri Ekleme
 
 Şimdi, daha önce oluşturduğumuz ana yer imlerine alt yer imleri ekleme zamanı. Alt yer imleri, her ana yer imi içindeki belirli konuları veya alt bölümleri temsil eder. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```java
-// Ana Yer İmi 1'e çocuk yer imleri ekle
+// Çocuk yer imlerini Ana Yer İmi 1'e ekle
 OutlineItemCollection childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.1");
 parentBookmark.add(childBookmark);
@@ -79,7 +81,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Çocuk yer imlerini Ana Yer İmi 2'ye ekle
+// Ana Yer İmi 2'ye çocuk yer imleri ekle
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -110,7 +112,7 @@ GoToAction action = new GoToAction(pdfDocument.getPages().get_Item(1));
 childBookmark.setAction(action);
 ```
 
-Bu kodda, tıklandığında kullanıcıyı PDF'nin ikinci sayfasına götürecek bir "Git" eylemini bir alt yer imine ekledik.
+Bu kodda, tıklandığında kullanıcıyı PDF'in ikinci sayfasına götürecek bir "Git" eylemini bir alt yer imine ekledik.
 
 ## PDF'yi kaydetme
 
@@ -125,7 +127,7 @@ pdfDocument.save("output.pdf");
 
 ## Tam Kaynak Kodu
 
-İşte Java için Aspose.PDF'yi kullanarak bir PDF belgesine alt yer imleri eklemeye yönelik eksiksiz kaynak kodu:
+Aspose.PDF for Java kullanarak bir PDF belgesine alt yer imleri eklemek için tam kaynak kodu aşağıdadır:
 
 ```java
 // Bir PDF belgesini başlat
@@ -145,7 +147,7 @@ parentBookmark = new OutlineItemCollection(outline);
 parentBookmark.setTitle("Parent Bookmark 2");
 outline.add(parentBookmark);
 
-// Ana Yer İmi 1'e çocuk yer imleri ekle
+// Çocuk yer imlerini Ana Yer İmi 1'e ekle
 OutlineItemCollection childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.1");
 parentBookmark.add(childBookmark);
@@ -154,7 +156,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Çocuk yer imlerini Ana Yer İmi 2'ye ekle
+// Ana Yer İmi 2'ye çocuk yer imleri ekle
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -180,7 +182,7 @@ Aspose.PDF for Java kullanarak PDF'lere alt yer imleri eklemek, belgelerinizin g
 
 ### Java için Aspose.PDF'yi nasıl indirebilirim?
 
- Java için Aspose.PDF'yi web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+Java için Aspose.PDF'yi web sitesinden indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ### Tüm PDF görüntüleyicilerinde çocuk yer imleri destekleniyor mu?
 
@@ -197,9 +199,11 @@ Evet, metin stillerini, renkleri ve simgeleri belgenizin tasarımına uyacak şe
 ### Aspose.PDF for Java ticari projeler için uygun mudur?
 
 Evet, Aspose.PDF for Java hem kişisel hem de ticari projeler için uygundur ve PDF düzenleme ve oluşturma için geniş bir özellik yelpazesi sunar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

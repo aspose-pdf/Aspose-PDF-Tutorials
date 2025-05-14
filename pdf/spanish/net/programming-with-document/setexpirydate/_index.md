@@ -1,33 +1,35 @@
 ---
-title: Establecer fecha de caducidad en archivo PDF
-linktitle: Establecer fecha de caducidad en archivo PDF
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a establecer una fecha de vencimiento en archivos PDF con Aspose.PDF para .NET. Mejore la seguridad de los documentos con esta guía paso a paso.
-weight: 300
-url: /es/net/programming-with-document/setexpirydate/
+"description": "Aprenda a establecer una fecha de caducidad en archivos PDF con Aspose.PDF para .NET. Mejore la seguridad de sus documentos con esta guía paso a paso."
+"linktitle": "Establecer fecha de caducidad en archivo PDF"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Establecer fecha de caducidad en archivo PDF"
+"url": "/es/net/programming-with-document/setexpirydate/"
+"weight": 300
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Establecer fecha de caducidad en archivo PDF
 
 ## Introducción
 
-En la era digital actual, gestionar y proteger documentos es más importante que nunca. Imagina enviar un PDF que se vuelve automáticamente inaccesible después de una fecha determinada. Suena a magia, ¿verdad? Pues bien, con Aspose.PDF para .NET, puedes establecer fácilmente una fecha de caducidad para tus archivos PDF. Esta función es especialmente útil para documentos confidenciales que deben restringirse después de un período determinado. En este tutorial, te guiaremos paso a paso por el proceso de establecer una fecha de caducidad en un archivo PDF. Así que, ¡ponte a programar y manos a la obra!
+En la era digital actual, gestionar y proteger documentos es más crucial que nunca. Imagina enviar un PDF que se vuelve inaccesible automáticamente después de cierta fecha. ¿Suena mágico, verdad? Pues bien, con Aspose.PDF para .NET, puedes establecer fácilmente una fecha de caducidad para tus archivos PDF. Esta función es especialmente útil para documentos confidenciales que necesitan restringirse después de cierto tiempo. En este tutorial, te guiaremos paso a paso en el proceso de establecer una fecha de caducidad en un archivo PDF. ¡Así que, ponte a programar y manos a la obra!
 
 ## Prerrequisitos
 
 Antes de comenzar, hay algunas cosas que debes tener en cuenta:
 
-1. Entorno de desarrollo: asegúrese de tener configurado un entorno de desarrollo .NET. Puede ser Visual Studio o cualquier otro IDE que admita .NET.
-2.  Aspose.PDF para .NET: Es necesario tener instalada la biblioteca Aspose.PDF. Si aún no lo ha hecho, puede descargarla desde[aquí](https://releases.aspose.com/pdf/net/).
-3. Conocimientos básicos de C#: este tutorial supone que tienes conocimientos básicos de programación en C#. Si eres nuevo en C#, ¡no te preocupes! Lo haremos de forma sencilla y directa.
+1. Entorno de desarrollo: Asegúrese de tener configurado un entorno de desarrollo .NET. Este podría ser Visual Studio o cualquier otro IDE compatible con .NET.
+2. Aspose.PDF para .NET: Necesita tener instalada la biblioteca Aspose.PDF. Si aún no lo ha hecho, puede descargarla desde [aquí](https://releases.aspose.com/pdf/net/).
+3. Conocimientos básicos de C#: Este tutorial asume que tienes conocimientos básicos de programación en C#. Si eres nuevo en C#, ¡no te preocupes! Lo explicaremos de forma sencilla y directa.
 
 ## Importar paquetes
 
-Para comenzar a utilizar Aspose.PDF, debe importar los espacios de nombres necesarios en su proyecto de C#. Puede hacerlo de la siguiente manera:
+Para empezar a usar Aspose.PDF, necesitas importar los espacios de nombres necesarios en tu proyecto de C#. Así es como puedes hacerlo:
 
 ```csharp
 using System.IO;
@@ -39,49 +41,49 @@ using Aspose.Pdf.Text;
 
 Estos espacios de nombres le brindan acceso a las funcionalidades principales necesarias para trabajar con documentos PDF en Aspose.PDF.
 
-## Paso 1: Configurar el directorio de documentos
+## Paso 1: Configure su directorio de documentos
 
-Lo primero es lo primero: debes especificar la ruta del directorio de tus documentos. Aquí es donde se guardará el PDF resultante. 
+Primero, debe especificar la ruta del directorio de sus documentos. Aquí se guardará el PDF resultante. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde desea guardar su archivo PDF. Es como decirle a su programa: "¡Oye, aquí es donde guardo mis archivos!"
+Reemplazar `"YOUR DOCUMENT DIRECTORY"` Con la ruta donde quieres guardar tu archivo PDF. Es como decirle a tu programa: "¡Aquí guardo mis archivos!".
 
 ## Paso 2: Crear una instancia del objeto de documento
 
- A continuación, debe crear una nueva instancia del`Document` Clase. Este es tu lienzo donde crearás tu PDF.
+A continuación, debe crear una nueva instancia del `Document` Clase. Este es tu lienzo donde crearás tu PDF.
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
- Piensa en el`Document` objeto como una hoja de papel en blanco. ¡Puedes agregarle contenido como quieras!
+Piensa en el `Document` El objeto es una hoja en blanco. ¡Puedes añadirle el contenido que quieras!
 
 ## Paso 3: Agregar una página al PDF
 
-Ahora que ya tienes tu documento configurado, es momento de agregarle una página. Aquí es donde irá tu contenido.
+Ahora que tienes tu documento configurado, es hora de añadirle una página. Aquí es donde irá tu contenido.
 
 ```csharp
 doc.Pages.Add();
 ```
 
-Acabas de crear una nueva página en tu PDF. Es como agregar una nueva página en tu cuaderno donde puedes anotar tus pensamientos.
+Acabas de crear una nueva página en tu PDF. Es como añadir una nueva página a tu cuaderno donde puedes anotar tus ideas.
 
 ## Paso 4: Agregar texto a la página
 
-Hagamos que esta página sea un poco más interesante agregando algo de texto. Agregaremos un mensaje simple que diga "Hola mundo".
+Hagamos esta página un poco más interesante añadiendo texto. Añadiremos un simple mensaje de "Hola mundo".
 
 ```csharp
 doc.Pages[1].Paragraphs.Add(new TextFragment("Hello World..."));
 ```
 
-Esta línea de código agrega un fragmento de texto a la primera página de tu PDF. ¡Es como escribir un título en la parte superior de la página!
+Esta línea de código añade un fragmento de texto a la primera página de tu PDF. ¡Es como escribir un título en la parte superior de la página!
 
 ## Paso 5: Crear JavaScript para la fecha de caducidad
 
-Ahora viene la parte divertida. Crearás una acción de JavaScript que comprobará la fecha de caducidad del PDF. Si la fecha actual supera la fecha de caducidad, un mensaje alertará al usuario.
+¡Ahora viene la parte divertida! Crearás una acción de JavaScript que comprobará la fecha de caducidad del PDF. Si la fecha actual supera la fecha de caducidad, un mensaje alertará al usuario.
 
 ```csharp
 JavascriptAction javaScript = new JavascriptAction(
@@ -97,17 +99,17 @@ Esto es lo que está pasando:
 - Usted define el año y mes de vencimiento.
 - Obtendrás la fecha de hoy.
 - Compara la fecha de hoy con la fecha de vencimiento.
-- ¡Si la fecha de hoy ha pasado la fecha de vencimiento, aparece un mensaje!
+- ¡Si la fecha de hoy ha pasado la fecha de vencimiento, aparecerá un mensaje!
 
-## Paso 6: Establezca JavaScript como acción de apertura de PDF
+## Paso 6: Configurar JavaScript como acción para abrir PDF
 
-Ahora, debes configurar la acción de JavaScript como la acción de apertura para tu documento PDF. Esto significa que JavaScript se ejecutará tan pronto como se abra el PDF.
+Ahora, debe configurar la acción de JavaScript como la acción de apertura para su documento PDF. Esto significa que JavaScript se ejecutará en cuanto se abra el PDF.
 
 ```csharp
 doc.OpenAction = javaScript;
 ```
 
-Esta línea le indica al PDF que ejecute el código JavaScript cuando alguien lo abra. ¡Es como configurar un recordatorio que se activa en cuanto abres tu calendario!
+Esta línea le indica al PDF que ejecute el JavaScript al abrirlo. ¡Es como configurar un recordatorio que suena al abrir el calendario!
 
 ## Paso 7: Guarde el documento PDF
 
@@ -118,11 +120,11 @@ dataDir = dataDir + "SetExpiryDate_out.pdf";
 doc.Save(dataDir);
 ```
 
-Esta línea guarda el PDF en el directorio especificado con el nombre "SetExpiryDate_out.pdf". ¡Es como poner la obra de arte terminada en un marco!
+Esta línea guarda tu PDF en el directorio especificado con el nombre "SetExpiryDate_out.pdf". ¡Es como enmarcar tu obra terminada!
 
 ## Conclusión
 
-¡Y ya está! Has creado con éxito un archivo PDF con fecha de caducidad utilizando Aspose.PDF para .NET. Esta función no solo mejora la seguridad, sino que también garantiza que la información confidencial se mantenga bajo control. Ya sea que estés enviando contratos, informes o cualquier otro documento importante, establecer una fecha de caducidad puede ser un cambio radical.
+¡Y listo! Has creado correctamente un archivo PDF con fecha de caducidad usando Aspose.PDF para .NET. Esta función no solo mejora la seguridad, sino que también garantiza que la información confidencial se mantenga bajo control. Ya sea que envíes contratos, informes o cualquier otro documento importante, establecer una fecha de caducidad puede ser un cambio radical.
 
 ## Preguntas frecuentes
 
@@ -130,19 +132,21 @@ Esta línea guarda el PDF en el directorio especificado con el nombre "SetExpiry
 Aspose.PDF para .NET es una potente biblioteca que permite a los desarrolladores crear, manipular y convertir documentos PDF en aplicaciones .NET.
 
 ### ¿Puedo utilizar Aspose.PDF gratis?
- Sí, puedes utilizar una versión de prueba gratuita de Aspose.PDF. Puedes descargarla[aquí](https://releases.aspose.com/).
+Sí, puedes usar una versión de prueba gratuita de Aspose.PDF. Puedes descargarla. [aquí](https://releases.aspose.com/).
 
 ### ¿Cómo compro Aspose.PDF?
-Puedes comprar Aspose.PDF visitando el sitio[Página de compra](https://purchase.aspose.com/buy).
+Puedes comprar Aspose.PDF visitando el sitio web [página de compra](https://purchase.aspose.com/buy).
 
 ### ¿Qué pasa si necesito ayuda?
-Si tiene alguna pregunta o necesita ayuda, puede visitar el[Foro de soporte de Aspose](https://forum.aspose.com/c/pdf/10).
+Si tiene alguna pregunta o necesita ayuda, puede visitar el [Foro de soporte de Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### ¿Puedo obtener una licencia temporal para Aspose.PDF?
- Sí, puedes solicitar una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+Sí, puedes solicitar una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

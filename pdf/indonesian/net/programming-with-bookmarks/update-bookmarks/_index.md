@@ -1,14 +1,16 @@
 ---
-title: Perbarui Bookmark dalam File PDF
-linktitle: Perbarui Bookmark dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memperbarui bookmark dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan ini. Sempurna bagi pengembang yang ingin memodifikasi bookmark PDF secara efektif.
-weight: 100
-url: /id/net/programming-with-bookmarks/update-bookmarks/
+"description": "Pelajari cara memperbarui bookmark dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan ini. Sempurna bagi pengembang yang ingin memodifikasi bookmark PDF secara efektif."
+"linktitle": "Perbarui Bookmark dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Perbarui Bookmark dalam File PDF"
+"url": "/id/net/programming-with-bookmarks/update-bookmarks/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perbarui Bookmark dalam File PDF
@@ -21,12 +23,12 @@ Bekerja dengan file PDF sering kali memerlukan penanganan berbagai elemen sepert
 
 Sebelum kita mulai membuat kode, pastikan Anda telah menyiapkan semuanya. Berikut ini yang Anda perlukan:
 
-1.  Aspose.PDF untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: Pastikan Anda telah menginstal .NET di sistem Anda.
 3. IDE: Sebaiknya Visual Studio atau IDE lain yang mendukung .NET.
 4. Berkas PDF dengan penanda buku yang ada: Ini akan menjadi berkas pengujian Anda untuk memperbarui penanda buku.
 
- Jika Anda belum memiliki Aspose.PDF untuk .NET, ambil[uji coba gratis](https://releases.aspose.com/) atau[beli itu](https://purchase.aspose.com/buy)jika Anda siap untuk membuka semua fiturnya. Selain itu, jika Anda ingin menggunakannya tanpa batasan selama pengembangan,[lisensi sementara](https://purchase.aspose.com/temporary-license/) akan berguna.
+Jika Anda belum memiliki Aspose.PDF untuk .NET, ambil [uji coba gratis](https://releases.aspose.com/) atau [beli itu](https://purchase.aspose.com/buy) jika Anda siap untuk membuka semua fiturnya. Selain itu, jika Anda ingin menggunakannya tanpa batasan selama pengembangan, [lisensi sementara](https://purchase.aspose.com/temporary-license/) akan berguna.
 
 ## Paket Impor
 
@@ -59,11 +61,11 @@ Setelah Anda memiliki direktori tersebut, langkah selanjutnya adalah membuka ber
 Document pdfDocument = new Document(dataDir + "UpdateBookmarks.pdf");
 ```
 
- Di Sini,`Document` adalah kelas yang digunakan untuk memuat berkas PDF ke dalam memori. Pastikan nama berkas sesuai dengan nama yang ada di direktori Anda. 
+Di Sini, `Document` adalah kelas yang digunakan untuk memuat berkas PDF ke dalam memori. Pastikan nama berkas sesuai dengan nama yang ada di direktori Anda. 
 
 ## Langkah 3: Akses Objek Bookmark
 
- Sekarang setelah file PDF Anda dimuat, saatnya untuk menemukan penanda tertentu yang ingin Anda perbarui. Penanda dalam PDF disimpan di`Outlines` koleksi. Nomor indeks (`[1]`) merujuk pada posisi penanda buku dalam koleksi.
+Sekarang setelah file PDF Anda dimuat, saatnya untuk menemukan penanda tertentu yang ingin Anda perbarui. Penanda dalam PDF disimpan di `Outlines` koleksi. Nomor indeks (`[1]`) merujuk pada posisi penanda buku dalam koleksi.
 
 ```csharp
 // Dapatkan objek penanda
@@ -82,7 +84,7 @@ pdfOutline.Italic = true;
 pdfOutline.Bold = true;
 ```
 
- Mengubah`Title` memperbarui teks yang ditampilkan di bookmark, saat mengatur`Italic` Dan`Bold` ke`true` mengubah gaya fontanya. Modifikasi ini memastikan bookmark Anda diperbarui sesuai kebutuhan Anda.
+Mengubah `Title` memperbarui teks yang ditampilkan di bookmark, saat mengatur `Italic` Dan `Bold` ke `true` mengubah gaya fontanya. Modifikasi ini memastikan bookmark Anda diperbarui sesuai kebutuhan Anda.
 
 ## Langkah 5: Simpan File PDF yang Diperbarui
 
@@ -93,7 +95,7 @@ dataDir = dataDir + "UpdateBookmarks_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Ini akan menyimpan berkas PDF yang diperbarui dengan perubahan yang diterapkan pada penanda. Berkas baru akan diberi nama`UpdateBookmarks_out.pdf`, memastikan Anda menjaga dokumen asli tetap utuh.
+Ini akan menyimpan berkas PDF yang diperbarui dengan perubahan yang diterapkan pada penanda. Berkas baru akan diberi nama `UpdateBookmarks_out.pdf`, memastikan Anda menjaga dokumen asli tetap utuh.
 
 ## Langkah 6: Menampilkan Pesan Sukses
 
@@ -107,27 +109,29 @@ Pesan sederhana ini akan muncul di konsol, mengonfirmasi bahwa bookmark telah di
 
 ## Kesimpulan
 
-Selesai! Kini Anda telah mempelajari cara memperbarui bookmark dalam file PDF menggunakan Aspose.PDF for .NET. Baik itu mengubah judul, mengubah gaya font, atau memodifikasi properti bookmark lainnya, prosesnya mudah. Dengan kekuatan Aspose.PDF for .NET, bekerja dengan bookmark dan elemen PDF lainnya menjadi mudah. Sekarang giliran Anda untuk menerapkan pengetahuan ini ke proyek Anda. Siap mencobanya?
+Selesai! Kini Anda telah mempelajari cara memperbarui bookmark dalam file PDF menggunakan Aspose.PDF for .NET. Baik itu mengubah judul, mengubah gaya font, atau memodifikasi properti bookmark lainnya, prosesnya mudah. Dengan kekuatan Aspose.PDF for .NET, bekerja dengan bookmark dan elemen PDF lainnya menjadi mudah. Sekarang giliran Anda untuk menerapkan pengetahuan ini ke proyek Anda. Siap untuk mencobanya?
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya memperbarui beberapa penanda dalam berkas PDF yang sama?  
- Ya, Anda dapat memperbarui beberapa penanda dengan melakukan pengulangan`Outlines` koleksi dan modifikasi setiap penanda sesuai kebutuhan.
+Ya, Anda dapat memperbarui beberapa penanda dengan melakukan pengulangan `Outlines` koleksi dan modifikasi setiap penanda sesuai kebutuhan.
 
 ### Apa yang terjadi jika saya mencoba mengakses penanda yang tidak ada?  
- Anda akan mendapatkan`IndexOutOfRangeException` jika Anda mencoba mengakses indeks penanda yang tidak ada. Selalu pastikan indeks tersebut sesuai dengan penanda yang ada.
+Anda akan mendapatkan `IndexOutOfRangeException` jika Anda mencoba mengakses indeks penanda yang tidak ada. Selalu pastikan indeks tersebut sesuai dengan penanda yang ada.
 
 ### Bisakah saya mengubah properti penanda lainnya, seperti warna atau tindakan?  
- Tentu saja! Anda dapat mengubah properti lainnya seperti`Destination`, `Color`, dan tindakan yang terikat pada penanda buku.
+Tentu saja! Anda dapat mengubah properti lainnya seperti `Destination`Bahasa Indonesia: `Color`, dan tindakan yang terikat pada penanda buku.
 
 ### Bagaimana cara menambahkan penanda baru dan tidak perlu memperbarui penanda yang sudah ada?  
- Untuk menambahkan bookmark baru, Anda dapat membuat instance baru`OutlineItemCollection` dan menambahkannya ke`Outlines` koleksi.
+Untuk menambahkan bookmark baru, Anda dapat membuat instance baru `OutlineItemCollection` dan menambahkannya ke `Outlines` koleksi.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF untuk .NET?  
- Ya, Anda memerlukan lisensi untuk penggunaan produksi. Namun, Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengembangan atau menggunakan[uji coba gratis](https://releases.aspose.com/).
+Ya, Anda memerlukan lisensi untuk penggunaan produksi. Namun, Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengembangan atau menggunakan [uji coba gratis](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

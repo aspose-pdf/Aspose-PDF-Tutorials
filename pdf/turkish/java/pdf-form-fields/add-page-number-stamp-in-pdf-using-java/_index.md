@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'e Sayfa Numarası Damgası Ekleme
-linktitle: Java kullanarak PDF'e Sayfa Numarası Damgası Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF ile Java kullanarak PDF belgelerine sayfa numarası damgalarını nasıl kolayca ekleyeceğinizi öğrenin. PDF'lerinizi özelleştirilebilir sayfa numaralarıyla geliştirin.
-weight: 11
-url: /tr/java/pdf-form-fields/add-page-number-stamp-in-pdf-using-java/
+"description": "Java için Aspose.PDF ile Java kullanarak PDF belgelerine sayfa numarası damgalarını nasıl kolayca ekleyeceğinizi öğrenin. PDF'lerinizi özelleştirilebilir sayfa numaralarıyla geliştirin."
+"linktitle": "Java kullanarak PDF'e Sayfa Numarası Damgası Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'e Sayfa Numarası Damgası Ekleme"
+"url": "/tr/java/pdf-form-fields/add-page-number-stamp-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'e Sayfa Numarası Damgası Ekleme
@@ -16,19 +18,19 @@ url: /tr/java/pdf-form-fields/add-page-number-stamp-in-pdf-using-java/
 
 ## Java kullanarak PDF'ye Sayfa Numarası Damgası Eklemeye Giriş
 
-PDF belgeleri bilgi paylaşımı ve sunumu için yaygın olarak kullanılır, ancak bazen sayfa numaraları ekleyerek bunları geliştirmeniz gerekebilir. İster raporlar, ister kılavuzlar veya akademik makaleler üzerinde çalışıyor olun, sayfa numaraları okuyucuların içeriğinizde etkili bir şekilde gezinmesine yardımcı olur. Bu eğitimde, Java kullanarak PDF dosyalarına sayfa numarası damgaları ekleme sürecini adım adım anlatacağız. PDF düzenlemeyi basitleştiren güçlü bir kütüphane olan Java için Aspose.PDF'yi kullanacağız.
+PDF belgeleri bilgi paylaşımı ve sunumu için yaygın olarak kullanılır, ancak bazen sayfa numaraları ekleyerek bunları geliştirmeniz gerekebilir. İster raporlar, ister kılavuzlar veya akademik makaleler üzerinde çalışıyor olun, sayfa numaraları okuyucuların içeriğinizde etkili bir şekilde gezinmesine yardımcı olur. Bu eğitimde, Java kullanarak PDF dosyalarına sayfa numarası damgaları ekleme sürecini adım adım anlatacağız. PDF manipülasyonunu basitleştiren güçlü bir kütüphane olan Java için Aspose.PDF'yi kullanacağız.
 
 ## Java için Aspose.PDF Kurulumu
 
 Kodlamaya dalmadan önce, Java için Aspose.PDF'yi ayarlamanız gerekir. Şu adımları izleyin:
 
-1.  Java için Aspose.PDF'yi indirin: Kütüphaneye şuradan erişin:[Burada](https://releases.aspose.com/pdf/java/) ve projenize uygun sürümü indirin.
+1. Java için Aspose.PDF'yi indirin: Kütüphaneye şuradan erişin: [Burada](https://releases.aspose.com/pdf/java/) ve projenize uygun sürümü indirin.
 
 2. Bir Java Projesi Oluşturun: Eğer halihazırda bir Java projeniz yoksa, tercih ettiğiniz IDE'yi kullanarak yeni bir proje oluşturun.
 
 ## Bağımlılıklar Ekleme
 
- Java için Aspose.PDF'niz olduğunda, bunu projenize bir bağımlılık olarak ekleyin. Maven kullanıyorsanız, aşağıdaki bağımlılığı projenize ekleyin`pom.xml`:
+Java için Aspose.PDF'niz olduğunda, bunu projenize bir bağımlılık olarak ekleyin. Maven kullanıyorsanız, aşağıdaki bağımlılığı projenize ekleyin `pom.xml`:
 
 ```xml
 <dependency>
@@ -38,10 +40,10 @@ Kodlamaya dalmadan önce, Java için Aspose.PDF'yi ayarlamanız gerekir. Şu ad�
 </dependency>
 ```
 
-Gradle'ı tercih ederseniz, bunu da ekleyin`build.gradle` dosya:
+Gradle'ı tercih ederseniz, bunu da ekleyin `build.gradle` dosya:
 
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-pdf', version: '21.11' // En son sürümle değiştirin
+implementation group: 'com.aspose', name: 'aspose-pdf', version: '21.11' // Replace with the latest version
 ```
 
 ## Sayfa Numarası Damgasını Kodlama
@@ -80,13 +82,13 @@ Bu kodda bir PDF belgesi yüklüyoruz, bir sayfa numarası damgası oluşturuyor
 
 Sayfa numarası damgasını uygulamak için şu adımları izleyin:
 
-1.  PDF belgesini kullanarak yükleyin`Document pdfDocument = new Document("input.pdf");` , Neresi`"input.pdf"` PDF dosyanızın yoludur.
+1. PDF belgesini kullanarak yükleyin `Document pdfDocument = new Document("input.pdf");`, Neresi `"input.pdf"` PDF dosyanızın yoludur.
 
-2.  Bir tane oluştur`PageNumberStamp` nesneyi seçin ve tercihlerinize göre özelleştirin.
+2. Bir tane oluştur `PageNumberStamp` nesneyi seçin ve tercihlerinize göre özelleştirin.
 
 3. Döngüyü kullanarak PDF'deki her sayfaya damgayı ekleyin.
 
-4.  Değiştirilen PDF'yi kullanarak kaydedin`pdfDocument.save("output.pdf");` . Değiştirebilirsiniz`"output.pdf"` İstediğiniz dosya adıyla.
+4. Değiştirilen PDF'yi kullanarak kaydedin `pdfDocument.save("output.pdf");`. Değiştirebilirsiniz `"output.pdf"` İstediğiniz dosya adıyla.
 
 ## Sonucun Test Edilmesi
 
@@ -100,7 +102,7 @@ Bu eğitimde, Java ve Java için Aspose.PDF kullanarak PDF belgelerine sayfa num
 
 ### Java için Aspose.PDF'yi nasıl indirebilirim?
 
- Java için Aspose.PDF'yi şu web sitesinden indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/)Projenize uygun versiyonu seçin.
+Java için Aspose.PDF'yi şu web sitesinden indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/)Projenize uygun versiyonu seçin.
 
 ### Sayfa numarası damgasının görünümünü özelleştirebilir miyim?
 
@@ -108,10 +110,12 @@ Evet, Java için Aspose.PDF sayfa numarası damgasının kapsamlı bir şekilde 
 
 ### Aspose.PDF for Java farklı PDF sürümleriyle uyumlu mudur?
 
-Kesinlikle! Aspose.PDF for Java, PDF versiyonlarından bağımsız olarak çok çeşitli belgelerle uyumluluğu garanti ederek çeşitli PDF versiyonlarını destekler.
+Kesinlikle! Aspose.PDF for Java, PDF sürümünden bağımsız olarak çok çeşitli belgelerle uyumluluğu garanti ederek çeşitli PDF sürümlerini destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

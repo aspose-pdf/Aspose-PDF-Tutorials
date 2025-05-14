@@ -8,7 +8,9 @@ url: /java/pdf-page-manipulation/add-html-string-using-dom-in-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add HTML String using DOM in Java
@@ -87,9 +89,11 @@ If you have any questions or need further assistance, feel free to refer to the 
 
 ### Can I add images along with HTML content in the PDF?
    Yes, you can include images within the HTML content, and Aspose.PDF will render them in the PDF document.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Đính kèm tập tin vào tài liệu PDF
-linktitle: Đính kèm tập tin vào tài liệu PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách đính kèm tệp vào tài liệu PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp thao tác PDF trở nên dễ dàng.
-weight: 10
-url: /vi/java/pdf-attachments/attach-files-pdf-documents/
+"description": "Tìm hiểu cách đính kèm tệp vào tài liệu PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp thao tác PDF trở nên dễ dàng."
+"linktitle": "Đính kèm tập tin vào tài liệu PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Đính kèm tập tin vào tài liệu PDF"
+"url": "/vi/java/pdf-attachments/attach-files-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đính kèm tập tin vào tài liệu PDF
@@ -23,7 +25,7 @@ Aspose.PDF for Java là một thư viện giàu tính năng cho phép các nhà 
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Môi trường phát triển Java: Đảm bảo rằng bạn đã cài đặt Java và IDE phù hợp trên hệ thống của mình.
--  Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Java: Tải xuống và cài đặt thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập dự án Java của bạn
 
@@ -40,7 +42,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 Trong mã Java của bạn, hãy nhập các lớp cần thiết từ thư viện Aspose.PDF. Tạo một tài liệu PDF mới bằng đoạn mã sau:
 
 ```java
-//Nhập các lớp cần thiết
+// Nhập các lớp cần thiết
 import com.aspose.pdf.*;
 
 // Tạo một tài liệu PDF mới
@@ -87,7 +89,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách đính kèm tệp v
 
 ### Tôi có thể đính kèm nhiều tệp vào một trang PDF không?
 
- Có, bạn có thể đính kèm nhiều tệp vào một trang PDF bằng Aspose.PDF cho Java. Chỉ cần tạo nhiều`FileAttachment` các đối tượng và thêm chúng vào chú thích của trang.
+Có, bạn có thể đính kèm nhiều tệp vào một trang PDF bằng Aspose.PDF cho Java. Chỉ cần tạo nhiều `FileAttachment` các đối tượng và thêm chúng vào chú thích của trang.
 
 ### Có giới hạn kích thước nào cho các tập tin tôi có thể đính kèm vào PDF không?
 
@@ -99,10 +101,12 @@ Có, Aspose.PDF for Java tương thích với nhiều phiên bản Java. Hãy đ
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.PDF cho Java ở đâu?
 
-Bạn có thể tìm thấy tài liệu toàn diện và các nguồn bổ sung cho Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu toàn diện và các nguồn bổ sung cho Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

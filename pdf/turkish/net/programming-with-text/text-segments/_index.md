@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Metin Bölümleri
-linktitle: PDF Dosyasındaki Metin Bölümleri
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET'te düzenli ifadeler kullanarak PDF dosyasındaki belirli metin parçalarını nasıl arayacağınızı öğrenin.
-weight: 540
-url: /tr/net/programming-with-text/text-segments/
+"description": "Aspose.PDF for .NET'te düzenli ifadeleri kullanarak PDF dosyasındaki belirli metin parçalarını nasıl arayacağınızı öğrenin."
+"linktitle": "PDF Dosyasındaki Metin Bölümleri"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Metin Bölümleri"
+"url": "/tr/net/programming-with-text/text-segments/"
+"weight": 540
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Metin Bölümleri
@@ -23,7 +25,7 @@ Metin çıkarma işleminin inceliklerine dalmadan önce, ihtiyacınız olacak bi
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Kodumuzu burada yazacağız.
 2. .NET Framework veya .NET Core Ortamı: Uygulamanız için doğru ortama sahip olduğunuzdan emin olun. Aspose hem .NET Framework'ü hem de .NET Core'u destekler.
-3.  Aspose.PDF Kütüphanesi: Aspose.PDF for .NET kütüphanesine ihtiyacınız olacak. Henüz yüklemediyseniz, indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF Kütüphanesi: Aspose.PDF for .NET kütüphanesine ihtiyacınız olacak. Henüz yüklemediyseniz, indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 4. Temel C# Bilgisi: C# bilgisine sahip olmak faydalı olacaktır, ancak yeni başlayan biri olsanız bile, sizi kodda adım adım yönlendireceğiz.
 5. PDF Belgesi: İçinden metin çıkarmak istediğiniz bir PDF dosyası bulundurun. Bu, bir finansal rapordan bir makaleye kadar her şey olabilir.
 
@@ -37,7 +39,7 @@ Artık her şeyi ayarladığınıza göre, bir sonraki adım gerekli paketleri C
 
 ### Aspose.PDF Referansını Ekle
 
--  Sağ tıklayın`References` Çözüm Gezgini'ndeki klasör.
+- Sağ tıklayın `References` Çözüm Gezgini'ndeki klasör.
 - "Referans Ekle"yi seçin ve Aspose.PDF.dll dosyasını indirdiğiniz konuma gidin.
 - Bu DLL'yi projenize ekleyin. Bu adım projenizi Aspose.PDF kütüphanesine bağlayarak onun işlevlerinin kilidini açar.
 
@@ -53,7 +55,7 @@ using System;
 ```
 Bu, programınıza Aspose.PDF kütüphanesindeki sınıfları ve metotları kullanmasını söyler.
 
-Çeşitli metin segmenti türlerini çıkarmayı pratik örneklerle inceleyelim.`TextFragmentAbsorber` PDF belgelerinden metin bulmanın ve çıkarmanın anahtarı olan sınıf.
+Çeşitli metin segmenti türlerini çıkarmayı pratik örneklerle inceleyelim. `TextFragmentAbsorber` PDF belgelerinden metin bulmanın ve çıkarmanın anahtarı olan sınıf.
 
 ## Adım 1: Belgeyi Başlatın
 
@@ -63,21 +65,21 @@ Herhangi bir PDF ile çalışmak için onu uygulamanıza yüklemeniz gerekir. İ
 // PDF belgesini yükleyin
 Document pdfDocument = new Document("Path/To/Your/PDFFile.pdf");
 ```
- Yer değiştirmek`"Path/To/Your/PDFFile.pdf"` PDF'nizin gerçek yolu ile.
+Yer değiştirmek `"Path/To/Your/PDFFile.pdf"` PDF'nizin gerçek yolu ile.
 
 ## Adım 2: Bir TextFragmentAbsorber Oluşturun
 
- Şimdi, farklı kullanım örneklerini inceleyelim`TextFragmentAbsorber` metni almak için.
+Şimdi, farklı kullanım örneklerini inceleyelim `TextFragmentAbsorber` metni almak için.
 
 ### Örnek 1: Tam Bir Kelimeyi Çıkarma
 
- Belirli bir kelime için tam eşleşmeyi bulmak için, şunu başlatabilirsiniz:`TextFragmentAbsorber` bunun gibi:
+Belirli bir kelime için tam eşleşmeyi bulmak için, şunu başlatabilirsiniz: `TextFragmentAbsorber` bunun gibi:
 
 ```csharp
 // "Word" kelimesinin tam eşleşmesini arayın
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber(@"\bWord\b", new TextSearchOptions(true));
 ```
- Bu kod, emiciyi "Word" sözcüğünü tam olarak bulacak şekilde ayarlar ve onu bütün bir sözcük olarak ele alır.`\b` kelime sınırlarını belirtir.
+Bu kod, emiciyi "Word" sözcüğünü tam olarak bulacak şekilde ayarlar ve onu bütün bir sözcük olarak ele alır. `\b` kelime sınırlarını belirtir.
 
 ### Örnek 2: Büyük/Küçük Harfe Duyarlı Olmayan Arama
 
@@ -87,7 +89,7 @@ Eğer büyük/küçük harf ayrımı gözetmeksizin belirli bir dizgeyi (mesela 
 // "Line" dizesini büyük/küçük harfe duyarlı olmayan bir şekilde arayın
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("(?i)Line", new TextSearchOptions(true));
 ```
- The`(?i)` aramanın büyük/küçük harf ayrımını göz ardı etmesini sağlar. 
+The `(?i)` aramanın büyük/küçük harf ayrımını göz ardı etmesini sağlar. 
 
 ### Örnek 3: PDF'den Tüm Metni Çıkar
 
@@ -97,7 +99,7 @@ Bir PDF'deki tüm metni ayrıştırmanız gerekti mi hiç? İşte bunu yapmanın
 // PDF belgesinin içindeki tüm dizeleri ayrıştır
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber(@"[\S]+");
 ```
- Düzenli ifade`[\S]+` tüm boşluk olmayan karakterleri yakalar. 
+Düzenli ifade `[\S]+` tüm boşluk olmayan karakterleri yakalar. 
 
 ## Adım 3: Absorber'ı Belgede Kabul Edin
 
@@ -127,7 +129,7 @@ Bu döngü bulunan her parçayı işler ve konsola yazdırır.
 
 ## Çözüm
 
- PDF dosyalarından metin çıkarmak göz korkutucu bir görev olmak zorunda değil. Aspose.PDF for .NET ile ihtiyaç duyduğunuz bilgileri etkili bir şekilde belirleyip çıkarabilirsiniz. İster tek bir kelimeyi yakalamak, ister tüm bir belgeyi incelemek isteyin, düzenli ifadelerin esnekliği`TextFragmentAbsorber`size güçlü arama yetenekleri sağlar. Öyleyse neden bekliyorsunuz? PDF belgelerinize dalın ve bugün değerli içgörüler çıkarmaya başlayın!
+PDF dosyalarından metin çıkarmak göz korkutucu bir görev olmak zorunda değil. Aspose.PDF for .NET ile ihtiyaç duyduğunuz bilgileri etkili bir şekilde belirleyip çıkarabilirsiniz. İster tek bir kelimeyi yakalamak, ister tüm bir belgeyi incelemek isteyin, düzenli ifadelerin esnekliği `TextFragmentAbsorber` size güçlü arama yetenekleri sağlar. Öyleyse neden bekliyorsunuz? PDF belgelerinize dalın ve bugün değerli içgörüler çıkarmaya başlayın!
 
 ## SSS
 
@@ -138,16 +140,18 @@ Aspose.PDF, .NET uygulamalarında PDF dosyaları oluşturmak, düzenlemek ve dö
 Evet, Aspose.PDF for .NET hem .NET Framework hem de .NET Core uygulamalarını destekler.
 
 ### Ücretsiz deneme imkanı var mı?
- Kesinlikle! Ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için desteği nereden alabilirim?
- Aspose destek topluluğuna ulaşabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose destek topluluğuna ulaşabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF için lisans nasıl satın alabilirim?
- Lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

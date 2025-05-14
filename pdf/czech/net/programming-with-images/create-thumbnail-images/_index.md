@@ -1,36 +1,38 @@
 ---
-title: Vytvářejte obrázky miniatur v souboru PDF
-linktitle: Vytvářejte obrázky miniatur v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Vytvářejte miniatury pro každou stránku v souboru PDF bez námahy pomocí Aspose.PDF for .NET. Vylepšete si náhled dokumentu.
-weight: 100
-url: /cs/net/programming-with-images/create-thumbnail-images/
+"description": "Snadno generujte miniatury pro každou stránku ve vašem PDF souboru pomocí Aspose.PDF pro .NET. Vylepšete si zážitek z náhledu dokumentů."
+"linktitle": "Vytvořit miniatury obrázků v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Vytvořit miniatury obrázků v souboru PDF"
+"url": "/cs/net/programming-with-images/create-thumbnail-images/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvářejte obrázky miniatur v souboru PDF
+# Vytvořit miniatury obrázků v souboru PDF
 
 ## Zavedení
 
-Vytváření miniatur pro každou stránku v PDF může být neuvěřitelně užitečné pro každého, kdo chce rychle zobrazit náhled dokumentů bez otevření celého souboru. Ať už vytváříte systém správy dokumentů, nebo si jednoduše chcete zjednodušit navigaci v kolekci PDF, tento proces vám může ušetřit čas a zlepšit uživatelský zážitek. Dnes si projdeme, jak používat Aspose.PDF pro .NET k automatickému generování miniatur pro každou stránku v souborech PDF. Nejde jen o kódování; jde o to poskytnout vám nástroje pro zefektivnění vašeho pracovního postupu a zlepšení dostupnosti.
+Vytváření miniatur pro každou stránku v PDF souboru může být neuvěřitelně užitečné pro každého, kdo chce rychle zobrazit náhled dokumentů, aniž by musel otevírat celý soubor. Ať už vytváříte systém pro správu dokumentů, nebo chcete jednoduše zjednodušit navigaci v kolekci PDF souborů, tento proces vám může ušetřit čas a vylepšit uživatelský komfort. Dnes si ukážeme, jak používat Aspose.PDF pro .NET k automatickému generování miniatur pro každou stránku ve vašich PDF souborech. Nejde jen o kódování; jde o to, abyste získali nástroje pro zefektivnění pracovního postupu a zlepšení přístupnosti.
 
 ## Předpoklady
 
-Než se ponoříte do kódu, existuje několik předpokladů, které musíte splnit, abyste zajistili hladké nastavení:
+Než se ponoříme do kódu, je třeba splnit několik předpokladů, aby bylo zajištěno hladké nastavení:
 
-1. Základní znalost C# nebo .NET: Znalost programování v C# vám pomůže lépe porozumět kódu.
-2. Visual Studio nainstalované: K zápisu a spuštění kódu budete potřebovat IDE. Visual Studio je oblíbenou volbou pro vývoj .NET.
-3. Aspose.PDF for .NET Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete to získat z[Dokumentace Aspose.PDF](https://reference.aspose.com/pdf/net/).
-4. Soubory PDF: Připravte si nějaké soubory PDF ve vašem určeném pracovním adresáři k testování.
+1. Základní znalost C# nebo .NET: Znalost programování v C# vám pomůže lépe porozumět kódu v průběhu práce.
+2. Nainstalované Visual Studio: K napsání a spuštění kódu budete potřebovat IDE. Visual Studio je oblíbenou volbou pro vývoj v .NET.
+3. Knihovna Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete ji získat z [Dokumentace Aspose.PDF](https://reference.aspose.com/pdf/net/).
+4. PDF soubory: Mějte připravené PDF soubory v určeném pracovním adresáři pro testování.
 
-Chcete začít hned? Velký! Nejprve naimportujeme potřebné balíčky.
+Chcete začít hned? Skvělé! Nejdříve importujme potřebné balíčky.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li využívat funkce Aspose.PDF, musíte v horní části souboru C# zahrnout příslušné jmenné prostory. Postup je následující:
+Abyste mohli využívat funkce Aspose.PDF, musíte na začátek souboru C# zahrnout příslušné jmenné prostory. Postupujte takto:
 
 ```csharp
 using Aspose.Pdf.Devices;
@@ -41,31 +43,31 @@ using System.Linq;
 using System.Text;
 ```
 
-Zahrnutí těchto jmenných prostorů zajistí, že budete mít přístup ke všem potřebným třídám a metodám v Aspose pro operace, které budeme provádět.
+Zahrnutí těchto jmenných prostorů zajišťuje, že budete mít přístup ke všem potřebným třídám a metodám v Aspose pro operace, které budeme provádět.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Prvním krokem v našem procesu je zadat cestu k adresáři vašich dokumentů, kde jsou uloženy všechny vaše soubory PDF. Musíte programu sdělit, kde má tyto PDF hledat. 
+Prvním krokem v našem procesu je zadání cesty k adresáři s dokumenty, kde jsou uloženy všechny vaše PDF soubory. Musíte programu sdělit, kde má tyto PDF soubory hledat. 
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // Nahraďte svou skutečnou cestou k adresáři
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Nahraďte skutečnou cestou k adresáři
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` s cestou, kde se nacházejí vaše soubory PDF. Tento krok je zásadní, protože bez správného adresáře váš program nenajde soubory PDF, které potřebuje ke zpracování.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` s cestou, kde se nacházejí vaše soubory PDF. Tento krok je klíčový, protože bez správného adresáře váš program nenajde soubory PDF, které potřebuje ke zpracování.
 
-## Krok 2: Načtěte názvy souborů PDF
+## Krok 2: Načtení názvů souborů PDF
 
-Dále budete chtít získat názvy všech souborů PDF ve vašem adresáři. Tento krok pomáhá při pozdějším opakování každého souboru. 
+Dále budete chtít získat názvy všech PDF souborů ve vašem adresáři. Tento krok pomůže při pozdější iteraci jednotlivými soubory. 
 
 ```csharp
 string[] fileEntries = Directory.GetFiles(dataDir, "*.pdf");
 ```
 
- Zde používáme`Directory.GetFiles` metoda pouze pro filtrování a načítání souborů PDF. The`*.pdf` zástupný znak zajišťuje, že vezmeme každý PDF v zadaném adresáři. 
+Zde používáme `Directory.GetFiles` metoda pro filtrování a načítání pouze souborů PDF. `*.pdf` Zástupný znak zajišťuje, že se načtou všechny PDF soubory v zadaném adresáři. 
 
-## Krok 3: Iterujte každý soubor PDF
+## Krok 3: Iterujte každým souborem PDF
 
-Nyní projdeme každý soubor, který jsme právě získali. Pro každý PDF jej otevřeme a vytvoříme náhledy jeho stránek. 
+Nyní projdeme každý soubor, který jsme právě načetli. Každý PDF soubor otevřeme a vytvoříme miniatury jeho stránek. 
 
 ```csharp
 for (int counter = 0; counter < fileEntries.Length; counter++)
@@ -74,86 +76,88 @@ for (int counter = 0; counter < fileEntries.Length; counter++)
 }
 ```
 
- V této smyčce`counter` sleduje, na kterém souboru pracujeme. The`Document` třída se používá k otevření každého souboru PDF. S každým PDF budete pracovat jeden po druhém, abyste z jeho stránek vytvořili miniatury.
+V této smyčce, `counter` sleduje, na kterém souboru pracujeme. `Document` Třída se používá k otevření každého PDF souboru. S každým PDF souborem budete pracovat jeden po druhém a vytvářet z jeho stránek miniatury.
 
 ## Krok 4: Vytvořte miniatury pro každou stránku
 
-Pro každou stránku v PDF vytvoříme miniaturu. Pojďme si tuto část rozebrat krok za krokem.
+Pro každou stránku v PDF souboru vytvoříme náhledový obrázek. Pojďme si tuto část rozebrat krok za krokem.
 
-### Krok 4.1: Inicializujte FileStream pro každou miniaturu
+### Krok 4.1: Inicializace FileStream pro každou miniaturu
 
-Uvnitř naší smyčky budeme muset nastavit stream, kam se uloží miniatura.
+Uvnitř naší smyčky budeme muset nastavit stream, kam se bude ukládat miniatura obrázku.
 
 ```csharp
 using (FileStream imageStream = new FileStream(dataDir + "\\Thumbanils" + counter.ToString() + "_" + pageCount + ".jpg", FileMode.Create))
 {
 ```
 
- Zde vytvoříme nový soubor JPG pro každou použitou miniaturu`FileStream`Název souboru obsahuje počítadlo, takže každá miniatura dostane jedinečný název.
+Zde pro každou miniaturu vytvoříme nový soubor JPG pomocí `FileStream`Název souboru obsahuje počítadlo, takže každá miniatura má jedinečný název.
 
-### Krok 4.2: Definujte rozlišení
+### Krok 4.2: Definování rozlišení
 
-Dále musíme definovat rozlišení pro naše miniatury. Vyšší rozlišení přináší jasnější obrázky, ale může také zvětšit velikost souboru.
+Dále musíme definovat rozlišení našich miniaturních obrázků. Vyšší rozlišení sice vede k jasnějším obrázkům, ale může také zvětšit velikost souboru.
 
 ```csharp
 Resolution resolution = new Resolution(300);
 ```
 
-Pro kvalitní snímky je standardem rozlišení 300 DPI (bodů na palec). Neváhejte a upravte tuto hodnotu podle svých potřeb.
+Rozlišení 300 DPI (bodů na palec) je standardní pro kvalitní obrázky. Tuto hodnotu si můžete upravit podle svých potřeb.
 
-### Krok 4.3: Nastavte JpegDevice
+### Krok 4.3: Nastavení JpegDevice
 
- Nyní nastavíme`JpegDevice` který bude použit pro převod stránek PDF na obrázky.
+Nyní nastavíme `JpegDevice` který bude použit k převodu stránek PDF na obrázky.
 
 ```csharp
 JpegDevice jpegDevice = new JpegDevice(45, 59, resolution, 100);
 ```
 
-Zde specifikujeme rozměry miniatur a kvalitu. V tomto případě jsme nastavili rozměry na 45x59 pixelů, ale můžeme tyto hodnoty upravit podle toho, co je potřeba pro vaši aplikaci.
+Zde určujeme rozměry miniatur a kvalitu. V tomto případě jsme nastavili rozměry na 45x59 pixelů, ale tyto hodnoty můžeme upravit podle potřeb vaší aplikace.
 
-### Krok 4.4: Zpracujte každou stránku
+### Krok 4.4: Zpracování každé stránky
 
-Když je vše na svém místě, můžeme nyní zpracovat každou stránku PDF a uložit vygenerovanou miniaturu do našeho streamu.
+Když je vše připraveno, můžeme nyní zpracovat každou stránku PDF a uložit vygenerovaný náhled do našeho streamu.
 
 ```csharp
 jpegDevice.Process(pdfDocument.Pages[pageCount], imageStream);
 ```
 
- Tento řádek převezme konkrétní stránku z PDF a zpracuje ji do formátu JPEG a vloží ji přímo do souboru`imageStream`kam uložíme miniaturu.
+Tento řádek vezme konkrétní stránku z PDF a zpracuje ji do formátu JPEG, který pak odešle přímo do `imageStream` kam uložíme miniaturu.
 
 ### Krok 4.5: Zavřete stream
 
-Nakonec po zpracování každé stránky musíme zavřít stream, abychom uvolnili zdroje.
+Nakonec, po zpracování každé stránky, musíme stream uzavřít, abychom uvolnili zdroje.
 
 ```csharp
 imageStream.Close();
 ```
 
-Uzavření datového proudu je nezbytné pro zabránění únikům paměti a zajištění správného zápisu všech změn na disk.
+Uzavření streamu je nezbytné, aby se zabránilo únikům paměti a aby se zajistilo, že všechny změny budou správně zapsány na disk.
 
 ## Závěr
 
-Vytváření miniatur pro soubory PDF může výrazně zlepšit interakci uživatelů s vašimi dokumenty. S Aspose.PDF pro .NET je jednoduché a efektivní generovat tyto miniatury programově, což vám ušetří čas i námahu. Postupujte podle tohoto průvodce a budete dobře vybaveni pro začlenění miniatur PDF do svých projektů!
+Vytváření miniatur pro soubory PDF může výrazně zlepšit způsob, jakým uživatelé interagují s vašimi dokumenty. S Aspose.PDF pro .NET je generování těchto miniatur programově jednoduché a efektivní, což vám ušetří čas i úsilí. Řiďte se tímto návodem a budete dobře vybaveni k začlenění miniatur PDF do svých projektů!
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF?  
-Aspose.PDF je výkonná knihovna pro práci s dokumenty PDF v aplikacích .NET, umožňující vytváření, úpravy a převod.
+Aspose.PDF je výkonná knihovna pro práci s PDF dokumenty v .NET aplikacích, která umožňuje jejich vytváření, úpravy a konverzi.
 
 ### Je knihovna Aspose.PDF zdarma?  
- Aspose.PDF je komerční produkt, ale můžete si z něj stáhnout bezplatnou zkušební verzi[webové stránky](https://releases.aspose.com/).
+Aspose.PDF je komerční produkt, ale můžete si stáhnout bezplatnou zkušební verzi od nich. [webové stránky](https://releases.aspose.com/).
 
-### Mohu přizpůsobit rozměry miniatur?  
-Ano, v konstruktoru JpegDevice můžete změnit parametry šířky a výšky a upravit tak velikosti miniatur.
+### Mohu si přizpůsobit rozměry miniatur?  
+Ano, můžete změnit parametry šířky a výšky v konstruktoru JpegDevice a upravit tak velikost miniatur.
 
-### Jsou při převodu velkých souborů PDF nějaké požadavky na výkon?  
+### Existují nějaké požadavky na výkon při převodu velkých PDF souborů?  
 Ano, zpracování větších souborů může trvat déle v závislosti na rozlišení a počtu stránek; optimalizace těchto parametrů může pomoci zlepšit výkon.
 
-### Kde najdu další zdroje a podporu?  
- Další zdroje a podporu komunity najdete na[Aspose fóra](https://forum.aspose.com/c/pdf/10).
+### Kde mohu najít další zdroje a podporu?  
+Další zdroje a podporu komunity naleznete na [Fóra Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

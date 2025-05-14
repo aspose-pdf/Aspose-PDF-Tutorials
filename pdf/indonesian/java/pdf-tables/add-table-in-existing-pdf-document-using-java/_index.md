@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Tabel di Dokumen PDF yang Ada menggunakan Java
-linktitle: Menambahkan Tabel di Dokumen PDF yang Ada menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan tabel ke dokumen PDF yang sudah ada menggunakan Java dan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode.
-weight: 10
-url: /id/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
+"description": "Pelajari cara menambahkan tabel ke dokumen PDF yang sudah ada menggunakan Java dan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode."
+"linktitle": "Menambahkan Tabel di Dokumen PDF yang Ada menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Tabel di Dokumen PDF yang Ada menggunakan Java"
+"url": "/id/java/pdf-tables/add-table-in-existing-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Tabel di Dokumen PDF yang Ada menggunakan Java
@@ -24,7 +26,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terpasang.
 - Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA atau Eclipse.
--  Aspose.PDF untuk pustaka Java, yang dapat Anda unduh dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java, yang dapat Anda unduh dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Lingkungan
 
@@ -33,7 +35,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 ## Menambahkan Ketergantungan
 
- Dalam proyek Anda`pom.xml` (jika Anda menggunakan Maven) atau file build.gradle (jika Anda menggunakan Gradle), tambahkan dependensi berikut:
+Dalam proyek Anda `pom.xml` (jika Anda menggunakan Maven) atau file build.gradle (jika Anda menggunakan Gradle), tambahkan dependensi berikut:
 
 ```xml
 <dependencies>
@@ -45,7 +47,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 </dependencies>
 ```
 
- Mengganti`latest_version` dengan versi sebenarnya dari pustaka Aspose.PDF yang Anda unduh.
+Mengganti `latest_version` dengan versi sebenarnya dari pustaka Aspose.PDF yang Anda unduh.
 
 ## Membuat Tabel
 
@@ -109,7 +111,7 @@ row.getCells().get_Item(0).getBackgroundColour().setColor(Color.getLightGray());
 // Terapkan lebih banyak gaya sesuai kebutuhan
 ```
 
-## Menyimpan PDF yang Telah Dimodifikasi
+## Menyimpan PDF yang Dimodifikasi
 
 Setelah menambahkan tabel dan menatanya, simpan dokumen PDF yang dimodifikasi:
 
@@ -125,7 +127,7 @@ Dalam tutorial ini, kita telah mempelajari cara menambahkan tabel ke dokumen PDF
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Anda dapat mengunduh Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/)Ikuti petunjuk instalasi yang tersedia di situs web mereka.
+Anda dapat mengunduh Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/)Ikuti petunjuk instalasi yang tersedia di situs web mereka.
 
 ### Bisakah saya menambahkan gambar ke sel tabel?
 
@@ -137,14 +139,16 @@ Ya, Aspose.PDF untuk Java mendukung penggunaan berbagai versi PDF, termasuk PDF 
 
 ### Bagaimana cara mengatur batas khusus untuk sel tabel?
 
- Anda dapat menyesuaikan batas sel dengan menyesuaikan`BorderInfo` properti. Lihat dokumentasi Aspose.PDF untuk contoh terperinci.
+Anda dapat menyesuaikan batas sel dengan menyesuaikan `BorderInfo` properti. Lihat dokumentasi Aspose.PDF untuk contoh terperinci.
 
 ### Bisakah saya mengekstrak data dari tabel yang ada dalam dokumen PDF?
 
 Ya, Anda dapat mengekstrak data dari tabel yang ada dalam dokumen PDF menggunakan Aspose.PDF untuk Java. Lihat dokumentasi untuk metode dan contoh ekstraksi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

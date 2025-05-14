@@ -1,14 +1,16 @@
 ---
-title: Kiểu Bảng Phần Tử
-linktitle: Kiểu Bảng Phần Tử
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo và định dạng phần tử bảng trong Aspose.PDF dành cho .NET với hướng dẫn từng bước, định dạng tùy chỉnh và tuân thủ PDF/UA.
-weight: 170
-url: /vi/net/programming-with-tagged-pdf/style-table-element/
+"description": "Tìm hiểu cách tạo và định dạng phần tử bảng trong Aspose.PDF dành cho .NET với hướng dẫn từng bước, định dạng tùy chỉnh và tuân thủ PDF/UA."
+"linktitle": "Kiểu Bảng Phần Tử"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Kiểu Bảng Phần Tử"
+"url": "/vi/net/programming-with-tagged-pdf/style-table-element/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểu Bảng Phần Tử
@@ -23,8 +25,8 @@ Trước khi bắt đầu hướng dẫn, bạn cần đảm bảo rằng mình 
 
 1. Visual Studio hoặc IDE tương tự được cài đặt trên máy của bạn.
 2. .NET Framework hoặc .NET Core SDK để chạy ứng dụng.
-3.  Aspose.PDF cho thư viện .NET đã tải xuống và tham chiếu trong dự án của bạn. Bạn có thể lấy phiên bản mới nhất từ[đây](https://releases.aspose.com/pdf/net/).
-4.  Giấy phép Aspose hợp lệ hoặc[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để mở khóa toàn bộ chức năng của thư viện.
+3. Aspose.PDF cho thư viện .NET đã tải xuống và tham chiếu trong dự án của bạn. Bạn có thể lấy phiên bản mới nhất từ [đây](https://releases.aspose.com/pdf/net/).
+4. Giấy phép Aspose hợp lệ hoặc [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để mở khóa toàn bộ chức năng của thư viện.
 
 ## Nhập gói
 
@@ -42,7 +44,7 @@ using System.Text;
 
 Các không gian tên này bao gồm các hoạt động PDF cốt lõi, nội dung được gắn thẻ, bảng và định dạng văn bản.
 
-Bây giờ chúng ta hãy phân tích quá trình tạo và định dạng bảng trong Aspose.PDF. Chúng ta sẽ xem xét từng phần một cách chi tiết để bạn có thể theo dõi.
+Bây giờ chúng ta hãy phân tích quá trình tạo và định dạng bảng trong Aspose.PDF. Chúng ta sẽ xem xét từng phần chi tiết để bạn có thể theo dõi.
 
 ## Bước 1: Tạo một tài liệu PDF mới và thiết lập nội dung được gắn thẻ
 
@@ -61,7 +63,7 @@ taggedContent.SetTitle("Example table style");
 taggedContent.SetLanguage("en-US");
 ```
 
- Chúng tôi bắt đầu bằng cách tạo ra một cái mới`Document` đối tượng, đại diện cho PDF của chúng tôi.`TaggedContent`đối tượng được sử dụng để quản lý cấu trúc tài liệu, đảm bảo tuân thủ các tiêu chuẩn về khả năng truy cập. Chúng tôi đặt tiêu đề và ngôn ngữ của tài liệu để gắn thẻ phù hợp.
+Chúng tôi bắt đầu bằng cách tạo ra một cái mới `Document` đối tượng, đại diện cho PDF của chúng tôi. `TaggedContent` đối tượng được sử dụng để quản lý cấu trúc tài liệu, đảm bảo tuân thủ các tiêu chuẩn về khả năng truy cập. Chúng tôi đặt tiêu đề và ngôn ngữ của tài liệu để gắn thẻ phù hợp.
 
 ## Bước 2: Xác định phần tử gốc
 
@@ -72,11 +74,11 @@ Tiếp theo, chúng ta sẽ tạo phần tử cấu trúc gốc, đóng vai trò
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
- Các`RootElement` đóng vai trò là vùng chứa cơ sở cho tất cả các thành phần có cấu trúc, bao gồm cả bảng của chúng tôi. Nó giúp duy trì thứ bậc cấu trúc của tài liệu, điều này quan trọng đối với cả tổ chức và khả năng truy cập.
+Các `RootElement` đóng vai trò là vùng chứa cơ sở cho tất cả các thành phần có cấu trúc, bao gồm cả bảng của chúng tôi. Nó giúp duy trì thứ bậc cấu trúc của tài liệu, điều này quan trọng đối với cả tổ chức và khả năng truy cập.
 
 ## Bước 3: Tạo và định dạng phần tử bảng
 
- Bây giờ phần tử gốc đã được thiết lập, chúng ta sẽ tạo một`TableElement` và áp dụng các kiểu như màu nền, đường viền và căn chỉnh.
+Bây giờ phần tử gốc đã được thiết lập, chúng ta sẽ tạo một `TableElement` và áp dụng các kiểu như màu nền, đường viền và căn chỉnh.
 
 ```csharp
 // Tạo phần tử cấu trúc bảng
@@ -91,7 +93,7 @@ tableElement.Broken = TableBroken.Vertical;
 tableElement.ColumnAdjustment = ColumnAdjustment.AutoFitToWindow;
 ```
 
- Chúng tôi tạo ra một`TableElement` , xác định cấu trúc bảng của chúng tôi.`BackgroundColor`, `Border` , Và`Alignment` thuộc tính cho phép chúng ta tùy chỉnh giao diện của bảng.`Broken` Thuộc tính này đảm bảo rằng nếu bảng bị ngắt giữa các trang, nó sẽ bị ngắt theo chiều dọc.
+Chúng tôi tạo ra một `TableElement`, xác định cấu trúc bảng của chúng tôi. `BackgroundColor`, `Border`, Và `Alignment` thuộc tính cho phép chúng ta tùy chỉnh giao diện của bảng. `Broken` Thuộc tính này đảm bảo rằng nếu bảng bị ngắt giữa các trang, nó sẽ bị ngắt theo chiều dọc.
 
 ## Bước 4: Thiết lập Kích thước Bảng và Kiểu Ô
 
@@ -105,7 +107,7 @@ tableElement.DefaultCellTextState.ForegroundColor = Color.DarkCyan;
 tableElement.DefaultCellTextState.FontSize = 8F;
 ```
 
- Chúng tôi chỉ định độ rộng cột để đảm bảo mỗi cột trong bảng được cách đều nhau.`DefaultCellBorder`, `DefaultCellPadding` , Và`DefaultCellTextState` xác định kiểu mặc định cho các ô, bao gồm đường viền, khoảng đệm, màu chữ và kích thước phông chữ.
+Chúng tôi chỉ định độ rộng cột để đảm bảo mỗi cột trong bảng được cách đều nhau. `DefaultCellBorder`, `DefaultCellPadding`, Và `DefaultCellTextState` xác định kiểu mặc định cho các ô, bao gồm đường viền, khoảng đệm, màu chữ và kích thước phông chữ.
 
 ## Bước 5: Thêm các hàng lặp lại và kiểu tùy chỉnh
 
@@ -118,7 +120,7 @@ rowStyle.BackgroundColor = Color.LightCoral;
 tableElement.RepeatingRowsStyle = rowStyle;
 ```
 
- Các`RepeatingRowsCount` đảm bảo rằng ba hàng đầu tiên lặp lại nếu bảng trải dài nhiều trang. Chúng tôi đặt`RepeatingRowsStyle` để áp dụng màu nền tùy chỉnh cho các hàng này.
+Các `RepeatingRowsCount` đảm bảo rằng ba hàng đầu tiên lặp lại nếu bảng trải dài nhiều trang. Chúng tôi đặt `RepeatingRowsStyle` để áp dụng màu nền tùy chỉnh cho các hàng này.
 
 ## Bước 6: Thêm các phần tử đầu, thân và chân bảng
 
@@ -150,7 +152,7 @@ for (int rowIndex = 0; rowIndex < 10; rowIndex++)
 }
 ```
 
- Bảng được chia thành ba phần: phần đầu, phần thân và phần chân. Đầu tiên chúng ta tạo hàng tiêu đề bằng cách sử dụng`TableTHElement`và thêm tiêu đề cột. Sau đó, chúng ta điền vào phần thân của bảng bằng`TableTDElement`, điền nhãn vào mỗi ô có ghi vị trí của ô đó.
+Bảng được chia thành ba phần: phần đầu, phần thân và phần chân. Đầu tiên chúng ta tạo hàng tiêu đề bằng cách sử dụng `TableTHElement` và thêm tiêu đề cột. Sau đó, chúng ta điền vào phần thân của bảng bằng `TableTDElement`, điền nhãn vào mỗi ô có ghi vị trí của ô đó.
 
 ## Bước 7: Lưu tài liệu
 
@@ -183,22 +185,24 @@ Với Aspose.PDF cho .NET, việc tạo và định dạng bảng trong tài li�
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thêm hình ảnh vào ô trong bảng không?
- Có, bạn có thể chèn hình ảnh vào các ô bảng bằng cách sử dụng`Image` yếu tố.
+Có, bạn có thể chèn hình ảnh vào các ô bảng bằng cách sử dụng `Image` yếu tố.
 
 ### Làm thế nào để điều chỉnh độ rộng cột một cách linh hoạt?
- Bạn có thể thiết lập`ColumnAdjustment` tài sản để`AutoFitToWindow` để tự động điều chỉnh độ rộng cột dựa trên nội dung.
+Bạn có thể thiết lập `ColumnAdjustment` tài sản để `AutoFitToWindow` để tự động điều chỉnh độ rộng cột dựa trên nội dung.
 
 ### Có bắt buộc phải tuân thủ PDF/UA đối với tất cả tài liệu không?
 Mặc dù không bắt buộc, nhưng điều này được khuyến khích đối với các tài liệu yêu cầu tiêu chuẩn khả năng truy cập cao.
 
 ### Tôi có thể áp dụng nhiều kiểu khác nhau cho các hàng cụ thể không?
- Có, bạn có thể tùy chỉnh từng hàng hoặc ô riêng lẻ bằng cách điều chỉnh chúng`TextState` hoặc`BackgroundColor`.
+Có, bạn có thể tùy chỉnh từng hàng hoặc ô riêng lẻ bằng cách điều chỉnh chúng `TextState` hoặc `BackgroundColor`.
 
 ### Lợi ích của việc sử dụng nội dung được gắn thẻ là gì?
 Nội dung được gắn thẻ cải thiện khả năng truy cập tài liệu và giúp đảm bảo tuân thủ các tiêu chuẩn như PDF/UA.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

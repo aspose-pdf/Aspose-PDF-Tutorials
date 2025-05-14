@@ -1,14 +1,16 @@
 ---
-title: Добавляйте дочерние закладки в PDF-файлы
-linktitle: Добавляйте дочерние закладки в PDF-файлы
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как улучшить PDF-документы с помощью дочерних закладок с помощью Aspose.PDF для Java. Пошаговое руководство с примерами кода для улучшения навигации и организации.
-weight: 11
-url: /ru/java/pdf-bookmarks/add-child-bookmarks-pdfs/
+"description": "Узнайте, как улучшить PDF-документы с помощью дочерних закладок с помощью Aspose.PDF для Java. Пошаговое руководство с примерами кода для улучшения навигации и организации."
+"linktitle": "Добавляйте дочерние закладки в PDF-файлы"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Добавляйте дочерние закладки в PDF-файлы"
+"url": "/ru/java/pdf-bookmarks/add-child-bookmarks-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавляйте дочерние закладки в PDF-файлы
@@ -23,7 +25,7 @@ url: /ru/java/pdf-bookmarks/add-child-bookmarks-pdfs/
 Прежде чем приступить к реализации, убедитесь, что выполнены следующие предварительные условия:
 
 - В вашей системе установлена среда разработки Java.
--  Aspose.PDF для библиотеки Java. Вы можете скачать ее здесь[здесь](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF для библиотеки Java. Вы можете скачать ее здесь [здесь](https://releases.aspose.com/pdf/java/).
 
 ## Настройка окружающей среды
 
@@ -79,7 +81,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Добавить дочерние закладки в родительскую закладку 2
+// Добавить дочерние закладки в родительскую закладку 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -154,7 +156,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Добавить дочерние закладки в родительскую закладку 2
+// Добавить дочерние закладки в родительскую закладку 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -180,7 +182,7 @@ pdfDocument.save("output.pdf");
 
 ### Как загрузить Aspose.PDF для Java?
 
- Вы можете загрузить Aspose.PDF для Java с сайта[здесь](https://releases.aspose.com/pdf/java/).
+Вы можете загрузить Aspose.PDF для Java с сайта [здесь](https://releases.aspose.com/pdf/java/).
 
 ### Поддерживаются ли дочерние закладки во всех программах просмотра PDF-файлов?
 
@@ -197,9 +199,11 @@ pdfDocument.save("output.pdf");
 ### Подходит ли Aspose.PDF для Java для коммерческих проектов?
 
 Да, Aspose.PDF для Java подходит как для личных, так и для коммерческих проектов и предлагает широкий спектр функций для обработки и создания PDF-файлов.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına PDF Sayfa Damgası Ekle
-linktitle: PDF Dosyasına PDF Sayfa Damgası Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu detaylı kılavuzla Aspose.PDF for .NET kullanarak PDF sayfa damgası eklemeyi öğrenin. PDF belgelerinizin etkisini artırın.
-weight: 40
-url: /tr/net/programming-with-stamps-and-watermarks/add-pdf-page-stamp/
+"description": "Bu detaylı kılavuzla Aspose.PDF for .NET kullanarak PDF sayfa damgası eklemeyi öğrenin. PDF belgelerinizin etkisini artırın."
+"linktitle": "PDF Dosyasına PDF Sayfa Damgası Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına PDF Sayfa Damgası Ekle"
+"url": "/tr/net/programming-with-stamps-and-watermarks/add-pdf-page-stamp/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına PDF Sayfa Damgası Ekle
@@ -25,7 +27,7 @@ Sayfa damgası eklemenin inceliklerine dalmadan önce, ihtiyacınız olan her ş
 Bilgisayarınızda .NET Framework yüklü olmalıdır. Aspose.PDF, .NET Core, .NET Framework ve daha fazlasını destekler, bu yüzden projenize bağlı olarak uyumluluklarını kontrol edin.
 
 ### .NET Kütüphanesi için Aspose.PDF
- Geliştirme ortamınızda Aspose.PDF kütüphanesinin kurulu olması gerekir.[buradan indirin](https://releases.aspose.com/pdf/net/). 
+Geliştirme ortamınızda Aspose.PDF kütüphanesinin kurulu olması gerekir. [buradan indirin](https://releases.aspose.com/pdf/net/). 
 
 ### İDE
 Herhangi bir metin düzenleyiciyi kullanabilirsiniz ancak verimli bir kodlama deneyimi için Visual Studio gibi bir Entegre Geliştirme Ortamı (IDE) kullanmanız şiddetle önerilir.
@@ -34,7 +36,7 @@ Herhangi bir metin düzenleyiciyi kullanabilirsiniz ancak verimli bir kodlama de
 C# kod parçacıklarıyla uğraştığımız için, dilin temellerini anlamak, takip etmenizi kolaylaştıracaktır.
 
 ### PDF Dosyası
- Damga eklemek istediğiniz bir örnek PDF dosyanız olsun. Buna şu şekilde atıfta bulunacağız:`PDFPageStamp.pdf`. 
+Damga eklemek istediğiniz bir örnek PDF dosyanız olsun. Buna şu şekilde atıfta bulunacağız: `PDFPageStamp.pdf`. 
 
 ## Paketleri İçe Aktar 
 
@@ -64,27 +66,27 @@ Artık her şeyi ayarladığımıza göre, PDF sayfa damgası eklemenin ayrınt�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` dizininize giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` dizininize giden gerçek yol ile.
 
 ## Adım 2: Mevcut PDF Belgesini Açın
 
- Daha sonra, damgalamak istediğiniz PDF dosyasını açmak isteyeceksiniz.`Document` Aspose.PDF'den sınıfa giderek PDF'nizi kolayca yükleyebilirsiniz.
+Daha sonra, damgalamak istediğiniz PDF dosyasını açmak isteyeceksiniz. `Document` Aspose.PDF'den sınıfı seçerek PDF'nizi kolayca yükleyebilirsiniz.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "PDFPageStamp.pdf");
 ```
 
- Burada yeni bir şey yaratıyoruz`Document` nesne ve onu yükleme`PDFPageStamp.pdf`. Dosyanın belirtilen dizinde olduğundan emin olun.
+Burada yeni bir şey yaratıyoruz `Document` nesne ve onu yükleme `PDFPageStamp.pdf`. Dosyanın belirtilen dizinde olduğundan emin olun.
 
 ## Adım 3: Sayfa Damgasını Oluşturun
 
- Elinizde belge varken, bir belge oluşturmanın zamanı geldi`PdfPageStamp`Bu, PDF belgelerinde belirtilen sayfalara damga eklemekten sorumlu sınıftır.
+Elinizde belge varken, bir belge oluşturmanın zamanı geldi `PdfPageStamp`Bu, PDF belgelerinde belirtilen sayfalara damga eklemekten sorumlu sınıftır.
 
 ```csharp
 PdfPageStamp pageStamp = new PdfPageStamp(pdfDocument.Pages[1]);
 ```
 
-Burada örnekledik`pageStamp` ve bunu ilk sayfaya uygulamak istediğimizi belirttik (indeksleme 1'den başlar).
+Burada örnekledik `pageStamp` ve bunu ilk sayfaya uygulamak istediğimizi belirttik (indeksleme 1'den başlar).
 
 ## Adım 4: Sayfa Damgası Özelliklerini Yapılandırın
 
@@ -103,11 +105,11 @@ pageStamp.YIndent = 100; // Dikey pozisyonu ayarla
 pageStamp.Rotate = Rotation.on180; // 180 derece döndür
 ```
 
- Ayarlamaktan çekinmeyin`XIndent` Ve`YIndent` Sayfada istediğiniz yere damganızı yerleştirmek için değerler.
+Ayarlamaktan çekinmeyin `XIndent` Ve `YIndent` Sayfada istediğiniz yere damganızı yerleştirmek için değerler.
 
 ## Adım 5: Sayfaya Damgayı Ekleyin
 
-İşte tam bu noktada; yaratılan damgayı sayfaya uygulamamız gerekiyor.
+İşte tam bu noktada; yaratılan damgayı sayfaya vurmamız gerekiyor.
 
 ```csharp
 pdfDocument.Pages[1].AddStamp(pageStamp);
@@ -124,7 +126,7 @@ dataDir = dataDir + "PDFPageStamp_out.pdf"; // Çıktı dosya yolu
 pdfDocument.Save(dataDir); // Güncellenen belgeyi kaydet
 ```
 
-Artık yeni damgalanan PDF aynı dizine yeni bir adla kaydedilecek.`PDFPageStamp_out.pdf`.
+Artık yeni damgalanan PDF aynı dizine yeni bir adla kaydedilecek. `PDFPageStamp_out.pdf`.
 
 ## Adım 7: Onay Mesajı
 
@@ -152,13 +154,15 @@ Kesinlikle! İstediğiniz görünümü elde etmek için renk, dönüş ve boyut 
 Hayır, ihtiyacınız olan tek şey Aspose.PDF kütüphanesi, .NET framework ve uygun bir IDE.
 
 ### Farklı sayfalara birden fazla pul ekleyebilir miyim?  
- Evet, istediğiniz kadar yaratabilirsiniz`PdfPageStamp` İhtiyacınız olan nesneleri seçip PDF'inizin çeşitli sayfalarına uygulayabilirsiniz.
+Evet, istediğiniz kadar yaratabilirsiniz `PdfPageStamp` İhtiyacınız olan nesneleri seçip PDF'inizin çeşitli sayfalarına uygulayabilirsiniz.
 
 ### Daha fazla örnek veya dokümanı nerede bulabilirim?  
- Şunu kontrol edebilirsiniz:[Aspose.PDF Belgeleri](https://reference.aspose.com/pdf/net/) Daha fazla ayrıntı ve örnek için.
+Şunu kontrol edebilirsiniz: [Aspose.PDF Belgeleri](https://reference.aspose.com/pdf/net/) Daha fazla ayrıntı ve örnek için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

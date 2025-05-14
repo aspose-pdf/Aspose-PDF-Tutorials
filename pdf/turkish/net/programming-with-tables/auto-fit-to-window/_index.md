@@ -1,14 +1,16 @@
 ---
-title: Pencereye Otomatik Uyum
-linktitle: Pencereye Otomatik Uyum
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu ayrıntılı, adım adım kılavuzda .NET için Aspose.PDF'yi kullanarak bir tablonun pencereye otomatik olarak nasıl sığdırılacağını öğrenin. PDF'lerde cilalı ve iyi sığdırılmış tablolar oluşturmak için mükemmeldir.
-weight: 50
-url: /tr/net/programming-with-tables/auto-fit-to-window/
+"description": "Bu ayrıntılı, adım adım kılavuzda .NET için Aspose.PDF'yi kullanarak bir tablonun pencereye otomatik olarak nasıl sığdırılacağını öğrenin. PDF'lerde cilalı ve iyi sığdırılmış tablolar oluşturmak için mükemmeldir."
+"linktitle": "Pencereye Otomatik Uyum"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Pencereye Otomatik Uyum"
+"url": "/tr/net/programming-with-tables/auto-fit-to-window/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pencereye Otomatik Uyum
@@ -21,11 +23,11 @@ PDF'lerle çalışırken tablolarla uğraşmak yaygındır ve bu tabloların bir
 
 Adım adım kılavuza geçmeden önce ihtiyacınız olacak birkaç şey var:
 
-1. Projenizde .NET için Aspose.PDF yüklü. Eğer henüz yoksa,[buradan indirin](https://releases.aspose.com/pdf/net/) veya keşfetmek[ücretsiz deneme sürümü](https://releases.aspose.com/).
+1. Projenizde .NET için Aspose.PDF yüklü. Eğer henüz yoksa, [buradan indirin](https://releases.aspose.com/pdf/net/) veya keşfetmek [ücretsiz deneme sürümü](https://releases.aspose.com/).
 2. .NET programlamanın temelleri hakkında bilgi.
 3. Sisteminizde Visual Studio veya .NET destekli herhangi bir IDE yüklü olmalıdır.
 
->  PS Aspose.PDF'yi sınırlama olmaksızın kullanmak için bir lisansa ihtiyacınız olacağını unutmayın. Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya bir tane al[geçici lisans](https://purchase.aspose.com/temporary-license/) Tüm özelliklerini denemek için.
+> PS Aspose.PDF'yi sınırlama olmaksızın kullanmak için bir lisansa ihtiyacınız olacağını unutmayın. Bir tane satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya bir tane al [geçici lisans](https://purchase.aspose.com/temporary-license/) Tüm özelliklerini denemek için.
 
 ## Paketleri İçe Aktar
 
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
   
- Burada, şunu kullanarak yeni bir belge oluşturuyoruz:`Document` Aspose.PDF'den sınıf.`dataDir` işiniz bittikten sonra PDF'nizin kaydedileceği konumdur.
+Burada, şunu kullanarak yeni bir belge oluşturuyoruz: `Document` Aspose.PDF'den sınıf. `dataDir` işiniz bittikten sonra PDF'nizin kaydedileceği konumdur.
 
 ## Adım 2: Belgeye Bir Sayfa Ekleyin
 
@@ -62,7 +64,7 @@ Bir PDF belgesinin sayfalara ihtiyacı var, değil mi? Hadi bir tane ekleyelim.
 Page sec1 = doc.Pages.Add();
 ```
   
- Belgeye yeni bir sayfa ekledik`Pages.Add()` yöntem. Bunu, tabloyu yerleştireceğiniz belgenize yeni bir sayfa eklemek olarak düşünebilirsiniz.
+Belgeye yeni bir sayfa ekledik `Pages.Add()` yöntem. Bunu, tabloyu yerleştireceğiniz belgenize yeni bir sayfa eklemek olarak düşünebilirsiniz.
 
 ## Adım 3: Bir Tablo Oluşturun ve Yapılandırın
 
@@ -75,7 +77,7 @@ Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 sec1.Paragraphs.Add(tab1);
 ```
   
- Yeni bir tane başlattık`Table` nesneyi ekledi ve sayfanın paragraf koleksiyonuna ekledi. Her PDF sayfası farklı paragraflara sahip olabilir ve burada tabloyu bir paragraf olarak ele alıyoruz.
+Yeni bir tane başlattık `Table` nesneyi ekledi ve sayfanın paragraf koleksiyonuna ekledi. Her PDF sayfası farklı paragraflara sahip olabilir ve burada tabloyu bir paragraf olarak ele alıyoruz.
 
 ## Adım 4: Sütun Genişliklerini Tanımlayın ve Pencereye Otomatik Olarak Sığdırın
 
@@ -87,7 +89,7 @@ tab1.ColumnWidths = "50 50 50";
 tab1.ColumnAdjustment = ColumnAdjustment.AutoFitToWindow;
 ```
   
- Tablo için sabit sütun genişlikleri belirledik ancak ayrıca şunları da ekledik:`ColumnAdjustment.AutoFitToWindow`, tablonun mevcut pencereye uyacak şekilde boyutunu ayarlamasını sağlar.
+Tablo için sabit sütun genişlikleri belirledik ancak ayrıca şunları da ekledik: `ColumnAdjustment.AutoFitToWindow`, tablonun mevcut pencereye uyacak şekilde boyutunu ayarlamasını sağlar.
 
 ## Adım 5: Tablo ve Hücreler için Kenarlıkları ve Kenar Boşluklarını Ayarlayın
 
@@ -111,14 +113,14 @@ margin.Bottom = 5f;
 tab1.DefaultCellPadding = margin;
 ```
   
- Tabloya ve hücrelere kenarlıklar, şunu kullanarak eklenir:`BorderInfo` kalınlığı tanımladığınız sınıf. Kenar boşlukları hücrelere biraz dolgu alanı sağlamak için ayarlanır.
+Tabloya ve hücrelere kenarlıklar, şunu kullanarak eklenir: `BorderInfo` kalınlığı tanımladığınız sınıf. Kenar boşlukları hücrelere biraz dolgu alanı vermek için ayarlanır.
 
 ## Adım 6: Tabloya Satır ve Hücreler Ekleyin
 
 İçeriği olmayan bir tablo? Bu iyi değil! Hadi birkaç satır ve hücre ekleyelim.
 
 ```csharp
-//Tabloda satırlar ve ardından satırlarda hücreler oluşturun
+// Tabloda satırlar ve ardından satırlarda hücreler oluşturun
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("col1");
 row1.Cells.Add("col2");
@@ -142,19 +144,19 @@ dataDir = dataDir + "AutoFitToWindow_out.pdf";
 doc.Save(dataDir);
 ```
   
- The`doc.Save()` yöntem PDF'yi belirtilen dizine kaydeder. Bu durumda, belge şu şekilde kaydedilir:`AutoFitToWindow_out.pdf` tanımladığınız dizinde.
+The `doc.Save()` yöntem PDF'yi belirtilen dizine kaydeder. Bu durumda, belge şu şekilde kaydedilir: `AutoFitToWindow_out.pdf` tanımladığınız dizinde.
 
 ## Çözüm
 
-İşte oldu! Aspose.PDF for .NET kullanarak pencereye otomatik olarak uyan bir tablo oluşturdunuz. Bu, tablonuzun yalnızca profesyonel ve iyi yerleştirilmiş görünmesini sağlamakla kalmaz, aynı zamanda farklı veri boyutlarıyla çalışırken size esneklik de sağlar. İster raporlar, ister faturalar veya tablo gerektiren herhangi bir belge oluşturuyor olun, bu yöntem temiz ve okunabilir düzenleri korumak için harika bir yoldur.
+İşte oldu! Aspose.PDF for .NET kullanarak pencereye otomatik olarak uyan bir tablo oluşturdunuz. Bu, tablonuzun profesyonel ve iyi yerleştirilmiş görünmesini sağlamanın yanı sıra, değişen veri boyutlarıyla çalışırken size esneklik de sağlar. İster raporlar, ister faturalar veya tablo gerektiren herhangi bir belge oluşturuyor olun, bu yöntem temiz ve okunabilir düzenleri korumak için harika bir yoldur.
 
 ## SSS
 
 ### Dinamik olarak daha fazla satır ekleyebilir miyim?  
- Evet, satır eklemeye devam edebilirsiniz`tab1.Rows.Add()` içeriğe göre dinamik olarak uygulanan bir yöntemdir.
+Evet, satır eklemeye devam edebilirsiniz `tab1.Rows.Add()` içeriğe göre dinamik olarak uygulanan bir yöntemdir.
 
 ### Tablonun otomatik olarak sığmasını istemiyorsam nasıl ayarlarım?  
- Manuel olarak ayarlayabilirsiniz`ColumnWidths` kullanmadan`ColumnAdjustment.AutoFitToWindow` sabit bir masa genişliğini korumak için.
+Manuel olarak ayarlayabilirsiniz `ColumnWidths` kullanmadan `ColumnAdjustment.AutoFitToWindow` sabit bir masa genişliğini korumak için.
 
 ### Hücrelerin içine resim veya başka içerikler ekleyebilir miyim?  
 Evet, Aspose.PDF hücrelerin içine resim, metin ve hatta diğer tabloları eklemenize olanak tanır!
@@ -164,9 +166,11 @@ Arka plan rengi, metin hizalaması ve yazı tipi ayarları gibi özellikleri kul
 
 ### Bu tabloyu PDF dışındaki formatlara aktarmak mümkün müdür?  
 Kesinlikle! Aspose.PDF, HTML, DOCX ve daha fazlası gibi çeşitli formatlara aktarımı destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Elemen Struktur Ilustrasi
-linktitle: Elemen Struktur Ilustrasi
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Buat PDF terstruktur dengan elemen ilustrasi di Aspose.PDF untuk .NET dengan mengikuti tutorial langkah demi langkah kami.
-weight: 100
-url: /id/net/programming-with-tagged-pdf/illustration-structure-elements/
+"description": "Buat PDF terstruktur dengan elemen ilustrasi di Aspose.PDF untuk .NET dengan mengikuti tutorial langkah demi langkah kami."
+"linktitle": "Elemen Struktur Ilustrasi"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Elemen Struktur Ilustrasi"
+"url": "/id/net/programming-with-tagged-pdf/illustration-structure-elements/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elemen Struktur Ilustrasi
@@ -21,10 +23,10 @@ Apakah Anda siap membuat PDF yang menakjubkan dan terstruktur dalam aplikasi .NE
 
 Sebelum kita membahas detailnya, mari pastikan Anda memiliki semua yang dibutuhkan agar dapat mengikutinya dengan lancar.
 
-1.  Aspose.PDF untuk .NET – Anda memerlukan pustaka Aspose.PDF yang terinstal. Belum memilikinya? Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/) Jika Anda ingin mengujinya terlebih dahulu, Anda dapat mengambil[uji coba gratis](https://releases.aspose.com/).
+1. Aspose.PDF untuk .NET – Anda memerlukan pustaka Aspose.PDF yang terinstal. Belum memilikinya? Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/)Jika Anda ingin mengujinya terlebih dahulu, Anda dapat mengambil [uji coba gratis](https://releases.aspose.com/).
 2. Visual Studio – Kami akan membuat kode dalam C#, jadi pastikan Visual Studio atau IDE yang kompatibel telah terpasang.
 3. .NET Framework – Pastikan Anda memiliki versi yang kompatibel dengan Aspose.PDF untuk .NET.
-4.  Lisensi Sementara – Aspose.PDF hadir dengan beberapa batasan dalam mode uji coba, jadi dapatkan lisensi sementara.[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk membuka fitur lengkap.
+4. Lisensi Sementara – Aspose.PDF hadir dengan beberapa batasan dalam mode uji coba, jadi dapatkan lisensi sementara. [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk membuka fitur lengkap.
 
 Selesai! Sekarang mari impor namespace yang diperlukan dan lanjutkan dengan pengkodean.
 
@@ -43,13 +45,13 @@ Ini adalah fondasinya—tanpa mengimpor namespace ini, kita tidak dapat berinter
 
 ## Langkah 1: Menyiapkan Direktori Dokumen Anda
 
-Sebelum Anda mulai membuat PDF, Anda perlu menentukan jalur ke direktori dokumen tempat file akan disimpan. Ini adalah folder di sistem tempat gambar atau aset lainnya disimpan.
+Sebelum Anda mulai membuat PDF, Anda perlu menentukan jalur ke direktori dokumen tempat file akan disimpan. Ini adalah folder di sistem Anda tempat gambar atau aset lainnya disimpan.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Langkah ini sederhana, tetapi penting. Anda memberi tahu program tempat menemukan dan menyimpan file yang akan Anda kerjakan. Ini seperti memiliki basis untuk PDF Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
+Langkah ini sederhana, tetapi penting. Anda memberi tahu program tempat menemukan dan menyimpan file yang akan Anda kerjakan. Ini seperti memiliki basis untuk PDF Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
 
 ## Langkah 2: Membuat Dokumen PDF Baru
 
@@ -70,7 +72,7 @@ Untuk bekerja dengan elemen struktur ilustrasi, kita perlu memanfaatkan Konten B
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- Di sinilah keajaiban terjadi!`TaggedContent` objek memungkinkan kita menentukan bagaimana elemen-elemen dalam PDF ditafsirkan. Jika Anda bekerja dengan aksesibilitas atau struktur, langkah ini sangat penting.
+Di sinilah keajaiban terjadi! `TaggedContent` objek memungkinkan kita menentukan bagaimana elemen-elemen dalam PDF ditafsirkan. Jika Anda bekerja dengan aksesibilitas atau struktur, langkah ini sangat penting.
 
 ## Langkah 4: Mengatur Judul dan Bahasa Dokumen
 
@@ -105,9 +107,9 @@ figure1.SetTag("Fig1");
 figure1.SetImage(dataDir + "image.jpg");
 ```
 
- Ini adalah sentuhan terakhir. Kami memberikan teks alt deskriptif pada gambar kami (yang berguna untuk pembaca layar), judul, dan pengaturan berkas gambar yang sebenarnya.`SetTag`metode menandai gambar, sehingga lebih mudah untuk dirujuk nanti.
+Ini adalah sentuhan terakhir. Kami memberikan teks alt deskriptif pada gambar kami (yang berguna untuk pembaca layar), judul, dan pengaturan berkas gambar yang sebenarnya. `SetTag` metode menandai gambar, sehingga lebih mudah untuk dirujuk nanti.
 
- Catatan Penting: Pastikan jalur gambar di`SetImage` menunjuk ke berkas gambar yang valid pada komputer Anda.
+Catatan Penting: Pastikan jalur gambar di `SetImage` menunjuk ke berkas gambar yang valid pada komputer Anda.
 
 ## Langkah 7: Menyimpan Dokumen PDF yang Ditandai
 
@@ -132,16 +134,18 @@ PDF yang diberi tag adalah PDF yang menyertakan tag atau label untuk mengidentif
 Teks alternatif menyediakan deskripsi untuk gambar, yang dapat dibaca oleh pembaca layar, meningkatkan aksesibilitas bagi pengguna yang memiliki gangguan penglihatan.
 
 ### Bisakah saya menambahkan beberapa gambar ke PDF yang diberi tag?
- Ya! Anda dapat membuat beberapa`FigureElement` objek dan menambahkan masing-masing objek ke dokumen Anda, seperti yang kita lakukan dengan gambar tunggal.
+Ya! Anda dapat membuat beberapa `FigureElement` objek dan menambahkan masing-masing objek ke dokumen Anda, seperti yang kita lakukan dengan gambar tunggal.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF untuk .NET?
- Ya, Aspose.PDF adalah pustaka berbayar, tetapi Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau mulai dengan[uji coba gratis](https://releases.aspose.com/).
+Ya, Aspose.PDF adalah pustaka berbayar, tetapi Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau mulai dengan [uji coba gratis](https://releases.aspose.com/).
 
 ### Apakah mungkin untuk mengubah elemen gambar setelah membuat PDF?
 Setelah PDF disimpan, Anda tidak dapat mengubahnya secara langsung, tetapi Anda dapat membuka kembali dokumen tersebut, membuat perubahan, dan menyimpannya lagi menggunakan Aspose.PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

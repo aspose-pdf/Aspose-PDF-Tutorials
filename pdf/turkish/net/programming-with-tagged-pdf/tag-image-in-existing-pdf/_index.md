@@ -1,30 +1,32 @@
 ---
-title: Mevcut PDF'deki Etiket Resmi
-linktitle: Mevcut PDF'deki Etiket Resmi
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak mevcut PDF'lerdeki görselleri nasıl etiketleyeceğinizi öğrenin. PDF/UA uyumluluğu ile erişilebilirliği artırmak için adım adım kılavuz.
-weight: 210
-url: /tr/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/
+"description": "Aspose.PDF for .NET kullanarak mevcut PDF'lerdeki görselleri nasıl etiketleyeceğinizi öğrenin. PDF/UA uyumluluğu ile erişilebilirliği artırmak için adım adım kılavuz."
+"linktitle": "Mevcut PDF'deki Etiket Resmi"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Mevcut PDF'deki Etiket Resmi"
+"url": "/tr/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mevcut PDF'deki Etiket Resmi
 
 ## giriiş
 
-Bu eğitimde, .NET için Aspose.PDF kullanarak mevcut bir PDF'deki bir resmi nasıl etiketleyeceğinizi göstereceğiz. Bu kılavuzun sonunda, resimler için alternatif metin ayarlayabilecek, düzen niteliklerini ayarlayabilecek ve PDF'nizin erişilebilirlik standartlarına uygun olduğundan emin olabileceksiniz.
+Bu eğitimde, .NET için Aspose.PDF kullanarak mevcut bir PDF'deki bir resmi nasıl etiketleyeceğinizi göstereceğiz. Bu kılavuzun sonunda, resimler için alternatif metin ayarlayabilecek, düzen niteliklerini ayarlayabilecek ve PDF'nizin erişilebilirlik standartlarına uymasını sağlayabileceksiniz.
 
 ## Ön koşullar
 
 Başlamadan önce, başlamak için neye ihtiyacınız olduğunu gözden geçirelim:
 
--  Aspose.PDF for .NET: Aspose.PDF for .NET'in en son sürümünü indirip yüklediğinizden emin olun.[Buradan indirin](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF for .NET: Aspose.PDF for .NET'in en son sürümünü indirip yüklediğinizden emin olun. [Buradan indirin](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Visual Studio gibi bir .NET geliştirme ortamının kurulu olduğundan emin olun.
 - PDF Yapısının Temel Anlayışı: Paragraflar, bölümler, tablolar ve resimler gibi PDF yapı öğelerine aşinalık.
--  Geçerli Bir Lisans: Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici bir tane kullanın[Burada](https://purchase.aspose.com/temporary-license/).
+- Geçerli Bir Lisans: Bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya geçici bir tane kullanın [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Paketleri İçe Aktar
 
@@ -56,8 +58,8 @@ string logFile = dataDir + "TH_out.xml";
 Document document = new Document(inFile);
 ```
 
--  Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` dosyanızın gerçek yolu ile.
--  The`Document` class, mevcut bir PDF'yi yüklemenize olanak tanır. Bu PDF'yi, resmi etiketlemek için değiştireceksiniz.
+- Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` dosyanızın gerçek yolunu belirtin.
+- The `Document` class, mevcut bir PDF'yi yüklemenize olanak tanır. Bu PDF'yi, resmi etiketlemek için değiştireceksiniz.
 
 ## Adım 2: Etiketli İçeriğe ve Kök Yapı Elemanına Erişim
 
@@ -70,7 +72,7 @@ StructureElement rootElement = taggedContent.RootElement;
 ```
 
 - `TaggedContent` PDF'deki yapılandırılmış öğelere erişim sağlar.
--  The`RootElement` en üstteki yapı elemanıdır, buradan paragraflar, tablolar ve resimler gibi diğer elemanlara geçebilirsiniz.
+- The `RootElement` en üstteki yapı elemanıdır, buradan paragraflar, tablolar ve resimler gibi diğer elemanlara geçebilirsiniz.
 
 ## Adım 3: Etiketli PDF Belgesi için Başlığı Ayarlayın
 
@@ -85,7 +87,7 @@ taggedContent.SetTitle("Document with images");
 
 ## Adım 4: Görseli Bulun ve Etiketleyin
 
- Şimdi, resim öğesini (bir resim öğesi olarak adlandırılır) bulalım.`FigureElement` (Aspose.PDF'de) bunun için alternatif bir metin ayarlayın ve düzen niteliklerini yapılandırın.
+Şimdi, resim öğesini (bir resim öğesi olarak adlandırılır) bulalım. `FigureElement` (Aspose.PDF'de) bunun için alternatif bir metin ayarlayın ve düzen niteliklerini yapılandırın.
 
 ```csharp
 // Tüm Şekil öğelerinde (görüntülerde) döngü yapın ve alternatif metin ve düzen niteliklerini ayarlayın
@@ -104,13 +106,13 @@ foreach (FigureElement figureElement in rootElement.FindElements<FigureElement>(
 }
 ```
 
--  Bu kod tüm döngüleri kapsar`FigureElement` Kök yapıdaki, görüntüleri temsil eden nesneler.
+- Bu kod tüm döngüleri kapsar `FigureElement` Kök yapıdaki, görüntüleri temsil eden nesneler.
 - Erişilebilirlik için alternatif metni ayarlar (ekran okuyucular bunu görüntüyü tanımlamak için kullanır).
-- Sınırlayıcı kutu (`BBox`görüntünün düzeni için koordinatları belirtir ve belgede doğru şekilde görüntülenmesini sağlar.
+- Sınırlayıcı kutu (`BBox`) görüntünün düzeni için koordinatları belirtir ve belgede doğru şekilde görüntülenmesini sağlar.
 
 ## Adım 5: Tablodaki Span Elemanlarını Değiştirin
 
- Bazı durumlarda, bir tablo içindeki span öğelerini değiştirmeniz gerekebilir. Burada, bir span öğesinin nasıl bulunacağını göstereceğiz.`SpanElement` ve onu bir paragrafa taşıyın.
+Bazı durumlarda, bir tablo içindeki span öğelerini değiştirmeniz gerekebilir. Burada, bir span öğesinin nasıl bulunacağını göstereceğiz. `SpanElement` ve onu bir paragrafa taşıyın.
 
 ```csharp
 // Tablo, aralık ve paragraf öğelerini bulun
@@ -123,8 +125,8 @@ ParagraphElement paragraph = firstTdElement.FindElements<ParagraphElement>(true)
 spanElement.ChangeParentElement(paragraph);
 ```
 
--  Burada, şunu buluyoruz:`TableElement`, `SpanElement` , Ve`ParagraphElement` PDF'in içinde.
--  Kullanımı`ChangeParentElement` Bu yöntemde, uygun etiketleme ve yapıyı sağlamak için aralığı paragrafa taşıyoruz.
+- Burada, şunu buluyoruz: `TableElement`, `SpanElement`, Ve `ParagraphElement` PDF'in içinde.
+- Kullanımı `ChangeParentElement` Bu yöntemde, uygun etiketleme ve yapıyı sağlamak için aralığı paragrafa taşıyoruz.
 
 ## Adım 6: Belgeyi Kaydedin ve PDF/UA Uyumluluğunu Doğrulayın
 
@@ -140,7 +142,7 @@ bool isPdfUaCompliance = document.Validate(logFile, PdfFormat.PDF_UA_1);
 Console.WriteLine(String.Format("PDF/UA compliance: {0}", isPdfUaCompliance));
 ```
 
--  The`Validate` yöntem PDF belgesini PDF/UA standartlarına göre kontrol eder ve sonuçları kaydeder.
+- The `Validate` yöntem PDF belgesini PDF/UA standartlarına göre kontrol eder ve sonuçları kaydeder.
 - Uygunluğun sağlanması erişilebilirliği iyileştirmeye ve belge yayımlama konusunda düzenleyici gereklilikleri karşılamaya yardımcı olur.
 
 ## Çözüm
@@ -153,7 +155,7 @@ Bu eğitimde, .NET için Aspose.PDF kullanarak mevcut bir PDF'deki görselleri n
 Aspose.PDF for .NET, .NET ortamında PDF belgelerini programlı olarak oluşturmak, düzenlemek ve düzenlemek için kullanılan güçlü bir kütüphanedir.
 
 ### PDF/UA uyumluluğunu nasıl sağlayabilirim?
- Aspose.PDF'leri kullanabilirsiniz`Validate` Belgede değişiklik yapıldıktan sonra PDF/UA uyumluluğunu kontrol etme yöntemi.
+Aspose.PDF'leri kullanabilirsiniz `Validate` Belgede değişiklik yapıldıktan sonra PDF/UA uyumluluğunu kontrol etme yöntemi.
 
 ### PDF'lerde alternatif metin nedir?
 Alternatif metin, özellikle ekran okuyucu kullanan kullanıcılar için erişilebilirliği artırmak amacıyla PDF'lerdeki resimlere eklenen bir açıklamadır.
@@ -162,10 +164,12 @@ Alternatif metin, özellikle ekran okuyucu kullanan kullanıcılar için erişil
 Evet, Aspose.PDF bir PDF belgesindeki tabloları, aralıkları ve diğer yapılandırılmış öğeleri düzenlemenize olanak tanır.
 
 ### Aspose.PDF for .NET'i nereden indirebilirim?
- Aspose.PDF'in .NET için en son sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+Aspose.PDF'in .NET için en son sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

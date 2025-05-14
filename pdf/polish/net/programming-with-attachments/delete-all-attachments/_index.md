@@ -1,27 +1,29 @@
 ---
-title: Usuń wszystkie załączniki w pliku PDF
-linktitle: Usuń wszystkie załączniki w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak usunąć wszystkie załączniki w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Uprość zarządzanie plikami PDF.
-weight: 20
-url: /pl/net/programming-with-attachments/delete-all-attachments/
+"description": "Dowiedz się, jak usunąć wszystkie załączniki w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Uprość zarządzanie plikami PDF."
+"linktitle": "Usuń wszystkie załączniki w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Usuń wszystkie załączniki w pliku PDF"
+"url": "/pl/net/programming-with-attachments/delete-all-attachments/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń wszystkie załączniki w pliku PDF
 
 ## Wstęp
 
-Czy kiedykolwiek znalazłeś się w sytuacji, w której musisz oczyścić plik PDF, usuwając wszystkie załączniki? Niezależnie od tego, czy chodzi o prywatność, zmniejszenie rozmiaru pliku, czy po prostu uporządkowanie dokumentów, wiedza, jak usuwać załączniki z pliku PDF, może być niezwykle przydatna. W tym samouczku przeprowadzimy Cię przez proces usuwania wszystkich załączników w pliku PDF przy użyciu Aspose.PDF dla .NET. Ta potężna biblioteka ułatwia programowe manipulowanie dokumentami PDF, a pod koniec tego przewodnika będziesz wyposażony w wiedzę, aby obsługiwać załączniki jak profesjonalista!
+Czy kiedykolwiek znalazłeś się w sytuacji, w której musisz oczyścić plik PDF, usuwając wszystkie załączniki? Niezależnie od tego, czy chodzi o względy prywatności, zmniejszenie rozmiaru pliku, czy po prostu uporządkowanie dokumentów, wiedza, jak usuwać załączniki z pliku PDF, może być niezwykle przydatna. W tym samouczku przeprowadzimy Cię przez proces usuwania wszystkich załączników w pliku PDF przy użyciu Aspose.PDF dla .NET. Ta potężna biblioteka ułatwia programowe manipulowanie dokumentami PDF, a pod koniec tego przewodnika będziesz wyposażony w wiedzę, aby obsługiwać załączniki jak profesjonalista!
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w kod, jest kilka rzeczy, które musisz mieć na miejscu:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: środowisko programistyczne, w którym można pisać i wykonywać kod .NET.
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
@@ -41,7 +43,7 @@ Otwórz Visual Studio i utwórz nowy projekt C#. Możesz wybrać aplikację kons
 
 ### Importuj wymagane przestrzenie nazw
 
- Po dodaniu biblioteki otwórz ją`Program.cs` plik i zaimportuj niezbędne przestrzenie nazw na górze pliku:
+Po dodaniu biblioteki otwórz ją `Program.cs` plik i zaimportuj niezbędne przestrzenie nazw na górze pliku:
 
 ```csharp
 using System.IO;
@@ -60,7 +62,7 @@ Po pierwsze, musisz określić ścieżkę do katalogu dokumentów. Tutaj znajduj
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, gdzie przechowywany jest Twój plik PDF. Jest to kluczowe, ponieważ program musi wiedzieć, gdzie znaleźć plik, który chcesz zmodyfikować.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest Twój plik PDF. Jest to kluczowe, ponieważ program musi wiedzieć, gdzie znaleźć plik, który chcesz zmodyfikować.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -71,11 +73,11 @@ Następnie będziesz chciał otworzyć dokument PDF zawierający załączniki, k
 Document pdfDocument = new Document(dataDir + "DeleteAllAttachments.pdf");
 ```
 
- Ta linia kodu tworzy nowy`Document` obiekt, który reprezentuje Twój plik PDF. Upewnij się, że nazwa pliku jest taka sama jak ta, którą masz w swoim katalogu.
+Ta linia kodu tworzy nowy `Document` obiekt, który reprezentuje Twój plik PDF. Upewnij się, że nazwa pliku jest taka sama jak ta, którą masz w swoim katalogu.
 
 ## Krok 3: Usuń wszystkie załączniki
 
-Teraz nadchodzi ekscytująca część! Możesz usunąć wszystkie załączniki w pliku PDF za pomocą tylko jednej linijki kodu:
+Teraz nadchodzi ekscytująca część! Możesz usunąć wszystkie załączniki w pliku PDF za pomocą tylko jednej linii kodu:
 
 ```csharp
 // Usuń wszystkie załączniki
@@ -113,22 +115,24 @@ I masz to! Udało Ci się nauczyć, jak usuwać wszystkie załączniki z pliku P
 ## Najczęściej zadawane pytania
 
 ### Czy mogę usunąć konkretne załączniki zamiast wszystkich?
- Tak, możesz selektywnie usuwać załączniki, uzyskując do nich dostęp za pomocą`EmbeddedFiles` kolekcja.
+Tak, możesz selektywnie usuwać załączniki, uzyskując do nich dostęp za pomocą `EmbeddedFiles` kolekcja.
 
 ### Co się stanie, jeśli usunę załączniki?
 Usuniętych załączników nie można odzyskać, jeśli nie posiadasz kopii zapasowej oryginalnego pliku PDF.
 
 ### Czy korzystanie z Aspose.PDF jest bezpłatne?
-Aspose.PDF oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Sprawdź[kup stronę](https://purchase.aspose.com/buy) po więcej szczegółów.
+Aspose.PDF oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Sprawdź [kup stronę](https://purchase.aspose.com/buy) po więcej szczegółów.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Pełną dokumentację Aspose.PDF dla .NET można znaleźć[Tutaj](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację Aspose.PDF dla .NET można znaleźć [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
- Możesz szukać pomocy u społeczności Aspose na ich stronie[forum wsparcia](https://forum.aspose.com/c/pdf/10).
+Możesz szukać pomocy u społeczności Aspose na ich stronie [forum wsparcia](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

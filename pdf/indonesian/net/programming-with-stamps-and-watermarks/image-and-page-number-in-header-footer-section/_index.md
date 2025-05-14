@@ -1,28 +1,30 @@
 ---
-title: Gambar dan Nomor Halaman di Bagian Header dan Footer
-linktitle: Gambar dan Nomor Halaman di Bagian Header dan Footer
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan gambar dan nomor halaman ke header dan footer PDF Anda menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini.
-weight: 110
-url: /id/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section/
+"description": "Pelajari cara menambahkan gambar dan nomor halaman ke header dan footer PDF Anda menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini."
+"linktitle": "Gambar dan Nomor Halaman di Bagian Header dan Footer"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Gambar dan Nomor Halaman di Bagian Header dan Footer"
+"url": "/id/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gambar dan Nomor Halaman di Bagian Header dan Footer
 
 ## Perkenalan
 
-Jika berbicara tentang pembuatan dokumen PDF tingkat profesional, memiliki kendali atas detail kecil seperti header dan footer sangatlah penting. Anda ingin dokumen Anda terlihat rapi dan terorganisasi dengan baik, bukan? Nah, dengan Aspose.PDF untuk .NET, Anda dapat menambahkan gambar dan nomor halaman dengan mudah ke bagian header dan footer dokumen Anda. Dalam tutorial ini, kami akan memandu Anda melalui setiap langkah, sehingga mudah diikuti.
+Jika berbicara tentang pembuatan dokumen PDF tingkat profesional, memiliki kendali atas detail kecil seperti header dan footer sangatlah penting. Anda ingin dokumen Anda terlihat rapi dan tertata rapi, bukan? Nah, dengan Aspose.PDF untuk .NET, Anda dapat menambahkan gambar dan nomor halaman dengan mudah ke bagian header dan footer dokumen Anda. Dalam tutorial ini, kami akan memandu Anda melalui setiap langkah, sehingga mudah diikuti.
 
 ## Prasyarat
 
 Sebelum menyelami inti tutorial ini, pastikan Anda sudah menyiapkan hal berikut:
 
 1. .NET Framework: Anda perlu menginstal versi .NET Framework apa pun di komputer Anda. Jika belum memilikinya, Anda dapat mengunduhnya dengan mudah dari situs web Microsoft.
-2.  Aspose.PDF untuk .NET: Karena kita akan menggunakan Aspose.PDF, pastikan Anda telah menginstalnya di proyek Anda. Anda dapat mengunduh versi uji coba[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Karena kita akan menggunakan Aspose.PDF, pastikan Anda telah menginstalnya di proyek Anda. Anda dapat mengunduh versi uji coba [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# dasar tentu akan membantu Anda memahami kode tanpa banyak kesulitan.
 4. Berkas Gambar: Anda memerlukan gambar yang ingin Anda masukkan di tajuk dokumen PDF, seperti logo. Simpan di direktori yang mudah diakses. 
 5. IDE: Gunakan Lingkungan Pengembangan Terpadu (IDE) pilihan Anda, seperti Visual Studio, untuk bekerja dengan proyek .NET Anda.
@@ -51,7 +53,7 @@ Setiap proyek yang baik dimulai dengan pengorganisasian. Tentukan direktori doku
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ingat untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF dan tempat gambar Anda berada.
+Ingat untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF dan tempat gambar Anda berada.
 
 ## Langkah 2: Buat Dokumen PDF Baru
 
@@ -145,7 +147,7 @@ Dan begitu saja, PDF Anda sudah siap dan dimuat dengan gambar header dan nomor h
 
 ## Kesimpulan
 
-Nah, itu dia! Anda baru saja membuat PDF dengan gambar di header dan nomor halaman dinamis di footer menggunakan Aspose.PDF for .NET. Sungguh luar biasa bagaimana beberapa baris kode dapat menghasilkan output yang sangat bagus. Baik untuk laporan perusahaan atau dokumen yang dipersonalisasi, menambahkan elemen-elemen ini akan mengubah corak dan profesionalisme PDF Anda.
+Nah, itu dia! Anda baru saja membuat PDF dengan gambar di header dan nomor halaman dinamis di footer menggunakan Aspose.PDF untuk .NET. Sungguh luar biasa bagaimana beberapa baris kode dapat menghasilkan output yang sangat bagus. Baik untuk laporan perusahaan atau dokumen yang dipersonalisasi, menambahkan elemen-elemen ini akan mengubah corak dan profesionalisme PDF Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -153,7 +155,7 @@ Nah, itu dia! Anda baru saja membuat PDF dengan gambar di header dan nomor halam
 Ya, Aspose.PDF untuk .NET mendukung beberapa platform .NET termasuk .NET Framework, .NET Core, dan banyak lagi.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF?
- Tentu saja! Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+Tentu saja! Anda dapat mengunduh versi uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Format gambar apa yang didukung untuk header?
 Aspose.PDF mendukung sebagian besar format gambar umum seperti JPG, PNG, dan BMP untuk header dan footer.
@@ -162,10 +164,12 @@ Aspose.PDF mendukung sebagian besar format gambar umum seperti JPG, PNG, dan BMP
 Ya, Anda dapat dengan mudah menyesuaikan teks dan format footer sesuai kebutuhan Anda.
 
 ### Apakah dukungan teknis tersedia?
- Ya, Aspose menyediakan dukungan khusus melalui forum mereka. Anda dapat menghubungi kami untuk meminta bantuan[Di Sini](https://forum.aspose.com/c/pdf/10).
+Ya, Aspose menyediakan dukungan khusus melalui forum mereka. Anda dapat menghubungi kami untuk meminta bantuan [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

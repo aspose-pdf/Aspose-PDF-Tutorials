@@ -1,45 +1,47 @@
 ---
-title: Rádiógomb Opciókkal
-linktitle: Rádiógomb Opciókkal
-second_title: Aspose.PDF for .NET API Reference
-description: Az Aspose.PDF for .NET segítségével választógombok hozzáadásával tárja fel az interaktív PDF-fájlokban rejlő lehetőségeket. Hozzon létre egyszerűen vonzó űrlapokat, és javítsa a felhasználói élményt.
-weight: 230
-url: /hu/net/programming-with-forms/radio-button-with-options/
+"description": "Az interaktív PDF-ekben rejlő lehetőségeket az Aspose.PDF for .NET segítségével választógombok hozzáadásával szabadíthatja fel. Hozzon létre lebilincselő űrlapokat könnyedén, és javítsa a felhasználói élményt."
+"linktitle": "Választható választógomb"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Választható választógomb"
+"url": "/hu/net/programming-with-forms/radio-button-with-options/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rádiógomb Opciókkal
+# Választható választógomb
 
 ## Bevezetés
 
-Az interaktív PDF-dokumentumok létrehozása jelentősen növelheti a felhasználók elkötelezettségét és ésszerűsítheti az adatgyűjtést. A különféle beépíthető elemek közül a választógombok a feleletválasztós opciók felhasználóbarát bemutatásának módja. Az Aspose.PDF for .NET használatával könnyedén hozzáadhat választógombokat PDF-űrlapjaihoz, így a felhasználók könnyen kiválaszthatják preferenciáikat. Akár felméréseken, visszajelzési űrlapokon vagy alkalmazásokon dolgozik, ez az útmutató segít az Aspose.PDF erejének kihasználásában a rádiógombok hatékony megvalósításában.
+Az interaktív PDF dokumentumok létrehozása jelentősen növelheti a felhasználói elköteleződést és egyszerűsítheti az adatgyűjtést. A beilleszthető különféle elemek közül a választógombok kiemelkednek, mint felhasználóbarát módszer a feleletválasztós lehetőségek megjelenítésére. Az Aspose.PDF for .NET segítségével könnyedén hozzáadhat választógombokat a PDF űrlapokhoz, megkönnyítve a felhasználók számára a beállítások kiválasztását. Akár felméréseken, visszajelzési űrlapokon vagy alkalmazásokon dolgozik, ez az útmutató segít kihasználni az Aspose.PDF erejét a választógombok hatékony megvalósításához.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, néhány dolgot be kell állítania, hogy zökkenőmentes legyen az utazás, amikor PDF-ünket rádiógombokkal készítjük:
+Mielőtt belekezdenénk, van néhány dolog, amit be kell állítanod a zökkenőmentes folyamat érdekében, miközben létrehozzuk a választógombokkal ellátott PDF-ünket:
 
-1.  Aspose.PDF for .NET: Győződjön meg arról, hogy az Aspose.PDF könyvtár telepítve van a projektben. Ha még nem rendelkezik vele, egyszerűen letöltheti a[kiadási oldal](https://releases.aspose.com/pdf/net/).
-2. .NET-keretrendszer: A .NET-keretrendszer alapvető ismerete segít eligazodni az út során felmerülő problémákban.
-3. Fejlesztői környezet: Szüksége lesz egy megfelelő IDE-re a .NET-hez (például a Visual Studio), ahol megírhatja és tesztelheti a kódot.
-4. A C# ismerete: Bár nem kell profinak lenned, a C# programozás ismerete minden bizonnyal könnyebbé és élvezetesebbé teszi ezt a folyamatot.
-5. A PDF-szerkezet alapvető ismerete: A PDF-ek felépítésének megértése segíthet a hibaelhárításban vagy az űrlapok további testreszabásában.
+1. Aspose.PDF .NET-hez: Győződjön meg róla, hogy az Aspose.PDF könyvtár telepítve van a projektjében. Ha még nem telepítette, könnyen letöltheti innen: [kiadási oldal](https://releases.aspose.com/pdf/net/).
+2. .NET keretrendszer: A .NET keretrendszer alapvető ismerete segít eligazodni a felmerülő problémákban.
+3. Fejlesztői környezet: Szükséged lesz egy megfelelő .NET IDE-re (például Visual Studio), ahol megírhatod és tesztelheted a kódodat.
+4. C# ismeretek: Bár nem kell profinak lenned, a C# programozásban való jártasság mindenképpen megkönnyíti és élvezetesebbé teszi ezt a folyamatot.
+5. A PDF-fájlok szerkezetének alapvető ismerete: A PDF-fájlok szerkezetének ismerete segíthet a hibaelhárításban vagy az űrlapok további testreszabásában.
 
-Ha mindezt rendezte, készen áll arra, hogy felszabadítsa kreativitását a PDF-ek világában!
+Ha mindezzel megvagy, szabadjára engedheted kreativitásodat a PDF-ek világában!
 
 ## Csomagok importálása
 
-Az Aspose.PDF választógombjainak használatának megkezdéséhez először importálnia kell az alapvető csomagokat a C# projektbe. Íme, hogyan kell csinálni:
+Ahhoz, hogy elkezdhesd használni a rádiógombokat az Aspose.PDF fájlban, először importálnod kell a szükséges csomagokat a C# projektedbe. Így csináld:
 
-### Nyissa meg a kódszerkesztőt
+### Nyisd meg a kódszerkesztődet
 
-Nyissa meg a fejlesztői környezetet (például a Visual Studio-t), és hozzon létre egy új C#-projektet, ha még nem tette meg. 
+Nyisd meg a fejlesztői környezetedet (például a Visual Studio-t), és hozz létre egy új C# projektet, ha még nem tetted meg. 
 
-### Adja hozzá az Aspose.PDF hivatkozást
+### Adja hozzá az Aspose.PDF referenciát
 
-Kattintson a jobb gombbal a projektre a Solution Explorerben, válassza a Hozzáadás > Referencia menüpontot, és az Összeállítások részben keresse meg az Aspose.PDF fájlt. Ha megfelelően telepítette a könyvtárat, meg kell jelennie a listában. Csak jelölje be, és kattintson az OK gombra.
+Kattintson jobb gombbal a projektjére a Megoldáskezelőben, válassza a Hozzáadás > Referencia lehetőséget, és az Összeállítások részben keresse meg az Aspose.PDF fájlt. Ha helyesen telepítette a könyvtárat, akkor meg kell jelennie a listában. Csak pipálja ki, és kattintson az OK gombra.
 
 ```csharp
 using System;
@@ -50,13 +52,13 @@ using Aspose.Pdf.Annotations;
 using Aspose.Pdf.Text;
 ```
 
-Most a projektje készen áll az Aspose erejének kiaknázására!
+Most a projekted készen áll arra, hogy kihasználd az Aspose erejét!
 
-Ha minden be van állítva, hozzunk létre egy PDF dokumentumot lépésről lépésre rádiógombokkal!
+Miután minden beállítottunk, hozzunk létre egy PDF dokumentumot, tele választógombokkal lépésről lépésre!
 
-## 1. lépés: Állítsa be a dokumentumot
+## 1. lépés: A dokumentum beállítása
 
-Először hozzunk létre egy új PDF-dokumentumot, és adjunk hozzá egy oldalt. Ez lesz az a vászon, ahová befestjük a választógomb opciókat.
+Először is hozzunk létre egy új PDF dokumentumot, és adjunk hozzá egy oldalt. Ez lesz a vászon, ahová a választógomb beállításait fogjuk festeni.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -65,23 +67,23 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Ebben a részletben egy újat hozunk létre`Document` objektumot és hozzáadva a`Page` tartalmunk miatt. Ügyeljen arra, hogy cserélje ki`YOUR DOCUMENT DIRECTORY` azzal az elérési úttal, ahová menteni szeretné a PDF-fájlt.
+Ebben a részletben egy újat hozunk létre `Document` objektum és egy `Page` a tartalmunkért. Ügyeljen arra, hogy kicserélje `YOUR DOCUMENT DIRECTORY` azzal az elérési úttal, ahová menteni szeretné a PDF-et.
 
-## 2. lépés: Hozzon létre egy táblázatot az elrendezéshez
+## 2. lépés: Elrendezési táblázat létrehozása
 
-Ezután szükségünk van egy elrendezésre a rádiógombokhoz. Az asztal használata megkönnyíti a szép elhelyezésüket.
+Ezután szükségünk van egy elrendezésre a rádiógombjainkhoz. Egy táblázat használata megkönnyíti a szép elhelyezésüket.
 
 ```csharp
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-table.ColumnWidths = "120 120 120"; // Határozza meg az oszlopszélességeket
+table.ColumnWidths = "120 120 120"; // Az oszlopszélességek meghatározása
 page.Paragraphs.Add(table);
 ```
 
- Itt létrehoztuk a`Table`objektumot, és megadta a három oszlopunk szélességét. Ez rendezett elrendezést hoz létre a lehetőségeinkhez.
+Itt hoztunk létre egy `Table` objektumot, és megadtuk a három oszlop szélességét. Ez egy rendezett elrendezést hoz létre a lehetőségeink számára.
 
-## 3. lépés: Adjon hozzá sorokat a táblázathoz
+## 3. lépés: Sorok hozzáadása a táblázathoz
 
-Most hozzáadunk egy sort a táblázatunkhoz és a cellákhoz, amelyek a rádiógombokat tartalmazzák.
+Most hozzáadunk egy sort a táblázatunkhoz és a cellákat, amelyek a választógombokat fogják tartalmazni.
 
 ```csharp
 Row r1 = table.Rows.Add();
@@ -90,11 +92,11 @@ Cell c2 = r1.Cells.Add();
 Cell c3 = r1.Cells.Add();
 ```
 
-Létrehozunk egy új sort és három cellát a sorban. Minden cellában található egy rádiógomb opció.
+Létrehozunk egy új sort és három cellát a sorban. Minden cellában egy választógomb opció lesz.
 
-## 4. lépés: Adjon hozzá egy rádiógomb mezőt
+## 4. lépés: Választógomb mező hozzáadása
 
-Itt kezdődik a móka – adjuk hozzá a választógomb mezőt PDF-ünkhöz!
+Itt kezdődik a móka – adjuk hozzá a választógomb mezőt a PDF-ünkhöz!
 
 ```csharp
 RadioButtonField rf = new RadioButtonField(page);
@@ -102,11 +104,11 @@ rf.PartialName = "radio";
 doc.Form.Add(rf, 1);
 ```
 
- Példányosítjuk a`RadioButtonField`, állítsa be a nevét, majd adja hozzá a dokumentuműrlaphoz. Ebben a mezőben a felhasználók választhatnak.
+Példányt hozunk létre egy `RadioButtonField`, adja meg a nevét, majd adja hozzá a dokumentuműrlaphoz. Ez a mező lehetővé teszi a felhasználók számára a kiválasztást.
 
-## 5. lépés: A rádiógomb opcióinak konfigurálása
+## 5. lépés: A rádiógombok beállításainak konfigurálása
 
-Ideje létrehozni a rádiógombok beállításait! Három lehetőséget adunk hozzá, amelyek közül a felhasználók választhatnak.
+Ideje létrehozni a választógombok beállításait! Három lehetőséget adunk hozzá, amelyek közül a felhasználók választhatnak.
 
 ```csharp
 RadioButtonOptionField opt1 = new RadioButtonOptionField();
@@ -117,11 +119,11 @@ opt2.OptionName = "Item2";
 opt3.OptionName = "Item3";
 ```
 
- Itt hármat hozunk létre`RadioButtonOptionField` példányokat minden egyes választásunkhoz, és adjunk nekik nevet. Ha kreatívan használja ezeket a neveket, az segíthet a felhasználóknak abban, hogy jobban eligazítsák, mit válasszanak.
+Itt hármat hozunk létre `RadioButtonOptionField` példányokat minden választási lehetőségünkhöz, és neveket rendelünk hozzájuk. Ha kreatívan bánunk ezekkel a nevekkel, jobban eligazíthatjuk a felhasználókat a választásban.
 
-## 6. lépés: Állítsa be az opciók méretét
+## 6. lépés: Opciók méreteinek beállítása
 
-Ezután állítsa be a választógombok méretét, hogy azok vizuálisan vonzóak legyenek.
+Következő lépésként állítsuk be a választógombok méretét, hogy vizuálisan vonzóak legyenek.
 
 ```csharp
 opt1.Width = 15;
@@ -132,11 +134,11 @@ opt3.Width = 15;
 opt3.Height = 15;
 ```
 
-Ezzel a kóddal meghatározzuk az egyes választógombok méreteit. Ezeket az értékeket módosíthatja, ha nagyobb vagy kisebb beállításokat szeretne.
+Ezzel a kóddal definiáljuk az egyes választógombok méreteit. Ezeket az értékeket módosíthatod, ha nagyobb vagy kisebb opciókat szeretnél.
 
-## 7. lépés: Adjon hozzá opciókat a rádiógomb mezőhöz
+## 7. lépés: Opciók hozzáadása a választógomb mezőhöz
 
-Most, hogy a beállítások elkészültek, hozzá kell adnunk őket a választógomb mezőhöz.
+Most, hogy a beállítások létrejöttek, hozzá kell adnunk őket a választógomb mezőhöz.
 
 ```csharp
 rf.Add(opt1);
@@ -144,11 +146,11 @@ rf.Add(opt2);
 rf.Add(opt3);
 ```
 
-Ez a kód nem csak hozzáadja a lehetőségeket, hanem összekapcsolja őket a választógomb mezőnkkel, így a felhasználók választhatnak egyet a lehetőségek közül.
+Ez a kód nemcsak hozzáadja a lehetőségeket, hanem összekapcsolja azokat a választógomb mezőnkkel is, lehetővé téve a felhasználók számára, hogy kiválasszák az egyik lehetőséget.
 
-## 8. lépés: Adja meg a lehetőségek stílusát
+## 8. lépés: A beállítások stílusának meghatározása
 
-Annak érdekében, hogy lehetőségeink kiemelkedjenek, alakítsuk ki őket. Hozzáadhatunk szegélyeket és beállíthatjuk a színeket.
+Hogy a lehetőségeink kiemelkedjenek, formázzuk meg őket. Hozzáadhatunk szegélyeket és beállíthatunk színeket.
 
 ```csharp
 opt1.Border = new Border(opt1);
@@ -159,9 +161,9 @@ opt1.DefaultAppearance.TextColor = System.Drawing.Color.Red;
 opt1.Caption = new TextFragment("Item1");
 ```
 
- Ismételje meg ezt a stílust`opt2` és`opt3`, ennek megfelelően módosítva a feliratokat. Ez biztosítja, hogy minden opció professzionálisnak és vonzónak tűnjön.
+Ismételje meg ezt a formázást a következőhöz: `opt2` és `opt3`, ennek megfelelően módosítva a feliratokat. Ez biztosítja, hogy minden lehetőség professzionális és lebilincselő legyen.
 
-## 9. lépés: Adjon hozzá opciókat a cellákhoz
+## 9. lépés: Opciók hozzáadása cellákhoz
 
 Ezután el kell helyeznünk ezeket a rádiógombokat a táblázatunk megfelelő celláiba.
 
@@ -171,44 +173,46 @@ c2.Paragraphs.Add(opt2);
 c3.Paragraphs.Add(opt3);
 ```
 
-Ez a sor hozzáadja a stílusos beállításokat a korábban létrehozott cellákhoz, szépen rendezve azokat a táblázatunkban.
+Ez a sor hozzáadja a korábban létrehozott cellákhoz a formázott beállításokat, szépen rendszerezve azokat a táblázatban.
 
-## 10. lépés: Mentse el a PDF-dokumentumot
+## 10. lépés: Mentse el a PDF dokumentumot
 
-Végre itt az ideje, hogy megmentse munkáját! Ez a lépés mindent, amit tettünk, PDF-fájlba helyez.
+Végre itt az ideje menteni a munkádat! Ez a lépés mindent PDF fájlba ment el, amit eddig csináltunk.
 
 ```csharp
 dataDir = dataDir + "RadioButtonWithOptions_out.pdf";
-// Mentse el a PDF fájlt
+// PDF fájl mentése
 doc.Save(dataDir);
 Console.WriteLine("\nRadio button field with three options added successfully.\nFile saved at " + dataDir);
 ```
 
-Ezzel a kóddal a dokumentum a megadott könyvtárba kerül. Most már megnyithatja ezt a PDF-fájlt, és megtekintheti a rádiógombok működését. Gratulálunk az első interaktív PDF megvalósításához!
+Ezzel a kóddal a dokumentum a megadott könyvtárba kerül mentésre. Most megnyithatja ezt a PDF fájlt, hogy működés közben lássa a választógombokat. Gratulálunk első interaktív PDF-je megvalósításához!
 
 ## Következtetés
 
-Az Aspose.PDF for .NET segítségével interaktív elemek, például rádiógombok létrehozásának elsajátítása a lehetőségek teljesen új birodalmát nyitja meg PDF-dokumentumai számára. Ennek az útmutatónak a követésével most már fel kell készülnie arra, hogy a rádiógombokat könnyedén beépítse projektjeibe, javítva a felhasználói élményt és az adatgyűjtési folyamatokat. Legyen szó egyszerű felmérésről vagy összetett űrlapról, a személyre szabott interaktív PDF-ek létrehozásának lehetősége karnyújtásnyira van.
+Az interaktív elemek, például a választógombok létrehozásának elsajátítása az Aspose.PDF for .NET segítségével teljesen új lehetőségeket nyit meg PDF-dokumentumai számára. Az útmutató követésével mostantól képes lesz arra, hogy könnyedén beépítsen választógombokat projektjeibe, javítva a felhasználói élményt és az adatgyűjtési folyamatokat. Akár egy egyszerű felmérésről, akár egy összetett űrlapról van szó, a személyre szabott interaktív PDF-ek létrehozásának lehetősége egy kézben van.
 
 ## GYIK
 
-### Mi az Aspose.PDF for .NET?
-Az Aspose.PDF for .NET egy olyan könyvtár, amely lehetővé teszi a fejlesztők számára a PDF-dokumentumok programozott létrehozását és kezelését.
+### Mi az Aspose.PDF .NET-hez?
+Az Aspose.PDF for .NET egy olyan könyvtár, amely lehetővé teszi a fejlesztők számára PDF dokumentumok programozott létrehozását és kezelését.
 
-### Hogyan telepíthetem az Aspose.PDF-et .NET-hez?
- A könyvtár letölthető a[Az Aspose kiadási oldala](https://releases.aspose.com/pdf/net/) és add hozzá a projektedhez.
+### Hogyan telepíthetem az Aspose.PDF for .NET fájlt?
+A könyvtárat letöltheted innen: [Aspose kiadási oldal](https://releases.aspose.com/pdf/net/) és add hozzá a projektedhez.
 
-### Létrehozhatok rádiógombokat PDF-fájlokban más programozási nyelvekkel?
-Igen, az Aspose.PDF Java-hoz és más nyelvekhez is elérhető hasonló funkciókhoz.
+### Létrehozhatok választógombokat PDF fájlokban más programozási nyelvekkel?
+Igen, az Aspose.PDF Java és más nyelveken is elérhető hasonló funkciókkal.
 
-### Létezik ingyenes próbaverzió az Aspose.PDF számára?
- Igen, felfedezheti az Aspose.PDF funkcióit, ha letölti a[ingyenes próbaverzió](https://releases.aspose.com/).
+### Van ingyenes próbaverzió az Aspose.PDF-hez?
+Igen, az Aspose.PDF funkcióit letöltheti a következőből: [ingyenes próbaverzió](https://releases.aspose.com/).
 
 ### Hol kaphatok támogatást az Aspose.PDF-hez?
- Támogatásért látogassa meg a[Aspose támogatási fórum](https://forum.aspose.com/c/pdf/10) szakértők és közösség tagjai segítségéért.
+Támogatásért látogassa meg a következőt: [Aspose támogatói fórum](https://forum.aspose.com/c/pdf/10) szakértők és a közösség tagjainak segítségét kérni.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

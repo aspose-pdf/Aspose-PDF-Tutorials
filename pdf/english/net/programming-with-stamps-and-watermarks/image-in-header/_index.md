@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/image-in-header/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Image In Header
@@ -155,6 +157,7 @@ You can use the `TextStamp` class in conjunction with `ImageStamp` to insert bot
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

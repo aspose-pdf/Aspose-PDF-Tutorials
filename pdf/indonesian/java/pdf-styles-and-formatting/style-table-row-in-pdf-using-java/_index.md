@@ -1,14 +1,16 @@
 ---
-title: Gaya Baris Tabel dalam PDF menggunakan Java
-linktitle: Gaya Baris Tabel dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menata baris tabel PDF di Java menggunakan Aspose.PDF untuk Java. Sesuaikan warna, tambahkan batas, dan banyak lagi dalam panduan lengkap ini.
-weight: 10
-url: /id/java/pdf-styles-and-formatting/style-table-row-in-pdf-using-java/
+"description": "Pelajari cara menata baris tabel PDF di Java menggunakan Aspose.PDF untuk Java. Sesuaikan warna, tambahkan batas, dan banyak lagi dalam panduan lengkap ini."
+"linktitle": "Gaya Baris Tabel dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Gaya Baris Tabel dalam PDF menggunakan Java"
+"url": "/id/java/pdf-styles-and-formatting/style-table-row-in-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gaya Baris Tabel dalam PDF menggunakan Java
@@ -22,7 +24,7 @@ Aspose.PDF untuk Java adalah pustaka canggih yang memungkinkan Anda membuat, mem
 
 Untuk mulai menggunakan Aspose.PDF untuk Java, Anda perlu menyiapkan lingkungan pengembangan Anda. Berikut ini adalah langkah-langkah dasarnya:
 
-1.  Unduh Aspose.PDF untuk Java: Kunjungi[Di Sini](https://releases.aspose.com/pdf/java/) untuk mengunduh pustaka.
+1. Unduh Aspose.PDF untuk Java: Kunjungi [Di Sini](https://releases.aspose.com/pdf/java/) untuk mengunduh pustaka.
 
 2. Tambahkan Aspose.PDF Jar ke Proyek Anda: Sertakan file JAR yang diunduh dalam proyek Java Anda.
 
@@ -119,7 +121,7 @@ Aspose.PDF untuk Java adalah pustaka Java yang memungkinkan pengembang untuk mem
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Untuk menginstal Aspose.PDF untuk Java, unduh pustaka dari[Di Sini](https://releases.aspose.com/pdf/java/) dan sertakan berkas JAR dalam proyek Java Anda.
+Untuk menginstal Aspose.PDF untuk Java, unduh pustaka dari [Di Sini](https://releases.aspose.com/pdf/java/) dan sertakan berkas JAR dalam proyek Java Anda.
 
 ### Bisakah saya memberi gaya pada baris individual dalam tabel PDF?
 
@@ -131,10 +133,12 @@ Meskipun Aspose.PDF untuk Java menawarkan opsi penyesuaian yang luas untuk baris
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya untuk Aspose.PDF untuk Java?
 
- Untuk dokumentasi lengkap dan sumber daya tambahan, kunjungi[Di Sini](https://reference.aspose.com/pdf/java/).
+Untuk dokumentasi lengkap dan sumber daya tambahan, kunjungi [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

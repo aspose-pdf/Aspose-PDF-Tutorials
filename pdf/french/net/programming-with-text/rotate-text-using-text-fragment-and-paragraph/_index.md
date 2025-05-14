@@ -1,39 +1,41 @@
 ---
-title: Faire pivoter le texte à l'aide d'un fragment de texte et d'un paragraphe
-linktitle: Faire pivoter le texte à l'aide d'un fragment de texte et d'un paragraphe
-second_title: Référence de l'API Aspose.PDF pour .NET
-description: Découvrez comment faire pivoter du texte à l'aide d'un fragment de texte et d'un paragraphe dans un document PDF à l'aide d'Aspose.PDF pour .NET.
-weight: 400
-url: /fr/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/
+"description": "Découvrez comment faire pivoter du texte à l’aide d’un fragment de texte et d’un paragraphe dans un document PDF à l’aide d’Aspose.PDF pour .NET."
+"linktitle": "Faire pivoter le texte à l'aide d'un fragment de texte et d'un paragraphe"
+"second_title": "Référence de l'API Aspose.PDF pour .NET"
+"title": "Faire pivoter le texte à l'aide d'un fragment de texte et d'un paragraphe"
+"url": "/fr/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/"
+"weight": 400
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Faire pivoter le texte à l'aide d'un fragment de texte et d'un paragraphe
 
 ## Introduction
 
-En matière de création de documents dynamiques, les PDF sont la référence absolue. Grâce à leur attrait universel et à leur professionnalisme attendu, les PDF sont couramment utilisés dans différents secteurs, notamment les environnements juridiques, éducatifs et professionnels. Dans cet article, nous allons examiner de plus près comment exploiter Aspose.PDF pour .NET pour créer un document PDF avec des fragments de texte pivotés, parfait pour ajouter du style à vos documents ou mettre en valeur des informations importantes. Commençons !
+Pour générer des documents dynamiques, le format PDF est la référence. Grâce à son attrait universel et à son professionnalisme attendu, il est couramment utilisé dans différents secteurs, notamment le droit, l'éducation et les entreprises. Dans cet article, nous allons examiner de plus près comment exploiter Aspose.PDF pour .NET pour créer un document PDF avec des fragments de texte pivotés, idéal pour donner du style à vos documents ou mettre en valeur des informations importantes. C'est parti !
 
 ## Prérequis
 
-Avant de plonger dans les détails techniques, assurez-vous d'avoir quelques éléments en place :
+Avant de plonger dans les détails techniques, assurez-vous d’avoir quelques éléments en place :
 
-1. Compréhension de base de .NET Framework : une familiarité avec C# ou VB.NET sera bénéfique car Aspose.PDF fonctionne parfaitement avec les applications .NET.
+1. Compréhension de base de .NET Framework : une connaissance de C# ou de VB.NET sera bénéfique car Aspose.PDF fonctionne parfaitement avec les applications .NET.
   
-2.  Bibliothèque Aspose.PDF pour .NET : vous aurez besoin de la bibliothèque Aspose.PDF. Ne vous inquiétez pas, elle est facile à télécharger ! Vous pouvez l'obtenir ici :[Télécharger Aspose.PDF pour .NET](https://releases.aspose.com/pdf/net/).
+2. Bibliothèque Aspose.PDF pour .NET : Vous aurez besoin de la bibliothèque Aspose.PDF. Pas d'inquiétude, elle est facile à télécharger ! Vous pouvez l'obtenir ici : [Télécharger Aspose.PDF pour .NET](https://releases.aspose.com/pdf/net/).
 
-3. Environnement de développement : vous pouvez utiliser n’importe quel IDE prenant en charge le développement .NET, comme Visual Studio. Assurez-vous que votre IDE peut accéder à la bibliothèque Aspose.PDF téléchargée.
+3. Environnement de développement : vous pouvez utiliser n'importe quel IDE prenant en charge le développement .NET, comme Visual Studio. Assurez-vous que votre IDE peut accéder à la bibliothèque Aspose.PDF téléchargée.
 
-4.  Une licence temporaire (facultative) : bien que vous puissiez commencer avec l'essai gratuit, si vous devez créer une application de production, envisagez d'acquérir une[permis temporaire](https://purchase.aspose.com/temporary-license/) pour une fonctionnalité complète.
+4. Une licence temporaire (facultative) : Bien que vous puissiez commencer avec l'essai gratuit, si vous devez créer une application de production, envisagez d'acquérir une [permis temporaire](https://purchase.aspose.com/temporary-license/) pour une fonctionnalité complète.
 
 5. Connexion Internet : cela peut sembler évident, mais vous en aurez besoin pour accéder à la documentation en ligne pour obtenir des conseils supplémentaires et un dépannage.
 
 Une fois vos prérequis réglés, il est temps de passer à l'action !
 
-## Paquets d'importation
+## Importer des packages
 
 Avant de lancer la partie codage, nous devons nous assurer que nous importons les packages nécessaires dans notre projet .NET. 
 
@@ -49,9 +51,9 @@ using Aspose.Pdf.Facades;
 
 Cela vous permettra d'accéder aux fonctionnalités de manipulation de documents PDF et aux fonctionnalités de texte fournies par la bibliothèque Aspose.PDF.
 
-Maintenant, le plaisir commence ! Nous allons créer une application simple pour générer un document PDF contenant à la fois des fragments de texte standard et pivotés. Respirez profondément et parcourons-la étape par étape.
+Et maintenant, place au fun ! Nous allons créer une application simple pour générer un document PDF contenant des fragments de texte standard et pivotés. Prenez une grande inspiration et découvrons-la étape par étape.
 
-## Étape 1 : Initialiser l’objet Document
+## Étape 1 : Initialiser l'objet Document
 
 Dans cette étape, nous allons créer un nouveau document PDF.
 
@@ -62,22 +64,22 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document();
 ```
 
-Cette ligne de code nous permet de créer un nouveau canevas pour notre contenu. C'est comme si vous versiez un nouveau lot de peinture sur votre toile. C'est passionnant !
+Cette ligne de code crée une nouvelle toile pour créer notre contenu. Imaginez-la comme verser une nouvelle couche de peinture sur votre toile. C'est passionnant !
 
-## Étape 2 : Ajouter une page
+## Étape 2 : Ajouter une page
 
-Ensuite, nous devons ajouter une page à notre document. C'est là que la magie va opérer.
+Ensuite, nous devons ajouter une page à notre document. C'est là que la magie opère.
 
 ```csharp
 // Obtenir une page particulière
 Page pdfPage = (Page)pdfDocument.Pages.Add();
 ```
 
-Imaginez cette étape comme la pose des fondations de votre chef-d'œuvre. Sans page, rien ne peut être peint ou écrit !
+Imaginez cette étape comme la pose des fondations de votre chef-d'œuvre. Sans page, rien ne peut être peint ou écrit !
 
 ## Étape 3 : Créez votre premier fragment de texte
 
-Nous allons maintenant ajouter du texte à notre PDF. Commençons par un fragment de texte standard.
+Nous allons maintenant ajouter du texte à notre PDF. Commençons par un extrait de texte standard.
 
 ```csharp
 // Créer un fragment de texte
@@ -87,7 +89,7 @@ textFragment1.TextState.FontSize = 12;
 textFragment1.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 ```
 
-Ici, nous avons créé notre premier fragment de texte nommé`textFragment1`. Nous définissons également ses propriétés de police, vous savez, pour lui donner une belle apparence !
+Ici, nous avons créé notre premier fragment de texte nommé `textFragment1`Nous définissons également ses propriétés de police, vous savez, pour lui donner une belle apparence !
 
 ## Étape 4 : ajouter le premier fragment de texte à la page
 
@@ -97,11 +99,11 @@ Notre fragment de texte étant prêt, il est temps de le mettre sur la page.
 pdfPage.Paragraphs.Add(textFragment1);
 ```
 
-Ce code place essentiellement votre texte standard sur la toile. C'est comme si vous posiez votre pinceau sur la toile pour créer la première ligne de votre œuvre !
+Ce code place votre texte standard sur la toile. C'est comme poser votre pinceau sur la toile pour créer la première ligne de votre œuvre !
 
 ## Étape 5 : Créer des fragments de texte pivotés
 
-Ensuite, nous allons ajouter du texte pivoté pour attirer l'attention. Allons-y.
+Ensuite, nous allons ajouter du texte pivoté pour attirer le regard. C'est parti !
 
 ### Création du premier fragment de texte pivoté
 
@@ -115,7 +117,7 @@ textFragment2.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 textFragment2.TextState.Rotation = 315;
 ```
 
- Dans cet extrait, nous avons créé un fragment de texte nommé`textFragment2`. Nous avons réglé sa rotation à 315 degrés, ce qui est bien incliné mais pas complètement à l'envers. Cela pourrait représenter un texte qui a besoin d'un peu de style !
+Dans cet extrait, nous avons créé un fragment de texte nommé `textFragment2`Nous avons réglé sa rotation à 315 degrés, ce qui est bien incliné, mais pas complètement à l'envers. Cela pourrait représenter un texte nécessitant un peu de style !
 
 ### Ajout du fragment de texte pivoté à la page
 
@@ -125,9 +127,9 @@ Il est temps d’ajouter également ce texte accrocheur à la page !
 pdfPage.Paragraphs.Add(textFragment2);
 ```
 
-Génial, non ? C'est comme ajouter une touche de couleur à votre toile pour vraiment faire ressortir les choses !
+Génial, non ? C'est comme ajouter une touche de couleur à votre toile pour la faire ressortir !
 
-### Créer un autre fragment de texte pivoté
+### Création d'un autre fragment de texte pivoté
 
 Ajoutons un autre fragment de texte pivoté pour faire bonne mesure.
 
@@ -141,7 +143,7 @@ textFragment3.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 textFragment3.TextState.Rotation = 270;
 ```
 
-Comme précédemment, nous ajoutons un autre morceau de texte pivoté. Cette fois, il est tourné à 270 degrés, ce qui le rend presque à l'envers !
+Comme précédemment, nous ajoutons un autre texte pivoté. Cette fois, il est tourné à 270 degrés, presque à l'envers !
 
 ## Étape 6 : ajouter le deuxième fragment de texte pivoté à la page
 
@@ -153,7 +155,7 @@ pdfPage.Paragraphs.Add(textFragment3);
 
 De cette façon, vous avez plusieurs fragments de texte pivotés fonctionnant ensemble sur la toile !
 
-## Étape 7 : Enregistrer le document
+## Étape 7 : Enregistrer le document
 
 Maintenant que nous avons un document rempli d'éléments fantastiques, terminons les choses en le sauvegardant.
 
@@ -162,11 +164,11 @@ Maintenant que nous avons un document rempli d'éléments fantastiques, terminon
 pdfDocument.Save(dataDir + "TextFragmentTests_Rotated3_out.pdf");
 ```
 
-Et voilà, votre chef-d'œuvre créatif a été enregistré au format PDF. Vous pouvez le considérer comme une exposition de votre œuvre dans une galerie : elle est prête à être vue par le monde entier !
+Et voilà ! Votre chef-d'œuvre créatif est enregistré au format PDF. Imaginez-le comme une exposition dans une galerie : il est prêt à être découvert !
 
 ## Conclusion
 
-Félicitations ! Vous venez de créer un document PDF dynamique avec des fragments de texte standard et pivotés à l'aide d'Aspose.PDF pour .NET. Cela ouvre un monde de possibilités quant à la façon dont vous pouvez présenter vos informations. Que vous ayez besoin de mettre en valeur les points clés d'un rapport ou que vous souhaitiez simplement ajouter une touche visuelle à vos documents, ces techniques vous aideront à atteindre vos objectifs.
+Félicitations ! Vous venez de créer un document PDF dynamique avec des fragments de texte standard et pivotés à l'aide d'Aspose.PDF pour .NET. Cela ouvre un monde de possibilités pour présenter vos informations. Que vous souhaitiez mettre en valeur les points clés d'un rapport ou simplement ajouter une touche visuelle à vos documents, ces techniques vous aideront à atteindre vos objectifs.
 
 ## FAQ
 
@@ -174,24 +176,26 @@ Félicitations ! Vous venez de créer un document PDF dynamique avec des fragme
 
 Aspose.PDF pour .NET est une bibliothèque robuste qui permet aux développeurs de créer, manipuler et convertir des fichiers PDF à l'aide d'applications .NET.
 
-### Puis-je utiliser Aspose.PDF dans une application Web ?
+### Puis-je utiliser Aspose.PDF dans une application Web ?
 
-Absolument ! Aspose.PDF peut être intégré à n'importe quelle application .NET, y compris les applications Web, les applications de bureau et les services.
+Absolument ! Aspose.PDF peut être intégré à n'importe quelle application .NET, y compris les applications web, les applications de bureau et les services.
 
 ### Existe-t-il un essai gratuit disponible pour Aspose.PDF ?
 
- Oui, vous pouvez bénéficier d'un essai gratuit pour découvrir ses fonctionnalités avant de procéder à un achat. Découvrez-le sur[Essai gratuit d'Aspose](https://releases.aspose.com/).
+Oui, vous pouvez bénéficier d'un essai gratuit pour découvrir ses fonctionnalités avant de l'acheter. Découvrez-le sur [Essai gratuit d'Aspose](https://releases.aspose.com/).
 
 ### Comment puis-je faire pivoter du texte dans un PDF à l'aide d'Aspose.PDF ?
 
- Vous pouvez faire pivoter le texte en définissant le`Rotation` propriété d'un`TextFragment` objet, comme démontré dans ce tutoriel.
+Vous pouvez faire pivoter le texte en définissant le `Rotation` propriété d'un `TextFragment` objet, comme démontré dans ce tutoriel.
 
-### Où puis-je trouver de l'aide pour Aspose.PDF ?
+### Où puis-je trouver de l'aide pour Aspose.PDF ?
 
- Pour toute assistance ou question, vous pouvez visiter le[Forum d'assistance Aspose](https://forum.aspose.com/c/pdf/10).
+Pour toute assistance ou question, vous pouvez visiter le [Forum d'assistance Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

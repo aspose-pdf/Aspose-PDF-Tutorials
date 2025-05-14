@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/text-block-structure-elements/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Text Block Structure Elements
@@ -164,6 +166,7 @@ You can enhance accessibility by adding more detailed tagging, alt text for imag
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

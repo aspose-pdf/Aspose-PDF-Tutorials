@@ -1,97 +1,101 @@
 ---
-title: Megjegyzések hozzáadása a PDF-dokumentumokhoz
-linktitle: Megjegyzések hozzáadása a PDF-dokumentumokhoz
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan írhat megjegyzéseket PDF-dokumentumokhoz az Aspose.PDF for Java használatával – lépésről lépésre kódpéldákkal.
-weight: 10
-url: /hu/java/pdf-annotations/add-comments-pdf-documents/
+"description": "Tanulja meg, hogyan adhat hozzá megjegyzéseket PDF dokumentumokhoz az Aspose.PDF for Java használatával - Lépésről lépésre útmutató kódpéldákkal."
+"linktitle": "Megjegyzések hozzáadása PDF dokumentumokhoz"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "Megjegyzések hozzáadása PDF dokumentumokhoz"
+"url": "/hu/java/pdf-annotations/add-comments-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Megjegyzések hozzáadása a PDF-dokumentumokhoz
+# Megjegyzések hozzáadása PDF dokumentumokhoz
 
 
-## Bevezetés a megjegyzések hozzáadásához PDF-dokumentumokhoz
+## Bevezetés a PDF dokumentumokhoz megjegyzések hozzáfűzésébe
 
-A PDF-dokumentumok univerzális kompatibilitásuknak és következetes formázásuknak köszönhetően a digitális információmegosztás szabványává váltak. A PDF-ek egyik alapvető tulajdonsága, hogy megjegyzéseket, megjegyzéseket és megjegyzéseket fűzhetnek a dokumentumokhoz. Ez a cikk végigvezeti Önt a PDF-dokumentumokhoz való megjegyzések hozzáadásának folyamatán az Aspose.PDF for Java segítségével, amely egy hatékony API a PDF-kezeléshez.
+A PDF dokumentumok univerzális kompatibilitásuknak és egységes formázásuknak köszönhetően a digitális információmegosztás szabvánnyá váltak. A PDF fájlok egyik alapvető jellemzője a megjegyzések, jegyzetek és jegyzetek hozzáadásának lehetősége a dokumentumokhoz. Ez a cikk végigvezeti Önt a PDF dokumentumokhoz megjegyzések hozzáadásának folyamatán az Aspose.PDF for Java használatával, amely egy hatékony PDF-manipulációs API.
 
-## Az Aspose.PDF for Java első lépései
+## Első lépések az Aspose.PDF használatához Java-ban
 
- kezdéshez be kell állítania a fejlesztői környezetet. Győződjön meg arról, hogy telepítve van az Aspose.PDF for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/pdf/java/).
+Kezdésként be kell állítania a fejlesztői környezetet. Győződjön meg róla, hogy telepítve van az Aspose.PDF for Java könyvtár. Letöltheti innen: [itt](https://releases.aspose.com/pdf/java/).
 
-## PDF dokumentum készítése
+## PDF dokumentum létrehozása
 
-Ha megjegyzéseket szeretne írni egy PDF-fájlhoz, először szüksége van egy PDF-dokumentumra. Létrehozhat új PDF-dokumentumot az Aspose.PDF for Java segítségével, mindössze néhány sornyi kóddal:
+PDF-hez megjegyzések hozzáadásához először egy PDF-dokumentummal kell dolgoznia. Új PDF-dokumentumot hozhat létre az Aspose.PDF for Java segítségével mindössze néhány sornyi kóddal:
 
 ```java
 // Új PDF dokumentum inicializálása
 Document pdfDocument = new Document();
 ```
 
-## Megjegyzések hozzáadása PDF-dokumentumhoz
+## Megjegyzések hozzáadása PDF dokumentumhoz
 
-A megjegyzések hozzáadása egyszerű. Az Aspose.PDF API segítségével megjegyzéseket, például kiemeléseket, szöveges megjegyzéseket vagy bélyegzőket illeszthet be. Példaként adjunk hozzá egy kiemelő megjegyzést:
+A megjegyzések hozzáadása egyszerű. Az Aspose.PDF API segítségével beszúrhat megjegyzéseket, például kiemeléseket, szöveges jegyzeteket vagy bélyegzőket. Példaként adjunk hozzá egy kiemelő megjegyzést:
 
 ```java
-// Hozzon létre egy oldalt a PDF-ben
+// Oldal létrehozása a PDF-ben
 Page page = pdfDocument.getPages().add();
 
-// Kiemelés megjegyzés hozzáadása
+// Kiemelési megjegyzés hozzáadása
 HighlightAnnotation highlight = new HighlightAnnotation(page, new Rectangle(100, 100, 200, 200));
 highlight.setColor(Color.YELLOW);
 highlight.setContents("This is a highlighted comment.");
 
-// Adja hozzá a megjegyzést az oldalhoz
+// Adja hozzá a jegyzetet az oldalhoz
 page.getAnnotations().add(highlight);
 ```
 
 ## Különböző típusú megjegyzések
 
-Az Aspose.PDF for Java különféle típusú megjegyzéseket támogat, beleértve a szöveges megjegyzéseket, bélyegzőket, tintajelöléseket és még sok mást. Kiválaszthatja az igényeinek leginkább megfelelő típust.
+Az Aspose.PDF for Java különféle típusú megjegyzéseket támogat, beleértve a szöveges megjegyzéseket, bélyegzőket, tintahasználattal készült megjegyzéseket és egyebeket. Kiválaszthatja az igényeinek leginkább megfelelő típust.
 
-## A megjegyzés megjelenésének testreszabása
+## Hozzászólás megjelenésének testreszabása
 
-megjegyzések megjelenését saját preferenciáinak megfelelően testreszabhatja. Módosítsa a színeket, a betűtípusokat és más vizuális szempontokat, hogy észrevételei feltűnjenek.
+A hozzászólások megjelenését testreszabhatod az igényeidnek megfelelően. Módosítsd a színeket, betűtípusokat és egyéb vizuális elemeket, hogy a hozzászólásaid kiemelkedjenek.
 
-## Megjegyzések programozott kezelése
+## Hozzászólások programozott kezelése
 
-Az Aspose.PDF for Java lehetővé teszi a megjegyzések programozott kezelését. Szükség szerint lekérheti, frissítheti vagy törölheti a megjegyzéseket, így teljes irányítást biztosít a kommentelési folyamat felett.
+Az Aspose.PDF for Java lehetővé teszi a megjegyzések programozott kezelését. Szükség szerint lekérheti, frissítheti vagy törölheti a megjegyzéseket, így teljes kontrollt biztosít a megjegyzéskezelési folyamat felett.
 
-## A módosított PDF mentése és exportálása
+## Módosított PDF mentése és exportálása
 
-Miután hozzáadta és testreszabta a megjegyzéseket, mentheti vagy exportálhatja a módosított PDF-dokumentumot, hogy megoszthassa másokkal. A megjegyzések megőrzése érdekében mindenképpen mentse a módosításokat.
+Miután hozzáadta és testre szabta a megjegyzéseket, mentheti vagy exportálhatja a módosított PDF dokumentumot, hogy megossza másokkal. A megjegyzések megőrzése érdekében mentse el a módosításokat.
 
 ## Következtetés
 
-Megjegyzések hozzáadása a PDF-dokumentumokhoz értékes szolgáltatás, amely javítja az együttműködést és a dokumentációt. Az Aspose.PDF for Java leegyszerűsíti a folyamatot, lehetővé téve a megjegyzések egyszerű hozzáadását, testreszabását és kezelését. Kezdje el megjegyzéseket beépíteni PDF-dokumentumaiba a kommunikáció és a megértés javítása érdekében.
+A PDF dokumentumokhoz megjegyzések hozzáadása egy értékes funkció, amely javítja az együttműködést és a dokumentációt. Az Aspose.PDF for Java leegyszerűsíti a folyamatot, lehetővé téve a megjegyzések egyszerű hozzáadását, testreszabását és kezelését. Kezdje el beépíteni a megjegyzéseket a PDF dokumentumokba a kommunikáció és a megértés javítása érdekében.
 
 ## GYIK
 
-### Hogyan fűzhetek szöveges megjegyzést egy adott helyhez a PDF-ben?
+### Hogyan adhatok hozzá szöveges megjegyzést egy adott helyre egy PDF-ben?
 
-Ha szöveges megjegyzést szeretne hozzáadni egy adott helyre, hozzon létre egy szöveges megjegyzést, és állítsa be a helyét a PDF-oldalon.
+Ha szöveges megjegyzést szeretne hozzáadni egy adott helyre, hozzon létre egy szöveges megjegyzést, és állítsa be a helyét a PDF oldalon belül.
 
-### Válaszolhatok a megjegyzésekre PDF dokumentumban?
+### Válaszolhatok a PDF dokumentumban található megjegyzésekre?
 
-Igen, válaszolhat a megjegyzésekre az eredeti megjegyzéshez kapcsolódó válaszjegyzet létrehozásával.
+Igen, válaszolhatsz a hozzászólásokra egy, az eredeti hozzászóláshoz kapcsolódó válaszjegyzet létrehozásával.
 
-### Lehetséges a megjegyzések elrejtése vagy megjelenítése egy PDF dokumentumban?
+### Lehetséges elrejteni vagy megjeleníteni a megjegyzéseket egy PDF dokumentumban?
 
-Igen, az Aspose.PDF for Java API segítségével szabályozhatja a megjegyzések láthatóságát egy PDF-dokumentumban.
+Igen, a PDF dokumentumokban a megjegyzések láthatóságát az Aspose.PDF for Java API segítségével szabályozhatja.
 
-### Vannak-e korlátozások a PDF-ben található megjegyzések számára?
+### Vannak-e korlátozások a PDF-ben lévő megjegyzések számára vonatkozóan?
 
-A PDF-dokumentumhoz hozzáadható megjegyzések száma számos tényezőtől függ, beleértve a dokumentum összetettségét és a rendelkezésre álló rendszererőforrásokat.
+A PDF dokumentumhoz hozzáadható megjegyzések száma számos tényezőtől függ, beleértve a dokumentum összetettségét és a rendelkezésre álló rendszererőforrásokat.
 
-### Hogyan bonthatok ki megjegyzéseket egy PDF-ből programozottan?
+### Hogyan tudok programozottan megjegyzéseket kinyerni egy PDF-ből?
 
-Az Aspose.PDF for Java használatával megjegyzéseket bonthat ki egy PDF-dokumentumból a dokumentum megjegyzéseinek iterációjával.
+Az Aspose.PDF for Java segítségével kinyerhet megjegyzéseket egy PDF dokumentumból a dokumentum megjegyzésein keresztüli iterációval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

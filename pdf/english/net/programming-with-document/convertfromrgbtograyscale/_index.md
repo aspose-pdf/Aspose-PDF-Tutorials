@@ -8,7 +8,9 @@ url: /net/programming-with-document/convertfromrgbtograyscale/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert From RGB To Grayscale
@@ -129,6 +131,7 @@ Converting PDFs to grayscale reduces ink usage in printing, lowers file size, an
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

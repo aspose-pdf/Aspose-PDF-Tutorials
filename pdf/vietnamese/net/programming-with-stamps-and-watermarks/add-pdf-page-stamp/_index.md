@@ -1,14 +1,16 @@
 ---
-title: Thêm Con Dấu Trang PDF Vào Tệp PDF
-linktitle: Thêm Con Dấu Trang PDF Vào Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm tem trang PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết này. Tăng cường tác động của tài liệu PDF của bạn.
-weight: 40
-url: /vi/net/programming-with-stamps-and-watermarks/add-pdf-page-stamp/
+"description": "Tìm hiểu cách thêm dấu trang PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết này. Tăng cường tác động của tài liệu PDF của bạn."
+"linktitle": "Thêm Con Dấu Trang PDF Vào Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm Con Dấu Trang PDF Vào Tệp PDF"
+"url": "/vi/net/programming-with-stamps-and-watermarks/add-pdf-page-stamp/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Con Dấu Trang PDF Vào Tệp PDF
@@ -25,7 +27,7 @@ Trước khi đi sâu vào chi tiết về việc thêm dấu trang, hãy đảm
 Bạn nên cài đặt .NET Framework trên máy của mình. Aspose.PDF hỗ trợ .NET Core, .NET Framework và nhiều hơn nữa, vì vậy hãy kiểm tra khả năng tương thích của chúng tùy thuộc vào dự án của bạn.
 
 ### Aspose.PDF cho Thư viện .NET
- Bạn sẽ cần phải thiết lập thư viện Aspose.PDF trong môi trường phát triển của mình. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/). 
+Bạn sẽ cần phải thiết lập thư viện Aspose.PDF trong môi trường phát triển của mình. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/). 
 
 ### Ý TƯỞNG
 Mặc dù bạn có thể sử dụng bất kỳ trình soạn thảo văn bản nào, nhưng chúng tôi khuyên bạn nên sử dụng Môi trường phát triển tích hợp (IDE) như Visual Studio để có trải nghiệm viết mã hiệu quả.
@@ -34,7 +36,7 @@ Mặc dù bạn có thể sử dụng bất kỳ trình soạn thảo văn bản
 Vì chúng ta đang xử lý các đoạn mã C#, nên hiểu biết cơ bản về ngôn ngữ này sẽ giúp bạn dễ dàng theo dõi hơn.
 
 ### Tập tin PDF
- Chuẩn bị sẵn một tệp PDF mẫu mà bạn muốn thêm tem vào. Chúng tôi sẽ gọi đây là`PDFPageStamp.pdf`. 
+Chuẩn bị sẵn một tệp PDF mẫu mà bạn muốn thêm tem vào. Chúng tôi sẽ gọi đây là `PDFPageStamp.pdf`. 
 
 ## Nhập gói 
 
@@ -64,27 +66,27 @@ Trước tiên, bạn cần thiết lập đường dẫn cho các tài liệu P
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
 
 ## Bước 2: Mở tài liệu PDF hiện có
 
- Tiếp theo, bạn sẽ muốn mở tệp PDF mà bạn muốn đóng dấu. Sử dụng`Document` class từ Aspose.PDF, bạn có thể dễ dàng tải tệp PDF của mình lên.
+Tiếp theo, bạn sẽ muốn mở tệp PDF mà bạn muốn đóng dấu. Sử dụng `Document` class từ Aspose.PDF, bạn có thể dễ dàng tải tệp PDF của mình lên.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "PDFPageStamp.pdf");
 ```
 
- Ở đây, chúng tôi đang tạo ra một cái mới`Document` đối tượng và tải nó với`PDFPageStamp.pdf`. Đảm bảo rằng tập tin nằm trong thư mục đã chỉ định.
+Ở đây, chúng tôi đang tạo ra một cái mới `Document` đối tượng và tải nó với `PDFPageStamp.pdf`. Đảm bảo rằng tập tin nằm trong thư mục đã chỉ định.
 
 ## Bước 3: Tạo con dấu trang
 
- Với tài liệu trong tay, đã đến lúc tạo ra một`PdfPageStamp`. Đây là lớp chịu trách nhiệm thêm dấu vào các trang được chỉ định trong tài liệu PDF.
+Với tài liệu trong tay, đã đến lúc tạo ra một `PdfPageStamp`. Đây là lớp chịu trách nhiệm thêm dấu vào các trang được chỉ định trong tài liệu PDF.
 
 ```csharp
 PdfPageStamp pageStamp = new PdfPageStamp(pdfDocument.Pages[1]);
 ```
 
-Ở đây chúng tôi đã khởi tạo`pageStamp` và chỉ định chúng ta muốn áp dụng nó cho trang đầu tiên (lập chỉ mục bắt đầu từ 1).
+Ở đây chúng tôi đã khởi tạo `pageStamp` và chỉ định chúng ta muốn áp dụng nó cho trang đầu tiên (lập chỉ mục bắt đầu từ 1).
 
 ## Bước 4: Cấu hình Thuộc tính Dấu trang
 
@@ -103,7 +105,7 @@ pageStamp.YIndent = 100; // Đặt vị trí dọc
 pageStamp.Rotate = Rotation.on180; // Xoay 180 độ
 ```
 
- Hãy thoải mái điều chỉnh`XIndent` Và`YIndent` giá trị để đặt con dấu của bạn ở bất cứ nơi nào bạn chọn trên trang.
+Hãy thoải mái điều chỉnh `XIndent` Và `YIndent` giá trị để đặt con dấu của bạn ở bất cứ nơi nào bạn chọn trên trang.
 
 ## Bước 5: Thêm tem vào trang
 
@@ -124,7 +126,7 @@ dataDir = dataDir + "PDFPageStamp_out.pdf"; // Đường dẫn tập tin đầu 
 pdfDocument.Save(dataDir); // Lưu tài liệu đã cập nhật
 ```
 
-Bây giờ, tệp PDF mới được đóng dấu sẽ được lưu trong cùng thư mục với tên mới,`PDFPageStamp_out.pdf`.
+Bây giờ, tệp PDF mới được đóng dấu sẽ được lưu trong cùng thư mục với tên mới, `PDFPageStamp_out.pdf`.
 
 ## Bước 7: Tin nhắn xác nhận
 
@@ -152,13 +154,15 @@ Chắc chắn rồi! Bạn có thể thiết lập các thuộc tính như màu 
 Không, tất cả những gì bạn cần là thư viện Aspose.PDF, .NET framework và một IDE phù hợp.
 
 ### Tôi có thể thêm nhiều tem vào các trang khác nhau không?  
- Có, bạn có thể tạo nhiều`PdfPageStamp` các đối tượng theo nhu cầu của bạn và áp dụng chúng vào nhiều trang khác nhau trong tệp PDF của bạn.
+Có, bạn có thể tạo nhiều `PdfPageStamp` các đối tượng theo nhu cầu của bạn và áp dụng chúng vào nhiều trang khác nhau trong tệp PDF của bạn.
 
 ### Tôi có thể tìm thêm mẫu hoặc tài liệu ở đâu?  
- Bạn có thể kiểm tra[Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết và ví dụ.
+Bạn có thể kiểm tra [Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết và ví dụ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

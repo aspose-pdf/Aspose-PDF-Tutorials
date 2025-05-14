@@ -1,14 +1,16 @@
 ---
-title: Nama Tag Kustom untuk PDF menggunakan Java
-linktitle: Nama Tag Kustom untuk PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengatur nama tag khusus untuk dokumen PDF menggunakan Java dengan Aspose.PDF untuk Java.
-weight: 13
-url: /id/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/
+"description": "Pelajari cara mengatur nama tag khusus untuk dokumen PDF menggunakan Java dengan Aspose.PDF untuk Java."
+"linktitle": "Nama Tag Kustom untuk PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Nama Tag Kustom untuk PDF menggunakan Java"
+"url": "/id/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nama Tag Kustom untuk PDF menggunakan Java
@@ -58,7 +60,7 @@ page.getParagraphs().add(paragraph);
 
 ## Langkah 3: Tentukan Nama Tag Kustom
 
- Untuk mengatur nama tag khusus, Anda perlu menggunakan`Tagged` fitur yang disediakan oleh Aspose.PDF. Berikut ini cara Anda dapat menentukan nama tag khusus untuk elemen yang kami tambahkan:
+Untuk mengatur nama tag khusus, Anda perlu menggunakan `Tagged` fitur yang disediakan oleh Aspose.PDF. Berikut ini cara Anda dapat menentukan nama tag khusus untuk elemen yang kami tambahkan:
 
 ```java
 // Aktifkan fitur Tagged
@@ -71,7 +73,7 @@ heading.setTag("CustomHeadingTag"); // Tentukan nama tag kustom
 heading.setTagLanguage("en-US");
 headingElement.appendChild(new StructureText(heading));
 
-// Membuat elemen struktur untuk paragraf
+// Buat elemen struktur untuk paragraf
 StructureElement paragraphElement = new StructureElement(StandardStructureTypes.P);
 paragraphElement.setParentElement(pdfDocument.getStructureRoot());
 paragraph.setTag("CustomParagraphTag"); // Tentukan nama tag kustom
@@ -109,9 +111,11 @@ Anda dapat menggunakan alat pengujian aksesibilitas dan pembaca layar untuk meng
 
 ### 5. Apakah ada praktik terbaik untuk memilih nama tag khusus?
 Pilih nama tag yang menggambarkan konten secara akurat dan ikuti panduan aksesibilitas untuk konsistensi dan kejelasan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

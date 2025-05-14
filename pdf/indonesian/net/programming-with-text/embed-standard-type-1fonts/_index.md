@@ -1,14 +1,16 @@
 ---
-title: Sematkan Font Standar Tipe 1 Dalam File PDF
-linktitle: Sematkan Font Standar Tipe 1 Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menyematkan font Standar Tipe 1 dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini untuk meningkatkan aksesibilitas dokumen Anda.
-weight: 140
-url: /id/net/programming-with-text/embed-standard-type-1fonts/
+"description": "Pelajari cara menyematkan font Standar Tipe 1 dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini untuk meningkatkan aksesibilitas dokumen Anda."
+"linktitle": "Sematkan Font Standar Tipe 1 Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Sematkan Font Standar Tipe 1 Dalam File PDF"
+"url": "/id/net/programming-with-text/embed-standard-type-1fonts/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sematkan Font Standar Tipe 1 Dalam File PDF
@@ -22,7 +24,7 @@ Di dunia digital kita, PDF merupakan salah satu jenis berkas yang paling umum. B
 Sebelum kita menyelami seluk-beluk penyisipan font ke dalam file PDF Anda, ada beberapa prasyarat yang perlu Anda penuhi:
 
 1. Pemahaman Dasar tentang C#: Sangat penting untuk memahami pemrograman C#. Jika Anda familier dengan dasar-dasar bahasa ini, itu adalah awal yang baik.
-2. Aspose.PDF untuk .NET: Anda perlu menginstal pustaka Aspose.PDF. Jika Anda belum melakukannya, jangan khawatir! Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/). 
+2. Aspose.PDF untuk .NET: Anda perlu menginstal pustaka Aspose.PDF. Jika Anda belum melakukannya, jangan khawatir! Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/). 
 3. Lingkungan Pengembangan: Lingkungan pengembangan seperti Visual Studio sangat disarankan. Ini akan memungkinkan Anda menulis, menguji, dan menjalankan kode C# secara efisien.
 4. Dokumen PDF yang Ada: Pastikan Anda memiliki dokumen PDF yang dapat digunakan, yang akan berfungsi sebagai file dasar untuk menyematkan font.
 
@@ -51,21 +53,21 @@ Hal pertama yang perlu Anda lakukan adalah menentukan jalur penyimpanan dokumen 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cukup ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
+Cukup ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
 
 ## Langkah 2: Muat Dokumen PDF yang Ada
 
- Sekarang setelah Anda menunjuk ke direktori, saatnya memuat dokumen PDF yang sudah ada. Ini dilakukan dengan menggunakan`Document` kelas dari pustaka Aspose.PDF:
+Sekarang setelah Anda menunjuk ke direktori, saatnya memuat dokumen PDF yang sudah ada. Ini dilakukan dengan menggunakan `Document` kelas dari pustaka Aspose.PDF:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Baris ini membuat contoh baru dari`Document` kelas, memuat PDF yang Anda tentukan. Pastikan bahwa`"input.pdf"` cocok dengan nama berkas PDF Anda.
+Baris ini membuat contoh baru dari `Document` kelas, memuat PDF yang Anda tentukan. Pastikan bahwa `"input.pdf"` cocok dengan nama berkas PDF Anda.
 
 ## Langkah 3: Atur Properti EmbedStandardFonts
 
- Setelah dokumen Anda dimuat, Anda hampir siap untuk menanamkan font tersebut. Langkah selanjutnya adalah mengatur`EmbedStandardFonts` properti dokumen menjadi true. Ini memberi tahu Aspose.PDF untuk menanamkan font Standard Type 1 ke dalam dokumen. 
+Setelah dokumen Anda dimuat, Anda hampir siap untuk menanamkan font tersebut. Langkah selanjutnya adalah mengatur `EmbedStandardFonts` properti dokumen menjadi true. Ini memberi tahu Aspose.PDF untuk menanamkan font Standard Type 1 ke dalam dokumen. 
 
 ```csharp
 pdfDocument.EmbedStandardFonts = true;
@@ -97,7 +99,7 @@ foreach (Aspose.Pdf.Page page in pdfDocument.Pages)
 Inilah yang terjadi di blok kode ini:
 - Anda menelusuri setiap halaman PDF.
 - Untuk setiap halaman, Anda memeriksa apakah ada font dalam sumber daya.
--  Kemudian, Anda mengulang setiap font dan memeriksa apakah itu tertanam. Jika tidak, Anda mengaturnya`IsEmbedded` properti menjadi benar.
+- Kemudian, Anda mengulang setiap font dan memeriksa apakah itu tertanam. Jika tidak, Anda mengaturnya `IsEmbedded` properti menjadi benar.
 
 ## Langkah 5: Simpan Dokumen PDF yang Diperbarui
 
@@ -121,19 +123,21 @@ Menyematkan font dalam dokumen PDF Anda sangat penting untuk menjaga integritas 
 Font Tipe 1 Standar adalah sekumpulan font yang ditetapkan oleh Adobe. Font-font tersebut meliputi font-font populer seperti Times, Helvetica, dan Courier.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF?
- Anda dapat memulai dengan uji coba gratis, tetapi lisensi berbayar diperlukan untuk penggunaan lebih lama. Pelajari lebih lanjut tentang hal ini[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat memulai dengan uji coba gratis, tetapi lisensi berbayar diperlukan untuk penggunaan lebih lama. Pelajari lebih lanjut tentang hal ini [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana cara memeriksa apakah font sudah tertanam dalam PDF?
- Dengan memeriksa`IsEmbedded`properti font di PDF Anda melalui Aspose.PDF.
+Dengan memeriksa `IsEmbedded` properti font di PDF Anda melalui Aspose.PDF.
 
 ### Apakah ada cara untuk menyematkan jenis font lain?
 Ya! Aspose.PDF mendukung penyematan berbagai jenis font selain Standard Type 1. Periksa dokumentasi untuk detailnya.
 
 ###5. Di mana saya dapat menemukan dukungan jika saya mengalami masalah?
- Anda dapat menemukan dukungan untuk produk Aspose di[forum dukungan](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dukungan untuk produk Aspose di [forum dukungan](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

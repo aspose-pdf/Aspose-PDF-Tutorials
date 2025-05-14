@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasının Başlığındaki Metin
-linktitle: PDF Dosyasının Başlığındaki Metin
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF'lere metin başlıkları eklemeyi öğrenin. Belgelerinizi verimli ve etkili bir şekilde geliştirin.
-weight: 190
-url: /tr/net/programming-with-stamps-and-watermarks/text-in-header/
+"description": "Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF'lere metin başlıkları eklemeyi öğrenin. Belgelerinizi verimli ve etkili bir şekilde geliştirin."
+"linktitle": "PDF Dosyasının Başlığındaki Metin"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasının Başlığındaki Metin"
+"url": "/tr/net/programming-with-stamps-and-watermarks/text-in-header/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasının Başlığındaki Metin
@@ -22,7 +24,7 @@ Hiç bir PDF belgesine o mükemmel dokunuşu ekleme ihtiyacı hissettiniz mi? Be
 Başlamadan önce, her şeyin hazır olduğundan emin olalım. İhtiyacınız olanlar şunlar:
 
 1. .NET Ortamı: Makinenizde çalışan bir .NET ortamının kurulu olduğundan emin olun. Bu, Visual Studio veya herhangi bir uyumlu IDE olabilir.
-2.  Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesinin yüklü olması gerekir. Henüz yüklemediyseniz, şuraya gidin:[indirme bağlantısı](https://releases.aspose.com/pdf/net/) ve en son sürümü edinin.
+2. Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesinin yüklü olması gerekir. Henüz yüklemediyseniz, şuraya gidin: [indirme bağlantısı](https://releases.aspose.com/pdf/net/) ve en son sürümü edinin.
 3. Temel C# Bilgisi: C# hakkında temel bir anlayış takip etmeyi çok daha kolaylaştıracaktır, ancak korkmayın! Her şeyi küçük parçalara böleceğiz.
 4. Örnek PDF Belgesi: Bu eğitim boyunca üzerinde çalışacağımız örnek PDF belgesini oluşturun veya edinin.
 
@@ -53,7 +55,7 @@ Her başarılı yolculuk iyi tanımlanmış bir başlangıç noktasıyla başlar
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` PDF belgenizin kaydedildiği gerçek yol ile. Bu, geri kalan işlemlerimiz için sahneyi hazırlar.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF belgenizin kaydedildiği gerçek yol ile. Bu, geri kalan işlemlerimiz için sahneyi hazırlar.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -64,7 +66,7 @@ Artık dizinimiz hazır olduğuna göre, üzerinde çalışmak istediğimiz PDF'
 Document pdfDocument = new Document(dataDir + "TextinHeader.pdf");
 ```
 
- Burada neler oluyor? Yeni bir şey yaratıyoruz`Document` PDF dosyamıza giden yolu geçirerek nesneyi. Bu bize Aspose.PDF'in o belge için sunduğu tüm özelliklere erişim sağlar!
+Burada neler oluyor? Yeni bir şey yaratıyoruz `Document` PDF dosyamıza giden yolu geçirerek nesneyi. Bu bize Aspose.PDF'in o belge için sunduğu tüm özelliklere erişim sağlar!
 
 ## Adım 3: Başlık için bir Metin Damgası Oluşturun
 
@@ -75,7 +77,7 @@ Daha sonra başlık metnimizi uygulamak için kullanacağımız bir "damga" olu�
 TextStamp textStamp = new TextStamp("Header Text");
 ```
 
- Bu kod satırı bizim başlatır`TextStamp`başlık olarak görüntülemek istediğimiz metinle. "Başlık Metni"ni belgenize uygun şekilde özelleştirebilirsiniz. 
+Bu kod satırı bizim başlatır `TextStamp` başlık olarak görüntülemek istediğimiz metinle. "Başlık Metni"ni belgenize uygun şekilde özelleştirebilirsiniz. 
 
 ## Adım 4: Metin Damgası Özelliklerini Özelleştirin
 
@@ -90,7 +92,7 @@ textStamp.VerticalAlignment = VerticalAlignment.Top;
 
 İşte ayarlamalarımız:
 - TopMargin: Bu, metnimizin sayfanın üstünden ne kadar uzakta olacağını ayarlar.
-- Yatay Hizalama: Bu, metnimizi yatay olarak ortalar.
+- Yatay Hizalama: Bu metnimizi yatay olarak ortalar.
 - Dikey Hizalama: Bu, metnimizi en üste yerleştirir.
 
 ## Adım 5: Tüm Sayfalara Üstbilgi Ekleyin
@@ -116,7 +118,7 @@ Son adım değişikliklerimizi PDF'e kaydetmektir. Bu kritiktir; aksi takdirde t
 pdfDocument.Save(dataDir + "TextinHeader_out.pdf");
 ```
 
-Değiştirilen belgeyi yeni bir dosya olarak kaydediyoruz. Bu şekilde, güncellenmiş sürümü elimizin altında bulundururken orijinali bozulmadan saklıyoruz.
+Değiştirilen belgeyi yeni bir dosya olarak kaydediyoruz. Bu şekilde, güncellenmiş sürümü elimizin altında bulundururken orijinali olduğu gibi koruyoruz.
 
 ## Adım 7: Başarıyı Onaylayın
 
@@ -135,22 +137,24 @@ Tebrikler! Artık Aspose.PDF for .NET kullanarak bir PDF dosyasının başlığ�
 ## SSS
 
 ### Başlık metninin yazı tipini ve boyutunu özelleştirebilir miyim?
- Kesinlikle!`TextStamp` sınıfı, yazı tipi ve boyut özelleştirmesi için özellikler sağlar. Bunları belgenizin stiline uyacak şekilde kolayca ayarlayabilirsiniz.
+Kesinlikle! `TextStamp` sınıfı, yazı tipi ve boyut özelleştirmesi için özellikler sağlar. Bunları belgenizin stiline uyacak şekilde kolayca ayarlayabilirsiniz.
 
 ### Aspose.PDF'i kullanmak ücretsiz mi?
-Aspose ücretsiz deneme sunuyor ancak uzun süreli kullanım için ücretli lisans gerekebilir. Kontrol edin[satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose ücretsiz deneme sunuyor ancak uzun süreli kullanım için ücretli lisans gerekebilir. Kontrol edin [satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Başlığa resim veya logo ekleyebilir miyim?
- Evet! Şunu kullanabilirsiniz:`ImageStamp` PDF başlıklarınıza resim yerleştirmek için de benzer bir sınıf kullanın.
+Evet! Şunu kullanabilirsiniz: `ImageStamp` PDF başlıklarınıza resim yerleştirmek için de benzer bir sınıf kullanın.
 
 ### Ya sadece belirli sayfalara başlık eklemek istersem?
 Sayfalar üzerindeki döngünüzde koşullar kullanarak belirli sayfaları hedefleyebilirsiniz.
 
 ### Daha fazla örnek ve öğreticiyi nerede bulabilirim?
- The[Aspose.PDF belgeleri](https://reference.aspose.com/pdf/net/) Daha derinlere dalmanıza yardımcı olacak birçok örnek ve eğitim videosu var!
+The [Aspose.PDF belgeleri](https://reference.aspose.com/pdf/net/) Daha derinlere dalmanıza yardımcı olacak birçok örnek ve eğitim videosu var!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

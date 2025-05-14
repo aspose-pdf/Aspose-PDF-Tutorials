@@ -1,14 +1,16 @@
 ---
-title: Поиск и получение текстовой страницы в файле PDF
-linktitle: Поиск и получение текстовой страницы в файле PDF
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как искать и извлекать текст с определенной страницы PDF-файла с помощью Aspose.PDF для .NET.
-weight: 430
-url: /ru/net/programming-with-text/search-and-get-text-page/
+"description": "Узнайте, как искать и извлекать текст с определенной страницы PDF-файла с помощью Aspose.PDF для .NET."
+"linktitle": "Поиск и получение текстовой страницы в файле PDF"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Поиск и получение текстовой страницы в файле PDF"
+"url": "/ru/net/programming-with-text/search-and-get-text-page/"
+"weight": 430
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Поиск и получение текстовой страницы в файле PDF
@@ -21,9 +23,9 @@ url: /ru/net/programming-with-text/search-and-get-text-page/
 
 Прежде чем приступить к кодированию, давайте убедимся, что у вас есть все необходимое:
 
-1.  Библиотека Aspose.PDF для .NET: Вы можете загрузить ее с сайта[здесь](https://releases.aspose.com/pdf/net/) или получите бесплатную пробную версию по той же ссылке. Для покупки перейдите на[Магазин Aspose](https://purchase.aspose.com/buy).
+1. Библиотека Aspose.PDF для .NET: ее можно загрузить с сайта [здесь](https://releases.aspose.com/pdf/net/) или получите бесплатную пробную версию по той же ссылке. Для покупки перейдите на [Магазин Aspose](https://purchase.aspose.com/buy).
 2. .NET Framework: вам понадобится рабочая среда разработки .NET, например Visual Studio.
-3. Файл PDF: Вам понадобится образец файла PDF, в котором мы можем искать и извлекать текст. Для этого руководства предположим, что файл называется`SearchAndGetTextPage.pdf`.
+3. Файл PDF: Вам понадобится образец файла PDF, в котором мы можем искать и извлекать текст. Для этого руководства предположим, что файл называется `SearchAndGetTextPage.pdf`.
 
 ## Импортные пакеты
 
@@ -46,7 +48,7 @@ using System
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  dataDir: Это путь к папке, где хранятся ваши PDF-файлы. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения PDF-файла.
+- dataDir: Это путь к папке, где хранятся ваши PDF-файлы. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения PDF-файла.
 
 ## Шаг 2: Загрузите PDF-документ
 
@@ -61,7 +63,7 @@ Document pdfDocument = new Document(dataDir + "SearchAndGetTextPage.pdf");
 
 ## Шаг 3: Создание объекта-поглотителя текста
 
- The`TextFragmentAbsorber`класс позволяет вам искать определенный текст в PDF. Давайте создадим экземпляр этого класса, чтобы найти все экземпляры заданной поисковой фразы.
+The `TextFragmentAbsorber` класс позволяет вам искать определенный текст в PDF. Давайте создадим экземпляр этого класса, чтобы найти все экземпляры заданной поисковой фразы.
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("Figure");
@@ -78,7 +80,7 @@ TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("Figure");
 pdfDocument.Pages.Accept(textFragmentAbsorber);
 ```
 
-- Accept(): этот метод применяет текстовый поглотитель к PDF-файлу, сканируя каждую страницу на предмет указанного вами текста.
+- Accept(): этот метод применяет поглотитель текста к PDF-файлу, сканируя каждую страницу на предмет указанного вами текста.
 
 ## Шаг 5: Извлечение и итерация извлеченного текста
 
@@ -92,7 +94,7 @@ TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragmen
 
 ## Шаг 6: Пройдитесь по каждому фрагменту и извлеките данные
 
-Теперь мы пройдемся по циклу`textFragmentCollection` и извлекать различные свойства каждого текстового сегмента, такие как его положение, сведения о шрифте и цвет.
+Теперь мы пройдемся по циклу `textFragmentCollection` и извлекать различные свойства каждого текстового сегмента, такие как его положение, сведения о шрифте и цвет.
 
 ```csharp
 foreach (TextFragment textFragment in textFragmentCollection)
@@ -126,22 +128,24 @@ foreach (TextFragment textFragment in textFragmentCollection)
 ## Часто задаваемые вопросы
 
 ### Могу ли я искать несколько фраз одновременно?  
- Да, вы можете изменить код для поиска по нескольким фразам, создав несколько`TextFragmentAbsorber` объекты.
+Да, вы можете изменить код для поиска по нескольким фразам, создав несколько `TextFragmentAbsorber` объекты.
 
 ### Как извлечь текст с определенной страницы?  
- Вы можете настроить таргетинг на определенную страницу, применив`TextFragmentAbsorber` на одну страницу вместо всего документа. Например:`pdfDocument.Pages[1].Accept(textFragmentAbsorber);`.
+Вы можете настроить таргетинг на определенную страницу, применив `TextFragmentAbsorber` на одну страницу вместо всего документа. Например: `pdfDocument.Pages[1].Accept(textFragmentAbsorber);`.
 
 ### Является ли Aspose.PDF для .NET бесплатным?  
- Aspose.PDF — это коммерческий продукт, но вы можете использовать его с[бесплатная пробная версия](https://releases.aspose.com/).
+Aspose.PDF — это коммерческий продукт, но вы можете использовать его с [бесплатная пробная версия](https://releases.aspose.com/).
 
 ### Можно ли извлечь изображения из PDF-файла с помощью Aspose.PDF?  
- Да, Aspose.PDF позволяет извлекать изображения в дополнение к тексту. Проверьте[документация](https://reference.aspose.com/pdf/net/) для более подробной информации.
+Да, Aspose.PDF позволяет извлекать изображения в дополнение к тексту. Проверьте [документация](https://reference.aspose.com/pdf/net/) для более подробной информации.
 
 ### Что делать, если мне понадобится дополнительная помощь или поддержка?  
- Вы всегда можете получить помощь от[Форум поддержки Aspose](https://forum.aspose.com/c/pdf/10).
+Вы всегда можете получить помощь от [Форум поддержки Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

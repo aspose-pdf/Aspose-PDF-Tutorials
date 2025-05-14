@@ -1,14 +1,16 @@
 ---
-title: Blok Teks Tersembunyi Dalam File PDF
-linktitle: Blok Teks Tersembunyi Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Buat PDF interaktif dengan blok teks tersembunyi menggunakan Aspose.PDF untuk .NET. Tutorial ini menyediakan panduan langkah demi langkah untuk menyempurnakan dokumen Anda.
-weight: 230
-url: /id/net/programming-with-text/hidden-text-block/
+"description": "Buat PDF interaktif dengan blok teks tersembunyi menggunakan Aspose.PDF untuk .NET. Tutorial ini menyediakan panduan langkah demi langkah untuk menyempurnakan dokumen Anda."
+"linktitle": "Blok Teks Tersembunyi Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Blok Teks Tersembunyi Dalam File PDF"
+"url": "/id/net/programming-with-text/hidden-text-block/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Blok Teks Tersembunyi Dalam File PDF
@@ -21,7 +23,7 @@ Dalam lanskap digital saat ini, PDF tetap menjadi format pilihan untuk segala ha
 
 Sebelum kita mulai, mari kita pastikan Anda memiliki semua yang Anda butuhkan. Berikut ini yang Anda perlukan:
 
-1. Aspose.PDF untuk .NET: Pustaka ini penting untuk bekerja dengan file PDF di aplikasi .NET. Anda dapat memeriksanya, mengunduhnya, atau bahkan mendapatkan uji coba gratis dari[Dokumentasi PDF Aspose](https://reference.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pustaka ini penting untuk bekerja dengan file PDF di aplikasi .NET. Anda dapat memeriksanya, mengunduhnya, atau bahkan mendapatkan uji coba gratis dari [Dokumentasi PDF Aspose](https://reference.aspose.com/pdf/net/).
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework, karena diperlukan untuk menjalankan pustaka Aspose.PDF.
 3. Lingkungan Pengembangan: Editor kode atau Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio akan membuat pengkodean menjadi mudah. 
 4. Pengetahuan Dasar C#: Karena kita akan memprogram dalam C#, memiliki pemahaman dasar tentang bahasa tersebut akan membantu Anda memahami konsepnya dengan lebih mudah.
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outputFile = dataDir + "TextBlock_HideShow_MouseOverOut_out.pdf";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada komputer Anda di mana Anda ingin PDF dibuat.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada komputer Anda di mana Anda ingin PDF dibuat.
 
 ## Langkah 2: Buat Dokumen Contoh
 
@@ -94,7 +96,7 @@ Baris ini memuat dokumen yang baru kita buat sehingga kita dapat membuat perubah
 
 ## Langkah 4: Buat TextAbsorber untuk Menemukan Frasa
 
- Selanjutnya, kita ingin mengidentifikasi fragmen teks yang akan kita kerjakan. Di sinilah`TextFragmentAbsorber` ikut berperan:
+Selanjutnya, kita ingin mengidentifikasi fragmen teks yang akan kita kerjakan. Di sinilah `TextFragmentAbsorber` ikut berperan:
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber("Move the mouse cursor here to display floating text");
@@ -185,19 +187,21 @@ Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda telah berhasil membuat 
 Aspose.PDF untuk .NET adalah pustaka tangguh yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF dalam aplikasi .NET.
 
 ### Bagaimana cara menginstal Aspose.PDF?  
-Anda dapat menginstalnya melalui NuGet Package Manager di Visual Studio. Cukup gunakan perintah:`Install-Package Aspose.PDF`.
+Anda dapat menginstalnya melalui NuGet Package Manager di Visual Studio. Cukup gunakan perintah: `Install-Package Aspose.PDF`.
 
 ### Bisakah saya membuat elemen interaktif lainnya dalam PDF?  
 Ya, selain blok teks tersembunyi, Anda dapat menambahkan tombol, hyperlink, anotasi, dan banyak lagi menggunakan Aspose.PDF.
 
 ### Apakah ada uji coba gratis yang tersedia?  
- Tentu saja! Anda bisa mendapatkan uji coba gratis dari[Aspose merilis halaman](https://releases.aspose.com/).
+Tentu saja! Anda bisa mendapatkan uji coba gratis dari [Aspose merilis halaman](https://releases.aspose.com/).
 
 ### Bagaimana jika saya butuh bantuan dengan Aspose.PDF?  
- Jangan ragu untuk mencari dukungan di[Forum Aspose](https://forum.aspose.com/c/pdf/10) untuk pertanyaan atau masalah apa pun yang mungkin Anda hadapi.
+Jangan ragu untuk mencari dukungan di [Forum Aspose](https://forum.aspose.com/c/pdf/10) untuk pertanyaan atau masalah apa pun yang mungkin Anda hadapi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: สไตล์เซลล์ตารางใน PDF โดยใช้ Java
-linktitle: สไตล์เซลล์ตารางใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีกำหนดรูปแบบเซลล์ตารางในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java ปรับปรุงแอปพลิเคชัน Java ของคุณด้วยคู่มือการปรับแต่ง PDF แบบทีละขั้นตอนนี้
-weight: 13
-url: /th/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/
+"description": "เรียนรู้วิธีกำหนดรูปแบบเซลล์ตารางในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java ปรับปรุงแอปพลิเคชัน Java ของคุณด้วยคู่มือทีละขั้นตอนเกี่ยวกับการปรับแต่ง PDF"
+"linktitle": "สไตล์เซลล์ตารางใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "สไตล์เซลล์ตารางใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สไตล์เซลล์ตารางใน PDF โดยใช้ Java
@@ -24,14 +26,14 @@ url: /th/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/
 
 - สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ในระบบของคุณแล้ว
 
--  Aspose.PDF สำหรับไลบรารี Java: ดาวน์โหลดไลบรารีจาก[ที่นี่](https://releases.aspose.com/pdf/java/) หากคุณยังไม่ได้ทำ
+- Aspose.PDF สำหรับไลบรารี Java: ดาวน์โหลดไลบรารีจาก [ที่นี่](https://releases.aspose.com/pdf/java/) หากคุณยังไม่ได้ทำ
 
 ## การสร้างตาราง PDF ง่ายๆ
 
 ในการเริ่มต้น เราจะสร้างตาราง PDF ง่ายๆ กันก่อน เราจะใช้ Aspose.PDF สำหรับ Java เพื่อสร้างโครงสร้างตารางพื้นฐาน
 
 ```java
-// โค้ด Java เพื่อสร้างเอกสาร PDF พร้อมตาราง
+// โค้ด Java ในการสร้างเอกสาร PDF พร้อมตาราง
 Document pdfDocument = new Document();
 Page page = pdfDocument.getPages().add();
 
@@ -59,7 +61,7 @@ pdfDocument.save("SimpleTable.pdf");
 ตอนนี้เรามีตารางพื้นฐานแล้ว มาดูการกำหนดรูปแบบเซลล์ในตารางกัน เราจะเน้นที่การเปลี่ยนสีพื้นหลังของเซลล์เฉพาะ
 
 ```java
-// โค้ด Java สำหรับกำหนดรูปแบบเซลล์ตารางใน PDF
+// โค้ด Java เพื่อกำหนดรูปแบบเซลล์ตารางใน PDF
 // โหลดเอกสาร PDF ที่มีอยู่
 Document pdfDocument = new Document("SimpleTable.pdf");
 
@@ -87,11 +89,11 @@ pdfDocument.save("StyledTable.pdf");
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
-การติดตั้ง Aspose.PDF สำหรับ Java นั้นทำได้ง่าย คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์ Aspose ได้ที่[ที่นี่](https://releases.aspose.com/pdf/java/).
+การติดตั้ง Aspose.PDF สำหรับ Java นั้นทำได้ง่าย คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์ Aspose ได้ที่ [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ### ฉันสามารถกำหนดรูปแบบด้านอื่นๆ ของ PDF โดยใช้ Aspose.PDF สำหรับ Java ได้หรือไม่
 
-ใช่ Aspose.PDF สำหรับ Java มีความสามารถมากมายในการปรับแต่งรูปแบบต่างๆ ของเอกสาร PDF รวมถึงข้อความ รูปภาพ แบบอักษร และอื่นๆ อีกมากมาย อ่านเอกสารประกอบเพื่อดูข้อมูลโดยละเอียด
+ใช่ Aspose.PDF สำหรับ Java มีความสามารถมากมายในการจัดรูปแบบเอกสาร PDF ในด้านต่างๆ รวมถึงข้อความ รูปภาพ แบบอักษร และอื่นๆ อีกมากมาย อ่านเอกสารประกอบเพื่อดูข้อมูลโดยละเอียด
 
 ### Aspose.PDF สำหรับ Java เหมาะกับโปรเจ็กต์เชิงพาณิชย์หรือไม่
 
@@ -103,10 +105,12 @@ pdfDocument.save("StyledTable.pdf");
 
 ### ฉันสามารถหาบทช่วยสอนและทรัพยากร Aspose.PDF สำหรับ Java เพิ่มเติมได้ที่ไหน
 
- สำหรับบทช่วยสอนและเอกสารประกอบที่ครอบคลุม โปรดไปที่ Aspose.PDF สำหรับเอกสาร Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+สำหรับบทช่วยสอนและเอกสารประกอบที่ครอบคลุม โปรดไปที่เอกสาร Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

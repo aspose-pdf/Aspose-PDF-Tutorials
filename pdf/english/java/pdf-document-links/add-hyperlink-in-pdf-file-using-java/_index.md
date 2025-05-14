@@ -8,7 +8,9 @@ url: /java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Hyperlink in PDF File using Java
@@ -109,6 +111,7 @@ You can set various properties of hyperlinks, such as color, border style, and h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

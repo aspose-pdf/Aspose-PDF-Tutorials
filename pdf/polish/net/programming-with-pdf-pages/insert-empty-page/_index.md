@@ -1,14 +1,16 @@
 ---
-title: Wstaw pustą stronę do pliku PDF
-linktitle: Wstaw pustą stronę do pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wstawić pustą stronę do dokumentu PDF za pomocą Aspose.PDF dla .NET. Samouczek krok po kroku z przykładami kodu do bezproblemowej manipulacji PDF.
-weight: 120
-url: /pl/net/programming-with-pdf-pages/insert-empty-page/
+"description": "Dowiedz się, jak wstawić pustą stronę do dokumentu PDF za pomocą Aspose.PDF dla .NET. Samouczek krok po kroku z przykładami kodu do bezproblemowej manipulacji PDF."
+"linktitle": "Wstaw pustą stronę do pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wstaw pustą stronę do pliku PDF"
+"url": "/pl/net/programming-with-pdf-pages/insert-empty-page/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw pustą stronę do pliku PDF
@@ -21,11 +23,11 @@ Jeśli chcesz programowo dodać pustą stronę do dokumentu PDF, jesteś we wła
 
 Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
 
--  Aspose.PDF dla .NET zainstalowany w Twoim środowisku programistycznym. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET zainstalowany w Twoim środowisku programistycznym. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 - Środowisko programistyczne .NET, takie jak Visual Studio.
 - Podstawowa znajomość języka C# i programowania obiektowego.
 
- Jeśli jeszcze tego nie zrobiłeś, możesz chcieć uzyskać tymczasową licencję od Aspose, aby uniknąć ograniczeń podczas śledzenia. Możesz[kup tutaj](https://purchase.aspose.com/temporary-license/).
+Jeśli jeszcze tego nie zrobiłeś, możesz chcieć uzyskać tymczasową licencję od Aspose, aby uniknąć ograniczeń podczas śledzenia. Możesz [kup tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
@@ -50,7 +52,7 @@ Zanim wstawimy pustą stronę, najpierw skonfigurujmy projekt. Wykonaj poniższe
 
 ### 1.2 Dodaj odniesienie do Aspose.PDF dla .NET
 Jeśli jeszcze nie dodałeś pliku Aspose.PDF dla .NET do swojego projektu, wykonaj następujące kroki:
-- W Eksploratorze rozwiązań kliknij prawym przyciskiem myszy swój projekt i wybierz opcję Zarządzaj pakietami NuGet.
+- Eksploratorze rozwiązań kliknij prawym przyciskiem myszy swój projekt i wybierz opcję Zarządzaj pakietami NuGet.
 - W Menedżerze pakietów NuGet wyszukaj „Aspose.PDF” i zainstaluj go.
 
 Teraz masz już gotowe środowisko programistyczne!
@@ -61,7 +63,7 @@ Aby wstawić pustą stronę, najpierw potrzebujemy dokumentu PDF do pracy. Zała
 
 ### 2.1 Zdefiniuj ścieżkę katalogu
 
- Pierwszą rzeczą, którą musimy zrobić, jest zdefiniowanie ścieżki do dokumentu PDF. Zastąp`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką do folderu, w którym znajduje się plik PDF.
+Pierwszą rzeczą, którą musimy zrobić, jest zdefiniowanie ścieżki do dokumentu PDF. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu, w którym znajduje się plik PDF.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -95,7 +97,7 @@ Po wstawieniu strony musimy zapisać zaktualizowany dokument PDF.
 
 ### 4.1 Zdefiniuj ścieżkę pliku wyjściowego
 
-Określmy, gdzie nowy plik powinien zostać zapisany. W tym przypadku zapiszemy go w tym samym katalogu, dodając "_„out” do nazwy pliku, aby było jaśniej.
+Określmy, gdzie nowy plik powinien zostać zapisany. W tym przypadku zapiszemy go w tym samym katalogu, dodając „_out” do nazwy pliku dla przejrzystości.
 
 ```csharp
 dataDir = dataDir + "InsertEmptyPage_out.pdf";
@@ -129,7 +131,7 @@ I to wszystko! Udało Ci się dodać pustą stronę do dokumentu PDF za pomocą 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę wstawić kilka stron jednocześnie?
- Tak, możesz wstawić wiele stron, wywołując`Insert` Metodę tę należy stosować wielokrotnie lub za pomocą pętli.
+Tak, możesz wstawić wiele stron, wywołując `Insert` Metodę tę należy stosować wielokrotnie lub za pomocą pętli.
 
 ### Czy ta metoda działa w przypadku bardzo dużych plików PDF?
 Tak, Aspose.PDF jest zoptymalizowany do wydajnej obsługi zarówno małych, jak i dużych plików PDF.
@@ -141,10 +143,12 @@ Oczywiście! Możesz utworzyć stronę z treścią, taką jak tekst lub obrazy, 
 Tak, Aspose.PDF obsługuje zarówno .NET Framework, jak i .NET Core.
 
 ### Jak mogę przetestować kod bez ograniczeń?
- Możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby uzyskać w pełni funkcjonalną wersję Aspose.PDF do celów testowych.
+Możesz poprosić o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby uzyskać w pełni funkcjonalną wersję Aspose.PDF do celów testowych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

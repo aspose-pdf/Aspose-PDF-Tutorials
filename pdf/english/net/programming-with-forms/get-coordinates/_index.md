@@ -8,7 +8,9 @@ url: /net/programming-with-forms/get-coordinates/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get PDF Form Field Coordinates
@@ -155,6 +157,7 @@ You can find support and ask questions in the Aspose [support forum](https://for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

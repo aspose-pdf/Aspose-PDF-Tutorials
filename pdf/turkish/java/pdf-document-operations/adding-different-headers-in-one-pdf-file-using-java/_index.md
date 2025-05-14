@@ -1,14 +1,16 @@
 ---
-title: Java Kullanarak Bir PDF Dosyasına Farklı Başlıklar Ekleme
-linktitle: Java Kullanarak Bir PDF Dosyasına Farklı Başlıklar Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java ile Aspose.PDF kullanarak bir PDF dosyasına farklı başlıkların nasıl ekleneceğini öğrenin. PDF başlıklarını özelleştirmek için adım adım kılavuz.
-weight: 11
-url: /tr/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/
+"description": "Java ile Aspose.PDF kullanarak bir PDF dosyasına farklı başlıkların nasıl ekleneceğini öğrenin. PDF başlıklarını özelleştirmek için adım adım kılavuz."
+"linktitle": "Java Kullanarak Bir PDF Dosyasına Farklı Başlıklar Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java Kullanarak Bir PDF Dosyasına Farklı Başlıklar Ekleme"
+"url": "/tr/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Kullanarak Bir PDF Dosyasına Farklı Başlıklar Ekleme
@@ -22,7 +24,7 @@ Java'da belge işleme alanında Aspose.PDF güçlü bir müttefik olarak durmakt
 
 Bu yolculuğa çıkmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Java Kütüphanesi için Aspose.PDF: Buradan indirin ve kurun[Burada](https://releases.aspose.com/pdf/java/).
+- Java Kütüphanesi için Aspose.PDF: Buradan indirin ve kurun [Burada](https://releases.aspose.com/pdf/java/).
 
 Şimdi, bir PDF dosyasına adım adım farklı başlıklar eklemenin inceliklerine inelim.
 
@@ -115,10 +117,12 @@ Evet, Aspose.PDF for Java'nın üretim ortamında kullanılabilmesi için geçer
 
 ### Java için Aspose.PDF için daha fazla örnek ve dokümanı nerede bulabilirim?
 
- Kapsamlı dokümantasyonu ve örnekleri şu adreste inceleyebilirsiniz:[Java API Referansları için Aspose.PDF](https://reference.aspose.com/pdf/java/).
+Kapsamlı dokümantasyonu ve örnekleri şu adreste inceleyebilirsiniz: [Java API Referansları için Aspose.PDF](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PDF Header Customization with Aspose.PDF for Java
 
@@ -194,7 +196,11 @@ You've now mastered the art of adding headers to your PDF documents using Aspose
 - **Free Trial**: Try out Aspose.PDF with a free trial available on their website.
 - **Temporary License**: Obtain a temporary license to unlock all features during development.
 - **Support**: For any questions, visit the [Aspose PDF Forum](https://forum.aspose.com/c/pdf/) for community support and assistance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

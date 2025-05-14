@@ -8,7 +8,9 @@ url: /java/pdf-structure-elements/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Structure Elements
@@ -42,9 +44,11 @@ Learn how to create tagged PDFs in Java with Aspose.PDF for Java. Our step-by-st
 Master PDF Text Block Structure Elements in Java - A Step-by-Step Guide using Aspose.PDF for Java.
 ### [Text Structure Elements in PDF using Java](./text-structure-elements-in-pdf-using-java/)
 Learn how to manipulate PDF text structures in Java using Aspose.PDF for Java. Explore step-by-step guides with source code for efficient PDF text handling.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

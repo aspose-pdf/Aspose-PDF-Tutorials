@@ -1,14 +1,16 @@
 ---
-title: إنشاء ملفات متوافقة مع PDF/A
-linktitle: إنشاء ملفات متوافقة مع PDF/A
-second_title: واجهة برمجة تطبيقات معالجة PDF الخاصة بـ Aspose.PDF Java
-description: تعرف على كيفية إنشاء ملفات متوافقة مع PDF/A باستخدام Aspose.PDF for Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية لملفات PDF القياسية في الصناعة.
-weight: 18
-url: /ar/java/pdf-conversion-transformation/create-pdfa-compliant-files/
+"description": "تعرّف على كيفية إنشاء ملفات متوافقة مع PDF/A باستخدام Aspose.PDF لجافا. دليل خطوة بخطوة مع أمثلة برمجية لملفات PDF متوافقة مع معايير الصناعة."
+"linktitle": "إنشاء ملفات متوافقة مع PDF/A"
+"second_title": "واجهة برمجة تطبيقات معالجة PDF في Java لـ Aspose.PDF"
+"title": "إنشاء ملفات متوافقة مع PDF/A"
+"url": "/ar/java/pdf-conversion-transformation/create-pdfa-compliant-files/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إنشاء ملفات متوافقة مع PDF/A
@@ -16,23 +18,23 @@ url: /ar/java/pdf-conversion-transformation/create-pdfa-compliant-files/
 
 ## مقدمة
 
-إن إنشاء مستندات PDF تلتزم بمعيار PDF/A يضمن إمكانية الوصول إلى ملفاتك وموثوقيتها بمرور الوقت. يجعل Aspose.PDF for Java هذه المهمة سهلة بفضل مجموعة الميزات القوية وواجهة برمجة التطبيقات سهلة الاستخدام.
+يضمن إنشاء مستندات PDF متوافقة مع معيار PDF/A إمكانية الوصول إلى ملفاتك وموثوقيتها على المدى الطويل. يُسهّل Aspose.PDF لـ Java هذه المهمة بفضل مجموعة ميزاته القوية وواجهة برمجة التطبيقات سهلة الاستخدام.
 
 ## فهم الامتثال لـ PDF/A
 
-يضمن التوافق مع تنسيق PDF/A أن المستند سيظهر في المستقبل بنفس الطريقة تمامًا كما هو الحال اليوم، بغض النظر عن البرنامج أو الأجهزة المستخدمة. كما يضمن إمكانية البحث عن النص داخل المستند وتحديده.
+يضمن توافق PDF/A عرض المستند بنفس الطريقة تمامًا في المستقبل كما هو الحال اليوم، بغض النظر عن البرنامج أو الجهاز المستخدم. كما يضمن إمكانية البحث والاختيار بين النصوص داخل المستند.
 
 ## إعداد بيئة التطوير الخاصة بك
 
- قبل أن نبدأ، تأكد من تثبيت Java على نظامك. يمكنك تنزيله من[هنا](https://www.java.com/download/)تأكد أيضًا من أن لديك بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse.
+قبل أن نبدأ، تأكد من تثبيت جافا على نظامك. يمكنك تنزيله من [هنا](https://www.java.com/download/)تأكد أيضًا من أن لديك بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse.
 
 ## إنشاء مشروع جافا جديد
 
-ابدأ بإنشاء مشروع Java جديد في بيئة التطوير المتكاملة المفضلة لديك. أعطه اسمًا واختر الإعدادات المناسبة لمشروعك.
+ابدأ بإنشاء مشروع جافا جديد في بيئة التطوير المتكاملة (IDE) المُفضّلة لديك. أعطِه اسمًا واختر الإعدادات المُناسبة لمشروعك.
 
 ## إضافة Aspose.PDF لـ Java إلى مشروعك
 
- لاستخدام Aspose.PDF لـ Java، تحتاج إلى إضافة مكتبة Aspose.PDF إلى مشروعك. يمكنك تنزيلها من[Aspose.PDF لجافا](https://releases.aspose.com/pdf/java/)بمجرد التنزيل، قم بإضافة ملف JAR إلى مسار مشروعك.
+لاستخدام Aspose.PDF في جافا، عليك إضافة مكتبة Aspose.PDF إلى مشروعك. يمكنك تنزيلها من [Aspose.PDF لـ Java](https://releases.aspose.com/pdf/java/)بمجرد التنزيل، أضف ملف JAR إلى مسار فئة مشروعك.
 
 ## تهيئة مستند PDF
 
@@ -47,7 +49,7 @@ Document pdfDocument = new Document();
 
 ## إضافة محتوى إلى ملف PDF
 
-يمكنك إضافة عناصر مختلفة إلى ملف PDF، بما في ذلك النصوص والصور والجداول. فيما يلي مثال لإضافة نص إلى المستند:
+يمكنك إضافة عناصر متنوعة إلى ملف PDF، بما في ذلك النصوص والصور والجداول. إليك مثال على إضافة نص إلى المستند:
 
 ```java
 import com.aspose.pdf.Page;
@@ -59,13 +61,13 @@ Page page = pdfDocument.getPages().add();
 // إنشاء جزء نصي
 TextFragment textFragment = new TextFragment("Hello, PDF/A!");
 
-// أضف جزء النص إلى الصفحة
+// أضف جزءًا من النص إلى الصفحة
 page.getParagraphs().add(textFragment);
 ```
 
 ## تحديد مستوى الامتثال لـ PDF/A
 
-لضمان التوافق مع PDF/A، قم بتعيين مستوى التوافق لمستند PDF:
+لضمان توافق PDF/A، قم بتعيين مستوى التوافق لمستند PDF:
 
 ```java
 import com.aspose.pdf.PdfFormat;
@@ -74,7 +76,7 @@ import com.aspose.pdf.PdfFormat;
 pdfDocument.setPdfFormat(PdfFormat.PDF_A_1B);
 ```
 
-## التحقق من صحة التوافق مع PDF/A
+## التحقق من صحة امتثال PDF/A
 
 يوفر Aspose.PDF for Java أدوات تحقق مدمجة للتحقق مما إذا كان مستندك متوافقًا مع PDF/A:
 
@@ -97,17 +99,17 @@ pdfDocument.save("output.pdf");
 
 ## الميزات الإضافية والتخصيص
 
-يوفر Aspose.PDF for Java مجموعة واسعة من الميزات لتخصيص مستندات PDF الخاصة بك، بما في ذلك إضافة الرؤوس والتذييلات والعلامات المائية والمزيد. استكشف[التوثيق](https://reference.aspose.com/pdf/java/) للحصول على معلومات مفصلة حول خيارات التخصيص.
+يوفر Aspose.PDF لجافا مجموعة واسعة من الميزات لتخصيص مستندات PDF، بما في ذلك إضافة الرؤوس والتذييلات والعلامات المائية وغيرها. استكشف [التوثيق](https://reference.aspose.com/pdf/java/) للحصول على معلومات مفصلة حول خيارات التخصيص.
 
 ## خاتمة
 
-إن إنشاء ملفات متوافقة مع PDF/A باستخدام Aspose.PDF for Java عملية بسيطة، مما يضمن إمكانية الوصول إلى مستنداتك وموثوقيتها على المدى الطويل. ابدأ في دمج التوافق مع PDF/A في مشاريعك اليوم لتحسين الحفاظ على المستندات.
+إنشاء ملفات متوافقة مع PDF/A باستخدام Aspose.PDF لجافا عملية سهلة وبسيطة، تضمن لك سهولة الوصول إلى مستنداتك وموثوقيتها على المدى الطويل. ابدأ اليوم بدمج توافق PDF/A في مشاريعك لتحسين حفظ مستنداتك.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني إضافة الصور إلى مستند PDF باستخدام Aspose.PDF لـ Java؟
 
- لإضافة صور إلى مستند PDF، يمكنك استخدام`Image` فئة من Aspose.PDF لـ Java. فيما يلي مثال أساسي:
+لإضافة صور إلى مستند PDF، يمكنك استخدام `Image` فئة من Aspose.PDF لجافا. إليك مثال بسيط:
 
 ```java
 import com.aspose.pdf.Image;
@@ -122,22 +124,22 @@ page.getParagraphs().add(image);
 
 ### هل يمكنني حماية مستند متوافق مع PDF/A بكلمة مرور باستخدام Aspose.PDF لـ Java؟
 
-نعم، يمكنك حماية مستند متوافق مع تنسيق PDF/A بكلمة مرور باستخدام Aspose.PDF for Java. يمكنك تعيين كلمة مرور لفتح المستند أو تقييد الأذونات المختلفة، مثل الطباعة أو نسخ المحتوى. راجع الوثائق للحصول على تعليمات مفصلة.
+نعم، يمكنك حماية مستند متوافق مع PDF/A بكلمة مرور باستخدام Aspose.PDF لجافا. يمكنك تعيين كلمة مرور لفتح المستند أو تقييد صلاحيات مختلفة، مثل الطباعة أو النسخ. راجع الوثائق للاطلاع على التعليمات المفصلة.
 
 ### هل Aspose.PDF for Java متوافق مع Java 11؟
 
-نعم، برنامج Aspose.PDF for Java متوافق مع Java 11 والإصدارات الأحدث. تأكد من تثبيت إصدار Java المناسب على نظامك لضمان التكامل السلس.
+نعم، Aspose.PDF لجافا متوافق مع جافا 11 والإصدارات الأحدث. تأكد من تثبيت إصدار جافا المناسب على نظامك لضمان التكامل السلس.
 
-### كيف يمكنني إضافة ارتباطات تشعبية إلى النص في مستند PDF؟
+### كيف يمكنني إضافة ارتباطات تشعبية إلى نص في مستند PDF؟
 
- لإضافة ارتباطات تشعبية إلى نص في مستند PDF، يمكنك استخدام`LinkAnnotation` فئة من Aspose.PDF لـ Java. فيما يلي مثال بسيط:
+لإضافة ارتباطات تشعبية إلى نص في مستند PDF، يمكنك استخدام `LinkAnnotation` فئة من Aspose.PDF لجافا. إليك مثال بسيط:
 
 ```java
 import com.aspose.pdf.LinkAnnotation;
 
 // إنشاء تعليق على الرابط
 LinkAnnotation link = new LinkAnnotation(page, new Rectangle(100, 100, 200, 120));
-link.setAction(new GoToURIAction("https://مثال.com"));
+link.setAction(new GoToURIAction("https://example.com"));
 link.setBorderStyle(new BorderStyle());
 link.setHighlightMode(HighlightMode.INVERT);
 
@@ -147,7 +149,7 @@ page.getAnnotations().add(link);
 
 ### كيف يمكنني استخراج النص من مستند PDF باستخدام Aspose.PDF لـ Java؟
 
- يمكنك استخراج النص من مستند PDF باستخدام`TextAbsorber` تم توفير الفئة بواسطة Aspose.PDF لـ Java. فيما يلي مثال أساسي:
+يمكنك استخراج النص من مستند PDF باستخدام `TextAbsorber` فئة مُقدمة من Aspose.PDF لجافا. إليك مثال بسيط:
 
 ```java
 import com.aspose.pdf.TextAbsorber;
@@ -155,15 +157,17 @@ import com.aspose.pdf.TextAbsorber;
 // تهيئة TextAbsorber
 TextAbsorber textAbsorber = new TextAbsorber();
 
-//قبول وثيقة PDF
+// قبول وثيقة PDF
 pdfDocument.getPages().accept(textAbsorber);
 
 // احصل على النص المستخرج
 String extractedText = textAbsorber.getText();
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

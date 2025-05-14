@@ -8,7 +8,9 @@ url: /net/programming-with-text/text-alignment-for-floating-box-contents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Text Alignment For Floating Box Contents In PDF File
@@ -142,6 +144,7 @@ Detailed documentation can be found [here](https://reference.aspose.com/pdf/net/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi XPS sang tệp PDF
-linktitle: Chuyển đổi XPS sang tệp PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách chuyển đổi tệp XPS sang PDF dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình.
-weight: 27
-url: /vi/java/pdf-conversion-transformation/convert-xps-to-pdf-files/
+"description": "Tìm hiểu cách chuyển đổi tệp XPS sang PDF dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình."
+"linktitle": "Chuyển đổi XPS sang tệp PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Chuyển đổi XPS sang tệp PDF"
+"url": "/vi/java/pdf-conversion-transformation/convert-xps-to-pdf-files/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi XPS sang tệp PDF
@@ -16,7 +18,7 @@ url: /vi/java/pdf-conversion-transformation/convert-xps-to-pdf-files/
 
 ## Giới thiệu về Aspose.PDF cho Java
 
-Aspose.PDF for Java là một thư viện mạnh mẽ và linh hoạt cho phép các nhà phát triển làm việc với các tệp PDF trong các ứng dụng Java. Nó cung cấp nhiều tính năng để tạo, thao tác và chuyển đổi tài liệu PDF. Trong hướng dẫn này, chúng tôi sẽ tập trung vào khả năng chuyển đổi tệp XPS sang PDF của nó.
+Aspose.PDF for Java là một thư viện mạnh mẽ và đa năng cho phép các nhà phát triển làm việc với các tệp PDF trong các ứng dụng Java. Nó cung cấp nhiều tính năng để tạo, thao tác và chuyển đổi tài liệu PDF. Trong hướng dẫn này, chúng tôi sẽ tập trung vào khả năng chuyển đổi tệp XPS sang PDF của nó.
 
 ## Điều kiện tiên quyết
 
@@ -24,7 +26,7 @@ Trước khi đi sâu vào quá trình chuyển đổi, bạn sẽ cần thiết
 
 - Bộ phát triển Java (JDK)
 - Môi trường phát triển tích hợp (IDE) như Eclipse hoặc IntelliJ IDEA
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập dự án
 
@@ -63,7 +65,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách chuyển đổi t�
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Để cài đặt Aspose.PDF cho Java, hãy tải xuống thư viện từ[đây](https://releases.aspose.com/pdf/java/) và thêm nó vào classpath của dự án Java của bạn.
+Để cài đặt Aspose.PDF cho Java, hãy tải xuống thư viện từ [đây](https://releases.aspose.com/pdf/java/) và thêm nó vào classpath của dự án Java của bạn.
 
 ### Tôi có thể chuyển đổi nhiều tệp XPS sang PDF cùng một lúc không?
 
@@ -80,9 +82,11 @@ Có, Aspose.PDF for Java hỗ trợ nhiều định dạng tài liệu, bao gồ
 ### Aspose.PDF cho Java có phù hợp để xử lý tài liệu quy mô lớn không?
 
 Có, Aspose.PDF for Java được thiết kế để xử lý hiệu quả các tài liệu quy mô lớn. Đây là lựa chọn mạnh mẽ cho các ứng dụng yêu cầu các hoạt động liên quan đến PDF mở rộng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

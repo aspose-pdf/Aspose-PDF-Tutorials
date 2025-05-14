@@ -1,14 +1,16 @@
 ---
-title: Thêm hình ảnh đóng dấu làm nền trong hộp nổi của PDF bằng Java
-linktitle: Thêm hình ảnh đóng dấu làm nền trong hộp nổi của PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm tem hình ảnh làm nền trong PDF bằng Java và Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để tùy chỉnh thương hiệu và thông tin.
-weight: 10
-url: /vi/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/
+"description": "Tìm hiểu cách thêm tem hình ảnh làm nền trong PDF bằng Java và Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để tùy chỉnh thương hiệu và thông tin."
+"linktitle": "Thêm hình ảnh đóng dấu làm nền trong hộp nổi của PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm hình ảnh đóng dấu làm nền trong hộp nổi của PDF bằng Java"
+"url": "/vi/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm hình ảnh đóng dấu làm nền trong hộp nổi của PDF bằng Java
@@ -24,7 +26,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 
 - Đã cài đặt Java Development Kit (JDK)
 - Môi trường phát triển tích hợp (IDE) cho Java, chẳng hạn như IntelliJ IDEA hoặc Eclipse
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Aspose.PDF dành cho Java là gì?
 
@@ -36,7 +38,7 @@ Con dấu hình ảnh trong PDF là các thành phần đồ họa có thể đ�
 
 ## Chuẩn bị môi trường phát triển của bạn
 
- Trước khi đi sâu vào mã, bạn cần thiết lập môi trường phát triển của mình. Đảm bảo bạn đã cài đặt và cấu hình thư viện Aspose.PDF cho Java trong dự án Java của mình. Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/pdf/java/).
+Trước khi đi sâu vào mã, bạn cần thiết lập môi trường phát triển của mình. Đảm bảo bạn đã cài đặt và cấu hình thư viện Aspose.PDF cho Java trong dự án Java của mình. Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Tạo một tài liệu PDF
 
@@ -49,7 +51,7 @@ Document pdfDocument = new Document();
 
 ## Thêm một con dấu hình ảnh
 
- Tiếp theo, chúng ta sẽ thêm một con dấu hình ảnh vào tài liệu PDF. Bạn nên chuẩn bị tệp hình ảnh của mình cho bước này. Chúng ta sẽ sử dụng`addStamp` phương pháp thêm hình ảnh dưới dạng tem.
+Tiếp theo, chúng ta sẽ thêm một con dấu hình ảnh vào tài liệu PDF. Bạn nên chuẩn bị tệp hình ảnh của mình cho bước này. Chúng ta sẽ sử dụng `addStamp` phương pháp thêm hình ảnh dưới dạng tem.
 
 ```java
 // Mã Java để thêm dấu hình ảnh
@@ -95,7 +97,7 @@ Trong hướng dẫn này, chúng ta đã học cách thêm tem hình ảnh làm
 
 ### Làm thế nào để tôi có thể thay đổi vị trí của dấu hình ảnh trong PDF?
 
- Bạn có thể điều chỉnh vị trí của tem hình ảnh bằng cách sửa đổi tọa độ X và Y của nó bằng cách sử dụng`stamp.setX` Và`stamp.setY` phương pháp.
+Bạn có thể điều chỉnh vị trí của tem hình ảnh bằng cách sửa đổi tọa độ X và Y của nó bằng cách sử dụng `stamp.setX` Và `stamp.setY` phương pháp.
 
 ### Tôi có thể thêm nhiều tem hình ảnh vào cùng một tài liệu PDF không?
 
@@ -111,10 +113,12 @@ Chắc chắn rồi! Bạn có thể thêm dấu văn bản bên cạnh dấu h�
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên trang tài liệu Aspose.PDF cho Java:[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên trang tài liệu Aspose.PDF cho Java: [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

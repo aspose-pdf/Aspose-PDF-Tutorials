@@ -6,7 +6,9 @@ url: "/net/advanced-features/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Advanced PDF Features Tutorials for Aspose.PDF .NET
@@ -69,6 +71,9 @@ Learn to craft accessible, styled tagged PDF documents using Aspose.PDF for .NET
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

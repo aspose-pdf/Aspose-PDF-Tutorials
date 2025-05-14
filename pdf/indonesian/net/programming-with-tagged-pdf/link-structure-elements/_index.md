@@ -1,14 +1,16 @@
 ---
-title: Elemen Struktur Tautan
-linktitle: Elemen Struktur Tautan
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat elemen struktur tautan dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk menambahkan tautan yang dapat diakses, gambar, dan validasi kepatuhan.
-weight: 120
-url: /id/net/programming-with-tagged-pdf/link-structure-elements/
+"description": "Pelajari cara membuat elemen struktur tautan dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk menambahkan tautan yang dapat diakses, gambar, dan validasi kepatuhan."
+"linktitle": "Elemen Struktur Tautan"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Elemen Struktur Tautan"
+"url": "/id/net/programming-with-tagged-pdf/link-structure-elements/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elemen Struktur Tautan
@@ -21,9 +23,9 @@ Membuat dan mengelola elemen struktur tautan dalam PDF dapat menjadi hal yang pe
 
 Sebelum kita mulai membuat kode, mari kita bahas beberapa hal terlebih dahulu. Berikut ini adalah persyaratan dasar untuk memastikan pengalaman pengembangan yang lancar.
 
-1.  Aspose.PDF untuk .NET: Anda dapat mengunduh versi terbaru[Di Sini](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Anda dapat mengunduh versi terbaru [Di Sini](https://releases.aspose.com/pdf/net/).
 2. Lingkungan Pengembangan .NET: Baik itu Visual Studio atau IDE apa pun yang kompatibel dengan .NET, instal dan siapkan.
-3.  Lisensi Aspose: Anda dapat menggunakan versi uji coba gratis Aspose.PDF[Di Sini](https://releases.aspose.com/) atau memperoleh[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+3. Lisensi Aspose: Anda dapat menggunakan versi uji coba gratis Aspose.PDF [Di Sini](https://releases.aspose.com/) atau memperoleh [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 4. Pengetahuan Dasar C#: Kita akan bekerja dengan beberapa kode C#, jadi memahami dasar-dasarnya akan membuat segalanya lebih mudah.
 
 ## Paket Impor
@@ -61,7 +63,7 @@ Document document = new Document();
 ITaggedContent taggedContent = document.TaggedContent;
 ```
   
- Di sini, kita menginisialisasi`Document` objek, yang mewakili file PDF kami. Kami juga mengambil`TaggedContent` antarmuka, yang memungkinkan kita menambahkan elemen struktur seperti paragraf, tautan, dan gambar.
+Di sini, kita menginisialisasi `Document` objek, yang mewakili file PDF kami. Kami juga mengambil `TaggedContent` antarmuka, yang memungkinkan kita menambahkan elemen struktur seperti paragraf, tautan, dan gambar.
 
 ## Langkah 2: Tetapkan Judul dan Bahasa  
 
@@ -128,7 +130,7 @@ link2.AppendChild(span2);
 link2.AlternateDescriptions = "Link to Google";
 ```
   
-Di sini, kami menggunakan elemen span untuk melampirkan bagian teks di dalam tautan, yang memungkinkan kami menyesuaikan bagaimana bagian tertentu dari tautan muncul.
+Di sini, kami menggunakan elemen span untuk melampirkan bagian teks dalam tautan, yang memungkinkan kami menyesuaikan bagaimana bagian tertentu dari tautan muncul.
 
 ## Langkah 6: Tautan Multiline  
 
@@ -206,9 +208,11 @@ Ya, Anda dapat menerapkan gaya teks menggunakan elemen span.
 
 ### Apakah mungkin untuk membuat tautan dokumen internal?  
 Tentu saja! Anda dapat menautkan ke bagian tertentu dalam dokumen yang sama.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

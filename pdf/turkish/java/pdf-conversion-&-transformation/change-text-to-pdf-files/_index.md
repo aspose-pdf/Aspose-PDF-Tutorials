@@ -1,14 +1,16 @@
 ---
-title: Metni PDF Dosyalarına Dönüştür
-linktitle: Metni PDF Dosyalarına Dönüştür
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF'yi kullanarak metni PDF dosyalarına nasıl kolayca dönüştüreceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
-weight: 25
-url: /tr/java/pdf-conversion-transformation/change-text-to-pdf-files/
+"description": "Java için Aspose.PDF'yi kullanarak metni PDF dosyalarına nasıl kolayca dönüştüreceğinizi öğrenin. Kaynak kodlu adım adım kılavuz."
+"linktitle": "Metni PDF Dosyalarına Dönüştür"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Metni PDF Dosyalarına Dönüştür"
+"url": "/tr/java/pdf-conversion-transformation/change-text-to-pdf-files/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metni PDF Dosyalarına Dönüştür
@@ -28,7 +30,7 @@ Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Kiti (JDK) yüklendi
 - Tercih ettiğiniz Entegre Geliştirme Ortamı (IDE)
--  Java kütüphanesi için Aspose.PDF (buradan indirebilirsiniz)[Burada](https://releases.aspose.com/pdf/java/)
+- Java kütüphanesi için Aspose.PDF (buradan indirebilirsiniz) [Burada](https://releases.aspose.com/pdf/java/)
 
 ## Projenin Kurulumu
 
@@ -42,7 +44,7 @@ Başlamak için IDE'nizde yeni bir Java projesi kuralım. Şu adımları izleyin
 
 Artık projeniz hazır olduğuna göre, ona Aspose.PDF for Java'yı eklemenin zamanı geldi. Bunu nasıl yapabileceğinizi burada bulabilirsiniz:
 
-1.  Java kütüphanesi için Aspose.PDF'yi şu adresten indirin:[Burada](https://releases.aspose.com/pdf/java/).
+1. Java için Aspose.PDF kitaplığını şu adresten indirin: [Burada](https://releases.aspose.com/pdf/java/).
 2. İndirdiğiniz JAR dosyasını projenizin sınıf yoluna ekleyin.
 
 ## Basit Bir Java Uygulaması Oluşturma
@@ -93,7 +95,7 @@ Bu makalede, metin dosyalarını PDF belgelerine dönüştürmek için Aspose.PD
 
 ### Java için Aspose.PDF'yi nasıl indirebilirim?
 
- Java için Aspose.PDF'yi şu web sitesinden indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/).
+Java için Aspose.PDF'yi şu web sitesinden indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/).
 
 ### PDF belgesinin görünümünü özelleştirebilir miyim?
 
@@ -109,10 +111,12 @@ Java için Aspose.PDF, metin, HTML, XML ve daha fazlası dahil olmak üzere çe�
 
 ### Java için Aspose.PDF kullanırken hatalarla nasıl başa çıkabilirim?
 
-PDF işleme sırasında oluşabilecek herhangi bir istisnayı ele almak için Java uygulamanızda hata işlemeyi uygulayabilirsiniz. En iyi uygulamalar için belgelere bakın.
+PDF işleme sırasında oluşabilecek herhangi bir istisnayı işlemek için Java uygulamanızda hata işlemeyi uygulayabilirsiniz. En iyi uygulamalar için belgelere bakın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

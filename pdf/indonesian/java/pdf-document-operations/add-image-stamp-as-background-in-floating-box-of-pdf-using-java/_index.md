@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Cap Gambar sebagai Latar Belakang di Kotak Mengambang PDF menggunakan Java
-linktitle: Tambahkan Cap Gambar sebagai Latar Belakang di Kotak Mengambang PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan stempel gambar sebagai latar belakang dalam PDF menggunakan Java dan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode untuk merek dan informasi yang disesuaikan.
-weight: 10
-url: /id/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/
+"description": "Pelajari cara menambahkan stempel gambar sebagai latar belakang dalam PDF menggunakan Java dan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode untuk merek dan informasi yang disesuaikan."
+"linktitle": "Tambahkan Cap Gambar sebagai Latar Belakang di Kotak Mengambang PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Tambahkan Cap Gambar sebagai Latar Belakang di Kotak Mengambang PDF menggunakan Java"
+"url": "/id/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Cap Gambar sebagai Latar Belakang di Kotak Mengambang PDF menggunakan Java
@@ -24,7 +26,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal
 - Lingkungan Pengembangan Terpadu (IDE) untuk Java, seperti IntelliJ IDEA atau Eclipse
--  Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Apa itu Aspose.PDF untuk Java?
 
@@ -36,7 +38,7 @@ Stempel gambar dalam PDF adalah elemen grafis yang dapat ditambahkan ke dokumen 
 
 ## Mempersiapkan Lingkungan Pengembangan Anda
 
- Sebelum kita menyelami kodenya, Anda perlu menyiapkan lingkungan pengembangan Anda. Pastikan Anda telah menginstal dan mengonfigurasi pustaka Aspose.PDF for Java di proyek Java Anda. Anda dapat mengunduh pustaka tersebut dari[Di Sini](https://releases.aspose.com/pdf/java/).
+Sebelum kita menyelami kodenya, Anda perlu menyiapkan lingkungan pengembangan Anda. Pastikan Anda telah menginstal dan mengonfigurasi pustaka Aspose.PDF for Java di proyek Java Anda. Anda dapat mengunduh pustaka tersebut dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Membuat Dokumen PDF
 
@@ -49,7 +51,7 @@ Document pdfDocument = new Document();
 
 ## Menambahkan Stempel Gambar
 
- Selanjutnya, kita akan menambahkan stempel gambar ke dokumen PDF. Anda harus menyiapkan berkas gambar untuk langkah ini. Kita akan menggunakan`addStamp` metode untuk menambahkan gambar sebagai prangko.
+Selanjutnya, kita akan menambahkan stempel gambar ke dokumen PDF. Anda harus menyiapkan berkas gambar untuk langkah ini. Kita akan menggunakan `addStamp` metode untuk menambahkan gambar sebagai prangko.
 
 ```java
 // Kode Java untuk menambahkan cap gambar
@@ -95,7 +97,7 @@ Dalam tutorial ini, kita telah mempelajari cara menambahkan stempel gambar sebag
 
 ### Bagaimana cara mengubah posisi cap gambar di PDF?
 
- Anda dapat menyesuaikan posisi stempel gambar dengan mengubah koordinat X dan Y menggunakan`stamp.setX` Dan`stamp.setY` metode.
+Anda dapat menyesuaikan posisi stempel gambar dengan mengubah koordinat X dan Y menggunakan `stamp.setX` Dan `stamp.setY` metode.
 
 ### Bisakah saya menambahkan beberapa prangko gambar ke dokumen PDF yang sama?
 
@@ -111,10 +113,12 @@ Tentu saja! Anda dapat menambahkan stempel teks di samping stempel gambar untuk 
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi dan contoh lengkap di halaman dokumentasi Aspose.PDF untuk Java:[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi dan contoh lengkap di halaman dokumentasi Aspose.PDF untuk Java: [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

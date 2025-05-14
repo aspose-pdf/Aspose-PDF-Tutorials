@@ -1,21 +1,23 @@
 ---
-title: Obróć tekst za pomocą fragmentu tekstu i akapitu
-linktitle: Obróć tekst za pomocą fragmentu tekstu i akapitu
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak obracać tekst za pomocą fragmentu tekstu i akapitu w dokumencie PDF, korzystając z Aspose.PDF dla platformy .NET.
-weight: 400
-url: /pl/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/
+"description": "Dowiedz się, jak obracać tekst za pomocą fragmentu tekstu i akapitu w dokumencie PDF, korzystając z Aspose.PDF dla platformy .NET."
+"linktitle": "Obróć tekst za pomocą fragmentu tekstu i akapitu"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Obróć tekst za pomocą fragmentu tekstu i akapitu"
+"url": "/pl/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/"
+"weight": 400
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obróć tekst za pomocą fragmentu tekstu i akapitu
 
 ## Wstęp
 
-Jeśli chodzi o generowanie dynamicznych dokumentów, pliki PDF są złotym standardem. Dzięki uniwersalnemu urokowi i oczekiwanemu profesjonalizmowi pliki PDF są powszechnie używane w różnych sektorach, w tym w środowiskach prawnych, edukacyjnych i korporacyjnych. W tym artykule przyjrzymy się bliżej sposobowi wykorzystania Aspose.PDF dla .NET do tworzenia dokumentu PDF z obróconymi fragmentami tekstu — idealnego do dodawania polotu do dokumentów lub podkreślania ważnych informacji. Zaczynajmy!
+Jeśli chodzi o generowanie dynamicznych dokumentów, pliki PDF są złotym standardem. Dzięki uniwersalnemu urokowi i oczekiwanemu profesjonalizmowi pliki PDF są powszechnie używane w różnych sektorach, w tym w środowiskach prawnych, edukacyjnych i korporacyjnych. W tym artykule przyjrzymy się bliżej sposobowi wykorzystania Aspose.PDF dla .NET do tworzenia dokumentu PDF z obróconymi fragmentami tekstu — idealnego do dodawania stylu dokumentom lub podkreślania ważnych informacji. Zaczynajmy!
 
 ## Wymagania wstępne
 
@@ -23,11 +25,11 @@ Zanim zagłębisz się w szczegóły techniczne, upewnij się, że masz przygoto
 
 1. Podstawowa znajomość platformy .NET Framework: Znajomość języka C# lub VB.NET będzie przydatna, ponieważ Aspose.PDF doskonale współpracuje z aplikacjami .NET.
   
-2.  Aspose.PDF dla biblioteki .NET: Będziesz potrzebować biblioteki Aspose.PDF. Nie martw się; jest łatwa do pobrania! Możesz ją zdobyć tutaj:[Pobierz Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla biblioteki .NET: Będziesz potrzebować biblioteki Aspose.PDF. Nie martw się; jest łatwa do pobrania! Możesz ją zdobyć tutaj: [Pobierz Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
 
 3. Środowisko programistyczne: Możesz użyć dowolnego IDE, które obsługuje programowanie .NET, takiego jak Visual Studio. Upewnij się, że Twoje IDE ma dostęp do pobranej biblioteki Aspose.PDF.
 
-4.  Licencja tymczasowa (opcjonalnie): Chociaż możesz zacząć od bezpłatnej wersji próbnej, jeśli musisz stworzyć aplikację produkcyjną, rozważ nabycie licencji tymczasowej.[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla pełnej funkcjonalności.
+4. Licencja tymczasowa (opcjonalnie): Chociaż możesz zacząć od bezpłatnej wersji próbnej, jeśli musisz stworzyć aplikację produkcyjną, rozważ nabycie licencji tymczasowej. [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla pełnej funkcjonalności.
 
 5. Połączenie internetowe: Może się to wydawać oczywiste, ale będzie Ci potrzebne, aby uzyskać dostęp do dokumentacji online, w której znajdziesz dodatkowe wskazówki i wskazówki dotyczące rozwiązywania problemów.
 
@@ -87,7 +89,7 @@ textFragment1.TextState.FontSize = 12;
 textFragment1.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 ```
 
-Tutaj stworzyliśmy nasz pierwszy fragment tekstu o nazwie`textFragment1`. Ustawiliśmy również właściwości czcionki — wiesz, żeby wyglądała dobrze!
+Tutaj stworzyliśmy nasz pierwszy fragment tekstu o nazwie `textFragment1`Ustawiliśmy również właściwości czcionki — wiesz, żeby wyglądała dobrze!
 
 ## Krok 4: Dodaj pierwszy fragment tekstu do strony
 
@@ -115,7 +117,7 @@ textFragment2.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 textFragment2.TextState.Rotation = 315;
 ```
 
- W tym fragmencie kodu utworzyliśmy fragment tekstu o nazwie`textFragment2`. Ustawiliśmy jego obrót na 315 stopni, co jest ładnie przechylone, ale nie do końca do góry nogami. To może reprezentować tekst, który potrzebuje trochę polotu!
+W tym fragmencie kodu utworzyliśmy fragment tekstu o nazwie `textFragment2`. Ustawiliśmy jego obrót na 315 stopni, co jest ładnie przechylone, ale nie do końca do góry nogami. To może reprezentować tekst, który potrzebuje trochę polotu!
 
 ### Dodawanie obróconego fragmentu tekstu do strony
 
@@ -180,18 +182,20 @@ Oczywiście! Aspose.PDF można zintegrować z dowolną aplikacją .NET, w tym ap
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.PDF?
 
- Tak, możesz skorzystać z bezpłatnej wersji próbnej, aby poznać jej funkcje przed dokonaniem zakupu. Sprawdź ją na[Aspose Bezpłatna wersja próbna](https://releases.aspose.com/).
+Tak, możesz skorzystać z bezpłatnej wersji próbnej, aby poznać jej funkcje przed dokonaniem zakupu. Sprawdź ją na [Bezpłatna wersja próbna Aspose](https://releases.aspose.com/).
 
 ### Jak mogę obrócić tekst w pliku PDF za pomocą Aspose.PDF?
 
- Możesz obrócić tekst, ustawiając`Rotation` własność`TextFragment` obiekt, jak pokazano w tym samouczku.
+Możesz obrócić tekst, ustawiając `Rotation` własność `TextFragment` obiekt, jak pokazano w tym samouczku.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
 
- W przypadku pytań lub potrzeby uzyskania wsparcia możesz odwiedzić stronę[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+W przypadku pytań lub potrzeby uzyskania wsparcia możesz odwiedzić stronę [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PDF Manipulation in Java Using Aspose.PDF: A Comprehensive Guide
 
@@ -200,7 +202,11 @@ Eager to put these skills into action? Try implementing the solution in your nex
 - **Purchase Options:** Learn more about licensing and purchasing [here](https://purchase.aspose.com/buy).
 - **Free Trial:** Start with a free trial at [Aspose Free Downloads](https://releases.aspose.com/pdf/java/).
 - **Temporary License:** Obtain full access with a temporary license via [this link](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

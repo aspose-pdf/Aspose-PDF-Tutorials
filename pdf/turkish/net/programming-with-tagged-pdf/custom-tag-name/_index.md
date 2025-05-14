@@ -1,14 +1,16 @@
 ---
-title: Özel Etiket Adı
-linktitle: Özel Etiket Adı
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile özel etiket adı kullanma konusunda adım adım kılavuz. Özel etiketlerle PDF'lerinizin yapısını iyileştirin.
-weight: 90
-url: /tr/net/programming-with-tagged-pdf/custom-tag-name/
+"description": "Aspose.PDF for .NET ile özel etiket adı kullanma konusunda adım adım kılavuz. PDF'lerinizin yapısını özel etiketlerle iyileştirin."
+"linktitle": "Özel Etiket Adı"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Özel Etiket Adı"
+"url": "/tr/net/programming-with-tagged-pdf/custom-tag-name/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Özel Etiket Adı
@@ -22,12 +24,12 @@ Günümüzün dijital çağında, PDF'ler her yerdedir. Raporlardan kılavuzlara
 Kodlamaya geçmeden önce, her şeyin hazır olduğundan emin olmanız önemlidir. İhtiyacınız olanlar şunlardır:
 
 1. Visual Studio - Herhangi bir güncel sürüm işinizi görecektir, ancak optimum işlevsellik için en son sürüme sahip olmak en iyisidir.
-2.  Aspose.PDF for .NET - En son sürümü şu adresten kolayca indirebilirsiniz:[indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF for .NET - En son sürümü şu adresten kolayca indirebilirsiniz: [indirme bağlantısı](https://releases.aspose.com/pdf/net/).
 3. C# Temel Bilgisi - Kodu uygularken C# programlama temellerine aşina olmanız faydalı olacaktır.
 
 ## Paketleri İçe Aktar
 
-Ortamınızı kurduğunuzda, bir sonraki adım Aspose.PDF'yi kullanmak için gerekli paketleri içe aktarmaktır. Bunu Aspose.PDF kütüphanesini projenize ekleyerek yapabilirsiniz.
+Ortamınızı kurduğunuzda, bir sonraki adım Aspose.PDF'yi kullanmak için gerekli paketleri içe aktarmaktır. Bunu projenize Aspose.PDF kütüphanesini ekleyerek yapabilirsiniz.
 
 ### Aspose.PDF'yi NuGet aracılığıyla yükleyin
 
@@ -38,7 +40,7 @@ Ortamınızı kurduğunuzda, bir sonraki adım Aspose.PDF'yi kullanmak için ger
 
 ### Yönergeyi Kullanarak Ekle
 
-Kodunuzda Aspose işlevselliğinden faydalanabilmek için dosyanızın en üstüne gerekli using yönergesini eklemeniz gerekir:
+Kodunuzda Aspose işlevselliğinden faydalanmak için dosyanızın en üstüne gerekli using yönergesini eklemeniz gerekir:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -65,7 +67,7 @@ Açıklama: "YOUR DOCUMENT DIRECTORY" ifadesini PDF dosyasını kaydetmek istedi
 
 ## Adım 2: Yeni bir PDF Belgesi Oluşturun
 
- Daha sonra, bir örnek oluşturacağız`Document` sınıf.
+Daha sonra, bir örnek oluşturacağız `Document` sınıf.
 
 ```csharp
 Document document = new Document();
@@ -81,7 +83,7 @@ Açıklama: Bu satır yeni bir PDF belgesi başlatır. Bunu, PDF'nizin içeriği
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- Açıklama:`TaggedContent` nesnesi, içeriği hiyerarşik olarak düzenleyerek PDF'in mantıksal yapısını ve erişilebilirliğini değiştirmemize olanak tanır.
+Açıklama: `TaggedContent` nesnesi, içeriği hiyerarşik olarak düzenleyerek PDF'in mantıksal yapısını ve erişilebilirliğini değiştirmemize olanak tanır.
 
 ## Adım 4: Başlığı ve Dili Ayarlayın
 
@@ -96,14 +98,14 @@ Açıklama: Burada, bu PDF'i okuyan herkesi, özellikle erişilebilirlik araçla
 
 ## Adım 5: Mantıksal Yapı Öğelerini Oluşturun
 
-Şimdi PDF'nizin içinde yapılandırılmış öğeler oluşturmanın zamanı geldi.
+Artık PDF'inizin içinde yapılandırılmış öğeler oluşturmanın zamanı geldi.
 
 ```csharp
 SectElement sect = taggedContent.CreateSectElement();
 taggedContent.RootElement.AppendChild(sect);
 ```
 
- Açıklama: Bu adım, içerik eklemeye başlayabileceğiniz bir bölüm öğesini tanıtır.`RootElement` sizin ana üssünüzdür.
+Açıklama: Bu adım, içerik eklemeye başlayabileceğiniz bir bölüm öğesini tanıtır. `RootElement` sizin ana üssünüzdür.
 
 ## Adım 6: Paragraf Öğeleri Oluşturun
 
@@ -214,16 +216,18 @@ Etiketli PDF, belgenin içeriğinin yapısını ve erişilebilirliğini tanımla
 Aspose.PDF for .NET, geliştiricilerin kapsamlı özelliklerle PDF belgelerini programlı bir şekilde oluşturmalarına, değiştirmelerine ve düzenlemelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'in deneme sürümünü nasıl edinebilirim?  
- Aspose.PDF'nin ücretsiz deneme sürümünü edinmek için şu adresi ziyaret edebilirsiniz:[bu bağlantı](https://releases.aspose.com/).
+Aspose.PDF'nin ücretsiz deneme sürümünü edinmek için şu adresi ziyaret edebilirsiniz: [bu bağlantı](https://releases.aspose.com/).
 
 ### Aspose.PDF için destek alabilir miyim?  
- Evet, destek için bize ulaşabilirsiniz[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Evet, destek için bize ulaşabilirsiniz [Aspose forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Ayrıntılı Aspose.PDF dokümantasyonunu nerede bulabilirim?  
- Tam dokümantasyona buradan ulaşabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Tam dokümantasyona buradan ulaşabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

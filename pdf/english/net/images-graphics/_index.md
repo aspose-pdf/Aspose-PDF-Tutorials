@@ -6,7 +6,9 @@ url: "/net/images-graphics/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Images and Graphics Tutorials with Aspose.PDF for .NET
@@ -171,6 +173,9 @@ Learn how to enhance your PDF documents by setting image backgrounds using Aspos
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

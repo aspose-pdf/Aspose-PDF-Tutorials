@@ -1,14 +1,16 @@
 ---
-title: Cách thêm bản vẽ có màu trong suốt vào PDF bằng Java
-linktitle: Cách thêm bản vẽ có màu trong suốt vào PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm bản vẽ có màu trong suốt vào PDF bằng Java và Aspose.PDF cho Java. Tạo PDF động, hấp dẫn về mặt hình ảnh với hướng dẫn từng bước và ví dụ về mã.
-weight: 14
-url: /vi/java/pdf-page-manipulation/how-to-add-drawing-with-transparent-color-in-pdf-using-java/
+"description": "Tìm hiểu cách thêm bản vẽ có màu trong suốt vào PDF bằng Java và Aspose.PDF cho Java. Tạo PDF động, hấp dẫn về mặt hình ảnh với hướng dẫn từng bước và ví dụ về mã."
+"linktitle": "Cách thêm bản vẽ có màu trong suốt vào PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Cách thêm bản vẽ có màu trong suốt vào PDF bằng Java"
+"url": "/vi/java/pdf-page-manipulation/how-to-add-drawing-with-transparent-color-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cách thêm bản vẽ có màu trong suốt vào PDF bằng Java
@@ -22,8 +24,8 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm bản vẽ có 
 
 Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Thư viện Aspose.PDF cho Java, bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Thư viện Aspose.PDF cho Java, bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 - Môi trường phát triển tích hợp (IDE) như Eclipse hoặc IntelliJ IDEA.
 
 ## Thiết lập dự án
@@ -50,7 +52,7 @@ public class AddDrawingToPDF {
 }
 ```
 
- Trong mã này, chúng tôi nhập`Document`class từ Aspose.PDF và tạo một tài liệu PDF mới. Sau đó, chúng tôi lưu tài liệu vào tệp có tên "output.pdf".
+Trong mã này, chúng tôi nhập `Document` class từ Aspose.PDF và tạo một tài liệu PDF mới. Sau đó, chúng tôi lưu tài liệu vào tệp có tên "output.pdf".
 
 ## Thêm bản vẽ có màu trong suốt
 
@@ -86,7 +88,7 @@ Trong đoạn mã này, chúng ta tạo một trang, xác định một hình ch
 
 ## Phần kết luận
 
-Trong hướng dẫn này, chúng ta đã học cách thêm bản vẽ có màu trong suốt vào tài liệu PDF bằng Java và API Aspose.PDF cho Java. Tính năng này cho phép bạn tạo PDF hấp dẫn và động, giúp tài liệu của bạn hấp dẫn và nhiều thông tin hơn.
+Trong hướng dẫn này, chúng ta đã học cách thêm bản vẽ có màu trong suốt vào tài liệu PDF bằng Java và Aspose.PDF cho Java API. Tính năng này cho phép bạn tạo PDF hấp dẫn và động, giúp tài liệu của bạn hấp dẫn và nhiều thông tin hơn.
 
 ## Câu hỏi thường gặp
 
@@ -104,14 +106,16 @@ Chắc chắn rồi! Bạn có thể thêm nhiều hình dạng khác nhau như 
 
 ### Làm thế nào để lưu tài liệu PDF với tên hoặc vị trí khác?
 
- Bạn có thể chỉ định đường dẫn và tên tệp mong muốn khi gọi`save` phương pháp trên`Document`đối tượng. Chỉ cần cung cấp đường dẫn đầy đủ, bao gồm tên tệp và phần mở rộng.
+Bạn có thể chỉ định đường dẫn và tên tệp mong muốn khi gọi `save` phương pháp trên `Document` đối tượng. Chỉ cần cung cấp đường dẫn đầy đủ, bao gồm tên tệp và phần mở rộng.
 
 ### Tôi có thể tìm thêm thông tin và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tham khảo tài liệu Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/) để biết thông tin toàn diện về cách sử dụng API, bao gồm các ví dụ mã chi tiết và hướng dẫn.
+Bạn có thể tham khảo tài liệu Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/) để biết thông tin toàn diện về cách sử dụng API, bao gồm các ví dụ mã chi tiết và hướng dẫn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

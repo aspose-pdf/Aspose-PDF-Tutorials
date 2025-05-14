@@ -1,14 +1,16 @@
 ---
-title: แทรกหน้าว่างในไฟล์ PDF
-linktitle: แทรกหน้าว่างในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีแทรกหน้าว่างในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการจัดการ PDF ได้อย่างราบรื่น
-weight: 120
-url: /th/net/programming-with-pdf-pages/insert-empty-page/
+"description": "เรียนรู้วิธีแทรกหน้าว่างในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการจัดการ PDF ได้อย่างราบรื่น"
+"linktitle": "แทรกหน้าว่างในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "แทรกหน้าว่างในไฟล์ PDF"
+"url": "/th/net/programming-with-pdf-pages/insert-empty-page/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกหน้าว่างในไฟล์ PDF
@@ -21,11 +23,11 @@ url: /th/net/programming-with-pdf-pages/insert-empty-page/
 
 ก่อนที่คุณจะเริ่มต้น ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.PDF สำหรับ .NET ติดตั้งอยู่ในสภาพแวดล้อมการพัฒนาของคุณแล้ว คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF สำหรับ .NET ติดตั้งอยู่ในสภาพแวดล้อมการพัฒนาของคุณแล้ว คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/pdf/net/).
 - สภาพแวดล้อมการพัฒนา .NET เช่น Visual Studio
 - ความเข้าใจพื้นฐานเกี่ยวกับ C# และการเขียนโปรแกรมเชิงวัตถุ
 
- หากคุณยังไม่ได้ทำ คุณอาจต้องการขอใบอนุญาตชั่วคราวจาก Aspose เพื่อหลีกเลี่ยงข้อจำกัดในระหว่างที่คุณดำเนินการตามขั้นตอน คุณสามารถ[รับมันที่นี่](https://purchase.aspose.com/temporary-license/).
+หากคุณยังไม่ได้ทำ คุณอาจต้องการขอใบอนุญาตชั่วคราวจาก Aspose เพื่อหลีกเลี่ยงข้อจำกัดในระหว่างที่คุณดำเนินการตามขั้นตอน คุณสามารถ [รับมันที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ## แพ็คเกจนำเข้า
 
@@ -46,7 +48,7 @@ using Aspose.Pdf;
 ### 1.1 เปิด Visual Studio และสร้างโปรเจ็กต์ใหม่
 - เปิด Visual Studio
 - สร้างแอปคอนโซลใหม่ (.NET framework หรือ .NET core ตามที่คุณเลือก)
-- ตั้งชื่อโครงการเป็นประมาณว่า "InsertEmptyPageInPDF" เพื่อให้ง่ายต่อการอ้างอิง
+- ตั้งชื่อโครงการเป็น "InsertEmptyPageInPDF" เพื่อให้ง่ายต่อการอ้างอิง
 
 ### 1.2 เพิ่มการอ้างอิงถึง Aspose.PDF สำหรับ .NET
 หากคุณยังไม่ได้เพิ่ม Aspose.PDF สำหรับ .NET ลงในโปรเจ็กต์ของคุณ ให้ทำตามขั้นตอนเหล่านี้:
@@ -61,7 +63,7 @@ using Aspose.Pdf;
 
 ### 2.1 กำหนดเส้นทางไดเร็กทอรี
 
- สิ่งแรกที่เราต้องทำคือกำหนดเส้นทางไปยังเอกสาร PDF ของคุณ แทนที่`"YOUR DOCUMENT DIRECTORY"`พร้อมเส้นทางจริงของโฟลเดอร์ที่ไฟล์ PDF ของคุณตั้งอยู่
+สิ่งแรกที่เราต้องทำคือกำหนดเส้นทางไปยังเอกสาร PDF ของคุณ แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงของโฟลเดอร์ที่ไฟล์ PDF ของคุณตั้งอยู่
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -95,7 +97,7 @@ pdfDocument1.Pages.Insert(2);
 
 ### 4.1 กำหนดเส้นทางไฟล์เอาท์พุต
 
-มากำหนดกันก่อนว่าไฟล์ใหม่ควรบันทึกไว้ที่ไหน ในกรณีนี้เราจะบันทึกไว้ในไดเรกทอรีเดียวกัน โดยเพิ่ม "-ออก” ในชื่อไฟล์เพื่อความชัดเจน
+เรามากำหนดกันก่อนว่าควรบันทึกไฟล์ใหม่ไว้ที่ไหน ในกรณีนี้ เราจะบันทึกไฟล์ไว้ในไดเรกทอรีเดียวกัน โดยเพิ่ม "_out" ต่อท้ายชื่อไฟล์เพื่อความชัดเจน
 
 ```csharp
 dataDir = dataDir + "InsertEmptyPage_out.pdf";
@@ -129,10 +131,10 @@ System.Console.WriteLine("\nEmpty page inserted successfully.\nFile saved at " +
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถแทรกหลายหน้าในครั้งเดียวได้ไหม?
- ใช่ คุณสามารถแทรกหน้าหลายหน้าได้โดยเรียกใช้`Insert` วิธีการซ้ำหลายครั้งหรือใช้การวนซ้ำ
+ใช่ คุณสามารถแทรกหน้าหลายหน้าได้โดยการเรียกใช้ `Insert` วิธีการซ้ำหลายครั้งหรือใช้การวนซ้ำ
 
 ### วิธีนี้ใช้ได้กับไฟล์ PDF ขนาดใหญ่มากหรือไม่?
-ใช่ Aspose.PDF ได้รับการปรับปรุงเพื่อจัดการกับไฟล์ PDF ทั้งขนาดเล็กและขนาดใหญ่อย่างมีประสิทธิภาพ
+ใช่ Aspose.PDF ได้รับการปรับปรุงเพื่อจัดการกับไฟล์ PDF ขนาดเล็กและขนาดใหญ่ได้อย่างมีประสิทธิภาพ
 
 ### ฉันสามารถแทรกหน้าที่มีเนื้อหาที่กำหนดเองแทนหน้าว่างได้หรือไม่
 แน่นอน! คุณสามารถสร้างหน้าที่มีเนื้อหา เช่น ข้อความหรือรูปภาพ แล้วแทรกเข้าในเอกสารได้
@@ -141,10 +143,12 @@ System.Console.WriteLine("\nEmpty page inserted successfully.\nFile saved at " +
 ใช่ Aspose.PDF รองรับทั้ง .NET Framework และ .NET Core
 
 ### ฉันจะทดสอบโค้ดโดยไม่มีข้อจำกัดได้อย่างไร
- คุณสามารถร้องขอได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) สำหรับเวอร์ชันที่มีฟังก์ชันครบถ้วนของ Aspose.PDF เพื่อวัตถุประสงค์ในการทดสอบ
+คุณสามารถร้องขอได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) สำหรับเวอร์ชันที่มีฟังก์ชันครบถ้วนของ Aspose.PDF เพื่อวัตถุประสงค์ในการทดสอบ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

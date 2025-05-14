@@ -1,46 +1,48 @@
 ---
-title: Propojit duplicitní streamy
-linktitle: Propojit duplicitní streamy
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak propojit duplicitní proudy v dokumentech PDF pomocí Aspose.PDF pro .NET. Optimalizujte své soubory PDF pro lepší výkon a menší velikost souboru.
-weight: 230
-url: /cs/net/programming-with-document/linkduplicatestreams/
+"description": "Naučte se, jak propojit duplicitní streamy v PDF dokumentech pomocí Aspose.PDF pro .NET. Optimalizujte své PDF soubory pro lepší výkon a menší velikost souboru."
+"linktitle": "Propojení duplicitních streamů"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Propojení duplicitních streamů"
+"url": "/cs/net/programming-with-document/linkduplicatestreams/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Propojit duplicitní streamy
+# Propojení duplicitních streamů
 
 ## Zavedení
 
-Ve světě digitálních dokumentů je efektivita klíčová. Ať už jste vývojář, majitel firmy nebo jen někdo, kdo často pracuje s PDF, optimalizace vašich dokumentů vám může ušetřit čas a zdroje. Jednou z výkonných funkcí Aspose.PDF for .NET je jeho schopnost propojit duplicitní proudy v souborech PDF. To nejen snižuje velikost souboru, ale také zvyšuje výkon vašich aplikací. V tomto tutoriálu vás krok za krokem provedeme procesem propojení duplicitních streamů v dokumentu PDF. Takže popadněte svůj kódovací klobouk a pojďme se ponořit!
+Ve světě digitálních dokumentů je efektivita klíčová. Ať už jste vývojář, majitel firmy nebo jen někdo, kdo často pracuje s PDF soubory, optimalizace vašich dokumentů vám může ušetřit čas a zdroje. Jednou z výkonných funkcí Aspose.PDF pro .NET je jeho schopnost propojovat duplicitní streamy v PDF souborech. To nejen zmenší velikost souboru, ale také zvýší výkon vašich aplikací. V tomto tutoriálu vás krok za krokem provedeme procesem propojování duplicitních streamů v PDF dokumentu. Takže, vezměte si programátorskou čepici a pojďme se do toho pustit!
 
 ## Předpoklady
 
-Než začneme, je třeba mít připraveno několik věcí:
+Než začneme, je potřeba mít připraveno několik věcí:
 
-1.  Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete si jej stáhnout z[místo](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete si ji stáhnout z [místo](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Vývojové prostředí, kde můžete psát a testovat svůj kód.
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět příkladům.
-4. Ukázkový dokument PDF: Pro tento výukový program budete potřebovat dokument PDF, se kterým budete pracovat. Můžete si vytvořit jednoduchý nebo si stáhnout ukázku z internetu.
+4. Ukázkový dokument PDF: Pro tento tutoriál budete potřebovat dokument PDF. Můžete si vytvořit jednoduchý dokument nebo si stáhnout ukázku z internetu.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, musíte do svého projektu C# importovat potřebné balíčky. Můžete to udělat takto:
+Chcete-li začít, musíte do svého projektu C# importovat potřebné balíčky. Zde je návod, jak to udělat:
 
 ### Vytvořit nový projekt
 
-Otevřete Visual Studio a vytvořte nový projekt C#. Pro jednoduchost si můžete vybrat konzolovou aplikaci.
+Otevřete Visual Studio a vytvořte nový projekt v C#. Pro zjednodušení si můžete vybrat konzolovou aplikaci.
 
-### Přidejte odkaz Aspose.PDF
+### Přidat odkaz na Aspose.PDF
 
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
-2. Vyberte „Spravovat balíčky NuGet“.
-3. Vyhledejte „Aspose.PDF“ a nainstalujte nejnovější verzi.
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+2. Vyberte možnost „Spravovat balíčky NuGet“.
+3. Vyhledejte soubor „Aspose.PDF“ a nainstalujte nejnovější verzi.
 
-### Importujte jmenný prostor
+### Importovat jmenný prostor
 
 V horní části souboru C# importujte jmenný prostor Aspose.PDF:
 
@@ -51,31 +53,31 @@ using System.Linq;
 using System.Text;
 ```
 
-Nyní, když máme vše nastaveno, přejděme k samotné části kódování.
+Nyní, když máme vše nastavené, pojďme se přesunout k samotné části kódování.
 
-## Krok 1: Definujte cestu dokumentu
+## Krok 1: Definování cesty k dokumentu
 
-Nejprve musíte zadat cestu k dokumentu PDF. Zde sdělíte programu, kde má najít soubor, který chcete optimalizovat.
+Nejprve je třeba zadat cestu k vašemu PDF dokumentu. Zde programu sdělíte, kde má najít soubor, který chcete optimalizovat.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš soubor PDF.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš PDF soubor.
 
 ## Krok 2: Otevřete dokument PDF
 
- Dále otevřete dokument PDF pomocí`Document` třídy poskytuje Aspose.PDF.
+Dále otevřete dokument PDF pomocí `Document` třída poskytnutá souborem Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
-Tento řádek kódu vytvoří novou instanci souboru`Document` třídy a načte do ní váš soubor PDF.
+Tento řádek kódu vytvoří novou instanci třídy `Document` třídu a načte do ní váš PDF soubor.
 
-## Krok 3: Nastavte možnosti optimalizace
+## Krok 3: Nastavení možností optimalizace
 
- Nyní je čas nastavit možnosti optimalizace. Vytvoříte instanci`OptimizationOptions` a nastavte`LinkDuplcateStreams` majetek do`true`.
+Nyní je čas nastavit možnosti optimalizace. Vytvoříte instanci `OptimizationOptions` a nastavte `LinkDuplcateStreams` majetek `true`.
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions
@@ -84,11 +86,11 @@ var optimizeOptions = new Pdf.Optimization.OptimizationOptions
 };
 ```
 
-To říká Aspose.PDF, aby hledal duplicitní proudy v dokumentu a propojil je, což pomáhá zmenšit velikost souboru.
+Toto říká Aspose.PDF, aby v dokumentu vyhledal duplicitní streamy a propojil je, což pomáhá zmenšit velikost souboru.
 
-## Krok 4: Optimalizujte dokument PDF
+## Krok 4: Optimalizace dokumentu PDF
 
-S nastavenými možnostmi optimalizace nyní můžete optimalizovat zdroje vašeho dokumentu PDF.
+S nastavenými možnostmi optimalizace nyní můžete optimalizovat zdroje vašeho PDF dokumentu.
 
 ```csharp
 pdfDocument.OptimizeResources(optimizeOptions);
@@ -98,38 +100,40 @@ Tento řádek použije nastavení optimalizace na váš dokument PDF.
 
 ## Krok 5: Uložte aktualizovaný dokument
 
-Nakonec musíte uložit optimalizovaný dokument PDF. Můžete zadat nový název souboru nebo přepsat stávající.
+Nakonec je třeba optimalizovaný dokument PDF uložit. Můžete zadat nový název souboru nebo přepsat stávající.
 
 ```csharp
 dataDir = dataDir + "OptimizeDocument_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Tím se optimalizovaný dokument uloží do určeného adresáře.
+Tím se optimalizovaný dokument uloží do zadaného adresáře.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste propojili duplicitní proudy v dokumentu PDF pomocí Aspose.PDF pro .NET. Tato jednoduchá, ale výkonná funkce může výrazně zvýšit efektivitu vašich souborů PDF a usnadnit jejich správu a sdílení. Pamatujte, že optimalizace dokumentů nejen šetří místo, ale také zvyšuje výkon, což je oboustranně výhodné pro všechny zúčastněné.
+A tady to máte! Úspěšně jste propojili duplicitní streamy v PDF dokumentu pomocí Aspose.PDF pro .NET. Tato jednoduchá, ale výkonná funkce může výrazně zvýšit efektivitu vašich PDF souborů, což usnadňuje jejich správu a sdílení. Nezapomeňte, že optimalizace dokumentů nejen šetří místo, ale také zlepšuje výkon, což je výhodné pro všechny zúčastněné.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a optimalizovat dokumenty PDF programově.
+Aspose.PDF pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a optimalizovat PDF dokumenty.
 
 ### Jak nainstaluji Aspose.PDF?
-Aspose.PDF můžete nainstalovat přes NuGet Package Manager ve Visual Studiu nebo si jej stáhnout přímo z[místo](https://releases.aspose.com/pdf/net/).
+Soubor Aspose.PDF si můžete nainstalovat pomocí Správce balíčků NuGet ve Visual Studiu nebo si jej stáhnout přímo z [místo](https://releases.aspose.com/pdf/net/).
 
-### Mohu optimalizovat více souborů PDF najednou?
-Ano, můžete procházet seznam souborů PDF a na každý z nich použít stejný proces optimalizace.
+### Mohu optimalizovat více PDF souborů najednou?
+Ano, můžete procházet seznam PDF souborů a na každý z nich použít stejný optimalizační proces.
 
 ### Co jsou duplicitní streamy v PDF?
-Duplicitní datové proudy jsou identické datové proudy v rámci souboru PDF. Jejich propojení může snížit velikost souboru a zlepšit výkon.
+Duplicitní streamy jsou identické datové streamy v souboru PDF. Jejich propojení může zmenšit velikost souboru a zlepšit výkon.
 
 ### Kde najdu další dokumentaci?
- Kompletní dokumentaci naleznete na Aspose.PDF pro .NET[zde](https://reference.aspose.com/pdf/net/).
+Komplexní dokumentaci pro .NET naleznete na Aspose.PDF. [zde](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

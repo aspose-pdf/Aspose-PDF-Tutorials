@@ -1,14 +1,16 @@
 ---
-title: Styl komórki tabeli
-linktitle: Styl komórki tabeli
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak stylizować komórki tabeli w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu szczegółowemu samouczkowi. Postępuj zgodnie z instrukcjami, aby tworzyć i formatować piękne tabele PDF.
-weight: 160
-url: /pl/net/programming-with-tagged-pdf/style-table-cell/
+"description": "Dowiedz się, jak stylizować komórki tabeli w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu szczegółowemu samouczkowi. Postępuj zgodnie z instrukcjami, aby tworzyć i formatować piękne tabele PDF."
+"linktitle": "Styl komórki tabeli"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Styl komórki tabeli"
+"url": "/pl/net/programming-with-tagged-pdf/style-table-cell/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Styl komórki tabeli
@@ -21,10 +23,10 @@ Tworzenie profesjonalnie wyglądających tabel PDF może być trudne, ale dzięk
 
 Zanim zaczniesz pisać kod, upewnij się, że spełniasz następujące wymagania wstępne:
 
-1. Aspose.PDF dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.PDF ze strony[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.PDF ze strony [Tutaj](https://releases.aspose.com/pdf/net/).
 2. IDE (np. Visual Studio): skonfiguruj środowisko programistyczne .NET.
 3. Podstawowa znajomość programowania w języku C#: Wymagana jest pewna znajomość języka C#.
-4.  Licencja Aspose.PDF: Uzyskaj tymczasową lub pełną licencję, aby odblokować pełne funkcje biblioteki. Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://purchase.aspose.com/temporary-license/).
+4. Licencja Aspose.PDF: Uzyskaj tymczasową lub pełną licencję, aby odblokować pełne funkcje biblioteki. Możesz otrzymać bezpłatną wersję próbną [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
@@ -46,7 +48,7 @@ Stworzymy tabelę w dokumencie PDF i nadamy jej styl komórkom. Każdy krok będ
 
 ## Krok 1: Utwórz nowy dokument PDF
 
- Pierwszym krokiem jest utworzenie nowego dokumentu PDF. W Aspose.PDF możesz zainicjować nowy`Document` obiekt, który reprezentuje Twój plik PDF.
+Pierwszym krokiem jest utworzenie nowego dokumentu PDF. W Aspose.PDF możesz zainicjować nowy `Document` obiekt, który reprezentuje Twój plik PDF.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -104,7 +106,7 @@ W tym kroku przechodzimy przez każdą komórkę nagłówka, nadając jej zielon
 
 ## Krok 4: Wypełnij i sformatuj treść tabeli
 
-Treść tabeli zawiera rzeczywiste dane. Oto, jak możesz stylizować każdą komórkę za pomocą określonych marginesów, obramowań i ustawień tekstu.
+Treść tabeli zawiera rzeczywiste dane. Oto, jak można stylizować każdą komórkę za pomocą określonych marginesów, obramowań i ustawień tekstu.
 
 ```csharp
 int rowCount = 4;
@@ -133,9 +135,9 @@ for (int rowIndex = 0; rowIndex < rowCount; rowIndex++)
 }
 ```
 
- W tym kroku wypełniamy ciało tabeli czterema wierszami i stylizujemy każdą komórkę żółtym tłem i wyśrodkowanym, pogrubionym niebieskim tekstem. Używamy również`MarginInfo`Klasa definiująca wypełnienie wokół tekstu.
+W tym kroku wypełniamy ciało tabeli czterema wierszami i stylizujemy każdą komórkę żółtym tłem i wyśrodkowanym, pogrubionym niebieskim tekstem. Używamy również `MarginInfo` Klasa definiująca wypełnienie wokół tekstu.
 
-## Krok 5: Styl stopki
+## Krok 5: Stylizacja stopki
 
 Aby nadać tabeli kompletną strukturę, dodajemy i stylizujemy komórki stopki, tak jak zrobiliśmy to w przypadku nagłówka.
 
@@ -166,7 +168,7 @@ bool isPdfUaCompliance = document.Validate(dataDir + "StyleTableCell.xml", PdfFo
 Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
 ```
 
- Zapisujemy plik PDF i używamy`Validate` metoda ta zapewnia spełnienie standardów dostępności (zgodność z PDF/UA).
+Zapisujemy plik PDF i używamy `Validate` metoda ta zapewnia spełnienie standardów dostępności (zgodność z PDF/UA).
 
 ## Wniosek
 
@@ -175,22 +177,24 @@ Stylizowanie tabel w pliku PDF przy użyciu Aspose.PDF dla .NET jest zarówno wy
 ## Najczęściej zadawane pytania
 
 ### Czy mogę stosować różne style do poszczególnych komórek tabeli?  
-Tak, możesz stylizować poszczególne komórki, dostosowując`TableTDElement` Właściwości.
+Tak, możesz stylizować poszczególne komórki, dostosowując `TableTDElement` Właściwości.
 
 ### Jak mogę scalić komórki tabeli?  
- Możesz użyć`ColSpan` I`RowSpan` Właściwości umożliwiające scalenie komórek w tabeli.
+Możesz użyć `ColSpan` I `RowSpan` Właściwości umożliwiające scalenie komórek w tabeli.
 
 ### Czy można utworzyć tabelę zgodną ze standardem PDF/UA?  
- Tak, jak pokazano w tym przewodniku, możesz zapewnić zgodność PDF/UA, weryfikując dokument za pomocą`Validate` metoda.
+Tak, jak pokazano w tym przewodniku, możesz zapewnić zgodność PDF/UA, weryfikując dokument za pomocą `Validate` metoda.
 
 ### Czy mogę używać różnych czcionek w komórkach tabeli?  
- Oczywiście! Możesz określić różne czcionki za pomocą`TextState` obiekt dla każdej komórki.
+Oczywiście! Możesz określić różne czcionki za pomocą `TextState` obiekt dla każdej komórki.
 
 ### Jak pobrać plik Aspose.PDF dla platformy .NET?  
- Można go pobrać ze strony[strona wydań](https://releases.aspose.com/pdf/net/).
+Można go pobrać ze strony [strona wydań](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

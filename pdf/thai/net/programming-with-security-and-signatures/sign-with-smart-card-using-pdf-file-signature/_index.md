@@ -1,14 +1,16 @@
 ---
-title: ลงนามด้วยสมาร์ทการ์ดโดยใช้ลายเซ็นไฟล์ PDF
-linktitle: ลงนามด้วยสมาร์ทการ์ดโดยใช้ลายเซ็นไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการลงนามไฟล์ PDF โดยใช้สมาร์ทการ์ดด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อลายเซ็นดิจิทัลที่ปลอดภัย
-weight: 110
-url: /th/net/programming-with-security-and-signatures/sign-with-smart-card-using-pdf-file-signature/
+"description": "เรียนรู้วิธีการลงนามไฟล์ PDF โดยใช้สมาร์ทการ์ดด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อลายเซ็นดิจิทัลที่ปลอดภัย"
+"linktitle": "ลงนามด้วยสมาร์ทการ์ดโดยใช้ลายเซ็นไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ลงนามด้วยสมาร์ทการ์ดโดยใช้ลายเซ็นไฟล์ PDF"
+"url": "/th/net/programming-with-security-and-signatures/sign-with-smart-card-using-pdf-file-signature/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลงนามด้วยสมาร์ทการ์ดโดยใช้ลายเซ็นไฟล์ PDF
@@ -21,11 +23,11 @@ url: /th/net/programming-with-security-and-signatures/sign-with-smart-card-using
 
 ก่อนที่เราจะลงรายละเอียดในการลงนามในไฟล์ PDF เรามาตรวจสอบกันก่อนว่าคุณได้เตรียมทุกอย่างที่จำเป็นแล้ว นี่คือรายการตรวจสอบที่จะช่วยให้คุณเตรียมตัวได้:
 
-1.  Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 2. Visual Studio: สภาพแวดล้อมการพัฒนาที่คุณสามารถเขียนและรันโค้ด .NET ได้
 3. สมาร์ทการ์ด: คุณจะต้องมีสมาร์ทการ์ดที่มีใบรับรองดิจิทัลที่ถูกต้องติดตั้งอยู่
 4. ความเข้าใจพื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะเป็นประโยชน์เนื่องจากเราจะเขียนโค้ดสั้นๆ ในภาษานี้
-5. เอกสาร PDF: ไฟล์ PDF ตัวอย่าง (เช่น`blank.pdf`) เพื่อทดสอบกระบวนการลงนามของเรา
+5. เอกสาร PDF: ไฟล์ PDF ตัวอย่าง (เช่น `blank.pdf`) เพื่อทดสอบกระบวนการลงนามของเรา
 
 เมื่อมีข้อกำหนดเบื้องต้นเหล่านี้แล้ว คุณก็พร้อมที่จะดำดิ่งสู่โค้ดได้เลย!
 
@@ -35,8 +37,8 @@ url: /th/net/programming-with-security-and-signatures/sign-with-smart-card-using
 
 1. เปิด Visual Studio
 2. สร้างโครงการใหม่หรือเปิดโครงการที่มีอยู่
-3.  คลิกขวาที่โครงการของคุณใน Solution Explorer และเลือก`Manage NuGet Packages`.
-4.  ค้นหา`Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
+3. คลิกขวาที่โครงการของคุณใน Solution Explorer และเลือก `Manage NuGet Packages`-
+4. ค้นหา `Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
 
 ```csharp
 using System;
@@ -55,18 +57,18 @@ using System.Text;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "blank.pdf");
 ```
- ในสไนปเป็ตนี้ เราจะกำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของเราและสร้างอินสแตนซ์ของ`Document` คลาสที่ใช้ไฟล์ PDF ตัวอย่างชื่อ`blank.pdf` . อย่าลืมเปลี่ยน`"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงที่ PDF ของคุณตั้งอยู่
+ในสไนปเป็ตนี้ เราจะกำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของเราและสร้างอินสแตนซ์ของ `Document` คลาสที่ใช้ไฟล์ PDF ตัวอย่างชื่อ `blank.pdf`. อย่าลืมเปลี่ยน `"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงที่ PDF ของคุณตั้งอยู่
 
-## ขั้นตอนที่ 2: เริ่มต้นใช้งาน PdfFileSignature
+## ขั้นตอนที่ 2: เริ่มต้น PdfFileSignature
 
- ต่อไปเราจะเริ่มต้น`PdfFileSignature` ชั้นเรียนซึ่งรับผิดชอบในการจัดการกระบวนการการลงนาม
+ต่อไปเราจะเริ่มต้น `PdfFileSignature` ชั้นเรียนซึ่งรับผิดชอบในการจัดการกระบวนการการลงนาม
 
 ```csharp
 using (Facades.PdfFileSignature pdfSign = new Facades.PdfFileSignature())
 {
     pdfSign.BindPdf(doc);
 ```
-ที่นี่เราสร้างอินสแตนซ์ของ`PdfFileSignature`และผูกเข้ากับเอกสาร PDF ของเรา ขั้นตอนนี้จะช่วยเตรียมเอกสารสำหรับการลงนาม
+ที่นี่เราสร้างอินสแตนซ์ของ `PdfFileSignature` และผูกเข้ากับเอกสาร PDF ของเรา ขั้นตอนนี้จะช่วยเตรียมเอกสารสำหรับการลงนาม
 
 ## ขั้นตอนที่ 3: เข้าถึงใบรับรองสมาร์ทการ์ด
 
@@ -96,7 +98,7 @@ System.Security.Cryptography.X509Certificates.X509Certificate2Collection sel =
 ```csharp
 Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.ExternalSignature(sel[0]);
 ```
-ที่นี่เราสร้างอินสแตนซ์ของ`ExternalSignature` โดยใช้ใบรับรองที่เลือก วัตถุนี้จะใช้ในการลงนามในเอกสาร PDF
+ที่นี่เราสร้างอินสแตนซ์ของ `ExternalSignature` โดยใช้ใบรับรองที่เลือก วัตถุนี้จะใช้ในการลงนามในเอกสาร PDF
 
 ## ขั้นตอนที่ 5: ตั้งค่าลักษณะลายเซ็น
 
@@ -105,7 +107,7 @@ Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.Exte
 ```csharp
 pdfSign.SignatureAppearance = dataDir + "demo.png";
 ```
- ในสไนปเป็ตนี้ เราจะระบุลักษณะของลายเซ็นโดยระบุเส้นทางไปยังไฟล์รูปภาพ (เช่น โลโก้หรือกราฟิกลายเซ็น) อย่าลืมเปลี่ยน`"demo.png"` ด้วยภาพจริงที่คุณต้องการใช้
+ในสไนปเป็ตนี้ เราจะระบุลักษณะของลายเซ็นโดยระบุเส้นทางไปยังไฟล์รูปภาพ (เช่น โลโก้หรือกราฟิกลายเซ็น) อย่าลืมเปลี่ยน `"demo.png"` ด้วยภาพจริงที่คุณต้องการใช้
 
 ## ขั้นตอนที่ 6: ลงนามใน PDF
 
@@ -115,7 +117,7 @@ pdfSign.SignatureAppearance = dataDir + "demo.png";
 pdfSign.Sign(1, "Reason", "Contact", "Location", true, new System.Drawing.Rectangle(100, 100, 200, 200), externalSignature);
 pdfSign.Save(dataDir + "externalSignature2.pdf");
 ```
-ในขั้นตอนนี้เราเรียก`Sign` วิธีการของเรา`pdfSign` วัตถุ นี่คือความหมายของแต่ละพารามิเตอร์:
+ในขั้นตอนนี้เราเรียก `Sign` วิธีการของเรา `pdfSign` วัตถุ นี่คือความหมายของแต่ละพารามิเตอร์:
 - `1`:หมายเลขหน้าที่ลายเซ็นจะปรากฏ
 - `"Reason"`: เหตุผลในการลงนามเอกสาร
 - `"Contact"`: ข้อมูลสำหรับติดต่อผู้ลงนาม
@@ -124,7 +126,7 @@ pdfSign.Save(dataDir + "externalSignature2.pdf");
 - `new System.Drawing.Rectangle(100, 100, 200, 200)`:ตำแหน่งและขนาดของลายเซ็นบน PDF
 - `externalSignature`:วัตถุลายเซ็นที่เราสร้างไว้ก่อนหน้านี้
 
- สุดท้ายเราบันทึกเอกสารที่ลงนามแล้วเป็น`externalSignature2.pdf`.
+สุดท้ายเราบันทึกเอกสารที่ลงนามแล้วเป็น `externalSignature2-pdf`.
 
 ## ขั้นตอนที่ 7: ตรวจสอบลายเซ็น
 
@@ -137,7 +139,7 @@ using (Facades.PdfFileSignature pdfSign = new Facades.PdfFileSignature(new Docum
 {
     IList<string> sigNames = pdfSign.GetSignNames();
 ```
- เราสร้างอินสแตนซ์ใหม่ของ`PdfFileSignature` สำหรับเอกสารที่ลงนามแล้ว จากนั้นเราจะเรียกค้นชื่อลายเซ็นทั้งหมดที่มีอยู่ในเอกสาร
+เราสร้างอินสแตนซ์ใหม่ของ `PdfFileSignature` สำหรับเอกสารที่ลงนามแล้ว จากนั้นเราจะเรียกค้นชื่อลายเซ็นทั้งหมดที่มีอยู่ในเอกสาร
 
 ### ตรวจสอบความถูกต้องของลายเซ็น
 
@@ -161,8 +163,8 @@ for (int index = 0; index <= sigNames.Count - 1; index++)
 ### Aspose.PDF สำหรับ .NET คืออะไร?
 Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ภายในแอปพลิเคชัน .NET ได้
 
-### ฉันต้องมีสมาร์ทการ์ดในการลงนามใน PDF หรือไม่
-แม้ว่าสมาร์ทการ์ดจะไม่ใช่สิ่งบังคับใช้ แต่ขอแนะนำอย่างยิ่งสำหรับลายเซ็นดิจิทัลที่ปลอดภัย เพราะมันจะเพิ่มระดับความปลอดภัยอีกชั้นหนึ่ง
+### ฉันต้องมีสมาร์ทการ์ดในการลงนามใน PDF หรือไม่?
+แม้ว่าสมาร์ทการ์ดจะไม่จำเป็น แต่ขอแนะนำอย่างยิ่งสำหรับลายเซ็นดิจิทัลที่ปลอดภัย เพราะมันช่วยเพิ่มระดับความปลอดภัยอีกชั้นหนึ่ง
 
 ### ฉันสามารถใช้ไฟล์ PDF ใด ๆ ในการลงนามได้หรือไม่
 ใช่ คุณสามารถใช้ไฟล์ PDF ใดก็ได้ แต่ต้องแน่ใจว่าไม่มีการป้องกันด้วยรหัสผ่าน หากมี คุณจะต้องปลดล็อกไฟล์ก่อน
@@ -171,10 +173,12 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีอันท
 คุณสามารถรับใบรับรองดิจิทัลจากผู้มีอำนาจออกใบรับรอง (CA) ที่เชื่อถือได้ หรือใช้ใบรับรองที่ลงนามเองเพื่อวัตถุประสงค์ในการทดสอบ
 
 ### มี Aspose.PDF เวอร์ชันทดลองใช้งานหรือไม่
- ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java ile PDF Form Alanına İpucu Ekleme
-linktitle: Java ile PDF Form Alanına İpucu Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java ile PDF Form Alanlarına Araç İpuçlarının Nasıl Ekleneceği Öğrenin. Aspose.PDF for Java API'sini kullanarak adım adım kılavuz.
-weight: 11
-url: /tr/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
+"description": "Java ile PDF Form Alanlarına Araç İpuçlarının Nasıl Ekleneceği Öğrenin. Aspose.PDF for Java API'sini kullanarak adım adım kılavuz."
+"linktitle": "Java ile PDF Form Alanına İpucu Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java ile PDF Form Alanına İpucu Ekleme"
+"url": "/tr/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java ile PDF Form Alanına İpucu Ekleme
@@ -28,7 +30,7 @@ Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 - Java Geliştirme Kiti (JDK) yüklendi
 - Eclipse veya IntelliJ IDEA gibi Entegre Geliştirme Ortamı (IDE)
--  Java kütüphanesi için Aspose.PDF (Bunu şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/)
+- Java kütüphanesi için Aspose.PDF (Bunu şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/)
 
 ## Bağımlılıklar Ekleme
 
@@ -48,13 +50,13 @@ Document pdfDocument = new Document();
 Şimdi PDF belgemize form alanları ekleyelim. Metin alanları, onay kutuları, radyo düğmeleri ve daha fazlası gibi çeşitli form alanı türleri ekleyebilirsiniz. Bu örnek için bir metin alanı ekleyeceğiz.
 
 ```java
-//Metin alanı eklemek için Java kodu
+// Metin alanı eklemek için Java kodu
 TextField textField = new TextField(pdfDocument.getPages().get_Item(1), new Rectangle(100, 100, 200, 30));
 ```
 
 ## Form Alanlarına Araç İpuçları Ekleme
 
- Şimdi kritik kısım geliyor: Form alanlarımıza araç ipuçları eklemek. Bir alan için araç ipucu metnini şu şekilde ayarlayabiliriz:`setTooltip` Yöntem.
+Şimdi kritik kısım geliyor: Form alanlarımıza araç ipuçları eklemek. Bir alan için araç ipucu metnini şu şekilde ayarlayabiliriz: `setTooltip` yöntem.
 
 ```java
 // Metin alanına araç ipucu eklemek için Java kodu
@@ -72,7 +74,7 @@ pdfDocument.save("sample.pdf");
 
 ## İpucu Test Etme
 
-Araç ipuçlarının doğru çalıştığından emin olmak için, oluşturulan PDF'yi bir PDF görüntüleyicide açın. Farenizi metin alanının üzerine getirin ve araç ipucu mesajını görmelisiniz.
+Araç ipuçlarının doğru çalıştığından emin olmak için oluşturulan PDF'yi bir PDF görüntüleyicide açın. Farenizi metin alanının üzerine getirin ve araç ipucu mesajını görmelisiniz.
 
 ## Çözüm
 
@@ -86,7 +88,7 @@ Aspose.PDF for Java'yı Aspose web sitesinden indirebilirsiniz. Java projenizde 
 
 ### Araç ipuçlarının görünümünü özelleştirebilir miyim?
 
-Evet, yazı tipi, rengi ve konumu dahil olmak üzere araç ipuçlarının görünümünü özelleştirebilirsiniz. Özelleştirme seçenekleri hakkında ayrıntılı bilgi için Aspose.PDF belgelerine bakın.
+Evet, yazı tipleri, renkleri ve konumları dahil olmak üzere araç ipuçlarının görünümünü özelleştirebilirsiniz. Özelleştirme seçenekleri hakkında ayrıntılı bilgi için Aspose.PDF belgelerine bakın.
 
 ### Mevcut PDF formlarına araç ipuçları ekleyebilir miyim?
 
@@ -99,9 +101,11 @@ Araç ipuçları standart bir PDF özelliğidir ve Adobe Acrobat Reader ve popü
 ### PDF'deki form dışı öğelere araç ipuçları ekleyebilir miyim?
 
 Hayır, araç ipuçları genellikle PDF belgelerindeki form alanlarıyla ilişkilendirilir. Form dışı öğelere araç ipuçları eklemeniz gerekiyorsa, diğer PDF düzenleme tekniklerini keşfetmeniz gerekebilir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

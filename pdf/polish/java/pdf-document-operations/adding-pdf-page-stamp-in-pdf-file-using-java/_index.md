@@ -1,14 +1,16 @@
 ---
-title: Dodawanie znacznika strony PDF w pliku PDF za pomocą Java
-linktitle: Dodawanie znacznika strony PDF w pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać stemple stron PDF w Javie za pomocą Aspose.PDF. Ten przewodnik krok po kroku pokazuje, jak bez wysiłku dostosowywać stemple do dokumentów PDF.
-weight: 13
-url: /pl/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/
+"description": "Dowiedz się, jak dodawać stemple stron PDF w Javie za pomocą Aspose.PDF. Ten przewodnik krok po kroku pokazuje, jak bez wysiłku dostosowywać stemple do dokumentów PDF."
+"linktitle": "Dodawanie znacznika strony PDF w pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodawanie znacznika strony PDF w pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie znacznika strony PDF w pliku PDF za pomocą Java
@@ -24,11 +26,11 @@ Pieczątka strony PDF to obraz lub tekst dodawany do strony PDF jako nakładka. 
 
 ## Wymagania wstępne
 
-Zanim zagłębisz się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
+Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Zainstalowano Java Development Kit (JDK)
 - Zintegrowane środowisko programistyczne (IDE), takie jak Eclipse lub IntelliJ IDEA
--  Aspose.PDF dla biblioteki Java (Możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla biblioteki Java (Możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Konfigurowanie środowiska
 
@@ -81,7 +83,7 @@ textStamp.setHorizontalAlignment(HorizontalAlignment.Center);
 
 ## Nakładanie stempla strony
 
-Teraz, gdy skonfigurowaliśmy już nasz znacznik strony, zastosujmy go do stron PDF:
+Teraz, gdy skonfigurowaliśmy nasz znacznik strony, zastosujmy go do stron PDF:
 
 ```java
 for (int pageNumber = 1; pageNumber <= pdfDocument.getPages().size(); pageNumber++) {
@@ -109,7 +111,7 @@ W tym samouczku nauczyliśmy się, jak dodać stempel strony PDF do pliku PDF za
 
 ### Jak mogę dodać stempel graficzny zamiast tekstu?
 
- Możesz utworzyć`ImageStamp` zamiast`TextStamp` i skonfiguruj go za pomocą pliku obrazu.
+Możesz utworzyć `ImageStamp` zamiast `TextStamp` i skonfiguruj go za pomocą pliku obrazu.
 
 ### Czy mogę dostosować położenie stempla strony?
 
@@ -125,10 +127,12 @@ Aspose.PDF for Java jest biblioteką komercyjną, ale można ją przetestować, 
 
 ### Gdzie mogę znaleźć więcej dokumentacji i przykładów?
 
- Pełną dokumentację i przykłady można znaleźć na stronie dokumentacji Aspose.PDF dla języka Java:[Tutaj](https://reference.aspose.com/pdf/java/)
+Pełną dokumentację i przykłady można znaleźć na stronie dokumentacji Aspose.PDF dla języka Java: [Tutaj](https://reference.aspose.com/pdf/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

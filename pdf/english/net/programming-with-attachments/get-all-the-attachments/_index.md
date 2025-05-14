@@ -8,7 +8,9 @@ url: /net/programming-with-attachments/get-all-the-attachments/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get All The Attachments In PDF File
@@ -162,6 +164,7 @@ The documentation for Aspose.PDF for .NET can be found [here](https://reference.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

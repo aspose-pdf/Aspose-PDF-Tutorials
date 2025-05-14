@@ -1,14 +1,16 @@
 ---
-title: Trích xuất hình ảnh từ tệp PDF
-linktitle: Trích xuất hình ảnh từ tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất hình ảnh từ tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Bắt đầu với hướng dẫn dễ làm theo.
-weight: 120
-url: /vi/net/programming-with-images/extract-images/
+"description": "Tìm hiểu cách trích xuất hình ảnh từ tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Bắt đầu với hướng dẫn dễ làm theo."
+"linktitle": "Trích xuất hình ảnh từ tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Trích xuất hình ảnh từ tệp PDF"
+"url": "/vi/net/programming-with-images/extract-images/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất hình ảnh từ tệp PDF
@@ -21,11 +23,11 @@ Bạn đã bao giờ tự hỏi làm thế nào để kéo hình ảnh ra khỏi
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu. Sau đây là những gì bạn cần:
 
-1.  Aspose.PDF cho Thư viện .NET: Hãy đảm bảo bạn đã có[Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/) thư viện đã được cài đặt. Bạn có thể tải xuống từ liên kết hoặc cài đặt thông qua NuGet trong Visual Studio.
+1. Aspose.PDF cho Thư viện .NET: Hãy đảm bảo bạn đã có [Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/) thư viện đã được cài đặt. Bạn có thể tải xuống từ liên kết hoặc cài đặt thông qua NuGet trong Visual Studio.
 2. IDE (Môi trường phát triển tích hợp): Khuyến khích sử dụng Visual Studio, nhưng bất kỳ IDE nào tương thích với .NET đều có thể sử dụng được.
 3. Hiểu biết cơ bản về C#: Kiến thức cơ bản về C# rất hữu ích, nhưng đừng lo lắng nếu bạn là người mới bắt đầu—chúng tôi sẽ hướng dẫn bạn viết mã!
 4. Tài liệu PDF có hình ảnh: Một tệp PDF mẫu có hình ảnh mà bạn muốn trích xuất.
-5.  Giấy phép: Bạn có thể sử dụng một[giấy phép tạm thời](https://mua.aspose.com/temporary-license/) hoặc[purchase](https://purchase.aspose.com/buy) giấy phép đầy đủ nếu bạn không dùng thử miễn phí.
+5. Giấy phép: Bạn có thể sử dụng một [giấy phép tạm thời](https://purchase.aspose.com/temphoặcary-license/) or [mua](https://purchase.aspose.com/buy) giấy phép đầy đủ nếu bạn không dùng thử miễn phí.
 
 ## Nhập gói
 
@@ -50,7 +52,7 @@ Trước khi bạn có thể trích xuất hình ảnh, bạn cần phải chỉ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Trong dòng này, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn nơi lưu trữ tệp PDF của bạn. Điều này thiết lập vị trí của tệp đầu vào và đầu ra của bạn.
+Trong dòng này, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn nơi lưu trữ tệp PDF của bạn. Điều này thiết lập vị trí của tệp đầu vào và đầu ra của bạn.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -60,7 +62,7 @@ Tiếp theo, bạn cần tải tài liệu PDF mà bạn muốn trích xuất h�
 Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
 ```
 
- Ở đây, bạn đang yêu cầu Aspose.PDF mở tệp`"ExtractImages.pdf"` từ thư mục được chỉ định ở bước trước. Đảm bảo tên tệp khớp chính xác.
+Ở đây, bạn đang yêu cầu Aspose.PDF mở tệp `"ExtractImages.pdf"` từ thư mục được chỉ định ở bước trước. Đảm bảo tên tệp khớp chính xác.
 
 ## Bước 3: Truy cập hình ảnh đầu tiên trên trang đầu tiên
 
@@ -70,7 +72,7 @@ Bây giờ tài liệu PDF đã được tải, bước tiếp theo là truy c�
 XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
 ```
 
- Mã này lấy hình ảnh đầu tiên trên trang đầu tiên. Nếu PDF của bạn có nhiều trang hoặc hình ảnh, bạn có thể điều chỉnh số lượng cho phù hợp.`Pages[1]` đề cập đến trang đầu tiên và`Images[1]` đề cập đến hình ảnh đầu tiên trên trang đó.
+Mã này lấy hình ảnh đầu tiên trên trang đầu tiên. Nếu PDF của bạn có nhiều trang hoặc hình ảnh, bạn có thể điều chỉnh số lượng cho phù hợp. `Pages[1]` đề cập đến trang đầu tiên và `Images[1]` đề cập đến hình ảnh đầu tiên trên trang đó.
 
 ## Bước 4: Tạo luồng tệp cho hình ảnh đầu ra
 
@@ -80,7 +82,7 @@ Sau khi bạn đã truy cập hình ảnh, bạn cần tạo luồng tệp để
 FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
 ```
 
- Ở đây, bạn đang lưu hình ảnh đã trích xuất dưới dạng`"output.jpg"` trong cùng thư mục với tệp PDF. Nếu bạn muốn lưu ở nơi khác hoặc thay đổi định dạng, hãy thoải mái sửa đổi đường dẫn và tên tệp.
+Ở đây, bạn đang lưu hình ảnh đã trích xuất dưới dạng `"output.jpg"` trong cùng thư mục với tệp PDF. Nếu bạn muốn lưu ở nơi khác hoặc thay đổi định dạng, hãy thoải mái sửa đổi đường dẫn và tên tệp.
 
 ## Bước 5: Lưu hình ảnh đã trích xuất
 
@@ -90,7 +92,7 @@ Sau khi tải hình ảnh và luồng tập tin đã sẵn sàng, đã đến l�
 xImage.Save(outputImage, ImageFormat.Jpeg);
 ```
 
- Dòng mã này lưu hình ảnh dưới dạng tệp JPEG. Bạn cũng có thể lưu nó ở các định dạng khác, như PNG hoặc BMP, bằng cách thay đổi`ImageFormat` tham số.
+Dòng mã này lưu hình ảnh dưới dạng tệp JPEG. Bạn cũng có thể lưu nó ở các định dạng khác, như PNG hoặc BMP, bằng cách thay đổi `ImageFormat` tham số.
 
 ## Bước 6: Đóng luồng tập tin
 
@@ -111,7 +113,7 @@ dataDir = dataDir + "ExtractImages_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Mã này lưu PDF đã cập nhật dưới dạng`"ExtractImages_out.pdf"`. Nếu không có thay đổi nào được thực hiện trên tệp PDF, bạn có thể bỏ qua bước này.
+Mã này lưu PDF đã cập nhật dưới dạng `"ExtractImages_out.pdf"`. Nếu không có thay đổi nào được thực hiện trên tệp PDF, bạn có thể bỏ qua bước này.
 
 ## Phần kết luận
 
@@ -123,7 +125,7 @@ Và thế là xong! Trích xuất hình ảnh từ tệp PDF bằng Aspose.PDF c
 Có, bạn có thể lặp qua các trang và hình ảnh trong mỗi trang để trích xuất nhiều hình ảnh cùng một lúc.
 
 ### Có thể lưu hình ảnh ở định dạng khác ngoài JPEG không?
- Chắc chắn rồi! Bạn có thể lưu hình ảnh ở các định dạng khác nhau như PNG, BMP hoặc TIFF bằng cách điều chỉnh`ImageFormat` tham số.
+Chắc chắn rồi! Bạn có thể lưu hình ảnh ở các định dạng khác nhau như PNG, BMP hoặc TIFF bằng cách điều chỉnh `ImageFormat` tham số.
 
 ### Nếu tệp PDF của tôi không có hình ảnh thì sao?
 Nếu không có hình ảnh trong PDF, Aspose.PDF cho .NET sẽ không đưa ra lỗi nhưng sẽ không trích xuất bất cứ thứ gì. Bạn có thể thêm xử lý lỗi để quản lý các trường hợp như vậy.
@@ -132,10 +134,12 @@ Nếu không có hình ảnh trong PDF, Aspose.PDF cho .NET sẽ không đưa ra
 Có, miễn là bạn cung cấp đúng mật khẩu, Aspose.PDF cho .NET có thể mở các tệp PDF được mã hóa và trích xuất hình ảnh.
 
 ### Làm thế nào để cài đặt Aspose.PDF cho .NET?
- Bạn có thể tải nó xuống từ[Aspose.PDF cho trang .NET](https://releases.aspose.com/pdf/net/) hoặc cài đặt bằng NuGet trong Visual Studio.
+Bạn có thể tải nó xuống từ [Aspose.PDF cho trang .NET](https://releases.aspose.com/pdf/net/) hoặc cài đặt bằng NuGet trong Visual Studio.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

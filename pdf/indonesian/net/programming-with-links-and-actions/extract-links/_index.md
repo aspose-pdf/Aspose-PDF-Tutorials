@@ -1,14 +1,16 @@
 ---
-title: Ekstrak Tautan Dalam File PDF
-linktitle: Ekstrak Tautan Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mudah mengekstrak tautan dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini.
-weight: 50
-url: /id/net/programming-with-links-and-actions/extract-links/
+"description": "Pelajari cara mudah mengekstrak tautan dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini."
+"linktitle": "Ekstrak Tautan Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ekstrak Tautan Dalam File PDF"
+"url": "/id/net/programming-with-links-and-actions/extract-links/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrak Tautan Dalam File PDF
@@ -26,8 +28,8 @@ Sebelum kita masuk ke kode, Anda perlu memastikan bahwa Anda telah menyiapkan be
 ```
 Install-Package Aspose.PDF
 ```
-    Atau Anda dapat mengambil versi terbaru langsung dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
-3. Pengetahuan Dasar tentang C#: Pemahaman mendasar tentang C# akan membantu Anda memahaminya. Jangan khawatir jika Anda bukan seorang profesional; kami akan menjelaskannya dengan jelas dan lugas!
+   Atau Anda dapat mengambil versi terbaru langsung dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
+3. Pengetahuan Dasar tentang C#: Pemahaman dasar tentang C# akan membantu Anda memahaminya. Jangan khawatir jika Anda bukan seorang profesional; kami akan menjelaskannya dengan jelas dan lugas!
 4. Contoh Dokumen PDF: Anda akan memerlukan dokumen PDF yang berisi tautan. Anda dapat membuatnya untuk pengujian atau mengunduh contoh secara daring.
 
 Sekarang setelah semuanya disiapkan, mari kita langsung saja mulai!
@@ -55,7 +57,7 @@ Pertama-tama, Anda perlu menentukan jalur ke dokumen Anda. Di sinilah Anda akan 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur folder sebenarnya tempat file PDF Anda berada. Ini membantu aplikasi Anda mengetahui tempat mencari dokumen Anda.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur folder sebenarnya tempat file PDF Anda berada. Ini membantu aplikasi Anda mengetahui tempat mencari dokumen Anda.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -65,7 +67,7 @@ Sekarang, saatnya untuk benar-benar membuka dokumen PDF menggunakan Aspose.PDF. 
 Document document = new Document(dataDir + "ExtractLinks.pdf");
 ```
 
- Mengganti`"ExtractLinks.pdf"` dengan nama berkas PDF Anda. Baris ini menginisialisasi objek dokumen PDF yang dapat Anda manipulasi.
+Mengganti `"ExtractLinks.pdf"` dengan nama berkas PDF Anda. Baris ini menginisialisasi objek dokumen PDF yang dapat Anda manipulasi.
 
 ## Langkah 3: Pilih Halaman Target
 
@@ -75,7 +77,7 @@ PDF dapat memiliki beberapa halaman, jadi Anda perlu menentukan halaman mana yan
 Page page = document.Pages[1];
 ```
 
- Ingat, halaman di Aspose.PDF diindeks mulai dari 1, jadi jika Anda menginginkan halaman pertama, Anda akan menggunakan`1` seperti yang ditunjukkan di sini.
+Ingat, halaman di Aspose.PDF diindeks mulai dari 1, jadi jika Anda menginginkan halaman pertama, Anda akan menggunakan `1` seperti yang ditunjukkan di sini.
 
 ## Langkah 4: Siapkan Pemilih Anotasi Tautan
 
@@ -131,7 +133,7 @@ Dalam cuplikan ini, kami memeriksa apakah ada anotasi yang ditemukan. Jika ada, 
 
 ## Kesimpulan
 
- Nah, itu dia! Hanya dengan beberapa langkah sederhana, Anda sekarang dapat mengekstrak tautan dari berkas PDF apa pun menggunakan Aspose.PDF untuk .NET. Pustaka canggih ini membuka banyak kemungkinan untuk bekerja dengan PDF, mulai dari ekstraksi tautan sederhana hingga manipulasi dokumen yang rumit. Jika Anda ingin lebih mengenal Aspose, pertimbangkan untuk memeriksa[dokumentasi](https://reference.aspose.com/pdf/net/) atau menjelajahi lebih banyak fungsi yang mereka tawarkan.
+Nah, itu dia! Hanya dengan beberapa langkah sederhana, Anda sekarang dapat mengekstrak tautan dari berkas PDF apa pun menggunakan Aspose.PDF untuk .NET. Pustaka canggih ini membuka banyak kemungkinan untuk bekerja dengan PDF, mulai dari ekstraksi tautan sederhana hingga manipulasi dokumen yang rumit. Jika Anda ingin lebih mengenal Aspose, pertimbangkan untuk memeriksa [dokumentasi](https://reference.aspose.com/pdf/net/) atau menjelajahi lebih banyak fungsi yang mereka tawarkan.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -142,16 +144,18 @@ Aspose.PDF untuk .NET adalah pustaka hebat yang digunakan untuk membuat, memanip
 Ya! Anda dapat melakukan perulangan melalui semua halaman dokumen Anda menggunakan perulangan for sederhana dan menerapkan proses ekstraksi tautan yang sama.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?
-Aspose.PDF adalah produk komersial, tetapi Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+Aspose.PDF adalah produk komersial, tetapi Anda dapat mengunduh versi uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan komunitas melalui mereka[forum dukungan](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan komunitas melalui mereka [forum dukungan](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PDF?
- Jika Anda memerlukan lisensi sementara, Anda dapat memintanya melalui ini[link](https://purchase.aspose.com/temporary-license/).
+Jika Anda memerlukan lisensi sementara, Anda dapat memintanya melalui ini [link](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

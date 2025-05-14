@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi từ RGB sang thang độ xám
-linktitle: Chuyển đổi từ RGB sang thang độ xám
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi PDF từ RGB sang thang độ xám bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để đơn giản hóa việc chuyển đổi màu PDF và tiết kiệm dung lượng tệp.
-weight: 60
-url: /vi/net/programming-with-document/convertfromrgbtograyscale/
+"description": "Tìm hiểu cách chuyển đổi PDF từ RGB sang thang độ xám bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để đơn giản hóa việc chuyển đổi màu PDF và tiết kiệm dung lượng tệp."
+"linktitle": "Chuyển đổi từ RGB sang thang độ xám"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Chuyển đổi từ RGB sang thang độ xám"
+"url": "/vi/net/programming-with-document/convertfromrgbtograyscale/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi từ RGB sang thang độ xám
@@ -21,8 +23,8 @@ Việc chuyển đổi PDF từ RGB sang thang độ xám thường là cần th
 
 Trước khi bắt đầu, bạn cần một số thứ sau:
 
-1.  Aspose.PDF cho Thư viện .NET: Nếu bạn chưa tải xuống, hãy tải phiên bản mới nhất từ[đây](https://releases.aspose.com/pdf/net/).
-2.  Giấy phép hợp lệ: Bạn có thể mua một giấy phép từ[liên kết này](https://purchase.aspose.com/buy) hoặc thử một[dùng thử miễn phí](https://releases.aspose.com/).
+1. Aspose.PDF cho Thư viện .NET: Nếu bạn chưa tải xuống, hãy tải phiên bản mới nhất từ [đây](https://releases.aspose.com/pdf/net/).
+2. Giấy phép hợp lệ: Bạn có thể mua một giấy phép từ [liên kết này](https://purchase.aspose.com/buy) hoặc thử một [dùng thử miễn phí](https://releases.aspose.com/).
 3. Môi trường phát triển: Bạn sẽ cần một môi trường làm việc như Visual Studio để viết và thực thi mã C#.
 
 ## Nhập gói
@@ -41,7 +43,7 @@ Trước khi bắt đầu viết mã chuyển đổi, bạn phải thiết lập
 - Cài đặt Aspose.PDF cho .NET: Sử dụng NuGet Package Manager để cài đặt phiên bản mới nhất của thư viện Aspose.PDF cho .NET. Thư viện này cung cấp tất cả các chức năng bạn cần để thao tác PDF.
 
 1. Mở Visual Studio.
-2.  Đi đến`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`.
+2. Đi đến `Tools` -> `NuGet Package Manager` -> `Manage NuGet Packages for Solution`.
 3. Tìm kiếm Aspose.PDF cho .NET và cài đặt nó.
 
 ## Bước 2: Tải Tài liệu PDF
@@ -56,12 +58,12 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "input.pdf");
 ```
 
--  Các`dataDir` biến trỏ đến thư mục lưu trữ tệp PDF của bạn.
--  Các`Document`đối tượng từ thư viện Aspose.PDF được sử dụng để tải tệp PDF của bạn.
+- Các `dataDir` biến trỏ đến thư mục lưu trữ tệp PDF của bạn.
+- Các `Document` đối tượng từ thư viện Aspose.PDF được sử dụng để tải tệp PDF của bạn.
 
 ## Bước 3: Xác định Chiến lược Chuyển đổi thang độ xám
 
- Tiếp theo, bạn sẽ cần xác định một chiến lược để chuyển đổi màu RGB trong PDF của bạn sang thang độ xám. Trong ví dụ này, chúng tôi sẽ sử dụng`RgbToDeviceGrayConversionStrategy` từ Aspose.PDF, giúp đơn giản hóa toàn bộ quá trình.
+Tiếp theo, bạn sẽ cần xác định một chiến lược để chuyển đổi màu RGB trong PDF của bạn sang thang độ xám. Trong ví dụ này, chúng tôi sẽ sử dụng `RgbToDeviceGrayConversionStrategy` từ Aspose.PDF, giúp đơn giản hóa toàn bộ quá trình.
 
 ```csharp
 // Tạo chiến lược chuyển đổi thang độ xám
@@ -86,19 +88,19 @@ for (int idxPage = 1; idxPage <= document.Pages.Count; idxPage++)
 }
 ```
 
--  Các`for` vòng lặp đi qua mọi trang trong tài liệu.
--  Đối với mỗi trang, chúng tôi sử dụng`Convert()` phương pháp chiến lược để thay đổi tất cả màu RGB thành thang độ xám.
+- Các `for` vòng lặp đi qua mọi trang trong tài liệu.
+- Đối với mỗi trang, chúng tôi sử dụng `Convert()` phương pháp chiến lược để thay đổi tất cả màu RGB thành thang độ xám.
 
 ## Bước 5: Lưu PDF thang độ xám
 
-Sau khi chuyển đổi thang độ xám được áp dụng cho mọi trang, bạn cần lưu tài liệu đã sửa đổi. Mã sau sẽ lưu PDF đã chuyển đổi với tên tệp mới.
+Sau khi áp dụng chuyển đổi thang độ xám cho mọi trang, bạn cần lưu tài liệu đã sửa đổi. Mã sau sẽ lưu tệp PDF đã chuyển đổi với tên tệp mới.
 
 ```csharp
 // Lưu tài liệu PDF đã sửa đổi
 document.Save(dataDir + "Test-gray_out.pdf");
 ```
 
--  Các`Save()` phương pháp lưu tệp PDF đã chuyển đổi vào vị trí bạn chỉ định. Đừng quên đặt tên duy nhất để tránh ghi đè lên tài liệu gốc.
+- Các `Save()` phương pháp lưu tệp PDF đã chuyển đổi vào vị trí bạn chỉ định. Đừng quên đặt tên duy nhất để tránh ghi đè lên tài liệu gốc.
 
 ## Phần kết luận
 
@@ -120,14 +122,16 @@ Có, thay vì lặp qua tất cả các trang, bạn có thể chỉ định cá
 
 ### Aspose.PDF cho .NET có miễn phí sử dụng không?
 
- Aspose.PDF cho .NET yêu cầu phải có giấy phép. Bạn có thể lấy một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc thử một[dùng thử miễn phí](https://releases.aspose.com/) phiên bản.
+Aspose.PDF cho .NET yêu cầu phải có giấy phép. Bạn có thể lấy một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc thử một [dùng thử miễn phí](https://releases.aspose.com/) phiên bản.
 
 ### Lợi ích của việc chuyển đổi PDF sang thang độ xám là gì?
 
 Chuyển đổi PDF sang thang độ xám giúp giảm lượng mực sử dụng khi in, giảm kích thước tệp và tạo giao diện chuyên nghiệp, tối giản.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

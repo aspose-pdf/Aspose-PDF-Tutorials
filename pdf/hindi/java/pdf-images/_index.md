@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ छवियाँ
-linktitle: पीडीएफ छवियाँ
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Aspose.PDF for Java के साथ PDF इमेज में हेरफेर करना सीखें। PDF में इमेज को आसानी से डालना, संशोधित करना और ऑप्टिमाइज़ करना सीखें।
-weight: 12
-url: /hi/java/pdf-images/
+"description": "Aspose.PDF for Java के साथ PDF इमेज में हेरफेर करना सीखें। PDF में इमेज को आसानी से डालना, संशोधित करना और ऑप्टिमाइज़ करना सीखें।"
+"linktitle": "पीडीएफ छवियाँ"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "पीडीएफ छवियाँ"
+"url": "/hi/java/pdf-images/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ छवियाँ
@@ -27,7 +29,7 @@ url: /hi/java/pdf-images/
 ## पीडीएफ छवियाँ ट्यूटोरियल
 ### [जावा का उपयोग करके पीडीएफ में लाइन ऑब्जेक्ट जोड़ें](./add-line-object-to-pdf-using-java/)
 Aspose.PDF for Java के साथ Java का उपयोग करके PDF फ़ाइलों में लाइन ऑब्जेक्ट जोड़ना सीखें। लाइनों को कस्टमाइज़ करें, उन्हें स्थान दें, और आसानी से गतिशील PDF बनाएँ।
-### [जावा के साथ पीडीएफ में आयत के Z-क्रम को नियंत्रित करना](./controlling-z-order-of-rectangle-in-pdf-with-java/)
+### [जावा के साथ पीडीएफ में आयत के Z-ऑर्डर को नियंत्रित करना](./controlling-z-order-of-rectangle-in-pdf-with-java/)
 जानें कि Java के साथ PDF में आयतों के Z-क्रम को कैसे नियंत्रित किया जाए। सटीक PDF हेरफेर के लिए चरण-दर-चरण मार्गदर्शिका।
 ### [जावा का उपयोग करके पीडीएफ में भरा हुआ आयत ऑब्जेक्ट बनाएं](./create-filled-rectangle-object-in-pdf-using-java/)
 जानें कि Aspose.PDF for Java के साथ Java का उपयोग करके PDF में भरे हुए आयत कैसे बनाएं। कोड उदाहरणों के साथ चरण-दर-चरण ट्यूटोरियल।
@@ -38,16 +40,18 @@ Aspose.PDF for Java के साथ Java का उपयोग करके PD
 ### [जावा का उपयोग करके पीडीएफ संसाधनों से छवि हटाएं](./delete-image-from-pdf-resources-using-java/)
 Java के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों से छवियों को हटाना सीखें। कुशल PDF हेरफेर के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [जावा का उपयोग करके पीडीएफ फाइल से छवियाँ हटाएँ](./delete-images-from-pdf-file-using-java/)
-Aspose.PDF for Java के साथ Java का उपयोग करके PDF फ़ाइल से छवियों को हटाना सीखें। PDF में छवियों को कुशलतापूर्वक हटाने के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+जानें कि Java के लिए Aspose.PDF के साथ Java का उपयोग करके PDF फ़ाइल से छवियों को कैसे हटाया जाए। PDF में छवियों को कुशलतापूर्वक हटाने के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [जावा में पीडीएफ से छवि गुण निकालें](./extract-image-properties-from-pdf-in-java/)
 जावा के लिए Aspose.PDF का उपयोग करके जावा में PDF से छवि गुण निकालने का तरीका जानें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका। आज ही अपने PDF प्रोसेसिंग कौशल को बेहतर बनाएँ!
 ### [जावा का उपयोग करके पीडीएफ फाइल से छवियाँ निकालें](./extract-images-from-pdf-file-using-java/)
 Aspose.PDF for Java के साथ Java का उपयोग करके PDF फ़ाइल से छवियाँ निकालना सीखें। सोर्स कोड के साथ चरण-दर-चरण मार्गदर्शिका। PDF छवि निष्कर्षण को अभी अनलॉक करें।
 ### [जावा का उपयोग करके पीडीएफ फाइल में एंबेडेड छवियों का नाम प्राप्त करें](./get-name-of-images-embedded-in-pdf-file-using-java/)
 जानें कि Java और Aspose.PDF for Java का उपयोग करके PDF फ़ाइलों से एम्बेडेड इमेज नाम कैसे निकालें। कुशल PDF डेटा निष्कर्षण के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

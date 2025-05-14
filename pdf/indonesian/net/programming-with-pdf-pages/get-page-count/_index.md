@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Jumlah Halaman Dalam File PDF
-linktitle: Dapatkan Jumlah Halaman Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mendapatkan jumlah halaman dalam file PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk solusi yang sederhana dan efektif.
-weight: 80
-url: /id/net/programming-with-pdf-pages/get-page-count/
+"description": "Pelajari cara mendapatkan jumlah halaman dalam file PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk solusi yang sederhana dan efektif."
+"linktitle": "Dapatkan Jumlah Halaman Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Jumlah Halaman Dalam File PDF"
+"url": "/id/net/programming-with-pdf-pages/get-page-count/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Jumlah Halaman Dalam File PDF
@@ -27,7 +29,7 @@ Sebelum memulai, Anda perlu menyiapkan beberapa hal. Jangan khawatir, saya akan 
 4. .NET Framework: Aspose.PDF untuk .NET mendukung .NET Framework dan .NET Core.
 5. Dokumen PDF untuk digunakan (atau Anda dapat membuatnya menggunakan Aspose.PDF seperti yang ditunjukkan dalam contoh).
 
- Jika Anda belum menginstal Aspose.PDF, Anda dapat mengambilnya dari[Di Sini](https://releases.aspose.com/pdf/net/) dan lihatlah[dokumentasi](https://reference.aspose.com/pdf/net/) untuk referensi lebih lanjut.
+Jika Anda belum menginstal Aspose.PDF, Anda dapat mengambilnya dari [Di Sini](https://releases.aspose.com/pdf/net/) dan lihatlah [dokumentasi](https://reference.aspose.com/pdf/net/) untuk referensi lebih lanjut.
 
 ## Paket Impor
 
@@ -44,15 +46,15 @@ Ruang nama ini menyediakan kelas yang dibutuhkan untuk membuat dan memanipulasi 
 
 Mari kita uraikan kode tersebut langkah demi langkah, sehingga Anda tidak hanya memahami cara kerjanya tetapi juga merasa cukup percaya diri untuk memodifikasi dan mengembangkannya untuk proyek Anda sendiri.
 
-##  Langkah 1: Buat instance`Document` Object
+## Langkah 1: Buat instance `Document` Obyek
 
- Hal pertama yang Anda perlukan adalah membuat instance dari`Document` kelas. Anggap saja ini seperti membuka file PDF kosong tempat Anda dapat menambahkan halaman dan konten.
+Hal pertama yang Anda perlukan adalah membuat instance dari `Document` kelas. Anggap saja ini seperti membuka file PDF kosong tempat Anda dapat menambahkan halaman dan konten.
 
 ```csharp
 Document doc = new Document();
 ```
 
- Itu`Document`Kelas itu seperti buku utama – di situlah semua halaman dan konten berada. Pada langkah ini, kita hanya membuat dokumen kosong, yang siap diisi.
+Itu `Document` Kelas itu seperti buku utama – di situlah semua halaman dan konten berada. Pada langkah ini, kita hanya membuat dokumen kosong, yang siap diisi.
 
 ## Langkah 2: Tambahkan Halaman ke PDF
 
@@ -62,11 +64,11 @@ Sekarang, mari tambahkan beberapa halaman ke dokumen ini. Dalam kasus kita, kita
 Page page = doc.Pages.Add();
 ```
 
- Baris ini menambahkan halaman baru ke PDF. Anda dapat menganggapnya sebagai menambahkan selembar kertas baru ke dokumen Anda. Setiap kali Anda memanggil`doc.Pages.Add()`, halaman baru ditambahkan ke PDF.
+Baris ini menambahkan halaman baru ke PDF. Anda dapat menganggapnya sebagai menambahkan selembar kertas baru ke dokumen Anda. Setiap kali Anda memanggil `doc.Pages.Add()`, halaman baru ditambahkan ke PDF.
 
 ## Langkah 3: Tambahkan Teks ke PDF
 
- Di sinilah hal-hal menjadi menarik. Sekarang kita akan menambahkan teks ke halaman menggunakan`TextFragment`Langkah ini mensimulasikan skenario saat Anda ingin mengisi halaman dengan konten, lalu memeriksa berapa banyak halaman yang telah Anda buat.
+Di sinilah hal-hal menjadi menarik. Sekarang kita akan menambahkan teks ke halaman menggunakan `TextFragment`Langkah ini mensimulasikan skenario saat Anda ingin mengisi halaman dengan konten, lalu memeriksa berapa banyak halaman yang telah Anda buat.
 
 ```csharp
 for (int i = 0; i < 300; i++)
@@ -85,7 +87,7 @@ Untuk mendapatkan jumlah halaman yang akurat, Anda perlu memproses paragraf. Lan
 doc.ProcessParagraphs();
 ```
 
- Saat Anda menambahkan konten ke PDF, konten tersebut tidak langsung ditata di halaman. Dengan memanggil`ProcessParagraphs()`, Anda memberi tahu dokumen untuk menghitung tata letak, memastikan Anda mendapatkan jumlah halaman yang akurat.
+Saat Anda menambahkan konten ke PDF, konten tersebut tidak langsung ditata di halaman. Dengan memanggil `ProcessParagraphs()`, Anda memberi tahu dokumen untuk menghitung tata letak, memastikan Anda mendapatkan jumlah halaman yang akurat.
 
 ## Langkah 5: Dapatkan dan Cetak Jumlah Halaman
 
@@ -95,7 +97,7 @@ Akhirnya, saatnya untuk mengambil jumlah halaman dalam dokumen Anda dan mencetak
 Console.WriteLine("Number of pages in document = " + doc.Pages.Count);
 ```
 
- Itu`Pages.Count` properti mengembalikan jumlah total halaman dalam dokumen. Inilah saat yang tepat – Anda akan tahu persis berapa banyak halaman yang telah Anda buat!
+Itu `Pages.Count` properti mengembalikan jumlah total halaman dalam dokumen. Inilah saat yang tepat – Anda akan tahu persis berapa banyak halaman yang telah Anda buat!
 
 ## Kesimpulan
 
@@ -104,22 +106,24 @@ Nah, itu dia – tutorial lengkap tentang cara menghitung jumlah halaman dokumen
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menghitung halaman dalam PDF yang sudah ada alih-alih membuat yang baru?  
- Ya! Cukup muat PDF yang ada menggunakan`Document doc = new Document("filePath.pdf");` dan kemudian menelepon`doc.Pages.Count`.
+Ya! Cukup muat PDF yang ada menggunakan `Document doc = new Document("filePath.pdf");` dan kemudian menelepon `doc.Pages.Count`.
 
 ### Bagaimana jika PDF saya berisi gambar dan tabel? Apakah jumlah halamannya masih akurat?  
 Tentu saja. Aspose.PDF memproses semua jenis konten termasuk teks, gambar, dan tabel, memastikan Anda mendapatkan jumlah halaman yang akurat.
 
 ### Dapatkah saya menambahkan berbagai jenis konten (seperti gambar) sebelum menghitung halaman?  
- Ya, Aspose.PDF mendukung penambahan gambar, tabel, dan berbagai elemen lainnya. Setelah menambahkannya, cukup panggil`doc.ProcessParagraphs()`untuk memastikan konten ditata sebelum menghitung halaman.
+Ya, Aspose.PDF mendukung penambahan gambar, tabel, dan berbagai elemen lainnya. Setelah menambahkannya, cukup panggil `doc.ProcessParagraphs()` untuk memastikan konten ditata sebelum menghitung halaman.
 
 ### Apakah ada cara untuk mengoptimalkan kinerja PDF berukuran besar?  
 Ya, Aspose.PDF menawarkan beberapa teknik pengoptimalan seperti mengompresi gambar dan font, yang dapat membantu kinerja PDF berukuran besar.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF untuk .NET?  
- Anda dapat mencobanya dengan[uji coba gratis](https://releases.aspose.com/) , tetapi untuk fungsionalitas penuh, Anda memerlukan lisensi. Anda juga bisa mendapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
+Anda dapat mencobanya dengan [uji coba gratis](https://releases.aspose.com/), tetapi untuk fungsionalitas penuh, Anda memerlukan lisensi. Anda juga bisa mendapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

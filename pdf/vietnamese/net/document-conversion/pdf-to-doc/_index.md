@@ -1,14 +1,16 @@
 ---
-title: PDF sang DOC
-linktitle: PDF sang DOC
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi PDF sang DOC bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. Bao gồm hướng dẫn từng bước và mẹo.
-weight: 110
-url: /vi/net/document-conversion/pdf-to-doc/
+"description": "Tìm hiểu cách chuyển đổi PDF sang DOC bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. Bao gồm hướng dẫn từng bước và mẹo."
+"linktitle": "PDF sang DOC"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "PDF sang DOC"
+"url": "/vi/net/document-conversion/pdf-to-doc/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF sang DOC
@@ -22,7 +24,7 @@ Chào mừng đến với thế giới của Aspose.PDF dành cho .NET! Nếu b�
 Trước khi đi sâu vào phần cốt lõi của việc viết mã, bạn cần phải chuẩn bị một số điều sau:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Aspose.PDF hoạt động liền mạch với các ứng dụng .NET.
-2.  Thư viện Aspose.PDF: Bạn sẽ cần tải xuống thư viện Aspose.PDF. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+2. Thư viện Aspose.PDF: Bạn sẽ cần tải xuống thư viện Aspose.PDF. Bạn có thể lấy nó từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 3. IDE: Một môi trường phát triển như Visual Studio sẽ giúp cuộc sống của bạn dễ dàng hơn. Nếu bạn chưa có, đã đến lúc phải có rồi!
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn.
 
@@ -44,11 +46,11 @@ Trước tiên, hãy thiết lập dự án của bạn. Mở Visual Studio và 
 
 ## Bước 2: Thêm tham chiếu Aspose.PDF
 
-Tiếp theo, bạn cần thêm tham chiếu đến thư viện Aspose.PDF vào dự án của mình. Nhấp chuột phải vào dự án của bạn trong Solution Explorer, chọn "Add", sau đó chọn "Reference". Duyệt đến vị trí bạn đã tải xuống Aspose.PDF DLL và thêm vào.
+Tiếp theo, bạn cần thêm tham chiếu đến thư viện Aspose.PDF trong dự án của mình. Nhấp chuột phải vào dự án của bạn trong Solution Explorer, chọn "Add", sau đó chọn "Reference". Duyệt đến vị trí bạn đã tải xuống Aspose.PDF DLL và thêm vào.
 
 ## Bước 3: Xác định thư mục tài liệu
 
- Bây giờ, hãy xác định nơi lưu trữ tài liệu của chúng ta. Bạn sẽ cần chỉ định đường dẫn đến thư mục tài liệu của mình. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn.
+Bây giờ, hãy xác định nơi lưu trữ tài liệu của chúng ta. Bạn sẽ cần chỉ định đường dẫn đến thư mục tài liệu của mình. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -62,7 +64,7 @@ Sau khi thiết lập thư mục, đã đến lúc mở tài liệu PDF bạn mu
 Document pdfDocument = new Document(dataDir + "PDFToDOC.pdf");
 ```
 
- Dòng này tạo ra một cái mới`Document` đối tượng đại diện cho tệp PDF của bạn.
+Dòng này tạo ra một cái mới `Document` đối tượng đại diện cho tệp PDF của bạn.
 
 ## Bước 5: Lưu tệp vào Định dạng MS Document
 
@@ -76,7 +78,7 @@ Dòng mã này sẽ lấy tài liệu PDF đã tải của bạn và lưu nó d�
 
 ## Bước 6: Chạy ứng dụng của bạn
 
-Bạn gần xong rồi! Bây giờ, hãy chạy ứng dụng của bạn. Nếu mọi thứ được thiết lập đúng, bạn sẽ thấy một tệp mới có tên`PDFToDOC_out.doc` trong thư mục bạn chỉ định. Mở nó ra và voilà! PDF của bạn đã được chuyển đổi thành tài liệu Word thành công.
+Bạn gần xong rồi! Bây giờ, hãy chạy ứng dụng của bạn. Nếu mọi thứ được thiết lập đúng, bạn sẽ thấy một tệp mới có tên `PDFToDOC_out.doc` trong thư mục bạn chỉ định. Mở nó ra và voilà! PDF của bạn đã được chuyển đổi thành tài liệu Word thành công.
 
 ## Phần kết luận
 
@@ -88,19 +90,21 @@ Và bạn đã có nó rồi! Bạn vừa học cách chuyển đổi tệp PDF 
 Aspose.PDF là một thư viện mạnh mẽ để làm việc với các tài liệu PDF trong các ứng dụng .NET, cho phép tạo, chỉnh sửa và chuyển đổi các tệp PDF.
 
 ### Aspose.PDF có miễn phí sử dụng không?
- Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Hãy xem[mua liên kết](https://purchase.aspose.com/buy).
+Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Hãy xem [mua liên kết](https://purchase.aspose.com/buy).
 
 ### Tôi có thể chuyển đổi các định dạng khác sang PDF bằng Aspose.PDF không?
 Có! Aspose.PDF hỗ trợ nhiều định dạng chuyển đổi, bao gồm hình ảnh và HTML.
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.PDF?
- Bạn có thể yêu cầu giấy phép tạm thời thông qua[liên kết giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời thông qua [liên kết giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

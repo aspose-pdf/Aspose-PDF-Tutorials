@@ -1,46 +1,51 @@
 ---
-title: Thêm bảng vào một PDF hiện có bằng cách sử dụng Aspose.PDF cho .NET
-weight: 7700
-limit: 
-description: Tìm hiểu cách thêm một bảng vào một PDF hiện có bằng cách sử dụng Aspose.PDF cho .NET. Hướng dẫn từng bước với ví dụ mã, hướng dẫn cài đặt và liên kết hữu ích. 
-keywords: [Aspose.PDF for .NET, add table to PDF, create table in PDF, modify PDF, .NET PDF library, edit PDF document, insert table, C# PDF manipulation]
-url: /vi/net/tables/add-table/
+"description": "Tìm hiểu cách thêm bảng vào PDF hiện có bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với ví dụ về mã, hướng dẫn cài đặt và các liên kết hữu ích."
+"title": "Thêm bảng vào PDF hiện có bằng cách sử dụng Aspose.PDF cho .NET"
+"url": "/vi/net/tables/add-table/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm bảng vào một PDF hiện có bằng cách sử dụng Aspose.PDF
+# Thêm bảng vào PDF hiện có bằng Aspose.PDF
 
-Thêm một bảng vào tài liệu PDF hiện có là một yêu cầu phổ biến để tạo báo cáo, hóa đơn hoặc trình bày dữ liệu có cấu trúc.
+Thêm bảng vào tài liệu PDF hiện có là yêu cầu chung để tạo báo cáo, hóa đơn hoặc trình bày dữ liệu có cấu trúc. Với Aspose.PDF for .NET, bạn có thể dễ dàng tạo và chèn bảng vào tài liệu PDF trong khi tùy chỉnh giao diện và cấu trúc của nó.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/add-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Thiết bị  
+## Cài đặt  
 
 Để sử dụng Aspose.PDF cho .NET, hãy làm theo các bước sau:  
 
 1. Tải xuống và cài đặt Aspose.PDF cho .NET  
-   * Tải xuống từ[Aspose.PDF cho .NET Downloads](https://releases.aspose.com/pdf/net/)  
-   * Cài đặt qua NuGet:  
+   - Tải xuống từ [Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/)  
+   - Cài đặt qua NuGet:  
      ```sh
      Install-Package Aspose.PDF
      ```  
 
-2. Ứng dụng giấy phép (Tự chọn)  
-   * Mua:[Aspose.PDF mua](https://purchase.aspose.com/buy)  
-   * Phiên bản miễn phí:[Aspose.PDF Phiên bản miễn phí](https://releases.aspose.com/)  
-   * Giấy phép tạm thời:[Aspose.PDF Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)  
+2. Áp dụng Giấy phép (Tùy chọn)  
+   - Mua: [Aspose.PDF Mua](https://purchase.aspose.com/buy)  
+   - Dùng thử miễn phí: [Dùng thử miễn phí Aspose.PDF](https://releases.aspose.com/)  
+   - Giấy phép tạm thời: [Giấy phép tạm thời Aspose.PDF](https://purchase.aspose.com/temporary-license/)  
 
-3. Đọc tài liệu  
-   * [Aspose.PDF cho tài liệu .NET](https://docs.aspose.com/pdf/net/)  
-   * [Aspose.PDF API tham chiếu](https://reference.aspose.com/pdf/net/)  
+3. Tham khảo Tài liệu  
+   - [Aspose.PDF cho Tài liệu .NET](https://docs.aspose.com/pdf/net/)  
+   - [Tài liệu tham khảo API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
  
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

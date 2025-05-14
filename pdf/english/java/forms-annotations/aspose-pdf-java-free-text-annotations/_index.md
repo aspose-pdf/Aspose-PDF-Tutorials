@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Free Text Annotations to PDFs Using Aspose.PDF for Java
 
@@ -205,7 +207,11 @@ Try implementing these techniques in your projects to streamline document manage
 
 **Q4**: How do I handle large PDF files efficiently?
 **A4**: Optimize memory usage by processing documents in chunks and releasing resources promptly.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Margin atau Padding
-linktitle: Margin atau Padding
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengelola margin dan padding di Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini untuk membuat PDF yang sempurna.
-weight: 140
-url: /id/net/programming-with-tables/margins-or-padding/
+"description": "Pelajari cara mengelola margin dan padding di Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini untuk membuat PDF yang sempurna."
+"linktitle": "Margin atau Padding"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Margin atau Padding"
+"url": "/id/net/programming-with-tables/margins-or-padding/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Margin atau Padding
@@ -21,10 +23,10 @@ Pernahkah Anda bertanya-tanya mengapa beberapa PDF terlihat lebih bagus daripada
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Pustaka Aspose.PDF untuk .NET: Anda dapat mengunduh pustaka dari[Di Sini](https://releases.aspose.com/pdf/net/).
+- Pustaka Aspose.PDF untuk .NET: Anda dapat mengunduh pustaka dari [Di Sini](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Lingkungan pengembangan terintegrasi untuk menulis kode C# Anda. 
 - Pengetahuan Dasar Pemrograman C#: Sedikit pengetahuan tentang coding akan membantu Anda memahami konsep dengan lebih baik.
--  Akun Aspose: Jika Anda ingin membeli lisensi atau memerlukan dukungan, lihat[Halaman Pembelian Aspose](https://purchase.aspose.com/buy) atau kunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+- Akun Aspose: Jika Anda ingin membeli lisensi atau memerlukan dukungan, lihat [Halaman Pembelian Aspose](https://purchase.aspose.com/buy) atau kunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
 
 ## Paket Impor
 
@@ -59,7 +61,7 @@ Membuat instance objek Dokumen
 Document doc = new Document();
 ```
 
- Pada langkah ini, kita membuat instance baru dari`Document` kelas dari pustaka Aspose.PDF. Objek ini mewakili berkas PDF Anda dan merupakan titik awal untuk menambahkan konten.
+Pada langkah ini, kita membuat instance baru dari `Document` kelas dari pustaka Aspose.PDF. Objek ini mewakili berkas PDF Anda dan merupakan titik awal untuk menambahkan konten.
 
 ## Langkah 3: Tambahkan Halaman Baru
 
@@ -195,19 +197,21 @@ Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda dapat mengendalikan mar
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang .NET untuk membuat, mengedit, dan memanipulasi dokumen PDF secara terprogram.
 
 ### Dapatkah saya mencoba Aspose.PDF secara gratis?
- Ya! Anda dapat mengunduh dan menggunakan uji coba gratis Aspose.PDF dari[Di Sini](https://releases.aspose.com/).
+Ya! Anda dapat mengunduh dan menggunakan uji coba gratis Aspose.PDF dari [Di Sini](https://releases.aspose.com/).
 
 ### Apakah saya memerlukan lisensi untuk Aspose.PDF?
- Ya, jika Anda ingin menggunakannya untuk tujuan komersial, Anda perlu membeli lisensi, yang dapat Anda temukan[Di Sini](https://purchase.aspose.com/buy).
+Ya, jika Anda ingin menggunakannya untuk tujuan komersial, Anda perlu membeli lisensi, yang dapat Anda temukan [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Komunitas Aspose menawarkan dukungan terperinci melalui[forum dukungan](https://forum.aspose.com/c/pdf/10).
+Komunitas Aspose menawarkan dukungan terperinci melalui [forum dukungan](https://forum.aspose.com/c/pdf/10).
 
 ### Apakah ada cara untuk mendapatkan lisensi sementara?
- Tentu saja! Untuk keperluan pengujian, Anda dapat mengajukan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/). 
+Tentu saja! Untuk tujuan pengujian, Anda dapat mengajukan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/). 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

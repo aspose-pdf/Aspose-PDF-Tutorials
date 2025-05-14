@@ -1,14 +1,16 @@
 ---
-title: การแปลงและการแปลง PDF
-linktitle: การแปลงและการแปลง PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: ปลดล็อกพลังของการแปลงและแปลง PDF ด้วย Aspose.PDF สำหรับ Java - บทช่วยสอนที่ครอบคลุมสำหรับนักพัฒนา พัฒนาทักษะการประมวลผล PDF ของคุณวันนี้!
-weight: 13
-url: /th/java/pdf-conversion-transformation/
+"description": "ปลดล็อกพลังของการแปลงและแปลง PDF ด้วย Aspose.PDF สำหรับ Java - บทช่วยสอนที่ครอบคลุมสำหรับนักพัฒนา พัฒนาทักษะการประมวลผล PDF ของคุณวันนี้!"
+"linktitle": "การแปลงและการแปลง PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "การแปลงและการแปลง PDF"
+"url": "/th/java/pdf-conversion-transformation/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแปลงและการแปลง PDF
@@ -53,7 +55,7 @@ Aspose.PDF for Java เป็นไลบรารีที่มีความ
 เรียนรู้วิธีแปลงไฟล์ PDF เป็นสเปรดชีต XLSX ด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการดึงข้อมูลและวิเคราะห์อย่างมีประสิทธิภาพ
 ### [แปลงไฟล์ PDF เป็นรูปแบบ XML](./convert-pdfs-to-xml-format/)
 เรียนรู้วิธีแปลงไฟล์ PDF เป็น XML ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนและแนวทางปฏิบัติที่ดีที่สุดสำหรับการแปลงอย่างมีประสิทธิภาพ
-### [เปลี่ยน PostScript ให้เป็นไฟล์ PDF](./turn-postscript-into-pdf-files/)
+### [เปลี่ยน PostScript เป็นไฟล์ PDF](./turn-postscript-into-pdf-files/)
 เรียนรู้วิธีการแปลงไฟล์ PostScript เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงรูปแบบไฟล์ที่ราบรื่น
 ### [แปลง SVG เป็นรูปแบบ PDF](./convert-svg-to-pdf-format/)
 เรียนรู้วิธีการแปลง SVG เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java ในคู่มือทีละขั้นตอนนี้ สร้างเอกสาร PDF คุณภาพสูงจากไฟล์ SVG ของคุณได้อย่างง่ายดาย
@@ -73,9 +75,11 @@ Aspose.PDF for Java เป็นไลบรารีที่มีความ
 เรียนรู้วิธีเพิ่มเลเยอร์ในไฟล์ PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนนี้ประกอบด้วยโค้ดต้นฉบับและครอบคลุมการจัดการ PDF อย่างง่ายดาย
 ### [เพิ่มสารบัญลงใน PDF ที่มีอยู่แล้วใน Java](./add-table-of-contents-to-existing-pdf-in-java/)
 เรียนรู้วิธีเพิ่มสารบัญใน PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java ปรับปรุงการนำทางเอกสารด้วยคู่มือทีละขั้นตอนนี้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

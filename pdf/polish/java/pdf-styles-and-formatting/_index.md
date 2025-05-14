@@ -1,14 +1,16 @@
 ---
-title: Style i formatowanie PDF
-linktitle: Style i formatowanie PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Poznaj style i formatowanie PDF w Javie z Aspose.PDF dla Javy. Opanuj estetykę i układ PDF, aby uzyskać oszałamiające dokumenty.
-weight: 22
-url: /pl/java/pdf-styles-and-formatting/
+"description": "Poznaj style i formatowanie PDF w Javie z Aspose.PDF dla Javy. Opanuj estetykę i układ PDF, aby uzyskać oszałamiające dokumenty."
+"linktitle": "Style i formatowanie PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Style i formatowanie PDF"
+"url": "/pl/java/pdf-styles-and-formatting/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Style i formatowanie PDF
@@ -43,9 +45,11 @@ Naucz się stylizować tabele w dokumentach PDF za pomocą Java z Aspose.PDF. Tw
 Dowiedz się, jak stylizować wiersze tabeli PDF w Javie za pomocą Aspose.PDF dla Javy. Dostosuj kolory, dodaj obramowania i wiele więcej w tym kompleksowym przewodniku.
 ### [Styl struktury tekstu w PDF przy użyciu Java](./style-text-structure-in-pdf-using-java/)
 Dowiedz się, jak stylizować struktury tekstowe w plikach PDF za pomocą Javy, korzystając z naszego przewodnika krok po kroku. Dostosuj czcionki, kolory, hiperłącza i inne elementy, aby uzyskać profesjonalnie wyglądające dokumenty.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

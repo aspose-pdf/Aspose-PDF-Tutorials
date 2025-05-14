@@ -1,14 +1,16 @@
 ---
-title: Добавить таблицу в существующий PDF-документ с помощью Java
-linktitle: Добавить таблицу в существующий PDF-документ с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как добавлять таблицы в существующие PDF-документы с помощью Java и Aspose.PDF для Java. Пошаговое руководство с примерами кода.
-weight: 10
-url: /ru/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
+"description": "Узнайте, как добавлять таблицы в существующие PDF-документы с помощью Java и Aspose.PDF для Java. Пошаговое руководство с примерами кода."
+"linktitle": "Добавить таблицу в существующий PDF-документ с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Добавить таблицу в существующий PDF-документ с помощью Java"
+"url": "/ru/java/pdf-tables/add-table-in-existing-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить таблицу в существующий PDF-документ с помощью Java
@@ -24,16 +26,16 @@ url: /ru/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
 
 - Установлен комплект разработки Java (JDK).
 - Интегрированная среда разработки (IDE), например IntelliJ IDEA или Eclipse.
--  Библиотека Aspose.PDF для Java, которую можно загрузить с сайта[здесь](https://releases.aspose.com/pdf/java/).
+- Библиотека Aspose.PDF для Java, которую можно загрузить с сайта [здесь](https://releases.aspose.com/pdf/java/).
 
-## Настройка окружающей среды
+## Создание среды
 
 1. Откройте предпочитаемую вами среду IDE и создайте новый проект Java.
 2. Добавьте в свой проект библиотеку Aspose.PDF для Java.
 
 ## Добавление зависимостей
 
- В вашем проекте`pom.xml` (если вы используете Maven) или файл build.gradle (если вы используете Gradle), добавьте следующую зависимость:
+В вашем проекте `pom.xml` (если вы используете Maven) или файл build.gradle (если вы используете Gradle), добавьте следующую зависимость:
 
 ```xml
 <dependencies>
@@ -45,7 +47,7 @@ url: /ru/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
 </dependencies>
 ```
 
- Заменять`latest_version` с актуальной версией библиотеки Aspose.PDF, которую вы скачали.
+Заменять `latest_version` с актуальной версией библиотеки Aspose.PDF, которую вы скачали.
 
 ## Создание таблицы
 
@@ -125,7 +127,7 @@ pdfDocument.save("modified-document.pdf");
 
 ### Как установить Aspose.PDF для Java?
 
- Вы можете загрузить Aspose.PDF для Java с сайта[здесь](https://releases.aspose.com/pdf/java/). Следуйте инструкциям по установке, представленным на их веб-сайте.
+Вы можете загрузить Aspose.PDF для Java с сайта [здесь](https://releases.aspose.com/pdf/java/). Следуйте инструкциям по установке, представленным на их веб-сайте.
 
 ### Можно ли добавлять изображения в ячейки таблицы?
 
@@ -137,14 +139,16 @@ pdfDocument.save("modified-document.pdf");
 
 ### Как установить пользовательские границы для ячеек таблицы?
 
- Вы можете настроить границы ячеек, отрегулировав`BorderInfo` Свойства. Подробные примеры см. в документации Aspose.PDF.
+Вы можете настроить границы ячеек, отрегулировав `BorderInfo` Свойства. Подробные примеры см. в документации Aspose.PDF.
 
 ### Можно ли извлечь данные из существующих таблиц в PDF-документе?
 
 Да, вы можете извлекать данные из существующих таблиц в документе PDF с помощью Aspose.PDF for Java. Обратитесь к документации за методами извлечения и примерами.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Metne İpucu Ekle
-linktitle: PDF Dosyasındaki Metne İpucu Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyalarındaki metne araç ipuçlarının nasıl ekleneceğini öğrenin. PDF'lerinizi bilgilendirici gezinme metinleriyle zahmetsizce geliştirin.
-weight: 90
-url: /tr/net/programming-with-text/add-tooltip-to-text/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyalarındaki metne araç ipuçlarının nasıl ekleneceğini öğrenin. PDF'lerinizi bilgilendirici gezinme metinleriyle zahmetsizce geliştirin."
+"linktitle": "PDF Dosyasındaki Metne İpucu Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Metne İpucu Ekle"
+"url": "/tr/net/programming-with-text/add-tooltip-to-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Metne İpucu Ekle
@@ -25,10 +27,10 @@ Kodlama kısmına geçmeden önce, süreci sorunsuz bir şekilde takip edebilmen
 Bilgisayarınızda Visual Studio'nun yüklü olması önemlidir, çünkü bu, .NET uygulamalarınız için birincil geliştirme ortamınız olacaktır.
 
 ### .NET Kütüphanesi için Aspose.PDF
- Ayrıca Aspose.PDF kütüphanesinin de elinizin altında olması gerekir.[buradan indirin](https://releases.aspose.com/pdf/net/)Proje referanslarınıza eklemeyi unutmayın.
+Ayrıca Aspose.PDF kütüphanesinin de elinizin altında olması gerekir. [buradan indirin](https://releases.aspose.com/pdf/net/)Proje referanslarınıza eklemeyi unutmayın.
 
 ### C# Temel Bilgisi
-C# dilinde bir geçmişe sahip olmak çok yardımcı olacaktır çünkü bu dilde kodlama yapacağız. Ama endişelenmeyin—her adımda size rehberlik edeceğim!
+C# konusunda bir geçmişe sahip olmak çok yardımcı olacaktır çünkü bu dilde kodlama yapacağız. Ama endişelenmeyin—her adımda size rehberlik edeceğim!
 
 ### Çalışmak İçin Bir PDF Belgesi
 Bu örnekte yaptığımız gibi boş bir PDF belgesiyle başlayabilir veya dilerseniz mevcut bir belgeyi kullanabilirsiniz.
@@ -37,7 +39,7 @@ Bu örnekte yaptığımız gibi boş bir PDF belgesiyle başlayabilir veya diler
 
 ## Paketleri İçe Aktar 
 
- Kodlama serüvenimizin ilk adımı gerekli paketleri içe aktarmaktır. Visual Studio projenizi açın ve C# dosyanızın en üstüne şunları eklemek isteyeceksiniz:`using` yönergeler:
+Kodlama serüvenimizin ilk adımı gerekli paketleri içe aktarmaktır. Visual Studio projenizi açın ve C# dosyanızın en üstüne şunları eklemek isteyeceksiniz: `using` yönergeler:
 
 ```csharp
 using Aspose.Pdf.Forms;
@@ -56,21 +58,21 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outputFile = dataDir + "Tooltip_out.pdf";
 ```
 
- Değiştirdiğinizden emin olun`YOUR DOCUMENT DIRECTORY` makinenizdeki gerçek yol ile.
+Değiştirdiğinizden emin olun `YOUR DOCUMENT DIRECTORY` makinenizdeki gerçek yol ile.
 
 ## Adım 2: Örnek bir PDF Belgesi Oluşturun
 
 Sırada, biraz metin içeren basit bir PDF oluşturma zamanı var. Yaratıcı sürecimizi burada başlatıyoruz!
 
 ```csharp
-//Metin içeren örnek belge oluşturun
+// Metin içeren örnek belge oluşturun
 Document doc = new Document();
 doc.Pages.Add().Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a tooltip"));
 doc.Pages[1].Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a very long tooltip"));
 doc.Save(outputFile);
 ```
 
-Bu adımda bir belge oluşturuyoruz, iki metin parçası ekliyoruz ve bunu daha önce belirlediğimiz yola kaydediyoruz.
+Bu adımda bir belge oluşturuyoruz, iki metin parçası ekliyoruz ve bunu daha önce belirttiğimiz yola kaydediyoruz.
 
 ## Adım 3: İşleme Alınmak Üzere Belgeyi Açın
 
@@ -104,7 +106,7 @@ TextFragmentCollection textFragments = absorber.TextFragments;
 
 Bu kesit, ilgilendiğimiz metin parçalarına ait referansları elimizde tutmamızı sağlar.
 
-## Adım 6: Parçalar Arasında Döngü Oluşturun ve Araç İpuçları Ekleyin
+## Adım 6: Parçalar Arasında Döngü Yapın ve Araç İpuçları Ekleyin
 
 Şimdi eğlenceli kısma geliyoruz! Her bir metin parçasının etrafında dolaşacağız ve her birine bir ipucu ekleyeceğiz. Belirli öğelerin (metin parçaları) etrafına küçük hediyeler (ipuçları) sardığınızı düşünün.
 
@@ -148,7 +150,7 @@ foreach (TextFragment fragment in textFragments)
 }
 ```
 
-Burada, daha önce yaptığımızın aynısını, çok daha geniş bir ipucuyla yapıyoruz.
+Burada, daha öncekiyle aynı işi yapıyoruz, ancak çok daha geniş bir ipucuyla.
 
 ## Adım 8: Belgenizi Kaydedin
 
@@ -170,22 +172,24 @@ Okuyucu, bir kelime veya ifadenin üzerine gelerek, karmaşa yaratmadan değer k
 ## SSS
 
 ### Aspose.PDF for .NET nedir?
-Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan bir kütüphanedir.
+Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmasını, düzenlemesini ve dönüştürmesini sağlayan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose özelliklerini keşfetmeniz için ücretsiz deneme sürümü sunuyor! Bunu bulabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose özelliklerini keşfetmeniz için ücretsiz deneme sürümü sunuyor! Bunu bulabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için herhangi bir lisanslama seçeneği mevcut mu?
-Evet, bir lisans satın alabilir veya geçici bir lisans edinebilirsiniz. Seçenekleri inceleyin[Burada](https://purchase.aspose.com/).
+Evet, bir lisans satın alabilir veya geçici bir lisans edinebilirsiniz. Seçenekleri inceleyin [Burada](https://purchase.aspose.com/).
 
 ### Aspose.PDF'i kullanarak araç ipuçları dışında etkileşimli öğeler ekleyebilir miyim?
 Kesinlikle! Aspose.PDF, köprü metinleri, düğmeler ve formlar gibi çeşitli etkileşimli öğelerin eklenmesine olanak tanır.
 
 ### Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?
- Belgeleri kontrol edebilirsiniz[Burada](https://reference.aspose.com/pdf/net/) Daha detaylı rehberlik için.
+Belgeleri kontrol edebilirsiniz [Burada](https://reference.aspose.com/pdf/net/) Daha detaylı rehberlik için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

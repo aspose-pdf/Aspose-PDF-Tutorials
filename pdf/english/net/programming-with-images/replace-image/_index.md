@@ -8,7 +8,9 @@ url: /net/programming-with-images/replace-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replace Image In PDF File
@@ -148,6 +150,7 @@ Aspose.PDF is primarily for .NET, but there are versions available for other pro
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

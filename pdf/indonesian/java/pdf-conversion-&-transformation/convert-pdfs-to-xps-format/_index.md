@@ -1,14 +1,16 @@
 ---
-title: Konversi PDF ke Format XPS
-linktitle: Konversi PDF ke Format XPS
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Konversi PDF ke Format XPS dengan Mudah dengan Aspose.PDF untuk Java. Dapatkan Pencetakan, Keamanan, dan Kompatibilitas yang Lebih Baik.
-weight: 13
-url: /id/java/pdf-conversion-transformation/convert-pdfs-to-xps-format/
+"description": "Konversi PDF ke Format XPS dengan Mudah dengan Aspose.PDF untuk Java. Dapatkan Pencetakan, Keamanan, dan Kompatibilitas yang Lebih Baik."
+"linktitle": "Konversi PDF ke Format XPS"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Konversi PDF ke Format XPS"
+"url": "/id/java/pdf-conversion-transformation/convert-pdfs-to-xps-format/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi PDF ke Format XPS
@@ -51,7 +53,7 @@ Langkah pertama adalah memuat dokumen PDF yang ingin Anda konversi. Berikut cupl
 Document pdfDocument = new Document("input.pdf");
 ```
 
- Mengganti`"input.pdf"` dengan jalur ke berkas PDF Anda.
+Mengganti `"input.pdf"` dengan jalur ke berkas PDF Anda.
 
 ## Mengonversi PDF ke XPS
 
@@ -110,9 +112,11 @@ Ya, Anda dapat menyesuaikan hasil konversi XPS untuk mengontrol aspek-aspek sepe
 ### Apakah ada batasan pada konversi PDF ke XPS?
 
 Batasan dapat bervariasi berdasarkan lisensi dan kompleksitas dokumen PDF. Periksa dokumentasi dan detail lisensi untuk informasi spesifik tentang batasan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

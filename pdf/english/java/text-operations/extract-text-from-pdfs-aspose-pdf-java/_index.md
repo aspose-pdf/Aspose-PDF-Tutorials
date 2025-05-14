@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Extract Text from PDFs Using Aspose.PDF for Java: A Developer’s Guide
 
@@ -163,7 +165,11 @@ A5. Yes, libraries like Apache PDFBox and iText are popular alternatives but may
 - **Download**: [Aspose.PDF Releases](https://releases.aspose.com/pdf/)
 - **License**: [Acquire License](https://purchase.aspose.com/buy)
 - **Community Forum**: [Join the Discussion](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

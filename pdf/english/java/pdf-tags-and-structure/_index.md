@@ -8,7 +8,9 @@ url: /java/pdf-tags-and-structure/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Tags and Structure
@@ -40,9 +42,11 @@ Discover how to create and customize tables in PDF documents using Java and Aspo
 Learn how to set custom tag names for PDF documents using Java with Aspose.PDF for Java.
 ### [Illustration Structure Elements in PDF using Java](./illustration-structure-elements-in-pdf-using-java/)
 Learn how to create illustrations and structure elements in PDF files using Java with Aspose.PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

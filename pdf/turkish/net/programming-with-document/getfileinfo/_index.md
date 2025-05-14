@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Dosya Bilgilerini Alın
-linktitle: PDF Dosyasında Dosya Bilgilerini Alın
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET'in PDF dosyasında GetFileInfo özelliğinin bir PDF belgesi hakkında meta veri bilgilerini almak için nasıl kullanılacağını öğrenin.
-weight: 180
-url: /tr/net/programming-with-document/getfileinfo/
+"description": "Aspose.PDF for .NET'in PDF dosyasında GetFileInfo özelliğinin bir PDF belgesi hakkında meta veri bilgilerini almak için nasıl kullanılacağını öğrenin."
+"linktitle": "PDF Dosyasında Dosya Bilgilerini Alın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Dosya Bilgilerini Alın"
+"url": "/tr/net/programming-with-document/getfileinfo/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Dosya Bilgilerini Alın
@@ -22,7 +24,7 @@ Bir PDF dosyasında hangi sırların saklı olduğunu hiç merak ettiniz mi? Yaz
 Koda geçmeden önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu bizim geliştirme ortamımız olacak.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekir. Bunu şuradan alabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekir. Bunu şuradan alabilirsiniz: [indirme bağlantısı](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -43,7 +45,7 @@ Kütüphaneyi kurduktan sonra kodunuzu yazmaya başlayabilirsiniz.
 
 1. Visual Studio'yu açın ve "Yeni proje oluştur" seçeneğini seçin.
 2. "Konsol Uygulaması (.NET Framework)" seçeneğini seçin ve "İleri"ye tıklayın.
-3.  Projenize bir isim verin (örneğin,`PDFFileInfoExtractor`) ve "Oluştur"a tıklayın.
+3. Projenize bir isim verin (örneğin, `PDFFileInfoExtractor`) ve "Oluştur"a tıklayın.
 
 ### Aspose.PDF Referansını ekleyin
 
@@ -57,7 +59,7 @@ Artık projeniz kurulduğuna göre Aspose.PDF referansını eklemeniz gerekiyor:
 
 ### Belgeyi Başlat
 
- Şimdi, bir PDF belgesini açmak ve bilgilerini çıkarmak için kodu yazalım. Aşağıdaki using yönergesini en üste ekleyerek başlayın`Program.cs` dosya:
+Şimdi, bir PDF belgesini açmak ve bilgilerini çıkarmak için kodu yazalım. Aşağıdaki using yönergesini en üste ekleyerek başlayın `Program.cs` dosya:
 
 ```csharp
 using System.IO;
@@ -105,22 +107,24 @@ Tebrikler! Aspose.PDF for .NET kullanarak bir PDF'den dosya bilgilerini başarı
 ## SSS
 
 ### Aspose.PDF for .NET nedir?
-Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
+Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi nasıl yüklerim?
- Aspose.PDF'yi Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyebilir veya şu adresten indirebilirsiniz:[indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+Aspose.PDF'yi Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyebilir veya şu adresten indirebilirsiniz: [indirme bağlantısı](https://releases.aspose.com/pdf/net/).
 
 ### Aspose.PDF kullanarak PDF'den resim çıkarabilir miyim?
 Evet, Aspose.PDF PDF belgelerinden resim çıkarmak için yöntemler sunar.
 
 ### Aspose.PDF için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme alabilirsiniz[Aspose web sitesi](https://releases.aspose.com/).
+Evet, ücretsiz deneme alabilirsiniz [Aspose web sitesi](https://releases.aspose.com/).
 
 ### Aspose.PDF için desteği nerede bulabilirim?
- Destek bulabilir ve soru sorabilirsiniz.[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek bulabilir ve soru sorabilirsiniz. [Aspose forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

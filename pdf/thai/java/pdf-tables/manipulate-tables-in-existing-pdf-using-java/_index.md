@@ -1,14 +1,16 @@
 ---
-title: จัดการตารางใน PDF ที่มีอยู่โดยใช้ Java
-linktitle: จัดการตารางใน PDF ที่มีอยู่โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการจัดการตาราง PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการแยกตาราง การปรับเปลี่ยน และอื่นๆ เพื่อการจัดการ PDF ที่มีประสิทธิภาพ
-weight: 13
-url: /th/java/pdf-tables/manipulate-tables-in-existing-pdf-using-java/
+"description": "เรียนรู้วิธีการจัดการตาราง PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการแยกตาราง การปรับเปลี่ยน และอื่นๆ เพื่อการจัดการ PDF ที่มีประสิทธิภาพ"
+"linktitle": "จัดการตารางใน PDF ที่มีอยู่โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "จัดการตารางใน PDF ที่มีอยู่โดยใช้ Java"
+"url": "/th/java/pdf-tables/manipulate-tables-in-existing-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # จัดการตารางใน PDF ที่มีอยู่โดยใช้ Java
@@ -24,18 +26,18 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีที่ม
 
 ## การตั้งค่าสภาพแวดล้อมการพัฒนา
 
- ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบให้แน่ใจก่อนว่าสภาพแวดล้อมการพัฒนาของเราได้รับการตั้งค่าอย่างถูกต้อง คุณจะต้องติดตั้ง Java ในระบบของคุณ และคุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จากเว็บไซต์[ที่นี่](https://releases.aspose.com/pdf/java/)เมื่อคุณดาวน์โหลดและเพิ่มไลบรารีลงในโครงการของคุณแล้ว คุณก็พร้อมที่จะเริ่มต้นได้
+ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบให้แน่ใจก่อนว่าสภาพแวดล้อมการพัฒนาของเราได้รับการตั้งค่าอย่างถูกต้อง คุณจะต้องติดตั้ง Java ในระบบของคุณ และคุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ [ที่นี่](https://releases.aspose.com/pdf/java/)เมื่อคุณดาวน์โหลดและเพิ่มไลบรารีลงในโครงการของคุณแล้ว คุณก็พร้อมที่จะเริ่มต้นได้
 
 ## การโหลด PDF ที่มีอยู่
 
-หากต้องการจัดการตารางใน PDF ที่มีอยู่ เราต้องโหลดไฟล์ PDF ลงในแอปพลิเคชัน Java ก่อน โดยคุณสามารถทำได้ดังนี้:
+หากต้องการจัดการตารางใน PDF ที่มีอยู่ เราต้องโหลดไฟล์ PDF ลงในแอปพลิเคชัน Java ก่อน โดยทำได้ดังนี้:
 
 ```java
 // โหลดเอกสาร PDF ที่มีอยู่
 Document pdfDocument = new Document("existing_document.pdf");
 ```
 
- แทนที่`"existing_document.pdf"` ด้วยเส้นทางไปยังไฟล์ PDF ของคุณ ตอนนี้เรามีเอกสาร PDF ที่พร้อมสำหรับการจัดการแล้ว
+แทนที่ `"existing_document.pdf"` ด้วยเส้นทางไปยังไฟล์ PDF ของคุณ ตอนนี้เรามีเอกสาร PDF ที่พร้อมสำหรับการจัดการแล้ว
 
 ## การเข้าถึงและการจัดการตาราง
 
@@ -53,7 +55,7 @@ absorber.visit(pdfPage);
 TableCollection tables = absorber.getTableList();
 ```
 
- ตอนนี้`tables` คอลเลกชันนี้ประกอบด้วยตารางทั้งหมดที่พบในหน้าแรกของ PDF
+ตอนนี้ `tables` คอลเลกชันนี้ประกอบด้วยตารางทั้งหมดที่พบในหน้าแรกของ PDF
 
 ### การแก้ไขข้อมูลตาราง
 
@@ -63,7 +65,7 @@ TableCollection tables = absorber.getTableList();
 // เข้าถึงตารางเฉพาะ
 Table table = tables.get_Item(0); // แทนที่ด้วยดัชนีของตารางที่คุณต้องการ
 
-//เข้าถึงเซลล์เฉพาะในตาราง
+// เข้าถึงเซลล์เฉพาะในตาราง
 Cell cell = table.getRows().get_Item(0).getCells().get_Item(0); // แทนที่ด้วยดัชนีแถวและคอลัมน์
 
 // อัพเดทข้อความของเซลล์
@@ -111,7 +113,7 @@ pdfPage.getParagraphs().remove(table);
 pdfDocument.save("modified_document.pdf");
 ```
 
- แทนที่`"modified_document.pdf"` ด้วยเส้นทางไฟล์เอาท์พุตตามที่ต้องการ
+แทนที่ `"modified_document.pdf"` ด้วยเส้นทางไฟล์เอาท์พุตตามที่ต้องการ
 
 ## บทสรุป
 
@@ -121,7 +123,7 @@ pdfDocument.save("modified_document.pdf");
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- หากต้องการติดตั้ง Aspose.PDF สำหรับ Java คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์[ที่นี่](https://releases.aspose.com/pdf/java/)ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้บนเว็บไซต์เพื่อรวมเข้ากับโปรเจ็กต์ Java ของคุณ
+หากต้องการติดตั้ง Aspose.PDF สำหรับ Java คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์ [ที่นี่](https://releases.aspose.com/pdf/java/)ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้บนเว็บไซต์เพื่อรวมเข้ากับโปรเจ็กต์ Java ของคุณ
 
 ### ฉันสามารถดึงข้อมูลจากตารางใน PDF โดยใช้ Aspose.PDF สำหรับ Java ได้หรือไม่
 
@@ -138,9 +140,11 @@ pdfDocument.save("modified_document.pdf");
 ### Aspose.PDF สำหรับ Java รองรับการส่งออกตาราง PDF ไปยังรูปแบบอื่นหรือไม่
 
 ใช่ Aspose.PDF สำหรับ Java รองรับการส่งออกตาราง PDF เป็นรูปแบบอื่น เช่น Excel และ CSV คุณสามารถแปลงข้อมูลตารางเป็นรูปแบบเหล่านี้เพื่อการวิเคราะห์หรือประมวลผลเพิ่มเติมได้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

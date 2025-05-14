@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi vùng trang cụ thể thành hình ảnh trong PDF bằng Java
-linktitle: Chuyển đổi vùng trang cụ thể thành hình ảnh trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách chuyển đổi một vùng trang cụ thể thành hình ảnh trong PDF bằng Java với hướng dẫn từng bước. Khám phá khả năng mạnh mẽ của Aspose.PDF for Java để thao tác PDF.
-weight: 13
-url: /vi/java/pdf-image-manipulation/convert-particular-page-region-to-image-in-pdf-using-java/
+"description": "Tìm hiểu cách chuyển đổi một vùng trang cụ thể thành hình ảnh trong PDF bằng Java với hướng dẫn từng bước. Khám phá khả năng mạnh mẽ của Aspose.PDF for Java để thao tác PDF."
+"linktitle": "Chuyển đổi vùng trang cụ thể thành hình ảnh trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Chuyển đổi vùng trang cụ thể thành hình ảnh trong PDF bằng Java"
+"url": "/vi/java/pdf-image-manipulation/convert-particular-page-region-to-image-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi vùng trang cụ thể thành hình ảnh trong PDF bằng Java
@@ -24,7 +26,7 @@ Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp 
 
 - Môi trường phát triển Java: Bạn phải cài đặt Java trên hệ thống của mình.
 
-- Aspose.PDF cho Thư viện Java: Tải xuống và bao gồm thư viện Aspose.PDF cho Java trong dự án của bạn. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Thư viện Java: Tải xuống và bao gồm thư viện Aspose.PDF cho Java trong dự án của bạn. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Bước 1: Tải Tài liệu PDF
 
@@ -35,11 +37,11 @@ Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp 
 Document pdfDocument = new Document("sample.pdf");
 ```
 
- Thay thế`"sample.pdf"` với đường dẫn đến tệp PDF của bạn.
+Thay thế `"sample.pdf"` với đường dẫn đến tệp PDF của bạn.
 
 ## Bước 2: Xác định vùng trang
 
- Bây giờ, hãy xác định vùng trên trang mà chúng ta muốn chuyển đổi thành hình ảnh. Bạn có thể chỉ định tọa độ và kích thước của vùng bằng cách sử dụng`Rectangle` lớp. Ví dụ, để chụp một vùng bắt đầu từ tọa độ (50, 50) và có chiều rộng và chiều cao là 200 pixel, bạn có thể thực hiện như sau:
+Bây giờ, hãy xác định vùng trên trang mà chúng ta muốn chuyển đổi thành hình ảnh. Bạn có thể chỉ định tọa độ và kích thước của vùng bằng cách sử dụng `Rectangle` lớp. Ví dụ, để chụp một vùng bắt đầu từ tọa độ (50, 50) và có chiều rộng và chiều cao là 200 pixel, bạn có thể thực hiện như sau:
 
 ```java
 // Xác định vùng cần chụp
@@ -78,7 +80,7 @@ Trong hướng dẫn này, chúng ta đã học cách tận dụng Aspose.PDF ch
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
 ### Tôi có thể trích xuất vùng từ nhiều trang không?
 
@@ -95,9 +97,11 @@ Aspose.PDF for Java cung cấp nhiều tính năng, bao gồm tạo PDF, chỉnh
 ### Có yêu cầu cấp phép nào khi sử dụng Aspose.PDF cho Java không?
 
 Có, Aspose.PDF for Java là một thư viện thương mại và bạn sẽ cần giấy phép hợp lệ để sử dụng nó trong các ứng dụng sản xuất. Bạn có thể lấy giấy phép từ trang web Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

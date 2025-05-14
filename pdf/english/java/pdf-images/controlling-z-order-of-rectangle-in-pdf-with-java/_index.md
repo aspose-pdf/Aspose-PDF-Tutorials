@@ -8,7 +8,9 @@ url: /java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Controlling Z-Order of Rectangle in PDF with Java
@@ -113,6 +115,7 @@ You can explore detailed documentation and more code examples on the [Aspose.PDF
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

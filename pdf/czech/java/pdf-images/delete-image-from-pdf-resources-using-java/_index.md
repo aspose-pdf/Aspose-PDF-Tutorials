@@ -1,71 +1,73 @@
 ---
-title: Odstraňte obrázek ze zdrojů PDF pomocí Java
-linktitle: Odstraňte obrázek ze zdrojů PDF pomocí Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Přečtěte si, jak odstranit obrázky z dokumentů PDF pomocí Aspose.PDF for Java. Podrobný průvodce se zdrojovým kódem pro efektivní manipulaci s PDF.
-weight: 21
-url: /cs/java/pdf-images/delete-image-from-pdf-resources-using-java/
+"description": "Naučte se, jak odstranit obrázky z PDF dokumentů pomocí Aspose.PDF pro Javu. Podrobný návod se zdrojovým kódem pro efektivní manipulaci s PDF."
+"linktitle": "Smazání obrázku z PDF zdrojů pomocí Javy"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Smazání obrázku z PDF zdrojů pomocí Javy"
+"url": "/cs/java/pdf-images/delete-image-from-pdf-resources-using-java/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Odstraňte obrázek ze zdrojů PDF pomocí Java
+# Smazání obrázku z PDF zdrojů pomocí Javy
 
 
-V tomto podrobném průvodci vás provedeme procesem mazání obrázků z dokumentu PDF pomocí knihovny Aspose.PDF for Java. Aspose.PDF je výkonné Java API, které vám umožňuje programově manipulovat se soubory PDF. Ať už potřebujete přidat, upravit nebo odebrat obsah z PDF, Aspose.PDF poskytuje nástroje, které potřebujete.
+V tomto podrobném návodu vás provedeme procesem mazání obrázků z PDF dokumentu pomocí knihovny Aspose.PDF pro Javu. Aspose.PDF je výkonné Java API, které umožňuje programově manipulovat s PDF soubory. Ať už potřebujete přidat, upravit nebo odebrat obsah z PDF, Aspose.PDF vám poskytne nástroje, které potřebujete.
 
-## Co je Aspose.PDF pro Java?
+## Co je Aspose.PDF pro Javu?
 
-Aspose.PDF for Java je knihovna Java, která umožňuje vývojářům pracovat s dokumenty PDF v jejich aplikacích Java. Poskytuje širokou škálu funkcí pro vytváření, úpravy a manipulaci se soubory PDF. V této příručce se zaměříme na to, jak pomocí Aspose.PDF odstranit obrázky z dokumentu PDF.
+Aspose.PDF pro Javu je knihovna v Javě, která umožňuje vývojářům pracovat s PDF dokumenty v jejich Java aplikacích. Nabízí širokou škálu funkcí pro vytváření, úpravy a manipulaci s PDF soubory. V této příručce se zaměříme na to, jak pomocí Aspose.PDF odstranit obrázky z PDF dokumentu.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK) nainstalovaný ve vašem systému
+- Sada pro vývoj Java (JDK) nainstalovaná ve vašem systému
 - Integrované vývojové prostředí (IDE) pro Javu (např. Eclipse, IntelliJ IDEA)
--  Aspose.PDF pro knihovnu Java, kterou si můžete stáhnout[zde](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF pro knihovnu Java, kterou si můžete stáhnout z [zde](https://releases.aspose.com/pdf/java/)
 
 ## Nastavení vývojového prostředí
 
-Chcete-li začít, postupujte podle následujících kroků a nastavte vývojové prostředí:
+Chcete-li začít, nastavte si vývojové prostředí podle těchto kroků:
 
-1. Nainstalujte JDK, pokud jste tak ještě neučinili.
+1. Pokud jste tak ještě neučinili, nainstalujte si JDK.
 
-2. Nainstalujte preferované Java IDE.
+2. Nainstalujte si preferované vývojové prostředí Java.
 
-3. Stáhněte si knihovnu Aspose.PDF for Java z poskytnutého odkazu a přidejte ji do svého projektu.
+3. Stáhněte si knihovnu Aspose.PDF pro Javu z uvedeného odkazu a přidejte ji do svého projektu.
 
-## Vytvoření nového projektu Java
+## Vytvoření nového projektu v Javě
 
-Otevřete své Java IDE a vytvořte nový Java projekt. Můžete si to pojmenovat, jak chcete.
+Otevřete si Java IDE a vytvořte nový projekt v Javě. Můžete ho pojmenovat dle libosti.
 
-## Přidání Aspose.PDF do vašeho projektu
+## Přidání souboru Aspose.PDF do vašeho projektu
 
-Nyní přidejte knihovnu Aspose.PDF do vašeho projektu. Můžete to udělat takto:
+Nyní přidejme do vašeho projektu knihovnu Aspose.PDF. Zde je návod, jak to udělat:
 
 ```java
 // Přidejte do svého projektu knihovnu Aspose.PDF
 import com.aspose.pdf.*;
 ```
 
-## Načítání dokumentu PDF
+## Načítání PDF dokumentu
 
-Chcete-li odstranit obrázky z dokumentu PDF, musíte nejprve načíst soubor PDF. Můžete to udělat takto:
+Chcete-li odstranit obrázky z dokumentu PDF, musíte nejprve načíst soubor PDF. Zde je návod, jak to udělat:
 
 ```java
-// Načtěte dokument PDF
+// Načíst PDF dokument
 Document pdfDocument = new Document("path/to/your/pdf/file.pdf");
 ```
 
-## Odstranění obrázků z dokumentu PDF
+## Mazání obrázků z dokumentu PDF
 
-Nyní pokračujte v mazání obrázků z načteného dokumentu PDF. Na základě vašich požadavků můžete určit kritéria pro odstranění obrázku. Zde je základní příklad, jak odstranit všechny obrázky z PDF:
+Nyní pokračujme v mazání obrázků z načteného dokumentu PDF. Kritéria pro mazání obrázků můžete specifikovat podle svých požadavků. Zde je základní příklad, jak odstranit všechny obrázky z PDF:
 
 ```java
-// Odstraňte všechny obrázky z PDF
+// Smazat všechny obrázky z PDF
 for (Page page : pdfDocument.getPages()) {
     page.getResources().getImages().delete();
 }
@@ -73,31 +75,31 @@ for (Page page : pdfDocument.getPages()) {
 
 ## Uložení upraveného PDF
 
-Po smazání obrázků je třeba uložit upravený dokument PDF:
+Po odstranění obrázků je třeba uložit upravený dokument PDF:
 
 ```java
-// Uložte upravené PDF
+// Uložit upravený PDF
 pdfDocument.save("path/to/save/modified/pdf/file.pdf");
 ```
 
 ## Kompletní zdrojový kód
 
-Zde je úplný zdrojový kód pro mazání obrázků z PDF pomocí Aspose.PDF pro Java:
+Zde je kompletní zdrojový kód pro mazání obrázků z PDF pomocí Aspose.PDF pro Javu:
 
 ```java
 import com.aspose.pdf.*;
 
 public class DeleteImagesFromPDF {
     public static void main(String[] args) {
-        // Načtěte dokument PDF
+        // Načíst PDF dokument
         Document pdfDocument = new Document("path/to/your/pdf/file.pdf");
 
-        // Odstraňte všechny obrázky z PDF
+        // Smazat všechny obrázky z PDF
         for (Page page : pdfDocument.getPages()) {
             page.getResources().getImages().delete();
         }
 
-        // Uložte upravené PDF
+        // Uložit upravený PDF
         pdfDocument.save("path/to/save/modified/pdf/file.pdf");
     }
 }
@@ -105,30 +107,32 @@ public class DeleteImagesFromPDF {
 
 ## Testování kódu
 
-Spusťte program Java a otestujte kód. Načte soubor PDF, odstraní všechny obrázky a uloží upravený soubor PDF do určeného umístění.
+Spusťte program v Javě pro otestování kódu. Načte PDF, smaže všechny obrázky a uloží upravený PDF soubor do zadaného umístění.
 
 ## Závěr
 
-V tomto podrobném průvodci jsme se naučili, jak odstranit obrázky z dokumentu PDF pomocí Aspose.PDF pro Java. Tato výkonná knihovna usnadňuje programovou manipulaci se soubory PDF a poskytuje vám plnou kontrolu nad obsahem.
+tomto podrobném návodu jsme se naučili, jak odstranit obrázky z PDF dokumentu pomocí knihovny Aspose.PDF pro Javu. Tato výkonná knihovna usnadňuje programovou manipulaci s PDF soubory a poskytuje vám plnou kontrolu nad jejich obsahem.
 
- Pro více informací a podrobnou dokumentaci navštivte[Aspose.PDF pro Java API Reference](https://reference.aspose.com/pdf/java/).
+Pro více informací a podrobnou dokumentaci navštivte [Aspose.PDF pro referenční příručku Java API](https://reference.aspose.com/pdf/java/).
 
-## Nejčastější dotazy
+## Často kladené otázky
 
 ### Jak nainstaluji Aspose.PDF pro Javu?
 
- Chcete-li nainstalovat Aspose.PDF pro Java, můžete si stáhnout knihovnu z webu[zde](https://releases.aspose.com/pdf/java/). Postupujte podle pokynů k instalaci uvedených v dokumentaci.
+Chcete-li nainstalovat Aspose.PDF pro Javu, můžete si stáhnout knihovnu z webových stránek [zde](https://releases.aspose.com/pdf/java/)Řiďte se pokyny k instalaci uvedenými v dokumentaci.
 
-### Mohu odstranit konkrétní obrázky z PDF pomocí Aspose.PDF for Java?
+### Mohu smazat konkrétní obrázky z PDF pomocí Aspose.PDF pro Javu?
 
-Ano, můžete odstranit konkrétní obrázky z PDF pomocí Aspose.PDF pro Java. Obrázky můžete identifikovat a odstranit na základě kritérií, jako je název obrázku, rozměry nebo jiné atributy.
+Ano, pomocí nástroje Aspose.PDF pro Javu můžete z PDF odstranit konkrétní obrázky. Obrázky můžete identifikovat a odstranit na základě kritérií, jako je název obrázku, rozměry nebo jiné atributy.
 
-### Je Aspose.PDF for Java vhodný pro jiné úlohy manipulace s PDF?
+### Je Aspose.PDF pro Javu vhodný i pro jiné úlohy manipulace s PDF?
 
-Ano, Aspose.PDF for Java je všestranná knihovna, která zvládne různé úlohy manipulace s PDF, včetně přidávání textu, obrázků, anotací a dalších. Jde o komplexní řešení pro práci se soubory PDF v aplikacích Java.
+Ano, Aspose.PDF pro Javu je všestranná knihovna, která zvládá různé úlohy manipulace s PDF, včetně přidávání textu, obrázků, anotací a dalších. Je to komplexní řešení pro práci s PDF soubory v Java aplikacích.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

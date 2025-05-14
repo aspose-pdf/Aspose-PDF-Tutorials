@@ -1,14 +1,16 @@
 ---
-title: Создать ссылку на приложение в PDF-файле
-linktitle: Создать ссылку на приложение в PDF-файле
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как создавать ссылки на приложения в файлах PDF с помощью Aspose.PDF для .NET. Пошаговое руководство по улучшению интерактивности в ваших PDF-файлах.
-weight: 20
-url: /ru/net/programming-with-links-and-actions/create-application-link/
+"description": "Узнайте, как создавать ссылки на приложения в файлах PDF с помощью Aspose.PDF для .NET. Пошаговое руководство по улучшению интерактивности в ваших файлах PDF."
+"linktitle": "Создать ссылку на приложение в PDF-файле"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Создать ссылку на приложение в PDF-файле"
+"url": "/ru/net/programming-with-links-and-actions/create-application-link/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать ссылку на приложение в PDF-файле
@@ -52,7 +54,7 @@ using Aspose.Pdf.Annotations;
 using Aspose.Pdf;
 ```
 
-Теперь, когда все необходимые условия выполнены, давайте перейдем к непосредственному процессу кодирования для создания ссылки на приложение в PDF-файле.
+Теперь, когда все предварительные условия выполнены, давайте перейдем к непосредственному процессу кодирования для создания ссылки на приложение в PDF-файле.
 
 ## Шаг 1: Определите путь к документу
 
@@ -62,7 +64,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к папке, содержащей ваши PDF-документы. Эта переменная будет выступать в качестве базового пути для наших манипуляций с PDF.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к папке, содержащей ваши PDF-документы. Эта переменная будет выступать в качестве базового пути для наших манипуляций с PDF.
 
 ## Шаг 2: Откройте PDF-документ.
 
@@ -72,7 +74,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "CreateApplicationLink.pdf");
 ```
 
- Мы используем`Document` класс из Aspose.PDF для загрузки нашего PDF-файла. Этот экземпляр позволит нам редактировать и манипулировать PDF.
+Мы используем `Document` класс из Aspose.PDF для загрузки нашего PDF-файла. Этот экземпляр позволит нам редактировать и манипулировать PDF.
 
 ## Шаг 3: Создайте аннотацию ссылки
 
@@ -83,8 +85,8 @@ Page page = document.Pages[1];
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
--  Здесь,`page` указывает, на какой странице вы будете применять ссылку (в данном случае на первой странице).
--  The`LinkAnnotation`класс создает новую ссылку на указанной странице, определяемую прямоугольной областью, начинающейся с (100,100) и заканчивающейся на (300,300). Этот прямоугольник определяет кликабельную область ссылки в PDF.
+- Здесь, `page` указывает, на какой странице вы будете применять ссылку (в данном случае на первой странице).
+- The `LinkAnnotation` класс создает новую ссылку на указанной странице, определяемую прямоугольной областью, начинающейся с (100,100) и заканчивающейся на (300,300). Этот прямоугольник определяет кликабельную область ссылки в PDF.
 
 ## Шаг 4: Установите цвет ссылки
 
@@ -104,7 +106,7 @@ link.Color = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green);
 link.Action = new LaunchAction(document, dataDir + "CreateApplicationLink.pdf");
 ```
 
- С`LaunchAction`, мы указываем, что делает ссылка при нажатии. Здесь мы определили ее для открытия того же файла PDF. Вы можете легко изменить это, чтобы ссылаться на приложение или другой документ по мере необходимости.
+С `LaunchAction`, мы указываем, что делает ссылка при нажатии. Здесь мы определили ее для открытия того же файла PDF. Вы можете легко изменить это, чтобы ссылаться на приложение или другой документ по мере необходимости.
 
 ## Шаг 6: Добавьте аннотацию на страницу
 
@@ -147,19 +149,21 @@ Console.WriteLine("\nApplication link created successfully.\nFile saved at " + d
 Aspose.PDF для .NET — мощная библиотека для создания и обработки PDF-файлов в приложениях, разработанных с использованием платформы .NET.
 
 ### Как я могу загрузить Aspose.PDF?  
- Вы можете загрузить Aspose.PDF для .NET, посетив сайт[эта ссылка](https://releases.aspose.com/pdf/net/).
+Вы можете загрузить Aspose.PDF для .NET, посетив сайт [эта ссылка](https://releases.aspose.com/pdf/net/).
 
 ### Есть ли возможность бесплатной пробной версии Aspose?  
- Да, вы можете получить доступ к бесплатной пробной версии Aspose.PDF[здесь](https://releases.aspose.com/).
+Да, вы можете получить доступ к бесплатной пробной версии Aspose.PDF [здесь](https://releases.aspose.com/).
 
 ### Могу ли я получить поддержку по использованию Aspose.PDF?  
- Конечно! По любым вопросам, связанным с поддержкой, посетите[Форум поддержки Aspose PDF](https://forum.aspose.com/c/pdf/10).
+Конечно! По любым вопросам, связанным с поддержкой, посетите [Форум поддержки Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
 ### Как получить временную лицензию для Aspose?  
- Вы можете получить временную лицензию[эта страница](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию [эта страница](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

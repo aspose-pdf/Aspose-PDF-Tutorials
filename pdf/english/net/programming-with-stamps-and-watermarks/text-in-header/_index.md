@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/text-in-header/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Text In Header Of PDF File
@@ -152,6 +154,7 @@ The [Aspose.PDF documentation](https://reference.aspose.com/pdf/net/) has plenty
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

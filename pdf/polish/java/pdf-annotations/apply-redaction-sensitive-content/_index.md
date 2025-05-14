@@ -1,14 +1,16 @@
 ---
-title: Zastosuj redagowanie do treści wrażliwych
-linktitle: Zastosuj redagowanie do treści wrażliwych
-second_title: Aspose.PDF Java PDF Processing API
-description: Odkryj możliwości redagowania poufnych treści w plikach PDF za pomocą Aspose.PDF dla Java.
-weight: 15
-url: /pl/java/pdf-annotations/apply-redaction-sensitive-content/
+"description": "Odkryj możliwości redagowania poufnych treści w plikach PDF za pomocą Aspose.PDF dla Java."
+"linktitle": "Zastosuj redagowanie do treści wrażliwych"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Zastosuj redagowanie do treści wrażliwych"
+"url": "/pl/java/pdf-annotations/apply-redaction-sensitive-content/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zastosuj redagowanie do treści wrażliwych
@@ -23,7 +25,7 @@ Redakcja to proces trwałego usuwania lub ukrywania poufnych informacji w dokume
 Zanim przejdziemy do procesu redagowania, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowana Java.
--  Biblioteka Aspose.PDF dla Java: Pobierz i zainstaluj bibliotekę Aspose.PDF dla Java ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+- Biblioteka Aspose.PDF dla Java: Pobierz i zainstaluj bibliotekę Aspose.PDF dla Java ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 
 
 ## Konfigurowanie środowiska Java
@@ -36,7 +38,7 @@ Upewnij się, że masz zainstalowaną Javę 8 lub nowszą.
 
 ## Dodawanie Aspose.PDF do projektu
 
-Aby uwzględnić Aspose.PDF dla Java w swoim projekcie, wykonaj następujące kroki:
+Aby uwzględnić plik Aspose.PDF dla języka Java w swoim projekcie, wykonaj następujące kroki:
 
 1. Pobierz bibliotekę Aspose.PDF dla Java ze strony internetowej.
 2. Dodaj pobrany plik JAR do ścieżki klas swojego projektu.
@@ -50,9 +52,9 @@ W tym kroku załadujemy dokument PDF zawierający poufne informacje. Możesz uż
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Zastępować`"example.pdf"` ze ścieżką do pliku PDF.
+Zastępować `"example.pdf"` ze ścieżką do pliku PDF.
 
-## Identyfikacja poufnych treści
+## Identyfikacja treści wrażliwych
 
 Zanim będziemy mogli zredagować poufną treść, musimy ją zidentyfikować w dokumencie. Można to zrobić, wyszukując określone słowa kluczowe, wzorce lub wyrażenia regularne. Na przykład, jeśli chcemy zredagować wszystkie wystąpienia numeru ubezpieczenia społecznego (SSN) w dokumencie, możemy użyć następującego kodu:
 
@@ -95,7 +97,7 @@ W tym przewodniku sprawdziliśmy, jak stosować redagowanie do poufnej zawartoś
 
 ### Jak mogę zredagować wiele typów poufnych informacji w jednym dokumencie?
 
-Możesz utworzyć wiele obiektów TextFragmentAbsorber, każdy z własnym wzorcem do identyfikacji różnych typów poufnej zawartości. Następnie przejrzyj je, aby zastosować odpowiednie redakcje.
+Możesz utworzyć wiele obiektów TextFragmentAbsorber, każdy z własnym wzorcem do identyfikacji różnych typów wrażliwej zawartości. Następnie przejrzyj je, aby zastosować odpowiednie redakcje.
 
 ### Czy redagowanie jest odwracalne?
 
@@ -103,7 +105,7 @@ Nie, redagowanie nie jest odwracalne. Po zastosowaniu redagowania do dokumentu, 
 
 ### Czy mogę dostosować wygląd ocenzurowanej treści?
 
-Tak, możesz dostosować wygląd treści objętych redakcją, np. wybierając różne kolory lub wzory znaków redakcyjnych.
+Tak, możesz dostosować wygląd treści objętych redakcją, np. wybierając różne kolory lub wzory dla znaków redakcyjnych.
 
 ### Czy Aspose.PDF dla Java obsługuje przetwarzanie wsadowe?
 
@@ -112,9 +114,11 @@ Tak, można przetwarzać wsadowo wiele dokumentów PDF, aby jednocześnie zastos
 ### Czy istnieją jakieś ograniczenia redagowania w Aspose.PDF dla Java?
 
 Aspose.PDF for Java oferuje zaawansowane funkcje redagowania, jednak istotne jest dokładne przetestowanie zredagowanych dokumentów, aby mieć pewność, że nie dojdzie do niezamierzonego wycieku informacji.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

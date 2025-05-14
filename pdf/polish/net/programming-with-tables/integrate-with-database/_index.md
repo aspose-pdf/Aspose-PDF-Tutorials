@@ -1,14 +1,16 @@
 ---
-title: Zintegruj z bazą danych w pliku PDF
-linktitle: Zintegruj z bazą danych w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak integrować dane z bazy danych z plikami PDF za pomocą Aspose.PDF dla .NET, korzystając z tego prostego przewodnika krok po kroku.
-weight: 120
-url: /pl/net/programming-with-tables/integrate-with-database/
+"description": "Dowiedz się, jak integrować dane z bazy danych z plikami PDF za pomocą Aspose.PDF dla .NET, korzystając z tego prostego przewodnika krok po kroku."
+"linktitle": "Zintegruj z bazą danych w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zintegruj z bazą danych w pliku PDF"
+"url": "/pl/net/programming-with-tables/integrate-with-database/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zintegruj z bazą danych w pliku PDF
@@ -21,8 +23,8 @@ Tworzenie dynamicznych dokumentów PDF, które zawierają dane z bazy danych, mo
 
 Zanim wyruszymy w podróż tworzenia PDF-ów, musisz spełnić kilka warunków wstępnych. Nie martw się, wszystkie są proste! 
 
-1. .NET Framework: Upewnij się, że na Twoim komputerze zainstalowana jest obsługiwana wersja .NET Framework.
-2.  Aspose.PDF dla .NET: Można go pobrać z[Strona internetowa Aspose](https://releases.aspose.com/pdf/net/). Musisz go pobrać i zainstalować w swoim projekcie.
+1. .NET Framework: Upewnij się, że na Twoim komputerze zainstalowana jest obsługiwana wersja środowiska .NET Framework.
+2. Aspose.PDF dla .NET: Można go pobrać z [Strona internetowa Aspose](https://releases.aspose.com/pdf/net/). Musisz go pobrać i zainstalować w swoim projekcie.
 3. Visual Studio IDE: Przyjazne środowisko do pisania kodu. Każda nowsza wersja powinna działać.
 4. Podstawowa wiedza o języku C#: Jeśli znasz podstawy języka C#, bez problemu poradzisz sobie z tym samouczkiem.
 
@@ -50,7 +52,7 @@ Ustawianie ścieżki dla dokumentów jest jak wybieranie adresu nowego domu. Zac
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie chcesz zapisać swój plik PDF. Ułatwia to późniejsze znalezienie pliku. 
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie chcesz zapisać swój plik PDF. Ułatwia to późniejsze znalezienie pliku. 
 
 ## Krok 2: Utwórz tabelę danych
 
@@ -140,7 +142,7 @@ Teraz, gdy nasza tabela jest już wypełniona danymi, czas umieścić je w pliku
 doc.Pages[1].Paragraphs.Add(table);
 ```
 
-Dodamy tabelę na pierwszej stronie naszego dokumentu i stanie się ona częścią naszego pliku PDF.
+Dodamy tabelę na pierwszej stronie naszego dokumentu, gdzie stanie się ona częścią naszego pliku PDF.
 
 ## Krok 9: Zapisz dokument
 
@@ -165,7 +167,7 @@ Console.WriteLine("\nDatabase integrated successfully.\nFile saved at " + dataDi
 
 ## Wniosek
 
-I masz to! Nauczyłeś się, jak bezproblemowo integrować dane z bazy danych z plikiem PDF za pomocą Aspose.PDF dla .NET. Wykonując te kroki, możesz tworzyć dynamiczne dokumenty, które są nie tylko funkcjonalne, ale również atrakcyjne wizualnie. Więc następnym razem, gdy będziesz musiał wygenerować raporty lub jakikolwiek dokument, który wymaga uporządkowanych danych, zapamiętaj ten samouczek.
+masz to! Nauczyłeś się, jak bezproblemowo integrować dane z bazy danych z plikiem PDF za pomocą Aspose.PDF dla .NET. Wykonując te kroki, możesz tworzyć dynamiczne dokumenty, które są nie tylko funkcjonalne, ale również atrakcyjne wizualnie. Więc następnym razem, gdy będziesz musiał wygenerować raporty lub jakikolwiek dokument, który wymaga uporządkowanych danych, zapamiętaj ten samouczek.
 
 ## Najczęściej zadawane pytania
 
@@ -173,19 +175,21 @@ I masz to! Nauczyłeś się, jak bezproblemowo integrować dane z bazy danych z 
 Tak! Aspose oferuje różnorodne biblioteki dla różnych formatów plików, w tym Excel, Word i inne.
 
 ### Czy jest dostępna wersja próbna Aspose.PDF?
- Oczywiście! Możesz pobrać darmową wersję próbną z[ten link](https://releases.aspose.com/).
+Oczywiście! Możesz pobrać darmową wersję próbną z [ten link](https://releases.aspose.com/).
 
 ### Jak mogę uzyskać wsparcie dotyczące produktów Aspose?
- Możesz skontaktować się z ich pomocą techniczną za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Możesz skontaktować się z ich pomocą techniczną za pośrednictwem [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Co oferuje licencja tymczasowa?
- Tymczasowa licencja pozwala na korzystanie z oprogramowania ze wszystkimi funkcjami odblokowanymi przez ograniczony czas. Możesz otrzymać jedną[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tymczasowa licencja pozwala na korzystanie z oprogramowania ze wszystkimi funkcjami odblokowanymi przez ograniczony czas. Możesz otrzymać jedną [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy format danych w pliku PDF można dostosować?
 Tak! Aspose.PDF zapewnia różne opcje dostosowywania tabel, w tym formatowanie komórek, czcionki, kolory i wiele więcej.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

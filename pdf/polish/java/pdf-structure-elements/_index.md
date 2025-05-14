@@ -1,14 +1,16 @@
 ---
-title: Elementy struktury PDF
-linktitle: Elementy struktury PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Poznaj samouczki Aspose.PDF for Java, aby opanować elementy struktury PDF. Twórz uporządkowane, dostępne pliki PDF bez wysiłku.
-weight: 20
-url: /pl/java/pdf-structure-elements/
+"description": "Poznaj samouczki Aspose.PDF for Java, aby opanować elementy struktury PDF. Twórz uporządkowane, dostępne pliki PDF bez wysiłku."
+"linktitle": "Elementy struktury PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Elementy struktury PDF"
+"url": "/pl/java/pdf-structure-elements/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elementy struktury PDF
@@ -20,7 +22,7 @@ Odkryj potencjał elementów struktury PDF dzięki naszym samouczkom Aspose.PDF 
 
 ## Łatwe tworzenie dostępnych plików PDF
 
-następnej sekcji dowiesz się, jak zastosować tę wiedzę w praktyce. Przeprowadzimy Cię przez proces dodawania tekstu, obrazów i elementów interaktywnych, zapewniając jednocześnie logiczną kolejność czytania, tekst alternatywny dla obrazów i semantyczne nagłówki. 
+W następnej sekcji dowiesz się, jak zastosować tę wiedzę w praktyce. Przeprowadzimy Cię przez proces dodawania tekstu, obrazów i elementów interaktywnych, zapewniając jednocześnie logiczną kolejność czytania, tekst alternatywny dla obrazów i semantyczne nagłówki. 
 
 ## Optymalizacja plików PDF pod kątem powszechnej dostępności
 
@@ -39,12 +41,14 @@ Dowiedz się, jak tworzyć dostępne, oznaczone pliki PDF w Javie przy użyciu A
 ### [Utwórz plik PDF z tekstem oznaczonym w Javie](./create-pdf-with-tagged-text-in-java/)
 Dowiedz się, jak tworzyć oznaczone pliki PDF w Javie za pomocą Aspose.PDF dla Javy. Nasz przewodnik krok po kroku zapewnia dostępność i zgodność.
 ### [Elementy struktury bloku tekstowego w PDF przy użyciu Java](./text-block-structure-elements-in-pdf-using-java/)
-Opanuj elementy struktury bloków tekstowych w formacie PDF w języku Java — przewodnik krok po kroku dotyczący korzystania z Aspose.PDF w języku Java.
+Opanuj elementy struktury bloków tekstowych PDF w języku Java — przewodnik krok po kroku dotyczący korzystania z Aspose.PDF w języku Java.
 ### [Elementy struktury tekstu w PDF przy użyciu Java](./text-structure-elements-in-pdf-using-java/)
 Dowiedz się, jak manipulować strukturami tekstu PDF w Javie, używając Aspose.PDF dla Javy. Poznaj przewodniki krok po kroku z kodem źródłowym, aby wydajnie obsługiwać tekst PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

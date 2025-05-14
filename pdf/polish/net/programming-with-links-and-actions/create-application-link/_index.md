@@ -1,14 +1,16 @@
 ---
-title: Utwórz łącze aplikacji w pliku PDF
-linktitle: Utwórz łącze aplikacji w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak tworzyć łącza aplikacji w plikach PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku, jak zwiększyć interaktywność w plikach PDF.
-weight: 20
-url: /pl/net/programming-with-links-and-actions/create-application-link/
+"description": "Dowiedz się, jak tworzyć łącza aplikacji w plikach PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku, jak zwiększyć interaktywność w plikach PDF."
+"linktitle": "Utwórz łącze aplikacji w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Utwórz łącze aplikacji w pliku PDF"
+"url": "/pl/net/programming-with-links-and-actions/create-application-link/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz łącze aplikacji w pliku PDF
@@ -30,7 +32,7 @@ Teraz, gdy omówiliśmy już podstawowe wymagania, możemy zaczynać!
 
 ## Importuj pakiety
 
-Zanim zaczniesz kodować, pamiętaj o zaimportowaniu niezbędnych przestrzeni nazw Aspose.PDF do projektu C#, aby uzyskać dostęp do klas i metod umożliwiających manipulację plikami PDF.
+Zanim zaczniesz kodować, pamiętaj o zaimportowaniu niezbędnych przestrzeni nazw Aspose.PDF w projekcie C#, aby uzyskać dostęp do klas i metod umożliwiających manipulację plikami PDF.
 
 ### Rozpocznij nowy projekt C#
 Utwórz nową aplikację konsolową w preferowanym środowisku IDE (np. Visual Studio).
@@ -44,7 +46,7 @@ Install-Package Aspose.PDF
 ```
 
 ### Zaimportuj niezbędne przestrzenie nazw
-Na górze pliku z kodem umieść następujące przestrzenie nazw:
+Na górze pliku z kodem uwzględnij następujące przestrzenie nazw:
 ```csharp
 using System.IO;
 using System;
@@ -62,7 +64,7 @@ Po pierwsze, musimy określić katalog, w którym przechowywane są nasze dokume
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu zawierającego Twoje dokumenty PDF. Ta zmienna będzie działać jako ścieżka bazowa dla naszej manipulacji PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu zawierającego Twoje dokumenty PDF. Ta zmienna będzie działać jako ścieżka bazowa dla naszej manipulacji PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -72,7 +74,7 @@ Następnie musimy otworzyć plik PDF, w którym chcemy utworzyć łącze do apli
 Document document = new Document(dataDir + "CreateApplicationLink.pdf");
 ```
 
- Używamy`Document` class z Aspose.PDF, aby załadować nasz plik PDF. Ta instancja pozwoli nam edytować i manipulować plikiem PDF.
+Używamy `Document` class z Aspose.PDF, aby załadować nasz plik PDF. Ta instancja pozwoli nam edytować i manipulować plikiem PDF.
 
 ## Krok 3: Utwórz adnotację łącza
 
@@ -83,8 +85,8 @@ Page page = document.Pages[1];
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
--  Tutaj,`page` wskazuje, na której stronie chcesz umieścić link (w tym przypadku na pierwszej stronie).
--  Ten`LinkAnnotation`Klasa tworzy nowy link na określonej stronie, zdefiniowany przez obszar prostokąta zaczynający się w punkcie (100,100) i kończący się w punkcie (300,300). Ten prostokąt określa klikalny obszar linku w pliku PDF.
+- Tutaj, `page` wskazuje, na której stronie chcesz umieścić link (w tym przypadku na pierwszej stronie).
+- Ten `LinkAnnotation` Klasa tworzy nowy link na określonej stronie, zdefiniowany przez obszar prostokąta zaczynający się w punkcie (100,100) i kończący się w punkcie (300,300). Ten prostokąt określa klikalny obszar linku w pliku PDF.
 
 ## Krok 4: Ustaw kolor łącza
 
@@ -104,7 +106,7 @@ Teraz czas, aby adnotacja stała się funkcjonalna, ustawiając jej działanie. 
 link.Action = new LaunchAction(document, dataDir + "CreateApplicationLink.pdf");
 ```
 
- Z`LaunchAction`, określamy, co link robi po kliknięciu. Tutaj zdefiniowaliśmy go tak, aby otwierał ten sam plik PDF. Możesz go łatwo zmodyfikować, aby łączył się z aplikacją lub innym dokumentem, jeśli to konieczne.
+Z `LaunchAction`, określamy, co link robi po kliknięciu. Tutaj zdefiniowaliśmy go tak, aby otwierał ten sam plik PDF. Możesz go łatwo zmodyfikować, aby łączył się z aplikacją lub innym dokumentem, jeśli to konieczne.
 
 ## Krok 6: Dodaj adnotację do strony
 
@@ -139,27 +141,29 @@ To po prostu drukuje komunikat o powodzeniu na konsoli, wskazując, gdzie plik j
 
 ## Wniosek
 
-zaledwie kilku prostych krokach nauczyłeś się, jak utworzyć łącze aplikacji w pliku PDF za pomocą Aspose.PDF dla .NET. To potężne narzędzie pozwala Ci ulepszyć dokumenty PDF, czyniąc je bardziej interaktywnymi i angażującymi dla Twoich użytkowników. Dzięki łączom możesz skutecznie kierować odbiorców do cennych informacji lub aplikacji, zapewniając bardziej zintegrowane doświadczenie.
+W zaledwie kilku prostych krokach nauczyłeś się, jak utworzyć łącze aplikacji w pliku PDF za pomocą Aspose.PDF dla .NET. To potężne narzędzie pozwala Ci ulepszyć dokumenty PDF, czyniąc je bardziej interaktywnymi i angażującymi dla Twoich użytkowników. Dzięki łączom możesz skutecznie kierować odbiorców do cennych informacji lub aplikacji, zapewniając bardziej zintegrowane doświadczenie.
 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.PDF dla .NET?  
-Aspose.PDF for .NET to zaawansowana biblioteka do tworzenia i edytowania plików PDF w aplikacjach opartych na platformie .NET.
+Aspose.PDF dla platformy .NET to zaawansowana biblioteka do tworzenia i edytowania plików PDF w aplikacjach opartych na platformie .NET.
 
 ### Jak mogę pobrać Aspose.PDF?  
- Możesz pobrać plik Aspose.PDF dla platformy .NET, odwiedzając witrynę[ten link](https://releases.aspose.com/pdf/net/).
+Możesz pobrać plik Aspose.PDF dla platformy .NET, odwiedzając witrynę [ten link](https://releases.aspose.com/pdf/net/).
 
 ### Czy istnieje możliwość bezpłatnego wypróbowania Aspose?  
- Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.PDF[Tutaj](https://releases.aspose.com/).
+Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.PDF [Tutaj](https://releases.aspose.com/).
 
 ### Czy mogę uzyskać pomoc dotyczącą korzystania z Aspose.PDF?  
- Oczywiście! W przypadku pytań dotyczących wsparcia odwiedź[Forum wsparcia Aspose PDF](https://forum.aspose.com/c/pdf/10).
+Oczywiście! W przypadku pytań dotyczących wsparcia odwiedź [Forum wsparcia Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
 ### Jak uzyskać tymczasową licencję na Aspose?  
- Możesz uzyskać tymczasową licencję od[ta strona](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję od [ta strona](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

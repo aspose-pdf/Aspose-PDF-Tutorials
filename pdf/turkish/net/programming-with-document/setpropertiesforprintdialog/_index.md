@@ -1,14 +1,16 @@
 ---
-title: Yazdırma İletişim Kutusu İçin Özellikleri Ayarla
-linktitle: Yazdırma İletişim Kutusu İçin Özellikleri Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile PDF oluşturma potansiyelinin kilidini açın. Bu kılavuz, yazdırma özelliklerini zahmetsizce ayarlamanıza yardımcı olur.
-weight: 320
-url: /tr/net/programming-with-document/setpropertiesforprintdialog/
+"description": "Aspose.PDF for .NET ile PDF oluşturma potansiyelinin kilidini açın. Bu kılavuz, yazdırma özelliklerini zahmetsizce ayarlamanıza yardımcı olur."
+"linktitle": "Yazdırma İletişim Kutusu İçin Özellikleri Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Yazdırma İletişim Kutusu İçin Özellikleri Ayarla"
+"url": "/tr/net/programming-with-document/setpropertiesforprintdialog/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yazdırma İletişim Kutusu İçin Özellikleri Ayarla
@@ -22,7 +24,7 @@ Uygulamalarınızda PDF oluşturmanın gücünden yararlanmak mı istiyorsunuz? 
 Eğitime başlamadan önce, neye ihtiyacınız olduğunu ele alalım:
 
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Endişelenmeyin; çok basit![buradan indirin](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Endişelenmeyin; çok basit! [buradan indirin](https://releases.aspose.com/pdf/net/).
 3. C# Temel Bilgisi: C# programlamaya aşinalık faydalı olacaktır. Eğer yeniyseniz, endişelenmeyin! Temelleri birlikte ele alacağız. 
 
 Bu ön koşulları sağladıktan sonra PDF oluşturmaya başlayabilirsiniz!
@@ -53,7 +55,7 @@ using System.Collections.Generic;
 using System.Text;
 ```
 
-Bu paketler hazır olduğunda, PDF özelliklerini değiştirmenin asıl kısmına dalmaya hazırsınız!
+Bu paketler hazır olduğunda, PDF özelliklerini değiştirmenin asıl keyifli kısmına dalmaya hazırsınız!
 
 Şimdi, sağladığınız kod parçacığını anlaşılır adımlara bölelim.
 
@@ -64,7 +66,7 @@ PDF belgeleriyle ilgili herhangi bir şey yapmadan önce, belgenizin nereye kayd
 ```csharp
 var dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` çıktı dosyanızı depolamak istediğiniz gerçek yol ile. Bu, dosyalarınızı düzenli tutmanıza ve daha sonra kolayca bulmanıza yardımcı olur.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` çıktı dosyanızı depolamak istediğiniz gerçek yol ile. Bu, dosyalarınızı düzenli tutmanıza ve daha sonra kolayca bulmanıza yardımcı olur.
 
 ## Adım 2: Bir Belge Örneği Oluşturun
 
@@ -74,7 +76,7 @@ Sonra, PDF Belgesinin bir örneğini oluşturacaksınız. Bu nesne, bundan sonra
 using (Document doc = new Document())
 ```
 
- Birini kullanarak`using` Buradaki ifade, şunu garanti eder:`Document` Nesneyle işimiz bittikten sonra nesne doğru şekilde elden çıkarılır ve böylece olası bellek sızıntıları önlenir.
+Birini kullanarak `using` Buradaki ifade, şunu garanti eder: `Document` Nesneyle işimiz bittikten sonra nesne doğru şekilde elden çıkarılır ve böylece olası bellek sızıntıları önlenir.
 
 ## Adım 3: Belgeye Sayfalar Ekleyin
 
@@ -116,19 +118,21 @@ Bu kod belgeyi “35297_out.pdf” adıyla belirttiğiniz konuma kaydeder. Belge
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'i kullanmak ücretsiz mi?
- Ücretsiz denemeyle başlayabilirsiniz[Burada](https://releases.aspose.com/), ancak bundan sonraki tüm özellikler için lisansa ihtiyaç vardır.
+Ücretsiz denemeyle başlayabilirsiniz [Burada](https://releases.aspose.com/), ancak bundan sonraki tüm özellikler için lisansa ihtiyaç vardır.
 
 ### Aspose.PDF ile ne tür uygulamalar oluşturabilirim?
 Faturalama sistemleri, belge yönetim çözümleri ve daha fazlası gibi PDF oluşturma veya düzenleme gerektiren herhangi bir uygulamayı oluşturabilirsiniz.
 
 ### Dubleks baskı nedir?
-Dubleks baskı, bir sayfanın her iki tarafına baskı yapmak anlamına gelir; bu sayede kağıt tasarrufu sağlanabilir ve belgelerin görünümü iyileştirilebilir.
+Dubleks baskı, bir sayfanın her iki tarafına baskı yapmak anlamına gelir; bu sayede kağıt tasarrufu yapılabilir ve belgelerin görünümü iyileştirilebilir.
 
 ### Aspose.PDF için desteği nerede bulabilirim?
- Desteğe şu şekilde erişebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Desteğe şu şekilde erişebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

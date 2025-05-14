@@ -8,7 +8,9 @@ url: /net/programming-with-document/getzoomfactor/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Zoom Factor In PDF File
@@ -121,6 +123,7 @@ Absolutely! Aspose.PDF can be used in both desktop and web applications, making 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

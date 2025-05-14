@@ -1,14 +1,16 @@
 ---
-title: Sửa đổi trường biểu mẫu trong tài liệu PDF
-linktitle: Sửa đổi trường biểu mẫu trong tài liệu PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách sửa đổi các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn nâng cao chức năng PDF.
-weight: 190
-url: /vi/net/programming-with-forms/modify-form-field/
+"description": "Tìm hiểu cách sửa đổi các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn nâng cao chức năng PDF."
+"linktitle": "Sửa đổi trường biểu mẫu trong tài liệu PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Sửa đổi trường biểu mẫu trong tài liệu PDF"
+"url": "/vi/net/programming-with-forms/modify-form-field/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sửa đổi trường biểu mẫu trong tài liệu PDF
@@ -22,7 +24,7 @@ Trong thế giới kỹ thuật số ngày nay, PDF có ở khắp mọi nơi. C
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi chúng ta sẽ viết và chạy mã của mình.
-2.  Aspose.PDF cho .NET: Bạn có thể tải xuống thư viện từ[Trang web Aspose](https://releases.aspose.com/pdf/net/) . Nếu bạn muốn dùng thử trước, bạn cũng có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/).
+2. Aspose.PDF cho .NET: Bạn có thể tải xuống thư viện từ [Trang web Aspose](https://releases.aspose.com/pdf/net/)Nếu bạn muốn dùng thử trước, bạn cũng có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn theo dõi các ví dụ.
 
 ## Nhập gói
@@ -48,18 +50,18 @@ Trước khi chúng ta có thể sửa đổi bất cứ điều gì, chúng ta 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này giống như cung cấp cho mã của bạn một bản đồ để tìm kho báu!
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này giống như cung cấp cho mã của bạn một bản đồ để tìm kho báu!
 
 ## Bước 2: Mở Tài liệu PDF
 
- Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc mở tài liệu PDF mà chúng ta muốn chỉnh sửa. Việc này được thực hiện bằng cách sử dụng`Document` lớp từ thư viện Aspose.PDF.
+Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc mở tài liệu PDF mà chúng ta muốn chỉnh sửa. Việc này được thực hiện bằng cách sử dụng `Document` lớp từ thư viện Aspose.PDF.
 
 ```csharp
 // Mở tài liệu
 Document pdfDocument = new Document(dataDir + "ModifyFormField.pdf");
 ```
 
- Ở đây, chúng tôi đang tạo một phiên bản mới của`Document` lớp và chuyển đường dẫn đến tệp PDF của chúng tôi. Hãy nghĩ về bước này như mở khóa cánh cửa đến tài liệu của chúng tôi!
+Ở đây, chúng tôi đang tạo một phiên bản mới của `Document` lớp và chuyển đường dẫn đến tệp PDF của chúng tôi. Hãy nghĩ về bước này như mở khóa cánh cửa đến tài liệu của chúng tôi!
 
 ## Bước 3: Lấy trường biểu mẫu
 
@@ -70,7 +72,7 @@ Tiếp theo, chúng ta cần truy cập vào trường biểu mẫu cụ thể m
 TextBoxField textBoxField = pdfDocument.Form["textbox1"] as TextBoxField;
 ```
 
- Bằng cách đúc trường biểu mẫu thành`TextBoxField`, giờ chúng ta có thể thao tác các thuộc tính của nó. Giống như tìm đúng phím để điều chỉnh cài đặt biểu mẫu của chúng ta vậy!
+Bằng cách đúc trường biểu mẫu thành `TextBoxField`, giờ chúng ta có thể thao tác các thuộc tính của nó. Giống như tìm đúng phím để điều chỉnh cài đặt biểu mẫu của chúng ta vậy!
 
 ## Bước 4: Sửa đổi giá trị trường
 
@@ -94,7 +96,7 @@ dataDir = dataDir + "ModifyFormField_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Ở đây, chúng tôi đang thêm "_out" vào tên tệp gốc để tạo tệp mới. Giống như việc lưu phiên bản mới của tài liệu sau khi chỉnh sửa vậy!
+Ở đây, chúng ta thêm "_out" vào tên tệp gốc để tạo tệp mới. Giống như lưu phiên bản mới của tài liệu sau khi chỉnh sửa!
 
 ## Bước 6: Xác nhận thay đổi
 
@@ -116,19 +118,21 @@ Và thế là xong! Bạn đã sửa đổi thành công một trường biểu 
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Có thể sửa đổi các loại trường biểu mẫu khác không?
 Chắc chắn rồi! Aspose.PDF hỗ trợ nhiều trường biểu mẫu khác nhau, bao gồm hộp kiểm, nút radio và danh sách thả xuống.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET [đây](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Nếu bạn cần trợ giúp, bạn có thể truy cập diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Nếu bạn cần trợ giúp, bạn có thể truy cập diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

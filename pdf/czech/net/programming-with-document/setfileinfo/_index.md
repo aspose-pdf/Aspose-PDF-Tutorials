@@ -1,39 +1,41 @@
 ---
-title: Nastavit informace o souboru v souboru PDF
-linktitle: Nastavit informace o souboru v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak nastavit informace o souborech v dokumentech PDF pomocí Aspose.PDF for .NET pomocí tohoto podrobného průvodce. Snadno vylepšete své soubory PDF pomocí metadat.
-weight: 310
-url: /cs/net/programming-with-document/setfileinfo/
+"description": "Naučte se, jak nastavit informace o souborech v PDF dokumentech pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Snadno vylepšete své PDF soubory pomocí metadat."
+"linktitle": "Nastavení informací o souboru v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Nastavení informací o souboru v souboru PDF"
+"url": "/cs/net/programming-with-document/setfileinfo/"
+"weight": 310
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavit informace o souboru v souboru PDF
+# Nastavení informací o souboru v souboru PDF
 
 ## Zavedení
 
-Pokud jde o správu souborů PDF, je rozhodující mít kontrolu nad metadaty dokumentu. Ať už chcete přidat informace o autorovi, klíčová slova nebo dokonce předmět, Aspose.PDF for .NET poskytuje bezproblémový způsob nastavení informací o souborech ve vašich dokumentech PDF. Tento tutoriál vás provede procesem krok za krokem a zajistí, že za pochodu porozumíte každé části kódu. Popadněte tedy svůj kódovací klobouk a pojďme se ponořit do světa manipulace s PDF!
+Pokud jde o správu PDF souborů, je klíčové mít kontrolu nad metadaty dokumentu. Ať už chcete přidat informace o autorovi, klíčová slova nebo dokonce předmět zprávy, Aspose.PDF pro .NET poskytuje bezproblémový způsob, jak do PDF dokumentů nastavit informace o souborech. Tento tutoriál vás krok za krokem provede celým procesem a zajistí, že budete rozumět každé části kódu. Takže si vezměte programátorskou čepici a pojďme se ponořit do světa manipulace s PDF!
 
 ## Předpoklady
 
-Než začneme, je třeba mít připraveno několik věcí:
+Než začneme, je potřeba mít připraveno několik věcí:
 
-1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Zde budete psát a spouštět svůj kód .NET.
+1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Zde budete psát a spouštět kód .NET.
    
-2.  Aspose.PDF for .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Můžete to získat z[Stránka Aspose Downloads](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF pro .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Můžete ji získat z [Stránka ke stažení Aspose](https://releases.aspose.com/pdf/net/).
 
 3. Základní znalost C#: Znalost programování v C# vám pomůže porozumět úryvkům kódu, které budeme používat.
 
-4.  Soubor PDF: Připravte si vzorový soubor PDF, který chcete upravit. V tomto tutoriálu jej budeme označovat jako`SetFileInfo.pdf`.
+4. Soubor PDF: Mějte připravený vzorový soubor PDF, který chcete upravit. V tomto tutoriálu jej budeme označovat jako `SetFileInfo.pdf`.
 
-Jakmile budete mít vše nastaveno, jsme připraveni skočit do kódu!
+Jakmile máte vše nastavené, můžeme se pustit do kódu!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, musíte importovat potřebné balíčky, které vám umožní pracovat se soubory PDF. Ve svém projektu C# přidejte následující pomocí direktiv v horní části souboru kódu:
+Chcete-li začít, je třeba importovat potřebné balíčky, které vám umožní pracovat se soubory PDF. Ve vašem projektu C# přidejte na začátek souboru s kódem následující direktivy using:
 
 ```csharp
 using System;
@@ -43,29 +45,29 @@ using Aspose.Pdf;
 
 Tyto jmenné prostory poskytují přístup ke třídám a metodám potřebným k efektivní manipulaci s dokumenty PDF.
 
-## Krok 1: Definujte adresář dokumentů
+## Krok 1: Definování adresáře dokumentů
 
-Nejprve musíte určit adresář, kde se nachází váš soubor PDF. To je zásadní, protože budete soubor otevírat z této cesty.
+Nejprve je třeba zadat adresář, kde se nachází váš PDF soubor. To je zásadní, protože soubor budete otevírat z této cesty.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Vysvětlení: Vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou ke složce obsahující váš`SetFileInfo.pdf`. To řekne vašemu programu, kde má hledat soubor PDF.
+Vysvětlení: Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou ke složce obsahující vaše `SetFileInfo.pdf`Toto říká vašemu programu, kde má hledat soubor PDF.
 
 ## Krok 2: Otevřete dokument PDF
 
- Dále otevřeme dokument PDF, který chcete upravit. To se provádí pomocí`Document` třídy z knihovny Aspose.PDF.
+Dále otevřeme PDF dokument, který chcete upravit. To se provádí pomocí `Document` třída z knihovny Aspose.PDF.
 
 ```csharp
-// Otevřete dokument
+// Otevřít dokument
 Document pdfDocument = new Document(dataDir + "SetFileInfo.pdf");
 ```
 
- Vysvětlení: Zde vytvoříme novou instanci souboru`Document`třídy a předejte cestu k souboru PDF. Tím se dokument načte do paměti, připraven k úpravám.
+Vysvětlení: Zde vytvoříme novou instanci třídy `Document` třídu a předat cestu k PDF souboru. Tím se dokument načte do paměti a bude připraven k úpravám.
 
-## Krok 3: Vytvořte objekt informací o dokumentu
+## Krok 3: Vytvoření objektu informací o dokumentu
 
 Nyní, když máme dokument otevřený, musíme vytvořit objekt, který bude obsahovat informace o dokumentu.
 
@@ -74,11 +76,11 @@ Nyní, když máme dokument otevřený, musíme vytvořit objekt, který bude ob
 DocumentInfo docInfo = new DocumentInfo(pdfDocument);
 ```
 
- Vysvětlení: The`DocumentInfo` třída nám umožňuje nastavit různé vlastnosti metadat pro PDF. Tento objekt bude použit k uložení informací, jako je autor, datum vytvoření a další.
+Vysvětlení: `DocumentInfo` Třída nám umožňuje nastavit různé vlastnosti metadat pro PDF. Tento objekt bude použit k ukládání informací, jako je autor, datum vytvoření a další.
 
-## Krok 4: Nastavte metadata dokumentu
+## Krok 4: Nastavení metadat dokumentu
 
- s`DocumentInfo` objekt je připraven, je čas jej naplnit příslušnými metadaty. Zde můžete zadat autora, datum vytvoření, klíčová slova, datum úpravy, předmět a název dokumentu.
+S `DocumentInfo` objekt připraven, je čas jej naplnit příslušnými metadaty. Zde můžete zadat autora, datum vytvoření, klíčová slova, datum úpravy, předmět a název dokumentu.
 
 ```csharp
 docInfo.Author = "Aspose";
@@ -89,11 +91,11 @@ docInfo.Subject = "PDF Information";
 docInfo.Title = "Setting PDF Document Information";
 ```
 
- Vysvětlení: Každý řádek nastavuje určitou vlastnost dokumentu. Například,`docInfo.Author` nastavuje jméno autora, zatímco`docInfo.CreationDate` nastavuje datum vytvoření dokumentu. Tyto hodnoty můžete upravit podle potřeby.
+Vysvětlení: Každý řádek nastavuje specifickou vlastnost dokumentu. Například `docInfo.Author` nastavuje jméno autora, zatímco `docInfo.CreationDate` nastavuje datum vytvoření dokumentu. Tyto hodnoty můžete dle potřeby upravit.
 
 ## Krok 5: Uložte dokument
 
-Po nastavení požadovaných metadat je dalším krokem uložení upraveného PDF. Musíte zadat novou cestu pro výstupní soubor.
+Po nastavení požadovaných metadat je dalším krokem uložení upraveného PDF. Je třeba zadat novou cestu k výstupnímu souboru.
 
 ```csharp
 dataDir = dataDir + "SetFileInfo_out.pdf";
@@ -101,41 +103,43 @@ dataDir = dataDir + "SetFileInfo_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Vysvětlení: Zde přikládáme`_out.pdf` na původní název souboru pro vytvoření nového souboru pro upravený dokument. The`Save` metoda pak zapíše změny do tohoto nového souboru.
+Vysvětlení: Zde připojujeme `_out.pdf` k původnímu názvu souboru a vytvořte nový soubor pro upravený dokument. `Save` Metoda poté zapíše změny do tohoto nového souboru.
 
 ## Krok 6: Potvrďte změny
 
-Nakonec je vždy dobré potvrdit, že informace byly nastaveny správně. Můžete to provést vytištěním zprávy o úspěchu na konzoli.
+Nakonec je vždy dobré ověřit, zda byly informace nastaveny správně. To můžete provést vypsáním zprávy o úspěchu do konzole.
 
 ```csharp
 Console.WriteLine("\nFile informations setup successfully.\nFile saved at " + dataDir);
 ```
 
-Vysvětlení: Výstupem tohoto řádku je zpráva oznamující, že soubor byl úspěšně uložen, spolu s cestou k novému souboru. Je to jednoduchý způsob, jak zajistit, aby vše šlo podle plánu.
+Vysvětlení: Tento řádek vypíše zprávu oznamující, že soubor byl úspěšně uložen, spolu s cestou k novému souboru. Je to jednoduchý způsob, jak zajistit, aby vše proběhlo podle plánu.
 
 ## Závěr
 
-Nastavení informací o souborech v dokumentech PDF pomocí Aspose.PDF for .NET je přímočarý proces, který může výrazně zlepšit použitelnost vašich PDF. Podle těchto kroků můžete snadno přidávat metadata, jako je autor, datum vytvoření a další, díky čemuž budou vaše dokumenty informativnější a profesionálnější. Ať už vyvíjíte aplikace, které generují soubory PDF, nebo jednoduše potřebujete lépe spravovat své dokumenty, Aspose.PDF poskytuje nástroje, které potřebujete k efektivnímu provedení práce.
+Nastavení informací o souborech v PDF dokumentech pomocí Aspose.PDF pro .NET je jednoduchý proces, který může výrazně zlepšit použitelnost vašich PDF souborů. Dodržováním těchto kroků můžete snadno přidat metadata, jako je autor, datum vytvoření a další, čímž se vaše dokumenty stanou informativnějšími a profesionálnějšími. Ať už vyvíjíte aplikace, které generují PDF soubory, nebo jednoduše potřebujete lépe spravovat své dokumenty, Aspose.PDF poskytuje nástroje, které potřebujete k efektivnímu provedení této práce.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty PDF programově.
+Aspose.PDF pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět PDF dokumenty.
 
 ### Mohu používat Aspose.PDF zdarma?
- Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k hodnocení knihovny. Navštivte[Bezplatná zkušební stránka](https://releases.aspose.com/) pro více informací.
+Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k otestování knihovny. Navštivte [Stránka s bezplatnou zkušební verzí](https://releases.aspose.com/) pro více informací.
 
 ### Kde najdu dokumentaci?
- Kompletní dokumentaci k Aspose.PDF lze nalézt[zde](https://reference.aspose.com/pdf/net/).
+Kompletní dokumentaci k Aspose.PDF naleznete [zde](https://reference.aspose.com/pdf/net/).
 
-### Jak koupím Aspose.PDF?
- Licenci pro Aspose.PDF si můžete zakoupit prostřednictvím[nákupní stránku](https://purchase.aspose.com/buy).
+### Jak si mohu zakoupit Aspose.PDF?
+Licenci pro Aspose.PDF si můžete zakoupit prostřednictvím [stránka nákupu](https://purchase.aspose.com/buy).
 
-### Co když potřebuji podporu?
-Pokud máte nějaké dotazy nebo potřebujete pomoc, můžete navštívit stránku[Aspose Support Forum](https://forum.aspose.com/c/pdf/10).
+### Co když budu potřebovat podporu?
+Pokud máte jakékoli dotazy nebo potřebujete pomoc, můžete navštívit [Fórum podpory Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tìm kiếm và lấy trang văn bản trong tệp PDF
-linktitle: Tìm kiếm và lấy trang văn bản trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tìm kiếm và lấy văn bản từ một trang cụ thể trong tệp PDF bằng Aspose.PDF cho .NET.
-weight: 430
-url: /vi/net/programming-with-text/search-and-get-text-page/
+"description": "Tìm hiểu cách tìm kiếm và lấy văn bản từ một trang cụ thể trong tệp PDF bằng Aspose.PDF cho .NET."
+"linktitle": "Tìm kiếm và lấy trang văn bản trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tìm kiếm và lấy trang văn bản trong tệp PDF"
+"url": "/vi/net/programming-with-text/search-and-get-text-page/"
+"weight": 430
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tìm kiếm và lấy trang văn bản trong tệp PDF
@@ -21,9 +23,9 @@ Bạn đã bao giờ thấy mình cần tìm kiếm văn bản cụ thể trong 
 
 Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.PDF cho Thư viện .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/) hoặc nhận phiên bản dùng thử miễn phí từ cùng một liên kết. Để mua, hãy truy cập[Cửa hàng Aspose](https://purchase.aspose.com/buy).
+1. Aspose.PDF cho Thư viện .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/) hoặc nhận phiên bản dùng thử miễn phí từ cùng một liên kết. Để mua, hãy truy cập [Cửa hàng Aspose](https://purchase.aspose.com/buy).
 2. .NET Framework: Bạn sẽ cần một môi trường phát triển .NET như Visual Studio.
-3. Tệp PDF: Bạn sẽ cần một tệp PDF mẫu để chúng ta có thể tìm kiếm và trích xuất văn bản. Đối với hướng dẫn này, hãy giả sử tệp có tên là`SearchAndGetTextPage.pdf`.
+3. Tệp PDF: Bạn sẽ cần một tệp PDF mẫu để chúng ta có thể tìm kiếm và trích xuất văn bản. Đối với hướng dẫn này, hãy giả sử tệp có tên là `SearchAndGetTextPage.pdf`.
 
 ## Nhập gói
 
@@ -40,17 +42,17 @@ Bây giờ chúng ta đã đề cập đến các điều kiện tiên quyết, 
 
 ## Bước 1: Thiết lập đường dẫn đến thư mục tài liệu của bạn
 
-Trước khi tương tác với PDF, bạn cần xác định đường dẫn đến nơi lưu trữ tài liệu PDF. Điều này đảm bảo chương trình có thể truy cập vào tệp.
+Trước khi tương tác với PDF, bạn cần xác định đường dẫn đến nơi lưu trữ tài liệu PDF. Điều này đảm bảo chương trình có thể truy cập tệp.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  dataDir: Đây là đường dẫn đến thư mục lưu trữ các tệp PDF của bạn. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF được lưu trữ.
+- dataDir: Đây là đường dẫn đến thư mục lưu trữ các tệp PDF của bạn. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp PDF.
 
 ## Bước 2: Tải Tài liệu PDF
 
-Bước tiếp theo là tải tài liệu PDF vào bộ nhớ để bạn có thể làm việc với nó. Sau đây là cách thực hiện:
+Bước tiếp theo là tải tài liệu PDF vào bộ nhớ để bạn có thể làm việc với nó. Cách thực hiện như sau:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "SearchAndGetTextPage.pdf");
@@ -61,7 +63,7 @@ Document pdfDocument = new Document(dataDir + "SearchAndGetTextPage.pdf");
 
 ## Bước 3: Tạo đối tượng hấp thụ văn bản
 
- Các`TextFragmentAbsorber`lớp cho phép bạn tìm kiếm văn bản cụ thể trong PDF. Hãy tạo một phiên bản của lớp này để tìm tất cả các phiên bản của cụm từ tìm kiếm nhất định.
+Các `TextFragmentAbsorber` lớp cho phép bạn tìm kiếm văn bản cụ thể trong PDF. Hãy tạo một phiên bản của lớp này để tìm tất cả các phiên bản của cụm từ tìm kiếm nhất định.
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("Figure");
@@ -92,7 +94,7 @@ TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragmen
 
 ## Bước 6: Lặp qua từng đoạn và trích xuất dữ liệu
 
-Bây giờ chúng ta sẽ lặp lại`textFragmentCollection` và trích xuất nhiều thuộc tính khác nhau của từng đoạn văn bản, chẳng hạn như vị trí, chi tiết phông chữ và màu sắc.
+Bây giờ chúng ta sẽ lặp lại `textFragmentCollection` và trích xuất nhiều thuộc tính khác nhau của từng đoạn văn bản, chẳng hạn như vị trí, chi tiết phông chữ và màu sắc.
 
 ```csharp
 foreach (TextFragment textFragment in textFragmentCollection)
@@ -126,22 +128,24 @@ Và bạn đã có nó! Bây giờ bạn đã tìm kiếm và trích xuất thà
 ## Câu hỏi thường gặp
 
 ### Tôi có thể tìm kiếm nhiều cụm từ cùng một lúc không?  
- Có, bạn có thể sửa đổi mã để tìm kiếm nhiều cụm từ bằng cách tạo nhiều`TextFragmentAbsorber` đồ vật.
+Có, bạn có thể sửa đổi mã để tìm kiếm nhiều cụm từ bằng cách tạo nhiều `TextFragmentAbsorber` đồ vật.
 
 ### Làm thế nào để trích xuất văn bản từ một trang cụ thể?  
- Bạn có thể nhắm mục tiêu vào một trang cụ thể bằng cách áp dụng`TextFragmentAbsorber` vào một trang duy nhất thay vì toàn bộ tài liệu. Ví dụ:`pdfDocument.Pages[1].Accept(textFragmentAbsorber);`.
+Bạn có thể nhắm mục tiêu vào một trang cụ thể bằng cách áp dụng `TextFragmentAbsorber` vào một trang duy nhất thay vì toàn bộ tài liệu. Ví dụ: `pdfDocument.Pages[1].Accept(textFragmentAbsorber);`.
 
 ### Aspose.PDF cho .NET có miễn phí không?  
- Aspose.PDF là một sản phẩm thương mại, nhưng bạn có thể sử dụng nó với[dùng thử miễn phí](https://releases.aspose.com/).
+Aspose.PDF là một sản phẩm thương mại, nhưng bạn có thể sử dụng nó với [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể trích xuất hình ảnh từ PDF bằng Aspose.PDF không?  
- Có, Aspose.PDF cho phép bạn trích xuất hình ảnh ngoài văn bản. Kiểm tra[tài liệu](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết.
+Có, Aspose.PDF cho phép bạn trích xuất hình ảnh ngoài văn bản. Kiểm tra [tài liệu](https://reference.aspose.com/pdf/net/) để biết thêm chi tiết.
 
 ### Tôi phải làm sao nếu cần thêm trợ giúp hoặc hỗ trợ?  
- Bạn luôn có thể nhận được sự giúp đỡ từ[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn luôn có thể nhận được sự giúp đỡ từ [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

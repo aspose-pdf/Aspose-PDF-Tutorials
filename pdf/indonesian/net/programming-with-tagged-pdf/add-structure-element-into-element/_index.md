@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Elemen Struktur Ke Dalam Elemen
-linktitle: Tambahkan Elemen Struktur Ke Dalam Elemen
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan elemen struktur aksesibilitas ke dalam PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
-weight: 20
-url: /id/net/programming-with-tagged-pdf/add-structure-element-into-element/
+"description": "Pelajari cara menambahkan elemen struktur aksesibilitas ke dalam PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini."
+"linktitle": "Tambahkan Elemen Struktur Ke Dalam Elemen"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Elemen Struktur Ke Dalam Elemen"
+"url": "/id/net/programming-with-tagged-pdf/add-structure-element-into-element/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Elemen Struktur Ke Dalam Elemen
@@ -21,8 +23,8 @@ Di dunia digital saat ini, aksesibilitas adalah kuncinya. Setiap orang harus mem
 
 Sebelum kita memulai perjalanan kita ke dunia elemen struktur PDF, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Bahasa Indonesia: Studio Visual: Ini adalah IDE tempat Anda menulis dan menjalankan kode C#. Anda dapat mengunduhnya dari[Visual Studio](https://visualstudio.microsoft.com/) jika Anda belum melakukannya.
-2.  Pustaka Aspose.PDF untuk .NET: Anda memerlukan pustaka untuk memanipulasi PDF. Unduh versi terbaru dari[Situs web Aspose](https://releases.aspose.com/pdf/net/)Pustaka ini sangat penting untuk proyek kami.
+1. Visual Studio: Ini adalah IDE tempat Anda menulis dan menjalankan kode C#. Anda dapat mengunduhnya dari [Bahasa Indonesia: Studio Visual](https://visualstudio.microsoft.com/) jika Anda belum melakukannya.
+2. Pustaka Aspose.PDF untuk .NET: Anda memerlukan pustaka untuk memanipulasi PDF. Unduh versi terbaru dari [Situs web Aspose](https://releases.aspose.com/pdf/net/)Pustaka ini sangat penting untuk proyek kami.
 3. Pengetahuan Dasar tentang C#: Pemahaman terhadap sintaks C# dan pemrograman berorientasi objek akan sangat bermanfaat. Jika Anda dapat dengan senang hati menulis beberapa baris C#, Anda siap untuk memulai!
 4. Direktori Dokumen PDF: Buat direktori pada sistem Anda tempat Anda menyimpan file PDF masukan dan keluaran untuk tutorial ini.
 
@@ -49,7 +51,7 @@ Sebelum melakukan pengkodean, kita perlu menentukan di mana kita akan menyimpan 
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan file PDF Anda. Ini bisa berupa sesuatu seperti`C:\\PDFs\\`.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan file PDF Anda. Ini bisa berupa sesuatu seperti `C:\\PDFs\\`.
 
 ## Langkah 2: Buat Dokumen PDF Baru
 
@@ -59,7 +61,7 @@ Sekarang setelah kita menetapkan direktori, mari buat dokumen PDF tempat kita ak
 Document document = new Document();
 ```
 
- Baris ini menginisialisasi instance baru dari`Document` kelas, yang memungkinkan kita mulai bekerja dengan konten PDF kita.
+Baris ini menginisialisasi instance baru dari `Document` kelas, yang memungkinkan kita mulai bekerja dengan konten PDF kita.
 
 ## Langkah 3: Akses dan Siapkan Konten yang Ditandai
 
@@ -114,7 +116,7 @@ SpanElement span12 = taggedContent.CreateSpanElement();
 span12.SetText(" and Span_12.");
 ```
 
- Itu`span` Elemen-elemen tersebut seperti paragraf mini dalam paragraf yang lebih besar. Elemen-elemen tersebut memungkinkan kontrol yang lebih baik atas format teks.
+Itu `span` Elemen-elemen tersebut seperti paragraf mini dalam paragraf yang lebih besar. Elemen-elemen tersebut memungkinkan kontrol yang lebih baik atas format teks.
 
 ### Gabungkan Semuanya
 
@@ -142,7 +144,7 @@ p2.SetText(" and ");
 p2.AppendChild(span22);
 ```
 
- Teruslah berkreasi`ParagraphElement` pasir`SpanElement` s, menambahkannya ke`rootElement` dengan cara yang sama seperti yang ditunjukkan di atas untuk`p1`.
+Teruslah berkreasi `ParagraphElement`pasir `SpanElement`s, menambahkannya ke `rootElement` dengan cara yang sama seperti yang ditunjukkan di atas untuk `p1`.
 
 ## Langkah 5: Simpan Dokumen Anda
 
@@ -190,16 +192,18 @@ Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat,
 Anda dapat memvalidasi PDF Anda terhadap standar PDF/UA menggunakan pustaka Aspose.PDF untuk memastikannya memenuhi pedoman aksesibilitas.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis, yang memungkinkan Anda menjelajahi fitur-fiturnya tanpa biaya apa pun. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis, yang memungkinkan Anda menjelajahi fitur-fiturnya tanpa biaya apa pun. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.PDF?
-Anda dapat menemukan dokumentasi lengkap untuk Aspose.PDF[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap untuk Aspose.PDF [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara membeli lisensi untuk Aspose.PDF?
- Anda dapat membeli lisensi langsung dari situs web Aspose[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi langsung dari situs web Aspose [Di Sini](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

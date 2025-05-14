@@ -1,28 +1,30 @@
 ---
-title: Dodaj pieczątkę obrazkową do pliku PDF
-linktitle: Dodaj pieczątkę obrazkową do pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodać znacznik graficzny do plików PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z instrukcji krok po kroku i przykładowego kodu.
-weight: 20
-url: /pl/net/programming-with-stamps-and-watermarks/add-image-stamp/
+"description": "Dowiedz się, jak dodać znacznik graficzny do plików PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z instrukcji krok po kroku i przykładowego kodu."
+"linktitle": "Dodaj pieczątkę obrazkową do pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj pieczątkę obrazkową do pliku PDF"
+"url": "/pl/net/programming-with-stamps-and-watermarks/add-image-stamp/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj pieczątkę obrazkową do pliku PDF
 
 ## Wstęp
 
-Jeśli chodzi o manipulowanie plikami PDF, niewiele narzędzi jest tak solidnych i przyjaznych dla użytkownika jak Aspose.PDF dla .NET. Niezależnie od tego, czy chcesz dodawać adnotacje, tworzyć formularze czy stemplować obrazy, ta biblioteka zapewnia rozbudowaną funkcjonalność, aby sprostać różnym potrzebom w zakresie manipulowania plikami PDF. W tym samouczku skupimy się na konkretnym zadaniu: dodaniu stempla obrazu do pliku PDF. Nie chodzi tu tylko o umieszczenie obrazu na stronie; chodzi o ulepszenie dokumentów za pomocą brandingu i atrakcyjności wizualnej!
+Jeśli chodzi o manipulowanie plikami PDF, niewiele narzędzi jest tak solidnych i przyjaznych dla użytkownika jak Aspose.PDF dla .NET. Niezależnie od tego, czy chcesz dodawać adnotacje, tworzyć formularze czy stemplować obrazy, ta biblioteka zapewnia rozbudowaną funkcjonalność, aby sprostać różnym potrzebom w zakresie manipulowania plikami PDF. W tym samouczku skupimy się na konkretnym zadaniu: dodaniu stempla graficznego do pliku PDF. Nie chodzi tu tylko o umieszczenie obrazu na stronie; chodzi o ulepszenie dokumentów za pomocą brandingu i atrakcyjności wizualnej!
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w szczegóły kodu, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto, czego będziesz potrzebować:
 
 1. Visual Studio lub dowolne środowisko IDE .NET: Aby zaimplementować fragmenty kodu, potrzebne jest środowisko programistyczne .NET.
-2.  Aspose.PDF dla biblioteki .NET: To jest główne narzędzie, którego będziemy używać. Najnowszą wersję biblioteki można pobrać ze strony[Strona wydania Aspose](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla biblioteki .NET: To jest główne narzędzie, którego będziemy używać. Najnowszą wersję biblioteki można pobrać ze strony [Strona wydania Aspose](https://releases.aspose.com/pdf/net/).
 3. Podstawowa znajomość języka C#: Podstawowa znajomość programowania w języku C# pomoże Ci płynnie poruszać się po kodzie.
 4. Plik obrazu: Potrzebujesz pliku obrazu, którego chcesz użyć jako pieczątki. Upewnij się, że jest w obsługiwanym formacie (np. JPEG, PNG itp.).
 5. Istniejący plik PDF: Przygotuj przykładowy plik PDF, do którego chcesz dodać stempel graficzny.
@@ -44,13 +46,13 @@ Umożliwi to dostęp do różnych klas i metod udostępnianych przez bibliotekę
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
- Pierwszym krokiem jest określenie ścieżki do dokumentów. Będziesz chciał przechowywać dokument i obrazy w dobrze zdefiniowanym katalogu. Dla uproszczenia zadeklaruj zmienną`dataDir` tak:
+Pierwszym krokiem jest określenie ścieżki do dokumentów. Będziesz chciał przechowywać dokument i obrazy w dobrze zdefiniowanym katalogu. Dla uproszczenia zadeklaruj zmienną `dataDir` tak:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -60,7 +62,7 @@ Następnie musimy otworzyć dokument PDF, który chcemy zmodyfikować. To jest m
 Document pdfDocument = new Document(dataDir + "AddImageStamp.pdf");
 ```
 
- Ta linia tworzy nowy`Document`obiekt, ładując określony plik PDF. Upewnij się, że plik istnieje w określonym katalogu; w przeciwnym razie pojawi się błąd file-not-found!
+Ta linia tworzy nowy `Document` obiekt, ładując określony plik PDF. Upewnij się, że plik istnieje w określonym katalogu; w przeciwnym razie pojawi się błąd file-not-found!
 
 ## Krok 3: Utwórz pieczątkę obrazkową
 
@@ -70,7 +72,7 @@ Teraz nadchodzi zabawna część — dodanie stempla obrazu! Najpierw musimy utw
 ImageStamp imageStamp = new ImageStamp(dataDir + "aspose-logo.jpg");
 ```
 
- Ta linia inicjuje`ImageStamp` obiekt, który reprezentuje obraz, który chcesz dodać. Ważne jest, aby sprawdzić, czy ścieżka do pliku obrazu jest poprawna.
+Ta linia inicjuje `ImageStamp` obiekt, który reprezentuje obraz, który chcesz dodać. Ważne jest, aby sprawdzić, czy ścieżka do pliku obrazu jest poprawna.
 
 ## Krok 4: Skonfiguruj właściwości stempla graficznego
 
@@ -111,7 +113,7 @@ Twój dokument został zapisany z nowym stemplem graficznym!
 
 ## Krok 7: Potwierdź modyfikację
 
-Na koniec, zawsze dobrze jest potwierdzić, że operacja się powiodła. Możesz to zrobić za pomocą prostej wiadomości w konsoli:
+Na koniec, zawsze dobrze jest potwierdzić, że operacja się powiodła. Możesz to zrobić za pomocą prostego komunikatu konsoli:
 
 ```csharp
 Console.WriteLine("\nImage stamp added successfully.\nFile saved at " + dataDir);
@@ -126,22 +128,24 @@ Gratulacje! Właśnie dodałeś stempel graficzny do pliku PDF za pomocą Aspose
 ## Najczęściej zadawane pytania
 
 ### Czy korzystanie z Aspose.PDF dla platformy .NET jest bezpłatne?  
- Aspose.PDF oferuje bezpłatną wersję próbną, ale do dalszego korzystania po okresie próbnym wymagana jest licencja. Możesz sprawdzić[opcje cenowe tutaj](https://purchase.aspose.com/buy).
+Aspose.PDF oferuje bezpłatną wersję próbną, ale do dalszego korzystania po okresie próbnym wymagana jest licencja. Możesz sprawdzić [opcje cenowe tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę dodać wiele znaczków do jednego pliku PDF?  
- Oczywiście! Możesz utworzyć wiele`ImageStamp` obiekty i dodawać je do dowolnej strony w pliku PDF.
+Oczywiście! Możesz utworzyć wiele `ImageStamp` obiekty i dodawać je do dowolnej strony w pliku PDF.
 
 ### Jakie formaty obrazów są obsługiwane w przypadku znaczków?  
 Aspose.PDF obsługuje różne formaty obrazów, w tym JPEG, PNG i BMP.
 
 ### Jak mogę obrócić stempel graficzny?  
- Możesz ustawić`Rotate` własność`ImageStamp` obiekt, aby obrócić obraz pod żądanym kątem. Opcje obejmują`Rotation.on90`, `Rotation.on180`itp.
+Możesz ustawić `Rotate` własność `ImageStamp` obiekt, aby obrócić obraz pod żądanym kątem. Opcje obejmują `Rotation.on90`, `Rotation.on180`itd.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.PDF?  
- Możesz zapoznać się z pełną dokumentacją i referencjami API[Tutaj](https://reference.aspose.com/pdf/net/).
+Możesz zapoznać się z pełną dokumentacją i referencjami API [Tutaj](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

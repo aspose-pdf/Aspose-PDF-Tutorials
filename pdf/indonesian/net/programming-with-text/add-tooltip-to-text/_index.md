@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Tooltip ke Teks dalam File PDF
-linktitle: Tambahkan Tooltip ke Teks dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan tooltips ke teks dalam file PDF menggunakan Aspose.PDF for .NET. Sempurnakan PDF Anda dengan teks hover informatif dengan mudah.
-weight: 90
-url: /id/net/programming-with-text/add-tooltip-to-text/
+"description": "Pelajari cara menambahkan tooltips ke teks dalam file PDF menggunakan Aspose.PDF for .NET. Sempurnakan PDF Anda dengan teks hover informatif dengan mudah."
+"linktitle": "Tambahkan Tooltip ke Teks dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Tooltip ke Teks dalam File PDF"
+"url": "/id/net/programming-with-text/add-tooltip-to-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Tooltip ke Teks dalam File PDF
@@ -25,7 +27,7 @@ Sebelum kita masuk ke bagian pengkodean, mari pastikan Anda memiliki semua yang 
 Sangat penting untuk menginstal Visual Studio di komputer Anda, karena ini akan menjadi lingkungan pengembangan utama untuk aplikasi .NET.
 
 ### Aspose.PDF untuk Pustaka .NET
- Anda juga perlu memiliki pustaka Aspose.PDF. Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/)Pastikan untuk menyertakannya dalam referensi proyek Anda.
+Anda juga perlu memiliki pustaka Aspose.PDF. Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/)Pastikan untuk menyertakannya dalam referensi proyek Anda.
 
 ### Pengetahuan Dasar C#
 Latar belakang dalam C# akan sangat membantu karena kita akan membuat kode dalam bahasa tersebut. Namun jangan khawatir—saya akan memandu Anda melalui setiap langkah!
@@ -37,7 +39,7 @@ Sekarang, mari kita lanjut ke bagian pengkodean!
 
 ## Paket Impor 
 
- Langkah pertama dalam petualangan coding kita melibatkan pengimporan paket-paket yang diperlukan. Buka proyek Visual Studio Anda, dan di bagian atas file C# Anda, Anda ingin menambahkan yang berikut ini`using` arahan:
+Langkah pertama dalam petualangan coding kita melibatkan pengimporan paket-paket yang diperlukan. Buka proyek Visual Studio Anda, dan di bagian atas file C# Anda, Anda ingin menambahkan yang berikut ini `using` arahan:
 
 ```csharp
 using Aspose.Pdf.Forms;
@@ -56,14 +58,14 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outputFile = dataDir + "Tooltip_out.pdf";
 ```
 
- Pastikan untuk mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya di mesin Anda.
+Pastikan untuk mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya di mesin Anda.
 
 ## Langkah 2: Buat Contoh Dokumen PDF
 
 Berikutnya, saatnya membuat PDF sederhana dengan beberapa teks. Di sinilah kita memulai proses kreatif kita!
 
 ```csharp
-//Buat contoh dokumen dengan teks
+// Buat contoh dokumen dengan teks
 Document doc = new Document();
 doc.Pages.Add().Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a tooltip"));
 doc.Pages[1].Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a very long tooltip"));
@@ -102,7 +104,7 @@ Berikutnya, kami mengekstrak fragmen teks yang kami temukan dari langkah sebelum
 TextFragmentCollection textFragments = absorber.TextFragments;
 ```
 
-Potongan ini memungkinkan kita untuk menyimpan referensi untuk fragmen teks yang kita minati.
+Potongan kode ini memungkinkan kita menyimpan referensi untuk fragmen teks yang kita minati.
 
 ## Langkah 6: Ulangi Fragmen dan Tambahkan Tooltip
 
@@ -173,19 +175,21 @@ Dengan hanya mengarahkan kursor pada kata atau frasa, pembaca akan mendapatkan i
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF dalam aplikasi .NET.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan uji coba gratis bagi Anda untuk menjelajahi fitur-fiturnya! Anda dapat menemukannya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan uji coba gratis bagi Anda untuk menjelajahi fitur-fiturnya! Anda dapat menemukannya [Di Sini](https://releases.aspose.com/).
 
 ### Apakah ada pilihan lisensi yang tersedia untuk Aspose.PDF?
-Ya, Anda dapat membeli lisensi atau memperoleh lisensi sementara. Lihat pilihannya[Di Sini](https://purchase.aspose.com/).
+Ya, Anda dapat membeli lisensi atau memperoleh lisensi sementara. Lihat pilihannya [Di Sini](https://purchase.aspose.com/).
 
 ### Bisakah saya menambahkan elemen interaktif selain tooltip menggunakan Aspose.PDF?
 Tentu saja! Aspose.PDF memungkinkan penambahan berbagai elemen interaktif seperti hyperlink, tombol, dan formulir.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?
- Anda dapat memeriksa dokumentasinya[Di Sini](https://reference.aspose.com/pdf/net/) untuk panduan lebih mendalam.
+Anda dapat memeriksa dokumentasinya [Di Sini](https://reference.aspose.com/pdf/net/) untuk panduan lebih mendalam.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

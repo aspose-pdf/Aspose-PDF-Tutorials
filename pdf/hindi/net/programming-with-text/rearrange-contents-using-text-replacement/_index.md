@@ -1,14 +1,16 @@
 ---
-title: टेक्स्ट प्रतिस्थापन का उपयोग करके सामग्री को पुनर्व्यवस्थित करें
-linktitle: टेक्स्ट प्रतिस्थापन का उपयोग करके सामग्री को पुनर्व्यवस्थित करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: .NET के लिए Aspose.PDF के साथ टेक्स्ट प्रतिस्थापन का उपयोग करके PDF सामग्री को पुनर्व्यवस्थित करना सीखें। अपने दस्तावेज़ संपादन कौशल को बढ़ाने के लिए चरण-दर-चरण ट्यूटोरियल।
-weight: 270
-url: /hi/net/programming-with-text/rearrange-contents-using-text-replacement/
+"description": ".NET के लिए Aspose.PDF के साथ टेक्स्ट प्रतिस्थापन का उपयोग करके PDF सामग्री को पुनर्व्यवस्थित करना सीखें। अपने दस्तावेज़ संपादन कौशल को बढ़ाने के लिए चरण-दर-चरण ट्यूटोरियल।"
+"linktitle": "टेक्स्ट प्रतिस्थापन का उपयोग करके सामग्री को पुनर्व्यवस्थित करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "टेक्स्ट प्रतिस्थापन का उपयोग करके सामग्री को पुनर्व्यवस्थित करें"
+"url": "/hi/net/programming-with-text/rearrange-contents-using-text-replacement/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # टेक्स्ट प्रतिस्थापन का उपयोग करके सामग्री को पुनर्व्यवस्थित करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-text/rearrange-contents-using-text-replacement/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित चीज़ें तैयार हैं:
 
-1.  .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.PDF स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+1. .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.PDF स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 2. .NET डेवलपमेंट एनवायरनमेंट: एक कार्यशील .NET एनवायरनमेंट (जैसे विजुअल स्टूडियो) जरूरी है। कोड उदाहरण C# के साथ काम करेंगे।
 3. C# की बुनियादी समझ: C# प्रोग्रामिंग से परिचित होने से आपको कोड को प्रभावी ढंग से समझने में मदद मिलेगी।
 
@@ -60,18 +62,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // स्रोत पीडीएफ फ़ाइल लोड करें
 Document doc = new Document(dataDir + "ExtractTextPage.pdf");
 ```
- यहां, आप वह निर्देशिका निर्दिष्ट करते हैं जहां आपका पीडीएफ संग्रहीत है।`Document`क्लास का उपयोग हमारी मौजूदा पीडीएफ फाइल को लोड करने के लिए किया जाता है`ExtractTextPage.pdf`.
+यहां, आप वह निर्देशिका निर्दिष्ट करते हैं जहां आपका पीडीएफ संग्रहीत है। `Document` क्लास का उपयोग हमारी मौजूदा पीडीएफ फाइल को लोड करने के लिए किया जाता है `ExtractTextPage.pdf`.
 
 ## चरण 2: टेक्स्टफ़्रेगमेंट अवशोषक बनाएँ
 
- इसके बाद, हम एक बनाएंगे`TextFragmentAbsorber` यह हमें नियमित अभिव्यक्ति का उपयोग करके विशिष्ट पाठ अंश खोजने की अनुमति देता है।
+इसके बाद, हम एक बनाएंगे `TextFragmentAbsorber` यह हमें नियमित अभिव्यक्ति का उपयोग करके विशिष्ट पाठ अंश खोजने की अनुमति देता है।
 
 ```csharp
 // नियमित अभिव्यक्ति के साथ TextFragment अवशोषक ऑब्जेक्ट बनाएँ
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("[TextFragmentAbsorber,companyname,Textbox,50]");
 doc.Pages.Accept(textFragmentAbsorber);
 ```
-`TextFragmentAbsorber` आप जिस टेक्स्ट फ़्रैगमेंट को बदलना चाहते हैं, उसे ढूँढने के लिए पैटर्न का उपयोग करता है। अपने विशिष्ट टेक्स्ट के लिए आवश्यकतानुसार रेगुलर एक्सप्रेशन को समायोजित करें।
+The `TextFragmentAbsorber` आप जिस टेक्स्ट फ़्रैगमेंट को बदलना चाहते हैं, उसे ढूँढने के लिए पैटर्न का उपयोग करता है। अपने विशिष्ट टेक्स्ट के लिए आवश्यकतानुसार रेगुलर एक्सप्रेशन को समायोजित करें।
 
 ## चरण 3: प्रत्येक पाठ खंड को बदलें
 
@@ -90,7 +92,7 @@ foreach (TextFragment textFragment in textFragmentAbsorber.TextFragments)
     textFragment.Text = "This is a Larger String for the Testing of this issue";
 }
 ```
- लूप के अंदर, हम प्रत्येक के माध्यम से पुनरावृति करते हैं`TextFragment` यहाँ, हम फ़ॉन्ट शैली, आकार और रंग को अनुकूलित करते हैं। सबसे महत्वपूर्ण बात, हम मूल पाठ को अपनी नई स्ट्रिंग से बदल देते हैं।
+लूप के अंदर, हम प्रत्येक के माध्यम से पुनरावृति करते हैं `TextFragment` यहाँ, हम फ़ॉन्ट शैली, आकार और रंग को अनुकूलित करते हैं। सबसे महत्वपूर्ण बात यह है कि हम मूल पाठ को अपनी नई स्ट्रिंग से बदल देते हैं।
 
 ## चरण 4: संशोधित दस्तावेज़ सहेजें
 
@@ -102,7 +104,7 @@ dataDir = dataDir + "RearrangeContentsUsingTextReplacement_out.pdf";
 doc.Save(dataDir);
 Console.WriteLine("\nContents rearranged successfully using text replacement.\nFile saved at " + dataDir);
 ```
- संशोधित पीडीएफ को का उपयोग करके सहेजा जाता है`Save`विधि। सुनिश्चित करें कि आप अपनी मूल फ़ाइल को अधिलेखित करने से बचने के लिए एक उपयुक्त फ़ाइल नाम जोड़ते हैं।
+संशोधित पीडीएफ को का उपयोग करके सहेजा जाता है `Save` विधि। सुनिश्चित करें कि आप अपनी मूल फ़ाइल को अधिलेखित करने से बचने के लिए एक उपयुक्त फ़ाइल नाम जोड़ते हैं।
 
 ## चरण 5: अपवादों को संभालें
 
@@ -111,14 +113,14 @@ Console.WriteLine("\nContents rearranged successfully using text replacement.\nF
 ```csharp
 catch (Exception ex)
 {
-    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from http://www.aspose.com/purchase/default.aspx");
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from http://www.aspose.com/purchase/default.aspx.");
 }
 ```
-अपवादों को पकड़ने से आप किसी भी समस्या को सुचारू रूप से संभाल सकते हैं - जैसे फ़ाइल एक्सेस समस्याएँ या अमान्य लाइसेंस। सॉफ़्टवेयर विकास में यह एक महत्वपूर्ण अभ्यास है!
+अपवादों को पकड़ने से आप किसी भी संभावित समस्या को शालीनता से संभाल सकते हैं - जैसे फ़ाइल एक्सेस समस्याएँ या अमान्य लाइसेंस। सॉफ़्टवेयर विकास में यह एक महत्वपूर्ण अभ्यास है!
 
 ## निष्कर्ष
 
-और बस! आपने .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ में सामग्री को सफलतापूर्वक पुनर्व्यवस्थित कर लिया है। कोड की कुछ ही पंक्तियों के साथ, आप विशिष्ट टेक्स्ट अंशों को बदल सकते हैं और उन्हें अपनी पसंद के अनुसार कस्टमाइज़ कर सकते हैं। यह आश्चर्यजनक है कि यह लाइब्रेरी आपको PDF फ़ाइलों को संभालने में कितनी शक्ति देती है। अब आप आगे बढ़ सकते हैं और अधिक टेक्स्ट प्रतिस्थापन के साथ खेल सकते हैं या Aspose.PDF द्वारा प्रदान की जाने वाली अन्य कार्यक्षमताओं का भी पता लगा सकते हैं।
+और बस! आपने .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ में सामग्री को सफलतापूर्वक पुनर्व्यवस्थित कर लिया है। कोड की सिर्फ़ कुछ पंक्तियों के साथ, आप विशिष्ट टेक्स्ट अंशों को बदल सकते हैं और उन्हें अपनी पसंद के अनुसार कस्टमाइज़ कर सकते हैं। यह आश्चर्यजनक है कि यह लाइब्रेरी आपको PDF फ़ाइलों को संभालने में कितनी शक्ति देती है। अब आप आगे बढ़ सकते हैं और अधिक टेक्स्ट प्रतिस्थापन के साथ खेल सकते हैं या Aspose.PDF द्वारा प्रदान की जाने वाली अन्य कार्यक्षमताओं का भी पता लगा सकते हैं।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -134,11 +136,13 @@ Aspose.PDF सीमित निःशुल्क परीक्षण प्
 ### क्या मैं PDF में चित्र या ग्राफिक्स बदल सकता हूँ?
 Aspose.PDF छवियों में हेरफेर करने के लिए विभिन्न विधियां भी प्रदान करता है।
 
-### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
- आप उनकी वेबसाइट पर सहायता पा सकते हैं[सहयता मंच](https://forum.aspose.com/c/pdf/10).
+### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त करूं?
+आप उनकी वेबसाइट पर सहायता पा सकते हैं [सहयता मंच](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

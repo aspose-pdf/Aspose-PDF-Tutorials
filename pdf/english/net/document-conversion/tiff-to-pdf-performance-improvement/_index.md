@@ -8,7 +8,9 @@ url: /net/document-conversion/tiff-to-pdf-performance-improvement/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # TIFF To PDF Performance Improvement
@@ -207,6 +209,7 @@ Yes, Aspose.PDF allows you to add watermarks to your PDF. This can be done after
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

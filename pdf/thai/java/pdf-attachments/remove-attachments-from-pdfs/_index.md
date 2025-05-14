@@ -1,14 +1,16 @@
 ---
-title: ลบสิ่งที่แนบมาจากไฟล์ PDF
-linktitle: ลบสิ่งที่แนบมาจากไฟล์ PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีลบไฟล์แนบจาก PDF ใน Java ด้วย Aspose.PDF คำแนะนำทีละขั้นตอนและโค้ดสำหรับการจัดการ PDF
-weight: 11
-url: /th/java/pdf-attachments/remove-attachments-from-pdfs/
+"description": "เรียนรู้วิธีลบไฟล์แนบจาก PDF ใน Java ด้วย Aspose.PDF คำแนะนำทีละขั้นตอนและโค้ดสำหรับการจัดการ PDF"
+"linktitle": "ลบสิ่งที่แนบมาจากไฟล์ PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ลบสิ่งที่แนบมาจากไฟล์ PDF"
+"url": "/th/java/pdf-attachments/remove-attachments-from-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบสิ่งที่แนบมาจากไฟล์ PDF
@@ -23,7 +25,7 @@ url: /th/java/pdf-attachments/remove-attachments-from-pdfs/
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
 - สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ในระบบของคุณแล้ว
--  Aspose.PDF สำหรับ Java: คุณสามารถดาวน์โหลดไลบรารีได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับ Java: คุณสามารถดาวน์โหลดไลบรารีได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การตั้งค่าโครงการของคุณ
 
@@ -75,7 +77,7 @@ pdfDocument.save("path/to/save/modified/file.pdf");
 
 ### ฉันจะตรวจสอบได้อย่างไรว่า PDF มีไฟล์แนบหรือไม่ก่อนที่จะลบออก?
 
- คุณสามารถใช้`getEmbeddedFiles()` วิธีการดึงไฟล์แนบ หากไฟล์ว่างเปล่า แสดงว่าไม่มีไฟล์แนบในไฟล์ PDF
+คุณสามารถใช้ `getEmbeddedFiles()` วิธีการดึงไฟล์แนบ หากไฟล์ว่างเปล่า แสดงว่าไม่มีไฟล์แนบในไฟล์ PDF
 
 ### ฉันสามารถลบไฟล์แนบบางไฟล์ออกและเก็บไฟล์อื่นๆ ไว้ได้ไหม
 
@@ -87,14 +89,16 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### Aspose.PDF รองรับภาษาการเขียนโปรแกรมอื่น ๆ หรือไม่?
 
-ใช่ Aspose.PDF สามารถรองรับภาษาการเขียนโปรแกรมหลายภาษา จึงทำให้มีความยืดหยุ่นสำหรับสภาพแวดล้อมการพัฒนาต่างๆ
+ใช่ Aspose.PDF พร้อมใช้งานสำหรับภาษาการเขียนโปรแกรมหลายภาษา จึงทำให้มีความยืดหยุ่นสำหรับสภาพแวดล้อมการพัฒนาต่างๆ
 
 ### ฉันจะได้รับความช่วยเหลือเพิ่มเติมเกี่ยวกับ Aspose.PDF สำหรับ Java ได้อย่างไร
 
- คุณสามารถเยี่ยมชมเอกสาร Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/) สำหรับข้อมูลโดยละเอียดและตัวอย่าง
+คุณสามารถเยี่ยมชมเอกสาร Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference.aspose.com/pdf/java/) สำหรับข้อมูลโดยละเอียดและตัวอย่าง
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

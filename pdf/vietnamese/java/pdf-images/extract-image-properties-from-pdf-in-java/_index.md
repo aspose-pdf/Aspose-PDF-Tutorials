@@ -1,14 +1,16 @@
 ---
-title: Trích xuất thuộc tính hình ảnh từ PDF trong Java
-linktitle: Trích xuất thuộc tính hình ảnh từ PDF trong Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách trích xuất thuộc tính hình ảnh từ PDF trong Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn. Nâng cao kỹ năng xử lý PDF của bạn ngay hôm nay!
-weight: 23
-url: /vi/java/pdf-images/extract-image-properties-from-pdf-in-java/
+"description": "Tìm hiểu cách trích xuất thuộc tính hình ảnh từ PDF trong Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn. Nâng cao kỹ năng xử lý PDF của bạn ngay hôm nay!"
+"linktitle": "Trích xuất thuộc tính hình ảnh từ PDF trong Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Trích xuất thuộc tính hình ảnh từ PDF trong Java"
+"url": "/vi/java/pdf-images/extract-image-properties-from-pdf-in-java/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất thuộc tính hình ảnh từ PDF trong Java
@@ -18,11 +20,11 @@ Aspose.PDF for Java là một thư viện mạnh mẽ cho phép bạn làm việ
 
 ## 1. Giới thiệu
 
-Tài liệu PDF thường chứa hình ảnh và có thể hữu ích khi trích xuất thông tin về những hình ảnh này theo chương trình. Aspose.PDF for Java cung cấp một cách thuận tiện để trích xuất các thuộc tính hình ảnh như kích thước, độ phân giải và định dạng. Hãy bắt đầu!
+Tài liệu PDF thường chứa hình ảnh và có thể hữu ích khi trích xuất thông tin về những hình ảnh này theo chương trình. Aspose.PDF cho Java cung cấp một cách thuận tiện để trích xuất các thuộc tính hình ảnh như kích thước, độ phân giải và định dạng. Hãy bắt đầu!
 
 ## 2. Thiết lập Aspose.PDF cho Java
 
- Trước khi bắt đầu, bạn cần thiết lập Aspose.PDF cho Java trong dự án của mình. Bạn có thể tải xuống thư viện từ trang web[đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt.
+Trước khi bắt đầu, bạn cần thiết lập Aspose.PDF cho Java trong dự án của mình. Bạn có thể tải xuống thư viện từ trang web [đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt.
 
 ## 3. Tải một tài liệu PDF
 
@@ -33,11 +35,11 @@ Tài liệu PDF thường chứa hình ảnh và có thể hữu ích khi trích
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Thay thế`"example.pdf"` với đường dẫn đến tệp PDF của bạn.
+Thay thế `"example.pdf"` với đường dẫn đến tệp PDF của bạn.
 
 ## 4. Trích xuất các thuộc tính hình ảnh
 
- Bây giờ chúng ta đã tải tài liệu PDF, hãy trích xuất các thuộc tính hình ảnh. Aspose.PDF cho Java cung cấp`Page.getResources()` phương pháp truy cập vào tài nguyên của một trang, bao gồm cả hình ảnh.
+Bây giờ chúng ta đã tải tài liệu PDF, hãy trích xuất các thuộc tính hình ảnh. Aspose.PDF cho Java cung cấp `Page.getResources()` phương pháp truy cập vào tài nguyên của một trang, bao gồm cả hình ảnh.
 
 ```java
 // Truy cập trang đầu tiên của tài liệu
@@ -96,11 +98,11 @@ Trong hướng dẫn này, chúng ta đã học cách trích xuất các thuộc
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ trang web[đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+Bạn có thể tải xuống Aspose.PDF cho Java từ trang web [đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
 ### Tôi có thể trích xuất thuộc tính hình ảnh từ các trang cụ thể trong PDF không?
 
-Có, bạn có thể trích xuất các thuộc tính hình ảnh từ các trang cụ thể bằng cách truy cập trang mong muốn bằng cách sử dụng`pdfDocument.getPages().get_Item(pageNumber)` và sau đó làm theo các bước tương tự như trong hướng dẫn.
+Có, bạn có thể trích xuất các thuộc tính hình ảnh từ các trang cụ thể bằng cách truy cập trang mong muốn bằng cách sử dụng `pdfDocument.getPages().get_Item(pageNumber)` và sau đó làm theo các bước tương tự như hướng dẫn.
 
 ### Tôi có thể sửa đổi thuộc tính hình ảnh bằng Aspose.PDF cho Java không?
 
@@ -108,11 +110,13 @@ Có, bạn có thể sửa đổi các thuộc tính hình ảnh như thay đổ
 
 ### Tôi có thể tìm thêm tài liệu và ví dụ về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể truy cập tài liệu và ví dụ toàn diện trên trang web tài liệu API Aspose.PDF dành cho Java:[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+Bạn có thể truy cập tài liệu và ví dụ toàn diện trên trang web tài liệu API Aspose.PDF dành cho Java: [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

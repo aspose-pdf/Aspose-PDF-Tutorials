@@ -1,14 +1,16 @@
 ---
-title: Konwersja i transformacja PDF
-linktitle: Konwersja i transformacja PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Odblokuj moc konwersji i transformacji PDF dzięki Aspose.PDF dla Java - kompleksowe samouczki dla programistów. Popraw swoje umiejętności przetwarzania PDF już dziś!
-weight: 13
-url: /pl/java/pdf-conversion-transformation/
+"description": "Odblokuj moc konwersji i transformacji PDF dzięki Aspose.PDF dla Java - kompleksowe samouczki dla programistów. Popraw swoje umiejętności przetwarzania PDF już dziś!"
+"linktitle": "Konwersja i transformacja PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Konwersja i transformacja PDF"
+"url": "/pl/java/pdf-conversion-transformation/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja i transformacja PDF
@@ -34,13 +36,13 @@ Dowiedz się, jak bez wysiłku konwertować pliki HTML do PDF za pomocą Aspose.
 ### [Przekształć PCL do PDF-ów](./transform-pcl-to-pdfs/)
 Dowiedz się, jak łatwo konwertować pliki PCL do PDF za pomocą Aspose.PDF dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z przykładami kodu, aby uzyskać efektywną transformację dokumentu.
 ### [Konwertuj pliki PDF do formatu XPS](./convert-pdfs-to-xps-format/)
-Bezproblemowa konwersja plików PDF do formatu XPS dzięki Aspose.PDF dla Java. Odblokuj ulepszone drukowanie, bezpieczeństwo i zgodność.
+Bezproblemowa konwersja plików PDF do formatu XPS z Aspose.PDF dla Java. Odblokuj ulepszone drukowanie, bezpieczeństwo i zgodność.
 ### [Zmień pliki PDF na format DOC lub DOCX](./change-pdfs-to-doc-or-docx-format/)
 Dowiedz się, jak bez wysiłku konwertować pliki PDF do formatu DOC lub DOCX za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym i często zadawanymi pytaniami dotyczącymi bezproblemowej transformacji dokumentów.
 ### [Konwertuj pliki PDF na e-booki EPUB](./convert-pdfs-to-epub-ebooks/)
 Konwertuj pliki PDF do e-booków EPUB bez wysiłku dzięki Aspose.PDF dla Java. Poznaj krok po kroku konwersję PDF do EPUB i FAQ.
 ### [Eksportuj pliki PDF do skoroszytów programu Excel](./export-pdfs-to-excel-workbooks/)
-Dowiedz się, jak bez wysiłku eksportować pliki PDF do skoroszytów programu Excel za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku do bezproblemowej ekstrakcji danych.
+Dowiedz się, jak bez wysiłku eksportować pliki PDF do skoroszytów programu Excel za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku dotyczący bezproblemowej ekstrakcji danych.
 ### [Generuj MobiXML z plików PDF](./generate-mobixml-from-pdfs/)
 Dowiedz się, jak generować MobiXML z plików PDF za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku z przykładami kodu. Bezproblemowa konwersja plików PDF do formatu MobiXML.
 ### [Utwórz pliki zgodne ze standardem PDF/A](./create-pdfa-compliant-files/)
@@ -70,12 +72,14 @@ Dowiedz się, jak konwertować PDF do HTML z zamianą czcionek za pomocą Aspose
 ### [Dodawanie JavaScript za pomocą DOM w PDF](./adding-javascript-using-dom-in-pdf/)
 Dowiedz się, jak zwiększyć interaktywność PDF za pomocą JavaScript, używając Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym dla dynamicznych PDF-ów.
 ### [Dodawanie warstw do pliku PDF za pomocą języka Java](./add-layers-to-pdf-file-using-java/)
-Dowiedz się, jak dodawać warstwy do pliku PDF za pomocą Java z Aspose.PDF dla Java. Ten przewodnik krok po kroku zawiera kod źródłowy i obejmuje łatwą manipulację PDF.
+Dowiedz się, jak dodawać warstwy do pliku PDF za pomocą Java z Aspose.PDF dla Java. Ten przewodnik krok po kroku zawiera kod źródłowy i z łatwością omawia manipulację PDF.
 ### [Dodawanie spisu treści do istniejącego pliku PDF w Javie](./add-table-of-contents-to-existing-pdf-in-java/)
 Dowiedz się, jak dodać spis treści do pliku PDF w Javie, używając Aspose.PDF dla Javy. Ulepsz nawigację po dokumencie dzięki temu przewodnikowi krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

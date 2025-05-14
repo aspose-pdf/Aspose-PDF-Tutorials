@@ -1,56 +1,58 @@
 ---
-title: Mellékletadatok lekérése
-linktitle: Mellékletadatok lekérése
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan tölthet le PDF-mellékleteket Java nyelven az Aspose.PDF használatával. Lépésről lépésre útmutató kódpéldákkal a PDF-dokumentummellékletek kezeléséhez.
-weight: 12
-url: /hu/java/pdf-attachments/retrieve-attachment-information/
+"description": "Tanulja meg, hogyan kérhet le PDF-mellékleteket Java nyelven az Aspose.PDF segítségével. Lépésről lépésre útmutató kódpéldákkal PDF-dokumentummellékletek kezeléséhez."
+"linktitle": "Mellékletinformációk lekérése"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "Mellékletinformációk lekérése"
+"url": "/hu/java/pdf-attachments/retrieve-attachment-information/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mellékletadatok lekérése
+# Mellékletinformációk lekérése
 
 
 ## Bevezetés
 
-Ebből az oktatóanyagból megtudhatja, hogyan használja az Aspose.PDF for Java fájlt a mellékletek információinak lekéréséhez PDF-dokumentumból. A mellékletek lehetnek PDF-be ágyazott fájlok vagy dokumentumok, és előfordulhat, hogy ezekhez programozottan kell hozzáférnie.
+Ebben az oktatóanyagban megtanulod, hogyan használható az Aspose.PDF for Java mellékletadatok PDF dokumentumokból történő kinyerésére. A mellékletek lehetnek PDF dokumentumokba ágyazott fájlok vagy dokumentumok, és előfordulhat, hogy programozottan kell hozzáférned az adataikhoz.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-1. Java fejlesztői környezet (JDK) telepítve.
-2.  Aspose.PDF a Java könyvtárhoz. Letöltheti innen[itt](https://releases.aspose.com/pdf/java/).
+1. Telepített Java fejlesztői környezet (JDK).
+2. Aspose.PDF a Java könyvtárhoz. Letöltheti innen [itt](https://releases.aspose.com/pdf/java/).
 
-## 1. lépés: Hozzon létre egy Java projektet
+## 1. lépés: Java projekt létrehozása
 
-Hozzon létre egy új Java-projektet kedvenc integrált fejlesztőkörnyezetében (IDE), és foglalja bele az Aspose.PDF for Java könyvtárat a projektbe.
+Hozz létre egy új Java projektet a kedvenc integrált fejlesztői környezetedben (IDE), és illeszd be az Aspose.PDF for Java könyvtárat a projektedbe.
 
-## 2. lépés: Töltse be a PDF-dokumentumot
+## 2. lépés: Töltse be a PDF dokumentumot
 
-Először is be kell töltenie a mellékleteket tartalmazó PDF dokumentumot. PDF fájl betöltéséhez használja a következő kódot:
+Először is be kell töltened a mellékleteket tartalmazó PDF dokumentumot. Használd a következő kódot egy PDF fájl betöltéséhez:
 
 ```java
-// Töltse be a PDF dokumentumot
+// PDF dokumentum betöltése
 Document pdfDocument = new Document("path/to/your/pdf/document.pdf");
 ```
 
-## 3. lépés: A melléklet adatainak lekérése
+## 3. lépés: Mellékletadatok lekérése
 
-Mostantól lekérheti a mellékletadatokat a betöltött PDF-dokumentumból. Így kaphat listát a mellékletekről, és jelenítheti meg azok részleteit:
+Most már lekérheti a mellékletek adatait a betöltött PDF dokumentumból. Így kérheti le a mellékletek listáját és jelenítheti meg azok részleteit:
 
 ```java
-// Szerezze be a mellékletek gyűjteményét
+// Mellékletek gyűjteményének beszerzése
 AttachmentCollection attachments = pdfDocument.getAttachments();
 
 // Ellenőrizze, hogy vannak-e mellékletek
 if (attachments.size() > 0) {
     System.out.println("Attachments found:");
 
-    // Ismételje meg az egyes mellékleteket
+    // Ismételd végig az egyes mellékleteket
     for (Attachment attachment : attachments) {
         System.out.println("Name: " + attachment.getName());
         System.out.println("Description: " + attachment.getDescription());
@@ -63,33 +65,35 @@ if (attachments.size() > 0) {
 }
 ```
 
-## 4. lépés: Mentse vagy dolgozza fel a mellékleteket
+## 4. lépés: Mellékletek mentése vagy feldolgozása
 
-Szükség szerint tovább dolgozhatja vagy mentheti a mellékleteket. Például kibonthatja és elmentheti őket egy helyi könyvtárba, vagy további műveleteket hajthat végre az alkalmazás követelményei alapján.
+A mellékleteket szükség szerint tovább feldolgozhatja vagy mentheti. Például kibonthatja és mentheti őket egy helyi könyvtárba, vagy további műveleteket hajthat végre az alkalmazás igényei alapján.
 
 ## Következtetés
 
-Ebből az oktatóanyagból megtanulta, hogyan kérheti le a mellékletadatokat egy PDF-dokumentumból az Aspose.PDF for Java segítségével. Most már beépítheti ezt a funkciót Java-alkalmazásaiba, hogy hatékonyan dolgozhasson a PDF-mellékletekkel.
+Ebben az oktatóanyagban megtanultad, hogyan kérhetsz le mellékletadatokat egy PDF dokumentumból az Aspose.PDF for Java segítségével. Mostantól ezt a funkciót beépítheted Java alkalmazásaidba, hogy hatékonyan tudj bánni a PDF mellékletekkel.
 
 ## GYIK
 
-### Hogyan bonthatok ki mellékleteket PDF-ből?
+### Hogyan tudok mellékleteket kinyerni egy PDF-ből?
 
- A mellékletek kibontásához használhatja a`attachment.getData()` módszerrel lekérheti a melléklet tartalmát, majd mentheti azt egy helyi fájlba.
+A mellékletek kinyeréséhez használhatja a `attachment.getData()` metódus a melléklet tartalmának megszerzéséhez, majd egy helyi fájlba mentéséhez.
 
 ### Módosíthatom a mellékleteket egy PDF dokumentumon belül?
-Igen, az Aspose.PDF for Java segítségével hozzáadhat, eltávolíthat vagy frissíthet mellékleteket PDF-dokumentumokhoz. További részletekért tekintse meg a dokumentációt.
+Igen, az Aspose.PDF for Java segítségével hozzáadhat, eltávolíthat vagy frissíthet mellékleteket egy PDF dokumentumban. További részletekért lásd a dokumentációt.
 
-### Melyek a támogatott mellékletformátumok?
+### Milyen mellékletformátumok támogatottak?
 
-Az Aspose.PDF for Java a mellékletformátumok széles skáláját támogatja, beleértve a PDF-et, képeket, dokumentumokat és egyebeket. A MIME-típus tulajdonság segíthet a formátum azonosításában.
+Az Aspose.PDF for Java számos mellékletformátumot támogat, beleértve a PDF-et, képeket, dokumentumokat és egyebeket. A MIME Type tulajdonság segíthet a formátum azonosításában.
 
-### Hogyan tudok új mellékleteket hozzáadni a PDF-hez?
+### Hogyan adhatok hozzá új mellékleteket egy PDF-hez?
 
- A PDF dokumentumhoz csatolmányokat adhat hozzá a`AttachmentCollection.add()`módszer. Egyszerűen adja meg a melléklet nevét, leírását és tartalmát, és a rendszer hozzáadja a dokumentumhoz.
+PDF dokumentumokhoz mellékleteket adhat hozzá a következővel: `AttachmentCollection.add()` metódus. Egyszerűen adja meg a melléklet nevét, leírását és tartalmát, és az hozzáadódik a dokumentumhoz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

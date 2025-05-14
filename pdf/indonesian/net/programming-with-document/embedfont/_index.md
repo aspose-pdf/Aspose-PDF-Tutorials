@@ -1,14 +1,16 @@
 ---
-title: Sematkan Font Dalam File PDF
-linktitle: Sematkan Font Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menyematkan font dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Pastikan dokumen Anda ditampilkan dengan benar di perangkat apa pun.
-weight: 120
-url: /id/net/programming-with-document/embedfont/
+"description": "Pelajari cara menyematkan font dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Pastikan dokumen Anda ditampilkan dengan benar di perangkat apa pun."
+"linktitle": "Sematkan Font Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Sematkan Font Dalam File PDF"
+"url": "/id/net/programming-with-document/embedfont/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sematkan Font Dalam File PDF
@@ -21,7 +23,7 @@ Saat membuat PDF, salah satu aspek terpenting adalah memastikan font yang diguna
 
 Sebelum kita menyelami kodenya, ada beberapa prasyarat yang perlu Anda penuhi:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Lingkungan pengembangan tempat Anda dapat menulis dan mengeksekusi kode .NET Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
@@ -31,7 +33,7 @@ Untuk memulai, Anda perlu mengimpor paket yang diperlukan ke dalam proyek C# And
 
 1. Buka proyek Visual Studio Anda.
 2. Klik kanan pada proyek Anda di Solution Explorer dan pilih "Kelola Paket NuGet."
-3.  Pencarian untuk`Aspose.PDF` dan instal versi terbaru.
+3. Pencarian untuk `Aspose.PDF` dan instal versi terbaru.
 
 ```csharp
 using System.IO;
@@ -52,18 +54,18 @@ Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya tempat file PDF Anda disimpan.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan.
 
 ## Langkah 2: Muat File PDF yang Ada
 
- Selanjutnya, Anda ingin memuat berkas PDF yang ada yang ingin Anda ubah. Ini dilakukan dengan menggunakan`Document` kelas disediakan oleh Aspose.PDF.
+Selanjutnya, Anda ingin memuat berkas PDF yang ada yang ingin Anda ubah. Ini dilakukan dengan menggunakan `Document` kelas disediakan oleh Aspose.PDF.
 
 ```csharp
 // Memuat file PDF yang ada
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Di sini, kami memuat file PDF bernama`input.pdf`Pastikan berkas ini ada di direktori yang Anda tentukan.
+Di sini, kami memuat file PDF bernama `input.pdf`Pastikan berkas ini ada di direktori yang Anda tentukan.
 
 ## Langkah 3: Ulangi Semua Halaman
 
@@ -86,7 +88,7 @@ foreach (Page page in doc.Pages)
 }
 ```
 
- Dalam kode ini, kita memeriksa apakah halaman tersebut memiliki font. Jika ada, kita mengulang setiap font dan memeriksa apakah font tersebut sudah tertanam. Jika tidak, kita menetapkan`IsEmbedded` properti untuk`true`.
+Dalam kode ini, kita memeriksa apakah halaman tersebut memiliki font. Jika ada, kita mengulang setiap font dan memeriksa apakah font tersebut sudah tertanam. Jika tidak, kita menetapkan `IsEmbedded` properti untuk `true`.
 
 ## Langkah 4: Periksa Objek Formulir
 
@@ -112,7 +114,7 @@ Potongan kode ini memeriksa semua objek formulir pada halaman dan melakukan peme
 
 ## Langkah 5: Simpan Dokumen PDF yang Dimodifikasi
 
-Setelah memasukkan font, saatnya menyimpan dokumen PDF yang dimodifikasi. Anda dapat menentukan nama file baru untuk output.
+Setelah memasukkan font, saatnya menyimpan dokumen PDF yang telah dimodifikasi. Anda dapat menentukan nama file baru untuk output.
 
 ```csharp
 dataDir = dataDir + "EmbedFont_out.pdf";
@@ -120,11 +122,11 @@ dataDir = dataDir + "EmbedFont_out.pdf";
 doc.Save(dataDir);
 ```
 
- Dalam kasus ini, kami menyimpan PDF yang dimodifikasi sebagai`EmbedFont_out.pdf` di direktori yang sama.
+Dalam kasus ini, kami menyimpan PDF yang dimodifikasi sebagai `EmbedFont_out.pdf` di direktori yang sama.
 
 ## Langkah 6: Konfirmasikan Operasi
 
-Terakhir, sebaiknya Anda selalu mengonfirmasi bahwa operasi berhasil. Anda dapat melakukannya dengan mencetak pesan ke konsol.
+Terakhir, sebaiknya selalu pastikan bahwa operasi berhasil. Anda dapat melakukannya dengan mencetak pesan ke konsol.
 
 ```csharp
 Console.WriteLine("\nFont embedded successfully in a PDF file.\nFile saved at " + dataDir);
@@ -148,13 +150,15 @@ Aspose.PDF untuk .NET adalah pustaka hebat yang menyederhanakan manipulasi PDF, 
 Ya, Anda dapat menyematkan font dalam berkas PDF yang ada menggunakan pustaka Aspose.PDF seperti yang ditunjukkan dalam tutorial ini.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF?
- Ya, Anda dapat mengunduh uji coba gratis Aspose.PDF dari[situs web](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis Aspose.PDF dari [situs web](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dukungan dan mengajukan pertanyaan di [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

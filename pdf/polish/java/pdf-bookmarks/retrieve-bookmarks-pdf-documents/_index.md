@@ -1,14 +1,16 @@
 ---
-title: Pobieranie zakładek z dokumentów PDF
-linktitle: Pobieranie zakładek z dokumentów PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak efektywnie pobierać zakładki PDF za pomocą Aspose.PDF dla Java, korzystając z tego kompleksowego przewodnika.
-weight: 15
-url: /pl/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/
+"description": "Dowiedz się, jak efektywnie pobierać zakładki PDF za pomocą Aspose.PDF dla Java, korzystając z tego kompleksowego przewodnika."
+"linktitle": "Pobieranie zakładek z dokumentów PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Pobieranie zakładek z dokumentów PDF"
+"url": "/pl/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobieranie zakładek z dokumentów PDF
@@ -16,7 +18,7 @@ url: /pl/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/
 
 ## Wstęp
 
-W tym artykule przyjrzymy się sposobowi pobierania zakładek z dokumentów PDF za pomocą Aspose.PDF dla Java. Zakładki są istotną funkcją plików PDF, która usprawnia nawigację i dostępność. Przeprowadzimy Cię przez proces krok po kroku, z przykładami kodu źródłowego, zapewniając, że możesz wydajnie pracować z zakładkami PDF w swoich aplikacjach Java.
+tym artykule przyjrzymy się sposobowi pobierania zakładek z dokumentów PDF za pomocą Aspose.PDF dla Java. Zakładki są istotną funkcją plików PDF, która usprawnia nawigację i dostępność. Przeprowadzimy Cię przez proces krok po kroku, z przykładami kodu źródłowego, zapewniając, że możesz wydajnie pracować z zakładkami PDF w swoich aplikacjach Java.
 
 ## Czym są zakładki w dokumentach PDF?
 
@@ -78,7 +80,7 @@ Podczas pracy z dokumentami PDF, istotne jest, aby obsługiwać potencjalne bł�
 
 ## Najlepsze praktyki dotyczące pobierania zakładek
 
-Aby w pełni wykorzystać potencjał pobierania zakładek, postępuj zgodnie z poniższymi wskazówkami:
+Aby w pełni wykorzystać potencjał odzyskiwania zakładek, postępuj zgodnie z poniższymi wskazówkami:
 
 - Utrzymuj swój kod uporządkowany i dobrze udokumentowany.
 - Przeprowadź dokładny test na różnych dokumentach PDF.
@@ -102,7 +104,7 @@ Pobieranie zakładek z dokumentów PDF za pomocą Aspose.PDF dla Java to potęż
 
 ### Jak dodać Aspose.PDF dla Java do mojego projektu?
 
- Możesz dodać Aspose.PDF dla Java do swojego projektu, pobierając go ze strony[Tutaj](https://releases.aspose.com/pdf/java/) i postępując zgodnie z instrukcją instalacji.
+Możesz dodać Aspose.PDF dla Java do swojego projektu, pobierając go ze strony [Tutaj](https://releases.aspose.com/pdf/java/) i postępując zgodnie z instrukcją instalacji.
 
 ### Czy mogę dostosować wygląd pobranych zakładek?
 
@@ -118,10 +120,12 @@ Tak, Aspose.PDF dla Java może wymagać ważnej licencji w niektórych przypadka
 
 ### Gdzie mogę uzyskać dostęp do dalszej dokumentacji i pomocy?
 
- Pełną dokumentację i pomoc techniczną dla Aspose.PDF dla języka Java można znaleźć pod adresem[Tutaj](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację i pomoc techniczną dla Aspose.PDF dla języka Java można znaleźć pod adresem [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

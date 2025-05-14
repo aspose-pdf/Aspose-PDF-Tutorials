@@ -1,14 +1,16 @@
 ---
-title: Ganti Semua Teks Dalam File PDF
-linktitle: Ganti Semua Teks Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengganti teks dalam file PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan lengkap dengan cuplikan kode disertakan.
-weight: 350
-url: /id/net/programming-with-text/replace-text-all/
+"description": "Pelajari cara mengganti teks dalam file PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan lengkap dengan cuplikan kode disertakan."
+"linktitle": "Ganti Semua Teks Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ganti Semua Teks Dalam File PDF"
+"url": "/id/net/programming-with-text/replace-text-all/"
+"weight": 350
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ganti Semua Teks Dalam File PDF
@@ -21,7 +23,7 @@ Dalam hal mengelola berkas PDF, kemampuan untuk memanipulasi konten—apakah And
 
 Sebelum kita memulai perjalanan ini, pastikan Anda sudah memiliki perlengkapan lengkap. Berikut ini adalah perlengkapan yang perlu Anda siapkan:
 
-1.  Aspose.PDF untuk .NET: Pertama dan terutama, Anda perlu menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dengan mudah dari[lokasi](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pertama dan terutama, Anda perlu menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dengan mudah dari [lokasi](https://releases.aspose.com/pdf/net/).
 2. Lingkungan .NET: Pastikan Anda memiliki lingkungan .NET yang berfungsi, seperti Visual Studio. Pastikan proyek Anda menargetkan .NET Framework atau .NET Core yang kompatibel dengan Aspose.PDF.
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C# akan membuat mengikuti panduan ini lebih lancar.
 
@@ -29,7 +31,7 @@ Setelah Anda menyiapkan perlengkapan di atas, kita dapat masuk ke bagian yang me
 
 ## Paket Impor
 
-Dalam proyek C# pada umumnya, langkah pertama biasanya melibatkan pengimporan namespace atau pustaka yang diperlukan yang memberi Anda akses ke fungsionalitas yang Anda butuhkan. Dalam kasus kami, kami perlu mengimpor kelas Aspose.PDF. Berikut cara melakukannya:
+Dalam proyek C# yang umum, langkah pertama biasanya melibatkan pengimporan namespace atau pustaka yang diperlukan yang memberi Anda akses ke fungsionalitas yang Anda butuhkan. Dalam kasus kami, kami perlu mengimpor kelas Aspose.PDF. Berikut cara melakukannya:
 
 ### Buka Editor C# Anda
 
@@ -46,7 +48,7 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
- Ini memberi tahu proyek Anda bahwa Anda ingin menggunakan`Aspose.Pdf` untuk bekerja dengan berkas PDF.
+Ini memberi tahu proyek Anda bahwa Anda ingin menggunakan `Aspose.Pdf` untuk bekerja dengan berkas PDF.
 
 Sekarang setelah Anda siap, mari kita bahas proses penggantian teks dalam file PDF langkah demi langkah. Jangan khawatir; saya akan merinci semuanya, jadi sangat mudah diikuti.
 
@@ -58,27 +60,27 @@ Hal pertama yang perlu Anda lakukan adalah menentukan direktori dokumen PDF Anda
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Ini seperti memberi program Anda peta untuk menemukan harta karunnya!
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Ini seperti memberi program Anda peta untuk menemukan harta karunnya!
 
 ## Langkah 2: Buka Dokumen
 
- Selanjutnya, Anda perlu memuat dokumen PDF ke dalam program Anda menggunakan`Document` kelas.
+Selanjutnya, Anda perlu memuat dokumen PDF ke dalam program Anda menggunakan `Document` kelas.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "ReplaceTextAll.pdf");
 ```
 
- Di sini, Anda membuka file PDF bernama`ReplaceTextAll.pdf`Anggap saja langkah ini seperti membuka buku untuk membaca isinya.
+Di sini, Anda membuka file PDF bernama `ReplaceTextAll.pdf`Anggap saja langkah ini seperti membuka buku untuk membaca isinya.
 
 ## Langkah 3: Buat Penyerap Teks
 
- Sekarang, Anda akan membuat`TextFragmentAbsorber`, yang merupakan objek khusus yang membantu menemukan contoh teks yang ingin Anda ganti. 
+Sekarang, Anda akan membuat `TextFragmentAbsorber`, yang merupakan objek khusus yang membantu menemukan contoh teks yang ingin Anda ganti. 
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
 
- Pada baris ini, ganti`"text"` dengan teks sebenarnya yang Anda cari. Ini mirip dengan menggunakan stabilo untuk menandai kata-kata di halaman.
+Pada baris ini, ganti `"text"` dengan teks sebenarnya yang Anda cari. Ini mirip dengan menggunakan stabilo untuk menandai kata-kata di halaman.
 
 ## Langkah 4: Terima Penyerap untuk Semua Halaman
 
@@ -120,12 +122,12 @@ Di sinilah Anda mengganti teks lama dengan yang baru! Ganti dan sesuaikan juga t
 ```csharp
 textFragment.Text = "TEXT"; // teks baru
 textFragment.TextState.Font = FontRepository.FindFont("Verdana"); // huruf baru
-textFragment.TextState.FontSize = 22; //ukuran font baru
+textFragment.TextState.FontSize = 22; // ukuran font baru
 textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Blue); // warna teks
 textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green); // warna latar belakang
 ```
 
- Mengganti`"TEXT"` dengan teks baru apa pun yang ingin Anda masukkan. Ini memungkinkan Anda tidak hanya mengubah susunan kata tetapi juga menata tampilannya!
+Mengganti `"TEXT"` dengan teks baru apa pun yang ingin Anda masukkan. Ini memungkinkan Anda tidak hanya mengubah susunan kata tetapi juga menata tampilannya!
 
 ## Langkah 8: Simpan Dokumen
 
@@ -136,7 +138,7 @@ dataDir = dataDir + "ReplaceTextAll_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Baris ini menyimpan PDF Anda yang telah diperbarui sebagai`ReplaceTextAll_out.pdf`Itu seperti menyegel buku Anda setelah Anda melakukan revisi!
+Baris ini menyimpan PDF Anda yang telah diperbarui sebagai `ReplaceTextAll_out.pdf`Itu seperti menyegel buku Anda setelah Anda melakukan revisi!
 
 ## Langkah 9: Konfirmasikan Perubahan
 
@@ -150,7 +152,7 @@ Umpan balik ini seperti mendapatkan ucapan “Kamu berhasil!” ketika Anda meny
 
 ## Kesimpulan
 
-Nah, itu dia! Anda baru saja mempelajari cara mengganti teks di seluruh berkas PDF menggunakan Aspose.PDF untuk .NET! Mungkin ini agak sulit jika Anda baru dalam manipulasi PDF, tetapi dengan langkah-langkah sederhana ini, Anda sudah berada di jalur yang benar untuk menjadi ahli PDF. Ingat, kekuatan kustomisasi ada di ujung jari Anda, dan dengan latihan, Anda akan mengubah konten PDF seperti ahli yang berpengalaman.
+Nah, itu dia! Anda baru saja mempelajari cara mengganti teks di seluruh berkas PDF menggunakan Aspose.PDF untuk .NET! Mungkin ini agak sulit jika Anda baru dalam manipulasi PDF, tetapi dengan langkah-langkah sederhana ini, Anda sudah berada di jalur yang tepat untuk menjadi ahli PDF. Ingat, kekuatan kustomisasi ada di ujung jari Anda, dan dengan latihan, Anda akan mengubah konten PDF seperti ahli yang berpengalaman.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -158,19 +160,21 @@ Nah, itu dia! Anda baru saja mempelajari cara mengganti teks di seluruh berkas P
 Ya, Anda dapat mengulangi TextFragmentCollection dan menerapkan kondisi berbeda untuk mengganti berbagai teks.
 
 ### Versi .NET apa yang kompatibel dengan Aspose.PDF?
- Aspose.PDF mendukung berbagai versi, termasuk .NET Framework dan .NET Core. Selalu periksa[dokumentasi](https://reference.aspose.com/pdf/net/) untuk kompatibilitas.
+Aspose.PDF mendukung berbagai versi, termasuk .NET Framework dan .NET Core. Selalu periksa [dokumentasi](https://reference.aspose.com/pdf/net/) untuk kompatibilitas.
 
 ### Apakah ada cara untuk mendapatkan uji coba gratis Aspose.PDF?
- Tentu saja! Anda bisa mendapatkan uji coba gratis Aspose.PDF dari situs web mereka[halaman rilis](https://releases.aspose.com/).
+Tentu saja! Anda bisa mendapatkan uji coba gratis Aspose.PDF dari situs web mereka [halaman rilis](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Forum komunitas Aspose adalah tempat yang bagus untuk mendapatkan bantuan. Anda dapat mengunjungi[Mendukung](https://forum.aspose.com/c/pdf/10) untuk bantuan.
+Forum komunitas Aspose adalah tempat yang bagus untuk mendapatkan bantuan. Anda dapat mengunjungi [Mendukung](https://forum.aspose.com/c/pdf/10) untuk bantuan.
 
 ### Apakah ada biaya untuk menggunakan Aspose.PDF setelah uji coba?
- Ya, Aspose.PDF adalah produk berbayar. Anda dapat melihat opsi pembelian[Di Sini](https://purchase.aspose.com/buy).
+Ya, Aspose.PDF adalah produk berbayar. Anda dapat melihat opsi pembelian [Di Sini](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

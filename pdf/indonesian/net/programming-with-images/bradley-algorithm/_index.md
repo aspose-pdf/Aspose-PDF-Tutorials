@@ -1,14 +1,16 @@
 ---
-title: Algoritma Bradley
-linktitle: Algoritma Bradley
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengonversi PDF ke TIFF menggunakan algoritma Bradley di Aspose.PDF untuk .NET. Panduan langkah demi langkah, prasyarat, dan Tanya Jawab Umum untuk konversi yang lancar.
-weight: 30
-url: /id/net/programming-with-images/bradley-algorithm/
+"description": "Pelajari cara mengonversi PDF ke TIFF menggunakan algoritma Bradley di Aspose.PDF untuk .NET. Panduan langkah demi langkah, prasyarat, dan Tanya Jawab Umum untuk konversi yang lancar."
+"linktitle": "Algoritma Bradley"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Algoritma Bradley"
+"url": "/id/net/programming-with-images/bradley-algorithm/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Algoritma Bradley
@@ -21,12 +23,12 @@ Tutorial ini akan memandu Anda melalui proses yang terperinci dan mudah diikuti 
 
 ## Prasyarat
 
-Sebelum kita masuk ke kodenya, mari pastikan Anda sudah memiliki semua yang perlu diikuti:
+Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang perlu diikuti:
 
--  Aspose.PDF untuk .NET: Anda memerlukan pustakanya. Unduh dari[Di Sini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Anda memerlukan pustakanya. Unduh dari [Di Sini](https://releases.aspose.com/pdf/net/).
 - Visual Studio (atau IDE C# apa pun).
 - Pengetahuan dasar tentang C#.
--  Lisensi yang valid atau[lisensi sementara](https://purchase.aspose.com/temporary-license/) dari Aspose.
+- Lisensi yang valid atau [lisensi sementara](https://purchase.aspose.com/temporary-license/) dari Aspose.
 
 ## Paket Impor
 
@@ -58,7 +60,7 @@ Setelah jalurnya ditetapkan, saatnya membuka dokumen PDF yang ingin Anda konvers
 Document pdfDocument = new Document(dataDir + "PageToTIFF.pdf");
 ```
 
- Di Sini,`PageToTIFF.pdf` adalah contoh berkas. Anda dapat menggantinya dengan berkas PDF pilihan Anda. Objek dokumen sekarang menyimpan PDF untuk manipulasi lebih lanjut.
+Di Sini, `PageToTIFF.pdf` adalah contoh berkas. Anda dapat menggantinya dengan berkas PDF pilihan Anda. Objek dokumen sekarang menyimpan PDF untuk manipulasi lebih lanjut.
 
 ## Langkah 3: Tentukan Jalur Output untuk Gambar
 
@@ -105,7 +107,7 @@ Perangkat TIFF merupakan inti dari operasi ini. Perangkat ini mengambil dokumen 
 
 ## Langkah 7: Ubah Halaman PDF ke TIFF
 
- Saatnya memproses PDF dan mengonversi halaman pertama menjadi gambar TIFF.`Process` Metode ini memungkinkan Anda mengonversi halaman tertentu atau seluruh dokumen. Dalam contoh ini, kami mengonversi halaman pertama.
+Saatnya memproses PDF dan mengubah halaman pertama menjadi gambar TIFF. `Process` Metode ini memungkinkan Anda mengonversi halaman tertentu atau seluruh dokumen. Dalam contoh ini, kami mengonversi halaman pertama.
 
 ```csharp
 tiffDevice.Process(pdfDocument, outputImageFile);
@@ -127,7 +129,7 @@ using (FileStream inStream = new FileStream(outputImageFile, FileMode.Open))
 }
 ```
 
- Metode BinarizeBradley mengambil dua aliran file (input dan output), serta nilai ambang batas (di sini,`0.1`) yang menentukan tingkat binerisasi. Setelah eksekusi, Anda akan memiliki gambar binerisasi sempurna yang siap digunakan.
+Metode BinarizeBradley mengambil dua aliran file (input dan output), serta nilai ambang batas (di sini, `0.1`yang menentukan tingkat binerisasi. Setelah eksekusi, Anda akan memiliki gambar binerisasi sempurna yang siap digunakan.
 
 ## Langkah 9: Konfirmasikan Konversi Berhasil
 
@@ -149,7 +151,7 @@ Nah, itu dia! Anda baru saja mempelajari cara mengonversi halaman PDF menjadi ga
 Algoritma Bradley adalah teknik binarisasi yang mengubah gambar skala abu-abu menjadi gambar biner (hitam dan putih) dengan menentukan ambang batas adaptif untuk setiap piksel berdasarkan lingkungannya.
 
 ### Bisakah saya mengonversi beberapa halaman PDF ke TIFF menggunakan metode ini?
- Ya, Anda dapat memodifikasi`Process` metode untuk mengonversi semua halaman dengan melakukan pengulangan melalui halaman-halaman dalam dokumen.
+Ya, Anda dapat memodifikasi `Process` metode untuk mengonversi semua halaman dengan melakukan pengulangan melalui halaman-halaman dalam dokumen.
 
 ### Berapa resolusi optimal untuk mengonversi PDF ke TIFF?
 Untuk gambar berkualitas tinggi, 300 DPI umumnya direkomendasikan. Namun, Anda dapat menyesuaikan nilai ini berdasarkan kebutuhan Anda.
@@ -159,9 +161,11 @@ Untuk gambar berkualitas tinggi, 300 DPI umumnya direkomendasikan. Namun, Anda d
 
 ### Apakah Algoritma Bradley cocok untuk OCR?
 Ya, Algoritma Bradley sering digunakan dalam praproses OCR karena meningkatkan kontras teks dalam dokumen yang dipindai.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

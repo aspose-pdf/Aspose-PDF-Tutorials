@@ -1,14 +1,16 @@
 ---
-title: Cập nhật chú thích PDF văn bản miễn phí
-linktitle: Cập nhật chú thích PDF văn bản miễn phí
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách cập nhật chú thích văn bản tự do trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này.
-weight: 160
-url: /vi/net/annotations/updatefreetextannotation/
+"description": "Tìm hiểu cách cập nhật chú thích văn bản tự do trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này."
+"linktitle": "Cập nhật chú thích PDF văn bản miễn phí"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Cập nhật chú thích PDF văn bản miễn phí"
+"url": "/vi/net/annotations/updatefreetextannotation/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cập nhật chú thích PDF văn bản miễn phí
@@ -22,7 +24,7 @@ Trong thời đại kỹ thuật số, PDF đã trở thành một yếu tố ch
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là IDE mà chúng ta sẽ sử dụng cho hướng dẫn này.
-2.  Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 4. Tài liệu PDF: Chuẩn bị sẵn một tài liệu PDF mẫu có chứa chú thích văn bản tự do. Bạn có thể tạo một tài liệu PDF bằng bất kỳ trình chỉnh sửa PDF nào.
 
@@ -45,7 +47,7 @@ Trước tiên, bạn cần chỉ định đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này rất quan trọng vì chương trình cần biết nơi tìm tệp.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này rất quan trọng vì chương trình cần biết nơi tìm tệp.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -55,7 +57,7 @@ Tiếp theo, bạn sẽ muốn mở tài liệu PDF mà bạn muốn sửa đổ
 Document doc1 = new Document(dataDir + "input.pdf");
 ```
 
- Dòng mã này tạo ra một cái mới`Document` đối tượng và tải tệp PDF của bạn vào đó. Đảm bảo rằng tên tệp khớp với tên bạn có trong thư mục.
+Dòng mã này tạo ra một cái mới `Document` đối tượng và tải tệp PDF của bạn vào đó. Đảm bảo rằng tên tệp khớp với tên bạn có trong thư mục.
 
 ## Bước 3: Truy cập chú thích văn bản miễn phí
 
@@ -86,7 +88,7 @@ Sau khi thực hiện thay đổi, bạn cần lưu tài liệu để áp dụng
 doc1.Save(dataDir + "updated_output.pdf");
 ```
 
- Dòng này lưu tài liệu đã sửa đổi dưới dạng`updated_output.pdf` trong thư mục bạn chỉ định. Bạn có thể thay đổi tên khi cần.
+Dòng này lưu tài liệu đã sửa đổi dưới dạng `updated_output.pdf` trong thư mục bạn chỉ định. Bạn có thể thay đổi tên khi cần.
 
 ## Bước 6: Xử lý ngoại lệ
 
@@ -111,19 +113,21 @@ Và thế là xong! Bạn đã cập nhật thành công chú thích văn bản 
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu về Aspose.PDF cho .NET[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu về Aspose.PDF cho .NET [đây](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để tôi mua Aspose.PDF?
-Bạn có thể mua Aspose.PDF bằng cách truy cập[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.PDF bằng cách truy cập [trang mua hàng](https://purchase.aspose.com/buy).
 
 ### Tôi phải làm gì nếu gặp vấn đề?
- Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

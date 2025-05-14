@@ -1,14 +1,16 @@
 ---
-title: Kiểu Bảng Ô
-linktitle: Kiểu Bảng Ô
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách định dạng ô bảng trong PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết này. Làm theo hướng dẫn để tạo và định dạng các bảng PDF đẹp mắt.
-weight: 160
-url: /vi/net/programming-with-tagged-pdf/style-table-cell/
+"description": "Tìm hiểu cách định dạng ô bảng trong PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết này. Làm theo hướng dẫn để tạo và định dạng các bảng PDF đẹp mắt."
+"linktitle": "Kiểu Bảng Ô"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Kiểu Bảng Ô"
+"url": "/vi/net/programming-with-tagged-pdf/style-table-cell/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểu Bảng Ô
@@ -21,10 +23,10 @@ Việc tạo các bảng PDF trông chuyên nghiệp có thể rất khó khăn,
 
 Trước khi tìm hiểu về mã, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 
-1. Aspose.PDF cho .NET: Tải xuống và cài đặt phiên bản mới nhất của Aspose.PDF từ[đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Tải xuống và cài đặt phiên bản mới nhất của Aspose.PDF từ [đây](https://releases.aspose.com/pdf/net/).
 2. IDE (như Visual Studio): Thiết lập môi trường phát triển .NET.
 3. Kiến thức cơ bản về lập trình C#: Cần có một chút quen thuộc với C#.
-4.  Giấy phép Aspose.PDF: Nhận giấy phép tạm thời hoặc đầy đủ để mở khóa toàn bộ các tính năng của thư viện. Bạn có thể dùng thử miễn phí[đây](https://purchase.aspose.com/temporary-license/).
+4. Giấy phép Aspose.PDF: Nhận giấy phép tạm thời hoặc đầy đủ để mở khóa đầy đủ các tính năng của thư viện. Bạn có thể dùng thử miễn phí [đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -46,7 +48,7 @@ Chúng ta sẽ tạo một bảng trong tài liệu PDF và định dạng các 
 
 ## Bước 1: Tạo một tài liệu PDF mới
 
- Bước đầu tiên là tạo một tài liệu PDF mới. Trong Aspose.PDF, bạn có thể khởi tạo một tài liệu PDF mới`Document` đối tượng đại diện cho tệp PDF của bạn.
+Bước đầu tiên là tạo một tài liệu PDF mới. Trong Aspose.PDF, bạn có thể khởi tạo một tài liệu PDF mới `Document` đối tượng đại diện cho tệp PDF của bạn.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -133,7 +135,7 @@ for (int rowIndex = 0; rowIndex < rowCount; rowIndex++)
 }
 ```
 
- Trong bước này, chúng ta điền vào thân bảng với bốn hàng và định dạng mỗi ô với nền màu vàng và văn bản màu xanh đậm, được căn giữa. Chúng ta cũng sử dụng`MarginInfo`lớp để xác định khoảng đệm xung quanh văn bản.
+Trong bước này, chúng ta điền vào thân bảng với bốn hàng và định dạng mỗi ô với nền màu vàng và văn bản màu xanh đậm, được căn giữa. Chúng ta cũng sử dụng `MarginInfo` lớp để xác định khoảng đệm xung quanh văn bản.
 
 ## Bước 5: Định dạng chân trang
 
@@ -166,7 +168,7 @@ bool isPdfUaCompliance = document.Validate(dataDir + "StyleTableCell.xml", PdfFo
 Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
 ```
 
- Chúng tôi lưu PDF và sử dụng`Validate` phương pháp đảm bảo đáp ứng các tiêu chuẩn về khả năng truy cập (tuân thủ PDF/UA).
+Chúng tôi lưu PDF và sử dụng `Validate` phương pháp đảm bảo đáp ứng các tiêu chuẩn về khả năng truy cập (tuân thủ PDF/UA).
 
 ## Phần kết luận
 
@@ -175,22 +177,24 @@ Tạo kiểu bảng trong PDF bằng Aspose.PDF cho .NET vừa mạnh mẽ vừa
 ## Câu hỏi thường gặp
 
 ### Tôi có thể áp dụng nhiều kiểu khác nhau cho từng ô trong bảng không?  
-Có, bạn có thể định dạng từng ô bằng cách tùy chỉnh`TableTDElement` của cải.
+Có, bạn có thể định dạng từng ô bằng cách tùy chỉnh `TableTDElement` của cải.
 
 ### Làm thế nào để tôi có thể hợp nhất các ô trong bảng?  
- Bạn có thể sử dụng`ColSpan` Và`RowSpan` thuộc tính để hợp nhất các ô trong bảng.
+Bạn có thể sử dụng `ColSpan` Và `RowSpan` thuộc tính để hợp nhất các ô trong bảng.
 
 ### Có thể tạo bảng theo chuẩn PDF/UA không?  
- Có, như đã trình bày trong hướng dẫn này, bạn có thể đảm bảo tuân thủ PDF/UA bằng cách xác thực tài liệu của mình bằng`Validate` phương pháp.
+Có, như đã trình bày trong hướng dẫn này, bạn có thể đảm bảo tuân thủ PDF/UA bằng cách xác thực tài liệu của mình bằng `Validate` phương pháp.
 
 ### Tôi có thể sử dụng phông chữ khác nhau trong các ô của bảng không?  
- Chắc chắn rồi! Bạn có thể chỉ định các phông chữ khác nhau bằng cách sử dụng`TextState` đối tượng cho mỗi ô.
+Chắc chắn rồi! Bạn có thể chỉ định các phông chữ khác nhau bằng cách sử dụng `TextState` đối tượng cho mỗi ô.
 
 ### Làm thế nào để tải xuống Aspose.PDF cho .NET?  
- Bạn có thể tải nó xuống từ[trang phát hành](https://releases.aspose.com/pdf/net/).
+Bạn có thể tải nó xuống từ [trang phát hành](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

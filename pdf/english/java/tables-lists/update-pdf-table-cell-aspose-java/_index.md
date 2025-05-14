@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Update a Table Cell in PDFs Using Aspose.PDF for Java
 
@@ -175,7 +177,11 @@ A5: Aspose.PDF offers robust features, ease of use, and excellent documentation,
 - **Free Trial**: [Get Started](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Community Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

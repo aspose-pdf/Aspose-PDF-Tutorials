@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Extract Text from PDFs Using Aspose.PDF Java: A Developer's Comprehensive Guide
 
@@ -205,6 +207,9 @@ As next steps, explore additional features offered by Aspose.PDF, such as editin
 Feel free to explore these resources further as you develop your PDF manipulation skills with Aspose.PDF for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

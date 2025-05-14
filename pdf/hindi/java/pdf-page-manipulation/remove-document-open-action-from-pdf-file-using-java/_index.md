@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ फाइल से दस्तावेज़ खोलने की क्रिया को हटाएँ
-linktitle: जावा का उपयोग करके पीडीएफ फाइल से दस्तावेज़ खोलने की क्रिया को हटाएँ
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Java और Aspose.PDF for Java का उपयोग करके PDF फ़ाइलों से डॉक्यूमेंट ओपन एक्शन को हटाने का तरीका जानें। सुरक्षा और अनुकूलन बढ़ाएँ।
-weight: 11
-url: /hi/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/
+"description": "Java और Aspose.PDF for Java का उपयोग करके PDF फ़ाइलों से डॉक्यूमेंट ओपन एक्शन को हटाने का तरीका जानें। सुरक्षा और अनुकूलन बढ़ाएँ।"
+"linktitle": "जावा का उपयोग करके पीडीएफ फाइल से दस्तावेज़ खोलने की क्रिया को हटाएँ"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ फाइल से दस्तावेज़ खोलने की क्रिया को हटाएँ"
+"url": "/hi/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ फाइल से दस्तावेज़ खोलने की क्रिया को हटाएँ
@@ -22,7 +24,7 @@ url: /hi/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-us
 
 इससे पहले कि हम कोड में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
--  Aspose.PDF for Java लाइब्रेरी: Aspose.PDF for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java लाइब्रेरी: Aspose.PDF for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/pdf/java/).
 
 - जावा विकास वातावरण: सुनिश्चित करें कि आपके सिस्टम पर जावा विकास वातावरण स्थापित है।
 
@@ -57,7 +59,7 @@ pdfDocument.setOpenAction(null);
 
 ### 4. संशोधित पीडीएफ दस्तावेज़ को सहेजना
 
-अंत में, हटाए गए दस्तावेज़ खोलने की क्रिया के साथ संशोधित पीडीएफ दस्तावेज़ को सहेजें:
+अंत में, हटाए गए दस्तावेज़ खोलने की क्रिया के साथ संशोधित PDF दस्तावेज़ को सहेजें:
 
 ```java
 // संशोधित पीडीएफ को सहेजें
@@ -112,10 +114,12 @@ pdfDocument.save("output.pdf");
 
 ### मैं Java के लिए Aspose.PDF के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- आप Java के लिए Aspose.PDF के लिए व्यापक दस्तावेज़ और उदाहरण यहां पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/java/).
+आप Java के लिए Aspose.PDF के लिए व्यापक दस्तावेज़ और उदाहरण यहां पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

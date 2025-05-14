@@ -8,7 +8,9 @@ url: /java/pdf-page-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Page Manipulation
@@ -45,9 +47,11 @@ Learn how to manipulate HTML content in Java using the DOM (Document Object Mode
 Learn how to add HTML strings to PDF documents using the Aspose.PDF for Java library. This step-by-step guide will show you the process with source code examples.
 ### [Add Rotated Text in PDF using Java](./add-rotated-text-in-pdf-using-java/)
 Learn how to insert rotated text into a PDF document using Java. Follow this detailed step-by-step guide with code examples to enhance your PDFs with rotated text.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

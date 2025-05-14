@@ -1,14 +1,16 @@
 ---
-title: Tablo Hücresine Resim Ekle
-linktitle: Tablo Hücresine Resim Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF'yi kullanarak tablo hücrelerine kolayca resim eklemeyi öğrenin ve PDF belgelerinizin görsel çekiciliğini artırın. Adım adım kılavuz sağlanır.
-weight: 10
-url: /tr/net/programming-with-tables/add-image-in-a-table-cell/
+"description": ".NET için Aspose.PDF'yi kullanarak tablo hücrelerine kolayca resim eklemeyi öğrenin ve PDF belgelerinizin görsel çekiciliğini artırın. Adım adım kılavuz sağlanır."
+"linktitle": "Tablo Hücresine Resim Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Tablo Hücresine Resim Ekle"
+"url": "/tr/net/programming-with-tables/add-image-in-a-table-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablo Hücresine Resim Ekle
@@ -27,7 +29,7 @@ Koda ve uygulamaya geçmeden önce birkaç ön koşulun yerine getirilmesi gerek
 
 ### .NET Kütüphanesi için Aspose.PDF
 
- .NET için Aspose.PDF kütüphanesine sahip olduğunuzdan emin olun. İndirebilir ve denemeye başlayabilirsiniz! Şuradan edinin:[İndirme Bağlantısı](https://releases.aspose.com/pdf/net/).
+Aspose.PDF for .NET kütüphanesine sahip olduğunuzdan emin olun. İndirebilir ve denemeye başlayabilirsiniz! Şuradan edinin: [İndirme Bağlantısı](https://releases.aspose.com/pdf/net/).
 
 ### IDE Kurulumu
 
@@ -45,7 +47,7 @@ Kodlamaya başlamadan önce, gerekli ön koşul paketlerini içe aktardığını
 
 1. Visual Studio'yu (veya tercih ettiğiniz IDE'yi) açın.
 2. Yeni bir C# projesi oluşturun.
-3.  NuGet Paket Yöneticisini bulun ve şunu arayın:`Aspose.PDF`. 
+3. NuGet Paket Yöneticisini bulun ve şunu arayın: `Aspose.PDF`. 
 4. Paketi projenize yükleyin. Bu adım, uygulamanıza PDF belgelerini kolayca düzenleme yeteneği verir.
 
 ### Yönergeleri Kullanma
@@ -75,7 +77,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document();
 ```
 
- Burada, belgemizin nereye kaydedileceğini belirliyoruz ve yeni bir tane oluşturuyoruz.`Document` çalışmamız için bir örnek. Değiştir`"YOUR DOCUMENT DIRECTORY"` PDF'nizi kaydetmek istediğiniz gerçek yol ile. 
+Burada, belgemizin nereye kaydedileceğini belirliyoruz ve yeni bir tane oluşturuyoruz. `Document` çalışmamız için bir örnek. Değiştir `"YOUR DOCUMENT DIRECTORY"` PDF'nizi kaydetmek istediğiniz gerçek yol ile. 
 
 ## Adım 2: Bir Sayfa Oluşturma
 
@@ -86,7 +88,7 @@ Sonra, yeni oluşturduğumuz belgeye bir sayfa ekliyoruz. Bu sayfa tablomuz içi
 Page sec1 = pdfDocument.Pages.Add();
 ```
 
- Her biri`Document` birden fazla sayfa içerebilir. Bu durumda, sadece bir tane ekliyoruz.
+Her biri `Document` birden fazla sayfa içerebilir. Bu durumda, sadece bir tane ekliyoruz.
 
 ## Adım 3: Bir Tabloyu Örnekleme
 
@@ -97,7 +99,7 @@ Page sec1 = pdfDocument.Pages.Add();
 Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 ```
 
- Bu`Table` nesnemiz, eklemeyi planladığımız görsel de dahil olmak üzere içeriklerimizi barındıracak.
+Bu `Table` nesne, eklemeyi planladığımız görsel de dahil olmak üzere içeriğimizi tutacak.
 
 ## Adım 4: Tabloyu Sayfaya Ekleme
 
@@ -137,7 +139,7 @@ Burada, belirtilen piksel genişliklerine sahip üç sütun tanımlıyoruz. Bu s
 Daha sonra bir satır oluşturup onu hücrelerle doldurmaya başlıyoruz:
 
 ```csharp
-//Tabloda satırlar ve ardından satırlarda hücreler oluşturun
+// Tabloda satırlar ve ardından satırlarda hücreler oluşturun
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("Sample text in cell");
 ```
@@ -146,14 +148,14 @@ Bu satır tablomuza tek bir satır ekler ve ilk hücreyi örnek metinle doldurur
 
 ## Adım 8: Bir Hücreye Resim Ekleme
 
- Şimdi heyecan verici kısma geçiyoruz: Bir resim ekleme! İlk olarak,`Image` nesne:
+Şimdi heyecan verici kısma geçiyoruz: Bir resim ekleme! İlk olarak, `Image` nesne:
 
 ```csharp
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 img.File = dataDir + "aspose.jpg"; // Doğru yolu sağladığınızdan emin olun
 ```
 
- Değiştirdiğinizden emin olun`"aspose.jpg"` gerçek resim dosyanızın adıyla. 
+Değiştirdiğinizden emin olun `"aspose.jpg"` gerçek resim dosyanızın adıyla. 
 
 ## Adım 9: Resmi Tablo Hücresine Ekleme
 
@@ -162,11 +164,11 @@ img.File = dataDir + "aspose.jpg"; // Doğru yolu sağladığınızdan emin olun
 ```csharp
 // Resmi tutan hücreyi ekleyin
 Aspose.Pdf.Cell cell2 = row1.Cells.Add();
-//Resmi tablo hücresine ekle
+// Resmi tablo hücresine ekle
 cell2.Paragraphs.Add(img);
 ```
 
-Bu, tabloda resmin görüntüleneceği yere yeni bir hücre ekler.
+Bu, resmin tabloda görüntüleneceği yere yeni bir hücre ekler.
 
 ## Adım 10: Satırı Sonlandırma
 
@@ -206,13 +208,15 @@ Evet, hücrenin Paragraflar koleksiyonuna ek Resim nesneleri ekleyerek bir tablo
 Aspose.PDF, JPEG, PNG, BMP ve GIF dahil olmak üzere çeşitli resim formatlarını destekler. Sadece geçerli formatlar olduğundan emin olun.
 
 ### Aspose.PDF'i kullanmak için lisans satın almam gerekiyor mu?  
- Aspose.PDF, özelliklerini keşfetmenize olanak tanıyan ücretsiz bir deneme sunar. Ticari amaçlarla kullanmayı planlıyorsanız, bir lisans gereklidir. Bir tane şuradan alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
+Aspose.PDF, özelliklerini keşfetmenize olanak tanıyan ücretsiz bir deneme sunar. Ticari amaçlarla kullanmayı planlıyorsanız, bir lisans gereklidir. Bir tane şuradan alabilirsiniz: [Burada](https://purchase.aspose.com/buy).
 
-### Aspose.PDF ile ilgili desteği nerede bulabilirim?  
- Ziyaret edebilirsiniz[Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10) Topluluk yardımı ve sorun giderme için.
+### Aspose.PDF ile ilgili desteği nereden bulabilirim?  
+Ziyaret edebilirsiniz [Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10) Topluluk yardımı ve sorun giderme için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

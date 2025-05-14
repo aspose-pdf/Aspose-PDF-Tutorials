@@ -8,7 +8,9 @@ url: /net/programming-with-links-and-actions/get-hyperlink-destinations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Hyperlink Destinations In PDF File
@@ -163,6 +165,7 @@ You can browse the [documentation](https://reference.aspose.com/pdf/net/) or the
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Kompresi Dekode Flate
-linktitle: Kompresi Dekode Flate
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menggunakan Flate Decode Compression di Aspose.PDF untuk .NET. Optimalkan ukuran file PDF secara efisien dengan panduan langkah demi langkah ini.
-weight: 140
-url: /id/net/programming-with-images/flate-decode-compression/
+"description": "Pelajari cara menggunakan Flate Decode Compression di Aspose.PDF untuk .NET. Optimalkan ukuran file PDF secara efisien dengan panduan langkah demi langkah ini."
+"linktitle": "Kompresi Dekode Flate"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Kompresi Dekode Flate"
+"url": "/id/net/programming-with-images/flate-decode-compression/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kompresi Dekode Flate
@@ -19,10 +21,10 @@ Dalam hal penanganan PDF, mengoptimalkan ukuran file tanpa mengurangi kualitas m
 
 ## Prasyarat
 
-Sebelum kita menyelami detail teknisnya, Anda memerlukan beberapa hal untuk membuat perjalanan ini lebih lancar:
+Sebelum kita membahas detail teknisnya, Anda memerlukan beberapa hal untuk membuat perjalanan ini lebih lancar:
 
 - Pengetahuan Dasar tentang C#: Pemahaman dasar tentang pemrograman C# sangatlah penting. Jangan khawatir jika Anda bukan seorang profesional; sedikit pengetahuan saja sudah cukup!
--  Pustaka Aspose.PDF untuk .NET: Pustaka ini harus terpasang di proyek Anda. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/).
+- Pustaka Aspose.PDF untuk .NET: Pustaka ini harus terpasang di proyek Anda. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/).
 - Visual Studio atau IDE C# apa pun: Apakah Anda sudah menyiapkan lingkungan pengkodean favorit Anda? Pastikan Anda siap menulis beberapa kode!
 
 Jika Anda telah mencentang kotak ini, Anda siap berangkat!
@@ -47,7 +49,7 @@ Untuk memulai, Anda perlu mengatur jalur direktori dokumen tempat file PDF Anda 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada komputer Anda tempat PDF yang ingin Anda optimalkan berada. Ini adalah langkah pertama untuk memastikan bahwa Anda mengarahkan ke berkas yang tepat!
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada komputer Anda tempat PDF yang ingin Anda optimalkan berada. Ini adalah langkah pertama untuk memastikan bahwa Anda mengarahkan ke berkas yang tepat!
 
 ## Langkah 2: Buka Dokumen PDF Anda
 
@@ -56,7 +58,7 @@ Berikutnya, kita perlu membuka dokumen PDF yang ingin Anda optimalkan. Anggap la
 ```csharp
 Document doc = new Document(dataDir + "AddImage.pdf");
 ```
- Di sini, kita membuat yang baru`Document`Misalnya, seperti mengatakan, “Hai, Aspose, bawakan saya buku berjudul 'AddImage.pdf' agar saya dapat membacanya (dan mengoptimalkannya)!”
+Di sini, kita membuat yang baru `Document` Misalnya, seperti mengatakan, “Hai, Aspose, bawakan saya buku berjudul 'AddImage.pdf' agar saya dapat membacanya (dan mengoptimalkannya)!”
 
 ## Langkah 3: Inisialisasi Opsi Optimasi
 
@@ -65,9 +67,9 @@ Sekarang, mari kita masuk ke bagian yang bagus—menyiapkan opsi pengoptimalan. 
 ```csharp
 var optimizationOptions = new OptimizationOptions();
 ```
- Kode ini membuat contoh baru`OptimizationOptions`Seolah-olah Anda sedang mengeluarkan kotak peralatan untuk melakukan pekerjaan optimasi.
+Kode ini membuat contoh baru `OptimizationOptions`Seolah-olah Anda sedang mengeluarkan kotak peralatan untuk melakukan pekerjaan optimasi.
 
-## Langkah 4: Siapkan Kompresi Decode Flate
+## Langkah 4: Siapkan Kompresi Dekode Flate
 
 Kami ingin menggunakan metode kompresi FlateDecode untuk gambar dalam PDF kami. Mari tentukan itu dalam opsi pengoptimalan kami.
 
@@ -83,7 +85,7 @@ Dengan berbagai pilihan yang ada, sekarang saatnya untuk melakukan semuanya. Kam
 ```csharp
 doc.OptimizeResources(optimizationOptions);
 ```
-Baris ini menjalankan pengoptimalan berdasarkan pengaturan yang telah kita tentukan. Anggap saja seperti menekan tombol “mulai” pada proses pengoptimalan Anda.
+Baris ini menjalankan pengoptimalan berdasarkan pengaturan yang telah kita tentukan. Anggap saja seperti menekan "mulai" pada proses pengoptimalan Anda.
 
 ## Langkah 6: Simpan Dokumen Anda yang Telah Dioptimalkan
 
@@ -104,19 +106,21 @@ Mengoptimalkan PDF dengan Flate Decode Compression melalui Aspose.PDF untuk .NET
 Flate Decode Compression adalah metode yang digunakan untuk mengompresi data gambar dalam PDF, mengurangi ukuran file sambil mempertahankan kualitas.
 
 ### Dapatkah saya mencoba Aspose.PDF secara gratis?  
-Ya, Anda bisa mendapatkan uji coba gratis Aspose.PDF untuk .NET[Di Sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis Aspose.PDF untuk .NET [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa melaporkan masalah dengan Aspose.PDF?  
- Anda dapat mencari bantuan di forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda dapat mencari bantuan di forum dukungan Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF?  
- Ya, untuk penggunaan komersial, Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+Ya, untuk penggunaan komersial, Anda dapat membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Jenis dokumen apa yang dapat saya kerjakan di Aspose?  
 Aspose.PDF dapat menangani berbagai jenis dokumen PDF, termasuk teks, gambar, dan tata letak yang lebih kompleks.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ में टेक्स्ट ब्लॉक संरचना तत्व
-linktitle: जावा का उपयोग करके पीडीएफ में टेक्स्ट ब्लॉक संरचना तत्व
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: जावा में पीडीएफ टेक्स्ट ब्लॉक संरचना तत्वों को मास्टर करें - जावा के लिए Aspose.PDF का उपयोग करके एक चरण-दर-चरण गाइड।
-weight: 13
-url: /hi/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-java/
+"description": "जावा में पीडीएफ टेक्स्ट ब्लॉक संरचना तत्वों को मास्टर करें - जावा के लिए Aspose.PDF का उपयोग करके एक चरण-दर-चरण गाइड।"
+"linktitle": "जावा का उपयोग करके पीडीएफ में टेक्स्ट ब्लॉक संरचना तत्व"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ में टेक्स्ट ब्लॉक संरचना तत्व"
+"url": "/hi/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ में टेक्स्ट ब्लॉक संरचना तत्व
@@ -20,7 +22,7 @@ url: /hi/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-
 
 ## पीडीएफ संरचना तत्वों को समझना
 
-इससे पहले कि हम टेक्स्ट ब्लॉक संरचना तत्वों में गोता लगाएँ, आइए PDF के समग्र संरचना तत्वों की स्पष्ट समझ प्राप्त करें। PDF दस्तावेज़ पदानुक्रमित तरीके से संरचित होते हैं, जिसमें कई प्रकार के तत्व होते हैं जो सामग्री को व्यवस्थित करने में मदद करते हैं। इन तत्वों में शामिल हैं:
+इससे पहले कि हम टेक्स्ट ब्लॉक संरचना तत्वों में गोता लगाएँ, आइए PDF के समग्र संरचना तत्वों की स्पष्ट समझ प्राप्त करें। PDF दस्तावेज़ एक पदानुक्रमित तरीके से संरचित होते हैं, जिसमें कई प्रकार के तत्व होते हैं जो सामग्री को व्यवस्थित करने में मदद करते हैं। इन तत्वों में शामिल हैं:
 
 - दस्तावेज़: उच्चतम-स्तरीय तत्व जो संपूर्ण PDF दस्तावेज़ का प्रतिनिधित्व करता है।
 - पृष्ठ: दस्तावेज़ के भीतर प्रत्येक पृष्ठ एक अलग संरचना तत्व है।
@@ -35,7 +37,7 @@ url: /hi/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-
 
 जावा में पीडीएफ के साथ काम करने से पहले, सुनिश्चित करें कि आपके पास आवश्यक उपकरण और लाइब्रेरी स्थापित हैं। आप जावा के लिए Aspose.PDF का उपयोग कर सकते हैं, जो पीडीएफ हेरफेर के लिए एक शक्तिशाली लाइब्रेरी है। इसे सेट अप करने का तरीका यहां बताया गया है:
 
-1.  Java के लिए Aspose.PDF यहाँ से डाउनलोड करें[यहाँ](https://releases.aspose.com/pdf/java/).
+1. Java के लिए Aspose.PDF यहाँ से डाउनलोड करें [यहाँ](https://releases.aspose.com/pdf/java/).
 2. अपने जावा प्रोजेक्ट में लाइब्रेरी जोड़ें.
 
 ### चरण 2: एक पीडीएफ दस्तावेज़ लोड करें
@@ -91,10 +93,12 @@ for (com.aspose.pdf.Page page : pdfDocument.getPages()) {
 
 ### मैं Java के लिए Aspose.PDF के लिए अधिक संसाधन और दस्तावेज़ कहां पा सकता हूं?
 
- आप Java के लिए Aspose.PDF के लिए व्यापक दस्तावेज़ और संसाधनों तक पहुँच सकते हैं[यहाँ](https://reference.aspose.com/pdf/java/).
+आप Java के लिए Aspose.PDF के लिए व्यापक दस्तावेज़ और संसाधनों तक पहुँच सकते हैं [यहाँ](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

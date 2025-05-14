@@ -1,14 +1,16 @@
 ---
-title: Cómo añadir un sello de imagen a un archivo PDF con Java
-linktitle: Cómo añadir un sello de imagen a un archivo PDF con Java
-second_title: API de procesamiento de PDF de Java Aspose.PDF
-description: Aprenda a agregar sellos de imagen a archivos PDF usando Java con este completo tutorial de Aspose.PDF para Java.
-weight: 12
-url: /es/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/
+"description": "Aprenda a agregar sellos de imagen a archivos PDF usando Java con este completo tutorial de Aspose.PDF para Java."
+"linktitle": "Cómo añadir un sello de imagen a un archivo PDF con Java"
+"second_title": "API de procesamiento de PDF de Java Aspose.PDF"
+"title": "Cómo añadir un sello de imagen a un archivo PDF con Java"
+"url": "/es/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cómo añadir un sello de imagen a un archivo PDF con Java
@@ -16,7 +18,7 @@ url: /es/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/
 
 ## Introducción a la adición de un sello de imagen en un archivo PDF mediante Java
 
-Agregar sellos de imagen a archivos PDF con Java puede mejorar la identificación y la marca de los documentos. En esta guía paso a paso, exploraremos cómo lograr esto utilizando la biblioteca Aspose.PDF para Java. Al finalizar este tutorial, podrá agregar sellos de imagen a sus documentos PDF de manera eficiente.
+Añadir sellos de imagen a archivos PDF con Java puede mejorar la imagen de marca y la identificación de los documentos. En esta guía paso a paso, exploraremos cómo lograrlo con la biblioteca Aspose.PDF para Java. Al finalizar este tutorial, podrá añadir sellos de imagen a sus documentos PDF de forma eficiente.
 
 ## Prerrequisitos
 
@@ -27,19 +29,19 @@ Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 - Biblioteca Aspose.PDF para Java
 - Conocimientos básicos de programación Java
 
-Ahora, veamos los pasos para agregar un sello de imagen a un archivo PDF usando Java.
+Ahora, profundicemos en los pasos para agregar un sello de imagen a un archivo PDF usando Java.
 
-## Paso 1: Configurar el entorno Java
+## Paso 1: Configure su entorno Java
 
-Para comenzar, asegúrese de tener Java instalado en su sistema. Puede descargar e instalar la última versión de JDK desde el sitio web de Oracle. Una vez instalada, configure las variables de entorno de Java.
+Para empezar, asegúrese de tener Java instalado en su sistema. Puede descargar e instalar la versión más reciente del JDK desde el sitio web de Oracle. Una vez instalado, configure las variables de entorno de Java.
 
-## Paso 2: Agrega Aspose.PDF para Java a tu proyecto
+## Paso 2: Agregue Aspose.PDF para Java a su proyecto
 
-En su proyecto Java, debe incluir la biblioteca Aspose.PDF. Puede hacerlo agregando la biblioteca como una dependencia en el archivo de compilación de su proyecto (por ejemplo, Maven o Gradle).
+En tu proyecto Java, necesitas incluir la biblioteca Aspose.PDF. Puedes hacerlo añadiendo la biblioteca como dependencia en el archivo de compilación de tu proyecto (por ejemplo, Maven o Gradle).
 
 ## Paso 3: Crear un documento PDF
 
-Ahora, vamos a crear un documento PDF al que le agregaremos un sello de imagen. Puedes crear un nuevo documento PDF usando Aspose.PDF para Java con solo unas pocas líneas de código.
+Ahora, vamos a crear un documento PDF al que añadiremos un sello de imagen. Puedes crear un nuevo documento PDF usando Aspose.PDF para Java con solo unas pocas líneas de código.
 
 ```java
 // Código para crear un nuevo documento PDF
@@ -48,7 +50,7 @@ Document pdfDocument = new Document();
 
 ## Paso 4: Agregar un sello de imagen
 
-Para agregar un sello de imagen al documento PDF, necesitará un archivo de imagen para utilizar como sello. A continuación, le indicamos cómo hacerlo:
+Para añadir un sello de imagen al documento PDF, necesitará un archivo de imagen para usarlo como sello. A continuación, le explicamos cómo hacerlo:
 
 ```java
 // Código para agregar un sello de imagen
@@ -72,7 +74,7 @@ pdfDocument.save("output.pdf");
 
 ## Conclusión
 
-En este tutorial, aprendimos a agregar sellos de imagen a archivos PDF con Java y Aspose.PDF para Java. Ahora puede mejorar sus documentos PDF con sellos de imagen para mejorar la marca y la identificación.
+En este tutorial, aprendimos a añadir sellos de imagen a archivos PDF con Java y Aspose.PDF para Java. Ahora puedes mejorar tus documentos PDF con sellos de imagen para mejorar la imagen de marca y la identificación.
 
 ## Preguntas frecuentes
 
@@ -82,11 +84,11 @@ Puede cambiar la posición del sello de imagen modificando sus coordenadas en el
 
 ### ¿Puedo agregar varios sellos de imagen a un solo documento PDF?
 
-Sí, puede agregar varios sellos de imagen a un solo documento PDF repitiendo el proceso de estampado para cada imagen.
+Sí, puedes agregar varios sellos de imagen a un solo documento PDF repitiendo el proceso de estampado para cada imagen.
 
 ### ¿Aspose.PDF para Java es de uso gratuito?
 
-Aspose.PDF para Java es una biblioteca comercial y es posible que deba adquirir una licencia para determinados casos de uso. Visite el sitio web de Aspose para obtener detalles sobre la licencia.
+Aspose.PDF para Java es una biblioteca comercial, por lo que podría requerir una licencia para ciertos usos. Consulte el sitio web de Aspose para obtener información sobre la licencia.
 
 ### ¿Existen limitaciones en los formatos de imagen admitidos para estampar?
 
@@ -94,10 +96,12 @@ Aspose.PDF para Java admite varios formatos de imagen, como PNG, JPEG, GIF y BMP
 
 ### ¿Dónde puedo encontrar más ejemplos y documentación de Aspose.PDF para Java?
 
-Puede encontrar documentación completa y ejemplos en el sitio web Aspose.PDF para Java en[aquí](https://reference.aspose.com/pdf/java/.)
+Puede encontrar documentación completa y ejemplos en el sitio web Aspose.PDF para Java en [aquí](https://reference.aspose.com/pdf/java/.)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

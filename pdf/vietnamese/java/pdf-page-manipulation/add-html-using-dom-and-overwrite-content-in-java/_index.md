@@ -1,14 +1,16 @@
 ---
-title: Thêm HTML bằng DOM và ghi đè nội dung trong Java
-linktitle: Thêm HTML bằng DOM và ghi đè nội dung trong Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thao tác nội dung HTML trong Java bằng DOM (Mô hình đối tượng tài liệu) và ghi đè lên nội dung hiện có. Thực hiện theo hướng dẫn từng bước này với các ví dụ về mã nguồn bằng Aspose.PDF cho Java.
-weight: 13
-url: /vi/java/pdf-page-manipulation/add-html-using-dom-and-overwrite-content-in-java/
+"description": "Tìm hiểu cách thao tác nội dung HTML trong Java bằng DOM (Mô hình đối tượng tài liệu) và ghi đè lên nội dung hiện có. Thực hiện theo hướng dẫn từng bước này với các ví dụ về mã nguồn bằng Aspose.PDF cho Java."
+"linktitle": "Thêm HTML bằng DOM và ghi đè nội dung trong Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm HTML bằng DOM và ghi đè nội dung trong Java"
+"url": "/vi/java/pdf-page-manipulation/add-html-using-dom-and-overwrite-content-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm HTML bằng DOM và ghi đè nội dung trong Java
@@ -24,7 +26,7 @@ Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp 
 
 1. Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
 
-2.  Aspose.PDF cho Java: Tải xuống và bao gồm thư viện Aspose.PDF trong dự án Java của bạn. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF cho Java: Tải xuống và bao gồm thư viện Aspose.PDF trong dự án Java của bạn. Bạn có thể tìm thấy liên kết tải xuống [đây](https://releases.aspose.com/pdf/java/).
 
 ## Bước 1: Tạo một tài liệu PDF mới
 
@@ -49,13 +51,13 @@ com.aspose.pdf.Document existingPdf = new com.aspose.pdf.Document("path/to/exist
 Tiếp theo, tạo một trang mới hoặc chọn một trang hiện có để làm việc. Chúng tôi sẽ thêm nội dung HTML vào trang này:
 
 ```java
-//Thêm một trang mới vào tài liệu
+// Thêm một trang mới vào tài liệu
 com.aspose.pdf.Page page = pdfDocument.getPages().add();
 ```
 
 ## Bước 4: Thêm nội dung HTML
 
- Để thêm nội dung HTML vào trang, bạn có thể sử dụng`HtmlFragment` lớp. Đây là một ví dụ:
+Để thêm nội dung HTML vào trang, bạn có thể sử dụng `HtmlFragment` lớp. Đây là một ví dụ:
 
 ```java
 // Tạo một đoạn mã HTML
@@ -66,7 +68,7 @@ Bạn có thể thay thế nội dung HTML bằng nội dung của riêng bạn 
 
 ## Bước 5: Ghi đè nội dung hiện có
 
- Nếu bạn muốn ghi đè nội dung hiện có trên trang bằng đoạn mã HTML, hãy sử dụng`setHtmlContent` phương pháp:
+Nếu bạn muốn ghi đè nội dung hiện có trên trang bằng đoạn mã HTML, hãy sử dụng `setHtmlContent` phương pháp:
 
 ```java
 // Ghi đè nội dung hiện có bằng đoạn mã HTML
@@ -99,14 +101,16 @@ Trong hướng dẫn này, chúng ta đã học cách thêm nội dung HTML vào
    Aspose.PDF for Java là một thư viện thương mại mạnh mẽ, nhưng nó cung cấp phiên bản dùng thử miễn phí để thử nghiệm và đánh giá. Tùy thuộc vào yêu cầu của dự án, bạn có thể chọn tùy chọn cấp phép phù hợp.
 
 ### 4. Làm thế nào để thêm hình ảnh vào tài liệu PDF bằng Aspose.PDF cho Java?
-    Bạn có thể cải thiện tài liệu PDF của mình bằng cách thêm hình ảnh. Sử dụng`com.aspose.pdf.Image`lớp để tạo và chèn hình ảnh vào các trang PDF. Điều này cho phép bạn kết hợp các yếu tố trực quan một cách liền mạch.
+   Bạn có thể cải thiện tài liệu PDF của mình bằng cách thêm hình ảnh. Sử dụng `com.aspose.pdf.Image` lớp để tạo và chèn hình ảnh vào các trang PDF. Điều này cho phép bạn kết hợp các yếu tố trực quan một cách liền mạch.
 
 ### 5. Có thư viện Java nào khác để làm việc với PDF không?
    Trong khi Aspose.PDF for Java là một lựa chọn mạnh mẽ, bạn có thể khám phá các thư viện thay thế như iText và PDFBox để làm việc với PDF trong Java. Mỗi thư viện có các tính năng và khả năng riêng, vì vậy hãy chọn thư viện phù hợp nhất với nhu cầu của dự án bạn.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

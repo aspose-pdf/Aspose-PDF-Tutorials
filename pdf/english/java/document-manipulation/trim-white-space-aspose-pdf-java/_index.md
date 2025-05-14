@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Trim White Space Around PDF Pages with Aspose.PDF for Java
 ## Introduction
@@ -117,7 +119,11 @@ Trimming white space around pages in PDF documents using Aspose.PDF for Java enh
 - **Free Trial**: Start with a free trial to explore features at [Aspose Free Trials](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: Apply for a temporary license through [Aspose Temporary Licenses](https://purchase.aspose.com/temporary-license/)
 - **Support**: Get assistance from the Aspose community on their [Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

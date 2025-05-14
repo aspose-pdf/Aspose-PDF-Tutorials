@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Dimensi Halaman PDF
-linktitle: Dapatkan Dimensi Halaman PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Dalam tutorial ini, kami menjelaskan cara mendapatkan dimensi halaman PDF dan melakukan manipulasi menggunakan Aspose.PDF untuk .NET. Langkah-langkah terperinci disediakan untuk memandu Anda melalui proses tersebut.
-weight: 60
-url: /id/net/programming-with-pdf-pages/get-dimensions/
+"description": "Dalam tutorial ini, kami menjelaskan cara mendapatkan dimensi halaman PDF dan melakukan manipulasi menggunakan Aspose.PDF untuk .NET. Langkah-langkah terperinci disediakan untuk memandu Anda melalui proses tersebut."
+"linktitle": "Dapatkan Dimensi Halaman PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Dimensi Halaman PDF"
+"url": "/id/net/programming-with-pdf-pages/get-dimensions/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Dimensi Halaman PDF
@@ -17,13 +19,13 @@ url: /id/net/programming-with-pdf-pages/get-dimensions/
 
 Pernahkah Anda perlu memanipulasi dimensi halaman dokumen PDF? Mungkin Anda ingin mengubah ukuran halaman atau memutarnya agar sesuai dengan kebutuhan Anda? Jika demikian, Anda berada di tempat yang tepat! Dalam tutorial ini, kami akan memandu Anda mengambil dan memodifikasi dimensi halaman PDF menggunakan Aspose.PDF untuk .NET. Baik Anda seorang pemula atau pengembang berpengalaman, Anda akan merasa panduan ini sederhana dan mudah diikuti.
 
-Aspose.PDF untuk .NET adalah pustaka canggih yang memungkinkan Anda membuat, memanipulasi, dan mengubah berkas PDF dengan mudah. Mirip seperti memiliki pisau lipat Swiss Army untuk PDF – Anda dapat mengubah setiap detail kecil agar sesuai dengan kebutuhan Anda. Jadi, mari kita langsung mulai dan pelajari cara mengambil dan memperbarui dimensi halaman PDF menggunakan alat yang luar biasa ini!
+Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan Anda membuat, memanipulasi, dan mengubah berkas PDF dengan mudah. Mirip seperti memiliki pisau lipat Swiss Army untuk PDF – Anda dapat mengubah setiap detail kecil agar sesuai dengan kebutuhan Anda. Jadi, mari kita langsung mulai dan pelajari cara mengambil dan memperbarui dimensi halaman PDF menggunakan alat yang luar biasa ini!
 
 ## Prasyarat
 
 Sebelum memulai, Anda memerlukan beberapa hal untuk mengikuti tutorial ini dengan lancar:
 
-1.  Aspose.PDF untuk .NET: Anda dapat[unduh versi terbaru di sini](https://releases.aspose.com/pdf/net/) Jika Anda tidak memiliki lisensi, jangan khawatir! Anda dapat meminta lisensi[uji coba gratis](https://releases.aspose.com/) , atau memilih[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF untuk .NET: Anda dapat [unduh versi terbaru di sini](https://releases.aspose.com/pdf/net/)Jika Anda tidak memiliki lisensi, jangan khawatir! Anda dapat meminta lisensi [uji coba gratis](https://releases.aspose.com/), atau memilih [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 2. Visual Studio: Lingkungan pengembangan yang akan Anda gunakan untuk menulis dan mengeksekusi kode.
 3. Pengetahuan dasar C#: Meskipun kita akan membuatnya tetap sederhana, sedikit pengetahuan tentang C# akan membuat prosesnya lebih lancar.
 4. Berkas PDF untuk digunakan: Ambil contoh berkas PDF atau buat berkas baru untuk diuji.
@@ -40,7 +42,7 @@ using Aspose.Pdf;
 
 Impor ini memastikan bahwa Anda memiliki akses ke kelas inti yang diperlukan untuk memanipulasi file PDF, khususnya untuk mengelola halaman dan mengambil dimensinya.
 
-Setelah semua siap, mari kita uraikan prosesnya menjadi beberapa langkah mudah diikuti.
+Sekarang setelah semuanya siap, mari kita uraikan prosesnya menjadi langkah-langkah yang mudah diikuti.
 
 ## Langkah 1: Tentukan Jalur File dan Muat Dokumen
 
@@ -71,14 +73,14 @@ Bayangkan seperti membuka buku catatan kosong dan menulis di halaman pertama jik
 
 ## Langkah 3: Dapatkan Informasi Tinggi dan Lebar Halaman
 
- Sekarang kita sudah memiliki halaman untuk dikerjakan, mari kita ambil dimensi halamannya. Kita akan menggunakan`GetPageRect()` metode untuk mendapatkan tinggi dan lebar.
+Sekarang kita sudah memiliki halaman untuk dikerjakan, mari kita ambil dimensi halamannya. Kita akan menggunakan `GetPageRect()` metode untuk mendapatkan tinggi dan lebar.
 
 ```csharp
 // Dapatkan informasi tinggi dan lebar halaman
 Console.WriteLine(page.GetPageRect(true).Width.ToString() + ":" + page.GetPageRect(true).Height.ToString());
 ```
 
- Di Sini,`GetPageRect(true)` mengembalikan persegi panjang yang mencakup tinggi dan lebar halaman. Mirip seperti mengukur selembar kertas dengan penggaris. Output akan ditampilkan di konsol, yang memberi Anda dimensi halaman saat ini.
+Di Sini, `GetPageRect(true)` mengembalikan persegi panjang yang mencakup tinggi dan lebar halaman. Mirip seperti mengukur selembar kertas dengan penggaris. Output akan ditampilkan di konsol, yang memberi Anda dimensi halaman saat ini.
 
 ## Langkah 4: Putar Halaman 90 Derajat
 
@@ -112,10 +114,10 @@ Memanipulasi PDF tidak harus rumit. Dengan Aspose.PDF, hal itu semudah mengikuti
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya memutar halaman pada sudut selain 90 derajat?
- Ya, Aspose.PDF memungkinkan Anda memutar halaman sebesar 0, 90, 180, atau 270 derajat menggunakan`Rotation` milik.
+Ya, Aspose.PDF memungkinkan Anda memutar halaman sebesar 0, 90, 180, atau 270 derajat menggunakan `Rotation` milik.
 
 ### Apa yang terjadi jika PDF saya tidak memiliki halaman?
- Jika PDF Anda tidak memiliki halaman, Anda dapat menambahkan halaman kosong menggunakan`Pages.Add()` metode, seperti yang ditunjukkan dalam tutorial ini.
+Jika PDF Anda tidak memiliki halaman, Anda dapat menambahkan halaman kosong menggunakan `Pages.Add()` metode, seperti yang ditunjukkan dalam tutorial ini.
 
 ### Bisakah saya memanipulasi beberapa halaman sekaligus?
 Ya, Anda dapat mengulang beberapa halaman dan menerapkan transformasi, seperti mengubah ukuran atau memutar, ke semuanya.
@@ -124,10 +126,12 @@ Ya, Anda dapat mengulang beberapa halaman dan menerapkan transformasi, seperti m
 Dimensi halaman hanya mengubah ukuran kanvas, bukan konten. Namun, mengubah ukuran dapat mengubah tampilan konten di halaman.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.PDF untuk .NET?
- Anda dapat mengunjungi[dokumentasi disini](https://reference.aspose.com/pdf/net/) untuk informasi lebih rinci dan kasus penggunaan lanjutan.
+Anda dapat mengunjungi [dokumentasi disini](https://reference.aspose.com/pdf/net/) untuk informasi lebih rinci dan kasus penggunaan lanjutan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

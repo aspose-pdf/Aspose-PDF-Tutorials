@@ -1,14 +1,16 @@
 ---
-title: Ratakan Formulir Dalam Dokumen PDF
-linktitle: Ratakan Formulir Dalam Dokumen PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara meratakan formulir dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Amankan data Anda dengan mudah.
-weight: 100
-url: /id/net/programming-with-forms/flatten-forms/
+"description": "Pelajari cara meratakan formulir dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Amankan data Anda dengan mudah."
+"linktitle": "Ratakan Formulir Dalam Dokumen PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ratakan Formulir Dalam Dokumen PDF"
+"url": "/id/net/programming-with-forms/flatten-forms/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ratakan Formulir Dalam Dokumen PDF
@@ -22,7 +24,7 @@ Pernahkah Anda berhadapan dengan formulir PDF yang tidak berfungsi? Anda mengisi
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang perlu diikuti:
 
 1. Visual Studio: Anda memerlukan IDE untuk menulis dan menjalankan kode .NET. Visual Studio adalah pilihan yang tepat.
-2.  Aspose.PDF untuk .NET: Pustaka canggih ini akan membantu kita memanipulasi file PDF. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Pustaka canggih ini akan membantu kita memanipulasi file PDF. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Sedikit pengetahuan tentang C# akan sangat membantu dalam memahami potongan kode yang akan kita gunakan.
 
 ## Paket Impor
@@ -57,7 +59,7 @@ Pertama-tama, kita perlu menentukan di mana file PDF kita berada. Ini penting ka
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Ini seperti menyiapkan panggung untuk penampilan kami!
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Ini seperti menyiapkan panggung untuk pertunjukan kami!
 
 ## Langkah 2: Muat Formulir PDF Sumber
 
@@ -68,7 +70,7 @@ Sekarang setelah direktori kita siap, saatnya memuat formulir PDF yang ingin kit
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Di sini, kita membuat yang baru`Document`objek dan memuat file PDF kita ke dalamnya. Pastikan Anda memiliki file PDF bernama`input.pdf` di direktori yang Anda tentukan.
+Di sini, kita membuat yang baru `Document` objek dan memuat file PDF kita ke dalamnya. Pastikan Anda memiliki file PDF bernama `input.pdf` di direktori yang Anda tentukan.
 
 ## Langkah 3: Periksa Kolom Formulir
 
@@ -98,7 +100,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nForms flattened successfully.\nFile saved at " + dataDir);
 ```
 
- Di sini, kami menyimpan dokumen yang diperbarui dengan nama baru,`FlattenForms_out.pdf`Dengan cara ini, kita menjaga berkas asli tetap utuh saat membuat versi baru dengan bentuk yang diratakan.
+Di sini, kami menyimpan dokumen yang diperbarui dengan nama baru, `FlattenForms_out.pdf`Dengan cara ini, kita menjaga berkas asli tetap utuh saat membuat versi baru dengan bentuk yang diratakan.
 
 ## Kesimpulan
 
@@ -113,16 +115,18 @@ Perataan dalam PDF mengacu pada proses mengubah bidang formulir interaktif menja
 Ya, selama PDF berisi kolom formulir, Anda dapat meratakannya menggunakan Aspose.PDF untuk .NET.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?
- Aspose.PDF menawarkan uji coba gratis, tetapi untuk fitur lengkap, Anda perlu membeli lisensi. Lihat[tautan pembelian](https://purchase.aspose.com/buy).
+Aspose.PDF menawarkan uji coba gratis, tetapi untuk fitur lengkap, Anda perlu membeli lisensi. Lihat [tautan pembelian](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana jika saya mengalami masalah?
- Jika Anda mengalami masalah, jangan ragu untuk menghubungi dukungan di[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Jika Anda mengalami masalah, jangan ragu untuk menghubungi dukungan di [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

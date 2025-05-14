@@ -1,14 +1,16 @@
 ---
-title: Pobierz zakładki w pliku PDF
-linktitle: Pobierz zakładki w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyodrębnić zakładki z plików PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Ulepsz nawigację w PDF.
-weight: 70
-url: /pl/net/programming-with-bookmarks/get-bookmarks/
+"description": "Dowiedz się, jak wyodrębnić zakładki z plików PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Ulepsz nawigację w PDF."
+"linktitle": "Pobierz zakładki w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz zakładki w pliku PDF"
+"url": "/pl/net/programming-with-bookmarks/get-bookmarks/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz zakładki w pliku PDF
@@ -21,8 +23,8 @@ Czy zdarzyło Ci się kiedyś przewijać długi dokument PDF, rozpaczliwie prób
 
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
-1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To najlepsze IDE do tworzenia aplikacji .NET.
-2.  Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To IDE do tworzenia aplikacji .NET.
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci zrozumieć fragmenty kodu, z których będziemy korzystać.
 
 ## Importuj pakiety
@@ -62,7 +64,7 @@ Po pierwsze, musisz określić ścieżkę do katalogu dokumentów. To tutaj będ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest plik PDF. Jest to kluczowe, ponieważ program musi wiedzieć, gdzie znaleźć plik PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, gdzie przechowywany jest plik PDF. Jest to kluczowe, ponieważ program musi wiedzieć, gdzie znaleźć plik PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -73,7 +75,7 @@ Następnie otworzymy dokument PDF za pomocą biblioteki Aspose.PDF. To tutaj zac
 Document pdfDocument = new Document(dataDir + "GetBookmarks.pdf");
 ```
 
- Tutaj tworzymy nowy`Document`obiekt i przekaż ścieżkę do naszego pliku PDF. Upewnij się, że nazwa pliku pasuje do tej, którą masz w swoim katalogu.
+Tutaj tworzymy nowy `Document` obiekt i przekaż ścieżkę do naszego pliku PDF. Upewnij się, że nazwa pliku jest taka sama jak ta, którą masz w swoim katalogu.
 
 ## Krok 3: Przejrzyj zakładki
 
@@ -90,7 +92,7 @@ foreach (OutlineItemCollection outlineItem in pdfDocument.Outlines)
 }
 ```
 
- W tym fragmencie kodu używamy`foreach` pętla do iteracyjnego przeglądania każdego`OutlineItemCollection` w`pdfDocument.Outlines`. Dla każdej zakładki drukujemy jej tytuł, status kursywy, status pogrubienia i kolor. Daje nam to kompleksowy widok zakładek w naszym pliku PDF.
+W tym fragmencie kodu używamy `foreach` pętla do iteracyjnego przeglądania każdego `OutlineItemCollection` w `pdfDocument.Outlines`. Dla każdej zakładki drukujemy jej tytuł, status kursywy, status pogrubienia i kolor. Daje nam to kompleksowy widok zakładek w naszym pliku PDF.
 
 ## Wniosek
 
@@ -102,19 +104,21 @@ Gratulacje! Udało Ci się wyodrębnić zakładki z pliku PDF za pomocą Aspose.
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów PDF w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do zapoznania się z funkcjami biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do zapoznania się z funkcjami biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
-Wsparcie i możliwość zadawania pytań znajdziesz na forum Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Wsparcie i możliwość zadawania pytań znajdziesz na forum Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Jak uzyskać tymczasową licencję na Aspose.PDF?
- Możesz poprosić o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz poprosić o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy można kupić Aspose.PDF?
- Tak, możesz kupić Aspose.PDF na ich stronie internetowej[Tutaj](https://purchase.aspose.com/buy).
+Tak, możesz kupić Aspose.PDF na ich stronie internetowej [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

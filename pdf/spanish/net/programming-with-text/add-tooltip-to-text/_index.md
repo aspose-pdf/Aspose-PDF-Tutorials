@@ -1,21 +1,23 @@
 ---
-title: Agregar información sobre herramientas al texto en un archivo PDF
-linktitle: Agregar información sobre herramientas al texto en un archivo PDF
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a agregar información sobre herramientas al texto de los archivos PDF con Aspose.PDF para .NET. Mejore sus archivos PDF con textos informativos al pasar el mouse sin esfuerzo.
-weight: 90
-url: /es/net/programming-with-text/add-tooltip-to-text/
+"description": "Aprenda a añadir información sobre herramientas al texto de archivos PDF con Aspose.PDF para .NET. Mejore sus PDF con textos informativos al pasar el cursor fácilmente."
+"linktitle": "Agregar información sobre herramientas al texto en un archivo PDF"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Agregar información sobre herramientas al texto en un archivo PDF"
+"url": "/es/net/programming-with-text/add-tooltip-to-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Agregar información sobre herramientas al texto en un archivo PDF
 
 ## Introducción
 
-Cuando se trata de crear archivos PDF atractivos e interactivos, las descripciones emergentes pueden resultar muy útiles. ¿Conoce esos pequeños cuadros emergentes que le brindan información adicional cuando pasa el cursor sobre algo? Pueden brindar contexto, descripciones o incluso consejos sin saturar el documento. En este tutorial, le mostraremos cómo agregar descripciones emergentes al texto de un archivo PDF utilizando la biblioteca Aspose.PDF para .NET. Ya sea que sea un desarrollador experimentado o que recién esté comenzando a incursionar en el mundo de los archivos PDF, ¡está en el lugar correcto! ¡Así que comencemos!
+la hora de crear PDF atractivos e interactivos, la información sobre herramientas puede ser invaluable. ¿Conoces esos pequeños cuadros emergentes que te ofrecen información adicional al pasar el cursor sobre algo? Pueden proporcionar contexto, descripciones o incluso consejos sin sobrecargar el documento. En este tutorial, te explicaremos cómo añadir información sobre herramientas al texto de un archivo PDF con la biblioteca Aspose.PDF para .NET. Tanto si eres un desarrollador experimentado como si estás empezando en el mundo de los PDF, ¡estás en el lugar adecuado! ¡Comencemos!
 
 ## Prerrequisitos
 
@@ -25,19 +27,19 @@ Antes de pasar a la parte de codificación, asegurémonos de que tienes todo lo 
 Es esencial tener Visual Studio instalado en su máquina, ya que será su entorno de desarrollo principal para aplicaciones .NET.
 
 ### Biblioteca Aspose.PDF para .NET
- También necesitarás tener a tu disposición la biblioteca Aspose.PDF. Puedes[Descárgalo aquí](https://releases.aspose.com/pdf/net/)Asegúrese de incluirlo en las referencias de su proyecto.
+También necesitarás tener la biblioteca Aspose.PDF a tu disposición. Puedes [Descárgalo aquí](https://releases.aspose.com/pdf/net/)Asegúrese de incluirlo en las referencias de su proyecto.
 
 ### Conocimientos básicos de C#
-Un conocimiento previo de C# será de gran ayuda, ya que codificaremos en ese lenguaje. Pero no te preocupes: ¡te guiaré en cada paso!
+Tener conocimientos de C# será muy útil, ya que programaremos en ese lenguaje. Pero no te preocupes, ¡te guiaré paso a paso!
 
-### Un documento PDF con el que trabajar
+### Un documento PDF para trabajar
 Puedes comenzar con un documento PDF en blanco, como hacemos en este ejemplo, o utilizar uno existente si lo prefieres.
 
 ¡Ahora, pasemos a la parte de codificación!
 
 ## Importar paquetes 
 
- El primer paso en nuestra aventura de codificación implica importar los paquetes necesarios. Abra su proyecto de Visual Studio y, en la parte superior de su archivo C#, deberá agregar lo siguiente`using` directivas:
+El primer paso en nuestra aventura de programación consiste en importar los paquetes necesarios. Abra su proyecto de Visual Studio y, en la parte superior de su archivo de C#, deberá agregar lo siguiente: `using` directivas:
 
 ```csharp
 using Aspose.Pdf.Forms;
@@ -46,9 +48,9 @@ using Aspose.Pdf.Text;
 
 Estos paquetes le brindan acceso a todas las clases y funcionalidades que necesita para crear y manipular documentos PDF.
 
-## Paso 1: Configurar el directorio de documentos
+## Paso 1: Configure su directorio de documentos
 
-Lo primero es lo primero: debemos configurar la ruta en la que guardarás tus documentos. Piensa en esto como si buscaras un lugar cómodo en tu sistema de archivos donde residirán todas tus creaciones.
+Primero, necesitamos configurar la ruta donde guardarás tus documentos. Piensa en esto como encontrar un lugar seguro en tu sistema de archivos donde residirán todas tus creaciones.
 
 ```csharp
 // La ruta al directorio de documentos.
@@ -56,14 +58,14 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outputFile = dataDir + "Tooltip_out.pdf";
 ```
 
- Asegúrese de reemplazar`YOUR DOCUMENT DIRECTORY` con la ruta actual en su máquina.
+Asegúrese de reemplazar `YOUR DOCUMENT DIRECTORY` con la ruta actual en su máquina.
 
 ## Paso 2: Crear un documento PDF de muestra
 
-A continuación, es el momento de crear un PDF sencillo con algo de texto. ¡Aquí es donde iniciamos nuestro proceso creativo!
+A continuación, es hora de crear un PDF sencillo con texto. ¡Aquí es donde iniciamos nuestro proceso creativo!
 
 ```csharp
-//Crear un documento de muestra con texto
+// Crear un documento de muestra con texto
 Document doc = new Document();
 doc.Pages.Add().Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a tooltip"));
 doc.Pages[1].Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a very long tooltip"));
@@ -72,20 +74,20 @@ doc.Save(outputFile);
 
 En este paso, creamos un documento, agregamos dos fragmentos de texto y lo guardamos en la ruta previamente especificada.
 
-## Paso 3: Abrir el documento para procesarlo
+## Paso 3: Abra el documento para procesarlo
 
-Ahora que hemos creado nuestro documento, ¡abrámoslo para que podamos trabajar en esas descripciones emergentes!
+¡Ahora que hemos creado nuestro documento, abrámoslo para que podamos trabajar en esas descripciones emergentes!
 
 ```csharp
 // Abrir documento con texto
 Document document = new Document(outputFile);
 ```
 
-Aquí simplemente cargamos el documento que acabamos de crear.
+Aquí, simplemente cargamos el documento que acabamos de crear.
 
 ## Paso 4: Crear un absorbedor de texto para encontrar fragmentos de texto
 
-Necesitamos encontrar los fragmentos de texto donde queremos agregar las descripciones emergentes. ¡Esto es como usar una lupa para resaltar una parte específica de un mapa grande! 
+Necesitamos encontrar los fragmentos de texto donde queremos añadir la información sobre herramientas. ¡Es como usar una lupa para resaltar una parte específica de un mapa grande! 
 
 ```csharp
 // Cree un objeto TextAbsorber para encontrar todas las frases que coincidan con la expresión regular
@@ -95,7 +97,7 @@ document.Pages.Accept(absorber);
 
 ## Paso 5: Extraer fragmentos de texto
 
-A continuación, extraemos los fragmentos de texto que encontramos en nuestro paso anterior.
+continuación, extraemos los fragmentos de texto que encontramos en nuestro paso anterior.
 
 ```csharp
 // Obtener los fragmentos de texto extraídos
@@ -106,7 +108,7 @@ Este fragmento nos permite conservar referencias de los fragmentos de texto que 
 
 ## Paso 6: Recorrer los fragmentos y agregar información sobre herramientas
 
-Ahora viene la parte divertida. Recorreremos cada uno de los fragmentos de texto y agregaremos una descripción emergente a cada uno. Imagina envolver pequeños regalos (descripciones emergentes) alrededor de elementos específicos (fragmentos de texto).
+¡Ahora viene la parte divertida! Recorreremos cada fragmento de texto y añadiremos una descripción emergente a cada uno. Imagina envolver pequeños regalos (descripciones emergentes) alrededor de elementos específicos (fragmentos de texto).
 
 ```csharp
 // Recorrer los fragmentos
@@ -116,7 +118,7 @@ foreach (TextFragment fragment in textFragments)
 	ButtonField field = new ButtonField(fragment.Page, fragment.Rectangle);
 	// El valor de AlternateName se mostrará como información sobre herramientas en una aplicación de visualización
 	field.AlternateName = "Tooltip for text.";
-	// Añadir campo de botón al documento
+	// Agregar campo de botón al documento
 	document.Form.Add(field);
 }
 ```
@@ -125,7 +127,7 @@ En cada iteración, creamos un campo de botón que corresponde a la posición de
 
 ## Paso 7: Repetir para las descripciones emergentes largas
 
-De la misma forma que agregamos una descripción emergente simple, podemos hacer lo mismo con textos más largos. ¡Extendamos nuestra creatividad!
+Al igual que añadimos una descripción emergente sencilla, podemos hacer lo mismo con texto más largo. ¡Desarrollemos nuestra creatividad!
 
 ```csharp
 // A continuación se mostrará un ejemplo de una descripción emergente muy larga.
@@ -159,13 +161,13 @@ El paso final es guardar el documento con todas esas nuevas y brillantes descrip
 document.Save(outputFile);
 ```
 
-¡Y listo! Has añadido información sobre herramientas a tu PDF, haciéndolo más interactivo y fácil de usar.
+¡Listo! Has añadido información sobre herramientas a tu PDF, haciéndolo más intuitivo e interactivo.
 
 ## Conclusión
 
-Aquí lo tienes: una guía fácil de seguir sobre cómo agregar información sobre herramientas al texto en archivos PDF usando Aspose.PDF para .NET. Esta técnica puede mejorar significativamente la experiencia del usuario, haciendo que tus documentos sean más informativos sin abrumar al lector con demasiado texto a la vez. 
+Aquí la tienes: una guía fácil de seguir sobre cómo añadir información sobre herramientas al texto de archivos PDF con Aspose.PDF para .NET. Esta técnica puede mejorar significativamente la experiencia del usuario, haciendo que tus documentos sean más informativos sin abrumar al lector con demasiado texto. 
 
-Con solo pasar el cursor sobre una palabra o frase, el lector obtiene información relevante que agrega valor sin sobrecargarla. ¡Así que, arremánguese y pruébelo! Antes de que se dé cuenta, podría estar creando todo tipo de documentos atractivos que se destaquen.
+Con solo pasar el cursor sobre una palabra o frase, el lector obtiene información relevante que aporta valor sin ser redundante. ¡Así que, anímate y pruébalo! En un abrir y cerrar de ojos, podrías estar creando todo tipo de documentos atractivos y que destaquen.
 
 ## Preguntas frecuentes
 
@@ -173,19 +175,21 @@ Con solo pasar el cursor sobre una palabra o frase, el lector obtiene informaci�
 Aspose.PDF para .NET es una biblioteca que permite a los desarrolladores crear, manipular y convertir documentos PDF en aplicaciones .NET.
 
 ### ¿Puedo utilizar Aspose.PDF gratis?
- Sí, Aspose ofrece una prueba gratuita para que explores sus funciones. Puedes encontrarla aquí[aquí](https://releases.aspose.com/).
+Sí, Aspose ofrece una prueba gratuita para que explores sus funciones. Puedes encontrarla. [aquí](https://releases.aspose.com/).
 
 ### ¿Hay opciones de licencia disponibles para Aspose.PDF?
-Sí, puedes comprar una licencia u obtener una licencia temporal. Consulta las opciones[aquí](https://purchase.aspose.com/).
+Sí, puedes comprar una licencia u obtener una licencia temporal. Consulta las opciones. [aquí](https://purchase.aspose.com/).
 
 ### ¿Puedo agregar elementos interactivos además de información sobre herramientas usando Aspose.PDF?
-¡Por supuesto! Aspose.PDF permite agregar varios elementos interactivos como hipervínculos, botones y formularios.
+¡Por supuesto! Aspose.PDF permite añadir diversos elementos interactivos como hipervínculos, botones y formularios.
 
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.PDF?
- Puedes consultar la documentación[aquí](https://reference.aspose.com/pdf/net/) para obtener orientación más detallada.
+Puedes consultar la documentación [aquí](https://reference.aspose.com/pdf/net/) para obtener una orientación más detallada.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

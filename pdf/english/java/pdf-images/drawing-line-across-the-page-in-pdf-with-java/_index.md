@@ -8,7 +8,9 @@ url: /java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Drawing Line Across the Page in PDF with Java
@@ -139,6 +141,7 @@ You can find comprehensive documentation and more examples on the Aspose.PDF for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

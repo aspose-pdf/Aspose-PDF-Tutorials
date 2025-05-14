@@ -1,31 +1,33 @@
 ---
-title: PDF Dosyasındaki Kullanılmayan Yazı Tiplerini Kaldır
-linktitle: PDF Dosyasındaki Kullanılmayan Yazı Tiplerini Kaldır
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyalarından kullanılmayan yazı tiplerini zahmetsizce nasıl kaldıracağınızı öğrenin. Performansı artırın ve dosya boyutunu azaltın.
-weight: 300
-url: /tr/net/programming-with-text/remove-unused-fonts/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyalarından kullanılmayan yazı tiplerini zahmetsizce nasıl kaldıracağınızı öğrenin. Performansı artırın ve dosya boyutunu azaltın."
+"linktitle": "PDF Dosyasındaki Kullanılmayan Yazı Tiplerini Kaldır"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Kullanılmayan Yazı Tiplerini Kaldır"
+"url": "/tr/net/programming-with-text/remove-unused-fonts/"
+"weight": 300
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Kullanılmayan Yazı Tiplerini Kaldır
 
 ## giriiş
 
-Merhaba! Gereksiz yer kaplayan yazı tipleriyle dolu şişkin PDF dosyalarından bıktınız mı? Yalnız değilsiniz! PDF'lerde yazı tipi kullanımını yönetmek, özellikle belgelerinizin temiz ve verimli olmasını istediğinizde, zahmetli olabilir. İyi haber şu ki, .NET için Aspose.PDF ile PDF dosyalarından kullanılmayan yazı tiplerini kolayca kaldırabilir, performansı artırabilir ve dosya boyutunu azaltabilirsiniz. Bu eğitimde, PDF dosya yönetiminizi kolaylaştırabilmeniz için süreci adım adım ele alacağız.
+Merhaba! Gereksiz yer kaplayan yazı tipleriyle dolu şişkin PDF dosyalarından bıktınız mı? Yalnız değilsiniz! PDF'lerde yazı tipi kullanımını yönetmek, özellikle de belgelerinizin temiz ve verimli olmasını istediğinizde, zahmetli olabilir. İyi haber şu ki, .NET için Aspose.PDF ile PDF dosyalarından kullanılmayan yazı tiplerini kolayca kaldırabilir, performansı artırabilir ve dosya boyutunu azaltabilirsiniz. Bu eğitimde, PDF dosya yönetiminizi kolaylaştırabilmeniz için süreci adım adım ele alacağız.
 
 ## Ön koşullar
 
 Başlamadan önce, bu eğitimden en iyi şekilde yararlanmak için aşağıdaki ayarların yapıldığından emin olun:
 
 1. Visual Studio Kurulu: .NET kodunuzu çalıştırmak için bir geliştirme ortamına ihtiyacınız olacak. Visual Studio (herhangi bir sürüm) harika bir seçimdir.
-2.  Aspose.PDF for .NET: Bu kütüphanenin kurulu olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Bu kütüphanenin kurulu olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. C# Hakkında Temel Bilgi: Bu örnekte C# kullanacağımız için, dile aşinalık faydalı olacaktır.
-4. Bir PDF Dosyası: Hazır bir örnek PDF dosyanız olsun. Kendi dosyanızı oluşturabilir veya mevcut herhangi bir PDF'i kullanabilirsiniz. Sadece adının olduğundan emin olun`ReplaceTextPage.pdf` ve belgeler dizininizde saklanır.
-5.  Geçerli Lisans: Ücretsiz denemeyi kullanabilmenize rağmen, tam işlevsellik için geçerli bir lisans önerilir. Geçici bir lisansa ihtiyacınız varsa, bunu edinebilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+4. Bir PDF Dosyası: Hazır bir örnek PDF dosyanız olsun. Kendi dosyanızı oluşturabilir veya mevcut herhangi bir PDF'i kullanabilirsiniz. Sadece adının olduğundan emin olun `ReplaceTextPage.pdf` ve belgeler dizininizde saklanır.
+5. Geçerli Lisans: Ücretsiz denemeyi kullanabilmenize rağmen, tam işlevsellik için geçerli bir lisans önerilir. Geçici bir lisansa ihtiyacınız varsa, bunu edinebilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Paketleri İçe Aktar
 
@@ -48,18 +50,18 @@ Bunları içe aktarmak için, yukarıdaki satırları C# dosyanızın en üstün
 
 - Visual Studio’yu açın.
 - Dosya > Yeni > Proje’ye tıklayın.
--  Konsol Uygulamasını (.NET Framework) seçin ve ona bir ad verin (örneğin,`PdfFontCleaner`).
+- Konsol Uygulamasını (.NET Framework) seçin ve ona bir ad verin (örneğin, `PdfFontCleaner`).
 - Oluştur’a tıklayın.
 
 Artık üzerinde çalışabileceğiniz yepyeni bir projeniz var!
 
-## Adım 2: Aspose.PDF Kütüphanesini ekleyin
+## Adım 2: Aspose.PDF Kütüphanesini Ekleyin
 
 Sonra, Aspose.PDF kütüphanesini projenize ekleyeceksiniz. Bunu NuGet aracılığıyla yapabilirsiniz:
 
 1. Çözüm Gezgini'nde projenizin üzerine sağ tıklayın.
 2. NuGet Paketlerini Yönet'i seçin.
-3.  Arama`Aspose.PDF` ve kurun.
+3. Arama `Aspose.PDF` ve kurun.
 
 ## Adım 3: PDF Belgesini Yükleyin
 
@@ -69,10 +71,10 @@ Sonra, Aspose.PDF kütüphanesini projenize ekleyeceksiniz. Bunu NuGet aracılı
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY/"; // Bunu yolunuza güncelleyin
 // Kaynak PDF dosyasını yükle
-Document doc = new Document(dataDir + "ReplaceTextPage.pdf");
+Document doc = new Document(dataDir + "Yer değiştirmekTextPage.pdf");
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY/"` PDF dosyanızın saklandığı gerçek yol ile. Bu adım önemlidir çünkü Aspose'un PDF belgenize erişmesine izin verir. 
+Replace `"YOUR DOCUMENT DIRECTORY/"` PDF dosyanızın saklandığı gerçek yol ile. Bu adım önemlidir çünkü Aspose'un PDF belgenize erişmesine izin verir. 
 
 ## Adım 4: Metin Parçası Emicisini Ayarlayın
 
@@ -83,21 +85,21 @@ TextFragmentAbsorber absorber = new TextFragmentAbsorber(new TextEditOptions(Tex
 doc.Pages.Accept(absorber);
 ```
 
- Bu kod satırı bir`TextFragmentAbsorber` kullanılmayan yazı tiplerini kaldırmak üzere yapılandırılmış nesne. Çağrılarak`doc.Pages.Accept(absorber)`, Aspose'a belgedeki tüm sayfaları incelemesini ve metin parçalarını tanımlamasını söylüyoruz.
+Bu kod satırı bir `TextFragmentAbsorber` kullanılmayan yazı tiplerini kaldırmak üzere yapılandırılmış nesne. Çağrılarak `doc.Pages.Accept(absorber)`, Aspose'a belgedeki tüm sayfaları incelemesini ve metin parçalarını tanımlamasını söylüyoruz.
 
 ## Adım 5: Metin Parçaları Üzerinde Gezinin ve Yazı Tiplerini Değiştirin
 
 Metin parçalarını tanımladıktan sonra, bunlar arasında yineleme yapmanın ve kullanılmayan yazı tiplerini değiştirmenin zamanı geldi. Bu kodu ekleyin:
 
 ```csharp
-//Tüm TextFragments'ı yineleyin
+// Tüm TextFragments'ı yineleyin
 foreach (TextFragment textFragment in absorber.TextFragments)
 {
     textFragment.TextState.Font = FontRepository.FindFont("Arial, Bold");
 }
 ```
 
- Bu döngüde her birinin yazı tipini değiştireceksiniz`TextFragment` "Arial, Bold"a. İhtiyaçlarınıza uygun herhangi bir yazı tipini seçebilirsiniz. Gerçek sihir burada gerçekleşir, çünkü PDF'in temiz, iyi tanımlanmış bir yazı tipiyle kalmasını sağlar.
+Bu döngüde her birinin yazı tipini değiştireceksiniz `TextFragment` "Arial, Bold"a. İhtiyaçlarınıza uygun herhangi bir yazı tipini seçebilirsiniz. Gerçek sihir burada gerçekleşir, çünkü PDF'in temiz, iyi tanımlanmış bir yazı tipiyle kalmasını sağlar.
 
 ## Adım 6: Güncellenen Belgeyi Kaydedin
 
@@ -110,7 +112,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nUnused fonts removed successfully from pdf document.\nFile saved at " + dataDir);
 ```
 
- Burada, adında yeni bir dosya oluşturuyoruz`RemoveUnusedFonts_out.pdf` aynı dizinde. Bu size orijinal PDF'nizin bir yedeğini verirken, yine de size akıcı bir sürüm sağlar.
+Burada, adında yeni bir dosya oluşturuyoruz `RemoveUnusedFonts_out.pdf` aynı dizinde. Bu size orijinal PDF'nizin bir yedeğini verirken, yine de size akıcı bir sürüm sağlar.
 
 ## Adım 7: İstisnaları Yönetin
 
@@ -142,16 +144,18 @@ Evet, ücretsiz denemeyi kullanabilirsiniz ancak optimum performans için tam li
 Yedek bir yazı tipi bulunamazsa, metin doğru görüntülenmeyebilir; bu nedenle yaygın olarak bulunan bir yazı tipi seçtiğinizden emin olun.
 
 ### Geçici ehliyet nasıl alınır?
- Geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisans talebinde bulunabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Kullanılmayan yazı tiplerini kaldırmak belgenin görünümünü etkiler mi?
 Hangi yazı tiplerinin kaldırıldığı ve metin parçalarının nasıl değiştirildiğine bağlı olarak bu mümkün olabilir; test yapılması önerilir.
 
 ### Kullanılmayan fontları kaldırmanın alternatif bir yöntemi var mı?
 Bu amaç için Aspose.PDF for .NET oldukça verimlidir, ancak diğer kütüphaneler veya araçlar da benzer işlevler sunabilir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

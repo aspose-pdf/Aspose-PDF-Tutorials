@@ -1,45 +1,47 @@
 ---
-title: Přepínač S Možnosti
-linktitle: Přepínač S Možnosti
-second_title: Aspose.PDF pro .NET API Reference
-description: Odemkněte potenciál interaktivních PDF přidáním přepínačů pomocí Aspose.PDF pro .NET. Snadno vytvářejte poutavé formuláře a zlepšujte uživatelský dojem.
-weight: 230
-url: /cs/net/programming-with-forms/radio-button-with-options/
+"description": "Odemkněte potenciál interaktivních PDF souborů přidáním přepínačů pomocí Aspose.PDF pro .NET. Snadno vytvářejte poutavé formuláře a vylepšete uživatelský komfort."
+"linktitle": "Přepínač s možnostmi"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Přepínač s možnostmi"
+"url": "/cs/net/programming-with-forms/radio-button-with-options/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přepínač S Možnosti
+# Přepínač s možnostmi
 
 ## Zavedení
 
-Vytváření interaktivních dokumentů PDF může výrazně zlepšit zapojení uživatelů a zefektivnit sběr dat. Mezi různými prvky, které můžete začlenit, vynikají přepínače jako uživatelsky přívětivá metoda prezentace možností s více možnostmi. Pomocí Aspose.PDF for .NET můžete bez námahy přidat přepínače do svých formulářů PDF, což uživatelům usnadní výběr jejich předvoleb. Ať už pracujete na průzkumech, formulářích zpětné vazby nebo aplikacích, tato příručka vám pomůže využít sílu Aspose.PDF k efektivní implementaci přepínačů.
+Vytváření interaktivních PDF dokumentů může výrazně zvýšit zapojení uživatelů a zefektivnit sběr dat. Mezi různými prvky, které můžete začlenit, vynikají přepínače jako uživatelsky přívětivá metoda prezentace možností s více možnostmi. Pomocí Aspose.PDF pro .NET můžete snadno přidávat přepínače do svých PDF formulářů, což uživatelům usnadní výběr jejich preferencí. Ať už pracujete na průzkumech, formulářích pro zpětnou vazbu nebo aplikacích, tato příručka vám pomůže využít sílu Aspose.PDF k efektivní implementaci přepínačů.
 
 ## Předpoklady
 
-Než začneme, je potřeba nastavit několik věcí, abyste zajistili hladký průběh vytváření PDF pomocí přepínačů:
+Než začneme, je třeba nastavit několik věcí, aby proces vytváření PDF s přepínači proběhl hladce:
 
-1.  Aspose.PDF for .NET: Ujistěte se, že máte ve svém projektu nainstalovanou knihovnu Aspose.PDF. Pokud jej ještě nemáte, můžete si jej snadno stáhnout z[stránka vydání](https://releases.aspose.com/pdf/net/).
-2. .NET Framework: Základní znalost .NET frameworku vám pomůže orientovat se v jakýchkoli problémech, se kterými se během cesty setkáte.
-3. Vývojové prostředí: Budete potřebovat vhodné IDE pro .NET (jako Visual Studio), kde můžete psát a testovat svůj kód.
-4. Znalost C#: I když nemusíte být profík, znalost programování v C# vám tento proces rozhodně usnadní a zpříjemní.
-5. Základní znalost struktury PDF: Pochopení toho, jak jsou soubory PDF strukturovány, vám může pomoci při odstraňování problémů nebo při dalším přizpůsobování formulářů.
+1. Aspose.PDF pro .NET: Ujistěte se, že máte ve svém projektu nainstalovanou knihovnu Aspose.PDF. Pokud ji ještě nemáte, můžete si ji snadno stáhnout z [stránka s vydáním](https://releases.aspose.com/pdf/net/).
+2. .NET Framework: Základní znalost .NET Frameworku vám pomůže zorientovat se v jakýchkoli problémech, se kterými se setkáte.
+3. Vývojové prostředí: Budete potřebovat vhodné IDE pro .NET (například Visual Studio), kde můžete psát a testovat svůj kód.
+4. Znalost C#: I když nemusíte být profesionál, znalost programování v C# vám tento proces rozhodně usnadní a zpříjemní.
+5. Základní znalost struktury PDF: Pochopení struktury PDF souborů může pomoci při řešení problémů nebo dalším přizpůsobení formulářů.
 
-Jakmile budete mít vše vyřešené, jste připraveni popustit uzdu své kreativitě do světa PDF!
+Jakmile toto vše vyřešíte, můžete uvolnit svou kreativitu ve světě PDF!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít s přepínači v Aspose.PDF, musíte nejprve importovat základní balíčky do svého projektu C#. Postup je následující:
+Abyste mohli začít s přepínači v souboru Aspose.PDF, musíte nejprve importovat základní balíčky do svého projektu v C#. Postupujte takto:
 
-### Otevřete Editor kódu
+### Otevřete editor kódu
 
-Otevřete své vývojové prostředí (jako je Visual Studio) a vytvořte nový projekt C#, pokud jste to ještě neudělali. 
+Otevřete si vývojové prostředí (například Visual Studio) a vytvořte nový projekt v C#, pokud jste tak ještě neučinili. 
 
-### Přidejte odkaz Aspose.PDF
+### Přidejte odkaz na Aspose.PDF
 
-Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení, vyberte Přidat > Reference a v části Sestavy vyhledejte Aspose.PDF. Pokud jste knihovnu nainstalovali správně, měla by se objevit v seznamu. Stačí to zaškrtnout a kliknout na OK.
+Průzkumníku řešení klikněte pravým tlačítkem myši na svůj projekt, vyberte Přidat > Reference a v části Sestavení vyhledejte Aspose.PDF. Pokud jste knihovnu správně nainstalovali, měla by se zobrazit v seznamu. Stačí ji zaškrtnout a kliknout na OK.
 
 ```csharp
 using System;
@@ -52,24 +54,24 @@ using Aspose.Pdf.Text;
 
 Nyní je váš projekt připraven využít sílu Aspose!
 
-Když je vše nastaveno, pojďme krok za krokem vytvořit dokument PDF plný přepínačů!
+Jakmile je vše nastaveno, pojďme krok za krokem vytvořit dokument PDF s přepínači!
 
-## Krok 1: Nastavte dokument
+## Krok 1: Nastavení dokumentu
 
-Nejprve vytvořte nový dokument PDF a přidejte do něj stránku. Toto bude plátno, kde namalujeme možnosti přepínače.
+Nejprve si vytvořme nový PDF dokument a přidáme do něj stránku. To bude plátno, na kterém budeme malovat možnosti přepínačů.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- V tomto úryvku zakládáme nový`Document` objekt a přidání a`Page` k tomu pro náš obsah. Nezapomeňte vyměnit`YOUR DOCUMENT DIRECTORY` s cestou, kam chcete soubor PDF uložit.
+V tomto úryvku vytváříme nový `Document` objekt a přidání `Page` k tomu pro náš obsah. Nezapomeňte nahradit `YOUR DOCUMENT DIRECTORY` s cestou, kam chcete PDF uložit.
 
 ## Krok 2: Vytvořte tabulku pro rozvržení
 
-Dále potřebujeme rozložení pro naše přepínače. Použití stolu usnadňuje jejich pěkné umístění.
+Dále potřebujeme rozvržení pro naše přepínače. Použití tabulky usnadní jejich pěkné umístění.
 
 ```csharp
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
@@ -77,11 +79,11 @@ table.ColumnWidths = "120 120 120"; // Definujte šířky sloupců
 page.Paragraphs.Add(table);
 ```
 
- Zde jsme vytvořili a`Table`objekt a specifikoval šířky pro naše tři sloupce. To vytváří přehledné rozvržení našich možností.
+Zde jsme vytvořili `Table` objekt a zadali šířky našich tří sloupců. Tím se vytvoří úhledné rozvržení pro naše možnosti.
 
-## Krok 3: Přidejte řádky do tabulky
+## Krok 3: Přidání řádků do tabulky
 
-Nyní do naší tabulky a buněk přidáme řádek, který bude obsahovat přepínače.
+Nyní přidáme do tabulky řádek a buňky, které budou obsahovat přepínače.
 
 ```csharp
 Row r1 = table.Rows.Add();
@@ -90,11 +92,11 @@ Cell c2 = r1.Cells.Add();
 Cell c3 = r1.Cells.Add();
 ```
 
-Vytvoříme nový řádek a tři buňky v řádku. Každá buňka bude obsahovat možnost přepínače.
+Vytvoříme nový řádek a v něm tři buňky. Každá buňka bude obsahovat přepínač s možností výběru.
 
-## Krok 4: Přidejte pole přepínacího tlačítka
+## Krok 4: Přidání pole přepínače
 
-Tady začíná zábava – přidejte pole přepínače do našeho PDF!
+A tady začíná ta pravá zábava – přidejme do našeho PDF pole s přepínačem!
 
 ```csharp
 RadioButtonField rf = new RadioButtonField(page);
@@ -102,11 +104,11 @@ rf.PartialName = "radio";
 doc.Form.Add(rf, 1);
 ```
 
- Vytvoříme instanci a`RadioButtonField`, nastavte jeho název a poté jej přidejte do formuláře dokumentu. Toto pole umožní uživatelům provést jejich výběr.
+Vytvoříme instanci `RadioButtonField`, zadejte jeho název a poté jej přidejte do formuláře dokumentu. Toto pole umožní uživatelům provést výběr.
 
-## Krok 5: Nakonfigurujte možnosti přepínače
+## Krok 5: Konfigurace možností přepínače
 
-Je čas vytvořit možnosti pro přepínače! Přidáme tři možnosti, ze kterých si uživatelé mohou vybrat.
+Je čas vytvořit možnosti pro přepínače! Přidáme tři možnosti, ze kterých si uživatelé budou moci vybrat.
 
 ```csharp
 RadioButtonOptionField opt1 = new RadioButtonOptionField();
@@ -117,11 +119,11 @@ opt2.OptionName = "Item2";
 opt3.OptionName = "Item3";
 ```
 
- Zde vytvoříme tři`RadioButtonOptionField` instance pro každou z našich voleb a přiřadit jim jména. Kreativní použití těchto názvů může pomoci uživatelům lépe nasměrovat, co si vybrat.
+Zde vytvoříme tři `RadioButtonOptionField` instance pro každou z našich voleb a přiřadit jim názvy. Kreativita s těmito názvy může uživatelům lépe pomoci s výběrem.
 
-## Krok 6: Nastavte rozměry pro možnosti
+## Krok 6: Nastavení rozměrů pro možnosti
 
-Dále nastavíme velikost možností přepínačů, aby byly vizuálně přitažlivé.
+Dále nastavme velikost přepínačů, aby byly vizuálně přitažlivé.
 
 ```csharp
 opt1.Width = 15;
@@ -134,9 +136,9 @@ opt3.Height = 15;
 
 Pomocí tohoto kódu definujeme rozměry každého přepínače. Tyto hodnoty můžete upravit, pokud chcete větší nebo menší možnosti.
 
-## Krok 7: Přidejte možnosti do pole přepínacího tlačítka
+## Krok 7: Přidání možností do pole přepínače
 
-Nyní, když jsou možnosti vytvořeny, musíme je přidat do pole přepínače.
+Nyní, když jsou možnosti vytvořeny, je musíme přidat do pole přepínače.
 
 ```csharp
 rf.Add(opt1);
@@ -144,11 +146,11 @@ rf.Add(opt2);
 rf.Add(opt3);
 ```
 
-Tento kód nejen přidává možnosti, ale také je propojuje s naším polem přepínače, takže uživatelé mohou vybrat jednu z možností.
+Tento kód nejen přidává možnosti, ale také je propojuje s naším polem přepínače, což uživatelům dává možnost vybrat si jednu z možností.
 
-## Krok 8: Upravte styl možností
+## Krok 8: Stylizace možností
 
-Aby naše možnosti vynikly, upravme je. Můžeme přidat okraje a nastavit barvy.
+Aby naše možnosti vynikly, upravme je podle stylu. Můžeme přidat ohraničení a nastavit barvy.
 
 ```csharp
 opt1.Border = new Border(opt1);
@@ -159,11 +161,11 @@ opt1.DefaultAppearance.TextColor = System.Drawing.Color.Red;
 opt1.Caption = new TextFragment("Item1");
 ```
 
- Opakujte tento styl pro`opt2` a`opt3`, odpovídajícím způsobem upravte titulky. To zajišťuje, že každá možnost vypadá profesionálně a poutavě.
+Tento styling opakujte pro `opt2` a `opt3`a odpovídajícím způsobem upravte titulky. Tím zajistíte, že každá možnost bude vypadat profesionálně a poutavě.
 
-## Krok 9: Přidejte možnosti do buněk
+## Krok 9: Přidání možností do buněk
 
-Dále musíme tyto přepínače umístit do odpovídajících buněk naší tabulky.
+Dále musíme umístit tyto přepínače do odpovídajících buněk naší tabulky.
 
 ```csharp
 c1.Paragraphs.Add(opt1);
@@ -171,11 +173,11 @@ c2.Paragraphs.Add(opt2);
 c3.Paragraphs.Add(opt3);
 ```
 
-Tento řádek přidá stylizované možnosti do buněk, které jsme vytvořili dříve, a úhledně je uspořádá v naší tabulce.
+Tento řádek přidá stylizované možnosti do buněk, které jsme vytvořili dříve, a úhledně je tak uspořádá v naší tabulce.
 
-## Krok 10: Uložte dokument PDF
+## Krok 10: Uložení dokumentu PDF
 
-Konečně je čas uložit si práci! Tento krok uloží vše, co jsme udělali, do souboru PDF.
+Konečně je čas uložit si práci! V tomto kroku se vše, co jsme udělali, uloží do souboru PDF.
 
 ```csharp
 dataDir = dataDir + "RadioButtonWithOptions_out.pdf";
@@ -184,31 +186,33 @@ doc.Save(dataDir);
 Console.WriteLine("\nRadio button field with three options added successfully.\nFile saved at " + dataDir);
 ```
 
-S tímto kódem bude váš dokument uložen do určeného adresáře. Nyní můžete otevřít tento soubor PDF, abyste viděli své přepínače v akci. Gratulujeme k implementaci vašeho prvního interaktivního PDF!
+S tímto kódem bude váš dokument uložen do zadaného adresáře. Nyní můžete tento soubor PDF otevřít a vidět svá přepínače v akci. Gratulujeme k implementaci vašeho prvního interaktivního PDF!
 
 ## Závěr
 
-Zvládnutí toho, jak vytvářet interaktivní prvky, jako jsou přepínače, pomocí Aspose.PDF for .NET otevírá zcela novou oblast možností pro vaše dokumenty PDF. Podle této příručky byste nyní měli být vybaveni k tomu, abyste mohli bez námahy začlenit přepínače do svých projektů, čímž se zlepší uživatelská zkušenost a procesy shromažďování dat. Ať už se jedná o jednoduchý průzkum nebo složitý formulář, možnost vytvářet přizpůsobené interaktivní soubory PDF máte na dosah ruky.
+Zvládnutí vytváření interaktivních prvků, jako jsou přepínače, pomocí Aspose.PDF pro .NET otevírá zcela novou oblast možností pro vaše PDF dokumenty. Dodržováním tohoto návodu byste nyní měli být připraveni bez námahy začlenit přepínače do svých projektů, což vylepší uživatelský komfort a procesy sběru dat. Ať už se jedná o jednoduchý průzkum nebo složitý formulář, možnost vytvářet interaktivní PDF soubory na míru máte na dosah ruky.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je knihovna, která umožňuje vývojářům vytvářet a manipulovat s dokumenty PDF programově.
+Aspose.PDF pro .NET je knihovna, která umožňuje vývojářům programově vytvářet a manipulovat s PDF dokumenty.
 
 ### Jak nainstaluji Aspose.PDF pro .NET?
- Knihovnu si můžete stáhnout z[Aspose release page](https://releases.aspose.com/pdf/net/) a přidejte jej do svého projektu.
+Knihovnu si můžete stáhnout z [Stránka s vydáním Aspose](https://releases.aspose.com/pdf/net/) a přidejte ho do svého projektu.
 
-### Mohu vytvořit přepínače v PDF pomocí jiných programovacích jazyků?
-Ano, Aspose.PDF je k dispozici také pro Javu a další jazyky pro podobné funkce.
+### Mohu vytvářet přepínače v PDF pomocí jiných programovacích jazyků?
+Ano, Aspose.PDF je k dispozici také pro Javu a další jazyky s podobnými funkcemi.
 
 ### Existuje bezplatná zkušební verze pro Aspose.PDF?
- Ano, funkce Aspose.PDF můžete prozkoumat stažením souboru a[zkušební verze zdarma](https://releases.aspose.com/).
+Ano, funkce souboru Aspose.PDF si můžete prohlédnout stažením [bezplatná zkušební verze](https://releases.aspose.com/).
 
 ### Kde mohu získat podporu pro Aspose.PDF?
- Pro podporu můžete navštívit[Aspose fórum podpory](https://forum.aspose.com/c/pdf/10) za pomoc odborníků a členů komunity.
+Pro podporu můžete navštívit [Fórum podpory Aspose](https://forum.aspose.com/c/pdf/10) o pomoc od odborníků a členů komunity.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

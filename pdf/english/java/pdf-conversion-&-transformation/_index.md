@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Conversion & Transformation
@@ -73,9 +75,11 @@ Learn how to enhance PDF interactivity with JavaScript using Aspose.PDF for Java
 Learn how to add layers to a PDF file using Java with Aspose.PDF for Java. This step-by-step guide includes source code and covers PDF manipulation with ease.
 ### [Add Table of Contents to an Existing PDF in Java](./add-table-of-contents-to-existing-pdf-in-java/)
 Learn how to add a table of contents to a PDF in Java using Aspose.PDF for Java. Enhance document navigation with this step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

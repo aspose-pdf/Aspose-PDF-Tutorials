@@ -8,7 +8,9 @@ url: /net/programming-with-images/fast-shrink-images/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fast Shrink Images
@@ -190,6 +192,7 @@ For any queries or issues, head to the [Aspose PDF forum for support](https://fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

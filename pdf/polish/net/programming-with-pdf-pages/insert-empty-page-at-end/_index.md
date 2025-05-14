@@ -1,27 +1,29 @@
 ---
-title: Wstaw pustą stronę na końcu
-linktitle: Wstaw pustą stronę na końcu
-second_title: Aspose.PDF dla .NET API Reference
-description: Naucz się bez wysiłku wstawiać pustą stronę do dokumentu PDF za pomocą Aspose.PDF dla .NET w tym przyjaznym dla początkujących przewodniku. Idealny do szybkich edycji.
-weight: 130
-url: /pl/net/programming-with-pdf-pages/insert-empty-page-at-end/
+"description": "Naucz się bez wysiłku wstawiać pustą stronę do dokumentu PDF za pomocą Aspose.PDF dla .NET w tym przyjaznym dla początkujących przewodniku. Idealny do szybkich edycji."
+"linktitle": "Wstaw pustą stronę na końcu"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wstaw pustą stronę na końcu"
+"url": "/pl/net/programming-with-pdf-pages/insert-empty-page-at-end/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw pustą stronę na końcu
 
 ## Wstęp
 
-ciągle ewoluującym świecie cyfrowym kluczowe jest efektywne zarządzanie dokumentami. Pliki PDF, będące jednym z najbardziej powszechnie akceptowanych formatów udostępniania i przechowywania dokumentów, często wymagają modyfikacji. Wyobraź sobie: kończysz raport, ale nagle musisz dodać dodatkową pustą stronę na notatki na ostatnią chwilę. Na szczęście przy użyciu odpowiednich narzędzi jest to bułka z masłem! W tym samouczku zagłębimy się w to, jak wstawić pustą stronę na końcu dokumentu PDF przy użyciu Aspose.PDF dla .NET.
+W ciągle ewoluującym świecie cyfrowym kluczowe jest efektywne zarządzanie dokumentami. Pliki PDF, będące jednym z najbardziej powszechnie akceptowanych formatów udostępniania i przechowywania dokumentów, często wymagają modyfikacji. Wyobraź sobie: kończysz raport, ale nagle musisz dodać dodatkową pustą stronę na notatki na ostatnią chwilę. Na szczęście przy użyciu odpowiednich narzędzi jest to bułka z masłem! W tym samouczku zagłębimy się w to, jak wstawić pustą stronę na końcu dokumentu PDF przy użyciu Aspose.PDF dla .NET.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do szczegółów wstawiania pustej strony, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1.  Aspose.PDF dla .NET: Przede wszystkim będziesz potrzebować tej biblioteki. Możesz ją łatwo pobrać z[ta strona](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Przede wszystkim będziesz potrzebować tej biblioteki. Możesz ją łatwo pobrać z [ta strona](https://releases.aspose.com/pdf/net/).
 
 2. Visual Studio: Każda wersja zgodna z .NET będzie dobra. To tutaj będziemy pisać i wykonywać nasz kod.
 
@@ -39,14 +41,14 @@ Zanim zaczniemy kodować, skonfigurujmy nasze środowisko. W Visual Studio musis
 
 - Otwórz program Visual Studio.
 - Kliknij „Utwórz nowy projekt”.
-- Wybierz „Aplikacja konsolowa (.NET Framework)”.
+- Wybierz „Aplikację konsolową (.NET Framework)”.
 - Nadaj nazwę swojemu projektowi (np. PDFPageInserter).
 
 ### Dodaj odniesienie Aspose.PDF
 
 - Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 - Wybierz „Zarządzaj pakietami NuGet”.
--  Szukaj`Aspose.PDF` i kliknij Zainstaluj.
+- Szukaj `Aspose.PDF` i kliknij Zainstaluj.
 
 ### Importuj przestrzeń nazw
 
@@ -70,17 +72,17 @@ Najpierw musisz skonfigurować katalog, w którym znajduje się Twój dokument P
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`YOUR DOCUMENT DIRECTORY` ze ścieżką, gdzie przechowywany jest Twój dokument. Na przykład,`"C:\\Documents\\"`.
+Zastępować `YOUR DOCUMENT DIRECTORY` ze ścieżką, gdzie przechowywany jest Twój dokument. Na przykład, `"C:\\Documents\\"`.
 
 ## Krok 2: Otwórz dokument PDF
 
- Następnie otwórzmy dokument PDF, który chcesz zmodyfikować. Utworzymy wystąpienie`Document` klasa z biblioteki Aspose.PDF.
+Następnie otwórzmy dokument PDF, który chcesz zmodyfikować. Utworzymy wystąpienie `Document` klasa z biblioteki Aspose.PDF.
 
 ```csharp
 Document pdfDocument1 = new Document(dataDir + "InsertEmptyPageAtEnd.pdf");
 ```
 
- Ta linia tworzy`pdfDocument1` obiekt, w którym będzie się znajdował Twój PDF. Upewnij się, że nazwa pliku odpowiada dokumentowi, który posiadasz!
+Ta linia tworzy `pdfDocument1` obiekt, w którym będzie się znajdował Twój PDF. Upewnij się, że nazwa pliku odpowiada dokumentowi, który posiadasz!
 
 ## Krok 3: Wstaw pustą stronę
 
@@ -101,7 +103,7 @@ dataDir = dataDir + "InsertEmptyPageAtEnd_out.pdf";
 pdfDocument1.Save(dataDir);
 ```
 
- Ten kod określa nazwę nowego pliku i zapisuje go w katalogu oryginalnego dokumentu. Tutaj dołączamy`_out` aby zaznaczyć, że jest to wersja zaktualizowana.
+Ten kod określa nazwę nowego pliku i zapisuje go w katalogu oryginalnego dokumentu. Tutaj dołączamy `_out` aby zaznaczyć, że jest to wersja zaktualizowana.
 
 ## Krok 5: Potwierdzenie wyników
 
@@ -118,10 +120,10 @@ I tak po prostu wstawiłeś pustą stronę na końcu dokumentu PDF za pomocą As
 ## Najczęściej zadawane pytania
 
 ### Czy mogę wstawić kilka stron jednocześnie?
- Tak, możesz przejść przez określoną liczbę razy, aby dodać wiele stron, dodając`pdfDocument1.Pages.Add();` w pętli.
+Tak, możesz przejść przez określoną liczbę razy, aby dodać wiele stron, dodając `pdfDocument1.Pages.Add();` w pętli.
 
 ### Czy Aspose.PDF jest darmowy?
- Aspose.PDF oferuje bezpłatną wersję próbną, ale wymaga licencji na dłuższe użytkowanie. Możesz sprawdzić ceny[Tutaj](https://purchase.aspose.com/buy).
+Aspose.PDF oferuje bezpłatną wersję próbną, ale wymaga licencji na dłuższe użytkowanie. Możesz sprawdzić ceny [Tutaj](https://purchase.aspose.com/buy).
 
 ### Co zrobić, jeśli podczas zapisywania pliku PDF wystąpią błędy?
 Upewnij się, że masz uprawnienia do zapisu w katalogu, w którym próbujesz zapisać plik.
@@ -130,10 +132,12 @@ Upewnij się, że masz uprawnienia do zapisu w katalogu, w którym próbujesz za
 Oczywiście! Biblioteka może manipulować plikami PDF, w tym wypełnionymi formularzami.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.PDF?
- Możesz zadać swoje pytania na forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz zadać swoje pytania na forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

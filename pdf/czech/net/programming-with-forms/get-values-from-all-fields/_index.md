@@ -1,44 +1,46 @@
 ---
-title: Získat hodnoty ze všech polí v dokumentu PDF
-linktitle: Získat hodnoty ze všech polí v dokumentu PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se extrahovat hodnoty ze všech polí v dokumentu PDF pomocí Aspose.PDF for .NET pomocí tohoto podrobného průvodce.
-weight: 150
-url: /cs/net/programming-with-forms/get-values-from-all-fields/
+"description": "Naučte se, jak extrahovat hodnoty ze všech polí v dokumentu PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem."
+"linktitle": "Získání hodnot ze všech polí v dokumentu PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Získání hodnot ze všech polí v dokumentu PDF"
+"url": "/cs/net/programming-with-forms/get-values-from-all-fields/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získat hodnoty ze všech polí v dokumentu PDF
+# Získání hodnot ze všech polí v dokumentu PDF
 
 ## Zavedení
 
-Stalo se vám někdy, že potřebujete extrahovat data z formuláře PDF? Ať už se jedná o analýzu dat, vedení záznamů nebo jednoduše pro usnadnění vašeho života, extrahování hodnot z polí PDF může být skličující úkol. Ale nebojte se! S Aspose.PDF pro .NET se tento proces stává hračkou. V tomto tutoriálu vás provedeme kroky k získání hodnot ze všech polí v dokumentu PDF.
+Už jste někdy zjistili, že potřebujete extrahovat data z PDF formuláře? Ať už jde o analýzu dat, vedení záznamů nebo prostě jen pro usnadnění života, extrakce hodnot z polí PDF může být náročný úkol. Ale nebojte se! S Aspose.PDF pro .NET se tento proces stává hračkou. V tomto tutoriálu vás provedeme kroky k získání hodnot ze všech polí v PDF dokumentu.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte vše, co potřebujete, abyste mohli začít:
+Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete k zahájení:
 
-1. .NET Framework: Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET Framework. Aspose.PDF bezproblémově spolupracuje s aplikacemi .NET.
-2.  Aspose.PDF for .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Můžete to najít[zde](https://releases.aspose.com/pdf/net/).
-3. Visual Studio: Dobré IDE vám usnadní práci s kódováním. Visual Studio je oblíbenou volbou pro vývoj .NET.
+1. .NET Framework: Ujistěte se, že máte na svém počítači nainstalovaný .NET Framework. Aspose.PDF bez problémů funguje s aplikacemi .NET.
+2. Aspose.PDF pro .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Najdete ji [zde](https://releases.aspose.com/pdf/net/).
+3. Visual Studio: Dobré IDE vám usnadní kódování. Visual Studio je oblíbenou volbou pro vývoj v .NET.
 4. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět příkladům.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, musíte do svého projektu C# importovat potřebné balíčky. Můžete to udělat takto:
+Chcete-li začít, musíte do svého projektu C# importovat potřebné balíčky. Zde je návod, jak to udělat:
 
 ### Vytvořit nový projekt
 
-Otevřete Visual Studio a vytvořte nový projekt C#. Pro jednoduchost zvolte konzolovou aplikaci.
+Otevřete Visual Studio a vytvořte nový projekt v C#. Pro zjednodušení vyberte konzolovou aplikaci.
 
-### Přidejte odkaz Aspose.PDF
+### Přidat odkaz na Aspose.PDF
 
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
-2. Vyberte „Spravovat balíčky NuGet“.
-3. Vyhledejte „Aspose.PDF“ a nainstalujte nejnovější verzi.
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+2. Vyberte možnost „Spravovat balíčky NuGet“.
+3. Vyhledejte soubor „Aspose.PDF“ a nainstalujte nejnovější verzi.
 
 ```csharp
 using System.IO;
@@ -47,36 +49,36 @@ using Aspose.Pdf.Forms;
 using System;
 ```
 
-Nyní, když máte vše nastaveno, přejděme ke kódu!
+Nyní, když máte vše nastavené, pojďme se pustit do kódu!
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíte zadat cestu k dokumentu PDF. Zde Aspose.PDF vyhledá soubor, se kterým chcete pracovat.
+Nejdříve je třeba zadat cestu k vašemu PDF dokumentu. Zde Aspose.PDF vyhledá soubor, se kterým chcete pracovat.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš soubor PDF. To je zásadní, protože pokud je cesta nesprávná, program nebude schopen najít váš PDF.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš PDF soubor. To je zásadní, protože pokud je cesta nesprávná, program váš PDF soubor nenajde.
 
 ## Krok 2: Otevřete dokument PDF
 
-Nyní, když máme nastavenou cestu, je čas otevřít dokument PDF. Tady začíná kouzlo!
+Nyní, když máme nastavenou cestu, je čas otevřít PDF dokument. Tady začíná kouzlo!
 
 ```csharp
-// Otevřete dokument
+// Otevřít dokument
 Document pdfDocument = new Document(dataDir + "GetValuesFromAllFields.pdf");
 ```
 
- Zde vytvoříme novou instanci`Document` třídy a předejte cestu k našemu souboru PDF. Tento řádek kódu načte PDF do paměti a připraví jej pro manipulaci.
+Zde vytvoříme novou instanci třídy `Document` třídu a předáme cestu k našemu PDF souboru. Tento řádek kódu načte PDF do paměti a připraví ho k manipulaci.
 
 ## Krok 3: Přístup k polím formuláře
 
-S otevřeným dokumentem máme nyní přístup k polím formuláře. Aspose.PDF nám umožňuje snadno procházet všemi poli ve formuláři PDF.
+Po otevření dokumentu nyní můžeme přistupovat k polím formuláře. Aspose.PDF nám umožňuje snadno procházet všechna pole ve formuláři PDF.
 
 ```csharp
-//Získejte hodnoty ze všech polí
+// Získání hodnot ze všech polí
 foreach (Field formField in pdfDocument.Form)
 {
     Console.WriteLine("Field Name : {0} ", formField.PartialName);
@@ -84,31 +86,33 @@ foreach (Field formField in pdfDocument.Form)
 }
 ```
 
- V této smyčce procházíme každé pole ve formuláři PDF. The`PartialName` vlastnost nám dává název pole, zatímco`Value` vlastnost poskytuje data zadaná do tohoto pole. Tady uvidíte výsledky své tvrdé práce!
+V této smyčce projdeme každé pole ve formuláři PDF. `PartialName` vlastnost nám dává název pole, zatímco `Value` vlastnost poskytuje data zadaná do daného pole. Zde uvidíte výsledky své tvrdé práce!
 
 ## Závěr
 
-Gratuluji! Právě jste se naučili, jak extrahovat hodnoty ze všech polí v dokumentu PDF pomocí Aspose.PDF pro .NET. Tato výkonná knihovna zjednodušuje proces práce s formuláři PDF a usnadňuje vám správu a analýzu dat. Ať už jste vývojář, který chce vylepšit své aplikace, nebo jen někdo, kdo potřebuje pracovat s PDF efektivněji, Aspose.PDF je fantastický nástroj, který můžete mít ve svém arzenálu.
+Gratulujeme! Právě jste se naučili, jak extrahovat hodnoty ze všech polí v dokumentu PDF pomocí knihovny Aspose.PDF pro .NET. Tato výkonná knihovna zjednodušuje proces práce s formuláři PDF a usnadňuje vám správu a analýzu dat. Ať už jste vývojář, který chce vylepšit své aplikace, nebo jen někdo, kdo potřebuje efektivněji pracovat s PDF soubory, Aspose.PDF je fantastický nástroj, který byste měli mít ve svém arzenálu.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty PDF v aplikacích .NET.
+Aspose.PDF pro .NET je knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět PDF dokumenty v .NET aplikacích.
 
 ### Mohu používat Aspose.PDF zdarma?
- Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání funkcí knihovny. Můžete si jej stáhnout[zde](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání funkcí knihovny. Můžete si ji stáhnout. [zde](https://releases.aspose.com/).
 
 ### Kde najdu dokumentaci?
- Dokumentaci k Aspose.PDF pro .NET lze nalézt[zde](https://reference.aspose.com/pdf/net/).
+Dokumentaci k souboru Aspose.PDF pro .NET naleznete [zde](https://reference.aspose.com/pdf/net/).
 
-### Jak si koupím licenci?
- Licenci pro Aspose.PDF si můžete zakoupit na stránce nákupu[zde](https://purchase.aspose.com/buy).
+### Jak si zakoupím licenci?
+Licenci pro Aspose.PDF si můžete zakoupit na stránce nákupu. [zde](https://purchase.aspose.com/buy).
 
-### Co když potřebuji podporu?
- Pokud máte nějaké dotazy nebo potřebujete pomoc, můžete navštívit fórum podpory Aspose[zde](https://forum.aspose.com/c/pdf/10).
+### Co když budu potřebovat podporu?
+Pokud máte jakékoli dotazy nebo potřebujete pomoc, můžete navštívit fórum podpory Aspose. [zde](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

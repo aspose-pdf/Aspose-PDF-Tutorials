@@ -1,14 +1,16 @@
 ---
-title: Xóa Dấu Trang Cụ Thể Trong Tệp PDF
-linktitle: Xóa Dấu Trang Cụ Thể Trong Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xóa một dấu trang cụ thể trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này.
-weight: 40
-url: /vi/net/programming-with-bookmarks/delete-particular-bookmark/
+"description": "Tìm hiểu cách xóa một dấu trang cụ thể trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này."
+"linktitle": "Xóa Dấu Trang Cụ Thể Trong Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xóa Dấu Trang Cụ Thể Trong Tệp PDF"
+"url": "/vi/net/programming-with-bookmarks/delete-particular-bookmark/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa Dấu Trang Cụ Thể Trong Tệp PDF
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình đang sàng lọc một tài liệu PDF, chỉ
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để làm theo:
 
-1.  Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Môi trường phát triển nơi bạn có thể viết và thực thi mã .NET của mình.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã chúng ta sẽ sử dụng.
 4. Tệp PDF mẫu: Đối với hướng dẫn này, bạn sẽ cần một tệp PDF có dấu trang. Bạn có thể tạo một tệp hoặc tải xuống mẫu từ internet.
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Mở Tài liệu PDF
 
- Tiếp theo, bạn sẽ mở tài liệu PDF có chứa dấu trang bạn muốn xóa. Điều này được thực hiện bằng cách sử dụng`Document` lớp từ thư viện Aspose.PDF.
+Tiếp theo, bạn sẽ mở tài liệu PDF có chứa dấu trang bạn muốn xóa. Điều này được thực hiện bằng cách sử dụng `Document` lớp từ thư viện Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "DeleteParticularBookmark.pdf");
@@ -70,7 +72,7 @@ Document pdfDocument = new Document(dataDir + "DeleteParticularBookmark.pdf");
 
 ## Bước 3: Xóa Dấu trang Cụ thể
 
- Bây giờ đến phần quan trọng—xóa dấu trang. Bạn sẽ sử dụng`Outlines.Delete` phương pháp xóa dấu trang theo tiêu đề của nó. Hãy đảm bảo thay thế`"Child Outline"` bằng tiêu đề thực tế của dấu trang mà bạn muốn xóa.
+Bây giờ đến phần quan trọng—xóa dấu trang. Bạn sẽ sử dụng `Outlines.Delete` phương pháp xóa dấu trang theo tiêu đề của nó. Hãy đảm bảo thay thế `"Child Outline"` bằng tiêu đề thực tế của dấu trang mà bạn muốn xóa.
 
 ```csharp
 pdfDocument.Outlines.Delete("Child Outline");
@@ -103,19 +105,21 @@ Và bạn đã có nó! Bạn đã xóa thành công một dấu trang cụ th�
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể xóa nhiều dấu trang cùng lúc không?
- Có, bạn có thể lặp qua các dấu trang và xóa nhiều dấu trang bằng cách gọi`Delete` phương pháp cho từng tiêu đề.
+Có, bạn có thể lặp qua các dấu trang và xóa nhiều dấu trang bằng cách gọi `Delete` phương pháp cho từng tiêu đề.
 
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể dùng thử Aspose.PDF cho .NET miễn phí bằng cách tải xuống từ[địa điểm](https://releases.aspose.com/).
+Có, bạn có thể dùng thử Aspose.PDF cho .NET miễn phí bằng cách tải xuống từ [địa điểm](https://releases.aspose.com/).
 
 ### Tôi phải làm sao nếu không biết tiêu đề của dấu trang?
- Bạn có thể lặp lại thông qua`Outlines` bộ sưu tập để tìm tiêu đề của dấu trang bạn muốn xóa.
+Bạn có thể lặp lại thông qua `Outlines` bộ sưu tập để tìm tiêu đề của dấu trang bạn muốn xóa.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

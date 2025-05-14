@@ -8,7 +8,9 @@ url: /java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Rotated Text in PDF using Java
@@ -124,6 +126,7 @@ Enhance your PDF documents by incorporating rotated text with ease, thanks to th
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

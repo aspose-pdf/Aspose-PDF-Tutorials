@@ -1,14 +1,16 @@
 ---
-title: การเพิ่มแสตมป์ข้อความในไฟล์ PDF โดยใช้ Java
-linktitle: การเพิ่มแสตมป์ข้อความในไฟล์ PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการเพิ่มข้อความลงในไฟล์ PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java ปรับแต่งเอกสาร PDF ของคุณได้อย่างง่ายดาย
-weight: 10
-url: /th/java/pdf-form-fields/adding-text-stamp-in-pdf-file-using-java/
+"description": "เรียนรู้วิธีการเพิ่มข้อความลงในไฟล์ PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java ปรับแต่งเอกสาร PDF ของคุณได้อย่างง่ายดาย"
+"linktitle": "การเพิ่มแสตมป์ข้อความในไฟล์ PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "การเพิ่มแสตมป์ข้อความในไฟล์ PDF โดยใช้ Java"
+"url": "/th/java/pdf-form-fields/adding-text-stamp-in-pdf-file-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเพิ่มแสตมป์ข้อความในไฟล์ PDF โดยใช้ Java
@@ -24,7 +26,7 @@ url: /th/java/pdf-form-fields/adding-text-stamp-in-pdf-file-using-java/
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) สำหรับ Java (Eclipse, IntelliJ IDEA เป็นต้น)
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การตั้งค่าโครงการ Java ของคุณ
 
@@ -76,7 +78,7 @@ public class Main {
         textStamp.getTextState().setFontSize(18);
         textStamp.getTextState().setForegroundColor(Color.getRed());
         
-        // เพิ่มตราประทับข้อความบนหน้า
+        // เพิ่มตราประทับข้อความลงบนหน้า
         pdfDocument.getPages().get_Item(1).addStamp(textStamp);
         
         // บันทึกเอกสาร
@@ -85,7 +87,7 @@ public class Main {
 }
 ```
 
- ในโค้ดนี้ เราจะสร้างก่อน`TextStamp` วัตถุที่มีข้อความ "Confidential" เราปรับแต่งแบบอักษร ขนาดแบบอักษร และสีพื้นหน้า จากนั้นเพิ่มตราประทับข้อความลงในหน้าแรกของเอกสาร PDF สุดท้าย บันทึกเอกสารเป็น "stamped_document.pdf"
+ในโค้ดนี้ เราจะสร้างก่อน `TextStamp` วัตถุที่มีข้อความ "Confidential" เราปรับแต่งแบบอักษร ขนาดแบบอักษร และสีพื้นหน้า จากนั้นเพิ่มตราประทับข้อความลงในหน้าแรกของเอกสาร PDF สุดท้าย บันทึกเอกสารเป็น "stamped_document.pdf"
 
 ## บทสรุป
 
@@ -97,7 +99,7 @@ public class Main {
 
 ### ฉันจะเปลี่ยนตำแหน่งของแสตมป์ข้อความใน PDF ได้อย่างไร
 
- หากต้องการเปลี่ยนตำแหน่งของแสตมป์ข้อความใน PDF คุณสามารถตั้งค่าได้`XIndent` และ`YIndent` คุณสมบัติ คุณสมบัติเหล่านี้จะกำหนดตำแหน่งแนวนอนและแนวตั้งของแสตมป์บนหน้า
+หากต้องการเปลี่ยนตำแหน่งของแสตมป์ข้อความใน PDF คุณสามารถตั้งค่าได้ `XIndent` และ `YIndent` คุณสมบัติ คุณสมบัติเหล่านี้จะกำหนดตำแหน่งแนวนอนและแนวตั้งของแสตมป์บนหน้า
 
 ```java
 textStamp.setXIndent(100);
@@ -106,7 +108,7 @@ textStamp.setYIndent(200);
 
 ### ฉันสามารถเพิ่มรูปภาพที่กำหนดเองเป็นสแตมป์นอกเหนือจากข้อความได้หรือไม่
 
- ใช่ คุณสามารถเพิ่มรูปภาพที่กำหนดเองเป็นสแตมป์ได้นอกเหนือจากข้อความโดยใช้ Aspose.PDF สำหรับ Java คุณสามารถสร้าง`ImageStamp`และปรับแต่งด้วยไฟล์รูปภาพของคุณ
+ใช่ คุณสามารถเพิ่มรูปภาพที่กำหนดเองเป็นสแตมป์ได้นอกเหนือจากข้อความโดยใช้ Aspose.PDF สำหรับ Java คุณสามารถสร้าง `ImageStamp` และปรับแต่งด้วยไฟล์รูปภาพของคุณ
 
 ### Aspose.PDF สำหรับ Java สามารถใช้งานฟรีได้หรือไม่?
 
@@ -114,7 +116,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### ฉันจะหมุนข้อความแสตมป์ใน PDF ได้อย่างไร?
 
- หากต้องการหมุนแสตมป์ข้อความใน PDF คุณสามารถใช้`setRotate` วิธีการของ`TextStamp` คลาส ตัวอย่างเช่น การหมุนแสตมป์ 45 องศา:
+หากต้องการหมุนแสตมป์ข้อความใน PDF คุณสามารถใช้ `setRotate` วิธีการของ `TextStamp` คลาส ตัวอย่างเช่น การหมุนแสตมป์ 45 องศา:
 
 ```java
 textStamp.setRotation(45);
@@ -122,10 +124,12 @@ textStamp.setRotation(45);
 
 ### ฉันสามารถหาเอกสารและตัวอย่างเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบและตัวอย่างครบถ้วนสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์เอกสารประกอบ:[เอกสาร Aspose.PDF สำหรับ Java](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารประกอบและตัวอย่างครบถ้วนสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์เอกสารประกอบ: [เอกสาร Aspose.PDF สำหรับ Java](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

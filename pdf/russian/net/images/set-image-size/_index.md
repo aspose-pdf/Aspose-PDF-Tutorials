@@ -1,46 +1,51 @@
 ---
-title: Создать и изменить PDF с изображениями с помощью Aspose.PDF для .NET
-weight: 7700
-limit: 
-description: Узнайте, как создать PDF-документ, вставить изображение, настроить его размер и установить свойства страницы с помощью Aspose.PDF для .NET. Включен полный пример кода.
-keywords: [Aspose.PDF for .NET, create PDF in C#, add image to PDF, resize image in PDF, PDF manipulation, .NET PDF library, save PDF in C#]
-url: /ru/net/images/set-image-size/
+"description": "Узнайте, как создать PDF-документ, вставить изображение, настроить его размер и задать свойства страницы с помощью Aspose.PDF для .NET. Полный пример кода включен."
+"title": "Создание и изменение PDF-файла с изображениями с помощью Aspose.PDF для .NET"
+"url": "/ru/net/images/set-image-size/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создать и изменить PDF с помощью изображений с помощью Aspose.PDF
+# Создание и изменение PDF-файла с изображениями с помощью Aspose.PDF
 
-Aspose.PDF для .NET - это мощная библиотека, которая позволяет разработчикам создавать, редактировать и манипулировать PDF-документами программируемо. В этом примере вы узнаете, как создавать PDF-документ, добавлять изображение, корректировать его размер и изменять свойства страниц с помощью C#. Код демонстрирует инициализацию PDF-документа, вставку изображения, настройку размеров страницы и сохранение конечного файла. Независимо от того, работаете ли вы с отчетами, счетами-фактурами или динамическим контентом, это учебник предоставляет простой, но эффективный способ управления изображениями в PDF- документах с помощью Aspose.PDF для .NET.  
+Aspose.PDF для .NET — это мощная библиотека, которая позволяет разработчикам программно создавать, редактировать и манипулировать PDF-документами. В этом примере вы узнаете, как создать PDF-документ, добавить изображение, настроить его размер и изменить свойства страницы с помощью C#. Код демонстрирует инициализацию PDF-документа, вставку изображения, установку размеров страницы и сохранение конечного файла. Работаете ли вы с отчетами, счетами или динамическим содержимым, это руководство предоставляет простой, но эффективный способ управления изображениями в PDF-файлах с помощью Aspose.PDF для .NET.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/set-image-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Инструкция по установке:  
 
-Чтобы использовать Aspose.PDF для .NET в вашем проекте, выполните следующие шаги:  
+Чтобы использовать Aspose.PDF для .NET в своем проекте, выполните следующие действия:  
 
-1. Установка через NuGet Package Manager:  
-Откройте Visual Studio и выполните следующую команду в консоли менеджера пакетов:  
+1. Установка через менеджер пакетов NuGet:  
+Откройте Visual Studio и выполните следующую команду в консоли диспетчера пакетов:  
 ```powershell
 Install-Package Aspose.PDF
 ```
 
-2. Добавить пространство имен в код C#:  
+2. Добавьте пространство имен в свой код C#:  
 ```csharp
 using Aspose.Pdf;
 ```
 
-## Подробнее см.  
-[Aspose.PDF для документации .NET](https://docs.aspose.com/pdf/net/)  
-[Ссылка на API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
+## Более подробную информацию можно найти на сайте:  
+[Документация Aspose.PDF для .NET](https://docs.aspose.com/pdf/net/)  
+[Справочник API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

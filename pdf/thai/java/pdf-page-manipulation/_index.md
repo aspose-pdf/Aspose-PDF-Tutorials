@@ -1,14 +1,16 @@
 ---
-title: การจัดการหน้า PDF
-linktitle: การจัดการหน้า PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: สำรวจการจัดการหน้า PDF ด้วย Aspose.PDF สำหรับ Java เรียนรู้การจัดเรียง แยก และปรับปรุงหน้า PDF ได้อย่างง่ายดาย
-weight: 16
-url: /th/java/pdf-page-manipulation/
+"description": "สำรวจการจัดการหน้า PDF ด้วย Aspose.PDF สำหรับ Java เรียนรู้การจัดเรียง แยก และปรับปรุงหน้า PDF ได้อย่างง่ายดาย"
+"linktitle": "การจัดการหน้า PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "การจัดการหน้า PDF"
+"url": "/th/java/pdf-page-manipulation/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการหน้า PDF
@@ -40,14 +42,16 @@ url: /th/java/pdf-page-manipulation/
 ### [เพิ่มรายการเรียงลำดับ HTML ลงในเอกสารใน Java](./add-html-ordered-list-into-documents-in-java/)
 เรียนรู้วิธีการเพิ่มรายการเรียงลำดับ HTML ลงในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
 ### [เพิ่มสตริง HTML โดยใช้ DOM ใน Java](./add-html-string-using-dom-in-java/)
-เรียนรู้วิธีการจัดการเนื้อหา HTML ใน Java โดยใช้ DOM (Document Object Model) และเขียนทับเนื้อหาที่มีอยู่ ทำตามคำแนะนำทีละขั้นตอนนี้พร้อมตัวอย่างโค้ดต้นฉบับโดยใช้ Aspose.PDF สำหรับ Java
+เรียนรู้วิธีการจัดการเนื้อหา HTML ใน Java โดยใช้ DOM (Document Object Model) และเขียนทับเนื้อหาที่มีอยู่ ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมตัวอย่างโค้ดต้นฉบับโดยใช้ Aspose.PDF สำหรับ Java
 ### [เพิ่ม HTML โดยใช้ DOM และเขียนทับเนื้อหาใน Java](./add-html-using-dom-and-overwrite-content-in-java/)
-เรียนรู้วิธีการเพิ่มสตริง HTML ลงในเอกสาร PDF โดยใช้ไลบรารี Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนนี้จะแสดงขั้นตอนพร้อมตัวอย่างโค้ดต้นฉบับ
+เรียนรู้วิธีการเพิ่มสตริง HTML ลงในเอกสาร PDF โดยใช้ไลบรารี Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนนี้จะแสดงกระบวนการพร้อมตัวอย่างโค้ดต้นฉบับ
 ### [เพิ่มข้อความที่หมุนใน PDF โดยใช้ Java](./add-rotated-text-in-pdf-using-java/)
 เรียนรู้วิธีแทรกข้อความที่หมุนในเอกสาร PDF โดยใช้ Java ทำตามคำแนะนำทีละขั้นตอนโดยละเอียดนี้พร้อมตัวอย่างโค้ดเพื่อปรับปรุง PDF ของคุณด้วยข้อความที่หมุน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

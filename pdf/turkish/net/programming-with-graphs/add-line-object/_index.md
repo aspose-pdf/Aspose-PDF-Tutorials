@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına Satır Nesnesi Ekle
-linktitle: PDF Dosyasına Satır Nesnesi Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimde Aspose.PDF for .NET kullanarak bir PDF dosyasına çizgi nesnesi eklemeyi öğrenin. Yeni başlayanlar için mükemmel.
-weight: 30
-url: /tr/net/programming-with-graphs/add-line-object/
+"description": "Bu adım adım eğitimde Aspose.PDF for .NET kullanarak bir PDF dosyasına çizgi nesnesi eklemeyi öğrenin. Yeni başlayanlar için mükemmel."
+"linktitle": "PDF Dosyasına Satır Nesnesi Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Satır Nesnesi Ekle"
+"url": "/tr/net/programming-with-graphs/add-line-object/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Satır Nesnesi Ekle
@@ -22,7 +24,7 @@ PDF'leri programatik olarak oluşturmak, özellikle de yeniyseniz, göz korkutuc
 Başlamadan önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için en iyi IDE'dir.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -31,7 +33,7 @@ Başlamak için, C# projenize gerekli paketleri içe aktarmanız gerekir. Bunu n
 
 1. Visual Studio projenizi açın.
 2. Çözüm Gezgini'nde projenize sağ tıklayın ve "NuGet Paketlerini Yönet" seçeneğini seçin.
-3.  Arama`Aspose.PDF` ve kurun.
+3. Arama `Aspose.PDF` ve kurun.
 
 ```csharp
 using System.IO;
@@ -39,7 +41,7 @@ using System;
 using Aspose.Pdf;
 ```
 
-Paketinizi kurduktan sonra kodlamaya başlayabilirsiniz!
+Paketi kurduktan sonra kodlamaya başlayabilirsiniz!
 
 ## Adım 1: Belge Dizininizi Ayarlayın
 
@@ -50,11 +52,11 @@ Paketinizi kurduktan sonra kodlamaya başlayabilirsiniz!
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"`PDF dosyanızı kaydetmek istediğiniz gerçek yol ile. Bu önemlidir çünkü yol yanlışsa dosyanız kaydedilmeyecektir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızı kaydetmek istediğiniz gerçek yol ile. Bu önemlidir çünkü yol yanlışsa dosyanız kaydedilmeyecektir.
 
 ## Adım 2: Bir Belge Örneği Oluşturun
 
- Daha sonra, bir örnek oluşturmanız gerekir`Document` class. Bu class PDF belgenizi temsil eder. İşte nasıl yapılacağı:
+Daha sonra, bir örnek oluşturmanız gerekir `Document` class. Bu class PDF belgenizi temsil eder. İşte nasıl yapılacağı:
 
 ```csharp
 // Belge örneği oluştur
@@ -76,7 +78,7 @@ Bu kod belgenize yeni bir sayfa ekler. Bunu, çizebileceğiniz veya yazabileceğ
 
 ## Adım 4: Bir Grafik Örneği Oluşturun
 
- Çizgiler gibi şekiller çizmek için bir`Graph` örnek. Çizginizin çizileceği yer burasıdır. İşte bir grafik oluşturmanın yolu:
+Çizgiler gibi şekiller çizmek için bir `Graph` örnek. Çizginizin çizileceği yer burasıdır. İşte bir grafik oluşturmanın yolu:
 
 ```csharp
 // Grafik örneği oluştur
@@ -117,7 +119,7 @@ line.GraphInfo.DashArray = new int[] { 0, 1, 0 };
 line.GraphInfo.DashPhase = 1;
 ```
 
- Bu kodda kesikli bir çizgi oluşturuyoruz.`DashArray`özellik, çizgi ve boşlukların desenini tanımlarken`DashPhase` çizgi deseninin başlangıç noktasını belirtir.
+Bu kodda kesikli bir çizgi oluşturuyoruz. `DashArray` özellik, çizgi ve boşlukların desenini tanımlarken, `DashPhase` çizgi deseninin başlangıç noktasını belirtir.
 
 ## Adım 8: Grafiğe Çizgiyi Ekleyin
 
@@ -140,7 +142,7 @@ dataDir = dataDir + "AddLineObject_out.pdf";
 doc.Save(dataDir);
 ```
 
- Bu kod PDF dosyanızı şu adla kaydeder:`AddLineObject_out.pdf` daha önce belirttiğiniz dizinde. 
+Bu kod PDF dosyanızı şu adla kaydeder: `AddLineObject_out.pdf` daha önce belirttiğiniz dizinde. 
 
 ## Adım 10: İşlemi Onaylayın
 
@@ -154,7 +156,7 @@ Bu mesaj konsolda görünecek ve satırınızın başarıyla eklendiğini doğru
 
 ## Çözüm
 
-Ve işte oldu! .NET için Aspose.PDF kullanarak bir PDF dosyasına başarıyla bir satır nesnesi eklediniz. Bu eğitim, süreci anladığınızdan emin olarak her adımda size yol gösterdi. Artık kendi benzersiz PDF'lerinizi oluşturmak için farklı şekiller ve stiller deneyebilirsiniz. İyi kodlamalar!
+Ve işte oldu! Aspose.PDF for .NET kullanarak bir PDF dosyasına başarıyla bir satır nesnesi eklediniz. Bu eğitim, süreci anladığınızdan emin olarak her adımda size yol gösterdi. Artık kendi benzersiz PDF'lerinizi oluşturmak için farklı şekiller ve stiller deneyebilirsiniz. İyi kodlamalar!
 
 ## SSS
 
@@ -162,19 +164,21 @@ Ve işte oldu! .NET için Aspose.PDF kullanarak bir PDF dosyasına başarıyla b
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphanenin özelliklerini keşfetmeniz için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphanenin özelliklerini keşfetmeniz için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF'in dokümanlarını nerede bulabilirim?
- Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Belgeleri bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için lisans nasıl satın alabilirim?
- Aspose.PDF için bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.PDF için bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Sorunla karşılaşırsam ne yapmalıyım?
- Herhangi bir sorunla karşılaşırsanız Aspose destek forumundan yardım alabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Herhangi bir sorunla karşılaşırsanız Aspose destek forumundan yardım alabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

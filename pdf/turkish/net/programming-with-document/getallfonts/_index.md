@@ -1,14 +1,16 @@
 ---
-title: Tüm Yazı Tiplerini PDF Dosyasına Alın
-linktitle: Tüm Yazı Tiplerini PDF Dosyasına Alın
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimde Aspose.PDF for .NET kullanarak bir PDF dosyasından tüm yazı tiplerini nasıl çıkaracağınızı öğrenin. Geliştiriciler ve PDF meraklıları için mükemmel.
-weight: 160
-url: /tr/net/programming-with-document/getallfonts/
+"description": "Bu adım adım eğitimde Aspose.PDF for .NET kullanarak bir PDF dosyasından tüm yazı tiplerini nasıl çıkaracağınızı öğrenin. Geliştiriciler ve PDF meraklıları için mükemmel."
+"linktitle": "Tüm Yazı Tiplerini PDF Dosyasına Alın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Tüm Yazı Tiplerini PDF Dosyasına Alın"
+"url": "/tr/net/programming-with-document/getallfonts/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tüm Yazı Tiplerini PDF Dosyasına Alın
@@ -22,7 +24,7 @@ Bir PDF dosyasında kullanılan tüm yazı tiplerini nasıl çıkaracağınızı
 Koda geçmeden önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu eğitim için kullanacağımız IDE bu.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -61,27 +63,27 @@ Artık her şeyi ayarladığımıza göre koda geçebiliriz!
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu, şuna benzer bir şey olabilir`@"C:\Documents\"`.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu, şuna benzer bir şey olabilir `@"C:\Documents\"`.
 
 ## Adım 2: PDF Belgesini Yükleyin
 
- Sonra, PDF belgesini uygulamanıza yüklemek isteyeceksiniz. Bu, şu şekilde yapılır:`Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
+Sonra, PDF belgesini uygulamanıza yüklemek isteyeceksiniz. Bu, şu şekilde yapılır: `Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Burada, değiştirin`"input.pdf"` PDF dosyanızın adıyla. Bu kod satırı yeni bir`Document` PDF'nizi temsil eden nesne.
+Burada, değiştirin `"input.pdf"` PDF dosyanızın adıyla. Bu kod satırı yeni bir `Document` PDF'nizi temsil eden nesne.
 
 ## Adım 3: Tüm Yazı Tiplerini Alın
 
- Şimdi heyecan verici kısım geliyor! Şunu kullanacaksınız:`FontUtilities` Belgede kullanılan tüm yazı tiplerini almak için kullanılan sınıf.
+Şimdi heyecan verici kısım geliyor! Şunu kullanacaksınız: `FontUtilities` Belgede kullanılan tüm yazı tiplerini almak için kullanılan sınıf.
 
 ```csharp
 Aspose.Pdf.Text.Font[] fonts = doc.FontUtilities.GetAllFonts();
 ```
 
- Bu satır bir diziyi alır`Font` PDF'de kullanılan bir yazı tipini temsil eden nesneler.
+Bu satır bir diziyi alır `Font` Her biri PDF'de kullanılan bir yazı tipini temsil eden nesneler.
 
 ## Adım 4: Yazı Tipleri Arasında Döngü
 
@@ -106,19 +108,21 @@ Bu döngü dizideki her yazı tipini yineler ve adını konsola yazdırır. PDF'
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Kapsamlı belgeleri şurada bulabilirsiniz:[Aspose web sitesi](https://reference.aspose.com/pdf/net/).
+Kapsamlı belgeleri şurada bulabilirsiniz: [Aspose web sitesi](https://reference.aspose.com/pdf/net/).
 
 ### PDF'den başka bilgiler çıkarmak mümkün müdür?
 Kesinlikle! Aspose.PDF, diğer şeylerin yanı sıra metin, resim ve meta verileri çıkarmanıza olanak tanır.
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

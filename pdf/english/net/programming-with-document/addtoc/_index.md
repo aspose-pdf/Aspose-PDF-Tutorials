@@ -8,7 +8,9 @@ url: /net/programming-with-document/addtoc/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add TOC To PDF File
@@ -163,6 +165,7 @@ Yes, Aspose.PDF supports multi-level TOCs for complex documents with sub-section
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Konwertuj do BMP
-linktitle: Konwertuj do BMP
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak łatwo konwertować pliki PDF na obrazy BMP za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Idealne dla programistów .NET.
-weight: 90
-url: /pl/net/programming-with-images/convert-to-bmp/
+"description": "Dowiedz się, jak łatwo konwertować pliki PDF na obrazy BMP za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Idealne dla programistów .NET."
+"linktitle": "Konwertuj do BMP"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Konwertuj do BMP"
+"url": "/pl/net/programming-with-images/convert-to-bmp/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj do BMP
@@ -21,11 +23,11 @@ Konwersja plików PDF do obrazów, takich jak BMP, może być przełomem. Niezal
 
 Zanim przejdziemy do kodu, przygotujmy środowisko. Oto, czego potrzebujesz, aby zacząć:
 
-1.  Aspose.PDF dla .NET – Musisz pobrać i zainstalować bibliotekę. Możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET – Musisz pobrać i zainstalować bibliotekę. Możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
 2. .NET Framework lub .NET Core – upewnij się, że masz zainstalowaną odpowiednią wersję .NET.
 3. IDE – Visual Studio lub inne środowisko IDE języka C#, z którym czujesz się pewnie.
-4.  Plik PDF – plik PDF, który chcesz przekonwertować (użyjemy przykładowego pliku o nazwie`AddImage.pdf` (dla tego przykładu).
-5.  Licencja tymczasowa lub pełna – aby usunąć ograniczenia ewaluacyjne, uzyskaj[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) Lub[kupić](https://purchase.aspose.com/buy) pełna wersja.
+4. Plik PDF – plik PDF, który chcesz przekonwertować (użyjemy przykładowego pliku o nazwie `AddImage.pdf` (dla tego przykładu).
+5. Licencja tymczasowa lub pełna – aby usunąć ograniczenia ewaluacyjne, uzyskaj [licencja tymczasowa](https://purchase.aspose.com/tempLubary-license/) or [kupić](https://purchase.aspose.com/buy) pełna wersja.
 
 ## Importuj pakiety
 
@@ -51,11 +53,11 @@ Pierwszą rzeczą, którą zrobimy, będzie zdefiniowanie ścieżki do naszego d
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Definiując`dataDir`, mówimy programowi, gdzie znaleźć plik PDF. Może to być katalog lokalny lub nawet ścieżka do dysku sieciowego, w zależności od tego, gdzie przechowywane są pliki.
+Definiując `dataDir`, mówimy programowi, gdzie znaleźć plik PDF. Może to być katalog lokalny lub nawet ścieżka do dysku sieciowego, w zależności od tego, gdzie przechowywane są pliki.
 
 ## Krok 2: Załaduj dokument PDF
 
- Teraz, gdy zdefiniowaliśmy ścieżkę do pliku, załadujmy dokument PDF do pamięci za pomocą Aspose.PDF`Document` obiekt. Ten obiekt pozwoli nam manipulować plikiem PDF i konwertować go do formatu obrazu.
+Teraz, gdy zdefiniowaliśmy ścieżkę do pliku, załadujmy dokument PDF do pamięci za pomocą Aspose.PDF `Document` obiekt. Ten obiekt pozwoli nam manipulować plikiem PDF i konwertować go do formatu obrazu.
 
 
 ```csharp
@@ -63,11 +65,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "AddImage.pdf");
 ```
 
- Tutaj ładujemy plik o nazwie`AddImage.pdf` do instancji`Document` Klasa. Możesz zastąpić to nazwą dowolnego pliku PDF, który chcesz przekonwertować.
+Tutaj ładujemy plik o nazwie `AddImage.pdf` do instancji `Document` Klasa. Możesz zastąpić to nazwą dowolnego pliku PDF, który chcesz przekonwertować.
 
 ## Krok 3: Przejrzyj strony PDF
 
-Pliki PDF mogą mieć wiele stron, prawda? Musimy więc przejść przez każdą stronę i przekonwertować je indywidualnie na obrazy BMP. W ten sposób otrzymamy osobny obraz dla każdej strony.
+Pliki PDF mogą mieć wiele stron, prawda? Musimy więc przejść przez każdą stronę i przekonwertować je indywidualnie na obrazy BMP. W ten sposób otrzymamy oddzielny obraz dla każdej strony.
 
 
 ```csharp
@@ -77,11 +79,11 @@ for (int pageCount = 1; pageCount <= pdfDocument.Pages.Count; pageCount++)
 }
 ```
 
-Używamy prostego`for` pętla, która przebiega przez wszystkie strony w pliku PDF.`pageCount` zmienna będzie się zmieniać od`1` do całkowitej liczby stron (`pdfDocument.Pages.Count`), zapewniając przetwarzanie każdej pojedynczej strony.
+Używamy prostego `for` pętla, która przebiega przez wszystkie strony w pliku PDF. `pageCount` zmienna będzie się zmieniać od `1` do całkowitej liczby stron (`pdfDocument.Pages.Count`), zapewniając przetwarzanie każdej pojedynczej strony.
 
 ## Krok 4: Utwórz strumień plików dla każdej strony
 
- Następnie dla każdej strony musimy utworzyć`FileStream` który obsłuży plik wyjściowy BMP. Każdy obraz będzie nazywany dynamicznie, na podstawie numeru strony.
+Następnie dla każdej strony musimy utworzyć `FileStream` który obsłuży plik wyjściowy BMP. Każdy obraz będzie nazywany dynamicznie, na podstawie numeru strony.
 
 
 ```csharp
@@ -91,7 +93,7 @@ using (FileStream imageStream = new FileStream("image" + pageCount + "_out" + ".
 }
 ```
 
- Ten`using` polecenie tworzy plik o nazwie`imageX_out.bmp` (Gdzie`X` jest numerem strony) dla każdej strony. Dzięki temu masz pewność, że otrzymasz osobne pliki BMP dla każdej strony w swoim pliku PDF.
+Ten `using` polecenie tworzy plik o nazwie `imageX_out.bmp` (Gdzie `X` jest numerem strony) dla każdej strony. Dzięki temu masz pewność, że otrzymasz osobne pliki BMP dla każdej strony w swoim pliku PDF.
 
 ## Krok 5: Ustaw rozdzielczość obrazu
 
@@ -103,11 +105,11 @@ Przed konwersją pliku PDF do formatu BMP musimy zdefiniować rozdzielczość ob
 Resolution resolution = new Resolution(300);
 ```
 
- A`Resolution` obiekt definiuje DPI dla obrazu. Wyższe DPI oznacza lepszą jakość, ale także większe rozmiary plików. Możesz to dostosować w zależności od swoich potrzeb.
+A `Resolution` obiekt definiuje DPI dla obrazu. Wyższe DPI oznacza lepszą jakość, ale także większe rozmiary plików. Możesz to dostosować w zależności od swoich potrzeb.
 
 ## Krok 6: Utwórz urządzenie BMP
 
- Teraz nadchodzi magiczna część! Tworzymy`BmpDevice` obiekt, który przyjmuje naszą rozdzielczość jako parametr. To urządzenie jest odpowiedzialne za konwersję strony PDF do obrazu BMP.
+Teraz nadchodzi magiczna część! Tworzymy `BmpDevice` obiekt, który przyjmuje naszą rozdzielczość jako parametr. To urządzenie jest odpowiedzialne za konwersję strony PDF do obrazu BMP.
 
 
 ```csharp
@@ -115,11 +117,11 @@ Resolution resolution = new Resolution(300);
 BmpDevice bmpDevice = new BmpDevice(resolution);
 ```
 
- Ten`BmpDevice` jest narzędziem Aspose.PDF, które przetwarza strony PDF i konwertuje je do formatu BMP. Przekazując`resolution`, dbamy o to, aby obraz wyjściowy spełniał nasze oczekiwania jakościowe.
+Ten `BmpDevice` jest narzędziem Aspose.PDF, które przetwarza strony PDF i konwertuje je do formatu BMP. Przekazując `resolution`, dbamy o to, aby obraz wyjściowy spełniał nasze oczekiwania jakościowe.
 
 ## Krok 7: Konwersja strony PDF do formatu BMP
 
- Gdy wszystko jest już skonfigurowane, czas przekonwertować stronę PDF na obraz BMP i zapisać go w`FileStream`. W tym kroku dzieje się cała akcja!
+Gdy wszystko jest już skonfigurowane, czas przekonwertować stronę PDF na obraz BMP i zapisać go w `FileStream`. W tym kroku dzieje się cała akcja!
 
 
 ```csharp
@@ -127,11 +129,11 @@ BmpDevice bmpDevice = new BmpDevice(resolution);
 bmpDevice.Process(pdfDocument.Pages[pageCount], imageStream);
 ```
 
- Ten`Process` metoda konwertuje bieżącą stronę (`pdfDocument.Pages[pageCount]`) do formatu BMP i zapisuje go do strumienia plików (`imageStream`). Ta linia jest sercem procesu konwersji.
+Ten `Process` metoda konwertuje bieżącą stronę (`pdfDocument.Pages[pageCount]`) do formatu BMP i zapisuje go do strumienia plików (`imageStream`). Ta linia jest sercem procesu konwersji.
 
 ## Krok 8: Zamknij strumień
 
- Po zapisaniu obrazu BMP konieczne jest zamknięcie`FileStream` aby mieć pewność, że wszystkie dane zostaną zapisane w pliku, a zasoby zostaną prawidłowo zwolnione.
+Po zapisaniu obrazu BMP konieczne jest zamknięcie `FileStream` aby mieć pewność, że wszystkie dane zostaną zapisane w pliku, a zasoby zostaną prawidłowo zwolnione.
 
 
 ```csharp
@@ -139,7 +141,7 @@ bmpDevice.Process(pdfDocument.Pages[pageCount], imageStream);
 imageStream.Close();
 ```
 
-Zawsze zamykaj strumienie! To zapewnia, że plik zostanie zapisany poprawnie i że nie napotkasz później żadnych problemów z pamięcią lub dostępem do pliku.
+Zawsze zamykaj strumienie! To zapewnia, że plik zostanie zapisany poprawnie i że nie napotkasz żadnych problemów z pamięcią lub dostępem do pliku później.
 
 ## Wniosek
 
@@ -151,19 +153,21 @@ I masz! Udało Ci się przekonwertować plik PDF na obrazy BMP za pomocą Aspose
 Nie, Aspose.PDF przetwarza każdą stronę osobno. Jeśli potrzebujesz pojedynczego obrazu, będziesz musiał je połączyć po konwersji za pomocą narzędzia do przetwarzania obrazu.
 
 ### Czy mogę zmienić rozdzielczość, aby uzyskać mniejszy rozmiar obrazu?
- Tak, możesz zmienić DPI w`Resolution` obiekt. Obniżenie DPI spowoduje mniejsze rozmiary plików, ale niższą jakość obrazu.
+Tak, możesz zmienić DPI w `Resolution` obiekt. Obniżenie DPI spowoduje mniejsze rozmiary plików, ale niższą jakość obrazu.
 
 ### Czy można konwertować inne formaty, np. PNG lub JPEG?
 Tak, Aspose.PDF obsługuje konwersję do różnych formatów, w tym PNG, JPEG i TIFF.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF na platformie .NET?
- Możesz używać Aspose.PDF z pewnymi ograniczeniami w wersji bezpłatnej. Aby uzyskać pełną funkcjonalność, możesz nabyć[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup pełną wersję.
+Możesz używać Aspose.PDF z pewnymi ograniczeniami w wersji bezpłatnej. Aby uzyskać pełną funkcjonalność, możesz nabyć [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup pełną wersję.
 
 ### Jak postępować z zaszyfrowanymi plikami PDF?
 Aspose.PDF potrafi otwierać zaszyfrowane pliki PDF, jeśli podczas ładowania dokumentu podasz prawidłowe hasło.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

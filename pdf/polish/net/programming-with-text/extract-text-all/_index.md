@@ -1,14 +1,16 @@
 ---
-title: Wyodrębnij cały tekst z pliku PDF
-linktitle: Wyodrębnij tekst AllIn Plik PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak łatwo wyodrębnić tekst z plików PDF za pomocą Aspose.PDF dla .NET, korzystając z tego samouczka krok po kroku.
-weight: 180
-url: /pl/net/programming-with-text/extract-text-all/
+"description": "Dowiedz się, jak łatwo wyodrębnić tekst z plików PDF za pomocą Aspose.PDF dla .NET, korzystając z tego samouczka krok po kroku."
+"linktitle": "Wyodrębnij tekst AllIn Plik PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wyodrębnij cały tekst z pliku PDF"
+"url": "/pl/net/programming-with-text/extract-text-all/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnij cały tekst z pliku PDF
@@ -22,7 +24,7 @@ W tej cyfrowej erze radzenie sobie z dokumentami PDF stało się powszechnym zad
 Zanim przejdziemy do szczegółów dotyczących wyodrębniania tekstu z plików PDF, musisz spełnić kilka podstawowych wymagań:
 
 1. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework na swoim komputerze deweloperskim. Aspose.PDF działa bezproblemowo z .NET, więc posiadanie najnowszej wersji jest plusem.
-2. Biblioteka Aspose.PDF: Będziesz potrzebować biblioteki Aspose.PDF dla .NET, aby obsługiwać manipulacje PDF. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+2. Biblioteka Aspose.PDF: Będziesz potrzebować biblioteki Aspose.PDF dla .NET, aby obsługiwać manipulacje PDF. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 3. Środowisko programistyczne: Zdecydowanie zalecane jest IDE, takie jak Visual Studio. Zapewnia przyjazny dla użytkownika interfejs do pisania, budowania i debugowania kodu.
 4. Podstawowa znajomość języka C#: Znajomość języka programowania C# pomoże Ci lepiej zrozumieć fragmenty kodu, które zaraz omówimy.
 
@@ -54,11 +56,11 @@ Przykład kodu:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- W tym fragmencie kodu wystarczy zastąpić`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój plik PDF. Na przykład, jeśli Twój plik znajduje się w`C:\Documents` , ustawisz`dataDir` do tej ścieżki.
+W tym fragmencie kodu wystarczy zastąpić `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój plik PDF. Na przykład, jeśli Twój plik znajduje się w `C:\Documents`, ustawisz `dataDir` do tej ścieżki.
 
 ## Krok 2: Otwórz dokument PDF
 
- Po ustawieniu katalogu należy otworzyć dokument PDF, z którego chcesz wyodrębnić tekst. Można to zrobić za pomocą`Document` klasa z przestrzeni nazw Aspose.PDF.
+Po ustawieniu katalogu należy otworzyć dokument PDF, z którego chcesz wyodrębnić tekst. Można to zrobić za pomocą `Document` klasa z przestrzeni nazw Aspose.PDF.
 
 Przykład kodu:
 
@@ -67,11 +69,11 @@ Przykład kodu:
 Document pdfDocument = new Document(dataDir + "ExtractTextAll.pdf");
 ```
 
- Tutaj upewnij się, że nazwa pliku`ExtractTextAll.pdf` jest poprawne. To jest plik, z którym będziesz pracować, aby wyodrębnić tekst.
+Tutaj upewnij się, że nazwa pliku `ExtractTextAll.pdf` jest poprawne. To jest plik, z którym będziesz pracować, aby wyodrębnić tekst.
 
-## Krok 3: Utwórz obiekt pochłaniacza tekstu
+## Krok 3: Utwórz obiekt absorbujący tekst
 
- Następnym krokiem jest utworzenie`TextAbsorber` obiekt. To magiczne narzędzie, które pomoże Ci wchłonąć cały tekst obecny w pliku PDF.
+Następnym krokiem jest utworzenie `TextAbsorber` obiekt. To magiczne narzędzie, które pomoże Ci wchłonąć cały tekst obecny w pliku PDF.
 
 Przykład kodu:
 
@@ -80,7 +82,7 @@ Przykład kodu:
 TextAbsorber textAbsorber = new TextAbsorber();
 ```
 
- Poprzez inicjalizację`TextAbsorber`, możesz przygotować się do wyodrębnienia całej zawartości tekstowej ze stron pliku PDF.
+Poprzez inicjalizację `TextAbsorber`, możesz przygotować się do wyodrębnienia całej zawartości tekstowej ze stron pliku PDF.
 
 ## Krok 4: Akceptuj Absorber dla wszystkich stron
 
@@ -93,7 +95,7 @@ Przykład kodu:
 pdfDocument.Pages.Accept(textAbsorber);
 ```
 
-Wykonując ten krok, mówisz w zasadzie: „Hej, pochłaniaczu tekstu, zbierz cały tekst z każdej strony tego dokumentu!”
+Wykonując ten krok, mówisz w zasadzie: „Hej, absorberze tekstu, zbierz cały tekst z każdej strony tego dokumentu!”
 
 ## Krok 5: Pobierz wyodrębniony tekst
 
@@ -106,7 +108,7 @@ Przykład kodu:
 string extractedText = textAbsorber.Text;
 ```
 
- Teraz zmienna`extractedText` zawiera cały tekst zebrany z twojego pliku PDF. Jakie to fajne?
+Teraz zmienna `extractedText` zawiera cały tekst zebrany z twojego pliku PDF. Jakie to fajne?
 
 ## Krok 6: Zapisz wyodrębniony tekst do pliku
 
@@ -123,31 +125,33 @@ tw.WriteLine(extractedText);
 tw.Close();
 ```
 
- Ten kod otwiera nowy plik o nazwie`extracted-text.txt`zapisuje do niego całą wyodrębnioną zawartość, a następnie zamyka plik. Więc teraz, kiedykolwiek chcesz zobaczyć wyodrębniony tekst, po prostu spójrz do swojego katalogu dokumentów!
+Ten kod otwiera nowy plik o nazwie `extracted-text.txt`, zapisuje do niego całą wyodrębnioną zawartość, a następnie zamyka plik. Więc teraz, kiedykolwiek chcesz zobaczyć wyodrębniony tekst, po prostu spójrz do katalogu dokumentów!
 
 ## Wniosek
 
- Oto i masz! W kilku prostych krokach możesz wyodrębnić tekst z dowolnego pliku PDF za pomocą Aspose.PDF dla .NET. Niezależnie od tego, czy tworzysz aplikację do analizowania dokumentów, czy po prostu potrzebujesz pobrać kilka notatek z pliku PDF, Aspose.PDF zapewnia solidne, łatwe w użyciu API, które ułatwia Ci życie. Pamiętaj, aby sprawdzić[dokumentacja](https://reference.aspose.com/pdf/net/) aby poznać więcej funkcji i możliwości oferowanych przez tę potężną bibliotekę.
+Oto i masz! W kilku prostych krokach możesz wyodrębnić tekst z dowolnego pliku PDF za pomocą Aspose.PDF dla .NET. Niezależnie od tego, czy tworzysz aplikację do analizowania dokumentów, czy po prostu potrzebujesz pobrać kilka notatek z pliku PDF, Aspose.PDF zapewnia solidne, łatwe w użyciu API, które ułatwia Ci życie. Pamiętaj, aby sprawdzić [dokumentacja](https://reference.aspose.com/pdf/net/) aby poznać więcej funkcji i możliwości oferowanych przez tę potężną bibliotekę.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę używać Aspose.PDF dla .NET bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
-### A co jeśli mój plik PDF zawiera obrazy i grafiki?
+### Co zrobić, jeśli mój plik PDF zawiera obrazy i grafiki?
 Aspose.PDF koncentruje się na ekstrakcji tekstu. Jeśli Twój plik PDF zawiera obrazy, możesz potrzebować innego podejścia do ich obsługi.
 
 ### Czy jest dostępna licencja tymczasowa?
- Oczywiście! Możesz otrzymać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Oczywiście! Możesz otrzymać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.PDF?
- Wsparcie i dyskusje społecznościowe można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Wsparcie i dyskusje społecznościowe można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
-### W jakich formatach mogę zapisać wyodrębniony tekst?
- Możesz zapisać tekst w różnych formatach, takich jak:`.txt`, `.docx`lub bezpośrednio do bazy danych.
+### jakich formatach mogę zapisać wyodrębniony tekst?
+Możesz zapisać tekst w różnych formatach, takich jak: `.txt`, `.docx`lub bezpośrednio do bazy danych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

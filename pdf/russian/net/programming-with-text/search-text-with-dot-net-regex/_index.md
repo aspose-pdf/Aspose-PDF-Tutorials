@@ -1,14 +1,16 @@
 ---
-title: Поиск текста с помощью Dot Net Regex
-linktitle: Поиск текста с помощью Dot Net Regex
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как искать текст в PDF-файлах с помощью .NET Regex с Aspose.PDF. Следуйте нашему пошаговому руководству и упростите свои задачи с PDF-файлами.
-weight: 480
-url: /ru/net/programming-with-text/search-text-with-dot-net-regex/
+"description": "Узнайте, как искать текст в PDF-файлах с помощью .NET Regex с Aspose.PDF. Следуйте нашему пошаговому руководству и упростите свои задачи с PDF-файлами."
+"linktitle": "Поиск текста с помощью Dot Net Regex"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Поиск текста с помощью Dot Net Regex"
+"url": "/ru/net/programming-with-text/search-text-with-dot-net-regex/"
+"weight": 480
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Поиск текста с помощью Dot Net Regex
@@ -25,7 +27,7 @@ url: /ru/net/programming-with-text/search-text-with-dot-net-regex/
 Убедитесь, что на вашем компьютере установлен .NET Framework. Aspose.PDF поддерживает приложения .NET Core и .NET Framework.
 
 ### Aspose.PDF для .NET
- Вам нужно будет скачать и установить библиотеку Aspose.PDF, если вы еще этого не сделали. Вы можете получить ее из[Страница релизов Aspose PDF](https://releases.aspose.com/pdf/net/).
+Вам нужно будет скачать и установить библиотеку Aspose.PDF, если вы еще этого не сделали. Вы можете получить ее из [Страница релизов Aspose PDF](https://releases.aspose.com/pdf/net/).
 
 ### Базовые знания C#
 Базовые знания программирования на C# и среды .NET помогут вам более успешно освоить этот урок.
@@ -69,7 +71,7 @@ Install-Package Aspose.PDF
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Заменять`"YOUR DOCUMENT DIRECTORY"` с путем, где находится ваш целевой PDF-файл. Этот шаг гарантирует, что ваше приложение сможет легко найти PDF-документ, в котором вы хотите выполнить поиск.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с путем, где находится ваш целевой PDF-файл. Этот шаг гарантирует, что ваше приложение сможет легко найти PDF-документ, в котором вы хотите выполнить поиск.
 
 ## Шаг 3: Создайте объект Regex
 
@@ -78,7 +80,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```csharp
 System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex(@"[\S]+");
 ```
- Выражение Regex`@"[\S]+"` соответствует любой последовательности непробельных символов в документе. Не стесняйтесь изменять шаблон, если у вас есть особые требования к поиску!
+Выражение Regex `@"[\S]+"` соответствует любой последовательности непробельных символов в документе. Не стесняйтесь изменять шаблон, если у вас есть особые требования к поиску!
 
 ## Шаг 4: Откройте PDF-документ.
 
@@ -87,7 +89,7 @@ System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.
 ```csharp
 Aspose.Pdf.Document document = new Aspose.Pdf.Document(dataDir + "SearchTextRegex.pdf");
 ```
- Заменять`"SearchTextRegex.pdf"`с фактическим именем вашего PDF-файла. Эта строка кода инициализирует объект Aspose.PDF Document, который позволяет вам манипулировать PDF.
+Заменять `"SearchTextRegex.pdf"` с фактическим именем вашего PDF-файла. Эта строка кода инициализирует объект Aspose.PDF Document, который позволяет вам манипулировать PDF.
 
 ## Шаг 5: Перейдите на нужную страницу
 
@@ -115,7 +117,7 @@ textFragmentAbsorber.TextSearchOptions.IsRegularExpressionUsed = true;
 ```csharp
 page.Accept(textFragmentAbsorber);
 ```
- Позвонив по номеру`Accept` В этом методе мы указываем странице использовать TextAbsorber, тем самым выполняя поиск на этой странице.
+Позвонив по номеру `Accept` В этом методе мы указываем странице использовать TextAbsorber, тем самым выполняя поиск на этой странице.
 
 ## Шаг 8: Извлеките найденные фрагменты текста.
 
@@ -124,7 +126,7 @@ page.Accept(textFragmentAbsorber);
 ```csharp
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
- The`TextFragments` свойство содержит все фрагменты текста, обнаруженные в результате нашего поиска Regex. 
+The `TextFragments` свойство содержит все фрагменты текста, обнаруженные нашим поиском Regex. 
 
 ## Шаг 9: Выполнение цикла и отображение результатов
 
@@ -140,7 +142,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
 
 ## Заключение
 
-Использование Aspose.PDF для .NET для поиска текста с помощью .NET Regex — это простой процесс, который невероятно эффективен для работы с документами. Следуя шагам, описанным в этом руководстве, вы можете автоматизировать и оптимизировать функции поиска текста в файлах PDF, экономя драгоценное время и усилия. Не стесняйтесь экспериментировать с шаблонами Regex, чтобы лучше соответствовать вашим потребностям поиска! 
+Использование Aspose.PDF для .NET для поиска текста с помощью .NET Regex — это простой процесс, который невероятно эффективен для работы с документами. Следуя шагам, описанным в этом руководстве, вы можете автоматизировать и оптимизировать функции поиска текста в файлах PDF, экономя драгоценное время и усилия. Не стесняйтесь экспериментировать с шаблонами Regex, чтобы лучше соответствовать вашим поисковым потребностям! 
 
 ## Часто задаваемые вопросы
 
@@ -148,19 +150,21 @@ foreach (TextFragment textFragment in textFragmentCollection)
 Aspose.PDF — это библиотека .NET, которая позволяет разработчикам создавать и обрабатывать PDF-документы программным способом.
 
 ### Как загрузить Aspose.PDF для .NET?
- Вы можете скачать его с сайта[Страница релизов Aspose PDF](https://releases.aspose.com/pdf/net/).
+Вы можете скачать его с сайта [Страница релизов Aspose PDF](https://releases.aspose.com/pdf/net/).
 
 ### Могу ли я использовать регулярные выражения при поиске в PDF-файлах?
 Да! Aspose.PDF поддерживает регулярные выражения для поиска текста.
 
 ### Где я могу найти поддержку по Aspose.PDF?
- Вы можете получить поддержку по адресу[Форум Aspose PDF](https://forum.aspose.com/c/pdf/10).
+Вы можете получить поддержку по адресу [Форум Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
 ### Существует ли пробная версия Aspose.PDF?
- Да, вы можете загрузить бесплатную пробную версию с сайта[Страница релизов Aspose](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию с сайта [Страница релизов Aspose](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

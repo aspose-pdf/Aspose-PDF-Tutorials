@@ -1,14 +1,16 @@
 ---
-title: Hapus Objek yang Tidak Digunakan Dalam File PDF
-linktitle: Hapus Objek yang Tidak Digunakan Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengoptimalkan file PDF dengan menghapus objek yang tidak digunakan menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk mengurangi ukuran file dan meningkatkan kinerja.
-weight: 260
-url: /id/net/programming-with-document/removeunusedobjects/
+"description": "Pelajari cara mengoptimalkan file PDF dengan menghapus objek yang tidak digunakan menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk mengurangi ukuran file dan meningkatkan kinerja."
+"linktitle": "Hapus Objek yang Tidak Digunakan Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Hapus Objek yang Tidak Digunakan Dalam File PDF"
+"url": "/id/net/programming-with-document/removeunusedobjects/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Objek yang Tidak Digunakan Dalam File PDF
@@ -21,12 +23,12 @@ Di akhir artikel ini, Anda akan memiliki PDF yang lebih ramping dan lebih optima
 
 ## Prasyarat
 
-Sebelum kita masuk ke langkah-langkahnya, pastikan Anda telah menyiapkan semua yang perlu diikuti:
+Sebelum kita masuk ke langkah-langkahnya, pastikan Anda sudah menyiapkan semua yang perlu diikuti:
 
--  Aspose.PDF untuk .NET terinstal. Jika belum, Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET terinstal. Jika belum, Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 - Pemahaman dasar tentang C# dan lingkungan .NET.
 - Visual Studio atau lingkungan pengembangan C# lainnya.
--  Lisensi yang valid (baik[sementara](https://purchase.aspose.com/temporary-license/)atau lisensi penuh) untuk Aspose.PDF. Jika tidak, PDF Anda mungkin diberi tanda air.
+- Lisensi yang valid (baik [sementara](https://purchase.aspose.com/temporary-license/) atau lisensi penuh) untuk Aspose.PDF. Jika tidak, PDF Anda mungkin diberi tanda air.
   
 Itu saja yang Anda butuhkan! Sekarang, mari kita lanjutkan dengan mengimpor paket-paket yang diperlukan dan menyiapkan lingkungan kita.
 
@@ -47,7 +49,7 @@ Setelah namespace ini diimpor, Anda kini siap bekerja dengan PDF di Aspose.PDF. 
 
 ## Langkah 1: Muat Dokumen PDF
 
- Untuk memulai, Anda perlu memuat dokumen PDF yang ingin Anda optimalkan. Ini melibatkan penentuan jalur PDF Anda dan pembuatan contoh`Document` kelas untuk berinteraksi dengan berkas.
+Untuk memulai, Anda perlu memuat dokumen PDF yang ingin Anda optimalkan. Ini melibatkan penentuan jalur PDF Anda dan pembuatan contoh `Document` kelas untuk berinteraksi dengan berkas.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -55,14 +57,14 @@ Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
 Inilah yang terjadi:
--  Itu`dataDir` string berisi lokasi berkas PDF Anda.
--  Itu`Document` obyek`pdfDocument` mewakili berkas PDF.
+- Itu `dataDir` string berisi lokasi berkas PDF Anda.
+- Itu `Document` obyek `pdfDocument` mewakili berkas PDF.
 
 Tanpa memuat PDF, Anda tidak dapat melakukan operasi apa pun pada dokumen tersebut. Langkah ini berfungsi sebagai dasar untuk mengoptimalkan dokumen Anda.
 
 ## Langkah 2: Tetapkan Opsi Optimasi
 
- Selanjutnya, kita akan membuat sebuah instance dari`OptimizationOptions` kelas dan mengatur`RemoveUnusedObjects` properti untuk`true`Ini memastikan bahwa objek apa pun yang tidak diperlukan—seperti font, gambar, atau metadata yang tidak digunakan—dihapus dari PDF.
+Selanjutnya, kita akan membuat sebuah instance dari `OptimizationOptions` kelas dan mengatur `RemoveUnusedObjects` properti untuk `true`Ini memastikan bahwa objek yang tidak diperlukan—seperti font, gambar, atau metadata yang tidak digunakan—dihapus dari PDF.
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions
@@ -75,7 +77,7 @@ Dengan mengaktifkan opsi ini, Anda menginstruksikan Aspose.PDF untuk memindai do
 
 ## Langkah 3: Optimalkan Sumber Daya PDF
 
- Setelah pengaturan pengoptimalan Anda siap, saatnya menerapkannya ke dokumen PDF menggunakan`OptimizeResources` metode. Metode ini mengambil`optimizeOptions` kami atur sebelumnya dan melakukan proses optimasi pada PDF yang dimuat.
+Setelah pengaturan pengoptimalan Anda siap, saatnya menerapkannya ke dokumen PDF menggunakan `OptimizeResources` metode. Metode ini mengambil `optimizeOptions` kami atur sebelumnya dan melakukan proses optimasi pada PDF yang dimuat.
 
 ```csharp
 pdfDocument.OptimizeResources(optimizeOptions);
@@ -117,10 +119,12 @@ Pengurangan ukuran file bergantung pada berapa banyak objek yang tidak digunakan
 Setelah Anda menyimpan PDF yang telah dioptimalkan, Anda tidak dapat mengembalikan perubahan kecuali Anda telah menyimpan cadangan file asli. Itulah mengapa sebaiknya Anda menyimpan versi yang dioptimalkan dengan nama yang berbeda.
 
 ### Apakah diperlukan lisensi untuk menggunakan Aspose.PDF untuk .NET?
- Ya, Aspose.PDF untuk .NET memerlukan lisensi untuk membuka semua fitur. Anda dapat memperoleh lisensi[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau membeli lisensi penuh[Di Sini](https://purchase.aspose.com/buy).
+Ya, Aspose.PDF untuk .NET memerlukan lisensi untuk membuka semua fitur. Anda dapat memperoleh lisensi [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau membeli lisensi penuh [Di Sini](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

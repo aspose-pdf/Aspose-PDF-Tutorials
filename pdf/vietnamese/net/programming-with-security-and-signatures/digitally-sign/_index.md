@@ -1,29 +1,31 @@
 ---
-title: Đăng nhập kỹ thuật số vào tệp PDF
-linktitle: Đăng nhập kỹ thuật số vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách ký số vào tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để đảm bảo tài liệu của bạn an toàn và xác thực.
-weight: 40
-url: /vi/net/programming-with-security-and-signatures/digitally-sign/
+"description": "Tìm hiểu cách ký số vào tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để đảm bảo tài liệu của bạn an toàn và xác thực."
+"linktitle": "Đăng nhập kỹ thuật số vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đăng nhập kỹ thuật số vào tệp PDF"
+"url": "/vi/net/programming-with-security-and-signatures/digitally-sign/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đăng nhập kỹ thuật số vào tệp PDF
 
 ## Giới thiệu
 
-Trong thế giới số của chúng ta, tầm quan trọng của việc bảo mật tài liệu không thể được cường điệu hóa. Cho dù bạn là một người làm việc tự do gửi hợp đồng, một chủ doanh nghiệp nhỏ quản lý hóa đơn hay một phần của một tập đoàn lớn, việc đảm bảo tài liệu của bạn vẫn xác thực và không bị giả mạo là rất quan trọng. Một cách hiệu quả để đạt được bảo mật này là thông qua chữ ký số. Trong bài viết này, chúng ta sẽ khám phá cách ký số vào tệp PDF bằng thư viện Aspose.PDF cho .NET. Chúng tôi sẽ hướng dẫn bạn từng bước một.
+Trong thế giới số của chúng ta, tầm quan trọng của việc bảo mật tài liệu không thể được cường điệu hóa. Cho dù bạn là một người làm việc tự do gửi hợp đồng, một chủ doanh nghiệp nhỏ quản lý hóa đơn hay một phần của một tập đoàn lớn, việc đảm bảo tài liệu của bạn vẫn xác thực và không bị giả mạo là rất quan trọng. Một cách hiệu quả để đạt được sự bảo mật này là thông qua chữ ký số. Trong bài viết này, chúng ta sẽ khám phá cách ký số vào tệp PDF bằng thư viện Aspose.PDF cho .NET. Chúng tôi sẽ hướng dẫn bạn từng bước một.
 
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu ký kỹ thuật số cho các tệp PDF. Sau đây là danh sách các điều kiện tiên quyết:
 
 1. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework trên máy của mình. Aspose.PDF cho .NET hỗ trợ nhiều phiên bản của framework.
-2.  Thư viện Aspose.PDF: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ[liên kết phát hành](https://releases.aspose.com/pdf/net/).
-3.  Chứng chỉ số: Để ký PDF, bạn sẽ cần một chứng chỉ số —`.pfx` tập tin thông thường.
+2. Thư viện Aspose.PDF: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ [liên kết phát hành](https://releases.aspose.com/pdf/net/).
+3. Chứng chỉ số: Để ký PDF, bạn sẽ cần một chứng chỉ số — `.pfx` tập tin thông thường.
 4. Môi trường phát triển: Sử dụng Visual Studio hoặc bất kỳ IDE nào bạn chọn có hỗ trợ C#.
 
 Khi đã đáp ứng được những điều kiện tiên quyết này, bạn đã sẵn sàng để ký các tài liệu PDF!
@@ -46,7 +48,7 @@ Các không gian tên này cung cấp các lớp và phương thức cần thi�
 
 ## Bước 1: Thiết lập đường dẫn tài liệu của bạn
 
-Bước đầu tiên là thiết lập đường dẫn cho các tệp PDF đầu vào và đầu ra cũng như chứng chỉ kỹ thuật số của bạn. Thay thế`YOUR DOCUMENTS DIRECTORY` với đường dẫn thực tế trên hệ thống nơi lưu trữ các tập tin của bạn.
+Bước đầu tiên là thiết lập đường dẫn cho các tệp PDF đầu vào và đầu ra cũng như chứng chỉ kỹ thuật số của bạn. Thay thế `YOUR DOCUMENTS DIRECTORY` với đường dẫn thực tế trên hệ thống nơi lưu trữ các tập tin của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -54,11 +56,11 @@ string pbxFile = ""; // Đường dẫn đến chứng chỉ số của bạn (.
 string inFile = dataDir + @"DigitallySign.pdf";
 string outFile = dataDir + @"DigitallySign_out.pdf";
 ```
- Trong đoạn trích này,`inFile` là bản PDF gốc mà bạn muốn ký và`outFile` là nơi tệp PDF đã ký sẽ được lưu.
+Trong đoạn trích này, `inFile` là bản PDF gốc mà bạn muốn ký và `outFile` là nơi tệp PDF đã ký sẽ được lưu.
 
 ## Bước 2: Tải Tài liệu PDF
 
- Tiếp theo, chúng ta cần tải tài liệu PDF mà chúng ta muốn ký.`Document` lớp trong Aspose.PDF được sử dụng ở đây:
+Tiếp theo, chúng ta cần tải tài liệu PDF mà chúng ta muốn ký. `Document` lớp trong Aspose.PDF được sử dụng ở đây:
 
 ```csharp
 using (Document document = new Document(inFile))
@@ -71,7 +73,7 @@ Mã này sẽ mở tệp PDF của bạn và chuẩn bị cho các thao tác ti�
 
 ## Bước 3: Khởi tạo lớp PdfFileSignature
 
- Sau khi tài liệu được tải, chúng tôi tạo một phiên bản của`PdfFileSignature` lớp này cho phép chúng ta làm việc với chữ ký số trên tài liệu PDF đã tải của mình.
+Sau khi tài liệu được tải, chúng tôi tạo một phiên bản của `PdfFileSignature` lớp này cho phép chúng ta làm việc với chữ ký số trên tài liệu PDF đã tải của mình.
 
 ```csharp
 using (PdfFileSignature signature = new PdfFileSignature(document))
@@ -84,13 +86,13 @@ Lớp học này là nơi lý tưởng cho bạn để tìm hiểu mọi thứ l
 
 ## Bước 4: Tạo một phiên bản chứng chỉ số
 
-Đây là nơi bạn thiết lập chứng chỉ sẽ được sử dụng để ký PDF. Bạn cần cung cấp đường dẫn của`.pfx` tập tin cùng với mật khẩu liên quan đến nó.
+Đây là nơi bạn thiết lập chứng chỉ sẽ được sử dụng để ký PDF. Bạn cần cung cấp đường dẫn của `.pfx` tập tin cùng với mật khẩu liên quan đến nó.
 
 ```csharp
 PKCS7 pkcs = new PKCS7(pbxFile, "WebSales");
 ```
 
- Hãy chắc chắn thay thế`"WebSales"` bằng mật khẩu chứng chỉ thực tế của bạn.
+Hãy chắc chắn thay thế `"WebSales"` bằng mật khẩu chứng chỉ thực tế của bạn.
 
 ## Bước 5: Cấu hình giao diện chữ ký
 
@@ -131,7 +133,7 @@ using (Document document = new Document(outFile))
                 {
                     if (signature.GetAccessPermissions() == DocMDPAccessPermissions.FillingInForms) 
                     {
-                        //Chữ ký có giá trị và được chứng thực
+                        // Chữ ký có giá trị và được chứng thực
                     }
                 }
             }
@@ -168,16 +170,18 @@ Chữ ký số là một dạng mật mã tương đương với chữ ký viế
 Có! Aspose.PDF cho .NET tương thích với nhiều ứng dụng .NET khác nhau, bao gồm máy tính để bàn, web và dịch vụ.
 
 ### Tôi có thể sử dụng loại chứng chỉ số nào?
- Bạn có thể sử dụng bất kỳ chứng chỉ PKCS#12 nào, thường được lưu trong`.pfx` hoặc`.p12` tài liệu.
+Bạn có thể sử dụng bất kỳ chứng chỉ PKCS#12 nào, thường được lưu trong `.pfx` hoặc `.p12` tài liệu.
 
 ### Có phiên bản dùng thử của Aspose.PDF không?
- Có! Bạn có thể tải xuống phiên bản dùng thử miễn phí từ[Trang phát hành Aspose](https://releases.aspose.com/).
+Có! Bạn có thể tải xuống phiên bản dùng thử miễn phí từ [Trang phát hành Aspose](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn PDF Aspose](https://forum.aspose.com/c/pdf/10).
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn PDF Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

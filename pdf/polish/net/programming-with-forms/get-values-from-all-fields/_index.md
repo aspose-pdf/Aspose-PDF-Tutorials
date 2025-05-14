@@ -1,14 +1,16 @@
 ---
-title: Pobierz wartości ze wszystkich pól w dokumencie PDF
-linktitle: Pobierz wartości ze wszystkich pól w dokumencie PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyodrębnić wartości ze wszystkich pól dokumentu PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku.
-weight: 150
-url: /pl/net/programming-with-forms/get-values-from-all-fields/
+"description": "Dowiedz się, jak wyodrębnić wartości ze wszystkich pól dokumentu PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Pobierz wartości ze wszystkich pól w dokumencie PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz wartości ze wszystkich pól w dokumencie PDF"
+"url": "/pl/net/programming-with-forms/get-values-from-all-fields/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz wartości ze wszystkich pól w dokumencie PDF
@@ -22,8 +24,8 @@ Czy kiedykolwiek zdarzyło Ci się potrzebować wyodrębnić dane z formularza P
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
 1. .NET Framework: Upewnij się, że .NET Framework jest zainstalowany na Twoim komputerze. Aspose.PDF działa bezproblemowo z aplikacjami .NET.
-2.  Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
-3. Visual Studio: Dobre IDE sprawi, że Twoje doświadczenie kodowania będzie płynniejsze. Visual Studio jest popularnym wyborem do rozwoju .NET.
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
+3. Visual Studio: Dobre IDE sprawi, że Twoje doświadczenie kodowania będzie płynniejsze. Visual Studio jest popularnym wyborem do tworzenia oprogramowania .NET.
 4. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć przykłady.
 
 ## Importuj pakiety
@@ -58,7 +60,7 @@ Po pierwsze, musisz określić ścieżkę do swojego dokumentu PDF. To tutaj Asp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF. Jest to kluczowe, ponieważ jeśli ścieżka jest nieprawidłowa, program nie będzie w stanie znaleźć Twojego pliku PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF. Jest to kluczowe, ponieważ jeśli ścieżka jest nieprawidłowa, program nie będzie w stanie znaleźć Twojego pliku PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -69,14 +71,14 @@ Teraz, gdy mamy już ustawioną ścieżkę, czas otworzyć dokument PDF. To tuta
 Document pdfDocument = new Document(dataDir + "GetValuesFromAllFields.pdf");
 ```
 
- Tutaj tworzymy nową instancję`Document` class i przekaż ścieżkę do naszego pliku PDF. Ta linia kodu ładuje plik PDF do pamięci, przygotowując go do manipulacji.
+Tutaj tworzymy nową instancję `Document` class i przekaż ścieżkę do naszego pliku PDF. Ta linia kodu ładuje plik PDF do pamięci, przygotowując go do manipulacji.
 
 ## Krok 3: Uzyskaj dostęp do pól formularza
 
 Po otwarciu dokumentu możemy teraz uzyskać dostęp do pól formularza. Aspose.PDF pozwala nam na łatwe iterowanie po wszystkich polach formularza PDF.
 
 ```csharp
-//Pobierz wartości ze wszystkich pól
+// Pobierz wartości ze wszystkich pól
 foreach (Field formField in pdfDocument.Form)
 {
     Console.WriteLine("Field Name : {0} ", formField.PartialName);
@@ -84,7 +86,7 @@ foreach (Field formField in pdfDocument.Form)
 }
 ```
 
- W tej pętli przechodzimy przez każde pole w formularzu PDF.`PartialName` właściwość podaje nam nazwę pola, podczas gdy`Value` property dostarcza dane wprowadzone w tym polu. Tutaj zobaczysz wyniki swojej ciężkiej pracy!
+W tej pętli przechodzimy przez każde pole w formularzu PDF. `PartialName` właściwość podaje nam nazwę pola, podczas gdy `Value` property dostarcza dane wprowadzone w tym polu. Tutaj zobaczysz wyniki swojej ciężkiej pracy!
 
 ## Wniosek
 
@@ -96,19 +98,21 @@ Gratulacje! Właśnie nauczyłeś się, jak wyodrębnić wartości ze wszystkich
 Aspose.PDF for .NET to biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów PDF w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do zapoznania się z funkcjami biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do zapoznania się z funkcjami biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dokumentację?
- Dokumentację Aspose.PDF dla .NET można znaleźć[Tutaj](https://reference.aspose.com/pdf/net/).
+Dokumentację Aspose.PDF dla .NET można znaleźć [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Jak zakupić licencję?
- Możesz kupić licencję na Aspose.PDF odwiedzając stronę zakupu[Tutaj](https://purchase.aspose.com/buy).
+Możesz kupić licencję na Aspose.PDF odwiedzając stronę zakupu [Tutaj](https://purchase.aspose.com/buy).
 
 ### A co jeśli będę potrzebować wsparcia?
- Jeśli masz jakieś pytania lub potrzebujesz pomocy, możesz odwiedzić forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Jeśli masz jakieś pytania lub potrzebujesz pomocy, możesz odwiedzić forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

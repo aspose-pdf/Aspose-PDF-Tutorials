@@ -7,7 +7,9 @@ description: Find tutorials on programming with graphics in Aspose.PDF for .NET.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Graphs
@@ -31,6 +33,7 @@ Programming tutorials with graphics from Aspose.PDF for .NET are designed for de
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

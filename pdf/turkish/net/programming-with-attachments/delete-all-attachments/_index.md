@@ -1,27 +1,29 @@
 ---
-title: PDF Dosyasındaki Tüm Ekleri Sil
-linktitle: PDF Dosyasındaki Tüm Ekleri Sil
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasındaki tüm ekleri nasıl sileceğinizi öğrenin. PDF yönetiminizi basitleştirin.
-weight: 20
-url: /tr/net/programming-with-attachments/delete-all-attachments/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasındaki tüm ekleri nasıl sileceğinizi öğrenin. PDF yönetiminizi basitleştirin."
+"linktitle": "PDF Dosyasındaki Tüm Ekleri Sil"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Tüm Ekleri Sil"
+"url": "/tr/net/programming-with-attachments/delete-all-attachments/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Tüm Ekleri Sil
 
 ## giriiş
 
-Hiç PDF dosyasını tüm eklerini kaldırarak temizlemeniz gereken bir durumla karşılaştınız mı? İster gizlilik nedenleriyle, ister dosya boyutunu küçültmek için, ister sadece belgelerinizi düzenlemek için olsun, bir PDF'den ekleri nasıl sileceğinizi bilmek inanılmaz derecede faydalı olabilir. Bu eğitimde, .NET için Aspose.PDF kullanarak bir PDF dosyasındaki tüm ekleri silme sürecini adım adım anlatacağız. Bu güçlü kütüphane, PDF belgelerini programatik olarak yönetmeyi kolaylaştırır ve bu kılavuzun sonunda, ekleri bir profesyonel gibi idare etme bilgisine sahip olacaksınız!
+Hiç bir PDF dosyasını tüm eklerini kaldırarak temizlemeniz gereken bir durumla karşılaştınız mı? İster gizlilik nedenleriyle, ister dosya boyutunu küçültmek için, ister sadece belgelerinizi düzenlemek için olsun, bir PDF'den ekleri nasıl sileceğinizi bilmek inanılmaz derecede faydalı olabilir. Bu eğitimde, .NET için Aspose.PDF kullanarak bir PDF dosyasındaki tüm ekleri silme sürecini adım adım anlatacağız. Bu güçlü kütüphane, PDF belgelerini programatik olarak yönetmeyi kolaylaştırır ve bu kılavuzun sonunda, ekleri bir profesyonel gibi idare etme bilgisine sahip olacaksınız!
 
 ## Ön koşullar
 
 Koda dalmadan önce, yerinde olması gereken birkaç şey var:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: .NET kodlarınızı yazıp çalıştırabileceğiniz bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
@@ -41,7 +43,7 @@ Visual Studio'yu açın ve yeni bir C# projesi oluşturun. Basitlik için bir Ko
 
 ### Gerekli Ad Alanlarını İçe Aktar
 
- Kütüphane eklendikten sonra,`Program.cs` dosyaya gidin ve dosyanın en üstüne gerekli ad alanlarını içe aktarın:
+Kütüphane eklendikten sonra, `Program.cs` dosyaya gidin ve dosyanın en üstüne gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using System.IO;
@@ -60,7 +62,7 @@ Artık her şeyi ayarladığımıza göre, gerçek koda geçelim!
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"`PDF dosyanızın saklandığı gerçek yol ile. Bu önemlidir çünkü programın değiştirmek istediğiniz dosyayı nerede bulacağını bilmesi gerekir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı gerçek yol ile. Bu önemlidir çünkü programın değiştirmek istediğiniz dosyayı nerede bulacağını bilmesi gerekir.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -71,7 +73,7 @@ Sonra, silmek istediğiniz ekleri içeren PDF belgesini açmak isteyeceksiniz. B
 Document pdfDocument = new Document(dataDir + "DeleteAllAttachments.pdf");
 ```
 
- Bu kod satırı yeni bir`Document` PDF dosyanızı temsil eden nesne. Dosya adının dizininizdeki adla eşleştiğinden emin olun.
+Bu kod satırı yeni bir `Document` PDF dosyanızı temsil eden nesne. Dosya adının dizininizdeki adla eşleştiğinden emin olun.
 
 ## Adım 3: Tüm Ekleri Silin
 
@@ -94,7 +96,7 @@ dataDir = dataDir + "DeleteAllAttachments_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Bu kod, değiştirilen PDF'yi yeni bir ad altında kaydeder ve orijinal dosyanızın bozulmadan kalmasını sağlar. Bir yedek tutmak her zaman iyi bir uygulamadır!
+Bu kod, orijinal dosyanızın bozulmadan kalmasını sağlayarak değiştirilmiş PDF'yi yeni bir ad altında kaydeder. Bir yedek tutmak her zaman iyi bir uygulamadır!
 
 ## Adım 5: Silmeyi Onaylayın
 
@@ -113,22 +115,24 @@ Ve işte karşınızda! Aspose.PDF for .NET kullanarak bir PDF dosyasından tüm
 ## SSS
 
 ### Tüm ekleri silmek yerine belirli ekleri silebilir miyim?
- Evet, ekleri, bunlara erişerek seçici bir şekilde silebilirsiniz.`EmbeddedFiles` koleksiyon.
+Evet, ekleri, bunlara erişerek seçici bir şekilde silebilirsiniz. `EmbeddedFiles` koleksiyon.
 
 ### Ekleri silersem ne olur?
 Silinen ekler, orijinal PDF dosyasının yedeğine sahip olmadığınız sürece kurtarılamaz.
 
 ### Aspose.PDF'i kullanmak ücretsiz mi?
-Aspose.PDF ücretsiz deneme sunuyor ancak tam işlevsellik için bir lisans satın almanız gerekecek. Şuraya göz atın:[satın alma sayfası](https://purchase.aspose.com/buy) Daha detaylı bilgi için.
+Aspose.PDF ücretsiz deneme sunuyor ancak tam işlevsellik için bir lisans satın almanız gerekecek. Şuraya göz atın: [satın alma sayfası](https://purchase.aspose.com/buy) Daha detaylı bilgi için.
 
 ### Daha fazla dokümanı nerede bulabilirim?
- .NET için Aspose.PDF'de kapsamlı belgeler bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+.NET için Aspose.PDF'de kapsamlı belgeler bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Sorun yaşarsam nasıl destek alabilirim?
- Aspose topluluğundan yardım isteyebilirsiniz[destek forumu](https://forum.aspose.com/c/pdf/10).
+Aspose topluluğundan yardım isteyebilirsiniz [destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Deaktivieren der Dateikomprimierung in der PDF-Datei
-linktitle: Deaktivieren der Dateikomprimierung in der PDF-Datei
-second_title: Aspose.PDF für .NET API-Referenz
-description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie die Dateikomprimierung in PDF-Dateien mit Aspose.PDF für .NET deaktivieren. Verbessern Sie Ihre PDF-Verwaltungsfähigkeiten.
-weight: 30
-url: /de/net/programming-with-attachments/disable-files-compression/
+"description": "Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie die Dateikomprimierung in PDF-Dateien mit Aspose.PDF für .NET deaktivieren. Verbessern Sie Ihre PDF-Verwaltungsfähigkeiten."
+"linktitle": "Deaktivieren der Dateikomprimierung in PDF-Dateien"
+"second_title": "Aspose.PDF für .NET API-Referenz"
+"title": "Deaktivieren der Dateikomprimierung in PDF-Dateien"
+"url": "/de/net/programming-with-attachments/disable-files-compression/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Deaktivieren der Dateikomprimierung in der PDF-Datei
+# Deaktivieren der Dateikomprimierung in PDF-Dateien
 
 ## Einführung
 
-Im digitalen Zeitalter ist die effiziente Verwaltung von PDF-Dateien sowohl für den privaten als auch für den professionellen Gebrauch von entscheidender Bedeutung. Egal, ob Sie ein Entwickler sind, der seine Anwendung verbessern möchte, oder ein Geschäftsmann, der Dokumente verwaltet: Wenn Sie wissen, wie man PDF-Dateien bearbeitet, können Sie Zeit und Mühe sparen. Eine häufige Anforderung ist das Deaktivieren der Dateikomprimierung in PDF-Dokumenten. Dies kann besonders nützlich sein, wenn Sie sicherstellen möchten, dass eingebettete Dateien ohne Änderungen in ihrem ursprünglichen Format bleiben. In diesem Tutorial erfahren Sie, wie Sie die Dateikomprimierung in einer PDF-Datei mit Aspose.PDF für .NET deaktivieren. 
+Im digitalen Zeitalter ist die effiziente Verwaltung von PDF-Dateien sowohl für den privaten als auch für den beruflichen Gebrauch entscheidend. Ob Entwickler, der seine Anwendung verbessern möchte, oder Geschäftsprofi, der Dokumente verwaltet – das Wissen, wie man PDF-Dateien bearbeitet, spart Zeit und Mühe. Häufig wird die Dateikomprimierung in PDF-Dokumenten deaktiviert. Dies ist besonders nützlich, wenn Sie sicherstellen möchten, dass eingebettete Dateien unverändert im Originalformat bleiben. In diesem Tutorial erfahren Sie, wie Sie die Dateikomprimierung in einer PDF-Datei mit Aspose.PDF für .NET deaktivieren. 
 
 ## Voraussetzungen
 
 Bevor Sie sich in den Code vertiefen, müssen einige Voraussetzungen erfüllt sein:
 
-1.  Aspose.PDF für .NET: Stellen Sie sicher, dass Sie die Aspose.PDF-Bibliothek installiert haben. Sie können sie von der[Webseite](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF für .NET: Stellen Sie sicher, dass die Aspose.PDF-Bibliothek installiert ist. Sie können sie von der [Webseite](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Eine Entwicklungsumgebung, in der Sie Ihren .NET-Code schreiben und ausführen können.
-3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, verstehen Sie die Codeausschnitte besser.
+3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, können Sie die Codeausschnitte besser verstehen.
 
 ## Pakete importieren
 
-Um zu beginnen, müssen Sie die erforderlichen Pakete in Ihr C#-Projekt importieren. So können Sie das tun:
+Um zu beginnen, müssen Sie die erforderlichen Pakete in Ihr C#-Projekt importieren. So geht's:
 
 ### Neues Projekt erstellen
 
@@ -53,7 +55,7 @@ Nachdem wir nun alles eingerichtet haben, unterteilen wir den Vorgang zum Deakti
 
 ## Schritt 1: Definieren Sie das Dokumentverzeichnis
 
-Zuerst müssen Sie den Pfad zum Verzeichnis angeben, in dem sich Ihre PDF-Datei befindet. Dies ist wichtig, da es dem Programm mitteilt, wo sich die zu bearbeitende Datei befindet.
+Geben Sie zunächst den Pfad zum Verzeichnis Ihrer PDF-Datei an. Dies ist wichtig, da das Programm dadurch weiß, wo sich die zu bearbeitende Datei befindet.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -61,15 +63,15 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Schritt 2: Laden Sie das PDF-Dokument
 
- Als nächstes laden Sie das PDF-Dokument, das Sie ändern möchten. Dies geschieht mit dem`Document` Klasse bereitgestellt von Aspose.PDF.
+Als nächstes laden Sie das PDF-Dokument, das Sie ändern möchten. Dies geschieht mit dem `Document` Klasse bereitgestellt von Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
 ```
 
-## Schritt 3: Richten Sie die Datei ein, die als Anhang hinzugefügt werden soll
+## Schritt 3: Richten Sie die als Anhang hinzuzufügende Datei ein
 
-Nun müssen Sie eine neue Dateispezifikation für den Anhang erstellen, den Sie dem PDF hinzufügen möchten. Dabei müssen Sie den Namen und den Typ der Datei angeben.
+Nun müssen Sie eine neue Dateispezifikation für den Anhang erstellen, den Sie dem PDF hinzufügen möchten. Dazu müssen Sie den Namen und den Typ der Datei angeben.
 
 ```csharp
 FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sample text file");
@@ -77,7 +79,7 @@ FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sam
 
 ## Schritt 4: Codierungseigenschaft angeben
 
- Um sicherzustellen, dass die Datei ohne Komprimierung hinzugefügt wird, müssen Sie die Kodierungseigenschaft der Dateispezifikation auf`FileEncoding.None`Dieser Schritt ist entscheidend, da er direkte Auswirkungen darauf hat, wie die Datei in das PDF eingebettet wird.
+Um sicherzustellen, dass die Datei ohne Komprimierung hinzugefügt wird, müssen Sie die Kodierungseigenschaft der Dateispezifikation auf `FileEncoding.None`Dieser Schritt ist entscheidend, da er sich direkt darauf auswirkt, wie die Datei in das PDF eingebettet wird.
 
 ```csharp
 fileSpecification.Encoding = FileEncoding.None;
@@ -85,7 +87,7 @@ fileSpecification.Encoding = FileEncoding.None;
 
 ## Schritt 5: Anhang zum Dokument hinzufügen
 
-Wenn die Dateispezifikation fertig ist, können Sie den Anhang nun zur Anhangssammlung des Dokuments hinzufügen. Dieser Schritt integriert die Datei in das PDF.
+Nachdem die Dateispezifikation fertig ist, können Sie den Anhang zur Anhangssammlung des Dokuments hinzufügen. Dieser Schritt integriert die Datei in das PDF.
 
 ```csharp
 pdfDocument.EmbeddedFiles.Add(fileSpecification);
@@ -93,7 +95,7 @@ pdfDocument.EmbeddedFiles.Add(fileSpecification);
 
 ## Schritt 6: Speichern Sie die neue Ausgabe
 
-Zum Schluss müssen Sie das geänderte PDF-Dokument speichern. Geben Sie den Ausgabepfad an, in dem Sie die neue Datei speichern möchten.
+Abschließend müssen Sie das geänderte PDF-Dokument speichern. Geben Sie den Ausgabepfad an, in dem die neue Datei gespeichert werden soll.
 
 ```csharp
 dataDir = dataDir + "DisableFilesCompression_out.pdf";
@@ -102,7 +104,7 @@ pdfDocument.Save(dataDir);
 
 ## Schritt 7: Bestätigen Sie den Vorgang
 
-Um sicherzustellen, dass alles reibungslos verlaufen ist, können Sie eine Bestätigungsnachricht auf der Konsole ausdrucken.
+Um sicherzustellen, dass alles reibungslos gelaufen ist, können Sie eine Bestätigungsnachricht auf der Konsole ausgeben.
 
 ```csharp
 Console.WriteLine("\nFile compression disabled successfully.\nFile saved at " + dataDir);
@@ -110,27 +112,29 @@ Console.WriteLine("\nFile compression disabled successfully.\nFile saved at " + 
 
 ## Abschluss
 
-Mit den richtigen Tools kann das Deaktivieren der Dateikomprimierung in PDF-Dokumenten ein unkomplizierter Vorgang sein. Indem Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie Ihre PDF-Dateien problemlos verwalten und sicherstellen, dass eingebettete Anhänge ihr ursprüngliches Format beibehalten. Aspose.PDF für .NET bietet eine leistungsstarke und flexible Möglichkeit zum Bearbeiten von PDF-Dokumenten und ist damit eine hervorragende Wahl für Entwickler und Unternehmen.
+Mit den richtigen Tools lässt sich die Dateikomprimierung in PDF-Dokumenten ganz einfach deaktivieren. Mit den in diesem Tutorial beschriebenen Schritten können Sie Ihre PDF-Dateien einfach verwalten und sicherstellen, dass eingebettete Anhänge ihr ursprüngliches Format behalten. Aspose.PDF für .NET bietet eine leistungsstarke und flexible Möglichkeit zur Bearbeitung von PDF-Dokumenten und ist damit eine hervorragende Wahl für Entwickler und Unternehmen.
 
 ## FAQs
 
 ### Was ist Aspose.PDF für .NET?
 Aspose.PDF für .NET ist eine Bibliothek, die es Entwicklern ermöglicht, PDF-Dokumente programmgesteuert zu erstellen, zu bearbeiten und zu konvertieren.
 
-### Warum sollte ich die Dateikomprimierung in einer PDF-Datei deaktivieren wollen?
-Durch das Deaktivieren der Dateikomprimierung wird sichergestellt, dass eingebettete Dateien in ihrem ursprünglichen Format verbleiben, was für die Datenintegrität wichtig sein kann.
+### Warum sollte ich die Dateikomprimierung in einer PDF-Datei deaktivieren?
+Durch das Deaktivieren der Dateikomprimierung wird sichergestellt, dass eingebettete Dateien in ihrem ursprünglichen Format bleiben, was für die Datenintegrität wichtig sein kann.
 
 ### Kann ich Aspose.PDF kostenlos nutzen?
- Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Bibliothek testen können. Sie können sie herunterladen[Hier](https://releases.aspose.com/).
+Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Bibliothek testen können. Sie können sie herunterladen [Hier](https://releases.aspose.com/).
 
 ### Wo finde ich weitere Dokumentation zu Aspose.PDF?
- Eine ausführliche Dokumentation finden Sie auf der[Aspose-Website](https://reference.aspose.com/pdf/net/).
+Eine umfassende Dokumentation finden Sie auf der [Aspose-Website](https://reference.aspose.com/pdf/net/).
 
 ### Wie erhalte ich Support für Aspose.PDF?
- Sie erhalten Unterstützung unter[Aspose-Forum](https://forum.aspose.com/c/pdf/10).
+Sie erhalten Unterstützung durch den Besuch der [Aspose-Forum](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

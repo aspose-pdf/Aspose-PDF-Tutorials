@@ -1,14 +1,16 @@
 ---
-title: Marginesy lub wypełnienie
-linktitle: Marginesy lub wypełnienie
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak zarządzać marginesami i odstępami w Aspose.PDF dla platformy .NET dzięki temu kompleksowemu przewodnikowi krok po kroku dotyczącemu tworzenia dopracowanych plików PDF.
-weight: 140
-url: /pl/net/programming-with-tables/margins-or-padding/
+"description": "Dowiedz się, jak zarządzać marginesami i odstępami w Aspose.PDF dla platformy .NET dzięki temu kompleksowemu przewodnikowi krok po kroku dotyczącemu tworzenia dopracowanych plików PDF."
+"linktitle": "Marginesy lub wypełnienie"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Marginesy lub wypełnienie"
+"url": "/pl/net/programming-with-tables/margins-or-padding/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Marginesy lub wypełnienie
@@ -21,10 +23,10 @@ Czy kiedykolwiek zastanawiałeś się, dlaczego niektóre pliki PDF wyglądają 
 
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.PDF dla biblioteki .NET: Bibliotekę można pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla biblioteki .NET: Bibliotekę można pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/net/).
 - Visual Studio: zintegrowane środowisko programistyczne do pisania kodu w języku C#. 
 - Podstawowa znajomość programowania w języku C#: Pewna znajomość kodowania pomoże Ci lepiej zrozumieć te koncepcje.
--  Konto Aspose: Jeśli chcesz kupić licencję lub potrzebujesz wsparcia, sprawdź[Strona zakupu Aspose](https://purchase.aspose.com/buy) lub odwiedź[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+- Konto Aspose: Jeśli chcesz kupić licencję lub potrzebujesz wsparcia, sprawdź [Strona zakupu Aspose](https://purchase.aspose.com/buy) lub odwiedź [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
 
 ## Importuj pakiety
 
@@ -59,7 +61,7 @@ Utwórz obiekt Document
 Document doc = new Document();
 ```
 
- W tym kroku tworzymy nową instancję`Document` Klasa z biblioteki Aspose.PDF. Ten obiekt reprezentuje plik PDF i jest punktem wyjścia do dodawania treści.
+W tym kroku tworzymy nową instancję `Document` Klasa z biblioteki Aspose.PDF. Ten obiekt reprezentuje plik PDF i jest punktem wyjścia do dodawania treści.
 
 ## Krok 3: Dodaj nową stronę
 
@@ -99,7 +101,7 @@ Zdefiniuj szerokość każdej kolumny
 tab1.ColumnWidths = "50 50 50";
 ```
 
-W tym kroku definiujemy szerokości kolumn naszej tabeli. Ustawienie ich na „50” oznacza, że każda będzie miała szerokość 50 jednostek. Dostosowanie szerokości kolumn jest kluczowe dla zapewnienia, że dane dobrze mieszczą się w tabeli.
+tym kroku definiujemy szerokości kolumn naszej tabeli. Ustawienie ich na „50” oznacza, że każda będzie miała szerokość 50 jednostek. Dostosowanie szerokości kolumn jest kluczowe dla zapewnienia, że dane dobrze mieszczą się w tabeli.
 
 ## Krok 7: Zdefiniuj granice komórek
 
@@ -195,19 +197,21 @@ masz to! Przestrzegając tych kroków, możesz skutecznie kontrolować marginesy
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom .NET programowe tworzenie, edytowanie i manipulowanie dokumentami PDF.
 
 ### Czy mogę wypróbować Aspose.PDF za darmo?
- Tak! Możesz pobrać i używać bezpłatnej wersji próbnej Aspose.PDF z[Tutaj](https://releases.aspose.com/).
+Tak! Możesz pobrać i używać bezpłatnej wersji próbnej Aspose.PDF z [Tutaj](https://releases.aspose.com/).
 
 ### Czy potrzebuję licencji na Aspose.PDF?
- Tak, jeśli chcesz używać go w celach komercyjnych, musisz kupić licencję, którą znajdziesz[Tutaj](https://purchase.aspose.com/buy).
+Tak, jeśli chcesz używać go w celach komercyjnych, musisz kupić licencję, którą znajdziesz [Tutaj](https://purchase.aspose.com/buy).
 
-### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Społeczność Aspose oferuje szczegółowe wsparcie poprzez[forum wsparcia](https://forum.aspose.com/c/pdf/10).
+### Gdzie mogę uzyskać pomoc dotyczącą Aspose.PDF?
+Społeczność Aspose oferuje szczegółowe wsparcie poprzez [forum wsparcia](https://forum.aspose.com/c/pdf/10).
 
 ### Czy istnieje sposób na uzyskanie tymczasowej licencji?
- Oczywiście! W celach testowych możesz ubiegać się o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/). 
+Oczywiście! W celach testowych możesz ubiegać się o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/). 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

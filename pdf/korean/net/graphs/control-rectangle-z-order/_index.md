@@ -1,41 +1,46 @@
 ---
-title: .NET에서 직사각형으로 PDF를 만들고 사용자 정의합니다 
-weight: 7700
-limit: 
-description: .NET에서 PDF 문서를 만드는 방법을 배우십시오. 다양한 Z-인덱스를 가진 다채로운 직사각형을 추가하고 Aspose.PDF를 사용하여 최종 문서를 저장하십시오.  
-keywords: [Aspose.PDF, .NET PDF example, create PDF, add rectangles, Z-index, PDF manipulation]
-url: /ko/net/graphs/control-rectangle-z-order/
+"description": "Aspose.PDF를 사용하여 .NET에서 PDF 문서를 만드는 방법, 다양한 Z 인덱스를 가진 다채로운 사각형을 추가하는 방법, 최종 문서를 저장하는 방법을 알아보세요."
+"title": ".NET에서 사각형을 사용하여 PDF 만들기 및 사용자 지정"
+"url": "/ko/net/graphs/control-rectangle-z-order/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 직사각형으로 PDF를 만들고 사용자 정의합니다
+# 사각형으로 PDF 만들기 및 사용자 지정
 
-이 가이드는 .NET용 Aspose.PDF를 사용하여 PDF 문서를 만드는 방법을 보여줍니다. 각기 다른 Z-인덱스를 가진 다채로운 직사각형을 통합하여 레이어링을 제어합니다. PDF에 모양을 추가하고 문서를 저장하기 위해 단계별 지침을 따르고 응용 프로그램의 PDF 생성 기능을 향상시킵니다.
+이 가이드에서는 Aspose.PDF for .NET을 사용하여 PDF 문서를 만드는 방법을 보여줍니다. 다양한 Z축 인덱스를 가진 다채로운 사각형을 사용하여 레이어를 제어합니다. 단계별 지침에 따라 PDF에 도형을 추가하고 문서를 저장하면 애플리케이션의 PDF 생성 기능이 향상됩니다.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/control-rectangle-z-order" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## 설치 지침
-1. .NET 개발 환경 (비주얼 스튜디오 같은) 을 설정하고 있는지 확인합니다.
-2. Aspose.PDF 라이브러리를 다운로드[아스포스 웹사이트](https://www.aspose.com/purchase)\- 그래요
-3. 실행 하 여 NuGet 패키지 Aspose.PDF를 설치 합니다`설치 패키지 Aspose.PDF`패키지 관리자 콘솔에서
-4. 프로젝트에서 필요한 네임스페이스를 포함:
+1. .NET 개발 환경(예: Visual Studio)이 설정되어 있는지 확인하세요.
+2. Aspose.PDF 라이브러리를 다운로드하세요. [Aspose 웹사이트](https://www.aspose.com/purchase).
+3. Aspose.PDF NuGet 패키지를 실행하여 설치하세요. `Install-Package Aspose.PDF` 패키지 관리자 콘솔에서.
+4. 프로젝트에 필요한 네임스페이스를 포함하세요.
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
    ```
 
-## 자세한 문서는 다음을 참조하십시오.  
-* [Aspose.PDF를 위해 .NET 문서](https://docs.aspose.com/pdf/net/)  
-* [.NET에 대한 Aspose.PDF의 API 참조](https://reference.aspose.com/pdf/net/)  
+## 자세한 내용은 다음을 방문하세요.  
+- [.NET 설명서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)  
+- [.NET용 Aspose.PDF에 대한 API 참조](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

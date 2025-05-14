@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.PDF Java: How to Set and Get PDF Zoom Levels for Enhanced Document Presentation
 
@@ -188,7 +190,11 @@ The open action applies the zoom when the document opens. Page-specific zoom req
 - **Download Aspose.PDF**: Get the latest version from [Aspose Releases](https://releases.aspose.com/pdf/java/).
 - **Purchase and Free Trial**: Start with a trial or purchase a license via [Aspose Purchase Page](https://purchase.aspose.com/buy).
 - **Support**: Join discussions and get help at the [Aspose Forum](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

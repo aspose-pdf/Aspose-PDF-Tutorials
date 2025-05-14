@@ -1,22 +1,24 @@
 ---
-title: إضافة صورة إلى ملف PDF موجود في Java
-linktitle: إضافة صورة إلى ملف PDF موجود في Java
-second_title: واجهة برمجة تطبيقات معالجة PDF الخاصة بـ Aspose.PDF Java
-description: تعرف على كيفية إضافة الصور إلى ملفات PDF الموجودة في Java بسهولة باستخدام Aspose.PDF for Java. قم بتحسين مستندات PDF الخاصة بك من خلال الإرشادات خطوة بخطوة وأمثلة التعليمات البرمجية.
-weight: 11
-url: /ar/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/
+"description": "تعلّم كيفية إضافة صور إلى ملفات PDF الموجودة بلغة جافا بسهولة مع Aspose.PDF لجافا. حسّن مستندات PDF الخاصة بك بإرشادات خطوة بخطوة وأمثلة برمجية."
+"linktitle": "إضافة صورة إلى ملف PDF موجود في Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PDF في Java لـ Aspose.PDF"
+"title": "إضافة صورة إلى ملف PDF موجود في Java"
+"url": "/ar/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إضافة صورة إلى ملف PDF موجود في Java
 
 
-## مقدمة حول إضافة صورة إلى ملف PDF موجود في Java
+## مقدمة لإضافة صورة إلى ملف PDF موجود في Java
 
-إن إضافة الصور إلى ملفات PDF الموجودة في Java يمكن أن يعزز بشكل كبير من المظهر المرئي ومحتوى مستنداتك. في هذا البرنامج التعليمي، سنوضح لك خطوة بخطوة عملية استخدام Aspose.PDF لـ Java لإنجاز هذه المهمة.
+إضافة الصور إلى ملفات PDF الموجودة في جافا تُحسّن بشكل كبير من مظهر مستنداتك ومحتواها. في هذا البرنامج التعليمي، سنشرح لك خطوة بخطوة كيفية استخدام Aspose.PDF لجافا لإنجاز هذه المهمة.
 
 ## المتطلبات الأساسية
 
@@ -24,7 +26,7 @@ url: /ar/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/
 
 - معرفة عملية ببرمجة جافا
 - مجموعة تطوير Java (JDK) مثبتة على نظامك
--  مكتبة Aspose.PDF لـ Java، والتي يمكنك تنزيلها من[هنا](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF لمكتبة Java، والتي يمكنك تنزيلها من [هنا](https://releases.aspose.com/pdf/java/)
 
 ## الخطوة 1: إعداد بيئة التطوير الخاصة بك
 
@@ -35,7 +37,7 @@ url: /ar/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/
 
 ## الخطوة 2: إضافة التبعيات
 
-بعد ذلك، ستحتاج إلى تضمين Aspose.PDF for Java في مشروعك. أضف التبعية التالية إلى تكوين مشروعك:
+بعد ذلك، عليك تضمين Aspose.PDF لجافا في مشروعك. أضف التبعية التالية إلى إعدادات مشروعك:
 
 ```xml
 <!-- Aspose.PDF for Java -->
@@ -48,7 +50,7 @@ url: /ar/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/
 
 ## الخطوة 3: إنشاء مستند PDF
 
-الآن، لنبدأ بإنشاء مستند PDF جديد باستخدام Aspose.PDF لـ Java. إليك مقتطف من التعليمات البرمجية لمساعدتك على البدء:
+الآن، لنبدأ بإنشاء مستند PDF جديد باستخدام Aspose.PDF لجافا. إليك مقتطف برمجي للبدء:
 
 ```java
 // تهيئة مستند PDF جديد
@@ -57,7 +59,7 @@ Document pdfDocument = new Document();
 // إضافة صفحة إلى المستند
 Page page = pdfDocument.getPages().add();
 
-// المحتوى الخاص بك يذهب هنا
+// المحتوى الخاص بك يظهر هنا
 
 // حفظ المستند
 pdfDocument.save("output.pdf");
@@ -78,13 +80,13 @@ image.setFile("image.jpg");
 // أضف الصورة إلى الصفحة
 page.getParagraphs().add(image);
 
-// احفظ ملف PDF المعدل
+// حفظ ملف PDF المعدل
 pdfDocument.save("output.pdf");
 ```
 
 ## الخطوة 5: تخصيص وضع الصورة
 
- يمكنك تخصيص موضع وحجم الصورة المضافة باستخدام خصائص مثل`setHorizontalAlignment`, `setVerticalAlignment` ، و`setRectangle`قم بضبط هذه الخصائص حسب الحاجة لتحقيق الموضع والحجم المطلوبين.
+يمكنك تخصيص موضع وحجم الصورة المضافة باستخدام خصائص مثل `setHorizontalAlignment`، `setVerticalAlignment`، و `setRectangle`قم بتعديل هذه الخصائص حسب الحاجة لتحقيق الموضع والحجم المطلوبين.
 
 ```java
 // تخصيص وضع الصورة
@@ -93,25 +95,25 @@ image.setVerticalAlignment(VerticalAlignment.Middle);
 image.setRectangle(new Rectangle(100, 100, 200, 200)); // تعيين الأبعاد المخصصة
 ```
 
-## الخطوة 6: حفظ ملف PDF المعدل
+## الخطوة 6: حفظ ملف PDF المعدّل
 
- أخيرًا، احفظ ملف PDF المعدّل بالصورة المضافة باستخدام`save` طريقة.
+وأخيرًا، احفظ ملف PDF المعدّل مع الصورة المضافة باستخدام `save` طريقة.
 
 ```java
 pdfDocument.save("output.pdf");
 ```
 
-مبروك! لقد قمت بنجاح بإضافة صورة إلى ملف PDF موجود في Java باستخدام Aspose.PDF for Java.
+تهانينا! لقد نجحت في إضافة صورة إلى ملف PDF موجود بلغة جافا باستخدام Aspose.PDF لجافا.
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، تعلمنا كيفية إضافة الصور إلى ملفات PDF الموجودة في Java باستخدام Aspose.PDF for Java. إن تحسين مستندات PDF الخاصة بك باستخدام الصور يمكن أن يجعلها أكثر جاذبية وإفادة. مع Aspose.PDF for Java، لديك المرونة لتخصيص وضع الصور ومظهرها لتناسب احتياجاتك المحددة. الآن، يمكنك إنشاء ملفات PDF جذابة بصريًا بسهولة.
+في هذا البرنامج التعليمي، تعلمنا كيفية إضافة صور إلى ملفات PDF الموجودة بلغة جافا باستخدام Aspose.PDF لجافا. إن إضافة الصور إلى مستندات PDF الخاصة بك تجعلها أكثر جاذبية وإثراءً بالمعلومات. مع Aspose.PDF لجافا، يمكنك تخصيص موضع الصور ومظهرها بما يناسب احتياجاتك. الآن، يمكنك إنشاء ملفات PDF جذابة بصريًا بسهولة.
 
 ## الأسئلة الشائعة
 
 ### كيف أضيف صور متعددة إلى ملف PDF؟
 
-بإمكانك إضافة صور متعددة عن طريق تكرار عملية إضافة الصور لكل صورة وضبط مواضعها حسب الحاجة.
+يمكنك إضافة صور متعددة عن طريق تكرار عملية إضافة الصور لكل صورة وضبط مواضعها حسب الحاجة.
 
 ### هل يمكنني إضافة صور إلى صفحات محددة في ملف PDF متعدد الصفحات؟
 
@@ -119,18 +121,20 @@ pdfDocument.save("output.pdf");
 
 ### هل Aspose.PDF for Java متوافق مع تنسيقات الصور المختلفة؟
 
-نعم، يدعم Aspose.PDF for Java تنسيقات الصور المختلفة مثل JPEG، PNG، BMP، وGIF.
+نعم، يدعم Aspose.PDF for Java تنسيقات الصور المختلفة مثل JPEG، وPNG، وBMP، وGIF.
 
-### كيف يمكنني التحكم بشفافية الصور المضافة؟
+### كيف يمكنني التحكم في شفافية الصور المضافة؟
 
- يمكنك ضبط تعتيم الصورة باستخدام`setOpacity` طريقة للتحكم في الشفافية.
+يمكنك ضبط تعتيم الصورة باستخدام `setOpacity` طريقة للتحكم في الشفافية.
 
 ### هل يمكنني تدوير الصورة المضافة؟
 
- نعم يمكنك استخدام`setRotate` طريقة تدوير الصورة حسب الحاجة.
+نعم يمكنك استخدام `setRotate` طريقة لتدوير الصورة حسب الحاجة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

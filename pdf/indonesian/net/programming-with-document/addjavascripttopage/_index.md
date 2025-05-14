@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Java Script ke File PDF
-linktitle: Tambahkan File PDF Java Script
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan JavaScript ke berkas PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah dengan tutorial kode untuk penulisan skrip pada tingkat dokumen dan halaman.
-weight: 10
-url: /id/net/programming-with-document/addjavascripttopage/
+"description": "Pelajari cara menambahkan JavaScript ke file PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah dengan tutorial kode untuk penulisan skrip pada tingkat dokumen dan halaman."
+"linktitle": "Tambahkan File PDF Java Script"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Java Script ke File PDF"
+"url": "/id/net/programming-with-document/addjavascripttopage/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Java Script ke File PDF
@@ -21,10 +23,10 @@ Pernahkah Anda bertanya-tanya bagaimana cara menyempurnakan PDF Anda dengan elem
 
 Sebelum kita masuk ke bagian pengkodean, ada beberapa hal yang perlu Anda siapkan:
 
--  Aspose.PDF untuk .NET: Unduh pustaka dari[Rilis Aspose](https://releases.aspose.com/pdf/net/) atau dapatkan[uji coba gratis](https://releases.aspose.com/).
+- Aspose.PDF untuk .NET: Unduh pustaka dari [Rilis Aspose](https://releases.aspose.com/pdf/net/) atau dapatkan [uji coba gratis](https://releases.aspose.com/).
 - Lingkungan Pengembangan: Setiap IDE yang kompatibel dengan .NET seperti Visual Studio.
 - Pengetahuan Dasar C#: Panduan ini mengasumsikan Anda familier dengan sintaksis dasar C#.
--  Lisensi Sementara (Opsional): Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda ingin menghindari keterbatasan selama pengembangan Anda.
+- Lisensi Sementara (Opsional): Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda ingin menghindari keterbatasan selama pengembangan Anda.
 
 ## Paket Impor
 
@@ -42,7 +44,7 @@ Sekarang, setelah Anda mengimpor namespace yang tepat, Anda siap untuk memulai p
 
 ## Langkah 1: Muat PDF yang Ada
 
-Hal pertama yang harus dilakukan adalah memuat dokumen PDF yang ingin Anda tambahkan JavaScript. Langkah ini menjadi dasar untuk semua modifikasi selanjutnya. Bayangkan Anda memiliki PDF yang ingin Anda tingkatkan dengan fungsionalitas dinamis, seperti mencetak dokumen secara otomatis saat dibuka.
+Hal pertama yang harus dilakukan adalah memuat dokumen PDF yang ingin Anda tambahkan JavaScript. Langkah ini menyiapkan tahap untuk semua modifikasi selanjutnya. Bayangkan Anda memiliki PDF yang ingin Anda tingkatkan dengan fungsionalitas dinamis, seperti mencetak dokumen secara otomatis saat dibuka.
 
 Berikut cara Anda dapat memuat berkas PDF tersebut:
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Dalam potongan kode ini, kami menggunakan`Document` kelas untuk memuat file PDF yang ada dari direktori yang ditentukan. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda.
+Dalam potongan kode ini, kami menggunakan `Document` kelas untuk memuat file PDF yang ada dari direktori yang ditentukan. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda.
 
 ## Langkah 2: Tambahkan JavaScript di Tingkat Dokumen
 
@@ -73,7 +75,7 @@ JavascriptAction javaScript = new JavascriptAction("this.print({bUI:true,bSilent
 doc.OpenAction = javaScript;
 ```
 
- Pada langkah ini, kita membuat`JavascriptAction` objek yang mendefinisikan fungsi JavaScript untuk membuka dialog cetak saat dokumen dibuka.`doc.OpenAction` properti kemudian diberi tindakan JavaScript ini.
+Pada langkah ini, kita membuat `JavascriptAction` objek yang mendefinisikan fungsi JavaScript untuk membuka dialog cetak saat dokumen dibuka. `doc.OpenAction` properti kemudian diberi tindakan JavaScript ini.
 
 ## Langkah 3: Tambahkan JavaScript di Tingkat Halaman
 
@@ -111,7 +113,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nJavaScript added successfully to the PDF.\nFile saved at " + dataDir);
 ```
 
- Dalam potongan kode ini, kami menyimpan dokumen yang diperbarui dengan JavaScript yang ditambahkan ke file baru bernama`"JavaScript-Added_out.pdf"`Ini memastikan Anda tidak menimpa berkas asli, dan memberi Anda cadangan untuk digunakan.
+Dalam potongan kode ini, kami menyimpan dokumen yang diperbarui dengan JavaScript yang ditambahkan ke file baru bernama `"JavaScript-Added_out.pdf"`Ini memastikan Anda tidak menimpa berkas asli, dan memberi Anda cadangan untuk digunakan.
 
 ## Kesimpulan
 
@@ -123,7 +125,7 @@ Menambahkan JavaScript ke file PDF menggunakan Aspose.PDF untuk .NET merupakan c
 Ya, Anda dapat menetapkan tindakan JavaScript yang berbeda untuk halaman individual atau keseluruhan dokumen.
 
 ### Apakah mungkin untuk menghapus JavaScript dari PDF setelah menambahkannya?
-Ya, Anda dapat menghapus atau mengubah tindakan JavaScript yang ada dengan menghapus`Actions` properti dokumen atau halaman.
+Ya, Anda dapat menghapus atau mengubah tindakan JavaScript yang ada dengan menghapus `Actions` properti dokumen atau halaman.
 
 ### Fungsi JavaScript apa saja yang dapat saya gunakan dalam PDF?
 Anda dapat menggunakan JavaScript apa pun yang didukung oleh mesin JavaScript Adobe Acrobat, seperti pencetakan, peringatan, dan manipulasi formulir.
@@ -133,9 +135,11 @@ Sebagian besar tindakan JavaScript akan berfungsi di penampil PDF yang mendukung
 
 ### Bisakah saya memicu tindakan JavaScript berdasarkan masukan pengguna dalam PDF?
 Ya, Anda dapat mengikat JavaScript ke kolom formulir untuk memicu tindakan berdasarkan masukan pengguna.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

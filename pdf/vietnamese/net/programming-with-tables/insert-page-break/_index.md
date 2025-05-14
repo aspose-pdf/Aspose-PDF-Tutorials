@@ -1,14 +1,16 @@
 ---
-title: Chèn ngắt trang vào tệp PDF
-linktitle: Chèn ngắt trang vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chèn ngắt trang trong tài liệu PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước này để quản lý PDF liền mạch.
-weight: 110
-url: /vi/net/programming-with-tables/insert-page-break/
+"description": "Tìm hiểu cách chèn ngắt trang trong tài liệu PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước này để quản lý PDF liền mạch."
+"linktitle": "Chèn ngắt trang vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Chèn ngắt trang vào tệp PDF"
+"url": "/vi/net/programming-with-tables/insert-page-break/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn ngắt trang vào tệp PDF
@@ -21,10 +23,10 @@ Bạn đã bao giờ tự hỏi làm thế nào để thêm ngắt trang trong t
 
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-1.  Aspose.PDF cho .NET: Tải xuống thư viện từ[Tải xuống Aspose.PDF](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Tải xuống thư viện từ [Tải xuống Aspose.PDF](https://releases.aspose.com/pdf/net/).
 2. IDE: Bạn cần một IDE tương thích với .NET như Visual Studio.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework.
-4.  Giấy phép: Bạn có thể mua giấy phép từ[Đặt ra](https://purchase.aspose.com/buy) hoặc sử dụng giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+4. Giấy phép: Bạn có thể mua giấy phép từ [Đặt ra](https://purchase.aspose.com/buy) hoặc sử dụng giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 5. Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn dễ dàng theo dõi.
 
 ## Nhập không gian tên
@@ -44,7 +46,7 @@ Bây giờ mọi thứ đã được thiết lập, chúng ta hãy cùng thực 
 
 ## Bước 1: Khởi tạo Tài liệu
 
- Bước đầu tiên trong việc làm việc với bất kỳ tệp PDF nào bằng Aspose.PDF là tạo một`Document` đối tượng. Đây đóng vai trò là nền tảng cho tệp PDF của chúng ta.
+Bước đầu tiên trong việc làm việc với bất kỳ tệp PDF nào bằng Aspose.PDF là tạo một `Document` đối tượng. Đây đóng vai trò là nền tảng cho tệp PDF của chúng ta.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -54,18 +56,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Ở đây, chúng tôi xác định thư mục nơi tệp PDF của chúng tôi sẽ được lưu và sau đó tạo một tệp mới`Document` đối tượng. Đối tượng này sẽ biểu thị tệp PDF mà chúng ta sẽ thêm nội dung vào.
+Ở đây, chúng tôi xác định thư mục nơi tệp PDF của chúng tôi sẽ được lưu và sau đó tạo một tệp mới `Document` đối tượng. Đối tượng này sẽ biểu thị tệp PDF mà chúng ta sẽ thêm nội dung vào.
 
 ## Bước 2: Thêm trang mới vào tài liệu
 
- Một khi chúng ta có một`Document` đối tượng, chúng ta cần thêm một trang vào PDF để đặt bảng và nội dung.
+Một khi chúng ta có một `Document` đối tượng, chúng ta cần thêm một trang vào PDF để đặt bảng và nội dung.
 
 ```csharp
 // Thêm trang vào bộ sưu tập trang của tệp PDF
 doc.Pages.Add();
 ```
 
- Các`Pages.Add()` phương pháp này được sử dụng để chèn một trang trống mới vào tài liệu PDF. Đây là nơi chúng ta sẽ đặt bảng của mình.
+Các `Pages.Add()` phương pháp này được sử dụng để chèn một trang trống mới vào tài liệu PDF. Đây là nơi chúng ta sẽ đặt bảng của mình.
 
 ## Bước 3: Tạo và cấu hình bảng
 
@@ -85,9 +87,9 @@ tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Asp
 tab.ColumnWidths = "100 100";
 ```
 
- Ở đây, chúng tôi tạo ra một`Table` đối tượng và áp dụng đường viền màu đỏ cho bảng cũng như các ô của nó. Chiều rộng cột được đặt thành`100` mỗi đơn vị, xác định hai cột có kích thước bằng nhau.
+Ở đây, chúng tôi tạo ra một `Table` đối tượng và áp dụng đường viền màu đỏ cho bảng cũng như các ô của nó. Chiều rộng cột được đặt thành `100` mỗi đơn vị, xác định hai cột có kích thước bằng nhau.
 
-## Bước 4: Điền các hàng và ô vào bảng
+## Bước 4: Điền hàng và ô vào bảng
 
 Bây giờ, hãy thêm một số dữ liệu vào bảng. Trong trường hợp này, chúng ta sẽ tạo 200 hàng, mỗi hàng có hai ô. Văn bản trong các ô sẽ thay đổi động dựa trên số hàng.
 
@@ -122,7 +124,7 @@ Bây giờ bảng đã sẵn sàng, chúng ta cần thêm nó vào trang đã t�
 doc.Pages[1].Paragraphs.Add(tab);
 ```
 
- Bảng được thêm vào trang đầu tiên của tài liệu PDF bằng cách sử dụng`Paragraphs.Add()` phương pháp.
+Bảng được thêm vào trang đầu tiên của tài liệu PDF bằng cách sử dụng `Paragraphs.Add()` phương pháp.
 
 ## Bước 6: Lưu tài liệu
 
@@ -136,11 +138,11 @@ doc.Save(dataDir);
 Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir);
 ```
 
- Các`Save()` phương pháp lưu tài liệu vào thư mục đã chỉ định. Sau khi PDF được lưu, bảng điều khiển sẽ in thông báo xác nhận hiển thị đường dẫn tệp.
+Các `Save()` phương pháp lưu tài liệu vào thư mục đã chỉ định. Sau khi PDF được lưu, bảng điều khiển sẽ in thông báo xác nhận hiển thị đường dẫn tệp.
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bạn đã chèn ngắt trang thành công vào tài liệu PDF bằng Aspose.PDF cho .NET. Bằng cách tận dụng sức mạnh của các vòng lặp, quản lý bảng và các tính năng kết xuất trang, bạn có thể tạo các tệp PDF tự động điều chỉnh bố cục khi nội dung tăng lên. Cho dù bạn đang làm việc để tạo báo cáo, tạo các bảng phức tạp hay đảm bảo định dạng dễ đọc, Aspose.PDF cho .NET đều có thể đáp ứng nhu cầu của bạn.
+Và thế là xong! Bạn đã chèn ngắt trang thành công vào tài liệu PDF bằng Aspose.PDF cho .NET. Bằng cách tận dụng sức mạnh của các vòng lặp, quản lý bảng và các tính năng kết xuất trang, bạn có thể tạo các tệp PDF tự động điều chỉnh bố cục khi nội dung tăng lên. Cho dù bạn đang làm việc để tạo báo cáo, tạo bảng phức tạp hay đảm bảo định dạng dễ đọc, Aspose.PDF cho .NET đều có thể đáp ứng nhu cầu của bạn.
 
 ## Câu hỏi thường gặp
 
@@ -148,19 +150,21 @@ Và bạn đã có nó! Bạn đã chèn ngắt trang thành công vào tài li�
 Ngắt trang trong PDF không tạo ra các dòng có thể nhìn thấy. Chúng chỉ đơn giản là di chuyển nội dung sang một trang mới.
 
 ### Làm thế nào để thêm đầu trang và chân trang vào tệp PDF của tôi?  
- Bạn có thể dễ dàng thêm tiêu đề và chân trang bằng cách sử dụng`HeaderFooter` lớp trong Aspose.PDF.
+Bạn có thể dễ dàng thêm tiêu đề và chân trang bằng cách sử dụng `HeaderFooter` lớp trong Aspose.PDF.
 
 ### Aspose.PDF cho .NET có hỗ trợ thêm hình mờ không?  
 Có, Aspose.PDF cho phép bạn thêm cả hình mờ văn bản và hình ảnh.
 
 ### Tôi có thể chèn ngắt trang mà không cần sử dụng bảng không?  
- Chắc chắn rồi! Bạn có thể chèn ngắt trang bằng cách thêm các trang mới trực tiếp hoặc sử dụng`IsInNewPage` tài sản trong các bối cảnh khác.
+Chắc chắn rồi! Bạn có thể chèn ngắt trang bằng cách thêm các trang mới trực tiếp hoặc sử dụng `IsInNewPage` tài sản trong các bối cảnh khác.
 
 ### Có thể quản lý bố cục PDF một cách linh hoạt không?  
 Có, Aspose.PDF cung cấp nhiều công cụ khác nhau để quản lý bố cục một cách linh hoạt, bao gồm xử lý ngắt trang, lề và nhiều chức năng khác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

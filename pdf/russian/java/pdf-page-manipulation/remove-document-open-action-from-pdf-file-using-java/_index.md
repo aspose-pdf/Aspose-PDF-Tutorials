@@ -1,14 +1,16 @@
 ---
-title: Удалить действие открытия документа из файла PDF с помощью Java
-linktitle: Удалить действие открытия документа из файла PDF с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как удалить действие «Открыть документ» из файлов PDF с помощью Java и Aspose.PDF для Java. Повысьте безопасность и настраиваемость.
-weight: 11
-url: /ru/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/
+"description": "Узнайте, как удалить действие «Открыть документ» из файлов PDF с помощью Java и Aspose.PDF для Java. Повысьте безопасность и настраиваемость."
+"linktitle": "Удалить действие открытия документа из файла PDF с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Удалить действие открытия документа из файла PDF с помощью Java"
+"url": "/ru/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить действие открытия документа из файла PDF с помощью Java
@@ -22,7 +24,7 @@ url: /ru/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-us
 
 Прежде чем углубляться в код, убедитесь, что выполнены следующие предварительные условия:
 
--  Библиотека Aspose.PDF для Java: Загрузите и установите библиотеку Aspose.PDF для Java с сайта[здесь](https://releases.aspose.com/pdf/java/).
+- Библиотека Aspose.PDF для Java: Загрузите и установите библиотеку Aspose.PDF для Java с сайта [здесь](https://releases.aspose.com/pdf/java/).
 
 - Среда разработки Java: убедитесь, что в вашей системе настроена среда разработки Java.
 
@@ -90,7 +92,7 @@ pdfDocument.save("output.pdf");
 
 ## Заключение
 
-В этом руководстве мы узнали, как удалить действие открытия документа из файла PDF с помощью Java и Aspose.PDF для Java. Этот процесс может повысить безопасность и настройку ваших документов PDF. Не забудьте изучить документацию Aspose.PDF для Java для получения дополнительных расширенных функций и опций.
+В этом руководстве мы узнали, как удалить действие «Открыть документ» из файла PDF с помощью Java и Aspose.PDF для Java. Этот процесс может повысить безопасность и настраиваемость ваших документов PDF. Не забудьте изучить документацию Aspose.PDF для Java для получения дополнительных расширенных функций и опций.
 
 ## Часто задаваемые вопросы
 
@@ -98,7 +100,7 @@ pdfDocument.save("output.pdf");
 
 Действие открытия документа в файлах PDF — это функция, которая позволяет вам указать действия, которые будут выполняться при открытии документа PDF. Эти действия могут включать переход на определенную страницу, запуск кода JavaScript или открытие веб-ссылки.
 
-### Зачем мне удалять действие «Открыть документ»?
+### Зачем мне удалять действие «Открытие документа»?
 
 Вы можете захотеть удалить Document Open Action по соображениям безопасности, особенно если вы получаете PDF с потенциально опасными действиями. Это также может быть полезно при настройке поведения документа PDF.
 
@@ -108,14 +110,16 @@ pdfDocument.save("output.pdf");
 
 ### Является ли Aspose.PDF для Java единственной библиотекой, удаляющей действие открытия документа?
 
-Нет, есть и другие библиотеки и инструменты для работы с PDF в Java. Однако Aspose.PDF для Java — популярный выбор из-за его надежных функций и простоты использования.
+Нет, есть и другие библиотеки и инструменты для работы с PDF в Java. Однако Aspose.PDF для Java является популярным выбором из-за его надежных функций и простоты использования.
 
 ### Где я могу найти более подробную информацию об Aspose.PDF для Java?
 
- Подробную документацию и примеры для Aspose.PDF для Java можно найти по адресу[здесь](https://reference.aspose.com/pdf/java/).
+Подробную документацию и примеры для Aspose.PDF для Java можно найти по адресу [здесь](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

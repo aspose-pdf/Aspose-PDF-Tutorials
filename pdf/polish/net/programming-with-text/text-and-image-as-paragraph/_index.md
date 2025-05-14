@@ -1,32 +1,34 @@
 ---
-title: Tekst i obraz jako akapit w pliku PDF
-linktitle: Tekst i obraz jako akapit w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Twórz pliki PDF z tekstem i obrazami za pomocą Aspose.PDF dla .NET. Dowiedz się, jak krok po kroku dodawać tekst i obrazy w tekście.
-weight: 530
-url: /pl/net/programming-with-text/text-and-image-as-paragraph/
+"description": "Twórz pliki PDF z tekstem i obrazami za pomocą Aspose.PDF dla .NET. Dowiedz się, jak krok po kroku dodawać tekst i obrazy w tekście."
+"linktitle": "Tekst i obraz jako akapit w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Tekst i obraz jako akapit w pliku PDF"
+"url": "/pl/net/programming-with-text/text-and-image-as-paragraph/"
+"weight": 530
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tekst i obraz jako akapit w pliku PDF
 
 ## Wstęp
 
-W dzisiejszym cyfrowym świecie pliki PDF są uniwersalnym formatem dokumentów, z którym większość z nas spotyka się codziennie. Niezależnie od tego, czy jest to raport, e-book czy faktura biznesowa, pliki PDF ułatwiają udostępnianie informacji na różnych platformach. Ale co, jeśli chcesz dostosować plik PDF programowo? Tutaj wkracza Aspose.PDF dla .NET. W tym samouczku przeprowadzimy Cię przez proces wstawiania tekstu i obrazów jako akapitów w tekście do pliku PDF przy użyciu Aspose.PDF dla .NET.
+dzisiejszym cyfrowym świecie pliki PDF są uniwersalnym formatem dokumentów, z którym większość z nas spotyka się codziennie. Niezależnie od tego, czy jest to raport, e-book czy faktura biznesowa, pliki PDF ułatwiają udostępnianie informacji na różnych platformach. Ale co, jeśli chcesz dostosować plik PDF programowo? Tutaj wkracza Aspose.PDF dla .NET. W tym samouczku przeprowadzimy Cię przez proces wstawiania tekstu i obrazów jako akapitów w tekście do pliku PDF przy użyciu Aspose.PDF dla .NET.
 
 ## Wymagania wstępne
 
 Zanim zagłębisz się w kod, upewnij się, że masz wszystko, czego potrzebujesz, aby płynnie kontynuować pracę:
 
--  Aspose.PDF dla biblioteki .NET: Musisz zainstalować Aspose.PDF dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla biblioteki .NET: Musisz zainstalować Aspose.PDF dla .NET. Możesz go pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Każda wersja obsługująca platformę .NET będzie działać dobrze.
 - Podstawowa znajomość języka C#: Pewna znajomość języka C# będzie pomocna, ale nie martw się – przeprowadzę Cię przez każdy krok!
 - Gotowy dokument PDF: Jeśli chcesz dodać niestandardowy obraz, przygotuj go.
 
- Możesz również otrzymać bezpłatną wersję próbną biblioteki[Tutaj](https://releases.aspose.com/) lub jeśli pracujesz nad projektem na dużą skalę, rozważ jego zakup[Tutaj](https://purchase.aspose.com/buy) . Potrzebujesz więcej szczegółów? Sprawdź dokumentację[Tutaj](https://reference.aspose.com/pdf/net/).
+Możesz również otrzymać bezpłatną wersję próbną biblioteki [Tutaj](https://releases.aspose.com/)lub jeśli pracujesz nad projektem na dużą skalę, rozważ jego zakup [Tutaj](https://purchase.aspose.com/buy). Potrzebujesz więcej szczegółów? Sprawdź dokumentację [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ## Importuj pakiety
 
@@ -57,7 +59,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Co się tu dzieje? Po prostu tworzymy nowy dokument za pomocą`Document`class i zdefiniowanie katalogu, w którym chcesz zapisać plik PDF. To jak otwarcie nowego płótna dla swojego arcydzieła!
+Co się tu dzieje? Po prostu tworzymy nowy dokument za pomocą `Document` class i zdefiniowanie katalogu, w którym chcesz zapisać plik PDF. To jak otwarcie nowego płótna dla swojego arcydzieła!
 
 ## Krok 2: Dodaj stronę do pliku PDF
 
@@ -81,7 +83,7 @@ TextFragment text = new TextFragment("Hello World.. ");
 page.Paragraphs.Add(text);
 ```
 
- Tutaj tworzymy`TextFragment` obiekt do przechowywania tekstu „Hello World..”, który jest następnie dodawany do strony jako akapit. To tak, jakby napisać pierwsze zdanie w dokumencie PDF.
+Tutaj tworzymy `TextFragment` obiekt do przechowywania tekstu „Hello World..”, który jest następnie dodawany do strony jako akapit. To tak, jakby napisać pierwsze zdanie w dokumencie PDF.
 
 ## Krok 4: Dodaj obraz jako akapit w tekście
 
@@ -90,14 +92,14 @@ Teraz, gdy mamy już tekst, urozmaicimy to, dodając obraz jako akapit w tekści
 ```csharp
 // Utwórz instancję obrazu
 Aspose.Pdf.Image image = new Aspose.Pdf.Image();
-// Ustaw obraz jako akapit w tekście, aby pojawiał się zaraz po nim
+// Ustaw obraz jako akapit w tekście, aby pojawiał się zaraz po nim 
 // Poprzedni obiekt akapitu (TextFragment)
 image.IsInLineParagraph = true;
-// Określ ścieżkę do pliku obrazu
+// Określ ścieżkę do pliku obrazu 
 image.File = dataDir + "aspose-logo.jpg";
 ```
 
- W tym fragmencie kodu tworzymy`Image` obiekt, powiedz mu, aby wyrównał się z tekstem i określ ścieżkę do pliku obrazu. Jest to odpowiednik wklejenia obrazu zaraz po zdaniu w dokumencie. Możesz zamienić „aspose-logo.jpg” na żądany obraz.
+W tym fragmencie kodu tworzymy `Image` obiekt, powiedz mu, aby wyrównał się z tekstem i określ ścieżkę do pliku obrazu. Jest to odpowiednik wklejenia obrazu zaraz po zdaniu w dokumencie. Możesz zamienić "aspose-logo.jpg" na żądany obraz.
 
 ## Krok 5: Ustaw rozmiar obrazu (opcjonalnie)
 
@@ -136,7 +138,7 @@ text.IsInLineParagraph = true;
 page.Paragraphs.Add(text);
 ```
 
- Ponownie wykorzystujemy`TextFragment`obiekt tutaj z nowym tekstem ("Hello Again..") i wstawienie go w linii, zaraz po obrazku. To nada Twojemu PDF-owi płynny, spójny wygląd.
+Ponownie wykorzystujemy `TextFragment` obiekt tutaj z nowym tekstem ("Hello Again..") i wstawienie go w linii, zaraz po obrazku. To nada Twojemu PDF-owi płynny, spójny wygląd.
 
 ## Krok 8: Zapisz dokument PDF
 
@@ -157,22 +159,24 @@ I oto masz — tworzenie pliku PDF z tekstem i obrazami jako akapitami w tekści
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dodać wiele obrazów jako akapity w tekście?  
- Tak, możesz dodać wiele obrazów, tworząc oddzielne`Image` obiektów i dodawanie ich do zbioru akapitów.
+Tak, możesz dodać wiele obrazów, tworząc oddzielne `Image` obiektów i dodawanie ich do zbioru akapitów.
 
 ### Czy mogę kontrolować położenie tekstu i obrazu w pliku PDF?  
 Tak, korzystając z właściwości, takich jak marginesy, możesz kontrolować dokładne rozmieszczenie tekstu i obrazów.
 
 ### Czy Aspose.PDF dla .NET jest darmowy?  
- Nie, to produkt licencjonowany, ale możesz go uzyskać[bezpłatny okres próbny](https://releases.aspose.com/) lub kup licencję[Tutaj](https://purchase.aspose.com/buy).
+Nie, to produkt licencjonowany, ale możesz go uzyskać [bezpłatny okres próbny](https://releases.aspose.com/) lub kup licencję [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę dodać hiperłącza do tekstu?  
- Tak, Aspose.PDF pozwala na dodawanie hiperłączy w obrębie fragmentów tekstu. Sprawdź[dokumentacja](https://reference.aspose.com/pdf/net/) po więcej szczegółów.
+Tak, Aspose.PDF pozwala na dodawanie hiperłączy w obrębie fragmentów tekstu. Sprawdź [dokumentacja](https://reference.aspose.com/pdf/net/) po więcej szczegółów.
 
 ### Czy mogę dostosować czcionkę i styl tekstu?  
 Oczywiście! Możesz łatwo dostosować czcionki, kolory i inne właściwości stylistyczne fragmentów tekstu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

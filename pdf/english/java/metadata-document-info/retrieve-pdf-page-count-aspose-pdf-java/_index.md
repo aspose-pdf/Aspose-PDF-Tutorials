@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve PDF Page Count Using Aspose.PDF Java: A Comprehensive Step-by-Step Guide
 
@@ -160,7 +162,11 @@ In this guide, you've learned how to retrieve page counts from PDF documents usi
 - **Support:** [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
 Dive into the world of PDF processing with Aspose.PDF for Java and transform how you handle document-related tasks in your projects!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

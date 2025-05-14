@@ -1,14 +1,16 @@
 ---
-title: PDF Yer İşaretleri
-linktitle: PDF Yer İşaretleri
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF ile etkileşimli PDF yer imleri oluşturmayı öğrenin. Belge gezinmesini ve kullanıcı deneyimini geliştirin.
-weight: 12
-url: /tr/java/pdf-bookmarks/
+"description": "Java için Aspose.PDF ile etkileşimli PDF yer imleri oluşturmayı öğrenin. Belge gezinmesini ve kullanıcı deneyimini geliştirin."
+"linktitle": "PDF Yer İşaretleri"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF Yer İşaretleri"
+"url": "/tr/java/pdf-bookmarks/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Yer İşaretleri
@@ -38,9 +40,11 @@ Java için Aspose.PDF'yi kullanarak PDF'lerde genişletilmiş yer imlerini nası
 Bu kapsamlı kılavuzda Aspose.PDF for Java'yı kullanarak PDF yer imlerini etkili bir şekilde nasıl alacağınızı öğrenin.
 ### [PDF'lerdeki Yer İşaretlerini Güncelle](./update-bookmarks-pdfs/)
 Java için Aspose.PDF'yi kullanarak PDF yer imlerini nasıl etkili bir şekilde güncelleyeceğinizi öğrenin. Adım adım kılavuzumuz süreci basitleştirir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

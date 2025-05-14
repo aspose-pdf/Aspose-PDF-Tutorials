@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Style PDF Tables Using Aspose.PDF for Java
 
@@ -191,7 +193,11 @@ Next steps could include experimenting with additional document elements or inte
    - Consider optimizing your data structures and minimizing operations within loops.
 3. **Is there support for multi-language PDFs?**
    - Yes, Aspose.PDF supports multiple languages; ensure the text encoding is correctly set.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

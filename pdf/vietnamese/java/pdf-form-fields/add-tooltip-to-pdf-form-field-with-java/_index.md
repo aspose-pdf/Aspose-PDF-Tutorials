@@ -1,14 +1,16 @@
 ---
-title: Thêm Tooltip vào Trường biểu mẫu PDF bằng Java
-linktitle: Thêm Tooltip vào Trường biểu mẫu PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm chú giải công cụ vào trường biểu mẫu PDF bằng Java. Hướng dẫn từng bước sử dụng Aspose.PDF cho Java API.
-weight: 11
-url: /vi/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
+"description": "Tìm hiểu cách thêm chú giải công cụ vào trường biểu mẫu PDF bằng Java. Hướng dẫn từng bước sử dụng Aspose.PDF cho Java API."
+"linktitle": "Thêm Tooltip vào Trường biểu mẫu PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm Tooltip vào Trường biểu mẫu PDF bằng Java"
+"url": "/vi/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Tooltip vào Trường biểu mẫu PDF bằng Java
@@ -28,7 +30,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng đủ các điề
 
 - Đã cài đặt Java Development Kit (JDK)
 - Môi trường phát triển tích hợp (IDE) như Eclipse hoặc IntelliJ IDEA
--  Thư viện Aspose.PDF cho Java (Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/)
+- Thư viện Aspose.PDF cho Java (Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/)
 
 ## Thêm phụ thuộc
 
@@ -48,13 +50,13 @@ Document pdfDocument = new Document();
 Tiếp theo, hãy thêm trường biểu mẫu vào tài liệu PDF của chúng ta. Bạn có thể thêm nhiều loại trường biểu mẫu khác nhau, chẳng hạn như trường văn bản, hộp kiểm, nút radio, v.v. Đối với ví dụ này, chúng ta sẽ thêm trường văn bản.
 
 ```java
-//Mã Java để thêm trường văn bản
+// Mã Java để thêm trường văn bản
 TextField textField = new TextField(pdfDocument.getPages().get_Item(1), new Rectangle(100, 100, 200, 30));
 ```
 
 ## Thêm chú giải công cụ vào trường biểu mẫu
 
- Bây giờ đến phần quan trọng—thêm chú giải công cụ vào các trường biểu mẫu của chúng ta. Chúng ta có thể thiết lập văn bản chú giải công cụ cho một trường bằng cách sử dụng`setTooltip` phương pháp.
+Bây giờ đến phần quan trọng—thêm chú giải công cụ vào các trường biểu mẫu của chúng ta. Chúng ta có thể thiết lập văn bản chú giải công cụ cho một trường bằng cách sử dụng `setTooltip` phương pháp.
 
 ```java
 // Mã Java để thêm chú giải công cụ vào trường văn bản
@@ -82,7 +84,7 @@ Thêm chú giải công cụ vào các trường biểu mẫu PDF bằng Java v�
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
-Bạn có thể tải xuống Aspose.PDF cho Java từ trang web Aspose. Làm theo hướng dẫn cài đặt được cung cấp trên trang web của họ để thiết lập trong dự án Java của bạn.
+Bạn có thể tải xuống Aspose.PDF cho Java từ trang web Aspose. Làm theo hướng dẫn cài đặt được cung cấp trên trang web của họ để thiết lập nó trong dự án Java của bạn.
 
 ### Tôi có thể tùy chỉnh giao diện của chú giải công cụ không?
 
@@ -99,9 +101,11 @@ Chú giải công cụ là tính năng PDF tiêu chuẩn và được hỗ trợ
 ### Tôi có thể thêm chú giải công cụ vào các thành phần không phải biểu mẫu trong PDF không?
 
 Không, chú giải công cụ thường được liên kết với các trường biểu mẫu trong tài liệu PDF. Nếu bạn cần thêm chú giải công cụ vào các thành phần không phải biểu mẫu, bạn có thể cần khám phá các kỹ thuật chỉnh sửa PDF khác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,41 +1,46 @@
 ---
-title: Tworzenie i dostosowanie plików PDF z prostokąty w .NET 
-weight: 7700
-limit: 
-description: Dowiedz się, jak tworzyć dokument PDF w .NET, dodać kolorowe prostokąty z różnymi indeksami Z i zapisać końcowy dokument za pomocą Aspose.PDF.  
-keywords: [Aspose.PDF, .NET PDF example, create PDF, add rectangles, Z-index, PDF manipulation]
-url: /pl/net/graphs/control-rectangle-z-order/
+"description": "Dowiedz się, jak utworzyć dokument PDF w środowisku .NET, dodać kolorowe prostokąty o różnych indeksach Z i zapisać ostateczny dokument za pomocą programu Aspose.PDF."
+"title": "Tworzenie i dostosowywanie plików PDF z prostokątami w środowisku .NET"
+"url": "/pl/net/graphs/control-rectangle-z-order/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie i dostosowanie plików PDF z użyciem prostokątów
+# Tworzenie i dostosowywanie plików PDF za pomocą prostokątów
 
-Ten poradnik pokazuje, jak tworzyć dokument PDF przy użyciu Aspose.PDF dla .NET, włączając kolorowe prostokąty z różnymi indeksami Z do kontrolowania ich warstwy.
+Ten przewodnik pokazuje, jak utworzyć dokument PDF przy użyciu Aspose.PDF dla .NET, włączając kolorowe prostokąty z różnymi indeksami Z, aby kontrolować ich warstwowanie. Postępuj zgodnie z instrukcjami krok po kroku, aby dodać kształty do pliku PDF i zapisać dokument, zwiększając możliwości generowania plików PDF w swojej aplikacji.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/control-rectangle-z-order" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Instrukcje montażu
-1. Upewnij się, że masz ustawione środowisko do tworzenia .NET (np. Visual Studio).
-2. Pobierz bibliotekę Aspose.PDF z [Strona internetowa Aspose](https://www.aspose.com/purchase)\- Nie .
-3. Zainstaluj pakiet NuGet Aspose.PDF wykonując `Instaluj pakiet Aspose.PDF`w konsoli menedżera pakietów.
-4. Włączyć niezbędne przestrzenie nazw w projekcie:
+## Instrukcje instalacji
+1. Upewnij się, że masz skonfigurowane środowisko programistyczne .NET (np. Visual Studio).
+2. Pobierz bibliotekę Aspose.PDF z [Strona internetowa Aspose](https://www.aspose.com/purchase).
+3. Zainstaluj pakiet NuGet Aspose.PDF, wykonując polecenie `Install-Package Aspose.PDF` w konsoli Menedżera pakietów.
+4. Dodaj niezbędne przestrzenie nazw do swojego projektu:
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
    ```
 
-## Szczegółowa dokumentacja znajduje się na stronie:  
-* [Aspose.PDF dla dokumentacji .NET](https://docs.aspose.com/pdf/net/)  
-* [Odniesienie API do Aspose.PDF dla .NET](https://reference.aspose.com/pdf/net/)  
+## Aby zapoznać się ze szczegółową dokumentacją, odwiedź stronę:  
+- [Aspose.PDF dla dokumentacji .NET](https://docs.aspose.com/pdf/net/)  
+- [Dokumentacja API dla Aspose.PDF dla .NET](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

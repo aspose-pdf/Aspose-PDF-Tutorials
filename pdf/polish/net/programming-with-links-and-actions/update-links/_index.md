@@ -1,14 +1,16 @@
 ---
-title: Aktualizuj łącza w pliku PDF
-linktitle: Aktualizuj łącza w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Bez wysiłku aktualizuj linki w swoich plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Uprość edycję PDF.
-weight: 120
-url: /pl/net/programming-with-links-and-actions/update-links/
+"description": "Bez wysiłku aktualizuj linki w swoich plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Uprość edycję PDF."
+"linktitle": "Aktualizuj łącza w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Aktualizuj łącza w pliku PDF"
+"url": "/pl/net/programming-with-links-and-actions/update-links/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktualizuj łącza w pliku PDF
@@ -22,8 +24,8 @@ Czy kiedykolwiek znalazłeś się w sytuacji, w której musisz zaktualizować li
 Zanim przejdziemy do konkretów, jest kilka niezbędnych rzeczy, które musisz mieć na miejscu:
 
 1. .NET Framework: Upewnij się, że masz działającą instalację .NET Framework. Ta biblioteka obsługuje różne wersje, więc upewnij się, że sprawdziłeś zgodność.
-2.  Biblioteka Aspose.PDF dla platformy .NET: Możesz pobrać najnowszą wersję biblioteki Aspose.PDF dla platformy .NET[Tutaj](https://releases.aspose.com/pdf/net/). Ta biblioteka zawiera wszystkie funkcjonalności, których będziemy potrzebować do aktualizacji linków PDF.
-3.  Visual Studio: preferowane IDE do rozwoju .NET. Możesz pobrać je z[Witryna internetowa firmy Microsoft](https://visualstudio.microsoft.com/).
+2. Biblioteka Aspose.PDF dla platformy .NET: Możesz pobrać najnowszą wersję biblioteki Aspose.PDF dla platformy .NET [Tutaj](https://releases.aspose.com/pdf/net/). Ta biblioteka zawiera wszystkie funkcjonalności, których będziemy potrzebować do aktualizacji linków PDF.
+3. Visual Studio: preferowane środowisko IDE do tworzenia oprogramowania .NET. Można je pobrać z [Witryna internetowa firmy Microsoft](https://visualstudio.microsoft.com/).
 4. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 5. Dokument PDF: Przygotuj przykładowy plik PDF zawierający linki do przetestowania. Możesz utworzyć prosty plik PDF z linkami lub pobrać go z Internetu.
 
@@ -73,7 +75,7 @@ Ten krok zapewnia możliwość wykorzystania wszystkich funkcji biblioteki Aspos
 Czas załadować plik PDF, który chcesz zmodyfikować. Oto jak możesz to zrobić:
 
 1. Zdefiniuj ścieżkę, w której będzie przechowywany Twój plik PDF.
-2.  Użyj`Document` klasa udostępniona przez Aspose.PDF umożliwiająca załadowanie pliku PDF.
+2. Użyj `Document` klasa udostępniona przez Aspose.PDF umożliwiająca załadowanie pliku PDF.
 
 Oto kod:
 
@@ -86,10 +88,10 @@ Ten fragment przygotuje dokument do edycji.
 
 ## Krok 4: Uzyskaj dostęp do adnotacji łącza
 
- Następnie musimy zidentyfikować konkretny link, który chcemy zaktualizować w naszym pliku PDF. W tym celu użyjemy`LinkAnnotation` klasa.
+Następnie musimy zidentyfikować konkretny link, który chcemy zaktualizować w naszym pliku PDF. W tym celu użyjemy `LinkAnnotation` klasa.
 
 1. Przejdź do adnotacji na pierwszej stronie.
-2.  Rzuć adnotację na`LinkAnnotation`.
+2. Rzuć adnotację na `LinkAnnotation`.
 
 Kod dla tego kroku wygląda następująco:
 
@@ -97,14 +99,14 @@ Kod dla tego kroku wygląda następująco:
 LinkAnnotation linkAnnot = (LinkAnnotation)doc.Pages[1].Annotations[1]; // W razie potrzeby dostosuj indeksy
 ```
 
-powyższym kodzie upewnij się, że wskazujesz na prawidłową adnotację linku. Indeksy są zerowe, więc dostosuj je, jeśli to konieczne.
+W powyższym kodzie upewnij się, że wskazujesz na prawidłową adnotację linku. Indeksy są zerowe, więc dostosuj je, jeśli to konieczne.
 
 ## Krok 5: Modyfikuj miejsce docelowe łącza
 
- Zmieńmy miejsce, do którego prowadzi ten link. Użyjemy`GoToAction` klasę w celu modyfikacji jej miejsca docelowego.
+Zmieńmy miejsce, do którego prowadzi ten link. Użyjemy `GoToAction` klasę w celu modyfikacji jej miejsca docelowego.
 
 1. Pobierz aktualną akcję linku.
-2.  Ustaw nowy cel za pomocą`XYZExplicitDestination`.
+2. Ustaw nowy cel za pomocą `XYZExplicitDestination`.
 
 Oto kod:
 
@@ -152,22 +154,24 @@ Aktualizowanie linków w pliku PDF za pomocą Aspose.PDF dla .NET jest proste i 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose.PDF oferuje bezpłatną wersję próbną, którą możesz znaleźć[Tutaj](https://releases.aspose.com/).
+Tak, Aspose.PDF oferuje bezpłatną wersję próbną, którą możesz znaleźć [Tutaj](https://releases.aspose.com/).
 
 ### Czy Aspose.PDF jest kompatybilny ze wszystkimi wersjami .NET?
 Aspose.PDF obsługuje różne wersje .NET Framework. Upewnij się, że sprawdziłeś listę zgodności na ich stronie internetowej.
 
 ### Gdzie mogę znaleźć dodatkową dokumentację?
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/pdf/net/).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Co zrobić, jeśli napotkam problemy podczas korzystania z Aspose.PDF?
- Możesz zwrócić się o pomoc do nich[forum](https://forum.aspose.com/c/pdf/10).
+Możesz zwrócić się o pomoc do nich [forum](https://forum.aspose.com/c/pdf/10).
 
 ### Jak mogę uzyskać tymczasową licencję na potrzeby testów?
- Możesz poprosić o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz poprosić o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

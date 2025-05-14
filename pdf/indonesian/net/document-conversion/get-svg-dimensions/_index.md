@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Dimensi SVG
-linktitle: Dapatkan Dimensi SVG
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menggunakan Aspose.PDF for .NET untuk mengonversi file SVG ke PDF dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin memanipulasi PDF.
-weight: 40
-url: /id/net/document-conversion/get-svg-dimensions/
+"description": "Pelajari cara menggunakan Aspose.PDF for .NET untuk mengonversi file SVG ke PDF dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin memanipulasi PDF."
+"linktitle": "Dapatkan Dimensi SVG"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Dimensi SVG"
+"url": "/id/net/document-conversion/get-svg-dimensions/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Dimensi SVG
@@ -22,8 +24,8 @@ Selamat datang di dunia Aspose.PDF untuk .NET! Jika Anda ingin memanipulasi file
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE yang akan kita gunakan untuk tutorial ini.
-2.  .NET Framework: Pastikan Anda telah menginstal .NET Framework. Aspose.PDF mendukung berbagai versi, jadi periksa[dokumentasi](https://reference.aspose.com/pdf/net/) untuk kompatibilitas.
-3.  Pustaka Aspose.PDF: Anda dapat mengunduh versi terbaru Aspose.PDF untuk .NET dari[tautan unduhan](https://releases.aspose.com/pdf/net/) Jika Anda ingin mencobanya terlebih dahulu, Anda juga bisa mendapatkan[uji coba gratis](https://releases.aspose.com/).
+2. .NET Framework: Pastikan Anda telah menginstal .NET Framework. Aspose.PDF mendukung berbagai versi, jadi periksa [dokumentasi](https://reference.aspose.com/pdf/net/) untuk kompatibilitas.
+3. Pustaka Aspose.PDF: Anda dapat mengunduh versi terbaru Aspose.PDF untuk .NET dari [tautan unduhan](https://releases.aspose.com/pdf/net/)Jika Anda ingin mencobanya terlebih dahulu, Anda juga bisa mendapatkan [uji coba gratis](https://releases.aspose.com/).
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contoh dengan lebih baik.
 
 ## Paket Impor
@@ -48,7 +50,7 @@ Hal pertama yang terpenting, mari buat proyek C# baru di Visual Studio.
 
 ### Tambahkan Menggunakan Arahan
 
- Sekarang setelah proyek Anda disiapkan, Anda perlu menambahkan arahan penggunaan yang diperlukan di bagian atas`Program.cs` mengajukan:
+Sekarang setelah proyek Anda disiapkan, Anda perlu menambahkan arahan penggunaan yang diperlukan di bagian atas `Program.cs` mengajukan:
 
 ```csharp
 using System.IO;
@@ -62,7 +64,7 @@ Ini akan memungkinkan Anda untuk mengakses kelas dan metode yang disediakan oleh
 
 ### Tentukan Direktori Dokumen
 
-Sebelum memuat dokumen SVG, Anda perlu menentukan jalur ke direktori dokumen Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas SVG Anda berada.
+Sebelum memuat dokumen SVG, Anda perlu menentukan jalur ke direktori dokumen Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas SVG Anda berada.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -70,7 +72,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ### Muat Dokumen SVG
 
- Sekarang, mari memuat dokumen SVG menggunakan`SvgLoadOptions` Kelas ini memungkinkan Anda untuk menyesuaikan ukuran halaman berdasarkan konten SVG.
+Sekarang, mari memuat dokumen SVG menggunakan `SvgLoadOptions` Kelas ini memungkinkan Anda untuk menyesuaikan ukuran halaman berdasarkan konten SVG.
 
 ```csharp
 var loadopt = new SvgLoadOptions();
@@ -80,7 +82,7 @@ var svgDoc = new Document(dataDir + "GetSVGDimensions.svg", loadopt);
 
 ## Langkah 3: Sesuaikan Margin Halaman
 
-Untuk memastikan konten SVG pas dengan sempurna di PDF, Anda perlu mengatur margin halaman ke nol. Langkah ini penting untuk menjaga integritas dimensi SVG.
+Untuk memastikan bahwa konten SVG pas dengan sempurna di PDF, Anda perlu mengatur margin halaman ke nol. Langkah ini penting untuk menjaga integritas dimensi SVG.
 
 ```csharp
 svgDoc.Pages[1].PageInfo.Margin.Top = 0;
@@ -101,7 +103,7 @@ Selesai! Anda telah berhasil mengonversi file SVG ke PDF menggunakan Aspose.PDF 
 
 ## Kesimpulan
 
-Selamat! Anda baru saja menyelesaikan tugas sederhana namun hebat menggunakan Aspose.PDF untuk .NET. Dengan mengikuti panduan ini, Anda telah mempelajari cara memuat dokumen SVG, menyesuaikan marginnya, dan menyimpannya sebagai PDF. Kemungkinan dengan Aspose.PDF tidak terbatas, dan ini hanyalah puncak gunung es. Apakah Anda ingin membuat PDF yang rumit, memanipulasi yang sudah ada, atau mengonversi antarformat, Aspose.PDF siap membantu Anda. Jadi, tunggu apa lagi? Pelajari lebih dalam[dokumentasi](https://reference.aspose.com/pdf/net/) dan jelajahi semua fitur yang ditawarkan perpustakaan ini!
+Selamat! Anda baru saja menyelesaikan tugas sederhana namun hebat menggunakan Aspose.PDF untuk .NET. Dengan mengikuti panduan ini, Anda telah mempelajari cara memuat dokumen SVG, menyesuaikan marginnya, dan menyimpannya sebagai PDF. Kemungkinan dengan Aspose.PDF tidak terbatas, dan ini hanyalah puncak gunung es. Apakah Anda ingin membuat PDF yang rumit, memanipulasi yang sudah ada, atau mengonversi antarformat, Aspose.PDF siap membantu Anda. Jadi, tunggu apa lagi? Pelajari lebih dalam [dokumentasi](https://reference.aspose.com/pdf/net/) dan jelajahi semua fitur yang ditawarkan perpustakaan ini!
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -109,19 +111,21 @@ Selamat! Anda baru saja menyelesaikan tugas sederhana namun hebat menggunakan As
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, mengedit, dan mengonversi dokumen PDF secara terprogram.
 
 ### Bagaimana cara menginstal Aspose.PDF?
- Anda dapat menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/).
+Anda dapat menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/).
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan[uji coba gratis](https://releases.aspose.com/) bagi Anda untuk menguji perpustakaan sebelum membeli.
+Ya, Aspose menawarkan [uji coba gratis](https://releases.aspose.com/) bagi Anda untuk menguji perpustakaan sebelum membeli.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dari[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dari [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PDF?
- Anda dapat meminta[lisensi sementara](https://purchase.aspose.com/temporary-license/) dari situs web Aspose.
+Anda dapat meminta [lisensi sementara](https://purchase.aspose.com/temporary-license/) dari situs web Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

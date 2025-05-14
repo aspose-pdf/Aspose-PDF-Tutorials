@@ -8,7 +8,9 @@ url: /net/programming-with-bookmarks/get-bookmarks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Bookmarks In PDF File
@@ -116,6 +118,7 @@ Yes, you can purchase Aspose.PDF from their website [here](https://purchase.aspo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

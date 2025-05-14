@@ -1,14 +1,16 @@
 ---
-title: Java Script'i Ayarla
-linktitle: Java Script'i Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF'nin gücünü açığa çıkarın. Adım adım kılavuzumuzla form alanlarında JavaScript'i nasıl kuracağınızı öğrenin.
-weight: 270
-url: /tr/net/programming-with-forms/set-java-script/
+"description": ".NET için Aspose.PDF'nin gücünü açığa çıkarın. Adım adım kılavuzumuzla form alanlarında JavaScript'i nasıl kuracağınızı öğrenin."
+"linktitle": "Java Script'i Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Java Script'i Ayarla"
+"url": "/tr/net/programming-with-forms/set-java-script/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Script'i Ayarla
@@ -23,11 +25,11 @@ Kodlamaya başlamadan önce, sorunsuz bir şekilde takip edebilmeniz için ihtiy
 
 - Visual Studio (veya herhangi bir .NET IDE): Yüklediğinizden ve doğru şekilde ayarladığınızdan emin olun.
   
--  Aspose.PDF Kütüphanesi: Bu kütüphanenin en son sürümünü isteyeceksiniz. İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF Kütüphanesi: Bu kütüphanenin en son sürümünü isteyeceksiniz. İndirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 
 - Temel C# Bilgisi: C# programlamaya aşinalık, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
--  PDF Dosyaları: Test için hazır bir PDF dosyanız olmalı. Örneğimizde, şu adlı bir dosya kullanacağız:`SetJavaScript.pdf`.
+- PDF Dosyaları: Test için hazır bir PDF dosyanız olmalı. Örneğimizde, şu adlı bir dosya kullanacağız: `SetJavaScript.pdf`.
 
 - Belge Dizininiz: Belge dosyalarınızın nerede saklandığını bilin. Bu yola kodumuzda referans vereceğiz.
 
@@ -57,7 +59,7 @@ PDF'nizi etkileşimli hale getirmeye hazır mısınız? Kodlama şapkanızı al�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bunu bir hazine haritası için koordinatları ayarlamak olarak düşünün—'X'in yeri işaretlediği yeri bilmeniz gerekir!
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bunu bir hazine haritası için koordinatları ayarlamak olarak düşünün—'X'in yeri işaretlediği yeri bilmeniz gerekir!
 
 ## Adım 2: PDF Belgesini Yükleyin
 
@@ -77,7 +79,7 @@ Daha sonra JavaScript'imizi uygulayacağımız form alanına erişmek istiyoruz.
 TextBoxField field = (TextBoxField)doc.Form["textbox1"];
 ```
 
- Burada, PDF'nizde adında bir metin kutusu olduğunu varsayıyoruz`textbox1`Eğer bu isimde bir alanınız yoksa, ya adını değiştirebilir ya da kodu buna göre ayarlayabilirsiniz. 
+Burada, PDF'nizde adında bir metin kutusu olduğunu varsayıyoruz `textbox1`Eğer bu isimde bir alanınız yoksa, ya adını değiştirebilir ya da kodu buna göre ayarlayabilirsiniz. 
 
 ## Adım 4: JavaScript Eylemlerini Ayarlayın
 
@@ -104,7 +106,7 @@ field.Value = "123";
 
 Bu satır, metin kutusunda önceden doldurulmuş değeri "123" olarak ayarlar. Bu, bir performans için sahneyi hazırlamak gibidir.
 
-## Adım 6: Değiştirilen PDF'yi Kaydedin
+## Adım 6: Değiştirilen PDF'yi kaydedin
 
 Son olarak tüm bu değişiklikleri yaptıktan sonra belgemizi kaydetmemiz gerekiyor.
 
@@ -113,9 +115,9 @@ dataDir = dataDir + "Restricted_out.pdf";
 doc.Save(dataDir);
 ```
 
- Bu, orijinal dosyayı değişikliklerinizle günceller ve kaydeder`Restricted_out.pdf`Bunu PDF'imizin kaderini mühürlemek olarak düşünün; bir kez kaydedildiğinde, dünyaya açılmaya hazırdır!
+Bu, orijinal dosyayı değişikliklerinizle günceller ve kaydeder `Restricted_out.pdf`Bunu PDF'imizin kaderini mühürlemek olarak düşünün; bir kez kaydedildiğinde, dünyaya açılmaya hazırdır!
 
-## Adım 7: Başarıyı Onaylayın
+## Adım 7: Başarılı Olduğunu Onaylayın
 
 Son olarak her şeyin yolunda gidip gitmediğini kontrol edelim. 
 
@@ -135,19 +137,21 @@ Tebrikler! Aspose.PDF for .NET kullanarak bir PDF'deki form alanları için Java
 Aspose.PDF, .NET uygulamaları içerisinde PDF dosyaları oluşturmak, düzenlemek ve işlemek için tasarlanmış, güçlü PDF işlevleri sağlayan bir kütüphanedir.
 
 ### Aspose.PDF'i kullanmak için lisansa ihtiyacım var mı?  
- Ücretsiz deneme mevcut olsa da, sınırlama olmaksızın tam kullanım için bir lisans gereklidir. Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Ücretsiz deneme mevcut olsa da, sınırlama olmaksızın tam kullanım için bir lisans gereklidir. Bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Diğer form alanlarına JavaScript ayarlayabilir miyim?  
 Kesinlikle! Aspose.PDF, onay kutuları, radyo düğmeleri ve açılır listeler gibi çeşitli form alanlarında JavaScript eylemlerine izin verir.
 
 ### Aspose.PDF sorunları için nasıl destek alabilirim?  
- Desteklerine şu adreslerden ulaşabilirsiniz:[forum](https://forum.aspose.com/c/pdf/10) Herhangi bir soru veya sorun için.
+Desteklerine şu adreslerden ulaşabilirsiniz: [forum](https://forum.aspose.com/c/pdf/10) Herhangi bir soru veya sorun için.
 
 ### Aspose.PDF'yi satın almadan test etmenin bir yolu var mı?  
-Evet! Aspose bir[ücretsiz deneme](https://releases.aspose.com/) Satın alma işlemine başlamadan önce kütüphanenin özelliklerini test etmek.
+Evet! Aspose bir [ücretsiz deneme](https://releases.aspose.com/) Satın alma işlemine başlamadan önce kütüphanenin özelliklerini test etmek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

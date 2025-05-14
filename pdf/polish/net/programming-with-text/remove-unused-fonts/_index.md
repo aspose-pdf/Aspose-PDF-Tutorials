@@ -1,14 +1,16 @@
 ---
-title: Usuń nieużywane czcionki w pliku PDF
-linktitle: Usuń nieużywane czcionki w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak bez wysiłku usuwać nieużywane czcionki z plików PDF za pomocą Aspose.PDF dla .NET. Zwiększ wydajność i zmniejsz rozmiar pliku.
-weight: 300
-url: /pl/net/programming-with-text/remove-unused-fonts/
+"description": "Dowiedz się, jak bez wysiłku usuwać nieużywane czcionki z plików PDF za pomocą Aspose.PDF dla .NET. Zwiększ wydajność i zmniejsz rozmiar pliku."
+"linktitle": "Usuń nieużywane czcionki w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Usuń nieużywane czcionki w pliku PDF"
+"url": "/pl/net/programming-with-text/remove-unused-fonts/"
+"weight": 300
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń nieużywane czcionki w pliku PDF
@@ -19,13 +21,13 @@ Cześć! Czy masz dość rozdętych plików PDF wypełnionych czcionkami, które
 
 ## Wymagania wstępne
 
-Zanim zaczniemy, upewnij się, że masz następujące ustawienia, aby w pełni wykorzystać potencjał tego samouczka:
+Zanim zaczniesz, upewnij się, że masz następujące ustawienia, aby w pełni wykorzystać potencjał tego samouczka:
 
-1. Zainstalowany program Visual Studio: Będziesz potrzebować środowiska programistycznego, aby uruchomić swój kod .NET. Program Visual Studio (dowolna wersja) jest świetnym wyborem.
-2.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną tę bibliotekę. Możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Zainstalowany program Visual Studio: Będziesz potrzebować środowiska programistycznego, aby uruchomić kod .NET. Program Visual Studio (dowolna wersja) jest świetnym wyborem.
+2. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną tę bibliotekę. Możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa znajomość języka C#: Ponieważ w tym przykładzie użyjemy języka C#, znajomość tego języka okaże się przydatna.
-4. Plik PDF: Przygotuj przykładowy plik PDF. Możesz utworzyć własny lub użyć dowolnego istniejącego pliku PDF. Upewnij się tylko, że ma nazwę`ReplaceTextPage.pdf` i zapisane w katalogu dokumentów.
-5.  Ważna licencja: Chociaż możesz skorzystać z bezpłatnej wersji próbnej, zaleca się ważną licencję, aby uzyskać pełną funkcjonalność. Jeśli potrzebujesz tymczasowej licencji, możesz ją uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+4. Plik PDF: Przygotuj przykładowy plik PDF. Możesz utworzyć własny lub użyć dowolnego istniejącego pliku PDF. Upewnij się tylko, że ma nazwę `ReplaceTextPage.pdf` i zapisane w katalogu dokumentów.
+5. Ważna licencja: Chociaż możesz skorzystać z bezpłatnej wersji próbnej, zaleca się ważną licencję, aby uzyskać pełną funkcjonalność. Jeśli potrzebujesz tymczasowej licencji, możesz ją uzyskać [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
@@ -48,7 +50,7 @@ Najpierw najważniejsze! Musisz utworzyć nową aplikację konsolową w Visual S
 
 - Otwórz program Visual Studio.
 - Kliknij Plik > Nowy > Projekt.
--  Wybierz aplikację konsolową (.NET Framework) i nadaj jej nazwę (np.`PdfFontCleaner`).
+- Wybierz aplikację konsolową (.NET Framework) i nadaj jej nazwę (np. `PdfFontCleaner`).
 - Kliknij Utwórz.
 
 Teraz masz nowy projekt, nad którym możesz pracować!
@@ -59,7 +61,7 @@ Następnie dodasz bibliotekę Aspose.PDF do swojego projektu. Możesz to zrobić
 
 1. W Eksploratorze rozwiązań kliknij prawym przyciskiem myszy swój projekt.
 2. Wybierz opcję Zarządzaj pakietami NuGet.
-3.  Szukaj`Aspose.PDF` i zainstaluj.
+3. Szukaj `Aspose.PDF` i zainstaluj.
 
 ## Krok 3: Załaduj dokument PDF
 
@@ -69,10 +71,10 @@ Załadujmy dokument, który chcesz przetworzyć. Oto jak to zrobić:
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY/"; // Zaktualizuj to do swojej ścieżki
 // Załaduj plik źródłowy PDF
-Document doc = new Document(dataDir + "ReplaceTextPage.pdf");
+Document doc = new Document(dataDir + "ZastępowaćTextPage.pdf");
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY/"` z rzeczywistą ścieżką, gdzie przechowywany jest Twój plik PDF. Ten krok jest kluczowy, ponieważ pozwala Aspose na dostęp do Twojego dokumentu PDF. 
+Replace `"YOUR DOCUMENT DIRECTORY/"` z rzeczywistą ścieżką, gdzie przechowywany jest Twój plik PDF. Ten krok jest kluczowy, ponieważ pozwala Aspose na dostęp do Twojego dokumentu PDF. 
 
 ## Krok 4: Skonfiguruj absorber fragmentów tekstu
 
@@ -83,21 +85,21 @@ TextFragmentAbsorber absorber = new TextFragmentAbsorber(new TextEditOptions(Tex
 doc.Pages.Accept(absorber);
 ```
 
- Ta linia kodu tworzy`TextFragmentAbsorber` obiekt skonfigurowany do usuwania nieużywanych czcionek. Wywołując`doc.Pages.Accept(absorber)`, prosimy Aspose o przejrzenie wszystkich stron dokumentu i zidentyfikowanie fragmentów tekstu.
+Ta linia kodu tworzy `TextFragmentAbsorber` obiekt skonfigurowany do usuwania nieużywanych czcionek. Wywołując `doc.Pages.Accept(absorber)`, prosimy Aspose o przejrzenie wszystkich stron dokumentu i zidentyfikowanie fragmentów tekstu.
 
 ## Krok 5: Przejrzyj fragmenty tekstu i zamień czcionki
 
 Po zidentyfikowaniu fragmentów tekstu, czas przejść przez nie i zastąpić wszelkie nieużywane fonty. Dodaj ten kod:
 
 ```csharp
-//Przejrzyj wszystkie fragmenty tekstu
+// Przejrzyj wszystkie fragmenty tekstu
 foreach (TextFragment textFragment in absorber.TextFragments)
 {
     textFragment.TextState.Font = FontRepository.FindFont("Arial, Bold");
 }
 ```
 
- W tej pętli zmienisz czcionkę każdego`TextFragment` do „Arial, Bold”. Możesz wybrać dowolną czcionkę, która odpowiada Twoim potrzebom. To właśnie tutaj dzieje się prawdziwa magia, ponieważ zapewnia to, że plik PDF pozostanie z czystą, dobrze zdefiniowaną czcionką.
+W tej pętli zmienisz czcionkę każdego `TextFragment` do „Arial, Bold”. Możesz wybrać dowolną czcionkę, która odpowiada Twoim potrzebom. To właśnie tutaj dzieje się prawdziwa magia, ponieważ zapewnia to, że plik PDF pozostanie z czystą, dobrze zdefiniowaną czcionką.
 
 ## Krok 6: Zapisz zaktualizowany dokument
 
@@ -110,7 +112,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nUnused fonts removed successfully from pdf document.\nFile saved at " + dataDir);
 ```
 
- Tutaj tworzymy nowy plik o nazwie`RemoveUnusedFonts_out.pdf` w tym samym katalogu. Dzięki temu otrzymasz kopię zapasową oryginalnego pliku PDF, a jednocześnie będziesz mieć uproszczoną wersję.
+Tutaj tworzymy nowy plik o nazwie `RemoveUnusedFonts_out.pdf` w tym samym katalogu. Dzięki temu otrzymasz kopię zapasową oryginalnego pliku PDF, a jednocześnie będziesz mieć uproszczoną wersję.
 
 ## Krok 7: Obsługa wyjątków
 
@@ -142,16 +144,18 @@ Tak, możesz skorzystać z bezpłatnej wersji próbnej, jednak w celu uzyskania 
 Jeżeli nie zostanie znaleziona żadna czcionka zastępcza, tekst może być wyświetlany nieprawidłowo, dlatego należy wybrać powszechnie dostępną czcionkę.
 
 ### Jak uzyskać tymczasową licencję?
- Możesz poprosić o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz poprosić o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy usunięcie nieużywanych czcionek wpłynie na wygląd dokumentu?
 To możliwe, w zależności od tego, które czcionki zostaną usunięte i w jaki sposób fragmenty tekstu zostaną zastąpione; zaleca się przeprowadzenie testów.
 
 ### Czy istnieje alternatywna metoda usuwania nieużywanych czcionek?
 Aspose.PDF dla platformy .NET doskonale nadaje się do tego celu, choć podobne funkcjonalności mogą oferować również inne biblioteki i narzędzia.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

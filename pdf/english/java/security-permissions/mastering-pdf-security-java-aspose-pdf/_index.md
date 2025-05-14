@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PDF Security in Java: Manipulating Document Privileges with Aspose.PDF
 
@@ -218,7 +220,11 @@ Try implementing document privileges in your next project using Aspose.PDF! Expl
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
 This comprehensive guide equips you with the knowledge to manage and secure PDF documents using Aspose.PDF for Java. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

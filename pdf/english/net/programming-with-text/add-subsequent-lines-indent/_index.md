@@ -8,7 +8,9 @@ url: /net/programming-with-text/add-subsequent-lines-indent/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Subsequent Lines Indent In PDF File
@@ -152,6 +154,7 @@ Yes! You can combine the `SubsequentLinesIndent` property with other text format
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

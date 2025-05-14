@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/convert-pdfs-to-xps-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert PDFs to XPS Format
@@ -114,6 +116,7 @@ The limitations may vary based on your license and the complexity of the PDF doc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

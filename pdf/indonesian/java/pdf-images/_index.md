@@ -1,14 +1,16 @@
 ---
-title: Gambar PDF
-linktitle: Gambar PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Jelajahi manipulasi gambar PDF dengan Aspose.PDF untuk Java. Pelajari cara memasukkan, memodifikasi, dan mengoptimalkan gambar dalam PDF dengan mudah.
-weight: 12
-url: /id/java/pdf-images/
+"description": "Jelajahi manipulasi gambar PDF dengan Aspose.PDF untuk Java. Pelajari cara memasukkan, memodifikasi, dan mengoptimalkan gambar dalam PDF dengan mudah."
+"linktitle": "Gambar PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Gambar PDF"
+"url": "/id/java/pdf-images/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gambar PDF
@@ -38,16 +40,18 @@ Pelajari cara menerapkan gaya penomoran pada judul PDF menggunakan Aspose.PDF un
 ### [Hapus Gambar dari Sumber Daya PDF menggunakan Java](./delete-image-from-pdf-resources-using-java/)
 Pelajari cara menghapus gambar dari dokumen PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk manipulasi PDF yang efisien.
 ### [Hapus Gambar dari File PDF menggunakan Java](./delete-images-from-pdf-file-using-java/)
-Pelajari cara menghapus gambar dari berkas PDF menggunakan Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk penghapusan gambar yang efisien dalam PDF.
+Pelajari cara menghapus gambar dari file PDF menggunakan Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk penghapusan gambar yang efisien dalam PDF.
 ### [Ekstrak Properti Gambar dari PDF di Java](./extract-image-properties-from-pdf-in-java/)
 Pelajari cara mengekstrak properti gambar dari PDF di Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber. Tingkatkan keterampilan pemrosesan PDF Anda hari ini!
 ### [Ekstrak Gambar dari File PDF menggunakan Java](./extract-images-from-pdf-file-using-java/)
 Pelajari cara mengekstrak gambar dari file PDF menggunakan Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber. Buka kunci ekstraksi gambar PDF sekarang.
 ### [Dapatkan Nama Gambar yang Tertanam dalam File PDF menggunakan Java](./get-name-of-images-embedded-in-pdf-file-using-java/)
 Pelajari cara mengekstrak nama gambar tertanam dari file PDF menggunakan Java dan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk ekstraksi data PDF yang efisien
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

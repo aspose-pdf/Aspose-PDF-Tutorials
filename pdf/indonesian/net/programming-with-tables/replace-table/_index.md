@@ -1,14 +1,16 @@
 ---
-title: Ganti Tabel Dalam Dokumen PDF
-linktitle: Ganti Tabel Dalam Dokumen PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengganti tabel dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah, tips & trik disertakan.
-weight: 180
-url: /id/net/programming-with-tables/replace-table/
+"description": "Pelajari cara mengganti tabel dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah, tips & trik disertakan."
+"linktitle": "Ganti Tabel Dalam Dokumen PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ganti Tabel Dalam Dokumen PDF"
+"url": "/id/net/programming-with-tables/replace-table/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ganti Tabel Dalam Dokumen PDF
@@ -25,13 +27,13 @@ Sebelum kita masuk ke inti kode, ada beberapa persyaratan dasar yang perlu Anda 
 Pastikan Anda telah memasang .NET Framework di komputer Anda. Aspose.PDF dirancang untuk bekerja dengan lancar dengan lingkungan .NET, jadi ini sangat penting.
 
 ### Aspose.PDF untuk Pustaka .NET
- Anda perlu mengunduh dan memasang pustaka Aspose.PDF untuk .NET. Jangan khawatir, ini mudah! Kunjungi[Halaman Unduh PDF Aspose](https://releases.aspose.com/pdf/net/) untuk mengambil versi terbaru.
+Anda perlu mengunduh dan memasang pustaka Aspose.PDF untuk .NET. Jangan khawatir, ini mudah! Kunjungi [Halaman Unduh PDF Aspose](https://releases.aspose.com/pdf/net/) untuk mengambil versi terbaru.
 
 ### Pemahaman Dasar C#
 Keakraban dengan pemrograman C# akan sangat membantu Anda memahami dan menerapkan contoh yang akan kami bahas dalam artikel ini.
 
 ### Bahasa Indonesia: Studio Visual
- Memiliki IDE seperti Visual Studio akan memungkinkan Anda menjalankan dan menguji potongan kode yang disediakan secara efektif. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[Situs Visual Studio](https://visualstudio.microsoft.com/downloads/).
+Memiliki IDE seperti Visual Studio akan memungkinkan Anda menjalankan dan menguji potongan kode yang disediakan secara efektif. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari [Situs Visual Studio](https://visualstudio.microsoft.com/downloads/).
 
 Dengan prasyarat ini terpenuhi, Anda siap menjelajahi fitur-fitur menarik Aspose.PDF untuk .NET!
 
@@ -47,7 +49,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Baiklah, mari kita bahas ini selangkah demi selangkah. Kita akan mulai dengan memuat dokumen PDF kita, mencari tabel yang ingin kita ganti, membuat tabel baru, dan terakhir, mengganti tabel lama dengan yang baru. Bersiaplah!
+Baiklah, mari kita bahas ini langkah demi langkah. Kita akan mulai dengan memuat dokumen PDF kita, mencari tabel yang ingin kita ganti, membuat tabel baru, dan terakhir, mengganti tabel lama dengan yang baru. Bersiaplah!
 
 ## Langkah 1: Muat Dokumen PDF yang Ada
 
@@ -61,11 +63,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + @"Table_input.pdf");
 ```
 
-Dalam potongan kode ini, kami menentukan jalur ke direktori dokumen kami dan membuat contoh baru dari`Document` kelas untuk memuat PDF kita.
+Dalam potongan kode ini, kami menentukan jalur ke direktori dokumen kami dan membuat contoh baru dari `Document` kelas untuk memuat PDF kita.
 
 ## Langkah 2: Buat Objek Penyerap Tabel
 
- Selanjutnya, kita memerlukan cara untuk menemukan dan bekerja dengan tabel dalam PDF. Untuk ini, kita akan menggunakan`TableAbsorber` kelas, yang berspesialisasi dalam menemukan tabel dalam suatu dokumen.
+Selanjutnya, kita memerlukan cara untuk menemukan dan bekerja dengan tabel dalam PDF. Untuk ini, kita akan menggunakan `TableAbsorber` kelas, yang berspesialisasi dalam menemukan tabel dalam suatu dokumen.
 
 ```csharp
 // Buat objek TableAbsorber untuk menemukan tabel
@@ -87,7 +89,7 @@ Pada langkah ini, kami menginstruksikan penyerap untuk memeriksa halaman pertama
 
 ## Langkah 4: Ekstrak Tabel
 
- Setelah kita mengunjungi halaman tersebut, kita perlu mengekstrak tabel tertentu yang ingin kita ganti.`TableList` properti mengembalikan semua tabel yang terdeteksi.
+Setelah kita mengunjungi halaman tersebut, kita perlu mengekstrak tabel tertentu yang ingin kita ganti. `TableList` properti mengembalikan semua tabel yang terdeteksi.
 
 ```csharp
 // Dapatkan tabel pertama di halaman
@@ -107,7 +109,7 @@ newTable.ColumnWidths = "100 100 100"; // Mengatur lebar kolom
 newTable.DefaultCellBorder = new BorderInfo(BorderSide.All, 1F);
 ```
 
-Kami menentukan lebar kolom dan mengatur batas sel default untuk memberikan tampilan yang halus.
+Kami menentukan lebar untuk kolom dan mengatur batas sel default untuk memberikan tampilan yang halus.
 
 Selanjutnya, mari tambahkan baris ke tabel baru kita.
 
@@ -122,7 +124,7 @@ Di blok ini, kami menambahkan baris baru dan mengisinya dengan beberapa contoh d
 
 ## Langkah 6: Ganti Tabel Lama dengan Tabel Baru
 
- Setelah kedua tabel siap, saatnya untuk melakukan pertukaran! Kita akan menggunakan`Replace` metode dari`TableAbsorber` untuk mengganti tabel lama dengan tabel yang baru kita buat.
+Setelah kedua tabel siap, saatnya untuk melakukan pertukaran! Kita akan menggunakan `Replace` metode dari `TableAbsorber` untuk mengganti tabel lama dengan tabel yang baru kita buat.
 
 ```csharp
 // Ganti meja dengan yang baru
@@ -152,19 +154,21 @@ Selamat telah menyelesaikan tutorial ini! Anda telah mempelajari cara mengganti 
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk memanipulasi dokumen PDF dengan berbagai cara, seperti membuat, mengedit, dan mengonversi PDF.
 
 ### Dapatkah saya menggunakan Aspose.PDF untuk tujuan komersial?  
- Ya, Anda perlu membeli lisensi. Anda dapat menemukan pilihan harga[Di Sini](https://purchase.aspose.com/buy).
+Ya, Anda perlu membeli lisensi. Anda dapat menemukan pilihan harga [Di Sini](https://purchase.aspose.com/buy).
 
 ### Apakah ada uji coba gratis yang tersedia?  
- Tentu saja! Anda dapat mengunduh versi uji coba gratis Aspose.PDF untuk .NET[Di Sini](https://releases.aspose.com/).
+Tentu saja! Anda dapat mengunduh versi uji coba gratis Aspose.PDF untuk .NET [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana jika saya memerlukan dukungan saat menggunakan Aspose.PDF?  
- Anda bisa mendapatkan dukungan melalui forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan melalui forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana cara memperoleh lisensi sementara?  
- Anda dapat meminta lisensi sementara untuk mengevaluasi produk sebelum melakukan pembelian[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat meminta lisensi sementara untuk mengevaluasi produk sebelum melakukan pembelian [Di Sini](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

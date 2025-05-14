@@ -1,14 +1,16 @@
 ---
-title: İmza Alanını Kullanarak Akıllı Kartla İmzalayın
-linktitle: İmza Alanını Kullanarak Akıllı Kartla İmzalayın
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF ile akıllı kart kullanarak PDF'leri güvenli bir şekilde nasıl imzalayacağınızı öğrenin. Kolay uygulama için adım adım kılavuzumuzu izleyin.
-weight: 120
-url: /tr/net/programming-with-security-and-signatures/sign-with-smart-card-using-signature-field/
+"description": ".NET için Aspose.PDF ile akıllı kart kullanarak PDF'leri güvenli bir şekilde nasıl imzalayacağınızı öğrenin. Kolay uygulama için adım adım kılavuzumuzu izleyin."
+"linktitle": "İmza Alanını Kullanarak Akıllı Kartla İmzalayın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "İmza Alanını Kullanarak Akıllı Kartla İmzalayın"
+"url": "/tr/net/programming-with-security-and-signatures/sign-with-smart-card-using-signature-field/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İmza Alanını Kullanarak Akıllı Kartla İmzalayın
@@ -21,7 +23,7 @@ Günümüzün dijital dünyasında, belgeleri güvence altına almak her zamanki
 
 İmzalama sürecinin inceliklerine dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte ön koşulların bir kontrol listesi:
 
-1. .NET için Aspose.PDF: .NET ortamınızda Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: .NET ortamınızda Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/pdf/net/).
 
 2. Visual Studio: .NET kodunuzu yazmak ve çalıştırmak için bir IDE'ye ihtiyacınız olacak. Visual Studio Community Edition harika bir ücretsiz seçenektir.
 
@@ -59,7 +61,7 @@ Yapılması Gerekenler: Belgelerinizin bulunduğu dizinin yolunu tanımlayın.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Açıklama: Değiştir`"YOUR DOCUMENTS DIRECTORY"` PDF dosyalarınızın bulunduğu gerçek yol ile. Boş PDF'yi okuyup imzalı belgeyi kaydedeceğimiz yer burasıdır.
+Açıklama: Değiştir `"YOUR DOCUMENTS DIRECTORY"` PDF dosyalarınızın bulunduğu gerçek yol ile. Boş PDF'yi okuyup imzalı belgeyi kaydedeceğimiz yer burasıdır.
 
 ### Adım 2: Boş PDF'yi kopyalayın
 
@@ -69,7 +71,7 @@ Ne Yapmalı: Çalışmak için boş PDF'nizin bir kopyasını oluşturun.
 File.Copy(dataDir + "blank.pdf", dataDir + "externalSignature1.pdf", true);
 ```
 
- Açıklama: Bu satır,`blank.pdf`yeni bir dosyaya dosya adı`externalSignature1.pdf` .`true` parametresi, dosya zaten mevcutsa üzerine yazmaya izin verir.
+Açıklama: Bu satır, `blank.pdf` yeni bir dosyaya dosya adı `externalSignature1.pdf`. `true` parametresi, dosya zaten mevcutsa üzerine yazmaya izin verir.
 
 ### Adım 3: PDF Belgesini açın
 
@@ -85,7 +87,7 @@ using (FileStream fs = new FileStream(dataDir + "externalSignature1.pdf", FileMo
 }
 ```
 
- Açıklama: Bir`FileStream` PDF dosyamızı açmak için`Document` Aspose.PDF'den gelen sınıf, PDF içeriğini düzenlememize olanak tanır.
+Açıklama: Bir `FileStream` PDF dosyamızı açmak için `Document` Aspose.PDF'den gelen sınıf, PDF içeriğini düzenlememize olanak tanır.
 
 ### Adım 4: İmza Alanı Oluşturun
 
@@ -95,7 +97,7 @@ Yapılması Gerekenler: PDF'te imzanın yerleştirileceği bir imza alanı tanı
 SignatureField field1 = new SignatureField(doc.Pages[1], new Rectangle(100, 400, 10, 10));
 ```
 
- Açıklama: Burada bir`SignatureField` PDF'in ikinci sayfasında (sayfa dizini 1'den başlar).`Rectangle` İmza alanının konumunu ve boyutunu tanımlar.
+Açıklama: Burada bir `SignatureField` PDF'in ikinci sayfasında (sayfa dizini 1'den başlar). `Rectangle` İmza alanının konumunu ve boyutunu tanımlar.
 
 ### Adım 5: Akıllı Kart Sertifika Deposuna Erişim
 
@@ -120,7 +122,7 @@ Açıklama: Bu satır, bir sertifika seçmeniz için bir iletişim kutusu açar.
 
 ### Adım 7: Harici bir İmza Oluşturun
 
- Ne Yapılmalı: Bir örnek oluşturun`ExternalSignature` seçili sertifikayı kullanarak.
+Ne Yapılmalı: Bir örnek oluşturun `ExternalSignature` seçili sertifikayı kullanarak.
 
 ```csharp
 Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.ExternalSignature(sel[0])
@@ -131,7 +133,7 @@ Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.Exte
 };
 ```
 
- Açıklama: Başlatıyoruz`ExternalSignature` Seçili sertifika ile. Ayrıca yetkiyi, imzalama nedenini ve iletişim bilgilerini de ayarlayabilirsiniz.
+Açıklama: Başlatıyoruz `ExternalSignature` Seçili sertifika ile. Ayrıca yetkiyi, imzalama nedenini ve iletişim bilgilerini de ayarlayabilirsiniz.
 
 ### Adım 8: İmza Alanını Belgeye Ekleyin
 
@@ -173,7 +175,7 @@ using (PdfFileSignature pdfSign = new PdfFileSignature(new Document(dataDir + "e
 }
 ```
 
-Açıklama: Bir örnek oluşturuyoruz`PdfFileSignature` belgedeki imzaları doğrulamak için. İmza geçerli değilse, bir istisna atılır.
+Açıklama: Bir örnek oluşturuyoruz `PdfFileSignature` belgedeki imzaları doğrulamak için. İmza geçerli değilse, bir istisna atılır.
 
 ## Çözüm
 
@@ -188,16 +190,18 @@ Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluş
 Evet, PDF'leri dijital sertifika ile güvenli bir şekilde imzalamak için akıllı kart gereklidir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Aspose.PDF, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/).
+Aspose.PDF, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/).
 
 ### İmzalanmış bir PDF'i nasıl doğrulayabilirim?
- Kullanabilirsiniz`PdfFileSignature` PDF belgenizdeki imzaları doğrulamak için Aspose.PDF'deki sınıfı kullanın.
+Kullanabilirsiniz `PdfFileSignature` PDF belgenizdeki imzaları doğrulamak için Aspose.PDF'deki sınıfı kullanın.
 
 ### Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?
- Kontrol edebilirsiniz[Aspose.PDF belgeleri](https://reference.aspose.com/pdf/net/) Daha fazla ayrıntı ve örnek için.
+Kontrol edebilirsiniz [Aspose.PDF belgeleri](https://reference.aspose.com/pdf/net/) Daha fazla ayrıntı ve örnek için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

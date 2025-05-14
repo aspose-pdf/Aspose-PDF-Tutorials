@@ -1,14 +1,16 @@
 ---
-title: Ekstrakcja obrazu
-linktitle: Ekstrakcja obrazu
-second_title: Aspose.PDF dla .NET API Reference
-description: Łatwo naucz się wyodrębniać obrazy z plików PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo wyodrębniać obrazy.
-weight: 70
-url: /pl/net/programming-with-security-and-signatures/extracting-image/
+"description": "Łatwo naucz się wyodrębniać obrazy z plików PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo wyodrębniać obrazy."
+"linktitle": "Ekstrakcja obrazu"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ekstrakcja obrazu"
+"url": "/pl/net/programming-with-security-and-signatures/extracting-image/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrakcja obrazu
@@ -25,16 +27,16 @@ Zanim przejdziemy do szczegółów ekstrakcji obrazu, musisz mieć kilka rzeczy,
 
 Po pierwsze, musisz mieć środowisko programistyczne skonfigurowane z .NET. Zazwyczaj obejmuje to następujące elementy:
 
--  Visual Studio: To potężne IDE dla aplikacji .NET. Jeśli jeszcze go nie pobrałeś, możesz go pobrać ze strony[Witryna internetowa Visual Studio](https://visualstudio.microsoft.com/).
+- Visual Studio: To potężne IDE dla aplikacji .NET. Jeśli jeszcze go nie pobrałeś, możesz go pobrać ze strony [Witryna internetowa Visual Studio](https://visualstudio.microsoft.com/).
 - .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework w wersji 4.5 lub nowszej.
 
 ### Aspose.PDF dla biblioteki .NET
 
 Aby pracować z plikami PDF, potrzebujesz biblioteki Aspose.PDF. Ta biblioteka umożliwia swobodne manipulowanie plikami PDF, w tym wyodrębnianie obrazów. Oto, jak możesz ją zdobyć:
 
--  Możesz[pobierz najnowszą wersję](https://releases.aspose.com/pdf/net/) Aspose.PDF dla .NET.
--  Jeśli chcesz wypróbować przed zakupem,[bezpłatny okres próbny](https://releases.aspose.com/) jest dostępny.
--  Jeśli zdecydujesz się na jego długotrwałe stosowanie, możesz[kup licencję](https://purchase.aspose.com/buy) lub nawet[poproś o tymczasową licencję](https://purchase.aspose.com/temporary-license/) w celach testowych.
+- Możesz [pobierz najnowszą wersję](https://releases.aspose.com/pdf/net/) Aspose.PDF dla .NET.
+- Jeśli chcesz wypróbować przed zakupem, [bezpłatny okres próbny](https://releases.aspose.com/) jest dostępny.
+- Jeśli zdecydujesz się na jego długotrwałe stosowanie, możesz [kup licencję](https://purchase.aspose.com/buy) lub nawet [poproś o tymczasową licencję](https://purchase.aspose.com/temporary-license/) w celach testowych.
 
 ### Podstawowa wiedza z języka C#
 
@@ -67,7 +69,7 @@ Na początek musimy zdefiniować, gdzie znajduje się Twój dokument PDF. Używa
 string dataDir = "YOUR DOCUMENTS DIRECTORY"; // Zastąp katalogiem swoich dokumentów
 string input = dataDir + @"ExtractingImage.pdf"; // Wprowadź plik PDF
 ```
- Zastępować`"YOUR DOCUMENTS DIRECTORY"` ze ścieżką do folderu, w którym przechowywany jest plik PDF. Jest to kluczowe, ponieważ potrzebujemy, aby program wiedział, gdzie znaleźć plik PDF.
+Zastępować `"YOUR DOCUMENTS DIRECTORY"` ze ścieżką do folderu, w którym przechowywany jest plik PDF. Jest to kluczowe, ponieważ potrzebujemy, aby program wiedział, gdzie znaleźć plik PDF.
 
 ## Krok 2: Załaduj dokument PDF
 
@@ -79,7 +81,7 @@ using (Document pdfDocument = new Document(input))
     // Dzięki temu plik PDF zostanie poprawnie zamknięty po zakończeniu.
 }
 ```
- Ten`using` Instrukcja ta zapewnia, że dokument PDF zostanie prawidłowo usunięty po zakończeniu pracy z nim, zapobiegając wyciekom pamięci.
+Ten `using` Instrukcja ta zapewnia, że dokument PDF zostanie prawidłowo usunięty po zakończeniu pracy z nim, zapobiegając wyciekom pamięci.
 
 ## Krok 3: Przejdź przez pola podpisu
 
@@ -95,7 +97,7 @@ foreach (Field field in pdfDocument.Form)
     }
 }
 ```
- Tutaj używamy`foreach` pętla do sprawdzania każdego pola w formularzu PDF. Jeśli znajdziemy pole podpisu, możemy przystąpić do wyodrębnienia obrazu.
+Tutaj używamy `foreach` pętla do sprawdzania każdego pola w formularzu PDF. Jeśli znajdziemy pole podpisu, możemy przystąpić do wyodrębnienia obrazu.
 
 ## Krok 4: Wyodrębnij obraz
 
@@ -116,8 +118,8 @@ using (Stream imageStream = sf.ExtractImage())
 ```
 
 - Definiujemy ścieżkę do pliku wyjściowego, w którym zostanie zapisany wyodrębniony obraz.
--  Używamy`sf.ExtractImage()` aby pobrać strumień obrazu z pola podpisu.
--  Sprawdzamy czy`imageStream` nie ma wartości null, co pozwala mieć pewność, że istnieje obraz do wyodrębnienia.
+- Używamy `sf.ExtractImage()` aby pobrać strumień obrazu z pola podpisu.
+- Sprawdzamy czy `imageStream` nie ma wartości null, co zapewnia, że istnieje obraz do wyodrębnienia.
 - Na koniec konwertujemy strumień na mapę bitową i zapisujemy jako plik JPEG.
 
 ## Wniosek
@@ -139,10 +141,12 @@ Tak, możesz zmodyfikować kod, aby przechodził przez wiele pól i wyodrębnia�
 Wyodrębnione obrazy można zapisać w różnych formatach, w tym JPEG, PNG, BMP itp., zależnie od potrzeb.
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.PDF?  
- Możesz sprawdzić[Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/) aby zobaczyć więcej materiałów i przykładów.
+Możesz sprawdzić [Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/) aby uzyskać więcej materiałów i przykładów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

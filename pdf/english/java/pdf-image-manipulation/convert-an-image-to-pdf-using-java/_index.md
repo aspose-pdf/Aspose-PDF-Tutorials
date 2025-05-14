@@ -8,7 +8,9 @@ url: /java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert an Image to PDF using Java
@@ -101,6 +103,7 @@ Yes, you can add password protection to the generated PDF document using Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-links-and-actions/create-document-link/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Document Link
@@ -162,6 +164,7 @@ You can acquire a temporary license through the [temporary license page](https:/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

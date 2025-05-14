@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Annotate PDFs in Java with Strike-Out Annotations Using Aspose.PDF
 
@@ -196,7 +198,11 @@ You can add it via Maven or Gradle dependencies as shown in this tutorial. Ensur
 
 **2. Can I annotate PDFs other than with strike-outs using Aspose.PDF for Java?**
 Yes, you can create various annotations like highlights, underlines, and more.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

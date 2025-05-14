@@ -8,7 +8,9 @@ url: /net/programming-with-forms/select-radio-button/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Select Radio Button In PDF Document
@@ -119,6 +121,7 @@ Yes, Aspose.PDF requires a license for full functionality. You can obtain a [tem
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

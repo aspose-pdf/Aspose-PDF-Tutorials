@@ -1,14 +1,16 @@
 ---
-title: Mengekstrak Gambar
-linktitle: Mengekstrak Gambar
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak gambar dari PDF dengan mudah menggunakan Aspose.PDF for .NET. Ikuti panduan langkah demi langkah kami untuk ekstraksi gambar yang lancar.
-weight: 70
-url: /id/net/programming-with-security-and-signatures/extracting-image/
+"description": "Pelajari cara mengekstrak gambar dari PDF dengan mudah menggunakan Aspose.PDF for .NET. Ikuti panduan langkah demi langkah kami untuk ekstraksi gambar yang lancar."
+"linktitle": "Mengekstrak Gambar"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Mengekstrak Gambar"
+"url": "/id/net/programming-with-security-and-signatures/extracting-image/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengekstrak Gambar
@@ -25,16 +27,16 @@ Sebelum kita masuk ke inti ekstraksi gambar, ada beberapa hal yang perlu Anda si
 
 Pertama-tama, Anda perlu menyiapkan lingkungan pengembangan dengan .NET. Ini biasanya mencakup hal berikut:
 
--  Visual Studio: Ini adalah IDE yang hebat untuk aplikasi .NET. Jika Anda belum mengunduhnya, Anda bisa mendapatkannya dari[Situs web Visual Studio](https://visualstudio.microsoft.com/).
+- Visual Studio: Ini adalah IDE yang hebat untuk aplikasi .NET. Jika Anda belum mengunduhnya, Anda bisa mendapatkannya dari [Situs web Visual Studio](https://visualstudio.microsoft.com/).
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework 4.5 atau yang lebih tinggi di komputer Anda.
 
 ### Aspose.PDF untuk Pustaka .NET
 
 Untuk bekerja dengan PDF, Anda memerlukan pustaka Aspose.PDF. Pustaka ini memungkinkan Anda untuk memanipulasi file PDF secara bebas, termasuk mengekstrak gambar. Berikut cara mendapatkannya:
 
--  Kamu bisa[unduh versi terbaru](https://releases.aspose.com/pdf/net/) dari Aspose.PDF untuk .NET.
--  Jika Anda ingin mencobanya sebelum membeli,[uji coba gratis](https://releases.aspose.com/) tersedia.
--  Jika Anda memutuskan untuk terus menggunakannya dalam jangka panjang, Anda dapat[beli lisensi](https://purchase.aspose.com/buy) atau bahkan[meminta lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
+- Kamu bisa [unduh versi terbaru](https://releases.aspose.com/pdf/net/) dari Aspose.PDF untuk .NET.
+- Jika Anda ingin mencobanya sebelum membeli, [uji coba gratis](https://releases.aspose.com/) tersedia.
+- Jika Anda memutuskan untuk terus menggunakannya dalam jangka panjang, Anda dapat [beli lisensi](https://purchase.aspose.com/buy) atau bahkan [meminta lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
 
 ### Pengetahuan Dasar C#
 
@@ -67,7 +69,7 @@ Untuk memulai, kita perlu menentukan lokasi penyimpanan dokumen PDF Anda. Dengan
 string dataDir = "YOUR DOCUMENTS DIRECTORY"; // Ganti dengan direktori dokumen Anda
 string input = dataDir + @"ExtractingImage.pdf"; // Masukan file PDF
 ```
- Mengganti`"YOUR DOCUMENTS DIRECTORY"` dengan jalur ke folder tempat file PDF Anda disimpan. Ini penting karena kami memerlukan program untuk mengetahui tempat menemukan PDF Anda.
+Mengganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur ke folder tempat file PDF Anda disimpan. Ini penting karena kami memerlukan program untuk mengetahui tempat menemukan PDF Anda.
 
 ## Langkah 2: Muat Dokumen PDF
 
@@ -79,7 +81,7 @@ using (Document pdfDocument = new Document(input))
     // Ini akan memastikan PDF ditutup dengan benar setelah selesai.
 }
 ```
- Itu`using` pernyataan tersebut memastikan bahwa dokumen PDF dibuang dengan benar setelah kita selesai mengerjakannya, sehingga mencegah kebocoran memori.
+Itu `using` pernyataan tersebut memastikan bahwa dokumen PDF dibuang dengan benar setelah kita selesai mengerjakannya, sehingga mencegah kebocoran memori.
 
 ## Langkah 3: Ulangi Melalui Bidang Tanda Tangan
 
@@ -91,11 +93,11 @@ foreach (Field field in pdfDocument.Form)
     SignatureField sf = field as SignatureField;
     if (sf != null)
     {
-        // Jika bidang itu adalah tanda tangan, kita dapat mengekstrak gambarnya.
+        // Jika bidang tersebut adalah tanda tangan, kita dapat mengekstrak gambarnya.
     }
 }
 ```
- Di sini, kami menggunakan`foreach` loop untuk memeriksa setiap kolom dalam formulir PDF. Jika kita menemukan kolom tanda tangan, kita dapat melanjutkan untuk mengekstrak gambar.
+Di sini, kami menggunakan `foreach` loop untuk memeriksa setiap kolom dalam formulir PDF. Jika kita menemukan kolom tanda tangan, kita dapat melanjutkan untuk mengekstrak gambar.
 
 ## Langkah 4: Ekstrak Gambar
 
@@ -116,8 +118,8 @@ using (Stream imageStream = sf.ExtractImage())
 ```
 
 - Kami menentukan jalur berkas keluaran tempat gambar yang diekstrak akan disimpan.
--  Kami menggunakan`sf.ExtractImage()` untuk mengambil aliran gambar dari bidang tanda tangan.
--  Kami memeriksa apakah`imageStream` tidak null untuk memastikan memang ada gambar yang akan diekstrak.
+- Kami menggunakan `sf.ExtractImage()` untuk mengambil aliran gambar dari bidang tanda tangan.
+- Kami memeriksa apakah `imageStream` tidak null untuk memastikan memang ada gambar yang akan diekstrak.
 - Terakhir, kami mengubah aliran menjadi Bitmap dan menyimpannya sebagai file JPEG.
 
 ## Kesimpulan
@@ -139,10 +141,12 @@ Ya, Anda dapat memodifikasi kode untuk mengulang beberapa bidang dan mengekstrak
 Anda dapat menyimpan gambar yang diekstrak dalam berbagai format, termasuk JPEG, PNG, BMP, dll., tergantung pada spesifikasi Anda.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya untuk Aspose.PDF?  
- Anda dapat memeriksa[Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) untuk sumber daya dan contoh lebih lanjut.
+Anda dapat memeriksa [Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) untuk sumber daya dan contoh lebih lanjut.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

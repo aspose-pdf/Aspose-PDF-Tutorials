@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating Accessible PDFs in Java: A Comprehensive Guide
 
@@ -174,7 +176,11 @@ Experiment with additional features like adding bookmarks or annotations to furt
    - It's a library that enables developers to create, manipulate, and convert PDF files programmatically in Java applications.
 2. **How do I ensure my PDFs are accessible?**
    - Use tagged content features like headers, paragraphs, and other logical structures to improve accessibility for screen readers.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

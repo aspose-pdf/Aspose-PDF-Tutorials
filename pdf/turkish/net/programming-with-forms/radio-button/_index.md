@@ -1,14 +1,16 @@
 ---
-title: Radyo Düğmesi
-linktitle: Radyo Düğmesi
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF belgelerinde etkileşimli radyo düğmelerinin nasıl oluşturulacağını öğrenin.
-weight: 220
-url: /tr/net/programming-with-forms/radio-button/
+"description": "Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF belgelerinde etkileşimli radyo düğmelerinin nasıl oluşturulacağını öğrenin."
+"linktitle": "Radyo Düğmesi"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Radyo Düğmesi"
+"url": "/tr/net/programming-with-forms/radio-button/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Radyo Düğmesi
@@ -22,7 +24,7 @@ Etkileşimli PDF'ler oluşturmak, özellikle formlar söz konusu olduğunda kull
 Koda dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu sizin geliştirme ortamınız olacaktır.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -49,11 +51,11 @@ Artık her şeyi ayarladığımıza göre, PDF'de radyo düğmeleri oluşturmak 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızı kaydetmek istediğiniz gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızı kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Belge Nesnesini Örneklendirin
 
- Daha sonra, bir örnek oluşturmanız gerekir`Document` sınıf. Bu sınıf PDF belgenizi temsil eder.
+Daha sonra, bir örnek oluşturmanız gerekir `Document` sınıf. Bu sınıf PDF belgenizi temsil eder.
 
 ```csharp
 Document pdfDocument = new Document();
@@ -73,7 +75,7 @@ Bu satır PDF belgenize yeni bir sayfa ekleyerek onu içerik için hazır hale g
 
 ## Adım 4: Radyo Düğmesi Alanını Oluşturun
 
- Şimdi, radyo düğmesi alanını oluşturmanın zamanı geldi. Bir örnek oluşturacaksınız`RadioButtonField` nesneyi seçin ve yerleştirileceği sayfa numarasını belirtin.
+Şimdi, radyo düğmesi alanını oluşturmanın zamanı geldi. Bir örnek oluşturacaksınız `RadioButtonField` nesneyi seçin ve yerleştirileceği sayfa numarasını belirtin.
 
 ```csharp
 RadioButtonField radio = new RadioButtonField(pdfDocument.Pages[1]);
@@ -90,7 +92,7 @@ radio.AddOption("Test", new Rectangle(0, 0, 20, 20));
 radio.AddOption("Test1", new Rectangle(20, 20, 40, 40));
 ```
 
- Bu örnekte iki seçenek ekliyoruz: "Test" ve "Test1".`Rectangle` nesne her seçeneğin konumunu ve boyutunu belirtir.
+Bu örnekte iki seçenek ekliyoruz: "Test" ve "Test1". `Rectangle` nesne her seçeneğin konumunu ve boyutunu belirtir.
 
 ## Adım 6: Belge Formuna Radyo Düğmesi Ekleyin
 
@@ -124,7 +126,7 @@ catch (Exception ex)
 }
 ```
 
-Bu, hataları yakalayacak ve bir şeyler ters giderse hata ayıklamanıza yardımcı olacak bir mesaj görüntüleyecektir.
+Bu, hataları yakalayacak ve mesajı görüntüleyerek bir şeyler ters giderse hata ayıklamanıza yardımcı olacaktır.
 
 ## Çözüm
 
@@ -136,19 +138,21 @@ Bu, hataları yakalayacak ve bir şeyler ters giderse hata ayıklamanıza yardı
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphanenin özelliklerini keşfetmeniz için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphanenin özelliklerini keşfetmeniz için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF kullanarak başka form alanları oluşturmak mümkün müdür?
 Kesinlikle! Aspose.PDF, metin alanları, onay kutuları ve açılır listeler dahil olmak üzere çeşitli form alanlarını destekler.
 
 ### Aspose.PDF for .NET'i nereden satın alabilirim?
- Aspose.PDF için bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.PDF için bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

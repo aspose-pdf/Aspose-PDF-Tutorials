@@ -8,7 +8,9 @@ url: /java/pdf-page-manipulation/add-html-using-dom-and-overwrite-content-in-jav
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add HTML using DOM and Overwrite Content in Java
@@ -108,6 +110,7 @@ In this tutorial, we've learned how to add HTML content to a PDF document using 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

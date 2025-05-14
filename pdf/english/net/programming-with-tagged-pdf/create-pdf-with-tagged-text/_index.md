@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/create-pdf-with-tagged-text/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create PDF with Tagged Text
@@ -183,6 +185,7 @@ You can visit the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) for 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,44 +1,46 @@
 ---
-title: Přesunout pole formuláře
-linktitle: Přesunout pole formuláře
-second_title: Aspose.PDF pro .NET API Reference
-description: této příručce se dozvíte, jak přesouvat pole formuláře v dokumentech PDF pomocí Aspose.PDF for .NET. Chcete-li snadno upravit umístění textových polí, postupujte podle tohoto podrobného návodu.
-weight: 200
-url: /cs/net/programming-with-forms/move-form-field/
+"description": "Naučte se v tomto návodu, jak přesouvat pole formuláře v dokumentech PDF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a snadno upravte umístění textových polí."
+"linktitle": "Přesunout pole formuláře"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Přesunout pole formuláře"
+"url": "/cs/net/programming-with-forms/move-form-field/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Přesunout pole formuláře
 
 ## Zavedení
 
-Úprava polí formuláře v dokumentech PDF se může na první pohled zdát složitá, ale s Aspose.PDF pro .NET je to hračka! Ať už pracujete na přemístění textových polí, dolaďování rozvržení nebo nastavování interaktivních prvků, Aspose.PDF nabízí výkonné řešení pro vaše .NET projekty. V tomto tutoriálu vás provedeme kroky k přesunutí pole formuláře v dokumentu PDF pomocí Aspose.PDF for .NET.
+Úprava polí formuláře v dokumentech PDF se může zpočátku zdát složitá, ale s Aspose.PDF pro .NET je to hračka! Ať už pracujete na přesouvání textových polí, doladění rozvržení nebo úpravě interaktivních prvků, Aspose.PDF nabízí výkonné řešení pro vaše projekty .NET. V tomto tutoriálu vás provedeme kroky k přesunutí pole formuláře v dokumentu PDF pomocí Aspose.PDF pro .NET.
 
 ## Předpoklady
 
 Než začneme, zde je několik věcí, které budete potřebovat:
 
-1. Aspose.PDF for .NET nainstalovaný ve vašem vývojovém prostředí.
+1. Aspose.PDF pro .NET nainstalovaný ve vašem vývojovém prostředí.
 2. Soubor PDF, který obsahuje pole formuláře (v tomto případě textové pole), které má být upraveno.
 3. Základní znalost programování v C#.
-4. Visual Studio nebo jiné vývojové prostředí C#.
+4. Visual Studio nebo jakékoli jiné vývojové prostředí pro C#.
 
 ### Instalace Aspose.PDF pro .NET
 
- Nejnovější verzi Aspose.PDF pro .NET si můžete stáhnout z webu[Aspose stránku ke stažení](https://releases.aspose.com/pdf/net/)Po stažení jej můžete nainstalovat pomocí NuGet ve Visual Studiu spuštěním následujícího příkazu:
+Nejnovější verzi souboru Aspose.PDF pro .NET si můžete stáhnout z [Stránka ke stažení Aspose](https://releases.aspose.com/pdf/net/)Po stažení jej můžete nainstalovat pomocí NuGetu ve Visual Studiu spuštěním následujícího příkazu:
 
 ```bash
 Install-Package Aspose.PDF
 ```
 
- Budete také muset získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) nebo zakoupit licenci od[Aspose obchod](https://purchase.aspose.com/buy).
+Budete také muset získat [dočasná licence](https://purchase.aspose.com/temporary-license/) nebo si zakoupit licenci od [Obchod Aspose](https://purchase.aspose.com/buy).
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než budete moci používat Aspose.PDF, budete muset do kódu C# importovat požadované jmenné prostory:
+Než budete moci použít Aspose.PDF, budete muset importovat požadované jmenné prostory do kódu C#:
 
 ```csharp
 using System;
@@ -47,82 +49,84 @@ using Aspose.Pdf.Forms;
 using Aspose.Pdf;
 ```
 
-Tyto balíčky vám umožní přístup k základním funkcím manipulace s dokumenty PDF a specifickým funkcím formuláře, které potřebujete.
+Tyto balíčky vám poskytnou přístup k základním funkcím pro manipulaci s PDF dokumenty a specifickým funkcím formulářů, které potřebujete.
 
-Nyní, když je vše připraveno, pojďme si projít proces přesunutí pole formuláře v dokumentu PDF pomocí Aspose.PDF for .NET.
+Nyní, když máte vše připraveno, pojďme si projít proces přesunutí pole formuláře v dokumentu PDF pomocí Aspose.PDF pro .NET.
 
-## Krok 1: Nastavte svůj projekt a načtěte dokument PDF
+## Krok 1: Nastavení projektu a načtení dokumentu PDF
 
-První věc, kterou musíte udělat, je nastavit projekt a načíst soubor PDF, který obsahuje pole formuláře, které chcete upravit. Jak na to:
+První věc, kterou musíte udělat, je nastavit projekt a načíst soubor PDF, který obsahuje pole formuláře, které chcete upravit. Zde je návod, jak to udělat:
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Otevřete dokument
+// Otevřít dokument
 Document pdfDocument = new Document(dataDir + "MoveFormField.pdf");
 ```
 
- Tento kód inicializuje dokument jeho načtením ze zadaného adresáře. Nezapomeňte vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k souboru, kde je váš PDF uložen. Tento soubor PDF by měl obsahovat alespoň jedno pole formuláře, se kterým můžete pracovat.
+Tento kód inicializuje dokument jeho načtením ze zadaného adresáře. Nezapomeňte nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k souboru, kde je váš PDF uložen. Tento PDF by měl obsahovat alespoň jedno pole formuláře, se kterým můžete pracovat.
 
-## Krok 2: Otevřete pole formuláře, které chcete přesunout
+## Krok 2: Přístup k poli formuláře, které chcete přesunout
 
-Po načtení PDF je dalším krokem přístup k poli formuláře, které chcete přesunout. V tomto případě přesouváme pole formuláře textového pole, ale tuto metodu lze použít i na jiné typy polí formuláře.
+Jakmile je PDF načten, dalším krokem je přístup k poli formuláře, které chcete přesunout. V tomto případě přesouváme textové pole formuláře, ale tuto metodu lze použít i pro jiné typy polí formuláře.
 
 ```csharp
-// Získejte pole formuláře podle názvu (v tomto případě „textbox1“)
+// Získání pole formuláře podle jeho názvu (v tomto případě „textbox1“)
 TextBoxField textBoxField = pdfDocument.Form["textbox1"] as TextBoxField;
 ```
 
- Zde přistupujeme k poli formuláře s názvem`"textbox1"`. Ujistěte se, že znáte název pole formuláře, se kterým chcete manipulovat, nebo můžete v případě potřeby použít jiné techniky k výpisu nebo prohledávání polí formuláře.
+Zde přistupujeme k poli formuláře s názvem `"textbox1"`Ujistěte se, že znáte název pole formuláře, které chcete upravovat, nebo v případě potřeby můžete k zobrazení seznamu nebo vyhledávání polí formuláře použít jiné techniky.
 
 ## Krok 3: Upravte umístění pole
 
-Nyní přichází ta vzrušující část: přesunutí pole formuláře! Toho docílíme úpravou jeho pravoúhlých hranic, které definují polohu a velikost pole formuláře na stránce.
+A teď přichází ta vzrušující část: přesun pole formuláře! Toho dosáhneme úpravou jeho obdélníkových hranic, které definují polohu a velikost pole formuláře na stránce.
 
 ```csharp
-// Upravit umístění pole formuláře (nové souřadnice)
+// Změnit umístění pole formuláře (nové souřadnice)
 textBoxField.Rect = new Aspose.Pdf.Rectangle(300, 400, 600, 500);
 ```
 
-Ve výše uvedeném řádku kódu nastavíme polohu textového pole definováním souřadnic jeho obdélníku. Čísla představují levý dolní a pravý horní roh obdélníku (`300, 400, 600, 500`). Tyto hodnoty můžete přizpůsobit podle toho, kde se má pole na stránce zobrazovat.
+Ve výše uvedeném řádku kódu nastavujeme polohu textového pole definováním souřadnic jeho obdélníku. Čísla představují levý dolní a pravý horní roh obdélníku (`300, 400, 600, 500`). Tyto hodnoty můžete přizpůsobit podle toho, kde se má pole na stránce zobrazovat.
 
-## Krok 4: Uložte upravený dokument
+## Krok 4: Uložení upraveného dokumentu
 
-Po přesunutí pole formuláře je posledním krokem uložení upraveného PDF. Můžete jej uložit pod novým názvem, abyste předešli přepsání původního dokumentu.
+Po přesunutí pole formuláře je posledním krokem uložení upraveného PDF souboru. Můžete jej uložit pod novým názvem, abyste zabránili přepsání původního dokumentu.
 
 ```csharp
-// Uložte aktualizovaný dokument PDF
+// Uložit aktualizovaný dokument PDF
 dataDir = dataDir + "MoveFormField_out.pdf";
 pdfDocument.Save(dataDir);
 Console.WriteLine("\nForm field moved successfully to a new location.\nFile saved at " + dataDir);
 ```
 
-Dokument bude uložen do stejného adresáře s aktualizovaným názvem (`MoveFormField_out.pdf`). Po uložení můžete soubor otevřít a potvrdit, že pole formuláře bylo přesunuto na požadované místo.
+Dokument bude uložen do stejného adresáře s aktualizovaným názvem (`MoveFormField_out.pdf`). Po uložení můžete soubor otevřít a ověřit, zda bylo pole formuláře přesunuto na požadované místo.
 
 ## Závěr
 
- Přesouvání polí formuláře v rámci PDF pomocí Aspose.PDF for .NET je jednoduché, jakmile pochopíte základy práce s`Rectangle` objektová a formulářová pole. Pomocí výše uvedeného kódu můžete snadno upravit polohu libovolného pole formuláře, což vám pomůže přizpůsobit rozvržení PDF a interakce s uživatelem.
+Přesouvání polí formuláře v PDF pomocí Aspose.PDF pro .NET je jednoduché, jakmile pochopíte základy práce s... `Rectangle` objekt a pole formuláře. Pomocí výše uvedeného kódu můžete snadno upravit polohu libovolného pole formuláře, což vám pomůže přizpůsobit rozvržení PDF a interakce s uživateli.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu pomocí této metody přesunout jiné typy polí formuláře?
-Ano, můžete přesunout libovolné pole formuláře, včetně zaškrtávacích políček, přepínacích tlačítek a podpisů, pomocí stejné metody přístupem ke konkrétnímu typu pole.
+### Mohu touto metodou přesouvat i jiné typy polí formuláře?
+Ano, libovolné pole formuláře, včetně zaškrtávacích políček, přepínačů a podpisů, můžete přesunout stejnou metodou přístupem k danému typu pole.
 
-### Jak mohu získat názvy všech polí formuláře v PDF?
- Pomocí polí formuláře můžete iterovat`pdfDocument.Form.Fields` zobrazíte všechna pole formuláře a jejich názvy.
+### Jak mohu načíst názvy všech polí formuláře v PDF?
+Pole formuláře můžete iterovat pomocí `pdfDocument.Form.Fields` vypsat všechna pole formuláře a jejich názvy.
 
-### Co když chci změnit velikost pole formuláře místo jeho přesunutí?
- Můžete upravit umístění i velikost úpravou`Rectangle` šířku a výšku objektu při nastavování nových souřadnic.
+### Co když chci změnit velikost pole formuláře, místo abych ho přesunul?
+Umístění i velikost můžete upravit úpravou `Rectangle` šířku a výšku objektu při nastavování nových souřadnic.
 
 ### Potřebuji licenci k používání Aspose.PDF pro .NET?
- Ano, Aspose.PDF vyžaduje licenci pro produkční použití, ale můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
+Ano, Aspose.PDF vyžaduje licenci pro produkční použití, ale můžete si ji pořídit [dočasná licence](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
 
 ### Mohu přesunout více polí formuláře najednou?
- Ano, přístupem ke každému poli formuláře a jeho úpravou`Rect` vlastnost, můžete přesunout více polí současně.
+Ano, přístupem ke každému poli formuláře a jeho úpravou `Rect` vlastnost, můžete přesouvat více polí současně.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

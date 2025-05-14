@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ फाइल में पीडीएफ पेज स्टैम्प जोड़ना
-linktitle: जावा का उपयोग करके पीडीएफ फाइल में पीडीएफ पेज स्टैम्प जोड़ना
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Aspose.PDF का उपयोग करके जावा में PDF पेज स्टैम्प जोड़ना सीखें। यह चरण-दर-चरण मार्गदर्शिका आपको दिखाती है कि अपने PDF दस्तावेज़ों के लिए स्टैम्प को आसानी से कैसे कस्टमाइज़ करें।
-weight: 13
-url: /hi/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/
+"description": "Aspose.PDF का उपयोग करके जावा में PDF पेज स्टैम्प जोड़ना सीखें। यह चरण-दर-चरण मार्गदर्शिका आपको दिखाती है कि अपने PDF दस्तावेज़ों के लिए स्टैम्प को आसानी से कैसे कस्टमाइज़ करें।"
+"linktitle": "जावा का उपयोग करके पीडीएफ फाइल में पीडीएफ पेज स्टैम्प जोड़ना"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ फाइल में पीडीएफ पेज स्टैम्प जोड़ना"
+"url": "/hi/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ फाइल में पीडीएफ पेज स्टैम्प जोड़ना
@@ -28,7 +30,7 @@ url: /hi/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-ja
 
 - जावा डेवलपमेंट किट (JDK) स्थापित
 - एकीकृत विकास वातावरण (IDE) जैसे कि एक्लिप्स या इंटेलीज आईडिया
--  जावा लाइब्रेरी के लिए Aspose.PDF (आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/).
+- जावा लाइब्रेरी के लिए Aspose.PDF (आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ## वातावरण की स्थापना
 
@@ -109,7 +111,7 @@ pdfDocument.save("output.pdf");
 
 ### मैं टेक्स्ट के स्थान पर छवि स्टैम्प कैसे जोड़ सकता हूँ?
 
- आप एक बना सकते हैं`ImageStamp` के बजाय एक`TextStamp` और इसे अपनी छवि फ़ाइल के साथ कॉन्फ़िगर करें.
+आप एक बना सकते हैं `ImageStamp` के बजाय एक `TextStamp` और इसे अपनी छवि फ़ाइल के साथ कॉन्फ़िगर करें.
 
 ### क्या मैं पेज स्टाम्प की स्थिति को अनुकूलित कर सकता हूँ?
 
@@ -125,10 +127,12 @@ Java के लिए Aspose.PDF एक वाणिज्यिक लाइब
 
 ### मैं अधिक दस्तावेज और उदाहरण कहां पा सकता हूं?
 
- आप Aspose.PDF for Java प्रलेखन पृष्ठ पर व्यापक प्रलेखन और उदाहरण पा सकते हैं:[यहाँ](https://reference.aspose.com/pdf/java/)
+आप Aspose.PDF for Java दस्तावेज़ीकरण पृष्ठ पर व्यापक दस्तावेज़ीकरण और उदाहरण पा सकते हैं: [यहाँ](https://reference.aspose.com/pdf/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

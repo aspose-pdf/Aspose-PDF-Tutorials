@@ -1,14 +1,16 @@
 ---
-title: Zidentyfikuj obrazy w pliku PDF
-linktitle: Zidentyfikuj obrazy w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak identyfikować obrazy w plikach PDF i wykrywać ich typ koloru (skala szarości lub RGB) za pomocą Aspose.PDF dla .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
-weight: 150
-url: /pl/net/programming-with-images/identify-images/
+"description": "Dowiedz się, jak identyfikować obrazy w plikach PDF i wykrywać ich typ koloru (skala szarości lub RGB) za pomocą Aspose.PDF dla .NET, korzystając z tego szczegółowego przewodnika krok po kroku."
+"linktitle": "Zidentyfikuj obrazy w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zidentyfikuj obrazy w pliku PDF"
+"url": "/pl/net/programming-with-images/identify-images/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zidentyfikuj obrazy w pliku PDF
@@ -21,10 +23,10 @@ Podczas pracy z plikami PDF, ważne jest, aby wiedzieć, jak wchodzić w interak
 
 Zanim rozpoczniemy samouczek, omówmy, co będzie potrzebne do wykonania tego zadania:
 
--  Aspose.PDF dla .NET: Upewnij się, że zainstalowałeś najnowszą wersję. Możesz[pobierz Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/) lub uzyskaj dostęp do[bezpłatny okres próbny](https://releases.aspose.com/).
+- Aspose.PDF dla .NET: Upewnij się, że zainstalowałeś najnowszą wersję. Możesz [pobierz Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/) lub uzyskaj dostęp do [bezpłatny okres próbny](https://releases.aspose.com/).
 - IDE: Będziesz potrzebować środowiska programistycznego, np. Visual Studio.
 - .NET Framework: Upewnij się, że w projekcie zainstalowano i skonfigurowano .NET Framework.
--  Licencja tymczasowa: Możesz również chcieć uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)aby odblokować pełne funkcje biblioteki, jeśli korzystasz z wersji próbnej.
+- Licencja tymczasowa: Możesz również chcieć uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować wszystkie funkcje biblioteki, jeśli korzystasz z wersji próbnej.
 
 ## Importowanie niezbędnych pakietów
 
@@ -41,10 +43,10 @@ Gdy już przygotujesz odpowiednie środowisko, czas podzielić zadanie na proste
 
 ## Krok 1: Załaduj swój dokument PDF
 
- Najpierw musisz załadować dokument PDF zawierający obrazy. Ten krok obejmuje określenie ścieżki pliku i użycie`Document` klasa, aby otworzyć plik PDF.
+Najpierw musisz załadować dokument PDF zawierający obrazy. Ten krok obejmuje określenie ścieżki pliku i użycie `Document` klasa, aby otworzyć plik PDF.
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY";  // Ścieżka do Twojego dokumentu PDF
+string dataDir = "YOUR DOCUMENT DIRECTORY";  // Ścieżka do dokumentu PDF
 Document document = new Document(dataDir + "ExtractImages.pdf");
 ```
 
@@ -63,7 +65,7 @@ Dzięki zainicjowaniu tych liczników będziesz mógł śledzić liczbę obrazó
 
 ## Krok 3: Przejrzyj strony
 
- Teraz, gdy Twój dokument jest załadowany, musisz przejść przez każdą stronę w pliku PDF. Aspose.PDF pozwala na łatwe iterowanie po stronach za pomocą`Pages` nieruchomość.
+Teraz, gdy Twój dokument jest załadowany, musisz przejść przez każdą stronę w pliku PDF. Aspose.PDF pozwala na łatwe iterowanie po stronach za pomocą `Pages` nieruchomość.
 
 ```csharp
 foreach (Page page in document.Pages)
@@ -77,18 +79,18 @@ Ten kod wyświetli numer każdej strony w pliku PDF, informując Cię, która st
 
 ## Krok 4: Użyj ImagePlacementAbsorber do identyfikacji obrazów
 
- Następnie musimy użyć`ImagePlacementAbsorber` klasa do wyodrębniania danych obrazu z każdej strony. Ta klasa pomaga w lokalizowaniu obrazów obecnych na stronie.
+Następnie musimy użyć `ImagePlacementAbsorber` klasa do wyodrębniania danych obrazu z każdej strony. Ta klasa pomaga w lokalizowaniu obrazów obecnych na stronie.
 
 ```csharp
 ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
 page.Accept(abs);
 ```
 
- Ten`ImagePlacementAbsorber` „absorbuje” wszystkie obrazy na bieżącej stronie, ułatwiając dostęp do nich i ich analizę.
+Ten `ImagePlacementAbsorber` „absorbuje” wszystkie obrazy na bieżącej stronie, ułatwiając dostęp do nich i ich analizę.
 
 ## Krok 5: Policz obrazy na każdej stronie
 
- Gdy obrazy zostaną wchłonięte, czas policzyć, ile obrazów znajduje się na tej stronie. Możesz użyć`ImagePlacements.Count` Właściwość umożliwiająca uzyskanie liczby obrazów.
+Gdy obrazy zostaną wchłonięte, czas policzyć, ile obrazów znajduje się na tej stronie. Możesz użyć `ImagePlacements.Count` Właściwość umożliwiająca uzyskanie liczby obrazów.
 
 ```csharp
 Console.WriteLine("Total Images = {0} on page number {1}", abs.ImagePlacements.Count, page.Number);
@@ -98,7 +100,7 @@ Ten krok wyświetli całkowitą liczbę obrazów znalezionych na bieżącej stro
 
 ## Krok 6: Wykryj typ koloru obrazu (skala szarości lub RGB)
 
- Teraz najważniejsza część — identyfikacja typu koloru każdego obrazu. Aspose.PDF zapewnia`GetColorType()` metoda pozwalająca ustalić, czy obraz jest w skali szarości czy RGB.
+Teraz najważniejsza część — identyfikacja typu koloru każdego obrazu. Aspose.PDF zapewnia `GetColorType()` metoda pozwalająca ustalić, czy obraz jest w skali szarości czy RGB.
 
 ```csharp
 int image_counter = 1;
@@ -140,7 +142,7 @@ Identyfikowanie obrazów w plikach PDF, zwłaszcza wykrywanie ich typu koloru, j
 ## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.PDF dla platformy .NET?  
- Możesz zainstalować Aspose.PDF dla .NET za pomocą NuGet lub pobrać go ze strony[Tutaj](https://releases.aspose.com/pdf/net/).
+Możesz zainstalować Aspose.PDF dla .NET za pomocą NuGet lub pobrać go ze strony [Tutaj](https://releases.aspose.com/pdf/net/).
 
 ### Czy mogę użyć tego samouczka, aby wyodrębnić obrazy z plików PDF chronionych hasłem?  
 Tak, ale przed przetworzeniem dokumentu konieczne będzie jego odblokowanie hasłem.
@@ -153,9 +155,11 @@ Tak, Aspose.PDF obsługuje inne przestrzenie kolorów, takie jak CMYK.
 
 ### Czy mogę użyć Aspose.PDF do wyodrębnienia obrazów i przekonwertowania ich na inny format?  
 Tak, możesz wyodrębnić obrazy i zapisać je w różnych formatach, takich jak PNG, JPEG itp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

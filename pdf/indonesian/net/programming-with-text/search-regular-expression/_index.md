@@ -1,14 +1,16 @@
 ---
-title: Cari Ekspresi Reguler Dalam File PDF
-linktitle: Cari Ekspresi Reguler Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mencari ekspresi reguler dalam file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Tingkatkan produktivitas Anda dengan regex.
-weight: 440
-url: /id/net/programming-with-text/search-regular-expression/
+"description": "Pelajari cara mencari ekspresi reguler dalam file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Tingkatkan produktivitas Anda dengan regex."
+"linktitle": "Cari Ekspresi Reguler Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Cari Ekspresi Reguler Dalam File PDF"
+"url": "/id/net/programming-with-text/search-regular-expression/"
+"weight": 440
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cari Ekspresi Reguler Dalam File PDF
@@ -21,7 +23,7 @@ Saat menangani dokumen PDF berukuran besar, Anda mungkin menemukan diri Anda men
 
 Sebelum kita menyelami tutorial langkah demi langkah, mari kita bahas apa saja yang perlu Anda siapkan:
 
--  Aspose.PDF untuk .NET: Anda perlu menginstal pustaka ini. Jika Anda belum menginstalnya, Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Anda perlu menginstal pustaka ini. Jika Anda belum menginstalnya, Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 - IDE: Visual Studio atau IDE lain yang kompatibel dengan C#.
 - .NET Framework: Pastikan proyek Anda disiapkan dengan versi .NET Framework yang sesuai.
 - Pengetahuan dasar tentang C#: Meskipun panduan ini terperinci, pemahaman dasar tentang C# akan sangat membantu.
@@ -40,7 +42,7 @@ Mari kita uraikan proses pencarian ekspresi reguler dalam berkas PDF menggunakan
 
 ## Langkah 1: Siapkan Direktori Dokumen
 
- Setiap operasi PDF dimulai dengan menentukan lokasi dokumen Anda. Anda perlu menentukan jalur ke file PDF Anda, yang disimpan di`dataDir` variabel.
+Setiap operasi PDF dimulai dengan menentukan lokasi dokumen Anda. Anda perlu menentukan jalur ke file PDF Anda, yang disimpan di `dataDir` variabel.
 
 ### Langkah 1.1: Tentukan Jalur Dokumen Anda
 
@@ -49,22 +51,22 @@ Mari kita uraikan proses pencarian ekspresi reguler dalam berkas PDF menggunakan
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Langkah ini penting karena mengarahkan kode Anda ke berkas yang ingin Anda gunakan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Langkah ini penting karena mengarahkan kode Anda ke berkas yang ingin Anda gunakan.
 
 ### Langkah 1.2: Buka Dokumen PDF
 
- Selanjutnya, Anda perlu membuka dokumen PDF menggunakan`Document` kelas dari Aspose.PDF.
+Selanjutnya, Anda perlu membuka dokumen PDF menggunakan `Document` kelas dari Aspose.PDF.
 
 ```csharp
 // Buka dokumennya
 Document pdfDocument = new Document(dataDir + "SearchRegularExpressionAll.pdf");
 ```
 
- Di Sini,`"SearchRegularExpressionAll.pdf"` adalah contoh berkas PDF tempat kita akan melakukan pencarian regex.
+Di Sini, `"SearchRegularExpressionAll.pdf"` adalah contoh berkas PDF tempat kita akan melakukan pencarian regex.
 
 ## Langkah 2: Siapkan TextFragmentAbsorber
 
- Di sinilah keajaiban terjadi!`TextFragmentAbsorber` Kelas membantu dalam menangkap fragmen teks yang cocok dengan pola atau ekspresi reguler tertentu.
+Di sinilah keajaiban terjadi! `TextFragmentAbsorber` Kelas membantu dalam menangkap fragmen teks yang cocok dengan pola atau ekspresi reguler tertentu.
 
 Mari kita siapkan penyerap untuk menemukan pola menggunakan regex. Dalam kasus ini, kita mencari pola tahun seperti "1999-2000".
 
@@ -73,11 +75,11 @@ Mari kita siapkan penyerap untuk menemukan pola menggunakan regex. Dalam kasus i
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("\\d{4}-\\d{4}"); // Seperti tahun 1999-2000
 ```
 
- Ekspresi reguler`\\d{4}-\\d{4}` mencari pola empat digit diikuti tanda hubung dan empat digit lainnya, yang umum untuk rentang tahun.
+Ekspresi reguler `\\d{4}-\\d{4}` mencari pola empat digit diikuti tanda hubung dan empat digit lainnya, yang umum untuk rentang tahun.
 
 ## Langkah 3: Aktifkan Pencarian Ekspresi Reguler
 
- Untuk memastikan bahwa operasi pencarian menafsirkan pola sebagai ekspresi reguler, Anda perlu mengonfigurasi opsi pencarian menggunakan`TextSearchOptions` kelas.
+Untuk memastikan bahwa operasi pencarian menafsirkan pola sebagai ekspresi reguler, Anda perlu mengonfigurasi opsi pencarian menggunakan `TextSearchOptions` kelas.
 
 ```csharp
 // Tetapkan opsi pencarian teks untuk menentukan penggunaan ekspresi reguler
@@ -85,11 +87,11 @@ TextSearchOptions textSearchOptions = new TextSearchOptions(true);
 textFragmentAbsorber.TextSearchOptions = textSearchOptions;
 ```
 
- Pengaturan`TextSearchOptions` ke`true` memastikan bahwa penyerap menggunakan pencarian berbasis ekspresi reguler, bukan teks biasa.
+Pengaturan `TextSearchOptions` ke `true` memastikan bahwa penyerap menggunakan pencarian berbasis ekspresi reguler, bukan teks biasa.
 
 ## Langkah 4: Terima Text Absorber
 
- Pada tahap ini, Anda menerapkan penyerap teks ke dokumen PDF sehingga dapat melakukan operasi pencarian. Ini dilakukan dengan memanggil`Accept` metode pada`Pages` objek dokumen PDF.
+Pada tahap ini, Anda menerapkan penyerap teks ke dokumen PDF sehingga dapat melakukan operasi pencarian. Ini dilakukan dengan memanggil `Accept` metode pada `Pages` objek dokumen PDF.
 
 ```csharp
 // Terima penyerap untuk semua halaman
@@ -100,7 +102,7 @@ Perintah ini memproses semua halaman PDF, mencari teks apa pun yang cocok dengan
 
 ## Langkah 5: Ekstrak dan Tampilkan Hasilnya
 
- Setelah pencarian selesai, Anda perlu mengekstrak hasilnya.`TextFragmentAbsorber` menyimpan hasil ini di`TextFragmentCollection`Anda dapat mengulang koleksi ini untuk mengakses dan menampilkan setiap fragmen teks yang cocok.
+Setelah pencarian selesai, Anda perlu mengekstrak hasilnya. `TextFragmentAbsorber` menyimpan hasil ini di `TextFragmentCollection`Anda dapat mengulang koleksi ini untuk mengakses dan menampilkan setiap fragmen teks yang cocok.
 
 ### Langkah 5.1: Ambil Fragmen Teks yang Diekstrak
 
@@ -130,7 +132,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
- Untuk setiap`TextFragment`, detail seperti ukuran font, nama font, dan posisi dicetak. Ini tidak hanya membantu dalam menemukan teks tetapi juga memberi Anda format dan lokasi yang tepat.
+Untuk setiap `TextFragment`, detail seperti ukuran font, nama font, dan posisi dicetak. Ini tidak hanya membantu dalam menemukan teks tetapi juga memberi Anda format dan lokasi yang tepat.
 
 ## Kesimpulan
 
@@ -139,10 +141,10 @@ Nah, itu dia! Mencari pola dalam file PDF menggunakan ekspresi reguler sangatlah
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mencari beberapa pola dalam satu PDF?
- Ya, Anda dapat menjalankan beberapa`TextFragmentAbsorber` objek, masing-masing dengan pola regex yang berbeda, di PDF yang sama.
+Ya, Anda dapat menjalankan beberapa `TextFragmentAbsorber` objek, masing-masing dengan pola regex yang berbeda, di PDF yang sama.
 
 ### Apakah Aspose.PDF mendukung pencarian pola tanpa memperhatikan huruf besar/kecil?
- Tentu saja! Anda dapat mengonfigurasi`TextSearchOptions` untuk membuat pencarian tidak peka huruf besar/kecil.
+Tentu saja! Anda dapat mengonfigurasi `TextSearchOptions` untuk membuat pencarian tidak peka huruf besar/kecil.
 
 ### Apakah ada batasan ukuran PDF yang dapat saya cari?
 Tidak ada batasan yang ketat, tetapi kinerjanya dapat bervariasi tergantung pada ukuran PDF dan kompleksitas pola regex.
@@ -151,10 +153,12 @@ Tidak ada batasan yang ketat, tetapi kinerjanya dapat bervariasi tergantung pada
 Ya, Aspose.PDF memungkinkan Anda untuk menyorot atau bahkan mengganti teks setelah ditemukan menggunakan absorber.
 
 ### Bagaimana cara menangani kesalahan jika pola tidak ditemukan?
- Jika tidak ada kecocokan yang ditemukan,`TextFragmentCollection` akan kosong. Anda dapat menangani skenario ini dengan pemeriksaan sederhana sebelum mengulang hasil.
+Jika tidak ada kecocokan yang ditemukan, `TextFragmentCollection` akan kosong. Anda dapat menangani skenario ini dengan pemeriksaan sederhana sebelum mengulang hasil.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

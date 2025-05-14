@@ -1,14 +1,16 @@
 ---
-title: डायनामिक XFA टू एक्रो फॉर्म
-linktitle: डायनामिक XFA टू एक्रो फॉर्म
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके डायनामिक XFA फॉर्म को मानक एक्रोफॉर्म में कैसे परिवर्तित किया जाए।
-weight: 70
-url: /hi/net/programming-with-forms/dynamic-xfa-to-acro-form/
+"description": "इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके डायनामिक XFA फॉर्म को मानक एक्रोफॉर्म में कैसे परिवर्तित किया जाए।"
+"linktitle": "डायनामिक XFA टू एक्रो फॉर्म"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "डायनामिक XFA टू एक्रो फॉर्म"
+"url": "/hi/net/programming-with-forms/dynamic-xfa-to-acro-form/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # डायनामिक XFA टू एक्रो फॉर्म
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-forms/dynamic-xfa-to-acro-form/
 इससे पहले कि हम कोड में प्रवेश करें, कुछ चीजें हैं जिन्हें आपको ध्यान में रखना होगा:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यह हमारा विकास वातावरण होगा।
-2.  .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग की बुनियादी समझ आपको इसे आसानी से समझने में मदद करेगी।
 
 ## पैकेज आयात करें
@@ -47,7 +49,7 @@ using Aspose.Pdf.Forms;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपकी पीडीएफ फाइलें स्थित हैं।
+प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपकी पीडीएफ फाइलें स्थित हैं।
 
 ## चरण 2: डायनामिक XFA फॉर्म लोड करें
 
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "DynamicXFAToAcroForm.pdf");
 ```
 
- यहाँ, हम एक नया निर्माण करते हैं`Document` ऑब्जेक्ट और हमारे डायनेमिक XFA PDF फ़ाइल का पथ पास करें। यदि फ़ाइल सही तरीके से स्थित है, तो यह हमारे में लोड हो जाएगी`document` चर।
+यहाँ, हम एक नया निर्माण करते हैं `Document` ऑब्जेक्ट और हमारे डायनेमिक XFA PDF फ़ाइल का पथ पास करें। यदि फ़ाइल सही तरीके से स्थित है, तो यह हमारे में लोड हो जाएगी `document` चर।
 
 ## चरण 3: फ़ॉर्म फ़ील्ड प्रकार सेट करें
 
@@ -69,7 +71,7 @@ Document document = new Document(dataDir + "DynamicXFAToAcroForm.pdf");
 document.Form.Type = FormType.Standard;
 ```
 
- फॉर्म प्रकार को सेट करके`Standard`, हम Aspose.PDF को फॉर्म को एक मानक AcroForm के रूप में मानने के लिए कह रहे हैं, जो अधिक व्यापक रूप से समर्थित है और हेरफेर करने में आसान है।
+फॉर्म प्रकार को सेट करके `Standard`, हम Aspose.PDF को फॉर्म को एक मानक AcroForm के रूप में मानने के लिए कह रहे हैं, जो अधिक व्यापक रूप से समर्थित है और हेरफेर करने में आसान है।
 
 ## चरण 4: परिणामी पीडीएफ को सेव करें
 
@@ -81,7 +83,7 @@ dataDir = dataDir + "Standard_AcroForm_out.pdf";
 document.Save(dataDir);
 ```
 
- यहाँ, हम अपने फ़ाइल नाम में नया फ़ाइल नाम जोड़ते हैं`dataDir` और दस्तावेज़ को सेव करें। इससे एक नई पीडीएफ फाइल बनेगी जिसमें परिवर्तित एक्रोफॉर्म शामिल होगा।
+यहाँ, हम अपने नए फ़ाइल नाम को जोड़ते हैं `dataDir` और दस्तावेज़ को सेव करें। इससे एक नई पीडीएफ फाइल बनेगी जिसमें परिवर्तित एक्रोफॉर्म शामिल होगा।
 
 ## चरण 5: रूपांतरण की पुष्टि करें
 
@@ -108,14 +110,16 @@ Console.WriteLine("\nDynamic XFA form converted to standard AcroForm successfull
 ### क्या मैं Aspose.PDF का निःशुल्क उपयोग कर सकता हूँ?
 हां, Aspose एक निःशुल्क परीक्षण प्रदान करता है जिसका उपयोग आप खरीदने से पहले लाइब्रेरी का परीक्षण करने के लिए कर सकते हैं।
 
-### मुझे अधिक दस्तावेज कहां मिल सकते हैं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/net/).
+### मैं अधिक दस्तावेज कहां पा सकता हूं?
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/net/).
 
 ### यदि मुझे कोई समस्या आए तो क्या होगा?
- आप Aspose समुदाय से सहायता ले सकते हैं[यहाँ](https://forum.aspose.com/c/pdf/10).
+आप Aspose समुदाय से सहायता ले सकते हैं [यहाँ](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

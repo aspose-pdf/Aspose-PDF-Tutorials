@@ -8,7 +8,9 @@ url: /java/pdf-annotations/remove-annotations-pdf-pages/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Annotations from PDF Pages
@@ -97,6 +99,7 @@ You can explore detailed documentation and examples on the Aspose.PDF for Java d
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

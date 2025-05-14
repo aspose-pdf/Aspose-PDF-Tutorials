@@ -1,14 +1,16 @@
 ---
-title: Elemen Struktur Teks Dalam File PDF
-linktitle: Elemen Struktur Teks Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memanipulasi elemen struktur teks dalam PDF dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup semua yang Anda butuhkan untuk membuat PDF terstruktur.
-weight: 230
-url: /id/net/programming-with-tagged-pdf/text-structure-elements/
+"description": "Pelajari cara memanipulasi elemen struktur teks dalam PDF dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup semua yang Anda butuhkan untuk membuat PDF terstruktur."
+"linktitle": "Elemen Struktur Teks Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Elemen Struktur Teks Dalam File PDF"
+"url": "/id/net/programming-with-tagged-pdf/text-structure-elements/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elemen Struktur Teks Dalam File PDF
@@ -23,9 +25,9 @@ Sebelum kita menyelami seluk-beluk manipulasi elemen struktur teks dalam berkas 
 
 - Pengetahuan Dasar C#: Keakraban dengan pemrograman C# sangat penting karena Aspose.PDF untuk .NET terutama digunakan dalam kerangka kerja ini.
 - Visual Studio Terpasang: Pastikan Visual Studio terpasang di komputer Anda. Di sinilah Anda akan menulis dan menjalankan kode.
--  Pustaka Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Untuk versi terbaru, periksa[tautan unduhan di sini](https://releases.aspose.com/pdf/net/).
+- Pustaka Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Untuk versi terbaru, periksa [tautan unduhan di sini](https://releases.aspose.com/pdf/net/).
 - Akses ke .NET Framework: Pastikan proyek Anda diatur untuk menggunakan versi .NET Framework yang kompatibel yang mendukung Aspose.PDF.
--  Lisensi Aspose: Meskipun uji coba gratis tersedia, lisensi permanen dapat diperoleh dari[Di Sini](https://purchase.aspose.com/buy).
+- Lisensi Aspose: Meskipun uji coba gratis tersedia, lisensi permanen dapat diperoleh dari [Di Sini](https://purchase.aspose.com/buy).
 
 ## Paket Impor
 
@@ -36,7 +38,7 @@ Buka proyek Visual Studio yang sudah ada atau buat yang baru. Pastikan proyek te
 
 ### Instal Aspose.PDF untuk .NET
 1. Navigasi ke Alat -> Manajer Paket NuGet -> Kelola Paket NuGet untuk Solusi.
-2.  Pencarian untuk`Aspose.PDF`.
+2. Pencarian untuk `Aspose.PDF`.
 3. Klik Instal untuk menambahkan perpustakaan ke proyek Anda.
 
 ### Tambahkan Menggunakan Arahan
@@ -80,7 +82,7 @@ Untuk aksesibilitas PDF, kami membuat dan mengelola konten yang diberi tag. Beri
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- Itu`TaggedContent` properti memberi Anda cara untuk mengelola elemen struktural PDF, yang penting untuk menjaga aksesibilitas.
+Itu `TaggedContent` properti memberi Anda cara untuk mengelola elemen struktural PDF, yang penting untuk menjaga aksesibilitas.
 
 ## Langkah 4: Tetapkan Judul dan Bahasa Dokumen
 
@@ -103,7 +105,7 @@ StructureElement rootElement = taggedContent.RootElement;
 
 Elemen akar berfungsi seperti batang pohon, tempat semua elemen struktural lainnya bercabang.
 
-## Langkah 6: Buat Elemen Paragraf
+## Langkah 6: Membuat Elemen Paragraf
 
 Sekarang kita perlu membuat elemen paragraf tempat kita dapat menambahkan beberapa teks:
 
@@ -153,19 +155,21 @@ Dengan panduan langkah demi langkah ini, Anda telah mempelajari cara membuat dok
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram dalam aplikasi .NET.
 
 ### Di mana saya dapat mengunduh Aspose.PDF?  
- Anda dapat mengunduh Aspose.PDF untuk .NET dari[lokasi](https://releases.aspose.com/pdf/net/).
+Anda dapat mengunduh Aspose.PDF untuk .NET dari [lokasi](https://releases.aspose.com/pdf/net/).
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF?  
-Anda dapat menggunakan perpustakaan ini secara gratis untuk masa percobaan. Untuk penggunaan lebih lanjut, Anda memerlukan lisensi yang dapat dibeli[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat menggunakan perpustakaan ini secara gratis untuk masa percobaan. Untuk penggunaan lebih lanjut, Anda memerlukan lisensi yang dapat dibeli [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana saya dapat meningkatkan aksesibilitas PDF?  
 Penggunaan konten yang diberi tag secara efektif meningkatkan aksesibilitas PDF dengan menyediakan semantik struktural yang dapat dipahami oleh teknologi bantuan.
 
 ### Bisakah saya membuat PDF dalam bahasa pemrograman lain dengan Aspose?  
 Ya, Aspose menawarkan pustaka untuk berbagai bahasa pemrograman termasuk Java, Python, dan banyak lagi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

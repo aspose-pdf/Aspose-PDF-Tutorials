@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ फाइल में हाइपरलिंक जोड़ें
-linktitle: जावा का उपयोग करके पीडीएफ फाइल में हाइपरलिंक जोड़ें
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: चरण-दर-चरण निर्देशों और स्रोत कोड के साथ जावा का उपयोग करके PDF फ़ाइलों में हाइपरलिंक जोड़ना सीखें। अपने PDF दस्तावेज़ों को अन्तरक्रियाशीलता के साथ बेहतर बनाएँ।
-weight: 13
-url: /hi/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/
+"description": "चरण-दर-चरण निर्देशों और स्रोत कोड के साथ जावा का उपयोग करके PDF फ़ाइलों में हाइपरलिंक जोड़ना सीखें। अपने PDF दस्तावेज़ों को अन्तरक्रियाशीलता के साथ बेहतर बनाएँ।"
+"linktitle": "जावा का उपयोग करके पीडीएफ फाइल में हाइपरलिंक जोड़ें"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ फाइल में हाइपरलिंक जोड़ें"
+"url": "/hi/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ फाइल में हाइपरलिंक जोड़ें
@@ -30,7 +32,7 @@ url: /hi/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/
 - आपकी पसंद का एकीकृत विकास वातावरण (IDE) (जैसे, एक्लिप्स, इंटेलीज आईडिया)
 - Aspose.PDF for Java लाइब्रेरी
 
- आप Java लाइब्रेरी के लिए Aspose.PDF को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/).
+आप Java लाइब्रेरी के लिए Aspose.PDF को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ## Java के लिए Aspose.PDF का उपयोग करके PDF में हाइपरलिंक जोड़ना
 
@@ -62,7 +64,7 @@ Page page = pdfDocument.getPages().add();
 // हाइपरलिंक क्षेत्र के लिए एक आयत बनाएँ
 Rectangle linkRect = new Rectangle(100, 100, 200, 150);
 
-// वेब हाइपरलिंक बनाएं
+// एक वेब हाइपरलिंक बनाएँ
 WebHyperlink hyperlink = new WebHyperlink();
 hyperlink.setURL("https://www.example.com");
 hyperlink.setRectangle(linkRect);
@@ -105,9 +107,11 @@ pdfDocument.save("hyperlink_example.pdf");
 ### मैं पीडीएफ में हाइपरलिंक के स्वरूप को कैसे अनुकूलित कर सकता हूं?
 
 आप हाइपरलिंक के विभिन्न गुण, जैसे रंग, बॉर्डर शैली और हाइलाइटिंग, को उनके स्वरूप को अनुकूलित करने के लिए सेट कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

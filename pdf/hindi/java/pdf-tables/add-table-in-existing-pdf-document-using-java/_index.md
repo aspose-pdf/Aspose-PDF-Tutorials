@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके मौजूदा पीडीएफ दस्तावेज़ में तालिका जोड़ें
-linktitle: जावा का उपयोग करके मौजूदा पीडीएफ दस्तावेज़ में तालिका जोड़ें
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Java और Aspose.PDF for Java का उपयोग करके मौजूदा PDF दस्तावेज़ों में तालिकाएँ जोड़ना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
+"description": "Java और Aspose.PDF for Java का उपयोग करके मौजूदा PDF दस्तावेज़ों में तालिकाएँ जोड़ना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा का उपयोग करके मौजूदा पीडीएफ दस्तावेज़ में तालिका जोड़ें"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके मौजूदा पीडीएफ दस्तावेज़ में तालिका जोड़ें"
+"url": "/hi/java/pdf-tables/add-table-in-existing-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके मौजूदा पीडीएफ दस्तावेज़ में तालिका जोड़ें
@@ -24,7 +26,7 @@ url: /hi/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
 
 - जावा डेवलपमेंट किट (JDK) स्थापित.
 - एक एकीकृत विकास वातावरण (IDE) जैसे कि IntelliJ IDEA या Eclipse.
--  Aspose.PDF for Java लाइब्रेरी, जिसे आप यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java लाइब्रेरी, जिसे आप यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ## वातावरण की स्थापना
 
@@ -33,7 +35,7 @@ url: /hi/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
 
 ## निर्भरताएँ जोड़ना
 
- आपके प्रोजेक्ट में`pom.xml` (यदि आप Maven का उपयोग कर रहे हैं) या build.gradle फ़ाइल (यदि आप Gradle का उपयोग कर रहे हैं) में, निम्नलिखित निर्भरता जोड़ें:
+आपके प्रोजेक्ट में `pom.xml` (यदि आप Maven का उपयोग कर रहे हैं) या build.gradle फ़ाइल (यदि आप Gradle का उपयोग कर रहे हैं) में, निम्नलिखित निर्भरता जोड़ें:
 
 ```xml
 <dependencies>
@@ -45,7 +47,7 @@ url: /hi/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
 </dependencies>
 ```
 
- प्रतिस्थापित करें`latest_version` आपके द्वारा डाउनलोड की गई Aspose.PDF लाइब्रेरी के वास्तविक संस्करण के साथ।
+प्रतिस्थापित करें `latest_version` आपके द्वारा डाउनलोड की गई Aspose.PDF लाइब्रेरी के वास्तविक संस्करण के साथ।
 
 ## तालिका बनाना
 
@@ -64,7 +66,7 @@ pdfDocument.getPages().get_Item(1).getParagraphs().add(table);
 
 ## तालिका गुण परिभाषित करना
 
-आप अपनी टेबल के लिए बॉर्डर, चौड़ाई और संरेखण जैसे विभिन्न गुण सेट कर सकते हैं। यहाँ एक उदाहरण दिया गया है:
+आप अपनी टेबल के लिए कई तरह के गुण सेट कर सकते हैं, जैसे बॉर्डर, चौड़ाई और संरेखण। यहाँ एक उदाहरण दिया गया है:
 
 ```java
 // टेबल बॉर्डर सेट करें
@@ -125,7 +127,7 @@ pdfDocument.save("modified-document.pdf");
 
 ### मैं Java के लिए Aspose.PDF कैसे स्थापित कर सकता हूँ?
 
- आप Java के लिए Aspose.PDF यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/)उनकी वेबसाइट पर दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+आप Java के लिए Aspose.PDF यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/)उनकी वेबसाइट पर दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### क्या मैं तालिका कक्षों में छवियाँ जोड़ सकता हूँ?
 
@@ -137,14 +139,16 @@ pdfDocument.save("modified-document.pdf");
 
 ### मैं तालिका कक्षों के लिए कस्टम बॉर्डर कैसे सेट करूँ?
 
- आप सेल बॉर्डर को समायोजित करके अनुकूलित कर सकते हैं`BorderInfo` गुण। विस्तृत उदाहरणों के लिए Aspose.PDF दस्तावेज़ देखें।
+आप सेल बॉर्डर को समायोजित करके अनुकूलित कर सकते हैं `BorderInfo` गुण। विस्तृत उदाहरणों के लिए Aspose.PDF दस्तावेज़ देखें।
 
 ### क्या मैं PDF दस्तावेज़ में मौजूदा तालिकाओं से डेटा निकाल सकता हूँ?
 
 हां, आप जावा के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ में मौजूदा तालिकाओं से डेटा निकाल सकते हैं। निष्कर्षण विधियों और उदाहरणों के लिए दस्तावेज़ देखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

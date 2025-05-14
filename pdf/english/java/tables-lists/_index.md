@@ -4,8 +4,11 @@ description: "Complete tutorials for creating and manipulating tables, lists, an
 weight: 6
 url: "/java/tables-lists/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PDF Tables and Lists Tutorials for Aspose.PDF Java
 
@@ -50,7 +53,11 @@ Learn how to seamlessly add and adjust tables in PDF documents using Aspose.PDF 
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

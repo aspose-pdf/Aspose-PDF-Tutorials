@@ -8,7 +8,9 @@ url: /java/pdf-images/extract-images-from-pdf-file-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Images from a PDF File using Java
@@ -90,6 +92,7 @@ You can find extensive documentation, tutorials, and examples for Aspose.PDF for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Text Stamps to PDFs Using Aspose.PDF for Java
 
@@ -168,7 +170,11 @@ A: While Aspose.PDF doesn't provide direct removal functionality for stamps, you
 - [Purchase a License](https://purchase.aspose.com/buy)
 - [Free Trial and Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

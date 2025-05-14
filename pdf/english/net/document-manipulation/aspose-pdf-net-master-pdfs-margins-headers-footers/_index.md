@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -276,6 +278,9 @@ public class AddCustomTable {
 This guide detailed setting page margins, adding headers/footers, and customizing tables in PDFs using Aspose.PDF for .NET. By following these steps, you can enhance document layouts and improve the presentation of your PDF content.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

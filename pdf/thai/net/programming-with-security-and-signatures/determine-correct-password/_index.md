@@ -1,14 +1,16 @@
 ---
-title: กำหนดรหัสผ่านที่ถูกต้องในไฟล์ PDF
-linktitle: กำหนดรหัสผ่านที่ถูกต้องในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: ปลดล็อกไฟล์ PDF ด้วยรหัสผ่านที่ถูกต้องโดยใช้ Aspose.PDF สำหรับ .NET เรียนรู้วิธีการระบุรหัสผ่านที่ถูกต้องได้อย่างง่ายดาย
-weight: 30
-url: /th/net/programming-with-security-and-signatures/determine-correct-password/
+"description": "ปลดล็อกไฟล์ PDF ด้วยรหัสผ่านที่ถูกต้องโดยใช้ Aspose.PDF สำหรับ .NET เรียนรู้วิธีการระบุรหัสผ่านที่ถูกต้องได้อย่างง่ายดาย"
+"linktitle": "กำหนดรหัสผ่านที่ถูกต้องในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "กำหนดรหัสผ่านที่ถูกต้องในไฟล์ PDF"
+"url": "/th/net/programming-with-security-and-signatures/determine-correct-password/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # กำหนดรหัสผ่านที่ถูกต้องในไฟล์ PDF
@@ -24,7 +26,7 @@ url: /th/net/programming-with-security-and-signatures/determine-correct-password
 ### ซอฟต์แวร์และเครื่องมือ
 
 1. .NET Framework หรือ .NET Core: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework หรือ .NET Core ไว้ในสภาพแวดล้อมการพัฒนาของคุณแล้ว
-2.  Aspose.PDF สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.PDF ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.PDF ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
    
 ### สภาพแวดล้อมการพัฒนา
 
@@ -33,7 +35,7 @@ url: /th/net/programming-with-security-and-signatures/determine-correct-password
 
 ### API และใบอนุญาต
 
--  หากคุณกำลังวางแผนที่จะใช้ฟังก์ชันเต็มรูปแบบของ Aspose.PDF โปรดพิจารณารับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือ[ใบอนุญาตถาวร](https://purchase.aspose.com/buy).
+- หากคุณกำลังวางแผนที่จะใช้ฟังก์ชันเต็มรูปแบบของ Aspose.PDF โปรดพิจารณารับ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือ [ใบอนุญาตถาวร](https://purchase-aspose.com/buy).
   
 เมื่อทุกอย่างตั้งค่าเสร็จเรียบร้อยแล้ว คุณก็พร้อมที่จะปลดล็อกความลับของ PDF ที่ได้รับการป้องกันด้วยรหัสผ่านแล้ว!
 
@@ -66,7 +68,7 @@ Install-Package Aspose.PDF
 
 ## ขั้นตอนที่ 1: ตั้งค่าเส้นทางไฟล์
 
- ก่อนอื่น คุณจะต้องระบุเส้นทางไปยังไฟล์ PDF ที่คุณกำลังทำงานด้วย อย่าลืมแทนที่`"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ PDF ของคุณอยู่
+ก่อนอื่น คุณจะต้องระบุเส้นทางไปยังไฟล์ PDF ที่คุณกำลังทำงานด้วย อย่าลืมแทนที่ `"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ PDF ของคุณอยู่
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -74,14 +76,14 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## ขั้นตอนที่ 2: โหลดไฟล์ PDF ต้นฉบับ
 
- ถัดไปใช้`PdfFileInfo` ในการโหลดไฟล์ PDF ต้นฉบับของคุณ:
+ถัดไปใช้ `PdfFileInfo` ในการโหลดไฟล์ PDF ต้นฉบับของคุณ:
 
 ```csharp
 PdfFileInfo info = new PdfFileInfo();
 info.BindPdf(dataDir + "IsPasswordProtected.pdf");
 ```
 
- ขั้นตอนนี้จะผูกไฟล์ PDF เข้ากับ`info` วัตถุที่ให้เราสามารถเข้าถึงคุณสมบัติของมันได้
+ขั้นตอนนี้จะผูกไฟล์ PDF เข้ากับ `info` วัตถุที่ให้เราสามารถเข้าถึงคุณสมบัติของมันได้
 
 ## ขั้นตอนที่ 3: ตรวจสอบว่า PDF ได้รับการเข้ารหัสหรือไม่
 
@@ -91,7 +93,7 @@ info.BindPdf(dataDir + "IsPasswordProtected.pdf");
 Console.WriteLine("File is password protected " + info.IsEncrypted);
 ```
 
- โดยการตรวจสอบ`IsEncrypted` ทรัพย์สิน คุณสามารถตรวจสอบสถานะการล็อคเอกสารได้ หากเป็น`true`ถ้าอย่างนั้นคุณจะต้องถอดรหัส!
+โดยการตรวจสอบ `IsEncrypted` ทรัพย์สิน คุณสามารถตรวจสอบสถานะการล็อคเอกสารได้ หากเป็น `true`ถ้าอย่างนั้นคุณจะต้องถอดรหัส!
 
 ## ขั้นตอนที่ 4: เตรียมรายการรหัสผ่านที่เป็นไปได้
 
@@ -133,7 +135,7 @@ for (int passwordcount = 0; passwordcount < passwords.Length; passwordcount++)
 Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และจัดการเอกสาร PDF ด้วยโปรแกรมได้
 
 ### ฉันสามารถทดลองใช้ Aspose.PDF ฟรีได้หรือไม่?
- ใช่ คุณสามารถดาวน์โหลด Aspose.PDF รุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com).
+ใช่ คุณสามารถดาวน์โหลด Aspose.PDF รุ่นทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com).
 
 ### ฉันควรทำอย่างไรหากลืมรหัสผ่าน PDF ของฉัน?
 หากคุณมีรหัสผ่านหลายรหัส คุณสามารถใช้วิธีที่อธิบายไว้ข้างต้นเพื่อพยายามปลดล็อกรหัสผ่านได้ อย่างไรก็ตาม โปรดตรวจสอบให้แน่ใจว่าคุณปฏิบัติตามแนวทางทางกฎหมาย
@@ -142,10 +144,12 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช
 การปลดล็อก PDF ถือเป็นเรื่องถูกกฎหมายก็ต่อเมื่อคุณมีสิทธิ์เข้าถึงเนื้อหานั้นเท่านั้น โปรดตรวจสอบให้แน่ใจว่าคุณได้รับอนุญาตก่อนที่จะพยายามหลีกเลี่ยงการรักษาความปลอดภัยใดๆ
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้จากที่ไหน
-หากต้องการสอบถามและขอรับการสนับสนุน สามารถเข้าไปที่[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10).
+หากต้องการสอบถามและขอรับการสนับสนุน สามารถเข้าไปที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

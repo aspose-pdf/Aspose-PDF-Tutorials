@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/counting-artifacts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Counting Artifacts In PDF File
@@ -124,6 +126,7 @@ You can purchase a license for Aspose.PDF from their [purchase page](https://pur
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

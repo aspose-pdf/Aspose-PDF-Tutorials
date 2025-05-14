@@ -1,14 +1,16 @@
 ---
-title: Nội dung PDF được gắn thẻ
-linktitle: Nội dung PDF được gắn thẻ
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách làm việc với nội dung được gắn thẻ trong tài liệu PDF với Aspose.PDF cho .NET. Hướng dẫn từng bước để sử dụng thẻ.
-weight: 200
-url: /vi/net/programming-with-tagged-pdf/tagged-pdf-content/
+"description": "Tìm hiểu cách làm việc với nội dung được gắn thẻ trong tài liệu PDF với Aspose.PDF cho .NET. Hướng dẫn từng bước để sử dụng thẻ."
+"linktitle": "Nội dung PDF được gắn thẻ"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nội dung PDF được gắn thẻ"
+"url": "/vi/net/programming-with-tagged-pdf/tagged-pdf-content/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nội dung PDF được gắn thẻ
@@ -22,11 +24,11 @@ Trong thời đại kỹ thuật số, tài liệu cũng quan trọng như nhữ
 Trước khi đi sâu vào việc tạo PDF được gắn thẻ của bạn, hãy cùng tập hợp các công cụ bạn cần. Hãy tưởng tượng bạn sắp nướng bánh: bạn sẽ không muốn bỏ sót một thành phần nào, phải không? Sau đây là danh sách kiểm tra đơn giản để biết tất cả.
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Aspose.PDF tương thích với .NET, vì vậy đây là nền tảng thiết yếu.
-2.  Thư viện Aspose.PDF: Bạn cần thư viện đó. Đừng lo lắng; bạn có thể dễ dàng lấy nó từ[Liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+2. Thư viện Aspose.PDF: Bạn cần thư viện đó. Đừng lo lắng; bạn có thể dễ dàng lấy nó từ [Liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 3. Visual Studio hoặc bất kỳ IDE nào: Có một Môi trường phát triển tích hợp (IDE) như Visual Studio sẽ hợp lý hóa hành trình lập trình của bạn. Giống như việc có một căn bếp thoải mái trước khi nướng bánh.
 4. Kiến thức cơ bản về C#: Hiểu cách viết mã C# là rất quan trọng. Nếu bạn đã quen với những điều cơ bản, bạn đã sẵn sàng!
 
-Khi đã chuẩn bị xong những điều này, bạn đã sẵn sàng bắt đầu hành trình tạo PDF của mình!
+Khi đã hoàn tất những bước này, bạn đã sẵn sàng bắt đầu hành trình tạo PDF của mình!
 
 ## Nhập gói
 
@@ -66,7 +68,7 @@ Trước khi tạo PDF, hãy thiết lập một thư mục nơi tài liệu c�
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay đổi đường dẫn thư mục của bạn
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn mà bạn muốn lưu tệp PDF của mình. 
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn mà bạn muốn lưu tệp PDF của mình. 
 
 ## Bước 2: Tạo tài liệu PDF
 
@@ -126,17 +128,19 @@ PDF được gắn thẻ là tài liệu PDF được cấu trúc bằng thẻ �
 ### Tại sao tôi nên sử dụng Aspose.PDF cho .NET?
 Aspose.PDF cung cấp một bộ tính năng mạnh mẽ để tạo, chỉnh sửa và thao tác các tệp PDF theo chương trình, khiến nó trở nên lý tưởng cho các nhà phát triển .NET.
 
-### Tôi có thể tải xuống Aspose.PDF ở đâu?
- Bạn có thể tải xuống thư viện từ[Liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+### Tôi có thể tải Aspose.PDF ở đâu?
+Bạn có thể tải xuống thư viện từ [Liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 
 ### Có phiên bản dùng thử của Aspose.PDF không?
- Có! Bạn có thể bắt đầu với phiên bản dùng thử miễn phí bằng cách truy cập[Liên kết dùng thử miễn phí](https://releases.aspose.com/).
+Có! Bạn có thể bắt đầu với phiên bản dùng thử miễn phí bằng cách truy cập [Liên kết dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.PDF như thế nào?
- Đối với bất kỳ thắc mắc hoặc vấn đề hỗ trợ nào, hãy truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Đối với bất kỳ thắc mắc hoặc vấn đề hỗ trợ nào, hãy truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

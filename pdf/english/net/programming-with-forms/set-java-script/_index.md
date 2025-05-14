@@ -8,7 +8,9 @@ url: /net/programming-with-forms/set-java-script/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Java Script
@@ -149,6 +151,7 @@ Yes! Aspose provides a [free trial](https://releases.aspose.com/) to test the li
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

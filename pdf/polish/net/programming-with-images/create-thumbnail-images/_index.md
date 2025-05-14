@@ -1,14 +1,16 @@
 ---
-title: Utwórz miniatury obrazów w pliku PDF
-linktitle: Utwórz miniatury obrazów w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Bez trudu generuj miniatury każdej strony swojego pliku PDF za pomocą Aspose.PDF dla platformy .NET. Ulepsz podgląd dokumentu.
-weight: 100
-url: /pl/net/programming-with-images/create-thumbnail-images/
+"description": "Bez trudu generuj miniatury każdej strony swojego pliku PDF za pomocą Aspose.PDF dla platformy .NET. Ulepsz podgląd dokumentu."
+"linktitle": "Utwórz miniatury obrazów w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Utwórz miniatury obrazów w pliku PDF"
+"url": "/pl/net/programming-with-images/create-thumbnail-images/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz miniatury obrazów w pliku PDF
@@ -23,7 +25,7 @@ Zanim zagłębisz się w kod, musisz spełnić kilka warunków wstępnych, aby z
 
 1. Podstawowa znajomość języka C# lub .NET: Znajomość programowania w języku C# pomoże Ci lepiej rozumieć kod w miarę postępów.
 2. Zainstalowany program Visual Studio: Będziesz potrzebować IDE, aby pisać i uruchamiać swój kod. Program Visual Studio jest popularnym wyborem do tworzenia oprogramowania .NET.
-3. Aspose.PDF dla biblioteki .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać z[Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/).
+3. Aspose.PDF dla biblioteki .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać z [Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/).
 4. Pliki PDF: Przygotuj kilka plików PDF w wyznaczonym katalogu roboczym w celu przeprowadzenia testów.
 
 Chcesz zacząć od razu? Świetnie! Najpierw zaimportujmy niezbędne pakiety.
@@ -51,7 +53,7 @@ Pierwszym krokiem w naszym procesie jest określenie ścieżki do katalogu dokum
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zastąp rzeczywistą ścieżką katalogu
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, w której znajdują się Twoje pliki PDF. Ten krok jest kluczowy, ponieważ bez właściwego katalogu Twój program nie znajdzie plików PDF, które musi przetworzyć.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` ze ścieżką, w której znajdują się Twoje pliki PDF. Ten krok jest kluczowy, ponieważ bez właściwego katalogu Twój program nie znajdzie plików PDF, które musi przetworzyć.
 
 ## Krok 2: Pobierz nazwy plików PDF
 
@@ -61,7 +63,7 @@ Następnie będziesz chciał uzyskać nazwy wszystkich plików PDF w swoim katal
 string[] fileEntries = Directory.GetFiles(dataDir, "*.pdf");
 ```
 
- Tutaj używamy`Directory.GetFiles` metoda filtrowania i pobierania tylko plików PDF.`*.pdf` Symbol wieloznaczny zapewnia pobranie każdego pliku PDF w określonym katalogu. 
+Tutaj używamy `Directory.GetFiles` metoda filtrowania i pobierania tylko plików PDF. `*.pdf` Symbol wieloznaczny zapewnia pobranie każdego pliku PDF w określonym katalogu. 
 
 ## Krok 3: Przejrzyj każdy plik PDF
 
@@ -74,7 +76,7 @@ for (int counter = 0; counter < fileEntries.Length; counter++)
 }
 ```
 
- W tej pętli,`counter` śledzi, nad którym plikiem pracujemy.`Document` Klasa służy do otwierania każdego pliku PDF. Będziesz obsługiwać każdy plik PDF pojedynczo, aby tworzyć miniatury z jego stron.
+W tej pętli, `counter` śledzi, nad którym plikiem pracujemy. `Document` Klasa służy do otwierania każdego pliku PDF. Będziesz obsługiwać każdy plik PDF pojedynczo, aby tworzyć miniatury z jego stron.
 
 ## Krok 4: Utwórz miniatury dla każdej strony
 
@@ -89,7 +91,7 @@ using (FileStream imageStream = new FileStream(dataDir + "\\Thumbanils" + counte
 {
 ```
 
- Tutaj tworzymy nowy plik JPG dla każdej miniatury za pomocą`FileStream`Nazwa pliku zawiera licznik, więc każda miniatura ma unikalną nazwę.
+Tutaj tworzymy nowy plik JPG dla każdej miniatury za pomocą `FileStream`Nazwa pliku zawiera licznik, więc każda miniatura ma unikalną nazwę.
 
 ### Krok 4.2: Określ rozdzielczość
 
@@ -103,7 +105,7 @@ Rozdzielczość 300 DPI (punktów na cal) jest standardem dla obrazów wysokiej 
 
 ### Krok 4.3: Skonfiguruj JpegDevice
 
- Teraz skonfigurujemy`JpegDevice` który będzie używany do konwersji stron PDF na obrazy.
+Teraz skonfigurujemy `JpegDevice` który będzie używany do konwersji stron PDF na obrazy.
 
 ```csharp
 JpegDevice jpegDevice = new JpegDevice(45, 59, resolution, 100);
@@ -111,7 +113,7 @@ JpegDevice jpegDevice = new JpegDevice(45, 59, resolution, 100);
 
 Tutaj określamy wymiary miniatur i jakość. W tym przypadku ustawiliśmy wymiary na 45x59 pikseli, ale możemy dostosować te wartości zgodnie z potrzebami Twojej aplikacji.
 
-### Krok 4.4: Przetwarzaj każdą stronę
+### Krok 4.4: Przetwórz każdą stronę
 
 Gdy wszystko jest już gotowe, możemy teraz przetworzyć każdą stronę pliku PDF i zapisać wygenerowaną miniaturę w naszym strumieniu.
 
@@ -119,7 +121,7 @@ Gdy wszystko jest już gotowe, możemy teraz przetworzyć każdą stronę pliku 
 jpegDevice.Process(pdfDocument.Pages[pageCount], imageStream);
 ```
 
- Ten wiersz pobiera konkretną stronę z pliku PDF i przetwarza ją do formatu JPEG, przesyłając ją bezpośrednio do`imageStream`gdzie będziemy przechowywać miniaturę.
+Ten wiersz pobiera konkretną stronę z pliku PDF i przetwarza ją do formatu JPEG, przesyłając ją bezpośrednio do `imageStream` gdzie będziemy przechowywać miniaturę.
 
 ### Krok 4.5: Zamknij strumień
 
@@ -138,10 +140,10 @@ Tworzenie miniatur plików PDF może znacznie poprawić interakcję użytkownik�
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.PDF?  
-Aspose.PDF to zaawansowana biblioteka do pracy z dokumentami PDF w aplikacjach .NET, umożliwiająca ich tworzenie, edycję i konwersję.
+Aspose.PDF to zaawansowana biblioteka do pracy z dokumentami PDF w aplikacjach .NET, umożliwiająca tworzenie, edycję i konwersję.
 
 ### Czy biblioteka Aspose.PDF jest darmowa?  
- Aspose.PDF to produkt komercyjny, ale możesz pobrać bezpłatną wersję próbną ze strony[strona internetowa](https://releases.aspose.com/).
+Aspose.PDF to produkt komercyjny, ale możesz pobrać bezpłatną wersję próbną ze strony [strona internetowa](https://releases.aspose.com/).
 
 ### Czy mogę dostosować wymiary miniatur?  
 Tak, możesz zmienić parametry szerokości i wysokości w konstruktorze JpegDevice, aby dostosować rozmiary miniatur.
@@ -150,10 +152,12 @@ Tak, możesz zmienić parametry szerokości i wysokości w konstruktorze JpegDev
 Tak, przetwarzanie większych plików może potrwać dłużej, w zależności od rozdzielczości i liczby stron; optymalizacja tych parametrów może pomóc w zwiększeniu wydajności.
 
 ### Gdzie mogę znaleźć więcej materiałów i wsparcia?  
- Więcej zasobów i wsparcia społeczności znajdziesz na stronie[Fora Aspose](https://forum.aspose.com/c/pdf/10).
+Więcej zasobów i wsparcia społeczności znajdziesz na stronie [Fora Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

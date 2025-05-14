@@ -1,14 +1,16 @@
 ---
-title: Nhúng phông chữ trong khi tạo tài liệu PDF
-linktitle: Nhúng phông chữ trong khi tạo tài liệu PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách nhúng phông chữ vào tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện giao diện PDF của bạn.
-weight: 140
-url: /vi/net/programming-with-document/embedfontwhiledoccreation/
+"description": "Tìm hiểu cách nhúng phông chữ vào tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện giao diện PDF của bạn."
+"linktitle": "Nhúng phông chữ trong khi tạo tài liệu PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhúng phông chữ trong khi tạo tài liệu PDF"
+"url": "/vi/net/programming-with-document/embedfontwhiledoccreation/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhúng phông chữ trong khi tạo tài liệu PDF
@@ -21,7 +23,7 @@ Tạo tài liệu PDF trông chuyên nghiệp và bóng bẩy là điều cần 
 
 Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [trang web](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Môi trường phát triển nơi bạn có thể viết và kiểm tra mã của mình.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
@@ -47,11 +49,11 @@ Trước tiên, bạn cần xác định đường dẫn nơi tài liệu PDF c�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"`bằng đường dẫn thực tế trên hệ thống của bạn nơi bạn muốn lưu tệp PDF.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn thực tế trên hệ thống của bạn nơi bạn muốn lưu tệp PDF.
 
 ## Bước 2: Khởi tạo tài liệu PDF
 
- Tiếp theo, bạn sẽ tạo một phiên bản của`Document` lớp. Lớp này đại diện cho tài liệu PDF của bạn.
+Tiếp theo, bạn sẽ tạo một phiên bản của `Document` lớp. Lớp này đại diện cho tài liệu PDF của bạn.
 
 ```csharp
 // Khởi tạo đối tượng Pdf bằng cách gọi hàm tạo rỗng của nó
@@ -73,13 +75,13 @@ Dòng mã này sẽ thêm một trang mới vào tài liệu của bạn, cho ph
 
 ## Bước 4: Tạo một đoạn văn bản
 
- Để thêm văn bản vào PDF của bạn, bạn sẽ cần tạo một`TextFragment`. Đối tượng này sẽ chứa văn bản bạn muốn hiển thị.
+Để thêm văn bản vào PDF của bạn, bạn sẽ cần tạo một `TextFragment`Đối tượng này sẽ chứa văn bản bạn muốn hiển thị.
 
 ```csharp
 Aspose.Pdf.Text.TextFragment fragment = new Aspose.Pdf.Text.TextFragment("");
 ```
 
- Ở đây, chúng ta đang khởi tạo một cái mới`TextFragment`. Bạn có thể nghĩ nó như một hộp đựng văn bản của bạn.
+Ở đây, chúng ta đang khởi tạo một cái mới `TextFragment`. Bạn có thể nghĩ nó như một hộp đựng văn bản của bạn.
 
 ## Bước 5: Thêm đoạn văn bản
 
@@ -93,7 +95,7 @@ Bạn có thể thoải mái thay đổi văn bản thành bất cứ nội dung
 
 ## Bước 6: Xác định trạng thái văn bản và nhúng phông chữ
 
- Để đảm bảo phông chữ của bạn được nhúng trong PDF, bạn cần thiết lập các thuộc tính phông chữ trong`TextState` sự vật.
+Để đảm bảo phông chữ của bạn được nhúng trong PDF, bạn cần thiết lập các thuộc tính phông chữ trong `TextState` sự vật.
 
 ```csharp
 Aspose.Pdf.Text.TextState ts = new Aspose.Pdf.Text.TextState();
@@ -126,7 +128,7 @@ Bước này đảm bảo văn bản của bạn xuất hiện trên trang tài 
 
 ## Bước 9: Lưu tài liệu PDF
 
-Cuối cùng, đã đến lúc lưu tài liệu PDF của bạn. Bạn sẽ chỉ định đường dẫn nơi bạn muốn lưu.
+Cuối cùng, đã đến lúc lưu tài liệu PDF của bạn. Bạn sẽ chỉ định đường dẫn nơi bạn muốn lưu nó.
 
 ```csharp
 dataDir = dataDir + "EmbedFontWhileDocCreation_out.pdf";
@@ -138,7 +140,7 @@ Mã này nối tên tệp đầu ra với đường dẫn thư mục tài liệu
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bạn đã tạo thành công một tài liệu PDF có phông chữ nhúng bằng Aspose.PDF cho .NET. Quá trình này không chỉ tăng cường sức hấp dẫn trực quan cho tài liệu của bạn mà còn đảm bảo rằng chúng duy trì định dạng trên các nền tảng khác nhau. 
+Và bạn đã có nó! Bạn đã tạo thành công một tài liệu PDF có phông chữ nhúng bằng Aspose.PDF cho .NET. Quá trình này không chỉ tăng cường tính hấp dẫn trực quan cho tài liệu của bạn mà còn đảm bảo rằng chúng duy trì định dạng trên các nền tảng khác nhau. 
 
 ## Câu hỏi thường gặp
 
@@ -149,16 +151,18 @@ Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát 
 Việc nhúng phông chữ đảm bảo tài liệu của bạn hiển thị giống nhau trên mọi thiết bị, duy trì thiết kế và khả năng đọc như mong muốn.
 
 ### Tôi có thể sử dụng phông chữ tùy chỉnh với Aspose.PDF không?
-Có, bạn có thể sử dụng phông chữ tùy chỉnh miễn là chúng có sẵn trên hệ thống của bạn và được tham chiếu đúng cách trong mã của bạn.
+Có, bạn có thể sử dụng phông chữ tùy chỉnh miễn là chúng có sẵn trên hệ thống của bạn và được tham chiếu đúng trong mã của bạn.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ [Trang web Aspose](https://releases.aspose.com/).
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-tables/add-repeating-column/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Repeating Column In PDF Document
@@ -187,6 +189,7 @@ Absolutely! Aspose.PDF provides extensive features for customizing table styles,
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

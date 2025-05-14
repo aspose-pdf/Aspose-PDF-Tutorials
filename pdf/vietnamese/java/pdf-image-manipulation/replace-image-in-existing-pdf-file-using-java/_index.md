@@ -1,14 +1,16 @@
 ---
-title: Thay thế hình ảnh trong tệp PDF hiện có bằng Java
-linktitle: Thay thế hình ảnh trong tệp PDF hiện có bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thay thế hình ảnh trong tệp PDF bằng Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để thay thế hình ảnh liền mạch.
-weight: 11
-url: /vi/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-java/
+"description": "Tìm hiểu cách thay thế hình ảnh trong tệp PDF bằng Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để thay thế hình ảnh liền mạch."
+"linktitle": "Thay thế hình ảnh trong tệp PDF hiện có bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thay thế hình ảnh trong tệp PDF hiện có bằng Java"
+"url": "/vi/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay thế hình ảnh trong tệp PDF hiện có bằng Java
@@ -20,11 +22,11 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thay
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
+Trước khi bắt đầu, hãy đảm bảo rằng bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
 - Môi trường phát triển tích hợp (IDE) theo lựa chọn của bạn (ví dụ: Eclipse, IntelliJ IDEA).
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập môi trường
 
@@ -53,7 +55,7 @@ Bây giờ chúng ta đã thiết lập môi trường, hãy tiến hành thay t
 Document pdfDocument = new Document("path/to/your/pdf/file.pdf");
 ```
 
- Thay thế`"path/to/your/pdf/file.pdf"` với đường dẫn thực tế đến tệp PDF của bạn.
+Thay thế `"path/to/your/pdf/file.pdf"` với đường dẫn thực tế đến tệp PDF của bạn.
 
 ## Thay thế hình ảnh trong PDF
 
@@ -65,7 +67,7 @@ int pageNumber = 0;
 
 // Chỉ định tọa độ nơi hình ảnh cần được thay thế
 float x = 100; // Tọa độ X
-float y = 200; //Tọa độ Y
+float y = 200; // Tọa độ Y
 
 // Chỉ định đường dẫn đến hình ảnh mới
 String newImagePath = "path/to/your/new/image.png";
@@ -85,7 +87,7 @@ Sau khi thay thế hình ảnh, bạn có thể lưu tài liệu PDF đã sửa 
 pdfDocument.save("path/to/your/output/modified.pdf");
 ```
 
- Thay thế`"path/to/your/output/modified.pdf"` với đường dẫn và tên tệp mong muốn cho tệp PDF đã sửa đổi.
+Thay thế `"path/to/your/output/modified.pdf"` với đường dẫn và tên tệp mong muốn cho tệp PDF đã sửa đổi.
 
 ## Phần kết luận
 
@@ -95,7 +97,7 @@ Xin chúc mừng! Bạn đã học thành công cách thay thế hình ảnh tro
 
 ### Tôi có thể lấy thư viện Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 
 ### Thư viện Aspose.PDF có miễn phí sử dụng không?
 
@@ -111,10 +113,12 @@ Aspose.PDF for Java hỗ trợ nhiều định dạng hình ảnh, bao gồm JPE
 
 ### Tôi có thể nhận được sự hỗ trợ hoặc trợ giúp thêm bằng cách nào?
 
- Để có thêm hỗ trợ và tài nguyên, bạn có thể truy cập tài liệu về Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Để có thêm hỗ trợ và tài nguyên, bạn có thể truy cập tài liệu về Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tanda Tangan Digital Dengan Cap Waktu Dalam File PDF
-linktitle: Tanda Tangan Digital Dengan Cap Waktu Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menandatangani PDF secara digital dengan stempel waktu menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup prasyarat, pengaturan sertifikat, pemberian stempel waktu, dan banyak lagi.
-weight: 50
-url: /id/net/programming-with-security-and-signatures/digitally-sign-with-time-stamp/
+"description": "Pelajari cara menandatangani PDF secara digital dengan stempel waktu menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup prasyarat, pengaturan sertifikat, pemberian stempel waktu, dan banyak lagi."
+"linktitle": "Tanda Tangan Digital Dengan Cap Waktu Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tanda Tangan Digital Dengan Cap Waktu Dalam File PDF"
+"url": "/id/net/programming-with-security-and-signatures/digitally-sign-with-time-stamp/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tanda Tangan Digital Dengan Cap Waktu Dalam File PDF
@@ -21,9 +23,9 @@ Pernahkah Anda perlu menandatangani PDF secara digital dan menyertakan stempel w
 
 Sebelum kita mulai menggunakan kode, ada beberapa hal yang perlu Anda siapkan untuk mengikutinya. Berikut ini daftar periksa singkat tentang prasyarat untuk membantu Anda memulai:
 
--  Pustaka Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF untuk .NET yang terinstal di proyek Anda. Anda dapat[unduh versi terbaru di sini](https://releases.aspose.com/pdf/net/) atau tambahkan ke proyek Anda melalui NuGet.
+- Pustaka Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF untuk .NET yang terinstal di proyek Anda. Anda dapat [unduh versi terbaru di sini](https://releases.aspose.com/pdf/net/) atau tambahkan ke proyek Anda melalui NuGet.
 - Dokumen PDF: Anda memerlukan contoh file PDF untuk digunakan. Pastikan Anda memiliki file di direktori proyek yang ingin Anda tandatangani.
--  Sertifikat Digital (file PFX): Pastikan Anda memiliki sertifikat digital (file PFX)`.pfx` file) untuk menandatangani dokumen secara digital.
+- Sertifikat Digital (file PFX): Pastikan Anda memiliki sertifikat digital (file PFX) `.pfx` file) untuk menandatangani dokumen secara digital.
 - URL Penandaan Waktu: Ini adalah layanan penandaan waktu daring yang akan digunakan untuk melampirkan penandaan waktu ke tanda tangan digital. 
 - Pengetahuan dasar C#: Anda tidak perlu menjadi ahli, tetapi mengetahui dasar-dasar C# akan membantu Anda memahami dan menyesuaikan kode.
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document document = new Document(dataDir + @"DigitallySign.pdf");
 ```
 
- Langkah ini cukup mudah. Kita hanya perlu menentukan jalur ke dokumen yang ingin kita tandatangani.`Document` kelas dari Aspose.PDF menangani pemuatan berkas.
+Langkah ini cukup mudah. Kita hanya perlu menentukan jalur ke dokumen yang ingin kita tandatangani. `Document` kelas dari Aspose.PDF menangani pemuatan berkas.
 
 ## Langkah 2: Siapkan Tanda Tangan Digital
 
@@ -71,7 +73,7 @@ PdfFileSignature signature = new PdfFileSignature(document);
 PKCS7 pkcs = new PKCS7(pfxFile, "pfx_password");
 ```
 
- Pada titik ini, Anda memberi tahu Aspose untuk menggunakan sertifikat digital Anda untuk menandatangani dokumen.`PKCS7`objek menangani semua pekerjaan kriptografi untuk Anda, jadi Anda tidak perlu khawatir tentang detail-detail yang rumit.
+Pada titik ini, Anda memberi tahu Aspose untuk menggunakan sertifikat digital Anda untuk menandatangani dokumen. `PKCS7` objek menangani semua pekerjaan kriptografi untuk Anda, jadi Anda tidak perlu khawatir tentang detail-detail yang rumit.
 
 ## Langkah 3: Tambahkan Pengaturan Cap Waktu
 
@@ -92,7 +94,7 @@ Di sini, Anda menentukan URL untuk layanan penandaan waktu, yang secara otomatis
 Sekarang, kita akan menentukan di mana tanda tangan akan muncul dalam PDF dan dimensinya. Anda dapat menyesuaikan posisi kotak tanda tangan pada halaman, serta ukurannya.
 
 ```csharp
-//Tentukan tampilan dan lokasi tanda tangan (halaman 1, dengan persegi panjang yang ditentukan)
+// Tentukan tampilan dan lokasi tanda tangan (halaman 1, dengan persegi panjang yang ditentukan)
 System.Drawing.Rectangle rect = new System.Drawing.Rectangle(100, 100, 200, 100);
 ```
 
@@ -140,16 +142,18 @@ Ya, tetapi tutorial ini berfokus pada penggunaan berkas PFX, yang merupakan form
 Ya, karena stempel waktu diambil dari otoritas penandaan waktu daring, Anda memerlukan akses internet.
 
 ### Bisakah saya menandatangani beberapa halaman dalam PDF?  
- Tentu saja! Anda dapat memodifikasi`signature.Sign()` metode untuk menargetkan beberapa halaman atau mengulang semua halaman.
+Tentu saja! Anda dapat memodifikasi `signature.Sign()` metode untuk menargetkan beberapa halaman atau mengulang semua halaman.
 
 ### Apa yang terjadi jika kata sandi berkas PFX salah?  
 Anda akan menerima pengecualian jika kata sandi salah, jadi pastikan kata sandi yang dimasukkan benar.
 
 ### Bisakah saya membuat tanda tangan tidak terlihat?  
- Ya, kamu bisa lulus`false` ke`Sign` parameter visibilitas metode untuk membuat tanda tangan tidak terlihat.
+Ya, kamu bisa lulus `false` ke `Sign` parameter visibilitas metode untuk membuat tanda tangan tidak terlihat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

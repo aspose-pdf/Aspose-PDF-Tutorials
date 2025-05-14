@@ -1,14 +1,16 @@
 ---
-title: Извлечь текст из аннотации к марке
-linktitle: Извлечь текст из аннотации к марке
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как извлечь текст из аннотации штампа в PDF-файле с помощью Aspose.PDF для .NET, воспользовавшись этим пошаговым руководством, дополненным подробным примером кода.
-weight: 80
-url: /ru/net/programming-with-stamps-and-watermarks/extract-text-from-stamp-annotation/
+"description": "Узнайте, как извлечь текст из аннотации штампа в PDF-файле с помощью Aspose.PDF для .NET, следуя этому пошаговому руководству, дополненному подробным примером кода."
+"linktitle": "Извлечь текст из аннотации к марке"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Извлечь текст из аннотации к марке"
+"url": "/ru/net/programming-with-stamps-and-watermarks/extract-text-from-stamp-annotation/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Извлечь текст из аннотации к марке
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-stamps-and-watermarks/extract-text-from-stamp-anno
 
 Прежде чем мы перейдем к руководству, вам понадобится несколько вещей:
 
--  Aspose.PDF для .NET: Вам понадобится установить Aspose.PDF для .NET. Вы можете[скачать последнюю версию здесь](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF для .NET: Вам понадобится установленный Aspose.PDF для .NET. Вы можете [скачать последнюю версию здесь](https://releases.aspose.com/pdf/net/).
 - Visual Studio: в этом руководстве предполагается, что вы используете Visual Studio в качестве интегрированной среды разработки (IDE).
 - Базовые знания C#: у вас должно быть фундаментальное понимание программирования на C#.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "test.pdf");
 ```
 
- Здесь мы используем`Document` класс, предоставляемый Aspose.PDF для открытия и взаимодействия с файлом PDF.`dataDir` переменная представляет собой путь к вашему файлу. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего PDF-файла.
+Здесь мы используем `Document` класс, предоставляемый Aspose.PDF для открытия и взаимодействия с файлом PDF. `dataDir` переменная представляет собой путь к вашему файлу. Заменить `"YOUR DOCUMENT DIRECTORY"` на фактический путь, где хранится ваш PDF-файл.
 
 ## Шаг 2: Определите аннотацию штампа
 
@@ -63,7 +65,7 @@ StampAnnotation annot = doc.Pages[1].Annotations[3] as StampAnnotation;
 В этой строке кода:
 - `doc.Pages[1]`: Доступ к первой странице документа.
 - `Annotations[3]`: Относится к четвертой аннотации на странице (так как индексация начинается с 0).
-- `as StampAnnotation` : Преобразует аннотацию в`StampAnnotation` объект, представляющий собой конкретный тип аннотации, с которым мы имеем дело.
+- `as StampAnnotation`: Преобразует аннотацию в `StampAnnotation` объект, представляющий собой конкретный тип аннотации, с которым мы имеем дело.
 
 ## Шаг 3: Создайте поглотитель текста
 
@@ -73,7 +75,7 @@ StampAnnotation annot = doc.Pages[1].Annotations[3] as StampAnnotation;
 TextAbsorber ta = new TextAbsorber();
 ```
 
- The`TextAbsorber` Класс предназначен для извлечения текста из любой части документа, и мы будем использовать его для настройки внешнего вида аннотации.
+The `TextAbsorber` Класс предназначен для извлечения текста из любой части документа, и мы будем использовать его для настройки внешнего вида аннотации.
 
 ## Шаг 4: Извлечение внешнего вида аннотации штампа
 
@@ -88,13 +90,13 @@ XForm ap = annot.Appearance["N"];
 
 ## Шаг 5: Извлечение текстового содержимого
 
- Теперь, когда у нас есть внешний вид, мы можем использовать`TextAbsorber` для просмотра внешнего вида и захвата текста.
+Теперь, когда у нас есть внешний вид, мы можем использовать `TextAbsorber` для просмотра внешнего вида и захвата текста.
 
 ```csharp
 ta.Visit(ap);
 ```
 
- The`Visit` Метод позволяет`TextAbsorber` для анализа внешнего вида и извлечения любого встроенного в него текстового содержимого.
+The `Visit` Метод позволяет `TextAbsorber` для анализа внешнего вида и извлечения любого встроенного в него текстового содержимого.
 
 ## Шаг 6: Отображение извлеченного текста
 
@@ -125,10 +127,12 @@ Console.WriteLine(ta.Text);
 Aspose.PDF для .NET предлагает широкий спектр функций, включая обработку текста, обработку полей форм, преобразование документов и многое другое.
 
 ### Является ли Aspose.PDF для .NET бесплатным?  
- Aspose.PDF для .NET предлагает бесплатную пробную версию, но для доступа к полному набору функций вам необходимо приобрести лицензию. Вы также можете подать заявку на[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF для .NET предлагает бесплатную пробную версию, но для доступа к полному набору функций вам необходимо приобрести лицензию. Вы также можете подать заявку на [временная лицензия](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

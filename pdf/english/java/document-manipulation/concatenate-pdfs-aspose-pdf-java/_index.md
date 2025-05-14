@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Concatenate PDFs Using Aspose.PDF for Java: A Complete Guide
 
@@ -153,7 +155,11 @@ A5. Optimize your Java application’s memory settings and process documents in 
 - **Free Trial**: [Aspose Free Downloads](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

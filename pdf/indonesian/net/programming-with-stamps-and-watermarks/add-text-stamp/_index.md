@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Stempel Teks Dalam File PDF
-linktitle: Tambahkan Stempel Teks Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan stempel teks dalam berkas PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami dan tingkatkan presentasi dokumen Anda.
-weight: 50
-url: /id/net/programming-with-stamps-and-watermarks/add-text-stamp/
+"description": "Pelajari cara menambahkan stempel teks dalam berkas PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami dan tingkatkan presentasi dokumen Anda."
+"linktitle": "Tambahkan Stempel Teks Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Stempel Teks Dalam File PDF"
+"url": "/id/net/programming-with-stamps-and-watermarks/add-text-stamp/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Stempel Teks Dalam File PDF
@@ -21,7 +23,7 @@ Di era digital saat ini, PDF merupakan format umum untuk berbagi dan mengirimkan
 
 Sebelum kita mulai membuat kode, ada beberapa prasyarat untuk memastikan Anda telah menyiapkan semuanya dengan benar. Berikut ini yang Anda perlukan:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah memasang pustaka Aspose.PDF di proyek Anda. Jika Anda belum melakukannya, Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah memasang pustaka Aspose.PDF di proyek Anda. Jika Anda belum melakukannya, Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/pdf/net/).
 2. Visual Studio atau IDE yang Kompatibel: Anda akan memerlukan lingkungan pengembangan untuk menulis dan menjalankan kode .NET Anda. Visual Studio adalah pilihan yang paling umum di antara para pengembang.
 3. Pengetahuan Dasar C#: Keakraban dengan C# dan prinsip-prinsip pemrograman berorientasi objek akan membantu Anda memahami contoh-contoh dengan lebih baik.
 4. Contoh Berkas PDF: Anda harus memiliki berkas PDF yang siap digunakan. Anda dapat membuat PDF dasar atau menggunakan PDF yang sudah ada untuk menguji fungsionalitasnya.
@@ -56,18 +58,18 @@ Pertama, Anda perlu menentukan direktori tempat dokumen PDF Anda disimpan. Ini b
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Penjelasan: Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda (`AddTextStamp.pdf`) disimpan. Jalur ini digunakan nanti untuk membuka dan menyimpan PDF yang dimodifikasi.
+Penjelasan: Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda (`AddTextStamp.pdf`) disimpan. Jalur ini digunakan nanti untuk membuka dan menyimpan PDF yang dimodifikasi.
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya kita akan membuka dokumen PDF dengan menggunakan`Document` kelas dari namespace Aspose.PDF.
+Selanjutnya kita akan membuka dokumen PDF dengan menggunakan `Document` kelas dari namespace Aspose.PDF.
 
 ```csharp
 // Buka dokumen
 Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 ```
 
- Penjelasan: Di sini, kita membuat sebuah instance dari`Document` class dan meneruskan jalur ke berkas PDF kita. Ini akan memuat PDF sehingga kita dapat memanipulasinya.
+Penjelasan: Di sini, kita membuat sebuah instance dari `Document` class dan meneruskan jalur ke berkas PDF kita. Ini akan memuat PDF sehingga kita dapat memanipulasinya.
 
 ## Langkah 3: Buat Stempel Teks
 
@@ -78,14 +80,14 @@ Sekarang, kita akan membuat stempel teks yang nantinya akan kita terapkan pada d
 TextStamp textStamp = new TextStamp("Sample Stamp");
 ```
 
- Penjelasan:`TextStamp` objek dibuat dengan teks yang ingin Anda tampilkan. Dalam kasus ini, kami menggunakan "Contoh Prangko" sebagai teks untuk prangko kami.
+Penjelasan: `TextStamp` objek dibuat dengan teks yang ingin Anda tampilkan. Dalam kasus ini, kami menggunakan "Contoh Prangko" sebagai teks untuk prangko kami.
 
 ## Langkah 4: Mengatur Properti Stempel
 
 Untuk menyesuaikan prangko Anda, kita dapat mengatur berbagai properti seperti warna latar belakang, posisi, dan rotasi. Mari kita lakukan itu sekarang:
 
 ```csharp
-// Atur apakah stempel adalah latar belakang
+// Tetapkan apakah prangko adalah latar belakang
 textStamp.Background = true;
 
 // Tetapkan asal
@@ -97,7 +99,7 @@ textStamp.Rotate = Rotation.on90;
 ```
 
 Penjelasan:
-- Latar Belakang: Mengatur ini ke`true` berarti cap akan muncul di belakang konten PDF.
+- Latar Belakang: Mengatur ini ke `true` berarti cap akan muncul di belakang konten PDF.
 - XIndent & YIndent: Properti ini menentukan posisi prangko pada halaman. Dalam contoh ini, prangko akan ditempatkan 100 unit dari tepi kiri dan atas halaman.
 - Putar: Ini akan memutar prangko hingga 90 derajat. Anda dapat memilih opsi rotasi yang berbeda berdasarkan kebutuhan desain Anda.
 
@@ -159,13 +161,15 @@ Ya, Aspose.PDF juga mendukung penambahan stempel gambar, memberikan lebih banyak
 Aspose.PDF terutama difokuskan pada .NET, tetapi ada versi yang tersedia untuk bahasa lain seperti Java dan Python.
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PDF?
- Anda dapat mengajukan permohonan lisensi sementara dengan mengunjungi[tautan pembelian](https://purchase.aspose.com/temporary-license/) di situs web mereka.
+Anda dapat mengajukan permohonan lisensi sementara dengan mengunjungi [tautan pembelian](https://purchase.aspose.com/temporary-license/) di situs web mereka.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Dukungan untuk Aspose.PDF tersedia di[forum dukungan](https://forum.aspose.com/c/pdf/10).
+Dukungan untuk Aspose.PDF tersedia di [forum dukungan](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

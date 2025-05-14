@@ -1,14 +1,16 @@
 ---
-title: Zamień tekst na wyrażenie regularne w pliku PDF
-linktitle: Zamień wyrażenie regularne Texton w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak zastąpić tekst na podstawie wyrażeń regularnych w pliku PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby skutecznie automatyzować zmiany tekstu.
-weight: 360
-url: /pl/net/programming-with-text/replace-text-on-regular-expression/
+"description": "Dowiedz się, jak zastąpić tekst na podstawie wyrażeń regularnych w pliku PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby skutecznie automatyzować zmiany tekstu."
+"linktitle": "Zamień wyrażenie regularne Texton w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zamień tekst na wyrażenie regularne w pliku PDF"
+"url": "/pl/net/programming-with-text/replace-text-on-regular-expression/"
+"weight": 360
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zamień tekst na wyrażenie regularne w pliku PDF
@@ -21,7 +23,7 @@ Aspose.PDF dla .NET to niesamowite narzędzie, które pozwala programistom z ła
 
 Zanim zagłębisz się w kod, upewnijmy się, że wszystko jest skonfigurowane:
 
-1.  Aspose.PDF dla .NET: Będziesz potrzebować najnowszej wersji Aspose.PDF dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Będziesz potrzebować najnowszej wersji Aspose.PDF dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
 2. IDE: Visual Studio lub inne zintegrowane środowisko programistyczne (IDE) zgodne ze standardem .NET.
 3. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework 4.0 lub nowszy.
 4. Dokument PDF: przykładowy plik PDF, w którym chcesz wyszukiwać i zamieniać tekst.
@@ -45,39 +47,39 @@ Przejdźmy teraz przez proces krok po kroku. Podążaj za nami, gdy będziemy za
 
 ## Krok 1: Załaduj dokument PDF
 
- Najpierw musisz załadować dokument PDF, w którym będziesz wykonywać zamianę tekstu. Robi się to za pomocą`Document` klasa z Aspose.PDF.
+Najpierw musisz załadować dokument PDF, w którym będziesz wykonywać zamianę tekstu. Robi się to za pomocą `Document` klasa z Aspose.PDF.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "SearchRegularExpressionPage.pdf");
 ```
 
- W tym kroku zastąp`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, w której przechowywany jest plik PDF. Ten kod otwiera plik PDF i ładuje go do`pdfDocument` obiekt, którym będziemy manipulować w kolejnych krokach.
+W tym kroku zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której przechowywany jest plik PDF. Ten kod otwiera plik PDF i ładuje go do `pdfDocument` obiekt, którym będziemy manipulować w kolejnych krokach.
 
 ## Krok 2: Zdefiniuj wyrażenie regularne
 
- Teraz, gdy masz już załadowany dokument, następnym krokiem jest zdefiniowanie wyrażenia regularnego, które będzie wyszukiwać interesujące Cię wzorce tekstowe. Na przykład, jeśli chcesz zastąpić zakres lat, taki jak „1999-2000”, możesz użyć wyrażenia regularnego`\d{4}-\d{4}`.
+Teraz, gdy masz już załadowany dokument, następnym krokiem jest zdefiniowanie wyrażenia regularnego, które będzie wyszukiwać interesujące Cię wzorce tekstowe. Na przykład, jeśli chcesz zastąpić zakres lat, taki jak „1999-2000”, możesz użyć wyrażenia regularnego `\d{4}-\d{4}`.
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("\\d{4}-\\d{4}"); 
 ```
 
- Ta linia tworzy`TextFragmentAbsorber` który wyszuka dowolną czterocyfrową liczbę, po której następuje myślnik, a następnie kolejna czterocyfrowa liczba. Możesz zmodyfikować wyrażenie regularne w razie potrzeby, aby dopasować je do konkretnego przypadku użycia.
+Ta linia tworzy `TextFragmentAbsorber` który wyszuka dowolną czterocyfrową liczbę, po której następuje myślnik, a następnie kolejna czterocyfrowa liczba. Możesz zmodyfikować wyrażenie regularne w razie potrzeby, aby dopasować je do konkretnego przypadku użycia.
 
 ## Krok 3: Włącz opcję wyszukiwania wyrażeń regularnych
 
- Aspose.PDF pozwala na dokładne dostrojenie sposobu wyszukiwania tekstu. W tym przypadku włączymy dopasowywanie wyrażeń regularnych za pomocą`TextSearchOptions` klasa.
+Aspose.PDF pozwala na dokładne dostrojenie sposobu wyszukiwania tekstu. W tym przypadku włączymy dopasowywanie wyrażeń regularnych za pomocą `TextSearchOptions` klasa.
 
 ```csharp
 TextSearchOptions textSearchOptions = new TextSearchOptions(true);
 textFragmentAbsorber.TextSearchOptions = textSearchOptions;
 ```
 
- Ustawiając tę opcję na`true`, umożliwiasz używanie wyrażeń regularnych do wyszukiwania w pliku PDF.
+Ustawiając tę opcję na `true`, umożliwiasz używanie wyrażeń regularnych do wyszukiwania w pliku PDF.
 
 ## Krok 4: Zastosuj Absorber do określonej strony
 
- Następnie zastosujemy`TextFragmentAbsorber` do konkretnej strony dokumentu. Ten przykład stosuje się do pierwszej strony.
+Następnie zastosujemy `TextFragmentAbsorber` do konkretnej strony dokumentu. Ten przykład stosuje się do pierwszej strony.
 
 ```csharp
 pdfDocument.Pages[1].Accept(textFragmentAbsorber);
@@ -102,7 +104,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
- Tutaj przechodzisz przez każdy fragment tekstu, który pasował do wyrażenia regularnego. Dla każdego dopasowania tekst jest zastępowany przez`"New Phrase"`Możesz także dostosować czcionkę do „Verdana”, ustawić rozmiar czcionki na 22 i zmienić kolor tekstu i tła.
+Tutaj przechodzisz przez każdy fragment tekstu, który pasował do wyrażenia regularnego. Dla każdego dopasowania tekst jest zastępowany przez `"New Phrase"`Możesz także dostosować czcionkę do „Verdana”, ustawić rozmiar czcionki na 22 i zmienić kolor tekstu i tła.
 
 ## Krok 6: Zapisz zaktualizowany dokument PDF
 
@@ -113,9 +115,9 @@ dataDir = dataDir + "ReplaceTextonRegularExpression_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Spowoduje to zapisanie zaktualizowanego pliku PDF ze wszystkimi zamianami tekstu w nowym pliku o nazwie`ReplaceTextonRegularExpression_out.pdf`.
+Spowoduje to zapisanie zaktualizowanego pliku PDF ze wszystkimi zmianami tekstu w nowym pliku o nazwie `ReplaceTextonRegularExpression_out.pdf`.
 
-## Krok 7: Zweryfikuj zmiany
+## Krok 7: Sprawdź zmiany
 
 Na koniec, aby potwierdzić, że wszystko zadziałało, wyświetl komunikat na konsoli:
 
@@ -132,7 +134,7 @@ Udało Ci się zastąpić tekst w pliku PDF na podstawie wyrażeń regularnych z
 ## Najczęściej zadawane pytania
 
 ### Czy mogę używać wielu wyrażeń regularnych w jednym dokumencie?
- Tak, możesz utworzyć wiele`TextFragmentAbsorber` obiektów, każdy z różnymi wyrażeniami regularnymi, i zastosować je w dokumencie.
+Tak, możesz utworzyć wiele `TextFragmentAbsorber` obiektów, każdy z różnymi wyrażeniami regularnymi, i zastosować je w dokumencie.
 
 ### Czy Aspose.PDF dla .NET jest zgodny z .NET Core?
 Tak, Aspose.PDF dla .NET obsługuje zarówno .NET Framework, jak i .NET Core.
@@ -145,9 +147,11 @@ Możesz zmodyfikować wyrażenie regularne, tak aby nie uwzględniało wielkośc
 
 ### Czy mogę zastąpić obrazy w pliku PDF?
 Tak, Aspose.PDF dla platformy .NET obsługuje również zastępowanie i manipulację obrazami w dokumentach PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

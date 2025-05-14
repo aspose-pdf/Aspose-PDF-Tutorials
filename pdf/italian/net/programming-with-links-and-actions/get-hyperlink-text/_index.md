@@ -1,43 +1,45 @@
 ---
-title: Ottieni il testo dell'hyperlink nel file PDF
-linktitle: Ottieni il testo dell'hyperlink nel file PDF
-second_title: Riferimento API Aspose.PDF per .NET
-description: Scopri come estrarre senza sforzo il testo di un collegamento ipertestuale da un file PDF utilizzando Aspose.PDF per .NET. Guida passo passo e codice inclusi.
-weight: 70
-url: /it/net/programming-with-links-and-actions/get-hyperlink-text/
+"description": "Scopri come estrarre facilmente il testo di un collegamento ipertestuale da un file PDF utilizzando Aspose.PDF per .NET. Guida passo passo e codice inclusi."
+"linktitle": "Ottieni il testo del collegamento ipertestuale nel file PDF"
+"second_title": "Riferimento API Aspose.PDF per .NET"
+"title": "Ottieni il testo del collegamento ipertestuale nel file PDF"
+"url": "/it/net/programming-with-links-and-actions/get-hyperlink-text/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ottieni il testo dell'hyperlink nel file PDF
+# Ottieni il testo del collegamento ipertestuale nel file PDF
 
 ## Introduzione
 
-Quando si tratta di lavorare con file PDF, estrarre gli hyperlink può essere un compito arduo. Che tu sia uno sviluppatore, un analista di dati o semplicemente qualcuno che desidera semplificare l'elaborazione dei documenti, avere il giusto toolkit può fare la differenza. Ecco Aspose.PDF per .NET, la tua libreria di riferimento per manipolare i file PDF senza sforzo. In questo articolo, esploreremo passo dopo passo come estrarre il testo dell'hyperlink da un file PDF. Quindi, allaccia le cinture e tuffiamoci nell'intricato mondo dei PDF!
+Quando si tratta di lavorare con i file PDF, estrarre i collegamenti ipertestuali può essere un compito arduo. Che siate sviluppatori, analisti di dati o semplicemente qualcuno che desidera semplificare l'elaborazione dei documenti, avere il giusto kit di strumenti può fare la differenza. Ecco Aspose.PDF per .NET, la vostra libreria di riferimento per manipolare i file PDF senza sforzo. In questo articolo, esploreremo passo dopo passo come estrarre il testo dei collegamenti ipertestuali da un file PDF. Quindi, allacciate le cinture e tuffiamoci nell'intricato mondo dei PDF!
 
 ## Prerequisiti
 
 Prima di intraprendere il nostro viaggio per estrarre il testo dei collegamenti ipertestuali dai PDF, ecco alcuni elementi essenziali di cui avrai bisogno per iniziare:
 
 1. Conoscenza di base di C#: è utile avere una conoscenza della programmazione C# poiché scriveremo del codice.
-2. Visual Studio installato: assicurati di avere Visual Studio installato sul tuo computer. Questo sarà il nostro parco giochi per scrivere e testare il codice.
-3.  Aspose.PDF per .NET: avrai bisogno della libreria Aspose.PDF. Puoi scaricarla da[sito](https://releases.aspose.com/pdf/net/) inizia con una prova gratuita disponibile[Qui](https://releases.aspose.com/).
+2. Visual Studio installato: assicurati che Visual Studio sia installato sul tuo computer. Questo sarà il nostro ambiente di scrittura e test del codice.
+3. Aspose.PDF per .NET: è necessaria la libreria Aspose.PDF. È possibile scaricarla da [sito](https://releases.aspose.com/pdf/net/) o inizia con una prova gratuita disponibile [Qui](https://releases.aspose.com/).
 
 ## Importa pacchetti
 
-Una volta che hai impostato tutto, la prima cosa che dobbiamo fare è importare i pacchetti necessari. Ecco come fare:
+Una volta configurato tutto, la prima cosa da fare è importare i pacchetti necessari. Ecco come fare:
 
 ### Crea un nuovo progetto
 
-Per prima cosa, apri Visual Studio e crea un nuovo progetto di applicazione console C#.
+Per iniziare, apriamo Visual Studio e creiamo un nuovo progetto di applicazione console C#.
 
 ### Aggiungi riferimento Aspose.PDF
 
 1. Fare clic con il pulsante destro del mouse sul progetto in Esplora soluzioni.
 2. Seleziona "Gestisci pacchetti NuGet".
-3.  Cercare`Aspose.PDF` e installarlo.
+3. Cercare `Aspose.PDF` e installarlo.
 4. Ciò ti consentirà di accedere a tutte le fantastiche classi e metodi forniti da Aspose.PDF.
 
 ```csharp
@@ -49,31 +51,31 @@ using System.Collections;
 using Aspose.Pdf.Annotations;
 ```
 
-Bene, passiamo alla parte emozionante: estrarre i testi degli hyperlink da un documento PDF! Ecco come farlo, passo dopo passo.
+Bene, passiamo alla parte interessante: estrarre i testi dei collegamenti ipertestuali da un documento PDF! Ecco come fare, passo dopo passo.
 
 ## Passaggio 1: imposta il percorso del documento
 
-Nel nostro codice, dovremo prima specificare il percorso in cui si trova il nostro documento PDF. Questo viene fatto usando una variabile stringa. 
+Nel nostro codice, dovremo prima specificare il percorso in cui si trova il nostro documento PDF. Questo viene fatto utilizzando una variabile stringa. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Assicurati di sostituire`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del tuo file PDF. Ad esempio, potrebbe apparire qualcosa come`"C:\\Documents\\"`.
+Assicurati di sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del tuo file PDF. Ad esempio, potrebbe essere simile a questo `"C:\\Documents\\"`.
 
 ## Passaggio 2: caricare il documento PDF
 
- Il passo successivo consiste nel caricare il file PDF in modo da poter iniziare a elaborarlo. Creeremo un'istanza di`Document` classe e passiamogli il percorso del nostro file.
+Il passo successivo consiste nel caricare il file PDF in modo da poter iniziare a elaborarlo. Creeremo un'istanza del file `Document` classe e passiamogli il percorso del nostro file.
 
 ```csharp
 Document document = new Document(dataDir + "input.pdf");
 ```
 
-A questo punto, se tutto è impostato correttamente, il file PDF sarà caricato e pronto per l'interazione.
+A questo punto, se tutto è impostato correttamente, il file PDF verrà caricato e sarà pronto per l'interazione.
 
 ## Passaggio 3: scorrere ogni pagina
 
-I PDF possono avere più pagine, quindi faremo un ciclo su ogni pagina per trovare le annotazioni dei link. Ecco come puoi ottenere questo risultato:
+I PDF possono avere più pagine, quindi faremo un ciclo su ogni pagina per trovare le annotazioni dei link. Ecco come fare:
 
 ```csharp
 foreach (Page page in document.Pages)
@@ -83,11 +85,11 @@ foreach (Page page in document.Pages)
 }
 ```
 
- In questo ciclo, definiremo un metodo chiamato`ShowLinkAnnotations` che gestirà l'estrazione degli hyperlink. 
+In questo ciclo, definiremo un metodo chiamato `ShowLinkAnnotations` che gestirà l'estrazione degli hyperlink. 
 
 ## Passaggio 4: definire il metodo ShowLinkAnnotations
 
-Ecco dove avviene la magia! Creerai un metodo per estrarre il testo dell'hyperlink su ogni pagina. Ecco una versione semplificata di questo metodo:
+È qui che avviene la magia! Creerai un metodo per estrarre il testo del collegamento ipertestuale da ogni pagina. Ecco una versione semplificata di questo metodo:
 
 ```csharp
 private static void ShowLinkAnnotations(Page page)
@@ -103,12 +105,12 @@ private static void ShowLinkAnnotations(Page page)
 }
 ```
 
--  Controlla se l'annotazione è un collegamento: qui controlliamo se l'annotazione sulla pagina è un`LinkAnnotation`In tal caso, procediamo ad estrarne il titolo e l'URI.
--  Visualizza il testo del collegamento ipertestuale: utilizzo`Console.WriteLine`, stampiamo il testo del collegamento e l'URI corrispondente.
+- Controlla se l'annotazione è un collegamento: qui controlliamo se l'annotazione sulla pagina è un `LinkAnnotation`In tal caso, procediamo a estrarne il titolo e l'URI.
+- Visualizza il testo del collegamento ipertestuale: utilizzo `Console.WriteLine`, stampiamo il testo del collegamento e l'URI corrispondente.
 
 ## Fase 5: Gestione delle eccezioni
 
-Infine, è sempre una buona pratica includere la gestione degli errori. Racchiudi il tuo codice in un blocco try-catch per catturare potenziali errori, come segue:
+Infine, è sempre buona norma includere la gestione degli errori. Incapsula il codice in un blocco try-catch per individuare potenziali errori, in questo modo:
 
 ```csharp
 try
@@ -121,31 +123,33 @@ catch (Exception ex)
 }
 ```
 
-Questo ti darà un output chiaro se qualcosa non va come previsto.
+In questo modo avrai un output chiaro se qualcosa non va come previsto.
 
 ## Conclusione 
 
-Congratulazioni! Hai imparato con successo come estrarre il testo dell'hyperlink da un file PDF usando Aspose.PDF per .NET! Con solo poche righe di codice, puoi ottenere informazioni dai tuoi documenti PDF come mai prima. Che si tratti di estrazione dati, verifica link o auditing documenti, questa guida ti prepara ad affrontare l'estrazione di hyperlink PDF. Continua a sperimentare con Aspose.PDF e presto diventerai un professionista nella manipolazione dei PDF!
+Congratulazioni! Hai imparato con successo come estrarre il testo dei collegamenti ipertestuali da un file PDF utilizzando Aspose.PDF per .NET! Con poche righe di codice, puoi ottenere informazioni dai tuoi documenti PDF come mai prima d'ora. Che si tratti di estrazione dati, verifica dei collegamenti o auditing di documenti, questa guida ti fornisce gli strumenti per affrontare l'estrazione dei collegamenti ipertestuali nei PDF. Continua a sperimentare con Aspose.PDF e presto diventerai un esperto nella manipolazione dei PDF!
 
 ## Domande frequenti
 
 ### Che cos'è Aspose.PDF per .NET?
 Aspose.PDF per .NET è una potente libreria che consente agli sviluppatori di creare, manipolare e convertire documenti PDF a livello di programmazione.
 
-### Esiste una versione gratuita?
- Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
+### Esiste una versione gratuita disponibile?
+Sì, puoi scaricare una versione di prova gratuita da [Qui](https://releases.aspose.com/).
 
 ### Che tipo di collegamenti ipertestuali posso estrarre?
 È possibile estrarre qualsiasi collegamento ipertestuale presente in un PDF, che si tratti di un tipico URL web o di un collegamento di riferimento incrociato all'interno del documento.
 
 ### Posso estrarre immagini e testi insieme ai collegamenti ipertestuali?
-Assolutamente! Aspose.PDF fornisce funzionalità per estrarre non solo collegamenti ipertestuali, ma anche immagini e testi dai PDF.
+Assolutamente sì! Aspose.PDF offre funzionalità per estrarre non solo collegamenti ipertestuali, ma anche immagini e testi dai PDF.
 
 ### Dove posso trovare altre risorse su Aspose.PDF?
- Per una documentazione dettagliata, visitare[Documentazione PDF di Aspose](https://reference.aspose.com/pdf/net/).
+Per la documentazione dettagliata, visitare [Documentazione PDF di Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

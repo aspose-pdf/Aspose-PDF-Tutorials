@@ -1,14 +1,16 @@
 ---
-title: Usuń wszystkie adnotacje ze strony
-linktitle: Usuń wszystkie adnotacje ze strony
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak usunąć wszystkie adnotacje ze strony PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby skutecznie oczyścić pliki PDF.
-weight: 40
-url: /pl/net/annotations/deleteallannotationsfrompage/
+"description": "Dowiedz się, jak usunąć wszystkie adnotacje ze strony PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby skutecznie oczyścić pliki PDF."
+"linktitle": "Usuń wszystkie adnotacje ze strony"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Usuń wszystkie adnotacje ze strony"
+"url": "/pl/net/annotations/deleteallannotationsfrompage/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń wszystkie adnotacje ze strony
@@ -20,11 +22,11 @@ Czy kiedykolwiek musiałeś usunąć wszystkie te irytujące adnotacje z dokumen
 
 Zanim przejdziemy do szczegółowego przewodnika, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1.  Aspose.PDF dla .NET: Będziesz potrzebować biblioteki Aspose.PDF dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/) lub pobierz go poprzez NuGet w programie Visual Studio.
+1. Aspose.PDF dla .NET: Będziesz potrzebować biblioteki Aspose.PDF dla .NET. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/) lub pobierz go poprzez NuGet w programie Visual Studio.
 2. Środowisko programistyczne: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Visual Studio jest popularnym wyborem, ale każde kompatybilne IDE będzie działać.
 3. Podstawowa wiedza o C#: Ten samouczek zakłada, że posiadasz podstawową wiedzę o C#. Jeśli jesteś nowy w C#, nie martw się — wszystko jasno wyjaśnię.
 4. Przykładowy plik PDF: Posiadaj przykładowy plik PDF z adnotacjami, które chcesz usunąć. Możesz użyć dowolnego pliku PDF, ale upewnij się, że zawiera adnotacje dla tego samouczka.
-5.  Licencja Aspose: Aby uniknąć ograniczeń oceny, należy wziąć pod uwagę[ubieganie się o licencję](https://purchase.aspose.com/temporary-license/) dla Aspose.PDF dla .NET.
+5. Licencja Aspose: Aby uniknąć ograniczeń oceny, należy wziąć pod uwagę [ubieganie się o licencję](https://purchase.aspose.com/temporary-license/) dla Aspose.PDF dla .NET.
 
 ## Importuj pakiety
 
@@ -50,7 +52,7 @@ Wyjaśnienie: Ustawienie katalogu dokumentu zapewnia, że aplikacja wie, gdzie z
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu, w którym przechowywany jest Twój plik PDF. To jest katalog, którego Aspose.PDF użyje do zlokalizowania pliku.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu, w którym przechowywany jest Twój plik PDF. To jest katalog, którego Aspose.PDF użyje do zlokalizowania pliku.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -62,7 +64,7 @@ Wyjaśnienie: Otwarcie dokumentu PDF umożliwia aplikacji załadowanie pliku do 
 Document pdfDocument = new Document(dataDir + "DeleteAllAnnotationsFromPage.pdf");
 ```
 
- Tutaj,`Document` jest klasą używaną do reprezentowania pliku PDF w Aspose.PDF.`dataDir + "DeleteAllAnnotationsFromPage.pdf"`łączy ścieżkę katalogu z nazwą pliku, aby otworzyć konkretny plik PDF.
+Tutaj, `Document` jest klasą używaną do reprezentowania pliku PDF w Aspose.PDF. `dataDir + "DeleteAllAnnotationsFromPage.pdf"` łączy ścieżkę katalogu z nazwą pliku, aby otworzyć konkretny plik PDF.
 
 ## Krok 3: Usuń wszystkie adnotacje z pierwszej strony
 
@@ -74,7 +76,7 @@ Wyjaśnienie: Ta linijka kodu uzyskuje dostęp do pierwszej strony pliku PDF i u
 pdfDocument.Pages[1].Annotations.Delete();
 ```
 
- Tutaj,`Pages[1]` odnosi się do pierwszej strony dokumentu i`Annotations.Delete()` to metoda, która usuwa wszystkie adnotacje z tej strony. Jeśli Twój plik PDF ma wiele stron i chcesz usunąć adnotacje z innej strony, po prostu zmień numer indeksu.
+Tutaj, `Pages[1]` odnosi się do pierwszej strony dokumentu i `Annotations.Delete()` to metoda, która usuwa wszystkie adnotacje z tej strony. Jeśli Twój plik PDF ma wiele stron i chcesz usunąć adnotacje z innej strony, po prostu zmień numer indeksu.
 
 ## Krok 4: Zapisz zaktualizowany dokument
 
@@ -87,18 +89,18 @@ dataDir = dataDir + "DeleteAllAnnotationsFromPage_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Ten kod zapisuje zmodyfikowany plik PDF pod nową nazwą (`DeleteAllAnnotationsFromPage_out.pdf`w tym samym katalogu, zachowując oryginalny plik.
+Ten kod zapisuje zmodyfikowany plik PDF pod nową nazwą (`DeleteAllAnnotationsFromPage_out.pdf`) w tym samym katalogu, zachowując oryginalny plik.
 
 ## Wniosek
 
 I to wszystko! Udało Ci się usunąć wszystkie adnotacje ze strony w dokumencie PDF za pomocą Aspose.PDF dla .NET. Ta prosta, ale skuteczna metoda może naprawdę zaoszczędzić czas podczas pracy z adnotowanymi plikami PDF. Niezależnie od tego, czy przygotowujesz dokumenty do użytku profesjonalnego, czy po prostu porządkujesz pliki, ten samouczek dostarczył Ci narzędzi do wydajnego radzenia sobie z adnotacjami.
 
- Aspose.PDF dla .NET to wszechstronna biblioteka oferująca wiele więcej funkcji niż tylko zarządzanie adnotacjami. Zachęcam do zapoznania się z jej pełnym potencjałem poprzez sprawdzenie[dokumentacja](https://reference.aspose.com/pdf/net/).
+Aspose.PDF dla .NET to wszechstronna biblioteka oferująca wiele więcej funkcji niż tylko zarządzanie adnotacjami. Zachęcam do zapoznania się z jej pełnym potencjałem poprzez sprawdzenie [dokumentacja](https://reference.aspose.com/pdf/net/).
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę usunąć adnotacje ze wszystkich stron pliku PDF jednocześnie?
- Tak, możesz przejrzeć wszystkie strony dokumentu i zastosować`Annotations.Delete()` do każdego z nich inną metodę.
+Tak, możesz przejrzeć wszystkie strony dokumentu i zastosować `Annotations.Delete()` do każdego z nich dopasowujemy odpowiednią metodę.
 
 ### Jakie typy adnotacji można usunąć tą metodą?
 Ta metoda usuwa wszystkie adnotacje, łącznie z tekstem, wyróżnieniami, stemplami i komentarzami.
@@ -107,13 +109,15 @@ Ta metoda usuwa wszystkie adnotacje, łącznie z tekstem, wyróżnieniami, stemp
 Nie, tylko adnotacje są usuwane. Reszta zawartości PDF pozostaje niezmieniona.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF na platformie .NET?
- Chociaż możesz korzystać z biblioteki bez licencji, stosując[licencja tymczasowa lub pełna](https://purchase.aspose.com/temporary-license/) usuwa ograniczenia oceny.
+Chociaż możesz korzystać z biblioteki bez licencji, stosując [licencja tymczasowa lub pełna](https://purchase.aspose.com/temporary-license/) usuwa ograniczenia oceny.
 
 ### Czy mogę selektywnie usuwać określone typy adnotacji?
 Tak, Aspose.PDF pozwala filtrować i usuwać określone typy adnotacji, jeśli zajdzie taka potrzeba.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

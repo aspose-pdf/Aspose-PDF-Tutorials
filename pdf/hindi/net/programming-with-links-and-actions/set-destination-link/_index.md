@@ -1,14 +1,16 @@
 ---
-title: गंतव्य लिंक को PDF फ़ाइल में सेट करें
-linktitle: गंतव्य लिंक को PDF फ़ाइल में सेट करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: जानें कि .NET के लिए Aspose.PDF के साथ PDF फ़ाइलों में गंतव्य लिंक कैसे सेट करें। आपकी PDF अन्तरक्रियाशीलता को बढ़ाने के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 90
-url: /hi/net/programming-with-links-and-actions/set-destination-link/
+"description": "जानें कि .NET के लिए Aspose.PDF के साथ PDF फ़ाइलों में गंतव्य लिंक कैसे सेट करें। आपकी PDF अन्तरक्रियाशीलता को बढ़ाने के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "गंतव्य लिंक को PDF फ़ाइल में सेट करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "गंतव्य लिंक को PDF फ़ाइल में सेट करें"
+"url": "/hi/net/programming-with-links-and-actions/set-destination-link/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # गंतव्य लिंक को PDF फ़ाइल में सेट करें
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-links-and-actions/set-destination-link/
 इससे पहले कि हम शुरू करें, कुछ चीजें हैं जिन्हें आपको तैयार रखना होगा:
 
 1. .NET लाइब्रेरी के लिए Aspose.PDF:
-    आपको .NET पैकेज के लिए Aspose.PDF डाउनलोड और इंस्टॉल करना होगा। आप इंस्टॉलेशन फ़ाइलें पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+   आपको .NET पैकेज के लिए Aspose.PDF डाउनलोड और इंस्टॉल करना होगा। आप इंस्टॉलेशन फ़ाइलें पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 
 2. विकास पर्यावरण:
    आपके कंप्यूटर पर Visual Studio या कोई भी .NET-संगत IDE स्थापित होना चाहिए।
@@ -34,7 +36,7 @@ url: /hi/net/programming-with-links-and-actions/set-destination-link/
    अपने पसंदीदा IDE में एक नया C# प्रोजेक्ट शुरू करें। यह सेटअप वह जगह होगी जहाँ आपका PDF मैनिपुलेशन होगा।
 
 5. एक नमूना पीडीएफ:
-    प्रदर्शन के लिए, आपको एक नमूना पीडीएफ फाइल की आवश्यकता होगी (उदाहरण के लिए,`UpdateLinks.pdf`) जहां हम लिंक संशोधन लागू करेंगे।
+   प्रदर्शन के लिए, आपको एक नमूना पीडीएफ फाइल की आवश्यकता होगी (उदाहरण के लिए, `UpdateLinks.pdf`) जहां हम लिंक संशोधन लागू करेंगे।
 
 ## पैकेज आयात करें
 
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "UpdateLinks.pdf");
 ```
 
- यहाँ, प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"`आपके फ़ाइल सिस्टम में आपकी PDF फ़ाइल के वास्तविक पथ के साथ। यह कोड एक इंस्टैंसिएट करता है`Document` वह ऑब्जेक्ट जो लोड की गई पीडीएफ को रखता है।
+यहाँ, प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके फ़ाइल सिस्टम में आपकी PDF फ़ाइल के वास्तविक पथ के साथ। यह कोड एक उदाहरण देता है `Document` वह ऑब्जेक्ट जो लोड की गई पीडीएफ को रखता है।
 
 ## चरण 2: लिंक एनोटेशन तक पहुंचें
 
@@ -84,7 +86,7 @@ LinkAnnotation linkAnnot = (LinkAnnotation)doc.Pages[1].Annotations[1];
 linkAnnot.Action = new GoToURIAction("www.aspose.com");
 ```
 
- यह रेखा कार्यवाही निर्धारित करती है`linkAnnot`एक नई URI क्रिया के लिए, प्रभावी रूप से यह परिवर्तित कर दिया जाएगा कि लिंक पर क्लिक करने पर उपयोगकर्ता कहां जाएगा।
+यह रेखा कार्यवाही निर्धारित करती है `linkAnnot` एक नई URI क्रिया में, प्रभावी रूप से यह परिवर्तन किया जाएगा कि लिंक पर क्लिक करने पर उपयोगकर्ता कहां जाएगा।
 
 ## चरण 4: दस्तावेज़ सहेजें
 
@@ -128,13 +130,15 @@ catch (Exception ex)
 Aspose.PDF एक निःशुल्क परीक्षण संस्करण प्रदान करता है। व्यापक उपयोग के लिए, लाइसेंस खरीदा जा सकता है।
 
 ### मैं Aspose.PDF के बारे में अधिक दस्तावेज़ कहां पा सकता हूं?
- आप अधिक विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/net/).
+आप अधिक विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/net/).
 
-### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
- आप इस तक पहुंच सकते हैं[सहयता मंच](https://forum.aspose.com/c/pdf/10) सहायता और पूछताछ के लिए.
+### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त करूं?
+आप इस तक पहुंच सकते हैं [सहयता मंच](https://forum.aspose.com/c/pdf/10) सहायता और पूछताछ के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

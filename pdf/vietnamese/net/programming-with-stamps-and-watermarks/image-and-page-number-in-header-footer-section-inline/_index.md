@@ -1,14 +1,16 @@
 ---
-title: Hình ảnh và Số trang trong Phần Đầu trang Chân trang Nội tuyến
-linktitle: Hình ảnh và Số trang trong Phần Đầu trang Chân trang Nội tuyến
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm hình ảnh và số trang trực tiếp vào phần tiêu đề của tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này.
-weight: 120
-url: /vi/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section-inline/
+"description": "Tìm hiểu cách thêm hình ảnh và số trang trực tiếp vào phần tiêu đề của tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này."
+"linktitle": "Hình ảnh và Số trang trong Phần Đầu trang Chân trang Nội tuyến"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Hình ảnh và Số trang trong Phần Đầu trang Chân trang Nội tuyến"
+"url": "/vi/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section-inline/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hình ảnh và Số trang trong Phần Đầu trang Chân trang Nội tuyến
@@ -21,9 +23,9 @@ Aspose.PDF for .NET là một công cụ mạnh mẽ cung cấp các khả năng
 
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn đã chuẩn bị mọi thứ để làm theo:
 
--  Aspose.PDF cho .NET: Tải xuống phiên bản mới nhất từ[Trang Tải Xuống PDF Aspose](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Tải xuống phiên bản mới nhất từ [Trang Tải Xuống PDF Aspose](https://releases.aspose.com/pdf/net/).
 - Môi trường phát triển: Bạn sẽ cần một IDE C# như Visual Studio.
--  Giấy phép: Nếu bạn chưa có giấy phép, bạn có thể xin[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) hoặc mua một cái đầy đủ từ[Cửa hàng Aspose](https://purchase.aspose.com/buy).
+- Giấy phép: Nếu bạn chưa có giấy phép, bạn có thể xin [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) hoặc mua một cái đầy đủ từ [Cửa hàng Aspose](https://purchase.aspose.com/buy).
 
 Bây giờ bạn đã chuẩn bị đủ các điều kiện tiên quyết, chúng ta hãy bắt đầu nhé.
 
@@ -49,11 +51,11 @@ Các gói này cho phép bạn làm việc với các tệp PDF và chỉnh sử
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Biến này giữ vị trí nơi tài liệu của bạn sẽ được lưu trữ. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế.
+Biến này giữ vị trí nơi tài liệu của bạn sẽ được lưu trữ. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế.
 
 ## Bước 2: Khởi tạo tài liệu PDF
 
- Trong bước này, chúng ta tạo một phiên bản mới của`Aspose.Pdf.Document` đối tượng. Đối tượng này sẽ đóng vai trò là xương sống của tệp PDF của bạn.
+Trong bước này, chúng ta tạo một phiên bản mới của `Aspose.Pdf.Document` đối tượng. Đối tượng này sẽ đóng vai trò là xương sống của tệp PDF của bạn.
 
 ```csharp
 // Khởi tạo một đối tượng Document bằng cách gọi hàm tạo rỗng của nó
@@ -71,7 +73,7 @@ Tệp PDF của bạn cần ít nhất một trang để bạn có thể thêm t
 Aspose.Pdf.Page page = pdf1.Pages.Add();
 ```
 
- Bằng cách gọi`pdf1.Pages.Add()`một trang mới sẽ được thêm vào tài liệu, sẵn sàng để tùy chỉnh đầu trang và chân trang.
+Bằng cách gọi `pdf1.Pages.Add()`, một trang mới sẽ được thêm vào tài liệu, sẵn sàng để tùy chỉnh đầu trang và chân trang.
 
 ## Bước 4: Tạo và thiết lập Header
 
@@ -84,11 +86,11 @@ Aspose.Pdf.HeaderFooter header = new Aspose.Pdf.HeaderFooter();
 page.Header = header;
 ```
 
- Chúng tôi tạo ra một`HeaderFooter` đối tượng và gán nó cho`Header` thuộc tính của trang, đảm bảo rằng bất cứ thứ gì chúng ta thêm vào tiêu đề sẽ xuất hiện ở đầu trang.
+Chúng tôi tạo ra một `HeaderFooter` đối tượng và gán nó cho `Header` thuộc tính của trang, đảm bảo rằng bất cứ thứ gì chúng ta thêm vào tiêu đề sẽ xuất hiện ở đầu trang.
 
 ## Bước 5: Thêm văn bản nội tuyến vào tiêu đề
 
- Thêm văn bản cũng đơn giản như việc tạo một`TextFragment` và chỉ định các thuộc tính của nó. Hãy thêm một số văn bản có màu vào tiêu đề của chúng ta.
+Thêm văn bản cũng đơn giản như việc tạo một `TextFragment` và chỉ định các thuộc tính của nó. Hãy thêm một số văn bản có màu vào tiêu đề của chúng ta.
 
 ```csharp
 // Tạo một đối tượng Văn bản
@@ -98,7 +100,7 @@ txt1.TextState.ForegroundColor = Color.Blue;
 txt1.IsInLineParagraph = true;
 ```
 
- Trong bước này, chúng ta tạo ra một`TextFragment` với nội dung "Aspose.Pdf là một thành phần mạnh mẽ của" và đặt màu của nó thành màu xanh lam.`IsInLineParagraph` thuộc tính này đảm bảo rằng văn bản nằm trong dòng, nghĩa là nó sẽ xuất hiện trên cùng một dòng với các phần tử khác (như hình ảnh và văn bản bổ sung).
+Trong bước này, chúng ta tạo ra một `TextFragment` với nội dung "Aspose.Pdf là một thành phần mạnh mẽ của" và đặt màu của nó thành màu xanh lam. `IsInLineParagraph` thuộc tính này đảm bảo rằng văn bản nằm trong dòng, nghĩa là nó sẽ xuất hiện trên cùng một dòng với các phần tử khác (như hình ảnh và văn bản bổ sung).
 
 ## Bước 6: Chèn một hình ảnh nội tuyến vào tiêu đề
 
@@ -116,7 +118,7 @@ image1.FixHeight = 20;
 image1.IsInLineParagraph = true;
 ```
 
- Ở đây, chúng ta thêm một hình ảnh vào tiêu đề bằng cách tạo một`Image` đối tượng, thiết lập đường dẫn của nó và điều chỉnh chiều rộng và chiều cao.`IsInLineParagraph` đảm bảo hình ảnh được căn chỉnh với văn bản.
+Ở đây, chúng ta thêm một hình ảnh vào tiêu đề bằng cách tạo một `Image` đối tượng, thiết lập đường dẫn của nó và điều chỉnh chiều rộng và chiều cao. `IsInLineParagraph` đảm bảo hình ảnh được căn chỉnh với văn bản.
 
 ## Bước 7: Thêm văn bản nội tuyến bổ sung để hoàn thiện tiêu đề
 
@@ -131,7 +133,7 @@ header.Paragraphs.Add(image1);
 header.Paragraphs.Add(txt2);
 ```
 
- Trong phần này, chúng ta tạo ra một phần khác`TextFragment` với nội dung "Pty Ltd." và đặt màu thành màu hạt dẻ. Cả đoạn văn bản và hình ảnh đều được thêm vào tiêu đề.
+Trong phần này, chúng ta tạo ra một phần khác `TextFragment` với nội dung "Pty Ltd." và đặt màu thành màu hạt dẻ. Cả đoạn văn bản và hình ảnh đều được thêm vào tiêu đề.
 
 ## Bước 8: Lưu PDF
 
@@ -142,31 +144,33 @@ Sau khi thiết lập tiêu đề, đã đến lúc lưu tệp PDF.
 pdf1.Save(dataDir + "ImageAndPageNumberInHeaderFooter_UsingInlineParagraph_out.pdf");
 ```
 
- Các`Save` phương pháp này ghi tệp PDF cuối cùng vào vị trí đã chỉ định.
+Các `Save` phương pháp này ghi tệp PDF cuối cùng vào vị trí đã chỉ định.
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn đã thêm thành công hình ảnh và văn bản vào tiêu đề của tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn này hướng dẫn bạn các bước cần thiết, bao gồm tạo tài liệu, thêm trang, chèn tiêu đề và đặt nội dung nội tuyến như văn bản và hình ảnh. Aspose.PDF cung cấp cho bạn sự linh hoạt đáng kinh ngạc để quản lý PDF của mình, cho dù đó là thao tác tiêu đề, chân trang hay nội dung phức tạp. 
+Xin chúc mừng! Bạn đã thêm thành công hình ảnh và văn bản vào tiêu đề của tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn này hướng dẫn bạn qua các bước thiết yếu, bao gồm tạo tài liệu, thêm trang, chèn tiêu đề và đặt nội dung nội tuyến như văn bản và hình ảnh. Aspose.PDF cung cấp cho bạn sự linh hoạt đáng kinh ngạc để quản lý PDF của mình, cho dù đó là thao tác tiêu đề, chân trang hay nội dung phức tạp. 
 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thêm số trang vào tiêu đề không?
- Có! Bạn có thể dễ dàng thêm số trang bằng cách sử dụng`TextFragment` lớp và định dạng theo nhu cầu. Chỉ cần chèn nó vào phần tiêu đề dưới dạng nội dung nội tuyến.
+Có! Bạn có thể dễ dàng thêm số trang bằng cách sử dụng `TextFragment` lớp và định dạng nó khi cần. Chỉ cần chèn nó vào phần tiêu đề dưới dạng nội dung nội tuyến.
 
 ### Làm thế nào để đặt hình nền ở phần đầu trang?
- Bạn có thể sử dụng`BackgroundImage` tài sản của`HeaderFooter` lớp để đặt hình nền. Tuy nhiên, đây không phải là nội dung nội tuyến và nó sẽ bao phủ toàn bộ vùng tiêu đề.
+Bạn có thể sử dụng `BackgroundImage` tài sản của `HeaderFooter` lớp để đặt hình nền. Tuy nhiên, đây không phải là nội dung nội tuyến và nó sẽ bao phủ toàn bộ vùng tiêu đề.
 
 ### Có thể sử dụng định dạng hình ảnh nào khác ngoài JPEG không?
 Hoàn toàn có thể! Aspose.PDF hỗ trợ nhiều định dạng hình ảnh như PNG, BMP và GIF.
 
 ### Tôi có thể tùy chỉnh phông chữ của văn bản ở tiêu đề không?
- Có, bạn có thể sử dụng`TextState`đối tượng để thay đổi phông chữ, kích thước và kiểu của văn bản.
+Có, bạn có thể sử dụng `TextState` đối tượng để thay đổi phông chữ, kích thước và kiểu của văn bản.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF cho .NET không?
- Có, Aspose.PDF yêu cầu giấy phép để sử dụng sản xuất, nhưng bạn có thể bắt đầu bằng[dùng thử miễn phí tại đây](https://releases.aspose.com/).
+Có, Aspose.PDF yêu cầu giấy phép để sử dụng sản xuất, nhưng bạn có thể bắt đầu bằng [dùng thử miễn phí tại đây](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

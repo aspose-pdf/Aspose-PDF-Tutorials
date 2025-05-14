@@ -1,22 +1,24 @@
 ---
-title: Java を使用して PDF のテキスト構造をスタイル設定する
-linktitle: Java を使用して PDF のテキスト構造をスタイル設定する
-second_title: Aspose.PDF Java PDF 処理 API
-description: ステップバイステップ ガイドを使用して、Java を使用して PDF 内のテキスト構造にスタイルを設定する方法を学びます。フォント、色、ハイパーリンクなどをカスタマイズして、プロフェッショナルな外観のドキュメントを作成します。
-weight: 11
-url: /ja/java/pdf-styles-and-formatting/style-text-structure-in-pdf-using-java/
+"description": "Javaを使ってPDFのテキスト構造にスタイルを設定する方法を、ステップバイステップガイドで学びましょう。フォント、色、ハイパーリンクなどをカスタマイズして、プロフェッショナルなドキュメントを作成できます。"
+"linktitle": "Java を使用して PDF のテキスト構造にスタイルを設定する"
+"second_title": "Aspose.PDF Java PDF 処理 API"
+"title": "Java を使用して PDF のテキスト構造にスタイルを設定する"
+"url": "/ja/java/pdf-styles-and-formatting/style-text-structure-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java を使用して PDF のテキスト構造をスタイル設定する
+# Java を使用して PDF のテキスト構造にスタイルを設定する
 
 
 ## 導入
 
-PDF は、ドキュメント、レポート、およびさまざまな種類のコンテンツを共有するための標準形式になっています。Java で PDF を操作する場合、データを入力するだけでなく、テキストにスタイルを設定して洗練された外観にすることも重要です。
+PDFは、文書、レポート、その他様々なコンテンツを共有するための標準フォーマットとなっています。JavaでPDFを扱う場合、データを入力するだけでなく、テキストにスタイルを適用して洗練された外観に仕上げることが重要です。
 
 ## 前提条件
 
@@ -27,9 +29,9 @@ PDF は、ドキュメント、レポート、およびさまざまな種類の�
 
 ## 環境の設定
 
-Java を使用して PDF 内のテキストのスタイル設定を開始するには、開発環境を設定する必要があります。次の手順に従います。
+Javaを使用してPDFのテキストスタイルを設定するには、開発環境をセットアップする必要があります。以下の手順に従ってください。
 
-1.  Aspose.PDF for Javaライブラリを以下からダウンロードしてください。[ここ](https://releases.aspose.com/pdf/java/).
+1. Aspose.PDF for Javaライブラリを以下からダウンロードしてください。 [ここ](https://releases。aspose.com/pdf/java/).
 
 2. ライブラリを Java プロジェクトに含めます。
 
@@ -37,22 +39,22 @@ Java を使用して PDF 内のテキストのスタイル設定を開始する�
 
 ## PDFにテキストを追加する
 
-それでは、まず PDF ドキュメントにテキストを追加してみましょう。簡単な例を以下に示します。
+それでは、PDF文書にテキストを追加してみましょう。簡単な例を以下に示します。
 
 ```java
-//新しいPDF文書を作成する
+// 新しいPDF文書を作成する
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
-//ドキュメントにページを追加する
+// ドキュメントにページを追加する
 pdfDocument.getPages().add();
 
-//TextFragmentオブジェクトを作成する
+// TextFragmentオブジェクトを作成する
 com.aspose.pdf.TextFragment textFragment = new com.aspose.pdf.TextFragment("Hello, PDF!");
 
-//ページにTextFragmentを追加する
+// ページにTextFragmentを追加する
 pdfDocument.getPages().get_Item(1).getParagraphs().add(textFragment);
 
-//文書を保存する
+// ドキュメントを保存する
 pdfDocument.save("output.pdf");
 ```
 
@@ -60,7 +62,7 @@ pdfDocument.save("output.pdf");
 
 ## フォントスタイル
 
-テキストのフォントをカスタマイズできます。フォント ファミリとサイズを変更する方法は次のとおりです。
+テキストのフォントをカスタマイズできます。フォントファミリーとサイズを変更する方法は次のとおりです。
 
 ```java
 textFragment.getTextState().setFont(FontRepository.findFont("Arial"));
@@ -133,7 +135,7 @@ linkText.getTextState().setFont(FontRepository.findFont("Arial"));
 linkText.getTextState().setFontSize(12);
 
 Hyperlink link = new Hyperlink(linkText);
-link.setAction(new GoToURIAction("https://www.example.com"));
+link.setAction(new GoToURIAction("https://www.example.com など）;
 
 page.getParagraphs().add(link);
 ```
@@ -143,8 +145,8 @@ page.getParagraphs().add(link);
 必要に応じてテキストを変換します。
 
 ```java
-textFragment.getTextState().setTextRise(5); //テキストを上げる
-textFragment.getTextState().setTextScaling(200); //テキストを拡大縮小します
+textFragment.getTextState().setTextRise(5); // テキストを上げる
+textFragment.getTextState().setTextScaling(200); // テキストを拡大縮小します
 textFragment.getTextState().setUnderline(true);
 ```
 
@@ -158,7 +160,7 @@ page.getPageInfo().getMargin().setLeft(50);
 page.getPageInfo().getMargin().setRight(50);
 ```
 
-## 改ページの処理
+## 改ページ処理
 
 コンテンツに適切なページ区切りがあることを確認します。
 
@@ -182,13 +184,13 @@ page.getParagraphs().add(watermark);
 
 ## 結論
 
-このガイドでは、Aspose.PDF を利用して Java で PDF のテキスト構造にスタイルを設定する方法について説明しました。これで、特定の要件を満たす、視覚的に魅力的で構造化された PDF ドキュメントを作成できます。提供されているテクニックを試して、PDF 生成スキルを高めてください。
+このガイドでは、JavaとAspose.PDFを使ってPDFのテキスト構造にスタイルを設定する方法を解説しました。視覚的に魅力的で構造化された、特定の要件を満たすPDFドキュメントを作成できるようになります。ここで紹介したテクニックを試して、PDF作成スキルを向上させましょう。
 
 ## よくある質問
 
 ### PDF 内のテキストのフォントを変更するにはどうすればよいですか?
 
- PDF内のテキストのフォントを変更するには、`setTextState()`方法を使用して希望のフォントを指定します`setFont()`。 例えば：
+PDF内のテキストのフォントを変更するには、 `setTextState()` メソッドを使用して希望のフォントを指定します `setFont()`。 例えば：
 
 ```java
 textFragment.getTextState().setFont(FontRepository.findFont("Arial"));
@@ -196,22 +198,24 @@ textFragment.getTextState().setFont(FontRepository.findFont("Arial"));
 
 ### Aspose.PDF for Java を使用して PDF にハイパーリンクを追加できますか?
 
-はい、Aspose.PDF for Javaを使用してPDFにハイパーリンクを追加できます。`Hyperlink`リンクを作成し、URL を開くなどのアクションを指定するクラスです。
+はい、Aspose.PDF for Javaを使用してPDFにハイパーリンクを追加できます。 `Hyperlink` リンクを作成し、URL を開くなどのアクションを指定するクラスです。
 
-### PDF でページ区切りを処理するための推奨される方法は何ですか?
+### PDF でページ区切りを処理するための推奨方法は何ですか?
 
- PDFで改ページを処理するには、`IsAutoTruncated`そして`IsWordWrapped`プロパティ`true`の`TextState`これにより、テキストが適切に切り捨てられ、ページ境界内に収まるように折り返されます。
+PDFで改ページを処理するには、 `IsAutoTruncated` そして `IsWordWrapped` プロパティを `true` の中で `TextState`これにより、テキストが適切に切り捨てられ、ページ境界内に収まるように折り返されます。
 
-### PDF 文書を透かしで保護するにはどうすればよいですか?
+### 透かしを使用して PDF ドキュメントを保護するにはどうすればよいですか?
 
-PDF に透かしテキスト フラグメントを追加することで、PDF ドキュメントを透かしで保護できます。フォント サイズや色など、透かしの外観をカスタマイズして、目的の効果を実現します。
+PDF文書に透かしテキストを追加することで、透かしで保護することができます。フォントサイズや色など、透かしの外観をカスタマイズして、希望の効果を実現できます。
 
-### Aspose.PDF for Java の詳細情報とドキュメントはどこで入手できますか?
+### Aspose.PDF for Java の詳細情報やドキュメントはどこで入手できますか?
 
- Aspose.PDF for Javaの包括的なドキュメントは以下でご覧いただけます。[ここ](https://reference.aspose.com/pdf/java/).
+Aspose.PDF for Javaの包括的なドキュメントは以下から参照できます。 [ここ](https://reference。aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

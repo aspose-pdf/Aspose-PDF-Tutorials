@@ -1,30 +1,32 @@
 ---
-title: Thêm thụt lề các dòng tiếp theo trong tệp PDF
-linktitle: Thêm thụt lề các dòng tiếp theo trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm thụt lề các dòng tiếp theo vào tệp PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước chi tiết này để định dạng văn bản chuyên nghiệp.
-weight: 60
-url: /vi/net/programming-with-text/add-subsequent-lines-indent/
+"description": "Tìm hiểu cách thêm thụt lề các dòng tiếp theo vào tệp PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước chi tiết này để định dạng văn bản chuyên nghiệp."
+"linktitle": "Thêm thụt lề các dòng tiếp theo trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm thụt lề các dòng tiếp theo trong tệp PDF"
+"url": "/vi/net/programming-with-text/add-subsequent-lines-indent/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm thụt lề các dòng tiếp theo trong tệp PDF
 
 ## Giới thiệu
 
-Tạo PDF hấp dẫn về mặt hình ảnh thường liên quan đến nhiều thứ hơn là chỉ đặt văn bản trên một trang. Bạn đã bao giờ tự hỏi làm thế nào bạn có thể thêm thụt lề vào các dòng tiếp theo trong tài liệu PDF, làm cho nó trông chuyên nghiệp hơn chưa? Cho dù bạn đang xây dựng báo cáo, sách điện tử hay bất kỳ tài liệu nào mà bố cục quan trọng, khả năng kiểm soát cách văn bản chảy là rất quan trọng. Hôm nay, chúng ta sẽ khám phá cách thêm thụt lề các dòng tiếp theo vào tệp PDF bằng Aspose.PDF cho .NET. Tính năng này có thể đặc biệt hữu ích cho các đoạn văn cần thụt lề treo, giúp cải thiện khả năng đọc và tính thẩm mỹ. Vậy, hãy cùng bắt đầu ngay nhé!
+Tạo PDF hấp dẫn về mặt hình ảnh thường liên quan đến nhiều thứ hơn là chỉ đặt văn bản trên một trang. Bạn đã bao giờ tự hỏi làm thế nào bạn có thể thêm thụt lề vào các dòng tiếp theo trong một tài liệu PDF, làm cho nó trông chuyên nghiệp hơn không? Cho dù bạn đang xây dựng một báo cáo, một sách điện tử hay bất kỳ tài liệu nào mà bố cục là quan trọng, thì khả năng kiểm soát cách văn bản chảy là rất quan trọng. Hôm nay, chúng ta sẽ khám phá cách thêm thụt lề các dòng tiếp theo vào tệp PDF bằng Aspose.PDF cho .NET. Tính năng này có thể đặc biệt hữu ích cho các đoạn văn cần thụt lề treo, giúp cải thiện khả năng đọc và tính thẩm mỹ. Vậy, hãy cùng bắt đầu ngay nhé!
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
--  Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện này. Nếu bạn chưa cài đặt, bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
-- Môi trường phát triển: Kiến thức cơ bản về C# và một IDE như Visual Studio sẽ rất hữu ích.
+- Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện này. Nếu bạn chưa cài đặt, bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+- Môi trường phát triển: Kiến thức cơ bản về C# và IDE như Visual Studio sẽ rất hữu ích.
 - .NET Framework: Hướng dẫn này giả định rằng bạn đang làm việc trong môi trường .NET.
--  Giấy phép tạm thời: Nếu bạn không có giấy phép đầy đủ cho Aspose.PDF, bạn có thể yêu cầu[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+- Giấy phép tạm thời: Nếu bạn không có giấy phép đầy đủ cho Aspose.PDF, bạn có thể yêu cầu [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 Bây giờ bạn đã sẵn sàng, chúng ta hãy chuyển sang phần mã hóa!
 
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Tạo đối tượng tài liệu mới
 Aspose.Pdf.Document document = new Aspose.Pdf.Document();
 
-//Thêm một trang mới vào tài liệu
+// Thêm một trang mới vào tài liệu
 Aspose.Pdf.Page page = document.Pages.Add();
 ```
 
@@ -60,7 +62,7 @@ Aspose.Pdf.Page page = document.Pages.Add();
 
 ## Bước 2: Tạo đoạn văn bản
 
- Tiếp theo, bạn cần tạo một`TextFragment` đối tượng, sẽ chứa văn bản mà bạn sẽ hiển thị trên PDF của mình. Văn bản này sau đó sẽ được định dạng với các thụt lề cần thiết.
+Tiếp theo, bạn cần tạo một `TextFragment` đối tượng, sẽ chứa văn bản mà bạn sẽ hiển thị trên PDF của mình. Văn bản này sau đó sẽ được định dạng với các thụt lề cần thiết.
 
 ```csharp
 Aspose.Pdf.Text.TextFragment text = new Aspose.Pdf.Text.TextFragment(
@@ -76,7 +78,7 @@ Aspose.Pdf.Text.TextFragment text = new Aspose.Pdf.Text.TextFragment(
 
 ## Bước 3: Khởi tạo tùy chọn định dạng văn bản
 
- Đây là nơi phép thuật xảy ra! Bây giờ bạn đã có`TextFragment` , bạn sẽ cần khởi tạo các tùy chọn định dạng văn bản để chỉ định`SubsequentLinesIndent`. Thiết lập này sẽ áp dụng thụt lề cho tất cả các dòng ngoại trừ dòng đầu tiên.
+Đây là nơi phép thuật xảy ra! Bây giờ bạn đã có `TextFragment`, bạn sẽ cần khởi tạo các tùy chọn định dạng văn bản để chỉ định `SubsequentLinesIndent`. Thiết lập này sẽ áp dụng thụt lề cho tất cả các dòng ngoại trừ dòng đầu tiên.
 
 ```csharp
 // Khởi tạo TextFormattingOptions cho đoạn văn bản và chỉ định giá trị SubsequentLinesIndent
@@ -90,7 +92,7 @@ Trong ví dụ này, chúng tôi đã đặt thụt lề là 20 đơn vị. Đi�
 
 ## Bước 4: Thêm văn bản vào trang
 
- Bây giờ bạn đã áp dụng định dạng cần thiết, đã đến lúc thêm văn bản vào trang. Điều này được thực hiện bằng cách thêm`TextFragment` vào bộ sưu tập đoạn văn của trang.
+Bây giờ bạn đã áp dụng định dạng cần thiết, đã đến lúc thêm văn bản vào trang. Điều này được thực hiện bằng cách thêm `TextFragment` vào bộ sưu tập đoạn văn của trang.
 
 ```csharp
 page.Paragraphs.Add(text);
@@ -135,9 +137,9 @@ Và bạn đã có nó! Bạn vừa học cách thêm thụt lề dòng tiếp t
 ## Câu hỏi thường gặp
 
 ### Tôi có thể áp dụng các thụt lề khác nhau cho các đoạn văn khác nhau không?  
- Có, bạn có thể áp dụng các thiết lập thụt lề khác nhau cho từng`TextFragment` bằng cách sửa đổi cá nhân của họ`TextState.FormattingOptions`.
+Có, bạn có thể áp dụng các thiết lập thụt lề khác nhau cho từng `TextFragment` bằng cách sửa đổi cá nhân của họ `TextState.FormattingOptions`.
 
-###  Những đơn vị nào được sử dụng cho`SubsequentLinesIndent` property?  
+### Những đơn vị nào được sử dụng cho `SubsequentLinesIndent` tài sản?  
 Khoảng thụt lề được đo bằng điểm, đây là đơn vị đo lường tiêu chuẩn trong tài liệu PDF.
 
 ### Tôi có thể áp dụng điều này cho các tệp PDF hiện có không?  
@@ -147,10 +149,12 @@ Hoàn toàn có thể! Bạn có thể tải tệp PDF hiện có và áp dụng
 Không có giới hạn cứng nào, nhưng vì mục đích dễ đọc, bạn nên giữ thụt lề trong giới hạn hợp lý.
 
 ### Tôi có thể kết hợp điều này với các tùy chọn định dạng văn bản khác không?  
- Vâng! Bạn có thể kết hợp`SubsequentLinesIndent` thuộc tính với các tùy chọn định dạng văn bản khác như kích thước phông chữ, màu sắc và căn chỉnh để tùy chỉnh văn bản của bạn hơn nữa.
+Vâng! Bạn có thể kết hợp `SubsequentLinesIndent` thuộc tính với các tùy chọn định dạng văn bản khác như kích thước phông chữ, màu sắc và căn chỉnh để tùy chỉnh văn bản của bạn hơn nữa.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

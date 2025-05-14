@@ -8,7 +8,9 @@ url: /java/pdf-tables/remove-tables-from-existing-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Tables from Existing PDF using Java
@@ -99,6 +101,7 @@ You can find comprehensive documentation and resources for Aspose.PDF for Java a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Konwertuj pliki PDF do formatu XML
-linktitle: Konwertuj pliki PDF do formatu XML
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak bez wysiłku konwertować pliki PDF do XML za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku i najlepsze praktyki dla wydajnej konwersji.
-weight: 22
-url: /pl/java/pdf-conversion-transformation/convert-pdfs-to-xml-format/
+"description": "Dowiedz się, jak bez wysiłku konwertować pliki PDF do XML za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku i najlepsze praktyki dla wydajnej konwersji."
+"linktitle": "Konwertuj pliki PDF do formatu XML"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Konwertuj pliki PDF do formatu XML"
+"url": "/pl/java/pdf-conversion-transformation/convert-pdfs-to-xml-format/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj pliki PDF do formatu XML
@@ -35,7 +37,7 @@ Teraz, gdy masz już krótki przegląd Aspose.PDF dla Java, przejdźmy do szczeg
 
 Zanim zaczniesz konwertować pliki PDF do XML, musisz skonfigurować Aspose.PDF dla Java w swoim projekcie. Wykonaj następujące kroki, aby rozpocząć:
 
-1.  Pobierz Aspose.PDF dla Java: Odwiedź witrynę Aspose i pobierz wersję Java Aspose.PDF. Link do pobrania znajdziesz[Tutaj](https://releases.aspose.com/pdf/java/).
+1. Pobierz Aspose.PDF dla Java: Odwiedź witrynę Aspose i pobierz wersję Java Aspose.PDF. Link do pobrania znajdziesz [Tutaj](https://releases.aspose.com/pdf/java/).
 
 2. Instalacja: Po pobraniu pliku postępuj zgodnie z instrukcjami instalacji podanymi na stronie internetowej Aspose, aby skonfigurować bibliotekę w projekcie Java.
 
@@ -97,7 +99,7 @@ Konwersja plików PDF do formatu XML przy użyciu Aspose.PDF for Java otwiera ś
 ### Jak zainstalować Aspose.PDF dla Java?
 
 Instalacja Aspose.PDF dla Java jest prosta. Wykonaj następujące kroki:
-1.  Pobierz bibliotekę z[Tutaj](https://releases.aspose.com/pdf/java/).
+1. Pobierz bibliotekę z [Tutaj](https://releases.aspose.com/pdf/java/).
 2. Zainstaluj go w swoim projekcie Java zgodnie z podanymi instrukcjami.
 
 ### Czy mogę przekonwertować pliki PDF chronione hasłem do formatu XML?
@@ -114,10 +116,12 @@ Konwersja plików PDF do formatu XML zapewnia takie korzyści, jak wyodrębniani
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.PDF dla Java?
 
- Odwiedź Aspose.PDF, aby zapoznać się z dokumentacją Java[Tutaj](https://reference.aspose.com/pdf/java/) aby uzyskać dostęp do kompleksowych zasobów, samouczków i odniesień do interfejsu API.
+Odwiedź Aspose.PDF, aby zapoznać się z dokumentacją Java [Tutaj](https://reference.aspose.com/pdf/java/) aby uzyskać dostęp do kompleksowych zasobów, samouczków i odniesień do API.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

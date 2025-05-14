@@ -1,14 +1,16 @@
 ---
-title: Ustaw skrypt Java
-linktitle: Ustaw skrypt Java
-second_title: Aspose.PDF dla .NET API Reference
-description: Odblokuj moc Aspose.PDF dla .NET. Dowiedz się, jak skonfigurować JavaScript w polach formularza dzięki naszemu przewodnikowi krok po kroku.
-weight: 270
-url: /pl/net/programming-with-forms/set-java-script/
+"description": "Odblokuj moc Aspose.PDF dla .NET. Dowiedz się, jak skonfigurować JavaScript w polach formularza dzięki naszemu przewodnikowi krok po kroku."
+"linktitle": "Ustaw skrypt Java"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ustaw skrypt Java"
+"url": "/pl/net/programming-with-forms/set-java-script/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw skrypt Java
@@ -23,11 +25,11 @@ Zanim przejdziemy do kodowania, upewnijmy się, że masz wszystko, czego potrzeb
 
 - Visual Studio (lub dowolne środowisko IDE .NET): Upewnij się, że jest ono zainstalowane i poprawnie skonfigurowane.
   
--  Biblioteka Aspose.PDF: Będziesz potrzebować najnowszej wersji tej biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+- Biblioteka Aspose.PDF: Będziesz potrzebować najnowszej wersji tej biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
 
 - Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
--  Pliki PDF: Powinieneś mieć gotowy plik PDF do testowania. W naszym przykładzie użyjemy pliku o nazwie`SetJavaScript.pdf`.
+- Pliki PDF: Powinieneś mieć gotowy plik PDF do testowania. W naszym przykładzie użyjemy pliku o nazwie `SetJavaScript.pdf`.
 
 - Twój katalog dokumentów: Dowiedz się, gdzie przechowywane są pliki dokumentów. Będziemy odwoływać się do tej ścieżki w naszym kodzie.
 
@@ -57,7 +59,7 @@ Najpierw musimy określić lokalizację naszego pliku PDF. To przygotowuje grunt
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF. Pomyśl o tym jak o ustawianiu współrzędnych mapy skarbów — musisz wiedzieć, gdzie „X” oznacza to miejsce!
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF. Pomyśl o tym jak o ustawianiu współrzędnych mapy skarbów — musisz wiedzieć, gdzie „X” oznacza to miejsce!
 
 ## Krok 2: Załaduj dokument PDF
 
@@ -77,11 +79,11 @@ Następnie chcemy uzyskać dostęp do pola formularza, w którym zastosujemy kod
 TextBoxField field = (TextBoxField)doc.Form["textbox1"];
 ```
 
- Tutaj zakładamy, że w pliku PDF znajduje się pole tekstowe o nazwie`textbox1`. Jeśli nie posiadasz pola o takiej nazwie, możesz je zmienić lub odpowiednio dostosować kod. 
+Tutaj zakładamy, że w pliku PDF znajduje się pole tekstowe o nazwie `textbox1`. Jeśli nie posiadasz pola o takiej nazwie, możesz je zmienić lub odpowiednio dostosować kod. 
 
 ## Krok 4: Skonfiguruj akcje JavaScript
 
-Teraz dodajmy trochę funkcjonalności do naszego pola tekstowego! Skonfigurujemy akcje JavaScript, które będą uruchamiane przy określonych zdarzeniach. 
+Teraz dodajmy trochę funkcjonalności do naszego pola tekstowego! Skonfigurujemy akcje JavaScript, które będą wyzwalane przy określonych zdarzeniach. 
 
 ```csharp
 field.Actions.OnModifyCharacter = new JavascriptAction("AFNumber_Keystroke(2, 1, 1, 0, \"\", true)");
@@ -96,7 +98,7 @@ Konfigurując te akcje, w zasadzie nadajemy naszemu polu tekstowemu osobowość 
 
 ## Krok 5: Zainicjuj wartość pola
 
-Następnie ustalmy punkt początkowy dla naszego pola tekstowego, ustalając jego wartość początkową. 
+Następnie ustalmy punkt początkowy dla naszego pola tekstowego, ustawiając wartość początkową. 
 
 ```csharp
 field.Value = "123";
@@ -113,7 +115,7 @@ dataDir = dataDir + "Restricted_out.pdf";
 doc.Save(dataDir);
 ```
 
- Spowoduje to zaktualizowanie oryginalnego pliku o wprowadzone zmiany i zapisanie go jako`Restricted_out.pdf`. Można to postrzegać jako przypieczętowanie losu naszego pliku PDF — po zapisaniu będzie on gotowy do udostępnienia światu!
+Spowoduje to zaktualizowanie oryginalnego pliku o wprowadzone zmiany i zapisanie go jako `Restricted_out.pdf`Pomyśl o tym jak o przypieczętowaniu losu naszego pliku PDF — po zapisaniu będzie on gotowy do udostępnienia światu!
 
 ## Krok 7: Potwierdź powodzenie
 
@@ -135,19 +137,21 @@ Gratulacje! Udało Ci się skonfigurować JavaScript dla pól formularza w pliku
 Aspose.PDF to biblioteka przeznaczona do tworzenia, edytowania i manipulowania plikami PDF w aplikacjach .NET, udostępniająca zaawansowane funkcje PDF.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF?  
- Chociaż dostępna jest bezpłatna wersja próbna, do pełnego wykorzystania bez ograniczeń wymagana jest licencja. Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+Chociaż dostępna jest bezpłatna wersja próbna, do pełnego wykorzystania bez ograniczeń wymagana jest licencja. Możesz kupić licencję [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę ustawić JavaScript w innych typach pól formularzy?  
 Oczywiście! Aspose.PDF pozwala na wykonywanie działań JavaScript na różnych polach formularza, takich jak pola wyboru, przyciski radiowe i listy rozwijane.
 
 ### Gdzie mogę uzyskać pomoc w rozwiązaniu problemów z plikiem Aspose.PDF?  
- Możesz uzyskać pomoc techniczną za pośrednictwem ich[forum](https://forum.aspose.com/c/pdf/10) w przypadku jakichkolwiek pytań lub problemów.
+Możesz uzyskać pomoc techniczną za pośrednictwem ich [forum](https://forum.aspose.com/c/pdf/10) w przypadku jakichkolwiek pytań lub problemów.
 
 ### Czy istnieje możliwość przetestowania Aspose.PDF bez konieczności zakupu?  
-Tak! Aspose zapewnia[bezpłatny okres próbny](https://releases.aspose.com/) aby przetestować funkcje biblioteki przed podjęciem decyzji o zakupie.
+Tak! Aspose zapewnia [bezpłatny okres próbny](https://releases.aspose.com/) aby przetestować funkcje biblioteki przed podjęciem decyzji o zakupie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

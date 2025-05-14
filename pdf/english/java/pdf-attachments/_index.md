@@ -8,7 +8,9 @@ url: /java/pdf-attachments/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Attachments
@@ -37,6 +39,7 @@ Discover How to List Attachments in PDFs using Aspose.PDF for Java. Step-by-Step
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

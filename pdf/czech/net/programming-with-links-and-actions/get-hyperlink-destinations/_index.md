@@ -1,43 +1,45 @@
 ---
-title: Získejte cíle hypertextového odkazu v souboru PDF
-linktitle: Získejte cíle hypertextového odkazu v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak snadno extrahovat cíle hypertextových odkazů ze souborů PDF pomocí Aspose.PDF for .NET. Postupujte podle tohoto jednoduchého návodu krok za krokem.
-weight: 60
-url: /cs/net/programming-with-links-and-actions/get-hyperlink-destinations/
+"description": "Naučte se, jak snadno extrahovat hypertextové odkazy z PDF souborů pomocí Aspose.PDF pro .NET. Postupujte podle tohoto jednoduchého návodu krok za krokem."
+"linktitle": "Získat cílové adresy hypertextových odkazů v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Získat cílové adresy hypertextových odkazů v souboru PDF"
+"url": "/cs/net/programming-with-links-and-actions/get-hyperlink-destinations/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte cíle hypertextového odkazu v souboru PDF
+# Získat cílové adresy hypertextových odkazů v souboru PDF
 
 ## Zavedení
 
-Pokud jde o správu souborů PDF, může být extrahování cílů hypertextových odkazů překvapivě složitým úkolem. Ať už pracujete na obchodní zprávě, výzkumném dokumentu nebo jakémkoli dokumentu plném odkazů, možná zjistíte, že potřebujete rychlý přístup k těmto hypertextovým odkazům. Co kdybych vám řekl, že existuje jednoduchý způsob, jak to udělat pomocí Aspose.PDF pro .NET? Zůstaňte kolem, když odhalujeme, jak stylově extrahovat cíle hypertextových odkazů – aniž bychom ztratili hlavu ve složitosti kódu!
+Pokud jde o správu PDF souborů, může být extrakce cílových odkazů překvapivě složitým úkolem. Ať už pracujete na obchodní zprávě, výzkumné práci nebo jakémkoli dokumentu plném odkazů, můžete zjistit, že potřebujete k těmto hypertextovým odkazům rychlý přístup. Co kdybych vám řekl, že existuje jednoduchý způsob, jak to udělat pomocí Aspose.PDF pro .NET? Zůstaňte s námi a objevíme, jak extrahovat cílové odkazy stylově – aniž bychom se ztráceli ve složitosti kódu!
 
 ## Předpoklady
 
-Než se ponoříte do tohoto článku, ujistěte se, že máte vše po ruce.
+Než se do tohoto článku pustíte, ujistěte se, že máte vše po ruce.
 
-### .NET prostředí 
-Ujistěte se, že máte nastavené vývojové prostředí .NET. Můžete použít Visual Studio nebo jakékoli jiné C# IDE dle vašeho výběru. 
+### Prostředí .NET 
+Ujistěte se, že máte nastavené vývojové prostředí .NET. Můžete použít Visual Studio nebo jakékoli jiné vývojové prostředí C# dle vašeho výběru. 
 
 ### Aspose.PDF pro knihovnu .NET 
- Budete potřebovat knihovnu Aspose.PDF. Pokud ji ještě nemáte, můžete si ji stáhnout z[tento odkaz](https://releases.aspose.com/pdf/net/) . Chcete to otestovat, než se zapojíte? Vyzkoušejte[zkušební verze zdarma](https://releases.aspose.com/) první!
+Budete potřebovat knihovnu Aspose.PDF. Pokud ji ještě nemáte, můžete si ji stáhnout z [tento odkaz](https://releases.aspose.com/pdf/net/)Chcete si to otestovat, než se zavážete? Vyzkoušejte [bezplatná zkušební verze](https://releases.aspose.com/) první!
 
 ### Základní znalosti programování 
-Nezbytností je znalost C# a objektově orientovaného programování. Pokud jste již kódovali, jste na dobrém místě!
+Znalost C# a objektově orientovaného programování je nutností. Pokud jste někdy programovali, jste na správném místě!
 
 ### Vstupní soubor PDF 
-Vezměte si soubor PDF, který obsahuje hypertextové odkazy – toto bude vaše laboratorní krysa pro proces extrakce!
+Vezměte si PDF soubor, který obsahuje hypertextové odkazy – bude to váš laboratorní pokus pro proces extrakce!
 
-Nyní, když máte vše připraveno, pojďme se vrhnout na zábavnější část!
+Teď, když máte všechno připravené, pojďme se pustit do té zábavné části!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Abyste mohli začít s kódem C#, musíte se ujistit, že importujete potřebné jmenné prostory Aspose. Vypadá to takto:
+Abyste mohli začít s kódem v C#, musíte se ujistit, že importujete potřebné jmenné prostory Aspose. Vypadá to takto:
 
 ```csharp
 using System;
@@ -48,67 +50,67 @@ using Aspose.Pdf.Annotations;
 using System.Collections.Generic;
 ```
 
-Tyto řádky našemu programu v podstatě sdělují, které knihovny chceme používat, takže dokáže rozpoznat třídy a metody, se kterými plánujeme pracovat. 
+Tyto řádky v podstatě sdělují našemu programu, které knihovny chceme použít, aby mohl rozpoznat třídy a metody, se kterými plánujeme pracovat. 
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Začněte vytvořením nového projektu C#. Postupujte takto:
+Začněte vytvořením nového projektu v C#. Postupujte takto:
 
-1. Otevřete Visual Studio nebo preferované IDE.
-2. Vytvořte nový projekt a vyberte aplikaci konzoly.
-3. Pojmenujte svůj projekt něco jako "PDFHyperlinkExtractor".
+1. Otevřete Visual Studio nebo vámi preferované IDE.
+2. Vytvořte nový projekt a vyberte konzolovou aplikaci.
+3. Pojmenujte svůj projekt například „PDFHyperlinkExtractor“.
 
-Nyní se ujistěte, že je váš projekt nastaven na spuštění .NET Core nebo libovolného rámce, který preferujete.
+Nyní se ujistěme, že váš projekt je nastaven pro spuštění .NET Core nebo jakéhokoli jiného frameworku, který preferujete.
 
 ## Krok 2: Přidání knihovny Aspose.PDF
 
-Chcete-li využít výkonné funkce, které Aspose.PDF poskytuje, budete muset knihovnu přidat do svého projektu.
+Abyste mohli využít výkonné funkce, které Aspose.PDF nabízí, budete muset do svého projektu přidat knihovnu.
 
 1. Použijte Správce balíčků NuGet:
-   - Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+   - Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
    - Klikněte na „Spravovat balíčky NuGet“.
-   -  Hledat`Aspose.PDF` a nainstalujte jej.
+   - Hledat `Aspose.PDF` a nainstalujte ho.
 
-Tím se přidají požadované soubory sestavení, takže můžete začít kódovat.
+Tím se přidají potřebné soubory sestavení, abyste mohli začít s kódováním.
 
 ## Krok 3: Načtěte dokument PDF
 
-Nyní načteme soubor PDF, se kterým chcete pracovat. Budete potřebovat správnou cestu k vaší sadě PDF.
+Nyní si načtěte PDF soubor, se kterým chcete pracovat. Budete potřebovat správnou cestu k vašemu PDF souboru.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "input.pdf");
 ```
 
- Vysvětlení: Vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se vaše PDF nachází. Tento kus kódu inicializuje`Document` třídy poskytované Aspose, která doslova otevírá vaše PDF pro podnikání!
+Vysvětlení: Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš PDF soubor. Tento kód inicializuje `Document` třída poskytovaná společností Aspose, která doslova otevírá váš PDF pro firmy!
 
-## Krok 4: Procházejte stránky PDF
+## Krok 4: Procházení stránek PDF
 
-Dále projdeme každou stránku v dokumentu PDF. Je to jako listovat stránkami knihy.
+Dále si projdeme každou stránku v PDF dokumentu. Je to jako listovat stránkami knihy.
 
 ```csharp
 foreach (Aspose.Pdf.Page page in document.Pages)
 {
-    //... kód pro extrakci odkazů jde sem
+    //... kód pro extrahování odkazů se nachází zde
 }
 ```
 
-Proč opakovat?: Každá stránka může mít různé odkazy a my chceme každý z nich zkontrolovat. Tímto způsobem vám neuniknou žádné zlaté nugety ukryté uvnitř.
+Proč se opakovat?: Každá stránka může mít různé odkazy a my chceme zkontrolovat každý jednotlivý. Tímto způsobem vám neuniknou žádné skryté zlaté nugety.
 
-## Krok 5: Načtěte anotace odkazů
+## Krok 5: Načtení anotací odkazů
 
- Jakmile jsme na stránce, pojďme lovit anotace odkazů. Využijeme`AnnotationSelector`.
+Jakmile jsme na stránce, pojďme hledat anotace odkazů. Použijeme `AnnotationSelector`.
 
 ```csharp
 AnnotationSelector selector = new AnnotationSelector(new LinkAnnotation(page, Rectangle.Trivial));
 page.Accept(selector);
 ```
 
- Pochopení`AnnotationSelector` : Tato třída pomáhá identifikovat odkazy na stránce výběrem anotací, které jsou daného typu`LinkAnnotation`. 
+Pochopení `AnnotationSelector`Tato třída pomáhá identifikovat odkazy na stránce výběrem anotací typu `LinkAnnotation`. 
 
-## Krok 6: Ukládejte a iterujte prostřednictvím anotací odkazů
+## Krok 6: Ukládání a iterování anotací odkazů
 
-Nyní shromáždíme odkazy v seznamu a iterujeme je, abychom zobrazili jejich cíle.
+Nyní shromáždíme odkazy do seznamu a budeme je iterovat, abychom zobrazili jejich cíle.
 
 ```csharp
 IList<Annotation> list = selector.Selected;
@@ -118,13 +120,13 @@ foreach (LinkAnnotation a in list)
 }
 ```
 
-Detailní rozpis:
-- `IList<Annotation> list`: Uloží všechny vybrané anotace odkazů.
-- Iterace v seznamu: U každého odkazu získáváme jeho cílové URI a vytiskneme jej. 
+Podrobný rozpis:
+- `IList<Annotation> list`: Zde se uloží všechny vybrané anotace odkazů.
+- Iterování seznamem: Pro každý odkaz získáme jeho cílový URI a vypíšeme ho. 
 
-## Krok 7: Ošetřete výjimky
+## Krok 7: Ošetření výjimek
 
-Ujistěte se, že svou práci zabalíte do bloku pokusu. To pomáhá zachytit všechny problémy, které se mohou objevit, jako je přístup k neexistujícímu souboru nebo chybné anotace odkazů.
+Nezapomeňte svou práci zabalit do bloku try-catch. To pomůže zachytit případné problémy, které se mohou objevit, jako je přístup k neexistujícímu souboru nebo chybné anotace odkazů.
 
 ```csharp
 catch (Exception ex)
@@ -133,35 +135,37 @@ catch (Exception ex)
 }
 ```
 
-Proč je to důležité?: Nikdo nemá rád neočekávané pády, že? Díky tomu bude váš program robustní a uživatelsky přívětivý.
+Proč je to důležité?: Nikdo nemá rád neočekávané pády, že? Díky tomu je váš program robustní a uživatelsky přívětivý.
 
 ## Krok 8: Kompilace a spuštění
 
-Konečně je čas na okamžik pravdy! Stiskněte tlačítko Spustit a zjistěte, zda se váš program chová podle očekávání. Na konzole byste měli vidět vytištěné cíle extrahovaných hypertextových odkazů.
+Konečně nastal čas na okamžik pravdy! Stiskněte tlačítko Spustit a zjistěte, zda se váš program chová podle očekávání. V konzoli byste měli vidět vytištěné cíle hypertextových odkazů.
 
 ## Závěr
 
-Extrahování cílů hypertextových odkazů ze souboru PDF pomocí Aspose.PDF pro .NET je docela jednoduché, že? Pomocí několika řádků kódu můžete snadno shromáždit své odkazy, což vám ušetří čas i námahu. Objektově orientovaná struktura knihovny umožňuje intuitivní práci a výsledkem je čistý výstup konzoly odrážející veškerou vaši tvrdou práci. Jste připraveni automatizovat další úkoly ve vaší správě PDF? Obloha je limit!
+Extrahování hypertextových odkazů ze souboru PDF pomocí Aspose.PDF pro .NET je docela jednoduché, že? S několika řádky kódu můžete bez námahy shromáždit odkazy, což vám ušetří čas i starosti. Objektově orientovaná struktura knihovny umožňuje intuitivní práci a výsledkem je čistý výstup do konzole, který odráží veškerou vaši tvrdou práci. Jste připraveni automatizovat více úkolů ve správě PDF? Možnosti jsou neomezené!
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je výkonná knihovna, která poskytuje metody pro manipulaci a tvorbu PDF programově.
+Aspose.PDF pro .NET je výkonná knihovna, která poskytuje metody pro programovou manipulaci a vytváření PDF souborů.
 
 ### Mohu používat Aspose.PDF zdarma?
- Ano! Můžete to vyzkoušet pomocí[zkušební verze zdarma](https://releases.aspose.com/).
+Ano! Můžete si to vyzkoušet pomocí [bezplatná zkušební verze](https://releases.aspose.com/).
 
 ### Jaké programovací jazyky Aspose podporuje?
 Kromě .NET nabízí Aspose také knihovny pro Javu, Python a další jazyky.
 
 ### Potřebuji předchozí zkušenosti s programováním?
-Základní znalosti programování v C# nebo jiném jazyce .NET vám pomohou lépe se v příkladech orientovat.
+Základní programovací dovednosti v C# nebo jiném jazyce .NET vám pomohou lépe se orientovat v příkladech.
 
 ### Kde najdu další podporu a dokumentaci?
- Můžete procházet[dokumentace](https://reference.aspose.com/pdf/net/) nebo[fórum podpory](https://forum.aspose.com/c/pdf/10) o pomoc.
+Můžete si prohlédnout [dokumentace](https://reference.aspose.com/pdf/net/) nebo [fórum podpory](https://forum.aspose.com/c/pdf/10) o pomoc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

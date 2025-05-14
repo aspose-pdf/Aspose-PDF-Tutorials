@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF Dosyasının Üstbilgisine veya Altbilgisine Metin Ekleme
-linktitle: Java kullanarak PDF Dosyasının Üstbilgisine veya Altbilgisine Metin Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java kullanarak üstbilgiye veya altbilgiye metin ekleyerek PDF belgelerini nasıl geliştireceğinizi öğrenin. Java için Aspose.PDF ile adım adım talimatları keşfedin.
-weight: 14
-url: /tr/java/pdf-document-operations/adding-text-in-header-or-footer-of-pdf-file-using-java/
+"description": "Java kullanarak üstbilgiye veya altbilgiye metin ekleyerek PDF belgelerini nasıl geliştireceğinizi öğrenin. Java için Aspose.PDF ile adım adım talimatları keşfedin."
+"linktitle": "Java kullanarak PDF Dosyasının Üstbilgisine veya Altbilgisine Metin Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF Dosyasının Üstbilgisine veya Altbilgisine Metin Ekleme"
+"url": "/tr/java/pdf-document-operations/adding-text-in-header-or-footer-of-pdf-file-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF Dosyasının Üstbilgisine veya Altbilgisine Metin Ekleme
@@ -23,7 +25,7 @@ Bu kapsamlı kılavuzda, Java kullanarak bir PDF dosyasının üstbilgisine veya
 Uygulamaya geçmeden önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Sisteminizde Java Development Kit (JDK) yüklü.
--  Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Adım 1: Yeni bir Java Projesi Oluşturun
 
@@ -32,7 +34,7 @@ Tercih ettiğiniz Entegre Geliştirme Ortamında (IDE) yeni bir Java projesi olu
 ## Adım 2: PDF Belgesini Başlatın
 
 ```java
-// Yeni bir PDF belgesi başlatın
+// Yeni bir PDF belgesi başlat
 Document pdfDocument = new Document();
 
 // İçerik eklemek için bir sayfa oluşturun
@@ -43,7 +45,7 @@ Bu adımda yeni bir PDF belgesi başlatıyoruz ve içerik eklemek için bir sayf
 
 ## Adım 3: Üstbilgiye veya Altbilgiye Metin Ekleyin
 
- PDF'nin üstbilgisine veya altbilgisine metin eklemek için şunu kullanabilirsiniz:`TextStamp` sınıf. Başlığa metin eklemenin bir örneği şöyledir:
+PDF'nin üstbilgisine veya altbilgisine metin eklemek için şunu kullanabilirsiniz: `TextStamp` sınıf. Başlığa metin eklemenin bir örneği şöyledir:
 
 ```java
 // Bir TextStamp nesnesi oluşturun
@@ -56,7 +58,7 @@ textStamp.setYIndent(20);
 page.addStamp(textStamp);
 ```
 
- Metni, konumu ve diğer özellikleri özelleştirebilirsiniz.`TextStamp` gereksinimlerinize göre. Alt bilgiye metin eklemek için, uygun koordinatlarla benzer bir yaklaşımı izleyin.
+Metni, konumu ve diğer özellikleri özelleştirebilirsiniz. `TextStamp` gereksinimlerinize göre. Alt bilgiye metin eklemek için, uygun koordinatlarla benzer bir yaklaşımı izleyin.
 
 ## Adım 4: PDF Belgesini Kaydedin
 
@@ -75,15 +77,15 @@ Bu kılavuzda, Java ve Java için Aspose.PDF kullanarak bir PDF dosyasının üs
 
 ### Başlık metninin yazı tipini nasıl değiştirebilirim?
 
- Başlık metninin yazı tipini değiştirmek için şunu kullanabilirsiniz:`TextStamp.setFont()` yöntemini seçin ve istediğiniz yazı tipi ayarlarını belirtin.
+Başlık metninin yazı tipini değiştirmek için şunu kullanabilirsiniz: `TextStamp.setFont()` yöntemini seçin ve istediğiniz yazı tipi ayarlarını belirtin.
 
 ### Başlık veya alt bilgiye metin yerine resim ekleyebilir miyim?
 
- Evet, kullanarak üstbilgiye veya altbilgiye resim ekleyebilirsiniz.`ImageStamp` Java için Aspose.PDF tarafından sağlanan sınıf.
+Evet, kullanarak üstbilgiye veya altbilgiye resim ekleyebilirsiniz. `ImageStamp` Java için Aspose.PDF tarafından sağlanan sınıf.
 
 ### Farklı sayfalarda farklı üstbilgi ve altbilgi kullanmak mümkün müdür?
 
- Evet, farklı sayfalarda farklı üstbilgiler ve altbilgiler kullanabilirsiniz.`TextStamp` veya`ImageStamp` Her sayfa için nesneleri ayrı ayrı.
+Evet, farklı sayfalarda farklı üstbilgiler ve altbilgiler kullanabilirsiniz. `TextStamp` veya `ImageStamp` Her sayfa için nesneleri ayrı ayrı.
 
 ### Sayfa numaraları gibi dinamik içerikleri üst bilgiye veya alt bilgiye ekleyebilir miyim?
 
@@ -91,10 +93,12 @@ Kesinlikle! Java için Aspose.PDF, yer tutucular ve değişkenler kullanarak üs
 
 ### Java için Aspose.PDF hakkında daha fazla bilgi ve örneği nerede bulabilirim?
 
- Java için Aspose.PDF belgelerini şu adreste inceleyebilirsiniz:[Burada](https://reference.aspose.com/pdf/java/) Ayrıntılı bilgi ve kod örnekleri için.
+Java için Aspose.PDF belgelerini şu adreste inceleyebilirsiniz: [Burada](https://reference.aspose.com/pdf/java/) Ayrıntılı bilgi ve kod örnekleri için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Gaya dan Pemformatan PDF
-linktitle: Gaya dan Pemformatan PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari gaya dan format PDF dalam Java dengan Aspose.PDF untuk Java. Kuasai estetika dan tata letak PDF untuk dokumen yang menakjubkan.
-weight: 22
-url: /id/java/pdf-styles-and-formatting/
+"description": "Pelajari gaya dan format PDF dalam Java dengan Aspose.PDF untuk Java. Kuasai estetika dan tata letak PDF untuk dokumen yang menakjubkan."
+"linktitle": "Gaya dan Pemformatan PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Gaya dan Pemformatan PDF"
+"url": "/id/java/pdf-styles-and-formatting/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gaya dan Pemformatan PDF
@@ -43,9 +45,11 @@ Pelajari cara menata tabel dalam dokumen PDF menggunakan Java dengan Aspose.PDF.
 Pelajari cara menata baris tabel PDF di Java menggunakan Aspose.PDF untuk Java. Sesuaikan warna, tambahkan batas, dan banyak lagi dalam panduan lengkap ini.
 ### [Struktur Teks Gaya dalam PDF menggunakan Java](./style-text-structure-in-pdf-using-java/)
 Pelajari cara menata struktur teks dalam PDF menggunakan Java dengan panduan langkah demi langkah kami. Sesuaikan font, warna, hyperlink, dan lainnya untuk dokumen yang tampak profesional.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

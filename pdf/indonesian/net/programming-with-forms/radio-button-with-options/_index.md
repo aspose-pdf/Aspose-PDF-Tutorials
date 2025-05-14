@@ -1,14 +1,16 @@
 ---
-title: Tombol Radio Dengan Opsi
-linktitle: Tombol Radio Dengan Opsi
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Manfaatkan potensi PDF interaktif dengan menambahkan tombol radio menggunakan Aspose.PDF untuk .NET. Buat formulir yang menarik dengan mudah dan tingkatkan pengalaman pengguna.
-weight: 230
-url: /id/net/programming-with-forms/radio-button-with-options/
+"description": "Manfaatkan potensi PDF interaktif dengan menambahkan tombol radio menggunakan Aspose.PDF untuk .NET. Buat formulir yang menarik dengan mudah dan tingkatkan pengalaman pengguna."
+"linktitle": "Tombol Radio Dengan Opsi"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tombol Radio Dengan Opsi"
+"url": "/id/net/programming-with-forms/radio-button-with-options/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tombol Radio Dengan Opsi
@@ -21,7 +23,7 @@ Membuat dokumen PDF interaktif dapat meningkatkan keterlibatan pengguna secara s
 
 Sebelum kita mulai, ada beberapa hal yang perlu Anda siapkan untuk memastikan perjalanan yang lancar saat kita membuat PDF dengan tombol radio:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF di proyek Anda. Jika Anda belum memilikinya, Anda dapat mengunduhnya dengan mudah dari[halaman rilis](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF di proyek Anda. Jika Anda belum memilikinya, Anda dapat mengunduhnya dengan mudah dari [halaman rilis](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: Pemahaman dasar mengenai .NET Framework akan membantu Anda mengatasi berbagai masalah yang Anda hadapi.
 3. Lingkungan Pengembangan: Anda memerlukan IDE yang sesuai untuk .NET (seperti Visual Studio) tempat Anda dapat menulis dan menguji kode Anda.
 4. Keakraban dengan C#: Meskipun Anda tidak perlu menjadi seorang profesional, memahami pemrograman C# pasti akan membuat proses ini lebih mudah dan menyenangkan.
@@ -65,11 +67,11 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Dalam cuplikan ini, kami sedang membuat yang baru`Document` objek dan menambahkan`Page` untuk konten kami. Pastikan untuk mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur tempat Anda ingin menyimpan PDF Anda.
+Dalam cuplikan ini, kami sedang membuat yang baru `Document` objek dan menambahkan `Page` untuk konten kami. Pastikan untuk mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur tempat Anda ingin menyimpan PDF Anda.
 
 ## Langkah 2: Buat Tabel untuk Tata Letak
 
-Selanjutnya, kita perlu tata letak untuk tombol radio kita. Menggunakan tabel akan memudahkan penempatan tombol-tombol tersebut dengan baik.
+Selanjutnya, kita perlu tata letak untuk tombol radio kita. Menggunakan tabel akan memudahkan untuk memposisikannya dengan baik.
 
 ```csharp
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
@@ -77,7 +79,7 @@ table.ColumnWidths = "120 120 120"; // Tentukan lebar kolom
 page.Paragraphs.Add(table);
 ```
 
- Di sini, kami membuat`Table`objek dan menentukan lebar untuk ketiga kolom kita. Ini menciptakan tata letak yang rapi untuk opsi kita.
+Di sini, kami membuat `Table` objek dan menentukan lebar untuk ketiga kolom kita. Ini menciptakan tata letak yang rapi untuk opsi kita.
 
 ## Langkah 3: Tambahkan Baris ke Tabel
 
@@ -102,7 +104,7 @@ rf.PartialName = "radio";
 doc.Form.Add(rf, 1);
 ```
 
- Kami membuat contoh sebuah`RadioButtonField`, tetapkan namanya, lalu tambahkan ke formulir dokumen. Kolom ini akan memungkinkan pengguna membuat pilihan.
+Kami membuat contoh sebuah `RadioButtonField`, tetapkan namanya, lalu tambahkan ke formulir dokumen. Kolom ini akan memungkinkan pengguna membuat pilihan.
 
 ## Langkah 5: Konfigurasikan Opsi Tombol Radio
 
@@ -117,7 +119,7 @@ opt2.OptionName = "Item2";
 opt3.OptionName = "Item3";
 ```
 
- Di sini, kita membuat tiga`RadioButtonOptionField` contoh untuk setiap pilihan kita dan memberi mereka nama. Berkreasi dengan nama-nama ini dapat membantu memandu pengguna dengan lebih baik tentang apa yang harus dipilih.
+Di sini, kita membuat tiga `RadioButtonOptionField` contoh untuk setiap pilihan kita dan memberi mereka nama. Berkreasi dengan nama-nama ini dapat membantu memandu pengguna dengan lebih baik tentang apa yang harus dipilih.
 
 ## Langkah 6: Tetapkan Dimensi untuk Opsi
 
@@ -159,7 +161,7 @@ opt1.DefaultAppearance.TextColor = System.Drawing.Color.Red;
 opt1.Caption = new TextFragment("Item1");
 ```
 
- Ulangi gaya ini untuk`opt2` Dan`opt3`, menyesuaikan teksnya sebagaimana mestinya. Ini memastikan bahwa setiap opsi terlihat profesional dan menarik.
+Ulangi gaya ini untuk `opt2` Dan `opt3`, menyesuaikan teksnya sebagaimana mestinya. Ini memastikan bahwa setiap opsi terlihat profesional dan menarik.
 
 ## Langkah 9: Tambahkan Opsi ke Sel
 
@@ -188,7 +190,7 @@ Dengan kode ini, dokumen Anda akan disimpan di direktori yang ditentukan. Kini A
 
 ## Kesimpulan
 
-Menguasai cara membuat elemen interaktif seperti tombol radio dengan Aspose.PDF untuk .NET akan membuka kemungkinan baru untuk dokumen PDF Anda. Dengan mengikuti panduan ini, Anda sekarang akan dapat memasukkan tombol radio ke dalam proyek Anda dengan mudah, meningkatkan pengalaman pengguna dan proses pengumpulan data. Baik untuk survei sederhana atau formulir yang rumit, kemampuan untuk membuat PDF interaktif yang disesuaikan ada di ujung jari Anda.
+Menguasai cara membuat elemen interaktif seperti tombol radio dengan Aspose.PDF untuk .NET akan membuka kemungkinan baru untuk dokumen PDF Anda. Dengan mengikuti panduan ini, Anda sekarang akan dapat menggabungkan tombol radio ke dalam proyek Anda dengan mudah, meningkatkan pengalaman pengguna dan proses pengumpulan data. Baik untuk survei sederhana atau formulir yang rumit, kemampuan untuk membuat PDF interaktif yang disesuaikan ada di ujung jari Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -196,19 +198,21 @@ Menguasai cara membuat elemen interaktif seperti tombol radio dengan Aspose.PDF 
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat dan memanipulasi dokumen PDF secara terprogram.
 
 ### Bagaimana cara menginstal Aspose.PDF untuk .NET?
- Anda dapat mengunduh perpustakaan dari[Halaman rilis Aspose](https://releases.aspose.com/pdf/net/) dan menambahkannya ke proyek Anda.
+Anda dapat mengunduh perpustakaan dari [Halaman rilis Aspose](https://releases.aspose.com/pdf/net/) dan menambahkannya ke proyek Anda.
 
 ### Bisakah saya membuat tombol radio dalam PDF menggunakan bahasa pemrograman lain?
 Ya, Aspose.PDF juga tersedia untuk Java dan bahasa lain untuk fungsi serupa.
 
 ### Apakah ada uji coba gratis untuk Aspose.PDF?
- Ya, Anda dapat menjelajahi fungsionalitas Aspose.PDF dengan mengunduh[versi uji coba gratis](https://releases.aspose.com/).
+Ya, Anda dapat menjelajahi fungsionalitas Aspose.PDF dengan mengunduh [versi uji coba gratis](https://releases.aspose.com/).
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Untuk dukungan, Anda dapat mengunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk bantuan dari para ahli dan anggota masyarakat.
+Untuk dukungan, Anda dapat mengunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk bantuan dari para ahli dan anggota masyarakat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

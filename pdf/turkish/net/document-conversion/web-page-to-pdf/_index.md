@@ -1,14 +1,16 @@
 ---
-title: Web Sayfasını PDF'ye Dönüştür
-linktitle: Web Sayfasını PDF'ye Dönüştür
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu detaylı, adım adım eğitimde Aspose.PDF for .NET kullanarak web sayfalarını PDF'ye nasıl dönüştüreceğinizi öğrenin.
-weight: 320
-url: /tr/net/document-conversion/web-page-to-pdf/
+"description": "Bu detaylı, adım adım eğitimde Aspose.PDF for .NET kullanarak web sayfalarını PDF'ye nasıl dönüştüreceğinizi öğrenin."
+"linktitle": "Web Sayfasını PDF'ye Dönüştür"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Web Sayfasını PDF'ye Dönüştür"
+"url": "/tr/net/document-conversion/web-page-to-pdf/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Web Sayfasını PDF'ye Dönüştür
@@ -22,7 +24,7 @@ Günümüzün dijital çağında, web sayfalarını PDF belgelerine dönüştür
 Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET kodunuzu burada yazacak ve çalıştıracaksınız.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak örnekleri daha iyi anlamanıza yardımcı olacaktır.
 4. İnternet Erişimi: İçeriği bir web sayfasından getireceğimizden, geliştirme ortamınızın internet erişimi olduğundan emin olun.
 
@@ -44,7 +46,7 @@ Sonra, Aspose.PDF kütüphanesine bir referans ekleyin. Bunu NuGet Paket Yöneti
 
 ### Gerekli Ad Alanlarını İçe Aktar
 
- Kütüphane eklendikten sonra,`Program.cs` dosyaya gidin ve dosyanın en üstüne gerekli ad alanlarını içe aktarın:
+Kütüphane eklendikten sonra, `Program.cs` dosyaya gidin ve dosyanın en üstüne gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using System.IO;
@@ -65,10 +67,10 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Kendi yolunuzla değiştirin
 
 ## Adım 2: Bir Web İsteği Oluşturun
 
-Sonra, dönüştürmek istediğiniz web sayfasından içeriği almak için bir istek oluşturmanız gerekir. Bunu şu şekilde yaparsınız:
+Sonra, dönüştürmek istediğiniz web sayfasından içeriği almak için bir istek oluşturmanız gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
-WebRequest request = WebRequest.Create("https://en.wikipedia.org/wiki/Main_Page");
+WebRequest request = WebRequest.Create("https://en.wikipedia.org/wiki/Ana_Sayfa");
 request.Credentials = CredentialCache.DefaultCredentials;
 ```
 
@@ -92,14 +94,14 @@ Burada, sunucu tarafından döndürülen tüm içeriği bir dize değişkenine o
 
 ## Adım 4: HTML İçeriğini Belleğe Yükleyin
 
-Artık HTML içeriğine sahip olduğumuza göre, onu bir`MemoryStream` böylece bunu Aspose.PDF ile işleyebiliriz:
+Artık HTML içeriğine sahip olduğumuza göre, onu bir `MemoryStream` böylece bunu Aspose.PDF ile işleyebiliriz:
 
 ```csharp
 MemoryStream stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(responseFromServer));
 HtmlLoadOptions options = new HtmlLoadOptions("https://en.wikipedia.org/wiki/");
 ```
 
- Bu adımda, dize yanıtını bir bayt dizisine dönüştürüyoruz ve onu bir`MemoryStream` .`HtmlLoadOptions` HTML'deki herhangi bir bağıl bağlantı için temel URL'yi belirtmemize olanak tanır.
+Bu adımda, dize yanıtını bir bayt dizisine dönüştürüyoruz ve onu bir `MemoryStream`. `HtmlLoadOptions` HTML'deki herhangi bir bağıl bağlantı için temel URL'yi belirtmemize olanak tanır.
 
 ## Adım 5: Bir PDF Belgesi Oluşturun
 
@@ -109,7 +111,7 @@ HTML içeriği yüklendikten sonra artık bundan bir PDF belgesi oluşturabiliri
 Document pdfDocument = new Document(stream, options);
 ```
 
- Bu kod satırı yeni bir başlatır`Document` Oluşturacağımız PDF'i temsil eden nesne.
+Bu kod satırı yeni bir başlatır `Document` Oluşturacağımız PDF'i temsil eden nesne.
 
 ## Adım 6: Sayfa Yönünü Ayarla
 
@@ -123,13 +125,13 @@ Bu isteğe bağlıdır ancak dönüştürdüğünüz içeriğe bağlı olarak ya
 
 ## Adım 7: PDF'yi kaydedin
 
-Son olarak PDF belgesini belirtilen dizine kaydetme zamanı geldi:
+Son olarak PDF belgesini belirtilen dizine kaydetmenin zamanı geldi:
 
 ```csharp
 pdfDocument.Save(dataDir + "WebPageToPDF_out.pdf");
 ```
 
- Bu satır PDF'yi şu adla kaydeder:`WebPageToPDF_out.pdf` belirtilen belgeler dizininde.
+Bu satır PDF'yi şu adla kaydeder: `WebPageToPDF_out.pdf` Belirtilen belgeler dizininde.
 
 ## Adım 8: İstisnaları Yönetin
 
@@ -161,16 +163,18 @@ Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde o
 Evet, web sayfası herkese açık olduğu sürece Aspose.PDF kullanarak onu PDF'ye dönüştürebilirsiniz.
 
 ### Ücretsiz deneme imkanı var mı?
- Evet, Aspose.PDF for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet, Aspose.PDF for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için desteği nereden alabilirim?
- Aspose topluluğundan destek alabilirsiniz[destek forumu](https://forum.aspose.com/c/pdf/10).
+Aspose topluluğundan destek alabilirsiniz [destek forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Geçici ehliyet nasıl alabilirim?
- Geçici lisans için başvuruda bulunabilirsiniz[Aspose web sitesi](https://purchase.aspose.com/temporary-license/).
+Geçici lisans için başvuruda bulunabilirsiniz [Aspose web sitesi](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

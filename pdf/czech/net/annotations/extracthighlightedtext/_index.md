@@ -1,34 +1,36 @@
 ---
-title: Extrahujte zvýrazněný text do souboru PDF
-linktitle: Extrahujte zvýrazněný text do souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: V tomto kurzu se dozvíte, jak efektivně extrahovat zvýrazněný text ze souboru PDF pomocí Aspose.PDF for .NET. Ideální pro analýzu dat a kontrolu obsahu.
-weight: 60
-url: /cs/net/annotations/extracthighlightedtext/
+"description": "Naučte se v tomto tutoriálu, jak efektivně extrahovat zvýrazněný text ze souboru PDF pomocí Aspose.PDF pro .NET. Ideální pro analýzu dat a kontrolu obsahu."
+"linktitle": "Extrahovat zvýrazněný text v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Extrahovat zvýrazněný text v souboru PDF"
+"url": "/cs/net/annotations/extracthighlightedtext/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extrahujte zvýrazněný text do souboru PDF
+# Extrahovat zvýrazněný text v souboru PDF
 
 ## Zavedení
 
-Při práci se soubory PDF může být extrahování zvýrazněného textu zásadním úkolem, ať už při analýze dat, kontrole obsahu nebo při pouhém uspořádání poznámek. Pokud používáte Aspose.PDF pro .NET, je tento proces přímočarý a efektivní. V tomto tutoriálu vás provedeme tím, jak extrahovat zvýrazněný text z dokumentu PDF pomocí Aspose.PDF for .NET. Pokryjeme vše od nezbytných předpokladů až po pokyny krok za krokem a zajistíme, že na konci budete mít komplexní porozumění.
+Při práci s PDF soubory může být extrakce zvýrazněného textu klíčovým úkolem, ať už jde o analýzu dat, kontrolu obsahu nebo jednoduše o organizaci poznámek. Pokud používáte Aspose.PDF pro .NET, je tento proces přímočarý a efektivní. V tomto tutoriálu vás provedeme tím, jak extrahovat zvýrazněný text z PDF dokumentu pomocí Aspose.PDF pro .NET. Probereme vše od předpokladů až po podrobné pokyny, abyste na konci měli komplexní znalosti.
 
 ## Předpoklady
 
-Než se ponoříte do kódu, musíte mít připraveno několik věcí:
+Než se ponoříme do kódu, je třeba mít připraveno několik věcí:
 
--  Aspose.PDF for .NET Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Pokud ne, můžete si jej stáhnout z[stránka vydání](https://releases.aspose.com/pdf/net/).
-- Vývojové prostředí: Měli byste mít nastavené pracovní vývojové prostředí, jako je Visual Studio.
-- Základní znalost C#: Nezbytná je znalost programovacího jazyka C# a objektově orientovaného programování.
--  Platná licence Aspose: I když můžete začít s bezplatnou zkušební verzí, zvažte získání a[dočasná licence](https://purchase.aspose.com/temporary-license/) nebo koupíte od[zde](https://purchase.aspose.com/buy) pro neomezené použití.
+- Knihovna Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Pokud ne, můžete si ji stáhnout z [stránka s vydáním](https://releases.aspose.com/pdf/net/).
+- Vývojové prostředí: Měli byste mít nastavené funkční vývojové prostředí, například Visual Studio.
+- Základní znalost C#: Znalost programovacího jazyka C# a objektově orientovaného programování je nezbytná.
+- Platná licence Aspose: I když můžete začít s bezplatnou zkušební verzí, zvažte její získání. [dočasná licence](https://purchase.aspose.com/temporary-license/) nebo si ho zakoupit od [zde](https://purchase.aspose.com/buy) pro neomezené použití.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, musíte do svého projektu C# importovat potřebné jmenné prostory. To je zásadní pro přístup ke třídám a metodám poskytovaným Aspose.PDF pro .NET.
+Pro začátek je potřeba importovat potřebné jmenné prostory do vašeho projektu v C#. To je klíčové pro přístup ke třídám a metodám poskytovaným souborem Aspose.PDF pro .NET.
 
 ```csharp
 using Aspose.Pdf.Text;
@@ -38,43 +40,43 @@ using System.Linq;
 using System.Text;
 ```
 
-Nyní si rozeberme proces extrahování zvýrazněného textu ze souboru PDF pomocí Aspose.PDF for .NET. Každý krok je podrobně vysvětlen, aby vám pomohl pochopit základní koncepty a implementaci.
+Nyní si rozebereme proces extrakce zvýrazněného textu ze souboru PDF pomocí Aspose.PDF pro .NET. Každý krok je podrobně vysvětlen, abyste pochopili základní koncepty a implementaci.
 
-## Krok 1: Nastavte adresář projektu
+## Krok 1: Nastavení adresáře projektu
 
-Nejprve musíte nastavit adresář projektu, kde se nachází váš soubor PDF. Tady se děje kouzlo.
+Nejdříve je potřeba nastavit adresář projektu, kde se nachází váš PDF soubor. Tady se začne dít ta pravá magie.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"`se skutečnou cestou k vašemu adresáři, kde je soubor PDF umístěn. V tomto adresáři aplikace načte PDF ke zpracování.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k adresáři, kde se nachází soubor PDF. Do tohoto adresáře aplikace načte soubor PDF ke zpracování.
 
 ## Krok 2: Načtěte dokument PDF
 
- Dále musíte načíst dokument PDF, ze kterého chcete extrahovat zvýrazněný text. To se provádí pomocí`Document` třídy poskytuje Aspose.PDF.
+Dále je třeba načíst PDF dokument, ze kterého chcete extrahovat zvýrazněný text. To se provádí pomocí `Document` třída poskytnutá souborem Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "ExtractHighlightedText.pdf");
 ```
 
- The`Document` třída je vytvořena s cestou k souboru PDF. Zde,`"ExtractHighlightedText.pdf"` je název souboru PDF, který obsahuje zvýrazněný text. Ujistěte se, že tento soubor existuje v zadaném adresáři.
+Ten/Ta/To `Document` třída je instancována s cestou k souboru PDF. Zde, `"ExtractHighlightedText.pdf"` je název PDF souboru, který obsahuje zvýrazněný text. Ujistěte se, že tento soubor existuje v zadaném adresáři.
 
-## Krok 3: Přístup ke kolekci anotací
+## Krok 3: Přístup ke sbírce anotací
 
-Po načtení dokumentu PDF je dalším krokem přístup k anotacím na první stránce dokumentu. Anotace se v PDF používají k přidání dalších informací, jako jsou zvýraznění, komentáře a další.
+Jakmile je dokument PDF načten, dalším krokem je přístup k anotacím na první stránce dokumentu. Anotace se v souborech PDF používají k přidání dalších informací, jako jsou zvýraznění, komentáře a další.
 
 ```csharp
 foreach (Annotation annotation in doc.Pages[1].Annotations)
 {
 ```
 
- The`Annotations` vlastnictvím`Page` objekt poskytuje přístup ke všem anotacím na konkrétní stránce PDF. Zde procházíme každou anotaci na první stránce.
+Ten/Ta/To `Annotations` majetek `Page` Objekt poskytuje přístup ke všem anotacím na konkrétní stránce PDF. Zde procházíme každou anotaci na první stránce.
 
-## Krok 4: Filtr pro zvýrazněné textové poznámky
+## Krok 4: Filtrování zvýrazněných textových anotací
 
-Nyní, když máme přístup ke všem anotacím, musíme odfiltrovat pouze zvýrazněné textové anotace. Toho je dosaženo kontrolou typu každé anotace.
+Nyní, když máme přístup ke všem anotacím, musíme filtrovat pouze zvýrazněné textové anotace. Toho dosáhneme kontrolou typu každé anotace.
 
 ```csharp
 if (annotation is TextMarkupAnnotation)
@@ -82,7 +84,7 @@ if (annotation is TextMarkupAnnotation)
     TextMarkupAnnotation highlightedAnnotation = annotation as TextMarkupAnnotation;
 ```
 
- The`TextMarkupAnnotation` třída se používá k reprezentaci textových anotací včetně zvýraznění. The`is` klíčové slovo kontroluje, zda je anotace typu`TextMarkupAnnotation` a pokud ano, odešle anotaci na`TextMarkupAnnotation`.
+Ten/Ta/To `TextMarkupAnnotation` Třída se používá k reprezentaci textových anotací, včetně zvýraznění. `is` Klíčové slovo kontroluje, zda je anotace typu `TextMarkupAnnotation`, a pokud ano, přetypuje anotaci na `TextMarkupAnnotation`.
 
 ## Krok 5: Extrahujte zvýrazněný text
 
@@ -96,31 +98,33 @@ foreach (TextFragment tf in collection)
 }
 ```
 
- The`GetMarkedTextFragments()` metoda vrací kolekci`TextFragment` objekty, z nichž každý představuje část zvýrazněného textu. Procházíme tuto kolekci a tiskneme text každého fragmentu do konzole.
+Ten/Ta/To `GetMarkedTextFragments()` metoda vrací kolekci `TextFragment` objekty, z nichž každý představuje část zvýrazněného textu. Procházíme tuto kolekci cyklem a vypíšeme text každého fragmentu do konzole.
 
 ## Závěr
 
-Extrahování zvýrazněného textu z PDF pomocí Aspose.PDF for .NET je výkonná funkce, která může zefektivnit váš pracovní postup, zejména pokud pracujete s velkými dokumenty. Podle kroků uvedených v tomto kurzu můžete tuto funkci snadno implementovat do svých vlastních projektů. Ať už organizujete své poznámky, připravujete zprávy nebo provádíte analýzu dat, tato metoda nabízí bezproblémové řešení pro extrakci a využití zvýrazněného textu.
+Extrakce zvýrazněného textu z PDF pomocí Aspose.PDF pro .NET je výkonná funkce, která může zefektivnit váš pracovní postup, zejména pokud pracujete s rozsáhlými dokumenty. Dodržováním kroků uvedených v tomto tutoriálu můžete tuto funkci snadno implementovat do svých vlastních projektů. Ať už organizujete poznámky, připravujete zprávy nebo provádíte analýzu dat, tato metoda nabízí bezproblémové řešení pro extrakci a využití zvýrazněného textu.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu pomocí této metody extrahovat jiné typy anotací?  
- Ano, můžete extrahovat další typy anotací úpravou`if` podmínkou pro kontrolu různých typů anotací, jako je např`TextAnnotation`, `StampAnnotation`atd.
+### Mohu touto metodou extrahovat i jiné typy anotací?  
+Ano, můžete extrahovat další typy anotací úpravou `if` podmínka pro kontrolu různých typů anotací, například `TextAnnotation`, `StampAnnotation`atd.
 
 ### Je možné extrahovat zvýrazněný text ze všech stránek PDF?  
-Absolutně! Můžete procházet každou stránku dokumentu PDF a použít stejnou extrakční logiku, abyste shromáždili zvýrazněný text z každé stránky.
+Rozhodně! Můžete procházet každou stránku dokumentu PDF a použít stejnou logiku extrakce pro shromáždění zvýrazněného textu z každé stránky.
 
 ### Potřebuji licenci k používání Aspose.PDF pro .NET?  
- I když můžete začít s bezplatnou zkušební verzí, doporučuje se získat a[dočasná licence](https://purchase.aspose.com/temporary-license/)nebo si zakupte plnou licenci pro neomezený přístup ke všem funkcím.
+když můžete začít s bezplatnou zkušební verzí, doporučuje se získat [dočasná licence](https://purchase.aspose.com/temporary-license/) nebo si zakupte plnou licenci pro neomezený přístup ke všem funkcím.
 
-### Mohu extrahovaný text uložit do souboru místo jeho tisku na konzoli?  
+### Mohu uložit extrahovaný text do souboru místo jeho vytištění do konzole?  
 Ano, kód můžete snadno upravit a uložit extrahovaný text do textového souboru nebo jiného požadovaného formátu.
 
-### Podporuje Aspose.PDF jiné platformy kromě .NET?  
+### Podporuje Aspose.PDF i jiné platformy než .NET?  
 Ano, Aspose.PDF také podporuje Javu a další platformy a nabízí podobné funkce v různých prostředích.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

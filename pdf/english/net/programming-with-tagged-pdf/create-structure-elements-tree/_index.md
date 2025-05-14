@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/create-structure-elements-tree/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Structure Elements Tree
@@ -210,6 +212,7 @@ You can apply for a temporary license [here](https://purchase.aspose.com/tempora
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

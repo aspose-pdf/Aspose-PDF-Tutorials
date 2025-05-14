@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Veritabanıyla Entegre Et
-linktitle: PDF Dosyasında Veritabanıyla Entegre Et
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kolay, adım adım kılavuzla Aspose.PDF for .NET'i kullanarak veritabanı verilerini PDF dosyalarına nasıl entegre edeceğinizi öğrenin.
-weight: 120
-url: /tr/net/programming-with-tables/integrate-with-database/
+"description": "Bu kolay, adım adım kılavuzla Aspose.PDF for .NET kullanarak veritabanı verilerini PDF dosyalarına nasıl entegre edeceğinizi öğrenin."
+"linktitle": "PDF Dosyasında Veritabanıyla Entegre Et"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Veritabanıyla Entegre Et"
+"url": "/tr/net/programming-with-tables/integrate-with-database/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Veritabanıyla Entegre Et
@@ -22,7 +24,7 @@ Bir veritabanından veri içeren dinamik PDF belgeleri oluşturmak, özellikle p
 PDF oluşturma yolculuğuna çıkmadan önce yerine getirmeniz gereken birkaç ön koşul var. Endişelenmeyin; hepsi çok kolay! 
 
 1. .NET Framework: Makinenizde desteklenen bir .NET Framework sürümünün yüklü olduğundan emin olun.
-2.  .NET için Aspose.PDF: Bunu şuradan alabilirsiniz:[Aspose web sitesi](https://releases.aspose.com/pdf/net/)Bunu indirip projenize kurmanız gerekecek.
+2. .NET için Aspose.PDF: Bunu şuradan alabilirsiniz: [Aspose web sitesi](https://releases.aspose.com/pdf/net/)Bunu indirip projenize kurmanız gerekecek.
 3. Visual Studio IDE: Kodunuzu yazmak için dostça bir ortam. Herhangi bir son sürüm işe yaramalı.
 4. C# Temel Bilgisi: C#'ın temellerini anlıyorsanız, bu eğitimi kolayca tamamlayabilirsiniz.
 
@@ -50,7 +52,7 @@ Belgeleriniz için bir yol belirlemek, yeni eviniz için bir adres seçmek gibid
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF'nizi kaydetmek istediğiniz gerçek yol ile. Bu daha sonra bulmayı kolaylaştırır. 
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF'nizi kaydetmek istediğiniz gerçek yol ile. Bu daha sonra bulmayı kolaylaştırır. 
 
 ## Adım 2: Bir DataTable Oluşturun
 
@@ -84,7 +86,7 @@ dr[2] = "Female";
 dt.Rows.Add(dr);
 ```
 
-İşte DataTable'ımıza satırlar oluşturup eklediğimiz yer. İki çalışan ekledik: John ve Mary. İstediğiniz kadar ekleyebilirsiniz!
+DataTable'ımıza satırlar oluşturup eklediğimiz yer burası. İki çalışan ekledik: John ve Mary. İstediğiniz kadar ekleyebilirsiniz!
 
 ## Adım 4: Bir Belge Örneği Oluşturun
 
@@ -99,7 +101,7 @@ Bir Belgenin yeni bir örneğini başlatıyoruz ve tablomuzun sonunda yer alaca�
 
 ## Adım 5: Tabloyu Başlatın
 
-Bu noktada, çalışan bilgilerimizi görüntüleyecek tabloyu oluşturmanın zamanı geldi. Bu adımı, tablomuzun çerçevesini oluşturmak olarak düşünün.
+Bu noktada, çalışan bilgilerimizi görüntüleyecek tabloyu oluşturmanın zamanı geldi. Bu adımı tablomuzun çerçevesini oluşturmak olarak düşünün.
 
 ```csharp
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
@@ -134,7 +136,7 @@ Bu satır temelde tüm verileri DataTable'ımızdan daha önce oluşturduğumuz 
 
 ## Adım 8: Tabloyu Belgeye Ekleyin
 
-Artık tablomuz verilerle doldu, şimdi bunları PDF'e yerleştirmenin zamanı geldi!
+Artık tablomuz verilerle doldu, şimdi bunları PDF'e yerleştirme zamanı!
 
 ```csharp
 doc.Pages[1].Paragraphs.Add(table);
@@ -173,19 +175,21 @@ Ve işte oldu! Aspose.PDF for .NET kullanarak bir veritabanından gelen verileri
 Evet! Aspose, Excel, Word ve daha fazlası dahil olmak üzere farklı dosya biçimleri için çeşitli kütüphaneler sunar.
 
 ### Aspose.PDF için deneme sürümü mevcut mu?
- Kesinlikle! Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [bu bağlantı](https://releases.aspose.com/).
 
-### Aspose ürünlerine yönelik desteği nasıl alabilirim?
- Desteklerine şu adresten ulaşabilirsiniz:[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+### Aspose ürünlerine ilişkin desteği nasıl alabilirim?
+Desteklerine şu adresten ulaşabilirsiniz: [Aspose forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Geçici lisans ne sağlıyor?
- Geçici lisans, yazılımı tüm özellikleri açık bir şekilde sınırlı bir süre boyunca kullanmanıza olanak tanır. Bir tane alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisans, yazılımı tüm özellikleri açık bir şekilde sınırlı bir süre boyunca kullanmanıza olanak tanır. Bir tane alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### PDF'deki veri formatı özelleştirilebilir mi?
 Evet! Aspose.PDF, hücre biçimlendirmesi, yazı tipleri, renkler ve daha fazlası dahil olmak üzere tablolar için çeşitli özelleştirme seçenekleri sunar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

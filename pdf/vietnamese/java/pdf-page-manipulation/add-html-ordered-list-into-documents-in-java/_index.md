@@ -1,14 +1,16 @@
 ---
-title: Thêm danh sách có thứ tự HTML vào tài liệu trong Java
-linktitle: Thêm danh sách có thứ tự HTML vào tài liệu trong Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm danh sách có thứ tự HTML vào tài liệu PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước có mã nguồn.
-weight: 11
-url: /vi/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/
+"description": "Tìm hiểu cách thêm danh sách có thứ tự HTML vào tài liệu PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước có mã nguồn."
+"linktitle": "Thêm danh sách có thứ tự HTML vào tài liệu trong Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm danh sách có thứ tự HTML vào tài liệu trong Java"
+"url": "/vi/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm danh sách có thứ tự HTML vào tài liệu trong Java
@@ -26,11 +28,11 @@ Danh sách có thứ tự HTML được sử dụng để hiển thị danh sác
 
 ## Thêm Aspose.PDF cho Java vào Dự án của bạn
 
- Trước khi bắt đầu, bạn cần thêm Aspose.PDF for Java vào dự án Java của mình. Bạn có thể tải xuống thư viện từ trang web tại[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp.
+Trước khi bắt đầu, bạn cần thêm Aspose.PDF for Java vào dự án Java của mình. Bạn có thể tải xuống thư viện từ trang web tại [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp.
 
 ## Tạo một tài liệu PDF mới
 
-Để bắt đầu, hãy tạo một dự án Java mới và nhập thư viện Aspose.PDF. Sau đó, tạo một tài liệu PDF mới sẽ chứa danh sách có thứ tự HTML.
+Để bắt đầu, hãy tạo một dự án Java mới và nhập thư viện Aspose.PDF. Sau đó, tạo một tài liệu PDF mới sẽ chứa danh sách được sắp xếp theo HTML.
 
 ```java
 // Tạo một tài liệu PDF mới
@@ -39,7 +41,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
 ## Thêm danh sách có thứ tự HTML vào PDF
 
- Tiếp theo, bạn sẽ cần phân tích danh sách có thứ tự HTML và thêm nó vào tài liệu PDF. Aspose.PDF for Java cung cấp một cách thuận tiện để thực hiện việc này bằng cách sử dụng`HtmlFragment` lớp học.
+Tiếp theo, bạn sẽ cần phân tích danh sách có thứ tự HTML và thêm nó vào tài liệu PDF. Aspose.PDF for Java cung cấp một cách thuận tiện để thực hiện việc này bằng cách sử dụng `HtmlFragment` lớp học.
 
 ```java
 // Tạo một đoạn mã HTML
@@ -77,7 +79,7 @@ Trong hướng dẫn này, chúng ta đã học cách thêm danh sách có thứ
 
 ### Làm thế nào để tải xuống Aspose.PDF cho Java?
 
-Bạn có thể tải xuống Aspose.PDF cho Java từ trang web tại[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống Aspose.PDF cho Java từ trang web tại [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
 ### Tôi có thể tùy chỉnh kiểu danh sách có thứ tự HTML không?
 
@@ -89,10 +91,12 @@ Aspose.PDF for Java là một thư viện thương mại và bạn có thể c�
 
 ### Aspose.PDF cho Java còn cung cấp tính năng nào khác không?
 
- Có, Aspose.PDF for Java cung cấp nhiều tính năng để làm việc với tài liệu PDF, bao gồm trích xuất văn bản, chuyển đổi PDF, v.v. Bạn có thể khám phá tài liệu tại[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết.
+Có, Aspose.PDF for Java cung cấp nhiều tính năng để làm việc với tài liệu PDF, bao gồm trích xuất văn bản, chuyển đổi PDF, v.v. Bạn có thể khám phá tài liệu tại [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@ description: Aspose.PDF for .NET's Programming with Stamps and Watermarks tutori
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Stamps and Watermarks
@@ -41,6 +43,7 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

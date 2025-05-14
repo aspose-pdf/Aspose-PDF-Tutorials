@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating PDF Documents with Tables Using Aspose.PDF for Java
 
@@ -198,6 +200,9 @@ In this guide, we explored how to use Aspose.PDF for Java to create PDFs with ta
 With these resources and the guide above, you're well-equipped to start creating dynamic PDF documents with Aspose.PDF for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

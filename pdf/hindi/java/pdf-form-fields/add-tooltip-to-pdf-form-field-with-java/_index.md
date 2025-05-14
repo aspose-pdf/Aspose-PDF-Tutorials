@@ -1,14 +1,16 @@
 ---
-title: जावा के साथ पीडीएफ फॉर्म फ़ील्ड में टूलटिप जोड़ें
-linktitle: जावा के साथ पीडीएफ फॉर्म फ़ील्ड में टूलटिप जोड़ें
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: जावा के साथ पीडीएफ फॉर्म फ़ील्ड में टूलटिप्स जोड़ना सीखें। जावा एपीआई के लिए Aspose.PDF का उपयोग करके चरण-दर-चरण मार्गदर्शिका।
-weight: 11
-url: /hi/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
+"description": "जानें कि Java के साथ PDF फ़ॉर्म फ़ील्ड में टूलटिप्स कैसे जोड़ें। Java API के लिए Aspose.PDF का उपयोग करके चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा के साथ पीडीएफ फॉर्म फ़ील्ड में टूलटिप जोड़ें"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा के साथ पीडीएफ फॉर्म फ़ील्ड में टूलटिप जोड़ें"
+"url": "/hi/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के साथ पीडीएफ फॉर्म फ़ील्ड में टूलटिप जोड़ें
@@ -28,7 +30,7 @@ url: /hi/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
 
 - जावा डेवलपमेंट किट (JDK) स्थापित
 - एकीकृत विकास वातावरण (IDE) जैसे कि एक्लिप्स या इंटेलीज आईडिया
--  जावा लाइब्रेरी के लिए Aspose.PDF (आप इसे यहां से डाउनलोड कर सकते हैं)[यहाँ](https://releases.aspose.com/pdf/java/)
+- जावा लाइब्रेरी के लिए Aspose.PDF (आप इसे यहां से डाउनलोड कर सकते हैं) [यहाँ](https://releases.aspose.com/pdf/java/)
 
 ## निर्भरताएँ जोड़ना
 
@@ -48,13 +50,13 @@ Document pdfDocument = new Document();
 इसके बाद, आइए अपने PDF दस्तावेज़ में फ़ॉर्म फ़ील्ड जोड़ें। आप विभिन्न प्रकार के फ़ॉर्म फ़ील्ड जोड़ सकते हैं, जैसे टेक्स्ट फ़ील्ड, चेकबॉक्स, रेडियो बटन, और बहुत कुछ। इस उदाहरण के लिए, हम एक टेक्स्ट फ़ील्ड जोड़ेंगे।
 
 ```java
-//टेक्स्ट फ़ील्ड जोड़ने के लिए जावा कोड
+// टेक्स्ट फ़ील्ड जोड़ने के लिए जावा कोड
 TextField textField = new TextField(pdfDocument.getPages().get_Item(1), new Rectangle(100, 100, 200, 30));
 ```
 
 ## फॉर्म फ़ील्ड में टूलटिप्स जोड़ना
 
- अब आता है महत्वपूर्ण हिस्सा—हमारे फ़ॉर्म फ़ील्ड में टूलटिप्स जोड़ना। हम किसी फ़ील्ड के लिए टूलटिप टेक्स्ट सेट कर सकते हैं`setTooltip` तरीका।
+अब आता है महत्वपूर्ण हिस्सा—हमारे फ़ॉर्म फ़ील्ड में टूलटिप्स जोड़ना। हम किसी फ़ील्ड के लिए टूलटिप टेक्स्ट सेट कर सकते हैं `setTooltip` तरीका।
 
 ```java
 // टेक्स्ट फ़ील्ड में टूलटिप जोड़ने के लिए जावा कोड
@@ -99,9 +101,11 @@ pdfDocument.save("sample.pdf");
 ### क्या मैं पीडीएफ में गैर-फॉर्म तत्वों में टूलटिप्स जोड़ सकता हूं?
 
 नहीं, टूलटिप्स आमतौर पर PDF दस्तावेज़ों में फ़ॉर्म फ़ील्ड से जुड़े होते हैं। यदि आपको गैर-फ़ॉर्म तत्वों में टूलटिप्स जोड़ने की आवश्यकता है, तो आपको अन्य PDF संपादन तकनीकों का पता लगाने की आवश्यकता हो सकती है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

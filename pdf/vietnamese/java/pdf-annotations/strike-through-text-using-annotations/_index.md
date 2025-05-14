@@ -1,14 +1,16 @@
 ---
-title: Gạch ngang văn bản bằng cách sử dụng chú thích
-linktitle: Gạch ngang văn bản bằng cách sử dụng chú thích
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm chú thích văn bản gạch ngang vào tài liệu PDF bằng Aspose.PDF cho Java. Làm theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu chính xác.
-weight: 16
-url: /vi/java/pdf-annotations/strike-through-text-using-annotations/
+"description": "Tìm hiểu cách thêm chú thích văn bản gạch ngang vào tài liệu PDF bằng Aspose.PDF cho Java. Làm theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu chính xác."
+"linktitle": "Gạch ngang văn bản bằng cách sử dụng chú thích"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Gạch ngang văn bản bằng cách sử dụng chú thích"
+"url": "/vi/java/pdf-annotations/strike-through-text-using-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gạch ngang văn bản bằng cách sử dụng chú thích
@@ -24,7 +26,7 @@ Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp 
 
 1. Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java và IDE phù hợp (Eclipse, IntelliJ IDEA hoặc bất kỳ IDE nào khác) trên hệ thống của mình.
 
-2.  Aspose.PDF cho Thư viện Java: Tải xuống và bao gồm thư viện Aspose.PDF cho Java trong dự án của bạn. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF cho Thư viện Java: Tải xuống và bao gồm thư viện Aspose.PDF cho Java trong dự án của bạn. Bạn có thể tìm thấy liên kết tải xuống [đây](https://releases.aspose.com/pdf/java/).
 
 ## Bước 1: Thiết lập dự án Java của bạn
 
@@ -84,7 +86,7 @@ Xin chúc mừng! Bạn đã thêm thành công chú thích văn bản gạch ng
 
 ### Làm thế nào để thay đổi màu của chú thích gạch ngang?
 
- Để thay đổi màu của chú thích gạch ngang, bạn có thể sử dụng`setColor` phương pháp và chỉ định màu mong muốn. Trong ví dụ được cung cấp, chúng tôi đặt nó thành màu đỏ bằng cách sử dụng`setColor(com.aspose.pdf.Color.getRed())`.
+Để thay đổi màu của chú thích gạch ngang, bạn có thể sử dụng `setColor` phương pháp và chỉ định màu mong muốn. Trong ví dụ được cung cấp, chúng tôi đặt nó thành màu đỏ bằng cách sử dụng `setColor(com.aspose.pdf.Color.getRed())`.
 
 ### Tôi có thể thêm nhiều chú thích gạch ngang vào một tài liệu PDF không?
 
@@ -100,10 +102,12 @@ Có, Aspose.PDF for Java hỗ trợ nhiều loại chú thích khác nhau, bao g
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Để biết tài liệu đầy đủ và các tài nguyên khác, hãy truy cập trang tài liệu Aspose.PDF cho Java:[đây](https://reference.aspose.com/pdf/java/).
+Để biết tài liệu đầy đủ và các tài nguyên khác, hãy truy cập trang tài liệu Aspose.PDF cho Java: [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

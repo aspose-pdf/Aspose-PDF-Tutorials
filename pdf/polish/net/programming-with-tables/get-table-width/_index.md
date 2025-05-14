@@ -1,14 +1,16 @@
 ---
-title: Pobierz szerokość tabeli w pliku PDF
-linktitle: Pobierz szerokość tabeli w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak uzyskać szerokość tabeli w pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku.
-weight: 90
-url: /pl/net/programming-with-tables/get-table-width/
+"description": "Dowiedz się, jak uzyskać szerokość tabeli w pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Pobierz szerokość tabeli w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz szerokość tabeli w pliku PDF"
+"url": "/pl/net/programming-with-tables/get-table-width/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz szerokość tabeli w pliku PDF
@@ -22,11 +24,11 @@ Jeśli chodzi o programowe manipulowanie plikami PDF, Aspose.PDF dla .NET wyró�
 Zanim przejdziemy do kodu, upewnijmy się, że wszystko jest na swoim miejscu. Oto krótka lista kontrolna, która pomoże Ci zacząć:
 
 - Podstawowe środowisko .NET: Znajomość języka C# i środowiska programistycznego, takiego jak Visual Studio lub JetBrains Rider.
--  Aspose.PDF dla biblioteki .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Jeśli nie, możesz ją szybko pobrać z[strona do pobrania](https://releases.aspose.com/pdf/net/).
-- Licencja: Aby w pełni korzystać z funkcji bez ograniczeń, rozważ zakup licencji od[kup stronę](https://purchase.aspose.com/buy) lub poproś o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
--  Dokumentacja Aspose: Kliknij tutaj[dokumentacja](https://reference.aspose.com/pdf/net/) jeśli masz szczegółowe pytania lub chcesz uzyskać dodatkowe informacje.
+- Aspose.PDF dla biblioteki .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Jeśli nie, możesz ją szybko pobrać z [strona do pobrania](https://releases.aspose.com/pdf/net/).
+- Licencja: Aby w pełni korzystać z funkcji bez ograniczeń, rozważ zakup licencji od [kup stronę](https://purchase.aspose.com/buy) lub poproś o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+- Dokumentacja Aspose: Kliknij tutaj [dokumentacja](https://reference.aspose.com/pdf/net/) jeśli masz szczegółowe pytania lub chcesz uzyskać dodatkowe informacje.
 
-Mając te wymagania wstępne za sobą, możesz zabrać się do pracy!
+Mając te wymagania za sobą, możesz zabrać się do pracy!
 
 ## Importuj pakiety
 
@@ -38,7 +40,7 @@ using Aspose.Pdf.Table;
 using System;
 ```
 
- Ten`Aspose.Pdf` przestrzeń nazw zapewnia dostęp do funkcjonalności PDF, podczas gdy`Aspose.Pdf.Table` przestrzeń nazw pozwala na pracę specjalnie z tabelami w plikach PDF.`System` przestrzeń nazw jest uwzględniana dla podstawowych narzędzi operacyjnych, takich jak funkcje wejścia-wyjścia.
+Ten `Aspose.Pdf` przestrzeń nazw zapewnia dostęp do funkcjonalności PDF, podczas gdy `Aspose.Pdf.Table` przestrzeń nazw pozwala na pracę specjalnie z tabelami w plikach PDF. `System` przestrzeń nazw jest uwzględniana dla podstawowych narzędzi operacyjnych, takich jak funkcje wejścia-wyjścia.
 
 Podzielmy proces dodawania tabeli do pliku PDF i wyodrębniania jej szerokości na łatwe do przyswojenia kroki:
 
@@ -50,7 +52,7 @@ Najpierw musimy utworzyć nowy dokument PDF. Pomyśl o tym jak o ustawianiu pł�
 Document doc = new Document();
 ```
 
-tym wierszu tworzysz nowy obiekt dokumentu. Ten obiekt będzie zawierał nasze strony i zawartość.
+W tym wierszu tworzysz nowy obiekt dokumentu. Ten obiekt będzie zawierał nasze strony i zawartość.
 
 ## Krok 2: Dodaj stronę do dokumentu
 
@@ -60,7 +62,7 @@ Teraz dodajmy stronę do naszego świeżo utworzonego dokumentu PDF. Strona jest
 Page page = doc.Pages.Add();
 ```
 
- Tutaj przywołujemy`Add` metoda dołączenia strony do naszego dokumentu. To jest obszar roboczy, w którym narysujesz swoją tabelę!
+Tutaj przywołujemy `Add` metoda dołączenia strony do naszego dokumentu. To jest obszar roboczy, w którym narysujesz swoją tabelę!
 
 ## Krok 3: Zainicjuj nową tabelę
 
@@ -73,7 +75,7 @@ Table table = new Table
 };
 ```
 
- Ustawianie`ColumnAdjustment` Do`AutoFitToContent` zapewnia, że kolumny automatycznie dostosowują swoją szerokość na podstawie zawartości. To sprytny sposób, aby upewnić się, że wszystko wygląda schludnie i porządnie!
+Ustawianie `ColumnAdjustment` Do `AutoFitToContent` zapewnia, że kolumny automatycznie dostosowują swoją szerokość na podstawie zawartości. To sprytny sposób, aby upewnić się, że wszystko wygląda schludnie i porządnie!
 
 ## Krok 4: Dodaj wiersz do tabeli
 
@@ -83,7 +85,7 @@ Następnie dodajmy wiersz do naszej tabeli. Rząd jest jak linia miejsc dla goś
 Row row = table.Rows.Add();
 ```
 
- Dzwonimy do`Add` metoda wstawiania nowego wiersza do tabeli. Ten wiersz będzie zawierał nasze komórki!
+Dzwonimy do `Add` metoda wstawiania nowego wiersza do tabeli. Ten wiersz będzie zawierał nasze komórki!
 
 ## Krok 5: Dodaj komórki do wiersza
 
@@ -114,11 +116,11 @@ Na koniec wydrukujmy komunikat o powodzeniu, aby zaznaczyć, że dotarliśmy do 
 System.Console.WriteLine("Extracted table width successfully!");
 ```
 
-Po odtworzeniu tej wiadomości będziesz mieć pewność, że wszystko poszło zgodnie z planem i szerokość tabeli została pomyślnie pobrana.
+Powtarzając tę wiadomość, będziesz mieć pewność, że wszystko poszło zgodnie z planem i szerokość tabeli została pomyślnie pobrana.
 
 ## Wniosek
 
-masz to! Teraz wiesz, jak utworzyć dokument PDF, dodać tabelę, wprowadzić treść i wyodrębnić szerokość tabeli za pomocą Aspose.PDF dla .NET. Ta biblioteka to absolutna rewolucja w pracy z plikami PDF, zapewniająca elastyczność i moc na wyciągnięcie ręki.
+I masz to! Teraz wiesz, jak utworzyć dokument PDF, dodać tabelę, wprowadzić treść i wyodrębnić szerokość tabeli za pomocą Aspose.PDF dla .NET. Ta biblioteka to absolutna rewolucja w pracy z plikami PDF, zapewniająca elastyczność i moc na wyciągnięcie ręki.
 
 Niezależnie od tego, czy tworzysz raporty, faktury czy inne formy dokumentacji wymagającej manipulacji tabelami, zrozumienie tego procesu jest niezbędne. Świat manipulacji plikami PDF nie musi być zniechęcający; wyposażony w tę wiedzę możesz realizować swoje projekty z pewnością siebie. 
 
@@ -128,19 +130,21 @@ Niezależnie od tego, czy tworzysz raporty, faktury czy inne formy dokumentacji 
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka przeznaczona do tworzenia i manipulowania plikami PDF programowo przy użyciu środowiska .NET.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?  
- Tak, Aspose oferuje bezpłatną wersję próbną swoich bibliotek. Możesz ją pobrać ze strony[strona z bezpłatną wersją próbną](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną swoich bibliotek. Możesz ją pobrać ze strony [strona z bezpłatną wersją próbną](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą problemów z plikiem Aspose.PDF?  
- W razie pytań lub problemów możesz skontaktować się z[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+W razie pytań lub problemów możesz skontaktować się z [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Jak mogę zakupić licencję Aspose.PDF?  
- Możesz zakupić licencję poprzez[strona zakupu](https://purchase.aspose.com/buy).
+Możesz zakupić licencję poprzez [strona zakupu](https://purchase.aspose.com/buy).
 
 ### Jakie są wymagania systemowe dla Aspose.PDF?  
-Potrzebujesz środowiska programistycznego zgodnego z .NET. Szczegółowe wymagania można znaleźć na stronie[Strona dokumentacji Aspose](https://reference.aspose.com/pdf/net/).
+Potrzebujesz środowiska programistycznego zgodnego z .NET. Szczegółowe wymagania można znaleźć na stronie [Strona dokumentacji Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement Custom PDF Digital Signatures Using Aspose.PDF for Java
 
@@ -105,7 +107,11 @@ signatureCustomAppearance.setDateTimeFormat("yyyy.MM.dd HH:mm:ss");
 import com.aspose.pdf.PKCS7;
 
 PKCS7 pkcs = new PKCS7("path/to/your/certificate.pfx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

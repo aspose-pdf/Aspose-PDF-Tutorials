@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add HTML Content to a PDF Using Aspose.PDF for Java
 
@@ -207,6 +209,9 @@ Congratulations! You've learned how to add HTML content to a PDF using Aspose.PD
 Now that you've explored adding HTML to PDFs with Aspose.PDF for Java, why not try implementing it in your projects? Start experimenting and see the results!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

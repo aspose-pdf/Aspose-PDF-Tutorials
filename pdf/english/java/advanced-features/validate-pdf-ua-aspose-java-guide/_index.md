@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.PDF Java: Step-by-Step Guide to Validate PDF/UA Standards for Accessibility Compliance
 ## Introduction
@@ -126,7 +128,11 @@ Ready to make your PDFs more accessible? Implement these steps today and see the
 - [Support](https://forum.aspose.com/c/pdf/10)
 
 Embark on your journey to PDF accessibility by leveraging Aspose.PDF for Java today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

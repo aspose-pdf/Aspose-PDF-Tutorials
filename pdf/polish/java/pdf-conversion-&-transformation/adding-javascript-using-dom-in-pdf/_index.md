@@ -1,14 +1,16 @@
 ---
-title: Dodawanie JavaScript za pomocą DOM w PDF
-linktitle: Dodawanie JavaScript za pomocą DOM w PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak zwiększyć interaktywność PDF za pomocą JavaScript, używając Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym dla dynamicznych PDF-ów
-weight: 32
-url: /pl/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/
+"description": "Dowiedz się, jak zwiększyć interaktywność PDF za pomocą JavaScript, używając Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym dla dynamicznych PDF-ów"
+"linktitle": "Dodawanie JavaScript za pomocą DOM w PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodawanie JavaScript za pomocą DOM w PDF"
+"url": "/pl/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie JavaScript za pomocą DOM w PDF
@@ -16,7 +18,7 @@ url: /pl/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/
 
 ## Wstęp
 
-dzisiejszym cyfrowym świecie interaktywność jest kluczowym elementem poprawiającym doświadczenie użytkownika. Podczas pracy z dokumentami PDF dodanie JavaScript może przynieść nowy poziom interaktywności i funkcjonalności. W tym przewodniku krok po kroku zbadamy, jak dodać JavaScript za pomocą Document Object Model (DOM) w plikach PDF przy użyciu Aspose.PDF dla Java.
+dzisiejszym cyfrowym świecie interaktywność jest kluczowym elementem ulepszania doświadczenia użytkownika. Podczas pracy z dokumentami PDF dodanie JavaScript może przynieść nowy poziom interaktywności i funkcjonalności. W tym przewodniku krok po kroku zbadamy, jak dodać JavaScript za pomocą Document Object Model (DOM) w plikach PDF przy użyciu Aspose.PDF dla Java.
 
 ## Czym jest Aspose.PDF dla Java?
 
@@ -30,7 +32,7 @@ JavaScript może być używany do dodawania dynamicznego zachowania do dokument�
 
 Zanim zaczniemy, musisz skonfigurować środowisko programistyczne. Oto kroki:
 
-1. Pobierz i zainstaluj Aspose.PDF dla Java: Odwiedź[Aspose.PDF dla dokumentacji Java](https://reference.aspose.com/pdf/java/) aby pobrać i zainstalować bibliotekę.
+1. Pobierz i zainstaluj Aspose.PDF dla Java: Odwiedź [Aspose.PDF dla dokumentacji Java](https://reference.aspose.com/pdf/java/) aby pobrać i zainstalować bibliotekę.
 
 2. Utwórz projekt Java: Skonfiguruj projekt Java w preferowanym zintegrowanym środowisku programistycznym (IDE).
 
@@ -107,7 +109,7 @@ Teraz, gdy posiadasz już podstawową wiedzę na temat dodawania kodu JavaScript
 
 ### Jak mogę pobrać Aspose.PDF dla Java?
 
- Możesz pobrać Aspose.PDF dla Java ze strony internetowej, odwiedzając[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Możesz pobrać Aspose.PDF dla Java ze strony internetowej, odwiedzając [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
 ### Czy obsługa JavaScript jest dostępna we wszystkich przeglądarkach PDF?
 
@@ -123,10 +125,12 @@ Obsługa JavaScript w plikach PDF może mieć pewne ograniczenia w zależności 
 
 ### Gdzie mogę znaleźć bardziej zaawansowane przykłady języka JavaScript dla plików PDF?
 
-Możesz zapoznać się z dokumentacją Aspose.PDF for Java zawierającą zaawansowane przykłady i przypadki użycia związane z JavaScript w plikach PDF.
+W dokumentacji Aspose.PDF for Java znajdziesz zaawansowane przykłady i przypadki użycia związane z JavaScript w plikach PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

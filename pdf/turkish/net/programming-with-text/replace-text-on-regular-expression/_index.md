@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Düzenli İfadedeki Metni Değiştir
-linktitle: PDF Dosyasında Texton Düzenli İfadesini Değiştirin
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF kullanarak bir PDF dosyasındaki düzenli ifadelere dayalı metni nasıl değiştireceğinizi öğrenin. Metin değişikliklerini verimli bir şekilde otomatikleştirmek için adım adım kılavuzumuzu izleyin.
-weight: 360
-url: /tr/net/programming-with-text/replace-text-on-regular-expression/
+"description": ".NET için Aspose.PDF kullanarak bir PDF dosyasındaki düzenli ifadelere dayalı metni nasıl değiştireceğinizi öğrenin. Metin değişikliklerini verimli bir şekilde otomatikleştirmek için adım adım kılavuzumuzu izleyin."
+"linktitle": "PDF Dosyasında Texton Düzenli İfadesini Değiştirin"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Düzenli İfadedeki Metni Değiştir"
+"url": "/tr/net/programming-with-text/replace-text-on-regular-expression/"
+"weight": 360
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Düzenli İfadedeki Metni Değiştir
@@ -21,7 +23,7 @@ Aspose.PDF for .NET, geliştiricilerin PDF dosyalarını kolaylıkla düzenlemel
 
 Koda dalmadan önce her şeyin ayarlandığından emin olalım:
 
-1.  Aspose.PDF for .NET: Aspose.PDF for .NET'in en son sürümüne ihtiyacınız olacak. İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: Aspose.PDF for .NET'in en son sürümüne ihtiyacınız olacak. İndirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 2. IDE: Visual Studio veya herhangi bir .NET uyumlu Entegre Geliştirme Ortamı (IDE).
 3. .NET Framework: .NET Framework 4.0 veya üzerinin yüklü olduğundan emin olun.
 4. PDF Belgesi: Metin aramak ve değiştirmek istediğiniz örnek PDF dosyası.
@@ -45,39 +47,39 @@ Bu, PDF belgeleriyle çalışmamıza ve belge içindeki metin parçalarını iş
 
 ## Adım 1: PDF Belgesini Yükleyin
 
- Öncelikle, metin değiştirme işlemini gerçekleştireceğiniz PDF belgesini yüklemeniz gerekir. Bu, şu şekilde yapılır:`Document` Aspose.PDF'den sınıf.
+Öncelikle, metin değiştirme işlemini gerçekleştireceğiniz PDF belgesini yüklemeniz gerekir. Bu, şu şekilde yapılır: `Document` Aspose.PDF'den sınıf.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "SearchRegularExpressionPage.pdf");
 ```
 
- Bu adımda, değiştirin`"YOUR DOCUMENT DIRECTORY"`PDF dosyanızın saklandığı gerçek yol ile. Bu kod PDF'yi açar ve onu`pdfDocument` Bir sonraki adımlarda üzerinde işlem yapacağımız nesne.
+Bu adımda, değiştirin `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı gerçek yol ile. Bu kod PDF'yi açar ve onu `pdfDocument` Bir sonraki adımlarda üzerinde işlem yapacağımız nesne.
 
 ## Adım 2: Düzenli İfadeyi Tanımlayın
 
- Artık belgeyi yüklediğinize göre, bir sonraki adım ilgilendiğiniz metin desenlerini arayacak düzenli ifadeyi tanımlamaktır. Örneğin, "1999-2000" gibi bir yıl aralığını değiştirmek istiyorsanız, düzenli ifadeyi kullanabilirsiniz`\d{4}-\d{4}`.
+Artık belgeyi yüklediğinize göre, bir sonraki adım ilgilendiğiniz metin desenlerini arayacak düzenli ifadeyi tanımlamaktır. Örneğin, "1999-2000" gibi bir yıl aralığını değiştirmek istiyorsanız, düzenli ifadeyi kullanabilirsiniz `\d{4}-\d{4}`.
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("\\d{4}-\\d{4}"); 
 ```
 
- Bu satır bir`TextFragmentAbsorber` herhangi bir dört basamaklı sayıyı, ardından bir tire ve ardından başka bir dört basamaklı sayıyı arayacaktır. Düzenli ifadeyi, belirli kullanım durumunuza uyacak şekilde gerektiği gibi değiştirebilirsiniz.
+Bu satır bir `TextFragmentAbsorber` herhangi bir dört basamaklı sayıyı, ardından bir tire ve ardından başka bir dört basamaklı sayıyı arayacaktır. Düzenli ifadeyi, belirli kullanım durumunuza uyacak şekilde gerektiği gibi değiştirebilirsiniz.
 
 ## Adım 3: Düzenli İfade Arama Seçeneğini Etkinleştirin
 
- Aspose.PDF, metnin nasıl aranacağını hassas bir şekilde ayarlamanıza olanak tanır. Bu durumda, düzenli ifade eşleştirmesini kullanarak etkinleştireceğiz`TextSearchOptions` sınıf.
+Aspose.PDF, metnin nasıl aranacağını hassas bir şekilde ayarlamanıza olanak tanır. Bu durumda, düzenli ifade eşleştirmesini kullanarak etkinleştireceğiz `TextSearchOptions` sınıf.
 
 ```csharp
 TextSearchOptions textSearchOptions = new TextSearchOptions(true);
 textFragmentAbsorber.TextSearchOptions = textSearchOptions;
 ```
 
- Bu seçeneği ayarlayarak`true`, PDF içinde arama yapmak için düzenli ifadelerin kullanımını etkinleştirirsiniz.
+Bu seçeneği ayarlayarak `true`, PDF içinde arama yapmak için düzenli ifadelerin kullanımını etkinleştirirsiniz.
 
 ## Adım 4: Absorber'ı Belirli Bir Sayfaya Uygulayın
 
- Daha sonra, şunu uygulayacağız:`TextFragmentAbsorber` belgenin belirli bir sayfasına uygulanır. Bu örnek bunu ilk sayfaya uygular.
+Daha sonra, şunu uygulayacağız: `TextFragmentAbsorber` belgenin belirli bir sayfasına uygulanır. Bu örnek bunu ilk sayfaya uygular.
 
 ```csharp
 pdfDocument.Pages[1].Accept(textFragmentAbsorber);
@@ -102,7 +104,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
- Burada, düzenli ifadeyle eşleşen her metin parçasında döngü oluşturuyorsunuz. Her eşleşme için metin,`"New Phrase"`Ayrıca yazı tipini "Verdana" olarak özelleştirebilir, yazı boyutunu 22'ye ayarlayabilir ve metin ve arka plan renklerini değiştirebilirsiniz.
+Burada, düzenli ifadeyle eşleşen her metin parçasında döngü oluşturuyorsunuz. Her eşleşme için metin, `"New Phrase"`Ayrıca yazı tipini "Verdana" olarak özelleştirebilir, yazı boyutunu 22'ye ayarlayabilir ve metin ve arka plan renklerini değiştirebilirsiniz.
 
 ## Adım 6: Güncellenen PDF Belgesini Kaydedin
 
@@ -113,7 +115,7 @@ dataDir = dataDir + "ReplaceTextonRegularExpression_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Bu, güncellenmiş PDF'yi tüm metin değişiklikleriyle birlikte yeni bir dosyaya kaydedecektir.`ReplaceTextonRegularExpression_out.pdf`.
+Bu, güncellenmiş PDF'yi tüm metin değişiklikleriyle birlikte yeni bir dosyaya kaydedecektir. `ReplaceTextonRegularExpression_out.pdf`.
 
 ## Adım 7: Değişiklikleri Doğrulayın
 
@@ -132,7 +134,7 @@ Aspose.PDF for .NET kullanarak düzenli ifadelere dayalı bir PDF dosyasındaki 
 ## SSS
 
 ### Bir belgede birden fazla düzenli ifade kullanabilir miyim?
- Evet, birden fazla oluşturabilirsiniz`TextFragmentAbsorber` Her biri farklı düzenli ifadelere sahip nesneler ve bunları belgeye uygulayın.
+Evet, birden fazla oluşturabilirsiniz `TextFragmentAbsorber` Her biri farklı düzenli ifadelere sahip nesneler ve bunları belgeye uygulayın.
 
 ### Aspose.PDF for .NET, .NET Core ile uyumlu mudur?
 Evet, Aspose.PDF for .NET hem .NET Framework'ü hem de .NET Core'u destekler.
@@ -145,9 +147,11 @@ Uygun düzenli ifade işaretlerini kullanarak veya arama seçeneklerini değişt
 
 ### PDF dosyasındaki resimleri değiştirebilir miyim?
 Evet, Aspose.PDF for .NET aynı zamanda PDF belgelerinde resim değiştirme ve düzenlemeyi de destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

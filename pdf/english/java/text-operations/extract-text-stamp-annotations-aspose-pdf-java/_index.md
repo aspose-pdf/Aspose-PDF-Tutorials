@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Extracting Text from Stamp Annotations in PDFs Using Aspose.PDF Java
 
@@ -172,7 +174,11 @@ Ready to get started? Dive into the [Aspose.PDF documentation](https://reference
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
 Happy coding, and explore the world of PDF manipulation with Aspose.PDF for Java!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

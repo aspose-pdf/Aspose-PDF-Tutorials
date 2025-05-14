@@ -1,30 +1,32 @@
 ---
-title: Přidat objekt SVG do souboru PDF
-linktitle: Přidat objekt SVG do souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: V tomto podrobném návodu se dozvíte, jak snadno přidat objekty SVG do souborů PDF pomocí Aspose.PDF for .NET. Vylepšete své dokumenty.
-weight: 30
-url: /cs/net/programming-with-tables/add-svg-object/
+"description": "Naučte se v tomto podrobném návodu, jak snadno přidávat objekty SVG do PDF souborů pomocí Aspose.PDF pro .NET. Vylepšete své dokumenty."
+"linktitle": "Přidat SVG objekt do PDF souboru"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Přidat SVG objekt do PDF souboru"
+"url": "/cs/net/programming-with-tables/add-svg-object/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidat objekt SVG do souboru PDF
+# Přidat SVG objekt do PDF souboru
 
 ## Zavedení
 
-Přemýšleli jste někdy o tom, jak začlenit škálovatelnou vektorovou grafiku (SVG) do vašich dokumentů PDF? S rozmachem digitální dokumentace je zásadní sloučení grafiky a textu robustním způsobem. Pokud pracujete s .NET a chcete vylepšit své PDF obrázky SVG, jste na správném místě! V tomto tutoriálu vás provedeme krok za krokem procesem přidávání objektů SVG do souborů PDF pomocí Aspose.PDF for .NET. Ponoříme se hluboko do každého kroku a ujistíme se, že rozumíte tomu, co dělat na každém kroku.
+Přemýšleli jste někdy, jak do svých PDF dokumentů začlenit škálovatelnou vektorovou grafiku (SVG)? S nástupem digitální dokumentace je robustní sloučení grafiky a textu zásadní. Pokud pracujete s .NET a chcete vylepšit své PDF soubory pomocí obrázků SVG, jste na správném místě! V tomto tutoriálu vás krok za krokem provedeme procesem přidávání objektů SVG do vašich PDF souborů pomocí Aspose.PDF pro .NET. Ponoříme se do každého kroku podrobně a ujistíme se, že rozumíte tomu, co v každém kroku dělat.
 
 ## Předpoklady
 
-Než se vrhneme na matice a šrouby přidávání objektů SVG do souborů PDF, je třeba mít připraveno několik věcí:
+Než se ponoříme do detailů přidávání SVG objektů do PDF souborů, je třeba mít připraveno několik věcí:
 
-1. Základní porozumění .NET: Znalost programovacího jazyka C# a prostředí .NET vám pomůže snadno sledovat.
-2.  Knihovna Aspose.PDF: Musíte si stáhnout a nainstalovat knihovnu Aspose.PDF for .NET. Můžete si ho stáhnout přes následující odkaz:[Stáhněte si Aspose.PDF pro .NET](https://releases.aspose.com/pdf/net/).
-3. Visual Studio nebo libovolné .NET IDE: Nastavte si preferované integrované vývojové prostředí (IDE), kde můžete psát a spouštět svůj kód.
-4. Ukázkový soubor SVG: K práci budete potřebovat soubor SVG. Jednoduše vytvořte jeden nebo si stáhněte ukázkový soubor SVG, který použijete v tomto příkladu.
+1. Základní znalost .NET: Znalost programovacího jazyka C# a prostředí .NET vám pomůže snadno se orientovat.
+2. Knihovna Aspose.PDF: Je třeba si stáhnout a nainstalovat knihovnu Aspose.PDF pro .NET. Můžete si ji stáhnout pomocí následujícího odkazu: [Stáhnout Aspose.PDF pro .NET](https://releases.aspose.com/pdf/net/).
+3. Visual Studio nebo jakékoli .NET IDE: Nastavte si preferované integrované vývojové prostředí (IDE), kde můžete psát a spouštět kód.
+4. Ukázkový soubor SVG: Budete potřebovat soubor SVG. Jednoduše si jej vytvořte nebo si stáhněte ukázkový soubor SVG, který použijete v tomto příkladu.
 
 ## Import balíčků
 
@@ -32,15 +34,15 @@ Prvním krokem je zajistit, abyste do projektu importovali potřebné balíčky.
 
 ### Vytvořit nový projekt
 
-Otevřete Visual Studio (nebo preferované IDE) a vytvořte nový projekt konzolové aplikace.
+Otevřete Visual Studio (nebo vámi preferované IDE) a vytvořte nový projekt konzolové aplikace.
 
-### Přidat Aspose.PDF DLL
+### Přidat knihovnu DLL Aspose.PDF
 
-Přidejte Aspose.PDF DLL do vašich projektových odkazů. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení, zvolte "Přidat referenci" a přejděte na místo, kde jste stáhli knihovnu Aspose.PDF. 
+Přidejte knihovnu Aspose.PDF DLL do referencí projektu. V Průzkumníku řešení klikněte pravým tlačítkem myši na projekt, vyberte možnost „Přidat referenci“ a vyhledejte místo, kam jste stáhli knihovnu Aspose.PDF. 
 
 ### Importujte požadované jmenné prostory
 
-horní části souboru C# importujte požadované jmenné prostory:
+V horní části souboru C# importujte požadované jmenné prostory:
 
 ```csharp
 using System.IO;
@@ -49,120 +51,120 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-Tyto jmenné prostory vám umožní přístup k různým třídám a metodám pro práci s PDF.
+Tyto jmenné prostory vám umožní přístup k různým třídám a metodám pro práci s PDF soubory.
 
-Nyní, když máme vše nastaveno, přistoupíme k samotnému kódování. Proces rozdělíme na zvládnutelné kroky.
+Nyní, když máme vše nastavené, pojďme se pustit do samotného kódování. Rozdělíme si proces na zvládnutelné kroky.
 
-## Krok 1: Nastavte objekt dokumentu
+## Krok 1: Nastavení objektu dokumentu
 
- První věc, kterou budete chtít udělat, je vytvořit novou instanci souboru`Document` třída. Zde bude uložen veškerý váš obsah PDF.
+První věc, kterou budete chtít udělat, je vytvořit novou instanci `Document` třída. Zde bude uložen veškerý obsah vašeho PDF.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Objekt okamžitého dokumentu
+// Vytvoření instance objektu Document
 Document doc = new Document();
 ```
 
-Tento řádek kódu vytvoří nový dokument PDF, do kterého můžeme začít přidávat náš obsah.
+Tento řádek kódu vytvoří nový PDF dokument, do kterého můžeme začít přidávat náš obsah.
 
-## Krok 2: Vytvořte instanci obrázku
+## Krok 2: Vytvoření instance obrazu
 
-Dále musíme vytvořit instanci obrázku pro naše SVG. Toto je objekt, který bude obsahovat náš soubor SVG.
+Dále musíme vytvořit instanci obrázku pro náš SVG. Toto je objekt, který bude obsahovat náš SVG soubor.
 
 ```csharp
-// Vytvořte instanci obrázku
+// Vytvoření instance obrazu
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 ```
 
-Tento řádek inicializuje novou instanci obrazu, kterou později nakonfigurujeme pro čtení našeho souboru SVG.
+Tento řádek inicializuje novou instanci obrázku, kterou později nakonfigurujeme pro čtení našeho SVG souboru.
 
-## Krok 3: Nastavte typ obrázku a soubor
+## Krok 3: Nastavení typu obrázku a souboru
 
-Nyní je čas zadat typ souboru a skutečný soubor, který chceme použít:
+Nyní je čas specifikovat typ souboru a samotný soubor, který chceme použít:
 
 ```csharp
-// Nastavte typ obrázku jako SVG
+// Nastavit typ obrázku jako SVG
 img.FileType = Aspose.Pdf.ImageFileType.Svg;
 
 // Cesta ke zdrojovému souboru
-img.File = dataDir + "SVGToPDF.svg"; // Zajistěte nahrazení vaší skutečnou cestou
+img.File = dataDir + "SVGToPDF.svg"; // Ujistěte se, že jste ji nahradili skutečnou cestou
 ```
 
-Zde jsme nastavili typ obrázku na SVG a poskytli cestu, kde se nachází váš soubor SVG. Ujistěte se, že cesta je správná!
+Zde jsme nastavili typ obrázku na SVG a zadali cestu k umístění vašeho souboru SVG. Ujistěte se, že je cesta správná!
 
-## Krok 4: Definujte rozměry obrázku
+## Krok 4: Definování rozměrů obrázku
 
-Možná budete chtít změnit velikost obrázku SVG tak, aby se dobře vešel do PDF. Můžete to provést zadáním jeho šířky a výšky:
+Možná budete chtít změnit velikost obrázku SVG, aby se hezky vešel do PDF. Můžete to provést zadáním jeho šířky a výšky:
 
 ```csharp
-// Nastavte šířku instance obrázku
+// Nastavení šířky pro instanci obrázku
 img.FixWidth = 50;
 
-// Nastavte výšku instance obrázku
+// Nastavení výšky instance obrázku
 img.FixHeight = 50;
 ```
 
-Tento krok je zásadní, pokud usilujete o vizuálně přitažlivé rozvržení PDF. Tyto rozměry můžete upravit na základě vašich konkrétních potřeb návrhu.
+Tento krok je klíčový, pokud chcete vizuálně atraktivní rozvržení PDF. Tyto rozměry můžete upravit podle svých specifických potřeb.
 
-## Krok 5: Vytvořte instanci tabulky
+## Krok 5: Vytvoření instance tabulky
 
-Dále vytvoříme tabulku, která bude obsahovat náš obrázek SVG a nějaký text. To je skvělé pro udržení pořádku ve vašem obsahu.
+Dále si vytvořme tabulku, která bude obsahovat náš SVG obrázek a nějaký text. To je skvělé pro udržení pořádku v obsahu.
 
 ```csharp
-// Vytvořte instanci tabulky
+// Vytvořit instanci tabulky
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 
-// Nastavte šířku buněk tabulky
+// Nastavení šířky buněk tabulky
 table.ColumnWidths = "100 100";
 ```
 
- s`ColumnWidths`, můžeme určit, kolik místa zabere každý sloupec v tabulce. Neváhejte a upravte tyto hodnoty podle svých požadavků na obsah.
+S `ColumnWidths`, můžeme určit, kolik místa bude každý sloupec v tabulce zabírat. Neváhejte tyto hodnoty upravit podle svých požadavků na obsah.
 
-## Krok 6: Přidejte řádky a buňky do tabulky
+## Krok 6: Přidání řádků a buněk do tabulky
 
-Nyní přidáme řádky do tabulky a následně přidáme náš obrázek SVG do buňky:
+Nyní přidáme do tabulky řádky a následně přidáme náš SVG obrázek do buňky:
 
 ```csharp
-//Vytvořte objekt řádku a přidejte jej do instance tabulky
+// Vytvořte objekt řádku a přidejte ho do instance tabulky
 Aspose.Pdf.Row row = table.Rows.Add();
 
 // Vytvořte objekt buňky a přidejte jej do instance řádku
 Aspose.Pdf.Cell cell = row.Cells.Add();
 
-// Přidejte fragment textu do kolekce odstavců objektu buňky
+// Přidat fragment textu do kolekce odstavců objektu buňky
 cell.Paragraphs.Add(new TextFragment("First cell"));
 
-// Přidejte další buňku do řádku objektu
+// Přidat další buňku do objektu řádku
 cell = row.Cells.Add();
 ```
 
-Tím se v tabulce vytvoří řádek se dvěma buňkami – první obsahuje textový popisek a druhá bude obsahovat náš obrázek SVG.
+Tím se v tabulce vytvoří řádek se dvěma buňkami – první bude obsahovat textový popisek a druhá bude obsahovat náš SVG obrázek.
 
-## Krok 7: Přidejte obrázek SVG do tabulky
+## Krok 7: Přidání obrázku SVG do tabulky
 
-Nyní můžeme přidat náš obrázek SVG do druhé buňky, kterou jsme právě vytvořili:
+Nyní můžeme přidat náš SVG obrázek do druhé buňky, kterou jsme právě vytvořili:
 
 ```csharp
-// Přidejte obrázek SVG do kolekce odstavců nedávno přidané instance buňky
+// Přidat obrázek SVG do kolekce odstavců nedávno přidané instance buňky
 cell.Paragraphs.Add(img);
 ```
 
-A právě tak jste vložili svůj obrázek SVG do PDF!
+A přesně takhle jste vložili svůj SVG obrázek do PDF!
 
 ## Krok 8: Vytvořte stránku PDF a přidejte tabulku
 
-Dále budeme muset v našem dokumentu PDF vytvořit stránku, která bude obsahovat tabulku, kterou jsme právě vytvořili:
+Dále budeme muset v našem PDF dokumentu vytvořit stránku, na kterou se uloží tabulka, kterou jsme právě vytvořili:
 
 ```csharp
-// Vytvořte objekt stránky a přidejte jej do kolekce stránek instance dokumentu
+// Vytvořte objekt stránky a přidejte ho do kolekce stránek instance dokumentu
 Page page = doc.Pages.Add();
 
-// Přidejte tabulku do kolekce odstavců objektu stránky
+// Přidat tabulku do kolekce odstavců objektu stránky
 page.Paragraphs.Add(table);
 ```
 
-Tento krok zajistí, že naše tabulka, která nyní obsahuje obrázek a text SVG, bude součástí PDF.
+Tento krok zajistí, že naše tabulka, která nyní obsahuje obrázek a text ve formátu SVG, bude součástí PDF.
 
 ## Krok 9: Uložte soubor PDF
 
@@ -174,31 +176,33 @@ dataDir = dataDir + "AddSVGObject_out.pdf"; // Zadejte výstupní cestu
 doc.Save(dataDir);
 ```
 
-A takhle to děláte! Pomocí několika řádků kódu je nyní váš obrázek SVG součástí vašeho souboru PDF.
+A takhle se to dělá! Stačí pár řádků kódu a váš SVG obrázek bude součástí vašeho PDF souboru.
 
 ## Závěr
 
-Přidávání objektů SVG do souborů PDF pomocí Aspose.PDF for .NET je jednoduché, jakmile pochopíte příslušné procesy. Podle kroků uvedených v této příručce můžete efektivně kombinovat všestrannost grafiky SVG s robustní funkčností dokumentů PDF. Pamatujte, že s každým projektem je praxe mistrem. Při přidávání SVG neváhejte experimentovat s různými návrhy a rozvržením.
+Přidávání objektů SVG do souborů PDF pomocí Aspose.PDF pro .NET je jednoduché, jakmile pochopíte jednotlivé procesy. Dodržováním kroků uvedených v této příručce můžete efektivně kombinovat všestrannost grafiky SVG s robustní funkčností dokumentů PDF. Nezapomeňte, že u každého projektu platí, že praxe dělá mistra. Neváhejte experimentovat s různými designy a rozvrženími při přidávání objektů SVG.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu použít soubory SVG jakékoli velikosti?
-Ano, ale vždy je nejlepším postupem změnit jejich velikost, aby se vešly do rozvržení PDF.
+### Mohu použít SVG soubory libovolné velikosti?
+Ano, ale vždy je nejlepší je změnit jejich velikost tak, aby se vešly do rozvržení PDF.
 
-### Jaké jsou výhody použití SVG oproti jiným formátům obrázků?
-SVG jsou škálovatelné bez ztráty kvality, takže jsou ideální pro dokumenty s vysokým rozlišením.
+### Jaké jsou výhody používání SVG oproti jiným obrazovým formátům?
+SVG soubory jsou škálovatelné bez ztráty kvality, což je ideální pro dokumenty s vysokým rozlišením.
 
-### Musím si koupit Aspose.PDF, abych ho mohl používat?
-Můžete začít s bezplatnou zkušební verzí a vyhodnotit její funkčnost. Pro plné využití si budete muset zakoupit licenci.
+### Musím si pro použití Aspose.PDF zakoupit?
+Můžete začít s bezplatnou zkušební verzí a otestovat její funkčnost. Pro plné využití si budete muset zakoupit licenci.
 
-### Jak mohu vyřešit problémy s vykreslováním SVG v souborech PDF?
-Ujistěte se, že váš soubor SVG je správně naformátován; Kontrola dokumentace Aspose může poskytnout přehled o podporovaných funkcích.
+### Jak řeším problémy s vykreslováním SVG v PDF souborech?
+Ujistěte se, že je váš soubor SVG správně naformátován; kontrola dokumentace k Aspose vám může poskytnout informace o podporovaných funkcích.
 
 ### Je Aspose.PDF kompatibilní se všemi verzemi .NET?
-Aspose.PDF podporuje různé .NET frameworky; konkrétní informace o kompatibilitě naleznete v dokumentaci.
+Aspose.PDF podporuje různé frameworky .NET; konkrétní informace o kompatibilitě naleznete v dokumentaci.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

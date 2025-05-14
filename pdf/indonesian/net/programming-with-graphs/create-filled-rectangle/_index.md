@@ -1,28 +1,30 @@
 ---
-title: Buat Persegi Panjang Terisi
-linktitle: Buat Persegi Panjang Terisi
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat persegi panjang yang terisi dalam PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang dari semua tingkatan.
-weight: 50
-url: /id/net/programming-with-graphs/create-filled-rectangle/
+"description": "Pelajari cara membuat persegi panjang yang terisi dalam PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang dari semua tingkatan."
+"linktitle": "Buat Persegi Panjang Terisi"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat Persegi Panjang Terisi"
+"url": "/id/net/programming-with-graphs/create-filled-rectangle/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat Persegi Panjang Terisi
 
 ## Perkenalan
 
-Pernahkah Anda ingin membuat PDF yang menarik secara visual secara terprogram? Jika ya, Anda berada di tempat yang tepat! Dalam tutorial ini, kita akan menyelami dunia Aspose.PDF untuk .NET, pustaka canggih yang memungkinkan Anda memanipulasi dokumen PDF dengan mudah. Hari ini, kita akan fokus pada pembuatan persegi panjang yang terisi dalam file PDF. Apakah Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui setiap langkah dengan cara yang ramah dan menarik. Jadi, ambil topi pengodean Anda, dan mari kita mulai!
+Pernahkah Anda ingin membuat PDF yang menarik secara visual secara terprogram? Jika ya, Anda berada di tempat yang tepat! Dalam tutorial ini, kita akan menyelami dunia Aspose.PDF untuk .NET, pustaka canggih yang memungkinkan Anda memanipulasi dokumen PDF dengan mudah. Hari ini, kita akan fokus pada pembuatan persegi panjang yang terisi dalam file PDF. Baik Anda pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui setiap langkah dengan cara yang ramah dan menarik. Jadi, ambil topi pengodean Anda, dan mari kita mulai!
 
 ## Prasyarat
 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE yang fantastis untuk pengembangan .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Sedikit pengetahuan dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -56,11 +58,11 @@ Pertama-tama, Anda perlu menentukan jalur penyimpanan PDF Anda. Ini penting kare
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada komputer Anda tempat Anda ingin menyimpan PDF.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada komputer Anda tempat Anda ingin menyimpan PDF.
 
 ## Langkah 2: Buat Contoh Dokumen
 
- Selanjutnya, kita akan membuat sebuah instance dari`Document`Kelas ini mewakili dokumen PDF yang akan Anda gunakan.
+Selanjutnya, kita akan membuat sebuah instance dari `Document` Kelas ini mewakili dokumen PDF yang akan Anda gunakan.
 
 ```csharp
 // Buat contoh Dokumen
@@ -82,7 +84,7 @@ Kode ini menambahkan halaman baru ke dokumen, yang memungkinkan kita menggambar 
 
 ## Langkah 4: Buat Contoh Grafik
 
- Untuk menggambar bentuk, kita perlu membuat`Graph` Misalnya, bayangkan grafik sebagai kanvas tempat Anda dapat menggambar berbagai bentuk.
+Untuk menggambar bentuk, kita perlu membuat `Graph` Misalnya, bayangkan grafik sebagai kanvas tempat Anda dapat menggambar berbagai bentuk.
 
 ```csharp
 // Buat contoh Grafik
@@ -126,7 +128,7 @@ Baris ini mengatur warna isian persegi panjang menjadi merah. Anda dapat memilih
 
 ## Langkah 8: Tambahkan Persegi Panjang ke Grafik
 
-Setelah persegi panjang kita siap, saatnya menambahkannya ke grafik.
+Setelah persegi panjang kita siap, waktunya menambahkannya ke grafik.
 
 ```csharp
 // Tambahkan objek persegi panjang ke koleksi bentuk objek Grafik
@@ -145,7 +147,7 @@ dataDir = dataDir + "CreateFilledRectangle_out.pdf";
 doc.Save(dataDir);
 ```
 
- Kode ini menyimpan file PDF dengan nama`CreateFilledRectangle_out.pdf` di direktori yang Anda tentukan sebelumnya.
+Kode ini menyimpan file PDF dengan nama `CreateFilledRectangle_out.pdf` di direktori yang Anda tentukan sebelumnya.
 
 ## Langkah 10: Pesan Konfirmasi
 
@@ -167,19 +169,21 @@ Nah, itu dia! Anda telah berhasil membuat persegi panjang yang terisi dalam doku
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Apakah ada cara untuk mendapatkan dukungan untuk Aspose.PDF?
- Tentu saja! Anda bisa mendapatkan dukungan melalui forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Tentu saja! Anda bisa mendapatkan dukungan melalui forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana saya dapat membeli Aspose.PDF?
- Anda dapat membeli Aspose.PDF dengan mengunjungi halaman pembelian[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli Aspose.PDF dengan mengunjungi halaman pembelian [Di Sini](https://purchase.aspose.com/buy).
 
 ### Jenis bentuk apa yang dapat saya buat dengan Aspose.PDF?
 Anda dapat membuat berbagai bentuk, termasuk persegi panjang, lingkaran, garis, dan banyak lagi, menggunakan pustaka Aspose.PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

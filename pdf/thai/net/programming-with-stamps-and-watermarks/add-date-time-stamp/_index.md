@@ -1,14 +1,16 @@
 ---
-title: เพิ่มวันที่และเวลาลงในไฟล์ PDF
-linktitle: เพิ่มวันที่และเวลาลงในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีเพิ่มวันที่และเวลาลงในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการเพิ่มความถูกต้องของเอกสาร
-weight: 10
-url: /th/net/programming-with-stamps-and-watermarks/add-date-time-stamp/
+"description": "เรียนรู้วิธีการเพิ่มวันที่และเวลาลงในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการเพิ่มความถูกต้องของเอกสาร"
+"linktitle": "เพิ่มวันที่และเวลาลงในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "เพิ่มวันที่และเวลาลงในไฟล์ PDF"
+"url": "/th/net/programming-with-stamps-and-watermarks/add-date-time-stamp/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มวันที่และเวลาลงในไฟล์ PDF
@@ -24,9 +26,9 @@ url: /th/net/programming-with-stamps-and-watermarks/add-date-time-stamp/
 ก่อนที่เราจะเริ่มต้น มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่คือที่ที่คุณจะเขียนและรันโค้ดของคุณ
-2. Aspose.PDF สำหรับ .NET: คุณต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาเวอร์ชันล่าสุดได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาเวอร์ชันล่าสุดได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจตัวอย่างได้ดีขึ้น แต่ไม่ต้องกังวลหากคุณเพิ่งเริ่มต้น เพราะเราจะอธิบายทุกอย่างทีละขั้นตอน
-4.  ไฟล์ PDF: เตรียมไฟล์ PDF ตัวอย่างไว้ สำหรับตัวอย่างของเรา เราจะใช้ไฟล์ชื่อ`AddTextStamp.pdf`.
+4. ไฟล์ PDF: เตรียมไฟล์ PDF ตัวอย่างไว้ สำหรับตัวอย่างของเรา เราจะใช้ไฟล์ชื่อ `AddTextStamp-pdf`.
 
 เมื่อคุณมีข้อกำหนดเบื้องต้นเหล่านี้แล้ว คุณก็พร้อมที่จะเริ่มต้นเพิ่มวันที่และเวลาลงในไฟล์ PDF ของคุณได้!
 
@@ -39,7 +41,7 @@ url: /th/net/programming-with-stamps-and-watermarks/add-date-time-stamp/
 1. เปิด Visual Studio: เปิดแอปพลิเคชัน Visual Studio ของคุณ
 2. สร้างโครงการใหม่: เลือก “สร้างโครงการใหม่” จากหน้าจอเริ่มต้น
 3. เลือกแอปคอนโซล: เลือก “แอปคอนโซล (.NET Framework)” จากรายการเทมเพลตโครงการ
-4.  ตั้งชื่อโครงการของคุณ: ตั้งชื่อโครงการของคุณ เช่น`PDFDateTimeStamp`.
+4. ตั้งชื่อโครงการของคุณ: ตั้งชื่อโครงการของคุณ ตัวอย่างเช่น `PDFDateTimeStamp`-
 
 ### เพิ่มการอ้างอิง Aspose.PDF
 
@@ -49,7 +51,7 @@ url: /th/net/programming-with-stamps-and-watermarks/add-date-time-stamp/
 
 ### นำเข้าเนมสเปซที่จำเป็น
 
- ที่ด้านบนของคุณ`Program.cs` ไฟล์ คุณต้องนำเข้าเนมสเปซต่อไปนี้:
+ที่ด้านบนของคุณ `Program.cs` ไฟล์ คุณต้องนำเข้าเนมสเปซต่อไปนี้:
 
 ```csharp
 using System.IO;
@@ -59,7 +61,7 @@ using System;
 using Aspose.Pdf.Annotations;
 ```
 
-ตอนนี้เราได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว มาแบ่งกระบวนการการเพิ่มวันที่และเวลาลงในไฟล์ PDF ออกเป็นขั้นตอนที่ชัดเจนและจัดการได้ง่ายกัน
+ตอนนี้เราได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว มาแบ่งกระบวนการการเพิ่มวันที่และเวลาลงในไฟล์ PDF ออกเป็นขั้นตอนที่ชัดเจนและจัดการได้
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
 
@@ -70,18 +72,18 @@ using Aspose.Pdf.Annotations;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // แทนที่ด้วยเส้นทางจริงของคุณ
 ```
 
- อย่าลืมเปลี่ยน`YOUR DOCUMENT DIRECTORY` พร้อมเส้นทางจริงไปยังไฟล์ PDF ของคุณ
+อย่าลืมเปลี่ยน `YOUR DOCUMENT DIRECTORY` พร้อมเส้นทางจริงไปยังไฟล์ PDF ของคุณ
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
-ขั้นต่อไป คุณจะเปิดเอกสาร PDF ที่คุณต้องการเพิ่มเวลาประทับ 
+ขั้นต่อไป คุณจะเปิดเอกสาร PDF ที่คุณต้องการเพิ่มวันที่/เวลา 
 
 ```csharp
 // เปิดเอกสาร
 Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 ```
 
- บรรทัดโค้ดนี้จะเริ่มต้นการทำงาน`Document` คลาสและโหลดไฟล์ PDF ของคุณลงใน`pdfDocument` วัตถุ.
+บรรทัดโค้ดนี้จะเริ่มต้นการทำงาน `Document` คลาสและโหลดไฟล์ PDF ของคุณลงใน `pdfDocument` วัตถุ.
 
 ## ขั้นตอนที่ 3: สร้างตราประทับวันที่และเวลา
 
@@ -91,7 +93,7 @@ Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 string annotationText = DateTime.Now.ToString("MM/dd/yy hh:mm:ss tt ");
 ```
 
- ที่นี่,`DateTime.Now` รับวันที่และเวลาปัจจุบันและ`ToString` จัดรูปแบบให้เป็นรูปแบบที่คุณต้องการ
+ที่นี่, `DateTime.Now` รับวันที่และเวลาปัจจุบันและ `ToString` จัดรูปแบบให้เป็นรูปแบบที่คุณต้องการ
 
 ## ขั้นตอนที่ 4: สร้างแสตมป์ข้อความ
 
@@ -102,7 +104,7 @@ string annotationText = DateTime.Now.ToString("MM/dd/yy hh:mm:ss tt ");
 TextStamp textStamp = new TextStamp(annotationText);
 ```
 
- บรรทัดนี้จะสร้างอินสแตนซ์ใหม่ของ`TextStamp` โดยใช้สตริงวันที่และเวลาที่จัดรูปแบบแล้ว
+บรรทัดนี้จะสร้างอินสแตนซ์ใหม่ของ `TextStamp` โดยใช้สตริงวันที่และเวลาที่จัดรูปแบบแล้ว
 
 ## ขั้นตอนที่ 5: ตั้งค่าคุณสมบัติของแสตมป์
 
@@ -131,7 +133,7 @@ pdfDocument.Pages[1].AddStamp(textStamp);
 
 ## ขั้นตอนที่ 7: สร้างคำอธิบายข้อความฟรี (ทางเลือก)
 
-หากคุณต้องการเพิ่มคำอธิบายลงในแสตมป์ คุณสามารถสร้างได้`FreeTextAnnotation` ดังต่อไปนี้:
+หากคุณต้องการเพิ่มคำอธิบายลงในแสตมป์ คุณสามารถสร้างได้ `FreeTextAnnotation` ดังต่อไปนี้:
 
 ```csharp
 DefaultAppearance default_appearance = new DefaultAppearance("Arial", 6, System.Drawing.Color.Black);
@@ -145,7 +147,7 @@ textAnnotation.Contents = textStamp.Value;
 
 ## ขั้นตอนที่ 8: กำหนดค่าขอบคำอธิบายประกอบ
 
-หากคุณต้องการปรับแต่งเส้นขอบของคำอธิบาย คุณก็สามารถทำได้เช่นกัน:
+หากคุณต้องการปรับแต่งขอบของคำอธิบายประกอบ คุณก็สามารถทำได้เช่นกัน:
 
 ```csharp
 Border border = new Border(textAnnotation);
@@ -168,7 +170,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nDate time stamp added successfully.\nFile saved at " + dataDir);
 ```
 
-บรรทัดนี้จะบันทึกไฟล์ PDF พร้อมเพิ่มวันที่และเวลาลงในไฟล์ใหม่ คุณสามารถตรวจสอบไดเร็กทอรีที่คุณระบุเพื่อดูผลลัพธ์
+บรรทัดนี้จะบันทึกไฟล์ PDF พร้อมเพิ่มไทม์สแตมป์ลงในไฟล์ใหม่ คุณสามารถตรวจสอบไดเร็กทอรีที่คุณระบุเพื่อดูผลลัพธ์
 
 ## บทสรุป
 
@@ -177,22 +179,24 @@ Console.WriteLine("\nDate time stamp added successfully.\nFile saved at " + data
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถปรับแต่งรูปแบบวันที่ในแสตมป์เวลาได้หรือไม่
- ใช่ คุณสามารถปรับเปลี่ยนได้`ToString`วิธีการเปลี่ยนรูปแบบวันที่ให้เป็นไปตามความต้องการของคุณ
+ใช่ คุณสามารถปรับเปลี่ยนได้ `ToString` วิธีการเปลี่ยนรูปแบบวันที่ให้เป็นไปตามความต้องการของคุณ
 
 ### Aspose.PDF ใช้ได้ฟรีหรือไม่?
- Aspose.PDF เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้ฟีเจอร์เต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้ฟีเจอร์เต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต คุณสามารถรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถเพิ่มค่าประทับเวลาหลายรายการลงใน PDF ได้หรือไม่
- แน่นอน! คุณสามารถสร้างได้หลาย`TextStamp` และเพิ่มลงในหน้าหรือตำแหน่งต่างๆ ใน PDF
+แน่นอน! คุณสามารถสร้างได้หลาย `TextStamp` และเพิ่มลงในหน้าหรือตำแหน่งต่างๆ ใน PDF
 
 ### จะเกิดอะไรขึ้นหากฉันไม่มี Visual Studio?
 คุณสามารถใช้ IDE หรือตัวแก้ไขข้อความ C# ใดก็ได้ แต่หากต้องการรันและแก้ไขจุดบกพร่องของโปรเจ็กต์ของคุณ แนะนำให้ใช้ Visual Studio
 
 ### ฉันสามารถหาตัวอย่างเพิ่มเติมในการใช้ Aspose.PDF ได้จากที่ไหน
- คุณสามารถสำรวจตัวอย่างและบทช่วยสอนเพิ่มเติมได้ใน[เอกสาร Aspose.PDF](https://reference.aspose.com/pdf/net/).
+คุณสามารถสำรวจตัวอย่างและบทช่วยสอนเพิ่มเติมได้ใน [เอกสาร Aspose.PDF](https://reference-aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

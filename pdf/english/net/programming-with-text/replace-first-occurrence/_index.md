@@ -8,7 +8,9 @@ url: /net/programming-with-text/replace-first-occurrence/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replace First Occurrence
@@ -156,6 +158,7 @@ Check the [Aspose Tutorial page](https://releases.aspose.com/pdf/net/) for exten
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

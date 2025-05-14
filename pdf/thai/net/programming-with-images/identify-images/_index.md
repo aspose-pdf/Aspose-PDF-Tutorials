@@ -1,14 +1,16 @@
 ---
-title: ระบุรูปภาพในไฟล์ PDF
-linktitle: ระบุรูปภาพในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีระบุรูปภาพในไฟล์ PDF และตรวจจับประเภทสี (เฉดสีเทาหรือ RGB) โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้
-weight: 150
-url: /th/net/programming-with-images/identify-images/
+"description": "เรียนรู้วิธีระบุรูปภาพในไฟล์ PDF และตรวจจับประเภทสี (เฉดสีเทาหรือ RGB) โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "ระบุรูปภาพในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ระบุรูปภาพในไฟล์ PDF"
+"url": "/th/net/programming-with-images/identify-images/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ระบุรูปภาพในไฟล์ PDF
@@ -21,10 +23,10 @@ url: /th/net/programming-with-images/identify-images/
 
 ก่อนที่เราจะเริ่มใช้งานบทช่วยสอน มาดูสิ่งที่คุณต้องมีเพื่อทำภารกิจนี้ให้เสร็จสมบูรณ์กันก่อน:
 
--  Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถ[ดาวน์โหลด Aspose.PDF สำหรับ .NET](https://releases.aspose.com/pdf/net/) หรือเข้าถึง[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+- Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถ [ดาวน์โหลด Aspose.PDF สำหรับ .NET](https://releases.aspose.com/pdf/net/) หรือเข้าถึง [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 - IDE: คุณจะต้องมีสภาพแวดล้อมการพัฒนาเช่น Visual Studio
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและตั้งค่า .NET Framework ในโครงการของคุณแล้ว
--  ใบอนุญาตชั่วคราว: คุณอาจต้องการรับใบอนุญาต[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)เพื่อปลดล็อคฟีเจอร์ไลบรารีทั้งหมดหากคุณใช้งานเวอร์ชันทดลองใช้
+- ใบอนุญาตชั่วคราว: คุณอาจต้องการรับใบอนุญาต [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อปลดล็อคฟีเจอร์ไลบรารีทั้งหมดหากคุณใช้งานเวอร์ชันทดลองใช้
 
 ## การนำเข้าแพ็คเกจที่จำเป็น
 
@@ -37,18 +39,18 @@ using System.Drawing.Imaging;
 using System;
 ```
 
-เมื่อคุณตั้งค่าสภาพแวดล้อมที่จำเป็นเรียบร้อยแล้ว ก็ถึงเวลาที่จะแบ่งงานออกเป็นขั้นตอนง่ายๆ ที่สามารถดำเนินการได้
+เมื่อคุณได้ตั้งค่าสภาพแวดล้อมที่จำเป็นเรียบร้อยแล้ว ก็ถึงเวลาที่จะแบ่งงานออกเป็นขั้นตอนง่ายๆ ที่สามารถดำเนินการได้
 
 ## ขั้นตอนที่ 1: โหลดเอกสาร PDF ของคุณ
 
- ขั้นแรก คุณต้องโหลดเอกสาร PDF ที่มีรูปภาพ ขั้นตอนนี้เกี่ยวข้องกับการระบุเส้นทางไฟล์และใช้`Document` ชั้นเรียนเพื่อเปิดไฟล์ PDF
+ขั้นแรก คุณต้องโหลดเอกสาร PDF ที่มีรูปภาพ ขั้นตอนนี้เกี่ยวข้องกับการระบุเส้นทางไฟล์และใช้ `Document` ชั้นเรียนเพื่อเปิดไฟล์ PDF
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";  // เส้นทางไปยังเอกสาร PDF ของคุณ
 Document document = new Document(dataDir + "ExtractImages.pdf");
 ```
 
-ขั้นตอนนี้จะเริ่มเอกสาร PDF ของคุณและเตรียมเอกสารให้พร้อมสำหรับการแยกภาพ ง่ายใช่ไหม
+ขั้นตอนนี้จะเริ่มเอกสาร PDF ของคุณและเตรียมเอกสารให้พร้อมสำหรับการดึงภาพ ง่ายใช่ไหม
 
 ## ขั้นตอนที่ 2: เริ่มต้นตัวนับภาพ
 
@@ -63,7 +65,7 @@ int rgd = 0;         // ตัวนับสำหรับภาพ RGB
 
 ## ขั้นตอนที่ 3: วนซ้ำหน้าต่างๆ
 
- ตอนนี้เอกสารของคุณโหลดเสร็จแล้ว คุณต้องวนซ้ำในแต่ละหน้าใน PDF Aspose.PDF ช่วยให้คุณวนซ้ำในแต่ละหน้าได้อย่างง่ายดายโดยใช้`Pages` คุณสมบัติ.
+ตอนนี้เอกสารของคุณโหลดเสร็จแล้ว คุณต้องวนซ้ำแต่ละหน้าใน PDF Aspose.PDF ช่วยให้คุณวนซ้ำในแต่ละหน้าได้อย่างง่ายดายโดยใช้ `Pages` คุณสมบัติ.
 
 ```csharp
 foreach (Page page in document.Pages)
@@ -77,18 +79,18 @@ foreach (Page page in document.Pages)
 
 ## ขั้นตอนที่ 4: ใช้ ImagePlacementAbsorber เพื่อระบุรูปภาพ
 
- ต่อไปเราต้องใช้`ImagePlacementAbsorber` คลาสสำหรับดึงข้อมูลภาพจากแต่ละหน้า คลาสนี้ช่วยในการระบุตำแหน่งของภาพที่ปรากฏบนหน้า
+ต่อไปเราต้องใช้ `ImagePlacementAbsorber` คลาสสำหรับดึงข้อมูลภาพจากแต่ละหน้า คลาสนี้ช่วยในการระบุตำแหน่งของภาพที่ปรากฏบนหน้า
 
 ```csharp
 ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
 page.Accept(abs);
 ```
 
- การ`ImagePlacementAbsorber` “ดูดซับ” ภาพทั้งหมดในหน้าปัจจุบัน ทำให้เข้าถึงและวิเคราะห์ได้ง่ายยิ่งขึ้น
+การ `ImagePlacementAbsorber` “ดูดซับ” ภาพทั้งหมดในหน้าปัจจุบัน ทำให้เข้าถึงและวิเคราะห์ได้ง่ายยิ่งขึ้น
 
 ## ขั้นตอนที่ 5: นับภาพในแต่ละหน้า
 
- เมื่อภาพถูกดูดซับแล้ว ก็ถึงเวลาที่จะนับจำนวนภาพที่มีอยู่ในหน้านั้น คุณสามารถใช้`ImagePlacements.Count` คุณสมบัติในการรับจำนวนภาพ
+เมื่อภาพถูกดูดซับแล้ว ก็ถึงเวลาที่จะนับจำนวนภาพที่มีอยู่ในหน้านั้น คุณสามารถใช้ `ImagePlacements.Count` คุณสมบัติในการรับจำนวนภาพ
 
 ```csharp
 Console.WriteLine("Total Images = {0} on page number {1}", abs.ImagePlacements.Count, page.Number);
@@ -98,7 +100,7 @@ Console.WriteLine("Total Images = {0} on page number {1}", abs.ImagePlacements.C
 
 ## ขั้นตอนที่ 6: ตรวจจับประเภทสีของภาพ (เฉดสีเทาหรือ RGB)
 
- ตอนนี้มาถึงส่วนที่สำคัญที่สุด นั่นคือการระบุประเภทสีของแต่ละภาพ Aspose.PDF จัดเตรียม`GetColorType()` วิธีการตรวจสอบว่าภาพเป็นเฉดสีเทาหรือ RGB
+ตอนนี้มาถึงส่วนที่สำคัญที่สุด นั่นคือการระบุประเภทสีของแต่ละภาพ Aspose.PDF จัดเตรียม `GetColorType()` วิธีการตรวจสอบว่าภาพเป็นเฉดสีเทาหรือ RGB
 
 ```csharp
 int image_counter = 1;
@@ -140,7 +142,7 @@ Console.WriteLine("Total RGB Images: " + rgd);
 ## คำถามที่พบบ่อย
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ .NET ได้อย่างไร?  
- คุณสามารถติดตั้ง Aspose.PDF สำหรับ .NET ผ่าน NuGet หรือดาวน์โหลดจาก[ที่นี่](https://releases.aspose.com/pdf/net/).
+คุณสามารถติดตั้ง Aspose.PDF สำหรับ .NET ผ่าน NuGet หรือดาวน์โหลดจาก [ที่นี่](https://releases-aspose.com/pdf/net/).
 
 ### ฉันสามารถใช้บทช่วยสอนนี้เพื่อดึงภาพจาก PDF ที่มีการป้องกันด้วยรหัสผ่านได้หรือไม่  
 ใช่ แต่คุณจะต้องปลดล็อคเอกสารโดยใช้รหัสผ่านก่อนดำเนินการ
@@ -148,14 +150,16 @@ Console.WriteLine("Total RGB Images: " + rgd);
 ### หลังจากแยกไฟล์แล้วสามารถปรับเปลี่ยนรูปภาพได้หรือไม่?  
 ใช่ เมื่อแยกออกมาแล้ว สามารถปรับเปลี่ยนรูปภาพได้โดยใช้ไลบรารีอื่น เช่น Aspose.Imaging
 
-### Aspose.PDF รองรับประเภทสีอื่นนอกเหนือจาก Grayscale และ RGB หรือไม่  
+### Aspose.PDF รองรับสีประเภทอื่นนอกเหนือจาก Grayscale และ RGB หรือไม่  
 ใช่ Aspose.PDF รองรับช่องสีอื่นๆ เช่น CMYK
 
 ### ฉันสามารถใช้ Aspose.PDF เพื่อแยกรูปภาพและแปลงเป็นรูปแบบอื่นได้หรือไม่  
 ใช่ คุณสามารถแยกรูปภาพและบันทึกเป็นรูปแบบต่างๆ เช่น PNG, JPEG เป็นต้น
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

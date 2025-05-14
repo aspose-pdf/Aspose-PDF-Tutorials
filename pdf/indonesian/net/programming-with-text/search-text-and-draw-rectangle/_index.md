@@ -1,14 +1,16 @@
 ---
-title: Cari Teks Dan Gambar Persegi Panjang
-linktitle: Cari Teks Dan Gambar Persegi Panjang
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mencari teks dalam PDF dan menyorotnya dengan persegi panjang menggunakan Aspose.PDF untuk .NET! Tutorial langkah demi langkah yang mudah untuk meningkatkan keterampilan manipulasi PDF.
-weight: 460
-url: /id/net/programming-with-text/search-text-and-draw-rectangle/
+"description": "Pelajari cara mencari teks dalam PDF dan menyorotnya dengan persegi panjang menggunakan Aspose.PDF untuk .NET! Tutorial langkah demi langkah yang mudah untuk meningkatkan keterampilan manipulasi PDF."
+"linktitle": "Cari Teks Dan Gambar Persegi Panjang"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Cari Teks Dan Gambar Persegi Panjang"
+"url": "/id/net/programming-with-text/search-text-and-draw-rectangle/"
+"weight": 460
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cari Teks Dan Gambar Persegi Panjang
@@ -23,11 +25,11 @@ Sebelum menyelami tutorial, mari persiapkan apa yang Anda butuhkan untuk memasti
 
 1. Pemahaman Dasar tentang .NET: Anda harus terbiasa dengan pemrograman C# dan kerangka kerja .NET untuk mengikuti tutorial ini secara efektif.
    
-2. Visual Studio Terpasang: Anda akan memerlukan lingkungan pengembangan terpadu (IDE) untuk menulis dan menguji kode Anda. Visual Studio Community adalah pilihan yang bagus, dan gratis.
+2. Visual Studio Terpasang: Anda memerlukan lingkungan pengembangan terpadu (IDE) untuk menulis dan menguji kode Anda. Visual Studio Community adalah pilihan yang bagus, dan gratis.
    
-3. Aspose.PDF untuk .NET: Anda perlu menginstal pustaka Aspose.PDF di proyek Anda. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/) atau pertimbangkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk fitur yang diperluas.
+3. Aspose.PDF untuk .NET: Anda perlu menginstal pustaka Aspose.PDF di proyek Anda. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/) atau pertimbangkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk fitur yang diperluas.
    
-4.  Contoh Dokumen PDF: Untuk tutorial ini, Anda memerlukan file PDF contoh bernama`SearchAndGetTextFromAll.pdf` disimpan di direktori proyek Anda. 
+4. Contoh Dokumen PDF: Untuk tutorial ini, Anda memerlukan file PDF contoh bernama `SearchAndGetTextFromAll.pdf` disimpan di direktori proyek Anda. 
 
 ## Paket Impor
 
@@ -41,7 +43,7 @@ Luncurkan Visual Studio dan buat Aplikasi Konsol baru atau gunakan yang sudah ad
 
 1. Klik kanan pada proyek Anda di Solution Explorer.
 2. Pilih "Kelola Paket NuGet."
-3.  Pencarian untuk`Aspose.PDF` dan instal versi terbaru.
+3. Pencarian untuk `Aspose.PDF` dan instal versi terbaru.
 
 Dengan melakukan ini, Anda menyiapkan dasar untuk semua manipulasi PDF menakjubkan yang akan Anda lakukan.
 
@@ -64,7 +66,7 @@ Sekarang setelah Anda menyiapkan semuanya, mari kita uraikan proses pencarian te
 
 ## Langkah 1: Tetapkan Jalur untuk Dokumen Anda
 
- Pertama, atur jalur ke file PDF Anda. Pastikan untuk mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat Anda`SearchAndGetTextFromAll.pdf` disimpan.
+Pertama, atur jalur ke file PDF Anda. Pastikan untuk mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat Anda `SearchAndGetTextFromAll.pdf` disimpan.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -72,7 +74,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya, buatlah sebuah instance dari`Document` kelas untuk memuat PDF Anda:
+Selanjutnya, buatlah sebuah instance dari `Document` kelas untuk memuat PDF Anda:
 
 ```csharp
 Document document = new Document(dataDir + "SearchAndGetTextFromAll.pdf");
@@ -82,13 +84,13 @@ Baris kode ini membuka berkas PDF yang Anda tentukan, sehingga memungkinkan Anda
 
 ## Langkah 3: Buat Penyerap Teks
 
- Sekarang, Anda memerlukan cara untuk mencari teks dalam dokumen tersebut. Untuk ini, kami menggunakan`TextFragmentAbsorber`:
+Sekarang, Anda memerlukan cara untuk mencari teks dalam dokumen tersebut. Untuk ini, kami menggunakan `TextFragmentAbsorber`:
 
 ```csharp
 TextFragmentAbsorber textAbsorber = new TextFragmentAbsorber(@"[\S]+");
 ```
 
- Ekspresi reguler`@"[\S]+"` dirancang untuk mencocokkan string apa pun yang bukan spasi dalam PDF. 
+Ekspresi reguler `@"[\S]+"` dirancang untuk mencocokkan string apa pun yang bukan spasi dalam PDF. 
 
 ## Langkah 4: Konfigurasikan Opsi Pencarian Teks
 
@@ -99,11 +101,11 @@ TextSearchOptions textSearchOptions = new TextSearchOptions(true);
 textAbsorber.TextSearchOptions = textSearchOptions;
 ```
 
- Di sini,`true` parameter berarti pencarian akan peka huruf besar/kecil. Anda dapat mengaturnya ke`false` jika Anda menginginkan pencarian tanpa memperhatikan huruf besar/kecil.
+Di sini, `true` parameter berarti pencarian akan peka huruf besar/kecil. Anda dapat mengaturnya ke `false` jika Anda menginginkan pencarian tanpa memperhatikan huruf besar/kecil.
 
 ## Langkah 5: Terima Text Absorber di Dokumen
 
- Dengan kamu`TextFragmentAbsorber` dan opsi pencarian sudah siap, saatnya menyerap teks dari dokumen:
+Dengan kamu `TextFragmentAbsorber` dan opsi pencarian sudah siap, saatnya menyerap teks dari dokumen:
 
 ```csharp
 document.Pages.Accept(textAbsorber);
@@ -113,7 +115,7 @@ Metode ini memeriksa setiap halaman dalam PDF Anda untuk menemukan fragmen teks 
 
 ## Langkah 6: Buat PdfContentEditor
 
- Untuk menggambar bentuk pada dokumen, Anda memerlukan`PdfContentEditor`:
+Untuk menggambar bentuk pada dokumen, Anda memerlukan `PdfContentEditor`:
 
 ```csharp
 var editor = new PdfContentEditor(document);
@@ -135,11 +137,11 @@ foreach (TextFragment textFragment in textAbsorber.TextFragments)
 }
 ```
 
- Loop ini mengulangi setiap fragmen teks dan segmennya, memanggil`DrawBox` metode untuk menggambar persegi panjang.
+Loop ini mengulangi setiap fragmen teks dan segmennya, memanggil `DrawBox` metode untuk menggambar persegi panjang.
 
 ## Langkah 8: Tentukan Metode DrawBox
 
- Anda perlu mendefinisikan`DrawBox` metode, yang akan menangani logika menggambar persegi panjang. Berikut implementasi sederhananya:
+Anda perlu mendefinisikan `DrawBox` metode, yang akan menangani logika menggambar persegi panjang. Berikut implementasi sederhananya:
 
 ```csharp
 private static void DrawBox(PdfContentEditor editor, int pageNumber, TextSegment textSegment, System.Drawing.Color color)
@@ -188,19 +190,21 @@ Selamat! Anda baru saja membuka keterampilan hebat yang dapat meningkatkan kemam
 Aspose.PDF untuk .NET adalah pustaka yang menyediakan cara komprehensif untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
-Ya, Aspose menawarkan uji coba gratis yang dapat Anda gunakan untuk menguji fungsionalitas pustaka. Lihatlah[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan uji coba gratis yang dapat Anda gunakan untuk menguji fungsionalitas pustaka. Lihatlah [Di Sini](https://releases.aspose.com/).
 
 ### Bahasa pemrograman apa yang perlu saya gunakan dengan Aspose.PDF untuk .NET?
 Aspose.PDF untuk .NET dirancang untuk digunakan dengan C# dan bahasa .NET lainnya.
 
 ### Bagaimana cara mendapatkan bantuan dengan Aspose.PDF?
- Anda dapat mengunjungi forum dukungan Aspose untuk mendapatkan bantuan terkait masalah atau pertanyaan apa pun yang mungkin Anda miliki. Temukan dukungan[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda dapat mengunjungi forum dukungan Aspose untuk mendapatkan bantuan terkait masalah atau pertanyaan apa pun yang mungkin Anda miliki. Temukan dukungan [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Di mana saya mengunduh Aspose.PDF untuk .NET?
- Anda dapat mengunduh pustaka dari situs web Aspose,[Di Sini](https://releases.aspose.com/pdf/net/).
+Anda dapat mengunduh perpustakaan dari situs web Aspose, [Di Sini](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

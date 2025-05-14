@@ -8,7 +8,9 @@ url: /java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-jav
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Product and Build Information of PDF in Java
@@ -118,6 +120,7 @@ Yes, Aspose.PDF for Java is suitable for processing both small and large PDF fil
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

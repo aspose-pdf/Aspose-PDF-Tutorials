@@ -1,14 +1,16 @@
 ---
-title: Pobierz wymiary strony PDF
-linktitle: Pobierz wymiary strony PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: W tym samouczku wyjaśniamy, jak uzyskać wymiary strony PDF i wykonać manipulacje za pomocą Aspose.PDF dla .NET. Szczegółowe kroki są podane, aby poprowadzić Cię przez proces.
-weight: 60
-url: /pl/net/programming-with-pdf-pages/get-dimensions/
+"description": "W tym samouczku wyjaśniamy, jak uzyskać wymiary strony PDF i wykonać manipulacje za pomocą Aspose.PDF dla .NET. Szczegółowe kroki są podane, aby poprowadzić Cię przez proces."
+"linktitle": "Pobierz wymiary strony PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz wymiary strony PDF"
+"url": "/pl/net/programming-with-pdf-pages/get-dimensions/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz wymiary strony PDF
@@ -23,7 +25,7 @@ Aspose.PDF dla .NET to potężna biblioteka, która umożliwia łatwe tworzenie,
 
 Zanim zaczniesz, musisz zadbać o kilka rzeczy, aby móc płynnie korzystać z tego samouczka:
 
-1.  Aspose.PDF dla .NET: Możesz[pobierz najnowszą wersję tutaj](https://releases.aspose.com/pdf/net/) . Jeśli nie masz licencji, nie martw się! Możesz poprosić o[bezpłatny okres próbny](https://releases.aspose.com/) lub wybierz[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF dla .NET: Możesz [pobierz najnowszą wersję tutaj](https://releases.aspose.com/pdf/net/). Jeśli nie masz licencji, nie martw się! Możesz poprosić o [bezpłatny okres próbny](https://releases.aspose.com/)lub wybierz [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 2. Visual Studio: środowisko programistyczne, w którym będziesz pisać i wykonywać kod.
 3. Podstawowa znajomość języka C#: Choć postaramy się przedstawić sprawę prosto, pewna znajomość języka C# ułatwi cały proces.
 4. Plik PDF do pracy: Pobierz dowolny przykładowy plik PDF lub utwórz nowy, aby przetestować.
@@ -58,7 +60,7 @@ W tym kroku zasadniczo otwierasz plik PDF, nad którym chcesz pracować. Jeśli 
 
 ## Krok 2: Dodaj pustą stronę, jeśli nie ma żadnych stron
 
-Co jeśli Twój dokument nie ma stron? Nie martw się! Możemy dodać pustą stronę do dokumentu i z nią pracować. Oto jak sprawdzić, czy strona istnieje i dodać nową, jeśli to konieczne:
+Co jeśli Twój dokument nie ma stron? Nie martw się! Możemy dodać pustą stronę do dokumentu i nad nią pracować. Oto jak sprawdzić, czy strona istnieje i dodać nową, jeśli to konieczne:
 
 ```csharp
 // Dodaje pustą stronę do dokumentu PDF
@@ -71,14 +73,14 @@ Można to porównać do otwarcia pustego notatnika i napisania czegoś na pierws
 
 ## Krok 3: Uzyskaj informacje o wysokości i szerokości strony
 
- Teraz, gdy mamy stronę do pracy, pobierzmy wymiary strony. Użyjemy`GetPageRect()` metoda uzyskania wysokości i szerokości.
+Teraz, gdy mamy stronę do pracy, pobierzmy wymiary strony. Użyjemy `GetPageRect()` metoda uzyskania wysokości i szerokości.
 
 ```csharp
 // Uzyskaj informacje o wysokości i szerokości strony
 Console.WriteLine(page.GetPageRect(true).Width.ToString() + ":" + page.GetPageRect(true).Height.ToString());
 ```
 
- Tutaj,`GetPageRect(true)` zwraca prostokąt, który zawiera wysokość i szerokość strony. To jak mierzenie kawałka papieru linijką. Dane wyjściowe zostaną wyświetlone w konsoli, podając bieżące wymiary strony.
+Tutaj, `GetPageRect(true)` zwraca prostokąt, który zawiera wysokość i szerokość strony. To jak mierzenie kawałka papieru linijką. Dane wyjściowe zostaną wyświetlone w konsoli, podając bieżące wymiary strony.
 
 ## Krok 4: Obróć stronę o 90 stopni
 
@@ -112,10 +114,10 @@ Manipulowanie plikami PDF nie musi być skomplikowane. Dzięki Aspose.PDF jest t
 ## Najczęściej zadawane pytania
 
 ### Czy mogę obrócić stronę pod innym kątem niż 90 stopni?
- Tak, Aspose.PDF pozwala na obracanie stron o 0, 90, 180 lub 270 stopni za pomocą`Rotation` nieruchomość.
+Tak, Aspose.PDF pozwala na obracanie stron o 0, 90, 180 lub 270 stopni za pomocą `Rotation` nieruchomość.
 
 ### Co się stanie, jeśli mój plik PDF nie będzie miał żadnych stron?
- Jeżeli Twój plik PDF nie ma żadnych stron, możesz dodać pustą stronę za pomocą`Pages.Add()` metodą, jak pokazano w tym samouczku.
+Jeżeli Twój plik PDF nie ma żadnych stron, możesz dodać pustą stronę za pomocą `Pages.Add()` metodą, jak pokazano w tym samouczku.
 
 ### Czy mogę manipulować wieloma stronami jednocześnie?
 Tak, możesz przeglądać wiele stron i stosować transformacje, takie jak zmiana rozmiaru lub obrót, na każdej z nich.
@@ -124,10 +126,12 @@ Tak, możesz przeglądać wiele stron i stosować transformacje, takie jak zmian
 Wymiary strony zmieniają tylko rozmiar płótna, nie zawartość. Jednak zmiana rozmiaru może zmienić sposób wyświetlania zawartości na stronie.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.PDF dla .NET?
- Możesz odwiedzić[dokumentacja tutaj](https://reference.aspose.com/pdf/net/) aby uzyskać bardziej szczegółowe informacje i zaawansowane przypadki użycia.
+Możesz odwiedzić [dokumentacja tutaj](https://reference.aspose.com/pdf/net/) aby uzyskać bardziej szczegółowe informacje i zaawansowane przypadki użycia.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

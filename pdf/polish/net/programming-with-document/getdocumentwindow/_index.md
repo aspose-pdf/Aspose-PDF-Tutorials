@@ -1,14 +1,16 @@
 ---
-title: Pobierz okno dokumentu
-linktitle: Pobierz okno dokumentu
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak używać funkcji GetDocumentWindow pakietu Aspose.PDF dla platformy .NET w celu pobierania informacji o właściwościach okna dokumentu PDF.
-weight: 170
-url: /pl/net/programming-with-document/getdocumentwindow/
+"description": "Dowiedz się, jak używać funkcji GetDocumentWindow pakietu Aspose.PDF dla platformy .NET w celu pobierania informacji o właściwościach okna dokumentu PDF."
+"linktitle": "Pobierz okno dokumentu"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz okno dokumentu"
+"url": "/pl/net/programming-with-document/getdocumentwindow/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz okno dokumentu
@@ -24,7 +26,7 @@ Zanim przejdziesz do samouczka, upewnij się, że spełnione są następujące w
 
 - Aspose.PDF dla .NET zainstalowany w środowisku programistycznym.
   - [Pobierz Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/)
--  Ważna licencja na Aspose.PDF lub możesz uzyskać[bezpłatny okres próbny](https://releases.aspose.com/) Lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+- Ważna licencja na Aspose.PDF lub możesz uzyskać [bezpłatny okres próbny](https://releases.aspose.com/) Lub [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 - Podstawowa znajomość .NET i C#.
 - Visual Studio lub inne odpowiednie środowisko IDE.
 
@@ -40,7 +42,7 @@ using Aspose.Pdf;
 
 Dzięki temu uzyskasz dostęp do wszystkich klas i metod niezbędnych do manipulowania dokumentami PDF za pomocą Aspose.PDF dla .NET.
 
- Teraz rozłóżmy proces pobierania różnych ustawień okna dokumentu. W tym przykładzie użyjemy przykładowego pliku PDF o nazwie`GetDocumentWindow.pdf`.
+Teraz rozłóżmy proces pobierania różnych ustawień okna dokumentu. W tym przykładzie użyjemy przykładowego pliku PDF o nazwie `GetDocumentWindow.pdf`.
 
 ## Krok 1: Ustaw ścieżkę katalogu dokumentu
 
@@ -50,7 +52,7 @@ Po pierwsze, musimy zdefiniować ścieżkę do naszego pliku PDF. Ważne jest, a
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tutaj zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistym katalogiem, w którym znajduje się Twój plik PDF. To jest Twój katalog roboczy, z którego będziesz ładować dokument PDF.
+Tutaj zamień `"YOUR DOCUMENT DIRECTORY"` rzeczywistym katalogiem, w którym znajduje się Twój plik PDF. To jest Twój katalog roboczy, z którego będziesz ładować dokument PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -60,17 +62,17 @@ Teraz, gdy ścieżka pliku jest ustawiona, następnym krokiem jest otwarcie doku
 Document pdfDocument = new Document(dataDir + "GetDocumentWindow.pdf");
 ```
 
-Dzięki tej prostej linijce kodu udało Ci się pomyślnie załadować plik PDF do`pdfDocument` obiekt, co umożliwi Ci dostęp do wszystkich jego właściwości.
+Dzięki tej prostej linijce kodu udało Ci się pomyślnie załadować plik PDF do `pdfDocument` obiekt, co umożliwi Ci dostęp do wszystkich jego właściwości.
 
-## Krok 3: Pobierz stan centrowania okna
+## Krok 3: Pobierz status centrowania okna
 
- Następnie sprawdźmy, czy okno dokumentu powinno być wyśrodkowane po otwarciu. Domyślna wartość to`false`.
+Następnie sprawdźmy, czy okno dokumentu powinno być wyśrodkowane po otwarciu. Domyślna wartość to `false`.
 
 ```csharp
 Console.WriteLine("CenterWindow : {0}", pdfDocument.CenterWindow);
 ```
 
- Jeśli wyjście jest`true`, okno dokumentu otworzy się na środku ekranu. W przeciwnym wypadku otworzy się w domyślnej pozycji.
+Jeśli wyjście jest `true`, okno dokumentu otworzy się na środku ekranu. W przeciwnym wypadku otworzy się w domyślnej pozycji.
 
 ## Krok 4: Sprawdź kierunek tekstu
 
@@ -80,11 +82,11 @@ Innym istotnym aspektem wyglądu pliku PDF jest kierunek tekstu, który określa
 Console.WriteLine("Direction : {0}", pdfDocument.Direction);
 ```
 
- Wynik będzie następujący`L2R` dla tekstu pisanego od lewej do prawej i`R2L` dla tekstu od prawej do lewej. To ustawienie jest szczególnie przydatne w przypadku dokumentów w językach takich jak arabski lub hebrajski.
+Wynik będzie następujący: `L2R` dla tekstu pisanego od lewej do prawej i `R2L` dla tekstu pisanego od prawej do lewej. To ustawienie jest szczególnie przydatne w przypadku dokumentów w językach takich jak arabski lub hebrajski.
 
 ## Krok 5: Wyświetl tytuł dokumentu w oknie
 
-Następna właściwość pozwala kontrolować, czy tytuł dokumentu czy nazwa pliku ma być wyświetlana na pasku tytułu okna. Domyślnie jest to ustawione na`false`, co oznacza, że zostanie wyświetlona nazwa pliku.
+Następna właściwość pozwala kontrolować, czy tytuł dokumentu czy nazwa pliku ma być wyświetlana na pasku tytułu okna. Domyślnie jest to ustawione na `false`, co oznacza, że zostanie wyświetlona nazwa pliku.
 
 ```csharp
 Console.WriteLine("DisplayDocTitle : {0}", pdfDocument.DisplayDocTitle);
@@ -100,7 +102,7 @@ Czasami możesz chcieć, aby okno dokumentu automatycznie zmieniało rozmiar, ab
 Console.WriteLine("FitWindow : {0}", pdfDocument.FitWindow);
 ```
 
- Domyślnie jest to ustawione na`false`, co oznacza, że rozmiar okna pozostanie taki sam, niezależnie od rozmiaru pierwszej strony.
+Domyślnie jest to ustawione na `false`, co oznacza, że rozmiar okna pozostanie taki sam, niezależnie od rozmiaru pierwszej strony.
 
 ## Krok 7: Ukryj pasek menu
 
@@ -110,7 +112,7 @@ Aby uzyskać bardziej skoncentrowane wrażenia z czytania, możesz ukryć pasek 
 Console.WriteLine("HideMenuBar : {0}", pdfDocument.HideMenubar);
 ```
 
- To wróci`true` jeśli pasek menu jest ukryty i`false` W przeciwnym razie.
+To wróci `true` jeśli pasek menu jest ukryty i `false` W przeciwnym razie.
 
 ## Krok 8: Ukryj pasek narzędzi
 
@@ -130,11 +132,11 @@ Jeśli chcesz wyświetlić tylko zawartość strony, bez żadnych dodatkowych el
 Console.WriteLine("HideWindowUI : {0}", pdfDocument.HideWindowUI);
 ```
 
- Gdy ustawione na`true`przeglądarka PDF ukryje paski przewijania oraz inne elementy interfejsu użytkownika, pozostawiając tylko treść dokumentu.
+Gdy ustawione na `true`przeglądarka PDF ukryje paski przewijania oraz inne elementy interfejsu użytkownika, pozostawiając tylko treść dokumentu.
 
 ## Krok 10: Ustaw tryb strony inny niż pełny ekran
 
- Możesz kontrolować sposób wyświetlania dokumentu po wyjściu z trybu pełnoekranowego za pomocą`NonFullScreenPageMode` właściwość. To ustawienie jest pomocne w definiowaniu sposobu interakcji użytkownika z dokumentem w trybie innym niż pełny ekran.
+Możesz kontrolować sposób wyświetlania dokumentu po wyjściu z trybu pełnoekranowego za pomocą `NonFullScreenPageMode` właściwość. To ustawienie jest pomocne w definiowaniu sposobu interakcji użytkownika z dokumentem w trybie innym niż pełny ekran.
 
 ```csharp
 Console.WriteLine("NonFullScreenPageMode : {0}", pdfDocument.NonFullScreenPageMode);
@@ -154,7 +156,7 @@ Dzięki temu użytkownicy mają większą swobodę w sposobie czytania i przegl�
 
 ## Krok 12: Określ tryb strony
 
- Na koniec,`PageMode` właściwość definiuje sposób wyświetlania dokumentu po jego otwarciu. Opcje obejmują wyświetlanie miniatur, wchodzenie w tryb pełnoekranowy lub wyświetlanie panelu załączników.
+Na koniec, `PageMode` właściwość definiuje sposób wyświetlania dokumentu po jego otwarciu. Opcje obejmują wyświetlanie miniatur, wchodzenie w tryb pełnoekranowy lub wyświetlanie panelu załączników.
 
 ```csharp
 Console.WriteLine("PageMode : {0}", pdfDocument.PageMode);
@@ -172,19 +174,21 @@ Jak widać, Aspose.PDF dla .NET zapewnia kompleksowe narzędzia do manipulowania
 Tak, Aspose.PDF pozwala na ustawienie poziomu powiększenia podczas otwierania dokumentu.
 
 ### Jak mogę zablokować rozmiar okna pliku PDF?
- Możesz ustawić`FitWindow` właściwość zapobiegająca zmianie rozmiaru okna.
+Możesz ustawić `FitWindow` właściwość zapobiegająca zmianie rozmiaru okna.
 
 ### Czy Aspose.PDF obsługuje różne tryby czytania?
 Tak, obsługuje różne tryby, takie jak pełny ekran, miniatury i załączniki.
 
 ### Czy można ukryć paski przewijania w przeglądarce PDF?
- Oczywiście, możesz ukryć paski przewijania, ustawiając`HideWindowUI` nieruchomość do`true`.
+Oczywiście, możesz ukryć paski przewijania, ustawiając `HideWindowUI` nieruchomość do `true`.
 
 ### Czy mogę wyśrodkować okno otwartego dokumentu?
- Tak, możesz to kontrolować, ustawiając`CenterWindow` nieruchomość.
+Tak, możesz to kontrolować, ustawiając `CenterWindow` nieruchomość.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

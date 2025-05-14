@@ -1,14 +1,16 @@
 ---
-title: Thêm Image Stamp vào File PDF bằng Java
-linktitle: Thêm Image Stamp vào File PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm tem hình ảnh vào tệp PDF bằng Java với hướng dẫn toàn diện về Aspose.PDF cho Java này.
-weight: 12
-url: /vi/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/
+"description": "Tìm hiểu cách thêm tem hình ảnh vào tệp PDF bằng Java với hướng dẫn toàn diện về Aspose.PDF cho Java này."
+"linktitle": "Thêm Image Stamp vào File PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm Image Stamp vào File PDF bằng Java"
+"url": "/vi/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Image Stamp vào File PDF bằng Java
@@ -94,10 +96,12 @@ Aspose.PDF for Java hỗ trợ nhiều định dạng hình ảnh như PNG, JPEG
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.PDF cho Java ở đâu?
 
-Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên trang web Aspose.PDF dành cho Java tại[đây](https://reference.aspose.com/pdf/java/.)
+Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên trang web Aspose.PDF dành cho Java tại [đây](https://reference.aspose.com/pdf/java/.)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

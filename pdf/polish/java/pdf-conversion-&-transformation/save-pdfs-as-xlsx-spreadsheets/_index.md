@@ -1,14 +1,16 @@
 ---
-title: Zapisywanie plików PDF jako arkuszy kalkulacyjnych XLSX
-linktitle: Zapisywanie plików PDF jako arkuszy kalkulacyjnych XLSX
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak konwertować pliki PDF na arkusze kalkulacyjne XLSX za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku dotyczący wydajnej ekstrakcji i analizy danych.
-weight: 21
-url: /pl/java/pdf-conversion-transformation/save-pdfs-as-xlsx-spreadsheets/
+"description": "Dowiedz się, jak konwertować pliki PDF na arkusze kalkulacyjne XLSX za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku dotyczący wydajnej ekstrakcji i analizy danych."
+"linktitle": "Zapisywanie plików PDF jako arkuszy kalkulacyjnych XLSX"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Zapisywanie plików PDF jako arkuszy kalkulacyjnych XLSX"
+"url": "/pl/java/pdf-conversion-transformation/save-pdfs-as-xlsx-spreadsheets/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zapisywanie plików PDF jako arkuszy kalkulacyjnych XLSX
@@ -18,10 +20,10 @@ Aspose.PDF for Java to potężne API, które pozwala programistom pracować z do
 
 ## Wymagania wstępne
 
-Zanim zagłębisz się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
+Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
--  Aspose.PDF dla biblioteki Java. Możesz pobrać ją z[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla biblioteki Java. Możesz pobrać ją z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Konfigurowanie projektu Java
 
@@ -58,21 +60,21 @@ public class PdfToXlsxConverter {
 }
 ```
 
- W powyższym kodzie ładujemy dokument PDF, inicjujemy opcje zapisu w programie Excel, a następnie używamy klasy PdfConverter, aby przekonwertować plik PDF na plik XLSX. Pamiętaj o zastąpieniu`"input.pdf"`ze ścieżką do pliku PDF i`"output.xlsx"` z żądaną ścieżką do pliku wyjściowego.
+W powyższym kodzie ładujemy dokument PDF, inicjujemy opcje zapisu w programie Excel, a następnie używamy klasy PdfConverter, aby przekonwertować plik PDF na plik XLSX. Pamiętaj o zastąpieniu `"input.pdf"` ze ścieżką do pliku PDF i `"output.xlsx"` z żądaną ścieżką do pliku wyjściowego.
 
 ## Uruchamianie konwersji
 
- Aby uruchomić konwersję, wystarczy wykonać polecenie`main` w projekcie Java. Po zakończeniu konwersji otrzymasz plik XLSX zawierający dane z dokumentu PDF.
+Aby uruchomić konwersję, wystarczy wykonać polecenie `main` w projekcie Java. Po zakończeniu konwersji otrzymasz plik XLSX zawierający dane z dokumentu PDF.
 
 ## Wniosek
 
-W tym przewodniku krok po kroku nauczyliśmy się, jak używać Aspose.PDF for Java do konwersji plików PDF na arkusze kalkulacyjne XLSX. Może to być cenne narzędzie do wyodrębniania danych tabelarycznych z plików PDF i pracy z nimi w programie Excel. Zapoznaj się z dokumentacją Aspose.PDF for Java, aby uzyskać bardziej zaawansowane funkcje i opcje dostosowywania.
+tym przewodniku krok po kroku nauczyliśmy się, jak używać Aspose.PDF for Java do konwersji plików PDF na arkusze kalkulacyjne XLSX. Może to być cenne narzędzie do wyodrębniania danych tabelarycznych z plików PDF i pracy z nimi w programie Excel. Zapoznaj się z dokumentacją Aspose.PDF for Java, aby uzyskać bardziej zaawansowane funkcje i opcje dostosowywania.
 
 ## Często zadawane pytania
 
 ### Jak zainstalować Aspose.PDF dla Java?
 
- Bibliotekę Aspose.PDF dla języka Java można pobrać ze strony internetowej pod adresem[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/). Postępuj zgodnie z instrukcjami instalacji podanymi na ich stronie internetowej.
+Bibliotekę Aspose.PDF dla języka Java można pobrać ze strony internetowej pod adresem [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/). Postępuj zgodnie z instrukcjami instalacji podanymi na ich stronie internetowej.
 
 ### Czy mogę konwertować pliki PDF do innych formatów przy użyciu Aspose.PDF dla Java?
 
@@ -86,12 +88,14 @@ Aspose.PDF for Java jest biblioteką komercyjną, a do jej używania wymagana je
 
 Tak, możesz dostosować wygląd i formatowanie pliku XLSX, dostosowując opcje zapisu programu Excel w swoim kodzie. Zapoznaj się z dokumentacją, aby uzyskać szczegółowe informacje na temat dostosowywania.
 
-### Czy istnieją jakieś ograniczenia konwersji plików PDF do XLSX?
+### Czy istnieją jakieś ograniczenia konwersji PDF do XLSX?
 
 Dokładność konwersji może się różnić w zależności od złożoności i struktury dokumentu PDF. Należy koniecznie przejrzeć przekonwertowany plik i dokonać wszelkich niezbędnych korekt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Stilleri ve Biçimlendirme
-linktitle: PDF Stilleri ve Biçimlendirme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java'da Aspose.PDF for Java ile PDF stilleri ve biçimlendirmesini öğrenin. Çarpıcı belgeler için PDF estetiği ve düzeninde ustalaşın.
-weight: 22
-url: /tr/java/pdf-styles-and-formatting/
+"description": "Java'da Aspose.PDF for Java ile PDF stilleri ve biçimlendirmesini öğrenin. Çarpıcı belgeler için PDF estetiği ve düzeninde ustalaşın."
+"linktitle": "PDF Stilleri ve Biçimlendirme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF Stilleri ve Biçimlendirme"
+"url": "/tr/java/pdf-styles-and-formatting/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Stilleri ve Biçimlendirme
@@ -22,7 +24,7 @@ PDF'ler aracılığıyla bilgileri etkili bir şekilde iletmek için yazı tiple
 
 ## Biçimlendirme Hassasiyeti
 
-PDF belgelerinde hassas biçimlendirme elde etmek zorlu bir görev olabilir, ancak Java için Aspose.PDF ile bu bir esinti haline gelir. Metin hizalamasını, satır aralığını ve paragraf girintisini kontrol etme tekniklerinde size rehberlik edeceğiz. Ayrıca, öğelere kenarlıklar, arka plan renkleri ve degradeler eklemeyi keşfedeceksiniz ve bu sayede kusursuz biçimlendirmeyle öne çıkan PDF'ler oluşturabileceksiniz.
+PDF belgelerinde hassas biçimlendirme elde etmek zorlu bir görev olabilir, ancak Java için Aspose.PDF ile bu çok kolay hale gelir. Metin hizalamasını, satır aralığını ve paragraf girintisini kontrol etme tekniklerinde size rehberlik edeceğiz. Ayrıca, öğelere kenarlıklar, arka plan renkleri ve degradeler eklemeyi keşfedecek ve kusursuz biçimlendirmeyle öne çıkan PDF'ler oluşturacaksınız.
 
 ## Gelişmiş PDF Stili
 
@@ -38,14 +40,16 @@ Aspose.PDF ile Java'da PDF Yapı Öğelerinin Gücünü Açın. Erişilebilirlik
 ### [Java kullanarak PDF'de Tablo Hücresini Biçimlendirin](./style-table-cell-in-pdf-using-java/)
 Aspose.PDF for Java kullanarak PDF belgelerindeki tablo hücrelerini nasıl biçimlendireceğinizi öğrenin. PDF özelleştirmeye ilişkin bu adım adım kılavuzla Java uygulamalarınızı geliştirin.
 ### [Java kullanarak PDF'de Stil Tablosu Elemanı](./style-table-element-in-pdf-using-java/)
-Java ile Aspose.PDF kullanarak PDF belgelerindeki tabloları biçimlendirmeyi öğrenin. Görsel olarak çekici tablolar oluşturun ve profesyonel PDF'ler için görünümlerini özelleştirin.
+Aspose.PDF ile Java kullanarak PDF belgelerindeki tabloları biçimlendirmeyi öğrenin. Görsel olarak çekici tablolar oluşturun ve profesyonel PDF'ler için görünümlerini özelleştirin.
 ### [Java kullanarak PDF'de Tablo Satırını Biçimlendir](./style-table-row-in-pdf-using-java/)
 Java'da Aspose.PDF for Java kullanarak PDF tablo satırlarını nasıl biçimlendireceğinizi öğrenin. Bu kapsamlı kılavuzda renkleri özelleştirin, kenarlıklar ekleyin ve daha fazlasını yapın.
 ### [Java kullanarak PDF'deki Metin Yapısını Biçimlendirin](./style-text-structure-in-pdf-using-java/)
 Adım adım kılavuzumuzla Java kullanarak PDF'lerdeki metin yapılarını nasıl biçimlendireceğinizi öğrenin. Profesyonel görünümlü belgeler için yazı tiplerini, renkleri, köprü metinlerini ve daha fazlasını özelleştirin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

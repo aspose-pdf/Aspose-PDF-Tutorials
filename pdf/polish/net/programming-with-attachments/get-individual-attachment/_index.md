@@ -1,37 +1,39 @@
 ---
-title: Pobierz indywidualny załącznik w pliku PDF
-linktitle: Pobierz indywidualny załącznik w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: tym samouczku krok po kroku dowiesz się, jak wyodrębnić pojedyncze załączniki z plików PDF za pomocą Aspose.PDF dla platformy .NET.
-weight: 60
-url: /pl/net/programming-with-attachments/get-individual-attachment/
+"description": "W tym samouczku krok po kroku dowiesz się, jak wyodrębnić pojedyncze załączniki z plików PDF za pomocą Aspose.PDF dla platformy .NET."
+"linktitle": "Pobierz indywidualny załącznik w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz indywidualny załącznik w pliku PDF"
+"url": "/pl/net/programming-with-attachments/get-individual-attachment/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz indywidualny załącznik w pliku PDF
 
 ## Wstęp
 
-W erze cyfrowej pliki PDF stały się podstawą udostępniania dokumentów. Niezależnie od tego, czy jest to raport, prezentacja czy e-book, pliki PDF są wszędzie. Ale czy wiesz, że pliki PDF mogą również zawierać załączniki? Tak! Możesz osadzać pliki w pliku PDF, co czyni go wszechstronnym formatem do udostępniania nie tylko tekstu i obrazów, ale także innych dokumentów. W tym samouczku zagłębimy się w to, jak wyodrębnić poszczególne załączniki z pliku PDF za pomocą Aspose.PDF dla .NET. Więc chwyć swój kapelusz kodera i zaczynajmy!
+erze cyfrowej pliki PDF stały się podstawą udostępniania dokumentów. Niezależnie od tego, czy jest to raport, prezentacja czy e-book, pliki PDF są wszędzie. Ale czy wiesz, że pliki PDF mogą również zawierać załączniki? Tak! Możesz osadzać pliki w pliku PDF, co czyni go wszechstronnym formatem do udostępniania nie tylko tekstu i obrazów, ale także innych dokumentów. W tym samouczku zagłębimy się w to, jak wyodrębnić poszczególne załączniki z pliku PDF za pomocą Aspose.PDF dla .NET. Więc chwyć swój kapelusz kodera i zaczynajmy!
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
-1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To najlepsze IDE do tworzenia aplikacji .NET.
-2.  Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To IDE do tworzenia aplikacji .NET.
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa znajomość języka C#: Podstawowa znajomość programowania w języku C# pomoże Ci płynnie uczyć się.
 
 ## Importuj pakiety
 
 Aby zacząć, musisz zaimportować niezbędne pakiety do swojego projektu C#. Oto, jak możesz to zrobić:
 
-1. Otwórz projekt programu Visual Studio.
+1. Otwórz projekt Visual Studio.
 2. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań i wybierz opcję „Zarządzaj pakietami NuGet”.
-3.  Szukaj`Aspose.PDF` i zainstaluj.
+3. Szukaj `Aspose.PDF` i zainstaluj.
 
 ```csharp
 using System.IO;
@@ -50,7 +52,7 @@ Pierwszym krokiem w naszej podróży jest skonfigurowanie katalogu, w którym zn
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku PDF. Może to być coś takiego`C:\\Documents\\`lub w dowolnej innej ścieżce, w której przechowywany jest Twój plik PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku PDF. Może to być coś takiego `C:\\Documents\\` lub w dowolnej innej ścieżce, w której przechowywany jest Twój plik PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -61,7 +63,7 @@ Teraz, gdy mamy już skonfigurowany katalog, czas otworzyć dokument PDF. To tut
 Document pdfDocument = new Document(dataDir + "GetIndividualAttachment.pdf");
 ```
 
- Tutaj tworzymy nowy`Document` obiekt i przekazujemy ścieżkę do naszego pliku PDF. Ta linia kodu ładuje plik PDF do pamięci, umożliwiając nam interakcję z nim.
+Tutaj tworzymy nowy `Document` obiekt i przekazujemy ścieżkę do naszego pliku PDF. Ta linia kodu ładuje plik PDF do pamięci, umożliwiając nam interakcję z nim.
 
 ## Krok 3: Uzyskaj dostęp do osadzonych plików
 
@@ -102,7 +104,7 @@ if (fileSpecification.Params != null)
 }
 ```
 
- W tym kroku sprawdzamy, czy`Params` obiekt nie jest nullem. Jeśli zawiera dane, drukujemy sumę kontrolną, datę utworzenia, datę modyfikacji i rozmiar pliku. Może to pomóc w sprawdzeniu integralności i historii załącznika.
+W tym kroku sprawdzamy, czy `Params` obiekt nie jest nullem. Jeśli zawiera dane, drukujemy sumę kontrolną, datę utworzenia, datę modyfikacji i rozmiar pliku. Może to pomóc w sprawdzeniu integralności i historii załącznika.
 
 ## Krok 6: Wypakuj załącznik
 
@@ -117,7 +119,7 @@ fileStream.Write(fileContent, 0, fileContent.Length);
 fileStream.Close();
 ```
 
- W tym fragmencie kodu najpierw tworzymy tablicę bajtów, aby przechowywać zawartość pliku. Następnie odczytujemy zawartość osadzonego pliku do tej tablicy. Na koniec tworzymy nowy strumień plików, aby zapisać zawartość do nowego pliku o nazwie`test_out.txt`. Możesz zmienić nazwę pliku i rozszerzenie według potrzeb.
+W tym fragmencie kodu najpierw tworzymy tablicę bajtów, aby przechowywać zawartość pliku. Następnie odczytujemy zawartość osadzonego pliku do tej tablicy. Na koniec tworzymy nowy strumień plików, aby zapisać zawartość do nowego pliku o nazwie `test_out.txt`. Możesz zmienić nazwę pliku i rozszerzenie według potrzeb.
 
 ## Wniosek
 
@@ -129,20 +131,22 @@ masz to! Udało Ci się wyodrębnić pojedynczy załącznik z pliku PDF za pomoc
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę wyodrębnić wiele załączników z pliku PDF?
- Tak, możesz przejść przez pętlę`EmbeddedFiles` kolekcja umożliwiająca wyodrębnienie wielu załączników.
+Tak, możesz przejść przez pętlę `EmbeddedFiles` kolekcja umożliwiająca wyodrębnienie wielu załączników.
 
 ### Czy korzystanie z Aspose.PDF jest bezpłatne?
 Aspose.PDF oferuje bezpłatną wersję próbną, jednak aby korzystać z pełnej funkcjonalności, należy zakupić licencję.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/pdf/net/).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Możesz uzyskać pomoc poprzez forum Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać pomoc poprzez forum Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

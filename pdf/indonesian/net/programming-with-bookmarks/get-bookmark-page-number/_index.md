@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Nomor Halaman Bookmark Dalam File PDF
-linktitle: Dapatkan Nomor Halaman Bookmark Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak nomor halaman penanda halaman dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial komprehensif ini.
-weight: 60
-url: /id/net/programming-with-bookmarks/get-bookmark-page-number/
+"description": "Pelajari cara mengekstrak nomor halaman penanda halaman dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial komprehensif ini."
+"linktitle": "Dapatkan Nomor Halaman Bookmark Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Nomor Halaman Bookmark Dalam File PDF"
+"url": "/id/net/programming-with-bookmarks/get-bookmark-page-number/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Nomor Halaman Bookmark Dalam File PDF
@@ -22,7 +24,7 @@ Di era digital, mengelola dokumen PDF secara efisien sangat penting untuk penggu
 Sebelum menyelami kode, pastikan Anda memiliki prasyarat berikut:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan Anda.
-2.  Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -31,9 +33,9 @@ Untuk memulai, Anda perlu mengimpor paket yang diperlukan ke dalam proyek C# And
 
 1. Buka proyek Visual Studio Anda.
 2. Klik kanan pada proyek Anda di Solution Explorer dan pilih "Kelola Paket NuGet."
-3.  Pencarian untuk`Aspose.PDF` dan instal versi terbaru.
+3. Pencarian untuk `Aspose.PDF` dan instal versi terbaru.
 
-Sekarang setelah Anda menyiapkan semuanya, mari kita uraikan proses mengekstrak nomor halaman penanda halaman langkah demi langkah.
+Sekarang setelah Anda menyiapkan semuanya, mari kita uraikan proses pengambilan nomor halaman penanda halaman langkah demi langkah.
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
@@ -44,40 +46,40 @@ Sebelum Anda dapat mengekstrak bookmark, Anda perlu menentukan jalur ke dokumen 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pada langkah ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Jalur ini penting karena memberi tahu program tempat mencari file PDF yang ingin Anda gunakan.
+Pada langkah ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Jalur ini penting karena memberi tahu program tempat mencari file PDF yang ingin Anda gunakan.
 
 ## Langkah 2: Buat Instansi PdfBookmarkEditor
 
- Selanjutnya, Anda perlu membuat instance dari`PdfBookmarkEditor`kelas. Kelas ini menyediakan metode untuk memanipulasi penanda buku dalam berkas PDF.
+Selanjutnya, Anda perlu membuat instance dari `PdfBookmarkEditor` kelas. Kelas ini menyediakan metode untuk memanipulasi penanda buku dalam berkas PDF.
 
 ```csharp
 // Buat PDFBookmarkEditor
 PdfBookmarkEditor bookmarkEditor = new PdfBookmarkEditor();
 ```
 
- Di sini, kita sedang membuat contoh`PdfBookmarkEditor`Objek ini akan memungkinkan kita untuk mengikat berkas PDF kita dan mengekstrak penanda darinya.
+Di sini, kita sedang membuat contoh `PdfBookmarkEditor`Objek ini akan memungkinkan kita untuk mengikat berkas PDF kita dan mengekstrak penanda darinya.
 
 ## Langkah 3: Buka File PDF
 
- Sekarang saatnya untuk mengikat file PDF ke`PdfBookmarkEditor` contoh yang baru saja Anda buat.
+Sekarang saatnya untuk mengikat file PDF ke `PdfBookmarkEditor` contoh yang baru saja Anda buat.
 
 ```csharp
 // Buka file PDF
 bookmarkEditor.BindPdf(dataDir + "GetBookmarks.pdf");
 ```
 
- Pada baris ini, kita menggunakan`BindPdf` metode untuk membuka file PDF bernama`GetBookmarks.pdf`Pastikan berkas ini ada di direktori yang ditentukan; jika tidak, Anda akan mengalami kesalahan.
+Pada baris ini, kita menggunakan `BindPdf` metode untuk membuka file PDF bernama `GetBookmarks.pdf`Pastikan berkas ini ada di direktori yang ditentukan; jika tidak, Anda akan mengalami kesalahan.
 
 ## Langkah 4: Ekstrak Bookmark
 
- Dengan file PDF dibuka, Anda sekarang dapat mengekstrak bookmark menggunakan`ExtractBookmarks` metode.
+Dengan file PDF dibuka, Anda sekarang dapat mengekstrak bookmark menggunakan `ExtractBookmarks` metode.
 
 ```csharp
 // Ekstrak penanda buku
 Aspose.Pdf.Facades.Bookmarks bookmarks = bookmarkEditor.ExtractBookmarks();
 ```
 
- Langkah ini mengambil semua bookmark dari file PDF dan menyimpannya dalam variabel yang disebut`bookmarks`Variabel ini akan menampung semua informasi penanda yang akan kami proses pada langkah berikutnya.
+Langkah ini mengambil semua bookmark dari file PDF dan menyimpannya dalam variabel yang disebut `bookmarks`Variabel ini akan menampung semua informasi penanda yang akan kami proses pada langkah berikutnya.
 
 ## Langkah 5: Ulangi Melalui Bookmark
 
@@ -109,19 +111,21 @@ Mengekstrak nomor halaman bookmark dari file PDF menggunakan Aspose.PDF untuk .N
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.PDF?
- Dokumentasinya tersedia[Di Sini](https://reference.aspose.com/pdf/net/).
+Dokumentasinya tersedia [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara membeli lisensi untuk Aspose.PDF?
- Anda dapat membeli lisensi dari[halaman pembelian](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi dari [halaman pembelian](https://purchase.aspose.com/buy).
 
 ### Apa yang harus saya lakukan jika saya menemui masalah?
- Jika Anda menghadapi masalah, Anda dapat mencari bantuan di[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Jika Anda menghadapi masalah, Anda dapat mencari bantuan di [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

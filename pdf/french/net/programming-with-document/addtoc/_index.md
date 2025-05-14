@@ -1,35 +1,37 @@
 ---
-title: Ajouter la table des matières au fichier PDF
-linktitle: Ajouter la table des matières au fichier PDF
-second_title: Référence de l'API Aspose.PDF pour .NET
-description: Découvrez comment ajouter une table des matières à un PDF à l'aide d'Aspose.PDF pour .NET. Ce guide étape par étape simplifie le processus et garantit une navigation aisée dans vos documents.
-weight: 40
-url: /fr/net/programming-with-document/addtoc/
+"description": "Apprenez à ajouter une table des matières à un PDF avec Aspose.PDF pour .NET. Ce guide étape par étape simplifie le processus et facilite la navigation dans vos documents."
+"linktitle": "Ajouter la table des matières au fichier PDF"
+"second_title": "Référence de l'API Aspose.PDF pour .NET"
+"title": "Ajouter la table des matières au fichier PDF"
+"url": "/fr/net/programming-with-document/addtoc/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ajouter la table des matières au fichier PDF
 
 ## Introduction
 
-Avez-vous déjà parcouru sans fin un long PDF, en souhaitant qu'il contienne une table des matières bien organisée ? Eh bien, aujourd'hui est votre jour de chance ! Dans ce didacticiel, vous apprendrez à ajouter une table des matières à votre fichier PDF à l'aide d'Aspose.PDF pour .NET. Que vous travailliez sur un rapport complexe, un livre électronique ou une proposition commerciale, une table des matières peut transformer votre document en un chef-d'œuvre professionnel et navigable.
+Avez-vous déjà parcouru indéfiniment un long PDF, en souhaitant une table des matières bien organisée ? C'est votre jour de chance ! Dans ce tutoriel, vous apprendrez à ajouter une table des matières à votre fichier PDF avec Aspose.PDF pour .NET. Que vous travailliez sur un rapport complexe, un livre numérique ou une proposition commerciale, une table des matières peut transformer votre document en un chef-d'œuvre professionnel et navigable.
 
 ## Prérequis
 
-Avant de passer au code, assurons-nous que vous disposez de tout ce dont vous avez besoin :
+Avant de passer au code, assurons-nous que vous avez tout ce dont vous avez besoin :
 
-1. Aspose.PDF pour .NET : Assurez-vous d'avoir téléchargé et installé la bibliothèque Aspose.PDF. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF pour .NET : Assurez-vous d'avoir téléchargé et installé la bibliothèque Aspose.PDF. Vous pouvez la télécharger depuis [ici](https://releases.aspose.com/pdf/net/).
    
-2. Environnement de développement : assurez-vous que vous disposez d’un environnement de développement .NET tel que Visual Studio configuré sur votre ordinateur.
+2. Environnement de développement : assurez-vous que vous disposez d’un environnement de développement .NET tel que Visual Studio configuré sur votre machine.
 
-3.  Licence : Si vous n'avez pas de licence, vous pouvez obtenir un essai gratuit ou demander une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+3. Licence : Si vous n'avez pas de licence, vous pouvez obtenir un essai gratuit ou demander une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
-## Paquets d'importation
+## Importer des packages
 
-Pour commencer, assurez-vous d'importer les espaces de noms nécessaires au début de votre fichier de code. Voici comment procéder :
+Pour commencer, veillez à importer les espaces de noms nécessaires au début de votre fichier de code. Voici comment procéder :
 
 ```csharp
 using System.IO;
@@ -38,11 +40,11 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-Ces espaces de noms vous permettent d'accéder aux fonctionnalités spécifiques au PDF et de manipuler des éléments de texte dans votre document.
+Ces espaces de noms vous permettent d'accéder aux fonctionnalités spécifiques au PDF et de manipuler les éléments de texte dans votre document.
 
-Décomposons cette tâche en plusieurs étapes. Chaque étape vous guidera tout au long du processus de création et d'insertion d'une table des matières dans votre document PDF.
+Décomposons cette tâche en étapes simples. Chaque étape vous guidera tout au long du processus de création et d'insertion d'une table des matières dans votre document PDF.
 
-## Étape 1 : Charger le document PDF
+## Étape 1 : Charger le document PDF
 
 La première chose que nous devons faire est de charger le fichier PDF existant dans lequel nous voulons ajouter la table des matières.
 
@@ -51,11 +53,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTOC.pdf");
 ```
 
- Dans cette étape, nous spécifions le chemin d'accès au répertoire du document et chargeons le PDF à l'aide de l'`Document` objet. Assurez-vous de remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel vers votre fichier.
+Dans cette étape, nous spécifions le chemin d'accès au répertoire du document et chargeons le PDF à l'aide de l' `Document` objet. Assurez-vous de remplacer `"YOUR DOCUMENT DIRECTORY"` avec le chemin réel vers votre fichier.
 
-## Étape 2 : insérer une nouvelle page pour la table des matières
+## Étape 2 : Insérer une nouvelle page pour la table des matières
 
-Ensuite, nous insérons une nouvelle page au début du document PDF. Cette page hébergera la table des matières.
+Ensuite, nous insérons une nouvelle page au début du document PDF. Cette page accueillera la table des matières.
 
 ```csharp
 Page tocPage = doc.Pages.Insert(1);
@@ -65,7 +67,7 @@ En insérant la page TOC au début, nous garantissons qu'elle apparaît comme la
 
 ## Étape 3 : Créer un objet d'information TOC
 
-Créons maintenant un objet qui représentera les informations de la table des matières. Nous ajouterons également un titre à la table des matières pour la faire ressortir.
+Créons maintenant un objet qui représentera les informations de la table des matières. Nous ajouterons également un titre à la table des matières pour la mettre en valeur.
 
 ```csharp
 TocInfo tocInfo = new TocInfo();
@@ -76,11 +78,11 @@ tocInfo.Title = title;
 tocPage.TocInfo = tocInfo;
 ```
 
-Ici, nous avons défini le titre de la table des matières comme « Table des matières », augmenté la taille de la police et l'avons mis en gras pour plus de précision.
+Ici, nous avons défini le titre de la table des matières comme « Table des matières », augmenté la taille de la police et l'avons mis en gras pour plus de clarté.
 
 ## Étape 4 : Définir les éléments de la table des matières
 
-Dans cette étape, nous définissons les éléments (ou titres) qui seront affichés dans la table des matières. Ces éléments aideront les lecteurs à naviguer vers des sections spécifiques du document.
+À cette étape, nous définissons les éléments (ou titres) qui seront affichés dans la table des matières. Ces éléments aideront les lecteurs à naviguer vers des sections spécifiques du document.
 
 ```csharp
 string[] titles = new string[4];
@@ -113,14 +115,14 @@ for (int i = 0; i < 2; i++)
 ```
 
 Voici ce qui se passe :
-- Titre : Nous créons un`Heading` objet et ajouter un`TextSegment` à cela.
+- Titre : Nous créons un `Heading` objet et ajouter un `TextSegment` à cela.
 - Page de destination : nous définissons la page vers laquelle chaque titre sera lié.
-- Position supérieure : nous spécifions la position sur la page vers laquelle le titre pointera.
+- Position supérieure : nous spécifions la position sur la page vers laquelle le titre pointera.
 - Texte : Chaque titre obtient son titre respectif à partir du tableau que nous avons créé précédemment.
 
 Cette boucle crée des titres pour les deux premiers éléments de la table des matières et les relie aux pages correspondantes.
 
-## Étape 6 : Enregistrer le PDF avec la table des matières
+## Étape 6 : Enregistrez le PDF avec la table des matières
 
 Enfin, après avoir ajouté tous les éléments de la table des matières, il est temps d'enregistrer le PDF mis à jour.
 
@@ -129,9 +131,9 @@ dataDir = dataDir + "TOC_out.pdf";
 doc.Save(dataDir);
 ```
 
-Le fichier est maintenant enregistré avec la table des matières ajoutée au PDF. Félicitations, vous avez ajouté avec succès une table des matières !
+Le fichier est maintenant enregistré avec la table des matières ajoutée au PDF. Félicitations ! Vous avez ajouté une table des matières avec succès !
 
-## Étape 7 : Message de confirmation
+## Étape 7 : Message de confirmation
 
 Pour informer l'utilisateur que le processus est terminé, nous afficherons un message simple dans la console.
 
@@ -141,27 +143,29 @@ Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at "
 
 ## Conclusion
 
-Et voilà ! Avec Aspose.PDF pour .NET, ajouter une table des matières à un PDF est non seulement facile mais également personnalisable. Que vous ayez besoin de créer des liens de navigation simples ou des structures complexes, cet outil est fait pour vous. Alors, la prochaine fois que vous travaillerez sur un long PDF, n'oubliez pas d'ajouter une table des matières pour une touche professionnelle !
+Et voilà ! Avec Aspose.PDF pour .NET, ajouter une table des matières à un PDF est non seulement simple, mais aussi personnalisable. Que vous ayez besoin de créer des liens de navigation simples ou des structures complexes, cet outil est là pour vous. Alors, la prochaine fois que vous travaillerez sur un PDF volumineux, n'oubliez pas d'ajouter une table des matières pour une touche professionnelle !
 
 ## FAQ
 
 ### Puis-je personnaliser l'apparence de la table des matières dans Aspose.PDF ?  
 Oui, vous pouvez entièrement personnaliser l'apparence de la table des matières, y compris le style de police, la taille et l'alignement.
 
-### Comment ajouter des sous-titres à la table des matières ?  
- Vous pouvez ajouter des sous-titres en ajustant le`Heading` niveau (par exemple,`Heading(2)`) pour créer une table des matières hiérarchique.
+### Comment ajouter des sous-titres à la table des matières ?  
+Vous pouvez ajouter des sous-titres en ajustant le `Heading` niveau (par exemple, `Heading(2)`) pour créer une table des matières hiérarchique.
 
 ### Est-il possible de mettre à jour automatiquement la table des matières si le document change ?  
 Non, la table des matières ne se mettra pas à jour automatiquement. Vous devrez la recréer si la structure du document change.
 
 ### Puis-je lier des entrées de table des matières à des documents externes ?  
-Oui, vous pouvez utiliser des hyperliens pour lier des entrées de table des matières à des PDF ou des URL externes.
+Oui, vous pouvez utiliser des hyperliens pour lier les entrées de la table des matières à des PDF ou des URL externes.
 
 ### Aspose.PDF prend-il en charge les tables des matières à plusieurs niveaux ?  
 Oui, Aspose.PDF prend en charge les tables des matières à plusieurs niveaux pour les documents complexes avec des sous-sections.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

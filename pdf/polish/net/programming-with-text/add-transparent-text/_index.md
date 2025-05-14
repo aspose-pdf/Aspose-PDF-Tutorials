@@ -1,14 +1,16 @@
 ---
-title: Dodaj przezroczysty tekst do pliku PDF
-linktitle: Dodaj przezroczysty tekst do pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak łatwo dodać przezroczysty tekst do pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi. Instrukcje krok po kroku, jak uzyskać idealną przezroczystość.
-weight: 100
-url: /pl/net/programming-with-text/add-transparent-text/
+"description": "Dowiedz się, jak łatwo dodać przezroczysty tekst do pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi. Instrukcje krok po kroku, jak uzyskać idealną przezroczystość."
+"linktitle": "Dodaj przezroczysty tekst do pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj przezroczysty tekst do pliku PDF"
+"url": "/pl/net/programming-with-text/add-transparent-text/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj przezroczysty tekst do pliku PDF
@@ -21,10 +23,10 @@ Czy kiedykolwiek zastanawiałeś się, jak dodać przezroczysty tekst do pliku P
 
 Zanim zaczniemy, upewnij się, że masz wszystko skonfigurowane, aby móc śledzić ten samouczek. Oto, czego będziesz potrzebować:
 
--  Aspose.PDF dla .NET zainstalowany. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET zainstalowany. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/net/).
 - Microsoft Visual Studio lub inne kompatybilne środowisko programistyczne.
 - Podstawowa znajomość języka C# i .NET.
--  Ważna licencja Aspose.PDF lub[Licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować pełną funkcjonalność. Możesz również wypróbować[Bezpłatna wersja próbna](https://releases.aspose.com/).
+- Ważna licencja Aspose.PDF lub [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować pełną funkcjonalność. Możesz również wypróbować [Bezpłatna wersja próbna](https://releases.aspose.com/).
 
 Teraz, gdy omówiliśmy już wymagania wstępne, możemy przejść bezpośrednio do tego, jak dodać przezroczysty tekst do dokumentu PDF.
 
@@ -39,7 +41,7 @@ using Aspose.Pdf.Text;
 using System;
 ```
 
-Tego typu importy są niezbędne do obsługi stron PDF, dodawania grafiki i manipulowania tekstem w Aspose.PDF dla platformy .NET.
+Tego typu importy są niezbędne do obsługi stron PDF, dodawania grafiki i manipulowania tekstem w programie Aspose.PDF dla platformy .NET.
 
 Teraz, gdy wszystko skonfigurowaliśmy, omówmy proces dodawania przezroczystego tekstu do pliku PDF za pomocą Aspose.PDF dla .NET. Każdy krok wyjaśni kod, zapewniając, że wiesz, co robi każda część.
 
@@ -56,11 +58,11 @@ Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
- Tutaj inicjujemy`Document` obiekt, który reprezentuje nasz plik PDF. Dodajemy do niego również pustą stronę. Proste, prawda?
+Tutaj inicjujemy `Document` obiekt, który reprezentuje nasz plik PDF. Dodajemy do niego również pustą stronę. Proste, prawda?
 
 ## Krok 2: Tworzenie wykresu i dodawanie kształtów
 
- Następnie utworzymy`Graph` obiekt, który będzie służył jako pojemnik na elementy graficzne, takie jak kształty lub prostokąty, które chcemy dodać do pliku PDF.
+Następnie utworzymy `Graph` obiekt, który będzie służył jako pojemnik na elementy graficzne, takie jak kształty lub prostokąty, które chcemy dodać do pliku PDF.
 
 ```csharp
 // Utwórz obiekt Graph
@@ -69,7 +71,7 @@ Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
 ```
 
- Tutaj definiujemy`Graph` o określonych wymiarach, a następnie dodaj prostokąt. Wyobraź sobie ten prostokąt jako miejsce, w którym będzie znajdował się nasz tekst.
+Tutaj definiujemy `Graph` o określonych wymiarach, a następnie dodaj prostokąt. Wyobraź sobie ten prostokąt jako miejsce, w którym będzie znajdował się nasz tekst.
 
 ## Krok 3: Dostosowywanie kolorów i przezroczystości
 
@@ -80,7 +82,7 @@ Aby nadać prostokątowi i tekstowi przezroczysty wygląd, musimy manipulować k
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 ```
 
- Ten fragment kodu dostosowuje przezroczystość prostokąta.`FromArgb` Metoda ta umożliwia kontrolowanie współczynnika alfa (przezroczystości) wraz z wartościami kolorów RGB.
+Ten fragment kodu dostosowuje przezroczystość prostokąta. `FromArgb` Metoda ta umożliwia kontrolowanie współczynnika alfa (przezroczystości) wraz z wartościami kolorów RGB.
 
 ## Krok 4: Dodawanie prostokąta do wykresu
 
@@ -93,18 +95,18 @@ canvas.Shapes.Add(rect);
 page.Paragraphs.Add(canvas);
 ```
 
- Tutaj prostokąt jest dodawany do`Graph`, który następnie jest dodawany do strony. Można to sobie wyobrazić jako umieszczenie przezroczystej ramki na obrazku.
+Tutaj prostokąt jest dodawany do `Graph`, który następnie jest dodawany do strony. Można to sobie wyobrazić jako umieszczenie przezroczystej ramki na obrazku.
 
 ## Krok 5: Tworzenie tekstu przezroczystego
 
-Teraz nadchodzi zabawna część! Stwórzmy trochę przezroczystego tekstu i dodajmy go do dokumentu. To tutaj Twój plik PDF otrzyma ten elegancki tekst przypominający znak wodny.
+Teraz nadchodzi zabawna część! Stwórzmy trochę przezroczystego tekstu i dodajmy go do dokumentu. To tutaj Twój PDF otrzyma ten elegancki tekst przypominający znak wodny.
 
 ```csharp
 // Utwórz instancję TextFragment z wartością przykładową
 TextFragment text = new TextFragment("transparent text transparent text transparent text...");
 ```
 
- Używamy`TextFragment` aby zdefiniować tekst, który chcemy wyświetlić. Możesz zastąpić tekst zastępczy czymkolwiek, czego potrzebujesz.
+Używamy `TextFragment` aby zdefiniować tekst, który chcemy wyświetlić. Możesz zastąpić tekst zastępczy czymkolwiek, czego potrzebujesz.
 
 ## Krok 6: Ustawianie przezroczystości tekstu
 
@@ -117,7 +119,7 @@ Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0);
 text.TextState.ForegroundColor = color;
 ```
 
- Tutaj,`FromArgb`Metoda ta nadaje tekstowi przezroczysty zielonkawy kolor. Możesz dostosować kolor do swoich preferencji.
+Tutaj, `FromArgb` Metoda ta nadaje tekstowi przezroczysty zielonkawy kolor. Możesz dostosować kolor do swoich preferencji.
 
 ## Krok 7: Dodawanie przezroczystego tekstu do pliku PDF
 
@@ -128,7 +130,7 @@ Na koniec dodajemy przezroczysty tekst do naszej strony PDF.
 page.Paragraphs.Add(text);
 ```
 
- Ten kod dodaje przezroczysty tekst do strony`Paragraphs` kolekcję, dzięki czemu będzie ona widoczna w formacie PDF.
+Ten kod dodaje przezroczysty tekst do strony `Paragraphs` kolekcję, czyniąc ją widoczną w pliku PDF.
 
 ## Krok 8: Zapisywanie pliku PDF
 
@@ -148,22 +150,24 @@ Dodawanie przezroczystego tekstu do pliku PDF to fantastyczny sposób na ulepsze
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dostosować poziom przezroczystości tekstu?  
- Tak! Zmieniając wartość alfa w`FromArgb` Metodą tą można uczynić tekst bardziej lub mniej przejrzystym.
+Tak! Zmieniając wartość alfa w `FromArgb` Metodą tą można uczynić tekst bardziej lub mniej przejrzystym.
 
 ### Czy korzystanie z Aspose.PDF dla platformy .NET jest bezpłatne?  
- Możesz spróbować z[bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla pełnej funkcjonalności.
+Możesz spróbować z [bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla pełnej funkcjonalności.
 
 ### Jakie inne kształty mogę dodać za pomocą obiektu Graph?  
 Możesz dodać różne kształty, takie jak okręgi, elipsy i linie, aby jeszcze bardziej spersonalizować swój projekt PDF.
 
 ### Jak zmienić kolor tekstu?  
- Wystarczy zmodyfikować wartości RGB w`FromArgb` metodę ustawiania dowolnego koloru.
+Wystarczy zmodyfikować wartości RGB w `FromArgb` metodę ustawiania dowolnego koloru.
 
 ### Czy mogę dodać wiele przezroczystych fragmentów tekstu?  
-Oczywiście! Możesz tworzyć i dodawać wiele`TextFragment` instancje o różnych poziomach przezroczystości i zawartości tekstowej.
+Oczywiście! Możesz tworzyć i dodawać wiele `TextFragment` instancje o różnych poziomach przezroczystości i zawartości tekstowej.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

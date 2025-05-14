@@ -1,14 +1,16 @@
 ---
-title: Hapus Semua Teks Dalam File PDF
-linktitle: Hapus Semua Teks Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Hapus semua teks dengan mudah dari berkas PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami.
-weight: 280
-url: /id/net/programming-with-text/remove-all-text/
+"description": "Hapus semua teks dengan mudah dari berkas PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami."
+"linktitle": "Hapus Semua Teks Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Hapus Semua Teks Dalam File PDF"
+"url": "/id/net/programming-with-text/remove-all-text/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Semua Teks Dalam File PDF
@@ -27,7 +29,7 @@ Sebelum kita mulai membuat kode, mari pastikan Anda memiliki semua yang Anda but
 Pastikan Anda telah menyiapkan lingkungan pengembangan .NET. Anda dapat menggunakan Visual Studio atau IDE pilihan Anda yang mendukung pengembangan .NET.
 
 ### 2. Pustaka Aspose.PDF  
- Unduh versi terbaru pustaka Aspose.PDF untuk .NET. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/)Pustaka ini akan menjadi alat yang kita gunakan untuk memanipulasi dokumen PDF dengan mudah.
+Unduh versi terbaru pustaka Aspose.PDF untuk .NET. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/)Pustaka ini akan menjadi alat yang kita gunakan untuk memanipulasi dokumen PDF dengan mudah.
 
 ### 3. Pemahaman Dasar C#  
 Memiliki pengetahuan dasar tentang pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik. Anda tidak perlu menjadi seorang profesional, tetapi mengetahui dasar-dasarnya akan sangat membantu.
@@ -65,7 +67,7 @@ Hal pertama yang paling utama, Anda ingin menentukan di mana PDF Anda berada di 
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ganti dengan jalur Anda
 ```
 
- Pada baris ini, pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya direktori tempat berkas PDF Anda disimpan.
+Pada baris ini, pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya direktori tempat berkas PDF Anda disimpan.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -76,7 +78,7 @@ Berikutnya, Anda perlu memuat dokumen yang ingin Anda manipulasi.
 Document pdfDocument = new Document(dataDir + "RemoveAllText.pdf");
 ```
 
-Baris ini membuat objek dokumen baru yang akan membuka file PDF yang ditentukan. Jika Anda memiliki file bernama`RemoveAllText.pdf` di direktori Anda, kami sudah siap!
+Baris ini membuat objek dokumen baru yang akan membuka file PDF yang ditentukan. Jika Anda memiliki file bernama `RemoveAllText.pdf` di direktori Anda, kami sudah siap!
 
 ## Langkah 3: Ulangi Semua Halaman
 
@@ -90,7 +92,7 @@ for (int i = 1; i <= pdfDocument.Pages.Count; i++)
     OperatorSelector operatorSelector = new OperatorSelector(new Aspose.Pdf.Operators.TextShowOperator());
 ```
 
- Dalam blok kode ini, kami menginisialisasi loop yang melewati setiap halaman PDF. Untuk setiap halaman, kami membuat instance baru`OperatorSelector` yang akan membantu kita memilih teks.
+Dalam blok kode ini, kami menginisialisasi loop yang melewati setiap halaman PDF. Untuk setiap halaman, kami membuat instance baru `OperatorSelector` yang akan membantu kita memilih teks.
 
 ## Langkah 4: Pilih Semua Teks di Halaman
 
@@ -101,7 +103,7 @@ Mari pilih semua konten teks pada halaman saat ini.
     page.Contents.Accept(operatorSelector);
 ```
 
- Menggunakan`Accept` metode pada`Contents`, kita pilih teksnya. Sekarang kita siap menghapusnya!
+Menggunakan `Accept` metode pada `Contents`, kita pilih teksnya. Sekarang kita siap menghapusnya!
 
 ## Langkah 5: Hapus Teks yang Dipilih
 
@@ -124,7 +126,7 @@ Kita tidak ingin kehilangan kerja keras kita, jadi mari kita simpan dokumennya.
 pdfDocument.Save(dataDir + "RemoveAllText_out.pdf", Aspose.Pdf.SaveFormat.Pdf);
 ```
 
- Di sini, kami menyimpan PDF yang dimodifikasi ke file baru bernama`RemoveAllText_out.pdf`Jangan ragu untuk mengubah nama ini jika Anda mau!
+Di sini, kami menyimpan PDF yang dimodifikasi ke file baru bernama `RemoveAllText_out.pdf`Jangan ragu untuk mengubah nama ini jika Anda mau!
 
 ## Kesimpulan
 
@@ -136,19 +138,21 @@ Selamat! Anda telah berhasil menghapus semua teks dari berkas PDF menggunakan As
 Ya, Anda dapat memodifikasi loop untuk menargetkan halaman tertentu, bukan semua halaman.
 
 ### Dalam format apa saya dapat menyimpan PDF?
- Anda dapat menyimpan PDF dalam berbagai format menggunakan`Aspose.Pdf.SaveFormat`.
+Anda dapat menyimpan PDF dalam berbagai format menggunakan `Aspose.Pdf.SaveFormat`.
 
 ### Apakah Aspose.PDF kompatibel dengan bahasa pemrograman lain?
 Aspose.PDF terutama untuk .NET, tetapi ada versi untuk Java, Python, dan banyak lagi.
 
 ### Dapatkah saya mencoba Aspose.PDF secara gratis?
- Ya! Anda dapat memulai dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
+Ya! Anda dapat memulai dengan uji coba gratis yang tersedia [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat membeli Aspose.PDF?
- Kamu bisa membelinya[Di Sini](https://purchase.aspose.com/buy).
+Kamu bisa membelinya [Di Sini](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

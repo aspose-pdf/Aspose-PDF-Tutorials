@@ -1,14 +1,16 @@
 ---
-title: Açıklamaları Kullanarak Metnin Üzerini Çizin
-linktitle: Açıklamaları Kullanarak Metnin Üzerini Çizin
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF'yi kullanarak PDF belgelerine üstü çizili metin açıklamaları eklemeyi öğrenin. Hassas belge düzenlemesi için adım adım kılavuzumuzu izleyin.
-weight: 16
-url: /tr/java/pdf-annotations/strike-through-text-using-annotations/
+"description": "Java için Aspose.PDF'yi kullanarak PDF belgelerine üstü çizili metin açıklamaları eklemeyi öğrenin. Hassas belge düzenlemesi için adım adım kılavuzumuzu izleyin."
+"linktitle": "Açıklamaları Kullanarak Metnin Üzerini Çizin"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Açıklamaları Kullanarak Metnin Üzerini Çizin"
+"url": "/tr/java/pdf-annotations/strike-through-text-using-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Açıklamaları Kullanarak Metnin Üzerini Çizin
@@ -24,7 +26,7 @@ Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 1. Java Geliştirme Ortamı: Sisteminizde Java ve uygun bir IDE'nin (Eclipse, IntelliJ IDEA veya başka herhangi biri) yüklü olduğundan emin olun.
 
-2.  Aspose.PDF for Java Library: Aspose.PDF for Java kütüphanesini indirin ve projenize ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF for Java Kütüphanesi: Aspose.PDF for Java kütüphanesini indirin ve projenize ekleyin. İndirme bağlantısını bulabilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Adım 1: Java Projenizi Kurma
 
@@ -35,7 +37,7 @@ Başlamak için yeni bir Java projesi oluşturun veya tercih ettiğiniz IDE'de m
 Üstü çizili açıklama eklemek istediğimiz bir PDF belgesini başlatarak başlayalım.
 
 ```java
-// Yeni bir PDF belgesi başlatın
+// Yeni bir PDF belgesi başlat
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 ```
 
@@ -84,7 +86,7 @@ Tebrikler! Java için Aspose.PDF kullanarak bir PDF belgesine üstü çizili met
 
 ### Üstü çizili açıklamanın rengini nasıl değiştiririm?
 
- Üstü çizili açıklamanın rengini değiştirmek için şunu kullanabilirsiniz:`setColor` yöntemini kullanın ve istediğiniz rengi belirtin. Sağlanan örnekte, bunu kullanarak kırmızıya ayarladık`setColor(com.aspose.pdf.Color.getRed())`.
+Üstü çizili açıklamanın rengini değiştirmek için şunu kullanabilirsiniz: `setColor` yöntemini kullanın ve istediğiniz rengi belirtin. Sağlanan örnekte, bunu kullanarak kırmızıya ayarladık `setColor(com.aspose.pdf.Color.getRed())`.
 
 ### Tek bir PDF belgesine birden fazla üstü çizili açıklama ekleyebilir miyim?
 
@@ -100,10 +102,12 @@ Evet, Java için Aspose.PDF, metin, vurgulama, altı çizili ve daha fazlası da
 
 ### Java için Aspose.PDF hakkında daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Kapsamlı dokümantasyon ve daha fazla kaynak için Aspose.PDF for Java dokümantasyon sayfasını ziyaret edin:[Burada](https://reference.aspose.com/pdf/java/).
+Kapsamlı dokümantasyon ve daha fazla kaynak için Aspose.PDF for Java dokümantasyon sayfasını ziyaret edin: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,34 +1,36 @@
 ---
-title: Okraje nebo výplně
-linktitle: Okraje nebo výplně
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak spravovat okraje a odsazení v Aspose.PDF pro .NET pomocí tohoto komplexního podrobného průvodce pro vytváření leštěných PDF.
-weight: 140
-url: /cs/net/programming-with-tables/margins-or-padding/
+"description": "Naučte se, jak spravovat okraje a odsazení v Aspose.PDF pro .NET s tímto komplexním podrobným návodem pro vytváření propracovaných PDF."
+"linktitle": "Okraje nebo odsazení"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Okraje nebo odsazení"
+"url": "/cs/net/programming-with-tables/margins-or-padding/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Okraje nebo výplně
+# Okraje nebo odsazení
 
 ## Zavedení
 
-Přemýšleli jste někdy nad tím, proč některé PDF vypadají lépe než jiné? Často jde o detaily – okraje a vycpávky jsou zásadní pro dosažení tohoto rafinovaného vzhledu. Stejně jako vám čistý pracovní prostor může pomoci lépe myslet, dobře organizovaný obsah v PDF usnadňuje čitelnost a porozumění. V této příručce si projdeme, jak použít Aspose.PDF k vytvoření tabulky s přesnými okraji a nastavením odsazení. Na konci budete vybaveni životně důležitými dovednostmi pro vylepšení vašich výtvorů PDF.
+Přemýšleli jste někdy o tom, proč některé PDF soubory vypadají uhlazeněji než jiné? Často jde o detaily – okraje a odsazení jsou pro dosažení tohoto uhlazeného vzhledu klíčové. Stejně jako vám čistý pracovní prostor může pomoci lépe přemýšlet, dobře organizovaný obsah v PDF usnadňuje čitelnost a porozumění. V této příručce si ukážeme, jak pomocí Aspose.PDF vytvořit tabulku s přesným nastavením okrajů a odsazení. Na konci budete vybaveni důležitými dovednostmi pro vylepšení svých PDF výtvorů.
 
 ## Předpoklady
 
-Než do toho skočíme, ujistěte se, že máte vše, co potřebujete:
+Než se do toho pustíme, ujistěme se, že máte vše potřebné:
 
--  Aspose.PDF for .NET Library: Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/pdf/net/).
-- Visual Studio: Integrované vývojové prostředí pro psaní kódu C#. 
-- Základní znalost programování v C#: Určitá znalost kódování vám pomůže lépe pochopit koncepty.
--  Aspose Account: Pokud si chcete koupit licenci nebo potřebujete podporu, podívejte se na[Aspose Nákup stránky](https://purchase.aspose.com/buy) nebo navštivte[Aspose Support Forum](https://forum.aspose.com/c/pdf/10).
+- Aspose.PDF pro knihovnu .NET: Knihovnu si můžete stáhnout z [zde](https://releases.aspose.com/pdf/net/).
+- Visual Studio: Integrované vývojové prostředí pro psaní kódu v jazyce C#. 
+- Základní znalost programování v C#: Určitá znalost kódování vám pomůže lépe pochopit dané koncepty.
+- Účet Aspose: Pokud chcete koupit licenci nebo potřebujete podporu, podívejte se na [Nákupní stránka Aspose](https://purchase.aspose.com/buy) nebo navštivte [Fórum podpory Aspose](https://forum.aspose.com/c/pdf/10).
 
-## Importujte balíčky
+## Importovat balíčky
 
-Nejprve se ujistěte, že máme importované potřebné balíčky. Otevřete svůj projekt a přidejte následující pomocí direktiv v horní části souboru C#:
+Nejprve se ujistěme, že máme importované potřebné balíčky. Otevřete projekt a pomocí direktiv přidejte následující kód na začátek souboru C#:
 
 ```csharp
 using System.IO;
@@ -37,11 +39,11 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-To je nezbytné, protože nám to umožňuje přístup ke třídám a metodám, které budeme používat k manipulaci s dokumenty PDF.
+To je nezbytné, protože nám to umožňuje přístup ke třídám a metodám, které budeme používat k manipulaci s PDF dokumenty.
 
-Nyní, když jsme probrali základy, pojďme kód rozdělit do zvládnutelných kroků, podle kterých můžete použít okraje a odsazení na tabulku v PDF.
+Nyní, když jsme si probrali základy, pojďme si rozdělit kód na srozumitelné kroky, které můžete dodržet k použití okrajů a odsazení na tabulku v PDF.
 
-## Krok 1: Nastavte svůj adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
 Připravte si pracovní adresář 
 
@@ -49,49 +51,49 @@ Připravte si pracovní adresář
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Než něco uděláte, musíte určit, kam chcete dokumenty PDF uložit. Nahraďte „VÁŠ ADRESÁŘ DOKUMENTŮ“ cestou specifickou pro vaše nastavení. To pomáhá udržovat váš projekt organizovaný a usnadňuje pozdější nalezení výstupních souborů.
+Než cokoli uděláte, je třeba určit, kam chcete ukládat dokumenty PDF. Nahraďte „ADRESÁŘ VAŠEHO DOKUMENTU“ cestou specifickou pro vaše nastavení. To vám pomůže udržet si organizaci v projektu a usnadní vám to pozdější nalezení výstupních souborů.
 
 ## Krok 2: Vytvořte nový dokument
 
-Vytvořte instanci objektu Document
+Vytvoření instance objektu Document
 
 ```csharp
 Document doc = new Document();
 ```
 
- V tomto kroku vytvoříme novou instanci`Document` třídy z knihovny Aspose.PDF. Tento objekt představuje váš soubor PDF a je výchozím bodem pro přidávání obsahu.
+V tomto kroku vytvoříme novou instanci `Document` třída z knihovny Aspose.PDF. Tento objekt představuje váš PDF soubor a je výchozím bodem pro přidávání obsahu.
 
-## Krok 3: Přidejte novou stránku
+## Krok 3: Přidání nové stránky
 
-Přidejte do dokumentu novou stránku
+Přidat do dokumentu novou stránku
 
 ```csharp
 Page page = doc.Pages.Add();
 ```
 
-Stejně jako v poznámkovém bloku potřebujete prázdnou stránku, na kterou můžete psát. Přidáváme novou stránku, kam půjde náš stůl. 
+Stejně jako v sešitě potřebujete prázdný list, na který budete psát. Přidáváme nový list, kam bude naše tabulka. 
 
 ## Krok 4: Vytvořte objekt tabulky
 
-Vytvořte instanci objektu tabulky
+Vytvoření instance objektu tabulky
 
 ```csharp
 Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 ```
 
-Dále vytvoříme objekt tabulky, který bude obsahovat naše data. Představte si to jako kostru, která dá strukturu vašim informacím.
+Dále vytvoříme objekt tabulky, který bude uchovávat naše data. Představte si ho jako kostru, která bude strukturovat vaše informace.
 
-## Krok 5: Přidejte tabulku na stránku
+## Krok 5: Přidání tabulky na stránku
 
-Přidejte tabulku do kolekce odstavců na stránce
+Přidat tabulku do kolekce odstavců na stránce
 
 ```csharp
 page.Paragraphs.Add(tab1);
 ```
 
-Nyní na stránku přidáváme naši nově vytvořenou tabulku, podobně jako když pokládáme prázdný list papíru na stůl, kde si budete psát poznámky.
+Nyní přidáváme nově vytvořenou tabulku na stránku, podobně jako když na stůl položíte prázdný list papíru, na který si budete psát poznámky.
 
-## Krok 6: Nastavte šířky sloupců
+## Krok 6: Nastavení šířky sloupců
 
 Definujte, jak široký bude každý sloupec
 
@@ -99,31 +101,31 @@ Definujte, jak široký bude každý sloupec
 tab1.ColumnWidths = "50 50 50";
 ```
 
-V tomto kroku definujeme šířky sloupců naší tabulky. Nastavení na "50" znamená, že každý bude mít šířku 50 jednotek. Úprava šířky sloupců je zásadní pro zajištění toho, aby se vaše data dobře vešla do tabulky.
+tomto kroku definujeme šířku sloupců naší tabulky. Nastavení na „50“ znamená, že každý bude mít šířku 50 jednotek. Úprava šířky sloupců je klíčová pro zajištění toho, aby se data v tabulce dobře vešla.
 
-## Krok 7: Definujte ohraničení buněk
+## Krok 7: Definování ohraničení buněk
 
-Nastavte výchozí ohraničení buňky pomocí BorderInfo
+Nastavení výchozího ohraničení buňky pomocí BorderInfo
 
 ```csharp
 tab1.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.1F);
 ```
 
-Chcete, aby váš stůl vypadal organizovaně, že? Zde nastavíme výchozí ohraničení buněk tabulky, abychom zajistili, že budou vizuálně ohraničeny.
+Chcete, aby vaše tabulka vypadala uspořádaně, že? Zde nastavíme výchozí ohraničení buněk tabulky, abychom zajistili jejich vizuální ohraničení.
 
-## Krok 8: Přizpůsobte ohraničení tabulky
+## Krok 8: Přizpůsobení okraje tabulky
 
-Nastavte ohraničení pro samotný stůl
+Nastavení ohraničení samotné tabulky
 
 ```csharp
 tab1.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 1F);
 ```
 
-Kromě buněk chceme, aby celý náš stůl měl také ohraničení. Díky tomu ještě více vynikne na pozadí stránky.
+Kromě buněk chceme, aby měla ohraničení i celá tabulka. Díky tomu bude na pozadí stránky ještě více vyniknout.
 
-## Krok 9: Vytvořte a nastavte okraje
+## Krok 9: Vytvoření a nastavení okrajů
 
-Stanovte si okraje
+Stanovte okraje
 
 ```csharp
 Aspose.Pdf.MarginInfo margin = new Aspose.Pdf.MarginInfo();
@@ -133,19 +135,19 @@ margin.Right = 5f;
 margin.Bottom = 5f;
 ```
 
-Okraje řídí prostor mezi tabulkou a okraji stránky. Jejich nastavením dáte vašemu obsahu prostor pro dýchání, takže bude vizuálně přitažlivější.
+Okraje ovládají prostor mezi tabulkou a okraji stránky. Jejich nastavením získáte prostor pro text, díky čemuž bude vizuálně atraktivnější.
 
-## Krok 10: Nastavte výchozí odsazení buněk
+## Krok 10: Nastavení výchozího odsazení buněk
 
-Použijte výplň na buňky
+Použít odsazení k buňkám
 
 ```csharp
 tab1.DefaultCellPadding = margin;
 ```
 
-Výplň je o pohodlí – o tom, kolik místa chcete kolem textu uvnitř každé buňky. Nastavením tohoto zajistíte, že text nebude působit stísněně.
+Odsazení se týká pohodlí – kolik místa chcete mít kolem textu v každé buňce. Nastavením této hodnoty zajistíte, že text nebude působit stísněně.
 
-## Krok 11: Přidejte do tabulky řádky a buňky
+## Krok 11: Přidání řádků a buněk do tabulky
 
 Přidání prvního řádku a jeho buněk
 
@@ -159,9 +161,9 @@ row1.Cells[2].Paragraphs.Add(mytext);
 row1.Cells[2].IsWordWrapped = false;
 ```
 
-Tady začínáme zaplňovat náš stůl. První řádek má tři sloupce, z nichž jeden obsahuje větší řetězec textu. Nedělejte si starosti, pokud je váš text dlouhý; tím se budeme zabývat níže.
+Zde začínáme vyplňovat naši tabulku. První řádek má tři sloupce, kde jeden obsahuje delší řetězec textu. Nebojte se, pokud je váš text dlouhý, tím se budeme zabývat dále.
 
-## Krok 12: Přidejte další řádek
+## Krok 12: Přidání dalšího řádku
 
 Přidání druhého řádku do tabulky
 
@@ -172,42 +174,44 @@ row2.Cells.Add("item2");
 row2.Cells.Add("item3");
 ```
 
-Podle potřeby můžeme náš postup opakovat pro další řádky. Tato flexibilita vám umožní vytvořit bohatý stůl.
+V případě potřeby můžeme postup opakovat pro další řádky. Tato flexibilita vám umožňuje vytvořit bohatou tabulku.
 
 ## Krok 13: Uložte dokument
 
-Uložení PDF do zadaného adresáře
+Uložení PDF souboru do zadaného adresáře
 
 ```csharp
 dataDir = dataDir + "MarginsOrPadding_out.pdf";
 doc.Save(dataDir);
 ```
 
-Konečně po sestavení dokumentu je čas jej uložit! Tady se vaše dřina vyplácí. Ujistěte se, že cesta k souboru je správná, abyste své PDF našli bez námahy.
+Konečně, po vytvoření dokumentu je čas ho uložit! Zde se vaše tvrdá práce vyplatí. Ujistěte se, že je cesta k souboru správná, abyste svůj PDF snadno našli.
 
 ## Závěr
 
-tady to máte! Dodržením těchto kroků můžete efektivně řídit okraje a odsazení ve svých tabulkách, čímž vylepšíte jak estetiku, tak funkčnost vašich PDF pomocí Aspose.PDF for .NET. Pamatujte, že ve světě tvorby dokumentů může být pozornost věnovaná detailům rozdílem mezi skvělým a průměrným.
+tady to máte! Dodržováním těchto kroků můžete efektivně ovládat okraje a odsazení v tabulkách, čímž vylepšíte jak estetiku, tak funkčnost vašich PDF souborů pomocí Aspose.PDF pro .NET. Nezapomeňte, že ve světě tvorby dokumentů může být pozornost k detailům rozdílem mezi skvělým a průměrným.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je výkonná knihovna, která umožňuje vývojářům .NET vytvářet, upravovat a manipulovat s dokumenty PDF programově.
+Aspose.PDF pro .NET je výkonná knihovna, která umožňuje vývojářům v .NET programově vytvářet, upravovat a manipulovat s dokumenty PDF.
 
-### Mohu vyzkoušet Aspose.PDF zdarma?
- Ano! Můžete si stáhnout a používat bezplatnou zkušební verzi Aspose.PDF z[zde](https://releases.aspose.com/).
+### Mohu si Aspose.PDF vyzkoušet zdarma?
+Ano! Můžete si stáhnout a používat bezplatnou zkušební verzi souboru Aspose.PDF z [zde](https://releases.aspose.com/).
 
 ### Potřebuji licenci pro Aspose.PDF?
- Ano, pokud jej chcete používat pro komerční účely, budete si muset zakoupit licenci, kterou najdete[zde](https://purchase.aspose.com/buy).
+Ano, pokud jej chcete používat pro komerční účely, budete si muset zakoupit licenci, kterou najdete [zde](https://purchase.aspose.com/buy).
 
 ### Jak mohu získat podporu pro Aspose.PDF?
- Komunita Aspose nabízí podrobnou podporu prostřednictvím svých[fórum podpory](https://forum.aspose.com/c/pdf/10).
+Komunita Aspose nabízí podrobnou podporu prostřednictvím svých [fórum podpory](https://forum.aspose.com/c/pdf/10).
 
 ### Existuje způsob, jak získat dočasnou licenci?
- Absolutně! Pro účely testování můžete požádat o dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/). 
+Rozhodně! Pro účely testování si můžete požádat o dočasnou licenci. [zde](https://purchase.aspose.com/temporary-license/). 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

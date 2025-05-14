@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Varsayılan Yazı Tipini Ayarla
-linktitle: PDF Dosyasında Varsayılan Yazı Tipini Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarında varsayılan yazı tipini nasıl ayarlayacağınızı öğrenin. PDF belgelerini geliştirmek isteyen geliştiriciler için mükemmeldir.
-weight: 280
-url: /tr/net/programming-with-document/setdefaultfont/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarında varsayılan yazı tipini nasıl ayarlayacağınızı öğrenin. PDF belgelerini geliştirmek isteyen geliştiriciler için mükemmeldir."
+"linktitle": "PDF Dosyasında Varsayılan Yazı Tipini Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Varsayılan Yazı Tipini Ayarla"
+"url": "/tr/net/programming-with-document/setdefaultfont/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Varsayılan Yazı Tipini Ayarla
@@ -22,7 +24,7 @@ Hiç bir PDF belgesini açıp yazı tiplerinin eksik olduğunu veya doğru şeki
 Koda geçmeden önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için en iyi IDE'dir.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya dair biraz bilgi sahibi olmak, ele alacağımız örnekleri anlamanızda size büyük katkı sağlayacaktır.
 
 ## Paketleri İçe Aktar
@@ -31,7 +33,7 @@ Başlamak için, C# projenize gerekli paketleri içe aktarmanız gerekir. Bunu n
 
 1. Visual Studio projenizi açın.
 2. Çözüm Gezgini'nde projenize sağ tıklayın ve "NuGet Paketlerini Yönet" seçeneğini seçin.
-3.  Arama`Aspose.PDF` ve en son sürümü yükleyin.
+3. Arama `Aspose.PDF` ve en son sürümü yükleyin.
 
 Paketi kurduktan sonra kodlamaya başlamaya hazırsınız!
 
@@ -43,11 +45,11 @@ Paketi kurduktan sonra kodlamaya başlamaya hazırsınız!
 
 - Visual Studio'yu açın ve "Yeni proje oluştur" seçeneğini seçin.
 - "Konsol Uygulaması (.NET Core)" seçeneğini seçin ve "İleri"ye tıklayın.
--  Projenize bir isim verin (örneğin,`AsposePdfExample`) ve "Oluştur"a tıklayın.
+- Projenize bir isim verin (örneğin, `AsposePdfExample`) ve "Oluştur"a tıklayın.
 
 ### Yönergeleri Kullanarak Ekle
 
- Şimdi, gerekli using yönergelerini en üste ekleyelim.`Program.cs` dosya:
+Şimdi, gerekli using yönergelerini en üste ekleyelim. `Program.cs` dosya:
 
 ```csharp
 using Aspose.Pdf;
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Gerçek dizininizle değiştirin
 string documentName = Path.Combine(dataDir, "input.pdf");
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile.
 
 ### Belgeyi Yükle
 
@@ -81,13 +83,13 @@ using (FileStream fs = new FileStream(documentName, FileMode.Open))
 }
 ```
 
- Bu kod parçacığı PDF dosyasını açar ve bir`Document` manipüle edebileceğiniz nesne.
+Bu kod parçacığı PDF dosyasını açar ve bir `Document` manipüle edebileceğiniz nesne.
 
 ## Adım 3: Varsayılan Yazı Tipini Ayarlayın
 
 ### PDFSaveOptions Oluştur
 
- Şimdi heyecan verici kısım geliyor! Bir örnek oluşturmanız gerekecek`PdfSaveOptions` varsayılan yazı tipini belirtmek için:
+Şimdi heyecan verici kısım geliyor! Bir örnek oluşturmanız gerekecek `PdfSaveOptions` varsayılan yazı tipini belirtmek için:
 
 ```csharp
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
@@ -111,11 +113,11 @@ Son olarak, değiştirilmiş PDF belgesini yeni varsayılan yazı tipiyle kaydet
 document.Save(Path.Combine(dataDir, "output_out.pdf"), pdfSaveOptions);
 ```
 
- Bu satır belgeyi şu şekilde kaydeder:`output_out.pdf` belirtilen dizinde.
+Bu satır belgeyi şu şekilde kaydeder: `output_out.pdf` belirtilen dizinde.
 
 ## Çözüm
 
-İşte oldu! Aspose.PDF for .NET kullanarak bir PDF dosyasında varsayılan bir yazı tipini başarıyla ayarladınız. Bu basit ama güçlü özellik, yazı tipleri eksik olsa bile belgelerinizin tam olarak istediğiniz gibi görünmesini sağlamaya yardımcı olabilir. Yani, bir dahaki sefere yazı tipi sorunları olan bir PDF ile karşılaştığınızda, tam olarak ne yapmanız gerektiğini bileceksiniz!
+İşte oldu! .NET için Aspose.PDF kullanarak bir PDF dosyasında varsayılan bir yazı tipini başarıyla ayarladınız. Bu basit ama güçlü özellik, yazı tipleri eksik olsa bile belgelerinizin tam olarak istediğiniz gibi görünmesini sağlamaya yardımcı olabilir. Yani, bir dahaki sefere yazı tipi sorunları olan bir PDF ile karşılaştığınızda, tam olarak ne yapmanız gerektiğini bileceksiniz!
 
 ## SSS
 
@@ -129,13 +131,15 @@ Evet, sisteminizde yüklü olan herhangi bir yazı tipini varsayılan yazı tipi
 Aspose.PDF ücretsiz deneme sürümü sunuyor, ancak tüm işlevlerden yararlanmak için lisans satın almanız gerekiyor.
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Aspose forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose forumundan destek alabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

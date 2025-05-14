@@ -1,14 +1,16 @@
 ---
-title: Membuat PDF dengan Teks Bertag di Java
-linktitle: Membuat PDF dengan Teks Bertag di Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara membuat PDF bertag di Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah kami memastikan aksesibilitas dan kepatuhan.
-weight: 14
-url: /id/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/
+"description": "Pelajari cara membuat PDF bertag di Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah kami memastikan aksesibilitas dan kepatuhan."
+"linktitle": "Membuat PDF dengan Teks Bertag di Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Membuat PDF dengan Teks Bertag di Java"
+"url": "/id/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat PDF dengan Teks Bertag di Java
@@ -23,7 +25,7 @@ Dalam dunia manajemen dokumen, PDF menonjol sebagai format universal yang menjag
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Proyek Java Anda
 
@@ -76,7 +78,7 @@ Dalam panduan ini, kami telah menjajaki cara membuat PDF bertag di Java mengguna
 
 ### Bagaimana cara memastikan PDF saya ditandai untuk aksesibilitas?
 
- Untuk memastikan PDF Anda diberi tag untuk aksesibilitas, Anda perlu mengatur`tagged` properti untuk`true` untuk teks atau konten yang ingin Anda beri tag. Hal ini biasanya dilakukan menggunakan pustaka Aspose.PDF di Java, seperti yang ditunjukkan dalam panduan ini.
+Untuk memastikan PDF Anda diberi tag untuk aksesibilitas, Anda perlu mengatur `tagged` properti untuk `true` untuk teks atau konten yang ingin Anda beri tag. Hal ini biasanya dilakukan menggunakan pustaka Aspose.PDF di Java, seperti yang ditunjukkan dalam panduan ini.
 
 ### Apa pentingnya PDF yang diberi tag?
 
@@ -92,10 +94,12 @@ Aspose.PDF untuk Java adalah pustaka komersial, tetapi menawarkan versi uji coba
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi dan referensi lengkap untuk Aspose.PDF untuk Java di situs Aspose[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi dan referensi lengkap untuk Aspose.PDF untuk Java di situs Aspose [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,38 +1,40 @@
 ---
-title: Áthúzni a szöveget megjegyzésekkel
-linktitle: Áthúzni a szöveget megjegyzésekkel
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan adhat áthúzható szöveges megjegyzéseket PDF-dokumentumokhoz az Aspose.PDF for Java segítségével. Kövesse lépésről lépésre útmutatónkat a pontos dokumentumkezeléshez.
-weight: 16
-url: /hu/java/pdf-annotations/strike-through-text-using-annotations/
+"description": "Tanulja meg, hogyan adhat áthúzott szöveges megjegyzéseket PDF dokumentumokhoz az Aspose.PDF for Java használatával. Kövesse lépésről lépésre szóló útmutatónkat a precíz dokumentumkezeléshez."
+"linktitle": "Szöveg áthúzása jegyzetekkel"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "Szöveg áthúzása jegyzetekkel"
+"url": "/hu/java/pdf-annotations/strike-through-text-using-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Áthúzni a szöveget megjegyzésekkel
+# Szöveg áthúzása jegyzetekkel
 
 
-## A szöveg áthúzása annotációk segítségével
+## Bevezetés a szöveg áthúzásába jegyzetek segítségével
 
-A dokumentumkezelés világában a precizitás és az áttekinthetőség a legfontosabb. Az áthúzott szöveges megjegyzések értékes eszközt jelentenek a változtatások kiemelésére, a törlések jelzésére vagy a PDF-dokumentum bizonyos tartalmának kiemelésére. Az Aspose.PDF for Java robusztus funkciókészletet kínál ennek könnyed eléréséhez. Ebben az útmutatóban végigvezetjük az Aspose.PDF for Java segítségével áthúzható szöveges megjegyzések PDF-dokumentumokhoz való hozzáadásának folyamatán.
+dokumentumkezelés világában a pontosság és az érthetőség kiemelkedő fontosságú. Az áthúzott szöveges megjegyzések értékes eszközök a változtatások kiemelésére, a törlések jelzésére vagy a PDF-dokumentumon belüli adott tartalom kiemelésére. Az Aspose.PDF for Java robusztus funkciókészletet kínál ennek egyszerű eléréséhez. Ebben az útmutatóban végigvezetjük Önt az áthúzott szöveges megjegyzések PDF-dokumentumokhoz való hozzáadásának folyamatán az Aspose.PDF for Java segítségével.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-1. Java fejlesztői környezet: Győződjön meg arról, hogy a Java és egy megfelelő IDE (Eclipse, IntelliJ IDEA vagy bármilyen más) telepítve van a rendszeren.
+1. Java fejlesztői környezet: Győződjön meg róla, hogy a rendszerén telepítve van a Java és egy megfelelő IDE (Eclipse, IntelliJ IDEA vagy bármilyen más).
 
-2.  Aspose.PDF for Java Library: Töltse le és foglalja bele projektjébe az Aspose.PDF for Java könyvtárat. A letöltési linket megtalálod[itt](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF Java könyvtárhoz: Töltse le és illessze be az Aspose.PDF Java könyvtárat a projektjébe. A letöltési linket itt találja: [itt](https://releases.aspose.com/pdf/java/).
 
 ## 1. lépés: A Java projekt beállítása
 
-A kezdéshez hozzon létre egy új Java-projektet, vagy nyisson meg egy meglévőt a kívánt IDE-ben. Győződjön meg arról, hogy hozzáadta az Aspose.PDF for Java könyvtárat a projekt osztályútvonalához.
+Első lépésként hozz létre egy új Java projektet, vagy nyisson meg egy meglévőt a kívánt IDE-ben. Győződjön meg róla, hogy hozzáadta az Aspose.PDF for Java könyvtárat a projekt osztályútvonalához.
 
-## 2. lépés: A PDF-dokumentum inicializálása
+## 2. lépés: A PDF dokumentum inicializálása
 
-Kezdjük egy PDF-dokumentum inicializálásával, amelyhez áthúzható megjegyzést szeretnénk hozzáadni.
+Kezdjük egy PDF dokumentum inicializálásával, amelyhez áthúzott megjegyzést szeretnénk hozzáadni.
 
 ```java
 // Új PDF dokumentum inicializálása
@@ -41,10 +43,10 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
 ## 3. lépés: Szöveg hozzáadása a dokumentumhoz
 
-Ezután szöveget adunk a PDF dokumentumhoz. Ez a szöveg lesz az a tartalom, amelyet át akarunk húzni.
+Ezután szöveget adunk a PDF dokumentumhoz. Ez a szöveg fog szolgálni az áthúzandó tartalomként.
 
 ```java
-// Hozzon létre egy oldalt a PDF dokumentumban
+// Oldal létrehozása a PDF dokumentumban
 com.aspose.pdf.Page page = pdfDocument.getPages().add();
 
 // Szöveg hozzáadása az oldalhoz
@@ -52,58 +54,60 @@ com.aspose.pdf.TextFragment textFragment = new com.aspose.pdf.TextFragment("This
 page.getParagraphs().add(textFragment);
 ```
 
-## 4. lépés: Áthúzható megjegyzés hozzáadása
+## 4. lépés: Áthúzott megjegyzés hozzáadása
 
-Most jön az izgalmas rész – egy áthúzható kommentár hozzáadása a szöveghez.
+Most jön az izgalmas rész – egy áthúzott jegyzet hozzáadása a szöveghez.
 
 ```java
-// Hozzon létre egy áthúzott kommentárt
+// Áthúzott jegyzet létrehozása
 com.aspose.pdf.StrikeOutAnnotation strikeOutAnnotation = new com.aspose.pdf.StrikeOutAnnotation(page, textFragment.getRectangle());
 strikeOutAnnotation.setColor(com.aspose.pdf.Color.getRed());
 
-// Adja hozzá a megjegyzést az oldalhoz
+// Adja hozzá a jegyzetet az oldalhoz
 page.getAnnotations().add(strikeOutAnnotation);
 ```
 
-Ebben a kódrészletben létrehozunk egy áthúzható megjegyzést, pirosra állítjuk a színét (bármilyen színt kiválaszthat), majd hozzáadjuk a PDF-oldalhoz.
+Ebben a kódrészletben létrehozunk egy áthúzott megjegyzést, pirosra állítjuk a színét (bármelyik színt választhatod), majd hozzáadjuk a PDF oldalhoz.
 
-## 5. lépés: Mentse el a PDF-dokumentumot
+## 5. lépés: A PDF dokumentum mentése
 
-Végül a módosított PDF dokumentumot fájlba mentjük.
+Végül a módosított PDF dokumentumot egy fájlba mentjük.
 
 ```java
-// Mentse el a PDF dokumentumot
+// PDF dokumentum mentése
 pdfDocument.save("output.pdf");
 ```
 
 ## Következtetés
 
-Gratulálok! Sikeresen hozzáadott egy áthúzható szöveges megjegyzést egy PDF-dokumentumhoz az Aspose.PDF for Java használatával. Ez a nagy teljesítményű könyvtár leegyszerűsíti a PDF-dokumentumokkal való munkafolyamatot, így ideális választás a fejlesztők számára, akik javítani kívánják dokumentumkezelési képességeiket.
+Gratulálunk! Sikeresen hozzáadott egy áthúzott szöveges megjegyzést egy PDF dokumentumhoz az Aspose.PDF for Java segítségével. Ez a hatékony könyvtár leegyszerűsíti a PDF dokumentumokkal való munkát, így ideális választás azoknak a fejlesztőknek, akik szeretnék bővíteni dokumentumkezelési képességeiket.
 
 ## GYIK
 
-### Hogyan változtathatom meg az áthúzott kommentár színét?
+### Hogyan tudom megváltoztatni az áthúzott jegyzet színét?
 
- Az áthúzott megjegyzés színének megváltoztatásához használhatja a`setColor` módszert, és adja meg a kívánt színt. A megadott példában a segítségével pirosra állítottuk`setColor(com.aspose.pdf.Color.getRed())`.
+Az áthúzott jegyzet színének módosításához használhatja a `setColor` metódust, és adja meg a kívánt színt. A megadott példában pirosra állítottuk be a következővel: `setColor(com.aspose.pdf.Color.getRed())`.
 
-### Hozzáadhatok több áthúzható megjegyzést egyetlen PDF-dokumentumhoz?
+### Hozzáadhatok több áthúzott jegyzetet egyetlen PDF dokumentumhoz?
 
-Igen, több áthúzható megjegyzést is hozzáadhat egyetlen PDF-dokumentumhoz. Egyszerűen ismételje meg az útmutató lépéseit minden hozzáadni kívánt megjegyzésnél.
+Igen, több áthúzott jegyzetet is hozzáadhat egyetlen PDF dokumentumhoz. Egyszerűen ismételje meg az útmutató lépéseit minden hozzáadni kívánt jegyzethez.
 
-### Az Aspose.PDF for Java kompatibilis a különböző Java verziókkal?
+### Kompatibilis az Aspose.PDF for Java program a különböző Java verziókkal?
 
-Az Aspose.PDF for Java kompatibilis a különböző Java-verziókkal. Győződjön meg arról, hogy a könyvtár megfelelő verzióját választotta, amely megfelel a Java környezetnek.
+Az Aspose.PDF for Java számos Java verzióval kompatibilis. Győződjön meg arról, hogy a Java környezetének megfelelő könyvtárverziót választotta.
 
-### Vannak más típusú megjegyzések, amelyeket hozzáadhatok az Aspose.PDF for Java használatával?
+### Vannak más típusú annotációk is, amiket hozzáadhatok az Aspose.PDF for Java használatával?
 
-Igen, az Aspose.PDF for Java különféle típusú megjegyzéseket támogat, beleértve a szöveget, kiemelést, aláhúzást és egyebeket. A dokumentációban részletes példákat és felhasználást találhat.
+Igen, az Aspose.PDF for Java különféle típusú annotációkat támogat, beleértve a szöveget, a kiemelést, az aláhúzást és egyebeket. A részletes példákért és a használatért tekintse meg a dokumentációt.
 
-### Hol találok további forrásokat és dokumentációt az Aspose.PDF for Java fájlhoz?
+### Hol találok további forrásokat és dokumentációt az Aspose.PDF for Java-hoz?
 
- Átfogó dokumentációért és további forrásokért látogasson el az Aspose.PDF for Java dokumentációs oldalára:[itt](https://reference.aspose.com/pdf/java/).
+Átfogó dokumentációért és további forrásokért látogassa meg az Aspose.PDF for Java dokumentációs oldalt: [itt](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Hapus Tindakan Terbuka
-linktitle: Hapus Tindakan Terbuka
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Hapus tindakan terbuka dari PDF dengan mudah menggunakan Aspose.PDF untuk .NET! Tutorial sederhana dengan panduan langkah demi langkah untuk manajemen PDF yang efektif.
-weight: 80
-url: /id/net/programming-with-links-and-actions/remove-open-action/
+"description": "Hapus tindakan terbuka dari PDF dengan mudah menggunakan Aspose.PDF untuk .NET! Tutorial sederhana dengan panduan langkah demi langkah untuk manajemen PDF yang efektif."
+"linktitle": "Hapus Tindakan Terbuka"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Hapus Tindakan Terbuka"
+"url": "/id/net/programming-with-links-and-actions/remove-open-action/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Tindakan Terbuka
@@ -21,9 +23,9 @@ Dalam tutorial ini, kita akan membahas langkah-langkah sederhana yang diperlukan
 
 Sebelum kita memulai, Anda memerlukan beberapa hal berikut:
 
-1. Pemahaman Dasar C#: Keakraban dengan bahasa pemrograman C# akan membantu Anda menavigasi potongan kode dengan mudah.
+1. Pemahaman Dasar C#: Keakraban dengan bahasa pemrograman C# akan membantu Anda menavigasi cuplikan kode dengan mudah.
 2. Visual Studio: Pastikan Anda telah menginstal Visual Studio. Ini adalah IDE yang paling umum untuk pengembangan .NET.
-3.  Aspose.PDF untuk .NET: Anda harus memiliki pustaka ini. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/). 
+3. Aspose.PDF untuk .NET: Anda harus memiliki pustaka ini. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/). 
 4. .NET Framework: Pastikan Anda telah menyiapkan proyek Anda untuk menggunakan .NET Framework (disarankan versi 4.0 atau yang lebih baru).
 5. Berkas PDF dengan tindakan terbuka: Ini adalah dokumen yang akan kita kerjakan. Anda dapat membuatnya atau mengunduh contoh untuk latihan.
 
@@ -61,7 +63,7 @@ Pertama dan terutama, Anda perlu menentukan lokasi penyimpanan file PDF Anda. An
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat PDF Anda disimpan. Misalnya:
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat PDF Anda disimpan. Misalnya:
 
 ```csharp
 string dataDir = "C:\\Documents\\";
@@ -77,7 +79,7 @@ Selanjutnya, mari kita muat dokumen PDF ke dalam aplikasi Anda. Di sinilah keaja
 Document document = new Document(dataDir + "RemoveOpenAction.pdf");
 ```
 
- Pada langkah ini, kita memberi tahu aplikasi kita untuk membuat yang baru`Document` objek, yang mewakili berkas PDF bernama "RemoveOpenAction.pdf". Pastikan berkas ini ada di direktori yang Anda tentukan!
+Pada langkah ini, kita memberi tahu aplikasi kita untuk membuat yang baru `Document` objek, yang mewakili berkas PDF bernama "RemoveOpenAction.pdf". Pastikan berkas ini ada di direktori yang Anda tentukan!
 
 ## Langkah 3: Hapus Tindakan Terbuka
 
@@ -120,19 +122,21 @@ Nah, itu dia! Hanya dengan beberapa baris kode C# dan kekuatan Aspose.PDF untuk 
 Tindakan terbuka adalah perintah yang dijalankan saat PDF dibuka, seperti memutar suara atau menavigasi ke halaman web.
 
 ### Apakah saya perlu membayar Aspose.PDF untuk .NET?
- Aspose menawarkan uji coba gratis. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Aspose menawarkan uji coba gratis. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Bisakah saya menghapus beberapa tindakan terbuka dari PDF?
- Ya, Anda dapat mengaturnya`OpenAction` properti untuk`null` untuk menghapus semua tindakan yang terbuka.
+Ya, Anda dapat mengaturnya `OpenAction` properti untuk `null` untuk menghapus semua tindakan yang terbuka.
 
 ### Bagaimana cara menguji apakah tindakan penghapusan terbuka berhasil?
 Buka berkas PDF yang tersimpan, dan periksa apakah ada tindakan yang ditetapkan sebelumnya. Jika tidak, berarti Anda berhasil!
 
 ### Di mana saya dapat menemukan dukungan jika saya menghadapi masalah?
- Kunjungi forum Aspose untuk mendapatkan dukungan mengenai masalah terkait PDF[Di Sini](https://forum.aspose.com/c/pdf/10).
+Kunjungi forum Aspose untuk mendapatkan dukungan mengenai masalah terkait PDF [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

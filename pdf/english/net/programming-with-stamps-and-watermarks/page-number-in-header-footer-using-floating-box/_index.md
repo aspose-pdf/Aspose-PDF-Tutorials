@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/page-number-in-header-footer-us
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Page Number In Header Footer Using Floating Box
@@ -155,6 +157,7 @@ For any additional questions or support, you can visit the [Aspose Forum](https:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

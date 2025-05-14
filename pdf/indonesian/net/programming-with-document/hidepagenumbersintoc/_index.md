@@ -1,21 +1,23 @@
 ---
-title: Sembunyikan Nomor Halaman Di Daftar Isi
-linktitle: Sembunyikan Nomor Halaman Di Daftar Isi
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menyembunyikan nomor halaman di Daftar Isi menggunakan Aspose.PDF untuk .NET. Ikuti panduan terperinci ini dengan contoh kode untuk membuat PDF profesional.
-weight: 220
-url: /id/net/programming-with-document/hidepagenumbersintoc/
+"description": "Pelajari cara menyembunyikan nomor halaman di Daftar Isi menggunakan Aspose.PDF untuk .NET. Ikuti panduan terperinci ini dengan contoh kode untuk membuat PDF profesional."
+"linktitle": "Sembunyikan Nomor Halaman Di Daftar Isi"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Sembunyikan Nomor Halaman Di Daftar Isi"
+"url": "/id/net/programming-with-document/hidepagenumbersintoc/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sembunyikan Nomor Halaman Di Daftar Isi
 
 ## Perkenalan
 
-Saat Anda bekerja dengan PDF, terkadang Anda mungkin ingin membuat Daftar Isi (TOC) tetapi tetap rapi dengan menyembunyikan nomor halaman. Mungkin dokumen akan lebih baik tanpa nomor halaman, atau mungkin itu adalah pilihan estetika. Apa pun alasan Anda, jika Anda bekerja dengan Aspose.PDF untuk .NET, tutorial ini akan menunjukkan kepada Anda cara menyembunyikan nomor halaman di TOC Anda.
+Saat Anda bekerja dengan PDF, terkadang Anda mungkin ingin membuat Daftar Isi (TOC) tetapi tetap rapi dengan menyembunyikan nomor halaman. Mungkin dokumen akan lebih baik tanpa nomor halaman, atau mungkin itu pilihan estetika. Apa pun alasan Anda, jika Anda bekerja dengan Aspose.PDF untuk .NET, tutorial ini akan menunjukkan kepada Anda cara menyembunyikan nomor halaman di TOC Anda.
 
 ## Prasyarat
 
@@ -23,9 +25,9 @@ Sebelum kita mulai, ada beberapa hal yang perlu Anda persiapkan. Berikut daftar 
 
 - Visual Studio Terpasang: Anda memerlukan versi Visual Studio yang berfungsi untuk membuat kode.
 - Pustaka Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF untuk .NET.
-  -  Tautan unduhan:[Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/)
+  - Tautan unduhan: [Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/)
 - Lisensi Sementara: Jika Anda menguji fitur-fiturnya, ada baiknya Anda memiliki lisensi sementara.
-  -  Lisensi sementara:[Dapatkan di sini](https://purchase.aspose.com/temporary-license/)
+  - Lisensi sementara: [Dapatkan di sini](https://purchase.aspose.com/temporary-license/)
 
 ## Paket Impor
 
@@ -55,7 +57,7 @@ Page tocPage = doc.Pages.Add();
 - Document(): Menginisialisasi dokumen PDF baru.
 - Pages.Add(): Menambahkan halaman kosong baru ke dokumen, yang nantinya akan memuat TOC Anda.
 
-## Langkah 2: Siapkan Info Daftar Isi dan Judul
+## Langkah 2: Siapkan Info dan Judul Daftar Isi
 
 Berikutnya, kita akan menentukan informasi TOC, termasuk mengatur judul yang akan muncul di bagian atas TOC.
 
@@ -82,7 +84,7 @@ tocInfo.IsShowPageNumbers = false;
 tocInfo.FormatArrayLength = 4;
 ```
 
--  IsShowPageNumbers: Ini adalah tombol ajaib yang menyembunyikan nomor halaman. Atur ke`false`, dan nomor halaman tidak akan muncul di Daftar Isi.
+- IsShowPageNumbers: Ini adalah tombol ajaib yang menyembunyikan nomor halaman. Atur ke `false`dan nomor halaman tidak akan muncul di Daftar Isi.
 - FormatArrayLength: Kami menetapkan ini ke 4, yang menunjukkan bahwa kami ingin menentukan pemformatan untuk empat tingkat judul TOC.
 
 ## Langkah 4: Sesuaikan Pemformatan Daftar Isi
@@ -123,7 +125,7 @@ for (int Level = 1; Level != 5; Level++)
 
 - Heading dan TextSegment: Ini merupakan judul yang akan muncul di TOC Anda. Setiap level memiliki judulnya sendiri.
 - IsAutoSequence: Secara otomatis memberi nomor pada judul.
-- IsInList: Memastikan bahwa setiap judul muncul di TOC.
+- IsInList: Memastikan bahwa setiap judul muncul di Daftar Isi.
 
 ## Langkah 6: Simpan Dokumen
 
@@ -145,19 +147,21 @@ Membuat Daftar Isi dalam PDF dan menyembunyikan nomor halaman mungkin tampak rum
 Tidak, Aspose.PDF menyembunyikan atau menampilkan nomor halaman untuk seluruh TOC. Anda tidak dapat menyembunyikannya secara selektif untuk entri tertentu.
 
 ### Apakah mungkin untuk menambahkan lebih banyak level ke Daftar Isi?
- Ya, Anda dapat meningkatkannya`FormatArrayLength` untuk menentukan lebih banyak tingkatan judul TOC.
+Ya, Anda dapat meningkatkannya `FormatArrayLength` untuk menentukan lebih banyak tingkatan judul TOC.
 
 ### Bagaimana cara mengubah font untuk semua entri TOC?
- Anda dapat mengubah font dengan memodifikasi`TextState.Font` properti untuk setiap level di`FormatArray`.
+Anda dapat mengubah font dengan memodifikasi `TextState.Font` properti untuk setiap level di `FormatArray`.
 
 ### Bisakah saya menyisipkan hyperlink di Daftar Isi?
- Ya, Anda dapat menautkan setiap entri TOC ke bagian tertentu dalam dokumen menggunakan`Heading.TocPage` milik.
+Ya, Anda dapat menautkan setiap entri TOC ke bagian tertentu dalam dokumen menggunakan `Heading.TocPage` milik.
 
 ### Apakah saya memerlukan lisensi untuk Aspose.PDF?
-Ya, lisensi yang valid diperlukan untuk penggunaan produksi. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji fitur-fiturnya.
+Ya, lisensi yang valid diperlukan untuk penggunaan produksi. Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji fitur-fiturnya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

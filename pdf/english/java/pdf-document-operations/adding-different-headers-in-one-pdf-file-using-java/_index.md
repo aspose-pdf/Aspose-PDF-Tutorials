@@ -8,7 +8,9 @@ url: /java/pdf-document-operations/adding-different-headers-in-one-pdf-file-usin
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Different Headers in One PDF File using Java
@@ -120,6 +122,7 @@ You can explore the comprehensive documentation and examples at [Aspose.PDF for 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

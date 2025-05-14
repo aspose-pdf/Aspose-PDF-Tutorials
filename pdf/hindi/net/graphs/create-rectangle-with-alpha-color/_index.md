@@ -1,46 +1,51 @@
 ---
-title: Aspose.PDF में आयतों और अल्फा रंगों के साथ पीडीएफ बनाएं 
-weight: 7700
-limit: 
-description: सीखें कि कैसे .NET के लिए Aspose.PDF का उपयोग करके आयतों के साथ एक पीडीएफ बनाएं और अल्फा रंग लागू करें। कोड और स्थापना निर्देशों के साथ चरण-दर-चरण गाइड।
-keywords: [Aspose.PDF for .NET, create PDF, draw rectangles in PDF, alpha colors in PDF, .NET PDF library, PDF graphics, C# PDF generation]
-url: /hi/net/graphs/create-rectangle-with-alpha-color/
+"description": "जानें कि .NET के लिए Aspose.PDF का उपयोग करके आयतों के साथ PDF कैसे बनाएँ और अल्फा रंग कैसे लागू करें। कोड और इंस्टॉलेशन निर्देशों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"title": "Aspose.PDF में आयतों और अल्फा रंगों के साथ PDF बनाएं"
+"url": "/hi/net/graphs/create-rectangle-with-alpha-color/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDF में आयतों और अल्फा रंगों के साथ पीडीएफ बनाएं
+# Aspose.PDF में आयतों और अल्फा रंगों के साथ PDF बनाएं
 
-Aspose.PDF .NET के लिए एक शक्तिशाली पुस्तकालय है बनाने के लिए, हेरफेर, और परिवर्तित करने के लिए पीडीएफ दस्तावेजों में सी #. इस उदाहरण में, आप सीखेंगे कि कैसे बनाने के लिए एक पीडीएफ फ़ाइल और आकर्षित करने के लिए आयतों के साथ अल्फा रंग. हम उपयोग करते हैं `मान लीजिए.पीडीएफ.चित्रण.ग्राफ`यह ट्यूटोरियल नमूना कोड के साथ एक कदम दर कदम गाइड प्रदान करता है, यह सुनिश्चित करता है कि आप इसे आसानी से अपने .NET अनुप्रयोगों में लागू कर सकते हैं.  
+.NET के लिए Aspose.PDF C# में PDF दस्तावेज़ बनाने, हेरफेर करने और परिवर्तित करने के लिए एक शक्तिशाली लाइब्रेरी है। इस उदाहरण में, आप सीखेंगे कि PDF फ़ाइल कैसे बनाएँ और अल्फ़ा रंगों के साथ आयत कैसे बनाएँ। हम इसका उपयोग करते हैं `Aspose.Pdf.Drawing.Graph` ARGB रंगों का उपयोग करके आकृतियाँ जोड़ने और पारदर्शिता प्रभाव लागू करने के लिए क्लास। यह ट्यूटोरियल नमूना कोड के साथ चरण-दर-चरण मार्गदर्शिका प्रदान करता है, यह सुनिश्चित करता है कि आप इसे अपने .NET अनुप्रयोगों में आसानी से लागू कर सकते हैं।  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/create-rectangle-with-alpha-color" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## स्थापना के निर्देश  
-अपनी परियोजना में .NET के लिए Aspose.PDF का उपयोग करने के लिए, इन चरणों का पालन करेंः  
 
-1. NuGet के माध्यम से स्थापित करें  
-NuGet पैकेज प्रबंधक कंसोल में निम्न कमांड चलाएँ:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## स्थापना निर्देश  
+अपने प्रोजेक्ट में .NET के लिए Aspose.PDF का उपयोग करने के लिए, इन चरणों का पालन करें:  
+
+1. NuGet के माध्यम से इंस्टॉल करें  
+NuGet पैकेज मैनेजर कंसोल में निम्नलिखित कमांड चलाएँ:  
 ```powershell
 Install-Package Aspose.PDF
 ```
 
-2. सी# में नामस्थान जोड़ें  
-अपनी C# फ़ाइल की शुरुआत में आवश्यक नामस्थान शामिल करें:  
+2. C# में नामस्थान जोड़ें  
+अपनी C# फ़ाइल के आरंभ में आवश्यक नामस्थान शामिल करें:  
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 ```
 
-विस्तृत दस्तावेज के लिए, देखेंः  
-[Aspose.PDF के लिए .NET प्रलेखन](https://docs.aspose.com/pdf/net/)  
-[.NET एपीआई संदर्भ के लिए Aspose.PDF](https://reference.aspose.com/pdf/net/)  
+विस्तृत दस्तावेज़ीकरण के लिए, यहां जाएं:  
+[.NET दस्तावेज़ीकरण के लिए Aspose.PDF](https://docs.aspose.com/pdf/net/)  
+[.NET API संदर्भ के लिए Aspose.PDF](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

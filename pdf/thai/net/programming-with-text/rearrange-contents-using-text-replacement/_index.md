@@ -1,14 +1,16 @@
 ---
-title: จัดเรียงเนื้อหาใหม่โดยใช้การแทนที่ข้อความ
-linktitle: จัดเรียงเนื้อหาใหม่โดยใช้การแทนที่ข้อความ
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการจัดเรียงเนื้อหา PDF ใหม่โดยใช้การแทนที่ข้อความด้วย Aspose.PDF สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนเพื่อพัฒนาทักษะการแก้ไขเอกสารของคุณ
-weight: 270
-url: /th/net/programming-with-text/rearrange-contents-using-text-replacement/
+"description": "เรียนรู้วิธีการจัดเรียงเนื้อหา PDF ใหม่โดยใช้การแทนที่ข้อความด้วย Aspose.PDF สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนเพื่อพัฒนาทักษะการแก้ไขเอกสารของคุณ"
+"linktitle": "จัดเรียงเนื้อหาใหม่โดยใช้การแทนที่ข้อความ"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "จัดเรียงเนื้อหาใหม่โดยใช้การแทนที่ข้อความ"
+"url": "/th/net/programming-with-text/rearrange-contents-using-text-replacement/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # จัดเรียงเนื้อหาใหม่โดยใช้การแทนที่ข้อความ
@@ -21,7 +23,7 @@ url: /th/net/programming-with-text/rearrange-contents-using-text-replacement/
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้พร้อมแล้ว:
 
-1.  Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.PDF ไว้ในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.PDF ไว้ในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/net/).
 2. สภาพแวดล้อมการพัฒนา .NET: สภาพแวดล้อม .NET ที่ใช้งานได้ (เช่น Visual Studio) ถือเป็นสิ่งจำเป็น ตัวอย่างโค้ดจะทำงานกับ C# ได้
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณสามารถนำทางผ่านโค้ดได้อย่างมีประสิทธิภาพ
 
@@ -60,18 +62,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // โหลดไฟล์ PDF ต้นฉบับ
 Document doc = new Document(dataDir + "ExtractTextPage.pdf");
 ```
- ที่นี่คุณระบุไดเรกทอรีที่จัดเก็บ PDF ของคุณ`Document`คลาสนี้ใช้เพื่อโหลดไฟล์ PDF ที่มีอยู่ของเรา`ExtractTextPage.pdf`.
+ที่นี่คุณระบุไดเรกทอรีที่จัดเก็บ PDF ของคุณ `Document` คลาสนี้ใช้เพื่อโหลดไฟล์ PDF ที่มีอยู่ของเรา `ExtractTextPage-pdf`.
 
 ## ขั้นตอนที่ 2: สร้าง TextFragment Absorber
 
- ต่อไปเราจะสร้าง`TextFragmentAbsorber` วัตถุ ซึ่งจะช่วยให้เราค้นหาข้อความบางส่วนที่เจาะจงโดยใช้นิพจน์ทั่วไป
+ต่อไปเราจะสร้าง `TextFragmentAbsorber` วัตถุ ซึ่งจะช่วยให้เราค้นหาข้อความบางส่วนที่เจาะจงโดยใช้นิพจน์ทั่วไป
 
 ```csharp
 // สร้างวัตถุ TextFragment Absorber ด้วยนิพจน์ทั่วไป
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("[TextFragmentAbsorber,companyname,Textbox,50]");
 doc.Pages.Accept(textFragmentAbsorber);
 ```
- การ`TextFragmentAbsorber` ใช้รูปแบบเพื่อค้นหาส่วนของข้อความที่คุณต้องการแทนที่ ปรับนิพจน์ทั่วไปตามต้องการสำหรับข้อความเฉพาะของคุณ
+การ `TextFragmentAbsorber` ใช้รูปแบบเพื่อค้นหาส่วนของข้อความที่คุณต้องการแทนที่ ปรับนิพจน์ทั่วไปตามต้องการสำหรับข้อความเฉพาะของคุณ
 
 ## ขั้นตอนที่ 3: แทนที่ข้อความแต่ละส่วน
 
@@ -90,7 +92,7 @@ foreach (TextFragment textFragment in textFragmentAbsorber.TextFragments)
     textFragment.Text = "This is a Larger String for the Testing of this issue";
 }
 ```
- ภายในลูป เราจะวนซ้ำผ่านแต่ละรอบ`TextFragment` พบแล้ว ที่นี่ เราปรับแต่งรูปแบบ ขนาด และสีของแบบอักษร สิ่งสำคัญที่สุดคือ เราแทนที่ข้อความเดิมด้วยสตริงใหม่ของเรา
+ภายในลูป เราจะวนซ้ำผ่านแต่ละรอบ `TextFragment` พบแล้ว ที่นี่ เราปรับแต่งรูปแบบ ขนาด และสีของแบบอักษร สิ่งสำคัญที่สุดคือ เราแทนที่ข้อความเดิมด้วยสตริงใหม่ของเรา
 
 ## ขั้นตอนที่ 4: บันทึกเอกสารที่แก้ไข
 
@@ -102,7 +104,7 @@ dataDir = dataDir + "RearrangeContentsUsingTextReplacement_out.pdf";
 doc.Save(dataDir);
 Console.WriteLine("\nContents rearranged successfully using text replacement.\nFile saved at " + dataDir);
 ```
- PDF ที่แก้ไขแล้วจะถูกบันทึกโดยใช้`Save`วิธีการนี้ โปรดแน่ใจว่าคุณได้เพิ่มชื่อไฟล์ที่เหมาะสมเพื่อหลีกเลี่ยงการเขียนทับไฟล์ต้นฉบับของคุณ
+PDF ที่แก้ไขแล้วจะถูกบันทึกโดยใช้ `Save` วิธีการนี้ โปรดแน่ใจว่าคุณได้เพิ่มชื่อไฟล์ที่เหมาะสมเพื่อหลีกเลี่ยงการเขียนทับไฟล์ต้นฉบับของคุณ
 
 ## ขั้นตอนที่ 5: จัดการข้อยกเว้น
 
@@ -111,7 +113,7 @@ Console.WriteLine("\nContents rearranged successfully using text replacement.\nF
 ```csharp
 catch (Exception ex)
 {
-    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from http://www.aspose.com/purchase/default.aspx");
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from http://www.aspose.com/purchase/default.aspx.");
 }
 ```
 การจับข้อยกเว้นช่วยให้คุณจัดการปัญหาต่างๆ ที่อาจเกิดขึ้นได้อย่างเหมาะสม เช่น ปัญหาการเข้าถึงไฟล์หรือใบอนุญาตไม่ถูกต้อง ซึ่งถือเป็นแนวทางปฏิบัติที่สำคัญในการพัฒนาซอฟต์แวร์!
@@ -122,7 +124,7 @@ catch (Exception ex)
 
 ## คำถามที่พบบ่อย
 
-### ฉันสามารถแทนที่ข้อความส่วนต่างๆ หลายส่วนได้หรือไม่
+### ฉันสามารถแทนที่ข้อความส่วนต่างๆ ที่แตกต่างกันหลายส่วนได้ไหม
 ใช่! เพียงปรับเปลี่ยนนิพจน์ปกติของคุณให้ตรงกับรูปแบบต่างๆ
 
 ### Aspose.PDF ฟรีหรือเปล่า?
@@ -135,10 +137,12 @@ Aspose.PDF เสนอให้ทดลองใช้ฟรีแบบจำ
 Aspose.PDF ยังมีวิธีการต่างๆ ในการจัดการรูปภาพอีกด้วย
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถค้นหาความช่วยเหลือได้จาก[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10).
+คุณสามารถค้นหาความช่วยเหลือได้จาก [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

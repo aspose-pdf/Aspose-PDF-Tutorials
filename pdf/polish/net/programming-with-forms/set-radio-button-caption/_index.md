@@ -1,14 +1,16 @@
 ---
-title: Ustaw podpis przycisku radiowego
-linktitle: Ustaw podpis przycisku radiowego
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak ustawić podpisy przycisków radiowych w plikach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez ładowanie, modyfikowanie i zapisywanie formularzy PDF.
-weight: 280
-url: /pl/net/programming-with-forms/set-radio-button-caption/
+"description": "Dowiedz się, jak ustawić podpisy przycisków radiowych w plikach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez ładowanie, modyfikowanie i zapisywanie formularzy PDF."
+"linktitle": "Ustaw podpis przycisku radiowego"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ustaw podpis przycisku radiowego"
+"url": "/pl/net/programming-with-forms/set-radio-button-caption/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw podpis przycisku radiowego
@@ -24,9 +26,9 @@ Zanim zagłębisz się w kod, musisz mieć pewność, że masz kilka rzeczy:
 1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Ta biblioteka pomoże Ci programowo manipulować plikami PDF.
 2. Środowisko programistyczne: Należy skonfigurować środowisko programistyczne .NET, np. Visual Studio.
 3. Przykładowy formularz PDF: Do tego samouczka będziesz potrzebować przykładowego formularza PDF z przyciskami radiowymi. Możesz użyć dowolnego istniejącego formularza PDF lub utworzyć nowy z przyciskami radiowymi.
-4. Podstawowa wiedza o języku C#: W tym przewodniku założono, że posiadasz podstawową wiedzę na temat programowania w języku C# i .NET.
+4. Podstawowa wiedza o języku C#: W tym przewodniku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C# i .NET.
 
- Jeśli nie zainstalowałeś jeszcze Aspose.PDF dla .NET lub potrzebujesz tymczasowej licencji, możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/) Lub[zdobądź tymczasową licencję](https://purchase.aspose.com/temporary-license/).
+Jeśli nie zainstalowałeś jeszcze Aspose.PDF dla .NET lub potrzebujesz tymczasowej licencji, możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/) Lub [zdobądź tymczasową licencję](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
@@ -43,7 +45,7 @@ Upewnij się, że te pakiety zostały dodane do projektu za pomocą NuGet lub in
 
 ## Krok 1: Załaduj formularz PDF
 
- Najpierw musisz załadować formularz PDF zawierający przyciski radiowe.`Aspose.Pdf.Facades.Form`klasa jest używana do tego celu. Oto jak to zrobić:
+Najpierw musisz załadować formularz PDF zawierający przyciski radiowe. `Aspose.Pdf.Facades.Form` klasa jest używana do tego celu. Oto jak to zrobić:
 
 ```csharp
 // Zdefiniuj ścieżkę do katalogu dokumentów
@@ -76,7 +78,7 @@ W tej pętli:
 
 ## Krok 3: Modyfikuj opcje przycisków radiowych
 
- Po zidentyfikowaniu pól przycisków radiowych możesz zmodyfikować ich opcje. W tym celu musisz rzutować pole na`RadioButtonField` i zaktualizuj jego opcje:
+Po zidentyfikowaniu pól przycisków radiowych możesz zmodyfikować ich opcje. W tym celu musisz rzutować pole na `RadioButtonField` i zaktualizuj jego opcje:
 
 ```csharp
     if (item.Contains("radio1"))
@@ -89,11 +91,11 @@ W tej pętli:
 
 Tutaj:
 - Sprawdzamy, czy nazwa pola zawiera „radio1”, aby zidentyfikować konkretne pole przycisku radiowego, które chcemy zmodyfikować.
-- `RadioButtonField`jest rzutowana z pól formularza w celu dokonania określonych modyfikacji.
+- `RadioButtonField` jest rzutowana z pól formularza w celu dokonania określonych modyfikacji.
 
 ## Krok 4: Ustaw podpis dla przycisku radiowego
 
- Aby ustawić lub zaktualizować podpis dla przycisku radiowego, należy utworzyć`TextFragment` i użyj`TextBuilder` aby umieścić go w wybranym miejscu:
+Aby ustawić lub zaktualizować podpis dla przycisku radiowego, należy utworzyć `TextFragment` użyj `TextBuilder` aby umieścić go w wybranym miejscu:
 
 ```csharp
         var updatedFragment = new Aspose.Pdf.Text.TextFragment("test123");
@@ -136,15 +138,15 @@ Dzięki temu zapewnimy, że:
 
 ## Wniosek
 
-Modyfikowanie podpisów przycisków radiowych w formularzu PDF przy użyciu Aspose.PDF dla .NET może znacznie zwiększyć interaktywność i użyteczność dokumentów. Dzięki krokom opisanym w tym samouczku możesz łatwo załadować plik PDF, zaktualizować opcje przycisków radiowych i zapisać zmiany. To podejście jest przydatne do zarządzania formularzami i zapewnia, że pliki PDF spełniają dokładne potrzeby użytkowników. Zanurz się w Aspose.PDF i odkryj jego możliwości w zakresie innych manipulacji plikami PDF!
+Modyfikowanie podpisów przycisków radiowych w formularzu PDF przy użyciu Aspose.PDF dla .NET może znacznie zwiększyć interaktywność i użyteczność dokumentów. Dzięki krokom opisanym w tym samouczku możesz łatwo załadować plik PDF, zaktualizować opcje przycisków radiowych i zapisać zmiany. To podejście jest przydatne do zarządzania formularzami i zapewnia, że Twoje pliki PDF spełniają dokładne potrzeby użytkowników. Zanurz się w Aspose.PDF i odkryj jego możliwości w zakresie innych manipulacji plikami PDF!
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę aktualizować wiele pól przycisków radiowych jednocześnie?
-Tak, możesz przeglądać wszystkie pola przycisków radiowych i stosować zmiany w razie potrzeby.
+Tak, możesz przeglądać wszystkie pola przycisków radiowych i wprowadzać zmiany w razie potrzeby.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF?
- Możesz zacząć od bezpłatnego okresu próbnego, ale do dłuższego użytkowania wymagana jest licencja.[Uzyskaj licencję tutaj](https://purchase.aspose.com/buy).
+Możesz zacząć od bezpłatnego okresu próbnego, ale do dłuższego użytkowania wymagana jest licencja. [Uzyskaj licencję tutaj](https://purchase.aspose.com/buy).
 
 ### Jak mogę przetestować zmiany przed zapisaniem pliku PDF?
 Możesz wyświetlić podgląd pliku PDF w środowisku programistycznym lub użyć przeglądarki PDF, aby sprawdzić zmiany.
@@ -154,9 +156,11 @@ Aspose.PDF obsługuje różne wersje .NET. Upewnij się, że sprawdziłeś zgodn
 
 ### Czy mogę w podobny sposób manipulować innymi polami formularza?
 Tak, podobne techniki można stosować do innych typów pól formularzy w dokumentach PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

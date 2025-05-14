@@ -1,263 +1,267 @@
 ---
-title: Tabulka V části Záhlaví Zápatí
-linktitle: Tabulka V části Záhlaví Zápatí
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak přidat tabulku do sekce záhlaví/zápatí dokumentu PDF pomocí Aspose.PDF pro .NET.
-weight: 170
-url: /cs/net/programming-with-stamps-and-watermarks/table-in-header-footer-section/
+"description": "Naučte se, jak přidat tabulku do záhlaví/zápatí dokumentu PDF pomocí Aspose.PDF pro .NET."
+"linktitle": "Tabulka v sekci záhlaví a zápatí"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Tabulka v sekci záhlaví a zápatí"
+"url": "/cs/net/programming-with-stamps-and-watermarks/table-in-header-footer-section/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tabulka V části Záhlaví Zápatí
+# Tabulka v sekci záhlaví a zápatí
 
 ## Zavedení
 
-Přistihli jste se někdy, že zíráte na obyčejný dokument PDF a přejete si, aby měl ten zvláštní šmrnc? Tak to máš štěstí! Aspose.PDF for .NET vám umožňuje vytvářet a manipulovat se soubory PDF jako profesionál. Dnes se ponoříme do praktické funkce, která vám umožní přidat tabulku do záhlaví vašeho dokumentu PDF. Nejen, že se naučíte, jak na to, ale provedu vás krok za krokem, takže celý proces bude hladký jako máslo. 🎉
+Už jste se někdy přistihli, že zíráte na obyčejný PDF dokument a přáli si, aby měl tenhle extra šmrnc? Máte štěstí! Aspose.PDF pro .NET vám umožňuje vytvářet a manipulovat s PDF soubory jako profesionál. Dnes se ponoříme do praktické funkce, která vám umožní přidat tabulku do záhlaví PDF dokumentu. Nejenže se naučíte, jak na to, ale já vás krok za krokem provedu celým procesem, aby byl co nejplynulejší. 🎉
 
 ## Předpoklady
 
-Než přejdeme k samotné části kódování, ujistěte se, že máte vše, co potřebujete, abyste mohli začít. Zde je to, co budete potřebovat:
+Než se pustíme do samotného kódování, ujistěte se, že máte vše, co potřebujete k zahájení. Zde je to, co budete potřebovat:
 
-1.  Visual Studio: Ujistěte se, že máte v počítači nainstalované Visual Studio. Pokud ne, můžete si ji stáhnout z[stránky společnosti Microsoft](https://visualstudio.microsoft.com/).
-2.  Knihovna Aspose.PDF: Musíte mít knihovnu Aspose.PDF pro .NET. K získání můžete použít následující odkaz[Aspose.PDF pro balíček .NET](https://releases.aspose.com/pdf/net/).
-3. Základní znalost C#: Měli byste mít alespoň základní znalosti C#. Nedělejte si starosti, pokud se stále učíte; Udělám to co nejjednodušší!
+1. Visual Studio: Ujistěte se, že máte v počítači nainstalované Visual Studio. Pokud ho nemáte, můžete si ho stáhnout z [Stránky společnosti Microsoft](https://visualstudio.microsoft.com/).
+2. Knihovna Aspose.PDF: Musíte mít knihovnu Aspose.PDF pro .NET. K jejímu získání můžete použít následující odkaz. [Aspose.PDF pro balíček .NET](https://releases.aspose.com/pdf/net/).
+3. Základní znalost C#: Měli byste mít alespoň základní znalosti C#. Nebojte se, pokud se stále učíte; budu se snažit vše co nejjednodušší!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Dobře, je čas si vyhrnout rukávy a pustit se do kódování! Nejprve však musíme nastavit naše prostředí importem potřebných balíčků. Postup je následující:
+Dobře, čas si vyhrnout rukávy a pustit se do programování! Nejdříve si ale musíme nastavit naše prostředí importem potřebných balíčků. Zde je návod, jak to udělat:
 
 ###  Otevřete svůj projekt
-Otevřete projekt sady Visual Studio, kde budete pracovat na vytváření PDF. 
+Otevřete projekt Visual Studia, ve kterém budete pracovat na vytváření PDF souboru. 
 
-###  Přidejte odkaz do Aspose.PDF
-1. Správce balíčků NuGet: Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení a vyberte „Spravovat balíčky NuGet“.
-2. Vyhledat Aspose.PDF: Do vyhledávacího řádku napište „Apose.PDF“ a nainstalujte balíček.
+###  Přidat odkaz na Aspose.PDF
+1. Správce balíčků NuGet: V Průzkumníku řešení klikněte pravým tlačítkem myši na projekt a vyberte možnost „Spravovat balíčky NuGet“.
+2. Vyhledejte Aspose.PDF: Do vyhledávacího řádku zadejte „Aspose.PDF“ a nainstalujte balíček.
 
-Na konci tohoto kroku byste měli mít vše nastaveno a připraveno začít kódovat!
+Na konci tohoto kroku byste měli mít vše nastavené a připravené k zahájení kódování!
 
-Teď si ušpiníme ruce nějakým kódem! Chcete-li vytvořit tabulku v záhlaví vašeho PDF, postupujte takto:
+A teď se pojďme pustit do kódování! Postupujte podle těchto kroků a vytvořte tabulku v záhlaví PDF souboru:
 
-## Krok 1: Nastavte cestu k adresáři vašeho dokumentu
+## Krok 1: Nastavení cesty k adresáři dokumentů
 
-Než začneme vytvářet naše PDF, musíme definovat, kde bude náš dokument uložen. Postup je následující:
+Než začneme vytvářet PDF, musíme si určit, kam bude náš dokument uložen. Postupujte takto:
 
 ```csharp
-// Cesta k adresáři dokumentů.
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // Změňte to na svůj skutečný adresář
+// Cesta k adresáři s dokumenty.
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Změňte toto na váš skutečný adresář
 ```
 
- Nahradit`YOUR DOCUMENT DIRECTORY` cestou, kam chcete soubor PDF uložit. To může být kdekoli ve vašem systému – jen se ujistěte, že je přístupný!
+Nahradit `YOUR DOCUMENT DIRECTORY` s cestou, kam chcete PDF uložit. Může to být kdekoli ve vašem systému – jen se ujistěte, že je to přístupné!
 
-## Krok 2: Vytvořte instanci dokumentu
+## Krok 2: Vytvoření instance dokumentu
 
-Dále vytvoříme nový dokument PDF.
+Dále vytvoříme nový PDF dokument.
 
 ```csharp
-// Vytvořte instanci dokumentu voláním prázdného konstruktoru
+// Vytvoření instance Document voláním prázdného konstruktoru
 Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document();
 ```
 
-To, co zde děláme, je vytvoření prázdného dokumentu PDF, kam přidáme všechny naše vychytávky.
+Zde vytvoříme prázdný PDF dokument, do kterého přidáme všechny naše potřebné informace.
 
 ## Krok 3: Vytvořte novou stránku
 
-Pojďme do našeho dokumentu přidat novou stránku. 
+Přidejme do našeho dokumentu novou stránku. 
 
 ```csharp
-// Vytvořte stránku v dokumentu pdf
+// Vytvořte stránku v dokumentu PDF
 Aspose.Pdf.Page page = pdfDocument.Pages.Add();
 ```
 
-Představte si tuto stránku jako prázdné plátno, kde namalujeme naše mistrovské dílo!
+Představte si tuto stránku jako prázdné plátno, na kterém budeme malovat naše mistrovské dílo!
 
-## Krok 4: Vytvořte sekci záhlaví
+## Krok 4: Vytvořte záhlaví
 
-Nyní vytvoříme záhlaví pro naše PDF.
+Nyní si vytvoříme záhlaví pro náš PDF soubor.
 
 ```csharp
-// Vytvořte sekci záhlaví souboru PDF
+// Vytvořte záhlaví souboru PDF
 Aspose.Pdf.HeaderFooter header = new Aspose.Pdf.HeaderFooter();
 ```
 
-Tato hlavička bude držet náš stůl. 
+Tato hlavička bude obsahovat naši tabulku. 
 
 ## Krok 5: Přiřaďte záhlaví stránce
 
-Dále se chceme ujistit, že se na stránce zobrazí naše záhlaví.
+Dále se chceme ujistit, že se naše záhlaví zobrazuje na stránce.
 
 ```csharp
-// Nastavte liché záhlaví pro soubor PDF
+// Nastavení záhlaví lichých znaků pro soubor PDF
 page.Header = header;
 ```
 
-## Krok 6: Nastavte horní okraj
+## Krok 6: Nastavení horního okraje
 
-Abychom se ujistili, že naše záhlaví má nahoře nějaký prostor pro dýchání, upravíme okraj.
+Abychom zajistili, že naše hlavička má v horní části nějaký prostor pro dýchání, upravme okraj.
 
 ```csharp
-//Nastavte horní okraj pro sekci záhlaví
+// Nastavení horního okraje pro záhlaví
 header.Margin.Top = 20;
 ```
 
-Nastavení okraje je jako dát vašemu textu nějaký osobní prostor – nikdo nemá rád stísněnost!
+Nastavení okraje je jako dát textu osobní prostor – nikdo nemá rád stísněné prostory!
 
 ## Krok 7: Vytvořte tabulku
 
-Nyní je čas vytvořit tabulku, která půjde do naší hlavičky.
+Nyní je čas vytvořit tabulku, která se zobrazí v naší hlavičce.
 
 ```csharp
-// Vytvořte instanci objektu tabulky
+// Vytvoření instance objektu tabulky
 Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 ```
 
-## Krok 8: Přidejte tabulku do záhlaví
+## Krok 8: Přidání tabulky do záhlaví
 
-Naši nově vytvořenou tabulku přidáme do kolekce odstavců záhlaví.
+Nově vytvořenou tabulku přidáme do kolekce odstavců v záhlaví.
 
 ```csharp
 // Přidejte tabulku do kolekce odstavců požadované sekce
 header.Paragraphs.Add(tab1);
 ```
 
-## Krok 9: Nastavte ohraničení buněk
+## Krok 9: Nastavení ohraničení buněk
 
-Dejme naší tabulce nějakou strukturu tím, že definujeme výchozí ohraničení buňky.
+Dáme naší tabulce určitou strukturu definováním výchozího ohraničení buňky.
 
 ```csharp
-// Nastavte výchozí ohraničení buňky pomocí objektu BorderInfo
+// Nastavení výchozího ohraničení buňky pomocí objektu BorderInfo
 tab1.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.1F);
 ```
 
-## Krok 10: Definujte šířky sloupců
+## Krok 10: Definování šířky sloupců
 
 Můžete určit, jak široký by měl být každý sloupec tabulky.
 
 ```csharp
-// Nastavte šířku sloupců tabulky
+// Nastavit šířky sloupců tabulky
 tab1.ColumnWidths = "60 300";
 ```
 
-Hodnoty představují šířku každého sloupce v bodech. Neváhejte je upravit tak, aby vyhovovaly vašim potřebám!
+Hodnoty představují šířku každého sloupce v bodech. Neváhejte je upravit podle svých potřeb!
 
-## Krok 11: Vytvořte řádky a přidejte buňky
+## Krok 11: Vytvoření řádků a přidání buněk
 
-Je čas hodit nějaké řádky a buňky! 
+Je čas přidat nějaké řádky a buňky! 
 
 ```csharp
-//Vytvořte řádky v tabulce a poté buňky v řádcích
+// Vytvořte řádky v tabulce a poté buňky v řádcích
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("Table in Header Section");
 row1.BackgroundColor = Color.Gray;
 ```
 
-Tím se vytvoří první řádek s buňkou obsahující text a barva pozadí se nastaví na šedou.
+Tím se vytvoří první řádek s buňkou obsahující text a nastaví se barva pozadí na šedou.
 
-## Krok 12: Nastavte rozsah řádků a styl textu
+## Krok 12: Nastavení rozpětí řádků a stylu textu
 
-Chcete, aby váš řádek zahrnoval více sloupců? Zde je postup:
+Chcete, aby váš řádek zabíral více sloupců? Zde je postup:
 
 ```csharp
-// Nastavte hodnotu rozsahu řádku pro první řádek na 2
+// Nastavte hodnotu rozpětí řádku pro první řádek na 2
 tab1.Rows[0].Cells[0].ColSpan = 2;
 tab1.Rows[0].Cells[0].DefaultCellTextState.ForegroundColor = Color.Cyan;
 tab1.Rows[0].Cells[0].DefaultCellTextState.Font = FontRepository.FindFont("Helvetica");
 ```
 
-Tento krok nejen nastaví rozsah řádků, ale také změní barvu textu a písmo.
+Tento krok nejen nastaví rozpětí řádků, ale také změní barvu textu a písmo.
 
-## Krok 13: Přidejte druhou řadu
+## Krok 13: Přidání druhého řádku
 
-Přidáme další řádek do našeho stolu, ano?
+Přidejme do tabulky další řádek, ano?
 
 ```csharp
-// Vytvořte další řádek v tabulce
+// Vytvořte v tabulce další řádek
 Aspose.Pdf.Row row2 = tab1.Rows.Add();
 
-// Nastavte barvu pozadí pro řádek 2
+// Nastavení barvy pozadí pro řádek 2
 row2.BackgroundColor = Color.White;
 ```
 
-## Krok 14: Přidejte obrázek do druhého řádku
+## Krok 14: Přidání obrázku do druhého řádku
 
-Nyní přidáme logo, aby náš stůl vypadal elegantně!
+Teď tam přidáme logo, aby náš stůl vypadal elegantně!
 
 ```csharp
 // Přidejte buňku, která obsahuje obrázek
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
-img.File = dataDir + "aspose-logo.jpg"; // Ujistěte se, že jste obrázek umístili do svého adresáře
+img.File = dataDir + "aspose-logo.jpg"; // Nezapomeňte umístit obrázek do adresáře
 ```
 
- Nezapomeňte vyměnit`"aspose-logo.jpg"` se skutečným názvem vašeho obrázku!
+Nezapomeňte vyměnit `"aspose-logo.jpg"` se skutečným názvem vašeho obrázku!
 
-## Krok 15: Upravte šířku obrázku
+## Krok 15: Úprava šířky obrázku
 
-Nastavte šířku obrázku, abyste zajistili, že bude v buňce vypadat přesně.
+Nastavte šířku obrázku tak, aby v buňce vypadal přesně.
 
 ```csharp
 // Nastavte šířku obrázku na 60
 img.FixWidth = 60;
 
-//Přidejte obrázek do buňky tabulky
+// Přidat obrázek do buňky tabulky
 Aspose.Pdf.Cell cell2 = row2.Cells.Add();
 cell2.Paragraphs.Add(img);
 ```
 
-## Krok 16: Přidejte text do druhé buňky
+## Krok 16: Přidání textu do druhé buňky
 
-Je čas přidat malý text vedle našeho loga!
+Je čas přidat krátký text vedle našeho loga!
 
 ```csharp
 row2.Cells.Add("Logo is looking fine !");
 row2.Cells[1].DefaultCellTextState.Font = FontRepository.FindFont("Helvetica");
 ```
 
-## Krok 17: Zarovnejte text svisle a vodorovně
+## Krok 17: Zarovnání textu svisle a vodorovně
 
-Ujistěte se, že vše vypadá uklizené. Zarovnejte text!
+Ujistěte se, že vše vypadá úhledně. Zarovnejte text!
 
 ```csharp
-// Nastavte svislé zarovnání textu na střed
+// Nastavit svislé zarovnání textu na střed
 row2.Cells[1].VerticalAlignment = Aspose.Pdf.VerticalAlignment.Center;
 row2.Cells[1].Alignment = Aspose.Pdf.HorizontalAlignment.Center;
 ```
 
-## Krok 18: Uložte dokument PDF
+## Krok 18: Uložení dokumentu PDF
 
-V neposlední řadě zachraňme náš výtvor!
+V neposlední řadě si pojďme zachránit náš výtvor!
 
 ```csharp
-// Uložte soubor Pdf
+// Uložit soubor PDF
 pdfDocument.Save(dataDir + "TableInHeaderFooterSection_out.pdf");
 ```
 
-Et voilà! Vytvořili jste úžasné PDF s tabulkou v záhlaví!
+voilà! Vytvořili jste úžasný PDF soubor s tabulkou v záhlaví!
 
 ## Závěr
 
-A tady to máte! Úspěšně jste přidali tabulku do záhlaví vašeho dokumentu PDF pomocí Aspose.PDF pro .NET. Je úžasné, jak jen pár řádků kódu dokáže přeměnit jednoduché PDF na profesionálně vypadající dokument. Ať už připravujete zprávy, faktury nebo prezentace, přidání nádechu kreativity může znamenat velký rozdíl. 
+A tady to máte! Úspěšně jste přidali tabulku do záhlaví vašeho PDF dokumentu pomocí Aspose.PDF pro .NET. Je úžasné, jak jen pár řádků kódu dokáže proměnit jednoduchý PDF v profesionálně vypadající dokument. Ať už připravujete zprávy, faktury nebo prezentace, přidání špetky kreativity může mít zásadní význam. 
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet a manipulovat s dokumenty PDF.
+Aspose.PDF pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet a manipulovat s PDF dokumenty.
 
 ### Potřebuji licenci k používání Aspose.PDF?
- I když můžete knihovnu během zkušebního období používat zdarma, pro prodloužené používání je vyžadována licence. Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro hodnocení.
+I když můžete knihovnu používat zdarma během zkušební doby, pro delší používání je vyžadována licence. Můžete získat [dočasná licence](https://purchase.aspose.com/temporary-license/) pro hodnocení.
 
 ### Kde najdu dokumentaci?
-Kompletní dokumentaci a příklady naleznete na[Dokumentační stránka Aspose.PDF](https://reference.aspose.com/pdf/net/).
+Komplexní dokumentaci a příklady naleznete na [Stránka s dokumentací Aspose.PDF](https://reference.aspose.com/pdf/net/).
 
-### Jak mohu kontaktovat podporu v případě technických problémů?
- Můžete se obrátit na podporu prostřednictvím[Aspose fórum](https://forum.aspose.com/c/pdf/10).
+### Jak mohu kontaktovat podporu s technickými problémy?
+O podporu se můžete obrátit prostřednictvím [Fórum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Mohu vytvářet tabulky v jiných částech PDF?
-Absolutně! Tabulky můžete vytvářet také v zápatích a částech těla; prostě postupujte podle podobných kroků.
+Rozhodně! Tabulky můžete vytvářet i v zápatích a sekcích těla; stačí postupovat podle podobných kroků.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Tanda Air Dari File PDF
-linktitle: Dapatkan Tanda Air Dari File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak tanda air dari berkas PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah. Tutorial terperinci untuk mengekstrak tanda air.
-weight: 100
-url: /id/net/programming-with-stamps-and-watermarks/get-watermark/
+"description": "Pelajari cara mengekstrak tanda air dari berkas PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah. Tutorial terperinci untuk mengekstrak tanda air."
+"linktitle": "Dapatkan Tanda Air Dari File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Tanda Air Dari File PDF"
+"url": "/id/net/programming-with-stamps-and-watermarks/get-watermark/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Tanda Air Dari File PDF
@@ -21,12 +23,12 @@ Jika berbicara tentang bekerja dengan PDF, Aspose.PDF for .NET menonjol sebagai 
 
 Sebelum menyelami kode, ada beberapa hal yang perlu Anda siapkan untuk mengikuti tutorial ini:
 
--  Aspose.PDF untuk Pustaka .NET: Unduh pustaka dari[Di Sini](https://releases.aspose.com/pdf/net/) atau gunakan manajer paket NuGet untuk menginstalnya.
+- Aspose.PDF untuk Pustaka .NET: Unduh pustaka dari [Di Sini](https://releases.aspose.com/pdf/net/) atau gunakan manajer paket NuGet untuk menginstalnya.
 - Lingkungan Pengembangan .NET: Anda dapat menggunakan Visual Studio atau IDE pilihan lainnya untuk pengembangan C#.
 - Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang C# dan pengembangan .NET.
--  File PDF: Siapkan file PDF yang berisi tanda air untuk tujuan pengujian. Kami akan menyebutnya sebagai`watermark.pdf` sepanjang tutorial.
+- File PDF: Siapkan file PDF yang berisi tanda air untuk tujuan pengujian. Kami akan menyebutnya sebagai `watermark.pdf` sepanjang tutorial.
 
- Untuk memulai Aspose.PDF, Anda dapat menjelajahi[dokumentasi](https://reference.aspose.com/pdf/net/) untuk mendapatkan gambaran umum perpustakaan.
+Untuk memulai Aspose.PDF, Anda dapat menjelajahi [dokumentasi](https://reference.aspose.com/pdf/net/) untuk mendapatkan gambaran umum perpustakaan.
 
 ## Paket Impor
 
@@ -52,7 +54,7 @@ Sebelum Anda dapat membuka dan memproses PDF, Anda perlu menentukan lokasi file 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Baris ini menentukan lokasi file PDF Anda di sistem Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan direktori sebenarnya tempat Anda`watermark.pdf` disimpan. Misalnya:
+Baris ini menentukan lokasi file PDF Anda di sistem Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan direktori sebenarnya tempat Anda `watermark.pdf` disimpan. Misalnya:
 
 ```csharp
 string dataDir = "C:\\MyDocuments\\";
@@ -60,13 +62,13 @@ string dataDir = "C:\\MyDocuments\\";
 
 ## Langkah 2: Buka Dokumen PDF
 
- Langkah selanjutnya adalah memuat file PDF ke dalam`Aspose.Pdf.Document` objek. Objek ini mewakili berkas PDF dan memungkinkan Anda berinteraksi dengan kontennya:
+Langkah selanjutnya adalah memuat file PDF ke dalam `Aspose.Pdf.Document` objek. Objek ini mewakili berkas PDF dan memungkinkan Anda berinteraksi dengan kontennya:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "watermark.pdf");
 ```
 
- Di sini, kami menggunakan`Document` kelas dari pustaka Aspose.PDF untuk memuat`watermark.pdf` file yang terletak di direktori yang ditentukan. Pastikan file tersebut ada di jalur yang Anda rujuk; jika tidak, Anda akan mengalami kesalahan file tidak ditemukan.
+Di sini, kami menggunakan `Document` kelas dari pustaka Aspose.PDF untuk memuat `watermark.pdf` file yang terletak di direktori yang ditentukan. Pastikan file tersebut ada di jalur yang Anda rujuk; jika tidak, Anda akan mengalami kesalahan file tidak ditemukan.
 
 ## Langkah 3: Akses Artefak Halaman Pertama
 
@@ -79,7 +81,7 @@ foreach (Artifact artifact in pdfDocument.Pages[1].Artifacts)
 }
 ```
 
- Dalam loop ini, kita mengakses`Artifacts` koleksi halaman pertama (`Pages[1]` ). Jika PDF Anda memiliki tanda air di halaman yang berbeda, Anda mungkin perlu mengubah indeks halaman sebagaimana mestinya. Setiap halaman dalam PDF berbasis nol, jadi halaman pertama`Pages[1]`.
+Dalam loop ini, kita mengakses `Artifacts` koleksi halaman pertama (`Pages[1]`). Jika PDF Anda memiliki tanda air di halaman yang berbeda, Anda mungkin perlu mengubah indeks halaman sebagaimana mestinya. Setiap halaman dalam PDF berbasis nol, jadi halaman pertama `Pages[1]`.
 
 ## Langkah 4: Ambil Informasi Tanda Air
 
@@ -101,7 +103,7 @@ Dalam tutorial ini, kami telah membahas cara mengekstrak detail tanda air dari d
 
 Pastikan untuk bereksperimen dengan PDF yang berbeda, karena cara penerapan tanda air dapat bervariasi dari satu dokumen ke dokumen lainnya. Dan ingat, Aspose.PDF dapat melakukan lebih dari sekadar menangani tanda air—serangkaian fiturnya yang lengkap memungkinkan manipulasi PDF yang ekstensif.
 
- Untuk informasi lebih rinci, Anda dapat mengunjungi[Dokumentasi Aspose.PDF untuk .NET](https://reference.aspose.com/pdf/net/) dan menjelajah lebih jauh.
+Untuk informasi lebih rinci, Anda dapat mengunjungi [Dokumentasi Aspose.PDF untuk .NET](https://reference.aspose.com/pdf/net/) dan menjelajah lebih jauh.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -109,7 +111,7 @@ Pastikan untuk bereksperimen dengan PDF yang berbeda, karena cara penerapan tand
 Ya, Aspose.PDF dapat mengekstrak tanda air berbasis teks dan gambar dari PDF. Properti artifak menyediakan informasi tentang semua jenis tanda air.
 
 ### Bagaimana jika tanda air saya ada di halaman lain?
- Anda dapat mengubah indeks halaman di`pdfDocument.Pages[]` array untuk mengakses artefak pada halaman lain.
+Anda dapat mengubah indeks halaman di `pdfDocument.Pages[]` array untuk mengakses artefak pada halaman lain.
 
 ### Apakah ada cara menghilangkan tanda air setelah mengambilnya?
 Ya, Anda dapat menggunakan Aspose.PDF tidak hanya untuk membaca tetapi juga menghapus tanda air dari berkas PDF. Pustaka menyediakan metode untuk mengubah atau menghapus artefak.
@@ -119,9 +121,11 @@ Tentu saja! Perulangan ini akan mengulangi semua artifak pada halaman, jadi jika
 
 ### Apakah Aspose.PDF kompatibel dengan .NET Core?
 Ya, Aspose.PDF kompatibel dengan .NET Framework dan .NET Core, membuatnya serbaguna untuk berbagai jenis proyek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

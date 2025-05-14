@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Implementing Java PDF Tagging with Aspose.PDF: Enhance Accessibility
 
@@ -202,6 +204,9 @@ You've learned how to implement essential features of the **Aspose.PDF Java** li
 By following this guide, you are equipped to create well-structured and accessible PDFs using Aspose.PDF for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

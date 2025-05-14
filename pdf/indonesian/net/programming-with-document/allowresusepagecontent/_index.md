@@ -1,14 +1,16 @@
 ---
-title: Izinkan Penggunaan Kembali Konten Halaman
-linktitle: Izinkan Penggunaan Kembali Konten Halaman
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengoptimalkan PDF dengan mengaktifkan fitur "Izinkan Penggunaan Kembali Konten Halaman" menggunakan Aspose.PDF untuk .NET. Kurangi ukuran file dan tingkatkan kinerja.
-weight: 50
-url: /id/net/programming-with-document/allowresusepagecontent/
+"description": "Pelajari cara mengoptimalkan PDF dengan mengaktifkan fitur \"Izinkan Penggunaan Kembali Konten Halaman\" menggunakan Aspose.PDF untuk .NET. Kurangi ukuran file dan tingkatkan kinerja."
+"linktitle": "Izinkan Penggunaan Kembali Konten Halaman"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Izinkan Penggunaan Kembali Konten Halaman"
+"url": "/id/net/programming-with-document/allowresusepagecontent/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Izinkan Penggunaan Kembali Konten Halaman
@@ -22,7 +24,7 @@ Di dunia digital saat ini, PDF ada di mana-mana. Baik Anda berbagi laporan, pres
 Sebelum kita menyelami seluk-beluk pengoptimalan PDF, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sinilah Anda akan menulis dan menjalankan kode .NET.
-2.  Aspose.PDF untuk .NET: Anda dapat mengunduh pustaka dari[Situs web Aspose](https://releases.aspose.com/pdf/net/) Jika Anda ingin mencobanya terlebih dahulu, Anda juga bisa mendapatkan[uji coba gratis](https://releases.aspose.com/).
+2. Aspose.PDF untuk .NET: Anda dapat mengunduh pustaka dari [Situs web Aspose](https://releases.aspose.com/pdf/net/)Jika Anda ingin mencobanya terlebih dahulu, Anda juga bisa mendapatkan [uji coba gratis](https://releases.aspose.com/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode yang akan kita gunakan.
 
 ## Paket Impor
@@ -40,7 +42,7 @@ Sekarang setelah Anda menyiapkan semuanya, mari masuk ke proses pengoptimalan!
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
-Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah berkas PDF asli Anda akan ditempatkan, dan di mana versi yang dioptimalkan akan disimpan.
+Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah berkas PDF asli Anda akan berada, dan di mana versi yang dioptimalkan akan disimpan.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Muat Dokumen PDF
 
- Selanjutnya, Anda akan memuat dokumen PDF yang ingin Anda optimalkan. Ini dilakukan dengan menggunakan`Document` kelas dari pustaka Aspose.PDF.
+Selanjutnya, Anda akan memuat dokumen PDF yang ingin Anda optimalkan. Ini dilakukan dengan menggunakan `Document` kelas dari pustaka Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
@@ -114,10 +116,12 @@ Anda dapat menginstalnya melalui NuGet Package Manager di Visual Studio atau men
 Mengoptimalkan file PDF akan mengurangi ukurannya, membuatnya lebih mudah untuk dibagikan dan disimpan, sambil tetap menjaga kualitasnya.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dukungan dan mengajukan pertanyaan di [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

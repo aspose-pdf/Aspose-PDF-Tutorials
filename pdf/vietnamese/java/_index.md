@@ -1,13 +1,15 @@
 ---
-title: Hướng dẫn sử dụng API xử lý Aspose.PDF
-linktitle: Hướng dẫn sử dụng Aspose.PDF cho Java
-weight: 10
-url: /vi/java/
-description: Khám phá hướng dẫn về Aspose.PDF dành cho Java, thành thạo thao tác PDF và khai thác sức mạnh của nó để tạo, chỉnh sửa và tối ưu hóa PDF một cách liền mạch.
+"description": "Khám phá hướng dẫn về Aspose.PDF dành cho Java, thành thạo thao tác PDF và khai thác sức mạnh của nó để tạo, chỉnh sửa và tối ưu hóa PDF một cách liền mạch."
+"linktitle": "Hướng dẫn sử dụng Aspose.PDF cho Java"
+"title": "Hướng dẫn sử dụng API xử lý Aspose.PDF"
+"url": "/vi/java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hướng dẫn sử dụng API xử lý Aspose.PDF
@@ -27,7 +29,8 @@ Các hướng dẫn của chúng tôi bao gồm nhiều nhiệm vụ liên quan 
 Hãy tham gia hướng dẫn của chúng tôi ngay hôm nay và bắt đầu hành trình làm chủ nghệ thuật phát triển PDF với Aspose.PDF for Java. Hợp lý hóa quy trình làm việc tài liệu của bạn, tạo PDF nổi bật và mở ra cánh cửa đến với vô vàn khả năng. Các hướng dẫn này chính là chìa khóa để bạn trở thành một nhà phát triển PDF thành thạo, sẵn sàng giải quyết mọi nhiệm vụ liên quan đến PDF một cách tự tin.
 
 ## Hướng dẫn sử dụng Aspose.PDF cho Java
-
+### [Bắt đầu](./getting-started/)
+Hướng dẫn từng bước cài đặt Aspose.PDF, cấp phép, thiết lập và tạo tài liệu PDF đầu tiên của bạn trong các ứng dụng Java.
 ### [Chú thích PDF](./pdf-annotations/)
 Khám phá hướng dẫn chú thích PDF với Aspose.PDF cho Java, tìm hiểu cách thêm tính tương tác, bình luận và nhiều tính năng khác vào PDF của bạn.
 ### [Tệp đính kèm PDF](./pdf-attachments/)
@@ -58,11 +61,47 @@ Làm chủ thẻ PDF và cấu trúc trong Java với hướng dẫn Aspose.PDF 
 Tìm hiểu về các kiểu PDF và định dạng trong Java với Aspose.PDF cho Java. Làm chủ tính thẩm mỹ và bố cục của PDF để có những tài liệu tuyệt đẹp.
 ### [Trích xuất văn bản PDF](./pdf-text-extraction/)
 Tìm hiểu cách trích xuất văn bản PDF với Aspose.PDF cho Java. Nhận hướng dẫn từng bước để trích xuất văn bản hiệu quả từ PDF.
-### [Xác thực và kiểm tra PDF](./pdf-validation-and-verification/)
+### [Xác thực và xác minh PDF](./pdf-validation-and-verification/)
 Khám phá xác thực và xác minh PDF bằng Aspose.PDF cho Java. Đảm bảo tính toàn vẹn và tuân thủ của tài liệu trong hướng dẫn toàn diện của chúng tôi.
+### [Tạo tài liệu](./document-creation/)
+Tìm hiểu cách tạo tài liệu PDF từ đầu, mẫu và các định dạng khác bằng Aspose.PDF cho Java thông qua hướng dẫn chi tiết.
+### [Thao tác tài liệu](./document-manipulation/)
+Hướng dẫn đầy đủ về cách thêm, sửa đổi và thao tác nội dung trong tài liệu PDF bằng Aspose.PDF cho Java.
+### [Hoạt động văn bản](./text-operations/)
+Hướng dẫn từng bước về cách làm việc với văn bản, phông chữ, định dạng và trích xuất văn bản trong tài liệu PDF bằng Aspose.PDF cho Java.
+### [Hình ảnh & Đồ họa](./images-graphics/)
+Học cách làm việc với hình ảnh, đồ họa vector và các thành phần trực quan trong tài liệu PDF với hướng dẫn Java Aspose.PDF này.
+### [Bảng & Danh sách](./tables-lists/)
+Hướng dẫn đầy đủ về cách tạo và thao tác bảng, danh sách và nội dung có cấu trúc trong tài liệu PDF bằng Aspose.PDF cho Java.
+### [Biểu mẫu & Chú thích](./forms-annotations/)
+Hướng dẫn từng bước để làm việc với biểu mẫu tương tác, chú thích và bình luận trong tài liệu PDF bằng Aspose.PDF cho Java.
+### [Bảo mật & Quyền](./security-permissions/)
+Học cách triển khai mã hóa tài liệu, chữ ký số, biên tập và kiểm soát truy cập trong tài liệu PDF bằng hướng dẫn Java Aspose.PDF.
+### [Chuyển đổi & Xuất khẩu](./conversion-export/)
+Hướng dẫn đầy đủ về cách chuyển đổi tài liệu PDF sang và từ các định dạng khác (DOC, DOCX, HTML, hình ảnh) bằng Aspose.PDF cho Java.
+### [In ấn & Kết xuất](./printing-rendering/)
+Hướng dẫn từng bước để triển khai chức năng in, hiển thị trực quan và xem trước PDF bằng Aspose.PDF cho Java.
+### [Tệp đính kèm & Tệp nhúng](./attachments-embedded-files/)
+Học cách làm việc với tệp đính kèm, tài nguyên nhúng và nội dung được liên kết trong tài liệu PDF bằng Aspose.PDF cho Java.
+### [Siêu dữ liệu & Thông tin tài liệu](./metadata-document-info/)
+Hướng dẫn đầy đủ về cách quản lý thuộc tính tài liệu, siêu dữ liệu và trường thông tin trong tệp PDF bằng Aspose.PDF cho Java.
+### [Tuân thủ PDF/A](./pdfa-compliance/)
+Hướng dẫn từng bước để tạo và xác thực tài liệu tuân thủ PDF/A để lưu trữ bằng Aspose.PDF cho Java.
+### [Dấu trang & Điều hướng](./bookmarks-navigation/)
+Học cách triển khai dấu trang tài liệu, siêu liên kết và các thành phần điều hướng trong tài liệu PDF bằng hướng dẫn Java Aspose.PDF.
+### [Hình mờ & Nền](./watermarks-backgrounds/)
+Hướng dẫn đầy đủ về cách thêm hình mờ văn bản và hình ảnh, hình nền và các yếu tố trang trí vào tài liệu PDF bằng Aspose.PDF cho Java.
+### [Chữ ký số](./digital-signatures/)
+Hướng dẫn từng bước để triển khai chữ ký số, chứng chỉ và xác thực chữ ký trong tài liệu PDF bằng Aspose.PDF cho Java.
+### [Tính năng nâng cao](./advanced-features/)
+Học cách triển khai các lớp, danh mục đầu tư, tính năng trợ năng và chức năng PDF nâng cao với các hướng dẫn Java Aspose.PDF này.
+### [Tối ưu hóa hiệu suất](./performance-optimization/)
+Hướng dẫn từng bước để tối ưu hóa việc sử dụng bộ nhớ, cải thiện tốc độ xử lý và xử lý các tệp PDF lớn bằng Aspose.PDF cho Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

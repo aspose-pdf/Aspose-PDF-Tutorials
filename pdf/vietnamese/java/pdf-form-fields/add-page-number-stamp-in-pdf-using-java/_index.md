@@ -1,14 +1,16 @@
 ---
-title: Thêm Dấu Số Trang vào PDF bằng Java
-linktitle: Thêm Dấu Số Trang vào PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách dễ dàng thêm dấu số trang vào tài liệu PDF bằng Java với Aspose.PDF for Java. Cải thiện PDF của bạn bằng số trang có thể tùy chỉnh.
-weight: 11
-url: /vi/java/pdf-form-fields/add-page-number-stamp-in-pdf-using-java/
+"description": "Tìm hiểu cách dễ dàng thêm dấu số trang vào tài liệu PDF bằng Java với Aspose.PDF for Java. Cải thiện PDF của bạn bằng số trang có thể tùy chỉnh."
+"linktitle": "Thêm Dấu Số Trang vào PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm Dấu Số Trang vào PDF bằng Java"
+"url": "/vi/java/pdf-form-fields/add-page-number-stamp-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Dấu Số Trang vào PDF bằng Java
@@ -22,13 +24,13 @@ Tài liệu PDF được sử dụng rộng rãi để chia sẻ và trình bày
 
 Trước khi đi sâu vào mã hóa, bạn sẽ cần thiết lập Aspose.PDF cho Java. Thực hiện theo các bước sau:
 
-1.  Tải xuống Aspose.PDF cho Java: Truy cập thư viện từ[đây](https://releases.aspose.com/pdf/java/) và tải xuống phiên bản phù hợp cho dự án của bạn.
+1. Tải xuống Aspose.PDF cho Java: Truy cập thư viện từ [đây](https://releases.aspose.com/pdf/java/) và tải xuống phiên bản phù hợp cho dự án của bạn.
 
 2. Tạo một dự án Java: Nếu bạn chưa có dự án Java, hãy thiết lập một dự án mới bằng IDE mà bạn thích.
 
 ## Thêm phụ thuộc
 
- Sau khi bạn có Aspose.PDF cho Java, hãy thêm nó làm phụ thuộc vào dự án của bạn. Nếu bạn đang sử dụng Maven, hãy thêm phụ thuộc sau vào`pom.xml`:
+Sau khi bạn có Aspose.PDF cho Java, hãy thêm nó làm phụ thuộc vào dự án của bạn. Nếu bạn đang sử dụng Maven, hãy thêm phụ thuộc sau vào `pom.xml`:
 
 ```xml
 <dependency>
@@ -38,10 +40,10 @@ Trước khi đi sâu vào mã hóa, bạn sẽ cần thiết lập Aspose.PDF c
 </dependency>
 ```
 
-Nếu bạn thích Gradle, hãy đưa điều này vào`build.gradle` tài liệu:
+Nếu bạn thích Gradle, hãy đưa điều này vào `build.gradle` tài liệu:
 
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-pdf', version: '21.11' // Thay thế bằng phiên bản mới nhất
+implementation group: 'com.aspose', name: 'aspose-pdf', version: '21.11' // Replace with the latest version
 ```
 
 ## Mã hóa con dấu số trang
@@ -80,13 +82,13 @@ Trong đoạn mã này, chúng ta tải một tài liệu PDF, tạo dấu số 
 
 Để áp dụng dấu số trang, hãy làm theo các bước sau:
 
-1.  Tải tài liệu PDF bằng cách sử dụng`Document pdfDocument = new Document("input.pdf");` , Ở đâu`"input.pdf"` là đường dẫn đến tệp PDF của bạn.
+1. Tải tài liệu PDF bằng cách sử dụng `Document pdfDocument = new Document("input.pdf");`, Ở đâu `"input.pdf"` là đường dẫn đến tệp PDF của bạn.
 
-2.  Tạo một`PageNumberStamp` đối tượng và tùy chỉnh theo sở thích của bạn.
+2. Tạo một `PageNumberStamp` đối tượng và tùy chỉnh theo sở thích của bạn.
 
 3. Thêm con dấu vào từng trang trong tệp PDF bằng cách sử dụng vòng lặp.
 
-4.  Lưu PDF đã sửa đổi bằng cách sử dụng`pdfDocument.save("output.pdf");` . Bạn có thể thay thế`"output.pdf"` với tên tập tin mong muốn.
+4. Lưu PDF đã sửa đổi bằng cách sử dụng `pdfDocument.save("output.pdf");`. Bạn có thể thay thế `"output.pdf"` với tên tập tin mong muốn.
 
 ## Kiểm tra kết quả
 
@@ -100,7 +102,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày cách thêm tem số tra
 
 ### Làm thế nào để tải xuống Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ trang web tại[đây](https://releases.aspose.com/pdf/java/). Chọn phiên bản phù hợp với dự án của bạn.
+Bạn có thể tải xuống Aspose.PDF cho Java từ trang web tại [đây](https://releases.aspose.com/pdf/java/). Chọn phiên bản phù hợp với dự án của bạn.
 
 ### Tôi có thể tùy chỉnh giao diện của con dấu số trang không?
 
@@ -109,9 +111,11 @@ Có, Aspose.PDF for Java cho phép tùy chỉnh rộng rãi con dấu số trang
 ### Aspose.PDF cho Java có tương thích với các phiên bản PDF khác nhau không?
 
 Chắc chắn rồi! Aspose.PDF for Java hỗ trợ nhiều phiên bản PDF khác nhau, đảm bảo khả năng tương thích với nhiều loại tài liệu, bất kể phiên bản PDF của chúng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

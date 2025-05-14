@@ -1,14 +1,16 @@
 ---
-title: Operacje na dokumencie PDF
-linktitle: Operacje na dokumencie PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Poznaj operacje na dokumentach PDF z Aspose.PDF dla Javy. Naucz się manipulować, tworzyć i ulepszać pliki PDF bezproblemowo w Javie.
-weight: 17
-url: /pl/java/pdf-document-operations/
+"description": "Poznaj operacje na dokumentach PDF z Aspose.PDF dla Javy. Naucz się manipulować, tworzyć i ulepszać pliki PDF bezproblemowo w Javie."
+"linktitle": "Operacje na dokumencie PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Operacje na dokumencie PDF"
+"url": "/pl/java/pdf-document-operations/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Operacje na dokumencie PDF
@@ -28,22 +30,24 @@ Aspose.PDF for Java otwiera drzwi do dynamicznego tworzenia plików PDF. Dowiesz
 
 Wydajność jest kluczowa w operacjach dokumentów PDF, a my pokażemy Ci, jak zoptymalizować pliki PDF pod kątem wydajności. Odkryjesz techniki kompresji plików PDF, zmniejszania rozmiaru pliku i poprawy szybkości renderowania. Te optymalizacje zapewnią, że Twoje pliki PDF będą przyjazne dla użytkownika i wydajne pod względem zasobów.
 
-Dołącz do nas i poznaj świat operacji na dokumentach PDF dzięki Aspose.PDF dla Java, a także wznieś swoje umiejętności manipulowania plikami PDF na nowy poziom.
+Dołącz do nas i poznaj świat operacji na dokumentach PDF dzięki Aspose.PDF for Java, a także wznieś swoje umiejętności manipulowania plikami PDF na nowy poziom.
 
 ## Samouczki dotyczące operacji na dokumentach PDF
 ### [Dodaj obraz jako tło w pływającym polu pliku PDF za pomocą Java](./add-image-stamp-as-background-in-floating-box-of-pdf-using-java/)
 Dowiedz się, jak dodawać stemple graficzne jako tła w plikach PDF przy użyciu Java i Aspose.PDF dla Java. Przewodnik krok po kroku z przykładami kodu do niestandardowego brandingu i informacji.
 ### [Dodawanie różnych nagłówków w jednym pliku PDF za pomocą Java](./adding-different-headers-in-one-pdf-file-using-java/)
-Dowiedz się, jak dodawać różne nagłówki w jednym pliku PDF za pomocą Java z Aspose.PDF. Przewodnik krok po kroku dotyczący dostosowywania nagłówków PDF.
+Dowiedz się, jak dodać różne nagłówki w jednym pliku PDF za pomocą Java z Aspose.PDF. Przewodnik krok po kroku dotyczący dostosowywania nagłówków PDF.
 ### [Dodawanie pieczątki graficznej do pliku PDF za pomocą Java](./adding-image-stamp-in-pdf-file-using-java/)
 Dowiedz się, jak dodawać stemple graficzne do plików PDF za pomocą języka Java, korzystając z tego kompleksowego samouczka dotyczącego programu Aspose.PDF dla języka Java.
 ### [Dodawanie znacznika strony PDF w pliku PDF za pomocą Java](./adding-pdf-page-stamp-in-pdf-file-using-java/)
 Dowiedz się, jak dodawać stemple stron PDF w Javie za pomocą Aspose.PDF. Ten przewodnik krok po kroku pokazuje, jak bez wysiłku dostosowywać stemple do dokumentów PDF.
 ### [Dodawanie tekstu w nagłówku lub stopce pliku PDF za pomocą Java](./adding-text-in-header-or-footer-of-pdf-file-using-java/)
 Dowiedz się, jak ulepszyć dokumenty PDF, dodając tekst do nagłówka lub stopki za pomocą Javy. Poznaj instrukcje krok po kroku z Aspose.PDF dla Javy.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

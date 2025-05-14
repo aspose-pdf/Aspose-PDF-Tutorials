@@ -1,14 +1,16 @@
 ---
-title: แทนที่รูปภาพในไฟล์ PDF ที่มีอยู่โดยใช้ Java
-linktitle: แทนที่รูปภาพในไฟล์ PDF ที่มีอยู่โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการแทนที่รูปภาพในไฟล์ PDF ด้วย Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการแทนที่รูปภาพอย่างราบรื่น
-weight: 11
-url: /th/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-java/
+"description": "เรียนรู้วิธีการแทนที่รูปภาพในไฟล์ PDF ด้วย Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการแทนที่รูปภาพอย่างราบรื่น"
+"linktitle": "แทนที่รูปภาพในไฟล์ PDF ที่มีอยู่โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "แทนที่รูปภาพในไฟล์ PDF ที่มีอยู่โดยใช้ Java"
+"url": "/th/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทนที่รูปภาพในไฟล์ PDF ที่มีอยู่โดยใช้ Java
@@ -24,7 +26,7 @@ url: /th/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-ja
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) ที่คุณเลือก (เช่น Eclipse, IntelliJ IDEA)
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การจัดเตรียมสภาพแวดล้อม
 
@@ -53,7 +55,7 @@ url: /th/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-ja
 Document pdfDocument = new Document("path/to/your/pdf/file.pdf");
 ```
 
- แทนที่`"path/to/your/pdf/file.pdf"` พร้อมเส้นทางจริงไปยังไฟล์ PDF ของคุณ
+แทนที่ `"path/to/your/pdf/file.pdf"` พร้อมเส้นทางจริงไปยังไฟล์ PDF ของคุณ
 
 ## การแทนที่รูปภาพใน PDF
 
@@ -65,7 +67,7 @@ int pageNumber = 0;
 
 // ระบุพิกัดที่จะแทนที่รูปภาพ
 float x = 100; // พิกัด X
-float y = 200; //พิกัด Y
+float y = 200; // พิกัด Y
 
 // ระบุเส้นทางไปยังภาพใหม่
 String newImagePath = "path/to/your/new/image.png";
@@ -85,7 +87,7 @@ pdfDocument.getPages().get_Item(pageNumber).replaceImage(x, y, newImagePath);
 pdfDocument.save("path/to/your/output/modified.pdf");
 ```
 
- แทนที่`"path/to/your/output/modified.pdf"` พร้อมเส้นทางและชื่อไฟล์ที่ต้องการสำหรับ PDF ที่แก้ไข
+แทนที่ `"path/to/your/output/modified.pdf"` พร้อมเส้นทางและชื่อไฟล์ที่ต้องการสำหรับ PDF ที่แก้ไข
 
 ## บทสรุป
 
@@ -95,7 +97,7 @@ pdfDocument.save("path/to/your/output/modified.pdf");
 
 ### ฉันจะได้รับไลบรารี Aspose.PDF สำหรับ Java ได้อย่างไร
 
- คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ### ไลบรารี Aspose.PDF สามารถใช้งานได้ฟรีหรือไม่?
 
@@ -111,10 +113,12 @@ Aspose.PDF สำหรับ Java รองรับรูปแบบภาพ
 
 ### ฉันจะได้รับการสนับสนุนหรือความช่วยเหลือเพิ่มเติมได้อย่างไร
 
- สำหรับการสนับสนุนและทรัพยากรเพิ่มเติม คุณสามารถเยี่ยมชมเอกสารสำหรับ Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+สำหรับการสนับสนุนและทรัพยากรเพิ่มเติม คุณสามารถเยี่ยมชมเอกสารสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

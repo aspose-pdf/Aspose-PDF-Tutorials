@@ -1,14 +1,16 @@
 ---
-title: ระบุว่ารูปภาพภายใน PDF เป็นสีหรือขาวดำใน Java
-linktitle: ระบุว่ารูปภาพภายใน PDF เป็นสีหรือขาวดำใน Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีระบุรูปภาพสีหรือขาวดำภายใน PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนของเราจะทำให้กระบวนการนี้ง่ายขึ้น
-weight: 10
-url: /th/java/pdf-image-manipulation/identify-if-image-inside-pdf-is-colored-or-black-and-white-in-java/
+"description": "เรียนรู้วิธีระบุรูปภาพสีหรือขาวดำในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนของเราจะทำให้กระบวนการนี้ง่ายขึ้น"
+"linktitle": "ระบุว่ารูปภาพภายใน PDF เป็นสีหรือขาวดำใน Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ระบุว่ารูปภาพภายใน PDF เป็นสีหรือขาวดำใน Java"
+"url": "/th/java/pdf-image-manipulation/identify-if-image-inside-pdf-is-colored-or-black-and-white-in-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ระบุว่ารูปภาพภายใน PDF เป็นสีหรือขาวดำใน Java
@@ -16,7 +18,7 @@ url: /th/java/pdf-image-manipulation/identify-if-image-inside-pdf-is-colored-or-
 
 ## การแนะนำ
 
-ในโลกของการประมวลผลเอกสาร ไฟล์ PDF มีอยู่ทั่วไปและมักมีรูปภาพด้วย การกำหนดว่ารูปภาพในเอกสาร PDF เป็นสีหรือขาวดำอาจเป็นงานที่สำคัญ โดยเฉพาะในสถานการณ์ที่ต้องมีการประมวลผลหรือวิเคราะห์รูปภาพ ในบทความนี้ เราจะมาสำรวจวิธีการระบุโหมดสีของรูปภาพภายในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java
+ในโลกของการประมวลผลเอกสาร ไฟล์ PDF มีอยู่ทั่วไปและมักมีรูปภาพด้วย การกำหนดว่ารูปภาพในเอกสาร PDF เป็นสีหรือขาวดำอาจเป็นงานที่สำคัญ โดยเฉพาะในสถานการณ์ที่ต้องมีการประมวลผลหรือวิเคราะห์รูปภาพ ในบทความนี้ เราจะสำรวจวิธีการระบุโหมดสีของรูปภาพภายในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java
 
 ## ทำความเข้าใจ Aspose.PDF สำหรับ Java
 
@@ -31,7 +33,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีอันท
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - ชุดพัฒนา Java (JDK)
--  Aspose.PDF สำหรับไลบรารี Java (คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF สำหรับไลบรารี Java (คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/)
 
 ## การโหลดเอกสาร PDF
 
@@ -114,7 +116,7 @@ Aspose.PDF สำหรับ Java ให้การตรวจจับสี
 
 ### ฉันสามารถใช้ Aspose.PDF สำหรับ Java ในโครงการเชิงพาณิชย์ของฉันได้หรือไม่
 
-ใช่ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ แต่มีตัวเลือกการออกใบอนุญาตต่างๆ มากมาย รวมถึงรุ่นทดลองใช้งานฟรี คุณสามารถเลือกใบอนุญาตที่เหมาะกับความต้องการของโครงการของคุณได้มากที่สุด
+ใช่ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ แต่มีตัวเลือกการออกใบอนุญาตต่างๆ มากมาย รวมถึงรุ่นทดลองใช้งานฟรี คุณสามารถเลือกใบอนุญาตที่เหมาะกับความต้องการของโครงการของคุณมากที่สุดได้
 
 ### มีข้อควรพิจารณาด้านประสิทธิภาพใดๆ หรือไม่เมื่อทำงานกับ PDF ขนาดใหญ่
 
@@ -126,10 +128,12 @@ Aspose.PDF สำหรับ Java ให้การตรวจจับสี
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถเข้าถึงเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถเข้าถึงเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

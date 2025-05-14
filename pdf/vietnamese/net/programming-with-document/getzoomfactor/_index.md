@@ -1,14 +1,16 @@
 ---
-title: Nhận Hệ số Phóng to trong Tệp PDF
-linktitle: Nhận Hệ số Phóng to trong Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách sử dụng Aspose.PDF cho .NET để có được hệ số thu phóng trong tệp PDF với hướng dẫn từng bước này.
-weight: 210
-url: /vi/net/programming-with-document/getzoomfactor/
+"description": "Tìm hiểu cách sử dụng Aspose.PDF cho .NET để có được hệ số thu phóng trong tệp PDF với hướng dẫn từng bước này."
+"linktitle": "Nhận Hệ số Phóng to trong Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhận Hệ số Phóng to trong Tệp PDF"
+"url": "/vi/net/programming-with-document/getzoomfactor/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận Hệ số Phóng to trong Tệp PDF
@@ -22,7 +24,7 @@ Trong hướng dẫn trước, chúng ta đã khám phá cách lấy hệ số t
 Trước khi đi sâu vào nội dung mở rộng, hãy đảm bảo bạn có những điều sau:
 
 1. Visual Studio: Môi trường phát triển để viết và kiểm tra mã của bạn.
-2. Aspose.PDF cho .NET: Tải xuống và cài đặt thư viện từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Tải xuống và cài đặt thư viện từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn theo dõi dễ dàng hơn.
 
 ## Nhập gói
@@ -45,7 +47,7 @@ Tạo một dự án C# mới trong Visual Studio rất đơn giản. Sau đây 
 
 1. Mở Visual Studio và chọn Tạo dự án mới.
 2. Chọn Console App (.NET Core) hoặc Console App (.NET Framework) theo sở thích của bạn.
-3.  Đặt tên cho dự án của bạn (ví dụ:`PdfZoomFactorExample`) và nhấp vào Tạo.
+3. Đặt tên cho dự án của bạn (ví dụ: `PdfZoomFactorExample`) và nhấp vào Tạo.
 
 ## Bước 2: Xác định thư mục tài liệu
 
@@ -60,25 +62,25 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 3: Khởi tạo đối tượng tài liệu
 
-Tạo một`Document` đối tượng là cần thiết để truy cập tệp PDF. Đây là đoạn mã một lần nữa:
+Tạo một `Document` đối tượng là cần thiết để truy cập tệp PDF. Đây là đoạn mã một lần nữa:
 
 ```csharp
 // Khởi tạo đối tượng Tài liệu mới
 Document doc = new Document(dataDir + "Zoomed_pdf.pdf");
 ```
 
- Đảm bảo rằng tệp PDF tồn tại trong thư mục đã chỉ định. Nếu không tìm thấy tệp, bạn sẽ gặp phải`FileNotFoundException`.
+Đảm bảo rằng tệp PDF tồn tại trong thư mục đã chỉ định. Nếu không tìm thấy tệp, bạn sẽ gặp phải `FileNotFoundException`.
 
 ## Bước 4: Tạo đối tượng GoToAction
 
- Các`GoToAction` đối tượng cho phép bạn truy cập vào hành động mở của tài liệu. Đây là mã:
+Các `GoToAction` đối tượng cho phép bạn truy cập vào hành động mở của tài liệu. Đây là mã:
 
 ```csharp
 // Tạo đối tượng GoToAction
 GoToAction action = doc.OpenAction as GoToAction;
 ```
 
- Nếu`OpenAction` không phải là loại`GoToAction` , các`action` biến sẽ là`null`. Tốt nhất là nên kiểm tra giá trị null trước khi tiếp tục.
+Nếu `OpenAction` không phải là loại `GoToAction`, các `action` biến sẽ là `null`. Tốt nhất là nên kiểm tra giá trị null trước khi tiếp tục.
 
 ## Bước 5: Lấy Hệ số Thu phóng
 
@@ -95,7 +97,7 @@ else
 }
 ```
 
- Mã này kiểm tra xem`action` không phải là null và nếu`Destination` là loại`XYZExplicitDestination`. Nếu cả hai điều kiện được đáp ứng, nó sẽ in ra giá trị thu phóng; nếu không, nó sẽ cung cấp một thông báo hữu ích.
+Mã này kiểm tra xem `action` không phải là null và nếu `Destination` là loại `XYZExplicitDestination`. Nếu cả hai điều kiện được đáp ứng, nó sẽ in ra giá trị thu phóng; nếu không, nó sẽ cung cấp một thông báo hữu ích.
 
 ## Phần kết luận
 
@@ -113,13 +115,15 @@ Có, Aspose.PDF cho phép bạn thao tác nhiều thuộc tính khác nhau, bao 
 Có, Aspose.PDF được thiết kế để xử lý hiệu quả các tệp PDF lớn, nhưng hiệu suất có thể thay đổi tùy theo độ phức tạp của tài liệu.
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.PDF như thế nào?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể sử dụng Aspose.PDF trong các ứng dụng web không?
 Chắc chắn rồi! Aspose.PDF có thể được sử dụng trong cả ứng dụng máy tính để bàn và web, giúp nó trở nên linh hoạt cho nhiều nhu cầu phát triển khác nhau.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

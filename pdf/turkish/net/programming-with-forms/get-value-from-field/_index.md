@@ -1,14 +1,16 @@
 ---
-title: PDF Belgesindeki Alandan Değer Alın
-linktitle: PDF Belgesindeki Alandan Değer Alın
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimle Aspose.PDF for .NET kullanarak bir PDF belgesindeki form alanlarından değerleri nasıl kolayca çıkaracağınızı öğrenin.
-weight: 140
-url: /tr/net/programming-with-forms/get-value-from-field/
+"description": "Bu adım adım eğitimle Aspose.PDF for .NET kullanarak bir PDF belgesindeki form alanlarından değerleri nasıl kolayca çıkaracağınızı öğrenin."
+"linktitle": "PDF Belgesindeki Alandan Değer Alın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Belgesindeki Alandan Değer Alın"
+"url": "/tr/net/programming-with-forms/get-value-from-field/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Belgesindeki Alandan Değer Alın
@@ -21,7 +23,7 @@ PDF belgeleriyle programatik olarak çalışmak hem güçlü hem de verimli olab
 
 Koda geçmeden önce, takip edebilmeniz için neye ihtiyacınız olduğunu kısaca gözden geçirelim:
 
-1.  Aspose.PDF for .NET: Geliştirme ortamınızda Aspose.PDF for .NET'in yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: Geliştirme ortamınızda Aspose.PDF for .NET'in yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 2. IDE: Visual Studio gibi bir Entegre Geliştirme Ortamına (IDE) ihtiyacınız olacak.
 3. Temel C# Bilgisi: Bu eğitimde C# ve nesne yönelimli programlama hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
 4. PDF Belgesi: Form alanları olan bir PDF belgeniz hazır olsun. Eğer yoksa, kolayca bir tane oluşturabilir veya metin kutuları veya onay kutuları gibi alanlar içeren mevcut bir belgeyi kullanabilirsiniz.
@@ -38,7 +40,7 @@ using Aspose.Pdf.Annotations;
 using System;
 ```
 
-Artık her şey hazır olduğuna göre, süreci yönetilebilir adımlara bölelim. Her adım, bir PDF belgesindeki bir form alanından değeri nasıl çıkaracağınızı gösterecektir.
+Artık her şey hazır olduğuna göre, süreci yönetilebilir adımlara bölelim. Her adım, bir PDF belgesindeki form alanından değeri nasıl çıkaracağınızı gösterecektir.
 
 ## Adım 1: Belge Dizinini Ayarlayın
 
@@ -49,7 +51,7 @@ Artık her şey hazır olduğuna göre, süreci yönetilebilir adımlara böleli
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu, programınızın belgeyi bulmasını ve açmasını sağlayacaktır.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu, programınızın belgeyi bulmasını ve açmasını sağlayacaktır.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -60,7 +62,7 @@ Sonra, PDF belgesini programınızda açmanız gerekecek. Bu adım, PDF'yi belle
 Document pdfDocument = new Document(dataDir + "GetValueFromField.pdf");
 ```
 
- Burada şunu kullanıyoruz:`Document` "GetValueFromField.pdf" adlı bir PDF dosyasını açmak için Aspose.PDF kütüphanesinden sınıf. Elbette bunu almak istediğiniz form alanını içeren herhangi bir PDF ile değiştirebilirsiniz.
+Burada şunu kullanıyoruz: `Document` Aspose.PDF kütüphanesinden "GetValueFromField.pdf" adlı bir PDF dosyasını açmak için sınıf. Elbette bunu almak istediğiniz form alanını içeren herhangi bir PDF ile değiştirebilirsiniz.
 
 ## Adım 3: İstenilen Form Alanına Erişim
 
@@ -71,7 +73,7 @@ Belge açıldıktan sonraki adım, veri çıkarmak istediğiniz belirli form ala
 TextBoxField textBoxField = pdfDocument.Form["textbox1"] as TextBoxField;
 ```
 
- Burada,`"textbox1"` hedeflediğimiz form alanının adıdır. Bu, alanın adını önceden bildiğinizi varsayar. Farklı alan türlerine erişebilirsiniz, örneğin`TextBoxField`, `CheckBoxField`, vb. form türüne göre değişmektedir.
+Burada, `"textbox1"` hedeflediğimiz form alanının adıdır. Bu, alanın adını önceden bildiğinizi varsayar. Farklı alan türlerine erişebilirsiniz, örneğin `TextBoxField`, `CheckBoxField`vb. form türüne göre değişmektedir.
 
 ## Adım 4: Alan Değerini Alın ve Görüntüleyin
 
@@ -83,7 +85,7 @@ Console.WriteLine("PartialName : {0} ", textBoxField.PartialName);
 Console.WriteLine("Value : {0} ", textBoxField.Value);
 ```
 
- The`PartialName` özellik size alanın adını verirken,`Value` özellik, o alana girilen verileri getirir. Bunu konsolda görüntüleyebilir veya daha sonraki kullanımlar için saklayabilirsiniz.
+The `PartialName` özellik size alanın adını verirken, `Value` özellik, o alana girilen verileri getirir. Bunu konsolda görüntüleyebilir veya daha sonraki kullanımlar için saklayabilirsiniz.
 
 ## Adım 5: Programı çalıştırın
 
@@ -105,13 +107,15 @@ Hayır, Aspose.PDF for .NET, tek bir PDF belgesinde veri çıkarabileceğiniz al
 Evet, değerleri almaya ek olarak, Aspose.PDF for .NET'i kullanarak form alanlarının değerlerini de ayarlayabilir veya değiştirebilirsiniz.
 
 ### Aspose.PDF'i kullanmak için lisansa ihtiyacım var mı?  
- Evet, Aspose.PDF for .NET üretim kullanımı için bir lisans gerektirir. Bir lisans edinebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
+Evet, Aspose.PDF for .NET üretim kullanımı için bir lisans gerektirir. Bir lisans edinebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme amaçlı.
 
-### Aspose.PDF .NET Core ile uyumlu mudur?  
+### Aspose.PDF .NET Core ile uyumlu mu?  
 Kesinlikle! Aspose.PDF for .NET, hem .NET Framework hem de .NET Core ile tamamen uyumludur.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

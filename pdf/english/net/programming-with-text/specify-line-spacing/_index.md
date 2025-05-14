@@ -8,7 +8,9 @@ url: /net/programming-with-text/specify-line-spacing/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specify Line Spacing In PDF File
@@ -156,6 +158,7 @@ You can apply `TextFormattingOptions` to each `TextFragment` or `TextParagraph` 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

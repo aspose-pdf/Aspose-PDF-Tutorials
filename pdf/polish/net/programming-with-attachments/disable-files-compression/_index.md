@@ -1,27 +1,29 @@
 ---
-title: Wyłącz kompresję plików w pliku PDF
-linktitle: Wyłącz kompresję plików w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyłączyć kompresję plików w plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Udoskonal swoje umiejętności zarządzania plikami PDF.
-weight: 30
-url: /pl/net/programming-with-attachments/disable-files-compression/
+"description": "Dowiedz się, jak wyłączyć kompresję plików w plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Udoskonal swoje umiejętności zarządzania plikami PDF."
+"linktitle": "Wyłącz kompresję plików w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wyłącz kompresję plików w pliku PDF"
+"url": "/pl/net/programming-with-attachments/disable-files-compression/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyłącz kompresję plików w pliku PDF
 
 ## Wstęp
 
-W erze cyfrowej efektywne zarządzanie plikami PDF jest kluczowe zarówno do użytku osobistego, jak i zawodowego. Niezależnie od tego, czy jesteś programistą, który chce ulepszyć swoją aplikację, czy profesjonalistą biznesowym zarządzającym dokumentami, zrozumienie, jak manipulować plikami PDF, może zaoszczędzić Ci czasu i wysiłku. Jednym z powszechnych wymagań jest wyłączenie kompresji plików w dokumentach PDF. Może to być szczególnie przydatne, gdy chcesz mieć pewność, że osadzone pliki pozostaną w oryginalnym formacie bez żadnych zmian. W tym samouczku przyjrzymy się, jak wyłączyć kompresję plików w pliku PDF za pomocą Aspose.PDF dla .NET. 
+erze cyfrowej efektywne zarządzanie plikami PDF jest kluczowe zarówno do użytku osobistego, jak i zawodowego. Niezależnie od tego, czy jesteś programistą, który chce ulepszyć swoją aplikację, czy profesjonalistą biznesowym zarządzającym dokumentami, zrozumienie, jak manipulować plikami PDF, może zaoszczędzić Ci czasu i wysiłku. Jednym z powszechnych wymagań jest wyłączenie kompresji plików w dokumentach PDF. Może to być szczególnie przydatne, gdy chcesz mieć pewność, że osadzone pliki pozostaną w oryginalnym formacie bez żadnych zmian. W tym samouczku przyjrzymy się, jak wyłączyć kompresję plików w pliku PDF za pomocą Aspose.PDF dla .NET. 
 
 ## Wymagania wstępne
 
 Zanim zagłębisz się w kod, musisz spełnić kilka warunków wstępnych:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: środowisko programistyczne, w którym można pisać i wykonywać kod .NET.
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Załaduj dokument PDF
 
- Następnie załadujesz dokument PDF, który chcesz zmodyfikować. Można to zrobić za pomocą`Document` Klasa udostępniona przez Aspose.PDF.
+Następnie załadujesz dokument PDF, który chcesz zmodyfikować. Można to zrobić za pomocą `Document` Klasa udostępniona przez Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
@@ -77,7 +79,7 @@ FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sam
 
 ## Krok 4: Określ właściwość kodowania
 
- Aby mieć pewność, że plik zostanie dodany bez kompresji, należy ustawić właściwość kodowania specyfikacji pliku na`FileEncoding.None`Ten krok jest kluczowy, gdyż ma bezpośredni wpływ na sposób osadzania pliku w pliku PDF.
+Aby mieć pewność, że plik zostanie dodany bez kompresji, należy ustawić właściwość kodowania specyfikacji pliku na `FileEncoding.None`Ten krok jest kluczowy, gdyż ma bezpośredni wpływ na sposób osadzania pliku w pliku PDF.
 
 ```csharp
 fileSpecification.Encoding = FileEncoding.None;
@@ -121,16 +123,18 @@ Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom program
 Wyłączenie kompresji plików gwarantuje, że osadzone pliki pozostaną w swoim oryginalnym formacie, co może mieć duże znaczenie dla integralności danych.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.PDF?
- Pełną dokumentację można znaleźć na stronie[Strona internetowa Aspose](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację można znaleźć na stronie [Strona internetowa Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Możesz uzyskać pomoc odwiedzając stronę[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać pomoc odwiedzając stronę [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

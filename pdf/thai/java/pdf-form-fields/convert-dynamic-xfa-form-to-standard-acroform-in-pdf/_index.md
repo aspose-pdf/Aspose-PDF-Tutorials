@@ -1,14 +1,16 @@
 ---
-title: แปลงฟอร์ม XFA แบบไดนามิกเป็น AcroForm มาตรฐานใน PDF
-linktitle: แปลงฟอร์ม XFA แบบไดนามิกเป็น AcroForm มาตรฐานใน PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการแปลงแบบฟอร์ม Dynamic XFA เป็น AcroForms มาตรฐานใน PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java รับรองความเข้ากันได้และการเข้าถึง
-weight: 12
-url: /th/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/
+"description": "เรียนรู้วิธีการแปลงแบบฟอร์ม Dynamic XFA เป็น AcroForms มาตรฐานใน PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java รับรองความเข้ากันได้และการเข้าถึง"
+"linktitle": "แปลงฟอร์ม XFA แบบไดนามิกเป็น AcroForm มาตรฐานใน PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "แปลงฟอร์ม XFA แบบไดนามิกเป็น AcroForm มาตรฐานใน PDF"
+"url": "/th/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงฟอร์ม XFA แบบไดนามิกเป็น AcroForm มาตรฐานใน PDF
@@ -22,8 +24,8 @@ url: /th/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-p
 
 ก่อนที่จะเริ่มกระบวนการแปลง โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
-- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java Development Kit (JDK) ในระบบของคุณแล้ว
--  Aspose.PDF สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java Development Kit (JDK) ไว้ในระบบของคุณ
+- Aspose.PDF สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 - Java Integrated Development Environment (IDE): คุณสามารถใช้ IDE ยอดนิยม เช่น Eclipse หรือ IntelliJ IDEA ได้
 
 ## การแปลง XFA เป็น AcroForm
@@ -33,7 +35,7 @@ url: /th/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-p
 ในการเริ่มการแปลง ให้สร้างโปรเจ็กต์ Java ใหม่ใน IDE ของคุณ และเพิ่มไลบรารี Aspose.PDF สำหรับ Java ลงในโปรเจ็กต์ของคุณ จากนั้น ให้เริ่มต้นเอกสาร PDF ดังต่อไปนี้:
 
 ```java
-//นำเข้าคลาสที่จำเป็น
+// นำเข้าคลาสที่จำเป็น
 import com.aspose.pdf.Document;
 
 // เริ่มต้นเอกสาร PDF
@@ -75,7 +77,7 @@ pdfDocument.save(dataDir + "output.pdf");
 
 ### ฉันสามารถเข้าถึงเอกสาร Aspose.PDF สำหรับ Java ได้อย่างไร
 
- คุณสามารถเข้าถึงเอกสารสำหรับ Aspose.PDF สำหรับ Java ได้[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถเข้าถึงเอกสารสำหรับ Aspose.PDF สำหรับ Java ได้ [ที่นี่](https://reference-aspose.com/pdf/java/).
 
 ### Aspose.PDF สำหรับ Java เข้ากันได้กับ Java IDE ต่างๆ หรือไม่
 
@@ -91,10 +93,12 @@ pdfDocument.save(dataDir + "output.pdf");
 
 ### ฉันสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก[ลิงค์นี้](https://releases.aspose.com/pdf/java/).
+คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก [ลิงค์นี้](https://releases-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

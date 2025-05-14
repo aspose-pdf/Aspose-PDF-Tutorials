@@ -8,7 +8,9 @@ url: /net/programming-with-links-and-actions/remove-open-action/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Open Action
@@ -134,6 +136,7 @@ Visit the Aspose forum for support on PDF-related issues [here](https://forum.as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

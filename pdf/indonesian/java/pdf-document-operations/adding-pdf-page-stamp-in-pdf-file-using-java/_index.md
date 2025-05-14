@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Cap Halaman PDF di File PDF menggunakan Java
-linktitle: Menambahkan Cap Halaman PDF di File PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan stempel halaman PDF di Java menggunakan Aspose.PDF. Panduan langkah demi langkah ini menunjukkan kepada Anda cara menyesuaikan stempel untuk dokumen PDF Anda dengan mudah.
-weight: 13
-url: /id/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/
+"description": "Pelajari cara menambahkan stempel halaman PDF di Java menggunakan Aspose.PDF. Panduan langkah demi langkah ini menunjukkan kepada Anda cara menyesuaikan stempel untuk dokumen PDF Anda dengan mudah."
+"linktitle": "Menambahkan Cap Halaman PDF di File PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Cap Halaman PDF di File PDF menggunakan Java"
+"url": "/id/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Cap Halaman PDF di File PDF menggunakan Java
@@ -28,7 +30,7 @@ Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal
 - Lingkungan Pengembangan Terpadu (IDE) seperti Eclipse atau IntelliJ IDEA
--  Aspose.PDF untuk pustaka Java (Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java (Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Lingkungan
 
@@ -89,7 +91,7 @@ for (int pageNumber = 1; pageNumber <= pdfDocument.getPages().size(); pageNumber
 }
 ```
 
-## Menyimpan PDF yang Telah Dimodifikasi
+## Menyimpan PDF yang Dimodifikasi
 
 Setelah stempel halaman diterapkan ke semua halaman, simpan PDF yang dimodifikasi:
 
@@ -109,7 +111,7 @@ Dalam tutorial ini, kita mempelajari cara menambahkan cap halaman PDF ke berkas 
 
 ### Bagaimana cara menambahkan stempel gambar alih-alih teks?
 
- Anda dapat membuat`ImageStamp` sebagai pengganti`TextStamp` dan konfigurasikan dengan berkas gambar Anda.
+Anda dapat membuat `ImageStamp` sebagai pengganti `TextStamp` dan konfigurasikan dengan berkas gambar Anda.
 
 ### Bisakah saya menyesuaikan posisi stempel halaman?
 
@@ -125,10 +127,12 @@ Aspose.PDF untuk Java adalah pustaka komersial, tetapi Anda dapat mengevaluasiny
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh?
 
- Anda dapat menemukan dokumentasi dan contoh lengkap di halaman dokumentasi Aspose.PDF untuk Java:[Di Sini](https://reference.aspose.com/pdf/java/)
+Anda dapat menemukan dokumentasi dan contoh lengkap di halaman dokumentasi Aspose.PDF untuk Java: [Di Sini](https://reference.aspose.com/pdf/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

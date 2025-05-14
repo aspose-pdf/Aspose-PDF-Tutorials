@@ -1,57 +1,62 @@
 ---
-title: Aspose.PDF segítségével készítsen PDF-t táblázatokkal és oldalrajzgal 
-weight: 7700
-limit: 
-description: Tanulj meg, hogyan készíts egy PDF dokumentumot, adj hozzá táblázatokat határokkal, és valósítsd meg a lapok megjelölését az Aspose.PDF használatával .NET-hez.  
-keywords: [Aspose.PDF for .NET, create PDF in C#, add table to PDF, set table border, pagination in PDF, generate PDF, insert page break, .NET PDF library]
-url: /hu/net/tables/insert-page-break/
+"description": "Tanuld meg, hogyan hozhatsz létre PDF dokumentumokat, hogyan adhatsz hozzá szegélyes táblázatokat, és hogyan valósíthatsz meg lapozást az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal."
+"title": "PDF létrehozása táblázatokkal és oldalszámozással az Aspose.PDF segítségével"
+"url": "/hu/net/tables/insert-page-break/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF-t készíteni táblázatokkal és oldalrajzgal
+# PDF létrehozása táblázatokkal és oldalszámozással
  
-A .NET-hez készült Aspose.PDF egy erőteljes könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programszerűen hozzanak létre, manipulálják és konvertálják a PDF dokumentumokat. Ebben a példában bemutatjuk, hogyan lehet létrehozni egy PDF fájlt, piros határokkal tölteni egy táblázatot, 200 sorral tölteni, és 10 sor után automatikusan betenni az oldalszakadásokat. Ez a megközelítés biztosítja a strukturált tartalomformázást és a zökkenőmentes oldalasítást a nagy adatkészletekre.  
+Az Aspose.PDF for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára PDF dokumentumok programozott létrehozását, kezelését és konvertálását. Ebben a példában bemutatjuk, hogyan lehet PDF fájlt létrehozni, piros szegéllyel ellátott táblázatot hozzáadni, 200 sorral feltölteni, és 10 soronként automatikus oldaltöréseket beszúrni. Ez a megközelítés strukturált tartalomformázást és zökkenőmentes oldaltördelést biztosít nagy adathalmazok esetén.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/insert-page-break/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## A szerelési utasítások  
-A .NET-hez használt Aspose.PDF használatához kövesse az alábbi lépéseket:  
+## Telepítési utasítások  
+Az Aspose.PDF for .NET használatának megkezdéséhez kövesse az alábbi lépéseket:  
 
-1. A NuGet csomagkezelő segítségével telepíteni  
-   * Nyissa meg a projektjét a Visual Studio-ban.  
-   * Menjen az Eszközök> NuGet csomagkezelő> Elintézni a NuGet csomagokat megoldás.  
-   * Keresse meg az Aspose.PDF és kattintson a telepítésre.  
+1. Telepítés a NuGet csomagkezelőn keresztül  
+   - Nyisd meg a projektedet a Visual Studioban.  
+   - Lépjen az Eszközök > NuGet csomagkezelő > Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+   - Keresd meg az Aspose.PDF fájlt, és kattints a Telepítés gombra.  
 
-   Alternatív megoldás a következő parancs használata a csomagkezelő konzolban:  
+   Alternatív megoldásként használhatja a következő parancsot a Package Manager konzolban:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. Kézzel töltsd le a DLL-t  
-   * Szerezd meg a legújabb verziót a[Aspose.PDF letöltése](https://releases.aspose.com/pdf/net/)\- Nem.  
-   * Adjon hozzá egy hivatkozást a Aspose.PDF.dll-hez a projektben.  
+2. DLL letöltése manuálisan  
+   - Szerezd meg a legújabb verziót innen: [Aspose.PDF letöltések](https://releases.aspose.com/pdf/net/).  
+   - Adj hozzá egy hivatkozást az Aspose.PDF.dll fájlra a projektedben.  
 
-3. A jogosítványt kérelmezni (választható)  
-   * Ha a ingyenes próbaverziót használja, előfordulhat, hogy vízjelzésekkel vagy korlátozásokkal találkozik.  
-   * Vegyél engedélyt a[A vásárlás célja](https://purchase.aspose.com/buy)vagy kérjen egy [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)\- Nem.  
-   * A licenc alkalmazása a kódban:  
+3. Licenc alkalmazása (opcionális)  
+   - Az ingyenes próbaverzió használatakor vízjelekkel vagy korlátozásokkal találkozhat.  
+   - Vásároljon licencet innen: [Aspose vásárlás](https://purchase.aspose.com/buy) vagy kérjen egy [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/).  
+   - Alkalmazd a licencet a kódodban:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.PDF.lic");
      ```
 
-## Részletesebben
-dokumentáció, látogatás [Aspose.PDF a .NET dokumentációhoz](https://docs.aspose.com/pdf/net/)\- Nem.  
-Nézd meg az API hivatkozást a [Aspose.PDF a .NET API hivatkozáshoz](https://reference.aspose.com/pdf/net/)\- Nem.
+## Részletes információkért
+dokumentáció, látogassa meg [Aspose.PDF .NET dokumentációhoz](https://docs.aspose.com/pdf/net/).  
+Tekintse meg az API-referenciát itt: [Aspose.PDF .NET API referenciafájlhoz](https://reference.aspose.com/pdf/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

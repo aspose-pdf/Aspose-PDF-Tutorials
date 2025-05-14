@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/add-text-stamp/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Text Stamp In PDF File
@@ -167,6 +169,7 @@ Support for Aspose.PDF is available on their [support forum](https://forum.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

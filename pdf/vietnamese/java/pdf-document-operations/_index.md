@@ -1,14 +1,16 @@
 ---
-title: Hoạt động của tài liệu PDF
-linktitle: Hoạt động của tài liệu PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Khám phá các hoạt động của tài liệu PDF với Aspose.PDF cho Java. Học cách thao tác, tạo và cải thiện PDF một cách liền mạch trong Java.
-weight: 17
-url: /vi/java/pdf-document-operations/
+"description": "Khám phá các hoạt động của tài liệu PDF với Aspose.PDF cho Java. Học cách thao tác, tạo và cải thiện PDF một cách liền mạch trong Java."
+"linktitle": "Hoạt động của tài liệu PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Hoạt động của tài liệu PDF"
+"url": "/vi/java/pdf-document-operations/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hoạt động của tài liệu PDF
@@ -26,7 +28,7 @@ Aspose.PDF for Java mở ra cánh cửa cho việc tạo PDF động. Bạn sẽ
 
 ## Tối ưu hóa hiệu suất PDF
 
-Hiệu quả là chìa khóa trong các hoạt động tài liệu PDF và chúng tôi sẽ chỉ cho bạn cách tối ưu hóa PDF để tăng hiệu suất. Bạn sẽ khám phá các kỹ thuật nén tệp PDF, giảm kích thước tệp và cải thiện tốc độ kết xuất. Những tối ưu hóa này sẽ đảm bảo rằng PDF của bạn vừa thân thiện với người dùng vừa tiết kiệm tài nguyên.
+Hiệu quả là chìa khóa trong các hoạt động tài liệu PDF và chúng tôi sẽ chỉ cho bạn cách tối ưu hóa PDF để có hiệu suất cao. Bạn sẽ khám phá các kỹ thuật nén tệp PDF, giảm kích thước tệp và cải thiện tốc độ kết xuất. Những tối ưu hóa này sẽ đảm bảo rằng PDF của bạn vừa thân thiện với người dùng vừa tiết kiệm tài nguyên.
 
 Hãy cùng chúng tôi khám phá thế giới thao tác với tài liệu PDF với Aspose.PDF cho Java và nâng cao kỹ năng thao tác PDF của bạn lên một tầm cao mới.
 
@@ -41,9 +43,11 @@ Tìm hiểu cách thêm tem hình ảnh vào tệp PDF bằng Java với hướn
 Tìm hiểu cách thêm tem trang PDF trong Java bằng Aspose.PDF. Hướng dẫn từng bước này sẽ chỉ cho bạn cách tùy chỉnh tem cho tài liệu PDF của bạn một cách dễ dàng.
 ### [Thêm văn bản vào Header hoặc Footer của tệp PDF bằng Java](./adding-text-in-header-or-footer-of-pdf-file-using-java/)
 Tìm hiểu cách cải thiện tài liệu PDF bằng cách thêm văn bản vào tiêu đề hoặc chân trang bằng Java. Khám phá hướng dẫn từng bước với Aspose.PDF cho Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

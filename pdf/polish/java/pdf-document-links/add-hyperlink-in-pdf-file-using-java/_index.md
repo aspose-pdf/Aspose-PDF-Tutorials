@@ -1,14 +1,16 @@
 ---
-title: Dodaj hiperłącze w pliku PDF za pomocą Java
-linktitle: Dodaj hiperłącze w pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać hiperłącza do plików PDF za pomocą Javy, korzystając z instrukcji krok po kroku i kodu źródłowego. Ulepsz swoje dokumenty PDF dzięki interaktywności.
-weight: 13
-url: /pl/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/
+"description": "Dowiedz się, jak dodawać hiperłącza do plików PDF za pomocą Javy, korzystając z instrukcji krok po kroku i kodu źródłowego. Ulepsz swoje dokumenty PDF dzięki interaktywności."
+"linktitle": "Dodaj hiperłącze w pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodaj hiperłącze w pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj hiperłącze w pliku PDF za pomocą Java
@@ -30,7 +32,7 @@ Zanim przejdziemy do implementacji, upewnijmy się, że masz niezbędne narzędz
 - Zintegrowane środowisko programistyczne (IDE) według własnego wyboru (np. Eclipse, IntelliJ IDEA)
 - Aspose.PDF dla biblioteki Java
 
- Bibliotekę Aspose.PDF dla języka Java można pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+Bibliotekę Aspose.PDF dla języka Java można pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Dodawanie hiperłączy do plików PDF przy użyciu Aspose.PDF dla Java
 
@@ -82,7 +84,7 @@ To wszystko! Udało Ci się dodać hiperłącze do pliku PDF przy użyciu Aspose
 
 ## Wniosek
 
-Dodawanie hiperłączy do plików PDF przy użyciu Javy i bibliotek takich jak Aspose.PDF dla Javy to prosty proces. Hiperłącza zwiększają użyteczność i interaktywność dokumentów PDF, czyniąc je bardziej angażującymi dla czytelników. Zacznij już dziś dodawać hiperłącza do swoich plików PDF, aby tworzyć dynamiczną i interaktywną treść.
+Dodawanie hiperłączy do plików PDF przy użyciu Javy i bibliotek takich jak Aspose.PDF dla Javy to prosty proces. Hiperłącza zwiększają użyteczność i interaktywność dokumentów PDF, czyniąc je bardziej angażującymi dla czytelników. Zacznij już dziś włączać hiperłącza do swoich plików PDF, aby tworzyć dynamiczną i interaktywną treść.
 
 ## Najczęściej zadawane pytania
 
@@ -105,9 +107,11 @@ Tak, istnieją inne biblioteki, takie jak iText i PDFBox, których można używa
 ### Jak mogę dostosować wygląd hiperłączy w pliku PDF?
 
 Można ustawić różne właściwości hiperłączy, takie jak kolor, styl obramowania i wyróżnianie, aby dostosować ich wygląd.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

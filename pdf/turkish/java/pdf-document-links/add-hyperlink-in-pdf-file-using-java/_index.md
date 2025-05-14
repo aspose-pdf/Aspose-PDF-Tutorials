@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF Dosyasına Köprü Ekleme
-linktitle: Java kullanarak PDF Dosyasına Köprü Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Adım adım talimatlar ve kaynak koduyla Java kullanarak PDF dosyalarına köprü metinleri eklemeyi öğrenin. PDF belgelerinizi etkileşimle geliştirin.
-weight: 13
-url: /tr/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/
+"description": "Adım adım talimatlar ve kaynak koduyla Java kullanarak PDF dosyalarına köprü metinleri eklemeyi öğrenin. PDF belgelerinizi etkileşimle geliştirin."
+"linktitle": "Java kullanarak PDF Dosyasına Köprü Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF Dosyasına Köprü Ekleme"
+"url": "/tr/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF Dosyasına Köprü Ekleme
@@ -30,7 +32,7 @@ Uygulamaya geçmeden önce gerekli araç ve kütüphanelere sahip olduğunuzdan 
 - Tercih ettiğiniz Entegre Geliştirme Ortamı (IDE) (örneğin, Eclipse, IntelliJ IDEA)
 - Java kütüphanesi için Aspose.PDF
 
- Java kütüphanesi için Aspose.PDF'yi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/).
+Java kütüphanesi için Aspose.PDF'yi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Java için Aspose.PDF Kullanarak PDF'lere Köprü Bağlantıları Ekleme
 
@@ -78,7 +80,7 @@ page.getAnnotations().add(hyperlink);
 pdfDocument.save("hyperlink_example.pdf");
 ```
 
-İşte bu kadar! Java için Aspose.PDF'i kullanarak bir PDF dosyasına başarıyla köprü eklediniz.
+İşte bu kadar! Aspose.PDF for Java kullanarak bir PDF dosyasına başarıyla köprü eklediniz.
 
 ## Çözüm
 
@@ -96,7 +98,7 @@ Evet, harici web sitelerine bağlantı veren web bağlantıları oluşturabilirs
 
 ### Aspose.PDF for Java ücretsiz bir kütüphane midir?
 
-Java için Aspose.PDF'in hem ücretsiz deneme sürümü hem de ek özellikler ve destek içeren ücretli sürümü mevcuttur.
+Aspose.PDF for Java'nın hem ücretsiz deneme sürümü hem de ek özellikler ve destek içeren ücretli sürümü mevcuttur.
 
 ### Java'da PDF'lerle çalışmak için başka kütüphaneler var mı?
 
@@ -105,9 +107,11 @@ Evet, Java'da PDF düzenleme için kullanılabilen iText ve PDFBox gibi başka k
 ### PDF'deki köprü metinlerinin görünümünü nasıl özelleştirebilirim?
 
 Köprü metinlerinin görünümünü özelleştirmek için renk, kenarlık stili ve vurgulama gibi çeşitli özelliklerini ayarlayabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

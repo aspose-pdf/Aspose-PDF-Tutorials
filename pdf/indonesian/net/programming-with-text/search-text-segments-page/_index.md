@@ -1,14 +1,16 @@
 ---
-title: Cari Halaman Segmen Teks Dalam File PDF
-linktitle: Cari Halaman Segmen Teks Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mencari segmen teks dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah yang terperinci ini. Ekstrak teks, analisis segmen, dan banyak lagi.
-weight: 470
-url: /id/net/programming-with-text/search-text-segments-page/
+"description": "Pelajari cara mencari segmen teks dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah yang terperinci ini. Ekstrak teks, analisis segmen, dan banyak lagi."
+"linktitle": "Cari Halaman Segmen Teks Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Cari Halaman Segmen Teks Dalam File PDF"
+"url": "/id/net/programming-with-text/search-text-segments-page/"
+"weight": 470
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cari Halaman Segmen Teks Dalam File PDF
@@ -21,12 +23,12 @@ Pernahkah Anda bertanya-tanya bagaimana cara menemukan segmen teks tertentu dala
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka tersebut. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka tersebut. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Pastikan Anda telah menginstal .NET di komputer Anda.
 - Lingkungan Pengembangan: Visual Studio atau IDE apa pun yang mendukung .NET direkomendasikan.
 - Dokumen PDF: Berkas PDF tempat Anda akan mencari segmen teks.
 
- Jika Anda belum memiliki Aspose.PDF untuk .NET, jangan khawatir! Anda bisa mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/) atau membelinya[Di Sini](https://purchase.aspose.com/buy).
+Jika Anda belum memiliki Aspose.PDF untuk .NET, jangan khawatir! Anda bisa mendapatkan uji coba gratis dari [Di Sini](https://releases.aspose.com/) atau membelinya [Di Sini](https://purchase.aspose.com/buy).
 
 ## Paket Impor
 
@@ -53,19 +55,19 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "SearchTextSegmentsPage.pdf");
 ```
 
-- `dataDir` : Variabel ini menyimpan jalur ke file PDF Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan direktori sebenarnya tempat berkas Anda disimpan.
-- `pdfDocument` : Menggunakan`Document` kelas, kami memuat PDF ke dalam memori.
+- `dataDir`: Variabel ini menyimpan jalur ke file PDF Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan direktori sebenarnya tempat berkas Anda disimpan.
+- `pdfDocument`: Menggunakan `Document` kelas, kami memuat PDF ke dalam memori.
 
 ## Langkah 2: Siapkan Pencarian Teks
 
- Sekarang dokumen Anda telah dimuat, langkah selanjutnya adalah membuat`TextFragmentAbsorber` objek, yang memungkinkan kita mencari teks tertentu dalam dokumen.
+Sekarang dokumen Anda telah dimuat, langkah selanjutnya adalah membuat `TextFragmentAbsorber` objek, yang memungkinkan kita mencari teks tertentu dalam dokumen.
 
 ```csharp
 // Buat objek TextAbsorber untuk menemukan semua contoh frasa pencarian input
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
 
-- `TextFragmentAbsorber` : Objek ini digunakan untuk menangkap semua kemunculan teks yang Anda cari. Ganti`"text"` dengan teks sebenarnya yang ingin Anda cari.
+- `TextFragmentAbsorber`: Objek ini digunakan untuk menangkap semua kemunculan teks yang Anda cari. Ganti `"text"` dengan teks sebenarnya yang ingin Anda cari.
 
 ## Langkah 3: Terima Penyerap untuk Halaman Tertentu
 
@@ -77,7 +79,7 @@ pdfDocument.Pages[2].Accept(textFragmentAbsorber);
 ```
 
 - `pdfDocument.Pages[2]`: Ini menunjukkan bahwa kami hanya mencari halaman kedua dari dokumen tersebut. Anda dapat mengubah indeks untuk menargetkan halaman lain.
-- `Accept()` :Metode ini memungkinkan`TextFragmentAbsorber` untuk memproses teks dalam halaman yang ditentukan.
+- `Accept()`:Metode ini memungkinkan `TextFragmentAbsorber` untuk memproses teks dalam halaman yang ditentukan.
 
 ## Langkah 4: Ekstrak Fragmen Teks
 
@@ -114,9 +116,9 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
-- `foreach (TextFragment textFragment in textFragmentCollection)` :Kami mengulang setiap`TextFragment` dalam koleksi.
-- `foreach (TextSegment textSegment in textFragment.Segments)`: Di dalam setiap fragmen, ada beberapa segmen. Kami mengulangnya untuk mengumpulkan semua informasi yang relevan.
--  Berbagai properti`textSegment`Ini memberi kita informasi terperinci tentang teks, seperti posisinya (X dan Y), detail font, ukuran, dan warna.
+- `foreach (TextFragment textFragment in textFragmentCollection)`:Kami mengulang setiap `TextFragment` dalam koleksi.
+- `foreach (TextSegment textSegment in textFragment.Segments)`: Di dalam setiap fragmen, terdapat beberapa segmen. Kami mengulangnya untuk mengumpulkan semua informasi yang relevan.
+- Berbagai properti `textSegment`Ini memberi kita informasi terperinci tentang teks, seperti posisinya (X dan Y), detail font, ukuran, dan warna.
 
 ## Langkah 6: Keluarkan Hasilnya
 
@@ -146,22 +148,24 @@ Nah, itu dia! Anda baru saja mempelajari cara mencari segmen teks tertentu dalam
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mencari beberapa kata atau frasa?
- Ya, Anda dapat memodifikasi`TextFragmentAbsorber`untuk mencari teks yang berbeda dengan mengubah string input.
+Ya, Anda dapat memodifikasi `TextFragmentAbsorber` untuk mencari teks yang berbeda dengan mengubah string input.
 
 ### Apakah mungkin untuk mencari di beberapa halaman?
- Tentu saja! Anda dapat mengulang semua halaman dalam PDF dengan mengulanginya`pdfDocument.Pages`.
+Tentu saja! Anda dapat mengulang semua halaman dalam PDF dengan mengulanginya `pdfDocument.Pages`.
 
 ### Bagaimana cara mencari teks yang tidak peka huruf besar/kecil?
- Anda dapat menggunakan`TextSearchOptions` untuk mengaktifkan pencarian tanpa memperhatikan huruf besar/kecil.
+Anda dapat menggunakan `TextSearchOptions` untuk mengaktifkan pencarian tanpa memperhatikan huruf besar/kecil.
 
 ### Bisakah saya mengubah teks setelah menemukannya?
- Ya, setelah Anda menemukan`TextFragment`, Anda dapat mengubah properti teksnya.
+Ya, setelah Anda menemukan `TextFragment`, Anda dapat mengubah properti teksnya.
 
 ### Apakah metode ini berlaku untuk PDF yang dienkripsi?
 Ya, selama Anda membuka kunci PDF menggunakan kata sandi yang benar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

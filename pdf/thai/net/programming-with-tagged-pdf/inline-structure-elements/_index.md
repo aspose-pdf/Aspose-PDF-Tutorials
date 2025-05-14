@@ -1,14 +1,16 @@
 ---
-title: องค์ประกอบโครงสร้างแบบอินไลน์
-linktitle: องค์ประกอบโครงสร้างแบบอินไลน์
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: คู่มือทีละขั้นตอนในการใช้องค์ประกอบโครงสร้างออนไลน์ด้วย Aspose.PDF สำหรับ .NET จัดระเบียบ PDF ของคุณด้วยหัวเรื่องและย่อหน้า
-weight: 110
-url: /th/net/programming-with-tagged-pdf/inline-structure-elements/
+"description": "คู่มือทีละขั้นตอนในการใช้องค์ประกอบโครงสร้างออนไลน์ด้วย Aspose.PDF สำหรับ .NET จัดระเบียบ PDF ของคุณด้วยหัวเรื่องและย่อหน้า"
+"linktitle": "องค์ประกอบโครงสร้างแบบอินไลน์"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "องค์ประกอบโครงสร้างแบบอินไลน์"
+"url": "/th/net/programming-with-tagged-pdf/inline-structure-elements/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # องค์ประกอบโครงสร้างแบบอินไลน์
@@ -23,8 +25,8 @@ url: /th/net/programming-with-tagged-pdf/inline-structure-elements/
 
 1. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# และพื้นฐานของ .NET framework ถือเป็นสิ่งสำคัญ
 2. ติดตั้ง Visual Studio: คุณจะต้องมี IDE เช่น Visual Studio เพื่อเขียนและรันโค้ดของคุณ
-3.  Aspose.PDF สำหรับ .NET: อย่าลืมดาวน์โหลดและติดตั้ง Aspose.PDF สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/pdf/net/).
-4. ใบอนุญาตชั่วคราว: เป็นทางเลือก แต่หากคุณต้องการประเมินคุณสมบัติทั้งหมดโดยไม่มีข้อจำกัด โปรดพิจารณาขอรับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+3. Aspose.PDF สำหรับ .NET: อย่าลืมดาวน์โหลดและติดตั้ง Aspose.PDF สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/pdf/net/).
+4. ใบอนุญาตชั่วคราว: เป็นทางเลือก แต่หากคุณต้องการประเมินคุณสมบัติทั้งหมดโดยไม่มีข้อจำกัด โปรดพิจารณาขอรับ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 เมื่อคุณมีข้อกำหนดเบื้องต้นเหล่านี้แล้ว คุณก็พร้อมที่จะสร้างเอกสาร PDF ที่แท็กฉบับแรกของคุณได้แล้ว!
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // แทนที่ด้วยเ
 
 ### ขั้นตอนที่ 2: สร้างอินสแตนซ์เอกสาร PDF
 
- ถัดไป ให้สร้างอินสแตนซ์ของ`Document` คลาสซึ่งจะทำหน้าที่เป็นคอนเทนเนอร์สำหรับเนื้อหา PDF ของคุณ
+ถัดไป ให้สร้างอินสแตนซ์ของ `Document` คลาสซึ่งจะทำหน้าที่เป็นคอนเทนเนอร์สำหรับเนื้อหา PDF ของคุณ
 
 ```csharp
 Document document = new Document();
@@ -69,7 +71,7 @@ Document document = new Document();
 
 ### ขั้นตอนที่ 3: เข้าถึงเนื้อหาที่ถูกแท็ก
 
-ตอนนี้ เข้าถึงเนื้อหาที่แท็กไว้ในเอกสาร นี่คือจุดที่ความมหัศจรรย์เกิดขึ้น โดยการแท็กเนื้อหา เราจะเพิ่มการเข้าถึงได้
+ตอนนี้เข้าถึงเนื้อหาที่แท็กไว้ในเอกสาร นี่คือจุดที่ความมหัศจรรย์เกิดขึ้น โดยการแท็กเนื้อหา เราจะเพิ่มการเข้าถึงได้
 
 ```csharp
 ITaggedContent taggedContent = document.TaggedContent;    
@@ -163,7 +165,7 @@ p.AppendChild(span1);
 document.Save(dataDir + "InlineStructureElements.pdf");
 ```
 
-และแล้ว! ตอนนี้คุณมีเอกสาร PDF ที่มีแท็ก ซึ่งมีโครงสร้างและสามารถเข้าถึงได้
+และว้าว! ตอนนี้คุณมีเอกสาร PDF ที่มีแท็กแล้ว ซึ่งมีโครงสร้างและสามารถเข้าถึงได้
 
 ## บทสรุป
 
@@ -172,22 +174,24 @@ document.Save(dataDir + "InlineStructureElements.pdf");
 ## คำถามที่พบบ่อย
 
 ### PDF ที่แท็กคืออะไร?
-PDF แบบแท็กคือ PDF ที่รวมข้อมูลเกี่ยวกับโครงสร้างของเอกสาร ช่วยให้ผู้ใช้ที่มีความพิการเข้าถึงได้ง่ายขึ้น
+PDF ที่มีแท็ก คือ PDF ที่รวมข้อมูลเกี่ยวกับโครงสร้างของเอกสาร ช่วยให้ผู้ใช้ที่มีความพิการเข้าถึงได้ง่ายขึ้น
 
 ### เหตุใดการแท็กจึงมีความสำคัญใน PDF
 การแท็กช่วยเพิ่มการเข้าถึง ช่วยให้โปรแกรมอ่านหน้าจอตีความเอกสารได้อย่างชัดเจน จึงมอบประสบการณ์ที่ดีกว่าให้กับผู้ใช้ที่มีความทุพพลภาพ
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ คุณสามารถประเมิน Aspose.PDF สำหรับ .NET ได้ผ่านทาง[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+ใช่ คุณสามารถประเมิน Aspose.PDF สำหรับ .NET ได้ผ่านทาง [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้จากที่ไหน
- สามารถเข้าถึงการสนับสนุนได้ผ่าน[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10).
+สามารถเข้าถึงการสนับสนุนได้ผ่าน [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันสามารถซื้อใบอนุญาต Aspose.PDF สำหรับ .NET ได้อย่างไร
- คุณสามารถซื้อใบอนุญาตโดยตรงจาก[หน้าการซื้อ](https://purchase.aspose.com/buy).
+คุณสามารถซื้อใบอนุญาตโดยตรงจาก [หน้าการซื้อ](https://purchase-aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

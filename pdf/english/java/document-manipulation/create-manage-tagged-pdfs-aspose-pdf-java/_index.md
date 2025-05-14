@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Manage Tagged PDFs Using Aspose.PDF for Java: Enhance Accessibility in Your Documents
 
@@ -200,6 +202,9 @@ Creating tagged PDFs with Aspose.PDF for Java is a powerful way to ensure access
 - [Aspose.PDF Documentation](https://reference.aspose.com/pdf/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

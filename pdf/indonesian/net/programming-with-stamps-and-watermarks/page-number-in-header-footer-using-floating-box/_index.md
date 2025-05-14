@@ -1,14 +1,16 @@
 ---
-title: Nomor Halaman Di Header Footer Menggunakan Floating Box
-linktitle: Nomor Halaman Di Header Footer Menggunakan Floating Box
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Tambahkan nomor halaman dengan mudah di header dan footer PDF Anda menggunakan Kotak Mengambang dengan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini.
-weight: 150
-url: /id/net/programming-with-stamps-and-watermarks/page-number-in-header-footer-using-floating-box/
+"description": "Tambahkan nomor halaman dengan mudah di header dan footer PDF Anda menggunakan Kotak Mengambang dengan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini."
+"linktitle": "Nomor Halaman Di Header Footer Menggunakan Floating Box"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Nomor Halaman Di Header Footer Menggunakan Floating Box"
+"url": "/id/net/programming-with-stamps-and-watermarks/page-number-in-header-footer-using-floating-box/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nomor Halaman Di Header Footer Menggunakan Floating Box
@@ -33,7 +35,7 @@ Instal pustaka Aspose.PDF. Anda dapat mengunduhnya dengan mudah dari situs web:
 Pemahaman dasar tentang C# akan membantu Anda memahami konsep dan potongan kode yang disajikan dalam tutorial ini.
 
 ### Akses ke Dokumentasi
- Selalu bermanfaat untuk memiliki[Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) berguna untuk referensi dan eksplorasi lebih dalam terhadap fungsi tambahan apa pun.
+Selalu bermanfaat untuk memiliki [Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) berguna untuk referensi dan eksplorasi lebih dalam terhadap fungsi tambahan apa pun.
 
 ## Paket Impor
 
@@ -57,17 +59,17 @@ Mari kita mulai dengan menentukan direktori tempat dokumen PDF Anda akan disimpa
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur pilihan Anda di mana Anda ingin menyimpan berkas PDF keluaran.
+Mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur pilihan Anda di mana Anda ingin menyimpan berkas PDF keluaran.
 
 ## Langkah 2: Buat Instansiasi Dokumen
 
- Membuat dokumen PDF baru adalah langkah selanjutnya. Ini melibatkan penggunaan`Document` kelas dari pustaka Aspose.PDF.
+Membuat dokumen PDF baru adalah langkah selanjutnya. Ini melibatkan penggunaan `Document` kelas dari pustaka Aspose.PDF.
 
 ```csharp
 // Membuat contoh dokumen
 Aspose.Pdf.Document pdf = new Aspose.Pdf.Document();
 ```
- Di sini, kita membuat contoh baru dari`Document` kelas, yang berfungsi sebagai kanvas untuk manipulasi.
+Di sini, kita membuat contoh baru dari `Document` kelas, yang berfungsi sebagai kanvas untuk manipulasi.
 
 ## Langkah 3: Tambahkan Halaman Baru
 
@@ -81,17 +83,17 @@ Potongan kode ini menambahkan halaman baru ke dokumen kita, membuatnya siap mene
 
 ## Langkah 4: Buat Kotak Mengambang
 
- Selanjutnya, saatnya membuat Kotak Mengambang yang akan menampung nomor halaman.`FloatingBox`kelas memungkinkan kita untuk memposisikan konten secara bebas di halaman.
+Selanjutnya, saatnya membuat Kotak Mengambang yang akan menampung nomor halaman. `FloatingBox` kelas memungkinkan kita untuk memposisikan konten secara bebas di halaman.
 
 ```csharp
 // Menginisialisasi instance baru dari kelas FloatingBox
 Aspose.Pdf.FloatingBox box1 = new Aspose.Pdf.FloatingBox(140, 80);
 ```
- Di sini, parameternya`(140, 80)` Tentukan lebar dan tinggi Kotak Terapung. Anda dapat menyesuaikan nilai ini berdasarkan preferensi tata letak Anda.
+Di sini, parameternya `(140, 80)` Tentukan lebar dan tinggi Kotak Terapung. Anda dapat menyesuaikan nilai ini berdasarkan preferensi tata letak Anda.
 
 ## Langkah 5: Memposisikan Kotak Mengambang
 
- Penempatan adalah kuncinya! Anda ingin menentukan di mana nomor halaman akan muncul di halaman. Anda akan bekerja dengan`Left` Dan`Top` properti untuk menentukan posisi.
+Penempatan adalah kuncinya! Anda ingin menentukan di mana nomor halaman akan muncul di halaman. Anda akan bekerja dengan `Left` Dan `Top` properti untuk menentukan posisi.
 
 ```csharp
 // Nilai float yang menunjukkan posisi kiri paragraf
@@ -109,7 +111,7 @@ Sekarang, kita akan menambahkan string yang secara dinamis menampilkan nomor hal
 // Tambahkan makro ke koleksi paragraf FloatingBox
 box1.Paragraphs.Add(new Aspose.Pdf.Text.TextFragment("Page: ($p/ $P )"));
 ```
- Dalam kasus ini,`($p/ $P)`adalah makro yang akan menampilkan nomor halaman saat ini (`$p`) dan jumlah halaman total (`$P`). Akibatnya, teks diformat menjadi seperti "Halaman: 1/5".
+Dalam kasus ini, `($p/ $P)` adalah makro yang akan menampilkan nomor halaman saat ini (`$p`) dan jumlah halaman total (`$P`). Akibatnya, teks diformat menjadi seperti "Halaman: 1/5".
 
 ## Langkah 7: Tambahkan Kotak Mengambang ke Halaman
 
@@ -133,27 +135,29 @@ Pastikan jalur yang ditentukan menyertakan nama berkas yang Anda inginkan. Sekar
 
 ## Kesimpulan
 
-Nah, itu dia! Menambahkan nomor halaman ke header dan footer PDF Anda menggunakan Aspose.PDF for .NET semudah itu. Hanya dengan beberapa baris kode, Anda telah memulai perjalanan untuk menguasai pemrosesan dokumen dalam aplikasi Anda. Jangan ragu untuk bereksperimen dengan tata letak dan format yang berbeda—bagaimanapun juga, kreativitas tidak mengenal batas! Siap untuk membuat dokumen profesional? Ambil topi coding Anda dan mulailah bereksperimen.
+Nah, itu dia! Menambahkan nomor halaman ke header dan footer PDF Anda menggunakan Aspose.PDF for .NET semudah itu. Hanya dengan beberapa baris kode, Anda telah memulai perjalanan untuk menguasai pemrosesan dokumen dalam aplikasi Anda. Jangan ragu untuk bereksperimen dengan tata letak dan format yang berbeda—bagaimanapun juga, kreativitas tidak mengenal batas! Siap untuk membuat dokumen profesional? Ambil topi pengodean Anda dan mulailah bereksperimen.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menyesuaikan tampilan teks nomor halaman?  
- Ya, Anda dapat menyesuaikan properti teks, seperti ukuran font, warna, dan gaya dengan menyesuaikan`TextFragment` properti.
+Ya, Anda dapat menyesuaikan properti teks, seperti ukuran font, warna, dan gaya dengan menyesuaikan `TextFragment` properti.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?  
- Meskipun Aspose.PDF menawarkan uji coba gratis, ini adalah produk berbayar untuk penggunaan produksi. Anda dapat[beli disini](https://purchase.aspose.com/buy).
+Meskipun Aspose.PDF menawarkan uji coba gratis, ini adalah produk berbayar untuk penggunaan produksi. Anda dapat [beli disini](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci?  
- Anda dapat menemukan dokumentasi lengkap di[Situs Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di [Situs Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara menerapkan header dan footer ke beberapa halaman?  
 Anda dapat mengulang semua halaman di dokumen Anda dan menerapkan Kotak Mengambang ke setiap halaman dengan cara yang sama.
 
 ### Bagaimana jika saya memerlukan dukungan untuk fitur tambahan?  
-Untuk pertanyaan atau dukungan tambahan, Anda dapat mengunjungi[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Untuk pertanyaan atau dukungan tambahan, Anda dapat mengunjungi [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

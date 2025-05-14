@@ -1,14 +1,16 @@
 ---
-title: Cập nhật kích thước trang PDF
-linktitle: Cập nhật kích thước trang PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Khám phá cách cập nhật kích thước trang PDF dễ dàng bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện, từng bước này.
-weight: 150
-url: /vi/net/programming-with-pdf-pages/update-dimensions/
+"description": "Khám phá cách cập nhật kích thước trang PDF dễ dàng bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện, từng bước này."
+"linktitle": "Cập nhật kích thước trang PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Cập nhật kích thước trang PDF"
+"url": "/vi/net/programming-with-pdf-pages/update-dimensions/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cập nhật kích thước trang PDF
@@ -25,7 +27,7 @@ Trước khi bắt đầu thực hiện, bạn cần chuẩn bị một số th�
 
 2. .NET Framework: Đảm bảo rằng bạn đã cài đặt phiên bản .NET Framework tương thích trên hệ thống của mình.
 
-3. Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt gói Aspose.PDF. Bạn có thể dễ dàng tải gói này qua liên kết sau:[Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt gói Aspose.PDF. Bạn có thể dễ dàng tải gói này qua liên kết sau: [Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 
 4. Kỹ năng lập trình cơ bản: Nắm vững kiến thức cơ bản về lập trình C# sẽ giúp bạn hiểu rõ hơn về hướng dẫn này.
 
@@ -55,7 +57,7 @@ Bây giờ, chúng ta cần thêm thư viện Aspose.PDF vào dự án của mì
 
 ### Nhập không gian tên
 
- Trong của bạn`Program.cs` tệp, hãy nhập không gian tên Aspose.PDF để bạn có thể truy cập các chức năng của nó:
+Trong của bạn `Program.cs` tệp, hãy nhập không gian tên Aspose.PDF để bạn có thể truy cập các chức năng của nó:
 
 ```csharp
 using System.IO;
@@ -63,7 +65,7 @@ using System;
 using Aspose.Pdf;
 ```
 
-Bây giờ bạn đã thiết lập và sẵn sàng mọi thứ, chúng ta hãy bắt đầu sửa đổi kích thước trang.
+Bây giờ bạn đã thiết lập và sẵn sàng mọi thứ, hãy cùng bắt đầu sửa đổi kích thước trang.
 
 Bây giờ, chúng ta hãy cùng xem xét các bước thực tế cần thiết để cập nhật kích thước trang PDF một cách hiệu quả.
 
@@ -75,7 +77,7 @@ Trước khi mở tệp PDF, bạn cần chỉ định vị trí của tệp. Đ
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Nghĩ về`dataDir` làm địa chỉ tài liệu của bạn. Đảm bảo thay thế “YOUR DOCUMENT DIRECTORY” bằng đường dẫn thực tế nơi tệp PDF của bạn nằm.
+Nghĩ về `dataDir` làm địa chỉ tài liệu của bạn. Đảm bảo thay thế “YOUR DOCUMENT DIRECTORY” bằng đường dẫn thực tế nơi tệp PDF của bạn nằm.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -85,7 +87,7 @@ Bây giờ là lúc tải tài liệu PDF mà bạn muốn chỉnh sửa.
 // Mở tài liệu
 Document pdfDocument = new Document(dataDir + "UpdateDimensions.pdf");
 ```
- Ở đây, chúng tôi đang tạo ra một cái mới`Document` đối tượng, truyền cho nó đường dẫn của tệp PDF. Điều này cho phép chúng ta làm việc với tài liệu trong mã của mình.
+Ở đây, chúng tôi đang tạo ra một cái mới `Document` đối tượng, truyền cho nó đường dẫn của tệp PDF. Điều này cho phép chúng ta làm việc với tài liệu trong mã của mình.
 
 ## Bước 3: Truy cập Bộ sưu tập trang
 
@@ -95,7 +97,7 @@ Tiếp theo, truy cập các trang trong tài liệu PDF. Điều này cho phép
 // Nhận bộ sưu tập trang
 PageCollection pageCollection = pdfDocument.Pages;
 ```
- Hãy tưởng tượng`PageCollection`như một giá sách, trong đó mỗi trang PDF là một cuốn sách. Bạn có thể dễ dàng điều hướng qua các trang để tìm trang bạn muốn sửa đổi.
+Hãy tưởng tượng `PageCollection` như một giá sách, trong đó mỗi trang PDF là một cuốn sách. Bạn có thể dễ dàng điều hướng qua các trang để tìm trang bạn muốn sửa đổi.
 
 ## Bước 4: Lấy một trang cụ thể
 
@@ -113,7 +115,7 @@ Bây giờ đến phần thú vị! Bạn có thể thiết lập kích thước
 
 ```csharp
 // Đặt kích thước trang là A4 (11,7 x 8,3 in) và trong Aspose.Pdf, 1 inch = 72 điểm
-// Vì vậy, kích thước A4 tính theo điểm sẽ là (842,4, 597,6)
+// Vì vậy, kích thước A4 tính bằng điểm sẽ là (842,4, 597,6)
 pdfPage.SetPageSize(597.6, 842.4);
 ```
 Thiết lập kích thước trang giống như thay đổi kích thước khung ảnh; bạn phải biết số đo bằng “điểm” chứ không phải inch. Trong trường hợp của chúng tôi, kích thước A4 được chuyển đổi thành điểm để dễ thao tác.
@@ -150,19 +152,21 @@ Vậy hãy tiếp tục, phát huy sự sáng tạo của bạn và làm cho cá
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF bằng cách sử dụng nền tảng .NET.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/).
 
 ### Aspose.PDF hỗ trợ những ngôn ngữ lập trình nào?
 Aspose.PDF hỗ trợ nhiều ngôn ngữ lập trình bao gồm C#, Java và Python.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện trên Aspose.PDF[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện trên Aspose.PDF [đây](https://reference.aspose.com/pdf/net/).
 
 ### Có diễn đàn hỗ trợ nào dành cho người dùng Aspose.PDF không?
- Có, Aspose có một diễn đàn hỗ trợ chuyên dụng mà bạn có thể truy cập[đây](https://forum.aspose.com/c/pdf/10).
+Có, Aspose có một diễn đàn hỗ trợ chuyên dụng mà bạn có thể truy cập [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

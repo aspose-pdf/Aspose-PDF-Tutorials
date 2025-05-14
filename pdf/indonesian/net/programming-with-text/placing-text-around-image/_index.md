@@ -1,14 +1,16 @@
 ---
-title: Menempatkan Teks di Sekitar Gambar dalam File PDF
-linktitle: Menempatkan Teks di Sekitar Gambar dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menempatkan teks di sekitar gambar dalam PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat PDF profesional dengan gambar dan teks berdampingan.
-weight: 260
-url: /id/net/programming-with-text/placing-text-around-image/
+"description": "Pelajari cara menempatkan teks di sekitar gambar dalam PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat PDF profesional dengan gambar dan teks berdampingan."
+"linktitle": "Menempatkan Teks di Sekitar Gambar dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Menempatkan Teks di Sekitar Gambar dalam File PDF"
+"url": "/id/net/programming-with-text/placing-text-around-image/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menempatkan Teks di Sekitar Gambar dalam File PDF
@@ -21,12 +23,12 @@ Pernahkah Anda mencoba menempatkan teks di sekitar gambar dalam berkas PDF tetap
 
 Sebelum kita mulai membuat kode, mari kita pastikan semuanya sudah disiapkan. Berikut ini yang Anda perlukan:
 
--  Aspose.PDF untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Pastikan Anda telah menginstal versi terbaru agar dapat berjalan lancar.
 - .NET Framework: Contoh ini menggunakan .NET, jadi pastikan lingkungan Anda disiapkan untuk pengembangan .NET.
--  Lisensi Sementara: Anda dapat meminta lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) jika Anda mengevaluasi produk.
+- Lisensi Sementara: Anda dapat meminta lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/) jika Anda mengevaluasi produk.
 
-Jika Anda belum menyiapkan Aspose.PDF untuk .NET, ikuti petunjuk penginstalan di[dokumentasi](https://reference.aspose.com/pdf/net/).
+Jika Anda belum menyiapkan Aspose.PDF untuk .NET, ikuti petunjuk penginstalan di [dokumentasi](https://reference.aspose.com/pdf/net/).
 
 ## Mengimpor Ruang Nama
 
@@ -39,13 +41,13 @@ using System.Linq;
 using System.Text;
 ```
 
- Ruang nama ini penting karena menyediakan akses ke kelas seperti`Document`, `Page`, `Image` , Dan`HtmlFragment`, yang akan kita gunakan untuk membuat dan memanipulasi PDF.
+Ruang nama ini penting karena menyediakan akses ke kelas seperti `Document`Bahasa Indonesia: `Page`Bahasa Indonesia: `Image`, Dan `HtmlFragment`, yang akan kita gunakan untuk membuat dan memanipulasi PDF.
 
 Setelah kita menyiapkan semuanya, mari kita bahas cara menempatkan teks di sekitar gambar dalam berkas PDF Anda menggunakan Aspose.PDF untuk .NET. Kami akan memandu Anda langkah demi langkah.
 
 ## Langkah 1: Membuat Instansi Objek Dokumen
 
- Pertama, Anda perlu membuat dokumen PDF. Di Aspose.PDF, ini dilakukan dengan membuat instance`Document` objek. Objek ini akan berfungsi sebagai fondasi untuk semua konten yang akan kita tambahkan.
+Pertama, Anda perlu membuat dokumen PDF. Di Aspose.PDF, ini dilakukan dengan membuat instance `Document` objek. Objek ini akan berfungsi sebagai fondasi untuk semua konten yang akan kita tambahkan.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -134,7 +136,7 @@ row1.Cells[1].Paragraphs.Add(TitleText);
 
 Blok ini menambahkan judul dan deskripsi bergaya di sel di sebelah gambar. Anda dapat memformat teks menggunakan tag HTML untuk kustomisasi lebih lanjut.
 
-## Langkah 8: Sesuaikan Penyelarasan Vertikal
+## Langkah 8: Sesuaikan Penjajaran Vertikal
 
 Secara default, konten dalam sel tabel mungkin tidak sejajar dengan yang Anda inginkan. Dalam kasus ini, kami ingin memastikan teks sejajar dengan bagian atas sel.
 
@@ -184,16 +186,18 @@ Ya, cukup tambahkan lebih banyak baris dan sel ke tabel Anda untuk menyertakan g
 Tentu saja! Anda dapat mengubah perataan gambar dengan menyesuaikan properti perataan sel.
 
 ### Bagaimana cara memberi gaya pada teks lebih lanjut?
- Anda dapat menggunakan tag HTML di dalam`HtmlFragment` objek untuk menerapkan berbagai gaya seperti tebal, miring, atau font yang berbeda.
+Anda dapat menggunakan tag HTML di dalam `HtmlFragment` objek untuk menerapkan berbagai gaya seperti tebal, miring, atau font yang berbeda.
 
 ### Bisakah saya mengontrol jarak antara teks dan gambar?
- Ya, menggunakan`MarginInfo` Objek ini memungkinkan Anda untuk mengontrol padding dan margin antar elemen.
+Ya, menggunakan `MarginInfo` Objek ini memungkinkan Anda untuk mengontrol padding dan margin antar elemen.
 
 ### Apakah mungkin untuk menambahkan tautan ke teks?
- Tentu saja! Anda dapat menyematkan hyperlink dalam teks berformat HTML menggunakan`<a>` menandai.
+Tentu saja! Anda dapat menyematkan hyperlink dalam teks berformat HTML menggunakan `<a>` menandai.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-graphs/drawing-line/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Drawing Line
@@ -157,6 +159,7 @@ You can load an existing PDF using `Document` and then use similar methods to ad
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

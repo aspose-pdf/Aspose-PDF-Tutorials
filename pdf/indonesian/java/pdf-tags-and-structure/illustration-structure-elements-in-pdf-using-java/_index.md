@@ -1,14 +1,16 @@
 ---
-title: Ilustrasi Elemen Struktur dalam PDF menggunakan Java
-linktitle: Ilustrasi Elemen Struktur dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara membuat ilustrasi dan elemen struktur dalam file PDF menggunakan Java dengan Aspose.PDF.
-weight: 14
-url: /id/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/
+"description": "Pelajari cara membuat ilustrasi dan elemen struktur dalam file PDF menggunakan Java dengan Aspose.PDF."
+"linktitle": "Ilustrasi Elemen Struktur dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ilustrasi Elemen Struktur dalam PDF menggunakan Java"
+"url": "/id/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ilustrasi Elemen Struktur dalam PDF menggunakan Java
@@ -16,7 +18,7 @@ url: /id/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-usin
 
 # Ilustrasi Elemen Struktur dalam PDF menggunakan Java
 
-Dalam panduan langkah demi langkah ini, kita akan menyelami dunia menarik dalam menciptakan elemen struktur ilustrasi dalam file PDF menggunakan Java, semua berkat pustaka Aspose.PDF yang canggih. Apakah Anda seorang pengembang berpengalaman atau hanya mencoba-coba manipulasi PDF, tutorial ini akan memberi Anda pengetahuan dan kode sumber yang Anda butuhkan untuk memulai.
+Dalam panduan langkah demi langkah ini, kita akan menyelami dunia menarik dalam menciptakan elemen struktur ilustrasi dalam file PDF menggunakan Java, semua berkat pustaka Aspose.PDF yang canggih. Apakah Anda seorang pengembang berpengalaman atau baru mulai memanipulasi PDF, tutorial ini akan memberi Anda pengetahuan dan kode sumber yang Anda butuhkan untuk memulai.
 
 ## Perkenalan
 
@@ -28,14 +30,14 @@ Sebelum kita memulai petualangan ilustrasi PDF kita, pastikan Anda memiliki pras
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
 
--  Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Proyek Anda
 
 Sekarang, mari kita siapkan proyek Java untuk memulai. Buat proyek Java baru di IDE favorit Anda dan tambahkan pustaka Aspose.PDF ke classpath proyek Anda.
 
 ```java
-//Tambahkan pustaka Aspose.PDF ke proyek Java Anda
+// Tambahkan pustaka Aspose.PDF ke proyek Java Anda
 import com.aspose.pdf.Document;
 import com.aspose.pdf.Page;
 import com.aspose.pdf.Rectangle;
@@ -82,7 +84,7 @@ Document pdfDocument = new Document();
 // Tambahkan halaman ke dokumen
 Page page = pdfDocument.getPages().add();
 
-//Memuat gambar
+// Memuat gambar
 com.aspose.pdf.Image image = new com.aspose.pdf.Image();
 image.setFile("logo.png"); // Ganti dengan jalur file gambar Anda
 
@@ -102,7 +104,7 @@ pdfDocument.save("Illustration.pdf");
 
 Selamat! Anda telah mempelajari cara membuat ilustrasi dan menyusun elemen dalam berkas PDF menggunakan Java dan Aspose.PDF. Kini Anda dapat menyempurnakan dokumen PDF dengan teks, gambar, dan banyak lagi.
 
- Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk menjelajahi[Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/) untuk rincian lebih mendalam.
+Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk menjelajahi [Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/) untuk rincian lebih mendalam.
 
 ## Tanya Jawab Umum
 
@@ -122,9 +124,11 @@ Selamat! Anda telah mempelajari cara membuat ilustrasi dan menyusun elemen dalam
    Lihat dokumentasi API Aspose.PDF untuk Java guna memperoleh banyak contoh dan sumber daya.
    
 Sekarang Anda siap membuat dokumen PDF yang menarik dan informatif dengan Java dan Aspose.PDF. Selamat membuat kode!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

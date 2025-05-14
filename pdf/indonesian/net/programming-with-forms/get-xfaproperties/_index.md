@@ -1,14 +1,16 @@
 ---
-title: Dapatkan XFAProperties
-linktitle: Dapatkan XFAProperties
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengambil properti XFA menggunakan Aspose.PDF untuk .NET dalam tutorial lengkap ini. Panduan langkah demi langkah disertakan.
-weight: 160
-url: /id/net/programming-with-forms/get-xfaproperties/
+"description": "Pelajari cara mengambil properti XFA menggunakan Aspose.PDF untuk .NET dalam tutorial lengkap ini. Panduan langkah demi langkah disertakan."
+"linktitle": "Dapatkan XFAProperties"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan XFAProperties"
+"url": "/id/net/programming-with-forms/get-xfaproperties/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan XFAProperties
@@ -22,7 +24,7 @@ Selamat datang di dunia Aspose.PDF untuk .NET! Jika Anda ingin memanipulasi doku
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah lingkungan terbaik untuk pengembangan .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Anda bisa mendapatkannya dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Anda bisa mendapatkannya dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contohnya dengan lebih baik.
 4. PDF dengan Formulir XFA: Anda memerlukan contoh berkas PDF yang berisi formulir XFA untuk menguji kode. Anda dapat membuatnya atau mengunduh contoh dari internet.
 
@@ -32,7 +34,7 @@ Untuk memulai, Anda perlu mengimpor paket yang diperlukan ke dalam proyek C# And
 
 1. Buka proyek Visual Studio Anda.
 2. Klik kanan pada proyek Anda di Solution Explorer dan pilih "Kelola Paket NuGet."
-3.  Pencarian untuk`Aspose.PDF` dan menginstalnya.
+3. Pencarian untuk `Aspose.PDF` dan menginstalnya.
 
 ```csharp
 using System;
@@ -51,7 +53,7 @@ Langkah pertama dalam perjalanan kita adalah menyiapkan direktori tempat dokumen
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya tempat file PDF Anda berada. Ini akan memungkinkan program untuk menemukan dan memuat PDF Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Ini akan memungkinkan program untuk menemukan dan memuat PDF Anda.
 
 ## Langkah 2: Muat Formulir XFA
 
@@ -62,21 +64,21 @@ Setelah direktori dokumen kita siap, saatnya memuat formulir XFA. Di sinilah kea
 Document doc = new Document(dataDir + "GetXFAProperties.pdf");
 ```
 
- Pada baris ini kita membuat yang baru`Document` objek dan berikan jalur file PDF kita. Ini akan memuat dokumen ke dalam memori, siap untuk dimanipulasi.
+Pada baris ini kita membuat yang baru `Document` objek dan berikan jalur berkas PDF kita. Ini akan memuat dokumen ke dalam memori, siap untuk dimanipulasi.
 
 ## Langkah 3: Ambil Nama Bidang
 
-Setelah dokumen dimuat, kita dapat mengambil nama-nama kolom dalam formulir XFA. Hal ini penting untuk mengetahui kolom apa saja yang dapat kita gunakan.
+Setelah dokumen dimuat, kita dapat mengambil nama-nama bidang dalam formulir XFA. Hal ini penting untuk mengetahui bidang apa saja yang dapat kita gunakan.
 
 ```csharp
 string[] names = doc.Form.XFA.FieldNames;
 ```
 
- Di sini, kita mengakses`FieldNames` properti formulir XFA, yang memberi kita serangkaian nama bidang. Ini seperti memiliki daftar bahan sebelum Anda mulai memasak!
+Di sini, kita mengakses `FieldNames` properti formulir XFA, yang memberi kita serangkaian nama bidang. Ini seperti memiliki daftar bahan sebelum Anda mulai memasak!
 
 ## Langkah 4: Tetapkan Nilai Bidang
 
-Sekarang setelah kita memiliki nama kolom, mari kita tetapkan beberapa nilai untuk kolom tersebut. Di sinilah Anda dapat menyesuaikan formulir dengan data yang Anda inginkan.
+Sekarang setelah kita memiliki nama kolom, mari tetapkan beberapa nilai untuk kolom tersebut. Di sinilah Anda dapat menyesuaikan formulir dengan data yang Anda inginkan.
 
 ```csharp
 // Tetapkan nilai bidang
@@ -96,7 +98,7 @@ Console.WriteLine(doc.Form.XFA.GetFieldTemplate(names[0]).Attributes["x"].Value)
 Console.WriteLine(doc.Form.XFA.GetFieldTemplate(names[0]).Attributes["y"].Value);
 ```
 
- Di sini, kita mengakses`GetFieldTemplate` metode untuk mendapatkan atribut bidang, khususnya koordinat "x" dan "y". Ini memberi tahu kita di mana bidang tersebut diposisikan pada PDF.
+Di sini, kita mengakses `GetFieldTemplate` metode untuk mendapatkan atribut bidang, khususnya koordinat "x" dan "y". Ini memberi tahu kita di mana bidang tersebut diposisikan pada PDF.
 
 ## Langkah 6: Simpan Dokumen yang Diperbarui
 
@@ -121,20 +123,22 @@ Nah, itu dia! Anda telah berhasil mempelajari cara mengambil dan memanipulasi pr
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Lihatlah[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Lihatlah [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasinya?
- Anda dapat menemukan dokumentasi untuk Aspose.PDF untuk .NET[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi untuk Aspose.PDF untuk .NET [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Apakah ada lisensi sementara yang tersedia?
- Ya, Anda dapat meminta lisensi sementara untuk Aspose.PDF[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Anda dapat meminta lisensi sementara untuk Aspose.PDF [Di Sini](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

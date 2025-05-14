@@ -1,37 +1,39 @@
 ---
-title: Deshabilitar la compresión de archivos en archivos PDF
-linktitle: Deshabilitar la compresión de archivos en archivos PDF
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a desactivar la compresión de archivos PDF con Aspose.PDF para .NET con esta guía paso a paso. Mejore sus habilidades de gestión de archivos PDF.
-weight: 30
-url: /es/net/programming-with-attachments/disable-files-compression/
+"description": "Aprenda a deshabilitar la compresión de archivos PDF con Aspose.PDF para .NET con esta guía paso a paso. Mejore sus habilidades de gestión de PDF."
+"linktitle": "Deshabilitar la compresión de archivos en archivos PDF"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Deshabilitar la compresión de archivos en archivos PDF"
+"url": "/es/net/programming-with-attachments/disable-files-compression/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Deshabilitar la compresión de archivos en archivos PDF
 
 ## Introducción
 
-En la era digital, gestionar archivos PDF de forma eficaz es crucial tanto para uso personal como profesional. Tanto si eres un desarrollador que busca mejorar su aplicación como un profesional de negocios que gestiona documentos, saber cómo manipular archivos PDF puede ahorrarte tiempo y esfuerzo. Un requisito habitual es desactivar la compresión de archivos en los documentos PDF. Esto puede resultar especialmente útil cuando quieres asegurarte de que los archivos incrustados permanezcan en su formato original sin ninguna alteración. En este tutorial, exploraremos cómo desactivar la compresión de archivos en un archivo PDF utilizando Aspose.PDF para .NET. 
+En la era digital, gestionar archivos PDF de forma eficiente es crucial tanto para uso personal como profesional. Tanto si eres un desarrollador que busca mejorar su aplicación como un profesional que gestiona documentos, comprender cómo manipular archivos PDF puede ahorrarte tiempo y esfuerzo. Un requisito común es desactivar la compresión de archivos en documentos PDF. Esto puede ser especialmente útil para garantizar que los archivos incrustados conserven su formato original sin modificaciones. En este tutorial, exploraremos cómo desactivar la compresión de archivos en un archivo PDF con Aspose.PDF para .NET. 
 
 ## Prerrequisitos
 
-Antes de sumergirnos en el código, hay algunos requisitos previos que debes tener en cuenta:
+Antes de sumergirse en el código, hay algunos requisitos previos que debe tener en cuenta:
 
-1.  Aspose.PDF para .NET: Asegúrese de tener instalada la biblioteca Aspose.PDF. Puede descargarla desde el sitio web[sitio web](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF para .NET: Asegúrese de tener instalada la biblioteca Aspose.PDF. Puede descargarla desde [sitio web](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: un entorno de desarrollo donde puedes escribir y ejecutar tu código .NET.
 3. Conocimientos básicos de C#: la familiaridad con la programación en C# le ayudará a comprender mejor los fragmentos de código.
 
 ## Importar paquetes
 
-Para comenzar, debe importar los paquetes necesarios en su proyecto de C#. A continuación, le indicamos cómo hacerlo:
+Para empezar, necesitas importar los paquetes necesarios en tu proyecto de C#. Así es como puedes hacerlo:
 
 ### Crear un nuevo proyecto
 
-Abra Visual Studio y cree un nuevo proyecto de C#. Puede elegir una aplicación de consola para simplificar el proceso.
+Abra Visual Studio y cree un nuevo proyecto de C#. Puede elegir una aplicación de consola para simplificar.
 
 ### Añadir referencia de Aspose.PDF
 
@@ -49,11 +51,11 @@ using System;
 using Aspose.Pdf;
 ```
 
-Ahora que tenemos todo configurado, dividamos el proceso de deshabilitar la compresión de archivos en un archivo PDF en pasos manejables.
+Ahora que tenemos todo configurado, desglosemos el proceso de deshabilitar la compresión de archivos en un archivo PDF en pasos manejables.
 
 ## Paso 1: Definir el directorio del documento
 
-En primer lugar, debe especificar la ruta del directorio donde se encuentra el archivo PDF. Esto es fundamental, ya que le indica al programa dónde encontrar el archivo que desea manipular.
+Primero, debe especificar la ruta del directorio donde se encuentra su archivo PDF. Esto es crucial, ya que le indica al programa dónde encontrar el archivo que desea manipular.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Paso 2: Cargue el documento PDF
 
- A continuación, cargará el documento PDF que desea modificar. Esto se hace mediante el botón`Document` clase proporcionada por Aspose.PDF.
+A continuación, cargará el documento PDF que desea modificar. Esto se hace usando el `Document` Clase proporcionada por Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
@@ -77,7 +79,7 @@ FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sam
 
 ## Paso 4: Especificar la propiedad de codificación
 
- Para garantizar que el archivo se agregue sin compresión, debe configurar la propiedad de codificación de la especificación del archivo en`FileEncoding.None`Este paso es crucial ya que afecta directamente cómo se incrusta el archivo en el PDF.
+Para garantizar que el archivo se agregue sin compresión, debe establecer la propiedad de codificación de la especificación del archivo en `FileEncoding.None`Este paso es crucial ya que afecta directamente la forma en que se incrusta el archivo en el PDF.
 
 ```csharp
 fileSpecification.Encoding = FileEncoding.None;
@@ -85,7 +87,7 @@ fileSpecification.Encoding = FileEncoding.None;
 
 ## Paso 5: Agregar archivo adjunto al documento
 
-Una vez que la especificación del archivo esté lista, puede agregar el archivo adjunto a la colección de archivos adjuntos del documento. Este paso integra el archivo en el PDF.
+Con la especificación del archivo lista, puede agregar el archivo adjunto a la colección de archivos adjuntos del documento. Este paso integra el archivo en el PDF.
 
 ```csharp
 pdfDocument.EmbeddedFiles.Add(fileSpecification);
@@ -93,7 +95,7 @@ pdfDocument.EmbeddedFiles.Add(fileSpecification);
 
 ## Paso 6: Guardar la nueva salida
 
-Por último, debes guardar el documento PDF modificado. Especifica la ruta de salida en la que deseas guardar el nuevo archivo.
+Finalmente, debe guardar el documento PDF modificado. Especifique la ruta de salida donde desea guardar el nuevo archivo.
 
 ```csharp
 dataDir = dataDir + "DisableFilesCompression_out.pdf";
@@ -110,7 +112,7 @@ Console.WriteLine("\nFile compression disabled successfully.\nFile saved at " + 
 
 ## Conclusión
 
-Deshabilitar la compresión de archivos en documentos PDF puede ser un proceso sencillo si se utilizan las herramientas adecuadas. Si sigue los pasos que se describen en este tutorial, podrá administrar fácilmente sus archivos PDF y asegurarse de que los archivos adjuntos incrustados conserven su formato original. Aspose.PDF para .NET ofrece una forma potente y flexible de manipular documentos PDF, lo que lo convierte en una excelente opción tanto para desarrolladores como para empresas.
+Deshabilitar la compresión de archivos en documentos PDF puede ser un proceso sencillo con las herramientas adecuadas. Siguiendo los pasos de este tutorial, podrá administrar fácilmente sus archivos PDF y garantizar que los archivos adjuntos incrustados conserven su formato original. Aspose.PDF para .NET ofrece una forma potente y flexible de manipular documentos PDF, lo que lo convierte en una excelente opción tanto para desarrolladores como para empresas.
 
 ## Preguntas frecuentes
 
@@ -121,16 +123,18 @@ Aspose.PDF para .NET es una biblioteca que permite a los desarrolladores crear, 
 Deshabilitar la compresión de archivos garantiza que los archivos incrustados permanezcan en su formato original, lo que puede ser importante para la integridad de los datos.
 
 ### ¿Puedo utilizar Aspose.PDF gratis?
- Sí, Aspose ofrece una versión de prueba gratuita que puedes usar para evaluar la biblioteca. Puedes descargarla[aquí](https://releases.aspose.com/).
+Sí, Aspose ofrece una versión de prueba gratuita que puedes usar para evaluar la biblioteca. Puedes descargarla. [aquí](https://releases.aspose.com/).
 
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.PDF?
- Puede encontrar documentación completa en el[Sitio web de Aspose](https://reference.aspose.com/pdf/net/).
+Puede encontrar documentación completa en el [Sitio web de Aspose](https://reference.aspose.com/pdf/net/).
 
 ### ¿Cómo puedo obtener soporte para Aspose.PDF?
- Puede obtener ayuda visitando el sitio[Foro de Aspose](https://forum.aspose.com/c/pdf/10).
+Puede obtener ayuda visitando el [Foro de Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Określ, czy obraz wewnątrz pliku PDF jest kolorowy czy czarno-biały w Javie
-linktitle: Określ, czy obraz wewnątrz pliku PDF jest kolorowy czy czarno-biały w Javie
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak identyfikować kolorowe lub czarno-białe obrazy w plikach PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku upraszcza ten proces.
-weight: 10
-url: /pl/java/pdf-image-manipulation/identify-if-image-inside-pdf-is-colored-or-black-and-white-in-java/
+"description": "Dowiedz się, jak identyfikować kolorowe lub czarno-białe obrazy w plikach PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku upraszcza ten proces."
+"linktitle": "Określ, czy obraz wewnątrz pliku PDF jest kolorowy czy czarno-biały w Javie"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Określ, czy obraz wewnątrz pliku PDF jest kolorowy czy czarno-biały w Javie"
+"url": "/pl/java/pdf-image-manipulation/identify-if-image-inside-pdf-is-colored-or-black-and-white-in-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określ, czy obraz wewnątrz pliku PDF jest kolorowy czy czarno-biały w Javie
@@ -31,7 +33,7 @@ Aby ustalić, czy obraz wewnątrz pliku PDF jest kolorowy czy czarno-biały, mus
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Zestaw narzędzi programistycznych Java (JDK)
--  Aspose.PDF dla biblioteki Java (Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF dla biblioteki Java (Możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/)
 
 ## Ładowanie dokumentu PDF
 
@@ -120,16 +122,18 @@ Tak, Aspose.PDF for Java jest biblioteką komercyjną, ale oferuje różne opcje
 
 Podczas pracy z dużymi plikami PDF, ważne jest, aby wziąć pod uwagę wydajność. Aspose.PDF dla Javy jest zoptymalizowany pod kątem wydajności, ale nadal powinieneś zaimplementować odpowiednią obsługę błędów i zarządzanie zasobami w swoim kodzie.
 
-### Czy istnieje sposób na konwersję kolorowych obrazów na czarno-białe przy użyciu Aspose.PDF dla Java?
+### Czy istnieje sposób na konwersję kolorowych obrazów na czarno-białe za pomocą Aspose.PDF dla Java?
 
 Tak, Aspose.PDF for Java oferuje funkcje do manipulacji obrazami, w tym konwersję kolorowych obrazów na czarno-białe. Szczegółowe instrukcje można znaleźć w dokumentacji.
 
 ### Gdzie mogę znaleźć więcej materiałów i dokumentacji dla pliku Aspose.PDF dla języka Java?
 
- Pełną dokumentację i zasoby dotyczące Aspose.PDF dla języka Java można uzyskać pod adresem[Tutaj](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację i zasoby dotyczące Aspose.PDF dla języka Java można uzyskać pod adresem [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/add-structure-element-into-element/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Structure Element Into Element
@@ -201,6 +203,7 @@ You can buy a license directly from the Aspose website [here](https://purchase.a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

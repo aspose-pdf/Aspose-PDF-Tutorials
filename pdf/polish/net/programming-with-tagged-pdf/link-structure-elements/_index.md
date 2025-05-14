@@ -1,14 +1,16 @@
 ---
-title: Elementy struktury linków
-linktitle: Elementy struktury linków
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak tworzyć elementy struktury linków w pliku PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku dotyczący dodawania dostępnych linków, obrazów i walidacji zgodności.
-weight: 120
-url: /pl/net/programming-with-tagged-pdf/link-structure-elements/
+"description": "Dowiedz się, jak tworzyć elementy struktury linków w pliku PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku dotyczący dodawania dostępnych linków, obrazów i walidacji zgodności."
+"linktitle": "Elementy struktury linków"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Elementy struktury linków"
+"url": "/pl/net/programming-with-tagged-pdf/link-structure-elements/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elementy struktury linków
@@ -19,11 +21,11 @@ Tworzenie i zarządzanie elementami struktury linków w pliku PDF może mieć kl
 
 ## Wymagania wstępne  
 
-Zanim zagłębimy się w kodowanie, najpierw wyjaśnijmy kilka spraw. Oto podstawowe wymagania, które zapewnią płynne środowisko programistyczne.
+Zanim zagłębimy się w kodowanie, najpierw wyjaśnijmy kilka rzeczy. Oto podstawowe wymagania, które zapewnią płynne środowisko programistyczne.
 
-1.  Aspose.PDF dla .NET: Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/pdf/net/).
-2. Środowisko programistyczne .NET: Niezależnie od tego, czy jest to Visual Studio, czy dowolne środowisko IDE zgodne z platformą .NET, należy je zainstalować i mieć je gotowe.
-3.  Licencja Aspose: Możesz korzystać z bezpłatnej wersji próbnej Aspose.PDF[Tutaj](https://releases.aspose.com/) lub nabyć[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF dla .NET: Możesz pobrać najnowszą wersję [Tutaj](https://releases.aspose.com/pdf/net/).
+2. Środowisko programistyczne .NET: Niezależnie od tego, czy jest to Visual Studio, czy dowolne środowisko IDE zgodne z platformą .NET, należy je zainstalować i mieć pod ręką.
+3. Licencja Aspose: Możesz korzystać z bezpłatnej wersji próbnej Aspose.PDF [Tutaj](https://releases.aspose.com/) lub nabyć [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 4. Podstawowa wiedza o języku C#: Będziemy pracować z kodem w języku C#, dlatego zrozumienie podstaw znacznie ułatwi sprawę.
 
 ## Importuj pakiety
@@ -61,7 +63,7 @@ Document document = new Document();
 ITaggedContent taggedContent = document.TaggedContent;
 ```
   
- Tutaj inicjujemy`Document` obiekt, który reprezentuje nasz plik PDF. Pobieramy również`TaggedContent` interfejs umożliwiający dodawanie elementów struktury, takich jak akapity, linki i obrazy.
+Tutaj inicjujemy `Document` obiekt, który reprezentuje nasz plik PDF. Pobieramy również `TaggedContent` interfejs umożliwiający dodawanie elementów struktury, takich jak akapity, linki i obrazy.
 
 ## Krok 2: Ustaw tytuł i język  
 
@@ -105,7 +107,7 @@ link1.SetText("Google");
 link1.AlternateDescriptions = "Link to Google";
 ```
   
-tym kroku utworzyliśmy element linku, ustawiliśmy jego hiperłącze na „http://google.com” i podaliśmy tekst („Google”) dla linku. Dodaliśmy również alternatywny opis, aby zapewnić dostępność.
+W tym kroku utworzyliśmy element linku, ustawiliśmy jego hiperłącze na „http://google.com” i podaliśmy tekst („Google”) dla linku. Dodaliśmy również alternatywny opis, aby zapewnić dostępność.
 
 ## Krok 5: Dodawanie łącza z rozpiętościami  
 
@@ -206,9 +208,11 @@ Tak, można stosować style tekstu za pomocą elementów span.
 
 ### Czy można tworzyć wewnętrzne linki do dokumentów?  
 Oczywiście! Możesz linkować do konkretnych sekcji w tym samym dokumencie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

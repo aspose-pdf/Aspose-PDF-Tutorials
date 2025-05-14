@@ -1,14 +1,16 @@
 ---
-title: Zastosuj styl numeracji w nagłówku pliku PDF za pomocą Java
-linktitle: Zastosuj styl numeracji w nagłówku pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak stosować style numeracji do nagłówków PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku zawiera przykłady kodu źródłowego, aby nadać dokumentom profesjonalny charakter.
-weight: 14
-url: /pl/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/
+"description": "Dowiedz się, jak stosować style numeracji do nagłówków PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku zawiera przykłady kodu źródłowego, aby nadać dokumentom profesjonalny charakter."
+"linktitle": "Zastosuj styl numeracji w nagłówku pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Zastosuj styl numeracji w nagłówku pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zastosuj styl numeracji w nagłówku pliku PDF za pomocą Java
@@ -50,12 +52,12 @@ heading.getTextState().setForegroundColor(com.aspose.pdf.Color.getBlack());
 heading.getTextState().setBackgroundColor(com.aspose.pdf.Color.getLightGray());
 
 // Ustaw tekst nagłówka
-TextFragment titleFragment = new TextFragment("Applying Numbering Style");
+TextFragment titleFragment = new TextFragment("Stosowanie stylu numerowania");
 heading.getFragments().add(titleFragment);
 pdfDocument.getPages().get_Item(1).getParagraphs().add(heading);
 ```
 
-## Stosowanie stylu numerowania
+## Applying Numbering Style
 
 Teraz nadchodzi ekscytująca część — stosowanie stylów numeracji do naszych nagłówków. Aspose.PDF dla Javy zapewnia prosty sposób na osiągnięcie tego. Oto przykład stosowania numeracji:
 
@@ -94,7 +96,7 @@ java.awt.Desktop.getDesktop().open(new java.io.File("NumberedDocument.pdf"));
 
 ## Wniosek
 
-tym przewodniku krok po kroku sprawdziliśmy, jak stosować style numeracji do nagłówków w dokumentach PDF przy użyciu Aspose.PDF dla Java. Ta potężna biblioteka ułatwia tworzenie profesjonalnie wyglądających dokumentów z niestandardowymi formatami numeracji.
+W tym przewodniku krok po kroku sprawdziliśmy, jak stosować style numeracji do nagłówków w dokumentach PDF przy użyciu Aspose.PDF dla Java. Ta potężna biblioteka ułatwia tworzenie profesjonalnie wyglądających dokumentów z niestandardowymi formatami numeracji.
 
 ## Najczęściej zadawane pytania
 
@@ -102,8 +104,8 @@ tym przewodniku krok po kroku sprawdziliśmy, jak stosować style numeracji do n
 
 Aby zainstalować Aspose.PDF dla Java, wykonaj następujące kroki:
 
-1.  Odwiedź Aspose.PDF, aby zapoznać się z dokumentacją Java pod adresem[Tutaj](https://reference.aspose.com/pdf/java/).
-2.  Pobierz najnowszą wersję biblioteki ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+1. Odwiedź Aspose.PDF, aby zapoznać się z dokumentacją Java pod adresem [Tutaj](https://reference.aspose.com/pdf/java/).
+2. Pobierz najnowszą wersję biblioteki ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 3. Zintegruj bibliotekę ze swoim projektem Java zgodnie z instrukcjami instalacji podanymi w dokumentacji.
 
 ### Czy mogę używać Aspose.PDF dla Java za darmo?
@@ -112,7 +114,7 @@ Aspose.PDF for Java oferuje bezpłatną wersję próbną, której możesz użyć
 
 ### Czy można zastosować różne style numeracji do różnych sekcji dokumentu?
 
- Tak, możesz stosować różne style numeracji do różnych sekcji dokumentu PDF za pomocą Aspose.PDF dla Java. Po prostu utwórz oddzielne`Heading` obiektów i dostosuj style numeracji dla każdej sekcji.
+Tak, możesz stosować różne style numeracji do różnych sekcji dokumentu PDF za pomocą Aspose.PDF dla Java. Po prostu utwórz oddzielne `Heading` obiektów i dostosuj style numeracji dla każdej sekcji.
 
 ### Czy mogę wyeksportować plik PDF z ponumerowanymi nagłówkami do innych formatów, np. DOCX lub HTML?
 
@@ -120,10 +122,12 @@ Tak, Aspose.PDF for Java umożliwia eksportowanie dokumentów PDF z numerowanymi
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.PDF dla Java?
 
- Pełną dokumentację, przykłady kodu i odniesienia do interfejsu API dla Aspose.PDF dla języka Java można znaleźć w witrynie dokumentacji pod adresem[Tutaj](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację, przykłady kodu i odniesienia do interfejsu API dla Aspose.PDF dla języka Java można znaleźć w witrynie dokumentacji pod adresem [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

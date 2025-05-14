@@ -1,14 +1,16 @@
 ---
-title: Określ podział tabeli w pliku PDF
-linktitle: Określ podział tabeli w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak określić podział tabeli w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z naszego przewodnika krok po kroku, który zawiera przykłady kodu i wskazówki dotyczące rozwiązywania problemów.
-weight: 60
-url: /pl/net/programming-with-tables/determine-table-break/
+"description": "Dowiedz się, jak określić podział tabeli w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z naszego przewodnika krok po kroku, który zawiera przykłady kodu i wskazówki dotyczące rozwiązywania problemów."
+"linktitle": "Określ podział tabeli w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Określ podział tabeli w pliku PDF"
+"url": "/pl/net/programming-with-tables/determine-table-break/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określ podział tabeli w pliku PDF
@@ -22,7 +24,7 @@ Tworzenie i manipulowanie plikami PDF może przypominać oswajanie dzikiej besti
 Zanim przejdziemy do właściwego kodowania, upewnijmy się, że wszystko jest na swoim miejscu:
 
 1. Środowisko programistyczne .NET: Upewnij się, że masz zainstalowany program Visual Studio lub inne zgodne środowisko IDE.
-2.  Biblioteka Aspose.PDF: Musisz dodać bibliotekę Aspose.PDF do swojego projektu. Możesz ją pobrać ze strony[Pliki do pobrania w formacie PDF Aspose](https://releases.aspose.com/pdf/net/) stronę lub możesz zainstalować ją za pomocą Menedżera pakietów NuGet:
+2. Biblioteka Aspose.PDF: Musisz dodać bibliotekę Aspose.PDF do swojego projektu. Możesz ją pobrać ze strony [Pliki do pobrania w formacie PDF Aspose](https://releases.aspose.com/pdf/net/) stronę lub możesz zainstalować ją za pomocą Menedżera pakietów NuGet:
    ```bash
    Install-Package Aspose.PDF
    ```
@@ -41,9 +43,9 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-Te przestrzenie nazw dadzą Ci dostęp do podstawowych funkcjonalności niezbędnych do manipulowania plikami PDF.
+Te przestrzenie nazw dadzą ci dostęp do podstawowych funkcjonalności niezbędnych do manipulowania plikami PDF.
 
-Podzielmy proces na łatwe do opanowania kroki. Utworzymy dokument PDF, dodamy tabelę i ustalimy, czy zostanie ona podzielona na nową stronę po dodaniu kolejnych wierszy.
+Podzielmy proces na łatwe do opanowania kroki. Utworzymy dokument PDF, dodamy tabelę i ustalimy, czy zostanie ona podzielona na nową stronę podczas dodawania kolejnych wierszy.
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
@@ -55,7 +57,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zastąp swoim katalogiem.
 
 ## Krok 2: Utwórz dokument PDF
 
- Następnie utworzysz nową instancję`Document` klasa z biblioteki Aspose.PDF. To tutaj będzie się dziać cała Twoja magia PDF!
+Następnie utworzysz nową instancję `Document` klasa z biblioteki Aspose.PDF. To tutaj będzie się dziać cała Twoja magia PDF!
 
 ```csharp
 Document pdf = new Document();
@@ -71,7 +73,7 @@ Aspose.Pdf.Page page = pdf.Pages.Add();
 
 ## Krok 4: Utwórz instancję tabeli
 
-Teraz utwórzmy faktyczną tabelę, w której będziemy monitorować przerwy.
+Teraz utwórzmy faktyczną tabelę, w której będziemy monitorować występowanie pęknięć.
 
 ```csharp
 Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
@@ -180,27 +182,29 @@ Console.WriteLine($"\nTable break determined successfully.\nFile saved at {dataD
 
 ## Wniosek
 
-W tym przewodniku przyjrzymy się bliżej, jak określić, kiedy tabela w dokumencie PDF ulegnie uszkodzeniu podczas korzystania z Aspose.PDF dla .NET. Postępując zgodnie z tymi krokami, możesz łatwo zidentyfikować ograniczenia przestrzeni i lepiej zarządzać układami PDF. Dzięki praktyce zdobędziesz umiejętności, aby skutecznie manipulować tabelami i tworzyć dopracowane pliki PDF jak profesjonalista. Więc dlaczego nie spróbować i zobaczyć, jak to może zadziałać w Twoim przypadku?
+tym przewodniku przyjrzymy się bliżej, jak określić, kiedy tabela w dokumencie PDF ulegnie uszkodzeniu podczas korzystania z Aspose.PDF dla .NET. Postępując zgodnie z tymi krokami, możesz łatwo zidentyfikować ograniczenia przestrzeni i lepiej zarządzać układami PDF. Dzięki praktyce zdobędziesz umiejętności, aby skutecznie manipulować tabelami i tworzyć dopracowane pliki PDF jak profesjonalista. Więc dlaczego nie spróbować i zobaczyć, jak to może zadziałać w Twoim przypadku?
 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.PDF dla .NET?
-Aspose.PDF dla platformy .NET to rozbudowana biblioteka umożliwiająca programistom tworzenie, konwertowanie i modyfikowanie dokumentów PDF bezpośrednio w aplikacjach .NET.
+Aspose.PDF dla platformy .NET to rozbudowana biblioteka umożliwiająca programistom tworzenie, konwertowanie i manipulowanie dokumentami PDF bezpośrednio w aplikacjach .NET.
 
 ### Czy mogę otrzymać bezpłatną wersję próbną Aspose.PDF?
- Tak! Możesz pobrać[bezpłatny okres próbny](https://releases.aspose.com/) aby zapoznać się z jego funkcjami przed dokonaniem zakupu.
+Tak! Możesz pobrać [bezpłatny okres próbny](https://releases.aspose.com/) aby zapoznać się z jego funkcjami przed dokonaniem zakupu.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
- Przydatne informacje i wsparcie społeczności Aspose można znaleźć na ich stronie[forum wsparcia](https://forum.aspose.com/c/pdf/10).
+Przydatne informacje i wsparcie społeczności Aspose można znaleźć na ich stronie internetowej [forum wsparcia](https://forum.aspose.com/c/pdf/10).
 
 ### Co się stanie, jeśli w tabeli będę potrzebować więcej niż 17 wierszy?
 Jeśli przekroczysz dostępną ilość miejsca, tabela nie zmieści się na stronie i powinieneś podjąć odpowiednie działania, aby ją poprawnie sformatować.
 
 ### Gdzie mogę kupić bibliotekę Aspose.PDF?
- Bibliotekę można nabyć w[strona zakupu](https://purchase.aspose.com/buy).
+Bibliotekę można nabyć w [strona zakupu](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

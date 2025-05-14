@@ -1,14 +1,16 @@
 ---
-title: Buat PDF dengan Teks yang Ditandai
-linktitle: Buat PDF dengan Teks yang Ditandai
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat PDF yang diberi tag dengan konten yang dapat diakses menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
-weight: 50
-url: /id/net/programming-with-tagged-pdf/create-pdf-with-tagged-text/
+"description": "Pelajari cara membuat PDF yang diberi tag dengan konten yang dapat diakses menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini."
+"linktitle": "Buat PDF dengan Teks yang Ditandai"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat PDF dengan Teks yang Ditandai"
+"url": "/id/net/programming-with-tagged-pdf/create-pdf-with-tagged-text/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat PDF dengan Teks yang Ditandai
@@ -24,7 +26,7 @@ Jadi, ambil minuman favorit Anda, duduk, dan mari selami dunia PDF yang diberi t
 Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio - Pastikan Anda telah menginstal Visual Studio di komputer Anda. Anda dapat menggunakan versi apa pun yang mendukung .NET.
-2.  Aspose.PDF untuk .NET - Unduh versi terbaru Aspose.PDF untuk .NET dari[situs web](https://releases.aspose.com/pdf/net/)Anda juga dapat memilih uji coba gratis untuk menjelajahi fitur-fiturnya.
+2. Aspose.PDF untuk .NET - Unduh versi terbaru Aspose.PDF untuk .NET dari [situs web](https://releases.aspose.com/pdf/net/)Anda juga dapat memilih uji coba gratis untuk menjelajahi fitur-fiturnya.
 3. .NET Framework - Contoh-contoh ini akan dibuat untuk .NET. Pastikan Anda telah menginstal versi yang kompatibel di komputer Anda.
 4. Pengetahuan Dasar C# - Keakraban dengan pemrograman C# akan berguna saat kita menulis beberapa kode!
 
@@ -41,7 +43,7 @@ Pertama, luncurkan Visual Studio dan buat proyek C# baru.
 1. Buka Visual Studio.
 2. Klik "Buat Proyek Baru."
 3. Pilih "Aplikasi Konsol (.NET)" dan klik "Berikutnya."
-4.  Beri nama proyek Anda (misalnya,`TaggedPdfExample`) dan mengatur lokasinya.
+4. Beri nama proyek Anda (misalnya, `TaggedPdfExample`) dan mengatur lokasinya.
 5. Klik "Buat."
 
 ### Tambahkan Referensi Aspose.PDF
@@ -54,7 +56,7 @@ Sekarang, mari tambahkan pustaka Aspose.PDF:
 
 ### Impor Namespace yang Diperlukan
 
- Di bagian atas file program utama Anda (seperti`Program.cs`), impor namespace berikut:
+Di bagian atas file program utama Anda (seperti `Program.cs`), impor namespace berikut:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -77,7 +79,7 @@ Sebelum kita memulai pengkodean, mari kita tentukan direktori dokumen tempat kit
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Perbarui ini ke jalur Anda
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF Anda.
 
 ## Langkah 2: Buat Dokumen Pdf
 
@@ -169,7 +171,7 @@ Membuat PDF yang diberi tag dengan Aspose.PDF untuk .NET semudah membalik telapa
 PDF yang diberi tag berisi data terstruktur yang memudahkan pembaca layar dan teknologi bantuan untuk menavigasi konten secara efektif.
 
 ### Apakah saya perlu membeli Aspose.PDF untuk menggunakannya?  
- Meskipun Anda dapat memulai dengan uji coba gratis, lisensi akan diperlukan untuk penggunaan jangka panjang. Anda dapat mengetahui lebih lanjut[Di Sini](https://purchase.aspose.com/buy).
+Meskipun Anda dapat memulai dengan uji coba gratis, lisensi akan diperlukan untuk penggunaan jangka panjang. Anda dapat mengetahui lebih lanjut [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bisakah saya menyesuaikan elemen struktur dalam PDF saya?  
 Tentu saja! Anda dapat memanipulasi berbagai elemen dan membuat struktur kompleks berdasarkan kebutuhan Anda.
@@ -178,10 +180,12 @@ Tentu saja! Anda dapat memanipulasi berbagai elemen dan membuat struktur komplek
 Ya, Aspose.PDF dirancang untuk bekerja di berbagai platform .NET, termasuk .NET Framework, .NET Core, dan banyak lagi.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?  
- Anda dapat mengunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk pertanyaan atau masalah apa pun yang Anda temui.
+Anda dapat mengunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk pertanyaan atau masalah apa pun yang Anda temui.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

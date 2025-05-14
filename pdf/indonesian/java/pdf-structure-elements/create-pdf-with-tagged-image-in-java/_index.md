@@ -1,14 +1,16 @@
 ---
-title: Membuat PDF dengan Gambar yang Ditandai di Java
-linktitle: Membuat PDF dengan Gambar yang Ditandai di Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara membuat PDF gambar bertag yang mudah diakses di Java menggunakan Aspose.PDF untuk Java. Ikuti panduan langkah demi langkah kami untuk pembuatan PDF yang lancar.
-weight: 13
-url: /id/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/
+"description": "Pelajari cara membuat PDF gambar bertag yang mudah diakses di Java menggunakan Aspose.PDF untuk Java. Ikuti panduan langkah demi langkah kami untuk pembuatan PDF yang lancar."
+"linktitle": "Membuat PDF dengan Gambar yang Ditandai di Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Membuat PDF dengan Gambar yang Ditandai di Java"
+"url": "/id/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat PDF dengan Gambar yang Ditandai di Java
@@ -22,9 +24,9 @@ Di era digital, membuat PDF dengan gambar yang diberi tag merupakan persyaratan 
 
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
--  Java Development Kit (JDK): Anda perlu menginstal Java di sistem Anda. Anda dapat mengunduhnya dari[Situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Anda perlu menginstal Java di sistem Anda. Anda dapat mengunduhnya dari [Situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
--  Aspose.PDF untuk Java: Anda harus memiliki pustaka Aspose.PDF untuk Java. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Anda harus memiliki pustaka Aspose.PDF untuk Java. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Proyek Anda
 
@@ -36,7 +38,7 @@ Mari kita mulai dengan menyiapkan proyek Java kita untuk membuat PDF yang diberi
 
 ## Membuat Gambar Bertag PDF
 
-Sekarang setelah proyek kita siap, mari kita membuat gambar PDF yang diberi tag langkah demi langkah.
+Sekarang setelah proyek kita siap, mari buat gambar PDF yang diberi tag langkah demi langkah.
 
 ### Langkah 1: Inisialisasi Aspose.PDF
 
@@ -80,7 +82,7 @@ Membuat PDF gambar bertag di Java menggunakan Aspose.PDF untuk Java adalah prose
 
 Untuk menginstal Aspose.PDF untuk Java, ikuti langkah-langkah berikut:
 
-1.  Unduh perpustakaan dari[Situs web Aspose](https://releases.aspose.com/pdf/java/).
+1. Unduh perpustakaan dari [Situs web Aspose](https://releases.aspose.com/pdf/java/).
 
 2. Tambahkan file JAR yang diunduh ke classpath proyek Java Anda.
 
@@ -100,10 +102,12 @@ Ya, ada beberapa pustaka lain untuk bekerja dengan PDF di Java, seperti Apache P
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi lengkap untuk Aspose.PDF untuk Java di[Situs web dokumentasi Aspose](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi lengkap untuk Aspose.PDF untuk Java di [Situs web dokumentasi Aspose](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

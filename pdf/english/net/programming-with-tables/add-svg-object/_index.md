@@ -8,7 +8,9 @@ url: /net/programming-with-tables/add-svg-object/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add SVG Object In PDF File
@@ -200,6 +202,7 @@ Aspose.PDF supports various .NET frameworks; check the documentation for specifi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

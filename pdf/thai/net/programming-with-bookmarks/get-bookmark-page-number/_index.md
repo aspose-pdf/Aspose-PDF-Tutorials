@@ -1,14 +1,16 @@
 ---
-title: รับหมายเลขหน้าบุ๊คมาร์กในไฟล์ PDF
-linktitle: รับหมายเลขหน้าบุ๊คมาร์กในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีแยกหมายเลขหน้าบุ๊กมาร์กจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนที่ครอบคลุมนี้
-weight: 60
-url: /th/net/programming-with-bookmarks/get-bookmark-page-number/
+"description": "เรียนรู้วิธีแยกหมายเลขหน้าบุ๊กมาร์กจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนที่ครอบคลุมนี้"
+"linktitle": "รับหมายเลขหน้าบุ๊คมาร์กในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "รับหมายเลขหน้าบุ๊คมาร์กในไฟล์ PDF"
+"url": "/th/net/programming-with-bookmarks/get-bookmark-page-number/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับหมายเลขหน้าบุ๊คมาร์กในไฟล์ PDF
@@ -19,10 +21,10 @@ url: /th/net/programming-with-bookmarks/get-bookmark-page-number/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเจาะลึกโค้ด ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+ก่อนที่จะดำดิ่งลงไปในโค้ด ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่จะเป็นสภาพแวดล้อมการพัฒนาของคุณ
-2.  Aspose.PDF สำหรับ .NET: คุณต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
 ## แพ็คเกจนำเข้า
@@ -31,9 +33,9 @@ url: /th/net/programming-with-bookmarks/get-bookmark-page-number/
 
 1. เปิดโครงการ Visual Studio ของคุณ
 2. คลิกขวาที่โครงการของคุณใน Solution Explorer และเลือก "จัดการแพ็คเกจ NuGet"
-3.  ค้นหา`Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
+3. ค้นหา `Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
 
-ตอนนี้คุณได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว มาดูขั้นตอนในการแยกหมายเลขหน้าบุ๊กมาร์กทีละขั้นตอนกัน
+ตอนนี้คุณได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว เรามาดูขั้นตอนในการแยกหมายเลขหน้าบุ๊กมาร์กทีละขั้นตอนกัน
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
@@ -44,40 +46,40 @@ url: /th/net/programming-with-bookmarks/get-bookmark-page-number/
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- ในขั้นตอนนี้ให้แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่จัดเก็บไฟล์ PDF ของคุณ เส้นทางนี้มีความสำคัญเนื่องจากจะบอกโปรแกรมว่าจะต้องค้นหาไฟล์ PDF ที่คุณต้องการใช้งานจากที่ใด
+ในขั้นตอนนี้ให้แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่จัดเก็บไฟล์ PDF ของคุณ เส้นทางนี้มีความสำคัญเนื่องจากจะบอกโปรแกรมว่าจะต้องค้นหาไฟล์ PDF ที่คุณต้องการใช้งานจากที่ใด
 
 ## ขั้นตอนที่ 2: สร้างอินสแตนซ์ PdfBookmarkEditor
 
- ต่อไปคุณต้องสร้างอินสแตนซ์ของ`PdfBookmarkEditor`คลาส คลาสนี้มีวิธีการในการจัดการบุ๊กมาร์กในไฟล์ PDF
+ต่อไปคุณต้องสร้างอินสแตนซ์ของ `PdfBookmarkEditor` คลาส คลาสนี้มีวิธีการในการจัดการบุ๊กมาร์กในไฟล์ PDF
 
 ```csharp
 // สร้าง PDFBookmarkEditor
 PdfBookmarkEditor bookmarkEditor = new PdfBookmarkEditor();
 ```
 
- ที่นี่เราจะสร้างตัวอย่าง`PdfBookmarkEditor`อ็อบเจ็กต์นี้จะช่วยให้เราสามารถผูกไฟล์ PDF และแยกบุ๊กมาร์กจากมันได้
+ที่นี่เราจะสร้างตัวอย่าง `PdfBookmarkEditor`อ็อบเจ็กต์นี้จะช่วยให้เราสามารถผูกไฟล์ PDF และแยกบุ๊กมาร์กจากมันได้
 
 ## ขั้นตอนที่ 3: เปิดไฟล์ PDF
 
- ตอนนี้ถึงเวลาที่จะผูกไฟล์ PDF เข้ากับ`PdfBookmarkEditor` อินสแตนซ์ที่คุณเพิ่งสร้างขึ้น
+ตอนนี้ถึงเวลาผูกไฟล์ PDF เข้ากับ `PdfBookmarkEditor` อินสแตนซ์ที่คุณเพิ่งสร้างขึ้น
 
 ```csharp
 // เปิดไฟล์ PDF
 bookmarkEditor.BindPdf(dataDir + "GetBookmarks.pdf");
 ```
 
- ในบรรทัดนี้เราใช้`BindPdf` วิธีการเปิดไฟล์ PDF ที่ชื่อ`GetBookmarks.pdf`โปรดตรวจสอบให้แน่ใจว่าไฟล์นี้มีอยู่ในไดเร็กทอรีที่ระบุ มิฉะนั้นคุณจะพบข้อผิดพลาด
+ในบรรทัดนี้เราใช้ `BindPdf` วิธีการเปิดไฟล์ PDF ที่ชื่อ `GetBookmarks.pdf`โปรดตรวจสอบให้แน่ใจว่าไฟล์นี้มีอยู่ในไดเร็กทอรีที่ระบุ มิฉะนั้นคุณจะพบข้อผิดพลาด
 
 ## ขั้นตอนที่ 4: ดึงบุ๊คมาร์กออกมา
 
- เมื่อเปิดไฟล์ PDF แล้ว คุณสามารถแยกบุ๊กมาร์กโดยใช้`ExtractBookmarks` วิธี.
+เมื่อเปิดไฟล์ PDF แล้ว คุณสามารถแยกบุ๊กมาร์กโดยใช้ `ExtractBookmarks` วิธี.
 
 ```csharp
 // การแยกบุ๊คมาร์ก
 Aspose.Pdf.Facades.Bookmarks bookmarks = bookmarkEditor.ExtractBookmarks();
 ```
 
- ขั้นตอนนี้จะดึงบุ๊กมาร์กทั้งหมดจากไฟล์ PDF และจัดเก็บไว้ในตัวแปรที่เรียกว่า`bookmarks`ตัวแปรนี้จะเก็บข้อมูลบุ๊กมาร์กทั้งหมดที่เราจะประมวลผลในขั้นตอนถัดไป
+ขั้นตอนนี้จะดึงบุ๊กมาร์กทั้งหมดจากไฟล์ PDF และจัดเก็บไว้ในตัวแปรที่เรียกว่า `bookmarks`ตัวแปรนี้จะเก็บข้อมูลบุ๊กมาร์กทั้งหมดที่เราจะประมวลผลในขั้นตอนถัดไป
 
 ## ขั้นตอนที่ 5: ทำซ้ำผ่านบุ๊กมาร์ก
 
@@ -109,19 +111,21 @@ foreach (Aspose.Pdf.Facades.Bookmark bookmark in bookmarks)
 Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้ประเมินไลบรารีได้ คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้ประเมินไลบรารีได้ คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถค้นหาเอกสารสำหรับ Aspose.PDF ได้ที่ไหน
- เอกสารประกอบมีให้ใช้งาน[ที่นี่](https://reference.aspose.com/pdf/net/).
+เอกสารประกอบมีให้ใช้งาน [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถซื้อใบอนุญาตได้จาก[หน้าการซื้อ](https://purchase.aspose.com/buy).
+คุณสามารถซื้อใบอนุญาตได้จาก [หน้าการซื้อ](https://purchase-aspose.com/buy).
 
 ### ฉันควรทำอย่างไรหากพบปัญหา?
- หากคุณประสบปัญหาใดๆ คุณสามารถขอความช่วยเหลือได้ที่[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10).
+หากคุณประสบปัญหาใดๆ คุณสามารถขอความช่วยเหลือได้ที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

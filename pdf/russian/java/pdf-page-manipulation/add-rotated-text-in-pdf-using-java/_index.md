@@ -1,14 +1,16 @@
 ---
-title: Добавить повернутый текст в PDF с помощью Java
-linktitle: Добавить повернутый текст в PDF с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как вставить повернутый текст в документ PDF с помощью Java. Следуйте этому подробному пошаговому руководству с примерами кода, чтобы улучшить свои PDF-файлы с помощью повернутого текста.
-weight: 14
-url: /ru/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/
+"description": "Узнайте, как вставить повернутый текст в документ PDF с помощью Java. Следуйте этому подробному пошаговому руководству с примерами кода, чтобы улучшить свои PDF-файлы с помощью повернутого текста."
+"linktitle": "Добавить повернутый текст в PDF с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Добавить повернутый текст в PDF с помощью Java"
+"url": "/ru/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить повернутый текст в PDF с помощью Java
@@ -20,11 +22,11 @@ url: /ru/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/
 
 ## Предпосылки
 
-Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
+Прежде чем начать, убедитесь, что выполнены следующие предварительные условия:
 
 1. Среда разработки Java: убедитесь, что в вашей системе установлена Java.
 
-2.  Aspose.PDF для Java: Загрузите и включите библиотеку Aspose.PDF в свой проект Java. Ссылку на скачивание можно найти[здесь](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF для Java: Загрузите и включите библиотеку Aspose.PDF в свой проект Java. Ссылку на скачивание можно найти [здесь](https://releases.aspose.com/pdf/java/).
 
 ## Шаг 1: Создайте новый PDF-документ
 
@@ -40,7 +42,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 Затем добавьте страницу в PDF-документ, на которую вы хотите вставить повернутый текст:
 
 ```java
-//Добавить новую страницу в документ
+// Добавить новую страницу в документ
 com.aspose.pdf.Page page = pdfDocument.getPages().add();
 ```
 
@@ -110,7 +112,7 @@ pdfDocument.save("output.pdf");
    Да, вы можете добавить несколько экземпляров повернутого текста с разными углами в один и тот же документ PDF. Просто повторите процесс, описанный в этом руководстве, для каждого фрагмента повернутого текста.
 
 ### 2. Как изменить цвет повернутого текста?
-    Чтобы изменить цвет текста, используйте`textFragment.getTextState().setForegroundColor` метод и укажите цвет в формате RGB. Например, чтобы установить цвет текста красным, используйте`textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getRed());`.
+   Чтобы изменить цвет текста, используйте `textFragment.getTextState().setForegroundColor` метод и укажите цвет в формате RGB. Например, чтобы установить цвет текста красным, используйте `textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getRed());`.
 
 ### 3. Является ли Aspose.PDF для Java бесплатной библиотекой?
    Aspose.PDF для Java — мощная коммерческая библиотека, но она предлагает бесплатную пробную версию для тестирования и оценки. В зависимости от требований вашего проекта вы можете выбрать подходящий вариант лицензирования.
@@ -120,9 +122,11 @@ pdfDocument.save("output.pdf");
 
 ### 5. Существуют ли другие библиотеки для работы с PDF-файлами в Java?
    Да, несколько библиотек, таких как iText и PDFBox, доступны для работы с PDF в Java. Каждая библиотека имеет свои уникальные функции и возможности, поэтому выберите ту, которая лучше всего подходит для нужд вашего проекта.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

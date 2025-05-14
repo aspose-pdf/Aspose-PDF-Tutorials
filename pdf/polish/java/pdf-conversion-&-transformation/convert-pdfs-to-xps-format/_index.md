@@ -1,14 +1,16 @@
 ---
-title: Konwertuj pliki PDF do formatu XPS
-linktitle: Konwertuj pliki PDF do formatu XPS
-second_title: Aspose.PDF Java PDF Processing API
-description: Bezproblemowa konwersja plików PDF do formatu XPS dzięki Aspose.PDF dla Java. Odblokuj ulepszone drukowanie, bezpieczeństwo i zgodność.
-weight: 13
-url: /pl/java/pdf-conversion-transformation/convert-pdfs-to-xps-format/
+"description": "Bezproblemowa konwersja plików PDF do formatu XPS z Aspose.PDF dla Java. Odblokuj ulepszone drukowanie, bezpieczeństwo i zgodność."
+"linktitle": "Konwertuj pliki PDF do formatu XPS"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Konwertuj pliki PDF do formatu XPS"
+"url": "/pl/java/pdf-conversion-transformation/convert-pdfs-to-xps-format/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj pliki PDF do formatu XPS
@@ -51,7 +53,7 @@ Pierwszym krokiem jest załadowanie dokumentu PDF, który chcesz przekonwertowa�
 Document pdfDocument = new Document("input.pdf");
 ```
 
- Zastępować`"input.pdf"` ze ścieżką do pliku PDF.
+Zastępować `"input.pdf"` ze ścieżką do pliku PDF.
 
 ## Konwersja PDF do XPS
 
@@ -75,11 +77,11 @@ saveOptions.setJpegQuality(90);
 pdfDocument.save("customized-output.xps", saveOptions);
 ```
 
-tym przykładzie jakość obrazu JPEG ustawiliśmy na 90%. Więcej opcji dostosowywania znajdziesz w dokumentacji Aspose.PDF dla języka Java.
+W tym przykładzie jakość obrazu JPEG ustawiliśmy na 90%. Więcej opcji dostosowywania znajdziesz w dokumentacji Aspose.PDF dla języka Java.
 
 ## Obsługa błędów
 
-Obsługa błędów jest kluczowa w przypadku konwersji dokumentów. Aspose.PDF for Java zapewnia solidne mechanizmy obsługi błędów, aby zapewnić płynny proces konwersji. Możesz przechwytywać i obsługiwać wyjątki, aby rozwiązać wszelkie problemy, które mogą wystąpić podczas konwersji.
+Obsługa błędów jest kluczowa w przypadku konwersji dokumentów. Aspose.PDF for Java zapewnia solidne mechanizmy obsługi błędów, aby zapewnić płynny proces konwersji. Możesz przechwytywać i obsługiwać wyjątki, aby rozwiązywać wszelkie problemy, które mogą wystąpić podczas konwersji.
 
 ## Optymalizacja wydajności
 
@@ -97,7 +99,7 @@ Bibliotekę Aspose.PDF dla Java można pobrać ze strony internetowej i postępo
 
 ### Czy mogę przekonwertować wiele plików PDF do formatu XPS na raz?
 
-Tak, możesz przetwarzać wsadowo wiele plików PDF, aby przekonwertować je do formatu XPS za pomocą Aspose.PDF dla Java. Zapoznaj się z dokumentacją, aby uzyskać szczegółowe informacje na temat konwersji wsadowej.
+Tak, możesz przetwarzać wsadowo wiele plików PDF, aby przekonwertować je do formatu XPS za pomocą Aspose.PDF dla Java. Sprawdź dokumentację, aby uzyskać szczegółowe informacje na temat konwersji wsadowej.
 
 ### Czy Aspose.PDF dla Java nadaje się do projektów komercyjnych?
 
@@ -110,9 +112,11 @@ Tak, możesz dostosować wyjście konwersji XPS, aby kontrolować takie aspekty,
 ### Czy istnieją jakieś ograniczenia dotyczące konwersji plików PDF do XPS?
 
 Ograniczenia mogą się różnić w zależności od licencji i złożoności dokumentu PDF. Sprawdź dokumentację i szczegóły dotyczące licencji, aby uzyskać szczegółowe informacje na temat ograniczeń.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

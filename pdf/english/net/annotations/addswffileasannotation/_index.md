@@ -8,7 +8,9 @@ url: /net/annotations/addswffileasannotation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Swf File As PDF Annotation
@@ -128,6 +130,7 @@ Yes, you can remove or replace annotations by accessing the `Annotations` collec
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

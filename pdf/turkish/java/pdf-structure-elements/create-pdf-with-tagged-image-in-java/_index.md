@@ -1,14 +1,16 @@
 ---
-title: Java'da Etiketli Resimle PDF Oluşturma
-linktitle: Java'da Etiketli Resimle PDF Oluşturma
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF kullanarak Java'da erişilebilir etiketli resim PDF'leri oluşturmayı öğrenin. Sorunsuz PDF oluşturma için adım adım kılavuzumuzu izleyin.
-weight: 13
-url: /tr/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/
+"description": "Java için Aspose.PDF kullanarak Java'da erişilebilir etiketli resim PDF'leri oluşturmayı öğrenin. Sorunsuz PDF oluşturma için adım adım kılavuzumuzu izleyin."
+"linktitle": "Java'da Etiketli Resimle PDF Oluşturma"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java'da Etiketli Resimle PDF Oluşturma"
+"url": "/tr/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java'da Etiketli Resimle PDF Oluşturma
@@ -22,9 +24,9 @@ Dijital çağda, etiketli görsellerle PDF'ler oluşturmak çeşitli uygulamalar
 
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın yüklü olması gerekir. Buradan indirebilirsiniz[Oracle'ın web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Geliştirme Kiti (JDK): Sisteminizde Java'nın yüklü olması gerekir. Buradan indirebilirsiniz [Oracle'ın web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
 
--  Java için Aspose.PDF: Java için Aspose.PDF kütüphanesine sahip olmalısınız. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/pdf/java/).
+- Java için Aspose.PDF: Java için Aspose.PDF kütüphanesine sahip olmalısınız. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/pdf/java/).
 
 ## Projenizi Kurma
 
@@ -43,7 +45,7 @@ Artık projemizi kurduğumuza göre adım adım etiketli resim PDF'i oluştural�
 ```java
 import com.aspose.pdf.Document;
 
-// Yeni bir PDF belgesi başlatın
+// Yeni bir PDF belgesi başlat
 Document pdfDocument = new Document();
 ```
 
@@ -80,7 +82,7 @@ Java'da Aspose.PDF for Java kullanarak etiketli resim PDF'leri oluşturmak basit
 
 Java için Aspose.PDF'yi yüklemek için şu adımları izleyin:
 
-1.  Kütüphaneyi şu adresten indirin:[Aspose web sitesi](https://releases.aspose.com/pdf/java/).
+1. Kütüphaneyi şu adresten indirin: [Aspose web sitesi](https://releases.aspose.com/pdf/java/).
 
 2. İndirdiğiniz JAR dosyasını Java projenizin sınıf yoluna ekleyin.
 
@@ -100,10 +102,12 @@ Evet, Java'da PDF'lerle çalışmak için Apache PDFBox ve iText gibi birkaç ba
 
 ### Java için Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?
 
- Java için Aspose.PDF'e ilişkin kapsamlı belgeleri şu adreste bulabilirsiniz:[Aspose dokümantasyon web sitesi](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin kapsamlı belgeleri şu adreste bulabilirsiniz: [Aspose dokümantasyon web sitesi](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

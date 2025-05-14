@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasından Görüntüleri Çıkar
-linktitle: PDF Dosyasından Görüntüleri Çıkar
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasından görüntüleri nasıl çıkaracağınızı öğrenin. İzlenmesi kolay talimatlarla başlayın.
-weight: 120
-url: /tr/net/programming-with-images/extract-images/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasından görüntüleri nasıl çıkaracağınızı öğrenin. İzlenmesi kolay talimatlarla başlayın."
+"linktitle": "PDF Dosyasından Görüntüleri Çıkar"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasından Görüntüleri Çıkar"
+"url": "/tr/net/programming-with-images/extract-images/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasından Görüntüleri Çıkar
@@ -21,11 +23,11 @@ Hiç kendinizi bir PDF dosyasından resimleri nasıl çıkaracağınızı merak 
 
 Ayrıntılara girmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İhtiyacınız olanlar şunlardır:
 
-1.  .NET Kütüphanesi için Aspose.PDF: Şunlara sahip olduğunuzdan emin olun:[.NET için Aspose.PDF](https://releases.aspose.com/pdf/net/) kütüphane kuruldu. Bağlantıdan indirebilir veya Visual Studio'da NuGet aracılığıyla kurabilirsiniz.
+1. .NET Kütüphanesi için Aspose.PDF: Şunlara sahip olduğunuzdan emin olun: [.NET için Aspose.PDF](https://releases.aspose.com/pdf/net/) kütüphane kuruldu. Bağlantıdan indirebilir veya Visual Studio'da NuGet aracılığıyla kurabilirsiniz.
 2. IDE (Bütünleşik Geliştirme Ortamı): Visual Studio önerilir, ancak herhangi bir .NET uyumlu IDE çalışacaktır.
 3. C# Hakkında Temel Bilgi: C# hakkında temel bir bilgiye sahip olmak faydalıdır, ancak yeni başlayan biriyseniz endişelenmeyin; sizi kodda yönlendireceğiz!
 4. Resimli PDF Belgesi: Çıkarmak istediğiniz resimlerin bulunduğu örnek PDF dosyası.
-5.  Lisans: Bir lisans kullanabilirsiniz[geçici lisans](https://satın almak.aspose.com/temporary-license/) veya[purchase](https://purchase.aspose.com/buy) Ücretsiz deneme sürümünde değilseniz tam lisans.
+5. Lisans: Bir lisans kullanabilirsiniz [geçici lisans](https://purchase.aspose.com/tempveyaary-license/) or [satın almak](https://purchase.aspose.com/buy) Ücretsiz deneme sürümünde değilseniz tam lisans.
 
 ## Paketleri İçe Aktar
 
@@ -50,7 +52,7 @@ Görüntüleri çıkarabilmeniz için önce PDF dosyanızın nerede bulunduğunu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu satırda şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı yol ile. Bu, giriş ve çıkış dosyalarınızın konumunu ayarlar.
+Bu satırda şunu değiştirin: `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı yol ile. Bu, giriş ve çıkış dosyalarınızın konumunu ayarlar.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -60,7 +62,7 @@ Daha sonra, görselleri çıkarmak istediğiniz PDF belgesini yüklemeniz gereke
 Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
 ```
 
- Burada, Aspose.PDF'ye dosyayı açmasını söylüyorsunuz`"ExtractImages.pdf"` Önceki adımda belirtilen dizinden. Dosya adının tam olarak eşleştiğinden emin olun.
+Burada, Aspose.PDF'ye dosyayı açmasını söylüyorsunuz `"ExtractImages.pdf"` Önceki adımda belirtilen dizinden. Dosya adının tam olarak eşleştiğinden emin olun.
 
 ## Adım 3: İlk Sayfadaki İlk Görüntüye Erişin
 
@@ -70,7 +72,7 @@ Artık PDF dokümanı yüklendiğine göre, bir sonraki adım dokümanın ilk sa
 XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
 ```
 
- Bu kod ilk sayfadaki ilk resmi alır. PDF'nizde birden fazla sayfa veya resim varsa, sayıları buna göre ayarlayabilirsiniz.`Pages[1]` ilk sayfaya atıfta bulunur ve`Images[1]` o sayfadaki ilk görsele atıfta bulunur.
+Bu kod ilk sayfadaki ilk resmi alır. PDF'nizde birden fazla sayfa veya resim varsa, sayıları buna göre ayarlayabilirsiniz. `Pages[1]` ilk sayfaya atıfta bulunur ve `Images[1]` o sayfadaki ilk görsele atıfta bulunur.
 
 ## Adım 4: Çıktı Görüntüsü için bir Dosya Akışı Oluşturun
 
@@ -80,7 +82,7 @@ Görüntüye eriştiğinizde, onu kaydetmek için bir dosya akışı oluşturman
 FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
 ```
 
- Burada, çıkarılan görüntüyü şu şekilde kaydediyorsunuz:`"output.jpg"` PDF dosyasıyla aynı dizinde. Başka bir yere kaydetmek veya biçimini değiştirmek isterseniz, yolu ve dosya adını değiştirmekten çekinmeyin.
+Burada, çıkarılan görüntüyü şu şekilde kaydediyorsunuz: `"output.jpg"` PDF dosyasıyla aynı dizinde. Başka bir yere kaydetmek veya biçimini değiştirmek isterseniz, yolu ve dosya adını değiştirmekten çekinmeyin.
 
 ## Adım 5: Çıkarılan Görüntüyü Kaydedin
 
@@ -90,7 +92,7 @@ Resim yüklendi ve dosya akışı hazır, şimdi resmi kaydetme zamanı.
 xImage.Save(outputImage, ImageFormat.Jpeg);
 ```
 
- Bu kod satırı görüntüyü JPEG dosyası olarak kaydeder. PNG veya BMP gibi diğer formatlarda da kaydedebilirsiniz.`ImageFormat` parametre.
+Bu kod satırı görüntüyü JPEG dosyası olarak kaydeder. PNG veya BMP gibi diğer formatlarda da kaydedebilirsiniz. `ImageFormat` parametre.
 
 ## Adım 6: Dosya Akışını Kapatın
 
@@ -111,11 +113,11 @@ dataDir = dataDir + "ExtractImages_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Bu kod güncellenen PDF'yi şu şekilde kaydeder:`"ExtractImages_out.pdf"`PDF'de herhangi bir değişiklik yapılmadıysa bu adımı atlayabilirsiniz.
+Bu kod güncellenen PDF'yi şu şekilde kaydeder: `"ExtractImages_out.pdf"`PDF'de herhangi bir değişiklik yapılmadıysa bu adımı atlayabilirsiniz.
 
 ## Çözüm
 
-Ve işte bu kadar! Aspose.PDF for .NET kullanarak bir PDF dosyasından resim çıkarmak, parçalara ayırdığınızda basit bir işlemdir. İster bir resimle ister birkaç resimle çalışın, bu adımlar işi hızlı ve etkili bir şekilde yapmanıza yardımcı olacaktır. Aspose.PDF for .NET, PDF düzenlemeyi çocuk oyuncağı haline getiren güçlü bir araçtır ve bu eğitim buzdağının sadece görünen kısmıdır. 
+Ve işte bu kadar! Aspose.PDF for .NET kullanarak bir PDF dosyasından resim çıkarmak, parçalara ayırdığınızda basit bir işlemdir. İster bir resimle ister birden fazla resimle çalışın, bu adımlar işi hızlı ve etkili bir şekilde yapmanıza yardımcı olacaktır. Aspose.PDF for .NET, PDF düzenlemeyi çocuk oyuncağı haline getiren güçlü bir araçtır ve bu eğitim buzdağının sadece görünen kısmıdır. 
 
 ## SSS
 
@@ -123,7 +125,7 @@ Ve işte bu kadar! Aspose.PDF for .NET kullanarak bir PDF dosyasından resim ç�
 Evet, sayfalar ve her sayfadaki resimler arasında dolaşarak aynı anda birden fazla resim çıkarabilirsiniz.
 
 ### Görüntüleri JPEG dışında başka formatlarda kaydetmek mümkün mü?
- Kesinlikle! Görüntüleri PNG, BMP veya TIFF gibi farklı formatlarda kaydedebilirsiniz.`ImageFormat` parametre.
+Kesinlikle! Görüntüleri PNG, BMP veya TIFF gibi farklı formatlarda kaydedebilirsiniz. `ImageFormat` parametre.
 
 ### Ya PDF dosyamda hiç resim yoksa?
 PDF'de resim yoksa, Aspose.PDF for .NET bir hata atmaz ancak hiçbir şey çıkarmaz. Bu tür durumları yönetmek için hata işleme ekleyebilirsiniz.
@@ -132,10 +134,12 @@ PDF'de resim yoksa, Aspose.PDF for .NET bir hata atmaz ancak hiçbir şey çıka
 Evet, doğru şifreyi sağladığınız sürece Aspose.PDF for .NET şifrelenmiş PDF'leri açabilir ve görüntüleri çıkarabilir.
 
 ### Aspose.PDF for .NET'i nasıl kurabilirim?
- Bunu şuradan indirebilirsiniz:[Aspose.PDF .NET sayfası için](https://releases.aspose.com/pdf/net/) veya Visual Studio'da NuGet kullanarak kurun.
+Bunu şuradan indirebilirsiniz: [Aspose.PDF .NET sayfası için](https://releases.aspose.com/pdf/net/) veya Visual Studio'da NuGet kullanarak kurun.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

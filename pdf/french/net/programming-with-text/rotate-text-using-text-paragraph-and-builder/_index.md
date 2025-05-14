@@ -1,36 +1,38 @@
 ---
-title: Faire pivoter le texte à l'aide du paragraphe de texte et du générateur dans un fichier PDF
-linktitle: Faire pivoter le texte à l'aide du paragraphe de texte et du générateur dans un fichier PDF
-second_title: Référence de l'API Aspose.PDF pour .NET
-description: Découvrez comment faire pivoter du texte à l'aide d'un paragraphe de texte et d'un générateur dans un fichier PDF à l'aide d'Aspose.PDF pour .NET.
-weight: 410
-url: /fr/net/programming-with-text/rotate-text-using-text-paragraph-and-builder/
+"description": "Apprenez à faire pivoter du texte à l'aide d'un paragraphe de texte et d'un générateur dans un fichier PDF à l'aide d'Aspose.PDF pour .NET."
+"linktitle": "Faire pivoter le texte à l'aide du paragraphe de texte et du générateur dans un fichier PDF"
+"second_title": "Référence de l'API Aspose.PDF pour .NET"
+"title": "Faire pivoter le texte à l'aide du paragraphe de texte et du générateur dans un fichier PDF"
+"url": "/fr/net/programming-with-text/rotate-text-using-text-paragraph-and-builder/"
+"weight": 410
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Faire pivoter le texte à l'aide du paragraphe de texte et du générateur dans un fichier PDF
 
 ## Introduction
 
- La création de documents PDF dynamiques peut être une manière intéressante de présenter visuellement vos données, vos rapports et vos idées. Aspose.PDF pour .NET est un outil puissant qui peut vous aider à y parvenir de manière structurée. Dans ce guide, nous verrons comment utiliser Aspose.PDF pour faire pivoter du texte dans un fichier PDF à l'aide de`TextParagraph` et`TextBuilder` Cours. Que vous souhaitiez créer des rapports annotés ou des documents visuellement attrayants, il est essentiel de maîtriser la manipulation de texte dans les PDF. Prêt à mettre votre texte à l'envers, littéralement ? Plongeons-nous dans le vif du sujet !
+Créer des documents PDF dynamiques peut être un excellent moyen de présenter visuellement vos données, rapports et idées. Aspose.PDF pour .NET est un outil puissant qui peut vous aider à y parvenir de manière structurée. Dans ce guide, nous découvrirons comment utiliser Aspose.PDF pour faire pivoter du texte dans un fichier PDF à l'aide de la fonction `TextParagraph` et `TextBuilder` Cours. Que vous souhaitiez créer des rapports annotés ou des documents visuellement attrayants, maîtriser la manipulation de texte dans les PDF est essentiel. Prêt à transformer votre texte – littéralement ? C'est parti !
 
 ## Prérequis
 
 Avant de commencer notre aventure de rotation de texte, vous devez mettre en place quelques éléments essentiels :
 
 - Connaissances de base de C# : la familiarité avec la programmation C# facilitera la navigation dans le code.
-- Configuration de Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur pour écrire et exécuter votre code.
-- Bibliothèque Aspose.PDF : vous devez avoir la bibliothèque Aspose.PDF référencée dans votre projet. Si vous ne l'avez pas encore installée, vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/pdf/net/).
-- .NET Framework : assurez-vous que votre environnement prend en charge .NET ; vous pouvez utiliser .NET Framework ou .NET Core selon vos besoins.
+- Configuration de Visual Studio : assurez-vous que Visual Studio est installé sur votre machine pour écrire et exécuter votre code.
+- Bibliothèque Aspose.PDF : La bibliothèque Aspose.PDF doit être référencée dans votre projet. Si elle n'est pas encore installée, vous pouvez la télécharger depuis [ici](https://releases.aspose.com/pdf/net/).
+- .NET Framework : assurez-vous que votre environnement prend en charge .NET ; vous pouvez utiliser .NET Framework ou .NET Core selon vos besoins.
 
-Maintenant que nous avons posé les bases, importons les packages nécessaires pour commencer à travailler avec des PDF.
+Maintenant que nous avons posé les bases, importons les packages nécessaires pour commencer à travailler avec des fichiers PDF.
 
-## Paquets d'importation
+## Importer des packages
 
-Pour travailler avec Aspose.PDF pour .NET, vous devez importer les espaces de noms appropriés. Tout en haut de votre fichier C#, ajoutez les directives using suivantes :
+Pour utiliser Aspose.PDF pour .NET, vous devez importer les espaces de noms appropriés. Tout en haut de votre fichier C#, ajoutez les directives using suivantes :
 
 ```csharp
 using System;
@@ -42,11 +44,11 @@ using Aspose.Pdf.Facades;
 
 Ces packages vous fourniront tous les cours dont vous avez besoin pour manipuler efficacement le texte et d'autres aspects du document.
 
-Maintenant que nous sommes prêts, décomposons les étapes nécessaires à la rotation du texte dans un document PDF. Nous commencerons par l'initialisation de notre document jusqu'à son enregistrement. Attachez vos ceintures !
+Maintenant que tout est prêt, décomposons les étapes de la rotation de texte dans un document PDF. Nous commencerons par l'initialisation de notre document et l'enregistrerons. Attachez vos ceintures !
 
-## Étape 1 : Initialiser l’objet Document
+## Étape 1 : Initialiser l'objet Document
 
- La première étape consiste à créer et initialiser un`Document` objet. Cet objet sert de toile sur laquelle vous ajouterez votre texte.
+La première étape consiste à créer et initialiser un `Document` objet. Cet objet sert de canevas sur lequel vous ajouterez votre texte.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -54,9 +56,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document();
 ```
 
- Le`Document`La classe est l'épine dorsale de votre PDF. Elle permet de gérer les pages et leur contenu.
+Le `Document` La classe est l'épine dorsale de votre PDF. Elle permet de gérer les pages et leur contenu.
 
-## Étape 2 : Ajouter une page
+## Étape 2 : Ajouter une page
 
 Ensuite, ajoutons une nouvelle page à notre document où le texte sera placé.
 
@@ -65,11 +67,11 @@ Ensuite, ajoutons une nouvelle page à notre document où le texte sera placé.
 Page pdfPage = (Page)pdfDocument.Pages.Add();
 ```
 
-Ici, nous ajoutons une nouvelle page au PDF. Cette page sera l'endroit où nos paragraphes de texte seront placés.
+Ici, nous ajoutons une nouvelle page au PDF. Cette page accueillera nos paragraphes de texte.
 
 ## Étape 3 : Créer et configurer des paragraphes de texte
 
- Maintenant, le plaisir commence ! Nous allons créer plusieurs`TextParagraph` objets et configurer leurs propriétés, y compris leur positionnement et leur angle de rotation.
+Et maintenant, que le plaisir commence ! Nous allons créer plusieurs `TextParagraph` objets et configurer leurs propriétés, y compris leur positionnement et leur angle de rotation.
 
 ```csharp
 for (int i = 0; i < 4; i++)
@@ -81,11 +83,11 @@ for (int i = 0; i < 4; i++)
 }
 ```
 
-Dans cette boucle, nous créons quatre paragraphes, chacun étant tourné de 90 degrés supplémentaires. Chaque paragraphe est initialement positionné aux coordonnées (200, 600).
+Dans cette boucle, nous créons quatre paragraphes, chacun étant pivoté de 90 degrés supplémentaires. Chaque paragraphe est initialement positionné aux coordonnées (200, 600).
 
 ## Étape 4 : Créer des fragments de texte
 
- Après avoir mis en place les paragraphes, il est temps d'ajouter du texte ! Nous allons créer`TextFragment` objets qui contiennent le texte réel que nous voulons afficher.
+Après avoir configuré les paragraphes, il est temps d'ajouter du texte ! Nous allons créer `TextFragment` objets qui contiennent le texte réel que nous voulons afficher.
 
 ```csharp
 TextFragment textFragment1 = new TextFragment("Paragraph Text");
@@ -95,7 +97,7 @@ textFragment1.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray;
 textFragment1.TextState.ForegroundColor = Aspose.Pdf.Color.Blue;
 ```
 
-Chaque fragment peut avoir ses propriétés personnalisées, telles que la taille de la police, le type de police, la couleur d'arrière-plan et la couleur de premier plan. Nous répétons ce processus pour plusieurs fragments de texte :
+Chaque fragment peut être personnalisé, notamment en termes de taille et de type de police, de couleur d'arrière-plan et de couleur de premier plan. Nous répétons ce processus pour plusieurs fragments de texte :
 
 ```csharp
 TextFragment textFragment2 = new TextFragment("Second line of text");
@@ -104,11 +106,11 @@ TextFragment textFragment3 = new TextFragment("And some more text...");
 textFragment3.TextState = ConfigureText("And some more text...", true);
 ```
 
- La méthode`ConfigureText`peut être une méthode utilitaire que vous créez pour encapsuler les propriétés de style de texte, améliorant ainsi la réutilisation et la clarté du code.
+La méthode `ConfigureText` peut être une méthode utilitaire que vous créez pour encapsuler les propriétés de style du texte, améliorant ainsi la réutilisation et la clarté du code.
 
-## Étape 5 : ajouter des fragments de texte aux paragraphes
+## Étape 5 : Ajouter des fragments de texte aux paragraphes
 
-Ensuite, nous allons ajouter les fragments de texte à notre paragraphe. Cela crée un flux de texte structuré dans le paragraphe.
+Nous ajouterons ensuite les fragments de texte à notre paragraphe. Cela créera un flux de texte structuré dans le paragraphe.
 
 ```csharp
 paragraph.AppendLine(textFragment1);
@@ -116,32 +118,32 @@ paragraph.AppendLine(textFragment2);
 paragraph.AppendLine(textFragment3);
 ```
 
- En utilisant`AppendLine`, vous vous assurez que chaque élément de texte est ajouté verticalement sous forme de lignes distinctes dans le paragraphe.
+En utilisant `AppendLine`, vous vous assurez que chaque morceau de texte est ajouté verticalement sous forme de lignes distinctes dans le paragraphe.
 
-## Étape 6 : ajouter le paragraphe à la page PDF
+## Étape 6 : Ajouter le paragraphe à la page PDF
 
- Maintenant que notre paragraphe est plein de texte, nous devons le placer sur la page PDF à l'aide d'un`TextBuilder` objet.
+Maintenant que notre paragraphe est plein de texte, nous devons le placer sur la page PDF en utilisant un `TextBuilder` objet.
 
 ```csharp
 TextBuilder textBuilder = new TextBuilder(pdfPage);
 textBuilder.AppendParagraph(paragraph);
 ```
 
- C'est ici que la magie opère ! Vous prenez le paragraphe préparé et vous dites à l'`TextBuilder` pour le placer sur le canevas (la page PDF) que vous avez créé précédemment.
+C'est là que la magie opère ! Vous prenez le paragraphe préparé et vous racontez `TextBuilder` pour le placer sur le canevas (la page PDF) que vous avez créé précédemment.
 
-## Étape 7 : Enregistrer le document
+## Étape 7 : Enregistrer le document
 
-Enfin, il est temps de sauvegarder notre dur labeur ! Spécifiez le répertoire et le nom du fichier PDF de sortie.
+Enfin, il est temps de sauvegarder notre travail ! Spécifiez le répertoire et le nom du fichier PDF de sortie.
 
 ```csharp
 pdfDocument.Save(dataDir + "TextFragmentTests_Rotated4_out.pdf");
 ```
 
- Dans cette ligne, remplacez`dataDir` avec le chemin d'accès vers le répertoire de sortie souhaité. Le fichier PDF sera enregistré sous le nom « TextFragmentTests_Rotated4_out.pdf ».
+Dans cette ligne, remplacez `dataDir` avec le chemin d'accès au répertoire de sortie souhaité. Le PDF sera enregistré sous le nom « TextFragmentTests_Rotated4_out.pdf ».
 
 ## Conclusion
 
-Et voilà, vous avez maintenant une procédure pas à pas complète pour faire pivoter du texte dans un PDF à l'aide d'Aspose.PDF pour .NET ! Il s'agit de décomposer les tâches en étapes faciles à gérer et, avant même de vous en rendre compte, vous avez transformé votre PDF en un document dynamique qui met en valeur votre style et votre créativité. Que vous génériez des rapports, créiez des invitations ou que vous expérimentiez simplement des arrangements de texte, Aspose.PDF propose des outils flexibles pour répondre à vos besoins. Alors, pourquoi attendre ? Commencez à expérimenter et découvrez à quel point vous pouvez être créatif avec vos documents PDF !
+Et voilà : un tutoriel complet pour faire pivoter du texte dans un PDF avec Aspose.PDF pour .NET ! Il suffit de décomposer les tâches en étapes faciles à gérer et, en un rien de temps, vous aurez transformé votre PDF en un document dynamique qui met en valeur votre style et votre créativité. Que vous génériez des rapports, créiez des invitations ou expérimentiez simplement des agencements de texte, Aspose.PDF offre des outils flexibles pour répondre à vos besoins. Alors, n'attendez plus ! Lancez-vous et découvrez toute la créativité dont vous pouvez faire preuve avec vos documents PDF !
 
 ## FAQ
 
@@ -149,19 +151,21 @@ Et voilà, vous avez maintenant une procédure pas à pas complète pour faire p
 Oui, vous pouvez spécifier n'importe quel angle de rotation (multiples de 90 degrés) pour obtenir différentes orientations.
 
 ### Que faire si je souhaite ajouter des images au lieu de texte ?
- Aspose.PDF vous permet également de manipuler des images ! Vous pouvez ajouter des images à l'aide`Image` classes de manière similaire.
+Aspose.PDF vous permet également de manipuler des images ! Vous pouvez ajouter des images en utilisant `Image` classes de manière similaire.
 
-### Aspose.PDF pour .NET est-il gratuit ?
- Il propose un essai gratuit, mais pour une utilisation continue, une licence doit être achetée. Découvrez le[Achat](https://purchase.aspose.com/buy) page pour plus de détails !
+### Aspose.PDF pour .NET est-il gratuit ?
+Un essai gratuit est proposé, mais une licence est nécessaire pour une utilisation continue. Consultez le [Achat](https://purchase.aspose.com/buy) page pour plus de détails !
 
-### Puis-je obtenir de l'aide pour utiliser Aspose.PDF ?
-Oui, vous pouvez trouver de l'aide et poster vos questions sur le[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+### Puis-je obtenir de l'aide pour utiliser Aspose.PDF ?
+Oui, vous pouvez trouver de l'aide et poser vos questions sur le [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
-### Comment obtenir une licence temporaire pour Aspose.PDF ?
- Vous pouvez obtenir une licence temporaire à des fins de test auprès de l'[Page de licence temporaire](https://purchase.aspose.com/temporary-license/).
+### Comment obtenir une licence temporaire pour Aspose.PDF ?
+Vous pouvez obtenir une licence temporaire à des fins de test auprès du [Page de licence temporaire](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Java PDF Manipulation: Load & Extract Fields Using Aspose.PDF for Java
 ## Introduction
@@ -134,7 +136,11 @@ To further enhance your skills, explore additional functionalities provided by A
 - [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 By leveraging Aspose.PDF, you can significantly streamline PDF manipulation tasks in your Java applications. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

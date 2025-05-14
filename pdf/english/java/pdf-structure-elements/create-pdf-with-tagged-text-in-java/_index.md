@@ -8,7 +8,9 @@ url: /java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create PDF with Tagged Text in Java
@@ -97,6 +99,7 @@ You can find comprehensive documentation and references for Aspose.PDF for Java 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

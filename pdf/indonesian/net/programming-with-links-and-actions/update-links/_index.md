@@ -1,14 +1,16 @@
 ---
-title: Perbarui Tautan Dalam File PDF
-linktitle: Perbarui Tautan Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Perbarui tautan dalam berkas PDF Anda dengan mudah menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Sederhanakan pengeditan PDF Anda.
-weight: 120
-url: /id/net/programming-with-links-and-actions/update-links/
+"description": "Perbarui tautan dalam berkas PDF Anda dengan mudah menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah yang komprehensif ini. Sederhanakan pengeditan PDF Anda."
+"linktitle": "Perbarui Tautan Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Perbarui Tautan Dalam File PDF"
+"url": "/id/net/programming-with-links-and-actions/update-links/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perbarui Tautan Dalam File PDF
@@ -22,8 +24,8 @@ Pernahkah Anda berada dalam situasi di mana Anda perlu memperbarui tautan dalam 
 Sebelum kita mulai, ada beberapa hal penting yang perlu Anda siapkan:
 
 1. .NET Framework: Pastikan Anda memiliki instalasi .NET Framework yang berfungsi. Pustaka ini mendukung berbagai versi, jadi pastikan untuk memeriksa kompatibilitasnya.
-2.  Pustaka Aspose.PDF untuk .NET: Anda dapat mengunduh versi terbaru Aspose.PDF untuk .NET[Di Sini](https://releases.aspose.com/pdf/net/)Pustaka ini berisi semua fungsi yang kita perlukan untuk memperbarui tautan PDF.
-3.  Visual Studio: IDE pilihan untuk pengembangan .NET. Anda dapat mengunduhnya dari[Situs web Microsoft](https://visualstudio.microsoft.com/).
+2. Pustaka Aspose.PDF untuk .NET: Anda dapat mengunduh versi terbaru Aspose.PDF untuk .NET [Di Sini](https://releases.aspose.com/pdf/net/)Pustaka ini berisi semua fungsi yang kita perlukan untuk memperbarui tautan PDF.
+3. Visual Studio: IDE pilihan untuk pengembangan .NET. Anda dapat mengunduhnya dari [Situs web Microsoft](https://visualstudio.microsoft.com/).
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami cuplikan kode dengan lebih baik.
 5. Dokumen PDF: Siapkan contoh file PDF yang berisi tautan untuk Anda uji. Anda dapat membuat PDF sederhana dengan tautan atau mengunduhnya dari internet.
 
@@ -73,7 +75,7 @@ Langkah ini memastikan bahwa Anda dapat menggunakan semua fitur pustaka Aspose.P
 Sekarang saatnya memuat berkas PDF yang ingin Anda ubah. Berikut cara melakukannya:
 
 1. Tentukan jalur tempat PDF Anda disimpan.
-2.  Gunakan`Document` kelas yang disediakan oleh Aspose.PDF untuk memuat PDF Anda.
+2. Gunakan `Document` kelas yang disediakan oleh Aspose.PDF untuk memuat PDF Anda.
 
 Berikut kodenya:
 
@@ -86,10 +88,10 @@ Cuplikan ini akan mempersiapkan dokumen untuk diedit.
 
 ## Langkah 4: Akses Anotasi Tautan
 
- Selanjutnya, kita perlu mengidentifikasi tautan spesifik yang ingin kita perbarui dalam PDF kita. Untuk ini, kita akan menggunakan`LinkAnnotation` kelas.
+Selanjutnya, kita perlu mengidentifikasi tautan spesifik yang ingin kita perbarui dalam PDF kita. Untuk ini, kita akan menggunakan `LinkAnnotation` kelas.
 
 1. Akses anotasi halaman pertama.
-2.  Berikan anotasi ke`LinkAnnotation`.
+2. Kirimkan anotasi ke `LinkAnnotation`.
 
 Kode untuk langkah ini terlihat seperti ini:
 
@@ -101,10 +103,10 @@ Pada kode di atas, pastikan Anda mengarahkan ke anotasi tautan yang benar. Indek
 
 ## Langkah 5: Ubah Tujuan Tautan
 
- Mari kita ubah ke mana tautan itu mengarah. Kita akan menggunakan`GoToAction` kelas untuk mengubah tujuannya.
+Mari kita ubah ke mana tautan itu mengarah. Kita akan menggunakan `GoToAction` kelas untuk mengubah tujuannya.
 
 1. Dapatkan tindakan terkini pada tautan tersebut.
-2.  Tetapkan tujuan baru menggunakan`XYZExplicitDestination`.
+2. Tetapkan tujuan baru menggunakan `XYZExplicitDestination`.
 
 Berikut kodenya:
 
@@ -152,22 +154,24 @@ Memperbarui tautan dalam file PDF menggunakan Aspose.PDF untuk .NET mudah dan ef
 ## Pertanyaan yang Sering Diajukan
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose.PDF menawarkan uji coba gratis yang dapat Anda temukan[Di Sini](https://releases.aspose.com/).
+Ya, Aspose.PDF menawarkan uji coba gratis yang dapat Anda temukan [Di Sini](https://releases.aspose.com/).
 
 ### Apakah Aspose.PDF kompatibel dengan semua versi .NET?
 Aspose.PDF mendukung berbagai versi .NET Framework. Pastikan untuk memeriksa daftar kompatibilitas di situs web mereka.
 
 ### Di mana saya dapat menemukan dokumentasi tambahan?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana jika saya mengalami masalah saat menggunakan Aspose.PDF?
- Anda dapat menghubungi mereka untuk mendapatkan dukungan[forum](https://forum.aspose.com/c/pdf/10).
+Anda dapat menghubungi mereka untuk mendapatkan dukungan [forum](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk pengujian?
- Anda dapat meminta lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat meminta lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

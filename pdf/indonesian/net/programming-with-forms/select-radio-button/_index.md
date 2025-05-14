@@ -1,14 +1,16 @@
 ---
-title: Pilih Tombol Radio Dalam Dokumen PDF
-linktitle: Pilih Tombol Radio Dalam Dokumen PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memilih tombol radio dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Otomatiskan interaksi formulir dengan mudah.
-weight: 250
-url: /id/net/programming-with-forms/select-radio-button/
+"description": "Pelajari cara memilih tombol radio dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Otomatiskan interaksi formulir dengan mudah."
+"linktitle": "Pilih Tombol Radio Dalam Dokumen PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Pilih Tombol Radio Dalam Dokumen PDF"
+"url": "/id/net/programming-with-forms/select-radio-button/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pilih Tombol Radio Dalam Dokumen PDF
@@ -21,11 +23,11 @@ Memilih tombol radio dalam dokumen PDF secara terprogram dapat menghemat banyak 
 
 Sebelum menyelami kode, pastikan Anda telah menyiapkan hal berikut:
 
-1.  Aspose.PDF untuk .NET: Unduh dan instal versi terbaru[Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Unduh dan instal versi terbaru [Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
 2. IDE: Lingkungan pengembangan terintegrasi (IDE) seperti Visual Studio untuk menulis dan menjalankan kode C# Anda.
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework di sistem Anda.
-4.  Dokumen PDF dengan Tombol Radio: Anda memerlukan file PDF yang berisi tombol radio (misalnya,`RadioButton.pdf`).
-5.  Lisensi Aspose.PDF: Anda dapat memperoleh lisensi[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau gunakan uji coba gratis dari Aspose.
+4. Dokumen PDF dengan Tombol Radio: Anda memerlukan file PDF yang berisi tombol radio (misalnya, `RadioButton.pdf`).
+5. Lisensi Aspose.PDF: Anda dapat memperoleh lisensi [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau gunakan uji coba gratis dari Aspose.
 
 ## Mengimpor Ruang Nama
 
@@ -42,7 +44,7 @@ Sekarang, mari selami tutorial langkah demi langkah tentang cara memilih tombol 
 
 ## Langkah 1: Buka Dokumen PDF
 
- Langkah pertama adalah memuat dokumen PDF yang berisi tombol radio. Anda dapat melakukannya dengan menggunakan`Document` kelas dari pustaka Aspose.PDF. Berikut caranya:
+Langkah pertama adalah memuat dokumen PDF yang berisi tombol radio. Anda dapat melakukannya dengan menggunakan `Document` kelas dari pustaka Aspose.PDF. Berikut caranya:
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -52,20 +54,20 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "RadioButton.pdf");
 ```
 
- Dalam contoh ini, kami memuat file PDF bernama`RadioButton.pdf` . Mengganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya ke berkas tersebut.
+Dalam contoh ini, kami memuat file PDF bernama `RadioButton.pdf`. Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas tersebut.
 
 ## Langkah 2: Akses Bidang Tombol Radio
 
- Sekarang dokumen telah dimuat, langkah selanjutnya adalah mengakses kolom formulir. Secara khusus, kita ingin berinteraksi dengan grup tombol radio. Kolom tombol radio dapat diakses menggunakan`Form` milik`pdfDocument` obyek.
+Sekarang dokumen telah dimuat, langkah selanjutnya adalah mengakses kolom formulir. Secara khusus, kita ingin berinteraksi dengan grup tombol radio. Kolom tombol radio dapat diakses menggunakan `Form` milik `pdfDocument` obyek.
 
- Berikut kode untuk mengakses bidang tombol radio bernama`radio`:
+Berikut kode untuk mengakses bidang tombol radio bernama `radio`:
 
 ```csharp
 // Dapatkan lapangan
 RadioButtonField radioField = pdfDocument.Form["radio"] as RadioButtonField;
 ```
 
- Dalam contoh ini, kami menganggap bidang tombol radio dalam formulir PDF diberi nama`radio`Jika bidang tersebut memiliki nama yang berbeda dalam dokumen Anda, Anda perlu menyesuaikannya.
+Dalam contoh ini, kami menganggap bidang tombol radio dalam formulir PDF diberi nama `radio`Jika bidang tersebut memiliki nama yang berbeda dalam dokumen Anda, Anda perlu menyesuaikannya.
 
 ## Langkah 3: Pilih Tombol Radio dari Grup
 
@@ -78,7 +80,7 @@ Berikut cara mengatur pilihan ke opsi kedua dalam grup:
 radioField.Selected = 2;
 ```
 
- Indeks dimulai dari`0`, jadi dalam kasus ini, tombol kedua dalam grup tersebut dipilih.
+Indeks dimulai dari `0`, jadi dalam kasus ini, tombol kedua dalam grup tersebut dipilih.
 
 ## Langkah 4: Simpan PDF yang Diperbarui
 
@@ -93,7 +95,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nRadioButton from group selected successfully.\nFile saved at " + dataDir);
 ```
 
- Kode ini menyimpan PDF yang dimodifikasi sebagai`SelectRadioButton_out.pdf` di direktori yang sama tempat dokumen asli berada.
+Kode ini menyimpan PDF yang dimodifikasi sebagai `SelectRadioButton_out.pdf` di direktori yang sama tempat dokumen asli berada.
 
 ## Kesimpulan
 
@@ -111,13 +113,15 @@ Jika bidang tombol radio yang ditentukan tidak ada, Anda akan menerima kesalahan
 Tidak, tombol radio dirancang untuk hanya mengizinkan satu pilihan per grup. Jika Anda memerlukan beberapa pilihan, pertimbangkan untuk menggunakan kotak centang sebagai gantinya.
 
 ### Apakah mungkin untuk membaca tombol radio yang sedang dipilih?  
- Ya, Anda dapat memeriksa tombol radio mana yang saat ini dipilih dengan membaca`Selected` milik`RadioButtonField` obyek.
+Ya, Anda dapat memeriksa tombol radio mana yang saat ini dipilih dengan membaca `Selected` milik `RadioButtonField` obyek.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF untuk .NET?  
- Ya, Aspose.PDF memerlukan lisensi untuk fungsionalitas penuh. Anda dapat memperoleh lisensi[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau menggunakan[uji coba gratis](https://releases.aspose.com/) untuk memulai.
+Ya, Aspose.PDF memerlukan lisensi untuk fungsionalitas penuh. Anda dapat memperoleh lisensi [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau menggunakan [uji coba gratis](https://releases.aspose.com/) untuk memulai.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

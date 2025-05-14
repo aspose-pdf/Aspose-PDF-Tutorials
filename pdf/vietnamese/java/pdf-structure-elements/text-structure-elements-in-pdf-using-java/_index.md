@@ -1,14 +1,16 @@
 ---
-title: Cấu trúc văn bản trong PDF sử dụng Java
-linktitle: Cấu trúc văn bản trong PDF sử dụng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thao tác cấu trúc văn bản PDF trong Java bằng Aspose.PDF cho Java. Khám phá hướng dẫn từng bước với mã nguồn để xử lý văn bản PDF hiệu quả.
-weight: 14
-url: /vi/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/
+"description": "Tìm hiểu cách thao tác cấu trúc văn bản PDF trong Java bằng Aspose.PDF cho Java. Khám phá hướng dẫn từng bước với mã nguồn để xử lý văn bản PDF hiệu quả."
+"linktitle": "Cấu trúc văn bản trong PDF sử dụng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Cấu trúc văn bản trong PDF sử dụng Java"
+"url": "/vi/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cấu trúc văn bản trong PDF sử dụng Java
@@ -20,7 +22,7 @@ Trong thế giới công nghệ hiện đại, việc xử lý các tài liệu 
 
 ## Bắt đầu
 
- Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã cài đặt Aspose.PDF for Java. Bạn có thể tải xuống từ trang web[đây](https://releases.aspose.com/pdf/java/).
+Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã cài đặt Aspose.PDF for Java. Bạn có thể tải xuống từ trang web [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập dự án Java của bạn
 
@@ -42,7 +44,7 @@ com.aspose.pdf.Page page = pdfDocument.getPages().add();
 // Tạo một đối tượng TextFragment
 com.aspose.pdf.TextFragment textFragment = new com.aspose.pdf.TextFragment("Hello, Aspose.PDF!");
 
-//Thiết lập thuộc tính văn bản (phông chữ, kích thước, màu sắc, v.v.)
+// Thiết lập thuộc tính văn bản (phông chữ, kích thước, màu sắc, v.v.)
 textFragment.getTextState().setFont(com.aspose.pdf.FontRepository.findFont("Arial"));
 textFragment.getTextState().setFontSize(12);
 textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getBlack());
@@ -119,7 +121,7 @@ Trong hướng dẫn toàn diện này, chúng tôi đã khám phá những đi�
 
 ### Aspose.PDF dành cho Java là gì?
 
-Aspose.PDF for Java là một thư viện Java cho phép các nhà phát triển tạo, thao tác và làm việc với các tài liệu PDF theo chương trình. Nó cung cấp nhiều tính năng để thao tác với văn bản, hình ảnh và tài liệu.
+Aspose.PDF for Java là một thư viện Java cho phép các nhà phát triển tạo, thao tác và làm việc với các tài liệu PDF theo chương trình. Nó cung cấp nhiều tính năng để thao tác văn bản, hình ảnh và tài liệu.
 
 ### Làm thế nào tôi có thể thêm văn bản thay thế vào phần tử PDF để tăng khả năng truy cập?
 
@@ -135,10 +137,12 @@ Chắc chắn rồi! Aspose.PDF for Java là một công cụ mạnh mẽ để 
 
 ### Tôi có thể tìm thêm tài liệu và tài nguyên về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện về Aspose.PDF cho Java trên trang web:[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện về Aspose.PDF cho Java trên trang web: [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

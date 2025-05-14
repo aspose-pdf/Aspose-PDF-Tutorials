@@ -1,14 +1,16 @@
 ---
-title: แปลงไฟล์ PDF เป็นรูปแบบ XPS
-linktitle: แปลงไฟล์ PDF เป็นรูปแบบ XPS
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: แปลงไฟล์ PDF เป็นรูปแบบ XPS ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java ปลดล็อกการพิมพ์ที่ได้รับการปรับปรุง ความปลอดภัย และความเข้ากันได้
-weight: 13
-url: /th/java/pdf-conversion-transformation/convert-pdfs-to-xps-format/
+"description": "แปลงไฟล์ PDF เป็นรูปแบบ XPS ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java ปลดล็อกการพิมพ์ที่ได้รับการปรับปรุง ความปลอดภัย และความเข้ากันได้"
+"linktitle": "แปลงไฟล์ PDF เป็นรูปแบบ XPS"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "แปลงไฟล์ PDF เป็นรูปแบบ XPS"
+"url": "/th/java/pdf-conversion-transformation/convert-pdfs-to-xps-format/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงไฟล์ PDF เป็นรูปแบบ XPS
@@ -22,7 +24,7 @@ url: /th/java/pdf-conversion-transformation/convert-pdfs-to-xps-format/
 
 Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ในแอปพลิเคชัน Java ได้ โดยไลบรารีนี้มีคุณสมบัติมากมาย รวมถึงการแปลง PDF เป็น XPS ทำให้เป็นเครื่องมือที่มีประโยชน์สำหรับการจัดการรูปแบบเอกสารอย่างมีประสิทธิภาพ
 
-## เหตุใดจึงควรแปลงไฟล์ PDF เป็นรูปแบบ XPS?
+## เหตุใดจึงแปลงไฟล์ PDF เป็นรูปแบบ XPS?
 
 คุณอาจสงสัยว่าทำไมการแปลง PDF เป็นรูปแบบ XPS จึงมีความจำเป็น XPS เป็นรูปแบบเอกสารที่มีเค้าโครงคงที่ที่พัฒนาโดย Microsoft ซึ่งทำให้เหมาะสำหรับการพิมพ์และจัดเก็บเอกสารที่มีการจัดรูปแบบที่สม่ำเสมอ เหตุผลบางประการในการแปลง PDF เป็น XPS ได้แก่:
 
@@ -44,14 +46,14 @@ Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที
 
 ## การโหลดเอกสาร PDF
 
-ขั้นตอนแรกคือโหลดเอกสาร PDF ที่คุณต้องการแปลง นี่คือตัวอย่างโค้ดง่าย ๆ ที่จะทำได้:
+ขั้นตอนแรกคือโหลดเอกสาร PDF ที่คุณต้องการแปลง นี่คือตัวอย่างโค้ดง่ายๆ ที่จะทำได้ดังนี้:
 
 ```java
 // โหลดเอกสาร PDF
 Document pdfDocument = new Document("input.pdf");
 ```
 
- แทนที่`"input.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
+แทนที่ `"input.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
 
 ## การแปลง PDF เป็น XPS
 
@@ -110,9 +112,11 @@ pdfDocument.save("customized-output.xps", saveOptions);
 ### มีข้อจำกัดใด ๆ ในการแปลง PDF เป็น XPS หรือไม่
 
 ข้อจำกัดอาจแตกต่างกันไปขึ้นอยู่กับใบอนุญาตของคุณและความซับซ้อนของเอกสาร PDF ตรวจสอบเอกสารประกอบและรายละเอียดใบอนุญาตเพื่อดูข้อมูลเฉพาะเกี่ยวกับข้อจำกัด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

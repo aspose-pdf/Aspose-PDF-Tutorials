@@ -1,14 +1,16 @@
 ---
-title: Vẽ đường thẳng ngang trang trong PDF bằng Java
-linktitle: Vẽ đường thẳng ngang trang trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách vẽ đường trong PDF bằng Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước có mã nguồn để vẽ đường PDF.
-weight: 13
-url: /vi/java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/
+"description": "Tìm hiểu cách vẽ đường trong PDF bằng Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn để vẽ đường PDF."
+"linktitle": "Vẽ đường thẳng ngang trang trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Vẽ đường thẳng ngang trang trong PDF bằng Java"
+"url": "/vi/java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vẽ đường thẳng ngang trang trong PDF bằng Java
@@ -20,7 +22,7 @@ Aspose.PDF for Java là một API mạnh mẽ cho phép các nhà phát triển 
 
 ## Bắt đầu với Aspose.PDF cho Java
 
-Trước khi chúng ta đi sâu vào mã, hãy đảm bảo bạn đã cài đặt Aspose.PDF cho Java trong dự án của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp trên trang web.
+Trước khi chúng ta đi sâu vào mã, hãy đảm bảo bạn đã cài đặt Aspose.PDF cho Java trong dự án của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp trên trang web.
 
 ## Thêm Aspose.PDF vào Dự án của bạn
 
@@ -34,7 +36,7 @@ Trước khi chúng ta đi sâu vào mã, hãy đảm bảo bạn đã cài đ�
 </dependency>
 ```
 
-Nếu bạn đang sử dụng một công cụ xây dựng khác, hãy tham khảo tài liệu để biết thiết lập phù hợp.
+Nếu bạn đang sử dụng một công cụ xây dựng khác, hãy tham khảo tài liệu để biết cách thiết lập phù hợp.
 
 ## Tạo một tài liệu PDF mới
 
@@ -53,7 +55,7 @@ public class CreatePDF {
 
 ## Vẽ một đường ngang qua trang
 
- Để vẽ một đường ngang qua trang, bạn có thể sử dụng`Line` lớp do Aspose.PDF cung cấp. Sau đây là ví dụ về cách vẽ một đường ngang đơn giản:
+Để vẽ một đường ngang qua trang, bạn có thể sử dụng `Line` lớp do Aspose.PDF cung cấp. Sau đây là ví dụ về cách vẽ một đường ngang đơn giản:
 
 ```java
 import com.aspose.pdf.*;
@@ -107,7 +109,7 @@ Trong hướng dẫn này, chúng tôi đã đề cập đến những điều c
 
 ### Làm thế nào để thêm đường thẳng đứng vào tài liệu PDF của tôi?
 
-Để thêm một đường thẳng đứng, chỉ cần điều chỉnh tọa độ khi tạo`Line` đối tượng. Ví dụ, để thêm một đường thẳng đứng bắt đầu từ (200, 100) và kết thúc tại (200, 400), hãy sửa đổi tọa độ như sau:
+Để thêm một đường thẳng đứng, chỉ cần điều chỉnh tọa độ khi tạo `Line` đối tượng. Ví dụ, để thêm một đường thẳng đứng bắt đầu từ (200, 100) và kết thúc tại (200, 400), hãy sửa đổi tọa độ như sau:
 
 ```java
 Line verticalLine = new Line(new float[] { 200, 100, 200, 400 });
@@ -130,14 +132,16 @@ Có, Aspose.PDF for Java tương thích với Java 8 và các phiên bản mới
 
 ### Làm thế nào để thêm văn bản phía trên dòng tôi đã vẽ?
 
- Để thêm văn bản phía trên dòng, bạn có thể sử dụng`TextFragment` lớp được cung cấp bởi Aspose.PDF. Tạo một`TextFragment` đối tượng và thêm nó vào trang.
+Để thêm văn bản phía trên dòng, bạn có thể sử dụng `TextFragment` lớp được cung cấp bởi Aspose.PDF. Tạo một `TextFragment` đối tượng và thêm nó vào trang.
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện và nhiều ví dụ hơn trên trang tài liệu Aspose.PDF cho Java:[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu toàn diện và nhiều ví dụ hơn trên trang tài liệu Aspose.PDF cho Java: [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

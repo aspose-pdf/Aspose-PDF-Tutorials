@@ -8,7 +8,9 @@ url: /net/annotations/invisibleannotation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Invisible Annotation In PDF File
@@ -126,6 +128,7 @@ You can specify the page number when creating the annotation by changing the `do
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Văn bản trong tiêu đề của tệp PDF
-linktitle: Văn bản trong tiêu đề của tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Học cách thêm tiêu đề văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn một cách hiệu quả và hiệu suất cao.
-weight: 190
-url: /vi/net/programming-with-stamps-and-watermarks/text-in-header/
+"description": "Học cách thêm tiêu đề văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn một cách hiệu quả và hiệu suất cao."
+"linktitle": "Văn bản trong tiêu đề của tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Văn bản trong tiêu đề của tệp PDF"
+"url": "/vi/net/programming-with-stamps-and-watermarks/text-in-header/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Văn bản trong tiêu đề của tệp PDF
@@ -22,8 +24,8 @@ Bạn đã bao giờ thấy mình cần thêm nét hoàn hảo vào một tài l
 Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị mọi thứ sẵn sàng. Sau đây là những gì bạn cần:
 
 1. Môi trường .NET: Đảm bảo rằng bạn có môi trường .NET đang hoạt động được thiết lập trên máy của mình. Có thể là Visual Studio hoặc bất kỳ IDE tương thích nào khác.
-2.  Thư viện Aspose.PDF: Bạn cần cài đặt thư viện Aspose.PDF. Nếu bạn chưa cài đặt, hãy truy cập[liên kết tải xuống](https://releases.aspose.com/pdf/net/) và tải phiên bản mới nhất.
-3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn theo dõi dễ dàng hơn nhiều, nhưng đừng lo! Chúng tôi sẽ chia nhỏ mọi thứ thành các bước nhỏ.
+2. Thư viện Aspose.PDF: Bạn cần cài đặt thư viện Aspose.PDF. Nếu bạn chưa cài đặt, hãy truy cập [liên kết tải xuống](https://releases.aspose.com/pdf/net/) và tải phiên bản mới nhất.
+3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn dễ dàng theo dõi hơn, nhưng đừng lo! Chúng tôi sẽ chia nhỏ mọi thứ thành các bước nhỏ.
 4. Mẫu tài liệu PDF: Tạo hoặc lấy một mẫu tài liệu PDF mà chúng ta sẽ sử dụng trong suốt hướng dẫn này.
 
 ## Nhập gói
@@ -53,7 +55,7 @@ Mọi hành trình thành công đều bắt đầu bằng một điểm khởi 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu PDF của bạn được lưu. Điều này thiết lập bối cảnh cho các hoạt động còn lại của chúng tôi.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu PDF của bạn được lưu. Điều này thiết lập bối cảnh cho các hoạt động còn lại của chúng tôi.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -64,7 +66,7 @@ Bây giờ chúng ta đã thiết lập được thư mục, đã đến lúc m�
 Document pdfDocument = new Document(dataDir + "TextinHeader.pdf");
 ```
 
- Chuyện gì đang xảy ra ở đây? Chúng tôi đang tạo ra một`Document` đối tượng bằng cách truyền đường dẫn đến tệp PDF của chúng tôi. Điều này cho phép chúng tôi truy cập vào tất cả các tính năng mà Aspose.PDF cung cấp cho tài liệu đó!
+Chuyện gì đang xảy ra ở đây? Chúng tôi đang tạo ra một `Document` đối tượng bằng cách truyền đường dẫn đến tệp PDF của chúng tôi. Điều này cho phép chúng tôi truy cập vào tất cả các tính năng mà Aspose.PDF cung cấp cho tài liệu đó!
 
 ## Bước 3: Tạo một con dấu văn bản cho tiêu đề
 
@@ -75,7 +77,7 @@ Tiếp theo, chúng ta cần tạo một “con dấu” mà chúng ta sẽ sử
 TextStamp textStamp = new TextStamp("Header Text");
 ```
 
- Dòng mã này khởi tạo`TextStamp`với văn bản chúng ta muốn hiển thị làm tiêu đề. Bạn có thể tùy chỉnh "Văn bản tiêu đề" thành bất kỳ nội dung nào phù hợp với tài liệu của bạn. 
+Dòng mã này khởi tạo `TextStamp` với văn bản chúng ta muốn hiển thị làm tiêu đề. Bạn có thể tùy chỉnh "Văn bản tiêu đề" thành bất kỳ nội dung nào phù hợp với tài liệu của bạn. 
 
 ## Bước 4: Tùy chỉnh Thuộc tính Dấu văn bản
 
@@ -120,7 +122,7 @@ Chúng tôi lưu tài liệu đã sửa đổi dưới dạng tệp mới. Bằn
 
 ## Bước 7: Xác nhận thành công
 
-Cuối cùng, chúng ta hãy thêm một lệnh đầu ra nhỏ để xác nhận!
+Cuối cùng, chúng ta hãy thêm một lệnh đầu ra giao diện điều khiển nhỏ để xác nhận!
 
 ```csharp
 Console.WriteLine("\nText in header added successfully.\nFile saved at " + dataDir);
@@ -135,22 +137,24 @@ Xin chúc mừng! Bây giờ bạn đã biết cách thêm văn bản vào tiêu
 ## Câu hỏi thường gặp
 
 ### Tôi có thể tùy chỉnh phông chữ và kích thước của văn bản tiêu đề không?
- Chắc chắn rồi!`TextStamp` lớp cung cấp các thuộc tính để tùy chỉnh phông chữ và kích thước. Bạn có thể dễ dàng thiết lập các thuộc tính này để phù hợp với phong cách của tài liệu.
+Chắc chắn rồi! `TextStamp` lớp cung cấp các thuộc tính để tùy chỉnh phông chữ và kích thước. Bạn có thể dễ dàng thiết lập các thuộc tính này để phù hợp với phong cách của tài liệu.
 
 ### Aspose.PDF có miễn phí sử dụng không?
-Aspose cung cấp bản dùng thử miễn phí, nhưng để sử dụng lâu dài, có thể cần phải có giấy phép trả phí. Kiểm tra[trang mua hàng](https://purchase.aspose.com/buy).
+Aspose cung cấp bản dùng thử miễn phí, nhưng để sử dụng lâu dài, có thể cần phải có giấy phép trả phí. Kiểm tra [trang mua hàng](https://purchase.aspose.com/buy).
 
 ### Tôi có thể thêm hình ảnh hoặc logo vào tiêu đề không?
- Vâng! Bạn có thể sử dụng`ImageStamp` lớp theo cách tương tự để đặt hình ảnh vào tiêu đề PDF của bạn.
+Vâng! Bạn có thể sử dụng `ImageStamp` lớp theo cách tương tự để đặt hình ảnh vào tiêu đề PDF của bạn.
 
 ### Nếu tôi chỉ muốn thêm tiêu đề vào các trang cụ thể thì sao?
 Bạn có thể nhắm mục tiêu vào các trang cụ thể bằng cách sử dụng các điều kiện trong vòng lặp trên các trang đó.
 
 ### Tôi có thể tìm thêm ví dụ và hướng dẫn ở đâu?
- Các[Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) có rất nhiều ví dụ và hướng dẫn để giúp bạn tìm hiểu sâu hơn!
+Các [Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) có rất nhiều ví dụ và hướng dẫn để giúp bạn tìm hiểu sâu hơn!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

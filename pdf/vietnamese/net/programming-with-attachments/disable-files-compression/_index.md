@@ -1,14 +1,16 @@
 ---
-title: Tắt tính năng nén tập tin trong tệp PDF
-linktitle: Tắt tính năng nén tập tin trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách vô hiệu hóa nén tệp trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Nâng cao kỹ năng quản lý PDF của bạn.
-weight: 30
-url: /vi/net/programming-with-attachments/disable-files-compression/
+"description": "Tìm hiểu cách vô hiệu hóa nén tệp trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Nâng cao kỹ năng quản lý PDF của bạn."
+"linktitle": "Tắt tính năng nén tập tin trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tắt tính năng nén tập tin trong tệp PDF"
+"url": "/vi/net/programming-with-attachments/disable-files-compression/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tắt tính năng nén tập tin trong tệp PDF
@@ -21,7 +23,7 @@ Trong thời đại kỹ thuật số, việc quản lý các tệp PDF hiệu q
 
 Trước khi bắt đầu viết mã, bạn cần phải có một số điều kiện tiên quyết sau:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [trang web](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Môi trường phát triển nơi bạn có thể viết và thực thi mã .NET của mình.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
@@ -49,7 +51,7 @@ using System;
 using Aspose.Pdf;
 ```
 
-Bây giờ chúng ta đã thiết lập xong mọi thứ, hãy chia nhỏ quá trình vô hiệu hóa tính năng nén tệp trong tệp PDF thành các bước dễ quản lý.
+Bây giờ chúng ta đã thiết lập mọi thứ, hãy chia nhỏ quá trình vô hiệu hóa tính năng nén tệp trong tệp PDF thành các bước dễ quản lý.
 
 ## Bước 1: Xác định thư mục tài liệu
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải Tài liệu PDF
 
- Tiếp theo, bạn sẽ tải tài liệu PDF mà bạn muốn sửa đổi. Điều này được thực hiện bằng cách sử dụng`Document` lớp được cung cấp bởi Aspose.PDF.
+Tiếp theo, bạn sẽ tải tài liệu PDF mà bạn muốn sửa đổi. Điều này được thực hiện bằng cách sử dụng `Document` lớp được cung cấp bởi Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
@@ -77,7 +79,7 @@ FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sam
 
 ## Bước 4: Chỉ định Thuộc tính Mã hóa
 
- Để đảm bảo rằng tệp được thêm vào mà không cần nén, bạn cần đặt thuộc tính mã hóa của thông số kỹ thuật tệp thành`FileEncoding.None`. Bước này rất quan trọng vì nó ảnh hưởng trực tiếp đến cách tệp được nhúng vào PDF.
+Để đảm bảo rằng tệp được thêm vào mà không cần nén, bạn cần đặt thuộc tính mã hóa của thông số kỹ thuật tệp thành `FileEncoding.None`. Bước này rất quan trọng vì nó ảnh hưởng trực tiếp đến cách tệp được nhúng vào PDF.
 
 ```csharp
 fileSpecification.Encoding = FileEncoding.None;
@@ -115,22 +117,24 @@ Vô hiệu hóa nén tệp trong tài liệu PDF có thể là một quá trình
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tại sao tôi muốn tắt tính năng nén tệp trong PDF?
 Việc tắt tính năng nén tệp sẽ đảm bảo các tệp được nhúng vẫn giữ nguyên định dạng ban đầu, điều này rất quan trọng đối với tính toàn vẹn của dữ liệu.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về[Trang web Aspose](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về [Trang web Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

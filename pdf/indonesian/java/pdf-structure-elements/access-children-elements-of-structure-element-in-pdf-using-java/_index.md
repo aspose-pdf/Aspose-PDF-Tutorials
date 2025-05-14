@@ -1,20 +1,22 @@
 ---
-title: Mengakses Elemen Anak dari Elemen Struktur dalam PDF menggunakan Java
-linktitle: Mengakses Elemen Anak dari Elemen Struktur dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengakses elemen turunan dari elemen struktur dalam PDF menggunakan Java. Panduan langkah demi langkah dengan kode sumber ini mencakup manipulasi PDF dengan Aspose.PDF untuk Java.
-weight: 10
-url: /id/java/pdf-structure-elements/access-children-elements-of-structure-element-in-pdf-using-java/
+"description": "Pelajari cara mengakses elemen turunan dari elemen struktur dalam PDF menggunakan Java. Panduan langkah demi langkah dengan kode sumber ini mencakup manipulasi PDF dengan Aspose.PDF untuk Java."
+"linktitle": "Mengakses Elemen Anak dari Elemen Struktur dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Mengakses Elemen Anak dari Elemen Struktur dalam PDF menggunakan Java"
+"url": "/id/java/pdf-structure-elements/access-children-elements-of-structure-element-in-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengakses Elemen Anak dari Elemen Struktur dalam PDF menggunakan Java
 
 
-## Pengenalan Akses Elemen Anak Elemen Struktur dalam PDF menggunakan Java
+## Pengenalan Akses Elemen Anak Struktur Elemen dalam PDF menggunakan Java
 
 Dokumen PDF merupakan format yang banyak digunakan untuk menyajikan dan berbagi informasi. Dokumen ini sering kali berisi struktur yang rumit untuk mengatur data secara efisien. Dalam artikel ini, kita akan membahas cara mengakses elemen turunan dari elemen struktur dalam dokumen PDF menggunakan Java. Kita akan membahasnya langkah demi langkah, dengan memberikan contoh kode di sepanjang prosesnya.
 
@@ -47,7 +49,7 @@ Untuk bekerja dengan dokumen PDF, pertama-tama Anda perlu memuatnya ke dalam apl
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Mengganti`"example.pdf"` dengan jalur ke berkas PDF Anda.
+Mengganti `"example.pdf"` dengan jalur ke berkas PDF Anda.
 
 ## Menavigasi ke Elemen Struktur
 
@@ -122,10 +124,12 @@ Anda dapat mengotomatiskan pemrosesan dokumen PDF di Java dengan menggunakan pus
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan sumber daya untuk bekerja dengan Aspose.PDF untuk Java?
 
-Untuk contoh tambahan, dokumentasi, dan sumber daya tentang penggunaan Aspose.PDF untuk Java, kunjungi[Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+Untuk contoh tambahan, dokumentasi, dan sumber daya tentang penggunaan Aspose.PDF untuk Java, kunjungi [Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

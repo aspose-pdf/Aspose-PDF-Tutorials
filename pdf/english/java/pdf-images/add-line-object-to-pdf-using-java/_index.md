@@ -8,7 +8,9 @@ url: /java/pdf-images/add-line-object-to-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Line Object to PDF using Java
@@ -130,6 +132,7 @@ You can find comprehensive documentation and examples for Aspose.PDF for Java on
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

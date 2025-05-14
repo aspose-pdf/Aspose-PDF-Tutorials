@@ -1,28 +1,30 @@
 ---
-title: Przechowuj obraz w kolekcji XImage
-linktitle: Przechowuj obraz w kolekcji XImage
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak przechowywać obrazy w kolekcji XImage za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompletnego przewodnika krok po kroku.
-weight: 290
-url: /pl/net/programming-with-images/store-image-in-ximage-collection/
+"description": "Dowiedz się, jak przechowywać obrazy w kolekcji XImage za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompletnego przewodnika krok po kroku."
+"linktitle": "Przechowuj obraz w kolekcji XImage"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Przechowuj obraz w kolekcji XImage"
+"url": "/pl/net/programming-with-images/store-image-in-ximage-collection/"
+"weight": 290
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przechowuj obraz w kolekcji XImage
 
 ## Wstęp
 
-W dzisiejszej erze cyfrowej obsługa i manipulowanie dokumentami programowo jest niezbędne dla wielu aplikacji. Aspose.PDF dla .NET umożliwia programistom bezproblemową pracę z plikami PDF, ulepszając przepływy pracy i umożliwiając tworzenie dynamicznej zawartości. W tym przewodniku zagłębimy się w proces przechowywania obrazu w kolekcji XImage, kluczowej funkcji, która umożliwia osadzanie wizualizacji bezpośrednio w plikach PDF. Gotowy do wyruszenia w podróż tworzenia oszałamiającej zawartości.
+dzisiejszej erze cyfrowej obsługa i manipulowanie dokumentami programowo jest niezbędne dla wielu aplikacji. Aspose.PDF dla .NET umożliwia programistom bezproblemową pracę z plikami PDF, usprawniając przepływy pracy i umożliwiając tworzenie dynamicznej zawartości. W tym przewodniku zagłębimy się w proces przechowywania obrazu w kolekcji XImage, kluczowej funkcji, która umożliwia osadzanie wizualizacji bezpośrednio w plikach PDF. Gotowy do wyruszenia w podróż tworzenia oszałamiającej zawartości.
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w kod i procesy, musisz upewnić się, że masz kilka rzeczy na swoim miejscu:
 
 - Środowisko .NET: Powinieneś mieć zainstalowany .NET Framework na swoim komputerze. Wybierz odpowiednią wersję na podstawie wymagań swojego projektu.
-- Aspose.PDF dla .NET: Upewnij się, że masz bibliotekę Aspose.PDF. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/net/) lub zacznij od bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+- Aspose.PDF dla .NET: Upewnij się, że masz bibliotekę Aspose.PDF. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/net/) lub zacznij od bezpłatnego okresu próbnego [Tutaj](https://releases.aspose.com/).
 - Plik obrazu: Potrzebujesz również pliku obrazu (takiego jak JPG lub PNG), który chcesz zapisać w pliku PDF. W tym przykładzie użyjemy pliku o nazwie „aspose-logo.jpg”.
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci płynnie nadążać za językiem.
 
@@ -89,7 +91,7 @@ page.Resources.Images.Add(imageStream, ImageFilterType.Flate);
 XImage ximage = page.Resources.Images[page.Resources.Images.Count];
 ```
 
- Ten kod wykonuje ciężką pracę polegającą na dodawaniu obrazu do pliku PDF i przypisywaniu go do`XImage` zmienna, do której możemy odwołać się później.
+Ten kod wykonuje ciężką pracę polegającą na dodawaniu obrazu do pliku PDF i przypisywaniu go do `XImage` zmienna, do której możemy odwołać się później.
 
 ## Krok 6: Przygotuj się do narysowania obrazu
 
@@ -149,7 +151,7 @@ Kazałeś Aspose.PDF zapisać dokument pod podaną nazwą pliku. Po uruchomieniu
 
 ## Wniosek
 
-masz to! Nauczyłeś się, jak używać Aspose.PDF dla .NET, aby punkt po punkcie przechowywać obraz w kolekcji XImage. Czyż nie jest satysfakcjonujące widzieć, jak Twój kod nabiera kształtu i generuje coś użytecznego? Niezależnie od tego, czy tworzysz aplikacje, czy po prostu chcesz zautomatyzować raporty, ten przewodnik stanowi świetny element podstawowy. Pamiętaj, że moc Aspose.PDF może pomóc Ci w wielu zadaniach wykraczających poza to, więc kontynuuj eksplorację!
+masz to! Nauczyłeś się, jak używać Aspose.PDF dla .NET do przechowywania obrazu w kolekcji XImage punkt po punkcie. Czyż nie jest satysfakcjonujące widzieć, jak Twój kod nabiera kształtu i generuje coś użytecznego? Niezależnie od tego, czy tworzysz aplikacje, czy po prostu chcesz zautomatyzować raporty, ten przewodnik stanowi świetny element podstawowy. Pamiętaj, że moc Aspose.PDF może pomóc Ci w wielu zadaniach wykraczających poza to, więc kontynuuj eksplorację!
 
 ## Najczęściej zadawane pytania
 
@@ -160,16 +162,18 @@ Aspose.PDF obsługuje różne formaty obrazów, w tym JPG, PNG, BMP i GIF.
 Tak, możesz zmienić rozmiar obrazu wyświetlanego w pliku PDF, zmieniając współrzędne zdefiniowane w prostokącie.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF?
- Aspose oferuje bezpłatny okres próbny i różne opcje zakupu. Możesz je znaleźć[Tutaj](https://purchase.aspose.com/buy).
+Aspose oferuje bezpłatny okres próbny i różne opcje zakupu. Możesz je znaleźć [Tutaj](https://purchase.aspose.com/buy).
 
 ### Gdzie mogę uzyskać pomoc, jeśli wystąpią problemy?
- Możesz zwrócić się o pomoc do społeczności Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz zwrócić się o pomoc do społeczności Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Czy istnieje sposób na zastosowanie kompresji obrazów dodanych do pliku PDF?
 Tak, dodając obrazy do pliku PDF, możesz określić typ filtra obrazu, aby zastosować metodę kompresji, np. Flate.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

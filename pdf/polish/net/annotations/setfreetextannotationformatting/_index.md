@@ -1,14 +1,16 @@
 ---
-title: Ustaw bezpłatne formatowanie adnotacji tekstowych
-linktitle: Ustaw bezpłatne formatowanie adnotacji tekstowych
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak ustawić formatowanie adnotacji tekstu swobodnego w dokumentach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku.
-weight: 140
-url: /pl/net/annotations/setfreetextannotationformatting/
+"description": "Dowiedz się, jak ustawić formatowanie adnotacji tekstu swobodnego w dokumentach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Ustaw bezpłatne formatowanie adnotacji tekstowych"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ustaw bezpłatne formatowanie adnotacji tekstowych"
+"url": "/pl/net/annotations/setfreetextannotationformatting/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw bezpłatne formatowanie adnotacji tekstowych
@@ -22,7 +24,7 @@ erze cyfrowej umiejętność manipulowania dokumentami PDF i ich adnotowania sta
 Zanim przejdziemy do szczegółów kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto, co powinieneś mieć:
 
 1. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci zrozumieć przykłady i fragmenty kodu przedstawione w tym samouczku.
-2.  Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Visual Studio: Środowisko programistyczne, takie jak Visual Studio, ułatwia pisanie i testowanie kodu.
 4. Dokument PDF: Do tego samouczka będziesz potrzebować przykładowego dokumentu PDF, z którym będziesz pracować. Możesz utworzyć prosty dokument lub pobrać przykład z Internetu.
 
@@ -64,22 +66,22 @@ Po pierwsze, musisz określić ścieżkę do katalogu dokumentów. Tutaj będzie
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której przechowywany jest Twój plik PDF. Ten krok jest kluczowy, ponieważ informuje Twój program, gdzie znaleźć dokument PDF, z którym chcesz pracować.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której przechowywany jest Twój plik PDF. Ten krok jest kluczowy, ponieważ informuje Twój program, gdzie znaleźć dokument PDF, z którym chcesz pracować.
 
 ## Krok 2: Otwórz dokument PDF
 
- Następnie należy otworzyć dokument PDF, który będzie adnotowany. Można to zrobić za pomocą`Document` klasa z biblioteki Aspose.PDF:
+Następnie należy otworzyć dokument PDF, który będzie adnotowany. Można to zrobić za pomocą `Document` klasa z biblioteki Aspose.PDF:
 
 ```csharp
 // Otwórz dokument
 Document pdfDocument = new Document(dataDir + "SetFreeTextAnnotationFormatting.pdf");
 ```
 
- Ta linia kodu inicjuje nowy`Document` obiekt i ładuje określony plik PDF. Upewnij się, że nazwa pliku odpowiada tej, którą masz w swoim katalogu.
+Ta linia kodu inicjuje nowy `Document` obiekt i ładuje określony plik PDF. Upewnij się, że nazwa pliku odpowiada tej, którą masz w swoim katalogu.
 
 ## Krok 3: Utwórz obiekt DefaultAppearance
 
- Teraz utwórzmy`DefaultAppearance` obiekt. Ten obiekt zdefiniuje wygląd Twojej adnotacji tekstu swobodnego, np. czcionkę, rozmiar i kolor:
+Teraz utwórzmy `DefaultAppearance` obiekt. Ten obiekt zdefiniuje wygląd Twojej adnotacji tekstu swobodnego, np. czcionkę, rozmiar i kolor:
 
 ```csharp
 // Utwórz obiekt DefaultAppearance
@@ -97,7 +99,7 @@ Po ustawieniu wyglądu nadszedł czas na utworzenie faktycznej adnotacji w wolny
 FreeTextAnnotation freetext = new FreeTextAnnotation(pdfDocument.Pages[1], new Aspose.Pdf.Rectangle(200, 400, 400, 600), default_appearance);
 ```
 
- W tej linii tworzymy nowy`FreeTextAnnotation` na pierwszej stronie pliku PDF. Prostokąt definiuje pozycję i rozmiar adnotacji. Możesz dostosować współrzędne (200, 400, 400, 600), aby umieścić adnotację dokładnie tam, gdzie chcesz.
+tej linii tworzymy nowy `FreeTextAnnotation` na pierwszej stronie pliku PDF. Prostokąt definiuje pozycję i rozmiar adnotacji. Możesz dostosować współrzędne (200, 400, 400, 600), aby umieścić adnotację dokładnie tam, gdzie chcesz.
 
 ## Krok 5: Określ zawartość adnotacji
 
@@ -108,7 +110,7 @@ Teraz, gdy mamy już utworzoną adnotację, dodajmy do niej trochę tekstu:
 freetext.Contents = "Free Text";
 ```
 
- Możesz zastąpić`"Free Text"` dowolną wiadomością, którą chcesz wyświetlić w adnotacji. Jest to tekst, który będzie widoczny dla każdego, kto przegląda plik PDF.
+Możesz zastąpić `"Free Text"` z dowolną wiadomością, którą chcesz wyświetlić w adnotacji. Jest to tekst, który będzie widoczny dla każdego, kto przegląda plik PDF.
 
 ## Krok 6: Dodaj adnotację do strony
 
@@ -135,7 +137,7 @@ Ten kod zapisuje zmodyfikowany plik PDF pod nową nazwą, zapewniając, że oryg
 
 ## Wniosek
 
-Gratulacje! Udało Ci się nauczyć, jak ustawić formatowanie adnotacji tekstu swobodnego za pomocą Aspose.PDF dla .NET. Wykonując te kroki, możesz ulepszyć swoje dokumenty PDF za pomocą niestandardowych adnotacji, czyniąc je bardziej interaktywnymi i informacyjnymi. Niezależnie od tego, czy dodajesz komentarze, notatki czy wyróżnienia, Aspose.PDF zapewnia narzędzia, których potrzebujesz, aby usprawnić swój przepływ pracy. Więc śmiało, eksperymentuj z różnymi stylami i umiejscowieniami i spraw, aby Twoje pliki PDF działały dla Ciebie!
+Gratulacje! Udało Ci się nauczyć, jak ustawić formatowanie adnotacji tekstu swobodnego za pomocą Aspose.PDF dla .NET. Wykonując te kroki, możesz ulepszyć swoje dokumenty PDF za pomocą niestandardowych adnotacji, dzięki czemu będą bardziej interaktywne i informacyjne. Niezależnie od tego, czy dodajesz komentarze, notatki czy wyróżnienia, Aspose.PDF zapewnia narzędzia, których potrzebujesz, aby usprawnić swój przepływ pracy. Więc śmiało, eksperymentuj z różnymi stylami i umiejscowieniami i spraw, aby Twoje pliki PDF działały dla Ciebie!
 
 ## Najczęściej zadawane pytania
 
@@ -143,19 +145,21 @@ Gratulacje! Udało Ci się nauczyć, jak ustawić formatowanie adnotacji tekstu 
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, edycję i manipulowanie dokumentami PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji funkcji biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Możesz uzyskać pomoc odwiedzając forum Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać pomoc odwiedzając forum Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Czy można dostosować wygląd adnotacji?
- Oczywiście! Możesz dostosować czcionkę, rozmiar, kolor i inne właściwości adnotacji za pomocą`DefaultAppearance` klasa.
+Oczywiście! Możesz dostosować czcionkę, rozmiar, kolor i inne właściwości adnotacji za pomocą `DefaultAppearance` klasa.
 
 ### Gdzie mogę kupić Aspose.PDF dla .NET?
- Możesz zakupić licencję na Aspose.PDF[Tutaj](https://purchase.aspose.com/buy).
+Możesz zakupić licencję na Aspose.PDF [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

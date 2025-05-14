@@ -1,14 +1,16 @@
 ---
-title: Not Yapısı Elemanı Oluştur
-linktitle: Not Yapısı Elemanı Oluştur
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu ayrıntılı, adım adım eğitimle Aspose.PDF for .NET ile PDF'lerde not yapı öğeleri oluşturmayı öğrenin.
-weight: 30
-url: /tr/net/programming-with-tagged-pdf/create-note-structure-element/
+"description": "Bu detaylı, adım adım eğitimle Aspose.PDF for .NET ile PDF'lerde not yapı öğeleri oluşturmayı öğrenin."
+"linktitle": "Not Yapısı Elemanı Oluştur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Not Yapısı Elemanı Oluştur"
+"url": "/tr/net/programming-with-tagged-pdf/create-note-structure-element/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Not Yapısı Elemanı Oluştur
@@ -21,8 +23,8 @@ Günümüzün dijital dünyasında, özellikle PDF'lerle uğraşırken, yapılan
 
 Kodlamaya ve not yapı öğelerini oluşturmaya başlamadan önce, ihtiyacınız olan her şeyin hazır olduğundan emin olalım:
 
-1. .NET Ortamı: Visual Studio gibi bir .NET geliştirme ortamınız olmalıdır.
-2.  Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz:[Burada](https://releases.aspose.com/pdf/net/).
+1. .NET Ortamı: Visual Studio gibi bir .NET geliştirme ortamı kurmuş olmanız gerekir.
+2. Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Buradan edinebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: Bu eğitimden en iyi şekilde faydalanmak için C# programlamaya aşinalık gereklidir.
 4. .NET Framework'e Erişim: Projenizin .NET Framework'ün uyumlu bir sürümünü hedeflediğinden emin olun.
 5. Belge Dizini: PDF ve günlük dosyalarınızı depolamak için bir dizin ayarlayın. 
@@ -57,7 +59,7 @@ string logFile = dataDir + "45929_log.xml";
 // PDF Belgesi Oluştur
 Document document = new Document();
 ```
-Bu kod yeni bir kod başlatır`Document` nesne ve çıktı PDF ve günlük dosyaları için dosya yollarını ayarlar. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` gerçek dizin yolunuzla.
+Bu kod yeni bir kodu başlatır `Document` nesne ve çıktı PDF ve günlük dosyaları için dosya yollarını ayarlar. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` gerçek dizin yolunuzla.
 
 ## Adım 2: Etiketli İçerik Niteliklerini Ayarlama
 
@@ -68,7 +70,7 @@ ITaggedContent taggedContent = document.TaggedContent;
 taggedContent.SetTitle("Sample of Note Elements");
 taggedContent.SetLanguage("en-US");
 ```
- Burada, şuraya erişiyoruz:`TaggedContent` Belgenin başlığını ve dilini ayarlamak. Bu, erişilebilirlik standartları için önemlidir ve belgenize daha profesyonel bir dokunuş kazandırır.
+Burada, şuraya erişiyoruz: `TaggedContent` Belgenin başlığını ve dilini ayarlamak. Bu, erişilebilirlik standartları için önemlidir ve belgenize daha profesyonel bir dokunuş kazandırır.
 
 ## Adım 3: Bir Paragraf Öğesi Oluşturma
 
@@ -79,7 +81,7 @@ taggedContent.SetLanguage("en-US");
 ParagraphElement paragraph = taggedContent.CreateParagraphElement();
 taggedContent.RootElement.AppendChild(paragraph);
 ```
- Bir tane oluşturarak`ParagraphElement`, not öğelerinin ekleneceği bir temel sağlıyoruz. Duvarları inşa etmeden önce bir evin temelini atmaya benzer.
+Bir tane oluşturarak `ParagraphElement`, not öğelerinin ekleneceği bir temel sağlıyoruz. Duvarları inşa etmeden önce bir evin temelini atmaya benzer.
 
 ## Adım 4: Not Öğelerinin Eklenmesi
 
@@ -104,7 +106,7 @@ paragraph.AppendChild(note2);
 note2.SetText("Note with ID = 'note_002'. ");
 note2.SetId("note_002");
 ```
- İkinci not için açıkça bir kimlik belirledik`note_002`. Kimliklere dikkat etmek önemlidir çünkü bunlar daha sonra belirli notlara başvurmanın bir yolunu sağlar.
+İkinci not için açıkça bir kimlik belirledik `note_002`. Kimliklere dikkat etmek önemlidir çünkü bunlar daha sonra belirli notlara başvurmanın bir yolunu sağlar.
 
 ### Adım 4.3: Üçüncü Notu Ekleyin
 
@@ -116,7 +118,7 @@ note3.SetText("Note with ID = 'note_003'. ");
 note3.SetId("note_003");
 // İstisna atılmalıdır - Aspose.Pdf.Tagged.TaggedException: ID='note_002' olan yapı öğesi zaten mevcut
 ```
- Bu üçüncü not ikincisine çok benzer ancak başka bir benzersiz kimlik kullanır. Dikkatli olun; aynı kimliğe sahip başka bir not oluşturmaya çalışmak`note_002` bir istisna fırlatacaktır. 
+Bu üçüncü not ikincisine çok benzer ancak başka bir benzersiz kimlik kullanır. Dikkatli olun; aynı kimliğe sahip başka bir not oluşturmaya çalışmak `note_002` bir istisna fırlatacaktır. 
 
 ## Adım 5: Belgeyi Kaydetme
 
@@ -159,10 +161,12 @@ Evet! Aspose.PDF belgelerinizi zenginleştirmek için resim, tablo ve köprü me
 PDF/UA uyumluluğu, PDF'lerin küresel standartlarla uyumlu olacak şekilde engelli bireyler tarafından erişilebilir olmasını sağlar.
 
 ### Aspose.PDF için desteği nereden alabilirim?
- Destek için şu adresi ziyaret edin:[Aspose forumu](https://forum.aspose.com/c/pdf/10) Sorularınızı sorabileceğiniz ve deneyimlerinizi paylaşabileceğiniz bir yer.
+Destek için şu adresi ziyaret edin: [Aspose forumu](https://forum.aspose.com/c/pdf/10) Sorularınızı sorabileceğiniz ve deneyimlerinizi paylaşabileceğiniz bir yer.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF sang PDFA3b
-linktitle: PDF sang PDFA3b
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Học cách chuyển đổi tệp PDF sang định dạng PDF/A-3B một cách dễ dàng với Aspose.PDF cho .NET trong hướng dẫn từng bước này.
-weight: 150
-url: /vi/net/document-conversion/pdf-to-pdfa3b/
+"description": "Học cách chuyển đổi tệp PDF sang định dạng PDF/A-3B một cách dễ dàng với Aspose.PDF cho .NET trong hướng dẫn từng bước này."
+"linktitle": "PDF sang PDFA3b"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "PDF sang PDFA3b"
+"url": "/vi/net/document-conversion/pdf-to-pdfa3b/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF sang PDFA3b
@@ -21,8 +23,8 @@ Vậy, bạn có một tệp PDF và bạn cần chuyển đổi nó sang địn
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn đã sẵn sàng. Sau đây là những gì bạn cần:
 
-1. Visual Studio: Trước tiên, bạn cần một môi trường mã hóa. Nếu bạn chưa cài đặt Visual Studio, bạn có thể tải xuống từ[địa điểm](https://visualstudio.microsoft.com/).
-2.  Aspose.PDF cho .NET: Bạn sẽ cần phải lấy thư viện Aspose.PDF. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Trước tiên, bạn cần một môi trường mã hóa. Nếu bạn chưa cài đặt Visual Studio, bạn có thể tải xuống từ [địa điểm](https://visualstudio.microsoft.com/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần phải lấy thư viện Aspose.PDF. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# là điều cần thiết. Nếu bạn biết cách tạo ứng dụng bảng điều khiển và làm việc với không gian tên, bạn đã sẵn sàng!
 
 ## Nhập gói
@@ -30,7 +32,7 @@ Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn đã sẵn sàng.
 Để bắt đầu, chúng ta hãy thiết lập dự án và đảm bảo rằng chúng ta có mọi thứ cần thiết.
 
 1. Tạo Ứng dụng Console mới: Mở Visual Studio, tạo Ứng dụng Console mới và đặt tên theo ý bạn.
-2.  Thêm tham chiếu Aspose.PDF: Sau khi bạn tạo dự án của mình, hãy mở Trình quản lý gói NuGet (nhấp chuột phải vào dự án của bạn trong Solution Explorer -> Quản lý gói NuGet) và tìm kiếm`Aspose.PDF`. Nhấp vào cài đặt để thêm vào dự án của bạn.
+2. Thêm tham chiếu Aspose.PDF: Sau khi bạn tạo dự án của mình, hãy mở Trình quản lý gói NuGet (nhấp chuột phải vào dự án của bạn trong Solution Explorer -> Quản lý gói NuGet) và tìm kiếm `Aspose.PDF`. Nhấp vào cài đặt để thêm vào dự án của bạn.
 
 ```csharp
 using System;
@@ -49,7 +51,7 @@ Bây giờ chúng ta đã sắp xếp mọi thứ xong, hãy cùng đi sâu vào
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn nằm. Điều này giống như việc chọn một góc ấm cúng trong nhà bạn để lưu trữ sách. 
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn nằm. Điều này giống như việc chọn một góc ấm cúng trong nhà bạn để lưu trữ sách. 
 
 ### Bước 2: Mở Tài liệu PDF
 
@@ -60,7 +62,7 @@ Tiếp theo, hãy mở tệp PDF mà chúng ta muốn chuyển đổi. Điều n
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Đây,`"input.pdf"` là tên tệp PDF của bạn. Đảm bảo tệp nằm trong thư mục đã chỉ định. Nếu tệp PDF của bạn là phim, đây là lúc tệp bắt đầu chạy!
+Đây, `"input.pdf"` là tên tệp PDF của bạn. Đảm bảo tệp nằm trong thư mục đã chỉ định. Nếu tệp PDF của bạn là phim, đây là thời điểm tệp bắt đầu chạy!
 
 ### Bước 3: Chuyển đổi PDF sang định dạng PDF/A-3B
 
@@ -70,7 +72,7 @@ Bây giờ đến thời điểm kỳ diệu—chuyển đổi PDF sang định 
 pdfDocument.Convert(new MemoryStream(), PdfFormat.PDF_A_3B, ConvertErrorAction.Delete);
 ```
 
- Trong đoạn mã này, chúng tôi đang chuyển đổi tài liệu bằng các phương thức tích hợp của Aspose.`MemoryStream()`giống như một hộp lưu trữ tạm thời cho quá trình chuyển đổi. Khi quá trình chuyển đổi hoàn tất, chúng tôi sẽ không giữ lại lỗi—những lỗi đó sẽ bị xóa!
+Trong đoạn mã này, chúng tôi đang chuyển đổi tài liệu bằng các phương thức tích hợp của Aspose. `MemoryStream()` giống như một hộp lưu trữ tạm thời cho quá trình chuyển đổi. Khi quá trình chuyển đổi hoàn tất, chúng tôi sẽ không giữ lại lỗi—những lỗi đó sẽ bị xóa!
 
 ### Bước 4: Lưu tài liệu đã chuyển đổi
 
@@ -82,7 +84,7 @@ dataDir = dataDir + "PDFToPDFA3b_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Trong dòng này, chúng tôi đang lưu tài liệu đã chuyển đổi dưới dạng`PDFToPDFA3b_out.pdf`. Đường dẫn tệp tại thời điểm này giống như việc đặt cuốn sách trở lại kệ đúng vị trí của nó—dễ tìm thấy sau này!
+Trong dòng này, chúng tôi đang lưu tài liệu đã chuyển đổi dưới dạng `PDFToPDFA3b_out.pdf`. Đường dẫn tệp tại thời điểm này giống như việc đặt cuốn sách trở lại kệ đúng vị trí của nó—dễ tìm thấy sau này!
 
 ### Bước 5: Xác nhận chuyển đổi
 
@@ -92,7 +94,7 @@ Và cuối cùng, hãy tự khen ngợi bản thân! Thật tuyệt khi biết r
 Console.WriteLine("\nPDF file converted to PDF/A-3B format.\nFile saved at " + dataDir);
 ```
 
-Dòng này sẽ cho bạn biết vị trí lưu tệp PDF/A-3B mới tạo của mình—giống như cuối cùng cũng cho bạn biết nơi để nhận quà vậy!
+Dòng này sẽ cho bạn biết vị trí lưu tệp PDF/A-3B mới tạo của mình—giống như cuối cùng bạn cũng biết được nơi để nhận quà cho bạn bè vậy!
 
 ## Phần kết luận
 
@@ -110,13 +112,15 @@ Có, miễn là tệp PDF không bị hỏng hoặc được bảo vệ bằng m
 Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng cũng có bản quyền trả phí để truy cập đầy đủ. Bạn có thể đánh giá khả năng của nó trong giai đoạn dùng thử!
 
 ### Tôi có thể tìm tài liệu về Aspose.PDF ở đâu?
- Tài liệu có sẵn tại[Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/).
+Tài liệu có sẵn tại [Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để nhận được hỗ trợ cho Aspose.PDF?
-Nếu bạn gặp bất kỳ vấn đề hoặc có thắc mắc nào, bạn có thể tìm thấy sự hỗ trợ của cộng đồng tại[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Nếu bạn gặp bất kỳ vấn đề hoặc có thắc mắc nào, bạn có thể tìm thấy sự hỗ trợ của cộng đồng tại [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-text/add-html-using-dom-and-overwrite/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add HTML Using DOM And PDF Overwrite
@@ -159,6 +161,7 @@ You can visit the Aspose support forum [here](https://forum.aspose.com/c/pdf/10)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

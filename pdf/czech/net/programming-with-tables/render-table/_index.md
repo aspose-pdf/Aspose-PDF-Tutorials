@@ -1,36 +1,38 @@
 ---
-title: Vykreslit tabulku v dokumentu PDF
-linktitle: Vykreslit tabulku v dokumentu PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Vytvářejte snadno profesionální soubory PDF vykreslováním tabulek pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného průvodce generováním hlavních dokumentů.
-weight: 170
-url: /cs/net/programming-with-tables/render-table/
+"description": "Vytvářejte profesionální PDF soubory snadno vykreslením tabulek pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného návodu, jak zvládnout generování dokumentů."
+"linktitle": "Vykreslení tabulky v dokumentu PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Vykreslení tabulky v dokumentu PDF"
+"url": "/cs/net/programming-with-tables/render-table/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vykreslit tabulku v dokumentu PDF
+# Vykreslení tabulky v dokumentu PDF
 
 ## Zavedení
 
-Vytváření profesionálně vypadajících PDF pomocí programu se může zdát jako skličující úkol, ale s Aspose.PDF pro .NET se to stane hračkou. Ať už generujete zprávy, faktury nebo jakýkoli jiný typ dokumentu, který vyžaduje tabulková data, Aspose.PDF nabízí nástroje, které potřebujete. V tomto tutoriálu prozkoumáme, jak vykreslit tabulky v dokumentu PDF krok za krokem. Nakonec budete dobře rozumět tomu, jak snadno manipulovat s tabulkami, spravovat vlastnosti stránky a ukládat soubory PDF.
+Vytváření profesionálně vypadajících PDF souborů programově se může zdát jako náročný úkol, ale s Aspose.PDF pro .NET se to stává hračkou. Ať už generujete zprávy, faktury nebo jakýkoli jiný typ dokumentu, který vyžaduje tabulková data, Aspose.PDF nabízí nástroje, které potřebujete. V tomto tutoriálu se krok za krokem podíváme na to, jak vykreslit tabulky v dokumentu PDF. Na konci budete mít důkladné znalosti o tom, jak manipulovat s tabulkami, spravovat vlastnosti stránek a snadno ukládat soubory PDF.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, zde je to, co potřebujete:
+Než se ponoříme do kódu, potřebujeme následující:
 
--  Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Můžete si jej stáhnout[zde](https://visualstudio.microsoft.com/downloads/).
--  Aspose.PDF pro .NET: Knihovnu Aspose.PDF si můžete snadno stáhnout z[Aspose release page](https://releases.aspose.com/pdf/net/).
+- Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Můžete si ho stáhnout [zde](https://visualstudio.microsoft.com/downloads/).
+- Aspose.PDF pro .NET: Knihovnu Aspose.PDF si můžete snadno stáhnout z [Stránka s vydáním Aspose](https://releases.aspose.com/pdf/net/).
 - Základní znalost C#: Pochopení základů C# vám pomůže lépe se orientovat.
 - .NET Framework: V ideálním případě se ujistěte, že pracujete v kompatibilním prostředí .NET.
 
-Jakmile máte tyto předpoklady nastaveny, můžete začít vytvářet dokumenty PDF!
+Jakmile máte tyto předpoklady nastavené, můžete začít vytvářet dokumenty PDF!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Na začátku vašeho souboru C# budete muset importovat potřebné jmenné prostory Aspose.PDF. To vám umožní využívat funkce knihovny v našem projektu.
+Na začátku vašeho C# souboru budete muset importovat potřebné jmenné prostory Aspose.PDF. To vám umožní využívat funkce knihovny v našem projektu.
 
 ```csharp
 using System;
@@ -39,13 +41,13 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
- Ujistěte se, že jste do svého projektu přidali potřebné odkazy na knihovnu Aspose.PDF. Pokud používáte NuGet, můžete jej snadno přidat vyhledáním`Aspose.PDF`.
+Ujistěte se, že jste do projektu přidali potřebné odkazy na knihovnu Aspose.PDF. Pokud používáte NuGet, můžete ji snadno přidat vyhledáním `Aspose.PDF`.
 
-Nyní, když máme vše nastaveno, rozdělíme proces na zvládnutelné kroky pro vykreslení tabulky v dokumentu PDF. Nebojte se; Provedu vás každým krokem s jasnými pokyny!
+Nyní, když máme vše nastavené, pojďme si rozdělit proces vykreslení tabulky v dokumentu PDF na zvládnutelné kroky. Nebojte se, provedu vás každým krokem s jasnými pokyny!
 
-## Krok 1: Nastavte informace o dokumentu a stránce
+## Krok 1: Nastavení informací o dokumentu a stránce
 
-Nejprve musíme vytvořit nový dokument a nakonfigurovat nastavení jeho stránky. Postup:
+Nejdříve musíme vytvořit nový dokument a nakonfigurovat jeho nastavení stránky. Zde je návod, jak to udělat:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -62,32 +64,32 @@ pageInfo.IsLandscape = true;
 ```
 
 Vysvětlení: 
-- Začneme tím, že definujeme, kam bude náš dokument uložen (`dataDir`). 
--  Poté vytvoříme novou instanci`Document` třída. 
-- Okraje stránky nakonfigurujeme tak, aby se kolem našeho stolu vytvořil prostor pro dýchání.
-- Nakonec dokumentu nastavíme orientaci na šířku, což pomáhá při zobrazování širších tabulek.
+- Začneme definováním místa, kam bude náš dokument uložen (`dataDir`). 
+- Pak vytvoříme novou instanci `Document` třída. 
+- Okraje stránky upravíme tak, abychom kolem tabulky vytvořili volný prostor.
+- Nakonec nastavíme orientaci dokumentu na šířku, což pomáhá při zobrazování širších tabulek.
 
 ## Krok 2: Vytvořte první tabulku
 
-Dále vytvoříme naši první tabulku a naplníme ji ukázkovými daty:
+Dále si vytvořme naši první tabulku a naplňme ji vzorovými daty:
 
 ```csharp
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-table.ColumnWidths = "50 100"; // Definujte šířky sloupců
+table.ColumnWidths = "50 100"; // Definování šířky sloupců
 ```
 
- Vysvětlení: Zde vytvoříme instanci`Table` třídy a nastavte šířky sloupců. První sloupec bude mít šířku 50 jednotek a druhý sloupec bude mít šířku 100 jednotek.
+Vysvětlení: Zde vytváříme instanci `Table` třídu a nastavte šířku sloupců. První sloupec bude mít šířku 50 jednotek a druhý sloupec bude mít šířku 100 jednotek.
 
-## Krok 3: Vyplňte tabulku řádky
+## Krok 3: Naplnění tabulky řádky
 
-Nyní přidáme řádky do naší tabulky ve smyčce:
+Nyní si do tabulky v cyklu přidáme řádky:
 
 ```csharp
 Page curPage = doc.Pages.Add(); // Přidání nové stránky
 for (int i = 1; i <= 120; i++)
 {
     Aspose.Pdf.Row row = table.Rows.Add();
-    row.FixedRowHeight = 15; // Nastavte pevnou výšku řádků
+    row.FixedRowHeight = 15; // Nastavení pevné výšky řádků
     
     Aspose.Pdf.Cell cell1 = row.Cells.Add();
     cell1.Paragraphs.Add(new TextFragment("Content 1"));
@@ -99,23 +101,23 @@ for (int i = 1; i <= 120; i++)
 
 Vysvětlení: 
 - Zde vytvoříme novou stránku pro přidání naší tabulky.
--  Používáme a`for` smyčka přidat 120 řádků do naší tabulky. Každý řádek má pevnou výšku 15 jednotek.
+- Používáme `for` cyklus pro přidání 120 řádků do naší tabulky. Každý řádek má pevnou výšku 15 jednotek.
 - Uvnitř každého řádku přidáme dvě buňky a naplníme je textem.
 
-## Krok 4: Přidejte na stránku první tabulku
+## Krok 4: Přidání první tabulky na stránku
 
-Jakmile tabulku naplníme, přidáme ji na aktuální stránku:
+Jakmile naplníme tabulku, přidáme ji na aktuální stránku:
 
 ```csharp
 Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs;
 paragraphs.Add(table);
 ```
 
-Vysvětlení: Tento krok jednoduše přidá tabulku, kterou jsme vytvořili, do odstavců aktuální stránky, čímž se tabulka zviditelní v dokumentu PDF.
+Vysvětlení: Tento krok jednoduše přidá tabulku, kterou jsme vytvořili, do odstavců aktuální stránky, čímž se tabulka zobrazí v dokumentu PDF.
 
 ## Krok 5: Vytvořte druhou tabulku
 
-Nyní vytvoříme druhou tabulku s jiným obsahem a přidáme ji na novou stránku:
+Nyní si vytvořme druhou tabulku s jiným obsahem a přidejme ji na novou stránku:
 
 ```csharp
 Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
@@ -129,59 +131,61 @@ for (int i = 1; i <= 10; i++)
     Aspose.Pdf.Cell cell2 = row.Cells.Add();
     cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG"));
 }
-table1.IsInNewPage = true; // Nastavení druhé tabulky, aby se objevila na nové stránce
+table1.IsInNewPage = true; // Nastavení zobrazení druhé tabulky na nové stránce
 paragraphs.Add(table1);
 ```
 
 Vysvětlení: 
-- Tento fragment kódu vytvoří novou tabulku se dvěma sloupci, oba o šířce 100 jednotek.
--  A`for` smyčka přidá 10 řádků s ukázkovým obsahem.
--  Nastavením`table1.IsInNewPage` Aby to bylo pravda, zajišťujeme, aby se tato tabulka objevila na nové stránce, aby byly věci uspořádané a přehledné.
+- Tento úryvek kódu vytvoří novou tabulku se dvěma sloupci, oba o šířce 100 jednotek.
+- A `for` Smyčka přidá 10 řádků s ukázkovým obsahem.
+- Nastavením `table1.IsInNewPage` Pokud je nastaveno na hodnotu true, zajistíme, aby se tato tabulka zobrazovala na nové stránce, čímž se zachová přehlednost a přehlednost.
 
 ## Krok 6: Uložte dokument
 
-Nyní, když jsou naše tabulky připraveny, uložme náš dokument:
+Nyní, když jsou naše tabulky připravené, uložme si náš dokument:
 
 ```csharp
 dataDir = dataDir + "IsNewPageProperty_Test_out.pdf";
 doc.Save(dataDir);
 ```
 
- Vysvětlení: Zadáme název souboru a uložíme dokument do definovaného adresáře. Po spuštění tohoto kódu se zobrazí soubor PDF s názvem`IsNewPageProperty_Test_out.pdf` bude vytvořen ve vámi určeném místě.
+Vysvětlení: Zadáme název souboru a uložíme dokument do definovaného adresáře. Po spuštění tohoto kódu se vytvoří soubor PDF s názvem `IsNewPageProperty_Test_out.pdf` bude vytvořen ve vámi zadaném místě.
 
-## Krok 7: Potvrzující zpráva
+## Krok 7: Potvrzovací zpráva
 
-Nakonec, aby uživatel věděl, že vše fungovalo hladce, můžeme přidat přátelskou konzolovou zprávu:
+Nakonec, abychom uživatele informovali, že vše proběhlo hladce, můžeme přidat přátelskou konzolovou zprávu:
 
 ```csharp
 Console.WriteLine("\nTable rendered successfully on a page.\nFile saved at " + dataDir);
 ```
 
-Vysvětlení: Toto je jednoduchý způsob, jak potvrdit, že operace byla úspěšná a kde uživatel může najít svůj nový soubor PDF.
+Vysvětlení: Toto je jednoduchý způsob, jak potvrdit, že operace proběhla úspěšně, a zjistit, kde uživatel najde svůj nový soubor PDF.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste vykreslili tabulky v dokumentu PDF pomocí Aspose.PDF for .NET. Pomocí několika řádků kódu můžete zpracovávat a prezentovat velké množství dat v organizovaném formátu, díky čemuž budou vaše dokumenty informativní a vizuálně přitažlivé. Ať už pracujete na inventárních seznamech, finančních výkazech nebo vzdělávacích dokumentech, tabulky jsou vynikajícím způsobem, jak sdělit komplexní informace na první pohled.
+A tady to máte! Úspěšně jste vykreslili tabulky v PDF dokumentu pomocí Aspose.PDF pro .NET. S pouhými několika řádky kódu můžete zpracovávat a prezentovat velké množství dat v uspořádaném formátu, díky čemuž budou vaše dokumenty informativní i vizuálně přitažlivé. Ať už pracujete na inventárních seznamech, finančních zprávách nebo vzdělávacích dokumentech, tabulky jsou vynikajícím způsobem, jak na první pohled sdělit složité informace.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu upravit vzhled tabulek v Aspose.PDF?  
-Absolutně! Můžete upravit barvy, okraje, styly písma a další vlastnosti, abyste zlepšili vzhled svých tabulek.
+### Mohu si přizpůsobit vzhled tabulek v souboru Aspose.PDF?  
+Rozhodně! Můžete upravit barvy, ohraničení, styly písma a další vlastnosti pro vylepšení vzhledu tabulek.
 
 ### Je Aspose.PDF zdarma k použití?  
- Aspose.PDF nabízí bezplatnou zkušební verzi, ale pro komerční použití je nutný nákup. Můžete zkontrolovat cenu[zde](https://purchase.aspose.com/buy).
+Aspose.PDF nabízí bezplatnou zkušební verzi, ale pro komerční použití je nutný nákup. Ceny si můžete prohlédnout [zde](https://purchase.aspose.com/buy).
 
-### Jak mohu získat podporu pro problémy Aspose.PDF?  
- Pomoc můžete vyhledat na fóru podpory Aspose[zde](https://forum.aspose.com/c/pdf/10).
+### Jak mohu získat podporu pro problémy s Aspose.PDF?  
+Pomoc můžete vyhledat na fóru podpory Aspose. [zde](https://forum.aspose.com/c/pdf/10).
 
 ### Existují nějaká omezení pro bezplatnou zkušební verzi?  
- Ano, zkušební verze může mít určitá omezení, jako je vodoznak na generovaných dokumentech. Pro plnou funkčnost zvažte získání dočasné licence[zde](https://purchase.aspose.com/temporary-license/).
+Ano, zkušební verze může mít určitá omezení, například vodoznaky na generovaných dokumentech. Pro plnou funkčnost zvažte pořízení dočasné licence. [zde](https://purchase.aspose.com/temporary-license/).
 
 ### Kde najdu více informací o funkcích Aspose.PDF?  
- Můžete prozkoumat kompletní dostupnou dokumentaci[zde](https://reference.aspose.com/pdf/net/).
+Můžete si prohlédnout dostupnou komplexní dokumentaci [zde](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

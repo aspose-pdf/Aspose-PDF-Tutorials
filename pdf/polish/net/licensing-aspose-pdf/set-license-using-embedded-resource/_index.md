@@ -1,14 +1,16 @@
 ---
-title: Ustaw licencję za pomocą osadzonego zasobu
-linktitle: Ustaw licencję za pomocą osadzonego zasobu
-second_title: Aspose.PDF dla .NET API Reference
-description: Odblokuj moc Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi. Naucz się ustawiać licencje, manipulować plikami PDF i nie tylko.
-weight: 50
-url: /pl/net/licensing-aspose-pdf/set-license-using-embedded-resource/
+"description": "Odblokuj moc Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi. Naucz się ustawiać licencje, manipulować plikami PDF i nie tylko."
+"linktitle": "Ustaw licencję za pomocą osadzonego zasobu"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ustaw licencję za pomocą osadzonego zasobu"
+"url": "/pl/net/licensing-aspose-pdf/set-license-using-embedded-resource/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw licencję za pomocą osadzonego zasobu
@@ -23,14 +25,14 @@ Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To IDE, którego będziemy używać w tym samouczku.
 2. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework. Aspose.PDF obsługuje różne wersje, więc sprawdź dokumentację pod kątem zgodności.
-3.  Biblioteka Aspose.PDF: Bibliotekę można pobrać ze strony[Strona wydań Aspose PDF dla .NET](https://releases.aspose.com/pdf/net/). Możesz również zdecydować się na bezpłatny okres próbny, jeśli chcesz go najpierw przetestować.
+3. Biblioteka Aspose.PDF: Bibliotekę można pobrać ze strony [Strona wydań Aspose PDF dla .NET](https://releases.aspose.com/pdf/net/). Możesz również zdecydować się na bezpłatny okres próbny, jeśli chcesz go najpierw przetestować.
 4. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć przykłady.
 
 ## Importuj pakiety
 
 Gdy już wszystko skonfigurujesz, następnym krokiem jest zaimportowanie niezbędnych pakietów. Oto jak możesz to zrobić:
 
-1. Otwórz projekt programu Visual Studio.
+1. Otwórz projekt Visual Studio.
 2. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań i wybierz opcję „Zarządzaj pakietami NuGet”.
 3. Wyszukaj „Aspose.PDF” i zainstaluj pakiet.
 
@@ -52,18 +54,18 @@ Zanim ustawisz licencję, musisz określić ścieżkę do katalogu dokumentów. 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której chcesz przechowywać pliki PDF. Ten krok jest kluczowy, ponieważ biblioteka musi wiedzieć, gdzie szukać pliku licencji.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której chcesz przechowywać pliki PDF. Ten krok jest kluczowy, ponieważ biblioteka musi wiedzieć, gdzie szukać pliku licencji.
 
 ## Krok 2: Zainicjuj obiekt licencji
 
- Następnie musisz utworzyć instancję`License` Klasa dostarczona przez Aspose.PDF. Ten obiekt zostanie użyty do ustawienia licencji.
+Następnie musisz utworzyć instancję `License` Klasa dostarczona przez Aspose.PDF. Ten obiekt zostanie użyty do ustawienia licencji.
 
 ```csharp
 // Zainicjuj obiekt licencji
 Aspose.Pdf.License license = new Aspose.Pdf.License();
 ```
 
-Ta linia kodu inicjuje obiekt licencji, przygotowując go do następnego kroku, w którym ustawimy licencję.
+Ta linijka kodu inicjuje obiekt licencji, przygotowując go do następnego kroku, w którym ustawimy licencję.
 
 ## Krok 3: Ustaw licencję
 
@@ -76,7 +78,7 @@ Teraz nadchodzi ekscytująca część — ustawianie licencji! Tutaj mówisz Asp
 // licencja.SetLicense("MergedAPI.Aspose.Total.lic");
 ```
 
- Pamiętaj o odkomentowaniu wiersza i zastąpieniu go`"MergedAPI.Aspose.Total.lic"` z rzeczywistą nazwą pliku licencji. Ten krok jest niezbędny do odblokowania pełnego potencjału biblioteki Aspose.PDF.
+Pamiętaj o odkomentowaniu wiersza i zastąpieniu go `"MergedAPI.Aspose.Total.lic"` z rzeczywistą nazwą pliku licencji. Ten krok jest niezbędny do odblokowania pełnego potencjału biblioteki Aspose.PDF.
 
 ## Krok 4: Potwierdź ustawienia licencji
 
@@ -100,19 +102,21 @@ Gratulacje! Właśnie nauczyłeś się, jak skonfigurować i używać Aspose.PDF
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, edycję i manipulowanie dokumentami PDF.
 
 ### Jak ustawić licencję dla Aspose.PDF?
- Możesz ustawić licencję, tworząc`License` obiekt i korzystanie z niego`SetLicense` metodę ze ścieżką do pliku licencji.
+Możesz ustawić licencję, tworząc `License` obiekt i korzystanie z niego `SetLicense` metodę ze ścieżką do pliku licencji.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
 Tak, Aspose oferuje bezpłatną wersję próbną, dzięki której możesz przetestować bibliotekę przed zakupem.
 
 ### Gdzie mogę znaleźć dokumentację dla Aspose.PDF?
- Dokumentację można znaleźć[Tutaj](https://reference.aspose.com/pdf/net/).
+Dokumentację można znaleźć [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Co powinienem zrobić, jeśli napotkam problemy?
- Jeśli napotkasz jakiekolwiek problemy, możesz szukać pomocy na[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+Jeśli napotkasz jakiekolwiek problemy, możesz szukać pomocy na [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

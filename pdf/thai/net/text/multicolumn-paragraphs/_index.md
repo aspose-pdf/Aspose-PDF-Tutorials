@@ -1,47 +1,52 @@
 ---
-title: ข้อความหลายคอลัมน์ใน PDF โดยใช้ Aspose.PDF สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการสกัดและปรับปรุงข้อความหลายคอลัมน์ใน PDF โดยใช้ Aspose.PDF สําหรับ .NET คู่มือก้าวต่อก้าวที่มีตัวอย่างโค้ด  
-keywords: [Aspose.PDF for .NET, PDF multi-column paragraphs, extract paragraphs from PDF, .NET PDF processing, PDF document manipulation, ParagraphAbsorber]
-url: /th/net/text/multicolumn-paragraphs/
+"description": "เรียนรู้วิธีการแยกและแก้ไขย่อหน้าที่มีหลายคอลัมน์ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด"
+"title": "ย่อหน้าหลายคอลัมน์ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET"
+"url": "/th/net/text/multicolumn-paragraphs/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ข้อความหลายคอลัมน์ใน PDF โดยใช้ Aspose.PDF
+# ย่อหน้าหลายคอลัมน์ใน PDF โดยใช้ Aspose.PDF
 
-Aspose.PDF สําหรับ .NET ให้ API ที่มีพลังในการทํางานกับเอกสาร PDF รวมถึงการสกัดและแก้ไขข้อความหลายคอลัมน์ ตัวอย่างนี้แสดงวิธีการลาก PDF, สกัดบทความ และเปิดการจัดรูปข้อความหลายคอลัมน์เพื่อสังเกตการเปลี่ยนแปลง ด้วย Aspose.PDF คุณสามารถนํามาใช้งานโครงสร้างบทความในไฟล์ PDF ได้อย่างมีประสิทธิภาพ ทําให้การจัดรูปเอกสารและการสกัดเนื้อหาได้เรียบร้อย  
+Aspose.PDF สำหรับ .NET มี API ที่มีประสิทธิภาพสำหรับการทำงานกับเอกสาร PDF รวมถึงการแยกและแก้ไขย่อหน้าที่มีหลายคอลัมน์ ตัวอย่างนี้สาธิตวิธีการโหลด PDF การแยกย่อหน้า และเปิดใช้งานการจัดรูปแบบย่อหน้าที่มีหลายคอลัมน์เพื่อสังเกตการเปลี่ยนแปลง ด้วย Aspose.PDF คุณสามารถจัดการโครงสร้างย่อหน้าในไฟล์ PDF ได้อย่างมีประสิทธิภาพ ทำให้การจัดรูปแบบเอกสารและการแยกเนื้อหาเป็นไปอย่างราบรื่น  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/multicolumn-paragraphs" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง:  
-เพื่อใช้ Aspose.PDF สําหรับ .NET ในโครงการของคุณ, ทําตามขั้นตอนต่อไปนี้:  
 
-1. อุปกรณ์ติดตั้งผ่าน NuGet:  
-   เปิดคอนโซล Package Manager ใน Visual Studio และทํางาน:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## คำแนะนำในการติดตั้ง:  
+หากต้องการใช้ Aspose.PDF สำหรับ .NET ในโครงการของคุณ ให้ทำตามขั้นตอนเหล่านี้:  
+
+1. ติดตั้งผ่าน NuGet:  
+   เปิดคอนโซลตัวจัดการแพ็คเกจใน Visual Studio และเรียกใช้:  
    ```powershell
    Install-Package Aspose.PDF
    ```  
 
 
-2. การขอใบอนุญาต (ไม่จําเป็น แต่แนะนํา)  
-   * ซื้อใบอนุญาตจาก[การซื้อ](https://purchase.aspose.com/buy)หรือได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)\- ไม่  
-   * ใช้ใบอนุญาตในรหัสของคุณ:  
+2. สมัครใบอนุญาต (ทางเลือกแต่แนะนำ):  
+   - ซื้อใบอนุญาตจาก [การซื้อ Aspose](https://purchase.aspose.com/buy) หรือรับ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).  
+   - ใช้ใบอนุญาตในโค้ดของคุณ:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.PDF.lic");
      ```  
-## สรรพทรัพยากร
-[Aspose.PDF เอกสาร](https://docs.aspose.com/pdf/net/)  
-[Aspose.PDF สําหรับ .NET](https://reference.aspose.com/pdf/net/)  
+## ทรัพยากร
+[เอกสาร Aspose.PDF](https://docs.aspose.com/pdf/net/)  
+[Aspose.PDF สำหรับ .NET](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

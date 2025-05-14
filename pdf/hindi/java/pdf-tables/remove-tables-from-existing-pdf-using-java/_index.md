@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके मौजूदा पीडीएफ से टेबल्स हटाएँ
-linktitle: जावा का उपयोग करके मौजूदा पीडीएफ से टेबल्स हटाएँ
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: जानें कि Aspose.PDF for Java के साथ Java का उपयोग करके PDF से टेबल को आसानी से कैसे हटाया जाए। टेबल को कुशलतापूर्वक हटाने के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 14
-url: /hi/java/pdf-tables/remove-tables-from-existing-pdf-using-java/
+"description": "जानें कि Aspose.PDF for Java के साथ Java का उपयोग करके PDF से टेबल को आसानी से कैसे हटाया जाए। टेबल को कुशलतापूर्वक हटाने के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा का उपयोग करके मौजूदा पीडीएफ से टेबल्स हटाएँ"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके मौजूदा पीडीएफ से टेबल्स हटाएँ"
+"url": "/hi/java/pdf-tables/remove-tables-from-existing-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके मौजूदा पीडीएफ से टेबल्स हटाएँ
@@ -23,7 +25,7 @@ url: /hi/java/pdf-tables/remove-tables-from-existing-pdf-using-java/
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.PDF for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ## चरण 1: अपना जावा प्रोजेक्ट सेट अप करना
 
@@ -94,10 +96,12 @@ Aspose.PDF for Java PDF के साथ काम करने के लिए
 
 ### मैं Java के लिए Aspose.PDF के लिए अधिक संसाधन और दस्तावेज़ कहां से प्राप्त कर सकता हूं?
 
- आप Java के लिए Aspose.PDF के लिए व्यापक दस्तावेज़ और संसाधन यहां पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/java/).
+आप Java के लिए Aspose.PDF के लिए व्यापक दस्तावेज़ और संसाधन यहां पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

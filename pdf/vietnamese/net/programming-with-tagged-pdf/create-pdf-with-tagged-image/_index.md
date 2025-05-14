@@ -1,14 +1,16 @@
 ---
-title: Tạo PDF với hình ảnh được gắn thẻ
-linktitle: Tạo PDF với hình ảnh được gắn thẻ
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Học cách tạo PDF có gắn thẻ với hình ảnh bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo tài liệu dễ truy cập và chuyên nghiệp.
-weight: 40
-url: /vi/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/
+"description": "Học cách tạo PDF có gắn thẻ với hình ảnh bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo tài liệu dễ truy cập và chuyên nghiệp."
+"linktitle": "Tạo PDF với hình ảnh được gắn thẻ"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo PDF với hình ảnh được gắn thẻ"
+"url": "/vi/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo PDF với hình ảnh được gắn thẻ
@@ -21,7 +23,7 @@ Tạo PDF có thể là một nhiệm vụ phức tạp, nhưng không nhất th
 
 Trước khi bắt đầu tạo tệp PDF có gắn thẻ hình ảnh, bạn cần chuẩn bị một số thứ sau:
 
-1. Aspose.PDF cho .NET: Thư viện mạnh mẽ này rất cần thiết để xử lý tài liệu PDF trong các ứng dụng .NET. Bạn có thể tìm thấy thư viện tại đây:[Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Thư viện mạnh mẽ này rất cần thiết để xử lý tài liệu PDF trong các ứng dụng .NET. Bạn có thể tìm thấy thư viện tại đây: [Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 2. .NET Framework hoặc .NET Core: Đảm bảo rằng bạn có phiên bản .NET Framework hoặc .NET Core tương thích trên máy của mình. Thư viện này hỗ trợ cả hai.
 3. Tệp hình ảnh: Bạn sẽ cần một tệp hình ảnh để nhúng vào PDF của mình. Trong ví dụ của chúng tôi, chúng tôi sẽ sử dụng 'aspose-logo.png'. Đảm bảo rằng bạn đã chuẩn bị sẵn tệp này trong thư mục tài liệu của mình. 
 
@@ -34,7 +36,7 @@ Bằng cách đảm bảo bạn đã đáp ứng được những điều kiện
 ### Tạo một dự án mới
 
 - Mở IDE bạn thích (ví dụ: Visual Studio).
-- Tạo một dự án Console Application mới. Tại sao lại là Console Application? Nó đơn giản và hoàn hảo cho các hướng dẫn!
+- Tạo một dự án Console Application mới. Tại sao lại là Console Application? Nó đơn giản và hoàn hảo cho hướng dẫn!
 
 ### Thêm tham chiếu Aspose.PDF
 
@@ -44,7 +46,7 @@ Bằng cách đảm bảo bạn đã đáp ứng được những điều kiện
 
 ### Nhập các không gian tên bắt buộc
 
- Ở đầu tệp chương trình chính của bạn (như`Program.cs`), nhập các không gian tên sau:
+Ở đầu tệp chương trình chính của bạn (như `Program.cs`), nhập các không gian tên sau:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -55,7 +57,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Bằng cách nhập các gói này, bạn đang yêu cầu ứng dụng của mình đưa vào các chức năng Aspose.PDF mà chúng ta sẽ sử dụng.
+Bằng cách nhập các gói này, bạn đang yêu cầu ứng dụng của mình đưa vào các chức năng của Aspose.PDF mà chúng ta sẽ sử dụng.
 
 Bây giờ chúng ta đã thiết lập mọi thứ, hãy cùng tạo tệp PDF có gắn thẻ hình ảnh theo từng bước.
 
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Đặt đường dẫn đến th�
 Document document = new Document();
 ```
 
--  Chuyện gì đang xảy ra ở đây vậy? Chúng tôi đang tạo ra một cái mới`Document` đối tượng đại diện cho PDF của chúng tôi. Hãy nghĩ về nó như một bức tranh vải trắng đang chờ đợi những kiệt tác của bạn!
+- Chuyện gì đang xảy ra ở đây vậy? Chúng tôi đang tạo ra một cái mới `Document` đối tượng đại diện cho PDF của chúng tôi. Hãy nghĩ về nó như một bức tranh vải trắng đang chờ đợi những kiệt tác của bạn!
 
 ## Bước 2: Thiết lập nội dung được gắn thẻ
 
@@ -100,7 +102,7 @@ IllustrationElement figure1 = taggedContent.CreateFigureElement();
 taggedContent.RootElement.AppendChild(figure1);
 ```
 
--  Chỉ như thế thôi sao?! Đúng thế!`CreateFigureElement` phương pháp này cho phép chúng ta tạo một hình minh họa mới và chúng ta sẽ thêm nó vào phần tử gốc của nội dung được gắn thẻ.
+- Chỉ như thế thôi sao?! Đúng thế! `CreateFigureElement` phương pháp này cho phép chúng ta tạo một hình minh họa mới và chúng ta sẽ thêm nó vào phần tử gốc của nội dung được gắn thẻ.
 
 ## Bước 5: Thiết lập Thuộc tính Hình ảnh
 
@@ -144,19 +146,21 @@ Tạo PDF có hình ảnh được gắn thẻ bằng Aspose.PDF cho .NET thật
 PDF được gắn thẻ được thiết kế để có thể truy cập được. Nó bao gồm siêu dữ liệu cho phép các công nghệ hỗ trợ đọc và điều hướng nó một cách chính xác.
 
 ### Tôi có thể thêm nhiều hình ảnh bằng Aspose.PDF không?
- Chắc chắn rồi! Chỉ cần lặp lại các bước để tạo mới`IllustrationElement` trường hợp trong tài liệu của bạn.
+Chắc chắn rồi! Chỉ cần lặp lại các bước để tạo mới `IllustrationElement` trường hợp trong tài liệu của bạn.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF ở đâu?
- Kiểm tra tài liệu[đây](https://reference.aspose.com/pdf/net/).
+Kiểm tra tài liệu [đây](https://reference.aspose.com/pdf/net/).
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Có! Bạn có thể truy cập dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có! Bạn có thể truy cập dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.PDF như thế nào?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Ukryty blok tekstowy w pliku PDF
-linktitle: Ukryty blok tekstowy w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Twórz interaktywne pliki PDF z ukrytymi blokami tekstu za pomocą Aspose.PDF dla .NET. Ten samouczek zawiera przewodnik krok po kroku, jak ulepszyć swoje dokumenty.
-weight: 230
-url: /pl/net/programming-with-text/hidden-text-block/
+"description": "Twórz interaktywne pliki PDF z ukrytymi blokami tekstu za pomocą Aspose.PDF dla .NET. Ten samouczek zawiera przewodnik krok po kroku, jak ulepszyć swoje dokumenty."
+"linktitle": "Ukryty blok tekstowy w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ukryty blok tekstowy w pliku PDF"
+"url": "/pl/net/programming-with-text/hidden-text-block/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ukryty blok tekstowy w pliku PDF
 
 ## Wstęp
 
-W dzisiejszym cyfrowym krajobrazie pliki PDF pozostają formatem docelowym dla wszystkiego, od umów po materiały edukacyjne. Ich wszechstronność i niezawodność są niezrównane. Ale co, jeśli możesz dodać dodatkową warstwę interaktywności do swoich plików PDF? Zanurzamy się w świecie ukrytych bloków tekstowych z Aspose.PDF dla .NET, potężnym narzędziem, które ułatwia tworzenie angażujących i przyjaznych dla użytkownika dokumentów. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek jest przeznaczony dla Ciebie, pełen instrukcji krok po kroku i wskazówek, aby odblokować pełny potencjał Twoich plików PDF!
+dzisiejszym cyfrowym krajobrazie pliki PDF pozostają formatem do wszystkiego, od umów po materiały edukacyjne. Ich wszechstronność i niezawodność są niezrównane. Ale co, jeśli możesz dodać dodatkową warstwę interaktywności do swoich plików PDF? Zanurzamy się w świecie ukrytych bloków tekstowych z Aspose.PDF dla .NET, potężnym narzędziem, które ułatwia tworzenie angażujących i przyjaznych dla użytkownika dokumentów. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek jest przeznaczony dla Ciebie, pełen instrukcji krok po kroku i wskazówek, aby odblokować pełny potencjał Twoich plików PDF!
 
 ## Wymagania wstępne
 
 Zanim zakasamy rękawy i zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto, czego będziesz potrzebować:
 
-1. Aspose.PDF dla .NET: Ta biblioteka jest niezbędna do pracy z plikami PDF w aplikacjach .NET. Możesz ją sprawdzić, pobrać lub nawet uzyskać bezpłatną wersję próbną z[Dokumentacja PDF Aspose](https://reference.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Ta biblioteka jest niezbędna do pracy z plikami PDF w aplikacjach .NET. Możesz ją sprawdzić, pobrać lub nawet uzyskać bezpłatną wersję próbną z [Dokumentacja PDF Aspose](https://reference.aspose.com/pdf/net/).
 2. .NET Framework: Upewnij się, że masz zainstalowany pakiet .NET Framework, ponieważ jest on niezbędny do uruchomienia biblioteki Aspose.PDF.
 3. Środowisko programistyczne: Edytor kodu lub zintegrowane środowisko programistyczne (IDE), np. Visual Studio, sprawi, że kodowanie stanie się dziecinnie proste. 
 4. Podstawowa wiedza o języku C#: Ponieważ będziemy programować w języku C#, podstawowa znajomość tego języka pomoże Ci łatwiej zrozumieć omawiane koncepcje.
 5. Pasja do nauki: Na koniec, ale nie mniej ważne, przynieś swój entuzjazm! Dzisiaj nauczymy się czegoś niesamowitego.
 
-Gdy już spełnisz te wymagania, będziesz gotowy do tworzenia interaktywnych ukrytych bloków tekstowych w plikach PDF!
+Gdy już spełnisz te wymagania wstępne, będziesz gotowy do tworzenia interaktywnych ukrytych bloków tekstowych w plikach PDF!
 
 ## Importuj pakiety
 
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outputFile = dataDir + "TextBlock_HideShow_MouseOverOut_out.pdf";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie chcesz utworzyć plik PDF.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie chcesz utworzyć plik PDF.
 
 ## Krok 2: Utwórz przykładowy dokument
 
@@ -94,7 +96,7 @@ Ten wiersz ładuje właśnie utworzony dokument, dzięki czemu możemy wprowadzi
 
 ## Krok 4: Utwórz TextAbsorber, aby znaleźć frazy
 
- Następnie chcemy zidentyfikować fragment tekstu, z którym będziemy pracować. To tutaj`TextFragmentAbsorber` wchodzi do gry:
+Następnie chcemy zidentyfikować fragment tekstu, z którym będziemy pracować. To tutaj `TextFragmentAbsorber` wchodzi do gry:
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber("Move the mouse cursor here to display floating text");
@@ -177,7 +179,7 @@ Dzięki tej akcji Twój plik PDF będzie teraz gotowy i interaktywny, dając uż
 
 ## Wniosek
 
-I masz to! Postępując zgodnie z tymi krokami, udało Ci się utworzyć ukryty blok tekstowy w pliku PDF przy użyciu Aspose.PDF dla .NET. Ta prosta, ale potężna funkcja może znacznie poprawić interakcję użytkownika w Twoich dokumentach. Niezależnie od tego, czy tworzysz materiały edukacyjne, czy zasoby dla klientów, możliwość ukrywania i wyświetlania informacji po najechaniu kursorem zapewnia dopracowany, nowoczesny akcent. 
+I masz to! Postępując zgodnie z tymi krokami, udało Ci się utworzyć ukryty blok tekstowy w pliku PDF przy użyciu Aspose.PDF dla .NET. Ta prosta, ale potężna funkcja może znacznie poprawić interakcję użytkownika z dokumentami. Niezależnie od tego, czy tworzysz materiały edukacyjne, czy zasoby dla klientów, możliwość ukrywania i wyświetlania informacji po najechaniu kursorem zapewnia dopracowany, nowoczesny akcent. 
 
 ## Najczęściej zadawane pytania
 
@@ -185,19 +187,21 @@ I masz to! Postępując zgodnie z tymi krokami, udało Ci się utworzyć ukryty 
 Aspose.PDF dla platformy .NET to rozbudowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów PDF w aplikacjach .NET.
 
 ### Jak zainstalować Aspose.PDF?  
-Możesz zainstalować go za pomocą NuGet Package Manager w Visual Studio. Wystarczy użyć polecenia:`Install-Package Aspose.PDF`.
+Możesz zainstalować go za pomocą NuGet Package Manager w Visual Studio. Wystarczy użyć polecenia: `Install-Package Aspose.PDF`.
 
 ### Czy mogę tworzyć inne elementy interaktywne w plikach PDF?  
 Tak, poza ukrytymi blokami tekstu możesz dodawać przyciski, hiperłącza, adnotacje i wiele więcej, korzystając z Aspose.PDF.
 
 ### Czy jest dostępna bezpłatna wersja próbna?  
- Oczywiście! Możesz otrzymać bezpłatną wersję próbną od[Strona wydań Aspose](https://releases.aspose.com/).
+Oczywiście! Możesz otrzymać bezpłatną wersję próbną od [Strona wydań Aspose](https://releases.aspose.com/).
 
 ### A co jeśli będę potrzebował pomocy z plikiem Aspose.PDF?  
- Możesz swobodnie szukać wsparcia na[Forum Aspose](https://forum.aspose.com/c/pdf/10) w przypadku jakichkolwiek pytań lub problemów, które możesz napotkać.
+Możesz swobodnie szukać wsparcia na [Forum Aspose](https://forum.aspose.com/c/pdf/10) w przypadku jakichkolwiek pytań lub problemów, które możesz napotkać.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

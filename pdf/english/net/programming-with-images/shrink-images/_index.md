@@ -8,7 +8,9 @@ url: /net/programming-with-images/shrink-images/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Shrink Images In PDF File
@@ -163,6 +165,7 @@ You can find extensive resources on the [Aspose PDF documentation page](https://
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

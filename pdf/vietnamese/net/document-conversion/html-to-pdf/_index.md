@@ -1,14 +1,16 @@
 ---
-title: HTML sang PDF
-linktitle: HTML sang PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi HTML sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này.
-weight: 50
-url: /vi/net/document-conversion/html-to-pdf/
+"description": "Tìm hiểu cách chuyển đổi HTML sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "HTML sang PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "HTML sang PDF"
+"url": "/vi/net/document-conversion/html-to-pdf/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML sang PDF
@@ -23,7 +25,7 @@ Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển của chúng tôi.
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework. Aspose.PDF hỗ trợ nhiều phiên bản khác nhau, vì vậy hãy kiểm tra khả năng tương thích với dự án của bạn.
-3. Thư viện Aspose.PDF: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+3. Thư viện Aspose.PDF: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -40,26 +42,26 @@ Bây giờ chúng ta đã thiết lập xong mọi thứ, hãy chia nhỏ quá t
 
 ## Bước 1: Thiết lập thư mục dự án của bạn
 
-Trước khi viết bất kỳ mã nào, bạn cần thiết lập thư mục dự án của mình. Đây là nơi bạn sẽ lưu trữ các tệp HTML và PDF đầu ra.
+Trước khi viết bất kỳ mã nào, bạn cần thiết lập thư mục dự án của mình. Đây là nơi bạn sẽ lưu trữ các tệp HTML và tệp PDF đầu ra.
 
--  Tạo một thư mục trên máy tính của bạn, nơi bạn sẽ lưu trữ các tệp HTML của mình. Ví dụ, bạn có thể đặt tên cho nó`Documents`.
--  Đặt tệp HTML của bạn (ví dụ:`HTMLToPDF.html`) trong thư mục này.
+- Tạo một thư mục trên máy tính của bạn, nơi bạn sẽ lưu trữ các tệp HTML của mình. Ví dụ, bạn có thể đặt tên cho nó `Documents`.
+- Đặt tệp HTML của bạn (ví dụ: `HTMLToPDF.html`) trong thư mục này.
 
 Bây giờ, hãy viết mã để thực hiện chuyển đổi. Mở tệp C# chính của bạn và làm theo các bước sau:
 
 ### Bước 2: Xác định thư mục dữ liệu
 
-Đầu tiên, bạn cần chỉ định đường dẫn đến thư mục tài liệu của mình. Đây là nơi chứa tệp HTML của bạn.
+Đầu tiên, bạn cần chỉ định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi chứa tệp HTML của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`YOUR DOCUMENT DIRECTORY` với con đường thực tế đến bạn`Documents` thư mục.
+Thay thế `YOUR DOCUMENT DIRECTORY` với con đường thực tế đến bạn `Documents` thư mục.
 
 ### Bước 3: Tạo HtmlLoadOptions
 
-Tiếp theo, bạn sẽ tạo một phiên bản của`HtmlLoadOptions`. Lớp này cho phép bạn tùy chỉnh cách tải tài nguyên bên ngoài.
+Tiếp theo, bạn sẽ tạo một phiên bản của `HtmlLoadOptions`. Lớp này cho phép bạn tùy chỉnh cách tải tài nguyên bên ngoài.
 
 ```csharp
 HtmlLoadOptions options = new HtmlLoadOptions();
@@ -70,7 +72,7 @@ options.CustomLoaderOfExternalResources = new LoadOptions.ResourceLoadingStrateg
 
 ### Bước 4: Tải tài liệu HTML
 
- Bây giờ, đã đến lúc tải tài liệu HTML của bạn vào Aspose.PDF`Document` sự vật.
+Bây giờ, đã đến lúc tải tài liệu HTML của bạn vào Aspose.PDF `Document` sự vật.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "HTMLToPDF.html", options);
@@ -115,19 +117,21 @@ Xin chúc mừng! Bạn đã học thành công cách chuyển đổi HTML sang 
 Aspose.PDF là thư viện .NET cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Aspose.PDF có tương thích với .NET Core không?
 Có, Aspose.PDF hỗ trợ .NET Core, cho phép bạn sử dụng nó trong các ứng dụng hiện đại.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể mua Aspose.PDF ở đâu?
- Bạn có thể mua giấy phép cho Aspose.PDF[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép cho Aspose.PDF [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

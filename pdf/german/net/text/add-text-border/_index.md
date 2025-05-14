@@ -1,48 +1,53 @@
 ---
-title: Erstellen von gestyltem Text mit Grenzen in PDF-Dokumente mit Aspose.PDF für .NET
-weight: 7700
-limit: 
-description: Erstellen Sie professionelle PDF-Dokumente mit gestylten Textfragmenten mit benutzerdefinierten Schriftarten, Farben und Grenzen mit Aspose.PDF für die .NET-Bibliothek.  
-keywords: [Aspose.PDF for .NET, PDF creation, text styling, border effects, text fragments, C# PDF library, document formatting]
-url: /de/net/text/add-text-border/
+"description": "Erstellen Sie mithilfe der Aspose.PDF-Bibliothek für .NET professionelle PDF-Dokumente mit formatierten Textfragmenten und benutzerdefinierten Schriftarten, Farben und Rahmen."
+"title": "Erstellen von formatiertem Text mit Rahmen in PDF-Dokumenten mit Aspose.PDF für .NET"
+"url": "/de/net/text/add-text-border/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erstellen von gestyltem Text mit Grenzen in PDF-Dokumente
+# Erstellen von formatiertem Text mit Rahmen in PDF-Dokumenten
 
-Aspose.PDF für .NET ist eine leistungsstarke PDF-Verarbeitung API, mit der Entwickler PDF-Dokumente erstellen, bearbeiten, manipulieren und konvertieren können, ohne Adobe Acrobat zu benötigen. Dieses Beispiel zeigt, wie man ein PDF-Dokument mit einem Textfragment erstellt, das eine spezifische Styling und eine Grenze hat, was besonders nützlich ist, um wichtige Inhalte in Ihren Dokumenten hervorzuheben.
+Aspose.PDF für .NET ist eine leistungsstarke PDF-Verarbeitungs-API, mit der Entwickler PDF-Dokumente erstellen, bearbeiten, bearbeiten und konvertieren können, ohne Adobe Acrobat zu benötigen. Dieses Beispiel zeigt, wie Sie ein PDF-Dokument mit einem Textfragment erstellen, das über einen bestimmten Stil und einen Rahmen verfügt. Dies ist besonders nützlich, um wichtige Inhalte in Ihren Dokumenten hervorzuheben.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/add-text-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Anweisungen zur Installation
+## Installationsanweisungen
 
-1. Installieren über NuGet Paketmanager:
+1. Installieren Sie über den NuGet-Paketmanager:
    ```
    Install-Package Aspose.PDF
    ```
 
-2. Installieren über .NET CLI:
+2. Installation über .NET CLI:
    ```
    dotnet add package Aspose.PDF
    ```
 
-3. Manuelle Montage:
-   * Laden Sie die neueste Version von [Aspose.PDF für .NET-Versionen](https://releases.aspose.com/pdf/net/)
-   * Fügen Sie einen Verweis auf Aspose.PDF.dll in Ihrem Projekt hinzu
+3. Manuelle Installation:
+   - Laden Sie die neueste Version herunter von [Aspose.PDF für .NET-Versionen](https://releases.aspose.com/pdf/net/)
+   - Fügen Sie in Ihrem Projekt einen Verweis auf Aspose.PDF.dll hinzu
 
-## Mittel
+## Ressourcen
 
-* [Aspose.PDF für .NET Dokumentation](https://docs.aspose.com/pdf/net/)
-* [Aspose.PDF für die .NET API Referenz](https://reference.aspose.com/pdf/net/)
+- [Aspose.PDF für .NET-Dokumentation](https://docs.aspose.com/pdf/net/)
+- [Aspose.PDF für .NET API-Referenz](https://reference.aspose.com/pdf/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

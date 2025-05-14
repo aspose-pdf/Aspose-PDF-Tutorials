@@ -1,14 +1,16 @@
 ---
-title: Tạo tệp PDF nhiều lớp theo cách tiếp cận đầu tiên
-linktitle: Tạo PDF nhiều lớp Phương pháp tiếp cận đầu tiên
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo tệp PDF nhiều lớp bằng First Approach với Aspose.PDF cho .NET. Thêm văn bản, hình ảnh và nhiều thứ khác để nâng cao tệp PDF của bạn.
-weight: 70
-url: /vi/net/programming-with-document/createmultilayerpdffirstapproach/
+"description": "Tìm hiểu cách tạo tệp PDF nhiều lớp bằng First Approach với Aspose.PDF cho .NET. Thêm văn bản, hình ảnh và nhiều thứ khác để nâng cao tệp PDF của bạn."
+"linktitle": "Tạo PDF nhiều lớp Phương pháp tiếp cận đầu tiên"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo tệp PDF nhiều lớp theo cách tiếp cận đầu tiên"
+"url": "/vi/net/programming-with-document/createmultilayerpdffirstapproach/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo tệp PDF nhiều lớp theo cách tiếp cận đầu tiên
@@ -23,9 +25,9 @@ Việc tạo các tệp PDF phức tạp với nhiều lớp có vẻ là một 
 
 Trước khi đi sâu vào mã thực tế, hãy đảm bảo rằng bạn đã chuẩn bị mọi thứ:
 
-1.  Aspose.PDF cho Thư viện .NET: Bạn sẽ cần thư viện Aspose.PDF. Nếu bạn chưa có, bạn có thể tải xuống từ[Trang tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho Thư viện .NET: Bạn sẽ cần thư viện Aspose.PDF. Nếu bạn chưa có, bạn có thể tải xuống từ [Trang tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: Hướng dẫn này giả định rằng bạn đang sử dụng .NET. Đảm bảo rằng bạn đã thiết lập môi trường làm việc với Visual Studio hoặc IDE tương tự.
-3.  Giấy phép tạm thời: Bạn muốn dùng thử Aspose.PDF mà không có hạn chế? Nhận[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
+3. Giấy phép tạm thời: Bạn muốn dùng thử Aspose.PDF mà không có hạn chế? Nhận [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
 4. Hiểu biết cơ bản về C#: Một chút quen thuộc với C# và .NET sẽ giúp ích, nhưng chúng tôi sẽ giải thích từng bước khi thực hiện!
 
 ## Nhập không gian tên
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";  // Thay thế bằng đường dẫ
 Aspose.Pdf.Document pdf = new Aspose.Pdf.Document();
 ```
 
- Đây,`dataDir` là nơi PDF của bạn sẽ được lưu trữ sau khi tạo. Bạn cũng đang tạo một tệp trống`pdf` tài liệu sử dụng`Document` lớp từ Aspose.PDF.
+Đây, `dataDir` là nơi PDF của bạn sẽ được lưu trữ sau khi tạo. Bạn cũng đang tạo một tệp trống `pdf` tài liệu sử dụng `Document` lớp từ Aspose.PDF.
 
 ## Bước 2: Thêm trang mới vào PDF của bạn
 
@@ -64,7 +66,7 @@ Với dòng mã này, bạn sẽ thêm một trang trống vào tài liệu, s�
 
 ## Bước 3: Chèn văn bản vào PDF
 
- Bây giờ chúng ta đã có một trang, hãy rắc một số văn bản vào đó! Thêm`TextFragment` cho phép chúng ta chèn và định dạng văn bản trong tài liệu.
+Bây giờ chúng ta đã có một trang, hãy rắc một số văn bản vào đó! Thêm `TextFragment` cho phép chúng ta chèn và định dạng văn bản trong tài liệu.
 
 ```csharp
 Aspose.Pdf.Text.TextFragment t1 = new Aspose.Pdf.Text.TextFragment("paragraph 3 segment");
@@ -94,7 +96,7 @@ Aspose.Pdf.Image image1 = new Aspose.Pdf.Image();
 image1.File = dataDir + "test_image.png";
 ```
 
- Bạn có thể đặt bất kỳ hình ảnh nào bằng cách chỉ định đường dẫn tệp của nó. Đảm bảo hình ảnh của bạn nằm trong thư mục bạn đã thiết lập`dataDir`. Đây chính là nơi phép thuật xếp lớp phát huy tác dụng—hình ảnh của bạn sẽ nằm trên lớp văn bản.
+Bạn có thể đặt bất kỳ hình ảnh nào bằng cách chỉ định đường dẫn tệp của nó. Đảm bảo hình ảnh của bạn nằm trong thư mục bạn đã thiết lập `dataDir`. Đây chính là nơi phép thuật xếp lớp phát huy tác dụng—hình ảnh của bạn sẽ nằm trên lớp văn bản.
 
 ## Bước 6: Tạo một hộp nổi
 
@@ -130,7 +132,7 @@ Giống như việc hoàn thiện chiếc bánh, giờ đây bạn đang thêm h
 
 ## Bước 9: Lưu PDF
 
-Cuối cùng, sau khi tất cả các lớp đã vào đúng vị trí, đã đến lúc lưu PDF. Hãy nghĩ đến việc này như thể bạn đang phục vụ chiếc bánh đã hoàn thành của mình!
+Cuối cùng, sau khi tất cả các lớp đã vào đúng vị trí, đã đến lúc lưu PDF. Hãy nghĩ đến việc này như việc phục vụ chiếc bánh đã hoàn thành của bạn!
 
 ```csharp
 pdf.Save(dataDir + "CreateMultiLayerPdf_out.pdf");
@@ -148,19 +150,21 @@ Và bạn đã có nó! Bạn vừa tạo một PDF nhiều lớp bằng Aspose.
 Có! Bạn có thể tiếp tục thêm nhiều lớp tùy theo nhu cầu, giống như việc xếp chồng các lớp bánh khác.
 
 ### Tôi có thể tùy chỉnh phông chữ thêm như thế nào?  
- Bạn có thể sửa đổi`TextState` thuộc tính để thay đổi kiểu phông chữ, màu sắc, kích thước và nhiều tính năng khác.
+Bạn có thể sửa đổi `TextState` thuộc tính để thay đổi kiểu phông chữ, màu sắc, kích thước và nhiều tính năng khác.
 
 ### Tôi có thể điều chỉnh vị trí của hộp nổi chính xác hơn không?  
- Chắc chắn rồi!`Left` Và`Top` các thuộc tính có thể được tinh chỉnh để có vị trí hoàn hảo đến từng pixel.
+Chắc chắn rồi! `Left` Và `Top` các thuộc tính có thể được tinh chỉnh để có vị trí hoàn hảo đến từng pixel.
 
 ### Những định dạng tệp nào được hỗ trợ cho hình ảnh?  
 Bạn có thể sử dụng các định dạng hình ảnh phổ biến như PNG, JPEG, BMP và GIF.
 
 ### Có cách nào để xem trước tệp PDF trước khi lưu không?  
 Bản thân Aspose.PDF không cung cấp tính năng xem trước, nhưng bạn có thể mở tệp đã lưu trong bất kỳ trình xem PDF nào để kiểm tra đầu ra.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

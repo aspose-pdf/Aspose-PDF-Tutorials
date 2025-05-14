@@ -8,7 +8,9 @@ url: /net/programming-with-images/set-image-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Image Size In PDF File
@@ -168,6 +170,7 @@ You can set the `Image.LowerLeftX` and `Image.LowerLeftY` properties to position
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

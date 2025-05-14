@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasından Filigran Al
-linktitle: PDF Dosyasından Filigran Al
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyalarından filigranların nasıl çıkarılacağını adım adım bir kılavuzla öğrenin. Filigran çıkarma için ayrıntılı eğitim.
-weight: 100
-url: /tr/net/programming-with-stamps-and-watermarks/get-watermark/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyalarından filigranların nasıl çıkarılacağını adım adım bir kılavuzla öğrenin. Filigran çıkarma için ayrıntılı eğitim."
+"linktitle": "PDF Dosyasından Filigran Al"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasından Filigran Al"
+"url": "/tr/net/programming-with-stamps-and-watermarks/get-watermark/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasından Filigran Al
@@ -21,12 +23,12 @@ PDF'lerle çalışmaya gelince, Aspose.PDF for .NET, PDF belgelerini zahmetsizce
 
 Koda dalmadan önce, bu eğitimi takip etmek için yerinde olması gereken birkaç şey var:
 
--  .NET için Aspose.PDF Kitaplığı: Kitaplığı şu adresten indirin:[Burada](https://releases.aspose.com/pdf/net/) veya NuGet paket yöneticisini kullanarak kurulumunu yapabilirsiniz.
+- .NET için Aspose.PDF Kitaplığı: Kitaplığı şu adresten indirin: [Burada](https://releases.aspose.com/pdf/net/) veya NuGet paket yöneticisini kullanarak kurulumunu yapabilirsiniz.
 - .NET Geliştirme Ortamı: C# geliştirmesi için Visual Studio'yu veya tercih ettiğiniz herhangi bir IDE'yi kullanabilirsiniz.
 - Temel C# Bilgisi: Bu eğitim, C# ve .NET geliştirme konusunda çalışma bilgisine sahip olduğunuzu varsayar.
--  Bir PDF Dosyası: Test amaçlı bir filigran içeren bir PDF dosyasını elinizin altında bulundurun. Buna şu şekilde atıfta bulunacağız:`watermark.pdf` Eğitim boyunca.
+- PDF Dosyası: Test amaçlı filigran içeren bir PDF dosyasını elinizin altında bulundurun. Buna şu şekilde atıfta bulunacağız: `watermark.pdf` Eğitim boyunca.
 
- Aspose.PDF'yi kullanmaya başlamak için şunları inceleyebilirsiniz:[belgeleme](https://reference.aspose.com/pdf/net/) Kütüphaneye genel bir bakış elde etmek için.
+Aspose.PDF'yi kullanmaya başlamak için şunları inceleyebilirsiniz: [belgeleme](https://reference.aspose.com/pdf/net/) Kütüphaneye genel bir bakış elde etmek için.
 
 ## Paketleri İçe Aktar
 
@@ -52,7 +54,7 @@ PDF'yi açıp işleyebilmeniz için PDF dosyanızın nerede bulunduğunu belirtm
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu satır, PDF dosyanızın sisteminizdeki konumunu tanımlar. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek dizininizle birlikte`watermark.pdf` saklanır. Örneğin:
+Bu satır, PDF dosyanızın sisteminizdeki konumunu tanımlar. Değiştir `"YOUR DOCUMENT DIRECTORY"` gerçek dizininizle birlikte `watermark.pdf` saklanır. Örneğin:
 
 ```csharp
 string dataDir = "C:\\MyDocuments\\";
@@ -60,13 +62,13 @@ string dataDir = "C:\\MyDocuments\\";
 
 ## Adım 2: PDF Belgesini açın
 
- Bir sonraki adım PDF dosyasını bir`Aspose.Pdf.Document` nesne. Bu nesne PDF dosyasını temsil eder ve içeriğiyle etkileşime girmenizi sağlar:
+Bir sonraki adım PDF dosyasını bir `Aspose.Pdf.Document` nesne. Bu nesne PDF dosyasını temsil eder ve içeriğiyle etkileşime girmenizi sağlar:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "watermark.pdf");
 ```
 
- Burada şunu kullanıyoruz:`Document` Aspose.PDF kütüphanesinden sınıfı yüklemek için`watermark.pdf` Belirtilen dizinde bulunan dosya. Dosyanın başvurduğunuz yolda mevcut olduğundan emin olun; aksi takdirde, dosya bulunamadı hatasıyla karşılaşırsınız.
+Burada şunu kullanıyoruz: `Document` Aspose.PDF kütüphanesinden sınıfı yüklemek için `watermark.pdf` Belirtilen dizinde bulunan dosya. Dosyanın başvurduğunuz yolda mevcut olduğundan emin olun; aksi takdirde, dosya bulunamadı hatasıyla karşılaşırsınız.
 
 ## Adım 3: İlk Sayfanın Eserlerine Erişim
 
@@ -79,7 +81,7 @@ foreach (Artifact artifact in pdfDocument.Pages[1].Artifacts)
 }
 ```
 
- Bu döngüde, şuna erişiyoruz:`Artifacts` ilk sayfanın koleksiyonu (`Pages[1]` ). PDF'nizde farklı sayfalarda filigranlar varsa, sayfa dizinini buna göre değiştirmeniz gerekebilir. PDF'deki her sayfa sıfır tabanlıdır, bu nedenle ilk sayfa`Pages[1]`.
+Bu döngüde, şuna erişiyoruz: `Artifacts` ilk sayfanın koleksiyonu (`Pages[1]`). PDF'nizde farklı sayfalarda filigranlar varsa, sayfa dizinini buna göre değiştirmeniz gerekebilir. PDF'deki her sayfa sıfır tabanlıdır, bu nedenle ilk sayfa `Pages[1]`.
 
 ## Adım 4: Filigran Bilgilerini Alın
 
@@ -101,7 +103,7 @@ Bu eğitimde, .NET için Aspose.PDF kullanarak bir PDF belgesinden filigran ayr�
 
 Farklı PDF'lerle denemeler yaptığınızdan emin olun, çünkü filigranların uygulanma şekli belgeden belgeye değişebilir. Ve unutmayın, Aspose.PDF sadece filigranları işlemekten çok daha fazlasını yapabilir; zengin özellik seti kapsamlı PDF düzenlemesine olanak tanır.
 
- Daha detaylı bilgi için şu adresi ziyaret edebilirsiniz:[.NET için Aspose.PDF belgeleri](https://reference.aspose.com/pdf/net/) ve daha fazlasını keşfedin.
+Daha detaylı bilgi için şu adresi ziyaret edebilirsiniz: [.NET için Aspose.PDF belgeleri](https://reference.aspose.com/pdf/net/) ve daha fazlasını keşfedin.
 
 ## SSS
 
@@ -109,7 +111,7 @@ Farklı PDF'lerle denemeler yaptığınızdan emin olun, çünkü filigranların
 Evet, Aspose.PDF PDF'lerden hem metin hem de resim tabanlı filigranları çıkarabilir. Yapıtlar özelliği tüm filigran türleri hakkında bilgi sağlar.
 
 ### Filigranım başka bir sayfadaysa ne olur?
- Sayfa dizinini şurada değiştirebilirsiniz:`pdfDocument.Pages[]` Diğer sayfalardaki eserlere erişmek için dizi.
+Sayfa dizinini şurada değiştirebilirsiniz: `pdfDocument.Pages[]` Diğer sayfalardaki eserlere erişmek için dizi.
 
 ### Filigranı geri aldıktan sonra kaldırmanın bir yolu var mı?
 Evet, Aspose.PDF'yi yalnızca okumak için değil aynı zamanda bir PDF dosyasından filigranları kaldırmak için de kullanabilirsiniz. Kütüphane, eserleri değiştirmek veya silmek için yöntemler sağlar.
@@ -117,11 +119,13 @@ Evet, Aspose.PDF'yi yalnızca okumak için değil aynı zamanda bir PDF dosyası
 ### Tek bir sayfadan birden fazla filigran çıkarabilir miyim?
 Kesinlikle! Döngü sayfadaki tüm eserler arasında yineleme yapar, bu nedenle birden fazla filigran varsa her birine erişebilirsiniz.
 
-### Aspose.PDF .NET Core ile uyumlu mudur?
+### Aspose.PDF .NET Core ile uyumlu mu?
 Evet, Aspose.PDF hem .NET Framework hem de .NET Core ile uyumludur ve bu da onu çeşitli proje türleri için çok yönlü hale getirir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

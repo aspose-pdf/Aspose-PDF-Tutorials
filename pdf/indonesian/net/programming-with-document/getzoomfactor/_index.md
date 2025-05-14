@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Faktor Zoom Dalam File PDF
-linktitle: Dapatkan Faktor Zoom Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menggunakan Aspose.PDF untuk .NET untuk mendapatkan faktor zoom dalam file PDF dengan panduan langkah demi langkah ini.
-weight: 210
-url: /id/net/programming-with-document/getzoomfactor/
+"description": "Pelajari cara menggunakan Aspose.PDF untuk .NET untuk mendapatkan faktor zoom dalam file PDF dengan panduan langkah demi langkah ini."
+"linktitle": "Dapatkan Faktor Zoom Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Faktor Zoom Dalam File PDF"
+"url": "/id/net/programming-with-document/getzoomfactor/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Faktor Zoom Dalam File PDF
@@ -22,7 +24,7 @@ Dalam tutorial kami sebelumnya, kami membahas cara mengambil faktor zoom dari fi
 Sebelum kita menyelami konten lanjutan, pastikan Anda memiliki hal berikut:
 
 1. Visual Studio: Lingkungan pengembangan untuk menulis dan menguji kode Anda.
-2. Aspose.PDF untuk .NET: Unduh dan instal pustaka dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Unduh dan instal pustaka dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan C# akan membantu Anda mengikutinya dengan lancar.
 
 ## Paket Impor
@@ -45,7 +47,7 @@ Membuat proyek C# baru di Visual Studio sangatlah mudah. Berikut panduan singkat
 
 1. Buka Visual Studio dan pilih Buat proyek baru.
 2. Pilih Aplikasi Konsol (.NET Core) atau Aplikasi Konsol (.NET Framework) berdasarkan preferensi Anda.
-3.  Beri nama proyek Anda (misalnya,`PdfZoomFactorExample`) dan klik Buat.
+3. Beri nama proyek Anda (misalnya, `PdfZoomFactorExample`) dan klik Buat.
 
 ## Langkah 2: Tentukan Direktori Dokumen
 
@@ -60,25 +62,25 @@ Pastikan untuk menggunakan format jalur yang benar untuk sistem operasi Anda. Un
 
 ## Langkah 3: Buat Instansiasi Objek Dokumen
 
-Membuat`Document` objek penting untuk mengakses berkas PDF. Berikut cuplikan kodenya lagi:
+Membuat `Document` objek penting untuk mengakses berkas PDF. Berikut cuplikan kodenya lagi:
 
 ```csharp
 // Membuat instance objek Dokumen baru
 Document doc = new Document(dataDir + "Zoomed_pdf.pdf");
 ```
 
- Pastikan file PDF ada di direktori yang ditentukan. Jika file tidak ditemukan, Anda akan menemui masalah`FileNotFoundException`.
+Pastikan file PDF ada di direktori yang ditentukan. Jika file tidak ditemukan, Anda akan menemui masalah `FileNotFoundException`.
 
 ## Langkah 4: Buat Objek GoToAction
 
- Itu`GoToAction` objek memungkinkan Anda mengakses tindakan buka dokumen. Berikut kodenya:
+Itu `GoToAction` objek memungkinkan Anda mengakses tindakan buka dokumen. Berikut kodenya:
 
 ```csharp
 // Buat objek GoToAction
 GoToAction action = doc.OpenAction as GoToAction;
 ```
 
- Jika`OpenAction` bukan tipe`GoToAction` , itu`action` variabel akan menjadi`null`Merupakan praktik yang baik untuk memeriksa null sebelum melanjutkan.
+Jika `OpenAction` bukan tipe `GoToAction`, itu `action` variabel akan menjadi `null`Merupakan praktik yang baik untuk memeriksa null sebelum melanjutkan.
 
 ## Langkah 5: Dapatkan Faktor Zoom
 
@@ -95,7 +97,7 @@ else
 }
 ```
 
- Kode ini memeriksa apakah`action` tidak null dan jika`Destination` adalah tipe`XYZExplicitDestination`Jika kedua kondisi terpenuhi, ia akan mencetak nilai zoom; jika tidak, ia akan memberikan pesan yang membantu.
+Kode ini memeriksa apakah `action` tidak null dan jika `Destination` adalah tipe `XYZExplicitDestination`Jika kedua kondisi terpenuhi, ia akan mencetak nilai zoom; jika tidak, ia akan memberikan pesan yang membantu.
 
 ## Kesimpulan
 
@@ -113,13 +115,15 @@ Ya, Aspose.PDF memungkinkan Anda memanipulasi berbagai properti, termasuk teks, 
 Ya, Aspose.PDF dirancang untuk menangani file PDF besar secara efisien, tetapi kinerjanya dapat bervariasi berdasarkan kompleksitas dokumen.
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Dapatkah saya menggunakan Aspose.PDF di aplikasi web?
 Tentu saja! Aspose.PDF dapat digunakan di aplikasi desktop dan web, sehingga serbaguna untuk berbagai kebutuhan pengembangan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

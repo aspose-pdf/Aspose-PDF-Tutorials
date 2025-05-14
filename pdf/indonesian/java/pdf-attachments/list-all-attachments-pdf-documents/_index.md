@@ -1,14 +1,16 @@
 ---
-title: Daftar Semua Lampiran dalam Dokumen PDF
-linktitle: Daftar Semua Lampiran dalam Dokumen PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Temukan Cara Mencantumkan Lampiran dalam PDF menggunakan Aspose.PDF untuk Java. Panduan Langkah demi Langkah untuk Mengekstrak Lampiran PDF dengan Mudah.
-weight: 13
-url: /id/java/pdf-attachments/list-all-attachments-pdf-documents/
+"description": "Temukan Cara Mencantumkan Lampiran dalam PDF menggunakan Aspose.PDF untuk Java. Panduan Langkah demi Langkah untuk Mengekstrak Lampiran PDF dengan Mudah."
+"linktitle": "Daftar Semua Lampiran dalam Dokumen PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Daftar Semua Lampiran dalam Dokumen PDF"
+"url": "/id/java/pdf-attachments/list-all-attachments-pdf-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Daftar Semua Lampiran dalam Dokumen PDF
@@ -27,7 +29,7 @@ Sebelum menyelami kodenya, mari berkenalan dengan Aspose.PDF untuk Java. Ini ada
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/java/).
 
 Sekarang, mari kita uraikan langkah-langkah untuk mencantumkan semua lampiran dalam dokumen PDF menggunakan Aspose.PDF untuk Java.
 
@@ -46,7 +48,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("path_to_your_
 
 ### Langkah 3: Dapatkan Lampirannya
 
- Untuk mengambil lampiran, gunakan`getEmbeddedFiles` metode:
+Untuk mengambil lampiran, gunakan `getEmbeddedFiles` metode:
 
 ```java
 // Dapatkan daftar lampiran
@@ -55,7 +57,7 @@ com.aspose.pdf.EmbeddedFileCollection embeddedFiles = pdfDocument.getEmbeddedFil
 
 ### Langkah 4: Daftarkan Lampiran
 
-Sekarang, telusuri lampiran dan tampilkan nama-namanya:
+Sekarang, telusuri lampiran-lampiran dan tampilkan nama-namanya:
 
 ```java
 // Daftar semua lampiran
@@ -83,7 +85,7 @@ Sekarang, Anda memiliki pengetahuan untuk bekerja dengan lampiran PDF di Java me
 
 ### Bagaimana cara mengekstrak lampiran dari halaman tertentu PDF?
 
- Untuk mengekstrak lampiran dari halaman tertentu PDF, Anda dapat menggunakan`getPage` metode untuk mengakses halaman tertentu dan kemudian mengambil lampiran dari halaman tersebut.
+Untuk mengekstrak lampiran dari halaman tertentu PDF, Anda dapat menggunakan `getPage` metode untuk mengakses halaman tertentu dan kemudian mengambil lampiran dari halaman tersebut.
 
 ### Bisakah saya mengekstrak lampiran jenis tertentu, seperti hanya file gambar?
 
@@ -99,10 +101,12 @@ Aspose.PDF untuk Java dapat menangani PDF dengan berbagai ukuran, tetapi kinerja
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi dan sumber daya yang komprehensif untuk Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi dan sumber daya yang komprehensif untuk Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

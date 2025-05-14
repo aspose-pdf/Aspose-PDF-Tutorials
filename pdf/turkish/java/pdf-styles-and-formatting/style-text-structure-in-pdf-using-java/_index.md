@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'deki Metin Yapısını Biçimlendirin
-linktitle: Java kullanarak PDF'deki Metin Yapısını Biçimlendirin
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Adım adım kılavuzumuzla Java kullanarak PDF'lerdeki metin yapılarını nasıl biçimlendireceğinizi öğrenin. Profesyonel görünümlü belgeler için yazı tiplerini, renkleri, köprü metinlerini ve daha fazlasını özelleştirin.
-weight: 11
-url: /tr/java/pdf-styles-and-formatting/style-text-structure-in-pdf-using-java/
+"description": "Adım adım kılavuzumuzla Java kullanarak PDF'lerdeki metin yapılarını nasıl biçimlendireceğinizi öğrenin. Profesyonel görünümlü belgeler için yazı tiplerini, renkleri, köprü metinlerini ve daha fazlasını özelleştirin."
+"linktitle": "Java kullanarak PDF'deki Metin Yapısını Biçimlendirin"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'deki Metin Yapısını Biçimlendirin"
+"url": "/tr/java/pdf-styles-and-formatting/style-text-structure-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'deki Metin Yapısını Biçimlendirin
@@ -23,13 +25,13 @@ PDF'ler belgeleri, raporları ve çeşitli içerik türlerini paylaşmak için s
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Kiti (JDK) kuruldu.
-- Aspose.PDF for Java kütüphanesi indirildi ve kuruldu.
+- Java kütüphanesi için Aspose.PDF indirildi ve kuruldu.
 
 ## Ortamın Kurulması
 
 Java kullanarak PDF'lerdeki metni biçimlendirmeye başlamak için geliştirme ortamınızı ayarlamanız gerekir. Şu adımları izleyin:
 
-1.  Java kütüphanesi için Aspose.PDF'yi şu adresten indirin:[Burada](https://releases.aspose.com/pdf/java/).
+1. Java için Aspose.PDF kitaplığını şu adresten indirin: [Burada](https://releases.aspose.com/pdf/java/).
 
 2. Kütüphaneyi Java projenize ekleyin.
 
@@ -188,19 +190,19 @@ Bu kılavuzda, Aspose.PDF'nin yardımıyla Java kullanarak PDF'lerdeki metin yap
 
 ### PDF'deki metnin yazı tipini nasıl değiştirebilirim?
 
- Bir PDF'deki metnin yazı tipini değiştirmek için şunu kullanın:`setTextState()` yöntemini kullanın ve istediğiniz yazı tipini belirtin`setFont()`. Örneğin:
+Bir PDF'deki metnin yazı tipini değiştirmek için şunu kullanın: `setTextState()` yöntemini kullanın ve istediğiniz yazı tipini belirtin `setFont()`. Örneğin:
 
 ```java
 textFragment.getTextState().setFont(FontRepository.findFont("Arial"));
 ```
 
-### Aspose.PDF for Java kullanarak PDF'ime köprüler ekleyebilir miyim?
+### Aspose.PDF for Java'yı kullanarak PDF'ime köprüler ekleyebilir miyim?
 
- Evet, Java için Aspose.PDF'yi kullanarak PDF'nize köprüler ekleyebilirsiniz.`Hyperlink` Bağlantılar oluşturmak ve URL açmak gibi eylemleri belirtmek için kullanılan sınıf.
+Evet, Java için Aspose.PDF'yi kullanarak PDF'nize köprüler ekleyebilirsiniz. `Hyperlink` Bağlantılar oluşturmak ve URL açmak gibi eylemleri belirtmek için kullanılan sınıf.
 
 ### PDF'de sayfa sonlarını işlemenin önerilen yolu nedir?
 
- Bir PDF'deki sayfa sonlarını işlemek için,`IsAutoTruncated` Ve`IsWordWrapped` özellikleri`true` içinde`TextState`Bu, metnin sayfa sınırlarına uyacak şekilde düzgün bir şekilde kesilmesini ve sarılmasını sağlar.
+Bir PDF'deki sayfa sonlarını işlemek için, `IsAutoTruncated` Ve `IsWordWrapped` özellikleri `true` içinde `TextState`Bu, metnin sayfa sınırlarına uyacak şekilde düzgün bir şekilde kesilmesini ve sarılmasını sağlar.
 
 ### PDF belgelerimi filigranla nasıl koruyabilirim?
 
@@ -208,10 +210,12 @@ PDF'nize filigran metin parçası ekleyerek PDF belgelerinizi filigranlarla koru
 
 ### Java için Aspose.PDF hakkında daha fazla bilgi ve belgeyi nerede bulabilirim?
 
- Java için Aspose.PDF'e ilişkin kapsamlı belgeleri şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin kapsamlı belgeleri şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

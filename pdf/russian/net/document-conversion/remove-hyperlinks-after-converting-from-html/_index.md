@@ -1,14 +1,16 @@
 ---
-title: Удалить гиперссылки после преобразования из HTML
-linktitle: Удалить гиперссылки после преобразования из HTML
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как удалить гиперссылки из HTML-документов после преобразования в PDF с помощью Aspose.PDF для .NET, в этом пошаговом руководстве.
-weight: 250
-url: /ru/net/document-conversion/remove-hyperlinks-after-converting-from-html/
+"description": "Узнайте, как удалить гиперссылки из HTML-документов после преобразования в PDF с помощью Aspose.PDF для .NET, в этом пошаговом руководстве."
+"linktitle": "Удалить гиперссылки после преобразования из HTML"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Удалить гиперссылки после преобразования из HTML"
+"url": "/ru/net/document-conversion/remove-hyperlinks-after-converting-from-html/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить гиперссылки после преобразования из HTML
@@ -22,7 +24,7 @@ url: /ru/net/document-conversion/remove-hyperlinks-after-converting-from-html/
 Прежде чем приступить к изучению кода, убедитесь, что у вас выполнены следующие предварительные условия:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Это будет ваша среда разработки.
-2.  Aspose.PDF для .NET: Вам нужна библиотека Aspose.PDF. Вы можете загрузить ее с[здесь](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF для .NET: Вам нужна библиотека Aspose.PDF. Вы можете загрузить ее с [здесь](https://releases.aspose.com/pdf/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понимать код.
 
 ## Импортные пакеты
@@ -31,7 +33,7 @@ url: /ru/net/document-conversion/remove-hyperlinks-after-converting-from-html/
 
 1. Откройте проект Visual Studio.
 2. Щелкните правой кнопкой мыши свой проект в обозревателе решений и выберите «Управление пакетами NuGet».
-3.  Искать`Aspose.PDF` и установите его.
+3. Искать `Aspose.PDF` и установите его.
 
 ```csharp
 using Aspose.Pdf.Annotations;
@@ -50,17 +52,17 @@ using System.IO;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` на фактический путь, где хранится ваш HTML-файл.
+Заменять `"YOUR DOCUMENT DIRECTORY"` на фактический путь, где хранится ваш HTML-файл.
 
 ## Шаг 2: Загрузите HTML-документ
 
- Далее вы загрузите HTML-документ с помощью`Document` класс из Aspose.PDF. Этот класс позволяет легко работать с PDF-документами.
+Далее вы загрузите HTML-документ с помощью `Document` класс из Aspose.PDF. Этот класс позволяет легко работать с PDF-документами.
 
 ```csharp
 Document doc = new Document(dataDir + "SampleHtmlFile.html", new HtmlLoadOptions());
 ```
 
- Здесь мы загружаем HTML-файл с именем`SampleHtmlFile.html`. Убедитесь, что этот файл существует в указанном вами каталоге.
+Здесь мы загружаем HTML-файл с именем `SampleHtmlFile.html`. Убедитесь, что этот файл существует в указанном вами каталоге.
 
 ## Шаг 3: Сохраните документ в потоке памяти
 
@@ -112,7 +114,7 @@ tfa.TextSearchOptions = new TextSearchOptions(a.Rect);
 doc.Pages[a.PageIndex].Accept(tfa);
 ```
 
- Здесь мы создаем`TextFragmentAbsorber` и установите его параметры поиска в прямоугольнике аннотации. Это помогает нам найти текст, который был связан.
+Здесь мы создаем `TextFragmentAbsorber` и установите его параметры поиска в прямоугольнике аннотации. Это помогает нам найти текст, который был связан.
 
 ## Шаг 7: Измените внешний вид текста
 
@@ -147,7 +149,7 @@ doc.Pages[a.PageIndex].Annotations.Delete(a);
 doc.Save(dataDir + "RemoveHyperlinksFromText_out.pdf");
 ```
 
- Эта строка сохраняет документ с удаленными гиперссылками, создавая новый PDF-файл с именем`RemoveHyperlinksFromText_out.pdf`.
+Эта строка сохраняет документ с удаленными гиперссылками, создавая новый PDF-файл с именем `RemoveHyperlinksFromText_out.pdf`.
 
 ## Заключение
 
@@ -159,19 +161,21 @@ doc.Save(dataDir + "RemoveHyperlinksFromText_out.pdf");
 Да, вы можете удалить гиперссылки из любого PDF-документа с помощью Aspose.PDF для .NET.
 
 ### Можно ли использовать Aspose.PDF бесплатно?
- Aspose.PDF предлагает бесплатную пробную версию, но для полного использования функций вам необходимо приобрести лицензию. Проверьте[купить страницу](https://purchase.aspose.com/buy).
+Aspose.PDF предлагает бесплатную пробную версию, но для полного использования функций вам необходимо приобрести лицензию. Проверьте [купить страницу](https://purchase.aspose.com/buy).
 
 ### Что делать, если у меня возникнут проблемы при использовании Aspose.PDF?
- Вы можете обратиться за помощью по адресу[форум поддержки](https://forum.aspose.com/c/pdf/10).
+Вы можете обратиться за помощью по адресу [форум поддержки](https://forum.aspose.com/c/pdf/10).
 
 ### Можно ли конвертировать другие форматы файлов в PDF с помощью Aspose?
 Да, Aspose поддерживает различные форматы файлов для преобразования в PDF.
 
 ### Где можно скачать Aspose.PDF для .NET?
- Вы можете скачать его с сайта[ссылка для скачивания](https://releases.aspose.com/pdf/net/).
+Вы можете скачать его с сайта [ссылка для скачивания](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

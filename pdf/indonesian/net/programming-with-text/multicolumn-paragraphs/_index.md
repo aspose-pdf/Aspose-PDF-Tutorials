@@ -1,14 +1,16 @@
 ---
-title: Paragraf Multikolom Dalam File PDF
-linktitle: Paragraf Multikolom Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat & mengelola paragraf multikolom dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami.
-weight: 250
-url: /id/net/programming-with-text/multicolumn-paragraphs/
+"description": "Pelajari cara membuat & mengelola paragraf multikolom dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami."
+"linktitle": "Paragraf Multikolom Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Paragraf Multikolom Dalam File PDF"
+"url": "/id/net/programming-with-text/multicolumn-paragraphs/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Paragraf Multikolom Dalam File PDF
@@ -22,11 +24,11 @@ Membuat dan mengelola file PDF tidak pernah semudah ini, terutama dengan pustaka
 Sebelum memulai implementasi, Anda perlu menyiapkan beberapa hal:
 
 ### Bahasa Indonesia: Studio Visual
-Pastikan Anda telah menginstal Visual Studio di komputer Anda. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[situs web](https://visualstudio.microsoft.com/).
+Pastikan Anda telah menginstal Visual Studio di komputer Anda. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari [situs web](https://visualstudio.microsoft.com/).
 
 ### Aspose.PDF untuk .NET
 Anda perlu menyertakan pustaka Aspose.PDF dalam proyek .NET Anda:
--  Unduh langsung dari[Tautan unduhan Aspose](https://releases.aspose.com/pdf/net/).
+- Unduh langsung dari [Tautan unduhan Aspose](https://releases.aspose.com/pdf/net/).
 - Alternatifnya, Anda dapat menggunakan NuGet Package Manager untuk menginstalnya.
 
 ### Pengetahuan Dasar C#
@@ -79,16 +81,16 @@ Berikutnya, kita akan memuat dokumen PDF menggunakan pustaka Aspose.PDF.
 ```csharp
 Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
 ```
- Di sini, kita membuat sebuah instance dari`Document` class dan meneruskan jalur file PDF kita. Langkah ini memuat PDF, sehingga kita dapat mengerjakannya.
+Di sini, kita membuat sebuah instance dari `Document` class dan meneruskan jalur file PDF kita. Langkah ini memuat PDF, sehingga kita dapat mengerjakannya.
 
 ## Langkah 3: Siapkan Penyerap Paragraf
- Sekarang, kita perlu menggunakan`ParagraphAbsorber` kelas untuk menyerap paragraf dari dokumen yang dimuat.
+Sekarang, kita perlu menggunakan `ParagraphAbsorber` kelas untuk menyerap paragraf dari dokumen yang dimuat.
 
 ```csharp
 ParagraphAbsorber absorber = new ParagraphAbsorber();
 absorber.Visit(doc);
 ```
- Di sinilah keajaiban dimulai!`Visit` metode memindai dokumen dan mengumpulkan paragraf untuk diproses.
+Di sinilah keajaiban dimulai! `Visit` metode memindai dokumen dan mengumpulkan paragraf untuk diproses.
 
 ## Langkah 4: Akses Markup Halaman
 Setelah menyerap paragraf, kita dapat mengambil markup halaman.
@@ -168,13 +170,15 @@ Anda dapat mengunduhnya dari situs web Aspose atau menggunakan NuGet Package Man
 Ya, Anda dapat mengaktifkan pemformatan multikolom jika struktur PDF Anda mengizinkannya.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?  
- Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasinya [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Apakah ada versi uji coba yang tersedia untuk Aspose?  
- Ya, Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh versi uji coba gratis [Di Sini](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

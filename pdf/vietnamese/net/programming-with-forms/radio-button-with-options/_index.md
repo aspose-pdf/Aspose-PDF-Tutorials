@@ -1,14 +1,16 @@
 ---
-title: Nút radio có tùy chọn
-linktitle: Nút radio có tùy chọn
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Mở khóa tiềm năng của PDF tương tác bằng cách thêm các nút radio sử dụng Aspose.PDF cho .NET. Tạo biểu mẫu hấp dẫn một cách dễ dàng và cải thiện trải nghiệm người dùng.
-weight: 230
-url: /vi/net/programming-with-forms/radio-button-with-options/
+"description": "Mở khóa tiềm năng của PDF tương tác bằng cách thêm các nút radio sử dụng Aspose.PDF cho .NET. Tạo biểu mẫu hấp dẫn một cách dễ dàng và cải thiện trải nghiệm người dùng."
+"linktitle": "Nút radio có tùy chọn"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nút radio có tùy chọn"
+"url": "/vi/net/programming-with-forms/radio-button-with-options/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nút radio có tùy chọn
@@ -21,7 +23,7 @@ Tạo tài liệu PDF tương tác có thể tăng cường đáng kể sự tha
 
 Trước khi bắt đầu, bạn cần thiết lập một số điều để đảm bảo quá trình tạo PDF bằng các nút radio diễn ra suôn sẻ:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF trong dự án của mình. Nếu bạn chưa có, bạn có thể dễ dàng tải xuống từ[trang phát hành](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF trong dự án của mình. Nếu bạn chưa có, bạn có thể dễ dàng tải xuống từ [trang phát hành](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: Hiểu biết cơ bản về .NET framework sẽ giúp bạn giải quyết mọi vấn đề bạn gặp phải trong quá trình sử dụng.
 3. Môi trường phát triển: Bạn sẽ cần một IDE phù hợp cho .NET (như Visual Studio) nơi bạn có thể viết và kiểm tra mã của mình.
 4. Quen thuộc với C#: Mặc dù bạn không cần phải là người chuyên nghiệp, nhưng việc nắm vững lập trình C# chắc chắn sẽ giúp quá trình này dễ dàng và thú vị hơn.
@@ -65,7 +67,7 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Trong đoạn trích này, chúng tôi đang thiết lập một`Document` đối tượng và thêm một`Page` vào đó cho nội dung của chúng tôi. Hãy chắc chắn thay thế`YOUR DOCUMENT DIRECTORY` bằng đường dẫn mà bạn muốn lưu tệp PDF của mình.
+Trong đoạn trích này, chúng tôi đang thiết lập một `Document` đối tượng và thêm một `Page` vào đó cho nội dung của chúng tôi. Hãy chắc chắn thay thế `YOUR DOCUMENT DIRECTORY` bằng đường dẫn mà bạn muốn lưu tệp PDF của mình.
 
 ## Bước 2: Tạo bảng để bố trí
 
@@ -77,7 +79,7 @@ table.ColumnWidths = "120 120 120"; // Xác định độ rộng cột
 page.Paragraphs.Add(table);
 ```
 
- Ở đây, chúng tôi đã tạo ra một`Table`đối tượng và chỉ định chiều rộng cho ba cột của chúng tôi. Điều này tạo ra một bố cục gọn gàng cho các tùy chọn của chúng tôi.
+Ở đây, chúng tôi đã tạo ra một `Table` đối tượng và chỉ định chiều rộng cho ba cột của chúng ta. Điều này tạo ra một bố cục gọn gàng cho các tùy chọn của chúng ta.
 
 ## Bước 3: Thêm hàng vào bảng
 
@@ -102,7 +104,7 @@ rf.PartialName = "radio";
 doc.Form.Add(rf, 1);
 ```
 
- Chúng tôi khởi tạo một`RadioButtonField`, đặt tên và sau đó thêm vào biểu mẫu tài liệu. Trường này sẽ cho phép người dùng thực hiện lựa chọn của họ.
+Chúng tôi khởi tạo một `RadioButtonField`, đặt tên và sau đó thêm vào biểu mẫu tài liệu. Trường này sẽ cho phép người dùng thực hiện lựa chọn của họ.
 
 ## Bước 5: Cấu hình tùy chọn nút radio
 
@@ -117,7 +119,7 @@ opt2.OptionName = "Item2";
 opt3.OptionName = "Item3";
 ```
 
- Ở đây, chúng ta tạo ra ba`RadioButtonOptionField` trường hợp cho mỗi lựa chọn của chúng tôi và gán tên cho chúng. Việc sáng tạo với những cái tên này có thể giúp hướng dẫn người dùng tốt hơn về những gì cần chọn.
+Ở đây, chúng ta tạo ra ba `RadioButtonOptionField` trường hợp cho mỗi lựa chọn của chúng tôi và gán tên cho chúng. Việc sáng tạo với những cái tên này có thể giúp hướng dẫn người dùng tốt hơn về những gì cần chọn.
 
 ## Bước 6: Thiết lập Kích thước cho Tùy chọn
 
@@ -146,7 +148,7 @@ rf.Add(opt3);
 
 Mã này không chỉ thêm các tùy chọn mà còn liên kết chúng với trường nút radio, cho phép người dùng chọn một trong các tùy chọn.
 
-## Bước 8: Định dạng các tùy chọn
+## Bước 8: Định kiểu cho các tùy chọn
 
 Để làm nổi bật các tùy chọn của chúng ta, hãy định kiểu cho chúng. Chúng ta có thể thêm đường viền và đặt màu.
 
@@ -159,7 +161,7 @@ opt1.DefaultAppearance.TextColor = System.Drawing.Color.Red;
 opt1.Caption = new TextFragment("Item1");
 ```
 
- Lặp lại kiểu dáng này cho`opt2` Và`opt3`, điều chỉnh chú thích cho phù hợp. Điều này đảm bảo rằng mỗi tùy chọn trông chuyên nghiệp và hấp dẫn.
+Lặp lại kiểu dáng này cho `opt2` Và `opt3`, điều chỉnh chú thích cho phù hợp. Điều này đảm bảo rằng mỗi tùy chọn trông chuyên nghiệp và hấp dẫn.
 
 ## Bước 9: Thêm Tùy chọn vào Ô
 
@@ -196,19 +198,21 @@ Nắm vững cách tạo các thành phần tương tác như nút radio với A
 Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo và xử lý các tài liệu PDF theo chương trình.
 
 ### Làm thế nào để cài đặt Aspose.PDF cho .NET?
- Bạn có thể tải xuống thư viện từ[Trang phát hành Aspose](https://releases.aspose.com/pdf/net/) và thêm nó vào dự án của bạn.
+Bạn có thể tải xuống thư viện từ [Trang phát hành Aspose](https://releases.aspose.com/pdf/net/) và thêm nó vào dự án của bạn.
 
 ### Tôi có thể tạo nút radio trong tệp PDF bằng ngôn ngữ lập trình khác không?
 Có, Aspose.PDF cũng có sẵn cho Java và các ngôn ngữ khác với chức năng tương tự.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Có, bạn có thể khám phá các chức năng của Aspose.PDF bằng cách tải xuống[phiên bản dùng thử miễn phí](https://releases.aspose.com/).
+Có, bạn có thể khám phá các chức năng của Aspose.PDF bằng cách tải xuống [phiên bản dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ từ các chuyên gia và thành viên cộng đồng.
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ từ các chuyên gia và thành viên cộng đồng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

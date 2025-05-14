@@ -1,14 +1,16 @@
 ---
-title: Zastąp obraz w istniejącym pliku PDF za pomocą Java
-linktitle: Zastąp obraz w istniejącym pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak zamieniać obrazy w plikach PDF za pomocą Javy, używając Aspose.PDF dla Javy. Przewodnik krok po kroku z przykładami kodu dla bezproblemowej zamiany obrazów.
-weight: 11
-url: /pl/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-java/
+"description": "Dowiedz się, jak zamieniać obrazy w plikach PDF za pomocą Javy, używając Aspose.PDF dla Javy. Przewodnik krok po kroku z przykładami kodu dla bezproblemowej zamiany obrazów."
+"linktitle": "Zastąp obraz w istniejącym pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Zastąp obraz w istniejącym pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zastąp obraz w istniejącym pliku PDF za pomocą Java
@@ -24,7 +26,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
 - Zintegrowane środowisko programistyczne (IDE) według własnego wyboru (np. Eclipse, IntelliJ IDEA).
--  Aspose.PDF dla biblioteki Java. Możesz pobrać ją z[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla biblioteki Java. Możesz pobrać ją z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Konfigurowanie środowiska
 
@@ -53,7 +55,7 @@ Aby zacząć, potrzebujesz istniejącego pliku PDF z obrazem, który chcesz zast
 Document pdfDocument = new Document("path/to/your/pdf/file.pdf");
 ```
 
- Zastępować`"path/to/your/pdf/file.pdf"` z rzeczywistą ścieżką do pliku PDF.
+Zastępować `"path/to/your/pdf/file.pdf"` z rzeczywistą ścieżką do pliku PDF.
 
 ## Zastępowanie obrazu w pliku PDF
 
@@ -65,7 +67,7 @@ int pageNumber = 0;
 
 // Określ współrzędne, w których obraz ma zostać zastąpiony
 float x = 100; // Współrzędna X
-float y = 200; //Współrzędna Y
+float y = 200; // Współrzędna Y
 
 // Podaj ścieżkę do nowego obrazu
 String newImagePath = "path/to/your/new/image.png";
@@ -85,7 +87,7 @@ Po zastąpieniu obrazu możesz zapisać zmodyfikowany dokument PDF.
 pdfDocument.save("path/to/your/output/modified.pdf");
 ```
 
- Zastępować`"path/to/your/output/modified.pdf"` z żądaną ścieżką i nazwą pliku zmodyfikowanego pliku PDF.
+Zastępować `"path/to/your/output/modified.pdf"` z żądaną ścieżką i nazwą pliku zmodyfikowanego pliku PDF.
 
 ## Wniosek
 
@@ -95,7 +97,7 @@ Gratulacje! Udało Ci się nauczyć, jak zastąpić obraz w istniejącym pliku P
 
 ### Jak mogę uzyskać bibliotekę Aspose.PDF dla Java?
 
- Bibliotekę Aspose.PDF dla języka Java można pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+Bibliotekę Aspose.PDF dla języka Java można pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ### Czy korzystanie z biblioteki Aspose.PDF jest bezpłatne?
 
@@ -111,10 +113,12 @@ Aspose.PDF for Java obsługuje szeroki zakres formatów obrazów, w tym JPEG, PN
 
 ### Jak mogę uzyskać wsparcie lub dalszą pomoc?
 
- Aby uzyskać dodatkową pomoc i zasoby, możesz zapoznać się z dokumentacją Aspose.PDF dla języka Java pod adresem[Tutaj](https://reference.aspose.com/pdf/java/).
+Aby uzyskać dodatkową pomoc i zasoby, możesz zapoznać się z dokumentacją Aspose.PDF dla języka Java pod adresem [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

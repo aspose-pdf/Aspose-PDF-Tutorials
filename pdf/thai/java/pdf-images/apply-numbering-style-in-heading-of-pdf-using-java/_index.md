@@ -1,14 +1,16 @@
 ---
-title: ใช้รูปแบบการนับเลขในส่วนหัวของ PDF โดยใช้ Java
-linktitle: ใช้รูปแบบการนับเลขในส่วนหัวของ PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีใช้รูปแบบการนับเลขกับหัวเรื่อง PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนของเรามีตัวอย่างโค้ดต้นฉบับสำหรับการสร้างเอกสารแบบมืออาชีพ
-weight: 14
-url: /th/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/
+"description": "เรียนรู้วิธีใช้รูปแบบการนับเลขกับหัวเรื่อง PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนของเรามีตัวอย่างโค้ดต้นฉบับสำหรับการสร้างเอกสารแบบมืออาชีพ"
+"linktitle": "ใช้รูปแบบการนับเลขในส่วนหัวของ PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ใช้รูปแบบการนับเลขในส่วนหัวของ PDF โดยใช้ Java"
+"url": "/th/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ใช้รูปแบบการนับเลขในส่วนหัวของ PDF โดยใช้ Java
@@ -50,12 +52,12 @@ heading.getTextState().setForegroundColor(com.aspose.pdf.Color.getBlack());
 heading.getTextState().setBackgroundColor(com.aspose.pdf.Color.getLightGray());
 
 // ตั้งค่าข้อความหัวข้อ
-TextFragment titleFragment = new TextFragment("Applying Numbering Style");
+TextFragment titleFragment = new TextFragment("การใช้รูปแบบการนับเลข");
 heading.getFragments().add(titleFragment);
 pdfDocument.getPages().get_Item(1).getParagraphs().add(heading);
 ```
 
-## การใช้รูปแบบการนับเลข
+## Applying Numbering Style
 
 ตอนนี้มาถึงส่วนที่น่าตื่นเต้นแล้ว นั่นคือการใช้รูปแบบการนับเลขกับหัวเรื่องของเรา Aspose.PDF สำหรับ Java มีวิธีง่ายๆ ในการทำสิ่งนี้ นี่คือตัวอย่างการใช้การนับเลข:
 
@@ -65,7 +67,7 @@ com.aspose.pdf.NumberingStyle numberingStyle = new com.aspose.pdf.NumberingStyle
 numberingStyle.setFormat("(1)");
 numberingStyle.setFirstIndex(1);
 
-// ใช้รูปแบบการนับหมายเลขกับหัวเรื่อง
+// ใช้รูปแบบการนับหมายเลขกับหัวข้อ
 heading.setNumberingStyle(numberingStyle);
 ```
 
@@ -102,8 +104,8 @@ java.awt.Desktop.getDesktop().open(new java.io.File("NumberedDocument.pdf"));
 
 หากต้องการติดตั้ง Aspose.PDF สำหรับ Java ให้ทำตามขั้นตอนเหล่านี้:
 
-1.  เยี่ยมชมเอกสาร Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
-2.  ดาวน์โหลดเวอร์ชันล่าสุดของไลบรารีได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+1. เยี่ยมชมเอกสาร Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+2. ดาวน์โหลดไลบรารีเวอร์ชันล่าสุดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 3. รวมไลบรารีเข้าในโครงการ Java ของคุณตามคำแนะนำในการติดตั้งที่ให้ไว้ในเอกสาร
 
 ### ฉันสามารถใช้ Aspose.PDF สำหรับ Java ได้ฟรีหรือไม่?
@@ -112,7 +114,7 @@ Aspose.PDF สำหรับ Java นำเสนอเวอร์ชันท
 
 ### เป็นไปได้หรือไม่ที่จะใช้รูปแบบการกำหนดหมายเลขที่แตกต่างกันกับส่วนต่าง ๆ ของเอกสาร?
 
- ใช่ คุณสามารถใช้รูปแบบการนับเลขที่แตกต่างกันกับส่วนต่างๆ ของเอกสาร PDF ได้โดยใช้ Aspose.PDF สำหรับ Java เพียงสร้างรูปแบบแยกต่างหาก`Heading` วัตถุและปรับแต่งรูปแบบการนับสำหรับแต่ละส่วน
+ใช่ คุณสามารถใช้รูปแบบการนับเลขที่แตกต่างกันกับส่วนต่างๆ ของเอกสาร PDF ได้โดยใช้ Aspose.PDF สำหรับ Java เพียงสร้างรูปแบบแยกต่างหาก `Heading` วัตถุและปรับแต่งรูปแบบการนับสำหรับแต่ละส่วน
 
 ### ฉันสามารถส่งออก PDF ที่มีหัวเรื่องแบบมีหมายเลขไปยังรูปแบบอื่นเช่น DOCX หรือ HTML ได้หรือไม่
 
@@ -120,10 +122,12 @@ Aspose.PDF สำหรับ Java นำเสนอเวอร์ชันท
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบอย่างครบถ้วน ตัวอย่างโค้ด และข้อมูลอ้างอิง API สำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์เอกสารประกอบที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารประกอบอย่างครบถ้วน ตัวอย่างโค้ด และข้อมูลอ้างอิง API สำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์เอกสารประกอบที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

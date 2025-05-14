@@ -1,14 +1,16 @@
 ---
-title: รับข้อมูลผลิตภัณฑ์และสร้าง PDF ใน Java
-linktitle: รับข้อมูลผลิตภัณฑ์และสร้าง PDF ใน Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีแยกข้อมูลผลิตภัณฑ์และสร้างจากไฟล์ PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการดึงข้อมูล PDF อย่างมีประสิทธิภาพ
-weight: 13
-url: /th/java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-java/
+"description": "เรียนรู้วิธีแยกข้อมูลผลิตภัณฑ์และสร้างจากไฟล์ PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการดึงข้อมูล PDF อย่างมีประสิทธิภาพ"
+"linktitle": "รับข้อมูลผลิตภัณฑ์และสร้าง PDF ใน Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "รับข้อมูลผลิตภัณฑ์และสร้าง PDF ใน Java"
+"url": "/th/java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับข้อมูลผลิตภัณฑ์และสร้าง PDF ใน Java
@@ -47,7 +49,7 @@ Document pdfDocument = new Document();
 ในหลายสถานการณ์ คุณอาจจำเป็นต้องดึงข้อมูลผลิตภัณฑ์จากไฟล์ PDF ซึ่งอาจรวมถึงรายละเอียด เช่น ชื่อผลิตภัณฑ์ เวอร์ชัน และผู้ผลิต Aspose.PDF สำหรับ Java ช่วยให้ดึงข้อมูลนี้ได้ง่าย
 
 ```java
-// ดึงข้อมูลสินค้า
+// ดึงข้อมูลผลิตภัณฑ์
 String productName = pdfDocument.getProductName();
 String productVersion = pdfDocument.getProductVersion();
 String productManufacturer = pdfDocument.getProductManufacturer();
@@ -60,7 +62,7 @@ System.out.println("Product Manufacturer: " + productManufacturer);
 
 ## การดึงข้อมูลการสร้าง
 
-ไฟล์ PDF มักมีข้อมูลที่เกี่ยวข้องกับการสร้าง เช่น วันที่สร้างหรือแก้ไข การแยกข้อมูลการสร้างเหล่านี้อาจมีความสำคัญสำหรับการตรวจสอบและติดตามการเปลี่ยนแปลงเอกสาร
+ไฟล์ PDF มักมีข้อมูลที่เกี่ยวข้องกับการสร้าง เช่น วันที่สร้างหรือแก้ไข การดึงข้อมูลการสร้างเหล่านี้ออกมาอาจมีความสำคัญสำหรับการตรวจสอบและติดตามการเปลี่ยนแปลงเอกสาร
 
 ```java
 // ดึงข้อมูลการสร้าง
@@ -97,7 +99,7 @@ System.out.println("Document Summary:\n" + documentSummary);
 หากต้องการแยกข้อมูลผลิตภัณฑ์จากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ Java ให้ทำตามขั้นตอนเหล่านี้:
 1. นำเข้าไลบรารี Aspose.PDF
 2. โหลดเอกสาร PDF
-3.  ใช้`getProductName()`, `getProductVersion()` , และ`getProductManufacturer()` วิธีการดึงข้อมูลรายละเอียดสินค้า
+3. ใช้ `getProductName()`- `getProductVersion()`, และ `getProductManufacturer()` วิธีการดึงข้อมูลรายละเอียดสินค้า
 
 ### ข้อมูลการสร้างคืออะไร และเหตุใดจึงสำคัญ?
 
@@ -114,9 +116,11 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีที่ม
 ### Aspose.PDF สำหรับ Java เหมาะกับไฟล์ PDF ทั้งขนาดเล็กและขนาดใหญ่หรือไม่
 
 ใช่ Aspose.PDF สำหรับ Java เหมาะสำหรับการประมวลผลไฟล์ PDF ทั้งขนาดเล็กและขนาดใหญ่ โดยมีวิธีที่มีประสิทธิภาพในการทำงานกับเอกสาร PDF ที่มีขนาดต่างๆ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

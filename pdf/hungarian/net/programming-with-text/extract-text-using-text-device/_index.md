@@ -1,34 +1,36 @@
 ---
-title: Szöveg kibontása szövegeszközzel
-linktitle: Szöveg kibontása szövegeszközzel
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan bonthat ki szöveget PDF-dokumentumból az Aspose.PDF for .NET szövegeszközével.
-weight: 210
-url: /hu/net/programming-with-text/extract-text-using-text-device/
+"description": "Ismerje meg, hogyan lehet szöveget kinyerni egy PDF dokumentumból a .NET-hez készült Aspose.PDF szövegeszközével."
+"linktitle": "Szöveg kinyerése szöveges eszközzel"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Szöveg kinyerése szöveges eszközzel"
+"url": "/hu/net/programming-with-text/extract-text-using-text-device/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szöveg kibontása szövegeszközzel
+# Szöveg kinyerése szöveges eszközzel
 
 ## Bevezetés
 
-szöveg kinyerése PDF-ből bonyolult lehet, különösen akkor, ha különféle formátumú, beágyazott betűtípusú vagy összetett elrendezésű dokumentumokkal foglalkozik. De az Aspose.PDF for .NET használatával ez a folyamat gyerekjáték lesz! Függetlenül attól, hogy egy PDF-fájl oldalait egyszerű szöveggé szeretné konvertálni további elemzés céljából, vagy egyszerűen csak bizonyos szakaszokat szeretne kivonatolni, az Aspose.PDF mindenre kiterjed. Ebben az oktatóanyagban lépésről lépésre lebontjuk, hogyan lehet szöveget kivonni PDF-ből az Aspose.PDF TextDevice osztályával. Világos magyarázatokat is adunk, így könnyedén alkalmazhatja ugyanazokat a módszereket saját projektjeinél.
+A szöveg kinyerése PDF-ből bonyolult lehet, különösen, ha olyan dokumentumokról van szó, amelyek különböző formátumúak, beágyazott betűtípusokkal vagy összetett elrendezésekkel rendelkeznek. De az Aspose.PDF for .NET segítségével ez a folyamat gyerekjáték lesz! Akár egy PDF oldalait szeretnéd egyszerű szöveggé konvertálni további elemzés céljából, akár csak bizonyos részeket kell kinyerned, az Aspose.PDF ezt is segíti. Ebben az oktatóanyagban lépésről lépésre bemutatjuk, hogyan lehet szöveget kinyerni egy PDF-ből az Aspose.PDF TextDevice osztályának használatával. Világos magyarázatokat is adunk, így könnyedén alkalmazhatod ugyanazokat a módszereket a saját projektjeidben.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, győződjön meg arról, hogy minden a helyén van a követéshez. Íme, amire szüksége lesz:
+Mielőtt belevágnánk a kódba, győződjünk meg róla, hogy minden a helyén van a folytatáshoz. Íme, amire szükséged lesz:
 
-1.  Aspose.PDF for .NET: Töltse le a legújabb verziót a[Aspose.PDF .NET letöltési oldalhoz](https://releases.aspose.com/pdf/net/).
-2. Fejlesztői környezet: Visual Studio vagy bármely más C# fejlesztői környezet.
-3. .NET-keretrendszer: Győződjön meg arról, hogy a projektje a .NET-keretrendszer 4.x vagy újabb verzióját célozza meg.
-4. Beviteli PDF-fájl: PDF-fájl, amelyet szövegkivonathoz használhat. Helyezze el ezt egy könyvtárba a gépén (ezt úgy fogjuk hivatkozni, mint`YOUR DOCUMENT DIRECTORY`).
+1. Aspose.PDF .NET-hez: Töltse le a legújabb verziót innen: [Aspose.PDF .NET letöltési oldalhoz](https://releases.aspose.com/pdf/net/).
+2. Fejlesztői környezet: Visual Studio vagy bármilyen más C# fejlesztői környezet.
+3. .NET-keretrendszer: Győződjön meg arról, hogy a projekt a .NET-keretrendszer 4.x-es vagy újabb verzióját célozza meg.
+4. Bemeneti PDF-fájl: Egy PDF-fájl, amelyet szöveg kinyerésére fog használni. Helyezze el ezt a gépén egy könyvtárban (erre a továbbiakban úgy hivatkozunk, mint `YOUR DOCUMENT DIRECTORY`).
 
 ## Csomagok importálása
 
-A kód tetején importálnia kell a szükséges névtereket az Aspose.PDF használatához:
+A kód tetején importálnod kell a szükséges névtereket az Aspose.PDF használatához:
 
 ```csharp
 using System.IO;
@@ -39,117 +41,119 @@ using System;
 using System.Text;
 ```
 
-## 1. lépés: Töltse be a PDF-dokumentumot
+## 1. lépés: Töltse be a PDF dokumentumot
 
- A szöveg kibontása előtt be kell töltenünk a PDF dokumentumot a memóriába. Ebben a lépésben az Aspose.PDF használatával nyissa meg a PDF-fájlt`Document` osztály. Ezzel elérheti a fájl összes oldalát és tartalmát.
+A szöveg kinyerése előtt be kell töltenünk a PDF dokumentumot a memóriába. Ebben a lépésben az Aspose.PDF fájljaival nyitjuk meg a PDF dokumentumot. `Document` osztály. Ez lehetővé teszi a fájlban található összes oldal és tartalom elérését.
 
 ```csharp
-// Határozza meg a PDF-dokumentum elérési útját
+// Adja meg a PDF dokumentum elérési útját
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Töltse be a PDF dokumentumot
+// PDF dokumentum betöltése
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Itt használjuk`Document pdfDocument = new Document(dataDir + "input.pdf");` a PDF betöltéséhez. A`dataDir` változó tartalmazza a PDF-fájl könyvtárának elérési útját. Ez hozzáférést biztosít számunkra a teljes dokumentumhoz, lehetővé téve az oldalak közötti hurokolást és a tartalom kibontását.
+Itt használjuk `Document pdfDocument = new Document(dataDir + "input.pdf");` a PDF betöltéséhez. `dataDir` változó a PDF-fájl könyvtárelérési útját tartalmazza. Ez hozzáférést biztosít a teljes dokumentumhoz, lehetővé téve számunkra, hogy az oldalak között végighaladjunk és a tartalmat kinyerjük.
 
-## 2. lépés: Állítson be egy String Buildert a szövegtároláshoz
+## 2. lépés: Szövegtároláshoz használható karakterlánc-szerkesztő beállítása
 
- Most, hogy a dokumentum betöltődött, szükségünk van egy módra a kivont szöveg tárolására. Ehhez használjuk a`StringBuilder` amely lehetővé teszi a hatékony karakterlánc-összefűzést.
+Most, hogy a dokumentum betöltődött, szükségünk van egy módszerre a kinyert szöveg tárolására. Ehhez egy `StringBuilder` amely lehetővé teszi a hatékony karakterlánc-összefűzést.
 
 ```csharp
 // StringBuilder a kivont szöveg tárolására
 StringBuilder builder = new StringBuilder();
 ```
 
- Inicializáljuk a`StringBuilder`példány, amely összegyűjti az egyes oldalakról kivont szöveget. Hatékonyabb módja a nagy karakterláncok kezelésének, mint a hurokban történő szokásos karakterlánc-összefűzés.
+Inicializálunk egy `StringBuilder` példány, amely az egyes oldalakról kinyert szöveget gyűjti össze. Ez egy hatékonyabb módja a nagy karakterláncok kezelésének, mint a ciklusban történő hagyományos karakterlánc-összefűzés.
 
-## 3. lépés: Lapozzon át PDF-oldalakon
+## 3. lépés: PDF oldalak ismétlése
 
- Ezután végigpörgetjük a PDF-dokumentum minden oldalát a szöveg kinyeréséhez. Minden oldalt egyenként dolgozunk fel a`TextDevice` osztály, amely a PDF tartalom szöveges formátumba konvertálásáért felelős.
+Ezután végigmegyünk a PDF dokumentum minden oldalán, hogy kinyerjük a szöveget. Minden oldalt külön-külön fogunk feldolgozni a `TextDevice` osztály, amely a PDF tartalom szöveges formátumba konvertálásáért felelős.
 
 ```csharp
-// Lapozzon végig a PDF összes oldalán
+// Végigpörgetés a PDF összes oldalán
 foreach (Page pdfPage in pdfDocument.Pages)
 {
-    // Minden oldal feldolgozása szövegkivonathoz
+    // Minden oldal feldolgozása szöveg kinyeréséhez
 }
 ```
 
-Ez a ciklus végigmegy a PDF minden oldalán (`pdfDocument.Pages` ). Minden oldalról kivonjuk a szöveget, és hozzáadjuk a mi oldalunkhoz`StringBuilder`.
+Ez a ciklus végigmegy a PDF minden oldalán (`pdfDocument.Pages`). Minden oldalról kinyerjük a szöveget, és hozzáadjuk a `StringBuilder`.
 
-## 4. lépés: Szöveg kibontása minden oldalról
+## 4. lépés: Szöveg kinyerése minden oldalról
 
- Most minden oldalhoz beállítjuk a szövegkivonási folyamatot. Itt létrehozunk egy`TextDevice` objektumot, és használja a PDF-oldalak feldolgozásához. A`TextDevice` nyers vagy formázott szöveget bont ki az általunk beállított kinyerési beállítások alapján.
+Most beállítjuk a szövegkinyerési folyamatot minden oldalhoz. Itt létrehozunk egy `TextDevice` objektumot, és használja azt a PDF oldalak feldolgozásához. `TextDevice` nyers vagy formázott szöveget nyer ki a beállított kinyerési beállítások alapján.
 
 ```csharp
 using (MemoryStream textStream = new MemoryStream())
 {
-    // Hozzon létre egy szövegeszközt szövegkivonathoz
+    // Szöveges eszköz létrehozása szöveg kinyeréséhez
     TextDevice textDevice = new TextDevice();
     
-    // Állítsa a szövegkivonási beállításokat „Tiszta” módra
+    // A szövegkiemelési beállításokat „Tiszta” módra kell állítani
     TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);
     textDevice.ExtractionOptions = textExtOptions;
 
-    //Szöveg kibontása az aktuális oldalról, és mentse a memóriafolyamba
+    // Szöveg kinyerése az aktuális oldalról és mentése a memóriafolyamba
     textDevice.Process(pdfPage, textStream);
 
-    // Memóriafolyam átalakítása szöveggé
+    // Memóriafolyam szöveggé konvertálása
     string extractedText = Encoding.Unicode.GetString(textStream.ToArray());
 
-    // A kibontott szöveg hozzáfűzése a StringBuilderhez
+    // A kivont szöveg hozzáfűzése a StringBuilderhez
     builder.Append(extractedText);
 }
 ```
 
-- `TextDevice textDevice = new TextDevice();` : A`TextDevice` osztályt használjuk a szöveg kinyerésére a PDF-ből.
-- `TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);` : Ez az opció kivonja a nyers szöveget anélkül, hogy megtartana bármilyen formázást, például betűtípusokat vagy pozíciókat. Használhatod is`TextFormattingMode.Raw` ha nagyobb ellenőrzésre van szüksége a formázás felett.
-- `textDevice.Process(pdfPage, textStream);` : Ez feldolgozza a PDF minden oldalát, és a kivonatolt szöveget a`MemoryStream`.
--  Végül konvertáljuk a szöveget a`MemoryStream` egy karakterlánchoz, és fűzze hozzá a`StringBuilder`.
+- `TextDevice textDevice = new TextDevice();`A `TextDevice` Az osztály szöveg kinyerésére szolgál a PDF-ből.
+- `TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);`: Ez a beállítás a nyers szöveget kinyeri a formázás, például a betűtípusok vagy a pozíciók megőrzése nélkül. Használhatja ezt is: `TextFormattingMode.Raw` ha nagyobb kontrollra van szükséged a formázás felett.
+- `textDevice.Process(pdfPage, textStream);`: Ez a funkció feldolgozza a PDF minden egyes oldalát, és a kinyert szöveget egy fájlban tárolja. `MemoryStream`.
+- Végül konvertáljuk a szöveget a következőből: `MemoryStream` egy karakterlánchoz, és hozzáfűzi a `StringBuilder`.
 
-## 5. lépés: A kibontott szöveg mentése fájlba
+## 5. lépés: Mentse el a kibontott szöveget egy fájlba
 
- Az összes oldal feldolgozása után a szöveg a`StringBuilder`. Az utolsó lépés a kibontott szöveg mentése egy fájlba.
+Az összes oldal feldolgozása után a szöveg a következő helyen tárolódik: `StringBuilder`Az utolsó lépés a kibontott szöveg fájlba mentése.
 
 ```csharp
-// Határozza meg a szövegfájl kimeneti útvonalát
+// A szövegfájl kimeneti elérési útjának meghatározása
 dataDir = dataDir + "input_Text_Extracted_out.txt";
 
-// Mentse el a kicsomagolt szöveget egy fájlba
+// Mentse el a kibontott szöveget egy fájlba
 File.WriteAllText(dataDir, builder.ToString());
 
 Console.WriteLine("\nText extracted successfully from PDF document.\nFile saved at " + dataDir);
 ```
 
-- `File.WriteAllText(dataDir, builder.ToString());` : Ez írja a teljes tartalmát`StringBuilder` szöveges fájlba.
-- A kimeneti fájl elérési útját egy fájlnév (`"input_Text_Extracted_out.txt"` ) a`dataDir` útvonal.
+- `File.WriteAllText(dataDir, builder.ToString());`: Ez kiírja a teljes tartalmat `StringBuilder` egy szövegfájlba.
+- A kimeneti fájl elérési útját egy fájlnév hozzáfűzésével állítjuk be (`"input_Text_Extracted_out.txt"`) a `dataDir` útvonal.
 
 ## Következtetés
 
-szöveg kinyerése PDF-ből az Aspose.PDF for .NET használatával egyszerű és hatékony folyamat. Az ebben az útmutatóban ismertetett lépések követésével könnyedén megnyithat PDF-dokumentumokat, lapozhat az oldalakon, és szöveget szövegfájlba bonthat ki. Ez különösen hasznos nagy mennyiségű PDF-adat feldolgozásához, szövegelemzéshez vagy dokumentumok további manipulációhoz való konvertálásához.
+A szöveg kinyerése PDF-ből az Aspose.PDF for .NET segítségével egy egyszerű és hatékony folyamat. Az útmutatóban ismertetett lépéseket követve könnyedén megnyithatja a PDF dokumentumokat, végiglapozhatja az oldalakat, és kinyerheti a szöveget egy szövegfájlba. Ez különösen hasznos nagy mennyiségű PDF adat feldolgozásakor, szövegelemzés elvégzéséhez vagy dokumentumok további kezelés céljából történő konvertálásához.
 
-Az Aspose.PDF segítségével nem korlátozódhat a szövegkivonatokra – kezelheti a megjegyzéseket, manipulálhat képeket, vagy akár PDF-eket konvertálhat más formátumokba, például HTML- vagy Word-formátumba. A könyvtár rugalmassága és teljesítménye felbecsülhetetlen értékű eszközzé teszi a .NET-alkalmazások PDF-kezeléséhez.
+Az Aspose.PDF segítségével nem csak szöveget lehet kinyerni – kezelni lehet a jegyzeteket, manipulálni a képeket, sőt PDF-eket is lehet konvertálni más formátumokba, például HTML-be vagy Wordbe. A könyvtár rugalmassága és teljesítménye felbecsülhetetlen értékű eszközzé teszi a PDF-ek kezeléséhez a .NET alkalmazásokban.
 
 ## GYIK
 
-### Az Aspose.PDF ki tudja bontani a szöveget képalapú PDF-ekből?
-Nem, az Aspose.PDF-et arra tervezték, hogy szöveget kinyerjen a tartalomalapú PDF-ekből. Kép alapú PDF-ekhez OCR technológia szükséges.
+### Az Aspose.PDF képes szöveget kinyerni képalapú PDF-ekből?
+Nem, az Aspose.PDF tartalomalapú PDF-ekből való szöveg kinyerésére szolgál. Képalapú PDF-ekhez OCR technológia szükséges.
 
-### Az Aspose.PDF megőrzi a formázást a szöveg kibontásakor?
-Alapértelmezés szerint a szöveg formázás nélkül kerül kibontásra, de módosíthatja a kivonatolási beállításokat, ha meg szeretné tartani a formázást.
+### Az Aspose.PDF megőrzi a formázást a szöveg kinyerésekor?
+Alapértelmezés szerint a szöveg formázás nélkül kerül kinyerésre, de a kinyerési beállítások módosításával megőrizheti a formázás egy részét.
 
-### Kivonhatok szöveget egy adott oldaltartományból?
-Igen, módosíthatja a kódot úgy, hogy az összes oldal helyett egy adott oldaltartományon futjon át.
+### Ki tudok nyerni szöveget egy adott oldaltartományból?
+Igen, módosíthatod a kódot úgy, hogy az összes oldal helyett csak egy adott oldaltartományon menjen végig.
 
-### Melyek az Aspose.PDF szövegkivonási módjai?
-Az Aspose.PDF két módot kínál: nyers és tiszta. A Nyers mód megpróbálja megőrizni az eredeti elrendezést, míg a Pure mód csak a szöveget bontja ki formázás nélkül.
+### Milyen szövegkiemelési módok vannak az Aspose.PDF fájlban?
+Az Aspose.PDF két módot kínál: Nyers és Tiszta. A Nyers mód megpróbálja megőrizni az eredeti elrendezést, míg a Tiszta mód csak a szöveget nyeri ki formázás nélkül.
 
-### Az Aspose.PDF for .NET kompatibilis a .NET Core programmal?
-Igen, az Aspose.PDF for .NET teljes mértékben kompatibilis a .NET Core és a .NET Framework programmal.
+### Az Aspose.PDF for .NET kompatibilis a .NET Core-ral?
+Igen, az Aspose.PDF for .NET teljes mértékben kompatibilis a .NET Core-ral és a .NET Frameworkkel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

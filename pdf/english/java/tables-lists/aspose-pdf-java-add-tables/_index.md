@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.PDF Java: Adding and Adjusting Tables in PDF Documents
 
@@ -200,6 +202,9 @@ A: Use APIs to export data directly into PDFs from databases or spreadsheets.
 A: Yes, you can script and automate these tasks using Aspose.PDF Java libraries.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

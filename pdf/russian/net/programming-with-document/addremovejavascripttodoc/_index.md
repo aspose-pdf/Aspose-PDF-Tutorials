@@ -1,14 +1,16 @@
 ---
-title: Добавить Удалить Javascript в PDF-документ
-linktitle: Добавить Удалить Javascript в документ
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как добавлять и удалять JavaScript в PDF-документе с помощью Aspose.PDF для .NET. Пошаговое руководство с обучающими материалами по коду для сценариев на уровне документа.
-weight: 30
-url: /ru/net/programming-with-document/addremovejavascripttodoc/
+"description": "Узнайте, как добавлять и удалять JavaScript в PDF-документе с помощью Aspose.PDF для .NET. Пошаговое руководство с обучающими материалами по коду для сценариев на уровне документа."
+"linktitle": "Добавить Удалить Javascript в документ"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Добавить Удалить Javascript в PDF-документ"
+"url": "/ru/net/programming-with-document/addremovejavascripttodoc/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить Удалить Javascript в PDF-документ
@@ -21,14 +23,14 @@ url: /ru/net/programming-with-document/addremovejavascripttodoc/
 
 Прежде чем мы углубимся в код, вам необходимо настроить несколько вещей:
 
-1.  Aspose.PDF для .NET: Вам понадобится библиотека Aspose.PDF для .NET, установленная в вашем проекте. Если у вас ее еще нет, возьмите библиотеку из[Страница загрузки Aspose.PDF для .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF для .NET: Вам понадобится библиотека Aspose.PDF для .NET, установленная в вашем проекте. Если у вас ее еще нет, возьмите библиотеку из [Страница загрузки Aspose.PDF для .NET](https://releases.aspose.com/pdf/net/).
 2. IDE или текстовый редактор: вы можете использовать любую совместимую с .NET IDE, например Visual Studio.
 3. Базовые знания C#: в этом руководстве предполагается, что вы хорошо разбираетесь в C# и знакомы с работой с PDF-файлами.
-4. Лицензия: Обязательно используйте действующую лицензию, чтобы избежать ограничений. Вы можете получить временную лицензию от[здесь](https://purchase.aspose.com/temporary-license/).
+4. Лицензия: Обязательно используйте действующую лицензию, чтобы избежать ограничений. Вы можете получить временную лицензию от [здесь](https://purchase.aspose.com/temporary-license/).
 
 ## Импортные пакеты
 
-Чтобы начать использовать Aspose.PDF для .NET, вам нужно импортировать необходимые пространства имен в ваш проект. Вот как:
+Чтобы начать использовать Aspose.PDF для .NET, вам нужно импортировать необходимые пространства имен в ваш проект. Вот как это сделать:
 
 ```csharp
 using System.IO;
@@ -39,7 +41,7 @@ using Aspose.Pdf.Text;
 using System.Collections;
 ```
 
- Эти два пространства имен имеют важное значение.`Aspose.Pdf` позволяет работать с PDF-документами, при этом`System.Collections` будет использоваться для обработки ключей JavaScript.
+Эти два пространства имен имеют важное значение. `Aspose.Pdf` позволяет работать с PDF-документами, при этом `System.Collections` будет использоваться для обработки ключей JavaScript.
 
 Давайте разберем весь процесс добавления и удаления JavaScript из PDF-файла на простые для понимания шаги.
 
@@ -52,7 +54,7 @@ Document doc = new Document();
 doc.Pages.Add();
 ```
 
- Здесь мы инициализируем новый`Document` объект и добавление к нему пустой страницы. Думайте об этом как о фундаменте вашего PDF.
+Здесь мы инициализируем новый `Document` объект и добавление к нему пустой страницы. Думайте об этом как о фундаменте вашего PDF.
 
 ## Шаг 2: Добавьте JavaScript в PDF-файл
 
@@ -63,7 +65,7 @@ doc.JavaScript["func1"] = "function func1() { hello(); }";
 doc.JavaScript["func2"] = "function func2() { hello(); }";
 ```
 
-В этом фрагменте кода мы добавляем две функции JavaScript (`func1` и`func2` ) в PDF. Эти функции могут выполнять различные задачи в зависимости от ваших потребностей. Здесь мы просто вызываем функцию-заполнитель, называемую`hello()`.
+В этом фрагменте кода мы добавляем две функции JavaScript (`func1` и `func2`) в PDF. Эти функции могут выполнять различные задачи в зависимости от ваших потребностей. Здесь мы просто вызываем функцию-заполнитель, называемую `hello()`.
 
 ## Шаг 3: Сохраните PDF-файл с помощью JavaScript
 
@@ -73,7 +75,7 @@ doc.JavaScript["func2"] = "function func2() { hello(); }";
 doc.Save(dataDir + "AddJavascript.pdf");
 ```
 
- Это сохранит документ с JavaScript под именем`AddJavascript.pdf` в указанном каталоге (`dataDir`).
+Это сохранит документ с JavaScript под именем `AddJavascript.pdf` в указанном каталоге (`dataDir`).
 
 ## Шаг 4: Загрузка и просмотр JavaScript в существующем PDF-файле
 
@@ -84,7 +86,7 @@ Document doc1 = new Document(dataDir + "AddJavascript.pdf");
 IList keys = (System.Collections.IList)doc1.JavaScript.Keys;
 ```
 
- Мы загружаем существующий`AddJavascript.pdf` и сохранение ключей JavaScript в списке.`Keys` Свойство возвращает имена всех функций JavaScript, прикрепленных к документу.
+Мы загружаем существующий `AddJavascript.pdf` и сохранение ключей JavaScript в списке. `Keys` Свойство возвращает имена всех функций JavaScript, прикрепленных к документу.
 
 ## Шаг 5: Отображение функций JavaScript
 
@@ -102,18 +104,18 @@ foreach (string key in keys)
 
 ## Шаг 6: Удалите JavaScript из PDF-файла
 
- Теперь предположим, что вы хотите удалить определенную функцию JavaScript, например`func1`. Вот как это можно сделать:
+Теперь предположим, что вы хотите удалить определенную функцию JavaScript, например `func1`. Вот как это можно сделать:
 
 ```csharp
 doc1.JavaScript.Remove("func1");
 Console.WriteLine("Key 'func1' removed ");
 ```
 
- The`Remove` Метод принимает имя функции JavaScript в качестве аргумента и удаляет ее из документа.
+The `Remove` Метод принимает имя функции JavaScript в качестве аргумента и удаляет ее из документа.
 
 ## Шаг 7: Проверка удаления JavaScript
 
- После удаления JavaScript вы можете перепечатать оставшиеся функции, чтобы убедиться, что`func1` успешно удален.
+После удаления JavaScript вы можете перепечатать оставшиеся функции, чтобы убедиться, что `func1` успешно удален.
 
 ```csharp
 Console.WriteLine("=============================== ");
@@ -133,10 +135,10 @@ Console.WriteLine("Javascript added/removed successfully.");
 ## Часто задаваемые вопросы
 
 ### Можно ли добавить несколько функций JavaScript в один PDF-файл?
- Конечно! Вы можете добавить столько функций JavaScript, сколько вам нужно, используя`doc.JavaScript` коллекция.
+Конечно! Вы можете добавить столько функций JavaScript, сколько вам нужно, используя `doc.JavaScript` коллекция.
 
 ### Что произойдет, если я попытаюсь удалить несуществующую функцию JavaScript?
- Если функция не существует, то`Remove` метод не выдаст ошибку, но и ничего не удалит.
+Если функция не существует, то `Remove` метод не выдаст ошибку, но и ничего не удалит.
 
 ### Можно ли запустить JavaScript сразу после открытия PDF-файла?
 Да! Вы можете настроить JavaScript для запуска при определенных триггерах, таких как открытие документа или нажатие кнопки.
@@ -146,9 +148,11 @@ Console.WriteLine("Javascript added/removed successfully.");
 
 ### Влияет ли удаление JavaScript на остальное содержимое PDF-файла?
 Нет, удаление JavaScript влияет только на скрипт. Содержимое PDF остается неизменным.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

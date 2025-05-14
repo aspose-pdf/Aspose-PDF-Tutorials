@@ -1,14 +1,16 @@
 ---
-title: ชื่อแท็กที่กำหนดเองสำหรับ PDF โดยใช้ Java
-linktitle: ชื่อแท็กที่กำหนดเองสำหรับ PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีตั้งชื่อแท็กแบบกำหนดเองสำหรับเอกสาร PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java
-weight: 13
-url: /th/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/
+"description": "เรียนรู้วิธีตั้งชื่อแท็กแบบกำหนดเองสำหรับเอกสาร PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java"
+"linktitle": "ชื่อแท็กที่กำหนดเองสำหรับ PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ชื่อแท็กที่กำหนดเองสำหรับ PDF โดยใช้ Java"
+"url": "/th/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ชื่อแท็กที่กำหนดเองสำหรับ PDF โดยใช้ Java
@@ -58,7 +60,7 @@ page.getParagraphs().add(paragraph);
 
 ## ขั้นตอนที่ 3: กำหนดชื่อแท็กที่กำหนดเอง
 
- หากต้องการตั้งชื่อแท็กที่กำหนดเอง คุณจะต้องใช้`Tagged` ฟีเจอร์ที่จัดทำโดย Aspose.PDF นี่คือวิธีที่คุณสามารถกำหนดชื่อแท็กแบบกำหนดเองสำหรับองค์ประกอบที่เราเพิ่ม:
+หากต้องการตั้งชื่อแท็กที่กำหนดเอง คุณจะต้องใช้ `Tagged` ฟีเจอร์ที่จัดทำโดย Aspose.PDF นี่คือวิธีที่คุณสามารถกำหนดชื่อแท็กแบบกำหนดเองสำหรับองค์ประกอบที่เราเพิ่ม:
 
 ```java
 // เปิดใช้งานคุณสมบัติแท็ก
@@ -109,9 +111,11 @@ pdfDocument.save("CustomTagNames.pdf");
 
 ### 5. มีแนวทางปฏิบัติที่ดีที่สุดในการเลือกชื่อแท็กที่กำหนดเองหรือไม่
 เลือกชื่อแท็กที่อธิบายเนื้อหาได้อย่างถูกต้องและปฏิบัติตามหลักเกณฑ์การเข้าถึงเพื่อความสม่ำเสมอและชัดเจน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

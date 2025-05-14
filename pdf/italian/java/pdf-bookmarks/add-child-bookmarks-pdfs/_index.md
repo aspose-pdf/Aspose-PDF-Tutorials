@@ -1,29 +1,31 @@
 ---
-title: Aggiungere segnalibri figlio ai PDF
-linktitle: Aggiungere segnalibri figlio ai PDF
-second_title: API di elaborazione PDF Java Aspose.PDF
-description: Scopri come migliorare i documenti PDF con segnalibri figlio usando Aspose.PDF per Java. Guida passo passo con esempi di codice per una navigazione e un'organizzazione migliorate.
-weight: 11
-url: /it/java/pdf-bookmarks/add-child-bookmarks-pdfs/
+"description": "Scopri come migliorare i documenti PDF con segnalibri secondari utilizzando Aspose.PDF per Java. Guida passo passo con esempi di codice per migliorare la navigazione e l'organizzazione."
+"linktitle": "Aggiungere segnalibri per bambini ai PDF"
+"second_title": "API di elaborazione PDF Java Aspose.PDF"
+"title": "Aggiungere segnalibri per bambini ai PDF"
+"url": "/it/java/pdf-bookmarks/add-child-bookmarks-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungere segnalibri figlio ai PDF
+# Aggiungere segnalibri per bambini ai PDF
 
 
 ## Introduzione all'aggiunta di segnalibri figlio ai PDF
 
-In questo articolo, esploreremo come aggiungere segnalibri figlio ai documenti PDF utilizzando Aspose.PDF per Java. I segnalibri figlio sono un modo comodo per organizzare e navigare nel contenuto di un documento PDF, rendendo più facile per gli utenti trovare sezioni o argomenti specifici all'interno del documento.
+In questo articolo, esploreremo come aggiungere segnalibri secondari ai documenti PDF utilizzando Aspose.PDF per Java. I segnalibri secondari sono un modo pratico per organizzare e navigare nel contenuto di un documento PDF, facilitando la ricerca di sezioni o argomenti specifici all'interno del documento.
 
 ## Prerequisiti
 
-Prima di addentrarci nell'implementazione, assicurati di avere i seguenti prerequisiti:
+Prima di passare all'implementazione, assicurati di avere i seguenti prerequisiti:
 
 - Ambiente di sviluppo Java installato sul tuo sistema.
--  Aspose.PDF per la libreria Java. Puoi scaricarlo da[Qui](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF per la libreria Java. Puoi scaricarlo da [Qui](https://releases.aspose.com/pdf/java/).
 
 ## Impostazione dell'ambiente
 
@@ -45,11 +47,11 @@ pdfDocument.getPages().add();
 pdfDocument.getPages().add();
 ```
 
-In questo esempio abbiamo creato un nuovo documento PDF e vi abbiamo aggiunto due pagine.
+In questo esempio, abbiamo creato un nuovo documento PDF e gli abbiamo aggiunto due pagine.
 
-## Aggiungere segnalibri per i genitori
+## Aggiunta di segnalibri per i genitori
 
-I segnalibri principali servono come sezioni o categorie principali nel tuo documento PDF. Creiamo alcuni segnalibri principali:
+I segnalibri principali fungono da sezioni o categorie principali nel documento PDF. Creiamo alcuni segnalibri principali:
 
 ```java
 // Crea segnalibri principali
@@ -63,11 +65,11 @@ parentBookmark.setTitle("Parent Bookmark 2");
 outline.add(parentBookmark);
 ```
 
-Abbiamo aggiunto due segnalibri principali, "Segnalibro principale 1" e "Segnalibro principale 2".
+Abbiamo aggiunto due segnalibri principali: "Segnalibro principale 1" e "Segnalibro principale 2".
 
-## Aggiungere segnalibri figlio
+## Aggiunta di segnalibri per bambini
 
-Ora è il momento di aggiungere segnalibri figlio ai segnalibri padre che abbiamo creato in precedenza. I segnalibri figlio rappresentano argomenti specifici o sottosezioni all'interno di ogni segnalibro padre. Ecco come puoi farlo:
+Ora è il momento di aggiungere segnalibri secondari ai segnalibri principali creati in precedenza. I segnalibri secondari rappresentano argomenti o sottosezioni specifici all'interno di ciascun segnalibro principale. Ecco come fare:
 
 ```java
 // Aggiungi segnalibri figlio al segnalibro genitore 1
@@ -79,7 +81,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Aggiungi segnalibri figlio al segnalibro genitore 2
+// Aggiungi segnalibri figlio al segnalibro genitore 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -89,7 +91,7 @@ Abbiamo aggiunto segnalibri secondari sia al "Segnalibro principale 1" che al "S
 
 ## Personalizzazione dell'aspetto del segnalibro
 
-Puoi personalizzare l'aspetto dei segnalibri modificandone il testo e lo stile. Inoltre, puoi aggiungere icone ai segnalibri per una migliore rappresentazione visiva. Ecco un esempio di come farlo:
+È possibile personalizzare l'aspetto dei segnalibri modificandone il testo e lo stile. Inoltre, è possibile aggiungere icone ai segnalibri per una migliore rappresentazione visiva. Ecco un esempio:
 
 ```java
 // Personalizza l'aspetto del segnalibro
@@ -102,7 +104,7 @@ In questo esempio, abbiamo reso il segnalibro principale in corsivo, cambiato il
 
 ## Gestione degli eventi
 
-I segnalibri possono anche avere azioni associate. Ad esempio, puoi aggiungere azioni che si attivano quando un utente fa clic su un segnalibro. Ecco come puoi gestire gli eventi di clic sui segnalibri:
+Ai segnalibri possono anche essere associate delle azioni. Ad esempio, è possibile aggiungere azioni che si attivano quando un utente fa clic su un segnalibro. Ecco come gestire gli eventi di clic sui segnalibri:
 
 ```java
 // Aggiungere un'azione a un segnalibro
@@ -114,7 +116,7 @@ In questo codice abbiamo aggiunto un'azione "Vai a" a un segnalibro figlio che, 
 
 ## Salvataggio del PDF
 
-Dopo aver aggiunto tutti i segnalibri necessari e personalizzato il loro aspetto e le loro azioni, puoi salvare il documento PDF modificato:
+Dopo aver aggiunto tutti i segnalibri necessari e averne personalizzato l'aspetto e le azioni, puoi salvare il documento PDF modificato:
 
 ```java
 // Salva il documento PDF
@@ -125,7 +127,7 @@ Il tuo documento PDF con i segnalibri secondari è ora pronto.
 
 ## Codice sorgente completo
 
-Ecco il codice sorgente completo per aggiungere segnalibri figlio a un documento PDF utilizzando Aspose.PDF per Java:
+Ecco il codice sorgente completo per aggiungere segnalibri secondari a un documento PDF utilizzando Aspose.PDF per Java:
 
 ```java
 // Inizializzare un documento PDF
@@ -154,7 +156,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Aggiungi segnalibri figlio al segnalibro genitore 2
+// Aggiungi segnalibri figlio al segnalibro genitore 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -174,15 +176,15 @@ pdfDocument.save("output.pdf");
 
 ## Conclusione
 
-Aggiungere segnalibri figlio ai PDF usando Aspose.PDF per Java è una potente funzionalità che migliora la navigazione e l'organizzazione dei tuoi documenti. Seguendo i passaggi descritti in questo articolo, puoi creare PDF ben strutturati con segnalibri padre e figlio, personalizzarne l'aspetto e persino aggiungere azioni per migliorare l'esperienza utente.
+L'aggiunta di segnalibri secondari ai PDF tramite Aspose.PDF per Java è una potente funzionalità che migliora la navigazione e l'organizzazione dei documenti. Seguendo i passaggi descritti in questo articolo, è possibile creare PDF ben strutturati con segnalibri principali e secondari, personalizzarne l'aspetto e persino aggiungere azioni per migliorare l'esperienza utente.
 
 ## Domande frequenti
 
 ### Come posso scaricare Aspose.PDF per Java?
 
- Puoi scaricare Aspose.PDF per Java dal sito web[Qui](https://releases.aspose.com/pdf/java/).
+Puoi scaricare Aspose.PDF per Java dal sito web [Qui](https://releases.aspose.com/pdf/java/).
 
-### I segnalibri secondari sono supportati in tutti i visualizzatori PDF?
+### segnalibri secondari sono supportati in tutti i visualizzatori PDF?
 
 Sì, i segnalibri secondari sono supportati dalla maggior parte dei moderni visualizzatori PDF e garantiscono un'esperienza utente migliorata per la navigazione nei documenti PDF.
 
@@ -197,9 +199,11 @@ Oltre alle azioni "Vai a", è possibile aggiungere azioni come azioni "URI" per 
 ### Aspose.PDF per Java è adatto a progetti commerciali?
 
 Sì, Aspose.PDF per Java è adatto sia a progetti personali che commerciali e offre un'ampia gamma di funzionalità per la generazione e la manipolazione di PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

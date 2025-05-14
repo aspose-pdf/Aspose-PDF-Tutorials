@@ -1,29 +1,31 @@
 ---
-title: PDF Dosyasındaki Bağlantıları Güncelle
-linktitle: PDF Dosyasındaki Bağlantıları Güncelle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarınızdaki bağlantıları zahmetsizce güncelleyin. PDF düzenlemenizi basitleştirin.
-weight: 120
-url: /tr/net/programming-with-links-and-actions/update-links/
+"description": "Bu kapsamlı adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarınızdaki bağlantıları zahmetsizce güncelleyin. PDF düzenlemenizi basitleştirin."
+"linktitle": "PDF Dosyasındaki Bağlantıları Güncelle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Bağlantıları Güncelle"
+"url": "/tr/net/programming-with-links-and-actions/update-links/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Bağlantıları Güncelle
 
 ## giriiş
 
-Kendinizi hiç bir PDF dosyasındaki bağlantıları güncellemeniz gereken bir durumda buldunuz mu? İster bozuk bir köprü metnini düzeltmek ister yeni bir web sayfasına yönlendirmek olsun, doğru araçlar olmadan oldukça sıkıcı olabilir. Neyse ki, .NET için Aspose.PDF ile PDF belgelerinizdeki bağlantıları ayarlamak sadece mümkün değil, aynı zamanda basit! Bu güçlü kütüphaneyi kullanarak bir PDF dosyasındaki bağlantıları sorunsuz bir şekilde nasıl güncelleyebileceğinize bir göz atalım.
+Hiç kendinizi bir PDF dosyasındaki bağlantıları güncellemeniz gereken bir durumda buldunuz mu? İster bozuk bir köprü metnini düzeltmek ister yeni bir web sayfasına yönlendirmek olsun, doğru araçlar olmadan oldukça sıkıcı olabilir. Neyse ki, .NET için Aspose.PDF ile PDF belgelerinizdeki bağlantıları ayarlamak sadece mümkün değil, aynı zamanda basit! Bu güçlü kütüphaneyi kullanarak bir PDF dosyasındaki bağlantıları sorunsuz bir şekilde nasıl güncelleyebileceğinize bir göz atalım.
 
 ## Ön koşullar
 
 Başlamadan önce, yerinde olması gereken birkaç temel şey var:
 
 1. .NET Framework: .NET Framework'ün çalışan bir kurulumuna sahip olduğunuzdan emin olun. Bu kitaplık çeşitli sürümleri destekler, bu nedenle uyumluluğu kontrol ettiğinizden emin olun.
-2.  Aspose.PDF for .NET Kütüphanesi: Aspose.PDF for .NET'in en son sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/)Bu kütüphane PDF bağlantılarını güncellemek için ihtiyaç duyacağımız tüm işlevleri içerir.
-3.  Visual Studio: .NET geliştirme için tercih edilen bir IDE. Buradan indirebilirsiniz[Microsoft'un web sitesi](https://visualstudio.microsoft.com/).
+2. Aspose.PDF for .NET Kütüphanesi: Aspose.PDF for .NET'in en son sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/)Bu kütüphane PDF bağlantılarını güncellemek için ihtiyaç duyacağımız tüm işlevleri içerir.
+3. Visual Studio: .NET geliştirme için tercih edilen bir IDE. Buradan indirebilirsiniz [Microsoft'un web sitesi](https://visualstudio.microsoft.com/).
 4. Temel C# Bilgisi: C# programlamaya aşinalık, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 5. PDF Belgesi: Test etmeniz için bağlantılar içeren bir örnek PDF dosyası hazırlayın. Bağlantılar içeren basit bir PDF oluşturabilir veya internetten indirebilirsiniz.
 
@@ -70,10 +72,10 @@ Bu adım, kodunuzda Aspose.PDF kütüphanesinin tüm özelliklerini kullanabilme
 
 ## Adım 3: PDF Belgesini Yükleyin
 
-Değiştirmek istediğiniz PDF dosyasını yükleme zamanı geldi. Bunu nasıl yapabileceğinizi burada bulabilirsiniz:
+Değiştirmek istediğiniz PDF dosyasını yükleme zamanı geldi. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 1. PDF'nizin saklanacağı yolu tanımlayın.
-2.  Kullanın`Document` PDF'nizi yüklemek için Aspose.PDF tarafından sağlanan sınıf.
+2. Kullanın `Document` PDF'nizi yüklemek için Aspose.PDF tarafından sağlanan sınıf.
 
 İşte kod:
 
@@ -86,10 +88,10 @@ Bu kod parçası belgeyi düzenlemeye hazırlayacaktır.
 
 ## Adım 4: Bağlantı Açıklamasına Erişim
 
- Sonra, PDF'imizde güncellemek istediğimiz belirli bağlantıyı tanımlamamız gerekiyor. Bunun için,`LinkAnnotation` sınıf.
+Sonra, PDF'imizde güncellemek istediğimiz belirli bağlantıyı tanımlamamız gerekiyor. Bunun için, `LinkAnnotation` sınıf.
 
 1. Birinci sayfanın açıklamalarına erişin.
-2.  Açıklamayı şuraya yazın:`LinkAnnotation`.
+2. Açıklamayı şuraya yazın: `LinkAnnotation`.
 
 Bu adımın kodu şu şekilde görünüyor:
 
@@ -101,10 +103,10 @@ Yukarıdaki kodda, doğru bağlantı açıklamasına işaret ettiğinizden emin 
 
 ## Adım 5: Bağlantı Hedefini Değiştirin
 
- Bağlantının işaret ettiği yeri değiştirelim. Şunu kullanacağız:`GoToAction` hedefini değiştirmek için sınıf.
+Bağlantının işaret ettiği yeri değiştirelim. Şunu kullanacağız: `GoToAction` hedefini değiştirmek için sınıf.
 
 1. Bağlantının geçerli eylemini alın.
-2.  Yeni bir hedef belirlemek için şunu kullanın:`XYZExplicitDestination`.
+2. Yeni bir hedef belirlemek için şunu kullanın: `XYZExplicitDestination`.
 
 İşte kod:
 
@@ -116,7 +118,7 @@ goToAction.Destination = new Aspose.Pdf.Annotations.XYZExplicitDestination(1, 1,
 Yukarıdaki kodda:
 - İlk parametre (1), bağlantının yönlendirilmesini istediğiniz sayfa numarasıdır.
 - İkincisi (1) X koordinatıdır.
-- Üçüncüsü (2), yakınlaştırma düzeyini (bu durumda %200) gösterir.
+- Üçüncüsü (2) yakınlaştırma seviyesini gösterir (%200 bu durumda).
 
 Parametrelerin PDF hedefinize yönelik ihtiyaçlarınızı yansıttığından emin olun!
 
@@ -152,22 +154,24 @@ Aspose.PDF for .NET kullanarak bir PDF dosyasındaki bağlantıları güncelleme
 ## SSS
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose.PDF bulabileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/).
+Evet, Aspose.PDF bulabileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF tüm .NET sürümleriyle uyumlu mudur?
 Aspose.PDF çeşitli .NET Framework sürümlerini destekler. Web sitelerindeki uyumluluk listesini kontrol ettiğinizden emin olun.
 
 ### Ek belgeleri nerede bulabilirim?
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF kullanırken sorunlarla karşılaşırsam ne olur?
- Destek almak için onlara ulaşabilirsiniz[forum](https://forum.aspose.com/c/pdf/10).
+Destek almak için onlara ulaşabilirsiniz [forum](https://forum.aspose.com/c/pdf/10).
 
 ### Test için geçici lisansı nasıl alabilirim?
- Geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisans talebinde bulunabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

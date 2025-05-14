@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak bir Görüntüyü PDF'ye Dönüştürme
-linktitle: Java kullanarak bir Görüntüyü PDF'ye Dönüştürme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Bu kapsamlı kılavuzla Java kullanarak görüntüleri PDF'ye nasıl dönüştüreceğinizi öğrenin. Adım adım talimatlar ve kod örnekleri dahildir.
-weight: 12
-url: /tr/java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/
+"description": "Bu kapsamlı kılavuzla Java kullanarak görüntüleri PDF'ye nasıl dönüştüreceğinizi öğrenin. Adım adım talimatlar ve kod örnekleri dahildir."
+"linktitle": "Java kullanarak bir Görüntüyü PDF'ye Dönüştürme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak bir Görüntüyü PDF'ye Dönüştürme"
+"url": "/tr/java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak bir Görüntüyü PDF'ye Dönüştürme
@@ -24,7 +26,7 @@ Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Ortamı: Sisteminizde Java JDK yüklü olmalıdır.
 
--  Java için Aspose.PDF: Projenize Java için Aspose.PDF kütüphanesini indirin ve ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java için Aspose.PDF: Projenize Java için Aspose.PDF kütüphanesini indirin ve ekleyin. İndirme bağlantısını bulabilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 - Dönüştürülecek Görüntü: PDF'ye dönüştürmek istediğiniz görüntü dosyasını hazır bulundurun. Java projeniz içinde erişilebilir olduğundan emin olun.
 
@@ -61,7 +63,7 @@ pdfDocument.getPages().add();
 // Resim dosyasını yükleyin
 String imagePath = "path/to/your/image.jpg";
 
-//Resmi ilk sayfaya ekle
+// Resmi ilk sayfaya ekle
 pdfDocument.getPages().get_Item(1).getParagraphs().add(new com.aspose.pdf.Image(imagePath));
 ```
 
@@ -84,7 +86,7 @@ Tek bir PDF belgesine birden fazla resim eklemek için, bu kılavuzda her resim 
 
 ### PDF sayfasının görünümünü özelleştirebilir miyim, örneğin boyutlarını veya kenar boşluklarını ayarlayabilir miyim?
 
-Evet, Aspose.PDF for Java'yı kullanarak boyutlarını, kenar boşluklarını ve diğer özniteliklerini ayarlayarak PDF sayfasının görünümünü özelleştirebilirsiniz. Belgelere bakın[Burada](https://reference.aspose.com/pdf/java/) Sayfa özelleştirme hakkında detaylı bilgi için.
+Evet, Aspose.PDF for Java'yı kullanarak boyutlarını, kenar boşluklarını ve diğer özniteliklerini ayarlayarak PDF sayfasının görünümünü özelleştirebilirsiniz. Belgelere bakın [Burada](https://reference.aspose.com/pdf/java/) Sayfa özelleştirme hakkında detaylı bilgi için.
 
 ### Aspose.PDF for Java ücretsiz bir kütüphane midir?
 
@@ -97,9 +99,11 @@ Java için Aspose.PDF, PDF'ye dönüştürülebilecek görüntünün boyutu konu
 ### Oluşturulan PDF belgesini parola ile koruyabilir miyim?
 
 Evet, Aspose.PDF for Java kullanarak oluşturulan PDF belgesine parola koruması ekleyebilirsiniz. PDF belgelerinize güvenlik özellikleri ekleme konusunda rehberlik için kütüphanenin belgelerine bakın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/annotations/getallannotationsfrompage/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get All Annotations From Page
@@ -100,6 +102,7 @@ You can find support and ask questions on the [Aspose forum](https://forum.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Niewidoczna adnotacja w pliku PDF
-linktitle: Niewidoczna adnotacja w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodać niewidoczną adnotację do pliku PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby opanować tę potężną funkcję.
-weight: 100
-url: /pl/net/annotations/invisibleannotation/
+"description": "Dowiedz się, jak dodać niewidoczną adnotację do pliku PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby opanować tę potężną funkcję."
+"linktitle": "Niewidoczna adnotacja w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Niewidoczna adnotacja w pliku PDF"
+"url": "/pl/net/annotations/invisibleannotation/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Niewidoczna adnotacja w pliku PDF
@@ -21,10 +23,10 @@ Czy kiedykolwiek chciałeś dodać adnotacje do plików PDF, które pozostaną n
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-- Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/net/).
 - Środowisko programistyczne .NET: Powinieneś mieć zainstalowany program Visual Studio lub inne preferowane środowisko programistyczne .NET.
 - Podstawowa znajomość języka C#: Znajomość składni i programowania w języku C# jest niezbędna.
--  Ważna licencja lub bezpłatna wersja próbna: Jeśli nie masz licencji, możesz uzyskać tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) lub skorzystaj z bezpłatnej wersji próbnej.
+- Ważna licencja lub bezpłatna wersja próbna: Jeśli nie masz licencji, możesz uzyskać tymczasową [Tutaj](https://purchase.aspose.com/temporary-license/) lub skorzystaj z bezpłatnej wersji próbnej.
 
 ## Importuj pakiety
 
@@ -48,7 +50,7 @@ Najpierw musisz określić ścieżkę do katalogu dokumentów, w którym znajduj
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
  
- Ten`dataDir`zmienna przechowuje ścieżkę do katalogu, w którym przechowywane są pliki PDF. Upewnij się, że zastąpisz`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze.
+Ten `dataDir` zmienna przechowuje ścieżkę do katalogu, w którym przechowywane są pliki PDF. Upewnij się, że zastąpisz `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze.
 
 ## Krok 2: Załaduj dokument PDF
 
@@ -59,11 +61,11 @@ Następnie załadujemy dokument PDF do naszego programu. To jest ten dokument, d
 Document doc = new Document(dataDir + "input.pdf");
 ```
  
- Tutaj używamy`Document` klasę z biblioteki Aspose.PDF, aby otworzyć plik PDF o nazwie`input.pdf`. Upewnij się, że ten plik istnieje w katalogu określonym w poprzednim kroku.
+Tutaj używamy `Document` klasę z biblioteki Aspose.PDF, aby otworzyć plik PDF o nazwie `input.pdf`. Upewnij się, że ten plik istnieje w katalogu określonym w poprzednim kroku.
 
 ## Krok 3: Utwórz niewidoczną adnotację
 
- Teraz nadchodzi ekscytująca część — tworzenie niewidocznej adnotacji. Użyjemy`FreeTextAnnotation` Klasa umożliwiająca dodanie adnotacji w postaci dowolnego tekstu do pierwszej strony dokumentu PDF.
+Teraz nadchodzi ekscytująca część — tworzenie niewidocznej adnotacji. Użyjemy `FreeTextAnnotation` Klasa umożliwiająca dodanie adnotacji w postaci dowolnego tekstu do pierwszej strony dokumentu PDF.
 
 ```csharp
 FreeTextAnnotation annotation = new FreeTextAnnotation(doc.Pages[1], new Aspose.Pdf.Rectangle(50, 600, 250, 650), new DefaultAppearance("Helvetica", 16, System.Drawing.Color.Red));
@@ -73,12 +75,12 @@ annotation.Flags = AnnotationFlags.Print | AnnotationFlags.NoView;
 doc.Pages[1].Annotations.Add(annotation);
 ```
 
--  Tworzymy nowy`FreeTextAnnotation` i określ stronę (`doc.Pages[1]` ) gdzie należy go dodać.`Rectangle` Klasa definiuje obszar na stronie, w którym zostanie umieszczona adnotacja.
--  Ten`DefaultAppearance` Klasa służy do ustawiania czcionki, rozmiaru czcionki i koloru adnotacji. W tym przykładzie wybraliśmy czcionkę „Helvetica”, rozmiar 16 i kolor czerwony.
--  Ten`Contents`Właściwość przechowuje tekst adnotacji, tutaj ustawiony na`"ABCDEFG"`.
--  Ten`Characteristics.Border` Właściwość definiuje kolor obramowania adnotacji, ponownie ustawiony na czerwony.
--  Ten`Flags` nieruchomość obejmuje`AnnotationFlags.Print` aby zapewnić widoczność adnotacji po wydrukowaniu dokumentu,`AnnotationFlags.NoView` aby uczynić go niewidocznym podczas normalnego oglądania.
--  Na koniec dodajemy adnotację do pierwszej strony dokumentu PDF za pomocą`Annotations.Add` metoda.
+- Tworzymy nowy `FreeTextAnnotation` i określ stronę (`doc.Pages[1]`) gdzie należy go dodać. `Rectangle` Klasa definiuje obszar na stronie, w którym zostanie umieszczona adnotacja.
+- Ten `DefaultAppearance` Klasa służy do ustawiania czcionki, rozmiaru czcionki i koloru adnotacji. W tym przykładzie wybraliśmy czcionkę „Helvetica”, rozmiar 16 i kolor czerwony.
+- Ten `Contents` Właściwość przechowuje tekst adnotacji, tutaj ustawiony na `"ABCDEFG"`.
+- Ten `Characteristics.Border` Właściwość definiuje kolor obramowania adnotacji, ponownie ustawiony na czerwony.
+- Ten `Flags` nieruchomość obejmuje `AnnotationFlags.Print` aby zapewnić widoczność adnotacji po wydrukowaniu dokumentu, `AnnotationFlags.NoView` aby uczynić go niewidocznym podczas normalnego oglądania.
+- Na koniec dodajemy adnotację do pierwszej strony dokumentu PDF za pomocą `Annotations.Add` metoda.
 
 ## Krok 4: Zapisz zaktualizowany dokument PDF
 
@@ -90,7 +92,7 @@ dataDir = dataDir + "InvisibleAnnotation_out.pdf";
 doc.Save(dataDir);
 ```
 
- Modyfikujemy`dataDir` zmienna określająca nazwę pliku wyjściowego,`"InvisibleAnnotation_out.pdf"` . Ten`Save` Metoda ta zapisuje następnie zaktualizowany dokument PDF z niewidoczną adnotacją w określonym katalogu.
+Modyfikujemy `dataDir` zmienna określająca nazwę pliku wyjściowego, `"InvisibleAnnotation_out.pdf"`. Ten `Save` Metoda ta zapisuje następnie zaktualizowany dokument PDF z niewidoczną adnotacją w określonym katalogu.
 
 ## Krok 5: Potwierdź zakończenie procesu
 
@@ -109,7 +111,7 @@ I masz to! Udało Ci się dodać niewidoczną adnotację do pliku PDF za pomocą
 ## Najczęściej zadawane pytania
 
 ### Czy mogę ponownie wyświetlić adnotację?  
- Tak, poprzez usunięcie`AnnotationFlags.NoView` flagę, możesz sprawić, że adnotacja będzie widoczna podczas normalnego przeglądania.
+Tak, poprzez usunięcie `AnnotationFlags.NoView` flagę, możesz sprawić, że adnotacja będzie widoczna podczas normalnego przeglądania.
 
 ### Jakie inne typy adnotacji mogę dodać za pomocą Aspose.PDF?  
 Aspose.PDF obsługuje różne adnotacje, w tym adnotacje tekstowe, linkowe, podświetlane i stemplowane.
@@ -121,10 +123,12 @@ Tak, możesz modyfikować właściwości adnotacji nawet po jej dodaniu do dokum
 Po prostu powtórz proces tworzenia adnotacji dla każdej adnotacji, którą chcesz dodać. Każda adnotacja może zostać dodana do tej samej lub innej strony.
 
 ### Co zrobić, jeśli mój dokument PDF ma wiele stron?  
- Numer strony można określić podczas tworzenia adnotacji, zmieniając`doc.Pages[1]` do żądanego indeksu strony.
+Numer strony można określić podczas tworzenia adnotacji, zmieniając `doc.Pages[1]` do żądanego indeksu strony.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

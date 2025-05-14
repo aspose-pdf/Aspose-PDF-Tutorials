@@ -8,7 +8,9 @@ url: /java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Root Structure in PDF using Java
@@ -104,6 +106,7 @@ Yes, Aspose.PDF for Java supports converting PDF documents to various formats, i
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

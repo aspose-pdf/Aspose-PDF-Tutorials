@@ -1,14 +1,16 @@
 ---
-title: Masuk Secara Digital ke File PDF
-linktitle: Masuk Secara Digital ke File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menandatangani file PDF secara digital dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk memastikan dokumen Anda aman dan autentik.
-weight: 40
-url: /id/net/programming-with-security-and-signatures/digitally-sign/
+"description": "Pelajari cara menandatangani file PDF secara digital dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk memastikan dokumen Anda aman dan autentik."
+"linktitle": "Masuk Secara Digital ke File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Masuk Secara Digital ke File PDF"
+"url": "/id/net/programming-with-security-and-signatures/digitally-sign/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masuk Secara Digital ke File PDF
@@ -22,8 +24,8 @@ Di dunia digital saat ini, pentingnya mengamankan dokumen tidak dapat dilebih-le
 Sebelum membahas lebih jauh, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai penandatanganan digital pada file PDF. Berikut ini adalah daftar prasyaratnya:
 
 1. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.PDF untuk .NET mendukung beberapa versi framework.
-2.  Pustaka Aspose.PDF: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Anda dapat mengunduhnya dari[tautan rilis](https://releases.aspose.com/pdf/net/).
-3.  Sertifikat Digital: Untuk menandatangani PDF, Anda memerlukan sertifikat digital —`.pfx` file biasanya.
+2. Pustaka Aspose.PDF: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Anda dapat mengunduhnya dari [tautan rilis](https://releases.aspose.com/pdf/net/).
+3. Sertifikat Digital: Untuk menandatangani PDF, Anda memerlukan sertifikat digital — `.pfx` file biasanya.
 4. Lingkungan Pengembangan: Gunakan Visual Studio atau IDE pilihan Anda yang mendukung C#.
 
 Setelah Anda memiliki prasyarat ini, Anda siap untuk mulai menandatangani dokumen PDF Anda!
@@ -46,7 +48,7 @@ Ruang nama ini menyediakan kelas dan metode penting yang akan Anda gunakan untuk
 
 ## Langkah 1: Siapkan Jalur Dokumen Anda
 
-Langkah pertama adalah mengatur jalur untuk file PDF input dan output serta sertifikat digital Anda. Ganti`YOUR DOCUMENTS DIRECTORY` dengan jalur sebenarnya pada sistem Anda di mana file Anda berada.
+Langkah pertama adalah mengatur jalur untuk file PDF input dan output serta sertifikat digital Anda. Ganti `YOUR DOCUMENTS DIRECTORY` dengan jalur sebenarnya pada sistem Anda di mana file Anda berada.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -54,11 +56,11 @@ string pbxFile = ""; // Jalur menuju sertifikat digital Anda (.pfx)
 string inFile = dataDir + @"DigitallySign.pdf";
 string outFile = dataDir + @"DigitallySign_out.pdf";
 ```
- Dalam cuplikan ini,`inFile` adalah PDF asli yang ingin Anda tandatangani, dan`outFile` adalah tempat penyimpanan PDF yang ditandatangani.
+Dalam cuplikan ini, `inFile` adalah PDF asli yang ingin Anda tandatangani, dan `outFile` adalah tempat penyimpanan PDF yang ditandatangani.
 
 ## Langkah 2: Muat Dokumen PDF
 
- Selanjutnya, kita perlu memuat dokumen PDF yang ingin kita tandatangani.`Document` kelas di Aspose.PDF digunakan di sini:
+Selanjutnya, kita perlu memuat dokumen PDF yang ingin kita tandatangani. `Document` kelas di Aspose.PDF digunakan di sini:
 
 ```csharp
 using (Document document = new Document(inFile))
@@ -71,7 +73,7 @@ Kode ini membuka berkas PDF Anda dan mempersiapkannya untuk operasi selanjutnya.
 
 ## Langkah 3: Inisialisasi Kelas PdfFileSignature
 
- Setelah dokumen dimuat, kami membuat contoh`PdfFileSignature` kelas, yang akan memungkinkan kita bekerja dengan tanda tangan digital pada dokumen PDF yang kita muat.
+Setelah dokumen dimuat, kami membuat contoh `PdfFileSignature` kelas, yang memungkinkan kita bekerja dengan tanda tangan digital pada dokumen PDF yang kita muat.
 
 ```csharp
 using (PdfFileSignature signature = new PdfFileSignature(document))
@@ -84,13 +86,13 @@ Kelas ini cocok untuk Anda yang ingin mempelajari segala hal terkait tanda tanga
 
 ## Langkah 4: Buat Instansi Sertifikat Digital
 
-Di sinilah Anda menyiapkan sertifikat yang akan digunakan untuk menandatangani PDF. Anda perlu memberikan jalur`.pfx` file beserta kata sandi yang terkait dengannya.
+Di sinilah Anda menyiapkan sertifikat yang akan digunakan untuk menandatangani PDF. Anda perlu memberikan jalur `.pfx` file beserta kata sandi yang terkait dengannya.
 
 ```csharp
 PKCS7 pkcs = new PKCS7(pbxFile, "WebSales");
 ```
 
- Pastikan untuk mengganti`"WebSales"` dengan kata sandi sertifikat Anda yang sebenarnya.
+Pastikan untuk mengganti `"WebSales"` dengan kata sandi sertifikat Anda yang sebenarnya.
 
 ## Langkah 5: Konfigurasikan Tampilan Tanda Tangan
 
@@ -131,7 +133,7 @@ using (Document document = new Document(outFile))
                 {
                     if (signature.GetAccessPermissions() == DocMDPAccessPermissions.FillingInForms) 
                     {
-                        //Tanda tangan sah dan tersertifikasi
+                        // Tanda tangan sah dan tersertifikasi
                     }
                 }
             }
@@ -157,7 +159,7 @@ Dengan cara ini, jika sesuatu yang tidak diharapkan terjadi, Anda akan tahu pers
 
 ## Kesimpulan
 
-Tanda tangan digital memberikan perlindungan penting untuk dokumen, yang membuktikan keaslian dan integritas. Dengan Aspose.PDF untuk .NET, menandatangani file PDF adalah proses mudah yang dapat meningkatkan alur kerja manajemen dokumen Anda secara signifikan. Sekarang setelah Anda mempelajari cara mendigitalkan tanda tangan, Anda dapat meyakinkan klien dan mitra tentang profesionalisme dan penanganan dokumen yang aman.
+Tanda tangan digital memberikan perlindungan penting bagi dokumen, yang membuktikan keaslian dan integritas. Dengan Aspose.PDF untuk .NET, menandatangani file PDF adalah proses mudah yang dapat meningkatkan alur kerja manajemen dokumen Anda secara signifikan. Sekarang setelah Anda mempelajari cara mendigitalkan tanda tangan, Anda dapat meyakinkan klien dan mitra tentang profesionalisme dan penanganan dokumen yang aman.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -168,16 +170,18 @@ Tanda tangan digital adalah padanan kriptografi dari tanda tangan tulisan tangan
 Ya! Aspose.PDF untuk .NET kompatibel dengan berbagai aplikasi .NET, termasuk desktop, web, dan layanan.
 
 ### Jenis sertifikat digital apa yang dapat saya gunakan?
- Anda dapat menggunakan sertifikat PKCS#12 apa pun, biasanya disimpan dalam`.pfx` atau`.p12` mengajukan.
+Anda dapat menggunakan sertifikat PKCS#12 apa pun, biasanya disimpan dalam `.pfx` atau `.p12` mengajukan.
 
 ### Apakah ada versi uji coba Aspose.PDF yang tersedia?
- Ya! Anda dapat mengunduh versi uji coba gratis dari[Aspose merilis halaman](https://releases.aspose.com/).
+Ya! Anda dapat mengunduh versi uji coba gratis dari [Aspose merilis halaman](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Untuk dukungan, Anda dapat mengunjungi[Forum PDF Aspose](https://forum.aspose.com/c/pdf/10).
+Untuk dukungan, Anda dapat mengunjungi [Forum PDF Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

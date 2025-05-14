@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi định dạng EPUB sang PDF
-linktitle: Chuyển đổi định dạng EPUB sang PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách chuyển đổi EPUB sang PDF dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quá trình chuyển đổi EPUB sang PDF.
-weight: 10
-url: /vi/java/pdf-conversion-transformation/convert-epub-to-pdf-format/
+"description": "Tìm hiểu cách chuyển đổi EPUB sang PDF dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quá trình chuyển đổi EPUB sang PDF."
+"linktitle": "Chuyển đổi định dạng EPUB sang PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Chuyển đổi định dạng EPUB sang PDF"
+"url": "/vi/java/pdf-conversion-transformation/convert-epub-to-pdf-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi định dạng EPUB sang PDF
@@ -20,9 +22,9 @@ EPUB là một định dạng sách điện tử phổ biến, nhưng đôi khi 
 
 ## Bắt đầu với Aspose.PDF cho Java
 
-Trước khi đi sâu vào quá trình chuyển đổi, bạn cần thiết lập môi trường phát triển của mình. Thực hiện theo các bước sau:
+Trước khi đi sâu vào quá trình chuyển đổi, bạn sẽ cần thiết lập môi trường phát triển của mình. Thực hiện theo các bước sau:
 
-1. Tải xuống Aspose.PDF cho Java: Truy cập trang tải xuống Aspose.PDF cho Java tại[đây](https://releases.aspose.com/pdf/java/) và tải xuống phiên bản mới nhất.
+1. Tải xuống Aspose.PDF cho Java: Truy cập trang tải xuống Aspose.PDF cho Java tại [đây](https://releases.aspose.com/pdf/java/) và tải xuống phiên bản mới nhất.
 
 2. Cài đặt Aspose.PDF cho Java: Làm theo hướng dẫn cài đặt được cung cấp khi tải xuống để thiết lập Aspose.PDF cho Java trong môi trường phát triển của bạn.
 
@@ -93,10 +95,12 @@ Aspose.PDF for Java cung cấp quy trình chuyển đổi EPUB sang PDF mạnh m
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Để biết thêm ví dụ và tài liệu chi tiết, hãy truy cập tài liệu Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Để biết thêm ví dụ và tài liệu chi tiết, hãy truy cập tài liệu Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@ description: Learn how to program with tables in Aspose.PDF for .NET with step-b
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Tables
@@ -44,6 +46,7 @@ Whether you are a beginner or an experienced developer, the Programming with Tab
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

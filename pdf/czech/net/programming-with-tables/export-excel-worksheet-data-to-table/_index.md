@@ -1,36 +1,38 @@
 ---
-title: Export dat listu aplikace Excel do tabulky
-linktitle: Export dat listu aplikace Excel do tabulky
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se exportovat data listu aplikace Excel do tabulky PDF pomocí Aspose.PDF for .NET. Výukový program krok za krokem s příklady kódu, předpoklady a užitečnými tipy.
-weight: 70
-url: /cs/net/programming-with-tables/export-excel-worksheet-data-to-table/
+"description": "Naučte se, jak exportovat data z listu aplikace Excel do tabulky PDF pomocí nástroje Aspose.PDF pro .NET. Podrobný návod s příklady kódu, předpoklady a užitečnými tipy."
+"linktitle": "Export dat z excelovského listu do tabulky"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Export dat z excelovského listu do tabulky"
+"url": "/cs/net/programming-with-tables/export-excel-worksheet-data-to-table/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Export dat listu aplikace Excel do tabulky
+# Export dat z excelovského listu do tabulky
 
 ## Zavedení
 
-Potřebovali jste někdy exportovat data z excelového listu do souboru PDF, úhledně uspořádaného do formátu tabulky? Představte si, že máte spoustu dat v Excelu, ale potřebujete je sdílet jako profesionálně vypadající PDF. Může to znít složitě, že? Ale s Aspose.PDF pro .NET můžete tento úkol proměnit v hračku. V tomto tutoriálu vás provedeme procesem exportu dat listu aplikace Excel do tabulky v dokumentu PDF pomocí Aspose.PDF for .NET. Provedeme vás krok za krokem, vše rozebereme tak, že i když jste v tom nováčci, nakonec se budete cítit jako profíci.
+Potřebovali jste někdy exportovat data z excelového listu do PDF souboru, úhledně uspořádaného do tabulkového formátu? Představte si, že máte v Excelu spoustu dat, ale potřebujete je sdílet jako profesionálně vypadající PDF. Může to znít složitě, že? Ale s Aspose.PDF pro .NET můžete tento úkol proměnit v hračku. V tomto tutoriálu vás provedeme procesem exportu dat z excelového listu do tabulky v PDF dokumentu pomocí Aspose.PDF pro .NET. Provedeme vás krok za krokem a vše rozebereme tak, abyste se i když s tímto tématem začínáte, na konci cítili jako profesionál.
 
 ## Předpoklady
 
-Než se ponoříme do kódování, pojďme si nastavit několik věcí:
+Než se pustíme do kódování, pojďme si nastavit pár věcí:
 
-1.  Aspose.PDF for .NET Library – Ujistěte se, že máte nainstalovanou nejnovější verzi. Můžete[stáhněte si jej zde](https://releases.aspose.com/pdf/net/).
-2.  Aspose.Cells for .NET Library – budete ji potřebovat ke zpracování operací aplikace Excel. Stáhněte si jej z[zde](https://releases.aspose.com/cells/net/).
-3. .NET Development Environment – Nástroj jako Visual Studio bude perfektně fungovat pro kódování.
-4. Soubor Excel – Připravte si soubor Excel s daty, která chcete exportovat.
+1. Aspose.PDF pro knihovnu .NET – Ujistěte se, že máte nainstalovanou nejnovější verzi. Můžete [stáhněte si to zde](https://releases.aspose.com/pdf/net/).
+2. Knihovna Aspose.Cells pro .NET – Budete ji potřebovat pro zpracování operací v Excelu. Stáhněte si ji z [zde](https://releases.aspose.com/cells/net/).
+3. Vývojové prostředí .NET – Pro kódování bude perfektně fungovat nástroj jako Visual Studio.
+4. Soubor Excel – Mějte připravený soubor Excel s daty, která chcete exportovat.
 
- Pokud nemáte knihovny Aspose.PDF a Aspose.Cells, můžete začít s[zkušební verze zdarma](https://releases.aspose.com/).
+Pokud nemáte knihovny Aspose.PDF a Aspose.Cells, můžete začít s [bezplatná zkušební verze](https://releases.aspose.com/).
 
-## Importujte balíčky
+## Importovat balíčky
 
-Nejprve se ujistěte, že jste do svého projektu nainstalovali knihovny Aspose.PDF i Aspose.Cells. Můžete je nainstalovat pomocí NuGet Package Manager v sadě Visual Studio.
+Nejprve se ujistěte, že máte ve svém projektu nainstalovány knihovny Aspose.PDF a Aspose.Cells. Můžete je nainstalovat pomocí Správce balíčků NuGet ve Visual Studiu.
 
 Zde je návod, jak importovat potřebné balíčky do kódu C#:
 
@@ -40,23 +42,23 @@ using System.IO;
 using System.Linq;
 ```
 
-Nyní, když jsou předpoklady nastaveny, pojďme si projít proces exportu dat z listu aplikace Excel do tabulky v dokumentu PDF.
+Nyní, když jsou nastaveny předpoklady, pojďme si projít proces exportu dat z excelového listu do tabulky v dokumentu PDF.
 
-## Krok 1: Načtěte sešit aplikace Excel
+## Krok 1: Načtení sešitu aplikace Excel
 
-Chcete-li začít, musíte do programu načíst sešit aplikace Excel. V tomto kroku použijeme Aspose.Cells k otevření souboru Excel.
+Nejprve je třeba do programu načíst sešit aplikace Excel. V tomto kroku použijeme Aspose.Cells k otevření souboru aplikace Excel.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Načtěte sešit aplikace Excel
+// Načtení sešitu aplikace Excel
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(new FileStream(dataDir + "newBook1.xlsx", FileMode.Open));
 ```
 
- Vysvětlení: Zde zadáme cestu k adresáři, kde se nachází náš soubor Excel, a načteme sešit pomocí`Aspose.Cells.Workbook` . Nezapomeňte upravit`"YOUR DOCUMENT DIRECTORY"` ukázat na umístění vašeho souboru.
+Vysvětlení: Zde zadáme cestu k adresáři, kde se nachází náš soubor Excel, a načteme sešit pomocí `Aspose.Cells.Workbook`Nezapomeňte upravit `"YOUR DOCUMENT DIRECTORY"` aby ukazoval na umístění vašeho souboru.
 
-## Krok 2: Otevřete první pracovní list
+## Krok 2: Přístup k prvnímu pracovnímu listu
 
 Po načtení sešitu potřebujeme přistupovat k prvnímu listu, kde jsou uložena naše data.
 
@@ -65,73 +67,73 @@ Po načtení sešitu potřebujeme přistupovat k prvnímu listu, kde jsou ulože
 Aspose.Cells.Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Vysvětlení: Tento krok je přímočarý – vezmeme si první list ze sešitu, který obsahuje data k exportu.
+Vysvětlení: Tento krok je jednoduchý – z sešitu si vezmeme první list, který obsahuje data k exportu.
 
-## Krok 3: Exportujte data do DataTable
+## Krok 3: Export dat do DataTable
 
-Nyní vyexportujme data z listu Excelu do objektu DataTable, který bude fungovat jako prostředník pro přenos dat do PDF.
+Nyní exportujme data z excelovského listu do objektu DataTable, který bude sloužit jako prostředník pro přenos dat do PDF.
 
 ```csharp
 // Export obsahu 7 řádků a 2 sloupců počínaje 1. buňkou do DataTable
 DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, worksheet.Cells.MaxRow + 1, worksheet.Cells.MaxColumn + 1, true);
 ```
 
- Vysvětlení: The`ExportDataTable` metoda extrahuje data počínaje první buňkou listu a zahrnuje všechny řádky a sloupce. Tato data jsou pak uložena v a`DataTable` pro další použití.
+Vysvětlení: `ExportDataTable` Metoda extrahuje data počínaje první buňkou listu a zahrnuje všechny řádky a sloupce. Tato data jsou poté uložena v `DataTable` pro další použití.
 
 ## Krok 4: Vytvořte nový dokument PDF
 
-Dále musíme vytvořit nový dokument PDF pomocí Aspose.PDF.
+Dále musíme vytvořit nový PDF dokument pomocí Aspose.PDF.
 
 ```csharp
-// Vytvořte instanci instance dokumentu
+// Vytvoření instance dokumentu
 Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document();
 
 // Vytvořte stránku v instanci dokumentu
 Aspose.Pdf.Page page = pdfDocument.Pages.Add();
 ```
 
- Vysvětlení: Zde inicializujeme nový`Aspose.Pdf.Document` přidejte k němu stránku. Tato stránka bude později obsahovat tabulku, kterou vytváříme z dat aplikace Excel.
+Vysvětlení: Zde inicializujeme nový `Aspose.Pdf.Document` a přidejte k ní stránku. Tato stránka bude později obsahovat tabulku, kterou vytváříme z dat z Excelu.
 
 ## Krok 5: Vytvořte objekt tabulky v PDF
 
 Pojďme k vytvoření tabulky uvnitř dokumentu PDF.
 
 ```csharp
-// Vytvořte objekt Table
+// Vytvoření objektu Table
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 
-// Přidejte objekt Tabulka do kolekce odstavců na stránce
+// Přidejte objekt Table do kolekce odstavců stránky.
 page.Paragraphs.Add(table);
 ```
 
- Vysvětlení: Vytváříme an`Aspose.Pdf.Table` objekt a přidejte jej do kolekce odstavců stránky, což zajistí zobrazení tabulky na stránce.
+Vysvětlení: Vytvoříme `Aspose.Pdf.Table` objekt a přidejte ho do kolekce paragraphs stránky, což zajistí, že se tabulka na stránce zobrazí.
 
-## Krok 6: Nastavte šířky a okraje sloupců
+## Krok 6: Nastavení šířky a ohraničení sloupců
 
-Tabulky v PDF potřebují definované šířky sloupců. Přidáme také ohraničení, aby byla tabulka čitelnější.
+Tabulky v PDF potřebují definovanou šířku sloupců. Také přidáme ohraničení, aby byla tabulka čitelnější.
 
 ```csharp
-// Nastavte šířku sloupců tabulky
+// Nastavení šířky sloupců tabulky
 table.ColumnWidths = "40 100 100";
 
-// Nastavit výchozí ohraničení buňky
+// Nastavení výchozího ohraničení buňky
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.1F);
 ```
 
- Vysvětlení: Nastavíme šířky tří sloupců a všem buňkám dáme výchozí ohraničení o tloušťce`0.1F`.
+Vysvětlení: Nastavíme šířku tří sloupců a všem buňkám dáme výchozí ohraničení o tloušťce `0.1F`.
 
-## Krok 7: Importujte data z DataTable do tabulky PDF
+## Krok 7: Import dat z DataTable do PDF tabulky
 
 Nyní je čas importovat data z DataTable do naší tabulky PDF.
 
 ```csharp
-// Importujte data do objektu Table z DataTable
+// Import dat do objektu Table z DataTable
 table.ImportDataTable(dataTable, true, 0, 0, dataTable.Rows.Count + 1, dataTable.Columns.Count);
 ```
 
- Vysvětlení: The`ImportDataTable`metoda přenáší všechna data z`DataTable` do tabulky PDF. Tím se tabulka naplní daty z vašeho listu Excel.
+Vysvětlení: `ImportDataTable` metoda přenáší všechna data z `DataTable` do tabulky PDF. Tím se tabulka naplní daty z vašeho excelového listu.
 
-## Krok 8: Upravte styl řádku záhlaví
+## Krok 8: Stylizace řádku záhlaví
 
 Upravme styl záhlaví tabulky změnou barvy pozadí, písma a zarovnání.
 
@@ -139,7 +141,7 @@ Upravme styl záhlaví tabulky změnou barvy pozadí, písma a zarovnání.
 // Získejte první řádek z tabulky
 Aspose.Pdf.Row headerRow = table.Rows[0];
 
-// Nastavte styl pro řádek záhlaví
+// Nastavení stylu pro řádek záhlaví
 foreach (Aspose.Pdf.Cell cell in headerRow.Cells)
 {
     cell.BackgroundColor = Color.Blue;
@@ -151,9 +153,9 @@ foreach (Aspose.Pdf.Cell cell in headerRow.Cells)
 
 Vysvětlení: Projdeme všechny buňky v prvním řádku (záhlaví) a nastavíme jim barvu pozadí na modrou, barvu textu na žlutou a zarovnáme text na střed.
 
-## Krok 9: Upravte styl zbývajících řádků
+## Krok 9: Stylizace zbývajících řádků
 
-Abychom odlišili záhlaví a zbytek řádků, přidáme pro zbývající řádky jiný styl.
+Abychom rozlišili mezi záhlavím a zbytkem řádků, přidejme pro zbývající řádky jiný styl.
 
 ```csharp
 for (int i = 1; i <= dataTable.Rows.Count; i++)
@@ -166,42 +168,44 @@ for (int i = 1; i <= dataTable.Rows.Count; i++)
 }
 ```
 
-Vysvětlení: Pro všechny řádky kromě záhlaví nastavíme šedé pozadí a bílou barvu textu.
+Vysvětlení: Pro všechny řádky kromě záhlaví jsme nastavili šedé pozadí a bílou barvu textu.
 
-## Krok 10: Uložte dokument PDF
+## Krok 10: Uložení dokumentu PDF
 
 Nakonec uložte dokument PDF s tabulkou.
 
 ```csharp
-// Uložte Pdf
+// Uložit PDF
 pdfDocument.Save(dataDir + "Exceldata_toPdf_table.pdf");
 ```
 
-Vysvětlení: Uložíme PDF do zadaného adresáře. Voilà! Vaše data Excelu jsou nyní uvnitř krásně formátované tabulky PDF.
+Vysvětlení: Uložíme PDF do zadaného adresáře. Voilà! Vaše data z Excelu jsou nyní uvnitř krásně naformátované tabulky PDF.
 
 ## Závěr
 
-tady to máte! V několika krocích jste exportovali data z excelového listu do tabulky uvnitř PDF pomocí Aspose.PDF for .NET. Rozdělením procesu a jeho stylingem můžete svůj výstup přizpůsobit a zajistit, aby vaše data vypadala čistě a profesionálně. Takže až vám příště někdo předá soubor Excel a požádá o zprávu ve formátu PDF, budete přesně vědět, co máte dělat.
+A je to! V několika krocích jste exportovali data z excelového listu do tabulky v PDF pomocí Aspose.PDF pro .NET. Rozdělením procesu a jeho úpravou si můžete přizpůsobit výstup a zajistit, aby vaše data vypadala čistě a profesionálně. Takže až vám příště někdo podá excelový soubor a požádá o PDF zprávu, budete přesně vědět, co dělat.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu si stůl více přizpůsobit?
-Absolutně! Můžete upravit barvy, písma, zarovnání a dokonce přidat ohraničení ke konkrétním buňkám.
+Rozhodně! Můžete upravovat barvy, písma, zarovnání a dokonce i přidávat ohraničení k určitým buňkám.
 
 ### Je Aspose.PDF pro .NET zdarma?
- Nabízí bezplatnou zkušební verzi, ale pro delší používání budete potřebovat licenci. Můžete[kupte si to zde](https://purchase.aspose.com/buy).
+Nabízí bezplatnou zkušební verzi, ale pro delší používání budete potřebovat licenci. Můžete [kupte si to zde](https://purchase.aspose.com/buy).
 
 ### Mohu exportovat pouze určité řádky a sloupce?
- Ano, můžete upravit parametry v`ExportDataTable` způsob exportu konkrétních rozsahů.
+Ano, parametry můžete upravit v `ExportDataTable` metoda pro export specifických rozsahů.
 
-### Funguje to s velkými soubory Excel?
-Ano, Aspose.Cells je navržen tak, aby efektivně zpracovával velké soubory aplikace Excel.
+### Funguje to s velkými soubory Excelu?
+Ano, Aspose.Cells je navržen pro efektivní zpracování velkých souborů aplikace Excel.
 
 ### Jak mohu do PDF přidat další stránky?
- Můžete použít`pdfDocument.Pages.Add()` přidat tolik stránek, kolik potřebujete.
+Můžete použít `pdfDocument.Pages.Add()` přidat tolik stránek, kolik potřebujete.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

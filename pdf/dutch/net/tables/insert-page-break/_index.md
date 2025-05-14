@@ -1,57 +1,62 @@
 ---
-title: Maak een PDF met tabellen en pagina's met behulp van Aspose.PDF 
-weight: 7700
-limit: 
-description: Leer hoe je een PDF-document maakt, tabellen met randjes toevoegt en paginatie implementeert met Aspose.PDF voor .NET. Stap-voor-stap handleiding met code voorbeelden.  
-keywords: [Aspose.PDF for .NET, create PDF in C#, add table to PDF, set table border, pagination in PDF, generate PDF, insert page break, .NET PDF library]
-url: /nl/net/tables/insert-page-break/
+"description": "Leer hoe u een PDF-document maakt, tabellen met randen toevoegt en paginering implementeert met Aspose.PDF voor .NET. Stapsgewijze handleiding met codevoorbeelden."
+"title": "Maak een PDF met tabellen en paginering met Aspose.PDF"
+"url": "/nl/net/tables/insert-page-break/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Een PDF maken met tabellen en pagina's
+# Maak een PDF met tabellen en paginering
  
-Aspose.PDF voor .NET is een krachtige bibliotheek waarmee ontwikkelaars PDF- documenten programmafdrukken kunnen maken, manipuleren en converteren. In dit voorbeeld laten we zien hoe je een PDF-bestand kunt genereren, een tabel met rode randjes kunt toevoegen, met 200 rijen kunt vullen en automatische pagina- onderbrekingen na elke 10 rijen kunt inbrengen.  
+Aspose.PDF voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch PDF-documenten kunnen maken, bewerken en converteren. In dit voorbeeld laten we zien hoe u een PDF-bestand genereert, een tabel met rode randen toevoegt, deze vult met 200 rijen en automatisch pagina-einden invoegt na elke 10 rijen. Deze aanpak garandeert een gestructureerde opmaak van de inhoud en naadloze paginering voor grote datasets.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/insert-page-break/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installatie-instructies  
-Om te beginnen met Aspose.PDF voor .NET, volg deze stappen:  
+Om aan de slag te gaan met Aspose.PDF voor .NET, volgt u deze stappen:  
 
-1. Installeer via NuGet Package Manager  
-   * Open je project in Visual Studio.  
-   * Ga naar Tools > NuGet Package Manager > Manage NuGet Packages for Solution.  
-   * Zoek naar Aspose.PDF en klik op Installeer.  
+1. Installeren via NuGet Package Manager  
+   - Open uw project in Visual Studio.  
+   - Ga naar Extra > NuGet Package Manager > NuGet-pakketten beheren voor oplossing.  
+   - Zoek naar Aspose.PDF en klik op Installeren.  
 
-   Als alternatief kunt u het volgende commando gebruiken in de Package Manager Console:  
+   U kunt ook de volgende opdracht gebruiken in de Package Manager Console:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
 2. Download de DLL handmatig  
-   * Haal de laatste versie van[Aspose.PDF Downloads](https://releases.aspose.com/pdf/net/)\- Ik ben niet .  
-   * Voeg een verwijzing toe naar de Aspose.PDF.dll in je project.  
+   - Download de nieuwste versie van [Aspose.PDF Downloads](https://releases.aspose.com/pdf/net/).  
+   - Voeg een verwijzing naar Aspose.PDF.dll toe in uw project.  
 
-3. Aanvragen van een vergunning (facultatief)  
-   * Als u de gratis proefversie gebruikt, kunt u watermerken of beperkingen tegenkomen.  
-   * Koop een rijbewijs van [Aankoop van de goederen](https://purchase.aspose.com/buy)of een verzoek doen om een[Tijdelijke vergunning](https://purchase.aspose.com/temporary-license/)\- Ik ben niet .  
-   * Gebruik de licentie in je code:  
+3. Een licentie aanvragen (optioneel)  
+   - Als u de gratis proefversie gebruikt, kunt u watermerken of beperkingen tegenkomen.  
+   - Koop een licentie van [Aspose Aankoop](https://purchase.aspose.com/buy) of vraag een [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/).  
+   - Pas de licentie toe in uw code:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.PDF.lic");
      ```
 
 ## Voor gedetailleerde
-documentatie, bezoek [Aspose.PDF voor .NET Documentatie](https://docs.aspose.com/pdf/net/)\- Ik ben niet .  
-Kijk naar de API-referentie op [Aspose.PDF voor .NET API Referentie](https://reference.aspose.com/pdf/net/)\- Ik ben niet .
+documentatie, bezoek [Aspose.PDF voor .NET-documentatie](https://docs.aspose.com/pdf/net/).  
+Bekijk de API-referentie op [Aspose.PDF voor .NET API-referentie](https://reference.aspose.com/pdf/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

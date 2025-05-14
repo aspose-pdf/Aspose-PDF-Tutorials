@@ -1,14 +1,16 @@
 ---
-title: Buat File yang Sesuai dengan PDF/A
-linktitle: Buat File yang Sesuai dengan PDF/A
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara membuat file yang sesuai dengan PDF/A menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode untuk PDF berstandar industri.
-weight: 18
-url: /id/java/pdf-conversion-transformation/create-pdfa-compliant-files/
+"description": "Pelajari cara membuat file yang sesuai dengan PDF/A menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode untuk PDF berstandar industri."
+"linktitle": "Buat File yang Sesuai dengan PDF/A"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Buat File yang Sesuai dengan PDF/A"
+"url": "/id/java/pdf-conversion-transformation/create-pdfa-compliant-files/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat File yang Sesuai dengan PDF/A
@@ -24,7 +26,7 @@ Kepatuhan PDF/A menjamin bahwa dokumen akan ditampilkan dengan cara yang sama di
 
 ## Menyiapkan Lingkungan Pengembangan Anda
 
- Sebelum kita mulai, pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduhnya dari[Di Sini](https://www.java.com/download/)Pastikan juga Anda memiliki lingkungan pengembangan terintegrasi (IDE) seperti IntelliJ IDEA atau Eclipse.
+Sebelum kita mulai, pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduhnya dari [Di Sini](https://www.java.com/download/)Pastikan juga Anda memiliki lingkungan pengembangan terintegrasi (IDE) seperti IntelliJ IDEA atau Eclipse.
 
 ## Membuat Proyek Java Baru
 
@@ -32,7 +34,7 @@ Mulailah dengan membuat proyek Java baru di IDE pilihan Anda. Beri nama dan pili
 
 ## Menambahkan Aspose.PDF untuk Java ke Proyek Anda
 
- Untuk menggunakan Aspose.PDF untuk Java, Anda perlu menambahkan pustaka Aspose.PDF ke proyek Anda. Anda dapat mengunduhnya dari[Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/)Setelah diunduh, tambahkan file JAR ke classpath proyek Anda.
+Untuk menggunakan Aspose.PDF untuk Java, Anda perlu menambahkan pustaka Aspose.PDF ke proyek Anda. Anda dapat mengunduhnya dari [Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/)Setelah diunduh, tambahkan file JAR ke classpath proyek Anda.
 
 ## Inisialisasi Dokumen PDF
 
@@ -97,7 +99,7 @@ pdfDocument.save("output.pdf");
 
 ## Fitur Tambahan dan Kustomisasi
 
-Aspose.PDF untuk Java menawarkan berbagai fitur untuk menyesuaikan dokumen PDF Anda, termasuk menambahkan header, footer, tanda air, dan banyak lagi. Jelajahi[dokumentasi](https://reference.aspose.com/pdf/java/) untuk informasi terperinci tentang pilihan penyesuaian.
+Aspose.PDF untuk Java menawarkan berbagai fitur untuk menyesuaikan dokumen PDF Anda, termasuk menambahkan header, footer, tanda air, dan banyak lagi. Jelajahi [dokumentasi](https://reference.aspose.com/pdf/java/) untuk informasi terperinci tentang pilihan penyesuaian.
 
 ## Kesimpulan
 
@@ -107,7 +109,7 @@ Membuat file yang sesuai dengan PDF/A menggunakan Aspose.PDF untuk Java adalah p
 
 ### Bagaimana cara menambahkan gambar ke dokumen PDF menggunakan Aspose.PDF untuk Java?
 
- Untuk menambahkan gambar ke dokumen PDF, Anda dapat menggunakan`Image` kelas dari Aspose.PDF untuk Java. Berikut contoh dasarnya:
+Untuk menambahkan gambar ke dokumen PDF, Anda dapat menggunakan `Image` kelas dari Aspose.PDF untuk Java. Berikut contoh dasarnya:
 
 ```java
 import com.aspose.pdf.Image;
@@ -130,7 +132,7 @@ Ya, Aspose.PDF untuk Java kompatibel dengan Java 11 dan versi yang lebih baru. P
 
 ### Bagaimana cara menambahkan hyperlink ke teks dalam dokumen PDF?
 
- Untuk menambahkan hyperlink ke teks dalam dokumen PDF, Anda dapat menggunakan`LinkAnnotation` kelas dari Aspose.PDF untuk Java. Berikut contoh sederhananya:
+Untuk menambahkan hyperlink ke teks dalam dokumen PDF, Anda dapat menggunakan `LinkAnnotation` kelas dari Aspose.PDF untuk Java. Berikut contoh sederhananya:
 
 ```java
 import com.aspose.pdf.LinkAnnotation;
@@ -147,7 +149,7 @@ page.getAnnotations().add(link);
 
 ### Bagaimana cara mengekstrak teks dari dokumen PDF menggunakan Aspose.PDF untuk Java?
 
- Anda dapat mengekstrak teks dari dokumen PDF menggunakan`TextAbsorber` kelas yang disediakan oleh Aspose.PDF untuk Java. Berikut contoh dasarnya:
+Anda dapat mengekstrak teks dari dokumen PDF menggunakan `TextAbsorber` kelas yang disediakan oleh Aspose.PDF untuk Java. Berikut contoh dasarnya:
 
 ```java
 import com.aspose.pdf.TextAbsorber;
@@ -155,15 +157,17 @@ import com.aspose.pdf.TextAbsorber;
 // Inisialisasi TextAbsorber
 TextAbsorber textAbsorber = new TextAbsorber();
 
-//Terima dokumen PDF
+// Terima dokumen PDF
 pdfDocument.getPages().accept(textAbsorber);
 
 // Dapatkan teks yang diekstraksi
 String extractedText = textAbsorber.getText();
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

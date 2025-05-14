@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Teks yang Diputar dalam PDF menggunakan Java
-linktitle: Menambahkan Teks yang Diputar dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara memasukkan teks yang diputar ke dalam dokumen PDF menggunakan Java. Ikuti panduan langkah demi langkah terperinci ini dengan contoh kode untuk menyempurnakan PDF Anda dengan teks yang diputar.
-weight: 14
-url: /id/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/
+"description": "Pelajari cara memasukkan teks yang diputar ke dalam dokumen PDF menggunakan Java. Ikuti panduan langkah demi langkah terperinci ini dengan contoh kode untuk menyempurnakan PDF Anda dengan teks yang diputar."
+"linktitle": "Menambahkan Teks yang Diputar dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Teks yang Diputar dalam PDF menggunakan Java"
+"url": "/id/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Teks yang Diputar dalam PDF menggunakan Java
@@ -24,7 +26,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
 
-2.  Aspose.PDF untuk Java: Unduh dan sertakan pustaka Aspose.PDF dalam proyek Java Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF untuk Java: Unduh dan sertakan pustaka Aspose.PDF dalam proyek Java Anda. Anda dapat menemukan tautan unduhan [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Langkah 1: Buat Dokumen PDF Baru
 
@@ -40,7 +42,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 Berikutnya, tambahkan halaman ke dokumen PDF tempat Anda ingin menyisipkan teks yang diputar:
 
 ```java
-//Tambahkan halaman baru ke dokumen
+// Tambahkan halaman baru ke dokumen
 com.aspose.pdf.Page page = pdfDocument.getPages().add();
 ```
 
@@ -110,7 +112,7 @@ Tingkatkan dokumen PDF Anda dengan menggabungkan teks yang diputar dengan mudah,
    Ya, Anda dapat menambahkan beberapa contoh teks yang diputar dengan sudut yang berbeda ke dokumen PDF yang sama. Cukup ulangi proses yang dijelaskan dalam tutorial ini untuk setiap bagian teks yang diputar.
 
 ### 2. Bagaimana cara mengubah warna teks yang diputar?
-    Untuk mengubah warna teks, gunakan`textFragment.getTextState().setForegroundColor` metode dan tentukan warna dalam format RGB. Misalnya, untuk mengatur warna teks menjadi merah, gunakan`textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getRed());`.
+   Untuk mengubah warna teks, gunakan `textFragment.getTextState().setForegroundColor` metode dan tentukan warna dalam format RGB. Misalnya, untuk mengatur warna teks menjadi merah, gunakan `textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getRed());`.
 
 ### 3. Apakah Aspose.PDF untuk Java merupakan pustaka gratis?
    Aspose.PDF untuk Java adalah pustaka komersial yang hebat, tetapi menawarkan versi uji coba gratis untuk pengujian dan evaluasi. Bergantung pada persyaratan proyek Anda, Anda dapat memilih opsi lisensi yang sesuai.
@@ -120,9 +122,11 @@ Tingkatkan dokumen PDF Anda dengan menggabungkan teks yang diputar dengan mudah,
 
 ### 5. Apakah ada pustaka lain untuk bekerja dengan PDF di Java?
    Ya, beberapa pustaka, seperti iText dan PDFBox, tersedia untuk manipulasi PDF di Java. Setiap pustaka memiliki fitur dan kemampuan uniknya sendiri, jadi pilihlah yang paling sesuai dengan kebutuhan proyek Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-forms/set-radio-button-caption/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Radio Button Caption
@@ -158,6 +160,7 @@ Yes, similar techniques can be applied to other types of form fields in PDF docu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

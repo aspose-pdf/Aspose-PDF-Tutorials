@@ -8,7 +8,9 @@ url: /net/programming-with-text/remove-unused-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Unused Fonts In PDF File
@@ -153,6 +155,7 @@ Aspose.PDF for .NET is highly efficient for this purpose, though other libraries
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

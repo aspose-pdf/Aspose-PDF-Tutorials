@@ -1,14 +1,16 @@
 ---
-title: สร้าง PDF ด้วยข้อความที่มีแท็กใน Java
-linktitle: สร้าง PDF ด้วยข้อความที่มีแท็กใน Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีสร้าง PDF ที่ติดแท็กใน Java ด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนของเราช่วยให้เข้าถึงได้และเป็นไปตามข้อกำหนด
-weight: 14
-url: /th/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/
+"description": "เรียนรู้วิธีสร้าง PDF ที่แท็กใน Java ด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนของเราช่วยให้เข้าถึงได้และเป็นไปตามข้อกำหนด"
+"linktitle": "สร้าง PDF ด้วยข้อความที่มีแท็กใน Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "สร้าง PDF ด้วยข้อความที่มีแท็กใน Java"
+"url": "/th/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้าง PDF ด้วยข้อความที่มีแท็กใน Java
@@ -23,7 +25,7 @@ url: /th/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/
 ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การตั้งค่าโครงการ Java ของคุณ
 
@@ -76,7 +78,7 @@ document.save("tagged_pdf_example.pdf");
 
 ### ฉันจะมั่นใจได้อย่างไรว่า PDF ของฉันถูกแท็กเพื่อการเข้าถึงได้
 
- เพื่อให้แน่ใจว่า PDF ของคุณถูกแท็กสำหรับการเข้าถึงได้ คุณต้องตั้งค่า`tagged` ทรัพย์สินที่จะ`true` สำหรับข้อความหรือเนื้อหาที่คุณต้องการแท็ก ซึ่งโดยทั่วไปจะทำโดยใช้ไลบรารี Aspose.PDF ใน Java ตามที่สาธิตในคู่มือนี้
+เพื่อให้แน่ใจว่า PDF ของคุณถูกแท็กสำหรับการเข้าถึงได้ คุณต้องตั้งค่า `tagged` ทรัพย์สินที่จะ `true` สำหรับข้อความหรือเนื้อหาที่คุณต้องการแท็ก ซึ่งโดยทั่วไปจะทำโดยใช้ไลบรารี Aspose.PDF ใน Java ตามที่แสดงในคู่มือนี้
 
 ### PDF ที่แท็กมีความสำคัญอย่างไร
 
@@ -92,10 +94,12 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารและข้อมูลอ้างอิงที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์ของ Aspose[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารและข้อมูลอ้างอิงที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์ของ Aspose [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

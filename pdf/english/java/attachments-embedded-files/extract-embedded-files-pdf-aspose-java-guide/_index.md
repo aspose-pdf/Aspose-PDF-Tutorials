@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Embedded Files from PDFs Using Aspose.PDF for Java: A Comprehensive Guide
 
@@ -104,7 +106,11 @@ Use streams to handle file data:
 ```java
 try (java.io.InputStream input = fileSpecification.getContents();
      java.io.FileOutputStream output = new java.io.FileOutputStream(outputDir + "/output.txt\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

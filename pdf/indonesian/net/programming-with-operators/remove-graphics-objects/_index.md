@@ -1,14 +1,16 @@
 ---
-title: Hapus Objek Grafik Dalam File PDF
-linktitle: Hapus Objek Grafik Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menghapus objek grafik dari berkas PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Sederhanakan tugas manipulasi PDF Anda.
-weight: 30
-url: /id/net/programming-with-operators/remove-graphics-objects/
+"description": "Pelajari cara menghapus objek grafik dari berkas PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Sederhanakan tugas manipulasi PDF Anda."
+"linktitle": "Hapus Objek Grafik Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Hapus Objek Grafik Dalam File PDF"
+"url": "/id/net/programming-with-operators/remove-graphics-objects/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Objek Grafik Dalam File PDF
@@ -23,9 +25,9 @@ Dalam tutorial ini, kami akan memandu Anda untuk menghapus objek grafis dari fil
 
 Sebelum kita mulai, pastikan Anda telah menyiapkan hal berikut:
 
-1.  Aspose.PDF untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/) atau menginstalnya melalui NuGet.
+1. Aspose.PDF untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/) atau menginstalnya melalui NuGet.
 2. .NET Framework atau .NET Core SDK: Pastikan Anda telah menginstal salah satunya.
-3.  File PDF yang ingin Anda ubah. Kami akan menyebut file ini sebagai`RemoveGraphicsObjects.pdf` dalam tutorial ini.
+3. File PDF yang ingin Anda ubah. Kami akan menyebut file ini sebagai `RemoveGraphicsObjects.pdf` dalam tutorial ini.
 
 ## Langkah-langkah untuk Menginstal Aspose.PDF melalui NuGet
 
@@ -48,7 +50,7 @@ Sekarang setelah kita menyiapkan prasyaratnya, mari beralih ke bagian yang menye
 
 ## Langkah 1: Muat Dokumen PDF
 
- Untuk memulai, kita perlu memuat berkas PDF yang berisi objek grafik yang ingin kita hapus. Ini dapat dilakukan dengan menggunakan`Document`kelas dari Aspose.PDF. Anda akan mengarahkannya ke direktori tempat file PDF Anda berada.
+Untuk memulai, kita perlu memuat berkas PDF yang berisi objek grafik yang ingin kita hapus. Ini dapat dilakukan dengan menggunakan `Document` kelas dari Aspose.PDF. Anda akan mengarahkannya ke direktori tempat file PDF Anda berada.
 
 ### Langkah 1.1: Tentukan Jalur ke Dokumen Anda
 
@@ -58,7 +60,7 @@ Mari kita tentukan jalur direktori untuk dokumen Anda. Di sinilah file input dan
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Langkah ini penting agar program mengetahui di mana menemukan PDF Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Langkah ini penting agar program mengetahui di mana menemukan PDF Anda.
 
 ### Langkah 1.2: Muat Dokumen PDF
 
@@ -68,11 +70,11 @@ Sekarang, mari muat dokumen PDF ke dalam program kita.
 Document doc = new Document(dataDir + "RemoveGraphicsObjects.pdf");
 ```
 
- Ini menciptakan contoh dari`Document` kelas yang memuat berkas PDF yang ditentukan.
+Ini menciptakan contoh dari `Document` kelas yang memuat berkas PDF yang ditentukan.
 
 ## Langkah 2: Akses Halaman dan Koleksi Operator
 
-File PDF biasanya dibagi menjadi beberapa halaman, dan setiap halaman berisi kumpulan operator yang menentukan apa yang digambar pada halaman tersebut—ini termasuk grafik, teks, dan banyak lagi.
+File PDF biasanya dibagi menjadi beberapa halaman, dan setiap halaman berisi kumpulan operator yang menentukan apa yang digambar di halaman tersebut—ini termasuk grafik, teks, dan banyak lagi.
 
 ### Langkah 2.1: Pilih Halaman yang Akan Dimodifikasi
 
@@ -94,7 +96,7 @@ OperatorCollection oc = page.Contents;
 
 Untuk mengidentifikasi dan menghapus objek grafik, kita perlu menentukan operator yang mengontrol gambar grafik. Operator ini menentukan goresan, isian, dan jalur untuk bentuk atau garis dalam PDF.
 
- Kita akan mendefinisikan serangkaian operator yang digunakan untuk menggambar grafik. Ini termasuk perintah seperti`Stroke()`, `ClosePathStroke()` , Dan`Fill()`.
+Kita akan mendefinisikan serangkaian operator yang digunakan untuk menggambar grafik. Ini termasuk perintah seperti `Stroke()`Bahasa Indonesia: `ClosePathStroke()`, Dan `Fill()`.
 
 ```csharp
 Operator[] operators = new Operator[] {
@@ -128,7 +130,7 @@ Untuk menyimpan PDF tanpa grafik, gunakan kode berikut:
 doc.Save(dataDir + "No_Graphics_out.pdf");
 ```
 
- Ini akan menghasilkan file PDF baru bernama`No_Graphics_out.pdf` di direktori yang ditentukan.
+Ini akan menghasilkan file PDF baru bernama `No_Graphics_out.pdf` di direktori yang ditentukan.
 
 ## Kesimpulan
 
@@ -148,7 +150,7 @@ Anda dapat menginstalnya dengan mudah melalui NuGet di Visual Studio. Cukup cari
 
 ### Apakah Aspose.PDF untuk .NET gratis?
 
- Aspose.PDF menawarkan uji coba gratis yang dapat Anda unduh[Di Sini](https://releases.aspose.com/), tetapi untuk fitur lengkap, Anda memerlukan lisensi.
+Aspose.PDF menawarkan uji coba gratis yang dapat Anda unduh [Di Sini](https://releases.aspose.com/), tetapi untuk fitur lengkap, Anda memerlukan lisensi.
 
 ### Bisakah saya memanipulasi gambar dalam PDF menggunakan Aspose.PDF untuk .NET?
 
@@ -156,10 +158,12 @@ Ya, Aspose.PDF mendukung berbagai fitur manipulasi gambar, termasuk mengekstrak,
 
 ### Bagaimana cara menghubungi dukungan untuk Aspose.PDF?
 
- Untuk dukungan teknis, kunjungi[Forum Dukungan Aspose.PDF](https://forum.aspose.com/c/pdf/10) untuk mendapatkan bantuan dari tim.
+Untuk dukungan teknis, kunjungi [Forum Dukungan Aspose.PDF](https://forum.aspose.com/c/pdf/10) untuk mendapatkan bantuan dari tim.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

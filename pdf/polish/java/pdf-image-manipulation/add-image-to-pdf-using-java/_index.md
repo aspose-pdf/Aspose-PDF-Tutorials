@@ -1,14 +1,16 @@
 ---
-title: Dodaj obraz do pliku PDF za pomocą Java
-linktitle: Dodaj obraz do pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać obrazy do plików PDF za pomocą Javy dzięki naszemu przewodnikowi krok po kroku. Ulepszaj swoje dokumenty PDF za pomocą elementów wizualnych bez wysiłku.
-weight: 10
-url: /pl/java/pdf-image-manipulation/add-image-to-pdf-using-java/
+"description": "Dowiedz się, jak dodawać obrazy do plików PDF za pomocą Javy dzięki naszemu przewodnikowi krok po kroku. Ulepszaj swoje dokumenty PDF za pomocą elementów wizualnych bez wysiłku."
+"linktitle": "Dodaj obraz do pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodaj obraz do pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-image-manipulation/add-image-to-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj obraz do pliku PDF za pomocą Java
@@ -28,13 +30,13 @@ Zanim przejdziemy do kodowania, upewnij się, że masz następujące ustawienia:
 
 ## Pierwsze kroki
 
-Zacznijmy od skonfigurowania naszego projektu Java i dołączenia biblioteki Aspose.PDF. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać bibliotekę Aspose.PDF dla Java z[Tutaj](https://releases.aspose.com/pdf/java/).
+Zacznijmy od skonfigurowania naszego projektu Java i dołączenia biblioteki Aspose.PDF. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać bibliotekę Aspose.PDF dla Java z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Dodawanie obrazu do istniejącego pliku PDF
 
 ### Krok 1: Zaimportuj niezbędne biblioteki
 
-W projekcie Java utwórz nową klasę Java i zaimportuj bibliotekę Aspose.PDF:
+projekcie Java utwórz nową klasę Java i zaimportuj bibliotekę Aspose.PDF:
 
 ```java
 import com.aspose.pdf.*;
@@ -48,18 +50,18 @@ Teraz załadujmy istniejący dokument PDF, do którego chcemy dodać obraz:
 Document pdfDocument = new Document("path_to_existing_pdf.pdf");
 ```
 
- Zastępować`"path_to_existing_pdf.pdf"` z rzeczywistą ścieżką do pliku PDF.
+Zastępować `"path_to_existing_pdf.pdf"` z rzeczywistą ścieżką do pliku PDF.
 
 ### Krok 3: Dodaj obraz
 
- Aby dodać obraz do pliku PDF, możesz użyć`Image` klasa z Aspose.PDF. Najpierw utwórz`Image` obiekt i określ ścieżkę do pliku obrazu:
+Aby dodać obraz do pliku PDF, możesz użyć `Image` klasa z Aspose.PDF. Najpierw utwórz `Image` obiekt i określ ścieżkę do pliku obrazu:
 
 ```java
 Image image = new Image();
 image.setFile("path_to_image.png");
 ```
 
- Zastępować`"path_to_image.png"` ze ścieżką do obrazu, który chcesz dodać.
+Zastępować `"path_to_image.png"` ze ścieżką do obrazu, który chcesz dodać.
 
 ### Krok 4: Ustaw wymiary i położenie obrazu
 
@@ -93,13 +95,13 @@ pdfDocument.save("output.pdf");
 
 ## Wniosek
 
-Pomyślnie dodałeś obraz do dokumentu PDF przy użyciu Java i biblioteki Aspose.PDF. Może to być niezwykle przydatne, gdy musisz utworzyć wizualnie bogate pliki PDF w swoich aplikacjach Java.
+Pomyślnie dodano obraz do dokumentu PDF przy użyciu Javy i biblioteki Aspose.PDF. Może to być niezwykle przydatne, gdy trzeba utworzyć wizualnie bogate pliki PDF w aplikacjach Java.
 
 ## Najczęściej zadawane pytania
 
 ### Jak mogę zmienić rozmiar obrazu w pliku PDF?
 
- Aby zmienić rozmiar obrazu, użyj`setFixWidth` I`setFixHeight` metody`Image` klasę, jak pokazano w kroku 4 tego przewodnika.
+Aby zmienić rozmiar obrazu, użyj `setFixWidth` I `setFixHeight` metody `Image` klasę, jak pokazano w kroku 4 tego przewodnika.
 
 ### Czy mogę dodać wiele obrazów do tego samego dokumentu PDF?
 
@@ -116,9 +118,11 @@ Aspose.PDF dla Java obsługuje szeroką gamę formatów obrazów, w tym PNG, JPE
 ### Czy mogę dodawać obrazy w określonych miejscach na stronie PDF?
 
 Tak, możesz określić dokładne położenie obrazu na stronie PDF, ustawiając górny i lewy margines, jak pokazano w kroku 4.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

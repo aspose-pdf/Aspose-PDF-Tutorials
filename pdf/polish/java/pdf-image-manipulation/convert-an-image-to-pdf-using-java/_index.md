@@ -1,14 +1,16 @@
 ---
-title: Konwertuj obraz do pliku PDF za pomocą Java
-linktitle: Konwertuj obraz do pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak konwertować obrazy do PDF za pomocą Java z tym kompleksowym przewodnikiem. Zawiera instrukcje krok po kroku i przykłady kodu.
-weight: 12
-url: /pl/java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/
+"description": "Dowiedz się, jak konwertować obrazy do PDF za pomocą Java z tym kompleksowym przewodnikiem. Zawiera instrukcje krok po kroku i przykłady kodu."
+"linktitle": "Konwertuj obraz do pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Konwertuj obraz do pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj obraz do pliku PDF za pomocą Java
@@ -24,7 +26,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 
 - Środowisko programistyczne Java: w systemie powinno być zainstalowane środowisko Java JDK.
 
--  Aspose.PDF dla Java: Pobierz i dołącz bibliotekę Aspose.PDF dla Java do swojego projektu. Link do pobrania znajdziesz[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla Java: Pobierz i dołącz bibliotekę Aspose.PDF dla Java do swojego projektu. Link do pobrania znajdziesz [Tutaj](https://releases.aspose.com/pdf/java/).
 
 - Obraz do konwersji: Przygotuj plik obrazu, który chcesz przekonwertować do formatu PDF. Upewnij się, że jest dostępny w projekcie Java.
 
@@ -61,7 +63,7 @@ pdfDocument.getPages().add();
 // Załaduj plik obrazu
 String imagePath = "path/to/your/image.jpg";
 
-//Dodaj obraz do pierwszej strony
+// Dodaj obraz do pierwszej strony
 pdfDocument.getPages().get_Item(1).getParagraphs().add(new com.aspose.pdf.Image(imagePath));
 ```
 
@@ -84,7 +86,7 @@ Aby dodać wiele obrazów do jednego dokumentu PDF, możesz wykonać te same kro
 
 ### Czy mogę dostosować wygląd strony PDF, np. ustawić jej wymiary lub marginesy?
 
-Tak, możesz dostosować wygląd strony PDF, dostosowując jej wymiary, marginesy i inne atrybuty za pomocą Aspose.PDF dla Java. Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/pdf/java/) Aby uzyskać szczegółowe informacje na temat dostosowywania strony.
+Tak, możesz dostosować wygląd strony PDF, dostosowując jej wymiary, marginesy i inne atrybuty za pomocą Aspose.PDF dla Java. Zapoznaj się z dokumentacją [Tutaj](https://reference.aspose.com/pdf/java/) Aby uzyskać szczegółowe informacje na temat dostosowywania strony.
 
 ### Czy Aspose.PDF dla Java jest darmową biblioteką?
 
@@ -97,9 +99,11 @@ Aspose.PDF for Java nie nakłada ścisłych ograniczeń na rozmiar obrazu, któr
 ### Czy mogę zabezpieczyć hasłem wygenerowany dokument PDF?
 
 Tak, możesz dodać ochronę hasłem do wygenerowanego dokumentu PDF za pomocą Aspose.PDF dla Java. Zapoznaj się z dokumentacją biblioteki, aby uzyskać wskazówki dotyczące dodawania funkcji bezpieczeństwa do dokumentów PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

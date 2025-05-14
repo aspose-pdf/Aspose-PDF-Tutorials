@@ -4,8 +4,11 @@ description: "Learn to implement layers, portfolios, accessibility features, and
 weight: 17
 url: "/java/advanced-features/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Advanced PDF Features Tutorials for Aspose.PDF Java
 
@@ -62,7 +65,11 @@ Learn how to control PDF open actions using Aspose.PDF for Java. This comprehens
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

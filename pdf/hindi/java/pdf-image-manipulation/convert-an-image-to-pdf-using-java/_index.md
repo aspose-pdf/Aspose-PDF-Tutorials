@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके छवि को पीडीएफ में बदलें
-linktitle: जावा का उपयोग करके छवि को पीडीएफ में बदलें
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: इस विस्तृत गाइड के साथ जावा का उपयोग करके छवियों को पीडीएफ में परिवर्तित करना सीखें। चरण-दर-चरण निर्देश और कोड उदाहरण शामिल हैं।
-weight: 12
-url: /hi/java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/
+"description": "इस विस्तृत गाइड के साथ जावा का उपयोग करके छवियों को पीडीएफ में परिवर्तित करना सीखें। चरण-दर-चरण निर्देश और कोड उदाहरण शामिल हैं।"
+"linktitle": "जावा का उपयोग करके छवि को पीडीएफ में बदलें"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके छवि को पीडीएफ में बदलें"
+"url": "/hi/java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके छवि को पीडीएफ में बदलें
@@ -24,7 +26,7 @@ url: /hi/java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/
 
 - जावा डेवलपमेंट एनवायरनमेंट: आपके सिस्टम पर जावा JDK स्थापित होना चाहिए।
 
--  Aspose.PDF for Java: Aspose.PDF for Java लाइब्रेरी को डाउनलोड करें और अपने प्रोजेक्ट में शामिल करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java: Aspose.PDF for Java लाइब्रेरी को डाउनलोड करें और अपने प्रोजेक्ट में शामिल करें। आप डाउनलोड लिंक पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/).
 
 - कन्वर्ट करने के लिए इमेज: जिस इमेज फ़ाइल को आप PDF में बदलना चाहते हैं, उसे तैयार रखें। सुनिश्चित करें कि यह आपके जावा प्रोजेक्ट में सुलभ है।
 
@@ -61,7 +63,7 @@ pdfDocument.getPages().add();
 // छवि फ़ाइल लोड करें
 String imagePath = "path/to/your/image.jpg";
 
-//छवि को पहले पृष्ठ पर जोड़ें
+// छवि को पहले पृष्ठ पर जोड़ें
 pdfDocument.getPages().get_Item(1).getParagraphs().add(new com.aspose.pdf.Image(imagePath));
 ```
 
@@ -84,7 +86,7 @@ pdfDocument.save("output.pdf");
 
 ### क्या मैं पीडीएफ पृष्ठ के स्वरूप को अनुकूलित कर सकता हूं, जैसे कि इसके आयाम या मार्जिन सेट करना?
 
-हां, आप Aspose.PDF for Java का उपयोग करके PDF पृष्ठ के आयाम, मार्जिन और अन्य विशेषताओं को समायोजित करके उसके स्वरूप को अनुकूलित कर सकते हैं। दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/pdf/java/) पृष्ठ अनुकूलन पर विस्तृत जानकारी के लिए.
+हां, आप Aspose.PDF for Java का उपयोग करके PDF पृष्ठ के आयाम, मार्जिन और अन्य विशेषताओं को समायोजित करके उसके स्वरूप को अनुकूलित कर सकते हैं। दस्तावेज़ देखें [यहाँ](https://reference.aspose.com/pdf/java/) पृष्ठ अनुकूलन पर विस्तृत जानकारी के लिए.
 
 ### क्या Aspose.PDF for Java एक निःशुल्क लाइब्रेरी है?
 
@@ -97,9 +99,11 @@ Aspose.PDF for Java उस छवि के आकार पर सख्त स
 ### क्या मैं उत्पन्न पीडीएफ दस्तावेज़ को पासवर्ड से सुरक्षित कर सकता हूँ?
 
 हां, आप जावा के लिए Aspose.PDF का उपयोग करके जेनरेट किए गए PDF दस्तावेज़ में पासवर्ड सुरक्षा जोड़ सकते हैं। अपने PDF दस्तावेज़ों में सुरक्षा सुविधाएँ जोड़ने के लिए मार्गदर्शन के लिए लाइब्रेरी के दस्तावेज़ देखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

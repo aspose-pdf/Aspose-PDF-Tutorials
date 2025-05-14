@@ -6,8 +6,11 @@ description: Learn how to add a table to an existing PDF using Aspose.PDF for .N
 keywords: [Aspose.PDF for .NET, add table to PDF, create table in PDF, modify PDF, .NET PDF library, edit PDF document, insert table, C# PDF manipulation]
 url: /net/tables/add-table/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Table to an Existing PDF Using Aspose.PDF
@@ -15,9 +18,11 @@ url: /net/tables/add-table/
 Adding a table to an existing PDF document is a common requirement for generating reports, invoices, or structured data presentations. With Aspose.PDF for .NET, you can easily create and insert a table into a PDF document while customizing its appearance and structure.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/add-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation  
 
@@ -40,7 +45,9 @@ To use Aspose.PDF for .NET, follow these steps:
    - [Aspose.PDF API Reference](https://reference.aspose.com/pdf/net/)  
  
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

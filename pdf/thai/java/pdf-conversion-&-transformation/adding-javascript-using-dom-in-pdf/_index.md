@@ -1,14 +1,16 @@
 ---
-title: การเพิ่ม JavaScript โดยใช้ DOM ใน PDF
-linktitle: การเพิ่ม JavaScript โดยใช้ DOM ใน PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีปรับปรุงการโต้ตอบของ PDF ด้วย JavaScript โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับ PDF แบบไดนามิก
-weight: 32
-url: /th/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/
+"description": "เรียนรู้วิธีปรับปรุงการโต้ตอบของ PDF ด้วย JavaScript โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับ PDF แบบไดนามิก"
+"linktitle": "การเพิ่ม JavaScript โดยใช้ DOM ใน PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "การเพิ่ม JavaScript โดยใช้ DOM ใน PDF"
+"url": "/th/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเพิ่ม JavaScript โดยใช้ DOM ใน PDF
@@ -20,7 +22,7 @@ url: /th/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/
 
 ## Aspose.PDF สำหรับ Java คืออะไร?
 
-Aspose.PDF สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนา Java สามารถทำงานกับเอกสาร PDF ได้ด้วยโปรแกรม โดยมีคุณสมบัติมากมาย เช่น การสร้าง จัดการ และปรับแต่งไฟล์ PDF
+Aspose.PDF สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้ผู้พัฒนา Java สามารถทำงานกับเอกสาร PDF ได้ด้วยโปรแกรม โดยมีคุณสมบัติมากมาย เช่น การสร้าง จัดการ และปรับแต่งไฟล์ PDF
 
 ## เหตุใดจึงต้องใช้ JavaScript ในไฟล์ PDF?
 
@@ -30,7 +32,7 @@ JavaScript สามารถใช้เพื่อเพิ่มพฤติ
 
 ก่อนที่เราจะเริ่มต้น คุณต้องตั้งค่าสภาพแวดล้อมการพัฒนาของคุณก่อน นี่คือขั้นตอน:
 
-1. ดาวน์โหลดและติดตั้ง Aspose.PDF สำหรับ Java: เยี่ยมชม[เอกสาร Aspose.PDF สำหรับ Java](https://reference.aspose.com/pdf/java/) เพื่อดาวน์โหลดและติดตั้งไลบรารี
+1. ดาวน์โหลดและติดตั้ง Aspose.PDF สำหรับ Java: เยี่ยมชม [เอกสาร Aspose.PDF สำหรับ Java](https://reference.aspose.com/pdf/java/) เพื่อดาวน์โหลดและติดตั้งไลบรารี
 
 2. สร้างโครงการ Java: ตั้งค่าโครงการ Java ใน Integrated Development Environment (IDE) ที่คุณต้องการ
 
@@ -77,7 +79,7 @@ pdfDocument.save("sample_with_js.pdf");
 
 ## ตัวอย่างกรณีการใช้งาน
 
-มาลองพิจารณากรณีการใช้งานจริงกัน คุณต้องการสร้างแบบฟอร์ม PDF ที่คำนวณราคารวมของสินค้าที่ผู้ใช้เลือก คุณสามารถใช้ JavaScript เพื่อทำสิ่งนี้ได้ นี่คือตัวอย่างที่เรียบง่าย:
+ลองพิจารณาตัวอย่างการใช้งานจริง คุณต้องการสร้างแบบฟอร์ม PDF ที่คำนวณราคารวมของสินค้าที่ผู้ใช้เลือก คุณสามารถใช้ JavaScript เพื่อทำสิ่งนี้ได้ นี่คือตัวอย่างแบบง่าย:
 
 ```java
 // สร้างฟอร์มช่องสำหรับจำนวนสินค้า
@@ -107,7 +109,7 @@ pdfDocument.getJavaScript().add(calculateTotalScript);
 
 ### ฉันสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้อย่างไร
 
- คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์โดยเข้าไปที่[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์โดยเข้าไปที่ [https://releases.aspose.com/pdf/จาวา/](https://releases-aspose.com/pdf/java/).
 
 ### มีการรองรับ JavaScript ในโปรแกรมดู PDF ทั้งหมดหรือไม่
 
@@ -124,9 +126,11 @@ pdfDocument.getJavaScript().add(calculateTotalScript);
 ### ฉันสามารถหาตัวอย่าง JavaScript ขั้นสูงเพิ่มเติมสำหรับ PDF ได้จากที่ไหน
 
 คุณสามารถสำรวจเอกสาร Aspose.PDF สำหรับ Java เพื่อดูตัวอย่างขั้นสูงและกรณีการใช้งานที่เกี่ยวข้องกับ JavaScript ใน PDF
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

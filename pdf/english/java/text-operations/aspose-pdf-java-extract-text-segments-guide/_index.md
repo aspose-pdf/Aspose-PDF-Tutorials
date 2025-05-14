@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Extract Text Segments from PDFs Using Aspose.PDF for Java: A Step-by-Step Guide
 
@@ -204,7 +206,11 @@ Try implementing this solution in one of your projects! If you have questions or
 
 5. **How can I improve the performance of my PDF processing application?**  
    Optimize memory usage, process in batches, and consider asynchronous operations if applicable.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thêm đối tượng SVG vào tệp PDF
-linktitle: Thêm đối tượng SVG vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách dễ dàng thêm các đối tượng SVG vào tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện tài liệu của bạn.
-weight: 30
-url: /vi/net/programming-with-tables/add-svg-object/
+"description": "Tìm hiểu cách dễ dàng thêm các đối tượng SVG vào tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện tài liệu của bạn."
+"linktitle": "Thêm đối tượng SVG vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm đối tượng SVG vào tệp PDF"
+"url": "/vi/net/programming-with-tables/add-svg-object/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm đối tượng SVG vào tệp PDF
@@ -22,7 +24,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để kết hợp đồ họa ve
 Trước khi đi sâu vào các chi tiết cơ bản của việc thêm đối tượng SVG vào tệp PDF, bạn cần chuẩn bị một số thứ sau:
 
 1. Hiểu biết cơ bản về .NET: Sự quen thuộc với ngôn ngữ lập trình C# và môi trường .NET sẽ giúp bạn dễ dàng theo dõi.
-2.  Thư viện Aspose.PDF: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống qua liên kết sau:[Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+2. Thư viện Aspose.PDF: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống qua liên kết sau: [Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 3. Visual Studio hoặc bất kỳ IDE .NET nào: Thiết lập Môi trường phát triển tích hợp (IDE) ưa thích của bạn, nơi bạn có thể viết và thực thi mã của mình.
 4. Tệp SVG mẫu: Bạn sẽ cần một tệp SVG để làm việc. Chỉ cần tạo một tệp hoặc tải xuống tệp SVG mẫu để sử dụng trong ví dụ này.
 
@@ -32,7 +34,7 @@ Bước đầu tiên là đảm bảo rằng bạn đã nhập các gói cần t
 
 ### Tạo một dự án mới
 
-Mở Visual Studio (hoặc IDE bạn thích) và tạo một dự án ứng dụng bảng điều khiển mới.
+Mở Visual Studio (hoặc IDE mà bạn thích) và tạo một dự án ứng dụng bảng điều khiển mới.
 
 ### Thêm Aspose.PDF DLL
 
@@ -55,7 +57,7 @@ Bây giờ chúng ta đã thiết lập mọi thứ, hãy tiến hành mã hóa 
 
 ## Bước 1: Thiết lập đối tượng tài liệu
 
- Điều đầu tiên bạn muốn làm là tạo một phiên bản mới của`Document` lớp. Đây là nơi lưu trữ toàn bộ nội dung PDF của bạn.
+Điều đầu tiên bạn muốn làm là tạo một phiên bản mới của `Document` lớp. Đây là nơi lưu trữ toàn bộ nội dung PDF của bạn.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -96,7 +98,7 @@ img.File = dataDir + "SVGToPDF.svg"; // Đảm bảo thay thế bằng đường
 Bạn có thể muốn thay đổi kích thước hình ảnh SVG của mình để vừa vặn với PDF. Bạn có thể thực hiện việc này bằng cách chỉ định chiều rộng và chiều cao của hình ảnh:
 
 ```csharp
-// Đặt chiều rộng cho trường hợp hình ảnh
+// Thiết lập chiều rộng cho trường hợp hình ảnh
 img.FixWidth = 50;
 
 // Đặt chiều cao cho phiên bản hình ảnh
@@ -117,14 +119,14 @@ Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 table.ColumnWidths = "100 100";
 ```
 
- Với`ColumnWidths`, chúng ta có thể chỉ định lượng không gian mà mỗi cột sẽ chiếm trong bảng. Hãy thoải mái điều chỉnh các giá trị này theo yêu cầu nội dung của bạn.
+Với `ColumnWidths`, chúng ta có thể chỉ định lượng không gian mà mỗi cột sẽ chiếm trong bảng. Hãy thoải mái điều chỉnh các giá trị này theo yêu cầu nội dung của bạn.
 
 ## Bước 6: Thêm Hàng và Ô vào Bảng
 
 Bây giờ, chúng ta sẽ thêm các hàng vào bảng và sau đó thêm hình ảnh SVG vào một ô:
 
 ```csharp
-//Tạo đối tượng hàng và thêm nó vào thể hiện bảng
+// Tạo đối tượng hàng và thêm nó vào thể hiện bảng
 Aspose.Pdf.Row row = table.Rows.Add();
 
 // Tạo đối tượng ô và thêm nó vào thể hiện hàng
@@ -174,7 +176,7 @@ dataDir = dataDir + "AddSVGObject_out.pdf"; // Cung cấp đường dẫn đầu
 doc.Save(dataDir);
 ```
 
-Và đó là cách bạn thực hiện! Chỉ với một vài dòng mã, hình ảnh SVG của bạn giờ đã là một phần của tệp PDF.
+Và đó là cách bạn thực hiện! Chỉ với một vài dòng mã, hình ảnh SVG của bạn giờ đã trở thành một phần của tệp PDF.
 
 ## Phần kết luận
 
@@ -196,9 +198,11 @@ Bạn có thể bắt đầu bằng bản dùng thử miễn phí để đánh g
 
 ### Aspose.PDF có tương thích với tất cả các phiên bản .NET không?
 Aspose.PDF hỗ trợ nhiều nền tảng .NET; hãy kiểm tra tài liệu để biết thông tin tương thích cụ thể.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

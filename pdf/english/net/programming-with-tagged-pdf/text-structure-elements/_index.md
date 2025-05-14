@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/text-structure-elements/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Text Structure Elements In PDF File
@@ -167,6 +169,7 @@ Yes, Aspose offers libraries for various programming languages including Java, P
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

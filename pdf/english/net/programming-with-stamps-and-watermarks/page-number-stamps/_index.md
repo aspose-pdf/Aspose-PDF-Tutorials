@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/page-number-stamps/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Page Number Stamps In PDF File
@@ -164,6 +166,7 @@ While this guide focuses on .NET, Aspose has libraries for Java, Python, and mor
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

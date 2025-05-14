@@ -1,14 +1,16 @@
 ---
-title: Thêm Dấu Trang Con Vào Tệp PDF
-linktitle: Thêm Dấu Trang Con Vào Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm dấu trang con vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện khả năng điều hướng PDF của bạn.
-weight: 20
-url: /vi/net/programming-with-bookmarks/add-child-bookmark/
+"description": "Tìm hiểu cách thêm dấu trang con vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện khả năng điều hướng PDF của bạn."
+"linktitle": "Thêm Dấu Trang Con Vào Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm Dấu Trang Con Vào Tệp PDF"
+"url": "/vi/net/programming-with-bookmarks/add-child-bookmark/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Dấu Trang Con Vào Tệp PDF
@@ -21,7 +23,7 @@ Trong thời đại kỹ thuật số, việc quản lý tài liệu hiệu qu�
 
 Trước khi đi sâu vào cách thêm dấu trang, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Môi trường phát triển nơi bạn có thể viết và kiểm tra mã của mình.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
@@ -31,7 +33,7 @@ Trước khi đi sâu vào cách thêm dấu trang, bạn cần chuẩn bị m�
 
 ### Tạo một dự án mới
 
-Mở Visual Studio và tạo một dự án C# mới. Chọn Ứng dụng Console để đơn giản hơn.
+Mở Visual Studio và tạo một dự án C# mới. Chọn một Ứng dụng Console để đơn giản hơn.
 
 ### Thêm tham chiếu Aspose.PDF
 
@@ -41,7 +43,7 @@ Mở Visual Studio và tạo một dự án C# mới. Chọn Ứng dụng Consol
 
 ### Nhập các không gian tên bắt buộc
 
- Ở đầu trang của bạn`Program.cs` tệp, nhập các không gian tên cần thiết:
+Ở đầu trang của bạn `Program.cs` tệp, nhập các không gian tên cần thiết:
 
 ```csharp
 using System;
@@ -60,7 +62,7 @@ Trước khi bạn có thể thao tác bất kỳ tệp PDF nào, bạn cần ch
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn nằm. Điều này giống như cung cấp cho mã của bạn một bản đồ để tìm kho báu!
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn nằm. Điều này giống như cung cấp cho mã của bạn một bản đồ để tìm kho báu!
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -71,7 +73,7 @@ Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc mở t
 Document pdfDocument = new Document(dataDir + "AddChildBookmark.pdf");
 ```
 
- Ở đây, chúng tôi đang tạo ra một cái mới`Document` đối tượng tải tệp PDF của bạn. Hãy nghĩ về điều này như việc mở một cuốn sách để bắt đầu đọc.
+Ở đây, chúng tôi đang tạo ra một cái mới `Document` đối tượng tải tệp PDF của bạn. Hãy nghĩ về điều này như việc mở một cuốn sách để bắt đầu đọc.
 
 ## Bước 3: Tạo Dấu trang Cha
 
@@ -85,7 +87,7 @@ pdfOutline.Italic = true;
 pdfOutline.Bold = true;
 ```
 
- Trong đoạn trích này, chúng tôi đang tạo một`OutlineItemCollection` cho dấu trang gốc. Chúng tôi đặt tiêu đề và kiểu (in nghiêng và in đậm) để làm nổi bật. Giống như đặt cho chương của bạn một tiêu đề hấp dẫn!
+Trong đoạn trích này, chúng tôi đang tạo một `OutlineItemCollection` cho dấu trang gốc. Chúng tôi đặt tiêu đề và kiểu (in nghiêng và in đậm) để làm nổi bật. Giống như đặt cho chương của bạn một tiêu đề hấp dẫn!
 
 ## Bước 4: Tạo một Bookmark con
 
@@ -110,7 +112,7 @@ Sau khi tạo xong cả hai dấu trang, đã đến lúc liên kết chúng l�
 pdfOutline.Add(pdfChildOutline);
 ```
 
-Dòng mã này thêm dấu trang con vào bộ sưu tập dấu trang cha. Giống như đặt tiêu đề phụ bên dưới tiêu đề chương vậy!
+Dòng mã này thêm dấu trang con vào bộ sưu tập dấu trang cha. Giống như việc đặt tiêu đề phụ bên dưới tiêu đề chương vậy!
 
 ## Bước 6: Thêm Dấu trang Cha vào Tài liệu
 
@@ -134,7 +136,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nChild bookmark added successfully.\nFile saved at " + dataDir);
 ```
 
-Ở đây, chúng tôi chỉ định tên tệp đầu ra và lưu tài liệu. Bạn sẽ thấy thông báo xác nhận khi quá trình hoàn tất. Giống như đóng sách lại sau khi viết xong kiệt tác của bạn vậy!
+Ở đây, chúng tôi chỉ định tên tệp đầu ra và lưu tài liệu. Bạn sẽ thấy thông báo xác nhận sau khi quá trình hoàn tất. Giống như đóng sách lại sau khi viết xong kiệt tác của bạn vậy!
 
 ## Phần kết luận
 
@@ -149,17 +151,19 @@ Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát 
 Có, bạn có thể tạo nhiều dấu trang con trong một dấu trang cha bằng cách lặp lại các bước tạo và thêm dấu trang con.
 
 ### Aspose.PDF có miễn phí sử dụng không?
- Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Hãy xem[mua trang](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Hãy xem [mua trang](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET [đây](https://reference.aspose.com/pdf/net/).
 
 ### Tôi phải làm sao nếu gặp vấn đề?
-Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp trên [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

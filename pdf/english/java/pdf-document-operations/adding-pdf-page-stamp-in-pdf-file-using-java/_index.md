@@ -8,7 +8,9 @@ url: /java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding PDF Page Stamp in the PDF File using Java
@@ -130,6 +132,7 @@ You can find comprehensive documentation and examples on the Aspose.PDF for Java
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

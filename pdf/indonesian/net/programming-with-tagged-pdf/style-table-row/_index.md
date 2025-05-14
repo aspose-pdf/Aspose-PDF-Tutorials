@@ -1,14 +1,16 @@
 ---
-title: Baris Tabel Gaya
-linktitle: Baris Tabel Gaya
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menata baris tabel dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah untuk menyempurnakan pemformatan dokumen Anda dengan mudah.
-weight: 180
-url: /id/net/programming-with-tagged-pdf/style-table-row/
+"description": "Pelajari cara menata baris tabel dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah untuk menyempurnakan pemformatan dokumen Anda dengan mudah."
+"linktitle": "Baris Tabel Gaya"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Baris Tabel Gaya"
+"url": "/id/net/programming-with-tagged-pdf/style-table-row/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Baris Tabel Gaya
@@ -22,7 +24,7 @@ Jika ingin membuat dokumen PDF yang terstruktur dengan baik dan berformat indah,
 Sebelum kita mulai, mari pastikan Anda sudah mempersiapkan semuanya dengan baik. Anda memerlukan:
 
 1. Aspose.PDF untuk Pustaka .NET  
-    Jika Anda belum memilikinya, Anda dapat mengambilnya dari[Di Sini](https://releases.aspose.com/pdf/net/) Anda juga bisa mendapatkan[uji coba gratis](https://releases.aspose.com/) untuk memulai.
+   Jika Anda belum memilikinya, Anda dapat mengambilnya dari [Di Sini](https://releases.aspose.com/pdf/net/)Anda juga bisa mendapatkan [uji coba gratis](https://releases.aspose.com/) untuk memulai.
 2. Lingkungan Pengembangan  
    Siapkan Visual Studio atau IDE C# pilihan Anda. Anda juga perlu menginstal .NET, tetapi saya rasa Anda sudah familier dengan itu.
 3. Pengetahuan Dasar tentang C# dan .NET  
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Di sini, kita hanya menginisialisasi yang baru`Document` objek yang akan mewakili berkas PDF kita. Pastikan untuk mengatur jalur direktori tempat Anda akan menyimpan berkas keluaran.
+Di sini, kita hanya menginisialisasi yang baru `Document` objek yang akan mewakili berkas PDF kita. Pastikan untuk mengatur jalur direktori tempat Anda akan menyimpan berkas keluaran.
 
 ## Langkah 2: Bekerja dengan Konten yang Ditandai
 
@@ -181,10 +183,10 @@ Nah, itu dia! Hanya dengan beberapa baris kode, Anda telah membuat tabel bergaya
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengubah gaya font tabel juga?  
- Ya! Anda dapat mengubah gaya font menggunakan`TextState` objek untuk setiap sel, memungkinkan penyesuaian penuh.
+Ya! Anda dapat mengubah gaya font menggunakan `TextState` objek untuk setiap sel, memungkinkan penyesuaian penuh.
 
 ### Bagaimana cara menambahkan lebih banyak kolom ke tabel saya?  
- Sesuaikan saja`colCount`variabel dan menambahkan lebih banyak sel dalam loop untuk header, body, dan footer.
+Sesuaikan saja `colCount` variabel dan menambahkan lebih banyak sel dalam loop untuk header, body, dan footer.
 
 ### Apa yang terjadi jika saya tidak mengatur tinggi baris?  
 Jika Anda tidak mengatur tinggi baris, tabel akan otomatis menyesuaikan berdasarkan konten.
@@ -193,10 +195,12 @@ Jika Anda tidak mengatur tinggi baris, tabel akan otomatis menyesuaikan berdasar
 Tentu saja! Anda dapat mengambil data dari database atau sumber lain dan menyesuaikan jumlah baris dan kolom secara dinamis.
 
 ### Apakah Aspose.PDF untuk .NET gratis untuk digunakan?  
- Aspose.PDF untuk .NET adalah produk berlisensi, tetapi Anda dapat mencobanya dengan[uji coba gratis](https://releases.aspose.com/) atau dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF untuk .NET adalah produk berlisensi, tetapi Anda dapat mencobanya dengan [uji coba gratis](https://releases.aspose.com/) atau dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Получить имя изображения, встроенного в PDF-файл, с помощью Java
-linktitle: Получить имя изображения, встроенного в PDF-файл, с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как извлекать встроенные имена изображений из файлов PDF с помощью Java и Aspose.PDF для Java. Пошаговое руководство с исходным кодом для эффективного извлечения данных PDF.
-weight: 14
-url: /ru/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/
+"description": "Узнайте, как извлекать встроенные имена изображений из файлов PDF с помощью Java и Aspose.PDF для Java. Пошаговое руководство с исходным кодом для эффективного извлечения данных PDF."
+"linktitle": "Получить имя изображения, встроенного в PDF-файл, с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Получить имя изображения, встроенного в PDF-файл, с помощью Java"
+"url": "/ru/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить имя изображения, встроенного в PDF-файл, с помощью Java
@@ -42,7 +44,7 @@ Aspose.PDF для Java — мощная библиотека для работы
 
 ## Загрузка PDF-файла
 
- На этом шаге мы напишем код Java для загрузки файла PDF в наше приложение. Вам следует заменить`"input.pdf"` с путем к вашему PDF-файлу.
+На этом шаге мы напишем код Java для загрузки файла PDF в наше приложение. Вам следует заменить `"input.pdf"` с путем к вашему PDF-файлу.
 
 ```java
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("input.pdf");
@@ -53,13 +55,13 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("input.pdf");
 Для извлечения встроенных изображений нам необходимо получить доступ к ресурсам PDF-документа. Вот как это можно сделать:
 
 ```java
-com.aspose.pdf.Page page = pdfDocument.getPages().get_Item(1); // Замените на желаемый номер страницы.
+com.aspose.pdf.Page page = pdfDocument.getPages().get_Item(1); // Замените на желаемый номер страницы
 com.aspose.pdf.XImageCollection images = page.getResources().getImages();
 ```
 
 ## Написание кода Java для извлечения изображений
 
-Теперь давайте переберем встроенные изображения и извлечем их имена:
+Теперь давайте пройдемся по встроенным изображениям и извлечем их имена:
 
 ```java
 for (com.aspose.pdf.XImage image : images) {
@@ -104,9 +106,11 @@ for (com.aspose.pdf.XImage image : images) {
 ### Можно ли использовать Aspose.PDF для Java бесплатно?
 
 Aspose.PDF для Java — это коммерческая библиотека с бесплатной пробной версией. Вы можете изучить ее возможности в течение пробного периода и рассмотреть возможность приобретения лицензии для дальнейшего использования.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

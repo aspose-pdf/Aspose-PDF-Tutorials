@@ -6,7 +6,9 @@ url: "/net/attachments-embedded-files/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Attachments and Embedded Files Tutorials for Aspose.PDF .NET
@@ -57,6 +59,9 @@ Learn how to effortlessly extract and manage embedded file information in PDFs u
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

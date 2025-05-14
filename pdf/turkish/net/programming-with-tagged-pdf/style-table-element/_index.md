@@ -1,17 +1,19 @@
 ---
-title: Stil Tablo Elemanı
-linktitle: Stil Tablo Elemanı
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET'te adım adım talimatlar, özel stil ve PDF/UA uyumluluğu ile bir tablo öğesinin nasıl oluşturulacağını ve biçimlendirileceğini öğrenin.
-weight: 170
-url: /tr/net/programming-with-tagged-pdf/style-table-element/
+"description": "Aspose.PDF for .NET'te adım adım talimatlar, özel stil ve PDF/UA uyumluluğu ile bir tablo öğesinin nasıl oluşturulacağını ve biçimlendirileceğini öğrenin."
+"linktitle": "Stil Tablosu Elemanı"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Stil Tablosu Elemanı"
+"url": "/tr/net/programming-with-tagged-pdf/style-table-element/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stil Tablo Elemanı
+# Stil Tablosu Elemanı
 
 ## giriiş
 
@@ -23,8 +25,8 @@ Eğitime başlamadan önce aşağıdakilere sahip olduğunuzdan emin olmanız ge
 
 1. Bilgisayarınızda Visual Studio veya benzeri bir IDE yüklü olmalıdır.
 2. Uygulamayı çalıştırmak için .NET Framework veya .NET Core SDK.
-3.  Aspose.PDF for .NET kütüphanesi indirildi ve projenizde referans alındı. En son sürümü şuradan alabilirsiniz:[Burada](https://releases.aspose.com/pdf/net/).
-4.  Geçerli bir Aspose lisansı veya[geçici lisans](https://purchase.aspose.com/temporary-license/) Kütüphanenin tüm işlevlerini açmak için.
+3. .NET kütüphanesi için Aspose.PDF indirildi ve projenizde referans alındı. En son sürümü şuradan alabilirsiniz: [Burada](https://releases.aspose.com/pdf/net/).
+4. Geçerli bir Aspose lisansı veya [geçici lisans](https://purchase.aspose.com/temporary-license/) Kütüphanenin tüm işlevlerini açmak için.
 
 ## Paketleri İçe Aktar
 
@@ -61,7 +63,7 @@ taggedContent.SetTitle("Example table style");
 taggedContent.SetLanguage("en-US");
 ```
 
- Yeni bir şey yaratarak başlıyoruz`Document` nesne, PDF'imizi temsil ediyor.`TaggedContent`nesnesi, erişilebilirlik standartlarına uyumu sağlayarak belgenin yapısını yönetmek için kullanılır. Uygun etiketleme için belgenin başlığını ve dilini ayarlıyoruz.
+Yeni bir şey yaratarak başlıyoruz `Document` nesne, PDF'imizi temsil ediyor. `TaggedContent` nesnesi, erişilebilirlik standartlarına uyumu sağlayarak belgenin yapısını yönetmek için kullanılır. Uygun etiketleme için belgenin başlığını ve dilini ayarlıyoruz.
 
 ## Adım 2: Kök Elemanı Tanımlayın
 
@@ -72,11 +74,11 @@ Daha sonra, PDF'mizdeki tüm içerik için bir kapsayıcı görevi gören kök y
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
- The`RootElement` tablomuz dahil tüm yapılandırılmış öğeler için temel kapsayıcı görevi görür. Hem organizasyon hem de erişilebilirlik açısından önemli olan belgenin yapısal hiyerarşisini korumaya yardımcı olur.
+The `RootElement` tablomuz dahil tüm yapılandırılmış öğeler için temel kapsayıcı görevi görür. Hem organizasyon hem de erişilebilirlik açısından önemli olan belgenin yapısal hiyerarşisini korumaya yardımcı olur.
 
 ## Adım 3: Tablo Elemanını Oluşturun ve Stilini Ayarlayın
 
- Artık kök öğe ayarlandığına göre, bir tane oluşturacağız`TableElement` ve arka plan rengi, kenarlıklar ve hizalama gibi stiller uygulayın.
+Artık kök öğe ayarlandığına göre, bir tane oluşturacağız `TableElement` ve arka plan rengi, kenarlıklar ve hizalama gibi stiller uygulayın.
 
 ```csharp
 // Tablo yapı öğesini oluştur
@@ -91,7 +93,7 @@ tableElement.Broken = TableBroken.Vertical;
 tableElement.ColumnAdjustment = ColumnAdjustment.AutoFitToWindow;
 ```
 
- Biz bir tane yaratıyoruz`TableElement` , tablo yapımızı tanımlayan`BackgroundColor`, `Border` , Ve`Alignment` özellikleri, tablonun görünümünü özelleştirmemize olanak tanır.`Broken` özellik, tablo sayfalar arasında bölünürse dikey olarak bölünmesini sağlar.
+Biz bir tane yaratıyoruz `TableElement`, tablo yapımızı tanımlayan `BackgroundColor`, `Border`, Ve `Alignment` özellikleri, tablonun görünümünü özelleştirmemize olanak tanır. `Broken` özellik, tablo sayfalar arasında bölünürse dikey olarak bölünmesini sağlar.
 
 ## Adım 4: Tablo Boyutlarını ve Hücre Stillerini Ayarlayın
 
@@ -105,7 +107,7 @@ tableElement.DefaultCellTextState.ForegroundColor = Color.DarkCyan;
 tableElement.DefaultCellTextState.FontSize = 8F;
 ```
 
- Tablodaki her sütunun eşit aralıklı olmasını sağlamak için sütun genişliklerini belirtiyoruz.`DefaultCellBorder`, `DefaultCellPadding` , Ve`DefaultCellTextState` Hücreler için kenarlıklar, dolgu, metin rengi ve yazı tipi boyutu dahil olmak üzere varsayılan stilleri tanımlayın.
+Tablodaki her sütunun eşit aralıklı olmasını sağlamak için sütun genişliklerini belirtiyoruz. `DefaultCellBorder`, `DefaultCellPadding`, Ve `DefaultCellTextState` Hücreler için kenarlıklar, dolgu, metin rengi ve yazı tipi boyutu dahil olmak üzere varsayılan stilleri tanımlayın.
 
 ## Adım 5: Tekrarlayan Satırları ve Özel Stilleri Ekleyin
 
@@ -118,7 +120,7 @@ rowStyle.BackgroundColor = Color.LightCoral;
 tableElement.RepeatingRowsStyle = rowStyle;
 ```
 
- The`RepeatingRowsCount` tablo birden fazla sayfaya yayılıyorsa ilk üç satırın tekrarlanmasını sağlar.`RepeatingRowsStyle` Bu satırlara özel bir arka plan rengi uygulamak için.
+The `RepeatingRowsCount` tablo birden fazla sayfaya yayılıyorsa ilk üç satırın tekrarlanmasını sağlar. `RepeatingRowsStyle` Bu satırlara özel bir arka plan rengi uygulamak için.
 
 ## Adım 6: Masa Başlığı, Gövdesi ve Ayak Elemanlarını Ekleyin
 
@@ -150,7 +152,7 @@ for (int rowIndex = 0; rowIndex < 10; rowIndex++)
 }
 ```
 
- Tablo üç bölüme ayrılmıştır: baş, gövde ve ayak. İlk olarak başlık satırını kullanarak oluşturuyoruz`TableTHElement`ve sütun başlıkları ekleyin. Ardından, tablonun gövdesini şu şekilde doldururuz:`TableTDElement`, her hücreyi konumunu içeren bir etiketle doldurur.
+Tablo üç bölüme ayrılmıştır: baş, gövde ve ayak. İlk olarak başlık satırını kullanarak oluşturuyoruz `TableTHElement` ve sütun başlıkları ekleyin. Ardından, tablonun gövdesini şu şekilde doldururuz: `TableTDElement`, her hücreyi konumunu içeren bir etiketle doldurur.
 
 ## Adım 7: Belgeyi Kaydedin
 
@@ -183,22 +185,24 @@ Aspose.PDF for .NET ile PDF belgelerinizde tablolar oluşturmak ve biçimlendirm
 ## SSS
 
 ### Tablo hücrelerinin içine resim ekleyebilir miyim?
- Evet, tablo hücrelerine resim ekleyebilirsiniz.`Image` öğe.
+Evet, tablo hücrelerine resim ekleyebilirsiniz. `Image` öğe.
 
 ### Sütun genişliklerini dinamik olarak nasıl ayarlarım?
- Ayarlayabilirsiniz`ColumnAdjustment` mülk`AutoFitToWindow` İçeriğe göre sütun genişliklerini otomatik olarak ayarlamak için.
+Ayarlayabilirsiniz `ColumnAdjustment` mülk `AutoFitToWindow` İçeriğe göre sütun genişliklerini otomatik olarak ayarlamak için.
 
 ### Tüm belgeler için PDF/UA uyumluluğu zorunlu mudur?
 Zorunlu olmamakla birlikte, yüksek erişilebilirlik standartları gerektiren belgeler için önerilir.
 
 ### Belirli satırlara farklı stiller uygulayabilir miyim?
- Evet, tek tek satırları veya hücreleri, bunların özelliklerini ayarlayarak özelleştirebilirsiniz.`TextState` veya`BackgroundColor`.
+Evet, tek tek satırları veya hücreleri, bunların özelliklerini ayarlayarak özelleştirebilirsiniz. `TextState` veya `BackgroundColor`.
 
 ### Etiketli içerik kullanmanın faydası nedir?
 Etiketli içerik, belge erişilebilirliğini iyileştirir ve PDF/UA gibi standartlara uyumluluğun sağlanmasına yardımcı olur.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

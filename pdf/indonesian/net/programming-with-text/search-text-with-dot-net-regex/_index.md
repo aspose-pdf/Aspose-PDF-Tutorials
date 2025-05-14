@@ -1,17 +1,19 @@
 ---
-title: Pencarian Teks Dengan Dot Net Regex
-linktitle: Pencarian Teks Dengan Dot Net Regex
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mencari teks dalam PDF menggunakan .NET Regex dengan Aspose.PDF. Ikuti panduan langkah demi langkah kami dan sederhanakan tugas PDF Anda.
-weight: 480
-url: /id/net/programming-with-text/search-text-with-dot-net-regex/
+"description": "Pelajari cara mencari teks dalam PDF menggunakan .NET Regex dengan Aspose.PDF. Ikuti panduan langkah demi langkah kami dan sederhanakan tugas PDF Anda."
+"linktitle": "Cari Teks Dengan Dot Net Regex"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Cari Teks Dengan Dot Net Regex"
+"url": "/id/net/programming-with-text/search-text-with-dot-net-regex/"
+"weight": 480
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pencarian Teks Dengan Dot Net Regex
+# Cari Teks Dengan Dot Net Regex
 
 ## Perkenalan
 
@@ -25,7 +27,7 @@ Sebelum kita mulai bekerja dan mulai membuat kode, ada beberapa prasyarat yang p
 Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.PDF mendukung aplikasi .NET Core dan .NET Framework.
 
 ### Aspose.PDF untuk .NET
- Anda perlu mengunduh dan memasang pustaka Aspose.PDF jika Anda belum melakukannya. Anda bisa mendapatkannya dari[Halaman Rilis PDF Aspose](https://releases.aspose.com/pdf/net/).
+Anda perlu mengunduh dan memasang pustaka Aspose.PDF jika Anda belum melakukannya. Anda bisa mendapatkannya dari [Halaman Rilis PDF Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Pengetahuan Dasar C#
 Pemahaman dasar tentang pemrograman C# dan lingkungan .NET akan membantu Anda mengikuti tutorial ini dengan lebih lancar.
@@ -60,7 +62,7 @@ Install-Package Aspose.PDF
 
 Perintah ini akan mengunduh dan mengintegrasikan paket Aspose.PDF ke dalam proyek Anda, membuat semua fungsinya dapat diakses oleh Anda.
 
-Setelah kita menyiapkan semuanya, mari kita masuk ke kode sebenarnya. Kita akan membaginya menjadi beberapa langkah yang mudah dikelola agar lebih jelas.
+Setelah semuanya siap, mari kita mulai kodenya. Kita akan uraikan menjadi beberapa langkah yang mudah dipahami agar lebih jelas.
 
 ## Langkah 2: Mengatur Direktori Dokumen
 
@@ -69,7 +71,7 @@ Dalam proyek apa pun, menentukan direktori yang benar adalah suatu keharusan. In
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat file PDF target Anda berada. Langkah ini memastikan bahwa aplikasi Anda dapat dengan mudah menemukan dokumen PDF yang ingin Anda telusuri.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat file PDF target Anda berada. Langkah ini memastikan bahwa aplikasi Anda dapat dengan mudah menemukan dokumen PDF yang ingin Anda telusuri.
 
 ## Langkah 3: Buat Objek Regex
 
@@ -78,7 +80,7 @@ Ekspresi reguler (Regex) adalah alat yang sangat ampuh untuk pencarian teks. Di 
 ```csharp
 System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex(@"[\S]+");
 ```
- Ekspresi Regex`@"[\S]+"` cocok dengan rangkaian karakter non-spasi apa pun dalam dokumen. Jangan ragu untuk mengubah pola jika Anda memiliki persyaratan pencarian tertentu!
+Ekspresi Regex `@"[\S]+"` cocok dengan rangkaian karakter non-spasi apa pun dalam dokumen. Jangan ragu untuk mengubah pola jika Anda memiliki persyaratan pencarian tertentu!
 
 ## Langkah 4: Buka Dokumen PDF
 
@@ -87,7 +89,7 @@ Sekarang setelah Regex kita siap, saatnya membuka dokumen PDF menggunakan Aspose
 ```csharp
 Aspose.Pdf.Document document = new Aspose.Pdf.Document(dataDir + "SearchTextRegex.pdf");
 ```
- Mengganti`"SearchTextRegex.pdf"`dengan nama sebenarnya dari berkas PDF Anda. Baris kode ini menginisialisasi objek Dokumen Aspose.PDF, yang memungkinkan Anda memanipulasi PDF.
+Mengganti `"SearchTextRegex.pdf"` dengan nama sebenarnya dari berkas PDF Anda. Baris kode ini menginisialisasi objek Dokumen Aspose.PDF, yang memungkinkan Anda memanipulasi PDF.
 
 ## Langkah 5: Akses Halaman yang Diinginkan
 
@@ -115,7 +117,7 @@ Sekarang, kita akan menggunakan TextAbsorber yang kita buat untuk mencari melalu
 ```csharp
 page.Accept(textFragmentAbsorber);
 ```
- Dengan menelepon`Accept` metode ini, kami menginstruksikan halaman untuk memanfaatkan TextAbsorber, sehingga menjalankan penelusuran dalam halaman tersebut.
+Dengan menelepon `Accept` metode ini, kami menginstruksikan halaman untuk memanfaatkan TextAbsorber, dengan demikian mengeksekusi penelusuran dalam halaman tersebut.
 
 ## Langkah 8: Ambil Fragmen Teks yang Ditemukan
 
@@ -124,7 +126,7 @@ Setelah pencarian, waktunya untuk mengumpulkan hasilnya—mari ambil fragmen tek
 ```csharp
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
- Itu`TextFragments` properti berisi semua potongan teks yang ditemukan oleh pencarian Regex kami. 
+Itu `TextFragments` properti berisi semua potongan teks yang ditemukan oleh pencarian Regex kami. 
 
 ## Langkah 9: Ulangi dan Tampilkan Hasilnya
 
@@ -148,19 +150,21 @@ Menggunakan Aspose.PDF untuk .NET guna mencari teks dengan .NET Regex merupakan 
 Aspose.PDF adalah pustaka .NET yang memungkinkan pengembang untuk membuat dan memanipulasi dokumen PDF secara terprogram.
 
 ### Bagaimana cara mengunduh Aspose.PDF untuk .NET?
- Anda dapat mengunduhnya dari[Halaman Rilis PDF Aspose](https://releases.aspose.com/pdf/net/).
+Anda dapat mengunduhnya dari [Halaman Rilis PDF Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Dapatkah saya menggunakan ekspresi reguler dalam pencarian PDF saya?
 Ya! Aspose.PDF mendukung ekspresi reguler untuk pencarian teks.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat mengakses dukungan di[Forum PDF Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat mengakses dukungan di [Forum PDF Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.PDF?
- Ya, Anda dapat mengunduh uji coba gratis dari[Halaman Rilis Aspose](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis dari [Halaman Rilis Aspose](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

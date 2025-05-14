@@ -1,31 +1,33 @@
 ---
-title: PDF Dosyasına İçindekiler Ekle
-linktitle: PDF Dosyasına İçindekiler Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak bir PDF'ye İçindekiler Tablosu eklemeyi öğrenin. Bu adım adım kılavuz süreci basitleştirir ve belgeleriniz içinde kolay gezinmeyi sağlar.
-weight: 40
-url: /tr/net/programming-with-document/addtoc/
+"description": "Aspose.PDF for .NET kullanarak bir PDF'ye İçindekiler Tablosu eklemeyi öğrenin. Bu adım adım kılavuz süreci basitleştirir ve belgeleriniz içinde kolay gezinmeyi sağlar."
+"linktitle": "PDF Dosyasına İçindekiler Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına İçindekiler Ekle"
+"url": "/tr/net/programming-with-document/addtoc/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına İçindekiler Ekle
 
 ## giriiş
 
-Uzun bir PDF'te sonsuza kadar kaydırıp, iyi düzenlenmiş bir İçindekiler Tablosu olmasını istediğiniz oldu mu? İşte, bugün şanslı gününüz! Bu eğitimde, .NET için Aspose.PDF kullanarak PDF dosyanıza bir İçindekiler Tablosu eklemeyi öğreneceksiniz. Karmaşık bir rapor, bir e-Kitap veya bir iş teklifi üzerinde çalışıyor olun, İçindekiler Tablosu belgenizi profesyonel, gezilebilir bir şahesere dönüştürebilir.
+Uzun bir PDF'i sonsuza kadar kaydırıp, iyi düzenlenmiş bir İçindekiler Tablosu olmasını istediğiniz oldu mu? İşte, bugün şanslı gününüz! Bu eğitimde, .NET için Aspose.PDF kullanarak PDF dosyanıza bir İçindekiler Tablosu eklemeyi öğreneceksiniz. İster karmaşık bir rapor, ister bir e-Kitap veya bir iş teklifi üzerinde çalışıyor olun, İçindekiler Tablosu belgenizi profesyonel, gezilebilir bir şahesere dönüştürebilir.
 
 ## Ön koşullar
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip kurduğunuzdan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip kurduğunuzdan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
    
 2. Geliştirme Ortamı: Makinenizde Visual Studio gibi bir .NET geliştirme ortamının kurulu olduğundan emin olun.
 
-3.  Lisans: Lisansınız yoksa ücretsiz deneme alabilir veya geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+3. Lisans: Lisansınız yoksa ücretsiz deneme alabilir veya geçici lisans talebinde bulunabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Paketleri İçe Aktar
 
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTOC.pdf");
 ```
 
- Bu adımda, belge dizinine giden yolu belirtiyoruz ve PDF'yi şu şekilde yüklüyoruz:`Document` nesne. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` dosyanızın gerçek yolu ile.
+Bu adımda, belge dizinine giden yolu belirtiyoruz ve PDF'yi şu şekilde yüklüyoruz: `Document` nesne. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` dosyanızın gerçek yolunu belirtin.
 
 ## Adım 2: İçindekiler için Yeni Bir Sayfa Ekleyin
 
@@ -80,7 +82,7 @@ Burada, İçindekiler tablosunun başlığını "İçindekiler" olarak ayarladı
 
 ## Adım 4: İçindekiler Öğelerini Tanımlayın
 
-Bu adımda, TOC'de görüntülenecek öğeleri (veya başlıkları) tanımlarız. Bu öğeler, okuyucuların belgenin belirli bölümlerine gitmesine yardımcı olur.
+Bu adımda, TOC'de görüntülenecek öğeleri (veya başlıkları) tanımlarız. Bu öğeler okuyucuların belgenin belirli bölümlerine gitmesine yardımcı olur.
 
 ```csharp
 string[] titles = new string[4];
@@ -113,7 +115,7 @@ for (int i = 0; i < 2; i++)
 ```
 
 İşte olanlar:
-- Başlık: Bir tane yaratıyoruz`Heading` nesne ve ekle`TextSegment` ona.
+- Başlık: Bir tane yaratıyoruz `Heading` nesne ve ekle `TextSegment` ona.
 - Hedef Sayfa: Her başlığın bağlantı vereceği sayfayı ayarlıyoruz.
 - En Üst Konum: Başlığın sayfada hangi konuma işaret edeceğini belirtiyoruz.
 - Metin: Her başlık, daha önce oluşturduğumuz diziden kendi başlığını alır.
@@ -149,7 +151,7 @@ Ve işte karşınızda! .NET için Aspose.PDF ile bir PDF'e İçindekiler Tablos
 Evet, yazı tipi, boyutu ve hizalama dahil olmak üzere İçindekiler tablosunun görünümünü tamamen özelleştirebilirsiniz.
 
 ### İçindekiler tablosuna alt başlıklar nasıl eklenir?  
- Alt başlıkları ayarlayarak ekleyebilirsiniz.`Heading` seviye (örneğin,`Heading(2)`) hiyerarşik bir İçindekiler tablosu oluşturmak için.
+Alt başlıkları ayarlayarak ekleyebilirsiniz. `Heading` seviye (örneğin, `Heading(2)`) hiyerarşik bir İçindekiler tablosu oluşturmak için.
 
 ### Belge değiştiğinde İçindekiler tablosunun otomatik olarak güncellenmesi mümkün müdür?  
 Hayır, İçindekiler tablosu otomatik olarak güncellenmeyecek. Belge yapısı değişirse yeniden oluşturmanız gerekecek.
@@ -159,9 +161,11 @@ Evet, İçindekiler girişlerini harici PDF'lere veya URL'lere bağlamak için k
 
 ### Aspose.PDF çok seviyeli İçindekiler tablosunu destekliyor mu?  
 Evet, Aspose.PDF alt bölümlere sahip karmaşık belgeler için çok seviyeli İçindekiler tablosunu destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

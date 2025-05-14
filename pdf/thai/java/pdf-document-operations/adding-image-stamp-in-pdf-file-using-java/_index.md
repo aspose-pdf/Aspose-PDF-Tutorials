@@ -1,14 +1,16 @@
 ---
-title: การเพิ่มแสตมป์ภาพลงในไฟล์ PDF โดยใช้ Java
-linktitle: การเพิ่มแสตมป์ภาพลงในไฟล์ PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการเพิ่มแสตมป์ภาพลงในไฟล์ PDF โดยใช้ Java ด้วยบทช่วยสอน Aspose.PDF สำหรับ Java ที่ครอบคลุมนี้
-weight: 12
-url: /th/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/
+"description": "เรียนรู้วิธีการเพิ่มแสตมป์ภาพลงในไฟล์ PDF โดยใช้ Java ด้วยบทช่วยสอน Aspose.PDF สำหรับ Java ที่ครอบคลุมนี้"
+"linktitle": "การเพิ่มแสตมป์ภาพลงในไฟล์ PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "การเพิ่มแสตมป์ภาพลงในไฟล์ PDF โดยใช้ Java"
+"url": "/th/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเพิ่มแสตมป์ภาพลงในไฟล์ PDF โดยใช้ Java
@@ -16,7 +18,7 @@ url: /th/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/
 
 ## การแนะนำการเพิ่มตราประทับภาพในไฟล์ PDF โดยใช้ Java
 
-การเพิ่มตราประทับภาพลงในไฟล์ PDF โดยใช้ Java จะช่วยปรับปรุงการสร้างแบรนด์และการระบุเอกสาร ในคู่มือทีละขั้นตอนนี้ เราจะมาดูวิธีการทำสิ่งนี้โดยใช้ไลบรารี Aspose.PDF สำหรับ Java เมื่อสิ้นสุดบทช่วยสอนนี้ คุณจะสามารถเพิ่มตราประทับภาพลงในเอกสาร PDF ได้อย่างมีประสิทธิภาพ
+การเพิ่มตราประทับภาพลงในไฟล์ PDF โดยใช้ Java จะช่วยปรับปรุงการสร้างแบรนด์และการระบุตัวตนของเอกสาร ในคู่มือทีละขั้นตอนนี้ เราจะมาดูวิธีการทำสิ่งนี้โดยใช้ไลบรารี Aspose.PDF สำหรับ Java เมื่อสิ้นสุดบทช่วยสอนนี้ คุณจะสามารถเพิ่มตราประทับภาพลงในเอกสาร PDF ได้อย่างมีประสิทธิภาพ
 
 ## ข้อกำหนดเบื้องต้น
 
@@ -46,7 +48,7 @@ url: /th/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/
 Document pdfDocument = new Document();
 ```
 
-## ขั้นตอนที่ 4: เพิ่มตราประทับภาพ
+## ขั้นตอนที่ 4: เพิ่มตราประทับรูปภาพ
 
 หากต้องการเพิ่มตราประทับภาพลงในเอกสาร PDF คุณจะต้องมีไฟล์ภาพเพื่อใช้เป็นตราประทับ คุณสามารถทำได้ดังนี้:
 
@@ -76,11 +78,11 @@ pdfDocument.save("output.pdf");
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะเปลี่ยนตำแหน่งของแสตมป์ภาพได้อย่างไร
+### ฉันจะเปลี่ยนตำแหน่งของแสตมป์ภาพได้อย่างไร?
 
 คุณสามารถเปลี่ยนตำแหน่งของแสตมป์ภาพได้โดยการแก้ไขพิกัดในเอกสาร PDF ดูคำแนะนำโดยละเอียดในเอกสาร Aspose.PDF สำหรับ Java
 
-### ฉันสามารถเพิ่มแสตมป์รูปภาพหลาย ๆ อันลงในเอกสาร PDF เดียวได้หรือไม่
+### ฉันสามารถเพิ่มแสตมป์รูปภาพหลายรายการลงในเอกสาร PDF เดียวได้หรือไม่
 
 ใช่ คุณสามารถเพิ่มแสตมป์ภาพหลายภาพลงในเอกสาร PDF เดียวได้โดยการทำซ้ำขั้นตอนการประทับตราสำหรับภาพแต่ละภาพ
 
@@ -94,10 +96,12 @@ Aspose.PDF สำหรับ Java รองรับรูปแบบภาพ
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
-คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมได้ที่เว็บไซต์ Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/.)
+คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมได้ที่เว็บไซต์ Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference.aspose.com/pdf/java/.)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

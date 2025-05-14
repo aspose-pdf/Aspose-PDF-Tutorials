@@ -8,7 +8,9 @@ url: /java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-j
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Illustration Structure Elements in PDF using Java
@@ -122,9 +124,11 @@ If you have any questions or need further assistance, feel free to explore the [
    Check out the Aspose.PDF for Java API documentation for a wealth of examples and resources.
    
 Now you're all set to create engaging and informative PDF documents with Java and Aspose.PDF. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Obróć tekst za pomocą akapitu w pliku PDF
-linktitle: Obróć tekst za pomocą akapitu w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak obracać tekst w pliku PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby utworzyć dokumenty.
-weight: 380
-url: /pl/net/programming-with-text/rotate-text-using-paragraph/
+"description": "Dowiedz się, jak obracać tekst w pliku PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby utworzyć dokumenty."
+"linktitle": "Obróć tekst za pomocą akapitu w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Obróć tekst za pomocą akapitu w pliku PDF"
+"url": "/pl/net/programming-with-text/rotate-text-using-paragraph/"
+"weight": 380
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obróć tekst za pomocą akapitu w pliku PDF
@@ -21,7 +23,7 @@ Tworzenie plików PDF z dynamicznym tekstem może być angażującym sposobem pr
 
 Zanim zanurzymy się w ekscytującym świecie rotacji tekstu w plikach PDF, upewnijmy się, że wszystko jest poprawnie skonfigurowane. Oto wymagania wstępne, których będziesz potrzebować:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że Aspose.PDF dla .NET jest zainstalowany w Twoim projekcie. Możesz go pobrać ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że Aspose.PDF dla .NET jest zainstalowany w Twoim projekcie. Możesz go pobrać ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: W tym samouczku założono, że do tworzenia oprogramowania .NET używasz programu Visual Studio.
 3. Podstawowa wiedza o C#: Znajomość programowania w C# pomoże Ci lepiej zrozumieć przykłady. Jeśli jesteś nowy, nie martw się; przejdziemy krok po kroku!
 4. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany z odpowiednią wersją .NET Framework. Aspose.PDF obsługuje różne wersje, więc sprawdź dokumentację pod kątem zgodności.
@@ -56,7 +58,7 @@ using Aspose.Pdf.Text;
 using Aspose.Pdf.Facades;
 ```
 
-I teraz możesz zacząć kodować!
+teraz możesz zacząć kodować!
 
 Dobrze! Teraz przejdźmy do sedna sprawy — obracania tekstu w pliku PDF. Przejdziemy przez kod krok po kroku.
 
@@ -124,7 +126,7 @@ textFragment3.TextState.FontSize = 12;
 textFragment3.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 textFragment3.TextState.Rotation = -45; // Ustaw obrót
 ```
-Podobnie jak pierwszy fragment, ten również charakteryzuje się obrotem o -45 stopni, co dodaje ciekawego kontrastu wizualnego.
+Podobnie jak pierwszy fragment, ten również cechuje się obrotem o -45 stopni, co dodaje ciekawego kontrastu wizualnego.
 
 ## Krok 5: Dołącz fragmenty tekstu do akapitu
 
@@ -135,7 +137,7 @@ paragraph.AppendLine(textFragment1);
 paragraph.AppendLine(textFragment2);
 paragraph.AppendLine(textFragment3);
 ```
- Po prostu dodajemy każdy fragment tekstu do naszego akapitu.`AppendLine` Metoda ta zapewnia ułożenie każdego fragmentu tekstu w pionie.
+Po prostu dodajemy każdy fragment tekstu do naszego akapitu. `AppendLine` Metoda ta zapewnia ułożenie każdego fragmentu tekstu w pionie.
 
 ## Krok 6: Utwórz obiekt TextBuilder
 
@@ -156,7 +158,7 @@ pdfDocument.Save(dataDir + "TextFragmentTests_Rotated2_out.pdf");
 ```
 Ten wiersz zapisuje dokument w określonym katalogu pod nazwą „TextFragmentTests_Rotated2_out.pdf”. 
 
-voila! Teraz masz plik PDF z obróconym tekstem!
+I voila! Teraz masz plik PDF z obróconym tekstem!
 
 ## Wniosek
 
@@ -168,19 +170,21 @@ Obrót tekstu w pliku PDF może dodać wiele kreatywności i podkreślenia Twoim
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów PDF bezpośrednio w aplikacjach .NET.
 
 ### Jak zainstalować Aspose.PDF w moim projekcie?
- Możesz zainstalować Aspose.PDF za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobierając go ze strony[Strona pobierania Aspose](https://releases.aspose.com/pdf/net/).
+Możesz zainstalować Aspose.PDF za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobierając go ze strony  [Strona pobierania Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose.PDF oferuje bezpłatny okres próbny. Możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/) i poznaj jego funkcje.
+Tak, Aspose.PDF oferuje bezpłatny okres próbny. Możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/) i poznaj jego funkcje.
 
 ### Czy jest dostępne wsparcie dla Aspose.PDF?
- Oczywiście! Możesz się skontaktować[Wsparcie Aspose](https://forum.aspose.com/c/pdf/10) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów.
+Oczywiście! Możesz się skontaktować [Wsparcie Aspose](https://forum.aspose.com/c/pdf/10) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów.
 
 ### Jak mogę uzyskać tymczasową licencję na Aspose.PDF?
- Możesz zakupić licencję tymczasową[Strona internetowa Aspose](https://purchase.aspose.com/temporary-license/) aby wypróbować wszystkie funkcje biblioteki.
+Możesz zakupić licencję tymczasową [Strona internetowa Aspose](https://purchase.aspose.com/temporary-license/) aby wypróbować wszystkie funkcje biblioteki.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

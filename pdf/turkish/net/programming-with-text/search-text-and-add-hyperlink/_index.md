@@ -1,17 +1,19 @@
 ---
-title: Metni Ara ve Köprü Ekle
-linktitle: Metni Ara ve Köprü Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF'lerde metin aramayı ve köprü metni eklemeyi adım adım anlatan eğitimimizi izleyin.
-weight: 450
-url: /tr/net/programming-with-text/search-text-and-add-hyperlink/
+"description": "Aspose.PDF for .NET'i kullanarak PDF'lerde metin aramayı ve köprü metni eklemeyi adım adım anlatan eğitimimiz ile öğrenin."
+"linktitle": "Metni Ara ve Köprü Bağlantısı Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Metni Ara ve Köprü Bağlantısı Ekle"
+"url": "/tr/net/programming-with-text/search-text-and-add-hyperlink/"
+"weight": 450
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Metni Ara ve Köprü Ekle
+# Metni Ara ve Köprü Bağlantısı Ekle
 
 ## giriiş
 
@@ -22,7 +24,7 @@ PDF'leri yalnızca düzenlemenin değil, aynı zamanda köprüler ekleyerek geli
 Ayrıntılara dalmadan önce, takip etmeniz gereken her şeye sahip olduğunuzdan emin olalım. İşte kullanışlı bir kontrol listesi:
 
 - .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olması gerekir (sürüm 4.0 veya üzeri).
-- .NET Kütüphanesi için Aspose.PDF: Projenize Aspose.PDF kütüphanesine bir referans eklemeyi ve indirmeyi unutmayın. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+- .NET Kütüphanesi için Aspose.PDF: Projenize Aspose.PDF kütüphanesine bir referans eklemeyi ve indirmeyi unutmayın. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 - IDE: Kodu yazmak ve çalıştırmak için Visual Studio gibi bir Entegre Geliştirme Ortamına (IDE) ihtiyacınız olacak.
 - Örnek PDF Dosyası: Kodu test edebileceğiniz bir örnek PDF dosyası alın. Basit bir PDF oluşturabilir veya mevcut belgelerinizden birini kullanabilirsiniz.
 
@@ -48,17 +50,17 @@ Artık her şey hazır olduğuna göre, harekete geçme zamanı. Bunu bir dizi a
 
 ### Adım 1: Belge Dizininizi Ayarlayın
 
-İlk olarak, PDF dosyalarınızın nerede saklandığını belirtmeniz gerekir.`dataDir` değişkeni belgenizin dizinine işaret eder. İşte bunu nasıl yapacağınız:
+İlk olarak, PDF dosyalarınızın nerede saklandığını belirtmeniz gerekir. `dataDir` değişkeni belgenizin dizinine işaret eder. İşte bunu nasıl yapacağınız:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` Belgelerinize giden gerçek yol ile.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` Belgelerinize giden gerçek yol ile.
 
 ### Adım 2: Bir TextFragmentAbsorber Oluşturun
 
- Daha sonra, bağlamak istediğimiz metni bulmak için bir araca ihtiyacımız var.`TextFragmentAbsorber`Bu küçük adam PDF'imizdeki belirli metin desenini aramamıza yardımcı olacak.
+Daha sonra, bağlamak istediğimiz metni bulmak için bir araca ihtiyacımız var. `TextFragmentAbsorber`Bu küçük adam PDF'imizdeki belirli metin desenini aramamıza yardımcı olacak.
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber("\\d{4}-\\d{4}");
@@ -68,7 +70,7 @@ Burada belirli bir desen arıyoruz: dört rakam, bir tire ve ardından dört rak
 
 ### Adım 3: Düzenli İfade Aramasını Etkinleştirin
 
- Metin desenimizi bulmak için zaten düzenli bir ifade kullanıyoruz, ancak bunun doğru olduğundan emin olmamız gerekiyor.`absorber` etkinleştirildiğini bilir. Bu, düzgün bir şekilde arama yapması için önemlidir.
+Metin desenimizi bulmak için zaten düzenli bir ifade kullanıyoruz, ancak bunun doğru olduğundan emin olmamız gerekiyor. `absorber` etkinleştirildiğini bilir. Bu, düzgün bir şekilde arama yapması için önemlidir.
 
 ```csharp
 absorber.TextSearchOptions = new TextSearchOptions(true);
@@ -76,7 +78,7 @@ absorber.TextSearchOptions = new TextSearchOptions(true);
 
 ### Adım 4: PdfContentEditor'ı Başlatın
 
- Artık emicimiz hazır olduğuna göre, bir`PdfContentEditor` PDF dosyamızla çalışmak için. Bu sınıf PDF'imize bağlanmamızı ve onu düzenlememizi sağlar.
+Artık emicimiz hazır olduğuna göre, bir `PdfContentEditor` PDF dosyamızla çalışmak için. Bu sınıf PDF'imize bağlanmamızı ve onu düzenlememizi sağlar.
 
 ```csharp
 PdfContentEditor editor = new PdfContentEditor();
@@ -90,7 +92,7 @@ PdfContentEditor editor = new PdfContentEditor();
 editor.BindPdf(dataDir + "SearchRegularExpressionPage.pdf");
 ```
 
- Değiştirdiğinizden emin olun`"SearchRegularExpressionPage.pdf"` PDF dosyanızın adıyla.
+Değiştirdiğinizden emin olun `"SearchRegularExpressionPage.pdf"` PDF dosyanızın adıyla.
 
 ### Adım 6: Sayfa için Absorber'ı kabul edin
 
@@ -160,19 +162,21 @@ Console.WriteLine("\nText replaced and hyperlink added successfully based on a r
 Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmalarına, düzenlemelerine ve yönetmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF for .NET'i nasıl indirebilirim?  
- Kütüphaneyi indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+Kütüphaneyi indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 
 ### Aspose.PDF'yi ücretsiz deneyebilir miyim?  
- Kesinlikle! Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose ürünleri için destek mevcut mu?  
- Evet, destek ve topluluk tartışmaları bulabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Evet, destek ve topluluk tartışmaları bulabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF için geçici lisansı nasıl alabilirim?  
- Geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisans talebinde bulunabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Elemen Struktur Blok Teks
-linktitle: Elemen Struktur Blok Teks
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menggunakan Aspose.PDF untuk .NET untuk menambahkan elemen struktur blok teks, seperti judul dan paragraf yang diberi tag, ke dokumen PDF yang ada.
-weight: 220
-url: /id/net/programming-with-tagged-pdf/text-block-structure-elements/
+"description": "Pelajari cara menggunakan Aspose.PDF untuk .NET untuk menambahkan elemen struktur blok teks, seperti judul dan paragraf yang diberi tag, ke dokumen PDF yang ada."
+"linktitle": "Elemen Struktur Blok Teks"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Elemen Struktur Blok Teks"
+"url": "/id/net/programming-with-tagged-pdf/text-block-structure-elements/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elemen Struktur Blok Teks
@@ -21,11 +23,11 @@ Dalam tutorial ini, kita akan mendalami Aspose.PDF untuk .NET dan cara membuat d
 
 Sebelum kita masuk ke kode, mari pastikan Anda sudah menyiapkan semuanya.
 
--  Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.PDF untuk .NET. Anda bisa mendapatkannya dari[Halaman Unduh Aspose.PDF](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.PDF untuk .NET. Anda bisa mendapatkannya dari [Halaman Unduh Aspose.PDF](https://releases.aspose.com/pdf/net/).
 - Lingkungan Pengembangan: Anda memerlukan IDE seperti Visual Studio untuk menjalankan dan menguji kode.
 - .NET Framework: Pastikan Anda telah menginstal .NET di komputer Anda.
 
- Selain itu, Anda akan membutuhkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda hanya menguji perangkat lunak, atau Anda bisa[beli lisensi penuh](https://purchase.aspose.com/buy) jika Anda siap untuk bertaruh sepenuhnya.
+Selain itu, Anda akan membutuhkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda hanya menguji perangkat lunak, atau Anda bisa [beli lisensi penuh](https://purchase.aspose.com/buy) jika Anda siap untuk bertaruh sepenuhnya.
 
 ## Paket Impor
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
-Apa yang terjadi di sini? Kami hanya membuat dokumen baru yang nantinya akan menjadi file PDF yang diberi tag. Pastikan untuk mengatur`dataDir` ke mana pun Anda ingin menyimpan PDF final. Mudah, bukan?
+Apa yang terjadi di sini? Kami hanya membuat dokumen baru yang nantinya akan menjadi file PDF yang diberi tag. Pastikan untuk mengatur `dataDir` ke mana pun Anda ingin menyimpan PDF final. Mudah, bukan?
 
 ## Langkah 2: Mengakses Konten yang Ditandai
 
@@ -118,7 +120,7 @@ Apa yang kita lakukan di sini? Kita membuat tajuk dari H1 hingga H6, yang masing
 
 ## Langkah 5: Menambahkan Paragraf
 
-Setelah kita memiliki tajuk, saatnya menambahkan beberapa konten teks. Mari buat paragraf dan tentukan beberapa contoh teks untuk paragraf tersebut.
+Setelah kita memiliki tajuk, saatnya menambahkan beberapa konten teks. Mari buat paragraf dan tetapkan beberapa contoh teks untuk paragraf tersebut.
 
 ```csharp
 // Membuat Elemen Paragraf
@@ -156,13 +158,15 @@ Tentu saja! Anda dapat mengatur teks apa pun yang Anda suka untuk tajuk dan para
 Anda dapat menambahkan berbagai elemen media seperti gambar, tabel, dan lainnya dengan menggunakan berbagai metode yang disediakan oleh Aspose.PDF untuk .NET.
 
 ### Apakah Aspose.PDF untuk .NET gratis untuk digunakan?
- Anda dapat mencobanya secara gratis menggunakan[lisensi sementara](https://purchase.aspose.com/temporary-license/) tetapi untuk penggunaan jangka panjang, Anda perlu[beli lisensi penuh](https://purchase.aspose.com/buy).
+Anda dapat mencobanya secara gratis menggunakan [lisensi sementara](https://purchase.aspose.com/temporary-license/), tetapi untuk penggunaan jangka panjang, Anda perlu [beli lisensi penuh](https://purchase.aspose.com/buy).
 
 ### Bagaimana cara meningkatkan aksesibilitas PDF saya lebih lanjut?
 Anda dapat meningkatkan aksesibilitas dengan menambahkan penandaan yang lebih terperinci, teks alt untuk gambar, dan menggunakan elemen struktur semantik untuk memberikan pengalaman yang lebih kaya bagi teknologi bantuan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

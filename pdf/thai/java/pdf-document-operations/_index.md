@@ -1,14 +1,16 @@
 ---
-title: การดำเนินการเอกสาร PDF
-linktitle: การดำเนินการเอกสาร PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: สำรวจการดำเนินการเอกสาร PDF ด้วย Aspose.PDF สำหรับ Java เรียนรู้การจัดการ สร้าง และปรับปรุง PDF ได้อย่างราบรื่นใน Java
-weight: 17
-url: /th/java/pdf-document-operations/
+"description": "สำรวจการดำเนินการเอกสาร PDF ด้วย Aspose.PDF สำหรับ Java เรียนรู้การจัดการ สร้าง และปรับปรุง PDF ได้อย่างราบรื่นใน Java"
+"linktitle": "การดำเนินการเอกสาร PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "การดำเนินการเอกสาร PDF"
+"url": "/th/java/pdf-document-operations/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การดำเนินการเอกสาร PDF
@@ -41,9 +43,11 @@ Aspose.PDF สำหรับ Java เปิดประตูสู่การ
 เรียนรู้วิธีเพิ่มตราประทับหน้า PDF ใน Java โดยใช้ Aspose.PDF คำแนะนำทีละขั้นตอนนี้จะแสดงวิธีปรับแต่งตราประทับสำหรับเอกสาร PDF ของคุณได้อย่างง่ายดาย
 ### [การเพิ่มข้อความในส่วนหัวหรือส่วนท้ายของไฟล์ PDF โดยใช้ Java](./adding-text-in-header-or-footer-of-pdf-file-using-java/)
 เรียนรู้วิธีการปรับปรุงเอกสาร PDF โดยการเพิ่มข้อความลงในส่วนหัวหรือส่วนท้ายโดยใช้ Java สำรวจคำแนะนำทีละขั้นตอนด้วย Aspose.PDF สำหรับ Java
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

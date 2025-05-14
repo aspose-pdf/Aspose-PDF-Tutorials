@@ -8,7 +8,9 @@ url: /java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Name of Images Embedded in PDF File using Java
@@ -108,6 +110,7 @@ Aspose.PDF for Java is a commercial library with a free trial available. You can
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

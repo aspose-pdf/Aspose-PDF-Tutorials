@@ -8,7 +8,9 @@ url: /java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Tooltip to PDF Form Field with Java
@@ -103,6 +105,7 @@ No, tooltips are typically associated with form fields in PDF documents. If you 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

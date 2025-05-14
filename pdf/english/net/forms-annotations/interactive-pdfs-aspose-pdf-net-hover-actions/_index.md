@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Ready to dive deeper? Implement these ideas in your projects and see how they en
    - Common issues include incorrect positioning of elements or actions not triggering due to misconfigured properties. Ensure all coordinates and settings are verified against your document layout.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

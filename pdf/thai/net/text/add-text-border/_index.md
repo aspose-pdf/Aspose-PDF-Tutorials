@@ -1,48 +1,53 @@
 ---
-title: การสร้างข้อความแบบสไตล์ที่มีขอบในเอกสาร PDF โดยใช้ Aspose.PDF สําหรับ .NET
-weight: 7700
-limit: 
-description: สร้างเอกสาร PDF แบบมืออาชีพด้วยชิ้นส่วนข้อความที่มีสไตล์ที่มีตัวอักษร, สี และขอบที่กําหนดเอง โดยใช้ Aspose.PDF สําหรับห้องสมุด .NET  
-keywords: [Aspose.PDF for .NET, PDF creation, text styling, border effects, text fragments, C# PDF library, document formatting]
-url: /th/net/text/add-text-border/
+"description": "สร้างเอกสาร PDF แบบมืออาชีพพร้อมส่วนข้อความที่มีสไตล์โดยใช้แบบอักษร สี และขอบที่กำหนดเองโดยใช้ไลบรารี Aspose.PDF สำหรับ .NET"
+"title": "การสร้างข้อความที่มีสไตล์พร้อมขอบในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET"
+"url": "/th/net/text/add-text-border/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสร้างข้อความแบบสไตล์ที่มีขอบในเอกสาร PDF
+# การสร้างข้อความที่มีสไตล์พร้อมขอบในเอกสาร PDF
 
-Aspose.PDF สําหรับ .NET เป็น API การประมวลผล PDF ที่มีพลัง ที่ทําให้ผู้พัฒนาสามารถสร้าง, แก้ไข, ปรับปรุง และแปลงเอกสาร PDF โดยไม่ต้องใช้ Adobe Acrobat ตัวอย่างนี้แสดงวิธีการสร้างเอกสาร PDF ด้วยชิ้นส่วนข้อความที่มีสไตล์เฉพาะและขอบ ซึ่งเป็นประโยชน์โดยเฉพาะสําหรับการยกย่องเนื้อหาสําคัญในเอกสารของคุณ
+Aspose.PDF สำหรับ .NET เป็น API การประมวลผล PDF ที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถสร้าง แก้ไข จัดการ และแปลงเอกสาร PDF ได้โดยไม่ต้องใช้ Adobe Acrobat ตัวอย่างนี้แสดงวิธีการสร้างเอกสาร PDF ที่มีข้อความบางส่วนที่มีรูปแบบเฉพาะและเส้นขอบ ซึ่งมีประโยชน์โดยเฉพาะในการเน้นเนื้อหาที่สำคัญในเอกสารของคุณ
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/add-text-border" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## คําแนะนําการติดตั้ง
+## คำแนะนำในการติดตั้ง
 
-1. อุปกรณ์ติดตั้งผ่าน NuGet Package Manager:
+1. ติดตั้งผ่านตัวจัดการแพ็กเกจ NuGet:
    ```
    Install-Package Aspose.PDF
    ```
 
-2. อุปกรณ์ติดตั้งผ่าน .NET CLI:
+2. ติดตั้งผ่าน .NET CLI:
    ```
    dotnet add package Aspose.PDF
    ```
 
-3. การติดตั้งด้วยมือ:
-   * ดาวน์โหลดเวอร์ชั่นล่าสุดจาก[Aspose.PDF สําหรับ .NET](https://releases.aspose.com/pdf/net/)
-   * เพิ่มอ้างอิงไปยัง "Aspose.PDF.dll" ในโครงการของคุณ
+3. การติดตั้งด้วยตนเอง:
+   - ดาวน์โหลดเวอร์ชันล่าสุดได้จาก [Aspose.PDF สำหรับการเปิดตัว .NET](https://releases.aspose.com/pdf/net/)
+   - เพิ่มการอ้างอิงถึง Aspose.PDF.dll ในโครงการของคุณ
 
-## สรรพทรัพยากร
+## ทรัพยากร
 
-* [Aspose.PDF สําหรับ .NET Documentation](https://docs.aspose.com/pdf/net/)
-* [Aspose.PDF สําหรับ .NET API Reference](https://reference.aspose.com/pdf/net/)
+- [Aspose.PDF สำหรับเอกสาร .NET](https://docs.aspose.com/pdf/net/)
+- [เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET](https://reference.aspose.com/pdf/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

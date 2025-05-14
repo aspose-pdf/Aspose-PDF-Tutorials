@@ -1,30 +1,32 @@
 ---
-title: Simbol yang Dapat Diganti di Header Footer
-linktitle: Simbol yang Dapat Diganti di Header Footer
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menggunakan simbol yang dapat diganti di header dan footer dokumen PDF menggunakan Aspose.PDF untuk .NET.
-weight: 320
-url: /id/net/programming-with-text/replaceable-symbols-in-header-footer/
+"description": "Pelajari cara menggunakan simbol yang dapat diganti di header dan footer dokumen PDF menggunakan Aspose.PDF untuk .NET."
+"linktitle": "Simbol yang Dapat Diganti di Header Footer"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Simbol yang Dapat Diganti di Header Footer"
+"url": "/id/net/programming-with-text/replaceable-symbols-in-header-footer/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Simbol yang Dapat Diganti di Header Footer
 
 ## Perkenalan
 
-Saat bekerja dengan file PDF, ada kalanya Anda perlu menyesuaikan header dan footer dengan konten dinamis seperti nomor halaman, nama laporan, atau tanggal yang dibuat. Untungnya, Aspose.PDF for .NET menyederhanakan proses ini, memungkinkan Anda membuat PDF dengan simbol yang diperbarui secara otomatis di header dan footer, seperti nomor halaman atau detail pembuatan laporan. Artikel ini akan memandu Anda melalui proses langkah demi langkah untuk mengganti simbol di header dan footer menggunakan Aspose.PDF for .NET, dengan cara yang tidak hanya sederhana tetapi juga sangat efisien.
+Saat bekerja dengan file PDF, ada kalanya Anda perlu menyesuaikan header dan footer dengan konten dinamis seperti nomor halaman, nama laporan, atau tanggal yang dibuat. Untungnya, Aspose.PDF untuk .NET menyederhanakan proses ini, memungkinkan Anda membuat PDF dengan simbol yang diperbarui secara otomatis di header dan footer, seperti nomor halaman atau detail pembuatan laporan. Artikel ini akan memandu Anda melalui proses langkah demi langkah untuk mengganti simbol di header dan footer menggunakan Aspose.PDF untuk .NET, dengan cara yang tidak hanya sederhana tetapi juga sangat efisien.
 
 ## Prasyarat
 
 Sebelum menyelami panduan langkah demi langkah, pastikan Anda memiliki hal berikut:
 
--  Aspose.PDF untuk Pustaka .NET –[Unduh](https://releases.aspose.com/pdf/net/) atau dapatkan[uji coba gratis](https://releases.aspose.com/).
+- Aspose.PDF untuk Pustaka .NET – [Unduh](https://releases.aspose.com/pdf/net/) atau dapatkan [uji coba gratis](https://releases.aspose.com/).
 - Visual Studio atau IDE C# apa pun yang terinstal di sistem Anda.
 - Pengetahuan dasar tentang pengembangan C# dan .NET.
--  Sebuah sah[lisensi](https://purchase.aspose.com/temporary-license/) untuk Aspose.PDF, atau Anda dapat menggunakan versi uji coba.
+- Sebuah sah [lisensi](https://purchase.aspose.com/temporary-license/) untuk Aspose.PDF, atau Anda dapat menggunakan versi uji coba.
 
 ## Paket Impor
 
@@ -56,7 +58,7 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Di sini, kami menyiapkan dokumen PDF menggunakan`Document` kelas dan menambahkan halaman dengan`doc.Pages.Add()`Halaman ini akan memuat header, footer, dan konten lainnya.
+Di sini, kami menyiapkan dokumen PDF menggunakan `Document` kelas dan menambahkan halaman dengan `doc.Pages.Add()`Halaman ini akan memuat header, footer, dan konten lainnya.
 
 ## Langkah 2: Konfigurasikan Margin Halaman
 
@@ -72,9 +74,9 @@ marginInfo.Right = 50;
 page.PageInfo.Margin = marginInfo;
 ```
 
- Di sini, kami telah menentukan margin atas, bawah, kiri, dan kanan menggunakan`MarginInfo` kelas dan menerapkannya ke halaman menggunakan`page.PageInfo.Margin`.
+Di sini, kami telah menentukan margin atas, bawah, kiri, dan kanan menggunakan `MarginInfo` kelas dan menerapkannya ke halaman menggunakan `page.PageInfo.Margin`.
 
-## Langkah 3: Membuat dan Mengonfigurasi Header
+## Langkah 3: Buat dan Konfigurasikan Header
 
 Sekarang, mari buat header dan tambahkan ke halaman. Header akan menyertakan judul dan nama laporan.
 
@@ -104,7 +106,7 @@ t2.TextState.HorizontalAlignment = Aspose.Pdf.HorizontalAlignment.Center;
 hfFirst.Paragraphs.Add(t2);
 ```
 
- Kami telah menambahkan dua`TextFragment` objek ke header: satu untuk judul laporan dan satu lagi untuk nama laporan. Teks diberi gaya menggunakan`TextState` properti seperti font, ukuran, dan perataan.
+Kami telah menambahkan dua `TextFragment` objek ke header: satu untuk judul laporan dan satu lagi untuk nama laporan. Teks diberi gaya menggunakan `TextState` properti seperti font, ukuran, dan perataan.
 
 ## Langkah 4: Membuat dan Mengonfigurasi Footer
 
@@ -125,7 +127,7 @@ TextFragment t4 = new TextFragment("Report Name");
 TextFragment t5 = new TextFragment("Page $p of $P");
 ```
 
-Di footer, kami menyertakan fragmen untuk tanggal pembuatan, nama laporan, dan nomor halaman dinamis (`$p` Dan`$P` mewakili nomor halaman saat ini dan jumlah total halaman, masing-masing).
+Di footer, kami menyertakan fragmen untuk tanggal pembuatan, nama laporan, dan nomor halaman dinamis (`$p` Dan `$P` mewakili nomor halaman saat ini dan jumlah total halaman, masing-masing).
 
 ## Langkah 5: Buat Tabel di Footer
 
@@ -189,7 +191,7 @@ doc.Save(dataDir);
 Console.WriteLine("Symbols replaced successfully in header and footer. File saved at " + dataDir);
 ```
 
- Anda menentukan jalur file dan menyimpan dokumen menggunakan`doc.Save()`Selesai! Anda telah berhasil membuat PDF dengan header dan footer yang disesuaikan.
+Anda menentukan jalur file dan menyimpan dokumen menggunakan `doc.Save()`Selesai! Anda telah berhasil membuat PDF dengan header dan footer yang disesuaikan.
 
 ## Kesimpulan
 
@@ -201,19 +203,21 @@ Mengganti simbol di header dan footer menggunakan Aspose.PDF untuk .NET tidak ha
 Ya, Anda dapat sepenuhnya menyesuaikan font, ukuran, warna, dan gaya untuk teks di header dan footer.
 
 ### Bagaimana cara menambahkan gambar ke header dan footer?  
- Anda dapat menggunakan`ImageStamp` untuk menyisipkan gambar ke dalam header dan footer Anda.
+Anda dapat menggunakan `ImageStamp` untuk menyisipkan gambar ke dalam header dan footer Anda.
 
 ### Apakah mungkin untuk menambahkan hyperlink di header atau footer?  
- Ya, Anda bisa menggunakannya`TextFragment` dengan hyperlink dengan mengatur`Hyperlink` milik.
+Ya, Anda bisa menggunakannya `TextFragment` dengan hyperlink dengan mengatur `Hyperlink` milik.
 
-### Dapatkah saya menggunakan header yang berbeda untuk halaman ganjil dan genap?  
+### Dapatkah saya menggunakan tajuk yang berbeda untuk halaman ganjil dan genap?  
 Ya, Aspose.PDF memungkinkan Anda menentukan header dan footer yang berbeda untuk halaman ganjil dan genap.
 
 ### Bagaimana cara menyesuaikan posisi header dan footer?  
 Anda dapat menyesuaikan margin dan properti perataan untuk mengontrol posisi header dan footer Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

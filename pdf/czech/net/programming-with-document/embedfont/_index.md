@@ -1,37 +1,39 @@
 ---
-title: Vložit písmo do souboru PDF
-linktitle: Vložit písmo do souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se vkládat písma do souboru PDF pomocí Aspose.PDF for .NET pomocí tohoto podrobného průvodce. Ujistěte se, že se vaše dokumenty zobrazují správně na jakémkoli zařízení.
-weight: 120
-url: /cs/net/programming-with-document/embedfont/
+"description": "Naučte se, jak vkládat písma do PDF souboru pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Zajistěte, aby se vaše dokumenty zobrazovaly správně na jakémkoli zařízení."
+"linktitle": "Vložit písmo do PDF souboru"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Vložit písmo do PDF souboru"
+"url": "/cs/net/programming-with-document/embedfont/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vložit písmo do souboru PDF
+# Vložit písmo do PDF souboru
 
 ## Zavedení
 
-Pokud jde o vytváření souborů PDF, jedním z nejdůležitějších aspektů je zajistit, aby písma použitá ve vašem dokumentu byla vložena. Tím se nejen zachová vzhled dokumentu na různých zařízeních, ale také se zabrání problémům s nahrazováním písem. V tomto tutoriálu vás provedeme procesem vkládání písem do souboru PDF pomocí Aspose.PDF pro .NET. 
+Pokud jde o vytváření PDF souborů, jedním z nejdůležitějších aspektů je zajištění toho, aby písma použitá v dokumentu byla vložena. Tím se nejen zachová vzhled dokumentu na různých zařízeních, ale také se zabrání problémům se záměnou písem. V tomto tutoriálu vás provedeme procesem vkládání písem do PDF souboru pomocí Aspose.PDF pro .NET. 
 
 ## Předpoklady
 
 Než se ponoříme do kódu, je třeba splnit několik předpokladů:
 
-1.  Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete si jej stáhnout z[webové stránky](https://releases.aspose.com/pdf/net/).
-2. Visual Studio: Vývojové prostředí, kde můžete psát a spouštět svůj kód .NET.
+1. Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete si ji stáhnout z [webové stránky](https://releases.aspose.com/pdf/net/).
+2. Visual Studio: Vývojové prostředí, kde můžete psát a spouštět kód .NET.
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět úryvkům kódu.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, musíte do svého projektu C# importovat potřebné balíčky. Můžete to udělat takto:
+Chcete-li začít, musíte do svého projektu C# importovat potřebné balíčky. Zde je návod, jak to udělat:
 
-1. Otevřete projekt sady Visual Studio.
-2. Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení a vyberte „Spravovat balíčky NuGet“.
-3.  Hledat`Aspose.PDF` a nainstalujte nejnovější verzi.
+1. Otevřete svůj projekt ve Visual Studiu.
+2. V Průzkumníku řešení klikněte pravým tlačítkem myši na svůj projekt a vyberte možnost „Spravovat balíčky NuGet“.
+3. Hledat `Aspose.PDF` a nainstalujte nejnovější verzi.
 
 ```csharp
 using System.IO;
@@ -41,36 +43,36 @@ using Aspose.Pdf.Annotations;
 using Aspose.Pdf.Text;
 ```
 
-Nyní, když máme vše nastaveno, pojďme si krok za krokem rozebrat proces vkládání písem do souboru PDF.
+Nyní, když máme vše nastavené, pojďme si krok za krokem rozebrat proces vkládání písem do PDF souboru.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíte definovat cestu k adresáři dokumentů. Zde bude umístěn váš vstupní soubor PDF a kde bude uložen výstupní soubor.
+Nejprve je třeba definovat cestu k adresáři s vašimi dokumenty. Zde bude umístěn váš vstupní PDF soubor a kam bude uložen výstupní soubor.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nezapomeňte vyměnit`"YOUR DOCUMENT DIRECTORY"`se skutečnou cestou, kde jsou uloženy vaše soubory PDF.
+Nezapomeňte vyměnit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jsou uloženy vaše soubory PDF.
 
 ## Krok 2: Načtěte existující soubor PDF
 
- Dále budete chtít načíst existující soubor PDF, který chcete upravit. To se provádí pomocí`Document` třídy poskytuje Aspose.PDF.
+Dále budete chtít načíst existující PDF soubor, který chcete upravit. To se provádí pomocí `Document` třída poskytnutá souborem Aspose.PDF.
 
 ```csharp
-// Načtěte existující soubor PDF
+// Načíst existující soubor PDF
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Zde načítáme soubor PDF s názvem`input.pdf`. Ujistěte se, že tento soubor existuje ve vašem zadaném adresáři.
+Zde načítáme PDF soubor s názvem `input.pdf`Ujistěte se, že tento soubor existuje ve vámi zadaném adresáři.
 
-## Krok 3: Projděte všechny stránky
+## Krok 3: Iterujte všemi stránkami
 
-Nyní, když máme načtený náš dokument, musíme iterovat všechny stránky v PDF. To nám umožňuje kontrolovat na každé stránce písma, která je třeba vložit.
+Nyní, když máme dokument načtený, musíme iterovat všemi stránkami v PDF. To nám umožní zkontrolovat každou stránku, zda neobsahuje písma, která je třeba vložit.
 
 ```csharp
-// Projděte všechny stránky
+// Projít všemi stránkami
 foreach (Page page in doc.Pages)
 {
     // Zkontrolujte, zda stránka obsahuje zdroje
@@ -78,7 +80,7 @@ foreach (Page page in doc.Pages)
     {
         foreach (Aspose.Pdf.Text.Font pageFont in page.Resources.Fonts)
         {
-            // Zkontrolujte, zda je písmo již vloženo
+            // Zkontrolujte, zda je písmo již vložené
             if (!pageFont.IsEmbedded)
                 pageFont.IsEmbedded = true;
         }
@@ -86,21 +88,21 @@ foreach (Page page in doc.Pages)
 }
 ```
 
- V tomto kódu zkontrolujeme, zda stránka obsahuje nějaké fonty. Pokud ano, procházíme každý font a zkontrolujeme, zda je již vložený. Pokud ne, nastavíme`IsEmbedded` majetek do`true`.
+V tomto kódu kontrolujeme, zda stránka obsahuje nějaké fonty. Pokud ano, projdeme každý font a zkontrolujeme, zda je již vložený. Pokud ne, nastavíme `IsEmbedded` majetek `true`.
 
-## Krok 4: Zkontrolujte objekty formuláře
+## Krok 4: Kontrola objektů formuláře
 
-Kromě běžných písem stránek mohou soubory PDF obsahovat objekty formuláře, které také používají písma. Musíme zajistit, aby tyto fonty byly také vloženy.
+Kromě běžných fontů stránek mohou PDF soubory obsahovat objekty formulářů, které také používají fonty. Musíme zajistit, aby tato písma byla také vložena.
 
 ```csharp
-// Zkontrolujte objekty formuláře
+// Kontrola objektů formuláře
 foreach (XForm form in page.Resources.Forms)
 {
     if (form.Resources.Fonts != null)
     {
         foreach (Aspose.Pdf.Text.Font formFont in form.Resources.Fonts)
         {
-            // Zkontrolujte, zda je písmo vloženo
+            // Zkontrolujte, zda je písmo vložené
             if (!formFont.IsEmbedded)
                 formFont.IsEmbedded = true;
         }
@@ -108,9 +110,9 @@ foreach (XForm form in page.Resources.Forms)
 }
 ```
 
-Tento fragment kódu zkontroluje všechny objekty formuláře na stránce a provede stejnou kontrolu vložení jejich písem.
+Tento úryvek kódu kontroluje přítomnost objektů formuláře na stránce a provádí stejnou kontrolu vkládání pro jejich písma.
 
-## Krok 5: Uložte upravený dokument PDF
+## Krok 5: Uložení upraveného dokumentu PDF
 
 Po vložení písem je čas uložit upravený dokument PDF. Pro výstup můžete zadat nový název souboru.
 
@@ -120,11 +122,11 @@ dataDir = dataDir + "EmbedFont_out.pdf";
 doc.Save(dataDir);
 ```
 
- V tomto případě ukládáme upravené PDF jako`EmbedFont_out.pdf` ve stejném adresáři.
+tomto případě ukládáme upravený PDF soubor jako `EmbedFont_out.pdf` ve stejném adresáři.
 
 ## Krok 6: Potvrďte operaci
 
-Nakonec je vždy dobrým zvykem potvrdit, že operace byla úspěšná. Můžete to provést vytištěním zprávy na konzoli.
+Nakonec je vždy dobrým zvykem potvrdit, že operace proběhla úspěšně. To můžete provést vypsáním zprávy do konzole.
 
 ```csharp
 Console.WriteLine("\nFont embedded successfully in a PDF file.\nFile saved at " + dataDir);
@@ -134,27 +136,29 @@ Tato zpráva vás informuje, že písma byla vložena a soubor byl úspěšně u
 
 ## Závěr
 
-Vkládání písem do souborů PDF je s Aspose.PDF pro .NET jednoduchý proces. Podle kroků uvedených v tomto kurzu můžete zajistit, že si vaše dokumenty PDF zachovají svůj zamýšlený vzhled na různých platformách. Ať už vytváříte zprávy, formuláře nebo jakýkoli jiný typ dokumentu, vkládání písem je zásadním krokem v procesu vytváření PDF.
+Vkládání písem do PDF souborů je s Aspose.PDF pro .NET jednoduchý proces. Dodržováním kroků popsaných v tomto tutoriálu si můžete zajistit, že si vaše PDF dokumenty zachovají zamýšlený vzhled na různých platformách. Ať už vytváříte zprávy, formuláře nebo jakýkoli jiný typ dokumentu, vkládání písem je klíčovým krokem v procesu vytváření PDF.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je vkládání písem do PDF?
-Vkládání písem zajišťuje, že písma použitá v PDF budou zahrnuta do souboru, čímž se zabrání problémům s nahrazováním písem na různých zařízeních.
+Vkládání písem zajišťuje, že písma použitá v PDF jsou zahrnuta v souboru, čímž se předchází problémům se záměnou písem na různých zařízeních.
 
 ### Proč bych měl používat Aspose.PDF pro .NET?
-Aspose.PDF for .NET je výkonná knihovna, která zjednodušuje manipulaci s PDF, včetně vkládání písem, vytváření a úprav dokumentů.
+Aspose.PDF pro .NET je výkonná knihovna, která zjednodušuje manipulaci s PDF soubory, včetně vkládání písem, vytváření a úprav dokumentů.
 
-### Mohu vložit písma do existujících souborů PDF?
-Ano, můžete vložit písma do existujících souborů PDF pomocí knihovny Aspose.PDF, jak je ukázáno v tomto tutoriálu.
+### Mohu vkládat písma do existujících PDF souborů?
+Ano, písma můžete vkládat do existujících PDF souborů pomocí knihovny Aspose.PDF, jak je ukázáno v tomto tutoriálu.
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.PDF?
- Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.PDF z[webové stránky](https://releases.aspose.com/).
+Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.PDF z [webové stránky](https://releases.aspose.com/).
 
 ### Kde najdu podporu pro Aspose.PDF?
- Podporu a dotazy můžete najít na[Aspose fórum](https://forum.aspose.com/c/pdf/10).
+Podporu a dotazy můžete najít na [Fórum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

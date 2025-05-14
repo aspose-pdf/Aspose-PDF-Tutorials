@@ -1,34 +1,36 @@
 ---
-title: Taal en titel instellen
-linktitle: Taal en titel instellen
-second_title: Aspose.PDF voor .NET API-referentie
-description: Stapsgewijze handleiding voor het configureren van de taal en titel van een PDF-document met Aspose.PDF voor .NET. Maak gepersonaliseerde meertalige documenten.
-weight: 140
-url: /nl/net/programming-with-tagged-pdf/setup-language-and-title/
+"description": "Stapsgewijze handleiding voor het configureren van de taal en titel van een PDF-document met Aspose.PDF voor .NET. Maak gepersonaliseerde meertalige documenten."
+"linktitle": "Taal en titel instellen"
+"second_title": "Aspose.PDF voor .NET API-referentie"
+"title": "Taal en titel instellen"
+"url": "/nl/net/programming-with-tagged-pdf/setup-language-and-title/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Taal en titel instellen
 
 ## Invoering
 
-Het maken van getagde PDF's is een cruciale activiteit om toegankelijkheid te garanderen en een gestructureerd formaat voor documenten te bieden. Naarmate we naar een meer inclusieve digitale omgeving gaan, wordt het steeds belangrijker om te begrijpen hoe je getagde documenten maakt. Deze uitgebreide gids leidt je door het proces van het instellen van taal en titels in getagde PDF's met behulp van Aspose.PDF voor .NET. We splitsen het op in verteerbare stappen, zodat je je aan het einde een professional voelt, zelfs als je net begint. 
+Het maken van getagde PDF's is cruciaal om de toegankelijkheid te waarborgen en een gestructureerd formaat voor documenten te bieden. Naarmate we naar een meer inclusieve digitale omgeving evolueren, wordt het steeds belangrijker om te begrijpen hoe je getagde documenten maakt. Deze uitgebreide handleiding begeleidt je door het proces van het instellen van taal en titels in getagde PDF's met Aspose.PDF voor .NET. We delen het op in begrijpelijke stappen, zodat je je na afloop als een professional voelt, zelfs als je net begint. 
 
 ## Vereisten
 
-Voordat we in de wereld van getagde PDF's duiken, verzamelen we alles wat je nodig hebt. Dit is wat je klaar moet hebben:
+Voordat we ons verdiepen in de wereld van getagde pdf's, verzamelen we eerst alles wat je nodig hebt. Dit is wat je bij de hand moet hebben:
 
-- Basiskennis van .NET: Hoewel u geen buitengewone programmeur hoeft te zijn, zal uw reis soepeler verlopen als u bekend bent met de concepten van .NET.
--  Aspose.PDF voor .NET Geïnstalleerd: Zorg ervoor dat u de bibliotheek hebt geïnstalleerd. U kunt deze downloaden voor evaluatie of een licentie kopen. Controleer de[downloadpagina hier](https://releases.aspose.com/pdf/net/).
-- Visual Studio: Hier schrijf en test je je code. Als je het niet hebt, haal het dan van de Microsoft-website.
-- C# Taalvaardigheid: Deze gids is geschreven in C#. Een beetje ervaring met C# zal u zeker helpen moeiteloos door de codeeronderdelen te cruisen.
+- Basiskennis van .NET: Hoewel u geen buitengewone programmeur hoeft te zijn, zal vertrouwdheid met .NET-concepten deze reis soepeler laten verlopen.
+- Aspose.PDF voor .NET geïnstalleerd: Zorg ervoor dat de bibliotheek is geïnstalleerd. U kunt deze downloaden voor evaluatie of een licentie aanschaffen. Controleer de [downloadpagina hier](https://releases.aspose.com/pdf/net/).
+- Visual Studio: hier schrijf en test je je code. Als je het niet hebt, download het dan van de Microsoft-website.
+- C# Taalvaardigheid: Deze handleiding is geschreven in C#. Een beetje ervaring met C# zal je zeker helpen om moeiteloos door de programmeeronderdelen te navigeren.
 
 ## Pakketten importeren
 
-Zodra u de vereisten hebt ingesteld, is het tijd om de benodigde pakketten te importeren. U kunt dit doen door de volgende using-richtlijn boven aan uw C#-bestand toe te voegen:
+Zodra je de vereisten hebt ingesteld, is het tijd om de benodigde pakketten te importeren. Je kunt dit doen door de volgende using -richtlijn bovenaan je C#-bestand toe te voegen:
 
 ```csharp
 using System;
@@ -37,31 +39,31 @@ using System.Linq;
 using System.Text;
 ```
 
-Deze naamruimten stellen u in staat om toegang te krijgen tot de componenten die nodig zijn voor het maken en bewerken van PDF's met getagde content. U vraagt zich misschien af: "Waarom pakketten importeren?" Het is alsof u een gereedschapskist voorbereidt voordat u iets bouwt: u hebt de juiste tools bij de hand.
+Deze naamruimten geven je toegang tot de componenten die nodig zijn voor het maken en bewerken van pdf's met getagde content. Je vraagt je misschien af: "Waarom zou je pakketten importeren?" Het is net als het klaarmaken van een gereedschapskist voordat je iets bouwt: je hebt de juiste tools nodig.
 
 ## Stap 1: Initialiseer het document
 
-De eerste stap in onze reis is het creëren van een nieuw documentobject. Je kunt dit zien als het leggen van de fundering voor een huis: alles zal hierop worden gebouwd.
+De eerste stap in onze reis is het creëren van een nieuw documentobject. Je kunt dit zien als het leggen van de fundering voor een huis – alles wordt hierop gebouwd.
 
 ```csharp
 Document document = new Document();
 ```
 
-Hier instantiëren we een nieuw PDF-document. Dit is waar al uw content zal verblijven. 
+Hier maken we een nieuw PDF-document aan. Hier komt al je content te staan. 
 
-## Stap 2: Geef de documentdirectory op
+## Stap 2: Geef de documentmap op
 
-De volgende stap is het definiëren waar uw documenten worden opgeslagen. U hebt een plek nodig om uw nieuw gemaakte PDF-bestand op te slaan.
+De volgende stap is het bepalen waar je documenten worden opgeslagen. Je hebt een plek nodig om je nieuwe PDF-bestand op te slaan.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zorg ervoor dat u vervangt`"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad waar u de PDF wilt opslaan. Dit is vergelijkbaar met het vinden van een parkeerplaats voor uw nieuwe auto.
+Zorg ervoor dat u vervangt `"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad waar u de PDF wilt opslaan. Dit is vergelijkbaar met het zoeken naar een parkeerplaats voor uw nieuwe auto.
 
 ## Stap 3: Getagged inhoud verkrijgen
 
-Laten we nu de getagde content van ons document benaderen. Getagde content dient als ruggengraat voor het maken van toegankelijke PDF's. 
+Laten we nu de getagde inhoud van ons document bekijken. Getagde inhoud vormt de basis voor het maken van toegankelijke pdf's. 
 
 ```csharp
 Tagged.ITaggedContent taggedContent = document.TaggedContent;
@@ -78,11 +80,11 @@ taggedContent.SetTitle("Example Tagged Document");
 taggedContent.SetLanguage("en-US");
 ```
 
-Beschouw deze stap als het geven van een identiteit aan uw document. De titel vertegenwoordigt de essentie van waar het document over gaat, terwijl de taal de primaire taalkundige context aan lezers communiceert.
+Beschouw deze stap als het geven van een identiteit aan uw document. De titel vertegenwoordigt de essentie van waar het document over gaat, terwijl de taal de primaire taalkundige context aan de lezers communiceert.
 
 ## Stap 5: Koptekstelement maken
 
-Een gestructureerde PDF bevat vaak headers om de lezer te helpen. Laten we een header-element maken.
+Een gestructureerde PDF bevat vaak kopteksten om de lezer te begeleiden. Laten we een koptekstelement maken.
 
 ```csharp
 LogicalStructure.HeaderElement h1 = taggedContent.CreateHeaderElement(1);
@@ -90,15 +92,15 @@ h1.SetText("Phrase on different languages");
 taggedContent.RootElement.AppendChild(h1);
 ```
 
-Hier hebben we een header (H1) met tekst gemaakt. Het is alsof we een wegwijzer plaatsen die lezers naar wat ze vervolgens gaan lezen, leidt. 
+Hier hebben we een kop (H1) met tekst gemaakt. Het is alsof we een wegwijzer plaatsen die lezers de weg wijst naar wat ze vervolgens gaan lezen. 
 
-## Stap 6: Voeg alinea's toe in meerdere talen
+## Stap 6: Alinea's in meerdere talen toevoegen
 
-Hier begint het leuke gedeelte: content toevoegen in verschillende talen. We voegen een paar alinea's toe om verschillende talen te vertegenwoordigen.
+Hier begint het leukste gedeelte: content toevoegen in verschillende talen. We voegen een paar alinea's toe om de verschillende talen te vertegenwoordigen.
 
 ### Engelse alinea toevoegen
 
-Laten we beginnen met het Engels:
+Laten we beginnen met Engels:
 
 ```csharp
 LogicalStructure.ParagraphElement pEN = taggedContent.CreateParagraphElement();
@@ -107,7 +109,7 @@ pEN.Language = "en-US";
 taggedContent.RootElement.AppendChild(pEN);
 ```
 
-Deze regel voegt een vriendelijke begroeting toe in het Engels. Het is alsof u uw lezers in hun voorkeurstaal begroet.
+Deze zin voegt een vriendelijke begroeting in het Engels toe. Het is alsof je je lezers begroet in hun voorkeurstaal.
 
 ### Duitse alinea toevoegen
 
@@ -120,7 +122,7 @@ pDE.Language = "de-DE";
 taggedContent.RootElement.AppendChild(pDE);
 ```
 
-Hiermee bereikt u uw Duitstalige doelgroep en vergroot u de toegankelijkheid van uw document.
+Hiermee bereikt u uw Duitstalige publiek en vergroot u de toegankelijkheid van uw document.
 
 ### Franse alinea toevoegen
 
@@ -156,32 +158,34 @@ Nu u uw document in meerdere talen hebt opgesteld, is het tijd om het op te slaa
 document.Save(dataDir + "SetupLanguageAndTitle.pdf");
 ```
 
-En zo is uw creatie afgerond en opgeslagen! Beschouw dit als het verzegelen van de envelop voordat u uw brief verstuurt.
+En zo is je creatie klaar en opgeborgen! Zie dit als het dichtplakken van de envelop voordat je je brief verstuurt.
 
 ## Conclusie
 
-Het maken van getagde PDF's met Aspose.PDF voor .NET gaat niet alleen over coderen; het gaat over het toegankelijk en gebruiksvriendelijk maken van uw documenten voor alle lezers. U hebt geleerd hoe u titels en talen instelt en zelfs meerdere meertalige paragrafen toevoegt aan uw PDF. Met deze vaardigheden bent u goed op weg om inclusieve digitale content te produceren. 
+Het maken van getagde PDF's met Aspose.PDF voor .NET draait niet alleen om coderen; het gaat erom je documenten toegankelijk en gebruiksvriendelijk te maken voor alle lezers. Je hebt geleerd hoe je titels en talen instelt en zelfs meerdere meertalige alinea's aan je PDF toevoegt. Met deze vaardigheden ben je goed op weg om inclusieve digitale content te produceren. 
 
 
 ## Veelgestelde vragen
 
 ### Wat is een getagde PDF?
-Een getagde PDF is een type PDF-document dat aanvullende informatie bevat die het gestructureerd lezen van de inhoud mogelijk maakt. Dit is vooral nuttig voor ondersteunende technologieën.
+Een getagde PDF is een type PDF-document dat aanvullende informatie bevat die het gestructureerd lezen van de inhoud mogelijk maakt. Dit is vooral handig voor ondersteunende technologieën.
 
 ### Hoe helpt Aspose.PDF voor .NET bij het maken van getagde PDF's?
-Aspose.PDF voor .NET biedt verschillende klassen en methoden waarmee u eenvoudig PDF's kunt maken en bewerken, inclusief het toevoegen van getagde inhoud voor toegankelijkheid.
+Aspose.PDF voor .NET biedt diverse klassen en methoden waarmee u eenvoudig PDF's kunt maken en bewerken, inclusief het toevoegen van getagde inhoud voor toegankelijkheid.
 
 ### Kan ik een getagde PDF in meerdere talen maken?
 Ja! Aspose.PDF ondersteunt meerdere talen, waardoor u inhoud in verschillende talen aan hetzelfde PDF-document kunt toevoegen.
 
 ### Heb ik een licentie nodig om Aspose.PDF te gebruiken?
-Hoewel u het gratis kunt proberen, is een licentie vereist voor productiegebruik. Overweeg om de[aankooppagina](https://purchase.aspose.com/buy) voor meer informatie.
+Hoewel je het gratis kunt uitproberen, is voor productiegebruik een licentie vereist. Overweeg een bezoek te brengen aan de [aankooppagina](https://purchase.aspose.com/buy) voor meer informatie.
 
 ### Waar kan ik meer informatie vinden over Aspose.PDF?
- U kunt uitgebreide documentatie en ondersteuning voor Aspose.PDF vinden[hier](https://reference.aspose.com/pdf/net/).
+U kunt uitgebreide documentatie en ondersteuning voor Aspose.PDF vinden [hier](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

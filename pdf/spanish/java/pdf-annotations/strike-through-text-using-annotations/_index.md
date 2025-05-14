@@ -1,22 +1,24 @@
 ---
-title: Tachar texto mediante anotaciones
-linktitle: Tachar texto mediante anotaciones
-second_title: API de procesamiento de PDF de Java Aspose.PDF
-description: Aprenda a agregar anotaciones de texto tachado a documentos PDF con Aspose.PDF para Java. Siga nuestra guía paso a paso para manipular documentos con precisión.
-weight: 16
-url: /es/java/pdf-annotations/strike-through-text-using-annotations/
+"description": "Aprenda a añadir anotaciones de texto tachado a documentos PDF con Aspose.PDF para Java. Siga nuestra guía paso a paso para una manipulación precisa de documentos."
+"linktitle": "Tachar texto usando anotaciones"
+"second_title": "API de procesamiento de PDF de Java Aspose.PDF"
+"title": "Tachar texto usando anotaciones"
+"url": "/es/java/pdf-annotations/strike-through-text-using-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tachar texto mediante anotaciones
+# Tachar texto usando anotaciones
 
 
-## Introducción al uso de anotaciones para tachar texto
+## Introducción al tachado de texto mediante anotaciones
 
-En el mundo de la manipulación de documentos, la precisión y la claridad son fundamentales. Las anotaciones de texto tachado son una herramienta valiosa para resaltar cambios, indicar eliminaciones o enfatizar contenido específico dentro de un documento PDF. Aspose.PDF para Java ofrece un sólido conjunto de funciones para lograr esto sin esfuerzo. En esta guía, lo guiaremos a través del proceso de agregar anotaciones de texto tachado a sus documentos PDF utilizando Aspose.PDF para Java.
+En el mundo de la manipulación de documentos, la precisión y la claridad son fundamentales. Las anotaciones de texto tachado son una herramienta valiosa para resaltar cambios, indicar eliminaciones o destacar contenido específico dentro de un documento PDF. Aspose.PDF para Java ofrece un conjunto completo de funciones para lograrlo sin esfuerzo. En esta guía, le guiaremos en el proceso de agregar anotaciones de texto tachado a sus documentos PDF con Aspose.PDF para Java.
 
 ## Prerrequisitos
 
@@ -24,15 +26,15 @@ Antes de sumergirnos en el código, asegúrese de tener los siguientes requisito
 
 1. Entorno de desarrollo Java: asegúrese de tener Java y un IDE adecuado (Eclipse, IntelliJ IDEA o cualquier otro) instalado en su sistema.
 
-2.  Biblioteca Aspose.PDF para Java: descargue e incluya la biblioteca Aspose.PDF para Java en su proyecto. Puede encontrar el enlace de descarga[aquí](https://releases.aspose.com/pdf/java/).
+2. Biblioteca Aspose.PDF para Java: Descarga e incluye la biblioteca Aspose.PDF para Java en tu proyecto. Puedes encontrar el enlace de descarga. [aquí](https://releases.aspose.com/pdf/java/).
 
-## Paso 1: Configuración del proyecto Java
+## Paso 1: Configuración de su proyecto Java
 
-Para comenzar, crea un nuevo proyecto Java o abre uno existente en tu IDE preferido. Asegúrate de haber agregado la biblioteca Aspose.PDF para Java a la ruta de clases de tu proyecto.
+Para empezar, crea un nuevo proyecto Java o abre uno existente en tu IDE preferido. Asegúrate de haber añadido la biblioteca Aspose.PDF para Java a la ruta de clases de tu proyecto.
 
 ## Paso 2: Inicialización del documento PDF
 
-Comencemos inicializando un documento PDF donde queremos agregar una anotación tachada.
+Comencemos inicializando un documento PDF en el que queremos agregar una anotación tachada.
 
 ```java
 // Inicializar un nuevo documento PDF
@@ -41,7 +43,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
 ## Paso 3: Agregar texto al documento
 
-A continuación, agregaremos algo de texto al documento PDF. Este texto servirá como contenido que queremos tachar.
+A continuación, añadiremos texto al documento PDF. Este texto servirá como el contenido que queremos tachar.
 
 ```java
 // Crear una página en el documento PDF
@@ -78,32 +80,34 @@ pdfDocument.save("output.pdf");
 
 ## Conclusión
 
-¡Felicitaciones! Ha agregado con éxito una anotación de texto tachado a un documento PDF con Aspose.PDF para Java. Esta potente biblioteca simplifica el proceso de trabajo con documentos PDF, lo que la convierte en una opción ideal para los desarrolladores que buscan mejorar sus capacidades de manipulación de documentos.
+¡Felicitaciones! Ha añadido correctamente una anotación de texto tachado a un documento PDF con Aspose.PDF para Java. Esta potente biblioteca simplifica el trabajo con documentos PDF, lo que la convierte en la opción ideal para desarrolladores que buscan optimizar sus capacidades de manipulación de documentos.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo cambio el color de la anotación tachada?
 
- Para cambiar el color de la anotación tachada, puede utilizar el`setColor` y especificamos el color deseado. En el ejemplo proporcionado, lo configuramos en rojo usando`setColor(com.aspose.pdf.Color.getRed())`.
+Para cambiar el color de la anotación tachada, puede utilizar el `setColor` y especificamos el color deseado. En el ejemplo, lo configuramos en rojo usando `setColor(com.aspose.pdf.Color.getRed())`.
 
 ### ¿Puedo agregar múltiples anotaciones tachadas a un solo documento PDF?
 
-Sí, puedes agregar varias anotaciones tachadas a un solo documento PDF. Simplemente repite los pasos de la guía para cada anotación que quieras agregar.
+Sí, puedes añadir varias anotaciones tachadas a un mismo documento PDF. Simplemente repite los pasos de la guía para cada anotación que quieras añadir.
 
 ### ¿Aspose.PDF para Java es compatible con diferentes versiones de Java?
 
-Aspose.PDF para Java es compatible con varias versiones de Java. Asegúrese de elegir la versión adecuada de la biblioteca que coincida con su entorno Java.
+Aspose.PDF para Java es compatible con varias versiones de Java. Asegúrese de elegir la versión de la biblioteca adecuada para su entorno Java.
 
 ### ¿Hay otros tipos de anotaciones que pueda agregar usando Aspose.PDF para Java?
 
-Sí, Aspose.PDF para Java admite varios tipos de anotaciones, como texto, resaltado, subrayado y más. Puede explorar la documentación para obtener ejemplos detallados y su uso.
+Sí, Aspose.PDF para Java admite varios tipos de anotaciones, como texto, resaltado, subrayado y más. Puede consultar la documentación para obtener ejemplos detallados y su uso.
 
 ### ¿Dónde puedo encontrar más recursos y documentación para Aspose.PDF para Java?
 
- Para obtener documentación completa y recursos adicionales, visite la página de documentación de Aspose.PDF para Java:[aquí](https://reference.aspose.com/pdf/java/).
+Para obtener documentación completa y más recursos, visite la página de documentación de Aspose.PDF para Java: [aquí](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

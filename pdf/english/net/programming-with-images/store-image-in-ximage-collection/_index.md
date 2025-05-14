@@ -8,7 +8,9 @@ url: /net/programming-with-images/store-image-in-ximage-collection/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Store Image In XImage Collection
@@ -171,6 +173,7 @@ Yes, when adding images to the PDF, you can specify the image filter type to use
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

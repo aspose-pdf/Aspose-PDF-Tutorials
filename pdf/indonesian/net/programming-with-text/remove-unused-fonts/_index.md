@@ -1,14 +1,16 @@
 ---
-title: Hapus Font yang Tidak Digunakan Dalam File PDF
-linktitle: Hapus Font yang Tidak Digunakan Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menghapus font yang tidak digunakan dari file PDF dengan mudah menggunakan Aspose.PDF for .NET. Tingkatkan kinerja dan kurangi ukuran file.
-weight: 300
-url: /id/net/programming-with-text/remove-unused-fonts/
+"description": "Pelajari cara menghapus font yang tidak digunakan dari file PDF dengan mudah menggunakan Aspose.PDF for .NET. Tingkatkan kinerja dan kurangi ukuran file."
+"linktitle": "Hapus Font yang Tidak Digunakan Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Hapus Font yang Tidak Digunakan Dalam File PDF"
+"url": "/id/net/programming-with-text/remove-unused-fonts/"
+"weight": 300
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Font yang Tidak Digunakan Dalam File PDF
@@ -22,10 +24,10 @@ Hai! Apakah Anda bosan dengan file PDF yang besar dan penuh dengan font yang men
 Sebelum memulai, pastikan Anda telah menyiapkan hal berikut agar dapat memanfaatkan tutorial ini sebaik-baiknya:
 
 1. Visual Studio Terpasang: Anda memerlukan lingkungan pengembangan untuk menjalankan kode .NET Anda. Visual Studio (versi apa pun) adalah pilihan yang tepat.
-2.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka ini. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka ini. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pemahaman Dasar tentang C#: Karena kita akan menggunakan C# untuk contoh ini, pemahaman tentang bahasa tersebut akan berguna.
-4. File PDF: Siapkan contoh file PDF. Anda dapat membuatnya sendiri atau menggunakan PDF yang sudah ada. Pastikan saja namanya`ReplaceTextPage.pdf` dan disimpan di direktori dokumen Anda.
-5.  Lisensi yang Valid: Meskipun Anda dapat menggunakan uji coba gratis, lisensi yang valid direkomendasikan untuk fungsionalitas lengkap. Jika Anda memerlukan lisensi sementara, Anda dapat memperolehnya[Di Sini](https://purchase.aspose.com/temporary-license/).
+4. File PDF: Siapkan contoh file PDF. Anda dapat membuatnya sendiri atau menggunakan PDF yang sudah ada. Pastikan saja namanya `ReplaceTextPage.pdf` dan disimpan di direktori dokumen Anda.
+5. Lisensi yang Valid: Meskipun Anda dapat menggunakan uji coba gratis, lisensi yang valid direkomendasikan untuk fungsionalitas lengkap. Jika Anda memerlukan lisensi sementara, Anda dapat memperolehnya [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Paket Impor
 
@@ -48,7 +50,7 @@ Hal pertama yang harus dilakukan! Anda perlu membuat Aplikasi Konsol baru di Vis
 
 - Buka Visual Studio.
 - Klik File > Baru > Proyek.
--  Pilih Aplikasi Konsol (.NET Framework) dan beri nama (misalnya,`PdfFontCleaner`).
+- Pilih Aplikasi Konsol (.NET Framework) dan beri nama (misalnya, `PdfFontCleaner`).
 - Klik Buat.
 
 Sekarang Anda memiliki proyek baru untuk dikerjakan!
@@ -59,7 +61,7 @@ Selanjutnya, Anda akan menambahkan pustaka Aspose.PDF ke proyek Anda. Anda dapat
 
 1. Di Solution Explorer, klik kanan pada proyek Anda.
 2. Pilih Kelola Paket NuGet.
-3.  Pencarian untuk`Aspose.PDF` dan menginstalnya.
+3. Pencarian untuk `Aspose.PDF` dan menginstalnya.
 
 ## Langkah 3: Muat Dokumen PDF
 
@@ -69,10 +71,10 @@ Mari kita muat dokumen yang ingin Anda proses. Berikut cara melakukannya:
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY/"; // Perbarui ini ke jalur Anda
 // Muat file PDF sumber
-Document doc = new Document(dataDir + "ReplaceTextPage.pdf");
+Document doc = new Document(dataDir + "MenggantiTextPage.pdf");
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY/"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Langkah ini penting karena memungkinkan Aspose mengakses dokumen PDF Anda. 
+Replace `"YOUR DOCUMENT DIRECTORY/"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Langkah ini penting karena memungkinkan Aspose mengakses dokumen PDF Anda. 
 
 ## Langkah 4: Siapkan Penyerap Fragmen Teks
 
@@ -83,21 +85,21 @@ TextFragmentAbsorber absorber = new TextFragmentAbsorber(new TextEditOptions(Tex
 doc.Pages.Accept(absorber);
 ```
 
- Baris kode ini membuat`TextFragmentAbsorber` objek yang dikonfigurasi untuk menghapus font yang tidak digunakan. Dengan memanggil`doc.Pages.Accept(absorber)`, kami memberi tahu Aspose untuk menelusuri semua halaman dalam dokumen dan mengidentifikasi fragmen teks.
+Baris kode ini membuat `TextFragmentAbsorber` objek yang dikonfigurasi untuk menghapus font yang tidak digunakan. Dengan memanggil `doc.Pages.Accept(absorber)`, kami memberi tahu Aspose untuk menelusuri semua halaman dalam dokumen dan mengidentifikasi fragmen teks.
 
 ## Langkah 5: Ulangi Fragmen Teks dan Ganti Font
 
 Setelah mengidentifikasi fragmen teks, saatnya untuk mengulanginya dan mengganti font yang tidak digunakan. Tambahkan kode ini:
 
 ```csharp
-//Ulangi semua TextFragments
+// Ulangi semua TextFragments
 foreach (TextFragment textFragment in absorber.TextFragments)
 {
     textFragment.TextState.Font = FontRepository.FindFont("Arial, Bold");
 }
 ```
 
- Dalam loop ini, Anda akan mengubah font masing-masing`TextFragment` ke "Arial, Bold". Anda dapat memilih fon apa pun yang sesuai dengan kebutuhan Anda. Di sinilah keajaiban sesungguhnya terjadi, karena memastikan bahwa PDF memiliki fon yang bersih dan jelas.
+Dalam loop ini, Anda akan mengubah font masing-masing `TextFragment` ke "Arial, Bold". Anda dapat memilih fon apa pun yang sesuai dengan kebutuhan Anda. Di sinilah keajaiban sesungguhnya terjadi, karena memastikan bahwa PDF memiliki fon yang bersih dan jelas.
 
 ## Langkah 6: Simpan Dokumen yang Diperbarui
 
@@ -110,7 +112,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nUnused fonts removed successfully from pdf document.\nFile saved at " + dataDir);
 ```
 
- Di sini, kita membuat file baru bernama`RemoveUnusedFonts_out.pdf` di direktori yang sama. Ini akan memberi Anda cadangan PDF asli, sekaligus menyediakan versi yang lebih ramping.
+Di sini, kita membuat file baru bernama `RemoveUnusedFonts_out.pdf` di direktori yang sama. Ini akan memberi Anda cadangan PDF asli, sekaligus menyediakan versi yang lebih ramping.
 
 ## Langkah 7: Menangani Pengecualian
 
@@ -136,22 +138,24 @@ Selamat! Anda telah berhasil mempelajari cara menghapus font yang tidak digunaka
 ## Pertanyaan yang Sering Diajukan
 
 ### Dapatkah saya menggunakan Aspose.PDF versi gratis untuk tugas ini?
-Ya, Anda dapat menggunakan uji coba gratis, tetapi lisensi lengkap direkomendasikan untuk kinerja optimal.
+Ya, Anda dapat menggunakan uji coba gratis, tetapi lisensi penuh direkomendasikan untuk kinerja optimal.
 
 ### Apa yang terjadi pada font jika tidak ada pengganti yang tersedia?
-Jika tidak ada font pengganti yang ditemukan, teks mungkin tidak ditampilkan dengan benar, jadi pastikan untuk memilih font yang tersedia umum.
+Jika font pengganti tidak ditemukan, teks mungkin tidak ditampilkan dengan benar, jadi pastikan untuk memilih font yang tersedia umum.
 
 ### Bagaimana cara memperoleh lisensi sementara?
- Anda dapat meminta lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat meminta lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Apakah menghapus font yang tidak digunakan akan memengaruhi tampilan dokumen?
 Hal itu bisa saja dilakukan, tergantung pada font mana yang dihapus dan bagaimana fragmen teks diganti; pengujian dianjurkan.
 
 ### Apakah ada metode alternatif untuk menghapus font yang tidak digunakan?
 Aspose.PDF untuk .NET sangat efisien untuk tujuan ini, meskipun pustaka atau alat lain mungkin menawarkan fungsionalitas serupa.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Peringatan Untuk Penggantian Font
-linktitle: Dapatkan Peringatan Untuk Penggantian Font
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menggunakan fitur GetWarningsForFontSubstitution dari Aspose.PDF untuk .NET untuk mendeteksi peringatan substitusi font saat membuka dokumen PDF.
-weight: 190
-url: /id/net/programming-with-document/getwarningsforfontsubstitution/
+"description": "Pelajari cara menggunakan fitur GetWarningsForFontSubstitution dari Aspose.PDF untuk .NET untuk mendeteksi peringatan substitusi font saat membuka dokumen PDF."
+"linktitle": "Dapatkan Peringatan Untuk Penggantian Font"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Peringatan Untuk Penggantian Font"
+"url": "/id/net/programming-with-document/getwarningsforfontsubstitution/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Peringatan Untuk Penggantian Font
@@ -22,7 +24,7 @@ Dalam dunia pemrosesan dokumen, memastikan bahwa PDF Anda terlihat persis sepert
 Sebelum menyelami kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sinilah Anda akan menulis dan menjalankan kode .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 4. Dokumen PDF: Siapkan contoh dokumen PDF yang dapat Anda gunakan untuk menguji deteksi substitusi font.
 
@@ -61,21 +63,21 @@ Pertama, Anda perlu menentukan jalur ke dokumen PDF Anda. Di sinilah Aspose.PDF 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya, Anda akan membuka dokumen PDF menggunakan`Document` kelas disediakan oleh Aspose.PDF.
+Selanjutnya, Anda akan membuka dokumen PDF menggunakan `Document` kelas disediakan oleh Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Baris kode ini menginisialisasi yang baru`Document` objek dengan berkas PDF Anda.
+Baris kode ini menginisialisasi yang baru `Document` objek dengan berkas PDF Anda.
 
 ## Langkah 3: Siapkan Deteksi Penggantian Font
 
- Sekarang, saatnya untuk mengatur event handler yang akan mendeteksi peringatan penggantian font. Anda harus berlangganan`FontSubstitution` acara dari`Document` kelas.
+Sekarang, saatnya untuk mengatur event handler yang akan mendeteksi peringatan penggantian font. Anda harus berlangganan `FontSubstitution` acara dari `Document` kelas.
 
 ```csharp
 doc.FontSubstitution += new Document.FontSubstitutionHandler(OnFontSubstitution);
@@ -116,13 +118,15 @@ Untuk mencegah penggantian font, pastikan semua font yang digunakan dalam PDF An
 Ya, Aspose.PDF menawarkan uji coba gratis yang dapat Anda gunakan untuk menguji fitur-fiturnya.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi terperinci di Aspose.PDF untuk .NET[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi terperinci di Aspose.PDF untuk .NET [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

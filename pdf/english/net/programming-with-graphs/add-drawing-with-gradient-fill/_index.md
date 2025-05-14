@@ -8,7 +8,9 @@ url: /net/programming-with-graphs/add-drawing-with-gradient-fill/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Drawing With Gradient Fill
@@ -141,6 +143,7 @@ If you run into any issues, you can seek help on the [Aspose support forum](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

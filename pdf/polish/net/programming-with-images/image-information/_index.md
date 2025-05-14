@@ -1,14 +1,16 @@
 ---
-title: Informacje o obrazie w pliku PDF
-linktitle: Informacje o obrazie w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Naucz się wyodrębniać informacje o obrazach z plików PDF za pomocą Aspose.PDF dla .NET dzięki naszemu kompleksowemu przewodnikowi krok po kroku.
-weight: 160
-url: /pl/net/programming-with-images/image-information/
+"description": "Naucz się wyodrębniać informacje o obrazach z plików PDF za pomocą Aspose.PDF dla platformy .NET dzięki naszemu kompleksowemu przewodnikowi krok po kroku."
+"linktitle": "Informacje o obrazie w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Informacje o obrazie w pliku PDF"
+"url": "/pl/net/programming-with-images/image-information/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Informacje o obrazie w pliku PDF
@@ -22,7 +24,7 @@ Pliki PDF są obecnie wszędzie — praktycznie każdy dokument zawodowy i osobi
 Zanim przejdziemy do szczegółów kodowania, musisz spełnić kilka warunków wstępnych:
 
 1. Środowisko programistyczne: Będziesz potrzebować skonfigurowanego środowiska programistycznego .NET. Może to być Visual Studio lub inne IDE zgodne z .NET.
-2.  Biblioteka Aspose.PDF: Upewnij się, że masz dostęp do biblioteki Aspose.PDF. Możesz ją pobrać z[Strona internetowa Aspose](https://releases.aspose.com/pdf/net/). 
+2. Biblioteka Aspose.PDF: Upewnij się, że masz dostęp do biblioteki Aspose.PDF. Możesz ją pobrać z [Strona internetowa Aspose](https://releases.aspose.com/pdf/net/). 
 3. Podstawowa wiedza o języku C#: Znajomość języka C# i koncepcji programowania obiektowego pomoże Ci bez problemu podążać za nauką tego samouczka.
 4. Dokument PDF: Przygotuj przykładowy dokument PDF zawierający obrazy, aby móc przetestować swój kod. 
 
@@ -42,7 +44,7 @@ Teraz, gdy wszystko jest już skonfigurowane, czas podzielić to na łatwe do op
 
 ## Krok 1: Zainicjuj dokument
 
- W tym kroku zainicjujemy dokument PDF, używając ścieżki do pliku PDF. Powinieneś zastąpić`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF.
+W tym kroku zainicjujemy dokument PDF, używając ścieżki do pliku PDF. Powinieneś zastąpić `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Załaduj plik źródłowy PDF
 Document doc = new Document(dataDir + "ImageInformation.pdf");
 ```
- Tworzymy`Document` obiekt, który ładuje PDF z określonego katalogu. To pozwoli nam pracować z zawartością pliku.
+Tworzymy `Document` obiekt, który ładuje PDF z określonego katalogu. To pozwoli nam pracować z zawartością pliku.
 
 ## Krok 2: Ustaw domyślną rozdzielczość i zainicjuj struktury danych
 
@@ -63,7 +65,7 @@ System.Collections.Stack graphicsState = new System.Collections.Stack();
 // Zdefiniuj obiekt listy tablicowej, który będzie zawierał nazwy obrazów
 System.Collections.ArrayList imageNames = new System.Collections.ArrayList(doc.Pages[1].Resources.Images.Names);
 ```
- Ten`defaultResolution` zmienna pomaga nam poprawnie obliczyć rozdzielczość obrazów.`graphicsState`Stos służy do przechowywania bieżącego stanu graficznego dokumentu w przypadku napotkania operatorów transformacji.
+Ten `defaultResolution` zmienna pomaga nam poprawnie obliczyć rozdzielczość obrazów. `graphicsState` Stos służy do przechowywania bieżącego stanu graficznego dokumentu w przypadku napotkania operatorów transformacji.
 
 ## Krok 3: Przetwórz każdego operatora na stronie
 
@@ -93,7 +95,7 @@ else if (opRestoreState != null)
     graphicsState.Pop();
 }
 ```
-`GSave` zapisuje aktualny stan graficzny, podczas gdy`GRestore` przywraca ostatnio zapisany stan, umożliwiając cofnięcie wszelkich transformacji podczas przetwarzania obrazów.
+`GSave` zapisuje aktualny stan graficzny, podczas gdy `GRestore` przywraca ostatnio zapisany stan, umożliwiając cofnięcie wszelkich transformacji podczas przetwarzania obrazów.
 
 ## Krok 5: Zarządzaj macierzami transformacji
 
@@ -154,20 +156,22 @@ Gratulacje! Właśnie stworzyłeś działający przykład wyodrębniania informa
 ### Czym jest biblioteka Aspose.PDF?
 Biblioteka Aspose.PDF to potężne narzędzie do tworzenia, edytowania i konwertowania plików PDF w aplikacjach .NET.
 
-### Czy mogę korzystać z biblioteki bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+### Czy mogę korzystać z biblioteki za darmo?
+Tak, Aspose oferuje bezpłatną wersję próbną. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Jakie typy formatów obrazów można wyodrębnić?
 Biblioteka obsługuje różne formaty obrazów, w tym JPEG, PNG i TIFF, pod warunkiem, że są osadzone w pliku PDF.
 
 ### Czy Aspose jest używany w celach komercyjnych?
- Tak, możesz używać produktów Aspose komercyjnie. Aby uzyskać licencję, odwiedź stronę[strona zakupu](https://purchase.aspose.com/buy).
+Tak, możesz używać produktów Aspose komercyjnie. Aby uzyskać licencję, odwiedź stronę [strona zakupu](https://purchase.aspose.com/buy).
 
 ### Jak uzyskać wsparcie dla Aspose?
- Możesz uzyskać dostęp do forum wsparcia[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać dostęp do forum wsparcia [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

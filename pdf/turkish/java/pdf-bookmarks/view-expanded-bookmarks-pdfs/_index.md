@@ -1,14 +1,16 @@
 ---
-title: PDF'lerde Genişletilmiş Yer İşaretlerini Görüntüle
-linktitle: PDF'lerde Genişletilmiş Yer İşaretlerini Görüntüle
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF'yi kullanarak PDF'lerde genişletilmiş yer imlerini nasıl görüntüleyeceğinizi öğrenin. Adım adım kılavuzla belge gezinmesini geliştirin.
-weight: 14
-url: /tr/java/pdf-bookmarks/view-expanded-bookmarks-pdfs/
+"description": "Java için Aspose.PDF'yi kullanarak PDF'lerde genişletilmiş yer imlerini nasıl görüntüleyeceğinizi öğrenin. Adım adım kılavuzla belge gezinmesini geliştirin."
+"linktitle": "PDF'lerde Genişletilmiş Yer İşaretlerini Görüntüle"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF'lerde Genişletilmiş Yer İşaretlerini Görüntüle"
+"url": "/tr/java/pdf-bookmarks/view-expanded-bookmarks-pdfs/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'lerde Genişletilmiş Yer İşaretlerini Görüntüle
@@ -33,7 +35,7 @@ Java için Aspose.PDF, geliştiricilerin PDF belgeleriyle çok yönlü bir şeki
 ## Adım Adım Kılavuz
 
 ### Adım 1: Kurulum
- Başlamadan önce, geliştirme ortamınızda Aspose.PDF for Java'nın yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/).
+Başlamadan önce, geliştirme ortamınızda Java için Aspose.PDF'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/).
 
 ### Adım 2: Kütüphaneyi İçe Aktarma
 Java projenizde Aspose.PDF kütüphanesini içe aktarın. İşte bunu nasıl yapacağınıza dair basit bir örnek:
@@ -56,7 +58,7 @@ Document pdfDocument = new Document("sample.pdf");
 pdfDocument.setPageMode(PageMode.UseOutlines);
 ```
 
-### Adım 5: Değiştirilmiş PDF'yi Kaydetme
+### Adım 5: Değiştirilen PDF'yi Kaydetme
 Son olarak, değiştirilmiş PDF'yi kaydedin:
 
 ```java
@@ -71,13 +73,13 @@ Bu makalede, PDF belgelerinde genişletilmiş yer imlerinin önemini ve Aspose.P
 
 ### Java için Aspose.PDF'yi nasıl indirebilirim?
 
- Java için Aspose.PDF'yi şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/pdf/java/).
+Java için Aspose.PDF'yi şu adresten indirebilirsiniz: [bu bağlantı](https://releases.aspose.com/pdf/java/).
 
 ### Aspose.PDF for Java'yı ticari projelerde kullanabilir miyim?
 
 Evet, Aspose.PDF for Java ticari kullanıma açıktır, ancak lütfen belirli ayrıntılar için lisans koşullarını inceleyin.
 
-### Java için Aspose.PDF'e alternatif var mı?
+### Java için Aspose.PDF'e alternatifler var mı?
 
 Evet, Java'da PDF'lerle çalışmak için Apache PDFBox ve iText gibi başka kütüphaneler ve araçlar da mevcuttur.
 
@@ -88,9 +90,11 @@ Evet, Aspose.PDF for Java, yer imlerinin görünümünü ve davranışını ihti
 ### Aspose.PDF'in Java için deneme sürümü var mı?
 
 Evet, satın alma kararı vermeden önce Aspose.PDF for Java'nın ücretsiz değerlendirme sürümünü deneyebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

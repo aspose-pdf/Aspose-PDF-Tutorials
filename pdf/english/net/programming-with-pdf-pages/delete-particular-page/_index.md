@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/delete-particular-page/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete Particular Page In PDF File
@@ -123,6 +125,7 @@ Once a page is deleted and the file is saved, you cannot restore it. Ensure you 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

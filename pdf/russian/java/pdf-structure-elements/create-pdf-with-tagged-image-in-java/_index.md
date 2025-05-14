@@ -1,14 +1,16 @@
 ---
-title: Создать PDF с тегированным изображением на Java
-linktitle: Создать PDF с тегированным изображением на Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как создавать доступные тегированные изображения PDF в Java с помощью Aspose.PDF для Java. Следуйте нашему пошаговому руководству для бесшовной генерации PDF.
-weight: 13
-url: /ru/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/
+"description": "Узнайте, как создавать доступные тегированные изображения PDF в Java с помощью Aspose.PDF для Java. Следуйте нашему пошаговому руководству для бесшовной генерации PDF."
+"linktitle": "Создать PDF с тегированным изображением на Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Создать PDF с тегированным изображением на Java"
+"url": "/ru/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать PDF с тегированным изображением на Java
@@ -22,9 +24,9 @@ url: /ru/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/
 
 Прежде чем углубляться в код, убедитесь, что выполнены следующие предварительные условия:
 
--  Java Development Kit (JDK): Вам необходимо установить Java в вашей системе. Вы можете загрузить его с[Веб-сайт Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Вам необходимо установить Java в вашей системе. Вы можете загрузить его с [Веб-сайт Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
--  Aspose.PDF для Java: У вас должна быть библиотека Aspose.PDF для Java. Вы можете загрузить ее с[Сайт Aspose](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF для Java: У вас должна быть библиотека Aspose.PDF для Java. Вы можете загрузить ее с [Сайт Aspose](https://releases.aspose.com/pdf/java/).
 
 ## Настройка вашего проекта
 
@@ -72,7 +74,7 @@ pdfDocument.save("tagged_image.pdf");
 
 ## Заключение
 
-Создание PDF-файлов с тегами изображений в Java с использованием Aspose.PDF для Java — простой процесс. Эта библиотека упрощает задачу добавления изображений в документы PDF и обеспечивает их правильную тегировку для обеспечения доступности.
+Создание PDF-файлов с тегами изображений в Java с помощью Aspose.PDF для Java — простой процесс. Эта библиотека упрощает задачу добавления изображений в документы PDF и гарантирует, что они будут правильно тегированы для обеспечения доступности.
 
 ## Часто задаваемые вопросы
 
@@ -80,7 +82,7 @@ pdfDocument.save("tagged_image.pdf");
 
 Чтобы установить Aspose.PDF для Java, выполните следующие действия:
 
-1.  Загрузите библиотеку с сайта[Сайт Aspose](https://releases.aspose.com/pdf/java/).
+1. Загрузите библиотеку с сайта [Сайт Aspose](https://releases.aspose.com/pdf/java/).
 
 2. Добавьте загруженный JAR-файл в classpath вашего проекта Java.
 
@@ -92,7 +94,7 @@ Aspose.PDF для Java — это коммерческая библиотека,
 
 ### Можно ли добавить альтернативный текст к помеченным изображениям в PDF-файле?
 
-Да, вы можете добавить альтернативный текст (alt text) к тегированным изображениям в PDF с помощью Aspose.PDF для Java. Это необходимо для обеспечения доступности.
+Да, вы можете добавить альтернативный текст (alt text) к помеченным изображениям в PDF с помощью Aspose.PDF для Java. Это необходимо для обеспечения доступности.
 
 ### Существуют ли другие библиотеки для работы с PDF-файлами в Java?
 
@@ -100,10 +102,12 @@ Aspose.PDF для Java — это коммерческая библиотека,
 
 ### Где я могу найти дополнительную документацию по Aspose.PDF для Java?
 
- Подробную документацию по Aspose.PDF для Java можно найти на сайте[Сайт документации Aspose](https://reference.aspose.com/pdf/java/).
+Подробную документацию по Aspose.PDF для Java можно найти на сайте [Сайт документации Aspose](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

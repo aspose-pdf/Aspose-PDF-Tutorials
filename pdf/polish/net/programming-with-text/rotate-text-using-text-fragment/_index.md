@@ -1,14 +1,16 @@
 ---
-title: Obróć tekst za pomocą fragmentu tekstu w pliku PDF
-linktitle: Obróć tekst za pomocą fragmentu tekstu w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak obracać tekst w plikach PDF za pomocą Aspose.PDF dla .NET, korzystając z przewodnika krok po kroku. Odkryj techniki manipulacji tekstem, od pozycjonowania po obracanie.
-weight: 390
-url: /pl/net/programming-with-text/rotate-text-using-text-fragment/
+"description": "Dowiedz się, jak obracać tekst w plikach PDF za pomocą Aspose.PDF dla .NET, korzystając z przewodnika krok po kroku. Odkryj techniki manipulacji tekstem, od pozycjonowania po obracanie."
+"linktitle": "Obróć tekst za pomocą fragmentu tekstu w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Obróć tekst za pomocą fragmentu tekstu w pliku PDF"
+"url": "/pl/net/programming-with-text/rotate-text-using-text-fragment/"
+"weight": 390
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obróć tekst za pomocą fragmentu tekstu w pliku PDF
@@ -56,7 +58,7 @@ Teraz przeanalizujemy przykładowy kod krok po kroku, dzięki czemu będziesz m�
 
 Każda manipulacja PDF zaczyna się od utworzenia lub załadowania dokumentu PDF. Tutaj zainicjujemy nowy dokument PDF od podstaw za pomocą Aspose.PDF.
 
- Tworzymy nowy`Document` obiekt, który reprezentuje plik PDF. Początkowo ten dokument jest pusty.
+Tworzymy nowy `Document` obiekt, który reprezentuje plik PDF. Początkowo ten dokument jest pusty.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -125,7 +127,7 @@ textFragment3.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 textFragment3.TextState.Rotation = 90;
 ```
 
-tym przypadku obrót wynosi 90 stopni.
+W tym przypadku obrót wynosi 90 stopni.
 
 ## Krok 5: Dołącz fragmenty tekstu do strony PDF
 
@@ -160,10 +162,10 @@ Obrót tekstu w pliku PDF może dodać Twoim dokumentom profesjonalnego charakte
 ## Najczęściej zadawane pytania
 
 ### Czy mogę obracać fragmenty tekstu pod dowolnym kątem?
- Tak! Możesz ustawić`TextState.Rotation` właściwość umożliwiająca obrót tekstu pod dowolnym kątem (nawet pod kątem ujemnym) w razie potrzeby.
+Tak! Możesz ustawić `TextState.Rotation` właściwość umożliwiająca obrót tekstu pod dowolnym kątem (nawet pod kątem ujemnym) w razie potrzeby.
 
 ### Czy mogę użyć różnych czcionek dla każdego fragmentu tekstu?
- Oczywiście. Możesz dostosować czcionkę każdego fragmentu tekstu za pomocą`FontRepository.FindFont` i podaj czcionkę, którą chcesz zastosować.
+Oczywiście. Możesz dostosować czcionkę każdego fragmentu tekstu za pomocą `FontRepository.FindFont` i podaj czcionkę, którą chcesz zastosować.
 
 ### Czy Aspose.PDF obsługuje wielostronicowe pliki PDF?
 Tak, do dokumentu PDF możesz dodać wiele stron i niezależnie nimi manipulować.
@@ -173,9 +175,11 @@ Nie, możesz dodać tyle fragmentów tekstu, ile potrzebujesz. Upewnij się tylk
 
 ### Czy mogę modyfikować fragmenty tekstu po ich dołączeniu?
 Tak, po dodaniu fragmentu tekstu nadal możesz aktualizować jego właściwości lub usunąć go ze strony.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

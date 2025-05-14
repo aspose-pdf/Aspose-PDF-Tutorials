@@ -1,28 +1,30 @@
 ---
-title: Osadź standardowe czcionki Type 1 w pliku PDF
-linktitle: Osadź standardowe czcionki Type 1 w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak osadzać czcionki Standard Type 1 w plikach PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku, aby poprawić dostępność dokumentu.
-weight: 140
-url: /pl/net/programming-with-text/embed-standard-type-1fonts/
+"description": "Dowiedz się, jak osadzać czcionki Standard Type 1 w plikach PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku, aby poprawić dostępność dokumentu."
+"linktitle": "Osadź standardowe czcionki Type 1 w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Osadź standardowe czcionki Type 1 w pliku PDF"
+"url": "/pl/net/programming-with-text/embed-standard-type-1fonts/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Osadź standardowe czcionki Type 1 w pliku PDF
 
 ## Wstęp
 
-naszym cyfrowym świecie pliki PDF są jednym z najbardziej rozpowszechnionych typów plików. Są szeroko stosowane do wszystkiego, od prac naukowych po umowy biznesowe. Czy jednak zdarzyło Ci się otworzyć plik PDF i stwierdzić, że tekst wygląda dziwnie lub jest pomieszany? Często zdarza się to, gdy wymagane czcionki nie są osadzone w dokumencie. Na szczęście Aspose.PDF dla .NET umożliwia bezproblemowe osadzanie czcionek Standard Type 1, zapewniając, że Twój plik PDF wygląda dokładnie tak, jak zamierzano na każdym urządzeniu. W tym przewodniku przedstawimy kroki osadzania czcionek w dokumentach PDF za pomocą Aspose.PDF dla .NET, dzięki czemu Twoje dokumenty będą bardziej dostępne i spójne na różnych platformach.
+naszym cyfrowym świecie pliki PDF są jednym z najbardziej rozpowszechnionych typów plików. Są szeroko stosowane do wszystkiego, od prac naukowych po umowy biznesowe. Czy jednak zdarzyło Ci się otworzyć plik PDF tylko po to, aby stwierdzić, że tekst wygląda dziwnie lub jest pomieszany? Często zdarza się to, gdy wymagane czcionki nie są osadzone w dokumencie. Na szczęście Aspose.PDF dla .NET umożliwia bezproblemowe osadzanie czcionek Standard Type 1, zapewniając, że Twój plik PDF wygląda dokładnie tak, jak zamierzano na każdym urządzeniu. W tym przewodniku przedstawimy kroki osadzania czcionek w dokumentach PDF za pomocą Aspose.PDF dla .NET, dzięki czemu Twoje dokumenty będą bardziej dostępne i spójne na różnych platformach.
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w szczegóły dotyczące osadzania czcionek w plikach PDF, należy spełnić kilka warunków wstępnych:
 
 1. Podstawowa znajomość języka C#: Istotne jest, aby znać podstawy programowania w języku C#. Jeśli znasz podstawy tego języka, to dobry początek.
-2. Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Jeśli jeszcze tego nie zrobiłeś, nie martw się! Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/). 
+2. Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Jeśli jeszcze tego nie zrobiłeś, nie martw się! Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/). 
 3. Środowisko programistyczne: Zalecane jest środowisko programistyczne, takie jak Visual Studio. Umożliwi Ci to wydajne pisanie, testowanie i uruchamianie kodu C#.
 4. Istniejący dokument PDF: Upewnij się, że posiadasz istniejący dokument PDF, z którym możesz pracować i który będzie służył jako plik bazowy do osadzania czcionek.
 
@@ -51,21 +53,21 @@ Pierwszą rzeczą, którą będziesz chciał zrobić, jest określenie ścieżki
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Po prostu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze.
+Po prostu zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze.
 
 ## Krok 2: Załaduj istniejący dokument PDF
 
- Teraz, gdy wskazałeś katalog, czas załadować istniejący dokument PDF. Można to zrobić za pomocą`Document` klasa z biblioteki Aspose.PDF:
+Teraz, gdy wskazałeś katalog, czas załadować istniejący dokument PDF. Można to zrobić za pomocą `Document` klasa z biblioteki Aspose.PDF:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Ten wiersz tworzy nową instancję`Document` klasa, ładowanie określonego pliku PDF. Upewnij się, że`"input.pdf"` pasuje do nazwy Twojego pliku PDF.
+Ten wiersz tworzy nową instancję `Document` klasa, ładowanie określonego pliku PDF. Upewnij się, że `"input.pdf"` pasuje do nazwy Twojego pliku PDF.
 
 ## Krok 3: Ustaw właściwość EmbedStandardFonts
 
- Po załadowaniu dokumentu jesteś prawie gotowy do osadzenia tych czcionek. Następnym krokiem jest ustawienie`EmbedStandardFonts` właściwość dokumentu na true. To mówi Aspose.PDF, aby osadzić czcionki Standard Type 1 w dokumencie. 
+Po załadowaniu dokumentu jesteś prawie gotowy do osadzenia tych czcionek. Następnym krokiem jest ustawienie `EmbedStandardFonts` właściwość dokumentu na true. To mówi Aspose.PDF, aby osadzić czcionki Standard Type 1 w dokumencie. 
 
 ```csharp
 pdfDocument.EmbedStandardFonts = true;
@@ -97,7 +99,7 @@ foreach (Aspose.Pdf.Page page in pdfDocument.Pages)
 Oto, co dzieje się w tym bloku kodu:
 - Przeglądasz każdą stronę pliku PDF.
 - Na każdej stronie sprawdzasz, czy w zasobach znajdują się jakieś czcionki.
--  Następnie przechodzisz przez każdą czcionkę i sprawdzasz, czy jest osadzona. Jeśli nie, ustawiasz jej`IsEmbedded` właściwość na true.
+- Następnie przechodzisz przez każdą czcionkę i sprawdzasz, czy jest osadzona. Jeśli nie, ustawiasz jej `IsEmbedded` właściwość na true.
 
 ## Krok 5: Zapisz zaktualizowany dokument PDF
 
@@ -109,7 +111,7 @@ pdfDocument.Save(dataDir + "EmbeddedFonts-updated_out.pdf");
 
 Ta linia zapisuje zaktualizowany dokument pod nową nazwą, zapewniając, że nie nadpiszesz oryginalnego pliku. Zawsze dobrym pomysłem jest zachowanie kopii oryginału, na wszelki wypadek!
 
-masz to! W zaledwie kilku prostych krokach nauczyłeś się, jak osadzać czcionki Standard Type 1 w pliku PDF przy użyciu Aspose.PDF dla .NET. Twoje dokumenty są teraz gotowe do udostępniania bez obaw o problemy z renderowaniem tekstu.
+I masz to! W zaledwie kilku prostych krokach nauczyłeś się, jak osadzać czcionki Standard Type 1 w pliku PDF przy użyciu Aspose.PDF dla .NET. Twoje dokumenty są teraz gotowe do udostępniania bez obaw o problemy z renderowaniem tekstu.
 
 ## Wniosek
 
@@ -121,19 +123,21 @@ Osadzanie czcionek w dokumentach PDF jest niezbędne do zachowania integralnośc
 Standardowe czcionki typu 1 to zestaw czcionek zdefiniowanych przez Adobe. Obejmują one popularne czcionki, takie jak Times, Helvetica i Courier.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF?
- Możesz zacząć od bezpłatnego okresu próbnego, ale do dłuższego użytkowania wymagana jest płatna licencja. Dowiedz się więcej[Tutaj](https://purchase.aspose.com/buy).
+Możesz zacząć od bezpłatnego okresu próbnego, ale do dłuższego użytkowania wymagana jest płatna licencja. Dowiedz się więcej [Tutaj](https://purchase.aspose.com/buy).
 
 ### Jak mogę sprawdzić, czy czcionka jest już osadzona w pliku PDF?
- Sprawdzając`IsEmbedded`właściwość czcionki w pliku PDF za pomocą Aspose.PDF.
+Sprawdzając `IsEmbedded` właściwość czcionki w pliku PDF za pomocą Aspose.PDF.
 
 ### Czy istnieje możliwość osadzania innych typów czcionek?
 Tak! Aspose.PDF obsługuje osadzanie różnych typów czcionek poza Standard Type 1. Sprawdź dokumentację, aby uzyskać więcej szczegółów.
 
 ###5. Gdzie mogę znaleźć pomoc, jeśli napotkam problemy?
- Pomoc dotyczącą produktów Aspose można znaleźć na ich stronie[forum wsparcia](https://forum.aspose.com/c/pdf/10).
+Pomoc dotyczącą produktów Aspose można znaleźć na ich stronie [forum wsparcia](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

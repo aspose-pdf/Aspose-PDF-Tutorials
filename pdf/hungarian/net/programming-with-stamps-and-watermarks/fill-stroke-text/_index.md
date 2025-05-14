@@ -1,36 +1,38 @@
 ---
-title: Töltse ki a körvonal szövegét PDF-fájlban
-linktitle: Töltse ki a körvonal szövegét PDF-fájlban
-second_title: Aspose.PDF for .NET API Reference
-description: Ebből a gyakorlati példákat tartalmazó, lépésenkénti útmutatóból megtudhatja, hogyan töltsön ki könnyedén PDF-fájlok körvonalas szövegét az Aspose.PDF for .NET segítségével.
-weight: 90
-url: /hu/net/programming-with-stamps-and-watermarks/fill-stroke-text/
+"description": "Tanuld meg, hogyan tölthetsz ki könnyedén körvonalas szöveget PDF fájlokban az Aspose.PDF for .NET segítségével ezzel a gyakorlati példákat is tartalmazó, lépésről lépésre szóló útmutatóval."
+"linktitle": "Kitöltési körvonal szövege PDF fájlban"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Kitöltési körvonal szövege PDF fájlban"
+"url": "/hu/net/programming-with-stamps-and-watermarks/fill-stroke-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Töltse ki a körvonal szövegét PDF-fájlban
+# Kitöltési körvonal szövege PDF fájlban
 
 ## Bevezetés
 
-Szeretett volna már úgy módosítani egy PDF-fájlt, hogy kiemelkedjen? Lehet, hogy egy feltűnő vízjelet vagy egy félkövér bélyegzőt kell hozzáadnia, amely egy fontos dokumentumot összetéveszthetetlenül a magáévá tesz. A .NET-hez készült Aspose.PDF segítségével könnyedén kitöltheti a körvonalas szöveget egy PDF-fájlban, és művészi hangulatot ad hozzá, amely megragadja a figyelmet. A mai oktatóanyagban ennek a folyamatát mutatjuk be – a körvonalas szöveg kitöltését PDF-be C# használatával. A végére alaposan meg fogja tudni, hogyan kell profi módon kezelni a PDF-fájlokat.
+Szerettél volna már módosítani egy PDF-fájlt, hogy kitűnjön? Talán egy feltűnő vízjelet vagy egy félkövér bélyegzőt kell hozzáadnod, amely egy fontos dokumentumot félreérthetetlenül a tiéddé tesz. Az Aspose.PDF for .NET segítségével könnyedén kitöltheted a PDF-fájlokban a körvonalas szöveget, és szemet gyönyörködtető művészi hatást kölcsönözhetsz nekik. A mai oktatóanyagban végigvezetünk a folyamaton, hogyan kell kitölteni a körvonalas szöveget egy PDF-ben C# használatával. A végére szilárd ismeretekkel fogsz rendelkezni arról, hogyan kell profi módon manipulálni a PDF-fájlokat.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódolásba, van néhány dolog, amit meg kell tennie, hogy ez az oktatóanyag gyerekjáték legyen:
+Mielőtt belevágnánk a kódolásba, van néhány dolog, amire szükséged lesz, hogy ez az oktatóanyag gyerekjáték legyen:
 
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépén, mivel mi fogunk C# kódot írni.
-2.  Aspose.PDF könyvtár: Győződjön meg arról, hogy letöltötte az Aspose.PDF for .NET könyvtárat. Megfoghatod[itt](https://releases.aspose.com/pdf/net/).
-3. A C# alapismeretei: A C# programozás ismerete segít az oktatóanyag könnyebb megértésében.
-4. Minta PDF fájl: Szüksége lesz egy minta PDF fájlra (`input.pdf`tesztelési célból. Létrehozhat egy egyszerűt, vagy használhat bármilyen meglévő PDF-et.
+1. Visual Studio: Győződj meg róla, hogy a Visual Studio telepítve van a gépeden, mivel C# kódot fogunk írni.
+2. Aspose.PDF könyvtár: Győződjön meg róla, hogy letöltötte az Aspose.PDF for .NET könyvtárat. A következőből könnyen letöltheti: [itt](https://releases.aspose.com/pdf/net/).
+3. C# alapismeretek: A C# programozással való ismeret segít könnyebben megérteni a bemutatót.
+4. Minta PDF fájl: Szükséged lesz egy minta PDF fájlra (`input.pdf`) tesztelési célokra. Létrehozhatsz egy egyszerűt, vagy használhatsz bármilyen meglévő PDF-et.
 
-Most, hogy minden a helyén van, kezdjük el a PDF-fájlban lévő körvonalas szövegek kitöltésének aprólékos dolgait.
+Most, hogy minden a helyén van, nézzük meg a PDF-fájlban lévő körvonalas szöveg kitöltésének apró részleteit.
 
 ## Csomagok importálása
 
-A kezdéshez importálnunk kell a szükséges csomagokat. Íme egy rövid áttekintés a projektünkhöz szükséges legfontosabb importtermékekről:
+Kezdésként importálnunk kell a szükséges csomagokat. Íme egy rövid áttekintés a projektünkhöz elengedhetetlen importálási elemekről:
 
 ```csharp
 using Aspose.Pdf.Text;
@@ -42,90 +44,90 @@ using System.Text;
 
 Ezek a csomagok lehetővé teszik számunkra az Aspose.PDF könyvtár robusztus funkcióinak használatát.
 
-Bontsuk le a fő feladatot egyértelmű lépésekre. Az alábbi lépések követésével könnyedén kitöltheti a körvonalas szöveget a PDF-fájlokba. 
+Bontsuk le a fő feladatot világos lépésekre. Ezeket a lépéseket követve könnyedén kitöltheted a PDF-fájljaidat körvonalas szöveggel. 
 
-## 1. lépés: Állítsa be környezetét
+## 1. lépés: Állítsa be a környezetét
 
-Először győződjön meg arról, hogy mindent megfelelően beállított a Visual Studio projektben. Hozzon létre egy új projektet, vagy válasszon egy meglévőt. Ha segítségre van szüksége, a következőképpen teheti meg:
+Először is győződjön meg arról, hogy minden megfelelően van beállítva a Visual Studio projektben. Hozzon létre egy új projektet, vagy válasszon egy meglévőt. Ha segítségre van szüksége, tegye a következőket:
 
-1. Nyissa meg a Visual Studio-t.
-2. Hozzon létre egy új C# projektet (pl. konzolalkalmazást).
-3. Kattintson a jobb gombbal a projektre a Solution Explorerben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
-4.  Keressen rá`Aspose.PDF` és telepítse.
+1. Nyisd meg a Visual Studio-t.
+2. Hozz létre egy új C# projektet (pl. Console Application).
+3. Kattintson jobb gombbal a projektre a Megoldáskezelőben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
+4. Keresés `Aspose.PDF` és telepítse.
 
-## 2. lépés: Határozza meg a dokumentumkönyvtárat
+## 2. lépés: Dokumentumkönyvtár meghatározása
 
-Minden útnak szüksége van egy kiindulási pontra, és esetünkben ez a dokumentumok könyvtára, ahol a bemeneti és kimeneti fájlok találhatók. 
+Minden utazásnak szüksége van egy kiindulópontra, és esetünkben ez a dokumentumok könyvtára, ahol a bemeneti és kimeneti fájlok találhatók. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal, ahol a bevitt PDF-fájl található. 
+Csere `"YOUR DOCUMENT DIRECTORY"` a bemeneti PDF-fájl tényleges elérési útjával. 
 
 ## 3. lépés: Hozza létre a TextState objektumot
 
-Ebben a lépésben kezdheti meg a hozzáadni kívánt szöveg tulajdonságainak meghatározását. 
+Ebben a lépésben kezdjük el meghatározni a hozzáadni kívánt szöveg tulajdonságait. 
 
 ```csharp
 TextState ts = new TextState();
 ```
 
- A`TextState` objektum fogja tartani a körvonal szövegének stílusbeállításait.
+A `TextState` Az objektum a ecsetvonás szövegének stílusbeállításait fogja tartalmazni.
 
-## 4. lépés: Állítsa be a Stroke színét
+## 4. lépés: Állítsa be a körvonal színét
 
-Ezután meg kell határoznia a szöveg körvonalának színét. 
+Ezután meg kell határoznod a szöveg ecsetvonásának színét. 
 
 ```csharp
 ts.StrokingColor = Color.Gray;
 ```
 
-Ebben a kódban szürke színt használunk a körvonalhoz. Nyugodtan változtassa meg a színt igényeinek megfelelően!
+Ebben a kódban szürke színt használunk a körvonalhoz. Nyugodtan változtasd meg a színt az igényeidnek megfelelően!
 
-## 5. lépés: A Rendering Mode konfigurálása
+## 5. lépés: Renderelési mód konfigurálása
 
-Annak érdekében, hogy a szöveg a kívánt módon jelenjen meg, állítsa be a megjelenítési módot:
+Annak érdekében, hogy a szöveg a kívánt módon jelenjen meg, állítsa be a renderelési módot:
 
 ```csharp
 ts.RenderingMode = TextRenderingMode.StrokeText;
 ```
 
-Ez arra utasítja az Aspose könyvtárat, hogy körvonalas szöveggel dolgozunk.
+Ez utasítja az Aspose könyvtárat, hogy ecsetvonásos szöveggel dolgozunk.
 
-## 6. lépés: Töltse be a bevitt PDF-dokumentumot
+## 6. lépés: Töltse be a bemeneti PDF dokumentumot
 
-Most itt az ideje, hogy betöltse a módosítani kívánt PDF-fájlt. 
+Most itt az ideje betölteni a módosítani kívánt PDF fájlt. 
 
 ```csharp
 Facades.PdfFileStamp fileStamp = new Facades.PdfFileStamp(new Aspose.Pdf.Document(dataDir + "input.pdf"));
 ```
 
-Győződjön meg arról, hogy a bevitt PDF-et (`input.pdf`a korábbi lépésekben meghatározott dokumentumok könyvtárában található.
+Győződjön meg róla, hogy a bemeneti PDF (`input.pdf`) a korábbi lépésekben definiált dokumentumok könyvtárban található.
 
-## 7. lépés: Hozzon létre egy bélyegzőobjektumot
+## 7. lépés: Bélyegzőobjektum létrehozása
 
-Ezután hozzon létre egy bélyeget, amely a körvonal szövegét fogja tárolni. 
+Ezután hozzon létre egy bélyegzőt, amely a ecsetvonás szövegét fogja tartalmazni. 
 
 ```csharp
 Aspose.Pdf.Facades.Stamp stamp = new Aspose.Pdf.Facades.Stamp();
 ```
 
-Ez a bélyegző a szöveg átfedésére szolgál a PDF-en.
+Ezzel a bélyegzővel fogod a szöveget a PDF-re ráhelyezni.
 
-## 8. lépés: Határozza meg a bélyegzendő szöveget
+## 8. lépés: A bélyegezni kívánt szöveg meghatározása
 
-Meg kell adnia, hogy milyen szöveget kíván hozzáadni a PDF-hez:
+Meg kell adnia, hogy milyen szöveget szeretne hozzáadni a PDF-hez:
 
 ```csharp
 stamp.BindLogo(new Facades.FormattedText("PAID IN FULL", System.Drawing.Color.Gray, "Arial", Facades.EncodingType.Winansi, true, 78));
 ```
 
-Itt a „TELJES MEGFIZETÉS” az a szöveg, amelyet hozzáadunk a stílusjellemzőkkel együtt. Testreszabhatja igényei szerint!
+Itt a „TELJES ÖSSZEG FIZETVE” szöveget adjuk hozzá, a hozzá tartozó stílusjegyekkel együtt. Szabd testre az igényeid szerint!
 
-## 9. lépés: Kösse össze a szövegállapotot
+## 9. lépés: A szövegállapot kötése
 
- Most kösse be a`TextState` korábban definiáltad a bélyegzőhöz. 
+Most kösd meg a `TextState` amit korábban a bélyegzőhöz definiáltál. 
 
 ```csharp
 stamp.BindTextState(ts);
@@ -133,19 +135,19 @@ stamp.BindTextState(ts);
 
 Ez a lépés az összes stílust, például a színt és a renderelési módot alkalmazza a szövegre.
 
-## 10. lépés: Állítsa be a bélyegző pozícióját
+## 10. lépés: A bélyegző pozíciójának beállítása
 
-Határozza meg, hol jelenjen meg a bélyegzője a PDF-ben:
+Határozza meg, hogy a bélyegző hol jelenjen meg a PDF-ben:
 
 ```csharp
 stamp.SetOrigin(100, 100);
 ```
 
- Az érvek`(100, 100)` jelölje a szöveg eredetének X és Y koordinátáit (pontokban). Állítsa be ezeket az értékeket a szöveg tökéletes elhelyezéséhez!
+Az érvek `(100, 100)` Jelölje a szöveg origójának X és Y koordinátáit (pontokban). Módosítsa ezeket az értékeket a szöveg tökéletes pozicionálásához!
 
-## 11. lépés: Az átlátszatlanság és az elforgatás konfigurálása
+## 11. lépés: Az átlátszóság és az elforgatás konfigurálása
 
-Itt játszhat a szöveg megjelenésével:
+Itt játszhatsz a szöveg megjelenésével:
 
 ```csharp
 stamp.Opacity = 5;
@@ -153,52 +155,54 @@ stamp.BlendingSpace = Facades.BlendingColorSpace.DeviceRGB;
 stamp.Rotation = 45.0F;
 ```
 
-Ebben az esetben az átlátszatlanság érték és a 45 fokos elforgatási szög egyedi hangulatot ad a szövegnek. Nyugodtan módosítsa ezeket a beállításokat a különböző hatásokhoz.
+Ebben az esetben az átlátszóság és a 45 fokos elforgatási szög egyedi megjelenést kölcsönöz a szövegnek. Nyugodtan módosítsa ezeket a beállításokat különböző effektek eléréséhez.
 
-## 12. lépés: Adja hozzá a bélyegzőt a PDF-hez
+## 12. lépés: Bélyegző hozzáadása a PDF-hez
 
-Ez az a döntő lépés, amikor végre hozzáadjuk a körvonal szövegét tartalmazó bélyegzőnket a PDF-hez:
+Ez a döntő lépés, ahol végre hozzáadjuk a PDF-hez a bélyegzőnket, amely tartalmazza a körvonal szövegét:
 
 ```csharp
 fileStamp.AddStamp(stamp);
 ```
 
-És a szöveged készen áll a nyilatkozattételre!
+És ezzel a szöveged készen áll arra, hogy kijelentse magát!
 
 ## 13. lépés: Mentse el és zárja be a dokumentumot
 
-Végül mentse el a változtatásokat, és győződjön meg róla, hogy minden megfelelően meg van tisztítva. 
+Végül mentsd el a módosításokat, és győződj meg róla, hogy minden megfelelően ki van tisztítva. 
 
 ```csharp
 fileStamp.Save(dataDir + "output_out.pdf");
 fileStamp.Close();
 ```
 
- A körvonal szövegét tartalmazó újonnan módosított PDF-fájl a következő néven lesz elmentve`output_out.pdf` dokumentumkönyvtárában. 
+Az újonnan módosított, a körvonal szövegét tartalmazó PDF-fájl a következő néven lesz mentve: `output_out.pdf` a dokumentumok könyvtárában. 
 
 ## Következtetés
 
-És megvan! Ezeket az egyszerű lépéseket követve egyszerűen kitöltheti a körvonalas szöveget egy PDF-fájlban az Aspose.PDF for .NET segítségével. Legyen szó üzleti dokumentumokról vagy személyes projektekről, ez a technika lehetővé teszi, hogy egyedi árnyalatot adjon PDF-fájljaihoz, és minden papírkötegben kiemelkedjen.
+És íme! Ezeket az egyszerű lépéseket követve könnyedén kitöltheted a PDF fájlokban lévő körvonalas szöveget az Aspose.PDF for .NET segítségével. Akár üzleti dokumentumokról, akár személyes projektekről van szó, ez a technika lehetővé teszi, hogy egyedi megjelenést adj a PDF fájljaidnak, így azok kiemelkednek bármilyen papírhalomban.
 
 ## GYIK
 
-### Mi az Aspose.PDF for .NET?
-Az Aspose.PDF for .NET egy olyan könyvtár, amely lehetővé teszi a fejlesztők számára PDF-fájlok programozott létrehozását, kezelését és konvertálását.
+### Mi az Aspose.PDF .NET-hez?
+Az Aspose.PDF for .NET egy olyan könyvtár, amely lehetővé teszi a fejlesztők számára PDF fájlok programozott létrehozását, kezelését és konvertálását.
 
-### Használhatom ingyenesen az Aspose.PDF-et?
-Igen, az Aspose ingyenes próbaverziót kínál. Megkaphatod[itt](https://releases.aspose.com/).
+### Ingyenesen használhatom az Aspose.PDF fájlt?
+Igen, az Aspose ingyenes próbaverziót kínál. Letöltheted. [itt](https://releases.aspose.com/).
 
-### Fizetnem kell az engedélyért?
- Míg a könyvtár ingyenes próbaverzióval rendelkezik, ideiglenes licenc is vásárolható a címen[ezt a linket](https://purchase.aspose.com/temporary-license/).
+### Kell fizetnem a licencért?
+Bár a könyvtár ingyenes próbaverziót kínál, ideiglenes licenc is vásárolható a címen. [ezt a linket](https://purchase.aspose.com/temporary-license/).
 
 ### Hol találom a dokumentációt?
- Hozzáférhet a teljes dokumentációhoz[itt](https://reference.aspose.com/pdf/net/).
+A teljes dokumentációhoz hozzáférhet [itt](https://reference.aspose.com/pdf/net/).
 
-### Van-e támogatás, ha problémákba ütközöm?
- Teljesen! Támogatást kaphat az Aspose fórumon[itt](https://forum.aspose.com/c/pdf/10).
+### Van elérhető támogatás, ha problémákba ütközöm?
+Természetesen! Támogatást kaphatsz az Aspose fórumon. [itt](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

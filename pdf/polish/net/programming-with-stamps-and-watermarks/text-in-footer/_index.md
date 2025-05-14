@@ -1,14 +1,16 @@
 ---
-title: Tekst w stopce pliku PDF
-linktitle: Tekst w stopce pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak łatwo dodać tekst do stopki pliku PDF za pomocą Aspose.PDF dla .NET. Dołączony przewodnik krok po kroku dla bezproblemowej integracji.
-weight: 180
-url: /pl/net/programming-with-stamps-and-watermarks/text-in-footer/
+"description": "Dowiedz się, jak łatwo dodać tekst do stopki pliku PDF za pomocą Aspose.PDF dla .NET. Dołączony przewodnik krok po kroku dla bezproblemowej integracji."
+"linktitle": "Tekst w stopce pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Tekst w stopce pliku PDF"
+"url": "/pl/net/programming-with-stamps-and-watermarks/text-in-footer/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tekst w stopce pliku PDF
@@ -22,10 +24,10 @@ Czy chcesz dodać niestandardowy tekst w stopce pliku PDF za pomocą Aspose.PDF 
 
 Zanim przejdziemy do kodowania, upewnijmy się, że wszystko masz gotowe:
 
--  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowany Aspose.PDF dla .NET. Jeśli nie, możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Upewnij się, że masz zainstalowany Aspose.PDF dla .NET. Jeśli nie, możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 - IDE: Będziesz potrzebować środowiska programistycznego, np. Visual Studio.
 - Podstawowa znajomość języka C#: Wymagana jest podstawowa znajomość języka C# i .NET.
--  Licencja: Chociaż możesz używać Aspose.PDF w trybie ewaluacyjnym, aby uzyskać pełną funkcjonalność, rozważ nabycie licencji[bezpłatny okres próbny](https://releases.aspose.com/) lub ubiegania się o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+- Licencja: Chociaż możesz używać Aspose.PDF w trybie ewaluacyjnym, aby uzyskać pełną funkcjonalność, rozważ nabycie licencji [bezpłatny okres próbny](https://releases.aspose.com/) lub ubiegania się o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
@@ -48,22 +50,22 @@ Zanim zaczniesz pracować z plikami PDF, musisz określić ścieżkę do katalog
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tutaj zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu. Ten folder będzie zawierał oryginalny plik PDF i będzie również służył jako lokalizacja wyjściowa dla zmodyfikowanego pliku.
+Tutaj zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do folderu. Ten folder będzie zawierał oryginalny plik PDF i będzie również służył jako lokalizacja wyjściowa dla zmodyfikowanego pliku.
 
 ## Krok 2: Załaduj dokument PDF
 
- Następnym krokiem jest załadowanie pliku PDF do projektu.`Document` Klasa Aspose.PDF umożliwia otwieranie i modyfikowanie istniejących dokumentów PDF.
+Następnym krokiem jest załadowanie pliku PDF do projektu. `Document` Klasa Aspose.PDF umożliwia otwieranie i edytowanie istniejących dokumentów PDF.
 
 ```csharp
 // Otwórz dokument
 Document pdfDocument = new Document(dataDir + "TextinFooter.pdf");
 ```
 
- Tutaj,`TextinFooter.pdf` to plik, z którym pracujemy. Możesz zastąpić go własną nazwą pliku.
+Tutaj, `TextinFooter.pdf` to plik, z którym pracujemy. Możesz zastąpić go własną nazwą pliku.
 
 ## Krok 3: Utwórz tekst stopki
 
-Teraz utwórzmy tekst stopki, który będzie stemplowany na każdej stronie. Robi się to za pomocą`TextStamp` Klasa. Zdefiniowany przez Ciebie tekst będzie używany jako stopka dla wszystkich stron.
+Teraz utwórzmy tekst stopki, który będzie stemplowany na każdej stronie. Robi się to za pomocą `TextStamp` Klasa. Zdefiniowany przez Ciebie tekst będzie używany jako stopka dla wszystkich stron.
 
 ```csharp
 // Utwórz stopkę
@@ -74,7 +76,7 @@ W tym przypadku stworzyliśmy prosty tekst stopki, który brzmi „Tekst stopki�
 
 ## Krok 4: Ustaw właściwości stopki
 
- Aby prawidłowo umieścić stopkę, musimy dostosować niektóre właściwości, takie jak marginesy, wyrównanie i pozycjonowanie.`TextStamp` Klasa ta daje Ci pełną kontrolę nad tym, gdzie i w jaki sposób wyświetlany jest tekst stopki.
+Aby poprawnie umieścić stopkę, musimy dostosować niektóre właściwości, takie jak marginesy, wyrównanie i pozycjonowanie. `TextStamp` Klasa ta daje Ci pełną kontrolę nad tym, gdzie i w jaki sposób wyświetlany jest tekst stopki.
 
 ```csharp
 // Ustaw właściwości znaczka
@@ -83,7 +85,7 @@ textStamp.HorizontalAlignment = HorizontalAlignment.Center;
 textStamp.VerticalAlignment = VerticalAlignment.Bottom;
 ```
 
-Tutaj ustawiliśmy dolny margines na 10 jednostek, wyrównaliśmy tekst do środka w poziomie i umieściliśmy go na dole strony w pionie. Możesz dostosować te wartości w zależności od swoich konkretnych potrzeb układu.
+Tutaj ustawiliśmy dolny margines na 10 jednostek, wyrównaliśmy tekst do środka poziomo i umieściliśmy go na dole strony pionowo. Możesz dostosować te wartości w zależności od swoich konkretnych potrzeb układu.
 
 ## Krok 5: Zastosuj stopkę do wszystkich stron
 
@@ -109,7 +111,7 @@ dataDir = dataDir + "TextinFooter_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Zapisujemy plik pod nową nazwą,`TextinFooter_out.pdf`, w tym samym katalogu. Możesz zmienić jego nazwę, jeśli zajdzie taka potrzeba.
+Zapisujemy plik pod nową nazwą, `TextinFooter_out.pdf`, w tym samym katalogu. Możesz zmienić jego nazwę, jeśli zajdzie taka potrzeba.
 
 ## Krok 7: Potwierdź powodzenie
 
@@ -128,22 +130,24 @@ Dodanie stopki do dokumentu PDF za pomocą Aspose.PDF dla .NET to prosty i skute
 ## Najczęściej zadawane pytania
 
 ### Czy w pliku PDF mogę dodać inną stopkę do każdej strony?  
- Tak, możesz dodać unikalne stopki do każdej strony, określając różne`TextStamp` obiekty dla każdej strony.
+Tak, możesz dodać unikalne stopki do każdej strony, określając różne `TextStamp` obiekty dla każdej strony.
 
 ### Jak zmienić styl czcionki tekstu stopki?  
- Możesz dostosować tekst za pomocą`TextStamp.TextState` Właściwość umożliwiająca ustawienie czcionki, rozmiaru i koloru.
+Możesz dostosować tekst za pomocą `TextStamp.TextState` Właściwość umożliwiająca ustawienie czcionki, rozmiaru i koloru.
 
 ### Czy mogę dodać obrazy w stopce zamiast tekstu?  
- Tak, możesz użyć`ImageStamp` aby dodać obrazy do stopki pliku PDF.
+Tak, możesz użyć `ImageStamp` aby dodać obrazy do stopki pliku PDF.
 
 ### Czy można dodać stopkę tylko do wybranych stron?  
- Oczywiście! Możesz określić numery stron, na których chcesz umieścić stopkę, wybierając konkretne`Page` obiekty.
+Oczywiście! Możesz określić numery stron, na których chcesz umieścić stopkę, wybierając konkretne `Page` obiekty.
 
 ### Jak usunąć istniejącą stopkę z pliku PDF?  
- Możesz usunąć istniejące znaczki za pomocą`Page.DeleteStampById` metodą lub za pomocą`RemoveStamp` aby usunąć wszystkie znaczki.
+Możesz usunąć istniejące znaczki za pomocą `Page.DeleteStampById` metodą lub za pomocą `RemoveStamp` aby usunąć wszystkie znaczki.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

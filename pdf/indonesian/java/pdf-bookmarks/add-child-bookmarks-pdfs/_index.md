@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Bookmark Anak ke PDF
-linktitle: Tambahkan Bookmark Anak ke PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menyempurnakan dokumen PDF dengan penanda anak menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode untuk navigasi dan pengaturan yang lebih baik.
-weight: 11
-url: /id/java/pdf-bookmarks/add-child-bookmarks-pdfs/
+"description": "Pelajari cara menyempurnakan dokumen PDF dengan penanda anak menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode untuk navigasi dan pengaturan yang lebih baik."
+"linktitle": "Tambahkan Bookmark Anak ke PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Tambahkan Bookmark Anak ke PDF"
+"url": "/id/java/pdf-bookmarks/add-child-bookmarks-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Bookmark Anak ke PDF
@@ -23,7 +25,7 @@ Dalam artikel ini, kita akan membahas cara menambahkan penanda anak ke dokumen P
 Sebelum kita mulai menerapkannya, pastikan Anda telah memenuhi prasyarat berikut:
 
 - Lingkungan pengembangan Java terinstal pada sistem Anda.
--  Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Lingkungan
 
@@ -79,7 +81,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Tambahkan penanda anak ke Penanda Induk 2
+// Tambahkan penanda anak ke Penanda Induk 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -154,7 +156,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Tambahkan penanda anak ke Penanda Induk 2
+// Tambahkan penanda anak ke Penanda Induk 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -180,7 +182,7 @@ Menambahkan bookmark anak ke PDF menggunakan Aspose.PDF untuk Java merupakan fit
 
 ### Bagaimana cara mengunduh Aspose.PDF untuk Java?
 
- Anda dapat mengunduh Aspose.PDF untuk Java dari situs web[Di Sini](https://releases.aspose.com/pdf/java/).
+Anda dapat mengunduh Aspose.PDF untuk Java dari situs web [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ### Apakah penanda anak didukung di semua penampil PDF?
 
@@ -197,9 +199,11 @@ Selain tindakan "GoTo", Anda dapat menambahkan tindakan seperti tindakan "URI" u
 ### Apakah Aspose.PDF untuk Java cocok untuk proyek komersial?
 
 Ya, Aspose.PDF untuk Java cocok untuk proyek pribadi dan komersial, dan menawarkan berbagai fitur untuk manipulasi dan pembuatan PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Aspose.PDF Java: Edit PDF Bookmarks & Configure Viewer Settings
 
@@ -167,7 +169,11 @@ You now have the tools to edit bookmarks accurately, create precise navigation p
 - **Purchase**: [Buy Aspose.PDF License](https://purchase.aspose.com/buy)
 - **Free Trial**: [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Request Temporary License](https://purchase.aspose.com/temporary-license)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,20 +1,22 @@
 ---
-title: Tabele PDF
-linktitle: Tabele PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Przeglądaj tabele PDF za pomocą Aspose.PDF dla Java. Bez wysiłku twórz i manipuluj tabelami w dokumentach PDF.
-weight: 19
-url: /pl/java/pdf-tables/
+"description": "Przeglądaj tabele PDF za pomocą Aspose.PDF dla Java. Bez wysiłku twórz i manipuluj tabelami w dokumentach PDF."
+"linktitle": "Tabele PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Tabele PDF"
+"url": "/pl/java/pdf-tables/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabele PDF
 
 
-W świecie dokumentów PDF tabele są niezbędne do skutecznej prezentacji danych. Dzięki Aspose.PDF for Java opanowanie sztuki pracy z tabelami PDF nigdy nie było łatwiejsze. Nasze kompleksowe samouczki przeprowadzą Cię przez proces tworzenia, formatowania i ulepszania tabel w plikach PDF, wykorzystując jednocześnie moc Javy. Niezależnie od tego, czy jesteś programistą, który chce poprawić swoje umiejętności generowania dokumentów, czy po prostu chcesz tworzyć dobrze ustrukturyzowane tabele PDF, te samouczki wyposażą Cię w wiedzę i narzędzia potrzebne do osiągnięcia Twoich celów.
+świecie dokumentów PDF tabele są niezbędne do skutecznej prezentacji danych. Dzięki Aspose.PDF for Java opanowanie sztuki pracy z tabelami PDF nigdy nie było łatwiejsze. Nasze kompleksowe samouczki przeprowadzą Cię przez proces tworzenia, formatowania i ulepszania tabel w plikach PDF, wykorzystując jednocześnie moc Javy. Niezależnie od tego, czy jesteś programistą, który chce poprawić swoje umiejętności generowania dokumentów, czy po prostu chcesz tworzyć dobrze ustrukturyzowane tabele PDF, te samouczki wyposażą Cię w wiedzę i narzędzia potrzebne do osiągnięcia Twoich celów.
 
 ## Odblokuj moc tabel PDF
 
@@ -27,7 +29,7 @@ Poza podstawami nasze samouczki zagłębią się w zaawansowane techniki automat
 ## Samouczki dotyczące tabel PDF
 ### [Dodaj tabelę do istniejącego dokumentu PDF za pomocą Java](./add-table-in-existing-pdf-document-using-java/)
 Dowiedz się, jak dodawać tabele do istniejących dokumentów PDF za pomocą Java i Aspose.PDF dla Java. Przewodnik krok po kroku z przykładami kodu.
-### [Wymuś renderowanie tabeli na nowej stronie w PDF za pomocą Java](./force-table-rendering-on-new-page-in-pdf-using-java/)
+### [Wymuś renderowanie tabeli na nowej stronie w PDF przy użyciu Java](./force-table-rendering-on-new-page-in-pdf-using-java/)
 Dowiedz się, jak wymusić renderowanie tabeli na nowej stronie w pliku PDF za pomocą języka Java z Aspose.PDF. Ten przewodnik krok po kroku zawiera kod źródłowy i wskazówki ekspertów dotyczące precyzyjnego formatowania dokumentów PDF.
 ### [Ukryj rozciągniętą granicę komórki w pliku PDF za pomocą Java](./hide-spanned-cell-border-in-pdf-using-java/)
 Dowiedz się, jak ukryć rozciągnięte obramowania komórek w pliku PDF za pomocą języka Java, korzystając z samouczka krok po kroku dotyczącego pliku Aspose.PDF dla języka Java.
@@ -35,9 +37,11 @@ Dowiedz się, jak ukryć rozciągnięte obramowania komórek w pliku PDF za pomo
 Dowiedz się, jak manipulować tabelami PDF za pomocą Javy z Aspose.PDF dla Javy. Ten przewodnik krok po kroku obejmuje ekstrakcję tabeli, modyfikację i inne czynności w celu efektywnego przetwarzania PDF.
 ### [Usuwanie tabel z istniejącego pliku PDF za pomocą Java](./remove-tables-from-existing-pdf-using-java/)
 Dowiedz się, jak łatwo usuwać tabele z plików PDF za pomocą Javy z Aspose.PDF dla Javy. Przewodnik krok po kroku dotyczący wydajnego usuwania tabel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

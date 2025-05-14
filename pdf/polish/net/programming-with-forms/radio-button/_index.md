@@ -1,14 +1,16 @@
 ---
-title: Przycisk radiowy
-linktitle: Przycisk radiowy
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak tworzyć interaktywne przyciski radiowe w dokumentach PDF za pomocą Aspose.PDF dla .NET, korzystając z tego samouczka krok po kroku.
-weight: 220
-url: /pl/net/programming-with-forms/radio-button/
+"description": "Dowiedz się, jak tworzyć interaktywne przyciski radiowe w dokumentach PDF za pomocą Aspose.PDF dla .NET, korzystając z tego samouczka krok po kroku."
+"linktitle": "Przycisk radiowy"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Przycisk radiowy"
+"url": "/pl/net/programming-with-forms/radio-button/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przycisk radiowy
@@ -22,7 +24,7 @@ Tworzenie interaktywnych plików PDF może znacznie poprawić doświadczenia uż
 Zanim zagłębisz się w kod, musisz spełnić kilka warunków wstępnych:
 
 1. Visual Studio: Upewnij się, że masz zainstalowane Visual Studio na swoim komputerze. To będzie Twoje środowisko programistyczne.
-2.  Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[strona](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [strona](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
 ## Importuj pakiety
@@ -49,11 +51,11 @@ Najpierw musisz określić katalog, w którym zostanie zapisany Twój plik PDF. 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać plik PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać plik PDF.
 
 ## Krok 2: Utwórz obiekt dokumentu
 
- Następnie musisz utworzyć instancję`Document` klasa. Ta klasa reprezentuje Twój dokument PDF.
+Następnie musisz utworzyć instancję `Document` klasa. Ta klasa reprezentuje Twój dokument PDF.
 
 ```csharp
 Document pdfDocument = new Document();
@@ -73,7 +75,7 @@ Ten wiersz dodaje nową stronę do dokumentu PDF, przygotowując go do umieszcze
 
 ## Krok 4: Utwórz pole przycisku radiowego
 
- Teraz czas na utworzenie pola przycisku radiowego. Utworzysz instancję`RadioButtonField` obiekt i podaj numer strony, na której zostanie on umieszczony.
+Teraz czas na utworzenie pola przycisku radiowego. Utworzysz instancję `RadioButtonField` obiekt i podaj numer strony, na której zostanie on umieszczony.
 
 ```csharp
 RadioButtonField radio = new RadioButtonField(pdfDocument.Pages[1]);
@@ -90,7 +92,7 @@ radio.AddOption("Test", new Rectangle(0, 0, 20, 20));
 radio.AddOption("Test1", new Rectangle(20, 20, 40, 40));
 ```
 
- W tym przykładzie dodajemy dwie opcje: „Test” i „Test1”.`Rectangle` obiekt określa pozycję i rozmiar każdej opcji.
+W tym przykładzie dodajemy dwie opcje: „Test” i „Test1”. `Rectangle` obiekt określa pozycję i rozmiar każdej opcji.
 
 ## Krok 6: Dodaj przycisk radiowy do formularza dokumentu
 
@@ -136,19 +138,21 @@ Tworzenie przycisków radiowych w pliku PDF przy użyciu Aspose.PDF dla .NET to 
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do zapoznania się z funkcjami biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do zapoznania się z funkcjami biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.PDF?
- Możesz uzyskać pomoc odwiedzając stronę[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać pomoc odwiedzając stronę [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
-### Czy można utworzyć inne pola formularza za pomocą Aspose.PDF?
+### Czy można utworzyć inne pola formularza używając Aspose.PDF?
 Oczywiście! Aspose.PDF obsługuje różne pola formularzy, w tym pola tekstowe, pola wyboru i listy rozwijane.
 
 ### Gdzie mogę kupić Aspose.PDF dla .NET?
- Możesz zakupić licencję na Aspose.PDF[Tutaj](https://purchase.aspose.com/buy).
+Możesz zakupić licencję na Aspose.PDF [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

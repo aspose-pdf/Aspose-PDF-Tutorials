@@ -1,14 +1,16 @@
 ---
-title: รับข้อมูลสิ่งที่แนบมา
-linktitle: รับข้อมูลสิ่งที่แนบมา
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีรับข้อมูลแนบจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนที่ครอบคลุมนี้
-weight: 50
-url: /th/net/programming-with-attachments/get-attachment-info/
+"description": "เรียนรู้วิธีรับข้อมูลแนบจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนที่ครอบคลุมนี้"
+"linktitle": "รับข้อมูลสิ่งที่แนบมา"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "รับข้อมูลสิ่งที่แนบมา"
+"url": "/th/net/programming-with-attachments/get-attachment-info/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับข้อมูลสิ่งที่แนบมา
@@ -22,7 +24,7 @@ url: /th/net/programming-with-attachments/get-attachment-info/
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด มีบางสิ่งที่คุณต้องมี:
 
 1. Visual Studio: ตรวจสอบว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว ซึ่งจะเป็นสภาพแวดล้อมการพัฒนาของคุณ
-2. Aspose.PDF สำหรับ .NET: คุณต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 4. ตัวอย่างเอกสาร PDF: สำหรับบทช่วยสอนนี้ คุณจะต้องมีเอกสาร PDF ที่มีไฟล์ฝังอยู่ คุณสามารถสร้างเอกสารหรือดาวน์โหลดตัวอย่างจากอินเทอร์เน็ตได้
 
@@ -32,7 +34,7 @@ url: /th/net/programming-with-attachments/get-attachment-info/
 
 1. เปิดโครงการ Visual Studio ของคุณ
 2. คลิกขวาที่โครงการของคุณใน Solution Explorer และเลือก "จัดการแพ็คเกจ NuGet"
-3.  ค้นหา`Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
+3. ค้นหา `Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
 
 ```csharp
 using System.IO;
@@ -51,18 +53,18 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` โดยมีเส้นทางไปยังโฟลเดอร์เอกสารของคุณ นี่คือที่ที่ไฟล์ PDF ของคุณควรอยู่
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` โดยมีเส้นทางไปยังโฟลเดอร์เอกสารของคุณ นี่คือที่ที่ไฟล์ PDF ของคุณควรอยู่
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
- ตอนนี้เราได้ตั้งค่าไดเรกทอรีเรียบร้อยแล้ว ถึงเวลาเปิดเอกสาร PDF แล้ว ซึ่งทำได้โดยใช้`Document` คลาสที่จัดทำโดย Aspose.PDF
+ตอนนี้เราได้ตั้งค่าไดเรกทอรีเรียบร้อยแล้ว ถึงเวลาเปิดเอกสาร PDF แล้ว ซึ่งทำได้โดยใช้ `Document` คลาสที่จัดทำโดย Aspose.PDF
 
 ```csharp
 // เปิดเอกสาร
 Document pdfDocument = new Document(dataDir + "GetAttachmentInfo.pdf");
 ```
 
- ที่นี่เราสร้างอินสแตนซ์ใหม่ของ`Document` คลาสและส่งผ่านเส้นทางของไฟล์ PDF ของเรา ซึ่งจะทำให้เราสามารถโต้ตอบกับเนื้อหาของ PDF ได้
+ที่นี่เราสร้างอินสแตนซ์ใหม่ของ `Document` คลาสและส่งผ่านเส้นทางของไฟล์ PDF ของเรา ซึ่งจะทำให้เราสามารถโต้ตอบกับเนื้อหาของ PDF ได้
 
 ## ขั้นตอนที่ 3: เข้าถึงไฟล์ที่ฝังไว้
 
@@ -103,7 +105,7 @@ if (fileSpecification.Params != null)
 }
 ```
 
- ในขั้นตอนนี้เราจะตรวจสอบว่า`Params` วัตถุไม่ใช่ค่าว่าง หากมีข้อมูลอยู่ เราจะพิมพ์ค่าตรวจสอบ วันที่สร้าง วันที่แก้ไข และขนาดของไฟล์ ข้อมูลเพิ่มเติมนี้อาจมีประโยชน์มากสำหรับการตรวจสอบและติดตาม
+ในขั้นตอนนี้เราจะตรวจสอบว่า `Params` วัตถุไม่ใช่ค่าว่าง หากมีข้อมูลอยู่ เราจะพิมพ์ค่าตรวจสอบ วันที่สร้าง วันที่แก้ไข และขนาดของไฟล์ ข้อมูลเพิ่มเติมนี้อาจมีประโยชน์มากสำหรับการตรวจสอบและติดตาม
 
 ## บทสรุป
 
@@ -115,19 +117,21 @@ if (fileSpecification.Params != null)
 Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ .NET ได้อย่างไร?
- คุณสามารถติดตั้งได้ผ่านตัวจัดการแพ็คเกจ NuGet ใน Visual Studio หรือดาวน์โหลดจาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+คุณสามารถติดตั้งได้ผ่านตัวจัดการแพ็คเกจ NuGet ใน Visual Studio หรือดาวน์โหลดจาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้ประเมินไลบรารีได้ คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้ประเมินไลบรารีได้ คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.PDF ได้ที่ไหน
- คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/pdf/10).
+คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันสามารถฝังไฟล์ประเภทใดลงใน PDF ได้บ้าง?
 คุณสามารถฝังไฟล์ประเภทต่างๆ ได้ รวมถึงรูปภาพ เอกสาร และสเปรดชีต ตราบใดที่ไฟล์เหล่านั้นได้รับการรองรับโดยรูปแบบ PDF
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

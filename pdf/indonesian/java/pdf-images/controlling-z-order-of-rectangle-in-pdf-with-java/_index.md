@@ -1,14 +1,16 @@
 ---
-title: Mengontrol Urutan Z Persegi Panjang dalam PDF dengan Java
-linktitle: Mengontrol Urutan Z Persegi Panjang dalam PDF dengan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengontrol urutan Z persegi panjang dalam PDF dengan Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah untuk manipulasi PDF yang tepat.
-weight: 11
-url: /id/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/
+"description": "Pelajari cara mengontrol urutan Z persegi panjang dalam PDF dengan Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah untuk manipulasi PDF yang tepat."
+"linktitle": "Mengontrol Urutan Z Persegi Panjang dalam PDF dengan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Mengontrol Urutan Z Persegi Panjang dalam PDF dengan Java"
+"url": "/id/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengontrol Urutan Z Persegi Panjang dalam PDF dengan Java
@@ -16,13 +18,13 @@ url: /id/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/
 
 ## Perkenalan
 
-Dalam dunia manipulasi PDF, mengelola urutan Z elemen sangat penting saat Anda ingin mengontrol visibilitas dan posisi objek dalam dokumen PDF Anda. Artikel ini akan membahas seni mengendalikan urutan Z persegi panjang dalam PDF menggunakan Aspose.PDF untuk Java, API Java yang canggih untuk bekerja dengan file PDF.
+Dalam dunia manipulasi PDF, mengelola urutan Z elemen sangatlah penting saat Anda ingin mengontrol visibilitas dan posisi objek dalam dokumen PDF Anda. Artikel ini akan membahas seni mengendalikan urutan Z persegi panjang dalam PDF menggunakan Aspose.PDF untuk Java, API Java yang canggih untuk bekerja dengan file PDF.
 
 ## Memahami Z-Order dalam PDF
 
 Sebelum kita menyelami detail teknisnya, mari kita pahami konsep urutan Z dalam PDF. Urutan Z mengacu pada kedalaman atau pelapisan objek grafis dalam halaman PDF. Objek dengan nilai urutan Z yang lebih tinggi ditampilkan di depan objek dengan nilai yang lebih rendah. Konsep ini mirip dengan lapisan dalam perangkat lunak penyuntingan gambar.
 
-## Mengontrol Z-Order dalam PDF
+## Mengontrol Urutan Z dalam PDF
 
 Mengontrol urutan Z elemen dalam PDF sangat penting untuk berbagai kasus penggunaan. Misalnya, Anda mungkin ingin menempatkan tanda air di belakang konten utama, memastikan bahwa anotasi tertentu selalu terlihat, atau mengatur elemen grafis dalam urutan tertentu untuk presentasi yang lebih baik.
 
@@ -35,7 +37,7 @@ Untuk mencapai kontrol yang tepat atas urutan Z persegi panjang dalam PDF menggu
 Sebelum memulai, pastikan Anda memiliki hal berikut:
 
 - Lingkungan pengembangan Java telah disiapkan.
--  Pustaka Aspose.PDF untuk Java telah terinstal. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Pustaka Aspose.PDF untuk Java telah terinstal. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Panduan Langkah demi Langkah
 
@@ -92,7 +94,7 @@ Dalam artikel ini, kami telah membahas pentingnya mengendalikan urutan Z persegi
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
-Untuk menginstal Aspose.PDF untuk Java, Anda dapat mengunduh pustaka dari[Di Sini](https://releases.aspose.com/pdf/java/) dan sertakan file JAR dalam dependensi proyek Java Anda.
+Untuk menginstal Aspose.PDF untuk Java, Anda dapat mengunduh pustaka dari [Di Sini](https://releases.aspose.com/pdf/java/) dan sertakan file JAR dalam dependensi proyek Java Anda.
 
 ### Bisakah saya mengontrol urutan Z elemen PDF lain selain persegi panjang?
 
@@ -108,10 +110,12 @@ Ya, Aspose.PDF untuk Java bersifat serbaguna dan dapat digunakan untuk tugas PDF
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat menjelajahi dokumentasi terperinci dan contoh kode lebih lanjut di[Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/) halaman.
+Anda dapat menjelajahi dokumentasi terperinci dan contoh kode lebih lanjut di [Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/) halaman.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

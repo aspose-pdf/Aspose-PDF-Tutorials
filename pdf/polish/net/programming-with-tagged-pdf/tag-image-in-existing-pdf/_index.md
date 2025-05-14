@@ -1,30 +1,32 @@
 ---
-title: Oznacz obraz w istniejącym pliku PDF
-linktitle: Oznacz obraz w istniejącym pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak oznaczać obrazy w istniejących plikach PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku, jak zwiększyć dostępność dzięki zgodności z PDF/UA.
-weight: 210
-url: /pl/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/
+"description": "Dowiedz się, jak oznaczać obrazy w istniejących plikach PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku, jak zwiększyć dostępność dzięki zgodności z PDF/UA."
+"linktitle": "Oznacz obraz w istniejącym pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Oznacz obraz w istniejącym pliku PDF"
+"url": "/pl/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Oznacz obraz w istniejącym pliku PDF
 
 ## Wstęp
 
-tym samouczku przeprowadzimy Cię przez proces tagowania obrazu w istniejącym pliku PDF przy użyciu Aspose.PDF dla .NET. Do końca tego przewodnika będziesz w stanie ustawić tekst alternatywny dla obrazów, dostosować atrybuty układu i upewnić się, że Twój plik PDF jest zgodny ze standardami dostępności.
+W tym samouczku przeprowadzimy Cię przez proces tagowania obrazu w istniejącym pliku PDF przy użyciu Aspose.PDF dla .NET. Do końca tego przewodnika będziesz w stanie ustawić tekst alternatywny dla obrazów, dostosować atrybuty układu i upewnić się, że Twój plik PDF jest zgodny ze standardami dostępności.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do konkretów, omówmy, czego będziesz potrzebować, żeby zacząć:
 
--  Aspose.PDF dla platformy .NET: Upewnij się, że pobrałeś i zainstalowałeś najnowszą wersję pliku Aspose.PDF dla platformy .NET.[Pobierz tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla platformy .NET: Upewnij się, że pobrałeś i zainstalowałeś najnowszą wersję pliku Aspose.PDF dla platformy .NET. [Pobierz tutaj](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET, np. Visual Studio.
 - Podstawowa znajomość struktury dokumentu PDF: Znajomość elementów struktury dokumentu PDF, takich jak akapity, rozpiętości, tabele i obrazy.
--  Ważna licencja: Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy) lub użyj tymczasowego[Tutaj](https://purchase.aspose.com/temporary-license/).
+- Ważna licencja: Możesz kupić licencję [Tutaj](https://purchase.aspose.com/buy) lub użyj tymczasowego [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
@@ -56,8 +58,8 @@ string logFile = dataDir + "TH_out.xml";
 Document document = new Document(inFile);
 ```
 
--  Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku.
--  Ten`Document` Klasa pozwala załadować istniejący plik PDF. Będziesz modyfikować ten plik PDF, aby oznaczyć obraz.
+- Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku.
+- Ten `Document` Klasa pozwala załadować istniejący plik PDF. Będziesz modyfikować ten plik PDF, aby oznaczyć obraz.
 
 ## Krok 2: Dostęp do oznaczonej zawartości i elementu struktury głównej
 
@@ -70,7 +72,7 @@ StructureElement rootElement = taggedContent.RootElement;
 ```
 
 - `TaggedContent` zapewnia dostęp do ustrukturyzowanych elementów w pliku PDF.
--  Ten`RootElement` jest najwyższym elementem struktury, z którego można przejść do innych elementów, takich jak akapity, tabele i obrazy.
+- Ten `RootElement` jest najwyższym elementem struktury, z którego można przejść do innych elementów, takich jak akapity, tabele i obrazy.
 
 ## Krok 3: Ustaw tytuł dla oznaczonego dokumentu PDF
 
@@ -85,7 +87,7 @@ taggedContent.SetTitle("Document with images");
 
 ## Krok 4: Znajdź i oznacz obraz
 
- Teraz znajdźmy element obrazu (nazywany`FigureElement` w pliku Aspose.PDF), ustaw dla niego tekst alternatywny i skonfiguruj jego atrybuty układu.
+Teraz znajdźmy element obrazu (nazywany `FigureElement` w pliku Aspose.PDF), ustaw dla niego tekst alternatywny i skonfiguruj jego atrybuty układu.
 
 ```csharp
 // Przejdź przez wszystkie elementy Figure (obrazy) i ustaw alternatywny tekst oraz atrybuty układu
@@ -104,13 +106,13 @@ foreach (FigureElement figureElement in rootElement.FindElements<FigureElement>(
 }
 ```
 
--  Ten kod przechodzi przez wszystkie`FigureElement` obiekty w strukturze głównej, które reprezentują obrazy.
+- Ten kod przechodzi przez wszystkie `FigureElement` obiekty w strukturze głównej, które reprezentują obrazy.
 - Ustawia tekst alternatywny na potrzeby ułatwień dostępu (czytniki ekranu będą go używać do opisu obrazu).
-- Pole ograniczające (`BBox`określa współrzędne układu obrazu, zapewniając jego prawidłowe wyświetlanie w dokumencie.
+- Pole ograniczające (`BBox`) określa współrzędne układu obrazu, zapewniając jego prawidłowe wyświetlanie w dokumencie.
 
 ## Krok 5: Modyfikowanie elementów rozpiętości w tabeli
 
- W niektórych przypadkach może być konieczna modyfikacja elementów span w tabeli. Tutaj pokażemy, jak znaleźć`SpanElement` i przenieś do akapitu.
+niektórych przypadkach może być konieczna modyfikacja elementów span w tabeli. Tutaj pokażemy, jak znaleźć `SpanElement` i przenieś do akapitu.
 
 ```csharp
 // Znajdź elementy tabeli, rozpiętości i akapitu
@@ -123,8 +125,8 @@ ParagraphElement paragraph = firstTdElement.FindElements<ParagraphElement>(true)
 spanElement.ChangeParentElement(paragraph);
 ```
 
--  Tutaj znajdujemy`TableElement`, `SpanElement` , I`ParagraphElement` w pliku PDF.
--  Korzystanie z`ChangeParentElement` metodą przenosimy rozpiętość do akapitu, aby zapewnić właściwe tagowanie i strukturę.
+- Tutaj znajdujemy `TableElement`, `SpanElement`, I `ParagraphElement` w pliku PDF.
+- Korzystanie z `ChangeParentElement` metodą przenosimy rozpiętość do akapitu, aby zapewnić odpowiednie tagowanie i strukturę.
 
 ## Krok 6: Zapisz dokument i sprawdź zgodność z PDF/UA
 
@@ -140,7 +142,7 @@ bool isPdfUaCompliance = document.Validate(logFile, PdfFormat.PDF_UA_1);
 Console.WriteLine(String.Format("PDF/UA compliance: {0}", isPdfUaCompliance));
 ```
 
--  Ten`Validate` Metoda sprawdza zgodność dokumentu PDF ze standardami PDF/UA i rejestruje wyniki.
+- Ten `Validate` Metoda sprawdza zgodność dokumentu PDF ze standardami PDF/UA i rejestruje wyniki.
 - Zapewnienie zgodności pomaga poprawić dostępność i spełnić wymogi regulacyjne dotyczące publikowania dokumentów.
 
 ## Wniosek
@@ -150,10 +152,10 @@ tym samouczku pokazaliśmy, jak oznaczać obrazy w istniejącym pliku PDF za pom
 ## Najczęściej zadawane pytania
 
 ### Do czego służy Aspose.PDF for .NET?
-Aspose.PDF dla platformy .NET to zaawansowana biblioteka służąca do tworzenia, edytowania i manipulowania dokumentami PDF programowo w środowisku .NET.
+Aspose.PDF dla platformy .NET to zaawansowana biblioteka służąca do programowego tworzenia, edytowania i manipulowania dokumentami PDF w środowisku .NET.
 
 ### Jak zapewnić zgodność ze standardem PDF/UA?
- Możesz użyć Aspose.PDF`Validate` metoda sprawdzania zgodności dokumentu ze standardem PDF/UA po wprowadzeniu modyfikacji.
+Możesz użyć Aspose.PDF `Validate` metoda sprawdzania zgodności dokumentu ze standardem PDF/UA po wprowadzeniu modyfikacji.
 
 ### Czym jest tekst alternatywny w plikach PDF?
 Tekst alternatywny to opis dodawany do obrazów w plikach PDF w celu ułatwienia dostępu, zwłaszcza dla użytkowników korzystających z czytników ekranu.
@@ -162,10 +164,12 @@ Tekst alternatywny to opis dodawany do obrazów w plikach PDF w celu ułatwienia
 Tak, Aspose.PDF pozwala na manipulowanie tabelami, rozpiętościami i innymi elementami strukturalnymi w dokumencie PDF.
 
 ### Gdzie mogę pobrać Aspose.PDF dla .NET?
- Możesz pobrać najnowszą wersję Aspose.PDF dla .NET[Tutaj](https://releases.aspose.com/pdf/net/).
+Możesz pobrać najnowszą wersję Aspose.PDF dla .NET [Tutaj](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'de Tablo Satırını Biçimlendir
-linktitle: Java kullanarak PDF'de Tablo Satırını Biçimlendir
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java'da Aspose.PDF for Java kullanarak PDF tablo satırlarını nasıl biçimlendireceğinizi öğrenin. Bu kapsamlı kılavuzda renkleri özelleştirin, kenarlıklar ekleyin ve daha fazlasını yapın.
-weight: 10
-url: /tr/java/pdf-styles-and-formatting/style-table-row-in-pdf-using-java/
+"description": "Java'da Aspose.PDF for Java kullanarak PDF tablo satırlarını nasıl biçimlendireceğinizi öğrenin. Bu kapsamlı kılavuzda renkleri özelleştirin, kenarlıklar ekleyin ve daha fazlasını yapın."
+"linktitle": "Java kullanarak PDF'de Tablo Satırını Biçimlendir"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'de Tablo Satırını Biçimlendir"
+"url": "/tr/java/pdf-styles-and-formatting/style-table-row-in-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'de Tablo Satırını Biçimlendir
@@ -16,13 +18,13 @@ url: /tr/java/pdf-styles-and-formatting/style-table-row-in-pdf-using-java/
 
 ## Java için Aspose.PDF'ye Giriş
 
-Java için Aspose.PDF, Java uygulamalarında PDF belgeleri oluşturmanıza, düzenlemenize ve dönüştürmenize olanak tanıyan güçlü bir kütüphanedir. Tablolar oluşturma ve içeriklerini özelleştirme dahil olmak üzere PDF'lerle çalışmak için çok çeşitli özellikler sunar.
+Aspose.PDF for Java, Java uygulamalarında PDF belgeleri oluşturmanıza, düzenlemenize ve dönüştürmenize olanak tanıyan güçlü bir kütüphanedir. Tablolar oluşturma ve içeriklerini özelleştirme dahil olmak üzere PDF'lerle çalışmak için çok çeşitli özellikler sunar.
 
 ## Kurulum ve Kurulum
 
 Java için Aspose.PDF'yi kullanmaya başlamak için geliştirme ortamınızı ayarlamanız gerekir. İşte temel adımlar:
 
-1.  Java için Aspose.PDF'yi indirin: Ziyaret edin[Burada](https://releases.aspose.com/pdf/java/) Kütüphaneyi indirmek için.
+1. Java için Aspose.PDF'yi indirin: Ziyaret edin [Burada](https://releases.aspose.com/pdf/java/) Kütüphaneyi indirmek için.
 
 2. Aspose.PDF Jar'ı Projenize Ekleyin: İndirdiğiniz JAR dosyasını Java projenize ekleyin.
 
@@ -119,7 +121,7 @@ Aspose.PDF for Java, geliştiricilerin Java uygulamalarında PDF belgeleri oluş
 
 ### Java için Aspose.PDF'yi nasıl yüklerim?
 
- Java için Aspose.PDF'yi yüklemek için, kitaplığı şu adresten indirin:[Burada](https://releases.aspose.com/pdf/java/) ve JAR dosyasını Java projenize ekleyin.
+Java için Aspose.PDF'yi yüklemek için, kitaplığı şu adresten indirin: [Burada](https://releases.aspose.com/pdf/java/) ve JAR dosyasını Java projenize ekleyin.
 
 ### PDF tablosundaki tek tek satırlara stil verebilir miyim?
 
@@ -131,10 +133,12 @@ Java için Aspose.PDF tablo satırları için kapsamlı özelleştirme seçenekl
 
 ### Java için Aspose.PDF hakkında daha fazla kaynağı nerede bulabilirim?
 
- Kapsamlı dokümantasyon ve ek kaynaklar için şu adresi ziyaret edin:[Burada](https://reference.aspose.com/pdf/java/).
+Kapsamlı dokümantasyon ve ek kaynaklar için şu adresi ziyaret edin: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

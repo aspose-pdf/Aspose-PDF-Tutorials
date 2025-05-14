@@ -8,7 +8,9 @@ url: /net/programming-with-attachments/get-attachment-info/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Attachment Info
@@ -129,6 +131,7 @@ You can embed various file types, including images, documents, and spreadsheets,
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

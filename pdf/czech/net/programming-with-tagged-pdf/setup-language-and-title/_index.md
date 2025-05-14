@@ -1,34 +1,36 @@
 ---
-title: Nastavení jazyka a názvu
-linktitle: Nastavení jazyka a názvu
-second_title: Aspose.PDF pro .NET API Reference
-description: Podrobný průvodce konfigurací jazyka a názvu dokumentu PDF pomocí Aspose.PDF pro .NET. Vytvářejte personalizované vícejazyčné dokumenty.
-weight: 140
-url: /cs/net/programming-with-tagged-pdf/setup-language-and-title/
+"description": "Podrobný návod pro konfiguraci jazyka a názvu PDF dokumentu pomocí Aspose.PDF pro .NET. Vytvářejte personalizované vícejazyčné dokumenty."
+"linktitle": "Nastavení jazyka a názvu"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Nastavení jazyka a názvu"
+"url": "/cs/net/programming-with-tagged-pdf/setup-language-and-title/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nastavení jazyka a názvu
 
 ## Zavedení
 
-Vytváření tagovaných souborů PDF je klíčovou činností pro zajištění dostupnosti a poskytování strukturovaného formátu dokumentů. Jak se posouváme k inkluzivnějšímu digitálnímu prostředí, pochopení toho, jak vytvářet tagované dokumenty, je stále důležitější. Tento komplexní průvodce vás provede procesem nastavení jazyka a názvů v tagovaných PDF pomocí Aspose.PDF pro .NET. Rozdělíme to na stravitelné kroky, takže i když začínáte, na konci se budete cítit jako profíci. 
+Vytváření tagovaných PDF souborů je klíčovou činností pro zajištění přístupnosti a strukturovaného formátu dokumentů. S postupným směřováním k inkluzivnějšímu digitálnímu prostředí je stále důležitější pochopení toho, jak vytvářet tagované dokumenty. Tato komplexní příručka vás provede procesem nastavení jazyka a názvů v tagovaných PDF souborech pomocí Aspose.PDF pro .NET. Rozdělíme si ji do srozumitelných kroků, takže i když s ní začínáte, budete se na konci cítit jako profesionál. 
 
 ## Předpoklady
 
 Než se ponoříme do světa tagovaných PDF, pojďme si shromáždit vše, co potřebujete. Zde je to, co byste měli mít připravené:
 
 - Základní znalost .NET: I když nemusíte být mimořádný kodér, znalost konceptů .NET vám tuto cestu usnadní.
--  Aspose.PDF for .NET Installed: Ujistěte se, že máte nainstalovanou knihovnu. Můžete si jej stáhnout pro vyzkoušení nebo zakoupit licenci. Zkontrolujte[stránka ke stažení zde](https://releases.aspose.com/pdf/net/).
-- Visual Studio: Zde budete psát a testovat svůj kód. Pokud jej nemáte, stáhněte si ho z webu společnosti Microsoft.
-- Jazyková znalost C#: Tato příručka je napsána v C#. Trochu zkušeností s C# vám určitě pomůže bez námahy procházet částmi kódování.
+- Nainstalovaný soubor Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu. Můžete si ji buď stáhnout k vyzkoušení, nebo si zakoupit licenci. Zkontrolujte [stránka ke stažení zde](https://releases.aspose.com/pdf/net/).
+- Visual Studio: Zde budete psát a testovat svůj kód. Pokud jej nemáte, stáhněte si ho z webových stránek společnosti Microsoft.
+- Znalost jazyka C#: Tato příručka je napsána v jazyce C#. Trocha zkušeností s C# vám určitě pomůže bez námahy zvládnout jednotlivé části kódování.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Jakmile nastavíte předpoklady, je čas naimportovat potřebné balíčky. Můžete to udělat přidáním následující direktivy using v horní části souboru C#:
+Jakmile nastavíte předpoklady, je čas importovat potřebné balíčky. To provedete přidáním následující direktivy using na začátek souboru C#:
 
 ```csharp
 using System;
@@ -37,52 +39,52 @@ using System.Linq;
 using System.Text;
 ```
 
-Tyto jmenné prostory vám umožňují přístup ke komponentám nezbytným pro vytváření a manipulaci s PDF s tagovaným obsahem. Možná se ptáte: "Proč importovat balíčky?" Je to jako připravit si sadu nástrojů, než něco postavíte – potřebujete mít po ruce ty správné nástroje.
+Tyto jmenné prostory vám umožňují přístup ke komponentám potřebným pro vytváření a manipulaci s PDF soubory s tagovaným obsahem. Možná si říkáte: „Proč importovat balíčky?“ Je to jako připravit si sadu nástrojů před něčím – potřebujete mít po ruce ty správné nástroje.
 
-## Krok 1: Inicializujte dokument
+## Krok 1: Inicializace dokumentu
 
-Prvním krokem na naší cestě je vytvoření nového objektu dokumentu. Můžete si to představit jako položení základů pro dům – na tom bude postaveno všechno.
+Prvním krokem na naší cestě je vytvoření nového objektu dokumentu. Můžete si to představit jako položení základů domu – na nich bude postaveno všechno.
 
 ```csharp
 Document document = new Document();
 ```
 
-Zde vytváříme instanci nového dokumentu PDF. Zde bude umístěn veškerý váš obsah. 
+Zde vytváříme nový PDF dokument. Zde bude uložen veškerý váš obsah. 
 
 ## Krok 2: Zadejte adresář dokumentů
 
-Dále je třeba definovat, kde budou vaše dokumenty uloženy. Potřebujete místo pro uložení nově vytvořeného souboru PDF.
+Dalším krokem je definování místa, kam budou vaše dokumenty uloženy. Potřebujete místo, kam uložit nově vytvořený soubor PDF.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nezapomeňte vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete PDF uložit. Je to podobné jako hledání parkovacího místa pro vaše nové auto.
+Nezapomeňte vyměnit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete PDF soubor uložit. Je to podobné jako hledání parkovacího místa pro vaše nové auto.
 
-## Krok 3: Získejte označený obsah
+## Krok 3: Označení obsahu
 
-Nyní se podívejme na označený obsah našeho dokumentu. Tagovaný obsah slouží jako páteř pro vytváření přístupných PDF. 
+Nyní se podívejme na tagovaný obsah našeho dokumentu. Tagovaný obsah slouží jako páteř pro vytváření přístupných PDF souborů. 
 
 ```csharp
 Tagged.ITaggedContent taggedContent = document.TaggedContent;
 ```
 
-Tímto způsobem povolíte potenciál pro strukturování vašeho PDF, podobně jako když vytvoříte osnovu pro knihu, než ji skutečně napíšete.
+Tímto způsobem aktivujete možnost strukturování PDF souboru, podobně jako vytvoření osnovy knihy před jejím skutečným napsáním.
 
-## Krok 4: Nastavte název a jazyk
+## Krok 4: Nastavení názvu a jazyka
 
-Když je váš označený obsah připraven, je čas zadat název dokumentu a primární jazyk. 
+Jakmile máte označený obsah připravený, je čas zadat název dokumentu a primární jazyk. 
 
 ```csharp
 taggedContent.SetTitle("Example Tagged Document");
 taggedContent.SetLanguage("en-US");
 ```
 
-Představte si tento krok jako poskytnutí identity vašeho dokumentu. Název představuje podstatu toho, o čem dokument je, zatímco jazyk sděluje čtenářům primární jazykový kontext.
+Představte si tento krok jako dodání identity vašemu dokumentu. Název představuje podstatu toho, o čem dokument je, zatímco jazyk sděluje čtenářům primární jazykový kontext.
 
 ## Krok 5: Vytvořte prvek záhlaví
 
-Strukturované PDF bude často obsahovat záhlaví, která pomohou čtenáři vést. Vytvoříme element záhlaví.
+Strukturovaný PDF dokument často obsahuje záhlaví, která čtenáře usnadňují orientaci. Vytvořme si prvek záhlaví.
 
 ```csharp
 LogicalStructure.HeaderElement h1 = taggedContent.CreateHeaderElement(1);
@@ -90,15 +92,15 @@ h1.SetText("Phrase on different languages");
 taggedContent.RootElement.AppendChild(h1);
 ```
 
-Zde jsme vytvořili záhlaví (H1) s textem. Je to jako zasadit rozcestník, který čtenáře nasměruje k tomu, co budou číst dál. 
+Zde jsme vytvořili záhlaví (H1) s textem. Je to jako zasazení ukazatele, který čtenáře nasměruje k tomu, co si přečtou dál. 
 
-## Krok 6: Přidejte odstavce ve více jazycích
+## Krok 6: Přidání odstavců ve více jazycích
 
-Zde začíná ta zábavná část – přidávání obsahu v různých jazycích. Přidáme několik odstavců reprezentujících různé jazyky.
+A tady začíná ta zábavná část – přidávání obsahu v různých jazycích. Přidáme několik odstavců, které budou reprezentovat různé jazyky.
 
 ### Přidání anglického odstavce
 
-Začněme angličtinou:
+Začněme s angličtinou:
 
 ```csharp
 LogicalStructure.ParagraphElement pEN = taggedContent.CreateParagraphElement();
@@ -107,11 +109,11 @@ pEN.Language = "en-US";
 taggedContent.RootElement.AppendChild(pEN);
 ```
 
-Tento řádek přidává přátelský pozdrav v angličtině. Je to jako pozdravit své čtenáře v jejich preferovaném jazyce.
+Tento řádek přidává přátelský pozdrav v angličtině. Je to, jako byste pozdravili své čtenáře v jejich preferovaném jazyce.
 
 ### Přidání německého odstavce
 
-Dále přidáme německý odstavec:
+Dále přidejme německý odstavec:
 
 ```csharp
 LogicalStructure.ParagraphElement pDE = taggedContent.CreateParagraphElement();
@@ -120,7 +122,7 @@ pDE.Language = "de-DE";
 taggedContent.RootElement.AppendChild(pDE);
 ```
 
-Díky tomu oslovíte své německy mluvící publikum a rozšíříte přístupnost vašeho dokumentu.
+Tímto způsobem oslovujete své německy mluvící publikum a rozšiřujete přístupnost svého dokumentu.
 
 ### Přidání francouzského odstavce
 
@@ -133,11 +135,11 @@ pFR.Language = "fr-FR";
 taggedContent.RootElement.AppendChild(pFR);
 ```
 
-Opět přijímáme rozmanitost zahrnutím francouzského textu. 
+Opět podporujeme rozmanitost tím, že zahrnujeme francouzský text. 
 
 ### Přidání španělského odstavce
 
-Na závěr si dáme trochu španělštiny:
+Nakonec si povíme něco o španělštině:
 
 ```csharp
 LogicalStructure.ParagraphElement pSP = taggedContent.CreateParagraphElement();
@@ -146,42 +148,44 @@ pSP.Language = "es-ES";
 taggedContent.RootElement.AppendChild(pSP);
 ```
 
-S tímto přídavkem ukážete, že váš dokument mluví více jazyky, což podporuje inkluzivitu.
+Tímto dodatkem ukážete, že váš dokument je vícejazyčný, a podpoříte tak inkluzivitu.
 
-## Krok 7: Uložte tagovaný dokument PDF
+## Krok 7: Uložení tagovaného dokumentu PDF
 
-Nyní, když jste vytvořili dokument s více jazyky, je čas jej uložit. 
+Nyní, když jste si vytvořili dokument s více jazyky, je čas ho uložit. 
 
 ```csharp
 document.Save(dataDir + "SetupLanguageAndTitle.pdf");
 ```
 
-A právě tak je váš výtvor dokončen a uložen! Považujte to za zalepení obálky před odesláním dopisu.
+A takhle je váš výtvor dokončen a uložen! Považujte to za zalepení obálky před odesláním dopisu.
 
 ## Závěr
 
-Vytváření tagovaných PDF pomocí Aspose.PDF for .NET není jen o kódování; jde o to, aby byly vaše dokumenty přístupné a přátelské pro všechny čtenáře. Naučili jste se, jak nastavit názvy, jazyky a dokonce přidat do PDF několik vícejazyčných odstavců. S těmito dovednostmi jste na dobré cestě k vytváření inkluzivního digitálního obsahu. 
+Vytváření tagovaných PDF souborů pomocí Aspose.PDF pro .NET není jen o kódování; jde o to, aby vaše dokumenty byly přístupné a přátelské pro všechny čtenáře. Naučili jste se, jak nastavit názvy, jazyky a dokonce i přidat do PDF několik vícejazyčných odstavců. S těmito dovednostmi jste na dobré cestě k tvorbě inkluzivního digitálního obsahu. 
 
 
-## FAQ
+## Často kladené otázky
 
 ### Co je to tagovaný PDF?
-Tagované PDF je typ dokumentu PDF, který obsahuje další informace, které umožňují strukturované čtení jeho obsahu. To je výhodné zejména pro asistenční technologie.
+Označený PDF je typ PDF dokumentu, který obsahuje další informace umožňující strukturované čtení jeho obsahu. To je obzvláště výhodné pro asistenční technologie.
 
-### Jak Aspose.PDF for .NET pomáhá při vytváření tagovaných PDF?
-Aspose.PDF for .NET poskytuje různé třídy a metody, které vám umožňují snadno vytvářet a manipulovat s PDF, včetně přidávání tagovaného obsahu pro usnadnění.
+### Jak Aspose.PDF pro .NET pomáhá s vytvářením tagovaných PDF souborů?
+Aspose.PDF pro .NET nabízí různé třídy a metody, které umožňují snadno vytvářet a manipulovat s PDF soubory, včetně přidávání tagovaného obsahu pro usnadnění přístupu.
 
 ### Mohu vytvořit tagovaný PDF ve více jazycích?
-Ano! Aspose.PDF podporuje více jazyků, což vám umožňuje přidávat obsah v různých jazycích do stejného dokumentu PDF.
+Ano! Aspose.PDF podporuje více jazyků, což vám umožňuje přidávat obsah v různých jazycích do stejného PDF dokumentu.
 
 ### Potřebuji licenci k používání Aspose.PDF?
- když si to můžete vyzkoušet zdarma, pro produkční použití je nutná licence. Zvažte návštěvu[nákupní stránku](https://purchase.aspose.com/buy) pro více informací.
+I když si to můžete vyzkoušet zdarma, pro produkční použití je vyžadována licence. Zvažte návštěvu [stránka nákupu](https://purchase.aspose.com/buy) pro více informací.
 
 ### Kde najdu více informací o Aspose.PDF?
- Můžete najít komplexní dokumentaci a podporu pro Aspose.PDF[zde](https://reference.aspose.com/pdf/net/).
+Komplexní dokumentaci a podporu k souboru Aspose.PDF naleznete v souboru [zde](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

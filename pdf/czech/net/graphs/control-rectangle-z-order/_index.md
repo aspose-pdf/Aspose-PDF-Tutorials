@@ -1,41 +1,46 @@
 ---
-title: Vytvořit a přizpůsobit PDF s obdélníky v .NET 
-weight: 7700
-limit: 
-description: Naučte se vytvářet PDF dokument v .NET, přidávat barevné obdélníky s různými Z-indexy a ukládat finální dokument pomocí Aspose.PDF.  
-keywords: [Aspose.PDF, .NET PDF example, create PDF, add rectangles, Z-index, PDF manipulation]
-url: /cs/net/graphs/control-rectangle-z-order/
+"description": "Naučte se, jak vytvořit PDF dokument v .NET, přidat barevné obdélníky s různými Z-indexy a uložit výsledný dokument pomocí Aspose.PDF."
+"title": "Vytvořte a upravte PDF s obdélníky v .NET"
+"url": "/cs/net/graphs/control-rectangle-z-order/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořit a přizpůsobit PDF s obdélníky
+# Vytvořte a upravte PDF pomocí obdélníků
 
-Tato příručka ukazuje, jak vytvořit PDF dokument pomocí Aspose.PDF pro .NET, který zahrnuje barevné obdélníky s různými Z-indexy pro kontrolu jejich vrstvení.
+Tato příručka ukazuje, jak vytvořit dokument PDF pomocí nástroje Aspose.PDF pro .NET a jak do něj začlenit barevné obdélníky s různými Z-indexy pro ovládání jejich vrstvení. Postupujte podle podrobných pokynů k přidání tvarů do PDF a uložení dokumentu, čímž vylepšíte možnosti generování PDF ve vaší aplikaci.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/control-rectangle-z-order" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Návod k instalaci
-1. Ujistěte se, že máte nastavené vývojové prostředí .NET (např. Visual Studio).
-2. Stáhněte si knihovnu Aspose.PDF z[Webová stránka Aspose](https://www.aspose.com/purchase)\- Ne , ne .
-3. Nainstalujte balíček NuGet Aspose.PDF spuštěním `Instalační balíček Aspose.PDF`v konzoli správce balíčků.
-4. Vložte do projektu potřebné prostorové jména:
+## Pokyny k instalaci
+1. Ujistěte se, že máte nastavené vývojové prostředí .NET (například Visual Studio).
+2. Stáhněte si knihovnu Aspose.PDF z [Webové stránky Aspose](https://www.aspose.com/purchase).
+3. Nainstalujte balíček Aspose.PDF NuGet spuštěním `Install-Package Aspose.PDF` v konzoli Správce balíčků.
+4. Zahrňte do projektu potřebné jmenné prostory:
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
    ```
 
-## Podrobná dokumentace je k dispozici na adrese:  
-* [Aspose.PDF pro .NET dokumentaci](https://docs.aspose.com/pdf/net/)  
-* [Reference API pro Aspose.PDF pro .NET](https://reference.aspose.com/pdf/net/)  
+## Podrobnou dokumentaci naleznete na adrese:  
+- [Dokumentace k souboru Aspose.PDF pro .NET](https://docs.aspose.com/pdf/net/)  
+- [Referenční příručka API pro Aspose.PDF pro .NET](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

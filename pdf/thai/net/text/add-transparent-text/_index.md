@@ -1,55 +1,60 @@
 ---
-title: การสร้างอิฟเฟ็คต์ข้อความโปร่งใสใน PDF ด้วย Aspose.PDF สําหรับ .NET
-weight: 7700
-limit: 
-description: สร้างเอกสาร PDF ด้วยข้อความและรูปร่างโปร่งใส โดยใช้ Aspose.PDF สําหรับ .NET. เหมาะสําหรับเครื่องหมายน้ําและการออกแบบที่น่าสนใจทางภาพ 
-keywords: [Aspose.PDF, .NET PDF library, transparent text, PDF transparency, C# PDF generation, PDF manipulation, rectangle shapes, opacity effects, document creation, PDF programming]
-url: /th/net/text/add-transparent-text/
+"description": "สร้างเอกสาร PDF ที่มีข้อความและรูปร่างโปร่งใสโดยใช้ Aspose.PDF สำหรับ .NET เหมาะอย่างยิ่งสำหรับลายน้ำและการออกแบบที่ดึงดูดสายตา"
+"title": "การสร้างเอฟเฟกต์ข้อความโปร่งใสใน PDF ด้วย Aspose.PDF สำหรับ .NET"
+"url": "/th/net/text/add-transparent-text/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสร้างอิฟเฟ็คต์ข้อความโปร่งใสใน PDF ด้วย Aspose.PDF สําหรับ .NET
+# การสร้างเอฟเฟกต์ข้อความโปร่งใสใน PDF ด้วย Aspose.PDF สำหรับ .NET
 
-เพิ่มเติมเอกสาร PDF ด้วยข้อความและรูปร่างโปร่งใสโดยใช้ Aspose.PDF สําหรับ .NET ห้องสมุดที่มีความสามารถนี้ทําให้คุณสามารถสร้างเอกสารที่น่าสนใจทางสายตา โดยการนําผลประกายภาพเข้าใช้กับทั้งข้อความและองค์ประกอบกราฟิก ซึ่งสมบูรณ์แบบสําหรับเครื่องหมายน้ํา, การวางโครงสร้างและการออกแบบเอกสารสร้างสรรค์
+ปรับปรุงเอกสาร PDF ของคุณด้วยข้อความและรูปร่างโปร่งใสโดยใช้ Aspose.PDF สำหรับ .NET ไลบรารีอันทรงพลังนี้ช่วยให้คุณสร้างเอกสารที่ดึงดูดสายตาด้วยการใช้เอฟเฟกต์โปร่งใสกับทั้งข้อความและองค์ประกอบกราฟิก ซึ่งเหมาะสำหรับลายน้ำ โอเวอร์เลย์ และการออกแบบเอกสารที่สร้างสรรค์
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/add-transparent-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## คําแนะนําการติดตั้ง
+## คำแนะนำในการติดตั้ง
 
-1. อุปกรณ์ติดตั้งผ่าน NuGet Package Manager:
+1. ติดตั้งผ่านตัวจัดการแพ็กเกจ NuGet:
    ```
    Install-Package Aspose.PDF
    ```
 
-2. อุปกรณ์ติดตั้งผ่าน .NET CLI:
+2. ติดตั้งผ่าน .NET CLI:
    ```
    dotnet add package Aspose.PDF
    ```
 
-3. เพิ่มอ้างอิงด้วยมือ:
-   * ดาวน์โหลดห้องสมุดจาก[การปล่อยตัว](https://releases.aspose.com/pdf/net/)
-   * เพิ่มอ้างอิงไปยัง "Aspose.PDF.dll" ในโครงการของคุณ
+3. เพิ่มการอ้างอิงด้วยตนเอง:
+   - ดาวน์โหลดห้องสมุดได้จาก [การเปิดตัว Aspose](https://releases.aspose.com/pdf/net/)
+   - เพิ่มการอ้างอิงถึง Aspose.PDF.dll ในโครงการของคุณ
 
-4. เพิ่มคําสั่งการใช้:
+4. เพิ่มคำสั่งใช้:
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
    ```
 
-## สรรพทรัพยากร
+## ทรัพยากร
 
-* [Aspose.PDF สําหรับ .NET Documentation](https://docs.aspose.com/pdf/net/)
-* [Aspose.PDF สําหรับ .NET API Reference](https://reference.aspose.com/pdf/net/)
-* [ดาวน์โหลดเวอร์ชั่นล่าสุด](https://releases.aspose.com/pdf/net/)
+- [Aspose.PDF สำหรับเอกสาร .NET](https://docs.aspose.com/pdf/net/)
+- [เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET](https://reference.aspose.com/pdf/net/)
+- [ดาวน์โหลดเวอร์ชั่นล่าสุด](https://releases.aspose.com/pdf/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

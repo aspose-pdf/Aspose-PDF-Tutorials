@@ -1,14 +1,16 @@
 ---
-title: Informasi Gambar Dalam File PDF
-linktitle: Informasi Gambar Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak informasi gambar dari PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami yang komprehensif.
-weight: 160
-url: /id/net/programming-with-images/image-information/
+"description": "Pelajari cara mengekstrak informasi gambar dari PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami yang komprehensif."
+"linktitle": "Informasi Gambar Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Informasi Gambar Dalam File PDF"
+"url": "/id/net/programming-with-images/image-information/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Informasi Gambar Dalam File PDF
@@ -22,7 +24,7 @@ File PDF ada di mana-mana akhir-akhir ini—hampir setiap dokumen profesional da
 Sebelum kita masuk ke inti pengkodean, ada beberapa prasyarat yang perlu Anda miliki:
 
 1. Lingkungan Pengembangan: Anda perlu menyiapkan lingkungan pengembangan .NET. Ini bisa berupa Visual Studio atau IDE lain yang kompatibel dengan .NET.
-2.  Pustaka Aspose.PDF: Pastikan Anda memiliki akses ke pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/pdf/net/). 
+2. Pustaka Aspose.PDF: Pastikan Anda memiliki akses ke pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/pdf/net/). 
 3. Pengetahuan Dasar C#: Keakraban dengan C# dan konsep pemrograman berorientasi objek akan membantu Anda mengikuti tutorial dengan mudah.
 4. Dokumen PDF: Siapkan contoh dokumen PDF yang berisi gambar untuk menguji kode Anda. 
 
@@ -42,7 +44,7 @@ Setelah semuanya siap, saatnya untuk membaginya menjadi beberapa langkah yang mu
 
 ## Langkah 1: Inisialisasi Dokumen
 
- Pada langkah ini, kita akan menginisialisasi dokumen PDF menggunakan jalur ke file PDF Anda. Anda harus mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
+Pada langkah ini, kita akan menginisialisasi dokumen PDF menggunakan jalur ke file PDF Anda. Anda harus mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Muat file PDF sumber
 Document doc = new Document(dataDir + "ImageInformation.pdf");
 ```
- Kami menciptakan sebuah`Document` objek yang memuat PDF dari direktori yang ditentukan. Ini akan memungkinkan kita untuk bekerja dengan isi berkas.
+Kami menciptakan sebuah `Document` objek yang memuat PDF dari direktori yang ditentukan. Ini akan memungkinkan kita untuk bekerja dengan isi berkas.
 
 ## Langkah 2: Tetapkan Resolusi Default dan Inisialisasi Struktur Data
 
@@ -63,7 +65,7 @@ System.Collections.Stack graphicsState = new System.Collections.Stack();
 // Tentukan objek daftar array yang akan menampung nama gambar
 System.Collections.ArrayList imageNames = new System.Collections.ArrayList(doc.Pages[1].Resources.Images.Names);
 ```
- Itu`defaultResolution` variabel membantu kita menghitung resolusi gambar dengan benar.`graphicsState`tumpukan berfungsi sebagai sarana untuk menyimpan status grafis dokumen saat ini ketika kita menemui operator transformasi.
+Itu `defaultResolution` variabel membantu kita menghitung resolusi gambar dengan benar. `graphicsState` tumpukan berfungsi sebagai sarana untuk menyimpan status grafis dokumen saat ini ketika kita menemui operator transformasi.
 
 ## Langkah 3: Proses Setiap Operator di Halaman
 
@@ -93,7 +95,7 @@ else if (opRestoreState != null)
     graphicsState.Pop();
 }
 ```
-`GSave` menyimpan status grafis saat ini, sementara`GRestore` mengembalikan status terakhir yang disimpan, sehingga memungkinkan kita mengembalikan transformasi apa pun saat memproses gambar.
+`GSave` menyimpan status grafis saat ini, sementara `GRestore` mengembalikan status terakhir yang disimpan, sehingga memungkinkan kita mengembalikan transformasi apa pun saat memproses gambar.
 
 ## Langkah 5: Kelola Matriks Transformasi
 
@@ -155,19 +157,21 @@ Selamat! Anda baru saja membuat contoh yang berfungsi tentang cara mengekstrak i
 Pustaka Aspose.PDF adalah alat yang hebat untuk membuat, memanipulasi, dan mengonversi file PDF dalam aplikasi .NET.
 
 ### Bisakah saya menggunakan perpustakaan secara gratis?
- Ya, Aspose menawarkan uji coba gratis. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan uji coba gratis. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Jenis format gambar apa yang dapat diekstraksi?
 Pustaka mendukung berbagai format gambar, termasuk JPEG, PNG, dan TIFF, asalkan disematkan dalam PDF.
 
 ### Apakah Aspose digunakan untuk tujuan komersial?
- Ya, Anda dapat menggunakan produk Aspose secara komersial. Untuk lisensi, kunjungi[halaman pembelian](https://purchase.aspose.com/buy).
+Ya, Anda dapat menggunakan produk Aspose secara komersial. Untuk lisensi, kunjungi [halaman pembelian](https://purchase.aspose.com/buy).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose?
- Anda dapat mengakses forum dukungan[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda dapat mengakses forum dukungan [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

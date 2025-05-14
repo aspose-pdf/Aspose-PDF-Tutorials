@@ -1,14 +1,16 @@
 ---
-title: ใช้การแก้ไขกับเนื้อหาที่ละเอียดอ่อน
-linktitle: ใช้การแก้ไขกับเนื้อหาที่ละเอียดอ่อน
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: ค้นพบพลังของการแก้ไขเนื้อหาที่ละเอียดอ่อนใน PDF ด้วย Aspose.PDF สำหรับ Java
-weight: 15
-url: /th/java/pdf-annotations/apply-redaction-sensitive-content/
+"description": "ค้นพบพลังของการแก้ไขเนื้อหาที่ละเอียดอ่อนใน PDF ด้วย Aspose.PDF สำหรับ Java"
+"linktitle": "ใช้การแก้ไขกับเนื้อหาที่ละเอียดอ่อน"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ใช้การแก้ไขกับเนื้อหาที่ละเอียดอ่อน"
+"url": "/th/java/pdf-annotations/apply-redaction-sensitive-content/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ใช้การแก้ไขกับเนื้อหาที่ละเอียดอ่อน
@@ -23,7 +25,7 @@ url: /th/java/pdf-annotations/apply-redaction-sensitive-content/
 ก่อนที่จะเจาะลึกลงไปในขั้นตอนการแก้ไข ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว
--  Aspose.PDF สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 
 ## การตั้งค่าสภาพแวดล้อม Java ของคุณ
@@ -50,7 +52,7 @@ url: /th/java/pdf-annotations/apply-redaction-sensitive-content/
 Document pdfDocument = new Document("example.pdf");
 ```
 
- แทนที่`"example.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
+แทนที่ `"example.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
 
 ## การระบุเนื้อหาที่ละเอียดอ่อน
 
@@ -83,7 +85,7 @@ for (TextFragment textFragment : absorber.getTextFragments()) {
 หลังจากใช้การแก้ไขแล้ว เราควรบันทึกเอกสาร PDF ที่แก้ไขแล้ว:
 
 ```java
-// บันทึก PDF ที่ถูกแก้ไข
+// บันทึก PDF ที่แก้ไขแล้ว
 pdfDocument.save("redacted.pdf");
 ```
 
@@ -111,10 +113,12 @@ pdfDocument.save("redacted.pdf");
 
 ### มีข้อจำกัดใด ๆ ในการแก้ไขใน Aspose.PDF สำหรับ Java หรือไม่
 
-Aspose.PDF สำหรับ Java มีความสามารถในการแก้ไขอันทรงพลัง แต่สิ่งสำคัญคือต้องทดสอบเอกสารที่แก้ไขอย่างละเอียดถี่ถ้วนเพื่อให้มั่นใจว่าไม่มีการรั่วไหลของข้อมูลที่ไม่ได้ตั้งใจเกิดขึ้น
+Aspose.PDF สำหรับ Java มีความสามารถในการแก้ไขที่ทรงพลัง แต่สิ่งสำคัญคือต้องทดสอบเอกสารที่แก้ไขอย่างละเอียดถี่ถ้วนเพื่อให้มั่นใจว่าไม่มีการรั่วไหลของข้อมูลที่ไม่ได้ตั้งใจเกิดขึ้น
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

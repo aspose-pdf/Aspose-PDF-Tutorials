@@ -1,14 +1,16 @@
 ---
-title: Perbarui Warna Teks Tautan Dalam File PDF
-linktitle: Perbarui Warna Teks Tautan Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memperbarui warna teks tautan dalam file PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda melalui setiap detail dengan contoh yang mudah diikuti.
-weight: 130
-url: /id/net/programming-with-links-and-actions/update-link-text-color/
+"description": "Pelajari cara memperbarui warna teks tautan dalam file PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda melalui setiap detail dengan contoh yang mudah diikuti."
+"linktitle": "Perbarui Warna Teks Tautan Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Perbarui Warna Teks Tautan Dalam File PDF"
+"url": "/id/net/programming-with-links-and-actions/update-link-text-color/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perbarui Warna Teks Tautan Dalam File PDF
@@ -21,7 +23,7 @@ Dokumen PDF ada di mana-mana. Baik Anda mengirim kontrak, berbagi laporan, atau 
 
 Sebelum Anda dapat mengikuti tutorial ini, ada beberapa hal yang perlu Anda siapkan:
 
--  Aspose.PDF untuk .NET: Anda harus memasang pustaka ini di proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Anda harus memasang pustaka ini di proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 - Lingkungan Pengembangan: Siapkan proyek di Visual Studio atau IDE lain yang kompatibel dengan .NET.
 - Pengetahuan Dasar C#: Anda tidak perlu menjadi ahli C#, tetapi pemahaman dasar yang baik akan membantu.
 - Contoh Berkas PDF: Untuk tutorial ini, pastikan Anda memiliki berkas PDF dengan setidaknya satu hyperlink di dalamnya.
@@ -53,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "UpdateLinks.pdf");
 ```
 
-Dalam cuplikan ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke file PDF Anda.`Document` kelas dari Aspose.PDF bertanggung jawab untuk memuat berkas ke dalam aplikasi Anda.
+Dalam cuplikan ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur ke file PDF Anda. `Document` kelas dari Aspose.PDF bertanggung jawab untuk memuat berkas ke dalam aplikasi Anda.
 
 ## Langkah 2: Akses Anotasi dalam PDF
 
@@ -69,11 +71,11 @@ foreach (Annotation annotation in doc.Pages[1].Annotations)
 }
 ```
 
- Di sini, kita fokus pada anotasi di halaman pertama.`LinkAnnotation` tipe secara khusus mengacu pada hyperlink dalam dokumen.
+Di sini, kita fokus pada anotasi di halaman pertama. `LinkAnnotation` tipe secara khusus mengacu pada hyperlink dalam dokumen.
 
 ## Langkah 3: Temukan Teks di Bawah Anotasi
 
- Sekarang setelah Anda mengidentifikasi anotasi tautan, tugas selanjutnya adalah menemukan teks yang terkait dengan hyperlink ini. Untuk melakukannya, kami menggunakan`TextFragmentAbsorber`, yang memungkinkan kita mencari teks dalam persegi panjang tertentu.
+Sekarang setelah Anda mengidentifikasi anotasi tautan, tugas selanjutnya adalah menemukan teks yang terkait dengan hyperlink ini. Untuk melakukannya, kami menggunakan `TextFragmentAbsorber`, yang memungkinkan kita mencari teks dalam persegi panjang tertentu.
 
 ```csharp
 TextFragmentAbsorber ta = new TextFragmentAbsorber();
@@ -100,7 +102,7 @@ foreach (TextFragment tf in ta.TextFragments)
 }
 ```
 
- Dalam cuplikan ini, kami mengulang fragmen teks yang teridentifikasi dan memperbarui warna latar depannya menjadi merah. Anda dapat memilih warna apa pun yang Anda suka hanya dengan memodifikasi`Color.Red` bagian.
+Dalam cuplikan ini, kami mengulang fragmen teks yang teridentifikasi dan memperbarui warna latar depannya menjadi merah. Anda dapat memilih warna apa pun yang Anda suka hanya dengan memodifikasi `Color.Red` bagian.
 
 ## Langkah 5: Simpan PDF yang Diperbarui
 
@@ -113,7 +115,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nLinkAnnotation text color updated successfully.\nFile saved at " + dataDir);
 ```
 
- Di sini, dokumen disimpan dengan nama baru sehingga file asli Anda tetap tidak tersentuh.`Console.WriteLine` pernyataan memberikan umpan balik bahwa proses tersebut berhasil.
+Di sini, dokumen disimpan dengan nama baru sehingga file asli Anda tetap tidak tersentuh. `Console.WriteLine` pernyataan memberikan umpan balik bahwa proses tersebut berhasil.
 
 ## Kesimpulan
 
@@ -124,22 +126,24 @@ Jika Anda sering bekerja dengan PDF, memiliki alat seperti Aspose.PDF di perangk
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengubah warna teks tautan ke warna lain?  
- Ya, Anda dapat mengubah warna ke warna apa pun yang tersedia di`System.Drawing.Color` namespace. Misalnya,`Color.Blue` atau`Color.Green`.
+Ya, Anda dapat mengubah warna ke warna apa pun yang tersedia di `System.Drawing.Color` namespace. Misalnya, `Colatau.Blue` or `Color.Green`.
 
 ### Bisakah saya memperbarui teks di beberapa halaman sekaligus?  
-Ya, Anda dapat mengulang setiap halaman dalam dokumen dan menerapkan proses yang sama untuk memperbarui tautan di semua halaman.
+Ya, Anda dapat melakukan pengulangan pada setiap halaman dalam dokumen dan menerapkan proses yang sama untuk memperbarui tautan di semua halaman.
 
 ### Apakah saya memerlukan lisensi berbayar untuk Aspose.PDF?  
- Aspose.PDF menawarkan versi uji coba berbayar dan gratis. Untuk proyek yang lebih besar, sebaiknya gunakan versi berbayar. Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Aspose.PDF menawarkan versi uji coba berbayar dan gratis. Untuk proyek yang lebih besar, sebaiknya gunakan versi berbayar. Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Apakah mungkin untuk mengubah properti tautan lainnya?  
 Ya, selain warna, Anda dapat mengubah berbagai properti seperti ukuran font, gaya, atau bahkan URL tujuan.
 
 ### Bagaimana saya dapat mengembalikan perubahan jika terjadi kesalahan?  
 Sebaiknya simpan dokumen yang dimodifikasi sebagai file baru, dan biarkan dokumen asli tidak berubah. Dengan cara ini, Anda selalu dapat kembali ke dokumen asli jika perlu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

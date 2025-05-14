@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/change-orientation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Orientation
@@ -145,6 +147,7 @@ Once you save the document, the changes are permanent. Be sure to work on a copy
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

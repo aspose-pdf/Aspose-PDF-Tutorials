@@ -1,14 +1,16 @@
 ---
-title: Операции с PDF-документами
-linktitle: Операции с PDF-документами
-second_title: API обработки Java PDF Aspose.PDF
-description: Изучите операции с PDF-документами с помощью Aspose.PDF для Java. Узнайте, как легко манипулировать, создавать и улучшать PDF-файлы в Java.
-weight: 17
-url: /ru/java/pdf-document-operations/
+"description": "Изучите операции с PDF-документами с помощью Aspose.PDF для Java. Узнайте, как легко манипулировать, создавать и улучшать PDF-файлы в Java."
+"linktitle": "Операции с PDF-документами"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Операции с PDF-документами"
+"url": "/ru/java/pdf-document-operations/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Операции с PDF-документами
@@ -41,9 +43,11 @@ Aspose.PDF для Java открывает двери для динамическ
 Узнайте, как добавлять штампы страниц PDF в Java с помощью Aspose.PDF. Это пошаговое руководство покажет вам, как легко настраивать штампы для ваших PDF-документов.
 ### [Добавление текста в верхний или нижний колонтитул PDF-файла с помощью Java](./adding-text-in-header-or-footer-of-pdf-file-using-java/)
 Узнайте, как улучшить PDF-документы, добавив текст в верхний или нижний колонтитул с помощью Java. Изучите пошаговые инструкции с Aspose.PDF для Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

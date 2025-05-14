@@ -1,14 +1,16 @@
 ---
-title: Akses Elemen Anak
-linktitle: Akses Elemen Anak
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengakses dan memodifikasi elemen anak dalam PDF yang diberi tag dengan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini.
-weight: 10
-url: /id/net/programming-with-tagged-pdf/access-children-elements/
+"description": "Pelajari cara mengakses dan memodifikasi elemen anak dalam PDF yang diberi tag dengan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini."
+"linktitle": "Akses Elemen Anak"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Akses Elemen Anak"
+"url": "/id/net/programming-with-tagged-pdf/access-children-elements/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Akses Elemen Anak
@@ -22,7 +24,7 @@ Dalam hal memanipulasi dokumen PDF secara terprogram, Aspose.PDF for .NET unggul
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda ketahui untuk memulai:
 
 1. .NET Framework: Pastikan Anda memiliki versi .NET Framework yang terpasang di komputer Anda. Aspose.PDF juga mendukung .NET Core.
-2.  Aspose.PDF untuk .NET: Anda harus menginstal pustaka Aspose.PDF. Anda dapat mengunduh versi terbaru dari[Halaman Unduhan Aspose](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda harus menginstal pustaka Aspose.PDF. Anda dapat mengunduh versi terbaru dari [Halaman Unduhan Aspose](https://releases.aspose.com/pdf/net/).
 3. Lingkungan Pengembangan: Siapkan IDE seperti Visual Studio tempat Anda dapat menulis dan menjalankan kode C# Anda.
 4. Contoh Berkas PDF: Anda memerlukan contoh dokumen PDF yang diberi tag untuk digunakan. Untuk tutorial ini, kita akan menggunakan "StructureElementsTree.pdf", yang harus Anda tempatkan di direktori dokumen proyek Anda.
 
@@ -52,7 +54,7 @@ Mari kita mulai dengan menentukan direktori tempat Anda akan menyimpan dokumen P
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cukup ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda. 
+Cukup ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda. 
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -121,7 +123,7 @@ Sekarang setelah kita mengakses elemen akar, mari selami lebih dalam elemen akar
 elementList = taggedContent.RootElement.ChildElements[1].ChildElements;
 ```
 
- Dengan mengubah`ChildElements[1]` ke indeks lain, Anda dapat menjelajahi elemen akar yang berbeda, jika ada.
+Dengan mengubah `ChildElements[1]` ke indeks lain, Anda dapat menjelajahi elemen akar yang berbeda, jika ada.
 
 ## Langkah 7: Ubah Properti Elemen Anak
 
@@ -172,13 +174,15 @@ Ya, meskipun tutorial ini berfokus pada elemen struktur, jenis elemen lainnya ju
 Anda dapat mencobanya secara gratis pada awalnya, tetapi pembelian mungkin diperlukan untuk fitur dan dukungan penuh.
 
 ### Apakah Aspose.PDF kompatibel dengan .NET Core?
-Ya, Aspose.PDF mendukung .NET Core dan versi .NET Framework lainnya.
+Ya, Aspose.PDF mendukung .NET Core bersama dengan versi lain dari .NET Framework.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?
- Anda dapat menemukan dokumentasi tambahan di[Halaman Dokumentasi Aspose](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi tambahan di [Halaman Dokumentasi Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

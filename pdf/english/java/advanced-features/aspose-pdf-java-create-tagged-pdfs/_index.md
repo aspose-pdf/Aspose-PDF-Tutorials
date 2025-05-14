@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Accessible Tagged PDFs Using Aspose.PDF for Java: A Complete Guide
 ## Introduction
@@ -189,7 +191,11 @@ By following this guide, you've learned how to create accessible tagged PDFs wit
 - **Purchase:** Obtain a license through [Aspose Purchase Page](https://purchase.aspose.com/buy).
 - **Free Trial:** Start with a trial from [Aspose Free Trials](https://releases.aspose.com/pdf/java/).
 - **Temporary License:** Get temporary access for evaluation at [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

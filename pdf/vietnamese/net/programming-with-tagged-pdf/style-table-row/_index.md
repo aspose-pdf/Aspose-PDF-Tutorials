@@ -1,17 +1,19 @@
 ---
-title: Hàng của bảng kiểu
-linktitle: Hàng của bảng kiểu
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách định dạng hàng bảng trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước để cải thiện định dạng tài liệu của bạn một cách dễ dàng.
-weight: 180
-url: /vi/net/programming-with-tagged-pdf/style-table-row/
+"description": "Tìm hiểu cách định dạng hàng bảng trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước để cải thiện định dạng tài liệu của bạn một cách dễ dàng."
+"linktitle": "Kiểu hàng bảng"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Kiểu hàng bảng"
+"url": "/vi/net/programming-with-tagged-pdf/style-table-row/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hàng của bảng kiểu
+# Kiểu hàng bảng
 
 ## Giới thiệu
 
@@ -22,7 +24,7 @@ Khi nói đến việc tạo các tài liệu PDF có cấu trúc tốt và đ�
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn đã chuẩn bị mọi thứ chu đáo. Bạn sẽ cần:
 
 1. Aspose.PDF cho Thư viện .NET  
-    Nếu bạn chưa có nó, bạn có thể lấy nó từ[đây](https://releases.aspose.com/pdf/net/) . Bạn cũng có thể nhận được một[dùng thử miễn phí](https://releases.aspose.com/) để bắt đầu.
+   Nếu bạn chưa có nó, bạn có thể lấy nó từ [đây](https://releases.aspose.com/pdf/net/). Bạn cũng có thể nhận được một [dùng thử miễn phí](https://releases.aspose.com/) để bắt đầu.
 2. Môi trường phát triển  
    Thiết lập Visual Studio hoặc bất kỳ IDE C# nào bạn chọn. Bạn cũng cần cài đặt .NET, nhưng tôi đoán là bạn đã quen với điều đó rồi.
 3. Kiến thức cơ bản về C# và .NET  
@@ -48,7 +50,7 @@ Bây giờ chúng ta hãy phân tích từng bước thực hiện để bạn c
 
 ## Bước 1: Tạo một tài liệu PDF mới
 
-Trước tiên: hãy tạo một tài liệu PDF hoàn toàn mới. Tài liệu này sẽ chứa tất cả các hàng bảng được định dạng.
+Trước tiên, hãy tạo một tài liệu PDF hoàn toàn mới. Tài liệu này sẽ chứa tất cả các hàng bảng được định dạng.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Ở đây, chúng tôi chỉ đơn giản là khởi tạo một cái mới`Document` đối tượng sẽ đại diện cho tệp PDF của chúng ta. Hãy đảm bảo thiết lập đường dẫn thư mục nơi bạn sẽ lưu các tệp đầu ra.
+Ở đây, chúng tôi chỉ đơn giản là khởi tạo một cái mới `Document` đối tượng sẽ đại diện cho tệp PDF của chúng ta. Hãy đảm bảo thiết lập đường dẫn thư mục nơi bạn sẽ lưu các tệp đầu ra.
 
 ## Bước 2: Làm việc với Nội dung được gắn thẻ
 
@@ -133,7 +135,7 @@ for (int rowIndex = 0; rowIndex < 7; rowIndex++)
 
 - Màu nền: Chúng tôi sử dụng màu vàng kim nhạt để tạo cảm giác chuyên nghiệp nhưng ấm áp.
 - Đường viền: Mỗi hàng có đường viền ngoài màu xám đậm và đường viền ô màu xanh lam để có giao diện sắc nét.
-- Chiều cao và khoảng đệm: Chiều cao của hàng được thiết lập và khoảng đệm được thêm vào để có giao diện gọn gàng.
+- Chiều cao và khoảng đệm: Chiều cao của hàng được thiết lập và thêm khoảng đệm để có giao diện gọn gàng.
 - Ngắt trang: Để bảng dễ đọc hơn, mỗi hàng thứ hai sẽ bắt đầu ở một trang mới.
 
 ## Bước 6: Thêm Hàng Chân Trang
@@ -176,15 +178,15 @@ Console.WriteLine(String.Format("PDF/UA compliance: {0}", isPdfUaCompliance));
 
 ## Phần kết luận
 
-Và bạn đã có nó! Chỉ với một vài dòng mã, bạn đã tạo một bảng được định dạng đầy đủ trong PDF bằng Aspose.PDF cho .NET. Từ tiêu đề đến chân trang, chúng tôi đã định dạng từng hàng, thêm các thành phần trợ năng và thậm chí xác thực tài liệu để tuân thủ. Cho dù bạn đang làm việc trên các báo cáo của công ty, bản trình bày hay chỉ đang giải trí với PDF, hướng dẫn này sẽ giúp bạn. Bây giờ, hãy tiếp tục và bắt đầu định dạng bảng của bạn như một chuyên gia!
+Và bạn đã có nó! Chỉ với một vài dòng mã, bạn đã tạo một bảng được định dạng đầy đủ trong PDF bằng Aspose.PDF cho .NET. Từ tiêu đề đến chân trang, chúng tôi đã định dạng từng hàng, thêm các thành phần trợ năng và thậm chí xác thực tài liệu để tuân thủ. Cho dù bạn đang làm việc trên các báo cáo của công ty, bản trình bày hay chỉ đang giải trí với PDF, hướng dẫn này sẽ giúp bạn. Bây giờ, hãy bắt đầu định dạng bảng của bạn như một chuyên gia!
 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thay đổi kiểu phông chữ của bảng không?  
- Có! Bạn có thể sửa đổi kiểu phông chữ bằng cách sử dụng`TextState` đối tượng cho mỗi ô, cho phép tùy chỉnh đầy đủ.
+Có! Bạn có thể sửa đổi kiểu phông chữ bằng cách sử dụng `TextState` đối tượng cho mỗi ô, cho phép tùy chỉnh đầy đủ.
 
 ### Làm thế nào để thêm nhiều cột vào bảng của tôi?  
- Chỉ cần điều chỉnh`colCount`biến và thêm nhiều ô hơn vào vòng lặp cho phần đầu trang, phần thân và phần chân trang.
+Chỉ cần điều chỉnh `colCount` biến và thêm nhiều ô hơn vào vòng lặp cho phần đầu trang, phần thân và phần chân trang.
 
 ### Điều gì xảy ra nếu tôi không thiết lập chiều cao hàng?  
 Nếu bạn không thiết lập chiều cao hàng, bảng sẽ tự động điều chỉnh dựa trên nội dung.
@@ -193,10 +195,12 @@ Nếu bạn không thiết lập chiều cao hàng, bảng sẽ tự động đi
 Hoàn toàn có thể! Bạn có thể lấy dữ liệu từ cơ sở dữ liệu hoặc bất kỳ nguồn nào khác và điều chỉnh số lượng hàng và cột một cách linh hoạt.
 
 ### Aspose.PDF cho .NET có miễn phí sử dụng không?  
- Aspose.PDF cho .NET là một sản phẩm được cấp phép, nhưng bạn có thể dùng thử với[dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF cho .NET là một sản phẩm được cấp phép, nhưng bạn có thể dùng thử với [dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

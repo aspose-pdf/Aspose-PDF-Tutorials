@@ -1,46 +1,51 @@
 ---
-title: إنشاء PDF مع مستطيلات وألوان ألفا في Aspose.PDF 
-weight: 7700
-limit: 
-description: تعلم كيفية إنشاء PDF مع مستطيلات باستخدام Aspose.PDF لـ .NET وتطبيق ألوان ألفا. دليل خطوة بخطوة مع التعليمات التعليمية والتركيب.
-keywords: [Aspose.PDF for .NET, create PDF, draw rectangles in PDF, alpha colors in PDF, .NET PDF library, PDF graphics, C# PDF generation]
-url: /ar/net/graphs/create-rectangle-with-alpha-color/
+"description": "تعلّم كيفية إنشاء ملف PDF بمستطيلات باستخدام Aspose.PDF لـ .NET وتطبيق ألوان ألفا. دليل خطوة بخطوة مع التعليمات البرمجية وتعليمات التثبيت."
+"title": "إنشاء ملف PDF باستخدام المستطيلات وألوان ألفا في Aspose.PDF"
+"url": "/ar/net/graphs/create-rectangle-with-alpha-color/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء PDF مع مستطيلات وألوان ألفا في Aspose.PDF
+# إنشاء ملف PDF باستخدام المستطيلات وألوان ألفا في Aspose.PDF
 
-Aspose.PDF لـ .NET هي مكتبة قوية لإنشاء وتعديل وتحويل مستندات PDF باللغة C#. في هذا المثال، ستتعلم كيفية إنشاء ملف PDF و رسم مستطيلات بألوان ألفا. نستخدم`فرض.pdf.رسومات.رسومات`هذا البرنامج التعليمي يوفر دليل خطوة بخطوة مع نموذج رمز، مما يضمن يمكنك بسهولة تنفيذه في تطبيقات .NET الخاصة بك.  
+Aspose.PDF for .NET هي مكتبة فعّالة لإنشاء مستندات PDF ومعالجتها وتحويلها باستخدام لغة C#. في هذا المثال، ستتعلم كيفية إنشاء ملف PDF ورسم مستطيلات بألوان ألفا. نستخدم `Aspose.Pdf.Drawing.Graph` فئة لإضافة الأشكال وتطبيق تأثيرات الشفافية باستخدام ألوان ARGB. يوفر هذا البرنامج التعليمي دليلاً خطوة بخطوة مع نموذج من التعليمات البرمجية، مما يضمن سهولة تطبيقه في تطبيقات .NET.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/create-rectangle-with-alpha-color" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
-لاستخدام Aspose.PDF لـ .NET في مشروعك، اتبع هذه الخطوات:  
+لاستخدام Aspose.PDF لـ .NET في مشروعك، اتبع الخطوات التالية:  
 
-1. تثبيت عن طريق NuGet  
-قم بتشغيل الأمر التالي في وحدة التحكم في حزم NuGet:  
+1. التثبيت عبر NuGet  
+قم بتشغيل الأمر التالي في وحدة التحكم في إدارة الحزم NuGet:  
 ```powershell
 Install-Package Aspose.PDF
 ```
 
-2. إضافة مساحة الأسماء في لغة C#  
-تضمّن مساحات الأسماء المطلوبة في بداية ملف C# الخاص بك:  
+2. إضافة مساحة الاسم في C#  
+قم بتضمين مساحات الأسماء المطلوبة في بداية ملف C# الخاص بك:  
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 ```
 
-للحصول على وثائق مفصلة، يرجى زيارة:  
-[Aspose.PDF لتوثيق .NET](https://docs.aspose.com/pdf/net/)  
-[Aspose.PDF لمرجع .NET API](https://reference.aspose.com/pdf/net/)  
+للحصول على توثيق مفصل، قم بزيارة:  
+[توثيق Aspose.PDF لـ .NET](https://docs.aspose.com/pdf/net/)  
+[مرجع Aspose.PDF لـ API .NET](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dodaj podpowiedź do pola formularza PDF za pomocą Java
-linktitle: Dodaj podpowiedź do pola formularza PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać podpowiedzi do pól formularzy PDF za pomocą Java. Przewodnik krok po kroku dotyczący korzystania z Aspose.PDF dla API Java.
-weight: 11
-url: /pl/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
+"description": "Dowiedz się, jak dodawać podpowiedzi do pól formularzy PDF za pomocą Java. Przewodnik krok po kroku dotyczący korzystania z Aspose.PDF dla API Java."
+"linktitle": "Dodaj podpowiedź do pola formularza PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodaj podpowiedź do pola formularza PDF za pomocą Java"
+"url": "/pl/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj podpowiedź do pola formularza PDF za pomocą Java
@@ -16,7 +18,7 @@ url: /pl/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
 
 ## Wprowadzenie do dodawania podpowiedzi do pola formularza PDF za pomocą języka Java
 
-W tym artykule przyjrzymy się sposobowi dodawania podpowiedzi do pól formularza PDF przy użyciu języka Java i biblioteki Aspose.PDF. Podpowiedzi dostarczają cennych informacji, gdy użytkownicy najeżdżają kursorem na pola formularza w dokumencie PDF. Dodawanie podpowiedzi może poprawić komfort użytkowania i sprawić, że formularze PDF będą bardziej przyjazne dla użytkownika.
+tym artykule przyjrzymy się sposobowi dodawania podpowiedzi do pól formularza PDF za pomocą języka Java i biblioteki Aspose.PDF. Podpowiedzi dostarczają cennych informacji, gdy użytkownicy najeżdżają kursorem na pola formularza w dokumencie PDF. Dodawanie podpowiedzi może poprawić komfort użytkowania i sprawić, że formularze PDF będą bardziej przyjazne dla użytkownika.
 
 ## Zrozumienie podpowiedzi w polach formularzy PDF
 
@@ -28,7 +30,7 @@ Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Zainstalowano Java Development Kit (JDK)
 - Zintegrowane środowisko programistyczne (IDE), takie jak Eclipse lub IntelliJ IDEA
--  Aspose.PDF dla biblioteki Java (Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF dla biblioteki Java (Możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/)
 
 ## Dodawanie zależności
 
@@ -48,13 +50,13 @@ Document pdfDocument = new Document();
 Następnie dodajmy pola formularza do naszego dokumentu PDF. Możesz dodać różne typy pól formularza, takie jak pola tekstowe, pola wyboru, przyciski radiowe i inne. W tym przykładzie dodamy pole tekstowe.
 
 ```java
-//Kod Java do dodania pola tekstowego
+// Kod Java do dodania pola tekstowego
 TextField textField = new TextField(pdfDocument.getPages().get_Item(1), new Rectangle(100, 100, 200, 30));
 ```
 
 ## Dodawanie podpowiedzi do pól formularza
 
- Teraz nadchodzi najważniejsza część — dodawanie podpowiedzi do pól formularza. Możemy ustawić tekst podpowiedzi dla pola za pomocą`setTooltip` metoda.
+Teraz nadchodzi kluczowa część — dodawanie podpowiedzi do pól formularza. Możemy ustawić tekst podpowiedzi dla pola za pomocą `setTooltip` metoda.
 
 ```java
 // Kod Java dodający podpowiedź do pola tekstowego
@@ -88,7 +90,7 @@ Możesz pobrać Aspose.PDF dla Java ze strony internetowej Aspose. Postępuj zgo
 
 Tak, możesz dostosować wygląd podpowiedzi, w tym ich czcionkę, kolor i położenie. Zapoznaj się z dokumentacją Aspose.PDF, aby uzyskać szczegółowe informacje na temat opcji dostosowywania.
 
-### Czy mogę dodać podpowiedzi do istniejących formularzy PDF?
+### Czy mogę dodawać podpowiedzi do istniejących formularzy PDF?
 
 Tak, możesz dodać podpowiedzi do pól formularza w istniejących dokumentach PDF. Po prostu załaduj plik PDF, uzyskaj dostęp do pól formularza i ustaw podpowiedzi, jak pokazano w tym artykule.
 
@@ -99,9 +101,11 @@ Podpowiedzi stanowią standardową funkcję plików PDF i są obsługiwane przez
 ### Czy mogę dodać podpowiedzi do elementów pliku PDF, które nie są elementami formularza?
 
 Nie, podpowiedzi są zazwyczaj powiązane z polami formularzy w dokumentach PDF. Jeśli musisz dodać podpowiedzi do elementów innych niż formularz, możesz potrzebować poznać inne techniki edycji PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

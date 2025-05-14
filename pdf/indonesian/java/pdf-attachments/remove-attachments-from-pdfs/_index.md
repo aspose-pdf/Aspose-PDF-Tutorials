@@ -1,14 +1,16 @@
 ---
-title: Hapus Lampiran dari PDF
-linktitle: Hapus Lampiran dari PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menghapus lampiran dari PDF di Java dengan Aspose.PDF. Panduan langkah demi langkah dan kode untuk manipulasi PDF.
-weight: 11
-url: /id/java/pdf-attachments/remove-attachments-from-pdfs/
+"description": "Pelajari cara menghapus lampiran dari PDF di Java dengan Aspose.PDF. Panduan langkah demi langkah dan kode untuk manipulasi PDF."
+"linktitle": "Hapus Lampiran dari PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Hapus Lampiran dari PDF"
+"url": "/id/java/pdf-attachments/remove-attachments-from-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Lampiran dari PDF
@@ -23,7 +25,7 @@ Di era digital saat ini, bekerja dengan file PDF telah menjadi bagian integral d
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
--  Aspose.PDF untuk Java: Anda dapat mengunduh pustaka dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Anda dapat mengunduh pustaka dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Proyek Anda
 
@@ -75,7 +77,7 @@ Cobalah dan lihat bagaimana Aspose.PDF menyederhanakan pekerjaan dengan dokumen 
 
 ### Bagaimana cara memeriksa apakah PDF memiliki lampiran sebelum menghapusnya?
 
- Anda dapat menggunakan`getEmbeddedFiles()` metode untuk mengambil koleksi lampiran. Jika kosong, berarti tidak ada lampiran dalam PDF.
+Anda dapat menggunakan `getEmbeddedFiles()` metode untuk mengambil koleksi lampiran. Jika kosong, tidak ada lampiran dalam PDF.
 
 ### Bisakah saya menghapus lampiran tertentu dan tetap menyimpan yang lain?
 
@@ -91,10 +93,12 @@ Ya, Aspose.PDF tersedia untuk berbagai bahasa pemrograman, membuatnya serbaguna 
 
 ### Bagaimana saya bisa mendapatkan bantuan lebih lanjut dengan Aspose.PDF untuk Java?
 
- Anda dapat mengunjungi dokumentasi Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/) untuk informasi dan contoh terperinci.
+Anda dapat mengunjungi dokumentasi Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/) untuk informasi dan contoh terperinci.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

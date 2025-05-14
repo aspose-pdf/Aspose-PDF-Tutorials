@@ -1,76 +1,78 @@
 ---
-title: Aktualizujte dětské záložky v souboru PDF
-linktitle: Aktualizujte dětské záložky v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak aktualizovat podřízené záložky v souborech PDF pomocí Aspose.PDF for .NET pomocí tohoto podrobného průvodce. Vylepšete svou navigaci ve formátu PDF.
-weight: 110
-url: /cs/net/programming-with-bookmarks/update-child-bookmarks/
+"description": "Naučte se, jak aktualizovat podřízené záložky v souborech PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Vylepšete si navigaci v PDF."
+"linktitle": "Aktualizovat podřízené záložky v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Aktualizovat podřízené záložky v souboru PDF"
+"url": "/cs/net/programming-with-bookmarks/update-child-bookmarks/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aktualizujte dětské záložky v souboru PDF
+# Aktualizovat podřízené záložky v souboru PDF
 
 ## Zavedení
 
-Přistihli jste se někdy, že procházíte dokumentem PDF se složitou strukturou, abyste si uvědomili, že záložky jsou zastaralé nebo nesprávné? Může to být frustrující, že? No, nebojte se! V tomto tutoriálu se ponoříme do světa Aspose.PDF pro .NET a naučíme se, jak aktualizovat podřízené záložky v souboru PDF. Tato výkonná knihovna vám umožňuje snadno manipulovat s dokumenty PDF a na konci této příručky budete moci bez námahy vylepšit svou navigaci v PDF.
+Už se vám někdy stalo, že jste při procházení PDF dokumentu se složitou strukturou zjistili, že záložky jsou zastaralé nebo nesprávné? Může to být frustrující, že? Nebojte se! V tomto tutoriálu se ponoříme do světa Aspose.PDF pro .NET a naučíme se, jak aktualizovat podzáložky v souboru PDF. Tato výkonná knihovna vám umožňuje snadno manipulovat s PDF dokumenty a po přečtení tohoto průvodce budete schopni bez námahy vylepšit navigaci v PDF.
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete, abyste mohli začít:
+Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete k zahájení:
 
-1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to výchozí IDE pro vývoj .NET.
-2.  Aspose.PDF for .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Můžete to najít[zde](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to klíčové vývojové prostředí (IDE) pro vývoj v .NET.
+2. Aspose.PDF pro .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Najdete ji [zde](https://releases.aspose.com/pdf/net/).
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět úryvkům kódu.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li pracovat s Aspose.PDF, musíte do svého projektu C# importovat potřebné jmenné prostory. Můžete to udělat takto:
+Pro práci s Aspose.PDF je nutné importovat potřebné jmenné prostory do vašeho projektu v C#. Zde je návod, jak to udělat:
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Outline;
 ```
 
-Tyto jmenné prostory vám umožní přístup ke třídám a metodám potřebným pro manipulaci s dokumenty PDF a jejich záložkami.
+Tyto jmenné prostory vám poskytnou přístup ke třídám a metodám potřebným k manipulaci s dokumenty PDF a jejich záložkami.
 
-Nyní, když máme naše předpoklady vyřešené, pojďme si rozdělit proces aktualizace podřízených záložek do zvládnutelných kroků.
+Nyní, když máme vyřešené předpoklady, pojďme si rozdělit proces aktualizace podřízených záložek na zvládnutelné kroky.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíte zadat cestu k adresáři dokumentů. Zde se nachází váš soubor PDF. Můžete to udělat takto:
+Nejdříve je třeba zadat cestu k adresáři s vašimi dokumenty. Zde se nachází váš PDF soubor. Zde je návod, jak to udělat:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde je uložen váš soubor PDF. Tento krok je zásadní, protože sdělí vašemu programu, kde má najít PDF, se kterým chcete pracovat.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam je váš PDF soubor uložen. Tento krok je klíčový, protože sděluje programu, kde má najít PDF, se kterým chcete pracovat.
 
 ## Krok 2: Otevřete dokument PDF
 
-Dále musíme otevřít dokument PDF, který obsahuje záložky, které chcete aktualizovat. Zde je kód, jak to udělat:
+Dále musíme otevřít dokument PDF, který obsahuje záložky, které chcete aktualizovat. Zde je kód, který to provede:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "UpdateChildBookmarks.pdf");
 ```
 
- Tento řádek kódu vytvoří nový`Document` objekt, který představuje váš soubor PDF. Ujistěte se, že název souboru odpovídá názvu, který máte v adresáři.
+Tento řádek kódu vytvoří nový `Document` objekt, který představuje váš PDF soubor. Ujistěte se, že název souboru odpovídá názvu souboru ve vašem adresáři.
 
-## Krok 3: Otevřete sbírku záložek
+## Krok 3: Přístup ke sbírce záložek
 
- Nyní, když máme dokument otevřený, je čas na přístup k záložkám. Záložky v PDF jsou uspořádány do kolekce tzv`Outlines`. Můžete se k nim dostat takto:
+Nyní, když máme dokument otevřený, je čas přistupovat k záložkám. Záložky v PDF jsou uspořádány do kolekce s názvem `Outlines`Zde je návod, jak se k nim dostat:
 
 ```csharp
 OutlineItemCollection pdfOutline = pdfDocument.Outlines[1];
 ```
 
-V tomto řádku přistupujeme k druhé záložce v kolekci (index 1). Pamatujte, že kolekce v programování často začínají na nule, takže je upravte podle struktury vašeho dokumentu.
+V tomto řádku přistupujeme k druhé záložce v kolekci (index 1). Nezapomeňte, že kolekce v programování často začínají od nuly, proto je upravte podle struktury vašeho dokumentu.
 
-## Krok 4: Získejte dětskou záložku
+## Krok 4: Získejte podřízenou záložku
 
-Jakmile máte nadřazenou záložku, můžete přistupovat k jejím podřízeným záložkám. Řekněme, že chcete aktualizovat druhou podřízenou záložku. Můžete to udělat takto:
+Jakmile máte nadřazenou záložku, můžete přistupovat k jejím podřízeným záložkám. Řekněme, že chcete aktualizovat druhou podřízenou záložku. Zde je návod, jak to udělat:
 
 ```csharp
 OutlineItemCollection childOutline = pdfOutline[1];
@@ -78,9 +80,9 @@ OutlineItemCollection childOutline = pdfOutline[1];
 
 Tento řádek načte druhou podřízenou záložku nadřazené záložky, ke které jsme přistupovali v předchozím kroku.
 
-## Krok 5: Aktualizujte vlastnosti podřízené záložky
+## Krok 5: Aktualizace vlastností podřízené záložky
 
-Nyní přichází ta zábavná část! Vlastnosti podřízené záložky můžete aktualizovat. Změňme například nadpis a zvýrazněme jej tučným písmem a kurzívou:
+teď přichází ta zábavná část! Můžete aktualizovat vlastnosti podřízené záložky. Například změníme název a nastavíme ho tučně a kurzívou:
 
 ```csharp
 childOutline.Title = "Updated Outline";
@@ -88,52 +90,54 @@ childOutline.Italic = true;
 childOutline.Bold = true;
 ```
 
-Neváhejte a upravte si název podle toho, co chcete. Toto je vaše šance, aby byla záložka popisnější a vizuálně přitažlivější.
+Nebojte se upravit název podle svých představ. Toto je vaše šance, jak záložku vylepšit a učinit ji vizuálně atraktivnější.
 
-## Krok 6: Uložte aktualizovaný dokument PDF
+## Krok 6: Uložení aktualizovaného dokumentu PDF
 
-Po provedení nezbytných změn je čas uložit aktualizovaný dokument PDF. Můžete to udělat takto:
+Po provedení potřebných změn je čas uložit aktualizovaný dokument PDF. Zde je návod, jak to udělat:
 
 ```csharp
 dataDir = dataDir + "UpdateChildBookmarks_out.pdf";            
 pdfDocument.Save(dataDir);
 ```
 
-Tento kód uloží upravený PDF pod novým názvem, čímž zajistí, že váš původní dokument zůstane nedotčen. 
+Tento kód uloží upravený PDF soubor s novým názvem, čímž zajistí, že původní dokument zůstane nedotčen. 
 
 ## Krok 7: Potvrďte aktualizaci
 
-Nakonec si pojďme potvrdit, že vše proběhlo hladce. Můžete vytisknout zprávu do konzole, abyste věděli, že podřízené záložky byly úspěšně aktualizovány:
+Nakonec si ověřme, že vše proběhlo hladce. Do konzole můžete vypsat zprávu s oznámením, že podřízené záložky byly úspěšně aktualizovány:
 
 ```csharp
 Console.WriteLine("\nChild bookmarks updated successfully.\nFile saved at " + dataDir);
 ```
 
-Tato jednoduchá zpráva vám dá jistotu, že vaše změny byly použity správně.
+Tato jednoduchá zpráva vám poskytne klid, že vaše změny byly provedeny správně.
 
 ## Závěr
 
-tady to máte! Úspěšně jste aktualizovali podřízené záložky v souboru PDF pomocí Aspose.PDF pro .NET. Pomocí pouhých několika řádků kódu můžete vylepšit navigaci ve svých dokumentech PDF a učinit je uživatelsky přívětivějšími a organizovanějšími. Ať už pracujete na osobním projektu nebo na profesionální aplikaci, zvládnutí manipulace s PDF může změnit hru.
+je to! Úspěšně jste aktualizovali podzáložky v souboru PDF pomocí Aspose.PDF pro .NET. Pomocí několika řádků kódu můžete vylepšit navigaci v dokumentech PDF, učinit je uživatelsky přívětivějšími a organizovanějšími. Ať už pracujete na osobním projektu nebo profesionální aplikaci, zvládnutí manipulace s PDF může být zlomové.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty PDF programově.
+Aspose.PDF pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět PDF dokumenty.
 
 ### Mohu používat Aspose.PDF zdarma?
- Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání jejích funkcí. Můžete si jej stáhnout[zde](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání jejích funkcí. Můžete si ji stáhnout. [zde](https://releases.aspose.com/).
 
 ### Jak získám podporu pro Aspose.PDF?
- Podporu můžete získat návštěvou fóra Aspose[zde](https://forum.aspose.com/c/pdf/10).
+Podporu můžete získat na fóru Aspose. [zde](https://forum.aspose.com/c/pdf/10).
 
 ### Je k dispozici dočasná licence?
- Ano, Aspose poskytuje dočasnou licenci, kterou můžete získat[zde](https://purchase.aspose.com/temporary-license/).
+Ano, Aspose poskytuje dočasnou licenci, kterou můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
 ### Kde si mohu koupit Aspose.PDF pro .NET?
- Aspose.PDF pro .NET si můžete zakoupit na jejich webových stránkách[zde](https://purchase.aspose.com/buy).
+Aspose.PDF pro .NET si můžete zakoupit na jejich webových stránkách. [zde](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

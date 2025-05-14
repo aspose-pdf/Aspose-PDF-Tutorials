@@ -1,14 +1,16 @@
 ---
-title: İçindekiler Tablosunda Sayfa Numaralarını Gizle
-linktitle: İçindekiler Tablosunda Sayfa Numaralarını Gizle
-second_title: Aspose.PDF for .NET API Referansı
-description: İçindekiler Tablosunda sayfa numaralarını Aspose.PDF for .NET kullanarak nasıl gizleyeceğinizi öğrenin. Profesyonel PDF'ler oluşturmak için bu ayrıntılı kılavuzu kod örnekleriyle takip edin.
-weight: 220
-url: /tr/net/programming-with-document/hidepagenumbersintoc/
+"description": "İçindekiler Tablosunda sayfa numaralarını Aspose.PDF for .NET kullanarak nasıl gizleyeceğinizi öğrenin. Profesyonel PDF'ler oluşturmak için bu ayrıntılı kılavuzu kod örnekleriyle takip edin."
+"linktitle": "İçindekiler Tablosunda Sayfa Numaralarını Gizle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "İçindekiler Tablosunda Sayfa Numaralarını Gizle"
+"url": "/tr/net/programming-with-document/hidepagenumbersintoc/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İçindekiler Tablosunda Sayfa Numaralarını Gizle
@@ -23,9 +25,9 @@ Başlamadan önce, yerinde olması gereken birkaç şey var. İşte hızlı bir 
 
 - Visual Studio Kurulu: Kodlama yapabilmek için çalışan bir Visual Studio sürümüne ihtiyacınız olacak.
 - Aspose.PDF for .NET Kütüphanesi: Aspose.PDF for .NET kütüphanesini yüklediğinizden emin olun.
-  -  İndirme bağlantısı:[.NET için Aspose.PDF](https://releases.aspose.com/pdf/net/)
+  - İndirme bağlantısı: [.NET için Aspose.PDF](https://releases.aspose.com/pdf/net/)
 - Geçici Lisans: Özellikleri test ediyorsanız, geçici bir lisansa sahip olmak faydalı olacaktır.
-  -  Geçici lisans:[Buradan edinin](https://purchase.aspose.com/temporary-license/)
+  - Geçici lisans: [Buradan edinin](https://purchase.aspose.com/temporary-license/)
 
 ## Paketleri İçe Aktar
 
@@ -82,7 +84,7 @@ tocInfo.IsShowPageNumbers = false;
 tocInfo.FormatArrayLength = 4;
 ```
 
--  IsShowPageNumbers: Bu, sayfa numaralarını gizleyen sihirli anahtardır. Bunu şu şekilde ayarlayın:`false`ve sayfa numaraları İçindekiler'de görünmeyecektir.
+- IsShowPageNumbers: Bu, sayfa numaralarını gizleyen sihirli anahtardır. Bunu şu şekilde ayarlayın: `false`ve sayfa numaraları İçindekiler'de görünmeyecektir.
 - FormatArrayLength: Bunu 4 olarak ayarlıyoruz; bu, İçindekiler başlıklarının dört düzeyi için biçimlendirme tanımlamak istediğimizi gösteriyor.
 
 ## Adım 4: İçindekiler Biçimlendirmesini Özelleştirin
@@ -145,19 +147,21 @@ PDF'de İçindekiler Tablosu oluşturmak ve sayfa numaralarını gizlemek zor g�
 Hayır, Aspose.PDF tüm TOC için sayfa numaralarını gizler veya gösterir. Belirli girdiler için bunları seçici olarak gizleyemezsiniz.
 
 ### İçindekiler tablosuna daha fazla seviye eklemek mümkün mü?
- Evet, artırabilirsiniz`FormatArrayLength` İçindekiler başlıklarının daha fazla düzeyini tanımlamak için.
+Evet, artırabilirsiniz `FormatArrayLength` İçindekiler başlıklarının daha fazla düzeyini tanımlamak için.
 
 ### Tüm İçindekiler girişlerinin yazı tipini nasıl değiştirebilirim?
- Yazı tipini değiştirerek değiştirebilirsiniz.`TextState.Font` her seviyedeki mülk`FormatArray`.
+Yazı tipini değiştirerek değiştirebilirsiniz. `TextState.Font` her seviyedeki mülk `FormatArray`.
 
 ### İçindekiler bölümüne köprü metni ekleyebilir miyim?
- Evet, her İçindekiler girişini belgedeki belirli bir bölüme bağlamak için`Heading.TocPage` mülk.
+Evet, her İçindekiler girişini belgedeki belirli bir bölüme bağlamak için `Heading.TocPage` mülk.
 
 ### Aspose.PDF için lisansa ihtiyacım var mı?
-Evet, üretim kullanımı için geçerli bir lisans gereklidir. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Özellikleri test etmek için.
+Evet, üretim kullanımı için geçerli bir lisans gereklidir. Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/) Özellikleri test etmek için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

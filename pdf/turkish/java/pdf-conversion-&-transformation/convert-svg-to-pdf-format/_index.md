@@ -1,14 +1,16 @@
 ---
-title: SVG'yi PDF Formatına Dönüştür
-linktitle: SVG'yi PDF Formatına Dönüştür
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Bu adım adım kılavuzda Java için Aspose.PDF'yi kullanarak SVG'yi zahmetsizce PDF'ye nasıl dönüştüreceğinizi öğrenin. SVG dosyalarınızdan kolaylıkla yüksek kaliteli PDF belgeleri oluşturun.
-weight: 24
-url: /tr/java/pdf-conversion-transformation/convert-svg-to-pdf-format/
+"description": "Bu adım adım kılavuzda Aspose.PDF for Java kullanarak SVG'yi PDF'ye zahmetsizce nasıl dönüştüreceğinizi öğrenin. SVG dosyalarınızdan kolaylıkla yüksek kaliteli PDF belgeleri oluşturun."
+"linktitle": "SVG'yi PDF Formatına Dönüştür"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "SVG'yi PDF Formatına Dönüştür"
+"url": "/tr/java/pdf-conversion-transformation/convert-svg-to-pdf-format/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # SVG'yi PDF Formatına Dönüştür
@@ -35,7 +37,7 @@ SVG'yi PDF'ye dönüştürmenin birçok avantajı vardır, bunlardan bazıları 
 
 ## Java için Aspose.PDF'ye Başlarken
 
- Başlamadan önce, Java için Aspose.PDF'in yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+Başlamadan önce, Java için Aspose.PDF'in yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Geliştirme Ortamınızı Kurma
 
@@ -50,13 +52,13 @@ import com.aspose.pdf.Document;
 import com.aspose.pdf.SvgLoadOptions;
 ```
 
-3.  Bir Belge Nesnesi Oluşturun: Bir`Document`PDF dosyalarıyla çalışmak için nesne.
+3. Bir Belge Nesnesi Oluşturun: Bir Belgeyi Başlatın `Document` PDF dosyalarıyla çalışmaya yönelik nesne.
 
 ```java
 Document pdfDocument = new Document();
 ```
 
-4.  SVG Dosyasını Yükle: PDF'ye dönüştürmek istediğiniz SVG dosyasını şu şekilde yükleyin:`SvgLoadOptions` sınıf.
+4. SVG Dosyasını Yükle: PDF'ye dönüştürmek istediğiniz SVG dosyasını şu şekilde yükleyin: `SvgLoadOptions` sınıf.
 
 ```java
 SvgLoadOptions svgLoadOptions = new SvgLoadOptions();
@@ -78,7 +80,7 @@ pdfDocument.save("output.pdf");
 
 ## PDF'ye Meta Veri Ekleme
 
- Ayrıca, PDF belgenize başlık, yazar ve anahtar sözcükler gibi meta verileri de ekleyebilirsiniz.`DocumentInfo` sınıf.
+Ayrıca, PDF belgenize başlık, yazar ve anahtar sözcükler gibi meta verileri de ekleyebilirsiniz. `DocumentInfo` sınıf.
 
 ```java
 pdfDocument.getInfo().setTitle("Converted PDF");
@@ -106,7 +108,7 @@ Bu kapsamlı kılavuzda, Java için Aspose.PDF kullanarak SVG'yi PDF formatına 
 
 ### Java için Aspose.PDF'yi nasıl yüklerim?
 
- Java için Aspose.PDF'yi yüklemek için, kitaplığı şu adresten indirin:[Burada](https://releases.aspose.com/pdf/java/) ve bunu Java projenizin bağımlılıklarına ekleyin.
+Java için Aspose.PDF'yi yüklemek için, kitaplığı şu adresten indirin: [Burada](https://releases.aspose.com/pdf/java/) ve bunu Java projenizin bağımlılıklarına ekleyin.
 
 ### Birden fazla SVG dosyasını tek seferde PDF'ye dönüştürebilir miyim?
 
@@ -122,10 +124,12 @@ Evet, sayfa boyutunu, kenar boşluklarını, yazı tiplerini ve diğer ayarları
 
 ### Daha fazla doküman ve örneği nerede bulabilirim?
 
- Java için Aspose.PDF'ye ilişkin kapsamlı belgeleri ve örnekleri Aspose web sitesinde bulabilirsiniz.[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'ye ilişkin kapsamlı belgeleri ve örnekleri Aspose web sitesinde bulabilirsiniz. [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

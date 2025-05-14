@@ -1,14 +1,16 @@
 ---
-title: Zmień hasło w pliku PDF
-linktitle: Zmień hasło w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Naucz się łatwo zmieniać hasła PDF za pomocą Aspose.PDF dla .NET. Nasz przewodnik krok po kroku przeprowadzi Cię przez ten proces bezpiecznie.
-weight: 10
-url: /pl/net/programming-with-security-and-signatures/change-password/
+"description": "Naucz się łatwo zmieniać hasła PDF za pomocą Aspose.PDF dla .NET. Nasz przewodnik krok po kroku przeprowadzi Cię przez ten proces bezpiecznie."
+"linktitle": "Zmień hasło w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zmień hasło w pliku PDF"
+"url": "/pl/net/programming-with-security-and-signatures/change-password/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmień hasło w pliku PDF
@@ -21,12 +23,12 @@ Jeśli chodzi o pracę z plikami PDF, bezpieczeństwo jest często najważniejsz
 
 Zanim zagłębimy się w szczegóły zmiany haseł w plikach PDF, przygotujmy Cię. Oto, czego potrzebujesz:
 
-1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją łatwo uzyskać, pobierając ją ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
-2. Środowisko programistyczne: Upewnij się, że masz odpowiednie środowisko IDE, np. Visual Studio, skonfigurowane pod kątem programowania w środowisku .NET.
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją łatwo uzyskać, pobierając ją ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
+2. Środowisko programistyczne: Upewnij się, że masz odpowiednie środowisko IDE, np. Visual Studio, skonfigurowane pod kątem programowania w technologii .NET.
 3. Podstawowa wiedza o C#: Zapoznaj się z C#. Jeśli znasz się na koncepcjach programowania, to zadanie będzie dla Ciebie proste.
 4. Dostęp do pliku PDF: Przygotuj plik PDF. To będzie plik, z którym będziesz pracować, aby zmienić jego hasło.
 
-Teraz, gdy omówiliśmy już nasze wymagania wstępne, możemy przejść do najprzyjemniejszej części!
+Teraz, gdy omówiliśmy już nasze wymagania wstępne, możemy zająć się tą przyjemną częścią!
 
 ## Importuj pakiety
 
@@ -48,7 +50,7 @@ Zacznij od zainicjowania nowego projektu C# w wybranym środowisku IDE. Będzie 
 
 ## Krok 2: Dodaj odniesienie Aspose.PDF
 
-Następnie musisz dodać bibliotekę Aspose.PDF. Jeśli pobrałeś bibliotekę jako plik DLL, kliknij prawym przyciskiem myszy na swój projekt i wybierz „Dodaj odniesienie”. Przejdź do lokalizacji, w której zapisałeś Aspose.PDF DLL i dodaj ją.
+Następnie musisz dodać bibliotekę Aspose.PDF. Jeśli pobrałeś bibliotekę jako plik DLL, kliknij prawym przyciskiem myszy na swój projekt i wybierz „Dodaj odniesienie”. Przejdź do lokalizacji, w której zapisałeś plik DLL Aspose.PDF i dodaj go.
 
 Alternatywnie możesz użyć NuGet Package Manager w Visual Studio. Otwórz konsolę Package Manager i wprowadź:
 
@@ -66,7 +68,7 @@ Teraz wskażmy, gdzie znajduje się Twój plik PDF. Będziesz chciał określić
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu. Na przykład, może wyglądać tak:`"C:\\Documents\\"`.
+Zastępować `"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu. Na przykład, może wyglądać tak: `"C:\\Documents\\"`.
 
 ## Krok 4: Otwórz dokument PDF
 
@@ -80,7 +82,7 @@ Ta linijka kodu wykonuje dwie czynności: otwiera określony plik PDF i autoryzu
 
 ## Krok 5: Zmień hasło
 
- Tutaj następuje prawdziwa zmiana! Użyjesz`ChangePasswords` metoda modyfikacji haseł. Ta metoda przyjmuje trzy parametry: bieżące hasło właściciela, nowe hasło użytkownika i nowe hasło właściciela. Na przykład:
+Tutaj następuje prawdziwa zmiana! Użyjesz `ChangePasswords` metoda modyfikacji haseł. Ta metoda przyjmuje trzy parametry: bieżące hasło właściciela, nowe hasło użytkownika i nowe hasło właściciela. Na przykład:
 
 ```csharp
 document.ChangePasswords("owner", "newuser", "newowner");
@@ -90,14 +92,14 @@ Ta linia zastępuje starego użytkownika/hasło nowymi, które określiłeś. Tw
 
 ## Krok 6: Zapisz zaktualizowany dokument
 
- Teraz, gdy zmieniłeś hasła, będziesz chciał zapisać zaktualizowany dokument PDF. Można to zrobić, podając nazwę pliku wyjściowego i wywołując`Save` metoda:
+Teraz, gdy zmieniłeś hasła, będziesz chciał zapisać zaktualizowany dokument PDF. Można to zrobić, podając nazwę pliku wyjściowego i wywołując `Save` metoda:
 
 ```csharp
 dataDir = dataDir + "ChangePassword_out.pdf";
 document.Save(dataDir);
 ```
 
- Ten kod zapisuje zmodyfikowany plik PDF jako`ChangePassword_out.pdf` w tym samym katalogu.
+Ten kod zapisuje zmodyfikowany plik PDF jako `ChangePassword_out.pdf` w tym samym katalogu.
 
 ## Krok 7: Potwierdź zmianę
 
@@ -126,10 +128,12 @@ Niestety, jeśli zapomnisz hasła właściciela, możesz nie móc go zmienić.
 Za pomocą pętli można przetwarzać wiele plików PDF, jeśli znajdują się one w katalogu.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.PDF?
- Aby uzyskać szczegółową dokumentację, przejdź do[Aspose.Odniesienie](https://reference.aspose.com/pdf/net/).
+Aby uzyskać szczegółową dokumentację, przejdź do [Aspose.Odniesienie](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thêm dấu trang vào tệp PDF
-linktitle: Thêm dấu trang vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm dấu trang vào tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện khả năng điều hướng PDF của bạn.
-weight: 10
-url: /vi/net/programming-with-bookmarks/add-bookmark/
+"description": "Tìm hiểu cách thêm dấu trang vào tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện khả năng điều hướng PDF của bạn."
+"linktitle": "Thêm dấu trang vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm dấu trang vào tệp PDF"
+"url": "/vi/net/programming-with-bookmarks/add-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm dấu trang vào tệp PDF
@@ -22,7 +24,7 @@ Bạn đã bao giờ thấy mình đang cuộn qua một tài liệu PDF dài, t
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là IDE phù hợp để phát triển .NET.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 
 ## Nhập gói
@@ -31,7 +33,7 @@ Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 ### tạo ra một dự án mới
 
-Mở Visual Studio và tạo một dự án C# mới. Chọn Ứng dụng Console để đơn giản hơn.
+Mở Visual Studio và tạo một dự án C# mới. Chọn một Ứng dụng Console để đơn giản hơn.
 
 ### Thêm tham chiếu Aspose.PDF
 
@@ -43,7 +45,7 @@ Sau khi thiết lập xong dự án, bạn cần thêm tham chiếu đến thư 
 
 ### Nhập các không gian tên bắt buộc
 
- Ở đầu trang của bạn`Program.cs` tệp, nhập các không gian tên cần thiết:
+Ở đầu trang của bạn `Program.cs` tệp, nhập các không gian tên cần thiết:
 
 ```csharp
 using System;
@@ -61,7 +63,7 @@ Trước tiên, bạn cần chỉ định đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -71,7 +73,7 @@ Tiếp theo, bạn sẽ muốn mở tài liệu PDF mà bạn muốn thêm dấu
 Document pdfDocument = new Document(dataDir + "AddBookmark.pdf");
 ```
 
- Dòng mã này khởi tạo một cái mới`Document` đối tượng với tệp PDF của bạn.
+Dòng mã này khởi tạo một cái mới `Document` đối tượng với tệp PDF của bạn.
 
 ## Bước 3: Tạo Đối tượng Đánh dấu
 
@@ -116,7 +118,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nBookmark added successfully.\nFile saved at " + dataDir);
 ```
 
-Mã này sẽ lưu tệp PDF có dấu trang đã thêm vào dưới dạng "AddBookmark_out.pdf" trong thư mục bạn chỉ định.
+Mã này sẽ lưu tệp PDF có thêm dấu trang dưới dạng "AddBookmark_out.pdf" trong thư mục bạn chỉ định.
 
 ## Phần kết luận
 
@@ -125,22 +127,24 @@ Và thế là xong! Bạn đã thêm thành công dấu trang vào tệp PDF b�
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể thêm nhiều dấu trang vào một tệp PDF không?
- Có, bạn có thể tạo nhiều`OutlineItemCollection`các đối tượng và thêm chúng vào bộ sưu tập phác thảo của tài liệu.
+Có, bạn có thể tạo nhiều `OutlineItemCollection` các đối tượng và thêm chúng vào bộ sưu tập phác thảo của tài liệu.
 
 ### Aspose.PDF có miễn phí sử dụng không?
- Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Hãy xem[mua liên kết](https://purchase.aspose.com/buy).
+Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Hãy xem [mua liên kết](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET [đây](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

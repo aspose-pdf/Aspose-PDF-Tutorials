@@ -1,14 +1,16 @@
 ---
-title: Lisansı Dosyadan Yükle
-linktitle: Lisansı Dosyadan Yükle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı kılavuzla .NET için Aspose.PDF'de bir dosyadan lisans yüklemeyi öğrenin. Lisansınızı doğru şekilde ayarlayarak tam işlevselliği sağlayın.
-weight: 20
-url: /tr/net/licensing-aspose-pdf/load-license-from-file/
+"description": "Bu kapsamlı kılavuzla .NET için Aspose.PDF'de bir dosyadan lisans yüklemeyi öğrenin. Lisansınızı doğru şekilde ayarlayarak tam işlevselliği sağlayın."
+"linktitle": "Lisansı Dosyadan Yükle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Lisansı Dosyadan Yükle"
+"url": "/tr/net/licensing-aspose-pdf/load-license-from-file/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lisansı Dosyadan Yükle
@@ -19,12 +21,12 @@ Belge işleme dünyasında doğru araçlara sahip olmak çok önemlidir. Aspose.
 
 ## Ön koşullar
 
-Adım adım kılavuza dalmadan önce, her şeyin yerli yerinde olduğundan emin olalım. İhtiyacınız olanlar şunlardır:
+Adım adım kılavuza dalmadan önce, her şeyin yerli yerinde olduğundan emin olalım. İhtiyacınız olanlar şunlar:
 
-1.  .NET için Aspose.PDF: .NET için Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/).
-2.  Lisans Dosyası: Aspose.PDF için geçerli bir lisans dosyası edinin. Eğer yoksa, geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF for .NET: Aspose.PDF for .NET kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/).
+2. Lisans Dosyası: Aspose.PDF için geçerli bir lisans dosyası edinin. Eğer yoksa, geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 3. Geliştirme Ortamı: Kodlama ve test için Visual Studio gibi bir geliştirme ortamı önerilir.
-4. Temel C# Bilgisi: C# ve .NET framework'üne aşinalık, konuyu kolayca takip etmenize yardımcı olacaktır.
+4. Temel C# Bilgisi: C# ve .NET framework'üne aşinalık, takip etmenizi kolaylaştıracaktır.
 
 ## Paketleri İçe Aktar
 
@@ -49,7 +51,7 @@ Projenizde Aspose.PDF kullanmak için, .NET kütüphanesi için Aspose.PDF'ye bi
 
 ## Adım 2: Lisans Nesnesini Başlatın
 
- Bir lisansı yükleyebilmeniz için öncelikle bir örnek oluşturmanız gerekir`Aspose.Pdf.License` sınıf. Bu nesne, uygulamanızdaki lisansı ayarlamaktan sorumlu olacaktır.
+Bir lisansı yükleyebilmeniz için öncelikle bir örnek oluşturmanız gerekir `Aspose.Pdf.License` sınıf. Bu nesne, uygulamanızdaki lisansı ayarlamaktan sorumlu olacaktır.
 
 ```csharp
 Aspose.Pdf.License license = new Aspose.Pdf.License();
@@ -59,23 +61,23 @@ Bu adımı temelleri atmak olarak düşünün. Lisans nesnesini başlatmadan, li
 
 ## Adım 3: Lisans Yolunu Ayarlayın
 
- Lisans dosyanızın yolunu belirtmeniz gerekecektir. Bu, Aspose'dan edindiğiniz dosyadır ve genellikle bir`.lic` uzantı. Kodunuzda yolu bir dize değişkeni olarak tanımlayın.
+Lisans dosyanızın yolunu belirtmeniz gerekecektir. Bu, Aspose'dan edindiğiniz dosyadır ve genellikle bir `.lic` uzantı. Kodunuzda yolu bir dize değişkeni olarak tanımlayın.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"`lisans dosyanızın gerçek yolu ile. Bunu doğru yapmak önemlidir; aksi takdirde program lisans dosyasını bulamaz.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` lisans dosyanızın gerçek yolu ile. Bunu doğru yapmak önemlidir; aksi takdirde program lisans dosyasını bulamaz.
 
 ## Adım 4: Lisans Dosyasını Yükleyin
 
- Artık lisans nesneniz ve dosya yolunuz hazır olduğuna göre, lisansı yükleme zamanı geldi.`SetLicense` yöntemi`Aspose.Pdf.License` Bunu başarmak için sınıf.
+Artık lisans nesneniz ve dosya yolunuz hazır olduğuna göre, lisansı yükleme zamanı geldi. `SetLicense` yöntemi `Aspose.Pdf.License` Bunu başarmak için sınıf.
 
 ```csharp
 license.SetLicense(dataDir + "Aspose.Pdf.net.lic");
 ```
 
- Bu kod satırı lisans dosyasını Aspose.PDF kitaplığına yükleyerek tüm yeteneklerinin kilidini açar.`SetLicense` method lisans dosyasının yolunu parametre olarak alır ve uygular.
+Bu kod satırı lisans dosyasını Aspose.PDF kitaplığına yükleyerek tüm yeteneklerinin kilidini açar. `SetLicense` method lisans dosyasının yolunu parametre olarak alır ve uygular.
 
 ## Adım 5: Lisansı Doğrulayın
 
@@ -99,19 +101,21 @@ Unutmayın, ortamı doğru bir şekilde kurmak ve adımları titizlikle takip et
 Lisansı yüklemezseniz Aspose.PDF değerlendirme modunda çalışacaktır; bu da oluşturulan PDF'lerde filigran ve kısıtlı işlevsellik gibi sınırlamalarla birlikte gelir.
 
 ### Lisansı bir dosya yerine bir akıştan yükleyebilir miyim?  
- Evet, Aspose.PDF lisansı bir akıştan yüklemenize olanak tanır.`SetLicense`yöntemi kullanır ancak dosya yolu yerine bir akış nesnesi geçirir.
+Evet, Aspose.PDF lisansı bir akıştan yüklemenize olanak tanır. `SetLicense` yöntemi kullanır ancak dosya yolu yerine bir akış nesnesi geçirir.
 
 ### Aspose.PDF için lisans nasıl alabilirim?  
- Lisansı şuradan satın alabilirsiniz:[Aspose web sitesi](https://purchase.aspose.com/buy) veya geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+Lisansı şuradan satın alabilirsiniz: [Aspose web sitesi](https://purchase.aspose.com/buy) veya geçici bir lisans alın [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Lisans dosyam tanınmazsa ne olur?  
- Lisans dosyasına giden yolun doğru olduğundan ve dosyanın uygulamanız tarafından erişilebilir olduğundan emin olun. Sorun devam ederse, şu kişiyle iletişime geçebilirsiniz:[Aspose desteği](https://forum.aspose.com/c/pdf/10) yardım için.
+Lisans dosyasına giden yolun doğru olduğundan ve dosyanın uygulamanız tarafından erişilebilir olduğundan emin olun. Sorun devam ederse, şu kişiyle iletişime geçebilirsiniz: [Aspose desteği](https://forum.aspose.com/c/pdf/10) yardım için.
 
 ### Ölçülü lisans uygulaması mümkün müdür?  
- Evet, Aspose.PDF yalnızca tükettiğiniz kaynaklar için ödeme yapmanıza olanak tanıyan ölçülü lisanslamayı destekler. Bu, başlatılarak benzer şekilde ayarlanabilir`Metered` sınıf ve anahtarların ayarlanması.
+Evet, Aspose.PDF yalnızca tükettiğiniz kaynaklar için ödeme yapmanıza olanak tanıyan ölçülü lisanslamayı destekler. Bu, başlatılarak benzer şekilde ayarlanabilir `Metered` sınıf ve anahtarların ayarlanması.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

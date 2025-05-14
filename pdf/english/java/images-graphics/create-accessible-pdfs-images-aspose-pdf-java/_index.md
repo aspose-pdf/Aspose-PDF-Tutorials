@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Accessible PDFs with Images Using Aspose.PDF for Java
 
@@ -179,7 +181,11 @@ A5: Join forums, provide feedback, or share your experiences and solutions!
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
 Embark on your journey with Aspose.PDF for Java today, and transform the way you create accessible content!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

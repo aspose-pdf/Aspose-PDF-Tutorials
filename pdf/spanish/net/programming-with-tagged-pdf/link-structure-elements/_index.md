@@ -1,34 +1,36 @@
 ---
-title: Elementos de la estructura de enlaces
-linktitle: Elementos de la estructura de enlaces
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a crear elementos de estructura de vínculos en un PDF con Aspose.PDF para .NET. Guía paso a paso para agregar vínculos accesibles, imágenes y validación de cumplimiento.
-weight: 120
-url: /es/net/programming-with-tagged-pdf/link-structure-elements/
+"description": "Aprenda a crear elementos de estructura de enlaces en un PDF con Aspose.PDF para .NET. Guía paso a paso para agregar enlaces accesibles, imágenes y validación de cumplimiento."
+"linktitle": "Elementos de la estructura del enlace"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Elementos de la estructura del enlace"
+"url": "/es/net/programming-with-tagged-pdf/link-structure-elements/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Elementos de la estructura de enlaces
+# Elementos de la estructura del enlace
 
 ## Introducción
 
-La creación y gestión de elementos de estructura de enlaces dentro de un PDF puede ser crucial para documentos que requieren accesibilidad y una navegación fluida. En este tutorial, le explicaremos cómo hacerlo con Aspose.PDF para .NET. Si no está familiarizado con Aspose.PDF o con la manipulación de PDF en general, no se preocupe. Le explicaré cada paso en detalle para que pueda seguirlo fácilmente.
+Crear y gestionar elementos de estructura de enlaces en un PDF puede ser crucial para documentos que requieren accesibilidad y una navegación fluida. En este tutorial, te explicaremos cómo hacerlo con Aspose.PDF para .NET. Si no tienes experiencia con Aspose.PDF o con la manipulación de PDF en general, no te preocupes. Te explicaré cada paso en detalle para que puedas seguirlo fácilmente.
 
 ## Prerrequisitos  
 
-Antes de empezar a codificar, aclaremos algunos puntos. Estos son los requisitos básicos para garantizar una experiencia de desarrollo fluida.
+Antes de empezar a programar, aclaremos algunos puntos. Estos son los requisitos básicos para garantizar una experiencia de desarrollo fluida.
 
-1.  Aspose.PDF para .NET: Puede descargar la última versión[aquí](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF para .NET: Puedes descargar la última versión [aquí](https://releases.aspose.com/pdf/net/).
 2. Entorno de desarrollo .NET: ya sea Visual Studio o cualquier IDE compatible con .NET, téngalo instalado y listo.
-3.  Licencia de Aspose: Puede utilizar la versión de prueba gratuita de Aspose.PDF[aquí](https://releases.aspose.com/) o adquirir una[licencia temporal](https://purchase.aspose.com/temporary-license/).
+3. Licencia de Aspose: Puede utilizar la versión de prueba gratuita de Aspose.PDF [aquí](https://releases.aspose.com/) o adquirir una [licencia temporal](https://purchase.aspose.com/temporary-license/).
 4. Conocimientos básicos de C#: Trabajaremos con algo de código C#, por lo que comprender los fundamentos hará que las cosas sean mucho más fáciles.
 
 ## Importar paquetes
 
-Necesitará importar algunos paquetes antes de escribir el código para los elementos de la estructura de enlaces. Comience por hacer referencia a las bibliotecas Aspose.PDF necesarias en su proyecto:
+Necesitará importar algunos paquetes antes de escribir el código para los elementos de la estructura de enlaces. Comience por referenciar las bibliotecas Aspose.PDF necesarias en su proyecto:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -41,7 +43,7 @@ using System.Text;
 
 Estas importaciones nos permiten trabajar con documentos PDF, agregar etiquetas y administrar elementos de estructura.
 
-Ahora crearemos un documento PDF con diferentes tipos de estructuras de enlaces y desglosaremos cada paso para ayudarle a comprender el proceso a fondo.
+Ahora crearemos un documento PDF con diferentes tipos de estructuras de enlaces y cada paso se desglosará para ayudarle a comprender el proceso a fondo.
 
 ## Paso 1: Inicializar el documento  
 
@@ -61,9 +63,9 @@ Document document = new Document();
 ITaggedContent taggedContent = document.TaggedContent;
 ```
   
- Aquí, estamos inicializando el`Document` objeto, que representa nuestro archivo PDF. También recuperamos el`TaggedContent` interfaz, permitiéndonos agregar elementos de estructura como párrafos, enlaces e imágenes.
+Aquí, estamos inicializando el `Document` objeto, que representa nuestro archivo PDF. También recuperamos el `TaggedContent` interfaz, permitiéndonos agregar elementos de estructura como párrafos, enlaces e imágenes.
 
-## Paso 2: Establezca el título y el idioma  
+## Paso 2: Establecer el título y el idioma  
 
 Cada PDF debe tener un título y una configuración de idioma, especialmente si su objetivo es cumplir con los estándares PDF/UA.
 
@@ -73,7 +75,7 @@ taggedContent.SetTitle("Link Elements Example");
 taggedContent.SetLanguage("en-US");
 ```
   
-Este paso garantiza que su PDF tenga un título significativo y establece el idioma en inglés (`en-US`). Esto es fundamental para la accesibilidad y garantiza que los lectores de pantalla u otras tecnologías de asistencia puedan interpretar su documento correctamente.
+Este paso garantiza que su PDF tenga un título significativo y establece el idioma en inglés (`en-US`). Esto es fundamental para la accesibilidad y garantiza que los lectores de pantalla u otras tecnologías de asistencia puedan interpretar el documento correctamente.
 
 ## Paso 3: Crear y añadir párrafos  
 
@@ -105,7 +107,7 @@ link1.SetText("Google");
 link1.AlternateDescriptions = "Link to Google";
 ```
   
-En este paso, creamos un elemento de enlace, configuramos su hipervínculo como "http://google.com" y proporcionamos texto ("Google") para el enlace. También agregamos una descripción alternativa para garantizar la accesibilidad.
+En este paso, creamos un elemento de enlace, establecimos su hipervínculo en "http://google.com" y le asignamos el texto ("Google"). También añadimos una descripción alternativa para garantizar la accesibilidad.
 
 ## Paso 5: Agregar un enlace con tramos  
 
@@ -132,7 +134,7 @@ Aquí, utilizamos un elemento span para encerrar parte del texto dentro del enla
 
 ## Paso 6: Enlace multilínea  
 
-¿Qué pasa si el texto del enlace es demasiado largo? No te preocupes, puedes dividirlo en varias líneas.
+¿Qué pasa si el texto de tu enlace es demasiado largo? No te preocupes, puedes dividirlo en varias líneas.
 
 ```csharp
 ParagraphElement p4 = taggedContent.CreateParagraphElement();
@@ -169,11 +171,11 @@ link5.AppendChild(figure5);
 link5.AlternateDescriptions = "Link to Google";
 ```
   
-Este paso demuestra cómo puedes mejorar tus enlaces con una imagen. En este caso, agregamos un ícono de Google dentro del enlace. También garantizamos la accesibilidad configurando un texto alternativo para la imagen.
+Este paso demuestra cómo mejorar tus enlaces con una imagen. En este caso, añadimos un icono de Google dentro del enlace. También garantizamos la accesibilidad configurando un texto alternativo para la imagen.
 
-## Paso 8: Validar el PDF para comprobar su conformidad  
+## Paso 8: Validar el PDF para verificar su cumplimiento  
 
-Si su objetivo es cumplir con los estándares de accesibilidad PDF/UA, es una buena práctica validar su documento.
+Si su objetivo es cumplir con el estándar PDF/UA (un estándar de accesibilidad), es una buena práctica validar su documento.
 
 ```csharp
 // Guardar el documento PDF
@@ -188,7 +190,7 @@ Guardamos el documento y lo validamos según el estándar PDF/UA, que garantiza 
 
 ## Conclusión  
 
-En este tutorial, explicamos cómo crear documentos PDF estructurados con Aspose.PDF para .NET. Desde la incorporación de hipervínculos básicos hasta estructuras más complejas como enlaces de varias líneas e incluso imágenes, esta guía proporciona una base sólida para manipular elementos de vínculo en sus archivos PDF. Con el beneficio adicional de la compatibilidad con PDF/UA, ahora está equipado para crear archivos PDF accesibles y navegables.
+En este tutorial, explicamos cómo crear documentos PDF estructurados con Aspose.PDF para .NET. Desde la adición de hipervínculos básicos hasta estructuras más complejas como enlaces de varias líneas e incluso imágenes, esta guía proporciona una base sólida para manipular elementos de enlace en sus PDF. Gracias a la compatibilidad con PDF/UA, ahora puede crear PDF accesibles y navegables.
 
 ## Preguntas frecuentes
 
@@ -205,10 +207,12 @@ El documento no mostrará la imagen y podría generar un error durante la repres
 Sí, puedes aplicar estilos de texto utilizando los elementos span.
 
 ### ¿Es posible crear enlaces a documentos internos?  
-¡Por supuesto! Puedes incluir enlaces a secciones específicas dentro del mismo documento.
+¡Claro! Puedes enlazar a secciones específicas dentro del mismo documento.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

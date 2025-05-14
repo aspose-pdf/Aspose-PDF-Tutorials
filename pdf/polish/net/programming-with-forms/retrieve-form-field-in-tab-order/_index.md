@@ -1,14 +1,16 @@
 ---
-title: Pobierz pole formularza w kolejności kart
-linktitle: Pobierz pole formularza w kolejności kart
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak pobierać i modyfikować pola formularza w kolejności tabulacji za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami kodu, aby usprawnić nawigację po formularzach PDF.
-weight: 240
-url: /pl/net/programming-with-forms/retrieve-form-field-in-tab-order/
+"description": "Dowiedz się, jak pobierać i modyfikować pola formularza w kolejności tabulacji za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami kodu, aby usprawnić nawigację po formularzach PDF."
+"linktitle": "Pobierz pole formularza w kolejności kart"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz pole formularza w kolejności kart"
+"url": "/pl/net/programming-with-forms/retrieve-form-field-in-tab-order/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz pole formularza w kolejności kart
@@ -21,8 +23,8 @@ Zarządzanie dokumentami PDF i zapewnienie ich prawidłowego działania, zwłasz
 
 Zanim zagłębisz się w kod, upewnij się, że skonfigurowałeś wszystkie niezbędne elementy:
 
-- Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF w swoim projekcie. Jeśli jeszcze jej nie masz, pobierz ją[Tutaj](https://releases.aspose.com/pdf/net/).
-- Środowisko programistyczne: skonfiguruj środowisko programistyczne C#, np. Visual Studio.
+- Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF w swoim projekcie. Jeśli jeszcze jej nie masz, pobierz ją [Tutaj](https://releases.aspose.com/pdf/net/).
+- Środowisko programistyczne: Skonfiguruj środowisko programistyczne C#, np. Visual Studio.
 - .NET Framework: Upewnij się, że środowisko .NET jest zainstalowane w systemie.
 - Dokument PDF: Przygotuj dokument PDF z polami formularza gotowymi do przetestowania.
   
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Test2.pdf");
 ```
 
- Tutaj inicjujemy`Document`obiekt, przekazując ścieżkę do pliku PDF, z którym chcemy pracować. Upewnij się, że ścieżka wskazuje na lokalizację, w której przechowywany jest Twój dokument.
+Tutaj inicjujemy `Document` obiekt, przekazując ścieżkę do pliku PDF, z którym chcemy pracować. Upewnij się, że ścieżka wskazuje na lokalizację, w której przechowywany jest Twój dokument.
 
 ## Krok 2: Uzyskaj dostęp do pierwszej strony
 
@@ -65,7 +67,7 @@ Ten wiersz pobiera pierwszą stronę pliku PDF. Jeśli pola formularza są rozł
 
 ## Krok 3: Pobierz pola w kolejności kart
 
- Teraz nadchodzi interesująca część: pobieranie pól formularza na podstawie ich kolejności kart.`FieldsInTabOrder` Właściwość ta pomaga w pobieraniu pól w kolejności, w jakiej powinny się pojawiać, gdy użytkownik porusza się po formularzu za pomocą klawisza Tab.
+Teraz nadchodzi interesująca część: pobieranie pól formularza na podstawie ich kolejności kart. `FieldsInTabOrder` Właściwość ta pomaga w pobieraniu pól w kolejności, w jakiej powinny się pojawiać, gdy użytkownik porusza się po formularzu za pomocą klawisza Tab.
 
 ```csharp
 IList<Field> fields = page.FieldsInTabOrder;
@@ -75,7 +77,7 @@ Kod ten generuje listę pól posortowanych według kolejności kart.
 
 ## Krok 4: Wyświetl nazwy pól
 
-Gdy już mamy pola, wypiszmy ich nazwy, aby zobaczyć, które pola są częścią formularza i w jakiej kolejności.
+Gdy już mamy pola, wypiszmy ich nazwy, aby zobaczyć, które pola są częścią formularza i jaka jest ich kolejność.
 
 ```csharp
 string s = "";
@@ -85,11 +87,11 @@ foreach (Field field in fields)
 }
 ```
 
-Tutaj przechodzimy przez każde pole na liście i łączymy je`PartialName` każdego pola.`PartialName` reprezentuje nazwę pola formularza w dokumencie PDF. Ten krok jest szczególnie przydatny do debugowania lub weryfikacji nazw pól.
+Tutaj przechodzimy przez każde pole na liście i łączymy je `PartialName` każdego pola. `PartialName` reprezentuje nazwę pola formularza w dokumencie PDF. Ten krok jest szczególnie przydatny do debugowania lub weryfikacji nazw pól.
 
 ## Krok 5: Zmień kolejność kart
 
-Czasami możesz chcieć zmienić kolejność kart pól formularza, aby poprawić doświadczenie użytkownika. Na przykład formularz może wymagać, aby pierwsze pole było trzecim, a trzecie pierwszym. Oto, jak możesz dostosować kolejność kart:
+Czasami możesz chcieć zmienić kolejność kart pól formularza, aby poprawić wrażenia użytkownika. Na przykład formularz może wymagać, aby pierwsze pole było trzecim, a trzecie pierwszym. Oto, jak możesz dostosować kolejność kart:
 
 ```csharp
 (doc.Form[3] as Field).TabOrder = 1;
@@ -97,7 +99,7 @@ Czasami możesz chcieć zmienić kolejność kart pól formularza, aby poprawić
 (doc.Form[2] as Field).TabOrder = 3;
 ```
 
- W tym przykładzie zmieniamy kolejność kart trzech pól w formularzu. Możesz dostosować`TabOrder` właściwość, która odpowiada żądanej sekwencji.
+W tym przykładzie zmieniamy kolejność kart trzech pól w formularzu. Możesz dostosować `TabOrder` właściwość, która odpowiada żądanej sekwencji.
 
 ## Krok 6: Zapisz zmodyfikowany plik PDF
 
@@ -109,7 +111,7 @@ doc.Save(dataDir + "39522_out.pdf");
 
 Zapisuje zaktualizowany plik PDF do nowego pliku. Zawsze zapisuj go jako nowy plik, aby uniknąć nadpisania oryginalnego dokumentu.
 
-## Krok 7: Zweryfikuj zmiany
+## Krok 7: Sprawdź zmiany
 
 Po zapisaniu pliku PDF dobrym pomysłem jest ponowne otwarcie dokumentu i sprawdzenie, czy zmiany zostały zastosowane poprawnie. Oto, jak możesz sprawdzić kolejność kart po modyfikacji:
 
@@ -136,19 +138,21 @@ I masz to! Pobieranie i modyfikowanie kolejności kart pól formularza w dokumen
 Tak, możesz. Po prostu przejdź na konkretną stronę, na której znajdują się pola formularza i zastosuj tę samą metodę.
 
 ### Jak zainstalować Aspose.PDF dla .NET w moim projekcie?  
-Bibliotekę można pobrać z[Tutaj](https://releases.aspose.com/pdf/net/) i zintegrować go za pomocą NuGet w programie Visual Studio.
+Możesz pobrać bibliotekę z [Tutaj](https://releases.aspose.com/pdf/net/) i zintegrować go za pomocą NuGet w programie Visual Studio.
 
 ### Czy mogę zmienić kolejność pól na tej samej stronie?  
- Oczywiście! Po prostu użyj`TabOrder`właściwość umożliwiająca dostosowanie kolejności pól na dowolnej stronie.
+Oczywiście! Po prostu użyj `TabOrder` właściwość umożliwiająca dostosowanie kolejności pól na dowolnej stronie.
 
 ### Co się stanie, jeśli nie określę kolejności tabulatorów?  
-Jeśli nie ustawisz kolejności kart, pola zostaną wyświetlone w kolejności domyślnej, ustalonej na podstawie sposobu ich dodania do pliku PDF.
+Jeśli nie ustawisz kolejności kart, pola zostaną ustawione w kolejności domyślnej, ustalonej na podstawie sposobu ich dodania do pliku PDF.
 
 ### Czy można programowo dodać nowe pola formularza?  
 Tak, Aspose.PDF pozwala na programowe tworzenie i dodawanie nowych pól formularzy.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

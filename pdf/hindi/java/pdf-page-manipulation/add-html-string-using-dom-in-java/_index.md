@@ -1,14 +1,16 @@
 ---
-title: जावा में DOM का उपयोग करके HTML स्ट्रिंग जोड़ें
-linktitle: जावा में DOM का उपयोग करके HTML स्ट्रिंग जोड़ें
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: जानें कि Aspose.PDF for Java लाइब्रेरी का उपयोग करके PDF दस्तावेज़ों में HTML स्ट्रिंग कैसे जोड़ें। यह चरण-दर-चरण मार्गदर्शिका आपको स्रोत कोड उदाहरणों के साथ प्रक्रिया दिखाएगी।
-weight: 12
-url: /hi/java/pdf-page-manipulation/add-html-string-using-dom-in-java/
+"description": "जानें कि Aspose.PDF for Java लाइब्रेरी का उपयोग करके PDF दस्तावेज़ों में HTML स्ट्रिंग कैसे जोड़ें। यह चरण-दर-चरण मार्गदर्शिका आपको स्रोत कोड उदाहरणों के साथ प्रक्रिया दिखाएगी।"
+"linktitle": "जावा में DOM का उपयोग करके HTML स्ट्रिंग जोड़ें"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा में DOM का उपयोग करके HTML स्ट्रिंग जोड़ें"
+"url": "/hi/java/pdf-page-manipulation/add-html-string-using-dom-in-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा में DOM का उपयोग करके HTML स्ट्रिंग जोड़ें
@@ -20,7 +22,7 @@ url: /hi/java/pdf-page-manipulation/add-html-string-using-dom-in-java/
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 - जावा विकास वातावरण की स्थापना.
--  Aspose.PDF for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ## चरण 1: एक नया PDF दस्तावेज़ बनाएँ
 आरंभ करने के लिए, आपको Aspose.PDF का उपयोग करके एक नया PDF दस्तावेज़ बनाना होगा। यहाँ बताया गया है कि आप इसे जावा में कैसे कर सकते हैं:
@@ -46,13 +48,13 @@ String htmlContent = "<h1>Hello, Aspose.PDF!</h1><p>This is an example of adding
 ```
 
 ## चरण 4: पृष्ठ पर HTML स्ट्रिंग जोड़ें
- पृष्ठ पर HTML स्ट्रिंग जोड़ने के लिए, आप इसका उपयोग कर सकते हैं`HtmlFragment` कक्षा:
+पृष्ठ पर HTML स्ट्रिंग जोड़ने के लिए, आप इसका उपयोग कर सकते हैं `HtmlFragment` कक्षा:
 
 ```java
 // HTML सामग्री के साथ एक HtmlFragment बनाएँ
 HtmlFragment htmlFragment = new HtmlFragment(htmlContent);
 
-//पृष्ठ पर HtmlFragment जोड़ें
+// पृष्ठ पर HtmlFragment जोड़ें
 page.getParagraphs().add(htmlFragment);
 ```
 
@@ -64,12 +66,12 @@ page.getParagraphs().add(htmlFragment);
 pdfDocument.save("output.pdf");
 ```
 
-बस! आपने Aspose.PDF for Java का उपयोग करके PDF दस्तावेज़ में HTML स्ट्रिंग सफलतापूर्वक जोड़ दी है।
+बस! आपने Java के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ में HTML स्ट्रिंग सफलतापूर्वक जोड़ दी है।
 
 # निष्कर्ष
 इस ट्यूटोरियल में, हमने सीखा है कि Aspose.PDF for Java लाइब्रेरी का उपयोग करके PDF दस्तावेज़ों में HTML स्ट्रिंग कैसे जोड़ें। यह आपकी PDF फ़ाइलों में गतिशील और स्वरूपित सामग्री शामिल करने का एक शक्तिशाली तरीका हो सकता है। आप अपनी विशिष्ट आवश्यकताओं को पूरा करने के लिए HTML सामग्री की उपस्थिति और लेआउट को और अधिक अनुकूलित कर सकते हैं।
 
- यदि आपके कोई प्रश्न हों या आपको और सहायता की आवश्यकता हो, तो कृपया हमसे संपर्क करें[जावा एपीआई दस्तावेज़ीकरण के लिए Aspose.PDF](https://reference.aspose.com/pdf/java/) अधिक जानकारी के लिए.
+यदि आपके कोई प्रश्न हों या आपको और सहायता की आवश्यकता हो, तो कृपया हमसे संपर्क करें [जावा एपीआई दस्तावेज़ीकरण के लिए Aspose.PDF](https://reference.aspose.com/pdf/java/) अधिक जानकारी के लिए.
 
 ## पूछे जाने वाले प्रश्न
 
@@ -77,19 +79,21 @@ pdfDocument.save("output.pdf");
    हां, आप पीडीएफ में इसकी उपस्थिति को नियंत्रित करने के लिए HTML सामग्री में CSS शैलियाँ जोड़ सकते हैं।
 
 ### क्या Java के लिए Aspose.PDF का उपयोग निःशुल्क है?
-   Aspose.PDF for Java एक व्यावसायिक लाइब्रेरी है, और आपको इसे अपनी परियोजनाओं में उपयोग करने के लिए वैध लाइसेंस की आवश्यकता हो सकती है।
+   Java के लिए Aspose.PDF एक वाणिज्यिक लाइब्रेरी है, और आपको इसे अपनी परियोजनाओं में उपयोग करने के लिए वैध लाइसेंस की आवश्यकता हो सकती है।
 
 ### मैं पीडीएफ में HTML सामग्री के भीतर हाइपरलिंक कैसे जोड़ सकता हूं?
-   आप HTML का उपयोग करके हाइपरलिंक जोड़ सकते हैं`<a>` HTML सामग्री में टैग हटा दिए जाएंगे, और वे PDF में संरक्षित रहेंगे।
+   आप HTML का उपयोग करके हाइपरलिंक जोड़ सकते हैं `<a>` HTML सामग्री में टैग हटा दिए जाएंगे, और वे PDF में संरक्षित रहेंगे।
 
 ### क्या PDF में जोड़ी जा सकने वाली HTML सामग्री पर कोई सीमाएं हैं?
    जबकि Java के लिए Aspose.PDF HTML के लिए अच्छा समर्थन प्रदान करता है, जटिल या अत्यधिक इंटरैक्टिव HTML को इष्टतम रेंडरिंग के लिए अतिरिक्त समायोजन की आवश्यकता हो सकती है।
 
 ### क्या मैं पीडीएफ में HTML सामग्री के साथ चित्र भी जोड़ सकता हूँ?
    हां, आप HTML सामग्री में छवियां शामिल कर सकते हैं, और Aspose.PDF उन्हें PDF दस्तावेज़ में प्रस्तुत करेगा।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

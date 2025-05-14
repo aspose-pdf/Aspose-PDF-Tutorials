@@ -1,35 +1,37 @@
 ---
-title: TOC hozzáadása PDF fájlhoz
-linktitle: TOC hozzáadása PDF fájlhoz
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan adhat hozzá tartalomjegyzéket PDF-fájlhoz az Aspose.PDF for .NET használatával. Ez a lépésenkénti útmutató leegyszerűsíti a folyamatot, és biztosítja a könnyű navigációt a dokumentumok között.
-weight: 40
-url: /hu/net/programming-with-document/addtoc/
+"description": "Ismerje meg, hogyan adhat hozzá tartalomjegyzéket egy PDF dokumentumhoz az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató leegyszerűsíti a folyamatot, és biztosítja a dokumentumokon belüli egyszerű navigációt."
+"linktitle": "Tartalomjegyzék hozzáadása PDF fájlhoz"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Tartalomjegyzék hozzáadása PDF fájlhoz"
+"url": "/hu/net/programming-with-document/addtoc/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# TOC hozzáadása PDF fájlhoz
+# Tartalomjegyzék hozzáadása PDF fájlhoz
 
 ## Bevezetés
 
-Előfordult már, hogy végtelenségig görgetett egy hosszú PDF-fájlt, és azt kívánta, bárcsak jól szervezett tartalomjegyzéke lenne? Nos, ez a szerencsés napod! Ebből az oktatóanyagból megtudhatja, hogyan adhat hozzá tartalomjegyzéket PDF-fájljához az Aspose.PDF for .NET használatával. Legyen szó összetett jelentésről, e-könyvről vagy üzleti javaslatról, a TOC professzionális, navigálható remekművé változtathatja dokumentumát.
+Görgettél már vég nélkül egy hosszú PDF-et, és azt kívántad, bárcsak lenne egy jól szervezett tartalomjegyzéke? Nos, ma van a szerencséd! Ebben az oktatóanyagban megtanulod, hogyan adhatsz tartalomjegyzéket a PDF-fájlodhoz az Aspose.PDF for .NET segítségével. Akár egy összetett jelentésen, egy e-könyvön vagy egy üzleti javaslaton dolgozol, a tartalomjegyzék professzionális, könnyen navigálható remekművé alakíthatja a dokumentumodat.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, győződjünk meg arról, hogy mindent megvan, amire szüksége van:
+Mielőtt belevágnánk a kódba, ellenőrizzük, hogy minden szükséges dolog megvan-e:
 
-1. Aspose.PDF for .NET: Győződjön meg arról, hogy letöltötte és telepítette az Aspose.PDF könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF .NET-hez: Győződjön meg róla, hogy letöltötte és telepítette az Aspose.PDF könyvtárat. Letöltheti innen: [itt](https://releases.aspose.com/pdf/net/).
    
-2. Fejlesztői környezet: Győződjön meg arról, hogy a számítógépén be van állítva egy .NET fejlesztői környezet, például a Visual Studio.
+2. Fejlesztői környezet: Győződjön meg arról, hogy a gépén telepítve van egy .NET fejlesztői környezet, például a Visual Studio.
 
-3.  Licenc: Ha nem rendelkezik licenccel, ingyenes próbaverziót kaphat, vagy ideiglenes licencet kérhet[itt](https://purchase.aspose.com/temporary-license/).
+3. Licenc: Ha nincs licenced, ingyenes próbaverziót kaphatsz, vagy ideiglenes licencet kérhetsz. [itt](https://purchase.aspose.com/temporary-license/).
 
 ## Csomagok importálása
 
-A kezdéshez feltétlenül importálja a szükséges névtereket a kódfájl elejére. Íme, hogyan:
+Kezdésként importáld a szükséges névtereket a kódfájl elejére. Így teheted meg:
 
 ```csharp
 using System.IO;
@@ -38,34 +40,34 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-Ezek a névterek lehetővé teszik a PDF-specifikus funkciók elérését és a dokumentum szöveges elemeinek kezelését.
+Ezek a névterek lehetővé teszik a PDF-specifikus funkciók elérését és a dokumentumon belüli szöveges elemek kezelését.
 
-Bontsuk ezt a feladatot falatnyi lépésekre. Minden lépés végigvezeti Önt a TOC létrehozásának és a PDF-dokumentumba történő beillesztésének folyamatán.
+Bontsuk ezt a feladatot apró lépésekre. Minden lépés végigvezet a tartalomjegyzék létrehozásának és PDF-dokumentumba való beszúrásának folyamatán.
 
-## 1. lépés: Töltse be a PDF-dokumentumot
+## 1. lépés: Töltse be a PDF dokumentumot
 
-Az első dolog, amit tennünk kell, hogy betöltsük a meglévő PDF-fájlt, amelyhez hozzá szeretnénk adni a TOC-t.
+Az első dolog, amit tennünk kell, az a meglévő PDF fájl betöltése, ahová a tartalomjegyzéket szeretnénk hozzáadni.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTOC.pdf");
 ```
 
- Ebben a lépésben megadjuk a dokumentumkönyvtár elérési útját, és betöltjük a PDF-fájlt a`Document` objektum. Ügyeljen arra, hogy cserélje ki`"YOUR DOCUMENT DIRECTORY"` a fájl tényleges elérési útjával.
+Ebben a lépésben megadjuk a dokumentumkönyvtár elérési útját, és a PDF-et a következővel töltjük be: `Document` tárgy. Ügyeljen arra, hogy cserélje ki `"YOUR DOCUMENT DIRECTORY"` a fájl tényleges elérési útjával.
 
-## 2. lépés: Szúrjon be egy új oldalt a TOC-hoz
+## 2. lépés: Új oldal beszúrása a tartalomjegyzékhez
 
-Ezután beszúrunk egy új oldalt a PDF dokumentum elejére. Ezen az oldalon található a Tartalomjegyzék.
+Ezután beszúrunk egy új oldalt a PDF dokumentum elejére. Ez az oldal fogja tartalmazni a tartalomjegyzéket.
 
 ```csharp
 Page tocPage = doc.Pages.Insert(1);
 ```
 
-A TOC oldal elejére történő beszúrásával biztosítjuk, hogy az elsőként jelenjen meg a PDF-ben.
+A tartalomjegyzék oldalának a PDF elejére való beillesztésével biztosítjuk, hogy az első dologként jelenjen meg, amit az olvasók látnak a PDF-ben.
 
-## 3. lépés: Hozzon létre egy TOC információs objektumot
+## 3. lépés: Tartalomjegyzék információs objektum létrehozása
 
-Most hozzunk létre egy objektumot, amely képviseli a TOC információkat. A TOC-hoz egy címet is adunk, hogy kiemelkedjen.
+Most hozzunk létre egy objektumot, amely a tartalomjegyzék információit fogja ábrázolni. Adjunk hozzá egy címet is a tartalomjegyzékhez, hogy kiemelkedjen.
 
 ```csharp
 TocInfo tocInfo = new TocInfo();
@@ -76,11 +78,11 @@ tocInfo.Title = title;
 tocPage.TocInfo = tocInfo;
 ```
 
-Itt a TOC címét "Tartalomjegyzék"-re állítottuk, megnöveltük a betűméretet, és félkövérré tettük a kiemelés érdekében.
+Itt a tartalomjegyzék címét „Tartalomjegyzék”-re állítottuk be, megnöveltük a betűméretet, és a hangsúlyozás érdekében félkövérré tettük.
 
-## 4. lépés: Határozza meg a TOC elemeket
+## 4. lépés: Tartalomjegyzék-elemek meghatározása
 
-Ebben a lépésben meghatározzuk azokat az elemeket (vagy címsorokat), amelyek megjelennek a TOC-ban. Ezek az elemek segítenek az olvasóknak eligazodni a dokumentum bizonyos részeihez.
+Ebben a lépésben meghatározzuk a tartalomjegyzékben megjelenítendő elemeket (vagy címsorokat). Ezek az elemek segítenek az olvasóknak eligazodni a dokumentum adott szakaszaiban.
 
 ```csharp
 string[] titles = new string[4];
@@ -90,11 +92,11 @@ titles[2] = "Third page";
 titles[3] = "Fourth page";
 ```
 
-Létrehoztunk egy sor karakterláncot, amely tartalomjegyzék-elemként fog szolgálni, a PDF különböző oldalainak megfelelően.
+Létrehoztunk egy tömböt a karakterláncokból, amelyek tartalomjegyzék-elemekként szolgálnak majd, a PDF különböző oldalainak megfelelően.
 
-## 5. lépés: Hozzon létre TOC címsorokat
+## 5. lépés: Tartalomjegyzék-címsorok létrehozása
 
-Most jön a döntő rész – fejlécek hozzáadása a TOC-hoz és linkelésük a megfelelő oldalukhoz.
+Most jön a döntő rész – címsorok hozzáadása a tartalomjegyzékhez, és azok összekapcsolása a megfelelő oldalakkal.
 
 ```csharp
 for (int i = 0; i < 2; i++)
@@ -113,27 +115,27 @@ for (int i = 0; i < 2; i++)
 ```
 
 Íme, mi történik:
-- Címsor: Létrehozunk a`Heading` objektumot, és add hozzá a`TextSegment` hozzá.
-- Céloldal: Beállítjuk azt az oldalt, amelyre minden címsor hivatkozni fog.
-- Legfelső pozíció: Meghatározzuk azt a pozíciót az oldalon, ahová a címsor mutat.
-- Szöveg: Minden címsor megkapja a megfelelő címet a korábban létrehozott tömbből.
+- Cím: Létrehozunk egy `Heading` objektumot, és adj hozzá egy `TextSegment` hozzá.
+- Céloldal: Beállítjuk azt az oldalt, amelyre az egyes címsorok hivatkozni fognak.
+- Legfelső pozíció: Megadjuk azt a pozíciót az oldalon, ahová a címsor mutatni fog.
+- Szöveg: Minden címsor a korábban létrehozott tömbből kapja a saját címét.
 
-Ez a ciklus címsorokat hoz létre a tartalomjegyzék első két eleméhez, és összekapcsolja őket a megfelelő oldalakkal.
+Ez a ciklus címsorokat hoz létre a tartalomjegyzék első két eleméhez, és összekapcsolja azokat a megfelelő oldalakkal.
 
-## 6. lépés: Mentse el a PDF-fájlt a tartalomjegyzékkel
+## 6. lépés: Mentse el a PDF-et a tartalomjegyzékkel együtt
 
-Végül, miután az összes TOC elemet hozzáadtuk, ideje elmenteni a frissített PDF-et.
+Végül, miután hozzáadtuk az összes tartalomjegyzék-elemet, itt az ideje menteni a frissített PDF-et.
 
 ```csharp
 dataDir = dataDir + "TOC_out.pdf";
 doc.Save(dataDir);
 ```
 
-A fájl most a PDF-hez hozzáadott tartalomjegyzékkel kerül mentésre. Gratulálunk – sikeresen hozzáadta a tartalomjegyzéket!
+A fájl most a tartalomjegyzékkel együtt mentésre került a PDF-hez. Gratulálunk – sikeresen hozzáadta a tartalomjegyzéket!
 
 ## 7. lépés: Megerősítő üzenet
 
-Annak érdekében, hogy a felhasználó tudja, hogy a folyamat befejeződött, egy egyszerű üzenetet jelenítünk meg a konzolon.
+Hogy a felhasználó értesüljön a folyamat befejezéséről, egy egyszerű üzenetet jelenítünk meg a konzolon.
 
 ```csharp
 Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at " + dataDir);
@@ -141,27 +143,29 @@ Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at "
 
 ## Következtetés
 
-És megvan! Az Aspose.PDF for .NET segítségével tartalomjegyzék hozzáadása a PDF-hez nem csak egyszerű, hanem testreszabható is. Akár egyszerű navigációs hivatkozásokat, akár összetett struktúrákat kell létrehoznia, ez az eszköz mindent megtalál. Tehát, ha legközelebb hosszadalmas PDF-en dolgozik, ne felejtse el hozzáadni a TOC-t ehhez a professzionális érintéshez!
+És íme! Az Aspose.PDF for .NET segítségével a tartalomjegyzék hozzáadása egy PDF-hez nemcsak egyszerű, de testreszabható is. Akár egyszerű navigációs hivatkozásokat, akár összetett struktúrákat kell létrehoznia, ez az eszköz erre is megoldást kínál. Tehát legközelebb, amikor egy hosszú PDF-en dolgozik, ne felejtse el hozzáadni a tartalomjegyzéket a professzionális megjelenés érdekében!
 
 ## GYIK
 
-### Testreszabhatom a TOC megjelenését az Aspose.PDF-ben?  
-Igen, teljes mértékben testreszabhatja a tartalomjegyzék megjelenését, beleértve a betűstílust, -méretet és az igazítást.
+### Testreszabhatom a tartalomjegyzék megjelenését az Aspose.PDF fájlban?  
+Igen, a tartalomjegyzék megjelenését teljes mértékben testreszabhatja, beleértve a betűstílust, a méretet és az igazítást.
 
-### Hogyan adhatok alcímeket a tartalomjegyzékhez?  
- Alcímeket adhat hozzá a`Heading` szinten (pl.`Heading(2)`) hierarchikus tartalomjegyzék létrehozásához.
+### Hogyan adhatok hozzá alcímeket a tartalomjegyzékhez?  
+Alcímeket adhatsz hozzá a `Heading` szint (pl. `Heading(2)`) egy hierarchikus tartalomjegyzék létrehozásához.
 
-### Lehetséges a TOC automatikus frissítése, ha a dokumentum megváltozik?  
+### Lehetséges-e automatikusan frissíteni a tartalomjegyzéket, ha a dokumentum megváltozik?  
 Nem, a tartalomjegyzék nem frissül automatikusan. Újra kell létrehoznia, ha a dokumentum szerkezete megváltozik.
 
-### Összekapcsolhatom a TOC bejegyzéseket külső dokumentumokkal?  
-Igen, hiperhivatkozások segítségével tartalomjegyzék-bejegyzéseket külső PDF-ekhez vagy URL-ekhez kapcsolhat.
+### Csatolhatok tartalomjegyzék-bejegyzéseket külső dokumentumokhoz?  
+Igen, használhat hiperhivatkozásokat a tartalomjegyzék-bejegyzések külső PDF-ekhez vagy URL-címekhez való kapcsolásához.
 
 ### Az Aspose.PDF támogatja a többszintű tartalomjegyzékeket?  
-Igen, az Aspose.PDF támogatja a többszintű tartalomjegyzéket az alszakaszokkal rendelkező összetett dokumentumokhoz.
+Igen, az Aspose.PDF támogatja a többszintű tartalomjegyzékeket az összetett, alfejezeteket tartalmazó dokumentumokhoz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

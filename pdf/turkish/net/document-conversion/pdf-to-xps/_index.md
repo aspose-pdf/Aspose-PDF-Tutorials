@@ -1,14 +1,16 @@
 ---
-title: PDF'den XPS'e
-linktitle: PDF'den XPS'e
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi XPS'e nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve belge işleme meraklıları için mükemmeldir.
-weight: 220
-url: /tr/net/document-conversion/pdf-to-xps/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi XPS'e nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve belge işleme meraklıları için mükemmeldir."
+"linktitle": "PDF'den XPS'e"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF'den XPS'e"
+"url": "/tr/net/document-conversion/pdf-to-xps/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'den XPS'e
@@ -23,7 +25,7 @@ Başlamadan önce, yerine getirmeniz gereken birkaç ön koşul var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET kodunuzu burada yazacak ve çalıştıracaksınız.
 2. .NET Framework: Örneklerimizde C# kullanacağımız için .NET framework'e aşinalık şarttır.
-3.  Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu şuradan indirebilirsiniz:[Aspose PDF for .NET sürümleri sayfası](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu şuradan indirebilirsiniz: [Aspose PDF for .NET sürümleri sayfası](https://releases.aspose.com/pdf/net/).
 4. Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmak, örnekleri takip etmenize yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -53,26 +55,26 @@ Bu adımda, belgeler dizininize giden yolu tutan bir dize değişkeni tanımlaya
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyasının bilgisayarınızda saklandığı gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyasının bilgisayarınızda saklandığı gerçek yol ile.
 
 ## Adım 2: PDF Belgesini Yükleyin
 
 Artık belge dizininiz ayarlandığına göre, bir sonraki adım dönüştürmek istediğiniz PDF belgesini yüklemektir.
 
- Bir örneğini oluşturacaksınız`Document` Aspose.PDF kütüphanesinden sınıfını seçin ve PDF dosyanızın yolunu oluşturucusuna geçirin. Bu, PDF belgesini belleğe yükleyecektir.
+Bir örneğini oluşturacaksınız `Document` Aspose.PDF kütüphanesinden sınıfını seçin ve PDF dosyanızın yolunu oluşturucusuna geçirin. Bu, PDF belgesini belleğe yükleyecektir.
 
 ```csharp
 // PDF belgesini yükle
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Değiştirdiğinizden emin olun`"input.pdf"` gerçek PDF dosyanızın adıyla.
+Değiştirdiğinizden emin olun `"input.pdf"` Gerçek PDF dosyanızın adıyla.
 
 ## Adım 3: XPS Kaydetme Seçeneklerini Oluşturun
 
- Belgeyi XPS biçiminde kaydetmeden önce, bir örneğini oluşturmanız gerekir`XpsSaveOptions` sınıf. Bu sınıf, belgeyi kaydetmek için çeşitli seçenekler belirtmenize olanak tanır.
+Belgeyi XPS biçiminde kaydetmeden önce, bir örneğini oluşturmanız gerekir `XpsSaveOptions` sınıf. Bu sınıf, belgeyi kaydetmek için çeşitli seçenekler belirtmenize olanak tanır.
 
- Örnekleme yaparak`XpsSaveOptions`PDF'nin XPS'e nasıl dönüştürüleceğini özelleştirebilirsiniz. Bu temel dönüşüm için varsayılan ayarları kullanabilirsiniz.
+Örnekleme yaparak `XpsSaveOptions`, PDF'nin XPS'e nasıl dönüştürüleceğini özelleştirebilirsiniz. Bu temel dönüşüm için varsayılan ayarları kullanabilirsiniz.
 
 ```csharp
 // XPS Kaydetme seçeneklerini örneklendir
@@ -81,16 +83,16 @@ Aspose.Pdf.XpsSaveOptions saveOptions = new Aspose.Pdf.XpsSaveOptions();
 
 ## Adım 4: Belgeyi XPS Olarak Kaydedin
 
-Son olarak, yüklenen PDF belgesini XPS dosyası olarak kaydetme zamanı geldi. İşte sihir burada gerçekleşiyor!
+Son olarak, yüklenen PDF belgesini bir XPS dosyası olarak kaydetme zamanı geldi. İşte sihir burada gerçekleşiyor!
 
- Sen arayacaksın`Save` yöntem üzerinde`pdfDocument` nesne, istenen çıktı dosyası adını ve`saveOptions` daha önce yaratmış olduğunuz.
+Sen arayacaksın `Save` yöntem üzerinde `pdfDocument` nesne, istenen çıktı dosyası adını ve `saveOptions` daha önce yaratmışsınız.
 
 ```csharp
 // XPS belgesini kaydedin
 pdfDocument.Save("PDFToXPS_out.xps", saveOptions);
 ```
 
- Bu kod satırı, adında bir XPS dosyası oluşturacaktır.`PDFToXPS_out.xps` proje dizininizde.
+Bu kod satırı, adında bir XPS dosyası oluşturacaktır. `PDFToXPS_out.xps` proje dizininizde.
 
 ## Çözüm
 
@@ -105,16 +107,18 @@ XPS (XML Kağıt Spesifikasyonu), Microsoft tarafından geliştirilen ve belgele
 Evet, aynı yöntemi kullanarak bir dizindeki birden fazla PDF dosyası arasında geçiş yapabilir ve her birini XPS'e dönüştürebilirsiniz.
 
 ### Aspose.PDF'i kullanmak ücretsiz mi?
- Aspose.PDF ücretsiz deneme sunar, ancak tam işlevsellik için bir lisans satın almanız gerekir. Daha fazla ayrıntıyı şu adreste bulabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose.PDF ücretsiz deneme sunar, ancak tam işlevsellik için bir lisans satın almanız gerekir. Daha fazla ayrıntıyı şu adreste bulabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Dönüştürme sırasında sorunlarla karşılaşırsam ne olur?
- Aspose topluluğundan yardım isteyebilirsiniz[destek forumu](https://forum.aspose.com/c/pdf/10).
+Aspose topluluğundan yardım isteyebilirsiniz [destek forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF için geçici lisans alabilir miyim?
- Evet, değerlendirme amaçlı olarak geçici bir lisans talebinde bulunabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Evet, değerlendirme amaçlı olarak geçici bir lisans talebinde bulunabilirsiniz. [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

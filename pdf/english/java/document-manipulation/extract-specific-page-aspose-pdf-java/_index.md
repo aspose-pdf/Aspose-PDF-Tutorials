@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Specific Pages from PDFs Using Aspose.PDF for Java
 
@@ -176,7 +178,11 @@ We encourage you to try implementing these solutions in your projects and explor
 - [Free Trial Version](https://releases.aspose.com/pdf/java/)
 - [Temporary License Acquisition](https://purchase.aspose.com/temporary-license/)
 - [Aspose Community Support](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/create-note-structure-element/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Note Structure Element
@@ -160,9 +162,11 @@ PDF/UA compliance ensures that PDFs are accessible to individuals with disabilit
 
 ### Where can I get support for Aspose.PDF?
 For support, visit the [Aspose forum](https://forum.aspose.com/c/pdf/10) where you can ask questions and share your experiences.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

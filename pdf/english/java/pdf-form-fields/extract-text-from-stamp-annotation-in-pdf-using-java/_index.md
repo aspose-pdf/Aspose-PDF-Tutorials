@@ -8,7 +8,9 @@ url: /java/pdf-form-fields/extract-text-from-stamp-annotation-in-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Text from Stamp Annotation in PDF using Java
@@ -117,6 +119,7 @@ For comprehensive documentation and additional resources, visit the Aspose.PDF f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

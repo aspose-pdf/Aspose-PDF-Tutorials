@@ -1,14 +1,16 @@
 ---
-title: กรอกช่องฟอร์มในเอกสาร PDF ด้วย Java
-linktitle: กรอกช่องฟอร์มในเอกสาร PDF ด้วย Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีกรอกฟอร์ม PDF ด้วย Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
-weight: 14
-url: /th/java/pdf-form-fields/fill-form-field-in-pdf-document-with-java/
+"description": "เรียนรู้วิธีกรอกฟอร์ม PDF ด้วย Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ"
+"linktitle": "กรอกช่องฟอร์มในเอกสาร PDF ด้วย Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "กรอกช่องฟอร์มในเอกสาร PDF ด้วย Java"
+"url": "/th/java/pdf-form-fields/fill-form-field-in-pdf-document-with-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # กรอกช่องฟอร์มในเอกสาร PDF ด้วย Java
@@ -37,7 +39,7 @@ Aspose.PDF สำหรับ Java มีคุณสมบัติมากม
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
 - โปรแกรมแก้ไขโค้ดเช่น IntelliJ IDEA หรือ Eclipse
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การจัดเตรียมสภาพแวดล้อม
 
@@ -71,7 +73,7 @@ pdfDocument.save("sample_form.pdf");
 
 ## การกรอกช่องข้อมูลฟอร์ม
 
-ตอนนี้เรามีแบบฟอร์ม PDF พร้อมช่องข้อมูลแล้ว เรามาดำเนินการกรอกข้อมูลในช่องข้อมูลเหล่านี้ด้วยโปรแกรมกันเลย คุณสามารถทำได้ดังนี้:
+ตอนนี้เรามีแบบฟอร์ม PDF พร้อมช่องข้อมูลแล้ว เรามาดำเนินการกรอกช่องข้อมูลเหล่านี้ด้วยโปรแกรมกันเลย คุณสามารถทำได้ดังนี้:
 
 ```java
 // เปิดเอกสาร PDF ที่มีอยู่
@@ -106,7 +108,7 @@ pdfDocument.save("filled_form.pdf");
 
 ### ฉันสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้อย่างไร
 
- คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์[ที่นี่](https://releases.aspose.com/pdf/java/).
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ### ฉันสามารถใช้ Aspose.PDF สำหรับ Java ในโครงการเชิงพาณิชย์ได้หรือไม่
 
@@ -118,14 +120,16 @@ pdfDocument.save("filled_form.pdf");
 
 ### มีค่าธรรมเนียมการอนุญาตสิทธิ์สำหรับการใช้ Aspose.PDF สำหรับ Java หรือไม่
 
-ใช่ มีค่าธรรมเนียมลิขสิทธิ์สำหรับการใช้ Aspose.PDF สำหรับ Java ในโปรเจ็กต์เชิงพาณิชย์ คุณสามารถดูข้อมูลราคาโดยละเอียดได้ในเว็บไซต์
+ใช่ มีค่าธรรมเนียมลิขสิทธิ์สำหรับการใช้ Aspose.PDF สำหรับ Java ในโปรเจ็กต์เชิงพาณิชย์ คุณสามารถดูข้อมูลราคาโดยละเอียดได้บนเว็บไซต์
 
 ### ฉันสามารถหาตัวอย่างโค้ดและเอกสารประกอบเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบและตัวอย่างโค้ดที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่[หน้าเอกสาร](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมและตัวอย่างโค้ดสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [หน้าเอกสาร](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@ description: Learn how to manipulate, manage and customize bookmarks in your PDF
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Bookmarks
@@ -34,6 +36,7 @@ Additionally, these tutorials show you how to customize bookmark properties, suc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

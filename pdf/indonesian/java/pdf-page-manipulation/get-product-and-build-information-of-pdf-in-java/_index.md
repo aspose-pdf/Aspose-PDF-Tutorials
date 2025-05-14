@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Informasi Produk dan Bangun PDF di Java
-linktitle: Dapatkan Informasi Produk dan Bangun PDF di Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengekstrak informasi produk dan membangun dari file PDF di Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode untuk ekstraksi data PDF yang efisien.
-weight: 13
-url: /id/java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-java/
+"description": "Pelajari cara mengekstrak informasi produk dan membangun dari file PDF di Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode untuk ekstraksi data PDF yang efisien."
+"linktitle": "Dapatkan Informasi Produk dan Bangun PDF di Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Dapatkan Informasi Produk dan Bangun PDF di Java"
+"url": "/id/java/pdf-page-manipulation/get-product-and-build-information-of-pdf-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Informasi Produk dan Bangun PDF di Java
@@ -97,7 +99,7 @@ Dalam artikel ini, kami membahas cara mengekstrak informasi produk dan build dar
 Untuk mengekstrak informasi produk dari file PDF menggunakan Aspose.PDF untuk Java, ikuti langkah-langkah berikut:
 1. Impor pustaka Aspose.PDF.
 2. Muat dokumen PDF.
-3.  Gunakan`getProductName()`, `getProductVersion()` , Dan`getProductManufacturer()` metode untuk mengekstrak rincian produk.
+3. Gunakan `getProductName()`Bahasa Indonesia: `getProductVersion()`, Dan `getProductManufacturer()` metode untuk mengekstrak rincian produk.
 
 ### Apa itu informasi pembangunan, dan mengapa itu penting?
 
@@ -114,9 +116,11 @@ Aspose.PDF untuk Java adalah pustaka yang hebat, tetapi seperti perangkat lunak 
 ### Apakah Aspose.PDF untuk Java cocok untuk file PDF kecil dan besar?
 
 Ya, Aspose.PDF untuk Java cocok untuk memproses file PDF kecil dan besar. Aplikasi ini menawarkan metode yang efisien untuk bekerja dengan dokumen PDF dengan berbagai ukuran.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

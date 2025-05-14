@@ -1,55 +1,59 @@
 ---
-title: Programování s obrázky
-linktitle: Programování s obrázky
-weight: 22
-url: /cs/net/programming-with-images/
-description: Výukové programy Programování s obrázky Aspose.PDF pro .NET vás naučí, jak manipulovat a spravovat obrázky v dokumentech PDF.
+"description": "Výukové programy Aspose.PDF pro .NET Programování s obrázky vás naučí, jak manipulovat s obrázky v dokumentech PDF a spravovat je."
+"linktitle": "Programování s obrázky"
+"title": "Programování s obrázky"
+"url": "/cs/net/programming-with-images/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programování s obrázky
 
 
-Výukové programy Aspose.PDF for .NET "Programování s obrázky" vás provedou kroky manipulace a správy obrázků ve vašich dokumentech PDF. Naučte se vkládat, extrahovat, měnit velikost a upravovat obrázky, abyste vytvořili vizuálně bohaté dokumenty PDF. Tyto podrobné návody poskytují jasné příklady kódu a hloubková vysvětlení, která vám pomohou zvládnout funkce Aspose.PDF pro .NET související s obrázky. Zlepšete své znalosti programování PDF pomocí těchto praktických výukových programů a obohaťte své dokumenty o atraktivní a informativní obrázky.
+Výukové programy „Programování s obrázky“ v Aspose.PDF pro .NET vás provedou kroky manipulace a správy obrázků ve vašich PDF dokumentech. Naučte se, jak vkládat, extrahovat, měnit velikost a upravovat obrázky a vytvářet tak vizuálně bohaté PDF dokumenty. Tyto podrobné návody poskytují jasné příklady kódu a podrobná vysvětlení, která vám pomohou zvládnout funkce Aspose.PDF pro .NET související s obrázky. Zlepšete si své dovednosti programování PDF pomocí těchto praktických návodů a obohaťte své dokumenty o atraktivní a informativní obrázky.
 
-## Tutoriály
-| Titul | Popis |
+## Návody
+| Název | Popis |
 | --- | --- | 
-| [Přidat obrázek do souboru PDF](./add-image/) | Naučte se přidávat obrázky do souboru PDF programově pomocí Aspose.PDF for .NET. Součástí je podrobný průvodce, ukázkový kód a často kladené otázky pro bezproblémovou implementaci. |  
-| [Všechny stránky do TIFF](./all-pages-to-tiff/) | tomto podrobném návodu se dozvíte, jak převést všechny stránky PDF na TIFF pomocí Aspose.PDF for .NET. Snadná a efektivní správa dokumentů. |  
-| [Bradleyho algoritmus](./bradley-algorithm/) | Naučte se, jak převést PDF na TIFF pomocí Bradleyho algoritmu v Aspose.PDF pro .NET. Podrobný průvodce, předpoklady a často kladené otázky pro bezproblémový převod. |  
-| [CGM obrázek do PDF](./cgm-image-to-pdf/) | Snadno převádějte obrázky CGM do PDF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto jednoduchého průvodce krok za krokem a zefektivněte proces převodu souborů. |  
-| [Převést všechny stránky na EMF](./convert-all-pages-to-emf/) | Naučte se, jak převést všechny stránky PDF do formátu EMF pomocí Aspose.PDF for .NET, pomocí tohoto podrobného a SEO optimalizovaného návodu. |  
-| [Převést všechny stránky do PNG](./convert-all-pages-to-png/) | Naučte se, jak převést stránky PDF na PNG pomocí Aspose.PDF for .NET, pomocí tohoto podrobného průvodce. Ideální pro vývojáře a nadšence. |  
-| [Převést tok obrázků do souboru PDF](./convert-image-stream-to-pdf/) | Pomocí tohoto podrobného průvodce krok za krokem snadno převeďte proud obrázků do formátu PDF pomocí Aspose.PDF for .NET. Naučte se, jak bez námahy zacházet s převody obrázků do PDF. |  
-| [Převést oblast stránky na DOM](./convert-page-region-to-dom/) | Odemkněte potenciál svých dokumentů PDF s Aspose.PDF pro .NET. Převeďte oblasti souborů PDF na obrázky a vylepšete svůj pracovní postup. |  
-| [Převést do BMP](./convert-to-bmp/) | V tomto podrobném návodu se dozvíte, jak snadno převést soubory PDF na obrázky BMP pomocí Aspose.PDF for .NET. Ideální pro .NET vývojáře. |  
-| [Vytvářejte obrázky miniatur v souboru PDF](./create-thumbnail-images/) | Vytvářejte miniatury pro každou stránku v souboru PDF bez námahy pomocí Aspose.PDF for .NET. Vylepšete si náhled dokumentu. |  
-| [Odstraňte obrázky ze souboru PDF](./delete-images/) | Naučte se odstraňovat obrázky ze souborů PDF pomocí Aspose.PDF for .NET v jednoduchém, podrobném tutoriálu. Optimalizujte soubory PDF snadným odstraněním nežádoucích obrázků. |  
-| [Extrahujte obrázky ze souboru PDF](./extract-images/) | Naučte se extrahovat obrázky ze souboru PDF pomocí Aspose.PDF for .NET pomocí tohoto podrobného průvodce. Začněte pomocí snadno pochopitelných pokynů. |  
-| [Rychle zmenšující obrázky](./fast-shrink-images/) | Naučte se, jak efektivně používat Aspose.PDF for .NET ke zmenšení obrázků v souborech PDF, optimalizaci velikosti při zachování kvality. |  
-| [Flate Decode komprese](./flate-decode-compression/) | Naučte se používat Flate Decode komprese v Aspose.PDF pro .NET. Pomocí tohoto podrobného průvodce efektivně optimalizujte velikost souboru PDF. |  
-| [Identifikujte obrázky v souboru PDF](./identify-images/) | V tomto podrobném podrobném průvodci se dozvíte, jak identifikovat obrázky v souborech PDF a zjistit jejich barevný typ (stupně šedi nebo RGB) pomocí Aspose.PDF for .NET. |  
-| [Informace o obrázku v souboru PDF](./image-information/) | Naučte se extrahovat obrazové informace z PDF pomocí Aspose.PDF for .NET s naším komplexním průvodcem krok za krokem. |  
-| [Umístění obrázků](./image-placements/) | Naučte se extrahovat a manipulovat s umístěním obrázků v dokumentech PDF pomocí Aspose.PDF for .NET. Podrobný průvodce s příklady a úryvky kódu. |  
-| [Obrázek do PDF](./image-to-pdf/) | tomto podrobném průvodci se dozvíte, jak převést obrázky do PDF pomocí Aspose.PDF for .NET. Ideální pro vývojáře a technologické nadšence. |  
-| [Velký obrázek CGM do PDF](./large-cgm-image-to-pdf/) | Transformujte velké obrázky CGM do PDF bez námahy pomocí Aspose.PDF for .NET. Postupujte podle tohoto jednoduchého průvodce pro rychlý a efektivní proces převodu. |  
-| [Stránky k obrázkům](./pages-to-images/) | Rychle převádějte stránky PDF na vysoce kvalitní obrázky pomocí Aspose.PDF for .NET s tímto komplexním průvodcem krok za krokem. |  
-| [Page To EMF](./page-to-emf/) | V tomto podrobném průvodci pomocí Aspose.PDF for .NET se dozvíte, jak převést stránku PDF do formátu EMF. Ideální pro vývojáře. |  
-| [Stránka do PNG](./page-to-png/) | Naučte se, jak bez námahy převádět stránky PDF na obrázky PNG pomocí Aspose.PDF for .NET v našem podrobném návodu krok za krokem. |  
-| [Stránka PDF do formátu TIFF](./page-to-tiff/) | Naučte se převádět stránky PDF na vysoce kvalitní obrázky TIFF pomocí Aspose.PDF for .NET. Tento podrobný průvodce pokrývá rozlišení, kompresi a další. |  
-| [Nahradit obrázek v souboru PDF](./replace-image/) | Snadno nahraďte obrázky v souborech PDF pomocí Aspose.PDF pro .NET. Postupujte podle této příručky, kde najdete podrobné pokyny a vylepšíte své dovednosti v oblasti správy PDF. |  
-| [Změna velikosti obrázků v souboru PDF](./resize-images/) | V tomto podrobném průvodci se dozvíte, jak změnit velikost obrázků v souboru PDF pomocí Aspose.PDF for .NET. Optimalizujte velikost souboru bez ztráty kvality. |  
-| [Vyhledávejte a získejte obrázky v souboru PDF](./search-and-get-images/) | Naučte se, jak bez námahy extrahovat obrázky ze souborů PDF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného průvodce a zdokonalte své dovednosti při zpracování PDF. |  
-| [Nastavte velikost obrázku v souboru PDF](./set-image-size/) | Naučte se, jak nastavit velikost obrázku v PDF pomocí Aspose.PDF pro .NET. Tento podrobný průvodce vám pomůže změnit velikost obrázků, upravit vlastnosti stránky a uložit soubory PDF. |  
-| [Zmenšit obrázky v souboru PDF](./shrink-images/) | Pomocí tohoto podrobného průvodce můžete snadno zmenšit obrázky v souborech PDF pomocí Aspose.PDF for .NET, čímž zajistíte menší velikosti souborů při zachování kvality. |  
-| [Uložte obrázek do kolekce XImage](./store-image-in-ximage-collection/) |  Naučte se, jak ukládat obrázky do kolekce XImage pomocí Aspose.PDF for .NET v tomto kompletním podrobném průvodci. |  
+| [Přidat obrázek do PDF souboru](./add-image/) | Naučte se, jak programově přidávat obrázky do PDF souboru pomocí Aspose.PDF pro .NET. Součástí je podrobný návod, ukázkový kód a často kladené otázky pro bezproblémovou implementaci. |  
+| [Všechny stránky do formátu TIFF](./all-pages-to-tiff/) | V tomto podrobném návodu se naučte, jak převést všechny stránky PDF do formátu TIFF pomocí Aspose.PDF pro .NET. Snadná a efektivní správa dokumentů. |  
+| [Bradleyho algoritmus](./bradley-algorithm/) | Naučte se, jak převést PDF do formátu TIFF pomocí Bradleyho algoritmu v Aspose.PDF pro .NET. Podrobný návod, předpoklady a nejčastější dotazy pro bezproblémový převod. |  
+| [CGM snímek do PDF](./cgm-image-to-pdf/) | Snadno převádějte snímky CGM do PDF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto jednoduchého podrobného návodu a zefektivnite proces převodu souborů. |  
+| [Převést všechny stránky do formátu EMF](./convert-all-pages-to-emf/) | Naučte se, jak převést všechny stránky PDF do formátu EMF pomocí Aspose.PDF pro .NET v tomto podrobném a SEO optimalizovaném tutoriálu. |  
+| [Převést všechny stránky do PNG](./convert-all-pages-to-png/) | Naučte se, jak převést stránky PDF do formátu PNG pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Ideální pro vývojáře a nadšence. |  
+| [Převod obrazového streamu do souboru PDF](./convert-image-stream-to-pdf/) | Snadno převeďte obrazový stream do PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem krok za krokem. Naučte se, jak bez námahy zvládat převody obrázků do PDF. |  
+| [Převést oblast stránky na DOM](./convert-page-region-to-dom/) Odemkněte potenciál svých PDF dokumentů s Aspose.PDF pro .NET. Převeďte oblasti PDF na obrázky a vylepšete si pracovní postup. |  
+| [Převést do BMP](./convert-to-bmp/) | Naučte se v tomto podrobném návodu, jak snadno převést PDF soubory do obrázků BMP pomocí Aspose.PDF pro .NET. Ideální pro .NET vývojáře. |  
+| [Vytvořit miniatury obrázků v souboru PDF](./create-thumbnail-images/) | S Aspose.PDF pro .NET snadno generujte náhledy pro každou stránku ve vašem PDF souboru. Vylepšete si náhled dokumentů.  
+| [Smazat obrázky ze souboru PDF](./delete-images/) | Naučte se, jak odstranit obrázky z PDF souborů pomocí Aspose.PDF pro .NET v jednoduchém, podrobném tutoriálu. Optimalizujte PDF soubory snadným odstraněním nežádoucích obrázků. |  
+| [Extrahovat obrázky ze souboru PDF](./extract-images/) | Naučte se, jak extrahovat obrázky ze souboru PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Začněte s jednoduchými pokyny. |  
+| [Rychlé zmenšení obrázků](./fast-shrink-images/) Naučte se, jak efektivně používat Aspose.PDF pro .NET ke zmenšení obrázků v souborech PDF, optimalizaci velikosti při zachování kvality. |  
+| [Komprese Flate Decode](./flate-decode-compression/) | Naučte se používat kompresi Flate Decode v Aspose.PDF pro .NET. Optimalizujte velikost PDF souboru efektivně s tímto podrobným návodem. |  
+| [Identifikace obrázků v souboru PDF](./identify-images/) | V tomto podrobném návodu se naučte, jak identifikovat obrázky v souborech PDF a detekovat jejich barevný typ (stupně šedi nebo RGB) pomocí Aspose.PDF pro .NET. |  
+| [Informace o obrázku v souboru PDF](./image-information/) | Naučte se extrahovat obrazové informace z PDF souborů pomocí Aspose.PDF pro .NET s naším komplexním podrobným návodem. |  
+| [Umístění obrázků](./image-placements/) | Naučte se, jak extrahovat a manipulovat s umístěním obrázků v dokumentech PDF pomocí Aspose.PDF pro .NET. Podrobný návod s příklady a úryvky kódu. |  
+| [Obrázek do PDF](./image-to-pdf/) Naučte se v tomto podrobném návodu, jak převádět obrázky do PDF pomocí nástroje Aspose.PDF pro .NET. Ideální pro vývojáře a technické nadšence. |  
+| [Velký CGM snímek do PDF](./large-cgm-image-to-pdf/) | Snadno převádějte velké CGM snímky do PDF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto jednoduchého návodu pro rychlý a efektivní proces konverze. |  
+| [Stránky k obrázkům](./pages-to-images/) | Rychle převeďte stránky PDF na vysoce kvalitní obrázky pomocí Aspose.PDF pro .NET s tímto komplexním podrobným návodem. |  
+| [Stránka k EMF](./page-to-emf/) | Naučte se, jak převést stránku PDF do formátu EMF s tímto podrobným návodem pomocí Aspose.PDF pro .NET. Ideální pro vývojáře. |  
+| [Stránka do PNG](./page-to-png/) | Naučte se, jak snadno převést stránky PDF do obrázků PNG pomocí Aspose.PDF pro .NET v našem podrobném návodu krok za krokem. |  
+| [Stránka PDF do formátu TIFF](./page-to-tiff/) | Naučte se, jak převést stránky PDF do vysoce kvalitních obrázků TIFF pomocí Aspose.PDF pro .NET. Tato podrobná příručka zahrnuje rozlišení, kompresi a další. |  
+| [Nahradit obrázek v souboru PDF](./replace-image/) | Snadno nahrazujte obrázky v souborech PDF pomocí Aspose.PDF pro .NET. Postupujte podle této příručky, která obsahuje podrobné pokyny a vylepšete si své dovednosti ve správě PDF. |  
+| [Změna velikosti obrázků v souboru PDF](./resize-images/) | Naučte se, jak změnit velikost obrázků v souboru PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Optimalizujte velikost souboru bez ztráty kvality. |  
+| [Vyhledávání a získávání obrázků v souboru PDF](./search-and-get-images/) | Naučte se, jak snadno extrahovat obrázky ze souborů PDF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete si své dovednosti v oblasti zpracování PDF. |  
+| [Nastavení velikosti obrázku v souboru PDF](./set-image-size/) | Naučte se, jak nastavit velikost obrázku v PDF pomocí Aspose.PDF pro .NET. Tento podrobný návod vám pomůže změnit velikost obrázků, upravit vlastnosti stránky a uložit PDF soubory. |  
+| [Zmenšit obrázky v souboru PDF](./shrink-images/) | Snadno zmenšete obrázky v PDF souborech pomocí Aspose.PDF pro .NET s tímto podrobným návodem, čímž zajistíte menší velikost souborů při zachování kvality. |  
+| [Uložení obrázku do kolekce XImage](./store-image-in-ximage-collection/) | Naučte se, jak ukládat obrázky do kolekce XImage pomocí Aspose.PDF pro .NET v tomto kompletním podrobném návodu. |  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

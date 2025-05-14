@@ -1,14 +1,16 @@
 ---
-title: Etiketli Resimle PDF Oluştur
-linktitle: Etiketli Resimle PDF Oluştur
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak görsellerle etiketli PDF oluşturmayı öğrenin. Erişilebilir ve profesyonel belge oluşturma için adım adım kılavuzumuzu izleyin.
-weight: 40
-url: /tr/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/
+"description": "Aspose.PDF for .NET kullanarak görsellerle etiketli PDF oluşturmayı öğrenin. Erişilebilir ve profesyonel belge oluşturma için adım adım kılavuzumuzu izleyin."
+"linktitle": "Etiketli Resimle PDF Oluştur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Etiketli Resimle PDF Oluştur"
+"url": "/tr/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Etiketli Resimle PDF Oluştur
@@ -21,7 +23,7 @@ PDF oluşturmak karmaşık bir görev olabilir, ancak olmak zorunda değil! Bug�
 
 Etiketli görsellerle PDF'nizi oluşturmaya başlamadan önce ihtiyacınız olan birkaç şey var:
 
-1. .NET için Aspose.PDF: Bu güçlü kütüphane, .NET uygulamalarında PDF belgelerini işlemek için olmazsa olmazdır. Kütüphaneyi burada bulabilirsiniz:[Aspose.PDF for .NET İndir](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: Bu güçlü kütüphane, .NET uygulamalarında PDF belgelerini işlemek için olmazsa olmazdır. Kütüphaneyi burada bulabilirsiniz: [Aspose.PDF for .NET İndir](https://releases.aspose.com/pdf/net/).
 2. .NET Framework veya .NET Core: Makinenizde .NET Framework veya .NET Core'un uyumlu bir sürümünün olduğundan emin olun. Bu kitaplık her ikisini de destekler.
 3. Resim Dosyası: PDF'nize yerleştirmek için bir resim dosyasına ihtiyacınız olacak. Örneğimizde 'aspose-logo.png' kullanacağız. Belgeler dizininizde hazır olduğundan emin olun. 
 
@@ -44,7 +46,7 @@ Kodlama serüvenimize başlamak için, gerekli Aspose.PDF ad alanlarını içe a
 
 ### Gerekli Ad Alanlarını İçe Aktar
 
- Ana program dosyanızın en üstünde (örneğin`Program.cs`), aşağıdaki ad alanlarını içe aktarın:
+Ana program dosyanızın en üstünde (örneğin `Program.cs`), aşağıdaki ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -57,7 +59,7 @@ using System.Text;
 
 Bu paketleri içe aktararak, uygulamanıza kullanacağımız Aspose.PDF işlevlerini getirmesini söylüyorsunuz.
 
-Artık her şeyi ayarladığımıza göre, adım adım etiketli bir resimle PDF'imizi oluşturalım.
+Artık her şeyi ayarladığımıza göre, adım adım etiketli bir görselle PDF'imizi oluşturalım.
 
 ## Adım 1: Belgeyi Başlatın
 
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Dizininizin yolunu ayarlayın
 Document document = new Document();
 ```
 
--  Burada neler oluyor? Yeni bir örnek oluşturuyoruz`Document` PDF'imizi temsil eden nesne. Bunu, şaheserlerinizi bekleyen boş bir tuval olarak düşünün!
+- Burada neler oluyor? Yeni bir örnek oluşturuyoruz `Document` PDF'imizi temsil eden nesne. Bunu, şaheserlerinizi bekleyen boş bir tuval olarak düşünün!
 
 ## Adım 2: Etiketli İçeriği Ayarlayın
 
@@ -100,7 +102,7 @@ IllustrationElement figure1 = taggedContent.CreateFigureElement();
 taggedContent.RootElement.AppendChild(figure1);
 ```
 
--  Aynen öyle mi?! Evet!`CreateFigureElement` yöntemi bize yeni bir çizim yapmamızı sağlıyor ve bunu etiketli içeriğimizin kök öğesine ekliyoruz.
+- Aynen öyle mi?! Evet! `CreateFigureElement` yöntemi bize yeni bir çizim yapmamızı sağlıyor ve bunu etiketli içeriğimizin kök öğesine ekliyoruz.
 
 ## Adım 5: Görüntü Özelliklerini Ayarlayın
 
@@ -114,7 +116,7 @@ figure1.SetTag("Fig");
 
 - Peki tüm bu özellikler neden? Alternatif metin, resmi göremeyenler için resmi tanımlarken, başlık ve etiket daha iyi erişilebilirlik için resmi kategorilere ayırır.
 
-## Adım 6: Görseli ekleyin
+## Adım 6: Görseli Ekleyin
 
 Şimdi, gerçek resmi PDF'imize eklemenin zamanı geldi:
 
@@ -136,7 +138,7 @@ document.Save(dataDir + "PDFwithTaggedImage.pdf");
 
 ## Çözüm
 
-Aspose.PDF for .NET kullanarak etiketli resimlerle PDF oluşturmak, yönetilebilir adımlara böldüğünüzde çocuk oyuncağıdır. Bu kılavuzu izleyerek, yalnızca bir PDF oluşturmayı değil, aynı zamanda etiketli içerikle erişilebilirliğini artırmayı da öğrendiniz. İster daha geniş bir kitleye yönelik belgeler hazırlıyor olun, ister sadece PDF kreasyonlarınızı parlatıyor olun, bu bilgi size iyi hizmet edecektir.
+Aspose.PDF for .NET kullanarak etiketli resimlerle PDF'ler oluşturmak, yönetilebilir adımlara böldüğünüzde çocuk oyuncağıdır. Bu kılavuzu izleyerek, yalnızca bir PDF oluşturmayı değil, aynı zamanda etiketli içerikle erişilebilirliğini artırmayı da öğrendiniz. İster daha geniş bir kitleye yönelik belgeler hazırlıyor olun, ister sadece PDF kreasyonlarınızı parlatıyor olun, bu bilgi size iyi hizmet edecektir.
 
 ## SSS
 
@@ -144,19 +146,21 @@ Aspose.PDF for .NET kullanarak etiketli resimlerle PDF oluşturmak, yönetilebil
 Etiketli bir PDF erişilebilir olacak şekilde tasarlanmıştır. Yardımcı teknolojilerin onu düzgün bir şekilde okumasına ve gezinmesine olanak tanıyan meta verileri içerir.
 
 ### Aspose.PDF kullanarak birden fazla resim ekleyebilir miyim?
- Kesinlikle! Yeni oluşturma adımlarını tekrarlamanız yeterli.`IllustrationElement` Belgenizdeki örnekler.
+Kesinlikle! Yeni oluşturma adımlarını tekrarlamanız yeterli. `IllustrationElement` Belgenizdeki örnekler.
 
 ### Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?
- Belgelere göz atın[Burada](https://reference.aspose.com/pdf/net/).
+Belgelere göz atın [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için ücretsiz deneme sürümü mevcut mu?
- Evet! Ücretsiz denemeye erişebilirsiniz[Burada](https://releases.aspose.com/).
+Evet! Ücretsiz denemeye erişebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose Forumları](https://forum.aspose.com/c/pdf/10).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose Forumları](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

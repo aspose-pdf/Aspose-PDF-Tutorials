@@ -1,36 +1,38 @@
 ---
-title: Řádek tabulky stylu
-linktitle: Řádek tabulky stylu
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak stylovat řádky tabulky v PDF pomocí Aspose.PDF for .NET, s podrobným průvodcem, jak snadno vylepšit formátování dokumentu.
-weight: 180
-url: /cs/net/programming-with-tagged-pdf/style-table-row/
+"description": "Naučte se, jak upravovat styly řádků tabulky v PDF pomocí Aspose.PDF pro .NET s podrobným návodem, jak snadno vylepšit formátování dokumentu."
+"linktitle": "Řádek tabulky stylů"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Řádek tabulky stylů"
+"url": "/cs/net/programming-with-tagged-pdf/style-table-row/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Řádek tabulky stylu
+# Řádek tabulky stylů
 
 ## Zavedení
 
-Pokud jde o vytváření dobře strukturovaných a krásně formátovaných dokumentů PDF, Aspose.PDF for .NET je řešením, na které se můžete obrátit. Ať už automatizujete sestavy, faktury nebo vytváříte dynamické tabulky, formátování tabulek s různými styly je klíčem k vyleštěnému dokumentu. V tomto tutoriálu se ponoříme hluboko do stylování řádku tabulky pomocí Aspose.PDF pro .NET. A nebojte se, provedu vás krok za krokem, stejně jako dobrý rozhovor u kávy!
+Pokud jde o vytváření dobře strukturovaných a krásně formátovaných dokumentů PDF, Aspose.PDF pro .NET je ideálním řešením. Ať už automatizujete reporty, faktury nebo vytváříte dynamické tabulky, formátování tabulek s různými styly je klíčem k vytříbenému dokumentu. V tomto tutoriálu se podrobně ponoříme do stylování řádků tabulky pomocí Aspose.PDF pro .NET. A nebojte se, provedu vás krok za krokem, stejně jako dobrý rozhovor u kávy!
 
 ## Předpoklady
 
-Než se pustíme do toho natvrdlého, ujistíme se, že máte všechny kachny v řadě. Budete potřebovat:
+Než se pustíme do detailů, ujistěme se, že máte vše připravené. Budete potřebovat:
 
 1. Aspose.PDF pro knihovnu .NET  
-    Pokud ho ještě nemáte, můžete si ho stáhnout[zde](https://releases.aspose.com/pdf/net/) . Můžete také získat a[zkušební verze zdarma](https://releases.aspose.com/) začít.
+   Pokud ho ještě nemáte, můžete si ho stáhnout z [zde](https://releases.aspose.com/pdf/net/)Můžete také získat [bezplatná zkušební verze](https://releases.aspose.com/) začít.
 2. Vývojové prostředí  
-   Nastavte Visual Studio nebo libovolné C# IDE dle vašeho výběru. Budete také potřebovat nainstalovaný .NET, ale předpokládám, že to už znáte.
+   Nastavte si Visual Studio nebo jakékoli C# IDE dle vašeho výběru. Budete také potřebovat nainstalované rozhraní .NET, ale předpokládám, že s tím už jste obeznámeni.
 3. Základní znalost C# a .NET  
-   Díky dobré znalosti C# bude tento tutoriál hračkou. Ale nebojte se, každý krok vám podrobně vysvětlím!
+   Dobrá znalost C# vám tento tutoriál usnadní. Ale nebojte se, každý krok vám podrobně vysvětlím!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než začneme pracovat s Aspose.PDF, musíme naimportovat potřebné jmenné prostory. Ve svém projektu C# se ujistěte, že zahrnujete následující:
+Než začneme pracovat s Aspose.PDF, musíme importovat potřebné jmenné prostory. Ve vašem projektu v C# nezapomeňte zahrnout následující:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -42,27 +44,27 @@ using System.Linq;
 using System.Text;
 ```
 
-Ty jsou nezbytné pro vytvoření a stylování tabulky a samozřejmě pro práci s označeným obsahem pro zajištění souladu.
+Tyto prvky jsou nezbytné pro vytvoření a stylování tabulky a samozřejmě pro práci s tagovaným obsahem za účelem dodržování předpisů.
 
-Nyní si rozeberme úkol krok za krokem, abyste mohli stylovat řádky tabulky jako profesionál!
+Nyní si úkol rozebereme krok za krokem, abyste mohli stylovat řádky tabulky jako profesionál!
 
 ## Krok 1: Vytvořte nový dokument PDF
 
-Nejdříve: pojďme vytvořit zbrusu nový dokument PDF. Tento dokument bude obsahovat všechny stylizované řádky tabulky.
+Nejdříve to nejdůležitější: vytvořme si zcela nový PDF dokument. Tento dokument bude obsahovat všechny stylizované řádky tabulky.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Vytvořte dokument
+// Vytvořit dokument
 Document document = new Document();
 ```
 
- Zde jednoduše inicializujeme nový`Document` objekt, který bude reprezentovat náš soubor PDF. Ujistěte se, že jste nastavili cestu k adresáři, kam budete ukládat výstupní soubory.
+Zde jednoduše inicializujeme nový `Document` objekt, který bude reprezentovat náš PDF soubor. Nezapomeňte nastavit cestu k adresáři, kam budete ukládat výstupní soubory.
 
 ## Krok 2: Práce s označeným obsahem
 
-Abychom zajistili přístupnost vašeho PDF, budeme pracovat s tagovaným obsahem. To pomáhá při vytváření strukturovaných prvků, jako jsou tabulky, a zajišťuje, že jsou v souladu se standardy přístupnosti, jako je PDF/UA.
+Pro strukturování PDF z hlediska přístupnosti budeme pracovat s tagovaným obsahem. To pomáhá vytvářet strukturované prvky, jako jsou tabulky, a zajišťuje jejich soulad se standardy přístupnosti, jako je PDF/UA.
 
 ```csharp
 ITaggedContent taggedContent = document.TaggedContent;
@@ -70,17 +72,17 @@ taggedContent.SetTitle("Example table row style");
 taggedContent.SetLanguage("en-US");
 ```
 
-Zde nastavujeme název a jazyk pro tagovaný obsah PDF. Je to jako dát svému PDF jméno a říct mu, jakým jazykem má mluvit!
+Zde nastavujeme název a jazyk pro tagovaný obsah PDF. Je to, jako byste dali PDF souboru název a řekli mu, v jakém jazyce má mluvit!
 
-## Krok 3: Definujte strukturu tabulky
+## Krok 3: Definování struktury tabulky
 
-Dále definujeme strukturu tabulky, kterou se chystáme vytvořit. Každá tabulka potřebuje záhlaví, tělo a zápatí – podobně jako dobře uspořádaný blogový příspěvek!
+Dále si definujme strukturu tabulky, kterou se chystáme vytvořit. Každá tabulka potřebuje záhlaví, tělo a zápatí – podobně jako dobře organizovaný blogový příspěvek!
 
 ```csharp
-// Získejte prvek kořenové struktury
+// Získat prvek kořenové struktury
 StructureElement rootElement = taggedContent.RootElement;
 
-// Vytvořte prvek struktury tabulky
+// Vytvořit prvek struktury tabulky
 TableElement tableElement = taggedContent.CreateTableElement();
 rootElement.AppendChild(tableElement);
 TableTHeadElement tableTHeadElement = tableElement.CreateTHead();
@@ -88,11 +90,11 @@ TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 ```
 
-To, co zde děláme, je vytvoření tabulky se záhlavím (`THead`), tělo (`TBody`) a zápatí (`TFoot`). Tyto prvky budou držet naše řady.
+Zde vytváříme tabulku se záhlavím (`THead`), tělo (`TBody`) a zápatí (`TFoot`). Tyto prvky budou držet naše řádky.
 
-## Krok 4: Přidejte řádek záhlaví tabulky
+## Krok 4: Přidání řádku záhlaví tabulky
 
-Tabulky bez záhlaví jsou jako knihy bez názvu. Nejprve vytvoříme řádek záhlaví, abychom poskytli kontext pro data.
+Tabulky bez záhlaví jsou jako knihy bez názvů. Nejprve si vytvořme řádek záhlaví, který poskytne kontext pro data.
 
 ```csharp
 TableTRElement headTrElement = tableTHeadElement.CreateTR();
@@ -104,11 +106,11 @@ for (int colIndex = 0; colIndex < 3; colIndex++)
 }
 ```
 
-Zde projdeme a přidáme tři buňky záhlaví (`TableTHElement`), přičemž každý z nich má popisný text. Jednoduché, že?
+Zde projdeme smyčkou a přidáme tři buňky záhlaví (`TableTHElement`) a každému z nich připsat popisný text. Jednoduché, že?
 
-## Krok 5: Přidejte stylizované řady těla
+## Krok 5: Přidání stylizovaných řádků těla
 
-Nyní přichází ta zábavná část – styling řad! Vytvořme sedm řádků s vlastními styly. Nastavíme barvy pozadí, okraje, odsazení a zarovnání textu.
+A teď přichází ta zábavná část – stylování řádků! Vytvořme sedm řádků s vlastními styly. Nastavíme barvy pozadí, ohraničení, odsazení a zarovnání textu.
 
 ```csharp
 for (int rowIndex = 0; rowIndex < 7; rowIndex++)
@@ -131,14 +133,14 @@ for (int rowIndex = 0; rowIndex < 7; rowIndex++)
 }
 ```
 
-- Barva pozadí: Použili jsme světle zlatou žlutou pro profesionální, ale teplý dotek.
-- Ohraničení: Každý řádek má tmavě šedé vnější ohraničení a modré ohraničení buněk pro ostrý vzhled.
-- Výška a odsazení: Výšky řádků jsou nastaveny a pro čistý vzhled je přidáno odsazení.
-- Konce stránek: Aby byla tabulka čitelnější, každý druhý řádek začíná na nové stránce.
+- Barva pozadí: Pro profesionální, ale zároveň hřejivý nádech jsme použili světle žlutou od zlatobýlu.
+- Ohraničení: Každý řádek má tmavě šedý vnější okraj a modré okraje buněk pro ostrý vzhled.
+- Výška a odsazení: Nastaví se výška řádků a pro čistší vzhled se přidá odsazení.
+- Zalomení stránek: Aby byla tabulka čitelnější, každý druhý řádek začíná na nové stránce.
 
-## Krok 6: Přidejte řádek zápatí
+## Krok 6: Přidání řádku zápatí
 
-Stejně jako záhlaví, zápatí ukotvuje tabulku. Pojďme si jeden vytvořit.
+Stejně jako záhlaví i zápatí ukotvuje tabulku. Pojďme si jedno vytvořit.
 
 ```csharp
 TableTRElement footTrElement = tableTFootElement.CreateTR();
@@ -150,21 +152,21 @@ for (int colIndex = 0; colIndex < 3; colIndex++)
 }
 ```
 
-Jednoduše projdeme třemi buňkami zápatí a přidáme trochu textu. Alternativní text pro zápatí je „Foot Row“, aby byl přístupný.
+Jednoduše projdeme třemi buňkami zápatí a přidáme trochu textu. Alternativním textem pro zápatí je „Řádek pro nohy“, aby bylo přístupné.
 
-## Krok 7: Uložte dokument PDF
+## Krok 7: Uložení dokumentu PDF
 
-Nyní, když je stůl připraven, je čas uložit své mistrovské dílo!
+Teď, když je stůl připravený, je čas uložit vaše mistrovské dílo!
 
 ```csharp
 document.Save(dataDir + "StyleTableRow.pdf");
 ```
 
-Stejně tak se váš PDF uloží se všemi krásnými řádky tabulky, které jsme právě nastylovali.
+A tak se váš PDF uloží se všemi krásnými řádky tabulky, které jsme právě stylizovali.
 
-## Krok 8: Ověřte soulad s PDF/UA
+## Krok 8: Ověření shody s PDF/UA
 
-Abychom zajistili, že naše PDF vyhovuje standardům přístupnosti, ověříme, zda je v souladu s PDF/UA.
+Abychom zajistili, že náš PDF soubor splňuje standardy přístupnosti, ověříme jeho shodu s PDF/UA.
 
 ```csharp
 document = new Document(dataDir + "StyleTableRow.pdf");
@@ -172,31 +174,33 @@ bool isPdfUaCompliance = document.Validate(dataDir + "StyleTableRow.xml", PdfFor
 Console.WriteLine(String.Format("PDF/UA compliance: {0}", isPdfUaCompliance));
 ```
 
-Tím je zajištěno, že vaše PDF splňuje standard PDF/UA, takže je přístupné všem. Přístupnost je název hry!
+Díky tomu bude váš PDF soubor splňovat standard PDF/UA, takže bude přístupný všem. Přístupnost je klíčová!
 
 ## Závěr
 
-A tady to máte! Pomocí několika řádků kódu jste vytvořili plně stylizovanou tabulku v PDF pomocí Aspose.PDF for .NET. Od záhlaví po zápatí jsme upravili styl každého řádku, přidali prvky usnadnění a dokonce ověřili shodu dokumentu. Ať už pracujete na podnikových zprávách, prezentacích nebo se jen bavíte s PDF, tato příručka vám pomůže. Nyní pokračujte a začněte upravovat své stoly jako profesionál!
+A je to! S pouhými několika řádky kódu jste vytvořili plně stylizovanou tabulku v PDF pomocí Aspose.PDF pro .NET. Od záhlaví po zápatí jsme stylizovali každý řádek, přidali prvky přístupnosti a dokonce jsme ověřili shodu dokumentu s předpisy. Ať už pracujete na firemních zprávách, prezentacích, nebo si jen užíváte PDF, tento průvodce vám pomůže. A teď se pusťte do stylování svých tabulek jako profesionál!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu změnit také styl písma tabulky?  
- Ano! Styl písma můžete upravit pomocí`TextState` objekt pro každou buňku, což umožňuje úplné přizpůsobení.
+### Mohu také změnit styl písma tabulky?  
+Ano! Styl písma můžete upravit pomocí `TextState` objekt pro každou buňku, což umožňuje plné přizpůsobení.
 
-### Jak do tabulky přidám další sloupce?  
- Stačí upravit`colCount`proměnnou a přidejte další buňky do smyček pro záhlaví, tělo a zápatí.
+### Jak mohu do tabulky přidat další sloupce?  
+Stačí upravit `colCount` proměnnou a přidat do smyček další buňky pro záhlaví, tělo a zápatí.
 
 ### Co se stane, když nenastavím výšku řádku?  
-Pokud nenastavíte výšku řádku, tabulka se automaticky upraví podle obsahu.
+Pokud nenastavíte výšku řádku, tabulka se automaticky upraví na základě obsahu.
 
 ### Mohu to použít pro dynamický počet řádků?  
-Absolutně! Můžete načítat data z databáze nebo jakéhokoli jiného zdroje a dynamicky upravovat počty řádků a sloupců.
+Rozhodně! Můžete načítat data z databáze nebo jakéhokoli jiného zdroje a dynamicky upravovat počet řádků a sloupců.
 
-### Je Aspose.PDF for .NET zdarma k použití?  
- Aspose.PDF for .NET je licencovaný produkt, ale můžete jej vyzkoušet pomocí a[zkušební verze zdarma](https://releases.aspose.com/) nebo získat a[dočasná licence](https://purchase.aspose.com/temporary-license/).
+### Je Aspose.PDF pro .NET zdarma k použití?  
+Aspose.PDF pro .NET je licencovaný produkt, ale můžete si ho vyzkoušet s [bezplatná zkušební verze](https://releases.aspose.com/) nebo si pořiďte [dočasná licence](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

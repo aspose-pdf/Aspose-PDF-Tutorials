@@ -1,21 +1,23 @@
 ---
-title: Etiketli Metinle PDF Oluştur
-linktitle: Etiketli Metinle PDF Oluştur
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı adım adım eğitimde, Aspose.PDF for .NET kullanarak erişilebilir içeriklere sahip etiketli PDF'lerin nasıl oluşturulacağını öğrenin.
-weight: 50
-url: /tr/net/programming-with-tagged-pdf/create-pdf-with-tagged-text/
+"description": "Bu kapsamlı adım adım eğitimde, Aspose.PDF for .NET kullanarak erişilebilir içeriklere sahip etiketli PDF'lerin nasıl oluşturulacağını öğrenin."
+"linktitle": "Etiketli Metinle PDF Oluştur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Etiketli Metinle PDF Oluştur"
+"url": "/tr/net/programming-with-tagged-pdf/create-pdf-with-tagged-text/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Etiketli Metinle PDF Oluştur
 
 ## giriiş
 
-Günümüzün dijital çağında, PDF belgeleri içerik paylaşmak ve görüntülemek için en popüler biçimlerden biri haline geldi. İster iş raporları, ister akademik makaleler veya kullanıcı kılavuzları olsun, PDF'ler her yerde! Ancak iyi bir PDF'yi harika bir PDF'den ayıran şey erişilebilirlik ve yapıdır. Doğru duydunuz! Etiketli PDF'ler, ekran okuyucuların ve yardımcı teknolojilerin içeriği anlamasını ve içinde gezinmesini kolaylaştırır. Ve tahmin edin ne oldu? Bu eğitimde, Aspose.PDF for .NET kullanarak etiketli bir PDF oluşturma sürecini adım adım anlatacağım! 
+Günümüzün dijital çağında, PDF belgeleri içerik paylaşmak ve görüntülemek için en popüler biçimlerden biri haline geldi. İster iş raporları, ister akademik makaleler veya kullanıcı kılavuzları olsun, PDF'ler her yerde! Ancak iyi bir PDF'yi harika bir PDF'den ayıran şey erişilebilirlik ve yapıdır. Doğru duydunuz! Etiketli PDF'ler, ekran okuyucuların ve yardımcı teknolojilerin içeriği anlamasını ve içinde gezinmesini kolaylaştırır. Ve tahmin edin ne oldu? Bu eğitimde, .NET için Aspose.PDF kullanarak etiketli bir PDF oluşturma sürecini adım adım anlatacağım! 
 
 O halde en sevdiğiniz içeceğinizi alın, yerleşin ve etiketli PDF'lerin dünyasına dalalım!
 
@@ -24,7 +26,7 @@ O halde en sevdiğiniz içeceğinizi alın, yerleşin ve etiketli PDF'lerin dün
 Başlamadan önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio - Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET'i destekleyen herhangi bir sürümü kullanabilirsiniz.
-2.  Aspose.PDF for .NET - Aspose.PDF for .NET'in en son sürümünü şu adresten indirin:[web sitesi](https://releases.aspose.com/pdf/net/)Ayrıca özelliklerini keşfetmek için ücretsiz deneme seçeneğini de tercih edebilirsiniz.
+2. Aspose.PDF for .NET - Aspose.PDF for .NET'in en son sürümünü şu adresten indirin: [web sitesi](https://releases.aspose.com/pdf/net/)Ayrıca özelliklerini keşfetmek için ücretsiz deneme seçeneğini de tercih edebilirsiniz.
 3. .NET Framework - Bu örnekler .NET için oluşturulacaktır. Makinenizde uyumlu bir sürümün yüklü olduğundan emin olun.
 4. Temel C# Bilgisi - C# programlamaya aşinalık, kod yazarken işimize yarayacak!
 
@@ -41,7 +43,7 @@ Artık ön koşullarımızı hallettiğimize göre, eğlenceli kısma geçelim: 
 1. Visual Studio’yu açın.
 2. "Yeni Proje Oluştur"a tıklayın.
 3. "Konsol Uygulaması (.NET)" seçeneğini seçin ve "İleri"ye tıklayın.
-4.  Projenize bir isim verin (örneğin,`TaggedPdfExample`) ve konumunu ayarlayın.
+4. Projenize bir isim verin (örneğin, `TaggedPdfExample`) ve konumunu ayarlayın.
 5. "Oluştur"a tıklayın.
 
 ### Aspose.PDF Referansını Ekle
@@ -54,7 +56,7 @@ Artık ön koşullarımızı hallettiğimize göre, eğlenceli kısma geçelim: 
 
 ### Gerekli Ad Alanlarını İçe Aktar
 
- Ana program dosyanızın en üstünde (örneğin`Program.cs`), aşağıdaki ad alanlarını içe aktarın:
+Ana program dosyanızın en üstünde (örneğin `Program.cs`), aşağıdaki ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -77,7 +79,7 @@ Kodlamaya başlamadan önce PDF dosyamızı kaydedeceğimiz belge dizinini tanı
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Bunu yolunuza güncelleyin
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF'nizi kaydetmek istediğiniz gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF'nizi kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Bir PDF Belgesi Oluşturun
 
@@ -107,7 +109,7 @@ taggedContent.SetTitle("Tagged Pdf Document");
 taggedContent.SetLanguage("en-US");
 ```
 
-## Adım 5: Metin Bloğu Düzeyinde Yapı Elemanları Oluşturun
+## Adım 5: Metin Bloğu Düzeyinde Yapı Öğeleri Oluşturun
 
 İçeriğimizi burada oluşturacağız. Başlıklar ve paragraflar yapacağız, tıpkı yapı taşları gibi!
 
@@ -169,7 +171,7 @@ Aspose.PDF for .NET ile etiketli bir PDF oluşturmak, bir kez alıştığınızd
 Etiketli PDF, ekran okuyucuların ve yardımcı teknolojilerin içerikte etkili bir şekilde gezinmesini kolaylaştıran yapılandırılmış veriler içerir.
 
 ### Aspose.PDF'i kullanmak için satın almam gerekiyor mu?  
- Ücretsiz denemeyle başlayabilmenize rağmen, uzun süreli kullanım için bir lisans gerekecektir. Daha fazla bilgi edinebilirsiniz[Burada](https://purchase.aspose.com/buy).
+Ücretsiz denemeyle başlayabilmenize rağmen, uzun süreli kullanım için bir lisans gerekecektir. Daha fazla bilgi edinebilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### PDF'imdeki yapı elemanlarını özelleştirebilir miyim?  
 Kesinlikle! Çeşitli unsurları manipüle edebilir ve gereksinimlerinize göre karmaşık yapılar oluşturabilirsiniz.
@@ -178,10 +180,12 @@ Kesinlikle! Çeşitli unsurları manipüle edebilir ve gereksinimlerinize göre 
 Evet, Aspose.PDF .NET Framework, .NET Core ve daha fazlası dahil olmak üzere çeşitli .NET platformlarında çalışacak şekilde tasarlanmıştır.
 
 ### Aspose.PDF için desteği nerede bulabilirim?  
- Ziyaret edebilirsiniz[Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10) Herhangi bir sorunuz veya karşılaştığınız sorun için.
+Ziyaret edebilirsiniz [Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10) Herhangi bir sorunuz veya karşılaştığınız sorun için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

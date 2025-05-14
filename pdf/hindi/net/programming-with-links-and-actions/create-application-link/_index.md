@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ फाइल में आवेदन लिंक बनाएं
-linktitle: पीडीएफ फाइल में आवेदन लिंक बनाएं
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों में एप्लिकेशन लिंक कैसे बनाएं। अपने PDF में अन्तरक्रियाशीलता बढ़ाने के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 20
-url: /hi/net/programming-with-links-and-actions/create-application-link/
+"description": "जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों में एप्लिकेशन लिंक कैसे बनाएं। अपने PDF में अन्तरक्रियाशीलता बढ़ाने के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "पीडीएफ फाइल में आवेदन लिंक बनाएं"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ फाइल में आवेदन लिंक बनाएं"
+"url": "/hi/net/programming-with-links-and-actions/create-application-link/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ फाइल में आवेदन लिंक बनाएं
@@ -62,7 +64,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके PDF दस्तावेज़ों वाले फ़ोल्डर के वास्तविक पथ के साथ। यह चर हमारे PDF हेरफेर के लिए आधार पथ के रूप में कार्य करेगा।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके PDF दस्तावेज़ों वाले फ़ोल्डर के वास्तविक पथ के साथ। यह चर हमारे PDF हेरफेर के लिए आधार पथ के रूप में कार्य करेगा।
 
 ## चरण 2: पीडीएफ दस्तावेज़ खोलें
 
@@ -72,7 +74,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "CreateApplicationLink.pdf");
 ```
 
- हम इसका प्रयोग कर रहे हैं`Document` Aspose.PDF से क्लास का उपयोग करके अपनी PDF फ़ाइल लोड करें। यह इंस्टेंस हमें PDF को संपादित करने और उसमें बदलाव करने की अनुमति देगा।
+हम इसका प्रयोग कर रहे हैं `Document` Aspose.PDF से क्लास का उपयोग करके अपनी PDF फ़ाइल लोड करें। यह इंस्टेंस हमें PDF को संपादित करने और उसमें बदलाव करने की अनुमति देगा।
 
 ## चरण 3: लिंक एनोटेशन बनाएं
 
@@ -83,8 +85,8 @@ Page page = document.Pages[1];
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
--  यहाँ,`page` यह इंगित करता है कि आप लिंक को किस पृष्ठ पर लागू करेंगे (इस मामले में, पहला पृष्ठ)।
-- `LinkAnnotation`क्लास निर्दिष्ट पृष्ठ पर एक नया लिंक बनाता है, जिसे (100,100) से शुरू होकर (300,300) पर समाप्त होने वाले आयताकार क्षेत्र द्वारा परिभाषित किया जाता है। यह आयत पीडीएफ में लिंक के क्लिक करने योग्य क्षेत्र को निर्धारित करता है।
+- यहाँ, `page` यह इंगित करता है कि आप लिंक को किस पृष्ठ पर लागू करेंगे (इस मामले में, पहला पृष्ठ)।
+- The `LinkAnnotation` क्लास निर्दिष्ट पृष्ठ पर एक नया लिंक बनाता है, जिसे (100,100) से शुरू होकर (300,300) पर समाप्त होने वाले आयताकार क्षेत्र द्वारा परिभाषित किया जाता है। यह आयत पीडीएफ में लिंक के क्लिक करने योग्य क्षेत्र को निर्धारित करता है।
 
 ## चरण 4: लिंक का रंग सेट करें
 
@@ -98,13 +100,13 @@ link.Color = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green);
 
 ## चरण 5: लिंक क्रिया को परिभाषित करें
 
-अब एनोटेशन की क्रिया निर्धारित करके उसे कार्यात्मक बनाने का समय आ गया है। यह क्रिया निर्धारित करेगी कि जब कोई उपयोगकर्ता लिंक पर क्लिक करेगा तो क्या होगा।
+अब समय आ गया है कि एनोटेशन की क्रिया निर्धारित करके उसे कार्यात्मक बनाया जाए। यह क्रिया निर्धारित करेगी कि जब कोई उपयोगकर्ता लिंक पर क्लिक करेगा तो क्या होगा।
 
 ```csharp
 link.Action = new LaunchAction(document, dataDir + "CreateApplicationLink.pdf");
 ```
 
- साथ`LaunchAction`, हम निर्दिष्ट करते हैं कि क्लिक करने पर लिंक क्या करता है। यहाँ, हमने इसे उसी PDF फ़ाइल को खोलने के लिए परिभाषित किया है। आप आवश्यकतानुसार किसी एप्लिकेशन या किसी अन्य दस्तावेज़ से लिंक करने के लिए इसे आसानी से संशोधित कर सकते हैं।
+साथ `LaunchAction`, हम निर्दिष्ट करते हैं कि क्लिक करने पर लिंक क्या करता है। यहाँ, हमने इसे उसी PDF फ़ाइल को खोलने के लिए परिभाषित किया है। आप आवश्यकतानुसार किसी एप्लिकेशन या किसी अन्य दस्तावेज़ से लिंक करने के लिए इसे आसानी से संशोधित कर सकते हैं।
 
 ## चरण 6: पृष्ठ पर एनोटेशन जोड़ें
 
@@ -147,19 +149,21 @@ Console.WriteLine("\nApplication link created successfully.\nFile saved at " + d
 .NET के लिए Aspose.PDF .NET फ्रेमवर्क के साथ विकसित अनुप्रयोगों में पीडीएफ फाइलों को बनाने और हेरफेर करने के लिए एक शक्तिशाली लाइब्रेरी है।
 
 ### मैं Aspose.PDF कैसे डाउनलोड कर सकता हूँ?  
- आप यहां जाकर .NET के लिए Aspose.PDF डाउनलोड कर सकते हैं[इस लिंक](https://releases.aspose.com/pdf/net/).
+आप यहां जाकर .NET के लिए Aspose.PDF डाउनलोड कर सकते हैं [इस लिंक](https://releases.aspose.com/pdf/net/).
 
 ### क्या Aspose का निःशुल्क परीक्षण का कोई विकल्प है?  
- हां, आप Aspose.PDF का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप Aspose.PDF का निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या मुझे Aspose.PDF का उपयोग करने के लिए सहायता मिल सकती है?  
- बिल्कुल! किसी भी सहायता-संबंधी प्रश्न के लिए, यहाँ जाएँ[Aspose PDF सहायता फ़ोरम](https://forum.aspose.com/c/pdf/10).
+बिल्कुल! किसी भी सहायता-संबंधी प्रश्न के लिए, यहाँ जाएँ [Aspose PDF सहायता फ़ोरम](https://forum.aspose.com/c/pdf/10).
 
 ### मैं Aspose के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?  
- आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यह पृष्ठ](https://purchase.aspose.com/temporary-license/).
+आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं [यह पृष्ठ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

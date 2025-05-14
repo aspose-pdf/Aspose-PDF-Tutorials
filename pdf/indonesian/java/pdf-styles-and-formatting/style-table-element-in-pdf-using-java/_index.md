@@ -1,14 +1,16 @@
 ---
-title: Elemen Tabel Gaya dalam PDF menggunakan Java
-linktitle: Elemen Tabel Gaya dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menata tabel dalam dokumen PDF menggunakan Java dengan Aspose.PDF. Buat tabel yang menarik secara visual dan sesuaikan tampilannya untuk PDF profesional.
-weight: 14
-url: /id/java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/
+"description": "Pelajari cara menata tabel dalam dokumen PDF menggunakan Java dengan Aspose.PDF. Buat tabel yang menarik secara visual dan sesuaikan tampilannya untuk PDF profesional."
+"linktitle": "Elemen Tabel Gaya dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Elemen Tabel Gaya dalam PDF menggunakan Java"
+"url": "/id/java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elemen Tabel Gaya dalam PDF menggunakan Java
@@ -28,7 +30,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
 ## Menyiapkan Aspose.PDF untuk Java
 
- Untuk memulai, unduh pustaka Aspose.PDF untuk Java dari situs web:[Unduh Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/)
+Untuk memulai, unduh pustaka Aspose.PDF untuk Java dari situs web: [Unduh Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/)
 
 Setelah diunduh, sertakan perpustakaan dalam proyek Java Anda.
 
@@ -57,7 +59,7 @@ pdfDocument.getPages().get_Item(1).getParagraphs().add(table);
 Untuk menata tabel, Anda dapat menyesuaikan berbagai aspek seperti warna latar belakang sel, font teks, dan banyak lagi.
 
 ```java
-//Kode Java untuk memberi gaya pada tabel
+// Kode Java untuk memberi gaya pada tabel
 table.setDefaultCellBorder(new BorderInfo(BorderSide.All, 1F));
 table.setDefaultCellPadding(new MarginInfo(5, 5, 5, 5));
 table.setDefaultCellTextState(new TextState());
@@ -128,15 +130,15 @@ Dalam tutorial ini, kami telah mempelajari cara memberi gaya pada elemen tabel d
 
 ### Bagaimana cara mengubah warna latar belakang tabel?
 
- Untuk mengubah warna latar belakang tabel, Anda dapat menggunakan`table.setBackgroundColor(Color)` metode dan tentukan warna yang diinginkan.
+Untuk mengubah warna latar belakang tabel, Anda dapat menggunakan `table.setBackgroundColor(Color)` metode dan tentukan warna yang diinginkan.
 
 ### Bisakah saya menggabungkan sel dalam tabel?
 
- Ya, Anda dapat menggabungkan sel dalam tabel menggunakan`Cell` kelas`setColSpan(int)` Dan`setRowSpan(int)` metode.
+Ya, Anda dapat menggabungkan sel dalam tabel menggunakan `Cell` kelas `setColSpan(int)` Dan `setRowSpan(int)` metode.
 
 ### Bagaimana cara menambahkan batas ke sel tertentu?
 
- Untuk menambahkan batas pada sel tertentu, Anda dapat menggunakan`Cell` kelas`setBorder` metode dan tentukan properti perbatasan.
+Untuk menambahkan batas pada sel tertentu, Anda dapat menggunakan `Cell` kelas `setBorder` metode dan tentukan properti perbatasan.
 
 ### Apakah Aspose.PDF untuk Java kompatibel dengan IDE Java yang berbeda?
 
@@ -144,10 +146,12 @@ Ya, Aspose.PDF untuk Java kompatibel dengan berbagai Lingkungan Pengembangan Ter
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi terperinci dan referensi API untuk Aspose.PDF untuk Java di[Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi terperinci dan referensi API untuk Aspose.PDF untuk Java di [Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

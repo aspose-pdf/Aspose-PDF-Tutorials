@@ -1,14 +1,16 @@
 ---
-title: Damga Açıklamasından Metin Çıkar
-linktitle: Damga Açıklamasından Metin Çıkar
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimle, .NET için Aspose.PDF'yi kullanarak bir damga açıklamasından metnin nasıl çıkarılacağını öğrenin ve ayrıntılı bir kod örneği ekleyin.
-weight: 80
-url: /tr/net/programming-with-stamps-and-watermarks/extract-text-from-stamp-annotation/
+"description": "Bu adım adım eğitimle, .NET için Aspose.PDF'yi kullanarak bir damga açıklamasından metnin nasıl çıkarılacağını öğrenin ve ayrıntılı bir kod örneği ekleyin."
+"linktitle": "Damga Açıklamasından Metin Çıkar"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Damga Açıklamasından Metin Çıkar"
+"url": "/tr/net/programming-with-stamps-and-watermarks/extract-text-from-stamp-annotation/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Damga Açıklamasından Metin Çıkar
@@ -21,7 +23,7 @@ PDF dosyalarıyla çalışırken, açıklamalardan metin gibi belirli verileri �
 
 Eğitime başlamadan önce ihtiyacınız olacak birkaç şey var:
 
--  .NET için Aspose.PDF: .NET için Aspose.PDF'in yüklü olması gerekir.[en son sürümü buradan indirin](https://releases.aspose.com/pdf/net/).
+- .NET için Aspose.PDF: .NET için Aspose.PDF'in yüklü olması gerekir. [en son sürümü buradan indirin](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Bu kılavuz, entegre geliştirme ortamınız (IDE) olarak Visual Studio kullandığınızı varsayar.
 - Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmalısınız.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "test.pdf");
 ```
 
- Burada şunu kullanıyoruz:`Document` PDF dosyasını açmak ve onunla etkileşim kurmak için Aspose.PDF tarafından sağlanan sınıf.`dataDir` değişken dosyanızın yolunu temsil eder. Değiştir`"YOUR DOCUMENT DIRECTORY"` PDF'nizin saklandığı gerçek yol ile.
+Burada şunu kullanıyoruz: `Document` PDF dosyasını açmak ve onunla etkileşim kurmak için Aspose.PDF tarafından sağlanan sınıf. `dataDir` değişken dosyanızın yolunu temsil eder. Değiştir `"YOUR DOCUMENT DIRECTORY"` PDF'nizin saklandığı gerçek yol ile.
 
 ## Adım 2: Damga Açıklamasını Tanımlayın
 
@@ -62,8 +64,8 @@ StampAnnotation annot = doc.Pages[1].Annotations[3] as StampAnnotation;
 
 Bu kod satırında:
 - `doc.Pages[1]`: Belgenin ilk sayfasına erişir.
-- `Annotations[3]`: Sayfadaki dördüncü açıklamaya atıfta bulunur (çünkü dizinleme 0'dan başlar).
-- `as StampAnnotation` : Açıklamayı bir`StampAnnotation` nesne, uğraştığımız açıklamanın belirli türüdür.
+- `Annotations[3]`: Sayfadaki dördüncü açıklamayı ifade eder (çünkü dizinleme 0'dan başlar).
+- `as StampAnnotation`: Açıklamayı bir `StampAnnotation` nesne, uğraştığımız açıklamanın belirli türüdür.
 
 ## Adım 3: Bir Metin Emici Oluşturun
 
@@ -73,7 +75,7 @@ Damga açıklamasından metin çıkarmak için bir Metin Emici kullanmamız gere
 TextAbsorber ta = new TextAbsorber();
 ```
 
- The`TextAbsorber` sınıfı, belgenin herhangi bir bölümünden metin çıkarmak için tasarlanmıştır ve bunu açıklamanın görünümünü hedeflemek için kullanacağız.
+The `TextAbsorber` sınıfı, belgenin herhangi bir bölümünden metin çıkarmak için tasarlanmıştır ve bunu açıklamanın görünümünü hedeflemek için kullanacağız.
 
 ## Adım 4: Damga Açıklamasının Görünümünü Çıkarın
 
@@ -88,13 +90,13 @@ Burada:
 
 ## Adım 5: Metin İçeriğini Çıkarın
 
- Artık görünüme sahip olduğumuza göre, şunu kullanabiliriz:`TextAbsorber` görünümü ziyaret etmek ve metni yakalamak.
+Artık görünüme sahip olduğumuza göre, şunu kullanabiliriz: `TextAbsorber` görünümü ziyaret etmek ve metni yakalamak.
 
 ```csharp
 ta.Visit(ap);
 ```
 
- The`Visit` yöntem izin verir`TextAbsorber` Görünümü analiz etmek ve içinde gömülü herhangi bir metinsel içeriği çıkarmak.
+The `Visit` yöntem izin verir `TextAbsorber` Görünümü analiz etmek ve içinde gömülü herhangi bir metinsel içeriği çıkarmak.
 
 ## Adım 6: Çıkarılan Metni Görüntüle
 
@@ -125,10 +127,12 @@ Evet, benzer yöntemleri kullanarak görünüm ve görüntü verilerine erişere
 Aspose.PDF for .NET, metin düzenleme, form alanı işleme, belge dönüştürme ve daha birçok özelliği içeren geniş bir yelpazede özellikler sunar.
 
 ### Aspose.PDF for .NET ücretsiz mi?  
- Aspose.PDF for .NET ücretsiz deneme sunar, ancak tüm özelliklere erişmek için bir lisans satın almanız gerekir. Ayrıca bir lisans için de başvurabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF for .NET ücretsiz deneme sunar, ancak tüm özelliklere erişmek için bir lisans satın almanız gerekir. Ayrıca bir lisans için başvuruda bulunabilirsiniz. [geçici lisans](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

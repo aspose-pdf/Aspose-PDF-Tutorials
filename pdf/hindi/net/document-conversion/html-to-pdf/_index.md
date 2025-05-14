@@ -1,14 +1,16 @@
 ---
-title: HTML से PDF
-linktitle: HTML से PDF
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके HTML को PDF में परिवर्तित करना सीखें।
-weight: 50
-url: /hi/net/document-conversion/html-to-pdf/
+"description": "इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके HTML को PDF में परिवर्तित करना सीखें।"
+"linktitle": "HTML से PDF"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "HTML से PDF"
+"url": "/hi/net/document-conversion/html-to-pdf/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML से PDF
@@ -23,7 +25,7 @@ url: /hi/net/document-conversion/html-to-pdf/
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यह हमारा विकास वातावरण होगा।
 2. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास .NET फ्रेमवर्क स्थापित है। Aspose.PDF विभिन्न संस्करणों का समर्थन करता है, इसलिए अपने प्रोजेक्ट के साथ संगतता की जाँच करें।
-3. Aspose.PDF लाइब्रेरी: आपको Aspose.PDF लाइब्रेरी डाउनलोड करके इंस्टॉल करनी होगी। आप इसे यहाँ पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF लाइब्रेरी: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 4. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
 
 ## पैकेज आयात करें
@@ -42,10 +44,10 @@ using System;
 
 कोई भी कोड लिखने से पहले, आपको अपनी प्रोजेक्ट डायरेक्टरी सेट अप करनी होगी। यह वह जगह है जहाँ आप अपनी HTML फ़ाइलें और आउटपुट PDF स्टोर करेंगे।
 
--  अपने कंप्यूटर पर एक फ़ोल्डर बनाएँ जहाँ आप अपनी HTML फ़ाइलें रखेंगे। उदाहरण के लिए, आप इसे नाम दे सकते हैं`Documents`.
--  अपनी HTML फ़ाइल (जैसे,`HTMLToPDF.html`) इस फ़ोल्डर में.
+- अपने कंप्यूटर पर एक फ़ोल्डर बनाएँ जहाँ आप अपनी HTML फ़ाइलें रखेंगे। उदाहरण के लिए, आप इसे नाम दे सकते हैं `Documents`.
+- अपनी HTML फ़ाइल (जैसे, `HTMLToPDF.html`) इस फ़ोल्डर में.
 
-अब, रूपांतरण करने के लिए कोड लिखें। अपनी मुख्य C# फ़ाइल खोलें और इन चरणों का पालन करें:
+अब, आइए रूपांतरण करने के लिए कोड लिखें। अपनी मुख्य C# फ़ाइल खोलें और इन चरणों का पालन करें:
 
 ### चरण 2: डेटा निर्देशिका निर्धारित करें
 
@@ -55,11 +57,11 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`YOUR DOCUMENT DIRECTORY` अपने वास्तविक पथ के साथ`Documents` फ़ोल्डर.
+प्रतिस्थापित करें `YOUR DOCUMENT DIRECTORY` अपने वास्तविक पथ के साथ `Documents` फ़ोल्डर.
 
 ### चरण 3: HtmlLoadOptions बनाएँ
 
-इसके बाद, आप इसका एक उदाहरण बनाएंगे`HtmlLoadOptions`यह वर्ग आपको बाह्य संसाधनों को लोड करने के तरीके को अनुकूलित करने की अनुमति देता है।
+इसके बाद, आप इसका एक उदाहरण बनाएंगे `HtmlLoadOptions`यह वर्ग आपको बाह्य संसाधनों को लोड करने के तरीके को अनुकूलित करने की अनुमति देता है।
 
 ```csharp
 HtmlLoadOptions options = new HtmlLoadOptions();
@@ -70,7 +72,7 @@ options.CustomLoaderOfExternalResources = new LoadOptions.ResourceLoadingStrateg
 
 ### चरण 4: HTML दस्तावेज़ लोड करें
 
- अब, आपके HTML दस्तावेज़ को Aspose.PDF में लोड करने का समय आ गया है`Document` वस्तु।
+अब, आपके HTML दस्तावेज़ को Aspose.PDF में लोड करने का समय आ गया है `Document` वस्तु।
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "HTMLToPDF.html", options);
@@ -95,7 +97,7 @@ pdfDocument.Save("HTMLToPDF_out.pdf");
 ```csharp
 try
 {
-    // आपका रूपांतरण कोड यहां
+    // आपका रूपांतरण कोड यहाँ
 }
 catch (Exception ex)
 {
@@ -107,7 +109,7 @@ catch (Exception ex)
 
 ## निष्कर्ष
 
-बधाई हो! आपने सफलतापूर्वक सीख लिया है कि .NET के लिए Aspose.PDF का उपयोग करके HTML को PDF में कैसे परिवर्तित किया जाए। यह शक्तिशाली लाइब्रेरी प्रक्रिया को सरल बनाती है और आपको अपनी HTML फ़ाइलों से उच्च-गुणवत्ता वाले PDF दस्तावेज़ बनाने की अनुमति देती है। चाहे आप किसी छोटे प्रोजेक्ट या बड़े एप्लिकेशन पर काम कर रहे हों, Aspose.PDF आपके डेवलपमेंट टूलकिट में एक मूल्यवान टूल हो सकता है।
+बधाई हो! आपने .NET के लिए Aspose.PDF का उपयोग करके HTML को PDF में बदलने का तरीका सफलतापूर्वक सीख लिया है। यह शक्तिशाली लाइब्रेरी प्रक्रिया को सरल बनाती है और आपको अपनी HTML फ़ाइलों से उच्च-गुणवत्ता वाले PDF दस्तावेज़ बनाने की अनुमति देती है। चाहे आप किसी छोटे प्रोजेक्ट या बड़े एप्लिकेशन पर काम कर रहे हों, Aspose.PDF आपके डेवलपमेंट टूलकिट में एक मूल्यवान टूल हो सकता है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -115,19 +117,21 @@ catch (Exception ex)
 Aspose.PDF एक .NET लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PDF दस्तावेज़ बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देती है।
 
 ### क्या मैं Aspose.PDF का निःशुल्क उपयोग कर सकता हूँ?
- हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसका उपयोग आप लाइब्रेरी का मूल्यांकन करने के लिए कर सकते हैं। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसका उपयोग आप लाइब्रेरी का मूल्यांकन करने के लिए कर सकते हैं। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या Aspose.PDF .NET कोर के साथ संगत है?
 हां, Aspose.PDF .NET कोर का समर्थन करता है, जिससे आप इसे आधुनिक अनुप्रयोगों में उपयोग कर सकते हैं।
 
-### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
- आप यहां जाकर सहायता प्राप्त कर सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/pdf/10).
+### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त करूं?
+आप यहां जाकर सहायता प्राप्त कर सकते हैं [Aspose फ़ोरम](https://forum.aspose.com/c/pdf/10).
 
 ### मैं Aspose.PDF कहां से खरीद सकता हूं?
- आप Aspose.PDF के लिए लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप Aspose.PDF के लिए लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

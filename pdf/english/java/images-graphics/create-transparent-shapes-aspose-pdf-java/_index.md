@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating Transparent Shapes in PDFs Using Aspose.PDF for Java
 
@@ -220,7 +222,11 @@ Ready to try it out? Download the library from [Aspose's website](https://releas
 - **Free Trial**: [Try Aspose.PDF](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

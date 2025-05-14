@@ -8,7 +8,9 @@ url: /net/programming-with-security-and-signatures/is-password-protected/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Is Password Protected
@@ -126,6 +128,7 @@ Aspose offers a temporary license that you can request [here](https://purchase.a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

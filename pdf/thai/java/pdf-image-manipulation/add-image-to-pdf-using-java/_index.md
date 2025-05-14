@@ -1,14 +1,16 @@
 ---
-title: เพิ่มรูปภาพลงใน PDF โดยใช้ Java
-linktitle: เพิ่มรูปภาพลงใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีเพิ่มรูปภาพลงใน PDF โดยใช้ Java ด้วยคู่มือทีละขั้นตอนของเรา ปรับปรุงเอกสาร PDF ของคุณด้วยภาพประกอบได้อย่างง่ายดาย
-weight: 10
-url: /th/java/pdf-image-manipulation/add-image-to-pdf-using-java/
+"description": "เรียนรู้วิธีเพิ่มรูปภาพลงใน PDF โดยใช้ Java ด้วยคู่มือทีละขั้นตอนของเรา ปรับปรุงเอกสาร PDF ของคุณด้วยภาพประกอบได้อย่างง่ายดาย"
+"linktitle": "เพิ่มรูปภาพลงใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มรูปภาพลงใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-image-manipulation/add-image-to-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มรูปภาพลงใน PDF โดยใช้ Java
@@ -28,7 +30,7 @@ url: /th/java/pdf-image-manipulation/add-image-to-pdf-using-java/
 
 ## การเริ่มต้น
 
-เริ่มต้นด้วยการตั้งค่าโปรเจ็กต์ Java ของเราและรวมไลบรารี Aspose.PDF หากคุณยังไม่ได้ดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+เริ่มต้นด้วยการตั้งค่าโปรเจ็กต์ Java ของเราและรวมไลบรารี Aspose.PDF หากคุณยังไม่ได้ดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การเพิ่มรูปภาพลงใน PDF ที่มีอยู่
 
@@ -48,18 +50,18 @@ import com.aspose.pdf.*;
 Document pdfDocument = new Document("path_to_existing_pdf.pdf");
 ```
 
- แทนที่`"path_to_existing_pdf.pdf"` พร้อมเส้นทางจริงไปยังไฟล์ PDF ของคุณ
+แทนที่ `"path_to_existing_pdf.pdf"` พร้อมเส้นทางจริงไปยังไฟล์ PDF ของคุณ
 
 ### ขั้นตอนที่ 3: เพิ่มรูปภาพ
 
- หากต้องการเพิ่มรูปภาพลงใน PDF คุณสามารถใช้`Image` คลาสจาก Aspose.PDF ก่อนอื่น ให้สร้างคลาส`Image` วัตถุและระบุเส้นทางของไฟล์ภาพ:
+หากต้องการเพิ่มรูปภาพลงใน PDF คุณสามารถใช้ `Image` คลาสจาก Aspose.PDF ก่อนอื่น ให้สร้างคลาส `Image` วัตถุและระบุเส้นทางของไฟล์ภาพ:
 
 ```java
 Image image = new Image();
 image.setFile("path_to_image.png");
 ```
 
- แทนที่`"path_to_image.png"` พร้อมเส้นทางไปยังรูปภาพที่คุณต้องการเพิ่ม
+แทนที่ `"path_to_image.png"` พร้อมเส้นทางไปยังรูปภาพที่คุณต้องการเพิ่ม
 
 ### ขั้นตอนที่ 4: ตั้งค่าขนาดและตำแหน่งของภาพ
 
@@ -93,13 +95,13 @@ pdfDocument.save("output.pdf");
 
 ## บทสรุป
 
-คุณได้เพิ่มรูปภาพลงในเอกสาร PDF สำเร็จแล้วโดยใช้ Java และไลบรารี Aspose.PDF ซึ่งอาจมีประโยชน์อย่างยิ่งเมื่อคุณต้องการสร้าง PDF ที่มีภาพสวยงามในแอปพลิเคชัน Java ของคุณ
+คุณได้เพิ่มรูปภาพลงในเอกสาร PDF สำเร็จแล้วโดยใช้ Java และไลบรารี Aspose.PDF ซึ่งอาจเป็นประโยชน์อย่างยิ่งเมื่อคุณต้องการสร้าง PDF ที่มีภาพสวยงามในแอปพลิเคชัน Java ของคุณ
 
 ## คำถามที่พบบ่อย
 
 ### ฉันจะปรับขนาดรูปภาพภายใน PDF ได้อย่างไร?
 
- หากต้องการปรับขนาดภาพ ให้ใช้`setFixWidth` และ`setFixHeight` วิธีการของ`Image` ชั้นเรียนดังที่แสดงในขั้นตอนที่ 4 ของคู่มือนี้
+หากต้องการปรับขนาดภาพ ให้ใช้ `setFixWidth` และ `setFixHeight` วิธีการของ `Image` ชั้นเรียนดังที่แสดงในขั้นตอนที่ 4 ของคู่มือนี้
 
 ### ฉันสามารถเพิ่มรูปภาพหลาย ๆ รูปลงในเอกสาร PDF เดียวกันได้หรือไม่
 
@@ -116,9 +118,11 @@ Aspose.PDF สำหรับ Java รองรับรูปแบบภาพ
 ### ฉันสามารถเพิ่มรูปภาพไปยังตำแหน่งที่เจาะจงบนหน้า PDF ได้หรือไม่
 
 ใช่ คุณสามารถระบุตำแหน่งที่แน่นอนของรูปภาพภายในหน้า PDF ได้โดยการตั้งค่าระยะขอบด้านบนและด้านซ้าย ดังที่แสดงในขั้นตอนที่ 4
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

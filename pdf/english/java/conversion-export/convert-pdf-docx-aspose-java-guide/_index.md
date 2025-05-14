@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PDF to DOC/DOCX Using Aspose.PDF for Java: A Comprehensive Guide
 
@@ -190,7 +192,11 @@ A5: Aspose.PDF itself doesn't include OCR, but you can integrate with libraries 
 - **Purchase:** [Buy Now](https://purchase.aspose.com/buy)
 - **Free Trial:** [Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

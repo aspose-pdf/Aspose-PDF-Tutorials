@@ -1,14 +1,16 @@
 ---
-title: Thêm Dấu Trang PDF vào Tệp PDF bằng Java
-linktitle: Thêm Dấu Trang PDF vào Tệp PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm tem trang PDF trong Java bằng Aspose.PDF. Hướng dẫn từng bước này sẽ chỉ cho bạn cách tùy chỉnh tem cho tài liệu PDF của bạn một cách dễ dàng.
-weight: 13
-url: /vi/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/
+"description": "Tìm hiểu cách thêm tem trang PDF trong Java bằng Aspose.PDF. Hướng dẫn từng bước này sẽ chỉ cho bạn cách tùy chỉnh tem cho tài liệu PDF của bạn một cách dễ dàng."
+"linktitle": "Thêm Dấu Trang PDF vào Tệp PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm Dấu Trang PDF vào Tệp PDF bằng Java"
+"url": "/vi/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Dấu Trang PDF vào Tệp PDF bằng Java
@@ -28,7 +30,7 @@ Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp 
 
 - Đã cài đặt Java Development Kit (JDK)
 - Môi trường phát triển tích hợp (IDE) như Eclipse hoặc IntelliJ IDEA
--  Aspose.PDF cho thư viện Java (Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho thư viện Java (Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập môi trường
 
@@ -109,7 +111,7 @@ Trong hướng dẫn này, chúng ta đã học cách thêm tem trang PDF vào t
 
 ### Làm thế nào tôi có thể thêm tem hình ảnh thay vì văn bản?
 
- Bạn có thể tạo ra một`ImageStamp` thay vì một`TextStamp` và cấu hình nó bằng tệp hình ảnh của bạn.
+Bạn có thể tạo ra một `ImageStamp` thay vì một `TextStamp` và cấu hình nó bằng tệp hình ảnh của bạn.
 
 ### Tôi có thể tùy chỉnh vị trí của con dấu trang không?
 
@@ -125,10 +127,12 @@ Aspose.PDF for Java là một thư viện thương mại, nhưng bạn có thể
 
 ### Tôi có thể tìm thêm tài liệu và ví dụ ở đâu?
 
- Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên trang tài liệu Aspose.PDF cho Java:[đây](https://reference.aspose.com/pdf/java/)
+Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên trang tài liệu Aspose.PDF cho Java: [đây](https://reference.aspose.com/pdf/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

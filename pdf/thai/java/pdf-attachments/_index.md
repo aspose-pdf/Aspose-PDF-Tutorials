@@ -1,14 +1,16 @@
 ---
-title: ไฟล์แนบ PDF
-linktitle: ไฟล์แนบ PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้การจัดการไฟล์แนบ PDF ใน Java ด้วย Aspose.PDF แนบไฟล์ รูปภาพ และอื่นๆ ลงใน PDF ของคุณได้อย่างง่ายดาย
-weight: 11
-url: /th/java/pdf-attachments/
+"description": "เรียนรู้การจัดการไฟล์แนบ PDF ใน Java ด้วย Aspose.PDF แนบไฟล์ รูปภาพ และอื่นๆ ลงใน PDF ของคุณได้อย่างง่ายดาย"
+"linktitle": "ไฟล์แนบ PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ไฟล์แนบ PDF"
+"url": "/th/java/pdf-attachments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ไฟล์แนบ PDF
@@ -33,9 +35,11 @@ url: /th/java/pdf-attachments/
 เรียนรู้วิธีเรียกค้นไฟล์แนบ PDF ใน Java โดยใช้ Aspose.PDF คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการจัดการไฟล์แนบเอกสาร PDF
 ### [รายการสิ่งที่แนบมาทั้งหมดในเอกสาร PDF](./list-all-attachments-pdf-documents/)
 ค้นพบวิธีการแสดงรายการไฟล์แนบใน PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนในการแยกไฟล์แนบ PDF อย่างง่ายดาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

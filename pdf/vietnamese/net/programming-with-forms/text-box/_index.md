@@ -1,14 +1,16 @@
 ---
-title: Hộp văn bản
-linktitle: Hộp văn bản
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Khám phá cách thêm hộp văn bản vào PDF dễ dàng bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tăng cường tương tác của người dùng.
-weight: 290
-url: /vi/net/programming-with-forms/text-box/
+"description": "Khám phá cách thêm hộp văn bản vào PDF dễ dàng bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tăng cường tương tác của người dùng."
+"linktitle": "Hộp văn bản"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Hộp văn bản"
+"url": "/vi/net/programming-with-forms/text-box/"
+"weight": 290
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hộp văn bản
@@ -24,7 +26,7 @@ Bạn đã sẵn sàng cải thiện PDF của mình và làm cho chúng thực 
 Trước khi bắt đầu tạo hộp văn bản trong tài liệu PDF, bạn cần chuẩn bị một số thứ sau:
 
 1. Kiến thức cơ bản về C#: Hiểu cú pháp và cấu trúc của C# sẽ giúp bạn điều hướng qua mã dễ dàng hơn.
-2.  Aspose.PDF cho .NET đã cài đặt: Đảm bảo bạn đã tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET đã cài đặt: Đảm bảo bạn đã tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể lấy nó từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/).
 3. Môi trường phát triển: Một IDE như Visual Studio sẽ hoạt động tốt nhất để chạy và kiểm tra mã của bạn.
 4. .NET Framework: Hướng dẫn này được thiết kế cho các ứng dụng .NET, do đó việc cài đặt phiên bản tương thích là rất quan trọng.
 
@@ -56,7 +58,7 @@ Bước này tích hợp thư viện Aspose.PDF vào dự án của bạn, cho p
 
 ### Nhập không gian tên Aspose.PDF
 
- Ở đầu tệp chương trình chính của bạn (thường là`Program.cs`), bao gồm dòng sau để truy cập chức năng Aspose.PDF:
+Ở đầu tệp chương trình chính của bạn (thường là `Program.cs`), bao gồm dòng sau để truy cập chức năng Aspose.PDF:
 
 ```csharp
 using System.IO;
@@ -74,7 +76,7 @@ Chúng ta hãy cùng tìm hiểu từng bước trong quy trình thêm hộp vă
 
 ## Bước 1: Xác định thư mục tài liệu của bạn
 
- Trước tiên, chúng ta cần chỉ định nơi lưu trữ tài liệu PDF của mình. Hãy đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế của tập tin của bạn.
+Trước tiên, chúng ta cần chỉ định nơi lưu trữ tài liệu PDF của mình. Hãy đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế của tập tin của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -90,7 +92,7 @@ Tiếp theo, bạn sẽ muốn mở tài liệu PDF nơi bạn định thêm h�
 Document pdfDocument = new Document(dataDir + "TextField.pdf");
 ```
 
- Dòng này tải tệp PDF vào một phiên bản của`Document` lớp. Đảm bảo rằng`"TextField.pdf"` có trong thư mục bạn chỉ định.
+Dòng này tải tệp PDF vào một phiên bản của `Document` lớp. Đảm bảo rằng `"TextField.pdf"` có trong thư mục bạn chỉ định.
 
 ## Bước 3: Tạo trường hộp văn bản
 
@@ -101,8 +103,8 @@ TextBoxField textBoxField = new TextBoxField(pdfDocument.Pages[1], new Aspose.Pd
 ```
 
 Dòng này thực hiện một số việc:
--  Nó khởi tạo một cái mới`TextBoxField` đối tượng sẽ được thêm vào trang thứ hai của tệp PDF của bạn (lưu ý rằng các trang được lập chỉ mục bắt đầu từ 1).
--  Các`Rectangle` tham số xác định vị trí và kích thước của hộp văn bản, được chỉ định dưới dạng tọa độ (x1, y1, x2, y2).
+- Nó khởi tạo một cái mới `TextBoxField` đối tượng sẽ được thêm vào trang thứ hai của tệp PDF của bạn (lưu ý rằng các trang được lập chỉ mục bắt đầu từ 1).
+- Các `Rectangle` tham số xác định vị trí và kích thước của hộp văn bản, được chỉ định dưới dạng tọa độ (x1, y1, x2, y2).
 
 ## Bước 4: Thiết lập Thuộc tính cho Trường Hộp Văn bản 
 
@@ -115,7 +117,7 @@ textBoxField.Value = "Text Box";
 
 Trong ví dụ này:
 - `PartialName` thiết lập một mã định danh duy nhất cho hộp văn bản.
-- `Value`định nghĩa văn bản mặc định xuất hiện bên trong hộp.
+- `Value` định nghĩa văn bản mặc định xuất hiện bên trong hộp.
 
 ## Bước 5: Tùy chỉnh đường viền
 
@@ -166,19 +168,21 @@ Xin chúc mừng! Bây giờ bạn đã thêm thành công hộp văn bản vào
 Aspose.PDF cho .NET là một thư viện toàn diện để tạo, xử lý và chuyển đổi tài liệu PDF bằng các ứng dụng .NET.
 
 ### Tôi có thể dùng thử Aspose.PDF miễn phí không?
- Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể truy cập[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể truy cập [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể tìm thấy sự hỗ trợ và thảo luận của cộng đồng tại[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm thấy sự hỗ trợ và thảo luận cộng đồng tại [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể thêm những loại trường biểu mẫu nào khi sử dụng Aspose.PDF?
 Bạn có thể thêm hộp văn bản, hộp kiểm, nút radio, danh sách thả xuống và nhiều mục khác.
 
 ### Làm thế nào tôi có thể xin được giấy phép tạm thời cho Aspose.PDF?
- Bạn có thể yêu cầu giấy phép tạm thời từ[liên kết này](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời từ [liên kết này](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

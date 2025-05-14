@@ -1,14 +1,16 @@
 ---
-title: Obtener el destino del hipervínculo PDF mediante Java
-linktitle: Obtener el destino del hipervínculo PDF mediante Java
-second_title: API de procesamiento de PDF de Java Aspose.PDF
-description: Descubra cómo recuperar destinos de hipervínculos PDF mediante Java con Aspose.PDF para Java. Aprenda paso a paso con ejemplos de código en este tutorial completo.
-weight: 10
-url: /es/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
+"description": "Descubra cómo recuperar hipervínculos PDF usando Java con Aspose.PDF para Java. Aprenda paso a paso con ejemplos de código en este completo tutorial."
+"linktitle": "Obtener el destino del hipervínculo PDF mediante Java"
+"second_title": "API de procesamiento de PDF de Java Aspose.PDF"
+"title": "Obtener el destino del hipervínculo PDF mediante Java"
+"url": "/es/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obtener el destino del hipervínculo PDF mediante Java
@@ -16,11 +18,11 @@ url: /es/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
 
 ## Introducción
 
-En este tutorial, exploraremos cómo obtener destinos de hipervínculos PDF mediante Java con la ayuda de Aspose.PDF para Java. Los hipervínculos son elementos esenciales en los documentos PDF, que permiten a los usuarios navegar a destinos específicos dentro del PDF o recursos externos. Repasaremos el proceso paso a paso, brindando ejemplos de código y explicaciones.
+En este tutorial, exploraremos cómo obtener hipervínculos PDF usando Java con la ayuda de Aspose.PDF para Java. Los hipervínculos son elementos esenciales en los documentos PDF, ya que permiten a los usuarios navegar a destinos específicos dentro del PDF o a recursos externos. Explicaremos el proceso paso a paso, incluyendo ejemplos de código.
 
 ## Comprensión de los hipervínculos PDF
 
-Los hipervínculos PDF son elementos interactivos que permiten a los usuarios hacer clic y navegar a diferentes ubicaciones dentro del documento PDF o sitios web externos. Constan de dos componentes principales: la anotación del vínculo y el destino. El destino especifica a dónde llevará el hipervínculo al usuario.
+Los hipervínculos PDF son elementos interactivos que permiten a los usuarios hacer clic y navegar a diferentes ubicaciones dentro del documento PDF o a sitios web externos. Constan de dos componentes principales: la anotación del enlace y el destino. El destino especifica adónde llevará el hipervínculo al usuario.
 
 ## Prerrequisitos
 
@@ -31,13 +33,13 @@ Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 
 ## Configuración de Aspose.PDF para Java
 
-Para comenzar, debe configurar Aspose.PDF para Java en su proyecto. Siga estos pasos:
-1.  Descargue Aspose.PDF para Java desde[aquí](https://releases.aspose.com/pdf/java/).
+Para empezar, debe configurar Aspose.PDF para Java en su proyecto. Siga estos pasos:
+1. Descargue Aspose.PDF para Java desde [aquí](https://releases.aspose.com/pdf/java/).
 2. Agregue la biblioteca Aspose.PDF a su proyecto Java.
 
 ## Cargar un documento PDF
 
-Primero, cargaremos un documento PDF con Aspose.PDF para Java. Este es el código para hacerlo:
+Primero, cargaremos un documento PDF con Aspose.PDF para Java. Aquí está el código para hacerlo:
 
 ```java
 // Cargar el documento PDF
@@ -56,7 +58,7 @@ LinkAnnotationCollection linkAnnotations = page.getAnnotations().getLinkAnnotati
 
 ## Extracción de destinos de hipervínculos
 
-Ahora que tenemos las anotaciones de enlace, podemos extraer los destinos del hipervínculo:
+Ahora que tenemos las anotaciones del enlace, podemos extraer los destinos del hipervínculo:
 
 ```java
 // Extraer e imprimir destinos de hipervínculos
@@ -68,13 +70,13 @@ for (LinkAnnotation link : linkAnnotations) {
 
 ## Conclusión
 
-En este tutorial, hemos aprendido a obtener hipervínculos de destino en PDF mediante Java y Aspose.PDF para Java. Hemos cubierto los conceptos básicos de los hipervínculos en PDF, hemos configurado el entorno necesario, hemos cargado un documento PDF, hemos recuperado hipervínculos y hemos extraído sus destinos. Este conocimiento puede resultar valioso para diversas tareas de manipulación de PDF en aplicaciones Java.
+En este tutorial, aprendimos a obtener hipervínculos PDF usando Java y Aspose.PDF para Java. Cubrimos los fundamentos de los hipervínculos PDF, configuramos el entorno necesario, cargamos un documento PDF, recuperamos hipervínculos y extrajimos sus destinos. Este conocimiento puede ser valioso para diversas tareas de manipulación de PDF en aplicaciones Java.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo instalo Aspose.PDF para Java?
 
- Para instalar Aspose.PDF para Java, descargue la biblioteca desde[aquí](https://releases.aspose.com/pdf/java/) y agréguelo a las dependencias de su proyecto Java.
+Para instalar Aspose.PDF para Java, descargue la biblioteca desde [aquí](https://releases.aspose.com/pdf/java/) y agréguelo a las dependencias de su proyecto Java.
 
 ### ¿Puedo utilizar Aspose.PDF para Java de forma gratuita?
 
@@ -90,10 +92,12 @@ Puede modificar o eliminar hipervínculos accediendo a las anotaciones de enlace
 
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.PDF para Java?
 
- Puede encontrar documentación detallada de Aspose.PDF para Java en[aquí](https://reference.aspose.com/pdf/java/).
+Puede encontrar documentación detallada de Aspose.PDF para Java en [aquí](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

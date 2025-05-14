@@ -8,7 +8,9 @@ url: /net/annotations/updatefreetextannotation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Free Text PDF Annotation
@@ -125,6 +127,7 @@ If you face any issues, you can seek help from the Aspose support forum [here](h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

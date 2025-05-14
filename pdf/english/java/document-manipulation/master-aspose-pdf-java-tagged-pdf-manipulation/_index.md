@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Tagged PDF Manipulation in Java with Aspose.PDF
 
@@ -196,6 +198,9 @@ Ready to get started? Implement these techniques in your next project and witnes
 - [Free Trial Information](https://releases.aspose.com/pdf/java/
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Расшифровать PDF-файл
-linktitle: Расшифровать PDF-файл
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как безопасно расшифровать файлы PDF с помощью Aspose.PDF для .NET. Получите пошаговое руководство по улучшению навыков управления документами.
-weight: 20
-url: /ru/net/programming-with-security-and-signatures/decrypt/
+"description": "Узнайте, как безопасно расшифровать файлы PDF с помощью Aspose.PDF для .NET. Получите пошаговое руководство по улучшению навыков управления документами."
+"linktitle": "Расшифровать PDF-файл"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Расшифровать PDF-файл"
+"url": "/ru/net/programming-with-security-and-signatures/decrypt/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Расшифровать PDF-файл
@@ -25,7 +27,7 @@ url: /ru/net/programming-with-security-and-signatures/decrypt/
 
 1. Базовые знания C#: вы должны быть знакомы с основами языка программирования C#, поскольку нам предстоит писать код.
 2. Visual Studio установлена: Мы будем использовать Visual Studio в качестве интегрированной среды разработки (IDE). Убедитесь, что она установлена на вашем компьютере.
-3.  Библиотека Aspose.PDF для .NET: Вам необходимо иметь доступную библиотеку Aspose.PDF. Вы можете[скачать здесь](https://releases.aspose.com/pdf/net/).
+3. Библиотека Aspose.PDF для .NET: Вам необходимо иметь доступную библиотеку Aspose.PDF. Вы можете [скачать здесь](https://releases.aspose.com/pdf/net/).
 4. PDF-файлы для тестирования: Получите PDF-файл, который вы хотите расшифровать. Также убедитесь, что у вас есть пароль для PDF-файла. 
 5. Настройка .NET Framework: убедитесь, что ваша среда настроена на использование совместимой платформы .NET Framework.
 
@@ -41,7 +43,7 @@ url: /ru/net/programming-with-security-and-signatures/decrypt/
 
 1. Перейдите в Файл > Новый > Проект.
 2. Выберите консольное приложение (убедитесь, что выбранное вами приложение совместимо с вашей версией .NET).
-3. Дайте своему проекту релевантное название, например, «PDFDecryption».
+3. Дайте своему проекту соответствующее название, например, «PDFDecryption».
 
 ### Установить Aspose.PDF через NuGet
 
@@ -53,7 +55,7 @@ url: /ru/net/programming-with-security-and-signatures/decrypt/
 
 ### Добавьте директиву Using
 
- После того, как вы добавили пакет, пришло время включить его в ваш код. В верхней части вашего`Program.cs` файл, добавьте следующее пространство имен:
+После того, как вы добавили пакет, пришло время включить его в ваш код. В верхней части вашего `Program.cs` файл, добавьте следующее пространство имен:
 
 ```csharp
 using System;
@@ -73,7 +75,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENTS DIRECTORY"` с фактическим путем к вашим документам. Это как дать вашей программе карту, чтобы найти ваше сокровище.
+Заменять `"YOUR DOCUMENTS DIRECTORY"` с фактическим путем к вашим документам. Это как дать вашей программе карту, чтобы найти ваше сокровище.
 
 ## Шаг 2: Откройте документ.
 
@@ -83,7 +85,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document document = new Document(dataDir + "Decrypt.pdf", "password");
 ```
 
- Заменять`"Decrypt.pdf"` с именем вашего зашифрованного PDF-файла и`"password"` с фактическим паролем, необходимым для его открытия. Это как отпереть дверь цифрового хранилища!
+Заменять `"Decrypt.pdf"` с именем вашего зашифрованного PDF-файла и `"password"` с фактическим паролем, необходимым для его открытия. Это как отпереть дверь цифрового хранилища!
 
 ## Шаг 3: Расшифруйте PDF-файл
 
@@ -131,16 +133,18 @@ Console.WriteLine("\nPDF file decrypted successfully.\nFile saved at " + dataDir
 К сожалению, восстановить забытый пароль с помощью Aspose.PDF или любого другого инструмента не представляется возможным ни с юридической, ни с этической точки зрения.
 
 ### Можно ли использовать Aspose.PDF бесплатно?
- Aspose.PDF не бесплатен, но вы можете попробовать его, используя[бесплатная пробная версия](https://releases.aspose.com/).
+Aspose.PDF не бесплатен, но вы можете попробовать его, используя [бесплатная пробная версия](https://releases.aspose.com/).
 
 ### Поддерживает ли Aspose.PDF другие форматы файлов?
 Да, он поддерживает различные форматы, такие как DOC, XML и изображения наряду с PDF-файлами.
 
 ### Где я могу получить помощь, если она мне понадобится?
- Вы можете посетить[Форум поддержки Aspose](https://forum.aspose.com/c/pdf/10) за помощь.
+Вы можете посетить [Форум поддержки Aspose](https://forum.aspose.com/c/pdf/10) за помощь.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

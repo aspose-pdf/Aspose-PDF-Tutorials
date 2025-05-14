@@ -1,21 +1,23 @@
 ---
-title: Określ stronę podczas przeglądania
-linktitle: Określ stronę podczas przeglądania
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak określić stronę do wyświetlenia w pliku PDF za pomocą Aspose.PDF dla platformy .NET. Ulepsz nawigację użytkownika dzięki temu prostemu przewodnikowi.
-weight: 110
-url: /pl/net/programming-with-links-and-actions/specify-page-when-viewing/
+"description": "Dowiedz się, jak określić stronę do wyświetlenia w pliku PDF za pomocą Aspose.PDF dla platformy .NET. Ulepsz nawigację użytkownika dzięki temu prostemu przewodnikowi."
+"linktitle": "Określ stronę podczas przeglądania"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Określ stronę podczas przeglądania"
+"url": "/pl/net/programming-with-links-and-actions/specify-page-when-viewing/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określ stronę podczas przeglądania
 
 ## Wstęp
 
-Czy chcesz ulepszyć swoje aplikacje PDF, kierując użytkowników do konkretnych stron po otwarciu dokumentu? Jesteś we właściwym miejscu! W tym przewodniku zagłębimy się w szczegóły korzystania z Aspose.PDF dla .NET w celu określenia strony, która powinna zostać wyświetlona po otwarciu pliku PDF. Ta funkcjonalność może znacznie poprawić komfort użytkowania, zwłaszcza gdy trzeba zwrócić uwagę na krytyczne sekcje dokumentu.
+Czy chcesz ulepszyć swoje aplikacje PDF, kierując użytkowników do konkretnych stron po otwarciu dokumentu? Jesteś we właściwym miejscu! W tym przewodniku zagłębimy się w szczegóły korzystania z Aspose.PDF dla .NET, aby określić stronę, która powinna być wyświetlana po otwarciu pliku PDF. Ta funkcjonalność może znacznie poprawić komfort użytkowania, zwłaszcza gdy trzeba zwrócić uwagę na krytyczne sekcje dokumentu.
 
 ## Wymagania wstępne
 
@@ -23,7 +25,7 @@ Zanim zagłębisz się w kodowanie, upewnijmy się, że masz wszystko, czego pot
 
 1. Podstawowa wiedza o .NET: Znajomość .NET Framework jest niezbędna. Jeśli dobrze znasz C# i masz podstawową wiedzę na temat programowania obiektowego, jesteś gotowy!
 
-2.  Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF w swoim projekcie. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF w swoim projekcie. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
 
 3. Visual Studio: Ten samouczek zakłada, że używasz Visual Studio jako swojego IDE. Upewnij się, że jest ono zainstalowane na Twoim komputerze.
 
@@ -45,7 +47,7 @@ Aby użyć biblioteki Aspose.PDF, należy dodać do niej odwołanie:
 
 1. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 2. Wybierz „Zarządzaj pakietami NuGet”.
-3.  Szukaj`Aspose.PDF` i zainstaluj pakiet.
+3. Szukaj `Aspose.PDF` i zainstaluj pakiet.
 
 ### Importuj przestrzenie nazw
 
@@ -71,7 +73,7 @@ Najpierw musisz ustawić ścieżkę do swoich dokumentów:
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zastąp swoim katalogiem
 ```
 
- Ta linia to w zasadzie Twoja mapa drogowa. Informujesz swój kod, gdzie znaleźć plik PDF. Upewnij się, że zastąpiłeś`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką na Twoim komputerze.
+Ta linia to w zasadzie Twoja mapa drogowa. Informujesz swój kod, gdzie znaleźć plik PDF. Upewnij się, że zastąpiłeś `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką na Twoim komputerze.
 
 ## Krok 2: Załaduj plik PDF
 
@@ -82,11 +84,11 @@ Następnie należy załadować plik PDF do aplikacji:
 Document doc = new Document(dataDir + "SpecifyPageWhenViewing.pdf");
 ```
 
- Tutaj tworzysz nową instancję`Document`obiekt podczas określania ścieżki do pliku PDF. Możesz to sobie wyobrazić jako otwieranie książki, którą właśnie umieściłeś na stole.
+Tutaj tworzysz nową instancję `Document` obiekt podczas określania ścieżki do pliku PDF. Możesz to sobie wyobrazić jako otwieranie książki, którą właśnie umieściłeś na stole.
 
 ## Krok 3: Uzyskaj dostęp do żądanej strony
 
-Teraz przejdźmy do strony, którą chcemy wyświetlić po otwarciu dokumentu:
+Teraz przejdźmy do strony, którą chcesz wyświetlić po otwarciu dokumentu:
 
 ```csharp
 // Pobierz wystąpienie drugiej strony dokumentu
@@ -104,7 +106,7 @@ Możesz dostosować poziom powiększenia wyświetlanej strony:
 double zoom = 1; // 1 oznacza 100% powiększenia
 ```
 
-Ustawienie współczynnika powiększenia pomaga określić, ile strony użytkownik widzi od razu po jej otwarciu. Wartość 1 oznacza, że strona będzie wyświetlana w powiększeniu 100%, co jest ogólnie dobrym ustawieniem domyślnym.
+Ustawienie współczynnika powiększenia pomaga określić, ile strony użytkownik widzi od razu po jej otwarciu. Wartość 1 oznacza, że strona zostanie wyświetlona w powiększeniu 100%, co jest ogólnie dobrym ustawieniem domyślnym.
 
 ## Krok 5: Utwórz instancję GoToAction
 
@@ -115,7 +117,7 @@ Przyjrzyjmy się bliżej funkcjom nawigacyjnym:
 GoToAction action = new GoToAction(doc.Pages[2]); 
 ```
 
- W tym kroku tworzysz instancję`GoToAction` co w zasadzie oznacza czynność nawigacji do określonego punktu w pliku PDF – w tym przypadku do drugiej strony.
+W tym kroku tworzysz instancję `GoToAction` co w zasadzie oznacza czynność nawigacji do określonego punktu w pliku PDF – w tym przypadku do drugiej strony.
 
 ## Krok 6: Określ miejsce docelowe
 
@@ -148,9 +150,9 @@ Na koniec zapiszmy dokument ze zmianami:
 doc.Save(dataDir + "goto2page_out.pdf");
 ```
 
-Ten krok kończy Twoją pracę! Będziesz mieć nowy plik PDF o nazwie`goto2page_out.pdf` który otwiera bezpośrednio wskazaną stronę.
+Ten krok kończy Twoją pracę! Będziesz mieć nowy plik PDF o nazwie `goto2page_out.pdf` który otwiera bezpośrednio wskazaną stronę.
 
-Tym samym część kodowania jest ukończona! Udało Ci się zaprogramować Aspose.PDF tak, aby po otwarciu pliku PDF wyświetlał określoną stronę. 
+Tym samym część kodowania jest ukończona! Udało Ci się zaprogramować Aspose.PDF tak, aby pokazywał określoną stronę po otwarciu pliku PDF. 
 
 ## Wniosek
 
@@ -165,16 +167,18 @@ Aspose.PDF for .NET to biblioteka umożliwiająca programistom tworzenie, modyfi
 Nie, możesz ustawić otwieranie dokumentu tylko na jednej określonej stronie. Możesz jednak tworzyć różne dokumenty dla różnych stron początkowych.
 
 ### Co zrobić, jeśli chcę obejrzeć stronę w innym poziomie powiększenia?
- Możesz zmienić poziom powiększenia, dostosowując`zoom` zmienną przed zapisaniem dokumentu.
+Możesz zmienić poziom powiększenia, dostosowując `zoom` zmienną przed zapisaniem dokumentu.
 
 ### Gdzie mogę znaleźć więcej przykładów wykorzystania Aspose.PDF?
- Możesz sprawdzić[dokumentacja](https://reference.aspose.com/pdf/net/) aby zobaczyć więcej przykładów i funkcjonalności.
+Możesz sprawdzić [dokumentacja](https://reference.aspose.com/pdf/net/) aby zobaczyć więcej przykładów i funkcjonalności.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.PDF dla platformy .NET?
- Tak! Możesz pobrać bezpłatną wersję próbną Aspose.PDF[Tutaj](https://releases.aspose.com/).
+Tak! Możesz pobrać bezpłatną wersję próbną Aspose.PDF [Tutaj](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

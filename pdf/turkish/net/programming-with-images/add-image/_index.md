@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına Resim Ekle
-linktitle: PDF Dosyasına Resim Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyasına programatik olarak resim eklemeyi öğrenin. Sorunsuz uygulama için adım adım kılavuz, örnek kod ve SSS dahildir.
-weight: 10
-url: /tr/net/programming-with-images/add-image/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyasına programatik olarak resim eklemeyi öğrenin. Sorunsuz uygulama için adım adım kılavuz, örnek kod ve SSS dahildir."
+"linktitle": "PDF Dosyasına Resim Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Resim Ekle"
+"url": "/tr/net/programming-with-images/add-image/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Resim Ekle
@@ -21,7 +23,7 @@ Bir PDF dosyasına programatik olarak nasıl resim ekleyeceğinizi hiç merak et
 
 Koda geçmeden önce, başlamak için ihtiyaç duyduğunuz temel gereksinimleri kısaca gözden geçirelim:
 
-- Aspose.PDF for .NET kitaplığı: En son sürümü şu adresten indirin ve yükleyin:[Burada](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF for .NET kitaplığı: En son sürümü şu adresten indirin ve yükleyin: [Burada](https://releases.aspose.com/pdf/net/).
 - .NET Geliştirme Ortamı: Visual Studio veya tercih ettiğiniz herhangi bir IDE.
 - Temel C# bilgisi: Temel C# programlama ve nesne yönelimli prensiplere aşinalık.
 - PDF ve resim dosyaları: Örnek bir PDF dosyası ve eklenecek bir resim.
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Belgeyi aç
 Document pdfDocument = new Document(dataDir + "AddImage.pdf");
 ```
- The`Document`Aspose.PDF'deki sınıf, mevcut bir PDF dosyasını açmak ve üzerinde çalışmak için kullanılır. PDF'nizin bulunduğu dizin yolunu belirtmeniz gerekir.
+The `Document` Aspose.PDF'deki sınıf, mevcut bir PDF dosyasını açmak ve üzerinde çalışmak için kullanılır. PDF'nizin bulunduğu dizin yolunu belirtmeniz gerekir.
 
 ## Adım 2: Görüntü Koordinatlarını Tanımlayın
 
@@ -74,7 +76,7 @@ Daha sonra, PDF'deki hangi sayfaya resim eklemek istediğinizi belirtmeniz gerek
 // Resmin eklenmesi gereken sayfayı alın
 Page page = pdfDocument.Pages[1];
 ```
-Bu örnekte, resmi PDF'nin ilk sayfasına (Sayfalar) ekliyoruz[1] tek tabanlı indeksleme olduğundan ilk sayfayı ifade eder).
+Bu örnekte, görüntüyü PDF'in ilk sayfasına ekliyoruz (Sayfalar[1], tek tabanlı dizinleme olduğundan ilk sayfayı ifade eder).
 
 ## Adım 4: Görüntüyü bir Akışa Yükleyin
 
@@ -84,9 +86,9 @@ Bu örnekte, resmi PDF'nin ilk sayfasına (Sayfalar) ekliyoruz[1] tek tabanlı i
 // Görüntüyü akışa yükle
 FileStream imageStream = new FileStream(dataDir + "aspose-logo.jpg", FileMode.Open);
 ```
- The`FileStream` sınıf, görüntü dosyasını açmak için kullanılır. Görüntü dosyası (`aspose-logo.jpg`) belirtilen dizinden yüklenir ve okuma modunda açılır (`FileMode.Open`).
+The `FileStream` sınıf, görüntü dosyasını açmak için kullanılır. Görüntü dosyası (`aspose-logo.jpg`) belirtilen dizinden yüklenir ve okuma modunda açılır (`FileMode.Open`).
 
-## Adım 5: Görüntüyü PDF Sayfasına Ekleyin Kaynaklar
+## Adım 5: Resmi PDF Sayfasına Ekleyin Kaynaklar
 
 Resim bir akışa yüklendikten sonra onu PDF'in sayfa kaynaklarına ekleyebilirsiniz.
 
@@ -98,28 +100,28 @@ Bu adım, görüntüyü sayfanın kaynak koleksiyonuna ekler. Görüntü artık 
 
 ## Adım 6: Mevcut Grafik Durumunu Kaydedin
 
- Resmi sayfaya yerleştirmeden önce, geçerli grafik durumunu kullanarak kaydetmelisiniz.`GSave` operatörü. Bu, görüntüye uygulanan herhangi bir dönüşümün belgenin geri kalanını etkilemeyeceğini garanti eder.
+Resmi sayfaya yerleştirmeden önce, geçerli grafik durumunu kullanarak kaydetmelisiniz. `GSave` operatörü. Bu, görüntüye uygulanan herhangi bir dönüşümün belgenin geri kalanını etkilemeyeceğini garanti eder.
 
 ```csharp
-//GSave operatörünü kullanma: bu operatör geçerli grafik durumunu kaydeder
+// GSave operatörünü kullanma: bu operatör geçerli grafik durumunu kaydeder
 page.Contents.Add(new Aspose.Pdf.Operators.GSave());
 ```
- The`GSave` operatörü mevcut grafik ayarlarını kaydeder, bu da daha sonra bunları geri yüklemenize olanak tanır ve görüntü yerleşiminin sayfadaki diğer içerikleri etkilememesini sağlar.
+The `GSave` operatörü mevcut grafik ayarlarını kaydeder, bu da daha sonra bunları geri yüklemenize olanak tanır ve görüntü yerleşiminin sayfadaki diğer içerikleri etkilememesini sağlar.
 
 ## Adım 7: Dikdörtgen ve Matris ile Görüntü Yerleşimini Tanımlayın
 
- Şimdi bir tane yaratın`Rectangle` Resmin sayfada nerede konumlandırılacağını tanımlayan nesne ve`Matrix` Yerleştirme ve ölçeklemeyi kontrol etmek.
+Şimdi bir tane yaratın `Rectangle` Resmin sayfada nerede konumlandırılacağını tanımlayan nesne ve `Matrix` Yerleştirme ve ölçeklemeyi kontrol etmek.
 
 ```csharp
 // Dikdörtgen ve Matris nesneleri oluşturun
 Aspose.Pdf.Rectangle rectangle = new Aspose.Pdf.Rectangle(lowerLeftX, lowerLeftY, upperRightX, upperRightY);
 Matrix matrix = new Matrix(new double[] { rectangle.URX - rectangle.LLX, 0, 0, rectangle.URY - rectangle.LLY, rectangle.LLX, rectangle.LLY });
 ```
- The`Rectangle` PDF sayfasındaki görüntünün koordinatlarını tanımlar ve`Matrix` Doğru ölçekleme ve konumlandırmayı sağlar.
+The `Rectangle` PDF sayfasındaki görüntünün koordinatlarını tanımlar ve `Matrix` Doğru ölçekleme ve konumlandırmayı sağlar.
 
 ## Adım 8: Görüntü Yerleşimi için Matrisi Birleştirin
 
- The`ConcatenateMatrix` operatörü matris dönüşümünü uygulamak ve görüntünün doğru şekilde yerleştirilmesini sağlamak için kullanılır.
+The `ConcatenateMatrix` operatörü matris dönüşümünü uygulamak ve görüntünün doğru şekilde yerleştirilmesini sağlamak için kullanılır.
 
 ```csharp
 // ConcatenateMatrix (matrisi birleştir) operatörünü kullanma: görüntünün nasıl yerleştirileceğini tanımlar
@@ -129,18 +131,18 @@ Bu dönüşüm, tanımlanan matris değerleri kullanılarak görüntünün sayfa
 
 ## Adım 9: Görüntüyü PDF Sayfasına İşleyin
 
- Son olarak, şunu kullanın:`Do` Görüntüyü PDF sayfasına gerçekten aktarmak için kullanılan operatör.
+Son olarak, şunu kullanın: `Do` Görüntüyü PDF sayfasına gerçekten aktarmak için kullanılan operatör.
 
 ```csharp
 XImage ximage = page.Resources.Images[page.Resources.Images.Count];
 // Do operatörünü kullanma: bu operatör görüntü çizer
 page.Contents.Add(new Aspose.Pdf.Operators.Do(ximage.Name));
 ```
- The`Do` operatörü, görüntüyü önceki matris dönüşümü ile tanımlanan konuma çizer.
+The `Do` operatörü, görüntüyü önceki matris dönüşümü ile tanımlanan konuma çizer.
 
 ## Adım 10: Grafik Durumunu Geri Yükle
 
- Görüntü eklendikten sonra, önceki grafik durumunu şu şekilde geri yükleyin:`GRestore` operatör.
+Görüntü eklendikten sonra, önceki grafik durumunu şu şekilde geri yükleyin: `GRestore` operatör.
 
 ```csharp
 // GRestore operatörünü kullanma: bu operatör grafik durumunu geri yükler
@@ -157,11 +159,11 @@ dataDir = dataDir + "AddImage_out.pdf";
 // Güncellenen belgeyi kaydet
 pdfDocument.Save(dataDir);
 ```
- The`Save` yöntemi ile resim eklenmiş PDF dokümanı kaydedilir ve güncellenen dosya "AddImage_out.pdf" ismiyle kaydedilir.
+The `Save` yöntemi ile resim eklenmiş PDF dokümanı kaydedilir ve güncellenen dosya "AddImage_out.pdf" ismiyle kaydedilir.
 
 ## Çözüm
 
-Aspose.PDF for .NET kullanarak bir PDF dosyasına bir resim eklemek, adım adım parçalara ayırdığınızda basittir. Çeşitli operatörleri kullanarak`GSave`, `ConcatenateMatrix` , Ve`Do`, PDF belgelerinizdeki görsellerin yerleşimini ve işlenmesini kolayca kontrol edebilirsiniz. Bu teknik, PDF dosyalarını logolar, filigranlar veya diğer görsellerle özelleştirmek ve markalamak için önemlidir.
+Aspose.PDF for .NET kullanarak bir PDF dosyasına bir resim eklemek, adım adım parçalara ayırdığınızda basittir. Çeşitli operatörleri kullanarak `GSave`, `ConcatenateMatrix`, Ve `Do`, PDF belgelerinizdeki görsellerin yerleşimini ve işlenmesini kolayca kontrol edebilirsiniz. Bu teknik, PDF dosyalarını logolar, filigranlar veya diğer görsellerle özelleştirmek ve markalamak için önemlidir.
 
 ## SSS
 
@@ -179,9 +181,11 @@ Evet, dosya yolunu sağlayarak veya akışları kullanarak görüntüleri dinami
 
 ### Aspose.PDF birden fazla sayfaya toplu olarak resim eklenmesine izin veriyor mu?  
 Evet, aynı yaklaşımı kullanarak bir belgedeki sayfalar arasında dolaşabilir ve birden fazla sayfaya resim ekleyebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

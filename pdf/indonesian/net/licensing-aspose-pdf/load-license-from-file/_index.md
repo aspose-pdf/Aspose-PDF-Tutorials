@@ -1,28 +1,30 @@
 ---
-title: Muat Lisensi Dari File
-linktitle: Muat Lisensi Dari File
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memuat lisensi dari file di Aspose.PDF untuk .NET dengan panduan lengkap ini. Pastikan fungsionalitas penuh dengan menyetel lisensi Anda dengan benar.
-weight: 20
-url: /id/net/licensing-aspose-pdf/load-license-from-file/
+"description": "Pelajari cara memuat lisensi dari file di Aspose.PDF untuk .NET dengan panduan lengkap ini. Pastikan fungsionalitas penuh dengan menyetel lisensi Anda dengan benar."
+"linktitle": "Muat Lisensi Dari File"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Muat Lisensi Dari File"
+"url": "/id/net/licensing-aspose-pdf/load-license-from-file/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Muat Lisensi Dari File
 
 ## Perkenalan
 
-Dalam dunia pemrosesan dokumen, memiliki alat yang tepat sangatlah penting. Aspose.PDF untuk .NET menonjol sebagai pustaka hebat yang memungkinkan pengembang untuk bekerja dengan file PDF dalam berbagai cara. Namun untuk membuka potensi penuhnya, Anda perlu memuat lisensi. Dalam panduan ini, kami akan memandu Anda melalui proses memuat lisensi dari file di Aspose.PDF untuk .NET. Baik Anda baru memulai atau ingin mengasah keterampilan Anda, tutorial ini akan menyediakan semua yang perlu Anda ketahui.
+Dalam dunia pemrosesan dokumen, memiliki alat yang tepat sangatlah penting. Aspose.PDF untuk .NET menonjol sebagai pustaka yang hebat yang memungkinkan pengembang untuk bekerja dengan file PDF dalam berbagai cara. Namun untuk membuka potensi penuhnya, Anda perlu memuat lisensi. Dalam panduan ini, kami akan memandu Anda melalui proses memuat lisensi dari file di Aspose.PDF untuk .NET. Baik Anda baru memulai atau ingin mengasah keterampilan Anda, tutorial ini akan menyediakan semua yang perlu Anda ketahui.
 
 ## Prasyarat
 
 Sebelum kita menyelami panduan langkah demi langkah, mari pastikan Anda telah menyiapkan semuanya. Berikut ini yang Anda perlukan:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
-2.  Berkas Lisensi: Dapatkan berkas lisensi yang valid untuk Aspose.PDF. Jika Anda tidak memilikinya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
+2. Berkas Lisensi: Dapatkan berkas lisensi yang valid untuk Aspose.PDF. Jika Anda tidak memilikinya, Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 3. Lingkungan Pengembangan: Lingkungan pengembangan seperti Visual Studio direkomendasikan untuk pengkodean dan pengujian.
 4. Pengetahuan Dasar C#: Keakraban dengan C# dan kerangka kerja .NET akan membantu Anda mengikutinya dengan mudah.
 
@@ -49,7 +51,7 @@ Untuk menggunakan Aspose.PDF dalam proyek Anda, Anda perlu menambahkan referensi
 
 ## Langkah 2: Inisialisasi Objek Lisensi
 
- Sebelum Anda dapat memuat lisensi, Anda perlu membuat contoh`Aspose.Pdf.License` class. Objek ini akan bertanggung jawab untuk mengatur lisensi di aplikasi Anda.
+Sebelum Anda dapat memuat lisensi, Anda perlu membuat contoh lisensi `Aspose.Pdf.License` class. Objek ini akan bertanggung jawab untuk mengatur lisensi di aplikasi Anda.
 
 ```csharp
 Aspose.Pdf.License license = new Aspose.Pdf.License();
@@ -59,23 +61,23 @@ Anggaplah langkah ini sebagai pengaturan fondasi. Tanpa menginisialisasi objek l
 
 ## Langkah 3: Tetapkan Jalur Lisensi
 
- Anda perlu menentukan jalur ke berkas lisensi Anda. Ini adalah berkas yang Anda peroleh dari Aspose, dan biasanya memiliki`.lic` ekstensi. Tetapkan jalur sebagai variabel string dalam kode Anda.
+Anda perlu menentukan jalur ke berkas lisensi Anda. Ini adalah berkas yang Anda peroleh dari Aspose, dan biasanya memiliki `.lic` ekstensi. Tetapkan jalur sebagai variabel string dalam kode Anda.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya ke berkas lisensi Anda. Penting untuk melakukannya dengan benar; jika tidak, program tidak akan dapat menemukan berkas lisensi.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas lisensi Anda. Penting untuk melakukannya dengan benar; jika tidak, program tidak akan dapat menemukan berkas lisensi.
 
 ## Langkah 4: Muat File Lisensi
 
- Sekarang setelah Anda memiliki objek lisensi dan jalur file yang siap, saatnya untuk memuat lisensi. Anda akan menggunakan`SetLicense` metode dari`Aspose.Pdf.License` kelas untuk menyelesaikan hal ini.
+Sekarang setelah Anda memiliki objek lisensi dan jalur file yang siap, saatnya untuk memuat lisensi. Anda akan menggunakan `SetLicense` metode dari `Aspose.Pdf.License` kelas untuk menyelesaikan hal ini.
 
 ```csharp
 license.SetLicense(dataDir + "Aspose.Pdf.net.lic");
 ```
 
- Baris kode ini memuat berkas lisensi ke dalam pustaka Aspose.PDF, membuka semua kemampuannya.`SetLicense` metode mengambil jalur ke berkas lisensi sebagai parameter dan menerapkannya.
+Baris kode ini memuat berkas lisensi ke dalam pustaka Aspose.PDF, membuka semua kemampuannya. `SetLicense` metode mengambil jalur ke berkas lisensi sebagai parameter dan menerapkannya.
 
 ## Langkah 5: Verifikasi Lisensi
 
@@ -99,19 +101,21 @@ Ingat, menyiapkan lingkungan dengan benar dan mengikuti langkah-langkah dengan s
 Jika Anda tidak memuat lisensi, Aspose.PDF akan berjalan dalam mode evaluasi, yang memiliki batasan seperti tanda air pada PDF yang dihasilkan dan fungsionalitas terbatas.
 
 ### Bisakah saya memuat lisensi dari aliran dan bukan dari berkas?  
- Ya, Aspose.PDF memungkinkan Anda memuat lisensi dari aliran. Anda akan menggunakan`SetLicense`metode tetapi meneruskan objek aliran dan bukan jalur file.
+Ya, Aspose.PDF memungkinkan Anda memuat lisensi dari aliran. Anda akan menggunakan `SetLicense` metode tetapi meneruskan objek aliran dan bukan jalur file.
 
 ### Bagaimana cara memperoleh lisensi untuk Aspose.PDF?  
- Anda dapat membeli lisensi dari[Situs web Aspose](https://purchase.aspose.com/buy) atau mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat membeli lisensi dari [Situs web Aspose](https://purchase.aspose.com/buy) atau mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Bagaimana jika berkas lisensi saya tidak dikenali?  
- Pastikan jalur ke berkas lisensi sudah benar dan berkas tersebut dapat diakses oleh aplikasi Anda. Jika masalah masih berlanjut, Anda dapat menghubungi[Aspose dukungan](https://forum.aspose.com/c/pdf/10) untuk bantuan.
+Pastikan jalur ke berkas lisensi sudah benar dan berkas tersebut dapat diakses oleh aplikasi Anda. Jika masalah masih berlanjut, Anda dapat menghubungi [Aspose dukungan](https://forum.aspose.com/c/pdf/10) untuk bantuan.
 
 ### Apakah mungkin untuk menerapkan lisensi terukur?  
- Ya, Aspose.PDF mendukung lisensi terukur, yang memungkinkan Anda membayar hanya untuk sumber daya yang Anda konsumsi. Ini dapat diatur dengan cara yang sama dengan menginisialisasi`Metered` kelas dan pengaturan kunci.
+Ya, Aspose.PDF mendukung lisensi terukur, yang memungkinkan Anda membayar hanya untuk sumber daya yang Anda konsumsi. Ini dapat diatur dengan cara yang sama dengan menginisialisasi `Metered` kelas dan pengaturan kunci.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

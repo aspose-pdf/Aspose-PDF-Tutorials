@@ -1,29 +1,31 @@
 ---
-title: Simpan Gambar Dalam Koleksi XImage
-linktitle: Simpan Gambar Dalam Koleksi XImage
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menyimpan gambar dalam koleksi XImage menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah lengkap ini.
-weight: 290
-url: /id/net/programming-with-images/store-image-in-ximage-collection/
+"description": "Pelajari cara menyimpan gambar dalam koleksi XImage menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah lengkap ini."
+"linktitle": "Simpan Gambar Dalam Koleksi XImage"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Simpan Gambar Dalam Koleksi XImage"
+"url": "/id/net/programming-with-images/store-image-in-ximage-collection/"
+"weight": 290
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Simpan Gambar Dalam Koleksi XImage
 
 ## Perkenalan
 
-Di era digital saat ini, penanganan dan manipulasi dokumen secara terprogram sangat penting bagi banyak aplikasi. Aspose.PDF untuk .NET memberdayakan pengembang untuk bekerja dengan file PDF dengan mudah, meningkatkan alur kerja, dan memungkinkan pembuatan konten yang dinamis. Dalam panduan ini, kita akan membahas proses penyimpanan gambar dalam koleksi XImage, fitur penting yang memungkinkan Anda menyematkan visual langsung ke PDF Anda. Siap memulai perjalanan menciptakan konten yang menakjubkan ini.
+Di era digital saat ini, penanganan dan manipulasi dokumen secara terprogram sangat penting bagi banyak aplikasi. Aspose.PDF untuk .NET memberdayakan pengembang untuk bekerja dengan file PDF dengan mudah, meningkatkan alur kerja, dan memungkinkan pembuatan konten yang dinamis. Dalam panduan ini, kita akan membahas proses penyimpanan gambar dalam koleksi XImage, fitur penting yang memungkinkan Anda menyematkan visual langsung ke PDF Anda. Siap untuk memulai perjalanan menciptakan konten yang menakjubkan ini.
 
 ## Prasyarat
 
 Sebelum kita menyelami kode dan proses, Anda perlu memastikan bahwa Anda telah menyiapkan beberapa hal:
 
 - Lingkungan .NET: Anda harus menginstal .NET Framework di komputer Anda. Pilih versi yang sesuai berdasarkan kebutuhan proyek Anda.
-- Aspose.PDF untuk .NET: Pastikan Anda memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/) atau mulai dengan uji coba gratis[Di Sini](https://releases.aspose.com/).
-- Berkas Gambar: Anda juga memerlukan berkas gambar (seperti JPG atau PNG) yang ingin disimpan dalam PDF. Untuk contoh ini, kami akan menggunakan berkas bernama "aspose-logo.jpg".
+- Aspose.PDF untuk .NET: Pastikan Anda memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/) atau mulai dengan uji coba gratis [Di Sini](https://releases.aspose.com/).
+- Berkas Gambar: Anda juga memerlukan berkas gambar (seperti JPG atau PNG) yang ingin Anda simpan dalam PDF. Untuk contoh ini, kami akan menggunakan berkas bernama "aspose-logo.jpg".
 - Pemahaman Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikutinya dengan lancar.
 
 ## Paket Impor
@@ -80,16 +82,16 @@ using (FileStream imageStream = new FileStream(dataDir + "aspose-logo.jpg", File
 
 Baris ini membuka berkas gambar sebagai aliran, yang memungkinkan kita untuk memanipulasi dan menanamkannya ke dalam PDF.
 
-## Langkah 5: Tambahkan Gambar ke Sumber Daya Halaman
+## Langkah 5: Tambahkan Gambar ke Halaman Sumber Daya
 
-Sekarang gambar sudah siap untuk digunakan, saatnya untuk menambahkannya ke sumber daya halaman, yang pada dasarnya memberi tahu PDF, "Hai, saya punya gambar keren yang ingin Anda ingat!"
+Sekarang gambar sudah siap digunakan, saatnya menambahkannya ke sumber daya halaman, yang pada dasarnya memberi tahu PDF, "Hai, saya punya gambar keren yang ingin Anda ingat!"
 
 ```csharp
 page.Resources.Images.Add(imageStream, ImageFilterType.Flate);
 XImage ximage = page.Resources.Images[page.Resources.Images.Count];
 ```
 
- Kode ini melakukan pekerjaan berat dalam menambahkan gambar ke PDF dan menetapkannya ke`XImage` variabel yang dapat kita referensikan nanti.
+Kode ini melakukan pekerjaan berat dalam menambahkan gambar ke PDF dan menetapkannya ke `XImage` variabel yang dapat kita referensikan nanti.
 
 ## Langkah 6: Persiapan Menggambar Gambar
 
@@ -145,7 +147,7 @@ Akhirnya, kita bisa menyimpan karya agung kita! Inilah saat di mana semua kerja 
 document.Save(dataDir + "FlateDecodeCompression.pdf");
 ```
 
-Anda telah memberi tahu Aspose.PDF untuk menyimpan dokumen dengan nama file yang diberikan. Saat menjalankan kode ini, Anda akan menemukan file PDF yang baru dibuat di direktori yang ditentukan, lengkap dengan gambar yang disematkan.
+Anda telah memberi tahu Aspose.PDF untuk menyimpan dokumen dengan nama file yang diberikan. Saat menjalankan kode ini, Anda akan menemukan file PDF yang baru Anda buat di direktori yang ditentukan, lengkap dengan gambar yang disematkan.
 
 ## Kesimpulan
 
@@ -160,16 +162,18 @@ Aspose.PDF mendukung berbagai format gambar, termasuk JPG, PNG, BMP, dan GIF.
 Ya, dengan menyesuaikan koordinat yang ditentukan dalam persegi panjang, Anda dapat mengubah ukuran gambar yang ditampilkan dalam PDF.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF?
- Aspose menawarkan uji coba gratis dan berbagai pilihan pembelian. Anda dapat menemukannya[Di Sini](https://purchase.aspose.com/buy).
+Aspose menawarkan uji coba gratis dan berbagai pilihan pembelian. Anda dapat menemukannya [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat mencari bantuan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda dapat mencari bantuan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Apakah ada cara untuk menerapkan kompresi pada gambar yang ditambahkan ke PDF?
 Ya, saat menambahkan gambar ke PDF, Anda dapat menentukan jenis filter gambar untuk menggunakan metode kompresi seperti Flate.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ दस्तावेज़ों में बुकमार्क बनाएं
-linktitle: पीडीएफ दस्तावेज़ों में बुकमार्क बनाएं
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.PDF के साथ PDF बुकमार्क बनाने का तरीका जानें। दस्तावेज़ नेविगेशन और उपयोगकर्ता अनुभव को बेहतर बनाएँ। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/java/pdf-bookmarks/create-bookmarks-pdf-documents/
+"description": "Java के लिए Aspose.PDF के साथ PDF बुकमार्क बनाने का तरीका जानें। दस्तावेज़ नेविगेशन और उपयोगकर्ता अनुभव को बेहतर बनाएँ। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "पीडीएफ दस्तावेज़ों में बुकमार्क बनाएं"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "पीडीएफ दस्तावेज़ों में बुकमार्क बनाएं"
+"url": "/hi/java/pdf-bookmarks/create-bookmarks-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ दस्तावेज़ों में बुकमार्क बनाएं
@@ -23,7 +25,7 @@ url: /hi/java/pdf-bookmarks/create-bookmarks-pdf-documents/
 इससे पहले कि हम कोडिंग भाग में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा स्थापित है।
--  Aspose.PDF for Java: Aspose.PDF for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java: Aspose.PDF for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ## शुरू करना
 
@@ -51,11 +53,11 @@ import com.aspose.pdf.*;
 Document pdfDocument = new Document("your_document.pdf");
 ```
 
- प्रतिस्थापित करें`"your_document.pdf"` अपनी पीडीएफ फाइल का पथ लिखें.
+प्रतिस्थापित करें `"your_document.pdf"` अपनी पीडीएफ फाइल का पथ लिखें।
 
 ### चरण 4: बुकमार्क जोड़ना
 
- एक बार दस्तावेज़ लोड हो जाने के बाद, आप बुकमार्क जोड़ना शुरू कर सकते हैं। बुकमार्क को बुकमार्क में जोड़ा जाता है।`OutlineCollection` पीडीएफ दस्तावेज़ का। यहां बताया गया है कि आप बुकमार्क कैसे बना सकते हैं:
+एक बार दस्तावेज़ लोड हो जाने के बाद, आप बुकमार्क जोड़ना शुरू कर सकते हैं। बुकमार्क को बुकमार्क में जोड़ा जाता है। `OutlineCollection` पीडीएफ दस्तावेज़ का। यहां बताया गया है कि आप बुकमार्क कैसे बना सकते हैं:
 
 ```java
 OutlineCollection outlines = pdfDocument.getOutlines();
@@ -88,7 +90,7 @@ pdfDocument.save("output.pdf");
 
 ### मैं Java के लिए Aspose.PDF कैसे स्थापित करूं?
 
- जावा के लिए Aspose.PDF को इंस्टॉल करना बहुत आसान है। डाउनलोड पेज पर जाएँ[यहाँ](https://releases.aspose.com/pdf/java/) और अपने विशिष्ट विकास परिवेश के लिए दिए गए स्थापना निर्देशों का पालन करें।
+जावा के लिए Aspose.PDF को इंस्टॉल करना बहुत आसान है। डाउनलोड पेज पर जाएँ [यहाँ](https://releases.aspose.com/pdf/java/) और अपने विशिष्ट विकास परिवेश के लिए दिए गए स्थापना निर्देशों का पालन करें।
 
 ### क्या मैं बुकमार्क्स के स्वरूप को अनुकूलित कर सकता हूँ?
 
@@ -104,10 +106,12 @@ pdfDocument.save("output.pdf");
 
 ### मैं अधिक दस्तावेज और उदाहरण कहां पा सकता हूं?
 
- आप Aspose प्रलेखन साइट पर व्यापक प्रलेखन और उदाहरणों की एक विस्तृत श्रृंखला तक पहुँच सकते हैं[यहाँ](https://reference.aspose.com/pdf/java/)यह Java के लिए Aspose.PDF में महारत हासिल करने के लिए एक मूल्यवान संसाधन है।
+आप Aspose प्रलेखन साइट पर व्यापक प्रलेखन और उदाहरणों की एक विस्तृत श्रृंखला तक पहुँच सकते हैं [यहाँ](https://reference.aspose.com/pdf/java/)यह Java के लिए Aspose.PDF में महारत हासिल करने के लिए एक मूल्यवान संसाधन है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

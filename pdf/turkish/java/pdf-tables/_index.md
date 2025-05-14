@@ -1,14 +1,16 @@
 ---
-title: PDF Tabloları
-linktitle: PDF Tabloları
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF ile PDF tablolarını keşfedin. PDF belgelerinizde tabloları zahmetsizce oluşturun ve düzenleyin.
-weight: 19
-url: /tr/java/pdf-tables/
+"description": "Java için Aspose.PDF ile PDF tablolarını keşfedin. PDF belgelerinizde tabloları zahmetsizce oluşturun ve düzenleyin."
+"linktitle": "PDF Tabloları"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF Tabloları"
+"url": "/tr/java/pdf-tables/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Tabloları
@@ -35,9 +37,11 @@ Java kullanarak PDF'deki hücre sınırlarının nasıl gizleneceğini adım ad�
 Java kullanarak Aspose.PDF for Java ile PDF tablolarını nasıl düzenleyeceğinizi öğrenin. Bu adım adım kılavuz, etkili PDF işleme için tablo çıkarma, değiştirme ve daha fazlasını kapsar.
 ### [Java kullanarak Mevcut PDF'den Tabloları Kaldırın](./remove-tables-from-existing-pdf-using-java/)
 Java kullanarak Aspose.PDF for Java ile PDF'lerden tabloları kolayca nasıl kaldıracağınızı öğrenin. Etkili tablo kaldırma için adım adım kılavuz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ubah PostScript menjadi File PDF
-linktitle: Ubah PostScript menjadi File PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengonversi file PostScript ke PDF dengan mudah menggunakan Aspose.PDF untuk Java. Ikuti panduan langkah demi langkah kami untuk transformasi format file yang lancar.
-weight: 23
-url: /id/java/pdf-conversion-transformation/turn-postscript-into-pdf-files/
+"description": "Pelajari cara mengonversi file PostScript ke PDF dengan mudah menggunakan Aspose.PDF untuk Java. Ikuti panduan langkah demi langkah kami untuk transformasi format file yang lancar."
+"linktitle": "Ubah PostScript menjadi File PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ubah PostScript menjadi File PDF"
+"url": "/id/java/pdf-conversion-transformation/turn-postscript-into-pdf-files/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah PostScript menjadi File PDF
@@ -21,7 +23,7 @@ Di era digital saat ini, kemampuan untuk mengonversi berbagai format file sangat
 Sebelum kita masuk ke proses konversi, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 - Pengetahuan dasar tentang pemrograman Java.
 
 Sekarang, mari kita mulai!
@@ -81,7 +83,7 @@ Proses konversi sangat bergantung pada kompleksitas berkas PostScript asli. Bebe
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi dan contoh yang komprehensif pada referensi API Aspose.PDF untuk Java[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi dan contoh yang komprehensif pada referensi API Aspose.PDF untuk Java [Di Sini](https://reference.aspose.com/pdf/java/).
 
 ## Kesimpulan
 
@@ -89,10 +91,12 @@ Mengonversi file PostScript ke PDF menjadi mudah dengan Aspose.PDF untuk Java. D
 
 Sekarang setelah Anda mempelajari cara melakukan konversi ini, Anda dapat menyederhanakan proses manajemen dokumen dan memastikan konten Anda dapat diakses oleh audiens yang lebih luas.
 
- Untuk informasi lebih lanjut dan untuk mengakses dokumentasi Aspose.PDF untuk Java, kunjungi[Di Sini](https://reference.aspose.com/pdf/java/).
+Untuk informasi lebih lanjut dan untuk mengakses dokumentasi Aspose.PDF untuk Java, kunjungi [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thêm hình ảnh vào tệp PDF hiện có trong Java
-linktitle: Thêm hình ảnh vào tệp PDF hiện có trong Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm hình ảnh vào các tệp PDF hiện có trong Java một cách dễ dàng với Aspose.PDF cho Java. Cải thiện tài liệu PDF của bạn với hướng dẫn từng bước và ví dụ về mã.
-weight: 11
-url: /vi/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/
+"description": "Tìm hiểu cách thêm hình ảnh vào các tệp PDF hiện có trong Java một cách dễ dàng với Aspose.PDF cho Java. Cải thiện tài liệu PDF của bạn với hướng dẫn từng bước và ví dụ về mã."
+"linktitle": "Thêm hình ảnh vào tệp PDF hiện có trong Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm hình ảnh vào tệp PDF hiện có trong Java"
+"url": "/vi/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm hình ảnh vào tệp PDF hiện có trong Java
@@ -24,7 +26,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 
 - Kiến thức thực tế về lập trình Java
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn
--  Thư viện Aspose.PDF cho Java, bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/)
+- Thư viện Aspose.PDF cho Java, bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/)
 
 ## Bước 1: Thiết lập môi trường phát triển của bạn
 
@@ -84,7 +86,7 @@ pdfDocument.save("output.pdf");
 
 ## Bước 5: Tùy chỉnh vị trí hình ảnh
 
- Bạn có thể tùy chỉnh vị trí và kích thước của hình ảnh được thêm vào bằng các thuộc tính như`setHorizontalAlignment`, `setVerticalAlignment` , Và`setRectangle`. Điều chỉnh các thuộc tính này khi cần thiết để đạt được vị trí và kích thước mong muốn.
+Bạn có thể tùy chỉnh vị trí và kích thước của hình ảnh được thêm vào bằng các thuộc tính như `setHorizontalAlignment`, `setVerticalAlignment`, Và `setRectangle`. Điều chỉnh các thuộc tính này khi cần thiết để đạt được vị trí và kích thước mong muốn.
 
 ```java
 // Tùy chỉnh vị trí hình ảnh
@@ -95,7 +97,7 @@ image.setRectangle(new Rectangle(100, 100, 200, 200)); // Đặt kích thước 
 
 ## Bước 6: Lưu PDF đã sửa đổi
 
- Cuối cùng, lưu tệp PDF đã sửa đổi với hình ảnh đã thêm bằng cách sử dụng`save` phương pháp.
+Cuối cùng, lưu tệp PDF đã chỉnh sửa với hình ảnh đã thêm bằng cách sử dụng `save` phương pháp.
 
 ```java
 pdfDocument.save("output.pdf");
@@ -123,14 +125,16 @@ Có, Aspose.PDF for Java hỗ trợ nhiều định dạng hình ảnh như JPEG
 
 ### Làm thế nào tôi có thể kiểm soát độ trong suốt của hình ảnh được thêm vào?
 
- Bạn có thể thiết lập độ mờ đục của hình ảnh bằng cách sử dụng`setOpacity` phương pháp kiểm soát tính minh bạch.
+Bạn có thể thiết lập độ mờ đục của hình ảnh bằng cách sử dụng `setOpacity` phương pháp kiểm soát tính minh bạch.
 
 ### Tôi có thể xoay hình ảnh đã thêm vào không?
 
- Có, bạn có thể sử dụng`setRotate` phương pháp xoay hình ảnh khi cần thiết.
+Có, bạn có thể sử dụng `setRotate` phương pháp xoay hình ảnh khi cần thiết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

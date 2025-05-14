@@ -1,28 +1,34 @@
 ---
-title: สร้างภาพจาก PDF โดยใช้ Aspose.PDF สําหรับ .NET
-weight: 10
-limit:
-description: เรียนรู้วิธีการสร้างภาพจากไฟล์ PDF โดยใช้ Aspose.PDF สําหรับ .NET. เปลี่ยนหน้า PDF เป็น JPEG, PNG, หรือ BMP อย่างง่ายดายใน C # ด้วยคุณภาพสูง
-keywords:
-url: /th/net/images/
+"description": "เรียนรู้วิธีสร้างรูปภาพจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET แปลงหน้า PDF เป็น JPEG, PNG หรือ BMP ได้อย่างง่ายดายใน C# ด้วยคุณภาพสูง"
+"title": "สร้างรูปภาพจาก PDF โดยใช้ Aspose.PDF สำหรับ .NET"
+"url": "/th/net/images/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## ประกอบการ
+## การแนะนำ
  
-Aspose.PDF สําหรับ .NET เป็นห้องสมุดที่มีความสามารถที่ทําให้ผู้พัฒนาสามารถแปลงหน้า PDF เป็นภาพที่มีคุณภาพสูงได้โดยไม่ต้องใช้ความพยายาม ไม่ว่าจะเป็นการสร้างรูปแบบ JPEG, PNG หรือ BMP API นี้ให้บริการกับการแก้ไขที่เรียบร้อย ด้วยการควบคุมการตั้งค่าความละเอียด คุณภาพและการบดภาพอย่างสมบูรณ์แบบ กระบวนการแปลงให้แน่ใจว่าการแสดงข้อความ, ภาพ และวัคเตอร์กราฟิกที่แม่นยํา โดยรักษาความสมบูรณ์ของเอกสารเดิม คุณสมบัตินี้เป็นสิ่งจําเป็นสําหรับการใช้งานที่ต้องการการดูหน้าเอกสาร, การอาร์คิฟที่ใช้ภาพ หรือการสกัดเนื้อหา PDF  
+Aspose.PDF สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพที่ช่วยให้นักพัฒนาสามารถแปลงหน้า PDF เป็นรูปภาพคุณภาพสูงได้อย่างง่ายดาย ไม่ว่าคุณจะต้องสร้างรูปแบบ JPEG, PNG หรือ BMP API นี้มีโซลูชันที่ราบรื่นพร้อมการควบคุมความละเอียด คุณภาพ และการตั้งค่าการบีบอัดอย่างสมบูรณ์ กระบวนการแปลงช่วยให้การแสดงผลข้อความ รูปภาพ และกราฟิกเวกเตอร์มีความแม่นยำ ช่วยรักษาความสมบูรณ์ของเอกสารต้นฉบับ ฟีเจอร์นี้จำเป็นสำหรับแอปพลิเคชันที่ต้องใช้การดูตัวอย่างเอกสาร การเก็บถาวรตามรูปภาพ หรือการแยกเนื้อหา PDF  
 
-ด้วย Aspose.PDF สําหรับ .NET การแปลง PDF เป็นภาพใน C# เป็นเรื่องง่ายๆ API สามารถประมวลผลชุดหลายหน้า ปรับรูปแบบผลิต และแม้แต่การแปลงเฉพาะหน้าได้ โดยผู้พัฒนายังสามารถนําการแปลงเพิ่มเติม เช่น การปรับขนาด การหมุน หรือการปรับสีได้ ห้องสมุดรองรับกรณีการใช้งานต่างๆ เช่น การสร้างภาพย่อเอกสาร การแทงเนื้อหา PDF ในแอพลิเคชั่นเว็บ และการปรับปรุงความเข้าถึง โดยการนําประโยชน์จากฟังก์ชันนี้ ให้บริษัทสามารถปรับปรุงกระแสงานเอกสารได้ด้วยการสร้างภาพที่น่าเชื่อถือและมีประสิทธิภาพ
+ด้วย Aspose.PDF สำหรับ .NET การแปลง PDF เป็นรูปภาพใน C# เป็นเรื่องง่าย API อนุญาตให้ประมวลผลแบบแบตช์ของหลายหน้า ปรับแต่งรูปแบบผลลัพธ์ และแม้แต่แปลงหน้าเฉพาะบางส่วน นักพัฒนาสามารถใช้การแปลงเพิ่มเติม เช่น การปรับขนาด การหมุน หรือการปรับสี ไลบรารีนี้รองรับกรณีการใช้งานต่างๆ รวมถึงการสร้างภาพขนาดย่อของเอกสาร การฝังเนื้อหา PDF ลงในแอปพลิเคชันเว็บ และการปรับปรุงการเข้าถึง ด้วยการใช้ประโยชน์จากฟังก์ชันนี้ ธุรกิจสามารถปรับปรุงเวิร์กโฟลว์เอกสารด้วยการสร้างรูปภาพที่เชื่อถือได้และมีประสิทธิภาพ
 
-{{< tutorial-card link="./extract-image/" title="การสกัดภาพจาก PDF ใน C# โดยใช้ Aspose.PDF" imgSrc="/pdf/net/images/extract-image/images/thumb.png" >}}
-{{< tutorial-card link="./resize-image/" title="ปรับปรุงภาพ PDF ด้วย Aspose.PDF สําหรับ .NET" imgSrc="/pdf/net/images/resize-image/images/thumb.png" >}}
-{{< tutorial-card link="./set-image-size/" title="สร้างและปรับปรุง PDF ด้วยภาพ โดยใช้ Aspose.PDF" imgSrc="/pdf/net/images/set-image-size/images/thumb.png" >}}
-{{< tutorial-card link="./shrink-image/" title="ปรับปรุง PDF โดยการบดภาพใน Aspose.PDF" imgSrc="/pdf/net/images/shrink-image/images/thumb.png" >}}
+{{< tutorial-card link="./extract-image/" title="ดึงภาพจาก PDF ใน C# โดยใช้ Aspose.PDF" imgSrc="./extract-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-image/" title="เพิ่มประสิทธิภาพรูปภาพ PDF ด้วย Aspose.PDF สำหรับ .NET" imgSrc="./resize-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./set-image-size/" title="สร้างและแก้ไข PDF ด้วยรูปภาพโดยใช้ Aspose.PDF" imgSrc="./set-image-size/images/thumb.png" >}}
+
+{{< tutorial-card link="./shrink-image/" title="เพิ่มประสิทธิภาพ PDF โดยการบีบอัดรูปภาพใน Aspose.PDF" imgSrc="./shrink-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

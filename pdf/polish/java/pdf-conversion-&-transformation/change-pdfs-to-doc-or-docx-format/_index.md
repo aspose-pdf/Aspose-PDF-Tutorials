@@ -1,14 +1,16 @@
 ---
-title: Zmień pliki PDF na format DOC lub DOCX
-linktitle: Zmień pliki PDF na format DOC lub DOCX
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak bez wysiłku konwertować pliki PDF do formatu DOC lub DOCX za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym i często zadawanymi pytaniami dotyczącymi bezproblemowej transformacji dokumentów.
-weight: 14
-url: /pl/java/pdf-conversion-transformation/change-pdfs-to-doc-or-docx-format/
+"description": "Dowiedz się, jak bez wysiłku konwertować pliki PDF do formatu DOC lub DOCX za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym i często zadawanymi pytaniami dotyczącymi bezproblemowej transformacji dokumentów."
+"linktitle": "Zmień pliki PDF na format DOC lub DOCX"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Zmień pliki PDF na format DOC lub DOCX"
+"url": "/pl/java/pdf-conversion-transformation/change-pdfs-to-doc-or-docx-format/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmień pliki PDF na format DOC lub DOCX
@@ -84,10 +86,12 @@ Tak, Aspose.PDF dla Java obsługuje różne formaty wyjściowe, w tym DOCX, HTML
 
 ### Gdzie mogę znaleźć dokumentację Aspose.PDF dla Java?
 
- Dokumentację Aspose.PDF dla języka Java można znaleźć pod adresem[Tutaj](https://reference.aspose.com/pdf/java/).
+Dokumentację Aspose.PDF dla języka Java można znaleźć pod adresem [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

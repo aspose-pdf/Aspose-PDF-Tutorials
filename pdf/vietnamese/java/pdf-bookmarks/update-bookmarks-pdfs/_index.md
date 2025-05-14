@@ -1,14 +1,16 @@
 ---
-title: Cập nhật dấu trang trong PDF
-linktitle: Cập nhật dấu trang trong PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách cập nhật dấu trang PDF hiệu quả bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình.
-weight: 16
-url: /vi/java/pdf-bookmarks/update-bookmarks-pdfs/
+"description": "Tìm hiểu cách cập nhật dấu trang PDF hiệu quả bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình."
+"linktitle": "Cập nhật dấu trang trong PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Cập nhật dấu trang trong PDF"
+"url": "/vi/java/pdf-bookmarks/update-bookmarks-pdfs/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cập nhật dấu trang trong PDF
@@ -27,7 +29,7 @@ Aspose.PDF for Java là một thư viện thao tác PDF giàu tính năng cho ph
 Trước khi đi sâu vào hướng dẫn, bạn cần có những điều kiện tiên quyết sau:
 
 - Hiểu biết cơ bản về lập trình Java.
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
 - Môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse.
 
 ## Thiết lập môi trường phát triển
@@ -51,7 +53,7 @@ Bây giờ, hãy tạo một dự án Java mới trong IDE của bạn:
 
 Để làm việc với Aspose.PDF cho Java, bạn cần thêm thư viện vào dự án của mình:
 
-1.  Tải xuống thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+1. Tải xuống thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 2. Thêm tệp JAR vào classpath của dự án.
 
 ## Cập nhật dấu trang trong PDF
@@ -87,7 +89,7 @@ pdfDocument.save("updated_example.pdf");
 
 ## Chạy và kiểm tra ứng dụng
 
-Bây giờ, bạn có thể chạy ứng dụng Java của mình để cập nhật dấu trang trong PDF. Kiểm tra ứng dụng để đảm bảo rằng dấu trang đã được cập nhật thành công.
+Bây giờ, bạn có thể chạy ứng dụng Java để cập nhật dấu trang trong PDF. Kiểm tra ứng dụng để đảm bảo rằng dấu trang đã được cập nhật thành công.
 
 ## Phần kết luận
 
@@ -113,10 +115,12 @@ Mặc dù Aspose.PDF for Java là một thư viện đa năng, nhưng bạn cầ
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện, hướng dẫn và các tài nguyên bổ sung cho Aspose.PDF dành cho Java trên trang web Aspose:[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu toàn diện, hướng dẫn và các tài nguyên bổ sung cho Aspose.PDF dành cho Java trên trang web Aspose: [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

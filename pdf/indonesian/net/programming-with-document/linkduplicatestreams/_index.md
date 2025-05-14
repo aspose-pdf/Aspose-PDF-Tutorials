@@ -1,14 +1,16 @@
 ---
-title: Tautan Duplikat Aliran
-linktitle: Tautan Duplikat Aliran
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menautkan aliran duplikat dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Optimalkan PDF Anda untuk performa yang lebih baik dan mengurangi ukuran file.
-weight: 230
-url: /id/net/programming-with-document/linkduplicatestreams/
+"description": "Pelajari cara menautkan aliran duplikat dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Optimalkan PDF Anda untuk performa yang lebih baik dan mengurangi ukuran file."
+"linktitle": "Tautan Duplikat Aliran"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tautan Duplikat Aliran"
+"url": "/id/net/programming-with-document/linkduplicatestreams/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tautan Duplikat Aliran
@@ -21,7 +23,7 @@ Dalam dunia dokumen digital, efisiensi adalah kuncinya. Baik Anda seorang pengem
 
 Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Lingkungan pengembangan tempat Anda dapat menulis dan menguji kode Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contohnya dengan lebih baik.
 4. Contoh Dokumen PDF: Untuk tutorial ini, Anda memerlukan dokumen PDF untuk digunakan. Anda dapat membuat dokumen sederhana atau mengunduh contoh dari internet.
@@ -55,27 +57,27 @@ Sekarang setelah semuanya disiapkan, mari beralih ke bagian pengkodean sebenarny
 
 ## Langkah 1: Tentukan Jalur Dokumen
 
-Pertama, Anda perlu menentukan jalur ke dokumen PDF Anda. Di sinilah Anda akan memberi tahu program di mana menemukan file yang ingin Anda optimalkan.
+Pertama, Anda perlu menentukan jalur ke dokumen PDF Anda. Di sinilah Anda akan memberi tahu program tempat menemukan berkas yang ingin Anda optimalkan.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda berada.
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya, Anda akan membuka dokumen PDF menggunakan`Document` kelas disediakan oleh Aspose.PDF.
+Selanjutnya, Anda akan membuka dokumen PDF menggunakan `Document` kelas disediakan oleh Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
-Baris kode ini membuat instance baru dari`Document` kelas dan memuat berkas PDF Anda ke dalamnya.
+Baris kode ini membuat instance baru dari `Document` kelas dan memuat berkas PDF Anda ke dalamnya.
 
 ## Langkah 3: Tetapkan Opsi Optimasi
 
- Sekarang saatnya untuk mengatur opsi pengoptimalan. Anda akan membuat contoh`OptimizationOptions` dan mengatur`LinkDuplcateStreams` properti untuk`true`.
+Sekarang saatnya untuk mengatur opsi pengoptimalan. Anda akan membuat contoh `OptimizationOptions` dan mengatur `LinkDuplcateStreams` properti untuk `true`.
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions
@@ -94,7 +96,7 @@ Dengan menetapkan opsi pengoptimalan, Anda sekarang dapat mengoptimalkan sumber 
 pdfDocument.OptimizeResources(optimizeOptions);
 ```
 
-Baris ini menerapkan pengaturan pengoptimalan ke dokumen PDF Anda.
+Baris ini menerapkan pengaturan pengoptimalan pada dokumen PDF Anda.
 
 ## Langkah 5: Simpan Dokumen yang Diperbarui
 
@@ -109,7 +111,7 @@ Ini menyimpan dokumen yang dioptimalkan dalam direktori yang ditentukan.
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah berhasil menautkan aliran duplikat dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Fitur sederhana namun canggih ini dapat meningkatkan efisiensi file PDF Anda secara signifikan, membuatnya lebih mudah dikelola dan dibagikan. Ingat, mengoptimalkan dokumen Anda tidak hanya menghemat ruang tetapi juga meningkatkan kinerja, yang merupakan keuntungan bagi semua pihak yang terlibat.
+Nah, itu dia! Anda telah berhasil menautkan aliran duplikat dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Fitur sederhana namun hebat ini dapat meningkatkan efisiensi file PDF Anda secara signifikan, membuatnya lebih mudah dikelola dan dibagikan. Ingat, mengoptimalkan dokumen Anda tidak hanya menghemat ruang tetapi juga meningkatkan kinerja, yang merupakan keuntungan bagi semua pihak yang terlibat.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -117,7 +119,7 @@ Nah, itu dia! Anda telah berhasil menautkan aliran duplikat dalam dokumen PDF me
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengoptimalkan dokumen PDF secara terprogram.
 
 ### Bagaimana cara menginstal Aspose.PDF?
-Anda dapat menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau mengunduhnya langsung dari[lokasi](https://releases.aspose.com/pdf/net/).
+Anda dapat menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau mengunduhnya langsung dari [lokasi](https://releases.aspose.com/pdf/net/).
 
 ### Bisakah saya mengoptimalkan beberapa berkas PDF sekaligus?
 Ya, Anda dapat mengulang daftar file PDF dan menerapkan proses pengoptimalan yang sama pada setiap file.
@@ -126,10 +128,12 @@ Ya, Anda dapat mengulang daftar file PDF dan menerapkan proses pengoptimalan yan
 Aliran duplikat adalah aliran data yang identik dalam file PDF. Menghubungkannya dapat mengurangi ukuran file dan meningkatkan kinerja.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET [Di Sini](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ से एक्सएलएस
-linktitle: पीडीएफ से एक्सएलएस
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों को आसानी से XLS फ़ॉर्मेट में बदलें। सहज डेटा निष्कर्षण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 200
-url: /hi/net/document-conversion/pdf-to-xls/
+"description": ".NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों को आसानी से XLS फ़ॉर्मेट में बदलें। सहज डेटा निष्कर्षण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "पीडीएफ से एक्सएलएस"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ से एक्सएलएस"
+"url": "/hi/net/document-conversion/pdf-to-xls/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ से एक्सएलएस
@@ -19,10 +21,10 @@ url: /hi/net/document-conversion/pdf-to-xls/
 
 ## आवश्यक शर्तें
 
-इससे पहले कि हम PDF को XLS में बदलने की बारीकियों पर चर्चा करें, कुछ चीजें हैं जो आपको पता होनी चाहिए:
+इससे पहले कि हम PDF को XLS में बदलने की बारीकियों में उतरें, कुछ चीजें हैं जो आपको पता होनी चाहिए:
 
 1. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके मशीन पर .NET फ्रेमवर्क स्थापित है। .NET के लिए Aspose.PDF विभिन्न संस्करणों के साथ संगत है, इसलिए विशिष्टताओं के लिए दस्तावेज़ देखें।
-2. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप नवीनतम संस्करण पा सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप नवीनतम संस्करण पा सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/).
 3. विकास पर्यावरण: विज़ुअल स्टूडियो जैसा उपयुक्त IDE आपके जीवन को आसान बना देगा। सुनिश्चित करें कि आपने इसे सेट अप कर लिया है और उपयोग के लिए तैयार है।
 4. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको हमारे द्वारा उपयोग किए जाने वाले कोड स्निपेट को समझने में मदद मिलेगी।
 5. नमूना पीडीएफ फाइल: रूपांतरण के लिए एक नमूना पीडीएफ फाइल तैयार रखें। आप एक बना सकते हैं या इंटरनेट से एक नमूना डाउनलोड कर सकते हैं।
@@ -48,7 +50,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` अपनी मशीन पर वास्तविक पथ के साथ। यह आपके प्रदर्शन के लिए मंच तैयार करने जैसा है; सब कुछ सही जगह पर होना चाहिए!
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` अपनी मशीन पर वास्तविक पथ के साथ। यह आपके प्रदर्शन के लिए मंच तैयार करने जैसा है; सब कुछ सही जगह पर होना चाहिए!
 
 ## चरण 2: पीडीएफ दस्तावेज़ लोड करें
 
@@ -59,7 +61,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- इस पंक्ति में, हम एक नया उदाहरण बना रहे हैं`Document`क्लास में जाकर पीडीएफ फाइल का पथ पास करना। यह एक किताब खोलने जैसा है; इसे पढ़ने के लिए आपको इसे अपने सामने रखना होगा!
+इस पंक्ति में, हम एक नया उदाहरण बना रहे हैं `Document` क्लास में जाकर पीडीएफ फाइल का पथ पास करना। यह एक किताब खोलने जैसा है; इसे पढ़ने के लिए आपको इसे अपने सामने रखना होगा!
 
 ## चरण 3: ExcelSave विकल्प को तत्कालित करें
 
@@ -70,7 +72,7 @@ Document pdfDocument = new Document(dataDir + "input.pdf");
 Aspose.Pdf.ExcelSaveOptions excelsave = new ExcelSaveOptions();
 ```
 
- इसका एक उदाहरण बनाकर`ExcelSaveOptions`, आप अपने रूपांतरण के लिए सेटिंग्स तैयार कर रहे हैं। इसे DIY प्रोजेक्ट शुरू करने से पहले सही उपकरण चुनने के रूप में सोचें!
+का एक उदाहरण बनाकर `ExcelSaveOptions`, आप अपने रूपांतरण के लिए सेटिंग्स तैयार कर रहे हैं। इसे DIY प्रोजेक्ट शुरू करने से पहले सही उपकरण चुनने के रूप में सोचें!
 
 ## चरण 4: आउटपुट को XLS प्रारूप में सहेजें
 
@@ -81,7 +83,7 @@ Aspose.Pdf.ExcelSaveOptions excelsave = new ExcelSaveOptions();
 pdfDocument.Save("PDFToXLS_out.xls", excelsave);
 ```
 
- कोड की यह पंक्ति आपके लोड किए गए पीडीएफ को लेती है और इसे नामक XLS फ़ाइल के रूप में सहेजती है`PDFToXLS_out.xls`यह एक उत्कृष्ट कृति पर काम करने के बाद "प्रकाशित" बटन दबाने जैसा है!
+कोड की यह पंक्ति आपके लोड किए गए पीडीएफ को लेती है और इसे नामक एक्सएलएस फ़ाइल के रूप में सहेजती है `PDFToXLS_out.xls`यह एक उत्कृष्ट कृति पर काम करने के बाद "प्रकाशित" बटन दबाने जैसा है!
 
 ## निष्कर्ष
 
@@ -96,17 +98,19 @@ pdfDocument.Save("PDFToXLS_out.xls", excelsave);
 हां, आप अपनी निर्देशिका में एकाधिक पीडीएफ फाइलों को लूप कर सकते हैं और उसी विधि का उपयोग करके उन्हें एक-एक करके परिवर्तित कर सकते हैं।
 
 ### क्या Aspose.PDF के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप Aspose.PDF का निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप Aspose.PDF का निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### यदि रूपांतरण के दौरान मुझे कोई समस्या आए तो क्या होगा?
- आप Aspose सहायता फ़ोरम से सहायता ले सकते हैं[यहाँ](https://forum.aspose.com/c/pdf/10).
+आप Aspose सहायता फ़ोरम से सहायता ले सकते हैं [यहाँ](https://forum.aspose.com/c/pdf/10).
 
 ### मैं .NET के लिए Aspose.PDF कहां से खरीद सकता हूं?
- आप .NET के लिए Aspose.PDF खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप .NET के लिए Aspose.PDF खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

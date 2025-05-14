@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/table-in-header-footer-section/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Table In Header Footer Section
@@ -259,6 +261,7 @@ Absolutely! You can create tables in footers and body sections as well; just fol
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

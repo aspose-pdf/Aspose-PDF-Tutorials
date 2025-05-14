@@ -1,14 +1,16 @@
 ---
-title: Java'da Mevcut Bir PDF Dosyasına Resim Ekleme
-linktitle: Java'da Mevcut Bir PDF Dosyasına Resim Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF ile mevcut PDF dosyalarına zahmetsizce resim eklemeyi öğrenin. PDF belgelerinizi adım adım kılavuz ve kod örnekleriyle geliştirin.
-weight: 11
-url: /tr/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/
+"description": "Java için Aspose.PDF ile mevcut PDF dosyalarına zahmetsizce resim eklemeyi öğrenin. PDF belgelerinizi adım adım kılavuz ve kod örnekleriyle geliştirin."
+"linktitle": "Java'da Mevcut Bir PDF Dosyasına Resim Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java'da Mevcut Bir PDF Dosyasına Resim Ekleme"
+"url": "/tr/java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java'da Mevcut Bir PDF Dosyasına Resim Ekleme
@@ -24,7 +26,7 @@ Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java programlama konusunda çalışma bilgisi
 - Sisteminizde yüklü Java Geliştirme Kiti (JDK)
--  Java kütüphanesi için Aspose.PDF'i buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/)
+- Java kütüphanesi için Aspose.PDF'i buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/)
 
 ## Adım 1: Geliştirme Ortamınızı Kurma
 
@@ -51,7 +53,7 @@ Sonra, projenize Aspose.PDF for Java'yı eklemeniz gerekir. Proje yapılandırma
 Şimdi, Aspose.PDF for Java kullanarak yeni bir PDF belgesi oluşturarak başlayalım. Başlamanız için bir kod parçası:
 
 ```java
-// Yeni bir PDF belgesi başlatın
+// Yeni bir PDF belgesi başlat
 Document pdfDocument = new Document();
 
 // Belgeye bir sayfa ekle
@@ -84,7 +86,7 @@ pdfDocument.save("output.pdf");
 
 ## Adım 5: Görüntü Yerleşimini Özelleştirme
 
- Eklenen resmin yerleşimini ve boyutunu şu gibi özellikleri kullanarak özelleştirebilirsiniz:`setHorizontalAlignment`, `setVerticalAlignment` , Ve`setRectangle`İstenilen yerleşim ve boyutu elde etmek için bu özellikleri gerektiği gibi ayarlayın.
+Eklenen resmin yerleşimini ve boyutunu şu gibi özellikleri kullanarak özelleştirebilirsiniz: `setHorizontalAlignment`, `setVerticalAlignment`, Ve `setRectangle`İstenilen yerleşim ve boyutu elde etmek için bu özellikleri gerektiği gibi ayarlayın.
 
 ```java
 // Resim yerleşimini özelleştir
@@ -95,7 +97,7 @@ image.setRectangle(new Rectangle(100, 100, 200, 200)); // Özel boyutlar ayarlay
 
 ## Adım 6: Değiştirilen PDF'yi Kaydetme
 
- Son olarak, eklenen resimle birlikte değiştirilmiş PDF'yi şu şekilde kaydedin:`save` Yöntem.
+Son olarak, eklenen resimle birlikte değiştirilmiş PDF'yi şu şekilde kaydedin: `save` yöntem.
 
 ```java
 pdfDocument.save("output.pdf");
@@ -123,14 +125,16 @@ Evet, Aspose.PDF for Java, JPEG, PNG, BMP ve GIF gibi çeşitli resim formatlar�
 
 ### Eklenen görsellerin şeffaflığını nasıl kontrol edebilirim?
 
- Bir görüntünün opaklığını şu şekilde ayarlayabilirsiniz:`setOpacity` şeffaflığı kontrol etme yöntemi.
+Bir görüntünün opaklığını şu şekilde ayarlayabilirsiniz: `setOpacity` şeffaflığı kontrol etme yöntemi.
 
 ### Eklediğim görseli döndürebilir miyim?
 
- Evet, kullanabilirsiniz`setRotate` Görüntüyü gerektiği gibi döndürme yöntemi.
+Evet, kullanabilirsiniz `setRotate` Görüntüyü gerektiği gibi döndürme yöntemi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

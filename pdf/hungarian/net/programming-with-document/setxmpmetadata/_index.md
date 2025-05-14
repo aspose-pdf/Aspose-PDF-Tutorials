@@ -1,35 +1,37 @@
 ---
-title: XMPMetadata beállítása PDF fájlban
-linktitle: XMPMetadata beállítása PDF fájlban
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan állíthat be XMP-metaadatokat PDF-fájlban az Aspose.PDF for .NET használatával. Ez a lépésenkénti útmutató végigvezeti a teljes folyamaton, a beállítástól a dokumentum mentéséig.
-weight: 330
-url: /hu/net/programming-with-document/setxmpmetadata/
+"description": "Ismerje meg, hogyan állíthat be XMP metaadatokat egy PDF fájlban az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató végigvezeti Önt a teljes folyamaton, a beállítástól a dokumentum mentéséig."
+"linktitle": "XMP metaadatok beállítása PDF fájlban"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "XMP metaadatok beállítása PDF fájlban"
+"url": "/hu/net/programming-with-document/setxmpmetadata/"
+"weight": 330
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# XMPMetadata beállítása PDF fájlban
+# XMP metaadatok beállítása PDF fájlban
 
 ## Bevezetés
 
-Metaadatokat szeretne hozzáadni PDF-fájljaihoz? Esetleg olyan információkat szeretne megadni, mint a létrehozás dátuma, becenév vagy egyéni tulajdonságok. Jó helyre jöttél! Ebben az oktatóanyagban bemutatjuk, hogyan állíthat be XMP-metaadatokat PDF-fájlban az Aspose.PDF for .NET használatával. Végigvezetjük a folyamat minden lépésén, és magyarázzuk el egyszerű és vonzó módon. Akár kezdő, akár tapasztalt fejlesztő, ezt az útmutatót könnyen követheti.
+Metaadatokat szeretne hozzáadni PDF-fájljaihoz? Talán olyan információkat szeretne megadni, mint a létrehozási dátum, a becenév vagy az egyéni tulajdonságok. Jó helyen jár! Ebben az oktatóanyagban elmerülünk abban, hogyan állíthat be XMP metaadatokat egy PDF-fájlban az Aspose.PDF for .NET használatával. Végigvezetjük a folyamat minden lépésén, és egyszerű és lebilincselő módon magyarázzuk el. Akár kezdő, akár tapasztalt fejlesztő, ezt az útmutatót könnyen követni fogja.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, néhány dolgot meg kell határoznia:
+Mielőtt belevágnánk a kódba, van néhány dolog, amire szükséged lesz:
 
-1.  Aspose.PDF for .NET Library: Ha még nem tette meg, töltse le az Aspose.PDF for .NET legújabb verzióját innen:[itt](https://releases.aspose.com/pdf/net/).
-2. Fejlesztői környezet: A kód írásához és futtatásához Visual Studio vagy bármely más .NET fejlesztői környezet szükséges.
-3. Alapvető C# ismerete: Ne aggódjon, mindent egyszerűnek tartunk, de a C# alapvető ismerete segít.
+1. Aspose.PDF .NET könyvtárhoz: Ha még nem tette meg, töltse le az Aspose.PDF .NET legújabb verzióját innen: [itt](https://releases.aspose.com/pdf/net/).
+2. Fejlesztői környezet: A kód írásához és futtatásához Visual Studio vagy bármilyen más .NET fejlesztői környezet szükséges.
+3. C# alapismeretek: Ne aggódj, egyszerűen fogjuk kezelni a dolgokat, de a C# alapvető ismeretei hasznosak lesznek.
 
-A munkához PDF dokumentumra is szüksége lesz. Ha nem rendelkezik ilyennel, létrehozhat egy PDF-mintát, vagy letölthet egyet az internetről.
+Szükséged lesz egy PDF dokumentumra is a munkához. Ha nincs ilyened, létrehozhatsz egy minta PDF-et, vagy letölthetsz egyet az internetről.
 
 ## Csomagok importálása
 
-Mielőtt elkezdené írni a kódot, importálnia kell a szükséges csomagokat a projektbe.
+Mielőtt elkezdenénk a kód írását, importálnunk kell a szükséges csomagokat a projektbe.
 
 ```csharp
 using System.IO;
@@ -37,37 +39,37 @@ using Aspose.Pdf;
 using System;
 ```
 
-Most pedig térjünk át az oktatóanyag lényegére: XMP-metaadatok beállítása PDF-fájlban az Aspose.PDF for .NET segítségével. Ezt több lépésre bontjuk, hogy könnyebb legyen követni.
+Most pedig térjünk rá a bemutató lényegére: XMP metaadatok beállítása PDF fájlban az Aspose.PDF for .NET használatával. Ezt több lépésre bontjuk, hogy könnyebb legyen követni.
 
-## 1. lépés: Állítsa be a címtár elérési útját
+## 1. lépés: A könyvtár elérési útjának beállítása
 
- Az első dolog, amit meg kell tennie, adja meg a könyvtárat, ahol a PDF-fájlt tárolja. Ha a dokumentuma máshol található, egyszerűen módosítsa a`dataDir` változót, hogy a megfelelő helyre mutasson.
+Először is meg kell adnia azt a könyvtárat, ahová a PDF-fájlt tárolja. Ha a dokumentum máshol található, egyszerűen módosítsa a `dataDir` változót, hogy a megfelelő helyre mutasson.
 
-Ezt a lépést úgy képzelje el, hogy megadja a kódjának azt az otthoni címet, ahol megtalálhatja a PDF-fájlt. E nélkül nem tudná, hol keresse.
+Gondolj erre a lépésre úgy, mintha megadnád a kódodnak azt az otthoni címet, ahol megtalálhatja a PDF fájlodat. Enélkül nem tudná, hol keresse.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Itt fogja megmondani a programnak, hogy hol található a fájl. Ez alapvető fontosságú, mert ha nem adja meg a megfelelő elérési utat, a program nem tudja megnyitni a PDF-fájlt.
+Itt kell megadnod a programnak, hogy hol található a fájlod. Ez azért fontos, mert ha nem adod meg a helyes elérési utat, a program nem fogja tudni megnyitni a PDF-et.
 
-## 2. lépés: Nyissa meg a PDF-dokumentumot
+## 2. lépés: Nyissa meg a PDF dokumentumot
 
- Most, hogy beállítottuk a könyvtárat, a következő lépés a PDF-dokumentum betöltése a`Document` osztály az Aspose.PDF-ből.
+Most, hogy beállítottuk a könyvtárat, a következő lépés a PDF dokumentum betöltése a következővel: `Document` osztály az Aspose.PDF-ből.
 
-Képzeld el, hogy kinyitsz egy fizikai könyvet. Ez a lépés a PDF feltörésének digitális megfelelője, hogy megkezdhesse a módosításokat.
+Képzeld el, hogy megnyitsz egy fizikai könyvet. Ez a lépés a PDF feltörésével egyenértékű digitális változat, amivel elkezdheted a módosításokat.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "SetXMPMetadata.pdf");
 ```
 
- Ez a kódsor betölti a PDF fájlt a`pdfDocument` objektum. Győződjön meg arról, hogy a fájlnév megegyezik a könyvtárában lévővel, különben a program hibát fog kiütni.
+Ez a kódsor betölti a PDF fájlt a `pdfDocument` objektum. Győződjön meg róla, hogy a fájlnév megegyezik a könyvtárban található névvel, különben a program hibát jelez.
 
-## 3. lépés: Állítsa be az XMP metaadat tulajdonságait
+## 3. lépés: XMP metaadat-tulajdonságok beállítása
 
-Itt történik a varázslat! Most, hogy betöltődött a PDF-dokumentum, beállíthatjuk a metaadat-tulajdonságokat, például a létrehozás dátumát, a becenevet vagy bármely kívánt egyéni tulajdonságot.
+Itt történik a varázslat! Most, hogy betöltöttük a PDF dokumentumot, beállíthatjuk a metaadat-tulajdonságokat, például a létrehozási dátumot, a becenevet vagy bármilyen más egyéni tulajdonságot.
 
-Tekintsd ezt a lépést úgy, mint profilod "Rólam" szakaszának kitöltését. Itt adhatja meg a létrehozás dátumát, egy becenevet vagy bármely más részletet, amelyet be szeretne ágyazni a PDF-fájlba.
+Gondolj erre a lépésre úgy, mintha kitöltenéd a profilod „Rólam” részét. Itt adhatod meg a létrehozás dátumát, a becenevet vagy bármilyen más részletet, amelyet be szeretnél ágyazni a PDF fájlba.
 
 ```csharp
 pdfDocument.Metadata["xmp:CreateDate"] = DateTime.Now;
@@ -75,58 +77,60 @@ pdfDocument.Metadata["xmp:Nickname"] = "Nickname";
 pdfDocument.Metadata["xmp:CustomProperty"] = "Custom Value";
 ```
 
-Bontsuk szét:
-- CreateDate: Ez a tulajdonság a PDF létrehozásának dátumát tárolja. Az aktuális dátumra és időre állítjuk be.
-- Becenév: A személyes becenévhez hasonlóan becenevet is beállíthat a dokumentumhoz.
-- CustomProperty: Itt bármilyen egyéni információt hozzáadhat, amely releváns a dokumentuma számára.
+Nézzük meg részletesebben:
+- CreateDate: Ez a tulajdonság a PDF létrehozási dátumát tárolja. Az aktuális dátumra és időre állítjuk be.
+- Becenév: A személyes becenévhez hasonlóan a dokumentumhoz is beállíthat becenevet.
+- CustomProperty: Itt hozzáadhat bármilyen egyéni információt, amely releváns a dokumentumához.
 
-## 4. lépés: Mentse el a frissített PDF-dokumentumot
+## 4. lépés: Mentse el a frissített PDF dokumentumot
 
- Az XMP metaadatok beállítása után ideje elmenteni a frissített PDF dokumentumot. Módosítjuk a`dataDir` elérési utat, hogy biztosítsa az új fájl más néven való mentését.
+Az XMP metaadatok beállítása után itt az ideje menteni a frissített PDF dokumentumot. Módosítjuk a `dataDir` elérési utat, hogy az új fájl más néven kerüljön mentésre.
 
-Képzeld el, hogy írtál egy fontos megjegyzést a füzetedbe. Most vissza kell helyeznie a polcra, de ezúttal extra részletek vannak beleírva. Ez a lépés elmenti az új "jegyzetfüzetet" a metaadatokkal.
+Képzeld el, hogy írtál egy fontos jegyzetet a jegyzetfüzetedbe. Most vissza kell tenned a polcra, de ezúttal extra részletek vannak beleírva. Ez a lépés menti az új "jegyzetfüzetedet" a metaadatokkal együtt.
 
 ```csharp
 dataDir = dataDir + "SetXMPMetadata_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Ez a kódsor menti a frissített PDF-fájlt a névvel`SetXMPMetadata_out.pdf`. Ha szeretné, módosíthatja a fájl nevét.
+Ez a kódsor a frissített PDF-et a következő néven menti el: `SetXMPMetadata_out.pdf`A fájlnevet tetszés szerint módosíthatja.
 
-## 5. lépés: Jelenítsen meg egy sikerüzenetet
+## 5. lépés: Sikeres üzenet megjelenítése
 
-Annak ellenőrzésére, hogy minden simán ment, üzenetet küldünk a konzolnak. Ez a lépés nem kötelező, de mindig jó visszaigazolást kapni, igaz?
+Annak megerősítésére, hogy minden simán ment, egy üzenetet küldünk a konzolnak. Ez a lépés opcionális, de mindig jó egy visszaigazolást kapni, igaz?
 
 ```csharp
 Console.WriteLine("\nXMP metadata in a pdf file setup successfully.\nFile saved at " + dataDir);
 ```
 
-Ez a sor egy üzenetet nyomtat a konzolon, amely tájékoztatja Önt, hogy a metaadatok hozzáadása sikeresen megtörtént, és a fájl a megadott helyre került mentésre.
+Ez a sor egy üzenetet nyomtat ki a konzolon, amely tudatja Önnel, hogy a metaadatok hozzáadása sikeresen megtörtént, és a fájl mentése a megadott helyre történt.
 
 ## Következtetés
 
-És megvan! Néhány egyszerű lépésben megtanultuk, hogyan állíthat be XMP-metaadatokat egy PDF-fájlban az Aspose.PDF for .NET használatával. Ez egy nagyszerű módja annak, hogy további információkat adjon a PDF-fájlokhoz, legyen szó a létrehozás dátumáról, egy egyéni tulajdonságról vagy bármilyen más metaadatról, amely fontos a dokumentum számára.
+És íme! Néhány egyszerű lépésben megtanultuk, hogyan állíthatunk be XMP metaadatokat egy PDF fájlban az Aspose.PDF for .NET használatával. Ez egy nagyszerű módja annak, hogy további információkat adjunk a PDF fájljainkhoz, legyen szó akár a létrehozási dátumról, egyéni tulajdonságról vagy bármilyen más, a dokumentum szempontjából fontos metaadatról.
 
 
 ## GYIK
 
-### Mi az XMP-metaadat egy PDF-fájlban?  
-Az XMP-metaadatok a PDF-fájlba beágyazott adatokra utalnak, amelyek leírják a dokumentum különféle tulajdonságait, például a létrehozás dátumát, a szerzőt és az egyéni tulajdonságokat.
+### Mik az XMP metaadatok egy PDF fájlban?  
+Az XMP metaadatok a PDF fájlba beágyazott adatokra utalnak, amelyek a dokumentum különböző tulajdonságait írják le, például a létrehozási dátumot, a szerzőt és az egyéni tulajdonságokat.
 
 ### Hozzáadhatok több egyéni tulajdonságot a PDF-hez?  
- Igen, tetszőleges számú egyéni tulajdonságot adhat hozzá a`Metadata`objektumot, csak úgy, hogy értékeket rendel az új kulcsokhoz.
+Igen, annyi egyéni tulajdonságot adhatsz hozzá, amennyit csak szeretnél a `Metadata` objektum, egyszerűen az új kulcsokhoz értékek hozzárendelésével.
 
 ### Szükségem van licencre az Aspose.PDF for .NET használatához?  
- Igen, az Aspose.PDF for .NET licencet igényel, de a segítségével is kipróbálhatja[ingyenes próbaverzió](https://releases.aspose.com/).
+Igen, az Aspose.PDF for .NET licencet igényel, de kipróbálhatod egy [ingyenes próba](https://releases.aspose.com/).
 
 ### Mi történik, ha a fájl elérési útja helytelen?  
-Ha a fájl elérési útja helytelen, a program hibát jelez, jelezve, hogy a fájl nem található. Győződjön meg arról, hogy a fájlnév és elérési út helyes.
+Ha a fájl elérési útja helytelen, a program hibát jelez, miszerint a fájl nem található. Győződjön meg arról, hogy a fájlnév és az elérési út helyes.
 
 ### Módosíthatom egy titkosított PDF metaadatait?  
-Ha a PDF titkosított, akkor a metaadatok módosítása előtt először vissza kell fejteni a titkosítást.
+Ha a PDF titkosítva van, akkor először vissza kell dekódolnia a metaadatok módosítása előtt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

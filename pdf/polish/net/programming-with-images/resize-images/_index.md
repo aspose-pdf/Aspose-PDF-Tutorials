@@ -1,14 +1,16 @@
 ---
-title: Zmień rozmiar obrazów w pliku PDF
-linktitle: Zmień rozmiar obrazów w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak zmieniać rozmiar obrazów w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu szczegółowemu przewodnikowi. Zoptymalizuj rozmiar pliku bez utraty jakości.
-weight: 250
-url: /pl/net/programming-with-images/resize-images/
+"description": "Dowiedz się, jak zmieniać rozmiar obrazów w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu szczegółowemu przewodnikowi. Zoptymalizuj rozmiar pliku bez utraty jakości."
+"linktitle": "Zmień rozmiar obrazów w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zmień rozmiar obrazów w pliku PDF"
+"url": "/pl/net/programming-with-images/resize-images/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmień rozmiar obrazów w pliku PDF
@@ -23,9 +25,9 @@ Zanim rozpoczniemy właściwy proces zmiany rozmiaru obrazów w pliku PDF, nale�
 
 1. Zainstalowany program Visual Studio: Musisz mieć zainstalowaną wersję programu Visual Studio na swoim komputerze. Tutaj napiszemy nasz kod do interakcji z biblioteką Aspose.PDF.
 2. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework. Ten samouczek zakłada, że używasz co najmniej .NET Framework 4.0 lub nowszego.
-3. Aspose.PDF dla biblioteki .NET: Musisz pobrać bibliotekę Aspose.PDF. To potężne narzędzie ułatwia programowe manipulowanie plikami PDF. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF dla biblioteki .NET: Musisz pobrać bibliotekę Aspose.PDF. To potężne narzędzie ułatwia programowe manipulowanie plikami PDF. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 4. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie korzystna. Jeśli wiesz, jak pisać prosty kod w języku C#, poradzisz sobie!
-5.  Plik PDF do przetestowania: Przygotuj przykładowy plik PDF do przetestowania funkcji zmiany rozmiaru obrazu. Na potrzeby tego samouczka założymy, że masz plik o nazwie`ResizeImage.pdf`.
+5. Plik PDF do przetestowania: Przygotuj przykładowy plik PDF do przetestowania funkcji zmiany rozmiaru obrazu. Na potrzeby tego samouczka założymy, że masz plik o nazwie `ResizeImage.pdf`.
 
 Teraz, gdy już to wyjaśniliśmy, możemy przejść do importowania niezbędnych pakietów, aby wykorzystać możliwości Aspose.PDF.
 
@@ -68,7 +70,7 @@ Następnie musisz ustalić, gdzie znajduje się Twój dokument PDF. Może się t
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku, zapewniając, że prowadzi ona prawidłowo`ResizeImage.pdf`.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku, zapewniając, że prowadzi ona prawidłowo `ResizeImage.pdf`.
 
 ## Krok 3: Otwórz dokument PDF
 
@@ -78,11 +80,11 @@ Teraz czas otworzyć plik PDF. Z Aspose.PDF to pestka:
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 ```
 
- Ten wiersz tworzy nową instancję`Document` klasa reprezentująca Twój plik PDF. Jesteś gotowy, aby nim manipulować!
+Ten wiersz tworzy nową instancję `Document` klasa reprezentująca Twój plik PDF. Jesteś gotowy, aby nim manipulować!
 
 ## Krok 4: Zainicjuj opcje optymalizacji
 
- Aby zmienić rozmiar obrazów, musimy najpierw utworzyć wystąpienie`OptimizationOptions`. Pomoże to zdefiniować, jak chcemy kompresować i zmieniać rozmiar obrazów:
+Aby zmienić rozmiar obrazów, musimy najpierw utworzyć wystąpienie `OptimizationOptions`. Pomoże to zdefiniować, jak chcemy kompresować i zmieniać rozmiar obrazów:
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
@@ -122,7 +124,7 @@ Po ustawieniu opcji optymalizacji jesteśmy gotowi zastosować je do naszego dok
 pdfDocument.OptimizeResources(optimizeOptions);
 ```
 
-W tym miejscu dzieje się magia; rozpoczyna się proces optymalizacji, wykorzystujący opcje, które właśnie skonfigurowaliśmy.
+W tym miejscu dzieje się magia; rozpoczyna się proces optymalizacji przy użyciu opcji, które właśnie skonfigurowaliśmy.
 
 ## Krok 7: Zapisz zaktualizowany dokument
 
@@ -155,7 +157,7 @@ W tym samouczku przeprowadziliśmy Cię przez proces zmiany rozmiaru obrazów w 
 Aspose.PDF dla platformy .NET to biblioteka klas umożliwiająca programistom programistyczne tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatny okres próbny. Możesz go znaleźć[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatny okres próbny. Możesz go znaleźć [Tutaj](https://releases.aspose.com/).
 
 ### Jakie typy plików mogę utworzyć za pomocą Aspose.PDF?
 Można tworzyć i edytować szeroką gamę plików PDF, w tym pliki zawierające tekst, obrazy i grafikę wektorową.
@@ -164,10 +166,12 @@ Można tworzyć i edytować szeroką gamę plików PDF, w tym pliki zawierające
 Nie, Aspose.PDF jest dostępny na wiele platform, m.in. Java i Android.
 
 ### Gdzie mogę uzyskać pomoc w kwestiach związanych z plikiem Aspose.PDF?
- Wsparcie znajdziesz na forum Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Wsparcie znajdziesz na forum Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

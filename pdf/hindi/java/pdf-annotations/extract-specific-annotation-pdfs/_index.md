@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ से विशिष्ट एनोटेशन निकालें
-linktitle: पीडीएफ से विशिष्ट एनोटेशन निकालें
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: जानें कि Java के लिए Aspose.PDF का उपयोग करके PDF से विशिष्ट एनोटेशन कैसे निकालें। यह चरण-दर-चरण मार्गदर्शिका कुशल PDF एनोटेशन निष्कर्षण के लिए कोड उदाहरण और FAQ प्रदान करती है।
-weight: 14
-url: /hi/java/pdf-annotations/extract-specific-annotation-pdfs/
+"description": "जानें कि Java के लिए Aspose.PDF का उपयोग करके PDF से विशिष्ट एनोटेशन कैसे निकालें। यह चरण-दर-चरण मार्गदर्शिका कुशल PDF एनोटेशन निष्कर्षण के लिए कोड उदाहरण और FAQ प्रदान करती है।"
+"linktitle": "पीडीएफ से विशिष्ट एनोटेशन निकालें"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "पीडीएफ से विशिष्ट एनोटेशन निकालें"
+"url": "/hi/java/pdf-annotations/extract-specific-annotation-pdfs/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ से विशिष्ट एनोटेशन निकालें
@@ -23,7 +25,7 @@ PDF में एनोटेशन जानकारी का खजाना
 इससे पहले कि हम कोड में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.PDF for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ## परियोजना की स्थापना
 
@@ -101,7 +103,7 @@ Aspose.PDF for Java विभिन्न प्रकार के एनोट
 
 ### मैं Java के लिए Aspose.PDF कैसे स्थापित करूं?
 
- आप Java के लिए Aspose.PDF यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/)इसे अपने जावा प्रोजेक्ट में स्थापित करने के लिए वेबसाइट पर दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+आप Java के लिए Aspose.PDF यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/)अपने जावा प्रोजेक्ट में इसे स्थापित करने के लिए वेबसाइट पर दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### क्या मैं PDF दस्तावेज़ में किसी विशिष्ट पृष्ठ से एनोटेशन निकाल सकता हूँ?
 
@@ -118,9 +120,11 @@ Aspose.PDF for Java विभिन्न प्रकार के एनोट
 ### क्या मैं एनोटेशन निकालते समय आउटपुट प्रारूप को अनुकूलित कर सकता हूँ?
 
 हां, आप अपनी आवश्यकताओं के आधार पर एनोटेशन निकालते समय आउटपुट प्रारूप को अनुकूलित कर सकते हैं। Aspose.PDF for Java निकाले गए एनोटेशन डेटा को प्रोसेस करने और फ़ॉर्मेट करने में लचीलापन प्रदान करता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

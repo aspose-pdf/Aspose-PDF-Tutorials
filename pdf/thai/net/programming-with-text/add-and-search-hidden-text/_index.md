@@ -1,14 +1,16 @@
 ---
-title: เพิ่มและค้นหาข้อความที่ซ่อนอยู่ในไฟล์ PDF
-linktitle: เพิ่มและค้นหาข้อความที่ซ่อนอยู่ในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้การเพิ่มและค้นหาข้อความที่ซ่อนอยู่ในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย
-weight: 20
-url: /th/net/programming-with-text/add-and-search-hidden-text/
+"description": "เรียนรู้การเพิ่มและค้นหาข้อความที่ซ่อนอยู่ในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย"
+"linktitle": "เพิ่มและค้นหาข้อความที่ซ่อนอยู่ในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "เพิ่มและค้นหาข้อความที่ซ่อนอยู่ในไฟล์ PDF"
+"url": "/th/net/programming-with-text/add-and-search-hidden-text/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มและค้นหาข้อความที่ซ่อนอยู่ในไฟล์ PDF
@@ -23,7 +25,7 @@ url: /th/net/programming-with-text/add-and-search-hidden-text/
 
 ### รายการตรวจสอบความต้องการ
 - Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio แล้ว บทช่วยสอนนี้ถือว่าคุณใช้ .NET Framework
--  Aspose.PDF สำหรับ .NET: คุณต้องมีไลบรารี Aspose.PDF สำหรับ .NET คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF สำหรับ .NET: คุณต้องมีไลบรารี Aspose.PDF สำหรับ .NET คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
 ## แพ็คเกจนำเข้า
@@ -32,8 +34,8 @@ url: /th/net/programming-with-text/add-and-search-hidden-text/
 
 ### ตั้งค่าโครงการของคุณ
 1. เปิด Visual Studio และสร้างโครงการ C# ใหม่หรือใช้โครงการที่มีอยู่
-2.  ติดตั้ง Aspose.PDF โดยเพิ่มแพ็คเกจ NuGet คุณสามารถทำได้โดยไปที่ตัวจัดการแพ็คเกจ NuGet และค้นหา`Aspose.PDF`. 
-3.  นอกจากนี้คุณสามารถดาวน์โหลดไลบรารีโดยตรงจาก[ที่นี่](https://releases.aspose.com/pdf/net/) และเพิ่มไว้เป็นข้อมูลอ้างอิงในโครงการของคุณ
+2. ติดตั้ง Aspose.PDF โดยเพิ่มแพ็คเกจ NuGet คุณสามารถทำได้โดยไปที่ตัวจัดการแพ็คเกจ NuGet และค้นหา `Aspose-PDF`. 
+3. นอกจากนี้คุณสามารถดาวน์โหลดไลบรารีโดยตรงจาก [ที่นี่](https://releases.aspose.com/pdf/net/) และเพิ่มไว้เป็นข้อมูลอ้างอิงในโครงการของคุณ
 
 ### นำเข้าเนมสเปซที่จำเป็น
 ที่ด้านบนของไฟล์ C# ของคุณ นำเข้าเนมสเปซต่อไปนี้:
@@ -59,7 +61,7 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // เปลี่ยนสิ่งนี้ไปยังไดเร็กทอรีของคุณ
 ```
 
- บรรทัดนี้จะกำหนดว่าไฟล์ PDF ที่คุณสร้างขึ้นจะถูกจัดเก็บไว้ที่ไหน อย่าลืมแทนที่`YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางที่แท้จริงของคุณ
+บรรทัดนี้จะกำหนดว่าไฟล์ PDF ที่คุณสร้างขึ้นจะถูกจัดเก็บไว้ที่ไหน อย่าลืมแทนที่ `YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางที่แท้จริงของคุณ
 
 ### ขั้นตอนที่ 2: สร้างเอกสาร PDF
 ต่อไปเราจะสร้างเอกสาร PDF ใหม่และเพิ่มหน้าลงไป
@@ -79,16 +81,16 @@ TextFragment frag1 = new TextFragment("This is common text.");
 TextFragment frag2 = new TextFragment("This is invisible text.");
 ```
 
- ในข้อความนี้`frag1` จะมองเห็นได้ในขณะที่`frag2` จะถูกตั้งเป็นมองไม่เห็นต่อไป
+ในข้อความนี้ `frag1` จะมองเห็นได้ในขณะที่ `frag2` จะถูกตั้งเป็นมองไม่เห็นต่อไป
 
 ### ขั้นตอนที่ 4: ตั้งค่าข้อความให้มองไม่เห็น
- เพื่อทำให้ข้อความของ`frag2` มองไม่เห็น คุณเพียงแค่ปรับเปลี่ยนมัน`TextState`.
+เพื่อทำให้ข้อความของ `frag2` มองไม่เห็น คุณเพียงแค่ปรับเปลี่ยนมัน `TextState`-
 
 ```csharp
 frag2.TextState.Invisible = true;
 ```
 
- การตั้งค่าคุณสมบัตินี้จะทำให้ข้อความใดๆ ที่เกี่ยวข้องกับ`frag2` จะไม่แสดงผลเมื่อดูไฟล์ PDF
+การตั้งค่าคุณสมบัตินี้จะทำให้ข้อความใดๆ ที่เกี่ยวข้องกับ `frag2` จะไม่แสดงผลเมื่อดูไฟล์ PDF
 
 ### ขั้นตอนที่ 5: เพิ่มส่วนข้อความลงในหน้า
 สุดท้ายเราเพิ่มชิ้นส่วนข้อความเหล่านี้ลงในหน้าและบันทึก PDF
@@ -114,7 +116,7 @@ doc = new Aspose.Pdf.Document(dataDir + "39400_out.pdf");
 ```
 
 ### ขั้นตอนที่ 2: สร้าง Text Fragment Absorber
- เราจะใช้`TextFragmentAbsorber` เพื่อจับส่วนข้อความทั้งหมดใน PDF
+เราจะใช้ `TextFragmentAbsorber` เพื่อจับส่วนข้อความทั้งหมดใน PDF
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber();
@@ -134,7 +136,7 @@ foreach (TextFragment fragment in absorber.TextFragments)
 }
 ```
 
- ลูปนี้จะตรวจสอบแต่ละส่วนของข้อความและพิมพ์เนื้อหาพร้อมกับตำแหน่งและสถานะการมองเห็น หาก`fragment.TextState.Invisible` ถูกตั้งค่าเป็น true หมายความว่าข้อความถูกซ่อน!
+ลูปนี้จะตรวจสอบแต่ละส่วนของข้อความและพิมพ์เนื้อหาพร้อมกับตำแหน่งและสถานะการมองเห็น หาก `fragment.TextState.Invisible` ถูกตั้งค่าเป็น true หมายความว่าข้อความถูกซ่อนไว้!
 
 ### ขั้นตอนที่ 4: กำจัดเอกสาร
 สุดท้ายอย่าลืมกำจัดเอกสารอีกครั้งเมื่อใช้งานเสร็จแล้ว
@@ -155,19 +157,21 @@ doc.Dispose();
 ใช่ Aspose.PDF รองรับการเข้ารหัสและถอดรหัสเอกสาร PDF คุณสามารถรักษาความปลอดภัยไฟล์ PDF ของคุณได้อย่างง่ายดายด้วยรหัสผ่าน
 
 ### มีเวอร์ชันทดลองใช้สำหรับ Aspose.PDF หรือไม่  
- แน่นอน! คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+แน่นอน! คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### Aspose.PDF รองรับภาษาโปรแกรมอะไรบ้าง?  
 Aspose.PDF รองรับหลายภาษา รวมถึง C#, Java และ Python
 
 ### ฉันสามารถค้นหาเอกสารสำหรับ Aspose.PDF ได้ที่ไหน  
- คุณสามารถเข้าถึงเอกสารได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถเข้าถึงเอกสารได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?  
- หากต้องการความช่วยเหลือ คุณสามารถเยี่ยมชมฟอรัม Aspose[ที่นี่](https://forum.aspose.com/c/pdf/10).
+หากต้องการความช่วยเหลือ คุณสามารถเยี่ยมชมฟอรัม Aspose [ที่นี่](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

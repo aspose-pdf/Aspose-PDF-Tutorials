@@ -1,14 +1,16 @@
 ---
-title: Excel Çalışma Sayfası Verilerini Tabloya Aktar
-linktitle: Excel Çalışma Sayfası Verilerini Tabloya Aktar
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak Excel çalışma sayfası verilerini PDF tablosuna nasıl aktaracağınızı öğrenin. Kod örnekleri, ön koşullar ve faydalı ipuçları içeren adım adım eğitim.
-weight: 70
-url: /tr/net/programming-with-tables/export-excel-worksheet-data-to-table/
+"description": "Aspose.PDF for .NET kullanarak Excel çalışma sayfası verilerini PDF tablosuna nasıl aktaracağınızı öğrenin. Kod örnekleri, ön koşullar ve faydalı ipuçları içeren adım adım eğitim."
+"linktitle": "Excel Çalışma Sayfası Verilerini Tabloya Aktar"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Excel Çalışma Sayfası Verilerini Tabloya Aktar"
+"url": "/tr/net/programming-with-tables/export-excel-worksheet-data-to-table/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Çalışma Sayfası Verilerini Tabloya Aktar
@@ -21,12 +23,12 @@ Hiç Excel çalışma sayfasından bir PDF dosyasına, düzgün bir şekilde tab
 
 Kodlamaya başlamadan önce birkaç şeyi ayarlayalım:
 
-1.  Aspose.PDF for .NET Library – En son sürümün yüklü olduğundan emin olun.[buradan indirin](https://releases.aspose.com/pdf/net/).
-2.  Aspose.Cells for .NET Library – Excel işlemlerini halletmek için buna ihtiyacınız olacak. Buradan indirin[Burada](https://releases.aspose.com/cells/net/).
+1. Aspose.PDF for .NET Library – En son sürümün yüklü olduğundan emin olun. [buradan indirin](https://releases.aspose.com/pdf/net/).
+2. Aspose.Cells for .NET Library – Excel işlemlerini halletmek için buna ihtiyacınız olacak. Buradan indirin [Burada](https://releases.aspose.com/cells/net/).
 3. .NET Geliştirme Ortamı – Visual Studio gibi bir araç kodlama için mükemmel bir şekilde çalışacaktır.
 4. Excel Dosyası – Dışa aktarmak istediğiniz verilerin bulunduğu bir Excel dosyanız hazır olsun.
 
- Aspose.PDF ve Aspose.Cells kitaplıklarınız yoksa, bir[ücretsiz deneme](https://releases.aspose.com/).
+Aspose.PDF ve Aspose.Cells kitaplıklarınız yoksa, bir [ücretsiz deneme](https://releases.aspose.com/).
 
 ## Paketleri İçe Aktar
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(new FileStream(dataDir + "newBook1.xlsx", FileMode.Open));
 ```
 
- Açıklama: Burada, Excel dosyamızın bulunduğu dizin yolunu belirtiyoruz ve çalışma kitabını kullanarak yüklüyoruz.`Aspose.Cells.Workbook` Ayarlamayı unutmayın`"YOUR DOCUMENT DIRECTORY"` dosyanızın konumunu belirtmek için.
+Açıklama: Burada, Excel dosyamızın bulunduğu dizin yolunu belirtiyoruz ve çalışma kitabını kullanarak yüklüyoruz. `Aspose.Cells.Workbook`Ayarlamayı unutmayın `"YOUR DOCUMENT DIRECTORY"` dosyanızın konumunu belirtmek için.
 
 ## Adım 2: İlk Çalışma Sayfasına Erişim
 
@@ -76,7 +78,7 @@ Açıklama: Bu adım basittir; dışa aktarılacak verileri içeren çalışma k
 DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, worksheet.Cells.MaxRow + 1, worksheet.Cells.MaxColumn + 1, true);
 ```
 
- Açıklama:`ExportDataTable` yöntem, çalışma sayfasının ilk hücresinden başlayarak verileri çıkarır ve tüm satır ve sütunlara yayılır. Bu veriler daha sonra bir`DataTable` daha sonraki kullanımlar için.
+Açıklama: `ExportDataTable` yöntem, çalışma sayfasının ilk hücresinden başlayarak verileri çıkarır ve tüm satır ve sütunlara yayılır. Bu veriler daha sonra bir `DataTable` daha sonraki kullanımlar için.
 
 ## Adım 4: Yeni bir PDF Belgesi Oluşturun
 
@@ -90,7 +92,7 @@ Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document();
 Aspose.Pdf.Page page = pdfDocument.Pages.Add();
 ```
 
- Açıklama: Burada yeni bir tane başlatıyoruz`Aspose.Pdf.Document`ve buna bir sayfa ekleyin. Bu sayfa daha sonra Excel verilerinden oluşturduğumuz tabloyu içerecektir.
+Açıklama: Burada yeni bir tane başlatıyoruz `Aspose.Pdf.Document` ve buna bir sayfa ekleyin. Bu sayfa daha sonra Excel verilerinden oluşturduğumuz tabloyu içerecektir.
 
 ## Adım 5: PDF'de bir Tablo Nesnesi Oluşturun
 
@@ -104,7 +106,7 @@ Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 page.Paragraphs.Add(table);
 ```
 
- Açıklama: Bir`Aspose.Pdf.Table` nesneyi seçin ve sayfanın paragraf koleksiyonuna ekleyin; bu, tablonun sayfada görüntülenmesini sağlar.
+Açıklama: Bir `Aspose.Pdf.Table` nesneyi seçin ve sayfanın paragraf koleksiyonuna ekleyin; bu, tablonun sayfada görüntülenmesini sağlar.
 
 ## Adım 6: Sütun Genişliklerini ve Kenarlıklarını Ayarlayın
 
@@ -118,18 +120,18 @@ table.ColumnWidths = "40 100 100";
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.1F);
 ```
 
- Açıklama: Üç sütunun genişliklerini ayarlıyoruz ve tüm hücrelere varsayılan olarak kalınlığı olan bir kenarlık veriyoruz.`0.1F`.
+Açıklama: Üç sütunun genişliklerini ayarlıyoruz ve tüm hücrelere kalınlığı olan varsayılan bir kenarlık veriyoruz. `0.1F`.
 
 ## Adım 7: Verileri DataTable'dan PDF Tablosuna Aktarın
 
 Şimdi sıra DataTable'daki verileri PDF tablomuza aktarmaya geldi.
 
 ```csharp
-// DataTable'dan Tablo nesnesine veri aktarın
+// Verileri DataTable'dan Tablo nesnesine aktarın
 table.ImportDataTable(dataTable, true, 0, 0, dataTable.Rows.Count + 1, dataTable.Columns.Count);
 ```
 
- Açıklama:`ImportDataTable`yöntem tüm verileri aktarır`DataTable` PDF tablosuna. Bu, tabloyu Excel sayfanızdaki verilerle doldurur.
+Açıklama: `ImportDataTable` yöntem tüm verileri aktarır `DataTable` PDF tablosuna. Bu, tabloyu Excel sayfanızdaki verilerle doldurur.
 
 ## Adım 8: Başlık Satırını Biçimlendirin
 
@@ -149,7 +151,7 @@ foreach (Aspose.Pdf.Cell cell in headerRow.Cells)
 }
 ```
 
-Açıklama: İlk satırdaki (başlık) tüm hücreleri dolaşıp arka plan renklerini maviye, metin rengini sarıya ayarlıyoruz ve metni ortaya hizalıyoruz.
+Açıklama: İlk satırdaki (başlık) tüm hücreleri dolaşıp arka plan rengini maviye, metin rengini sarıya ayarlıyoruz ve metni ortaya hizalıyoruz.
 
 ## Adım 9: Kalan Satırları Şekillendirin
 
@@ -189,19 +191,21 @@ Açıklama: PDF'yi belirtilen dizine kaydediyoruz. Voilà! Excel verileriniz art
 Kesinlikle! Renkleri, yazı tiplerini, hizalamayı değiştirebilir ve hatta belirli hücrelere kenarlıklar ekleyebilirsiniz.
 
 ### Aspose.PDF for .NET ücretsiz mi?
- Ücretsiz deneme sürümü sunar, ancak uzun süreli kullanım için bir lisansa ihtiyacınız olacak.[buradan satın al](https://purchase.aspose.com/buy).
+Ücretsiz deneme sürümü sunar, ancak uzun süreli kullanım için bir lisansa ihtiyacınız olacak. [buradan satın al](https://purchase.aspose.com/buy).
 
 ### Sadece belirli satır ve sütunları mı dışa aktarabilirim?
- Evet, parametreleri değiştirebilirsiniz`ExportDataTable` Belirli aralıkları dışa aktarma yöntemi.
+Evet, parametreleri değiştirebilirsiniz `ExportDataTable` Belirli aralıkları dışa aktarma yöntemi.
 
 ### Bu büyük Excel dosyalarında işe yarıyor mu?
 Evet, Aspose.Cells büyük Excel dosyalarını etkili bir şekilde işleyecek şekilde tasarlanmıştır.
 
 ### PDF'e nasıl daha fazla sayfa ekleyebilirim?
- Kullanabilirsiniz`pdfDocument.Pages.Add()` İhtiyacınız kadar sayfa ekleyebilirsiniz.
+Kullanabilirsiniz `pdfDocument.Pages.Add()` İhtiyacınız kadar sayfa ekleyebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

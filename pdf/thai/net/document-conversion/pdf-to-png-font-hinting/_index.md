@@ -1,14 +1,16 @@
 ---
-title: คำแนะนำการแปลงฟอนต์ PDF เป็น PNG
-linktitle: คำแนะนำการแปลงฟอนต์ PDF เป็น PNG
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้การแปลง PDF เป็น PNG พร้อมคำแนะนำแบบอักษรโดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนง่ายๆ
-weight: 160
-url: /th/net/document-conversion/pdf-to-png-font-hinting/
+"description": "เรียนรู้การแปลง PDF เป็น PNG พร้อมคำแนะนำแบบอักษรโดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนง่ายๆ"
+"linktitle": "คำแนะนำการแปลงฟอนต์ PDF เป็น PNG"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "คำแนะนำการแปลงฟอนต์ PDF เป็น PNG"
+"url": "/th/net/document-conversion/pdf-to-png-font-hinting/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # คำแนะนำการแปลงฟอนต์ PDF เป็น PNG
@@ -22,7 +24,7 @@ url: /th/net/document-conversion/pdf-to-png-font-hinting/
 ก่อนที่เราจะเริ่มต้น เรามาตรวจสอบกันก่อนดีกว่าว่าคุณมีทุกสิ่งที่จำเป็นสำหรับการปฏิบัติตาม
 
 1. สภาพแวดล้อมการพัฒนา .NET: คุณควรมีสภาพแวดล้อมการพัฒนา .NET ที่ติดตั้งไว้บนเครื่องของคุณ คุณสามารถใช้ Visual Studio หรือ IDE ใดๆ ก็ได้ตามต้องการที่รองรับ .NET
-2.  ไลบรารี Aspose.PDF: หากต้องการทำงานกับ PDF ใน .NET คุณจะต้องติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. ไลบรารี Aspose.PDF: หากต้องการทำงานกับ PDF ใน .NET คุณจะต้องติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับ C# จะช่วยให้คุณนำทางผ่านโค้ดได้อย่างง่ายดาย
 
 คุณพร้อมแล้ว! มานำเข้าแพ็คเกจที่จำเป็นกัน
@@ -47,21 +49,21 @@ using System.IO;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // เปลี่ยนสิ่งนี้เป็นไดเร็กทอรีจริงของคุณ
 ```
 
- อย่าลืมเปลี่ยน`"YOUR DOCUMENT DIRECTORY"`ด้วยเส้นทางจริงไปยังโฟลเดอร์เอกสารของคุณ ตัวแปรนี้จะมีประโยชน์ตลอดกระบวนการแปลง
+อย่าลืมเปลี่ยน `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังโฟลเดอร์เอกสารของคุณ ตัวแปรนี้จะมีประโยชน์ตลอดกระบวนการแปลง
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF ของคุณ
 
- ตอนนี้เรามาโหลดเอกสาร PDF ที่เราต้องการแปลงกัน ใน Aspose.PDF ง่ายพอๆ กับการสร้างไฟล์ใหม่`Document` วัตถุ. นี่คือวิธีการ:
+ตอนนี้เรามาโหลดเอกสาร PDF ที่เราต้องการแปลงกัน ใน Aspose.PDF ง่ายพอๆ กับการสร้างไฟล์ใหม่ `Document` วัตถุ. นี่คือวิธีการ:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- บรรทัดโค้ดนี้จะบอก Aspose ให้เปิดไฟล์ PDF ที่ชื่อ`input.pdf` อยู่ในไดเร็กทอรีที่คุณระบุ หากทุกอย่างถูกต้อง คุณก็เข้าใกล้การแปลงเอกสารของคุณอีกขั้นหนึ่งแล้ว!
+บรรทัดโค้ดนี้จะบอก Aspose ให้เปิดไฟล์ PDF ที่ชื่อ `input.pdf` อยู่ในไดเร็กทอรีที่คุณระบุ หากทุกอย่างถูกต้อง คุณก็เข้าใกล้การแปลงเอกสารของคุณอีกขั้นหนึ่งแล้ว!
 
 ## ขั้นตอนที่ 3: เปิดใช้งานคำแนะนำแบบอักษร
 
- การบอกเป็นนัยถึงแบบอักษรเป็นคุณลักษณะที่มีประโยชน์ซึ่งช่วยปรับปรุงความชัดเจนของแบบอักษรในรูปภาพที่แปลงแล้ว หากต้องการเปิดใช้งานคุณลักษณะนี้ เราจะสร้าง`RenderingOptions` วัตถุและชุด`UseFontHinting` ถึง`true`-
+การบอกเป็นนัยถึงแบบอักษรเป็นคุณลักษณะที่มีประโยชน์ซึ่งช่วยปรับปรุงความชัดเจนของแบบอักษรในรูปภาพที่แปลงแล้ว หากต้องการเปิดใช้งานคุณลักษณะนี้ เราจะสร้าง `RenderingOptions` วัตถุและชุด `UseFontHinting` ถึง `true`-
 
 ```csharp
 RenderingOptions opts = new RenderingOptions();
@@ -79,12 +81,12 @@ for (int pageCount = 1; pageCount <= pdfDocument.Pages.Count; pageCount++)
 {
     using (FileStream imageStream = new FileStream(dataDir + "image" + pageCount + "_out.png", FileMode.Create))
     {
-        //โค้ดเพิ่มเติมจะอยู่ที่นี่
+        // โค้ดเพิ่มเติมจะอยู่ที่นี่
     }
 }
 ```
 
- ในสไนปเป็ตนี้ เรากำลังสร้าง`FileStream` สำหรับแต่ละหน้า ไฟล์เอาท์พุตจะมีชื่อ`image1_out.png`, `image2_out.png`เป็นต้น ขึ้นอยู่กับจำนวนหน้าใน PDF ของคุณ
+ในสไนปเป็ตนี้ เรากำลังสร้าง `FileStream` สำหรับแต่ละหน้า ไฟล์เอาท์พุตจะมีชื่อ `image1_out.png`- `image2_out.png`เป็นต้น ขึ้นอยู่กับจำนวนหน้าใน PDF ของคุณ
 
 ## ขั้นตอนที่ 5: ตั้งค่าอุปกรณ์ PNG
 
@@ -100,7 +102,7 @@ pngDevice.RenderingOptions = opts;
 
 ## ขั้นตอนที่ 6: แปลงหน้าเป็น PNG
 
- ตอนนี้มาถึงส่วนที่น่าตื่นเต้นแล้ว! เราจะแปลงแต่ละหน้าของ PDF เป็นภาพ PNG โดยใช้การกำหนดค่า`PngDevice`นี่คือโค้ดที่จะสรุปทุกอย่าง:
+ตอนนี้มาถึงส่วนที่น่าตื่นเต้นแล้ว! เราจะแปลงแต่ละหน้าของ PDF เป็นภาพ PNG โดยใช้การกำหนดค่า `PngDevice`นี่คือโค้ดที่จะสรุปทุกอย่าง:
 
 ```csharp
 pngDevice.Process(pdfDocument.Pages[pageCount], imageStream);
@@ -128,13 +130,15 @@ imageStream.Close();
 Aspose.PDF สามารถจัดการรูปแบบต่างๆ ได้มากมาย รวมถึง PDF, PNG, JPEG และอื่นๆ อีกมากมาย
 
 ### มีการทดลองใช้ฟรีหรือไม่?
- ใช่! คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่! คุณสามารถทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้จากที่ไหน
- คุณสามารถค้นหาการสนับสนุนและการสนทนาของชุมชนได้[ที่นี่](https://forum.aspose.com/c/pdf/10).
+คุณสามารถค้นหาการสนับสนุนและการสนทนาของชุมชนได้ [ที่นี่](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

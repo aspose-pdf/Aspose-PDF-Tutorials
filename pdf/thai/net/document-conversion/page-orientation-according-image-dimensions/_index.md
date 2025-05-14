@@ -1,14 +1,16 @@
 ---
-title: การวางแนวหน้าตามขนาดรูปภาพ
-linktitle: การวางแนวหน้าตามขนาดรูปภาพ
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการสร้าง PDF ด้วย Aspose.PDF สำหรับ .NET พร้อมตั้งค่าการวางแนวหน้าตามขนาดของภาพในคู่มือทีละขั้นตอนนี้
-weight: 80
-url: /th/net/document-conversion/page-orientation-according-image-dimensions/
+"description": "เรียนรู้วิธีการสร้าง PDF ด้วย Aspose.PDF สำหรับ .NET พร้อมตั้งค่าการวางแนวหน้าตามขนาดของภาพในคู่มือทีละขั้นตอนนี้"
+"linktitle": "การวางแนวหน้าตามขนาดรูปภาพ"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "การวางแนวหน้าตามขนาดรูปภาพ"
+"url": "/th/net/document-conversion/page-orientation-according-image-dimensions/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การวางแนวหน้าตามขนาดรูปภาพ
@@ -23,16 +25,16 @@ url: /th/net/document-conversion/page-orientation-according-image-dimensions/
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว ถือเป็น IDE ที่ดีที่สุดสำหรับการพัฒนา .NET
 2. .NET Framework: คู่มือนี้ถือว่าคุณใช้ .NET Framework โปรดตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันที่เหมาะสมแล้ว
-3.  Aspose.PDF สำหรับ .NET: คุณสามารถดาวน์โหลดไลบรารีได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/pdf/net/) . หากคุณต้องการทดลองใช้ก่อน คุณสามารถซื้อได้[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+3. Aspose.PDF สำหรับ .NET: คุณสามารถดาวน์โหลดไลบรารีได้จาก [เว็บไซต์อาโพส](https://releases.aspose.com/pdf/net/). หากคุณต้องการทดลองใช้ก่อน คุณสามารถซื้อได้ [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจตัวอย่างต่างๆ ได้ดีขึ้น
 
 ## แพ็คเกจนำเข้า
 
-ในการเริ่มต้น คุณต้องนำเข้าแพ็คเกจที่จำเป็น ซึ่งคุณสามารถทำได้ดังนี้:
+ในการเริ่มต้น คุณต้องนำเข้าแพ็คเกจที่จำเป็น โดยคุณสามารถทำได้ดังนี้:
 
 1. เปิดโครงการ Visual Studio ของคุณ
 2. คลิกขวาที่โครงการของคุณใน Solution Explorer และเลือก "จัดการแพ็คเกจ NuGet"
-3.  ค้นหา`Aspose.PDF` และติดตั้งมัน
+3. ค้นหา `Aspose.PDF` และติดตั้งมัน
 
 ตอนนี้เราได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว เรามาดูรายละเอียดตัวอย่างทีละขั้นตอนกัน
 
@@ -45,7 +47,7 @@ url: /th/net/document-conversion/page-orientation-according-image-dimensions/
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่รูปภาพของคุณตั้งอยู่ ซึ่งเป็นสิ่งสำคัญ เพราะหาก Aspose ไม่พบรูปภาพของคุณ ก็จะไม่สามารถสร้าง PDF ได้
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่รูปภาพของคุณตั้งอยู่ ซึ่งเป็นสิ่งสำคัญ เพราะหาก Aspose ไม่พบรูปภาพของคุณ ก็จะไม่สามารถสร้าง PDF ได้
 
 ## ขั้นตอนที่ 2: สร้างเอกสาร PDF ใหม่
 
@@ -55,11 +57,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
- บรรทัดนี้จะเริ่มต้นอินสแตนซ์ใหม่ของ`Document` คลาสซึ่งแสดงถึงไฟล์ PDF ของคุณ
+บรรทัดนี้จะเริ่มต้นอินสแตนซ์ใหม่ของ `Document` คลาสซึ่งแสดงถึงไฟล์ PDF ของคุณ
 
 ## ขั้นตอนที่ 3: ดึงไฟล์ภาพ
 
- ตอนนี้เรามาเรียกค้นไฟล์ JPG ทั้งหมดจากไดเร็กทอรีที่ระบุกัน ซึ่งทำได้โดยใช้`Directory.GetFiles` วิธี.
+ตอนนี้เรามาเรียกค้นไฟล์ JPG ทั้งหมดจากไดเร็กทอรีที่ระบุกัน ซึ่งทำได้โดยใช้ `Directory.GetFiles` วิธี.
 
 ```csharp
 string[] fileEntries = Directory.GetFiles(dataDir, "*.JPG");
@@ -79,18 +81,18 @@ for (counter = 0; counter < fileEntries.Length - 1; counter++)
     Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
- ในลูปนี้ คุณกำลังสร้างหน้าใหม่สำหรับแต่ละภาพ`doc.Pages.Add()` วิธีการเพิ่มหน้าใหม่ลงในเอกสาร PDF ของคุณ
+ในลูปนี้ คุณกำลังสร้างหน้าใหม่สำหรับแต่ละภาพ `doc.Pages.Add()` วิธีการเพิ่มหน้าใหม่ลงในเอกสาร PDF ของคุณ
 
 ## ขั้นตอนที่ 5: สร้างวัตถุรูปภาพ
 
- สำหรับแต่ละภาพ คุณต้องสร้าง`Image` วัตถุที่จะเก็บข้อมูลภาพ
+สำหรับแต่ละภาพ คุณต้องสร้าง `Image` วัตถุที่จะเก็บข้อมูลภาพ
 
 ```csharp
     Aspose.Pdf.Image image1 = new Aspose.Pdf.Image();
     image1.File = fileEntries[counter];
 ```
 
- ที่นี่ คุณกำลังกำหนดไฟล์รูปภาพปัจจุบันให้กับ`Image` วัตถุ นี่ถือเป็นสิ่งสำคัญสำหรับการเพิ่มรูปภาพลงใน PDF
+ที่นี่ คุณกำลังกำหนดไฟล์รูปภาพปัจจุบันให้กับ `Image` วัตถุ นี่ถือเป็นสิ่งสำคัญสำหรับการเพิ่มรูปภาพลงใน PDF
 
 ## ขั้นตอนที่ 6: ตรวจสอบขนาดภาพ
 
@@ -104,7 +106,7 @@ for (counter = 0; counter < fileEntries.Length - 1; counter++)
         page.PageInfo.IsLandscape = false;
 ```
 
-โค้ดตัวอย่างนี้จะตรวจสอบว่าความกว้างของภาพมากกว่าความกว้างของหน้าหรือไม่ หากมากกว่านั้น การวางแนวของหน้าจะถูกตั้งเป็นแนวนอน หากไม่เช่นนั้น หน้าจะยังคงอยู่ในโหมดแนวตั้ง
+โค้ดสั้นๆ นี้จะตรวจสอบว่าความกว้างของภาพมากกว่าความกว้างของหน้าหรือไม่ หากมากกว่านั้น การวางแนวของหน้าจะถูกตั้งเป็นแนวนอน หากไม่เช่นนั้น หน้าจะยังคงอยู่ในโหมดแนวตั้ง
 
 ## ขั้นตอนที่ 7: เพิ่มรูปภาพลงใน PDF
 
@@ -125,7 +127,7 @@ for (counter = 0; counter < fileEntries.Length - 1; counter++)
 doc.Save(dataDir + "SetPageOrientation_out.pdf");
 ```
 
- บรรทัดนี้จะบันทึกเอกสารด้วยชื่อ`SetPageOrientation_out.pdf`อย่าลืมตรวจสอบไดเร็กทอรีเอกสารของคุณสำหรับ PDF ที่เพิ่งสร้างขึ้น!
+บรรทัดนี้จะบันทึกเอกสารด้วยชื่อ `SetPageOrientation_out.pdf`อย่าลืมตรวจสอบไดเร็กทอรีเอกสารของคุณสำหรับ PDF ที่เพิ่งสร้างขึ้น!
 
 ## บทสรุป
 
@@ -137,19 +139,21 @@ doc.Save(dataDir + "SetPageOrientation_out.pdf");
 Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันจะติดตั้ง Aspose.PDF ได้อย่างไร?
- คุณสามารถติดตั้ง Aspose.PDF ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หรือดาวน์โหลดจาก[เว็บไซต์อาโพส](https://releases.aspose.com/pdf/net/).
+คุณสามารถติดตั้ง Aspose.PDF ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หรือดาวน์โหลดจาก [เว็บไซต์อาโพส](https://releases-aspose.com/pdf/net/).
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose เสนอ[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อให้คุณได้ทดสอบไลบรารีก่อนการซื้อ
+ใช่ Aspose เสนอ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อให้คุณได้ทดสอบไลบรารีก่อนการซื้อ
 
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.PDF ได้ที่ไหน
-คุณสามารถหาการสนับสนุนได้ที่[ฟอรั่ม Aspose](https://forum.aspose.com/c/pdf/10).
+คุณสามารถหาการสนับสนุนได้ที่ [ฟอรั่ม Aspose](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันสามารถแปลงไฟล์ประเภทใดเป็น PDF โดยใช้ Aspose ได้บ้าง
 Aspose.PDF รองรับรูปแบบไฟล์ต่างๆ มากมาย รวมถึงรูปภาพ เอกสาร Word สเปรดชีต Excel และอื่นๆ อีกมากมาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Установить ссылку назначения в PDF-файле
-linktitle: Установить ссылку назначения в PDF-файле
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как устанавливать целевые ссылки в файлах PDF с помощью Aspose.PDF для .NET. Пошаговое руководство по повышению интерактивности PDF.
-weight: 90
-url: /ru/net/programming-with-links-and-actions/set-destination-link/
+"description": "Узнайте, как устанавливать целевые ссылки в файлах PDF с помощью Aspose.PDF для .NET. Пошаговое руководство по повышению интерактивности PDF."
+"linktitle": "Установить ссылку назначения в PDF-файле"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Установить ссылку назначения в PDF-файле"
+"url": "/ru/net/programming-with-links-and-actions/set-destination-link/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить ссылку назначения в PDF-файле
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-links-and-actions/set-destination-link/
 Прежде чем начать, вам необходимо подготовить несколько вещей:
 
 1. Библиотека Aspose.PDF для .NET:
-    Вам нужно будет скачать и установить пакет Aspose.PDF for .NET. Установочные файлы вы можете найти[здесь](https://releases.aspose.com/pdf/net/).
+   Вам нужно будет скачать и установить пакет Aspose.PDF for .NET. Установочные файлы вы можете найти [здесь](https://releases.aspose.com/pdf/net/).
 
 2. Среда разработки:
    На вашем компьютере должна быть установлена Visual Studio или любая совместимая с .NET IDE.
@@ -34,7 +36,7 @@ url: /ru/net/programming-with-links-and-actions/set-destination-link/
    Начните новый проект C# в предпочитаемой вами IDE. Эта настройка будет местом, где будут происходить ваши манипуляции с PDF.
 
 5. Образец PDF-файла:
-    Для демонстрации вам понадобится образец PDF-файла (например,`UpdateLinks.pdf`), где мы применим модификацию ссылки.
+   Для демонстрации вам понадобится образец PDF-файла (например, `UpdateLinks.pdf`), где мы применим модификацию ссылки.
 
 ## Импортные пакеты
 
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "UpdateLinks.pdf");
 ```
 
- Здесь замените`"YOUR DOCUMENT DIRECTORY"`с фактическим путем к вашему PDF-файлу в вашей файловой системе. Этот код создает экземпляр`Document` объект, содержащий загруженный PDF-файл.
+Здесь замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему PDF-файлу в вашей файловой системе. Этот код создает экземпляр `Document` объект, содержащий загруженный PDF-файл.
 
 ## Шаг 2: Доступ к аннотации ссылки
 
@@ -84,7 +86,7 @@ LinkAnnotation linkAnnot = (LinkAnnotation)doc.Pages[1].Annotations[1];
 linkAnnot.Action = new GoToURIAction("www.aspose.com");
 ```
 
- Эта строка задает действие`linkAnnot`к новому действию URI, фактически изменяя, куда ссылка будет направлять пользователей при нажатии.
+Эта строка устанавливает действие `linkAnnot` к новому действию URI, фактически изменяя, куда ссылка будет направлять пользователей при нажатии.
 
 ## Шаг 4: Сохраните документ.
 
@@ -110,7 +112,7 @@ catch (Exception ex)
 }
 ```
 
-Это позволит перехватить все исключения и вывести информативное сообщение, помогая вам устранить потенциальные проблемы.
+Это позволит обнаружить любые исключения и вывести информативное сообщение, помогая вам устранить потенциальные проблемы.
 
 ## Заключение
 
@@ -128,13 +130,15 @@ Aspose.PDF для .NET — мощная библиотека для програ
 Aspose.PDF предлагает бесплатную пробную версию. Для комплексного использования можно приобрести лицензию.
 
 ### Где я могу найти дополнительную документацию по Aspose.PDF?
- Более подробную документацию вы можете найти[здесь](https://reference.aspose.com/pdf/net/).
+Более подробную документацию вы можете найти [здесь](https://reference.aspose.com/pdf/net/).
 
 ### Как получить поддержку по Aspose.PDF?
- Вы можете получить доступ к[форум поддержки](https://forum.aspose.com/c/pdf/10) для помощи и запросов.
+Вы можете получить доступ к [форум поддержки](https://forum.aspose.com/c/pdf/10) для помощи и запросов.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

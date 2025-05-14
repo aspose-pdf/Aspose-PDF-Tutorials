@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Komentar ke Dokumen PDF
-linktitle: Tambahkan Komentar ke Dokumen PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari Cara Menambahkan Komentar ke Dokumen PDF Menggunakan Aspose.PDF untuk Java - Panduan Langkah-demi-Langkah dengan Contoh Kode.
-weight: 10
-url: /id/java/pdf-annotations/add-comments-pdf-documents/
+"description": "Pelajari Cara Menambahkan Komentar ke Dokumen PDF Menggunakan Aspose.PDF untuk Java - Panduan Langkah-demi-Langkah dengan Contoh Kode."
+"linktitle": "Tambahkan Komentar ke Dokumen PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Tambahkan Komentar ke Dokumen PDF"
+"url": "/id/java/pdf-annotations/add-comments-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Komentar ke Dokumen PDF
@@ -20,7 +22,7 @@ Dokumen PDF telah menjadi standar untuk berbagi informasi secara digital karena 
 
 ## Memulai dengan Aspose.PDF untuk Java
 
-Untuk memulai, Anda perlu menyiapkan lingkungan pengembangan Anda. Pastikan Anda telah menginstal pustaka Aspose.PDF untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+Untuk memulai, Anda perlu menyiapkan lingkungan pengembangan Anda. Pastikan Anda telah menginstal pustaka Aspose.PDF untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Membuat Dokumen PDF
 
@@ -89,9 +91,11 @@ Jumlah komentar yang dapat Anda tambahkan ke dokumen PDF bergantung pada berbaga
 ### Bagaimana cara mengekstrak komentar dari PDF secara terprogram?
 
 Anda dapat mengekstrak komentar dari dokumen PDF menggunakan Aspose.PDF untuk Java dengan mengulangi anotasi dokumen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

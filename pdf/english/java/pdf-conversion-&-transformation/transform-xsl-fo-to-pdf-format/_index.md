@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/transform-xsl-fo-to-pdf-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Transform XSL-FO to PDF Format
@@ -87,6 +89,7 @@ Effortlessly transforming XSL-FO documents to PDF format is crucial for business
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

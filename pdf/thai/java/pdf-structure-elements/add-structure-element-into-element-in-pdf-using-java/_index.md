@@ -1,26 +1,28 @@
 ---
-title: เพิ่มองค์ประกอบโครงสร้างลงในองค์ประกอบใน PDF โดยใช้ Java
-linktitle: เพิ่มองค์ประกอบโครงสร้างลงในองค์ประกอบใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการปรับปรุงโครงสร้าง PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการเพิ่มองค์ประกอบโครงสร้างสำหรับ PDF ที่เข้าถึงได้และจัดระเบียบได้
-weight: 11
-url: /th/java/pdf-structure-elements/add-structure-element-into-element-in-pdf-using-java/
+"description": "เรียนรู้วิธีการปรับปรุงโครงสร้าง PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการเพิ่มองค์ประกอบโครงสร้างสำหรับ PDF ที่เข้าถึงได้และจัดระเบียบได้"
+"linktitle": "เพิ่มองค์ประกอบโครงสร้างลงในองค์ประกอบใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มองค์ประกอบโครงสร้างลงในองค์ประกอบใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-structure-elements/add-structure-element-into-element-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มองค์ประกอบโครงสร้างลงในองค์ประกอบใน PDF โดยใช้ Java
 
 
-## บทนำสู่การเพิ่มองค์ประกอบโครงสร้างลงในองค์ประกอบใน PDF โดยใช้ Java
+## บทนำการเพิ่มองค์ประกอบโครงสร้างลงในองค์ประกอบใน PDF โดยใช้ Java
 
 เอกสาร PDF ถูกใช้กันอย่างแพร่หลายในการนำเสนอข้อมูลที่มีโครงสร้าง เมื่อทำงานกับ Java Aspose.PDF จะให้ชุดเครื่องมืออันทรงพลังในการจัดการและปรับปรุงไฟล์ PDF ในคู่มือทีละขั้นตอนนี้ เราจะสำรวจวิธีการเพิ่มองค์ประกอบโครงสร้างลงในองค์ประกอบภายในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java กระบวนการนี้มีความสำคัญอย่างยิ่งในการทำให้ PDF เข้าถึงและจัดระเบียบได้
 
 ## ทำความเข้าใจ Aspose.PDF สำหรับไลบรารี Java
 
-Aspose.PDF สำหรับ Java เป็นไลบรารีที่อัดแน่นไปด้วยคุณสมบัติที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และจัดการเอกสาร PDF ได้ด้วยโปรแกรม นอกจากนี้ยังรองรับองค์ประกอบโครงสร้าง PDF อย่างกว้างขวาง จึงเป็นตัวเลือกที่เหมาะสำหรับการจัดการโครงสร้าง PDF ที่ซับซ้อน
+Aspose.PDF สำหรับ Java เป็นไลบรารีที่อุดมด้วยคุณสมบัติที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และจัดการเอกสาร PDF ได้ด้วยโปรแกรม นอกจากนี้ยังรองรับองค์ประกอบโครงสร้าง PDF อย่างกว้างขวาง ทำให้เป็นตัวเลือกที่เหมาะสำหรับการจัดการโครงสร้าง PDF ที่ซับซ้อน
 
 ## การเพิ่มองค์ประกอบโครงสร้างลงในเอกสาร PDF
 
@@ -85,7 +87,7 @@ imageElement.setFile("image.png");
 ```java
 // สร้างองค์ประกอบโครงสร้างตาราง
 TableElement tableElement = new TableElement();
-// เพิ่มแถวตารางและเซลล์ที่นี่
+// เพิ่มแถวและเซลล์ของตารางที่นี่
 ```
 
 ### การบันทึกและปิดไฟล์ PDF
@@ -106,7 +108,7 @@ pdfDocument.close();
 
 ### ฉันสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้อย่างไร
 
- คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ที่[ที่นี่](https://releases.aspose.com/pdf/java/).
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ที่ [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ### Aspose.PDF สำหรับ Java สามารถใช้งานฟรีได้หรือไม่?
 
@@ -122,10 +124,12 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถเข้าถึงเอกสารสำหรับ Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถเข้าถึงเอกสารสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dodaj powtarzającą się kolumnę w dokumencie PDF
-linktitle: Dodaj powtarzającą się kolumnę w dokumencie PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać powtarzające się kolumny do dokumentów PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami i kodem. Idealny dla programistów.
-weight: 20
-url: /pl/net/programming-with-tables/add-repeating-column/
+"description": "Dowiedz się, jak dodawać powtarzające się kolumny do dokumentów PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami i kodem. Idealny dla programistów."
+"linktitle": "Dodaj powtarzającą się kolumnę w dokumencie PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj powtarzającą się kolumnę w dokumencie PDF"
+"url": "/pl/net/programming-with-tables/add-repeating-column/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj powtarzającą się kolumnę w dokumencie PDF
@@ -27,7 +29,7 @@ Zanim przejdziemy do kodu, upewnijmy się, że wszystko jest skonfigurowane:
 - Środowisko programistyczne: Upewnij się, że masz zainstalowane środowisko programistyczne (IDE) zgodne z platformą .NET, np. Visual Studio.
 - Podstawowa znajomość języka C#: Choć szczegółowo omówimy każdy element, podstawowa znajomość języka C# pozwoli Ci bez problemu nadążyć za materiałem.
   
- Jeśli nie masz jeszcze pliku Aspose.PDF dla platformy .NET, możesz go pobrać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby rozpocząć odkrywanie jego funkcji.
+Jeśli nie masz jeszcze pliku Aspose.PDF dla platformy .NET, możesz go pobrać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby rozpocząć odkrywanie jego funkcji.
 
 ## Importuj pakiety
 
@@ -51,18 +53,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outFile = dataDir + "AddRepeatingColumn_out.pdf";
 ```
 
- Ta ścieżka wskazuje na katalog, w którym zostanie zapisany wyjściowy plik PDF. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze.
+Ta ścieżka wskazuje na katalog, w którym zostanie zapisany wyjściowy plik PDF. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze.
 
 ## Krok 2: Utwórz nowy dokument PDF
 
- Aby rozpocząć, utwórz nową instancję`Document` obiekt. Będzie on służył jako kontener dla wszystkich stron i treści w pliku PDF.
+Aby rozpocząć, utwórz nową instancję `Document` obiekt. Będzie on służył jako kontener dla wszystkich stron i treści w pliku PDF.
 
 ```csharp
 Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
- Tutaj utworzyliśmy nowy dokument PDF i dodaliśmy do niego pustą stronę.`doc.Pages.Add()` Metoda wstawia nową stronę do dokumentu.
+Tutaj utworzyliśmy nowy dokument PDF i dodaliśmy do niego pustą stronę. `doc.Pages.Add()` Metoda wstawia nową stronę do dokumentu.
 
 ## Krok 3: Utwórz instancję tabeli zewnętrznej
 
@@ -74,11 +76,11 @@ outerTable.ColumnWidths = "100%";
 outerTable.HorizontalAlignment = HorizontalAlignment.Left;
 ```
 
- Ustawiliśmy`ColumnWidths` właściwość na „100%”, co oznacza, że tabela zostanie rozciągnięta na całą szerokość strony.
+Ustawiliśmy `ColumnWidths` właściwość na „100%”, co oznacza, że tabela zostanie rozciągnięta na całą szerokość strony.
 
 ## Krok 4: Utwórz tabelę wewnętrzną
 
- Teraz utwórzmy wewnętrzną tabelę, która będzie miała powtarzające się kolumny. Kluczowe właściwości tutaj to:`Broken` , co pozwala na kontynuację tabeli na tej samej stronie i`ColumnAdjustment`, która automatycznie dostosowuje szerokość kolumn do zawartości.
+Teraz utwórzmy wewnętrzną tabelę, która będzie miała powtarzające się kolumny. Kluczowe właściwości tutaj to: `Broken`, co pozwala na kontynuację tabeli na tej samej stronie i `ColumnAdjustment`, która automatycznie dostosowuje szerokość kolumn do zawartości.
 
 ```csharp
 Aspose.Pdf.Table mytable = new Aspose.Pdf.Table();
@@ -90,7 +92,7 @@ Ta tabela wewnętrzna będzie zagnieżdżona w tabeli zewnętrznej.
 
 ## Krok 5: Dodaj tabele do strony
 
-Teraz, gdy mamy gotowe zarówno tabele zewnętrzne, jak i wewnętrzne, dodajmy je do strony. Ten krok zapewnia, że tabele zostaną uwzględnione w strukturze dokumentu.
+Teraz, gdy mamy gotowe tabele zewnętrzne i wewnętrzne, dodajmy je do strony. Ten krok zapewnia, że tabele zostaną uwzględnione w strukturze dokumentu.
 
 ```csharp
 page.Paragraphs.Add(outerTable);
@@ -100,7 +102,7 @@ bodyCell.Paragraphs.Add(mytable);
 mytable.RepeatingColumnsCount = 5;
 ```
 
- Tutaj dodaliśmy`outerTable` do strony, a następnie w zewnętrznej tabeli zagnieździliśmy`mytable` Dodatkowo ustawiliśmy`RepeatingColumnsCount`do 5, określając liczbę kolumn, które mają się powtarzać po dodaniu danych.
+Tutaj dodaliśmy `outerTable` do strony, a następnie w zewnętrznej tabeli zagnieździliśmy `mytable`Dodatkowo ustawiliśmy `RepeatingColumnsCount` do 5, określając liczbę kolumn, które mają się powtarzać po dodaniu danych.
 
 ## Krok 6: Dodaj wiersz nagłówka
 
@@ -124,7 +126,7 @@ row.Cells.Add("header 16");
 row.Cells.Add("header 17");
 ```
 
-Ten fragment kodu dodaje pierwszy wiersz (którego użyjemy jako nagłówków) i wypełnia go komórkami zawierającymi tekst, taki jak „nagłówek 1”, „nagłówek 2” itd.
+Ten fragment kodu dodaje pierwszy wiersz (którego użyjemy jako nagłówka) i wypełnia go komórkami zawierającymi tekst, taki jak „nagłówek 1”, „nagłówek 2” itd.
 
 ## Krok 7: Dodaj wiersze danych
 
@@ -165,7 +167,7 @@ Twój dokument został zapisany z powtarzającymi się kolumnami!
 
 ## Wniosek
 
-Oto i masz! Dzięki tym prostym krokom możesz utworzyć dokument PDF z powtarzającymi się kolumnami przy użyciu Aspose.PDF dla .NET. Wykorzystując elastyczność zagnieżdżonych tabel, możesz uzyskać złożone układy, które sprawią, że Twoje pliki PDF będą wyglądać profesjonalnie i uporządkowanie. Wypróbuj to w swoim następnym projekcie i odkryj pełny potencjał Aspose.PDF, aby sprostać potrzebom generowania plików PDF.
+Oto masz! Dzięki tym prostym krokom możesz utworzyć dokument PDF z powtarzającymi się kolumnami za pomocą Aspose.PDF dla .NET. Wykorzystując elastyczność zagnieżdżonych tabel, możesz uzyskać złożone układy, które sprawią, że Twoje pliki PDF będą wyglądać profesjonalnie i uporządkowanie. Wypróbuj to w swoim następnym projekcie i odkryj pełny potencjał Aspose.PDF, aby sprostać potrzebom generowania plików PDF.
 
 ## Najczęściej zadawane pytania
 
@@ -173,19 +175,21 @@ Oto i masz! Dzięki tym prostym krokom możesz utworzyć dokument PDF z powtarza
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie, edycję i zarządzanie dokumentami PDF.
 
 ### Czy mogę dynamicznie zmieniać liczbę powtarzających się kolumn?
- Tak, możesz zmienić liczbę powtarzających się kolumn, modyfikując`RepeatingColumnsCount` nieruchomość.
+Tak, możesz zmienić liczbę powtarzających się kolumn, modyfikując `RepeatingColumnsCount` nieruchomość.
 
 ### Jak mogę zastosować licencję do Aspose.PDF dla platformy .NET?
- Licencję można zastosować z pliku lub strumienia, postępując zgodnie z poniższą instrukcją:[dokumentacja](https://reference.aspose.com/pdf/net/).
+Licencję można zastosować z pliku lub strumienia, postępując zgodnie z poniższą instrukcją: [dokumentacja](https://reference.aspose.com/pdf/net/).
 
 ### Czy można dodawać obrazy do komórek tabeli?
 Tak, Aspose.PDF dla platformy .NET obsługuje dodawanie różnych typów zawartości, w tym obrazów, do komórek tabeli.
 
 ### Czy mogę dodatkowo dostosować układ tabeli?
 Oczywiście! Aspose.PDF oferuje rozbudowane funkcje dostosowywania stylów tabeli, w tym obramowania, wypełnienia, wyrównania i wiele innych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

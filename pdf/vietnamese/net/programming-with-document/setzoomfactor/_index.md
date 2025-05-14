@@ -1,14 +1,16 @@
 ---
-title: Thiết lập hệ số thu phóng trong tệp PDF
-linktitle: Thiết lập hệ số thu phóng trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thiết lập hệ số thu phóng trong tệp PDF bằng Aspose.PDF cho .NET. Nâng cao trải nghiệm người dùng với hướng dẫn từng bước này.
-weight: 340
-url: /vi/net/programming-with-document/setzoomfactor/
+"description": "Tìm hiểu cách thiết lập hệ số thu phóng trong tệp PDF bằng Aspose.PDF cho .NET. Nâng cao trải nghiệm người dùng với hướng dẫn từng bước này."
+"linktitle": "Thiết lập hệ số thu phóng trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thiết lập hệ số thu phóng trong tệp PDF"
+"url": "/vi/net/programming-with-document/setzoomfactor/"
+"weight": 340
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập hệ số thu phóng trong tệp PDF
@@ -21,7 +23,7 @@ Bạn đã bao giờ mở một tệp PDF chỉ để nheo mắt nhìn vào văn
 
 Trước khi đi sâu vào cách thiết lập hệ số thu phóng, bạn cần lưu ý một số điều sau:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Môi trường phát triển nơi bạn có thể viết và kiểm tra mã .NET của mình.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã chúng ta sẽ sử dụng.
 
@@ -61,28 +63,28 @@ Trước tiên, bạn cần chỉ định đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này rất quan trọng vì chương trình cần biết nơi tìm tệp bạn muốn sửa đổi.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Điều này rất quan trọng vì chương trình cần biết nơi tìm tệp bạn muốn sửa đổi.
 
 ## Bước 2: Khởi tạo một đối tượng tài liệu mới
 
-Tiếp theo, bạn sẽ tạo một phiên bản mới của`Document` lớp. Lớp này đại diện cho tệp PDF của bạn và cho phép bạn thao tác với tệp đó. Đây là mã:
+Tiếp theo, bạn sẽ tạo một phiên bản mới của `Document` lớp. Lớp này đại diện cho tệp PDF của bạn và cho phép bạn thao tác với tệp đó. Đây là mã:
 
 ```csharp
 // Khởi tạo đối tượng Tài liệu mới
 Document doc = new Document(dataDir + "SetZoomFactor.pdf");
 ```
 
- Trong dòng này, chúng tôi đang tải tệp PDF có tên`SetZoomFactor.pdf` từ thư mục đã chỉ định. Đảm bảo tệp này tồn tại trong thư mục của bạn; nếu không, bạn sẽ gặp lỗi.
+Trong dòng này, chúng tôi đang tải tệp PDF có tên `SetZoomFactor.pdf` từ thư mục đã chỉ định. Đảm bảo tệp này tồn tại trong thư mục của bạn; nếu không, bạn sẽ gặp lỗi.
 
 ## Bước 3: Tạo GoToAction với XYZExplicitDestination
 
- Bây giờ đến phần thú vị! Bạn sẽ tạo ra một`GoToAction` đặt hệ số thu phóng cho PDF của bạn. Hành động này sẽ xác định cách tài liệu được hiển thị khi mở. Sau đây là cách thực hiện:
+Bây giờ đến phần thú vị! Bạn sẽ tạo ra một `GoToAction` đặt hệ số thu phóng cho PDF của bạn. Hành động này sẽ xác định cách tài liệu được hiển thị khi mở. Sau đây là cách thực hiện:
 
 ```csharp
 GoToAction action = new GoToAction(new XYZExplicitDestination(1, 0, 0, .5));
 ```
 
- Trong dòng này, chúng tôi đang tạo ra một cái mới`GoToAction` với một`XYZExplicitDestination`. Các thông số ở đây là:
+Trong dòng này, chúng tôi đang tạo ra một cái mới `GoToAction` với một `XYZExplicitDestination`. Các thông số ở đây là:
 
 - `1`: Số trang bạn muốn mở (trong trường hợp này là trang đầu tiên).
 - `0`: Vị trí nằm ngang (0 nghĩa là ở giữa).
@@ -99,7 +101,7 @@ Với hành động đã tạo, đã đến lúc đặt nó làm hành động m
 doc.OpenAction = action;
 ```
 
- Dòng này liên kết`GoToAction` bạn đã tạo vào tài liệu, đảm bảo rằng nó sẽ được áp dụng khi mở PDF.
+Dòng này liên kết `GoToAction` bạn đã tạo vào tài liệu, đảm bảo rằng nó sẽ được áp dụng khi mở PDF.
 
 ## Bước 5: Lưu tài liệu
 
@@ -111,7 +113,7 @@ dataDir = dataDir + "Zoomed_pdf_out.pdf";
 doc.Save(dataDir);
 ```
 
- Trong đoạn trích này, chúng tôi đang lưu tài liệu đã sửa đổi dưới dạng`Zoomed_pdf_out.pdf` trong cùng một thư mục. Bạn có thể đổi tên nếu muốn.
+Trong đoạn trích này, chúng tôi đang lưu tài liệu đã sửa đổi dưới dạng `Zoomed_pdf_out.pdf` trong cùng một thư mục. Bạn có thể đổi tên nếu muốn.
 
 ## Phần kết luận
 
@@ -123,19 +125,21 @@ Và thế là xong! Bạn đã thiết lập thành công hệ số thu phóng c
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
 
 ### Tôi có thể thiết lập các hệ số thu phóng khác nhau cho các trang khác nhau không?
- Có, bạn có thể tạo riêng biệt`GoToAction`các trường hợp cho mỗi trang nếu bạn muốn các hệ số thu phóng khác nhau.
+Có, bạn có thể tạo riêng biệt `GoToAction` các trường hợp cho mỗi trang nếu bạn muốn các hệ số thu phóng khác nhau.
 
 ### Aspose.PDF có miễn phí sử dụng không?
- Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Hãy xem[mua trang](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Hãy xem [mua trang](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về[Trang web Aspose](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về [Trang web Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Tôi phải làm sao nếu gặp sự cố khi sử dụng Aspose.PDF?
-Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp trên [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

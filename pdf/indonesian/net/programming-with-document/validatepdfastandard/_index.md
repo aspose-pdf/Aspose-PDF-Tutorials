@@ -1,14 +1,16 @@
 ---
-title: Validasi File PDF Standar
-linktitle: Validasi PDF Standar A
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memvalidasi file PDF terhadap standar PDF/A-1a menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
-weight: 390
-url: /id/net/programming-with-document/validatepdfastandard/
+"description": "Pelajari cara memvalidasi file PDF terhadap standar PDF/A-1a menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini."
+"linktitle": "Validasi PDF Standar A"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Validasi File PDF Standar"
+"url": "/id/net/programming-with-document/validatepdfastandard/"
+"weight": 390
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validasi File PDF Standar
@@ -22,7 +24,7 @@ Di dunia digital saat ini, memastikan bahwa dokumen PDF Anda memenuhi standar te
 Sebelum kita menyelami kodenya, ada beberapa prasyarat yang perlu Anda penuhi:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan kita.
-2.  Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -44,18 +46,18 @@ Langkah pertama dalam proses validasi kami adalah menyiapkan direktori tempat do
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Ini bisa berupa jalur lokal atau jalur jaringan, tergantung di mana file Anda disimpan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Ini bisa berupa jalur lokal atau jalur jaringan, tergantung di mana file Anda disimpan.
 
 ## Langkah 2: Buka Dokumen PDF
 
- Sekarang setelah kita menyiapkan direktori dokumen kita, langkah selanjutnya adalah membuka dokumen PDF yang ingin kita validasi. Ini dilakukan dengan menggunakan`Document` kelas disediakan oleh Aspose.PDF.
+Sekarang setelah kita menyiapkan direktori dokumen kita, langkah selanjutnya adalah membuka dokumen PDF yang ingin kita validasi. Ini dilakukan dengan menggunakan `Document` kelas disediakan oleh Aspose.PDF.
 
 ```csharp
 // Buka dokumen
 Document pdfDocument = new Document(dataDir + "ValidatePDFAStandard.pdf");
 ```
 
- Pada baris ini, kita membuat instance baru dari`Document` class dan berikan path file PDF yang ingin divalidasi. Pastikan nama file sesuai dengan yang ada di direktori Anda.
+Pada baris ini, kita membuat instance baru dari `Document` class dan berikan path file PDF yang ingin divalidasi. Pastikan nama file sesuai dengan yang ada di direktori Anda.
 
 ## Langkah 3: Validasi Dokumen PDF
 
@@ -66,7 +68,7 @@ Setelah dokumen PDF dibuka, kita sekarang dapat melanjutkan untuk memvalidasinya
 pdfDocument.Validate(dataDir + "validation-result-A1A.xml", PdfFormat.PDF_A_1A);
 ```
 
-Pada langkah ini, kita memanggil`Validate` metode pada kami`pdfDocument` objek. Kami melewati dua parameter: jalur tempat kami ingin menyimpan hasil validasi dan format PDF yang kami validasi. Dalam hal ini, kami memvalidasi terhadap`PdfFormat.PDF_A_1A`.
+Pada langkah ini, kita memanggil `Validate` metode pada kami `pdfDocument` objek. Kami melewati dua parameter: jalur tempat kami ingin menyimpan hasil validasi dan format PDF yang kami validasi. Dalam hal ini, kami memvalidasi terhadap `PdfFormat.PDF_A_1A`.
 
 ## Langkah 4: Periksa Hasil Validasi
 
@@ -90,13 +92,15 @@ Validasi memastikan bahwa dokumen Anda memenuhi standar tertentu, yang penting u
 Ya, Aspose.PDF menawarkan berbagai fungsi, termasuk membuat, mengedit, dan mengonversi dokumen PDF.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF?
- Ya, Anda dapat mengunduh uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/).
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dukungan dan mengajukan pertanyaan di [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

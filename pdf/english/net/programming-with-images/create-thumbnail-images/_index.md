@@ -8,7 +8,9 @@ url: /net/programming-with-images/create-thumbnail-images/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Thumbnail Images In PDF File
@@ -155,6 +157,7 @@ You can find more resources and community support on the [Aspose forums](https:/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

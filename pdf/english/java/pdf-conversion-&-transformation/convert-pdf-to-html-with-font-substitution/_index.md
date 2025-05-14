@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/convert-pdf-to-html-with-font-substitut
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert PDF to HTML with Font Substitution
@@ -118,9 +120,11 @@ While font substitution is a valuable feature, it may not perfectly match the ae
 ### Is Aspose.PDF for Java suitable for large-scale PDF to HTML conversions?
 
 Yes, Aspose.PDF for Java is well-suited for both small-scale and large-scale PDF to HTML conversions. Its robust performance and customization options make it a reliable choice for various projects.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

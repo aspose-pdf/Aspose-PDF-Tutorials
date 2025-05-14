@@ -1,14 +1,16 @@
 ---
-title: Tạo hình ảnh thu nhỏ trong tệp PDF
-linktitle: Tạo hình ảnh thu nhỏ trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tạo hình ảnh thu nhỏ cho từng trang trong tệp PDF của bạn một cách dễ dàng bằng Aspose.PDF cho .NET. Nâng cao trải nghiệm xem trước tài liệu của bạn.
-weight: 100
-url: /vi/net/programming-with-images/create-thumbnail-images/
+"description": "Tạo hình ảnh thu nhỏ cho từng trang trong tệp PDF của bạn một cách dễ dàng bằng Aspose.PDF cho .NET. Nâng cao trải nghiệm xem trước tài liệu của bạn."
+"linktitle": "Tạo hình ảnh thu nhỏ trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo hình ảnh thu nhỏ trong tệp PDF"
+"url": "/vi/net/programming-with-images/create-thumbnail-images/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo hình ảnh thu nhỏ trong tệp PDF
@@ -23,7 +25,7 @@ Trước khi bắt đầu viết mã, bạn cần lưu ý một số điều ki�
 
 1. Kiến thức cơ bản về C# hoặc .NET: Sự quen thuộc với lập trình bằng C# sẽ giúp bạn hiểu mã tốt hơn khi chúng ta tiếp tục.
 2. Đã cài đặt Visual Studio: Bạn sẽ cần một IDE để viết và chạy mã của mình. Visual Studio là lựa chọn phổ biến cho phát triển .NET.
-3. Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/).
+3. Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/).
 4. Tệp PDF: Chuẩn bị một số tệp PDF trong thư mục làm việc được chỉ định để thử nghiệm.
 
 Bạn muốn bắt đầu ngay không? Tuyệt! Trước tiên hãy nhập các gói cần thiết.
@@ -51,7 +53,7 @@ Bước đầu tiên trong quy trình của chúng tôi là chỉ định đư�
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay thế bằng đường dẫn thư mục thực tế của bạn
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn nơi lưu trữ các tệp PDF của bạn. Bước này rất quan trọng vì nếu không có thư mục phù hợp, chương trình của bạn sẽ không tìm thấy các tệp PDF cần xử lý.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn nơi lưu trữ các tệp PDF của bạn. Bước này rất quan trọng vì nếu không có thư mục phù hợp, chương trình của bạn sẽ không tìm thấy các tệp PDF cần xử lý.
 
 ## Bước 2: Lấy tên tệp PDF
 
@@ -61,7 +63,7 @@ Tiếp theo, bạn sẽ muốn lấy tên của tất cả các tệp PDF trong 
 string[] fileEntries = Directory.GetFiles(dataDir, "*.pdf");
 ```
 
- Ở đây, chúng tôi sử dụng`Directory.GetFiles` phương pháp lọc và chỉ lấy các tệp PDF.`*.pdf` ký tự đại diện đảm bảo chúng tôi lấy mọi tệp PDF trong thư mục đã chỉ định. 
+Ở đây, chúng tôi sử dụng `Directory.GetFiles` phương pháp lọc và chỉ lấy các tệp PDF. `*.pdf` ký tự đại diện đảm bảo chúng tôi lấy mọi tệp PDF trong thư mục đã chỉ định. 
 
 ## Bước 3: Lặp lại qua từng tệp PDF
 
@@ -74,7 +76,7 @@ for (int counter = 0; counter < fileEntries.Length; counter++)
 }
 ```
 
- Trong vòng lặp này,`counter` theo dõi tập tin nào chúng ta đang làm việc.`Document` lớp được sử dụng để mở từng tệp PDF. Bạn sẽ xử lý từng tệp PDF một để tạo hình thu nhỏ từ các trang của tệp đó.
+Trong vòng lặp này, `counter` theo dõi tập tin nào chúng ta đang làm việc. `Document` lớp được sử dụng để mở từng tệp PDF. Bạn sẽ xử lý từng tệp PDF một để tạo hình thu nhỏ từ các trang của tệp đó.
 
 ## Bước 4: Tạo hình thu nhỏ cho từng trang
 
@@ -89,7 +91,7 @@ using (FileStream imageStream = new FileStream(dataDir + "\\Thumbanils" + counte
 {
 ```
 
- Ở đây, chúng tôi tạo một tệp JPG mới cho mỗi hình thu nhỏ bằng cách sử dụng`FileStream`Tên tệp bao gồm bộ đếm để mỗi hình thu nhỏ có một tên duy nhất.
+Ở đây, chúng tôi tạo một tệp JPG mới cho mỗi hình thu nhỏ bằng cách sử dụng `FileStream`. Tên tệp bao gồm bộ đếm để mỗi hình thu nhỏ có một tên duy nhất.
 
 ### Bước 4.2: Xác định độ phân giải
 
@@ -103,7 +105,7 @@ Resolution resolution = new Resolution(300);
 
 ### Bước 4.3: Thiết lập JpegDevice
 
- Bây giờ, chúng ta sẽ thiết lập`JpegDevice` sẽ được sử dụng để chuyển đổi các trang PDF thành hình ảnh.
+Bây giờ, chúng ta sẽ thiết lập `JpegDevice` sẽ được sử dụng để chuyển đổi các trang PDF thành hình ảnh.
 
 ```csharp
 JpegDevice jpegDevice = new JpegDevice(45, 59, resolution, 100);
@@ -119,7 +121,7 @@ Khi mọi thứ đã sẵn sàng, giờ đây chúng ta có thể xử lý từn
 jpegDevice.Process(pdfDocument.Pages[pageCount], imageStream);
 ```
 
- Dòng này lấy trang cụ thể từ PDF và xử lý nó thành định dạng JPEG, đưa trực tiếp vào`imageStream`nơi chúng ta sẽ lưu trữ hình thu nhỏ.
+Dòng này lấy trang cụ thể từ PDF và xử lý nó thành định dạng JPEG, đưa trực tiếp vào `imageStream` nơi chúng ta sẽ lưu trữ hình thu nhỏ.
 
 ### Bước 4.5: Đóng luồng
 
@@ -141,7 +143,7 @@ Tạo hình thu nhỏ cho tệp PDF có thể cải thiện đáng kể cách ng
 Aspose.PDF là một thư viện mạnh mẽ để làm việc với các tài liệu PDF trong các ứng dụng .NET, cho phép tạo, chỉnh sửa và chuyển đổi.
 
 ### Thư viện Aspose.PDF có miễn phí không?  
- Aspose.PDF là một sản phẩm thương mại, nhưng bạn có thể tải xuống bản dùng thử miễn phí từ[trang web](https://releases.aspose.com/).
+Aspose.PDF là một sản phẩm thương mại, nhưng bạn có thể tải xuống bản dùng thử miễn phí từ [trang web](https://releases.aspose.com/).
 
 ### Tôi có thể tùy chỉnh kích thước hình thu nhỏ không?  
 Có, bạn có thể thay đổi các tham số chiều rộng và chiều cao trong hàm tạo JpegDevice để điều chỉnh kích thước hình thu nhỏ.
@@ -150,10 +152,12 @@ Có, bạn có thể thay đổi các tham số chiều rộng và chiều cao t
 Có, các tệp lớn hơn có thể mất nhiều thời gian xử lý hơn tùy thuộc vào độ phân giải và số trang; việc tối ưu hóa các thông số này có thể giúp cải thiện hiệu suất.
 
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ ở đâu?  
- Bạn có thể tìm thấy nhiều tài nguyên và hỗ trợ cộng đồng hơn trên[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm thấy nhiều tài nguyên và hỗ trợ cộng đồng hơn trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

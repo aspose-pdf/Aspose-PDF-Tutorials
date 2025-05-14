@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'de Metin Bloğu Yapı Elemanları
-linktitle: Java kullanarak PDF'de Metin Bloğu Yapı Elemanları
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java'da PDF Metin Bloğu Yapı Elemanlarında Ustalaşma - Java için Aspose.PDF'yi kullanarak adım adım kılavuz.
-weight: 13
-url: /tr/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-java/
+"description": "Java'da PDF Metin Bloğu Yapı Elemanlarında Ustalaşma - Java için Aspose.PDF'yi kullanarak adım adım kılavuz."
+"linktitle": "Java kullanarak PDF'de Metin Bloğu Yapı Elemanları"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'de Metin Bloğu Yapı Elemanları"
+"url": "/tr/java/pdf-structure-elements/text-block-structure-elements-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'de Metin Bloğu Yapı Elemanları
@@ -33,9 +35,9 @@ Metin blokları, yazı tipi boyutu, stil ve renk gibi ortak özellikleri paylaş
 
 ### Adım 1: Java Ortamınızı Kurun
 
-Java'da PDF'lerle çalışmadan önce, gerekli araçların ve kütüphanelerin yüklü olduğundan emin olun. PDF düzenleme için güçlü bir kütüphane olan Aspose.PDF for Java'yı kullanabilirsiniz. İşte nasıl kuracağınız:
+Java'da PDF'lerle çalışmadan önce, gerekli araçların ve kütüphanelerin yüklü olduğundan emin olun. PDF düzenleme için güçlü bir kütüphane olan Java için Aspose.PDF'yi kullanabilirsiniz. İşte nasıl kuracağınız:
 
-1.  Java için Aspose.PDF'yi şuradan indirin:[Burada](https://releases.aspose.com/pdf/java/).
+1. Java için Aspose.PDF'yi şuradan indirin: [Burada](https://releases.aspose.com/pdf/java/).
 2. Kütüphaneyi Java projenize ekleyin.
 
 ### Adım 2: Bir PDF Belgesi Yükleyin
@@ -91,10 +93,12 @@ Aspose.PDF for Java'yı kullanarak, yazı tipi boyutu, stili ve rengi gibi metin
 
 ### Java için Aspose.PDF hakkında daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Java için Aspose.PDF'e ilişkin kapsamlı belgelere ve kaynaklara şu adresten erişebilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin kapsamlı belgelere ve kaynaklara şu adresten erişebilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

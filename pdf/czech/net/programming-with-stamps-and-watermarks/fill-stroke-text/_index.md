@@ -1,36 +1,38 @@
 ---
-title: Vyplnit text tahu v souboru PDF
-linktitle: Vyplnit text tahu v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak bez námahy vyplnit text tahu v souborech PDF pomocí Aspose.PDF for .NET, pomocí tohoto podrobného průvodce plného praktických příkladů.
-weight: 90
-url: /cs/net/programming-with-stamps-and-watermarks/fill-stroke-text/
+"description": "Naučte se, jak snadno vyplnit text tahů v souborech PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem plným praktických příkladů."
+"linktitle": "Vyplňte text tahu v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Vyplňte text tahu v souboru PDF"
+"url": "/cs/net/programming-with-stamps-and-watermarks/fill-stroke-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vyplnit text tahu v souboru PDF
+# Vyplňte text tahu v souboru PDF
 
 ## Zavedení
 
-Chtěli jste někdy upravit soubor PDF, aby vynikl? Možná budete muset přidat výrazný vodoznak nebo výrazné razítko, díky kterému bude důležitý dokument nezaměnitelně váš. S Aspose.PDF for .NET můžete snadno vyplnit text tahu v souboru PDF a přidat umělecký vkus, který upoutá pozornost. V dnešním tutoriálu si projdeme proces, jak toho dosáhnout – vyplňování textu tahu do PDF pomocí C#. Na konci budete mít solidní přehled o tom, jak manipulovat se soubory PDF jako profesionál.
+Chtěli jste někdy upravit PDF soubor, aby vynikl? Možná potřebujete přidat výrazný vodoznak nebo tučné razítko, díky kterému bude důležitý dokument nezaměnitelně váš. S Aspose.PDF pro .NET můžete snadno vyplnit text tahů v PDF souboru a dodat mu umělecký nádech, který upoutá pozornost. V dnešním tutoriálu si ukážeme proces, jak toho dosáhnout – vyplnit text tahů v PDF pomocí C#. Na konci budete mít solidní představu o tom, jak manipulovat se soubory PDF jako profesionál.
 
 ## Předpoklady
 
-Než se ponoříme do kódování, je potřeba mít připraveno několik věcí, aby byl tento tutoriál hračkou:
+Než se pustíme do kódování, je tu několik věcí, které budete potřebovat, aby byl tento tutoriál hračka:
 
-1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio, protože budeme psát kód C#.
-2.  Knihovna Aspose.PDF: Ujistěte se, že jste si stáhli knihovnu Aspose.PDF pro .NET. Můžeš to chytit[zde](https://releases.aspose.com/pdf/net/).
-3. Základní znalost C#: Znalost programování v C# vám pomůže snáze pochopit tutoriál.
-4. Ukázkový soubor PDF: Budete potřebovat ukázkový soubor PDF (`input.pdf`pro testovací účely. Můžete vytvořit jednoduchý soubor nebo použít jakýkoli existující soubor PDF, který máte.
+1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio, protože budeme psát kód v jazyce C#.
+2. Knihovna Aspose.PDF: Ujistěte se, že jste si stáhli knihovnu Aspose.PDF pro .NET. Můžete si ji stáhnout [zde](https://releases.aspose.com/pdf/net/).
+3. Základní znalost C#: Znalost programování v C# vám pomůže snáze porozumět tutoriálu.
+4. Ukázkový soubor PDF: Budete potřebovat ukázkový soubor PDF (`input.pdf`) pro testovací účely. Můžete si vytvořit jednoduchý nebo použít jakýkoli existující PDF soubor, který máte.
 
-Nyní, když máme vše na svém místě, pojďme se pustit do hrubšího vyplňování textu tahu ve vašem souboru PDF.
+Nyní, když máme vše připravené, pojďme se pustit do detailů vyplňování textu tahů ve vašem PDF souboru.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, budeme muset importovat potřebné balíčky. Zde je stručný přehled základních importů pro náš projekt:
+Pro začátek budeme muset importovat potřebné balíčky. Zde je stručný přehled nezbytných importů pro náš projekt:
 
 ```csharp
 using Aspose.Pdf.Text;
@@ -42,18 +44,18 @@ using System.Text;
 
 Tyto balíčky nám umožní využívat robustní funkce knihovny Aspose.PDF.
 
-Rozdělme si hlavní úkol do jasných kroků. Pomocí těchto kroků můžete snadno vyplnit text tahu do souborů PDF. 
+Rozdělme si hlavní úkol do jasných kroků. Dodržováním těchto kroků můžete snadno vyplnit text tahů do souborů PDF. 
 
-## Krok 1: Nastavte své prostředí
+## Krok 1: Nastavení prostředí
 
-Nejprve se ujistěte, že máte vše správně nastaveno v projektu sady Visual Studio. Vytvořte nový projekt nebo vyberte existující. Pokud potřebujete pomoc, postupujte takto:
+Nejprve se ujistěte, že máte ve svém projektu Visual Studia vše správně nastaveno. Vytvořte nový projekt nebo vyberte existující. Pokud potřebujete pomoc, postupujte takto:
 
 1. Otevřete Visual Studio.
-2. Vytvořte nový projekt C# (např. Console Application).
-3. Klikněte pravým tlačítkem na projekt v Průzkumníku řešení a vyberte „Spravovat balíčky NuGet“.
-4.  Hledat`Aspose.PDF` a nainstalujte jej.
+2. Vytvořte nový projekt v C# (např. konzolovou aplikaci).
+3. Průzkumníku řešení klikněte pravým tlačítkem myši na projekt a vyberte možnost „Spravovat balíčky NuGet“.
+4. Hledat `Aspose.PDF` a nainstalujte ho.
 
-## Krok 2: Definujte svůj adresář dokumentů
+## Krok 2: Definujte adresář dokumentů
 
 Každá cesta potřebuje výchozí bod a v našem případě je to adresář dokumentů, kde budou umístěny vstupní a výstupní soubory. 
 
@@ -61,9 +63,9 @@ Každá cesta potřebuje výchozí bod a v našem případě je to adresář dok
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš vstupní soubor PDF. 
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš vstupní PDF soubor. 
 
-## Krok 3: Vytvořte objekt TextState
+## Krok 3: Vytvoření objektu TextState
 
 V tomto kroku začnete definovat vlastnosti textu, který chcete přidat. 
 
@@ -71,9 +73,9 @@ V tomto kroku začnete definovat vlastnosti textu, který chcete přidat.
 TextState ts = new TextState();
 ```
 
- The`TextState` objekt bude obsahovat možnosti stylů pro váš text tahu.
+Ten/Ta/To `TextState` Objekt bude obsahovat možnosti stylingu pro váš text tahu.
 
-## Krok 4: Nastavte barvu pro tah
+## Krok 4: Nastavení barvy pro tah
 
 Dále budete chtít definovat barvu tahu pro váš text. 
 
@@ -81,71 +83,71 @@ Dále budete chtít definovat barvu tahu pro váš text.
 ts.StrokingColor = Color.Gray;
 ```
 
-V tomto kódu používáme pro tah šedou barvu. Neváhejte změnit barvu podle svých potřeb!
+V tomto kódu používáme pro tah šedou barvu. Nebojte se změnit barvu podle svých potřeb!
 
-## Krok 5: Nakonfigurujte režim vykreslování
+## Krok 5: Konfigurace režimu vykreslování
 
-Chcete-li zajistit, aby se text zobrazoval podle očekávání, nastavte režim vykreslování:
+Aby se text zobrazoval správně, nastavte režim vykreslování:
 
 ```csharp
 ts.RenderingMode = TextRenderingMode.StrokeText;
 ```
 
-To dává knihovně Aspose pokyn, že pracujeme s textem tahu.
+Toto instruuje knihovnu Aspose, že pracujeme s textem tahů.
 
-## Krok 6: Načtěte svůj vstupní dokument PDF
+## Krok 6: Načtěte vstupní PDF dokument
 
-Nyní je čas načíst soubor PDF, který se chystáte upravit. 
+Nyní je čas načíst PDF soubor, který chcete upravit. 
 
 ```csharp
 Facades.PdfFileStamp fileStamp = new Facades.PdfFileStamp(new Aspose.Pdf.Document(dataDir + "input.pdf"));
 ```
 
-Ujistěte se, že jste zadali PDF (`input.pdf`se nachází v adresáři dokumentů definovaném v předchozích krocích.
+Ujistěte se, že váš vstupní PDF (`input.pdf`) se nachází v adresáři dokumentů definovaném v předchozích krocích.
 
 ## Krok 7: Vytvořte objekt razítka
 
-Dále vytvořte razítko, které bude držet text vašeho tahu. 
+Dále vytvořte razítko, které bude obsahovat text tahu. 
 
 ```csharp
 Aspose.Pdf.Facades.Stamp stamp = new Aspose.Pdf.Facades.Stamp();
 ```
 
-Toto razítko bude použito k překrytí vašeho textu na PDF.
+Toto razítko bude použito k překrytí textu v PDF.
 
-## Krok 8: Definujte text k razítku
+## Krok 8: Definujte text pro razítkování
 
-Budete muset určit, jaký text chcete do PDF přidat:
+Budete muset zadat, jaký text chcete do PDF přidat:
 
 ```csharp
 stamp.BindLogo(new Facades.FormattedText("PAID IN FULL", System.Drawing.Color.Gray, "Arial", Facades.EncodingType.Winansi, true, 78));
 ```
 
-Zde je text „ZAPLACENO V PLNÉM ROZSAHU“ doplněný spolu s jeho atributy stylu. Přizpůsobte si jej podle svých požadavků!
+Zde je text „PLNĚ ZAPLACENO“ spolu s jeho stylistickými atributy, který přidáváme. Upravte si ho podle svých požadavků!
 
-## Krok 9: Svažte stav textu
+## Krok 9: Vázání stavu textu
 
- Nyní svažte`TextState` jste definovali dříve k razítku. 
+Nyní svažte `TextState` které jste dříve definovali k razítku. 
 
 ```csharp
 stamp.BindTextState(ts);
 ```
 
-Tento krok aplikuje na váš text všechny styly, jako je barva a režim vykreslování.
+V tomto kroku se na text aplikují všechny styly, jako je barva a režim vykreslování.
 
-## Krok 10: Nastavte pozici razítka
+## Krok 10: Nastavení polohy razítka
 
-Určete, kde se vaše razítko v PDF objeví:
+Určete, kde se vaše razítko v PDF zobrazí:
 
 ```csharp
 stamp.SetOrigin(100, 100);
 ```
 
- Argumenty`(100, 100)` označte souřadnice X a Y (v bodech) pro počátek textu. Upravte tyto hodnoty tak, aby byl váš text dokonale umístěn!
+Argumenty `(100, 100)` Označte souřadnice X a Y (v bodech) pro počátek textu. Upravte tyto hodnoty pro perfektní umístění textu!
 
-## Krok 11: Nakonfigurujte neprůhlednost a rotaci
+## Krok 11: Konfigurace krytí a rotace
 
-Zde si můžete pohrát se vzhledem svého textu:
+Zde si můžete pohrát se vzhledem textu:
 
 ```csharp
 stamp.Opacity = 5;
@@ -153,17 +155,17 @@ stamp.BlendingSpace = Facades.BlendingColorSpace.DeviceRGB;
 stamp.Rotation = 45.0F;
 ```
 
-V tomto případě hodnota krytí a úhel otočení 45 stupňů dodají vašemu textu jedinečný šmrnc. Neváhejte a upravte tato nastavení pro různé efekty.
+V tomto případě hodnota neprůhlednosti a úhel natočení 45 stupňů dodají vašemu textu jedinečný šmrnc. Neváhejte tato nastavení upravit pro dosažení různých efektů.
 
-## Krok 12: Přidejte razítko do PDF
+## Krok 12: Přidání razítka do PDF
 
-Toto je zásadní krok, kdy konečně přidáme naše razítko, které obsahuje text tahu do PDF:
+Toto je klíčový krok, ve kterém konečně přidáme do PDF naše razítko, které obsahuje text tahu:
 
 ```csharp
 fileStamp.AddStamp(stamp);
 ```
 
-A stejně tak je váš text připraven k vyjádření!
+A váš text je připraven k tomu, aby zanechal dojem!
 
 ## Krok 13: Uložte a zavřete dokument
 
@@ -174,31 +176,33 @@ fileStamp.Save(dataDir + "output_out.pdf");
 fileStamp.Close();
 ```
 
- Váš nově upravený soubor PDF obsahující text tahu bude uložen jako`output_out.pdf` ve vašem adresáři dokumentů. 
+Váš nově upravený soubor PDF obsahující text tahu bude uložen jako `output_out.pdf` ve vašem adresáři dokumentů. 
 
 ## Závěr
 
-A tady to máte! Pomocí těchto jednoduchých kroků můžete snadno vyplnit text tahu v souboru PDF pomocí Aspose.PDF pro .NET. Ať už se jedná o obchodní dokumenty nebo osobní projekty, tato technika vám umožní dodat vašim PDF jedinečný nádech, díky čemuž vyniknou na jakémkoli stohu papírů.
+tady to máte! Pomocí těchto jednoduchých kroků můžete snadno vyplnit text v PDF souboru pomocí Aspose.PDF pro .NET. Ať už se jedná o obchodní dokumenty nebo osobní projekty, tato technika vám umožní dodat vašim PDF souborům jedinečný nádech, díky kterému vyniknou v jakékoli hromadě papírů.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory PDF programově.
+Aspose.PDF pro .NET je knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět soubory PDF.
 
 ### Mohu používat Aspose.PDF zdarma?
-Ano, Aspose nabízí bezplatnou zkušební verzi. Můžete to získat[zde](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi. Můžete si ji zakoupit. [zde](https://releases.aspose.com/).
 
-### Musím za licenci platit?
- Zatímco knihovna má bezplatnou zkušební verzi, dočasnou licenci lze také zakoupit na[tento odkaz](https://purchase.aspose.com/temporary-license/).
+### Musím platit za licenci?
+I když knihovna nabízí bezplatnou zkušební verzi, lze si také zakoupit dočasnou licenci na adrese [tento odkaz](https://purchase.aspose.com/temporary-license/).
 
 ### Kde najdu dokumentaci?
- Máte přístup ke kompletní dokumentaci[zde](https://reference.aspose.com/pdf/net/).
+K úplné dokumentaci máte přístup [zde](https://reference.aspose.com/pdf/net/).
 
 ### Je k dispozici podpora, pokud narazím na problémy?
- Absolutně! Podporu můžete získat na fóru Aspose[zde](https://forum.aspose.com/c/pdf/10).
+Rozhodně! Podporu můžete získat na fóru Aspose. [zde](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

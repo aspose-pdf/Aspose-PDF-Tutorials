@@ -1,28 +1,30 @@
 ---
-title: Pobierz współrzędne pola formularza PDF
-linktitle: Pobierz współrzędne pola formularza PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Odblokuj manipulację PDF za pomocą Aspose.PDF dla .NET! Dowiedz się, jak pobrać współrzędne pól formularza w kilku prostych krokach.
-weight: 120
-url: /pl/net/programming-with-forms/get-coordinates/
+"description": "Odblokuj manipulację PDF za pomocą Aspose.PDF dla .NET! Dowiedz się, jak pobrać współrzędne pól formularza w kilku prostych krokach."
+"linktitle": "Pobierz współrzędne pola formularza PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz współrzędne pola formularza PDF"
+"url": "/pl/net/programming-with-forms/get-coordinates/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz współrzędne pola formularza PDF
 
 ## Wstęp
 
-dzisiejszym cyfrowym krajobrazie interakcja z dokumentami PDF jest niezbędnym wymogiem zarówno dla firm, jak i osób prywatnych. Niezależnie od tego, czy tworzysz, edytujesz, czy manipulujesz plikami PDF, posiadanie odpowiednich narzędzi pod ręką robi całą różnicę. Jednym z tych potężnych narzędzi jest Aspose.PDF dla .NET, solidna biblioteka, która umożliwia programistom bezproblemową pracę z plikami PDF. W tym samouczku zagłębimy się w sposób pobierania współrzędnych pól formularza PDF za pomocą tej biblioteki. Pod koniec tego przewodnika będziesz wyposażony w wiedzę, która pozwoli Ci udoskonalić umiejętności obsługi plików PDF i dodać więcej wszechstronności do Twoich aplikacji.
+W dzisiejszym cyfrowym krajobrazie interakcja z dokumentami PDF jest niezbędnym wymogiem zarówno dla firm, jak i osób prywatnych. Niezależnie od tego, czy tworzysz, edytujesz, czy manipulujesz plikami PDF, posiadanie odpowiednich narzędzi pod ręką robi całą różnicę. Jednym z tych potężnych narzędzi jest Aspose.PDF dla .NET, solidna biblioteka, która umożliwia programistom bezproblemową pracę z plikami PDF. W tym samouczku zagłębimy się w sposób pobierania współrzędnych pól formularza PDF za pomocą tej biblioteki. Pod koniec tego przewodnika będziesz wyposażony w wiedzę, która pozwoli Ci udoskonalić umiejętności obsługi plików PDF i dodać więcej wszechstronności do Twoich aplikacji.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby śledzić. Oto, czego będziemy potrzebować:
 
 1. Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest niezbędna, ponieważ będziemy posługiwać się tym językiem w całym kursie.
-2.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 3. Visual Studio lub dowolne środowisko IDE języka C#: Będziesz potrzebować środowiska IDE, aby pisać i testować kod.
 4. Przykładowy plik PDF z polami formularza: Aby przetestować kod, przygotuj przykładowy plik PDF. Ten dokument powinien zawierać pola przycisków radiowych, aby pokazać, jak uzyskać ich współrzędne.
 
@@ -34,7 +36,7 @@ Aby rozpocząć pracę z Aspose.PDF dla .NET, musisz najpierw zaimportować niez
 
 ### Skonfiguruj swój projekt
 
-Otwórz swoje ulubione środowisko IDE języka C# (np. Visual Studio) i utwórz nowy projekt. Wybierz aplikację konsolową, aby ułatwić testowanie naszego kodu.
+Otwórz swoje ulubione środowisko IDE C# (np. Visual Studio) i utwórz nowy projekt. Wybierz aplikację konsolową, aby ułatwić testowanie naszego kodu.
 
 ### Zainstaluj Aspose.PDF przez NuGet
 
@@ -69,13 +71,13 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zaktualizuj to swoją rzeczywist�
 Używając ścieżki zdefiniowanej powyżej, załadujesz teraz dokument PDF do instancji klasy Document. Dzięki temu uzyskasz dostęp do jego zawartości, w tym pól formularza.
 
 ```csharp
-// Załaduj dokument wyjściowy
+// Załaduj dokument wyjściowy 
 Document doc1 = new Document(dataDir + "input.pdf");
 ```
 
 ## Krok 3: Znajdź dodane pola
 
- Następnie pobierzmy pola przycisków radiowych z pliku PDF. W tym celu przerzucimy pola formularza z dokumentu do`RadioButtonField` Typy.
+Następnie pobierzmy pola przycisków radiowych z pliku PDF. W tym celu przerzucimy pola formularza z dokumentu do `RadioButtonField` Typy.
 
 ```csharp
 // Znajdź dodane pola
@@ -91,14 +93,14 @@ Upewnij się, że nazwy „Item1”, „Item2” i „Item3” odpowiadają nazw
 Teraz nadchodzi ekscytująca część — uzyskanie współrzędnych opcji przycisków radiowych. Każdy przycisk radiowy może mieć wiele opcji, więc przejdziemy przez te opcje, aby wyświetlić ich prostokąty.
 
 ```csharp
-// I pokaż pozycje podelementów dla każdego z nich.
+// I pokaż pozycje podelementów dla każdego z nich. 
 foreach (RadioButtonOptionField option in field0)
 {
     Console.WriteLine(option.Rect);
 }
 ```
 
- Powtórz tę pętlę dla`field1` I`field2` aby mieć pewność, że wszystkie opcje przycisków radiowych zostały uwzględnione:
+Powtórz tę pętlę dla `field1` I `field2` aby mieć pewność, że wszystkie opcje przycisków radiowych zostały uwzględnione:
 
 ```csharp
 foreach (RadioButtonOptionField option in field1)
@@ -133,7 +135,7 @@ Pomoże to w debugowaniu wszelkich problemów, które mogą wystąpić podczas p
 
 ## Wniosek
 
-Gratulacje! Udało Ci się pomyślnie przejść przez podstawowe kroki pobierania współrzędnych pól formularza PDF przy użyciu Aspose.PDF dla .NET. Dzięki zrozumieniu, jak programowo pracować z dokumentami PDF, otwierasz zupełnie nowe możliwości automatyzacji procesów zarządzania dokumentami. Pamiętaj, że najważniejsze to upewnienie się, że masz odpowiednią bibliotekę, znajomość struktury dokumentu i wykorzystanie obsługi błędów do tworzenia solidnych aplikacji. Teraz nadszedł czas, abyś poeksperymentował dalej i odkrył dodatkowe możliwości biblioteki Aspose.PDF!
+Gratulacje! Udało Ci się pomyślnie przejść przez podstawowe kroki pobierania współrzędnych pól formularza PDF przy użyciu Aspose.PDF dla .NET. Rozumiejąc, jak programowo pracować z dokumentami PDF, otwierasz zupełnie nowe możliwości automatyzacji procesów zarządzania dokumentami. Pamiętaj, że najważniejsze to upewnienie się, że masz odpowiednią bibliotekę, znajomość struktury dokumentu i wykorzystanie obsługi błędów do tworzenia solidnych aplikacji. Teraz nadszedł czas, abyś poeksperymentował dalej i odkrył dodatkowe możliwości biblioteki Aspose.PDF!
 
 ## Najczęściej zadawane pytania
 
@@ -141,19 +143,21 @@ Gratulacje! Udało Ci się pomyślnie przejść przez podstawowe kroki pobierani
 Aspose.PDF for .NET to biblioteka umożliwiająca programistom tworzenie, modyfikowanie i przetwarzanie dokumentów PDF w aplikacjach .NET.
 
 ### Jak pobrać plik Aspose.PDF dla platformy .NET?
- Można go pobrać ze strony[link do pobrania](https://releases.aspose.com/pdf/net/).
+Można go pobrać ze strony [link do pobrania](https://releases.aspose.com/pdf/net/).
 
 ### Czy mogę wypróbować Aspose.PDF za darmo?
- Tak! Możesz wypróbować za darmo odwiedzając[strona z bezpłatną wersją próbną](https://releases.aspose.com/).
+Tak! Możesz wypróbować za darmo odwiedzając [strona z bezpłatną wersją próbną](https://releases.aspose.com/).
 
 ### Jakie są wymagania systemowe dla Aspose.PDF?
- Aspose.PDF jest zgodny z aplikacjami .NET Framework i .NET Core. Aby zapoznać się ze szczegółowymi wymaganiami, zapoznaj się z[dokumentacja](https://reference.aspose.com/pdf/net/).
+Aspose.PDF jest zgodny z aplikacjami .NET Framework i .NET Core. Aby zapoznać się ze szczegółowymi wymaganiami, zapoznaj się z [dokumentacja](https://reference.aspose.com/pdf/net/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.PDF?
- Wsparcie i zadawanie pytań można znaleźć w Aspose[forum wsparcia](https://forum.aspose.com/c/pdf/10).
+Wsparcie i zadawanie pytań można znaleźć w Aspose [forum wsparcia](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

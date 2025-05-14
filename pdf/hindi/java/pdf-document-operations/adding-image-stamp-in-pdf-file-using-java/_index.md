@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ फाइल में इमेज स्टैम्प जोड़ना
-linktitle: जावा का उपयोग करके पीडीएफ फाइल में इमेज स्टैम्प जोड़ना
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: इस व्यापक Aspose.PDF for Java ट्यूटोरियल के साथ जावा का उपयोग करके पीडीएफ फाइलों में छवि स्टैम्प जोड़ना सीखें।
-weight: 12
-url: /hi/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/
+"description": "इस व्यापक Aspose.PDF for Java ट्यूटोरियल के साथ जावा का उपयोग करके पीडीएफ फाइलों में छवि स्टैम्प जोड़ना सीखें।"
+"linktitle": "जावा का उपयोग करके पीडीएफ फाइल में इमेज स्टैम्प जोड़ना"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ फाइल में इमेज स्टैम्प जोड़ना"
+"url": "/hi/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ फाइल में इमेज स्टैम्प जोड़ना
@@ -48,10 +50,10 @@ Document pdfDocument = new Document();
 
 ## चरण 4: एक छवि स्टाम्प जोड़ें
 
-पीडीएफ दस्तावेज़ में इमेज स्टैम्प जोड़ने के लिए, आपको स्टैम्प के रूप में उपयोग करने के लिए एक इमेज फ़ाइल की आवश्यकता होगी। आप इसे इस प्रकार कर सकते हैं:
+पीडीएफ दस्तावेज़ में इमेज स्टैम्प जोड़ने के लिए, आपको स्टैम्प के रूप में उपयोग करने के लिए एक इमेज फ़ाइल की आवश्यकता होगी। आप यह कैसे कर सकते हैं:
 
 ```java
-// छवि स्टैम्प जोड़ने के लिए कोड
+// छवि स्टाम्प जोड़ने के लिए कोड
 Stamp stamp = new Stamp();
 stamp.bindImage("path/to/your/image.png");
 pdfDocument.getPages().get_Item(1).addStamp(stamp);
@@ -63,7 +65,7 @@ pdfDocument.getPages().get_Item(1).addStamp(stamp);
 
 ## चरण 6: पीडीएफ दस्तावेज़ सहेजें
 
-छवि स्टाम्प जोड़ने के बाद, संशोधित पीडीएफ दस्तावेज़ को फ़ाइल में सहेजें।
+छवि स्टैम्प जोड़ने के बाद, संशोधित पीडीएफ दस्तावेज़ को फ़ाइल में सहेजें।
 
 ```java
 // पीडीएफ दस्तावेज़ को सहेजने के लिए कोड
@@ -94,10 +96,12 @@ Aspose.PDF for Java स्टैम्पिंग के लिए PNG, JPEG, G
 
 ### मैं Java के लिए Aspose.PDF के अधिक उदाहरण और दस्तावेज़ कहां पा सकता हूं?
 
-आप Aspose.PDF for Java वेबसाइट पर विस्तृत दस्तावेज और उदाहरण पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/java/.)
+आप Aspose.PDF for Java वेबसाइट पर विस्तृत दस्तावेज और उदाहरण पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/java/.)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

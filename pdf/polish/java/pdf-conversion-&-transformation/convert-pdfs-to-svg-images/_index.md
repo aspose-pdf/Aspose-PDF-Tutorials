@@ -1,14 +1,16 @@
 ---
-title: Konwertuj pliki PDF na obrazy SVG
-linktitle: Konwertuj pliki PDF na obrazy SVG
-second_title: Aspose.PDF Java PDF Processing API
-description: Konwertuj pliki PDF do obrazów SVG przy użyciu Aspose.PDF dla Java — przewodnik krok po kroku dotyczący płynnej konwersji plików PDF do SVG za pomocą Aspose.PDF dla Java.
-weight: 20
-url: /pl/java/pdf-conversion-transformation/convert-pdfs-to-svg-images/
+"description": "Konwertuj pliki PDF do obrazów SVG przy użyciu Aspose.PDF dla Java — przewodnik krok po kroku dotyczący płynnej konwersji plików PDF do SVG za pomocą Aspose.PDF dla Java."
+"linktitle": "Konwertuj pliki PDF na obrazy SVG"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Konwertuj pliki PDF na obrazy SVG"
+"url": "/pl/java/pdf-conversion-transformation/convert-pdfs-to-svg-images/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj pliki PDF na obrazy SVG
@@ -37,7 +39,7 @@ Zanim przejdziemy do procesu konwersji, upewnij się, że spełnione są następ
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
 - Zintegrowane środowisko programistyczne (IDE), takie jak Eclipse lub IntelliJ IDEA.
--  Aspose.PDF dla biblioteki Java. Możesz pobrać ją z[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla biblioteki Java. Możesz pobrać ją z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Konfigurowanie środowiska Java
 
@@ -110,7 +112,7 @@ W tym artykule dowiedzieliśmy się, jak konwertować pliki PDF na obrazy SVG za
 
 ### Jak zainstalować Aspose.PDF dla Java?
 
- Możesz pobrać Aspose.PDF dla Javy ze strony[Tutaj](https://releases.aspose.com/pdf/java/). Postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
+Możesz pobrać Aspose.PDF dla Javy ze strony [Tutaj](https://releases.aspose.com/pdf/java/). Postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
 
 ### Czy mogę konwertować pliki PDF do innych formatów przy użyciu Aspose.PDF dla Java?
 
@@ -122,14 +124,16 @@ Aspose.PDF for Java to komercyjna biblioteka z dostępną wersją próbną. Moż
 
 ### Jak mogę dostosować plik wyjściowy SVG?
 
- Możesz dostosować wyjście SVG, konfigurując`SvgSaveOptions`Zapoznaj się z dokumentacją, aby uzyskać listę dostępnych opcji.
+Możesz dostosować wyjście SVG, konfigurując `SvgSaveOptions`. Zapoznaj się z dokumentacją, aby uzyskać listę dostępnych opcji.
 
 ### Czy Aspose.PDF dla Java nadaje się do przetwarzania wsadowego plików PDF?
 
 Tak, Aspose.PDF dla Java doskonale nadaje się do przetwarzania wsadowego plików PDF, co usprawnia obsługę wielu dokumentów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

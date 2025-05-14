@@ -8,7 +8,9 @@ url: /java/pdf-tables/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Tables
@@ -35,9 +37,11 @@ Learn how to hide spanned cell borders in PDF using Java with step-by-step Aspos
 Learn how to manipulate PDF tables using Java with Aspose.PDF for Java. This step-by-step guide covers table extraction, modification, and more for effective PDF handling.
 ### [Remove Tables from Existing PDF using Java](./remove-tables-from-existing-pdf-using-java/)
 Learn how to easily remove tables from PDFs using Java with Aspose.PDF for Java. Step-by-step guide for efficient table removal.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

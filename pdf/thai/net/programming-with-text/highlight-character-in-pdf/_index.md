@@ -1,28 +1,30 @@
 ---
-title: เน้นตัวอักษรในไฟล์ PDF
-linktitle: เน้นตัวอักษรในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้การเน้นอักขระใน PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-weight: 240
-url: /th/net/programming-with-text/highlight-character-in-pdf/
+"description": "เรียนรู้การเน้นอักขระใน PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "เน้นตัวอักษรในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "เน้นตัวอักษรในไฟล์ PDF"
+"url": "/th/net/programming-with-text/highlight-character-in-pdf/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เน้นตัวอักษรในไฟล์ PDF
 
 ## การแนะนำ
 
-เมื่อต้องทำงานกับ PDF มักจะต้องเน้นข้อความหรืออักขระ ไม่ว่าจะเพื่อวัตถุประสงค์ทางวิชาการ การแก้ไข หรือเพียงแค่การปรับปรุงการอ่าน ลองนึกภาพว่าคุณมีเอกสารที่สวยงาม แต่คุณต้องการเน้นเฉพาะบางส่วน นั่นคือจุดที่การเน้นมีความสำคัญ! ในบทช่วยสอนนี้ เราจะเจาะลึกถึงวิธีการเน้นอักขระในไฟล์ PDF โดยใช้ไลบรารี Aspose.PDF สำหรับ .NET ที่มีประสิทธิภาพ 
+เมื่อต้องทำงานกับ PDF มักจะต้องเน้นข้อความหรืออักขระ ไม่ว่าจะเพื่อวัตถุประสงค์ทางวิชาการ การแก้ไข หรือเพียงแค่การปรับปรุงการอ่าน ลองนึกภาพว่าคุณมีเอกสารที่สวยงาม แต่คุณต้องการเน้นเฉพาะบางส่วน นั่นคือจุดที่การเน้นเข้ามามีบทบาท! ในบทช่วยสอนนี้ เราจะเจาะลึกถึงวิธีการเน้นอักขระในไฟล์ PDF โดยใช้ไลบรารี Aspose.PDF สำหรับ .NET ที่มีประสิทธิภาพ 
 
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกอย่างที่จำเป็นแล้ว นี่คือสิ่งที่คุณต้องการ:
 
 1. สภาพแวดล้อมการพัฒนา: บทช่วยสอนนี้ถือว่าคุณกำลังทำงานใน Visual Studio หรือ .NET IDE ที่คล้ายกัน
-2.  Aspose.PDF สำหรับไลบรารี .NET: หากคุณยังไม่ได้ทำ คุณสามารถทำได้[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/pdf/net/) และเพิ่มมันลงในโครงการของคุณ 
+2. Aspose.PDF สำหรับไลบรารี .NET: หากคุณยังไม่ได้ทำ คุณสามารถทำได้ [ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/pdf/net/) และเพิ่มมันลงในโครงการของคุณ 
 3. ความรู้พื้นฐานเกี่ยวกับ C#: คู่มือเบื้องต้นในการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจการใช้งานได้อย่างง่ายดาย
 4. เอกสาร PDF: คุณควรมีไฟล์ PDF ตัวอย่างพร้อมใช้งาน คุณสามารถสร้างไฟล์ขึ้นมาเองหรือใช้เอกสารที่มีอยู่แล้วก็ได้
 
@@ -52,7 +54,7 @@ using System.Drawing;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // ตรวจสอบให้แน่ใจว่าคุณตั้งค่าเส้นทางที่ถูกต้อง
 Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(dataDir + "input.pdf");
 ```
-ในสคริปท์นี้ ให้แทนที่`YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางจริงบนเครื่องของคุณซึ่งไฟล์ PDF ที่คุณป้อนอยู่`Aspose.Pdf.Document` คลาสจะถูกสร้างตัวอย่างเพื่อโหลด PDF ของคุณ
+ในสคริปท์นี้ ให้แทนที่ `YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางจริงบนเครื่องของคุณซึ่งไฟล์ PDF ที่คุณป้อนอยู่ `Aspose.Pdf.Document` คลาสจะถูกสร้างตัวอย่างเพื่อโหลด PDF ของคุณ
 
 ## ขั้นตอนที่ 2: ตั้งค่ากระบวนการเรนเดอร์
 
@@ -67,7 +69,7 @@ using (MemoryStream ms = new MemoryStream())
     conv.GetNextImage(ms, System.Drawing.Imaging.ImageFormat.Png);
     Bitmap bmp = (Bitmap)Bitmap.FromStream(ms);
 ```
- เรากำหนดความละเอียดเพื่อความชัดเจน ช่วยให้สามารถแสดงข้อความได้อย่างถูกต้อง`PdfConverter`เปลี่ยนหน้า PDF ให้เป็นรูปภาพเพื่อให้เราสามารถวาดบนนั้นได้
+เรากำหนดความละเอียดเพื่อความชัดเจน ช่วยให้สามารถแสดงข้อความได้อย่างถูกต้อง `PdfConverter` เปลี่ยนหน้า PDF ให้เป็นรูปภาพเพื่อให้เราสามารถวาดบนนั้นได้
 
 ## ขั้นตอนที่ 3: สร้างวัตถุกราฟิกสำหรับการวาดภาพ
 
@@ -93,11 +95,11 @@ for (int i = 0; i < pdfDocument.Pages.Count; i++)
     textFragmentAbsorber.TextSearchOptions.IsRegularExpressionUsed = true;
     page.Accept(textFragmentAbsorber);
 ```
- เราเข้าถึงแต่ละหน้าและค้นหาข้อความทั้งหมดโดยใช้`TextFragmentAbsorber` รูปแบบนิพจน์ปกติ`@"[\S]+"` จับอักขระที่ไม่ใช่ช่องว่างทั้งหมด
+เราเข้าถึงแต่ละหน้าและค้นหาข้อความทั้งหมดโดยใช้ `TextFragmentAbsorber`. รูปแบบนิพจน์ปกติ `@"[\S]+"` จับอักขระที่ไม่ใช่ช่องว่างทั้งหมด
 
 ## ขั้นตอนที่ 5: แยกส่วนข้อความและเน้นข้อความ
 
-ตอนนี้ถึงเวลาแยกข้อความบางส่วนและเน้นข้อความเหล่านั้น ขั้นตอนนี้เกี่ยวข้องกับการวาดรูปสี่เหลี่ยมผืนผ้ารอบตัวอักษรที่เราต้องการเน้น:
+ตอนนี้ถึงเวลาแยกส่วนข้อความและเน้นข้อความแล้ว ขั้นตอนนี้เกี่ยวข้องกับการวาดรูปสี่เหลี่ยมผืนผ้ารอบตัวอักษรที่เราต้องการเน้น:
 
 ```csharp
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
@@ -139,7 +141,7 @@ bmp.Save(dataDir, System.Drawing.Imaging.ImageFormat.Png);
 ```csharp
 catch (Exception ex)
 {
-    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://buy.aspose.com/temporary-license/)");
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://purchase.aspose.com/temporary-license/).");
 }
 ```
 
@@ -164,10 +166,12 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช
 ใช่ ต้องมีใบอนุญาตที่ถูกต้องสำหรับการใช้งานเชิงพาณิชย์ แต่คุณสามารถขอใบอนุญาตชั่วคราว 30 วันเพื่อการทดสอบได้
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถอ้างอิงได้จาก[เอกสาร Aspose.PDF](https://reference.aspose.com/pdf/net/) เพื่อดูข้อมูลโดยละเอียดเพิ่มเติมเกี่ยวกับการใช้งานและคุณสมบัติ
+คุณสามารถอ้างอิงได้จาก [เอกสาร Aspose.PDF](https://reference.aspose.com/pdf/net/) เพื่อดูข้อมูลโดยละเอียดเพิ่มเติมเกี่ยวกับการใช้งานและคุณสมบัติ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

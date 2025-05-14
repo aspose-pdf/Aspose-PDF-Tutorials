@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Tagged PDF Document with Aspose.PDF for Java
 
@@ -187,7 +189,11 @@ Ready to dive deeper? Check out our resources below!
 - **Free Trial**: [Try Aspose PDF](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Community Support](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

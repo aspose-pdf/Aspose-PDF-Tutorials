@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Tujuan Hyperlink PDF menggunakan Java
-linktitle: Dapatkan Tujuan Hyperlink PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Temukan cara mengambil tujuan hyperlink PDF menggunakan Java dengan Aspose.PDF untuk Java. Pelajari langkah demi langkah dengan contoh kode dalam tutorial komprehensif ini.
-weight: 10
-url: /id/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
+"description": "Temukan cara mengambil tujuan hyperlink PDF menggunakan Java dengan Aspose.PDF untuk Java. Pelajari langkah demi langkah dengan contoh kode dalam tutorial komprehensif ini."
+"linktitle": "Dapatkan Tujuan Hyperlink PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Dapatkan Tujuan Hyperlink PDF menggunakan Java"
+"url": "/id/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Tujuan Hyperlink PDF menggunakan Java
@@ -32,7 +34,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 ## Menyiapkan Aspose.PDF untuk Java
 
 Untuk memulai, Anda perlu menyiapkan Aspose.PDF untuk Java di proyek Anda. Ikuti langkah-langkah berikut:
-1.  Unduh Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+1. Unduh Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 2. Tambahkan pustaka Aspose.PDF ke proyek Java Anda.
 
 ## Memuat Dokumen PDF
@@ -74,7 +76,7 @@ Dalam tutorial ini, kita telah mempelajari cara mendapatkan tujuan hyperlink PDF
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Untuk menginstal Aspose.PDF untuk Java, unduh pustaka dari[Di Sini](https://releases.aspose.com/pdf/java/) dan menambahkannya ke dependensi proyek Java Anda.
+Untuk menginstal Aspose.PDF untuk Java, unduh pustaka dari [Di Sini](https://releases.aspose.com/pdf/java/) dan menambahkannya ke dependensi proyek Java Anda.
 
 ### Dapatkah saya menggunakan Aspose.PDF untuk Java secara gratis?
 
@@ -90,10 +92,12 @@ Anda dapat mengubah atau menghapus hyperlink dengan mengakses anotasi tautan dan
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi terperinci untuk Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi terperinci untuk Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

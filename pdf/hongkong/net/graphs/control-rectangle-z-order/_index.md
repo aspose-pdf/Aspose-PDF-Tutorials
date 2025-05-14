@@ -1,41 +1,46 @@
 ---
-title: 在 .NET 建立與自訂 PDF 
-weight: 7700
-limit: 
-description: 學習如何在.NET中創建PDF文檔,添加具有不同的Z索引的彩色矩形,並使用Aspose.PDF保存最終文檔.  
-keywords: [Aspose.PDF, .NET PDF example, create PDF, add rectangles, Z-index, PDF manipulation]
-url: /zh-hant/net/graphs/control-rectangle-z-order/
+"description": "了解如何在 .NET 中建立 PDF 文檔，新增具有不同 Z 索引的彩色矩形，以及如何使用 Aspose.PDF 儲存最終文件。"
+"title": "在 .NET 中使用矩形建立和自訂 PDF"
+"url": "/zh-hant/net/graphs/control-rectangle-z-order/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用長方形創建和定制PDF
+# 使用矩形建立和自訂 PDF
 
-這本書展示了如何使用Aspose.PDF在 .NET 中創建一個 PDF 文檔,並將具有不同 Z 索引的彩色矩形結合在一起,以控制其層次.
+本指南示範如何使用 Aspose.PDF for .NET 建立 PDF 文檔，並結合具有不同 Z 索引的彩色矩形來控制其分層。按照逐步說明將形狀添加到您的 PDF 並保存文檔，增強應用程式的 PDF 生成功能。
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/control-rectangle-z-order" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## 設置說明
-1. 確保您已設定了.NET開發環境 (如視覺工作室).
-2. 請下載Aspose.PDF圖書館[網站網站](https://www.aspose.com/purchase)我們都在等.
-3. 執行Aspose.PDF NuGet包`設置包Aspose.PDF`在包裝管理器控制台.
-4. 請將您的項目中所需的名稱空間:
+## 安裝說明
+1. 確保您已設定 .NET 開發環境（例如 Visual Studio）。
+2. 從下載 Aspose.PDF 庫 [Aspose 網站](https://www。aspose.com/purchase).
+3. 透過執行安裝 Aspose.PDF NuGet 套件 `Install-Package Aspose.PDF` 在程式包管理器控制台中。
+4. 在您的專案中包含必要的命名空間：
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
    ```
 
-## 詳細資料請見:  
-* [網路文檔的Aspose.PDF](https://docs.aspose.com/pdf/net/)  
-* [網頁的Aspose.PDF的API參考](https://reference.aspose.com/pdf/net/)  
+## 如需詳細文檔，請造訪：  
+- [Aspose.PDF for .NET 文檔](https://docs.aspose.com/pdf/net/)  
+- [Aspose.PDF for .NET 的 API 參考](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

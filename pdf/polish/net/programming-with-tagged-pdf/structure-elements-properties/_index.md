@@ -1,14 +1,16 @@
 ---
-title: Właściwości elementów konstrukcyjnych w pliku PDF
-linktitle: Właściwości elementów konstrukcyjnych w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Przewodnik krok po kroku dotyczący pracy z właściwościami elementów konstrukcyjnych w pliku PDF za pomocą Aspose.PDF dla platformy .NET. Twórz bogate w informacje elementy konstrukcyjne.
-weight: 150
-url: /pl/net/programming-with-tagged-pdf/structure-elements-properties/
+"description": "Przewodnik krok po kroku dotyczący pracy z właściwościami elementów konstrukcyjnych w pliku PDF za pomocą Aspose.PDF dla platformy .NET. Twórz bogate w informacje elementy konstrukcyjne."
+"linktitle": "Właściwości elementów konstrukcyjnych w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Właściwości elementów konstrukcyjnych w pliku PDF"
+"url": "/pl/net/programming-with-tagged-pdf/structure-elements-properties/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Właściwości elementów konstrukcyjnych w pliku PDF
@@ -22,7 +24,7 @@ Czy chcesz wzbogacić swoje pliki PDF o elementy strukturalne za pomocą Aspose.
 Zanim zakasamy rękawy i zagłębimy się w zagadnienia związane z kodowaniem, przyjrzyjmy się pokrótce temu, co musisz przygotować:
 
 1. Środowisko .NET: Upewnij się, że masz skonfigurowane zgodne środowisko programistyczne .NET, niezależnie czy jest to Visual Studio czy inne środowisko IDE.
-2.  Biblioteka Aspose.PDF: Musisz mieć zainstalowaną bibliotekę Aspose.PDF dla .NET. Jeśli jej jeszcze nie masz, możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+2. Biblioteka Aspose.PDF: Musisz mieć zainstalowaną bibliotekę Aspose.PDF dla .NET. Jeśli jej jeszcze nie masz, możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# z pewnością pomoże Ci lepiej zrozumieć przykłady.
 
 Teraz, gdy zadbaliśmy o nasze wymagania wstępne, możemy zaimportować pakiety niezbędne do wykonania naszego zadania.
@@ -51,7 +53,7 @@ Po pierwsze, musimy ustalić katalog dokumentu, w którym będzie się znajdowa�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie chcesz zapisać dokument PDF.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie chcesz zapisać dokument PDF.
 
 ## Krok 2: Utwórz nowy dokument PDF
 
@@ -62,7 +64,7 @@ Po ustaleniu katalogu utwórzmy nowy dokument PDF.
 Document document = new Document();
 ```
 
- Tutaj tworzymy nową instancję`Document` obiekt, który reprezentuje nasz plik PDF. Będzie on służył jako kontener dla wszystkich naszych elementów strukturalnych.
+Tutaj tworzymy nową instancję `Document` obiekt, który reprezentuje nasz plik PDF. Będzie on służył jako kontener dla wszystkich naszych elementów strukturalnych.
 
 ## Krok 3: Uzyskaj dostęp do oznaczonej zawartości
 
@@ -73,7 +75,7 @@ Następnie musimy uzyskać dostęp do oznaczonej zawartości w naszym dokumencie
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- Używamy`TaggedContent` właściwość naszego dokumentu, aby uzyskać`ITaggedContent` obiekt. Jest to kluczowe dla tworzenia i zarządzania oznaczonymi elementami w naszym pliku PDF.
+Używamy `TaggedContent` właściwość naszego dokumentu, aby uzyskać `ITaggedContent` obiekt. Jest to kluczowe dla tworzenia i zarządzania oznaczonymi elementami w naszym pliku PDF.
 
 ## Krok 4: Ustaw tytuł i język dokumentu
 
@@ -100,7 +102,7 @@ Zaczynamy od utworzenia elementu głównego, który będzie zawierał wszystkie 
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
- Ten`RootElement`pełni rolę elementu nadrzędnego dla wszystkich elementów, które zamierzamy utworzyć.
+Ten `RootElement` pełni rolę elementu nadrzędnego dla wszystkich elementów, które zamierzamy utworzyć.
 
 ### Krok 5.2: Utwórz element sekcji
 
@@ -111,7 +113,7 @@ SectElement sect = taggedContent.CreateSectElement();
 rootElement.AppendChild(sect);
 ```
 
- A`SectElement` można je traktować jako podsekcję lub rozdział w dokumencie, co pozwala na uporządkowanie treści.
+A `SectElement` można je traktować jako podsekcję lub rozdział w dokumencie, co pozwala na uporządkowanie treści.
 
 ### Krok 5.3: Utwórz element nagłówka
 
@@ -122,7 +124,7 @@ HeaderElement h1 = taggedContent.CreateHeaderElement(1);
 sect.AppendChild(h1);
 ```
 
- Ten`HeaderElement` to miejsce, w którym możemy umieszczać tytuły lub nagłówki w naszych sekcjach. Numer przekazywany do`CreateHeaderElement` Metoda ta ustala poziom nagłówka (1 oznacza najwyższy).
+Ten `HeaderElement` to miejsce, w którym możemy umieszczać tytuły lub nagłówki w naszych sekcjach. Numer przekazywany do `CreateHeaderElement` Metoda ta ustala poziom nagłówka (1 oznacza najwyższy).
 
 ### Krok 5.4: Ustaw tekst nagłówka i właściwości
 
@@ -148,7 +150,7 @@ Gdy wszystkie elementy zostały już utworzone i wypełnione, pora zapisać nasz
 document.Save(dataDir + "StructureElementsProperties.pdf");
 ```
 
- Dzwoniąc do`Save`na naszym obiekcie dokumentu, zapisujemy nasz ustrukturyzowany PDF do określonej ścieżki. Voilà! Stworzyłeś PDF ze ustrukturyzowanymi elementami.
+Dzwoniąc do `Save` na naszym obiekcie dokumentu, zapisujemy nasz ustrukturyzowany PDF do określonej ścieżki. Voilà! Stworzyłeś PDF ze ustrukturyzowanymi elementami.
 
 ## Wniosek
 
@@ -166,13 +168,15 @@ Możesz używać Aspose.PDF za darmo z pewnymi ograniczeniami. Aby uzyskać peł
 Choć jest to możliwe przy użyciu innych bibliotek i technik, Aspose.PDF znacznie upraszcza ten proces dzięki swoim rozbudowanym funkcjom.
 
 ### Czy mogę liczyć na pomoc, jeśli będę miał pytania?
-Tak! Możesz zadać swoje pytania na[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+Tak! Możesz zadać swoje pytania na [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Gdzie mogę dowiedzieć się więcej na temat pracy z Aspose.PDF?
- Sprawdź[dokumentacja](https://reference.aspose.com/pdf/net/) aby uzyskać szczegółowe wskazówki i dodatkowe funkcje.
+Sprawdź [dokumentacja](https://reference.aspose.com/pdf/net/) aby uzyskać szczegółowe wskazówki i dodatkowe funkcje.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

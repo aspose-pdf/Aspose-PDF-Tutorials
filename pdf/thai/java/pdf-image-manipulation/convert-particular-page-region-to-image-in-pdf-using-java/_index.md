@@ -1,14 +1,16 @@
 ---
-title: แปลงพื้นที่หน้าเฉพาะเป็นรูปภาพใน PDF โดยใช้ Java
-linktitle: แปลงพื้นที่หน้าเฉพาะเป็นรูปภาพใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการแปลงพื้นที่หน้าเฉพาะเป็นรูปภาพใน PDF โดยใช้ Java พร้อมคำแนะนำทีละขั้นตอน สำรวจความสามารถอันทรงพลังของ Aspose.PDF สำหรับ Java สำหรับการจัดการ PDF
-weight: 13
-url: /th/java/pdf-image-manipulation/convert-particular-page-region-to-image-in-pdf-using-java/
+"description": "เรียนรู้วิธีการแปลงพื้นที่หน้าเฉพาะเป็นรูปภาพใน PDF โดยใช้ Java พร้อมคำแนะนำทีละขั้นตอน สำรวจความสามารถอันทรงพลังของ Aspose.PDF สำหรับ Java สำหรับการจัดการ PDF"
+"linktitle": "แปลงพื้นที่หน้าเฉพาะเป็นรูปภาพใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "แปลงพื้นที่หน้าเฉพาะเป็นรูปภาพใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-image-manipulation/convert-particular-page-region-to-image-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงพื้นที่หน้าเฉพาะเป็นรูปภาพใน PDF โดยใช้ Java
@@ -24,7 +26,7 @@ url: /th/java/pdf-image-manipulation/convert-particular-page-region-to-image-in-
 
 - สภาพแวดล้อมการพัฒนา Java: คุณควรติดตั้ง Java ไว้ในระบบของคุณ
 
-- Aspose.PDF สำหรับไลบรารี Java: ดาวน์โหลดและรวมไลบรารี Aspose.PDF สำหรับ Java ไว้ในโปรเจ็กต์ของคุณ คุณสามารถรับได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java: ดาวน์โหลดและรวมไลบรารี Aspose.PDF สำหรับ Java ไว้ในโปรเจ็กต์ของคุณ คุณสามารถรับได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## ขั้นตอนที่ 1: โหลดเอกสาร PDF
 
@@ -35,11 +37,11 @@ url: /th/java/pdf-image-manipulation/convert-particular-page-region-to-image-in-
 Document pdfDocument = new Document("sample.pdf");
 ```
 
- แทนที่`"sample.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
+แทนที่ `"sample.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
 
 ## ขั้นตอนที่ 2: กำหนดภูมิภาคหน้า
 
- ตอนนี้เรามากำหนดภูมิภาคบนเพจที่เราต้องการแปลงเป็นรูปภาพกัน คุณสามารถระบุพิกัดและขนาดของภูมิภาคได้โดยใช้`Rectangle` คลาส ตัวอย่างเช่น หากต้องการจับภาพพื้นที่โดยเริ่มจากพิกัด (50, 50) และมีความกว้างและความสูง 200 พิกเซล คุณสามารถทำสิ่งต่อไปนี้:
+ตอนนี้เรามากำหนดภูมิภาคบนเพจที่เราต้องการแปลงเป็นรูปภาพกัน คุณสามารถระบุพิกัดและขนาดของภูมิภาคได้โดยใช้ `Rectangle` คลาส ตัวอย่างเช่น หากต้องการจับภาพพื้นที่โดยเริ่มจากพิกัด (50, 50) และมีความกว้างและความสูง 200 พิกเซล คุณสามารถทำสิ่งต่อไปนี้:
 
 ```java
 // กำหนดพื้นที่ที่จะจับภาพ
@@ -78,7 +80,7 @@ ImageIO.write(image, "PNG", new File("captured_region.png"));
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสาร
+คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสาร
 
 ### ฉันสามารถแยกภูมิภาคจากหลาย ๆ หน้าได้ไหม
 
@@ -88,16 +90,18 @@ ImageIO.write(image, "PNG", new File("captured_region.png"));
 
 ใช่ Aspose.PDF สำหรับ Java รองรับการทำงานกับเอกสาร PDF เวอร์ชันต่างๆ รวมถึง PDF 1.0 ถึง PDF 2.0
 
-### Aspose.PDF สำหรับ Java มีฟีเจอร์อื่นๆ อะไรอีกบ้าง?
+### Aspose.PDF สำหรับ Java มีฟีเจอร์อื่น ๆ อะไรอีกบ้าง?
 
 Aspose.PDF สำหรับ Java มีคุณสมบัติมากมาย เช่น การสร้าง PDF การแก้ไข การแยกข้อความ และอื่นๆ อีกมากมาย โปรดดูเอกสารประกอบเพื่อดูรายการคุณสมบัติทั้งหมด
 
 ### มีข้อกำหนดการออกใบอนุญาตสำหรับการใช้ Aspose.PDF สำหรับ Java หรือไม่
 
 ใช่ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ และคุณจะต้องมีใบอนุญาตที่ถูกต้องจึงจะใช้ในแอปพลิเคชันการผลิตได้ คุณสามารถขอรับใบอนุญาตได้จากเว็บไซต์ Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

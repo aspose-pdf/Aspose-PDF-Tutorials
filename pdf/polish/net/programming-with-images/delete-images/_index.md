@@ -1,14 +1,16 @@
 ---
-title: Usuń obrazy z pliku PDF
-linktitle: Usuń obrazy z pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak usuwać obrazy z plików PDF za pomocą Aspose.PDF dla .NET w prostym samouczku krok po kroku. Optymalizuj pliki PDF, łatwo usuwając niechciane obrazy.
-weight: 110
-url: /pl/net/programming-with-images/delete-images/
+"description": "Dowiedz się, jak usuwać obrazy z plików PDF za pomocą Aspose.PDF dla .NET w prostym samouczku krok po kroku. Optymalizuj pliki PDF, łatwo usuwając niechciane obrazy."
+"linktitle": "Usuń obrazy z pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Usuń obrazy z pliku PDF"
+"url": "/pl/net/programming-with-images/delete-images/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń obrazy z pliku PDF
@@ -21,13 +23,13 @@ Usuwanie obrazów z pliku PDF jest powszechnym wymogiem w przetwarzaniu dokument
 
 Zanim przejdziemy do szczegółowego przewodnika, omówmy, co będzie Ci potrzebne.
 
-1.  Aspose.PDF dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/net/).
 2. IDE: Odpowiednie środowisko programistyczne, np. Visual Studio.
 3. .NET Framework: Upewnij się, że w systemie zainstalowano środowisko .NET.
 4. Podstawowa znajomość programowania w języku C#: W tym samouczku zakładamy, że znasz już język C#.
 5. Plik PDF: Będziesz potrzebować przykładowego pliku PDF z obrazami, aby przetestować kod.
 
- Jeżeli nie posiadasz licencji, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PDF, uzyskując tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+Jeżeli nie posiadasz licencji, możesz skorzystać z bezpłatnej wersji próbnej Aspose.PDF, uzyskując tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importowanie niezbędnych pakietów
 
@@ -48,11 +50,11 @@ Zanim będziesz mógł zmodyfikować swój plik PDF, musisz określić ścieżk�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ta linia kodu ustawia ścieżkę do pliku PDF. Upewnij się, że zastąpiłeś`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF.
+Ta linia kodu ustawia ścieżkę do pliku PDF. Upewnij się, że zastąpiłeś `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF.
 
 ## Krok 2: Załaduj dokument PDF
 
- Gdy już masz ścieżkę do dokumentu, następnym krokiem jest załadowanie pliku PDF za pomocą Aspose.PDF`Document` klasa. Ta klasa zapewnia funkcjonalność otwierania i manipulowania plikami PDF.
+Gdy już masz ścieżkę do dokumentu, następnym krokiem jest załadowanie pliku PDF za pomocą Aspose.PDF `Document` klasa. Ta klasa zapewnia funkcjonalność otwierania i manipulowania plikami PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "DeleteImages.pdf");
@@ -68,13 +70,13 @@ Teraz nadchodzi zabawna część! Aby usunąć obraz, musisz uzyskać dostęp do
 pdfDocument.Pages[1].Resources.Images.Delete(1);
 ```
 
- Ta linia kodu usuwa pierwszy obraz (reprezentowany przez`1`) z pierwszej strony (`Pages[1]`) dokumentu PDF. Jeśli musisz usunąć obrazy z różnych stron lub pozycji, możesz odpowiednio zmodyfikować indeks strony i obrazu.
+Ta linia kodu usuwa pierwszy obraz (reprezentowany przez `1`) z pierwszej strony (`Pages[1]`) dokumentu PDF. Jeśli musisz usunąć obrazy z różnych stron lub pozycji, możesz odpowiednio zmodyfikować indeks strony i obrazu.
 
 > Wskazówka: Możesz przeglądać obrazy, jeśli chcesz usunąć wszystkie obrazy na danej stronie lub w całym dokumencie.
 
 ## Krok 4: Zapisz zaktualizowany plik PDF
 
- Po usunięciu obrazu czas zapisać zmodyfikowany plik PDF. Aspose.PDF ułatwia zapisywanie zmian za pomocą`Save` metoda. W tym kroku zapiszemy zaktualizowany plik pod nową nazwą, aby uniknąć nadpisania oryginalnego pliku PDF.
+Po usunięciu obrazu czas zapisać zmodyfikowany plik PDF. Aspose.PDF ułatwia zapisywanie zmian za pomocą `Save` metoda. W tym kroku zapiszemy zaktualizowany plik pod nową nazwą, aby uniknąć nadpisania oryginalnego pliku PDF.
 
 ```csharp
 dataDir = dataDir + "DeleteImages_out.pdf";
@@ -97,7 +99,7 @@ Ten wiersz wyświetla komunikat informujący o usunięciu obrazów i pokazuje lo
 
 Gratulacje! Udało Ci się usunąć obraz z pliku PDF za pomocą Aspose.PDF dla .NET. Postępując zgodnie z prostymi krokami opisanymi w tym samouczku, możesz zmodyfikować dowolny dokument PDF zgodnie ze swoimi potrzebami. Niezależnie od tego, czy optymalizujesz rozmiar pliku, czy usuwasz niechciane elementy, Aspose.PDF oferuje potężne rozwiązanie.
 
- Jeśli potrzebujesz bardziej zaawansowanych funkcji do manipulowania dokumentami, zapoznaj się z[Aspose.PDF dla dokumentacji .NET](https://reference.aspose.com/pdf/net/) aby skorzystać z dodatkowych funkcjonalności, takich jak wyodrębnianie obrazów, dodawanie tekstu lub konwersja plików PDF do innych formatów.
+Jeśli potrzebujesz bardziej zaawansowanych funkcji do manipulowania dokumentami, zapoznaj się z [Aspose.PDF dla dokumentacji .NET](https://reference.aspose.com/pdf/net/) aby skorzystać z dodatkowych funkcjonalności, takich jak wyodrębnianie obrazów, dodawanie tekstu lub konwersja plików PDF do innych formatów.
 
 ## Najczęściej zadawane pytania
 
@@ -108,16 +110,18 @@ Tak! Możesz usunąć wiele obrazów, przechodząc przez obrazy na określonej s
 Tak, usunięcie obrazów z pliku PDF może znacznie zmniejszyć jego rozmiar, zwłaszcza jeśli obrazy są duże.
 
 ### Czy mogę usunąć obrazy z wielu stron jednocześnie?
- Tak, możesz przeglądać strony dokumentu i usuwać obrazy z każdej strony za pomocą`Resources.Images.Delete` metoda.
+Tak, możesz przeglądać strony dokumentu i usuwać obrazy z każdej strony za pomocą `Resources.Images.Delete` metoda.
 
 ### Jak mogę sprawdzić, czy obraz został pomyślnie usunięty?
 Możesz wizualnie sprawdzić plik PDF, otwierając go w przeglądarce PDF. Alternatywnie możesz programowo sprawdzić liczbę obrazów na stronie po usunięciu.
 
 ### Czy można cofnąć usunięcie obrazu?
 Nie, po usunięciu obrazu i zapisaniu pliku PDF nie można cofnąć tej czynności. Zawsze zaleca się zachowanie kopii zapasowej oryginalnego pliku PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

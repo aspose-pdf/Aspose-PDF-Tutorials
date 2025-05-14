@@ -8,7 +8,9 @@ url: /net/document-conversion/pdf-to-pdfa3b/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF To PDFA3b
@@ -118,6 +120,7 @@ If you run into any issues or have questions, the community support can be found
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

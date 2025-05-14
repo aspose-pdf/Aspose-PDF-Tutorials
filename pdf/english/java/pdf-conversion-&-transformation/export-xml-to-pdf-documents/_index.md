@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/export-xml-to-pdf-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export XML to PDF Documents
@@ -89,6 +91,7 @@ Certainly! Aspose.PDF for Java can handle XML files with complex structures. You
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

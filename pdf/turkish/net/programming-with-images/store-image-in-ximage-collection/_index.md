@@ -1,14 +1,16 @@
 ---
-title: Resmi XImage Koleksiyonunda Sakla
-linktitle: Resmi XImage Koleksiyonunda Sakla
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı adım adım kılavuzda, Aspose.PDF for .NET kullanarak XImage koleksiyonunda görüntülerin nasıl saklanacağını öğrenin.
-weight: 290
-url: /tr/net/programming-with-images/store-image-in-ximage-collection/
+"description": "Bu kapsamlı adım adım kılavuzda, Aspose.PDF for .NET kullanarak XImage koleksiyonunda görüntülerin nasıl saklanacağını öğrenin."
+"linktitle": "Resmi XImage Koleksiyonunda Sakla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Resmi XImage Koleksiyonunda Sakla"
+"url": "/tr/net/programming-with-images/store-image-in-ximage-collection/"
+"weight": 290
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Resmi XImage Koleksiyonunda Sakla
@@ -22,7 +24,7 @@ Günümüzün dijital çağında, belgeleri programatik olarak işlemek ve düze
 Koda ve süreçlere dalmadan önce, birkaç şeyin yerinde olduğundan emin olmanız gerekir:
 
 - .NET Ortamı: Makinenizde .NET Framework yüklü olmalıdır. Projenizin gereksinimlerine göre uygun sürümü seçin.
-- .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olduğunuzdan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/net/) veya ücretsiz denemeyle başlayın[Burada](https://releases.aspose.com/).
+- .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olduğunuzdan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/net/) veya ücretsiz denemeyle başlayın [Burada](https://releases.aspose.com/).
 - Resim Dosyası: Ayrıca PDF'de saklamak istediğiniz bir resim dosyasına (JPG veya PNG gibi) ihtiyacınız var. Bu örnek için "aspose-logo.jpg" adlı bir dosya kullanacağız.
 - C# Temel Anlayışı: C# programlamaya aşinalık, akıcı bir şekilde takip etmenize yardımcı olacaktır.
 
@@ -89,7 +91,7 @@ page.Resources.Images.Add(imageStream, ImageFilterType.Flate);
 XImage ximage = page.Resources.Images[page.Resources.Images.Count];
 ```
 
- Bu kod, PDF'ye resim ekleme ve onu bir kullanıcıya atama gibi ağır işleri yapar.`XImage` Daha sonra başvurabileceğimiz değişken.
+Bu kod, PDF'ye resim ekleme ve onu bir kullanıcıya atama gibi ağır işleri yapar. `XImage` Daha sonra başvurabileceğimiz değişken.
 
 ## Adım 6: Resmi Çizmeye Hazırlanın
 
@@ -99,7 +101,7 @@ XImage ximage = page.Resources.Images[page.Resources.Images.Count];
 page.Contents.Add(new GSave());
 ```
 
-Bu satır, grafik durumunu daha sonraki geri yükleme için kaydeder. Herhangi bir şeyi değiştirmeden önce her şeyin nasıl ayarlandığının bir anlık görüntüsünü almak gibidir.
+Bu satır, grafik durumunu daha sonra geri yüklemek için kaydeder. Herhangi bir şeyi değiştirmeden önce her şeyin nasıl ayarlandığının bir anlık görüntüsünü almak gibidir.
 
 ## Adım 7: Görüntü Pozisyonunu ve Boyutunu Tanımlayın
 
@@ -145,31 +147,33 @@ Sonunda, şaheserimizi kurtarabiliriz! Bu, tüm sıkı çalışmanızın somut b
 document.Save(dataDir + "FlateDecodeCompression.pdf");
 ```
 
-Aspose.PDF'e belgeyi verilen dosya adıyla kaydetmesini söylediniz. Bu kodu çalıştırdığınızda, yeni oluşturduğunuz PDF dosyanızı, gömülü görüntünüzle birlikte belirtilen dizinde bulacaksınız.
+Aspose.PDF'e belgeyi verilen dosya adıyla kaydetmesini söylediniz. Bu kodu çalıştırdığınızda, yeni oluşturduğunuz PDF dosyanızı belirtilen dizinde gömülü görüntünüzle birlikte bulacaksınız.
 
 ## Çözüm
 
-Ve işte karşınızda! XImage koleksiyonunda nokta nokta bir görüntü depolamak için Aspose.PDF for .NET'i nasıl kullanacağınızı öğrendiniz. Kodunuzun şekil alıp yararlı bir şey ürettiğini görmek memnuniyet verici değil mi? İster uygulamalar geliştiriyor olun ister sadece raporları otomatikleştirmek istiyor olun, bu kılavuz harika bir temel parça görevi görür. Unutmayın, Aspose.PDF'nin gücü sadece bunun ötesinde birçok görevde size yardımcı olabilir, bu yüzden keşfetmeye devam edin!
+Ve işte karşınızda! XImage koleksiyonunda nokta nokta bir görüntüyü depolamak için .NET için Aspose.PDF'yi nasıl kullanacağınızı öğrendiniz. Kodunuzun şekil alıp yararlı bir şey ürettiğini görmek memnuniyet verici değil mi? İster uygulamalar geliştiriyor olun ister sadece raporları otomatikleştirmek istiyor olun, bu kılavuz harika bir temel parça görevi görür. Unutmayın, Aspose.PDF'nin gücü sadece bunun ötesinde birçok görevde size yardımcı olabilir, bu yüzden keşfetmeye devam edin!
 
 ## SSS
 
-### Aspose.PDF'de hangi dosya formatları destekleniyor?
+### Aspose.PDF'de resimler için hangi dosya biçimleri destekleniyor?
 Aspose.PDF, JPG, PNG, BMP ve GIF gibi çeşitli resim formatlarını destekler.
 
 ### PDF'e eklerken görselin boyutunu değiştirebilir miyim?
 Evet, dikdörtgende tanımlanan koordinatları ayarlayarak PDF'de görüntülenen görüntünün boyutunu değiştirebilirsiniz.
 
 ### Aspose.PDF'i kullanmak için lisansa ihtiyacım var mı?
- Aspose ücretsiz deneme ve çeşitli satın alma seçenekleri sunar. Bunları bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose ücretsiz deneme ve çeşitli satın alma seçenekleri sunar. Bunları bulabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Sorun yaşarsam nasıl destek alabilirim?
- Aspose topluluğundan yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose topluluğundan yardım isteyebilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
 
 ### PDF'e eklenen görsellere sıkıştırma uygulamanın bir yolu var mı?
 Evet, PDF'e resim eklerken Flate gibi sıkıştırma yöntemlerini kullanmak için resim filtresi türünü belirtebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

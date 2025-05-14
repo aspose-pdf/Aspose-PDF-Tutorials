@@ -8,7 +8,9 @@ url: /net/programming-with-images/delete-images/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete Images From PDF File
@@ -119,6 +121,7 @@ No, once an image is deleted and the PDF is saved, you cannot undo the action. I
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

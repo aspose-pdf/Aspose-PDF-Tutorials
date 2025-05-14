@@ -1,28 +1,30 @@
 ---
-title: Trang Web Sang PDF
-linktitle: Trang Web Sang PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi trang web sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước này.
-weight: 320
-url: /vi/net/document-conversion/web-page-to-pdf/
+"description": "Tìm hiểu cách chuyển đổi trang web sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước này."
+"linktitle": "Trang Web Sang PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Trang Web Sang PDF"
+"url": "/vi/net/document-conversion/web-page-to-pdf/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trang Web Sang PDF
 
 ## Giới thiệu
 
-Trong thời đại kỹ thuật số ngày nay, khả năng chuyển đổi các trang web thành tài liệu PDF cực kỳ có giá trị. Cho dù bạn muốn lưu một bài viết để đọc ngoại tuyến, tạo báo cáo hay lưu trữ nội dung từ web, việc có đúng công cụ có thể tạo nên sự khác biệt. Một công cụ như vậy là Aspose.PDF cho .NET, một thư viện mạnh mẽ cho phép các nhà phát triển tạo và thao tác các tài liệu PDF một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi một trang web thành PDF bằng Aspose.PDF cho .NET, chia nhỏ thành các bước dễ quản lý.
+Trong thời đại kỹ thuật số ngày nay, khả năng chuyển đổi các trang web thành tài liệu PDF cực kỳ có giá trị. Cho dù bạn muốn lưu một bài viết để đọc ngoại tuyến, tạo báo cáo hay lưu trữ nội dung từ web, việc có đúng công cụ có thể tạo nên sự khác biệt. Một trong những công cụ như vậy là Aspose.PDF cho .NET, một thư viện mạnh mẽ cho phép các nhà phát triển tạo và thao tác các tài liệu PDF một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi một trang web thành PDF bằng Aspose.PDF cho .NET, chia nhỏ thành các bước dễ quản lý.
 
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết và thực thi mã .NET của mình.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần thư viện Aspose.PDF. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần thư viện Aspose.PDF. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn.
 4. Truy cập Internet: Vì chúng ta sẽ lấy nội dung từ một trang web, hãy đảm bảo môi trường phát triển của bạn có thể truy cập Internet.
 
@@ -44,7 +46,7 @@ Tiếp theo, thêm tham chiếu đến thư viện Aspose.PDF. Bạn có thể t
 
 ### Nhập không gian tên bắt buộc
 
- Sau khi thư viện được thêm vào, hãy mở`Program.cs` tệp và nhập các không gian tên cần thiết ở đầu tệp:
+Sau khi thư viện được thêm vào, hãy mở `Program.cs` tệp và nhập các không gian tên cần thiết ở đầu tệp:
 
 ```csharp
 using System.IO;
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay thế bằng đường dẫn
 Tiếp theo, bạn sẽ cần tạo yêu cầu để lấy nội dung từ trang web bạn muốn chuyển đổi. Sau đây là cách thực hiện:
 
 ```csharp
-WebRequest request = WebRequest.Create("https://vi.wikipedia.org/wiki/Main_Page");
+WebRequest request = WebRequest.Create("https://en.wikipedia.org/wiki/Trang_chính");
 request.Credentials = CredentialCache.DefaultCredentials;
 ```
 
@@ -92,24 +94,24 @@ response.Close();
 
 ## Bước 4: Tải nội dung HTML vào bộ nhớ
 
-Bây giờ chúng ta đã có nội dung HTML, chúng ta cần tải nó vào`MemoryStream` để chúng ta có thể xử lý nó bằng Aspose.PDF:
+Bây giờ chúng ta đã có nội dung HTML, chúng ta cần tải nó vào `MemoryStream` để chúng ta có thể xử lý nó bằng Aspose.PDF:
 
 ```csharp
 MemoryStream stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(responseFromServer));
 HtmlLoadOptions options = new HtmlLoadOptions("https://en.wikipedia.org/wiki/");
 ```
 
- Trong bước này, chúng tôi đang chuyển đổi phản hồi chuỗi thành một mảng byte và tải nó vào một`MemoryStream` . Các`HtmlLoadOptions` cho phép chúng ta chỉ định URL cơ sở cho bất kỳ liên kết tương đối nào trong HTML.
+Trong bước này, chúng tôi đang chuyển đổi phản hồi chuỗi thành một mảng byte và tải nó vào một `MemoryStream`. Các `HtmlLoadOptions` cho phép chúng ta chỉ định URL cơ sở cho bất kỳ liên kết tương đối nào trong HTML.
 
 ## Bước 5: Tạo một tài liệu PDF
 
-Sau khi tải xong nội dung HTML, chúng ta có thể tạo tài liệu PDF từ nội dung đó:
+Sau khi nội dung HTML được tải xong, chúng ta có thể tạo tài liệu PDF từ nội dung đó:
 
 ```csharp
 Document pdfDocument = new Document(stream, options);
 ```
 
- Dòng mã này khởi tạo một cái mới`Document` đối tượng đại diện cho tệp PDF mà chúng ta sẽ tạo.
+Dòng mã này khởi tạo một cái mới `Document` đối tượng đại diện cho tệp PDF mà chúng ta sẽ tạo.
 
 ## Bước 6: Thiết lập hướng trang
 
@@ -129,7 +131,7 @@ Cuối cùng, đã đến lúc lưu tài liệu PDF vào thư mục đã chỉ �
 pdfDocument.Save(dataDir + "WebPageToPDF_out.pdf");
 ```
 
- Dòng này lưu tệp PDF với tên`WebPageToPDF_out.pdf` trong thư mục tài liệu bạn chỉ định.
+Dòng này lưu tệp PDF với tên `WebPageToPDF_out.pdf` trong thư mục tài liệu bạn chỉ định.
 
 ## Bước 8: Xử lý ngoại lệ
 
@@ -155,22 +157,24 @@ Và bạn đã có nó! Bạn đã chuyển đổi thành công một trang web 
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể chuyển đổi bất kỳ trang web nào sang PDF không?
 Có, miễn là trang web có thể truy cập công khai, bạn có thể chuyển đổi nó sang PDF bằng Aspose.PDF.
 
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.PDF cho .NET từ[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.PDF cho .NET từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose trên [diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể xin giấy phép tạm thời bằng cách nào?
- Bạn có thể nộp đơn xin giấy phép tạm thời trên[Trang web Aspose](https://purchase.aspose.com/temporary-license/).
+Bạn có thể nộp đơn xin giấy phép tạm thời trên [Trang web Aspose](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

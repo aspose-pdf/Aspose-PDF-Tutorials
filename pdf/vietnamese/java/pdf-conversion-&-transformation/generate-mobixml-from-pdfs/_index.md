@@ -1,14 +1,16 @@
 ---
-title: Tạo MobiXML từ PDF
-linktitle: Tạo MobiXML từ PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách tạo MobiXML từ PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ về mã. Chuyển đổi PDF sang định dạng MobiXML một cách liền mạch.
-weight: 17
-url: /vi/java/pdf-conversion-transformation/generate-mobixml-from-pdfs/
+"description": "Tìm hiểu cách tạo MobiXML từ PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ về mã. Chuyển đổi PDF sang định dạng MobiXML một cách liền mạch."
+"linktitle": "Tạo MobiXML từ PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Tạo MobiXML từ PDF"
+"url": "/vi/java/pdf-conversion-transformation/generate-mobixml-from-pdfs/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo MobiXML từ PDF
@@ -24,7 +26,7 @@ Trước khi bắt đầu quá trình chuyển đổi, hãy đảm bảo bạn �
 
 - Java Development Kit (JDK): Đảm bảo bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải xuống từ trang web nếu bạn chưa có.
 
--  Thư viện Aspose.PDF cho Java: Bạn có thể tải xuống Aspose.PDF cho Java từ liên kết tải xuống:[Tải xuống Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/).
+- Thư viện Aspose.PDF cho Java: Bạn có thể tải xuống Aspose.PDF cho Java từ liên kết tải xuống: [Tải xuống Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập dự án của bạn
 
@@ -51,7 +53,7 @@ public class PDFtoMobiXMLConverter {
 }
 ```
 
- Trong đoạn mã trên, trước tiên chúng ta tải tài liệu PDF bằng Aspose.PDF. Sau đó, chúng ta lưu nó ở định dạng MobiXML bằng cách sử dụng`SaveFormat.MobiXml` lựa chọn.
+Trong đoạn mã trên, trước tiên chúng ta tải tài liệu PDF bằng Aspose.PDF. Sau đó, chúng ta lưu nó ở định dạng MobiXML bằng cách sử dụng `SaveFormat.MobiXml` lựa chọn.
 
 ## Phần kết luận
 
@@ -61,7 +63,7 @@ Trong bài viết này, chúng tôi đã khám phá cách tạo MobiXML từ PDF
 
 ### Làm thế nào tôi có thể tải Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ liên kết phát hành:[Tải xuống Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống Aspose.PDF cho Java từ liên kết phát hành: [Tải xuống Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/).
 
 ### Aspose.PDF cho Java có miễn phí sử dụng không?
 
@@ -77,10 +79,12 @@ MobiXML có một số hạn chế nhất định so với các định dạng e
 
 ### Tôi có thể tìm thêm tài liệu và tài nguyên về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện cho Aspose.PDF cho Java tại[Tài liệu tham khảo API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu và tài nguyên toàn diện cho Aspose.PDF cho Java tại [Tài liệu tham khảo API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

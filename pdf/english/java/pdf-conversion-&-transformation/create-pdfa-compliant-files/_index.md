@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/create-pdfa-compliant-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create PDF/A Compliant Files
@@ -165,6 +167,7 @@ String extractedText = textAbsorber.getText();
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

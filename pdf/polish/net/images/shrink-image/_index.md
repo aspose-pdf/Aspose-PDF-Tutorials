@@ -1,58 +1,64 @@
 ---
-title: Optymalizacja PDF poprzez kompresję obrazów w Aspose.PDF dla .NET
-weight: 7700
-limit: 
-description: Dowiedz się, jak zoptymalizować dokument PDF poprzez kompresję obrazów przy użyciu Aspose.PDF dla .NET. Zmniejsz rozmiar pliku przy zachowaniu jakości za pomocą prostego kodu C#.  
-keywords: [Aspose.PDF for .NET, optimize PDF, compress images, reduce PDF size, C# PDF optimization, PDF image compression, .NET PDF processing]
-url: /pl/net/images/shrink-image/
+"description": "Dowiedz się, jak zoptymalizować dokument PDF, kompresując obrazy za pomocą Aspose.PDF dla .NET. Zmniejsz rozmiar pliku, zachowując jednocześnie jakość za pomocą prostego kodu C#."
+"title": "Optymalizacja PDF poprzez kompresję obrazów w Aspose.PDF dla .NET"
+"url": "/pl/net/images/shrink-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Optymalizacja PDF poprzez kompresję obrazów w Aspose.PDF
+# Optymalizacja pliku PDF poprzez kompresję obrazów w Aspose.PDF
  
-Optymalizacja plików PDF jest niezbędna do zmniejszenia wielkości pliku przy zachowaniu jakości dokumentu. Dzięki Aspose.PDF dla .NET możesz efektywnie sprężć obrazy w PDF przy użyciu wbudowanych opcji optymalizacji. Ten przewodnik pokazuje prosty przykład C #, w którym plik PDF jest ładowany, włączona kompresja obrazu, dostosowywane ustawienia jakości i zapisywany optymalizowany dokument. Postępując zgodnie z tymi krokami, możesz zapewnić, że twoje pliki PDF pozostaną lekkie i łatwe do udostępnienia bez uszczerbku dla jasności.  
+Optymalizacja plików PDF jest niezbędna, aby zmniejszyć rozmiar pliku przy jednoczesnym zachowaniu jakości dokumentu. Dzięki Aspose.PDF dla .NET możesz skutecznie kompresować obrazy w pliku PDF, korzystając z wbudowanych opcji optymalizacji. Ten przewodnik pokazuje prosty przykład w języku C#, w którym ładowany jest plik PDF, włączana jest kompresja obrazu, dostosowywane są ustawienia jakości, a zoptymalizowany dokument zapisywany. Postępując zgodnie z tymi krokami, możesz mieć pewność, że Twoje pliki PDF pozostaną lekkie i łatwe do udostępniania bez uszczerbku dla przejrzystości.  
  
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/shrink-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Instrukcja montażu:  
-Aby użyć Aspose.PDF dla .NET, wykonaj następujące kroki:  
+## Instrukcje instalacji:  
+Aby użyć Aspose.PDF dla platformy .NET, wykonaj następujące kroki:  
 
-1. Zainstalowanie za pośrednictwem NuGet Package Manager:  
-   * Otwórz Visual Studio i przejdź do Narzędzi > Menedżer pakietów NuGet > Zarządzaj pakietami NuGet do rozwiązania.  
-   * Poszukaj Aspose.PDF i kliknij Instaluj.  
+1. Instalacja za pomocą Menedżera pakietów NuGet:  
+   - Otwórz program Visual Studio i przejdź do pozycji Narzędzia > Menedżer pakietów NuGet > Zarządzaj pakietami NuGet dla rozwiązania.  
+   - Wyszukaj Aspose.PDF i kliknij Instaluj.  
 
-   Albo  
+   LUB  
 
-   Wykonać następującą komendę w konsoli menedżera pakietów:  
+   Uruchom następujące polecenie w konsoli Menedżera pakietów:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. Pobierz z strony Aspose:  
-   * Odwiedziny .[Aspose.PDF dla .NET Downloads](https://releases.aspose.com/pdf/net/)  
-   * Pobierz i zainstaluj najnowszą wersję.  
+2. Pobierz ze strony internetowej Aspose:  
+   - Odwiedzać [Aspose.PDF do pobrania dla .NET](https://releases.aspose.com/pdf/net/)  
+   - Pobierz i zainstaluj najnowszą wersję.  
 
-3. Wniosek o licencję (opcjonalny):  
-   * Zdobądź bezpłatną licencję próbną od[Wymóg tymczasowego zezwolenia](https://purchase.aspose.com/temporary-license/)  
-   * Użyj licencji w swoim kodzie używając:  
+3. Zastosuj licencję (opcjonalnie):  
+   - Uzyskaj bezpłatną licencję próbną od [Licencja tymczasowa Aspose](https://purchase.aspose.com/temporary-license/)  
+   - Zastosuj licencję w swoim kodzie za pomocą:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.PDF.lic");
    ```
 
-## Korzystne linki:  
-Dokumenty:[Aspose.PDF dla .NET Guide](https://docs.aspose.com/pdf/net/)  
-Odniesienie do API: [Aspose.PDF dla .NET API](https://reference.aspose.com/pdf/net/)  
-Darmowa próba:[/Wypróbuj bezpłatnie](https://releases.aspose.com/)  
-Forum wsparcia:[Wsparcie](https://forum.aspose.com/c/pdf/10) 
+## Przydatne linki:  
+Dokumentacja: [Aspose.PDF dla .NET Guide](https://docs.aspose.com/pdf/net/)  
+Dokumentacja API: [Aspose.PDF dla .NET API](https://reference.aspose.com/pdf/net/)  
+Bezpłatna wersja próbna: [Bezpłatna wersja próbna Aspose](https://releases.aspose.com/)  
+Forum wsparcia: [Wsparcie Aspose](https://forum.aspose.com/c/pdf/10) 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

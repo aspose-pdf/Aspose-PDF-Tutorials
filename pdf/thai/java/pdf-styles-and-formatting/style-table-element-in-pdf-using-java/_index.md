@@ -1,14 +1,16 @@
 ---
-title: องค์ประกอบตารางสไตล์ใน PDF โดยใช้ Java
-linktitle: องค์ประกอบตารางสไตล์ใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้การกำหนดรูปแบบตารางในเอกสาร PDF โดยใช้ Java ด้วย Aspose.PDF สร้างตารางที่ดึงดูดสายตาและปรับแต่งรูปลักษณ์ของตารางสำหรับ PDF ระดับมืออาชีพ
-weight: 14
-url: /th/java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/
+"description": "เรียนรู้การกำหนดรูปแบบตารางในเอกสาร PDF โดยใช้ Java ด้วย Aspose.PDF สร้างตารางที่ดึงดูดสายตาและปรับแต่งรูปลักษณ์ของตารางสำหรับ PDF ระดับมืออาชีพ"
+"linktitle": "องค์ประกอบตารางสไตล์ใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "องค์ประกอบตารางสไตล์ใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # องค์ประกอบตารางสไตล์ใน PDF โดยใช้ Java
@@ -28,7 +30,7 @@ url: /th/java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/
 
 ## การตั้งค่า Aspose.PDF สำหรับ Java
 
- ในการเริ่มต้น ให้ดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java จากเว็บไซต์:[ดาวน์โหลด Aspose.PDF สำหรับ Java](https://releases.aspose.com/pdf/java/)
+ในการเริ่มต้น ให้ดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java จากเว็บไซต์: [ดาวน์โหลด Aspose.PDF สำหรับ Java](https://releases.aspose.com/pdf/java/)
 
 เมื่อดาวน์โหลดแล้วให้รวมไลบรารีไว้ในโปรเจ็กต์ Java ของคุณ
 
@@ -57,7 +59,7 @@ pdfDocument.getPages().get_Item(1).getParagraphs().add(table);
 ในการจัดรูปแบบตาราง คุณสามารถปรับแต่งลักษณะต่างๆ เช่น สีพื้นหลังของเซลล์ แบบอักษรของข้อความ และอื่นๆ อีกมากมาย
 
 ```java
-//โค้ด Java สำหรับจัดรูปแบบตาราง
+// โค้ด Java สำหรับจัดรูปแบบตาราง
 table.setDefaultCellBorder(new BorderInfo(BorderSide.All, 1F));
 table.setDefaultCellPadding(new MarginInfo(5, 5, 5, 5));
 table.setDefaultCellTextState(new TextState());
@@ -68,7 +70,7 @@ table.setDefaultCellTextState(new TextState());
 มาเพิ่มข้อมูลลงในตารางกัน คุณสามารถเติมเนื้อหาลงในเซลล์ตามต้องการได้
 
 ```java
-// โค้ด Java สำหรับเพิ่มข้อมูลลงในตาราง
+// โค้ด Java เพื่อเพิ่มข้อมูลลงในตาราง
 Row row = table.getRows().add();
 row.getCells().add("Name");
 row.getCells().add("Age");
@@ -122,21 +124,21 @@ pdfDocument.save("styled_table_example.pdf");
 
 ## บทสรุป
 
-ในบทช่วยสอนนี้ เราได้ศึกษาเกี่ยวกับการกำหนดรูปแบบองค์ประกอบตารางในเอกสาร PDF โดยใช้ Java ด้วย Aspose.PDF คุณได้เรียนรู้วิธีการสร้างตาราง ปรับแต่งรูปลักษณ์ เพิ่มข้อมูล และจัดรูปแบบเนื้อหาเซลล์ ด้วยความรู้เหล่านี้ คุณสามารถสร้าง PDF ที่ดูเป็นมืออาชีพพร้อมตารางที่จัดรูปแบบสำหรับแอปพลิเคชันต่างๆ ได้
+ในบทช่วยสอนนี้ เราได้ศึกษาเกี่ยวกับการกำหนดรูปแบบองค์ประกอบตารางในเอกสาร PDF โดยใช้ Java กับ Aspose.PDF คุณได้เรียนรู้วิธีการสร้างตาราง ปรับแต่งรูปลักษณ์ เพิ่มข้อมูล และจัดรูปแบบเนื้อหาเซลล์ ด้วยความรู้เหล่านี้ คุณสามารถสร้าง PDF ที่ดูเป็นมืออาชีพพร้อมตารางที่จัดรูปแบบสำหรับแอปพลิเคชันต่างๆ ได้
 
 ## คำถามที่พบบ่อย
 
 ### ฉันจะเปลี่ยนสีพื้นหลังของตารางได้อย่างไร?
 
- หากต้องการเปลี่ยนสีพื้นหลังของตาราง คุณสามารถใช้`table.setBackgroundColor(Color)` วิธีการและระบุสีที่ต้องการ
+หากต้องการเปลี่ยนสีพื้นหลังของตาราง คุณสามารถใช้ `table.setBackgroundColor(Color)` วิธีการและระบุสีที่ต้องการ
 
 ### ฉันสามารถรวมเซลล์ในตารางได้หรือไม่
 
- ใช่ คุณสามารถรวมเซลล์ในตารางได้โดยใช้`Cell` ชั้นเรียน`setColSpan(int)` และ`setRowSpan(int)` วิธีการ
+ใช่ คุณสามารถรวมเซลล์ในตารางได้โดยใช้ `Cell` ชั้นเรียน `setColSpan(int)` และ `setRowSpan(int)` วิธีการ
 
 ### ฉันจะเพิ่มเส้นขอบให้กับเซลล์เฉพาะได้อย่างไร
 
- หากต้องการเพิ่มเส้นขอบให้กับเซลล์เฉพาะ คุณสามารถใช้`Cell` ชั้นเรียน`setBorder` วิธีการและระบุคุณสมบัติของเส้นขอบ
+หากต้องการเพิ่มเส้นขอบให้กับเซลล์เฉพาะ คุณสามารถใช้ `Cell` ชั้นเรียน `setBorder` วิธีการและระบุคุณสมบัติของเส้นขอบ
 
 ### Aspose.PDF สำหรับ Java เข้ากันได้กับ Java IDE ต่างๆ หรือไม่
 
@@ -144,10 +146,12 @@ pdfDocument.save("styled_table_example.pdf");
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารรายละเอียดและเอกสารอ้างอิง API สำหรับ Aspose.PDF สำหรับ Java ได้ที่[เอกสาร Aspose.PDF สำหรับ Java](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารรายละเอียดและเอกสารอ้างอิง API สำหรับ Aspose.PDF สำหรับ Java ได้ที่ [เอกสาร Aspose.PDF สำหรับ Java](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

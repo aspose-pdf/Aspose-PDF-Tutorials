@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Satır Aralığını Belirleyin
-linktitle: PDF Dosyasında Satır Aralığını Belirleyin
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla .NET için Aspose.PDF kullanarak bir PDF'de satır aralığını nasıl belirleyeceğinizi öğrenin. Hassas metin biçimlendirmesi arayan geliştiriciler için mükemmeldir.
-weight: 510
-url: /tr/net/programming-with-text/specify-line-spacing/
+"description": "Bu adım adım kılavuzla .NET için Aspose.PDF kullanarak bir PDF'de satır aralığını nasıl belirleyeceğinizi öğrenin. Hassas metin biçimlendirmesi arayan geliştiriciler için mükemmeldir."
+"linktitle": "PDF Dosyasında Satır Aralığını Belirleyin"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Satır Aralığını Belirleyin"
+"url": "/tr/net/programming-with-text/specify-line-spacing/"
+"weight": 510
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Satır Aralığını Belirleyin
@@ -21,9 +23,9 @@ PDF dosyasındaki satır aralığını kontrol etmekte hiç zorluk çektiniz mi?
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  .NET için Aspose.PDF yüklü. Eğer yoksa, şuradan edinin:[Aspose.PDF indirme sayfası](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF yüklü. Eğer yoksa, şuradan edinin: [Aspose.PDF indirme sayfası](https://releases.aspose.com/pdf/net/).
 2. .NET geliştirme ortamı (Visual Studio gibi).
-3. Bir TrueType yazı tipi dosyası (`.ttf` ) örnekte kullanacağımız yazı tipi. Herhangi bir fontu kullanabilirsiniz, ancak bu kılavuz için,`HPSimplified.TTF` font.
+3. Bir TrueType yazı tipi dosyası (`.ttf`) örnekte kullanacağımız font. Herhangi bir fontu kullanabilirsiniz, ancak bu kılavuz için, `HPSimplified.TTF` yazı tipi.
 4. C# ve PDF düzenleme konusunda temel bilgi.
 
 Hazırsanız gerekli paketleri import etmeye geçelim.
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string fontFile = dataDir + "HPSimplified.TTF";
 ```
 
- Bu adımda, şunu değiştireceksiniz:`"YOUR DOCUMENT DIRECTORY"` Dosyalarınızı depoladığınız gerçek yol ile. Bu, yazı tipi dosyanızı yerleştireceğiniz yer olacaktır (`HPSimplified.TTF`) ve PDF'in nereye kaydedileceği.
+Bu adımda, şunu değiştireceksiniz: `"YOUR DOCUMENT DIRECTORY"` Dosyalarınızı depoladığınız gerçek yol ile. Bu, yazı tipi dosyanızı yerleştireceğiniz yer olacaktır (`HPSimplified.TTF`) ve PDF'in nereye kaydedileceği.
 
 ## Adım 2: Bir PDF Belgesi Yükleyin
 
@@ -64,14 +66,14 @@ Bu yeni, boş bir PDF belgesi oluşturur. Kolay, değil mi?
 
 ## Adım 3: Metin Biçimlendirme Seçeneklerini Ayarlayın
 
- İşte sihir burada gerçekleşiyor. PDF'ye eklemek istediğimiz metin için satır aralığı modunu belirteceğiz. Aspose.PDF bize birkaç seçenek sunuyor, ancak bu kılavuzda,`LineSpacingMode.FullSize`Satır aralıklarının tam olarak korunmasını sağlar.
+İşte sihir burada gerçekleşiyor. PDF'e eklemek istediğimiz metin için satır aralığı modunu belirteceğiz. Aspose.PDF bize birkaç seçenek sunuyor, ancak bu kılavuzda, `LineSpacingMode.FullSize`Satır aralıklarının tam olarak korunmasını sağlar.
 
 ```csharp
 TextFormattingOptions formattingOptions = new TextFormattingOptions();
 formattingOptions.LineSpacing = TextFormattingOptions.LineSpacingMode.FullSize;
 ```
 
- Bu kod satır aralığı modunu ayarlar`FullSize` , metnin uygun aralıklarla görüntülenmesini sağlar. Diğer seçenekler de vardır`Proportional` farklı aralık davranışları istiyorsanız, ancak şimdilik, buna bağlı kalalım`FullSize`.
+Bu kod satır aralığı modunu ayarlar `FullSize`metnin uygun aralıklarla görüntülenmesini sağlar. Diğer seçenekler de vardır `Proportional` farklı aralık davranışları istiyorsanız, ancak şimdilik, buna bağlı kalalım `FullSize`.
 
 ## Adım 4: Bir Metin Parçası Oluşturun
 
@@ -81,11 +83,11 @@ formattingOptions.LineSpacing = TextFormattingOptions.LineSpacingMode.FullSize;
 TextFragment textFragment = new TextFragment("Hello world");
 ```
 
- Dize ile bir metin parçası oluşturduk`"Hello world"`Elbette bu metni istediğiniz gibi özelleştirebilirsiniz.
+Dize ile bir metin parçası oluşturduk `"Hello world"`Elbette bu metni istediğiniz gibi özelleştirebilirsiniz.
 
 ## Adım 5: Özel bir Yazı Tipi Yükleyin ve Uygulayın
 
-Metnin öne çıkmasını sağlamak için, bir dosyadan özel bir TrueType yazı tipi yükleyeceğiz. Bu adım isteğe bağlıdır, ancak PDF'lerinize profesyonel bir dokunuş katabilir.
+Metni öne çıkarmak için, bir dosyadan özel bir TrueType yazı tipi yükleyeceğiz. Bu adım isteğe bağlıdır, ancak PDF'lerinize profesyonel bir dokunuş katabilir.
 
 ```csharp
 if (fontFile != "")
@@ -106,7 +108,7 @@ textFragment.Position = new Position(100, 600);
 textFragment.TextState.FormattingOptions = formattingOptions;
 ```
 
- The`Position` method metnin sayfada görüneceği koordinatları ayarlar (bu durumda, soldan 100 birim ve alttan 600 birim). Satır aralığı modu da dahil olmak üzere biçimlendirme seçenekleri burada uygulanır.
+The `Position` method metnin sayfada görüneceği koordinatları ayarlar (bu durumda, soldan 100 birim ve alttan 600 birim). Satır aralığı modu da dahil olmak üzere biçimlendirme seçenekleri burada uygulanır.
 
 ## Adım 7: PDF Sayfasına Metin Ekleyin
 
@@ -139,22 +141,24 @@ PDF manipülasyonunda daha derinlere dalmak istiyorsanız, Aspose.PDF keşfedebi
 ## SSS
 
 ### Satır aralığını diğer modlara göre ayarlayabilir miyim?  
- Evet, şu gibi diğer modları da kullanabilirsiniz:`Proportional` veya`Fixed` ihtiyaçlarınıza bağlı olarak.
+Evet, şu gibi diğer modları da kullanabilirsiniz: `Propveyational` or `Fixed` ihtiyaçlarınıza bağlı olarak.
 
-### Fontları dosya yerine sistemden yüklemek mümkün müdür?  
- Evet, sistem tarafından yüklenen yazı tiplerini kullanarak yükleyebilirsiniz.`FontRepository`.
+### Dosya yerine sistemden font yüklemek mümkün müdür?  
+Evet, sistem tarafından yüklenen yazı tiplerini kullanarak yükleyebilirsiniz. `FontRepository`.
 
 ### Aspose.PDF for .NET'i diğer dosya formatlarıyla birlikte kullanabilir miyim?  
 Kesinlikle! Aspose.PDF for .NET, XML, HTML ve daha fazlası gibi çeşitli formatları destekler.
 
 ### Aspose.PDF for .NET'i kullanmak için lisansa ihtiyacım var mı?  
-Evet, tam işlevsellik için edinebileceğiniz bir lisansa ihtiyacınız olacak[Burada](https://purchase.aspose.com/buy).
+Evet, tam işlevsellik için edinebileceğiniz bir lisansa ihtiyacınız olacak [Burada](https://purchase.aspose.com/buy).
 
 ### Birden fazla paragraf için satır aralığını nasıl ayarlarım?  
- Başvurabilirsiniz`TextFormattingOptions` her birine`TextFragment` veya`TextParagraph` birden fazla satır veya paragraf için aralıkları kontrol etmek için.
+Başvurabilirsiniz `TextFormattingOptions` her birine `TextFragment` veya `TextParagraph` birden fazla satır veya paragraf için aralıkları kontrol etmek için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-document/addremovejavascripttodoc/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Remove Javascript To PDF Document
@@ -150,6 +152,7 @@ No, removing JavaScript only affects the script. The content of the PDF remains 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

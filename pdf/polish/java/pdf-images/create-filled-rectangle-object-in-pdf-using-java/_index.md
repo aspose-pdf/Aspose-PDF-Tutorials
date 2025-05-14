@@ -1,14 +1,16 @@
 ---
-title: Utwórz wypełniony obiekt prostokątny w pliku PDF za pomocą języka Java
-linktitle: Utwórz wypełniony obiekt prostokątny w pliku PDF za pomocą języka Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak tworzyć wypełnione prostokąty w plikach PDF za pomocą języka Java z Aspose.PDF dla języka Java. Samouczek krok po kroku z przykładami kodu.
-weight: 12
-url: /pl/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
+"description": "Dowiedz się, jak tworzyć wypełnione prostokąty w plikach PDF za pomocą języka Java z Aspose.PDF dla języka Java. Samouczek krok po kroku z przykładami kodu."
+"linktitle": "Utwórz wypełniony obiekt prostokątny w pliku PDF za pomocą języka Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Utwórz wypełniony obiekt prostokątny w pliku PDF za pomocą języka Java"
+"url": "/pl/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz wypełniony obiekt prostokątny w pliku PDF za pomocą języka Java
@@ -30,7 +32,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 
 Aby rozpocząć, musisz pobrać Aspose.PDF dla Java ze strony internetowej. Wykonaj następujące kroki:
 
-1.  Uzyskaj dostęp do dokumentacji Aspose.PDF dla języka Java pod adresem[Tutaj](https://reference.aspose.com/pdf/java/).
+1. Uzyskaj dostęp do dokumentacji Aspose.PDF dla języka Java pod adresem [Tutaj](https://reference.aspose.com/pdf/java/).
 
 2. Pobierz bibliotekę i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
 
@@ -66,7 +68,7 @@ page.getParagraphs().add(filledRectangle);
 ```
 
 W tym kodzie:
--  Tworzymy nowy`Rectangle` obiekt, określając jego położenie (x=100, y=100), szerokość (200) i wysokość (50).
+- Tworzymy nowy `Rectangle` obiekt, określając jego położenie (x=100, y=100), szerokość (200) i wysokość (50).
 - Ustawiamy kolor tła prostokąta na czerwony.
 - Na koniec dodajemy prostokąt do strony.
 
@@ -102,7 +104,7 @@ Możesz zainstalować Aspose.PDF dla Java, pobierając bibliotekę ze strony int
 
 ### Czy mogę zmienić kolor wypełnionego prostokąta?
 
- Tak, możesz dostosować kolor wypełnionego prostokąta, ustawiając kolor jego tła za pomocą`setBackgroundColor`metodą, jak pokazano w samouczku.
+Tak, możesz dostosować kolor wypełnionego prostokąta, ustawiając kolor jego tła za pomocą `setBackgroundColor` metodą, jak pokazano w samouczku.
 
 ### Czy Aspose.PDF dla Java jest darmowy?
 
@@ -110,10 +112,12 @@ Aspose.PDF for Java jest biblioteką komercyjną i może być konieczne zakupien
 
 ### Gdzie mogę znaleźć więcej przykładów wykorzystania Aspose.PDF w Javie?
 
- Więcej przykładów i szczegółową dokumentację dotyczącą korzystania z Aspose.PDF dla języka Java można znaleźć na stronie internetowej Aspose pod adresem[Tutaj](https://reference.aspose.com/pdf/java/).
+Więcej przykładów i szczegółową dokumentację dotyczącą korzystania z Aspose.PDF dla języka Java można znaleźć na stronie internetowej Aspose pod adresem [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

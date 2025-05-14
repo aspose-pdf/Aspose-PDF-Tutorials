@@ -8,7 +8,9 @@ url: /java/pdf-annotations/strike-through-text-using-annotations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Strike Through Text using Annotations
@@ -105,6 +107,7 @@ For comprehensive documentation and further resources, visit the Aspose.PDF for 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

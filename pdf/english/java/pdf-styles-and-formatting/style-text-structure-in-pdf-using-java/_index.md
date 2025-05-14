@@ -8,7 +8,9 @@ url: /java/pdf-styles-and-formatting/style-text-structure-in-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Style Text Structure in PDF using Java
@@ -213,6 +215,7 @@ You can find comprehensive documentation for Aspose.PDF for Java at [here](https
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Tagged PDFs with Aspose.PDF for Java: A Comprehensive Guide
 
@@ -211,7 +213,11 @@ A: Refer to [Aspose's support forum](https://forum.aspose.com/c/pdf/10) for solu
 
 **Q5: Can I integrate Aspose.PDF with other Java libraries?**
 A: Yes, Aspose.PDF is compatible with various Java frameworks and tools.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

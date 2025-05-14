@@ -1,14 +1,16 @@
 ---
-title: Konten PDF yang Ditandai
-linktitle: Konten PDF yang Ditandai
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara bekerja dengan konten yang diberi tag dalam dokumen PDF dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk menggunakan tag.
-weight: 200
-url: /id/net/programming-with-tagged-pdf/tagged-pdf-content/
+"description": "Pelajari cara bekerja dengan konten yang diberi tag dalam dokumen PDF dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk menggunakan tag."
+"linktitle": "Konten PDF yang Ditandai"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Konten PDF yang Ditandai"
+"url": "/id/net/programming-with-tagged-pdf/tagged-pdf-content/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konten PDF yang Ditandai
@@ -22,7 +24,7 @@ Di era digital, dokumen sama pentingnya dengan kata-kata yang dibawanya, terutam
 Sebelum menyelami pembuatan PDF bertag Anda lebih dalam, mari kumpulkan alat-alat yang Anda perlukan. Bayangkan Anda hendak membuat kue: Anda tidak ingin melewatkan satu bahan pun, bukan? Berikut ini adalah daftar periksa yang mudah dipahami.
 
 1. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.PDF kompatibel dengan .NET, jadi ini adalah fondasi yang penting.
-2.  Pustaka Aspose.PDF: Anda memerlukan pustaka itu sendiri. Jangan khawatir; Anda dapat mengambilnya dengan mudah dari[Tautan Unduhan](https://releases.aspose.com/pdf/net/).
+2. Pustaka Aspose.PDF: Anda memerlukan pustaka itu sendiri. Jangan khawatir; Anda dapat mengambilnya dengan mudah dari [Tautan Unduhan](https://releases.aspose.com/pdf/net/).
 3. Visual Studio atau IDE apa pun: Memiliki Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio akan memperlancar perjalanan pengodean Anda. Ini seperti menyiapkan dapur yang nyaman sebelum memanggang.
 4. Pengetahuan Dasar C#: Memahami cara menulis kode C# sangatlah penting. Jika Anda memahami dasar-dasarnya, Anda siap untuk memulai!
 
@@ -43,7 +45,7 @@ Untuk menggunakan Aspose.PDF, Anda dapat mengunduhnya secara langsung atau mengg
 
 ### Sertakan Namespace dalam Kode Anda
 
-Setelah Aspose.PDF terinstal, saatnya mengimpor namespace di bagian atas file C# Anda. Ini seperti mengenakan celemek sebelum mulai memasak.
+Sekarang setelah Anda memasang Aspose.PDF, saatnya mengimpor namespace di bagian atas file C# Anda. Ini seperti mengenakan celemek sebelum mulai memasak.
 
 ```csharp
 using Aspose.Pdf.Tagged;
@@ -66,7 +68,7 @@ Sebelum Anda membuat PDF, mari kita siapkan direktori tempat dokumen Anda akan d
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ubah ke jalur direktori Anda
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan PDF Anda. 
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan PDF Anda. 
 
 ## Langkah 2: Buat Dokumen PDF
 
@@ -127,16 +129,18 @@ PDF yang diberi tag adalah dokumen PDF yang telah disusun dengan tag untuk menin
 Aspose.PDF menawarkan serangkaian fitur tangguh untuk membuat, memodifikasi, dan memanipulasi file PDF secara terprogram, membuatnya ideal untuk pengembang .NET.
 
 ### Di mana saya dapat mengunduh Aspose.PDF?
- Anda dapat mengunduh perpustakaan dari[Tautan Unduhan](https://releases.aspose.com/pdf/net/).
+Anda dapat mengunduh perpustakaan dari [Tautan Unduhan](https://releases.aspose.com/pdf/net/).
 
 ### Apakah ada versi uji coba Aspose.PDF yang tersedia?
- Ya! Anda dapat memulai dengan versi uji coba gratis dengan mengunjungi[Tautan Uji Coba Gratis](https://releases.aspose.com/).
+Ya! Anda dapat memulai dengan versi uji coba gratis dengan mengunjungi [Tautan Uji Coba Gratis](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Untuk pertanyaan atau masalah dukungan apa pun, kunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Untuk pertanyaan atau masalah dukungan apa pun, kunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

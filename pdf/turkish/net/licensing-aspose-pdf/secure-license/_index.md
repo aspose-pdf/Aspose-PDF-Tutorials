@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Güvenli Lisans
-linktitle: PDF Dosyasında Güvenli Lisans
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF lisansınızı bir PDF dosyasında nasıl güvence altına alacağınızı öğrenin. Gelişmiş özelliklerin kilidini açın ve uyumluluğu zahmetsizce sağlayın.
-weight: 40
-url: /tr/net/licensing-aspose-pdf/secure-license/
+"description": "Bu adım adım kılavuzla Aspose.PDF lisansınızı bir PDF dosyasında nasıl güvence altına alacağınızı öğrenin. Gelişmiş özelliklerin kilidini açın ve uyumluluğu zahmetsizce sağlayın."
+"linktitle": "PDF Dosyasında Güvenli Lisans"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Güvenli Lisans"
+"url": "/tr/net/licensing-aspose-pdf/secure-license/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Güvenli Lisans
@@ -22,9 +24,9 @@ Yazılım geliştirme dünyasında, uygulamalarınızın sorunsuz ve verimli bir
 Koda dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET kodunuzu burada yazacak ve çalıştıracaksınız.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[Aspose PDF Sürümleri](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz: [Aspose PDF Sürümleri](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
-4.  Lisans Dosyası: Aspose lisans dosyanız hazır olmalı. Eğer yoksa, bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) test amaçlı.
+4. Lisans Dosyası: Aspose lisans dosyanız hazır olmalı. Eğer yoksa, bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) test amaçlı.
 
 ## Paketleri İçe Aktar
 
@@ -32,17 +34,17 @@ Başlamak için, C# projenize gerekli paketleri içe aktarmanız gerekir. Bunu n
 
 1. Visual Studio projenizi açın.
 2. Çözüm Gezgini'nde projenize sağ tıklayın ve "NuGet Paketlerini Yönet" seçeneğini seçin.
-3.  Arama`Aspose.PDF` ve en son sürümü yükleyin.
+3. Arama `Aspose.PDF` ve en son sürümü yükleyin.
 
 Paketi kurduktan sonra lisansınızı güvence altına almak için kod yazmaya başlayabilirsiniz.
 
 ## Adım 1: Yeni bir C# Dosyası Oluşturun
 
-İlk önce projenizde yeni bir C# dosyası oluşturun. Buna şu ismi verebilirsiniz:`SecureLicense.cs`Bu dosya lisansınızı güvence altına almak için gerekli tüm kodları içerecektir.
+İlk önce projenizde yeni bir C# dosyası oluşturun. Buna şu ismi verebilirsiniz: `SecureLicense.cs`Bu dosya lisansınızı güvence altına almak için gerekli tüm kodları içerecektir.
 
 ## Adım 2: Yönergeleri Kullanarak Ekleme
 
- En üstte`SecureLicense.cs` dosyasına, aşağıdaki using yönergelerini ekleyin. Bunlar, Aspose kütüphanesinden ihtiyaç duyduğunuz sınıflara ve yöntemlere erişmenizi sağlayacaktır.
+En üstte `SecureLicense.cs` dosyasına, aşağıdaki using yönergelerini ekleyin. Bunlar, Aspose kütüphanesinden ihtiyaç duyduğunuz sınıflara ve yöntemlere erişmenizi sağlayacaktır.
 
 ```csharp
 using System.IO;
@@ -51,7 +53,7 @@ using Ionic.Zip;
 
 ## Adım 3: Güvenli Lisansı Başlatın
 
- Şimdi, güvenli lisansı başlatalım. Sihir burada gerçekleşir. Şunu kullanacaksınız:`SecureLicense` Lisans dosyanızı yönetmek için sınıf. İşte nasıl yapılacağı:
+Şimdi, güvenli lisansı başlatalım. Sihir burada gerçekleşir. Şunu kullanacaksınız: `SecureLicense` Lisans dosyanızı yönetmek için sınıf. İşte nasıl yapılacağı:
 
 ```csharp
 using (Stream zip = new SecureLicense().GetType().Assembly.GetManifestResourceStream("Aspose.Total.lic.zip"))
@@ -68,7 +70,7 @@ using (Stream zip = new SecureLicense().GetType().Assembly.GetManifestResourceSt
 
 
 - Akış zip: Bu satır, derlemeye gömülü lisans dosyasını okumak için bir akış başlatır.
--  ZipFile zf: Burada, yeni bir örnek oluşturuyoruz`ZipFile` zip dosyasının içeriğini okumak için.
+- ZipFile zf: Burada, yeni bir örnek oluşturuyoruz `ZipFile` zip dosyasının içeriğini okumak için.
 - MemoryStream ms: Bu bellek akışı çıkarılan lisans dosyasını tutacaktır.
 - ZipEntry e: Bu satır zip dosyasından belirli lisans girişini alır.
 - ExtractWithPassword: Son olarak verilen şifreyi kullanarak lisans dosyasını çıkarıyoruz.
@@ -82,7 +84,7 @@ License license = new License();
 license.SetLicense(ms);
 ```
 
--  Lisans lisansı: Bu, yeni bir örnek oluşturur`License` sınıf.
+- Lisans lisansı: Bu, yeni bir örnek oluşturur `License` sınıf.
 - SetLicense(ms): Bu metot daha önce oluşturduğumuz bellek akışından lisansı yükler.
 
 ## Adım 5: Lisansı test edin
@@ -109,19 +111,21 @@ Lisansınızı .NET için Aspose.PDF kullanarak bir PDF dosyasında güvence alt
 Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.PDF için geçici lisansı nasıl alabilirim?
- Geçici lisans almak için şu adresi ziyaret edebilirsiniz:[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Geçici lisans almak için şu adresi ziyaret edebilirsiniz: [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
 Aspose, lisans satın almadan önce kütüphaneyi değerlendirebilmeniz için kullanabileceğiniz ücretsiz deneme sürümü sunuyor.
 
 ### Aspose.PDF dokümanlarını nerede bulabilirim?
- Belgeler şu adreste bulunabilir:[Aspose PDF Belgeleri](https://reference.aspose.com/pdf/net/).
+Belgeler şu adreste bulunabilir: [Aspose PDF Belgeleri](https://reference.aspose.com/pdf/net/).
 
 ### Ehliyetimle ilgili sorun yaşarsam ne yapmalıyım?
- Herhangi bir sorunla karşılaşırsanız, yardım isteyebilirsiniz.[Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Herhangi bir sorunla karşılaşırsanız, yardım isteyebilirsiniz. [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

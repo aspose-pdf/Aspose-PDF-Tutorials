@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ By following this tutorial, you have learned how to detect table page breaks usi
 By equipping yourself with these skills, you're now ready to tackle complex PDF generation tasks using Aspose.PDF for .NET. Enjoy crafting seamless and professional documents!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

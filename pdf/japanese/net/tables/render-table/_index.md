@@ -1,45 +1,51 @@
 ---
-title: Aspose.PDF を使って.NET の PDF をテーブルで作成する
-weight: 7700
-limit: 
-description: .NET のAspose.PDFを使用して表を含む PDF 文書を作成する方法について学びます. 辺を設定し,異なるページに表を追加し,ファイルを簡単に保存します. 
-keywords: [Aspose.PDF for .NET, create PDF table, insert tables in PDF, .NET PDF generator, PDF table example, Aspose.PDF tables, add tables in PDF C#]
-url: /ja/net/tables/render-table/
+"description": "Aspose.PDF for .NET を使用して、表を含むPDFドキュメントを作成する方法を学びましょう。余白の設定、複数のページへの表の追加、そしてファイルの保存も簡単に行えます。"
+"title": "Aspose.PDF for .NET を使用してテーブル付きの PDF を作成する"
+"url": "/ja/net/tables/render-table/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDFを使用してテーブルで PDFを作成する
+# Aspose.PDF を使用してテーブル付きの PDF を作成する
 
-Aspose.PDFは,開発者がテーブル作成,ページフォーマットなどの豊富な機能でPDF文書をプログラム的に生成できるようにします.このチュートリアルでは,テーブル,マージンを設定し,複数のテーブルを異なるページに挿入する PDFを作成する方法を学びます.構造化レポート,請求書,データテーブルが必要かどうか,このガイドは効率的に開始するのに役立ちます.  
+Aspose.PDF for .NET を使えば、開発者は表の作成、ページの書式設定など、豊富な機能を備えたPDFドキュメントをプログラムで生成できます。このチュートリアルでは、表を含むPDFの作成方法、余白の設定方法、複数のページにまたがる表の挿入方法を学びます。構造化されたレポート、請求書、データテーブルなど、どんな用途でも、このガイドは効率的に作業を開始するのに役立ちます。  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/render-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 設置説明書:  
-.NET でAspose.PDFを使用するには,次の手順を実行します:  
 
-1. Aspose.PDFをダウンロードしてインストールする.  
-   * 訪問する[Aspose.PDF は .NET ダウンロード](https://releases.aspose.com/pdf/net/)最新版をダウンロードします  
-   * NuGet パッケージマネージャーでインストールしてください.  
+{{< blocks/products/pf/tutorial-page-section >}}
+## インストール手順:  
+Aspose.PDF for .NET を使用するには、次の手順に従います。  
+
+1. Aspose.PDF for .NET をダウンロードしてインストールします。  
+   - 訪問 [Aspose.PDF for .NET のダウンロード](https://releases.aspose.com/pdf/net/) 最新バージョンをダウンロードしてください。  
+   - または、NuGet パッケージ マネージャー経由でインストールします。  
      ```sh
      Install-Package Aspose.PDF
      ```  
 
-2. プロジェクトにAspose.PDFの名前空間に追加する:  
+2. プロジェクトに Aspose.PDF 名前空間を含める:  
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Text;
    ```
 
-## 詳細は  
-[Aspose.PDF は .NET ドキュメンテーション](https://docs.aspose.com/pdf/net/)  
-[Aspose.PDF は .NET API 参照の](https://reference.aspose.com/pdf/net/)  
+## 詳細については、以下をご覧ください。  
+[Aspose.PDF for .NET ドキュメント](https://docs.aspose.com/pdf/net/)  
+[Aspose.PDF for .NET API リファレンス](https://reference.aspose.com/pdf/net/)  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

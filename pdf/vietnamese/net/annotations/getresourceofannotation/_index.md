@@ -1,14 +1,16 @@
 ---
-title: Nhận Tài nguyên của Chú thích
-linktitle: Nhận Tài nguyên của Chú thích
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Mở khóa sức mạnh quản lý PDF với Aspose.PDF cho .NET - thư viện dành cho bạn để chú thích và chỉnh sửa PDF liền mạch.
-weight: 90
-url: /vi/net/annotations/getresourceofannotation/
+"description": "Mở khóa sức mạnh quản lý PDF với Aspose.PDF cho .NET - thư viện dành cho bạn để chú thích và chỉnh sửa PDF liền mạch."
+"linktitle": "Nhận Tài nguyên của Chú thích"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhận Tài nguyên của Chú thích"
+"url": "/vi/net/annotations/getresourceofannotation/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận Tài nguyên của Chú thích
@@ -25,7 +27,7 @@ Trước khi đi sâu vào chi tiết về chú thích PDF, có một số đi�
 Có hiểu biết cơ bản về lập trình C# hoặc .NET framework là điều cần thiết. Đây là nơi bạn sẽ dành phần lớn thời gian khi thao tác với các tài liệu PDF.
 
 ### Aspose.PDF cho Thư viện .NET
- Để bắt đầu, bạn cần cài đặt Aspose.PDF cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/pdf/net/).
+Để bắt đầu, bạn cần cài đặt Aspose.PDF cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/pdf/net/).
 
 ### IDE cho Phát triển
 Chọn một IDE phù hợp như Visual Studio hoặc JetBrains Rider để thiết lập môi trường của bạn. Điều này sẽ giúp bạn viết và kiểm tra mã của mình một cách hiệu quả.
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Mở tài liệu PDF của bạn
 
- Bây giờ bạn đã thiết lập thư mục tài liệu của mình, đã đến lúc mở tệp PDF mà bạn muốn làm việc. Aspose.PDF giúp bạn thực hiện việc này một cách đơn giản với`Document` lớp học.
+Bây giờ bạn đã thiết lập thư mục tài liệu của mình, đã đến lúc mở tệp PDF mà bạn muốn làm việc. Aspose.PDF giúp bạn thực hiện việc này một cách đơn giản với `Document` lớp học.
 
 ```csharp
 // Mở tài liệu
@@ -72,7 +74,7 @@ Trong ví dụ này, chúng ta sẽ mở một tệp PDF có tên AddAnnotation.
 
 ## Bước 3: Tạo chú thích
 
- Tiếp theo, chúng ta sẽ tạo một chú thích mới. Ở đây, chúng ta đang sử dụng một`ScreenAnnotation`cho phép bạn đính kèm các tệp đa phương tiện như SWF vào PDF.
+Tiếp theo, chúng ta sẽ tạo một chú thích mới. Ở đây, chúng ta đang sử dụng một `ScreenAnnotation`, cho phép bạn đính kèm các tệp đa phương tiện như SWF vào PDF.
 
 ```csharp
 // Tạo chú thích
@@ -100,7 +102,7 @@ Sau khi thêm chú thích, đừng quên lưu thay đổi. Đây là khoảnh kh
 doc.Save(dataDir + "GetResourceOfAnnotation_Out.pdf");
 ```
 
-Bước này đảm bảo rằng tệp PDF đã cập nhật của bạn, bao gồm cả chú thích, sẽ được giữ nguyên.
+Bước này đảm bảo rằng tệp PDF đã cập nhật của bạn, bao gồm cả chú thích, sẽ được lưu giữ.
 
 ## Bước 6: Mở Tài liệu đã lưu
 
@@ -183,19 +185,21 @@ Và đó là tất cả những gì bạn cần – hướng dẫn từng bướ
 Aspose.PDF for .NET là thư viện được thiết kế cho các ứng dụng .NET, cho phép người dùng tạo, chỉnh sửa và chuyển đổi tài liệu PDF.
 
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PDF?
- Bạn có thể xin giấy phép tạm thời thông qua[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời thông qua [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.PDF từ[trang dùng thử miễn phí](https://releases.aspose.com/).
+Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.PDF từ [trang dùng thử miễn phí](https://releases.aspose.com/).
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
- Để được hỗ trợ, hãy truy cập diễn đàn Aspose dành riêng cho PDF[đây](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Để được hỗ trợ, hãy truy cập diễn đàn Aspose dành riêng cho PDF [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể mua Aspose.PDF trực tiếp không?
- Chắc chắn rồi! Bạn có thể mua sản phẩm thông qua[trang mua hàng](https://purchase.aspose.com/buy).
+Chắc chắn rồi! Bạn có thể mua sản phẩm thông qua [trang mua hàng](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

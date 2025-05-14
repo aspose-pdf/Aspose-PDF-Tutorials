@@ -8,7 +8,9 @@ url: /java/pdf-attachments/retrieve-attachment-information/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Retrieve Attachment Information
@@ -91,6 +93,7 @@ You can add attachments to a PDF document using the `AttachmentCollection.add()`
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

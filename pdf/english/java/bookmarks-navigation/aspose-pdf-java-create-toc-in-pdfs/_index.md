@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create a Table of Contents (TOC) in PDFs Using Aspose.PDF for Java: A Developer's Guide
 
@@ -160,7 +162,11 @@ import com.aspose.pdf.TextSegment;
 
 ```java
 String[] titles = {"First page\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

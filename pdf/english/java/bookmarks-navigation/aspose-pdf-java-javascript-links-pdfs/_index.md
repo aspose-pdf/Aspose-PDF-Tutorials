@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Interactive JavaScript Links in PDFs Using Aspose.PDF for Java
 
@@ -166,6 +168,9 @@ Ready to take it a step further? Consider integrating these interactive PDFs int
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

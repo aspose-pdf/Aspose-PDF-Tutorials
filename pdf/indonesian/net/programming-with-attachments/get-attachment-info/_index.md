@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Info Lampiran
-linktitle: Dapatkan Info Lampiran
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengambil info lampiran dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial komprehensif ini.
-weight: 50
-url: /id/net/programming-with-attachments/get-attachment-info/
+"description": "Pelajari cara mengambil info lampiran dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial komprehensif ini."
+"linktitle": "Dapatkan Info Lampiran"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Info Lampiran"
+"url": "/id/net/programming-with-attachments/get-attachment-info/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Info Lampiran
@@ -22,7 +24,7 @@ Dalam dunia manajemen dokumen, memahami cara mengekstrak dan memanipulasi data d
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan Anda.
-2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 4. Contoh Dokumen PDF: Untuk tutorial ini, Anda memerlukan dokumen PDF yang berisi file tertanam. Anda dapat membuatnya sendiri atau mengunduh contoh dari internet.
 
@@ -32,7 +34,7 @@ Untuk memulai, Anda perlu mengimpor paket yang diperlukan ke dalam proyek C# And
 
 1. Buka proyek Visual Studio Anda.
 2. Klik kanan pada proyek Anda di Solution Explorer dan pilih "Kelola Paket NuGet."
-3.  Pencarian untuk`Aspose.PDF` dan instal versi terbaru.
+3. Pencarian untuk `Aspose.PDF` dan instal versi terbaru.
 
 ```csharp
 using System.IO;
@@ -51,18 +53,18 @@ Langkah pertama dalam perjalanan kita adalah menyiapkan direktori tempat dokumen
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder dokumen Anda. Di sinilah berkas PDF Anda seharusnya berada.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder dokumen Anda. Di sinilah berkas PDF Anda seharusnya berada.
 
 ## Langkah 2: Buka Dokumen PDF
 
- Sekarang setelah direktori kita disiapkan, saatnya untuk membuka dokumen PDF. Ini dilakukan dengan menggunakan`Document` kelas disediakan oleh Aspose.PDF.
+Sekarang setelah direktori kita disiapkan, saatnya untuk membuka dokumen PDF. Ini dilakukan dengan menggunakan `Document` kelas disediakan oleh Aspose.PDF.
 
 ```csharp
 // Buka dokumen
 Document pdfDocument = new Document(dataDir + "GetAttachmentInfo.pdf");
 ```
 
- Di sini, kita membuat contoh baru dari`Document` class dan berikan path file PDF kita. Ini memungkinkan kita berinteraksi dengan konten PDF.
+Di sini, kita membuat contoh baru dari `Document` class dan meneruskan jalur file PDF kita. Ini memungkinkan kita berinteraksi dengan konten PDF.
 
 ## Langkah 3: Akses File Tertanam
 
@@ -103,7 +105,7 @@ if (fileSpecification.Params != null)
 }
 ```
 
- Pada langkah ini, kami memeriksa apakah`Params` objek tidak null. Jika berisi data, kami mencetak checksum, tanggal pembuatan, tanggal modifikasi, dan ukuran file. Informasi tambahan ini dapat sangat membantu untuk tujuan audit dan pelacakan.
+Pada langkah ini, kami memeriksa apakah `Params` objek tidak null. Jika berisi data, kami mencetak checksum, tanggal pembuatan, tanggal modifikasi, dan ukuran file. Informasi tambahan ini dapat sangat membantu untuk tujuan audit dan pelacakan.
 
 ## Kesimpulan
 
@@ -115,19 +117,21 @@ Selamat! Anda telah berhasil mempelajari cara mengambil informasi lampiran dari 
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Bagaimana cara menginstal Aspose.PDF untuk .NET?
- Anda dapat menginstalnya melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
+Anda dapat menginstalnya melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dari forum komunitas Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dari forum komunitas Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Jenis berkas apa yang dapat saya sematkan dalam PDF?
 Anda dapat menyematkan berbagai jenis file, termasuk gambar, dokumen, dan lembar kerja, selama didukung oleh format PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-i
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Table of Contents to an Existing PDF in Java
@@ -104,9 +106,11 @@ Yes, you can download a trial version of Aspose.PDF for Java from [Aspose.Purcha
 You can find comprehensive tutorials and documentation for Aspose.PDF for Java on website at [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
 
 In this article, we've explored how to add a table of contents to an existing PDF document using the Aspose.PDF for Java library. This feature can greatly improve the usability of your PDF documents, allowing readers to easily navigate to specific sections or chapters. Additionally, we've covered how to customize the appearance of the table of contents and generate page numbers. Aspose.PDF for Java offers a wide range of PDF manipulation capabilities, making it a powerful tool for working with PDFs in Java applications. If you need further assistance or want to explore more features of Aspose.PDF for Java, be sure to check out their documentation and tutorials.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

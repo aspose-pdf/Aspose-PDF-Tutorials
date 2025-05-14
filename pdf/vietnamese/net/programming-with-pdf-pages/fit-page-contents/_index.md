@@ -1,14 +1,16 @@
 ---
-title: Phù hợp với nội dung trang trong tệp PDF
-linktitle: Phù hợp với nội dung trang trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Dễ dàng điều chỉnh nội dung PDF của bạn bằng Aspose.PDF cho .NET. Hướng dẫn này cung cấp phương pháp chi tiết, từng bước để đạt được bố cục trang tối ưu.
-weight: 50
-url: /vi/net/programming-with-pdf-pages/fit-page-contents/
+"description": "Dễ dàng điều chỉnh nội dung PDF của bạn bằng Aspose.PDF cho .NET. Hướng dẫn này cung cấp phương pháp chi tiết, từng bước để đạt được bố cục trang tối ưu."
+"linktitle": "Phù hợp với nội dung trang trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Phù hợp với nội dung trang trong tệp PDF"
+"url": "/vi/net/programming-with-pdf-pages/fit-page-contents/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phù hợp với nội dung trang trong tệp PDF
@@ -22,9 +24,9 @@ Khi bạn làm việc với các tài liệu PDF, một thách thức thường 
 Trước khi đi sâu vào phần mã hóa với Aspose.PDF cho .NET, chúng ta hãy cùng tìm hiểu một số điều kiện tiên quyết để đảm bảo bạn có mọi thứ cần thiết để bắt đầu:
 
 1. Quen thuộc với C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#. Nếu bạn là người mới bắt đầu, có thể sẽ hữu ích nếu bạn ôn lại những kiến thức cơ bản trước.
-2.  Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF trong môi trường .NET của mình. Nếu bạn chưa thực hiện việc này, hãy kiểm tra[liên kết tải xuống này](https://releases.aspose.com/pdf/net/) để có phiên bản mới nhất.
+2. Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF trong môi trường .NET của mình. Nếu bạn chưa thực hiện việc này, hãy kiểm tra [liên kết tải xuống này](https://releases.aspose.com/pdf/net/) để có phiên bản mới nhất.
 3. Môi trường phát triển: Tốt nhất là nên thiết lập một IDE như Visual Studio để viết và thực thi mã của bạn một cách hiệu quả.
-4.  Tệp PDF mẫu: Vì mục đích của hướng dẫn này, hãy đảm bảo bạn có tệp PDF mẫu có tên`input.pdf` mà bạn có thể thao tác.
+4. Tệp PDF mẫu: Vì mục đích của hướng dẫn này, hãy đảm bảo bạn có tệp PDF mẫu có tên `input.pdf` mà bạn có thể thao tác.
 
 ## Nhập gói
 
@@ -34,7 +36,7 @@ Sau khi bạn đã thiết lập mọi thứ, điều đầu tiên cần làm l�
 
 Thêm tham chiếu đến thư viện Aspose.PDF cho .NET trong dự án của bạn. Bạn có thể thực hiện việc này thông qua NuGet Package Manager hoặc bằng cách tải xuống thư viện theo cách thủ công và thêm vào.
 
-Sau đây là cách nhanh chóng để đưa nó vào Bảng điều khiển quản lý gói NuGet:
+Sau đây là cách nhanh chóng để đưa nó vào NuGet Package Manager Console:
 
 ```bash
 Install-Package Aspose.PDF
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải tài liệu PDF của bạn
 
- Tiếp theo, tải tài liệu PDF vào`Document` đối tượng. Điều này cho phép bạn tương tác với nội dung của tệp.
+Tiếp theo, tải tài liệu PDF vào `Document` đối tượng. Điều này cho phép bạn tương tác với nội dung của tệp.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
@@ -79,7 +81,7 @@ foreach (Page page in doc.Pages)
 
 ## Bước 4: Lấy hộp phương tiện
 
- Đối với mỗi trang, hãy lấy lại`MediaBox` thuộc tính. Phần này cung cấp kích thước của trang nơi nội dung được hiển thị.
+Đối với mỗi trang, hãy lấy lại `MediaBox` thuộc tính. Phần này cung cấp kích thước của trang nơi nội dung được hiển thị.
 
 ```csharp
     Rectangle r = page.MediaBox;
@@ -115,7 +117,7 @@ doc.Save(dataDir + "output_fitted.pdf");
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn vừa học được cách đưa nội dung trang vào tài liệu PDF bằng Aspose.PDF cho .NET. Với kỹ năng này, bạn có thể đảm bảo rằng tất cả các thành phần trong PDF của mình được hiển thị chính xác mà không có bất kỳ vết cắt khó xử nào hoặc thông tin bị thiếu. Có được mức độ kiểm soát đó không phải là điều tuyệt vời sao?
+Xin chúc mừng! Bạn vừa học được cách đưa nội dung trang vào tài liệu PDF bằng Aspose.PDF cho .NET. Với kỹ năng này, bạn có thể đảm bảo rằng tất cả các thành phần trong PDF của mình được hiển thị chính xác mà không có bất kỳ vết cắt vụng về nào hoặc thông tin bị thiếu. Có được mức độ kiểm soát đó không phải là điều tuyệt vời sao?
 
 ## Câu hỏi thường gặp
 
@@ -123,19 +125,21 @@ Xin chúc mừng! Bạn vừa học được cách đưa nội dung trang vào t
 Đây là một thư viện mạnh mẽ cho phép các nhà phát triển tạo và xử lý các tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có! Có bản dùng thử miễn phí. Kiểm tra nhé[đây](https://releases.aspose.com/).
+Có! Có bản dùng thử miễn phí. Kiểm tra nhé [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu mở rộng trên trang web của Aspose[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu mở rộng trên trang web của Aspose [đây](https://reference.aspose.com/pdf/net/).
 
 ### Tôi có thể thực hiện những thao tác nào trên tệp PDF?
 Bạn có thể tạo, chỉnh sửa, chuyển đổi và bảo mật tài liệu PDF cùng nhiều chức năng khác.
 
 ### Làm thế nào để tôi yêu cầu hỗ trợ cho Aspose.PDF?
- Bạn có thể truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/pdf/10) để được trợ giúp giải đáp mọi thắc mắc.
+Bạn có thể truy cập diễn đàn hỗ trợ [đây](https://forum.aspose.com/c/pdf/10) để được trợ giúp giải đáp mọi thắc mắc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

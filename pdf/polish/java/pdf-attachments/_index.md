@@ -1,14 +1,16 @@
 ---
-title: Załączniki PDF
-linktitle: Załączniki PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Naucz się zarządzać załącznikami PDF w Javie za pomocą Aspose.PDF. Bezproblemowo dołączaj pliki, obrazy i inne do swoich plików PDF.
-weight: 11
-url: /pl/java/pdf-attachments/
+"description": "Naucz się zarządzać załącznikami PDF w Javie za pomocą Aspose.PDF. Bez wysiłku dołączaj pliki, obrazy i inne do swoich plików PDF."
+"linktitle": "Załączniki PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Załączniki PDF"
+"url": "/pl/java/pdf-attachments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Załączniki PDF
@@ -33,9 +35,11 @@ Dowiedz się, jak usuwać załączniki z plików PDF w Javie za pomocą Aspose.P
 Dowiedz się, jak pobierać załączniki PDF w Javie za pomocą Aspose.PDF. Przewodnik krok po kroku z przykładami kodu do zarządzania załącznikami dokumentów PDF.
 ### [Wyświetl wszystkie załączniki w dokumentach PDF](./list-all-attachments-pdf-documents/)
 Dowiedz się, jak wyświetlać załączniki w plikach PDF za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku, jak łatwo wyodrębnić załączniki PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

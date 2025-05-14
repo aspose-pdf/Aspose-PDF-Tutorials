@@ -1,14 +1,16 @@
 ---
-title: Получить закладки в PDF-файле
-linktitle: Получить закладки в PDF-файле
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как извлекать закладки из файлов PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. Улучшите навигацию по PDF.
-weight: 70
-url: /ru/net/programming-with-bookmarks/get-bookmarks/
+"description": "Узнайте, как извлекать закладки из файлов PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. Улучшите навигацию по PDF."
+"linktitle": "Получить закладки в PDF-файле"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Получить закладки в PDF-файле"
+"url": "/ru/net/programming-with-bookmarks/get-bookmarks/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить закладки в PDF-файле
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-bookmarks/get-bookmarks/
 Прежде чем начать, вам необходимо подготовить несколько вещей:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Это идеальная IDE для разработки .NET.
-2.  Aspose.PDF для .NET: Вам нужно будет скачать и установить библиотеку Aspose.PDF. Вы можете найти ее[здесь](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF для .NET: Вам нужно будет скачать и установить библиотеку Aspose.PDF. Вы можете найти ее [здесь](https://releases.aspose.com/pdf/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам понять фрагменты кода, которые мы будем использовать.
 
 ## Импортные пакеты
@@ -62,7 +64,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где хранится ваш PDF-файл. Это важно, поскольку программе необходимо знать, где найти PDF-файл.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где хранится ваш PDF-файл. Это важно, поскольку программе необходимо знать, где найти PDF-файл.
 
 ## Шаг 2: Откройте PDF-документ.
 
@@ -73,7 +75,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "GetBookmarks.pdf");
 ```
 
- Здесь мы создаем новый`Document`object и передайте путь к нашему PDF-файлу. Убедитесь, что имя файла совпадает с тем, что у вас в каталоге.
+Здесь мы создаем новый `Document` object и передайте путь к нашему PDF-файлу. Убедитесь, что имя файла совпадает с тем, что у вас в каталоге.
 
 ## Шаг 3: Просмотрите закладки
 
@@ -90,7 +92,7 @@ foreach (OutlineItemCollection outlineItem in pdfDocument.Outlines)
 }
 ```
 
- В этом фрагменте кода мы используем`foreach` цикл для итерации через каждый`OutlineItemCollection` в`pdfDocument.Outlines`. Для каждой закладки мы печатаем ее название, курсивный статус, жирный статус и цвет. Это дает нам полное представление о закладках в нашем PDF.
+В этом фрагменте кода мы используем `foreach` цикл для итерации через каждый `OutlineItemCollection` в `pdfDocument.Outlines`. Для каждой закладки мы печатаем ее название, статус курсива, статус жирного шрифта и цвет. Это дает нам полное представление о закладках в нашем PDF.
 
 ## Заключение
 
@@ -102,19 +104,21 @@ foreach (OutlineItemCollection outlineItem in pdfDocument.Outlines)
 Aspose.PDF для .NET — это мощная библиотека, которая позволяет разработчикам создавать, обрабатывать и конвертировать PDF-документы в приложениях .NET.
 
 ### Могу ли я использовать Aspose.PDF бесплатно?
- Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для изучения возможностей библиотеки. Вы можете загрузить ее[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для изучения возможностей библиотеки. Вы можете загрузить ее [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти поддержку по Aspose.PDF?
-Вы можете найти поддержку и задать вопросы на форуме Aspose.[здесь](https://forum.aspose.com/c/pdf/10).
+Вы можете найти поддержку и задать вопросы на форуме Aspose. [здесь](https://forum.aspose.com/c/pdf/10).
 
 ### Как получить временную лицензию для Aspose.PDF?
- Вы можете запросить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете запросить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Можно ли купить Aspose.PDF?
- Да, вы можете приобрести Aspose.PDF на их веб-сайте.[здесь](https://purchase.aspose.com/buy).
+Да, вы можете приобрести Aspose.PDF на их веб-сайте. [здесь](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

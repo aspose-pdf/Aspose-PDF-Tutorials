@@ -1,14 +1,16 @@
 ---
-title: Thêm JavaScript bằng DOM trong PDF
-linktitle: Thêm JavaScript bằng DOM trong PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách tăng cường khả năng tương tác của PDF bằng JavaScript bằng cách sử dụng Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn cho PDF động
-weight: 32
-url: /vi/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/
+"description": "Tìm hiểu cách tăng cường khả năng tương tác của PDF bằng JavaScript bằng cách sử dụng Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn cho PDF động"
+"linktitle": "Thêm JavaScript bằng DOM trong PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm JavaScript bằng DOM trong PDF"
+"url": "/vi/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm JavaScript bằng DOM trong PDF
@@ -30,7 +32,7 @@ JavaScript có thể được sử dụng để thêm hành vi động vào tài
 
 Trước khi bắt đầu, bạn cần thiết lập môi trường phát triển của mình. Sau đây là các bước:
 
-1. Tải xuống và cài đặt Aspose.PDF cho Java: Truy cập[Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/) để tải xuống và cài đặt thư viện.
+1. Tải xuống và cài đặt Aspose.PDF cho Java: Truy cập [Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/) để tải xuống và cài đặt thư viện.
 
 2. Tạo một dự án Java: Thiết lập một dự án Java trong Môi trường phát triển tích hợp (IDE) mà bạn thích.
 
@@ -85,7 +87,7 @@ com.aspose.pdf.form.Field itemQuantity = new com.aspose.pdf.form.Field();
 itemQuantity.setPartialName("item_quantity");
 pdfDocument.getForm().add(itemQuantity);
 
-// Tạo trường biểu mẫu cho giá sản phẩm
+// Tạo một trường biểu mẫu cho giá sản phẩm
 com.aspose.pdf.form.Field itemPrice = new com.aspose.pdf.form.Field();
 itemPrice.setPartialName("item_price");
 pdfDocument.getForm().add(itemPrice);
@@ -107,11 +109,11 @@ Bây giờ bạn đã hiểu cơ bản về cách thêm JavaScript vào PDF, hã
 
 ### Làm thế nào tôi có thể tải xuống Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ trang web bằng cách truy cập[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống Aspose.PDF cho Java từ trang web bằng cách truy cập [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
 ### Có hỗ trợ JavaScript trong tất cả các trình xem PDF không?
 
-Hầu hết các trình xem PDF hiện đại đều hỗ trợ JavaScript, nhưng điều cần thiết là phải kiểm tra PDF của bạn trên nhiều trình xem khác nhau để đảm bảo khả năng tương thích.
+Hầu hết các trình xem PDF hiện đại đều hỗ trợ JavaScript, nhưng bạn cần phải kiểm tra PDF của mình trên nhiều trình xem khác nhau để đảm bảo khả năng tương thích.
 
 ### Tôi có thể thêm JavaScript vào các tệp PDF hiện có không?
 
@@ -124,9 +126,11 @@ Hỗ trợ JavaScript trong PDF có thể có một số hạn chế tùy thuộ
 ### Tôi có thể tìm thêm các ví dụ JavaScript nâng cao cho tệp PDF ở đâu?
 
 Bạn có thể khám phá tài liệu Aspose.PDF dành cho Java để biết các ví dụ nâng cao và trường hợp sử dụng liên quan đến JavaScript trong PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

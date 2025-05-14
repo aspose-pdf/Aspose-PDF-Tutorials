@@ -1,33 +1,35 @@
 ---
-title: Fehlende Schriftarten ersetzen
-linktitle: Fehlende Schriftarten ersetzen
-second_title: Aspose.PDF für .NET API-Referenz
-description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET fehlende Schriftarten in PDF-Dokumenten ersetzen.
-weight: 260
-url: /de/net/document-conversion/replace-missing-fonts/
+"description": "Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie fehlende Schriftarten in PDF-Dokumenten mit Aspose.PDF für .NET ersetzen."
+"linktitle": "Fehlende Schriftarten ersetzen"
+"second_title": "Aspose.PDF für .NET API-Referenz"
+"title": "Fehlende Schriftarten ersetzen"
+"url": "/de/net/document-conversion/replace-missing-fonts/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fehlende Schriftarten ersetzen
 
 ## Einführung
 
-Haben Sie schon einmal ein PDF-Dokument geöffnet und dabei festgestellt, dass einige Schriftarten fehlen? Das kann frustrierend sein, nicht wahr? Fehlende Schriftarten können dazu führen, dass ein Dokument ganz anders aussieht, als der Ersteller beabsichtigt hat. Glücklicherweise können Sie mit Aspose.PDF für .NET fehlende Schriftarten problemlos ersetzen und sicherstellen, dass Ihre PDF-Dokumente ihr beabsichtigtes Erscheinungsbild beibehalten. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Vorgang und machen ihn einfach und unkompliziert.
+Haben Sie schon einmal ein PDF-Dokument geöffnet und festgestellt, dass einige Schriftarten fehlen? Das kann frustrierend sein, oder? Fehlende Schriftarten können dazu führen, dass Ihr Dokument völlig anders aussieht als vom Ersteller beabsichtigt. Mit Aspose.PDF für .NET können Sie fehlende Schriftarten einfach ersetzen und sicherstellen, dass Ihre PDF-Dokumente ihr gewünschtes Erscheinungsbild behalten. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess und machen ihn einfach und unkompliziert.
 
 ## Voraussetzungen
 
 Bevor wir beginnen, müssen Sie einige Dinge vorbereitet haben:
 
-1.  Aspose.PDF für .NET: Stellen Sie sicher, dass Sie die Aspose.PDF-Bibliothek installiert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF für .NET: Stellen Sie sicher, dass die Aspose.PDF-Bibliothek installiert ist. Sie können sie hier herunterladen. [Hier](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Eine Entwicklungsumgebung, in der Sie Ihren Code schreiben und testen können.
-3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, verstehen Sie die Codeausschnitte besser.
+3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, können Sie die Codeausschnitte besser verstehen.
 
 ## Pakete importieren
 
-Zu Beginn müssen Sie die erforderlichen Pakete in Ihr C#-Projekt importieren. So können Sie das tun:
+Zunächst müssen Sie die erforderlichen Pakete in Ihr C#-Projekt importieren. So geht's:
 
 ```csharp
 using System;
@@ -38,16 +40,16 @@ using Aspose.Pdf.Text;
 
 ## Schritt 1: Richten Sie Ihr Dokumentverzeichnis ein
 
-Zunächst müssen Sie den Pfad zu Ihrem Dokumentenverzeichnis angeben. Hier befindet sich Ihre PDF-Eingabedatei und hier wird auch die Ausgabedatei gespeichert.
+Geben Sie zunächst den Pfad zu Ihrem Dokumentenverzeichnis an. Dort befindet sich Ihre PDF-Eingabedatei und dort wird auch die Ausgabedatei gespeichert.
 
 ```csharp
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
 ## Schritt 2: Initialisieren Sie die Originalschriftart
 
-Als nächstes sollten Sie versuchen, die möglicherweise fehlende Originalschriftart zu finden. In diesem Fall suchen wir nach „AgencyFB“.
+Als Nächstes sollten Sie versuchen, die möglicherweise fehlende Originalschriftart zu finden. In diesem Fall suchen wir nach „AgencyFB“.
 
 ```csharp
 Aspose.Pdf.Text.Font originalFont = null;
@@ -57,33 +59,33 @@ try
 }
 catch (Exception)
 {
-    //Auf dem Zielcomputer fehlt die Schriftart
+    // Auf dem Zielcomputer fehlt die Schriftart
     FontRepository.Substitutions.Add(new SimpleFontSubstitution("AgencyFB", "Arial"));
 }
 ```
 
-Hier versuchen wir, die Schriftart zu finden. Wenn sie nicht gefunden wird, fangen wir die Ausnahme ab und ersetzen sie durch eine gängigere Schriftart, „Arial“. Dadurch wird sichergestellt, dass Ihr Dokument auch dann noch gut aussieht, wenn die Originalschriftart nicht verfügbar ist.
+Hier versuchen wir, die Schriftart zu finden. Wird sie nicht gefunden, fangen wir die Ausnahme ab und ersetzen sie durch eine gängigere Schriftart, z. B. „Arial“. So stellen wir sicher, dass Ihr Dokument auch dann gut aussieht, wenn die Originalschriftart nicht verfügbar ist.
 
 ## Schritt 3: Laden Sie das PDF-Dokument
 
-Laden wir nun das PDF-Dokument, das Sie verarbeiten möchten. Sie müssen den Eingabedateipfad angeben.
+Laden Sie nun das PDF-Dokument, das Sie verarbeiten möchten. Geben Sie den Pfad zur Eingabedatei an.
 
 ```csharp
 var fileNew = new FileInfo(dataDir + "newfile_out.pdf");
 var pdf = new Document(dataDir + "input.pdf");
 ```
 
- In diesem Schritt erstellen wir ein neues`FileInfo` Objekt für die Ausgabedatei und laden Sie das Eingabe-PDF-Dokument in ein neues`Document` Objekt.
+In diesem Schritt erstellen wir eine neue `FileInfo` Objekt für die Ausgabedatei und laden Sie das Eingabe-PDF-Dokument in ein neues `Document` Objekt.
 
 ## Schritt 4: Konvertieren Sie das PDF-Dokument
 
-Bevor Sie das Dokument speichern, sollten Sie es in ein bestimmtes PDF-Format konvertieren. In diesem Fall konvertieren wir es in das Format PDF/A-1B, einen Standard für die langfristige Archivierung elektronischer Dokumente.
+Bevor Sie das Dokument speichern, sollten Sie es in ein bestimmtes PDF-Format konvertieren. In diesem Fall konvertieren wir es in das Format PDF/A-1B, einen Standard für die Langzeitarchivierung elektronischer Dokumente.
 
 ```csharp
 pdf.Convert(dataDir + "log.xml", PdfFormat.PDF_A_1B, ConvertErrorAction.Delete);
 ```
 
-Diese Zeile konvertiert das PDF und protokolliert alle Fehler in einer angegebenen XML-Datei. Wenn während der Konvertierung Probleme auftreten, werden diese in „log.xml“ aufgezeichnet.
+Diese Zeile konvertiert die PDF-Datei und protokolliert alle Fehler in einer angegebenen XML-Datei. Sollten während der Konvertierung Probleme auftreten, werden diese in „log.xml“ aufgezeichnet.
 
 ## Schritt 5: Speichern Sie das aktualisierte PDF-Dokument
 
@@ -93,11 +95,11 @@ Abschließend ist es an der Zeit, das aktualisierte PDF-Dokument mit den ersetzt
 pdf.Save(fileNew.FullName);
 ```
 
-Diese Zeile speichert die geänderte PDF-Datei im angegebenen Ausgabedateipfad. Und schon haben Sie fehlende Schriftarten in Ihrem PDF-Dokument erfolgreich ersetzt!
+Diese Zeile speichert die geänderte PDF-Datei im angegebenen Ausgabedateipfad. Damit haben Sie fehlende Schriftarten in Ihrem PDF-Dokument erfolgreich ersetzt!
 
 ## Abschluss
 
-Das Ersetzen fehlender Schriftarten in PDF-Dokumenten muss keine entmutigende Aufgabe sein. Mit Aspose.PDF für .NET können Sie Schriftartenersetzungen problemlos verwalten und sicherstellen, dass Ihre Dokumente so aussehen, wie sie sollten. Indem Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie die Integrität Ihrer PDF-Dateien aufrechterhalten, selbst wenn bestimmte Schriftarten nicht verfügbar sind. Wenn Sie also das nächste Mal auf ein Problem mit fehlenden Schriftarten stoßen, wissen Sie genau, was zu tun ist!
+Das Ersetzen fehlender Schriftarten in PDF-Dokumenten ist keine große Herausforderung. Mit Aspose.PDF für .NET können Sie Schriftarten einfach ersetzen und sicherstellen, dass Ihre Dokumente optimal aussehen. Mit den in diesem Tutorial beschriebenen Schritten bewahren Sie die Integrität Ihrer PDF-Dateien, selbst wenn bestimmte Schriftarten nicht verfügbar sind. So wissen Sie beim nächsten Mal genau, was zu tun ist!
 
 ## Häufig gestellte Fragen
 
@@ -105,19 +107,21 @@ Das Ersetzen fehlender Schriftarten in PDF-Dokumenten muss keine entmutigende Au
 Aspose.PDF für .NET ist eine leistungsstarke Bibliothek, mit der Entwickler PDF-Dokumente programmgesteuert erstellen, bearbeiten und konvertieren können.
 
 ### Kann ich Aspose.PDF kostenlos nutzen?
- Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Bibliothek testen können. Sie können sie herunterladen[Hier](https://releases.aspose.com/).
+Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Bibliothek testen können. Sie können sie herunterladen [Hier](https://releases.aspose.com/).
 
 ### Was soll ich tun, wenn die benötigte Schriftart nicht verfügbar ist?
-Sie können die fehlende Schriftart mithilfe der Schriftartenersetzungsfunktion in Aspose.PDF durch eine gebräuchlichere ersetzen.
+Sie können die fehlende Schriftart mithilfe der Schriftartersetzungsfunktion in Aspose.PDF durch eine gängigere ersetzen.
 
 ### Ist es möglich, PDFs in andere Formate zu konvertieren?
 Absolut! Aspose.PDF unterstützt die Konvertierung in verschiedene Formate, darunter PDF/A, DOCX und mehr.
 
 ### Wo finde ich Unterstützung für Aspose.PDF?
- Im Aspose-Forum finden Sie Unterstützung und können Fragen stellen[Hier](https://forum.aspose.com/c/pdf/10).
+Im Aspose-Forum finden Sie Unterstützung und können Fragen stellen [Hier](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

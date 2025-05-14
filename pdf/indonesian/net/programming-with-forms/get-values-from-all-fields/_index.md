@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Nilai Dari Semua Bidang Dalam Dokumen PDF
-linktitle: Dapatkan Nilai Dari Semua Bidang Dalam Dokumen PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak nilai dari semua bidang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
-weight: 150
-url: /id/net/programming-with-forms/get-values-from-all-fields/
+"description": "Pelajari cara mengekstrak nilai dari semua bidang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Dapatkan Nilai Dari Semua Bidang Dalam Dokumen PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Nilai Dari Semua Bidang Dalam Dokumen PDF"
+"url": "/id/net/programming-with-forms/get-values-from-all-fields/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Nilai Dari Semua Bidang Dalam Dokumen PDF
@@ -22,7 +24,7 @@ Pernahkah Anda merasa perlu mengekstrak data dari formulir PDF? Baik untuk anali
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
 1. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.PDF bekerja dengan lancar dengan aplikasi .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Visual Studio: IDE yang bagus akan membuat pengalaman coding Anda lebih lancar. Visual Studio merupakan pilihan populer untuk pengembangan .NET.
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contohnya dengan lebih baik.
 
@@ -58,7 +60,7 @@ Pertama-tama, Anda perlu menentukan jalur ke dokumen PDF Anda. Di sinilah Aspose
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Hal ini penting karena jika jalurnya salah, program tidak akan dapat menemukan PDF Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Hal ini penting karena jika jalurnya salah, program tidak akan dapat menemukan PDF Anda.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -69,14 +71,14 @@ Setelah jalurnya diatur, saatnya membuka dokumen PDF. Di sinilah keajaiban dimul
 Document pdfDocument = new Document(dataDir + "GetValuesFromAllFields.pdf");
 ```
 
- Di sini, kita membuat contoh baru dari`Document` class dan berikan path file PDF kita. Baris kode ini memuat PDF ke dalam memori, membuatnya siap untuk dimanipulasi.
+Di sini, kita membuat contoh baru dari `Document` class dan berikan path file PDF kita. Baris kode ini memuat PDF ke dalam memori, membuatnya siap untuk dimanipulasi.
 
 ## Langkah 3: Akses Bidang Formulir
 
 Setelah dokumen terbuka, kita sekarang dapat mengakses kolom formulir. Aspose.PDF memungkinkan kita untuk menelusuri semua kolom dalam formulir PDF dengan mudah.
 
 ```csharp
-//Dapatkan nilai dari semua bidang
+// Dapatkan nilai dari semua bidang
 foreach (Field formField in pdfDocument.Form)
 {
     Console.WriteLine("Field Name : {0} ", formField.PartialName);
@@ -84,7 +86,7 @@ foreach (Field formField in pdfDocument.Form)
 }
 ```
 
- Dalam loop ini, kita menelusuri setiap bidang dalam formulir PDF.`PartialName` properti memberi kita nama bidang, sementara`Value` properti menyediakan data yang dimasukkan di bidang tersebut. Di sinilah Anda akan melihat hasil kerja keras Anda!
+Dalam loop ini, kita menelusuri setiap bidang dalam formulir PDF. `PartialName` properti memberi kita nama bidang, sementara `Value` properti menyediakan data yang dimasukkan dalam bidang tersebut. Di sinilah Anda akan melihat hasil kerja keras Anda!
 
 ## Kesimpulan
 
@@ -96,19 +98,21 @@ Selamat! Anda baru saja mempelajari cara mengekstrak nilai dari semua kolom dala
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF dalam aplikasi .NET.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasinya?
- Dokumentasi untuk Aspose.PDF untuk .NET dapat ditemukan[Di Sini](https://reference.aspose.com/pdf/net/).
+Dokumentasi untuk Aspose.PDF untuk .NET dapat ditemukan [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara membeli lisensi?
- Anda dapat membeli lisensi untuk Aspose.PDF dengan mengunjungi halaman pembelian[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi untuk Aspose.PDF dengan mengunjungi halaman pembelian [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana jika saya butuh dukungan?
- Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi forum dukungan Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

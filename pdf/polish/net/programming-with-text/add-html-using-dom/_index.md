@@ -1,14 +1,16 @@
 ---
-title: Dodaj HTML za pomocą DOM
-linktitle: Dodaj HTML za pomocą DOM
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać zawartość HTML do dokumentów PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Łatwo ulepsz swoje pliki PDF za pomocą dynamicznego formatowania HTML.
-weight: 40
-url: /pl/net/programming-with-text/add-html-using-dom/
+"description": "Dowiedz się, jak dodawać zawartość HTML do dokumentów PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Łatwo ulepsz swoje pliki PDF za pomocą dynamicznego formatowania HTML."
+"linktitle": "Dodaj HTML za pomocą DOM"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj HTML za pomocą DOM"
+"url": "/pl/net/programming-with-text/add-html-using-dom/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj HTML za pomocą DOM
@@ -21,11 +23,11 @@ Jeśli chodzi o obsługę plików PDF w .NET, Aspose.PDF dla .NET to solidna bib
 
 Zanim zaczniemy, upewnijmy się, że wszystko jest skonfigurowane:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że pobrałeś i zainstalowałeś najnowszą wersję. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że pobrałeś i zainstalowałeś najnowszą wersję. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 2. Środowisko programistyczne: Będziesz potrzebować środowiska IDE .NET, np. Visual Studio.
 3. Podstawowa znajomość języka C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C# i .NET.
 
-Nie masz prawa jazdy? Możesz je uzyskać[bezpłatny okres próbny](https://releases.aspose.com/)lub złóż wniosek o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby przetestować bibliotekę bez ograniczeń.
+Nie masz prawa jazdy? Możesz je uzyskać [bezpłatny okres próbny](https://releases.aspose.com/) lub złóż wniosek o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby przetestować bibliotekę bez ograniczeń.
 
 ## Importuj pakiety
 
@@ -53,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Tutaj tworzymy nową instancję`Document` obiekt, który reprezentuje plik PDF, nad którym będziemy pracować. Ten pusty dokument będzie działał jak puste płótno.
+Tutaj tworzymy nową instancję `Document` obiekt, który reprezentuje plik PDF, nad którym będziemy pracować. Ten pusty dokument będzie działał jak puste płótno.
 
 ## Krok 2: Dodaj stronę do dokumentu
 
@@ -75,7 +77,7 @@ Teraz, gdy nasz dokument PDF ma stronę, czas utworzyć zawartość HTML, któr�
 HtmlFragment title = new HtmlFragment("<fontsize=10><b><i>Table</i></b></fontsize>");
 ```
 
- W tym przykładzie tworzymy prosty fragment kodu HTML z pogrubionym i pochylonym tekstem.`HtmlFragment` Obiekt obsługuje formatowanie HTML i umieszcza je w pliku PDF jako zawartość.
+tym przykładzie tworzymy prosty fragment kodu HTML z pogrubionym i pochylonym tekstem. `HtmlFragment` Obiekt obsługuje formatowanie HTML i umieszcza je w pliku PDF jako zawartość.
 
 ## Krok 4: Dostosuj marginesy zawartości HTML
 
@@ -103,7 +105,7 @@ Ten krok zasadniczo mówi Aspose.PDF, aby traktował fragment HTML jako akapit i
 
 ## Krok 6: Zapisz dokument PDF
 
- Na koniec musimy zapisać plik PDF w określonej lokalizacji.`Save` Metoda ta służy do zapisywania zmian w pliku fizycznym.
+Na koniec musimy zapisać plik PDF w określonej lokalizacji. `Save` Metoda ta służy do zapisywania zmian w pliku fizycznym.
 
 ```csharp
 dataDir = dataDir + "AddHTMLUsingDOM_out.pdf";
@@ -121,7 +123,7 @@ Aby mieć pewność, że wszystko zadziałało zgodnie z oczekiwaniami, możesz 
 Console.WriteLine("\nHTML using DOM added successfully.\nFile saved at " + dataDir);
 ```
 
-To prosty sposób na potwierdzenie, że operacja zakończyła się powodzeniem i plik został zapisany w prawidłowej lokalizacji.
+To prosty sposób potwierdzenia, że operacja się powiodła i plik został zapisany w prawidłowej lokalizacji.
 
 ## Wniosek
 
@@ -133,19 +135,21 @@ masz to! Postępując zgodnie z tymi prostymi krokami, możesz bez wysiłku doda
 Tak, Aspose.PDF pozwala na wstawianie złożonych struktur HTML, obejmujących obrazy, łącza i tabele.
 
 ### Czy można stylizować zawartość HTML za pomocą CSS?
- Tak, możesz uwzględnić wbudowany kod CSS lub link do zewnętrznych arkuszy stylów podczas dodawania treści HTML za pomocą`HtmlFragment`.
+Tak, możesz uwzględnić wbudowany kod CSS lub link do zewnętrznych arkuszy stylów podczas dodawania treści HTML za pomocą `HtmlFragment`.
 
 ### Jak zmienić położenie zawartości HTML na stronie?
- Pozycjonowanie można kontrolować za pomocą właściwości marginesu, takich jak:`Margin.Top`, `Margin.Bottom`, `Margin.Left` , I`Margin.Right`.
+Pozycjonowanie można kontrolować za pomocą właściwości marginesu, takich jak: `Margin.Top`, `Margin.Bottom`, `Margin.Left`, I `Margin.Right`.
 
 ### Czy mogę dodać wiele fragmentów HTML do różnych stron?
- Oczywiście! Możesz powtórzyć proces tworzenia i dodawania`HtmlFragment` obiekty do tylu stron, ile potrzeba.
+Oczywiście! Możesz powtórzyć proces tworzenia i dodawania `HtmlFragment` obiekty do tylu stron, ile potrzeba.
 
 ### Jakie typy znaczników HTML są obsługiwane?
- Większość standardowych znaczników HTML, takich jak`<p>`, `<b>`, `<i>`, `<table>`i inne, co zapewnia elastyczność w przypadku różnych typów treści.
+Większość standardowych znaczników HTML, takich jak `<p>`, `<b>`, `<i>`, `<table>`i inne są obsługiwane, co zapewnia elastyczność w przypadku różnych typów treści.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

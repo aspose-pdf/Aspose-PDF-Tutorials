@@ -1,13 +1,15 @@
 ---
-title: शीर्षकों के साथ प्रोग्रामिंग
-linktitle: शीर्षकों के साथ प्रोग्रामिंग
-weight: 20
-url: /hi/net/programming-with-headings/
-description: .NET के लिए Aspose.PDF ट्यूटोरियल आपको अपने PDF दस्तावेज़ों की संरचना में सुधार करने के लिए शीर्षकों का उपयोग करने में मार्गदर्शन करते हैं।
+"description": ".NET के लिए Aspose.PDF ट्यूटोरियल आपको अपने PDF दस्तावेज़ों की संरचना में सुधार करने के लिए शीर्षकों का उपयोग करने में मार्गदर्शन करते हैं।"
+"linktitle": "शीर्षकों के साथ प्रोग्रामिंग"
+"title": "शीर्षकों के साथ प्रोग्रामिंग"
+"url": "/hi/net/programming-with-headings/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # शीर्षकों के साथ प्रोग्रामिंग
@@ -20,9 +22,11 @@ description: .NET के लिए Aspose.PDF ट्यूटोरियल आ
 | शीर्षक | विवरण |
 | --- | --- | 
 | [पीडीएफ फाइल में नंबर स्टाइल लागू करें](./apply-number-style/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF में शीर्षकों पर विभिन्न संख्या शैलियों (रोमन अंक, वर्णमाला) को लागू करना सीखें। |   
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

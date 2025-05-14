@@ -1,83 +1,85 @@
 ---
-title: Přidání JavaScriptu pomocí DOM v PDF
-linktitle: Přidání JavaScriptu pomocí DOM v PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se, jak zlepšit interaktivitu PDF pomocí JavaScriptu pomocí Aspose.PDF pro Java. Podrobný průvodce se zdrojovým kódem pro dynamické soubory PDF
-weight: 32
-url: /cs/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/
+"description": "Naučte se, jak vylepšit interaktivitu PDF pomocí JavaScriptu pomocí Aspose.PDF pro Javu. Podrobný návod se zdrojovým kódem pro dynamické PDF."
+"linktitle": "Přidání JavaScriptu pomocí DOMu do PDF"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Přidání JavaScriptu pomocí DOMu do PDF"
+"url": "/cs/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidání JavaScriptu pomocí DOM v PDF
+# Přidání JavaScriptu pomocí DOMu do PDF
 
 
 ## Zavedení
 
-dnešním digitálním světě je interaktivita klíčovým prvkem při zlepšování uživatelské zkušenosti. Při práci s dokumenty PDF může přidání JavaScriptu přinést novou úroveň interaktivity a funkčnosti. V tomto podrobném průvodci prozkoumáme, jak přidat JavaScript pomocí Document Object Model (DOM) do souborů PDF pomocí Aspose.PDF for Java.
+dnešním digitálním světě je interaktivita klíčovým prvkem pro zlepšení uživatelského prostředí. Při práci s dokumenty PDF může přidání JavaScriptu přinést novou úroveň interaktivity a funkčnosti. V tomto podrobném návodu se podíváme na to, jak přidat JavaScript pomocí modelu objektů dokumentu (DOM) do souborů PDF pomocí Aspose.PDF pro Javu.
 
-## Co je Aspose.PDF pro Java?
+## Co je Aspose.PDF pro Javu?
 
-Aspose.PDF for Java je výkonná knihovna, která umožňuje vývojářům Java pracovat s dokumenty PDF programově. Poskytuje širokou škálu funkcí, včetně vytváření, manipulace a optimalizace souborů PDF.
+Aspose.PDF pro Javu je výkonná knihovna, která umožňuje vývojářům v Javě programově pracovat s PDF dokumenty. Nabízí širokou škálu funkcí, včetně vytváření, manipulace s PDF soubory a optimalizace.
 
-## Proč používat JavaScript v PDF?
+## Proč používat JavaScript v PDF souborech?
 
-JavaScript lze použít k přidání dynamického chování do dokumentů PDF. Můžete vytvářet interaktivní formuláře, ověřovat uživatelské vstupy, počítat hodnoty a provádět různé akce na základě uživatelských interakcí. Díky tomu jsou soubory PDF více než jen statické dokumenty; stávají se dynamickými a citlivými.
+JavaScript lze použít k přidání dynamického chování do dokumentů PDF. Můžete vytvářet interaktivní formuláře, ověřovat vstupy uživatelů, vypočítávat hodnoty a provádět různé akce na základě interakcí uživatelů. Díky tomu jsou PDF více než jen statické dokumenty; stávají se dynamickými a responzivními.
 
 ## Nastavení prostředí
 
-Než začneme, musíte nastavit vývojové prostředí. Zde jsou kroky:
+Než začneme, je třeba nastavit vývojové prostředí. Zde jsou kroky:
 
-1. Stáhnout a nainstalovat Aspose.PDF pro Java: Navštivte[Aspose.PDF pro dokumentaci Java](https://reference.aspose.com/pdf/java/) ke stažení a instalaci knihovny.
+1. Stáhněte a nainstalujte Aspose.PDF pro Javu: Navštivte [Aspose.PDF pro dokumentaci k Javě](https://reference.aspose.com/pdf/java/) stáhnout a nainstalovat knihovnu.
 
-2. Vytvoření projektu Java: Nastavte projekt Java ve vašem preferovaném integrovaném vývojovém prostředí (IDE).
+2. Vytvoření projektu Java: Nastavte projekt Java ve vámi preferovaném integrovaném vývojovém prostředí (IDE).
 
-3. Přidání Aspose.PDF for Java do vašeho projektu: Zahrňte do svého projektu knihovnu Aspose.PDF for Java tím, že ji přidáte jako závislost.
+3. Přidání knihovny Aspose.PDF pro Javu do projektu: Zahrňte knihovnu Aspose.PDF pro Javu do projektu jejím přidáním jako závislosti.
 
-## Vytvoření dokumentu PDF
+## Vytvoření PDF dokumentu
 
-Chcete-li začít, vytvořte dokument PDF pomocí Aspose.PDF pro Java. Zde je základní příklad:
+Pro začátek si vytvořme PDF dokument pomocí Aspose.PDF pro Javu. Zde je základní příklad:
 
 ```java
-// Inicializujte nový dokument PDF
+// Inicializace nového PDF dokumentu
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
-// Přidejte do dokumentu stránku
+// Přidat stránku do dokumentu
 pdfDocument.getPages().add();
 
-// Uložte dokument do souboru
+// Uložit dokument do souboru
 pdfDocument.save("sample.pdf");
 ```
 
-## Přidání JavaScriptu pomocí DOM
+## Přidání JavaScriptu pomocí DOMu
 
-Nyní do našeho dokumentu PDF přidáme JavaScript. K manipulaci se strukturou PDF a vkládání kódu JavaScript použijeme DOM.
+Nyní přidáme JavaScript do našeho PDF dokumentu. Použijeme DOM k manipulaci se strukturou PDF a vložení JavaScriptového kódu.
 
 ```java
-// Otevřete existující dokument PDF
+// Otevření existujícího dokumentu PDF
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("sample.pdf");
 
 // Vytvořte akci JavaScriptu
 com.aspose.pdf.JavaScriptAction javaScriptAction = new com.aspose.pdf.JavaScriptAction("app.alert('Hello, World!');");
 
-// Přidejte na stránku akci JavaScriptu
+// Přidání akce JavaScript na stránku
 pdfDocument.getPages().get_Item(1).setOnOpenAction(javaScriptAction);
 
-// Uložte upravený dokument
+// Uložit upravený dokument
 pdfDocument.save("sample_with_js.pdf");
 ```
 
-V tomto příkladu jsme přidali akci JavaScriptu, která zobrazí upozornění při otevření PDF.
+V tomto příkladu jsme přidali akci JavaScriptu, která zobrazí upozornění při otevření PDF souboru.
 
-## Provádění akcí JavaScriptu
+## Spouštění akcí JavaScriptu
 
-Akce JavaScriptu mohou být spuštěny různými událostmi, jako je otevření dokumentu, kliknutí na tlačítko nebo zadání dat do pole formuláře. Aspose.PDF for Java poskytuje řadu možností, jak k těmto událostem přidružit akce JavaScriptu.
+Akce JavaScriptu mohou být spuštěny různými událostmi, jako je otevření dokumentu, kliknutí na tlačítko nebo zadání dat do pole formuláře. Aspose.PDF pro Javu nabízí řadu možností, jak s těmito událostmi propojit akce JavaScriptu.
 
 ## Příklad případu použití
 
-Podívejme se na praktický případ použití. Chcete vytvořit formulář PDF, který vypočítá celkovou cenu položek vybraných uživatelem. K tomu můžete použít JavaScript. Zde je zjednodušený příklad:
+Uvažujme praktický případ použití. Chcete vytvořit PDF formulář, který vypočítá celkovou cenu položek vybraných uživatelem. K dosažení tohoto cíle můžete použít JavaScript. Zde je zjednodušený příklad:
 
 ```java
 // Vytvořte pole formuláře pro množství položky
@@ -95,38 +97,40 @@ String calculateTotalScript = "var quantity = this.getField('item_quantity').val
 pdfDocument.getJavaScript().add(calculateTotalScript);
 ```
 
-V tomto příkladu jsme vytvořili dvě pole formuláře pro množství a cenu položky a přidali funkci JavaScript pro výpočet celkové ceny na základě vstupu uživatele.
+V tomto příkladu jsme vytvořili dvě pole formuláře pro množství a cenu položky a přidali jsme funkci JavaScript pro výpočet celkové ceny na základě vstupu uživatele.
 
 ## Závěr
 
-Přidání JavaScriptu pomocí DOM do dokumentů PDF pomocí Aspose.PDF for Java otevírá nekonečné možnosti pro vytváření interaktivních a dynamických souborů PDF. Ať už jde o formuláře, výpočty nebo vlastní interaktivitu, můžete své PDF posunout na další úroveň.
+Přidání JavaScriptu pomocí DOM do PDF dokumentů s Aspose.PDF pro Javu otevírá nekonečné možnosti pro vytváření interaktivních a dynamických PDF. Ať už se jedná o formuláře, výpočty nebo vlastní interaktivitu, můžete své PDF soubory posunout na další úroveň.
 
-Nyní, když máte základní znalosti o tom, jak přidat JavaScript do PDF, začněte zkoumat pokročilejší funkce a vytvářejte PDF, které splňují vaše specifické potřeby.
+Nyní, když máte základní znalosti o tom, jak přidávat JavaScript do PDF souborů, začněte zkoumat pokročilejší funkce a vytvářet PDF soubory, které splňují vaše specifické potřeby.
 
-# Nejčastější dotazy
+# Často kladené otázky
 
 ### Jak si mohu stáhnout Aspose.PDF pro Javu?
 
- Aspose.PDF pro Java si můžete stáhnout z webové stránky na adrese[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Soubor Aspose.PDF pro Javu si můžete stáhnout z webových stránek na adrese [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
 ### Je podpora JavaScriptu dostupná ve všech prohlížečích PDF?
 
 Většina moderních prohlížečů PDF podporuje JavaScript, ale pro zajištění kompatibility je nezbytné PDF otestovat v různých prohlížečích.
 
-### Mohu přidat JavaScript do existujících PDF?
+### Mohu přidat JavaScript do existujících PDF souborů?
 
-Ano, do existujících PDF můžete přidat JavaScript pomocí Aspose.PDF for Java manipulací s DOM dokumentu.
+Ano, JavaScript můžete přidat do existujících PDF souborů pomocí Aspose.PDF pro Javu manipulací s DOM dokumentu.
 
-### Existují nějaká omezení pro JavaScript v PDF?
+### Existují nějaká omezení pro JavaScript v PDF souborech?
 
-Podpora JavaScriptu v souborech PDF může mít určitá omezení v závislosti na prohlížeči PDF a složitosti vašich skriptů. Je důležité důkladně testovat.
+Podpora JavaScriptu v PDF souborech může mít určitá omezení v závislosti na prohlížeči PDF a složitosti vašich skriptů. Je nezbytné provést důkladné otestování.
 
-### Kde najdu pokročilejší příklady JavaScriptu pro soubory PDF?
+### Kde najdu pokročilejší příklady JavaScriptu pro PDF?
 
-Pokročilé příklady a případy použití související s JavaScriptem v souborech PDF můžete prozkoumat v dokumentaci Aspose.PDF for Java.
+Pro pokročilé příklady a případy použití související s JavaScriptem v PDF si můžete prohlédnout dokumentaci k souboru Aspose.PDF pro Javu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

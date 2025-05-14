@@ -1,14 +1,16 @@
 ---
-title: Wymienne symbole w nagłówku i stopce
-linktitle: Wymienne symbole w nagłówku i stopce
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak używać wymiennych symboli w nagłówku i stopce dokumentu PDF za pomocą Aspose.PDF dla platformy .NET.
-weight: 320
-url: /pl/net/programming-with-text/replaceable-symbols-in-header-footer/
+"description": "Dowiedz się, jak używać wymiennych symboli w nagłówku i stopce dokumentu PDF za pomocą Aspose.PDF dla platformy .NET."
+"linktitle": "Wymienne symbole w nagłówku i stopce"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wymienne symbole w nagłówku i stopce"
+"url": "/pl/net/programming-with-text/replaceable-symbols-in-header-footer/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wymienne symbole w nagłówku i stopce
@@ -21,10 +23,10 @@ Podczas pracy z plikami PDF zdarzają się sytuacje, gdy trzeba dostosować nag�
 
 Zanim przejdziesz do instrukcji krok po kroku, upewnij się, że masz następujące rzeczy:
 
--  Aspose.PDF dla biblioteki .NET –[Pobierać](https://releases.aspose.com/pdf/net/) lub zdobądź[bezpłatny okres próbny](https://releases.aspose.com/).
+- Aspose.PDF dla biblioteki .NET – [Pobierać](https://releases.aspose.com/pdf/net/) lub zdobądź [bezpłatny okres próbny](https://releases.aspose.com/).
 - Visual Studio lub dowolne środowisko IDE C# zainstalowane w systemie.
 - Podstawowa znajomość programowania w języku C# i .NET.
--  Ważny[licencja](https://purchase.aspose.com/temporary-license/) dla Aspose.PDF lub możesz skorzystać z wersji próbnej.
+- Ważny [licencja](https://purchase.aspose.com/temporary-license/) dla Aspose.PDF lub możesz skorzystać z wersji próbnej.
 
 ## Importuj pakiety
 
@@ -56,7 +58,7 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Tutaj konfigurujemy dokument PDF za pomocą`Document` klasa i dodanie strony z`doc.Pages.Add()`Ta strona będzie zawierać nagłówek, stopkę i inną treść.
+Tutaj konfigurujemy dokument PDF za pomocą `Document` klasa i dodanie strony z `doc.Pages.Add()`. Ta strona będzie zawierać nagłówek, stopkę i inną treść.
 
 ## Krok 2: Skonfiguruj marginesy strony
 
@@ -72,7 +74,7 @@ marginInfo.Right = 50;
 page.PageInfo.Margin = marginInfo;
 ```
 
- Tutaj zdefiniowaliśmy górny, dolny, lewy i prawy margines za pomocą`MarginInfo` klasę i zastosowałem ją do strony za pomocą`page.PageInfo.Margin`.
+Tutaj zdefiniowaliśmy górny, dolny, lewy i prawy margines za pomocą `MarginInfo` klasę i zastosowałem ją do strony za pomocą `page.PageInfo.Margin`.
 
 ## Krok 3: Utwórz i skonfiguruj nagłówek
 
@@ -104,7 +106,7 @@ t2.TextState.HorizontalAlignment = Aspose.Pdf.HorizontalAlignment.Center;
 hfFirst.Paragraphs.Add(t2);
 ```
 
- Dodaliśmy dwa`TextFragment` obiekty do nagłówka: jeden dla tytułu raportu i drugi dla nazwy raportu. Tekst jest stylizowany za pomocą`TextState` właściwości takie jak czcionka, rozmiar i wyrównanie.
+Dodaliśmy dwa `TextFragment` obiekty do nagłówka: jeden dla tytułu raportu i drugi dla nazwy raportu. Tekst jest stylizowany za pomocą `TextState` właściwości takie jak czcionka, rozmiar i wyrównanie.
 
 ## Krok 4: Utwórz i skonfiguruj stopkę
 
@@ -119,13 +121,13 @@ page.Footer = hfFoot;
 hfFoot.Margin.Left = 50;
 hfFoot.Margin.Right = 50;
 
-// Dodaj treść stopki
+// Dodaj zawartość stopki
 TextFragment t3 = new TextFragment("Generated on test date");
 TextFragment t4 = new TextFragment("Report Name");
 TextFragment t5 = new TextFragment("Page $p of $P");
 ```
 
-stopce uwzględniamy fragmenty dotyczące daty wygenerowania, nazwy raportu i dynamicznych numerów stron (`$p` I`$P` reprezentują odpowiednio bieżący numer strony i całkowitą liczbę stron).
+stopce uwzględniamy fragmenty dotyczące daty wygenerowania, nazwy raportu i dynamicznych numerów stron (`$p` I `$P` reprezentują odpowiednio bieżący numer strony i całkowitą liczbę stron).
 
 ## Krok 5: Utwórz tabelę w stopce
 
@@ -189,7 +191,7 @@ doc.Save(dataDir);
 Console.WriteLine("Symbols replaced successfully in header and footer. File saved at " + dataDir);
 ```
 
- Określ ścieżkę pliku i zapisz dokument za pomocą`doc.Save()`. To wszystko! Udało Ci się utworzyć plik PDF z niestandardowymi nagłówkami i stopkami.
+Określ ścieżkę pliku i zapisz dokument za pomocą `doc.Save()`. To wszystko! Udało Ci się utworzyć plik PDF z niestandardowymi nagłówkami i stopkami.
 
 ## Wniosek
 
@@ -201,19 +203,21 @@ Zastępowanie symboli w nagłówkach i stopkach za pomocą Aspose.PDF dla .NET j
 Tak, możesz w pełni dostosowywać czcionki, rozmiary, kolory i style tekstu w nagłówkach i stopkach.
 
 ### Jak dodawać obrazy do nagłówków i stopek?  
- Możesz użyć`ImageStamp` aby wstawiać obrazy do nagłówków i stopek.
+Możesz użyć `ImageStamp` aby wstawiać obrazy do nagłówków i stopek.
 
 ### Czy można dodawać hiperłącza w nagłówkach lub stopkach?  
- Tak, możesz użyć`TextFragment` z hiperłączem poprzez ustawienie`Hyperlink` nieruchomość.
+Tak, możesz użyć `TextFragment` z hiperłączem poprzez ustawienie `Hyperlink` nieruchomość.
 
 ### Czy mogę używać różnych nagłówków dla stron nieparzystych i parzystych?  
 Tak, Aspose.PDF pozwala na określenie różnych nagłówków i stopek dla stron nieparzystych i parzystych.
 
 ### Jak zmienić położenie nagłówka i stopki?  
 Możesz dostosować marginesy i właściwości wyrównania, aby kontrolować położenie nagłówków i stopek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

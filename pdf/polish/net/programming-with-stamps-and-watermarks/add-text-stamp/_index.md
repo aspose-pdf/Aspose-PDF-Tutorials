@@ -1,14 +1,16 @@
 ---
-title: Dodaj stempel tekstowy do pliku PDF
-linktitle: Dodaj stempel tekstowy do pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodać znacznik tekstowy do pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z naszego przewodnika krok po kroku, i udoskonal prezentacje swoich dokumentów.
-weight: 50
-url: /pl/net/programming-with-stamps-and-watermarks/add-text-stamp/
+"description": "Dowiedz się, jak dodać znacznik tekstowy do pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z naszego przewodnika krok po kroku, i udoskonal prezentacje swoich dokumentów."
+"linktitle": "Dodaj stempel tekstowy do pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj stempel tekstowy do pliku PDF"
+"url": "/pl/net/programming-with-stamps-and-watermarks/add-text-stamp/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj stempel tekstowy do pliku PDF
@@ -21,7 +23,7 @@ dzisiejszej erze cyfrowej pliki PDF są powszechnym formatem udostępniania i do
 
 Zanim przejdziemy do kodu, jest kilka wymagań wstępnych, aby upewnić się, że wszystko jest poprawnie skonfigurowane. Oto, czego będziesz potrzebować:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że biblioteka Aspose.PDF jest zainstalowana w Twoim projekcie. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać z[Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że biblioteka Aspose.PDF jest zainstalowana w Twoim projekcie. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać z [Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
 2. Visual Studio lub kompatybilne IDE: Będziesz potrzebować środowiska programistycznego, aby pisać i uruchamiać kod .NET. Visual Studio jest najczęstszym wyborem wśród deweloperów.
 3. Podstawowa znajomość języka C#: Znajomość języka C# i zasad programowania obiektowego pomoże Ci lepiej zrozumieć przykłady.
 4. Przykładowy plik PDF: Powinieneś mieć gotowy plik PDF do pracy. Możesz utworzyć podstawowy plik PDF lub użyć dowolnego istniejącego pliku PDF, aby przetestować funkcjonalność.
@@ -56,29 +58,29 @@ Najpierw musisz ustalić katalog, w którym przechowywany jest Twój dokument PD
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Wyjaśnienie: Zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF (`AddTextStamp.pdf`) jest przechowywany. Ta ścieżka jest później używana do otwierania i zapisywania zmodyfikowanego pliku PDF.
+Wyjaśnienie: Zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF (`AddTextStamp.pdf`) jest przechowywany. Ta ścieżka jest później używana do otwierania i zapisywania zmodyfikowanego pliku PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
- Następnie otworzymy dokument PDF za pomocą`Document` klasa z przestrzeni nazw Aspose.PDF.
+Następnie otworzymy dokument PDF za pomocą `Document` klasa z przestrzeni nazw Aspose.PDF.
 
 ```csharp
 // Otwórz dokument
 Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 ```
 
- Wyjaśnienie: Tutaj tworzymy instancję`Document` klasa i przekazując ścieżkę do naszego pliku PDF. Spowoduje to załadowanie pliku PDF, abyśmy mogli nim manipulować.
+Wyjaśnienie: Tutaj tworzymy instancję `Document` klasa i przekazując ścieżkę do naszego pliku PDF. Spowoduje to załadowanie pliku PDF, abyśmy mogli nim manipulować.
 
 ## Krok 3: Utwórz stempel tekstowy
 
-Teraz utworzymy stempel tekstowy, który później zastosujemy w naszym dokumencie PDF.
+Teraz utworzymy stempel tekstowy, który później umieścimy w naszym dokumencie PDF.
 
 ```csharp
 // Utwórz stempel tekstowy
 TextStamp textStamp = new TextStamp("Sample Stamp");
 ```
 
- Wyjaśnienie:`TextStamp` obiekt jest tworzony z tekstem, który chcesz wyświetlić. W tym przypadku używamy „Sample Stamp” jako tekstu dla naszego stempla.
+Wyjaśnienie: `TextStamp` obiekt jest tworzony z tekstem, który chcesz wyświetlić. W tym przypadku używamy „Sample Stamp” jako tekstu dla naszego stempla.
 
 ## Krok 4: Ustaw właściwości stempla
 
@@ -97,7 +99,7 @@ textStamp.Rotate = Rotation.on90;
 ```
 
 Wyjaśnienie:
-- Tło: Ustawienie tego na`true` oznacza, że znaczek pojawi się za treścią pliku PDF.
+- Tło: Ustawienie tego na `true` oznacza, że znaczek pojawi się za treścią pliku PDF.
 - XIndent i YIndent: Te właściwości określają położenie stempla na stronie. W tym przykładzie stempel zostanie umieszczony 100 jednostek od lewej i górnej krawędzi strony.
 - Obróć: Obróć znaczek o 90 stopni. Możesz wybrać różne opcje obrotu w zależności od wymagań projektu.
 
@@ -156,16 +158,18 @@ Pieczątka tekstowa to graficzna nakładka zawierająca tekst, którą można um
 Tak, Aspose.PDF obsługuje również dodawanie stempli graficznych, co zapewnia większą elastyczność projektowania.
 
 ### Jakich języków programowania mogę używać w Aspose.PDF?
-Aspose.PDF jest przeznaczony głównie dla platformy .NET, ale istnieją wersje dla innych języków, np. Java i Python.
+Aspose.PDF jest przeznaczony głównie dla platformy .NET, ale istnieją wersje przeznaczone dla innych języków, np. Java i Python.
 
 ### Jak uzyskać tymczasową licencję na Aspose.PDF?
- Możesz złożyć wniosek o tymczasową licencję, odwiedzając stronę[link do zakupu](https://purchase.aspose.com/temporary-license/) na ich stronie internetowej.
+Możesz złożyć wniosek o tymczasową licencję, odwiedzając stronę [link do zakupu](https://purchase.aspose.com/temporary-license/) na ich stronie internetowej.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
- Wsparcie dla Aspose.PDF jest dostępne na ich stronie[forum wsparcia](https://forum.aspose.com/c/pdf/10).
+Wsparcie dla Aspose.PDF jest dostępne na ich stronie [forum wsparcia](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

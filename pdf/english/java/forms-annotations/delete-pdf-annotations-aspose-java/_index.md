@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Delete PDF Annotations Using Aspose.PDF for Java: A Step-by-Step Guide
 
@@ -135,6 +137,9 @@ By following this guide, you've learned how to efficiently remove all annotation
 Feel free to explore these resources for further learning and assistance. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

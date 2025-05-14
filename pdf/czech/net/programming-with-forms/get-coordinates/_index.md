@@ -1,48 +1,50 @@
 ---
-title: Získejte souřadnice pole formuláře PDF
-linktitle: Získejte souřadnice pole formuláře PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Odemkněte manipulaci s PDF pomocí Aspose.PDF pro .NET! Naučte se, jak načíst souřadnice pole formuláře v několika jednoduchých krocích.
-weight: 120
-url: /cs/net/programming-with-forms/get-coordinates/
+"description": "Odemkněte manipulaci s PDF pomocí Aspose.PDF pro .NET! Naučte se, jak v několika jednoduchých krocích načíst souřadnice polí formuláře."
+"linktitle": "Získat souřadnice polí formuláře PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Získat souřadnice polí formuláře PDF"
+"url": "/cs/net/programming-with-forms/get-coordinates/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte souřadnice pole formuláře PDF
+# Získat souřadnice polí formuláře PDF
 
 ## Zavedení
 
-dnešním digitálním prostředí je interakce s dokumenty PDF základním požadavkem pro podniky i jednotlivce. Ať už vytváříte, upravujete nebo manipulujete s PDF, mít ty správné nástroje na dosah ruky je rozdíl. Jedním z těchto výkonných nástrojů je Aspose.PDF for .NET, robustní knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory PDF. V tomto tutoriálu se ponoříme do toho, jak získat souřadnice pole formuláře PDF pomocí této knihovny. Na konci této příručky budete vybaveni znalostmi, které vám pomohou zlepšit vaše dovednosti při manipulaci s PDF a přidat více všestrannosti vašim aplikacím.
+V dnešní digitální krajině je interakce s dokumenty PDF nezbytným požadavkem pro firmy i jednotlivce. Ať už vytváříte, upravujete nebo manipulujete s PDF soubory, mít po ruce správné nástroje hraje klíčovou roli. Jedním z těchto výkonných nástrojů je Aspose.PDF pro .NET, robustní knihovna, která umožňuje vývojářům bezproblémově pracovat s PDF soubory. V tomto tutoriálu se ponoříme do toho, jak pomocí této knihovny načíst souřadnice polí formulářů PDF. Na konci tohoto průvodce budete vybaveni znalostmi, které vám pomohou zlepšit vaše dovednosti v oblasti práce s PDF a přidat do vašich aplikací větší flexibilitu.
 
 ## Předpoklady
 
-Než se do toho pustíme, ujistíme se, že máte vše, co potřebujete, abyste je mohli sledovat. Zde je to, co budeme potřebovat:
+Než se do toho pustíme, ujistěme se, že máte vše potřebné k tomu, abyste mohli pokračovat. Zde je to, co budeme potřebovat:
 
-1. Základní porozumění C#: Znalost programování v C# je nezbytná, protože tento jazyk budeme používat v celém tutoriálu.
-2.  Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete[stáhněte si jej zde](https://releases.aspose.com/pdf/net/).
-3. Visual Studio nebo libovolné C# IDE: K psaní a testování kódu budete potřebovat IDE.
-4. Ukázkový soubor PDF s poli formuláře: Chcete-li kód otestovat, připravte si vzorový soubor PDF. Tento dokument by měl obsahovat pole přepínacích tlačítek, která demonstrují, jak získat jejich souřadnice.
+1. Základní znalost jazyka C#: Znalost programování v jazyce C# je nezbytná, protože tento jazyk budeme používat v celém tutoriálu.
+2. Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete [stáhněte si to zde](https://releases.aspose.com/pdf/net/).
+3. Visual Studio nebo jakékoli C# IDE: K napsání a testování kódu budete potřebovat IDE.
+4. Ukázkový PDF soubor s poli formuláře: Pro otestování kódu si připravte ukázkový PDF soubor. Tento dokument by měl obsahovat pole přepínačů, která demonstrují, jak získat jejich souřadnice.
 
-Jakmile budete mít tyto předpoklady na místě, můžeme skočit přímo do kódu!
+Jakmile budete mít tyto předpoklady splněny, můžeme se rovnou pustit do kódu!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít s Aspose.PDF pro .NET, musíte nejprve importovat potřebné balíčky do svého projektu. Postup je následující:
+Abyste mohli začít s Aspose.PDF pro .NET, musíte nejprve importovat potřebné balíčky do svého projektu. Postupujte takto:
 
-### Nastavte svůj projekt
+### Nastavení projektu
 
-Otevřete své oblíbené C# IDE (například Visual Studio) a vytvořte nový projekt. Vyberte si konzolovou aplikaci, aby bylo testování našeho kódu jednoduché.
+Otevřete si své oblíbené C# IDE (například Visual Studio) a vytvořte nový projekt. Vyberte konzolovou aplikaci, abychom si usnadnili testování našeho kódu.
 
 ### Nainstalujte Aspose.PDF přes NuGet
 
-V Průzkumníku řešení klikněte pravým tlačítkem na svůj projekt, vyberte „Spravovat balíčky NuGet“ a vyhledejte Aspose.PDF. Kliknutím na „Instalovat“ jej přidáte do svého projektu.
+V Průzkumníku řešení klikněte pravým tlačítkem myši na projekt, vyberte možnost „Spravovat balíčky NuGet“ a vyhledejte soubor Aspose.PDF. Kliknutím na tlačítko „Instalovat“ jej přidejte do projektu.
 
-### Importujte knihovnu
+### Import knihovny
 
-V horní části souboru kódu budete muset importovat jmenný prostor Aspose.PDF. Zde je fragment kódu:
+horní části souboru s kódem budete muset importovat jmenný prostor Aspose.PDF. Zde je úryvek kódu:
 
 ```csharp
 using System;
@@ -51,17 +53,17 @@ using Aspose.Pdf.Forms;
 using Aspose.Pdf;
 ```
 
-importovanou knihovnou jste připraveni začít pracovat s PDF!
+Po importu knihovny jste připraveni začít pracovat s PDF soubory!
 
 Nyní si projdeme proces načítání souřadnic polí přepínačů v PDF. 
 
-## Krok 1: Definujte cestu k vašim dokumentům
+## Krok 1: Definujte cestu k dokumentům
 
-Než budeme moci s jakýmkoli PDF manipulovat, musíme určit, kde se nachází. Začněte deklarováním proměnné pro cestu k adresáři vašeho dokumentu. Zde budete ukládat svůj vstupní soubor PDF.
+Než budeme moci manipulovat s jakýmkoli PDF souborem, musíme určit, kde se nachází. Začněme deklarací proměnné pro cestu k adresáři s dokumentem. Sem uložíte vstupní PDF soubor.
 
 ```csharp
-// Cesta k adresáři dokumentů.
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // Aktualizujte to svou skutečnou cestou
+// Cesta k adresáři s dokumenty.
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Aktualizujte toto svou skutečnou cestou
 ```
 
 ## Krok 2: Načtěte dokument PDF
@@ -69,36 +71,36 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Aktualizujte to svou skutečnou c
 Pomocí výše definované cesty nyní načtete dokument PDF do instance třídy Document. To vám umožní přístup k jeho obsahu, včetně polí formuláře.
 
 ```csharp
-// Vložte výstupní dokument
+// Načíst výstupní dokument 
 Document doc1 = new Document(dataDir + "input.pdf");
 ```
 
-## Krok 3: Najděte přidaná pole
+## Krok 3: Nalezení přidaných polí
 
- Dále načteme pole přepínačů z PDF. Za tímto účelem přeneseme pole formuláře z dokumentu do`RadioButtonField` typy.
+Dále si z PDF načteme pole přepínačů. Za tímto účelem převedeme pole formuláře z dokumentu do `RadioButtonField` typy.
 
 ```csharp
-// Najděte přidaná pole
+// Najít přidaná pole
 RadioButtonField field0 = doc1.Form["Item1"] as RadioButtonField;
 RadioButtonField field1 = doc1.Form["Item2"] as RadioButtonField;
 RadioButtonField field2 = doc1.Form["Item3"] as RadioButtonField;
 ```
 
-Ujistěte se, že "Položka1", "Položka2" a "Položka3" odpovídají názvům definovaným ve vašem PDF.
+Ujistěte se, že názvy položek „Položka1“, „Položka2“ a „Položka3“ odpovídají názvům definovaným ve vašem PDF.
 
 ## Krok 4: Procházení a zobrazení souřadnic
 
-Nyní přichází ta vzrušující část – získání souřadnic možností přepínače. Každý přepínač může mít více možností, takže projdeme tyto možnosti a zobrazíme jejich obdélníky.
+Nyní přichází ta vzrušující část – získání souřadnic možností přepínačů. Každý přepínač může mít více možností, takže si tyto možnosti projdeme, abychom zobrazili jejich obdélníky.
 
 ```csharp
-// A zobrazit pozice podpoložek pro každou z nich.
+// A zobrazte pozice podpoložek pro každou z nich. 
 foreach (RadioButtonOptionField option in field0)
 {
     Console.WriteLine(option.Rect);
 }
 ```
 
- Opakujte tuto smyčku pro`field1` a`field2` abyste zajistili, že budou zohledněny všechny možnosti přepínače:
+Opakujte tuto smyčku pro `field1` a `field2` aby se zajistilo, že jsou zohledněny všechny možnosti přepínačů:
 
 ```csharp
 foreach (RadioButtonOptionField option in field1)
@@ -112,16 +114,16 @@ foreach (RadioButtonOptionField option in field2)
 }
 ```
 
-Nyní, když spustíte tento kód, vypíše souřadnice každé možnosti přepínače přímo do konzoly.
+Nyní, když spustíte tento kód, vypíše souřadnice každé možnosti přepínače přímo do konzole.
 
-## Krok 5: Zpracování chyb
+## Krok 5: Ošetření chyb
 
-Vždy je nezbytné zahrnout řešení chyb pro zvládnutí neočekávaných situací. Můžeme zabalit náš kód do bloku try-catch, abychom zachytili všechny výjimky, které by mohly nastat.
+Vždy je nezbytné zahrnout ošetření chyb pro zvládání neočekávaných situací. Náš kód můžeme zabalit do bloku try-catch, abychom zachytili všechny výjimky, které by mohly nastat.
 
 ```csharp
 try 
 {
-    // (Všechny výše uvedené kódy zde)
+    // (Veškerý výše uvedený kód zde)
 }
 catch (Exception ex) 
 {
@@ -129,31 +131,33 @@ catch (Exception ex)
 }
 ```
 
-To vám pomůže odladit jakékoli problémy, které se mohou vyskytnout při pokusu o přístup k polím PDF.
+To vám pomůže odladit jakékoli problémy, které by mohly nastat při pokusu o přístup k polím PDF.
 
 ## Závěr
 
-Gratuluji! Úspěšně jste prošli základními kroky získávání souřadnic pole formuláře PDF pomocí Aspose.PDF pro .NET. Pochopením toho, jak programově pracovat s dokumenty PDF, otevíráte zcela novou oblast možností automatizace procesů správy dokumentů. Pamatujte, že hlavními body je zajistit, že máte správnou knihovnu, znát strukturu dokumentu a využívat zpracování chyb k vytváření robustních aplikací. Nyní je čas, abyste dále experimentovali a prozkoumali další možnosti knihovny Aspose.PDF!
+Gratulujeme! Úspěšně jste prošli základními kroky načítání souřadnic polí formulářů PDF pomocí Aspose.PDF pro .NET. Pochopením toho, jak programově pracovat s dokumenty PDF, si otevřete zcela novou oblast možností automatizace procesů správy dokumentů. Nezapomeňte, že klíčovými poznatky jsou zajištění správné knihovny, znalost struktury dokumentu a využití ošetřování chyb k vytváření robustních aplikací. Nyní je čas dále experimentovat a prozkoumat další možnosti knihovny Aspose.PDF!
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je knihovna, která umožňuje vývojářům vytvářet, manipulovat a zpracovávat dokumenty PDF v aplikacích .NET.
+Aspose.PDF pro .NET je knihovna, která umožňuje vývojářům vytvářet, manipulovat a zpracovávat PDF dokumenty v .NET aplikacích.
 
-### Jak si stáhnu Aspose.PDF pro .NET?
- Můžete si jej stáhnout z[odkaz ke stažení](https://releases.aspose.com/pdf/net/).
+### Jak si stáhnu soubor Aspose.PDF pro .NET?
+Můžete si ho stáhnout z [odkaz ke stažení](https://releases.aspose.com/pdf/net/).
 
-### Mohu vyzkoušet Aspose.PDF zdarma?
- Ano! Můžete si to vyzkoušet zdarma návštěvou[zkušební stránka zdarma](https://releases.aspose.com/).
+### Mohu si Aspose.PDF vyzkoušet zdarma?
+Ano! Můžete si to vyzkoušet zdarma na adrese [stránka s bezplatnou zkušební verzí](https://releases.aspose.com/).
 
 ### Jaké jsou systémové požadavky pro Aspose.PDF?
- Aspose.PDF je kompatibilní s aplikacemi .NET Framework a .NET Core. Konkrétní požadavky viz[dokumentace](https://reference.aspose.com/pdf/net/).
+Soubor Aspose.PDF je kompatibilní s aplikacemi .NET Framework a .NET Core. Konkrétní požadavky naleznete v [dokumentace](https://reference.aspose.com/pdf/net/).
 
 ### Kde mohu získat podporu pro Aspose.PDF?
- Podporu a dotazy můžete najít v Aspose[fórum podpory](https://forum.aspose.com/c/pdf/10).
+Podporu a dotazy můžete najít v Aspose [fórum podpory](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

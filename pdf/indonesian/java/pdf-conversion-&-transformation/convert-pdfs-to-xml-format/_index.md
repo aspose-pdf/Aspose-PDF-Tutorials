@@ -1,14 +1,16 @@
 ---
-title: Konversi PDF ke Format XML
-linktitle: Konversi PDF ke Format XML
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengonversi PDF ke XML dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dan praktik terbaik untuk konversi yang efisien.
-weight: 22
-url: /id/java/pdf-conversion-transformation/convert-pdfs-to-xml-format/
+"description": "Pelajari cara mengonversi PDF ke XML dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dan praktik terbaik untuk konversi yang efisien."
+"linktitle": "Konversi PDF ke Format XML"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Konversi PDF ke Format XML"
+"url": "/id/java/pdf-conversion-transformation/convert-pdfs-to-xml-format/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi PDF ke Format XML
@@ -35,7 +37,7 @@ Sekarang setelah Anda memiliki gambaran singkat tentang Aspose.PDF untuk Java, m
 
 Sebelum Anda dapat mulai mengonversi PDF ke XML, Anda perlu menyiapkan Aspose.PDF untuk Java di proyek Anda. Ikuti langkah-langkah berikut untuk memulai:
 
-1.  Unduh Aspose.PDF untuk Java: Kunjungi situs web Aspose dan unduh Aspose.PDF versi Java. Anda dapat menemukan tautan unduhannya[Di Sini](https://releases.aspose.com/pdf/java/).
+1. Unduh Aspose.PDF untuk Java: Kunjungi situs web Aspose dan unduh Aspose.PDF versi Java. Anda dapat menemukan tautan unduhannya [Di Sini](https://releases.aspose.com/pdf/java/).
 
 2. Instalasi: Setelah diunduh, ikuti petunjuk instalasi yang disediakan di situs web Aspose untuk menyiapkan pustaka di proyek Java Anda.
 
@@ -97,7 +99,7 @@ Mengonversi PDF ke format XML menggunakan Aspose.PDF untuk Java membuka banyak k
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
 Menginstal Aspose.PDF untuk Java sangatlah mudah. Ikuti langkah-langkah berikut:
-1.  Unduh perpustakaan dari[Di Sini](https://releases.aspose.com/pdf/java/).
+1. Unduh perpustakaan dari [Di Sini](https://releases.aspose.com/pdf/java/).
 2. Instal di proyek Java Anda sesuai dengan petunjuk yang diberikan.
 
 ### Bisakah saya mengonversi PDF yang dilindungi kata sandi ke XML?
@@ -114,10 +116,12 @@ Mengonversi PDF ke XML menawarkan keuntungan seperti ekstraksi data terstruktur,
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.PDF untuk Java?
 
- Kunjungi dokumentasi Aspose.PDF untuk Java[Di Sini](https://reference.aspose.com/pdf/java/) untuk sumber daya yang lengkap, tutorial, dan referensi API.
+Kunjungi dokumentasi Aspose.PDF untuk Java [Di Sini](https://reference.aspose.com/pdf/java/) untuk sumber daya yang lengkap, tutorial, dan referensi API.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

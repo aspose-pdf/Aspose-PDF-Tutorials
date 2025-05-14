@@ -1,14 +1,16 @@
 ---
-title: การเติมข้อความภาษาอาหรับ
-linktitle: การเติมข้อความภาษาอาหรับ
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการกรอกข้อความภาษาอาหรับในแบบฟอร์ม PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้ พัฒนาทักษะการจัดการ PDF ของคุณ
-weight: 20
-url: /th/net/programming-with-forms/arabic-text-filling/
+"description": "เรียนรู้วิธีการกรอกข้อความภาษาอาหรับในแบบฟอร์ม PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้ พัฒนาทักษะการจัดการ PDF ของคุณ"
+"linktitle": "การเติมข้อความภาษาอาหรับ"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "การเติมข้อความภาษาอาหรับ"
+"url": "/th/net/programming-with-forms/arabic-text-filling/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเติมข้อความภาษาอาหรับ
@@ -19,11 +21,11 @@ url: /th/net/programming-with-forms/arabic-text-filling/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกโค้ด มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องมี:
+ก่อนที่จะเจาะลึกโค้ด มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องมี:
 
 1. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจตัวอย่างได้ดีขึ้น
-2.  Aspose.PDF สำหรับ .NET: คุณต้องติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/net/).
-3. Visual Studio: สภาพแวดล้อมการพัฒนาเช่น Visual Studio แนะนำสำหรับการเขียนและทดสอบโค้ดของคุณ
+2. Aspose.PDF สำหรับ .NET: คุณต้องติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/net/).
+3. Visual Studio: สภาพแวดล้อมการพัฒนาเช่น Visual Studio ขอแนะนำสำหรับการเขียนและทดสอบโค้ดของคุณ
 4. แบบฟอร์ม PDF: คุณควรมีแบบฟอร์ม PDF พร้อมช่องข้อความอย่างน้อยหนึ่งช่องที่คุณต้องการกรอกข้อความภาษาอาหรับ คุณสามารถสร้างแบบฟอร์ม PDF ง่ายๆ โดยใช้โปรแกรมแก้ไข PDF ใดก็ได้
 
 ## แพ็คเกจนำเข้า
@@ -47,11 +49,11 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- อย่าลืมเปลี่ยน`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บแบบฟอร์ม PDF ของคุณ
+อย่าลืมเปลี่ยน `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บแบบฟอร์ม PDF ของคุณ
 
 ## ขั้นตอนที่ 2: โหลดแบบฟอร์ม PDF
 
- ขั้นต่อไป คุณต้องโหลดแบบฟอร์ม PDF ที่คุณต้องการกรอก ซึ่งทำได้โดยใช้`FileStream` เพื่ออ่านไฟล์ PDF
+ขั้นต่อไป คุณต้องโหลดแบบฟอร์ม PDF ที่คุณต้องการกรอก ซึ่งทำได้โดยใช้ `FileStream` เพื่ออ่านไฟล์ PDF
 
 ```csharp
 using (FileStream fs = new FileStream(dataDir + "FillFormField.pdf", FileMode.Open, FileAccess.ReadWrite))
@@ -65,7 +67,7 @@ using (FileStream fs = new FileStream(dataDir + "FillFormField.pdf", FileMode.Op
 
 ## ขั้นตอนที่ 3: เข้าถึง TextBoxField
 
- เมื่อโหลดเอกสาร PDF แล้ว คุณต้องเข้าถึงช่องฟอร์มเฉพาะที่คุณต้องการกรอกข้อความภาษาอาหรับ ในกรณีนี้ เรากำลังมองหาช่องข้อความชื่อ`"textbox1"`.
+เมื่อโหลดเอกสาร PDF แล้ว คุณต้องเข้าถึงช่องฟอร์มเฉพาะที่คุณต้องการกรอกข้อความภาษาอาหรับ ในกรณีนี้ เรากำลังมองหาช่องข้อความชื่อ `"textbox1"`-
 
 ```csharp
 TextBoxField txtFld = pdfDocument.Form["textbox1"] as TextBoxField;
@@ -81,7 +83,7 @@ TextBoxField txtFld = pdfDocument.Form["textbox1"] as TextBoxField;
 txtFld.Value = "يولد جميع الناس أحراراً متساوين في";
 ```
 
-บรรทัดนี้ตั้งค่ากล่องข้อความให้เป็นวลีภาษาอาหรับ "มนุษย์ทุกคนเกิดมาเสรีและเท่าเทียมกันในศักดิ์ศรีและสิทธิ"
+บรรทัดนี้ตั้งค่ากล่องข้อความเป็นวลีภาษาอาหรับ "มนุษย์ทุกคนเกิดมาเสรีและเท่าเทียมกันในศักดิ์ศรีและสิทธิ"
 
 ## ขั้นตอนที่ 5: บันทึกเอกสารที่อัปเดต
 
@@ -92,7 +94,7 @@ dataDir = dataDir + "ArabicTextFilling_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- การดำเนินการนี้จะบันทึก PDF ที่กรอกแล้วเป็น`ArabicTextFilling_out.pdf` ในไดเร็กทอรีที่ระบุ
+การดำเนินการนี้จะบันทึก PDF ที่กรอกแล้วเป็น `ArabicTextFilling_out.pdf` ในไดเร็กทอรีที่ระบุ
 
 ## ขั้นตอนที่ 6: ยืนยันการดำเนินการ
 
@@ -117,16 +119,18 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช
 ใช่ Aspose.PDF รองรับหลายภาษา รวมถึงภาษาอาหรับ อังกฤษ ฝรั่งเศส และอื่นๆ อีกมากมาย
 
 ### ฉันสามารถดาวน์โหลด Aspose.PDF สำหรับ .NET ได้ที่ไหน
- คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/pdf/net/).
+คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/pdf/net/).
 
 ### มีการทดลองใช้ฟรีหรือไม่?
- ใช่ คุณสามารถทดลองใช้ Aspose.PDF ได้ฟรีโดยดาวน์โหลดเวอร์ชันทดลองใช้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถทดลองใช้ Aspose.PDF ได้ฟรีโดยดาวน์โหลดเวอร์ชันทดลองใช้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้อย่างไร?
- คุณสามารถรับการสนับสนุนได้โดยการเยี่ยมชม[ฟอรั่ม Aspose](https://forum.aspose.com/c/pdf/10).
+คุณสามารถรับการสนับสนุนได้โดยการเยี่ยมชม [ฟอรั่ม Aspose](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

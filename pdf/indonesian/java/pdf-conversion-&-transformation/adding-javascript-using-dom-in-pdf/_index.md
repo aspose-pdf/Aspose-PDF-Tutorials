@@ -1,14 +1,16 @@
 ---
-title: Menambahkan JavaScript menggunakan DOM dalam PDF
-linktitle: Menambahkan JavaScript menggunakan DOM dalam PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara meningkatkan interaktivitas PDF dengan JavaScript menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk PDF dinamis
-weight: 32
-url: /id/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/
+"description": "Pelajari cara meningkatkan interaktivitas PDF dengan JavaScript menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk PDF dinamis"
+"linktitle": "Menambahkan JavaScript menggunakan DOM dalam PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan JavaScript menggunakan DOM dalam PDF"
+"url": "/id/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan JavaScript menggunakan DOM dalam PDF
@@ -30,7 +32,7 @@ JavaScript dapat digunakan untuk menambahkan perilaku dinamis ke dokumen PDF. An
 
 Sebelum memulai, Anda perlu menyiapkan lingkungan pengembangan Anda. Berikut langkah-langkahnya:
 
-1. Unduh dan Instal Aspose.PDF untuk Java: Kunjungi[Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/) untuk mengunduh dan menginstal perpustakaan.
+1. Unduh dan Instal Aspose.PDF untuk Java: Kunjungi [Dokumentasi Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/) untuk mengunduh dan menginstal perpustakaan.
 
 2. Buat Proyek Java: Siapkan proyek Java di Lingkungan Pengembangan Terpadu (IDE) pilihan Anda.
 
@@ -107,7 +109,7 @@ Sekarang setelah Anda memiliki pemahaman mendasar tentang cara menambahkan JavaS
 
 ### Bagaimana cara mengunduh Aspose.PDF untuk Java?
 
- Anda dapat mengunduh Aspose.PDF untuk Java dari situs web dengan mengunjungi[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Anda dapat mengunduh Aspose.PDF untuk Java dari situs web dengan mengunjungi [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
 ### Apakah dukungan JavaScript tersedia di semua penampil PDF?
 
@@ -124,9 +126,11 @@ Dukungan JavaScript dalam PDF mungkin memiliki beberapa keterbatasan, tergantung
 ### Di mana saya dapat menemukan contoh JavaScript yang lebih canggih untuk PDF?
 
 Anda dapat menjelajahi dokumentasi Aspose.PDF untuk Java untuk contoh lanjutan dan kasus penggunaan terkait JavaScript dalam PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

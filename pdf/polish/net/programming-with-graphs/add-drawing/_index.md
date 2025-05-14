@@ -1,14 +1,16 @@
 ---
-title: Dodaj rysunek w pliku PDF
-linktitle: Dodaj rysunek w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać rysunki do plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje ustawienia kolorów, dodawanie kształtów i zapisywanie pliku PDF.
-weight: 10
-url: /pl/net/programming-with-graphs/add-drawing/
+"description": "Dowiedz się, jak dodawać rysunki do plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje ustawienia kolorów, dodawanie kształtów i zapisywanie pliku PDF."
+"linktitle": "Dodaj rysunek w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj rysunek w pliku PDF"
+"url": "/pl/net/programming-with-graphs/add-drawing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj rysunek w pliku PDF
@@ -21,7 +23,7 @@ Podczas pracy z dokumentami PDF dodawanie rysunków może znacznie poprawić atr
 
 Zanim przejdziesz do samouczka, upewnij się, że posiadasz następujące elementy:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowany Aspose.PDF dla .NET. Możesz go pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowany Aspose.PDF dla .NET. Możesz go pobrać ze strony [Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: W tym samouczku założono, że używasz środowiska programistycznego .NET.
 3. Visual Studio: Choć nie jest to obowiązkowe, zainstalowanie programu Visual Studio ułatwi śledzenie przykładów kodu.
 4. Podstawowa znajomość języka C#: Podstawowa znajomość programowania w języku C# pomoże Ci zrozumieć udostępnione fragmenty kodu.
@@ -51,11 +53,11 @@ int red = 100;
 int blue = 0;
 ```
 
- W tym przykładzie definiujemy wartości alfa (przezroczystość) i RGB dla naszego koloru.`alpha` Wartość kontroluje przezroczystość koloru, podczas gdy wartości RGB definiują sam kolor.
+W tym przykładzie definiujemy wartości alfa (przezroczystość) i RGB dla naszego koloru. `alpha` Wartość kontroluje przezroczystość koloru, podczas gdy wartości RGB definiują sam kolor.
 
 ## Krok 2: Utwórz obiekt koloru
 
- Teraz utwórz`Color` obiekt używający wartości alfa i RGB:
+Teraz utwórz `Color` obiekt używający wartości alfa i RGB:
 
 ```csharp
 // Utwórz obiekt Kolor za pomocą Alpha RGB
@@ -66,7 +68,7 @@ Ten krok inicjuje kolor z przezroczystością, co umożliwia tworzenie rysunków
 
 ## Krok 3: Utwórz obiekt dokumentu
 
- Następnie utwórz nowy`Document` obiekt, który będzie służył jako kontener dla naszego pliku PDF:
+Następnie utwórz nowy `Document` obiekt, który będzie służył jako kontener dla naszego pliku PDF:
 
 ```csharp
 // Utwórz obiekt dokumentu
@@ -84,7 +86,7 @@ Page page = document.Pages.Add();
 
 ## Krok 5: Utwórz obiekt wykresu
 
- Ten`Graph` obiekt pozwala nam rysować kształty i inne grafiki. Zdefiniuj wymiary grafu:
+Ten `Graph` obiekt pozwala nam rysować kształty i inne grafiki. Zdefiniuj wymiary grafu:
 
 ```csharp
 // Utwórz obiekt Graph o określonych wymiarach
@@ -165,22 +167,24 @@ Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom tworzen
 
 ### Jak mogę pobrać Aspose.PDF dla platformy .NET?
 
- Plik Aspose.PDF dla platformy .NET można pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/pdf/net/).
+Możesz pobrać plik Aspose.PDF dla platformy .NET ze strony [Strona wydań Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Czy mogę używać Aspose.PDF dla .NET bezpłatnie?
 
- Aspose oferuje bezpłatną wersję próbną Aspose.PDF dla .NET. Możesz ją uzyskać ze strony[strona z bezpłatną wersją próbną](https://releases.aspose.com/).
+Aspose oferuje bezpłatną wersję próbną Aspose.PDF dla .NET. Możesz ją uzyskać ze strony [strona z bezpłatną wersją próbną](https://releases.aspose.com/).
 
-### Gdzie mogę znaleźć dokumentację Aspose.PDF dla .NET?
+### Gdzie mogę znaleźć dokumentację Aspose.PDF dla platformy .NET?
 
- Dokumentacja jest dostępna pod adresem[Strona dokumentacji Aspose](https://reference.aspose.com/pdf/net/).
+Dokumentacja jest dostępna pod adresem [Strona dokumentacji Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.PDF dla platformy .NET?
 
- Aby uzyskać pomoc, możesz odwiedzić stronę[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Aby uzyskać pomoc, możesz odwiedzić stronę [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-tables/export-excel-worksheet-data-to-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Excel Worksheet Data To Table
@@ -203,6 +205,7 @@ You can use `pdfDocument.Pages.Add()` to add as many pages as you need.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

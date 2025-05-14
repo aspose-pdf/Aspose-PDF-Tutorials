@@ -1,37 +1,39 @@
 ---
-title: Kép és oldalszám a Fejléc lábléc részben
-linktitle: Kép és oldalszám a Fejléc lábléc részben
-second_title: Aspose.PDF for .NET API Reference
-description: Ebben a lépésenkénti oktatóanyagban megtudhatja, hogyan adhat hozzá képet és oldalszámokat a PDF-fájl fejlécéhez és láblécéhez az Aspose.PDF for .NET használatával.
-weight: 110
-url: /hu/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section/
+"description": "Ebben a lépésről lépésre bemutató útmutatóban megtudhatja, hogyan adhat hozzá képet és oldalszámokat PDF-je fejlécéhez és láblécéhez az Aspose.PDF for .NET használatával."
+"linktitle": "Kép és oldalszám a fejléc és lábléc szakaszban"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Kép és oldalszám a fejléc és lábléc szakaszban"
+"url": "/hu/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kép és oldalszám a Fejléc lábléc részben
+# Kép és oldalszám a fejléc és lábléc szakaszban
 
 ## Bevezetés
 
-Ha professzionális minőségű PDF-dokumentumokról van szó, elengedhetetlen az apró részletek, például a fejlécek és láblécek ellenőrzése. Azt szeretné, hogy dokumentumai fényezettnek és jól rendezettnek tűnjenek, igaz? Nos, az Aspose.PDF for .NET segítségével zökkenőmentesen adhat hozzá képeket és oldalszámokat a dokumentum fejlécéhez és láblécéhez. Ebben az oktatóanyagban minden lépésen végigvezetjük Önt, így könnyen követhető.
+Professzionális minőségű PDF dokumentumok létrehozásakor elengedhetetlen az olyan apró részletek feletti kontroll, mint a fejlécek és a láblécek. Azt szeretnéd, hogy dokumentumaid letisztultnak és jól szervezettnek tűnjenek, igaz? Nos, az Aspose.PDF for .NET segítségével zökkenőmentesen adhatsz hozzá képeket és oldalszámokat a dokumentum fejléc- és láblécrészeihez. Ebben az oktatóanyagban végigvezetünk minden lépésen, így könnyen követhető lesz.
 
 ## Előfeltételek
 
-Mielőtt belevágna ennek az oktatóanyagnak a lényegébe, győződjön meg arról, hogy a következőket rendezte:
+Mielőtt belemerülnénk az oktatóanyag részleteibe, győződjünk meg róla, hogy a következőket elrendeztük:
 
-1. .NET-keretrendszer: A .NET-keretrendszer bármely verzióját telepítenie kell a számítógépére. Ha nem rendelkezik vele, egyszerűen letöltheti a Microsoft webhelyéről.
-2.  Aspose.PDF .NET-hez: Mivel az Aspose.PDF-et fogjuk használni, győződjön meg arról, hogy telepítve van a projektben. Letöltheti a próbaverziót[itt](https://releases.aspose.com/pdf/net/).
-3. Alapvető C# ismerete: Az alapvető C# programozás ismerete minden bizonnyal segít megérteni a kódot különösebb gond nélkül.
-4. Képfájl: Szüksége lesz egy képre, amelyet el szeretne helyezni a PDF-dokumentum fejlécébe, például egy logóra. Mentse el egy hozzáférhető könyvtárba. 
-5. IDE: Használjon tetszőleges integrált fejlesztői környezetet (IDE), például a Visual Studio-t, hogy működjön együtt a .NET-projektjével.
+1. .NET-keretrendszer: A számítógépeden telepíteni kell a .NET-keretrendszer bármely verzióját. Ha nincs meg, könnyen letöltheted a Microsoft webhelyéről.
+2. Aspose.PDF .NET-hez: Mivel az Aspose.PDF fájlt fogjuk használni, győződjön meg róla, hogy telepítve van a projektjében. Letölthet egy próbaverziót. [itt](https://releases.aspose.com/pdf/net/).
+3. C# alapismeretek: A C# programozás alapjainak ismerete minden bizonnyal segíteni fog abban, hogy gond nélkül megértsd a kódot.
+4. Képfájl: Szükséged lesz egy képre, amelyet a PDF-dokumentum fejlécébe szeretnél helyezni, például egy logóra. Mentsd el egy könnyen hozzáférhető könyvtárba. 
+5. IDE: Használjon egy választott integrált fejlesztői környezetet (IDE), például a Visual Studio-t a .NET-projektjével való munkához.
 
-Ha elkészült az előfeltételekkel, készen áll egy csodálatos PDF-fájl létrehozására!
+Miután minden előfeltétel megvan, máris készen állsz egy mesés PDF fájl létrehozására!
 
 ## Csomagok importálása
 
-Az Aspose.PDF for .NET használatának megkezdéséhez importálnia kell a szükséges névtereket. A C# fájl tetején a következőket kell hozzáadnia:
+Az Aspose.PDF .NET-hez való használatának megkezdéséhez importálnia kell a szükséges névtereket. A C# fájl tetejére a következőt kell hozzáadnia:
 
 ```csharp
 using Aspose.Pdf;
@@ -39,60 +41,60 @@ using Aspose.Pdf.Text;
 using Aspose.Pdf.Image;
 ```
 
-Ezek a névterek hozzáférést biztosítanak a PDF-fájlok kezeléséhez szükséges osztályokhoz.
+Ezek a névterek hozzáférést biztosítanak a PDF fájlok kezeléséhez szükséges osztályokhoz.
 
-Most pedig térjünk rá az igazira! Kövesse az alábbi lépéseket a PDF-dokumentum létrehozásához, a fejlécben egy képet, a láblécben pedig az oldalszámokat.
+Most pedig térjünk a lényegre! Kövesd az alábbi lépéseket a PDF dokumentum létrehozásához, és illessz be egy képet a fejlécbe, valamint oldalszámokat a láblécbe.
 
 ## 1. lépés: Állítsa be a dokumentumkönyvtárat
 
-Minden jó projekt a szervezéssel kezdődik. Határozza meg a dokumentumkönyvtárat, ahová menteni fogja a fájljait, és ahol a kép található. Íme, hogyan kell csinálni:
+Minden jó projekt a rendszerezéssel kezdődik. Határozd meg a dokumentumkönyvtárat, ahová a fájlokat menteni fogod, és a képeket. Így csináld:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ne felejtse el cserélni`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal, ahová menteni szeretné a PDF-fájlt, és ahol a kép található.
+Ne felejtsd el kicserélni `"YOUR DOCUMENT DIRECTORY"` a PDF fájl mentési útvonalával és a kép tárolási helyével.
 
-## 2. lépés: Hozzon létre egy új PDF-dokumentumot
+## 2. lépés: Új PDF dokumentum létrehozása
 
-Ezután létrehozunk egy új PDF-dokumentumot, amelyben minden varázslat megtörténik:
+Következő lépésként létrehozunk egy új PDF dokumentumot, ahol minden varázslat megtörténik:
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
-Ezen a ponton létrehozott egy üres PDF-dokumentumot. Izgalmas, nem?
+Ezen a ponton létrehoztál egy üres PDF dokumentumot. Izgalmas, nem igaz?
 
-## 3. lépés: Adjon hozzá egy oldalt a dokumentumhoz
+## 3. lépés: Oldal hozzáadása a dokumentumhoz
 
-A PDF az oldalakról szól. Adjunk hozzá egy új oldalt a dokumentumunkhoz a következő használatával:
+Egy PDF dokumentum az oldalakról szól. Adjunk hozzá egy új oldalt a dokumentumunkhoz a következőképpen:
 
 ```csharp
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
-Most van egy vászon, ahol elkezdheti a tervezést!
+Most már van egy vászonod, amin elkezdheted a tervezést!
 
-## 4. lépés: Hozza létre a Fejléc szakaszt
+## 4. lépés: A fejléc szakasz létrehozása
 
-A fejléc tartalmazza a megjeleníteni kívánt képet (mint egy logót). Hozza létre a fejléc szakaszt a következő kóddal:
+A fejlécben fog megjelenni a megjeleníteni kívánt kép (például egy logó). A fejléc részt a következő kóddal hozhatod létre:
 
 ```csharp
 Aspose.Pdf.HeaderFooter header = new Aspose.Pdf.HeaderFooter();
 page.Header = header;
 ```
 
-Most már van egy fejléce, amelyet személyre szabhat!
+Most már van egy fejléced, amit testreszabhatsz!
 
-## 5. lépés: Adjon hozzá egy képet a fejléchez
+## 5. lépés: Kép hozzáadása a fejléchez
 
-Most pedig elérkeztünk a szórakoztató részhez! A képet hozzá kell adnia a fejléchez. Először hozzon létre egy képobjektumot:
+Most pedig térünk a lényegre! Hozzá kell adnod a képet a fejléchez. Először is hozz létre egy képobjektumot:
 
 ```csharp
 Aspose.Pdf.Image image1 = new Aspose.Pdf.Image();
 ```
 
-Állítsa be a kép fájl elérési útját:
+Állítsa be a kép fájlelérési útját:
 
 ```csharp
 image1.File = dataDir + "aspose-logo.jpg";
@@ -104,68 +106,70 @@ Végül add hozzá a képet a fejléchez:
 header.Paragraphs.Add(image1);
 ```
 
-Gratulálok! Most hozzáadott egy képet a PDF fejlécéhez.
+Gratulálunk! Hozzáadtál egy képet a PDF fejlécéhez.
 
-## 6. lépés: Hozza létre a lábléc szakaszt
+## 6. lépés: Lábléc szakasz létrehozása
 
-Most dolgozzunk a láblécen. A fejléchez hasonlóan hozzon létre egy láblécobjektumot:
+Most pedig dolgozzunk a láblécen. A fejléchez hasonlóan hozzunk létre egy lábléc objektumot:
 
 ```csharp
 Aspose.Pdf.HeaderFooter footer = new Aspose.Pdf.HeaderFooter();
 page.Footer = footer;
 ```
 
-Itt kell elhelyezni az oldalszámot. 
+Ide kell majd beírnod az oldalszámot. 
 
 ## 7. lépés: Szöveg hozzáadása a lábléchez
 
-Hozzon létre egy szövegrészletet, amely tartalmazza az oldalszámot:
+Hozz létre egy szövegrészletet, amely az oldalszámot tartalmazza:
 
 ```csharp
 Aspose.Pdf.Text.TextFragment txt = new Aspose.Pdf.Text.TextFragment("Page: ($p of $P ) ");
 ```
 
-Ezután adja hozzá ezt a szövegrészletet a lábléchez:
+Ezután add hozzá ezt a szövegrészletet a lábléchez:
 
 ```csharp
 footer.Paragraphs.Add(txt);
 ```
 
-Látod milyen könnyű volt? Dinamikusan beállítottad az oldalszámodat!
+Látod, milyen egyszerű volt? Dinamikusan állítottad be az oldalszámozást!
 
-## 8. lépés: Mentse el a PDF-dokumentumot
+## 8. lépés: Mentse el a PDF dokumentumot
 
-Kalandunk utolsó lépése a dokumentum mentése. Ezzel a paranccsal mentheti el az újonnan létrehozott PDF-fájlt:
+Kalandunk utolsó lépése a dokumentum mentése. Ezzel a paranccsal mentheted az újonnan létrehozott PDF-et:
 
 ```csharp
 doc.Save(dataDir + "ImageAndPageNumberInHeaderFooter_out.pdf");
 ```
 
-És éppen így, a PDF-fájl készen áll, és a láblécben be van töltve egy fejléckép és oldalszámok!
+És ezzel készen is van a PDF-ed, fejlécképpel és oldalszámokkal a láblécben!
 
 ## Következtetés
 
-És megvan! Létrehozott egy PDF-fájlt, amelynek fejlécében egy kép, a láblécben pedig dinamikus oldalszámok találhatók az Aspose.PDF for .NET használatával. Egészen hihetetlen, hogy néhány sornyi kód hogyan eredményezhet ilyen csiszolt kimenetet. Legyen szó vállalati jelentésről vagy személyre szabott dokumentumról, ezeknek az elemeknek a hozzáadása megváltoztatja a PDF-fájl hangnemét és professzionalizmusát.
+És tessék! Most hoztál létre egy PDF-et egy képpel a fejlécben és dinamikus oldalszámokkal a láblécben az Aspose.PDF for .NET segítségével. Egészen hihetetlen, hogy néhány sornyi kód milyen kifinomult kimenetet eredményezhet. Akár egy vállalati jelentésről, akár egy személyre szabott dokumentumról van szó, ezeknek az elemeknek a hozzáadása megváltoztatja a PDF hangvételét és professzionalizmusát.
 
 ## GYIK
 
-### Használhatom az Aspose.PDF-et bármely .NET platformon?
-Igen, az Aspose.PDF for .NET több .NET-platformot támogat, beleértve a .NET-keretrendszert, a .NET Core-t és egyebeket.
+### Használhatom az Aspose.PDF fájlt bármilyen .NET platformon?
+Igen, az Aspose.PDF for .NET több .NET platformot is támogat, beleértve a .NET Frameworköt, a .NET Core-t és egyebeket.
 
-### Elérhető az Aspose.PDF ingyenes próbaverziója?
- Teljesen! Letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
+### Van ingyenes próbaverzió az Aspose.PDF-hez?
+Természetesen! Letölthet egy ingyenes próbaverziót [itt](https://releases.aspose.com/).
 
 ### Milyen képformátumok támogatottak a fejlécekhez?
-Az Aspose.PDF támogatja a legelterjedtebb képformátumokat, például a JPG, PNG és BMP fejléceket és lábléceket.
+Az Aspose.PDF a fejlécek és láblécek esetében a leggyakoribb képformátumokat támogatja, mint például a JPG, PNG és BMP.
 
-### Testreszabhatom az oldalszámformátumot?
-Igen, könnyen testreszabhatja a lábléc szövegét és formátumát igényei szerint.
+### Testreszabhatom az oldalszámozás formátumát?
+Igen, könnyen testreszabhatja a lábléc szövegét és formátumát az igényei szerint.
 
-### Műszaki támogatás elérhető?
- Igen, az Aspose dedikált támogatást nyújt a fórumán keresztül. Segítségért fordulhat[itt](https://forum.aspose.com/c/pdf/10).
+### Elérhető a technikai támogatás?
+Igen, az Aspose dedikált támogatást nyújt a fórumán keresztül. Segítségért fordulhat hozzánk. [itt](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

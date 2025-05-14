@@ -7,7 +7,9 @@ description: Programming with Security and Signatures tutorial teaches you how t
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Security and Signatures
@@ -35,6 +37,7 @@ The tutorial gives you a detailed overview of methods and techniques to ensure t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

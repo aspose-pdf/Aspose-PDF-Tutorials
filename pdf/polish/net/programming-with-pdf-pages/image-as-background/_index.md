@@ -1,14 +1,16 @@
 ---
-title: Ustaw obraz jako tło strony w pliku PDF
-linktitle: Ustaw obraz jako tło strony w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak ustawić obraz jako tło strony w pliku PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku. Twórz profesjonalne, atrakcyjne wizualnie dokumenty.
-weight: 110
-url: /pl/net/programming-with-pdf-pages/image-as-background/
+"description": "Dowiedz się, jak ustawić obraz jako tło strony w pliku PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku. Twórz profesjonalne, wizualnie atrakcyjne dokumenty."
+"linktitle": "Ustaw obraz jako tło strony w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ustaw obraz jako tło strony w pliku PDF"
+"url": "/pl/net/programming-with-pdf-pages/image-as-background/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw obraz jako tło strony w pliku PDF
@@ -21,11 +23,11 @@ Tworzenie wizualnie przyciągających uwagę dokumentów PDF może mieć kluczow
 
 Zanim zaczniesz ustawiać obraz jako tło strony, musisz przygotować kilka rzeczy:
 
-1.  Aspose.PDF dla .NET zainstalowany w Twoim projekcie. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
-2.  Ważna licencja na Aspose.PDF. Jeśli jej nie masz, możesz ją uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) Lub[kup tutaj](https://purchase.aspose.com/buy).
+1. Aspose.PDF dla .NET zainstalowany w Twoim projekcie. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
+2. Ważna licencja na Aspose.PDF. Jeśli jej nie masz, możesz ją uzyskać [licencja tymczasowa](https://purchase.aspose.com/tempLubary-license/) or [kup tutaj](https://purchase.aspose.com/buy).
 3. Zainstalowany program Visual Studio lub inne środowisko IDE języka C#.
 4. Podstawowa znajomość programowania w języku C#.
-5. Plik obrazu, który można wykorzystać jako tło (np. „aspose-total-for-net.jpg”).
+5. Plik obrazu, który będzie używany jako tło (np. „aspose-total-for-net.jpg”).
 
 ## Importuj pakiety
 
@@ -124,9 +126,11 @@ Jeśli nie chcesz już używać tła, po prostu usuń BackgroundArtifact z kolek
 
 ### Czy mogę dodać tekst lub inną treść w tle?
 Tak, obraz tła pozostaje na drugim planie, dzięki czemu możesz dodawać na nim tekst, tabele i inne elementy, podobnie jak w przypadku warstw w programie Photoshop.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

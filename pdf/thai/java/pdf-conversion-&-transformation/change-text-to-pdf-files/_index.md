@@ -1,14 +1,16 @@
 ---
-title: เปลี่ยนข้อความเป็นไฟล์ PDF
-linktitle: เปลี่ยนข้อความเป็นไฟล์ PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการแปลงข้อความเป็นไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
-weight: 25
-url: /th/java/pdf-conversion-transformation/change-text-to-pdf-files/
+"description": "เรียนรู้วิธีการแปลงข้อความเป็นไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ"
+"linktitle": "เปลี่ยนข้อความเป็นไฟล์ PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เปลี่ยนข้อความเป็นไฟล์ PDF"
+"url": "/th/java/pdf-conversion-transformation/change-text-to-pdf-files/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เปลี่ยนข้อความเป็นไฟล์ PDF
@@ -28,7 +30,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที
 
 - ติดตั้ง Java Development Kit (JDK) แล้ว
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) ที่คุณเลือก
--  Aspose.PDF สำหรับไลบรารี Java (คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF สำหรับไลบรารี Java (คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/)
 
 ## การตั้งค่าโครงการ
 
@@ -42,7 +44,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที
 
 ตอนนี้โปรเจ็กต์ของคุณพร้อมแล้ว ถึงเวลาเพิ่ม Aspose.PDF สำหรับ Java ลงไป วิธีดำเนินการมีดังนี้:
 
-1.  ดาวน์โหลด Aspose.PDF สำหรับไลบรารี Java จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+1. ดาวน์โหลด Aspose.PDF สำหรับไลบรารี Java จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 2. เพิ่มไฟล์ JAR ที่ดาวน์โหลดลงใน classpath ของโปรเจ็กต์ของคุณ
 
 ## การสร้างแอปพลิเคชัน Java ง่ายๆ
@@ -93,7 +95,7 @@ public class TextToPDFConverter {
 
 ### ฉันจะดาวน์โหลด Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ที่[ที่นี่](https://releases.aspose.com/pdf/java/).
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ที่ [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของเอกสาร PDF ได้หรือไม่
 
@@ -110,9 +112,11 @@ Aspose.PDF สำหรับ Java รองรับการแปลงไฟ
 ### ฉันจะจัดการข้อผิดพลาดเมื่อใช้ Aspose.PDF สำหรับ Java ได้อย่างไร
 
 คุณสามารถนำการจัดการข้อผิดพลาดไปใช้กับแอปพลิเคชัน Java เพื่อจัดการข้อยกเว้นใดๆ ที่อาจเกิดขึ้นระหว่างการประมวลผล PDF โปรดดูเอกสารประกอบเพื่อดูแนวทางปฏิบัติที่ดีที่สุด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

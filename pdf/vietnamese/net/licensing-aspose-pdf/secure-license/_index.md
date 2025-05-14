@@ -1,14 +1,16 @@
 ---
-title: Giấy phép bảo mật trong tệp PDF
-linktitle: Giấy phép bảo mật trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách bảo mật giấy phép Aspose.PDF của bạn trong tệp PDF với hướng dẫn từng bước này. Mở khóa các tính năng nâng cao và đảm bảo tuân thủ dễ dàng.
-weight: 40
-url: /vi/net/licensing-aspose-pdf/secure-license/
+"description": "Tìm hiểu cách bảo mật giấy phép Aspose.PDF của bạn trong tệp PDF với hướng dẫn từng bước này. Mở khóa các tính năng nâng cao và đảm bảo tuân thủ dễ dàng."
+"linktitle": "Giấy phép bảo mật trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Giấy phép bảo mật trong tệp PDF"
+"url": "/vi/net/licensing-aspose-pdf/secure-license/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Giấy phép bảo mật trong tệp PDF
@@ -22,9 +24,9 @@ Trong thế giới phát triển phần mềm, việc đảm bảo các ứng d�
 Trước khi bắt đầu viết mã, bạn cần phải có một số điều kiện tiên quyết sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết và thực thi mã .NET của mình.
-2.  Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ[Bản phát hành PDF của Aspose](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ [Bản phát hành PDF của Aspose](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
-4.  Tệp giấy phép: Bạn nên chuẩn bị tệp giấy phép Aspose của mình. Nếu bạn không có, bạn có thể lấy[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) với mục đích thử nghiệm.
+4. Tệp giấy phép: Bạn nên chuẩn bị tệp giấy phép Aspose của mình. Nếu bạn không có, bạn có thể lấy [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) với mục đích thử nghiệm.
 
 ## Nhập gói
 
@@ -32,17 +34,17 @@ Trước khi bắt đầu viết mã, bạn cần phải có một số điều 
 
 1. Mở dự án Visual Studio của bạn.
 2. Nhấp chuột phải vào dự án của bạn trong Solution Explorer và chọn "Quản lý gói NuGet".
-3.  Tìm kiếm`Aspose.PDF` và cài đặt phiên bản mới nhất.
+3. Tìm kiếm `Aspose.PDF` và cài đặt phiên bản mới nhất.
 
 Sau khi cài đặt gói, bạn có thể bắt đầu viết mã để bảo mật giấy phép của mình.
 
 ## Bước 1: Tạo một tệp C# mới
 
-Trước tiên, hãy tạo một tệp C# mới trong dự án của bạn. Bạn có thể đặt tên cho nó`SecureLicense.cs`. Tệp này sẽ chứa tất cả mã cần thiết để bảo mật giấy phép của bạn.
+Trước tiên, hãy tạo một tệp C# mới trong dự án của bạn. Bạn có thể đặt tên cho nó `SecureLicense.cs`. Tệp này sẽ chứa tất cả mã cần thiết để bảo mật giấy phép của bạn.
 
 ## Bước 2: Thêm Sử dụng Chỉ thị
 
- Ở đầu trang của bạn`SecureLicense.cs` tệp, hãy thêm các lệnh sau bằng cách sử dụng. Các lệnh này sẽ cho phép bạn truy cập các lớp và phương thức bạn cần từ thư viện Aspose.
+Ở đầu trang của bạn `SecureLicense.cs` file, thêm các lệnh sau bằng cách sử dụng. Các lệnh này sẽ cho phép bạn truy cập các lớp và phương thức bạn cần từ thư viện Aspose.
 
 ```csharp
 using System.IO;
@@ -51,7 +53,7 @@ using Ionic.Zip;
 
 ## Bước 3: Khởi tạo Giấy phép Bảo mật
 
- Bây giờ, hãy khởi tạo giấy phép bảo mật. Đây là nơi phép thuật xảy ra. Bạn sẽ sử dụng`SecureLicense` lớp để quản lý tệp giấy phép của bạn. Sau đây là cách thực hiện:
+Bây giờ, hãy khởi tạo giấy phép bảo mật. Đây là nơi phép thuật xảy ra. Bạn sẽ sử dụng `SecureLicense` lớp để quản lý tệp giấy phép của bạn. Sau đây là cách thực hiện:
 
 ```csharp
 using (Stream zip = new SecureLicense().GetType().Assembly.GetManifestResourceStream("Aspose.Total.lic.zip"))
@@ -68,7 +70,7 @@ using (Stream zip = new SecureLicense().GetType().Assembly.GetManifestResourceSt
 
 
 - Luồng zip: Dòng này khởi tạo một luồng để đọc tệp giấy phép được nhúng trong tập lệnh.
--  ZipFile zf: Ở đây, chúng ta tạo một phiên bản mới của`ZipFile` để đọc nội dung của tệp zip.
+- ZipFile zf: Ở đây, chúng ta tạo một phiên bản mới của `ZipFile` để đọc nội dung của tệp zip.
 - MemoryStream ms: Luồng bộ nhớ này sẽ lưu trữ tệp giấy phép đã giải nén.
 - ZipEntry e: Dòng này lấy mục giấy phép cụ thể từ tệp zip.
 - ExtractWithPassword: Cuối cùng, chúng ta giải nén file giấy phép bằng mật khẩu được cung cấp.
@@ -82,7 +84,7 @@ License license = new License();
 license.SetLicense(ms);
 ```
 
--  Giấy phép giấy phép: Điều này tạo ra một phiên bản mới của`License` lớp học.
+- Giấy phép giấy phép: Điều này tạo ra một phiên bản mới của `License` lớp học.
 - SetLicense(ms): Phương pháp này tải giấy phép từ luồng bộ nhớ mà chúng ta đã tạo trước đó.
 
 ## Bước 5: Kiểm tra giấy phép
@@ -109,19 +111,21 @@ Bảo mật giấy phép của bạn trong tệp PDF bằng Aspose.PDF cho .NET 
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.PDF?
- Bạn có thể xin giấy phép tạm thời bằng cách truy cập[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời bằng cách truy cập [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
 Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện trước khi mua giấy phép.
 
 ### Tôi có thể tìm tài liệu Aspose.PDF ở đâu?
- Tài liệu có thể được tìm thấy tại[Tài liệu PDF Aspose](https://reference.aspose.com/pdf/net/).
+Tài liệu có thể được tìm thấy tại [Tài liệu PDF Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Tôi phải làm gì nếu gặp vấn đề với giấy phép của mình?
- Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp từ[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể tìm kiếm sự trợ giúp từ [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

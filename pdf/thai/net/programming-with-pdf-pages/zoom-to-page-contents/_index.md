@@ -1,14 +1,16 @@
 ---
-title: ซูมเข้าเนื้อหาหน้าในไฟล์ PDF
-linktitle: ซูมเข้าเนื้อหาหน้าในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีซูมเนื้อหาหน้าในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือฉบับสมบูรณ์นี้ ปรับปรุงเอกสาร PDF ของคุณตามความต้องการเฉพาะของคุณ
-weight: 160
-url: /th/net/programming-with-pdf-pages/zoom-to-page-contents/
+"description": "เรียนรู้วิธีซูมเนื้อหาหน้าในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือฉบับสมบูรณ์นี้ ปรับปรุงเอกสาร PDF ของคุณตามความต้องการเฉพาะของคุณ"
+"linktitle": "ซูมเข้าเนื้อหาหน้าในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ซูมเข้าเนื้อหาหน้าในไฟล์ PDF"
+"url": "/th/net/programming-with-pdf-pages/zoom-to-page-contents/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ซูมเข้าเนื้อหาหน้าในไฟล์ PDF
@@ -24,7 +26,7 @@ url: /th/net/programming-with-pdf-pages/zoom-to-page-contents/
 ก่อนที่เราจะเริ่มเขียนโค้ด เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่จำเป็น:
 
 1. Visual Studio ติดตั้ง: นี่เป็นสภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) สำหรับโครงการ .NET
-2.  Aspose.PDF สำหรับไลบรารี .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF จาก[ที่นี่](https://releases.aspose.com/pdf/net/)คุณสามารถเลือกได้จากตัวเลือกต่างๆ มากมาย รวมถึงการทดลองใช้ฟรีหากคุณต้องการทดสอบก่อน
+2. Aspose.PDF สำหรับไลบรารี .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF จาก [ที่นี่](https://releases.aspose.com/pdf/net/)คุณสามารถเลือกได้จากตัวเลือกต่างๆ มากมาย รวมถึงการทดลองใช้ฟรีหากคุณต้องการทดสอบก่อน
 3. ความรู้พื้นฐานเกี่ยวกับ C#: เราจะใช้ C# สำหรับตัวอย่าง ดังนั้นความเข้าใจพื้นฐานเกี่ยวกับภาษา C# จะช่วยให้คุณทำตามได้อย่างราบรื่น
 
 เข้าใจทุกอย่างแล้วใช่ไหม เยี่ยมเลย! มาเริ่มเขียนโค้ดกันเลย!
@@ -55,11 +57,11 @@ using Aspose.Pdf;
 using Aspose.Pdf.Facades;
 ```
 
-มาแบ่งกระบวนการซูมดูเนื้อหา PDF ออกเป็นขั้นตอนที่สามารถดำเนินการได้จริง
+มาแบ่งกระบวนการซูมดูเนื้อหา PDF ออกเป็นขั้นตอนปฏิบัติกัน
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
- ขั้นแรก คุณต้องกำหนดเส้นทางที่จัดเก็บไฟล์ PDF ของคุณ แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมด้วยเส้นทางไดเร็กทอรีที่แท้จริง
+ขั้นแรก คุณต้องกำหนดเส้นทางที่จัดเก็บไฟล์ PDF ของคุณ แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมด้วยเส้นทางไดเร็กทอรีที่แท้จริง
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // เช่น "C:\\Documents\\"
@@ -67,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // เช่น "C:\\Documents\\"
 
 ## ขั้นตอนที่ 2: โหลดไฟล์ PDF ต้นฉบับ
 
- ต่อไปเราจะสร้าง`Document` วัตถุที่จะโหลดไฟล์ PDF ของเรา แทนที่`"input.pdf"` ด้วยชื่อไฟล์ PDF จริงของคุณ
+ต่อไปเราจะสร้าง `Document` วัตถุที่จะโหลดไฟล์ PDF ของเรา แทนที่ `"input.pdf"` ด้วยชื่อไฟล์ PDF จริงของคุณ
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
@@ -83,11 +85,11 @@ Document doc = new Document(dataDir + "input.pdf");
 Aspose.Pdf.Rectangle rect = doc.Pages[1].Rect;
 ```
 
-ที่นี่ เรากำลังเข้าถึงหน้าแรก (จำไว้ว่าดัชนีเป็นแบบหนึ่งฐาน) และรับมิติสี่เหลี่ยมผืนผ้าของมัน
+ที่นี่ เรากำลังเข้าถึงหน้าแรก (จำไว้ว่าดัชนีเป็นแบบใช้ฐานหนึ่ง) และรับมิติรูปสี่เหลี่ยมผืนผ้า
 
 ## ขั้นตอนที่ 4: สร้าง PdfPageEditor
 
- เราจำเป็นต้องมีวิธีในการจัดการหน้า PDF และ`PdfPageEditor` เป็นเครื่องมือที่เราใช้เป็นประจำ:
+เราจำเป็นต้องมีวิธีในการจัดการหน้า PDF และ `PdfPageEditor` เป็นเครื่องมือที่เราใช้เป็นประจำ:
 
 ```csharp
 PdfPageEditor ppe = new PdfPageEditor();
@@ -95,7 +97,7 @@ PdfPageEditor ppe = new PdfPageEditor();
 
 ## ขั้นตอนที่ 5: ผูก PDF ต้นฉบับ
 
- ต่อไปเราจะผูกไฟล์ PDF ที่เราโหลดไว้ก่อนหน้านี้เข้ากับ`PdfPageEditor` ตัวอย่าง:
+ต่อไปเราจะผูกไฟล์ PDF ที่เราโหลดไว้ก่อนหน้านี้เข้ากับ `PdfPageEditor` ตัวอย่าง:
 
 ```csharp
 ppe.BindPdf(dataDir + "input.pdf");
@@ -119,7 +121,7 @@ ppe.Zoom = (float)(rect.Width / rect.Height);
 ppe.PageSize = new Aspose.Pdf.PageSize((float)rect.Height, (float)rect.Width);
 ```
 
- การตั้งค่า`PageSize` ทำให้แน่ใจว่ามิติใหม่สะท้อนบนหน้า
+การตั้งค่า `PageSize` ทำให้แน่ใจว่ามิติใหม่สะท้อนบนหน้า
 
 ## ขั้นตอนที่ 8: บันทึกไฟล์ผลลัพธ์
 
@@ -151,22 +153,24 @@ System.Console.WriteLine("\nZoom to page contents applied successfully.\nFile sa
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose เสนอ[ทดลองใช้งานฟรี](https://releases.aspose.com/) สำหรับให้ผู้ใช้สามารถสำรวจคุณสมบัติของมัน
+ใช่ Aspose เสนอ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อให้ผู้ใช้สามารถสำรวจคุณสมบัติของมัน
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### สามารถซูมหน้าอื่นนอกจากหน้าแรกได้ไหม?
 แน่นอน! คุณเพียงแค่ต้องแก้ไขดัชนีหน้าในโค้ดเพื่อกำหนดเป้าหมายไปที่หน้าอื่นๆ
 
 ### ใบอนุญาตชั่วคราวคืออะไร?
-ใบอนุญาตชั่วคราวช่วยให้คุณทดลองใช้ Aspose.PDF พร้อมฟีเจอร์ครบถ้วนในระยะเวลาจำกัด รับเลย[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใบอนุญาตชั่วคราวช่วยให้คุณทดลองใช้ Aspose.PDF พร้อมฟีเจอร์ครบถ้วนได้เป็นเวลาจำกัด รับเลย [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับผลิตภัณฑ์ Aspose ได้จากที่ไหน
- สามารถขอความช่วยเหลือได้ผ่านฟอรั่ม Aspose[ที่นี่](https://forum.aspose.com/c/pdf/10).
+สามารถขอความช่วยเหลือได้ผ่านฟอรั่ม Aspose [ที่นี่](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

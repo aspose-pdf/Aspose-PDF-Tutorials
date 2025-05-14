@@ -1,14 +1,16 @@
 ---
-title: Thêm Bản Vẽ Vào Tệp PDF
-linktitle: Thêm Bản Vẽ Vào Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm bản vẽ vào tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm cài đặt màu sắc, thêm hình dạng và lưu tệp PDF của bạn.
-weight: 10
-url: /vi/net/programming-with-graphs/add-drawing/
+"description": "Tìm hiểu cách thêm bản vẽ vào tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm cài đặt màu sắc, thêm hình dạng và lưu tệp PDF của bạn."
+"linktitle": "Thêm Bản Vẽ Vào Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm Bản Vẽ Vào Tệp PDF"
+"url": "/vi/net/programming-with-graphs/add-drawing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Bản Vẽ Vào Tệp PDF
@@ -21,7 +23,7 @@ Khi làm việc với các tài liệu PDF, việc thêm bản vẽ có thể c�
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET. Bạn có thể tải xuống từ [Trang web Aspose](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: Hướng dẫn này giả định rằng bạn đang sử dụng môi trường phát triển .NET.
 3. Visual Studio: Mặc dù không bắt buộc, nhưng việc cài đặt Visual Studio sẽ giúp bạn dễ dàng theo dõi các ví dụ về mã hơn.
 4. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn nắm bắt được các đoạn mã được cung cấp.
@@ -51,11 +53,11 @@ int red = 100;
 int blue = 0;
 ```
 
- Trong ví dụ này, chúng tôi xác định giá trị alpha (độ trong suốt) và RGB cho màu của chúng tôi.`alpha` giá trị kiểm soát độ trong suốt của màu, trong khi giá trị RGB xác định màu sắc.
+Trong ví dụ này, chúng tôi xác định giá trị alpha (độ trong suốt) và RGB cho màu của chúng tôi. `alpha` giá trị kiểm soát độ trong suốt của màu, trong khi giá trị RGB xác định màu sắc.
 
 ## Bước 2: Tạo một đối tượng màu
 
- Bây giờ, hãy tạo một`Color` đối tượng sử dụng các giá trị alpha và RGB:
+Bây giờ, tạo một `Color` đối tượng sử dụng các giá trị alpha và RGB:
 
 ```csharp
 // Tạo đối tượng màu bằng Alpha RGB
@@ -66,14 +68,14 @@ Bước này khởi tạo màu bằng độ trong suốt, cho phép chúng ta t�
 
 ## Bước 3: Khởi tạo đối tượng tài liệu
 
- Tiếp theo, tạo một cái mới`Document` đối tượng sẽ đóng vai trò là nơi chứa tệp PDF của chúng ta:
+Tiếp theo, tạo một cái mới `Document` đối tượng sẽ đóng vai trò là nơi chứa tệp PDF của chúng ta:
 
 ```csharp
 // Khởi tạo đối tượng Tài liệu
 Document document = new Document();
 ```
 
-## Bước 4: Thêm một trang vào tài liệu
+## Bước 4: Thêm Trang vào Tài liệu
 
 Thêm một trang mới vào tài liệu. Đây là nơi chúng ta sẽ đặt bản vẽ của mình:
 
@@ -82,9 +84,9 @@ Thêm một trang mới vào tài liệu. Đây là nơi chúng ta sẽ đặt b
 Page page = document.Pages.Add();
 ```
 
-## Bước 5: Tạo đối tượng đồ thị
+## Bước 5: Tạo một đối tượng đồ thị
 
- Các`Graph` đối tượng cho phép chúng ta vẽ hình dạng và đồ họa khác. Xác định kích thước của đồ thị:
+Các `Graph` đối tượng cho phép chúng ta vẽ hình dạng và đồ họa khác. Xác định kích thước của đồ thị:
 
 ```csharp
 // Tạo đối tượng đồ thị có kích thước nhất định
@@ -165,22 +167,24 @@ Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạ
 
 ### Làm thế nào tôi có thể tải xuống Aspose.PDF cho .NET?
 
- Bạn có thể tải xuống Aspose.PDF cho .NET từ[Trang phát hành Aspose](https://releases.aspose.com/pdf/net/).
+Bạn có thể tải xuống Aspose.PDF cho .NET từ [Trang phát hành Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Tôi có thể sử dụng Aspose.PDF cho .NET miễn phí không?
 
- Aspose cung cấp phiên bản dùng thử miễn phí của Aspose.PDF cho .NET. Bạn có thể tải xuống từ[trang dùng thử miễn phí](https://releases.aspose.com/).
+Aspose cung cấp phiên bản dùng thử miễn phí của Aspose.PDF cho .NET. Bạn có thể tải xuống từ [trang dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu về Aspose.PDF cho .NET ở đâu?
 
- Tài liệu có sẵn tại[Trang web tài liệu Aspose](https://reference.aspose.com/pdf/net/).
+Tài liệu có sẵn tại [Trang web tài liệu Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF dành cho .NET?
 
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for creating and validating PDF/A compliant
 weight: 13
 url: "/java/pdfa-compliance/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PDF/A Compliance Tutorials for Aspose.PDF Java
 
@@ -29,7 +32,11 @@ Learn how to validate PDF documents against the PDF/A-1b standard using Aspose.P
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

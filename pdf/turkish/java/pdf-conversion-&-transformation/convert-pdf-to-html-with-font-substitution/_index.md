@@ -1,20 +1,22 @@
 ---
-title: PDF'yi Font Değiştirme ile HTML'ye Dönüştür
-linktitle: PDF'yi Font Değiştirme ile HTML'ye Dönüştür
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF for Java kullanarak PDF'yi font değiştirmeyle HTML'ye nasıl dönüştüreceğinizi öğrenin. Sorunsuz dönüşümler için kaynak kodlu adım adım kılavuz. Web içeriğinizi şimdi optimize edin!
-weight: 30
-url: /tr/java/pdf-conversion-transformation/convert-pdf-to-html-with-font-substitution/
+"description": "Aspose.PDF for Java kullanarak PDF'yi font değiştirmeyle HTML'ye nasıl dönüştüreceğinizi öğrenin. Sorunsuz dönüşümler için kaynak kodlu adım adım kılavuz. Web içeriğinizi şimdi optimize edin!"
+"linktitle": "PDF'yi Font Değiştirme ile HTML'ye Dönüştür"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF'yi Font Değiştirme ile HTML'ye Dönüştür"
+"url": "/tr/java/pdf-conversion-transformation/convert-pdf-to-html-with-font-substitution/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'yi Font Değiştirme ile HTML'ye Dönüştür
 
 
-Bu adım adım kılavuzda, Aspose.PDF for Java kullanarak bir PDF belgesini font değiştirme ile HTML'ye nasıl dönüştüreceğinizi inceleyeceğiz. Font değiştirme, HTML'de kolayca bulunmayan fontları kullanan PDF belgeleriyle uğraşırken önemli bir özelliktir. Bu eğitimin sonunda, belgenin bütünlüğünü koruyarak sorunsuz dönüşümler gerçekleştirebileceksiniz.
+Bu adım adım kılavuzda, Java için Aspose.PDF kullanarak bir PDF belgesini font değiştirme ile HTML'ye nasıl dönüştüreceğinizi inceleyeceğiz. Font değiştirme, HTML'de kolayca bulunmayan fontları kullanan PDF belgeleriyle uğraşırken önemli bir özelliktir. Bu eğitimin sonunda, belgenin bütünlüğünü koruyarak sorunsuz dönüşümler gerçekleştirebileceksiniz.
 
 ## giriiş
 
@@ -33,7 +35,7 @@ PDF'yi HTML'ye dönüştürmek, PDF içeriğini web'de görüntülemeniz gerekti
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Kiti (JDK) yüklendi
--  Java kütüphanesi için Aspose.PDF (buradan indirebilirsiniz)[Burada](https://releases.aspose.com/pdf/java/)
+- Java kütüphanesi için Aspose.PDF (buradan indirebilirsiniz) [Burada](https://releases.aspose.com/pdf/java/)
 - Tercih ettiğiniz Entegre Geliştirme Ortamı (IDE)
 
 ## Geliştirme Ortamının Kurulması
@@ -59,7 +61,7 @@ Document pdfDocument = new Document("input.pdf");
 ## Yazı Tipi Değiştirmeyi Yapılandırma
 
 ```java
-//HtmlSaveOptions'ın bir örneğini oluşturun
+// HtmlSaveOptions'ın bir örneğini oluşturun
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 
 // Yazı tipi değiştirmeyi etkinleştir
@@ -89,7 +91,7 @@ try {
 
 ## Dönüşümü Özelleştirme
 
- HTML çıktısını daha da özelleştirebilirsiniz.`HtmlSaveOptions` Parametreler. Bu, görüntü sıkıştırma ve metin biçimlendirme gibi dönüşümün çeşitli yönlerini kontrol etmenizi sağlar.
+HTML çıktısını daha da özelleştirebilirsiniz. `HtmlSaveOptions` Parametreler. Bu, görüntü sıkıştırma ve metin biçimlendirme gibi dönüşümün çeşitli yönlerini kontrol etmenizi sağlar.
 
 ## Çözüm
 
@@ -118,9 +120,11 @@ Yazı tipi değiştirme değerli bir özellik olsa da, orijinal PDF belgesinin e
 ### Aspose.PDF for Java, büyük ölçekli PDF'den HTML'e dönüştürmeler için uygun mudur?
 
 Evet, Aspose.PDF for Java hem küçük ölçekli hem de büyük ölçekli PDF'den HTML'ye dönüştürmeler için oldukça uygundur. Sağlam performansı ve özelleştirme seçenekleri onu çeşitli projeler için güvenilir bir seçim haline getirir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

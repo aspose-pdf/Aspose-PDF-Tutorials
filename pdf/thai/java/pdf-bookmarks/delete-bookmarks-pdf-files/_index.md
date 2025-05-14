@@ -1,14 +1,16 @@
 ---
-title: ลบบุ๊กมาร์กจากไฟล์ PDF
-linktitle: ลบบุ๊กมาร์กจากไฟล์ PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีลบบุ๊กมาร์กออกจากไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนและโค้ดตัวอย่างของเราจะทำให้ทุกอย่างง่ายขึ้น
-weight: 13
-url: /th/java/pdf-bookmarks/delete-bookmarks-pdf-files/
+"description": "เรียนรู้วิธีลบบุ๊กมาร์กออกจากไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนและโค้ดตัวอย่างของเราจะทำให้ทุกอย่างง่ายขึ้น"
+"linktitle": "ลบบุ๊กมาร์กจากไฟล์ PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ลบบุ๊กมาร์กจากไฟล์ PDF"
+"url": "/th/java/pdf-bookmarks/delete-bookmarks-pdf-files/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบบุ๊กมาร์กจากไฟล์ PDF
@@ -30,7 +32,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีอันท
 
 ก่อนที่เราจะเริ่มต้น คุณต้องตั้งค่า Aspose.PDF สำหรับ Java ในโปรเจ็กต์ Java ของคุณก่อน ปฏิบัติตามขั้นตอนเหล่านี้เพื่อเริ่มต้น:
 
-1.  ดาวน์โหลด Aspose.PDF สำหรับ Java: คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์ Aspose ใช้ลิงก์ต่อไปนี้:[ดาวน์โหลด Aspose.PDF สำหรับ Java](https://releases.aspose.com/pdf/java/).
+1. ดาวน์โหลด Aspose.PDF สำหรับ Java: คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์ Aspose ใช้ลิงก์ต่อไปนี้: [ดาวน์โหลด Aspose.PDF สำหรับ Java](https://releases-aspose.com/pdf/java/).
 
 2. เพิ่ม JAR ลงในโปรเจ็กต์ของคุณ: รวมไฟล์ JAR ที่ดาวน์โหลดไว้ในคลาสพาธของโปรเจ็กต์ Java ของคุณ
 
@@ -73,7 +75,7 @@ OutlineCollection outlines = pdfDocument.getOutlines();
 
 1. ทำซ้ำผ่านบุ๊กมาร์กโดยใช้การวนซ้ำ
 2. ระบุบุ๊กมาร์กที่คุณต้องการลบตามเกณฑ์ของคุณ
-3.  ลบบุ๊กมาร์กโดยใช้`delete` วิธี.
+3. ลบบุ๊กมาร์กโดยใช้ `delete` วิธี.
 
 นี่คือตัวอย่างโค้ดที่จะช่วยคุณเริ่มต้นได้:
 
@@ -139,7 +141,7 @@ public class DeleteBookmarks {
 
 ### ฉันสามารถลบบุ๊กมาร์กเฉพาะตามเกณฑ์ได้หรือไม่
 
- ใช่ คุณสามารถลบบุ๊กมาร์กเฉพาะตามเกณฑ์ของคุณได้ ทำซ้ำผ่านบุ๊กมาร์ก ใช้เกณฑ์ของคุณ และใช้`delete` วิธีการที่จะกำจัดพวกมันออกไป
+ใช่ คุณสามารถลบบุ๊กมาร์กเฉพาะตามเกณฑ์ของคุณได้ ทำซ้ำผ่านบุ๊กมาร์ก ใช้เกณฑ์ของคุณ และใช้ `delete` วิธีการที่จะกำจัดพวกมันออกไป
 
 ### การลบบุ๊กมาร์กจะส่งผลต่อเนื้อหาของ PDF หรือไม่?
 
@@ -151,10 +153,12 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### ฉันสามารถหาเอกสารและทรัพยากร Aspose.PDF สำหรับ Java เพิ่มเติมได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ลิงก์เอกสาร Aspose:[เอกสาร Aspose.PDF สำหรับ Java](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ลิงก์เอกสาร Aspose: [เอกสาร Aspose.PDF สำหรับ Java](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

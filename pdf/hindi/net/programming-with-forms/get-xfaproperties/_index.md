@@ -1,14 +1,16 @@
 ---
-title: XFAProperties प्राप्त करें
-linktitle: XFAProperties प्राप्त करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके XFA गुण कैसे प्राप्त करें। चरण-दर-चरण मार्गदर्शिका शामिल है।
-weight: 160
-url: /hi/net/programming-with-forms/get-xfaproperties/
+"description": "इस विस्तृत ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके XFA गुण कैसे प्राप्त करें। चरण-दर-चरण मार्गदर्शिका शामिल है।"
+"linktitle": "XFAProperties प्राप्त करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "XFAProperties प्राप्त करें"
+"url": "/hi/net/programming-with-forms/get-xfaproperties/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # XFAProperties प्राप्त करें
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-forms/get-xfaproperties/
 इससे पहले कि हम कोड में प्रवेश करें, कुछ चीजें हैं जिन्हें आपको ध्यान में रखना होगा:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यह .NET विकास के लिए सबसे अच्छा वातावरण है।
-2.  .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड करके इंस्टॉल करनी होगी। आप इसे यहाँ से प्राप्त कर सकते हैं[लिंक को डाउनलोड करें](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे यहाँ से प्राप्त कर सकते हैं [लिंक को डाउनलोड करें](https://releases.aspose.com/pdf/net/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको उदाहरणों को बेहतर ढंग से समझने में मदद मिलेगी।
 4. XFA फॉर्म के साथ एक पीडीएफ: कोड का परीक्षण करने के लिए आपको एक नमूना पीडीएफ फाइल की आवश्यकता होगी जिसमें XFA फॉर्म शामिल हों। आप एक बना सकते हैं या इंटरनेट से एक नमूना डाउनलोड कर सकते हैं।
 
@@ -32,7 +34,7 @@ url: /hi/net/programming-with-forms/get-xfaproperties/
 
 1. अपना विज़ुअल स्टूडियो प्रोजेक्ट खोलें.
 2. सॉल्यूशन एक्सप्लोरर में अपने प्रोजेक्ट पर राइट-क्लिक करें और "मैनेज नुगेट पैकेजेस" चुनें।
-3.  निम्न को खोजें`Aspose.PDF` और इसे स्थापित करें.
+3. निम्न को खोजें `Aspose.PDF` और इसे स्थापित करें.
 
 ```csharp
 using System;
@@ -51,7 +53,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"`वास्तविक पथ के साथ जहाँ आपकी PDF फ़ाइल स्थित है। यह प्रोग्राम को आपकी PDF को खोजने और लोड करने की अनुमति देगा।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आपकी PDF फ़ाइल स्थित है। यह प्रोग्राम को आपकी PDF ढूँढ़ने और लोड करने की अनुमति देगा।
 
 ## चरण 2: XFA फॉर्म लोड करें
 
@@ -62,17 +64,17 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "GetXFAProperties.pdf");
 ```
 
- इस पंक्ति में, हम एक नया बनाते हैं`Document` ऑब्जेक्ट और हमारी पीडीएफ फाइल का पथ पास करें। यह दस्तावेज़ को मेमोरी में लोड करता है, हेरफेर के लिए तैयार।
+इस पंक्ति में, हम एक नया बनाते हैं `Document` ऑब्जेक्ट और हमारी पीडीएफ फाइल का पथ पास करें। यह दस्तावेज़ को मेमोरी में लोड करता है, हेरफेर के लिए तैयार।
 
 ## चरण 3: फ़ील्ड नाम पुनर्प्राप्त करें
 
-एक बार दस्तावेज़ लोड हो जाने के बाद, हम XFA फ़ॉर्म में फ़ील्ड के नाम प्राप्त कर सकते हैं। यह जानने के लिए ज़रूरी है कि हम किन फ़ील्ड के साथ इंटरैक्ट कर सकते हैं।
+एक बार दस्तावेज़ लोड हो जाने के बाद, हम XFA फ़ॉर्म में फ़ील्ड के नाम प्राप्त कर सकते हैं। यह जानना ज़रूरी है कि हम किन फ़ील्ड के साथ इंटरैक्ट कर सकते हैं।
 
 ```csharp
 string[] names = doc.Form.XFA.FieldNames;
 ```
 
- यहाँ, हम पहुँचते हैं`FieldNames` XFA फॉर्म की प्रॉपर्टी, जो हमें फ़ील्ड नामों की एक सरणी देती है। यह खाना बनाना शुरू करने से पहले सामग्री की एक सूची बनाने जैसा है!
+यहाँ, हम पहुँचते हैं `FieldNames` XFA फॉर्म की प्रॉपर्टी, जो हमें फ़ील्ड नामों की एक सरणी देती है। यह खाना बनाना शुरू करने से पहले सामग्री की एक सूची बनाने जैसा है!
 
 ## चरण 4: फ़ील्ड मान सेट करें
 
@@ -96,7 +98,7 @@ Console.WriteLine(doc.Form.XFA.GetFieldTemplate(names[0]).Attributes["x"].Value)
 Console.WriteLine(doc.Form.XFA.GetFieldTemplate(names[0]).Attributes["y"].Value);
 ```
 
- यहाँ, हम पहुँच रहे हैं`GetFieldTemplate` फ़ील्ड की विशेषताएँ प्राप्त करने की विधि, विशेष रूप से "x" और "y" निर्देशांक। यह हमें बताता है कि फ़ील्ड PDF पर कहाँ स्थित है।
+यहाँ, हम पहुँच रहे हैं `GetFieldTemplate` फ़ील्ड की विशेषताएँ, विशेष रूप से "x" और "y" निर्देशांक प्राप्त करने की विधि। यह हमें बताता है कि फ़ील्ड PDF पर कहाँ स्थित है।
 
 ## चरण 6: अपडेट किए गए दस्तावेज़ को सहेजें
 
@@ -121,20 +123,22 @@ Console.WriteLine("\nXFA fields properties retrieved successfully.\nFile saved a
 .NET के लिए Aspose.PDF एक लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PDF दस्तावेज़ बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देती है।
 
 ### क्या मैं Aspose.PDF का निःशुल्क उपयोग कर सकता हूँ?
- हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसका उपयोग आप लाइब्रेरी की विशेषताओं का पता लगाने के लिए कर सकते हैं। इसे देखें[यहाँ](https://releases.aspose.com/).
+हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसका उपयोग आप लाइब्रेरी की विशेषताओं का पता लगाने के लिए कर सकते हैं। इसे देखें [यहाँ](https://releases.aspose.com/).
 
-### मैं दस्तावेज़ कहां पा सकता हूं?
- आप .NET के लिए Aspose.PDF का दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/net/).
+### मैं दस्तावेज कहां पा सकता हूं?
+आप .NET के लिए Aspose.PDF का दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/net/).
 
-### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
- आप Aspose फ़ोरम पर जाकर सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/pdf/10).
+### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त करूं?
+आप Aspose फ़ोरम पर जाकर सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/pdf/10).
 
 ### क्या कोई अस्थायी लाइसेंस उपलब्ध है?
- हां, आप Aspose.PDF के लिए अस्थायी लाइसेंस का अनुरोध कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप Aspose.PDF के लिए अस्थायी लाइसेंस का अनुरोध कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

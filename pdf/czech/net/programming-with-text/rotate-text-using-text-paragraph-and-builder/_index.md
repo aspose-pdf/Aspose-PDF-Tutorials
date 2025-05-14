@@ -1,36 +1,38 @@
 ---
-title: Otočit text pomocí odstavce a tvůrce textu v souboru PDF
-linktitle: Otočit text pomocí odstavce a tvůrce textu v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se otáčet text pomocí textových odstavců a tvůrce v souboru PDF pomocí Aspose.PDF pro .NET.
-weight: 410
-url: /cs/net/programming-with-text/rotate-text-using-text-paragraph-and-builder/
+"description": "Naučte se, jak otáčet text pomocí nástroje pro tvorbu odstavců a editoru textu v souboru PDF s využitím Aspose.PDF pro .NET."
+"linktitle": "Otočení textu pomocí odstavce textu a nástroje pro tvorbu textu v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Otočení textu pomocí odstavce textu a nástroje pro tvorbu textu v souboru PDF"
+"url": "/cs/net/programming-with-text/rotate-text-using-text-paragraph-and-builder/"
+"weight": 410
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Otočit text pomocí odstavce a tvůrce textu v souboru PDF
+# Otočení textu pomocí odstavce textu a nástroje pro tvorbu textu v souboru PDF
 
 ## Zavedení
 
- Vytváření dynamických dokumentů PDF může být vzrušujícím způsobem, jak vizuálně prezentovat svá data, sestavy a nápady. Jedním mocným nástrojem, který vám může pomoci toho dosáhnout strukturovaným způsobem, je Aspose.PDF for .NET. V této příručce prozkoumáme, jak používat Aspose.PDF k otáčení textu v souboru PDF pomocí`TextParagraph` a`TextBuilder` třídy. Ať už chcete vytvářet sestavy s poznámkami nebo vizuálně přitažlivé dokumenty, zvládnutí manipulace s textem v PDF je zásadní. Jste připraveni obrátit text vzhůru nohama – doslova? Pojďme se ponořit!
+Vytváření dynamických PDF dokumentů může být zajímavým způsobem, jak vizuálně prezentovat data, zprávy a nápady. Jedním z výkonných nástrojů, který vám s tím pomůže strukturovaným způsobem, je Aspose.PDF pro .NET. V této příručce se podíváme na to, jak pomocí Aspose.PDF otáčet text v PDF souboru pomocí... `TextParagraph` a `TextBuilder` třídy. Ať už chcete vytvářet anotované zprávy nebo vizuálně atraktivní dokumenty, zvládnutí manipulace s textem v PDF je nezbytné. Jste připraveni obrátit text vzhůru nohama – doslova? Pojďme se do toho pustit!
 
 ## Předpoklady
 
 Než se pustíme do našeho dobrodružství s rotací textu, je třeba mít připraveno několik základních věcí:
 
-- Základní znalost C#: Znalost programování v C# usnadní orientaci v kódu.
-- Nastavení Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio, abyste mohli psát a spouštět svůj kód.
-- Knihovna Aspose.PDF: Ve svém projektu musíte mít odkaz na knihovnu Aspose.PDF. Pokud jej ještě nemáte nainstalovaný, můžete si jej stáhnout z[zde](https://releases.aspose.com/pdf/net/).
-- .NET Framework: Ujistěte se, že vaše prostředí podporuje .NET; můžete použít .NET Framework nebo .NET Core podle svých potřeb.
+- Základní znalost C#: Znalost programování v C# usnadní navigaci v kódu.
+- Nastavení Visual Studia: Ujistěte se, že máte na svém počítači nainstalované Visual Studio, abyste mohli psát a spouštět kód.
+- Knihovna Aspose.PDF: Ve svém projektu musíte mít odkazovanou knihovnu Aspose.PDF. Pokud ji ještě nemáte nainstalovanou, můžete si ji stáhnout z [zde](https://releases.aspose.com/pdf/net/).
+- .NET Framework: Ujistěte se, že vaše prostředí podporuje .NET; podle potřeby můžete použít .NET Framework nebo .NET Core.
 
-Nyní, když máme položeny základy, pojďme importovat potřebné balíčky, abychom mohli začít pracovat s PDF.
+Nyní, když máme položené základy, importujme potřebné balíčky pro zahájení práce s PDF soubory.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li pracovat s Aspose.PDF pro .NET, musíte importovat správné jmenné prostory. Na samém začátku souboru C# přidejte následující pomocí direktiv:
+Pro práci s Aspose.PDF pro .NET je potřeba importovat správné jmenné prostory. Úplně na začátek souboru C# přidejte následující direktivy using:
 
 ```csharp
 using System;
@@ -40,13 +42,13 @@ using Aspose.Pdf.Text;
 using Aspose.Pdf.Facades;
 ```
 
-Tyto balíčky vám poskytnou všechny třídy, které potřebujete k efektivní manipulaci s textem a dalšími aspekty dokumentu.
+Tyto balíčky vám poskytnou všechny třídy, které potřebujete k efektivní manipulaci s textem a dalšími aspekty dokumentů.
 
-Nyní, když jsme připraveni, pojďme si rozebrat skutečné kroky spojené s otáčením textu v dokumentu PDF. Začneme od inicializace našeho dokumentu až po jeho uložení. Připoutejte se!
+Nyní, když jsme si vše nastavili, pojďme si rozebrat samotné kroky spojené s otáčením textu v dokumentu PDF. Začneme od inicializace dokumentu až po jeho uložení. Připoutejte se!
 
-## Krok 1: Inicializujte objekt dokumentu
+## Krok 1: Inicializace objektu dokumentu
 
- Prvním krokem je vytvoření a inicializace a`Document` objekt. Tento objekt slouží jako plátno, kam budete přidávat svůj text.
+Prvním krokem je vytvoření a inicializace `Document` objekt. Tento objekt slouží jako plátno, na které budete přidávat text.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -54,22 +56,22 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document();
 ```
 
- The`Document`třída je páteří vašeho PDF. Pomáhá při správě stránek a obsahu v nich.
+Ten/Ta/To `Document` Třída je páteří vašeho PDF. Pomáhá se správou stránek a jejich obsahu.
 
-## Krok 2: Přidejte stránku
+## Krok 2: Přidání stránky
 
-Dále přidáme do našeho dokumentu novou stránku, kde bude umístěn text.
+Dále přidáme do dokumentu novou stránku, na kterou bude umístěn text.
 
 ```csharp
-// Získejte konkrétní stránku
+// Získat konkrétní stránku
 Page pdfPage = (Page)pdfDocument.Pages.Add();
 ```
 
-Zde přidáme do PDF novou stránku. Na této stránce budou žít naše textové odstavce.
+Zde přidáme do PDF novou stránku. Na této stránce budou umístěny naše textové odstavce.
 
-## Krok 3: Vytvořte a nakonfigurujte textové odstavce
+## Krok 3: Vytvořte a nakonfigurujte odstavce textu
 
- Nyní začíná zábava! Vytvoříme více`TextParagraph` objektů a konfigurovat jejich vlastnosti včetně jejich umístění a úhlu natočení.
+A teď začíná zábava! Vytvoříme několik `TextParagraph` objekty a konfigurovat jejich vlastnosti včetně jejich umístění a úhlu natočení.
 
 ```csharp
 for (int i = 0; i < 4; i++)
@@ -81,11 +83,11 @@ for (int i = 0; i < 4; i++)
 }
 ```
 
-V této smyčce vytvoříme čtyři odstavce, přičemž každý je otočen o dalších 90 stupňů. Každý odstavec je zpočátku umístěn na souřadnicích (200, 600).
+V této smyčce vytvoříme čtyři odstavce, přičemž každý z nich bude otočen o dalších 90 stupňů. Každý odstavec je zpočátku umístěn na souřadnicích (200, 600).
 
 ## Krok 4: Vytvořte textové fragmenty
 
- Po nastavení odstavců je čas přidat nějaký text! Budeme tvořit`TextFragment` objekty, které obsahují skutečný text, který chceme zobrazit.
+Po nastavení odstavců je čas přidat nějaký text! Vytvoříme `TextFragment` objekty, které obsahují skutečný text, který chceme zobrazit.
 
 ```csharp
 TextFragment textFragment1 = new TextFragment("Paragraph Text");
@@ -95,7 +97,7 @@ textFragment1.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray;
 textFragment1.TextState.ForegroundColor = Aspose.Pdf.Color.Blue;
 ```
 
-Každý fragment může mít přizpůsobené vlastnosti, jako je velikost písma, typ písma, barva pozadí a barva popředí. Tento postup opakujeme pro více fragmentů textu:
+Každý fragment lze upravit jeho vlastnosti, jako je velikost písma, typ písma, barva pozadí a barva popředí. Tento postup opakujeme pro více textových fragmentů:
 
 ```csharp
 TextFragment textFragment2 = new TextFragment("Second line of text");
@@ -104,11 +106,11 @@ TextFragment textFragment3 = new TextFragment("And some more text...");
 textFragment3.TextState = ConfigureText("And some more text...", true);
 ```
 
- Metoda`ConfigureText`může být užitečnou metodou, kterou vytvoříte pro zapouzdření vlastností stylu textu, zlepšení opětovného použití kódu a srozumitelnost.
+Metoda `ConfigureText` může být užitná metoda, kterou vytvoříte pro zapouzdření vlastností stylingu textu, čímž se vylepší opětovné použití kódu a jeho srozumitelnost.
 
-## Krok 5: Připojte textové fragmenty k odstavcům
+## Krok 5: Připojení fragmentů textu k odstavcům
 
-Dále připojíme fragmenty textu k našemu odstavci. Tím se v odstavci vytvoří strukturovaný tok textu.
+Dále připojíme fragmenty textu k našemu odstavci. Tím vytvoříme strukturovaný tok textu v odstavci.
 
 ```csharp
 paragraph.AppendLine(textFragment1);
@@ -116,52 +118,54 @@ paragraph.AppendLine(textFragment2);
 paragraph.AppendLine(textFragment3);
 ```
 
- Použití`AppendLine`, zajistíte, aby byl každý text přidán svisle jako samostatné řádky v odstavci.
+Používání `AppendLine`, zajistíte, aby každý kus textu byl v odstavci přidán svisle jako samostatný řádek.
 
-## Krok 6: Připojte odstavec na stránku PDF
+## Krok 6: Přidání odstavce na stránku PDF
 
- Nyní, když je náš odstavec plný textu, musíme jej umístit na stránku PDF pomocí a`TextBuilder` objekt.
+Nyní, když je náš odstavec plný textu, musíme ho umístit na stránku PDF pomocí `TextBuilder` objekt.
 
 ```csharp
 TextBuilder textBuilder = new TextBuilder(pdfPage);
 textBuilder.AppendParagraph(paragraph);
 ```
 
- Tady se děje kouzlo! Bereš připravený odstavec a říkáš`TextBuilder` umístíte jej na plátno (stránku PDF), které jste vytvořili dříve.
+A tady se děje ta magie! Vezmete připravený odstavec a řeknete ho `TextBuilder` umístěte jej na plátno (stránku PDF), které jste dříve vytvořili.
 
 ## Krok 7: Uložte dokument
 
-Konečně je čas zachránit naši tvrdou práci! Zadejte adresář a název výstupního souboru PDF.
+Konečně je čas ušetřit si naši tvrdou práci! Zadejte adresář a název výstupního PDF souboru.
 
 ```csharp
 pdfDocument.Save(dataDir + "TextFragmentTests_Rotated4_out.pdf");
 ```
 
- V tomto řádku vyměňte`dataDir` s cestou k požadovanému výstupnímu adresáři. Soubor PDF bude uložen pod názvem "TextFragmentTests_Rotated4_out.pdf."
+V tomto řádku nahraďte `dataDir` s cestou k požadovanému výstupnímu adresáři. PDF bude uložen pod názvem „TextFragmentTests_Rotated4_out.pdf“.
 
 ## Závěr
 
-tady to máte – úplný návod, jak otočit text v PDF pomocí Aspose.PDF pro .NET! Je to všechno o rozdělení úkolů do zvládnutelných kroků, a než se nadějete, převedli jste svůj PDF do dynamického dokumentu, který předvede váš styl a kreativitu. Ať už generujete zprávy, vytváříte pozvánky nebo jen experimentujete s uspořádáním textu, Aspose.PDF nabízí flexibilní nástroje, které splní vaše potřeby. Tak proč čekat? Začněte experimentovat a uvidíte, jak kreativní můžete být s dokumenty PDF!
+tady to máte – kompletní návod, jak otáčet text v PDF pomocí Aspose.PDF pro .NET! Jde o rozdělení úkolů do zvládnutelných kroků a než se nadějete, proměníte svůj PDF v dynamický dokument, který předvede váš styl a kreativitu. Ať už generujete zprávy, vytváříte pozvánky nebo jen experimentujete s textovým uspořádáním, Aspose.PDF nabízí flexibilní nástroje, které splní vaše potřeby. Tak proč čekat? Začněte experimentovat a uvidíte, jak kreativní můžete být se svými PDF dokumenty!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu otočit text v libovolné orientaci?
-Ano, můžete zadat libovolný úhel natočení (násobky 90 stupňů) pro dosažení různých orientací.
+### Mohu otočit text v jakékoli orientaci?
+Ano, můžete zadat libovolný úhel otočení (násobky 90 stupňů) pro dosažení různých orientací.
 
 ### Co když chci místo textu přidat obrázky?
- Aspose.PDF vám také umožňuje manipulovat s obrázky! Obrázky můžete přidávat pomocí`Image` třídy podobným způsobem.
+Aspose.PDF umožňuje také manipulaci s obrázky! Obrázky můžete přidávat pomocí `Image` třídy podobným způsobem.
 
 ### Je Aspose.PDF pro .NET zdarma?
- Nabízí bezplatnou zkušební verzi, ale pro další používání je nutné zakoupit licenci. Podívejte se na[Nákup](https://purchase.aspose.com/buy) stránka pro podrobnosti!
+Nabízí bezplatnou zkušební verzi, ale pro další používání je nutné zakoupit licenci. Podívejte se na [Nákup](https://purchase.aspose.com/buy) stránku s podrobnostmi!
 
-### Mohu získat podporu pro používání Aspose.PDF?
-Ano, můžete najít podporu a zveřejnit své dotazy na[Fórum Aspose](https://forum.aspose.com/c/pdf/10).
+### Mohu získat podporu pro používání souboru Aspose.PDF?
+Ano, můžete najít podporu a zveřejnit své dotazy na [Fórum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Jak získám dočasnou licenci pro Aspose.PDF?
- Dočasnou licenci pro testovací účely můžete získat od[Stránka dočasné licence](https://purchase.aspose.com/temporary-license/).
+Dočasnou licenci pro testovací účely můžete získat od [Stránka s dočasnou licencí](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

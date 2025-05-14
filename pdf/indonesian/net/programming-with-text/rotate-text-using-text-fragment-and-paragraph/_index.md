@@ -1,14 +1,16 @@
 ---
-title: Memutar Teks Menggunakan Fragmen Teks dan Paragraf
-linktitle: Memutar Teks Menggunakan Fragmen Teks dan Paragraf
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memutar teks menggunakan fragmen teks dan paragraf dalam dokumen PDF menggunakan Aspose.PDF untuk .NET.
-weight: 400
-url: /id/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/
+"description": "Pelajari cara memutar teks menggunakan fragmen teks dan paragraf dalam dokumen PDF menggunakan Aspose.PDF untuk .NET."
+"linktitle": "Memutar Teks Menggunakan Fragmen Teks dan Paragraf"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Memutar Teks Menggunakan Fragmen Teks dan Paragraf"
+"url": "/id/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/"
+"weight": 400
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memutar Teks Menggunakan Fragmen Teks dan Paragraf
@@ -21,13 +23,13 @@ Dalam hal membuat dokumen dinamis, PDF adalah standar emas. Berkat daya tariknya
 
 Sebelum menyelami hal-hal teknis yang mendasar, pastikan Anda sudah menyiapkan beberapa hal berikut:
 
-1. Pemahaman Dasar tentang .NET Framework: Kemampuan menggunakan C# atau VB.NET akan sangat berguna karena Aspose.PDF bekerja lancar dengan aplikasi .NET.
+1. Pemahaman Dasar tentang .NET Framework: Kemampuan menggunakan C# atau VB.NET akan bermanfaat karena Aspose.PDF bekerja lancar dengan aplikasi .NET.
   
-2.  Pustaka Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF. Jangan khawatir; mudah untuk mengunduhnya! Anda dapat memperolehnya di sini:[Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
+2. Pustaka Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF. Jangan khawatir; mudah untuk mengunduhnya! Anda dapat memperolehnya di sini: [Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
 
 3. Lingkungan Pengembangan: Anda dapat menggunakan IDE apa pun yang mendukung pengembangan .NET, seperti Visual Studio. Pastikan IDE Anda dapat mengakses pustaka Aspose.PDF yang diunduh.
 
-4.  Lisensi Sementara (Opsional): Meskipun Anda dapat memulai dengan uji coba gratis, jika Anda perlu membangun aplikasi produksi, pertimbangkan untuk memperoleh lisensi sementara (Opsional):[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk fungsionalitas lengkap.
+4. Lisensi Sementara (Opsional): Meskipun Anda dapat memulai dengan uji coba gratis, jika Anda perlu membangun aplikasi produksi, pertimbangkan untuk memperoleh lisensi sementara (Opsional): [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk fungsionalitas lengkap.
 
 5. Koneksi Internet: Ini mungkin tampak seperti hal yang mudah, tetapi Anda memerlukannya untuk mengakses dokumentasi daring untuk panduan tambahan dan pemecahan masalah.
 
@@ -87,7 +89,7 @@ textFragment1.TextState.FontSize = 12;
 textFragment1.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 ```
 
-Di sini, kami membuat fragmen teks pertama kami bernama`textFragment1`Kami juga mengatur properti font-nya—Anda tahu, agar terlihat bagus!
+Di sini, kami membuat fragmen teks pertama kami bernama `textFragment1`Kami juga mengatur properti font-nya—Anda tahu, agar terlihat bagus!
 
 ## Langkah 4: Tambahkan Fragmen Teks Pertama ke Halaman
 
@@ -111,11 +113,11 @@ TextFragment textFragment2 = new TextFragment("rotated text");
 // Mengatur properti teks
 textFragment2.TextState.FontSize = 12;
 textFragment2.TextState.Font = FontRepository.FindFont("TimesNewRoman");
-// Mengatur rotasi
+// Atur rotasi
 textFragment2.TextState.Rotation = 315;
 ```
 
- Dalam potongan ini, kami membuat fragmen teks bernama`textFragment2`. Kami telah menyetel rotasinya ke 315 derajat, yang dimiringkan dengan baik tetapi tidak sepenuhnya terbalik. Ini dapat mewakili teks yang memerlukan sedikit gaya!
+Dalam potongan ini, kami membuat fragmen teks bernama `textFragment2`. Kami telah menyetel rotasinya ke 315 derajat, yang dimiringkan dengan baik tetapi tidak sepenuhnya terbalik. Ini dapat mewakili teks yang memerlukan sedikit gaya!
 
 ### Menambahkan Fragmen Teks yang Diputar ke Halaman
 
@@ -137,7 +139,7 @@ TextFragment textFragment3 = new TextFragment("another rotated text");
 // Mengatur properti teks
 textFragment3.TextState.FontSize = 12;
 textFragment3.TextState.Font = FontRepository.FindFont("TimesNewRoman");
-// Mengatur rotasi
+// Atur rotasi
 textFragment3.TextState.Rotation = 270;
 ```
 
@@ -166,7 +168,7 @@ Dan begitulah; karya kreatif Anda telah disimpan dalam format PDF. Anda dapat me
 
 ## Kesimpulan
 
-Selamat! Anda baru saja membuat dokumen PDF dinamis dengan fragmen teks standar dan terputar menggunakan Aspose.PDF for .NET. Ini membuka banyak kemungkinan tentang cara Anda menyajikan informasi. Apakah Anda perlu menekankan poin-poin penting dalam laporan atau hanya ingin menambahkan sedikit gaya visual pada dokumen Anda, teknik-teknik ini akan membantu Anda mencapai tujuan Anda.
+Selamat! Anda baru saja membuat dokumen PDF dinamis dengan fragmen teks standar dan terputar menggunakan Aspose.PDF untuk .NET. Ini membuka banyak kemungkinan tentang cara Anda menyajikan informasi. Apakah Anda perlu menekankan poin-poin penting dalam laporan atau hanya ingin menambahkan sedikit gaya visual pada dokumen Anda, teknik-teknik ini akan membantu Anda mencapai tujuan Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -180,18 +182,20 @@ Tentu saja! Aspose.PDF dapat diintegrasikan ke dalam aplikasi .NET apa pun, term
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF?
 
- Ya, Anda dapat memanfaatkan uji coba gratis untuk menjelajahi fitur-fiturnya sebelum melakukan pembelian. Lihat di[Uji Coba Gratis Aspose](https://releases.aspose.com/).
+Ya, Anda dapat memanfaatkan uji coba gratis untuk menjelajahi fitur-fiturnya sebelum melakukan pembelian. Lihat di [Uji Coba Gratis Aspose](https://releases.aspose.com/).
 
 ### Bagaimana cara memutar teks dalam PDF menggunakan Aspose.PDF?
 
- Anda dapat memutar teks dengan mengatur`Rotation` milik suatu`TextFragment` objek, seperti yang ditunjukkan dalam tutorial ini.
+Anda dapat memutar teks dengan mengatur `Rotation` milik suatu `TextFragment` objek, seperti yang ditunjukkan dalam tutorial ini.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
 
- Untuk dukungan atau pertanyaan apa pun, Anda dapat mengunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Untuk dukungan atau pertanyaan apa pun, Anda dapat mengunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

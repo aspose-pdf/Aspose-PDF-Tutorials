@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/inline-structure-elements/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Inline Structure Elements
@@ -189,6 +191,7 @@ You can buy a license directly from the [purchase page](https://purchase.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

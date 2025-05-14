@@ -1,14 +1,16 @@
 ---
-title: Конвертировать динамическую форму XFA в стандартную форму AcroForm в формате PDF
-linktitle: Конвертировать динамическую форму XFA в стандартную форму AcroForm в формате PDF
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как легко преобразовать формы Dynamic XFA в Standard AcroForms в PDF с помощью Aspose.PDF для Java. Обеспечьте совместимость и доступность.
-weight: 12
-url: /ru/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/
+"description": "Узнайте, как легко преобразовать формы Dynamic XFA в Standard AcroForms в PDF с помощью Aspose.PDF для Java. Обеспечьте совместимость и доступность."
+"linktitle": "Конвертировать динамическую форму XFA в стандартную форму AcroForm в формате PDF"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Конвертировать динамическую форму XFA в стандартную форму AcroForm в формате PDF"
+"url": "/ru/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Конвертировать динамическую форму XFA в стандартную форму AcroForm в формате PDF
@@ -23,7 +25,7 @@ url: /ru/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-p
 Прежде чем мы углубимся в процесс конвертации, убедитесь, что у вас выполнены следующие предварительные условия:
 
 - Среда разработки Java: убедитесь, что в вашей системе установлен Java Development Kit (JDK).
--  Aspose.PDF для Java: Загрузите и установите библиотеку Aspose.PDF для Java с сайта[здесь](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF для Java: Загрузите и установите библиотеку Aspose.PDF для Java с сайта [здесь](https://releases.aspose.com/pdf/java/).
 - Интегрированная среда разработки Java (IDE): вы можете использовать популярные IDE, такие как Eclipse или IntelliJ IDEA.
 
 ## Преобразование XFA в AcroForm
@@ -33,7 +35,7 @@ url: /ru/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-p
 Чтобы начать преобразование, создайте новый проект Java в вашей IDE и добавьте библиотеку Aspose.PDF for Java в ваш проект. Затем инициализируйте документ PDF следующим образом:
 
 ```java
-//Импорт необходимых классов
+// Импорт необходимых классов
 import com.aspose.pdf.Document;
 
 // Инициализировать PDF-документ
@@ -58,7 +60,7 @@ pdfDocument.setXfa(dataDir + "input.pdf");
 pdfDocument.convert();
 ```
 
-### Шаг 4: Сохраните преобразованный PDF-файл.
+### Шаг 4: Сохраните преобразованный PDF-файл
 
 После завершения преобразования сохраните измененный PDF-документ в новый файл:
 
@@ -75,7 +77,7 @@ pdfDocument.save(dataDir + "output.pdf");
 
 ### Как получить доступ к документации Aspose.PDF для Java?
 
- Вы можете получить доступ к документации по Aspose.PDF для Java[здесь](https://reference.aspose.com/pdf/java/).
+Вы можете получить доступ к документации по Aspose.PDF для Java [здесь](https://reference.aspose.com/pdf/java/).
 
 ### Совместим ли Aspose.PDF для Java с различными Java IDE?
 
@@ -85,16 +87,18 @@ pdfDocument.save(dataDir + "output.pdf");
 
 Да, процесс конвертации гарантирует сохранение макета и содержания исходной формы в преобразованном PDF-файле.
 
-### Можно ли конвертировать несколько форм XFA в один PDF-документ?
+### Могу ли я конвертировать несколько форм XFA в один PDF-документ?
 
 Конечно! Вы можете конвертировать несколько форм XFA в один PDF-документ с помощью Aspose.PDF для Java.
 
 ### Где можно скачать Aspose.PDF для Java?
 
- Вы можете загрузить библиотеку Aspose.PDF для Java с сайта[эта ссылка](https://releases.aspose.com/pdf/java/).
+Вы можете загрузить библиотеку Aspose.PDF для Java с сайта [эта ссылка](https://releases.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

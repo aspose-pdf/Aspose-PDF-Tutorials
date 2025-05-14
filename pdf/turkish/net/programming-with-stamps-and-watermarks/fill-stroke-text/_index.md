@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Vuruş Metnini Doldur
-linktitle: PDF Dosyasında Vuruş Metnini Doldur
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu pratik örneklerle dolu adım adım kılavuzla, Aspose.PDF for .NET kullanarak PDF dosyalarındaki kontur metnini zahmetsizce nasıl dolduracağınızı öğrenin.
-weight: 90
-url: /tr/net/programming-with-stamps-and-watermarks/fill-stroke-text/
+"description": "Bu pratik örneklerle dolu adım adım kılavuzla, Aspose.PDF for .NET kullanarak PDF dosyalarındaki kontur metnini zahmetsizce nasıl dolduracağınızı öğrenin."
+"linktitle": "PDF Dosyasında Vuruş Metnini Doldur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Vuruş Metnini Doldur"
+"url": "/tr/net/programming-with-stamps-and-watermarks/fill-stroke-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Vuruş Metnini Doldur
@@ -22,9 +24,9 @@ Hiç bir PDF dosyasını öne çıkarmak için değiştirmek istediniz mi? Belki
 Kodlamaya başlamadan önce, bu eğitimi kolaylaştırmak için sahip olmanız gereken birkaç şey var:
 
 1. Visual Studio: C# kodu yazacağımız için makinenizde Visual Studio'nun yüklü olduğundan emin olun.
-2.  Aspose.PDF Kütüphanesi: .NET için Aspose.PDF kütüphanesini indirdiğinizden emin olun. Bunu alabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF Kütüphanesi: .NET için Aspose.PDF kütüphanesini indirdiğinizden emin olun. Bunu alabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmanız eğitimi daha kolay anlamanıza yardımcı olacaktır.
-4. Örnek PDF Dosyası: Örnek bir PDF dosyasına ihtiyacınız olacak (`input.pdf`test amaçlı. Basit bir tane oluşturabilir veya sahip olduğunuz herhangi bir PDF'yi kullanabilirsiniz.
+4. Örnek PDF Dosyası: Örnek bir PDF dosyasına ihtiyacınız olacak (`input.pdf`) test amaçlı. Basit bir tane oluşturabilir veya sahip olduğunuz herhangi bir PDF'yi kullanabilirsiniz.
 
 Artık her şey yerli yerinde olduğuna göre, PDF dosyanızdaki vuruş metnini doldurmanın inceliklerine geçelim.
 
@@ -51,7 +53,7 @@ Ana görevi net adımlara bölelim. Bu adımları izleyerek, PDF dosyalarınıza
 1. Visual Studio’yu açın.
 2. Yeni bir C# projesi oluşturun (örneğin Konsol Uygulaması).
 3. Çözüm Gezgini’nde projeye sağ tıklayın ve “NuGet Paketlerini Yönet” seçeneğini seçin.
-4.  Arama`Aspose.PDF` ve kurun.
+4. Arama `Aspose.PDF` ve kurun.
 
 ## Adım 2: Belge Dizininizi Tanımlayın
 
@@ -61,7 +63,7 @@ Her yolculuğun bir başlangıç noktasına ihtiyacı vardır ve bizim durumumuz
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Giriş PDF dosyanızın bulunduğu gerçek yol ile. 
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Giriş PDF dosyanızın bulunduğu gerçek yol ile. 
 
 ## Adım 3: TextState Nesnesini Oluşturun
 
@@ -71,7 +73,7 @@ Bu adımda eklemek istediğiniz metnin özelliklerini tanımlamaya başlıyorsun
 TextState ts = new TextState();
 ```
 
- The`TextState` nesne, vuruşlu metniniz için stil seçeneklerini tutacaktır.
+The `TextState` nesne, vuruşlu metniniz için stil seçeneklerini tutacaktır.
 
 ## Adım 4: Stroke için Rengi Ayarlayın
 
@@ -101,7 +103,7 @@ Bu, Aspose kütüphanesine vuruşlu metinle çalıştığımızı bildirir.
 Facades.PdfFileStamp fileStamp = new Facades.PdfFileStamp(new Aspose.Pdf.Document(dataDir + "input.pdf"));
 ```
 
-Girdiğiniz PDF'nin (`input.pdf`önceki adımlarda tanımlanan belgeler dizininde yer almaktadır.
+Girdiğiniz PDF'nin (`input.pdf`) önceki adımlarda tanımlanan belgeler dizininde yer almaktadır.
 
 ## Adım 7: Bir Damga Nesnesi Oluşturun
 
@@ -125,7 +127,7 @@ Burada, "TAM ÖDENDİ" eklediğimiz metindir ve stil nitelikleriyle birlikte. Ge
 
 ## Adım 9: Metin Durumunu Bağlayın
 
- Şimdi, bağla`TextState` Daha önce damgaya tanımladığınız. 
+Şimdi, bağla `TextState` Daha önce damgaya tanımladığınız. 
 
 ```csharp
 stamp.BindTextState(ts);
@@ -141,9 +143,9 @@ Pulunuzun PDF'de nerede görüneceğini belirleyin:
 stamp.SetOrigin(100, 100);
 ```
 
- Argümanlar`(100, 100)` Metnin kökeni için X ve Y koordinatlarını (nokta cinsinden) belirtin. Metninizi mükemmel bir şekilde konumlandırmak için bu değerleri ayarlayın!
+Argümanlar `(100, 100)` Metnin kökeni için X ve Y koordinatlarını (nokta cinsinden) belirtin. Metninizi mükemmel bir şekilde konumlandırmak için bu değerleri ayarlayın!
 
-## Adım 11: Opaklığı ve Dönmeyi Yapılandırın
+## Adım 11: Opaklık ve Döndürmeyi Yapılandırın
 
 İşte metninizin görünümüyle oynayabileceğiniz yerler:
 
@@ -174,11 +176,11 @@ fileStamp.Save(dataDir + "output_out.pdf");
 fileStamp.Close();
 ```
 
- Vuruş metnini içeren yeni düzenlenmiş PDF dosyanız şu şekilde kaydedilecektir:`output_out.pdf` Belgeler dizininizde. 
+Vuruş metnini içeren yeni düzenlenmiş PDF dosyanız şu şekilde kaydedilecektir: `output_out.pdf` Belgeler dizininizde. 
 
 ## Çözüm
 
-İşte bu kadar! Bu basit adımları izleyerek, .NET için Aspose.PDF kullanarak bir PDF dosyasındaki vuruş metnini kolayca doldurabilirsiniz. İster iş belgeleri ister kişisel projeler için olsun, bu teknik PDF'lerinize benzersiz bir dokunuş eklemenizi ve bunları herhangi bir kağıt yığınında öne çıkarmanızı sağlar.
+İşte bu kadar! Bu basit adımları izleyerek, .NET için Aspose.PDF kullanarak bir PDF dosyasındaki vuruş metnini kolayca doldurabilirsiniz. İster iş belgeleri ister kişisel projeler olsun, bu teknik PDF'lerinize benzersiz bir dokunuş katmanızı sağlayarak, herhangi bir kağıt yığınında öne çıkmalarını sağlar.
 
 ## SSS
 
@@ -186,19 +188,21 @@ fileStamp.Close();
 Aspose.PDF for .NET, geliştiricilerin PDF dosyalarını programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
-Evet, Aspose ücretsiz deneme sunuyor. Bunu alabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose ücretsiz deneme sunuyor. Bunu alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Lisans için ücret ödemem gerekiyor mu?
- Kütüphanede ücretsiz deneme sürümü mevcut olsa da, geçici lisans da şu adresten satın alınabilir:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Kütüphanede ücretsiz deneme sürümü mevcut olsa da, geçici lisans da satın alınabilir. [bu bağlantı](https://purchase.aspose.com/temporary-license/).
 
 ### Dokümantasyonu nerede bulabilirim?
- Tam dokümantasyona erişebilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Tam dokümantasyona erişebilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Sorun yaşarsam destek alabileceğim bir yer var mı?
- Kesinlikle! Aspose forumunda destek alabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Kesinlikle! Aspose forumunda destek alabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

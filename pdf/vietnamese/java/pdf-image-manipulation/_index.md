@@ -1,14 +1,16 @@
 ---
-title: Chỉnh sửa hình ảnh PDF
-linktitle: Chỉnh sửa hình ảnh PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thao tác hình ảnh PDF với Aspose.PDF cho Java. Chuyển đổi, chỉnh sửa và tối ưu hóa hình ảnh trong tài liệu PDF của bạn một cách dễ dàng.
-weight: 13
-url: /vi/java/pdf-image-manipulation/
+"description": "Tìm hiểu cách thao tác hình ảnh PDF với Aspose.PDF cho Java. Chuyển đổi, chỉnh sửa và tối ưu hóa hình ảnh trong tài liệu PDF của bạn một cách dễ dàng."
+"linktitle": "Chỉnh sửa hình ảnh PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Chỉnh sửa hình ảnh PDF"
+"url": "/vi/java/pdf-image-manipulation/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉnh sửa hình ảnh PDF
@@ -47,9 +49,11 @@ Tìm hiểu cách nhận dạng hình ảnh màu hoặc đen trắng bên trong 
 Tìm hiểu cách thay thế hình ảnh trong tệp PDF bằng Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để thay thế hình ảnh liền mạch.
 ### [Thiết lập DPI hoặc PPI của hình ảnh trong PDF bằng Java](./setting-dpi-or-ppi-of-images-in-pdf-using-java/)
 Tối ưu hóa chất lượng hình ảnh PDF với hướng dẫn từng bước của chúng tôi về cách thiết lập DPI/PPI trong PDF bằng Java. Tìm hiểu cách cải thiện tài liệu của bạn để in và hiển thị kỹ thuật số.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

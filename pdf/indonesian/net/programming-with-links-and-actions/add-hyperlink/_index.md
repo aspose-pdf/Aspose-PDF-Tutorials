@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Hyperlink Dalam File PDF
-linktitle: Tambahkan Hyperlink Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mudah menambahkan hyperlink ke PDF Anda menggunakan Aspose.PDF for .NET. Tingkatkan interaktivitas dan keterlibatan pengguna dalam dokumen Anda.
-weight: 10
-url: /id/net/programming-with-links-and-actions/add-hyperlink/
+"description": "Pelajari cara mudah menambahkan hyperlink ke PDF Anda menggunakan Aspose.PDF for .NET. Tingkatkan interaktivitas dan keterlibatan pengguna dalam dokumen Anda."
+"linktitle": "Tambahkan Hyperlink Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Hyperlink Dalam File PDF"
+"url": "/id/net/programming-with-links-and-actions/add-hyperlink/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Hyperlink Dalam File PDF
@@ -22,7 +24,7 @@ Menambahkan hyperlink ke berkas PDF dapat meningkatkan interaktivitas dan kemuda
 Sebelum menyelami seluk-beluk penambahan hyperlink, ada beberapa prasyarat yang perlu Anda penuhi:
 
 1. Instal .NET Framework: Pastikan Anda memiliki .NET Framework yang kompatibel yang terpasang di komputer Anda. Aspose.PDF berfungsi dengan berbagai versi, jadi verifikasi kompatibilitas dengan versi yang Anda gunakan.
-2.  Pustaka Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF. Anda dapat mengunduhnya dari[halaman unduhan](https://releases.aspose.com/pdf/net/) jika Anda belum melakukannya.
+2. Pustaka Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF. Anda dapat mengunduhnya dari [halaman unduhan](https://releases.aspose.com/pdf/net/) jika Anda belum melakukannya.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membuat tutorial ini lebih lancar dan lebih mudah dipahami.
 4. Lingkungan Pengembangan: Siapkan IDE seperti Visual Studio untuk menulis dan mengeksekusi kode Anda.
 
@@ -49,17 +51,17 @@ Hal pertama yang perlu Anda lakukan adalah menyiapkan direktori kerja tempat fil
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF. Jalur ini akan membantu menavigasi file saat kita membaca dan menulis PDF.
+Mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF. Jalur ini akan membantu menavigasi file saat kita membaca dan menulis PDF.
 
 ## Langkah 2: Buka Dokumen PDF yang Ada
 
- Selanjutnya, mari kita buka berkas PDF tempat Anda ingin menambahkan hyperlink. Anda dapat membuka berkas PDF yang sudah ada dengan memanfaatkan`Document` kelas dari pustaka Aspose.PDF.
+Selanjutnya, mari kita buka berkas PDF tempat Anda ingin menambahkan hyperlink. Anda dapat membuka berkas PDF yang sudah ada dengan memanfaatkan `Document` kelas dari pustaka Aspose.PDF.
 
 ```csharp
 Document document = new Document(dataDir + "AddHyperlink.pdf");
 ```
 
- Cuplikan ini membaca berkas PDF Anda dan mempersiapkannya untuk modifikasi. Pastikan`"AddHyperlink.pdf"` ada di direktori yang Anda tentukan atau sesuaikan nama berkasnya.
+Cuplikan ini membaca berkas PDF Anda dan mempersiapkannya untuk modifikasi. Pastikan `"AddHyperlink.pdf"` ada di direktori yang Anda tentukan atau sesuaikan nama berkasnya.
 
 ## Langkah 3: Akses Halaman PDF
 
@@ -69,7 +71,7 @@ Sekarang, kita perlu memilih halaman di dalam dokumen tempat hyperlink akan munc
 Page page = document.Pages[1];
 ```
 
-Ingat, indeks halaman di Aspose dimulai dari 1, bukan 0. Jadi, halaman pertama adalah halaman 1.
+Ingat, indeks halaman di Aspose dimulai pada angka 1, bukan 0. Jadi, halaman pertama adalah halaman 1.
 
 ## Langkah 4: Buat Objek Anotasi Tautan
 
@@ -79,7 +81,7 @@ Selanjutnya, Anda perlu menentukan area persegi panjang tempat hyperlink akan da
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
- Di sini, kita membuat persegi panjang yang dimulai di`(100, 100)` dan membentang hingga`(300, 300)`Sesuaikan angka-angka ini untuk mengubah ukuran dan lokasi tautan Anda.
+Di sini, kita membuat persegi panjang yang dimulai di `(100, 100)` dan membentang hingga `(300, 300)`Sesuaikan angka-angka ini untuk mengubah ukuran dan lokasi tautan Anda.
 
 ## Langkah 5: Konfigurasikan Batas Tautan
 
@@ -101,7 +103,7 @@ Anda perlu menentukan apa yang terjadi saat pengguna mengeklik tautan ini. Untuk
 link.Action = new GoToURIAction("http://www.aspose.com");
 ```
 
- Pastikan untuk menggunakan`"http://"` di awal alamat web; jika tidak, mungkin tidak berfungsi dengan baik.
+Pastikan untuk menggunakan `"http://"` di awal alamat web; jika tidak, mungkin tidak berfungsi dengan baik.
 
 ## Langkah 7: Tambahkan Anotasi Tautan ke Halaman
 
@@ -135,7 +137,7 @@ dataDir = dataDir + "AddHyperlink_out.pdf";
 document.Save(dataDir);
 ```
 
- Ini menyimpan PDF Anda yang telah diperbarui sebagai file baru bernama`"AddHyperlink_out.pdf"` di direktori yang Anda tentukan.
+Ini menyimpan PDF Anda yang telah diperbarui sebagai file baru bernama `"AddHyperlink_out.pdf"` di direktori yang Anda tentukan.
 
 ## Kesimpulan
 
@@ -147,19 +149,21 @@ Menambahkan hyperlink ke dokumen PDF Anda menggunakan Aspose.PDF for .NET tidak 
 Ya, Anda dapat mengubah tampilan hyperlink dan teks menggunakan font, warna, dan gaya batas yang berbeda.
 
 ### Bagaimana jika saya ingin menautkan ke halaman internal?  
- Anda dapat menggunakan`GoToAction` alih-alih`GoToURIAction` untuk menautkan ke halaman berbeda dalam PDF.
+Anda dapat menggunakan `GoToAction` alih-alih `GoToURIAction` untuk menautkan ke halaman berbeda dalam PDF.
 
 ### Apakah Aspose.PDF mendukung format file lain?  
 Ya, Aspose.PDF mendukung berbagai format file dan fungsi untuk manipulasi dan konversi PDF.
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk pengembangan?  
- Anda dapat memperoleh lisensi sementara dengan mengunjungi[tautan ini](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara dengan mengunjungi [tautan ini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan lebih banyak tutorial Aspose.PDF?  
-Anda dapat menemukan lebih banyak tutorial di[dokumentasi](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan lebih banyak tutorial di [dokumentasi](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

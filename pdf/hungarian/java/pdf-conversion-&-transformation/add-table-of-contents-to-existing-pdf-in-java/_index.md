@@ -1,75 +1,77 @@
 ---
-title: Tartalomjegyzék hozzáadása egy meglévő PDF-hez Java nyelven
-linktitle: Tartalomjegyzék hozzáadása egy meglévő PDF-hez Java nyelven
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan adhat hozzá tartalomjegyzéket egy PDF-hez Java nyelven az Aspose.PDF for Java segítségével. Fokozza a dokumentumok navigációját ezzel a lépésenkénti útmutatóval.
-weight: 34
-url: /hu/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/
+"description": "Tanuld meg, hogyan adhatsz hozzá tartalomjegyzéket egy PDF-hez Java nyelven az Aspose.PDF for Java segítségével. Fejleszd a dokumentumok navigációját ezzel a lépésről lépésre szóló útmutatóval."
+"linktitle": "Tartalomjegyzék hozzáadása egy meglévő PDF-hez Java-ban"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "Tartalomjegyzék hozzáadása egy meglévő PDF-hez Java-ban"
+"url": "/hu/java/pdf-conversion-transformation/add-table-of-contents-to-existing-pdf-in-java/"
+"weight": 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tartalomjegyzék hozzáadása egy meglévő PDF-hez Java nyelven
+# Tartalomjegyzék hozzáadása egy meglévő PDF-hez Java-ban
 
 
 ## Bevezetés
-Ebben a lépésenkénti útmutatóban megtanuljuk, hogyan adhatunk hozzá tartalomjegyzéket egy meglévő PDF-hez Java nyelven az Aspose.PDF for Java könyvtár használatával. A tartalomjegyzék a PDF dokumentumok hasznos funkciója, amely lehetővé teszi az olvasók számára, hogy gyorsan navigálhassanak a dokumentumban.
+Ebben a lépésről lépésre bemutató útmutatóban megtanuljuk, hogyan adhatunk hozzá tartalomjegyzéket egy meglévő PDF-hez Java nyelven az Aspose.PDF for Java könyvtár használatával. A tartalomjegyzék egy hasznos funkció a PDF dokumentumokban, amely lehetővé teszi az olvasók számára, hogy gyorsan navigáljanak a dokumentumban.
 
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Aspose.PDF a Java könyvtárhoz. Letöltheti innen[itt](https://releases.aspose.com/pdf/java/).
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Aspose.PDF a Java könyvtárhoz. Letöltheti innen [itt](https://releases.aspose.com/pdf/java/).
 
 ## Függőségek hozzáadása
-kezdéshez hozzon létre egy új Java-projektet, és adja hozzá az Aspose.PDF for Java könyvtárat a projekt függőségeihez. Ezt úgy teheti meg, hogy belefoglalja a JAR fájlt a projekt felépítési útvonalába.
+Első lépésként hozz létre egy új Java projektet, és add hozzá az Aspose.PDF for Java könyvtárat a projekted függőségeihez. Ezt úgy teheted meg, hogy a JAR fájlt a projekted build útvonalába foglalod.
 
 ## Új PDF dokumentum létrehozása
-Kezdjük egy új PDF dokumentum létrehozásával, amelyhez tartalomjegyzéket adunk. Íme egy mintakód új PDF-dokumentum létrehozásához:
+Kezdjük egy új PDF dokumentum létrehozásával, amelyhez tartalomjegyzéket fogunk hozzáadni. Íme egy mintakód egy új PDF dokumentum létrehozásához:
 
 ```java
-// Hozzon létre egy új PDF dokumentumot
+// Új PDF dokumentum létrehozása
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 ```
 
 ## Tartalomjegyzék hozzáadása
-Ahhoz, hogy tartalomjegyzéket adjunk a PDF dokumentumhoz, létre kell hoznunk egy TableOfContents objektumot, és meg kell adnunk annak tulajdonságait. A következőképpen teheti meg:
+Tartalomjegyzék PDF dokumentumhoz való hozzáadásához létre kell hoznunk egy TableOfContents objektumot, és meg kell adnunk a tulajdonságait. Így teheted meg:
 
 ```java
-// Hozzon létre egy TableOfContents objektumot
+// TableOfContents objektum létrehozása
 com.aspose.pdf.TableOfContents tableOfContents = new com.aspose.pdf.TableOfContents();
-tableOfContents.setTitle("Table of Contents"); // Adja meg a tartalomjegyzék címét
+tableOfContents.setTitle("Table of Contents"); // A tartalomjegyzék címének beállítása
 tableOfContents.setDisplayPageNumbers(true); // Oldalszámok megjelenítése
 ```
 
 ## Szakaszok hozzáadása a dokumentumhoz
-Ezután szakaszokat adunk a PDF dokumentumhoz. Ezek a szakaszok a dokumentum különböző fejezeteit vagy szakaszait képviselik. Íme egy példa:
+Ezután szakaszokat adunk a PDF dokumentumhoz. Ezek a szakaszok a dokumentum különböző fejezeteit vagy szakaszait fogják képviselni. Íme egy példa:
 
 ```java
-// Hozzon létre egy szakaszt
+// Hozz létre egy szakaszt
 com.aspose.pdf.Section section = pdfDocument.getSections().add();
 
-// Tartalom hozzáadása a szakaszhoz (pl. szöveg, képek stb.)
-// Itt adhatja hozzá a dokumentum tartalmát
+// Tartalom hozzáadása a szakaszhoz (pl. szöveg, kép stb.)
+// Ide adhatod hozzá a dokumentumod tartalmát
 
-// Adja hozzá a részt a tartalomjegyzékhez
+// A szakasz hozzáadása a tartalomjegyzékhez
 tableOfContents.getSections().add(section);
 ```
 
 ## Oldalszámok generálása
-A tartalomjegyzék oldalszámainak generálásához a következő kódot használhatja:
+A tartalomjegyzék oldalszámozásának létrehozásához a következő kódot használhatja:
 
 ```java
-// Generáljon oldalszámokat a tartalomjegyzékhez
+// Oldalszámok generálása a tartalomjegyzékhez
 pdfDocument.getPages().accept(new PageNumberStamp());
 ```
 
-## A tartalomjegyzék stílusának kialakítása
-Testreszabhatja a tartalomjegyzék megjelenését a tulajdonságainak, például a betűméret, a szín és a stílus beállításával. Íme egy példa:
+## A tartalomjegyzék formázása
+A tartalomjegyzék megjelenését testreszabhatja a tulajdonságainak, például a betűméretnek, a színnek és a stílusnak a beállításával. Íme egy példa:
 
 ```java
-// Testreszabhatja a tartalomjegyzék megjelenését
+// tartalomjegyzék megjelenésének testreszabása
 TextState textState = tableOfContents.getTextState();
 textState.setFont(FontRepository.findFont("Arial"));
 textState.setFontSize(12);
@@ -85,28 +87,30 @@ pdfDocument.save("output.pdf");
 ```
 
 ## Következtetés
-Ebben az útmutatóban megtanultuk, hogyan adhatunk hozzá tartalomjegyzéket egy meglévő PDF-hez Java nyelven az Aspose.PDF for Java könyvtár használatával. A tartalomjegyzék a dokumentumon belüli gyors navigációval javítja a felhasználói élményt.
+Ebben az útmutatóban megtanultuk, hogyan adhatunk hozzá tartalomjegyzéket egy meglévő PDF-hez Java nyelven az Aspose.PDF for Java könyvtár használatával. A tartalomjegyzék a dokumentumon belüli gyors navigáció biztosításával javítja a felhasználói élményt.
 
 ## GYIK
-### Hogyan szabhatom testre a tartalomjegyzék megjelenését?
-Testreszabhatja a tartalomjegyzék megjelenését a betűméret, szín, stílus és egyéb tulajdonságok módosításával az Aspose.PDF for Java könyvtár használatával.
+### Hogyan tudom testre szabni a tartalomjegyzék megjelenését?
+A tartalomjegyzék megjelenését testreszabhatja a betűméret, szín, stílus és egyéb tulajdonságok módosításával az Aspose.PDF for Java könyvtár segítségével.
 
 ### Hozzáadhatok hiperhivatkozásokat a tartalomjegyzékhez?
-Igen, hiperhivatkozásokat adhat hozzá a tartalomjegyzékhez, hogy a PDF-dokumentum bizonyos szakaszaira vagy oldalaira navigáljon.
+Igen, hozzáadhat hiperhivatkozásokat a tartalomjegyzékhez, hogy a PDF dokumentumon belüli adott szakaszokra vagy oldalakra navigálhasson.
 
-### Az Aspose.PDF for Java támogat más PDF-kezelési funkciókat?
-Igen, az Aspose.PDF for Java funkciók széles skáláját kínálja a PDF-dokumentumokkal való munkavégzéshez, beleértve a szövegkivonást, az oldalkezelést és egyebeket.
+### Az Aspose.PDF for Java támogat más PDF-manipulációs funkciókat is?
+Igen, az Aspose.PDF for Java számos funkciót kínál a PDF dokumentumokkal való munkához, beleértve a szöveg kinyerését, az oldalkezelést és egyebeket.
 
-### Elérhető az Aspose.PDF Java próbaverziója?
- Igen, letöltheti az Aspose.PDF for Java próbaverzióját a webhelyről[Aspose.Purchases](https://purchase.aspose.com/temporary-license/) hogy a licenc megvásárlása előtt értékelje a tulajdonságait.
+### Van elérhető az Aspose.PDF próbaverziója Java-hoz?
+Igen, letöltheti az Aspose.PDF próbaverzióját Java-hoz innen: [Aspose.Purchases](https://purchase.aspose.com/temporary-license/) hogy licencvásárlás előtt felmérje a funkcióit.
 
-### Hogyan érhetek el további Aspose.PDF for Java oktatóanyagokat és dokumentációt?
- Az Aspose.PDF for Java-hoz átfogó oktatóanyagokat és dokumentációt találhat a következő webhelyen:[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+### Hogyan férhetek hozzá további Aspose.PDF Java oktatóanyagokhoz és dokumentációkhoz?
+Az Aspose.PDF for Java fájlhoz átfogó oktatóanyagokat és dokumentációt talál a következő weboldalon: [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
 
-Ebben a cikkben megvizsgáltuk, hogyan adhatunk hozzá tartalomjegyzéket egy meglévő PDF-dokumentumhoz az Aspose.PDF for Java könyvtár használatával. Ez a funkció nagymértékben javíthatja PDF-dokumentumai használhatóságát, lehetővé téve az olvasók számára, hogy könnyen navigálhassanak adott szakaszokhoz vagy fejezetekhez. Ezenkívül kitértünk a tartalomjegyzék megjelenésének testreszabására és az oldalszámok generálására. Az Aspose.PDF for Java a PDF-kezelési lehetőségek széles skáláját kínálja, így hatékony eszköz a PDF-ekkel való munkavégzéshez Java alkalmazásokban. Ha további segítségre van szüksége, vagy szeretné felfedezni az Aspose.PDF for Java további funkcióit, feltétlenül tekintse meg dokumentációjukat és oktatóanyagukat.
+Ebben a cikkben azt vizsgáltuk meg, hogyan adhatunk hozzá tartalomjegyzéket egy meglévő PDF dokumentumhoz az Aspose.PDF for Java könyvtár segítségével. Ez a funkció jelentősen javíthatja a PDF dokumentumok használhatóságát, lehetővé téve az olvasók számára, hogy könnyen navigáljanak az adott szakaszok vagy fejezetek között. Ezenkívül azt is tárgyaltuk, hogyan szabható testre a tartalomjegyzék megjelenése és hogyan generálhatók oldalszámok. Az Aspose.PDF for Java számos PDF-manipulációs lehetőséget kínál, így hatékony eszköz a PDF-ekkel való munkához Java alkalmazásokban. Ha további segítségre van szüksége, vagy szeretné felfedezni az Aspose.PDF for Java további funkcióit, tekintse meg a dokumentációt és az oktatóanyagokat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

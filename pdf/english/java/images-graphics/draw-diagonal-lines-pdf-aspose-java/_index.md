@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Draw Diagonal Lines Across a PDF Page with Aspose.PDF for Java
 
@@ -179,7 +181,11 @@ You’ve learned how to use Aspose.PDF for Java to create PDF documents with dia
 - **Download**: Get the latest version from [Aspose Release Center](https://releases.aspose.com/pdf/java/).
 - **Purchase & Trial**: Visit [Aspose Purchase](https://purchase.aspose.com/buy) for licenses and trials.
 - **Support**: Join discussions or seek help at [Aspose Forums](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Usuń zakładki z plików PDF
-linktitle: Usuń zakładki z plików PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak bez wysiłku usuwać zakładki z plików PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku i przykładowy kod ułatwiają to zadanie.
-weight: 13
-url: /pl/java/pdf-bookmarks/delete-bookmarks-pdf-files/
+"description": "Dowiedz się, jak bez wysiłku usuwać zakładki z plików PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku i przykładowy kod ułatwiają to zadanie."
+"linktitle": "Usuń zakładki z plików PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Usuń zakładki z plików PDF"
+"url": "/pl/java/pdf-bookmarks/delete-bookmarks-pdf-files/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń zakładki z plików PDF
@@ -30,7 +32,7 @@ Istnieje kilka powodów, dla których chcesz usunąć zakładki z pliku PDF. Mo�
 
 Zanim zaczniemy, musisz skonfigurować Aspose.PDF dla Java w swoim projekcie Java. Wykonaj następujące kroki, aby rozpocząć:
 
-1.  Pobierz Aspose.PDF dla Java: Możesz pobrać bibliotekę ze strony internetowej Aspose. Użyj następującego łącza:[Aspose.PDF dla Java Pobierz](https://releases.aspose.com/pdf/java/).
+1. Pobierz Aspose.PDF dla Java: Możesz pobrać bibliotekę ze strony internetowej Aspose. Użyj następującego łącza: [Aspose.PDF dla Java Pobierz](https://releases.aspose.com/pdf/java/).
 
 2. Dodaj plik JAR do swojego projektu: Dodaj pobrany plik JAR do ścieżki klas swojego projektu Java.
 
@@ -73,7 +75,7 @@ Teraz przejdźmy do procesu usuwania zakładek z pliku PDF. Wykonaj następując
 
 1. Przechodź przez zakładki za pomocą pętli.
 2. Na podstawie podanych kryteriów zidentyfikuj zakładki, które chcesz usunąć.
-3.  Usuń zakładki za pomocą`delete` metoda.
+3. Usuń zakładki za pomocą `delete` metoda.
 
 Oto przykładowy fragment kodu, który pomoże Ci zacząć:
 
@@ -126,7 +128,7 @@ Po wdrożeniu kodu do usuwania zakładek, konieczne jest dokładne przetestowani
 
 ## Wniosek
 
-W tym artykule przyjrzeliśmy się sposobowi usuwania zakładek z plików PDF za pomocą Aspose.PDF dla Java. Omówiliśmy znaczenie Aspose.PDF dla Java w manipulacji PDF, skonfigurowaliśmy bibliotekę w projekcie Java i udostępniliśmy przewodnik krok po kroku z przykładowym kodem do usuwania zakładek. Postępując zgodnie z tymi instrukcjami, możesz sprawnie zarządzać zakładkami w dokumentach PDF i dostosowywać środowisko użytkownika.
+tym artykule przyjrzeliśmy się sposobowi usuwania zakładek z plików PDF za pomocą Aspose.PDF dla Java. Omówiliśmy znaczenie Aspose.PDF dla Java w manipulacji PDF, skonfigurowaliśmy bibliotekę w projekcie Java i udostępniliśmy przewodnik krok po kroku z przykładowym kodem do usuwania zakładek. Postępując zgodnie z tymi instrukcjami, możesz sprawnie zarządzać zakładkami w dokumentach PDF i dostosowywać środowisko użytkownika.
 
 ## Najczęściej zadawane pytania
 
@@ -139,7 +141,7 @@ Aby zainstalować Aspose.PDF dla Java, wykonaj następujące kroki:
 
 ### Czy mogę usunąć konkretne zakładki w oparciu o określone kryteria?
 
- Tak, możesz usunąć określone zakładki na podstawie swoich kryteriów. Przejrzyj zakładki, zastosuj swoje kryteria i użyj`delete` metoda ich usunięcia.
+Tak, możesz usunąć określone zakładki na podstawie swoich kryteriów. Przejrzyj zakładki, zastosuj swoje kryteria i użyj `delete` metoda ich usunięcia.
 
 ### Czy usunięcie zakładek wpłynie na zawartość pliku PDF?
 
@@ -151,10 +153,12 @@ Aspose.PDF for Java to biblioteka komercyjna i może wymagać licencji na okreś
 
 ### Gdzie mogę znaleźć więcej dokumentacji i zasobów Aspose.PDF dla języka Java?
 
- Pełną dokumentację i zasoby dotyczące pliku Aspose.PDF dla języka Java można znaleźć pod adresem: link do dokumentacji Aspose:[Aspose.PDF dla dokumentacji Java](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację i zasoby dotyczące pliku Aspose.PDF dla języka Java można znaleźć pod adresem: link do dokumentacji Aspose: [Aspose.PDF dla dokumentacji Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

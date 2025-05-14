@@ -1,14 +1,16 @@
 ---
-title: Ekstrak Teks Dari Anotasi Prangko
-linktitle: Ekstrak Teks Dari Anotasi Prangko
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak teks dari anotasi prangko dalam PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini, lengkap dengan contoh kode terperinci.
-weight: 80
-url: /id/net/programming-with-stamps-and-watermarks/extract-text-from-stamp-annotation/
+"description": "Pelajari cara mengekstrak teks dari anotasi prangko dalam PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini, lengkap dengan contoh kode terperinci."
+"linktitle": "Ekstrak Teks Dari Anotasi Prangko"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ekstrak Teks Dari Anotasi Prangko"
+"url": "/id/net/programming-with-stamps-and-watermarks/extract-text-from-stamp-annotation/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrak Teks Dari Anotasi Prangko
@@ -21,7 +23,7 @@ Saat bekerja dengan file PDF, mengekstrak data tertentu seperti teks dari anotas
 
 Sebelum kita masuk ke tutorial, ada beberapa hal yang Anda perlukan:
 
--  Aspose.PDF untuk .NET: Anda harus menginstal Aspose.PDF untuk .NET. Anda dapat[unduh versi terbaru di sini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Anda harus menginstal Aspose.PDF untuk .NET. Anda dapat [unduh versi terbaru di sini](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Panduan ini mengasumsikan Anda menggunakan Visual Studio sebagai lingkungan pengembangan terintegrasi (IDE).
 - Pengetahuan Dasar C#: Anda harus memiliki pemahaman dasar tentang pemrograman C#.
 
@@ -43,14 +45,14 @@ Mari kita telusuri proses mengekstraksi teks dari anotasi prangko. Proses ini me
 
 ## Langkah 1: Muat Dokumen PDF
 
-Hal pertama yang perlu Anda lakukan adalah memuat berkas PDF tempat anotasi prangko berada. Dalam contoh ini, kami akan memuat berkas PDF contoh dari direktori lokal Anda.
+Hal pertama yang perlu Anda lakukan adalah memuat berkas PDF tempat anotasi prangko berada. Dalam contoh ini, kami akan memuat contoh berkas PDF dari direktori lokal Anda.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "test.pdf");
 ```
 
- Di sini, kami menggunakan`Document` kelas yang disediakan oleh Aspose.PDF untuk membuka dan berinteraksi dengan file PDF.`dataDir` variabel mewakili jalur ke file Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat PDF Anda disimpan.
+Di sini, kami menggunakan `Document` kelas yang disediakan oleh Aspose.PDF untuk membuka dan berinteraksi dengan file PDF. `dataDir` variabel mewakili jalur ke file Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat PDF Anda disimpan.
 
 ## Langkah 2: Identifikasi Anotasi Prangko
 
@@ -63,7 +65,7 @@ StampAnnotation annot = doc.Pages[1].Annotations[3] as StampAnnotation;
 Pada baris kode ini:
 - `doc.Pages[1]`: Mengakses halaman pertama dokumen.
 - `Annotations[3]`: Mengacu pada anotasi keempat pada halaman (karena pengindeksan dimulai pada 0).
-- `as StampAnnotation` : Melemparkan anotasi ke dalam`StampAnnotation` objek, yang merupakan jenis anotasi spesifik yang sedang kita hadapi.
+- `as StampAnnotation`: Melemparkan anotasi ke dalam `StampAnnotation` objek, yang merupakan jenis anotasi spesifik yang sedang kita hadapi.
 
 ## Langkah 3: Buat Penyerap Teks
 
@@ -73,7 +75,7 @@ Untuk mengekstrak teks dari anotasi prangko, kita perlu menggunakan Text Absorbe
 TextAbsorber ta = new TextAbsorber();
 ```
 
- Itu`TextAbsorber` Kelas ini dirancang untuk mengekstrak teks dari bagian mana pun dalam dokumen, dan kita akan menggunakannya untuk menargetkan tampilan anotasi.
+Itu `TextAbsorber` Kelas ini dirancang untuk mengekstrak teks dari bagian mana pun dalam dokumen, dan kita akan menggunakannya untuk menargetkan tampilan anotasi.
 
 ## Langkah 4: Ekstrak Tampilan Anotasi Prangko
 
@@ -88,13 +90,13 @@ Di Sini:
 
 ## Langkah 5: Ekstrak Konten Teks
 
- Sekarang setelah kita memiliki tampilannya, kita dapat menggunakan`TextAbsorber` untuk mengunjungi penampilan dan menangkap teks.
+Sekarang setelah kita memiliki tampilannya, kita dapat menggunakan `TextAbsorber` untuk mengunjungi penampilan dan menangkap teks.
 
 ```csharp
 ta.Visit(ap);
 ```
 
- Itu`Visit` metode memungkinkan`TextAbsorber` untuk menganalisis tampilan dan mengekstrak konten tekstual yang tertanam di dalamnya.
+Itu `Visit` metode memungkinkan `TextAbsorber` untuk menganalisis tampilan dan mengekstrak konten tekstual yang tertanam di dalamnya.
 
 ## Langkah 6: Menampilkan Teks yang Diekstrak
 
@@ -125,10 +127,12 @@ Ya, Anda dapat mengekstrak gambar dari anotasi prangko menggunakan metode serupa
 Aspose.PDF untuk .NET menawarkan berbagai fitur termasuk manipulasi teks, penanganan bidang formulir, konversi dokumen, dan banyak lagi.
 
 ### Apakah Aspose.PDF untuk .NET gratis?  
- Aspose.PDF untuk .NET menawarkan uji coba gratis, tetapi untuk mengakses rangkaian fitur lengkap, Anda perlu membeli lisensi. Anda juga dapat mengajukan permohonan[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF untuk .NET menawarkan uji coba gratis, tetapi untuk mengakses rangkaian fitur lengkap, Anda perlu membeli lisensi. Anda juga dapat mengajukan permohonan [lisensi sementara](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

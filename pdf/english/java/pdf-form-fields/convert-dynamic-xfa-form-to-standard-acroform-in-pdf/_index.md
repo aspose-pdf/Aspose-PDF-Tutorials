@@ -8,7 +8,9 @@ url: /java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Dynamic XFA Form to Standard AcroForm in PDF
@@ -96,6 +98,7 @@ You can download the Aspose.PDF for Java library from [this link](https://releas
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

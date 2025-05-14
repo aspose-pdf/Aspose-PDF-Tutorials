@@ -1,14 +1,16 @@
 ---
-title: Làm phẳng chú thích trong tệp PDF
-linktitle: Làm phẳng chú thích trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách làm phẳng chú thích trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn này. Đơn giản hóa quy trình quản lý PDF của bạn với hướng dẫn chi tiết của chúng tôi.
-weight: 150
-url: /vi/net/programming-with-document/flattenannotation/
+"description": "Tìm hiểu cách làm phẳng chú thích trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn này. Đơn giản hóa quy trình quản lý PDF của bạn với hướng dẫn chi tiết của chúng tôi."
+"linktitle": "Làm phẳng chú thích trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Làm phẳng chú thích trong tệp PDF"
+"url": "/vi/net/programming-with-document/flattenannotation/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm phẳng chú thích trong tệp PDF
@@ -21,10 +23,10 @@ Trong thế giới xử lý PDF, làm việc với chú thích có thể là m�
 
 Trước khi chúng ta bắt đầu làm phẳng chú thích trong tệp PDF của bạn, có một số điều bạn cần chuẩn bị:
 
--  Aspose.PDF cho Thư viện .NET: Bạn có thể tải xuống phiên bản mới nhất của thư viện từ[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho Thư viện .NET: Bạn có thể tải xuống phiên bản mới nhất của thư viện từ [đây](https://releases.aspose.com/pdf/net/).
 - Môi trường phát triển: Đảm bảo bạn đã cài đặt IDE như Visual Studio.
 - .NET Framework: Hướng dẫn này được xây dựng cho .NET, vì vậy hãy đảm bảo bạn đã cài đặt phiên bản tương thích.
-- Quyền truy cập tạm thời hoặc được cấp phép: Đối với hướng dẫn này, bạn có thể sử dụng giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/) hoặc lựa chọn giấy phép đầy đủ tại[liên kết này](https://purchase.aspose.com/buy).
+- Quyền truy cập tạm thời hoặc được cấp phép: Đối với hướng dẫn này, bạn có thể sử dụng giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/) hoặc lựa chọn giấy phép đầy đủ tại [liên kết này](https://purchase.aspose.com/buy).
 
 ## Nhập không gian tên
 
@@ -35,7 +37,7 @@ using Aspose.Pdf;
 using System;
 ```
 
-Các gói này là cần thiết để tương tác với PDF và để thực hiện việc làm phẳng chú thích. Bây giờ bạn đã nhập các thư viện cần thiết, hãy cùng tìm hiểu hướng dẫn từng bước.
+Các gói này cần thiết để tương tác với PDF và triển khai việc làm phẳng chú thích. Bây giờ bạn đã nhập các thư viện cần thiết, hãy cùng tìm hiểu hướng dẫn từng bước.
 
 ## Bước 1: Đặt đường dẫn đến thư mục tài liệu
 
@@ -45,7 +47,7 @@ Các gói này là cần thiết để tương tác với PDF và để thực h
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Đây,`"YOUR DOCUMENT DIRECTORY"` đề cập đến con đường thực tế nơi bạn`OptimizeDocument.pdf` được lưu trữ. Bạn có thể đặt nó ở bất kỳ vị trí nào trên máy tính của bạn. Bằng cách xác định`dataDir`chúng tôi đảm bảo rằng chương trình của chúng tôi biết tìm tệp PDF ở đâu và lưu trữ tệp đã cập nhật ở đâu. 
+Đây, `"YOUR DOCUMENT DIRECTORY"` đề cập đến con đường thực tế nơi bạn `OptimizeDocument.pdf` được lưu trữ. Bạn có thể đặt nó ở bất kỳ vị trí nào trên máy tính của bạn. Bằng cách xác định `dataDir`, chúng tôi đảm bảo rằng chương trình của chúng tôi biết tìm tệp PDF ở đâu và lưu trữ tệp đã cập nhật ở đâu. 
 
 ## Bước 2: Tải Tài liệu PDF
 
@@ -55,7 +57,7 @@ Bây giờ chúng ta đã thiết lập thư mục tài liệu, bước tiếp t
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
- Các`Document` lớp do Aspose.PDF cung cấp cho phép chúng ta mở và làm việc với các tệp PDF. Trong dòng mã này, chúng ta đang tải`OptimizeDocument.pdf` tập tin từ thư mục được chỉ định (`dataDir` ). Bạn có thể thay thế`"OptimizeDocument.pdf"` với tên của bất kỳ tệp PDF nào bạn muốn xử lý.
+Các `Document` lớp do Aspose.PDF cung cấp cho phép chúng ta mở và làm việc với các tệp PDF. Trong dòng mã này, chúng ta đang tải `OptimizeDocument.pdf` tập tin từ thư mục được chỉ định (`dataDir`). Bạn có thể thay thế `"OptimizeDocument.pdf"` với tên của bất kỳ tệp PDF nào bạn muốn xử lý.
 
 ## Bước 3: Lặp lại qua các trang PDF
 
@@ -68,7 +70,7 @@ foreach (var page in pdfDocument.Pages)
 }
 ```
 
- Ở đây, chúng tôi sử dụng một`foreach` vòng lặp để lặp lại thông qua`Pages` bộ sưu tập trong tài liệu PDF. Mỗi trang chứa một bộ sưu tập chú thích, chúng ta sẽ truy cập ở bước tiếp theo.
+Ở đây, chúng tôi sử dụng một `foreach` vòng lặp để lặp lại thông qua `Pages` bộ sưu tập trong tài liệu PDF. Mỗi trang chứa một bộ sưu tập chú thích, chúng ta sẽ truy cập ở bước tiếp theo.
 
 ## Bước 4: Làm phẳng các chú thích
 
@@ -81,7 +83,7 @@ foreach (var annotation in page.Annotations)
 }
 ```
 
- Đối với mỗi trang, chúng tôi lặp lại các chú thích của nó bằng cách sử dụng một`foreach` vòng lặp.`Flatten()` phương pháp của`annotation` đối tượng được gọi để chuyển đổi các chú thích tương tác thành nội dung tĩnh, có hiệu quả là “làm phẳng” chúng.
+Đối với mỗi trang, chúng tôi lặp lại các chú thích của nó bằng cách sử dụng một `foreach` vòng lặp. `Flatten()` phương pháp của `annotation` đối tượng được gọi để chuyển đổi các chú thích tương tác thành nội dung tĩnh, có hiệu quả là “làm phẳng” chúng.
 
 ## Bước 5: Lưu PDF đã cập nhật
 
@@ -91,7 +93,7 @@ Sau khi tất cả chú thích đã được làm phẳng trên tất cả các 
 pdfDocument.Save(dataDir + "OptimizeDocument_out.pdf");
 ```
 
- Ở đây, chúng tôi sử dụng`Save` phương pháp của`pdfDocument` đối tượng để lưu trữ PDF đã cập nhật trở lại hệ thống tệp. Tệp đã sửa đổi được lưu dưới dạng`OptimizeDocument_out.pdf` trong cùng một thư mục (`dataDir`). Bạn có thể thay đổi tên tệp đầu ra nếu cần.
+Ở đây, chúng tôi sử dụng `Save` phương pháp của `pdfDocument` đối tượng để lưu trữ PDF đã cập nhật trở lại hệ thống tệp. Tệp đã sửa đổi được lưu dưới dạng `OptimizeDocument_out.pdf` trong cùng một thư mục (`dataDir`). Bạn có thể thay đổi tên tệp đầu ra nếu cần.
 
 ## Bước 6: Cung cấp phản hồi cho người dùng
 
@@ -119,13 +121,15 @@ Có, bạn có thể làm phẳng chú thích một cách có chọn lọc bằn
 Không, việc làm phẳng chỉ ảnh hưởng đến chú thích. Phần còn lại của tài liệu vẫn không thay đổi.
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.PDF cho .NET?
- Bạn có thể dùng thử miễn phí bằng cách truy cập[đây](https://releases.aspose.com/).
+Bạn có thể dùng thử miễn phí bằng cách truy cập [đây](https://releases.aspose.com/).
 
 ### Tôi có thể khôi phục chú thích đã làm phẳng trở lại dạng tương tác không?
 Không, sau khi chú thích được làm phẳng, chúng sẽ trở thành một phần của nội dung tĩnh và không thể trở lại dạng tương tác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tabel PDF
-linktitle: Tabel PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Jelajahi tabel PDF dengan Aspose.PDF untuk Java. Buat dan atur tabel dalam dokumen PDF Anda dengan mudah.
-weight: 19
-url: /id/java/pdf-tables/
+"description": "Jelajahi tabel PDF dengan Aspose.PDF untuk Java. Buat dan manipulasi tabel dengan mudah dalam dokumen PDF Anda."
+"linktitle": "Tabel PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Tabel PDF"
+"url": "/id/java/pdf-tables/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabel PDF
@@ -35,9 +37,11 @@ Pelajari cara menyembunyikan batas sel yang terbentang dalam PDF menggunakan Jav
 Pelajari cara memanipulasi tabel PDF menggunakan Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah ini mencakup ekstraksi tabel, modifikasi, dan lainnya untuk penanganan PDF yang efektif.
 ### [Hapus Tabel dari PDF yang Ada menggunakan Java](./remove-tables-from-existing-pdf-using-java/)
 Pelajari cara mudah menghapus tabel dari PDF menggunakan Java dengan Aspose.PDF untuk Java. Panduan langkah demi langkah untuk penghapusan tabel yang efisien.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

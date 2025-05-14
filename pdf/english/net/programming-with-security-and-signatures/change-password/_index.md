@@ -8,7 +8,9 @@ url: /net/programming-with-security-and-signatures/change-password/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Password In PDF File
@@ -131,6 +133,7 @@ For detailed documentation, head over to [Aspose.Reference](https://reference.as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

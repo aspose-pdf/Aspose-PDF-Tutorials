@@ -1,14 +1,16 @@
 ---
-title: Получить значения из всех полей в PDF-документе
-linktitle: Получить значения из всех полей в PDF-документе
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как извлечь значения из всех полей PDF-документа с помощью Aspose.PDF для .NET, следуя этому пошаговому руководству.
-weight: 150
-url: /ru/net/programming-with-forms/get-values-from-all-fields/
+"description": "Узнайте, как извлечь значения из всех полей PDF-документа с помощью Aspose.PDF для .NET, следуя этому пошаговому руководству."
+"linktitle": "Получить значения из всех полей в PDF-документе"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Получить значения из всех полей в PDF-документе"
+"url": "/ru/net/programming-with-forms/get-values-from-all-fields/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить значения из всех полей в PDF-документе
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-forms/get-values-from-all-fields/
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое для начала работы:
 
 1. .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework. Aspose.PDF без проблем работает с приложениями .NET.
-2.  Aspose.PDF для .NET: Вам нужно будет скачать и установить библиотеку Aspose.PDF. Вы можете найти ее[здесь](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF для .NET: Вам нужно будет скачать и установить библиотеку Aspose.PDF. Вы можете найти ее [здесь](https://releases.aspose.com/pdf/net/).
 3. Visual Studio: Хорошая IDE сделает процесс кодирования более плавным. Visual Studio — популярный выбор для разработки .NET.
 4. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понять примеры.
 
@@ -58,7 +60,7 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где находится ваш PDF-файл. Это важно, поскольку если путь неверный, программа не сможет найти ваш PDF-файл.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где находится ваш PDF-файл. Это важно, поскольку если путь неверен, программа не сможет найти ваш PDF-файл.
 
 ## Шаг 2: Откройте PDF-документ.
 
@@ -69,14 +71,14 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "GetValuesFromAllFields.pdf");
 ```
 
- Здесь мы создаем новый экземпляр`Document` class и передаем путь к нашему PDF-файлу. Эта строка кода загружает PDF в память, делая его готовым к манипуляциям.
+Здесь мы создаем новый экземпляр `Document` class и передаем путь к нашему PDF-файлу. Эта строка кода загружает PDF в память, делая его готовым к манипуляциям.
 
 ## Шаг 3: Доступ к полям формы
 
 Открыв документ, мы теперь можем получить доступ к полям формы. Aspose.PDF позволяет нам легко перебирать все поля в форме PDF.
 
 ```csharp
-//Получить значения из всех полей
+// Получить значения из всех полей
 foreach (Field formField in pdfDocument.Form)
 {
     Console.WriteLine("Field Name : {0} ", formField.PartialName);
@@ -84,7 +86,7 @@ foreach (Field formField in pdfDocument.Form)
 }
 ```
 
- В этом цикле мы просматриваем каждое поле в форме PDF.`PartialName` свойство дает нам имя поля, в то время как`Value` property предоставляет данные, введенные в это поле. Здесь вы увидите результаты своей тяжелой работы!
+В этом цикле мы просматриваем каждое поле в форме PDF. `PartialName` свойство дает нам имя поля, в то время как `Value` property предоставляет данные, введенные в это поле. Здесь вы увидите результаты своей тяжелой работы!
 
 ## Заключение
 
@@ -96,19 +98,21 @@ foreach (Field formField in pdfDocument.Form)
 Aspose.PDF для .NET — это библиотека, которая позволяет разработчикам создавать, изменять и конвертировать PDF-документы в приложениях .NET.
 
 ### Могу ли я использовать Aspose.PDF бесплатно?
- Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для изучения возможностей библиотеки. Вы можете загрузить ее[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для изучения возможностей библиотеки. Вы можете загрузить ее [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти документацию?
- Документацию по Aspose.PDF для .NET можно найти здесь[здесь](https://reference.aspose.com/pdf/net/).
+Документацию по Aspose.PDF для .NET можно найти здесь [здесь](https://reference.aspose.com/pdf/net/).
 
 ### Как приобрести лицензию?
- Вы можете купить лицензию на Aspose.PDF, посетив страницу покупки[здесь](https://purchase.aspose.com/buy).
+Вы можете купить лицензию на Aspose.PDF, посетив страницу покупки [здесь](https://purchase.aspose.com/buy).
 
 ### Что делать, если мне нужна поддержка?
- Если у вас есть вопросы или вам нужна помощь, вы можете посетить форум поддержки Aspose.[здесь](https://forum.aspose.com/c/pdf/10).
+Если у вас есть вопросы или вам нужна помощь, вы можете посетить форум поддержки Aspose. [здесь](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

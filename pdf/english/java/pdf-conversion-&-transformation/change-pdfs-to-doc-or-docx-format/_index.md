@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/change-pdfs-to-doc-or-docx-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change PDFs to DOC or DOCX Format
@@ -89,6 +91,7 @@ You can find the documentation for Aspose.PDF for Java at [here](https://referen
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

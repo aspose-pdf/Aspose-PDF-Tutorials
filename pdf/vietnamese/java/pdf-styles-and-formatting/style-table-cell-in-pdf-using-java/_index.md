@@ -1,14 +1,16 @@
 ---
-title: Định dạng ô bảng trong PDF bằng Java
-linktitle: Định dạng ô bảng trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách định dạng ô bảng trong tài liệu PDF bằng Aspose.PDF cho Java. Nâng cao ứng dụng Java của bạn với hướng dẫn từng bước này về tùy chỉnh PDF.
-weight: 13
-url: /vi/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/
+"description": "Tìm hiểu cách định dạng ô bảng trong tài liệu PDF bằng Aspose.PDF cho Java. Nâng cao ứng dụng Java của bạn với hướng dẫn từng bước này về tùy chỉnh PDF."
+"linktitle": "Định dạng ô bảng trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Định dạng ô bảng trong PDF bằng Java"
+"url": "/vi/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng ô bảng trong PDF bằng Java
@@ -16,7 +18,7 @@ url: /vi/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/
 
 ## Giới thiệu
 
-Trong lĩnh vực phát triển phần mềm, việc tạo và thao tác các tài liệu PDF là một nhiệm vụ phổ biến. Aspose.PDF for Java, một API Java mạnh mẽ, cung cấp cho các nhà phát triển các công cụ họ cần để tạo và chỉnh sửa PDF một cách dễ dàng. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách định dạng các ô bảng trong tài liệu PDF bằng Aspose.PDF for Java.
+Trong lĩnh vực phát triển phần mềm, việc tạo và xử lý tài liệu PDF là một nhiệm vụ phổ biến. Aspose.PDF for Java, một API Java mạnh mẽ, cung cấp cho các nhà phát triển các công cụ họ cần để tạo và chỉnh sửa PDF một cách dễ dàng. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách định dạng các ô bảng trong tài liệu PDF bằng Aspose.PDF for Java.
 
 ## Điều kiện tiên quyết
 
@@ -24,7 +26,7 @@ Trước khi đi sâu vào mã, hãy đảm bảo rằng chúng ta có mọi th�
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
 
--  Aspose.PDF cho Thư viện Java: Tải xuống thư viện từ[đây](https://releases.aspose.com/pdf/java/) nếu bạn chưa làm như vậy.
+- Aspose.PDF cho Thư viện Java: Tải xuống thư viện từ [đây](https://releases.aspose.com/pdf/java/) nếu bạn chưa làm như vậy.
 
 ## Tạo một bảng PDF đơn giản
 
@@ -87,7 +89,7 @@ Trong bài viết này, chúng tôi đã khám phá cách định dạng ô bả
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
-Cài đặt Aspose.PDF cho Java rất đơn giản. Bạn có thể tải xuống thư viện từ trang web Aspose tại[đây](https://releases.aspose.com/pdf/java/).
+Cài đặt Aspose.PDF cho Java rất đơn giản. Bạn có thể tải xuống thư viện từ trang web Aspose tại [đây](https://releases.aspose.com/pdf/java/).
 
 ### Tôi có thể định dạng các khía cạnh khác của PDF bằng Aspose.PDF cho Java không?
 
@@ -99,14 +101,16 @@ Chắc chắn rồi! Aspose.PDF for Java là giải pháp đa năng và mạnh m
 
 ### Có bất kỳ cân nhắc nào về cấp phép khi sử dụng Aspose.PDF cho Java không?
 
-Có, Aspose.PDF for Java là sản phẩm thương mại. Bạn có thể cần phải có giấy phép tùy thuộc vào cách sử dụng của bạn. Tham khảo trang web Aspose để biết chi tiết về giấy phép.
+Có, Aspose.PDF for Java là sản phẩm thương mại. Bạn có thể cần phải có giấy phép tùy thuộc vào cách sử dụng của bạn. Tham khảo trang web Aspose để biết thông tin chi tiết về giấy phép.
 
 ### Tôi có thể tìm thêm hướng dẫn và tài nguyên về Aspose.PDF cho Java ở đâu?
 
- Để biết hướng dẫn và tài liệu toàn diện, hãy truy cập tài liệu Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Để có hướng dẫn và tài liệu toàn diện, hãy truy cập tài liệu Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

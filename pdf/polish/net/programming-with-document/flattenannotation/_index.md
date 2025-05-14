@@ -1,30 +1,32 @@
 ---
-title: Spłaszcz adnotację w pliku PDF
-linktitle: Spłaszcz adnotację w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak spłaszczyć adnotacje w pliku PDF za pomocą Aspose.PDF dla .NET w tym przewodniku. Uprość proces zarządzania plikami PDF dzięki naszemu szczegółowemu samouczkowi.
-weight: 150
-url: /pl/net/programming-with-document/flattenannotation/
+"description": "Dowiedz się, jak spłaszczyć adnotacje w pliku PDF za pomocą Aspose.PDF dla .NET w tym przewodniku. Uprość proces zarządzania plikami PDF dzięki naszemu szczegółowemu samouczkowi."
+"linktitle": "Spłaszcz adnotację w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Spłaszcz adnotację w pliku PDF"
+"url": "/pl/net/programming-with-document/flattenannotation/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Spłaszcz adnotację w pliku PDF
 
 ## Wstęp
 
-W świecie przetwarzania plików PDF praca z adnotacjami może być nie lada wyzwaniem, zwłaszcza gdy trzeba je spłaszczyć, aby utworzyć statyczny, nieedytowalny dokument. W tym miejscu przydaje się Aspose.PDF dla .NET! Ten samouczek przeprowadzi Cię przez proces spłaszczania adnotacji w pliku PDF przy użyciu Aspose.PDF dla .NET. Przeprowadzimy Cię przez każdy krok szczegółowo, tak abyś pod koniec tego przewodnika był gotowy do obsługi adnotacji PDF jak profesjonalista.
+świecie przetwarzania plików PDF praca z adnotacjami może być nie lada wyzwaniem, zwłaszcza gdy trzeba je spłaszczyć, aby utworzyć statyczny, nieedytowalny dokument. W tym miejscu przydaje się Aspose.PDF dla .NET! Ten samouczek przeprowadzi Cię przez proces spłaszczania adnotacji w pliku PDF przy użyciu Aspose.PDF dla .NET. Przeprowadzimy Cię przez każdy krok szczegółowo, tak abyś pod koniec tego przewodnika był gotowy do obsługi adnotacji PDF jak profesjonalista.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy spłaszczać adnotacje w plikach PDF, musisz zadbać o kilka rzeczy:
 
--  Aspose.PDF dla biblioteki .NET: Najnowszą wersję biblioteki można pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla biblioteki .NET: Najnowszą wersję biblioteki można pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/net/).
 - Środowisko programistyczne: Upewnij się, że masz zainstalowane środowisko IDE, np. Visual Studio.
 - .NET Framework: Ten samouczek jest przeznaczony dla platformy .NET, dlatego upewnij się, że masz zainstalowaną kompatybilną wersję.
-- Dostęp tymczasowy lub licencjonowany: W tym samouczku możesz użyć tymczasowej licencji z[Tutaj](https://purchase.aspose.com/temporary-license/) lub wybierz pełną licencję na[ten link](https://purchase.aspose.com/buy).
+- Dostęp tymczasowy lub licencjonowany: W tym samouczku możesz użyć tymczasowej licencji z [Tutaj](https://purchase.aspose.com/temporary-license/) lub wybierz pełną licencję na [ten link](https://purchase.aspose.com/buy).
 
 ## Importuj przestrzenie nazw
 
@@ -45,7 +47,7 @@ Pierwszą rzeczą, którą musimy zrobić, jest określenie ścieżki, w której
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tutaj,`"YOUR DOCUMENT DIRECTORY"` odnosi się do rzeczywistej ścieżki, którą podążasz`OptimizeDocument.pdf` jest przechowywany. Możesz ustawić to w dowolnej lokalizacji na swoim komputerze. Definiując`dataDir`upewniamy się, że nasz program wie, gdzie szukać pliku PDF i gdzie zapisać zaktualizowany plik. 
+Tutaj, `"YOUR DOCUMENT DIRECTORY"` odnosi się do rzeczywistej ścieżki, którą podążasz `OptimizeDocument.pdf` jest przechowywany. Możesz ustawić to w dowolnej lokalizacji na swoim komputerze. Definiując `dataDir`, upewniamy się, że nasz program wie, gdzie szukać pliku PDF i gdzie zapisać zaktualizowany plik. 
 
 ## Krok 2: Załaduj dokument PDF
 
@@ -55,9 +57,9 @@ Teraz, gdy mamy już ustawiony katalog dokumentów, następnym krokiem jest zał
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
- Ten`Document` Klasa dostarczana przez Aspose.PDF pozwala nam otwierać i pracować z plikami PDF. W tym wierszu kodu ładujemy`OptimizeDocument.pdf` plik z określonego katalogu (`dataDir` ). Możesz zastąpić`"OptimizeDocument.pdf"` z nazwą dowolnego pliku PDF, który chcesz przetworzyć.
+Ten `Document` Klasa dostarczana przez Aspose.PDF pozwala nam otwierać i pracować z plikami PDF. W tym wierszu kodu ładujemy `OptimizeDocument.pdf` plik z określonego katalogu (`dataDir`). Możesz zastąpić `"OptimizeDocument.pdf"` z nazwą dowolnego pliku PDF, który chcesz przetworzyć.
 
-## Krok 3: Iteruj po stronach PDF
+## Krok 3: Przejrzyj strony PDF
 
 Po załadowaniu dokumentu następnym krokiem jest pętla po wszystkich stronach pliku PDF. Każda strona w pliku PDF może zawierać wiele adnotacji, więc musimy je przetwarzać strona po stronie.
 
@@ -68,7 +70,7 @@ foreach (var page in pdfDocument.Pages)
 }
 ```
 
- Tutaj używamy`foreach` pętla do iteracji przez`Pages` kolekcja w dokumencie PDF. Każda strona zawiera kolekcję adnotacji, do których uzyskamy dostęp w następnym kroku.
+Tutaj używamy `foreach` pętla do iteracji przez `Pages` kolekcja w dokumencie PDF. Każda strona zawiera kolekcję adnotacji, do których uzyskamy dostęp w następnym kroku.
 
 ## Krok 4: Spłaszcz adnotacje
 
@@ -81,7 +83,7 @@ foreach (var annotation in page.Annotations)
 }
 ```
 
- Dla każdej strony powtarzamy jej adnotacje, korzystając z innej`foreach` pętla.`Flatten()` metoda`annotation` obiekt jest wywoływany w celu przekształcenia interaktywnych adnotacji w treść statyczną, co w efekcie je „spłaszcza”.
+Dla każdej strony powtarzamy jej adnotacje, korzystając z innej `foreach` pętla. `Flatten()` metoda `annotation` obiekt jest wywoływany w celu przekształcenia interaktywnych adnotacji w treść statyczną, co w efekcie je „spłaszcza”.
 
 ## Krok 5: Zapisz zaktualizowany plik PDF
 
@@ -91,11 +93,11 @@ Gdy wszystkie adnotacje zostaną już spłaszczone na wszystkich stronach, ostat
 pdfDocument.Save(dataDir + "OptimizeDocument_out.pdf");
 ```
 
- Tutaj używamy`Save` metoda`pdfDocument` obiekt do przechowywania zaktualizowanego pliku PDF z powrotem w systemie plików. Zmodyfikowany plik jest zapisywany jako`OptimizeDocument_out.pdf` w tym samym katalogu (`dataDir`). W razie potrzeby możesz zmienić nazwę pliku wyjściowego.
+Tutaj używamy `Save` metoda `pdfDocument` obiekt do przechowywania zaktualizowanego pliku PDF z powrotem w systemie plików. Zmodyfikowany plik jest zapisywany jako `OptimizeDocument_out.pdf` w tym samym katalogu (`dataDir`). W razie potrzeby możesz zmienić nazwę pliku wyjściowego.
 
 ## Krok 6: Przekaż użytkownikowi opinię
 
-Zawsze dobrze jest dać znać użytkownikowi, że operacja się powiodła. Oto prosty komunikat konsoli, aby potwierdzić, że adnotacje zostały pomyślnie spłaszczone:
+Zawsze dobrze jest poinformować użytkownika, że operacja się powiodła. Oto prosty komunikat konsoli, aby potwierdzić, że adnotacje zostały pomyślnie spłaszczone:
 
 ```csharp
 Console.WriteLine("\nFlattened annotations successfully.\nFile saved at " + dataDir);
@@ -119,13 +121,15 @@ Tak, można selektywnie spłaszczać adnotacje, wybierając określone typy adno
 Nie, spłaszczanie dotyczy tylko adnotacji. Reszta dokumentu pozostaje niezmieniona.
 
 ### Jak mogę otrzymać bezpłatną wersję próbną Aspose.PDF dla platformy .NET?
- Możesz otrzymać bezpłatną wersję próbną, odwiedzając stronę[Tutaj](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną, odwiedzając stronę [Tutaj](https://releases.aspose.com/).
 
 ### Czy mogę przywrócić spłaszczonym adnotacjom formę interaktywną?
-Nie. Po spłaszczeniu adnotacji stają się one częścią treści statycznej i nie można ich przywrócić do formy interaktywnej.
+Nie, po spłaszczeniu adnotacji stają się one częścią treści statycznej i nie można ich przywrócić do formy interaktywnej.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

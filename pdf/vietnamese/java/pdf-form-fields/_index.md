@@ -1,14 +1,16 @@
 ---
-title: Các trường biểu mẫu PDF
-linktitle: Các trường biểu mẫu PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Học cách tạo biểu mẫu PDF tương tác với Aspose.PDF cho Java. Hướng dẫn toàn diện để thao tác trường biểu mẫu hiệu quả.
-weight: 11
-url: /vi/java/pdf-form-fields/
+"description": "Học cách tạo biểu mẫu PDF tương tác với Aspose.PDF cho Java. Hướng dẫn toàn diện để thao tác trường biểu mẫu hiệu quả."
+"linktitle": "Các trường biểu mẫu PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Các trường biểu mẫu PDF"
+"url": "/vi/java/pdf-form-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các trường biểu mẫu PDF
@@ -18,7 +20,7 @@ Biểu mẫu PDF là công cụ thiết yếu để thu thập và xử lý dữ
 
 ## Làm chủ các trường biểu mẫu PDF
 
-Hướng dẫn của chúng tôi bắt đầu bằng nền tảng vững chắc về các trường biểu mẫu PDF. Bạn sẽ học cách tạo nhiều loại trường biểu mẫu, thiết lập thuộc tính của chúng và đảm bảo căn chỉnh phù hợp trong tài liệu PDF của bạn. Cho dù bạn cần các trường nhập văn bản đơn giản hay hộp kiểm cho các câu hỏi trắc nghiệm, bạn sẽ có được các kỹ năng để triển khai chúng một cách liền mạch.
+Hướng dẫn của chúng tôi bắt đầu bằng nền tảng vững chắc về các trường biểu mẫu PDF. Bạn sẽ học cách tạo nhiều loại trường biểu mẫu khác nhau, thiết lập thuộc tính của chúng và đảm bảo căn chỉnh phù hợp trong tài liệu PDF của bạn. Cho dù bạn cần các trường nhập văn bản đơn giản hay hộp kiểm cho các câu hỏi trắc nghiệm, bạn sẽ có được các kỹ năng để triển khai chúng một cách liền mạch.
 
 ## Các tính năng của trường biểu mẫu nâng cao
 
@@ -44,14 +46,16 @@ Tìm hiểu cách thêm tem văn bản vào tệp PDF bằng Java với Aspose.P
 ### [Thêm Dấu Số Trang vào PDF bằng Java](./add-page-number-stamp-in-pdf-using-java/)
 Tìm hiểu cách dễ dàng thêm dấu số trang vào tài liệu PDF bằng Java với Aspose.PDF for Java. Cải thiện PDF của bạn bằng số trang có thể tùy chỉnh.
 ### [Kiểm soát chất lượng hình ảnh khi thêm tem hình ảnh vào PDF bằng Java](./control-image-quality-when-adding-image-stamp-in-pdf-using-java/)
-Tìm hiểu cách kiểm soát chất lượng hình ảnh khi thêm tem hình ảnh vào PDF bằng Java với hướng dẫn từng bước.
+Tìm hiểu cách kiểm soát chất lượng hình ảnh khi thêm tem hình ảnh vào tệp PDF bằng Java với hướng dẫn từng bước.
 ### [Xác định căn chỉnh cho đối tượng Text Stamp trong PDF bằng Java](./define-alignment-for-text-stamp-object-in-pdf-using-java/)
 Tìm hiểu cách căn chỉnh chính xác các đối tượng đóng dấu văn bản trong PDF bằng Java với Aspose.PDF cho Java. Cải thiện giao diện và khả năng đọc của tài liệu.
 ### [Trích xuất văn bản từ chú thích tem trong PDF bằng Java](./extract-text-from-stamp-annotation-in-pdf-using-java/)
 Tìm hiểu cách trích xuất văn bản từ Stamp Annotations trong PDF bằng Java với hướng dẫn toàn diện này. Sử dụng Aspose.PDF cho Java để xử lý tài liệu PDF hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

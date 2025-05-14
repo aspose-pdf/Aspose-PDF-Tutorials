@@ -1,14 +1,16 @@
 ---
-title: ส่งออก XML ไปยังเอกสาร PDF
-linktitle: ส่งออก XML ไปยังเอกสาร PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: แปลง XML เป็น PDF ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java ปรับปรุงการแสดงข้อมูลและการแชร์ข้อมูล เรียนรู้วิธีการในคู่มือฉบับสมบูรณ์นี้
-weight: 26
-url: /th/java/pdf-conversion-transformation/export-xml-to-pdf-documents/
+"description": "แปลง XML เป็น PDF ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java ปรับปรุงการแสดงข้อมูลและการแชร์ข้อมูล เรียนรู้วิธีการในคู่มือฉบับสมบูรณ์นี้"
+"linktitle": "ส่งออก XML ไปยังเอกสาร PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ส่งออก XML ไปยังเอกสาร PDF"
+"url": "/th/java/pdf-conversion-transformation/export-xml-to-pdf-documents/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ส่งออก XML ไปยังเอกสาร PDF
@@ -23,7 +25,7 @@ url: /th/java/pdf-conversion-transformation/export-xml-to-pdf-documents/
 ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK ไว้ในระบบของคุณแล้ว
--  Aspose.PDF สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.PDF สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.PDF สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การตั้งค่าโครงการของคุณ
 
@@ -54,11 +56,11 @@ page.getParagraphs().add(textFragment);
 doc.save("output.pdf");
 ```
 
- ในตัวอย่างโค้ดนี้ เราจะสร้างโค้ดใหม่ก่อน`Document` วัตถุและเพิ่มหน้าเข้าไป จากนั้นเราสร้าง`TextFragment` ซึ่งมีข้อมูล XML ของคุณและเพิ่มลงในเพจ สุดท้าย เราจะบันทึกเอกสารเป็นไฟล์ PDF ชื่อ "output.pdf"
+ในตัวอย่างโค้ดนี้ เราจะสร้างโค้ดใหม่ก่อน `Document` วัตถุและเพิ่มหน้าเข้าไป จากนั้นเราสร้าง `TextFragment` ซึ่งมีข้อมูล XML ของคุณและเพิ่มลงในเพจ สุดท้าย เราจะบันทึกเอกสารเป็นไฟล์ PDF ชื่อ "output.pdf"
 
 ## การปรับแต่งการแปลง
 
- คุณสามารถปรับแต่งการแปลง PDF ให้ตรงตามความต้องการเฉพาะของคุณได้ ตัวอย่างเช่น คุณสามารถตั้งค่าขนาดหน้า ขอบ แบบอักษร และอื่นๆ อีกมากมาย Aspose.PDF สำหรับ Java มีเอกสารประกอบที่ครอบคลุมเพื่อช่วยให้คุณปรับแต่งกระบวนการแปลงตามความต้องการของคุณได้ คุณสามารถค้นหาเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถปรับแต่งการแปลง PDF ให้ตรงตามความต้องการเฉพาะของคุณได้ ตัวอย่างเช่น คุณสามารถตั้งค่าขนาดหน้า ขอบ แบบอักษร และอื่นๆ อีกมากมาย Aspose.PDF สำหรับ Java มีเอกสารประกอบที่ครอบคลุมเพื่อช่วยให้คุณปรับแต่งกระบวนการแปลงตามความต้องการของคุณได้ คุณสามารถค้นหาเอกสารประกอบได้ [ที่นี่](https://reference-aspose.com/pdf/java/).
 
 ## บทสรุป
 
@@ -68,7 +70,7 @@ doc.save("output.pdf");
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- หากต้องการติดตั้ง Aspose.PDF สำหรับ Java โปรดไปที่เว็บไซต์[ที่นี่](https://releases.aspose.com/pdf/java/) และดาวน์โหลดไลบรารี ปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสารประกอบ
+หากต้องการติดตั้ง Aspose.PDF สำหรับ Java โปรดไปที่เว็บไซต์ [ที่นี่](https://releases.aspose.com/pdf/java/) และดาวน์โหลดไลบรารี ปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสารประกอบ
 
 ### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของเอกสาร PDF ได้หรือไม่
 
@@ -85,9 +87,11 @@ doc.save("output.pdf");
 ### ฉันสามารถแปลงไฟล์ XML ที่มีโครงสร้างซับซ้อนเป็น PDF ได้หรือไม่
 
 แน่นอน! Aspose.PDF สำหรับ Java สามารถจัดการไฟล์ XML ที่มีโครงสร้างที่ซับซ้อนได้ คุณสามารถแมปองค์ประกอบ XML กับองค์ประกอบ PDF และสร้างเค้าโครง PDF ที่กำหนดเองได้สูง
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

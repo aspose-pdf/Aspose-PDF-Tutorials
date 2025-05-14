@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add and Change Images in PDFs Using Aspose.PDF for Java: A Comprehensive Guide
 
@@ -179,7 +181,11 @@ Ready to take the next step? Implement these solutions in your projects today an
 - [Free Trial Access](https://releases.aspose.com/pdf/java/)
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

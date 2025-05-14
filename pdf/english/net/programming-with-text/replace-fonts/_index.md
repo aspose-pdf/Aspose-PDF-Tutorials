@@ -8,7 +8,9 @@ url: /net/programming-with-text/replace-fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replace Fonts In PDF File
@@ -146,6 +148,7 @@ You can check out the [support forum](https://forum.aspose.com/c/pdf/10) for ass
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

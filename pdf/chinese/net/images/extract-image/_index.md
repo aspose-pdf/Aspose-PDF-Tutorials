@@ -1,50 +1,56 @@
 ---
-title: 在C#中从PDF中提取图像,使用Aspose.PDF
-weight: 7700
-limit: 
-description: 学习如何从PDF中提取图像并将其保存为JPEG文件,使用Aspose.PDF用于.NET. 步骤指南,带有代码示例. 
-keywords: [Extract images from PDF C#, Aspose.PDF for .NET image extraction, Save PDF images as JPEG, C# PDF image processing, Extract images from PDF Aspose]
-url: /zh/net/images/extract-image/
+"description": "学习如何使用 Aspose.PDF for .NET 从 PDF 中提取图像，并在 C# 中将其保存为 JPEG 文件。包含代码示例的分步指南。"
+"title": "使用 Aspose.PDF for .NET 在 C# 中从 PDF 中提取图像"
+"url": "/zh/net/images/extract-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用Aspose.PDF从C#中提取PDF中的图像
+# 使用 Aspose.PDF 在 C# 中从 PDF 中提取图像
  
-摘取图像从PDF文档是许多应用程序的常见要求,无论是用于存档,处理还是共享.[对于.NET,使用Aspose.PDF](https://docs.aspose.com/pdf/net/)您可以轻松从PDF中提取图像并将其保存到JPEG等各种格式. 本教程提供了使用C#从PDF中提取图像的简单,步骤指南.您将学习如何打开PDF,检索图像,保存它们,并更新原始PDF文档. 按照示例代码无集成此功能到您的.NET应用程序中.
+从 PDF 文档中提取图像是许多应用程序的常见要求，无论是用于存档、处理还是共享。使用 [Aspose.PDF for .NET](https://docs.aspose.com/pdf/net/)，您可以轻松地从 PDF 中提取图像并将其保存为 JPEG 等各种格式。本教程提供了使用 C# 从 PDF 中提取图像的简单分步指南。您将学习如何打开 PDF、检索图像、保存图像以及更新原始 PDF 文档。按照示例代码操作，将此功能无缝集成到您的 .NET 应用程序中。
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/extract-image/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 装配说明:  
+## 安装说明：  
 
-为了在C#项目中使用Aspose.PDF为.NET,请按照以下步骤:  
+要在 C# 项目中使用 Aspose.PDF for .NET，请按照以下步骤操作：  
 
-1. 通过NuGet包管理器安装:  
-* 打开视觉工作室.  
-* 进入工具> 云端包管理器> 管理云端包解决方案.  
-* 搜索Aspose.PDF并安装它.  
-* 或,在包管理器控制台中运行下面命令:  
+1. 通过 NuGet 包管理器安装：  
+- 打开 Visual Studio。  
+- 转到工具>NuGet 包管理器>管理解决方案的 NuGet 包。  
+- 搜索 Aspose.PDF 并安装它。  
+- 或者，在程序包管理器控制台中运行以下命令：  
 
   ```powershell
   Install-Package Aspose.PDF
   ```
 
-2. 通过DLL安装 下载:  
-* 下载最新版本[对于.NET 下载,请使用Aspose.PDF](https://releases.aspose.com/pdf/net/)现在我们要做什么?  
-* 提取下载的包.  
-* 在您的.NET 项目中添加一个引用"Aspose.PDF.dll".  
+2. 通过 DLL 下载安装：  
+- 从下载最新版本 [Aspose.PDF for .NET下载](https://releases。aspose.com/pdf/net/).  
+- 解压下载的包。  
+- 在您的 .NET 项目中添加对 Aspose.PDF.dll 的引用。  
 
-3. 申请许可证 (可选):  
-* 你可以得到一个[免费临时许可证](https://purchase.aspose.com/temporary-license/)为了实现完整的功能.  
+3. 申请许可证（可选）：  
+- 您可以获得 [免费临时驾照](https://purchase.aspose.com/temporary-license/) 以实现全部功能。  
 
-## 详细的API参考
-[对于.NET API 文档,使用Aspose.PDF](https://reference.aspose.com/pdf/net/)现在我们要做什么?
+## 详细的 API 参考
+[Aspose.PDF for .NET API 文档](https://reference。aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

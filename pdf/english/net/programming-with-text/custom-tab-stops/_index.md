@@ -8,7 +8,9 @@ url: /net/programming-with-text/custom-tab-stops/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Custom Tab Stops In PDF File
@@ -171,6 +173,7 @@ Yes, you can define the exact pixel position for each tab stop to suit your layo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

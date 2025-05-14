@@ -1,36 +1,38 @@
 ---
-title: Strichtext in PDF-Datei füllen
-linktitle: Strichtext in PDF-Datei füllen
-second_title: Aspose.PDF für .NET API-Referenz
-description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung voller praktischer Beispiele, wie Sie mit Aspose.PDF für .NET mühelos Strichtext in PDF-Dateien füllen.
-weight: 90
-url: /de/net/programming-with-stamps-and-watermarks/fill-stroke-text/
+"description": "Erfahren Sie in dieser Schritt-für-Schritt-Anleitung voller praktischer Beispiele, wie Sie mit Aspose.PDF für .NET mühelos Strichtext in PDF-Dateien einfügen."
+"linktitle": "Strichtext in PDF-Datei füllen"
+"second_title": "Aspose.PDF für .NET API-Referenz"
+"title": "Strichtext in PDF-Datei füllen"
+"url": "/de/net/programming-with-stamps-and-watermarks/fill-stroke-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Strichtext in PDF-Datei füllen
 
 ## Einführung
 
-Wollten Sie schon einmal eine PDF-Datei ändern, um sie hervorzuheben? Vielleicht möchten Sie ein auffälliges Wasserzeichen oder einen auffälligen Stempel hinzufügen, der ein wichtiges Dokument unverkennbar von Ihnen abhebt. Mit Aspose.PDF für .NET können Sie Strichtext in einer PDF-Datei ganz einfach ausfüllen und so künstlerisches Flair hinzufügen, das ins Auge fällt. Im heutigen Tutorial führen wir Sie durch den Vorgang, genau das zu tun – das Ausfüllen von Strichtext in einer PDF-Datei mit C#. Am Ende haben Sie ein solides Verständnis dafür, wie Sie PDF-Dateien wie ein Profi bearbeiten.
+Wollten Sie schon immer eine PDF-Datei anpassen, um sie hervorzuheben? Vielleicht möchten Sie ein auffälliges Wasserzeichen oder einen auffälligen Stempel hinzufügen, der ein wichtiges Dokument unverwechselbar macht. Mit Aspose.PDF für .NET können Sie Strichtext in einer PDF-Datei ganz einfach füllen und so einen künstlerischen Akzent setzen, der ins Auge fällt. Im heutigen Tutorial zeigen wir Ihnen, wie Sie Strichtext in einer PDF-Datei mit C# füllen. Am Ende haben Sie ein solides Verständnis dafür, wie Sie PDF-Dateien wie ein Profi bearbeiten.
 
 ## Voraussetzungen
 
-Bevor wir uns in die Codierung stürzen, müssen Sie ein paar Dinge vorbereitet haben, damit dieses Tutorial ein Kinderspiel wird:
+Bevor wir uns in die Codierung stürzen, müssen Sie einige Dinge vorbereitet haben, damit dieses Tutorial ein Kinderspiel wird:
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist, da wir C#-Code schreiben werden.
-2.  Aspose.PDF-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.PDF-Bibliothek für .NET heruntergeladen haben. Sie können sie herunterladen[Hier](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF Bibliothek: Stellen Sie sicher, dass Sie die Aspose.PDF für .NET Bibliothek heruntergeladen haben. Sie können es greifen [Hier](https://releases.aspose.com/pdf/net/).
 3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, können Sie das Tutorial leichter verstehen.
-4. Beispiel-PDF-Datei: Sie benötigen eine Beispiel-PDF-Datei (`input.pdf`zu Testzwecken. Sie können eine einfache erstellen oder eine vorhandene PDF-Datei verwenden.
+4. Beispiel-PDF-Datei: Sie benötigen eine Beispiel-PDF-Datei (`input.pdf`) zu Testzwecken. Sie können eine einfache Datei erstellen oder eine vorhandene PDF-Datei verwenden.
 
-Nachdem wir nun alles vorbereitet haben, können wir uns an die Details des Ausfüllens von Strichtext in Ihrer PDF-Datei machen.
+Nachdem wir nun alles vorbereitet haben, können wir uns an die Einzelheiten des Ausfüllens des Strichtexts in Ihrer PDF-Datei machen.
 
 ## Pakete importieren
 
-Zu Beginn müssen wir die erforderlichen Pakete importieren. Hier ist ein kurzer Überblick über die wesentlichen Importe für unser Projekt:
+Zunächst müssen wir die notwendigen Pakete importieren. Hier ist eine kurze Übersicht über die wichtigsten Importe für unser Projekt:
 
 ```csharp
 using Aspose.Pdf.Text;
@@ -40,40 +42,40 @@ using System.Linq;
 using System.Text;
 ```
 
-Diese Pakete ermöglichen uns, die robusten Funktionen der Aspose.PDF-Bibliothek zu nutzen.
+Diese Pakete ermöglichen uns die Nutzung der robusten Funktionen der Aspose.PDF-Bibliothek.
 
-Lassen Sie uns die Hauptaufgabe in klare Schritte unterteilen. Wenn Sie diese Schritte befolgen, können Sie Strichtext ganz einfach in Ihre PDF-Dateien einfügen. 
+Lassen Sie uns die Hauptaufgabe in klare Schritte unterteilen. Wenn Sie diese Schritte befolgen, können Sie Ihre PDF-Dateien ganz einfach mit Strichtext füllen. 
 
 ## Schritt 1: Richten Sie Ihre Umgebung ein
 
-Stellen Sie zunächst sicher, dass in Ihrem Visual Studio-Projekt alles richtig eingerichtet ist. Erstellen Sie ein neues Projekt oder wählen Sie ein vorhandenes aus. Wenn Sie Hilfe benötigen, gehen Sie wie folgt vor:
+Stellen Sie zunächst sicher, dass in Ihrem Visual Studio-Projekt alles korrekt eingerichtet ist. Erstellen Sie ein neues Projekt oder wählen Sie ein vorhandenes aus. Wenn Sie Hilfe benötigen, gehen Sie wie folgt vor:
 
 1. Öffnen Sie Visual Studio.
 2. Erstellen Sie ein neues C#-Projekt (z. B. eine Konsolenanwendung).
 3. Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf das Projekt und wählen Sie „NuGet-Pakete verwalten“ aus.
-4.  Suchen nach`Aspose.PDF` und installieren Sie es.
+4. Suchen nach `Aspose.PDF` und installieren Sie es.
 
 ## Schritt 2: Definieren Sie Ihr Dokumentverzeichnis
 
-Jede Reise braucht einen Ausgangspunkt, und in unserem Fall ist das das Dokumentenverzeichnis, in dem die Eingabe- und Ausgabedateien gespeichert werden. 
+Jede Reise braucht einen Ausgangspunkt, und in unserem Fall ist dies das Dokumentenverzeichnis, in dem die Eingabe- und Ausgabedateien gespeichert werden. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ersetzen`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad, in dem sich Ihre Eingabe-PDF-Datei befindet. 
+Ersetzen `"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad, in dem sich Ihre Eingabe-PDF-Datei befindet. 
 
-## Schritt 3: Erstellen des TextState-Objekts
+## Schritt 3: Erstellen Sie das TextState-Objekt
 
-In diesem Schritt beginnen Sie, die Eigenschaften des Textes zu definieren, den Sie hinzufügen möchten. 
+In diesem Schritt beginnen Sie mit der Definition der Eigenschaften des Textes, den Sie hinzufügen möchten. 
 
 ```csharp
 TextState ts = new TextState();
 ```
 
- Der`TextState` Das Objekt enthält die Stiloptionen für Ihren Strichtext.
+Der `TextState` Das Objekt enthält die Stiloptionen für Ihren Strichtext.
 
-## Schritt 4: Farbe für Strich festlegen
+## Schritt 4: Legen Sie die Farbe für den Strich fest
 
 Als Nächstes möchten Sie die Strichfarbe für Ihren Text definieren. 
 
@@ -81,7 +83,7 @@ Als Nächstes möchten Sie die Strichfarbe für Ihren Text definieren.
 ts.StrokingColor = Color.Gray;
 ```
 
-In diesem Code verwenden wir für den Strich eine graue Farbe. Sie können die Farbe gerne nach Bedarf ändern!
+In diesem Code verwenden wir Grau für den Strich. Sie können die Farbe gerne Ihren Wünschen entsprechend ändern!
 
 ## Schritt 5: Rendering-Modus konfigurieren
 
@@ -101,7 +103,7 @@ Jetzt ist es an der Zeit, die PDF-Datei zu laden, die Sie ändern möchten.
 Facades.PdfFileStamp fileStamp = new Facades.PdfFileStamp(new Aspose.Pdf.Document(dataDir + "input.pdf"));
 ```
 
-Stellen Sie sicher, dass Ihr Eingabe-PDF (`input.pdf`befindet sich im Dokumentverzeichnis, das in früheren Schritten definiert wurde.
+Stellen Sie sicher, dass Ihr Eingabe-PDF (`input.pdf`) befindet sich im in den vorherigen Schritten definierten Dokumentenverzeichnis.
 
 ## Schritt 7: Erstellen Sie ein Stempelobjekt
 
@@ -121,17 +123,17 @@ Sie müssen angeben, welchen Text Sie der PDF-Datei hinzufügen möchten:
 stamp.BindLogo(new Facades.FormattedText("PAID IN FULL", System.Drawing.Color.Gray, "Arial", Facades.EncodingType.Winansi, true, 78));
 ```
 
-Hier fügen wir den Text „VOLLSTÄNDIG BEZAHLT“ zusammen mit seinen Stilattributen hinzu. Passen Sie ihn Ihren Anforderungen entsprechend an!
+Hier fügen wir den Text „VOLLSTÄNDIG BEZAHLT“ zusammen mit den entsprechenden Stilattributen hinzu. Passen Sie ihn Ihren Anforderungen entsprechend an!
 
-## Schritt 9: Den Textstatus binden
+## Schritt 9: Binden Sie den Textstatus
 
- Binden Sie nun die`TextState` den Sie zuvor für den Stempel definiert haben. 
+Binden Sie nun die `TextState` Sie haben zuvor den Stempel definiert. 
 
 ```csharp
 stamp.BindTextState(ts);
 ```
 
-Dieser Schritt wendet alle Stile wie Farbe und Wiedergabemodus auf Ihren Text an.
+In diesem Schritt werden alle Stile wie Farbe und Rendering-Modus auf Ihren Text angewendet.
 
 ## Schritt 10: Position des Stempels festlegen
 
@@ -141,11 +143,11 @@ Bestimmen Sie, wo Ihr Stempel in der PDF-Datei erscheinen soll:
 stamp.SetOrigin(100, 100);
 ```
 
- Die Argumente`(100, 100)` geben die X- und Y-Koordinaten (in Punkten) für den Ursprung des Textes an. Passen Sie diese Werte an, um Ihren Text perfekt zu positionieren!
+Die Argumente `(100, 100)` Geben Sie die X- und Y-Koordinaten (in Punkten) für den Ursprung des Textes an. Passen Sie diese Werte an, um Ihren Text optimal zu positionieren!
 
 ## Schritt 11: Opazität und Rotation konfigurieren
 
-Hier können Sie mit dem Erscheinungsbild Ihres Textes experimentieren:
+Hier können Sie mit der Darstellung Ihres Textes experimentieren:
 
 ```csharp
 stamp.Opacity = 5;
@@ -153,11 +155,11 @@ stamp.BlendingSpace = Facades.BlendingColorSpace.DeviceRGB;
 stamp.Rotation = 45.0F;
 ```
 
-In diesem Fall verleihen ein Deckkraftwert und ein Drehwinkel von 45 Grad Ihrem Text eine einzigartige Note. Sie können diese Einstellungen gerne ändern, um verschiedene Effekte zu erzielen.
+In diesem Fall verleihen ein Deckkraftwert und ein Drehwinkel von 45 Grad Ihrem Text eine einzigartige Note. Sie können diese Einstellungen gerne für verschiedene Effekte anpassen.
 
 ## Schritt 12: Stempel zum PDF hinzufügen
 
-Dies ist der entscheidende Schritt, bei dem wir abschließend unseren Stempel, der den Strichtext enthält, zum PDF hinzufügen:
+Dies ist der entscheidende Schritt, in dem wir schließlich unseren Stempel, der den Strichtext enthält, zum PDF hinzufügen:
 
 ```csharp
 fileStamp.AddStamp(stamp);
@@ -174,31 +176,33 @@ fileStamp.Save(dataDir + "output_out.pdf");
 fileStamp.Close();
 ```
 
- Ihre neu geänderte PDF-Datei mit dem Strichtext wird gespeichert als`output_out.pdf` in Ihrem Dokumentverzeichnis. 
+Ihre neu geänderte PDF-Datei mit dem Strichtext wird gespeichert als `output_out.pdf` in Ihrem Dokumentverzeichnis. 
 
 ## Abschluss
 
-Und da haben Sie es! Indem Sie diese einfachen Schritte befolgen, können Sie mit Aspose.PDF für .NET ganz einfach Strichtext in eine PDF-Datei einfügen. Ob für Geschäftsdokumente oder persönliche Projekte, mit dieser Technik können Sie Ihren PDFs eine einzigartige Note verleihen, sodass sie in jedem Papierstapel hervorstechen.
+Und da haben Sie es! Mit diesen einfachen Schritten können Sie mit Aspose.PDF für .NET ganz einfach Strichtext in eine PDF-Datei einfügen. Ob für Geschäftsdokumente oder private Projekte – mit dieser Technik verleihen Sie Ihren PDFs eine einzigartige Note und lassen sie in jedem Papierstapel hervorstechen.
 
 ## Häufig gestellte Fragen
 
 ### Was ist Aspose.PDF für .NET?
-Aspose.PDF für .NET ist eine Bibliothek, mit der Entwickler PDF-Dateien programmgesteuert erstellen, bearbeiten und konvertieren können.
+Aspose.PDF für .NET ist eine Bibliothek, die es Entwicklern ermöglicht, PDF-Dateien programmgesteuert zu erstellen, zu bearbeiten und zu konvertieren.
 
 ### Kann ich Aspose.PDF kostenlos nutzen?
-Ja, Aspose bietet eine kostenlose Testversion an. Sie können es bekommen[Hier](https://releases.aspose.com/).
+Ja, Aspose bietet eine kostenlose Testversion an. Sie können es bekommen [Hier](https://releases.aspose.com/).
 
 ### Muss ich für eine Lizenz bezahlen?
- Während die Bibliothek eine kostenlose Testversion bietet, kann eine temporäre Lizenz auch erworben werden unter[dieser Link](https://purchase.aspose.com/temporary-license/).
+Während die Bibliothek eine kostenlose Testversion anbietet, kann eine temporäre Lizenz auch erworben werden bei [dieser Link](https://purchase.aspose.com/temporary-license/).
 
 ### Wo finde ich die Dokumentation?
- Sie können auf die vollständige Dokumentation zugreifen[Hier](https://reference.aspose.com/pdf/net/).
+Sie können auf die vollständige Dokumentation zugreifen [Hier](https://reference.aspose.com/pdf/net/).
 
 ### Gibt es Support, wenn ich auf Probleme stoße?
- Auf jeden Fall! Sie können Unterstützung im Aspose-Forum erhalten[Hier](https://forum.aspose.com/c/pdf/10).
+Absolut! Support erhalten Sie im Aspose-Forum [Hier](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

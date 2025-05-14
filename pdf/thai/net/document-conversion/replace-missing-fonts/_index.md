@@ -1,14 +1,16 @@
 ---
-title: แทนที่แบบอักษรที่หายไป
-linktitle: แทนที่แบบอักษรที่หายไป
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการแทนที่แบบอักษรที่หายไปในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-weight: 260
-url: /th/net/document-conversion/replace-missing-fonts/
+"description": "เรียนรู้วิธีการแทนที่แบบอักษรที่หายไปในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "แทนที่แบบอักษรที่หายไป"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "แทนที่แบบอักษรที่หายไป"
+"url": "/th/net/document-conversion/replace-missing-fonts/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทนที่แบบอักษรที่หายไป
@@ -21,7 +23,7 @@ url: /th/net/document-conversion/replace-missing-fonts/
 
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณจะต้องมี:
 
-1.  Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/net/).
 2. Visual Studio: สภาพแวดล้อมการพัฒนาที่คุณสามารถเขียนและทดสอบโค้ดของคุณได้
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
@@ -38,7 +40,7 @@ using Aspose.Pdf.Text;
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
-ขั้นแรก คุณต้องระบุเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ นี่คือตำแหน่งที่ไฟล์ PDF อินพุตของคุณตั้งอยู่และตำแหน่งที่ไฟล์เอาต์พุตจะถูกบันทึก
+ขั้นแรก คุณต้องระบุเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ นี่คือตำแหน่งที่ไฟล์ PDF อินพุตของคุณตั้งอยู่ และตำแหน่งที่ไฟล์เอาต์พุตจะถูกบันทึก
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -57,7 +59,7 @@ try
 }
 catch (Exception)
 {
-    //ฟอนต์หายไปจากเครื่องปลายทาง
+    // ฟอนต์หายไปจากเครื่องปลายทาง
     FontRepository.Substitutions.Add(new SimpleFontSubstitution("AgencyFB", "Arial"));
 }
 ```
@@ -73,7 +75,7 @@ var fileNew = new FileInfo(dataDir + "newfile_out.pdf");
 var pdf = new Document(dataDir + "input.pdf");
 ```
 
- ในขั้นตอนนี้เราจะสร้างใหม่`FileInfo` วัตถุสำหรับไฟล์เอาท์พุตและโหลดเอกสาร PDF อินพุตเข้าในไฟล์ใหม่`Document` วัตถุ.
+ในขั้นตอนนี้เราจะสร้างใหม่ `FileInfo` วัตถุสำหรับไฟล์เอาท์พุตและโหลดเอกสาร PDF อินพุตเข้าในไฟล์ใหม่ `Document` วัตถุ.
 
 ## ขั้นตอนที่ 4: แปลงเอกสาร PDF
 
@@ -102,10 +104,10 @@ pdf.Save(fileNew.FullName);
 ## คำถามที่พบบ่อย
 
 ### Aspose.PDF สำหรับ .NET คืออะไร?
-Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ด้วยโปรแกรมได้
+Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้ประเมินไลบรารีได้ คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้ประเมินไลบรารีได้ คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันควรทำอย่างไรถ้าไม่มีแบบอักษรที่ฉันต้องการ?
 คุณสามารถแทนที่แบบอักษรที่หายไปด้วยแบบอักษรทั่วไปได้โดยใช้ฟีเจอร์การแทนที่แบบอักษรใน Aspose.PDF
@@ -114,10 +116,12 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีอันท
 แน่นอน! Aspose.PDF รองรับการแปลงเป็นรูปแบบต่างๆ รวมถึง PDF/A, DOCX และอื่นๆ อีกมากมาย
 
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.PDF ได้ที่ไหน
- คุณสามารถค้นหาการสนับสนุนและถามคำถามได้ในฟอรั่ม Aspose[ที่นี่](https://forum.aspose.com/c/pdf/10).
+คุณสามารถค้นหาการสนับสนุนและถามคำถามได้ในฟอรั่ม Aspose [ที่นี่](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

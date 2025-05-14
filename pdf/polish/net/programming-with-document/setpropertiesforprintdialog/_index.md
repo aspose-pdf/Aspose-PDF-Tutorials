@@ -1,14 +1,16 @@
 ---
-title: Ustaw właściwości dla okna dialogowego drukowania
-linktitle: Ustaw właściwości dla okna dialogowego drukowania
-second_title: Aspose.PDF dla .NET API Reference
-description: Odblokuj potencjał tworzenia plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik pomoże Ci bez wysiłku skonfigurować właściwości drukowania.
-weight: 320
-url: /pl/net/programming-with-document/setpropertiesforprintdialog/
+"description": "Odblokuj potencjał tworzenia plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik pomoże Ci bez wysiłku skonfigurować właściwości drukowania."
+"linktitle": "Ustaw właściwości dla okna dialogowego drukowania"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ustaw właściwości dla okna dialogowego drukowania"
+"url": "/pl/net/programming-with-document/setpropertiesforprintdialog/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw właściwości dla okna dialogowego drukowania
@@ -22,10 +24,10 @@ Czy chcesz wykorzystać moc generowania PDF w swoich aplikacjach? Dzięki Aspose
 Zanim przejdziemy do samouczka, omówmy, co musisz mieć:
 
 1. Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio.
-2.  Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Nie martw się, to proste! Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Nie martw się, to proste! Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o C#: Znajomość programowania w C# będzie pomocna. Jeśli jesteś nowy, nie martw się! Przejdziemy przez podstawy razem. 
 
-Gdy już spełnisz te wymagania wstępne, będziesz gotowy, aby zacząć tworzyć pliki PDF!
+Gdy już spełnisz te wymagania wstępne, będziesz gotowy zacząć tworzyć pliki PDF!
 
 ## Importuj pakiety
 
@@ -59,12 +61,12 @@ Teraz rozłóżmy przesłany przez Ciebie fragment kodu na zrozumiałe kroki.
 
 ## Krok 1: Zdefiniuj katalog dokumentów
 
-Zanim cokolwiek zrobisz z dokumentami PDF, dobrą praktyką jest zdefiniowanie, gdzie dokument zostanie zapisany. Zróbmy to ze zmienną:
+Zanim cokolwiek zrobisz z dokumentami PDF, dobrą praktyką jest zdefiniowanie, gdzie dokument zostanie zapisany. Zróbmy to za pomocą zmiennej:
 
 ```csharp
 var dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której chcesz zapisać plik wyjściowy. Pomaga to zachować porządek w plikach i ułatwia ich późniejsze znalezienie.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której chcesz zapisać plik wyjściowy. Pomaga to zachować porządek w plikach i ułatwia ich późniejsze znalezienie.
 
 ## Krok 2: Utwórz instancję dokumentu
 
@@ -74,7 +76,7 @@ Następnie utworzysz wystąpienie dokumentu PDF. Ten obiekt będzie podstawą ws
 using (Document doc = new Document())
 ```
 
- Używanie`using` oświadczenie tutaj zapewnia, że`Document` obiekt jest prawidłowo usuwany po zakończeniu pracy z nim, co zapobiega potencjalnym wyciekom pamięci.
+Używanie `using` oświadczenie tutaj zapewnia, że `Document` obiekt jest prawidłowo usuwany po zakończeniu pracy z nim, co zapobiega potencjalnym wyciekom pamięci.
 
 ## Krok 3: Dodaj strony do dokumentu
 
@@ -108,7 +110,7 @@ Ten kod zapisuje dokument w określonej lokalizacji pod nazwą „35297_out.pdf�
 
 ## Wniosek
 
-oto masz — ustawianie właściwości dla okna dialogowego drukowania za pomocą Aspose.PDF dla .NET to prosty proces. Za pomocą zaledwie kilku poleceń możesz utworzyć dokument PDF klasy profesjonalnej, gotowy do wydrukowania. Więc dlaczego by nie spróbować? Zanurz się w świecie manipulacji PDF i podnieś poziom swoich projektów!
+I oto masz — ustawianie właściwości dla okna dialogowego drukowania za pomocą Aspose.PDF dla .NET to prosty proces. Za pomocą zaledwie kilku poleceń możesz utworzyć dokument PDF klasy profesjonalnej, gotowy do wydrukowania. Więc dlaczego by nie spróbować? Zanurz się w świecie manipulacji PDF i podnieś poziom swoich projektów!
 
 ## Najczęściej zadawane pytania
 
@@ -116,7 +118,7 @@ oto masz — ustawianie właściwości dla okna dialogowego drukowania za pomoc�
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Czy korzystanie z Aspose.PDF jest bezpłatne?
- Możesz zacząć od bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/), ale aby korzystać ze wszystkich funkcji później, potrzebna jest licencja.
+Możesz zacząć od bezpłatnego okresu próbnego [Tutaj](https://releases.aspose.com/), ale aby korzystać ze wszystkich funkcji później, potrzebna jest licencja.
 
 ### Jakiego rodzaju aplikacje mogę tworzyć za pomocą Aspose.PDF?
 Możesz utworzyć dowolną aplikację wymagającą generowania lub przetwarzania plików PDF, np. systemy fakturowania, rozwiązania do zarządzania dokumentacją i inne.
@@ -125,10 +127,12 @@ Możesz utworzyć dowolną aplikację wymagającą generowania lub przetwarzania
 Drukowanie dwustronne oznacza drukowanie po obu stronach arkusza papieru, co pozwala oszczędzać papier i poprawia wygląd dokumentów.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
- Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Dostęp do pomocy technicznej można uzyskać za pośrednictwem [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

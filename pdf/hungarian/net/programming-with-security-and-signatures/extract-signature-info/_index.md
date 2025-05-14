@@ -1,34 +1,36 @@
 ---
-title: Kivonat aláírási információ
-linktitle: Kivonat aláírási információ
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan nyerhet ki digitális aláírásokat és tanúsítványadatokat PDF-dokumentumokból az Aspose.PDF for .NET használatával. Egy teljes, lépésről lépésre útmutató a C# fejlesztőknek.
-weight: 80
-url: /hu/net/programming-with-security-and-signatures/extract-signature-info/
+"description": "Tanulja meg, hogyan kinyerhet digitális aláírásokat és tanúsítványinformációkat PDF dokumentumokból az Aspose.PDF for .NET segítségével. Teljes körű, lépésről lépésre útmutató C# fejlesztőknek."
+"linktitle": "Aláírási információk kinyerése"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Aláírási információk kinyerése"
+"url": "/hu/net/programming-with-security-and-signatures/extract-signature-info/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kivonat aláírási információ
+# Aláírási információk kinyerése
 
 ## Bevezetés
 
-mai digitális világban a dokumentumok biztonságának és sértetlenségének biztosítása kulcsfontosságú. A PDF-ek védelmére használt egyik általános módszer a digitális aláírás hozzáadása. Az aláírás adatainak lekérése és ellenőrzése azonban néha kihívást jelenthet, különösen, ha különféle tanúsítványokkal van dolgunk. Ebben az útmutatóban végigvezetjük az aláírási információk PDF-dokumentumokból történő kinyerésének folyamatán az Aspose.PDF for .NET használatával, így a feladatot gyerekjáték könnyíti meg. Megtanulja, hogyan férhet hozzá az aláírási mezőkhöz, hogyan bonthatja ki a tanúsítvány adatait, és hogyan mentheti azokat fájlba.
+mai digitális világban a dokumentumok biztonságának és integritásának garantálása kulcsfontosságú. A PDF-ek védelmének egyik gyakori módszere a digitális aláírás hozzáadása. Az aláírás adatainak lekérése és ellenőrzése azonban néha kihívást jelenthet, különösen, ha különféle tanúsítványokkal van dolgunk. Ebben az útmutatóban végigvezetjük az aláírási információk PDF-dokumentumokból való kinyerésének folyamatán az Aspose.PDF for .NET használatával, így a feladat gyerekjáték. Megtanulod, hogyan férhetsz hozzá az aláírásmezőkhöz, hogyan kinyerheted a tanúsítványinformációkat, és hogyan mentheted el azokat fájlba.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjön meg arról, hogy minden készen áll a kezdéshez.
+Mielőtt belekezdenénk, győződjünk meg róla, hogy minden elő van készítve a kezdéshez.
 
--  Aspose.PDF for .NET Library: Ha még nem rendelkezik vele, letöltheti a[Aspose.PDF .NET letöltési oldalhoz](https://releases.aspose.com/pdf/net/). 
-- .NET fejlesztői környezet: Szüksége lesz egy IDE-re, például a Visual Studiora.
-- Alapvető C# ismeretek: A C# ismerete segít megérteni az oktatóanyagban szereplő kódrészleteket.
-- PDF-dokumentum digitális aláírással: Tesztelési célokra győződjön meg arról, hogy rendelkezik egy PDF-fájllal, amely legalább egy digitális aláírást tartalmaz.
+- Aspose.PDF .NET könyvtárhoz: Ha még nem rendelkezik vele, letöltheti innen: [Aspose.PDF .NET letöltési oldalhoz](https://releases.aspose.com/pdf/net/). 
+- .NET fejlesztői környezet: Szükséged lesz egy IDE-re, például a Visual Studio-ra.
+- C# alapismeretek: A C# ismerete hasznos a bemutatóban található kódrészletek megértéséhez.
+- PDF dokumentum digitális aláírással: Tesztelési célokból győződjön meg arról, hogy van egy PDF fájlja, amely legalább egy digitális aláírást tartalmaz.
 
-## Kötelező névterek importálása
+## Szükséges névterek importálása
 
-Mielőtt belevágna a kódba, fontos, hogy importálja a szükséges névtereket. Ezek a névterek lehetővé teszik az Aspose.PDF funkció elérését és a PDF dokumentumok kezelését.
+Mielőtt belevágnánk a kódba, fontos importálni a szükséges névtereket. Ezek a névterek lehetővé teszik az Aspose.PDF funkciók elérését és a PDF dokumentumokkal való munkát.
 
 ```csharp
 using System.IO;
@@ -37,11 +39,11 @@ using Aspose.Pdf;
 using System;
 ```
 
-Most, hogy beállította a lényeget, folytassuk az aláírási adatok PDF-ből való kinyerésének tényleges folyamatát.
+Most, hogy beállította az alapvető beállításokat, térjünk át az aláírási információk PDF-ből való kinyerésének tényleges folyamatára.
 
 ## 1. lépés: A dokumentumkönyvtár beállítása
 
- Mielőtt egy PDF-dokumentumon dolgozna, meg kell adnia a használni kívánt fájl helyét. Cserélheted`"YOUR DOCUMENT DIRECTORY"` annak a könyvtárnak az elérési útjával, ahol a PDF-eket tárolják.
+Mielőtt PDF dokumentumon dolgozna, meg kell adnia a használandó fájl helyét. Lecserélheti `"YOUR DOCUMENT DIRECTORY"` a PDF-fájlok tárolási könyvtárának tényleges elérési útjával.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -49,61 +51,61 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string input = dataDir + "ExtractSignatureInfo.pdf";
 ```
 
-Itt adjuk meg a PDF fájlt tartalmazó könyvtárat és magát a fájlnevet. Győződjön meg arról, hogy a fájl létezik ebben a könyvtárban!
+Itt adjuk meg a PDF fájlt tartalmazó könyvtárat és magát a fájlnevet. Győződjön meg róla, hogy a fájl létezik ebben a könyvtárban!
 
-## 2. lépés: A PDF-dokumentum betöltése
+## 2. lépés: A PDF dokumentum betöltése
 
- Most, hogy beállította a könyvtárat, a következő lépés a PDF-dokumentum betöltése a`Document` osztály az Aspose.PDF-ből.
+Most, hogy beállította a könyvtárat, a következő lépés a PDF dokumentum betöltése a következővel: `Document` osztály az Aspose.PDF-ből.
 
 ```csharp
 using (Document pdfDocument = new Document(input))
 {
-    // A PDF feldolgozása itt.
+    // A PDF feldolgozása itt lehetséges.
 }
 ```
 
- Ez a kódsor inicializálja a`Document`objektum, amely a PDF-fájlt képviseli. A`using` nyilatkozat biztosítja, hogy a dokumentum feldolgozása után az erőforrások megtisztuljanak.
+Ez a kódsor inicializál egy `Document` objektum, amely a PDF fájlt képviseli. `using` Az utasítás biztosítja, hogy az erőforrások a dokumentum feldolgozása után törlődjenek.
 
-## 3. lépés: Hozzáférés az űrlapmezőkhöz
+## 3. lépés: Űrlapmezők elérése
 
-Ebben a lépésben végigfutjuk a PDF dokumentum összes űrlapmezőjét. Mivel az aláírásokat általában űrlapmezőkként tároljuk, ez a lépés segít azonosítani az aláírási mezőket.
+Ebben a lépésben végigmegyünk a PDF dokumentum összes űrlapmezőjén. Mivel az aláírásokat általában űrlapmezőként tároljuk, ez a lépés segít azonosítani az aláírásmezőket.
 
 ```csharp
 foreach (Field field in pdfDocument.Form)
 {
-    // Itt azonosíthatja az aláírási mezőket.
+    // Azonosítsa az aláírásmezőket itt.
 }
 ```
 
- Iterációval a`Form` tulajdona a`Document` objektumot, megvizsgálhatjuk az egyes űrlapmezőket, hogy ellenőrizzük, hogy aláírásmező-e.
+Azáltal, hogy végigmegyek a `Form` a tulajdona `Document` objektummal megvizsgálhatjuk az egyes űrlapmezőket, hogy ellenőrizzük, aláírásmező-e.
 
-## 4. lépés: Az aláírási mezők azonosítása
+## 4. lépés: Aláírásmezők azonosítása
 
- Miután elérte az űrlapmezőket, a következő lépés az, hogy azonosítsa, melyek az aláírási mezők. Ezt úgy tehetjük meg, hogy az egyes mezőket a-ba öntjük`SignatureField` objektum.
+Miután hozzáfértél az űrlapmezőkhöz, a következő lépés annak azonosítása, hogy melyek az aláírásmezők. Ezt úgy tehetjük meg, hogy minden mezőt egy `SignatureField` objektum.
 
 ```csharp
 SignatureField sf = field as SignatureField;
 if (sf != null)
 {
-    // Kivonat aláírási információkat.
+    // Aláírási információk kinyerése.
 }
 ```
 
- Itt használjuk a`as` kulcsszó, amellyel az egyes űrlapmezőket a`SignatureField`. Ha a leadás sikeres, tudjuk, hogy a mező egy aláírás.
+Itt használjuk a `as` kulcsszó, amely megpróbálja minden űrlapmezőt egy `SignatureField`Ha a szereposztás sikeres, tudjuk, hogy a mező egy aláírás.
 
 ## 5. lépés: A tanúsítvány kibontása
 
-Most, hogy azonosította az aláírásmezőt, a következő feladat a tanúsítvány kibontása az aláírásból. A tanúsítványok lényeges információkat tartalmaznak az aláíróról és az aláírás érvényességéről.
+Most, hogy azonosította az aláírás mezőt, a következő feladat a tanúsítvány kinyerése az aláírásból. A tanúsítványok kulcsfontosságú információkat tartalmaznak az aláíróról és az aláírás érvényességéről.
 
 ```csharp
 Stream cerStream = sf.ExtractCertificate();
 ```
 
- A`ExtractCertificate` metódus visszaadja a`Stream` a tanúsítvány adatait tartalmazó objektum. Ez az adatfolyam használható a tanúsítvány mentésére további elemzés vagy tárolás céljából.
+A `ExtractCertificate` metódus visszaad egy `Stream` a tanúsítványadatokat tartalmazó objektum. Ez a folyam használható a tanúsítvány mentésére további elemzés vagy tárolás céljából.
 
 ## 6. lépés: A tanúsítvány mentése fájlba
 
- Miután kicsomagolta a tanúsítványt, az utolsó lépés az, hogy elmenti egy fájlba. Ebben az esetben a tanúsítványt a`.cer` fájlt.
+Miután kibontotta a tanúsítványt, az utolsó lépés a mentése egy fájlba. Ebben az esetben a tanúsítványt fájlként fogjuk menteni. `.cer` fájl.
 
 ```csharp
 if (cerStream != null)
@@ -120,35 +122,37 @@ if (cerStream != null)
 }
 ```
 
-Ebben a kódblokkban mi:
+Ebben a kódblokkban a következőket tesszük:
 
-1. Ellenőrizze, hogy a tanúsítványfolyam nem nulla-e.
+1. Ellenőrizze, hogy a tanúsítványfolyam nem null-e.
 2. Olvassa be a tanúsítvány adatait egy bájttömbbe.
-3.  Írja a bájttömböt a-ba`.cer` fájlt a dokumentumkönyvtárban.
+3. Írd ki a bájttömböt egy `.cer` fájl a dokumentumkönyvtárban.
 
 ## Következtetés
 
-digitális aláírások és a kapcsolódó tanúsítványinformációk kinyerése PDF-dokumentumokból az Aspose.PDF for .NET használatával meglehetősen egyszerű, ha egyszerű lépésekre bontja le. Függetlenül attól, hogy dokumentumokat auditál, aláírásokat ellenőriz, vagy csak tanúsítványokat tárol megőrzés céljából, ez az oktatóanyag felvértezi Önt a hatékony végrehajtáshoz szükséges ismeretekkel. Ne feledje, hogy a dokumentumok védelme és ellenőrzése kritikus fontosságú a mai digitális világban, és az olyan eszközök használata, mint az Aspose.PDF for .NET, sokkal könnyebbé teszi a kezelést.
+digitális aláírások és a hozzájuk kapcsolódó tanúsítványinformációk kinyerése PDF dokumentumokból az Aspose.PDF for .NET segítségével meglehetősen egyszerű, ha egyszerű lépésekre bontjuk. Akár dokumentumokat auditál, aláírásokat ellenőriz, vagy csak tanúsítványokat tárol biztonságos megőrzés céljából, ez az oktatóanyag felvértezi Önt a hatékony munkavégzéshez szükséges tudással. Ne feledje, a dokumentumok védelme és ellenőrzése kritikus fontosságú a mai digitális világban, és az olyan eszközök, mint az Aspose.PDF for .NET, sokkal könnyebbé teszik a kezelését.
 
 ## GYIK
 
-### Kivonhatok több aláírást egy PDF-ből az Aspose.PDF for .NET használatával?
-Igen, a kód végigfut a dokumentum összes űrlapmezőjén, lehetővé téve több aláírás kinyerését, ha vannak ilyenek.
+### Több aláírást is kinyerhetek egy PDF-ből az Aspose.PDF for .NET használatával?
+Igen, a kód végigmegy a dokumentum összes űrlapmezőjén, lehetővé téve több aláírás kinyerését, ha léteznek.
 
 ### Mi történik, ha nem található aláírás a PDF-ben?
-Ha nincsenek aláírási mezők, a kód egyszerűen átugorja őket anélkül, hogy hibát okozna.
+Ha nincsenek aláírás mezők, a kód egyszerűen átugorja őket hiba nélkül.
 
-### Használhatom ezt a megközelítést az aláírás érvényességének ellenőrzésére?
-Bár a tanúsítványt kibonthatja, az aláírás érvényességének ellenőrzéséhez további lépésekre van szükség, például a tanúsítvány bizalmi láncának ellenőrzésére.
+### Használhatom ezt a módszert egy aláírás érvényességének ellenőrzésére?
+Bár a tanúsítvány kinyerhető, az aláírás érvényességének ellenőrzése további lépéseket igényel, például a tanúsítvány bizalmi láncának ellenőrzését.
 
-### Kivonható-e más űrlapmezőadatokat az Aspose.PDF for .NET használatával?
-Igen, az Aspose.PDF lehetővé teszi különböző típusú űrlapmezők elérését és kezelését a PDF-ben, nem csak az aláírási mezőket.
+### Lehetséges más űrlapmezőadatokat kinyerni az Aspose.PDF for .NET használatával?
+Igen, az Aspose.PDF lehetővé teszi a PDF-ben található különféle űrlapmezők elérését és kezelését, nem csak az aláírásmezőket.
 
-### Hogyan nézhetem meg a kivont tanúsítvány részleteit?
- Miután a tanúsítványt a`.cer` fájlt, megnyithatja bármelyik tanúsítványnézegetővel, vagy importálhatja a rendszertanúsítványtárolóba további ellenőrzés céljából.
+### Hogyan tekinthetem meg a kivont tanúsítvány részleteit?
+Miután a tanúsítványt mentette `.cer` fájlt, megnyithatja bármilyen tanúsítványmegjelenítővel, vagy importálhatja egy rendszer tanúsítványtárolójába további ellenőrzés céljából.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

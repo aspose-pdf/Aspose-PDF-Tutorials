@@ -1,14 +1,16 @@
 ---
-title: Создать PDF с тегированным изображением
-linktitle: Создать PDF с тегированным изображением
-second_title: Справочник по API Aspose.PDF для .NET
-description: Научитесь создавать тегированный PDF с изображениями с помощью Aspose.PDF для .NET. Следуйте нашему пошаговому руководству для доступного и профессионального создания документов.
-weight: 40
-url: /ru/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/
+"description": "Научитесь создавать тегированный PDF с изображениями с помощью Aspose.PDF для .NET. Следуйте нашему пошаговому руководству для доступного и профессионального создания документов."
+"linktitle": "Создать PDF с тегированным изображением"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Создать PDF с тегированным изображением"
+"url": "/ru/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать PDF с тегированным изображением
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/
 
 Прежде чем приступить к созданию PDF-файла с тегированными изображениями, вам понадобится несколько вещей:
 
-1. Aspose.PDF для .NET: Эта мощная библиотека необходима для обработки PDF-документов в приложениях .NET. Библиотеку можно найти здесь:[Aspose.PDF для .NET Скачать](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF для .NET: Эта мощная библиотека необходима для обработки PDF-документов в приложениях .NET. Библиотеку можно найти здесь: [Aspose.PDF для .NET Скачать](https://releases.aspose.com/pdf/net/).
 2. .NET Framework или .NET Core: Убедитесь, что на вашем компьютере установлена совместимая версия .NET Framework или .NET Core. Эта библиотека поддерживает обе.
 3. Файл изображения: Вам понадобится файл изображения для встраивания в ваш PDF. В нашем примере мы будем использовать 'aspose-logo.png'. Убедитесь, что он готов в вашем каталоге документов. 
 
@@ -44,7 +46,7 @@ url: /ru/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/
 
 ### Импорт требуемых пространств имен
 
- В верхней части вашего основного файла программы (например,`Program.cs`), импортируйте следующие пространства имен:
+В верхней части вашего основного файла программы (например, `Program.cs`), импортируйте следующие пространства имен:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Укажите путь к ваш
 Document document = new Document();
 ```
 
--  Что здесь происходит? Мы создаем новый экземпляр`Document` объект, представляющий наш PDF. Думайте о нем как о чистом холсте, ожидающем ваших шедевров!
+- Что здесь происходит? Мы создаем новый экземпляр `Document` объект, представляющий наш PDF. Думайте о нем как о чистом холсте, ожидающем ваших шедевров!
 
 ## Шаг 2: Настройте маркированный контент
 
@@ -100,7 +102,7 @@ IllustrationElement figure1 = taggedContent.CreateFigureElement();
 taggedContent.RootElement.AppendChild(figure1);
 ```
 
--  Вот так просто?! Да!`CreateFigureElement` Метод позволяет нам создать новую иллюстрацию, и мы добавляем ее к корневому элементу нашего помеченного контента.
+- Вот так просто?! Да! `CreateFigureElement` Метод позволяет нам создать новую иллюстрацию, и мы добавляем ее к корневому элементу нашего помеченного контента.
 
 ## Шаг 5: Задайте свойства изображения
 
@@ -144,19 +146,21 @@ document.Save(dataDir + "PDFwithTaggedImage.pdf");
 Тегированный PDF-файл предназначен для обеспечения доступности. Он включает метаданные, которые позволяют вспомогательным технологиям правильно читать и перемещаться по нему.
 
 ### Можно ли добавить несколько изображений с помощью Aspose.PDF?
- Конечно! Просто повторите шаги для создания нового`IllustrationElement` экземпляров в вашем документе.
+Конечно! Просто повторите шаги для создания нового `IllustrationElement` экземпляров в вашем документе.
 
 ### Где я могу найти дополнительную документацию по Aspose.PDF?
- Ознакомьтесь с документацией[здесь](https://reference.aspose.com/pdf/net/).
+Ознакомьтесь с документацией [здесь](https://reference.aspose.com/pdf/net/).
 
 ### Существует ли бесплатная пробная версия Aspose.PDF?
- Да! Вы можете получить доступ к бесплатной пробной версии[здесь](https://releases.aspose.com/).
+Да! Вы можете получить доступ к бесплатной пробной версии [здесь](https://releases.aspose.com/).
 
 ### Как я могу получить поддержку по Aspose.PDF?
- Вы можете получить поддержку, посетив[Форумы Aspose](https://forum.aspose.com/c/pdf/10).
+Вы можете получить поддержку, посетив [Форумы Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Добавить отметку даты и времени в файл PDF
-linktitle: Добавить отметку даты и времени в файл PDF
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как добавлять отметку даты и времени в файлы PDF с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Идеально подходит для повышения подлинности документа.
-weight: 10
-url: /ru/net/programming-with-stamps-and-watermarks/add-date-time-stamp/
+"description": "Узнайте, как добавлять отметку даты и времени в файлы PDF с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Идеально подходит для повышения подлинности документа."
+"linktitle": "Добавить отметку даты и времени в файл PDF"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Добавить отметку даты и времени в файл PDF"
+"url": "/ru/net/programming-with-stamps-and-watermarks/add-date-time-stamp/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить отметку даты и времени в файл PDF
@@ -24,9 +26,9 @@ url: /ru/net/programming-with-stamps-and-watermarks/add-date-time-stamp/
 Прежде чем начать, вам необходимо выполнить несколько предварительных условий:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Здесь вы будете писать и выполнять свой код.
-2. Aspose.PDF для .NET: Вам необходимо загрузить и установить библиотеку Aspose.PDF. Последнюю версию вы можете найти[здесь](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF для .NET: Вам необходимо загрузить и установить библиотеку Aspose.PDF. Последнюю версию можно найти [здесь](https://releases.aspose.com/pdf/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понять примеры, но не волнуйтесь, если вы только начинаете; мы объясним все шаг за шагом.
-4.  Файл PDF: Подготовьте пример файла PDF. Для нашего примера мы будем использовать файл с именем`AddTextStamp.pdf`.
+4. Файл PDF: Подготовьте пример файла PDF. Для нашего примера мы будем использовать файл с именем `AddTextStamp.pdf`.
 
 Как только вы выполните все эти предварительные условия, вы будете готовы приступить к добавлению отметок даты и времени в свои PDF-файлы!
 
@@ -39,7 +41,7 @@ url: /ru/net/programming-with-stamps-and-watermarks/add-date-time-stamp/
 1. Откройте Visual Studio: запустите приложение Visual Studio.
 2. Создать новый проект: Выберите «Создать новый проект» на начальном экране.
 3. Выберите консольное приложение: выберите «Консольное приложение (.NET Framework)» из списка шаблонов проектов.
-4.  Назовите свой проект: дайте своему проекту имя, например,`PDFDateTimeStamp`.
+4. Назовите свой проект: дайте своему проекту имя, например, `PDFDateTimeStamp`.
 
 ### Добавить ссылку Aspose.PDF
 
@@ -49,7 +51,7 @@ url: /ru/net/programming-with-stamps-and-watermarks/add-date-time-stamp/
 
 ### Импорт требуемых пространств имен
 
- В верхней части вашего`Program.cs` файл, вам необходимо импортировать следующие пространства имен:
+В верхней части вашего `Program.cs` файл, вам необходимо импортировать следующие пространства имен:
 
 ```csharp
 using System.IO;
@@ -70,7 +72,7 @@ using Aspose.Pdf.Annotations;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Замените на ваш реальный путь
 ```
 
- Обязательно замените`YOUR DOCUMENT DIRECTORY` с фактическим путем к вашему PDF-файлу.
+Обязательно замените `YOUR DOCUMENT DIRECTORY` с фактическим путем к вашему PDF-файлу.
 
 ## Шаг 2: Откройте PDF-документ.
 
@@ -81,7 +83,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Замените на ваш ре
 Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 ```
 
- Эта строка кода инициализирует`Document` класс и загружает ваш PDF-файл в`pdfDocument` объект.
+Эта строка кода инициализирует `Document` класс и загружает ваш PDF-файл в `pdfDocument` объект.
 
 ## Шаг 3: Создайте отметку даты и времени
 
@@ -91,7 +93,7 @@ Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 string annotationText = DateTime.Now.ToString("MM/dd/yy hh:mm:ss tt ");
 ```
 
- Здесь,`DateTime.Now` получает текущую дату и время, и`ToString` форматирует его в нужный вам формат.
+Здесь, `DateTime.Now` получает текущую дату и время, и `ToString` форматирует его в нужный вам формат.
 
 ## Шаг 4: Создайте текстовый штамп
 
@@ -102,7 +104,7 @@ string annotationText = DateTime.Now.ToString("MM/dd/yy hh:mm:ss tt ");
 TextStamp textStamp = new TextStamp(annotationText);
 ```
 
- Эта строка создает новый экземпляр`TextStamp` используя отформатированную строку даты и времени.
+Эта строка создает новый экземпляр `TextStamp` используя отформатированную строку даты и времени.
 
 ## Шаг 5: Задайте свойства штампа
 
@@ -131,7 +133,7 @@ pdfDocument.Pages[1].AddStamp(textStamp);
 
 ## Шаг 7: Создайте свободную текстовую аннотацию (необязательно)
 
-Если вы хотите добавить аннотацию к марке, вы можете создать`FreeTextAnnotation` следующее:
+Если вы хотите добавить аннотацию к марке, вы можете создать `FreeTextAnnotation` следующее:
 
 ```csharp
 DefaultAppearance default_appearance = new DefaultAppearance("Arial", 6, System.Drawing.Color.Black);
@@ -156,7 +158,7 @@ textAnnotation.Rect = new Aspose.Pdf.Rectangle(0, 0, 0, 0);
 pdfDocument.Pages[1].Annotations.Add(textAnnotation);
 ```
 
-Этот фрагмент кода устанавливает ширину границы на 0, делая ее невидимой, и добавляет аннотацию в PDF-файл.
+Этот фрагмент кода устанавливает ширину границы равной 0, делая ее невидимой, и добавляет аннотацию в PDF-файл.
 
 ## Шаг 9: Сохраните PDF-документ.
 
@@ -177,22 +179,24 @@ Console.WriteLine("\nDate time stamp added successfully.\nFile saved at " + data
 ## Часто задаваемые вопросы
 
 ### Могу ли я настроить формат даты в метке времени?
- Да, вы можете изменить`ToString`способ изменить формат даты по вашему желанию.
+Да, вы можете изменить `ToString` способ изменить формат даты по вашему желанию.
 
 ### Можно ли использовать Aspose.PDF бесплатно?
- Aspose.PDF предлагает бесплатную пробную версию, но для полного функционала вам необходимо приобрести лицензию. Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF предлагает бесплатную пробную версию, но для полного функционала вам необходимо приобрести лицензию. Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Можно ли добавить несколько временных меток в PDF-файл?
- Конечно! Вы можете создать несколько`TextStamp` экземпляры и добавляйте их на разные страницы или в разные позиции PDF-файла.
+Конечно! Вы можете создать несколько `TextStamp` экземпляры и добавляйте их на разные страницы или в разные позиции PDF-файла.
 
 ### Что делать, если у меня нет Visual Studio?
 Вы можете использовать любую среду разработки C# или текстовый редактор, но для запуска и отладки проекта рекомендуется Visual Studio.
 
 ### Где я могу найти больше примеров использования Aspose.PDF?
- Вы можете изучить больше примеров и руководств в[Документация Aspose.PDF](https://reference.aspose.com/pdf/net/).
+Вы можете изучить больше примеров и руководств в [Документация Aspose.PDF](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

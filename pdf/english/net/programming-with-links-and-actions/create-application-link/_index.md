@@ -8,7 +8,9 @@ url: /net/programming-with-links-and-actions/create-application-link/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Application Link In PDF File
@@ -161,6 +163,7 @@ You can obtain a temporary license from [this page](https://purchase.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

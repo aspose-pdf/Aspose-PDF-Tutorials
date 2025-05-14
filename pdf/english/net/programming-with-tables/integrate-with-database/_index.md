@@ -8,7 +8,9 @@ url: /net/programming-with-tables/integrate-with-database/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Integrate With Database In PDF File
@@ -187,6 +189,7 @@ Yes! Aspose.PDF provides various customization options for tables, including cel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

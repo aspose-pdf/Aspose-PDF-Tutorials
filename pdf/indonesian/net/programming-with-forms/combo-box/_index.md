@@ -1,14 +1,16 @@
 ---
-title: Kotak Kombo
-linktitle: Kotak Kombo
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan Kotak Kombo ke PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat formulir PDF interaktif dengan mudah.
-weight: 30
-url: /id/net/programming-with-forms/combo-box/
+"description": "Pelajari cara menambahkan Kotak Kombo ke PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat formulir PDF interaktif dengan mudah."
+"linktitle": "Kotak Kombo"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Kotak Kombo"
+"url": "/id/net/programming-with-forms/combo-box/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kotak Kombo
@@ -21,10 +23,10 @@ Pernahkah Anda bertanya-tanya bagaimana cara membuat formulir interaktif dalam P
 
 Sebelum menyelami kodenya, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-- Aspose.PDF untuk pustaka .NET: Unduh dan instal dari[Halaman unduhan Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk pustaka .NET: Unduh dan instal dari [Halaman unduhan Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
 - Lingkungan pengembangan .NET, seperti Visual Studio.
 - Pengetahuan dasar tentang pemrograman C# dan cara bekerja dengan aplikasi .NET.
--  Lisensi Aspose.PDF yang valid (Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau menggunakannya dalam mode uji coba).
+- Lisensi Aspose.PDF yang valid (Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau menggunakannya dalam mode uji coba).
 
 Setelah Anda memiliki prasyarat ini, Anda siap untuk memulai kesenangan coding!
 
@@ -41,7 +43,7 @@ using Aspose.Pdf;
 using Aspose.Pdf.Forms;
 ```
 
- Ketiga baris ini memastikan Anda memiliki akses ke kelas yang diperlukan, seperti`Document`, `ComboBoxField`, dan utilitas lain yang disediakan Aspose.PDF untuk .NET.
+Ketiga baris ini memastikan Anda memiliki akses ke kelas yang diperlukan, seperti `Document`Bahasa Indonesia: `ComboBoxField`, dan utilitas lain yang disediakan Aspose.PDF untuk .NET.
 
 Dalam panduan ini, kami akan menguraikan prosesnya menjadi beberapa langkah sederhana agar mudah diikuti. Mari kita mulai!
 
@@ -58,7 +60,7 @@ Document doc = new Document();
 doc.Pages.Add();
 ```
 
- Di sini, kami memulai`Document` objek dan menambahkan halaman kosong baru. Anda dapat memikirkan`Document` objek sebagai kanvas kosong. Tanpa halaman, itu seperti mencoba menggambar di udara—Anda membutuhkan dasar itu!
+Di sini, kami memulai `Document` objek dan menambahkan halaman kosong baru. Anda dapat memikirkan `Document` objek sebagai kanvas kosong. Tanpa halaman, itu seperti mencoba menggambar di udara—Anda membutuhkan dasar itu!
 
 ## Langkah 2: Buat Instansiasi Bidang Kotak Kombo
 
@@ -69,14 +71,14 @@ Setelah dokumen kita siap, saatnya membuat Kotak Kombo. Bayangkan Kotak Kombo se
 ComboBoxField combo = new ComboBoxField(doc.Pages[1], new Aspose.Pdf.Rectangle(100, 600, 150, 616));
 ```
 
- Pada langkah ini, kita membuat`ComboBoxField` objek. Parameter dalam konstruktor menentukan di mana Kotak Kombo akan muncul di halaman. Kami menggunakan koordinat (100, 600, 150, 616) untuk menentukan posisi dan ukuran Kotak Kombo di halaman PDF.
+Pada langkah ini, kita membuat `ComboBoxField` objek. Parameter dalam konstruktor menentukan di mana Kotak Kombo akan muncul di halaman. Kami menggunakan koordinat (100, 600, 150, 616) untuk menentukan posisi dan ukuran Kotak Kombo di halaman PDF.
 
 ## Langkah 3: Tambahkan Opsi ke Kotak Kombo
 
 Kotak Kombo tidak akan berguna tanpa opsi! Mari tambahkan beberapa warna sebagai opsi bagi pengguna untuk dipilih.
 
 ```csharp
-//Tambahkan opsi ke ComboBox
+// Tambahkan opsi ke ComboBox
 combo.AddOption("Red");
 combo.AddOption("Yellow");
 combo.AddOption("Green");
@@ -107,19 +109,19 @@ doc.Save(dataDir);
 Console.WriteLine("\nCombobox field added successfully.\nFile saved at " + dataDir);
 ```
 
- Kami menyimpan dokumen ke dalam file bernama`ComboBox_out.pdf`. Output konsol memberi tahu Anda bahwa berkas berhasil disimpan. Sekarang, periksa direktori output Anda, dan Anda akan menemukan PDF dengan Kotak Kombo yang siap digunakan!
+Kami menyimpan dokumen ke dalam file bernama `ComboBox_out.pdf`. Output konsol memberi tahu Anda bahwa berkas berhasil disimpan. Sekarang, periksa direktori output Anda, dan Anda akan menemukan PDF dengan Kotak Kombo yang siap digunakan!
 
 ## Kesimpulan
 
-Nah, itu dia! Hanya dalam lima langkah mudah, Anda telah berhasil menambahkan Kotak Kombo ke PDF menggunakan Aspose.PDF untuk .NET. Fitur hebat ini hanyalah salah satu dari sekian banyak fitur yang disediakan Aspose.PDF untuk menyesuaikan dan memanipulasi dokumen PDF. Baik Anda membuat formulir yang rumit atau menu tarik-turun yang sederhana, Aspose.PDF untuk .NET telah menyediakannya untuk Anda. Sekarang setelah Anda melihat betapa mudahnya, mengapa tidak mencoba beberapa kolom formulir lain seperti kotak centang, kolom teks, atau tombol radio?
+Nah, itu dia! Hanya dalam lima langkah mudah, Anda telah berhasil menambahkan Kotak Kombo ke PDF menggunakan Aspose.PDF untuk .NET. Fitur hebat ini hanyalah salah satu dari sekian banyak fitur yang disediakan Aspose.PDF untuk menyesuaikan dan memanipulasi dokumen PDF. Baik Anda membuat formulir yang rumit atau menu tarik-turun yang sederhana, Aspose.PDF untuk .NET telah menyediakannya untuk Anda. Sekarang setelah Anda melihat betapa mudahnya, mengapa tidak mencoba beberapa bidang formulir lain seperti kotak centang, bidang teks, atau tombol radio?
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menambahkan lebih banyak opsi ke Kotak Kombo setelah dibuat?
- Ya! Anda selalu dapat mengubah`ComboBoxField` keberatan untuk menambahkan lebih banyak opsi sebelum menyimpan dokumen.
+Ya! Anda selalu dapat mengubah `ComboBoxField` keberatan untuk menambahkan lebih banyak opsi sebelum menyimpan dokumen.
 
 ### Apakah mungkin untuk mengubah ukuran Kotak Kombo?
- Tentu saja. Anda dapat menyesuaikan dimensi persegi panjang di`ComboBoxField` konstruktor untuk mengubah ukuran Kotak Kombo.
+Tentu saja. Anda dapat menyesuaikan dimensi persegi panjang di `ComboBoxField` konstruktor untuk mengubah ukuran Kotak Kombo.
 
 ### Apakah Aspose.PDF untuk .NET mendukung bidang formulir lainnya?
 Ya, Aspose.PDF mendukung berbagai bidang formulir, termasuk kotak teks, tombol radio, dan kotak centang.
@@ -128,10 +130,12 @@ Ya, Aspose.PDF mendukung berbagai bidang formulir, termasuk kotak teks, tombol r
 Ya, daripada membuat dokumen baru, Anda dapat memuat PDF yang sudah ada dan menambahkan Kotak Kombo ke dalamnya.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF untuk .NET?
- Meskipun Aspose.PDF untuk .NET menawarkan uji coba gratis, Anda memerlukan lisensi yang valid untuk fungsionalitas penuh. Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menguji semua fitur.
+Meskipun Aspose.PDF untuk .NET menawarkan uji coba gratis, Anda memerlukan lisensi yang valid untuk fungsionalitas penuh. Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menguji semua fitur.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

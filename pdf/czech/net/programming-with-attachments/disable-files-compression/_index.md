@@ -1,45 +1,47 @@
 ---
-title: Zakázat kompresi souborů v souboru PDF
-linktitle: Zakázat kompresi souborů v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: V tomto podrobném průvodci se dozvíte, jak zakázat kompresi souborů v souborech PDF pomocí Aspose.PDF for .NET. Vylepšete své dovednosti v oblasti správy PDF.
-weight: 30
-url: /cs/net/programming-with-attachments/disable-files-compression/
+"description": "Naučte se, jak zakázat kompresi souborů PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Zlepšete si své dovednosti v oblasti správy PDF."
+"linktitle": "Zakázat kompresi souborů v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Zakázat kompresi souborů v souboru PDF"
+"url": "/cs/net/programming-with-attachments/disable-files-compression/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zakázat kompresi souborů v souboru PDF
 
 ## Zavedení
 
-V digitálním věku je efektivní správa souborů PDF zásadní pro osobní i profesionální použití. Ať už jste vývojář, který chce vylepšit svou aplikaci, nebo obchodní profesionál spravující dokumenty, pochopení toho, jak manipulovat se soubory PDF, vám může ušetřit čas a námahu. Jedním z běžných požadavků je zakázání komprese souborů v dokumentech PDF. To může být užitečné zejména tehdy, když chcete zajistit, aby vložené soubory zůstaly ve svém původním formátu bez jakýchkoli změn. V tomto tutoriálu prozkoumáme, jak zakázat kompresi souborů v souboru PDF pomocí Aspose.PDF pro .NET. 
+digitálním věku je efektivní správa PDF souborů klíčová jak pro osobní, tak pro profesionální použití. Ať už jste vývojář, který chce vylepšit svou aplikaci, nebo profesionál spravující dokumenty ve firmě, pochopení toho, jak manipulovat se soubory PDF, vám může ušetřit čas a úsilí. Jedním z běžných požadavků je vypnutí komprese souborů v dokumentech PDF. To může být obzvláště užitečné, když chcete zajistit, aby vložené soubory zůstaly v původním formátu bez jakýchkoli změn. V tomto tutoriálu se podíváme na to, jak zakázat kompresi souborů v souboru PDF pomocí Aspose.PDF pro .NET. 
 
 ## Předpoklady
 
-Než se ponoříte do kódu, musíte mít splněno několik předpokladů:
+Než se ponoříme do kódu, je třeba splnit několik předpokladů:
 
-1.  Aspose.PDF for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete si jej stáhnout z[webové stránky](https://releases.aspose.com/pdf/net/).
-2. Visual Studio: Vývojové prostředí, kde můžete psát a spouštět svůj kód .NET.
+1. Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete si ji stáhnout z [webové stránky](https://releases.aspose.com/pdf/net/).
+2. Visual Studio: Vývojové prostředí, kde můžete psát a spouštět kód .NET.
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět úryvkům kódu.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, musíte do svého projektu C# importovat potřebné balíčky. Můžete to udělat takto:
+Chcete-li začít, musíte do svého projektu C# importovat potřebné balíčky. Zde je návod, jak to udělat:
 
 ### Vytvořit nový projekt
 
-Otevřete Visual Studio a vytvořte nový projekt C#. Pro jednoduchost si můžete vybrat konzolovou aplikaci.
+Otevřete Visual Studio a vytvořte nový projekt v C#. Pro zjednodušení si můžete vybrat konzolovou aplikaci.
 
-### Přidejte odkaz Aspose.PDF
+### Přidat odkaz na Aspose.PDF
 
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
-2. Vyberte „Spravovat balíčky NuGet“.
-3. Vyhledejte „Aspose.PDF“ a nainstalujte nejnovější verzi.
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+2. Vyberte možnost „Spravovat balíčky NuGet“.
+3. Vyhledejte soubor „Aspose.PDF“ a nainstalujte nejnovější verzi.
 
-### Importujte jmenný prostor
+### Importovat jmenný prostor
 
 V horní části souboru C# importujte jmenný prostor Aspose.PDF:
 
@@ -49,11 +51,11 @@ using System;
 using Aspose.Pdf;
 ```
 
-Nyní, když máme vše nastaveno, rozdělíme proces deaktivace komprese souborů v souboru PDF do zvládnutelných kroků.
+Nyní, když máme vše nastavené, pojďme si rozdělit proces zakázání komprese souborů v souboru PDF na zvládnutelné kroky.
 
-## Krok 1: Definujte adresář dokumentů
+## Krok 1: Definování adresáře dokumentů
 
-Nejprve musíte zadat cestu k adresáři, kde se nachází váš soubor PDF. To je zásadní, protože to programu říká, kde má najít soubor, se kterým chcete manipulovat.
+Nejprve je třeba zadat cestu k adresáři, kde se nachází váš PDF soubor. To je klíčové, protože to programu říká, kde má najít soubor, se kterým chcete manipulovat.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -61,15 +63,15 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Načtěte dokument PDF
 
- Dále načtete dokument PDF, který chcete upravit. To se provádí pomocí`Document` třídy poskytuje Aspose.PDF.
+Dále načtete PDF dokument, který chcete upravit. To se provádí pomocí `Document` třída poskytnutá souborem Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
 ```
 
-## Krok 3: Nastavte soubor, který má být přidán jako příloha
+## Krok 3: Nastavení souboru, který má být přidán jako příloha
 
-Nyní musíte vytvořit novou specifikaci souboru pro přílohu, kterou chcete přidat do PDF. To zahrnuje zadání názvu a typu souboru.
+Nyní je třeba vytvořit novou specifikaci souboru pro přílohu, kterou chcete přidat do PDF. To zahrnuje zadání názvu a typu souboru.
 
 ```csharp
 FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sample text file");
@@ -77,23 +79,23 @@ FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sam
 
 ## Krok 4: Zadejte vlastnost kódování
 
- Chcete-li zajistit, aby byl soubor přidán bez komprese, musíte nastavit vlastnost kódování specifikace souboru na`FileEncoding.None`. Tento krok je zásadní, protože přímo ovlivňuje způsob vložení souboru do PDF.
+Abyste zajistili, že bude soubor přidán bez komprese, je třeba nastavit vlastnost encoding ve specifikaci souboru na `FileEncoding.None`Tento krok je klíčový, protože přímo ovlivňuje, jak bude soubor vložen do PDF.
 
 ```csharp
 fileSpecification.Encoding = FileEncoding.None;
 ```
 
-## Krok 5: Přidejte přílohu k dokumentu
+## Krok 5: Přidání přílohy k dokumentu
 
-Když je specifikace souboru připravena, můžete nyní přidat přílohu do kolekce příloh dokumentu. Tento krok integruje soubor do PDF.
+Jakmile je specifikace souboru připravena, můžete nyní přidat přílohu do kolekce příloh dokumentu. Tímto krokem se soubor integruje do PDF.
 
 ```csharp
 pdfDocument.EmbeddedFiles.Add(fileSpecification);
 ```
 
-## Krok 6: Uložte nový výstup
+## Krok 6: Uložení nového výstupu
 
-Nakonec je potřeba upravený PDF dokument uložit. Zadejte výstupní cestu, kam chcete uložit nový soubor.
+Nakonec je třeba upravený dokument PDF uložit. Zadejte výstupní cestu, kam chcete nový soubor uložit.
 
 ```csharp
 dataDir = dataDir + "DisableFilesCompression_out.pdf";
@@ -102,7 +104,7 @@ pdfDocument.Save(dataDir);
 
 ## Krok 7: Potvrďte operaci
 
-Abyste zajistili, že vše proběhlo hladce, můžete vytisknout potvrzovací zprávu na konzoli.
+Abyste se ujistili, že vše proběhlo hladce, můžete do konzole vypsat potvrzovací zprávu.
 
 ```csharp
 Console.WriteLine("\nFile compression disabled successfully.\nFile saved at " + dataDir);
@@ -110,27 +112,29 @@ Console.WriteLine("\nFile compression disabled successfully.\nFile saved at " + 
 
 ## Závěr
 
-Zakázání komprese souborů v dokumentech PDF může být se správnými nástroji jednoduchý proces. Podle kroků uvedených v tomto kurzu můžete snadno spravovat soubory PDF a zajistit, aby si vložené přílohy zachovaly svůj původní formát. Aspose.PDF for .NET poskytuje výkonný a flexibilní způsob manipulace s dokumenty PDF, díky čemuž je vynikající volbou pro vývojáře i firmy.
+Zakázání komprese souborů v dokumentech PDF může být s pomocí správných nástrojů jednoduchý proces. Dodržováním kroků uvedených v tomto tutoriálu můžete snadno spravovat své soubory PDF a zajistit, aby si vložené přílohy zachovaly svůj původní formát. Aspose.PDF pro .NET poskytuje výkonný a flexibilní způsob manipulace s dokumenty PDF, což z něj činí vynikající volbu pro vývojáře i firmy.
 
-## Nejčastější dotazy
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty PDF programově.
+Aspose.PDF pro .NET je knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět PDF dokumenty.
 
-### Proč bych měl chtít zakázat kompresi souborů v PDF?
-Zakázání komprese souborů zajistí, že vložené soubory zůstanou ve svém původním formátu, což může být důležité pro integritu dat.
+### Proč bych měl/a chtít zakázat kompresi souborů v PDF?
+Zakázání komprese souborů zajistí, že vložené soubory zůstanou v původním formátu, což může být důležité pro integritu dat.
 
 ### Mohu používat Aspose.PDF zdarma?
- Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k hodnocení knihovny. Můžete si jej stáhnout[zde](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k otestování knihovny. Můžete si ji stáhnout. [zde](https://releases.aspose.com/).
 
-### Kde najdu další dokumentaci na Aspose.PDF?
- Komplexní dokumentaci naleznete na[Aspose webové stránky](https://reference.aspose.com/pdf/net/).
+### Kde najdu další dokumentaci k Aspose.PDF?
+Komplexní dokumentaci naleznete na [Webové stránky Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Jak získám podporu pro Aspose.PDF?
- Podporu můžete získat návštěvou stránky[Aspose fórum](https://forum.aspose.com/c/pdf/10).
+Podporu můžete získat návštěvou [Fórum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

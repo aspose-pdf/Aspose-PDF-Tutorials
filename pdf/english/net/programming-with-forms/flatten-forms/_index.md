@@ -8,7 +8,9 @@ url: /net/programming-with-forms/flatten-forms/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Flatten Forms In PDF Document
@@ -124,6 +126,7 @@ If you run into any problems, feel free to reach out for support on the [Aspose 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

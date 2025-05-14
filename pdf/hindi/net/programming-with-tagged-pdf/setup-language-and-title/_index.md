@@ -1,14 +1,16 @@
 ---
-title: सेटअप भाषा और शीर्षक
-linktitle: सेटअप भाषा और शीर्षक
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: .NET के लिए Aspose.PDF के साथ PDF दस्तावेज़ की भाषा और शीर्षक को कॉन्फ़िगर करने के लिए चरण-दर-चरण मार्गदर्शिका। वैयक्तिकृत बहुभाषी दस्तावेज़ बनाएँ।
-weight: 140
-url: /hi/net/programming-with-tagged-pdf/setup-language-and-title/
+"description": ".NET के लिए Aspose.PDF के साथ PDF दस्तावेज़ की भाषा और शीर्षक को कॉन्फ़िगर करने के लिए चरण-दर-चरण मार्गदर्शिका। वैयक्तिकृत बहुभाषी दस्तावेज़ बनाएँ।"
+"linktitle": "सेटअप भाषा और शीर्षक"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "सेटअप भाषा और शीर्षक"
+"url": "/hi/net/programming-with-tagged-pdf/setup-language-and-title/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सेटअप भाषा और शीर्षक
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-tagged-pdf/setup-language-and-title/
 टैग की गई PDF की दुनिया में उतरने से पहले, आइए वह सब कुछ इकट्ठा करें जिसकी आपको ज़रूरत है। यहाँ बताया गया है कि आपको क्या तैयार रखना चाहिए:
 
 - .NET का बुनियादी ज्ञान: हालांकि आपको एक असाधारण कोडर होने की आवश्यकता नहीं है, .NET अवधारणाओं से परिचित होना इस यात्रा को आसान बना देगा।
--  .NET के लिए Aspose.PDF स्थापित: सुनिश्चित करें कि आपके पास लाइब्रेरी स्थापित है। आप इसे मूल्यांकन के लिए डाउनलोड कर सकते हैं या लाइसेंस खरीद सकते हैं। जाँच करें[डाउनलोड पृष्ठ यहाँ](https://releases.aspose.com/pdf/net/).
+- .NET के लिए Aspose.PDF स्थापित: सुनिश्चित करें कि आपके पास लाइब्रेरी स्थापित है। आप इसे मूल्यांकन के लिए डाउनलोड कर सकते हैं या लाइसेंस खरीद सकते हैं। जाँच करें [डाउनलोड पृष्ठ यहाँ](https://releases.aspose.com/pdf/net/).
 - विज़ुअल स्टूडियो: यह वह जगह है जहाँ आप अपना कोड लिखेंगे और उसका परीक्षण करेंगे। अगर आपके पास यह नहीं है, तो इसे Microsoft वेबसाइट से प्राप्त करें।
 - C# भाषा प्रवीणता: यह गाइड C# में लिखी गई है। C# का थोड़ा सा अनुभव निश्चित रूप से आपको कोडिंग भागों को आसानी से पूरा करने में मदद करेगा।
 
@@ -57,7 +59,7 @@ Document document = new Document();
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आप पीडीएफ को सहेजना चाहते हैं। यह आपकी नई कार के लिए पार्किंग स्थान खोजने जैसा है।
+प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आप पीडीएफ को सहेजना चाहते हैं। यह आपकी नई कार के लिए पार्किंग स्थान खोजने जैसा है।
 
 ## चरण 3: टैग की गई सामग्री प्राप्त करें
 
@@ -111,7 +113,7 @@ taggedContent.RootElement.AppendChild(pEN);
 
 ### जर्मन पैराग्राफ जोड़ना
 
-अब, आइए एक जर्मन पैराग्राफ जोड़ें:
+अब, आइये एक जर्मन पैराग्राफ जोड़ते हैं:
 
 ```csharp
 LogicalStructure.ParagraphElement pDE = taggedContent.CreateParagraphElement();
@@ -156,7 +158,7 @@ taggedContent.RootElement.AppendChild(pSP);
 document.Save(dataDir + "SetupLanguageAndTitle.pdf");
 ```
 
-और बस इसी तरह, आपकी रचना अंतिम रूप ले लेती है और उसे सुरक्षित रख लेती है! इसे अपना पत्र भेजने से पहले लिफाफे को सील करने जैसा ही समझें।
+और बस इसी तरह, आपकी रचना अंतिम रूप ले लेती है और उसे सुरक्षित रख लेती है! इसे अपने पत्र भेजने से पहले लिफाफे को सील करने जैसा ही समझें।
 
 ## निष्कर्ष
 
@@ -175,13 +177,15 @@ document.Save(dataDir + "SetupLanguageAndTitle.pdf");
 हाँ! Aspose.PDF कई भाषाओं का समर्थन करता है, जिससे आप एक ही PDF दस्तावेज़ में विभिन्न भाषाओं में सामग्री जोड़ सकते हैं।
 
 ### क्या मुझे Aspose.PDF का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
-हालांकि आप इसे मुफ़्त में आज़मा सकते हैं, लेकिन उत्पादन में इस्तेमाल के लिए लाइसेंस की ज़रूरत होती है।[खरीद पृष्ठ](https://purchase.aspose.com/buy) अधिक जानकारी के लिए.
+हालांकि आप इसे मुफ़्त में आज़मा सकते हैं, लेकिन उत्पादन में इस्तेमाल के लिए लाइसेंस की ज़रूरत होती है। [खरीद पृष्ठ](https://purchase.aspose.com/buy) अधिक जानकारी के लिए.
 
 ### मैं Aspose.PDF पर अधिक जानकारी कहां पा सकता हूं?
- आप Aspose.PDF के लिए व्यापक दस्तावेज़ीकरण और समर्थन पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/net/).
+आप Aspose.PDF के लिए व्यापक दस्तावेज़ीकरण और समर्थन पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

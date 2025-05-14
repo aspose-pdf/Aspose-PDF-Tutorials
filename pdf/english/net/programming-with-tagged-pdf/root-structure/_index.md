@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/root-structure/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Root Structure
@@ -167,6 +169,7 @@ Creating a tagged PDF using Aspose.PDF for .NET isn’t as complex as it might s
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

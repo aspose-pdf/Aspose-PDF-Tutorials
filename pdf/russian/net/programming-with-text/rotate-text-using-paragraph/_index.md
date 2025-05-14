@@ -1,14 +1,16 @@
 ---
-title: Поворот текста с использованием абзаца в файле PDF
-linktitle: Поворот текста с использованием абзаца в файле PDF
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как повернуть текст в PDF с помощью Aspose.PDF для .NET. Следуйте этому пошаговому руководству, чтобы создать свои документы.
-weight: 380
-url: /ru/net/programming-with-text/rotate-text-using-paragraph/
+"description": "Узнайте, как повернуть текст в PDF с помощью Aspose.PDF для .NET. Следуйте этому пошаговому руководству, чтобы создать свои документы."
+"linktitle": "Поворот текста с использованием абзаца в файле PDF"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Поворот текста с использованием абзаца в файле PDF"
+"url": "/ru/net/programming-with-text/rotate-text-using-paragraph/"
+"weight": 380
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Поворот текста с использованием абзаца в файле PDF
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-text/rotate-text-using-paragraph/
 
 Прежде чем погрузиться в захватывающий мир поворота текста в файлах PDF, давайте убедимся, что у вас все настроено правильно. Вот необходимые вам условия:
 
-1.  Aspose.PDF для .NET: Убедитесь, что в вашем проекте установлен Aspose.PDF для .NET. Вы можете загрузить его с[веб-сайт](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF для .NET: Убедитесь, что в вашем проекте установлен Aspose.PDF для .NET. Вы можете загрузить его с [веб-сайт](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: в этом руководстве предполагается, что вы используете Visual Studio для разработки .NET.
 3. Базовые знания C#: Знакомство с программированием на C# поможет вам лучше понять примеры. Если вы новичок, не волнуйтесь; мы идем шаг за шагом!
 4. .NET Framework: Убедитесь, что ваш проект настроен на соответствующую версию .NET Framework. Aspose.PDF поддерживает различные версии, поэтому проверьте документацию на совместимость.
@@ -105,7 +107,7 @@ textFragment1.TextState.Rotation = 45; // Установить вращение
 
 ### 4.2: Создание основного текстового фрагмента
 
-Далее добавим основной фрагмент текста.
+Далее добавим основной текстовый фрагмент.
 
 ```csharp
 TextFragment textFragment2 = new TextFragment("main text");
@@ -135,7 +137,7 @@ paragraph.AppendLine(textFragment1);
 paragraph.AppendLine(textFragment2);
 paragraph.AppendLine(textFragment3);
 ```
- Мы просто добавляем каждый фрагмент текста в наш абзац.`AppendLine` Метод обеспечивает вертикальное расположение каждого фрагмента текста.
+Мы просто добавляем каждый фрагмент текста в наш абзац. `AppendLine` Метод обеспечивает вертикальное расположение каждого фрагмента текста.
 
 ## Шаг 6: Создание объекта TextBuilder
 
@@ -168,19 +170,21 @@ pdfDocument.Save(dataDir + "TextFragmentTests_Rotated2_out.pdf");
 Aspose.PDF для .NET — это мощная библиотека, которая позволяет разработчикам создавать, изменять и конвертировать PDF-документы непосредственно в приложениях .NET.
 
 ### Как установить Aspose.PDF в мой проект?
- Вы можете установить Aspose.PDF через диспетчер пакетов NuGet в Visual Studio или загрузив его с сайта[Страница загрузок Aspose](https://releases.aspose.com/pdf/net/).
+Вы можете установить Aspose.PDF через диспетчер пакетов NuGet в Visual Studio или загрузив его с сайта  [Страница загрузок Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Могу ли я использовать Aspose.PDF бесплатно?
- Да, Aspose.PDF предлагает бесплатную пробную версию. Вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/) и изучите его особенности.
+Да, Aspose.PDF предлагает бесплатную пробную версию. Вы можете начать с [бесплатная пробная версия](https://releases.aspose.com/) и изучите его особенности.
 
 ### Доступна ли поддержка для Aspose.PDF?
- Конечно! Вы можете обратиться к[Поддержка Aspose](https://forum.aspose.com/c/pdf/10) за помощь в решении любых проблем, с которыми вы столкнетесь.
+Конечно! Вы можете обратиться к [Поддержка Aspose](https://forum.aspose.com/c/pdf/10) за помощь в решении любых проблем, с которыми вы столкнетесь.
 
 ### Как получить временную лицензию на Aspose.PDF?
- Вы можете приобрести временную лицензию у[Сайт Aspose](https://purchase.aspose.com/temporary-license/) чтобы опробовать все возможности библиотеки.
+Вы можете приобрести временную лицензию у [Сайт Aspose](https://purchase.aspose.com/temporary-license/) чтобы опробовать все возможности библиотеки.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

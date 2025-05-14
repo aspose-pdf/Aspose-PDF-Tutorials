@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Embed Custom Fonts in PDFs Using Aspose.PDF for Java
 
@@ -167,6 +169,9 @@ To continue exploring the capabilities of Aspose.PDF, consider diving into other
 For further assistance, join the community on the [Aspose Forum](https://forum.aspose.com/c/pdf/10). Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

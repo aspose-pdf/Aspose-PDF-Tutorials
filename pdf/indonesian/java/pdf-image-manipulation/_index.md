@@ -1,14 +1,16 @@
 ---
-title: Manipulasi Gambar PDF
-linktitle: Manipulasi Gambar PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari manipulasi gambar PDF dengan Aspose.PDF untuk Java. Ubah, edit, dan optimalkan gambar dalam dokumen PDF Anda dengan mudah.
-weight: 13
-url: /id/java/pdf-image-manipulation/
+"description": "Pelajari manipulasi gambar PDF dengan Aspose.PDF untuk Java. Ubah, edit, dan optimalkan gambar dalam dokumen PDF Anda dengan mudah."
+"linktitle": "Manipulasi Gambar PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Manipulasi Gambar PDF"
+"url": "/id/java/pdf-image-manipulation/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulasi Gambar PDF
@@ -38,7 +40,7 @@ Pelajari cara menambahkan gambar ke berkas PDF yang sudah ada di Java dengan mud
 ### [Mengonversi Gambar ke PDF menggunakan Java](./convert-an-image-to-pdf-using-java/)
 Pelajari cara mengonversi gambar ke PDF menggunakan Java dengan panduan lengkap ini. Petunjuk langkah demi langkah dan contoh kode disertakan.
 ### [Konversi Wilayah Halaman Tertentu ke Gambar dalam PDF menggunakan Java](./convert-particular-page-region-to-image-in-pdf-using-java/)
-Pelajari cara mengonversi area halaman tertentu ke gambar dalam PDF menggunakan Java dengan panduan langkah demi langkah. Jelajahi kemampuan canggih Aspose.PDF untuk Java dalam manipulasi PDF.
+Pelajari cara mengonversi area halaman tertentu ke gambar dalam PDF menggunakan Java dengan panduan langkah demi langkah. Jelajahi kemampuan canggih Aspose.PDF untuk Java dalam memanipulasi PDF.
 ### [Konversi Halaman PDF ke Gambar BMP menggunakan Java](./convert-pdf-pages-to-bmp-image-using-java/)
 Pelajari cara mengonversi halaman PDF ke gambar BMP menggunakan Java dengan Aspose.PDF untuk Java. Ikuti panduan langkah demi langkah kami untuk konversi PDF ke BMP yang lancar.
 ### [Identifikasi apakah Gambar di Dalam PDF Berwarna atau Hitam Putih di Java](./identify-if-image-inside-pdf-is-colored-or-black-and-white-in-java/)
@@ -47,9 +49,11 @@ Pelajari cara mengidentifikasi gambar berwarna atau hitam putih di dalam PDF men
 Pelajari cara mengganti gambar dalam file PDF dengan Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode untuk penggantian gambar yang lancar.
 ### [Mengatur DPI atau PPI Gambar dalam PDF menggunakan Java](./setting-dpi-or-ppi-of-images-in-pdf-using-java/)
 Optimalkan kualitas gambar PDF dengan panduan langkah demi langkah kami tentang pengaturan DPI/PPI dalam PDF menggunakan Java. Pelajari cara menyempurnakan dokumen Anda untuk tampilan cetak dan digital.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

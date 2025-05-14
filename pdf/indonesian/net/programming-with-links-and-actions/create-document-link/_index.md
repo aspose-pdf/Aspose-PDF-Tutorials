@@ -1,14 +1,16 @@
 ---
-title: Buat Tautan Dokumen
-linktitle: Buat Tautan Dokumen
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Temukan cara membuat tautan dokumen dalam PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan navigasi dan interaktivitas dalam dokumen PDF Anda.
-weight: 30
-url: /id/net/programming-with-links-and-actions/create-document-link/
+"description": "Temukan cara membuat tautan dokumen dalam PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan navigasi dan interaktivitas dalam dokumen PDF Anda."
+"linktitle": "Buat Tautan Dokumen"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat Tautan Dokumen"
+"url": "/id/net/programming-with-links-and-actions/create-document-link/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat Tautan Dokumen
@@ -22,14 +24,14 @@ Membuat tautan dalam dokumen PDF dapat meningkatkan pengalaman pengguna secara s
 Sebelum Anda terjun ke dunia manipulasi PDF dengan Aspose.PDF untuk .NET, pastikan Anda memiliki beberapa hal penting:
 
 - Visual Studio: Pastikan Anda telah menginstal Visual Studio untuk membuat dan menjalankan aplikasi .NET.
-- Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 - Pemahaman Dasar C#: Pemahaman mendasar tentang pemrograman C# akan membantu Anda menavigasi potongan kode dengan mudah.
 
 ### Menginstal Aspose.PDF untuk .NET
 
 Untuk menginstal Aspose.PDF untuk .NET, Anda dapat menggunakan pengelola paket NuGet di Visual Studio. Berikut caranya:
 
-1. Buka Proyek Anda: Mulai Visual Studio dan buka proyek Anda yang sudah ada atau buat yang baru.
+1. Buka Proyek Anda: Mulai Visual Studio dan buka proyek Anda yang ada atau buat yang baru.
    
 2. NuGet Package Manager: Klik kanan pada proyek di Solution Explorer.
    
@@ -39,7 +41,7 @@ Untuk menginstal Aspose.PDF untuk .NET, Anda dapat menggunakan pengelola paket N
 
 5. Verifikasi Instalasi: Pastikan itu muncul dalam referensi proyek Anda.
 
-Setelah Anda menyiapkan semuanya, Anda siap untuk mulai bekerja!
+Setelah semuanya siap, Anda siap untuk mulai bekerja!
 
 ## Paket Impor
 
@@ -64,7 +66,7 @@ Dalam setiap usaha pemrograman, pengaturan adalah kuncinya! Mulailah dengan mene
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke direktori tempat file PDF Anda disimpan. Bisa jadi seperti ini`"C:\\Documents\\"`, tergantung pada pengaturan Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur ke direktori tempat file PDF Anda disimpan. Bisa jadi seperti ini `"C:\\Documents\\"`, tergantung pada pengaturan Anda.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -74,7 +76,7 @@ Sekarang, saatnya membuka dokumen PDF yang ingin Anda gunakan. Di sinilah perjal
 Document document = new Document(dataDir + "CreateDocumentLink.pdf");
 ```
 
- Pada baris ini, kita membuat sebuah instance dari`Document` kelas dan memuat berkas PDF target kita. Pastikan berkas “CreateDocumentLink.pdf” ada di direktori yang ditentukan, atau Anda akan menemui sedikit kendala.
+Pada baris ini, kita membuat sebuah instance dari `Document` kelas dan memuat berkas PDF target kita. Pastikan berkas “CreateDocumentLink.pdf” ada di direktori yang ditentukan, atau Anda akan menemui sedikit kendala.
 
 ## Langkah 3: Tentukan Halaman untuk Pembuatan Tautan
 
@@ -88,13 +90,13 @@ Halaman-halaman tersebut diindeks nol di Aspose, yang berarti Anda mulai menghit
 
 ## Langkah 4: Buat Anotasi Tautan
 
- Mengklik tautan akan mengarah ke suatu tempat! Mari kita buat`LinkAnnotation` yang akan diklik pengguna. Inilah saat ketika tautan Anda benar-benar terbentuk.
+Mengklik tautan akan mengarah ke suatu tempat! Mari kita buat `LinkAnnotation` yang akan diklik pengguna. Inilah saat tautan Anda benar-benar terbentuk.
 
 ```csharp
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
- Di sini, persegi panjang menentukan area yang dapat diklik untuk tautan. Parameter`(100, 100, 300, 300)` mewakili koordinat persegi panjang (kiri, bawah, kanan, atas). Sesuaikan angka-angka ini berdasarkan seberapa besar area tautan yang Anda inginkan.
+Di sini, persegi panjang menentukan area yang dapat diklik untuk tautan. Parameter `(100, 100, 300, 300)` mewakili koordinat persegi panjang (kiri, bawah, kanan, atas). Sesuaikan angka-angka ini berdasarkan seberapa besar area tautan yang Anda inginkan.
 
 ## Langkah 5: Sesuaikan Tampilan Tautan
 
@@ -126,7 +128,7 @@ dataDir = dataDir + "CreateDocumentLink_out.pdf";
 document.Save(dataDir);
 ```
 
-Di sini, kami menentukan nama file baru ( “_out.pdf” menunjukkan bahwa itu adalah salinan yang dimodifikasi) dan simpan dokumen tersebut, pastikan semua kerja keras Anda terpelihara.
+Di sini, kami tentukan nama file baru (“_out.pdf” menunjukkan bahwa itu adalah salinan yang dimodifikasi) dan simpan dokumen tersebut, pastikan semua kerja keras Anda terpelihara.
 
 ## Langkah 8: Konfirmasi Konsol
 
@@ -148,19 +150,21 @@ Nah, itu dia! Dengan menggunakan Aspose.PDF untuk .NET, Anda dapat dengan mudah 
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Bisakah saya membuat tautan ke situs web eksternal?
- Ya, Anda dapat membuat tautan ke situs web eksternal dengan mengubah tindakan tautan ke`GoToRemoteAction` dengan URL.
+Ya, Anda dapat membuat tautan ke situs web eksternal dengan mengubah tindakan tautan ke `GoToRemoteAction` dengan URL.
 
 ### Apakah ada uji coba gratis yang tersedia?
- Tentu saja! Kamu bisa[unduh uji coba gratis di sini](https://releases.aspose.com/).
+Tentu saja! Kamu bisa [unduh uji coba gratis di sini](https://releases.aspose.com/).
 
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat menghubungi kami melalui[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk bantuan.
+Anda dapat menghubungi kami melalui [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk bantuan.
 
 ### Bagaimana cara memperoleh lisensi sementara?
- Anda dapat memperoleh lisensi sementara melalui[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara melalui [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

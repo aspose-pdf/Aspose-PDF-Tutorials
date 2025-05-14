@@ -8,7 +8,9 @@ url: /net/programming-with-forms/get-xfaproperties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get XFAProperties
@@ -136,6 +138,7 @@ Yes, you can request a temporary license for Aspose.PDF [here](https://purchase.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

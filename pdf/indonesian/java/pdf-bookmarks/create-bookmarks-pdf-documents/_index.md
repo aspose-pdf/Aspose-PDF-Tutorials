@@ -1,14 +1,16 @@
 ---
-title: Membuat Bookmark di Dokumen PDF
-linktitle: Membuat Bookmark di Dokumen PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara membuat bookmark PDF dengan Aspose.PDF untuk Java. Tingkatkan navigasi dokumen dan pengalaman pengguna. Panduan langkah demi langkah dengan kode sumber.
-weight: 10
-url: /id/java/pdf-bookmarks/create-bookmarks-pdf-documents/
+"description": "Pelajari cara membuat bookmark PDF dengan Aspose.PDF untuk Java. Tingkatkan navigasi dokumen dan pengalaman pengguna. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Membuat Bookmark di Dokumen PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Membuat Bookmark di Dokumen PDF"
+"url": "/id/java/pdf-bookmarks/create-bookmarks-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Bookmark di Dokumen PDF
@@ -23,7 +25,7 @@ Di era digital, mengelola dan menavigasi dokumen PDF yang besar bisa menjadi tug
 Sebelum kita masuk ke bagian pengkodean, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
--  Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Memulai
 
@@ -51,11 +53,11 @@ Untuk bekerja dengan dokumen PDF yang sudah ada, Anda perlu memuatnya terlebih d
 Document pdfDocument = new Document("your_document.pdf");
 ```
 
- Mengganti`"your_document.pdf"` dengan jalur ke berkas PDF Anda.
+Mengganti `"your_document.pdf"` dengan jalur ke berkas PDF Anda.
 
 ### Langkah 4: Menambahkan Bookmark
 
- Setelah dokumen dimuat, Anda dapat mulai menambahkan bookmark. Bookmark ditambahkan ke dokumen.`OutlineCollection` dokumen PDF. Berikut cara membuat penanda buku:
+Setelah dokumen dimuat, Anda dapat mulai menambahkan bookmark. Bookmark ditambahkan ke dokumen. `OutlineCollection` dokumen PDF. Berikut cara membuat penanda buku:
 
 ```java
 OutlineCollection outlines = pdfDocument.getOutlines();
@@ -88,7 +90,7 @@ Dalam tutorial ini, kita telah mempelajari cara membuat bookmark dalam dokumen P
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Menginstal Aspose.PDF untuk Java sangatlah mudah. Kunjungi halaman unduhan[Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan untuk lingkungan pengembangan spesifik Anda.
+Menginstal Aspose.PDF untuk Java sangatlah mudah. Kunjungi halaman unduhan [Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan untuk lingkungan pengembangan spesifik Anda.
 
 ### Bisakah saya menyesuaikan tampilan penanda buku?
 
@@ -104,10 +106,12 @@ Ya, Anda dapat membuat bookmark yang menautkan ke bagian tertentu dalam suatu ha
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh?
 
- Anda dapat mengakses dokumentasi yang komprehensif dan berbagai contoh di situs dokumentasi Aspose[Di Sini](https://reference.aspose.com/pdf/java/)Ini adalah sumber daya yang berharga untuk menguasai Aspose.PDF untuk Java.
+Anda dapat mengakses dokumentasi yang komprehensif dan berbagai contoh di situs dokumentasi Aspose [Di Sini](https://reference.aspose.com/pdf/java/)Ini adalah sumber daya yang berharga untuk menguasai Aspose.PDF untuk Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

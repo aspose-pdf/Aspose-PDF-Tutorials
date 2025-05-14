@@ -1,14 +1,16 @@
 ---
-title: Hassas İçeriklere Redaksiyon Uygulayın
-linktitle: Hassas İçeriklere Redaksiyon Uygulayın
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF for Java ile PDF'lerdeki hassas içerikleri sansürlemenin gücünü keşfedin.
-weight: 15
-url: /tr/java/pdf-annotations/apply-redaction-sensitive-content/
+"description": "Aspose.PDF for Java ile PDF'lerdeki hassas içerikleri sansürlemenin gücünü keşfedin."
+"linktitle": "Hassas İçeriklere Redaksiyon Uygulayın"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Hassas İçeriklere Redaksiyon Uygulayın"
+"url": "/tr/java/pdf-annotations/apply-redaction-sensitive-content/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hassas İçeriklere Redaksiyon Uygulayın
@@ -23,7 +25,7 @@ Redaksiyon, bir belgedeki hassas bilgileri kalıcı olarak kaldırma veya gizlem
 Redaksiyon sürecine başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
--  Java Kütüphanesi için Aspose.PDF: Java kütüphanesi için Aspose.PDF'yi indirin ve kurun[Burada](https://releases.aspose.com/pdf/java/).
+- Java Kütüphanesi için Aspose.PDF: Java kütüphanesi için Aspose.PDF'yi indirin ve kurun [Burada](https://releases.aspose.com/pdf/java/).
 
 
 ## Java Ortamınızı Kurma
@@ -50,7 +52,7 @@ Bu adımda hassas bilgiler içeren bir PDF belgesi yükleyeceğiz. Bir PDF dosya
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Yer değiştirmek`"example.pdf"` PDF dosyanızın yolunu belirtin.
+Yer değiştirmek `"example.pdf"` PDF dosyanızın yolunu belirtin.
 
 ## Hassas İçeriği Belirleme
 
@@ -109,12 +111,14 @@ Evet, sansürlenmiş içeriğin görünümünü özelleştirebilir, örneğin sa
 
 Evet, birden fazla PDF belgesini toplu olarak işleyip aynı anda üzerlerine düzenleme uygulayabilirsiniz.
 
-### Java için Aspose.PDF'de redaksiyona yönelik herhangi bir sınırlama var mı?
+### Java için Aspose.PDF'de redaksiyona ilişkin herhangi bir sınırlama var mı?
 
 Java için Aspose.PDF güçlü düzenleme yetenekleri sunar, ancak istenmeyen bilgi sızıntısının olmadığından emin olmak için düzenlenmiş belgelerin kapsamlı bir şekilde test edilmesi önemlidir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

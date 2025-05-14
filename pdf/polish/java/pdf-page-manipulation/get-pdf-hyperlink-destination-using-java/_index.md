@@ -1,14 +1,16 @@
 ---
-title: Pobierz PDF Hyperlink Destination za pomocą Java
-linktitle: Pobierz PDF Hyperlink Destination za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak pobierać miejsca docelowe hiperłączy PDF za pomocą Java z Aspose.PDF dla Java. Naucz się krok po kroku z przykładami kodu w tym kompleksowym samouczku.
-weight: 10
-url: /pl/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
+"description": "Dowiedz się, jak pobierać miejsca docelowe hiperłączy PDF za pomocą Java z Aspose.PDF dla Java. Naucz się krok po kroku z przykładami kodu w tym kompleksowym samouczku."
+"linktitle": "Pobierz PDF Hyperlink Destination za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Pobierz PDF Hyperlink Destination za pomocą Java"
+"url": "/pl/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz PDF Hyperlink Destination za pomocą Java
@@ -16,7 +18,7 @@ url: /pl/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
 
 ## Wstęp
 
-tym samouczku pokażemy, jak uzyskać miejsca docelowe hiperłączy PDF za pomocą Javy z pomocą Aspose.PDF dla Javy. Hiperłącza są niezbędnymi elementami w dokumentach PDF, umożliwiającymi użytkownikom nawigację do określonych miejsc docelowych w pliku PDF lub zasobach zewnętrznych. Przeprowadzimy ten proces krok po kroku, podając przykłady kodu i wyjaśnienia.
+W tym samouczku pokażemy, jak uzyskać miejsca docelowe hiperłączy PDF za pomocą Javy z pomocą Aspose.PDF dla Javy. Hiperłącza są niezbędnymi elementami w dokumentach PDF, umożliwiającymi użytkownikom nawigację do określonych miejsc docelowych w pliku PDF lub zasobach zewnętrznych. Przeprowadzimy ten proces krok po kroku, podając przykłady kodu i wyjaśnienia.
 
 ## Zrozumienie hiperłączy PDF
 
@@ -32,12 +34,12 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 ## Konfigurowanie Aspose.PDF dla Java
 
 Aby rozpocząć, musisz skonfigurować Aspose.PDF dla Java w swoim projekcie. Wykonaj następujące kroki:
-1.  Pobierz Aspose.PDF dla Java z[Tutaj](https://releases.aspose.com/pdf/java/).
+1. Pobierz Aspose.PDF dla Java z [Tutaj](https://releases.aspose.com/pdf/java/).
 2. Dodaj bibliotekę Aspose.PDF do swojego projektu Java.
 
 ## Ładowanie dokumentu PDF
 
-Najpierw załadujemy dokument PDF za pomocą Aspose.PDF dla Java. Oto kod, który to zrobi:
+Najpierw załadujemy dokument PDF za pomocą Aspose.PDF dla Javy. Oto kod, który to zrobi:
 
 ```java
 // Załaduj dokument PDF
@@ -68,13 +70,13 @@ for (LinkAnnotation link : linkAnnotations) {
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak uzyskać miejsca docelowe hiperłączy PDF przy użyciu Java i Aspose.PDF dla Java. Omówiliśmy podstawy hiperłączy PDF, skonfigurowaliśmy niezbędne środowisko, wczytaliśmy dokument PDF, pobraliśmy hiperłącza i wyodrębniliśmy ich miejsca docelowe. Ta wiedza może być cenna w przypadku różnych zadań związanych z manipulacją PDF w aplikacjach Java.
+tym samouczku nauczyliśmy się, jak uzyskać miejsca docelowe hiperłączy PDF przy użyciu Java i Aspose.PDF dla Java. Omówiliśmy podstawy hiperłączy PDF, skonfigurowaliśmy niezbędne środowisko, wczytaliśmy dokument PDF, pobraliśmy hiperłącza i wyodrębniliśmy ich miejsca docelowe. Ta wiedza może być cenna w przypadku różnych zadań związanych z manipulacją PDF w aplikacjach Java.
 
 ## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.PDF dla Java?
 
- Aby zainstalować Aspose.PDF dla Java, pobierz bibliotekę ze strony[Tutaj](https://releases.aspose.com/pdf/java/) i dodaj go do zależności swojego projektu Java.
+Aby zainstalować Aspose.PDF dla Java, pobierz bibliotekę ze strony [Tutaj](https://releases.aspose.com/pdf/java/) i dodaj go do zależności swojego projektu Java.
 
 ### Czy mogę używać Aspose.PDF dla Java za darmo?
 
@@ -90,10 +92,12 @@ Hiperłącza można modyfikować i usuwać, uzyskując dostęp do adnotacji łą
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.PDF dla Java?
 
- Szczegółową dokumentację Aspose.PDF dla języka Java można znaleźć pod adresem[Tutaj](https://reference.aspose.com/pdf/java/).
+Szczegółową dokumentację Aspose.PDF dla języka Java można znaleźć pod adresem [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

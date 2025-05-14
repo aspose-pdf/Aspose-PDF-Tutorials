@@ -1,34 +1,36 @@
 ---
-title: Nastavit vlastnost popisku v souboru PDF
-linktitle: Nastavit vlastnost popisku v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak nastavit vlastnost callout v souboru PDF pomocí Aspose.PDF for .NET v tomto podrobném, podrobném tutoriálu.
-weight: 130
-url: /cs/net/annotations/setcalloutproperty/
+"description": "V tomto podrobném návodu krok za krokem se naučíte, jak nastavit vlastnost callout v souboru PDF pomocí Aspose.PDF pro .NET."
+"linktitle": "Nastavení vlastnosti popisku v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Nastavení vlastnosti popisku v souboru PDF"
+"url": "/cs/net/annotations/setcalloutproperty/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavit vlastnost popisku v souboru PDF
+# Nastavení vlastnosti popisku v souboru PDF
 
 ## Zavedení
 
-Vytváření profesionálních a vizuálně přitažlivých dokumentů PDF často vyžaduje přidání anotací, které upozorňují na konkrétní obsah. Jednou z takových poznámek je popisek, který je jako ty bubliny, které vidíte v komiksech. Pomáhají objasnit nebo zdůraznit text ve vašem PDF. Aspose.PDF for .NET neuvěřitelně usnadňuje přidávání takových anotací do vašich dokumentů a v tomto tutoriálu si projdeme, jak nastavit vlastnost callout v souboru PDF pomocí této výkonné knihovny. Ať už jste zkušený vývojář nebo teprve začínáte, na konci této příručky budete mít jasno v tom, jak pracovat s popisky v souborech PDF.
+Vytváření profesionálních a vizuálně přitažlivých dokumentů PDF často vyžaduje přidání anotací, které upozorňují na konkrétní obsah. Jednou z takových anotací je popisek, který je podobný těm bublinám v komiksech. Pomáhá objasnit nebo zdůraznit text ve vašem PDF. Aspose.PDF pro .NET neuvěřitelně usnadňuje přidávání takových anotací do vašich dokumentů a v tomto tutoriálu si ukážeme, jak nastavit vlastnost popisek v souboru PDF pomocí této výkonné knihovny. Ať už jste zkušený vývojář, nebo teprve začínáte, po přečtení této příručky budete mít jasnou představu o tom, jak s popisky v souborech PDF pracovat.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, pojďme si pokrýt to podstatné, co potřebujete, abyste mohli začít.
+Než se ponoříme do kódu, pojďme si probrat základy, které potřebujete k zahájení.
 
-1.  Aspose.PDF for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/pdf/net/).
-2. IDE: Vývojové prostředí, jako je Visual Studio.
-3. .NET Framework: Ujistěte se, že máte na svém počítači nainstalováno rozhraní .NET.
-4. Dočasná licence: Pokud chcete vyzkoušet všechny funkce Aspose.PDF bez omezení, získejte a[dočasná licence](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF pro .NET. Můžete si ji stáhnout z [zde](https://releases.aspose.com/pdf/net/).
+2. IDE: Vývojové prostředí, jako například Visual Studio.
+3. .NET Framework: Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET.
+4. Dočasná licence: Pokud chcete vyzkoušet všechny funkce Aspose.PDF bez omezení, pořiďte si [dočasná licence](https://purchase.aspose.com/temporary-license/).
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než začnete psát kód, musíte importovat potřebné balíčky, které vám umožní pracovat se soubory PDF a anotacemi.
+Než začnete psát kód, je potřeba importovat potřebné balíčky, které vám umožní pracovat s PDF soubory a anotacemi.
 
 ```csharp
 using Aspose.Pdf.Annotations;
@@ -39,61 +41,61 @@ using System.Linq;
 using System.Text;
 ```
 
-Tyto importy vám poskytnou všechny potřebné třídy a metody pro manipulaci s dokumenty PDF a vytváření anotací, jako je popis.
+Tyto importy vám poskytnou všechny potřebné třídy a metody pro manipulaci s PDF dokumenty a vytváření anotací, jako je například popisek.
 
-## Krok 1: Inicializujte dokument PDF
+## Krok 1: Inicializace dokumentu PDF
 
-Prvním krokem na naší cestě je inicializace nového dokumentu PDF, do kterého přidáme naši popisku. Berte to jako nastavení prázdného plátna, kde můžete začít přidávat prvky.
+Prvním krokem na naší cestě je inicializace nového PDF dokumentu, kam přidáme naši anotaci s popiskem. Představte si to jako nastavení prázdného plátna, kam můžete začít přidávat prvky.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Inicializujte nový dokument PDF
+// Inicializace nového PDF dokumentu
 Document doc = new Document();
 ```
- Tady vytváříme nový`Document` objekt, který bude sloužit jako náš soubor PDF. The`dataDir` proměnná je nastavena na adresář, kam chcete uložit soubor PDF poté, co skončíme.
+Zde vytváříme nový `Document` objekt, který bude sloužit jako náš PDF soubor. `dataDir` Proměnná je nastavena na adresář, kam chcete po dokončení uložit soubor PDF.
 
-## Krok 2: Přidejte do dokumentu novou stránku
+## Krok 2: Přidání nové stránky do dokumentu
 
-Dokument PDF může mít více stránek a v tomto kroku do našeho dokumentu přidáme novou stránku. Na této stránce bude umístěna naše popisková anotace.
+Dokument PDF může mít více stránek a v tomto kroku do dokumentu přidáme novou stránku. Na tuto stránku umístíme naši popisnou anotaci.
 
 ```csharp
-//Přidejte do dokumentu novou stránku
+// Přidat do dokumentu novou stránku
 Page page = doc.Pages.Add();
 ```
- The`Pages.Add()`metoda se používá k přidání nové stránky do`doc` objekt. Nová stránka je uložena v`page` proměnnou, kterou později použijeme při přidávání anotace.
+Ten/Ta/To `Pages.Add()` Metoda se používá k přidání nové stránky do `doc` objekt. Nová stránka je uložena v `page` proměnnou, kterou později použijeme při přidávání anotace.
 
-## Krok 3: Definujte výchozí vzhled
+## Krok 3: Definování výchozího vzhledu
 
-Poznámky, stejně jako popisky, mají vizuální vzhled, který si můžete přizpůsobit. V tomto kroku definujeme, jak má text v popisku vypadat.
+Anotace, stejně jako popisek, mají vizuální vzhled, který si můžete přizpůsobit. V tomto kroku definujeme, jak by měl text v popisku vypadat.
 
 ```csharp
-// Definujte výchozí vzhled pro anotaci
+// Definujte výchozí vzhled anotace
 DefaultAppearance da = new DefaultAppearance();
 da.TextColor = System.Drawing.Color.Red;
 da.FontSize = 10;
 ```
- Vytváříme a`DefaultAppearance` objekt, který definuje barvu textu a velikost písma. Zde bude text červený a velikost písma je nastavena na 10. Tento vzhled bude aplikován na anotaci popisku.
+Vytvoříme `DefaultAppearance` objekt, který definuje barvu textu a velikost písma. Zde bude text červený a velikost písma je nastavena na 10. Tento vzhled bude použit na popisek.
 
-## Krok 4: Vytvořte anotaci volného textu
+## Krok 4: Vytvořte anotaci s volným textem
 
-Nyní je čas vytvořit skutečnou anotaci. Anotace volného textu nám umožňuje přidat popisek s konkrétním textem a stylem.
+Nyní je čas vytvořit samotnou anotaci. Anotace s volným textem nám umožňuje přidat popisek s konkrétním textem a stylem.
 
 ```csharp
-// Vytvořte FreeTextAnnotation s popiskem
+// Vytvořte anotaci FreeText s popiskem
 FreeTextAnnotation fta = new FreeTextAnnotation(page, new Rectangle(422.25, 645.75, 583.5, 702.75), da);
 fta.Intent = FreeTextIntent.FreeTextCallout;
 fta.EndingStyle = LineEnding.OpenArrow;
 ```
- Vytváříme a`FreeTextAnnotation` objekt s konkrétními souřadnicemi, definujícími jeho polohu na stránce. The`Intent` je nastaveno na`FreeTextCallout` , což znamená, že se jedná o popisku. The`EndingStyle` je nastaveno na`OpenArrow`což znamená, že řádek popisu bude končit otevřenou šipkou.
+Vytvoříme `FreeTextAnnotation` objekt se specifickými souřadnicemi, které definují jeho polohu na stránce. `Intent` je nastaveno na `FreeTextCallout`, což značí, že se jedná o anotaci s popiskem. `EndingStyle` je nastaveno na `OpenArrow`, což znamená, že řádek popisu bude končit otevřenou šipkou.
 
-## Krok 5: Definujte body čáry popisku
+## Krok 5: Definování bodů čáry popisu
 
-Popisek má čáru, která ukazuje na oblast zájmu. Zde definujeme body, které tvoří tuto čáru.
+Popisek má čáru, která ukazuje na oblast zájmu. Zde definujeme body, které tuto čáru tvoří.
 
 ```csharp
-// Definujte body pro čáru popisku
+// Definujte body pro čáru popisu
 fta.Callout = new Point[]
 {
     new Point(428.25, 651.75), 
@@ -101,66 +103,68 @@ fta.Callout = new Point[]
     new Point(474, 681.375)
 };
 ```
- The`Callout` vlastnost je pole`Point` objekty, z nichž každý představuje souřadnice na stránce. Tyto body definují cestu čáry popisku a dodávají jí klasický vzhled bubliny.
+Ten/Ta/To `Callout` vlastnost je pole `Point` objekty, z nichž každý představuje souřadnici na stránce. Tyto body definují cestu čáry popisu a dodávají jí klasický vzhled řečové bubliny.
 
-## Krok 6: Přidejte anotaci na stránku
+## Krok 6: Přidání anotace na stránku
 
 Po vytvoření a konfiguraci naší anotace je dalším krokem její přidání na stránku.
 
 ```csharp
-// Přidejte na stránku anotaci
+// Přidejte anotaci na stránku
 page.Annotations.Add(fta);
 ```
- The`Annotations.Add()` metoda se používá k umístění anotace na stránku, kterou jsme vytvořili dříve. Tento krok efektivně „vykreslí“ popisek na stránku PDF.
+Ten/Ta/To `Annotations.Add()` Metoda se používá k umístění anotace na stránku, kterou jsme vytvořili dříve. Tento krok efektivně „nakreslí“ popisek na stránku PDF.
 
-## Krok 7: Nastavte obsah RTF
+## Krok 7: Nastavení obsahu formátovaného textu
 
-Popisky mohou obsahovat formátovaný text, což umožňuje formátovaný obsah v bublině. Přidejme nějaký ukázkový text.
+Popisky mohou obsahovat formátovaný text, což umožňuje vložit formátovaný obsah do bubliny. Přidejme ukázkový text.
 
 ```csharp
-// Nastavte formátovaný text pro anotaci
-fta.RichText = "<body xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:APIVersion=\"Acrobat:11.0.23\" xfa:spec=\"2.0.2\" style=\"color:#FF0000;hmotnost písma:normal;font-style:normal;font-stretch:normal\"><p dir=\"ltr\"> <span style=\"font-size:9.0pt;font-family:Helvetica\">Toto je ukázka</span></p></body>";
+// Nastavení formátovaného textu pro anotaci
+fta.RichText = "<body xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:APIVersion=\"Acrobat:11.0.23\" xfa:spec=\"2.0.2\" style=\"color:#FF0000;font-weight:normal;font-style:normal;font-stretch:normal\"><p dir=\"ltr\"><span style=\"font-size:9.0pt;font-family:Helvetica\">Toto je ukázka</span></p></body>";
 ```
- The`RichText` vlastnost je nastavena s obsahem HTML. To umožňuje podrobné formátování v popisku, jako je určení velikosti písma, barvy a stylu.
+Ten/Ta/To `RichText` Vlastnost je nastavena s HTML obsahem. To umožňuje detailní formátování v rámci popisku, například určení velikosti písma, barvy a stylu.
 
-## Krok 8: Uložte dokument PDF
+## Krok 8: Uložení dokumentu PDF
 
-Nakonec po nastavení všeho musíme dokument uložit. Tento krok dokončuje vytvoření PDF s popiskem.
+Nakonec, po nastavení všech parametrů, je třeba dokument uložit. Tímto krokem se dokončí vytvoření PDF souboru s popisem anotace.
 
 ```csharp
-// Uložte dokument
+// Uložit dokument
 doc.Save(dataDir + "SetCalloutProperty.pdf");
 ```
- The`Save()` metoda uloží dokument do zadaného adresáře s názvem "SetCalloutProperty.pdf". Tímto krokem končí náš proces vytváření PDF.
+Ten/Ta/To `Save()` Metoda uloží dokument do zadaného adresáře s názvem souboru „SetCalloutProperty.pdf“. Tímto krokem dokončíme proces vytváření PDF.
 
 ## Závěr
 
-tady to máte! Právě jste vytvořili dokument PDF s popisem pomocí Aspose.PDF pro .NET. Tato anotace může být neuvěřitelně užitečná pro zvýraznění nebo vysvětlení konkrétních částí vašeho dokumentu. Aspose.PDF nabízí výkonné API, díky kterému je manipulace s PDF přímočará a flexibilní. Ať už přidáváte anotace, převádíte dokumenty nebo zpracováváte složité úlohy PDF, Aspose.PDF vám pomůže.
+A tady to máte! Právě jste vytvořili PDF dokument s popisnou anotací pomocí Aspose.PDF pro .NET. Tato anotace může být neuvěřitelně užitečná pro zvýraznění nebo vysvětlení konkrétních částí dokumentu. Aspose.PDF nabízí výkonné API, které usnadňuje a zjednodušuje manipulaci s PDF. Ať už přidáváte anotace, převádíte dokumenty nebo zpracováváte složité úlohy s PDF, Aspose.PDF vám s tím pomůže.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu si vzhled popisku dále přizpůsobit?
 
-Absolutně! Můžete přizpůsobit různé aspekty, jako je barva čáry, tloušťka a rodina a styl písem textu.
+Rozhodně! Můžete si přizpůsobit různé aspekty, jako je barva a tloušťka čáry a rodina a styl písma textu.
 
 ### Je možné přidat více popisků na jednu stránku?
 
-Ano, můžete přidat tolik popisků, kolik potřebujete, opakováním kroků pro každou anotaci.
+Ano, můžete přidat libovolný počet popisků opakováním kroků pro každou anotaci.
 
-### Jak změním pozici popisku?
+### Jak změním polohu popisku?
 
- Jednoduše upravte souřadnice v`Rectangle` a`Callout` vlastnosti pro přemístění anotace.
+Jednoduše upravte souřadnice v `Rectangle` a `Callout` vlastnosti pro změnu polohy anotace.
 
-### Mohu přidat další typy anotací pomocí Aspose.PDF?
+### Mohu pomocí Aspose.PDF přidat další typy anotací?
 
 Ano, Aspose.PDF podporuje různé typy anotací, včetně zvýraznění, razítek a příloh souborů.
 
 ### Je obsah formátovaného textu omezen na HTML?
 
- The`RichText` vlastnost podporuje podmnožinu HTML, což vám umožňuje zahrnout stylizovaný text a základní formátování.
+Ten/Ta/To `RichText` Vlastnost podporuje podmnožinu HTML, což umožňuje zahrnout stylizovaný text a základní formátování.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

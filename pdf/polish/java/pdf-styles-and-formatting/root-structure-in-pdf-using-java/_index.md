@@ -1,14 +1,16 @@
 ---
-title: Struktura główna w PDF przy użyciu Java
-linktitle: Struktura główna w PDF przy użyciu Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Poznaj manipulację strukturą korzenia za pomocą Aspose.PDF. Twórz, modyfikuj i ulepszaj pliki PDF.
-weight: 11
-url: /pl/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/
+"description": "Poznaj manipulację strukturą korzenia za pomocą Aspose.PDF. Twórz, modyfikuj i ulepszaj pliki PDF."
+"linktitle": "Struktura główna w PDF przy użyciu Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Struktura główna w PDF przy użyciu Java"
+"url": "/pl/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Struktura główna w PDF przy użyciu Java
@@ -77,13 +79,13 @@ Aby zoptymalizować rozmiar i wydajność plików PDF, rozważ kompresję obraz�
 
 ## Wniosek
 
-W tym artykule zbadaliśmy strukturę główną dokumentów PDF przy użyciu Aspose.PDF dla Java. Nauczyłeś się, jak programowo tworzyć, modyfikować i optymalizować pliki PDF. Zacznij tworzyć dynamiczne i dostosowane pliki PDF z pewnością siebie!
+tym artykule zbadaliśmy strukturę główną dokumentów PDF przy użyciu Aspose.PDF dla Java. Nauczyłeś się, jak programowo tworzyć, modyfikować i optymalizować pliki PDF. Zacznij tworzyć dynamiczne i dostosowane pliki PDF z pewnością siebie!
 
 ## Najczęściej zadawane pytania
 
 ### Jak dodać hiperłącze do pliku PDF za pomocą Aspose.PDF dla Java?
 
-Aby dodać hiperłącze, użyj`HyperlinkAnnotation` klasę i określ adres URL docelowy.
+Aby dodać hiperłącze, użyj `HyperlinkAnnotation` klasę i określ adres URL docelowy.
 
 ### Czy mogę zaszyfrować dokument PDF hasłem?
 
@@ -100,9 +102,11 @@ Możesz wyodrębnić tekst z dokumentu PDF, przeglądając jego fragmenty tekstu
 ### Czy mogę przekonwertować dokument PDF do innych formatów, takich jak Word lub Excel, za pomocą Aspose.PDF dla Java?
 
 Tak, Aspose.PDF for Java obsługuje konwersję dokumentów PDF do różnych formatów, w tym Word i Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

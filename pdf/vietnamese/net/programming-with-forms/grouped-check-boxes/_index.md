@@ -1,14 +1,16 @@
 ---
-title: Nhóm các hộp kiểm trong tài liệu PDF
-linktitle: Nhóm các hộp kiểm trong tài liệu PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo các hộp kiểm được nhóm lại (nút radio) trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này.
-weight: 170
-url: /vi/net/programming-with-forms/grouped-check-boxes/
+"description": "Tìm hiểu cách tạo các hộp kiểm được nhóm lại (nút radio) trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này."
+"linktitle": "Nhóm các hộp kiểm trong tài liệu PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhóm các hộp kiểm trong tài liệu PDF"
+"url": "/vi/net/programming-with-forms/grouped-check-boxes/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhóm các hộp kiểm trong tài liệu PDF
@@ -21,11 +23,11 @@ Tạo PDF tương tác không khó như bạn nghĩ, đặc biệt là khi bạn
 
 Trước khi đi sâu vào hướng dẫn từng bước, chúng ta hãy cùng tìm hiểu một số điều kiện tiên quyết cần thiết:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Nếu chưa, bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Nếu chưa, bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 2. IDE: Bạn nên thiết lập một môi trường phát triển, chẳng hạn như Visual Studio.
 3. .NET Framework: Dự án nên hướng tới phiên bản .NET Framework tương thích với Aspose.PDF.
-4. Kiến thức cơ bản về C#: Cần phải quen thuộc với C# và thao tác PDF để có thể theo dõi một cách trôi chảy.
-5.  Giấy phép: Aspose.PDF yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể[xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu cần.
+4. Kiến thức cơ bản về C#: Cần phải quen thuộc với C# và thao tác PDF để có thể theo dõi dễ dàng.
+5. Giấy phép: Aspose.PDF yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể [xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu cần.
 
 ## Nhập gói
 
@@ -45,7 +47,7 @@ Trong phần này, chúng tôi sẽ chia nhỏ quy trình tạo các hộp kiể
 
 ## Bước 1: Tạo một tài liệu PDF mới
 
- Bước đầu tiên là tạo một phiên bản của`Document` đối tượng, sẽ đại diện cho tệp PDF của bạn. Sau đó, thêm một trang trống vào tài liệu của bạn, nơi bạn sẽ đặt các hộp kiểm được nhóm của mình.
+Bước đầu tiên là tạo một phiên bản của `Document` đối tượng, sẽ đại diện cho tệp PDF của bạn. Sau đó, thêm một trang trống vào tài liệu của bạn, nơi bạn sẽ đặt các hộp kiểm được nhóm của mình.
 
 ```csharp
 // Khởi tạo đối tượng Tài liệu
@@ -59,7 +61,7 @@ Page page = pdfDocument.Pages.Add();
 
 ## Bước 2: Khởi tạo trường nút radio
 
-Tiếp theo, chúng ta cần tạo một`RadioButtonField` đối tượng, sẽ chứa các hộp kiểm được nhóm lại (các nút radio). Trường này được thêm vào trang cụ thể nơi các hộp kiểm sẽ xuất hiện.
+Tiếp theo, chúng ta cần tạo một `RadioButtonField` đối tượng, sẽ chứa các hộp kiểm được nhóm lại (các nút radio). Trường này được thêm vào trang cụ thể nơi các hộp kiểm sẽ xuất hiện.
 
 ```csharp
 // Khởi tạo đối tượng RadioButtonField và gán nó vào trang đầu tiên
@@ -70,7 +72,7 @@ Hãy coi đây như một hộp chứa sẽ nhóm các tùy chọn nút radio ri
 
 ## Bước 3: Thêm tùy chọn nút radio
 
- Bây giờ, hãy thêm các tùy chọn nút radio riêng lẻ vào trường. Trong ví dụ này, chúng ta sẽ thêm hai nút radio và chỉ định vị trí của chúng bằng cách sử dụng`Rectangle` sự vật.
+Bây giờ, hãy thêm các tùy chọn nút radio riêng lẻ vào trường. Trong ví dụ này, chúng ta sẽ thêm hai nút radio và chỉ định vị trí của chúng bằng cách sử dụng `Rectangle` sự vật.
 
 ```csharp
 // Thêm tùy chọn nút radio đầu tiên và chỉ định vị trí của nó bằng cách sử dụng Rectangle
@@ -82,11 +84,11 @@ opt1.OptionName = "Option1";
 opt2.OptionName = "Option2";
 ```
 
- Ở đây,`Rectangle` đối tượng xác định tọa độ và kích thước của mỗi nút radio trên trang.
+Ở đây, `Rectangle` đối tượng xác định tọa độ và kích thước của mỗi nút radio trên trang.
 
 ## Bước 4: Tùy chỉnh Kiểu Nút Radio
 
- Bạn có thể tùy chỉnh giao diện của các nút radio bằng cách thiết lập chúng`Style` thuộc tính. Ví dụ, bạn có thể muốn hộp kiểm hình vuông hoặc hình chữ thập.
+Bạn có thể tùy chỉnh giao diện của các nút radio bằng cách thiết lập chúng `Style` thuộc tính. Ví dụ, bạn có thể muốn hộp kiểm hình vuông hoặc hình chữ thập.
 
 ```csharp
 // Thiết lập kiểu của các nút radio
@@ -151,10 +153,10 @@ Việc thêm các thành phần tương tác như hộp kiểm nhóm vào tài l
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thêm nhiều hơn hai nút radio vào một nhóm không?
- Chắc chắn rồi! Chỉ cần khởi tạo thêm`RadioButtonOptionField` các đối tượng và thêm chúng vào`RadioButtonField` như được trình bày trong hướng dẫn.
+Chắc chắn rồi! Chỉ cần khởi tạo thêm `RadioButtonOptionField` các đối tượng và thêm chúng vào `RadioButtonField` như được trình bày trong hướng dẫn.
 
 ### Làm thế nào để xử lý nhiều nhóm hộp kiểm trong một tài liệu?
-Để tạo nhiều nhóm, hãy tạo các phiên bản riêng biệt`RadioButtonField` đồ vật cho mỗi nhóm.
+Để tạo nhiều nhóm, hãy tạo các phiên bản riêng biệt `RadioButtonField` đồ vật cho mỗi nhóm.
 
 ### Có giới hạn số lượng hộp kiểm tôi có thể thêm không?
 Không, Aspose.PDF cho .NET không áp đặt bất kỳ giới hạn nào về số lượng hộp kiểm bạn có thể thêm vào PDF.
@@ -163,10 +165,12 @@ Không, Aspose.PDF cho .NET không áp đặt bất kỳ giới hạn nào về 
 Có, bạn có thể sửa đổi các thuộc tính như kiểu đường viền, chiều rộng và màu sắc sau khi đã thêm hộp kiểm.
 
 ### Có thể sử dụng hình ảnh làm nút radio không?
- Có, Aspose.PDF cho phép bạn sử dụng hình ảnh tùy chỉnh làm nút radio bằng cách thiết lập`Appearance` thuộc tính của mỗi tùy chọn nút radio.
+Có, Aspose.PDF cho phép bạn sử dụng hình ảnh tùy chỉnh làm nút radio bằng cách thiết lập `Appearance` thuộc tính của mỗi tùy chọn nút radio.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dodawanie różnych nagłówków w jednym pliku PDF za pomocą Java
-linktitle: Dodawanie różnych nagłówków w jednym pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać różne nagłówki w jednym pliku PDF za pomocą Java z Aspose.PDF. Przewodnik krok po kroku dotyczący dostosowywania nagłówków PDF.
-weight: 11
-url: /pl/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/
+"description": "Dowiedz się, jak dodać różne nagłówki w jednym pliku PDF za pomocą Java z Aspose.PDF. Przewodnik krok po kroku dotyczący dostosowywania nagłówków PDF."
+"linktitle": "Dodawanie różnych nagłówków w jednym pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodawanie różnych nagłówków w jednym pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie różnych nagłówków w jednym pliku PDF za pomocą Java
@@ -16,19 +18,19 @@ url: /pl/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-u
 
 ## Wprowadzenie do dodawania różnych nagłówków w jednym pliku PDF za pomocą języka Java
 
-dziedzinie przetwarzania dokumentów w Javie Aspose.PDF jest potężnym sojusznikiem. Umożliwia programistom łatwą i wydajną manipulację plikami PDF. Jednym z powszechnych wymagań jest dodawanie różnych nagłówków do różnych stron w jednym pliku PDF. W tym przewodniku krok po kroku zagłębimy się w realizację tego zadania przy użyciu Aspose.PDF dla Javy. 
+W dziedzinie przetwarzania dokumentów w Javie Aspose.PDF jest potężnym sojusznikiem. Umożliwia programistom łatwą i wydajną manipulację plikami PDF. Jednym z powszechnych wymagań jest dodawanie różnych nagłówków do różnych stron w jednym pliku PDF. W tym przewodniku krok po kroku zagłębimy się w realizację tego zadania przy użyciu Aspose.PDF dla Javy. 
 
 ## Wymagania wstępne
 
 Zanim wyruszysz w tę podróż, upewnij się, że spełnione są następujące warunki wstępne:
 
--  Aspose.PDF dla biblioteki Java: Pobierz i zainstaluj z[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla biblioteki Java: Pobierz i zainstaluj z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 Teraz przyjrzyjmy się bliżej krok po kroku procesowi dodawania różnych nagłówków do pliku PDF.
 
 ## Krok 1: Konfigurowanie projektu
 
-Na początek utwórz projekt Java w preferowanym środowisku IDE i dodaj bibliotekę Aspose.PDF dla Java do ścieżki klas projektu.
+Na początek utwórz projekt Java w preferowanym środowisku IDE i dodaj bibliotekę Aspose.PDF for Java do ścieżki klas projektu.
 
 ## Krok 2: Importuj niezbędne pakiety
 
@@ -93,7 +95,7 @@ Gratulacje! Udało Ci się dodać różne nagłówki do jednego pliku PDF przy u
 
 ## Wniosek
 
-W tym przewodniku przyjrzeliśmy się sposobom ulepszania dokumentów PDF poprzez dodawanie odrębnych nagłówków do każdej strony za pomocą Aspose.PDF dla Java. Dzięki tej potężnej bibliotece możesz bez wysiłku manipulować plikami PDF i dostosowywać je do swoich konkretnych potrzeb.
+tym przewodniku przyjrzeliśmy się sposobom ulepszania dokumentów PDF poprzez dodawanie odrębnych nagłówków do każdej strony za pomocą Aspose.PDF dla Java. Dzięki tej potężnej bibliotece możesz bez wysiłku manipulować plikami PDF i dostosowywać je do swoich konkretnych potrzeb.
 
 ## Najczęściej zadawane pytania
 
@@ -105,7 +107,7 @@ Zawartość nagłówka można dostosować, dodając tekst, obrazy i inne element
 
 Tak, Aspose.PDF dla Java jest kompatybilny z Java 8 i nowszymi wersjami.
 
-### Czy mogę dodać również inne stopki?
+### Czy mogę dodać również różne stopki?
 
 Oczywiście! Możesz wykonać podobny proces, aby dodać różne stopki do każdej strony dokumentu PDF.
 
@@ -115,10 +117,12 @@ Tak, Aspose.PDF for Java wymaga ważnej licencji do użycia w środowisku produk
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.PDF dla Java?
 
- Pełną dokumentację i przykłady można znaleźć na stronie[Aspose.PDF dla odniesień do interfejsu API Java](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację i przykłady można znaleźć na stronie [Aspose.PDF dla odniesień do interfejsu API Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

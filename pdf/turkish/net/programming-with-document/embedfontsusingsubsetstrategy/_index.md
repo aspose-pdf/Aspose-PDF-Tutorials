@@ -1,14 +1,16 @@
 ---
-title: Alt Küme Stratejisiyle PDF Dosyasına Fontları Gömün
-linktitle: Alt Küme Stratejisi ile Yazı Tiplerini Göm
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak Subset Strategy ile bir PDF dosyasına fontları nasıl gömeceğinizi öğrenin. Yalnızca gerekli karakterleri gömerek PDF boyutunuzu optimize edin.
-weight: 130
-url: /tr/net/programming-with-document/embedfontsusingsubsetstrategy/
+"description": "Aspose.PDF for .NET kullanarak Subset Strategy ile PDF dosyasına fontları nasıl gömeceğinizi öğrenin. Yalnızca gerekli karakterleri gömerek PDF boyutunuzu optimize edin."
+"linktitle": "Alt Küme Stratejisi ile Yazı Tiplerini Göm"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Alt Küme Stratejisiyle PDF Dosyasına Fontları Gömün"
+"url": "/tr/net/programming-with-document/embedfontsusingsubsetstrategy/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alt Küme Stratejisiyle PDF Dosyasına Fontları Gömün
@@ -21,7 +23,7 @@ Dijital çağda, PDF'ler belgeleri paylaşmak için olmazsa olmaz bir hale geldi
 
 Yazı tiplerini yerleştirmenin inceliklerine dalmadan önce, yerinde olması gereken birkaç şey var:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: .NET kodlarınızı yazıp test edebileceğiniz bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
@@ -57,7 +59,7 @@ Artık her şeyi ayarladığımıza göre, yazı tiplerini bir PDF dosyasına ad
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın bulunduğu gerçek yol ile. Bu, şuna benzer bir şey olabilir`@"C:\Documents\"`.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın bulunduğu gerçek yol ile. Bu, şuna benzer bir şey olabilir `@"C:\Documents\"`.
 
 ## Adım 2: PDF Belgesini Yükleyin
 
@@ -67,7 +69,7 @@ Sonra, değiştirmek istediğimiz PDF belgesini yükleyeceğiz. Aspose.PDF'in pa
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Bir tane olduğundan emin olun`input.pdf` belirtilen dizindeki dosya. Bu dosya değiştireceğimiz dosya olacak.
+Bir tane olduğundan emin olun `input.pdf` belirtilen dizindeki dosya. Bu dosya değiştireceğimiz dosya olacak.
 
 ## Adım 3: Tüm Yazı Tiplerini Alt Kümele
 
@@ -78,14 +80,14 @@ Document doc = new Document(dataDir + "input.pdf");
 doc.FontUtilities.SubsetFonts(FontSubsetStrategy.SubsetAllFonts);
 ```
 
- Kullanarak`SubsetAllFonts`, belgede kullanılan her yazı tipinin gömülmesini sağlıyoruz, ancak yalnızca gerçekten kullanılan karakterler dahil edilecektir.
+Kullanarak `SubsetAllFonts`, belgede kullanılan her yazı tipinin gömülmesini sağlıyoruz, ancak yalnızca gerçekten kullanılan karakterler dahil edilecektir.
 
 ## Adım 4: Yalnızca Gömülü Yazı Tiplerini Alt Kümele
 
 Bazı durumlarda, yalnızca belgeye zaten gömülü olan yazı tiplerini gömmek isteyebilirsiniz. Bu, yeni yazı tipleri eklemeden orijinal görünümü korumak istiyorsanız yararlıdır.
 
 ```csharp
-//Tam gömülü fontlar için font alt kümesi gömülecektir ancak belgeye gömülmeyen fontlar etkilenmeyecektir.
+// Tam gömülü fontlar için font alt kümesi gömülecektir ancak belgeye gömülmeyen fontlar etkilenmeyecektir.
 doc.FontUtilities.SubsetFonts(FontSubsetStrategy.SubsetEmbeddedFontsOnly);
 ```
 
@@ -99,7 +101,7 @@ Son olarak, değişikliklerimizi kaydetmemiz gerekiyor. Değiştirilen belgeyi d
 doc.Save(dataDir + "Output_out.pdf");
 ```
 
- Bu, adında yeni bir PDF dosyası oluşturacaktır.`Output_out.pdf` Belirtilen dizinde, gömülü yazı tipleriyle birlikte.
+Bu, adında yeni bir PDF dosyası oluşturacaktır. `Output_out.pdf` Belirtilen dizinde, gömülü yazı tipleriyle birlikte.
 
 ## Çözüm
 
@@ -114,16 +116,18 @@ Yazı tipi alt kümesi oluşturma, tüm yazı tipini eklemek yerine yalnızca be
 Yazı tiplerini yerleştirmek, belgenizin tüm cihazlarda aynı görünmesini sağlayarak yazı tipi değiştirme sorunlarını önler.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose satın almadan önce kütüphaneyi test etmek için kullanabileceğiniz ücretsiz bir deneme sunuyor. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose satın almadan önce kütüphaneyi test etmek için kullanabileceğiniz ücretsiz bir deneme sunuyor. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Aspose.PDF for .NET için tam belgelere erişebilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Aspose.PDF for .NET için tam belgelere erişebilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Ya sorunlarla karşılaşırsam?
- Herhangi bir sorunla karşılaşırsanız Aspose destek forumunda yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Herhangi bir sorunla karşılaşırsanız Aspose destek forumunda yardım isteyebilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

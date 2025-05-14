@@ -1,14 +1,16 @@
 ---
-title: Membuat Tautan ke Dokumen PDF Lain menggunakan Java
-linktitle: Membuat Tautan ke Dokumen PDF Lain menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara membuat tautan dokumen PDF di Java dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah untuk interaktivitas PDF.
-weight: 14
-url: /id/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/
+"description": "Pelajari cara membuat tautan dokumen PDF di Java dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah untuk interaktivitas PDF."
+"linktitle": "Membuat Tautan ke Dokumen PDF Lain menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Membuat Tautan ke Dokumen PDF Lain menggunakan Java"
+"url": "/id/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Tautan ke Dokumen PDF Lain menggunakan Java
@@ -32,7 +34,7 @@ Mari kita mulai dengan membuat proyek Java baru di Integrated Development Enviro
 
 ## Menambahkan Aspose.PDF untuk Java ke Proyek Anda
 
-Untuk menggunakan Aspose.PDF untuk Java, Anda perlu menambahkan pustaka ke classpath proyek Anda. Hal ini biasanya dapat dilakukan dengan menyertakan file JAR di jalur pembuatan proyek Anda.
+Untuk menggunakan Aspose.PDF untuk Java, Anda perlu menambahkan pustaka tersebut ke classpath proyek Anda. Hal ini biasanya dapat dilakukan dengan menyertakan file JAR di jalur pembuatan proyek Anda.
 
 ## Membuat Tautan ke Dokumen PDF Lain
 
@@ -87,7 +89,7 @@ Membuat tautan ke dokumen PDF lain menggunakan Java dan Aspose.PDF untuk Java ad
 
 ### Bagaimana cara mengunduh Aspose.PDF untuk Java?
 
- Anda dapat mengunduh Aspose.PDF untuk Java dari situs web di[Di Sini](https://releases.aspose.com/pdf/java/).
+Anda dapat mengunduh Aspose.PDF untuk Java dari situs web di [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ### Dapatkah saya menggunakan Aspose.PDF untuk Java dalam proyek komersial?
 
@@ -99,14 +101,16 @@ Ya, Aspose.PDF untuk Java kompatibel dengan berbagai versi Java. Pastikan untuk 
 
 ### Bagaimana cara menambahkan tautan ke halaman tertentu dalam dokumen PDF?
 
- Anda dapat menggunakan`GoToAction`kelas di Aspose.PDF untuk Java guna membuat tautan ke halaman tertentu dalam dokumen PDF. Periksa dokumentasi untuk contoh terperinci.
+Anda dapat menggunakan `GoToAction` kelas di Aspose.PDF untuk Java guna membuat tautan ke halaman tertentu dalam dokumen PDF. Periksa dokumentasi untuk contoh terperinci.
 
 ### Bisakah saya menyesuaikan tampilan tautan lebih lanjut?
 
 Tentu saja! Aspose.PDF untuk Java menyediakan opsi yang luas untuk menyesuaikan tampilan tautan, termasuk warna, gaya, dan banyak lagi. Lihat dokumentasi untuk teknik penyesuaian lanjutan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

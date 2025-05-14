@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/generate-mobixml-from-pdfs/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generate MobiXML from PDFs
@@ -82,6 +84,7 @@ You can find comprehensive documentation and resources for Aspose.PDF for Java a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

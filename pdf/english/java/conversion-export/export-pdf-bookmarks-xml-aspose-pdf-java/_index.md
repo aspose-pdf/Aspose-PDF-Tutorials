@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Export PDF Bookmarks to XML with Aspose.PDF for Java
 ## Introduction
@@ -154,7 +156,11 @@ To deepen your understanding, consider exploring additional features offered by 
 - [Purchase a License](https://purchase.aspose.com/buy)
 - [Get a Free Trial](https://releases.aspose.com/pdf/java/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

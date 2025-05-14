@@ -1,14 +1,16 @@
 ---
-title: Dodaj obiekt SVG do pliku PDF
-linktitle: Dodaj obiekt SVG do pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak łatwo dodawać obiekty SVG do plików PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Ulepsz swoje dokumenty.
-weight: 30
-url: /pl/net/programming-with-tables/add-svg-object/
+"description": "Dowiedz się, jak łatwo dodawać obiekty SVG do plików PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Ulepsz swoje dokumenty."
+"linktitle": "Dodaj obiekt SVG do pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj obiekt SVG do pliku PDF"
+"url": "/pl/net/programming-with-tables/add-svg-object/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj obiekt SVG do pliku PDF
@@ -22,7 +24,7 @@ Czy kiedykolwiek zastanawiałeś się, jak włączyć skalowalną grafikę wekto
 Zanim przejdziemy do szczegółów dodawania obiektów SVG do plików PDF, musisz przygotować kilka rzeczy:
 
 1. Podstawowa znajomość platformy .NET: Znajomość języka programowania C# i środowiska .NET ułatwi Ci zrozumienie tematu.
-2.  Biblioteka Aspose.PDF: Musisz pobrać i zainstalować bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać za pomocą następującego łącza:[Pobierz Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
+2. Biblioteka Aspose.PDF: Musisz pobrać i zainstalować bibliotekę Aspose.PDF dla .NET. Możesz ją pobrać za pomocą następującego łącza: [Pobierz Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
 3. Visual Studio lub dowolne środowisko IDE .NET: skonfiguruj preferowane zintegrowane środowisko programistyczne (IDE), w którym możesz pisać i wykonywać swój kod.
 4. Przykładowy plik SVG: Będziesz potrzebować pliku SVG, aby z nim pracować. Po prostu utwórz go lub pobierz przykładowy plik SVG, aby użyć go w tym przykładzie.
 
@@ -55,7 +57,7 @@ Teraz, gdy wszystko jest już skonfigurowane, przejdźmy do faktycznego kodowani
 
 ## Krok 1: Skonfiguruj obiekt dokumentu
 
- Pierwszą rzeczą, którą będziesz chciał zrobić, jest utworzenie nowego wystąpienia`Document` klasa. Tutaj będzie znajdować się cała Twoja zawartość PDF.
+Pierwszą rzeczą, którą będziesz chciał zrobić, jest utworzenie nowego wystąpienia `Document` klasa. Tutaj będzie znajdować się cała Twoja zawartość PDF.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -117,14 +119,14 @@ Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 table.ColumnWidths = "100 100";
 ```
 
- Z`ColumnWidths`, możemy określić, ile miejsca zajmie każda kolumna w tabeli. Możesz swobodnie dostosować te wartości zgodnie ze swoimi wymaganiami dotyczącymi treści.
+Z `ColumnWidths`, możemy określić, ile miejsca zajmie każda kolumna w tabeli. Możesz swobodnie dostosować te wartości zgodnie ze swoimi wymaganiami dotyczącymi treści.
 
 ## Krok 6: Dodaj wiersze i komórki do tabeli
 
 Teraz dodamy wiersze do tabeli i następnie dodamy nasz obraz SVG do komórki:
 
 ```csharp
-//Utwórz obiekt wiersza i dodaj go do instancji tabeli
+// Utwórz obiekt wiersza i dodaj go do instancji tabeli
 Aspose.Pdf.Row row = table.Rows.Add();
 
 // Utwórz obiekt komórki i dodaj go do wystąpienia wiersza
@@ -162,7 +164,7 @@ Page page = doc.Pages.Add();
 page.Paragraphs.Add(table);
 ```
 
-Ten krok zapewnia, że nasza tabela, która teraz zawiera obraz SVG i tekst, będzie częścią pliku PDF.
+Ten krok zapewnia, że nasza tabela, która teraz zawiera obraz SVG i tekst, stanie się częścią pliku PDF.
 
 ## Krok 9: Zapisz plik PDF
 
@@ -178,7 +180,7 @@ I tak to się robi! Za pomocą zaledwie kilku linijek kodu obraz SVG jest teraz 
 
 ## Wniosek
 
-Dodawanie obiektów SVG do plików PDF za pomocą Aspose.PDF dla .NET jest proste, gdy zrozumiesz procesy, które są z tym związane. Postępując zgodnie z krokami opisanymi w tym przewodniku, możesz skutecznie połączyć wszechstronność grafiki SVG z solidną funkcjonalnością dokumentów PDF. Pamiętaj, że w każdym projekcie praktyka czyni mistrza. Nie wahaj się eksperymentować z różnymi projektami i układami podczas dodawania plików SVG.
+Dodawanie obiektów SVG do plików PDF za pomocą Aspose.PDF dla .NET jest proste, gdy zrozumiesz procesy, które są w to zaangażowane. Postępując zgodnie z krokami opisanymi w tym przewodniku, możesz skutecznie połączyć wszechstronność grafiki SVG z solidną funkcjonalnością dokumentów PDF. Pamiętaj, że w każdym projekcie praktyka czyni mistrza. Nie wahaj się eksperymentować z różnymi projektami i układami podczas dodawania plików SVG.
 
 ## Najczęściej zadawane pytania
 
@@ -196,9 +198,11 @@ Upewnij się, że plik SVG jest poprawnie sformatowany. Informacje na temat obs�
 
 ### Czy Aspose.PDF jest kompatybilny ze wszystkimi wersjami .NET?
 Aspose.PDF obsługuje różne frameworki .NET; szczegółowe informacje na temat zgodności można znaleźć w dokumentacji.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Validasi dan Verifikasi PDF
-linktitle: Validasi dan Verifikasi PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Jelajahi validasi dan verifikasi PDF menggunakan Aspose.PDF untuk Java. Pastikan integritas dan kepatuhan dokumen dalam tutorial komprehensif kami.
-weight: 24
-url: /id/java/pdf-validation-and-verification/
+"description": "Jelajahi validasi dan verifikasi PDF menggunakan Aspose.PDF untuk Java. Pastikan integritas dan kepatuhan dokumen dalam tutorial komprehensif kami."
+"linktitle": "Validasi dan Verifikasi PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Validasi dan Verifikasi PDF"
+"url": "/id/java/pdf-validation-and-verification/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validasi dan Verifikasi PDF
@@ -31,9 +33,11 @@ Bagian terakhir dari tutorial kami membahas integritas dan kepatuhan dokumen. Ka
 ## Tutorial Validasi dan Verifikasi PDF
 ### [Validasi PDF di Java](./validate-pdf-in-java/)
 Pelajari cara memvalidasi dokumen PDF di Java menggunakan Aspose.PDF, memastikan integritas dan kepatuhan file PDF Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

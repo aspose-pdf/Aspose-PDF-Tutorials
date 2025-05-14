@@ -1,14 +1,16 @@
 ---
-title: Açıklama Kaynağını Alın
-linktitle: Açıklama Kaynağını Alın
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile PDF yönetiminin gücünü açığa çıkarın - kusursuz PDF açıklamaları ve düzenlemeleri için başvuracağınız kütüphane.
-weight: 90
-url: /tr/net/annotations/getresourceofannotation/
+"description": "Aspose.PDF for .NET ile PDF yönetiminin gücünü açığa çıkarın - kusursuz PDF açıklamaları ve düzenlemeleri için başvuracağınız kütüphaneniz."
+"linktitle": "Açıklama Kaynağını Alın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Açıklama Kaynağını Alın"
+"url": "/tr/net/annotations/getresourceofannotation/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Açıklama Kaynağını Alın
@@ -25,7 +27,7 @@ PDF açıklamalarının inceliklerine dalmadan önce, sorunsuz bir yolculuk sağ
 C# programlama veya .NET framework hakkında temel bir anlayışa sahip olmak esastır. PDF belgelerini düzenlerken zamanınızın çoğunu burada geçireceksiniz.
 
 ### .NET Kütüphanesi için Aspose.PDF
- Başlamak için, .NET için Aspose.PDF'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/pdf/net/).
+Başlamak için, .NET için Aspose.PDF'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/pdf/net/).
 
 ### Geliştirme için IDE
 Ortamınızı kurmak için Visual Studio veya JetBrains Rider gibi uygun bir IDE seçin. Bu, kodunuzu verimli bir şekilde yazmanıza ve test etmenize yardımcı olacaktır.
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: PDF Belgenizi Açın
 
- Artık belge dizininiz ayarlandığına göre, üzerinde çalışmak istediğiniz PDF dosyasını açmanın zamanı geldi. Aspose.PDF bunu şu şekilde kolaylaştırır:`Document` sınıf.
+Artık belge dizininiz ayarlandığına göre, üzerinde çalışmak istediğiniz PDF dosyasını açmanın zamanı geldi. Aspose.PDF bunu şu şekilde kolaylaştırır: `Document` sınıf.
 
 ```csharp
 // Belgeyi aç
@@ -72,7 +74,7 @@ Bu örnekte AddAnnotation.pdf adlı bir PDF açıyoruz. Bu dosyanın belirtilen 
 
 ## Adım 3: Bir Açıklama Oluşturun
 
- Sonra, yeni bir açıklama oluşturacağız. Burada, bir`ScreenAnnotation`PDF'e SWF gibi multimedya dosyalarını eklemenize olanak tanır.
+Sonra, yeni bir açıklama oluşturacağız. Burada, bir `ScreenAnnotation`PDF'e SWF gibi multimedya dosyalarını eklemenize olanak tanır.
 
 ```csharp
 // Açıklama oluştur
@@ -152,7 +154,7 @@ FileSpecification data = (clip as MediaClipData).Data;
 MemoryStream ms = new MemoryStream();
 byte[] buffer = new byte[1024];
 int read = 0;
-//FileSpecification.Contents'ta erişilebilir medya verileri
+//FileSpecification.Contents'ta erişilebilen medya verileri
 Stream source = data.Contents;
 while ((read = source.Read(buffer, 0, buffer.Length)) > 0)
 {
@@ -183,19 +185,21 @@ Ve işte karşınızda – .NET için Aspose.PDF kullanarak bir açıklamanın k
 Aspose.PDF for .NET, .NET uygulamaları için tasarlanmış bir kütüphanedir ve kullanıcıların PDF belgeleri oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanır.
 
 ### Aspose.PDF için geçici lisansı nasıl alabilirim?
- Geçici bir lisansı şu şekilde alabilirsiniz:[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Geçici bir lisansı şu şekilde alabilirsiniz: [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 
 ### Ücretsiz deneme imkanı var mı?
- Evet, Aspose.PDF'nin ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[ücretsiz deneme sayfası](https://releases.aspose.com/).
+Evet, Aspose.PDF'nin ücretsiz deneme sürümüne şu adresten erişebilirsiniz: [ücretsiz deneme sayfası](https://releases.aspose.com/).
 
 ### Aspose.PDF için desteği nerede bulabilirim?
- Destek için PDF'ye ayrılmış Aspose forumunu ziyaret edin[Burada](https://forum.aspose.com/c/pdf/10).
+Destek için PDF'ye ayrılmış Aspose forumunu ziyaret edin [Burada](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF'yi doğrudan satın alabilir miyim?
- Kesinlikle! Ürünü şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Kesinlikle! Ürünü şu adresten satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

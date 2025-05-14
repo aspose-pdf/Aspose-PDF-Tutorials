@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/image-and-page-number-in-header
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Image and Page Number in Header Footer Section Inline
@@ -168,6 +170,7 @@ Yes, Aspose.PDF requires a license for production use, but you can start with a 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

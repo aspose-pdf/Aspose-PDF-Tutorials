@@ -1,14 +1,16 @@
 ---
-title: Thêm HTML bằng DOM
-linktitle: Thêm HTML bằng DOM
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm nội dung HTML vào tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện tệp PDF của bạn bằng định dạng HTML động một cách dễ dàng.
-weight: 40
-url: /vi/net/programming-with-text/add-html-using-dom/
+"description": "Tìm hiểu cách thêm nội dung HTML vào tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện tệp PDF của bạn bằng định dạng HTML động một cách dễ dàng."
+"linktitle": "Thêm HTML bằng DOM"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm HTML bằng DOM"
+"url": "/vi/net/programming-with-text/add-html-using-dom/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm HTML bằng DOM
@@ -21,11 +23,11 @@ Khi nói đến việc xử lý các tệp PDF trong .NET, Aspose.PDF cho .NET l
 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn đã thiết lập mọi thứ:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã tải xuống và cài đặt phiên bản mới nhất. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã tải xuống và cài đặt phiên bản mới nhất. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 2. Môi trường phát triển: Bạn sẽ cần một .NET IDE như Visual Studio.
 3. Hiểu biết cơ bản về C#: Hướng dẫn này giả định rằng bạn có kiến thức cơ bản về phát triển C# và .NET.
 
-Không có giấy phép? Bạn có thể lấy một[dùng thử miễn phí](https://releases.aspose.com/)hoặc nộp đơn xin[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để kiểm tra thư viện mà không có giới hạn.
+Không có giấy phép? Bạn có thể lấy một [dùng thử miễn phí](https://releases.aspose.com/) hoặc nộp đơn xin một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để kiểm tra thư viện mà không có giới hạn.
 
 ## Nhập gói
 
@@ -53,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Ở đây, chúng ta khởi tạo một cái mới`Document` đối tượng đại diện cho tệp PDF mà chúng ta sẽ làm việc. Tài liệu trống này sẽ hoạt động như một khung vẽ trống.
+Ở đây, chúng ta khởi tạo một cái mới `Document` đối tượng đại diện cho tệp PDF mà chúng ta sẽ làm việc. Tài liệu trống này sẽ hoạt động như một khung vẽ trống.
 
 ## Bước 2: Thêm Trang vào Tài liệu
 
@@ -75,11 +77,11 @@ Bây giờ tài liệu PDF của chúng ta đã có một trang, đã đến lú
 HtmlFragment title = new HtmlFragment("<fontsize=10><b><i>Table</i></b></fontsize>");
 ```
 
- Trong ví dụ này, chúng tôi đang tạo một đoạn mã HTML đơn giản với một số văn bản in đậm và in nghiêng.`HtmlFragment` đối tượng xử lý định dạng HTML và đưa nó vào PDF dưới dạng nội dung.
+Trong ví dụ này, chúng tôi đang tạo một đoạn mã HTML đơn giản với một số văn bản in đậm và in nghiêng. `HtmlFragment` đối tượng xử lý định dạng HTML và đưa nó vào PDF dưới dạng nội dung.
 
 ## Bước 4: Điều chỉnh lề của nội dung HTML
 
-Để đảm bảo nội dung được định vị đúng, chúng ta sẽ thiết lập thuộc tính lề để điều chỉnh khoảng cách trên cùng và dưới cùng xung quanh đoạn HTML.
+Để đảm bảo nội dung được định vị chính xác, chúng ta sẽ thiết lập thuộc tính lề để điều chỉnh khoảng cách trên cùng và dưới cùng xung quanh đoạn HTML.
 
 ```csharp
 // Đặt thông tin lề dưới
@@ -99,11 +101,11 @@ Khi đoạn mã HTML đã sẵn sàng và lề đã được thiết lập, bư�
 page.Paragraphs.Add(title);
 ```
 
-Bước này về cơ bản yêu cầu Aspose.PDF xử lý đoạn HTML như một đoạn văn và đưa nó vào trang PDF. Giống như dán nội dung vào trình chỉnh sửa tài liệu.
+Về cơ bản, bước này yêu cầu Aspose.PDF xử lý đoạn mã HTML như một đoạn văn và đưa nó vào trang PDF. Giống như dán nội dung vào trình chỉnh sửa tài liệu.
 
 ## Bước 6: Lưu tài liệu PDF
 
- Cuối cùng, chúng ta cần lưu tệp PDF vào vị trí đã chỉ định.`Save` phương pháp này được sử dụng để ghi những thay đổi vào một tập tin vật lý.
+Cuối cùng, chúng ta cần lưu tệp PDF vào vị trí đã chỉ định. `Save` phương pháp này được sử dụng để ghi những thay đổi vào một tập tin vật lý.
 
 ```csharp
 dataDir = dataDir + "AddHTMLUsingDOM_out.pdf";
@@ -133,19 +135,21 @@ Và bạn đã có nó! Bằng cách làm theo các bước đơn giản này, b
 Có, Aspose.PDF cho phép bạn chèn các cấu trúc HTML phức tạp, bao gồm hình ảnh, liên kết và bảng.
 
 ### Có thể định dạng nội dung HTML bằng CSS không?
- Có, bạn có thể bao gồm CSS nội tuyến hoặc liên kết đến các bảng định kiểu bên ngoài khi thêm nội dung HTML thông qua`HtmlFragment`.
+Có, bạn có thể bao gồm CSS nội tuyến hoặc liên kết đến các bảng định kiểu bên ngoài khi thêm nội dung HTML thông qua `HtmlFragment`.
 
 ### Làm thế nào để điều chỉnh vị trí của nội dung HTML trên trang?
- Bạn có thể kiểm soát vị trí bằng cách sử dụng các thuộc tính lề như`Margin.Top`, `Margin.Bottom`, `Margin.Left` , Và`Margin.Right`.
+Bạn có thể kiểm soát vị trí bằng cách sử dụng các thuộc tính lề như `Margin.Top`, `Margin.Bottom`, `Margin.Left`, Và `Margin.Right`.
 
 ### Tôi có thể thêm nhiều đoạn HTML vào các trang khác nhau không?
- Chắc chắn rồi! Bạn có thể lặp lại quá trình tạo và thêm`HtmlFragment` đối tượng thành nhiều trang tùy theo nhu cầu.
+Chắc chắn rồi! Bạn có thể lặp lại quá trình tạo và thêm `HtmlFragment` đối tượng thành nhiều trang tùy theo nhu cầu.
 
 ### Những loại thẻ HTML nào được hỗ trợ?
- Hầu hết các thẻ HTML chuẩn như`<p>`, `<b>`, `<i>`, `<table>`và các định dạng khác được hỗ trợ, giúp linh hoạt cho nhiều loại nội dung khác nhau.
+Hầu hết các thẻ HTML chuẩn như `<p>`, `<b>`, `<i>`, `<table>`và các định dạng khác được hỗ trợ, giúp linh hoạt cho nhiều loại nội dung khác nhau.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

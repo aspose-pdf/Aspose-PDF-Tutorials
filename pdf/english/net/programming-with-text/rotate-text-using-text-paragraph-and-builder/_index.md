@@ -8,7 +8,9 @@ url: /net/programming-with-text/rotate-text-using-text-paragraph-and-builder/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rotate Text Using Text Paragraph And Builder In PDF File
@@ -163,6 +165,7 @@ You can obtain a temporary license for testing purposes from the [Temporary Lice
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Anotasi PDF
-linktitle: Tambahkan Anotasi
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Tambahkan anotasi khusus ke PDF Anda dengan mudah menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sesuaikan anotasi Anda dengan detail dan ikon tertentu.
-weight: 10
-url: /id/net/annotations/addannotation/
+"description": "Tambahkan anotasi khusus ke PDF Anda dengan mudah menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sesuaikan anotasi Anda dengan detail dan ikon tertentu."
+"linktitle": "Tambahkan Anotasi"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Anotasi PDF"
+"url": "/id/net/annotations/addannotation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Anotasi PDF
@@ -21,12 +23,12 @@ Anotasi merupakan cara yang bagus untuk memperkaya dokumen PDF, membuatnya inter
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Halaman unduhan Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Halaman unduhan Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE C# lain pilihan Anda.
 - Pengetahuan Dasar C#: Panduan ini mengasumsikan Anda nyaman dengan pemrograman C#.
 - Dokumen PDF: Contoh file PDF yang akan Anda tambahkan anotasi.
 
- Jika Anda belum memiliki pustaka Aspose.PDF, Anda dapat mengambilnya dari tautan di atas dan memulai[uji coba gratis](https://releases.aspose.com/) atau beli[lisensi](https://purchase.aspose.com/buy). 
+Jika Anda belum memiliki pustaka Aspose.PDF, Anda dapat mengambilnya dari tautan di atas dan memulai [uji coba gratis](https://releases.aspose.com/) atau beli [lisensi](https://purchase.aspose.com/buy). 
 
 ## Paket Impor
 
@@ -41,7 +43,7 @@ Ruang nama ini menyediakan akses ke kelas dan metode yang Anda perlukan untuk ma
 
 ## Langkah 1: Muat Dokumen PDF Anda
 
-Hal pertama yang harus dilakukan, Anda perlu memuat dokumen PDF di mana Anda berencana untuk menambahkan anotasi.
+Hal pertama yang harus dilakukan, Anda perlu memuat dokumen PDF di mana Anda berencana menambahkan anotasi.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -50,12 +52,12 @@ string dataDir = "YOUR DATA DIRECTORY";
 Document pdfDocument = new Document(dataDir + "AddAnnotation.pdf");
 ```
 
- Inilah yang terjadi: Anda menentukan direktori tempat file PDF Anda disimpan, lalu memuatnya menggunakan`Document` kelas yang disediakan oleh Aspose.PDF. Langkah ini penting karena tanpa memuat dokumen, Anda tidak dapat membuat perubahan apa pun pada dokumen tersebut.
+Inilah yang terjadi: Anda menentukan direktori tempat file PDF Anda disimpan, lalu memuatnya menggunakan `Document` kelas yang disediakan oleh Aspose.PDF. Langkah ini penting karena tanpa memuat dokumen, Anda tidak dapat membuat perubahan apa pun pada dokumen tersebut.
 
 ## Langkah 2: Buat Anotasi
 
 ### Menentukan Properti Anotasi
- Sekarang, mari kita buat anotasinya sendiri. Kita akan menggunakan`TextAnnotation`, yang sempurna untuk menambahkan komentar atau catatan ke PDF Anda.
+Sekarang, mari kita buat anotasinya sendiri. Kita akan menggunakan `TextAnnotation`, yang sempurna untuk menambahkan komentar atau catatan ke PDF Anda.
 
 ```csharp
 // Buat anotasi
@@ -68,9 +70,9 @@ textAnnotation.Icon = TextIcon.Key;
 ```
 
 Dalam cuplikan ini:
--  Lokasi dan Ukuran:`Rectangle` kelas menentukan di mana pada halaman anotasi Anda akan muncul dan dimensinya.
+- Lokasi dan Ukuran: `Rectangle` kelas menentukan di mana pada halaman anotasi Anda akan muncul dan dimensinya.
 - Judul, Subjek, dan Isi: Properti ini memungkinkan Anda menentukan tentang apa anotasi Anda dan apa saja isinya.
--  Ikon:`TextIcon.Key` menetapkan ikon untuk anotasi, membuatnya lebih menarik secara visual.
+- Ikon: `TextIcon.Key` menetapkan ikon untuk anotasi, membuatnya lebih menarik secara visual.
 
 ## Langkah 3: Sesuaikan Tampilan Anotasi
 
@@ -85,8 +87,8 @@ textAnnotation.Rect = new Aspose.Pdf.Rectangle(200, 400, 400, 600);
 ```
 
 Berikut rincian kejadiannya:
--  Perbatasan: Kami membuat`Border` objek dan atur lebarnya menjadi 5, yang memberikan anotasi kita garis luar yang menonjol.
--  Pola Garis:`Dash` Properti ini memungkinkan Anda membuat batas putus-putus dan menambahkan sedikit gaya pada anotasi.
+- Perbatasan: Kami membuat `Border` objek dan atur lebarnya menjadi 5, yang memberikan anotasi kita garis luar yang menonjol.
+- Pola Garis: `Dash` Properti ini memungkinkan Anda membuat batas putus-putus dan menambahkan sedikit gaya pada anotasi.
 
 ## Langkah 4: Tambahkan Anotasi ke Halaman PDF
 
@@ -97,7 +99,7 @@ Setelah membuat dan menyesuaikan anotasi, saatnya menambahkannya ke halaman PDF 
 pdfDocument.Pages[1].Annotations.Add(textAnnotation);
 ```
 
- Kode ini menambahkan anotasi ke halaman pertama PDF Anda.`Annotations` koleksi menampung semua anotasi untuk halaman tertentu, dan langkah ini memastikan anotasi baru Anda menjadi bagian dari koleksi tersebut.
+Kode ini menambahkan anotasi ke halaman pertama PDF Anda. `Annotations` koleksi menampung semua anotasi untuk halaman tertentu, dan langkah ini memastikan anotasi baru Anda menjadi bagian dari koleksi tersebut.
 
 ## Langkah 5: Simpan Dokumen PDF yang Diperbarui
 
@@ -128,13 +130,15 @@ Tentu saja! Anda dapat menyesuaikan ukuran, warna, batas, dan bahkan ikon anotas
 Ya, Anda dapat menambahkan anotasi sebanyak yang diperlukan ke halaman mana pun di PDF Anda.
 
 ### Bisakah saya menghapus anotasi setelah menambahkannya?
- Ya, anotasi dapat dihapus menggunakan`Annotations.Delete` metode yang disediakan oleh Aspose.PDF.
+Ya, anotasi dapat dihapus menggunakan `Annotations.Delete` metode yang disediakan oleh Aspose.PDF.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF untuk .NET?
- Ya, untuk membuka semua fitur dan menghindari batasan apa pun, Anda memerlukan[lisensi](https://purchase.aspose.com/buy) Anda juga bisa mendapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+Ya, untuk membuka semua fitur dan menghindari batasan apa pun, Anda memerlukan [lisensi](https://purchase.aspose.com/buy)Anda juga bisa mendapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

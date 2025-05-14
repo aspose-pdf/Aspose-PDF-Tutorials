@@ -8,7 +8,9 @@ url: /java/pdf-bookmarks/delete-bookmarks-pdf-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete Bookmarks from PDF Files
@@ -156,6 +158,7 @@ You can find comprehensive documentation and resources for Aspose.PDF for Java a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

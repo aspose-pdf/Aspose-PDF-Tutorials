@@ -1,14 +1,16 @@
 ---
-title: Sesuaikan Nomor Halaman Sambil Menambahkan Daftar Isi
-linktitle: Sesuaikan Nomor Halaman Sambil Menambahkan Daftar Isi
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menyesuaikan nomor halaman sambil menambahkan Daftar Isi ke dokumen PDF Anda menggunakan Aspose.PDF untuk .NET dalam tutorial komprehensif ini.
-weight: 100
-url: /id/net/programming-with-document/customizepagenumbeswhileaddingtoc/
+"description": "Pelajari cara menyesuaikan nomor halaman sambil menambahkan Daftar Isi ke dokumen PDF Anda menggunakan Aspose.PDF untuk .NET dalam tutorial komprehensif ini."
+"linktitle": "Sesuaikan Nomor Halaman Sambil Menambahkan Daftar Isi"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Sesuaikan Nomor Halaman Sambil Menambahkan Daftar Isi"
+"url": "/id/net/programming-with-document/customizepagenumbeswhileaddingtoc/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sesuaikan Nomor Halaman Sambil Menambahkan Daftar Isi
@@ -22,7 +24,7 @@ Dalam dunia manajemen dokumen, PDF adalah yang paling unggul. PDF adalah format 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan kita.
-2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 4. Contoh Berkas PDF: Siapkan contoh berkas PDF yang dapat kami gunakan. Anda dapat membuat berkas PDF sederhana atau mengunduh berkas PDF yang sudah ada.
 
@@ -54,7 +56,7 @@ string inFile = dataDir + "42824.pdf";
 string outFile = dataDir + "42824_out.pdf";
 ```
 
-Dalam cuplikan ini, ganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat file PDF Anda berada. Ini akan membantu kami memuat PDF yang ada dan menyimpan versi yang dimodifikasi.
+Dalam cuplikan ini, ganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat file PDF Anda berada. Ini akan membantu kami memuat PDF yang ada dan menyimpan versi yang dimodifikasi.
 
 ## Langkah 2: Muat File PDF yang Ada
 
@@ -64,7 +66,7 @@ Sekarang setelah direktori dokumen kita disiapkan, mari muat berkas PDF yang ada
 Document doc = new Document(inFile);
 ```
 
- Di sini, kita membuat yang baru`Document` objek dengan meneruskan jalur berkas input. Hal ini memungkinkan kita untuk memanipulasi konten PDF secara terprogram.
+Di sini, kita membuat yang baru `Document` objek dengan meneruskan jalur berkas input. Hal ini memungkinkan kita untuk memanipulasi konten PDF secara terprogram.
 
 ## Langkah 3: Masukkan Halaman Baru untuk Daftar Isi
 
@@ -74,7 +76,7 @@ Berikutnya, kita perlu membuat halaman baru di PDF kita tempat Daftar Isi akan b
 Aspose.Pdf.Page tocPage = doc.Pages.Insert(1);
 ```
 
-Baris ini menyisipkan halaman baru di awal dokumen. Daftar isi akan ditampilkan di halaman ini.
+Baris ini menyisipkan halaman baru di awal dokumen. Daftar Isi akan ditampilkan di halaman ini.
 
 ## Langkah 4: Buat Informasi Daftar Isi
 
@@ -90,7 +92,7 @@ tocInfo.PageNumbersPrefix = "P";
 tocPage.TocInfo = tocInfo;
 ```
 
- Pada langkah ini, kita membuat`TocInfo` objek dan atur judulnya menjadi "Daftar Isi." Kami juga menyesuaikan ukuran dan gaya font.`PageNumbersPrefix` diatur ke "P," yang akan menjadi awalan nomor halaman di TOC.
+Pada langkah ini, kita membuat `TocInfo` objek dan atur judulnya menjadi "Daftar Isi." Kami juga menyesuaikan ukuran dan gaya font. `PageNumbersPrefix` diatur ke "P," yang akan menjadi awalan nomor halaman di TOC.
 
 ## Langkah 5: Tambahkan Judul ke Daftar Isi
 
@@ -110,7 +112,7 @@ for (int i = 1; i < doc.Pages.Count; i++)
 }
 ```
 
- Dalam loop ini, kita membuat yang baru`Heading` objek untuk setiap halaman. Kami menetapkan halaman tujuan untuk setiap judul dan menentukan teks yang akan ditampilkan, yaitu "Halaman X" di mana X adalah nomor halaman. Terakhir, kami menambahkan judul ke halaman TOC.
+Dalam loop ini, kita membuat yang baru `Heading` objek untuk setiap halaman. Kami menetapkan halaman tujuan untuk setiap judul dan menentukan teks yang akan ditampilkan, yaitu "Halaman X" di mana X adalah nomor halaman. Terakhir, kami menambahkan judul ke halaman TOC.
 
 ## Langkah 6: Simpan Dokumen yang Diperbarui
 
@@ -120,7 +122,7 @@ Setelah menambahkan semua judul yang diperlukan, saatnya menyimpan dokumen kita 
 doc.Save(outFile);
 ```
 
-Baris ini menyimpan PDF yang dimodifikasi dengan TOC yang disertakan. Sekarang Anda dapat membuka file output dan melihat Daftar Isi yang telah Anda sesuaikan!
+Baris ini menyimpan PDF yang dimodifikasi dengan TOC yang disertakan. Anda sekarang dapat membuka file output dan melihat Daftar Isi yang telah Anda sesuaikan!
 
 ## Kesimpulan
 
@@ -132,19 +134,21 @@ Nah, itu dia! Anda telah berhasil menyesuaikan nomor halaman sambil menambahkan 
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Apakah ada lisensi sementara yang tersedia?
- Ya, Anda dapat meminta lisensi sementara untuk Aspose.PDF[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Anda dapat meminta lisensi sementara untuk Aspose.PDF [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat membeli Aspose.PDF untuk .NET?
- Anda dapat membeli Aspose.PDF untuk .NET[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli Aspose.PDF untuk .NET [Di Sini](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

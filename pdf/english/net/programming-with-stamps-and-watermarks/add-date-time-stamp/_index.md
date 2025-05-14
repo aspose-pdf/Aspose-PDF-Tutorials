@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/add-date-time-stamp/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Date Time Stamp In PDF File
@@ -194,6 +196,7 @@ You can explore more examples and tutorials in the [Aspose.PDF documentation](ht
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,46 +1,48 @@
 ---
-title: Skapa fyllt rektangelobjekt i PDF med Java
-linktitle: Skapa fyllt rektangelobjekt i PDF med Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Lär dig hur du skapar fyllda rektanglar i PDF-filer med Java med Aspose.PDF för Java. Steg-för-steg handledning med kodexempel.
-weight: 12
-url: /sv/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
+"description": "Lär dig hur du skapar fyllda rektanglar i PDF-filer med hjälp av Java och Aspose.PDF för Java. Steg-för-steg-handledning med kodexempel."
+"linktitle": "Skapa ett fyllt rektangelobjekt i PDF med Java"
+"second_title": "Aspose.PDF Java PDF-bearbetnings-API"
+"title": "Skapa ett fyllt rektangelobjekt i PDF med Java"
+"url": "/sv/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa fyllt rektangelobjekt i PDF med Java
+# Skapa ett fyllt rektangelobjekt i PDF med Java
 
 
-## Introduktion till att skapa fyllda rektangelobjekt i PDF med Java
+## Introduktion till att skapa ett fyllt rektangelobjekt i PDF med Java
 
-I den här handledningen kommer vi att utforska hur man skapar ett fyllt rektangelobjekt i ett PDF-dokument med hjälp av Java med hjälp av Aspose.PDF för Java. Fyllda rektanglar används vanligtvis i PDF-filer för olika ändamål, som att markera viktig information eller skapa visuella separationer.
+I den här handledningen ska vi utforska hur man skapar ett fyllt rektangelobjekt i ett PDF-dokument med hjälp av Java med hjälp av Aspose.PDF för Java. Fyllda rektanglar används ofta i PDF-filer för olika ändamål, till exempel för att markera viktig information eller skapa visuella separationer.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan vi börjar, se till att du har följande förutsättningar på plats:
 
 - Java Development Kit (JDK) installerat
-- Integrated Development Environment (IDE) som Eclipse eller IntelliJ
-- Aspose.PDF för Java-bibliotek nedladdat och konfigurerat
+- Integrerad utvecklingsmiljö (IDE) som Eclipse eller IntelliJ
+- Aspose.PDF för Java-biblioteket laddades ner och konfigurerades
 
 ## Konfigurera Aspose.PDF för Java
 
-För att komma igång måste du ladda ner Aspose.PDF för Java från webbplatsen. Följ dessa steg:
+För att komma igång behöver du ladda ner Aspose.PDF för Java från webbplatsen. Följ dessa steg:
 
-1.  Gå till Aspose.PDF för Java-dokumentationen på[här](https://reference.aspose.com/pdf/java/).
+1. Få åtkomst till Aspose.PDF för Java-dokumentationen på [här](https://reference.aspose.com/pdf/java/).
 
-2. Ladda ner biblioteket och följ installationsinstruktionerna.
+2. Ladda ner biblioteket och följ installationsanvisningarna som medföljer.
 
 3. Importera Aspose.PDF-biblioteket till ditt Java-projekt.
 
-Nu när vi har ställt in Aspose.PDF för Java, låt oss dyka in i att skapa en fylld rektangel i ett PDF-dokument.
+Nu när vi har konfigurerat Aspose.PDF för Java, låt oss dyka ner i att skapa en fylld rektangel i ett PDF-dokument.
 
 ## Skapa ett nytt PDF-dokument
 
-I det här avsnittet kommer vi att skapa ett nytt PDF-dokument med Aspose.PDF för Java. Importera först de nödvändiga klasserna:
+I det här avsnittet skapar vi ett nytt PDF-dokument med Aspose.PDF för Java. Först importerar vi de nödvändiga klasserna:
 
 ```java
 import com.aspose.pdf.Document;
@@ -65,18 +67,18 @@ filledRectangle.setBackgroundColor(com.aspose.pdf.Color.getRed());
 page.getParagraphs().add(filledRectangle);
 ```
 
-I denna kod:
--  Vi skapar en ny`Rectangle` objekt, anger dess position (x=100, y=100), bredd (200) och höjd (50).
-- Vi ställer in bakgrundsfärgen för rektangeln till röd.
+I den här koden:
+- Vi skapar ett nytt `Rectangle` objektet, och anger dess position (x=100, y=100), bredd (200) och höjd (50).
+- Vi ställer in bakgrundsfärgen på rektangeln till röd.
 - Slutligen lägger vi till rektangeln på sidan.
 
 ## Anpassa rektangeln
 
-Du kan anpassa rektangeln ytterligare genom att ändra dess färg, ram eller andra egenskaper. Utforska Aspose.PDF för Java-dokumentationen för fler alternativ.
+Du kan anpassa rektangeln ytterligare genom att ändra dess färg, kantlinje eller andra egenskaper. Utforska dokumentationen Aspose.PDF för Java för fler alternativ.
 
-## Sparar PDF:en
+## Spara PDF-filen
 
-När du har skapat PDF-dokumentet med den fyllda rektangeln sparar du det i en fil:
+När du har skapat PDF-dokumentet med den fyllda rektangeln, spara det till en fil:
 
 ```java
 pdfDocument.save("FilledRectangle.pdf");
@@ -84,36 +86,38 @@ pdfDocument.save("FilledRectangle.pdf");
 
 ## Köra koden
 
-Kompilera och kör din Java-kod. Du bör nu ha en PDF-fil som heter "FilledRectangle.pdf" med en fylld rektangel.
+Kompilera och kör din Java-kod. Du borde nu ha en PDF-fil med namnet "FilledRectangle.pdf" med en fylld rektangel.
 
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur man skapar ett fyllt rektangelobjekt i ett PDF-dokument med Java och Aspose.PDF för Java. Detta kan vara användbart för att markera viktig information eller lägga till visuella element i dina PDF-filer. Aspose.PDF för Java ger ett kraftfullt och flexibelt sätt att arbeta med PDF-filer i Java-applikationer.
+I den här handledningen har vi lärt oss hur man skapar ett fyllt rektangelobjekt i ett PDF-dokument med hjälp av Java och Aspose.PDF för Java. Detta kan vara användbart för att markera viktig information eller lägga till visuella element i dina PDF-filer. Aspose.PDF för Java erbjuder ett kraftfullt och flexibelt sätt att arbeta med PDF-filer i Java-applikationer.
 
-## FAQ's
+## Vanliga frågor
 
 ### Vad är Aspose.PDF för Java?
 
-Aspose.PDF för Java är ett Java-bibliotek som låter utvecklare arbeta med PDF-filer i Java-applikationer. Den tillhandahåller ett brett utbud av funktioner för att skapa, manipulera och hantera PDF-dokument.
+Aspose.PDF för Java är ett Java-bibliotek som låter utvecklare arbeta med PDF-filer i Java-applikationer. Det erbjuder ett brett utbud av funktioner för att skapa, manipulera och hantera PDF-dokument.
 
 ### Hur installerar jag Aspose.PDF för Java?
 
-Du kan installera Aspose.PDF för Java genom att ladda ner biblioteket från Asposes webbplats och följa installationsinstruktionerna i dokumentationen.
+Du kan installera Aspose.PDF för Java genom att ladda ner biblioteket från Asposes webbplats och följa installationsanvisningarna i dokumentationen.
 
 ### Kan jag ändra färgen på den fyllda rektangeln?
 
- Ja, du kan anpassa färgen på den fyllda rektangeln genom att ställa in dess bakgrundsfärg med hjälp av`setBackgroundColor`metod, som visas i handledningen.
+Ja, du kan anpassa färgen på den fyllda rektangeln genom att ställa in dess bakgrundsfärg med hjälp av `setBackgroundColor` metod, som visas i handledningen.
 
 ### Är Aspose.PDF för Java gratis att använda?
 
-Aspose.PDF för Java är ett kommersiellt bibliotek, och du kan behöva köpa en licens för att använda det i dina projekt. Kolla Asposes webbplats för licensinformation.
+Aspose.PDF för Java är ett kommersiellt bibliotek, och du kan behöva köpa en licens för att använda det i dina projekt. Se Asposes webbplats för licensinformation.
 
 ### Var kan jag hitta fler exempel med Aspose.PDF för Java?
 
- Du kan hitta fler exempel och detaljerad dokumentation om hur du använder Aspose.PDF för Java på Asposes webbplats på[här](https://reference.aspose.com/pdf/java/).
+Du hittar fler exempel och detaljerad dokumentation om hur man använder Aspose.PDF för Java på Asposes webbplats på [här](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

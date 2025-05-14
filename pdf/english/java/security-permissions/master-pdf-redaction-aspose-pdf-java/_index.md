@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PDF Redaction with Aspose.PDF in Java
 
@@ -186,7 +188,11 @@ Ready to get started? Dive into more resources and try implementing what you've 
 - [Free Trial and Temporary License](https://releases.aspose.com/pdf/java/)
 
 Explore these resources to deepen your understanding of PDF redaction and the powerful capabilities of Aspose.PDF for Java. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

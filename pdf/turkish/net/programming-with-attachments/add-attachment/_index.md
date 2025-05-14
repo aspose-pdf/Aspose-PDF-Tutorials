@@ -1,27 +1,29 @@
 ---
-title: PDF Dosyasına Ek Ekle
-linktitle: PDF Dosyasına Ek Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarına ek eklemeyi öğrenin. Belgelerinizi zahmetsizce geliştirin.
-weight: 10
-url: /tr/net/programming-with-attachments/add-attachment/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarına eklerin nasıl ekleneceğini öğrenin. Belgelerinizi zahmetsizce geliştirin."
+"linktitle": "PDF Dosyasına Ek Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Ek Ekle"
+"url": "/tr/net/programming-with-attachments/add-attachment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Ek Ekle
 
 ## giriiş
 
-Hiç bir PDF belgesine dosya ekleme ihtiyacı hissettiniz mi? İster ek bir metin dosyası, ister bir resim veya başka bir tür belge olsun, PDF'lere ekler eklemek dosyalarınızın kullanılabilirliğini ve işlevselliğini artırabilir. Bu eğitimde, .NET için Aspose.PDF kullanarak PDF dosyalarına nasıl ek ekleneceğini inceleyeceğiz. Bu güçlü kütüphane, geliştiricilerin PDF belgelerini kolaylıkla düzenlemelerine olanak tanır ve bu kılavuzun sonunda, bir profesyonel gibi ekler ekleyebileceksiniz!
+Hiç bir PDF belgesine dosya ekleme ihtiyacı hissettiniz mi? İster ek bir metin dosyası, ister bir resim veya başka bir tür belge olsun, PDF'lere ekler eklemek dosyalarınızın kullanılabilirliğini ve işlevselliğini artırabilir. Bu eğitimde, .NET için Aspose.PDF kullanarak PDF dosyalarına nasıl ek ekleneceğini inceleyeceğiz. Bu güçlü kitaplık, geliştiricilerin PDF belgelerini kolaylıkla düzenlemelerine olanak tanır ve bu kılavuzun sonunda, bir profesyonel gibi ekler ekleyebileceksiniz!
 
 ## Ön koşullar
 
 Eklenti eklemenin inceliklerine dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: .NET kodlarınızı yazıp test edebileceğiniz bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
@@ -48,33 +50,33 @@ Artık her şeyi ayarladığımıza göre, bir PDF dosyasına ek ekleme sürecin
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` dosyalarınızın saklandığı gerçek yol ile.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` dosyalarınızın saklandığı gerçek yol ile.
 
 ## Adım 2: PDF Belgesini açın
 
- Sonra, eki eklemek istediğiniz PDF belgesini açmanız gerekir. Bu, şu şekilde yapılır:`Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
+Sonra, eki eklemek istediğiniz PDF belgesini açmanız gerekir. Bu, şu şekilde yapılır: `Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
 
 ```csharp
 // Belgeyi aç
 Document pdfDocument = new Document(dataDir + "AddAttachment.pdf");
 ```
 
- Bu satırda, yeni bir örnek oluşturuyoruz`Document` sınıf ve varolan PDF dosyasını yükleme`AddAttachment.pdf`.
+Bu satırda, yeni bir örnek oluşturuyoruz `Document` sınıf ve varolan PDF dosyasını yükleme `AddAttachment.pdf`.
 
 ## Adım 3: Eklenecek Dosyayı Ayarlayın
 
- Şimdi, eklemek istediğiniz dosyayı belirtmenin zamanı geldi. Bir tane oluşturmanız gerekecek`FileSpecification` dosyanın yolunu ve açıklamasını içeren nesne.
+Şimdi, eklemek istediğiniz dosyayı belirtmenin zamanı geldi. Bir tane oluşturmanız gerekecek `FileSpecification` dosyanın yolunu ve açıklamasını içeren nesne.
 
 ```csharp
 // Ek olarak eklenecek yeni dosyayı ayarlayın
 FileSpecification fileSpecification = new FileSpecification(dataDir + "test.txt", "Sample text file");
 ```
 
- Burada, adında bir metin dosyası eklemeye hazırlanıyoruz.`test.txt` "Örnek metin dosyası" açıklamasıyla birlikte.
+Burada, adında bir metin dosyası eklemeye hazırlanıyoruz. `test.txt` "Örnek metin dosyası" açıklamasıyla birlikte.
 
 ## Adım 4: Eki Belgeye Ekleyin
 
-Dosya tanımlamanız hazır olduğuna göre artık eki PDF belgesinin ek koleksiyonuna ekleyebilirsiniz.
+Dosya tanımlamanız hazır olduğuna göre, artık eki PDF belgesinin ek koleksiyonuna ekleyebilirsiniz.
 
 ```csharp
 // Belgenin ek koleksiyonuna ek ekle
@@ -93,7 +95,7 @@ dataDir = dataDir + "AddAttachment_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Bu adımda, değiştirilmiş PDF'yi şu şekilde kaydediyoruz:`AddAttachment_out.pdf` aynı dizinde.
+Bu adımda, değiştirilmiş PDF'yi şu şekilde kaydediyoruz: `AddAttachment_out.pdf` aynı dizinde.
 
 ## Adım 6: İşlemi Onaylayın
 
@@ -107,7 +109,7 @@ Bu mesaj, ekin başarıyla eklendiğini ve yeni dosyanın nerede olduğunu bildi
 
 ## Çözüm
 
-Aspose.PDF for .NET kullanarak PDF dosyalarına ekler eklemek, belgelerinizin işlevselliğini önemli ölçüde artırabilecek basit bir işlemdir. Bu eğitimde özetlenen adımları izleyerek, PDF'lerinize kolayca dosya ekleyebilir, bunları hedef kitleniz için daha bilgilendirici ve kullanışlı hale getirebilirsiniz. İster raporlar, ister sunumlar veya başka herhangi bir belge türü üzerinde çalışıyor olun, bu özellik oyunun kurallarını değiştirebilir.
+Aspose.PDF for .NET kullanarak PDF dosyalarına ekler eklemek, belgelerinizin işlevselliğini önemli ölçüde artırabilecek basit bir işlemdir. Bu eğitimde özetlenen adımları izleyerek, PDF'lerinize kolayca dosya ekleyebilir, bunları hedef kitleniz için daha bilgilendirici ve kullanışlı hale getirebilirsiniz. İster raporlar, ister sunumlar veya başka herhangi bir tür belge üzerinde çalışıyor olun, bu özellik oyunun kurallarını değiştirebilir.
 
 ## SSS
 
@@ -121,13 +123,15 @@ Aspose.PDF ücretsiz deneme sürümü sunuyor, ancak tüm işlevlerden yararlanm
 Evet, PDF'in ek koleksiyonuna birden fazla dosya ekleyebilirsiniz.
 
 ### Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?
- Kapsamlı belgeleri şurada bulabilirsiniz:[Aspose web sitesi](https://reference.aspose.com/pdf/net/).
+Kapsamlı belgeleri şurada bulabilirsiniz: [Aspose web sitesi](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

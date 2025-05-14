@@ -1,14 +1,16 @@
 ---
-title: Utwórz element struktury notatki
-linktitle: Utwórz element struktury notatki
-second_title: Aspose.PDF dla .NET API Reference
-description: Naucz się tworzyć elementy struktury notatek w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego szczegółowego samouczka krok po kroku.
-weight: 30
-url: /pl/net/programming-with-tagged-pdf/create-note-structure-element/
+"description": "Naucz się tworzyć elementy struktury notatek w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego szczegółowego samouczka krok po kroku."
+"linktitle": "Utwórz element struktury notatki"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Utwórz element struktury notatki"
+"url": "/pl/net/programming-with-tagged-pdf/create-note-structure-element/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz element struktury notatki
@@ -22,7 +24,7 @@ Tworzenie ustrukturyzowanych dokumentów jest niezbędne w dzisiejszym cyfrowym 
 Zanim zagłębimy się w kodowanie i tworzenie elementów struktury notatki, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
 1. Środowisko .NET: Należy skonfigurować środowisko programistyczne .NET, np. Visual Studio.
-2.  Biblioteka Aspose.PDF: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Biblioteka Aspose.PDF: Musisz pobrać i zainstalować bibliotekę Aspose.PDF. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# jest konieczna, aby w pełni skorzystać z tego samouczka.
 4. Dostęp do środowiska .NET Framework: Upewnij się, że Twój projekt jest ukierunkowany na zgodną wersję środowiska .NET Framework.
 5. Katalog dokumentów: Skonfiguruj katalog, w którym będziesz przechowywać pliki PDF i pliki dziennika. 
@@ -57,7 +59,7 @@ string logFile = dataDir + "45929_log.xml";
 // Utwórz dokument PDF
 Document document = new Document();
 ```
-Ten kod inicjuje nowy`Document` obiekt i ustawia ścieżki plików dla wyjściowych plików PDF i dziennika. Upewnij się, że zastąpiłeś`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką katalogu.
+Ten kod inicjuje nowy `Document` obiekt i ustawia ścieżki plików dla wyjściowych plików PDF i dziennika. Upewnij się, że zastąpiłeś `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką katalogu.
 
 ## Krok 2: Ustawianie atrybutów zawartości tagowanej
 
@@ -68,7 +70,7 @@ ITaggedContent taggedContent = document.TaggedContent;
 taggedContent.SetTitle("Sample of Note Elements");
 taggedContent.SetLanguage("en-US");
 ```
- Tutaj uzyskujemy dostęp do`TaggedContent` dokumentu i ustawienie jego tytułu i języka. Jest to kluczowe dla standardów dostępności i nadaje dokumentowi bardziej profesjonalny charakter.
+Tutaj uzyskujemy dostęp do `TaggedContent` dokumentu i ustawienie jego tytułu i języka. Jest to kluczowe dla standardów dostępności i nadaje dokumentowi bardziej profesjonalny charakter.
 
 ## Krok 3: Tworzenie elementu akapitu
 
@@ -79,7 +81,7 @@ Teraz dodamy element akapitu do oznaczonej zawartości. Będzie on służył jak
 ParagraphElement paragraph = taggedContent.CreateParagraphElement();
 taggedContent.RootElement.AppendChild(paragraph);
 ```
- Tworząc`ParagraphElement`, zapewniamy bazę, do której zostaną dodane elementy notatek. Jest to podobne do położenia fundamentu pod dom przed zbudowaniem ścian.
+Tworząc `ParagraphElement`, zapewniamy bazę, do której zostaną dodane elementy notatek. Jest to podobne do położenia fundamentu pod dom przed zbudowaniem ścian.
 
 ## Krok 4: Dodawanie elementów notatki
 
@@ -104,7 +106,7 @@ paragraph.AppendChild(note2);
 note2.SetText("Note with ID = 'note_002'. ");
 note2.SetId("note_002");
 ```
- W przypadku drugiej notatki jawnie ustawiliśmy identyfikator`note_002`Ważne jest, aby pamiętać o identyfikatorach, ponieważ umożliwiają one późniejsze odwoływanie się do konkretnych notatek.
+W przypadku drugiej notatki jawnie ustawiliśmy identyfikator `note_002`Ważne jest, aby pamiętać o identyfikatorach, ponieważ umożliwiają one późniejsze odwoływanie się do konkretnych notatek.
 
 ### Krok 4.3: Dodaj trzecią nutę
 
@@ -116,7 +118,7 @@ note3.SetText("Note with ID = 'note_003'. ");
 note3.SetId("note_003");
 // Musi zostać zgłoszony wyjątek - Aspose.Pdf.Tagged.TaggedException: Element struktury o ID='note_002' już istnieje
 ```
- Ta trzecia notatka jest bardzo podobna do drugiej, ale używa innego unikalnego ID. Uważaj; próba utworzenia innej notatki z tym samym ID co`note_002` spowoduje wyjątek. 
+Ta trzecia notatka jest bardzo podobna do drugiej, ale używa innego unikalnego ID. Uważaj; próba utworzenia innej notatki z tym samym ID co `note_002` spowoduje wyjątek. 
 
 ## Krok 5: Zapisywanie dokumentu
 
@@ -147,7 +149,7 @@ I masz! Udało Ci się utworzyć elementy struktury notatek w dokumencie PDF, co
 ## Najczęściej zadawane pytania
 
 ### Czym są elementy struktury notatek w plikach PDF?
-Elementy notatki to adnotacje lub komentarze dodawane do konkretnych części dokumentu PDF, zwiększające przejrzystość i zrozumienie.
+Elementy notatki to adnotacje lub komentarze dodawane do konkretnych części dokumentu PDF, które zwiększają przejrzystość i zrozumienie.
 
 ### Czy Aspose.PDF dla .NET jest darmowy?
 Aspose.PDF jest produktem komercyjnym, choć oferuje bezpłatną wersję próbną. Ceny różnią się w zależności od sposobu użytkowania i wymaganych funkcji.
@@ -159,10 +161,12 @@ Tak! Aspose.PDF obsługuje liczne elementy, takie jak obrazy, tabele i hiperłą
 Zgodność ze standardem PDF/UA gwarantuje, że dokumenty PDF są dostępne dla osób niepełnosprawnych, zgodnie ze światowymi standardami.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.PDF?
- Aby uzyskać pomoc, odwiedź stronę[Forum Aspose](https://forum.aspose.com/c/pdf/10) gdzie możesz zadawać pytania i dzielić się swoimi doświadczeniami.
+Aby uzyskać pomoc, odwiedź stronę [Forum Aspose](https://forum.aspose.com/c/pdf/10) gdzie możesz zadawać pytania i dzielić się swoimi doświadczeniami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

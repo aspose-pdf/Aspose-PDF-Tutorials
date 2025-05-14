@@ -1,14 +1,16 @@
 ---
-title: โครงสร้างรากใน PDF โดยใช้ Java
-linktitle: โครงสร้างรากใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้การจัดการโครงสร้างรากโดยใช้ Aspose.PDF สร้าง แก้ไข และปรับปรุง PDF
-weight: 11
-url: /th/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/
+"description": "เรียนรู้การจัดการโครงสร้างรากโดยใช้ Aspose.PDF สร้าง แก้ไข และปรับปรุง PDF"
+"linktitle": "โครงสร้างรากใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "โครงสร้างรากใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # โครงสร้างรากใน PDF โดยใช้ Java
@@ -41,7 +43,7 @@ Document pdfDocument = new Document();
 
 ## การปรับเปลี่ยนโครงสร้างราก
 
-หากต้องการปรับเปลี่ยนโครงสร้างราก เราสามารถเข้าถึงโครงสร้างดังกล่าวได้ผ่านอ็อบเจ็กต์เอกสาร PDF เราสามารถเพิ่มหรือลบอ็อบเจ็กต์ เช่น หน้าหรือคำอธิบายประกอบ เพื่อปรับแต่ง PDF ได้
+หากต้องการปรับเปลี่ยนโครงสร้างราก เราสามารถเข้าถึงได้ผ่านวัตถุเอกสาร PDF เราสามารถเพิ่มหรือลบวัตถุ เช่น หน้าหรือคำอธิบายประกอบ เพื่อปรับแต่ง PDF
 
 ```java
 // โค้ด Java เพื่อเพิ่มหน้าใหม่ลงใน PDF
@@ -83,11 +85,11 @@ Aspose.PDF สำหรับ Java นำเสนอฟีเจอร์ขั
 
 ### ฉันจะเพิ่มไฮเปอร์ลิงก์ลงใน PDF โดยใช้ Aspose.PDF สำหรับ Java ได้อย่างไร
 
-หากต้องการเพิ่มไฮเปอร์ลิงก์ ให้ใช้`HyperlinkAnnotation` คลาสและระบุ URL เป้าหมาย
+หากต้องการเพิ่มไฮเปอร์ลิงก์ ให้ใช้ `HyperlinkAnnotation` คลาสและระบุ URL เป้าหมาย
 
 ### ฉันสามารถเข้ารหัสเอกสาร PDF ด้วยรหัสผ่านได้หรือไม่
 
-ใช่ คุณสามารถเข้ารหัสเอกสาร PDF ได้โดยใช้ Aspose.PDF สำหรับ Java เพื่อป้องกันเอกสารด้วยรหัสผ่าน
+ใช่ คุณสามารถเข้ารหัสเอกสาร PDF ได้โดยใช้ Aspose.PDF สำหรับ Java เพื่อปกป้องเอกสารด้วยรหัสผ่าน
 
 ### Aspose.PDF สำหรับ Java เหมาะกับการสร้างรายงานในรูปแบบ PDF หรือไม่
 
@@ -95,14 +97,16 @@ Aspose.PDF สำหรับ Java นำเสนอฟีเจอร์ขั
 
 ### ฉันจะแยกข้อความจากเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java ได้อย่างไร
 
-คุณสามารถแยกข้อความจากเอกสาร PDF ได้โดยการทำซ้ำผ่านส่วนข้อความและแยกเนื้อหาข้อความออกมา
+คุณสามารถแยกข้อความจากเอกสาร PDF ได้โดยการทำซ้ำผ่านส่วนข้อความและแยกเนื้อหาข้อความ
 
 ### ฉันสามารถแปลงเอกสาร PDF เป็นรูปแบบอื่น เช่น Word หรือ Excel ด้วย Aspose.PDF สำหรับ Java ได้หรือไม่
 
 ใช่ Aspose.PDF สำหรับ Java รองรับการแปลงเอกสาร PDF เป็นรูปแบบต่างๆ รวมถึง Word และ Excel
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

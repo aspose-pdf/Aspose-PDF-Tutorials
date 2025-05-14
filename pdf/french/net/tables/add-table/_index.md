@@ -1,46 +1,51 @@
 ---
-title: Ajouter une table à un fichier PDF existant à l'aide de Aspose.PDF pour .NET
-weight: 7700
-limit: 
-description: Apprenez à ajouter une table à un fichier PDF existant en utilisant Aspose.PDF pour .NET. Guide étape par étape avec exemple de code, instructions d'installation et liens utiles. 
-keywords: [Aspose.PDF for .NET, add table to PDF, create table in PDF, modify PDF, .NET PDF library, edit PDF document, insert table, C# PDF manipulation]
-url: /fr/net/tables/add-table/
+"description": "Apprenez à ajouter un tableau à un PDF existant avec Aspose.PDF pour .NET. Guide étape par étape avec exemple de code, instructions d'installation et liens utiles."
+"title": "Ajouter un tableau à un PDF existant à l'aide d'Aspose.PDF pour .NET"
+"url": "/fr/net/tables/add-table/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter une table à un fichier PDF existant à l'aide de Aspose.PDF
+# Ajouter un tableau à un PDF existant à l'aide d'Aspose.PDF
 
-L'ajout d'une table à un document PDF existant est une exigence courante pour générer des rapports, des factures ou des présentations de données structurées.
+L'ajout d'un tableau à un document PDF existant est souvent nécessaire pour générer des rapports, des factures ou des présentations de données structurées. Avec Aspose.PDF pour .NET, vous pouvez facilement créer et insérer un tableau dans un document PDF tout en personnalisant son apparence et sa structure.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/add-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation  
 
-Pour utiliser Aspose.PDF pour .NET, suivez ces étapes:  
+Pour utiliser Aspose.PDF pour .NET, suivez ces étapes :  
 
 1. Télécharger et installer Aspose.PDF pour .NET  
-   * Télécharger à partir de [Aspose.PDF pour les téléchargements .NET](https://releases.aspose.com/pdf/net/)  
-   * Installez par NuGet:  
+   - Télécharger depuis [Téléchargements Aspose.PDF pour .NET](https://releases.aspose.com/pdf/net/)  
+   - Installer via NuGet :  
      ```sh
      Install-Package Aspose.PDF
      ```  
 
-2. Application de licence (facultatif)  
-   * Achat: [Aspose.PDF acheter](https://purchase.aspose.com/buy)  
-   * \- Une épreuve gratuite .[Aspose.PDF Essai gratuit](https://releases.aspose.com/)  
-   * Licence temporaire:[Aspose.PDF Licence temporaire](https://purchase.aspose.com/temporary-license/)  
+2. Appliquer la licence (facultatif)  
+   - Achat: [Acheter Aspose.PDF](https://purchase.aspose.com/buy)  
+   - Essai gratuit : [Essai gratuit d'Aspose.PDF](https://releases.aspose.com/)  
+   - Licence temporaire : [Licence temporaire Aspose.PDF](https://purchase.aspose.com/temporary-license/)  
 
-3. Voir la documentation  
-   * [Aspose.PDF pour la documentation .NET](https://docs.aspose.com/pdf/net/)  
-   * [Aspose.PDF référence à l'API](https://reference.aspose.com/pdf/net/)  
+3. Se référer à la documentation  
+   - [Documentation Aspose.PDF pour .NET](https://docs.aspose.com/pdf/net/)  
+   - [Référence de l'API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
  
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Görüntüleri Küçült
-linktitle: PDF Dosyasındaki Görüntüleri Küçült
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarındaki resimleri kolayca küçültün, kaliteyi korurken daha küçük dosya boyutları elde edin.
-weight: 280
-url: /tr/net/programming-with-images/shrink-images/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarındaki resimleri kolayca küçültün, kaliteyi korurken daha küçük dosya boyutları elde edin."
+"linktitle": "PDF Dosyasındaki Görüntüleri Küçült"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Görüntüleri Küçült"
+"url": "/tr/net/programming-with-images/shrink-images/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Görüntüleri Küçült
@@ -22,7 +24,7 @@ Dijital çağda, PDF dosyalarıyla çalışmak iş raporlarından akademik makal
 Görüntü optimizasyon sürecine başlamadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
 1. .NET Framework: Makinenizde .NET Framework'ün uyumlu bir sürümünün yüklü olduğundan emin olun. Aspose.PDF for .NET, .NET Framework veya .NET Core ile çalışır.
-2.  Aspose.PDF for .NET: Eğer henüz yapmadıysanız, Aspose.PDF for .NET'in en son sürümünü şu adresten indirin:[indirme sayfası](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF for .NET: Eğer henüz yapmadıysanız, Aspose.PDF for .NET'in en son sürümünü şu adresten indirin: [indirme sayfası](https://releases.aspose.com/pdf/net/).
 3. Geliştirme Ortamı: Kodunuzu yazıp çalıştırabileceğiniz Visual Studio gibi Entegre Geliştirme Ortamı (IDE) kurmak faydalıdır.
 4. Temel Programlama Bilgisi: C# programlamaya aşinalık bu süreci daha sorunsuz hale getirecektir. Kodlama konusunda daha önce deneyiminiz varsa, bu bir artıdır!
 
@@ -46,10 +48,10 @@ Sonra, Aspose.PDF kütüphane referansını projenize ekleyin. Bunu şu şekilde
   - "Aspose.PDF" dosyasını arayın ve yükleyin.
 
 - DLL'yi manuel olarak ekleme:
-  - .NET için Aspose.PDF'yi şu adresten indirin:[indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+  - .NET için Aspose.PDF'yi şu adresten indirin: [indirme bağlantısı](https://releases.aspose.com/pdf/net/).
   - DLL dosyasını proje referanslarınıza ekleyin.
 
- Bunu yaptıktan sonra, aşağıdakileri kullanın`using` Kodunuzun en üstündeki ifade:
+Bunu yaptıktan sonra, aşağıdakileri kullanın `using` Kodunuzun en üstündeki ifade:
 
 ```csharp
 using System;
@@ -68,7 +70,7 @@ Yapmamız gereken ilk şey PDF belgenizin depolandığı yolu tanımlamaktır. A
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 ```
 
- Değiştirmeyi unutmayın`YOUR DOCUMENT DIRECTORY` sisteminizdeki gerçek yol ile.
+Değiştirmeyi unutmayın `YOUR DOCUMENT DIRECTORY` sisteminizdeki gerçek yol ile.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -78,7 +80,7 @@ Artık belgenin yolunu biliyoruz, optimize etmek istediğiniz PDF dosyasını a�
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 ```
 
- Bu satır bir`Document` PDF dosyanızdan nesne. Dosya belirtilen yolda mevcut değilse, bir istisna atılır.
+Bu satır bir `Document` PDF dosyanızdan nesne. Dosya belirtilen yolda mevcut değilse, bir istisna atılır.
 
 ## Adım 3: Optimizasyon Seçeneklerini Başlatın
 
@@ -158,10 +160,12 @@ Azaltma büyük ölçüde orijinal görüntü kalitesine ve sıkıştırma ve g�
 Aspose.PDF'in ücretsiz deneme sürümü mevcuttur ancak sürekli kullanım için lisans satın alınması gerekmektedir.
 
 ### Daha fazla destek veya dokümanı nerede bulabilirim?  
- Kapsamlı kaynaklara şu adresten ulaşabilirsiniz:[Aspose PDF dokümantasyon sayfası](https://reference.aspose.com/pdf/net/)ve sorular sor[Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10).
+Kapsamlı kaynaklara şu adresten ulaşabilirsiniz: [Aspose PDF dokümantasyon sayfası](https://reference.aspose.com/pdf/net/) ve sorular sor [Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

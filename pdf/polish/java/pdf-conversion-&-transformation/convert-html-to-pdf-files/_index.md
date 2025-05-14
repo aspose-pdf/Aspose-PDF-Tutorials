@@ -1,14 +1,16 @@
 ---
-title: Konwertuj pliki HTML na PDF
-linktitle: Konwertuj pliki HTML na PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak bez wysiłku konwertować pliki HTML do PDF za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku z przykładami kodu do wydajnego generowania dokumentów.
-weight: 11
-url: /pl/java/pdf-conversion-transformation/convert-html-to-pdf-files/
+"description": "Dowiedz się, jak bez wysiłku konwertować pliki HTML do PDF za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku z przykładami kodu do wydajnego generowania dokumentów."
+"linktitle": "Konwertuj pliki HTML na PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Konwertuj pliki HTML na PDF"
+"url": "/pl/java/pdf-conversion-transformation/convert-html-to-pdf-files/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj pliki HTML na PDF
@@ -34,7 +36,7 @@ Zanim zagłębimy się w kod, upewnijmy się, że wszystko jest skonfigurowane:
 
 ### Krok 1: Dodawanie zależności Aspose.PDF
 
- Na początek utwórz nowy projekt Java w swoim IDE. Następnie dodaj do swojego projektu Aspose.PDF dla zależności Java. Możesz to zrobić, dodając następującą zależność Maven do swojego`pom.xml` plik:
+Na początek utwórz nowy projekt Java w swoim IDE. Następnie dodaj do swojego projektu Aspose.PDF dla zależności Java. Możesz to zrobić, dodając następującą zależność Maven do swojego `pom.xml` plik:
 
 ```xml
 <dependency>
@@ -75,7 +77,7 @@ To wszystko! Udało Ci się przekonwertować HTML na PDF przy użyciu Aspose.PDF
 
 ### Stylizowanie pliku PDF
 
-Możesz dostosować wygląd pliku PDF, stosując style do zawartości HTML. Aspose.PDF for Java oferuje różne opcje stylizacji, w tym czcionki, kolory i wymiary strony.
+Możesz dostosować wygląd pliku PDF, stosując style do zawartości HTML. Aspose.PDF dla Java zapewnia różne opcje stylizacji, w tym czcionki, kolory i wymiary strony.
 
 ### Obsługa obrazów i linków
 
@@ -89,7 +91,7 @@ W tym kompleksowym przewodniku zbadaliśmy proces konwersji plików HTML do PDF 
 
 ### Jak zainstalować Aspose.PDF dla Java?
 
- Aby zainstalować Aspose.PDF dla Java, możesz pobrać bibliotekę ze strony internetowej[Tutaj](https://releases.aspose.com/pdf/java/) i dodaj go do swojego projektu Java jako zależność.
+Aby zainstalować Aspose.PDF dla Java, możesz pobrać bibliotekę ze strony internetowej [Tutaj](https://releases.aspose.com/pdf/java/) i dodaj go do swojego projektu Java jako zależność.
 
 ### Czy mogę konwertować złożone strony HTML?
 
@@ -106,9 +108,11 @@ Marginesy strony w pliku PDF można ustawić za pomocą Aspose.PDF dla Java, dos
 ### Czy istnieją jakieś ograniczenia konwersji HTML do PDF?
 
 Chociaż Aspose.PDF for Java jest wszechstronny, złożone strony internetowe z dynamiczną zawartością mogą wymagać dodatkowej konfiguracji w celu uzyskania optymalnej konwersji.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

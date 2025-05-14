@@ -8,7 +8,9 @@ url: /net/programming-with-document/getwarningsforfontsubstitution/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Warnings For Font Substitution
@@ -124,6 +126,7 @@ You can get support by visiting the [Aspose support forum](https://forum.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

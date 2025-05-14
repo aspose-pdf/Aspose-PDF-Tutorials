@@ -1,14 +1,16 @@
 ---
-title: Phông chữ trường biểu mẫu 14
-linktitle: Phông chữ trường biểu mẫu 14
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thay đổi phông chữ của các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các ví dụ về mã và mẹo để có biểu mẫu PDF tốt hơn.
-weight: 110
-url: /vi/net/programming-with-forms/form-field-font-14/
+"description": "Tìm hiểu cách thay đổi phông chữ của các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các ví dụ về mã và mẹo để tạo biểu mẫu PDF tốt hơn."
+"linktitle": "Phông chữ trường biểu mẫu 14"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Phông chữ trường biểu mẫu 14"
+"url": "/vi/net/programming-with-forms/form-field-font-14/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phông chữ trường biểu mẫu 14
@@ -22,12 +24,12 @@ Khi làm việc với các tài liệu PDF, bạn thường tương tác với c
 
 Trước khi bắt đầu chỉnh sửa các trường biểu mẫu, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE C# nào bạn chọn.
 3. .NET Framework: Đã cài đặt .NET Framework 4.0 trở lên.
 4. Mẫu PDF: Một tài liệu PDF có chứa trường biểu mẫu mà bạn muốn sửa đổi.
 
- Nếu bạn chưa có Aspose.PDF, đừng lo lắng! Bạn có thể bắt đầu bằng[dùng thử miễn phí](https://releases.aspose.com/)hoặc nộp đơn xin[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Nếu bạn chưa có Aspose.PDF, đừng lo lắng! Bạn có thể bắt đầu bằng [dùng thử miễn phí](https://releases.aspose.com/) hoặc nộp đơn xin một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -45,7 +47,7 @@ Khi bạn đã có đủ các điều kiện tiên quyết và nhập các khôn
 
 ## Bước 1: Tải tài liệu PDF của bạn
 
- Điều đầu tiên chúng ta cần làm là mở tài liệu PDF có chứa trường biểu mẫu mà bạn muốn sửa đổi. Bạn sẽ sử dụng`Document` lớp từ thư viện Aspose.PDF để thực hiện việc này.
+Điều đầu tiên chúng ta cần làm là mở tài liệu PDF có chứa trường biểu mẫu mà bạn muốn sửa đổi. Bạn sẽ sử dụng `Document` lớp từ thư viện Aspose.PDF để thực hiện việc này.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -54,29 +56,29 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "FormFieldFont14.pdf");
 ```
 
- Trong bước này, chúng tôi sẽ chỉ định đường dẫn tệp đến tài liệu PDF của bạn.`Document` Lớp này cho phép bạn tải tệp PDF vào bộ nhớ, giúp bạn dễ dàng chỉnh sửa nội dung.
+Trong bước này, chúng tôi sẽ chỉ định đường dẫn tệp đến tài liệu PDF của bạn. `Document` Lớp này cho phép bạn tải tệp PDF vào bộ nhớ, giúp bạn dễ dàng chỉnh sửa nội dung.
 
 ## Bước 2: Truy cập vào Trường biểu mẫu
 
- Sau khi tải tài liệu PDF, nhiệm vụ tiếp theo là truy cập vào trường biểu mẫu cụ thể mà bạn muốn sửa đổi. Trong trường hợp này, hãy giả sử trường biểu mẫu mà chúng ta quan tâm là hộp văn bản có tên trường`"textbox1"`.
+Sau khi tải tài liệu PDF, nhiệm vụ tiếp theo là truy cập vào trường biểu mẫu cụ thể mà bạn muốn sửa đổi. Trong trường hợp này, hãy giả sử trường biểu mẫu mà chúng ta quan tâm là hộp văn bản có tên trường `"textbox1"`.
 
 ```csharp
 // Lấy trường biểu mẫu cụ thể từ tài liệu
 Aspose.Pdf.Forms.Field field = pdfDocument.Form["textbox1"] as Aspose.Pdf.Forms.Field;
 ```
 
- Ở đây, chúng tôi đang sử dụng`Form` tài sản của`Document` đối tượng để lấy các trường biểu mẫu có trong PDF. Chúng tôi đặc biệt muốn nhắm mục tiêu`"textbox1"`.
+Ở đây, chúng tôi đang sử dụng `Form` tài sản của `Document` đối tượng để lấy các trường biểu mẫu có trong PDF. Chúng tôi đặc biệt muốn nhắm mục tiêu `"textbox1"`.
 
 ## Bước 3: Tạo một đối tượng phông chữ
 
- Bây giờ, hãy tạo một đối tượng phông chữ sẽ xác định phông chữ mới cho trường biểu mẫu của chúng ta. Aspose.PDF cung cấp cho bạn quyền truy cập vào nhiều phông chữ khác nhau thông qua`FontRepository` lớp học.
+Bây giờ, hãy tạo một đối tượng phông chữ sẽ xác định phông chữ mới cho trường biểu mẫu của chúng ta. Aspose.PDF cung cấp cho bạn quyền truy cập vào nhiều phông chữ khác nhau thông qua `FontRepository` lớp học.
 
 ```csharp
 // Tạo một đối tượng phông chữ
 Aspose.Pdf.Text.Font font = FontRepository.FindFont("ComicSansMS");
 ```
 
- Chúng tôi đang lấy phông chữ "ComicSansMS" ở đây, nhưng bạn có thể thay đổi phông chữ này thành bất kỳ phông chữ nào được cài đặt trên hệ thống của bạn.`FontRepository.FindFont()` Phương pháp này sẽ giúp bạn xác định phông chữ và chuẩn bị sử dụng.
+Chúng tôi đang lấy phông chữ "ComicSansMS" ở đây, nhưng bạn có thể thay đổi phông chữ này thành bất kỳ phông chữ nào được cài đặt trên hệ thống của bạn. `FontRepository.FindFont()` Phương pháp này sẽ giúp bạn xác định phông chữ và chuẩn bị sử dụng.
 
 ## Bước 4: Cập nhật Phông chữ Trường Biểu mẫu
 
@@ -87,7 +89,7 @@ Tiếp theo, chúng ta sẽ áp dụng phông chữ mới này vào trường bi
 field.DefaultAppearance = new Aspose.Pdf.Forms.DefaultAppearance(font, 10, System.Drawing.Color.Black);
 ```
 
- Trong bước này, chúng tôi áp dụng phông chữ cho trường, thiết lập kích thước phông chữ thành`10` và sử dụng`System.Drawing.Color.Black` để đặt màu văn bản thành màu đen. Bạn có thể dễ dàng sửa đổi các giá trị này cho phù hợp với nhu cầu của mình.
+Trong bước này, chúng tôi áp dụng phông chữ cho trường, thiết lập kích thước phông chữ thành `10`và sử dụng `System.Drawing.Color.Black` để đặt màu văn bản thành màu đen. Bạn có thể dễ dàng sửa đổi các giá trị này cho phù hợp với nhu cầu của mình.
 
 ## Bước 5: Lưu tài liệu đã cập nhật
 
@@ -109,7 +111,7 @@ Thiết lập phông chữ cho các trường biểu mẫu trong tài liệu PDF
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thay đổi kích thước phông chữ và màu sắc của trường biểu mẫu bằng Aspose.PDF không?
- Có, bạn có thể dễ dàng thay đổi kích thước và màu sắc phông chữ bằng cách điều chỉnh`DefaultAppearance` của cải.
+Có, bạn có thể dễ dàng thay đổi kích thước và màu sắc phông chữ bằng cách điều chỉnh `DefaultAppearance` của cải.
 
 ### Tôi có thể áp dụng nhiều phông chữ khác nhau cho nhiều trường biểu mẫu khác nhau trong cùng một tài liệu không?
 Hoàn toàn được! Chỉ cần truy cập vào từng trường biểu mẫu riêng lẻ và thiết lập phông chữ mong muốn cho từng trường.
@@ -121,10 +123,12 @@ Nếu phông chữ không khả dụng, Aspose.PDF sẽ đưa ra ngoại lệ. �
 Có, bạn có thể áp dụng các kiểu phông chữ như in đậm hoặc in nghiêng bằng cách sửa đổi các thuộc tính phông chữ cho phù hợp.
 
 ### Làm thế nào để kiểm tra phông chữ hiện tại của trường biểu mẫu trước khi thực hiện thay đổi?
- Bạn có thể lấy lại cài đặt phông chữ hiện tại bằng cách truy cập`DefaultAppearance` thuộc tính của trường biểu mẫu.
+Bạn có thể lấy lại cài đặt phông chữ hiện tại bằng cách truy cập `DefaultAppearance` thuộc tính của trường biểu mẫu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,34 @@
 ---
-title: Aspose.PDF を使って PDF から画像を生成する.
-weight: 10
-limit:
-description: .NET用のAspose.PDFを使用して PDF ファイルから画像を生成する方法を学びます. PDF ページを高品質で C# で effortless に JPEG,PNG,または BMP に変換します.
-keywords:
-url: /ja/net/images/
+"description": "Aspose.PDF for .NET を使用して PDF ファイルから画像を生成する方法を学びましょう。C# で PDF ページを JPEG、PNG、または BMP に高品質かつ簡単に変換できます。"
+"title": "Aspose.PDF for .NET を使用して PDF から画像を生成する"
+"url": "/ja/net/images/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## 紹介
+## 導入
  
-Aspose.PDFは,開発者が PDF ページを高品質の画像に簡単に変換できる強力なライブラリです. JPEG, PNG,または BMP 形式を生成する必要があるかどうかにかかわらず,この API は解像度,品質,圧縮設定を完全に制御するシームレスなソリューションを提供します. 変換プロセスは,テキスト,画像,ベクトルグラフィックスの正確なレンダリングを保証し,元のドキュメントの整合性を保ちます. この機能は,ドキュメントのプレビュー,画像ベースのアーカイブ,または PDF コンテンツ抽出を必要とするアプリケーションにとって不可欠です.  
+Aspose.PDF for .NET は、開発者が PDF ページを高品質な画像に簡単に変換できる強力なライブラリです。JPEG、PNG、BMP など、どのような形式でも、この API は解像度、品質、圧縮設定を完全に制御できるシームレスなソリューションを提供します。変換プロセスでは、テキスト、画像、ベクターグラフィックを正確にレンダリングし、元のドキュメントの整合性を維持します。この機能は、ドキュメントのプレビュー、画像ベースのアーカイブ、PDF コンテンツの抽出を必要とするアプリケーションに不可欠です。  
 
-.NET向けAspose.PDFでは,PDFをC#で画像に変換することは簡単です.APIは複数のページのバッチ処理,出力フォーマットのカスタマイズ,特定のページの選択的な変換さえできます.開発者はスケーリング,回転,または色調整などの追加の変換も適用できます.ライブラリは,ドキュメントのスニーカーを作成し,WebアプリケーションにPDFコンテンツを埋め込み,アクセシビリティを改善するなどさまざまな用例をサポートします.この機能を利用することで,企業は信頼性と効率的な画像生成でドキュメントワークフローを向上させることができます.
+Aspose.PDF for .NETを使えば、C#でPDFを画像に変換するのが簡単です。APIを使えば、複数ページの一括処理、出力形式のカスタマイズ、さらには特定のページのみを選択的に変換することも可能です。開発者は、拡大縮小、回転、色調整といった追加の変換処理も適用できます。このライブラリは、ドキュメントのサムネイル生成、WebアプリケーションへのPDFコンテンツの埋め込み、アクセシビリティの向上など、様々なユースケースをサポートしています。この機能を活用することで、企業は信頼性と効率性に優れた画像生成を実現し、ドキュメントワークフローを強化できます。
 
-{{< tutorial-card link="./extract-image/" title="Aspose.PDFを使用してC#でPDFから画像を抽出する" imgSrc="/pdf/net/images/extract-image/images/thumb.png" >}}
-{{< tutorial-card link="./resize-image/" title="Aspose.PDFでPDF画像を最適化する.NET" imgSrc="/pdf/net/images/resize-image/images/thumb.png" >}}
-{{< tutorial-card link="./set-image-size/" title="Aspose.PDFを使用して画像でPDFを作成し,修正する" imgSrc="/pdf/net/images/set-image-size/images/thumb.png" >}}
-{{< tutorial-card link="./shrink-image/" title="Aspose.PDFで画像を圧縮することで PDFを最適化する" imgSrc="/pdf/net/images/shrink-image/images/thumb.png" >}}
+{{< tutorial-card link="./extract-image/" title="Aspose.PDF を使用して C# で PDF から画像を抽出する" imgSrc="./extract-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./resize-image/" title="Aspose.PDF for .NET で PDF 画像を最適化" imgSrc="./resize-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./set-image-size/" title="Aspose.PDF を使用して画像付きの PDF を作成および変更する" imgSrc="./set-image-size/images/thumb.png" >}}
+
+{{< tutorial-card link="./shrink-image/" title="Aspose.PDF で画像を圧縮して PDF を最適化" imgSrc="./shrink-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

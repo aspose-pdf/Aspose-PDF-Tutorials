@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/split-to-pages/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Split To Pages
@@ -130,6 +132,7 @@ Absolutely! As a .NET library, you can use it within Azure Functions seamlessly.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@ url: "/net/forms-annotations/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Forms and Annotations Tutorials for Aspose.PDF .NET
@@ -285,6 +287,9 @@ Learn how to programmatically update PDF annotations using Aspose.PDF for .NET. 
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

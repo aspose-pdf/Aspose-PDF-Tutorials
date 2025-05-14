@@ -1,21 +1,23 @@
 ---
-title: Xoay văn bản bằng cách sử dụng đoạn văn bản và trình tạo trong tệp PDF
-linktitle: Xoay văn bản bằng cách sử dụng đoạn văn bản và trình tạo trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xoay văn bản bằng đoạn văn bản và trình tạo trong tệp PDF bằng Aspose.PDF cho .NET.
-weight: 410
-url: /vi/net/programming-with-text/rotate-text-using-text-paragraph-and-builder/
+"description": "Tìm hiểu cách xoay văn bản bằng đoạn văn bản và trình tạo trong tệp PDF bằng Aspose.PDF cho .NET."
+"linktitle": "Xoay văn bản bằng cách sử dụng đoạn văn bản và trình tạo trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xoay văn bản bằng cách sử dụng đoạn văn bản và trình tạo trong tệp PDF"
+"url": "/vi/net/programming-with-text/rotate-text-using-text-paragraph-and-builder/"
+"weight": 410
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xoay văn bản bằng cách sử dụng đoạn văn bản và trình tạo trong tệp PDF
 
 ## Giới thiệu
 
- Tạo tài liệu PDF động có thể là một cách thú vị để trình bày dữ liệu, báo cáo và ý tưởng của bạn một cách trực quan. Một công cụ mạnh mẽ có thể giúp bạn thực hiện việc này theo cách có cấu trúc là Aspose.PDF cho .NET. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.PDF để xoay văn bản trong tệp PDF bằng cách sử dụng`TextParagraph` Và`TextBuilder` classes. Cho dù bạn muốn tạo báo cáo có chú thích hay tài liệu hấp dẫn về mặt hình ảnh, việc thành thạo thao tác văn bản trong PDF là điều cần thiết. Sẵn sàng đảo ngược văn bản của bạn theo nghĩa đen? Hãy cùng bắt đầu!
+Tạo tài liệu PDF động có thể là một cách thú vị để trình bày dữ liệu, báo cáo và ý tưởng của bạn một cách trực quan. Một công cụ mạnh mẽ có thể giúp bạn thực hiện việc này theo cách có cấu trúc là Aspose.PDF cho .NET. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.PDF để xoay văn bản trong tệp PDF bằng cách sử dụng `TextParagraph` Và `TextBuilder` classes. Cho dù bạn muốn tạo báo cáo có chú thích hay tài liệu hấp dẫn về mặt hình ảnh, việc thành thạo thao tác văn bản trong PDF là điều cần thiết. Sẵn sàng đảo ngược văn bản của bạn theo nghĩa đen? Hãy cùng bắt đầu!
 
 ## Điều kiện tiên quyết
 
@@ -23,7 +25,7 @@ Trước khi bắt đầu cuộc phiêu lưu xoay văn bản, bạn cần chuẩ
 
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng điều hướng qua mã hơn.
 - Thiết lập Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy để viết và chạy mã.
-- Thư viện Aspose.PDF: Bạn cần phải tham chiếu thư viện Aspose.PDF trong dự án của mình. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/).
+- Thư viện Aspose.PDF: Bạn cần phải tham chiếu thư viện Aspose.PDF trong dự án của mình. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Đảm bảo môi trường của bạn hỗ trợ .NET; bạn có thể sử dụng .NET Framework hoặc .NET Core tùy theo nhu cầu.
 
 Bây giờ chúng ta đã có nền tảng, hãy nhập các gói cần thiết để bắt đầu làm việc với tệp PDF.
@@ -46,7 +48,7 @@ Bây giờ chúng ta đã thiết lập xong, hãy cùng phân tích các bướ
 
 ## Bước 1: Khởi tạo đối tượng tài liệu
 
- Bước đầu tiên là tạo và khởi tạo một`Document` đối tượng. Đối tượng này đóng vai trò như khung vẽ để bạn thêm văn bản.
+Bước đầu tiên là tạo và khởi tạo một `Document` đối tượng. Đối tượng này đóng vai trò như khung vẽ để bạn thêm văn bản.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document();
 ```
 
- Các`Document`Lớp là xương sống của PDF của bạn. Nó giúp quản lý các trang và nội dung bên trong chúng.
+Các `Document` Lớp là xương sống của PDF của bạn. Nó giúp quản lý các trang và nội dung bên trong chúng.
 
 ## Bước 2: Thêm trang
 
@@ -69,7 +71,7 @@ Page pdfPage = (Page)pdfDocument.Pages.Add();
 
 ## Bước 3: Tạo và cấu hình đoạn văn bản
 
- Bây giờ niềm vui bắt đầu! Chúng ta sẽ tạo ra nhiều`TextParagraph` các đối tượng và cấu hình các thuộc tính của chúng bao gồm vị trí và góc quay.
+Bây giờ niềm vui bắt đầu! Chúng ta sẽ tạo ra nhiều `TextParagraph` các đối tượng và cấu hình các thuộc tính của chúng bao gồm vị trí và góc quay.
 
 ```csharp
 for (int i = 0; i < 4; i++)
@@ -85,7 +87,7 @@ Trong vòng lặp này, chúng ta tạo bốn đoạn văn, mỗi đoạn đư�
 
 ## Bước 4: Tạo đoạn văn bản
 
- Sau khi thiết lập các đoạn văn, đã đến lúc thêm một số văn bản! Chúng tôi sẽ tạo`TextFragment` các đối tượng chứa văn bản thực tế mà chúng ta muốn hiển thị.
+Sau khi thiết lập các đoạn văn, đã đến lúc thêm một số văn bản! Chúng tôi sẽ tạo `TextFragment` các đối tượng chứa văn bản thực tế mà chúng ta muốn hiển thị.
 
 ```csharp
 TextFragment textFragment1 = new TextFragment("Paragraph Text");
@@ -104,7 +106,7 @@ TextFragment textFragment3 = new TextFragment("And some more text...");
 textFragment3.TextState = ConfigureText("And some more text...", true);
 ```
 
- Phương pháp`ConfigureText`có thể là một phương pháp tiện ích mà bạn tạo ra để đóng gói các thuộc tính kiểu dáng văn bản, cải thiện khả năng tái sử dụng mã và tính rõ ràng.
+Phương pháp `ConfigureText` có thể là một phương pháp tiện ích mà bạn tạo ra để đóng gói các thuộc tính kiểu dáng văn bản, cải thiện khả năng tái sử dụng mã và tính rõ ràng.
 
 ## Bước 5: Thêm các đoạn văn bản vào đoạn văn
 
@@ -116,18 +118,18 @@ paragraph.AppendLine(textFragment2);
 paragraph.AppendLine(textFragment3);
 ```
 
- Sử dụng`AppendLine`, bạn đảm bảo rằng mỗi phần văn bản được thêm theo chiều dọc dưới dạng các dòng riêng biệt trong đoạn văn.
+Sử dụng `AppendLine`, bạn đảm bảo rằng mỗi phần văn bản được thêm theo chiều dọc dưới dạng các dòng riêng biệt trong đoạn văn.
 
 ## Bước 6: Thêm Đoạn văn vào Trang PDF
 
- Bây giờ đoạn văn của chúng ta đã đầy văn bản, chúng ta cần đặt nó vào trang PDF bằng cách sử dụng`TextBuilder` sự vật.
+Bây giờ đoạn văn của chúng ta đã đầy văn bản, chúng ta cần đặt nó vào trang PDF bằng cách sử dụng `TextBuilder` sự vật.
 
 ```csharp
 TextBuilder textBuilder = new TextBuilder(pdfPage);
 textBuilder.AppendParagraph(paragraph);
 ```
 
- Đây là nơi phép thuật xảy ra! Bạn đang lấy đoạn văn đã chuẩn bị và kể lại`TextBuilder` để đặt nó lên trang canvas (trang PDF) mà bạn đã tạo trước đó.
+Đây là nơi phép thuật xảy ra! Bạn đang lấy đoạn văn đã chuẩn bị và kể lại `TextBuilder` để đặt nó lên trang canvas (trang PDF) mà bạn đã tạo trước đó.
 
 ## Bước 7: Lưu tài liệu
 
@@ -137,7 +139,7 @@ Cuối cùng, đã đến lúc lưu lại công sức của chúng ta! Chỉ đ�
 pdfDocument.Save(dataDir + "TextFragmentTests_Rotated4_out.pdf");
 ```
 
- Trong dòng này, thay thế`dataDir` với đường dẫn đến thư mục đầu ra mong muốn của bạn. Tệp PDF sẽ được lưu với tên "TextFragmentTests_Rotated4_out.pdf."
+Trong dòng này, thay thế `dataDir` với đường dẫn đến thư mục đầu ra mong muốn của bạn. Tệp PDF sẽ được lưu với tên "TextFragmentTests_Rotated4_out.pdf."
 
 ## Phần kết luận
 
@@ -149,19 +151,21 @@ Và bạn đã có nó rồi—hướng dẫn đầy đủ về cách xoay văn 
 Có, bạn có thể chỉ định bất kỳ góc quay nào (bội số của 90 độ) để đạt được nhiều hướng khác nhau.
 
 ### Nếu tôi muốn thêm hình ảnh thay vì văn bản thì sao?
- Aspose.PDF cũng cho phép bạn thao tác hình ảnh! Bạn có thể thêm hình ảnh bằng cách sử dụng`Image` các lớp học theo cách tương tự.
+Aspose.PDF cũng cho phép bạn thao tác hình ảnh! Bạn có thể thêm hình ảnh bằng cách sử dụng `Image` các lớp học theo cách tương tự.
 
 ### Aspose.PDF cho .NET có miễn phí không?
- Nó cung cấp bản dùng thử miễn phí, nhưng để tiếp tục sử dụng, bạn phải mua giấy phép. Kiểm tra[Mua](https://purchase.aspose.com/buy) trang để biết thêm chi tiết!
+Nó cung cấp bản dùng thử miễn phí, nhưng để tiếp tục sử dụng, bạn phải mua giấy phép. Kiểm tra [Mua](https://purchase.aspose.com/buy) trang để biết thêm chi tiết!
 
 ### Tôi có thể nhận được hỗ trợ khi sử dụng Aspose.PDF không?
-Có, bạn có thể tìm thấy sự hỗ trợ và đăng câu hỏi của mình trên[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Có, bạn có thể tìm thấy sự hỗ trợ và đăng câu hỏi của mình trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.PDF?
- Bạn có thể xin giấy phép tạm thời cho mục đích thử nghiệm từ[Trang Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời cho mục đích thử nghiệm từ [Trang Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-text/determine-line-break/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Determine Line Break In PDF File
@@ -110,6 +112,7 @@ Certainly! You can request a [free trial](https://releases.aspose.com/) to test 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

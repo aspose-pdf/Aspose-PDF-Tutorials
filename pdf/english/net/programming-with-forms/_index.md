@@ -7,7 +7,9 @@ description: Check out programming tutorials with Aspose.PDF Forms for .NET to c
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Forms
@@ -52,6 +54,7 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

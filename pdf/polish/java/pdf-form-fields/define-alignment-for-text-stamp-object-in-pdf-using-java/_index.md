@@ -1,14 +1,16 @@
 ---
-title: Definiowanie wyrównania dla obiektu znacznika tekstowego w pliku PDF przy użyciu języka Java
-linktitle: Definiowanie wyrównania dla obiektu znacznika tekstowego w pliku PDF przy użyciu języka Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak precyzyjnie wyrównać obiekty stempla tekstowego w plikach PDF za pomocą języka Java z Aspose.PDF dla języka Java. Popraw wygląd i czytelność dokumentu.
-weight: 13
-url: /pl/java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-using-java/
+"description": "Dowiedz się, jak precyzyjnie wyrównać obiekty stempla tekstowego w plikach PDF za pomocą języka Java z Aspose.PDF dla języka Java. Popraw wygląd i czytelność dokumentu."
+"linktitle": "Definiowanie wyrównania dla obiektu znacznika tekstowego w pliku PDF przy użyciu języka Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Definiowanie wyrównania dla obiektu znacznika tekstowego w pliku PDF przy użyciu języka Java"
+"url": "/pl/java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Definiowanie wyrównania dla obiektu znacznika tekstowego w pliku PDF przy użyciu języka Java
@@ -22,8 +24,8 @@ Znaczniki tekstowe są wszechstronnym narzędziem, jeśli chodzi o adnotowanie i
 
 Zanim zagłębimy się w szczegóły dotyczące wyrównania znacznika tekstu, kluczowe jest skonfigurowanie naszego środowiska programistycznego. Upewnij się, że masz zainstalowany i skonfigurowany Aspose.PDF for Java w swoim projekcie Java. Dostęp do niezbędnych zasobów możesz uzyskać tutaj:
 
--  Dokumentacja:[Aspose.PDF dla Java API Reference](https://reference.aspose.com/pdf/java/)
--  Pobierać:[Aspose.PDF dla Java](https://releases.aspose.com/pdf/java/)
+- Dokumentacja: [Aspose.PDF dla Java API Reference](https://reference.aspose.com/pdf/java/)
+- Pobierać: [Aspose.PDF dla Java](https://releases.aspose.com/pdf/java/)
 
 Gdy już wszystko będzie gotowe, możemy przejść do kodowania.
 
@@ -42,7 +44,7 @@ Page page = pdfDocument.getPages().add();
 page.setPageSize(new PageSize(600, 400));
 ```
 
-Teraz, gdy mamy już gotowy dokument PDF, możemy przejść do definiowania stempla tekstowego.
+Teraz, gdy mamy już gotowy dokument PDF, możemy przejść do zdefiniowania stempla tekstowego.
 
 ## Definiowanie stempla tekstowego
 
@@ -68,7 +70,7 @@ Wyrównywanie stempli tekstowych w dokumencie PDF może mieć kluczowe znaczenie
 - Wyrównanie do środka po lewej, środka pośrodku, środka po prawej
 - Wyrównanie do lewego dolnego rogu, do środka dolnego rogu, do prawego dolnego rogu
 
-Dodatkowo możesz określić niestandardowe współrzędne w celu precyzyjnego wyrównania.
+Dodatkowo możesz określić własne współrzędne w celu precyzyjnego wyrównania.
 
 ## Dodawanie znaczników tekstowych do pliku PDF
 
@@ -110,14 +112,16 @@ Tak, Aspose.PDF for Java jest w stanie z łatwością obsługiwać duże dokumen
 
 ### Jak mogę zmienić czcionkę i kolor stempla tekstowego?
 
- Możesz zmienić czcionkę i kolor stempla tekstowego, konfigurując właściwości stanu tekstu. Użyj`setTextState` aby ustawić żądaną czcionkę, jej rozmiar i kolor.
+Możesz zmienić czcionkę i kolor stempla tekstowego, konfigurując właściwości stanu tekstu. Użyj `setTextState` aby ustawić żądaną czcionkę, jej rozmiar i kolor.
 
 ### Czy są dostępne jakieś zaawansowane opcje wyrównywania?
 
 Tak, Aspose.PDF dla Java oferuje zaawansowane opcje wyrównywania, w tym centrowanie stempli tekstowych zarówno poziomo, jak i pionowo, wyrównywanie do określonych krawędzi i wiele więcej. Zapoznaj się z dokumentacją, aby uzyskać szczegółowe przykłady.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

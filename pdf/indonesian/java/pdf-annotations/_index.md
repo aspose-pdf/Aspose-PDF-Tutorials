@@ -1,14 +1,16 @@
 ---
-title: Catatan PDF
-linktitle: Catatan PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Jelajahi tutorial anotasi PDF dengan Aspose.PDF untuk Java, pelajari cara menambahkan interaktivitas, komentar, dan banyak lagi ke PDF Anda.
-weight: 10
-url: /id/java/pdf-annotations/
+"description": "Jelajahi tutorial anotasi PDF dengan Aspose.PDF untuk Java, pelajari cara menambahkan interaktivitas, komentar, dan banyak lagi ke PDF Anda."
+"linktitle": "Catatan PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Catatan PDF"
+"url": "/id/java/pdf-annotations/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Catatan PDF
@@ -39,9 +41,11 @@ Pelajari cara mengekstrak anotasi tertentu dari PDF menggunakan Aspose.PDF untuk
 Temukan kekuatan menyunting konten sensitif dalam PDF dengan Aspose.PDF untuk Java.
 ### [Coret Teks Menggunakan Anotasi](./strike-through-text-using-annotations/)
 Pelajari cara menambahkan anotasi teks yang dicoret ke dokumen PDF menggunakan Aspose.PDF untuk Java. Ikuti panduan langkah demi langkah kami untuk manipulasi dokumen yang tepat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Cap Nomor Halaman dalam PDF menggunakan Java
-linktitle: Menambahkan Cap Nomor Halaman dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mudah menambahkan stempel nomor halaman ke dokumen PDF menggunakan Java dengan Aspose.PDF untuk Java. Sempurnakan PDF Anda dengan nomor halaman yang dapat disesuaikan.
-weight: 11
-url: /id/java/pdf-form-fields/add-page-number-stamp-in-pdf-using-java/
+"description": "Pelajari cara mudah menambahkan stempel nomor halaman ke dokumen PDF menggunakan Java dengan Aspose.PDF untuk Java. Sempurnakan PDF Anda dengan nomor halaman yang dapat disesuaikan."
+"linktitle": "Menambahkan Cap Nomor Halaman dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Cap Nomor Halaman dalam PDF menggunakan Java"
+"url": "/id/java/pdf-form-fields/add-page-number-stamp-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Cap Nomor Halaman dalam PDF menggunakan Java
@@ -22,13 +24,13 @@ Dokumen PDF banyak digunakan untuk berbagi dan menyajikan informasi, tetapi terk
 
 Sebelum kita mulai membuat kode, Anda perlu menyiapkan Aspose.PDF untuk Java. Ikuti langkah-langkah berikut:
 
-1.  Unduh Aspose.PDF untuk Java: Akses perpustakaan dari[Di Sini](https://releases.aspose.com/pdf/java/) dan mengunduh versi yang sesuai untuk proyek Anda.
+1. Unduh Aspose.PDF untuk Java: Akses perpustakaan dari [Di Sini](https://releases.aspose.com/pdf/java/) dan mengunduh versi yang sesuai untuk proyek Anda.
 
-2. Buat Proyek Java: Jika Anda belum memiliki proyek Java, buat yang baru menggunakan IDE pilihan Anda.
+2. Buat Proyek Java: Jika Anda belum memiliki proyek Java, buat proyek baru menggunakan IDE pilihan Anda.
 
 ## Menambahkan Ketergantungan
 
- Setelah Anda memiliki Aspose.PDF untuk Java, tambahkan sebagai dependensi ke proyek Anda. Jika Anda menggunakan Maven, tambahkan dependensi berikut ke proyek Anda.`pom.xml`:
+Setelah Anda memiliki Aspose.PDF untuk Java, tambahkan sebagai dependensi ke proyek Anda. Jika Anda menggunakan Maven, tambahkan dependensi berikut ke proyek Anda. `pom.xml`:
 
 ```xml
 <dependency>
@@ -38,10 +40,10 @@ Sebelum kita mulai membuat kode, Anda perlu menyiapkan Aspose.PDF untuk Java. Ik
 </dependency>
 ```
 
-Jika Anda lebih suka Gradle, sertakan ini di`build.gradle` mengajukan:
+Jika Anda lebih suka Gradle, sertakan ini di `build.gradle` mengajukan:
 
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-pdf', version: '21.11' // Ganti dengan versi terbaru
+implementation group: 'com.aspose', name: 'aspose-pdf', version: '21.11' // Replace with the latest version
 ```
 
 ## Mengkodekan Cap Nomor Halaman
@@ -80,13 +82,13 @@ Dalam kode ini, kita memuat dokumen PDF, membuat stempel nomor halaman, menyesua
 
 Untuk menerapkan stempel nomor halaman, ikuti langkah-langkah berikut:
 
-1.  Muat dokumen PDF menggunakan`Document pdfDocument = new Document("input.pdf");` , Di mana`"input.pdf"` adalah jalur ke berkas PDF Anda.
+1. Muat dokumen PDF menggunakan `Document pdfDocument = new Document("input.pdf");`, Di mana `"input.pdf"` adalah jalur ke berkas PDF Anda.
 
-2.  Membuat sebuah`PageNumberStamp` objek dan menyesuaikannya menurut preferensi Anda.
+2. Membuat sebuah `PageNumberStamp` objek dan menyesuaikannya menurut preferensi Anda.
 
 3. Tambahkan prangko ke setiap halaman dalam PDF menggunakan loop.
 
-4.  Simpan PDF yang dimodifikasi menggunakan`pdfDocument.save("output.pdf");` Anda dapat mengganti`"output.pdf"` dengan nama berkas yang diinginkan.
+4. Simpan PDF yang dimodifikasi menggunakan `pdfDocument.save("output.pdf");`Anda dapat mengganti `"output.pdf"` dengan nama berkas yang diinginkan.
 
 ## Menguji Hasil
 
@@ -100,7 +102,7 @@ Dalam tutorial ini, kami telah menunjukkan cara menambahkan stempel nomor halama
 
 ### Bagaimana cara mengunduh Aspose.PDF untuk Java?
 
- Anda dapat mengunduh Aspose.PDF untuk Java dari situs web di[Di Sini](https://releases.aspose.com/pdf/java/)Pilih versi yang sesuai dengan proyek Anda.
+Anda dapat mengunduh Aspose.PDF untuk Java dari situs web di [Di Sini](https://releases.aspose.com/pdf/java/)Pilih versi yang sesuai dengan proyek Anda.
 
 ### Bisakah saya menyesuaikan tampilan stempel nomor halaman?
 
@@ -109,9 +111,11 @@ Ya, Aspose.PDF untuk Java memungkinkan kustomisasi stempel nomor halaman secara 
 ### Apakah Aspose.PDF untuk Java kompatibel dengan versi PDF yang berbeda?
 
 Tentu saja! Aspose.PDF untuk Java mendukung berbagai versi PDF, memastikan kompatibilitas dengan berbagai dokumen, apa pun versi PDF-nya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

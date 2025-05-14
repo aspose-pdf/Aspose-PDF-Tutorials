@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Çok Sütunlu Paragraflar
-linktitle: PDF Dosyasında Çok Sütunlu Paragraflar
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET'i kullanarak PDF dosyalarında çok sütunlu paragrafların nasıl oluşturulacağını ve yönetileceğini adım adım kılavuzumuzla öğrenin.
-weight: 250
-url: /tr/net/programming-with-text/multicolumn-paragraphs/
+"description": "Aspose.PDF for .NET'i kullanarak PDF dosyalarında çok sütunlu paragrafların nasıl oluşturulacağını ve yönetileceğini adım adım kılavuzumuzla öğrenin."
+"linktitle": "PDF Dosyasında Çok Sütunlu Paragraflar"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Çok Sütunlu Paragraflar"
+"url": "/tr/net/programming-with-text/multicolumn-paragraphs/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Çok Sütunlu Paragraflar
@@ -19,14 +21,14 @@ PDF dosyaları oluşturmak ve yönetmek hiç bu kadar kolay olmamıştı, özell
 
 ## Ön koşullar
 
-Uygulamaya geçmeden önce birkaç şeyin yerinde olması gerekir:
+Uygulamaya geçmeden önce birkaç şeyin hazır olması gerekir:
 
 ### Görsel Stüdyo
-Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Eğer henüz yüklü değilse, şuradan indirebilirsiniz:[web sitesi](https://visualstudio.microsoft.com/).
+Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Eğer henüz yüklü değilse, şuradan indirebilirsiniz: [web sitesi](https://visualstudio.microsoft.com/).
 
 ### .NET için Aspose.PDF
 .NET projenize Aspose.PDF kütüphanesini eklemeniz gerekecek:
--  Doğrudan şuradan indirin:[Aspose indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+- Doğrudan şuradan indirin: [Aspose indirme bağlantısı](https://releases.aspose.com/pdf/net/).
 - Alternatif olarak, NuGet Paket Yöneticisini kullanarak kurulum yapabilirsiniz.
 
 ### Temel C# Bilgisi
@@ -43,7 +45,7 @@ C# dilinde kod örnekleri yazacağımız için dilin temellerine dair bilgi sahi
 - Visual Studio'yu açın ve yeni bir C# Konsol Uygulaması projesi oluşturun.
 
 ### Aspose.PDF Referansını Ekle
-- Eğer kütüphaneyi indirdiyseniz, Aspose.PDF.dll dosyasını proje referanslarınıza ekleyin.
+- Kütüphaneyi indirdiyseniz, Aspose.PDF.dll dosyasını proje referanslarınıza ekleyin.
 - NuGet kullanıyorsanız, Paket Yöneticisi Konsolunda aşağıdaki komutu çalıştırın:
 ```
 Install-Package Aspose.PDF
@@ -79,16 +81,16 @@ Daha sonra Aspose.PDF kütüphanesini kullanarak PDF dokümanını yükleyeceği
 ```csharp
 Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
 ```
- Burada, bir örnek oluşturuyoruz`Document` sınıf ve PDF dosyamızın yolunu geçmek. Bu adım PDF'yi yükler ve üzerinde çalışmamıza olanak tanır.
+Burada, bir örnek oluşturuyoruz `Document` sınıf ve PDF dosyamızın yolunu geçmek. Bu adım PDF'yi yükler ve üzerinde çalışmamıza olanak tanır.
 
 ## Adım 3: Paragraf Absorber'ı Ayarlayın
- Şimdi, şunu kullanmamız gerekiyor:`ParagraphAbsorber` yüklenen belgeden paragrafları emmek için sınıf.
+Şimdi, şunu kullanmamız gerekiyor: `ParagraphAbsorber` yüklenen belgeden paragrafları emmek için sınıf.
 
 ```csharp
 ParagraphAbsorber absorber = new ParagraphAbsorber();
 absorber.Visit(doc);
 ```
- İşte sihir burada başlıyor!`Visit` Yöntem belgeyi tarar ve işlenmek üzere paragrafları toplar.
+İşte sihir burada başlıyor! `Visit` Yöntem belgeyi tarar ve işlenmek üzere paragrafları toplar.
 
 ## Adım 4: Sayfa İşaretlemesine Erişim
 Paragrafları özümsedikten sonra sayfanın işaretlemesini alabiliriz.
@@ -108,7 +110,7 @@ MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
 Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
 Console.WriteLine(paragraph.Text);
 ```
-Bu, Bölüm 2'deki son paragrafı yazdırır. Esasen PDF'imizin dünyasına içeriğini incelemek için giriyoruz. Bu, hata ayıklama ve doğrulama için önemli bir adımdır!
+Bu, Bölüm 2'deki son paragrafı yazdırır. Esasen PDF'imizin dünyasına içeriğini incelemek için giriyoruz. Bu, hata ayıklama ve doğrulama için kritik bir adımdır!
 
 ## Adım 6: Başka Bir Paragrafı Görüntüle
 Başka bir bölümden bir paragrafı da inceleyelim.
@@ -168,13 +170,15 @@ Bunu Aspose web sitesinden indirebilir veya Visual Studio'daki NuGet Paket Yöne
 Evet, PDF yapınız izin veriyorsa çok sütunlu biçimlendirmeyi etkinleştirebilirsiniz.
 
 ### Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?  
- Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Belgeleri bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose için deneme sürümü mevcut mu?  
- Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

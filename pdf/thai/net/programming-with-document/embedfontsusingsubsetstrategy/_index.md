@@ -1,14 +1,16 @@
 ---
-title: ฝังฟอนต์ในไฟล์ PDF ด้วยกลยุทธ์ย่อย
-linktitle: ฝังฟอนต์ด้วยกลยุทธ์ย่อย
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีฝังแบบอักษรในไฟล์ PDF ด้วย Subset Strategy โดยใช้ Aspose.PDF สำหรับ .NET ปรับขนาด PDF ของคุณโดยฝังเฉพาะอักขระที่จำเป็นเท่านั้น
-weight: 130
-url: /th/net/programming-with-document/embedfontsusingsubsetstrategy/
+"description": "เรียนรู้วิธีฝังแบบอักษรในไฟล์ PDF ด้วย Subset Strategy โดยใช้ Aspose.PDF สำหรับ .NET ปรับขนาด PDF ของคุณโดยฝังเฉพาะอักขระที่จำเป็นเท่านั้น"
+"linktitle": "ฝังฟอนต์ด้วยกลยุทธ์ย่อย"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ฝังฟอนต์ในไฟล์ PDF ด้วยกลยุทธ์ย่อย"
+"url": "/th/net/programming-with-document/embedfontsusingsubsetstrategy/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ฝังฟอนต์ในไฟล์ PDF ด้วยกลยุทธ์ย่อย
@@ -21,7 +23,7 @@ url: /th/net/programming-with-document/embedfontsusingsubsetstrategy/
 
 ก่อนที่เราจะเจาะลึกถึงรายละเอียดของการฝังแบบอักษร มีบางสิ่งบางอย่างที่คุณจะต้องมี:
 
-1.  Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/net/).
 2. Visual Studio: สภาพแวดล้อมการพัฒนาที่คุณสามารถเขียนและทดสอบโค้ด .NET ของคุณได้
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
@@ -57,7 +59,7 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่ อาจเป็นเช่นนี้`@"C:\Documents\"`.
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่ อาจเป็นเช่นนี้ `@"C:\Documents\"`-
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร PDF
 
@@ -67,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- ตรวจสอบให้แน่ใจว่าคุณมี`input.pdf` ไฟล์ในไดเร็กทอรีที่คุณระบุ ไฟล์นี้จะเป็นไฟล์ที่เราแก้ไข
+ตรวจสอบให้แน่ใจว่าคุณมี `input.pdf` ไฟล์ในไดเร็กทอรีที่คุณระบุ ไฟล์นี้จะเป็นไฟล์ที่เราแก้ไข
 
 ## ขั้นตอนที่ 3: แบ่งย่อยฟอนต์ทั้งหมด
 
@@ -78,18 +80,18 @@ Document doc = new Document(dataDir + "input.pdf");
 doc.FontUtilities.SubsetFonts(FontSubsetStrategy.SubsetAllFonts);
 ```
 
- โดยการใช้`SubsetAllFonts`เราตรวจสอบให้แน่ใจว่าแบบอักษรทุกตัวที่ใช้ในเอกสารจะถูกฝังไว้ แต่จะรวมเฉพาะอักขระที่ใช้งานจริงเท่านั้น
+โดยการใช้ `SubsetAllFonts`เราตรวจสอบให้แน่ใจว่าแบบอักษรทุกตัวที่ใช้ในเอกสารจะถูกฝังไว้ แต่จะรวมเฉพาะอักขระที่ใช้จริงเท่านั้น
 
 ## ขั้นตอนที่ 4: แบ่งย่อยเฉพาะฟอนต์ที่ฝังไว้เท่านั้น
 
 ในบางกรณี คุณอาจต้องการฝังเฉพาะแบบอักษรที่ฝังอยู่ในเอกสารอยู่แล้ว ซึ่งมีประโยชน์หากคุณต้องการคงรูปลักษณ์ดั้งเดิมไว้โดยไม่ต้องเพิ่มแบบอักษรใหม่
 
 ```csharp
-//ฟอนต์ย่อยจะถูกฝังไว้สำหรับฟอนต์ที่ฝังอย่างสมบูรณ์ แต่ฟอนต์ที่ไม่ได้ฝังอยู่ในเอกสารจะไม่ได้รับผลกระทบ
+// ฟอนต์ย่อยจะถูกฝังไว้สำหรับฟอนต์ที่ฝังอย่างสมบูรณ์ แต่ฟอนต์ที่ไม่ได้ฝังอยู่ในเอกสารจะไม่ได้รับผลกระทบ
 doc.FontUtilities.SubsetFonts(FontSubsetStrategy.SubsetEmbeddedFontsOnly);
 ```
 
-บรรทัดโค้ดนี้จะทำให้แน่ใจว่ามีเพียงฟอนต์ที่ฝังไว้แล้วเท่านั้นที่จะถูกแบ่งย่อย และจะไม่เปลี่ยนแปลงฟอนต์ที่ไม่ได้ฝังไว้
+บรรทัดโค้ดนี้จะทำให้แน่ใจว่ามีเพียงฟอนต์ที่ฝังไว้แล้วเท่านั้นที่จะถูกแบ่งย่อย และปล่อยให้ฟอนต์ที่ไม่ได้ฝังไว้ไม่ได้รับผลกระทบ
 
 ## ขั้นตอนที่ 5: บันทึกเอกสารที่แก้ไข
 
@@ -99,7 +101,7 @@ doc.FontUtilities.SubsetFonts(FontSubsetStrategy.SubsetEmbeddedFontsOnly);
 doc.Save(dataDir + "Output_out.pdf");
 ```
 
- ซึ่งจะสร้างไฟล์ PDF ใหม่ชื่อ`Output_out.pdf` ในไดเร็กทอรีที่คุณระบุ พร้อมด้วยแบบอักษรที่ฝังไว้
+ซึ่งจะสร้างไฟล์ PDF ใหม่ชื่อ `Output_out.pdf` ในไดเร็กทอรีที่คุณระบุ พร้อมด้วยแบบอักษรที่ฝังไว้
 
 ## บทสรุป
 
@@ -114,16 +116,18 @@ doc.Save(dataDir + "Output_out.pdf");
 การฝังแบบอักษรช่วยให้แน่ใจว่าเอกสารของคุณปรากฏเหมือนกันในทุกอุปกรณ์ ป้องกันปัญหาการแทนที่แบบอักษร
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose เสนอบริการทดลองใช้ฟรีที่คุณสามารถใช้ทดสอบไลบรารีก่อนซื้อได้ คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose เสนอบริการทดลองใช้ฟรีที่คุณสามารถใช้ทดสอบไลบรารีก่อนซื้อได้ คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถเข้าถึงเอกสารประกอบฉบับสมบูรณ์สำหรับ Aspose.PDF สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถเข้าถึงเอกสารประกอบฉบับสมบูรณ์สำหรับ Aspose.PDF สำหรับ .NET ได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### หากฉันประสบปัญหาจะทำอย่างไร?
- หากคุณประสบปัญหาใดๆ คุณสามารถขอความช่วยเหลือได้จากฟอรัมสนับสนุน Aspose[ที่นี่](https://forum.aspose.com/c/pdf/10).
+หากคุณประสบปัญหาใดๆ คุณสามารถขอความช่วยเหลือได้จากฟอรัมสนับสนุน Aspose [ที่นี่](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,34 +1,36 @@
 ---
-title: Oldalszámbélyegző hozzáadása PDF-ben Java segítségével
-linktitle: Oldalszámbélyegző hozzáadása PDF-ben Java segítségével
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan lehet egyszerűen oldalszámbélyegzőket hozzáadni PDF-dokumentumokhoz Java használatával az Aspose.PDF for Java segítségével. Javítsa PDF-fájljait testreszabható oldalszámokkal.
-weight: 11
-url: /hu/java/pdf-form-fields/add-page-number-stamp-in-pdf-using-java/
+"description": "Tanulja meg, hogyan adhat egyszerűen oldalszámbélyegzőket PDF dokumentumokhoz Java használatával az Aspose.PDF for Java segítségével. Dobja fel PDF dokumentumait testreszabható oldalszámokkal."
+"linktitle": "Oldalszámbélyegző hozzáadása PDF-hez Java használatával"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "Oldalszámbélyegző hozzáadása PDF-hez Java használatával"
+"url": "/hu/java/pdf-form-fields/add-page-number-stamp-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Oldalszámbélyegző hozzáadása PDF-ben Java segítségével
+# Oldalszámbélyegző hozzáadása PDF-hez Java használatával
 
 
-## Bevezetés az oldalszámbélyegző hozzáadásához PDF-ben Java használatával
+## Bevezetés az oldalszámbélyegző hozzáadásába PDF-ben Java használatával
 
-PDF-dokumentumokat széles körben használják információk megosztására és bemutatására, de néha előfordulhat, hogy oldalszámok hozzáadásával javítani kell őket. Akár jelentésekkel, kézikönyvekkel vagy tudományos dolgozatokkal dolgozik, az oldalszámok segítenek az olvasóknak abban, hogy hatékonyan navigálhassanak a tartalomban. Ebben az oktatóanyagban végigvezetjük az oldalszámbélyegzők hozzáadásának folyamatán a PDF-fájlokhoz Java használatával. Az Aspose.PDF for Java fájlt fogjuk használni, amely egy hatékony könyvtár, amely leegyszerűsíti a PDF-kezelést.
+A PDF dokumentumokat széles körben használják információk megosztására és bemutatására, de néha szükség lehet oldalszámok hozzáadásával javítani őket. Akár jelentéseken, kézikönyveken vagy tudományos dolgozatokon dolgozik, az oldalszámok segítenek az olvasóknak hatékonyan navigálni a tartalomban. Ebben az oktatóanyagban végigvezetjük Önt az oldalszámbélyegzők PDF fájlokhoz való hozzáadásának folyamatán Java használatával. Az Aspose.PDF for Java programot fogjuk használni, amely egy hatékony könyvtár, amely leegyszerűsíti a PDF-ek kezelését.
 
-## Az Aspose.PDF beállítása Java számára
+## Az Aspose.PDF beállítása Java-hoz
 
-Mielőtt belemerülnénk a kódolásba, be kell állítania az Aspose.PDF-et Java számára. Kövesse az alábbi lépéseket:
+Mielőtt belemerülnénk a kódolásba, be kell állítanod az Aspose.PDF-et Java-hoz. Kövesd az alábbi lépéseket:
 
-1.  Az Aspose.PDF letöltése Java-hoz: A könyvtár elérése innen[itt](https://releases.aspose.com/pdf/java/) és töltse le a projektjének megfelelő verziót.
+1. Aspose.PDF letöltése Java-hoz: A könyvtár elérése innen [itt](https://releases.aspose.com/pdf/java/) és töltse le a projektjének megfelelő verziót.
 
-2. Java-projekt létrehozása: Ha még nincs Java-projektje, állítson be egy újat a kívánt IDE használatával.
+2. Java projekt létrehozása: Ha még nincs Java projektje, hozzon létre egy újat a kívánt IDE használatával.
 
 ## Függőségek hozzáadása
 
- Ha rendelkezik Aspose.PDF for Java fájllal, adja hozzá a projekthez függőségként. Ha Maven-t használ, adja hozzá a következő függőséget`pom.xml`:
+Miután elkészült az Aspose.PDF Java-hoz, add hozzá függőségként a projektedhez. Ha Mavent használsz, add hozzá a következő függőséget a `pom.xml`:
 
 ```xml
 <dependency>
@@ -38,32 +40,32 @@ Mielőtt belemerülnénk a kódolásba, be kell állítania az Aspose.PDF-et Jav
 </dependency>
 ```
 
-Ha jobban szereti a Gradle-t, vegye fel ezt is a sajátjába`build.gradle` fájl:
+Ha a Gradle-t részesíted előnyben, akkor ezt is vedd bele a listádba. `build.gradle` fájl:
 
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-pdf', version: '21.11' // Cserélje ki a legújabb verzióra
+implementation group: 'com.aspose', name: 'aspose-pdf', version: '21.11' // Replace with the latest version
 ```
 
 ## Az oldalszámbélyegző kódolása
 
-Most pedig merüljünk el a kódban. Létrehozunk egy egyszerű Java programot, amellyel oldalszámbélyegzőket adunk egy PDF dokumentumhoz.
+Most pedig merüljünk el a kódban. Létrehozunk egy egyszerű Java programot, amely oldalszámbélyegzőket ad hozzá egy PDF dokumentumhoz.
 
 ```java
 import com.aspose.pdf.*;
 
 public class AddPageNumberStamp {
     public static void main(String[] args) {
-        // Töltse be a PDF dokumentumot
+        // PDF dokumentum betöltése
         Document pdfDocument = new Document("input.pdf");
 
-        // Hozzon létre egy oldalszám bélyeget
+        // Oldalszámbélyegző létrehozása
         PageNumberStamp pageNumberStamp = new PageNumberStamp();
         pageNumberStamp.setBackground(true);
         pageNumberStamp.setForeground(false);
         pageNumberStamp.setStartingNumber(1);
         pageNumberStamp.setFormat("Page #");
 
-        // Adja hozzá a bélyegzőt az összes oldalhoz
+        // Bélyegző hozzáadása az összes oldalra
         for (int page = 1; page <= pdfDocument.getPages().size(); page++) {
             pdfDocument.getPages().get_Item(page).addStamp(pageNumberStamp);
         }
@@ -74,44 +76,46 @@ public class AddPageNumberStamp {
 }
 ```
 
-Ebben a kódban betöltünk egy PDF-dokumentumot, létrehozunk egy oldalszámbélyeget, testre szabjuk annak megjelenését és formátumát, majd a dokumentum összes oldalára alkalmazzuk.
+Ebben a kódban betöltünk egy PDF dokumentumot, létrehozunk egy oldalszámozó pecsétet, testreszabjuk a megjelenését és formátumát, majd alkalmazzuk a dokumentum összes oldalára.
 
-## Az oldalszámbélyegző alkalmazása
+## Oldalszámbélyegző alkalmazása
 
-Az oldalszámbélyegző felhelyezéséhez kövesse az alábbi lépéseket:
+Az oldalszámbélyegző alkalmazásához kövesse az alábbi lépéseket:
 
-1.  Töltse be a PDF dokumentumot a segítségével`Document pdfDocument = new Document("input.pdf");` , hol`"input.pdf"` a PDF-fájl elérési útja.
+1. PDF dokumentum betöltése a következővel: `Document pdfDocument = new Document("input.pdf");`, ahol `"input.pdf"` a PDF fájl elérési útja.
 
-2.  Hozzon létre a`PageNumberStamp` objektumot, és testreszabhatja azt saját preferenciái szerint.
+2. Hozz létre egy `PageNumberStamp` tárgyat, és szabja testre a saját preferenciái szerint.
 
-3. Adja hozzá a bélyegzőt a PDF minden oldalához hurok segítségével.
+3. Adja hozzá a bélyegzőt a PDF minden oldalához egy ciklus segítségével.
 
-4.  Mentse el a módosított PDF-fájlt a segítségével`pdfDocument.save("output.pdf");` . Cserélheted`"output.pdf"` a kívánt fájlnévvel.
+4. Mentse el a módosított PDF-et a következővel: `pdfDocument.save("output.pdf");`. Lecserélheti `"output.pdf"` kívánt fájlnévvel.
 
 ## Az eredmény tesztelése
 
-Most, hogy hozzáadta az oldalszámbélyeget a PDF-fájlhoz, ideje tesztelni az eredményt. Futtassa a Java programot, és látni fogja a PDF-dokumentum minden oldalára alkalmazott oldalszámokat.
+Most, hogy hozzáadtad az oldalszámbélyegzőt a PDF-hez, itt az ideje tesztelni az eredményt. Futtasd a Java programot, és látni fogod, hogy az oldalszámok a PDF dokumentum minden oldalára vonatkoznak.
 
 ## Következtetés
 
-Ebben az oktatóanyagban bemutattuk, hogyan adhatunk oldalszámbélyegzőket PDF-dokumentumokhoz Java és Aspose.PDF for Java használatával. Az oldalszámok javítják a PDF-ek használhatóságát, így az olvasók könnyebben navigálhatnak a tartalomban. Az Aspose.PDF for Java segítségével ez a feladat egyszerűvé válik még azok számára is, akik alapvető programozási ismeretekkel rendelkeznek. Kezdje el PDF-dokumentumai fejlesztését még ma személyre szabott oldalszámbélyegzőkkel.
+Ebben az oktatóanyagban bemutattuk, hogyan adhatsz hozzá oldalszámbélyegzőket PDF dokumentumokhoz Java és az Aspose.PDF for Java használatával. Az oldalszámok javítják a PDF fájlok használhatóságát, megkönnyítve az olvasók számára a tartalomban való navigálást. Az Aspose.PDF for Java segítségével ez a feladat egyszerűvé válik, még azok számára is, akik alapvető programozási ismeretekkel rendelkeznek. Kezdd el PDF dokumentumaid fejlesztését még ma testreszabott oldalszámbélyegzőkkel.
 
 ## GYIK
 
-### Hogyan tölthetem le az Aspose.PDF-et Java-hoz?
+### Hogyan tölthetem le az Aspose.PDF fájlt Java-hoz?
 
- Az Aspose.PDF for Java letölthető a következő webhelyről:[itt](https://releases.aspose.com/pdf/java/). Válassza ki a projektjének megfelelő verziót.
+Az Aspose.PDF for Java fájlt letöltheti a következő weboldalról: [itt](https://releases.aspose.com/pdf/java/)Válassza ki a projektjéhez illő verziót.
 
-### Testreszabhatom az oldalszámbélyegző megjelenését?
+### Testreszabhatom az oldalszámozó bélyegző megjelenését?
 
-Igen, az Aspose.PDF for Java lehetővé teszi az oldalszámbélyegző széles körű testreszabását. Beállíthatja a betűtípust, a méretet, a színt és a pozíciót, hogy megfeleljen a dokumentum stílusának.
+Igen, az Aspose.PDF for Java lehetővé teszi az oldalszámozó pecsét széleskörű testreszabását. A betűtípust, a méretet, a színt és a pozíciót a dokumentum stílusának megfelelően módosíthatja.
 
-### Az Aspose.PDF for Java kompatibilis a különböző PDF-verziókkal?
+### Kompatibilis az Aspose.PDF for Java a különböző PDF verziókkal?
 
-Teljesen! Az Aspose.PDF for Java különféle PDF-verziókat támogat, biztosítva a kompatibilitást a dokumentumok széles skálájával, függetlenül azok PDF-verziójától.
+Természetesen! Az Aspose.PDF for Java számos PDF-verziót támogat, így a PDF-verziótól függetlenül számos dokumentummal kompatibilis.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

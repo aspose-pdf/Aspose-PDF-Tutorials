@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Elemen Struktur ke Elemen dalam PDF menggunakan Java
-linktitle: Menambahkan Elemen Struktur ke Elemen dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menyempurnakan struktur PDF di Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah ini mencakup penambahan elemen struktur untuk PDF yang mudah diakses dan terorganisasi.
-weight: 11
-url: /id/java/pdf-structure-elements/add-structure-element-into-element-in-pdf-using-java/
+"description": "Pelajari cara menyempurnakan struktur PDF di Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah ini mencakup penambahan elemen struktur untuk PDF yang mudah diakses dan terorganisasi."
+"linktitle": "Menambahkan Elemen Struktur ke Elemen dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Elemen Struktur ke Elemen dalam PDF menggunakan Java"
+"url": "/id/java/pdf-structure-elements/add-structure-element-into-element-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Elemen Struktur ke Elemen dalam PDF menggunakan Java
@@ -70,7 +72,7 @@ textElement.setText("This is a sample text.");
 
 ### Menyusun Gambar
 
-Menambahkan gambar yang terstruktur sangat penting untuk aksesibilitas. Gunakan ImageElement untuk menyusun gambar:
+Menambahkan gambar berstruktur sangat penting untuk aksesibilitas. Gunakan ImageElement untuk menyusun gambar:
 
 ```java
 // Membuat elemen struktur gambar
@@ -106,7 +108,7 @@ Dalam tutorial ini, kita telah mempelajari cara menambahkan elemen struktur ke d
 
 ### Bagaimana cara mengunduh Aspose.PDF untuk Java?
 
- Anda dapat mengunduh Aspose.PDF untuk Java dari situs web di[Di Sini](https://releases.aspose.com/pdf/java/).
+Anda dapat mengunduh Aspose.PDF untuk Java dari situs web di [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ### Apakah Aspose.PDF untuk Java gratis untuk digunakan?
 
@@ -122,10 +124,12 @@ Ya, ada pustaka lain seperti Apache PDFBox dan iText yang juga menyediakan kemam
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF untuk Java?
 
- Anda dapat mengakses dokumentasi untuk Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat mengakses dokumentasi untuk Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

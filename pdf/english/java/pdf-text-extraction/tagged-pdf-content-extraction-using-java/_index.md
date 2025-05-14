@@ -8,7 +8,9 @@ url: /java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tagged PDF Content Extraction using Java
@@ -112,6 +114,7 @@ Extracting content from tagged PDFs using Java and Aspose.PDF for Java is essent
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

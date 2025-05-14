@@ -1,14 +1,16 @@
 ---
-title: Xóa hình ảnh khỏi tài nguyên PDF bằng Java
-linktitle: Xóa hình ảnh khỏi tài nguyên PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách xóa hình ảnh khỏi tài liệu PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn để thao tác PDF hiệu quả.
-weight: 21
-url: /vi/java/pdf-images/delete-image-from-pdf-resources-using-java/
+"description": "Tìm hiểu cách xóa hình ảnh khỏi tài liệu PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước với mã nguồn để thao tác PDF hiệu quả."
+"linktitle": "Xóa hình ảnh khỏi tài nguyên PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Xóa hình ảnh khỏi tài nguyên PDF bằng Java"
+"url": "/vi/java/pdf-images/delete-image-from-pdf-resources-using-java/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa hình ảnh khỏi tài nguyên PDF bằng Java
@@ -26,7 +28,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn
 - Môi trường phát triển tích hợp (IDE) cho Java (ví dụ: Eclipse, IntelliJ IDEA)
--  Thư viện Aspose.PDF cho Java, bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/)
+- Thư viện Aspose.PDF cho Java, bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/)
 
 ## Thiết lập môi trường phát triển của bạn
 
@@ -111,24 +113,26 @@ Chạy chương trình Java để kiểm tra mã. Nó sẽ tải PDF, xóa tất
 
 Trong hướng dẫn từng bước này, chúng ta đã học cách xóa hình ảnh khỏi tài liệu PDF bằng Aspose.PDF cho Java. Thư viện mạnh mẽ này giúp bạn dễ dàng thao tác các tệp PDF theo chương trình, giúp bạn kiểm soát hoàn toàn nội dung.
 
- Để biết thêm thông tin và tài liệu chi tiết, hãy truy cập[Tài liệu tham khảo API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+Để biết thêm thông tin và tài liệu chi tiết, hãy truy cập [Tài liệu tham khảo API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
 
 ## Câu hỏi thường gặp
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Để cài đặt Aspose.PDF cho Java, bạn có thể tải xuống thư viện từ trang web[đây](https://releases.aspose.com/pdf/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+Để cài đặt Aspose.PDF cho Java, bạn có thể tải xuống thư viện từ trang web [đây](https://releases.aspose.com/pdf/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
-### Tôi có thể xóa hình ảnh cụ thể khỏi PDF bằng Aspose.PDF cho Java không?
+### Tôi có thể xóa hình ảnh cụ thể khỏi tệp PDF bằng Aspose.PDF cho Java không?
 
 Có, bạn có thể xóa hình ảnh cụ thể khỏi PDF bằng Aspose.PDF cho Java. Bạn có thể xác định và xóa hình ảnh dựa trên các tiêu chí như tên hình ảnh, kích thước hoặc các thuộc tính khác.
 
 ### Aspose.PDF cho Java có phù hợp với các tác vụ xử lý PDF khác không?
 
 Có, Aspose.PDF for Java là một thư viện đa năng có thể xử lý nhiều tác vụ thao tác PDF khác nhau, bao gồm thêm văn bản, hình ảnh, chú thích, v.v. Đây là giải pháp toàn diện để làm việc với các tệp PDF trong các ứng dụng Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

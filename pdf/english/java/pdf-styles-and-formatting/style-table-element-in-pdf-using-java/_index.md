@@ -8,7 +8,9 @@ url: /java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Style Table Element in PDF using Java
@@ -149,6 +151,7 @@ You can find detailed documentation and API references for Aspose.PDF for Java a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

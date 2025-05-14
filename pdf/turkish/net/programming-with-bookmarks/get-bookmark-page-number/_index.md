@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Yer İmi Sayfa Numarasını Al
-linktitle: PDF Dosyasında Yer İmi Sayfa Numarasını Al
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarından yer imi sayfa numaralarının nasıl çıkarılacağını öğrenin.
-weight: 60
-url: /tr/net/programming-with-bookmarks/get-bookmark-page-number/
+"description": "Bu kapsamlı eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarından yer imi sayfa numaralarının nasıl çıkarılacağını öğrenin."
+"linktitle": "PDF Dosyasında Yer İmi Sayfa Numarasını Al"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Yer İmi Sayfa Numarasını Al"
+"url": "/tr/net/programming-with-bookmarks/get-bookmark-page-number/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Yer İmi Sayfa Numarasını Al
@@ -21,8 +23,8 @@ Dijital çağda, PDF belgelerini etkili bir şekilde yönetmek hem kişisel hem 
 
 Koda dalmadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu sizin geliştirme ortamınız olacaktır.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu sizin geliştirme ortamınız olacak.
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -31,7 +33,7 @@ Başlamak için, C# projenize gerekli paketleri içe aktarmanız gerekir. Bunu n
 
 1. Visual Studio projenizi açın.
 2. Çözüm Gezgini'nde projenize sağ tıklayın ve "NuGet Paketlerini Yönet" seçeneğini seçin.
-3.  Arama`Aspose.PDF` ve en son sürümü yükleyin.
+3. Arama `Aspose.PDF` ve en son sürümü yükleyin.
 
 Artık her şeyi ayarladığınıza göre, yer imi sayfa numaralarını çıkarma sürecini adım adım inceleyelim.
 
@@ -44,40 +46,40 @@ Yer imlerini çıkarabilmeniz için önce PDF belgenizin yolunu belirtmeniz gere
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu adımda, değiştirin`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı gerçek yol ile. Bu yol, programa çalışmak istediğiniz PDF dosyasını nerede arayacağını söylediği için önemlidir.
+Bu adımda, değiştirin `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın saklandığı gerçek yol ile. Bu yol, programa çalışmak istediğiniz PDF dosyasını nerede arayacağını söylediği için önemlidir.
 
 ## Adım 2: Bir PdfBookmarkEditor Örneği Oluşturun
 
- Daha sonra, bir örnek oluşturmanız gerekir`PdfBookmarkEditor`sınıf. Bu sınıf, PDF dosyalarındaki yer imlerini düzenlemek için yöntemler sağlar.
+Daha sonra, bir örnek oluşturmanız gerekir `PdfBookmarkEditor` sınıf. Bu sınıf, PDF dosyalarındaki yer imlerini düzenlemek için yöntemler sağlar.
 
 ```csharp
 // PDFBookmarkEditor Oluştur
 PdfBookmarkEditor bookmarkEditor = new PdfBookmarkEditor();
 ```
 
- Burada, şunu örneklendiriyoruz:`PdfBookmarkEditor`Bu nesne PDF dosyamızı bağlamamıza ve ondan yer imlerini çıkarmamıza olanak tanıyacaktır.
+Burada, şunu örneklendiriyoruz: `PdfBookmarkEditor`Bu nesne PDF dosyamızı bağlamamıza ve ondan yer imlerini çıkarmamıza olanak tanıyacaktır.
 
 ## Adım 3: PDF Dosyasını Açın
 
- Şimdi PDF dosyasını bağlamanın zamanı geldi`PdfBookmarkEditor` Az önce oluşturduğunuz örnek.
+Şimdi PDF dosyasını bağlamanın zamanı geldi `PdfBookmarkEditor` Az önce oluşturduğunuz örnek.
 
 ```csharp
 // PDF dosyasını aç
 bookmarkEditor.BindPdf(dataDir + "GetBookmarks.pdf");
 ```
 
- Bu satırda şunu kullanıyoruz:`BindPdf` adlı PDF dosyasını açma yöntemi`GetBookmarks.pdf`Bu dosyanın belirtilen dizinde bulunduğundan emin olun; aksi takdirde bir hatayla karşılaşırsınız.
+Bu satırda şunu kullanıyoruz: `BindPdf` adlı PDF dosyasını açma yöntemi `GetBookmarks.pdf`Bu dosyanın belirtilen dizinde bulunduğundan emin olun; aksi takdirde bir hatayla karşılaşırsınız.
 
 ## Adım 4: Yer İşaretlerini Çıkarın
 
- PDF dosyası açıldığında, artık yer imlerini kullanarak çıkarabilirsiniz`ExtractBookmarks` Yöntem.
+PDF dosyası açıldığında, artık yer imlerini kullanarak çıkarabilirsiniz `ExtractBookmarks` yöntem.
 
 ```csharp
 // Yer imlerini ayıkla
 Aspose.Pdf.Facades.Bookmarks bookmarks = bookmarkEditor.ExtractBookmarks();
 ```
 
- Bu adım, PDF dosyasındaki tüm yer imlerini alır ve bunları şu adlı bir değişkende depolar:`bookmarks`Bu değişken, bir sonraki adımda işleyeceğimiz tüm yer imi bilgilerini tutacaktır.
+Bu adım, PDF dosyasındaki tüm yer imlerini alır ve bunları şu adlı bir değişkende depolar: `bookmarks`Bu değişken, bir sonraki adımda işleyeceğimiz tüm yer imi bilgilerini tutacaktır.
 
 ## Adım 5: Yer İşaretleri Üzerinde Yineleme Yapın
 
@@ -109,19 +111,21 @@ Aspose.PDF for .NET kullanarak bir PDF dosyasından yer imi sayfa numaralarını
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF'in dokümanlarını nerede bulabilirim?
- Belgeler mevcuttur[Burada](https://reference.aspose.com/pdf/net/).
+Belgeler mevcuttur [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için lisans nasıl satın alabilirim?
- Lisansı şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Lisansı şuradan satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Sorunla karşılaşırsam ne yapmalıyım?
- Herhangi bir sorunla karşılaşırsanız, yardım isteyebilirsiniz.[Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Herhangi bir sorunla karşılaşırsanız, yardım isteyebilirsiniz. [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

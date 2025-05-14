@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert Text Files to PDF Using Aspose.PDF in Java: A Comprehensive Guide
 
@@ -176,7 +178,11 @@ Ready to implement this solution? Start experimenting and share your results!
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
 Explore these resources to deepen your understanding and expand your implementation capabilities with Aspose.PDF for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

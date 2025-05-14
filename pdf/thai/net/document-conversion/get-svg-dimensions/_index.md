@@ -1,14 +1,16 @@
 ---
-title: รับมิติ SVG
-linktitle: รับมิติ SVG
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีใช้ Aspose.PDF สำหรับ .NET เพื่อแปลงไฟล์ SVG เป็น PDF ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่ต้องการจัดการ PDF
-weight: 40
-url: /th/net/document-conversion/get-svg-dimensions/
+"description": "เรียนรู้วิธีใช้ Aspose.PDF สำหรับ .NET เพื่อแปลงไฟล์ SVG เป็น PDF ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่ต้องการจัดการ PDF"
+"linktitle": "รับมิติ SVG"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "รับมิติ SVG"
+"url": "/th/net/document-conversion/get-svg-dimensions/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับมิติ SVG
@@ -22,13 +24,13 @@ url: /th/net/document-conversion/get-svg-dimensions/
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด มีบางสิ่งที่คุณต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่คือ IDE ที่เราจะใช้ในบทช่วยสอนนี้
-2.  .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว Aspose.PDF รองรับหลายเวอร์ชัน ดังนั้นโปรดตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/pdf/net/) เพื่อความเข้ากันได้
-3.  ไลบรารี Aspose.PDF: คุณสามารถดาวน์โหลด Aspose.PDF เวอร์ชันล่าสุดสำหรับ .NET ได้จาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/pdf/net/) . หากคุณต้องการทดลองใช้ก่อน คุณยังสามารถรับ[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+2. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว Aspose.PDF รองรับหลายเวอร์ชัน ดังนั้นโปรดตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/pdf/net/) เพื่อความเข้ากันได้
+3. ไลบรารี Aspose.PDF: คุณสามารถดาวน์โหลด Aspose.PDF เวอร์ชันล่าสุดสำหรับ .NET ได้จาก [ลิงค์ดาวน์โหลด](https://releases.aspose.com/pdf/net/)หากคุณต้องการทดลองใช้ก่อน คุณยังสามารถรับ [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจตัวอย่างต่างๆ ได้ดีขึ้น
 
 ## แพ็คเกจนำเข้า
 
-ในการเริ่มต้น คุณต้องนำเข้าแพ็คเกจที่จำเป็น ซึ่งคุณสามารถทำได้ดังนี้:
+ในการเริ่มต้น คุณต้องนำเข้าแพ็คเกจที่จำเป็น โดยคุณสามารถทำได้ดังนี้:
 
 1. เปิดโครงการ Visual Studio ของคุณ
 2. คลิกขวาที่โครงการของคุณใน Solution Explorer และเลือก "จัดการแพ็คเกจ NuGet"
@@ -48,7 +50,7 @@ url: /th/net/document-conversion/get-svg-dimensions/
 
 ### เพิ่มการใช้คำสั่ง
 
- ตอนนี้โครงการของคุณตั้งค่าเสร็จแล้ว คุณต้องเพิ่มคำสั่งการใช้งานที่จำเป็นไว้ที่ด้านบนของโครงการ`Program.cs` ไฟล์:
+ตอนนี้โครงการของคุณตั้งค่าเสร็จแล้ว คุณต้องเพิ่มคำสั่งการใช้งานที่จำเป็นไว้ที่ด้านบนของโครงการ `Program.cs` ไฟล์:
 
 ```csharp
 using System.IO;
@@ -62,7 +64,7 @@ using Aspose.Pdf;
 
 ### กำหนดไดเรกทอรีเอกสาร
 
-ก่อนที่จะโหลดเอกสาร SVG คุณต้องระบุเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ SVG ของคุณตั้งอยู่
+ก่อนที่จะโหลดเอกสาร SVG คุณต้องระบุเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ SVG ของคุณตั้งอยู่
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -70,7 +72,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ### โหลดเอกสาร SVG
 
- ตอนนี้เรามาโหลดเอกสาร SVG โดยใช้`SvgLoadOptions` คลาส คลาสนี้ช่วยให้คุณปรับขนาดหน้าตามเนื้อหา SVG ได้
+ตอนนี้เรามาโหลดเอกสาร SVG โดยใช้ `SvgLoadOptions` คลาส คลาสนี้ช่วยให้คุณสามารถปรับขนาดหน้าตามเนื้อหา SVG ได้
 
 ```csharp
 var loadopt = new SvgLoadOptions();
@@ -101,7 +103,7 @@ svgDoc.Save(dataDir + "GetSVGDimensions_out.pdf");
 
 ## บทสรุป
 
-ขอแสดงความยินดี! คุณเพิ่งทำภารกิจง่ายๆ แต่ทรงพลังโดยใช้ Aspose.PDF สำหรับ .NET สำเร็จ เมื่อทำตามคำแนะนำนี้ คุณจะเรียนรู้วิธีโหลดเอกสาร SVG ปรับระยะขอบ และบันทึกเป็น PDF ความเป็นไปได้ของ Aspose.PDF นั้นไม่มีที่สิ้นสุด และนี่เป็นเพียงส่วนเล็กๆ ของภูเขาน้ำแข็งเท่านั้น ไม่ว่าคุณต้องการสร้าง PDF ที่ซับซ้อน จัดการ PDF ที่มีอยู่ หรือแปลงระหว่างรูปแบบต่างๆ Aspose.PDF ก็ช่วยคุณได้ ดังนั้น คุณยังรออะไรอยู่ เจาะลึกรายละเอียดเพิ่มเติม[เอกสารประกอบ](https://reference.aspose.com/pdf/net/) และสำรวจคุณสมบัติทั้งหมดที่ห้องสมุดนี้มีให้!
+ขอแสดงความยินดี! คุณเพิ่งทำภารกิจง่ายๆ แต่ทรงพลังโดยใช้ Aspose.PDF สำหรับ .NET สำเร็จ เมื่อทำตามคำแนะนำนี้ คุณจะได้เรียนรู้วิธีโหลดเอกสาร SVG ปรับระยะขอบ และบันทึกเป็น PDF ความเป็นไปได้ของ Aspose.PDF นั้นไม่มีที่สิ้นสุด และนี่เป็นเพียงส่วนเล็กๆ ของภูเขาน้ำแข็งเท่านั้น ไม่ว่าคุณต้องการสร้าง PDF ที่ซับซ้อน จัดการ PDF ที่มีอยู่ หรือแปลงระหว่างรูปแบบต่างๆ Aspose.PDF ก็ช่วยคุณได้ ดังนั้น คุณยังรออะไรอยู่ เจาะลึกรายละเอียดเพิ่มเติม [เอกสารประกอบ](https://reference.aspose.com/pdf/net/) และสำรวจคุณสมบัติทั้งหมดที่ห้องสมุดนี้มีให้!
 
 ## คำถามที่พบบ่อย
 
@@ -109,19 +111,21 @@ svgDoc.Save(dataDir + "GetSVGDimensions_out.pdf");
 Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันจะติดตั้ง Aspose.PDF ได้อย่างไร?
- คุณสามารถติดตั้ง Aspose.PDF ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หรือดาวน์โหลดจาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+คุณสามารถติดตั้ง Aspose.PDF ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หรือดาวน์โหลดจาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose เสนอ[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อให้คุณได้ทดสอบไลบรารีก่อนการซื้อ
+ใช่ Aspose เสนอ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อให้คุณได้ทดสอบไลบรารีก่อนการซื้อ
 
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.PDF ได้ที่ไหน
- คุณสามารถรับการสนับสนุนได้จาก[ฟอรั่ม Aspose](https://forum.aspose.com/c/pdf/10).
+คุณสามารถรับการสนับสนุนได้จาก [ฟอรั่ม Aspose](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถร้องขอได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) จากเว็บไซต์ Aspose
+คุณสามารถร้องขอได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) จากเว็บไซต์ Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

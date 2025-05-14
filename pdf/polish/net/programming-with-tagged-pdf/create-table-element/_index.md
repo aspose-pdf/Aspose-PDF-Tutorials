@@ -1,14 +1,16 @@
 ---
-title: Utwórz element tabeli
-linktitle: Utwórz element tabeli
-second_title: Aspose.PDF dla .NET API Reference
-description: Przewodnik krok po kroku, jak utworzyć element tablicy za pomocą Aspose.PDF dla platformy .NET. Łatwe generowanie dynamicznych plików PDF z tabelami.
-weight: 80
-url: /pl/net/programming-with-tagged-pdf/create-table-element/
+"description": "Przewodnik krok po kroku, jak utworzyć element tablicy za pomocą Aspose.PDF dla platformy .NET. Łatwe generowanie dynamicznych plików PDF z tabelami."
+"linktitle": "Utwórz element tabeli"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Utwórz element tabeli"
+"url": "/pl/net/programming-with-tagged-pdf/create-table-element/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz element tabeli
@@ -20,11 +22,11 @@ Czy kiedykolwiek zastanawiałeś się, jak bez wysiłku tworzyć i dostosowywać
 ## Wymagania wstępne
 
 Zanim zaczniemy, będziesz potrzebować kilku rzeczy:
-1.  Aspose.PDF dla .NET: Pobierz najnowszą wersję z[Aspose.PDF dla .NET Pobierz](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Pobierz najnowszą wersję z [Aspose.PDF dla .NET Pobierz](https://releases.aspose.com/pdf/net/).
 2. Środowisko programistyczne: dowolne środowisko IDE obsługujące platformę .NET (np. Visual Studio).
 3. Podstawowa znajomość języka C#: Zalecana jest znajomość programowania w języku C#.
 
- Na koniec nie zapomnij o swojej licencji Aspose.PDF. Jeśli jej nie masz, możesz użyć[bezpłatny okres próbny](https://releases.aspose.com/) lub poproś o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) żeby wszystko przetestować.
+Na koniec nie zapomnij o swojej licencji Aspose.PDF. Jeśli jej nie masz, możesz użyć [bezpłatny okres próbny](https://releases.aspose.com/) lub poproś o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) żeby wszystko przetestować.
 
 ## Importuj pakiety
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Tutaj inicjujemy nową instancję`Document` class, który będzie naszym pustym plikiem PDF. Nie zapomnij zdefiniować ścieżki do pliku!
+Tutaj inicjujemy nową instancję `Document` class, który będzie naszym pustym plikiem PDF. Nie zapomnij zdefiniować ścieżki do pliku!
 
 ## Krok 2: Skonfiguruj oznaczoną treść
 
@@ -80,7 +82,7 @@ TableElement tableElement = taggedContent.CreateTableElement();
 rootElement.AppendChild(tableElement);
 ```
 
- Tutaj używamy`RootElement` oznaczonej zawartości, aby dołączyć naszą tabelę. To w zasadzie dodanie tabeli jako węzła podrzędnego do struktury dokumentu.
+Tutaj używamy `RootElement` oznaczonej zawartości, aby dołączyć naszą tabelę. To w zasadzie dodanie tabeli jako węzła podrzędnego do struktury dokumentu.
 
 ## Krok 4: Dostosuj obramowania i nagłówki tabeli
 
@@ -93,7 +95,7 @@ TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 ```
 
- Definiujemy obramowania i dodajemy nagłówki, treść i stopki do tabeli. Zwróć uwagę na użycie`BorderInfo` aby nadać obramowaniu stołu ciemnoniebieski kolor.
+Definiujemy obramowania i dodajemy nagłówki, treść i stopki do tabeli. Zwróć uwagę na użycie `BorderInfo` aby nadać obramowaniu stołu ciemnoniebieski kolor.
 
 ## Krok 5: Dodaj wiersze i komórki do tabeli
 
@@ -116,7 +118,7 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- Tworzymy wiersz nagłówka z 4 kolumnami, a każda komórka nagłówka jest stylizowana kolorem tła`GreenYellow`. Ustawiamy również obramowanie i wyrównanie nagłówków.
+Tworzymy wiersz nagłówka z 4 kolumnami, a każda komórka nagłówka jest stylizowana kolorem tła `GreenYellow`. Ustawiamy również obramowanie i wyrównanie nagłówków.
 
 ### Krok 5.2: Dodaj rzędy korpusu
 
@@ -153,7 +155,7 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- Aby uzupełnić tabelę, dodajemy stopkę z wyśrodkowanym tekstem i`LightSeaGreen` tło.
+Aby uzupełnić tabelę, dodajemy stopkę z wyśrodkowanym tekstem i `LightSeaGreen` tło.
 
 ## Krok 6: Sprawdź zgodność z PDF/UA
 
@@ -177,22 +179,24 @@ Gratulacje! Udało Ci się utworzyć w pełni dostosowaną tabelę w pliku PDF p
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dostosować czcionkę i styl tekstu tabeli?
-Tak, Aspose.PDF pozwala na pełną personalizację czcionek, stylów tekstu i wyrównania za pomocą`TextState` klasa.
+Tak, Aspose.PDF pozwala na pełną personalizację czcionek, stylów tekstu i wyrównania za pomocą `TextState` klasa.
 
 ### Jak dynamicznie dodać więcej kolumn lub wierszy?
- Możesz dostosować liczbę kolumn lub wierszy, modyfikując`rowIndex` I`colIndex` w pętlach.
+Możesz dostosować liczbę kolumn lub wierszy, modyfikując `rowIndex` I `colIndex` w pętlach.
 
 ### Czy można scalić komórki w tabeli?
- Tak, możesz użyć`ColSpan` I`RowSpan` właściwości umożliwiające scalanie komórek w kolumnach lub wierszach.
+Tak, możesz użyć `ColSpan` I `RowSpan` właściwości umożliwiające scalanie komórek w kolumnach lub wierszach.
 
 ### Na czym polega zgodność ze standardem PDF/UA?
 Zgodność ze standardem PDF/UA gwarantuje, że dokument jest dostępny dla użytkowników niepełnosprawnych, zgodnie z międzynarodowymi standardami dostępności.
 
-### Jak sprawdzić zgodność pliku Aspose.PDF z PDF/UA?
- Możesz użyć`Validate` metoda sprawdzająca zgodność dokumentu ze standardami PDF/UA.
+### Jak mogę sprawdzić zgodność pliku Aspose.PDF z PDF/UA?
+Możesz użyć `Validate` metoda sprawdzająca zgodność dokumentu ze standardami PDF/UA.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

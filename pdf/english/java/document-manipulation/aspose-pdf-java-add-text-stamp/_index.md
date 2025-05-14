@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add a Text Stamp to PDF Using Aspose.PDF for Java
 
@@ -187,6 +189,9 @@ To further explore Aspose.PDF capabilities, visit the following links:
 - **Free Trial:** [Start with a Free Trial](https://releases.aspose.com/pdf/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

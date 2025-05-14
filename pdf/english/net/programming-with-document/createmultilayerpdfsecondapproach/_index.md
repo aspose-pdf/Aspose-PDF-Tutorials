@@ -8,7 +8,9 @@ url: /net/programming-with-document/createmultilayerpdfsecondapproach/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Multilayer PDF File Second Approach
@@ -155,6 +157,7 @@ You can adjust the `Left` and `Top` properties of the `FloatingBox` to repositio
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

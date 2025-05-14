@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Interactive PDF Forms with Ease Using Aspose.PDF Java
 
@@ -270,7 +272,11 @@ doc.save(outputDir + "/RadioButtonTableSample.pdf");
 - Double-check the table and cell coordinates if options are not displaying correctly.
 
 This guide provides you with the tools needed to create interactive PDF forms using Aspose.PDF for Java. Experiment with different field types and configurations to tailor your documents to specific requirements.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

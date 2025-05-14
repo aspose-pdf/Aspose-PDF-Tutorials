@@ -1,14 +1,16 @@
 ---
-title: Zastosuj styl numeracji w pliku PDF
-linktitle: Zastosuj styl numeracji w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak stosować różne style numeracji (cyfry rzymskie, alfabetyczne) w nagłówkach w pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-headings/apply-number-style/
+"description": "Dowiedz się, jak stosować różne style numeracji (cyfry rzymskie, alfabetyczne) w nagłówkach w pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Zastosuj styl numeracji w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zastosuj styl numeracji w pliku PDF"
+"url": "/pl/net/programming-with-headings/apply-number-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zastosuj styl numeracji w pliku PDF
@@ -21,10 +23,10 @@ Czy kiedykolwiek zdarzyło Ci się dodać pięknie ponumerowane listy do dokumen
 
 Zanim zagłębisz się w kodowanie, omówmy, czego będziesz potrzebować:
 
-1. Aspose.PDF dla .NET: Pobierz najnowszą wersję Aspose.PDF ze strony[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Pobierz najnowszą wersję Aspose.PDF ze strony [Tutaj](https://releases.aspose.com/pdf/net/).
 2. Środowisko programistyczne: Upewnij się, że masz program Visual Studio lub inne środowisko programistyczne zgodne z platformą .NET.
 3. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework 4.0 lub nowszy.
-4.  Licencja: Możesz użyć tymczasowej licencji z[Tutaj](https://purchase.aspose.com/temporary-license/) lub odkryj[bezpłatny okres próbny](https://releases.aspose.com/) opcje.
+4. Licencja: Możesz użyć tymczasowej licencji z [Tutaj](https://purchase.aspose.com/temporary-license/) lub odkryj [bezpłatny okres próbny](https://releases.aspose.com/) opcje.
 
 ## Importuj pakiety
 
@@ -41,7 +43,7 @@ using Aspose.Pdf.Text;
 
 Zacznijmy od utworzenia nowego dokumentu PDF i skonfigurowania jego ustawień strony. Ustawimy rozmiar strony i marginesy, aby kontrolować układ naszej treści.
 
-Wyjaśnienie: W tym kroku skonfigurujemy podstawową strukturę pliku PDF, która obejmuje zdefiniowanie rozmiaru strony, wysokości i marginesów w celu zachowania spójnego formatowania.
+Wyjaśnienie: W tym kroku skonfigurujemy podstawową strukturę pliku PDF, co obejmuje zdefiniowanie rozmiaru strony, wysokości i marginesów w celu zachowania spójnego formatowania.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -58,7 +60,7 @@ pdfDoc.PageInfo.Margin.Top = 72;
 pdfDoc.PageInfo.Margin.Bottom = 72;
 ```
 
-Dzięki temu dokument będzie miał standardowy rozmiar strony, odpowiadający stronie 8,5 x 11 cali, i marginesy wynoszące 72 punkty (lub 1 cal) z każdej strony.
+Dzięki temu dokument będzie miał standardowy rozmiar strony, odpowiadający stronie 8,5 x 11 cali, i marginesy wynoszące 72 punkty (lub 1 cal) ze wszystkich stron.
 
 ## Krok 2: Dodawanie strony do pliku PDF
 
@@ -162,22 +164,24 @@ I masz to! Udało Ci się zastosować style numeracji — cyfry rzymskie i alfab
 ## Najczęściej zadawane pytania
 
 ### Czy mogę zastosować różne style numeracji w tym samym dokumencie PDF?  
-Tak, Aspose.PDF dla platformy .NET pozwala na łączenie różnych stylów numeracji, takich jak cyfry rzymskie, cyfry arabskie i numeracja alfabetyczna w obrębie tego samego dokumentu.
+Tak, Aspose.PDF dla platformy .NET pozwala na mieszanie różnych stylów numeracji, takich jak cyfry rzymskie, cyfry arabskie i numeracja alfabetyczna w obrębie tego samego dokumentu.
 
 ### Jak mogę dostosować numer początkowy nagłówków?  
- Możesz ustawić numer początkowy dla dowolnego nagłówka za pomocą`StartNumber` nieruchomość.
+Możesz ustawić numer początkowy dla dowolnego nagłówka za pomocą `StartNumber` nieruchomość.
 
 ### Czy istnieje sposób na zresetowanie kolejności numeracji?  
-Tak, możesz zresetować numerację, dostosowując`StartNumber` właściwość dla każdego nagłówka.
+Tak, możesz zresetować numerację, dostosowując `StartNumber` właściwość dla każdego nagłówka.
 
 ### Czy oprócz numerowania mogę zastosować pogrubienie lub kursywę w nagłówkach?  
- Oczywiście! Możesz dostosować style nagłówków, modyfikując właściwości, takie jak czcionka, rozmiar, pogrubienie i kursywa, używając`TextState` obiekt.
+Oczywiście! Możesz dostosować style nagłówków, modyfikując właściwości, takie jak czcionka, rozmiar, pogrubienie i kursywa, używając `TextState` obiekt.
 
 ### Jak uzyskać tymczasową licencję na Aspose.PDF?  
- Możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/) aby przetestować Aspose.PDF bez ograniczeń.
+Możesz uzyskać tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/) aby przetestować Aspose.PDF bez ograniczeń.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

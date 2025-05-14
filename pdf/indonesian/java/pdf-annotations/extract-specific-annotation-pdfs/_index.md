@@ -1,14 +1,16 @@
 ---
-title: Ekstrak Anotasi Spesifik dari PDF
-linktitle: Ekstrak Anotasi Spesifik dari PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengekstrak anotasi tertentu dari PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah ini menyediakan contoh kode dan FAQ untuk ekstraksi anotasi PDF yang efisien.
-weight: 14
-url: /id/java/pdf-annotations/extract-specific-annotation-pdfs/
+"description": "Pelajari cara mengekstrak anotasi tertentu dari PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah ini menyediakan contoh kode dan FAQ untuk ekstraksi anotasi PDF yang efisien."
+"linktitle": "Ekstrak Anotasi Spesifik dari PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ekstrak Anotasi Spesifik dari PDF"
+"url": "/id/java/pdf-annotations/extract-specific-annotation-pdfs/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrak Anotasi Spesifik dari PDF
@@ -23,7 +25,7 @@ Anotasi dalam PDF dapat menjadi harta karun informasi. Anotasi memungkinkan peng
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Proyek
 
@@ -101,7 +103,7 @@ Dalam artikel ini, kita telah mempelajari cara mengekstrak anotasi tertentu dari
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Anda dapat mengunduh Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/)Ikuti petunjuk instalasi yang tersedia di situs web untuk mengaturnya di proyek Java Anda.
+Anda dapat mengunduh Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/)Ikuti petunjuk instalasi yang disediakan di situs web untuk mengaturnya di proyek Java Anda.
 
 ### Bisakah saya mengekstrak anotasi dari halaman tertentu dalam dokumen PDF?
 
@@ -118,9 +120,11 @@ Ya, Aspose.PDF untuk Java dirancang untuk menangani dokumen PDF kecil dan besar 
 ### Dapatkah saya menyesuaikan format keluaran saat mengekstrak anotasi?
 
 Ya, Anda dapat menyesuaikan format output saat mengekstrak anotasi berdasarkan kebutuhan Anda. Aspose.PDF untuk Java menawarkan fleksibilitas dalam memproses dan memformat data anotasi yang diekstrak.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

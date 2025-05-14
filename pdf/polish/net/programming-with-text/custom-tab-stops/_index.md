@@ -1,14 +1,16 @@
 ---
-title: Niestandardowe tabulatory w pliku PDF
-linktitle: Niestandardowe tabulatory w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak skonfigurować niestandardowe tabulatory w pliku PDF za pomocą Aspose.PDF dla .NET. Ten samouczek zawiera instrukcje krok po kroku dotyczące profesjonalnego wyrównywania tekstu.
-weight: 120
-url: /pl/net/programming-with-text/custom-tab-stops/
+"description": "Dowiedz się, jak skonfigurować niestandardowe tabulatory w pliku PDF za pomocą Aspose.PDF dla .NET. Ten samouczek zawiera instrukcje krok po kroku dotyczące profesjonalnego wyrównywania tekstu."
+"linktitle": "Niestandardowe tabulatory w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Niestandardowe tabulatory w pliku PDF"
+"url": "/pl/net/programming-with-text/custom-tab-stops/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Niestandardowe tabulatory w pliku PDF
@@ -21,12 +23,12 @@ Czy kiedykolwiek musiałeś formatować tekst w pliku PDF i życzyłeś sobie, a
 
 Zanim zaczniemy, oto co będzie Ci potrzebne:
 
--  Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.PDF. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 - Środowisko programistyczne .NET: upewnij się, że masz zainstalowany program Visual Studio lub inne środowisko IDE umożliwiające uruchamianie aplikacji .NET.
 - Podstawowa znajomość języka C#: Będziemy pisać kod w języku C#, dlatego zalecana jest pewna znajomość tego języka.
--  Licencja tymczasowa: Możesz używać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)aby odblokować wszystkie funkcje Aspose.PDF dla .NET.
+- Licencja tymczasowa: Możesz używać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować wszystkie funkcje Aspose.PDF dla .NET.
 
-Gdy już wszystko będzie gotowe, możemy zaimportować niezbędne pakiety i skonfigurować środowisko.
+Gdy wszystko będzie już gotowe, możemy zaimportować niezbędne pakiety i skonfigurować środowisko.
 
 ## Importuj pakiety
 
@@ -39,7 +41,7 @@ using Aspose.Pdf.Text;
 using System;
 ```
 
- Te dwie linie są niezbędne.`Aspose.Pdf` przestrzeń nazw zapewnia strukturę dokumentu, podczas gdy`Aspose.Pdf.Text` zapewnia nam dostęp do funkcji specyficznych dla tekstu, np. niestandardowych tabulatorów.
+Te dwie linie są niezbędne. `Aspose.Pdf` przestrzeń nazw zapewnia strukturę dokumentu, podczas gdy `Aspose.Pdf.Text` zapewnia nam dostęp do funkcji specyficznych dla tekstu, np. niestandardowych tabulatorów.
 
 Omówmy szczegółowo proces konfigurowania niestandardowych tabulatorów w pliku PDF. Przejdziemy przez każdy krok szczegółowo, aby upewnić się, że dokładnie rozumiesz, co się dzieje.
 
@@ -54,8 +56,8 @@ Page page = _pdfdocument.Pages.Add();
 ```
 
 W tym fragmencie:
--  Tworzymy nowy`Document` obiekt.
--  Dodajemy nową stronę do dokumentu za pomocą`Pages.Add()`. Tutaj wstawimy tekst z tabulatorami.
+- Tworzymy nowy `Document` obiekt.
+- Dodajemy nową stronę do dokumentu za pomocą `Pages.Add()`Tutaj wstawimy tekst z tabulatorami.
 
 ## Krok 2: Skonfiguruj tabulatory
 
@@ -69,9 +71,9 @@ ts1.LeaderType = TabLeaderType.Solid;
 ```
 
 Tutaj my:
--  Zainicjuj`TabStops` obiekt, który będzie zawierał nasze niestandardowe tabulatory.
--  Dodaj tabulator w punkcie 100 pikseli za pomocą`ts.Add(100)`. Definiuje miejsce, w którym pojawi się zakładka.
--  Ustaw typ wyrównania na`Right`, co oznacza, że tekst, który trafi w ten tabulator, zostanie wyrównany do prawej strony.
+- Zainicjuj `TabStops` obiekt, który będzie zawierał nasze niestandardowe tabulatory.
+- Dodaj tabulator w punkcie 100 pikseli za pomocą `ts.Add(100)`. Definiuje miejsce, w którym pojawi się zakładka.
+- Ustaw typ wyrównania na `Right`, co oznacza, że tekst, który trafi w ten tabulator, zostanie wyrównany do prawej strony.
 - Zdefiniuj typ linii odniesienia. Linie odniesienia to kropki lub kreski wypełniające przestrzeń przed tabulatorem. W tym przypadku używamy linii ciągłej.
 
 ## Krok 3: Dodaj więcej tabulatorów
@@ -89,7 +91,7 @@ ts3.LeaderType = TabLeaderType.Dot;
 ```
 
 - Drugi znacznik tabulatora ustawiony jest na 200 pikseli, z wyrównaniem do środka i kreską prowadzącą.
-- Trzeci tabulator umieszczony jest w odległości 300 pikseli, wyrównany do lewej strony i ma przerywaną linię odniesienia.
+- Trzeci znacznik tabulacji umieszczony jest w odległości 300 pikseli, wyrównany do lewej strony i ma przerywaną linię odniesienia.
 
 ## Krok 4: Utwórz tekst z tabulatorami
 
@@ -103,11 +105,11 @@ TextFragment text1 = new TextFragment("#$TABdata11 #$TABdata12 #$TABdata13", ts)
 
 - `TextFragment` reprezentuje fragment tekstu.
 - Używamy znaczników tabulacji (`#$TAB`) aby wskazać plikowi PDF, gdzie ma zastosować tabulatory.
--  Na przykład w`text0`, `#$TABHead1` wyrówna się zgodnie z pierwszym tabulatorem,`#$TABHead2` wyrówna się z drugim, i tak dalej.
+- Na przykład w `text0`, `#$TABHead1` wyrówna się zgodnie z pierwszym tabulatorem, `#$TABHead2` będzie wyrównany z drugim, i tak dalej.
 
 ## Krok 5: Dodaj segmenty do tekstu
 
- Czasami możesz chcieć podzielić tekst na wiele segmentów, każdy z własnym tabulatorem. To jest miejsce, w którym`TextSegment` przydaje się.
+Czasami możesz chcieć podzielić tekst na wiele segmentów, każdy z własnym tabulatorem. To jest miejsce, w którym `TextSegment` przydaje się.
 
 ```csharp
 TextFragment text2 = new TextFragment("#$TABdata21 ", ts);
@@ -118,8 +120,8 @@ text2.Segments.Add(new TextSegment("data23"));
 ```
 
 W tym przypadku:
--  Zaczynamy od`#$TABdata21`, który jest wyrównany do pierwszego tabulatora.
--  Dodajemy więcej segmentów takich jak`data22` I`data23`, z których każdy jest wyrównany do innego tabulatora.
+- Zaczynamy od `#$TABdata21`, który jest wyrównany do pierwszego tabulatora.
+- Dodajemy więcej segmentów takich jak `data22` I `data23`, każdy wyrównany do innego tabulatora.
 
 ## Krok 6: Dodaj tekst do strony PDF
 
@@ -132,7 +134,7 @@ page.Paragraphs.Add(text1);
 page.Paragraphs.Add(text2);
 ```
 
- Ten kod dodaje każdy`TextFragment`do strony PDF, upewniając się, że tekst jest sformatowany zgodnie z tabulatorami.
+Ten kod dodaje każdy `TextFragment` do strony PDF, upewniając się, że tekst jest sformatowany zgodnie z tabulatorami.
 
 ## Krok 7: Zapisz dokument PDF
 
@@ -163,13 +165,15 @@ Można wybierać spośród linii ciągłych, przerywanych, kropkowanych i innych
 Oczywiście! Jak pokazano w przykładzie, możesz łączyć wyrównania prawe, lewe i środkowe w tym samym wierszu.
 
 ### Czy istnieje limit liczby tabulatorów, które mogę dodać?  
-Nie, możesz dodać tyle tabulatorów, ile potrzebujesz, by spełnić wymagania projektu.
+Nie, możesz dodać tyle tabulatorów, ile potrzebujesz, zależnie od wymagań projektu.
 
 ### Czy mogę dostosować położenie tabulatorów?  
 Tak, możesz określić dokładną pozycję pikseli dla każdego tabulatora, aby dopasować ją do swojego układu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

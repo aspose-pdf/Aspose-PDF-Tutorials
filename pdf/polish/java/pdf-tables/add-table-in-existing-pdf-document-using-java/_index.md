@@ -1,14 +1,16 @@
 ---
-title: Dodaj tabelę do istniejącego dokumentu PDF za pomocą Java
-linktitle: Dodaj tabelę do istniejącego dokumentu PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać tabele do istniejących dokumentów PDF za pomocą Java i Aspose.PDF dla Java. Przewodnik krok po kroku z przykładami kodu.
-weight: 10
-url: /pl/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
+"description": "Dowiedz się, jak dodawać tabele do istniejących dokumentów PDF za pomocą Java i Aspose.PDF dla Java. Przewodnik krok po kroku z przykładami kodu."
+"linktitle": "Dodaj tabelę do istniejącego dokumentu PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodaj tabelę do istniejącego dokumentu PDF za pomocą Java"
+"url": "/pl/java/pdf-tables/add-table-in-existing-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj tabelę do istniejącego dokumentu PDF za pomocą Java
@@ -16,7 +18,7 @@ url: /pl/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
 
 ## Wprowadzenie do dodawania tabeli w istniejącym dokumencie PDF przy użyciu języka Java
 
-tym artykule przyjrzymy się sposobowi dodawania tabeli do istniejącego dokumentu PDF za pomocą języka Java. Tabele są podstawową częścią wielu dokumentów, zapewniającą ustrukturyzowany sposób wyświetlania danych. Do wykonania tego zadania użyjemy biblioteki Aspose.PDF for Java.
+W tym artykule przyjrzymy się sposobowi dodawania tabeli do istniejącego dokumentu PDF za pomocą języka Java. Tabele są podstawową częścią wielu dokumentów, zapewniającą uporządkowany sposób wyświetlania danych. Do wykonania tego zadania użyjemy biblioteki Aspose.PDF for Java.
 
 ## Wymagania
 
@@ -24,7 +26,7 @@ Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Zainstalowano Java Development Kit (JDK).
 - Zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse.
--  Biblioteka Aspose.PDF dla Java, którą można pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+- Biblioteka Aspose.PDF dla Java, którą można pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Konfigurowanie środowiska
 
@@ -33,7 +35,7 @@ Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 
 ## Dodawanie zależności
 
- W Twoim projekcie`pom.xml` (jeśli używasz Mavena) lub pliku build.gradle (jeśli używasz Gradle), dodaj następującą zależność:
+W Twoim projekcie `pom.xml` (jeśli używasz Mavena) lub pliku build.gradle (jeśli używasz Gradle), dodaj następującą zależność:
 
 ```xml
 <dependencies>
@@ -45,7 +47,7 @@ Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 </dependencies>
 ```
 
- Zastępować`latest_version` z faktyczną wersją biblioteki Aspose.PDF, którą pobrałeś.
+Zastępować `latest_version` z faktyczną wersją pobranej biblioteki Aspose.PDF.
 
 ## Tworzenie tabeli
 
@@ -90,7 +92,7 @@ row.getCells().add("Name");
 row.getCells().add("Age");
 row.getCells().add("Location");
 
-// Dodaj więcej wierszy i danych w razie potrzeby
+// W razie potrzeby dodaj więcej wierszy i danych
 ```
 
 ## Stylizacja tabeli
@@ -125,7 +127,7 @@ W tym samouczku nauczyliśmy się, jak dodać tabelę do istniejącego dokumentu
 
 ### Jak zainstalować Aspose.PDF dla Java?
 
- Możesz pobrać Aspose.PDF dla Javy ze strony[Tutaj](https://releases.aspose.com/pdf/java/). Postępuj zgodnie z instrukcjami instalacji podanymi na ich stronie internetowej.
+Możesz pobrać Aspose.PDF dla Javy ze strony [Tutaj](https://releases.aspose.com/pdf/java/). Postępuj zgodnie z instrukcjami instalacji podanymi na ich stronie internetowej.
 
 ### Czy mogę dodać obrazy do komórek tabeli?
 
@@ -137,14 +139,16 @@ Tak, Aspose.PDF for Java obsługuje pracę z różnymi wersjami PDF, w tym PDF 1
 
 ### Jak ustawić niestandardowe obramowania komórek tabeli?
 
- Możesz dostosować obramowania komórek, dostosowując`BorderInfo` właściwości. Szczegółowe przykłady można znaleźć w dokumentacji Aspose.PDF.
+Możesz dostosować obramowania komórek, dostosowując `BorderInfo` właściwości. Szczegółowe przykłady można znaleźć w dokumentacji Aspose.PDF.
 
 ### Czy mogę wyodrębnić dane z istniejących tabel w dokumencie PDF?
 
 Tak, możesz wyodrębnić dane z istniejących tabel w dokumencie PDF za pomocą Aspose.PDF dla Java. Zapoznaj się z dokumentacją, aby poznać metody wyodrębniania i przykłady.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

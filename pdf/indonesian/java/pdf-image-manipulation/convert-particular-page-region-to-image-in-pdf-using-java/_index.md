@@ -1,14 +1,16 @@
 ---
-title: Konversi Wilayah Halaman Tertentu ke Gambar dalam PDF menggunakan Java
-linktitle: Konversi Wilayah Halaman Tertentu ke Gambar dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengonversi area halaman tertentu ke gambar dalam PDF menggunakan Java dengan panduan langkah demi langkah. Jelajahi kemampuan canggih Aspose.PDF untuk Java dalam manipulasi PDF.
-weight: 13
-url: /id/java/pdf-image-manipulation/convert-particular-page-region-to-image-in-pdf-using-java/
+"description": "Pelajari cara mengonversi area halaman tertentu ke gambar dalam PDF menggunakan Java dengan panduan langkah demi langkah. Jelajahi kemampuan canggih Aspose.PDF untuk Java dalam memanipulasi PDF."
+"linktitle": "Konversi Wilayah Halaman Tertentu ke Gambar dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Konversi Wilayah Halaman Tertentu ke Gambar dalam PDF menggunakan Java"
+"url": "/id/java/pdf-image-manipulation/convert-particular-page-region-to-image-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi Wilayah Halaman Tertentu ke Gambar dalam PDF menggunakan Java
@@ -24,7 +26,7 @@ Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Anda harus menginstal Java pada sistem Anda.
 
-- Pustaka Aspose.PDF untuk Java: Unduh dan sertakan pustaka Aspose.PDF untuk Java dalam proyek Anda. Anda bisa mendapatkannya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Pustaka Aspose.PDF untuk Java: Unduh dan sertakan pustaka Aspose.PDF untuk Java dalam proyek Anda. Anda bisa mendapatkannya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Langkah 1: Muat Dokumen PDF
 
@@ -35,14 +37,14 @@ Pertama, kita perlu memuat dokumen PDF yang berisi halaman tempat kita ingin men
 Document pdfDocument = new Document("sample.pdf");
 ```
 
- Mengganti`"sample.pdf"` dengan jalur ke berkas PDF Anda.
+Mengganti `"sample.pdf"` dengan jalur ke berkas PDF Anda.
 
 ## Langkah 2: Tentukan Wilayah Halaman
 
- Sekarang, mari kita tentukan wilayah pada halaman yang ingin kita ubah menjadi gambar. Anda dapat menentukan koordinat dan dimensi wilayah menggunakan`Rectangle` kelas. Misalnya, untuk menangkap wilayah yang dimulai pada koordinat (50, 50) dan memiliki lebar dan tinggi 200 piksel, Anda dapat melakukan hal berikut:
+Sekarang, mari kita tentukan wilayah pada halaman yang ingin kita ubah menjadi gambar. Anda dapat menentukan koordinat dan dimensi wilayah menggunakan `Rectangle` kelas. Misalnya, untuk menangkap wilayah yang dimulai pada koordinat (50, 50) dan memiliki lebar dan tinggi 200 piksel, Anda dapat melakukan hal berikut:
 
 ```java
-// Tentukan wilayah yang akan diambil gambarnya
+// Tentukan wilayah yang akan diambil
 Rectangle pageRegion = new Rectangle(50, 50, 200, 200);
 ```
 
@@ -61,7 +63,7 @@ Dalam contoh ini, kami mengonversi wilayah pada halaman pertama dokumen PDF. And
 
 ## Langkah 4: Simpan Gambar
 
-Terakhir, mari simpan wilayah yang diambil sebagai file gambar. Anda dapat memilih dari berbagai format gambar seperti PNG, JPEG, atau lainnya sesuai dengan keinginan Anda:
+Terakhir, mari simpan wilayah yang diambil sebagai berkas gambar. Anda dapat memilih dari berbagai format gambar seperti PNG, JPEG, atau lainnya sesuai dengan keinginan Anda:
 
 ```java
 // Simpan gambarnya
@@ -78,7 +80,7 @@ Dalam tutorial ini, kita telah mempelajari cara memanfaatkan Aspose.PDF untuk Ja
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
+Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
 
 ### Bisakah saya mengekstrak wilayah dari beberapa halaman?
 
@@ -95,9 +97,11 @@ Aspose.PDF untuk Java menyediakan berbagai fitur, termasuk pembuatan PDF, manipu
 ### Apakah ada persyaratan lisensi untuk menggunakan Aspose.PDF untuk Java?
 
 Ya, Aspose.PDF untuk Java adalah pustaka komersial, dan Anda memerlukan lisensi yang valid untuk menggunakannya dalam aplikasi produksi. Anda dapat memperoleh lisensi dari situs web Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

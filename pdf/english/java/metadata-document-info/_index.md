@@ -4,8 +4,11 @@ description: "Complete tutorials for managing document properties, metadata, and
 weight: 12
 url: "/java/metadata-document-info/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PDF Metadata and Document Information Tutorials for Aspose.PDF Java
 
@@ -50,7 +53,11 @@ Learn how to manage PDF metadata with ease using Aspose.PDF for Java. This guide
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'deki Görüntülerin DPI veya PPI'sini Ayarlama
-linktitle: Java kullanarak PDF'deki Görüntülerin DPI veya PPI'sini Ayarlama
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java kullanarak PDF'de DPI/PPI ayarlamaya yönelik adım adım kılavuzumuzla PDF görüntü kalitesini optimize edin. Belgelerinizi baskı ve dijital görüntüleme için nasıl geliştireceğinizi öğrenin.
-weight: 12
-url: /tr/java/pdf-image-manipulation/setting-dpi-or-ppi-of-images-in-pdf-using-java/
+"description": "Java kullanarak PDF'de DPI/PPI ayarlamaya yönelik adım adım kılavuzumuzla PDF görüntü kalitesini optimize edin. Belgelerinizi baskı ve dijital görüntüleme için nasıl geliştireceğinizi öğrenin."
+"linktitle": "Java kullanarak PDF'deki Görüntülerin DPI veya PPI'sini Ayarlama"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'deki Görüntülerin DPI veya PPI'sini Ayarlama"
+"url": "/tr/java/pdf-image-manipulation/setting-dpi-or-ppi-of-images-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'deki Görüntülerin DPI veya PPI'sini Ayarlama
@@ -30,9 +32,9 @@ DPI (Dots Per Inch) ve PPI (Pixels Per Inch), bir PDF belgesindeki görüntüler
 
 ### Java için Aspose.PDF Kullanarak DPI/PPI Ayarlama Yöntemleri
 
-###  Yöntem 1: Kullanarak`setImageResolution` Method
+### Yöntem 1: Kullanımı `setImageResolution` Yöntem
 
- Aspose.PDF for Java kullanarak PDF'deki resimler için DPI/PPI ayarlamanın bir yolu,`setImageResolution` yöntem. Bu yöntem PDF'deki resimler için istediğiniz çözünürlüğü belirtmenize olanak tanır.
+Aspose.PDF for Java kullanarak PDF'deki resimler için DPI/PPI ayarlamanın bir yolu, `setImageResolution` yöntem. Bu yöntem PDF'deki resimler için istediğiniz çözünürlüğü belirtmenize olanak tanır.
 
 ```java
 // Java kod örneği
@@ -41,9 +43,9 @@ imagePlacement.setImageFile("image.jpg");
 imagePlacement.setImageResolution(new Resolution(300, 300));
 ```
 
-###  Yöntem 2: Kullanımı`setResolution` Method
+### Yöntem 2: Kullanımı `setResolution` Yöntem
 
- Başka bir yaklaşım ise,`setResolution` PDF'deki resimlerin DPI/PPI'sini ayarlama yöntemi. Bu yöntem çözünürlük ayarlarını tanımlamada esneklik sağlar.
+Başka bir yaklaşım ise, `setResolution` PDF'deki görüntülerin DPI/PPI'sini ayarlama yöntemi. Bu yöntem çözünürlük ayarlarını tanımlamada esneklik sağlar.
 
 ```java
 // Java kod örneği
@@ -72,7 +74,7 @@ Sonuç olarak, PDF dosyalarındaki resimlerin DPI veya PPI'sini Java kullanarak 
 
 ### PDF'de DPI ve PPI nedir?
 
-PDF'deki DPI (Dots Per Inch) ve PPI (Pixels Per Inch), görüntü çözünürlüğünü ifade eder. DPI, basılı belgeler için kullanılırken, PPI dijital ekranlar içindir. Bunlar, PDF dosyalarındaki görüntülerin kalitesini ve boyutunu belirler.
+PDF'deki DPI (Dots Per Inch) ve PPI (Pixels Per Inch), görüntü çözünürlüğünü ifade eder. DPI, basılı belgeler için kullanılırken, PPI dijital ekranlar içindir. PDF dosyalarındaki görüntülerin kalitesini ve boyutunu belirlerler.
 
 ### PDF resimlerinde DPI/PPI ayarı neden önemlidir?
 
@@ -80,7 +82,7 @@ DPI/PPI ayarı, görüntülerin yazdırıldığında veya dijital olarak görün
 
 ### Aspose.PDF for Java kullanarak DPI/PPI nasıl ayarlarım?
 
- Java için Aspose.PDF şu yöntemleri sunar:`setImageResolution` Ve`setResolution` PDF'lerdeki resimler için DPI/PPI ayarlamak için. Ayrıntılı kod örnekleri için kılavuzumuza bakın.
+Java için Aspose.PDF şu yöntemleri sunar: `setImageResolution` Ve `setResolution` PDF'lerdeki resimler için DPI/PPI ayarlamak için. Ayrıntılı kod örnekleri için kılavuzumuza bakın.
 
 ### DPI/PPI ayarının kodla bir örneğini verebilir misiniz?
 
@@ -89,9 +91,11 @@ Elbette! Aspose.PDF for Java kullanarak DPI/PPI'yi etkili bir şekilde nasıl ay
 ### PDF görüntüleri için önerilen DPI/PPI değerleri nelerdir?
 
 Önerilen DPI/PPI değerleri PDF'nin amaçlanan kullanımına bağlıdır. Web gösterimi için 72 DPI genellikle yeterlidir. Yüksek kaliteli baskı için 300 DPI veya daha yüksek önerilir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

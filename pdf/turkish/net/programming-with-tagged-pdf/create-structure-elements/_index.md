@@ -1,14 +1,16 @@
 ---
-title: Yapı Elemanları Oluştur
-linktitle: Yapı Elemanları Oluştur
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF ile PDF'de yapı öğelerinin nasıl oluşturulacağını öğrenin. Gelişmiş PDF erişilebilirliği ve organizasyonu için adım adım bir kılavuz.
-weight: 60
-url: /tr/net/programming-with-tagged-pdf/create-structure-elements/
+"description": ".NET için Aspose.PDF ile PDF'de yapı öğelerinin nasıl oluşturulacağını öğrenin. Gelişmiş PDF erişilebilirliği ve organizasyonu için adım adım bir kılavuz."
+"linktitle": "Yapı Elemanları Oluştur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Yapı Elemanları Oluştur"
+"url": "/tr/net/programming-with-tagged-pdf/create-structure-elements/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yapı Elemanları Oluştur
@@ -22,7 +24,7 @@ Yapılandırılmış PDF belgeleri oluşturmak, özellikle çok fazla veriyle u�
 Eğitime başlamadan önce, başlamak için neye ihtiyacınız olduğunu ele alalım:
 
 1. .NET Framework: Uyumlu bir .NET ortamının kurulu olduğundan emin olun. Tercihinize bağlı olarak bu .NET Framework veya .NET Core olabilir.
-2.  Aspose.PDF for .NET: Kütüphaneyi indirin ve kurun. En son sürümü bulabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF for .NET: Kütüphaneyi indirin ve kurun. En son sürümü bulabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. Geliştirme Ortamı: Visual Studio gibi .NET'i destekleyen herhangi bir IDE iyi çalışacaktır.
 4. Temel C# Bilgisi: C# programlamaya aşinalık, örnekleri daha iyi anlamanıza yardımcı olacaktır.
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Burada, değiştirin`"YOUR DOCUMENT DIRECTORY"` PDF'nizi kaydetmek istediğiniz yol ile. Bu, çıktı dosyanızın bilinen bir konuma sahip olmasını sağlar.
+Burada, değiştirin `"YOUR DOCUMENT DIRECTORY"` PDF'nizi kaydetmek istediğiniz yol ile. Bu, çıktı dosyanızın bilinen bir konuma sahip olmasını sağlar.
 
 ## Adım 2: Etiketli İçeriğin Elde Edilmesi
 
@@ -71,7 +73,7 @@ Bu kod satırı, PDF belgesinin yapısını değiştirmemize olanak tanıyan eti
 
 ## Adım 3: Başlığı ve Dili Ayarlama
 
-Erişilebilirlik açısından başlığı ve dili ayarlamak önemlidir.
+Erişilebilirlik açısından başlığın ve dilin ayarlanması önemlidir.
 
 ```csharp
 // Belge için Başlık ve Dil Ayarla
@@ -190,19 +192,21 @@ Aspose.PDF for .NET kullanarak yapılandırılmış PDF'ler oluşturmak, belge o
 Aspose.PDF for .NET, geliştiricilerin .NET programlama dillerini kullanarak PDF belgelerini kolayca oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF for .NET'i nasıl yüklerim?
- İndirebilirsin[Burada](https://releases.aspose.com/pdf/net/) ve bunu NuGet aracılığıyla veya manuel olarak projenize ekleyin.
+İndirebilirsin [Burada](https://releases.aspose.com/pdf/net/) ve bunu NuGet aracılığıyla veya manuel olarak projenize ekleyin.
 
 ### PDF'lerimde erişilebilirlik için etiketler oluşturabilir miyim?
 Evet! Aspose.PDF for .NET, etiketli PDF'lerin oluşturulmasını destekleyerek ekran okuyucular için erişilebilirliği artırır.
 
 ### Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı dokümanlara erişebilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Ayrıntılı dokümanlara erişebilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Ücretsiz deneme imkanı var mı?
- Kesinlikle! Ücretsiz denemeyi kontrol edin[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz denemeyi kontrol edin [Burada](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

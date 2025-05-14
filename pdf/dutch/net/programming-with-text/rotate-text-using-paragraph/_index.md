@@ -1,36 +1,38 @@
 ---
-title: Tekst roteren met behulp van alinea in PDF-bestand
-linktitle: Tekst roteren met behulp van alinea in PDF-bestand
-second_title: Aspose.PDF voor .NET API-referentie
-description: Leer hoe u tekst in PDF kunt roteren met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding om uw documenten te maken.
-weight: 380
-url: /nl/net/programming-with-text/rotate-text-using-paragraph/
+"description": "Leer hoe je tekst in een PDF kunt roteren met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding om je documenten te maken."
+"linktitle": "Tekst roteren met behulp van alinea in PDF-bestand"
+"second_title": "Aspose.PDF voor .NET API-referentie"
+"title": "Tekst roteren met behulp van alinea in PDF-bestand"
+"url": "/nl/net/programming-with-text/rotate-text-using-paragraph/"
+"weight": 380
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tekst roteren met behulp van alinea in PDF-bestand
 
 ## Invoering
 
-PDF's maken met dynamische tekst kan een boeiende manier zijn om informatie over te brengen. Als u uw documenten wat flair wilt geven, kan het roteren van tekst helpen om belangrijke punten te benadrukken of gewoon een visueel aantrekkelijk ontwerp te bieden. In deze gids laat ik u zien hoe u tekst kunt roteren met Aspose.PDF voor .NET, waardoor uw PDF-documenten interactiever en interessanter worden!
+PDF's maken met dynamische tekst kan een aantrekkelijke manier zijn om informatie over te brengen. Als je je documenten wat meer flair wilt geven, kan het roteren van tekst belangrijke punten benadrukken of gewoon een visueel aantrekkelijk ontwerp opleveren. In deze handleiding leg ik je uit hoe je tekst kunt roteren met Aspose.PDF voor .NET, waardoor je PDF-documenten interactiever en interessanter worden!
 
 ## Vereisten
 
-Voordat we in de spannende wereld van tekstrotatie in PDF-bestanden duiken, moeten we ervoor zorgen dat alles correct is ingesteld. Dit zijn de vereisten die u nodig hebt:
+Voordat we ons verdiepen in de spannende wereld van tekstrotatie in PDF-bestanden, moeten we ervoor zorgen dat alles correct is ingesteld. Dit zijn de vereisten die je nodig hebt:
 
-1.  Aspose.PDF voor .NET: Zorg ervoor dat u Aspose.PDF voor .NET in uw project hebt geïnstalleerd. U kunt het downloaden van de[website](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF voor .NET: Zorg ervoor dat Aspose.PDF voor .NET in uw project is geïnstalleerd. U kunt het downloaden van de [website](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: in deze zelfstudie gaan we ervan uit dat u Visual Studio gebruikt voor uw .NET-ontwikkeling.
-3. Basiskennis van C#: Kennis van C#-programmering helpt u de voorbeelden beter te begrijpen. Als u nieuw bent, maak u geen zorgen; we gaan stap voor stap te werk!
-4. .NET Framework: Zorg ervoor dat uw project is ingesteld met een geschikte versie van het .NET Framework. Aspose.PDF ondersteunt verschillende versies, dus controleer de documentatie op compatibiliteit.
+3. Basiskennis van C#: Kennis van C#-programmering helpt je de voorbeelden beter te begrijpen. Ben je nieuw? Geen zorgen, we gaan stap voor stap te werk!
+4. .NET Framework: Zorg ervoor dat uw project is geïnstalleerd met een geschikte versie van .NET Framework. Aspose.PDF ondersteunt verschillende versies, dus controleer de documentatie op compatibiliteit.
 
-Zodra u aan deze vereisten voldoet, kunnen we beginnen met het schrijven van code!
+Zodra deze vereisten vervuld zijn, kunnen we beginnen met het schrijven van code!
 
 ## Pakketten importeren
 
-Om Aspose.PDF effectief te gebruiken, moet u de benodigde naamruimten importeren. Dit is hoe u dat kunt doen:
+Om Aspose.PDF effectief te kunnen gebruiken, moet je de benodigde naamruimten importeren. Zo doe je dat:
 
 ### Open uw project
 
@@ -42,7 +44,7 @@ Klik met de rechtermuisknop op uw project in Solution Explorer en selecteer 'NuG
 
 ### Zoeken en installeren Aspose.PDF
 
-Zoek in de NuGet Package Manager naar "Aspose.PDF" en installeer het. Met deze actie krijgt u toegang tot alle klassen en functies die beschikbaar zijn in de Aspose.PDF-bibliotheek.
+Zoek in de NuGet Package Manager naar "Aspose.PDF" en installeer het. Hiermee krijgt u toegang tot alle klassen en functies in de Aspose.PDF-bibliotheek.
 
 ### Importeer de naamruimte
 
@@ -58,17 +60,17 @@ using Aspose.Pdf.Facades;
 
 En daarmee bent u klaar om te beginnen met coderen!
 
-Oké! Laten we nu naar de kern van de zaak gaan: tekst roteren in een PDF. We zullen de code stap voor stap doorlopen.
+Oké! Laten we nu naar de kern van de zaak gaan: het roteren van tekst in een PDF. We doorlopen de code stap voor stap.
 
 ## Stap 1: Document initialiseren
 
-De eerste stap is om een nieuw exemplaar van een PDF-document te maken. Dit is waar al uw harde werk wordt ondergebracht.
+De eerste stap is het maken van een nieuw exemplaar van een PDF-document. Hier wordt al je harde werk opgeslagen.
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // Geef uw documentdirectory op
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Geef uw documentmap op
 Document pdfDocument = new Document(); // Documentobject initialiseren
 ```
-Hier specificeren we een directory voor het document en initialiseren we een nieuw Document-object. Dit object zal dienen als de container voor uw PDF.
+Hier specificeren we een map voor het document en initialiseren we een nieuw Document-object. Dit object dient als container voor uw PDF.
 
 ## Stap 2: Een specifieke pagina verkrijgen
 
@@ -79,7 +81,7 @@ Page pdfPage = (Page)pdfDocument.Pages.Add(); // Specifieke pagina ophalen
 ```
 Met deze regel wordt een nieuwe pagina aan de PDF toegevoegd, zodat we er inhoud aan kunnen toevoegen.
 
-## Stap 3: Maak een tekstparagraaf
+## Stap 3: Een tekstparagraaf maken
 
 Laten we nu een alinea maken waaraan we de tekstfragmenten toevoegen:
 
@@ -87,11 +89,11 @@ Laten we nu een alinea maken waaraan we de tekstfragmenten toevoegen:
 TextParagraph paragraph = new TextParagraph();
 paragraph.Position = new Position(200, 600); // De positie van de alinea instellen
 ```
-Hier initialiseren we een TextParagraph en stellen de positie ervan op de pagina in. De coördinaten (200, 600) bepalen waar de alinea op de pagina begint.
+Hier initialiseren we een TextParagraph en bepalen we de positie ervan op de pagina. De coördinaten (200, 600) bepalen waar de alinea op de pagina begint.
 
 ## Stap 4: Tekstfragmenten maken 
 
-Nu komt het leukste gedeelte: het maken van de tekstfragmenten! We maken drie tekstfragmenten, waarvan er twee worden gedraaid.
+Nu komt het leukste gedeelte: het maken van de tekstfragmenten! We maken drie tekstfragmenten, waarvan er twee gedraaid worden.
 
 ### 4.1: Geroteerd tekstfragment maken
 
@@ -135,7 +137,7 @@ paragraph.AppendLine(textFragment1);
 paragraph.AppendLine(textFragment2);
 paragraph.AppendLine(textFragment3);
 ```
- We voegen gewoon elk tekstfragment toe aan onze alinea.`AppendLine` methode zorgt ervoor dat elk tekstfragment verticaal wordt gestapeld.
+We voegen simpelweg elk tekstfragment toe aan onze alinea. De `AppendLine` methode zorgt ervoor dat elk tekstfragment verticaal wordt gestapeld.
 
 ## Stap 6: Een TextBuilder-object maken
 
@@ -149,18 +151,18 @@ Het TextBuilder-object fungeert als hulpmiddel om de alinea toe te passen op de 
 
 ## Stap 7: Sla het document op
 
-Na al dat harde werk is het tijd om het document op te slaan en te bekijken wat we hebben gemaakt!
+Na al het harde werk is het tijd om het document op te slaan en te bekijken wat we hebben gemaakt!
 
 ```csharp
 pdfDocument.Save(dataDir + "TextFragmentTests_Rotated2_out.pdf");
 ```
-Met deze regel wordt het document opgeslagen in de door u opgegeven map met de naam "TextFragmentTests_Rotated2_out.pdf". 
+Met deze regel wordt het document opgeslagen in de door u opgegeven map onder de naam "TextFragmentTests_Rotated2_out.pdf". 
 
-En voila! Je hebt nu een PDF-bestand met gedraaide tekst!
+En voilà! Je hebt nu een PDF-bestand met gedraaide tekst!
 
 ## Conclusie
 
-Roterende tekst in een PDF kan een hoop creativiteit en nadruk toevoegen aan uw documenten. Met Aspose.PDF voor .NET is het eenvoudig te implementeren en aan te passen aan uw ontwerpbehoeften. Door deze stapsgewijze handleiding te volgen, hebt u geleerd hoe u geroteerde tekst in een PDF kunt maken, wat nieuwe mogelijkheden biedt om informatie op een boeiende manier te presenteren. 
+Het roteren van tekst in een PDF kan uw documenten een flinke dosis creativiteit en nadruk geven. Met Aspose.PDF voor .NET is het eenvoudig te implementeren en aan te passen aan uw ontwerpbehoeften. Door deze stapsgewijze handleiding te volgen, hebt u geleerd hoe u gedraaide tekst in een PDF kunt maken, wat nieuwe mogelijkheden biedt om informatie op een aantrekkelijke manier te presenteren. 
 
 ## Veelgestelde vragen
 
@@ -168,19 +170,21 @@ Roterende tekst in een PDF kan een hoop creativiteit en nadruk toevoegen aan uw 
 Aspose.PDF voor .NET is een krachtige bibliotheek waarmee ontwikkelaars PDF-documenten rechtstreeks in .NET-toepassingen kunnen maken, bewerken en converteren.
 
 ### Hoe installeer ik Aspose.PDF in mijn project?
- U kunt Aspose.PDF installeren via NuGet Package Manager in Visual Studio of door het te downloaden van de[Aspose downloadpagina](https://releases.aspose.com/pdf/net/).
+U kunt Aspose.PDF installeren via NuGet Package Manager in Visual Studio of door het te downloaden van de  [Aspose downloadpagina](https://releases.aspose.com/pdf/net/).
 
 ### Kan ik Aspose.PDF gratis gebruiken?
- Ja, Aspose.PDF biedt een gratis proefperiode. U kunt beginnen met de[gratis proefperiode](https://releases.aspose.com/) en de functies ervan verkennen.
+Ja, Aspose.PDF biedt een gratis proefperiode aan. U kunt beginnen met de [gratis proefperiode](https://releases.aspose.com/) en de functies ervan verkennen.
 
 ### Is er ondersteuning beschikbaar voor Aspose.PDF?
- Absoluut! U kunt contact opnemen met[Aspose-ondersteuning](https://forum.aspose.com/c/pdf/10) voor hulp bij eventuele problemen.
+Absoluut! Je kunt contact opnemen met [Aspose-ondersteuning](https://forum.aspose.com/c/pdf/10) voor hulp bij eventuele problemen.
 
 ### Hoe kan ik een tijdelijke licentie voor Aspose.PDF verkrijgen?
- U kunt een tijdelijke licentie kopen bij[Website van Aspose](https://purchase.aspose.com/temporary-license/) om alle functies van de bibliotheek uit te proberen.
+U kunt een tijdelijke licentie kopen bij [De website van Aspose](https://purchase.aspose.com/temporary-license/) om alle functies van de bibliotheek uit te proberen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

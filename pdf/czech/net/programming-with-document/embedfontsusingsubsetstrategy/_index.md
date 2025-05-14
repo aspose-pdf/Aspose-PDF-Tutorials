@@ -1,43 +1,45 @@
 ---
-title: Vložit písma do souboru PDF s podmnožinou strategie
-linktitle: Vložit písma s podmnožinou strategie
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se vkládat písma do souboru PDF pomocí Subset Strategy pomocí Aspose.PDF for .NET. Optimalizujte velikost PDF vložením pouze nezbytných znaků.
-weight: 130
-url: /cs/net/programming-with-document/embedfontsusingsubsetstrategy/
+"description": "Naučte se, jak vkládat písma do PDF souboru pomocí Subset Strategy s využitím Aspose.PDF pro .NET. Optimalizujte velikost PDF vložením pouze nezbytných znaků."
+"linktitle": "Vkládání písem se strategií podmnožin"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Vložení písem do PDF souboru pomocí strategie podmnožin"
+"url": "/cs/net/programming-with-document/embedfontsusingsubsetstrategy/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vložit písma do souboru PDF s podmnožinou strategie
+# Vložení písem do PDF souboru pomocí strategie podmnožin
 
 ## Zavedení
 
-digitálním věku se soubory PDF staly základem sdílení dokumentů. Ať už posíláte zprávu, prezentaci nebo e-knihu, zajištění správného zobrazení písem je zásadní. Otevřeli jste někdy PDF, abyste zjistili, že text vypadá jinak, než byl zamýšlen? To se často stává, když písma použitá v dokumentu nejsou správně vložena. To je místo, kde Aspose.PDF pro .NET přichází do hry! V tomto tutoriálu prozkoumáme, jak vložit písma do souboru PDF pomocí strategie podmnožiny, aby vaše dokumenty vypadaly přesně tak, jak jste zamýšleli, bez ohledu na to, kde jsou zobrazeny.
+digitálním věku se PDF soubory staly základem pro sdílení dokumentů. Ať už posíláte zprávu, prezentaci nebo elektronickou knihu, je klíčové zajistit, aby se vaše písma zobrazovala správně. Už se vám někdy stalo, že jste po otevření PDF souboru zjistili, že text vypadá jinak, než jste zamýšleli? To se často stává, když písma použitá v dokumentu nejsou správně vložena. A právě zde přichází na řadu Aspose.PDF pro .NET! V tomto tutoriálu se podíváme na to, jak vložit písma do PDF souboru pomocí strategie podmnožin, což zajistí, že vaše dokumenty budou vypadat přesně tak, jak jste zamýšleli, bez ohledu na to, kde si je prohlížíte.
 
 ## Předpoklady
 
-Než se ponoříme do toho nejnutnějšího vkládání písem, je třeba mít připraveno několik věcí:
+Než se ponoříme do detailů vkládání písem, je třeba mít připraveno několik věcí:
 
-1.  Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete si jej stáhnout z[zde](https://releases.aspose.com/pdf/net/).
-2. Visual Studio: Vývojové prostředí, kde můžete psát a testovat svůj kód .NET.
+1. Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.PDF. Můžete si ji stáhnout z [zde](https://releases.aspose.com/pdf/net/).
+2. Visual Studio: Vývojové prostředí, kde můžete psát a testovat kód .NET.
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět úryvkům kódu.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, budete muset importovat potřebné balíčky do svého projektu C#. Můžete to udělat takto:
+Chcete-li začít, budete muset importovat potřebné balíčky do svého projektu C#. Zde je návod, jak to udělat:
 
 ### Vytvořit nový projekt
 
-Otevřete Visual Studio a vytvořte nový projekt C#. Pro jednoduchost si můžete vybrat konzolovou aplikaci.
+Otevřete Visual Studio a vytvořte nový projekt v C#. Pro zjednodušení si můžete vybrat konzolovou aplikaci.
 
-### Přidejte odkaz Aspose.PDF
+### Přidat odkaz na Aspose.PDF
 
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
-2. Vyberte „Spravovat balíčky NuGet“.
-3. Vyhledejte „Aspose.PDF“ a nainstalujte nejnovější verzi.
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+2. Vyberte možnost „Spravovat balíčky NuGet“.
+3. Vyhledejte soubor „Aspose.PDF“ a nainstalujte nejnovější verzi.
 
 ```csharp
 using System;
@@ -46,84 +48,86 @@ using System.Linq;
 using System.Text;
 ```
 
-Nyní, když máme vše nastaveno, pojďme si krok za krokem rozebrat proces vkládání písem do souboru PDF.
+Nyní, když máme vše nastavené, pojďme si krok za krokem rozebrat proces vkládání písem do PDF souboru.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíme definovat, kde jsou naše dokumenty uloženy. To je zásadní, protože z tohoto adresáře budeme číst a zapisovat do něj.
+Nejdříve musíme definovat, kde jsou naše dokumenty uloženy. To je klíčové, protože z tohoto adresáře budeme číst a do něj zapisovat.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jsou umístěny vaše soubory PDF. Tohle by mohlo být něco jako`@"C:\Documents\"`.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nacházejí vaše PDF soubory. Mohlo by to být něco jako `@"C:\Documents\"`.
 
 ## Krok 2: Načtěte dokument PDF
 
-Dále načteme dokument PDF, který chceme upravit. To je místo, kde Aspose.PDF září a umožňuje nám snadno manipulovat se soubory PDF.
+Dále načteme PDF dokument, který chceme upravit. Zde vynikne Aspose.PDF, který nám umožňuje snadno manipulovat s PDF soubory.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Ujistěte se, že máte`input.pdf` soubor ve vámi určeném adresáři. Tento soubor bude ten, který upravíme.
+Ujistěte se, že máte `input.pdf` soubor ve vámi zadaném adresáři. Tento soubor budeme upravovat.
 
-## Krok 3: Podmnožte všechna písma
+## Krok 3: Vytvořte podmnožinu všech písem
 
-Nyní pojďme k jádru věci: vkládání písem. Začneme vložením všech písem jako podmnožin. To znamená, že budou vloženy pouze znaky použité v dokumentu, což může výrazně snížit velikost souboru.
+A teď k jádru věci: vkládání písem. Začneme vkládáním všech písem jako podmnožin. To znamená, že budou vloženy pouze znaky použité v dokumentu, což může výrazně zmenšit velikost souboru.
 
 ```csharp
-// Všechna písma budou vložena jako podmnožina do dokumentu v případě SubsetAllFonts.
+// V případě SubsetAllFonts budou všechna písma vložena do dokumentu jako podmnožina.
 doc.FontUtilities.SubsetFonts(FontSubsetStrategy.SubsetAllFonts);
 ```
 
- Použitím`SubsetAllFonts`, zajistíme, že každé písmo použité v dokumentu bude vloženo, ale budou zahrnuty pouze skutečně použité znaky.
+Použitím `SubsetAllFonts`, zajišťujeme, aby každé písmo použité v dokumentu bylo vloženo, ale zahrnuty budou pouze skutečně použité znaky.
 
-## Krok 4: Pouze podmnožina vložených písem
+## Krok 4: Vytvořit podmnožinu pouze vložených písem
 
-V některých případech můžete chtít vložit pouze písma, která jsou již v dokumentu vložena. To je užitečné, pokud chcete zachovat původní vzhled bez přidávání nových písem.
+některých případech můžete chtít vložit pouze písma, která jsou již vložena v dokumentu. To je užitečné, pokud chcete zachovat původní vzhled bez přidání nových písem.
 
 ```csharp
-//Podmnožina písem bude vložena pro plně vložená písma, ale písma, která nejsou vložena do dokumentu, nebudou ovlivněna.
+// Podmnožina písem bude vložena pro plně vložená písma, ale písma, která nejsou vložena do dokumentu, nebudou ovlivněna.
 doc.FontUtilities.SubsetFonts(FontSubsetStrategy.SubsetEmbeddedFontsOnly);
 ```
 
-Tento řádek kódu zajišťuje, že podmnožiny budou vloženy pouze písma, která jsou již vložená, a všechna nevložená písma zůstanou nedotčená.
+Tento řádek kódu zajišťuje, že budou podmnožiny vybrány pouze pro již vložená písma, přičemž všechna nevložená písma zůstanou nedotčena.
 
-## Krok 5: Uložte upravený dokument
+## Krok 5: Uložení upraveného dokumentu
 
-Nakonec musíme změny uložit. Zde zapíšeme upravený dokument zpět na disk.
+Nakonec musíme uložit změny. Zde zapíšeme upravený dokument zpět na disk.
 
 ```csharp
 doc.Save(dataDir + "Output_out.pdf");
 ```
 
- Tím se vytvoří nový soubor PDF s názvem`Output_out.pdf` ve vašem zadaném adresáři, kompletní s vloženými fonty.
+Tím se vytvoří nový PDF soubor s názvem `Output_out.pdf` ve vámi zadaném adresáři, včetně vložených fontů.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste vložili písma do souboru PDF pomocí Aspose.PDF pro .NET. Dodržením těchto kroků můžete zajistit, že si vaše dokumenty zachovají svůj zamýšlený vzhled bez ohledu na to, kde jsou zobrazeny. Ať už sdílíte zprávy, prezentace nebo jakýkoli jiný typ dokumentu, vkládání písem je zásadním krokem k udržení profesionality a jasnosti.
+je to! Úspěšně jste vložili písma do PDF souboru pomocí Aspose.PDF pro .NET. Dodržením těchto kroků zajistíte, že si vaše dokumenty zachovají zamýšlený vzhled bez ohledu na to, kde se prohlížejí. Ať už sdílíte zprávy, prezentace nebo jakýkoli jiný typ dokumentu, vkládání písem je klíčovým krokem k zachování profesionality a srozumitelnosti.
 
-## FAQ
+## Často kladené otázky
 
-### Co je podmnožina písma?
-Podmnožina písma je proces zahrnutí pouze znaků použitých v dokumentu, nikoli celého písma, což pomáhá zmenšit velikost souboru.
+### Co je to podmnožina písma?
+Podmnožina písma je proces, při kterém se do dokumentu zahrnou pouze znaky použité v něm, nikoli celé písmo, což pomáhá zmenšit velikost souboru.
 
-### Proč bych měl do svého PDF vkládat písma?
-Vkládání písem zajistí, že váš dokument bude vypadat stejně na všech zařízeních, čímž se zabrání problémům s nahrazováním písem.
+### Proč bych měl/a do PDF vkládat písma?
+Vkládání písem zajišťuje, že se dokument bude na všech zařízeních zobrazovat stejně, a zabraňuje tak problémům se záměnou písem.
 
 ### Mohu používat Aspose.PDF zdarma?
- Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k otestování knihovny před jejím zakoupením. Můžete to najít[zde](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi, kterou si můžete před zakoupením knihovny vyzkoušet. Najdete ji [zde](https://releases.aspose.com/).
 
 ### Kde najdu další dokumentaci?
- Máte přístup ke kompletní dokumentaci Aspose.PDF pro .NET[zde](https://reference.aspose.com/pdf/net/).
+Kompletní dokumentaci k Aspose.PDF pro .NET si můžete prohlédnout zde. [zde](https://reference.aspose.com/pdf/net/).
 
 ### Co když narazím na problémy?
- Pokud narazíte na nějaké problémy, můžete vyhledat pomoc na fóru podpory Aspose[zde](https://forum.aspose.com/c/pdf/10).
+Pokud narazíte na nějaké problémy, můžete vyhledat pomoc na fóru podpory Aspose. [zde](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

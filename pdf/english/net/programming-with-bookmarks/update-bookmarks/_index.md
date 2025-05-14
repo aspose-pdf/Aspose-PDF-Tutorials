@@ -8,7 +8,9 @@ url: /net/programming-with-bookmarks/update-bookmarks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Bookmarks In PDF File
@@ -129,6 +131,7 @@ Yes, you’ll need a license for production use. However, you can get a [tempora
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

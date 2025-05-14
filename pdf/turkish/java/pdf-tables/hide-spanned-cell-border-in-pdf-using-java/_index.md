@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'de Genişletilmiş Hücre Kenarlığını Gizle
-linktitle: Java kullanarak PDF'de Genişletilmiş Hücre Kenarlığını Gizle
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java kullanarak PDF'deki hücre sınırlarının nasıl gizleneceğini adım adım Aspose.PDF for Java eğitimiyle öğrenin.
-weight: 12
-url: /tr/java/pdf-tables/hide-spanned-cell-border-in-pdf-using-java/
+"description": "Java kullanarak PDF'deki hücre sınırlarının nasıl gizleneceğini adım adım Aspose.PDF for Java eğitimiyle öğrenin."
+"linktitle": "Java kullanarak PDF'de Genişletilmiş Hücre Kenarlığını Gizle"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'de Genişletilmiş Hücre Kenarlığını Gizle"
+"url": "/tr/java/pdf-tables/hide-spanned-cell-border-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'de Genişletilmiş Hücre Kenarlığını Gizle
@@ -40,9 +42,9 @@ Koda dalmadan önce, gerekli araçların yerinde olduğundan emin olalım. İhti
 
 ### Adım 2: PDF Belgesi Oluşturma
 
- IDE'nizde yeni bir Java projesi oluşturarak başlayın. Ardından, Aspose.PDF for Java kütüphanesini projenizin bağımlılıklarına ekleyin. Kütüphaneyi şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/).
+IDE'nizde yeni bir Java projesi oluşturarak başlayın. Ardından, Aspose.PDF for Java kütüphanesini projenizin bağımlılıklarına ekleyin. Kütüphaneyi şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/).
 
-Şimdi yeni bir Java sınıfı oluşturalım ve gerekli paketleri içe aktararak başlayalım:
+Daha sonra yeni bir Java sınıfı oluşturalım ve gerekli paketleri içe aktararak başlayalım:
 
 ```java
 import com.aspose.pdf.*;
@@ -83,7 +85,7 @@ for (Row row : table.getRows()) {
 
 Bu kod tablodaki tüm hücreleri dolaşır ve kenarlıklarını sıfır genişliğe ayarlayarak onları etkili bir şekilde gizler.
 
-### Adım 5: Değiştirilmiş PDF'yi Kaydetme
+### Adım 5: Değiştirilen PDF'yi Kaydetme
 
 Son olarak, değiştirilen PDF belgesini kaydedin:
 
@@ -116,9 +118,11 @@ Evet, Java'da PDF düzenleme için Apache PDFBox ve iText gibi başka kütüphan
 ### Belirli hücreler için sınırları seçici olarak gizleyebilir miyim?
 
 Elbette! Tablo yapınıza ve tasarımınıza bağlı olarak sınır gizleme mantığını seçici olarak uygulayabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

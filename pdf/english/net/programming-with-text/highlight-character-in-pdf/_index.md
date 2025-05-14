@@ -8,7 +8,9 @@ url: /net/programming-with-text/highlight-character-in-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Highlight Character In PDF File
@@ -169,6 +171,7 @@ You can refer to the [Aspose.PDF documentation](https://reference.aspose.com/pdf
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,36 +1,38 @@
 ---
-title: Szöveg elhelyezése a kép körül a PDF-fájlban
-linktitle: Szöveg elhelyezése a kép körül a PDF-fájlban
-second_title: Aspose.PDF for .NET API Reference
-description: Ismerje meg, hogyan helyezhet el szöveget a képek köré a PDF-fájlokban az Aspose.PDF for .NET segítségével. Kövesse lépésenkénti útmutatónkat, hogy professzionális PDF-eket készítsen képekkel és szövegekkel egymás mellett.
-weight: 260
-url: /hu/net/programming-with-text/placing-text-around-image/
+"description": "Tanuld meg, hogyan helyezhetsz szöveget a képek köré PDF-fájlokban az Aspose.PDF for .NET segítségével. Kövesd lépésről lépésre szóló útmutatónkat, hogy professzionális PDF-fájlokat hozhass létre képek és szöveg egymás melletti elhelyezésével."
+"linktitle": "Szöveg elhelyezése a kép körül PDF fájlban"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Szöveg elhelyezése a kép körül PDF fájlban"
+"url": "/hu/net/programming-with-text/placing-text-around-image/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szöveg elhelyezése a kép körül a PDF-fájlban
+# Szöveg elhelyezése a kép körül PDF fájlban
 
 ## Bevezetés
 
-Próbáltál már szöveget elhelyezni egy kép körül egy PDF-fájlban, de kihívást jelentett? Ha igen, akkor jó helyen jársz! Az Aspose.PDF for .NET leegyszerűsíti ezt a folyamatot, lehetővé téve, hogy szöveget helyezzen el a képek mellett, mindössze néhány sornyi kóddal. Akár jelentéseket, dokumentumokat vagy prezentációkat hoz létre, ez a funkció fantasztikus módja annak, hogy javítsa tartalmai elrendezését és vizuálisan vonzóbbá tegye. Ma bemutatjuk, hogyan használhatja az Aspose.PDF for .NET fájlt a képek köré szöveg elhelyezésére egy PDF-dokumentumban.
+Próbáltál már szöveget elhelyezni egy kép körül egy PDF fájlban, de nehéznek találtad? Ha igen, akkor jó helyen jársz! Az Aspose.PDF for .NET leegyszerűsíti ezt a folyamatot, lehetővé téve, hogy mindössze néhány sornyi kóddal szöveget helyezz el a képek mellett. Akár jelentéseket, dokumentumokat vagy prezentációkat készítesz, ez a funkció fantasztikus módja annak, hogy javítsd a tartalmad elrendezését és vizuálisan vonzóbbá tedd. Ma bemutatjuk, hogyan használhatod az Aspose.PDF for .NET-et szöveg elhelyezésére képek körül egy PDF dokumentumban.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódba, győződjünk meg arról, hogy mindent beállítottunk. Íme, amire szüksége lesz:
+Mielőtt belevágnánk a kódba, győződjünk meg róla, hogy mindent beállítottunk. Íme, amire szükséged lesz:
 
--  Aspose.PDF for .NET: Letöltheti innen[itt](https://releases.aspose.com/pdf/net/).
-- Visual Studio: Győződjön meg róla, hogy a legújabb verzió van telepítve, hogy zökkenőmentesen kövesse a munkát.
-- .NET-keretrendszer: Ez a példa .NET-et használ, ezért győződjön meg arról, hogy a környezete be van állítva a .NET-fejlesztéshez.
--  Ideiglenes licenc: Kérhet ideiglenes licencet[itt](https://purchase.aspose.com/temporary-license/) ha értékeli a terméket.
+- Aspose.PDF .NET-hez: Letöltheti innen [itt](https://releases.aspose.com/pdf/net/).
+- Visual Studio: Győződjön meg róla, hogy a legújabb verzió telepítve van a zökkenőmentes végrehajtás érdekében.
+- .NET-keretrendszer: Ez a példa .NET-et használ, ezért győződjön meg arról, hogy a környezete be van állítva .NET-fejlesztésre.
+- Ideiglenes engedély: Ideiglenes engedélyt kérhet. [itt](https://purchase.aspose.com/temporary-license/) ha értékeled a terméket.
 
-Ha még nem állította be az Aspose.PDF-et .NET-hez, kövesse a telepítési utasításokat a[dokumentáció](https://reference.aspose.com/pdf/net/).
+Ha még nem állította be az Aspose.PDF for .NET fájlt, kövesse a telepítési utasításokat a következő helyen: [dokumentáció](https://reference.aspose.com/pdf/net/).
 
 ## Névterek importálása
 
-A kódolás megkezdése előtt importálni kell a szükséges névtereket. Íme a kódrészlet ehhez:
+Mielőtt elkezdenénk a kódolást, importálnunk kell a szükséges névtereket. Íme a kódrészlet ehhez:
 
 ```csharp
 using System;
@@ -39,55 +41,55 @@ using System.Linq;
 using System.Text;
 ```
 
- Ezek a névterek elengedhetetlenek, mivel hozzáférést biztosítanak olyan osztályokhoz, mint pl`Document`, `Page`, `Image` , és`HtmlFragment`, amelyet a PDF létrehozásához és kezeléséhez fogunk használni.
+Ezek a névterek elengedhetetlenek, mivel hozzáférést biztosítanak olyan osztályokhoz, mint a `Document`, `Page`, `Image`, és `HtmlFragment`, amelyet a PDF létrehozásához és kezeléséhez fogunk használni.
 
-Most, hogy készen állunk, részletezzük, hogyan helyezhet el szöveget egy kép körül a PDF-fájlban az Aspose.PDF for .NET használatával. Lépésről lépésre végigvezetjük ezen.
+Most, hogy előkészítettük a terepet, nézzük meg, hogyan helyezhetünk szöveget egy kép köré a PDF-fájlban az Aspose.PDF for .NET használatával. Lépésről lépésre végigvezetünk ezen.
 
-## 1. lépés: Példányosítsa a dokumentumobjektumot
+## 1. lépés: A dokumentumobjektum példányosítása
 
- Először is létre kell hoznia egy PDF dokumentumot. Az Aspose.PDF-ben ez a példányosítással történik`Document` objektum. Ez az objektum szolgál majd az összes hozzáadott tartalom alapjául.
+Először létre kell hoznod egy PDF dokumentumot. Az Aspose.PDF-ben ezt egy példányosításával teheted meg. `Document` objektum. Ez az objektum szolgál majd az összes hozzáadni kívánt tartalom alapjául.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
-Itt létrehoztunk egy üres PDF dokumentumot. Még nincs oldala, de ne aggódjon, a következő lépésben hozzáadunk egyet.
+Itt létrehoztunk egy üres PDF dokumentumot. Még nincsenek benne oldalak, de ne aggódj, a következő lépésben hozzáadunk egyet.
 
-## 2. lépés: Adjon hozzá egy oldalt a dokumentumhoz
+## 2. lépés: Oldal hozzáadása a dokumentumhoz
 
-Most, hogy megvan a dokumentumunk, ideje hozzáadni egy oldalt. Tekintsd ezt úgy, mint egy üres papírlapot, amelyen hozzáadhatod a tartalmat.
+Most, hogy elkészült a dokumentumunk, itt az ideje hozzáadni egy oldalt. Gondolj erre úgy, mintha egy üres papírlapot hoznál létre, ahová majd hozzáadod a tartalmat.
 
 ```csharp
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
-Ez a kód egy új oldalt ad a dokumentumhoz. Alapértelmezés szerint az oldal üres, de ezen változtatni fogunk.
+Ez a kód egy új oldalt ad hozzá a dokumentumhoz. Alapértelmezés szerint az oldal üres, de ezt hamarosan megváltoztatjuk.
 
 ## 3. lépés: Hozzon létre egy táblázatot a tartalom rendszerezéséhez
 
-Ahhoz, hogy képünk és szövegünk megfelelően igazodjon, egy táblázatot használunk. A PDF-fájlokban található táblázatok segíthetnek az elrendezés felépítésében, hasonlóan a Word-dokumentumokhoz vagy a HTML-hez.
+A kép és a szöveg megfelelő illesztésének biztosítása érdekében táblázatot fogunk használni. A PDF-ekben található táblázatok segíthetnek az elrendezés strukturálásában, hasonlóan a Word-dokumentumokhoz vagy a HTML-hez.
 
 ```csharp
 Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
 page.Paragraphs.Add(table1);
 ```
 
-Ez a kódrészlet létrehoz egy táblázatot, és hozzáadja az oldalhoz. Gondoljon a táblázatra a kép és a szöveg összehangolásának keretére.
+Ez a kódrészlet létrehoz egy táblázatot, és hozzáadja az oldalhoz. Gondolj a táblázatra úgy, mint egy keretre a kép és a szöveg igazításához.
 
-## 4. lépés: Állítsa be a táblázat oszlopszélességét
+## 4. lépés: Oszlopszélességek beállítása a táblázathoz
 
-Most, hogy hozzáadtunk egy táblázatot, meg kell határoznunk, hogy milyen szélesek legyenek az oszlopok. Ez biztosítja, hogy a kép és a szöveg megfelelő méretű legyen az oldalon.
+Most, hogy hozzáadtunk egy táblázatot, meg kell határoznunk az oszlopok szélességét. Ez biztosítja, hogy a kép és a szöveg megfelelő méretű legyen az oldalon.
 
 ```csharp
 table1.ColumnWidths = "120 270";
 ```
 
-Ez a sor két oszlop szélességét állítja be – egyet a képhez, egyet pedig a szöveghez. Módosítsa ezeket az értékeket, ha képének vagy szövegének több vagy kevesebb helyre van szüksége.
+Ez a sor két oszlop szélességét állítja be – egyet a képnek, egyet a szövegnek. Módosítsa ezeket az értékeket, ha a képnek vagy a szövegnek több vagy kevesebb helyre van szüksége.
 
-## 5. lépés: A margók és a kitöltés meghatározása
+## 5. lépés: Margók és kitöltés meghatározása
 
-Annak érdekében, hogy minden rendben legyen, adjunk hozzá néhány margót és párnázást a táblázathoz.
+Hogy minden ápoltnak tűnjön, adjunk hozzá margókat és kitöltést a táblázathoz.
 
 ```csharp
 Aspose.Pdf.MarginInfo margin = new Aspose.Pdf.MarginInfo();
@@ -98,11 +100,11 @@ margin.Bottom = 5f;
 table1.DefaultCellPadding = margin;
 ```
 
-Ezek a beállítások biztosítják, hogy a táblázat egyenletes térközzel rendelkezzen, így a tartalom látványos legyen.
+Ezek a beállítások biztosítják, hogy a táblázatban egyenletes térköz legyen, így a tartalom vizuálisan vonzóbbá váljon.
 
-## 6. lépés: Szúrjon be egy képet a táblázatba
+## 6. lépés: Kép beszúrása a táblázatba
 
-Most pedig térjünk rá a szórakoztató részre – egy kép hozzáadására. Ebben az esetben hozzáadjuk az Aspose logót, de nyugodtan használhat bármilyen képet.
+Most pedig térjünk át a mókás részre – egy kép hozzáadására. Ebben az esetben az Aspose logót fogjuk hozzáadni, de nyugodtan használhatsz bármilyen képet, ami tetszik.
 
 ```csharp
 Aspose.Pdf.Row row1 = table1.Rows.Add();
@@ -116,12 +118,12 @@ row1.Cells[0].Paragraphs.Add(logo);
 
 Íme, mi történik:
 - A képet a megadott könyvtárból töltjük be.
-- Beállítjuk a kép magasságát és szélességét.
-- Végül hozzáadjuk a képet a táblázat első cellájához.
+- Beállítottuk a kép magasságát és szélességét.
+- Végül a táblázat első cellájába illesztjük a képet.
 
-## 7. lépés: Adjon hozzá szöveget a kép mellé
+## 7. lépés: Szöveg hozzáadása a kép mellé
 
-Most, hogy a kép a helyén van, tegyünk mellé szöveget. Ebben a példában HTML-formátumú szöveget fogunk használni a tartalom stílusának meghatározásához.
+Most, hogy a kép a helyén van, adjunk hozzá egy kis szöveget. Ebben a példában HTML formátumú szöveget fogunk használni a tartalom stílusának meghatározásához.
 
 ```csharp
 string TitleString = "<font face=\"Arial\" size=6 color=\"#101090\"><b> Aspose.Pdf for .NET</b></font>";
@@ -132,21 +134,21 @@ row1.Cells.Add();
 row1.Cells[1].Paragraphs.Add(TitleText);
 ```
 
-Ez a blokk stílusos címet és leírást ad a kép melletti cellába. A szöveget HTML-címkékkel formázhatja a testreszabhatóság érdekében.
+Ez a blokk egy formázott címet és leírást ad hozzá a kép melletti cellához. A szöveget HTML-címkékkel formázhatja a további testreszabás érdekében.
 
-## 8. lépés: Állítsa be a függőleges igazítást
+## 8. lépés: Függőleges igazítás beállítása
 
-Alapértelmezés szerint előfordulhat, hogy a táblázatcellák tartalma nem igazodik a kívánt módon. Ebben az esetben meg akarunk győződni arról, hogy a szöveg a cella tetejéhez igazodik.
+Alapértelmezés szerint a táblázatcellákban lévő tartalom nem feltétlenül igazodik a kívánt módon. Ebben az esetben biztosítani szeretnénk, hogy a szöveg a cella tetejéhez legyen igazítva.
 
 ```csharp
 row1.Cells[1].VerticalAlignment = Aspose.Pdf.VerticalAlignment.Top;
 ```
 
-Ez biztosítja, hogy a szöveg a cella tetején üljön, így az elrendezés tiszta és professzionális marad.
+Ez biztosítja, hogy a szöveg a cella tetején legyen, így az elrendezés tiszta és professzionális marad.
 
 ## 9. lépés: További szöveg hozzáadása a kép és a leírás alá
 
-Érdemes több tartalmat is elhelyezni a kép és a szöveg alatt. Ehhez adjunk még egy sort a táblázathoz.
+Érdemes lehet további tartalmat beilleszteni a kép és a szöveg alá. Ehhez adjunk hozzá egy újabb sort a táblázathoz.
 
 ```csharp
 Aspose.Pdf.Row SecondRow = table1.Rows.Add();
@@ -159,41 +161,43 @@ Aspose.Pdf.HtmlFragment SecondRowText = new Aspose.Pdf.HtmlFragment(SecondRowStr
 SecondRow.Cells[0].Paragraphs.Add(SecondRowText);
 ```
 
-Itt hozzáadtunk egy másik sort további szöveggel, amely mindkét oszlopot átfogja az elrendezés egyensúlyának megőrzése érdekében.
+Itt hozzáadtunk egy újabb sort további szöveggel, amely mindkét oszlopot átfogja, hogy megőrizzük az elrendezés egyensúlyát.
 
-## 10. lépés: Mentse el a PDF-dokumentumot
+## 10. lépés: Mentse el a PDF dokumentumot
 
-Végül el kell mentenünk a dokumentumot, hogy megtekinthesse a módosításokat.
+Végül el kell mentenünk a dokumentumot, hogy láthasd a változtatásokat.
 
 ```csharp
 doc.Save(dataDir + "PlacingTextAroundImage_out.pdf");
 ```
 
-Ezzel elmenti a PDF-fájlt a kívánt képpel és szöveggel.
+Ez a PDF-et a kívánt formázású képpel és szöveggel menti el.
 
 ## Következtetés
 
-Szöveg elhelyezése a képek körül a PDF-ben ijesztő feladatnak tűnhet, de az Aspose.PDF for .NET leegyszerűsíti a folyamatot. A táblázatok, képek és stílusos szövegek felhasználásával minimális erőfeszítéssel professzionális megjelenésű PDF-fájlokat hozhat létre. Csak néhány sornyi kóddal pontosan oda helyezheti el a tartalmat, ahová szeretné, így a dokumentumok csiszolt és jól szervezett megjelenést kölcsönöznek.
+képek köré szöveg elhelyezése egy PDF-ben ijesztő feladatnak tűnhet, de az Aspose.PDF for .NET leegyszerűsíti a folyamatot. Táblázatok, képek és formázott szövegek felhasználásával minimális erőfeszítéssel hozhat létre professzionális megjelenésű PDF-eket. Mindössze néhány sornyi kóddal pontosan oda helyezheti a tartalmat, ahová szeretné, így dokumentumai letisztult és jól szervezett megjelenést kapnak.
 
 ## GYIK
 
-### Használhatom ezt a módszert több szöveges kép elhelyezésére?
-Igen, egyszerűen adjon hozzá további sorokat és cellákat a táblázathoz, hogy további képeket és szöveget tartalmazzon.
+### Használhatom ezt a módszert több kép és szöveg együttes elhelyezésére?
+Igen, egyszerűen adjon hozzá további sorokat és cellákat a táblázathoz további képek és szöveg hozzáadásához.
 
 ### Meg tudom változtatni a kép igazítását?
-Teljesen! A kép igazítását a cella igazítási tulajdonságainak módosításával módosíthatja.
+Természetesen! A kép igazítását a cella igazítási tulajdonságainak módosításával módosíthatja.
 
-### Hogyan alakíthatom tovább a szöveget?
- A HTML-címkéket használhatja a`HtmlFragment` objektum különböző stílusok, például félkövér, dőlt vagy különböző betűtípusok alkalmazásához.
+### Hogyan tudom tovább formázni a szöveget?
+HTML-címkéket használhatsz a `HtmlFragment` objektumra különféle stílusok, például félkövér, dőlt vagy különböző betűtípusok alkalmazásához.
 
 ### Szabályozhatom a szöveg és a kép közötti távolságot?
- Igen, a`MarginInfo` Az objektum lehetővé teszi az elemek közötti kitöltés és margók szabályozását.
+Igen, a `MarginInfo` Az objektum lehetővé teszi az elemek közötti kitöltés és margók szabályozását.
 
-### Lehet-e linkeket hozzáadni a szöveghez?
- Határozottan! A HTML-formátumú szövegbe a hivatkozások segítségével ágyazhat be`<a>` címke.
+### Lehet linkeket beilleszteni a szövegbe?
+Határozottan! HTML formátumú szövegbe beágyazhat hiperhivatkozásokat a következő használatával: `<a>` címke.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

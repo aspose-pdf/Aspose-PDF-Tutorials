@@ -1,14 +1,16 @@
 ---
-title: Sayfalara Böl
-linktitle: Sayfalara Böl
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı eğitimle Aspose.PDF for .NET'i kullanarak PDF'leri kolayca tek tek sayfalara bölün. Adım adım kılavuz dahildir.
-weight: 140
-url: /tr/net/programming-with-pdf-pages/split-to-pages/
+"description": "Bu kapsamlı eğitimle Aspose.PDF for .NET'i kullanarak PDF'leri kolayca tek tek sayfalara bölün. Adım adım kılavuz dahildir."
+"linktitle": "Sayfalara Böl"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Sayfalara Böl"
+"url": "/tr/net/programming-with-pdf-pages/split-to-pages/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sayfalara Böl
@@ -21,8 +23,8 @@ PDF dosyalarını yönetmek bazen kedileri gütmek gibi hissettirebilir. Rapor d
 
 Eğitime dalmadan önce, elinizin altında doğru araçların olması önemlidir. İhtiyacınız olanlar şunlardır:
 
-1. Aspose.PDF for .NET: Bu kütüphane, .NET ortamlarında PDF işlemleri için sihirli değneğinizdir. Paketi şu adreste bulabilirsiniz:[.NET İndirmeleri için Aspose.PDF](https://releases.aspose.com/pdf/net/).
-2. Visual Studio: .NET projelerinizi oluşturmak ve yönetmek için bu IDE'ye ihtiyacınız olacak. Tüm son özelliklerden yararlanabilmeniz için güncel bir sürümün yüklü olduğundan emin olun.
+1. Aspose.PDF for .NET: Bu kütüphane, .NET ortamlarında PDF işlemleri için sihirli değneğinizdir. Paketi şu adreste bulabilirsiniz: [.NET İndirmeleri için Aspose.PDF](https://releases.aspose.com/pdf/net/).
+2. Visual Studio: .NET projelerinizi oluşturmak ve yönetmek için bu IDE'ye ihtiyacınız olacak. En son özelliklerden yararlanabilmeniz için güncel bir sürümün yüklü olduğundan emin olun.
 3. Temel C# Bilgisi: Biraz kod yazacağımız için C#'a aşina olmanız, konuyu sorunsuz bir şekilde takip etmenize yardımcı olacaktır.
 4. Örnek PDF Dosyası: Test amaçlı olarak, bölmek istediğiniz bir PDF dosyasına ihtiyacınız olacak. Bir tane oluşturabilir veya bölünmeye hazır bir örnek indirebilirsiniz.
 5. NuGet Paket Yöneticisi: Bu genellikle Visual Studio ile birlikte gelir ve Aspose.PDF'yi projenize kolayca yüklemenizi sağlar.
@@ -42,9 +44,9 @@ Yapmanız gereken ilk şey projenizi kurmak ve gerekli kütüphaneleri içe akta
 
 ### NuGet Kullanarak Aspose.PDF Kütüphanesini Kurun
 
-1. Proje çözüm gezgininizde proje adına sağ tıklayın.
+1. Projenizin çözüm gezgininde proje adına sağ tıklayın.
 2. NuGet Paketlerini Yönet'i seçin.
-3.  Gözat sekmesine gidin, şunu arayın:`Aspose.PDF`ve Yükle'ye tıklayın.
+3. Gözat sekmesine gidin, şunu arayın: `Aspose.PDF`ve Yükle'ye tıklayın.
 4. Kurulumu tamamlamak için karşınıza çıkacak istemleri kabul edin.
 
 ```csharp
@@ -64,7 +66,7 @@ PDF dosyanızın bulunduğu klasörü işaret eden bir değişken bildirmek iste
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Basitçe değiştirin`"YOUR DOCUMENT DIRECTORY"` PDF dosyasının saklandığı makinenizdeki gerçek yol ile. Bu, dosyalarınızı bulmanızı kolaylaştırır.
+Basitçe değiştirin `"YOUR DOCUMENT DIRECTORY"` PDF dosyasının saklandığı makinenizdeki gerçek yol ile. Bu, dosyalarınızı bulmanızı kolaylaştırır.
 
 ## Adım 2: PDF Belgesini Yükleyin
 
@@ -74,7 +76,7 @@ Daha sonra bölmek istediğiniz PDF belgesini yüklemeniz gerekiyor.
 Document pdfDocument = new Document(dataDir + "SplitToPages.pdf");
 ```
 
- Burada, değiştirdiğinizden emin olun`"SplitToPages.pdf"`PDF'nizin gerçek adıyla. Bu satır, türünde bir nesne oluşturur`Document`, Aspose'a hangi dosyayla ilgilendiğinizi bildirin.
+Burada, değiştirdiğinizden emin olun `"SplitToPages.pdf"` PDF'nizin gerçek adıyla. Bu satır, türünde bir nesne oluşturur `Document`, Aspose'a hangi dosyayla ilgilendiğinizi bildirin.
 
 ## Adım 3: Bölünmeye Hazırlanın
 
@@ -84,7 +86,7 @@ Sayfaları böldüğünüzde her sayfayı takip etmek için bir sayaca ihtiyacı
 int pageCount = 1;
 ```
 
- Bu tam sayı değişkeni,`pageCount`, her yeni PDF için ayrı dosya adları oluşturmanıza yardımcı olacaktır.
+Bu tam sayı değişkeni, `pageCount`, her yeni PDF için ayrı dosya adları oluşturmanıza yardımcı olacaktır.
 
 ## Adım 4: Her Sayfada Döngü Yapın
 
@@ -100,11 +102,11 @@ foreach (Page pdfPage in pdfDocument.Pages)
 }
 ```
 
--  Yeni Bir Belge Oluşturma: Her sayfa için yeni bir belge oluşturuyoruz.`Document` tek bir sayfayı tutacak nesne.
+- Yeni Bir Belge Oluşturma: Her sayfa için yeni bir belge oluşturuyoruz. `Document` tek bir sayfayı tutacak nesne.
   
--  Sayfayı Ekleme:`Add()` Orijinal belgedeki belirli sayfayı yeni belgeye ekleme yöntemi.
+- Sayfayı Ekleme: `Add()` Orijinal belgedeki belirli sayfayı yeni belgeye ekleme yöntemi.
 
--  Dosyayı Kaydetme: Son olarak, dosyayı benzersiz bir dosya adı ile kaydediyoruz (örneğin`page_1_out.pdf`, `page_2_out.pdf` , vb.). Döngü her yinelendiğinde,`pageCount` her yeni dosyanın düzgün bir şekilde indekslenmesini sağlayarak birer birer artırır. 
+- Dosyayı Kaydetme: Son olarak, dosyayı benzersiz bir dosya adı ile kaydediyoruz (örneğin `page_1_out.pdf`, `page_2_out.pdf`, vb.). Döngü her yinelendiğinde, `pageCount` her yeni dosyanın düzgün bir şekilde indekslenmesini sağlayarak birer birer artırır. 
 
 ## Çözüm
 
@@ -116,7 +118,7 @@ PDF'leri bölmek hiç bu kadar kolay olmamıştı, değil mi? Aspose.PDF for .NE
 Evet, ancak bölmeden önce belgeyi açmak için şifreyi girmeniz gerekiyor.
 
 ### Aspose.PDF'i kullanmak ücretsiz mi?
- Aspose lisanslama, tüm özellikler için bir satın alma gerektirir, ancak bunlar[ücretsiz deneme](https://releases.aspose.com/).
+Aspose lisanslama, tüm özellikler için bir satın alma gerektirir, ancak bunlar [ücretsiz deneme](https://releases.aspose.com/).
 
 ### Aspose.PDF'i kullanarak hangi dosya formatlarıyla çalışabilirim?
 PDF'in yanı sıra DOCX, HTML ve resim gibi çeşitli formatları dönüştürebilir ve düzenleyebilirsiniz.
@@ -126,9 +128,11 @@ Aspose.PDF performans açısından optimize edilmiş olup, piyasadaki diğer bir
 
 ### Aspose.PDF'yi Azure Functions'ta kullanabilir miyim?
 Kesinlikle! .NET kütüphanesi olarak Azure Functions içerisinde sorunsuz bir şekilde kullanabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

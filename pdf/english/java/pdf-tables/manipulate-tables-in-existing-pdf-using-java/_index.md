@@ -8,7 +8,9 @@ url: /java/pdf-tables/manipulate-tables-in-existing-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulate Tables in Existing PDF using Java
@@ -142,6 +144,7 @@ Yes, Aspose.PDF for Java supports exporting PDF tables to other formats such as 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

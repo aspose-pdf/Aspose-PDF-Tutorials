@@ -1,14 +1,16 @@
 ---
-title: Таблицы PDF
-linktitle: Таблицы PDF
-second_title: API обработки Java PDF Aspose.PDF
-description: Исследуйте таблицы PDF с помощью Aspose.PDF для Java. Легко создавайте и изменяйте таблицы в ваших документах PDF.
-weight: 19
-url: /ru/java/pdf-tables/
+"description": "Исследуйте таблицы PDF с Aspose.PDF для Java. Легко создавайте и изменяйте таблицы в ваших документах PDF."
+"linktitle": "Таблицы PDF"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Таблицы PDF"
+"url": "/ru/java/pdf-tables/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Таблицы PDF
@@ -28,16 +30,18 @@ url: /ru/java/pdf-tables/
 ### [Добавить таблицу в существующий PDF-документ с помощью Java](./add-table-in-existing-pdf-document-using-java/)
 Узнайте, как добавлять таблицы в существующие PDF-документы с помощью Java и Aspose.PDF для Java. Пошаговое руководство с примерами кода.
 ### [Принудительная отрисовка таблицы на новой странице в PDF с использованием Java](./force-table-rendering-on-new-page-in-pdf-using-java/)
-Узнайте, как принудительно отобразить таблицу на новой странице в PDF с помощью Java с Aspose.PDF. Это пошаговое руководство включает исходный код и советы экспертов по точному форматированию документа PDF.
-### [Скрыть границу ячейки в PDF с помощью Java](./hide-spanned-cell-border-in-pdf-using-java/)
+Узнайте, как принудительно отобразить таблицу на новой странице в PDF с помощью Java с Aspose.PDF. Это пошаговое руководство включает исходный код и советы экспертов по точному форматированию PDF-документа.
+### [Скрыть расширенную границу ячейки в PDF с помощью Java](./hide-spanned-cell-border-in-pdf-using-java/)
 Узнайте, как скрыть границы ячеек в PDF-файле с помощью Java, из пошагового руководства Aspose.PDF для Java.
 ### [Управление таблицами в существующем PDF-файле с помощью Java](./manipulate-tables-in-existing-pdf-using-java/)
 Узнайте, как манипулировать таблицами PDF с помощью Java с Aspose.PDF для Java. Это пошаговое руководство охватывает извлечение таблиц, изменение и многое другое для эффективной обработки PDF.
 ### [Удаление таблиц из существующего PDF-файла с помощью Java](./remove-tables-from-existing-pdf-using-java/)
 Узнайте, как легко удалять таблицы из PDF-файлов с помощью Java с помощью Aspose.PDF для Java. Пошаговое руководство по эффективному удалению таблиц.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

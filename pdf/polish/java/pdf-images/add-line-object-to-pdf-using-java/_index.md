@@ -1,14 +1,16 @@
 ---
-title: Dodaj obiekt Line do pliku PDF za pomocą Java
-linktitle: Dodaj obiekt Line do pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać obiekty linii do plików PDF za pomocą Javy z Aspose.PDF dla Javy. Dostosuj linie, umieść je i twórz dynamiczne pliki PDF bez wysiłku.
-weight: 10
-url: /pl/java/pdf-images/add-line-object-to-pdf-using-java/
+"description": "Dowiedz się, jak dodawać obiekty linii do plików PDF za pomocą Javy z Aspose.PDF dla Javy. Dostosuj linie, umieść je i twórz dynamiczne pliki PDF bez wysiłku."
+"linktitle": "Dodaj obiekt Line do pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodaj obiekt Line do pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-images/add-line-object-to-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj obiekt Line do pliku PDF za pomocą Java
@@ -26,7 +28,7 @@ Zanim zaczniemy, musisz mieć pewność, że spełnione są następujące wymaga
 - Zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse
 - Aspose.PDF dla biblioteki Java
 
- Bibliotekę Aspose.PDF dla języka Java można pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/)Upewnij się, że wybrałeś odpowiednią wersję dla swojego projektu.
+Bibliotekę Aspose.PDF dla języka Java można pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/). Upewnij się, że wybrałeś odpowiednią wersję dla swojego projektu.
 
 ## Tworzenie projektu Java
 
@@ -73,7 +75,7 @@ Możesz swobodnie zmieniać kolor, grubość i styl, aby uzyskać pożądany wyg
 
 ## Linie pozycjonujące
 
- Możesz umieścić linie w określonych współrzędnych na stronie PDF, dostosowując`setStartPosition` I`setEndPosition`wartości w obiekcie linii.
+Możesz umieścić linie w określonych współrzędnych na stronie PDF, dostosowując `setStartPosition` I `setEndPosition` wartości w obiekcie linii.
 
 ## Zapisywanie pliku PDF
 
@@ -91,13 +93,13 @@ Przed sfinalizowaniem pliku PDF należy go dokładnie przetestować. Upewnij si�
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak dodawać obiekty linii do plików PDF za pomocą Java i Aspose.PDF dla Java. Omówiliśmy konfigurowanie środowiska, tworzenie projektu Java, dodawanie obiektów linii, dostosowywanie ich właściwości, pozycjonowanie linii i zapisywanie pliku PDF. Ta wiedza pozwoli Ci ulepszyć dokumenty PDF za pomocą linii dostosowanych do Twoich potrzeb.
+tym samouczku nauczyliśmy się, jak dodawać obiekty linii do plików PDF za pomocą Java i Aspose.PDF dla Java. Omówiliśmy konfigurowanie środowiska, tworzenie projektu Java, dodawanie obiektów linii, dostosowywanie ich właściwości, pozycjonowanie linii i zapisywanie pliku PDF. Ta wiedza pozwoli Ci ulepszyć dokumenty PDF za pomocą linii dostosowanych do Twoich potrzeb.
 
 ## Najczęściej zadawane pytania
 
 ### Jak mogę zmienić kolor linii w dokumencie PDF?
 
- Aby zmienić kolor linii w dokumencie PDF, użyj`setColor`metoda na obiekcie linii. Na przykład:
+Aby zmienić kolor linii w dokumencie PDF, użyj `setColor` metoda na obiekcie linii. Na przykład:
 
 ```java
 line.setColor(com.aspose.pdf.Color.getBlue());
@@ -125,10 +127,12 @@ Tak, możesz dodać zakrzywione linie do dokumentu PDF. Aspose.PDF for Java zape
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.PDF dla Java?
 
-Pełną dokumentację i przykłady dotyczące Aspose.PDF dla języka Java można znaleźć na stronie dokumentacji[Tutaj](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację i przykłady dotyczące Aspose.PDF dla języka Java można znaleźć na stronie dokumentacji [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

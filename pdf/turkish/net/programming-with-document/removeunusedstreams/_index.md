@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Kullanılmayan Akışları Kaldır
-linktitle: PDF Dosyasındaki Kullanılmayan Akışları Kaldır
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET'i kullanarak PDF dosyasındaki kullanılmayan akışları nasıl kaldıracağınızı ve dosya boyutunu ve performansını nasıl iyileştireceğinizi öğrenin.
-weight: 270
-url: /tr/net/programming-with-document/removeunusedstreams/
+"description": "Aspose.PDF for .NET'i kullanarak PDF dosyasındaki kullanılmayan akışları nasıl kaldıracağınızı ve dosya boyutunu ve performansını nasıl iyileştireceğinizi öğrenin."
+"linktitle": "PDF Dosyasındaki Kullanılmayan Akışları Kaldır"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Kullanılmayan Akışları Kaldır"
+"url": "/tr/net/programming-with-document/removeunusedstreams/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Kullanılmayan Akışları Kaldır
@@ -21,10 +23,10 @@ PDF dosyalarını etkili bir şekilde yönetmek, günümüzün dijital çağınd
 
 Adım adım kılavuza dalmadan önce, başlamak için ihtiyaç duyacağınız temel ön koşullara bir göz atalım:
 
-1.  Aspose.PDF for .NET Kütüphanesi: Öncelikle projenizde Aspose.PDF for .NET'in yüklü olması gerekir. Henüz indirmediyseniz, en son sürümü şu adresten edinebilirsiniz:[yayın sayfası](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET Kütüphanesi: Öncelikle projenizde Aspose.PDF for .NET'in yüklü olması gerekir. Henüz indirmediyseniz, en son sürümü şu adresten edinebilirsiniz: [yayın sayfası](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: .NET framework'ün yüklü olduğundan emin olun. Aspose.PDF for .NET, .NET'in çeşitli sürümleriyle sorunsuz bir şekilde çalışır.
 3. C# Hakkında Temel Bilgi: Kod parçacıklarını ve açıklamaları takip edebilmek için C# ve nesne yönelimli programlama hakkında temel bilgiye sahip olmanız gerekir.
-4.  Geçici Lisans (İsteğe bağlı): Sınırlama olmaksızın gelişmiş işlevler için bir lisans talebinde bulunabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/).
+4. Geçici Lisans (İsteğe bağlı): Sınırlama olmaksızın gelişmiş işlevler için bir lisans talebinde bulunabilirsiniz. [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 
 ## Paketleri İçe Aktar
@@ -48,21 +50,21 @@ Artık ön koşulları tamamladığımıza göre, tüm süreci adım adım incel
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Burada, değiştirin`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın gerçek yolu ile. Belge projenizle aynı dizindeyse, sadece dosyayı adlandırarak basit tutabilirsiniz.
+Burada, değiştirin `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın gerçek yolu ile. Belge projenizle aynı dizindeyse, sadece dosyayı adlandırarak basit tutabilirsiniz.
 
 ## Adım 2: PDF Belgesini Yükleyin
 
-Sonra, optimize etmek istediğiniz PDF belgesini yüklemeniz gerekir. Bu durumda, "OptimizeDocument.pdf" adlı bir dosyayla çalışıyoruz. Belgeyi`Document` nesne basittir.
+Sonra, optimize etmek istediğiniz PDF belgesini yüklemeniz gerekir. Bu durumda, "OptimizeDocument.pdf" adlı bir dosyayla çalışıyoruz. Belgeyi `Document` nesne basittir.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
- Bu kod dosyayı belirtilen dizinden okur ve onu yükler.`pdfDocument` nesneyi manipülasyona hazır hale getirmek.
+Bu kod dosyayı belirtilen dizinden okur ve onu yükler. `pdfDocument` nesneyi manipülasyona hazır hale getirmek.
 
 ## Adım 3: Optimizasyon Seçeneklerini Ayarlayın
 
- .NET için Aspose.PDF çeşitli optimizasyon seçenekleri sunar, ancak bu eğitimde kullanılmayan akışları kaldırmaya odaklanıyoruz.`OptimizationOptions` sınıf ve ayarla`RemoveUnusedStreams` mülk`true`.
+.NET için Aspose.PDF çeşitli optimizasyon seçenekleri sunar, ancak bu eğitimde kullanılmayan akışları kaldırmaya odaklanıyoruz. `OptimizationOptions` sınıf ve ayarla `RemoveUnusedStreams` mülk `true`.
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions
@@ -71,11 +73,11 @@ var optimizeOptions = new Pdf.Optimization.OptimizationOptions
 };
 ```
 
- Ayarlayarak`RemoveUnusedStreams = true`, sisteme PDF dosyasında artık ihtiyaç duyulmayan akışları aramasını ve ortadan kaldırmasını söyleriz. Bu adım dosya boyutunu küçültmeye ve performansı iyileştirmeye yardımcı olabilir.
+Ayarlayarak `RemoveUnusedStreams = true`, sisteme PDF dosyasında artık ihtiyaç duyulmayan akışları aramasını ve ortadan kaldırmasını söyleriz. Bu adım dosya boyutunu küçültmeye ve performansı iyileştirmeye yardımcı olabilir.
 
 ## Adım 4: PDF Belgesini Optimize Edin
 
- Şimdi, optimizasyon seçeneklerini PDF belgesine uygulama zamanı.`OptimizeResources` Yöntemi seçtiğinizde optimizasyon süreci başlayacak ve belirttiğiniz seçeneklere göre kullanılmayan akışlar kaldırılacaktır.
+Şimdi, optimizasyon seçeneklerini PDF belgesine uygulama zamanı. `OptimizeResources` yöntemi ile optimizasyon işlemi başlayacak ve belirttiğiniz seçeneklere göre kullanılmayan akışlar kaldırılacaktır.
 
 ```csharp
 pdfDocument.OptimizeResources(optimizeOptions);
@@ -110,13 +112,15 @@ Evet, Aspose.PDF, görüntü sıkıştırma, yazı tipi optimizasyonu ve daha fa
 Hayır, kullanılmayan akışları kaldırmak PDF'nin görsel veya yapısal kalitesini tehlikeye atmaz. Sadece gereksiz verileri ortadan kaldırır.
 
 ### Aspose.PDF for .NET'i kullanmak ücretsiz mi?
- Aspose.PDF for .NET, sınırlı işlevselliğe sahip ücretsiz bir deneme sunar. Tam erişim için, şuradan bir lisans satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose.PDF for .NET, sınırlı işlevselliğe sahip ücretsiz bir deneme sunar. Tam erişim için, şuradan bir lisans satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Geçici ehliyet nasıl alınır?
- Kolayca bir talepte bulunabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) .NET için Aspose.PDF'in tüm yeteneklerini satın almadan önce test etmek için.
+Kolayca bir talepte bulunabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) .NET için Aspose.PDF'in tüm yeteneklerini satın almadan önce test etmek için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

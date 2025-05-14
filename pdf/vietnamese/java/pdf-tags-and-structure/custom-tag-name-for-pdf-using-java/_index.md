@@ -1,14 +1,16 @@
 ---
-title: Tên thẻ tùy chỉnh cho PDF bằng Java
-linktitle: Tên thẻ tùy chỉnh cho PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách đặt tên thẻ tùy chỉnh cho tài liệu PDF bằng Java với Aspose.PDF cho Java.
-weight: 13
-url: /vi/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/
+"description": "Tìm hiểu cách đặt tên thẻ tùy chỉnh cho tài liệu PDF bằng Java với Aspose.PDF cho Java."
+"linktitle": "Tên thẻ tùy chỉnh cho PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Tên thẻ tùy chỉnh cho PDF bằng Java"
+"url": "/vi/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tên thẻ tùy chỉnh cho PDF bằng Java
@@ -24,7 +26,7 @@ Tài liệu PDF thường chứa nội dung phức tạp, chẳng hạn như b�
 
 Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
 - Đã tải xuống và thiết lập thư viện Aspose.PDF cho Java.
 
 ## Bước 1: Tạo một tài liệu PDF
@@ -58,7 +60,7 @@ page.getParagraphs().add(paragraph);
 
 ## Bước 3: Xác định tên thẻ tùy chỉnh
 
- Để đặt tên thẻ tùy chỉnh, bạn sẽ cần sử dụng`Tagged` tính năng do Aspose.PDF cung cấp. Sau đây là cách bạn có thể xác định tên thẻ tùy chỉnh cho các thành phần chúng tôi đã thêm:
+Để đặt tên thẻ tùy chỉnh, bạn sẽ cần sử dụng `Tagged` tính năng do Aspose.PDF cung cấp. Sau đây là cách bạn có thể xác định tên thẻ tùy chỉnh cho các thành phần chúng tôi đã thêm:
 
 ```java
 // Bật tính năng Đã gắn thẻ
@@ -89,7 +91,7 @@ pdfDocument.save("CustomTagNames.pdf");
 
 ## Phần kết luận
 
-Trong hướng dẫn này, bạn đã học cách đặt tên thẻ tùy chỉnh cho tài liệu PDF bằng Java với Aspose.PDF cho Java. Thẻ tùy chỉnh tăng cường khả năng truy cập vào tệp PDF của bạn, giúp chúng bao hàm hơn và thân thiện hơn với người dùng.
+Trong hướng dẫn này, bạn đã học cách đặt tên thẻ tùy chỉnh cho tài liệu PDF bằng Java với Aspose.PDF cho Java. Thẻ tùy chỉnh tăng cường khả năng truy cập vào tệp PDF của bạn, giúp chúng bao hàm hơn và thân thiện với người dùng hơn.
 
 Hãy thoải mái khám phá các tính năng nâng cao hơn và tùy chỉnh PDF của bạn hơn nữa với Aspose.PDF cho Java. Chúc bạn viết mã vui vẻ!
 
@@ -109,9 +111,11 @@ Bạn có thể sử dụng công cụ kiểm tra khả năng truy cập và tr�
 
 ### 5. Có cách thực hành tốt nhất nào để chọn tên thẻ tùy chỉnh không?
 Chọn tên thẻ mô tả chính xác nội dung và tuân thủ các nguyên tắc về khả năng truy cập để đảm bảo tính nhất quán và rõ ràng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

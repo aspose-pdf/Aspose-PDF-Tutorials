@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak Mevcut PDF'den Tabloları Kaldırın
-linktitle: Java kullanarak Mevcut PDF'den Tabloları Kaldırın
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java kullanarak Aspose.PDF for Java ile PDF'lerden tabloları kolayca nasıl kaldıracağınızı öğrenin. Etkili tablo kaldırma için adım adım kılavuz.
-weight: 14
-url: /tr/java/pdf-tables/remove-tables-from-existing-pdf-using-java/
+"description": "Java kullanarak Aspose.PDF for Java ile PDF'lerden tabloları kolayca nasıl kaldıracağınızı öğrenin. Etkili tablo kaldırma için adım adım kılavuz."
+"linktitle": "Java kullanarak Mevcut PDF'den Tabloları Kaldırın"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak Mevcut PDF'den Tabloları Kaldırın"
+"url": "/tr/java/pdf-tables/remove-tables-from-existing-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak Mevcut PDF'den Tabloları Kaldırın
@@ -23,7 +25,7 @@ Bu adım adım kılavuzda, Java için Aspose.PDF kütüphanesinin yardımıyla J
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Sisteminizde Java Development Kit (JDK) yüklü.
--  Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Adım 1: Java Projenizi Kurma
 
@@ -61,7 +63,7 @@ for (Page page : pdfDocument.getPages()) {
 }
 ```
 
-## Adım 5: Değiştirilen PDF'yi kaydedin
+## Adım 5: Değiştirilen PDF'yi Kaydedin
 
 Tabloları kaldırdıktan sonra, değiştirilen PDF belgesini tekrar diske kaydedin.
 
@@ -94,10 +96,12 @@ Evet, Java için Aspose.PDF, çok sayıda tablo içerenler de dahil olmak üzere
 
 ### Aspose.PDF for Java için daha fazla kaynağa ve belgeye nereden erişebilirim?
 
- Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve kaynakları şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve kaynakları şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

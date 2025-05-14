@@ -8,7 +8,9 @@ url: /net/programming-with-tables/manipulate-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulate Table In PDF File
@@ -152,6 +154,7 @@ You can easily install Aspose.PDF via NuGet Package Manager in Visual Studio or 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

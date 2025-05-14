@@ -1,14 +1,16 @@
 ---
-title: Truy cập các phần tử con của phần tử cấu trúc trong PDF bằng Java
-linktitle: Truy cập các phần tử con của phần tử cấu trúc trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách truy cập các phần tử con của các phần tử cấu trúc trong PDF bằng Java. Hướng dẫn từng bước này với mã nguồn bao gồm thao tác PDF bằng Aspose.PDF cho Java.
-weight: 10
-url: /vi/java/pdf-structure-elements/access-children-elements-of-structure-element-in-pdf-using-java/
+"description": "Tìm hiểu cách truy cập các phần tử con của các phần tử cấu trúc trong PDF bằng Java. Hướng dẫn từng bước này với mã nguồn bao gồm thao tác PDF bằng Aspose.PDF cho Java."
+"linktitle": "Truy cập các phần tử con của phần tử cấu trúc trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Truy cập các phần tử con của phần tử cấu trúc trong PDF bằng Java"
+"url": "/vi/java/pdf-structure-elements/access-children-elements-of-structure-element-in-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Truy cập các phần tử con của phần tử cấu trúc trong PDF bằng Java
@@ -47,7 +49,7 @@ Trong dự án Java của bạn, hãy nhập thư viện Aspose.PDF bằng cách
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Thay thế`"example.pdf"` với đường dẫn đến tệp PDF của bạn.
+Thay thế `"example.pdf"` với đường dẫn đến tệp PDF của bạn.
 
 ## Điều hướng đến một phần tử cấu trúc
 
@@ -122,10 +124,12 @@ Bạn có thể tự động hóa quá trình xử lý tài liệu PDF trong Jav
 
 ### Tôi có thể tìm thêm ví dụ và tài nguyên để làm việc với Aspose.PDF cho Java ở đâu?
 
-Để biết thêm ví dụ, tài liệu và tài nguyên về cách sử dụng Aspose.PDF cho Java, hãy truy cập[Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+Để biết thêm ví dụ, tài liệu và tài nguyên về cách sử dụng Aspose.PDF cho Java, hãy truy cập [Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

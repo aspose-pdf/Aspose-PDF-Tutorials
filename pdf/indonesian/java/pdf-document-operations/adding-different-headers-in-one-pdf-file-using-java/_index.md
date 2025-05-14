@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Header Berbeda dalam Satu File PDF menggunakan Java
-linktitle: Menambahkan Header Berbeda dalam Satu File PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan header yang berbeda dalam satu file PDF menggunakan Java dengan Aspose.PDF. Panduan langkah demi langkah untuk menyesuaikan header PDF.
-weight: 11
-url: /id/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/
+"description": "Pelajari cara menambahkan header yang berbeda dalam satu file PDF menggunakan Java dengan Aspose.PDF. Panduan langkah demi langkah untuk menyesuaikan header PDF."
+"linktitle": "Menambahkan Header Berbeda dalam Satu File PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Header Berbeda dalam Satu File PDF menggunakan Java"
+"url": "/id/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Header Berbeda dalam Satu File PDF menggunakan Java
@@ -22,7 +24,7 @@ Dalam ranah pemrosesan dokumen di Java, Aspose.PDF berdiri sebagai sekutu yang k
 
 Sebelum kita memulai perjalanan ini, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.PDF untuk Perpustakaan Java: Unduh dan instal dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Perpustakaan Java: Unduh dan instal dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 Sekarang, mari kita bahas seluk-beluk menambahkan header berbeda ke berkas PDF langkah demi langkah.
 
@@ -115,10 +117,12 @@ Ya, Aspose.PDF untuk Java memerlukan lisensi yang valid untuk digunakan dalam li
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat menjelajahi dokumentasi dan contoh yang komprehensif di[Referensi API Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+Anda dapat menjelajahi dokumentasi dan contoh yang komprehensif di [Referensi API Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

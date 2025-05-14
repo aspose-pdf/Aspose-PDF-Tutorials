@@ -1,35 +1,37 @@
 ---
-title: Nastavte velikost obrázku v souboru PDF
-linktitle: Nastavte velikost obrázku v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak nastavit velikost obrázku v PDF pomocí Aspose.PDF pro .NET. Tento podrobný průvodce vám pomůže změnit velikost obrázků, upravit vlastnosti stránky a uložit soubory PDF.
-weight: 270
-url: /cs/net/programming-with-images/set-image-size/
+"description": "Naučte se, jak nastavit velikost obrázku v PDF pomocí Aspose.PDF pro .NET. Tento podrobný návod vám pomůže změnit velikost obrázků, upravit vlastnosti stránky a uložit PDF soubory."
+"linktitle": "Nastavení velikosti obrázku v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Nastavení velikosti obrázku v souboru PDF"
+"url": "/cs/net/programming-with-images/set-image-size/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte velikost obrázku v souboru PDF
+# Nastavení velikosti obrázku v souboru PDF
 
 ## Zavedení
 
-Práce s PDF je běžným požadavkem mnoha aplikací a schopnost manipulovat s prvky v souboru PDF může být zásadní. Ať už vytváříte generátor sestav nebo přidáváte dynamický obsah do PDF, kontrola velikosti obrázků v dokumentu je základní funkcí. V tomto tutoriálu vás provedeme nastavením velikosti obrázku v souboru PDF pomocí Aspose.PDF pro .NET. Tato výkonná knihovna nabízí rozsáhlou kontrolu nad obsahem PDF a my ji krok za krokem rozebereme, abychom vám ukázali, jak snadné to může být. Na konci budete s jistotou měnit velikost obrázků a pochopíte, jak tato funkce může zlepšit vaše pracovní postupy PDF.
+Práce s PDF soubory je běžným požadavkem pro mnoho aplikací a schopnost manipulovat s prvky v PDF souboru může být klíčová. Ať už vytváříte generátor sestav nebo přidáváte dynamický obsah do PDF souboru, ovládání velikosti obrázků v dokumentu je nezbytnou funkcí. V tomto tutoriálu si ukážeme, jak nastavit velikost obrázku v PDF souboru pomocí Aspose.PDF pro .NET. Tato výkonná knihovna nabízí rozsáhlou kontrolu nad obsahem PDF a my si ji krok za krokem rozebereme, abychom vám ukázali, jak snadné to může být. Na konci budete s jistotou měnit velikost obrázků a pochopíte, jak tato funkce může vylepšit vaše pracovní postupy s PDF.
 
 
 ## Předpoklady
 
-Než se ponoříme do kódu, je zde několik věcí, které musíte mít na svém místě, abyste je mohli sledovat spolu s tímto tutoriálem.
+Než se pustíme do kódu, je třeba mít připraveno několik věcí, které budete v tomto tutoriálu dodržovat.
 
-1.  Aspose.PDF for .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi knihovny Aspose.PDF. Můžete[stáhněte si jej zde](https://releases.aspose.com/pdf/net/).
-2. .NET Framework nebo .NET Core: Ujistěte se, že máte pracovní prostředí s nastaveným rozhraním .NET Framework nebo .NET Core.
-3. Základní znalost C#: Jako náš programovací jazyk budeme používat C#, takže znalost je nezbytná.
-4. Ukázkový obrázek: K vložení do PDF budete potřebovat ukázkový obrázek. Můžete použít libovolný obrázek, ale ujistěte se, že je přístupný v adresáři vašeho projektu.
+1. Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi knihovny Aspose.PDF. Můžete [stáhněte si to zde](https://releases.aspose.com/pdf/net/).
+2. .NET Framework nebo .NET Core: Ujistěte se, že máte pracovní prostředí s nainstalovaným .NET Frameworkem nebo .NET Core.
+3. Základní znalost C#: Budeme používat C# jako programovací jazyk, takže znalost tohoto jazyka je nezbytná.
+4. Ukázkový obrázek: Budete potřebovat ukázkový obrázek, který vložíte do PDF. Můžete použít libovolný obrázek, ale ujistěte se, že je dostupný v adresáři vašeho projektu.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li použít Aspose.PDF pro .NET, musíte nejprve importovat potřebné jmenné prostory. Zde je jednoduché nastavení:
+Chcete-li používat Aspose.PDF pro .NET, musíte nejprve importovat potřebné jmenné prostory. Zde je jednoduché nastavení:
 
 ```csharp
 using System;
@@ -38,135 +40,137 @@ using System.Linq;
 using System.Text;
 ```
 
-Nyní, když jsme probrali základy, přejděme k vytváření a úpravám dokumentu PDF.
+Nyní, když máme základy probrané, pojďme k vytváření a úpravě dokumentu PDF.
 
-## Krok 1: Inicializujte svůj dokument PDF
+## Krok 1: Inicializace dokumentu PDF
 
- První věc, kterou musíme udělat, je vytvořit nový dokument PDF. Použijeme`Document` třídy z Aspose.PDF, abyste toho dosáhli.
+První věc, kterou musíme udělat, je vytvořit nový PDF dokument. Použijeme `Document` třída z Aspose.PDF, aby toho bylo dosaženo.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Objekt okamžitého dokumentu
+// Vytvoření instance objektu Document
 Document doc = new Document();
 ```
  
- Zde vytvoříme instanci a`Document` objekt, který bude představovat náš soubor PDF. Také určíme adresář, kde jsou naše soubory umístěny pomocí`dataDir` variabilní. Toto je výchozí bod pro vytváření jakéhokoli PDF pomocí Aspose.PDF.
+Zde vytváříme instanci `Document` objekt, který bude reprezentovat náš PDF soubor. Také určíme adresář, kde se naše soubory nacházejí, pomocí `dataDir` proměnná. Toto je výchozí bod pro vytváření libovolného PDF souboru pomocí Aspose.PDF.
 
-## Krok 2: Přidejte do svého PDF novou stránku
+## Krok 2: Přidání nové stránky do PDF
 
-Jakmile máme náš dokument hotový, musíme do něj přidat stránku. Každý PDF musí mít alespoň jednu stránku, tak si jednu přidejte.
+Jakmile máme dokument připravený, musíme do něj přidat stránku. Každý PDF soubor musí mít alespoň jednu stránku, takže si jednu přidejme.
 
 ```csharp
 // Přidat stránku do kolekce stránek souboru PDF
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
  
- Do dokumentu přidáme novou stránku pomocí`Pages.Add()` metoda. Tato stránka bude fungovat jako plátno, na které umístíme náš obrázek. Každá stránka v PDF je v podstatě prázdný list, kam můžete přidat text, obrázky nebo jiný obsah.
+Novou stránku do dokumentu přidáme pomocí `Pages.Add()` metoda. Tato stránka bude sloužit jako plátno, na které umístíme náš obrázek. Každá stránka v PDF je v podstatě prázdná tabulka, kam můžete přidat text, obrázky nebo jiný obsah.
 
-## Krok 3: Vytvořte instanci obrázku
+## Krok 3: Vytvoření instance obrazu
 
- Nyní je čas připravit obrázek, který chceme vložit do PDF. Aspose.PDF poskytuje soubor`Image` třídy pro práci s obrázky.
+Nyní je čas připravit obrázek, který chceme vložit do PDF. Aspose.PDF poskytuje `Image` třída pro práci s obrázky.
 
 ```csharp
-// Vytvořte instanci obrázku
+// Vytvoření instance obrazu
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 ```
  
- Vytvoříme novou instanci`Image` třída. Tento objekt bude obsahovat vlastnosti obrázku, který chceme přidat do PDF. V dalších krocích nakonfigurujeme velikost a typ obrázku.
+Vytvoříme novou instanci `Image` třída. Tento objekt bude obsahovat vlastnosti obrázku, který chceme přidat do PDF. Velikost a typ obrázku nakonfigurujeme v dalších krocích.
 
-## Krok 4: Nastavte velikost obrázku (šířku a výšku)
+## Krok 4: Nastavení velikosti obrázku (šířka a výška)
 
 Zde se dostáváme k jádru našeho tutoriálu: nastavení velikosti obrázku. Aspose.PDF umožňuje zadat šířku a výšku obrázku v bodech.
 
 ```csharp
-// Nastavte šířku a výšku obrázku v bodech
+// Nastavení šířky a výšky obrázku v bodech
 img.FixWidth = 100;
 img.FixHeight = 100;
 ```
  
- The`FixWidth` a`FixHeight`vlastnosti umožňují nastavit přesné rozměry obrázku v bodech. V tomto příkladu měníme velikost obrázku na 100x100 bodů. Tyto hodnoty můžete upravit podle svých potřeb.
+Ten/Ta/To `FixWidth` a `FixHeight` Vlastnosti umožňují nastavit přesné rozměry obrázku v bodech. V tomto příkladu měníme velikost obrázku na 100x100 bodů. Tyto hodnoty můžete upravit podle svých potřeb.
 
 ## Krok 5: Zadejte typ obrázku
 
-V závislosti na formátu obrázku, se kterým pracujete, možná budete muset nastavit typ obrázku. Aspose.PDF podporuje různé formáty obrázků a zde definujeme typ souboru.
+V závislosti na formátu obrázku, se kterým pracujete, může být nutné nastavit typ obrázku. Aspose.PDF podporuje různé formáty obrázků a zde definujeme typ souboru.
 
 ```csharp
-// Nastavte typ obrázku jako SVG
+// Nastavit typ obrázku jako SVG
 img.FileType = Aspose.Pdf.ImageFileType.Unknown;
 ```
  
- V tomto případě ponecháme typ souboru jako`Unknown` , což umožňuje knihovně automaticky detekovat typ obrázku. Pokud znáte konkrétní typ souboru, můžete jej nastavit (např.`ImageFileType.Jpeg` pro obrázky JPEG). Tento krok zajišťuje, že Aspose ví, jak správně zacházet s obrázkem.
+V tomto případě ponecháváme typ souboru jako `Unknown`což umožňuje knihovně automaticky detekovat typ obrázku. Pokud znáte konkrétní typ souboru, můžete jej nastavit (např. `ImageFileType.Jpeg` (pro obrázky JPEG). Tento krok zajišťuje, že Aspose ví, jak s obrázkem správně zacházet.
 
-## Krok 6: Nastavte cestu k souboru obrázku
+## Krok 6: Nastavte cestu k souboru s obrázkem
 
-Nyní musíme Aspose říct, kde najde soubor obrázku. Ujistěte se, že je váš obrázek přístupný v určeném adresáři.
+Nyní musíme Aspose sdělit, kde má najít soubor s obrázkem. Ujistěte se, že je váš obrázek v zadaném adresáři dostupný.
 
 ```csharp
 // Cesta ke zdrojovému souboru
 img.File = dataDir + "aspose-logo.jpg";
 ```
  
- Zde nastavíme cestu souboru k obrázku. Obrázek se v tomto případě nachází v`dataDir` složka a je pojmenována`aspose-logo.jpg`Ujistěte se, že jste jej nahradili skutečným názvem a umístěním souboru obrázku.
+Zde nastavíme cestu k souboru s obrázkem. Obrázek se v tomto případě nachází v `dataDir` složka a je pojmenována `aspose-logo.jpg`Ujistěte se, že jste toto místo nahradili skutečným názvem a umístěním souboru s obrázkem.
 
-## Krok 7: Přidejte obrázek na stránku
+## Krok 7: Přidání obrázku na stránku
 
-S nakonfigurovaným obrazem a nastavenou cestou k souboru můžeme nyní přidat obrázek na naši stránku.
+Po nakonfigurování obrázku a nastavení cesty k souboru jej nyní můžeme přidat na naši stránku.
 
 ```csharp
 // Přidejte obrázek do kolekce odstavců
 page.Paragraphs.Add(img);
 ```
  
- The`Paragraphs.Add()` metoda nám umožňuje přidat obrázek na stránku. Myslete na`Paragraphs` kolekce jako seznam položek, které budou vykresleny na stránce PDF. Do této kolekce můžeme přidat více prvků, jako jsou obrázky, text a tvary.
+Ten/Ta/To `Paragraphs.Add()` metoda nám umožňuje přidat obrázek na stránku. Zamyslete se nad `Paragraphs` kolekce jako seznam položek, které se budou vykreslovat na stránce PDF. Do této kolekce můžeme přidat více prvků, například obrázky, text a tvary.
 
-## Krok 8: Upravte vlastnosti stránky
+## Krok 8: Úprava vlastností stránky
 
-Aby nám obrázek dobře seděl, upravíme velikost stránky. Tím zajistíte, že rozměry stránky budou odpovídat obsahu, který přidáváme.
+Aby se nám obrázek dobře vešel, upravíme velikost stránky. Tím zajistíme, že rozměry stránky budou odpovídat obsahu, který přidáváme.
 
 ```csharp
-// Nastavte vlastnosti stránky
+// Nastavení vlastností stránky
 page.PageInfo.Width = 800;
 page.PageInfo.Height = 800;
 ```
  
-Zde nastavujeme šířku a výšku stránky na 800 bodů. Tento krok je volitelný, ale zajišťuje, že se stránka přizpůsobí obrázku se změněnou velikostí. Tyto hodnoty můžete upravit na základě vašich konkrétních požadavků.
+Zde nastavujeme šířku a výšku stránky na 800 bodů. Tento krok je volitelný, ale zajišťuje, že se na stránku vejde upravený obrázek. Tyto hodnoty můžete upravit podle svých specifických požadavků.
 
-## Krok 9: Uložte soubor PDF
+## Krok 9: Uložte PDF
 
 Nakonec, po konfiguraci vlastností obrázku a stránky, můžeme PDF uložit.
 
 ```csharp
-//Uložte výsledný soubor PDF
+// Uložte výsledný soubor PDF
 dataDir = dataDir + "SetImageSize_out.pdf";
 doc.Save(dataDir);
 ```
  
- Upravený dokument uložíme jako`SetImageSize_out.pdf` ve stejném adresáři. Tento soubor bude nyní obsahovat obrázek se změněnou velikostí, který jste přidali.
+Upravený dokument uložíme jako `SetImageSize_out.pdf` ve stejném adresáři. Tento soubor bude nyní obsahovat změněnou velikost obrázku, který jste přidali.
 
 ## Závěr
 
-V tomto tutoriálu jsme probrali, jak nastavit velikost obrázku v PDF pomocí Aspose.PDF pro .NET. Prošli jsme vytvořením dokumentu, přidáním stránky, konfigurací obrázku a uložením výsledku. Tento průvodce krok za krokem je jen začátek toho, co můžete dělat s Aspose.PDF pro .NET. Nyní, když jste se naučili měnit velikost obrázků, můžete bez obav prozkoumat další funkce, jako je formátování textu, vytváření tabulek a dokonce přidávání anotací do PDF.
+tomto tutoriálu jsme se popsali, jak nastavit velikost obrázku v PDF pomocí Aspose.PDF pro .NET. Prošli jsme si vytvořením dokumentu, přidáním stránky, konfigurací obrázku a uložením výsledku. Tento podrobný návod je jen začátkem toho, co můžete s Aspose.PDF pro .NET dělat. Nyní, když jste se naučili měnit velikost obrázků, můžete se podívat na další funkce, jako je formátování textu, vytváření tabulek a dokonce i přidávání anotací do PDF.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu s Aspose.PDF pro .NET používat různé formáty obrázků?  
-Ano, Aspose.PDF podporuje různé formáty obrázků, jako jsou JPEG, PNG, BMP a SVG.
+### Mohu s Aspose.PDF pro .NET používat různé obrazové formáty?  
+Ano, Aspose.PDF podporuje různé obrazové formáty, jako například JPEG, PNG, BMP a SVG.
 
 ### Jak zachovám poměr stran obrazu?  
- Poměr stran můžete zachovat nastavením buď`FixWidth` nebo`FixHeight` při ponechání druhé dimenze nenastavené.
+Poměr stran můžete zachovat nastavením buď `FixWidth` nebo `FixHeight` zatímco druhá dimenze zůstává nenastavená.
 
-### Mohu přidat více obrázků na jednu stránku PDF?  
-Absolutně! Stačí zopakovat proces přidávání instance obrázku a každou přidat do`Paragraphs` sbírka.
+### Mohu na jednu stránku PDF přidat více obrázků?  
+Rozhodně! Stačí zopakovat proces přidávání instancí obrázku a každou z nich přidat do `Paragraphs` sbírka.
 
 ### Je možné nastavit velikost obrázku v jiných jednotkách než v bodech?  
-Aspose.PDF pracuje primárně s body, ale můžete převést další jednotky, jako jsou palce nebo milimetry, na body (1 palec = 72 bodů).
+Aspose.PDF pracuje primárně s body, ale můžete převést i jiné jednotky, jako jsou palce nebo milimetry, na body (1 palec = 72 bodů).
 
-### Jak umístím obrázek na konkrétní místo na stránce?  
- Můžete nastavit`Image.LowerLeftX` a`Image.LowerLeftY` vlastnosti pro umístění obrázku na stránku.
+### Jak umístím obrázek na určité místo na stránce?  
+Můžete nastavit `Image.LowerLeftX` a `Image.LowerLeftY` vlastnosti pro umístění obrázku na stránce.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

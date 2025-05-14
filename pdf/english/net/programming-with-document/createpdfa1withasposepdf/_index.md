@@ -8,7 +8,9 @@ url: /net/programming-with-document/createpdfa1withasposepdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create PDF A1 With Aspose Pdf
@@ -136,6 +138,7 @@ PDF/A-1 ensures document integrity, is widely accepted for archiving, and makes 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

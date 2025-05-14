@@ -1,29 +1,31 @@
 ---
-title: Ký số có dấu thời gian trong tệp PDF
-linktitle: Ký số có dấu thời gian trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách ký số vào PDF có dấu thời gian bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, thiết lập chứng chỉ, dấu thời gian và nhiều hơn nữa.
-weight: 50
-url: /vi/net/programming-with-security-and-signatures/digitally-sign-with-time-stamp/
+"description": "Tìm hiểu cách ký số vào PDF có dấu thời gian bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, thiết lập chứng chỉ, dấu thời gian và nhiều hơn nữa."
+"linktitle": "Ký số có dấu thời gian trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Ký số có dấu thời gian trong tệp PDF"
+"url": "/vi/net/programming-with-security-and-signatures/digitally-sign-with-time-stamp/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ký số có dấu thời gian trong tệp PDF
 
 ## Giới thiệu
 
-Bạn đã bao giờ cần ký số vào PDF và thêm dấu thời gian để tăng thêm tính bảo mật chưa? Cho dù bạn đang làm việc trên các tài liệu pháp lý, hợp đồng hay bất kỳ thứ gì yêu cầu xác thực an toàn, chữ ký số có dấu thời gian sẽ tăng thêm một lớp độ tin cậy. Trong hướng dẫn này, chúng tôi sẽ chia nhỏ cách bạn có thể sử dụng Aspose.PDF cho .NET để thêm chữ ký số cùng với dấu thời gian vào tài liệu PDF của mình. Đừng lo lắng, chúng tôi sẽ hướng dẫn từng bước!
+Bạn đã bao giờ cần ký số vào PDF và thêm dấu thời gian để tăng cường bảo mật chưa? Cho dù bạn đang làm việc trên các tài liệu pháp lý, hợp đồng hay bất kỳ thứ gì yêu cầu xác thực an toàn, chữ ký số có dấu thời gian sẽ tăng thêm một lớp độ tin cậy. Trong hướng dẫn này, chúng tôi sẽ chia nhỏ cách bạn có thể sử dụng Aspose.PDF cho .NET để thêm chữ ký số cùng với dấu thời gian vào tài liệu PDF của mình. Đừng lo lắng, chúng tôi sẽ hướng dẫn từng bước!
 
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào mã, có một số điều bạn cần thiết lập để theo dõi. Sau đây là danh sách kiểm tra nhanh các điều kiện tiên quyết để bạn bắt đầu:
 
--  Aspose.PDF cho Thư viện .NET: Bạn sẽ cần thư viện Aspose.PDF cho .NET được cài đặt trong dự án của bạn. Bạn có thể[tải phiên bản mới nhất tại đây](https://releases.aspose.com/pdf/net/) hoặc thêm nó vào dự án của bạn thông qua NuGet.
+- Aspose.PDF cho Thư viện .NET: Bạn sẽ cần thư viện Aspose.PDF cho .NET được cài đặt trong dự án của bạn. Bạn có thể [tải phiên bản mới nhất tại đây](https://releases.aspose.com/pdf/net/) hoặc thêm nó vào dự án của bạn thông qua NuGet.
 - Tài liệu PDF: Bạn sẽ cần một tệp PDF mẫu để làm việc. Đảm bảo có tệp trong thư mục dự án mà bạn muốn ký.
--  Chứng chỉ số (tệp PFX): Đảm bảo bạn có chứng chỉ số (một`.pfx` tệp) để ký kỹ thuật số vào tài liệu.
+- Chứng chỉ số (tệp PFX): Đảm bảo bạn có chứng chỉ số (một `.pfx` tệp) để ký kỹ thuật số vào tài liệu.
 - URL đóng dấu thời gian: Đây là dịch vụ đóng dấu thời gian trực tuyến sẽ được sử dụng để đính kèm dấu thời gian vào chữ ký số. 
 - Kiến thức cơ bản về C#: Bạn không cần phải là chuyên gia, nhưng việc biết những kiến thức cơ bản về C# sẽ giúp bạn hiểu và tùy chỉnh mã.
 
@@ -44,7 +46,7 @@ using System.Collections;
 
 ## Bước 1: Tải Tài liệu PDF
 
-Điều đầu tiên chúng ta cần làm là tải tài liệu PDF mà chúng ta muốn ký. Đây là cách bạn thực hiện:
+Điều đầu tiên chúng ta cần làm là tải tài liệu PDF mà chúng ta muốn ký. Sau đây là cách thực hiện:
 
 ```csharp
 // Xác định đường dẫn đến thư mục tài liệu của bạn
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document document = new Document(dataDir + @"DigitallySign.pdf");
 ```
 
- Bước này khá đơn giản. Chúng tôi chỉ cần xác định đường dẫn đến tài liệu mà chúng tôi muốn ký.`Document` lớp từ Aspose.PDF xử lý việc tải tệp.
+Bước này khá đơn giản. Chúng tôi chỉ cần xác định đường dẫn đến tài liệu mà chúng tôi muốn ký. `Document` lớp từ Aspose.PDF xử lý việc tải tệp.
 
 ## Bước 2: Thiết lập chữ ký số
 
@@ -71,7 +73,7 @@ PdfFileSignature signature = new PdfFileSignature(document);
 PKCS7 pkcs = new PKCS7(pfxFile, "pfx_password");
 ```
 
- Tại thời điểm này, bạn đang yêu cầu Aspose sử dụng chứng chỉ số của bạn để ký tài liệu.`PKCS7`object sẽ xử lý toàn bộ công việc mã hóa cho bạn, do đó bạn không cần phải lo lắng về những chi tiết cụ thể.
+Tại thời điểm này, bạn đang yêu cầu Aspose sử dụng chứng chỉ số của bạn để ký tài liệu. `PKCS7` object sẽ xử lý toàn bộ công việc mã hóa cho bạn, do đó bạn không cần phải lo lắng về những chi tiết phức tạp.
 
 ## Bước 3: Thêm Cài đặt Dấu thời gian
 
@@ -85,14 +87,14 @@ TimestampSettings timestampSettings = new TimestampSettings("https://your_timest
 pkcs.TimestampSettings = timestampSettings;
 ```
 
-Tại đây, bạn chỉ định URL cho dịch vụ đóng dấu thời gian, dịch vụ này sẽ tự động cung cấp thời gian và ngày tháng cho chữ ký của bạn. Điều này có thể được thực hiện có hoặc không có xác thực.
+Tại đây, bạn chỉ định URL cho dịch vụ đóng dấu thời gian, dịch vụ này sẽ tự động cung cấp thời gian và ngày tháng cho chữ ký của bạn. Điều này có thể được thực hiện với hoặc không có xác thực.
 
 ## Bước 4: Xác định vị trí và hình thức chữ ký
 
 Bây giờ, chúng ta sẽ xác định vị trí chữ ký sẽ xuất hiện trong PDF và kích thước của nó. Bạn có thể tùy chỉnh vị trí của hộp chữ ký trên trang cũng như kích thước.
 
 ```csharp
-//Xác định hình thức và vị trí chữ ký (trang 1, có hình chữ nhật được chỉ định)
+// Xác định hình thức và vị trí chữ ký (trang 1, có hình chữ nhật được chỉ định)
 System.Drawing.Rectangle rect = new System.Drawing.Rectangle(100, 100, 200, 100);
 ```
 
@@ -140,16 +142,18 @@ Có, nhưng hướng dẫn này tập trung vào việc sử dụng tệp PFX, �
 Có, vì dấu thời gian được lấy từ cơ quan đóng dấu thời gian trực tuyến nên bạn sẽ cần có kết nối internet.
 
 ### Tôi có thể ký nhiều trang trong một tệp PDF không?  
- Chắc chắn rồi! Bạn có thể sửa đổi`signature.Sign()` phương pháp nhắm mục tiêu nhiều trang hoặc lặp qua tất cả các trang.
+Chắc chắn rồi! Bạn có thể sửa đổi `signature.Sign()` phương pháp nhắm mục tiêu nhiều trang hoặc lặp qua tất cả các trang.
 
 ### Điều gì xảy ra nếu mật khẩu tệp PFX không đúng?  
 Bạn sẽ nhận được thông báo ngoại lệ nếu mật khẩu sai, vì vậy hãy đảm bảo nhập đúng mật khẩu.
 
 ### Tôi có thể làm chữ ký ẩn đi được không?  
- Vâng, bạn có thể vượt qua`false` đến`Sign` tham số hiển thị của phương thức để làm cho chữ ký trở nên vô hình.
+Vâng, bạn có thể vượt qua `false` đến `Sign` tham số hiển thị của phương thức để làm cho chữ ký trở nên vô hình.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

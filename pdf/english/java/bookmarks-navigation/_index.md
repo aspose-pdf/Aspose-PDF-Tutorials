@@ -4,8 +4,11 @@ description: "Learn to implement document bookmarks, hyperlinks, and navigation 
 weight: 14
 url: "/java/bookmarks-navigation/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PDF Bookmarks and Navigation Tutorials for Aspose.PDF Java
 
@@ -59,7 +62,11 @@ Learn how to effectively open, save, and add bookmarks to PDFs using Aspose.PDF 
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

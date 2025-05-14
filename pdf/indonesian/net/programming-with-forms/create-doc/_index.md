@@ -1,14 +1,16 @@
 ---
-title: Buat Dokumen
-linktitle: Buat Dokumen
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat dokumen PDF interaktif dengan tombol radio menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini.
-weight: 40
-url: /id/net/programming-with-forms/create-doc/
+"description": "Pelajari cara membuat dokumen PDF interaktif dengan tombol radio menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Buat Dokumen"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat Dokumen"
+"url": "/id/net/programming-with-forms/create-doc/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat Dokumen
@@ -22,7 +24,7 @@ Membuat formulir interaktif dalam PDF dapat meningkatkan pengalaman dan keterlib
 Sebelum kita mulai membuat kode, ada beberapa hal penting yang perlu Anda perhatikan untuk memastikan semuanya berjalan lancar:
 
 1. Lingkungan Pengembangan .NET: Anda harus terbiasa dengan lingkungan pengembangan .NET, seperti Visual Studio, untuk menulis dan mengeksekusi kode Anda.
-2. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat memperolehnya dengan mudah dari[halaman unduhan](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat memperolehnya dengan mudah dari [halaman unduhan](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang C# diperlukan, karena itulah bahasa yang akan kita gunakan dalam contoh kita.
 4. Direktori Dokumen Anda: Tetapkan direktori tempat dokumen Anda akan disimpan untuk menghindari masalah terkait jalur.
 
@@ -66,7 +68,7 @@ Langkah pertama dalam perjalanan pengodean kita adalah mengatur jalur ke direkto
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";  // Ganti dengan jalur Anda
 ```
- Baris ini membuat variabel string`dataDir` tempat Anda menyimpan PDF keluaran. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya.
+Baris ini membuat variabel string `dataDir` tempat Anda menyimpan PDF keluaran. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya.
 
 ## Langkah 2: Buat Dokumen Baru
 
@@ -97,7 +99,7 @@ RadioButtonField field = new RadioButtonField(page);
 field.Rect = new Aspose.Pdf.Rectangle(40, 650, 100, 720);
 field.PartialName = "NewField";
 ```
- Di sini, kita membuat`RadioButtonField` objek yang kami tetapkan ke halaman kami.`Rect` parameter menentukan posisi dan ukuran bidang tombol radio pada halaman.
+Di sini, kita membuat `RadioButtonField` objek yang kami tetapkan ke halaman kami. `Rect` parameter menentukan posisi dan ukuran bidang tombol radio pada halaman.
 
 ## Langkah 5: Tentukan Opsi Tombol Radio
 
@@ -128,7 +130,7 @@ opt3.Border = new Border(opt3);
 opt3.Border.Width = 1;
 opt3.Characteristics.Border = System.Drawing.Color.Black;
 ```
- Di setiap blok ini, kami membuat`RadioButtonOptionField` objek dan menentukan posisi mereka dengan`.Rect` tetapkan nama menggunakan`.OptionName`, dan mengatur atribut perbatasannya.
+Di setiap blok ini, kami membuat `RadioButtonOptionField` objek dan menentukan posisi mereka dengan `.Rect`, tetapkan nama menggunakan `.OptionName`, dan mengatur atribut perbatasannya.
 
 ## Langkah 6: Tambahkan Opsi ke Bidang
 
@@ -168,7 +170,7 @@ Dengan membungkus kode kita dalam blok try-catch, kita dapat menangani kesalahan
 
 Membuat PDF interaktif dengan tombol radio menggunakan Aspose.PDF untuk .NET mungkin tampak rumit pada awalnya, tetapi dengan langkah-langkah yang jelas dan dapat ditindaklanjuti ini, Anda akan merasa mudah dan bahkan senang. Pustaka canggih ini memungkinkan Anda membuat dokumen dinamis yang melibatkan pengguna secara efektif, menjadikan pengiriman formulir sebagai pengalaman yang bebas repot. Dengan mengikuti panduan ini, Anda telah menguasai seni menambahkan tombol radio ke PDF Anda. 
 
- Jadi, tunggu apa lagi? Berkreasilah! Mulailah membuat dokumen interaktif hari ini dan tingkatkan pengumpulan data Anda ke tingkat yang lebih tinggi. Untuk eksplorasi lebih lanjut, jangan ragu untuk memeriksa[dokumentasi](https://reference.aspose.com/pdf/net/) untuk lebih banyak fitur dan kemampuan.
+Jadi, tunggu apa lagi? Berkreasilah! Mulailah membuat dokumen interaktif hari ini dan tingkatkan pengumpulan data Anda ke tingkat yang lebih tinggi. Untuk eksplorasi lebih lanjut, jangan ragu untuk memeriksa [dokumentasi](https://reference.aspose.com/pdf/net/) untuk lebih banyak fitur dan kemampuan.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -176,19 +178,21 @@ Membuat PDF interaktif dengan tombol radio menggunakan Aspose.PDF untuk .NET mun
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file PDF dalam aplikasi .NET mereka.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
-Ya, Aspose menawarkan uji coba gratis bagi pengguna untuk menguji pustaka. Anda dapat mengaksesnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan uji coba gratis bagi pengguna untuk menguji pustaka. Anda dapat mengaksesnya [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara menangani pengecualian di Aspose.PDF?
 Gunakan blok try-catch dalam kode Anda untuk mengelola dengan baik setiap kesalahan runtime yang mungkin terjadi selama pembuatan atau manipulasi PDF.
 
 ### Di mana saya dapat menemukan sumber daya tambahan?
- Kunjungi[forum dukungan](https://forum.aspose.com/c/pdf/10) atau[Unduh](https://releases.aspose.com/pdf/net/) perpustakaan untuk memulai.
+Kunjungi [forum dukungan](https://fatauum.aspose.com/c/pdf/10) or [Unduh](https://releases.aspose.com/pdf/net/) perpustakaan untuk memulai.
 
 ### Bagaimana cara membeli Aspose.PDF?
- Anda dapat membeli perpustakaan langsung dari[halaman pembelian](https://purchase.aspose.com/buy).
+Anda dapat membeli perpustakaan langsung dari [halaman pembelian](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

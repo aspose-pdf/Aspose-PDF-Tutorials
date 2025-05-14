@@ -8,7 +8,9 @@ url: /net/programming-with-tables/add-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Table In PDF File
@@ -146,6 +148,7 @@ Absolutely! Instead of `Pages[1]`, you can specify any page number where you wan
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

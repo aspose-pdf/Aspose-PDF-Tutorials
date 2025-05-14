@@ -8,7 +8,9 @@ url: /net/programming-with-document/determineprogress/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Determine Progress To PDF File
@@ -128,6 +130,7 @@ To request a temporary license for evaluation, you can follow this link: [Tempor
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

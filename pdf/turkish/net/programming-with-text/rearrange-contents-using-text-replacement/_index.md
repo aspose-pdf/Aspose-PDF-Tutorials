@@ -1,14 +1,16 @@
 ---
-title: Metin Değiştirmeyi Kullanarak İçerikleri Yeniden Düzenleyin
-linktitle: Metin Değiştirmeyi Kullanarak İçerikleri Yeniden Düzenleyin
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile metin değiştirmeyi kullanarak PDF içeriklerini nasıl yeniden düzenleyeceğinizi öğrenin. Belge düzenleme becerilerinizi geliştirmek için adım adım eğitim.
-weight: 270
-url: /tr/net/programming-with-text/rearrange-contents-using-text-replacement/
+"description": "Aspose.PDF for .NET ile metin değiştirmeyi kullanarak PDF içeriklerini nasıl yeniden düzenleyeceğinizi öğrenin. Belge düzenleme becerilerinizi geliştirmek için adım adım eğitim."
+"linktitle": "Metin Değiştirmeyi Kullanarak İçerikleri Yeniden Düzenleyin"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Metin Değiştirmeyi Kullanarak İçerikleri Yeniden Düzenleyin"
+"url": "/tr/net/programming-with-text/rearrange-contents-using-text-replacement/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metin Değiştirmeyi Kullanarak İçerikleri Yeniden Düzenleyin
@@ -21,7 +23,7 @@ PDF belgeleriyle programatik olarak çalışmaya gelince, içerikleri yeniden d�
 
 Başlamadan önce aşağıdakilerin hazır olduğundan emin olun:
 
-1.  .NET için Aspose.PDF: Projenizde Aspose.PDF'in yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Projenizde Aspose.PDF'in yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 2. .NET Geliştirme Ortamı: Çalışan bir .NET ortamı (Visual Studio gibi) şarttır. Kod örnekleri C# ile çalışacaktır.
 3. C# Temel Anlayışı: C# programlamaya aşinalık, kodda etkili bir şekilde gezinmenize yardımcı olacaktır.
 
@@ -60,22 +62,22 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Kaynak PDF dosyasını yükle
 Document doc = new Document(dataDir + "ExtractTextPage.pdf");
 ```
- Burada PDF'nizin depolandığı dizini belirtirsiniz.`Document`sınıf mevcut PDF dosyamızı yüklemek için kullanılır`ExtractTextPage.pdf`.
+Burada PDF'nizin depolandığı dizini belirtirsiniz. `Document` sınıf mevcut PDF dosyamızı yüklemek için kullanılır `ExtractTextPage.pdf`.
 
 ## Adım 2: TextFragment Absorber'ı Oluşturun
 
- Daha sonra bir tane oluşturacağız`TextFragmentAbsorber` nesne. Bu, düzenli bir ifade kullanarak belirli metin parçalarını bulmamızı sağlar.
+Daha sonra bir tane oluşturacağız `TextFragmentAbsorber` nesne. Bu, düzenli bir ifade kullanarak belirli metin parçalarını bulmamızı sağlar.
 
 ```csharp
-// Düzenli ifade ile TextFragment Absorber nesnesi oluşturun
+// Düzenli ifadeyle TextFragment Absorber nesnesi oluşturun
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("[TextFragmentAbsorber,companyname,Textbox,50]");
 doc.Pages.Accept(textFragmentAbsorber);
 ```
- The`TextFragmentAbsorber` değiştirmek istediğiniz metin parçalarını bulmak için bir desen kullanır. Düzenli ifadeyi belirli metniniz için gerektiği gibi ayarlayın.
+The `TextFragmentAbsorber` değiştirmek istediğiniz metin parçalarını bulmak için bir desen kullanır. Düzenli ifadeyi belirli metniniz için gerektiği gibi ayarlayın.
 
 ## Adım 3: Her Metin Parçasını Değiştirin
 
-Şimdi en eğlenceli kısma geliyoruz: Bulunan metin parçalarını düzenlemek.
+Şimdi eğlenceli kısma geliyoruz: Bulunan metin parçalarını düzenlemek.
 
 ```csharp
 // Her TextFragment'ı değiştir
@@ -90,7 +92,7 @@ foreach (TextFragment textFragment in textFragmentAbsorber.TextFragments)
     textFragment.Text = "This is a Larger String for the Testing of this issue";
 }
 ```
- Döngünün içinde her birini yineliyoruz`TextFragment` bulundu. Burada, yazı tipi stilini, boyutunu ve rengini özelleştiriyoruz. En önemlisi, orijinal metni yeni dizemizle değiştiriyoruz.
+Döngünün içinde her birini yineliyoruz `TextFragment` bulundu. Burada, yazı tipi stilini, boyutunu ve rengini özelleştiriyoruz. En önemlisi, orijinal metni yeni dizemizle değiştiriyoruz.
 
 ## Adım 4: Değiştirilen Belgeyi Kaydedin
 
@@ -102,7 +104,7 @@ dataDir = dataDir + "RearrangeContentsUsingTextReplacement_out.pdf";
 doc.Save(dataDir);
 Console.WriteLine("\nContents rearranged successfully using text replacement.\nFile saved at " + dataDir);
 ```
- Değiştirilen PDF, şu şekilde kaydedilir:`Save`yöntem. Orijinal dosyanızın üzerine yazılmasını önlemek için uygun bir dosya adı eklediğinizden emin olun.
+Değiştirilen PDF, şu şekilde kaydedilir: `Save` yöntem. Orijinal dosyanızın üzerine yazılmasını önlemek için uygun bir dosya adı eklediğinizden emin olun.
 
 ## Adım 5: İstisnaları Yönetin
 
@@ -111,7 +113,7 @@ Console.WriteLine("\nContents rearranged successfully using text replacement.\nF
 ```csharp
 catch (Exception ex)
 {
-    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from http://www.aspose.com/purchase/default.aspx.");
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from http://www.aspose.com/satınalma/default.aspx.");
 }
 ```
 İstisnaları yakalamak, ortaya çıkabilecek herhangi bir sorunu (dosya erişim sorunları veya geçersiz lisanslar gibi) zarif bir şekilde ele almanızı sağlar. Bu, yazılım geliştirmede önemli bir uygulamadır!
@@ -135,10 +137,12 @@ Absorber basitçe boş bir koleksiyon döndürecektir. Regex deseninin eşleşti
 Aspose.PDF ayrıca görüntüleri düzenlemek için çeşitli yöntemler de sağlar.
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Yardımı onlardan alabilirsiniz[destek forumu](https://forum.aspose.com/c/pdf/10).
+Yardımı onlardan alabilirsiniz [destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

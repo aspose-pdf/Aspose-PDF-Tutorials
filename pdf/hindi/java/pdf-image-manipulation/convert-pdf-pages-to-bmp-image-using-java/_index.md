@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ पेजों को बीएमपी छवि में परिवर्तित करें
-linktitle: जावा का उपयोग करके पीडीएफ पेजों को बीएमपी छवि में परिवर्तित करें
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: जानें कि Aspose.PDF for Java के साथ Java का उपयोग करके PDF पेजों को BMP इमेज में कैसे बदलें। PDF से BMP में सहज रूपांतरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 14
-url: /hi/java/pdf-image-manipulation/convert-pdf-pages-to-bmp-image-using-java/
+"description": "जानें कि Aspose.PDF for Java के साथ Java का उपयोग करके PDF पेजों को BMP इमेज में कैसे बदलें। PDF से BMP में सहज रूपांतरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "जावा का उपयोग करके पीडीएफ पेजों को बीएमपी छवि में परिवर्तित करें"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ पेजों को बीएमपी छवि में परिवर्तित करें"
+"url": "/hi/java/pdf-image-manipulation/convert-pdf-pages-to-bmp-image-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ पेजों को बीएमपी छवि में परिवर्तित करें
@@ -24,7 +26,7 @@ url: /hi/java/pdf-image-manipulation/convert-pdf-pages-to-bmp-image-using-java/
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
 - जावा प्रोग्रामिंग के लिए स्थापित एक विकास वातावरण।
--  Aspose.PDF for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ## अपना प्रोजेक्ट सेट अप करना
 
@@ -56,7 +58,7 @@ Document pdfDocument = new Document("path/to/your/document.pdf");
 ImageDevice imageDevice = new ImageDevice();
 ```
 
-### चरण 3: पृष्ठ सीमा निर्धारित करें
+### चरण 3: पेज रेंज निर्धारित करें
 
 वह पृष्ठ या पृष्ठ निर्दिष्ट करें जिन्हें आप BMP छवियों में बदलना चाहते हैं। आप एक पृष्ठ या कई पृष्ठों को परिवर्तित कर सकते हैं। उदाहरण के लिए, पहले पृष्ठ को परिवर्तित करने के लिए:
 
@@ -91,7 +93,7 @@ imageDevice.save("path/to/save/image.bmp", ImageFormat.getBmp());
 
 ### मैं Java के लिए Aspose.PDF कैसे स्थापित करूं?
 
- Java के लिए Aspose.PDF स्थापित करने के लिए, लाइब्रेरी को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/pdf/java/) और दस्तावेज़ में दिए गए स्थापना निर्देशों का पालन करें।
+Java के लिए Aspose.PDF स्थापित करने के लिए, लाइब्रेरी को यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/pdf/java/) और दस्तावेज़ में दिए गए स्थापना निर्देशों का पालन करें।
 
 ### क्या मैं एक बार में कई PDF पृष्ठों को BMP छवियों में परिवर्तित कर सकता हूँ?
 
@@ -108,9 +110,11 @@ Java के लिए Aspose.PDF एक शक्तिशाली लाइब
 ### क्या मैं BMP छवि रूपांतरण सेटिंग्स को अनुकूलित कर सकता हूँ?
 
 हां, आप Aspose.PDF for Java का उपयोग करके PDF पृष्ठों को BMP छवियों में परिवर्तित करते समय, छवि रिज़ॉल्यूशन और गुणवत्ता जैसी विभिन्न सेटिंग्स को अनुकूलित कर सकते हैं। अधिक जानकारी के लिए दस्तावेज़ देखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

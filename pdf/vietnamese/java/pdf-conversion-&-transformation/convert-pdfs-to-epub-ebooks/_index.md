@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi PDF sang sách điện tử EPUB
-linktitle: Chuyển đổi PDF sang sách điện tử EPUB
-second_title: API xử lý PDF Java Aspose.PDF
-description: Chuyển đổi PDF sang sách điện tử EPUB dễ dàng với Aspose.PDF cho Java. Tìm hiểu từng bước chuyển đổi PDF sang EPUB và Câu hỏi thường gặp.
-weight: 15
-url: /vi/java/pdf-conversion-transformation/convert-pdfs-to-epub-ebooks/
+"description": "Chuyển đổi PDF sang sách điện tử EPUB dễ dàng với Aspose.PDF cho Java. Tìm hiểu từng bước chuyển đổi PDF sang EPUB và Câu hỏi thường gặp."
+"linktitle": "Chuyển đổi PDF sang sách điện tử EPUB"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Chuyển đổi PDF sang sách điện tử EPUB"
+"url": "/vi/java/pdf-conversion-transformation/convert-pdfs-to-epub-ebooks/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi PDF sang sách điện tử EPUB
@@ -30,7 +32,7 @@ Bây giờ, chúng ta hãy tiến hành thực hiện.
 
 ## Thiết lập môi trường phát triển của bạn
 
- Để bắt đầu, hãy đảm bảo rằng bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình. Bạn cũng sẽ cần Aspose.PDF cho Java, mà bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+Để bắt đầu, hãy đảm bảo rằng bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình. Bạn cũng sẽ cần Aspose.PDF cho Java, mà bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thêm Aspose.PDF cho Java vào Dự án của bạn
 
@@ -109,9 +111,11 @@ Có, bạn có thể chuyển đổi hàng loạt nhiều tệp PDF sang EPUB b�
 ### Có hỗ trợ kỹ thuật cho Aspose.PDF dành cho Java không?
 
 Có, Aspose cung cấp hỗ trợ kỹ thuật tuyệt vời. Bạn có thể liên hệ với nhóm hỗ trợ của họ nếu bạn gặp bất kỳ vấn đề nào hoặc có câu hỏi về thư viện.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-operators/draw-xform-on-page/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Draw XForm On Page
@@ -201,6 +203,7 @@ You can find the complete Aspose.PDF documentation [here](https://reference.aspo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

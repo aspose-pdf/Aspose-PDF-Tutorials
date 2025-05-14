@@ -8,7 +8,9 @@ url: /java/pdf-form-fields/adding-text-stamp-in-pdf-file-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Text Stamp in PDF File using Java
@@ -127,6 +129,7 @@ You can find comprehensive documentation and examples for Aspose.PDF for Java on
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

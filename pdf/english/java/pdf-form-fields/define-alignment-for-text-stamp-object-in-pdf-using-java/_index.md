@@ -8,7 +8,9 @@ url: /java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-using-j
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Define Alignment for Text Stamp Object in PDF using Java
@@ -119,6 +121,7 @@ Yes, Aspose.PDF for Java offers advanced alignment options, including centering 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

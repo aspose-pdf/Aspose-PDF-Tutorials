@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ फाइल में फाइल जानकारी प्राप्त करें
-linktitle: पीडीएफ फाइल में फाइल जानकारी प्राप्त करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: जानें कि किसी PDF दस्तावेज़ के बारे में मेटाडेटा जानकारी प्राप्त करने के लिए Aspose.PDF for .NET की PDF फ़ाइल में GetFileInfo सुविधा का उपयोग कैसे करें।
-weight: 180
-url: /hi/net/programming-with-document/getfileinfo/
+"description": "जानें कि किसी PDF दस्तावेज़ के बारे में मेटाडेटा जानकारी प्राप्त करने के लिए Aspose.PDF for .NET की PDF फ़ाइल में GetFileInfo सुविधा का उपयोग कैसे करें।"
+"linktitle": "पीडीएफ फाइल में फाइल जानकारी प्राप्त करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ फाइल में फाइल जानकारी प्राप्त करें"
+"url": "/hi/net/programming-with-document/getfileinfo/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ फाइल में फाइल जानकारी प्राप्त करें
@@ -22,12 +24,12 @@ url: /hi/net/programming-with-document/getfileinfo/
 इससे पहले कि हम कोड में प्रवेश करें, कुछ चीजें हैं जिन्हें आपको ध्यान में रखना होगा:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यह हमारा विकास वातावरण होगा।
-2.  .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे यहाँ से प्राप्त कर सकते हैं[लिंक को डाउनलोड करें](https://releases.aspose.com/pdf/net/).
+2. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी डाउनलोड और इंस्टॉल करनी होगी। आप इसे यहाँ से प्राप्त कर सकते हैं [लिंक को डाउनलोड करें](https://releases.aspose.com/pdf/net/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
 
 ## पैकेज आयात करें
 
-आरंभ करने के लिए, हमें आवश्यक पैकेज आयात करने की आवश्यकता है। Visual Studio में अपना C# प्रोजेक्ट खोलें और Aspose.PDF लाइब्रेरी में संदर्भ जोड़ें। आप NuGet पैकेज मैनेजर का उपयोग करके ऐसा कर सकते हैं:
+आरंभ करने के लिए, हमें आवश्यक पैकेज आयात करने की आवश्यकता है। Visual Studio में अपना C# प्रोजेक्ट खोलें और Aspose.PDF लाइब्रेरी का संदर्भ जोड़ें। आप NuGet पैकेज मैनेजर का उपयोग करके ऐसा कर सकते हैं:
 
 1. समाधान एक्सप्लोरर में अपने प्रोजेक्ट पर राइट-क्लिक करें।
 2. "NuGet पैकेज प्रबंधित करें" चुनें.
@@ -43,7 +45,7 @@ url: /hi/net/programming-with-document/getfileinfo/
 
 1. विज़ुअल स्टूडियो खोलें और "नया प्रोजेक्ट बनाएं" चुनें.
 2. "कंसोल ऐप (.NET फ्रेमवर्क)" चुनें और "अगला" पर क्लिक करें।
-3.  अपने प्रोजेक्ट को नाम दें (उदाहरण के लिए,`PDFFileInfoExtractor`) और "बनाएँ" पर क्लिक करें।
+3. अपने प्रोजेक्ट को नाम दें (उदाहरण के लिए, `PDFFileInfoExtractor`) और "बनाएँ" पर क्लिक करें।
 
 ### Aspose.PDF संदर्भ जोड़ें
 
@@ -57,7 +59,7 @@ url: /hi/net/programming-with-document/getfileinfo/
 
 ### दस्तावेज़ आरंभ करें
 
- अब, आइए एक पीडीएफ दस्तावेज़ खोलने और इसकी जानकारी निकालने के लिए कोड लिखें। अपने दस्तावेज़ के शीर्ष पर निम्नलिखित using निर्देश जोड़कर शुरू करें`Program.cs` फ़ाइल:
+अब, आइए एक पीडीएफ दस्तावेज़ खोलने और इसकी जानकारी निकालने के लिए कोड लिखें। अपने दस्तावेज़ के शीर्ष पर निम्नलिखित using निर्देश जोड़कर शुरू करें `Program.cs` फ़ाइल:
 
 ```csharp
 using System.IO;
@@ -108,19 +110,21 @@ Console.WriteLine("Title: {0}", docInfo.Title);
 .NET के लिए Aspose.PDF एक लाइब्रेरी है जो डेवलपर्स को .NET अनुप्रयोगों में PDF दस्तावेज़ बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देती है।
 
 ### मैं Aspose.PDF कैसे स्थापित करूं?
- आप Visual Studio में NuGet पैकेज मैनेजर के माध्यम से Aspose.PDF स्थापित कर सकते हैं या इसे यहाँ से डाउनलोड कर सकते हैं।[लिंक को डाउनलोड करें](https://releases.aspose.com/pdf/net/).
+आप Visual Studio में NuGet पैकेज मैनेजर के माध्यम से Aspose.PDF स्थापित कर सकते हैं या इसे यहाँ से डाउनलोड कर सकते हैं। [लिंक को डाउनलोड करें](https://releases.aspose.com/pdf/net/).
 
 ### क्या मैं Aspose.PDF का उपयोग करके PDF से छवियाँ निकाल सकता हूँ?
 हां, Aspose.PDF पीडीएफ दस्तावेजों से छवियों को निकालने के तरीके प्रदान करता है।
 
 ### क्या Aspose.PDF के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/).
 
 ### मैं Aspose.PDF के लिए समर्थन कहां पा सकता हूं?
- आप सहायता पा सकते हैं और प्रश्न पूछ सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/pdf/10).
+आप सहायता पा सकते हैं और प्रश्न पूछ सकते हैं [Aspose फ़ोरम](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ลบบุ๊คมาร์กเฉพาะในไฟล์ PDF
-linktitle: ลบบุ๊คมาร์กเฉพาะในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการลบบุ๊กมาร์กที่ต้องการในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-weight: 40
-url: /th/net/programming-with-bookmarks/delete-particular-bookmark/
+"description": "เรียนรู้วิธีการลบบุ๊กมาร์กที่ต้องการในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "ลบบุ๊คมาร์กเฉพาะในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ลบบุ๊คมาร์กเฉพาะในไฟล์ PDF"
+"url": "/th/net/programming-with-bookmarks/delete-particular-bookmark/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบบุ๊คมาร์กเฉพาะในไฟล์ PDF
@@ -21,7 +23,7 @@ url: /th/net/programming-with-bookmarks/delete-particular-bookmark/
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกอย่างที่จำเป็นในการปฏิบัติตามแล้ว:
 
-1.  Aspose.PDF สำหรับ .NET: คุณจะต้องติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: คุณจะต้องติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 2. Visual Studio: สภาพแวดล้อมการพัฒนาที่คุณสามารถเขียนและดำเนินการโค้ด .NET ของคุณได้
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดที่เราจะใช้
 4. ไฟล์ PDF ตัวอย่าง: สำหรับบทช่วยสอนนี้ คุณจะต้องมีไฟล์ PDF ที่มีบุ๊กมาร์ก คุณสามารถสร้างบุ๊กมาร์กหรือดาวน์โหลดตัวอย่างจากอินเทอร์เน็ตได้
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
- จากนั้นคุณจะเปิดเอกสาร PDF ที่มีบุ๊กมาร์กที่คุณต้องการลบ ซึ่งทำได้โดยใช้`Document` คลาสจากไลบรารี Aspose.PDF
+ขั้นต่อไป คุณจะเปิดเอกสาร PDF ที่มีบุ๊กมาร์กที่คุณต้องการลบ ซึ่งทำได้โดยใช้ `Document` คลาสจากไลบรารี Aspose.PDF
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "DeleteParticularBookmark.pdf");
@@ -70,7 +72,7 @@ Document pdfDocument = new Document(dataDir + "DeleteParticularBookmark.pdf");
 
 ## ขั้นตอนที่ 3: ลบบุ๊กมาร์กที่ต้องการ
 
- ตอนนี้มาถึงส่วนสำคัญ—การลบบุ๊กมาร์ก คุณจะใช้`Outlines.Delete` วิธีการลบบุ๊กมาร์กตามชื่อเรื่อง โปรดตรวจสอบให้แน่ใจว่าได้แทนที่`"Child Outline"` ด้วยชื่อจริงของบุ๊กมาร์กที่คุณต้องการลบ
+ตอนนี้มาถึงส่วนสำคัญ—การลบบุ๊กมาร์ก คุณจะใช้ `Outlines.Delete` วิธีการลบบุ๊กมาร์กตามชื่อเรื่อง โปรดตรวจสอบให้แน่ใจว่าได้แทนที่ `"Child Outline"` ด้วยชื่อจริงของบุ๊กมาร์กที่คุณต้องการลบ
 
 ```csharp
 pdfDocument.Outlines.Delete("Child Outline");
@@ -87,7 +89,7 @@ pdfDocument.Save(dataDir);
 
 ## ขั้นตอนที่ 5: ยืนยันการลบ
 
-สุดท้ายนี้ การยืนยันว่าการดำเนินการสำเร็จลุล่วงถือเป็นแนวทางปฏิบัติที่ดี คุณสามารถพิมพ์ข้อความไปยังคอนโซลเพื่อแจ้งให้ทราบว่าบุ๊กมาร์กถูกลบไปแล้ว
+สุดท้ายนี้ การยืนยันว่าการดำเนินการสำเร็จถือเป็นแนวทางปฏิบัติที่ดี คุณสามารถพิมพ์ข้อความไปยังคอนโซลเพื่อแจ้งให้ทราบว่าบุ๊กมาร์กถูกลบไปแล้ว
 
 ```csharp
 Console.WriteLine("\nParticular bookmark deleted successfully.\nFile saved at " + dataDir);
@@ -100,22 +102,24 @@ Console.WriteLine("\nParticular bookmark deleted successfully.\nFile saved at " 
 ## คำถามที่พบบ่อย
 
 ### Aspose.PDF สำหรับ .NET คืออะไร?
-Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ด้วยโปรแกรมได้
+Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันสามารถลบบุ๊กมาร์กหลายรายการพร้อมกันได้ไหม?
- ใช่ คุณสามารถวนซ้ำผ่านบุ๊กมาร์กและลบบุ๊กมาร์กหลายอันได้ด้วยการเรียกใช้`Delete` วิธีการสำหรับแต่ละชื่อเรื่อง
+ใช่ คุณสามารถวนซ้ำผ่านบุ๊กมาร์กและลบบุ๊กมาร์กหลายอันได้ด้วยการเรียกใช้ `Delete` วิธีการสำหรับแต่ละชื่อเรื่อง
 
 ### มีการทดลองใช้ฟรีหรือไม่?
- ใช่ คุณสามารถทดลองใช้ Aspose.PDF สำหรับ .NET ได้ฟรีโดยดาวน์โหลดจาก[เว็บไซต์](https://releases.aspose.com/).
+ใช่ คุณสามารถลองใช้ Aspose.PDF สำหรับ .NET ได้ฟรีโดยดาวน์โหลดจาก [เว็บไซต์](https://releases-aspose.com/).
 
 ### ถ้าฉันไม่ทราบชื่อบุ๊กมาร์กจะทำอย่างไร?
- คุณสามารถทำซ้ำผ่าน`Outlines` คอลเลกชันเพื่อค้นหาชื่อของบุ๊กมาร์กที่คุณต้องการลบ
+คุณสามารถทำซ้ำผ่าน `Outlines` คอลเลกชันเพื่อค้นหาชื่อบุ๊กมาร์กที่คุณต้องการลบ
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้จากที่ไหน
- คุณสามารถรับการสนับสนุนได้โดยการเยี่ยมชม[ฟอรั่ม Aspose](https://forum.aspose.com/c/pdf/10).
+คุณสามารถรับการสนับสนุนได้โดยการเยี่ยมชม [ฟอรั่ม Aspose](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

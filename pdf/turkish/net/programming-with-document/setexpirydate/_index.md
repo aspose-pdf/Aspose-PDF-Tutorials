@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Son Kullanma Tarihini Ayarla
-linktitle: PDF Dosyasında Son Kullanma Tarihini Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyalarında son kullanma tarihi ayarlamayı öğrenin. Bu adım adım kılavuzla belge güvenliğini artırın.
-weight: 300
-url: /tr/net/programming-with-document/setexpirydate/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyalarında son kullanma tarihi ayarlamayı öğrenin. Bu adım adım kılavuzla belge güvenliğini artırın."
+"linktitle": "PDF Dosyasında Son Kullanma Tarihini Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Son Kullanma Tarihini Ayarla"
+"url": "/tr/net/programming-with-document/setexpirydate/"
+"weight": 300
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Son Kullanma Tarihini Ayarla
@@ -22,7 +24,7 @@ Günümüzün dijital çağında, belgeleri yönetmek ve güvence altına almak 
 Başlamadan önce, yerinde olması gereken birkaç şey var:
 
 1. Geliştirme Ortamı: .NET geliştirme ortamınızın kurulu olduğundan emin olun. Bu, Visual Studio veya .NET'i destekleyen herhangi bir IDE olabilir.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu henüz yapmadıysanız, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu henüz yapmadıysanız, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/net/).
 3. C# Temel Bilgisi: Bu eğitim, C# programlama konusunda temel bir anlayışa sahip olduğunuzu varsayar. C#'a yeniyseniz endişelenmeyin! Bunu basit ve anlaşılır tutacağız.
 
 ## Paketleri İçe Aktar
@@ -47,17 +49,17 @@ Bu ad alanları, Aspose.PDF'de PDF belgeleriyle çalışmak için gereken temel 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızı kaydetmek istediğiniz gerçek yol ile. Programınıza "Hey, dosyalarımı burada saklıyorum!" demeye benzer.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızı kaydetmek istediğiniz gerçek yol ile. Programınıza "Hey, dosyalarımı burada saklıyorum!" demeye benzer.
 
 ## Adım 2: Belge Nesnesini Örneklendirin
 
- Daha sonra, yeni bir örnek oluşturmanız gerekir`Document` sınıf. Bu, PDF'nizi oluşturacağınız tuvalinizdir.
+Daha sonra, yeni bir örnek oluşturmanız gerekir `Document` sınıf. Bu, PDF'nizi oluşturacağınız tuvalinizdir.
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
- Şunu düşünün:`Document` nesneyi boş bir kağıt parçası olarak düşünün. İstediğiniz gibi içerik ekleyebilirsiniz!
+Şunu düşünün: `Document` nesneyi boş bir kağıt parçası olarak düşünün. İstediğiniz gibi içerik ekleyebilirsiniz!
 
 ## Adım 3: PDF'ye bir Sayfa Ekleyin
 
@@ -97,7 +99,7 @@ JavascriptAction javaScript = new JavascriptAction(
 - Son kullanma yılını ve ayını siz belirlersiniz.
 - Bugünün tarihini aldın.
 - Bugünün tarihini son kullanma tarihiyle karşılaştırıyorsunuz.
-- Eğer bugünün tarihi son kullanma tarihini geçtiyse bir mesaj belirir!
+- Eğer bugünün tarihi son kullanma tarihini geçtiyse, bir mesaj belirir!
 
 ## Adım 6: JavaScript'i PDF Açma Eylemi Olarak Ayarla
 
@@ -130,19 +132,21 @@ Bu satır PDF'nizi "SetExpiryDate_out.pdf" adıyla belirtilen dizine kaydeder. B
 Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose.PDF'in ücretsiz deneme sürümünü kullanabilirsiniz. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose.PDF'in ücretsiz deneme sürümünü kullanabilirsiniz. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF'i nasıl satın alabilirim?
-Aspose.PDF'yi şuraya tıklayarak satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose.PDF'yi şuraya tıklayarak satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Desteğe ihtiyacım olursa ne olur?
-Herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa, şu adresi ziyaret edebilirsiniz:[Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa, şu adresi ziyaret edebilirsiniz: [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF için geçici lisans alabilir miyim?
- Evet, geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, geçici lisans talebinde bulunabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

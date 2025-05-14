@@ -1,14 +1,16 @@
 ---
-title: Создать PDF A1 с помощью Aspose Pdf
-linktitle: Создать PDF A1 с помощью Aspose Pdf
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как создавать файлы PDF/A-1 с помощью Aspose.PDF для .NET в этом подробном руководстве. Пошаговое руководство с примерами кода и пояснениями.
-weight: 90
-url: /ru/net/programming-with-document/createpdfa1withasposepdf/
+"description": "Узнайте, как создавать файлы PDF/A-1 с помощью Aspose.PDF для .NET в этом подробном руководстве. Пошаговое руководство с примерами кода и пояснениями."
+"linktitle": "Создать PDF A1 с помощью Aspose Pdf"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Создать PDF A1 с помощью Aspose Pdf"
+"url": "/ru/net/programming-with-document/createpdfa1withasposepdf/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать PDF A1 с помощью Aspose Pdf
@@ -21,10 +23,10 @@ url: /ru/net/programming-with-document/createpdfa1withasposepdf/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас все настроено. Вот что вам понадобится:
 
-1.  Aspose.PDF для .NET – Загрузите и установите с[Скачать PDF-файл Aspose](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF для .NET – Загрузите и установите с [Скачать PDF-файл Aspose](https://releases.aspose.com/pdf/net/).
 2. Среда .NET — убедитесь, что у вас установлен .NET (совместимый с .NET Core или .NET Framework).
 3. IDE для разработки – Microsoft Visual Studio или любая совместимая IDE.
-4. Временная или полная лицензия — получите[бесплатная пробная версия](https://releases.aspose.com/) или[временная лицензия](https://purchase.aspose.com/temporary-license/) для неограниченного использования.
+4. Временная или полная лицензия — получите [бесплатная пробная версия](https://releases.aspose.com/) или [временная лицензия](https://purchase.aspose.com/temporary-license/) для неограниченного использования.
 5. Базовые знания C# – базовое понимание программирования на C# и .NET.
 
 ## Импортные пакеты
@@ -51,7 +53,7 @@ using System.IO;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-- dataDir: Эта переменная содержит путь к каталогу, в котором вы сохраните сгенерированный PDF-файл. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем в вашей системе.
+- dataDir: Эта переменная содержит путь к каталогу, в котором вы сохраните сгенерированный PDF-файл. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем в вашей системе.
 
 ## Шаг 2: Создайте новый PDF-документ
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document pdf1 = new Aspose.Pdf.Document();
 ```
 
--  Документ pdf1: Эта строка создает новый экземпляр`Document` класс, представляющий ваш пустой PDF-файл.
+- Документ pdf1: Эта строка создает новый экземпляр `Document` класс, представляющий ваш пустой PDF-файл.
 
 ## Шаг 3: Добавьте страницу и текст в PDF-файл
 
@@ -72,11 +74,11 @@ pdf1.Pages.Add().Paragraphs.Add(new TextFragment("Hello World!"));
 ```
 
 - Pages.Add(): добавляет новую пустую страницу в ваш PDF-документ.
--  Paragraphs.Add(): Добавляет абзац на страницу. В этом случае мы добавляем`TextFragment` содержащий текст «Привет, мир!»
+- Paragraphs.Add(): Добавляет абзац на страницу. В этом случае мы добавляем `TextFragment` содержащий текст «Привет, мир!»
 
 ## Шаг 4: Сохраните PDF-файл в памяти
 
- После добавления контента нам нужно сохранить PDF. Здесь мы сохраним его в`MemoryStream`, что позволяет нам при необходимости дополнительно манипулировать PDF-файлом.
+После добавления контента нам нужно сохранить PDF. Здесь мы сохраним его в `MemoryStream`, что позволяет нам при необходимости дополнительно манипулировать PDF-файлом.
 
 ```csharp
 MemoryStream ms = new MemoryStream();
@@ -99,9 +101,9 @@ pdf1.Save(ms);
 - PdfFormat.PDF_A_1A: определяет формат PDF/A-1A, который является одним из самых строгих архивных форматов.
 - ConvertErrorAction.Delete: удаляет все объекты, не соответствующие формату PDF/A.
 
- Примечание:`Convert()` Метод здесь закомментирован. Убедитесь, что вы правильно реализовали его в своем коде.
+Примечание: `Convert()` Метод здесь закомментирован. Убедитесь, что вы правильно реализовали его в своем коде.
 
-## Шаг 6: Сохраните окончательный PDF-файл на диске
+## Шаг 6: Сохраните финальный PDF-файл на диске
 
 Наконец, сохраним PDF-документ на диске в указанном каталоге.
 
@@ -122,19 +124,21 @@ pdf1.Save(dataDir + "CreatePdfA1_out.pdf");
 PDF/A-1 — это стандартизированный формат, предназначенный для долгосрочного хранения документов, гарантирующий, что файлы останутся доступными и просматриваемыми в течение многих лет.
 
 ### Могу ли я преобразовать существующий PDF-файл в PDF/A-1 с помощью Aspose.PDF?  
- Да, Aspose.PDF для .NET позволяет конвертировать существующие PDF-файлы в формат PDF/A-1 с помощью`Convert()` метод.
+Да, Aspose.PDF для .NET позволяет конвертировать существующие PDF-файлы в формат PDF/A-1 с помощью `Convert()` метод.
 
 ### Как установить Aspose.PDF для .NET?  
- Вы можете загрузить Aspose.PDF для .NET с сайта[Страница релизов Aspose](https://releases.aspose.com/pdf/net/)и легко установить его в свой проект .NET через NuGet.
+Вы можете загрузить Aspose.PDF для .NET с сайта [Страница релизов Aspose](https://releases.aspose.com/pdf/net/)и легко установить его в свой проект .NET через NuGet.
 
 ### Могу ли я попробовать Aspose.PDF бесплатно?  
- Конечно! Aspose предлагает[бесплатная пробная версия](https://releases.aspose.com/) и а[временная лицензия](https://purchase.aspose.com/temporary-license/) для тестирования всех возможностей библиотеки.
+Конечно! Aspose предлагает [бесплатная пробная версия](https://releases.aspose.com/) и а [временная лицензия](https://purchase.aspose.com/temporary-license/) для тестирования всех возможностей библиотеки.
 
 ### Каковы преимущества использования PDF/A-1?  
 Формат PDF/A-1 обеспечивает целостность документов, широко применяется для архивирования и гарантирует, что ваши документы останутся доступными в будущем.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

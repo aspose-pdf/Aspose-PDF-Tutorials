@@ -8,7 +8,9 @@ url: /net/programming-with-text/search-text-and-add-hyperlink/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Search Text And Add Hyperlink
@@ -174,6 +176,7 @@ You can request a temporary license [here](https://purchase.aspose.com/temporary
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

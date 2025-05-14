@@ -1,14 +1,16 @@
 ---
-title: แปลงไฟล์ PDF เป็นรูปแบบ PPTX
-linktitle: แปลงไฟล์ PDF เป็นรูปแบบ PPTX
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีแปลงไฟล์ PDF เป็นรูปแบบ PPTX โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการแปลงที่ราบรื่น
-weight: 19
-url: /th/java/pdf-conversion-transformation/convert-pdfs-to-pptx-format/
+"description": "เรียนรู้วิธีแปลงไฟล์ PDF เป็นรูปแบบ PPTX โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับการแปลงที่ราบรื่น"
+"linktitle": "แปลงไฟล์ PDF เป็นรูปแบบ PPTX"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "แปลงไฟล์ PDF เป็นรูปแบบ PPTX"
+"url": "/th/java/pdf-conversion-transformation/convert-pdfs-to-pptx-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงไฟล์ PDF เป็นรูปแบบ PPTX
@@ -20,7 +22,7 @@ url: /th/java/pdf-conversion-transformation/convert-pdfs-to-pptx-format/
 
 ## Aspose.PDF สำหรับ Java คืออะไร?
 
-Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที่ช่วยให้นักพัฒนาสามารถทำงานกับเอกสาร PDF ในแอปพลิเคชัน Java ได้ โดยไลบรารีนี้มีคุณสมบัติมากมายสำหรับการสร้าง จัดการ และแปลงไฟล์ PDF หนึ่งในฟังก์ชันหลักคือความสามารถในการแปลง PDF เป็นรูปแบบต่างๆ รวมถึง PPTX
+Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที่ช่วยให้นักพัฒนาสามารถทำงานกับเอกสาร PDF ในแอปพลิเคชัน Java ได้ โดยมีคุณสมบัติมากมายสำหรับการสร้าง จัดการ และแปลงไฟล์ PDF หนึ่งในฟังก์ชันหลักคือความสามารถในการแปลง PDF เป็นรูปแบบต่างๆ รวมถึง PPTX
 
 ## เหตุใดจึงแปลงไฟล์ PDF เป็น PPTX?
 
@@ -36,7 +38,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที
 
 ## เริ่มต้นใช้งาน Aspose.PDF สำหรับ Java
 
- ในการเริ่มต้น คุณต้องติดตั้ง Aspose.PDF สำหรับ Java ไว้ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+ในการเริ่มต้น คุณต้องติดตั้ง Aspose.PDF สำหรับ Java ไว้ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## กำลังโหลดเอกสาร PDF
 
@@ -104,10 +106,12 @@ Aspose.PDF สำหรับ Java รองรับ Java เวอร์ชั
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบและตัวอย่างโค้ดที่ครอบคลุมบนเว็บไซต์ Aspose ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารประกอบและตัวอย่างโค้ดที่ครอบคลุมได้บนเว็บไซต์ Aspose ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

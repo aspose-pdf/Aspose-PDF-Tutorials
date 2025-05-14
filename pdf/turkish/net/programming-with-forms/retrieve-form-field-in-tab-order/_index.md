@@ -1,14 +1,16 @@
 ---
-title: Form Alanını Sekme Sırasında Al
-linktitle: Form Alanını Sekme Sırasında Al
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak form alanlarını sekme sırasına göre nasıl alacağınızı ve değiştireceğinizi öğrenin. PDF form gezinmesini kolaylaştırmak için kod örnekleri içeren adım adım kılavuz.
-weight: 240
-url: /tr/net/programming-with-forms/retrieve-form-field-in-tab-order/
+"description": "Aspose.PDF for .NET kullanarak form alanlarını sekme sırasına göre nasıl alacağınızı ve değiştireceğinizi öğrenin. PDF form gezinmesini kolaylaştırmak için kod örnekleri içeren adım adım kılavuz."
+"linktitle": "Form Alanını Sekme Sırasında Al"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Form Alanını Sekme Sırasında Al"
+"url": "/tr/net/programming-with-forms/retrieve-form-field-in-tab-order/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Form Alanını Sekme Sırasında Al
@@ -21,7 +23,7 @@ PDF belgelerini yönetmek ve özellikle etkileşimli alanlarla beklendiği gibi 
 
 Koda dalmadan önce, tüm temel ayarların yapıldığından emin olalım:
 
-- .NET için Aspose.PDF: Projenizde Aspose.PDF kütüphanesinin kurulu olması gerekir. Eğer henüz yoksa, indirin[Burada](https://releases.aspose.com/pdf/net/).
+- .NET için Aspose.PDF: Projenizde Aspose.PDF kütüphanesinin kurulu olması gerekir. Eğer henüz yoksa, indirin [Burada](https://releases.aspose.com/pdf/net/).
 - Geliştirme Ortamı: Visual Studio gibi bir C# geliştirme ortamı kurun.
 - .NET Framework: Sisteminizde .NET'in yüklü olduğundan emin olun.
 - PDF Belgesi: Test için form alanlarını içeren bir PDF belgeniz olsun.
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Test2.pdf");
 ```
 
- Burada, şunu başlatıyoruz:`Document`çalışmak istediğimiz PDF'e giden yolu geçirerek nesne. Yolun belgenizin depolandığı konumu gösterdiğinden emin olun.
+Burada, şunu başlatıyoruz: `Document` çalışmak istediğimiz PDF'e giden yolu geçirerek nesne. Yolun belgenizin depolandığı konumu gösterdiğinden emin olun.
 
 ## Adım 2: İlk Sayfaya Erişim
 
@@ -65,7 +67,7 @@ Bu satır PDF'in ilk sayfasını getirir. Form alanlarınız birden fazla sayfay
 
 ## Adım 3: Alanları Sekme Sırasına Göre Alın
 
- Şimdi ilginç kısım geliyor: form alanlarını sekme sırasına göre almak.`FieldsInTabOrder` özelliği, kullanıcının Tab tuşunu kullanarak formda gezinirken alanların görünmesi gereken sıraya göre getirilmesine yardımcı olur.
+Şimdi ilginç kısım geliyor: form alanlarını sekme sırasına göre almak. `FieldsInTabOrder` özelliği, kullanıcı Tab tuşunu kullanarak formda gezindiğinde alanların görünmesi gereken sıraya göre getirilmesine yardımcı olur.
 
 ```csharp
 IList<Field> fields = page.FieldsInTabOrder;
@@ -85,11 +87,11 @@ foreach (Field field in fields)
 }
 ```
 
-Burada, listedeki her alanı dolaşıp birleştiriyoruz`PartialName` her alanın`PartialName` PDF belgesindeki form alanının adını temsil eder. Bu adım özellikle alan adlarını hata ayıklamak veya doğrulamak için yararlıdır.
+Burada, listedeki her alanı dolaşıp birleştiriyoruz `PartialName` her alanın `PartialName` PDF belgesindeki form alanının adını temsil eder. Bu adım özellikle alan adlarını hata ayıklamak veya doğrulamak için yararlıdır.
 
 ## Adım 5: Sekme Sırasını Değiştirin
 
-Bazen, kullanıcı deneyimini iyileştirmek için form alanlarının sekme sırasını değiştirmek isteyebilirsiniz. Örneğin, form ilk alanın üçüncü, üçüncü alanın da birinci olmasını gerektirebilir. Sekme sırasını şu şekilde ayarlayabilirsiniz:
+Bazen, kullanıcı deneyimini iyileştirmek için form alanlarının sekme sırasını değiştirmek isteyebilirsiniz. Örneğin, form ilk alanın üçüncü, üçüncü alanın da ilk olmasını gerektirebilir. Sekme sırasını şu şekilde ayarlayabilirsiniz:
 
 ```csharp
 (doc.Form[3] as Field).TabOrder = 1;
@@ -97,9 +99,9 @@ Bazen, kullanıcı deneyimini iyileştirmek için form alanlarının sekme sıra
 (doc.Form[2] as Field).TabOrder = 3;
 ```
 
- Bu örnekte, formdaki üç alanın sekme sırasını değiştiriyoruz. Bunu ayarlayabilirsiniz`TabOrder` İstediğiniz sıralamaya uygun özelliği seçin.
+Bu örnekte, formdaki üç alanın sekme sırasını değiştiriyoruz. Bunu ayarlayabilirsiniz `TabOrder` İstediğiniz sıralamaya uygun özelliği seçin.
 
-## Adım 6: Değiştirilen PDF'yi Kaydedin
+## Adım 6: Değiştirilen PDF'yi kaydedin
 
 Sekme sırasını güncelledikten sonra, değişikliklerle birlikte PDF'yi kaydetmek isteyeceksiniz. Bu, değişikliklerinizin belgeye yansıtıldığından emin olmak için kritik bir adımdır.
 
@@ -111,7 +113,7 @@ Bu, güncellenen PDF'yi yeni bir dosyaya kaydeder. Orijinal belgenizin üzerine 
 
 ## Adım 7: Değişiklikleri Doğrulayın
 
-PDF'yi kaydettikten sonra, belgeyi yeniden açmak ve değişikliklerin doğru bir şekilde uygulandığını doğrulamak iyi bir fikirdir. Değişiklikten sonra sekme sırasını şu şekilde kontrol edebilirsiniz:
+PDF'yi kaydettikten sonra, belgeyi yeniden açmak ve değişikliklerin doğru şekilde uygulandığını doğrulamak iyi bir fikirdir. Değişiklikten sonra sekme sırasını şu şekilde kontrol edebilirsiniz:
 
 ```csharp
 Document doc1 = new Document(dataDir + "39522_out.pdf");
@@ -135,20 +137,22 @@ Ve işte karşınızda! PDF belgelerinde form alanı sekme sırasını almak ve 
 ### Bu yöntemi çok sayfalı PDF formlarına uygulayabilir miyim?  
 Evet yapabilirsiniz. Form alanlarının bulunduğu belirli sayfaya erişmeniz ve aynı yöntemi uygulamanız yeterlidir.
 
-### Aspose.PDF for .NET'i projeme nasıl yüklerim?  
-Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/net/) ve NuGet'i kullanarak Visual Studio'ya entegre edin.
+### Projemde .NET için Aspose.PDF'yi nasıl kurarım?  
+Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/net/) ve NuGet'i kullanarak Visual Studio'ya entegre edin.
 
 ### Aynı sayfadaki alanları yeniden sıralayabilir miyim?  
- Kesinlikle! Sadece şunu kullanın`TabOrder`Herhangi bir sayfadaki alanların sırasını özelleştirme özelliği.
+Kesinlikle! Sadece şunu kullanın `TabOrder` Herhangi bir sayfadaki alanların sırasını özelleştirme özelliği.
 
 ### Sekme sırasını belirtmezsem ne olur?  
 Sekme sırasını açıkça ayarlamazsanız, alanlar PDF'ye nasıl eklendiklerine bağlı olarak varsayılan sırayı izleyecektir.
 
 ### Yeni form alanlarını programlı olarak eklemek mümkün müdür?  
 Evet, Aspose.PDF yeni form alanlarını programlı olarak oluşturmanıza ve eklemenize olanak tanır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

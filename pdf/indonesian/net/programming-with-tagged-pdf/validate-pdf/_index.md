@@ -1,14 +1,16 @@
 ---
-title: Validasi File PDF
-linktitle: Validasi File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memvalidasi file PDF dengan Aspose.PDF untuk .NET. Periksa kepatuhannya terhadap standar dan buat laporan validasi.
-weight: 240
-url: /id/net/programming-with-tagged-pdf/validate-pdf/
+"description": "Pelajari cara memvalidasi file PDF dengan Aspose.PDF untuk .NET. Periksa kepatuhannya terhadap standar dan buat laporan validasi."
+"linktitle": "Validasi File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Validasi File PDF"
+"url": "/id/net/programming-with-tagged-pdf/validate-pdf/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validasi File PDF
@@ -22,7 +24,7 @@ Dalam lanskap digital saat ini, PDF merupakan salah satu format yang paling umum
 Sebelum kita masuk ke inti proses validasi file PDF, Anda perlu menyiapkan beberapa hal. Berikut ini daftar periksa:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio versi terbaru di komputer Anda karena kita akan menulis kode .NET di sini.
-2.  Pustaka Aspose.PDF untuk .NET: Anda harus memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/pdf/net/)Atau, Anda dapat memperoleh lisensi sementara jika Anda lebih suka menguji pustaka tanpa batasan apa pun, tersedia[Di Sini](https://purchase.aspose.com/temporary-license/).
+2. Pustaka Aspose.PDF untuk .NET: Anda harus memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/pdf/net/)Atau, Anda dapat memperoleh lisensi sementara jika Anda lebih suka menguji pustaka tanpa batasan apa pun, tersedia [Di Sini](https://purchase.aspose.com/temporary-license/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# dan pemahaman tentang cara bekerja dengan pustaka akan bermanfaat.
 4. Berkas PDF untuk Divalidasi: Siapkan PDF Anda untuk pengujian. Untuk contoh kita, kita akan menggunakan berkas bernama “StructureElements.pdf”.
 
@@ -67,7 +69,7 @@ Pertama, kita perlu membuat string yang menunjuk ke direktori tempat file PDF ki
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Penjelasan: Ganti`YOUR DOCUMENT DIRECTORY` dengan jalur tempat Anda menyimpan “StructureElements.pdf”. Ini bisa jadi seperti ini`C:\Users\YourName\Documents\`.
+Penjelasan: Ganti `YOUR DOCUMENT DIRECTORY` dengan jalur tempat Anda menyimpan “StructureElements.pdf”. Ini bisa jadi seperti ini `C:\Users\YourName\Documents\`.
 
 ## Langkah 2: Tentukan Nama File Input dan Output
 
@@ -78,7 +80,7 @@ string inputFileName = dataDir + "StructureElements.pdf";
 string outputLogName = dataDir + "ua-20.xml";
 ```
 
- Penjelasan:`inputFileName` adalah PDF yang akan kami validasi, dan`outputLogName` adalah tempat kita akan menulis hasil validasi, diformat sebagai “ua-20.xml”.
+Penjelasan: `inputFileName` adalah PDF yang akan kami validasi, dan `outputLogName` adalah tempat kita akan menulis hasil validasi, diformat sebagai “ua-20.xml”.
 
 ## Langkah 3: Muat Dokumen PDF
 
@@ -91,7 +93,7 @@ using (var document = new Aspose.Pdf.Document(inputFileName))
 }
 ```
 
- Penjelasan:`using`pernyataan tersebut memastikan bahwa dokumen akan dibuang dengan benar setelah kita selesai mengerjakannya, membantu mengelola memori secara efektif.
+Penjelasan: `using` pernyataan tersebut memastikan bahwa dokumen akan dibuang dengan benar setelah kita selesai mengerjakannya, membantu mengelola memori secara efektif.
 
 ## Langkah 4: Validasi Dokumen PDF
 
@@ -101,7 +103,7 @@ Setelah dokumen PDF dimuat, kita dapat melakukan validasi terhadap format PDF/UA
 bool isValid = document.Validate(outputLogName, Aspose.Pdf.PdfFormat.PDF_UA_1);
 ```
 
- Penjelasan: Baris ini menggunakan`Validate` metode dari`Document` kelas. Ia memeriksa dokumen untuk kepatuhan dengan standar PDF/UA-1 (Aksesibilitas Universal). Jika struktur PDF valid, ia mengembalikan`true`; jika tidak, ia akan mencatat detail validasi ke berkas keluaran yang ditentukan.
+Penjelasan: Baris ini menggunakan `Validate` metode dari `Document` kelas. Ia memeriksa dokumen untuk kepatuhan dengan standar PDF/UA-1 (Aksesibilitas Universal). Jika struktur PDF valid, ia mengembalikan `true`; jika tidak, ia akan mencatat detail validasi ke berkas keluaran yang ditentukan.
 
 ## Langkah 5: Periksa Hasil Validasi
 
@@ -118,7 +120,7 @@ else
 }
 ```
 
- Penjelasan: Di sini, kami memberikan umpan balik kepada pengguna berdasarkan hasil validasi. Jika dokumen tidak valid, pengecekan`ua-20.xml` berkas akan mengungkap masalah yang perlu diperbaiki.
+Penjelasan: Di sini, kami memberikan umpan balik kepada pengguna berdasarkan hasil validasi. Jika dokumen tidak valid, pengecekan `ua-20.xml` berkas akan mengungkap masalah yang perlu diperbaiki.
 
 ## Kesimpulan
 
@@ -133,16 +135,18 @@ PDF/UA adalah singkatan dari PDF Universal Accessibility, sebuah standar yang me
 Contoh saat ini memvalidasi satu PDF dalam satu waktu. Namun, Anda dapat mengubah kode untuk mengulang beberapa file dalam satu direktori.
 
 ### Di mana saya dapat menemukan dokumentasi tambahan?  
- Anda dapat memeriksa[Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) untuk rincian lebih lanjut tentang fitur dan fungsi lanjutan.
+Anda dapat memeriksa [Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) untuk rincian lebih lanjut tentang fitur dan fungsi lanjutan.
 
 ### Apa yang harus saya lakukan jika PDF saya tidak valid?  
 Tinjau file log keluaran (`ua-20.xml`) untuk masalah tertentu, lalu perbarui PDF Anda untuk mengatasi kesalahan yang dicatat dalam log.
 
 ### Bisakah saya mendapatkan versi uji coba Aspose.PDF?  
- Ya! Anda dapat mengunduh versi uji coba gratis dari[Aspose merilis halaman](https://releases.aspose.com/).
+Ya! Anda dapat mengunduh versi uji coba gratis dari [Aspose merilis halaman](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

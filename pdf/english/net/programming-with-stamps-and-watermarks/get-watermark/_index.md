@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/get-watermark/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Watermark From PDF File
@@ -123,6 +125,7 @@ Yes, Aspose.PDF is compatible with both .NET Framework and .NET Core, making it 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

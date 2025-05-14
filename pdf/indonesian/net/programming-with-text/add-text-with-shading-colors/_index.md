@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Teks Dengan Warna Bayangan Dalam File PDF
-linktitle: Tambahkan Teks Dengan Warna Bayangan Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan bayangan teks dalam file PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Sesuaikan dokumen Anda dengan gradien berwarna.
-weight: 80
-url: /id/net/programming-with-text/add-text-with-shading-colors/
+"description": "Pelajari cara menambahkan bayangan teks dalam file PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Sesuaikan dokumen Anda dengan gradien berwarna."
+"linktitle": "Tambahkan Teks Dengan Warna Bayangan Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Teks Dengan Warna Bayangan Dalam File PDF"
+"url": "/id/net/programming-with-text/add-text-with-shading-colors/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Teks Dengan Warna Bayangan Dalam File PDF
@@ -21,11 +23,11 @@ Pernahkah Anda merasa perlu membuat dokumen PDF lebih menonjol secara visual den
 
 Sebelum mempelajari kodenya, ada beberapa hal yang perlu Anda siapkan untuk mengikuti tutorial ini. Berikut ini yang Anda perlukan:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru Aspose.PDF. Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru Aspose.PDF. Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 2. IDE (Integrated Development Environment): Anda dapat menggunakan IDE apa pun yang kompatibel dengan .NET, tetapi Visual Studio sangat disarankan.
 3. Pengetahuan Dasar C#: Anda harus terbiasa dengan sintaksis C# dan lingkungan .NET.
 4. Contoh Berkas PDF: Anda memerlukan contoh berkas PDF untuk digunakan. Jika tidak memilikinya, Anda dapat membuat PDF teks sederhana, atau menggunakan berkas apa pun yang sudah ada untuk demonstrasi.
-5.  Lisensi Aspose.PDF: Meskipun Anda dapat mencoba Aspose.PDF dengan[lisensi sementara](https://purchase.aspose.com/temporary-license/), Anda juga dapat menjelajahi fitur-fiturnya menggunakan uji coba gratis.
+5. Lisensi Aspose.PDF: Meskipun Anda dapat mencoba Aspose.PDF dengan [lisensi sementara](https://purchase.aspose.com/temporary-license/), Anda juga dapat menjelajahi fitur-fiturnya menggunakan uji coba gratis.
 
 ## Paket Impor
 
@@ -49,11 +51,11 @@ Pertama-tama, Anda perlu menentukan lokasi dokumen Anda. Anggap saja ini sebagai
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Ini memastikan kode Anda mengetahui tempat untuk mencari dan tempat untuk menyimpan dokumen yang diedit.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Ini memastikan kode Anda mengetahui tempat untuk mencari dan tempat untuk menyimpan dokumen yang diedit.
 
 ## Langkah 2: Muat Dokumen PDF yang Ada
 
-Setelah Anda mengatur direktori dokumen, saatnya memuat berkas PDF yang ingin Anda edit. Dalam contoh ini, kami menggunakan berkas bernama`"text_sample4.pdf"`.
+Setelah Anda mengatur direktori dokumen, saatnya memuat berkas PDF yang ingin Anda edit. Dalam contoh ini, kami menggunakan berkas bernama `"text_sample4.pdf"`.
 
 ```csharp
 using (Document pdfDocument = new Document(dataDir + "text_sample4.pdf"))
@@ -62,7 +64,7 @@ using (Document pdfDocument = new Document(dataDir + "text_sample4.pdf"))
 }
 ```
 
- Itu`Document` objek dari Aspose.PDF akan membantu kita membuka dan bekerja dengan PDF.
+Itu `Document` objek dari Aspose.PDF akan membantu kita membuka dan bekerja dengan PDF.
 
 ## Langkah 3: Mencari Teks Tertentu Menggunakan TextFragmentAbsorber
 
@@ -73,7 +75,7 @@ TextFragmentAbsorber absorber = new TextFragmentAbsorber("Lorem ipsum");
 pdfDocument.Pages.Accept(absorber);
 ```
 
- Dalam contoh ini, kami mencari frasa “Lorem ipsum” dalam PDF.`Accept` metode memproses halaman dan memungkinkan penyerap untuk mengidentifikasi fragmen teks.
+Dalam contoh ini, kami mencari frasa “Lorem ipsum” dalam PDF. `Accept` metode memproses halaman dan memungkinkan penyerap untuk mengidentifikasi fragmen teks.
 
 ## Langkah 4: Akses Fragmen Teks yang Ingin Anda Ubah
 
@@ -96,11 +98,11 @@ textFragment.TextState.ForegroundColor = new Aspose.Pdf.Color()
 };
 ```
 
- Ini menciptakan gradien halus dari merah ke biru pada teks yang dipilih.`PatternColorSpace` digunakan untuk menentukan efek warna khusus ini.
+Ini menciptakan gradien halus dari merah ke biru pada teks yang dipilih. `PatternColorSpace` digunakan untuk menentukan efek warna khusus ini.
 
 ## Langkah 6: Garis Bawah pada Teks (Opsional)
 
- Jika Anda ingin menambahkan garis bawah pada teks untuk penekanan ekstra, Anda dapat melakukannya dengan mengatur`Underline` properti untuk`true`.
+Jika Anda ingin menambahkan garis bawah pada teks untuk penekanan ekstra, Anda dapat melakukannya dengan mengatur `Underline` properti untuk `true`.
 
 ```csharp
 textFragment.TextState.Underline = true;
@@ -116,7 +118,7 @@ Terakhir, setelah bayangan dan modifikasi lain yang diinginkan diterapkan, simpa
 pdfDocument.Save(dataDir + "text_out.pdf");
 ```
 
- PDF yang dimodifikasi akan disimpan dengan nama`"text_out.pdf"`di direktori yang Anda tentukan sebelumnya. Sekarang, Anda dapat membuka berkas dan melihat teks yang diarsir dengan indah!
+PDF yang dimodifikasi akan disimpan dengan nama `"text_out.pdf"` di direktori yang Anda tentukan sebelumnya. Sekarang, Anda dapat membuka berkas dan melihat teks yang diarsir dengan indah!
 
 ## Kesimpulan
 
@@ -132,16 +134,18 @@ Ya! Dengan mengulangi koleksi TextFragments, Anda dapat menerapkan bayangan pada
 Tentu saja! Anda dapat menentukan warna apa pun yang Anda inginkan untuk gradien menggunakan GradientAxialShading.
 
 ### Apakah saya memerlukan lisensi berbayar untuk menggunakan fitur ini?
- Anda dapat mencoba fitur ini menggunakan[uji coba gratis](https://releases.aspose.com/) atau sebuah[lisensi sementara](https://purchase.aspose.com/temporary-license/), tetapi untuk fungsionalitas penuh, lisensi berbayar direkomendasikan.
+Anda dapat mencoba fitur ini menggunakan [uji coba gratis](https://releases.aspose.com/) atau sebuah [lisensi sementara](https://purchase.aspose.com/temporary-license/), tetapi untuk fungsionalitas penuh, lisensi berbayar direkomendasikan.
 
 ### Bagaimana cara mengubah gaya font teks?
- Anda dapat mengubah properti seperti ukuran font, gaya, dan ketebalan melalui objek TextState dengan mengatur properti seperti`FontSize` Dan`FontStyle`.
+Anda dapat mengubah properti seperti ukuran font, gaya, dan ketebalan melalui objek TextState dengan mengatur properti seperti `FontSize` Dan `FontStyle`.
 
 ### Bisakah saya menambahkan bayangan pada teks yang baru ditambahkan?
 Ya, Anda dapat menambahkan teks baru ke PDF dan menerapkan bayangan menggunakan metode yang sama yang dibahas dalam panduan ini.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

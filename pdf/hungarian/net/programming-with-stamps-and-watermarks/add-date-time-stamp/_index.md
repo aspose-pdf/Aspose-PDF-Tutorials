@@ -1,55 +1,57 @@
 ---
-title: Dátum és időbélyeg hozzáadása PDF-fájlhoz
-linktitle: Dátum és időbélyeg hozzáadása PDF-fájlhoz
-second_title: Aspose.PDF for .NET API Reference
-description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan adhat hozzá dátum- és időbélyegzőt PDF-fájljaihoz az Aspose.PDF for .NET használatával. Tökéletes a dokumentumok hitelességének javítására.
-weight: 10
-url: /hu/net/programming-with-stamps-and-watermarks/add-date-time-stamp/
+"description": "Tanuld meg, hogyan adhatsz dátum- és időbélyeget PDF-fájljaidhoz az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes a dokumentumok hitelességének fokozásához."
+"linktitle": "Dátum-időbélyeg hozzáadása PDF fájlhoz"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Dátum-időbélyeg hozzáadása PDF fájlhoz"
+"url": "/hu/net/programming-with-stamps-and-watermarks/add-date-time-stamp/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dátum és időbélyeg hozzáadása PDF-fájlhoz
+# Dátum-időbélyeg hozzáadása PDF fájlhoz
 
 ## Bevezetés
 
-Amikor a dokumentumok, különösen a PDF-ek kezeléséről van szó, a dátum- és időbélyegző hozzáadása komoly változást hozhat. Akár jogi dokumentumokon, projektjelentéseken vagy számlákon dolgozik, az időbélyeg nemcsak hitelességet ad, hanem egyértelműen rögzíti a dokumentum létrehozásának vagy módosításának időpontját is. Ebben az útmutatóban végigvezetjük a dátum- és időbélyegző PDF-fájlhoz való hozzáadásának folyamatán az Aspose.PDF .NET könyvtár használatával. 
+dokumentumok, különösen a PDF-ek kezelése terén a dátum- és időbélyeg hozzáadása gyökeresen megváltoztathatja a játékszabályokat. Akár jogi dokumentumokon, projektjelentéseken vagy számlákon dolgozik, az időbélyeg nemcsak hitelességet biztosít, hanem egyértelmű nyilvántartást is biztosít arról, hogy mikor készült vagy módosították a dokumentumot. Ebben az útmutatóban végigvezetjük Önt a dátum- és időbélyeg PDF-fájlhoz való hozzáadásának folyamatán az Aspose.PDF .NET-hez készült könyvtár használatával. 
 
-Ez a cikk úgy lett megalkotva, hogy egyértelmű és könnyen követhető legyen, így még akkor is magabiztosan megvalósíthatja ezt a funkciót, ha még kezdő a programozásban vagy az Aspose.PDF könyvtárban. Merüljünk el!
+Ez a cikk könnyen érthető és érthető, így még ha újonc vagy a programozásban vagy az Aspose.PDF könyvtárban, magabiztosan be tudod majd vezetni ezt a funkciót. Vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, meg kell felelnie néhány előfeltételnek:
+Mielőtt belekezdenénk, van néhány előfeltétel, aminek teljesülnie kell:
 
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Itt kell írni és végrehajtani a kódot.
-2. Aspose.PDF for .NET: Le kell töltenie és telepítenie kell az Aspose.PDF könyvtárat. Megtalálhatja a legújabb verziót[itt](https://releases.aspose.com/pdf/net/).
-3. Alapvető C# ismeretek: A C# programozás ismerete segít jobban megérteni a példákat, de ne aggódjon, ha még csak most kezdi; mindent elmagyarázunk lépésről lépésre.
-4.  PDF-fájl: Készítsen PDF-mintafájlt. Példánkban egy nevű fájlt fogunk használni`AddTextStamp.pdf`.
+1. Visual Studio: Győződjön meg róla, hogy a Visual Studio telepítve van a gépén. Itt fogja megírni és végrehajtani a kódot.
+2. Aspose.PDF .NET-hez: Le kell töltened és telepítened az Aspose.PDF könyvtárat. A legújabb verziót itt találod: [itt](https://releases.aspose.com/pdf/net/).
+3. C# alapismeretek: A C# programozással való ismeret segít jobban megérteni a példákat, de ne aggódj, ha most kezded; mindent lépésről lépésre elmagyarázunk.
+4. PDF-fájl: Készítsen elő egy minta PDF-fájlt. Példánkban egy nevű fájlt fogunk használni. `AddTextStamp.pdf`.
 
-Ha ezekkel az előfeltételekkel rendelkezik, készen áll arra, hogy dátum- és időbélyegzőket adjon PDF-fájljaihoz!
+Miután megvannak ezek az előfeltételek, elkezdheti hozzáadni a dátum- és időbélyegeket a PDF-fájljaihoz!
 
 ## Csomagok importálása
 
-A kezdéshez importálnia kell a szükséges névtereket a C# projektbe. Íme, hogyan kell csinálni:
+Kezdéshez importálnod kell a szükséges névtereket a C# projektedbe. Így teheted meg:
 
-### Hozzon létre egy új projektet
+### Új projekt létrehozása
 
-1. A Visual Studio megnyitása: Indítsa el a Visual Studio alkalmazást.
-2. Új projekt létrehozása: A kezdőképernyőn válassza az „Új projekt létrehozása” lehetőséget.
-3. Válassza a Konzolalkalmazást: Válassza a „Konzolalkalmazás (.NET-keretrendszer)” lehetőséget a projektsablonok listájából.
-4.  Nevezze el projektjét: Adjon nevet a projektnek, például`PDFDateTimeStamp`.
+1. Nyissa meg a Visual Studio-t: Indítsa el a Visual Studio alkalmazást.
+2. Új projekt létrehozása: Válassza az „Új projekt létrehozása” lehetőséget a kezdőképernyőn.
+3. Konzolalkalmazás kiválasztása: Válassza a „Konzolalkalmazás (.NET-keretrendszer)” lehetőséget a projektsablonok listájából.
+4. Nevezd el a projekted: Adj nevet a projektednek, például `PDFDateTimeStamp`.
 
-### Adja hozzá az Aspose.PDF hivatkozást
+### Aspose.PDF referencia hozzáadása
 
-1. Kattintson a jobb gombbal a Referenciákra: A Solution Explorerben kattintson jobb gombbal a projekt „References” mappájára.
-2. Válassza a „Referencia hozzáadása” lehetőséget: Válassza a „Hivatkozás hozzáadása” lehetőséget a helyi menüből.
-3. Keresse meg az Aspose.PDF fájlt: Navigáljon arra a helyre, ahonnan letöltötte az Aspose.PDF fájlt, és válassza ki. Kattintson az „OK” gombra, hogy hozzáadja a projekthez.
+1. Jobb klikk a Referenciákon: A Megoldáskezelőben kattints jobb klikkel a projekted „Referenciák” mappájára.
+2. „Hivatkozás hozzáadása” kiválasztása: Válassza a „Hivatkozás hozzáadása” lehetőséget a helyi menüből.
+3. Böngésszen az Aspose.PDF fájl megkeresése: Navigáljon arra a helyre, ahová letöltötte az Aspose.PDF fájlt, és jelölje ki. Kattintson az „OK” gombra a projekthez való hozzáadáshoz.
 
-### Importálja a szükséges névtereket
+### Szükséges névterek importálása
 
- A te tetején`Program.cs` fájlt, importálnia kell a következő névtereket:
+A te tetején `Program.cs` fájlban a következő névtereket kell importálnia:
 
 ```csharp
 using System.IO;
@@ -59,57 +61,57 @@ using System;
 using Aspose.Pdf.Annotations;
 ```
 
-Most, hogy mindent beállítottunk, bontsuk le a dátum- és időbélyegző PDF-fájlhoz adásának folyamatát egyértelmű, kezelhető lépésekre.
+Most, hogy mindent előkészítettünk, bontsuk le világos és könnyen kezelhető lépésekre a dátum- és időbélyeg PDF-fájlhoz való hozzáadásának folyamatát.
 
 ## 1. lépés: Állítsa be a dokumentumkönyvtárat
 
-Először is meg kell adnia a könyvtárat, ahol a PDF-fájl található. Ez döntő fontosságú, mert a kód ebben a könyvtárban keresi a PDF-fájlt.
+Először is meg kell adnia azt a könyvtárat, ahol a PDF-fájl található. Ez azért fontos, mert a kód ebben a könyvtárban fogja keresni a PDF-et.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // Cserélje ki a tényleges útvonalat
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Cserélje le a tényleges elérési útra
 ```
 
- Ügyeljen arra, hogy cserélje ki`YOUR DOCUMENT DIRECTORY` a PDF-fájl tényleges elérési útjával.
+Mindenképpen cserélje ki `YOUR DOCUMENT DIRECTORY` a PDF-fájl tényleges elérési útjával.
 
-## 2. lépés: Nyissa meg a PDF-dokumentumot
+## 2. lépés: Nyissa meg a PDF dokumentumot
 
-Ezután nyissa meg azt a PDF-dokumentumot, amelyhez hozzá szeretné adni az időbélyeget. 
+Ezután nyissa meg a PDF dokumentumot, amelyhez hozzá szeretné adni az időbélyeget. 
 
 ```csharp
-// Nyissa meg a dokumentumot
+// Dokumentum megnyitása
 Document pdfDocument = new Document(dataDir + "AddTextStamp.pdf");
 ```
 
- Ez a kódsor inicializálja a`Document` osztályba, és betölti a PDF-fájlt a`pdfDocument` objektum.
+Ez a kódsor inicializálja a `Document` osztály és betölti a PDF fájlt a `pdfDocument` objektum.
 
-## 3. lépés: Hozza létre a dátum-időbélyeget
+## 3. lépés: Dátum-időbélyeg létrehozása
 
-Most itt az ideje létrehozni a dátum- és időbélyegzőt. Meg kell formázni, hogy meghatározott módon jelenjen meg. 
+Most itt az ideje a dátum- és időbélyegző létrehozásának. Formázni fogod, hogy egy adott módon jelenjen meg. 
 
 ```csharp
 string annotationText = DateTime.Now.ToString("MM/dd/yy hh:mm:ss tt ");
 ```
 
- Itt,`DateTime.Now` lekéri az aktuális dátumot és időt, és`ToString` formázza a kívánt formátumra.
+Itt, `DateTime.Now` lekéri az aktuális dátumot és időt, és `ToString` formázza a kívánt formátumra.
 
-## 4. lépés: Hozzon létre egy szövegbélyeget
+## 4. lépés: Szövegbélyegző létrehozása
 
-Ha készen áll a dátum- és időkarakterlánc, létrehozhat egy szövegbélyeget, amely hozzáadódik a PDF-hez.
+Miután a dátum és idő karakterlánca elkészült, létrehozhat egy szövegbélyegzőt, amelyet hozzáad a PDF-hez.
 
 ```csharp
-// Szöveges bélyegző létrehozása
+// Szövegbélyeg létrehozása
 TextStamp textStamp = new TextStamp(annotationText);
 ```
 
- Ez a sor új példányt hoz létre a`TextStamp` a formázott dátum és idő karakterlánc használatával.
+Ez a sor egy új példányt hoz létre a következőből: `TextStamp` formázott dátum- és időkarakterlánc használatával.
 
-## 5. lépés: Állítsa be a bélyegző tulajdonságait
+## 5. lépés: A bélyegző tulajdonságainak beállítása
 
-Testreszabhatja a bélyegző megjelenését és helyzetét. A következőképpen állíthatja be a tulajdonságait:
+Testreszabhatja a bélyegző megjelenését és pozícióját. A tulajdonságait a következőképpen állíthatja be:
 
 ```csharp
-// Állítsa be a bélyegző tulajdonságait
+// A bélyegző tulajdonságainak beállítása
 textStamp.BottomMargin = 10;
 textStamp.RightMargin = 20;
 textStamp.HorizontalAlignment = Aspose.Pdf.HorizontalAlignment.Right;
@@ -118,20 +120,20 @@ textStamp.VerticalAlignment = VerticalAlignment.Bottom;
 
 Ebben a lépésben beállítjuk a margókat, és a bélyegzőt a PDF-oldal jobb alsó sarkához igazítjuk.
 
-## 6. lépés: Adja hozzá a bélyegzőt a PDF-hez
+## 6. lépés: Bélyegző hozzáadása a PDF-hez
 
-Itt az ideje, hogy hozzáadja a szövegbélyeget a PDF-dokumentumhoz. 
+Most itt az ideje, hogy hozzáadd a szövegbélyegzőt a PDF dokumentumodhoz. 
 
 ```csharp
-// Bélyegző hozzáadása a bélyeggyűjteményhez
+// Bélyeg hozzáadása a bélyeggyűjteményhez
 pdfDocument.Pages[1].AddStamp(textStamp);
 ```
 
-Ez a sor hozzáadja a bélyeget a PDF első oldalához. Megváltoztathatja az oldalszámot, ha másik oldalra szeretné helyezni.
+Ez a sor a PDF első oldalára helyezi a bélyegzőt. Módosíthatja az oldalszámot, ha egy másik oldalra szeretné helyezni.
 
-## 7. lépés: Hozzon létre egy szabad szöveges megjegyzést (opcionális)
+## 7. lépés: Szabad szöveges jegyzet létrehozása (opcionális)
 
-Ha megjegyzést szeretne adni a bélyegzőhöz, létrehozhat egy`FreeTextAnnotation` alábbiak szerint:
+Ha megjegyzést szeretne hozzáadni a bélyegzőhöz, létrehozhat egy `FreeTextAnnotation` alábbiak szerint:
 
 ```csharp
 DefaultAppearance default_appearance = new DefaultAppearance("Arial", 6, System.Drawing.Color.Black);
@@ -141,11 +143,11 @@ textAnnotation.Accept(new AnnotationSelector(textAnnotation));
 textAnnotation.Contents = textStamp.Value;
 ```
 
-Ez az opcionális lépés egy szabad szöveges megjegyzést hoz létre, amely további kontextust vagy információkat nyújthat a bélyegzőről.
+Ez az opcionális lépés egy szabad szöveges jegyzetet hoz létre, amely további kontextust vagy információkat nyújthat a bélyegzőről.
 
-## 8. lépés: Állítsa be a megjegyzésszegélyt
+## 8. lépés: A megjegyzésszegély konfigurálása
 
-Ha testre szeretné szabni a kommentár szegélyét, ezt is megteheti:
+Ha testre szeretnéd szabni a jegyzeted szegélyét, azt is megteheted:
 
 ```csharp
 Border border = new Border(textAnnotation);
@@ -156,9 +158,9 @@ textAnnotation.Rect = new Aspose.Pdf.Rectangle(0, 0, 0, 0);
 pdfDocument.Pages[1].Annotations.Add(textAnnotation);
 ```
 
-Ez a kódrészlet 0-ra állítja a szegély szélességét, így láthatatlanná teszi, és hozzáadja a megjegyzést a PDF-hez.
+Ez a kódrészlet a szegély szélességét 0-ra állítja, így láthatatlanná válik, és hozzáadja a megjegyzést a PDF-hez.
 
-## 9. lépés: Mentse el a PDF-dokumentumot
+## 9. lépés: Mentse el a PDF dokumentumot
 
 Végül el kell mentenie a módosított PDF dokumentumot. 
 
@@ -168,31 +170,33 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nDate time stamp added successfully.\nFile saved at " + dataDir);
 ```
 
-Ez a sor új fájlba menti a hozzáadott időbélyeggel ellátott PDF-fájlt. A kimenet megtekintéséhez ellenőrizheti a megadott könyvtárat.
+Ez a sor a hozzáadott időbélyeggel ellátott PDF-et egy új fájlba menti. A kimenet megtekintéséhez ellenőrizheti a megadott könyvtárat.
 
 ## Következtetés
 
-Gratulálok! Sikeresen hozzáadott egy dátum- és időbélyeget egy PDF-fájlhoz az Aspose.PDF for .NET használatával. Ezzel az egyszerű, de hatékony funkcióval javíthatja dokumentumait, professzionálisabbá teheti azokat, és egyértelműen rögzítheti, mikor készültek vagy módosítottak. 
+Gratulálunk! Sikeresen hozzáadott egy dátum- és időbélyegzőt egy PDF-fájlhoz az Aspose.PDF for .NET segítségével. Ez az egyszerű, mégis hatékony funkció javíthatja dokumentumai minőségét, professzionálisabbá teheti azokat, és egyértelműen feljegyezheti létrehozásuk vagy módosításuk időpontját. 
 
 ## GYIK
 
-### Testreszabhatom a dátumformátumot az időbélyegzőben?
- Igen, módosíthatja a`ToString`módszert a dátumformátum tetszés szerinti módosításához.
+### Testreszabhatom a dátumformátumot az időbélyegben?
+Igen, módosíthatja a `ToString` módszer a dátumformátum tetszés szerinti módosítására.
 
 ### Ingyenesen használható az Aspose.PDF?
- Az Aspose.PDF ingyenes próbaverziót kínál, de a teljes funkciók használatához licencet kell vásárolnia. Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+Az Aspose.PDF ingyenes próbaverziót kínál, de a teljes funkciók eléréséhez licencet kell vásárolnia. Ideiglenes licencet is vásárolhat. [itt](https://purchase.aspose.com/temporary-license/).
 
 ### Hozzáadhatok több időbélyeget egy PDF-hez?
- Teljesen! Többet is létrehozhat`TextStamp` példányokat, és adja hozzá őket a PDF különböző oldalaihoz vagy pozícióihoz.
+Természetesen! Többet is létrehozhatsz `TextStamp` példányokat, és hozzáadhatja azokat a PDF különböző oldalaihoz vagy pozícióihoz.
 
-### Mi van, ha nincs Visual Studio?
-Bármilyen C# IDE-t vagy szövegszerkesztőt használhat, de a projekt futtatásához és hibakereséséhez a Visual Studio ajánlott.
+### Mi van, ha nincs Visual Studio-m?
+Bármilyen C# IDE-t vagy szövegszerkesztőt használhatsz, de a projekt futtatásához és hibakereséséhez a Visual Studio ajánlott.
 
 ### Hol találok további példákat az Aspose.PDF használatára?
- További példákat és oktatóanyagokat fedezhet fel a[Aspose.PDF dokumentáció](https://reference.aspose.com/pdf/net/).
+További példákat és oktatóanyagokat találhatsz a [Aspose.PDF dokumentáció](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

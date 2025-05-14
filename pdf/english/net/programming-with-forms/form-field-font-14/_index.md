@@ -8,7 +8,9 @@ url: /net/programming-with-forms/form-field-font-14/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Form Field Font 14
@@ -126,6 +128,7 @@ You can retrieve the current font settings by accessing the `DefaultAppearance` 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

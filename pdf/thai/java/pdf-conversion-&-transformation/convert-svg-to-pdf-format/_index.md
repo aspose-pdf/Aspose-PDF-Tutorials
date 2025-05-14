@@ -1,14 +1,16 @@
 ---
-title: แปลง SVG เป็นรูปแบบ PDF
-linktitle: แปลง SVG เป็นรูปแบบ PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการแปลง SVG เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java ในคู่มือทีละขั้นตอนนี้ สร้างเอกสาร PDF คุณภาพสูงจากไฟล์ SVG ของคุณได้อย่างง่ายดาย
-weight: 24
-url: /th/java/pdf-conversion-transformation/convert-svg-to-pdf-format/
+"description": "เรียนรู้วิธีการแปลง SVG เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ Java ในคู่มือทีละขั้นตอนนี้ สร้างเอกสาร PDF คุณภาพสูงจากไฟล์ SVG ของคุณได้อย่างง่ายดาย"
+"linktitle": "แปลง SVG เป็นรูปแบบ PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "แปลง SVG เป็นรูปแบบ PDF"
+"url": "/th/java/pdf-conversion-transformation/convert-svg-to-pdf-format/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลง SVG เป็นรูปแบบ PDF
@@ -35,7 +37,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีสำหร
 
 ## เริ่มต้นใช้งาน Aspose.PDF สำหรับ Java
 
- ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.PDF สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.PDF สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การตั้งค่าสภาพแวดล้อมการพัฒนาของคุณ
 
@@ -50,13 +52,13 @@ import com.aspose.pdf.Document;
 import com.aspose.pdf.SvgLoadOptions;
 ```
 
-3.  สร้างวัตถุเอกสาร: เริ่มต้น`Document`วัตถุที่จะทำงานกับไฟล์ PDF
+3. สร้างวัตถุเอกสาร: เริ่มต้น `Document` วัตถุที่จะทำงานกับไฟล์ PDF
 
 ```java
 Document pdfDocument = new Document();
 ```
 
-4.  โหลดไฟล์ SVG: โหลดไฟล์ SVG ที่คุณต้องการแปลงเป็น PDF โดยใช้`SvgLoadOptions` ระดับ.
+4. โหลดไฟล์ SVG: โหลดไฟล์ SVG ที่คุณต้องการแปลงเป็น PDF โดยใช้ `SvgLoadOptions` ระดับ.
 
 ```java
 SvgLoadOptions svgLoadOptions = new SvgLoadOptions();
@@ -78,7 +80,7 @@ pdfDocument.save("output.pdf");
 
 ## การเพิ่มข้อมูลเมตาลงใน PDF
 
- คุณสามารถเพิ่มข้อมูลเมตาลงในเอกสาร PDF ของคุณได้ เช่น ชื่อเรื่อง ผู้เขียน และคำสำคัญ โดยใช้`DocumentInfo` ระดับ.
+คุณสามารถเพิ่มข้อมูลเมตาลงในเอกสาร PDF ของคุณได้ เช่น ชื่อเรื่อง ผู้เขียน และคำสำคัญ โดยใช้ `DocumentInfo` ระดับ.
 
 ```java
 pdfDocument.getInfo().setTitle("Converted PDF");
@@ -96,7 +98,7 @@ pdfDocument.getInfo().setKeywords("SVG, PDF, Aspose.PDF");
 
 ## การเพิ่มประสิทธิภาพการทำงาน
 
-สำหรับไฟล์ SVG ขนาดใหญ่หรือการประมวลผลแบบแบตช์ ควรพิจารณาใช้เทคนิคเพิ่มประสิทธิภาพเพื่อให้มั่นใจถึงการแปลงที่มีประสิทธิภาพและใช้ทรัพยากรน้อยที่สุด
+สำหรับไฟล์ SVG ขนาดใหญ่หรือการประมวลผลแบบแบตช์ ควรพิจารณาวิธีการเพิ่มประสิทธิภาพเพื่อให้มั่นใจถึงการแปลงที่มีประสิทธิภาพและใช้ทรัพยากรน้อยที่สุด
 
 ## บทสรุป
 
@@ -106,7 +108,7 @@ pdfDocument.getInfo().setKeywords("SVG, PDF, Aspose.PDF");
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- หากต้องการติดตั้ง Aspose.PDF สำหรับ Java ให้ดาวน์โหลดไลบรารีจาก[ที่นี่](https://releases.aspose.com/pdf/java/) และเพิ่มลงในส่วนที่ต้องมีของโครงการ Java ของคุณ
+หากต้องการติดตั้ง Aspose.PDF สำหรับ Java ให้ดาวน์โหลดไลบรารีจาก [ที่นี่](https://releases.aspose.com/pdf/java/) และเพิ่มลงในส่วนที่ต้องมีของโครงการ Java ของคุณ
 
 ### ฉันสามารถแปลงไฟล์ SVG หลายไฟล์เป็น PDF ในครั้งเดียวได้ไหม?
 
@@ -118,14 +120,16 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของ PDF ที่แปลงแล้วได้หรือไม่
 
-ใช่ คุณสามารถปรับแต่งลักษณะที่ปรากฏของ PDF ที่แปลงแล้วได้ โดยการปรับขนาดหน้า ขอบ แบบอักษร และการตั้งค่าอื่นๆ ตามต้องการ
+ใช่ คุณสามารถปรับแต่งลักษณะของ PDF ที่แปลงแล้วได้โดยปรับขนาดหน้า ขอบ แบบอักษร และการตั้งค่าอื่นๆ ตามต้องการ
 
 ### ฉันสามารถหาเอกสารและตัวอย่างเพิ่มเติมได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์ Aspose ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์ Aspose ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่าฟอนต์เริ่มต้นในไฟล์ PDF
-linktitle: ตั้งค่าฟอนต์เริ่มต้นในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการตั้งค่าแบบอักษรเริ่มต้นในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงเอกสาร PDF
-weight: 280
-url: /th/net/programming-with-document/setdefaultfont/
+"description": "เรียนรู้วิธีตั้งค่าแบบอักษรเริ่มต้นในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงเอกสาร PDF"
+"linktitle": "ตั้งค่าฟอนต์เริ่มต้นในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ตั้งค่าฟอนต์เริ่มต้นในไฟล์ PDF"
+"url": "/th/net/programming-with-document/setdefaultfont/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าฟอนต์เริ่มต้นในไฟล์ PDF
@@ -22,7 +24,7 @@ url: /th/net/programming-with-document/setdefaultfont/
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด มีบางสิ่งที่คุณต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว ถือเป็น IDE ที่ดีที่สุดสำหรับการพัฒนา .NET
-2.  Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# เพียงเล็กน้อยจะช่วยให้เข้าใจตัวอย่างที่เราจะกล่าวถึงได้เป็นอย่างดี
 
 ## แพ็คเกจนำเข้า
@@ -31,9 +33,9 @@ url: /th/net/programming-with-document/setdefaultfont/
 
 1. เปิดโครงการ Visual Studio ของคุณ
 2. คลิกขวาที่โครงการของคุณใน Solution Explorer และเลือก "จัดการแพ็คเกจ NuGet"
-3.  ค้นหา`Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
+3. ค้นหา `Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
 
-เมื่อคุณติดตั้งแพ็คเกจแล้ว คุณก็พร้อมที่จะเริ่มเขียนโค้ดได้เลย!
+เมื่อคุณติดตั้งแพ็คเกจแล้ว คุณก็พร้อมที่จะเริ่มเขียนโค้ดได้!
 
 ## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
 
@@ -43,11 +45,11 @@ url: /th/net/programming-with-document/setdefaultfont/
 
 - เปิด Visual Studio และเลือก "สร้างโครงการใหม่"
 - เลือก "แอปคอนโซล (.NET Core)" และคลิก "ถัดไป"
--  ตั้งชื่อโครงการของคุณ (เช่น`AsposePdfExample`) แล้วคลิก "สร้าง"
+- ตั้งชื่อโครงการของคุณ (เช่น `AsposePdfExample`) แล้วคลิก "สร้าง"
 
 ### เพิ่มการใช้คำสั่ง
 
- ตอนนี้เรามาเพิ่มคำสั่ง using ที่จำเป็นไว้ที่ด้านบนของ`Program.cs` ไฟล์:
+ตอนนี้เรามาเพิ่มคำสั่ง using ที่จำเป็นไว้ที่ด้านบนของ `Program.cs` ไฟล์:
 
 ```csharp
 using Aspose.Pdf;
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // แทนที่ด้วยไ
 string documentName = Path.Combine(dataDir, "input.pdf");
 ```
 
- อย่าลืมเปลี่ยน`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่
+อย่าลืมเปลี่ยน `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่
 
 ### โหลดเอกสาร
 
@@ -81,13 +83,13 @@ using (FileStream fs = new FileStream(documentName, FileMode.Open))
 }
 ```
 
- โค้ดสั้นๆ นี้จะเปิดไฟล์ PDF และสร้าง`Document` วัตถุที่คุณสามารถจัดการได้
+โค้ดสั้นๆ นี้จะเปิดไฟล์ PDF และสร้าง `Document` วัตถุที่คุณสามารถจัดการได้
 
 ## ขั้นตอนที่ 3: ตั้งค่าแบบอักษรเริ่มต้น
 
 ### สร้างตัวเลือกการบันทึก PDF
 
- ตอนนี้มาถึงส่วนที่น่าตื่นเต้นแล้ว! คุณจะต้องสร้างอินสแตนซ์ของ`PdfSaveOptions` เพื่อระบุแบบอักษรเริ่มต้น:
+ตอนนี้มาถึงส่วนที่น่าตื่นเต้นแล้ว! คุณจะต้องสร้างอินสแตนซ์ของ `PdfSaveOptions` เพื่อระบุแบบอักษรเริ่มต้น:
 
 ```csharp
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
@@ -111,7 +113,7 @@ pdfSaveOptions.DefaultFontName = "Arial";
 document.Save(Path.Combine(dataDir, "output_out.pdf"), pdfSaveOptions);
 ```
 
- บรรทัดนี้จะบันทึกเอกสารเป็น`output_out.pdf` ในไดเร็กทอรีที่ระบุ
+บรรทัดนี้จะบันทึกเอกสารเป็น `output_out.pdf` ในไดเร็กทอรีที่ระบุ
 
 ## บทสรุป
 
@@ -129,13 +131,15 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช
 Aspose.PDF เสนอรุ่นทดลองใช้งานฟรี แต่หากต้องการฟังก์ชันครบถ้วน คุณจะต้องซื้อใบอนุญาต
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถรับการสนับสนุนผ่านฟอรั่ม Aspose ได้[ที่นี่](https://forum.aspose.com/c/pdf/10).
+คุณสามารถรับการสนับสนุนผ่านฟอรั่ม Aspose ได้ [ที่นี่](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

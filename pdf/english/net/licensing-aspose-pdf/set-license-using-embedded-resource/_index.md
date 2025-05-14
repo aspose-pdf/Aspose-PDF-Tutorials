@@ -8,7 +8,9 @@ url: /net/licensing-aspose-pdf/set-license-using-embedded-resource/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set License Using Embedded Resource
@@ -114,6 +116,7 @@ If you face any issues, you can seek help on the [Aspose support forum](https://
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

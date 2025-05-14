@@ -1,37 +1,39 @@
 ---
-title: Hyperlinks verwijderen na conversie van HTML
-linktitle: Hyperlinks verwijderen na conversie van HTML
-second_title: Aspose.PDF voor .NET API-referentie
-description: Leer in deze stapsgewijze handleiding hoe u hyperlinks uit HTML-documenten verwijdert na conversie naar PDF met Aspose.PDF voor .NET.
-weight: 250
-url: /nl/net/document-conversion/remove-hyperlinks-after-converting-from-html/
+"description": "Leer in deze stapsgewijze handleiding hoe u hyperlinks uit HTML-documenten verwijdert na conversie naar PDF met Aspose.PDF voor .NET."
+"linktitle": "Hyperlinks verwijderen na conversie van HTML"
+"second_title": "Aspose.PDF voor .NET API-referentie"
+"title": "Hyperlinks verwijderen na conversie van HTML"
+"url": "/nl/net/document-conversion/remove-hyperlinks-after-converting-from-html/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hyperlinks verwijderen na conversie van HTML
 
 ## Invoering
 
-In het digitale tijdperk is het converteren van HTML-documenten naar PDF een veelvoorkomende taak. Soms wilt u echter hyperlinks uit de geconverteerde PDF verwijderen om verschillende redenen, zoals het verbeteren van de leesbaarheid of het voorkomen van ongewenste navigatie. In deze tutorial onderzoeken we hoe u dit kunt bereiken met Aspose.PDF voor .NET. 
+In het digitale tijdperk is het converteren van HTML-documenten naar PDF een veelvoorkomende taak. Soms wilt u echter om verschillende redenen hyperlinks uit de geconverteerde PDF verwijderen, bijvoorbeeld om de leesbaarheid te verbeteren of ongewenste navigatie te voorkomen. In deze tutorial leggen we uit hoe u dit kunt doen met Aspose.PDF voor .NET. 
 
 ## Vereisten
 
 Voordat u aan de slag gaat met de code, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Dit wordt uw ontwikkelomgeving.
-2.  Aspose.PDF voor .NET: U moet de Aspose.PDF-bibliotheek hebben. U kunt deze downloaden van[hier](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Zorg ervoor dat Visual Studio op uw computer is geïnstalleerd. Dit wordt uw ontwikkelomgeving.
+2. Aspose.PDF voor .NET: U hebt de Aspose.PDF-bibliotheek nodig. U kunt deze downloaden van [hier](https://releases.aspose.com/pdf/net/).
 3. Basiskennis van C#: Kennis van C#-programmering helpt u de code beter te begrijpen.
 
 ## Pakketten importeren
 
-Om te beginnen moet u de benodigde pakketten importeren in uw C#-project. Dit is hoe u dat kunt doen:
+Om te beginnen moet je de benodigde pakketten in je C#-project importeren. Zo doe je dat:
 
 1. Open uw Visual Studio-project.
 2. Klik met de rechtermuisknop op uw project in Solution Explorer en selecteer 'NuGet-pakketten beheren'.
-3.  Zoeken naar`Aspose.PDF` en installeer het.
+3. Zoeken naar `Aspose.PDF` en installeer het.
 
 ```csharp
 using Aspose.Pdf.Annotations;
@@ -50,31 +52,31 @@ Allereerst moet u het pad naar uw documentenmap opgeven. Dit is waar uw HTML-bes
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Vervangen`"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad waar uw HTML-bestand is opgeslagen.
+Vervangen `"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar uw HTML-bestand is opgeslagen.
 
 ## Stap 2: Laad het HTML-document
 
- Vervolgens laadt u het HTML-document met behulp van de`Document` klasse van Aspose.PDF. Met deze klasse kunt u eenvoudig met PDF-documenten werken.
+Vervolgens laadt u het HTML-document met behulp van de `Document` klasse van Aspose.PDF. Met deze klasse kunt u eenvoudig met PDF-documenten werken.
 
 ```csharp
 Document doc = new Document(dataDir + "SampleHtmlFile.html", new HtmlLoadOptions());
 ```
 
- Hier laden we het HTML-bestand met de naam`SampleHtmlFile.html`Zorg ervoor dat dit bestand in de door u opgegeven map staat.
+Hier laden we het HTML-bestand met de naam `SampleHtmlFile.html`Zorg ervoor dat dit bestand in de opgegeven directory staat.
 
 ## Stap 3: Sla het document op in de geheugenstroom
 
-Voordat we beginnen met het verwerken van de annotaties, moeten we het document opslaan in een geheugenstroom. Deze stap is cruciaal omdat het het document voorbereidt op verdere manipulatie.
+Voordat we beginnen met het verwerken van de annotaties, moeten we het document opslaan in een geheugenstroom. Deze stap is cruciaal omdat het het document voorbereidt op verdere bewerking.
 
 ```csharp
 doc.Save(new MemoryStream());
 ```
 
-Met deze regel wordt het document in het geheugen opgeslagen, zodat we ermee kunnen werken zonder dat we het eerst naar de schijf hoeven te schrijven.
+Met deze regel wordt het document in het geheugen opgeslagen, zodat we ermee kunnen werken zonder dat we het eerst naar schijf hoeven te schrijven.
 
-## Stap 4: Herhaal de annotaties
+## Stap 4: Door annotaties itereren
 
-Nu gaan we door de annotaties in het document itereren. Annotaties zijn elementen zoals links, opmerkingen en highlights. We zijn specifiek geïnteresseerd in linkannotaties.
+Nu gaan we de annotaties in het document doorlopen. Annotaties zijn elementen zoals links, opmerkingen en markeringen. We zijn specifiek geïnteresseerd in linkannotaties.
 
 ```csharp
 foreach (Annotation a in doc.Pages[1].Annotations)
@@ -86,11 +88,11 @@ foreach (Annotation a in doc.Pages[1].Annotations)
 }
 ```
 
-In deze lus controleren we of het annotatietype een link is. Als dat zo is, gaan we door naar de volgende stappen.
+In deze lus controleren we of het annotatietype een link is. Zo ja, dan gaan we verder met de volgende stappen.
 
-## Stap 5: Verwijder de hyperlinkactie
+## Stap 5: De hyperlinkactie verwijderen
 
-Voor elke linkannotatie moeten we controleren of deze een hyperlinkactie heeft. Als dit het geval is, verwijderen we de hyperlink door de URI in te stellen op een lege string.
+Voor elke linkannotatie moeten we controleren of deze een hyperlinkactie heeft. Zo ja, dan verwijderen we de hyperlink door de URI in te stellen op een lege string.
 
 ```csharp
 LinkAnnotation la = (LinkAnnotation)a;
@@ -104,7 +106,7 @@ Met dit codefragment wordt ervoor gezorgd dat de hyperlinkactie effectief wordt 
 
 ## Stap 6: Tekstfragmenten absorberen
 
-Vervolgens absorberen we de tekstfragmenten die geassocieerd zijn met de linkannotatie. Dit stelt ons in staat om het uiterlijk van de tekst te manipuleren.
+Vervolgens verwerken we de tekstfragmenten die bij de linkannotatie horen. Dit stelt ons in staat om de tekstweergave te manipuleren.
 
 ```csharp
 TextFragmentAbsorber tfa = new TextFragmentAbsorber();
@@ -112,11 +114,11 @@ tfa.TextSearchOptions = new TextSearchOptions(a.Rect);
 doc.Pages[a.PageIndex].Accept(tfa);
 ```
 
- Hier creëren we een`TextFragmentAbsorber` en stel de zoekopties in op de rechthoek van de annotatie. Dit helpt ons de tekst te vinden die was gelinkt.
+Hier creëren we een `TextFragmentAbsorber` en stel de zoekopties in op de rechthoek van de annotatie. Dit helpt ons de gekoppelde tekst te vinden.
 
-## Stap 7: Wijzig het uiterlijk van de tekst
+## Stap 7: Wijzig de tekstweergave
 
-Zodra we de tekstfragmenten hebben, kunnen we hun uiterlijk aanpassen. In dit geval verwijderen we de onderstreping en veranderen we de tekstkleur naar zwart.
+Zodra we de tekstfragmenten hebben, kunnen we hun weergave aanpassen. In dit geval verwijderen we de onderstreping en veranderen we de tekstkleur naar zwart.
 
 ```csharp
 foreach (TextFragment tf in tfa.TextFragments)
@@ -137,21 +139,21 @@ doc.Pages[a.PageIndex].Annotations.Delete(a);
 }
 ```
 
-Met deze regel verwijdert u de hyperlink uit het PDF-bestand, zodat deze niet meer in de uiteindelijke uitvoer voorkomt.
+Met deze regel verwijdert u de hyperlink uit het PDF-bestand, zodat deze niet meer in de uiteindelijke uitvoer aanwezig is.
 
 ## Stap 9: Sla het gewijzigde document op
 
-Ten slotte moeten we het gewijzigde document opslaan in een nieuw PDF-bestand. Dit is de laatste stap in ons proces.
+Ten slotte moeten we het gewijzigde document opslaan als een nieuw PDF-bestand. Dit is de laatste stap in ons proces.
 
 ```csharp
 doc.Save(dataDir + "RemoveHyperlinksFromText_out.pdf");
 ```
 
- Deze regel slaat het document op met de hyperlinks verwijderd, waardoor een nieuw PDF-bestand met de naam wordt gemaakt`RemoveHyperlinksFromText_out.pdf`.
+Met deze regel wordt het document opgeslagen met de hyperlinks verwijderd, waardoor een nieuw PDF-bestand met de naam wordt gemaakt `RemoveHyperlinksFromText_out.pdf`.
 
 ## Conclusie
 
-En daar heb je het! Je hebt met succes hyperlinks verwijderd uit een HTML-document nadat je het hebt geconverteerd naar PDF met Aspose.PDF voor .NET. Dit proces verbetert niet alleen de leesbaarheid van je PDF, maar geeft je ook controle over de inhoud die je presenteert. 
+En voilà! Je hebt met succes hyperlinks uit een HTML-document verwijderd na conversie naar PDF met Aspose.PDF voor .NET. Dit proces verbetert niet alleen de leesbaarheid van je PDF, maar geeft je ook controle over de inhoud die je presenteert. 
 
 ## Veelgestelde vragen
 
@@ -159,19 +161,21 @@ En daar heb je het! Je hebt met succes hyperlinks verwijderd uit een HTML-docume
 Ja, u kunt hyperlinks uit elk PDF-document verwijderen met Aspose.PDF voor .NET.
 
 ### Is Aspose.PDF gratis te gebruiken?
- Aspose.PDF biedt een gratis proefversie, maar voor volledige functies moet u een licentie kopen. Controleer de[koop pagina](https://purchase.aspose.com/buy).
+Aspose.PDF biedt een gratis proefperiode, maar voor alle functies moet u een licentie aanschaffen. Bekijk de [kooppagina](https://purchase.aspose.com/buy).
 
 ### Wat moet ik doen als ik problemen ondervind bij het gebruik van Aspose.PDF?
- U kunt hulp zoeken op de[ondersteuningsforum](https://forum.aspose.com/c/pdf/10).
+U kunt hulp zoeken op de [ondersteuningsforum](https://forum.aspose.com/c/pdf/10).
 
 ### Kan ik andere bestandsformaten met Aspose naar PDF converteren?
 Ja, Aspose ondersteunt verschillende bestandsformaten voor conversie naar PDF.
 
 ### Waar kan ik Aspose.PDF voor .NET downloaden?
- Je kunt het downloaden van de[downloadlink](https://releases.aspose.com/pdf/net/).
+Je kunt het downloaden van de [downloadlink](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

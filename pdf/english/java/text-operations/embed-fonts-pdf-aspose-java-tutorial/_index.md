@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Embed Fonts in PDF Files Using Aspose.PDF for Java: A Comprehensive Guide
 
@@ -183,6 +185,9 @@ In this tutorial, we've covered how to embed fonts in PDF files using Aspose.PDF
 With these resources, you're well-equipped to tackle any challenges and explore the vast capabilities of Aspose.PDF for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-security-and-signatures/encrypt/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Encrypt PDF File
@@ -122,6 +124,7 @@ For any questions or support, feel free to visit the [Aspose support forum](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/pdf-document-operations/adding-text-in-header-or-footer-of-pdf-file-u
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Text in Header or Footer of PDF File using Java
@@ -96,6 +98,7 @@ You can explore the Aspose.PDF for Java documentation at [here](https://referenc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

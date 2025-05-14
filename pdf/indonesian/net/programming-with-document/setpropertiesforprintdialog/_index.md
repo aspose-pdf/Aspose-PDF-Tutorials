@@ -1,14 +1,16 @@
 ---
-title: Tetapkan Properti untuk Dialog Cetak
-linktitle: Tetapkan Properti untuk Dialog Cetak
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Manfaatkan potensi pembuatan PDF dengan Aspose.PDF untuk .NET. Panduan ini membantu Anda mengatur properti cetak dengan mudah.
-weight: 320
-url: /id/net/programming-with-document/setpropertiesforprintdialog/
+"description": "Manfaatkan potensi pembuatan PDF dengan Aspose.PDF untuk .NET. Panduan ini membantu Anda mengatur properti cetak dengan mudah."
+"linktitle": "Tetapkan Properti untuk Dialog Cetak"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tetapkan Properti untuk Dialog Cetak"
+"url": "/id/net/programming-with-document/setpropertiesforprintdialog/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tetapkan Properti untuk Dialog Cetak
@@ -22,7 +24,7 @@ Apakah Anda ingin memanfaatkan kekuatan pembuatan PDF dalam aplikasi Anda? Denga
 Sebelum menyelami tutorialnya, mari kita bahas apa saja yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Jangan khawatir; ini mudah! Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Jangan khawatir; ini mudah! Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar tentang C#: Pemahaman terhadap pemrograman C# akan sangat membantu. Jika Anda baru mengenalnya, jangan khawatir! Kita akan membahas dasar-dasarnya bersama-sama. 
 
 Setelah Anda menyiapkan prasyarat ini, Anda siap untuk mulai membuat PDF!
@@ -64,7 +66,7 @@ Sebelum melakukan apa pun dengan dokumen PDF, ada baiknya Anda menentukan di man
 ```csharp
 var dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas keluaran. Ini membantu menjaga berkas tetap teratur dan mudah ditemukan nanti.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas keluaran. Ini membantu menjaga berkas Anda tetap teratur dan mudah ditemukan nanti.
 
 ## Langkah 2: Buat Contoh Dokumen
 
@@ -74,7 +76,7 @@ Berikutnya, Anda akan membuat contoh Dokumen PDF. Objek ini akan menjadi dasar d
 using (Document doc = new Document())
 ```
 
- Menggunakan`using` pernyataan di sini memastikan bahwa`Document` Objek dibuang dengan benar setelah kita selesai menggunakannya, mencegah potensi kebocoran memori.
+Menggunakan `using` pernyataan di sini memastikan bahwa `Document` Objek dibuang dengan benar setelah kita selesai menggunakannya, mencegah potensi kebocoran memori.
 
 ## Langkah 3: Tambahkan Halaman ke Dokumen
 
@@ -116,7 +118,7 @@ Nah, itu dia—mengatur properti untuk dialog cetak menggunakan Aspose.PDF untuk
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?
- Anda dapat memulai dengan uji coba gratis[Di Sini](https://releases.aspose.com/), tetapi lisensi diperlukan untuk fitur lengkap setelah itu.
+Anda dapat memulai dengan uji coba gratis [Di Sini](https://releases.aspose.com/), tetapi lisensi diperlukan untuk fitur lengkap setelah itu.
 
 ### Aplikasi jenis apa yang dapat saya buat dengan Aspose.PDF?
 Anda dapat membuat aplikasi apa pun yang memerlukan pembuatan atau manipulasi PDF, seperti sistem pembuatan faktur, solusi manajemen dokumen, dan banyak lagi.
@@ -125,10 +127,12 @@ Anda dapat membuat aplikasi apa pun yang memerlukan pembuatan atau manipulasi PD
 Pencetakan dupleks mengacu pada pencetakan pada kedua sisi halaman, yang dapat menghemat kertas dan meningkatkan tampilan dokumen.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat mengakses dukungan melalui[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat mengakses dukungan melalui [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

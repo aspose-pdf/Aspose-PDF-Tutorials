@@ -1,14 +1,16 @@
 ---
-title: Thêm văn bản vào Header hoặc Footer của tệp PDF bằng Java
-linktitle: Thêm văn bản vào Header hoặc Footer của tệp PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách cải thiện tài liệu PDF bằng cách thêm văn bản vào tiêu đề hoặc chân trang bằng Java. Khám phá hướng dẫn từng bước với Aspose.PDF cho Java.
-weight: 14
-url: /vi/java/pdf-document-operations/adding-text-in-header-or-footer-of-pdf-file-using-java/
+"description": "Tìm hiểu cách cải thiện tài liệu PDF bằng cách thêm văn bản vào tiêu đề hoặc chân trang bằng Java. Khám phá hướng dẫn từng bước với Aspose.PDF cho Java."
+"linktitle": "Thêm văn bản vào Header hoặc Footer của tệp PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm văn bản vào Header hoặc Footer của tệp PDF bằng Java"
+"url": "/vi/java/pdf-document-operations/adding-text-in-header-or-footer-of-pdf-file-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm văn bản vào Header hoặc Footer của tệp PDF bằng Java
@@ -22,8 +24,8 @@ Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá cách thêm v�
 
 Trước khi bắt đầu triển khai, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Bước 1: Tạo một dự án Java mới
 
@@ -43,7 +45,7 @@ Page page = pdfDocument.getPages().add();
 
 ## Bước 3: Thêm văn bản vào Header hoặc Footer
 
- Để thêm văn bản vào đầu trang hoặc chân trang của PDF, bạn có thể sử dụng`TextStamp` lớp. Sau đây là ví dụ về cách thêm văn bản vào tiêu đề:
+Để thêm văn bản vào đầu trang hoặc chân trang của PDF, bạn có thể sử dụng `TextStamp` lớp. Sau đây là ví dụ về cách thêm văn bản vào tiêu đề:
 
 ```java
 // Tạo một đối tượng TextStamp
@@ -56,7 +58,7 @@ textStamp.setYIndent(20);
 page.addStamp(textStamp);
 ```
 
- Bạn có thể tùy chỉnh văn bản, vị trí và các thuộc tính khác của`TextStamp` theo yêu cầu của bạn. Để thêm văn bản vào chân trang, hãy làm theo cách tiếp cận tương tự với tọa độ thích hợp.
+Bạn có thể tùy chỉnh văn bản, vị trí và các thuộc tính khác của `TextStamp` theo yêu cầu của bạn. Để thêm văn bản vào chân trang, hãy làm theo cách tiếp cận tương tự với tọa độ thích hợp.
 
 ## Bước 4: Lưu tài liệu PDF
 
@@ -75,15 +77,15 @@ Trong hướng dẫn này, chúng ta đã học cách thêm văn bản vào tiê
 
 ### Làm thế nào để thay đổi kiểu phông chữ của văn bản tiêu đề?
 
- Để thay đổi kiểu phông chữ của văn bản tiêu đề, bạn có thể sử dụng`TextStamp.setFont()` phương pháp và chỉ định cài đặt phông chữ mong muốn.
+Để thay đổi kiểu phông chữ của văn bản tiêu đề, bạn có thể sử dụng `TextStamp.setFont()` phương pháp và chỉ định cài đặt phông chữ mong muốn.
 
 ### Tôi có thể thêm hình ảnh vào đầu trang hoặc chân trang thay vì văn bản không?
 
- Có, bạn có thể thêm hình ảnh vào đầu trang hoặc chân trang bằng cách sử dụng`ImageStamp` lớp được cung cấp bởi Aspose.PDF cho Java.
+Có, bạn có thể thêm hình ảnh vào đầu trang hoặc chân trang bằng cách sử dụng `ImageStamp` lớp được cung cấp bởi Aspose.PDF cho Java.
 
 ### Có thể có các tiêu đề và chân trang khác nhau trên các trang khác nhau không?
 
- Có, bạn có thể có các tiêu đề và chân trang khác nhau trên các trang khác nhau bằng cách thao tác`TextStamp` hoặc`ImageStamp` các đối tượng riêng lẻ cho từng trang.
+Có, bạn có thể có các tiêu đề và chân trang khác nhau trên các trang khác nhau bằng cách thao tác `TextStamp` hoặc `ImageStamp` các đối tượng riêng lẻ cho từng trang.
 
 ### Tôi có thể thêm nội dung động, chẳng hạn như số trang, vào đầu trang hoặc chân trang không?
 
@@ -91,10 +93,12 @@ Hoàn toàn đúng! Aspose.PDF cho Java cho phép bạn thêm nội dung động
 
 ### Tôi có thể tìm thêm thông tin và ví dụ về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể khám phá tài liệu Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết và mẫu mã.
+Bạn có thể khám phá tài liệu Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết và mẫu mã.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

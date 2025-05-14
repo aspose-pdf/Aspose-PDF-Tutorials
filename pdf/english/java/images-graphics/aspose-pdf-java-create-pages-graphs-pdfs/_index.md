@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PDF Creation with Aspose.PDF Java: Add Pages and Graphs Effortlessly
 
@@ -182,7 +184,11 @@ We encourage you to try implementing these solutions in your projects and see ho
 - [Free Trial Access](https://releases.aspose.com/pdf/java/)
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Support Forums](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

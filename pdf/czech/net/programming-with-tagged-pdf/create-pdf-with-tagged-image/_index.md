@@ -1,50 +1,52 @@
 ---
-title: Vytvořte PDF s tagovaným obrázkem
-linktitle: Vytvořte PDF s tagovaným obrázkem
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se vytvářet tagované PDF s obrázky pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného průvodce pro snadnou a profesionální tvorbu dokumentů.
-weight: 40
-url: /cs/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/
+"description": "Naučte se vytvářet tagované PDF soubory s obrázky pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného návodu pro přístupnou a profesionální tvorbu dokumentů."
+"linktitle": "Vytvořit PDF s označeným obrázkem"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Vytvořit PDF s označeným obrázkem"
+"url": "/cs/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte PDF s tagovaným obrázkem
+# Vytvořit PDF s označeným obrázkem
 
 ## Zavedení
 
-Vytváření PDF může být složitý úkol, ale nemusí! Dnes se ponoříme do toho, jak vytvořit dokument PDF s tagovaným obrázkem pomocí Aspose.PDF pro .NET. Pokud vás zajímá začlenění obrázků do souborů PDF a zajištění jejich dostupnosti, jste na správném místě. Pojďme si tento proces rozmotat krok za krokem, abyste mohli snadno vytvářet profesionální a přístupné soubory PDF.
+Vytváření PDF souborů může být složitý úkol, ale nemusí být! Dnes se ponoříme do toho, jak vytvořit PDF dokument s tagovaným obrázkem pomocí Aspose.PDF pro .NET. Pokud vás zajímá, jak do PDF souborů začlenit obrázky a zajistit jejich přístupnost, jste na správném místě. Pojďme si tento proces krok za krokem rozebrat, abyste mohli snadno vytvářet profesionální a přístupné PDF soubory.
 
 ## Předpoklady
 
-Než začnete vytvářet PDF s tagovanými obrázky, je potřeba několik věcí:
+Než začnete vytvářet PDF s tagovanými obrázky, potřebujete několik věcí:
 
-1. Aspose.PDF pro .NET: Tato výkonná knihovna je nezbytná pro práci s dokumenty PDF v aplikacích .NET. Knihovnu najdete zde:[Aspose.PDF pro .NET ke stažení](https://releases.aspose.com/pdf/net/).
-2. .NET Framework nebo .NET Core: Ujistěte se, že máte v počítači kompatibilní verzi .NET Framework nebo .NET Core. Tato knihovna podporuje obojí.
-3. Soubor obrázku: K vložení do souboru PDF budete potřebovat soubor obrázku. V našem příkladu budeme používat 'aspose-logo.png'. Ujistěte se, že jej máte připravený v adresáři dokumentů. 
+1. Aspose.PDF pro .NET: Tato výkonná knihovna je nezbytná pro práci s PDF dokumenty v .NET aplikacích. Knihovnu najdete zde: [Aspose.PDF pro stažení pro .NET](https://releases.aspose.com/pdf/net/).
+2. .NET Framework nebo .NET Core: Ujistěte se, že máte na počítači kompatibilní verzi .NET Frameworku nebo .NET Core. Tato knihovna podporuje obě verze.
+3. Soubor s obrázkem: Budete potřebovat soubor s obrázkem, který budete chtít vložit do PDF. V našem příkladu použijeme soubor „aspose-logo.png“. Ujistěte se, že ho máte připravený ve složce s dokumenty. 
 
-Tím, že se ujistíte, že máte tyto předpoklady seřazené, můžete začít!
+Tím, že splníte tyto předpoklady, jste připraveni začít!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Abychom odstartovali naše dobrodružství s kódováním, musíme nastavit náš pracovní prostor importem potřebných jmenných prostorů Aspose.PDF. Můžete to udělat takto:
+Abychom mohli začít s našimi kódovacími dobrodružstvími, musíme si nastavit pracovní prostor importem potřebných jmenných prostorů Aspose.PDF. Zde je návod, jak to udělat:
 
 ### Vytvořit nový projekt
 
-- Otevřete preferované IDE (například Visual Studio).
-- Vytvořte nový projekt aplikace konzoly. Proč konzolová aplikace? Je to jednoduché a ideální pro tutoriály!
+- Otevřete si preferované vývojové prostředí (například Visual Studio).
+- Vytvořte nový projekt konzolové aplikace. Proč konzolová aplikace? Je jednoduchá a ideální pro tutoriály!
 
-### Přidejte odkaz Aspose.PDF
+### Přidat odkaz na Aspose.PDF
 
-- Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení a vyberte Spravovat balíčky NuGet.
-- Vyhledejte "Aspose.PDF" a nainstalujte jej. 
-- Tím do svého projektu přidáte všechny potřebné balíčky, které vám umožní přístup k funkcím, které potřebujeme pro manipulaci s PDF.
+- V Průzkumníku řešení klikněte pravým tlačítkem myši na projekt a vyberte možnost Spravovat balíčky NuGet.
+- Vyhledejte soubor „Aspose.PDF“ a nainstalujte jej. 
+- Tím se do vašeho projektu přidají všechny potřebné balíčky, které vám umožní přístup k funkcím, které potřebujeme pro manipulaci s PDF.
 
 ### Importujte požadované jmenné prostory
 
- V horní části hlavního souboru programu (např`Program.cs`), importujte následující jmenné prostory:
+V horní části hlavního souboru programu (například `Program.cs`), importujte následující jmenné prostory:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -55,22 +57,22 @@ using System.Linq;
 using System.Text;
 ```
 
-Importováním těchto balíčků říkáte své aplikaci, aby přinesla funkce Aspose.PDF, které budeme používat.
+Importem těchto balíčků říkáte své aplikaci, aby přinesla funkce Aspose.PDF, které budeme využívat.
 
-Nyní, když máme vše nastaveno, pojďme krok za krokem vytvořit naše PDF s tagovaným obrázkem.
+Nyní, když máme vše nastavené, pojďme krok za krokem vytvořit náš PDF s tagovaným obrázkem.
 
-## Krok 1: Inicializujte dokument
+## Krok 1: Inicializace dokumentu
 
-Nejprve musíme vytvořit nový dokument PDF:
+Nejprve musíme vytvořit nový PDF dokument:
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // Nastavte cestu k vašemu adresáři
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Nastavte cestu k adresáři
 Document document = new Document();
 ```
 
--  co se to tu děje? Vytváříme instanci nového`Document` objekt, který představuje naše PDF. Představte si to jako prázdné plátno čekající na vaše mistrovská díla!
+- Co se tady děje? Vytváříme novou instanci. `Document` objekt, který představuje náš PDF. Představte si ho jako prázdné plátno čekající na vaše mistrovská díla!
 
-## Krok 2: Nastavte označený obsah
+## Krok 2: Nastavení označeného obsahu
 
 Dále nastavíme označený obsah:
 
@@ -78,33 +80,33 @@ Dále nastavíme označený obsah:
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
-- Proč používat označený obsah? Tagované soubory PDF jsou nezbytné pro usnadnění přístupu a umožňují čtecím zařízením obrazovky porozumět struktuře dokumentu.
+- Proč používat tagovaný obsah? Tagované PDF soubory jsou nezbytné pro přístupnost, protože umožňují čtečkám obrazovky pochopit strukturu dokumentu.
 
-## Krok 3: Nakonfigurujte metadata
+## Krok 3: Konfigurace metadat
 
-Nyní přidejte některá metadata, která popisují naše PDF:
+Nyní přidejme metadata, která popisují náš PDF soubor:
 
 ```csharp
 taggedContent.SetTitle("CreatePDFwithTaggedImage");
 taggedContent.SetLanguage("en-US");
 ```
 
-- Meta co? Přidání názvu a jazyka je jako umístění jmenovky na svůj výtvor – pomáhá ostatním pochopit, o čem to celé je!
+- Meta co? Přidání názvu a jazyka je jako umístění jmenovky na váš výtvor – pomáhá ostatním pochopit, o co v něm jde!
 
 ## Krok 4: Vytvořte prvek ilustrace
 
-Musíme vytvořit prvek, který bude držet náš obrázek:
+Potřebujeme vytvořit prvek, který bude obsahovat náš obrázek:
 
 ```csharp
 IllustrationElement figure1 = taggedContent.CreateFigureElement();
 taggedContent.RootElement.AppendChild(figure1);
 ```
 
--  Jen tak?! Ano! The`CreateFigureElement` metoda nám umožňuje vytvořit novou ilustraci a my ji připojujeme ke kořenovému prvku našeho označeného obsahu.
+- Jen tak?! Ano! Ten/ta/to `CreateFigureElement` Metoda nám umožňuje vytvořit novou ilustraci a my ji připojíme ke kořenovému elementu našeho označeného obsahu.
 
-## Krok 5: Nastavte vlastnosti obrázku
+## Krok 5: Nastavení vlastností obrázku
 
-Dále nastavíme vlastnosti obrázku:
+Dále nastavme vlastnosti obrázku:
 
 ```csharp
 figure1.AlternativeText = "Aspose Logo";
@@ -112,51 +114,53 @@ figure1.Title = "Image 1";
 figure1.SetTag("Fig");
 ```
 
-- Proč všechny tyto vlastnosti? Alternativní text popisuje obrázek pro ty, kteří jej nevidí, zatímco název a značka kategorizují obrázek pro lepší přístupnost.
+- Proč všechny tyto vlastnosti? Alternativní text popisuje obrázek pro ty, kteří ho nevidí, zatímco název a tag kategorizují obrázek pro lepší přístupnost.
 
-## Krok 6: Přidejte obrázek
+## Krok 6: Přidání obrázku
 
 Nyní je čas přidat skutečný obrázek do našeho PDF:
 
 ```csharp
-figure1.SetImage(dataDir + @"aspose-logo.png"); // Ujistěte se, že cesta k obrázku je správná!
+figure1.SetImage(dataDir + @"aspose-logo.png"); // Ujistěte se, že je cesta k obrázku správná!
 ```
 
-- Tady se děje kouzlo! Vkládáte obrázek přímo do svého PDF. 
+- A tady se děje ta magie! Vkládáte obrázek přímo do PDF. 
 
-## Krok 7: Uložte dokument PDF
+## Krok 7: Uložení dokumentu PDF
 
-Nakonec uložme náš výtvor do souboru:
+Nakonec si náš výtvor uložíme do souboru:
 
 ```csharp
 document.Save(dataDir + "PDFwithTaggedImage.pdf");
 ```
 
-- Velké finále! Po provedení tohoto řádku najdete své nové PDF v určeném adresáři.
+- Velké finále! Po spuštění tohoto řádku najdete svůj nový PDF soubor v zadaném adresáři.
 
 ## Závěr
 
-Vytváření PDF s tagovanými obrázky pomocí Aspose.PDF for .NET je hračka, když si to rozdělíte do zvládnutelných kroků. Podle této příručky jste se naučili nejen vytvářet PDF, ale také zlepšit jeho dostupnost pomocí tagovaného obsahu. Ať už připravujete dokumenty pro širší publikum nebo jen leštíte své PDF výtvory, tyto znalosti vám dobře poslouží.
+Vytváření PDF souborů s tagovanými obrázky pomocí Aspose.PDF pro .NET je hračka, když si ji rozdělíte na zvládnutelné kroky. Dodržováním tohoto návodu jste se naučili nejen vytvářet PDF soubory, ale také vylepšovat jejich přístupnost pomocí tagovaného obsahu. Ať už připravujete dokumenty pro širší publikum, nebo jen leštíte své PDF výtvory, tyto znalosti vám dobře poslouží.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je to tagovaný PDF?
-Tagované PDF je navrženo tak, aby bylo přístupné. Zahrnuje metadata, která umožňují asistenčním technologiím je správně číst a procházet.
+Označený PDF soubor je navržen tak, aby byl přístupný. Obsahuje metadata, která umožňují asistenčním technologiím jej správně číst a navigovat v něm.
 
 ### Mohu přidat více obrázků pomocí Aspose.PDF?
- Absolutně! Stačí opakovat kroky pro vytvoření nového`IllustrationElement` instance ve vašem dokumentu.
+Rozhodně! Prostě opakujte kroky pro vytvoření nového `IllustrationElement` instance ve vašem dokumentu.
 
-### Kde najdu další dokumentaci na Aspose.PDF?
- Podívejte se na dokumentaci[zde](https://reference.aspose.com/pdf/net/).
+### Kde najdu další dokumentaci k Aspose.PDF?
+Prohlédněte si dokumentaci [zde](https://reference.aspose.com/pdf/net/).
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.PDF?
- Ano! Máte přístup k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
+Ano! Můžete využít bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
 ### Jak mohu získat podporu pro Aspose.PDF?
- Podporu můžete získat návštěvou stránky[Aspose fóra](https://forum.aspose.com/c/pdf/10).
+Podporu můžete získat návštěvou [Fóra Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

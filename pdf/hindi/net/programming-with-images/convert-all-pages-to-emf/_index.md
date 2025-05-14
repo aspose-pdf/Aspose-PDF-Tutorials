@@ -1,14 +1,16 @@
 ---
-title: सभी पृष्ठों को EMF में बदलें
-linktitle: सभी पृष्ठों को EMF में बदलें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस विस्तृत और एसईओ-अनुकूलित ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF के सभी पृष्ठों को EMF प्रारूप में परिवर्तित करना सीखें।
-weight: 50
-url: /hi/net/programming-with-images/convert-all-pages-to-emf/
+"description": "इस विस्तृत और एसईओ-अनुकूलित ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF के सभी पृष्ठों को EMF प्रारूप में परिवर्तित करना सीखें।"
+"linktitle": "सभी पृष्ठों को EMF में बदलें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "सभी पृष्ठों को EMF में बदलें"
+"url": "/hi/net/programming-with-images/convert-all-pages-to-emf/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सभी पृष्ठों को EMF में बदलें
@@ -23,9 +25,9 @@ url: /hi/net/programming-with-images/convert-all-pages-to-emf/
 
 इससे पहले कि हम चरण-दर-चरण प्रक्रिया में उतरें, कुछ चीजें हैं जिन्हें आपको सेट अप करना होगा:
 
-1.  .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके प्रोजेक्ट में .NET के लिए Aspose.PDF का नवीनतम संस्करण स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose PDF डाउनलोड लिंक](https://releases.aspose.com/pdf/net/).
+1. .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके प्रोजेक्ट में .NET के लिए Aspose.PDF का नवीनतम संस्करण स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose PDF डाउनलोड लिंक](https://releases.aspose.com/pdf/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या किसी अन्य .NET-संगत IDE जैसा विकास वातावरण।
-3.  लाइसेंस: आपको एक वैध Aspose लाइसेंस लागू करना होगा, या एक का उपयोग करना होगा[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)यदि आपके पास अभी तक कोई परीक्षण मोड नहीं है तो आप इसे परीक्षण मोड में चला सकते हैं।
+3. लाइसेंस: आपको एक वैध Aspose लाइसेंस लागू करना होगा, या एक का उपयोग करना होगा [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)यदि आपके पास अभी तक कोई नहीं है तो आप इसे परीक्षण मोड में चला सकते हैं।
 4. एक नमूना पीडीएफ फाइल: आपको कन्वर्ट करने के लिए एक पीडीएफ दस्तावेज़ की आवश्यकता होगी। यदि आपके पास एक नहीं है, तो आप अपनी पसंद का कोई भी पीडीएफ इस्तेमाल कर सकते हैं।
 
 ## पैकेज आयात करें
@@ -50,7 +52,7 @@ using Aspose.Pdf.Devices;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- यह लाइन उस डायरेक्टरी को सेट करती है जहाँ आपकी PDF फ़ाइल रहती है।`"YOUR DOCUMENT DIRECTORY"` वास्तविक निर्देशिका पथ के साथ जहां आपका पीडीएफ संग्रहीत है।
+यह लाइन उस डायरेक्टरी को सेट करती है जहाँ आपकी PDF फ़ाइल रहती है। `"YOUR DOCUMENT DIRECTORY"` वास्तविक निर्देशिका पथ के साथ जहां आपका पीडीएफ संग्रहीत है।
 
 ## चरण 2: पीडीएफ दस्तावेज़ लोड करें
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "ConvertAllPagesToEMF.pdf");
 ```
 
- यहाँ, हम नाम की पीडीएफ फाइल लोड करते हैं`"ConvertAllPagesToEMF.pdf"`यदि आपकी फ़ाइल का नाम अलग है, तो फ़ाइल नाम को तदनुसार अपडेट करना सुनिश्चित करें। लोड होने के बाद, pdfDocument ऑब्जेक्ट में PDF के सभी पृष्ठ शामिल होंगे।
+यहाँ, हम नाम की पीडीएफ फाइल लोड करते हैं `"ConvertAllPagesToEMF.pdf"`यदि आपकी फ़ाइल का नाम अलग है, तो फ़ाइल नाम को तदनुसार अपडेट करना सुनिश्चित करें। लोड होने के बाद, pdfDocument ऑब्जेक्ट में PDF के सभी पृष्ठ शामिल होंगे।
 
 ## चरण 3: पीडीएफ के सभी पृष्ठों को लूप करें
 
@@ -87,7 +89,7 @@ using (FileStream imageStream = new FileStream(dataDir + "image" + pageCount + "
 }
 ```
 
- यहाँ, हम प्रत्येक पृष्ठ के लिए एक अद्वितीय फ़ाइल नाम बनाते हैं`"image" + pageCount + "_out.emf"` प्रत्येक पृष्ठ को परिवर्तित किया जाएगा और एक EMF फ़ाइल के रूप में सहेजा जाएगा जिसका नाम होगा`image1_out.emf`, `image2_out.emf`, और इसी तरह।
+यहाँ, हम प्रत्येक पृष्ठ के लिए एक अद्वितीय फ़ाइल नाम बनाते हैं `"image" + pageCount + "_out.emf"`प्रत्येक पृष्ठ को परिवर्तित किया जाएगा और एक EMF फ़ाइल के रूप में सहेजा जाएगा जिसका नाम होगा `image1_out.emf`, `image2_out.emf`, और इसी तरह।
 
 ## चरण 5: रिज़ॉल्यूशन सेट करें
 
@@ -152,13 +154,15 @@ Aspose.PDF इस प्रक्रिया को अविश्वसनी
 आप रिज़ॉल्यूशन ऑब्जेक्ट में DPI बढ़ा सकते हैं। उच्च DPI मानों के परिणामस्वरूप बेहतर गुणवत्ता वाली छवियां मिलती हैं लेकिन फ़ाइल का आकार बड़ा होता है।
 
 ### क्या PDF को PNG या JPEG जैसे अन्य छवि प्रारूपों में परिवर्तित करना संभव है?
-बिलकुल! .NET के लिए Aspose.PDF PNG, JPEG, TIFF और BMP जैसे विभिन्न प्रारूपों का समर्थन करता है। आपको बस उचित डिवाइस (जैसे, PNG के लिए PngDevice) बनाने की आवश्यकता है।
+बिल्कुल! .NET के लिए Aspose.PDF PNG, JPEG, TIFF और BMP जैसे विभिन्न प्रारूपों का समर्थन करता है। आपको बस उचित डिवाइस (जैसे, PNG के लिए PngDevice) बनाने की आवश्यकता है।
 
 ### क्या मैं पासवर्ड-संरक्षित PDF को EMF में परिवर्तित कर सकता हूँ?
 हां, लेकिन आपको दस्तावेज़ लोड करते समय पासवर्ड प्रदान करके पहले पीडीएफ को अनलॉक करना होगा।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

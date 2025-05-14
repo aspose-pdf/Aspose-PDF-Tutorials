@@ -1,14 +1,16 @@
 ---
-title: ดึงข้อความจากคำอธิบายแสตมป์ใน PDF โดยใช้ Java
-linktitle: ดึงข้อความจากคำอธิบายแสตมป์ใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีแยกข้อความจาก Stamp Annotations ใน PDF โดยใช้ Java ด้วยคู่มือฉบับสมบูรณ์นี้ ใช้ Aspose.PDF สำหรับ Java เพื่อประมวลผลเอกสาร PDF อย่างมีประสิทธิภาพ
-weight: 14
-url: /th/java/pdf-form-fields/extract-text-from-stamp-annotation-in-pdf-using-java/
+"description": "เรียนรู้วิธีแยกข้อความจาก Stamp Annotations ใน PDF โดยใช้ Java ด้วยคู่มือฉบับสมบูรณ์นี้ ใช้ Aspose.PDF สำหรับ Java เพื่อประมวลผลเอกสาร PDF อย่างมีประสิทธิภาพ"
+"linktitle": "ดึงข้อความจากคำอธิบายแสตมป์ใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ดึงข้อความจากคำอธิบายแสตมป์ใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-form-fields/extract-text-from-stamp-annotation-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ดึงข้อความจากคำอธิบายแสตมป์ใน PDF โดยใช้ Java
@@ -22,9 +24,9 @@ url: /th/java/pdf-form-fields/extract-text-from-stamp-annotation-in-pdf-using-ja
 
 ก่อนที่เราจะเจาะลึกโค้ดและคำแนะนำทีละขั้นตอน โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
--  สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://www.java.com/download/).
+- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://www-java.com/download/).
 
--  Aspose.PDF สำหรับ Java: คุณจะต้องมีไลบรารี Aspose.PDF สำหรับ Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับ Java: คุณจะต้องมีไลบรารี Aspose.PDF สำหรับ Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE): ใช้ IDE ที่คุณต้องการ ตัวเลือกยอดนิยมได้แก่ Eclipse, IntelliJ IDEA หรือ Visual Studio Code
 
@@ -44,7 +46,7 @@ url: /th/java/pdf-form-fields/extract-text-from-stamp-annotation-in-pdf-using-ja
 
 ## ขั้นตอนที่ 3: โหลดเอกสาร PDF
 
-ในขั้นตอนนี้ คุณจะได้เรียนรู้วิธีโหลดเอกสาร PDF ที่มีคำอธิบายแสตมป์ นี่คือโค้ดสำหรับการดำเนินการดังกล่าว:
+ในขั้นตอนนี้ คุณจะได้เรียนรู้วิธีโหลดเอกสาร PDF ที่มีคำอธิบายประกอบแสตมป์ นี่คือโค้ดสำหรับการดำเนินการดังกล่าว:
 
 ```java
 // นำเข้าคลาส Aspose.PDF ที่จำเป็น
@@ -112,10 +114,12 @@ Aspose.PDF สำหรับ Java ได้รับการออกแบบ
 
 ### ฉันสามารถเข้าถึงทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้อย่างไร
 
- สำหรับเอกสารประกอบที่ครอบคลุมและทรัพยากรเพิ่มเติม โปรดไปที่เอกสาร Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+สำหรับเอกสารประกอบที่ครอบคลุมและทรัพยากรเพิ่มเติม โปรดไปที่เอกสาร Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

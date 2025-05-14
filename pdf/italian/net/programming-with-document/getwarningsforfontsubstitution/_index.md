@@ -1,38 +1,40 @@
 ---
-title: Ricevi avvisi per la sostituzione del font
-linktitle: Ricevi avvisi per la sostituzione del font
-second_title: Riferimento API Aspose.PDF per .NET
-description: Scopri come utilizzare la funzionalità GetWarningsForFontSubstitution di Aspose.PDF per .NET per rilevare gli avvisi di sostituzione dei font quando si apre un documento PDF.
-weight: 190
-url: /it/net/programming-with-document/getwarningsforfontsubstitution/
+"description": "Scopri come utilizzare la funzionalità GetWarningsForFontSubstitution di Aspose.PDF per .NET per rilevare gli avvisi di sostituzione dei font quando si apre un documento PDF."
+"linktitle": "Ricevi avvisi per la sostituzione del font"
+"second_title": "Riferimento API Aspose.PDF per .NET"
+"title": "Ricevi avvisi per la sostituzione del font"
+"url": "/it/net/programming-with-document/getwarningsforfontsubstitution/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ricevi avvisi per la sostituzione del font
 
 ## Introduzione
 
-Nel mondo dell'elaborazione dei documenti, assicurarsi che i PDF siano esattamente come previsto è fondamentale. Hai mai aperto un PDF e scoperto che i font sono tutti sbagliati? Questo può accadere quando i font originali utilizzati nel documento non sono disponibili sul sistema in cui viene visualizzato il PDF. Fortunatamente, Aspose.PDF per .NET fornisce una soluzione affidabile per rilevare gli avvisi di sostituzione dei font, consentendoti di mantenere l'integrità dei tuoi documenti. In questa guida, ti guideremo attraverso i passaggi per impostare il rilevamento della sostituzione dei font nei tuoi documenti PDF utilizzando Aspose.PDF per .NET.
+Nel mondo dell'elaborazione dei documenti, garantire che i PDF abbiano esattamente l'aspetto desiderato è fondamentale. Hai mai aperto un PDF e scoperto che i font sono tutti sbagliati? Questo può accadere quando i font originali utilizzati nel documento non sono disponibili sul sistema in cui viene visualizzato il PDF. Fortunatamente, Aspose.PDF per .NET offre una soluzione affidabile per rilevare gli avvisi di sostituzione dei font, consentendo di preservare l'integrità dei documenti. In questa guida, illustreremo i passaggi per configurare il rilevamento della sostituzione dei font nei documenti PDF utilizzando Aspose.PDF per .NET.
 
 ## Prerequisiti
 
 Prima di immergerti nel codice, ecco alcune cose che devi sapere:
 
-1. Visual Studio: assicurati di avere Visual Studio installato sul tuo computer. Qui è dove scriverai ed eseguirai il tuo codice .NET.
-2.  Aspose.PDF per .NET: è necessario avere la libreria Aspose.PDF. È possibile scaricarla da[sito](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: assicurati di avere Visual Studio installato sul tuo computer. È qui che scriverai ed eseguirai il codice .NET.
+2. Aspose.PDF per .NET: è necessaria la libreria Aspose.PDF. È possibile scaricarla da [sito](https://releases.aspose.com/pdf/net/).
 3. Conoscenza di base di C#: la familiarità con la programmazione C# ti aiuterà a comprendere meglio i frammenti di codice.
-4. Un documento PDF: tieni pronto un documento PDF di esempio da utilizzare per testare il rilevamento della sostituzione dei font.
+4. Un documento PDF: tieni a portata di mano un documento PDF di esempio da utilizzare per testare il rilevamento della sostituzione dei font.
 
 ## Importa pacchetti
 
-Per iniziare, devi importare i pacchetti necessari nel tuo progetto C#. Ecco come puoi farlo:
+Per iniziare, devi importare i pacchetti necessari nel tuo progetto C#. Ecco come fare:
 
 ### Crea un nuovo progetto
 
-Apri Visual Studio e crea un nuovo progetto C#. Puoi scegliere un'applicazione console per semplicità.
+Apri Visual Studio e crea un nuovo progetto C#. Per semplicità, puoi scegliere un'applicazione console.
 
 ### Aggiungi riferimento Aspose.PDF
 
@@ -61,21 +63,21 @@ Per prima cosa, devi specificare il percorso del tuo documento PDF. È qui che A
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Sostituire`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui si trova il file PDF.
+Sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui si trova il file PDF.
 
 ## Passaggio 2: aprire il documento PDF
 
- Successivamente, aprirai il documento PDF utilizzando`Document` classe fornita da Aspose.PDF.
+Successivamente, aprirai il documento PDF utilizzando `Document` classe fornita da Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Questa riga di codice inizializza un nuovo`Document` oggetto con il tuo file PDF.
+Questa riga di codice inizializza un nuovo `Document` oggetto con il tuo file PDF.
 
-## Passaggio 3: imposta il rilevamento della sostituzione dei font
+## Passaggio 3: impostare il rilevamento della sostituzione dei font
 
- Ora è il momento di impostare il gestore eventi che rileverà gli avvisi di sostituzione font. Dovrai iscriverti a`FontSubstitution` evento del`Document` classe.
+Ora è il momento di impostare il gestore eventi che rileverà gli avvisi di sostituzione dei font. Dovrai iscriverti a `FontSubstitution` evento del `Document` classe.
 
 ```csharp
 doc.FontSubstitution += new Document.FontSubstitutionHandler(OnFontSubstitution);
@@ -83,9 +85,9 @@ doc.FontSubstitution += new Document.FontSubstitutionHandler(OnFontSubstitution)
 
 Questa riga collega l'evento al tuo metodo personalizzato, che definiremo in seguito.
 
-## Passaggio 4: Gestire gli avvisi di sostituzione dei font
+## Passaggio 4: gestire gli avvisi di sostituzione dei font
 
-Devi creare un metodo che gestisca gli avvisi di sostituzione font. Questo metodo verrà chiamato ogni volta che si verifica una sostituzione font.
+È necessario creare un metodo che gestisca gli avvisi di sostituzione del font. Questo metodo verrà chiamato ogni volta che si verifica una sostituzione del font.
 
 ```csharp
 private void OnFontSubstitution(object sender, Document.FontSubstitutionEventArgs e)
@@ -94,15 +96,15 @@ private void OnFontSubstitution(object sender, Document.FontSubstitutionEventArg
 }
 ```
 
-Con questo metodo, puoi registrare il nome del font originale e il nome del font sostituito nella console. In questo modo, saprai esattamente quali modifiche sono state apportate.
+Con questo metodo, puoi registrare il nome del font originale e quello sostituito nella console. In questo modo saprai esattamente quali modifiche sono state apportate.
 
 ## Passaggio 5: eseguire il codice
 
-Infine, puoi eseguire la tua applicazione. Se ci sono delle sostituzioni di font nel tuo documento PDF, vedrai gli avvisi stampati nella console.
+Infine, puoi eseguire l'applicazione. Se nel documento PDF sono presenti sostituzioni di font, gli avvisi verranno visualizzati nella console.
 
 ## Conclusione
 
-Rilevare gli avvisi di sostituzione font nei documenti PDF è essenziale per mantenere l'integrità visiva dei file. Con Aspose.PDF per .NET, questo processo è semplice ed efficiente. Seguendo i passaggi descritti in questa guida, puoi facilmente impostare il rilevamento della sostituzione font e assicurarti che i tuoi PDF abbiano esattamente l'aspetto che volevi.
+Rilevare gli avvisi di sostituzione font nei documenti PDF è essenziale per preservare l'integrità visiva dei file. Con Aspose.PDF per .NET, questo processo è semplice ed efficiente. Seguendo i passaggi descritti in questa guida, è possibile impostare facilmente il rilevamento della sostituzione font e garantire che i PDF abbiano l'aspetto desiderato.
 
 ## Domande frequenti
 
@@ -113,16 +115,18 @@ La sostituzione del font avviene quando il font originale utilizzato in un docum
 Per evitare la sostituzione dei font, assicurati che tutti i font utilizzati nel PDF siano incorporati nel documento.
 
 ### Posso usare Aspose.PDF gratuitamente?
-Sì, Aspose.PDF offre una versione di prova gratuita che puoi utilizzare per testarne le funzionalità.
+Sì, Aspose.PDF offre una prova gratuita che puoi utilizzare per testarne le funzionalità.
 
 ### Dove posso trovare ulteriore documentazione?
- Puoi trovare la documentazione dettagliata su Aspose.PDF per .NET[Qui](https://reference.aspose.com/pdf/net/).
+Puoi trovare la documentazione dettagliata su Aspose.PDF per .NET [Qui](https://reference.aspose.com/pdf/net/).
 
 ### Come posso ottenere supporto per Aspose.PDF?
- Puoi ottenere supporto visitando il[Forum di supporto Aspose](https://forum.aspose.com/c/pdf/10).
+Puoi ottenere supporto visitando il [Forum di supporto di Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

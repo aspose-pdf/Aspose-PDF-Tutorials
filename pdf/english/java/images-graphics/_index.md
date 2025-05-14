@@ -4,8 +4,11 @@ description: "Learn to work with images, vector graphics, and visual elements in
 weight: 5
 url: "/java/images-graphics/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PDF Images and Graphics Tutorials with Aspose.PDF for Java
 
@@ -80,7 +83,11 @@ Learn how to efficiently load and process images within PDF documents using Aspo
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Giải mã tập tin PDF
-linktitle: Giải mã tập tin PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách giải mã an toàn các tệp PDF bằng Aspose.PDF cho .NET. Nhận hướng dẫn từng bước để nâng cao kỹ năng quản lý tài liệu của bạn.
-weight: 20
-url: /vi/net/programming-with-security-and-signatures/decrypt/
+"description": "Tìm hiểu cách giải mã an toàn các tệp PDF bằng Aspose.PDF cho .NET. Nhận hướng dẫn từng bước để nâng cao kỹ năng quản lý tài liệu của bạn."
+"linktitle": "Giải mã tập tin PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Giải mã tập tin PDF"
+"url": "/vi/net/programming-with-security-and-signatures/decrypt/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Giải mã tập tin PDF
@@ -24,8 +26,8 @@ Bạn đã sẵn sàng để phá vỡ những ổ khóa kỹ thuật số đó 
 Trước khi đi sâu vào chi tiết về việc giải mã các tệp PDF, hãy đảm bảo rằng bạn đã chuẩn bị mọi thứ. Sau đây là những gì bạn cần:
 
 1. Kiến thức cơ bản về C#: Bạn nên nắm rõ những kiến thức cơ bản về ngôn ngữ lập trình C# vì chúng ta sẽ viết một số mã.
-2. Đã cài đặt Visual Studio: Chúng tôi sẽ sử dụng Visual Studio làm Môi trường phát triển tích hợp (IDE). Hãy đảm bảo rằng bạn đã cài đặt nó trên máy của mình.
-3.  Aspose.PDF cho Thư viện .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+2. Đã cài đặt Visual Studio: Chúng tôi sẽ sử dụng Visual Studio làm Môi trường phát triển tích hợp (IDE) của mình. Hãy đảm bảo rằng bạn đã cài đặt nó trên máy của mình.
+3. Aspose.PDF cho Thư viện .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 4. Tệp PDF để kiểm tra: Lấy tệp PDF mà bạn muốn giải mã. Ngoài ra, hãy đảm bảo rằng bạn có mật khẩu cho tệp PDF. 
 5. Thiết lập .NET Framework: Đảm bảo môi trường của bạn được cấu hình với .NET Framework tương thích.
 
@@ -53,7 +55,7 @@ Mở Visual Studio để tạo một dự án C# mới.
 
 ### Thêm Chỉ thị sử dụng
 
- Sau khi bạn đã thêm gói, đã đến lúc đưa nó vào mã của bạn. Ở đầu`Program.cs` tệp, thêm không gian tên sau:
+Sau khi bạn đã thêm gói, đã đến lúc đưa nó vào mã của bạn. Ở đầu `Program.cs` tệp, thêm không gian tên sau:
 
 ```csharp
 using System;
@@ -73,7 +75,7 @@ Bạn cần cho chương trình biết tệp PDF bạn muốn giải mã nằm �
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENTS DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn. Giống như cung cấp cho chương trình của bạn một bản đồ để tìm kho báu.
+Thay thế `"YOUR DOCUMENTS DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn. Giống như cung cấp cho chương trình của bạn một bản đồ để tìm kho báu.
 
 ## Bước 2: Mở Tài liệu
 
@@ -83,7 +85,7 @@ Tiếp theo là mở tệp PDF đã mã hóa. Ở đây, chúng ta sẽ sử d�
 Document document = new Document(dataDir + "Decrypt.pdf", "password");
 ```
 
- Thay thế`"Decrypt.pdf"` với tên PDF được mã hóa của bạn và`"password"` với mật khẩu thực tế cần thiết để mở nó. Giống như mở khóa cánh cửa vào kho lưu trữ kỹ thuật số vậy!
+Thay thế `"Decrypt.pdf"` với tên PDF được mã hóa của bạn và `"password"` với mật khẩu thực tế cần thiết để mở nó. Giống như mở khóa cánh cửa vào kho lưu trữ kỹ thuật số vậy!
 
 ## Bước 3: Giải mã PDF
 
@@ -131,16 +133,18 @@ Không, bạn chỉ có thể giải mã các tệp PDF khi bạn có mật kh�
 Thật không may, không có cách nào để khôi phục mật khẩu đã quên bằng Aspose.PDF hoặc bất kỳ công cụ nào khác một cách hợp pháp hoặc đạo đức.
 
 ### Aspose.PDF có miễn phí sử dụng không?
- Aspose.PDF không miễn phí, nhưng bạn có thể dùng thử bằng cách sử dụng[dùng thử miễn phí](https://releases.aspose.com/).
+Aspose.PDF không miễn phí, nhưng bạn có thể dùng thử bằng cách sử dụng [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Aspose.PDF có hỗ trợ các định dạng tệp khác không?
 Có, nó hỗ trợ nhiều định dạng khác nhau như DOC, XML và hình ảnh cùng với PDF.
 
 ### Tôi có thể nhận trợ giúp ở đâu nếu cần?
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

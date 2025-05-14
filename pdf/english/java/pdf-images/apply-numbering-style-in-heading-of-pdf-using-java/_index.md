@@ -8,7 +8,9 @@ url: /java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Numbering Style in Heading of PDF using Java
@@ -125,6 +127,7 @@ You can find comprehensive documentation, code examples, and API reference for A
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

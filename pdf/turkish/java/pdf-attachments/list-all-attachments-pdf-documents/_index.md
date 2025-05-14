@@ -1,14 +1,16 @@
 ---
-title: PDF Belgelerindeki Tüm Ekleri Listele
-linktitle: PDF Belgelerindeki Tüm Ekleri Listele
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF'yi kullanarak PDF'lerdeki Ekleri Nasıl Listeleyeceğinizi Keşfedin. PDF Eklerini Kolayca Çıkarmak İçin Adım Adım Kılavuz.
-weight: 13
-url: /tr/java/pdf-attachments/list-all-attachments-pdf-documents/
+"description": "Java için Aspose.PDF'yi kullanarak PDF'lerdeki Ekleri Nasıl Listeleyeceğinizi Keşfedin. PDF Eklerini Kolayca Çıkarmak İçin Adım Adım Kılavuz."
+"linktitle": "PDF Belgelerindeki Tüm Ekleri Listele"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF Belgelerindeki Tüm Ekleri Listele"
+"url": "/tr/java/pdf-attachments/list-all-attachments-pdf-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Belgelerindeki Tüm Ekleri Listele
@@ -27,7 +29,7 @@ Koda dalmadan önce, Java için Aspose.PDF ile tanışalım. PDF belgelerini pro
 Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 - Sisteminizde Java Development Kit (JDK) yüklü.
--  Java kütüphanesi için Aspose.PDF. İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF. İndirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 Şimdi, Java için Aspose.PDF'i kullanarak bir PDF belgesindeki tüm ekleri listelemek için gereken adımları ana hatlarıyla açıklayalım.
 
@@ -46,7 +48,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("path_to_your_
 
 ### Adım 3: Ekleri Alın
 
- Ekleri almak için şunu kullanın:`getEmbeddedFiles` yöntem:
+Ekleri almak için şunu kullanın: `getEmbeddedFiles` yöntem:
 
 ```java
 // Eklerin listesini alın
@@ -55,7 +57,7 @@ com.aspose.pdf.EmbeddedFileCollection embeddedFiles = pdfDocument.getEmbeddedFil
 
 ### Adım 4: Ekleri listeleyin
 
-Şimdi ekleri dolaşın ve isimlerini görüntüleyin:
+Şimdi ekleri dolaşalım ve isimlerini görüntüleyelim:
 
 ```java
 // Tüm ekleri listele
@@ -77,13 +79,13 @@ pdfDocument.close();
 
 Bu eğitimde, Java için Aspose.PDF kullanarak PDF belgelerindeki tüm ekleri nasıl listeleyeceğinizi inceledik. Sadece birkaç basit adımla, PDF dosyalarınızda gizli eklerin adlarına erişebilir ve bunları görüntüleyebilirsiniz. Bu, daha fazla işlem için belirli ekleri çıkarmanız gereken senaryolarda özellikle yararlı olabilir.
 
-Artık Aspose.PDF kullanarak Java'da PDF ekleriyle çalışma bilgisine sahipsiniz. Farklı PDF'lerle denemeler yapın ve ekleri programatik olarak yönetme olanaklarını keşfedin.
+Artık Aspose.PDF kullanarak Java'da PDF ekleriyle çalışma bilgisine sahipsiniz. Farklı PDF'lerle deneyler yapın ve ekleri programatik olarak yönetme olanaklarını keşfedin.
 
 ## SSS
 
 ### PDF'in belirli bir sayfasındaki ekleri nasıl çıkarabilirim?
 
- PDF'in belirli bir sayfasından ekleri çıkarmak için şunu kullanabilirsiniz:`getPage` Belirli bir sayfaya erişmek ve daha sonra o sayfadaki ekleri almak için kullanılan yöntem.
+PDF'in belirli bir sayfasından ekleri çıkarmak için şunu kullanabilirsiniz: `getPage` Belirli bir sayfaya erişmek ve daha sonra o sayfadaki ekleri almak için kullanılan yöntem.
 
 ### Sadece resim dosyaları gibi belirli bir türdeki ekleri çıkarabilir miyim?
 
@@ -99,10 +101,12 @@ Java için Aspose.PDF çeşitli boyutlardaki PDF'leri işleyebilir, ancak perfor
 
 ### Java için Aspose.PDF hakkında daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve kaynakları şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve kaynakları şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: โต๊ะมุมโค้งมนในเอกสาร PDF
-linktitle: โต๊ะมุมโค้งมนในเอกสาร PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีสร้างตารางมุมโค้งมนสวยงามในเอกสาร PDF ของคุณโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-weight: 190
-url: /th/net/programming-with-tables/rounded-corner-table/
+"description": "เรียนรู้วิธีสร้างตารางมุมโค้งมนสวยงามในเอกสาร PDF ของคุณโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "โต๊ะมุมโค้งมนในเอกสาร PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "โต๊ะมุมโค้งมนในเอกสาร PDF"
+"url": "/th/net/programming-with-tables/rounded-corner-table/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # โต๊ะมุมโค้งมนในเอกสาร PDF
@@ -23,7 +25,7 @@ url: /th/net/programming-with-tables/rounded-corner-table/
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว ซึ่งจะเป็นพื้นที่สำหรับการเขียนโค้ดและการทดสอบของคุณ
 2. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณกำลังใช้ .NET Framework เวอร์ชันที่เกี่ยวข้องที่เข้ากันได้กับ Aspose.PDF
-3. Aspose.PDF สำหรับ .NET: คุณต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF สำหรับ .NET: คุณต้องมีไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/pdf/net/).
 4. IDE ที่เหมาะสม: ในขณะที่ Visual Studio เป็นที่ต้องการ แต่ IDE อื่น ๆ ที่รองรับ C# ก็สามารถทำงานได้เช่นกัน
 5. ความรู้พื้นฐานเกี่ยวกับ C#: การทำความเข้าใจพื้นฐานของการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจเนื้อหาได้เร็วขึ้น
 
@@ -42,13 +44,13 @@ url: /th/net/programming-with-tables/rounded-corner-table/
 เมื่อตั้งค่าโครงการของคุณแล้ว:
 - คลิกขวาที่โครงการใน Solution Explorer
 - เลือก “จัดการแพ็คเกจ NuGet”
--  ค้นหา`Aspose.PDF` และติดตั้งมัน
+- ค้นหา `Aspose.PDF` และติดตั้งมัน
 
 ตอนนี้คุณก็พร้อมที่จะไปแล้ว!
 
-### นำเข้าเนมสเปซ Aspose.PDF
+### นำเข้าพื้นที่ชื่อ Aspose.PDF
 
- ที่ด้านบนของคุณ`Program.cs` หรือที่ใดก็ตามที่โค้ดหลักของคุณอยู่ คุณจะต้องการเพิ่ม:
+ที่ด้านบนของคุณ `Program.cs` หรือที่ใดก็ตามที่โค้ดหลักของคุณอยู่ คุณจะต้องการเพิ่ม:
 
 ```csharp
 using System.IO;
@@ -68,7 +70,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- เปลี่ยน`YOUR DOCUMENT DIRECTORY` ไปยังเส้นทางจริงที่คุณต้องการบันทึก PDF ของคุณ 
+เปลี่ยน `YOUR DOCUMENT DIRECTORY` ไปยังเส้นทางจริงที่คุณต้องการบันทึก PDF ของคุณ 
 
 ## ขั้นตอนที่ 2: เริ่มต้นเอกสาร
 
@@ -90,7 +92,7 @@ Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 
 ## ขั้นตอนที่ 4: สร้างข้อมูลชายแดน
 
- หากต้องการให้ตารางของคุณมีโครงร่างที่สวยงามและมีเอฟเฟกต์มุมโค้งมน คุณต้องสร้างอินสแตนซ์ของ`BorderInfo`.
+หากต้องการให้ตารางของคุณมีโครงร่างที่สวยงามและมีเอฟเฟกต์มุมโค้งมน คุณต้องสร้างอินสแตนซ์ของ `BorderInfo`-
 
 ```csharp
 GraphInfo graph = new GraphInfo();
@@ -108,7 +110,7 @@ BorderInfo bInfo = new BorderInfo(BorderSide.All, graph);
 bInfo.RoundedBorderRadius = 15; // ปรับระดับรัศมีตามต้องการ
 ```
 
-รัศมี 15 จะทำให้ดูโค้งมนขึ้นอย่างเห็นได้ชัด คุณสามารถปรับเปลี่ยนตัวเลขนี้ให้เหมาะกับสไตล์ของคุณได้
+รัศมี 15 จะให้เอฟเฟกต์โค้งมนอย่างเห็นได้ชัด คุณสามารถปรับเปลี่ยนตัวเลขนี้ให้เหมาะกับสไตล์ของคุณได้
 
 ## ขั้นตอนที่ 6: ปัดมุมโต๊ะให้โค้งมน
 
@@ -160,19 +162,21 @@ pdfDocument.Save(dataDir + "RoundedCornerTable.pdf");
 Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช่วยให้แอปพลิเคชัน .NET สร้างและจัดการเอกสาร PDF ได้อย่างง่ายดาย
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่! คุณสามารถลองใช้ Aspose.PDF พร้อมรุ่นทดลองใช้งานฟรีได้ที่[หน้าวางจำหน่าย](https://releases.aspose.com/).
+ใช่! คุณสามารถลองใช้ Aspose.PDF พร้อมรุ่นทดลองใช้งานฟรีได้ที่ [หน้าวางจำหน่าย](https://releases-aspose.com/).
 
 ### โต๊ะมุมโค้งมนมีประโยชน์อย่างไร?
 ช่วยเพิ่มความสวยงามของตารางในเอกสาร PDF ทำให้ผู้อ่านสนใจมากขึ้น
 
 ### ฉันสามารถซื้อ Aspose.PDF ได้จากที่ไหน?
- คุณสามารถซื้อได้โดยตรงจาก[หน้าสั่งซื้อ Aspose](https://purchase.aspose.com/buy).
+คุณสามารถซื้อได้โดยตรงจาก [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/buy).
 
 ### จะเกิดอะไรขึ้นถ้าฉันต้องการการสนับสนุน?
- หากต้องการความช่วยเหลือ คุณสามารถเยี่ยมชมฟอรัมสนับสนุน Aspose ได้ที่[การสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10).
+หากต้องการความช่วยเหลือ คุณสามารถเยี่ยมชมฟอรัมสนับสนุน Aspose ได้ที่ [การสนับสนุน Aspose](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

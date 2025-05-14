@@ -1,14 +1,16 @@
 ---
-title: Buat PDF A1 dengan Aspose Pdf
-linktitle: Buat PDF A1 dengan Aspose Pdf
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat file PDF/A-1 dengan Aspose.PDF untuk .NET dalam tutorial terperinci ini. Panduan langkah demi langkah dengan contoh kode dan penjelasan.
-weight: 90
-url: /id/net/programming-with-document/createpdfa1withasposepdf/
+"description": "Pelajari cara membuat file PDF/A-1 dengan Aspose.PDF untuk .NET dalam tutorial terperinci ini. Panduan langkah demi langkah dengan contoh kode dan penjelasan."
+"linktitle": "Buat PDF A1 dengan Aspose Pdf"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat PDF A1 dengan Aspose Pdf"
+"url": "/id/net/programming-with-document/createpdfa1withasposepdf/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat PDF A1 dengan Aspose Pdf
@@ -21,10 +23,10 @@ Apakah Anda ingin membuat file PDF/A-1 menggunakan Aspose.PDF untuk .NET? Anda b
 
 Sebelum mulai menggunakan kode, pastikan Anda telah menyiapkan semuanya. Berikut ini yang Anda perlukan:
 
-1.  Aspose.PDF untuk .NET – Unduh dan instal dari[Unduh PDF Aspose](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET – Unduh dan instal dari [Unduh PDF Aspose](https://releases.aspose.com/pdf/net/).
 2. Lingkungan .NET – Pastikan Anda telah menginstal .NET (kompatibel dengan .NET Core atau .NET Framework).
 3. IDE Pengembangan – Microsoft Visual Studio atau IDE apa pun yang kompatibel.
-4. Lisensi Sementara atau Penuh – Dapatkan[uji coba gratis](https://releases.aspose.com/) atau sebuah[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk penggunaan tak terbatas.
+4. Lisensi Sementara atau Penuh – Dapatkan [uji coba gratis](https://releases.aspose.com/) atau sebuah [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk penggunaan tak terbatas.
 5. Pengetahuan Dasar C# – Pemahaman dasar tentang pemrograman C# dan .NET.
 
 ## Paket Impor
@@ -51,17 +53,17 @@ Hal pertama yang perlu Anda lakukan adalah menentukan direktori tempat file PDF 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-- dataDir: Variabel ini menyimpan jalur ke direktori tempat Anda akan menyimpan PDF yang dihasilkan. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
+- dataDir: Variabel ini menyimpan jalur ke direktori tempat Anda akan menyimpan PDF yang dihasilkan. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda.
 
 ## Langkah 2: Buat Dokumen PDF Baru
 
-Selanjutnya, mari kita buat dokumen PDF baru menggunakan Aspose.PDF. Dokumen ini akan berfungsi sebagai kanvas kosong tempat kita akan menambahkan konten.
+Selanjutnya, mari buat dokumen PDF baru menggunakan Aspose.PDF. Dokumen ini akan berfungsi sebagai kanvas kosong tempat kita akan menambahkan konten.
 
 ```csharp
 Aspose.Pdf.Document pdf1 = new Aspose.Pdf.Document();
 ```
 
--  Dokumen pdf1: Baris ini membuat instance baru dari`Document` kelas, yang mewakili berkas PDF kosong Anda.
+- Dokumen pdf1: Baris ini membuat contoh baru dari `Document` kelas, yang mewakili berkas PDF kosong Anda.
 
 ## Langkah 3: Tambahkan Halaman dan Teks ke PDF
 
@@ -72,11 +74,11 @@ pdf1.Pages.Add().Paragraphs.Add(new TextFragment("Hello World!"));
 ```
 
 - Pages.Add(): Menambahkan halaman kosong baru ke dokumen PDF Anda.
--  Paragraphs.Add(): Menambahkan paragraf ke halaman. Dalam kasus ini, kita menambahkan paragraf`TextFragment` yang berisi teks "Halo Dunia!"
+- Paragraphs.Add(): Menambahkan paragraf ke halaman. Dalam kasus ini, kita menambahkan paragraf `TextFragment` yang berisi teks "Halo Dunia!"
 
 ## Langkah 4: Simpan PDF ke Memori
 
- Setelah konten ditambahkan, kita perlu menyimpan PDF. Di sini, kita akan menyimpannya ke`MemoryStream`, yang memungkinkan kita memanipulasi PDF lebih lanjut jika diperlukan.
+Setelah konten ditambahkan, kita perlu menyimpan PDF. Di sini, kita akan menyimpannya ke `MemoryStream`, yang memungkinkan kita memanipulasi PDF lebih lanjut jika diperlukan.
 
 ```csharp
 MemoryStream ms = new MemoryStream();
@@ -99,7 +101,7 @@ Sekarang tibalah langkah kuncinya: mengonversi dokumen PDF biasa Anda ke dalam f
 - PdfFormat.PDF_A_1A: Menentukan format PDF/A-1A, yang merupakan salah satu format pengarsipan yang paling ketat.
 - ConvertErrorAction.Delete: Menghapus objek apa pun yang tidak sesuai dengan format PDF/A.
 
- Catatan:`Convert()` metode ini dikomentari di sini. Pastikan untuk menerapkannya dengan benar dalam kode Anda.
+Catatan: `Convert()` metode ini dikomentari di sini. Pastikan untuk menerapkannya dengan benar dalam kode Anda.
 
 ## Langkah 6: Simpan PDF Final ke Disk
 
@@ -122,19 +124,21 @@ Selamat! Anda baru saja membuat dokumen PDF/A-1 menggunakan Aspose.PDF untuk .NE
 PDF/A-1 adalah format standar yang dirancang untuk penyimpanan dokumen jangka panjang, memastikan bahwa file tetap dapat diakses dan dilihat selama bertahun-tahun.
 
 ### Bisakah saya mengonversi PDF yang sudah ada ke PDF/A-1 dengan Aspose.PDF?  
- Ya, Aspose.PDF untuk .NET memungkinkan Anda mengonversi file PDF yang ada ke format PDF/A-1 menggunakan`Convert()` metode.
+Ya, Aspose.PDF untuk .NET memungkinkan Anda mengonversi file PDF yang ada ke format PDF/A-1 menggunakan `Convert()` metode.
 
 ### Bagaimana cara menginstal Aspose.PDF untuk .NET?  
- Anda dapat mengunduh Aspose.PDF untuk .NET dari[Aspose merilis halaman](https://releases.aspose.com/pdf/net/)dan menginstalnya dengan mudah di proyek .NET Anda melalui NuGet.
+Anda dapat mengunduh Aspose.PDF untuk .NET dari [Aspose merilis halaman](https://releases.aspose.com/pdf/net/), dan menginstalnya dengan mudah di proyek .NET Anda melalui NuGet.
 
 ### Dapatkah saya mencoba Aspose.PDF secara gratis?  
- Tentu saja! Aspose menawarkan[uji coba gratis](https://releases.aspose.com/) dan sebuah[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menguji kemampuan penuh perpustakaan.
+Tentu saja! Aspose menawarkan [uji coba gratis](https://releases.aspose.com/) dan sebuah [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menguji kemampuan penuh perpustakaan.
 
 ### Apa keuntungan menggunakan PDF/A-1?  
 PDF/A-1 memastikan integritas dokumen, diterima secara luas untuk pengarsipan, dan memastikan dokumen Anda tetap dapat diakses di masa mendatang.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

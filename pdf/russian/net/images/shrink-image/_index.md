@@ -1,58 +1,64 @@
 ---
-title: Оптимизировать PDF путем сжатия изображений в Aspose.PDF для .NET
-weight: 7700
-limit: 
-description: Узнайте, как оптимизировать PDF-документ путем сжатия изображений с помощью Aspose.PDF для .NET. Уменьшите размер файла при сохранении качества с помощью простого кода C #.  
-keywords: [Aspose.PDF for .NET, optimize PDF, compress images, reduce PDF size, C# PDF optimization, PDF image compression, .NET PDF processing]
-url: /ru/net/images/shrink-image/
+"description": "Узнайте, как оптимизировать PDF-документ, сжимая изображения с помощью Aspose.PDF для .NET. Уменьшите размер файла, сохранив качество с помощью простого кода C#."
+"title": "Оптимизируйте PDF-файлы, сжимая изображения в Aspose.PDF для .NET"
+"url": "/ru/net/images/shrink-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Оптимизировать PDF путем сжатия изображений в Aspose.PDF
+# Оптимизируйте PDF-файлы, сжимая изображения в Aspose.PDF
  
-Оптимизация файлов PDF имеет важное значение для уменьшения размера файла при сохранении качества документа. С помощью Aspose.PDF для .NET вы можете эффективно сжимать изображения в PDF с использованием встроенных опций оптимизации. Это руководство демонстрирует простой пример C #, где загружается файл PDF, включено сжатие изображений, настройки качества корректируются и оптимизированный документ сохраняется. Следуя этим шагам, вы можете гарантировать, что ваши PDF-файлы остаются легкими и простыми для обмена без ущерба для ясности.  
+Оптимизация файлов PDF необходима для уменьшения размера файла при сохранении качества документа. С Aspose.PDF для .NET вы можете эффективно сжимать изображения в PDF, используя встроенные параметры оптимизации. В этом руководстве показан простой пример C#, в котором загружается файл PDF, включается сжатие изображения, настраиваются параметры качества и сохраняется оптимизированный документ. Выполняя эти шаги, вы можете гарантировать, что ваши файлы PDF останутся легкими и простыми для распространения без ущерба для ясности.  
  
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/shrink-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Инструкция по установке:  
-Чтобы использовать Aspose.PDF для .NET, выполните следующие шаги:  
+Чтобы использовать Aspose.PDF для .NET, выполните следующие действия:  
 
-1. Установка через NuGet Package Manager:  
-   * Откройте Visual Studio и перейдите в Tools > NuGet Package Manager > Manage NuGet Packages for Solution.  
-   * Поищите Aspose.PDF и нажмите на "Установить".  
+1. Установка через менеджер пакетов NuGet:  
+   - Откройте Visual Studio и выберите Инструменты > Диспетчер пакетов NuGet > Управление пакетами NuGet для решения.  
+   - Найдите Aspose.PDF и нажмите «Установить».  
 
    ИЛИ  
 
-   Запустить следующую команду в консоли управления пакетами:  
+   Выполните следующую команду в консоли диспетчера пакетов:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. Скачать с сайта Aspose:  
-   * Посмотреть .[Aspose.PDF для загрузки .NET](https://releases.aspose.com/pdf/net/)  
-   * Скачайте и устанавливайте последнюю версию.  
+2. Загрузить с веб-сайта Aspose:  
+   - Посещать [Aspose.PDF для .NET Загрузки](https://releases.aspose.com/pdf/net/)  
+   - Загрузите и установите последнюю версию.  
 
-3. Заявление на получение лицензии (необязательно):  
-   * Получи бесплатную пробную лицензию от[Временное разрешение](https://purchase.aspose.com/temporary-license/)  
-   * Применить лицензию в своем коде с помощью:  
+3. Применить лицензию (необязательно):  
+   - Получите бесплатную пробную лицензию от [Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/)  
+   - Примените лицензию в своем коде, используя:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.PDF.lic");
    ```
 
 ## Полезные ссылки:  
-Документация:[Aspose.PDF для .NET Guide](https://docs.aspose.com/pdf/net/)  
-Ссылка на API: [Aspose.PDF для .NET API](https://reference.aspose.com/pdf/net/)  
-Бесплатная пробная версия:[Бесплатный пробный вариант](https://releases.aspose.com/)  
-Форум поддержки:[Поддержка](https://forum.aspose.com/c/pdf/10) 
+Документация: [Руководство по Aspose.PDF для .NET](https://docs.aspose.com/pdf/net/)  
+Ссылка API: [Aspose.PDF для .NET API](https://reference.aspose.com/pdf/net/)  
+Бесплатная пробная версия: [Бесплатная пробная версия Aspose](https://releases.aspose.com/)  
+Форум поддержки: [Поддержка Aspose](https://forum.aspose.com/c/pdf/10) 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

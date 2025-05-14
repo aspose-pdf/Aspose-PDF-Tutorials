@@ -1,46 +1,48 @@
 ---
-title: Vytvořte vyplněný obdélníkový objekt v PDF pomocí Java
-linktitle: Vytvořte vyplněný obdélníkový objekt v PDF pomocí Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se vytvářet vyplněné obdélníky v PDF pomocí Java s Aspose.PDF pro Java. Výukový program krok za krokem s příklady kódu.
-weight: 12
-url: /cs/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
+"description": "Naučte se, jak vytvářet vyplněné obdélníky v PDF pomocí Javy s Aspose.PDF pro Javu. Podrobný návod s příklady kódu."
+"linktitle": "Vytvoření vyplněného obdélníkového objektu v PDF pomocí Javy"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Vytvoření vyplněného obdélníkového objektu v PDF pomocí Javy"
+"url": "/cs/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte vyplněný obdélníkový objekt v PDF pomocí Java
+# Vytvoření vyplněného obdélníkového objektu v PDF pomocí Javy
 
 
-## Úvod do vytváření vyplněného obdélníkového objektu v PDF pomocí Java
+## Úvod do vytváření vyplněného obdélníkového objektu v PDF pomocí Javy
 
-V tomto tutoriálu prozkoumáme, jak vytvořit vyplněný obdélníkový objekt v dokumentu PDF pomocí Javy s pomocí Aspose.PDF pro Javu. Vyplněné obdélníky se běžně používají v PDF pro různé účely, jako je zvýraznění důležitých informací nebo vytváření vizuálních separací.
+V tomto tutoriálu se podíváme na to, jak vytvořit objekt vyplněného obdélníku v dokumentu PDF pomocí Javy s pomocí Aspose.PDF pro Javu. Vyplněné obdélníky se v PDF běžně používají k různým účelům, jako je zvýraznění důležitých informací nebo vytvoření vizuálních oddělení.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK) nainstalován
+- Nainstalovaná vývojářská sada Java (JDK)
 - Integrované vývojové prostředí (IDE) jako Eclipse nebo IntelliJ
-- Aspose.PDF pro knihovnu Java stažen a nakonfigurovaný
+- Stažení a konfigurace knihovny Aspose.PDF pro Javu
 
-## Nastavení Aspose.PDF pro Javu
+## Nastavení souboru Aspose.PDF pro Javu
 
-Chcete-li začít, musíte si z webové stránky stáhnout Aspose.PDF for Java. Postupujte takto:
+Chcete-li začít, stáhněte si soubor Aspose.PDF pro Javu z webových stránek. Postupujte takto:
 
-1.  Přístup k dokumentaci Aspose.PDF for Java na adrese[zde](https://reference.aspose.com/pdf/java/).
+1. Dokumentaci k souboru Aspose.PDF pro Javu naleznete na adrese [zde](https://reference.aspose.com/pdf/java/).
 
 2. Stáhněte si knihovnu a postupujte podle pokynů k instalaci.
 
-3. Importujte knihovnu Aspose.PDF do svého projektu Java.
+3. Importujte knihovnu Aspose.PDF do svého projektu v Javě.
 
-Nyní, když jsme nastavili Aspose.PDF pro Javu, pojďme se ponořit do vytváření vyplněného obdélníku v dokumentu PDF.
+Nyní, když jsme si nastavili Aspose.PDF pro Javu, pojďme se ponořit do vytváření vyplněného obdélníku v dokumentu PDF.
 
-## Vytvoření nového dokumentu PDF
+## Vytvoření nového PDF dokumentu
 
-V této části vytvoříme nový dokument PDF pomocí Aspose.PDF pro Javu. Nejprve importujte potřebné třídy:
+V této části vytvoříme nový PDF dokument pomocí Aspose.PDF pro Javu. Nejprve importujeme potřebné třídy:
 
 ```java
 import com.aspose.pdf.Document;
@@ -66,54 +68,56 @@ page.getParagraphs().add(filledRectangle);
 ```
 
 V tomto kódu:
--  Vytváříme nový`Rectangle` objekt s uvedením jeho polohy (x=100, y=100), šířky (200) a výšky (50).
-- Barvu pozadí obdélníku nastavíme na červenou.
-- Nakonec přidáme obdélník na stránku.
+- Tvoříme nový `Rectangle` objekt, s určením jeho polohy (x=100, y=100), šířky (200) a výšky (50).
+- Barvu pozadí obdélníku jsme nastavili na červenou.
+- Nakonec přidáme na stránku obdélník.
 
 ## Přizpůsobení obdélníku
 
-Obdélník můžete dále přizpůsobit změnou jeho barvy, ohraničení nebo jiných vlastností. Další možnosti naleznete v dokumentaci Aspose.PDF for Java.
+Obdélník si můžete dále přizpůsobit změnou jeho barvy, ohraničení nebo jiných vlastností. Další možnosti naleznete v dokumentaci k souboru Aspose.PDF pro Javu.
 
-## Uložení PDF
+## Uložení PDF souboru
 
-Po vytvoření dokumentu PDF s vyplněným obdélníkem jej uložte do souboru:
+Po vytvoření PDF dokumentu s vyplněným obdélníkem jej uložte do souboru:
 
 ```java
 pdfDocument.save("FilledRectangle.pdf");
 ```
 
-## Spuštění kodexu
+## Spuštění kódu
 
-Zkompilujte a spusťte svůj kód Java. Nyní byste měli mít soubor PDF s názvem "FilledRectangle.pdf" s vyplněným obdélníkem.
+Zkompilujte a spusťte kód v Javě. Nyní byste měli mít soubor PDF s názvem „FilledRectangle.pdf“ s vyplněným obdélníkem.
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak vytvořit vyplněný obdélníkový objekt v dokumentu PDF pomocí Java a Aspose.PDF for Java. To může být užitečné pro zvýraznění důležitých informací nebo přidání vizuálních prvků do vašich PDF. Aspose.PDF for Java poskytuje výkonný a flexibilní způsob práce s PDF v aplikacích Java.
+V tomto tutoriálu jsme se naučili, jak vytvořit vyplněný obdélníkový objekt v dokumentu PDF pomocí Javy a Aspose.PDF pro Javu. To může být užitečné pro zvýraznění důležitých informací nebo přidání vizuálních prvků do vašich PDF souborů. Aspose.PDF pro Javu poskytuje výkonný a flexibilní způsob práce s PDF soubory v aplikacích Java.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.PDF pro Java?
+### Co je Aspose.PDF pro Javu?
 
-Aspose.PDF for Java je knihovna Java, která umožňuje vývojářům pracovat se soubory PDF v aplikacích Java. Poskytuje širokou škálu funkcí pro vytváření, manipulaci a správu dokumentů PDF.
+Aspose.PDF pro Javu je knihovna v Javě, která umožňuje vývojářům pracovat s PDF soubory v Java aplikacích. Nabízí širokou škálu funkcí pro vytváření, manipulaci a správu PDF dokumentů.
 
 ### Jak nainstaluji Aspose.PDF pro Javu?
 
-Aspose.PDF pro Java můžete nainstalovat stažením knihovny z webu Aspose a podle pokynů k instalaci uvedených v dokumentaci.
+Knihovnu Aspose.PDF pro Javu si můžete nainstalovat stažením z webových stránek Aspose a podle pokynů k instalaci uvedených v dokumentaci.
 
 ### Mohu změnit barvu vyplněného obdélníku?
 
- Ano, barvu vyplněného obdélníku můžete přizpůsobit nastavením barvy pozadí pomocí`setBackgroundColor`metodou, jak je uvedeno v tutoriálu.
+Ano, barvu vyplněného obdélníku můžete přizpůsobit nastavením barvy jeho pozadí pomocí `setBackgroundColor` metodu, jak je znázorněno v tutoriálu.
 
-### Je Aspose.PDF for Java zdarma k použití?
+### Je Aspose.PDF pro Javu zdarma k použití?
 
-Aspose.PDF for Java je komerční knihovna a možná budete muset zakoupit licenci, abyste ji mohli používat ve svých projektech. Podrobnosti o licencích najdete na webu Aspose.
+Aspose.PDF pro Javu je komerční knihovna a pro její použití ve vašich projektech si možná budete muset zakoupit licenci. Podrobnosti o licencování naleznete na webových stránkách Aspose.
 
-### Kde najdu další příklady pomocí Aspose.PDF pro Javu?
+### Kde najdu další příklady použití Aspose.PDF pro Javu?
 
- Další příklady a podrobnou dokumentaci o tom, jak používat Aspose.PDF pro Javu, najdete na webu Aspose na adrese[zde](https://reference.aspose.com/pdf/java/).
+Další příklady a podrobnou dokumentaci k používání souboru Aspose.PDF pro Javu naleznete na webových stránkách Aspose na adrese [zde](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

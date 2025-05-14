@@ -1,14 +1,16 @@
 ---
-title: Üstbilgi Altbilgi Bölümündeki Tablo
-linktitle: Üstbilgi Altbilgi Bölümündeki Tablo
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile bir PDF belgesinin üstbilgi/altbilgi bölümüne tablo eklemeyi öğrenin.
-weight: 170
-url: /tr/net/programming-with-stamps-and-watermarks/table-in-header-footer-section/
+"description": "Aspose.PDF for .NET ile bir PDF belgesinin üstbilgi/altbilgi bölümüne tablo eklemeyi öğrenin."
+"linktitle": "Üstbilgi Altbilgi Bölümündeki Tablo"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Üstbilgi Altbilgi Bölümündeki Tablo"
+"url": "/tr/net/programming-with-stamps-and-watermarks/table-in-header-footer-section/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Üstbilgi Altbilgi Bölümündeki Tablo
@@ -19,10 +21,10 @@ Hiç kendinizi düz bir PDF belgesine bakarken buldunuz mu, keşke o ekstra hava
 
 ## Ön koşullar
 
-Gerçek kodlama kısmına geçmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte ihtiyacınız olacaklar:
+Gerçek kodlama kısmına geçmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İhtiyacınız olanlar şunlardır:
 
-1.  Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. Eğer yüklü değilse, şuradan indirebilirsiniz:[Microsoft'un sitesi](https://visualstudio.microsoft.com/).
-2.  Aspose.PDF Kütüphanesi: .NET için Aspose.PDF kütüphanesine sahip olmalısınız. Aşağıdaki bağlantıyı kullanarak alabilirsiniz[.NET paketi için Aspose.PDF](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. Eğer yüklü değilse, şuradan indirebilirsiniz: [Microsoft'un sitesi](https://visualstudio.microsoft.com/).
+2. Aspose.PDF Kütüphanesi: .NET için Aspose.PDF kütüphanesine sahip olmalısınız. Aşağıdaki bağlantıyı kullanarak alabilirsiniz [.NET paketi için Aspose.PDF](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: En azından temel bir C# bilgisine sahip olmalısınız. Hala öğreniyorsanız endişelenmeyin; mümkün olduğunca basit tutacağım!
 
 ## Paketleri İçe Aktar
@@ -49,7 +51,7 @@ PDF'imizi oluşturmaya başlamadan önce, belgemizin nerede saklanacağını tan
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Bunu gerçek dizininize değiştirin
 ```
 
- Yer değiştirmek`YOUR DOCUMENT DIRECTORY`PDF'nizi kaydetmek istediğiniz yol ile. Bu, sisteminizdeki herhangi bir yer olabilir—sadece erişilebilir olduğundan emin olun!
+Yer değiştirmek `YOUR DOCUMENT DIRECTORY` PDF'nizi kaydetmek istediğiniz yol ile. Bu, sisteminizdeki herhangi bir yer olabilir—sadece erişilebilir olduğundan emin olun!
 
 ## Adım 2: Belgeyi Örneklendirin
 
@@ -95,10 +97,10 @@ page.Header = header;
 
 ## Adım 6: Üst Kenar Boşluğunu Ayarlayın
 
-Başlığımızın üstte biraz nefes alabilmesi için kenar boşluklarını ayarlayalım.
+Başlığımızın üst kısmında biraz boşluk kalması için kenar boşluklarını ayarlayalım.
 
 ```csharp
-//Başlık bölümü için üst kenar boşluğunu ayarlayın
+// Başlık bölümü için üst kenar boşluğunu ayarlayın
 header.Margin.Top = 20;
 ```
 
@@ -147,7 +149,7 @@ Değerler her sütunun genişliğini puan olarak temsil eder. İhtiyaçlarınız
 Artık birkaç satır ve hücre eklemenin zamanı geldi! 
 
 ```csharp
-//Tabloda satırlar ve ardından satırlarda hücreler oluşturun
+// Tabloda satırlar ve ardından satırlarda hücreler oluşturun
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("Table in Header Section");
 row1.BackgroundColor = Color.Gray;
@@ -190,17 +192,17 @@ Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 img.File = dataDir + "aspose-logo.jpg"; // Resmi dizininize yerleştirdiğinizden emin olun
 ```
 
- Değiştirmeyi unutmayın`"aspose-logo.jpg"` Resminizin gerçek adıyla!
+Değiştirmeyi unutmayın `"aspose-logo.jpg"` Resminizin gerçek adıyla!
 
 ## Adım 15: Görüntü Genişliğini Ayarlayın
 
 Görüntünün hücrede tam olarak doğru görünmesini sağlamak için görüntü genişliğini ayarlayın.
 
 ```csharp
-// Resim genişliğini 60'a ayarlayın
+// Resim genişliğini 60 olarak ayarlayın
 img.FixWidth = 60;
 
-//Resmi tablo hücresine ekle
+// Resmi tablo hücresine ekle
 Aspose.Pdf.Cell cell2 = row2.Cells.Add();
 cell2.Paragraphs.Add(img);
 ```
@@ -245,19 +247,21 @@ pdfDocument.Save(dataDir + "TableInHeaderFooterSection_out.pdf");
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına ve düzenlemelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'i kullanmak için lisansa ihtiyacım var mı?
- Deneme süresi boyunca kütüphaneyi ücretsiz kullanabilirsiniz ancak uzun süreli kullanım için lisans gereklidir. Bir lisans alabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
+Deneme süresi boyunca kütüphaneyi ücretsiz kullanabilirsiniz ancak uzun süreli kullanım için lisans gereklidir. Bir lisans alabilirsiniz. [geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
 
 ### Dokümantasyonu nerede bulabilirim?
-Kapsamlı dokümantasyon ve örnekleri şu adreste bulabilirsiniz:[Aspose.PDF dokümantasyon sayfası](https://reference.aspose.com/pdf/net/).
+Kapsamlı dokümanları ve örnekleri şu adreste bulabilirsiniz: [Aspose.PDF dokümantasyon sayfası](https://reference.aspose.com/pdf/net/).
 
 ### Teknik sorunlarda destek ekibiyle nasıl iletişime geçebilirim?
- Destek için bize ulaşabilirsiniz[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek için bize ulaşabilirsiniz [Aspose forumu](https://forum.aspose.com/c/pdf/10).
 
 ### PDF'in diğer bölümlerinde tablo oluşturabilir miyim?
 Kesinlikle! Altbilgilerde ve gövde bölümlerinde de tablolar oluşturabilirsiniz; sadece benzer adımları izleyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Yazı Tiplerini Kaldırın ve PDF Dosyalarını Optimize Edin
-linktitle: Yazı Tiplerini Kaldırın ve PDF Dosyalarını Optimize Edin
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimde Aspose.PDF for .NET kullanarak yazı tiplerini nasıl kaldıracağınızı ve PDF dosyalarını nasıl optimize edeceğinizi öğrenin.
-weight: 370
-url: /tr/net/programming-with-document/unembedfonts/
+"description": "Bu adım adım eğitimde Aspose.PDF for .NET kullanarak yazı tiplerini nasıl kaldıracağınızı ve PDF dosyalarını nasıl optimize edeceğinizi öğrenin."
+"linktitle": "Yazı Tiplerini Kaldırın ve PDF Dosyalarını Optimize Edin"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Yazı Tiplerini Kaldırın ve PDF Dosyalarını Optimize Edin"
+"url": "/tr/net/programming-with-document/unembedfonts/"
+"weight": 370
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yazı Tiplerini Kaldırın ve PDF Dosyalarını Optimize Edin
@@ -22,16 +24,16 @@ Dijital çağda PDF'ler her yerdedir. İster raporlar, ister sunumlar veya e-kit
 Ayrıntılara girmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET kodumuzu yazmak ve çalıştırmak için kullanacağımız IDE budur.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz: [indirme bağlantısı](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşinalık, kullanacağımız kod parçacıklarını anlamanıza yardımcı olacaktır.
-4.  Bir PDF Dosyası: Optimize etmek istediğiniz hazır bir PDF dosyanız olsun. Herhangi bir PDF kullanabilirsiniz, ancak gösterim için buna şu şekilde atıfta bulunacağız:`OptimizeDocument.pdf`.
+4. Bir PDF Dosyası: Optimize etmek istediğiniz hazır bir PDF dosyanız olsun. Herhangi bir PDF kullanabilirsiniz, ancak gösterim için buna şu şekilde atıfta bulunacağız: `OptimizeDocument.pdf`.
 
 ## Paketleri İçe Aktar
 
 Başlamak için, C# projenize gerekli paketleri içe aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 1. Projenizi Visual Studio’da açın.
-2. Aspose.PDF'ye bir başvuru ekleyin: Çözüm Gezgini'nde projenize sağ tıklayın, "NuGet Paketlerini Yönet" seçeneğini seçin ve şunu arayın:`Aspose.PDF`. Paketi kurun.
+2. Aspose.PDF'ye bir başvuru ekleyin: Çözüm Gezgini'nde projenize sağ tıklayın, "NuGet Paketlerini Yönet" seçeneğini seçin ve şunu arayın: `Aspose.PDF`. Paketi kurun.
 
 ```csharp
 using System;
@@ -44,14 +46,14 @@ Artık her şeyi ayarladığımıza göre, optimizasyon sürecini yönetilebilir
 
 ## Adım 1: Belge Dizininizi Ayarlayın
 
-İlk önce, belgeler dizininize giden yolu tanımlamanız gerekir. PDF dosyalarınız burada saklanacaktır. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+İlk önce, belgeler dizininize giden yolu tanımlamanız gerekir. PDF dosyalarınızın saklanacağı yer burasıdır. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu önemlidir çünkü programın optimize etmek istediğiniz PDF'i nerede bulacağını bilmesi gerekir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu önemlidir çünkü programın optimize etmek istediğiniz PDF'i nerede bulacağını bilmesi gerekir.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -62,21 +64,21 @@ Artık dizinimizi kurduğumuza göre, optimize etmek istediğimiz PDF belgesini 
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
- Bu kod satırı yeni bir`Document` PDF dosyanızı temsil eden nesne. Dosya adının dizininizdeki adla eşleştiğinden emin olun.
+Bu kod satırı yeni bir `Document` PDF dosyanızı temsil eden nesne. Dosya adının dizininizdeki adla eşleştiğinden emin olun.
 
 ## Adım 3: Optimizasyon Seçeneklerini Ayarlayın
 
 Sonra, optimizasyon seçeneklerini belirtmemiz gerekiyor. Bu durumda, fontları gömmeyi kaldırmak istiyoruz. Bunu nasıl ayarlayacağınız aşağıda açıklanmıştır:
 
 ```csharp
-// UnembedFonts seçeneğini ayarlayın
+// UnembedFonts seçeneğini ayarlayın 
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions
 {
     UnembedFonts = true
 };
 ```
 
- Ayarlayarak`UnembedFonts` ile`true`, Aspose.PDF'e yazı tiplerini kaldırarak PDF'yi optimize etmesi talimatını veriyoruz. Bu, özellikle PDF çok sayıda gömülü yazı tipi içeriyorsa dosya boyutunu önemli ölçüde azaltabilir.
+Ayarlayarak `UnembedFonts` ile `true`, Aspose.PDF'e yazı tiplerini kaldırarak PDF'yi optimize etmesi talimatını veriyoruz. Bu, özellikle PDF çok sayıda gömülü yazı tipi içeriyorsa dosya boyutunu önemli ölçüde azaltabilir.
 
 ## Adım 4: PDF Belgesini Optimize Edin
 
@@ -88,7 +90,7 @@ Console.WriteLine("Start");
 pdfDocument.OptimizeResources(optimizeOptions);
 ```
 
-Bu kod parçacığı şunu çağırır:`OptimizeResources` yöntem üzerinde`pdfDocument` nesne, daha önce tanımladığımız optimizasyon seçeneklerini uygular. Konsolda optimizasyon sürecinin başladığını belirten bir mesaj göreceksiniz.
+Bu kod parçacığı şunu çağırır: `OptimizeResources` yöntem üzerinde `pdfDocument` nesne, daha önce tanımladığımız optimizasyon seçeneklerini uygular. Konsolda optimizasyon sürecinin başladığını belirten bir mesaj göreceksiniz.
 
 ## Adım 5: Güncellenen Belgeyi Kaydedin
 
@@ -100,7 +102,7 @@ pdfDocument.Save(dataDir + "OptimizeDocument_out.pdf");
 Console.WriteLine("Finished");
 ```
 
- Bu kod optimize edilmiş PDF'yi şu şekilde kaydeder:`OptimizeDocument_out.pdf` aynı dizinde. İsterseniz farklı bir isim seçebilirsiniz, ancak benzer tutmak orijinal ve optimize edilmiş sürümleri tanımlamaya yardımcı olur.
+Bu kod optimize edilmiş PDF'yi şu şekilde kaydeder: `OptimizeDocument_out.pdf` aynı dizinde. İsterseniz farklı bir isim seçebilirsiniz, ancak benzer tutmak orijinal ve optimize edilmiş sürümleri tanımlamaya yardımcı olur.
 
 ## Adım 6: Dosya Boyutlarını Karşılaştırın
 
@@ -124,19 +126,21 @@ Ve işte oldu! Aspose.PDF for .NET kullanarak yazı tiplerini başarıyla kaldı
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve optimize etmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose ücretsiz deneme sürümü sunuyor. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet, Aspose ücretsiz deneme sürümü sunuyor. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Destek almak için:[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek almak için: [Aspose forumu](https://forum.aspose.com/c/pdf/10).
 
 ### PDF'lerde hangi tür optimizasyonları gerçekleştirebilirim?
 PDF dosyalarınızı optimize etmek için yazı tiplerini kaldırabilir, görselleri sıkıştırabilir, kullanılmayan nesneleri kaldırabilir ve daha fazlasını yapabilirsiniz.
 
 ### Aspose.PDF for .NET'i nereden satın alabilirim?
- Lisansı şuradan satın alabilirsiniz:[Aspose satın alma sayfası](https://purchase.aspose.com/buy).
+Lisansı şuradan satın alabilirsiniz: [Aspose satın alma sayfası](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

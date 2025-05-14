@@ -1,14 +1,16 @@
 ---
-title: Chia thành các trang
-linktitle: Chia thành các trang
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Dễ dàng chia PDF thành các trang riêng lẻ bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Có kèm hướng dẫn từng bước.
-weight: 140
-url: /vi/net/programming-with-pdf-pages/split-to-pages/
+"description": "Dễ dàng chia PDF thành các trang riêng lẻ bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Có kèm hướng dẫn từng bước."
+"linktitle": "Chia thành các trang"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Chia thành các trang"
+"url": "/vi/net/programming-with-pdf-pages/split-to-pages/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chia thành các trang
@@ -21,7 +23,7 @@ Quản lý các tệp PDF đôi khi có thể giống như chăn dắt mèo. Cho
 
 Trước khi đi sâu vào hướng dẫn, điều quan trọng là phải có các công cụ phù hợp. Sau đây là những gì bạn cần:
 
-1. Aspose.PDF cho .NET: Thư viện này là cây đũa thần của bạn cho các hoạt động PDF trong môi trường .NET. Bạn có thể tìm thấy gói trên[Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Thư viện này là cây đũa thần của bạn cho các hoạt động PDF trong môi trường .NET. Bạn có thể tìm thấy gói trên [Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Bạn sẽ cần IDE này để tạo và quản lý các dự án .NET của mình. Đảm bảo bạn đã cài đặt phiên bản mới nhất để có thể tận dụng tất cả các tính năng mới nhất.
 3. Kiến thức cơ bản về C#: Vì chúng ta sẽ viết một số mã, nên việc quen thuộc với C# sẽ giúp bạn theo dõi dễ dàng hơn.
 4. Tệp PDF mẫu: Để thử nghiệm, bạn sẽ cần một tệp PDF mà bạn muốn tách. Bạn có thể tạo một tệp hoặc tải xuống một ví dụ, sẵn sàng để tách.
@@ -44,7 +46,7 @@ Vậy bạn đã sẵn sàng xắn tay áo lên chưa? Hãy bắt đầu thôi!
 
 1. Trong trình khám phá giải pháp dự án, nhấp chuột phải vào tên dự án.
 2. Chọn Quản lý gói NuGet.
-3.  Vào tab Browse, tìm kiếm`Aspose.PDF`và nhấp vào Cài đặt.
+3. Vào tab Browse, tìm kiếm `Aspose.PDF`và nhấp vào Cài đặt.
 4. Chấp nhận mọi lời nhắc để hoàn tất quá trình cài đặt.
 
 ```csharp
@@ -64,7 +66,7 @@ Bạn sẽ muốn khai báo một biến trỏ đến thư mục chứa tệp PD
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Chỉ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn nơi tệp PDF được lưu trữ. Điều này giúp bạn dễ dàng định vị tệp của mình hơn.
+Chỉ cần thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn nơi tệp PDF được lưu trữ. Điều này giúp bạn dễ dàng định vị tệp của mình hơn.
 
 ## Bước 2: Tải Tài liệu PDF
 
@@ -74,7 +76,7 @@ Tiếp theo, bạn cần tải tài liệu PDF mà bạn muốn tách.
 Document pdfDocument = new Document(dataDir + "SplitToPages.pdf");
 ```
 
- Ở đây, hãy đảm bảo thay thế`"SplitToPages.pdf"`với tên thực tế của PDF của bạn. Dòng này tạo ra một đối tượng có kiểu`Document`, cho Aspose biết tập tin bạn quan tâm.
+Ở đây, hãy đảm bảo thay thế `"SplitToPages.pdf"` với tên thực tế của PDF của bạn. Dòng này tạo ra một đối tượng có kiểu `Document`cho Aspose biết tập tin bạn quan tâm.
 
 ## Bước 3: Chuẩn bị để tách
 
@@ -84,7 +86,7 @@ Bạn sẽ cần một bộ đếm để theo dõi từng trang khi bạn chia c
 int pageCount = 1;
 ```
 
- Biến số nguyên này,`pageCount`, sẽ giúp tạo tên tệp riêng cho mỗi tệp PDF mới.
+Biến số nguyên này, `pageCount`, sẽ giúp tạo tên tệp riêng cho mỗi tệp PDF mới.
 
 ## Bước 4: Lặp qua từng trang
 
@@ -100,11 +102,11 @@ foreach (Page pdfPage in pdfDocument.Pages)
 }
 ```
 
--  Tạo một tài liệu mới: Đối với mỗi trang, chúng tôi tạo một tài liệu mới`Document` đối tượng giữ một trang duy nhất.
+- Tạo một tài liệu mới: Đối với mỗi trang, chúng tôi tạo một tài liệu mới `Document` đối tượng giữ một trang duy nhất.
   
--  Thêm Trang: Chúng tôi sử dụng`Add()` phương pháp chèn trang cụ thể từ tài liệu gốc vào tài liệu mới này.
+- Thêm Trang: Chúng tôi sử dụng `Add()` phương pháp chèn trang cụ thể từ tài liệu gốc vào tài liệu mới này.
 
--  Lưu tệp: Cuối cùng, chúng ta lưu tệp với tên tệp duy nhất (như`page_1_out.pdf`, `page_2_out.pdf` , v.v.). Mỗi lần vòng lặp lặp lại,`pageCount` tăng thêm một, đảm bảo rằng mỗi tệp mới được lập chỉ mục đúng cách. 
+- Lưu tệp: Cuối cùng, chúng ta lưu tệp với tên tệp duy nhất (như `page_1_out.pdf`, `page_2_out.pdf`, v.v.). Mỗi lần vòng lặp lặp lại, `pageCount` tăng thêm một, đảm bảo rằng mỗi tệp mới được lập chỉ mục đúng cách. 
 
 ## Phần kết luận
 
@@ -116,7 +118,7 @@ Việc tách PDF chưa bao giờ dễ dàng đến thế, phải không? Chỉ v
 Có, nhưng bạn cần cung cấp mật khẩu để mở tài liệu trước khi chia nhỏ.
 
 ### Aspose.PDF có miễn phí sử dụng không?
- Việc cấp phép Aspose yêu cầu phải mua đầy đủ các tính năng, nhưng họ cung cấp một[dùng thử miễn phí](https://releases.aspose.com/).
+Việc cấp phép Aspose yêu cầu phải mua đầy đủ các tính năng, nhưng họ cung cấp một [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể làm việc với những định dạng tệp nào khi sử dụng Aspose.PDF?
 Bạn có thể chuyển đổi và chỉnh sửa nhiều định dạng khác nhau như DOCX, HTML và hình ảnh cùng với PDF.
@@ -126,9 +128,11 @@ Aspose.PDF được tối ưu hóa về hiệu suất, cung cấp tốc độ x�
 
 ### Tôi có thể sử dụng Aspose.PDF trong Azure Functions không?
 Chắc chắn rồi! Là một thư viện .NET, bạn có thể sử dụng nó trong Azure Functions một cách liền mạch.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

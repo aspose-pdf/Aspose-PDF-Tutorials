@@ -1,14 +1,16 @@
 ---
-title: Nama Tag Kustom
-linktitle: Nama Tag Kustom
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Panduan langkah demi langkah untuk menggunakan nama tag khusus dengan Aspose.PDF untuk .NET. Perbaiki struktur PDF Anda dengan tag khusus.
-weight: 90
-url: /id/net/programming-with-tagged-pdf/custom-tag-name/
+"description": "Panduan langkah demi langkah untuk menggunakan nama tag khusus dengan Aspose.PDF untuk .NET. Perbaiki struktur PDF Anda dengan tag khusus."
+"linktitle": "Nama Tag Kustom"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Nama Tag Kustom"
+"url": "/id/net/programming-with-tagged-pdf/custom-tag-name/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nama Tag Kustom
@@ -21,8 +23,8 @@ Di era digital saat ini, PDF ada di mana-mana. Dari laporan hingga manual, PDF m
 
 Sebelum kita mulai membuat kode, penting untuk memastikan Anda telah menyiapkan semuanya. Berikut ini yang Anda perlukan:
 
-1. Visual Studio - Versi terbaru apa pun bisa digunakan, tetapi sebaiknya Anda menggunakan versi terkini untuk mendapatkan fungsionalitas optimal.
-2.  Aspose.PDF untuk .NET - Anda dapat dengan mudah mengunduh versi terbaru dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
+1. Visual Studio - Versi terbaru apa pun bisa digunakan, tetapi sebaiknya Anda menggunakan versi terkini agar mendapatkan fungsionalitas optimal.
+2. Aspose.PDF untuk .NET - Anda dapat dengan mudah mengunduh versi terbaru dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C# - Keakraban dengan dasar-dasar pemrograman C# akan bermanfaat saat Anda mengimplementasikan kode.
 
 ## Paket Impor
@@ -65,7 +67,7 @@ Penjelasan: Ganti "YOUR DOCUMENT DIRECTORY" dengan jalur sebenarnya tempat Anda 
 
 ## Langkah 2: Buat Dokumen PDF Baru
 
- Selanjutnya, kita akan membuat sebuah instance dari`Document` kelas.
+Selanjutnya, kita akan membuat sebuah instance dari `Document` kelas.
 
 ```csharp
 Document document = new Document();
@@ -81,7 +83,7 @@ Sekarang, saatnya untuk masuk ke inti penandaan. Kita akan mengambil konten doku
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- Penjelasan:`TaggedContent` Objek ini memungkinkan kita memanipulasi struktur logis dan aksesibilitas PDF dengan mengatur konten secara hierarki.
+Penjelasan: `TaggedContent` Objek ini memungkinkan kita memanipulasi struktur logis dan aksesibilitas PDF dengan mengatur konten secara hierarki.
 
 ## Langkah 4: Tetapkan Judul dan Bahasa
 
@@ -103,7 +105,7 @@ SectElement sect = taggedContent.CreateSectElement();
 taggedContent.RootElement.AppendChild(sect);
 ```
 
- Penjelasan: Langkah ini memperkenalkan elemen bagian tempat Anda dapat mulai menambahkan konten.`RootElement` adalah markasmu.
+Penjelasan: Langkah ini memperkenalkan elemen bagian tempat Anda dapat mulai menambahkan konten. `RootElement` adalah markasmu.
 
 ## Langkah 6: Buat Elemen Paragraf
 
@@ -150,7 +152,7 @@ Penjelasan: Tindakan ini mengatur paragraf dalam bagian, membuat alurnya logis d
 
 ## Langkah 9: Buat Elemen Span
 
-Sama seperti paragraf, span menambahkan detail terperinci ke konten teks kita.
+Sama seperti paragraf, rentang menambahkan detail terperinci ke konten teks kita.
 
 ```csharp
 SpanElement span1 = taggedContent.CreateSpanElement();
@@ -214,16 +216,18 @@ PDF yang diberi tag berisi metadata tambahan yang menjelaskan struktur dan akses
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memodifikasi, dan memanipulasi dokumen PDF secara terprogram dengan fitur yang luas.
 
 ### Bagaimana saya bisa mendapatkan versi uji coba Aspose.PDF?  
- Anda dapat memperoleh uji coba gratis Aspose.PDF dengan mengunjungi[tautan ini](https://releases.aspose.com/).
+Anda dapat memperoleh uji coba gratis Aspose.PDF dengan mengunjungi [tautan ini](https://releases.aspose.com/).
 
 ### Bisakah saya mendapatkan dukungan untuk Aspose.PDF?  
- Ya, Anda dapat menghubungi dukungan melalui[forum Aspose](https://forum.aspose.com/c/pdf/10).
+Ya, Anda dapat menghubungi dukungan melalui [forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Di mana saya dapat menemukan dokumentasi Aspose.PDF yang terperinci?  
- Dokumentasi lengkap dapat ditemukan[Di Sini](https://reference.aspose.com/pdf/net/).
+Dokumentasi lengkap dapat ditemukan [Di Sini](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

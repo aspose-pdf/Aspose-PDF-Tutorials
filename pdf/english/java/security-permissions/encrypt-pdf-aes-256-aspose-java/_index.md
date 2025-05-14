@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Encrypt a PDF Document Using AES-256 Encryption with Aspose.PDF for Java
 
@@ -102,7 +104,11 @@ Apply AES-256 encryption to your PDF with user and owner passwords:
 import com.aspose.pdf.CryptoAlgorithm;
 
 document.encrypt("user\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

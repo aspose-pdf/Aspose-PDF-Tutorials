@@ -1,14 +1,16 @@
 ---
-title: Получить свойства PDF
-linktitle: Получить свойства PDF
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как эффективно извлекать свойства PDF с помощью Aspose.PDF для .NET. Пошаговое руководство с примерами кода и передовыми методами.
-weight: 100
-url: /ru/net/programming-with-pdf-pages/get-properties/
+"description": "Узнайте, как эффективно извлекать свойства PDF с помощью Aspose.PDF для .NET. Пошаговое руководство с примерами кода и передовыми методами."
+"linktitle": "Получить свойства PDF"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Получить свойства PDF"
+"url": "/ru/net/programming-with-pdf-pages/get-properties/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить свойства PDF
@@ -23,7 +25,7 @@ url: /ru/net/programming-with-pdf-pages/get-properties/
 
 1. Среда .NET: Убедитесь, что у вас есть рабочая среда .NET. Вы можете использовать Visual Studio или любую другую подходящую IDE.
    
-2.  Aspose.PDF для .NET: Вам необходимо установить Aspose.PDF. Вы можете загрузить библиотеку с[Выпуски Aspose PDF](https://releases.aspose.com/pdf/net/) страница.
+2. Aspose.PDF для .NET: Вам необходимо установить Aspose.PDF. Вы можете загрузить библиотеку с [Выпуски Aspose PDF](https://releases.aspose.com/pdf/net/) страница.
 
 3. Базовые знания C#: знакомство с программированием на C# будет полезно, поскольку мы будем писать код на C#.
 
@@ -37,7 +39,7 @@ url: /ru/net/programming-with-pdf-pages/get-properties/
 
 2. Добавить ссылки: включить сборку Aspose.PDF. Это можно сделать через NuGet Package Manager или добавив ссылку на DLL напрямую.
 
-3.  Подготовьте свой PDF-файл: поместите ваш пример «GetProperties.pdf» в каталог, к которому ваш код может легко получить доступ, например`"YOUR DOCUMENT DIRECTORY"`.
+3. Подготовьте свой PDF-файл: поместите ваш пример «GetProperties.pdf» в каталог, к которому ваш код может легко получить доступ, например `"YOUR DOCUMENT DIRECTORY"`.
 
 ## Импортные пакеты
 
@@ -66,14 +68,14 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Шаг 2: Откройте PDF-документ.
 
- Далее мы откроем PDF-документ с помощью`Document` класс из библиотеки Aspose.PDF. Это важный шаг, поскольку он загружает PDF в память.
+Далее мы откроем PDF-документ с помощью `Document` класс из библиотеки Aspose.PDF. Это важный шаг, поскольку он загружает PDF в память.
 
 ```csharp
 // Открыть документ
 Document pdfDocument = new Document(dataDir + "GetProperties.pdf");
 ```
 
- Выполняя эту строку, мы создаем экземпляр`Document` класс, представляющий наш PDF-файл, делающий все его свойства доступными.
+Выполняя эту строку, мы создаем экземпляр `Document` класс, представляющий наш PDF-файл, делающий все его свойства доступными.
 
 ## Шаг 3: Получите доступ к коллекции страниц
 
@@ -84,7 +86,7 @@ Document pdfDocument = new Document(dataDir + "GetProperties.pdf");
 PageCollection pageCollection = pdfDocument.Pages;
 ```
 
- Подумайте о`PageCollection` как индекс, помогающий нам перемещаться по страницам нашего PDF-документа.
+Подумайте о `PageCollection` как индекс, помогающий нам перемещаться по страницам нашего PDF-документа.
 
 ## Шаг 4: Получите определенную страницу
 
@@ -95,7 +97,7 @@ PageCollection pageCollection = pdfDocument.Pages;
 Page pdfPage = pageCollection[1];
 ```
 
- Помните, что это индексация с нуля. Поэтому, если вы хотите получить доступ к первой странице, вам нужно проиндексировать ее как`1`.
+Помните, что это индексация с нуля. Поэтому, если вы хотите получить доступ к первой странице, вам нужно индексировать ее как `1`.
 
 ## Шаг 5: Извлечение и отображение свойств страницы
 
@@ -125,7 +127,7 @@ System.Console.WriteLine("Page Number : {0}", pdfPage.Number);
 System.Console.WriteLine("Rotate : {0}", pdfPage.Rotate);
 ```
 
-Этот фрагмент кода делает несколько важных вещей. Он обращается к каждому свойству, связанному с размерами и ориентацией страницы, а затем выводит информацию на консоль. Вы получаете обзор свойств страницы, который может помочь в дальнейших модификациях или анализе.
+Этот кусок кода делает несколько важных вещей. Он обращается к каждому свойству, связанному с размерами и ориентацией страницы, а затем выводит информацию на консоль. Вы получаете обзор свойств страницы, который может помочь в дальнейших модификациях или анализе.
 
 ## Заключение
 
@@ -137,19 +139,21 @@ System.Console.WriteLine("Rotate : {0}", pdfPage.Rotate);
 Вы можете установить его через диспетчер пакетов NuGet в Visual Studio или загрузить непосредственно с веб-сайта Aspose.
 
 ### Могу ли я использовать Aspose.PDF бесплатно?  
- Да, Aspose предлагает бесплатную пробную версию, которую вы можете получить[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию, которую вы можете получить [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти документацию по Aspose.PDF?  
- Вы можете обратиться к документации по адресу[Документация Aspose.pdf](https://reference.aspose.com/pdf/net/).
+Вы можете обратиться к документации по адресу [Документация Aspose.pdf](https://reference.aspose.com/pdf/net/).
 
 ### Как мне получить поддержку, если у меня возникнут проблемы?  
- Вы можете посетить форум Aspose для получения поддержки, где вы можете задать вопросы о своих проблемах.[здесь](https://forum.aspose.com/c/pdf/10).
+Вы можете посетить форум Aspose для получения поддержки, где вы можете задать вопросы о своих проблемах. [здесь](https://forum.aspose.com/c/pdf/10).
 
 ### Есть ли временная лицензия?  
-Да, вы можете запросить временную лицензию для оценки, посетив сайт[эта ссылка](https://purchase.aspose.com/temporary-license/).
+Да, вы можете запросить временную лицензию для оценки, посетив сайт [эта ссылка](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

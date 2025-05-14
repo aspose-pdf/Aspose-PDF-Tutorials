@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Image Backgrounds in PDF Floating Boxes Using Aspose.PDF for Java
 
@@ -157,7 +159,11 @@ Ready to apply these skills? Try implementing the solution in your next project!
 - **Free Trial**: [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

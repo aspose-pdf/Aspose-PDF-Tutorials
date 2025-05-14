@@ -1,14 +1,16 @@
 ---
-title: तालिका तत्व बनाएँ
-linktitle: तालिका तत्व बनाएँ
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: .NET के लिए Aspose.PDF के साथ एक सरणी तत्व बनाने के लिए चरण दर चरण गाइड। आसानी से तालिकाओं के साथ गतिशील PDF उत्पन्न करें।
-weight: 80
-url: /hi/net/programming-with-tagged-pdf/create-table-element/
+"description": ".NET के लिए Aspose.PDF के साथ एक सरणी तत्व बनाने के लिए चरण दर चरण गाइड। आसानी से तालिकाओं के साथ गतिशील PDF उत्पन्न करें।"
+"linktitle": "तालिका तत्व बनाएँ"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "तालिका तत्व बनाएँ"
+"url": "/hi/net/programming-with-tagged-pdf/create-table-element/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # तालिका तत्व बनाएँ
@@ -20,11 +22,11 @@ url: /hi/net/programming-with-tagged-pdf/create-table-element/
 ## आवश्यक शर्तें
 
 शुरू करने से पहले, आपको कुछ चीजों की आवश्यकता होगी:
-1.  .NET के लिए Aspose.PDF: यहां से नवीनतम संस्करण डाउनलोड करें[.NET के लिए Aspose.PDF डाउनलोड करें](https://releases.aspose.com/pdf/net/).
+1. .NET के लिए Aspose.PDF: यहां से नवीनतम संस्करण डाउनलोड करें [.NET के लिए Aspose.PDF डाउनलोड करें](https://releases.aspose.com/pdf/net/).
 2. विकास वातावरण: कोई भी .NET समर्थित IDE (जैसे, विज़ुअल स्टूडियो).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होना अनुशंसित है।
 
- अंत में, अपना Aspose.PDF लाइसेंस न भूलें। यदि आपके पास लाइसेंस नहीं है, तो आप इसका उपयोग कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) या अनुरोध करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) सब कुछ का परीक्षण करने के लिए.
+अंत में, अपना Aspose.PDF लाइसेंस न भूलें। यदि आपके पास लाइसेंस नहीं है, तो आप इसका उपयोग कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) या अनुरोध करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) सब कुछ का परीक्षण करने के लिए.
 
 ## पैकेज आयात करें
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- यहाँ, हम एक नया उदाहरण आरंभ कर रहे हैं`Document` क्लास, जो हमारी खाली पीडीएफ फाइल होगी। अपना फ़ाइल पथ परिभाषित करना न भूलें!
+यहाँ, हम एक नया उदाहरण आरंभ कर रहे हैं `Document` क्लास, जो हमारी खाली पीडीएफ फाइल होगी। अपना फ़ाइल पथ परिभाषित करना न भूलें!
 
 ## चरण 2: टैग की गई सामग्री सेट करें
 
@@ -80,7 +82,7 @@ TableElement tableElement = taggedContent.CreateTableElement();
 rootElement.AppendChild(tableElement);
 ```
 
- यहाँ, हम उपयोग कर रहे हैं`RootElement` हमारी तालिका को जोड़ने के लिए टैग की गई सामग्री का उपयोग करें। यह अनिवार्य रूप से दस्तावेज़ की संरचना में चाइल्ड नोड के रूप में एक तालिका जोड़ना है।
+यहाँ, हम उपयोग कर रहे हैं `RootElement` टैग की गई सामग्री का उपयोग करके हमारी तालिका को जोड़ना। यह अनिवार्य रूप से दस्तावेज़ की संरचना में चाइल्ड नोड के रूप में तालिका को जोड़ना है।
 
 ## चरण 4: तालिका बॉर्डर और हेडर को अनुकूलित करें
 
@@ -93,7 +95,7 @@ TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 ```
 
- हम बॉर्डर परिभाषित कर रहे हैं और टेबल में हेडर, बॉडी और फ़ुटर जोड़ रहे हैं। के उपयोग पर ध्यान दें`BorderInfo` तालिका की सीमाओं को गहरे नीले रंग से स्टाइल करने के लिए।
+हम बॉर्डर परिभाषित कर रहे हैं और टेबल में हेडर, बॉडी और फ़ुटर जोड़ रहे हैं। के उपयोग पर ध्यान दें `BorderInfo` तालिका की सीमाओं को गहरे नीले रंग से स्टाइल करने के लिए।
 
 ## चरण 5: तालिका में पंक्तियाँ और कक्ष जोड़ें
 
@@ -116,7 +118,7 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- हम 4 कॉलम वाली एक हेडर पंक्ति बना रहे हैं, और प्रत्येक हेडर सेल को पृष्ठभूमि रंग के साथ स्टाइल किया गया है`GreenYellow`हमने हेडर के लिए बॉर्डर और संरेखण भी निर्धारित किया है।
+हम 4 कॉलम वाली एक हेडर पंक्ति बना रहे हैं, और प्रत्येक हेडर सेल को पृष्ठभूमि रंग के साथ स्टाइल किया गया है `GreenYellow`हमने हेडर के लिए बॉर्डर और संरेखण भी निर्धारित किया है।
 
 ### चरण 5.2: बॉडी पंक्तियाँ जोड़ें
 
@@ -153,7 +155,7 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- तालिका को पूरा करने के लिए, हम केंद्रित पाठ के साथ एक पाद लेख जोड़ते हैं और`LightSeaGreen` पृष्ठभूमि।
+तालिका को पूरा करने के लिए, हम केंद्रित पाठ के साथ एक पाद लेख जोड़ते हैं और `LightSeaGreen` पृष्ठभूमि।
 
 ## चरण 6: PDF/UA अनुपालन सत्यापित करें
 
@@ -162,7 +164,7 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 ```csharp
 document.Save(dataDir + "CreateTableElement.pdf");
 
-// PDF/UA अनुपालन सत्यापित करें
+// PDF/UA अनुपालन को सत्यापित करें
 document = new Document(dataDir + "CreateTableElement.pdf");
 bool isPdfUaCompliance = document.Validate(dataDir + "table.xml", PdfFormat.PDF_UA_1);
 Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
@@ -177,22 +179,24 @@ Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं तालिका के फ़ॉन्ट और पाठ शैली को अनुकूलित कर सकता हूँ?
-हां, Aspose.PDF आपको फ़ॉन्ट, टेक्स्ट स्टाइल और संरेखण को पूरी तरह से अनुकूलित करने की अनुमति देता है`TextState` कक्षा।
+हां, Aspose.PDF आपको फ़ॉन्ट, टेक्स्ट स्टाइल और संरेखण को पूरी तरह से अनुकूलित करने की अनुमति देता है `TextState` कक्षा।
 
 ### मैं गतिशील रूप से अधिक कॉलम या पंक्तियाँ कैसे जोड़ूँ?
- आप कॉलम या पंक्तियों की संख्या को संशोधित करके समायोजित कर सकते हैं`rowIndex` और`colIndex` छोरों में.
+आप कॉलम या पंक्तियों की संख्या को संशोधित करके समायोजित कर सकते हैं `rowIndex` और `colIndex` छोरों में.
 
 ### क्या तालिका में कोशिकाओं को मर्ज करना संभव है?
- हां, आप इसका उपयोग कर सकते हैं`ColSpan` और`RowSpan` स्तंभों या पंक्तियों में कोशिकाओं को मर्ज करने के लिए गुण।
+हां, आप इसका उपयोग कर सकते हैं `ColSpan` और `RowSpan` स्तंभों या पंक्तियों में कोशिकाओं को मर्ज करने के लिए गुण।
 
 ### पीडीएफ/यूए अनुपालन क्या है?
 पीडीएफ/यूए अनुपालन यह सुनिश्चित करता है कि दस्तावेज़ विकलांग उपयोगकर्ताओं के लिए सुलभ हो, तथा अंतर्राष्ट्रीय सुलभता मानकों का पालन किया जाए।
 
 ### मैं Aspose.PDF में PDF/UA अनुपालन का परीक्षण कैसे करूँ?
- आप इसका उपयोग कर सकते हैं`Validate` यह जाँचने की विधि कि क्या दस्तावेज़ पीडीएफ/यूए मानकों का अनुपालन करता है।
+आप इसका उपयोग कर सकते हैं `Validate` यह जाँचने की विधि कि क्या दस्तावेज़ पीडीएफ/यूए मानकों का अनुपालन करता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

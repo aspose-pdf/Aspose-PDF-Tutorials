@@ -1,56 +1,58 @@
 ---
-title: Přidat obrázek do buňky tabulky
-linktitle: Přidat obrázek do buňky tabulky
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se snadno přidávat obrázky do buněk tabulky pomocí Aspose.PDF for .NET, čímž zvýšíte vizuální přitažlivost vašich dokumentů PDF. Poskytován průvodce krok za krokem.
-weight: 10
-url: /cs/net/programming-with-tables/add-image-in-a-table-cell/
+"description": "Naučte se, jak snadno přidávat obrázky do buněk tabulky pomocí Aspose.PDF pro .NET a vylepšit tak vizuální atraktivitu vašich PDF dokumentů. K dispozici je podrobný návod."
+"linktitle": "Přidání obrázku do buňky tabulky"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Přidání obrázku do buňky tabulky"
+"url": "/cs/net/programming-with-tables/add-image-in-a-table-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidat obrázek do buňky tabulky
+# Přidání obrázku do buňky tabulky
 
 ## Zavedení
 
-Potřebovali jste někdy své dokumenty PDF okořenit přidáním obrázků přímo do buněk tabulky? Pokud jste si hráli s generováním PDF pomocí Aspose.PDF pro .NET, budete nadšeni, když zjistíte, jak snadné to může být. V této příručce odhalíme kroky potřebné k vložení obrázku do buňky tabulky, což vám umožní vytvářet vizuálně poutavé dokumenty.
+Potřebovali jste někdy oživit své PDF dokumenty přidáním obrázků přímo do buněk tabulky? Pokud jste si hráli s generováním PDF pomocí Aspose.PDF pro .NET, budete nadšeni, jak snadné to může být. V této příručce odhalíme kroky potřebné k vložení obrázku do buňky tabulky, což vám umožní vytvářet vizuálně poutavé dokumenty.
 
 ## Předpoklady
 
-Než se pustíme do kódu a implementace, musí být splněno několik předpokladů:
+Než se pustíme do kódu a implementace, musíme splnit několik předpokladů:
 
 ### Základní znalost .NET
 
-Měli byste mít základní znalosti o programování .NET. Díky znalosti C# bude tento tutoriál mnohem plynulejší.
+Měli byste mít základní znalosti programování v .NET. Znalost jazyka C# vám tento tutoriál mnohem usnadní.
 
 ### Aspose.PDF pro knihovnu .NET
 
- Ujistěte se, že máte knihovnu Aspose.PDF for .NET. Můžete si jej stáhnout a začít experimentovat! Chyť to z[Odkaz ke stažení](https://releases.aspose.com/pdf/net/).
+Ujistěte se, že máte knihovnu Aspose.PDF pro .NET. Můžete si ji stáhnout a začít experimentovat! Získejte ji z [Odkaz ke stažení](https://releases.aspose.com/pdf/net/).
 
 ### Nastavení IDE
 
-Nastavte své vývojové prostředí. Můžete použít Visual Studio nebo jakékoli preferované IDE, které podporuje vývoj .NET.
+Nastavte si vývojové prostředí. Můžete použít Visual Studio nebo jakékoli preferované IDE, které podporuje vývoj v .NET.
 
 ### Ukázkový obrázek
 
-Budete potřebovat ukázkový obrázek, který chcete vložit do PDF. Jen se ujistěte, že je přístupný v adresáři vašeho projektu.
+Budete potřebovat vzorový obrázek, který budete chtít vložit do PDF souboru. Jen se ujistěte, že je dostupný v adresáři vašeho projektu.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než začnete kódovat, ujistěte se, že jste importovali potřebné balíčky nezbytných předpokladů. Zde je postup:
+Než začnete s kódováním, ujistěte se, že jste importovali potřebné balíčky. Postupujte takto:
 
-### Vytvořte nový projekt C#
+### Vytvoření nového projektu v C#
 
-1. Otevřete Visual Studio (nebo preferované IDE).
-2. Vytvořte nový projekt C#.
-3.  Najděte Správce balíčků NuGet a vyhledejte`Aspose.PDF`. 
-4. Nainstalujte balíček do svého projektu. Tento krok umožňuje vaší aplikaci snadno manipulovat s dokumenty PDF.
+1. Otevřete Visual Studio (nebo vámi preferované IDE).
+2. Vytvořte nový projekt v C#.
+3. Vyhledejte Správce balíčků NuGet a vyhledejte `Aspose.PDF`. 
+4. Nainstalujte balíček do svého projektu. Tento krok umožní vaší aplikaci snadno manipulovat s dokumenty PDF.
 
-### Použití směrnic
+### Používání direktiv
 
-Do svého hlavního souboru C# zahrňte jmenný prostor Aspose.PDF takto:
+Do hlavního souboru C# zahrňte jmenný prostor Aspose.PDF takto:
 
 ```csharp
 using System;
@@ -59,114 +61,114 @@ using System.Linq;
 using System.Text;
 ```
 
-To zajišťuje, že máte přístup ke třídám a metodám nezbytným pro operace PDF.
+Díky tomu máte přístup ke třídám a metodám potřebným pro operace s PDF.
 
-Nyní, když máme naše prostředí nastavené, pojďme si projít, jak přidat obrázek do buňky tabulky v dokumentu PDF. 
+Nyní, když máme nastavené prostředí, si projdeme, jak přidat obrázek do buňky tabulky v dokumentu PDF. 
 
 ## Krok 1: Nastavení dokumentu
 
-Nejprve musíme vytvořit nový dokument PDF:
+Nejprve musíme vytvořit nový PDF dokument:
 
 ```csharp
-// Cesta k adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Vytvořte instanci objektu dokumentu
+// Vytvoření instance objektu Document
 Document pdfDocument = new Document();
 ```
 
- Zde určujeme, kam se náš dokument uloží, a vytváříme nový`Document` například pro naši práci. Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete soubor PDF uložit. 
+Zde určujeme, kam bude náš dokument uložen, a vytváříme nový `Document` příklad pro naši práci. Nahraďte `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete PDF uložit. 
 
 ## Krok 2: Vytvoření stránky
 
-Dále přidáme stránku do našeho nově vytvořeného dokumentu. Tato stránka bude sloužit jako plátno pro náš stůl:
+Dále přidáme do nově vytvořeného dokumentu stránku. Tato stránka bude sloužit jako plátno pro naši tabulku:
 
 ```csharp
-// Vytvořte stránku v dokumentu pdf
+// Vytvořte stránku v dokumentu PDF
 Page sec1 = pdfDocument.Pages.Add();
 ```
 
- Každý`Document` může obsahovat více stránek. V tomto případě přidáváme pouze jeden.
+Každý `Document` může obsahovat více stránek. V tomto případě přidáváme pouze jednu.
 
 ## Krok 3: Vytvoření instance tabulky
 
-Nyní vytvoříme naši tabulku:
+Nyní si vytvořme naši tabulku:
 
 ```csharp
-// Vytvořte instanci objektu tabulky
+// Vytvoření instance objektu tabulky
 Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 ```
 
- Tento`Table` objekt bude obsahovat náš obsah, včetně obrázku, který plánujeme přidat.
+Tento `Table` Objekt bude obsahovat náš obsah, včetně obrázku, který plánujeme přidat.
 
 ## Krok 4: Přidání tabulky na stránku
 
-Umístíme tabulku do kolekce odstavců stránky, kterou jsme právě vytvořili:
+Umístěme tabulku do kolekce odstavců stránky, kterou jsme právě vytvořili:
 
 ```csharp
 // Přidejte tabulku do kolekce odstavců požadované stránky
 sec1.Paragraphs.Add(tab1);
 ```
 
-To je vše! Nyní je naše tabulka součástí stránky.
+To je vše! Naše tabulka je teď součástí stránky.
 
-## Krok 5: Úprava ohraničení buněk
+## Krok 5: Úprava okrajů buněk
 
-Aby byl náš stůl vizuálně přitažlivý, musíme nastavit výchozí ohraničení:
+Aby byla naše tabulka vizuálně přitažlivá, musíme nastavit výchozí ohraničení:
 
 ```csharp
-// Nastavte výchozí ohraničení buňky pomocí objektu BorderInfo
+// Nastavení výchozího ohraničení buňky pomocí objektu BorderInfo
 tab1.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.1F);
 ```
 
-Tento fragment kódu aplikuje tenké ohraničení kolem každé buňky v tabulce.
+Tento úryvek kódu použije tenký okraj kolem každé buňky v tabulce.
 
 ## Krok 6: Nastavení šířky sloupců
 
-Nyní je čas určit, jak široké chceme sloupce:
+Nyní je čas určit, jak široké chceme sloupce mít:
 
 ```csharp
-// Nastavte šířku šířky sloupců tabulky
+// Nastavení šířky sloupců tabulky
 tab1.ColumnWidths = "100 100 120";
 ```
 
-Zde definujeme tři sloupce se zadanou šířkou pixelů. Tato čísla můžete upravit podle svých požadavků.
+Zde definujeme tři sloupce se zadanou šířkou v pixelech. Tato čísla můžete upravit podle svých požadavků.
 
-## Krok 7: Vytvoření řádků a buněk
+## Krok 7: Vytváření řádků a buněk
 
-Dále vytvoříme řádek a začneme jej plnit buňkami:
+Dále vytvoříme řádek a začneme ho naplňovat buňkami:
 
 ```csharp
-//Vytvořte řádky v tabulce a poté buňky v řádcích
+// Vytvořte řádky v tabulce a poté buňky v řádcích
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("Sample text in cell");
 ```
 
-Tento řádek přidá jeden řádek do naší tabulky a vyplní první buňku ukázkovým textem. 
+Tento řádek přidá do naší tabulky jeden řádek a vyplní první buňku vzorovým textem. 
 
 ## Krok 8: Přidání obrázku do buňky
 
- Nyní k té vzrušující části – přidání obrázku! Nejprve musíme inicializovat`Image` objekt:
+A teď ta vzrušující část – přidání obrázku! Nejprve musíme inicializovat `Image` objekt:
 
 ```csharp
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
-img.File = dataDir + "aspose.jpg"; // Ujistěte se, že uvádíte správnou cestu
+img.File = dataDir + "aspose.jpg"; // Ujistěte se, že jste uvedli správnou cestu
 ```
 
- Nezapomeňte vyměnit`"aspose.jpg"` s názvem vašeho skutečného souboru obrázku. 
+Nezapomeňte vyměnit `"aspose.jpg"` s názvem vašeho skutečného obrazového souboru. 
 
 ## Krok 9: Přidání obrázku do buňky tabulky
 
-Nyní přidáme náš obrázek do druhé buňky v řadě:
+Nyní přidejme náš obrázek do druhé buňky v řádku:
 
 ```csharp
 // Přidejte buňku, která obsahuje obrázek
 Aspose.Pdf.Cell cell2 = row1.Cells.Add();
-//Přidejte obrázek do buňky tabulky
+// Přidat obrázek do buňky tabulky
 cell2.Paragraphs.Add(img);
 ```
 
-Tím přidáte novou buňku, kde bude obrázek zobrazen v tabulce.
+Tím se v tabulce přidá nová buňka, kde se obrázek zobrazí.
 
 ## Krok 10: Dokončení řádku
 
@@ -177,42 +179,44 @@ row1.Cells.Add("Previous cell with image");
 row1.Cells[2].VerticalAlignment = Aspose.Pdf.VerticalAlignment.Center;
 ```
 
-Zde přidáme další buňku, která bude vykreslena jako vycentrovaná v řádku. To může pomoci uspořádat rozložení vašeho stolu.
+Zde přidáme další buňku, která bude vykreslena jako vycentrovaná v řádku. To může pomoci s organizací rozvržení vaší tabulky.
 
 ## Krok 11: Uložení dokumentu
 
-Nakonec uložíme náš dokument PDF a dokončíme naši práci:
+Nakonec uložme náš PDF dokument a dokončíme naši práci:
 
 ```csharp
-// Uložte dokument
+// Uložit dokument
 pdfDocument.Save(dataDir + "AddImageInTableCell_out.pdf");
 ```
 
-Hotovo! Váš nový dokument PDF s obrázkem uvnitř buňky tabulky je nyní uložen. Přejděte na zadanou cestu a zobrazte své mistrovské dílo.
+Hotovo! Váš nový PDF dokument s obrázkem uvnitř buňky tabulky je nyní uložen. Přejděte na zadanou cestu a prohlédněte si své mistrovské dílo.
 
 ## Závěr
 
-Gratuluji! Úspěšně jste se naučili, jak přidat obrázek do buňky tabulky v dokumentu PDF pomocí Aspose.PDF for .NET. Tento návod vám nejen zmocnil dovednosti kódování, ale také zlepšil vaše porozumění generování PDF. Nyní si představte, jaké nekonečné možnosti tato schopnost otevírá vašim projektům – prezentacím, sestavám, účtenkám – jen si vzpomenete!
+Gratulujeme! Úspěšně jste se naučili, jak přidat obrázek do buňky tabulky v dokumentu PDF pomocí Aspose.PDF pro .NET. Tento návod vám nejen pomohl s programováním, ale také rozšířil vaše znalosti o generování PDF. Nyní si představte nekonečné možnosti, které tato funkce otevírá pro vaše projekty – prezentace, zprávy, účtenky – cokoli si jen vzpomenete!
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?  
-Aspose.PDF for .NET je knihovna určená pro vytváření a manipulaci s dokumenty PDF v aplikacích .NET.
+Aspose.PDF pro .NET je knihovna určená pro vytváření a manipulaci s PDF dokumenty v .NET aplikacích.
 
-### Mohu přidat více obrázků do jedné buňky tabulky?  
-Ano, do buňky tabulky můžete přidat více obrázků přidáním dalších objektů Image do kolekce Odstavců buňky.
+### Mohu do jedné buňky tabulky přidat více obrázků?  
+Ano, do buňky tabulky můžete přidat více obrázků přidáním dalších objektů Image do kolekce Paragraphs buňky.
 
-### Existují nějaká omezení pro použité formáty obrázků?  
-Aspose.PDF podporuje různé obrazové formáty včetně JPEG, PNG, BMP a GIF. Jen se ujistěte, že jsou to platné formáty.
+### Existují nějaká omezení ohledně použitých obrazových formátů?  
+Aspose.PDF podporuje různé obrazové formáty včetně JPEG, PNG, BMP a GIF. Stačí se ujistit, že se jedná o platné formáty.
 
-### Musím si zakoupit licenci, abych mohl používat Aspose.PDF?  
- Aspose.PDF nabízí bezplatnou zkušební verzi, která vám umožní prozkoumat jeho funkce. Pokud jej plánujete používat pro komerční účely, je vyžadována licence. Můžete získat jeden od[zde](https://purchase.aspose.com/buy).
+### Musím si pro používání Aspose.PDF zakoupit licenci?  
+Aspose.PDF nabízí bezplatnou zkušební verzi, která vám umožní prozkoumat jeho funkce. Pokud jej plánujete používat pro komerční účely, je vyžadována licence. Můžete ji získat od [zde](https://purchase.aspose.com/buy).
 
-### Kde najdu podporu ohledně Aspose.PDF?  
- Můžete navštívit[Aspose Support Forum](https://forum.aspose.com/c/pdf/10) pro pomoc komunity a řešení problémů.
+### Kde mohu najít podporu ohledně Aspose.PDF?  
+Můžete navštívit [Fórum podpory Aspose](https://forum.aspose.com/c/pdf/10) pro pomoc komunity a řešení problémů.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

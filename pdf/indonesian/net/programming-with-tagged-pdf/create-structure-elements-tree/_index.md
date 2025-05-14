@@ -1,14 +1,16 @@
 ---
-title: Buat Elemen Struktur Pohon
-linktitle: Buat Elemen Struktur Pohon
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat pohon elemen struktur dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini.
-weight: 70
-url: /id/net/programming-with-tagged-pdf/create-structure-elements-tree/
+"description": "Pelajari cara membuat pohon elemen struktur dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini."
+"linktitle": "Buat Elemen Struktur Pohon"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat Elemen Struktur Pohon"
+"url": "/id/net/programming-with-tagged-pdf/create-structure-elements-tree/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat Elemen Struktur Pohon
@@ -21,11 +23,11 @@ Jika berbicara tentang bekerja dengan PDF, terutama bagi mereka yang ingin memas
 
 Sebelum kita menyelami seluk-beluk kode, pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah memasang pustaka ini. Anda dapat mengunduhnya dari sini:[Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah memasang pustaka ini. Anda dapat mengunduhnya dari sini: [Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
 2. Lingkungan .NET: Lingkungan pengembangan .NET yang berfungsi (seperti Visual Studio) diperlukan.
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang C# akan membantu Anda memahami konsep dengan cepat.
 
- Jika Anda belum melakukannya, Anda mungkin ingin memeriksa[dokumentasi](https://reference.aspose.com/pdf/net/) untuk wawasan lebih dalam.
+Jika Anda belum melakukannya, Anda mungkin ingin memeriksa [dokumentasi](https://reference.aspose.com/pdf/net/) untuk wawasan lebih dalam.
 
 ## Paket Impor
 
@@ -51,7 +53,7 @@ Untuk memulai, Anda perlu memutuskan di mana dokumen PDF Anda akan disimpan. Ini
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur berkas Anda yang sebenarnya. Di sinilah PDF akhir Anda akan disimpan.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur berkas Anda yang sebenarnya. Di sinilah PDF akhir Anda akan disimpan.
 
 ## Langkah 2: Buat Dokumen PDF
 
@@ -196,19 +198,21 @@ Membuat struktur elemen pohon dengan Aspose.PDF untuk .NET seperti membangun ran
 Aspose.PDF untuk .NET adalah pustaka hebat yang digunakan untuk membuat, memanipulasi, dan mengelola dokumen PDF dalam aplikasi .NET.
 
 ### Bagaimana cara memulai dengan Aspose.PDF?
- Mulailah dengan mengunduh perpustakaan dari[Situs web Aspose](https://releases.aspose.com/pdf/net/) dan mengaturnya di lingkungan .NET Anda.
+Mulailah dengan mengunduh perpustakaan dari [Situs web Aspose](https://releases.aspose.com/pdf/net/) dan mengaturnya di lingkungan .NET Anda.
 
 ### Bisakah saya menguji Aspose.PDF sebelum membeli?
- Ya! Anda dapat mencobanya secara gratis menggunakan[uji coba gratis](https://releases.aspose.com/).
+Ya! Anda dapat mencobanya secara gratis menggunakan [uji coba gratis](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan bantuan mengenai Aspose.PDF?
- Untuk dukungan, kunjungi[Forum Aspose](https://forum.aspose.com/c/pdf/10) tempat Anda dapat mengajukan pertanyaan dan berbagi wawasan.
+Untuk dukungan, kunjungi [Forum Aspose](https://forum.aspose.com/c/pdf/10) tempat Anda dapat mengajukan pertanyaan dan berbagi wawasan.
 
 ### Bagaimana cara mengajukan permohonan lisensi sementara?
- Anda dapat mengajukan permohonan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat mengajukan permohonan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

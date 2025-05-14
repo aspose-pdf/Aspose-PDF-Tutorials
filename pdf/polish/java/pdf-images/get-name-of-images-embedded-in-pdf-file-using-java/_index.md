@@ -1,14 +1,16 @@
 ---
-title: Pobierz nazwy obrazów osadzonych w pliku PDF za pomocą Java
-linktitle: Pobierz nazwy obrazów osadzonych w pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak wyodrębnić osadzone nazwy obrazów z plików PDF za pomocą Java i Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym do wydajnej ekstrakcji danych PDF.
-weight: 14
-url: /pl/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/
+"description": "Dowiedz się, jak wyodrębnić osadzone nazwy obrazów z plików PDF za pomocą Java i Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym do wydajnej ekstrakcji danych PDF."
+"linktitle": "Pobierz nazwy obrazów osadzonych w pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Pobierz nazwy obrazów osadzonych w pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz nazwy obrazów osadzonych w pliku PDF za pomocą Java
@@ -42,7 +44,7 @@ Aspose.PDF for Java to potężna biblioteka do pracy z dokumentami PDF. Aby uży
 
 ## Ładowanie pliku PDF
 
- W tym kroku napiszemy kod Java, aby załadować plik PDF do naszej aplikacji. Powinieneś zastąpić`"input.pdf"` ze ścieżką do pliku PDF.
+W tym kroku napiszemy kod Java, aby załadować plik PDF do naszej aplikacji. Powinieneś zastąpić `"input.pdf"` ze ścieżką do pliku PDF.
 
 ```java
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("input.pdf");
@@ -85,7 +87,7 @@ Możesz dalej udoskonalić ten kod, aby zapisać lub przetworzyć wyodrębnione 
 
 ## Wniosek
 
-W tym przewodniku krok po kroku nauczyliśmy się, jak używać Aspose.PDF dla Java do wyodrębniania nazw osadzonych obrazów z pliku PDF. Może to być cenne narzędzie dla różnych aplikacji, takich jak ekstrakcja danych i analiza dokumentów.
+tym przewodniku krok po kroku nauczyliśmy się, jak używać Aspose.PDF dla Java do wyodrębniania nazw osadzonych obrazów z pliku PDF. Może to być cenne narzędzie dla różnych aplikacji, takich jak ekstrakcja danych i analiza dokumentów.
 
 ## Często zadawane pytania
 
@@ -104,9 +106,11 @@ Jeśli napotkasz jakiekolwiek problemy lub będziesz mieć pytania dotyczące ko
 ### Czy Aspose.PDF dla Java jest darmowy?
 
 Aspose.PDF for Java to komercyjna biblioteka z dostępną bezpłatną wersją próbną. Możesz zapoznać się z jej funkcjami w okresie próbnym i rozważyć zakup licencji w celu dalszego użytkowania.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

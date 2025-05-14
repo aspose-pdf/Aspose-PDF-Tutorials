@@ -8,7 +8,9 @@ url: /java/pdf-tags-and-structure/create-structure-element-in-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Structure Element in PDF using Java
@@ -91,9 +93,11 @@ You can use CSS styles and attributes to customize the appearance of structure e
 ### Are structure elements required for all PDFs?
 
 While structure elements are essential for accessibility, their usage depends on the specific requirements of your PDF documents.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

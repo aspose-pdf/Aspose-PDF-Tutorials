@@ -8,7 +8,9 @@ url: /java/pdf-form-fields/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Form Fields
@@ -49,9 +51,11 @@ Learn how to control image quality when adding image stamps to PDFs using Java w
 Learn how to precisely align text stamp objects in PDFs using Java with Aspose.PDF for Java. Enhance document appearance and readability.
 ### [Extract Text from Stamp Annotation in PDF using Java](./extract-text-from-stamp-annotation-in-pdf-using-java/)
 Learn how to extract text from Stamp Annotations in PDF using Java with this comprehensive guide. Use Aspose.PDF for Java for efficient PDF document processing.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

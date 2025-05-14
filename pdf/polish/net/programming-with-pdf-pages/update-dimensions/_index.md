@@ -1,14 +1,16 @@
 ---
-title: Aktualizuj wymiary strony PDF
-linktitle: Aktualizuj wymiary strony PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak bez wysiłku aktualizować wymiary stron PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 150
-url: /pl/net/programming-with-pdf-pages/update-dimensions/
+"description": "Dowiedz się, jak bez wysiłku aktualizować wymiary stron PDF za pomocą Aspose.PDF dla .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Aktualizuj wymiary strony PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Aktualizuj wymiary strony PDF"
+"url": "/pl/net/programming-with-pdf-pages/update-dimensions/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktualizuj wymiary strony PDF
@@ -25,7 +27,7 @@ Zanim przejdziemy do działania, jest kilka rzeczy, które musisz zrobić:
 
 2. .NET Framework: Upewnij się, że w systemie zainstalowana jest zgodna wersja .NET Framework.
 
-3. Aspose.PDF dla .NET: Musisz pobrać i zainstalować pakiet Aspose.PDF. Możesz łatwo pobrać ten pakiet za pomocą następującego łącza:[Pobierz Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF dla .NET: Musisz pobrać i zainstalować pakiet Aspose.PDF. Możesz łatwo pobrać ten pakiet za pomocą następującego łącza: [Pobierz Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
 
 4. Podstawowe umiejętności kodowania: Znajomość podstaw programowania w języku C# będzie bardzo pomocna w zrozumieniu tego samouczka.
 
@@ -55,7 +57,7 @@ Teraz musimy dodać bibliotekę Aspose.PDF do naszego projektu. Można to łatwo
 
 ### Importuj przestrzeń nazw
 
- W twoim`Program.cs` plik, zaimportuj przestrzeń nazw Aspose.PDF, aby uzyskać dostęp do jej funkcjonalności:
+W twoim `Program.cs` plik, zaimportuj przestrzeń nazw Aspose.PDF, aby uzyskać dostęp do jej funkcjonalności:
 
 ```csharp
 using System.IO;
@@ -65,7 +67,7 @@ using Aspose.Pdf;
 
 Teraz, gdy wszystko jest już skonfigurowane i gotowe, możemy zająć się modyfikacją wymiarów strony.
 
-Przyjrzyjmy się teraz krokom niezbędnym do efektywnej aktualizacji wymiarów strony w pliku PDF.
+Przyjrzyjmy się teraz krokom niezbędnym do efektywnej aktualizacji wymiarów strony w formacie PDF.
 
 ## Krok 1: Określ ścieżkę dla swoich dokumentów
 
@@ -75,7 +77,7 @@ Przed otwarciem pliku PDF musisz określić jego lokalizację. Pomaga to program
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Myśleć`dataDir` jako adres Twojego dokumentu. Upewnij się, że zastąpiłeś „TWOJEGO KATALOGU DOKUMENTÓW” rzeczywistą ścieżką, w której znajduje się Twój plik PDF.
+Myśleć `dataDir` jako adres Twojego dokumentu. Upewnij się, że zastąpiłeś „TWOJEGO KATALOGU DOKUMENTÓW” rzeczywistą ścieżką, w której znajduje się Twój plik PDF.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -85,7 +87,7 @@ Teraz nadszedł czas na załadowanie dokumentu PDF, który chcesz zmodyfikować.
 // Otwórz dokument
 Document pdfDocument = new Document(dataDir + "UpdateDimensions.pdf");
 ```
- Tutaj tworzymy nowy`Document` obiekt, przekazując mu ścieżkę do pliku PDF. Pozwala nam to pracować z dokumentem w naszym kodzie.
+Tutaj tworzymy nowy `Document` obiekt, przekazując mu ścieżkę do pliku PDF. Pozwala nam to pracować z dokumentem w naszym kodzie.
 
 ## Krok 3: Uzyskaj dostęp do kolekcji stron
 
@@ -95,7 +97,7 @@ Następnie uzyskaj dostęp do stron w dokumencie PDF. Pozwala to skupić się na
 // Pobierz kolekcję stron
 PageCollection pageCollection = pdfDocument.Pages;
 ```
- Wyobraź sobie`PageCollection`jako półka na książki, gdzie każda strona PDF jest książką. Możesz łatwo poruszać się po stronach, aby znaleźć tę, którą chcesz zmodyfikować.
+Wyobraź sobie `PageCollection` jako półka na książki, gdzie każda strona PDF jest książką. Możesz łatwo poruszać się po stronach, aby znaleźć tę, którą chcesz zmodyfikować.
 
 ## Krok 4: Uzyskaj konkretną stronę
 
@@ -150,19 +152,21 @@ Więc śmiało, uwolnij swoją kreatywność i spraw, aby Twoje pliki PDF wyglą
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów PDF przy użyciu środowiska .NET.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatny okres próbny. Możesz go uzyskać z[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatny okres próbny. Możesz go uzyskać z [Tutaj](https://releases.aspose.com/).
 
 ### Jakie języki programowania obsługuje Aspose.PDF?
 Aspose.PDF obsługuje wiele języków programowania, w tym C#, Java i Python.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.PDF?
- Pełną dokumentację znajdziesz na stronie Aspose.PDF[Tutaj](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację znajdziesz na stronie Aspose.PDF [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Czy istnieje forum wsparcia dla użytkowników Aspose.PDF?
- Tak, Aspose ma dedykowane forum wsparcia, do którego możesz uzyskać dostęp[Tutaj](https://forum.aspose.com/c/pdf/10).
+Tak, Aspose ma dedykowane forum wsparcia, do którego możesz uzyskać dostęp [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

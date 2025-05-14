@@ -1,14 +1,16 @@
 ---
-title: Alan Sınırını Ayarla
-linktitle: Alan Sınırını Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF formlarında alan sınırlarının nasıl ayarlanacağını öğrenin. Kullanıcı deneyimini ve veri bütünlüğünü geliştirin.
-weight: 260
-url: /tr/net/programming-with-forms/set-field-limit/
+"description": "Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF formlarında alan sınırlarının nasıl ayarlanacağını öğrenin. Kullanıcı deneyimini ve veri bütünlüğünü geliştirin."
+"linktitle": "Alan Sınırını Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Alan Sınırını Ayarla"
+"url": "/tr/net/programming-with-forms/set-field-limit/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alan Sınırını Ayarla
@@ -21,7 +23,7 @@ Belge yönetimi dünyasında, kullanıcıların doğru miktarda bilgi sağlamas�
 
 Koda dalmadan önce, yerinde olması gereken birkaç şey var:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Kodunuzu yazıp test edebileceğiniz bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşina olmak örnekleri daha iyi anlamanıza yardımcı olacaktır.
 
@@ -46,28 +48,28 @@ using Aspose.Pdf.Facades;
 using Aspose.Pdf.Forms;
 using System;
 ```
-Artık her şeyi ayarladığımıza göre, bir PDF belgesinde alan sınırı belirleme sürecini parçalara ayıralım.
+Artık her şeyi ayarladığınıza göre, bir PDF belgesinde alan sınırı belirleme sürecini parçalara ayıralım.
 
 ## Adım 1: Belge Dizinini Tanımlayın
 
-Bu adımda, PDF belgelerinizin saklandığı dizinin yolunu belirteceksiniz. Bu önemlidir çünkü programın giriş PDF dosyasını nerede bulacağını ve çıktı dosyasını nerede kaydedeceğini bilmesi gerekir.
+Bu adımda, PDF belgelerinizin saklandığı dizinin yolunu belirteceksiniz. Bu önemlidir çünkü programın giriş PDF dosyasını nerede bulacağını ve çıktı dosyasını nereye kaydedeceğini bilmesi gerekir.
 
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın bulunduğu gerçek yol ile. Bu, şuna benzer bir şey olabilir`C:\\Documents\\PDFs\\`.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın bulunduğu gerçek yol ile. Bu, şuna benzer bir şey olabilir `C:\\Documents\\PDFs\\`.
 
 ## Adım 2: Bir FormEditor Örneği Oluşturun
 
- Daha sonra, bir örnek oluşturacaksınız`FormEditor`PDF belgelerindeki formları düzenlemekten sorumlu sınıf.
+Daha sonra, bir örnek oluşturacaksınız `FormEditor` PDF belgelerindeki formları düzenlemekten sorumlu sınıf.
 
 ```csharp
 FormEditor form = new FormEditor();
 ```
 
- The`FormEditor` sınıfı, bir PDF'deki form alanlarını düzenlemek için yöntemler sağlar. Bu sınıfın bir örneğini oluşturarak, PDF formunuzda değişiklikler yapmaya hazırlanıyorsunuz.
+The `FormEditor` sınıfı, bir PDF'deki form alanlarını düzenlemek için yöntemler sağlar. Bu sınıfın bir örneğini oluşturarak, PDF formunuzda değişiklikler yapmaya hazırlanıyorsunuz.
 
 ## Adım 3: PDF Belgesini Bağlayın
 
@@ -77,7 +79,7 @@ FormEditor form = new FormEditor();
 form.BindPdf(dataDir + "input.pdf");
 ```
 
- The`BindPdf` yöntem belirtilen PDF dosyasını yükler`FormEditor` örnek. Dosyanın`input.pdf` belirtilen dizinde mevcuttur.
+The `BindPdf` yöntem belirtilen PDF dosyasını yükler `FormEditor` örnek. Dosyanın `input.pdf` belirtilen dizinde mevcuttur.
 
 ## Adım 4: Alan Sınırını Ayarlayın
 
@@ -87,9 +89,9 @@ form.BindPdf(dataDir + "input.pdf");
 form.SetFieldLimit("textbox1", 15);
 ```
 
- Bu satırda,`"textbox1"` sınırlamak istediğiniz metin alanının adıdır ve`15` izin verilen maksimum karakter sayısıdır. Bu değerleri gereksinimlerinize göre değiştirebilirsiniz.
+Bu satırda, `"textbox1"` sınırlamak istediğiniz metin alanının adıdır ve `15` izin verilen maksimum karakter sayısıdır. Bu değerleri gereksinimlerinize göre değiştirebilirsiniz.
 
-## Adım 5: Değiştirilen PDF'yi kaydedin
+## Adım 5: Değiştirilen PDF'yi Kaydedin
 
 Alan sınırını ayarladıktan sonra, değiştirilmiş PDF belgesini kaydetme zamanı geldi.
 
@@ -98,7 +100,7 @@ dataDir = dataDir + "SetFieldLimit_out.pdf";
 form.Save(dataDir);
 ```
 
- Burada, çıktı dosya adını şu şekilde belirtiyorsunuz:`SetFieldLimit_out.pdf` .`Save`yöntemi PDF belgesinde yaptığınız değişiklikleri kaydeder.
+Burada, çıktı dosya adını şu şekilde belirtiyorsunuz: `SetFieldLimit_out.pdf`. `Save` yöntemi PDF belgesinde yaptığınız değişiklikleri kaydeder.
 
 ## Adım 6: Değişiklikleri Onaylayın
 
@@ -120,19 +122,21 @@ Aspose.PDF for .NET kullanarak bir PDF formunda alan sınırı belirlemek, kulla
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Birden fazla alana sınır koyabilir miyim?
- Evet, birden fazla alana sınır koyabilirsiniz.`SetFieldLimit` Sınırlamak istediğiniz her alan için bir yöntem.
+Evet, birden fazla alana sınır koyabilirsiniz. `SetFieldLimit` Sınırlamak istediğiniz her alan için bir yöntem.
 
 ### Ücretsiz deneme imkanı var mı?
- Evet, Aspose.PDF for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[web sitesi](https://releases.aspose.com/).
+Evet, Aspose.PDF for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [web sitesi](https://releases.aspose.com/).
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı belgeleri .NET için Aspose.PDF'de bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+.NET için Aspose.PDF'de ayrıntılı belgeler bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

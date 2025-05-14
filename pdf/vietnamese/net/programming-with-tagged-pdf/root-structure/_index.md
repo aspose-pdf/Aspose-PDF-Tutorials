@@ -1,14 +1,16 @@
 ---
-title: Cấu trúc gốc
-linktitle: Cấu trúc gốc
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Hướng dẫn từng bước về cách sử dụng các phần tử cấu trúc gốc với Aspose.PDF cho .NET để truy cập vào đối tượng gốc và StructTreeRoot của tài liệu PDF.
-weight: 130
-url: /vi/net/programming-with-tagged-pdf/root-structure/
+"description": "Hướng dẫn từng bước về cách sử dụng các phần tử cấu trúc gốc với Aspose.PDF cho .NET để truy cập vào đối tượng gốc và StructTreeRoot của tài liệu PDF."
+"linktitle": "Cấu trúc gốc"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Cấu trúc gốc"
+"url": "/vi/net/programming-with-tagged-pdf/root-structure/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cấu trúc gốc
@@ -21,12 +23,12 @@ Khi làm việc với PDF trong môi trường .NET, Aspose.PDF cung cấp các 
 
 Trước khi bắt đầu tạo tệp PDF có gắn thẻ, hãy đảm bảo rằng bạn đã chuẩn bị mọi thứ để thực hiện theo hướng dẫn này.
 
-1.  Thư viện Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt gói Aspose.PDF cho .NET. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho Thư viện .NET: Bạn sẽ cần tải xuống và cài đặt gói Aspose.PDF cho .NET. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/pdf/net/).
 2. Môi trường phát triển: Môi trường phát triển như Visual Studio sẽ là sân chơi chính của bạn để viết mã cho hướng dẫn này.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên hệ thống của mình.
 4. Hiểu biết cơ bản về C#: Bạn không cần phải là chuyên gia, nhưng hiểu biết cơ bản về C# sẽ giúp bạn hiểu bài hướng dẫn này dễ hơn.
 
- Nếu bạn không có thư viện Aspose.PDF, bạn cũng có thể yêu cầu[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc tải xuống[dùng thử miễn phí](https://releases.aspose.com/).
+Nếu bạn không có thư viện Aspose.PDF, bạn cũng có thể yêu cầu [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc tải xuống [dùng thử miễn phí](https://releases.aspose.com/).
 
 ## Nhập gói
 
@@ -50,7 +52,7 @@ Bây giờ chúng ta đã thiết lập xong bối cảnh, hãy cùng xem qua t�
 Bước đầu tiên để tạo bất kỳ tệp PDF nào là khởi tạo một đối tượng tài liệu mới.
 
 ### Bước 1.1: Khởi tạo Tài liệu PDF
- Để tạo PDF, bạn cần phải khởi tạo một`Document` đối tượng. Đây là cách thực hiện:
+Để tạo PDF, bạn cần phải khởi tạo một `Document` đối tượng. Đây là cách thực hiện:
 
 ```csharp
 // Tạo một tài liệu PDF mới
@@ -60,7 +62,7 @@ Document document = new Document();
 Bằng cách gọi lệnh này, về cơ bản bạn đã tạo một tệp PDF trống đã sẵn sàng để đưa nội dung vào. Nhưng khoan đã, chúng ta vẫn chưa xong đâu!
 
 ### Bước 1.2: Thiết lập thư mục tài liệu
-Trước khi lưu hoặc làm việc trên tài liệu, bạn nên chỉ định thư mục nơi bạn sẽ lưu tệp PDF:
+Trước khi lưu hoặc làm việc trên tài liệu, bạn nên chỉ định thư mục nơi bạn sẽ lưu tệp PDF của mình:
 
 ```csharp
 // Xác định đường dẫn để lưu tài liệu PDF
@@ -71,9 +73,9 @@ Bây giờ dự án của bạn đã biết nơi lưu tệp PDF cuối cùng.
 
 ## Bước 2: Truy cập Nội dung được gắn thẻ
 
- Các tệp PDF được gắn thẻ đều liên quan đến khả năng truy cập và điều này đòi hỏi các "thẻ" đặc biệt trong nội dung để giúp các công cụ như trình đọc màn hình hiểu được cấu trúc. Để làm việc với điều này, chúng ta cần truy cập`ITaggedContent` giao diện.
+Các tệp PDF được gắn thẻ đều liên quan đến khả năng truy cập và điều này đòi hỏi các "thẻ" đặc biệt trong nội dung để giúp các công cụ như trình đọc màn hình hiểu được cấu trúc. Để làm việc với điều này, chúng ta cần truy cập `ITaggedContent` giao diện.
 
-Truy cập phần nội dung được gắn thẻ của PDF như sau:
+Truy cập phần nội dung được gắn thẻ của tệp PDF như sau:
 
 ```csharp
 // Truy cập nội dung được gắn thẻ của tài liệu
@@ -118,7 +120,7 @@ Phần tử cấu trúc gốc đóng vai trò là cơ sở cho nội dung đư�
 StructTreeRootElement structTreeRootElement = taggedContent.StructTreeRootElement;
 ```
 
- Các`StructTreeRootElement` Đối tượng cho phép bạn cấu trúc các phần tử theo thứ bậc.
+Các `StructTreeRootElement` Đối tượng cho phép bạn cấu trúc các phần tử theo thứ bậc.
 
 ### Bước 4.2: Xác định phần tử gốc
 Bây giờ chúng ta hãy lấy phần tử cấu trúc gốc của PDF:
@@ -128,7 +130,7 @@ Bây giờ chúng ta hãy lấy phần tử cấu trúc gốc của PDF:
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
- Cái này`rootElement` sẽ đóng vai trò là cấu trúc cấp cao nhất cho các thẻ của tài liệu.
+Cái này `rootElement` sẽ đóng vai trò là cấu trúc cấp cao nhất cho các thẻ của tài liệu.
 
 ## Bước 5: Lưu tài liệu
 
@@ -163,9 +165,11 @@ Tạo PDF có gắn thẻ bằng Aspose.PDF cho .NET không phức tạp như b�
 
 5. Aspose.PDF có tương thích với tất cả các phiên bản .NET không?  
    Có, Aspose.PDF cho .NET tương thích với .NET Core và .NET Framework.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

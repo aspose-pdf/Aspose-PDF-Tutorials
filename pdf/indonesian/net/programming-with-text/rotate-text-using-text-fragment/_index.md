@@ -1,14 +1,16 @@
 ---
-title: Memutar Teks Menggunakan Fragmen Teks Dalam File PDF
-linktitle: Memutar Teks Menggunakan Fragmen Teks Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memutar teks dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. Temukan teknik manipulasi teks, mulai dari pemosisian hingga rotasi.
-weight: 390
-url: /id/net/programming-with-text/rotate-text-using-text-fragment/
+"description": "Pelajari cara memutar teks dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. Temukan teknik manipulasi teks, mulai dari pemosisian hingga rotasi."
+"linktitle": "Memutar Teks Menggunakan Fragmen Teks Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Memutar Teks Menggunakan Fragmen Teks Dalam File PDF"
+"url": "/id/net/programming-with-text/rotate-text-using-text-fragment/"
+"weight": 390
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memutar Teks Menggunakan Fragmen Teks Dalam File PDF
@@ -56,7 +58,7 @@ Sekarang, mari kita uraikan contoh kode langkah demi langkah sehingga Anda dapat
 
 Setiap manipulasi PDF dimulai dengan membuat atau memuat dokumen PDF. Di sini, kita akan menginisialisasi dokumen PDF baru dari awal menggunakan Aspose.PDF.
 
- Kami sedang membuat yang baru`Document` objek yang mewakili berkas PDF. Awalnya, dokumen ini kosong.
+Kami sedang membuat yang baru `Document` objek yang mewakili berkas PDF. Awalnya, dokumen ini kosong.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -160,10 +162,10 @@ Memutar teks dalam PDF dapat menambahkan sentuhan profesional pada dokumen Anda,
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya memutar fragmen teks pada sudut mana pun?
- Ya! Anda dapat mengatur`TextState.Rotation` properti ke derajat apa pun (bahkan sudut negatif) untuk memutar teks sesuai kebutuhan.
+Ya! Anda dapat mengatur `TextState.Rotation` properti ke derajat apa pun (bahkan sudut negatif) untuk memutar teks sesuai kebutuhan.
 
 ### Bisakah saya menggunakan font yang berbeda untuk setiap fragmen teks?
- Tentu saja. Anda dapat menyesuaikan font setiap fragmen teks menggunakan`FontRepository.FindFont` dan masukkan font yang ingin Anda terapkan.
+Tentu saja. Anda dapat menyesuaikan font setiap fragmen teks menggunakan `FontRepository.FindFont` dan masukkan font yang ingin Anda terapkan.
 
 ### Apakah Aspose.PDF mendukung PDF multi-halaman?
 Ya, Anda dapat menambahkan beberapa halaman ke dokumen PDF Anda dan memanipulasi setiap halaman secara independen.
@@ -173,9 +175,11 @@ Tidak, Anda dapat menambahkan fragmen teks sebanyak yang diperlukan. Pastikan sa
 
 ### Bisakah saya memodifikasi fragmen teks setelah menambahkannya?
 Ya, setelah fragmen teks ditambahkan, Anda masih dapat memperbarui propertinya atau menghapusnya dari halaman.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

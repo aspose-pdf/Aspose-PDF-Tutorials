@@ -1,34 +1,36 @@
 ---
-title: PDF ファイル内の文字を強調表示する
-linktitle: PDF ファイル内の文字を強調表示する
-second_title: Aspose.PDF for .NET API リファレンス
-description: この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF 内の文字を強調表示する方法を学びます。
-weight: 240
-url: /ja/net/programming-with-text/highlight-character-in-pdf/
+"description": "この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF 内の文字を強調表示する方法を学びます。"
+"linktitle": "PDFファイル内の文字を強調表示する"
+"second_title": "Aspose.PDF for .NET API リファレンス"
+"title": "PDFファイル内の文字を強調表示する"
+"url": "/ja/net/programming-with-text/highlight-character-in-pdf/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF ファイル内の文字を強調表示する
+# PDFファイル内の文字を強調表示する
 
 ## 導入
 
-PDF を扱う場合、学術目的、編集、または単に読みやすさを向上させるためなど、テキストや文字を強調する必要が頻繁に生じます。美しいドキュメントがあり、特定の部分を強調したいとします。そこで強調表示が役立ちます。このチュートリアルでは、強力な Aspose.PDF for .NET ライブラリを使用して PDF ファイル内の文字を強調表示する方法について詳しく説明します。 
+PDFを扱う際には、学術的な目的、編集、あるいは単に読みやすさを向上させるためなど、テキストや文字を強調表示する必要に迫られることがよくあります。美しいドキュメントがあるけれど、特定の部分を強調表示したいとします。そこで、強調表示機能が役立ちます！このチュートリアルでは、強力なAspose.PDF for .NETライブラリを使って、PDFファイル内の文字を強調表示する方法について詳しく説明します。 
 
 ## 前提条件
 
 コードに進む前に、必要なものがすべて揃っていることを確認しましょう。必要なものは次のとおりです。
 
 1. 開発環境: このチュートリアルでは、Visual Studio または同様の .NET IDE で作業していることを前提としています。
-2.  Aspose.PDF for .NETライブラリ:まだお持ちでない場合は、[ここからダウンロード](https://releases.aspose.com/pdf/net/)プロジェクトに追加します。 
+2. Aspose.PDF for .NETライブラリ:まだインストールしていない場合は、 [ここからダウンロード](https://releases.aspose.com/pdf/net/) プロジェクトに追加します。 
 3. C# の基礎知識: C# プログラミングの入門書は、実装を簡単に理解するのに役立ちます。
-4. PDF ドキュメント: 作業に使用できるサンプル PDF ファイルを用意しておく必要があります。 自分で作成することも、既存のドキュメントを利用することもできます。
+4. PDFドキュメント：サンプルのPDFファイルを用意しておいてください。新規作成することも、既存のドキュメントを利用することもできます。
 
 ## パッケージのインポート
 
-まず、必要な名前空間をインポートする必要があります。これを行うには、C# ファイルの先頭にそれらを含める必要があります。
+まず、必要な名前空間をインポートする必要があります。そのためには、C#ファイルの先頭にそれらを記述します。
 
 ```csharp
 using System.IO;
@@ -46,20 +48,20 @@ using System.Drawing;
 
 ## ステップ1: PDFドキュメントを初期化する
 
-最初のステップは、PDF ドキュメントを初期化することです。これには、作業する PDF ファイルの読み込みが含まれます。手順は次のとおりです。
+最初のステップは、PDFドキュメントを初期化することです。これは、作業対象となるPDFファイルを読み込むことを意味します。手順は以下のとおりです。
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY"; //必ず正しいパスを設定してください。
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // 必ず正しいパスを設定してください。
 Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(dataDir + "input.pdf");
 ```
-このスニペットでは、`YOUR DOCUMENT DIRECTORY`入力PDFファイルが保存されているマシン上の実際のパスを入力します。`Aspose.Pdf.Document`クラスは PDF を読み込むためにインスタンス化されます。
+このスニペットでは、 `YOUR DOCUMENT DIRECTORY` 入力PDFファイルが保存されているマシン上の実際のパスを入力します。 `Aspose.Pdf.Document` クラスは PDF を読み込むためにインスタンス化されます。
 
 ## ステップ2: レンダリングプロセスを設定する
 
-次に、ドキュメントのレンダリング プロセスを準備する必要があります。これは、ページ上の文字を正確に強調表示するために不可欠です。
+次に、ドキュメントのレンダリングプロセスを準備する必要があります。これは、ページ上の文字を正確に強調表示するために不可欠です。
 
 ```csharp
-int resolution = 150; //画像キャプチャの解像度を設定します。
+int resolution = 150; // 画像キャプチャの解像度を設定します。
 using (MemoryStream ms = new MemoryStream())
 {
     PdfConverter conv = new PdfConverter(pdfDocument);
@@ -67,7 +69,7 @@ using (MemoryStream ms = new MemoryStream())
     conv.GetNextImage(ms, System.Drawing.Imaging.ImageFormat.Png);
     Bitmap bmp = (Bitmap)Bitmap.FromStream(ms);
 ```
-テキストが適切に表示されるように、解像度を定義します。`PdfConverter`PDF ページを画像に変換して、その上に描画できるようにします。
+テキストが適切に表示されるように、明瞭性のために解像度を定義します。 `PdfConverter` PDF ページを画像に変換し、その上に描画できるようにします。
 
 ## ステップ3: 描画用のグラフィックオブジェクトを作成する
 
@@ -76,14 +78,14 @@ using (MemoryStream ms = new MemoryStream())
 ```csharp
 using (System.Drawing.Graphics gr = System.Drawing.Graphics.FromImage(bmp))
 {
-    float scale = resolution / 72f; //スケール係数。
+    float scale = resolution / 72f; // スケール係数。
     gr.Transform = new System.Drawing.Drawing2D.Matrix(scale, 0, 0, -scale, 0, bmp.Height);
 ```
-ここでは、ビットマップ イメージからグラフィック オブジェクトを作成します。変換により、必要な解像度に正しく一致するようにレンダリングを調整できます。
+ここでは、ビットマップ画像からグラフィックオブジェクトを作成します。変換により、必要な解像度に合わせてレンダリングを調整できます。
 
-## ステップ4: 各ページをループしてテキストを強調表示する
+## ステップ4：各ページをループしてテキストを強調表示する
 
-次に、PDF の各ページをループして、強調表示したいテキストの断片を見つけます。
+ここで、PDF 内の各ページをループして、強調表示したいテキストの断片を見つけましょう。
 
 ```csharp
 for (int i = 0; i < pdfDocument.Pages.Count; i++)
@@ -93,18 +95,18 @@ for (int i = 0; i < pdfDocument.Pages.Count; i++)
     textFragmentAbsorber.TextSearchOptions.IsRegularExpressionUsed = true;
     page.Accept(textFragmentAbsorber);
 ```
-各ページにアクセスし、`TextFragmentAbsorber`正規表現パターン`@"[\S]+"`空白以外の文字をすべてキャプチャします。
+各ページにアクセスし、すべてのテキストを `TextFragmentAbsorber`正規表現パターン `@"[\S]+"` 空白以外の文字をすべてキャプチャします。
 
-## ステップ5: テキストの断片を抽出して強調表示する
+## ステップ5：テキストの断片を抽出して強調表示する
 
-次に、テキストの断片を抽出して強調表示します。このプロセスでは、強調表示したい文字の周囲に四角形を描画します。
+次は、テキストの断片を抽出して強調表示します。強調表示したい文字の周囲に四角形を描画します。
 
 ```csharp
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 
 foreach (TextFragment textFragment in textFragmentCollection)
 {
-    //ここでロジックを強調する
+    // ここでロジックを強調する
     for (int segNum = 1; segNum <= textFragment.Segments.Count; segNum++)
     {
         TextSegment segment = textFragment.Segments[segNum];
@@ -120,7 +122,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
     }
 }
 ```
-各テキスト フラグメント、そのセグメント、および個々の文字をループし、以前に作成したグラフィック オブジェクトを使用してそれらの周囲に四角形を描画します。
+各テキストフラグメント、そのセグメント、および個々の文字をループし、以前に作成したグラフィック オブジェクトを使用してそれらの周囲に四角形を描画します。
 
 ## ステップ6: 変更した画像を保存する
 
@@ -132,14 +134,14 @@ bmp.Save(dataDir, System.Drawing.Imaging.ImageFormat.Png);
 ```
 この行は、変更されたビットマップ イメージを指定されたディレクトリに PNG ファイルとして保存します。 
 
-## ステップ 7: 例外処理で終了する
+## ステップ7: 例外処理で締めくくる
 
-最後に、コードを try-catch ブロックで囲んで、予期しないエラーを適切に処理できるようにすることをお勧めします。
+最後に、コードを try-catch ブロックで囲み、予期しないエラーを適切に処理できるようにすることをお勧めします。
 
 ```csharp
 catch (Exception ex)
 {
-    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://Purchase.aspose.com/temporary-license/).");
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get a 30-day temporary license from [here](https://purchase.aspose.com/temporary-license/).");
 }
 ```
 
@@ -147,7 +149,7 @@ catch (Exception ex)
 
 ## 結論
 
-これで完了です。Aspose.PDF for .NET を使用して PDF ファイル内の文字をハイライト表示できました。この強力なライブラリは、注釈、フォームの入力、ドキュメントの変換など、PDF 操作の無限の可能性への扉を開きます。Aspose を使い続けるときは、練習が鍵であることを忘れないでください。さまざまな機能を試し続ければ、すぐに PDF のプロになれます。
+これで完了です！Aspose.PDF for .NET を使って、PDF ファイル内の文字をハイライト表示できました。この強力なライブラリは、注釈、フォームへの入力、ドキュメントの変換など、PDF 操作の無限の可能性を広げます。Aspose を使い続ける中で、練習が鍵となることを忘れないでください。様々な機能を試し続ければ、すぐに PDF のプロになれるでしょう！
 
 ## よくある質問
 
@@ -164,10 +166,12 @@ Aspose.PDF for .NET は、.NET アプリケーションでプログラムによ�
 はい、商用利用には有効なライセンスが必要ですが、テスト用に 30 日間の一時ライセンスを取得できます。
 
 ### さらに詳しいドキュメントはどこで見つかりますか?
-参照するには[Aspose.PDF ドキュメント](https://reference.aspose.com/pdf/net/)実装と機能の詳細については、こちらをご覧ください。
+参照するには [Aspose.PDF ドキュメント](https://reference.aspose.com/pdf/net/) 実装と機能の詳細については、こちらをご覧ください。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

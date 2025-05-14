@@ -1,21 +1,23 @@
 ---
-title: Definir legenda do botão de opção
-linktitle: Definir legenda do botão de opção
-second_title: Referência da API do Aspose.PDF para .NET
-description: Aprenda como definir legendas de botões de opção em PDFs usando o Aspose.PDF para .NET. Este guia passo a passo orienta você a carregar, modificar e salvar seus formulários PDF.
-weight: 280
-url: /pt/net/programming-with-forms/set-radio-button-caption/
+"description": "Aprenda a definir legendas para botões de opção em PDFs usando o Aspose.PDF para .NET. Este guia passo a passo explica como carregar, modificar e salvar seus formulários PDF."
+"linktitle": "Definir legenda do botão de opção"
+"second_title": "Referência da API Aspose.PDF para .NET"
+"title": "Definir legenda do botão de opção"
+"url": "/pt/net/programming-with-forms/set-radio-button-caption/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Definir legenda do botão de opção
 
 ## Introdução
 
-Se você está mergulhando na manipulação de PDF com o Aspose.PDF para .NET, você está em uma surpresa! Hoje, estamos focando em um recurso prático: definir legendas de botões de opção em seus formulários PDF. Botões de opção são essenciais para formulários de usuário onde você precisa de uma escolha entre um conjunto de opções. Imagine-os como perguntas de múltipla escolha onde apenas uma resposta é permitida. Este tutorial irá guiá-lo pelo processo de atualização de legendas de botões de opção em um formulário PDF, para que seus documentos sejam interativos e fáceis de usar. 
+Se você está se aprofundando na manipulação de PDF com o Aspose.PDF para .NET, vai se surpreender! Hoje, vamos nos concentrar em um recurso prático: definir legendas para botões de opção em seus formulários PDF. Botões de opção são essenciais para formulários de usuário, onde você precisa escolher entre um conjunto de opções. Imagine-os como perguntas de múltipla escolha em que apenas uma resposta é permitida. Este tutorial guiará você pelo processo de atualização de legendas para botões de opção em um formulário PDF, para que seus documentos sejam interativos e fáceis de usar. 
 
 ## Pré-requisitos
 
@@ -23,14 +25,14 @@ Antes de mergulhar no código, há algumas coisas que você precisa garantir que
 
 1. Aspose.PDF para .NET: Certifique-se de ter a biblioteca Aspose.PDF instalada. Esta biblioteca ajudará você a manipular arquivos PDF programaticamente.
 2. Ambiente de desenvolvimento: você deve ter um ambiente de desenvolvimento .NET configurado, como o Visual Studio.
-3. Formulário PDF de amostra: para este tutorial, você precisará de um formulário PDF de amostra com botões de opção. Você pode usar qualquer formulário PDF existente ou criar um novo com botões de opção.
+3. Formulário PDF de exemplo: para este tutorial, você precisará de um formulário PDF de exemplo com botões de opção. Você pode usar qualquer formulário PDF existente ou criar um novo com botões de opção.
 4. Conhecimento básico de C#: Este guia pressupõe que você tenha um conhecimento básico de conceitos de programação em C# e .NET.
 
- Se você ainda não instalou o Aspose.PDF para .NET ou precisa de uma licença temporária, você pode[baixe aqui](https://releases.aspose.com/pdf/net/) ou[obter uma licença temporária](https://purchase.aspose.com/temporary-license/).
+Se você ainda não instalou o Aspose.PDF para .NET ou precisa de uma licença temporária, você pode [baixe aqui](https://releases.aspose.com/pdf/net/) ou [obter uma licença temporária](https://purchase.aspose.com/temporary-license/).
 
 ## Pacotes de importação
 
-Para começar, você precisa importar os pacotes necessários no seu projeto C#. Veja como incluir a biblioteca Aspose.PDF:
+Para começar, você precisa importar os pacotes necessários para o seu projeto C#. Veja como incluir a biblioteca Aspose.PDF:
 
 ```csharp
 using System;
@@ -43,13 +45,13 @@ Certifique-se de ter esses pacotes adicionados ao seu projeto via NuGet ou seu m
 
 ## Etapa 1: Carregue o formulário PDF
 
- Primeiro, você precisa carregar o formulário PDF que contém os botões de opção. O`Aspose.Pdf.Facades.Form`class é usada para esse propósito. Veja como fazer isso:
+Primeiro, você precisa carregar o formulário PDF que contém os botões de opção. `Aspose.Pdf.Facades.Form` A classe é usada para esse propósito. Veja como fazer:
 
 ```csharp
 // Defina o caminho para o diretório do seu documento
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Carregue o formulário PDF de origem
+// Carregar o formulário PDF de origem
 Aspose.Pdf.Facades.Form form1 = new Aspose.Pdf.Facades.Form(dataDir + "RadioButtonField.pdf");
 Document PDF_Template_PDF_HTML = new Document(dataDir + "RadioButtonField.pdf");
 ```
@@ -74,9 +76,9 @@ Neste loop:
 - `FieldNames` fornece uma lista de todos os nomes de campos no PDF.
 - `GetButtonOptionValues(item)` recupera as opções disponíveis para cada botão de opção.
 
-## Etapa 3: Modificar opções de botões de rádio
+## Etapa 3: Modificar opções do botão de opção
 
- Depois de identificar os campos do botão de opção, você pode modificar suas opções. Para isso, você precisa converter o campo para`RadioButtonField` e atualizar suas opções:
+Depois de identificar os campos dos botões de opção, você pode modificar suas opções. Para isso, você precisa converter o campo para `RadioButtonField` e atualizar suas opções:
 
 ```csharp
     if (item.Contains("radio1"))
@@ -89,11 +91,11 @@ Neste loop:
 
 Aqui:
 - Verificamos se o nome do campo contém "radio1" para identificar o campo de botão de opção específico que queremos modificar.
-- `RadioButtonField`é lançado a partir dos campos do formulário para fazer modificações específicas.
+- `RadioButtonField` é lançado a partir dos campos do formulário para fazer modificações específicas.
 
-## Etapa 4: Defina a legenda do botão de opção
+## Etapa 4: defina a legenda do botão de opção
 
- Para definir ou atualizar a legenda do botão de opção, você precisará criar um`TextFragment` e usar`TextBuilder` para colocá-lo no local desejado:
+Para definir ou atualizar a legenda do botão de opção, você precisará criar um `TextFragment` usar `TextBuilder` para colocá-lo no local desejado:
 
 ```csharp
         var updatedFragment = new Aspose.Pdf.Text.TextFragment("test123");
@@ -132,31 +134,33 @@ PDF_Template_PDF_HTML.Save(dataDir + "RadioButtonField_out.pdf");
 
 Isso garantirá que:
 - As alterações são aplicadas ao PDF.
-- A opção de botão de opção original foi removida conforme especificado.
+- A opção do botão de opção original foi removida conforme especificado.
 
 ## Conclusão
 
-Modificar legendas de botões de opção em um formulário PDF usando o Aspose.PDF para .NET pode melhorar muito a interatividade e a usabilidade dos seus documentos. Com as etapas descritas neste tutorial, você pode facilmente carregar um PDF, atualizar opções de botões de opção e salvar suas alterações. Essa abordagem é útil para gerenciamento de formulários e garante que seus PDFs atendam às necessidades exatas dos seus usuários. Mergulhe no Aspose.PDF e explore seus recursos para outras manipulações de PDF!
+Modificar as legendas dos botões de opção em um formulário PDF usando o Aspose.PDF para .NET pode melhorar significativamente a interatividade e a usabilidade dos seus documentos. Com os passos descritos neste tutorial, você pode facilmente carregar um PDF, atualizar as opções dos botões de opção e salvar suas alterações. Essa abordagem é útil para o gerenciamento de formulários e garante que seus PDFs atendam exatamente às necessidades dos seus usuários. Explore o Aspose.PDF e seus recursos para outras manipulações de PDF!
 
 ## Perguntas frequentes
 
 ### Posso atualizar vários campos de botão de opção de uma só vez?
-Sim, você pode iterar por todos os campos de botões de opção e aplicar alterações conforme necessário.
+Sim, você pode iterar por todos os campos de botões de opção e aplicar as alterações conforme necessário.
 
 ### Preciso de uma licença para usar o Aspose.PDF?
- Você pode começar com uma avaliação gratuita, mas é necessária uma licença para uso prolongado.[Obtenha uma licença aqui](https://purchase.aspose.com/buy).
+Você pode começar com um teste gratuito, mas uma licença é necessária para uso prolongado. [Obtenha uma licença aqui](https://purchase.aspose.com/buy).
 
 ### Como posso testar as alterações antes de salvar o PDF?
 Você pode visualizar o PDF no seu ambiente de desenvolvimento ou usar um visualizador de PDF para verificar as modificações.
 
 ### O Aspose.PDF é compatível com todas as versões do .NET?
-Aspose.PDF suporta várias versões do .NET. Certifique-se de verificar a compatibilidade com sua versão específica do .NET.
+Aspose.PDF suporta várias versões do .NET. Certifique-se de verificar a compatibilidade com a sua versão específica do .NET.
 
 ### Posso manipular outros campos de formulário de forma semelhante?
 Sim, técnicas semelhantes podem ser aplicadas a outros tipos de campos de formulário em documentos PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

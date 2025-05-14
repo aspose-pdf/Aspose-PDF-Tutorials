@@ -1,14 +1,16 @@
 ---
-title: XML को PDF दस्तावेज़ों में निर्यात करें
-linktitle: XML को PDF दस्तावेज़ों में निर्यात करें
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Aspose.PDF for Java के साथ आसानी से XML को PDF में बदलें। डेटा प्रस्तुति और साझाकरण को सरल बनाएँ। इस विस्तृत गाइड में जानें कि कैसे।
-weight: 26
-url: /hi/java/pdf-conversion-transformation/export-xml-to-pdf-documents/
+"description": "Aspose.PDF for Java के साथ आसानी से XML को PDF में बदलें। डेटा प्रस्तुति और साझाकरण को सरल बनाएँ। इस विस्तृत गाइड में जानें कि कैसे।"
+"linktitle": "XML को PDF दस्तावेज़ों में निर्यात करें"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "XML को PDF दस्तावेज़ों में निर्यात करें"
+"url": "/hi/java/pdf-conversion-transformation/export-xml-to-pdf-documents/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # XML को PDF दस्तावेज़ों में निर्यात करें
@@ -23,7 +25,7 @@ url: /hi/java/pdf-conversion-transformation/export-xml-to-pdf-documents/
 इससे पहले कि हम कोड में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK स्थापित है।
--  Aspose.PDF for Java: Aspose.PDF for Java को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java: Aspose.PDF for Java को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ## अपना प्रोजेक्ट सेट अप करना
 
@@ -54,11 +56,11 @@ page.getParagraphs().add(textFragment);
 doc.save("output.pdf");
 ```
 
- इस कोड स्निपेट में, हम सबसे पहले एक नया कोड बनाते हैं`Document` ऑब्जेक्ट और उसमें एक पेज जोड़ें। फिर हम एक बनाते हैं`TextFragment` अपने XML डेटा को शामिल करके उसे पेज पर जोड़ें। अंत में, हम दस्तावेज़ को "output.pdf" नामक PDF फ़ाइल के रूप में सहेजते हैं।
+इस कोड स्निपेट में, हम सबसे पहले एक नया कोड बनाते हैं `Document` ऑब्जेक्ट और उसमें एक पेज जोड़ें। फिर हम एक बनाते हैं `TextFragment` अपने XML डेटा को शामिल करके उसे पेज पर जोड़ें। अंत में, हम दस्तावेज़ को "output.pdf" नामक PDF फ़ाइल के रूप में सहेजते हैं।
 
 ## रूपांतरण को अनुकूलित करना
 
- आप अपनी विशिष्ट आवश्यकताओं को पूरा करने के लिए PDF रूपांतरण को अनुकूलित कर सकते हैं। उदाहरण के लिए, आप पृष्ठ का आकार, मार्जिन, फ़ॉन्ट और बहुत कुछ सेट कर सकते हैं। Aspose.PDF for Java आपको अपनी आवश्यकताओं के अनुसार रूपांतरण प्रक्रिया को अनुकूलित करने में मदद करने के लिए व्यापक दस्तावेज़ीकरण प्रदान करता है। आप दस्तावेज़ीकरण पा सकते हैं[यहाँ](https://reference.aspose.com/pdf/java/).
+आप अपनी विशिष्ट आवश्यकताओं को पूरा करने के लिए PDF रूपांतरण को अनुकूलित कर सकते हैं। उदाहरण के लिए, आप पृष्ठ का आकार, मार्जिन, फ़ॉन्ट और बहुत कुछ सेट कर सकते हैं। Aspose.PDF for Java आपको अपनी आवश्यकताओं के अनुसार रूपांतरण प्रक्रिया को अनुकूलित करने में मदद करने के लिए व्यापक दस्तावेज़ीकरण प्रदान करता है। आप दस्तावेज़ीकरण पा सकते हैं [यहाँ](https://reference.aspose.com/pdf/java/).
 
 ## निष्कर्ष
 
@@ -68,7 +70,7 @@ doc.save("output.pdf");
 
 ### मैं Java के लिए Aspose.PDF कैसे स्थापित करूं?
 
- Java के लिए Aspose.PDF स्थापित करने के लिए, वेबसाइट पर जाएँ[यहाँ](https://releases.aspose.com/pdf/java/) और लाइब्रेरी डाउनलोड करें। दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+Java के लिए Aspose.PDF स्थापित करने के लिए, वेबसाइट पर जाएँ [यहाँ](https://releases.aspose.com/pdf/java/) और लाइब्रेरी डाउनलोड करें। दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### क्या मैं पीडीएफ दस्तावेज़ के स्वरूप को अनुकूलित कर सकता हूँ?
 
@@ -85,9 +87,11 @@ doc.save("output.pdf");
 ### क्या मैं जटिल संरचना वाली XML फ़ाइलों को PDF में परिवर्तित कर सकता हूँ?
 
 निश्चित रूप से! Aspose.PDF for Java जटिल संरचनाओं वाली XML फ़ाइलों को संभाल सकता है। आप XML तत्वों को PDF तत्वों में मैप कर सकते हैं और अत्यधिक अनुकूलित PDF लेआउट बना सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

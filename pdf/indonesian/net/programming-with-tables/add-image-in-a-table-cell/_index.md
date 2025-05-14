@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Gambar di Sel Tabel
-linktitle: Tambahkan Gambar di Sel Tabel
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mudah menambahkan gambar di sel tabel menggunakan Aspose.PDF for .NET, untuk meningkatkan daya tarik visual dokumen PDF Anda. Panduan langkah demi langkah disediakan.
-weight: 10
-url: /id/net/programming-with-tables/add-image-in-a-table-cell/
+"description": "Pelajari cara mudah menambahkan gambar di sel tabel menggunakan Aspose.PDF untuk .NET, untuk meningkatkan daya tarik visual dokumen PDF Anda. Panduan langkah demi langkah disediakan."
+"linktitle": "Tambahkan Gambar di Sel Tabel"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Gambar di Sel Tabel"
+"url": "/id/net/programming-with-tables/add-image-in-a-table-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Gambar di Sel Tabel
@@ -27,7 +29,7 @@ Anda harus memiliki pemahaman dasar tentang pemrograman .NET. Pemahaman terhadap
 
 ### Aspose.PDF untuk Pustaka .NET
 
- Pastikan Anda memiliki pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya dan mulai bereksperimen! Ambil dari[Tautan Unduhan](https://releases.aspose.com/pdf/net/).
+Pastikan Anda memiliki pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya dan mulai bereksperimen! Ambil dari [Tautan Unduhan](https://releases.aspose.com/pdf/net/).
 
 ### Pengaturan IDE
 
@@ -45,7 +47,7 @@ Sebelum Anda mulai membuat kode, pastikan Anda telah mengimpor paket prasyarat y
 
 1. Buka Visual Studio (atau IDE pilihan Anda).
 2. Buat proyek C# baru.
-3.  Temukan Pengelola Paket NuGet dan cari`Aspose.PDF`. 
+3. Temukan Pengelola Paket NuGet dan cari `Aspose.PDF`. 
 4. Instal paket tersebut ke dalam proyek Anda. Langkah ini memberi aplikasi Anda kemampuan untuk memanipulasi dokumen PDF dengan mudah.
 
 ### Menggunakan Arahan
@@ -75,7 +77,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document();
 ```
 
- Di sini, kita menentukan di mana dokumen kita akan disimpan dan membuat yang baru`Document` contoh untuk pekerjaan kita. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF Anda. 
+Di sini, kita menentukan di mana dokumen kita akan disimpan dan membuat yang baru `Document` contoh untuk pekerjaan kita. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan PDF Anda. 
 
 ## Langkah 2: Membuat Halaman
 
@@ -86,7 +88,7 @@ Selanjutnya, kita tambahkan halaman ke dokumen yang baru kita buat. Halaman ini 
 Page sec1 = pdfDocument.Pages.Add();
 ```
 
- Setiap`Document` dapat memuat beberapa halaman. Dalam kasus ini, kami hanya menambahkan satu halaman.
+Setiap `Document` dapat memuat beberapa halaman. Dalam kasus ini, kami hanya menambahkan satu halaman.
 
 ## Langkah 3: Membuat Instansiasi Tabel
 
@@ -97,7 +99,7 @@ Sekarang, mari kita buat tabel kita:
 Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 ```
 
- Ini`Table` Objek tersebut akan menampung konten kita, termasuk gambar yang ingin kita tambahkan.
+Ini `Table` Objek tersebut akan menampung konten kita, termasuk gambar yang ingin kita tambahkan.
 
 ## Langkah 4: Menambahkan Tabel ke Halaman
 
@@ -137,7 +139,7 @@ Di sini, kami mendefinisikan tiga kolom dengan lebar piksel yang ditentukan. And
 Berikutnya, kita membuat baris dan mulai mengisinya dengan sel:
 
 ```csharp
-//Buat baris dalam tabel dan kemudian sel dalam baris
+// Buat baris dalam tabel dan kemudian sel dalam baris
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("Sample text in cell");
 ```
@@ -146,14 +148,14 @@ Baris ini menambahkan satu baris ke tabel kita dan mengisi sel pertama dengan be
 
 ## Langkah 8: Menambahkan Gambar ke Sel
 
- Sekarang untuk bagian yang menarik—menambahkan gambar! Pertama, kita perlu menginisialisasi`Image` obyek:
+Sekarang untuk bagian yang menarik—menambahkan gambar! Pertama, kita perlu menginisialisasi `Image` obyek:
 
 ```csharp
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 img.File = dataDir + "aspose.jpg"; // Pastikan Anda memberikan jalur yang benar
 ```
 
- Pastikan untuk mengganti`"aspose.jpg"` dengan nama berkas gambar Anda sebenarnya. 
+Pastikan untuk mengganti `"aspose.jpg"` dengan nama berkas gambar Anda sebenarnya. 
 
 ## Langkah 9: Menambahkan Gambar ke Sel Tabel
 
@@ -162,7 +164,7 @@ Sekarang mari tambahkan gambar kita ke sel kedua dalam baris:
 ```csharp
 // Tambahkan sel yang berisi gambar
 Aspose.Pdf.Cell cell2 = row1.Cells.Add();
-//Tambahkan gambar ke sel tabel
+// Tambahkan gambar ke sel tabel
 cell2.Paragraphs.Add(img);
 ```
 
@@ -206,13 +208,15 @@ Ya, Anda dapat menambahkan beberapa gambar ke sel tabel dengan menambahkan objek
 Aspose.PDF mendukung berbagai format gambar termasuk JPEG, PNG, BMP, dan GIF. Pastikan saja format tersebut valid.
 
 ### Apakah saya perlu membeli lisensi untuk menggunakan Aspose.PDF?  
- Aspose.PDF menawarkan uji coba gratis yang memungkinkan Anda menjelajahi fitur-fiturnya. Jika Anda berencana menggunakannya untuk tujuan komersial, diperlukan lisensi. Anda bisa mendapatkannya dari[Di Sini](https://purchase.aspose.com/buy).
+Aspose.PDF menawarkan uji coba gratis yang memungkinkan Anda menjelajahi fitur-fiturnya. Jika Anda berencana menggunakannya untuk tujuan komersial, diperlukan lisensi. Anda bisa mendapatkannya dari [Di Sini](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan dukungan mengenai Aspose.PDF?  
- Anda dapat mengunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk bantuan dan pemecahan masalah komunitas.
+Anda dapat mengunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk bantuan dan pemecahan masalah komunitas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tạo PDF với văn bản được gắn thẻ trong Java
-linktitle: Tạo PDF với văn bản được gắn thẻ trong Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách tạo PDF được gắn thẻ trong Java với Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi đảm bảo khả năng truy cập và tuân thủ.
-weight: 14
-url: /vi/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/
+"description": "Tìm hiểu cách tạo PDF được gắn thẻ trong Java với Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi đảm bảo khả năng truy cập và tuân thủ."
+"linktitle": "Tạo PDF với văn bản được gắn thẻ trong Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Tạo PDF với văn bản được gắn thẻ trong Java"
+"url": "/vi/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo PDF với văn bản được gắn thẻ trong Java
@@ -22,8 +24,8 @@ Trong thế giới quản lý tài liệu, PDF nổi bật như một định d�
 
 Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/java/).
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập dự án Java của bạn
 
@@ -76,7 +78,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách tạo PDF được 
 
 ### Làm thế nào để đảm bảo tệp PDF của tôi được gắn thẻ hỗ trợ khả năng truy cập?
 
- Để đảm bảo PDF của bạn được gắn thẻ để truy cập, bạn cần thiết lập`tagged` tài sản để`true` cho văn bản hoặc nội dung bạn muốn gắn thẻ. Điều này thường được thực hiện bằng cách sử dụng thư viện Aspose.PDF trong Java, như được trình bày trong hướng dẫn này.
+Để đảm bảo PDF của bạn được gắn thẻ để truy cập, bạn cần thiết lập `tagged` tài sản để `true` cho văn bản hoặc nội dung bạn muốn gắn thẻ. Điều này thường được thực hiện bằng cách sử dụng thư viện Aspose.PDF trong Java, như được trình bày trong hướng dẫn này.
 
 ### Tầm quan trọng của việc gắn thẻ PDF là gì?
 
@@ -92,10 +94,12 @@ Aspose.PDF for Java là một thư viện thương mại, nhưng nó cung cấp 
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu và tham khảo toàn diện về Aspose.PDF cho Java trên trang web của Aspose[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu và tham khảo toàn diện về Aspose.PDF cho Java trên trang web Aspose [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

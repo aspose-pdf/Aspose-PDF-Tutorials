@@ -1,14 +1,16 @@
 ---
-title: Lấy Số Trang Trong Tệp PDF
-linktitle: Lấy Số Trang Trong Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Hướng dẫn từng bước để lấy số trang trong tệp PDF bằng Aspose.PDF cho .NET. Dễ triển khai, lý tưởng cho các dự án của bạn.
-weight: 70
-url: /vi/net/programming-with-pdf-pages/get-number-of-pages/
+"description": "Hướng dẫn từng bước để lấy số trang trong tệp PDF bằng Aspose.PDF cho .NET. Dễ triển khai, lý tưởng cho các dự án của bạn."
+"linktitle": "Lấy Số Trang Trong Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Lấy Số Trang Trong Tệp PDF"
+"url": "/vi/net/programming-with-pdf-pages/get-number-of-pages/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy Số Trang Trong Tệp PDF
@@ -22,7 +24,7 @@ Khi làm việc với các tệp PDF, việc biết cách truy cập và thao t�
 Trước khi đi sâu vào các phần hấp dẫn của hướng dẫn, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu suôn sẻ. Sau đây là danh sách kiểm tra nhanh:
 
 1. Môi trường .NET: Đảm bảo bạn đã thiết lập môi trường phát triển, có thể là Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
-2.  Thư viện Aspose.PDF: Bạn sẽ cần thư viện Aspose.PDF được cài đặt trong dự án của mình. Bạn có thể tải xuống qua NuGet,[tải xuống ở đây](https://releases.aspose.com/pdf/net/) hoặc mua từ[đây](https://purchase.aspose.com/buy).
+2. Thư viện Aspose.PDF: Bạn sẽ cần thư viện Aspose.PDF được cài đặt trong dự án của mình. Bạn có thể tải xuống qua NuGet, [tải xuống ở đây](https://releases.aspose.com/pdf/net/), hoặc mua từ [đây](https://purchase.aspose.com/buy).
 3. Kiến thức cơ bản về C#: Đây là hướng dẫn về C#, vì vậy hiểu biết sâu sắc về ngôn ngữ này sẽ giúp bạn có lợi thế.
 
 ## Nhập gói
@@ -43,7 +45,7 @@ Nếu bạn chưa cài đặt thư viện Aspose.PDF, bạn có thể thực hi�
 
 ### Viết tờ khai nhập khẩu
 
- Ở đầu tệp chính của bạn (ví dụ:`Program.cs`), thêm lệnh using sau:
+Ở đầu tệp chính của bạn (ví dụ: `Program.cs`), thêm lệnh using sau:
 
 ```csharp
 using System.IO;
@@ -56,21 +58,21 @@ Bây giờ chúng ta đã thiết lập môi trường và nhập thư viện As
 
 ## Bước 1: Thiết lập thư mục tài liệu
 
-Bạn sẽ cần chỉ định vị trí tệp PDF của mình. Trong bước này, bạn có thể xác định đường dẫn đến thư mục lưu trữ tệp PDF của mình.
+Bạn sẽ cần chỉ định vị trí tệp PDF của mình. Ở bước này, bạn có thể xác định đường dẫn đến thư mục lưu trữ tệp PDF của mình.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục chứa tệp PDF của bạn. Đây là nơi thư viện Aspose sẽ tìm kiếm tệp bạn muốn phân tích. Giống như cung cấp cho thư viện của bạn một bản đồ đến kho báu!
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục chứa tệp PDF của bạn. Đây là nơi thư viện Aspose sẽ tìm kiếm tệp bạn muốn phân tích. Giống như cung cấp cho thư viện của bạn một bản đồ đến kho báu!
 
 ## Bước 2: Tạo một phiên bản của tài liệu PDF
 
- Bây giờ chúng ta đã thiết lập xong thư mục, chúng ta cần tạo một phiên bản của`Document` lớp sẽ lưu trữ dữ liệu PDF của chúng ta.
+Bây giờ chúng ta đã thiết lập xong thư mục, chúng ta cần tạo một phiên bản của `Document` lớp sẽ lưu trữ dữ liệu PDF của chúng ta.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetNumberOfPages.pdf");
 ```
- Dòng này tạo ra một cái mới`Document` đối tượng dựa trên tệp PDF bạn chỉ định. Hãy nhớ rằng tệp PDF của bạn phải khớp với tên bạn xác định ở đây.
+Dòng này tạo ra một cái mới `Document` đối tượng dựa trên tệp PDF bạn chỉ định. Hãy nhớ rằng tệp PDF của bạn phải khớp với tên bạn xác định ở đây.
 
 ## Bước 3: Lấy số trang
 
@@ -79,7 +81,7 @@ Khoảnh khắc kỳ diệu đã đến! Chúng ta hãy thực sự lấy số t
 ```csharp
 int pageCount = pdfDocument.Pages.Count;
 ```
- Sử dụng`Pages` tài sản của`Document`Ví dụ, chúng ta có thể truy cập số trang mà nó chứa. Đơn giản như việc mở một lon soda—không tốn sức!
+Sử dụng `Pages` tài sản của `Document` Ví dụ, chúng ta có thể truy cập số trang mà nó chứa. Đơn giản như việc mở một lon soda—không tốn sức!
 
 ## Bước 4: Hiển thị số trang
 
@@ -102,19 +104,21 @@ Hãy nhớ rằng, làm việc với PDF không nhất thiết phải khó khăn
 Aspose.PDF là thư viện .NET cung cấp các tính năng mạnh mẽ để tạo, đọc và xử lý tài liệu PDF.
 
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể dùng thử Aspose.PDF miễn phí trong thời gian dùng thử. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử Aspose.PDF miễn phí trong thời gian dùng thử. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi mua Aspose.PDF?
- Bạn có thể mua Aspose.PDF bằng cách truy cập[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.PDF bằng cách truy cập [trang mua hàng](https://purchase.aspose.com/buy).
 
 ### Tôi phải làm sao nếu cần hỗ trợ?
- Aspose cung cấp một diễn đàn hỗ trợ toàn diện, nơi bạn có thể đặt câu hỏi và nhận trợ giúp. Hãy xem thử[đây](https://forum.aspose.com/c/pdf/10).
+Aspose cung cấp một diễn đàn hỗ trợ toàn diện, nơi bạn có thể đặt câu hỏi và nhận trợ giúp. Hãy xem thử [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể xin cấp giấy phép tạm thời không?
- Chắc chắn rồi! Bạn có thể yêu cầu giấy phép tạm thời để dùng thử toàn bộ tính năng của Aspose.PDF bằng cách truy cập[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Chắc chắn rồi! Bạn có thể yêu cầu giấy phép tạm thời để dùng thử toàn bộ tính năng của Aspose.PDF bằng cách truy cập [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

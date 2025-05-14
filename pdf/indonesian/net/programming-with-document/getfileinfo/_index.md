@@ -1,28 +1,30 @@
 ---
-title: Dapatkan Info File dalam File PDF
-linktitle: Dapatkan Info File dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menggunakan fitur GetFileInfo dalam file PDF dari Aspose.PDF untuk .NET untuk mengambil informasi metadata tentang dokumen PDF.
-weight: 180
-url: /id/net/programming-with-document/getfileinfo/
+"description": "Pelajari cara menggunakan fitur GetFileInfo dalam file PDF dari Aspose.PDF untuk .NET untuk mengambil informasi metadata tentang dokumen PDF."
+"linktitle": "Dapatkan Info File Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Info File Dalam File PDF"
+"url": "/id/net/programming-with-document/getfileinfo/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dapatkan Info File dalam File PDF
+# Dapatkan Info File Dalam File PDF
 
 ## Perkenalan
 
-Pernahkah Anda bertanya-tanya rahasia apa yang tersimpan dalam berkas PDF? Baik itu penulis, tanggal pembuatan, atau bahkan kata kunci, dokumen PDF sering kali menyimpan metadata berharga yang dapat menjadi krusial untuk berbagai aplikasi. Dalam tutorial ini, kita akan membahas cara mengekstrak informasi berkas dari PDF menggunakan Aspose.PDF for .NET. Pustaka canggih ini memungkinkan pengembang untuk memanipulasi berkas PDF dengan mudah, menjadikannya pilihan utama bagi banyak orang. Jadi, ambil topi koding Anda, dan mari selami dunia ekstraksi metadata PDF!
+Pernahkah Anda bertanya-tanya rahasia apa yang tersimpan dalam berkas PDF? Baik itu penulis, tanggal pembuatan, atau bahkan kata kunci, dokumen PDF sering kali menyimpan metadata berharga yang dapat menjadi krusial untuk berbagai aplikasi. Dalam tutorial ini, kita akan membahas cara mengekstrak informasi berkas dari PDF menggunakan Aspose.PDF untuk .NET. Pustaka canggih ini memungkinkan pengembang untuk memanipulasi berkas PDF dengan mudah, menjadikannya pilihan utama bagi banyak orang. Jadi, ambil topi koding Anda, dan mari selami dunia ekstraksi metadata PDF!
 
 ## Prasyarat
 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan kita.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda bisa mendapatkannya dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda bisa mendapatkannya dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -43,7 +45,7 @@ Hal pertama yang pertama, mari buat proyek C# baru di Visual Studio:
 
 1. Buka Visual Studio dan pilih "Buat proyek baru."
 2. Pilih "Aplikasi Konsol (.NET Framework)" dan klik "Berikutnya."
-3.  Beri nama proyek Anda (misalnya,`PDFFileInfoExtractor`) dan klik "Buat."
+3. Beri nama proyek Anda (misalnya, `PDFFileInfoExtractor`) dan klik "Buat."
 
 ### Tambahkan Referensi Aspose.PDF
 
@@ -57,7 +59,7 @@ Sekarang proyek Anda sudah disiapkan, Anda perlu menambahkan referensi Aspose.PD
 
 ### Inisialisasi Dokumen
 
- Sekarang, mari kita tulis kode untuk membuka dokumen PDF dan mengekstrak informasinya. Mulailah dengan menambahkan perintah berikut di bagian atas dokumen PDF Anda.`Program.cs` mengajukan:
+Sekarang, mari kita tulis kode untuk membuka dokumen PDF dan mengekstrak informasinya. Mulailah dengan menambahkan perintah berikut di bagian atas dokumen PDF Anda. `Program.cs` mengajukan:
 
 ```csharp
 using System.IO;
@@ -108,19 +110,21 @@ Selamat! Anda telah berhasil mengekstrak informasi file dari PDF menggunakan Asp
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF dalam aplikasi .NET.
 
 ### Bagaimana cara menginstal Aspose.PDF?
- Anda dapat menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
+Anda dapat menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
 
 ### Bisakah saya mengekstrak gambar dari PDF menggunakan Aspose.PDF?
 Ya, Aspose.PDF menyediakan metode untuk mengekstrak gambar dari dokumen PDF.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF?
- Ya, Anda bisa mendapatkan uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dukungan dan mengajukan pertanyaan di [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

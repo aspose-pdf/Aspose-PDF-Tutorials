@@ -1,14 +1,16 @@
 ---
-title: เพิ่มรายการเรียงลำดับ HTML ลงในเอกสารใน Java
-linktitle: เพิ่มรายการเรียงลำดับ HTML ลงในเอกสารใน Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการเพิ่มรายการเรียงลำดับ HTML ลงในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
-weight: 11
-url: /th/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/
+"description": "เรียนรู้วิธีการเพิ่มรายการเรียงลำดับ HTML ลงในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ"
+"linktitle": "เพิ่มรายการเรียงลำดับ HTML ลงในเอกสารใน Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มรายการเรียงลำดับ HTML ลงในเอกสารใน Java"
+"url": "/th/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มรายการเรียงลำดับ HTML ลงในเอกสารใน Java
@@ -22,11 +24,11 @@ Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที
 
 ## ทำความเข้าใจรายการเรียงลำดับ HTML
 
-รายการเรียงลำดับ HTML ใช้เพื่อแสดงรายการของรายการตามลำดับ โดยปกติแล้วจะใช้ตัวเลขหรือตัวอักษร ในบทช่วยสอนนี้ เราจะเรียนรู้วิธีแปลงรายการเรียงลำดับ HTML เป็นเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java
+รายการเรียงลำดับ HTML ใช้เพื่อแสดงรายการของรายการตามลำดับ โดยปกติจะใช้ตัวเลขหรือตัวอักษร ในบทช่วยสอนนี้ เราจะเรียนรู้วิธีแปลงรายการเรียงลำดับ HTML เป็นเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java
 
 ## การเพิ่ม Aspose.PDF สำหรับ Java ลงในโปรเจ็กต์ของคุณ
 
- ก่อนที่เราจะเริ่มต้น คุณต้องเพิ่ม Aspose.PDF สำหรับ Java ลงในโปรเจ็กต์ Java ของคุณ คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์ที่[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
+ก่อนที่เราจะเริ่มต้น คุณต้องเพิ่ม Aspose.PDF สำหรับ Java ลงในโปรเจ็กต์ Java ของคุณ คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์ที่ [https://releases.aspose.com/pdf/จาวา/](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
 
 ## การสร้างเอกสาร PDF ใหม่
 
@@ -39,7 +41,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
 ## การเพิ่มรายการเรียงลำดับ HTML ลงใน PDF
 
- ขั้นต่อไป คุณจะต้องวิเคราะห์รายการเรียงลำดับ HTML และเพิ่มลงในเอกสาร PDF Aspose.PDF สำหรับ Java มอบวิธีที่สะดวกในการทำสิ่งนี้โดยใช้`HtmlFragment` ระดับ.
+ขั้นต่อไป คุณจะต้องวิเคราะห์รายการเรียงลำดับ HTML และเพิ่มลงในเอกสาร PDF Aspose.PDF สำหรับ Java มอบวิธีที่สะดวกในการทำสิ่งนี้โดยใช้ `HtmlFragment` ระดับ.
 
 ```java
 // สร้างส่วน HTML
@@ -51,7 +53,7 @@ pdfDocument.getPages().get_Item(1).getParagraphs().add(htmlFragment);
 
 ## การจัดรูปแบบรายการแบบเรียงลำดับ
 
-คุณยังสามารถใช้รูปแบบกับรายการเรียงลำดับ HTML เพื่อปรับแต่งลักษณะที่ปรากฏในเอกสาร PDF ได้ ตัวอย่างเช่น คุณสามารถเปลี่ยนขนาดแบบอักษร สี และการจัดตำแหน่ง
+คุณยังสามารถใช้รูปแบบกับรายการเรียงลำดับ HTML เพื่อปรับแต่งลักษณะที่ปรากฏของรายการในเอกสาร PDF ได้ ตัวอย่างเช่น คุณสามารถเปลี่ยนขนาดแบบอักษร สี และการจัดตำแหน่ง
 
 ```java
 // ปรับแต่งรูปแบบของส่วน HTML
@@ -77,7 +79,7 @@ pdfDocument.save("output.pdf");
 
 ### ฉันจะดาวน์โหลด Aspose.PDF สำหรับ Java ได้อย่างไร?
 
-คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ที่[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จากเว็บไซต์ที่ [https://releases.aspose.com/pdf/จาวา/](https://releases-aspose.com/pdf/java/).
 
 ### ฉันสามารถปรับแต่งรูปแบบของรายการเรียงลำดับ HTML ได้หรือไม่
 
@@ -89,10 +91,12 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### Aspose.PDF สำหรับ Java มีฟีเจอร์อื่น ๆ อีกหรือไม่
 
- ใช่ Aspose.PDF สำหรับ Java นำเสนอฟีเจอร์มากมายสำหรับการทำงานกับเอกสาร PDF รวมถึงการแยกข้อความ การแปลง PDF และอื่นๆ คุณสามารถสำรวจเอกสารได้ที่[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) เพื่อดูข้อมูลโดยละเอียด
+ใช่ Aspose.PDF สำหรับ Java นำเสนอฟีเจอร์มากมายสำหรับการทำงานกับเอกสาร PDF รวมถึงการแยกข้อความ การแปลง PDF และอื่นๆ คุณสามารถสำรวจเอกสารได้ที่ [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) เพื่อดูข้อมูลโดยละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

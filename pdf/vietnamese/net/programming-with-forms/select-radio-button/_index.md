@@ -1,14 +1,16 @@
 ---
-title: Chọn nút radio trong tài liệu PDF
-linktitle: Chọn nút radio trong tài liệu PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chọn nút radio trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tự động hóa tương tác biểu mẫu dễ dàng.
-weight: 250
-url: /vi/net/programming-with-forms/select-radio-button/
+"description": "Tìm hiểu cách chọn nút radio trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tự động hóa tương tác biểu mẫu dễ dàng."
+"linktitle": "Chọn nút radio trong tài liệu PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Chọn nút radio trong tài liệu PDF"
+"url": "/vi/net/programming-with-forms/select-radio-button/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chọn nút radio trong tài liệu PDF
@@ -21,11 +23,11 @@ Việc chọn nút radio trong tài liệu PDF theo chương trình có thể gi
 
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã thiết lập những thông tin sau:
 
-1.  Aspose.PDF cho .NET: Tải xuống và cài đặt phiên bản mới nhất của[Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Tải xuống và cài đặt phiên bản mới nhất của [Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 2. IDE: Môi trường phát triển tích hợp (IDE) như Visual Studio để viết và chạy mã C# của bạn.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên hệ thống của mình.
-4.  Tài liệu PDF có nút radio: Bạn sẽ cần một tệp PDF có chứa các nút radio (ví dụ:`RadioButton.pdf`).
-5.  Giấy phép Aspose.PDF: Bạn có thể có được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc sử dụng bản dùng thử miễn phí từ Aspose.
+4. Tài liệu PDF có nút radio: Bạn sẽ cần một tệp PDF có chứa các nút radio (ví dụ: `RadioButton.pdf`).
+5. Giấy phép Aspose.PDF: Bạn có thể có được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc sử dụng bản dùng thử miễn phí từ Aspose.
 
 ## Nhập không gian tên
 
@@ -42,7 +44,7 @@ Bây giờ, chúng ta hãy cùng tìm hiểu từng bước hướng dẫn cách
 
 ## Bước 1: Mở Tài liệu PDF
 
- Bước đầu tiên là tải tài liệu PDF có chứa các nút radio. Bạn có thể thực hiện việc này bằng cách sử dụng`Document` lớp từ thư viện Aspose.PDF. Đây là cách thực hiện:
+Bước đầu tiên là tải tài liệu PDF có chứa các nút radio. Bạn có thể thực hiện việc này bằng cách sử dụng `Document` lớp từ thư viện Aspose.PDF. Đây là cách thực hiện:
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -52,20 +54,20 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "RadioButton.pdf");
 ```
 
- Trong ví dụ này, chúng tôi đang tải một tệp PDF có tên`RadioButton.pdf` . Thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế đến tập tin.
+Trong ví dụ này, chúng tôi đang tải một tệp PDF có tên `RadioButton.pdf`. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tập tin.
 
 ## Bước 2: Truy cập vào trường Nút Radio
 
- Bây giờ tài liệu đã được tải, bước tiếp theo là truy cập vào các trường biểu mẫu. Cụ thể, chúng ta muốn tương tác với một nhóm nút radio. Trường nút radio có thể được truy cập bằng cách sử dụng`Form` tài sản của`pdfDocument` sự vật.
+Bây giờ tài liệu đã được tải, bước tiếp theo là truy cập vào các trường biểu mẫu. Cụ thể, chúng ta muốn tương tác với một nhóm nút radio. Trường nút radio có thể được truy cập bằng cách sử dụng `Form` tài sản của `pdfDocument` sự vật.
 
- Đây là mã để truy cập vào trường nút radio có tên`radio`:
+Đây là mã để truy cập vào trường nút radio có tên `radio`:
 
 ```csharp
 // Nhận một cánh đồng
 RadioButtonField radioField = pdfDocument.Form["radio"] as RadioButtonField;
 ```
 
- Trong ví dụ này, chúng tôi giả sử trường nút radio trong biểu mẫu PDF được đặt tên`radio`. Nếu trường có tên khác trong tài liệu của bạn, bạn sẽ cần phải điều chỉnh cho phù hợp.
+Trong ví dụ này, chúng tôi giả sử trường nút radio trong biểu mẫu PDF được đặt tên là `radio`. Nếu trường có tên khác trong tài liệu của bạn, bạn sẽ cần phải điều chỉnh tên này cho phù hợp.
 
 ## Bước 3: Chọn một nút radio từ nhóm
 
@@ -78,7 +80,7 @@ Sau đây là cách thiết lập lựa chọn cho tùy chọn thứ hai trong n
 radioField.Selected = 2;
 ```
 
- Chỉ số bắt đầu từ`0`, vì vậy trong trường hợp này, nút thứ hai trong nhóm được chọn.
+Chỉ số bắt đầu từ `0`, vì vậy trong trường hợp này, nút thứ hai trong nhóm được chọn.
 
 ## Bước 4: Lưu PDF đã cập nhật
 
@@ -93,7 +95,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nRadioButton from group selected successfully.\nFile saved at " + dataDir);
 ```
 
- Mã này lưu tệp PDF đã sửa đổi dưới dạng`SelectRadioButton_out.pdf` trong cùng thư mục chứa tài liệu gốc.
+Mã này lưu tệp PDF đã sửa đổi dưới dạng `SelectRadioButton_out.pdf` trong cùng thư mục chứa tài liệu gốc.
 
 ## Phần kết luận
 
@@ -111,13 +113,15 @@ Nếu trường nút radio được chỉ định không tồn tại, bạn sẽ
 Không, các nút radio được thiết kế để chỉ cho phép một lựa chọn cho mỗi nhóm. Nếu bạn cần nhiều lựa chọn, hãy cân nhắc sử dụng hộp kiểm thay thế.
 
 ### Có thể đọc nút radio đang được chọn không?  
- Có, bạn có thể kiểm tra nút radio nào hiện đang được chọn bằng cách đọc`Selected` tài sản của`RadioButtonField` sự vật.
+Có, bạn có thể kiểm tra nút radio nào hiện đang được chọn bằng cách đọc `Selected` tài sản của `RadioButtonField` sự vật.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF cho .NET không?  
- Có, Aspose.PDF yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc sử dụng một[dùng thử miễn phí](https://releases.aspose.com/) để bắt đầu.
+Có, Aspose.PDF yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể có được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc sử dụng một [dùng thử miễn phí](https://releases.aspose.com/) để bắt đầu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

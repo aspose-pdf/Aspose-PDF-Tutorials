@@ -1,14 +1,16 @@
 ---
-title: MHT sang PDF
-linktitle: MHT sang PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi tệp MHT sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Chuyển đổi tài liệu dễ dàng và hiệu quả.
-weight: 70
-url: /vi/net/document-conversion/mht-to-pdf/
+"description": "Tìm hiểu cách chuyển đổi tệp MHT sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Chuyển đổi tài liệu dễ dàng và hiệu quả."
+"linktitle": "MHT sang PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "MHT sang PDF"
+"url": "/vi/net/document-conversion/mht-to-pdf/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # MHT sang PDF
@@ -22,7 +24,7 @@ Trong thế giới kỹ thuật số ngày nay, nhu cầu chuyển đổi tệp 
 Trước khi đi sâu vào quá trình chuyển đổi, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết và chạy mã .NET của mình.
-2. Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã chúng ta sẽ sử dụng.
 4. Tệp MHT: Chuẩn bị tệp MHT để chuyển đổi. Bạn có thể tạo tệp bằng cách lưu trang web dưới dạng MHT trong trình duyệt của mình.
 
@@ -58,11 +60,11 @@ Trước tiên, bạn cần chỉ định đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn. Điều này có thể giống như`@"C:\Documents\"`.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn. Điều này có thể giống như `@"C:\Documents\"`.
 
 ## Bước 2: Tải tùy chọn MHT
 
- Tiếp theo, bạn sẽ cần tạo một phiên bản của`MhtLoadOptions`. Lớp này cho phép bạn chỉ định các tùy chọn để tải tệp MHT.
+Tiếp theo, bạn sẽ cần tạo một phiên bản của `MhtLoadOptions`. Lớp này cho phép bạn chỉ định các tùy chọn để tải tệp MHT.
 
 ```csharp
 MhtLoadOptions options = new MhtLoadOptions();
@@ -72,14 +74,14 @@ Bước này rất quan trọng vì nó chuẩn bị cho thư viện xử lý t�
 
 ## Bước 3: Tải Tài liệu MHT
 
- Bây giờ là lúc tải tài liệu MHT của bạn vào thư viện Aspose.PDF. Điều này được thực hiện bằng cách sử dụng`Document` lớp học.
+Bây giờ là lúc tải tài liệu MHT của bạn vào thư viện Aspose.PDF. Điều này được thực hiện bằng cách sử dụng `Document` lớp học.
 
 ```csharp
 // Tải tài liệu
 Document document = new Document(dataDir + "test.mht", options);
 ```
 
- Hãy chắc chắn thay thế`"test.mht"` với tên tệp MHT của bạn. Dòng mã này đọc tệp MHT và chuẩn bị cho việc chuyển đổi.
+Hãy chắc chắn thay thế `"test.mht"` với tên tệp MHT của bạn. Dòng mã này đọc tệp MHT và chuẩn bị cho việc chuyển đổi.
 
 ## Bước 4: Lưu tài liệu dưới dạng PDF
 
@@ -105,16 +107,18 @@ Tệp MHT là định dạng lưu trữ trang web cho phép lưu toàn bộ tran
 Có, bạn có thể lặp qua nhiều tệp MHT trong thư mục của mình và chuyển đổi từng tệp một bằng cùng một phương pháp.
 
 ### Aspose.PDF cho .NET có miễn phí không?
- Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Bạn có thể tìm thêm thông tin[đây](https://purchase.aspose.com/buy).
+Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Bạn có thể tìm thêm thông tin [đây](https://purchase.aspose.com/buy).
 
 ### Tôi phải làm sao nếu gặp lỗi trong quá trình chuyển đổi?
- Kiểm tra diễn đàn hỗ trợ Aspose để được trợ giúp. Bạn có thể tìm thấy nó[đây](https://forum.aspose.com/c/pdf/10).
+Kiểm tra diễn đàn hỗ trợ Aspose để được trợ giúp. Bạn có thể tìm thấy nó [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể sử dụng Aspose.PDF cho các định dạng tệp khác không?
 Chắc chắn rồi! Aspose.PDF hỗ trợ nhiều định dạng khác nhau, bao gồm HTML, DOCX, v.v.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

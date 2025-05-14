@@ -1,14 +1,16 @@
 ---
-title: รับปลายทางไฮเปอร์ลิงก์ PDF โดยใช้ Java
-linktitle: รับปลายทางไฮเปอร์ลิงก์ PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: ค้นพบวิธีเรียกค้นปลายทางไฮเปอร์ลิงก์ PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java เรียนรู้ทีละขั้นตอนด้วยตัวอย่างโค้ดในบทช่วยสอนที่ครอบคลุมนี้
-weight: 10
-url: /th/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
+"description": "ค้นพบวิธีเรียกค้นปลายทางไฮเปอร์ลิงก์ PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java เรียนรู้ทีละขั้นตอนด้วยตัวอย่างโค้ดในบทช่วยสอนที่ครอบคลุมนี้"
+"linktitle": "รับปลายทางไฮเปอร์ลิงก์ PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "รับปลายทางไฮเปอร์ลิงก์ PDF โดยใช้ Java"
+"url": "/th/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับปลายทางไฮเปอร์ลิงก์ PDF โดยใช้ Java
@@ -32,7 +34,7 @@ url: /th/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
 ## การตั้งค่า Aspose.PDF สำหรับ Java
 
 ในการเริ่มต้น คุณต้องตั้งค่า Aspose.PDF สำหรับ Java ในโปรเจ็กต์ของคุณ ทำตามขั้นตอนเหล่านี้:
-1.  ดาวน์โหลด Aspose.PDF สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+1. ดาวน์โหลด Aspose.PDF สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 2. เพิ่มไลบรารี Aspose.PDF ลงในโปรเจ็กต์ Java ของคุณ
 
 ## การโหลดเอกสาร PDF
@@ -74,7 +76,7 @@ for (LinkAnnotation link : linkAnnotations) {
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- หากต้องการติดตั้ง Aspose.PDF สำหรับ Java ให้ดาวน์โหลดไลบรารีจาก[ที่นี่](https://releases.aspose.com/pdf/java/) และเพิ่มลงในส่วนที่ต้องมีของโครงการ Java ของคุณ
+หากต้องการติดตั้ง Aspose.PDF สำหรับ Java ให้ดาวน์โหลดไลบรารีจาก [ที่นี่](https://releases.aspose.com/pdf/java/) และเพิ่มลงในส่วนที่ต้องมีของโครงการ Java ของคุณ
 
 ### ฉันสามารถใช้ Aspose.PDF สำหรับ Java ได้ฟรีหรือไม่?
 
@@ -82,7 +84,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### ฉันสามารถดึงไฮเปอร์ลิงก์ประเภทใดได้บ้างโดยใช้ Aspose.PDF สำหรับ Java
 
-Aspose.PDF สำหรับ Java ช่วยให้คุณดึงไฮเปอร์ลิงก์ทั้งภายในและภายนอกที่มีอยู่ในเอกสาร PDF
+Aspose.PDF สำหรับ Java ช่วยให้คุณดึงข้อมูลไฮเปอร์ลิงก์ทั้งภายในและภายนอกที่มีอยู่ในเอกสาร PDF
 
 ### ฉันจะแก้ไขหรือลบไฮเปอร์ลิงก์ใน PDF โดยใช้ Aspose.PDF สำหรับ Java ได้อย่างไร
 
@@ -90,10 +92,12 @@ Aspose.PDF สำหรับ Java ช่วยให้คุณดึงไฮ
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารรายละเอียดสำหรับ Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารรายละเอียดสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

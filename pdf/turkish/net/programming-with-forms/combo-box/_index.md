@@ -1,14 +1,16 @@
 ---
-title: Kombo Kutusu
-linktitle: Kombo Kutusu
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak bir PDF'ye Combo Box eklemeyi öğrenin. Etkileşimli PDF formlarını kolayca oluşturmak için adım adım kılavuzumuzu izleyin.
-weight: 30
-url: /tr/net/programming-with-forms/combo-box/
+"description": "Aspose.PDF for .NET kullanarak bir PDF'ye Combo Box eklemeyi öğrenin. Etkileşimli PDF formlarını kolayca oluşturmak için adım adım kılavuzumuzu izleyin."
+"linktitle": "Kombo Kutusu"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Kombo Kutusu"
+"url": "/tr/net/programming-with-forms/combo-box/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kombo Kutusu
@@ -21,10 +23,10 @@ url: /tr/net/programming-with-forms/combo-box/
 
 Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-- Aspose.PDF for .NET kütüphanesi: Buradan indirin ve kurun[Aspose.PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF for .NET kütüphanesi: Buradan indirin ve kurun [Aspose.PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/).
 - Visual Studio gibi bir .NET geliştirme ortamı.
 - C# programlamanın temel bilgisi ve .NET uygulamalarıyla nasıl çalışılacağı.
--  Geçerli bir Aspose.PDF lisansı (bir tane alabilirsiniz)[geçici lisans](https://purchase.aspose.com/temporary-license/) veya deneme modunda kullanın).
+- Geçerli bir Aspose.PDF lisansı (bir tane alabilirsiniz) [geçici lisans](https://purchase.aspose.com/temporary-license/) veya deneme modunda kullanın).
 
 Bu ön koşulları sağladığınızda, kodlama eğlencesine atılmaya hazırsınız!
 
@@ -41,13 +43,13 @@ using Aspose.Pdf;
 using Aspose.Pdf.Forms;
 ```
 
- Bu üç satır, gerekli sınıflara erişiminizin olmasını sağlar, örneğin:`Document`, `ComboBoxField`ve Aspose.PDF for .NET'in sağladığı diğer yardımcı programlar.
+Bu üç satır, gerekli sınıflara erişiminizin olmasını sağlar, örneğin: `Document`, `ComboBoxField`ve Aspose.PDF for .NET'in sağladığı diğer yardımcı programlar.
 
 Bu kılavuzda, takip etmeyi kolaylaştırmak için süreci basit adımlara böleceğiz. Başlayalım!
 
 ## Adım 1: Belgeyi Ayarlayın
 
-İhtiyacınız olan ilk şey çalışmak için bir PDF belgesidir. Sıfırdan yeni bir PDF oluşturalım ve ona bir sayfa ekleyelim.
+İhtiyacınız olan ilk şey çalışmak için bir PDF belgesidir. Sıfırdan yeni bir PDF oluşturalım ve buna bir sayfa ekleyelim.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -58,7 +60,7 @@ Document doc = new Document();
 doc.Pages.Add();
 ```
 
- Burada bir`Document` nesneyi seçin ve yeni bir boş sayfa ekleyin. Bunu düşünebilirsiniz`Document` nesneyi boş bir tuval olarak düşünün. Sayfa olmadan, ince havada çizmeye çalışmak gibi bir şey—o tabana ihtiyacınız var!
+Burada bir başlangıç yapıyoruz `Document` nesneyi seçin ve yeni bir boş sayfa ekleyin. Bunu düşünebilirsiniz `Document` nesneyi boş bir tuval olarak düşünün. Bir sayfa olmadan, ince havada çizmeye çalışmak gibi bir şey—o tabana ihtiyacınız var!
 
 ## Adım 2: Combo Box Alanını Örneklendirin
 
@@ -69,14 +71,14 @@ Artık belgemiz hazır olduğuna göre, Combo Box'ı oluşturmanın zamanı geld
 ComboBoxField combo = new ComboBoxField(doc.Pages[1], new Aspose.Pdf.Rectangle(100, 600, 150, 616));
 ```
 
- Bu adımda bir tane oluşturuyoruz`ComboBoxField` nesne. Oluşturucudaki parametreler, Combo Box'ın sayfada nerede görüneceğini tanımlar. Combo Box'ın PDF sayfasındaki konumunu ve boyutunu belirtmek için (100, 600, 150, 616) koordinatlarını kullanırız.
+Bu adımda bir tane oluşturuyoruz `ComboBoxField` nesne. Oluşturucudaki parametreler, Combo Box'ın sayfada nerede görüneceğini tanımlar. Combo Box'ın PDF sayfasındaki konumunu ve boyutunu belirtmek için (100, 600, 150, 616) koordinatlarını kullanırız.
 
 ## Adım 3: Combo Box'a Seçenekler Ekleyin
 
 Combo Box seçenekler olmadan pek kullanışlı olmazdı! Kullanıcıların seçebileceği seçenekler olarak bazı renkler ekleyelim.
 
 ```csharp
-//ComboBox'a seçenekler ekleyin
+// ComboBox'a seçenekler ekleyin
 combo.AddOption("Red");
 combo.AddOption("Yellow");
 combo.AddOption("Green");
@@ -107,7 +109,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nCombobox field added successfully.\nFile saved at " + dataDir);
 ```
 
- Belgeyi şu adlı bir dosyaya kaydediyoruz:`ComboBox_out.pdf`. Konsol çıktısı dosyanın başarıyla kaydedildiğini bildirir. Şimdi, çıktı dizininizi kontrol edin ve Combo Box'ınızla birlikte harekete hazır PDF'yi bulacaksınız!
+Belgeyi şu adlı bir dosyaya kaydediyoruz: `ComboBox_out.pdf`Konsol çıktısı dosyanın başarıyla kaydedildiğini bildirir. Şimdi, çıktı dizininizi kontrol edin ve Combo Box'ınızla birlikte harekete hazır PDF'yi bulacaksınız!
 
 ## Çözüm
 
@@ -116,10 +118,10 @@ Ve işte karşınızda! Sadece beş kolay adımda, Aspose.PDF for .NET kullanara
 ## SSS
 
 ### Combo Box'ı oluşturduktan sonra daha fazla seçenek ekleyebilir miyim?
- Evet! Her zaman değiştirebilirsiniz`ComboBoxField` Belgeyi kaydetmeden önce daha fazla seçenek eklemek için nesne.
+Evet! Her zaman değiştirebilirsiniz `ComboBoxField` Belgeyi kaydetmeden önce daha fazla seçenek eklemek için nesne.
 
 ### Combo Box'ın boyutunu değiştirmek mümkün mü?
- Kesinlikle. Dikdörtgenin boyutlarını ayarlayabilirsiniz.`ComboBoxField` Combo Box'ı yeniden boyutlandırmak için oluşturucu.
+Kesinlikle. Dikdörtgenin boyutlarını ayarlayabilirsiniz. `ComboBoxField` Combo Box'ı yeniden boyutlandırmak için oluşturucu.
 
 ### Aspose.PDF for .NET diğer form alanlarını destekliyor mu?
 Evet, Aspose.PDF metin kutuları, radyo düğmeleri ve onay kutuları dahil olmak üzere çeşitli form alanlarını destekler.
@@ -128,10 +130,12 @@ Evet, Aspose.PDF metin kutuları, radyo düğmeleri ve onay kutuları dahil olma
 Evet, yeni bir belge oluşturmak yerine mevcut bir PDF'yi yükleyip Combo Box'ı ona ekleyebilirsiniz.
 
 ### Aspose.PDF for .NET'i kullanmak için lisansa ihtiyacım var mı?
- Aspose.PDF for .NET ücretsiz deneme sunarken, tam işlevsellik için geçerli bir lisansa ihtiyacınız olacak.[geçici lisans](https://purchase.aspose.com/temporary-license/) tüm özelliklerini test etmek için.
+Aspose.PDF for .NET ücretsiz deneme sunsa da, tam işlevsellik için geçerli bir lisansa ihtiyacınız olacak. [geçici lisans](https://purchase.aspose.com/temporary-license/) tüm özelliklerini test etmek için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

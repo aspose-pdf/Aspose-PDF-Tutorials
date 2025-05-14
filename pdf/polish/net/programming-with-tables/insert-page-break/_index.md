@@ -1,14 +1,16 @@
 ---
-title: Wstaw podział strony w pliku PDF
-linktitle: Wstaw podział strony w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wstawiać podziały stron w dokumencie PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby płynnie zarządzać plikami PDF.
-weight: 110
-url: /pl/net/programming-with-tables/insert-page-break/
+"description": "Dowiedz się, jak wstawiać podziały stron w dokumencie PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby płynnie zarządzać plikami PDF."
+"linktitle": "Wstaw podział strony w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wstaw podział strony w pliku PDF"
+"url": "/pl/net/programming-with-tables/insert-page-break/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw podział strony w pliku PDF
@@ -21,15 +23,15 @@ Czy kiedykolwiek zastanawiałeś się, jak dynamicznie dodawać podziały stron 
 
 Zanim zaczniesz pisać kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1.  Aspose.PDF dla .NET: Pobierz bibliotekę ze strony[Pobieranie Aspose.PDF](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Pobierz bibliotekę ze strony [Pobieranie Aspose.PDF](https://releases.aspose.com/pdf/net/).
 2. IDE: Potrzebujesz środowiska IDE zgodnego z platformą .NET, np. Visual Studio.
 3. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework.
-4.  Licencja: Licencję można zakupić na stronie[Postawić](https://purchase.aspose.com/buy) lub skorzystaj z tymczasowej licencji[Tutaj](https://purchase.aspose.com/temporary-license/).
-5. Podstawowa znajomość języka C#: Znajomość języka C# pomoże Ci z łatwością nadążać za językiem.
+4. Licencja: Licencję można zakupić na stronie [Postawić](https://purchase.aspose.com/buy) lub skorzystaj z tymczasowej licencji [Tutaj](https://purchase.aspose.com/temporary-license/).
+5. Podstawowa znajomość języka C#: Znajomość języka C# pomoże Ci bez problemu nadążać za językiem.
 
 ## Importuj przestrzenie nazw
 
-Zanim zaczniesz pisać kod, musisz zaimportować następujące przestrzenie nazw do pliku C#:
+Zanim zaczniemy pisać kod, musisz zaimportować następujące przestrzenie nazw do pliku C#:
 
 ```csharp
 using System.IO;
@@ -44,7 +46,7 @@ Teraz, gdy wszystko jest już skonfigurowane, przejdźmy przez proces wstawiania
 
 ## Krok 1: Utwórz instancję dokumentu
 
- Pierwszym krokiem w pracy z dowolnym plikiem PDF przy użyciu Aspose.PDF jest utworzenie pliku`Document` obiekt. Działa jako podstawa dla naszego pliku PDF.
+Pierwszym krokiem w pracy z dowolnym plikiem PDF przy użyciu Aspose.PDF jest utworzenie pliku `Document` obiekt. Działa jako podstawa dla naszego pliku PDF.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -54,18 +56,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Tutaj definiujemy katalog, w którym zostanie zapisany nasz plik PDF, a następnie tworzymy nowy`Document` obiekt. Ten obiekt będzie reprezentował plik PDF, do którego dodamy naszą treść.
+Tutaj definiujemy katalog, w którym zostanie zapisany nasz plik PDF, a następnie tworzymy nowy `Document` obiekt. Ten obiekt będzie reprezentował plik PDF, do którego dodamy naszą treść.
 
 ## Krok 2: Dodaj nową stronę do dokumentu
 
- Gdy już mamy`Document` obiekt, musimy dodać stronę do pliku PDF, na której zostanie umieszczona nasza tabela i zawartość.
+Gdy już mamy `Document` obiekt, musimy dodać stronę do pliku PDF, na której zostanie umieszczona nasza tabela i zawartość.
 
 ```csharp
 // Dodaj stronę do zbioru stron pliku PDF
 doc.Pages.Add();
 ```
 
- Ten`Pages.Add()` Metoda ta służy do wstawiania nowej pustej strony do dokumentu PDF. To tutaj umieścimy naszą tabelę.
+Ten `Pages.Add()` Metoda ta służy do wstawiania nowej pustej strony do dokumentu PDF. To tutaj umieścimy naszą tabelę.
 
 ## Krok 3: Utwórz i skonfiguruj tabelę
 
@@ -85,7 +87,7 @@ tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Asp
 tab.ColumnWidths = "100 100";
 ```
 
- Tutaj tworzymy`Table` obiekt i zastosuj czerwoną obwódkę do tabeli, jak również do jej komórek. Szerokości kolumn są ustawione na`100` jednostek każdy, definiując dwie kolumny o równym rozmiarze.
+Tutaj tworzymy `Table` obiekt i zastosuj czerwoną obwódkę do tabeli, jak również do jej komórek. Szerokości kolumn są ustawione na `100` jednostek każdy, definiując dwie kolumny o równym rozmiarze.
 
 ## Krok 4: Wypełnij tabelę wierszami i komórkami
 
@@ -122,7 +124,7 @@ Teraz, gdy nasza tabela jest już gotowa, musimy dodać ją do strony, którą w
 doc.Pages[1].Paragraphs.Add(tab);
 ```
 
- Tabelę dodaje się do pierwszej strony dokumentu PDF za pomocą`Paragraphs.Add()` metoda.
+Tabelę dodaje się do pierwszej strony dokumentu PDF za pomocą `Paragraphs.Add()` metoda.
 
 ## Krok 6: Zapisz dokument
 
@@ -136,7 +138,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir);
 ```
 
- Ten`Save()` Metoda zapisuje dokument do określonego katalogu. Po zapisaniu pliku PDF konsola wydrukuje komunikat potwierdzający, pokazujący ścieżkę do pliku.
+Ten `Save()` Metoda zapisuje dokument do określonego katalogu. Po zapisaniu pliku PDF konsola wydrukuje komunikat potwierdzający, pokazujący ścieżkę do pliku.
 
 ## Wniosek
 
@@ -147,20 +149,22 @@ I masz to! Udało Ci się wstawić podziały stron do dokumentu PDF za pomocą A
 ### Czy mogę dostosować kolor linii podziału strony?  
 Podziały stron w pliku PDF nie tworzą widocznych linii. Po prostu przenoszą zawartość na nową stronę.
 
-### Jak mogę dodać nagłówki i stopki do pliku PDF?  
- Możesz łatwo dodawać nagłówki i stopki za pomocą`HeaderFooter` klasa w Aspose.PDF.
+### Jak dodać nagłówki i stopki do pliku PDF?  
+Możesz łatwo dodawać nagłówki i stopki za pomocą `HeaderFooter` klasa w Aspose.PDF.
 
 ### Czy Aspose.PDF dla platformy .NET obsługuje dodawanie znaków wodnych?  
 Tak, Aspose.PDF pozwala na dodawanie zarówno tekstu, jak i znaków wodnych w postaci obrazów.
 
 ### Czy mogę wstawiać podziały stron bez używania tabel?  
- Oczywiście! Możesz wstawiać podziały stron, dodając nowe strony bezpośrednio lub używając`IsInNewPage` własność w innych kontekstach.
+Oczywiście! Możesz wstawiać podziały stron, dodając nowe strony bezpośrednio lub używając `IsInNewPage` własność w innych kontekstach.
 
 ### Czy możliwe jest dynamiczne zarządzanie układami plików PDF?  
 Tak, Aspose.PDF udostępnia różne narzędzia do dynamicznego zarządzania układem, w tym do obsługi podziałów stron, marginesów i innych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

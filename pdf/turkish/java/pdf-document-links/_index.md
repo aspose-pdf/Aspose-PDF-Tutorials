@@ -1,14 +1,16 @@
 ---
-title: PDF Belge Bağlantıları
-linktitle: PDF Belge Bağlantıları
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java'da Aspose.PDF for Java eğitimleriyle PDF belge bağlantılarını keşfedin. Köprüler, yer imleri ve etkileşimli PDF'leri zahmetsizce oluşturun.
-weight: 15
-url: /tr/java/pdf-document-links/
+"description": "Java'da Aspose.PDF for Java eğitimleriyle PDF belge bağlantılarını keşfedin. Köprüler, yer imleri ve etkileşimli PDF'leri zahmetsizce oluşturun."
+"linktitle": "PDF Belge Bağlantıları"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF Belge Bağlantıları"
+"url": "/tr/java/pdf-document-links/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Belge Bağlantıları
@@ -35,9 +37,11 @@ Java'da Aspose.PDF for Java eğitimleriyle PDF belge bağlantılarının potansi
 Adım adım talimatlar ve kaynak koduyla Java kullanarak PDF dosyalarına köprü metinleri eklemeyi öğrenin. PDF belgelerinizi etkileşimle geliştirin.
 ### [Java kullanarak başka bir PDF Belgesine Bağlantı Oluşturma](./create-a-link-to-another-pdf-document-using-java/)
 Java için Aspose.PDF ile Java'da zahmetsizce PDF belge bağlantıları oluşturmayı öğrenin. PDF etkileşimi için adım adım kılavuz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

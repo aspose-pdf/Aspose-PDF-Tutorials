@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PDF Text Extraction with Aspose.PDF for Java
 
@@ -193,7 +195,11 @@ Next steps include delving deeper into Aspose.PDF's extensive features or explor
 - **Free Trial:** [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)
 - **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

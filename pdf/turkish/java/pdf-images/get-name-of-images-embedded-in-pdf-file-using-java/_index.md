@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF Dosyasına Gömülü Resimlerin Adını Alın
-linktitle: Java kullanarak PDF Dosyasına Gömülü Resimlerin Adını Alın
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java ve Java için Aspose.PDF kullanarak PDF dosyalarından gömülü resim adlarının nasıl çıkarılacağını öğrenin. Verimli PDF veri çıkarma için kaynak kodlu adım adım kılavuz.
-weight: 14
-url: /tr/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/
+"description": "Java ve Java için Aspose.PDF kullanarak PDF dosyalarından gömülü resim adlarının nasıl çıkarılacağını öğrenin. Verimli PDF veri çıkarma için kaynak kodlu adım adım kılavuz."
+"linktitle": "Java kullanarak PDF Dosyasına Gömülü Resimlerin Adını Alın"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF Dosyasına Gömülü Resimlerin Adını Alın"
+"url": "/tr/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF Dosyasına Gömülü Resimlerin Adını Alın
@@ -42,7 +44,7 @@ Java için Aspose.PDF, PDF belgeleriyle çalışmak için güçlü bir kütüpha
 
 ## PDF Dosyası Yükleme
 
- Bu adımda, uygulamamıza bir PDF dosyası yüklemek için Java kodu yazacağız. Şunu değiştirmelisiniz:`"input.pdf"` PDF dosyanızın yolunu belirtin.
+Bu adımda, uygulamamıza bir PDF dosyası yüklemek için Java kodu yazacağız. Şunu değiştirmelisiniz: `"input.pdf"` PDF dosyanızın yolunu belirtin.
 
 ```java
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("input.pdf");
@@ -57,7 +59,7 @@ com.aspose.pdf.Page page = pdfDocument.getPages().get_Item(1); // İstediğiniz 
 com.aspose.pdf.XImageCollection images = page.getResources().getImages();
 ```
 
-## Görüntü Çıkarımı için Java Kodu Yazma
+## Görüntü Çıkarımı İçin Java Kodu Yazma
 
 Şimdi gömülü resimler arasında dolaşalım ve isimlerini çıkaralım:
 
@@ -93,7 +95,7 @@ Bu adım adım kılavuzda, bir PDF dosyasından gömülü resimlerin adlarını 
 
 Daha önce bahsedilen Maven bağımlılığını ekleyerek projenize Aspose.PDF for Java'yı dahil edebilirsiniz. Alternatif olarak, kütüphaneyi Aspose web sitesinden indirebilirsiniz.
 
-### Aspose.PDF for Java kullanarak bir PDF'den başka bilgiler çıkarabilir miyim?
+### Aspose.PDF for Java kullanarak PDF'den başka bilgiler çıkarabilir miyim?
 
 Evet, Java için Aspose.PDF, metin çıkarma, sayfa düzenleme ve daha fazlası dahil olmak üzere PDF belgeleriyle çalışmak için kapsamlı özellikler sunar.
 
@@ -104,9 +106,11 @@ Aspose.PDF for Java'yı kullanma konusunda herhangi bir sorunla karşılaşırsa
 ### Aspose.PDF for Java'yı kullanmak ücretsiz mi?
 
 Java için Aspose.PDF, ücretsiz deneme sürümü bulunan ticari bir kütüphanedir. Deneme süresi boyunca özelliklerini keşfedebilir ve sürekli kullanım için bir lisans satın almayı düşünebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Metin Parçası ve Paragraf Kullanarak Metni Döndürme
-linktitle: Metin Parçası ve Paragraf Kullanarak Metni Döndürme
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak bir PDF belgesinde metin parçası ve paragraf kullanarak metni nasıl döndüreceğinizi öğrenin.
-weight: 400
-url: /tr/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/
+"description": "Aspose.PDF for .NET kullanarak bir PDF belgesinde metin parçası ve paragraf kullanarak metni nasıl döndüreceğinizi öğrenin."
+"linktitle": "Metin Parçası ve Paragraf Kullanarak Metni Döndürme"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Metin Parçası ve Paragraf Kullanarak Metni Döndürme"
+"url": "/tr/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/"
+"weight": 400
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metin Parçası ve Paragraf Kullanarak Metni Döndürme
@@ -23,11 +25,11 @@ Teknik ayrıntılara dalmadan önce, birkaç şeyin yerinde olduğundan emin olu
 
 1. .NET Framework'ün Temel Anlayışı: Aspose.PDF'in .NET uygulamalarıyla kusursuz bir şekilde çalışması nedeniyle C# veya VB.NET'e aşinalık faydalı olacaktır.
   
-2.  .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesine ihtiyacınız olacak. Endişelenmeyin; indirmesi kolay! Hemen buradan alabilirsiniz:[.NET için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/net/).
+2. .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesine ihtiyacınız olacak. Endişelenmeyin; indirmesi kolay! Hemen buradan alabilirsiniz: [.NET için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/net/).
 
 3. Geliştirme Ortamı: Visual Studio gibi .NET geliştirmeyi destekleyen herhangi bir IDE'yi kullanabilirsiniz. IDE'nizin indirilen Aspose.PDF kitaplığına erişebildiğinden emin olun.
 
-4.  Geçici Lisans (İsteğe Bağlı): Ücretsiz denemeyle başlayabilirsiniz ancak bir üretim uygulaması oluşturmanız gerekiyorsa, bir tane edinmeyi düşünün.[geçici lisans](https://purchase.aspose.com/temporary-license/) tam işlevsellik için.
+4. Geçici Lisans (İsteğe Bağlı): Ücretsiz denemeyle başlayabilirsiniz ancak bir üretim uygulaması oluşturmanız gerekiyorsa, bir tane edinmeyi düşünün. [geçici lisans](https://purchase.aspose.com/temporary-license/) tam işlevsellik için.
 
 5. İnternet Bağlantısı: Bu çok basit bir şey gibi görünebilir, ancak ek rehberlik ve sorun giderme için çevrimiçi belgelere erişmek için buna ihtiyacınız olacak.
 
@@ -47,7 +49,7 @@ using Aspose.Pdf.Text;
 using Aspose.Pdf.Facades;
 ```
 
-Bu, Aspose.PDF kütüphanesi tarafından sağlanan pdf belge düzenleme işlevlerine ve metin özelliklerine erişmenizi sağlayacaktır.
+Bu, Aspose.PDF kütüphanesi tarafından sağlanan PDF belge düzenleme işlevlerine ve metin özelliklerine erişmenizi sağlayacaktır.
 
 Şimdi eğlence başlıyor! Hem standart hem de döndürülmüş metin parçaları içeren bir PDF belgesi oluşturmak için basit bir uygulama oluşturacağız. Derin bir nefes alın ve adım adım inceleyelim.
 
@@ -87,7 +89,7 @@ textFragment1.TextState.FontSize = 12;
 textFragment1.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 ```
 
-Burada, ilk metin parçamızı oluşturduk.`textFragment1`Ayrıca yazı tipi özelliklerini de ayarladık, yani güzel görünmesini sağlamak için!
+Burada, ilk metin parçamızı oluşturduk. `textFragment1`Ayrıca yazı tipi özelliklerini de ayarladık, yani güzel görünmesini sağlamak için!
 
 ## Adım 4: Sayfaya İlk Metin Parçasını Ekleyin
 
@@ -115,7 +117,7 @@ textFragment2.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 textFragment2.TextState.Rotation = 315;
 ```
 
- Bu kod parçacığında, adında bir metin parçası oluşturduk`textFragment2`. Dönüşünü 315 dereceye ayarladık, bu da güzel bir şekilde eğilmiş ama tamamen baş aşağı değil. Bu, biraz gösteriş gerektiren bir metni temsil ediyor olabilir!
+Bu kod parçacığında, adında bir metin parçası oluşturduk `textFragment2`. Dönüşünü 315 dereceye ayarladık, bu da güzel bir şekilde eğilmiş ama tamamen baş aşağı değil. Bu, biraz gösteriş gerektiren bir metni temsil ediyor olabilir!
 
 ### Döndürülmüş Metin Parçasını Sayfaya Ekleme
 
@@ -141,7 +143,7 @@ textFragment3.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 textFragment3.TextState.Rotation = 270;
 ```
 
-Tıpkı daha önce olduğu gibi, bir başka döndürülmüş metin parçası daha ekliyoruz. Bu sefer, 270 derece döndürüldü—neredeyse baş aşağı!
+Tıpkı daha önce olduğu gibi, bir başka döndürülmüş metin parçası daha ekliyoruz. Bu sefer, 270 derece döndürülmüş—neredeyse baş aşağı!
 
 ## Adım 6: Sayfaya İkinci Döndürülmüş Metin Parçasını Ekleyin
 
@@ -180,18 +182,20 @@ Kesinlikle! Aspose.PDF, web uygulamaları, masaüstü uygulamaları ve hizmetler
 
 ### Aspose.PDF için ücretsiz deneme sürümü mevcut mu?
 
- Evet, satın alma işlemi yapmadan önce özelliklerini keşfetmek için ücretsiz denemeden yararlanabilirsiniz. Şuradan kontrol edin:[Aspose Ücretsiz Deneme](https://releases.aspose.com/).
+Evet, satın alma işlemi yapmadan önce özelliklerini keşfetmek için ücretsiz denemeden yararlanabilirsiniz. Şuradan kontrol edin: [Aspose Ücretsiz Deneme](https://releases.aspose.com/).
 
-### Aspose.PDF kullanarak bir PDF'deki metni nasıl döndürebilirim?
+### Aspose.PDF kullanarak PDF'deki metni nasıl döndürebilirim?
 
- Metni döndürebilirsiniz.`Rotation` birinin mülkü`TextFragment` Bu eğitimde gösterildiği gibi nesne.
+Metni döndürebilirsiniz. `Rotation` birinin mülkü `TextFragment` Bu eğitimde gösterildiği gibi nesne.
 
 ### Aspose.PDF için desteği nerede bulabilirim?
 
- Herhangi bir destek veya sorunuz için şu adresi ziyaret edebilirsiniz:[Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10).
+Herhangi bir destek veya sorunuz için şu adresi ziyaret edebilirsiniz: [Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: إزالة التعليقات التوضيحية من صفحات PDF
-linktitle: إزالة التعليقات التوضيحية من صفحات PDF
-second_title: واجهة برمجة تطبيقات معالجة PDF الخاصة بـ Aspose.PDF Java
-description: تعرف على كيفية إزالة التعليقات التوضيحية في ملفات PDF بسهولة باستخدام Aspose.PDF for Java. دليل خطوة بخطوة وكود متضمن.
-weight: 11
-url: /ar/java/pdf-annotations/remove-annotations-pdf-pages/
+"description": "تعلّم كيفية إزالة تعليقات PDF بسهولة باستخدام Aspose.PDF لجافا. دليل خطوة بخطوة مع الكود البرمجي."
+"linktitle": "إزالة التعليقات التوضيحية من صفحات PDF"
+"second_title": "واجهة برمجة تطبيقات معالجة PDF في Java لـ Aspose.PDF"
+"title": "إزالة التعليقات التوضيحية من صفحات PDF"
+"url": "/ar/java/pdf-annotations/remove-annotations-pdf-pages/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إزالة التعليقات التوضيحية من صفحات PDF
@@ -16,32 +18,32 @@ url: /ar/java/pdf-annotations/remove-annotations-pdf-pages/
 
 ## مقدمة إلى Aspose.PDF لـ Java
 
-Aspose.PDF for Java هي مكتبة قوية تتيح للمطورين العمل مع مستندات PDF في تطبيقات Java. وهي توفر ميزات متنوعة لإنشاء المحتوى ومعالجته واستخراجه من ملفات PDF.
+Aspose.PDF لجافا هي مكتبة قوية تُمكّن المطورين من العمل مع مستندات PDF في تطبيقات جافا. تُوفر ميزات مُتنوعة لإنشاء ملفات PDF ومعالجتها واستخراج محتواها.
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
--  Aspose.PDF for Java: تأكد من تثبيت مكتبة Aspose.PDF for Java وتكوينها في مشروع Java الخاص بك. يمكنك تنزيلها من[هنا](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF لجافا: تأكد من تثبيت مكتبة Aspose.PDF لجافا وتهيئتها في مشروع جافا. يمكنك تنزيلها من [هنا](https://releases.aspose.com/pdf/java/).
 
 ## تحميل مستند PDF
 
-للعمل مع مستند PDF، تحتاج أولاً إلى تحميله إلى تطبيق Java الخاص بك. إليك كيفية القيام بذلك باستخدام Aspose.PDF for Java:
+للعمل مع مستند PDF، عليك أولاً تحميله إلى تطبيق جافا. إليك كيفية القيام بذلك باستخدام Aspose.PDF لجافا:
 
 ```java
 // تحميل مستند PDF
 Document pdfDocument = new Document("example.pdf");
 ```
 
- يستبدل`"example.pdf"` مع المسار إلى ملف PDF الخاص بك.
+يستبدل `"example.pdf"` مع المسار إلى ملف PDF الخاص بك.
 
 
 ## تحديد التعليقات التوضيحية والوصول إليها
 
-يمكن أن تتخذ التعليقات التوضيحية في ملفات PDF أشكالاً مختلفة، مثل ملاحظات نصية أو تمييزات أو أشكال. ولإزالتها، تحتاج إلى تحديد التعليقات التوضيحية المحددة التي تريد حذفها والوصول إليها. يمكنك القيام بذلك باستخدام واجهة برمجة تطبيقات Aspose.PDF لـ Java:
+يمكن أن تتخذ التعليقات التوضيحية في ملفات PDF أشكالًا مختلفة، مثل ملاحظات نصية، أو تمييزات، أو أشكال. لإزالتها، عليك تحديد التعليقات التوضيحية التي تريد حذفها والوصول إليها. يمكنك القيام بذلك باستخدام واجهة برمجة تطبيقات Aspose.PDF لجافا:
 
 ```java
-// الوصول إلى الصفحة الأولى من الوثيقة
+// الوصول إلى الصفحة الأولى من المستند
 Page page = pdfDocument.getPages().get_Item(1);
 
 // الوصول إلى جميع التعليقات التوضيحية على الصفحة
@@ -50,7 +52,7 @@ AnnotationCollection annotations = page.getAnnotations();
 
 ## إزالة التعليقات التوضيحية
 
-بمجرد الوصول إلى التعليقات التوضيحية، يمكنك المتابعة لإزالتها من صفحة PDF. إليك كيفية إزالة جميع التعليقات التوضيحية من الصفحة:
+بعد الوصول إلى التعليقات التوضيحية، يمكنك إزالتها من صفحة PDF. إليك كيفية إزالة جميع التعليقات التوضيحية من الصفحة:
 
 ```java
 // إزالة جميع التعليقات التوضيحية من الصفحة
@@ -62,29 +64,29 @@ annotations.delete();
 بعد إزالة التعليقات التوضيحية، يجب عليك حفظ مستند PDF المعدل:
 
 ```java
-// احفظ ملف PDF المعدل
+// حفظ ملف PDF المعدل
 pdfDocument.save("modified.pdf");
 ```
 
- يستبدل`"modified.pdf"` مع اسم ملف الإخراج المطلوب.
+يستبدل `"modified.pdf"` مع اسم ملف الإخراج المطلوب.
 
 ## خاتمة
 
-في هذا الدليل، استكشفنا كيفية إزالة التعليقات التوضيحية من صفحات PDF باستخدام Aspose.PDF for Java. توفر هذه المكتبة طريقة قوية ومريحة للتعامل مع مستندات PDF، مما يسهل تحقيق النتائج المرجوة.
+في هذا الدليل، استكشفنا كيفية إزالة التعليقات التوضيحية من صفحات PDF باستخدام Aspose.PDF لجافا. توفر هذه المكتبة طريقة فعّالة وسهلة للتعامل مع مستندات PDF، مما يُسهّل تحقيق النتائج المرجوة.
 
 ## الأسئلة الشائعة
 
 ### كيف أقوم بتثبيت Aspose.PDF لـJava؟
 
- يمكنك تنزيل Aspose.PDF لـ Java من[هنا](https://releases.aspose.com/pdf/java/) واتبع تعليمات التثبيت المقدمة.
+يمكنك تنزيل Aspose.PDF لـ Java من [هنا](https://releases.aspose.com/pdf/java/) واتبع تعليمات التثبيت المقدمة.
 
 ### هل يمكنني إزالة أنواع معينة من التعليقات التوضيحية، مثل تعليقات النص فقط؟
 
 نعم، يمكنك تصفية التعليقات التوضيحية استنادًا إلى أنواعها وإزالة أنواع معينة حسب الحاجة باستخدام Aspose.PDF لـ Java.
 
-### هل Aspose.PDF for Java متوافق مع بيئات التطوير المتكاملة Java IDE المختلفة؟
+### هل Aspose.PDF لـ Java متوافق مع بيئات التطوير المتكاملة Java IDE المختلفة؟
 
-نعم، يعد Aspose.PDF for Java متوافقًا مع بيئات التطوير المتكاملة Java IDE الشهيرة مثل Eclipse، وIntelliJ IDEA، وNetBeans.
+نعم، يعد Aspose.PDF for Java متوافقًا مع بيئات التطوير المتكاملة Java IDE الشهيرة مثل Eclipse وIntelliJ IDEA وNetBeans.
 
 ### هل يدعم Aspose.PDF for Java العمل مع ملفات PDF المشفرة؟
 
@@ -92,10 +94,12 @@ pdfDocument.save("modified.pdf");
 
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق الخاصة بـ Aspose.PDF لـ Java؟
 
- يمكنك استكشاف الوثائق والأمثلة التفصيلية على صفحة وثائق Aspose.PDF لـ Java:[هنا](https://reference.aspose.com/pdf/java/).
+يمكنك استكشاف الوثائق والأمثلة التفصيلية على صفحة وثائق Aspose.PDF لـ Java: [هنا](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

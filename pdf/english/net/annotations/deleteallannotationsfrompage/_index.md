@@ -8,7 +8,9 @@ url: /net/annotations/deleteallannotationsfrompage/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete All Annotations From Page
@@ -115,6 +117,7 @@ Yes, Aspose.PDF allows you to filter and remove specific annotation types if nee
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

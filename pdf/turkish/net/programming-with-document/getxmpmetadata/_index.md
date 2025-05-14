@@ -1,34 +1,36 @@
 ---
-title: XMP Meta Verilerini Alın
-linktitle: XMP Meta Verilerini Alın
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzda .NET için Aspose.PDF kullanarak PDF'lerden XMP meta verilerini nasıl çıkaracağınızı öğrenin. PDF belgelerinizden değerli içgörüleri kolayca açığa çıkarın.
-weight: 200
-url: /tr/net/programming-with-document/getxmpmetadata/
+"description": "Bu adım adım kılavuzda .NET için Aspose.PDF kullanarak PDF'lerden XMP meta verilerini nasıl çıkaracağınızı öğrenin. PDF belgelerinizden kolayca değerli içgörüler elde edin."
+"linktitle": "XMP Meta Verilerini Alın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "XMP Meta Verilerini Alın"
+"url": "/tr/net/programming-with-document/getxmpmetadata/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # XMP Meta Verilerini Alın
 
 ## giriiş
 
-PDF'lerle daha önce çalıştıysanız, bunların sadece basit belgeler olmadığını bilirsiniz. Dosya hakkında değerli içgörüler sağlayan meta veriler de dahil olmak üzere yüzeyin altında gizli bir bilgi hazinesi depolayabilirler. Oluşturma tarihleri, yazar bilgileri veya özel özelliklerle uğraşıyor olun, bu meta verilere erişmek size PDF'niz hakkında daha net bir resim sunabilir. İşte tam bu noktada Aspose.PDF for .NET işe yarar.
+PDF'lerle daha önce çalıştıysanız, bunların sadece basit belgeler olmadığını bilirsiniz. Dosya hakkında değerli içgörüler sağlayan meta veriler de dahil olmak üzere yüzeyin altında gizli bir sürü bilgi depolayabilirler. Oluşturma tarihleri, yazar bilgileri veya özel özelliklerle uğraşıyor olun, bu meta verilere erişmek size PDF'niz hakkında daha net bir resim sunabilir. İşte tam bu noktada .NET için Aspose.PDF kullanışlı hale gelir.
 
 ## Ön koşullar
 
 PDF'lerinizden meta verileri çıkarmaya başlamadan önce, yerinde olması gereken birkaç şey vardır:
 
--  Aspose.PDF for .NET: Kütüphanenin en son sürümünün yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose.PDF sürüm sayfası](https://releases.aspose.com/pdf/net/).
+- .NET için Aspose.PDF: Kütüphanenin en son sürümünün yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose.PDF sürüm sayfası](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Visual Studio gibi .NET geliştirme ortamına ihtiyacınız olacak.
 - PDF Belgesi: Bu eğitim için, meta verilerini almak istediğiniz bir PDF dosyanız olduğundan emin olun.
 - Temel C# Bilgisi: C# ve .NET ortamına aşina olmanız gerekir.
 
 ## Ad Alanlarını İçe Aktar
 
-Aspose.PDF for .NET ile çalışmak için uygun ad alanlarını içe aktarmanız gerekir. Bunları C# dosyanızın en üstüne ekleyin:
+.NET için Aspose.PDF ile çalışmak için uygun ad alanlarını içe aktarmanız gerekir. Bunları C# dosyanızın en üstüne ekleyin:
 
 ```csharp
 using System.IO;
@@ -38,13 +40,13 @@ using System;
 
 Bu içe aktarımlar, uygulamanızın Aspose.PDF'in temel işlevlerine ve sistem operasyonlarına erişmesini sağladığı için önemlidir.
 
-## Adım 1: Ortamı Ayarlama
+## Adım 1: Ortamı Kurma
 
 İlk önce projenizin doğru bir şekilde kurulduğundan emin olmanız gerekir.
 
 ### Adım 1.1: .NET için Aspose.PDF'yi yükleyin
 
- Eğer henüz Aspose.PDF for .NET'i yüklemediyseniz, şuradan edinebilirsiniz:[Burada](https://releases.aspose.com/pdf/net/). Visual Studio içindeki NuGet Paket Yöneticisini kullanarak yükleyin:
+Eğer henüz Aspose.PDF for .NET'i yüklemediyseniz, şuradan edinebilirsiniz: [Burada](https://releases.aspose.com/pdf/net/). Visual Studio içindeki NuGet Paket Yöneticisini kullanarak yükleyin:
 
 1. Visual Studio’yu açın.
 2. Araçlar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet'e gidin.
@@ -52,7 +54,7 @@ Bu içe aktarımlar, uygulamanızın Aspose.PDF'in temel işlevlerine ve sistem 
 
 ### Adım 1.2: Projeye PDF Ekleme
 
-Sonra, proje dizininizde bir PDF belgeniz olduğundan emin olun. Dosya yolu, sonraki adımlar için önemli olacaktır. Bu eğitim için, adlı bir PDF kullanacağız`GetXMPMetadata.pdf`.
+Sonra, proje dizininizde bir PDF belgeniz olduğundan emin olun. Dosya yolu, sonraki adımlar için önemli olacaktır. Bu eğitim için, adlı bir PDF kullanacağız `GetXMPMetadata.pdf`.
 
 ## Adım 2: PDF Belgesini Yükleyin
 
@@ -66,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "GetXMPMetadata.pdf");
 ```
 
- Bu kod, belgeyi belirtilen dizinden yükleyerek başlatır. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` PDF'inizin bulunduğu gerçek yol ile.
+Bu kod, belgeyi belirtilen dizinden yükleyerek başlatır. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF'inizin bulunduğu gerçek yol ile.
 
 ## Adım 3: XMP Meta Verilerine Erişim
 
@@ -143,7 +145,7 @@ Ve işte karşınızda! .NET için Aspose.PDF kullanarak bir PDF'den XMP meta ve
 XMP meta verisi, oluşturma tarihi, yazar ve diğer özellikler gibi bir dosya hakkında bilgi depolamak için bir standarttır. Dosyanın kendisine gömülüdür.
 
 ### Aspose.PDF for .NET kullanarak PDF meta verilerini değiştirebilir miyim?
- Evet, PDF dosyalarını yalnızca okumakla kalmayıp, aynı zamanda değiştirebilir ve yeni meta veriler ekleyebilirsiniz.`Metadata` mülk.
+Evet, PDF dosyalarını yalnızca okumakla kalmayıp, aynı zamanda değiştirebilir ve yeni meta veriler ekleyebilirsiniz. `Metadata` mülk.
 
 ### Bu şifreli PDF'lerde işe yarıyor mu?
 PDF parola korumalıysa, meta verilerine erişmek için belgeyi yüklerken parolayı girmeniz gerekecektir.
@@ -153,9 +155,11 @@ PDF'de mevcut olduğu sürece hem standart hem de özel meta veri özelliklerini
 
 ### Toplu PDF meta verisi çıkarma işlemini gerçekleştirmek için Aspose.PDF for .NET'i kullanabilir miyim?
 Evet, Aspose.PDF for .NET toplu işlemeyi destekler ve böylece birden fazla PDF'yi bir döngü içinde işlemenize ve her dosyadan meta verileri çıkarmanıza olanak tanır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

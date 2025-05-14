@@ -1,14 +1,16 @@
 ---
-title: Dodawanie komentarzy do dokumentów PDF
-linktitle: Dodawanie komentarzy do dokumentów PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać komentarze do dokumentów PDF za pomocą Aspose.PDF dla Java — przewodnik krok po kroku z przykładami kodu.
-weight: 10
-url: /pl/java/pdf-annotations/add-comments-pdf-documents/
+"description": "Dowiedz się, jak dodawać komentarze do dokumentów PDF za pomocą Aspose.PDF dla Java — przewodnik krok po kroku z przykładami kodu."
+"linktitle": "Dodawanie komentarzy do dokumentów PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodawanie komentarzy do dokumentów PDF"
+"url": "/pl/java/pdf-annotations/add-comments-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie komentarzy do dokumentów PDF
@@ -20,7 +22,7 @@ Dokumenty PDF stały się standardem udostępniania informacji cyfrowo ze wzglę
 
 ## Pierwsze kroki z Aspose.PDF dla Java
 
-Na początek musisz skonfigurować środowisko programistyczne. Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF for Java. Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+Na początek musisz skonfigurować środowisko programistyczne. Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF for Java. Możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Tworzenie dokumentu PDF
 
@@ -33,7 +35,7 @@ Document pdfDocument = new Document();
 
 ## Dodawanie komentarzy do dokumentu PDF
 
-Dodawanie komentarzy jest proste. Możesz wstawiać komentarze, takie jak wyróżnienia, notatki tekstowe lub stemple, używając interfejsu API Aspose.PDF. Dodajmy komentarz wyróżnienia jako przykład:
+Dodawanie komentarzy jest proste. Możesz wstawiać komentarze, takie jak wyróżnienia, notatki tekstowe lub stemple, używając API Aspose.PDF. Dodajmy komentarz wyróżnienia jako przykład:
 
 ```java
 // Utwórz stronę w pliku PDF
@@ -66,7 +68,7 @@ Po dodaniu i dostosowaniu komentarzy możesz zapisać lub wyeksportować zmodyfi
 
 ## Wniosek
 
-Dodawanie komentarzy do dokumentów PDF to cenna funkcja, która usprawnia współpracę i dokumentację. Aspose.PDF for Java upraszcza ten proces, umożliwiając łatwe dodawanie, dostosowywanie i zarządzanie komentarzami. Zacznij dodawać komentarze do dokumentów PDF, aby poprawić komunikację i zrozumienie.
+Dodawanie komentarzy do dokumentów PDF to cenna funkcja, która usprawnia współpracę i dokumentację. Aspose.PDF for Java upraszcza ten proces, umożliwiając łatwe dodawanie, dostosowywanie i zarządzanie komentarzami. Zacznij dodawać komentarze do dokumentów PDF, aby usprawnić komunikację i zrozumienie.
 
 ## Najczęściej zadawane pytania
 
@@ -89,9 +91,11 @@ Liczba komentarzy, które możesz dodać do dokumentu PDF, zależy od różnych 
 ### W jaki sposób mogę programowo wyodrębnić komentarze z pliku PDF?
 
 Możesz wyodrębnić komentarze z dokumentu PDF za pomocą Aspose.PDF dla Java, przechodząc iteracyjnie przez adnotacje dokumentu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: สร้างไฟล์ที่สอดคล้องกับ PDF/A
-linktitle: สร้างไฟล์ที่สอดคล้องกับ PDF/A
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีสร้างไฟล์ที่รองรับ PDF/A โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับ PDF มาตรฐานอุตสาหกรรม
-weight: 18
-url: /th/java/pdf-conversion-transformation/create-pdfa-compliant-files/
+"description": "เรียนรู้วิธีสร้างไฟล์ที่รองรับ PDF/A โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับ PDF มาตรฐานอุตสาหกรรม"
+"linktitle": "สร้างไฟล์ที่สอดคล้องกับ PDF/A"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "สร้างไฟล์ที่สอดคล้องกับ PDF/A"
+"url": "/th/java/pdf-conversion-transformation/create-pdfa-compliant-files/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างไฟล์ที่สอดคล้องกับ PDF/A
@@ -24,7 +26,7 @@ url: /th/java/pdf-conversion-transformation/create-pdfa-compliant-files/
 
 ## การตั้งค่าสภาพแวดล้อมการพัฒนาของคุณ
 
- ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://www.java.com/download/)นอกจากนี้ โปรดตรวจสอบให้แน่ใจว่าคุณมีสภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA หรือ Eclipse
+ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://www.java.com/download/)นอกจากนี้ โปรดตรวจสอบให้แน่ใจว่าคุณมีสภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA หรือ Eclipse
 
 ## การสร้างโครงการ Java ใหม่
 
@@ -32,7 +34,7 @@ url: /th/java/pdf-conversion-transformation/create-pdfa-compliant-files/
 
 ## การเพิ่ม Aspose.PDF สำหรับ Java ลงในโปรเจ็กต์ของคุณ
 
- หากต้องการใช้ Aspose.PDF สำหรับ Java คุณต้องเพิ่มไลบรารี Aspose.PDF ลงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[Aspose.PDF สำหรับ Java](https://releases.aspose.com/pdf/java/)เมื่อดาวน์โหลดแล้ว ให้เพิ่มไฟล์ JAR ลงในคลาสพาธของโปรเจ็กต์ของคุณ
+หากต้องการใช้ Aspose.PDF สำหรับ Java คุณต้องเพิ่มไลบรารี Aspose.PDF ลงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [Aspose.PDF สำหรับ Java](https://releases.aspose.com/pdf/java/)เมื่อดาวน์โหลดแล้ว ให้เพิ่มไฟล์ JAR ลงในคลาสพาธของโปรเจ็กต์ของคุณ
 
 ## การเริ่มต้นเอกสาร PDF
 
@@ -56,7 +58,7 @@ import com.aspose.pdf.TextFragment;
 // เพิ่มหน้าลงในเอกสาร
 Page page = pdfDocument.getPages().add();
 
-// สร้างส่วนข้อความ
+// สร้างชิ้นส่วนข้อความ
 TextFragment textFragment = new TextFragment("Hello, PDF/A!");
 
 // เพิ่มส่วนข้อความลงในหน้า
@@ -97,7 +99,7 @@ pdfDocument.save("output.pdf");
 
 ## คุณสมบัติเพิ่มเติมและการปรับแต่ง
 
-Aspose.PDF สำหรับ Java นำเสนอฟีเจอร์มากมายเพื่อปรับแต่งเอกสาร PDF ของคุณ รวมถึงการเพิ่มส่วนหัว ส่วนท้าย ลายน้ำ และอื่นๆ สำรวจ[เอกสารประกอบ](https://reference.aspose.com/pdf/java/) สำหรับข้อมูลโดยละเอียดเกี่ยวกับตัวเลือกการปรับแต่ง
+Aspose.PDF สำหรับ Java นำเสนอฟีเจอร์มากมายเพื่อปรับแต่งเอกสาร PDF ของคุณ รวมถึงการเพิ่มส่วนหัว ส่วนท้าย ลายน้ำ และอื่นๆ สำรวจ [เอกสารประกอบ](https://reference.aspose.com/pdf/java/) สำหรับข้อมูลโดยละเอียดเกี่ยวกับตัวเลือกการปรับแต่ง
 
 ## บทสรุป
 
@@ -107,7 +109,7 @@ Aspose.PDF สำหรับ Java นำเสนอฟีเจอร์มา
 
 ### ฉันจะเพิ่มรูปภาพลงในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java ได้อย่างไร
 
- หากต้องการเพิ่มรูปภาพลงในเอกสาร PDF คุณสามารถใช้`Image` คลาสจาก Aspose.PDF สำหรับ Java นี่คือตัวอย่างพื้นฐาน:
+หากต้องการเพิ่มรูปภาพลงในเอกสาร PDF คุณสามารถใช้ `Image` คลาสจาก Aspose.PDF สำหรับ Java นี่คือตัวอย่างพื้นฐาน:
 
 ```java
 import com.aspose.pdf.Image;
@@ -130,7 +132,7 @@ page.getParagraphs().add(image);
 
 ### ฉันจะเพิ่มไฮเปอร์ลิงก์ลงในข้อความในเอกสาร PDF ได้อย่างไร
 
- หากต้องการเพิ่มไฮเปอร์ลิงก์ไปยังข้อความในเอกสาร PDF คุณสามารถใช้`LinkAnnotation` คลาสจาก Aspose.PDF สำหรับ Java นี่คือตัวอย่างง่ายๆ:
+หากต้องการเพิ่มไฮเปอร์ลิงก์ไปยังข้อความในเอกสาร PDF คุณสามารถใช้ `LinkAnnotation` คลาสจาก Aspose.PDF สำหรับ Java นี่คือตัวอย่างง่ายๆ:
 
 ```java
 import com.aspose.pdf.LinkAnnotation;
@@ -147,7 +149,7 @@ page.getAnnotations().add(link);
 
 ### ฉันจะแยกข้อความจากเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java ได้อย่างไร
 
- คุณสามารถแยกข้อความจากเอกสาร PDF ได้โดยใช้`TextAbsorber` คลาสที่จัดทำโดย Aspose.PDF สำหรับ Java นี่คือตัวอย่างพื้นฐาน:
+คุณสามารถแยกข้อความจากเอกสาร PDF ได้โดยใช้ `TextAbsorber` คลาสที่จัดทำโดย Aspose.PDF สำหรับ Java นี่คือตัวอย่างพื้นฐาน:
 
 ```java
 import com.aspose.pdf.TextAbsorber;
@@ -155,15 +157,17 @@ import com.aspose.pdf.TextAbsorber;
 // เริ่มต้น TextAbsorber
 TextAbsorber textAbsorber = new TextAbsorber();
 
-//ยอมรับเอกสาร PDF
+// ยอมรับเอกสาร PDF
 pdfDocument.getPages().accept(textAbsorber);
 
 // รับข้อความที่แยกออกมา
 String extractedText = textAbsorber.getText();
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

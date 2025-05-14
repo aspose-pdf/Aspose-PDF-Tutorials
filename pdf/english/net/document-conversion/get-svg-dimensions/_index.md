@@ -8,7 +8,9 @@ url: /net/document-conversion/get-svg-dimensions/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get SVG Dimensions
@@ -123,6 +125,7 @@ You can request a [temporary license](https://purchase.aspose.com/temporary-lice
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

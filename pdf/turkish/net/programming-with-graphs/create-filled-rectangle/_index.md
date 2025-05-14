@@ -1,14 +1,16 @@
 ---
-title: Dolu Dikdörtgen Oluştur
-linktitle: Dolu Dikdörtgen Oluştur
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimle .NET için Aspose.PDF kullanarak PDF'de dolu bir dikdörtgenin nasıl oluşturulacağını öğrenin. Her seviyedeki geliştirici için mükemmel.
-weight: 50
-url: /tr/net/programming-with-graphs/create-filled-rectangle/
+"description": "Bu adım adım eğitimle .NET için Aspose.PDF kullanarak PDF'de dolu bir dikdörtgenin nasıl oluşturulacağını öğrenin. Her seviyedeki geliştirici için mükemmel."
+"linktitle": "Dolu Dikdörtgen Oluştur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Dolu Dikdörtgen Oluştur"
+"url": "/tr/net/programming-with-graphs/create-filled-rectangle/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dolu Dikdörtgen Oluştur
@@ -22,8 +24,8 @@ Görsel olarak çekici PDF'leri programatik olarak oluşturmak istediniz mi hiç
 Koda geçmeden önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için harika bir IDE'dir.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
-3. Temel C# Bilgisi: C# programlamaya dair biraz bilgi sahibi olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
+3. Temel C# Bilgisi: C# programlamaya biraz aşinalık, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
 
@@ -56,11 +58,11 @@ Artık her şeyi ayarladığımıza göre koda geçelim!
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF'yi kaydetmek istediğiniz makinenizdeki gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF'yi kaydetmek istediğiniz makinenizdeki gerçek yol ile.
 
 ## Adım 2: Bir Belge Örneği Oluşturun
 
- Daha sonra, bir örnek oluşturacağız`Document`sınıf. Bu sınıf, üzerinde çalışacağınız PDF belgesini temsil eder.
+Daha sonra, bir örnek oluşturacağız `Document` sınıf. Bu sınıf, üzerinde çalışacağınız PDF belgesini temsil eder.
 
 ```csharp
 // Belge örneği oluştur
@@ -82,7 +84,7 @@ Bu kod, belgeye yeni bir sayfa ekleyerek üzerine şekiller çizmemize olanak ta
 
 ## Adım 4: Bir Grafik Örneği Oluşturun
 
- Şekilleri çizmek için bir tane oluşturmamız gerekiyor`Graph` Örneğin. Bir grafiği çeşitli şekiller çizebileceğiniz bir tuval olarak düşünün.
+Şekilleri çizmek için bir tane oluşturmamız gerekiyor `Graph` Örneğin. Bir grafiği çeşitli şekiller çizebileceğiniz bir tuval olarak düşünün.
 
 ```csharp
 // Grafik örneği oluştur
@@ -145,7 +147,7 @@ dataDir = dataDir + "CreateFilledRectangle_out.pdf";
 doc.Save(dataDir);
 ```
 
- Bu kod PDF dosyasını şu adla kaydeder:`CreateFilledRectangle_out.pdf` daha önce belirttiğiniz dizinde.
+Bu kod PDF dosyasını şu adla kaydeder: `CreateFilledRectangle_out.pdf` daha önce belirttiğiniz dizinde.
 
 ## Adım 10: Onay Mesajı
 
@@ -167,19 +169,21 @@ Ve işte karşınızda! .NET için Aspose.PDF kullanarak bir PDF belgesinde dold
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphanenin özelliklerini keşfetmeniz için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphanenin özelliklerini keşfetmeniz için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF desteği almanın bir yolu var mı?
- Kesinlikle! Aspose forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Kesinlikle! Aspose forumundan destek alabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF'i nasıl satın alabilirim?
- Aspose.PDF'yi satın alma sayfasını ziyaret ederek satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.PDF'yi satın alma sayfasını ziyaret ederek satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.PDF ile hangi tür şekiller oluşturabilirim?
 Aspose.PDF kütüphanesini kullanarak dikdörtgenler, daireler, çizgiler ve daha fazlası dahil olmak üzere çeşitli şekiller oluşturabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

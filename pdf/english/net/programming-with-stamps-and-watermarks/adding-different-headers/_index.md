@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/adding-different-headers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Different Headers In PDF File
@@ -151,6 +153,7 @@ You can check out the [documentation](https://reference.aspose.com/pdf/net/) for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

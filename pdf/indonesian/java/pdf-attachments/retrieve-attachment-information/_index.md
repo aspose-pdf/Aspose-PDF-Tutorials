@@ -1,14 +1,16 @@
 ---
-title: Ambil Informasi Lampiran
-linktitle: Ambil Informasi Lampiran
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengambil lampiran PDF di Java menggunakan Aspose.PDF. Panduan langkah demi langkah dengan contoh kode untuk mengelola lampiran dokumen PDF.
-weight: 12
-url: /id/java/pdf-attachments/retrieve-attachment-information/
+"description": "Pelajari cara mengambil lampiran PDF di Java menggunakan Aspose.PDF. Panduan langkah demi langkah dengan contoh kode untuk mengelola lampiran dokumen PDF."
+"linktitle": "Ambil Informasi Lampiran"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ambil Informasi Lampiran"
+"url": "/id/java/pdf-attachments/retrieve-attachment-information/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ambil Informasi Lampiran
@@ -23,7 +25,7 @@ Dalam tutorial ini, Anda akan mempelajari cara menggunakan Aspose.PDF untuk Java
 Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 
 1. Java Development Environment (JDK) terpasang.
-2.  Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Langkah 1: Buat Proyek Java
 
@@ -75,7 +77,7 @@ Dalam tutorial ini, Anda telah mempelajari cara mengambil informasi lampiran dar
 
 ### Bagaimana cara mengekstrak lampiran dari PDF?
 
- Untuk mengekstrak lampiran, Anda dapat menggunakan`attachment.getData()` metode untuk mendapatkan konten lampiran dan kemudian menyimpannya ke berkas lokal.
+Untuk mengekstrak lampiran, Anda dapat menggunakan `attachment.getData()` metode untuk mendapatkan konten lampiran dan kemudian menyimpannya ke berkas lokal.
 
 ### Bisakah saya mengubah lampiran dalam dokumen PDF?
 Ya, Anda dapat menambahkan, menghapus, atau memperbarui lampiran dalam dokumen PDF menggunakan Aspose.PDF untuk Java. Lihat dokumentasi untuk keterangan lebih rinci.
@@ -86,10 +88,12 @@ Aspose.PDF untuk Java mendukung berbagai macam format lampiran, termasuk PDF, ga
 
 ### Bagaimana cara menambahkan lampiran baru ke PDF?
 
- Anda dapat menambahkan lampiran ke dokumen PDF menggunakan`AttachmentCollection.add()`metode. Cukup berikan nama, deskripsi, dan konten lampiran, dan lampiran akan ditambahkan ke dokumen.
+Anda dapat menambahkan lampiran ke dokumen PDF menggunakan `AttachmentCollection.add()` metode. Cukup berikan nama, deskripsi, dan konten lampiran, dan lampiran akan ditambahkan ke dokumen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Halaman Ke EMF
-linktitle: Halaman Ke EMF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengonversi halaman PDF ke format EMF dengan panduan langkah demi langkah ini menggunakan Aspose.PDF untuk .NET. Sempurna untuk pengembang.
-weight: 210
-url: /id/net/programming-with-images/page-to-emf/
+"description": "Pelajari cara mengonversi halaman PDF ke format EMF dengan panduan langkah demi langkah ini menggunakan Aspose.PDF untuk .NET. Sempurna untuk pengembang."
+"linktitle": "Halaman Ke EMF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Halaman Ke EMF"
+"url": "/id/net/programming-with-images/page-to-emf/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Halaman Ke EMF
@@ -59,18 +61,18 @@ Pertama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah berka
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat berkas PDF Anda berada.
+Mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat berkas PDF Anda berada.
 
 ## Langkah 2: Buka Dokumen PDF Anda
 
- Sekarang saatnya memuat dokumen PDF yang berisi halaman yang ingin Anda ubah. Ini dilakukan dengan menggunakan`Document` kelas dari pustaka Aspose.PDF.
+Sekarang saatnya memuat dokumen PDF yang berisi halaman yang ingin Anda ubah. Ini dilakukan dengan menggunakan `Document` kelas dari pustaka Aspose.PDF.
 
 ```csharp
 // Buka dokumen
 Document pdfDocument = new Document(dataDir + "PageToEMF.pdf");
 ```
 
- Pada baris kode ini, ganti`"PageToEMF.pdf"` dengan nama berkas PDF Anda yang sebenarnya. Pastikan berkas tersebut berada di direktori yang ditentukan!
+Pada baris kode ini, ganti `"PageToEMF.pdf"` dengan nama berkas PDF Anda yang sebenarnya. Pastikan berkas tersebut berada di direktori yang ditentukan!
 
 ## Langkah 3: Buat Aliran File untuk Output EMF
 
@@ -80,11 +82,11 @@ Selanjutnya, Anda perlu membuat FileStream tempat citra EMF yang dikonversi akan
 using (FileStream imageStream = new FileStream(dataDir + "image_out.emf", FileMode.Create))
 ```
 
- Di Sini,`"image_out.emf"` adalah nama berkas tempat EMF Anda akan disimpan. Jangan ragu untuk mengubahnya ke nama berkas apa pun yang Anda inginkan!
+Di Sini, `"image_out.emf"` adalah nama berkas tempat EMF Anda akan disimpan. Jangan ragu untuk mengubahnya ke nama berkas apa pun yang Anda inginkan!
 
 ## Langkah 4: Mengatur Resolusi
 
- Resolusi memainkan peran penting dalam bagaimana output EMF Anda akan terlihat. Pada langkah ini, Anda akan menentukan resolusi menggunakan`Resolution` kelas.
+Resolusi memainkan peran penting dalam bagaimana output EMF Anda akan terlihat. Pada langkah ini, Anda akan menentukan resolusi menggunakan `Resolution` kelas.
 
 ```csharp
 // Buat objek Resolusi
@@ -95,7 +97,7 @@ Resolusi 300 DPI (titik per inci) umumnya dianggap berkualitas tinggi, cocok unt
 
 ## Langkah 5: Buat Perangkat EMF
 
- Sekarang kita perlu membuat`EmfDevice` objek, yang akan membantu dalam menghasilkan file keluaran dengan atribut yang ditentukan seperti lebar, tinggi, dan resolusi.
+Sekarang kita perlu membuat `EmfDevice` objek, yang akan membantu dalam menghasilkan file keluaran dengan atribut yang ditentukan seperti lebar, tinggi, dan resolusi.
 
 ```csharp
 // Buat perangkat EMF dengan atribut yang ditentukan
@@ -114,7 +116,7 @@ Ini bagian yang menarik! Anda akan mengonversi halaman PDF yang diinginkan ke fo
 emfDevice.Process(pdfDocument.Pages[1], imageStream);
 ```
 
- Di Sini,`Pages[1]` merujuk ke halaman kedua PDF (karena indeksnya berbasis nol). Jika Anda ingin mengonversi halaman lain, ubah saja indeksnya.
+Di Sini, `Pages[1]` merujuk ke halaman kedua PDF (karena indeksnya berbasis nol). Jika Anda ingin mengonversi halaman lain, ubah saja indeksnya.
 
 ## Langkah 7: Tutup Aliran
 
@@ -145,19 +147,21 @@ Nah, itu dia! Hanya dalam beberapa langkah, Anda telah mempelajari cara mengonve
 Format EMF (Enhanced Metafile) adalah format berkas grafik yang digunakan untuk menyimpan data gambar dalam bentuk vektor, membuatnya dapat diskalakan tanpa kehilangan kualitas.
 
 ### Bisakah saya mengonversi beberapa halaman sekaligus?
- Ya! Anda dapat mengulang halaman dokumen PDF dan memanggil`Process` metode untuk setiap yang ingin Anda konversi.
+Ya! Anda dapat mengulang halaman dokumen PDF dan memanggil `Process` metode untuk setiap yang ingin Anda konversi.
 
 ### Apakah saya memerlukan lisensi untuk Aspose.PDF?
- Meskipun ada uji coba gratis yang tersedia, lisensi diperlukan untuk penggunaan yang luas atau komersial. Periksa lisensi mereka[halaman pembelian](https://purchase.aspose.com/buy) untuk berbagai pilihan.
+Meskipun ada uji coba gratis yang tersedia, lisensi diperlukan untuk penggunaan yang luas atau komersial. Periksa lisensi mereka [halaman pembelian](https://purchase.aspose.com/buy) untuk berbagai pilihan.
 
 ### Bahasa pemrograman apa yang didukung Aspose.PDF?
 Aspose.PDF mendukung banyak bahasa, termasuk C#, Java, Python, dan banyak lagi.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat menemukan dukungan komunitas di[forum dukungan](https://forum.aspose.com/c/pdf/10), tempat Anda dapat mengajukan pertanyaan dan berinteraksi dengan pengguna lain.
+Anda dapat menemukan dukungan komunitas di [forum dukungan](https://forum.aspose.com/c/pdf/10), tempat Anda dapat mengajukan pertanyaan dan berinteraksi dengan pengguna lain.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

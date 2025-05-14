@@ -1,14 +1,16 @@
 ---
-title: Tagi i struktura PDF
-linktitle: Tagi i struktura PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Opanuj znaczniki i strukturę PDF w Javie dzięki samouczkom Aspose.PDF for Java. Twórz dostępne i uporządkowane pliki PDF bez wysiłku.
-weight: 21
-url: /pl/java/pdf-tags-and-structure/
+"description": "Opanuj znaczniki i strukturę PDF w Javie dzięki samouczkom Aspose.PDF for Java. Twórz dostępne i uporządkowane pliki PDF bez wysiłku."
+"linktitle": "Tagi i struktura PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Tagi i struktura PDF"
+"url": "/pl/java/pdf-tags-and-structure/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tagi i struktura PDF
@@ -36,13 +38,15 @@ Dowiedz się, jak tworzyć elementy struktury PDF w Javie za pomocą Aspose.PDF.
 Dowiedz się, jak utworzyć dostępny plik PDF ze strukturą drzewa elementów w języku Java, korzystając z Aspose.PDF, zapewniając dostępność wszystkim użytkownikom.
 ### [Utwórz element tabeli w pliku PDF za pomocą języka Java](./create-table-element-in-pdf-using-java/)
 Dowiedz się, jak tworzyć i dostosowywać tabele w dokumentach PDF za pomocą Java i Aspose.PDF dla Java. Postępuj zgodnie z naszym szczegółowym przewodnikiem z przykładami kodu źródłowego, aby uzyskać precyzyjną kontrolę nad tabelami PDF.
-### [Niestandardowa nazwa znacznika dla pliku PDF przy użyciu języka Java](./custom-tag-name-for-pdf-using-java/)
+### [Niestandardowa nazwa tagu dla pliku PDF przy użyciu języka Java](./custom-tag-name-for-pdf-using-java/)
 Dowiedz się, jak ustawić niestandardowe nazwy tagów dla dokumentów PDF przy użyciu języka Java za pomocą Aspose.PDF dla języka Java.
 ### [Elementy struktury ilustracji w formacie PDF przy użyciu języka Java](./illustration-structure-elements-in-pdf-using-java/)
 Dowiedz się, jak tworzyć ilustracje i elementy struktury w plikach PDF za pomocą języka Java z programem Aspose.PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

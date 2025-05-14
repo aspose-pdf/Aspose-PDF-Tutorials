@@ -1,14 +1,16 @@
 ---
-title: การแบ่งส่วนข้อความในไฟล์ PDF
-linktitle: การแบ่งส่วนข้อความในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีค้นหากลุ่มข้อความที่เจาะจงในไฟล์ PDF โดยใช้นิพจน์ทั่วไปใน Aspose.PDF สำหรับ .NET
-weight: 540
-url: /th/net/programming-with-text/text-segments/
+"description": "เรียนรู้วิธีค้นหากลุ่มข้อความที่เจาะจงในไฟล์ PDF โดยใช้นิพจน์ทั่วไปใน Aspose.PDF สำหรับ .NET"
+"linktitle": "การแบ่งส่วนข้อความในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "การแบ่งส่วนข้อความในไฟล์ PDF"
+"url": "/th/net/programming-with-text/text-segments/"
+"weight": 540
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแบ่งส่วนข้อความในไฟล์ PDF
@@ -23,7 +25,7 @@ url: /th/net/programming-with-text/text-segments/
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่คือจุดที่เราจะเขียนโค้ด
 2. .NET Framework หรือ .NET Core Environment: ตรวจสอบให้แน่ใจว่าคุณมีสภาพแวดล้อมที่เหมาะสมสำหรับแอปพลิเคชันของคุณ Aspose รองรับทั้ง .NET Framework และ .NET Core
-3.  ไลบรารี Aspose.PDF: คุณจะต้องมีไลบรารี Aspose.PDF สำหรับ .NET หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+3. ไลบรารี Aspose.PDF: คุณจะต้องมีไลบรารี Aspose.PDF สำหรับ .NET หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# จะเป็นประโยชน์ แต่ถึงแม้คุณจะเป็นมือใหม่ เราก็จะแนะนำคุณทีละขั้นตอนเกี่ยวกับโค้ด
 5. เอกสาร PDF: เตรียมไฟล์ PDF ที่คุณต้องการแยกข้อความออกมา ซึ่งอาจเป็นอะไรก็ได้ตั้งแต่รายงานทางการเงินไปจนถึงบทความ
 
@@ -37,8 +39,8 @@ url: /th/net/programming-with-text/text-segments/
 
 ### เพิ่มการอ้างอิง Aspose.PDF
 
--  คลิกขวาที่`References` โฟลเดอร์ใน Solution Explorer
-- เลือก "เพิ่มการอ้างอิง" และเรียกดูตำแหน่งที่คุณดาวน์โหลด Aspose.PDF.dll
+- คลิกขวาที่ `References` โฟลเดอร์ใน Solution Explorer
+- เลือก “เพิ่มการอ้างอิง” และเรียกดูตำแหน่งที่คุณดาวน์โหลด Aspose.PDF.dll
 - เพิ่ม DLL นี้ลงในโครงการของคุณ ขั้นตอนนี้จะเชื่อมต่อโครงการของคุณกับไลบรารี Aspose.PDF เพื่อปลดล็อกฟังก์ชันการใช้งาน
 
 ### นำเข้าเนมสเปซ
@@ -53,7 +55,7 @@ using System;
 ```
 นี่แจ้งให้โปรแกรมของคุณใช้คลาสและวิธีการจากไลบรารี Aspose.PDF
 
-เรามาแบ่งการสกัดข้อความประเภทต่างๆ ด้วยตัวอย่างในทางปฏิบัติ เราจะใช้`TextFragmentAbsorber` คลาสซึ่งเป็นกุญแจสำคัญในการค้นหาและแยกข้อความจากเอกสาร PDF
+เรามาแบ่งการสกัดข้อความประเภทต่างๆ ด้วยตัวอย่างในทางปฏิบัติ เราจะใช้ `TextFragmentAbsorber` คลาสซึ่งเป็นกุญแจสำคัญในการค้นหาและแยกข้อความจากเอกสาร PDF
 
 ## ขั้นตอนที่ 1: เริ่มต้นเอกสาร
 
@@ -63,21 +65,21 @@ using System;
 // โหลดเอกสาร PDF
 Document pdfDocument = new Document("Path/To/Your/PDFFile.pdf");
 ```
- แทนที่`"Path/To/Your/PDFFile.pdf"` ด้วยเส้นทางจริงของ PDF ของคุณ
+แทนที่ `"Path/To/Your/PDFFile.pdf"` ด้วยเส้นทางจริงของ PDF ของคุณ
 
 ## ขั้นตอนที่ 2: สร้าง TextFragmentAbsorber
 
- ตอนนี้มาสำรวจตัวอย่างการใช้งานที่แตกต่างกัน`TextFragmentAbsorber` เพื่อดึงข้อความ
+ตอนนี้มาสำรวจตัวอย่างการใช้งานที่แตกต่างกัน `TextFragmentAbsorber` เพื่อดึงข้อความ
 
 ### ตัวอย่างที่ 1: แยกคำที่แน่นอน
 
- เพื่อค้นหาการจับคู่ที่ตรงกันกับคำเฉพาะ คุณสามารถเริ่มต้นคำด้วย`TextFragmentAbsorber` แบบนี้:
+เพื่อค้นหาการจับคู่ที่ตรงกันกับคำเฉพาะ คุณสามารถเริ่มต้นคำด้วย `TextFragmentAbsorber` แบบนี้:
 
 ```csharp
 // ค้นหาคำที่ตรงกันกับคำว่า "Word"
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber(@"\bWord\b", new TextSearchOptions(true));
 ```
- รหัสนี้ตั้งค่าตัวดูดซับเพื่อค้นหาคำว่า "Word" อย่างแม่นยำ โดยถือว่าเป็นคำทั้งคำ`\b` หมายถึงขอบเขตของคำ
+รหัสนี้ตั้งค่าตัวดูดซับเพื่อค้นหาคำว่า "Word" อย่างแม่นยำ โดยถือว่าเป็นคำทั้งคำ `\b` หมายถึงขอบเขตของคำ
 
 ### ตัวอย่างที่ 2: การค้นหาโดยไม่คำนึงถึงตัวพิมพ์เล็ก/ใหญ่
 
@@ -87,7 +89,7 @@ TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber(@"\bWord\b"
 // ค้นหาสตริง "Line" โดยไม่คำนึงถึงตัวพิมพ์เล็ก-ใหญ่
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("(?i)Line", new TextSearchOptions(true));
 ```
- การ`(?i)` ทำให้การค้นหาไม่คำนึงถึงตัวพิมพ์ใหญ่เล็ก 
+การ `(?i)` ทำให้การค้นหาไม่คำนึงถึงตัวพิมพ์ใหญ่เล็ก 
 
 ### ตัวอย่างที่ 3: แยกข้อความทั้งหมดจาก PDF
 
@@ -97,7 +99,7 @@ TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("(?i)Line",
 // วิเคราะห์สตริงทั้งหมดภายในเอกสาร PDF
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber(@"[\S]+");
 ```
- เรกซ์`[\S]+` จับอักขระที่ไม่ใช่ช่องว่างทั้งหมด 
+เรกซ์ `[\S]+` จับอักขระที่ไม่ใช่ช่องว่างทั้งหมด 
 
 ## ขั้นตอนที่ 3: ยอมรับ Absorber ในเอกสาร
 
@@ -127,7 +129,7 @@ foreach (TextFragment textFragment in textFragments)
 
 ## บทสรุป
 
- การแยกข้อความจากไฟล์ PDF ไม่จำเป็นต้องเป็นงานที่น่าปวดหัว ด้วย Aspose.PDF สำหรับ .NET คุณสามารถระบุและดึงข้อมูลที่คุณต้องการออกมาได้อย่างมีประสิทธิภาพ ไม่ว่าคุณต้องการดึงคำเดียวหรือแยกวิเคราะห์เอกสารทั้งหมด ความยืดหยุ่นของนิพจน์ทั่วไปใน`TextFragmentAbsorber`มอบความสามารถในการค้นหาอันทรงพลังให้กับคุณ แล้วทำไมต้องรอ? เจาะลึกเอกสาร PDF ของคุณและเริ่มดึงข้อมูลอันมีค่าออกมาได้ตั้งแต่วันนี้!
+การแยกข้อความจากไฟล์ PDF ไม่จำเป็นต้องเป็นงานที่น่าปวดหัว ด้วย Aspose.PDF สำหรับ .NET คุณสามารถระบุและดึงข้อมูลที่คุณต้องการออกมาได้อย่างมีประสิทธิภาพ ไม่ว่าคุณต้องการดึงคำเดียวหรือแยกวิเคราะห์เอกสารทั้งหมด ความยืดหยุ่นของนิพจน์ทั่วไปใน `TextFragmentAbsorber` มอบความสามารถในการค้นหาอันทรงพลังให้กับคุณ แล้วทำไมต้องรอ? เจาะลึกเอกสาร PDF ของคุณและเริ่มดึงข้อมูลอันมีค่าออกมาได้ตั้งแต่วันนี้!
 
 ## คำถามที่พบบ่อย
 
@@ -138,16 +140,18 @@ Aspose.PDF เป็นไลบรารีอันทรงพลังสำ
 ใช่ Aspose.PDF สำหรับ .NET รองรับทั้งแอปพลิเคชัน .NET Framework และ .NET Core
 
 ### มีการทดลองใช้ฟรีหรือไม่?
- แน่นอน! คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+แน่นอน! คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้จากที่ไหน
- คุณสามารถติดต่อชุมชนสนับสนุน Aspose ได้[ที่นี่](https://forum.aspose.com/c/pdf/10).
+คุณสามารถติดต่อชุมชนสนับสนุน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถซื้อใบอนุญาตได้ [ที่นี่](https://purchase-aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

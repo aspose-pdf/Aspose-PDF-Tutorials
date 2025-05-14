@@ -1,14 +1,16 @@
 ---
-title: Xóa các đối tượng không sử dụng trong tệp PDF
-linktitle: Xóa các đối tượng không sử dụng trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tối ưu hóa tệp PDF bằng cách loại bỏ các đối tượng không sử dụng bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để giảm kích thước tệp và cải thiện hiệu suất.
-weight: 260
-url: /vi/net/programming-with-document/removeunusedobjects/
+"description": "Tìm hiểu cách tối ưu hóa tệp PDF bằng cách loại bỏ các đối tượng không sử dụng bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để giảm kích thước tệp và cải thiện hiệu suất."
+"linktitle": "Xóa các đối tượng không sử dụng trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xóa các đối tượng không sử dụng trong tệp PDF"
+"url": "/vi/net/programming-with-document/removeunusedobjects/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa các đối tượng không sử dụng trong tệp PDF
@@ -23,10 +25,10 @@ Quản lý PDF hiệu quả là điều tối quan trọng trong thế giới k�
 
 Trước khi đi sâu vào các bước, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết để thực hiện theo:
 
--  Aspose.PDF cho .NET đã được cài đặt. Nếu bạn chưa cài đặt, bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET đã được cài đặt. Nếu bạn chưa cài đặt, bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 - Hiểu biết cơ bản về C# và môi trường .NET.
 - Visual Studio hoặc bất kỳ môi trường phát triển C# nào khác.
--  Một giấy phép hợp lệ (hoặc là[tạm thời](https://purchase.aspose.com/temporary-license/)hoặc giấy phép đầy đủ) cho Aspose.PDF. Nếu không, tệp PDF của bạn có thể bị đóng dấu bản quyền.
+- Một giấy phép hợp lệ (hoặc là [tạm thời](https://purchase.aspose.com/temporary-license/) hoặc giấy phép đầy đủ) cho Aspose.PDF. Nếu không, tệp PDF của bạn có thể bị đóng dấu bản quyền.
   
 Đó là tất cả những gì bạn cần! Bây giờ, chúng ta hãy chuyển sang nhập các gói cần thiết và thiết lập môi trường của chúng ta.
 
@@ -47,7 +49,7 @@ Với các không gian tên được nhập này, giờ bạn đã sẵn sàng l
 
 ## Bước 1: Tải Tài liệu PDF
 
- Để bắt đầu, bạn cần tải tài liệu PDF mà bạn muốn tối ưu hóa. Điều này bao gồm việc chỉ định đường dẫn của PDF và tạo một phiên bản của`Document` lớp để tương tác với tệp.
+Để bắt đầu, bạn cần tải tài liệu PDF mà bạn muốn tối ưu hóa. Điều này bao gồm việc chỉ định đường dẫn của PDF và tạo một phiên bản của `Document` lớp để tương tác với tệp.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -55,14 +57,14 @@ Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
 Sau đây là những gì đang xảy ra:
--  Các`dataDir` chuỗi chứa vị trí tệp PDF của bạn.
--  Các`Document` sự vật`pdfDocument` đại diện cho tệp PDF.
+- Các `dataDir` chuỗi chứa vị trí tệp PDF của bạn.
+- Các `Document` sự vật `pdfDocument` đại diện cho tệp PDF.
 
 Nếu không tải PDF, bạn không thể thực hiện bất kỳ thao tác nào trên đó. Bước này đóng vai trò là nền tảng để tối ưu hóa tài liệu của bạn.
 
 ## Bước 2: Thiết lập Tùy chọn Tối ưu hóa
 
- Tiếp theo, chúng ta sẽ tạo một phiên bản của`OptimizationOptions` lớp và thiết lập`RemoveUnusedObjects` tài sản để`true`. Điều này đảm bảo rằng mọi đối tượng không cần thiết như phông chữ, hình ảnh hoặc siêu dữ liệu không sử dụng sẽ bị loại bỏ khỏi PDF.
+Tiếp theo, chúng ta sẽ tạo một phiên bản của `OptimizationOptions` lớp và thiết lập `RemoveUnusedObjects` tài sản để `true`. Điều này đảm bảo rằng mọi đối tượng không cần thiết như phông chữ, hình ảnh hoặc siêu dữ liệu không sử dụng sẽ bị loại bỏ khỏi PDF.
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions
@@ -75,7 +77,7 @@ Bằng cách bật tùy chọn này, bạn hướng dẫn Aspose.PDF quét tài 
 
 ## Bước 3: Tối ưu hóa tài nguyên PDF
 
- Khi các thiết lập tối ưu hóa của bạn đã sẵn sàng, đã đến lúc áp dụng chúng vào tài liệu PDF bằng cách sử dụng`OptimizeResources` phương pháp này. Phương pháp này lấy`optimizeOptions` chúng tôi thiết lập trước đó và thực hiện quá trình tối ưu hóa trên tệp PDF đã tải.
+Khi các thiết lập tối ưu hóa của bạn đã sẵn sàng, đã đến lúc áp dụng chúng vào tài liệu PDF bằng cách sử dụng `OptimizeResources` phương pháp này. Phương pháp này lấy `optimizeOptions` chúng tôi thiết lập trước đó và thực hiện quy trình tối ưu hóa trên tệp PDF đã tải.
 
 ```csharp
 pdfDocument.OptimizeResources(optimizeOptions);
@@ -117,10 +119,12 @@ Việc giảm kích thước tệp phụ thuộc vào số lượng đối tư�
 Sau khi bạn đã lưu tệp PDF đã tối ưu hóa, bạn không thể khôi phục các thay đổi trừ khi bạn đã lưu bản sao lưu của tệp gốc. Đó là lý do tại sao bạn nên lưu phiên bản đã tối ưu hóa với một tên khác.
 
 ### Có cần giấy phép để sử dụng Aspose.PDF cho .NET không?
- Có, Aspose.PDF cho .NET yêu cầu giấy phép để mở khóa tất cả các tính năng. Bạn có thể lấy[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc mua giấy phép đầy đủ[đây](https://purchase.aspose.com/buy).
+Có, Aspose.PDF cho .NET yêu cầu giấy phép để mở khóa tất cả các tính năng. Bạn có thể có được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc mua giấy phép đầy đủ [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

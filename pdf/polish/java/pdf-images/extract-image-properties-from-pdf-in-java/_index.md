@@ -1,14 +1,16 @@
 ---
-title: Wyodrębnij właściwości obrazu z pliku PDF w Javie
-linktitle: Wyodrębnij właściwości obrazu z pliku PDF w Javie
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak wyodrębnić właściwości obrazu z plików PDF w Javie przy użyciu Aspose.PDF dla Javy. Przewodnik krok po kroku z kodem źródłowym. Udoskonal swoje umiejętności przetwarzania plików PDF już dziś!
-weight: 23
-url: /pl/java/pdf-images/extract-image-properties-from-pdf-in-java/
+"description": "Dowiedz się, jak wyodrębnić właściwości obrazu z plików PDF w Javie za pomocą Aspose.PDF dla Javy. Przewodnik krok po kroku z kodem źródłowym. Udoskonal swoje umiejętności przetwarzania plików PDF już dziś!"
+"linktitle": "Wyodrębnij właściwości obrazu z pliku PDF w Javie"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Wyodrębnij właściwości obrazu z pliku PDF w Javie"
+"url": "/pl/java/pdf-images/extract-image-properties-from-pdf-in-java/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnij właściwości obrazu z pliku PDF w Javie
@@ -22,7 +24,7 @@ Dokumenty PDF często zawierają obrazy i może być przydatne wyodrębnienie in
 
 ## 2. Konfigurowanie Aspose.PDF dla Java
 
- Zanim zaczniemy, musisz skonfigurować Aspose.PDF dla Javy w swoim projekcie. Możesz pobrać bibliotekę ze strony internetowej[Tutaj](https://releases.aspose.com/pdf/java/) i postępuj zgodnie z instrukcją instalacji.
+Zanim zaczniemy, musisz skonfigurować Aspose.PDF dla Javy w swoim projekcie. Możesz pobrać bibliotekę ze strony internetowej [Tutaj](https://releases.aspose.com/pdf/java/) i postępuj zgodnie z instrukcją instalacji.
 
 ## 3. Ładowanie dokumentu PDF
 
@@ -33,11 +35,11 @@ Aby pracować z dokumentem PDF, musisz go najpierw załadować za pomocą Aspose
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Zastępować`"example.pdf"` ze ścieżką do pliku PDF.
+Zastępować `"example.pdf"` ze ścieżką do pliku PDF.
 
 ## 4. Ekstrakcja właściwości obrazu
 
- Teraz, gdy załadowaliśmy dokument PDF, wyodrębnijmy właściwości obrazu. Aspose.PDF dla Javy zapewnia`Page.getResources()` metoda dostępu do zasobów strony, w tym obrazów.
+Teraz, gdy załadowaliśmy dokument PDF, wyodrębnijmy właściwości obrazu. Aspose.PDF dla Javy zapewnia `Page.getResources()` metoda dostępu do zasobów strony, w tym obrazów.
 
 ```java
 // Uzyskaj dostęp do pierwszej strony dokumentu
@@ -96,11 +98,11 @@ W tym przewodniku nauczyliśmy się, jak wyodrębnić właściwości obrazu z do
 
 ### Jak zainstalować Aspose.PDF dla Java?
 
- Możesz pobrać Aspose.PDF dla Javy ze strony internetowej[Tutaj](https://releases.aspose.com/pdf/java/) i postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
+Możesz pobrać Aspose.PDF dla Javy ze strony internetowej [Tutaj](https://releases.aspose.com/pdf/java/) i postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
 
 ### Czy mogę wyodrębnić właściwości obrazu z określonych stron w pliku PDF?
 
-Tak, możesz wyodrębnić właściwości obrazu ze określonych stron, uzyskując dostęp do żądanej strony za pomocą`pdfDocument.getPages().get_Item(pageNumber)` a następnie wykonaj te same kroki, które opisano w przewodniku.
+Tak, możesz wyodrębnić właściwości obrazu ze określonych stron, uzyskując dostęp do żądanej strony za pomocą `pdfDocument.getPages().get_Item(pageNumber)` a następnie wykonaj te same kroki, które opisano w przewodniku.
 
 ### Czy mogę modyfikować właściwości obrazu za pomocą Aspose.PDF dla Java?
 
@@ -108,11 +110,13 @@ Tak, możesz modyfikować właściwości obrazu, takie jak zmiana rozmiaru, komp
 
 ### Gdzie mogę znaleźć więcej dokumentacji i przykładów dla Aspose.PDF dla Java?
 
- Pełną dokumentację i przykłady można znaleźć na stronie internetowej dokumentacji Aspose.PDF dla interfejsu API Java:[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację i przykłady można znaleźć na stronie internetowej dokumentacji Aspose.PDF dla interfejsu API Java: [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

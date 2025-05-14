@@ -1,21 +1,23 @@
 ---
-title: Ajouter une colonne répétitive dans un document PDF
-linktitle: Ajouter une colonne répétitive dans un document PDF
-second_title: Référence de l'API Aspose.PDF pour .NET
-description: Découvrez comment ajouter des colonnes répétitives à des documents PDF à l'aide d'Aspose.PDF pour .NET. Guide étape par étape avec exemples et code. Idéal pour les développeurs.
-weight: 20
-url: /fr/net/programming-with-tables/add-repeating-column/
+"description": "Apprenez à ajouter des colonnes répétitives à vos documents PDF avec Aspose.PDF pour .NET. Guide étape par étape avec exemples et code. Idéal pour les développeurs."
+"linktitle": "Ajouter une colonne répétitive dans un document PDF"
+"second_title": "Référence de l'API Aspose.PDF pour .NET"
+"title": "Ajouter une colonne répétitive dans un document PDF"
+"url": "/fr/net/programming-with-tables/add-repeating-column/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ajouter une colonne répétitive dans un document PDF
 
 ## Introduction
 
-Si vous travaillez avec des documents PDF et que vous devez ajouter des colonnes répétitives, vous êtes au bon endroit ! Grâce à Aspose.PDF pour .NET, vous pouvez facilement gérer les tableaux et le contenu d'un PDF. Que vous créiez des rapports dynamiques, des factures ou tout autre document structuré, les colonnes répétitives peuvent changer la donne dans l'organisation des données. Découvrons un guide étape par étape sur la façon d'ajouter des colonnes répétitives à un document PDF.
+Si vous travaillez avec des documents PDF et devez ajouter des colonnes répétitives, vous êtes au bon endroit ! Avec Aspose.PDF pour .NET, vous pouvez facilement gérer les tableaux et le contenu d'un PDF. Que vous créiez des rapports dynamiques, des factures ou tout autre document structuré, les colonnes répétitives peuvent révolutionner l'organisation des données. Découvrez un guide étape par étape pour ajouter des colonnes répétitives à un document PDF.
 
 ## Prérequis
 
@@ -25,11 +27,11 @@ Avant de passer au code, assurons-nous que tout est configuré :
 - [Télécharger Aspose.PDF pour .NET](https://releases.aspose.com/pdf/net/)
 - [Essai gratuit](https://releases.aspose.com/)
 - Environnement de développement : assurez-vous d’avoir installé un IDE compatible .NET tel que Visual Studio.
-- Compréhension de base de C# : nous allons tout détailler, mais une compréhension de base de C# vous aidera à suivre en douceur.
+- Compréhension de base de C# : bien que nous allons tout décomposer, une compréhension de base de C# vous aidera à suivre en douceur.
   
- Si vous n'avez pas encore Aspose.PDF pour .NET, vous pouvez obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour commencer à explorer ses fonctionnalités.
+Si vous n'avez pas encore Aspose.PDF pour .NET, vous pouvez obtenir un [permis temporaire](https://purchase.aspose.com/temporary-license/) pour commencer à explorer ses fonctionnalités.
 
-## Paquets d'importation
+## Importer des packages
 
 Pour commencer, vous devez importer les espaces de noms nécessaires depuis Aspose.PDF pour .NET. Voici comment procéder :
 
@@ -40,33 +42,33 @@ using Aspose.Pdf.Text;
 
 Ces packages fournissent les classes et méthodes essentielles nécessaires pour travailler avec des documents PDF et manipuler des tableaux.
 
-Décomposons maintenant le processus en plusieurs étapes pour ajouter des colonnes répétitives à un document PDF. Suivez-moi !
+Décomposons maintenant le processus en plusieurs étapes pour ajouter des colonnes répétitives à un document PDF. Suivez-nous !
 
 ## Étape 1 : définissez le chemin d’accès à votre répertoire de documents
 
-Avant de créer ou de manipuler des fichiers, nous devons définir le chemin où le PDF généré sera enregistré. Dans votre projet C#, définissez le chemin du répertoire où seront situés vos fichiers :
+Avant de créer ou de manipuler des fichiers, nous devons définir le chemin d'accès au fichier PDF généré. Dans votre projet C#, définissez le chemin d'accès à vos fichiers :
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outFile = dataDir + "AddRepeatingColumn_out.pdf";
 ```
 
- Ce chemin pointe vers le répertoire où le PDF de sortie sera enregistré. Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel sur votre machine.
+Ce chemin pointe vers le répertoire où le PDF de sortie sera enregistré. Remplacer `"YOUR DOCUMENT DIRECTORY"` avec le chemin réel sur votre machine.
 
-## Étape 2 : Créer un nouveau document PDF
+## Étape 2 : Créer un nouveau document PDF
 
- Pour commencer, instanciez un nouveau`Document` objet. Il servira de conteneur pour toutes les pages et le contenu du PDF.
+Pour commencer, instanciez un nouveau `Document` objet. Il servira de conteneur pour toutes les pages et le contenu du PDF.
 
 ```csharp
 Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
- Ici, nous avons créé un nouveau document PDF et y avons ajouté une page vierge.`doc.Pages.Add()` la méthode insère une nouvelle page dans le document.
+Ici, nous avons créé un nouveau document PDF et y avons ajouté une page vierge. `doc.Pages.Add()` la méthode insère une nouvelle page dans le document.
 
 ## Étape 3 : instancier la table externe
 
-Ensuite, nous créons un tableau externe. Ce tableau s'étendra sur toute la largeur de la page et servira de conteneur pour d'autres tableaux, y compris celui qui contiendra les colonnes répétitives.
+Ensuite, nous créons un tableau externe. Ce tableau s'étendra sur toute la largeur de la page et servira de conteneur pour les autres tableaux, y compris celui qui contiendra les colonnes répétitives.
 
 ```csharp
 Aspose.Pdf.Table outerTable = new Aspose.Pdf.Table();
@@ -74,11 +76,11 @@ outerTable.ColumnWidths = "100%";
 outerTable.HorizontalAlignment = HorizontalAlignment.Left;
 ```
 
- Nous avons mis en place le`ColumnWidths` propriété à « 100 % », ce qui signifie que le tableau s'étendra sur toute la largeur de la page.
+Nous avons défini le `ColumnWidths` propriété à « 100 % », ce qui signifie que le tableau s'étendra sur toute la largeur de la page.
 
-## Étape 4 : Créer la table interne
+## Étape 4 : Créer la table intérieure
 
- Créons maintenant la table interne, qui comportera des colonnes répétitives. Les propriétés clés ici sont`Broken` , ce qui permet au tableau de continuer sur la même page, et`ColumnAdjustment`, qui ajuste automatiquement la largeur des colonnes pour s'adapter au contenu.
+Créons maintenant la table interne, qui comportera des colonnes répétitives. Les propriétés clés sont : `Broken`, ce qui permet au tableau de continuer sur la même page, et `ColumnAdjustment`, qui ajuste automatiquement la largeur des colonnes pour s'adapter au contenu.
 
 ```csharp
 Aspose.Pdf.Table mytable = new Aspose.Pdf.Table();
@@ -100,11 +102,11 @@ bodyCell.Paragraphs.Add(mytable);
 mytable.RepeatingColumnsCount = 5;
 ```
 
- Ici, nous avons ajouté le`outerTable` à la page, puis dans la table externe, nous avons imbriqué le`mytable` . De plus, nous avons mis en place`RepeatingColumnsCount`à 5, spécifiant le nombre de colonnes à répéter lorsque des données sont ajoutées.
+Ici, nous avons ajouté le `outerTable` à la page, puis dans le tableau extérieur, nous avons imbriqué le `mytable`. De plus, nous avons mis en place `RepeatingColumnsCount` à 5, spécifiant le nombre de colonnes à répéter lorsque des données sont ajoutées.
 
 ## Étape 6 : Ajouter une ligne d’en-tête
 
-Il est maintenant temps d'ajouter les en-têtes au tableau. La ligne d'en-tête donne un contexte aux données et aide à structurer les colonnes. 
+Il est maintenant temps d'ajouter les en-têtes au tableau. La ligne d'en-tête donne du contexte aux données et aide à structurer les colonnes. 
 
 ```csharp
 Aspose.Pdf.Row row = mytable.Rows.Add();
@@ -128,7 +130,7 @@ Cet extrait de code ajoute la première ligne (que nous utiliserons comme en-tê
 
 ## Étape 7 : Ajouter des lignes de données
 
-Enfin, nous pouvons ajouter des données au tableau. Cette boucle crée dynamiquement des lignes et remplit les cellules avec du contenu :
+Enfin, nous pouvons ajouter des données au tableau. Cette boucle crée dynamiquement des lignes et remplit les cellules :
 
 ```csharp
 for (int RowCounter = 0; RowCounter <= 5; RowCounter++)
@@ -153,7 +155,7 @@ for (int RowCounter = 0; RowCounter <= 5; RowCounter++)
 
 La boucle s'exécute six fois, ajoutant des lignes et remplissant chaque cellule avec les données de colonne correspondantes (par exemple, « col 1, 1 », « col 2, 2 », etc.).
 
-## Étape 8 : Enregistrer le document
+## Étape 8 : Enregistrer le document
 
 Une fois toutes les lignes et colonnes ajoutées, la dernière étape consiste à enregistrer le document dans le chemin de fichier spécifié.
 
@@ -165,7 +167,7 @@ Votre document est maintenant enregistré avec des colonnes répétitives !
 
 ## Conclusion
 
-Et voilà ! Avec ces quelques étapes simples, vous pouvez créer un document PDF avec des colonnes répétitives à l'aide d'Aspose.PDF pour .NET. En tirant parti de la flexibilité des tableaux imbriqués, vous pouvez obtenir des mises en page complexes qui donnent à vos PDF un aspect professionnel et organisé. Essayez ceci pour votre prochain projet et explorez tout le potentiel d'Aspose.PDF pour répondre à vos besoins de génération de PDF.
+Et voilà ! En quelques étapes simples, vous pouvez créer un document PDF avec des colonnes répétitives avec Aspose.PDF pour .NET. Grâce à la flexibilité des tableaux imbriqués, vous pouvez réaliser des mises en page complexes qui donnent à vos PDF un aspect professionnel et organisé. Essayez-le pour votre prochain projet et explorez tout le potentiel d'Aspose.PDF pour répondre à vos besoins de génération de PDF.
 
 ## FAQ
 
@@ -173,19 +175,21 @@ Et voilà ! Avec ces quelques étapes simples, vous pouvez créer un document PD
 Aspose.PDF pour .NET est une bibliothèque puissante qui permet aux développeurs de créer, modifier et gérer des documents PDF par programmation.
 
 ### Puis-je ajuster le nombre de colonnes répétitives de manière dynamique ?
- Oui, vous pouvez modifier le nombre de colonnes répétitives en modifiant le`RepeatingColumnsCount` propriété.
+Oui, vous pouvez modifier le nombre de colonnes répétitives en modifiant le `RepeatingColumnsCount` propriété.
 
 ### Comment puis-je appliquer une licence à Aspose.PDF pour .NET ?
- Vous pouvez appliquer une licence à partir d'un fichier ou d'un flux en suivant les[documentation](https://reference.aspose.com/pdf/net/).
+Vous pouvez appliquer une licence à partir d'un fichier ou d'un flux en suivant les [documentation](https://reference.aspose.com/pdf/net/).
 
 ### Est-il possible d'ajouter des images aux cellules du tableau ?
 Oui, Aspose.PDF pour .NET prend en charge l’ajout de différents types de contenu, y compris des images, aux cellules du tableau.
 
-### Puis-je personnaliser davantage la disposition du tableau ?
-Absolument ! Aspose.PDF fournit de nombreuses fonctionnalités pour personnaliser les styles de tableau, notamment les bordures, le remplissage, l'alignement, etc.
+### Puis-je personnaliser davantage la disposition du tableau ?
+Absolument ! Aspose.PDF offre de nombreuses fonctionnalités pour personnaliser les styles de tableau, notamment les bordures, le remplissage, l'alignement, etc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

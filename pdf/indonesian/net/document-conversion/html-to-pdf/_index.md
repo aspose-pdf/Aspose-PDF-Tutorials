@@ -1,14 +1,16 @@
 ---
-title: HTML ke PDF
-linktitle: HTML ke PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengonversi HTML ke PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 50
-url: /id/net/document-conversion/html-to-pdf/
+"description": "Pelajari cara mengonversi HTML ke PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "HTML ke PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "HTML ke PDF"
+"url": "/id/net/document-conversion/html-to-pdf/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML ke PDF
@@ -23,12 +25,12 @@ Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan kita.
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework. Aspose.PDF mendukung berbagai versi, jadi periksa kompatibilitasnya dengan proyek Anda.
-3. Pustaka Aspose.PDF: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+3. Pustaka Aspose.PDF: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
 
-Untuk memulai dengan Aspose.PDF, Anda perlu mengimpor paket-paket yang diperlukan ke dalam proyek Anda. Berikut ini cara melakukannya:
+Untuk memulai Aspose.PDF, Anda perlu mengimpor paket-paket yang diperlukan ke dalam proyek Anda. Berikut ini cara melakukannya:
 
 ```csharp
 using System.IO;
@@ -42,8 +44,8 @@ Sekarang setelah semuanya disiapkan, mari kita uraikan proses konversi HTML ke P
 
 Sebelum menulis kode apa pun, Anda perlu menyiapkan direktori proyek. Di sinilah Anda akan menyimpan berkas HTML dan PDF keluaran.
 
--  Buat folder di komputer Anda tempat Anda akan menyimpan file HTML. Misalnya, Anda dapat menamainya`Documents`.
--  Tempatkan file HTML Anda (misalnya,`HTMLToPDF.html`) dalam folder ini.
+- Buat folder di komputer Anda tempat Anda akan menyimpan file HTML. Misalnya, Anda dapat menamainya `Documents`.
+- Tempatkan file HTML Anda (misalnya, `HTMLToPDF.html`) dalam folder ini.
 
 Sekarang, mari kita tulis kode untuk melakukan konversi. Buka file C# utama Anda dan ikuti langkah-langkah berikut:
 
@@ -55,11 +57,11 @@ Pertama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah berka
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya menuju Anda`Documents` map.
+Mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya menuju Anda `Documents` map.
 
 ### Langkah 3: Buat HtmlLoadOptions
 
-Berikutnya, Anda akan membuat sebuah instance dari`HtmlLoadOptions`Kelas ini memungkinkan Anda menyesuaikan cara sumber daya eksternal dimuat.
+Berikutnya, Anda akan membuat sebuah instance dari `HtmlLoadOptions`Kelas ini memungkinkan Anda menyesuaikan cara sumber daya eksternal dimuat.
 
 ```csharp
 HtmlLoadOptions options = new HtmlLoadOptions();
@@ -70,7 +72,7 @@ Cuplikan kode ini menyiapkan opsi untuk memuat sumber daya eksternal, memastikan
 
 ### Langkah 4: Muat Dokumen HTML
 
- Sekarang, saatnya memuat dokumen HTML Anda ke Aspose.PDF`Document` obyek.
+Sekarang, saatnya memuat dokumen HTML Anda ke Aspose.PDF `Document` obyek.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "HTMLToPDF.html", options);
@@ -115,19 +117,21 @@ Selamat! Anda telah berhasil mempelajari cara mengonversi HTML ke PDF menggunaka
 Aspose.PDF adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Apakah Aspose.PDF kompatibel dengan .NET Core?
 Ya, Aspose.PDF mendukung .NET Core, memungkinkan Anda menggunakannya dalam aplikasi modern.
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Di mana saya dapat membeli Aspose.PDF?
- Anda dapat membeli lisensi untuk Aspose.PDF[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi untuk Aspose.PDF [Di Sini](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

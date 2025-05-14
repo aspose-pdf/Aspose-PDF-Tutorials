@@ -1,14 +1,16 @@
 ---
-title: Chú thích PDF
-linktitle: Chú thích PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Khám phá hướng dẫn chú thích PDF với Aspose.PDF cho Java, tìm hiểu cách thêm tính tương tác, bình luận và nhiều tính năng khác vào PDF của bạn.
-weight: 10
-url: /vi/java/pdf-annotations/
+"description": "Khám phá hướng dẫn chú thích PDF với Aspose.PDF cho Java, tìm hiểu cách thêm tính tương tác, bình luận và nhiều tính năng khác vào PDF của bạn."
+"linktitle": "Chú thích PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Chú thích PDF"
+"url": "/vi/java/pdf-annotations/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chú thích PDF
@@ -28,7 +30,7 @@ Chú thích không chỉ là về cải tiến trực quan; chúng còn tạo đ
 ### [Thêm bình luận vào tài liệu PDF](./add-comments-pdf-documents/)
 Tìm hiểu cách thêm chú thích vào tài liệu PDF bằng Aspose.PDF cho Java - Hướng dẫn từng bước có ví dụ về mã.
 ### [Xóa chú thích khỏi trang PDF](./remove-annotations-pdf-pages/)
-Tìm hiểu cách xóa chú thích PDF dễ dàng với Aspose.PDF cho Java. Hướng dẫn từng bước và mã đi kèm.
+Tìm hiểu cách xóa chú thích PDF dễ dàng với Aspose.PDF cho Java. Hướng dẫn từng bước và mã kèm theo.
 ### [Xóa chú thích cụ thể trong tệp PDF](./delete-specific-annotations-pdf-files/)
 Tìm hiểu cách xóa chú thích cụ thể trong tệp PDF một cách dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để quản lý chú thích PDF chính xác.
 ### [Lấy chú thích từ các trang PDF](./retrieve-annotations-pdf-pages/)
@@ -39,9 +41,11 @@ Tìm hiểu cách trích xuất chú thích cụ thể từ PDF bằng Aspose.PD
 Khám phá sức mạnh của việc biên tập nội dung nhạy cảm trong tệp PDF bằng Aspose.PDF cho Java.
 ### [Gạch ngang văn bản bằng cách sử dụng chú thích](./strike-through-text-using-annotations/)
 Tìm hiểu cách thêm chú thích văn bản gạch ngang vào tài liệu PDF bằng Aspose.PDF cho Java. Làm theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu chính xác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

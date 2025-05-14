@@ -1,30 +1,32 @@
 ---
-title: Thêm Java Script vào tệp PDF
-linktitle: Thêm tệp PDF Java Script
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm JavaScript vào tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với hướng dẫn mã cho tập lệnh cấp tài liệu và trang.
-weight: 10
-url: /vi/net/programming-with-document/addjavascripttopage/
+"description": "Tìm hiểu cách thêm JavaScript vào tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với hướng dẫn mã cho tập lệnh cấp tài liệu và trang."
+"linktitle": "Thêm tệp PDF Java Script"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm Java Script vào tệp PDF"
+"url": "/vi/net/programming-with-document/addjavascripttopage/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Java Script vào tệp PDF
 
 ## Giới thiệu
 
-Bạn đã bao giờ tự hỏi làm thế nào để cải thiện PDF của mình bằng các thành phần tương tác như cảnh báo bật lên hoặc chức năng tự động in chưa? Vâng, tin tốt là bạn có thể! Bằng cách sử dụng Aspose.PDF cho .NET, bạn có thể dễ dàng thêm JavaScript vào tài liệu PDF của mình. Cho dù bạn đang tự động hóa các tác vụ hay tạo trải nghiệm người dùng động, việc nhúng JavaScript vào PDF sẽ cung cấp cho các tệp của bạn mức chức năng bổ sung đó.
+Bạn đã bao giờ tự hỏi làm thế nào để cải thiện PDF của mình bằng các thành phần tương tác như cảnh báo bật lên hoặc chức năng in tự động chưa? Vâng, tin tốt là bạn có thể! Bằng cách sử dụng Aspose.PDF cho .NET, bạn có thể dễ dàng thêm JavaScript vào tài liệu PDF của mình. Cho dù bạn đang tự động hóa các tác vụ hay tạo trải nghiệm người dùng động, việc nhúng JavaScript vào PDF sẽ mang lại cho các tệp của bạn mức chức năng bổ sung đó.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu phần mã hóa, bạn cần thiết lập một số thứ sau:
 
--  Aspose.PDF cho .NET: Tải xuống thư viện từ[Aspose phát hành](https://releases.aspose.com/pdf/net/) hoặc nhận được một[dùng thử miễn phí](https://releases.aspose.com/).
+- Aspose.PDF cho .NET: Tải xuống thư viện từ [Aspose phát hành](https://releases.aspose.com/pdf/net/) hoặc nhận được một [dùng thử miễn phí](https://releases.aspose.com/).
 - Môi trường phát triển: Bất kỳ IDE nào tương thích với .NET như Visual Studio.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã quen thuộc với cú pháp C# cơ bản.
--  Giấy phép tạm thời (Tùy chọn): Bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn muốn tránh những hạn chế trong quá trình phát triển của mình.
+- Giấy phép tạm thời (Tùy chọn): Bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn muốn tránh những hạn chế trong quá trình phát triển của mình.
 
 ## Nhập gói
 
@@ -40,7 +42,7 @@ using Aspose.Pdf.Text;
 
 Bây giờ bạn đã nhập đúng không gian tên, bạn đã sẵn sàng để bắt đầu viết mã.
 
-## Bước 1: Tải PDF hiện có
+## Bước 1: Tải tệp PDF hiện có
 
 Trước tiên, bạn cần tải tài liệu PDF mà bạn muốn thêm JavaScript. Bước này thiết lập bối cảnh cho tất cả các sửa đổi tiếp theo. Hãy tưởng tượng bạn có một tệp PDF mà bạn muốn cải thiện bằng chức năng động, chẳng hạn như tự động in tài liệu khi mở.
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Trong đoạn mã này, chúng tôi đang sử dụng`Document` lớp để tải tệp PDF hiện có từ thư mục đã chỉ định. Đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp PDF của bạn.
+Trong đoạn mã này, chúng tôi đang sử dụng `Document` lớp để tải tệp PDF hiện có từ thư mục đã chỉ định. Đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tệp PDF của bạn.
 
 ## Bước 2: Thêm JavaScript ở cấp độ tài liệu
 
@@ -73,7 +75,7 @@ JavascriptAction javaScript = new JavascriptAction("this.print({bUI:true,bSilent
 doc.OpenAction = javaScript;
 ```
 
- Trong bước này, chúng ta tạo ra một`JavascriptAction` đối tượng định nghĩa hàm JavaScript để mở hộp thoại in khi tài liệu được mở.`doc.OpenAction` sau đó thuộc tính này được gán cho hành động JavaScript này.
+Trong bước này, chúng ta tạo ra một `JavascriptAction` đối tượng định nghĩa hàm JavaScript để mở hộp thoại in khi tài liệu được mở. `doc.OpenAction` sau đó thuộc tính này được gán cho hành động JavaScript này.
 
 ## Bước 3: Thêm JavaScript ở cấp độ trang
 
@@ -111,7 +113,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nJavaScript added successfully to the PDF.\nFile saved at " + dataDir);
 ```
 
- Trong đoạn mã này, chúng tôi lưu tài liệu đã cập nhật với JavaScript đã thêm vào một tệp mới có tên`"JavaScript-Added_out.pdf"`. Điều này đảm bảo bạn không ghi đè lên tệp gốc và cung cấp cho bạn bản sao lưu để làm việc.
+Trong đoạn mã này, chúng tôi lưu tài liệu đã cập nhật với JavaScript đã thêm vào một tệp mới có tên `"JavaScript-Added_out.pdf"`. Điều này đảm bảo bạn không ghi đè lên tệp gốc và cung cấp cho bạn bản sao lưu để làm việc.
 
 ## Phần kết luận
 
@@ -123,7 +125,7 @@ Thêm JavaScript vào tệp PDF bằng Aspose.PDF cho .NET là một cách mạn
 Có, bạn có thể chỉ định các hành động JavaScript khác nhau cho từng trang hoặc toàn bộ tài liệu.
 
 ### Có thể xóa JavaScript khỏi PDF sau khi đã thêm vào không?
-Có, bạn có thể xóa hoặc sửa đổi các hành động JavaScript hiện có bằng cách xóa`Actions` thuộc tính của tài liệu hoặc trang.
+Có, bạn có thể xóa hoặc sửa đổi các hành động JavaScript hiện có bằng cách xóa `Actions` thuộc tính của tài liệu hoặc trang.
 
 ### Tôi có thể sử dụng loại hàm JavaScript nào trong PDF?
 Bạn có thể sử dụng bất kỳ JavaScript nào được công cụ JavaScript của Adobe Acrobat hỗ trợ, chẳng hạn như in, cảnh báo và thao tác biểu mẫu.
@@ -133,9 +135,11 @@ Hầu hết các hành động JavaScript sẽ hoạt động trong trình xem P
 
 ### Tôi có thể kích hoạt các hành động JavaScript dựa trên thông tin người dùng nhập vào tệp PDF không?
 Có, bạn có thể liên kết JavaScript với các trường biểu mẫu để kích hoạt các hành động dựa trên dữ liệu nhập của người dùng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

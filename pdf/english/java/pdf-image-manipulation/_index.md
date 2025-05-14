@@ -8,7 +8,9 @@ url: /java/pdf-image-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Image Manipulation
@@ -47,9 +49,11 @@ Learn how to identify colored or black and white images inside PDFs using Aspose
 Learn how to replace images in PDF files with Java using Aspose.PDF for Java. Step-by-step guide with code examples for seamless image replacement.
 ### [Setting DPI or PPI of Images in PDF using Java](./setting-dpi-or-ppi-of-images-in-pdf-using-java/)
 Optimize PDF image quality with our step-by-step guide on setting DPI/PPI in PDF using Java. Learn how to enhance your documents for print and digital display.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

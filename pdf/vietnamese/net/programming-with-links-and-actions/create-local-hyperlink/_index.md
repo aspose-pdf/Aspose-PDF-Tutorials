@@ -1,14 +1,16 @@
 ---
-title: Tạo siêu liên kết cục bộ trong tệp PDF
-linktitle: Tạo siêu liên kết cục bộ trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo siêu liên kết cục bộ trong tệp PDF bằng Aspose.PDF cho .NET một cách dễ dàng với hướng dẫn từng bước của chúng tôi.
-weight: 40
-url: /vi/net/programming-with-links-and-actions/create-local-hyperlink/
+"description": "Tìm hiểu cách tạo siêu liên kết cục bộ trong tệp PDF bằng Aspose.PDF cho .NET một cách dễ dàng với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Tạo siêu liên kết cục bộ trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo siêu liên kết cục bộ trong tệp PDF"
+"url": "/vi/net/programming-with-links-and-actions/create-local-hyperlink/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo siêu liên kết cục bộ trong tệp PDF
@@ -21,10 +23,10 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạ
 
 Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Visual Studio: Bạn sẽ cần điều này để phát triển các ứng dụng .NET của mình. Tải xuống từ[trang web](https://visualstudio.microsoft.com/).
-2.  Aspose.PDF cho .NET: Bạn có thể tải xuống thư viện này thông qua[liên kết tải xuống ở đây](https://releases.aspose.com/pdf/net/). Nó đi kèm với một bộ tính năng phong phú để xử lý PDF.
+1. Visual Studio: Bạn sẽ cần điều này để phát triển các ứng dụng .NET của mình. Tải xuống từ [trang web](https://visualstudio.microsoft.com/).
+2. Aspose.PDF cho .NET: Bạn có thể tải xuống thư viện này thông qua [liên kết tải xuống ở đây](https://releases.aspose.com/pdf/net/). Nó đi kèm với một bộ tính năng phong phú để xử lý PDF.
 3. Kiến thức cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ giúp ích, nhưng đừng lo lắng; chúng ta sẽ xem xét từng dòng mã.
-4.  .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Bạn có thể kiểm tra các yêu cầu trên Aspose.PDF[tài liệu](https://reference.aspose.com/pdf/net/).
+4. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Bạn có thể kiểm tra các yêu cầu trên Aspose.PDF [tài liệu](https://reference.aspose.com/pdf/net/).
 
 Khi đã thiết lập xong các điều kiện tiên quyết này, bạn đã sẵn sàng tìm hiểu cách tạo siêu liên kết cục bộ trong tài liệu PDF của mình!
 
@@ -38,7 +40,7 @@ Mở dự án .NET hiện tại của bạn hoặc tạo một dự án mới tr
 
 ### Thêm tham chiếu đến Aspose.PDF
 
- Nhấp chuột phải vào "Dependencies" trong thư mục dự án của bạn trong Solution Explorer. Chọn "Manage NuGet Packages", sau đó tìm kiếm`Aspose.PDF`. Cài đặt phiên bản mới nhất hiện có. Phiên bản này sẽ cung cấp tất cả các công cụ bạn cần để tạo và xử lý PDF.
+Nhấp chuột phải vào "Dependencies" trong thư mục dự án của bạn trong Solution Explorer. Chọn "Manage NuGet Packages", sau đó tìm kiếm `Aspose.PDF`. Cài đặt phiên bản mới nhất hiện có. Phiên bản này sẽ cung cấp tất cả các công cụ bạn cần để tạo và xử lý PDF.
 
 ### Nhập không gian tên
 
@@ -63,7 +65,7 @@ Chúng ta hãy chia nhỏ quy trình tạo siêu liên kết cục bộ thành c
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thiết lập thư mục tài liệu của bạn
 Document doc = new Document(); // Tạo phiên bản Tài liệu
 ```
- Các`dataDir` biến là nơi tệp PDF mới tạo của bạn sẽ nằm. Bạn sẽ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn.`Document` Lớp này tạo một tài liệu PDF mới, tại đó chúng ta có thể thêm các trang và liên kết.
+Các `dataDir` biến là nơi tệp PDF mới tạo của bạn sẽ nằm. Bạn sẽ cần thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn. `Document` Lớp này tạo một tài liệu PDF mới, tại đó chúng ta có thể thêm các trang và liên kết.
 
 ## Bước 2: Thêm Trang vào Tài liệu
 
@@ -72,7 +74,7 @@ Tiếp theo, bạn sẽ thêm một trang vào tài liệu PDF của mình.
 ```csharp
 Page page = doc.Pages.Add(); // Thêm trang vào bộ sưu tập trang
 ```
- Các`Pages.Add()` phương pháp này thêm một trang mới vào tài liệu. Đây là nơi chứa toàn bộ nội dung của bạn.
+Các `Pages.Add()` phương pháp này thêm một trang mới vào tài liệu. Đây là nơi chứa toàn bộ nội dung của bạn.
 
 ## Bước 3: Tạo một đoạn văn bản
 
@@ -81,7 +83,7 @@ Bây giờ, chúng ta hãy tạo một đoạn văn bản có chức năng như 
 ```csharp
 Aspose.Pdf.Text.TextFragment text = new Aspose.Pdf.Text.TextFragment("link page number test to page 7");
 ```
- Các`TextFragment` đại diện cho một đoạn văn bản trong PDF. Ở đây, chúng tôi đang tạo một liên kết cho người dùng biết rằng nó sẽ đưa họ đến trang 7.
+Các `TextFragment` đại diện cho một đoạn văn bản trong PDF. Ở đây, chúng tôi đang tạo một liên kết cho người dùng biết rằng nó sẽ đưa họ đến trang 7.
 
 ## Bước 4: Tạo siêu liên kết cục bộ
 
@@ -89,10 +91,10 @@ Aspose.Pdf.Text.TextFragment text = new Aspose.Pdf.Text.TextFragment("link page 
 
 ```csharp
 Aspose.Pdf.LocalHyperlink link = new Aspose.Pdf.LocalHyperlink(); // Tạo siêu liên kết cục bộ
-link.TargetPageNumber = 7; //Đặt trang đích cho trường hợp liên kết
+link.TargetPageNumber = 7; // Đặt trang đích cho trường hợp liên kết
 text.Hyperlink = link; // Đặt siêu liên kết TextFragment
 ```
- Các`LocalHyperlink` lớp là thứ cho phép chúng ta trỏ đến các trang khác trong cùng một tài liệu. Bằng cách thiết lập`TargetPageNumber` đến 7, bạn yêu cầu siêu liên kết nhảy đến trang cụ thể đó khi được nhấp vào.
+Các `LocalHyperlink` lớp là thứ cho phép chúng ta trỏ đến các trang khác trong cùng một tài liệu. Bằng cách thiết lập `TargetPageNumber` đến 7, bạn yêu cầu siêu liên kết nhảy đến trang cụ thể đó khi được nhấp vào.
 
 ## Bước 5: Thêm đoạn văn bản vào trang
 
@@ -111,7 +113,7 @@ Hãy thêm một siêu liên kết khác để quay lại trang 1.
 text = new TextFragment("link page number test to page 1"); // Tạo TextFragment mới
 text.IsInNewPage = true; // Thêm nó vào một trang mới
 ```
- Tạo một cái mới`TextFragment` đối với liên kết thứ hai, chúng tôi thiết lập`IsInNewPage` thành đúng, cho biết văn bản này sẽ được chuyển sang trang mới.
+Tạo một cái mới `TextFragment` đối với liên kết thứ hai, chúng tôi thiết lập `IsInNewPage` thành đúng, cho biết văn bản này sẽ được chuyển sang trang mới.
 
 ## Bước 7: Thiết lập siêu liên kết cục bộ thứ hai
 
@@ -119,7 +121,7 @@ Giống như trước, bạn sẽ tạo một siêu liên kết cục bộ khác
 
 ```csharp
 link = new LocalHyperlink(); // Tạo một phiên bản siêu liên kết cục bộ khác
-link.TargetPageNumber = 1; //Đặt trang đích cho siêu liên kết thứ hai
+link.TargetPageNumber = 1; // Đặt trang đích cho siêu liên kết thứ hai
 text.Hyperlink = link; // Đặt liên kết cho TextFragment thứ hai
 ```
 Siêu liên kết này nhắm đến trang 1, cho phép người dùng quay lại khi họ đến trang thứ hai.
@@ -142,7 +144,7 @@ dataDir = dataDir + "CreateLocalHyperlink_out.pdf"; // Chỉ định tên tệp 
 doc.Save(dataDir); // Lưu tài liệu đã cập nhật
 Console.WriteLine("\nLocal hyperlink created successfully.\nFile saved at " + dataDir);
 ```
- Điều này kết hợp đường dẫn thư mục của bạn với tên tệp.`Save()` phương pháp này sẽ lưu tài liệu của bạn và một thông báo xác nhận sẽ cho bạn biết mọi việc đã diễn ra suôn sẻ!
+Điều này kết hợp đường dẫn thư mục của bạn với tên tệp. `Save()` phương pháp này sẽ lưu tài liệu của bạn và một thông báo xác nhận sẽ cho bạn biết mọi việc đã diễn ra suôn sẻ!
 
 ## Phần kết luận
 
@@ -151,22 +153,24 @@ Tạo siêu liên kết cục bộ trong tệp PDF bằng Aspose.PDF cho .NET kh
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi các tài liệu PDF theo chương trình bằng cách sử dụng nền tảng .NET.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình bằng cách sử dụng nền tảng .NET.
 
 ### Tôi có thể tạo siêu liên kết tới các trang web bên ngoài không?
 Có, Aspose.PDF cũng hỗ trợ tạo siêu liên kết đến các URL bên ngoài ngoài các siêu liên kết cục bộ trong PDF.
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
- Chắc chắn rồi! Bạn có thể truy cập bản dùng thử miễn phí từ[địa điểm](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể truy cập bản dùng thử miễn phí từ [địa điểm](https://releases.aspose.com/).
 
 ### Aspose hỗ trợ những ngôn ngữ lập trình nào?
-Aspose cung cấp các thư viện cho nhiều ngôn ngữ lập trình khác nhau, bao gồm Java, C++và Python, cùng nhiều ngôn ngữ khác.
+Aspose cung cấp thư viện cho nhiều ngôn ngữ lập trình khác nhau, bao gồm Java, C++ và Python, cùng nhiều ngôn ngữ khác.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho các sản phẩm Aspose?
- Bạn có thể tìm kiếm sự hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm kiếm sự hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

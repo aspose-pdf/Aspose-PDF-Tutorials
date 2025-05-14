@@ -1,14 +1,16 @@
 ---
-title: Mã hóa tệp PDF
-linktitle: Mã hóa tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách mã hóa tệp PDF của bạn một cách dễ dàng bằng Aspose.PDF cho .NET. Bảo mật thông tin nhạy cảm với hướng dẫn từng bước dễ dàng của chúng tôi.
-weight: 60
-url: /vi/net/programming-with-security-and-signatures/encrypt/
+"description": "Tìm hiểu cách mã hóa tệp PDF của bạn một cách dễ dàng bằng Aspose.PDF cho .NET. Bảo mật thông tin nhạy cảm với hướng dẫn từng bước dễ dàng của chúng tôi."
+"linktitle": "Mã hóa tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Mã hóa tệp PDF"
+"url": "/vi/net/programming-with-security-and-signatures/encrypt/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mã hóa tệp PDF
@@ -22,7 +24,7 @@ Bạn đang muốn bảo vệ các tệp PDF của mình khỏi sự truy cập 
 Trước khi đi vào hướng dẫn từng bước, bạn cần đảm bảo một số điều sau:
 
 1. Đã cài đặt Visual Studio: Bạn nên cài đặt Visual Studio trên máy của mình vì chúng ta sẽ viết mã bằng C#.
-2.  Aspose.PDF cho .NET: Đây là thư viện mà chúng tôi sẽ sử dụng để mã hóa PDF của mình. Bạn có thể dùng thử miễn phí từ[Trang web của Aspose](https://releases.aspose.com/).
+2. Aspose.PDF cho .NET: Đây là thư viện mà chúng tôi sẽ sử dụng để mã hóa PDF của mình. Bạn có thể dùng thử miễn phí từ [Trang web của Aspose](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu mã tốt hơn.
 4. Thư mục tài liệu: Đảm bảo bạn có thư mục lưu trữ các tệp PDF của mình. Để minh họa, chúng tôi sẽ gọi đó là "THƯ MỤC TÀI LIỆU CỦA BẠN".
 
@@ -30,7 +32,7 @@ Sau khi đáp ứng được những điều kiện tiên quyết này, bạn đ
 
 ## Nhập gói
 
- Để bắt đầu, bạn sẽ cần nhập các gói cần thiết vào dự án của mình. Trong mã C# của bạn, hãy đảm bảo bạn có các mục sau`using` chỉ thị ở trên cùng:
+Để bắt đầu, bạn sẽ cần nhập các gói cần thiết vào dự án của mình. Trong mã C# của bạn, hãy đảm bảo bạn có các mục sau `using` chỉ thị ở trên cùng:
 
 ```csharp
 using System;
@@ -49,7 +51,7 @@ Trước khi mã hóa PDF, bạn cần chỉ định đường dẫn đến tệ
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Chỉ cần thay thế`YOUR DOCUMENTS DIRECTORY` với đường dẫn thực tế trên máy tính của bạn. Ví dụ, nó có thể trông giống như`C:\\Documents\\`.
+Chỉ cần thay thế `YOUR DOCUMENTS DIRECTORY` với đường dẫn thực tế trên máy tính của bạn. Ví dụ, nó có thể trông giống như `C:\\Documents\\`.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -60,7 +62,7 @@ Bây giờ đường dẫn của tệp đã được thiết lập, hãy tiến 
 Document document = new Document(dataDir + "Encrypt.pdf");
 ```
 
- Ở đây, thay thế`"Encrypt.pdf"` với tên thực tế của tệp PDF của bạn. Dòng mã này tạo ra một`Document` đối tượng đại diện cho tệp PDF của bạn.
+Ở đây, thay thế `"Encrypt.pdf"` với tên thực tế của tệp PDF của bạn. Dòng mã này tạo ra một `Document` đối tượng đại diện cho tệp PDF của bạn.
 
 ## Bước 3: Mã hóa tài liệu PDF
 
@@ -72,10 +74,10 @@ document.Encrypt("user", "owner", 0, CryptoAlgorithm.RC4x128);
 ```
 
 Chúng ta hãy phân tích điều đó:
--  Mật khẩu người dùng: Đặt thành`"user"`, đây là mật khẩu cho phép người khác xem tệp PDF.
--  Mật khẩu chủ sở hữu: Đặt thành`"owner"`, mật khẩu này sẽ cung cấp toàn quyền kiểm soát tài liệu, chẳng hạn như quyền in hoặc sao chép nội dung.
--  Mức độ mã hóa:`0` có nghĩa là mã hóa được thiết lập thành không có quyền.
--  Thuật toán mật mã: Chúng tôi đã chọn`RC4x128`, nhưng vẫn còn những lựa chọn khác mà bạn có thể khám phá.
+- Mật khẩu người dùng: Đặt thành `"user"`, đây là mật khẩu cho phép người khác xem tệp PDF.
+- Mật khẩu chủ sở hữu: Đặt thành `"owner"`, mật khẩu này sẽ cung cấp toàn quyền kiểm soát tài liệu, chẳng hạn như quyền in hoặc sao chép nội dung.
+- Mức độ mã hóa: `0` có nghĩa là mã hóa được thiết lập thành không có quyền.
+- Thuật toán mật mã: Chúng tôi đã chọn `RC4x128`, nhưng vẫn còn những lựa chọn khác mà bạn có thể khám phá.
 
 ## Bước 4: Lưu PDF đã mã hóa
 
@@ -86,7 +88,7 @@ dataDir = dataDir + "Encrypt_out.pdf";
 document.Save(dataDir);
 ```
 
- Mã này lưu tệp PDF được mã hóa của bạn với tên mới,`Encrypt_out.pdf`. Dễ phải không?
+Mã này lưu tệp PDF được mã hóa của bạn với tên mới, `Encrypt_out.pdf`. Dễ phải không?
 
 ## Bước 5: Xác nhận thành công của mã hóa
 
@@ -100,7 +102,7 @@ Sau khi chạy ứng dụng, bạn sẽ thấy thông báo xác nhận rằng t�
 
 ## Phần kết luận
 
-Và thế là xong! Bạn vừa học cách mã hóa tệp PDF bằng Aspose.PDF cho .NET. Bằng cách thêm lớp bảo mật này, bạn có thể đảm bảo các tài liệu có giá trị của mình được bảo vệ. Cho dù bạn đang chia sẻ thông tin nhạy cảm hay chỉ muốn hạn chế quyền truy cập, mã hóa PDF là một công cụ mạnh mẽ mà bạn có thể sử dụng. Vì vậy, lần sau khi ai đó hỏi cách bảo mật tệp của họ, bạn sẽ biết chính xác phải nói gì với họ!
+Và thế là xong! Bạn vừa học cách mã hóa tệp PDF bằng Aspose.PDF cho .NET. Bằng cách thêm lớp bảo mật này, bạn có thể đảm bảo các tài liệu có giá trị của mình được bảo vệ. Cho dù bạn đang chia sẻ thông tin nhạy cảm hay chỉ muốn hạn chế quyền truy cập, mã hóa tệp PDF là một công cụ mạnh mẽ mà bạn có thể sử dụng. Vì vậy, lần sau khi ai đó hỏi cách bảo mật tệp của họ, bạn sẽ biết chính xác phải nói gì với họ!
 
 ## Câu hỏi thường gặp
 
@@ -108,7 +110,7 @@ Và thế là xong! Bạn vừa học cách mã hóa tệp PDF bằng Aspose.PDF
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và quản lý tài liệu PDF theo chương trình.
 
 ### Tôi có thể dùng thử Aspose.PDF miễn phí không?
- Chắc chắn rồi! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể bắt đầu với bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Aspose.PDF hỗ trợ những thuật toán mã hóa nào?
 Aspose.PDF hỗ trợ nhiều thuật toán khác nhau bao gồm RC4, AES, v.v. Bạn có thể chọn thuật toán phù hợp với nhu cầu của mình.
@@ -117,10 +119,12 @@ Aspose.PDF hỗ trợ nhiều thuật toán khác nhau bao gồm RC4, AES, v.v. 
 Trong khi mã hóa, bạn có thể chỉ định mức quyền cho phép hoặc hạn chế các hoạt động như in và sao chép nội dung.
 
 ### Tôi có thể tìm thêm sự trợ giúp hoặc hỗ trợ ở đâu?
- Nếu có bất kỳ câu hỏi hoặc hỗ trợ nào, vui lòng truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Nếu có bất kỳ câu hỏi hoặc hỗ trợ nào, vui lòng truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

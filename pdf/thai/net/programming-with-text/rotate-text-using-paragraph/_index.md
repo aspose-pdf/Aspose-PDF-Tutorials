@@ -1,14 +1,16 @@
 ---
-title: หมุนข้อความโดยใช้ย่อหน้าในไฟล์ PDF
-linktitle: หมุนข้อความโดยใช้ย่อหน้าในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีหมุนข้อความใน PDF โดยใช้ Aspose.PDF สำหรับ .NET ทำตามคำแนะนำทีละขั้นตอนนี้เพื่อสร้างเอกสารของคุณ
-weight: 380
-url: /th/net/programming-with-text/rotate-text-using-paragraph/
+"description": "เรียนรู้วิธีหมุนข้อความใน PDF โดยใช้ Aspose.PDF สำหรับ .NET ทำตามคำแนะนำทีละขั้นตอนนี้เพื่อสร้างเอกสารของคุณ"
+"linktitle": "หมุนข้อความโดยใช้ย่อหน้าในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "หมุนข้อความโดยใช้ย่อหน้าในไฟล์ PDF"
+"url": "/th/net/programming-with-text/rotate-text-using-paragraph/"
+"weight": 380
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # หมุนข้อความโดยใช้ย่อหน้าในไฟล์ PDF
@@ -21,7 +23,7 @@ url: /th/net/programming-with-text/rotate-text-using-paragraph/
 
 ก่อนที่เราจะเจาะลึกลงไปในโลกที่น่าตื่นเต้นของการหมุนข้อความในไฟล์ PDF เรามาตรวจสอบกันก่อนว่าคุณได้ตั้งค่าทุกอย่างอย่างถูกต้องแล้ว นี่คือข้อกำหนดเบื้องต้นที่คุณต้องมี:
 
-1.  Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.PDF สำหรับ .NET ไว้ในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.PDF สำหรับ .NET ไว้ในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 2. Visual Studio: บทช่วยสอนนี้ถือว่าคุณใช้ Visual Studio สำหรับการพัฒนา .NET
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจตัวอย่างต่างๆ ได้ดีขึ้น หากคุณเป็นมือใหม่ ไม่ต้องกังวล เราจะอธิบายแบบทีละขั้นตอน!
 4. .NET Framework: ตรวจสอบให้แน่ใจว่าโครงการของคุณมีการตั้งค่าด้วย .NET Framework เวอร์ชันที่เหมาะสม Aspose.PDF รองรับเวอร์ชันต่างๆ ดังนั้นโปรดตรวจสอบเอกสารประกอบเพื่อดูความเข้ากันได้
@@ -135,7 +137,7 @@ paragraph.AppendLine(textFragment1);
 paragraph.AppendLine(textFragment2);
 paragraph.AppendLine(textFragment3);
 ```
- เราเพียงแค่เพิ่มข้อความแต่ละส่วนลงในย่อหน้าของเรา`AppendLine` วิธีการนี้จะทำให้แน่ใจว่าข้อความแต่ละส่วนถูกวางซ้อนกันในแนวตั้ง
+เราเพียงแค่เพิ่มข้อความแต่ละส่วนลงในย่อหน้าของเรา `AppendLine` วิธีการนี้จะทำให้แน่ใจว่าข้อความแต่ละส่วนถูกวางซ้อนกันในแนวตั้ง
 
 ## ขั้นตอนที่ 6: สร้างวัตถุ TextBuilder
 
@@ -156,7 +158,7 @@ pdfDocument.Save(dataDir + "TextFragmentTests_Rotated2_out.pdf");
 ```
 บรรทัดนี้จะบันทึกเอกสารไปยังไดเร็กทอรีที่คุณระบุโดยใช้ชื่อ "TextFragmentTests_Rotated2_out.pdf" 
 
-และแล้วคุณก็จะมีไฟล์ PDF ที่มีข้อความที่หมุนได้แล้ว
+และแล้วคุณก็จะมีไฟล์ PDF ที่มีข้อความหมุนแล้ว!
 
 ## บทสรุป
 
@@ -168,19 +170,21 @@ pdfDocument.Save(dataDir + "TextFragmentTests_Rotated2_out.pdf");
 Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้โดยตรงภายในแอปพลิเคชัน .NET
 
 ### ฉันจะติดตั้ง Aspose.PDF ในโปรเจ็กต์ของฉันได้อย่างไร?
- คุณสามารถติดตั้ง Aspose.PDF ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หรือดาวน์โหลดจาก[หน้าดาวน์โหลด Aspose](https://releases.aspose.com/pdf/net/).
+คุณสามารถติดตั้ง Aspose.PDF ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หรือดาวน์โหลดจาก  [หน้าดาวน์โหลด Aspose](https://releases-aspose.com/pdf/net/).
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose.PDF เสนอให้ทดลองใช้งานฟรี คุณสามารถเริ่มต้นด้วย[ทดลองใช้งานฟรี](https://releases.aspose.com/) และสำรวจคุณสมบัติของมัน
+ใช่ Aspose.PDF เสนอให้ทดลองใช้งานฟรี คุณสามารถเริ่มต้นด้วย [ทดลองใช้งานฟรี](https://releases.aspose.com/) และสำรวจคุณสมบัติของมัน
 
 ### มีการรองรับ Aspose.PDF หรือไม่
- แน่นอน! คุณสามารถติดต่อได้ที่[การสนับสนุนแอสโพส](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือเกี่ยวกับปัญหาใดๆ ที่คุณประสบ
+แน่นอน! คุณสามารถติดต่อได้ที่ [การสนับสนุนแอสโพส](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือเกี่ยวกับปัญหาใดๆ ที่คุณประสบ
 
 ### ฉันจะขอใบอนุญาตชั่วคราวสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถซื้อใบอนุญาตชั่วคราวได้จาก[เว็บไซต์ของ Aspose](https://purchase.aspose.com/temporary-license/) เพื่อทดลองใช้คุณสมบัติครบถ้วนของห้องสมุด
+คุณสามารถซื้อใบอนุญาตชั่วคราวได้จาก [เว็บไซต์ของ Aspose](https://purchase.aspose.com/temporary-license/) เพื่อทดลองใช้คุณสมบัติครบถ้วนของห้องสมุด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

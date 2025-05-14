@@ -1,41 +1,43 @@
 ---
-title: Développer les signets dans le fichier PDF
-linktitle: Développer les signets dans le fichier PDF
-second_title: Référence de l'API Aspose.PDF pour .NET
-description: Découvrez comment développer les signets dans les fichiers PDF à l'aide d'Aspose.PDF pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs souhaitant améliorer la navigation dans les fichiers PDF.
-weight: 50
-url: /fr/net/programming-with-bookmarks/expand-bookmarks/
+"description": "Découvrez comment développer les signets dans vos fichiers PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs souhaitant améliorer la navigation PDF."
+"linktitle": "Développer les signets dans un fichier PDF"
+"second_title": "Référence de l'API Aspose.PDF pour .NET"
+"title": "Développer les signets dans un fichier PDF"
+"url": "/fr/net/programming-with-bookmarks/expand-bookmarks/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Développer les signets dans le fichier PDF
+# Développer les signets dans un fichier PDF
 
 ## Introduction
 
-Avez-vous déjà ouvert un fichier PDF et découvert que tous les signets étaient réduits ? Cela peut être frustrant, surtout lorsque vous essayez de naviguer dans un long document. Heureusement, avec Aspose.PDF pour .NET, vous pouvez facilement développer les signets de vos fichiers PDF par programmation. Ce guide vous guidera tout au long du processus, en vous assurant de comprendre chaque partie du code et son fonctionnement. Alors, prenez votre boisson préférée et plongeons dans le monde de la manipulation PDF !
+Avez-vous déjà ouvert un fichier PDF et constaté que tous les signets étaient réduits ? Cela peut être frustrant, surtout lorsqu'on essaie de naviguer dans un document volumineux. Heureusement, avec Aspose.PDF pour .NET, vous pouvez facilement développer les signets de vos fichiers PDF par programmation. Ce guide vous guidera pas à pas, vous permettant de comprendre chaque partie du code et son fonctionnement. Alors, à vos marques et plongeons dans l'univers de la manipulation de PDF !
 
 ## Prérequis
 
-Avant de commencer, vous devez mettre en place quelques éléments :
+Avant de commencer, il y a quelques éléments que vous devez mettre en place :
 
-1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. Il s'agit du meilleur environnement pour le développement .NET.
-2.  Aspose.PDF pour .NET : vous devez télécharger et installer la bibliothèque Aspose.PDF. Vous pouvez la trouver[ici](https://releases.aspose.com/pdf/net/).
+1. Visual Studio : assurez-vous d'avoir installé Visual Studio sur votre ordinateur. C'est l'environnement idéal pour le développement .NET.
+2. Aspose.PDF pour .NET : vous devrez télécharger et installer la bibliothèque Aspose.PDF. Vous pouvez la trouver. [ici](https://releases.aspose.com/pdf/net/).
 3. Connaissances de base de C# : la familiarité avec la programmation C# vous aidera à mieux comprendre les extraits de code.
 
-## Paquets d'importation
+## Importer des packages
 
 Pour commencer, vous devez importer les packages nécessaires dans votre projet C#. Voici comment procéder :
 
 ### Créer un nouveau projet
 
-Ouvrez Visual Studio et créez un nouveau projet C#. Vous pouvez choisir une application console pour plus de simplicité.
+Ouvrez Visual Studio et créez un projet C#. Vous pouvez choisir une application console pour plus de simplicité.
 
 ### Ajouter une référence Aspose.PDF
 
-1. Faites un clic droit sur votre projet dans l’Explorateur de solutions.
+1. Cliquez avec le bouton droit sur votre projet dans l’Explorateur de solutions.
 2. Sélectionnez « Gérer les packages NuGet ».
 3. Recherchez « Aspose.PDF » et installez la dernière version.
 
@@ -53,16 +55,16 @@ Maintenant que vous avez tout configuré, passons au code réel !
 
 ## Étape 1 : Configurez votre répertoire de documents
 
-Tout d'abord, vous devez spécifier le chemin d'accès à votre répertoire de documents. C'est là que se trouve votre fichier PDF d'entrée et où le fichier de sortie sera enregistré.
+Tout d'abord, vous devez spécifier le chemin d'accès à votre répertoire de documents. C'est là que se trouve votre fichier PDF d'entrée et où sera enregistré le fichier de sortie.
 
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Étape 2 : Ouvrir le document PDF
+## Étape 2 : ouvrez le document PDF
 
- Ensuite, vous ouvrez le document PDF qui contient les signets que vous souhaitez développer. Pour cela, utilisez le`Document` classe de la bibliothèque Aspose.PDF.
+Ensuite, ouvrez le document PDF contenant les signets à développer. Pour ce faire, utilisez le `Document` classe de la bibliothèque Aspose.PDF.
 
 ```csharp
 // Ouvrir le document
@@ -71,19 +73,19 @@ Document doc = new Document(dataDir + "input-bookmark.pdf");
 
 ## Étape 3 : définir le mode d’affichage de la page
 
-Vous devez maintenant définir le mode d'affichage de la page du document. Cela détermine la manière dont le PDF s'affichera une fois ouvert. Dans ce cas, nous souhaitons utiliser des contours (signets).
+Vous devez maintenant définir le mode d'affichage du document. Cela détermine comment le PDF s'affichera à l'ouverture. Dans ce cas, nous souhaitons utiliser des signets.
 
 ```csharp
-//Définir le mode d'affichage de la page, c'est-à-dire afficher les miniatures, plein écran, afficher le panneau des pièces jointes
+// Définir le mode d'affichage de la page, c'est-à-dire afficher les miniatures, plein écran, afficher le panneau des pièces jointes
 doc.PageMode = PageMode.UseOutlines;
 ```
 
-## Étape 4 : Parcourez les éléments du plan
+## Étape 4 : Parcourez les éléments du plan
 
-Voici la partie amusante ! Vous allez parcourir chaque élément de plan dans la collection de plans du PDF et définir leur statut d'ouverture sur vrai. Cela développera les signets.
+Et voici la partie amusante ! Vous parcourrez chaque élément de plan de la collection de plans du PDF et définirez leur statut d'ouverture sur « vrai ». Cela développera les signets.
 
 ```csharp
-// Parcourez chaque élément de plan dans la collection de plans du fichier PDF
+// Parcourez chaque élément du plan dans la collection de plans du fichier PDF
 foreach (OutlineItemCollection item in doc.Outlines)
 {
     // Définir le statut ouvert pour l'élément de plan
@@ -91,9 +93,9 @@ foreach (OutlineItemCollection item in doc.Outlines)
 }
 ```
 
-## Étape 5 : Enregistrer le document de sortie
+## Étape 5 : Enregistrer le document de sortie
 
-Après avoir développé les signets, il est temps d'enregistrer le document modifié. Vous devez spécifier un nouveau nom de fichier pour le PDF de sortie.
+Après avoir développé les signets, il est temps d'enregistrer le document modifié. Vous devrez alors spécifier un nouveau nom de fichier pour le PDF de sortie.
 
 ```csharp
 dataDir = dataDir + "ExpandBookmarks_out.pdf";
@@ -101,7 +103,7 @@ dataDir = dataDir + "ExpandBookmarks_out.pdf";
 doc.Save(dataDir);
 ```
 
-## Étape 6 : Message de confirmation
+## Étape 6 : Message de confirmation
 
 Enfin, vous pouvez imprimer un message de confirmation sur la console pour vous informer que les signets ont été développés avec succès.
 
@@ -111,7 +113,7 @@ Console.WriteLine("\nBookmarks expanded successfully.\nFile saved at " + dataDir
 
 ## Conclusion
 
-Et voilà ! Vous avez réussi à développer les signets d'un fichier PDF à l'aide d'Aspose.PDF pour .NET. Cette bibliothèque simple mais puissante vous permet de manipuler facilement des documents PDF, ce qui vous simplifie grandement la vie. Que vous travailliez sur un projet personnel ou sur une application professionnelle, Aspose.PDF est un outil fantastique à avoir dans votre arsenal.
+Et voilà ! Vous avez réussi à développer les signets d'un fichier PDF avec Aspose.PDF pour .NET. Cette bibliothèque simple mais puissante vous permet de manipuler facilement des documents PDF, vous simplifiant ainsi grandement la vie. Que vous travailliez sur un projet personnel ou une application professionnelle, Aspose.PDF est un outil formidable à avoir dans votre arsenal.
 
 ## FAQ
 
@@ -119,19 +121,21 @@ Et voilà ! Vous avez réussi à développer les signets d'un fichier PDF à l'a
 Aspose.PDF pour .NET est une bibliothèque puissante qui permet aux développeurs de créer, manipuler et convertir des documents PDF par programmation.
 
 ### Puis-je utiliser Aspose.PDF gratuitement ?
- Oui, Aspose propose une version d'essai gratuite que vous pouvez utiliser pour explorer les fonctionnalités de la bibliothèque. Vous pouvez la télécharger[ici](https://releases.aspose.com/).
+Oui, Aspose propose une version d'essai gratuite pour explorer les fonctionnalités de la bibliothèque. Vous pouvez la télécharger. [ici](https://releases.aspose.com/).
 
 ### Où puis-je trouver plus de documentation ?
- Vous trouverez une documentation complète sur Aspose.PDF pour .NET[ici](https://reference.aspose.com/pdf/net/).
+Vous pouvez trouver une documentation complète sur Aspose.PDF pour .NET [ici](https://reference.aspose.com/pdf/net/).
 
 ### Existe-t-il un support disponible pour Aspose.PDF ?
- Absolument ! Vous pouvez obtenir du soutien auprès de la communauté Aspose[ici](https://forum.aspose.com/c/pdf/10).
+Absolument ! Vous pouvez obtenir du soutien auprès de la communauté Aspose. [ici](https://forum.aspose.com/c/pdf/10).
 
 ### Comment acheter une licence pour Aspose.PDF ?
- Vous pouvez acheter une licence pour Aspose.PDF[ici](https://purchase.aspose.com/buy).
+Vous pouvez acheter une licence pour Aspose.PDF [ici](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

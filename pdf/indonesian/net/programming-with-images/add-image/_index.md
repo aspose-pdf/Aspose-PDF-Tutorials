@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Gambar Dalam File PDF
-linktitle: Tambahkan Gambar Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan gambar ke berkas PDF secara terprogram menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah, contoh kode, dan FAQ disertakan untuk penerapan yang lancar.
-weight: 10
-url: /id/net/programming-with-images/add-image/
+"description": "Pelajari cara menambahkan gambar ke berkas PDF secara terprogram menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah, contoh kode, dan FAQ disertakan untuk penerapan yang lancar."
+"linktitle": "Tambahkan Gambar Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Gambar Dalam File PDF"
+"url": "/id/net/programming-with-images/add-image/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Gambar Dalam File PDF
@@ -21,7 +23,7 @@ Pernahkah Anda bertanya-tanya bagaimana cara memasukkan gambar ke dalam berkas P
 
 Sebelum masuk ke kode, mari kita bahas secara singkat persyaratan dasar yang Anda perlukan untuk memulai:
 
-- Aspose.PDF untuk pustaka .NET: Unduh dan instal versi terbaru dari[Di Sini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk pustaka .NET: Unduh dan instal versi terbaru dari [Di Sini](https://releases.aspose.com/pdf/net/).
 - Lingkungan Pengembangan .NET: Visual Studio atau IDE lain pilihan Anda.
 - Pengetahuan dasar C#: Keakraban dengan pemrograman C# dasar dan prinsip berorientasi objek.
 - Berkas PDF dan gambar: Contoh berkas PDF dan gambar yang akan disisipkan.
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Buka dokumen
 Document pdfDocument = new Document(dataDir + "AddImage.pdf");
 ```
- Itu`Document`kelas dari Aspose.PDF digunakan untuk membuka dan bekerja dengan berkas PDF yang sudah ada. Anda perlu menentukan jalur direktori tempat PDF Anda berada.
+Itu `Document` kelas dari Aspose.PDF digunakan untuk membuka dan bekerja dengan berkas PDF yang sudah ada. Anda perlu menentukan jalur direktori tempat PDF Anda berada.
 
 ## Langkah 2: Tentukan Koordinat Gambar
 
@@ -74,9 +76,9 @@ Selanjutnya, Anda perlu menentukan halaman mana dalam PDF yang ingin Anda tambah
 // Dapatkan halaman tempat gambar perlu ditambahkan
 Page page = pdfDocument.Pages[1];
 ```
-Dalam contoh ini, kami menambahkan gambar ke halaman pertama PDF (Halaman[1] merujuk pada halaman pertama karena pengindeksan berbasis satu).
+Dalam contoh ini, kami menambahkan gambar ke halaman pertama PDF (Halaman[1] merujuk ke halaman pertama karena pengindeksan berbasis satu).
 
-## Langkah 4: Memuat Gambar ke dalam Aliran
+## Langkah 4: Muat Gambar ke dalam Aliran
 
 Sekarang, muat gambar dari direktori Anda ke aliran sehingga dapat diproses dan dimasukkan ke dalam PDF.
 
@@ -84,7 +86,7 @@ Sekarang, muat gambar dari direktori Anda ke aliran sehingga dapat diproses dan 
 // Muat gambar ke dalam aliran
 FileStream imageStream = new FileStream(dataDir + "aspose-logo.jpg", FileMode.Open);
 ```
- Itu`FileStream` kelas digunakan untuk membuka berkas gambar. Berkas gambar (`aspose-logo.jpg`) dimuat dari direktori yang ditentukan dan dibuka dalam mode baca (`FileMode.Open`).
+Itu `FileStream` kelas digunakan untuk membuka berkas gambar. Berkas gambar (`aspose-logo.jpg`) dimuat dari direktori yang ditentukan dan dibuka dalam mode baca (`FileMode.Open`).
 
 ## Langkah 5: Tambahkan Gambar ke Halaman PDF Sumber Daya
 
@@ -98,28 +100,28 @@ Langkah ini menambahkan gambar ke koleksi sumber daya halaman. Gambar sekarang a
 
 ## Langkah 6: Simpan Status Grafik Saat Ini
 
- Sebelum menempatkan gambar pada halaman, Anda harus menyimpan status grafik saat ini menggunakan`GSave` operator. Ini memastikan bahwa transformasi apa pun yang diterapkan pada gambar tidak akan memengaruhi bagian dokumen lainnya.
+Sebelum menempatkan gambar pada halaman, Anda harus menyimpan status grafik saat ini menggunakan `GSave` operator. Ini memastikan bahwa transformasi apa pun yang diterapkan pada gambar tidak akan memengaruhi bagian dokumen lainnya.
 
 ```csharp
-//Menggunakan operator GSave: operator ini menyimpan status grafik saat ini
+// Menggunakan operator GSave: operator ini menyimpan status grafik saat ini
 page.Contents.Add(new Aspose.Pdf.Operators.GSave());
 ```
- Itu`GSave` operator menyimpan pengaturan grafis saat ini, yang nantinya memungkinkan Anda memulihkannya, memastikan bahwa penempatan gambar tidak mengganggu konten lain di halaman.
+Itu `GSave` operator menyimpan pengaturan grafis saat ini, yang nantinya memungkinkan Anda memulihkannya, memastikan bahwa penempatan gambar tidak mengganggu konten lain di halaman.
 
 ## Langkah 7: Tentukan Penempatan Gambar dengan Persegi Panjang dan Matriks
 
- Sekarang, buatlah`Rectangle` objek yang menentukan di mana gambar akan diposisikan pada halaman dan`Matrix` untuk mengontrol penempatan dan penskalaan.
+Sekarang, buatlah `Rectangle` objek yang menentukan di mana gambar akan diposisikan pada halaman dan `Matrix` untuk mengontrol penempatan dan penskalaan.
 
 ```csharp
 // Membuat objek Persegi Panjang dan Matriks
 Aspose.Pdf.Rectangle rectangle = new Aspose.Pdf.Rectangle(lowerLeftX, lowerLeftY, upperRightX, upperRightY);
 Matrix matrix = new Matrix(new double[] { rectangle.URX - rectangle.LLX, 0, 0, rectangle.URY - rectangle.LLY, rectangle.LLX, rectangle.LLY });
 ```
- Itu`Rectangle` mendefinisikan koordinat gambar pada halaman PDF, dan`Matrix` memastikan skala dan posisi yang benar.
+Itu `Rectangle` mendefinisikan koordinat gambar pada halaman PDF, dan `Matrix` memastikan skala dan posisi yang benar.
 
 ## Langkah 8: Gabungkan Matriks untuk Penempatan Gambar
 
- Itu`ConcatenateMatrix` Operator digunakan untuk menerapkan transformasi matriks, memastikan gambar ditempatkan dengan benar.
+Itu `ConcatenateMatrix` Operator digunakan untuk menerapkan transformasi matriks, memastikan gambar ditempatkan dengan benar.
 
 ```csharp
 // Menggunakan operator ConcatenateMatrix (matriks gabungan): mendefinisikan bagaimana gambar harus ditempatkan
@@ -129,18 +131,18 @@ Transformasi ini memastikan gambar ditempatkan di lokasi yang benar pada halaman
 
 ## Langkah 9: Render Gambar pada Halaman PDF
 
- Terakhir, gunakan`Do` operator untuk benar-benar menampilkan gambar pada halaman PDF.
+Terakhir, gunakan `Do` operator untuk benar-benar menampilkan gambar pada halaman PDF.
 
 ```csharp
 XImage ximage = page.Resources.Images[page.Resources.Images.Count];
 // Menggunakan operator Do: operator ini menggambar gambar
 page.Contents.Add(new Aspose.Pdf.Operators.Do(ximage.Name));
 ```
- Itu`Do` operator menggambar gambar pada lokasi yang ditentukan oleh transformasi matriks sebelumnya.
+Itu `Do` operator menggambar gambar pada lokasi yang ditentukan oleh transformasi matriks sebelumnya.
 
-## Langkah 10: Kembalikan Keadaan Grafik
+## Langkah 10: Kembalikan Status Grafik
 
- Setelah gambar ditambahkan, pulihkan status grafik sebelumnya menggunakan`GRestore` operator.
+Setelah gambar ditambahkan, pulihkan status grafik sebelumnya menggunakan `GRestore` operator.
 
 ```csharp
 // Menggunakan operator GRestore: operator ini mengembalikan status grafik
@@ -157,11 +159,11 @@ dataDir = dataDir + "AddImage_out.pdf";
 // Simpan dokumen yang diperbarui
 pdfDocument.Save(dataDir);
 ```
- Itu`Save` Metode ini digunakan untuk menyimpan dokumen PDF dengan gambar yang ditambahkan, dan file yang diperbarui disimpan dengan nama "AddImage_out.pdf".
+Itu `Save` Metode ini digunakan untuk menyimpan dokumen PDF dengan gambar yang ditambahkan, dan file yang diperbarui disimpan dengan nama "AddImage_out.pdf".
 
 ## Kesimpulan
 
-Memasukkan gambar ke dalam file PDF menggunakan Aspose.PDF untuk .NET mudah dilakukan jika Anda menguraikannya langkah demi langkah. Dengan menggunakan berbagai operator seperti`GSave`, `ConcatenateMatrix` , Dan`Do`, Anda dapat dengan mudah mengontrol penempatan dan tampilan gambar dalam dokumen PDF Anda. Teknik ini penting untuk menyesuaikan dan memberi merek pada file PDF dengan logo, tanda air, atau gambar lainnya.
+Memasukkan gambar ke dalam file PDF menggunakan Aspose.PDF untuk .NET mudah dilakukan jika Anda menguraikannya langkah demi langkah. Dengan menggunakan berbagai operator seperti `GSave`Bahasa Indonesia: `ConcatenateMatrix`, Dan `Do`, Anda dapat dengan mudah mengontrol penempatan dan tampilan gambar dalam dokumen PDF Anda. Teknik ini penting untuk menyesuaikan dan memberi merek pada file PDF dengan logo, tanda air, atau gambar lainnya.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -169,7 +171,7 @@ Memasukkan gambar ke dalam file PDF menggunakan Aspose.PDF untuk .NET mudah dila
 Ya, Anda dapat menambahkan beberapa gambar ke halaman yang sama dengan mengulangi langkah-langkah untuk memuat dan menempatkan setiap gambar.
 
 ### Bagaimana cara mengontrol ukuran gambar yang dimasukkan?  
-Ukuran gambar dikontrol oleh koordinat persegi panjang (`lowerLeftX`, `lowerLeftY`, `upperRightX`, `upperRightY`).
+Ukuran gambar dikontrol oleh koordinat persegi panjang (`lowerLeftX`Bahasa Indonesia: `lowerLeftY`Bahasa Indonesia: `upperRightX`Bahasa Indonesia: `upperRightY`).
 
 ### Bisakah saya memasukkan jenis file lain seperti PNG atau GIF?  
 Ya, Aspose.PDF mendukung berbagai format gambar, termasuk PNG, GIF, BMP, dan JPEG.
@@ -179,9 +181,11 @@ Ya, Anda dapat memuat dan menyisipkan gambar secara dinamis dengan menyediakan j
 
 ### Apakah Aspose.PDF memungkinkan penambahan gambar secara massal ke beberapa halaman?  
 Ya, Anda dapat mengulang halaman dalam satu dokumen dan menambahkan gambar ke beberapa halaman menggunakan pendekatan yang sama.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

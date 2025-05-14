@@ -1,14 +1,16 @@
 ---
-title: Belge Bağlantısı Oluştur
-linktitle: Belge Bağlantısı Oluştur
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF'lerde belge bağlantıları oluşturmayı keşfedin. PDF belgelerinizdeki gezinmeyi ve etkileşimi geliştirin.
-weight: 30
-url: /tr/net/programming-with-links-and-actions/create-document-link/
+"description": "Aspose.PDF for .NET kullanarak PDF'lerde belge bağlantıları oluşturmayı keşfedin. PDF belgelerinizdeki gezinmeyi ve etkileşimi geliştirin."
+"linktitle": "Belge Bağlantısı Oluştur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Belge Bağlantısı Oluştur"
+"url": "/tr/net/programming-with-links-and-actions/create-document-link/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Bağlantısı Oluştur
@@ -22,7 +24,7 @@ PDF belgeleri içinde bağlantılar oluşturmak, kullanıcı deneyimini önemli 
 Aspose.PDF for .NET ile PDF düzenleme dünyasına dalmadan önce, birkaç temel unsurun yerinde olduğundan emin olun:
 
 - Visual Studio: .NET uygulamaları oluşturmak ve çalıştırmak için Visual Studio'nun yüklü olduğundan emin olun.
-- .NET için Aspose.PDF: Aspose.PDF kütüphanesinin kullanımınıza açık olması gerekir.[buradan indirin](https://releases.aspose.com/pdf/net/).
+- .NET için Aspose.PDF: Aspose.PDF kütüphanesinin kullanımınıza açık olması gerekir. [buradan indirin](https://releases.aspose.com/pdf/net/).
 - C# Temel Anlayışı: C# programlamaya dair temel bir anlayış, kod parçacıkları arasında zahmetsizce gezinmenize yardımcı olacaktır.
 
 ### .NET için Aspose.PDF'yi yükleme
@@ -52,7 +54,7 @@ using Aspose.Pdf;
 using System;
 ```
 
-Bu ad alanları, PDF belgelerini ve açıklamalarını işlemek için gerekli sınıfları ve işlevleri içerir. Şimdi, bir belge bağlantısı oluşturma görevini eyleme dönüştürülebilir adımlara bölelim.
+Bu ad alanları, PDF belgelerini ve açıklamaları işlemek için gerekli sınıfları ve işlevleri içerir. Şimdi, bir belge bağlantısı oluşturma görevini eyleme dönüştürülebilir adımlara bölelim.
 
 Bir belge bağlantısı oluşturmak, iki nokta arasında bir yol döşemek gibidir. PDF'nizde gezinenlerin bunu kolaylıkla yapmasını sağlayalım!
 
@@ -64,7 +66,7 @@ Herhangi bir programlama çabasında, organizasyon anahtardır! Belgelerinizin n
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın saklandığı dizinin yolu ile. Şuna benzer bir şey olabilir`"C:\\Documents\\"`, kurulumunuza bağlı olarak.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın saklandığı dizinin yolu ile. Şuna benzer bir şey olabilir `"C:\\Documents\\"`, kurulumunuza bağlı olarak.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -74,7 +76,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "CreateDocumentLink.pdf");
 ```
 
- Bu satırda, bir örnek oluşturuyoruz`Document` sınıf ve hedef PDF dosyamızı yüklüyoruz. “CreateDocumentLink.pdf” dosyasının belirtilen dizinde bulunduğundan emin olun, aksi takdirde küçük bir engele takılırsınız.
+Bu satırda, bir örnek oluşturuyoruz `Document` sınıf ve hedef PDF dosyamızı yüklüyoruz. “CreateDocumentLink.pdf” dosyasının belirtilen dizinde bulunduğundan emin olun, aksi takdirde küçük bir engele takılırsınız.
 
 ## Adım 3: Bağlantı Oluşturulacak Sayfayı Belirleyin
 
@@ -88,13 +90,13 @@ Sayfalar Aspose'da sıfır indekslidir, yani kullanıcı için 1'den saymaya ba�
 
 ## Adım 4: Bağlantı Açıklamasını Oluşturun
 
- Bir bağlantıya tıklamak bir yere götürmelidir! Hadi bir bağlantı oluşturalım`LinkAnnotation` kullanıcıların tıklayacağı an. Bu, bağlantınızın gerçekten şekil aldığı andır.
+Bir bağlantıya tıklamak bir yere götürmelidir! Hadi bir bağlantı oluşturalım `LinkAnnotation` kullanıcıların tıklayacağı an. Bu, bağlantınızın gerçekten şekil aldığı andır.
 
 ```csharp
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
- Burada dikdörtgen, bağlantı için tıklanabilir alanı tanımlar. Parametreler`(100, 100, 300, 300)` dikdörtgenin koordinatlarını temsil eder (sol, alt, sağ, üst). Bağlantı alanının ne kadar büyük olmasını istediğinize bağlı olarak bu sayıları ayarlayın.
+Burada dikdörtgen, bağlantı için tıklanabilir alanı tanımlar. Parametreler `(100, 100, 300, 300)` dikdörtgenin koordinatlarını temsil eder (sol, alt, sağ, üst). Bağlantı alanının ne kadar büyük olmasını istediğinize bağlı olarak bu sayıları ayarlayın.
 
 ## Adım 5: Bağlantı Görünümünü Özelleştirin
 
@@ -126,7 +128,7 @@ dataDir = dataDir + "CreateDocumentLink_out.pdf";
 document.Save(dataDir);
 ```
 
-Burada yeni bir dosya adı belirtiyoruz (“_(out.pdf” ifadesi, değiştirilmiş bir kopya olduğunu gösterir) ve belgeyi kaydederek tüm sıkı çalışmanızın korunmasını sağlayın.
+Burada yeni bir dosya adı belirliyoruz (“_out.pdf” bunun değiştirilmiş bir kopya olduğunu gösteriyor) ve belgeyi kaydediyoruz, böylece tüm sıkı çalışmanızın korunduğundan emin oluyoruz.
 
 ## Adım 8: Konsol Onayı
 
@@ -148,19 +150,21 @@ Ve işte karşınızda! Aspose.PDF for .NET kullanarak PDF dosyalarınızda işl
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
 ### Harici web sitelerine bağlantı oluşturabilir miyim?
- Evet, bağlantı eylemini değiştirerek harici web sitelerine bağlantılar oluşturabilirsiniz.`GoToRemoteAction` URL ile birlikte.
+Evet, bağlantı eylemini değiştirerek harici web sitelerine bağlantılar oluşturabilirsiniz. `GoToRemoteAction` URL ile birlikte.
 
 ### Ücretsiz deneme imkanı var mı?
- Kesinlikle! Yapabilirsin[ücretsiz denemeyi buradan indirin](https://releases.aspose.com/).
+Kesinlikle! Yapabilirsin [ücretsiz denemeyi buradan indirin](https://releases.aspose.com/).
 
 ### Sorun yaşarsam nereden destek alabilirim?
- Bize ulaşabilirsiniz[Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10) yardım için.
+Bize ulaşabilirsiniz [Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10) yardım için.
 
 ### Geçici ehliyet nasıl alınır?
- Geçici bir lisansı şu şekilde alabilirsiniz:[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Geçici bir lisansı şu şekilde alabilirsiniz: [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

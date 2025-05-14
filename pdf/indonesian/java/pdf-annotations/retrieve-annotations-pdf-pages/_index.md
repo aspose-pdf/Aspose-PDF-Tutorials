@@ -1,14 +1,16 @@
 ---
-title: Ambil Anotasi dari Halaman PDF
-linktitle: Ambil Anotasi dari Halaman PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengambil anotasi dari halaman PDF menggunakan Aspose.PDF untuk Java. Jelajahi petunjuk langkah demi langkah dan contoh kode dalam panduan lengkap ini.
-weight: 13
-url: /id/java/pdf-annotations/retrieve-annotations-pdf-pages/
+"description": "Pelajari cara mengambil anotasi dari halaman PDF menggunakan Aspose.PDF untuk Java. Jelajahi petunjuk langkah demi langkah dan contoh kode dalam panduan lengkap ini."
+"linktitle": "Ambil Anotasi dari Halaman PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ambil Anotasi dari Halaman PDF"
+"url": "/id/java/pdf-annotations/retrieve-annotations-pdf-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ambil Anotasi dari Halaman PDF
@@ -72,10 +74,10 @@ Dalam tutorial ini, kami mengeksplorasi cara mengambil anotasi dari halaman PDF 
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Untuk menginstal Aspose.PDF untuk Java, kunjungi tautan unduhan di[Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan di situs web.
+Untuk menginstal Aspose.PDF untuk Java, kunjungi tautan unduhan di [Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan di situs web.
 
 ### Bisakah saya mengambil anotasi dari halaman tertentu dalam dokumen PDF?
-Ya, Anda dapat mengambil anotasi dari halaman tertentu dalam dokumen PDF dengan menentukan nomor halaman dalam kode Anda. Cukup muat dokumen PDF dan akses halaman yang diinginkan menggunakan`get_Item` metode.
+Ya, Anda dapat mengambil anotasi dari halaman tertentu dalam dokumen PDF dengan menentukan nomor halaman dalam kode Anda. Cukup muat dokumen PDF dan akses halaman yang diinginkan menggunakan `get_Item` metode.
 
 ### Jenis anotasi apa yang dapat saya ambil dengan Aspose.PDF untuk Java?
 
@@ -88,9 +90,11 @@ Ya, Aspose.PDF untuk Java cocok untuk penggunaan pribadi dan perusahaan. Aplikas
 ### Dapatkah saya mengotomatiskan proses pengambilan anotasi menggunakan Aspose.PDF untuk Java?
 
 Ya, Anda dapat mengotomatiskan proses pengambilan anotasi menggunakan Aspose.PDF untuk Java. Anda dapat membuat skrip atau aplikasi yang secara terprogram mengambil anotasi dari dokumen PDF, menjadikannya alat yang berharga untuk alur kerja pemrosesan dokumen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

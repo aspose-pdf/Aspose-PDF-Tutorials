@@ -1,14 +1,16 @@
 ---
-title: Элементы структуры ссылок
-linktitle: Элементы структуры ссылок
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как создавать элементы структуры ссылок в PDF с помощью Aspose.PDF для .NET. Пошаговое руководство по добавлению доступных ссылок, изображений и проверке соответствия.
-weight: 120
-url: /ru/net/programming-with-tagged-pdf/link-structure-elements/
+"description": "Узнайте, как создавать элементы структуры ссылок в PDF с помощью Aspose.PDF для .NET. Пошаговое руководство по добавлению доступных ссылок, изображений и проверке соответствия."
+"linktitle": "Элементы структуры ссылок"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Элементы структуры ссылок"
+"url": "/ru/net/programming-with-tagged-pdf/link-structure-elements/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Элементы структуры ссылок
@@ -21,9 +23,9 @@ url: /ru/net/programming-with-tagged-pdf/link-structure-elements/
 
 Прежде чем погрузиться в кодирование, давайте сначала разберемся с несколькими вещами. Это основные требования, которые обеспечат плавный процесс разработки.
 
-1.  Aspose.PDF для .NET: Вы можете загрузить последнюю версию[здесь](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF для .NET: Вы можете загрузить последнюю версию [здесь](https://releases.aspose.com/pdf/net/).
 2. Среда разработки .NET: будь то Visual Studio или любая совместимая с .NET среда IDE, установите ее и подготовьте к работе.
-3.  Лицензия Aspose: Вы можете использовать бесплатную пробную версию Aspose.PDF[здесь](https://releases.aspose.com/) или приобретите[временная лицензия](https://purchase.aspose.com/temporary-license/).
+3. Лицензия Aspose: Вы можете использовать бесплатную пробную версию Aspose.PDF [здесь](https://releases.aspose.com/) или приобретите [временная лицензия](https://purchase.aspose.com/temporary-license/).
 4. Базовые знания C#: мы будем работать с кодом C#, поэтому понимание основ значительно упростит задачу.
 
 ## Импортные пакеты
@@ -61,7 +63,7 @@ Document document = new Document();
 ITaggedContent taggedContent = document.TaggedContent;
 ```
   
- Здесь мы инициализируем`Document` объект, который представляет наш PDF-файл. Мы также извлекаем`TaggedContent` интерфейс, позволяющий добавлять элементы структуры, такие как абзацы, ссылки и изображения.
+Здесь мы инициализируем `Document` объект, который представляет наш PDF-файл. Мы также извлекаем `TaggedContent` интерфейс, позволяющий добавлять элементы структуры, такие как абзацы, ссылки и изображения.
 
 ## Шаг 2: Укажите название и язык  
 
@@ -206,9 +208,11 @@ Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
 
 ### Можно ли создавать внутренние ссылки на документы?  
 Конечно! Вы можете ссылаться на определенные разделы в одном документе.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

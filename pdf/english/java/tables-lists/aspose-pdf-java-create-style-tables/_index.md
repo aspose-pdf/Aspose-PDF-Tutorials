@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating and Styling Tables in a PDF Document Using Aspose.PDF for Java
 
@@ -215,7 +217,11 @@ A: You can customize borders, cell padding, text alignment, font styles, and mor
 
 **Q5: How do I handle large datasets when creating tables in PDFs with Aspose.PDF for Java?**
 A: Optimize performance by paginating data if necessary and leveraging efficient memory management techniques.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

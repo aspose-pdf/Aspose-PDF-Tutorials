@@ -1,14 +1,16 @@
 ---
-title: Görüntülerken Sayfayı Belirle
-linktitle: Görüntülerken Sayfayı Belirle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak bir PDF'de görüntülenecek sayfayı nasıl belirleyeceğinizi öğrenin. Bu basit kılavuzla kullanıcı gezinmesini geliştirin.
-weight: 110
-url: /tr/net/programming-with-links-and-actions/specify-page-when-viewing/
+"description": "Aspose.PDF for .NET kullanarak bir PDF'de görüntülenecek sayfayı nasıl belirleyeceğinizi öğrenin. Bu basit kılavuzla kullanıcı gezinmesini geliştirin."
+"linktitle": "Görüntülerken Sayfayı Belirle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Görüntülerken Sayfayı Belirle"
+"url": "/tr/net/programming-with-links-and-actions/specify-page-when-viewing/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Görüntülerken Sayfayı Belirle
@@ -23,9 +25,9 @@ Kodlamaya dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip old
 
 1. .NET'in Temel Bilgisi: .NET framework'üne aşinalık şarttır. C# ile rahatsanız ve nesne yönelimli programlama hakkında temel bir anlayışa sahipseniz, hazırsınız!
 
-2.  .NET için Aspose.PDF: Projenizde Aspose.PDF kütüphanesinin yüklü olması gerekir. Henüz yüklemediyseniz, indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Projenizde Aspose.PDF kütüphanesinin yüklü olması gerekir. Henüz yüklemediyseniz, indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 
-3. Visual Studio: Bu eğitim, IDE'niz olarak Visual Studio kullandığınızı varsayar. Bilgisayarınıza kurulu olduğundan emin olun.
+3. Visual Studio: Bu eğitimde IDE olarak Visual Studio kullandığınız varsayılmaktadır. Bilgisayarınıza kurulu olduğundan emin olun.
 
 4. PDF Dosyası: Üzerinde çalışacağınız mevcut bir PDF dosyasına ihtiyacınız olacak. Eğer yoksa, bir örnek belge oluşturabilir veya seçtiğiniz herhangi bir PDF'yi kullanabilirsiniz.
 
@@ -33,7 +35,7 @@ Tüm ön koşullar sağlandıktan sonra kolları sıvayıp kodlamaya başlayabil
 
 ## Paketleri İçe Aktar
 
-Artık her şey ayarlandığına göre, gerekli paketleri projemize aktaralım. Şu adımları izleyin:
+Artık her şey hazır olduğuna göre, gerekli paketleri projemize aktaralım. Şu adımları izleyin:
 
 ### Visual Studio'yu Başlat
 
@@ -45,7 +47,7 @@ Aspose.PDF kütüphanesini kullanmak için, ona bir referans eklemeniz gerekir:
 
 1. Çözüm Gezgini’nde projenizin üzerine sağ tıklayın.
 2. 'NuGet Paketlerini Yönet' seçeneğini seçin.
-3.  Arama`Aspose.PDF` ve paketi kurun.
+3. Arama `Aspose.PDF` ve paketi kurun.
 
 ### Ad Alanlarını İçe Aktar
 
@@ -71,7 +73,7 @@ Görevimizi yönetilebilir adımlara bölelim. Bir PDF belgesi açan, görüntü
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Dizininizle değiştirin
 ```
 
- Bu satır esasen yol haritanızdır. Kodunuza PDF dosyasını nerede bulacağını söylüyorsunuz. Değiştirdiğinizden emin olun`YOUR DOCUMENT DIRECTORY` makinenizdeki gerçek yol ile.
+Bu satır esasen yol haritanızdır. Kodunuza PDF dosyasını nerede bulacağını söylüyorsunuz. Değiştirdiğinizden emin olun `YOUR DOCUMENT DIRECTORY` makinenizdeki gerçek yol ile.
 
 ## Adım 2: PDF Dosyasını Yükleyin
 
@@ -82,7 +84,7 @@ Daha sonra PDF dosyasını uygulamanıza yükleyeceksiniz:
 Document doc = new Document(dataDir + "SpecifyPageWhenViewing.pdf");
 ```
 
- Burada olan şey, yeni bir örnek oluşturmanızdır`Document`PDF dosyanızın yolunu belirtirken nesneyi seçin. Bunu, masaya koyduğunuz kitabı açmak gibi düşünebilirsiniz.
+Burada olan şey, yeni bir örnek oluşturmanızdır `Document` PDF dosyanızın yolunu belirtirken nesneyi seçin. Bunu, masaya koyduğunuz kitabı açmak gibi düşünebilirsiniz.
 
 ## Adım 3: İstenilen Sayfaya Erişim
 
@@ -115,7 +117,7 @@ Navigasyon özelliklerini harekete geçirelim:
 GoToAction action = new GoToAction(doc.Pages[2]); 
 ```
 
- Bu adımda, bir örnek oluşturuyorsunuz`GoToAction` Bu, esasen PDF'deki belirli bir noktaya (bu durumda ikinci sayfaya) gitme eylemini temsil eder.
+Bu adımda, bir örnek oluşturuyorsunuz `GoToAction` Bu, esasen PDF'deki belirli bir noktaya (bu durumda ikinci sayfaya) gitme eylemini temsil eder.
 
 ## Adım 6: Hedefi Tanımlayın
 
@@ -148,7 +150,7 @@ Son olarak yaptığımız değişikliklerle belgeyi kaydedelim:
 doc.Save(dataDir + "goto2page_out.pdf");
 ```
 
-Bu adım işinizi sonlandırır! Adında yeni bir PDF dosyanız olacak`goto2page_out.pdf` belirttiğiniz sayfaya doğrudan açılan.
+Bu adım işinizi sonlandırır! Adında yeni bir PDF dosyanız olacak `goto2page_out.pdf` belirttiğiniz sayfaya doğrudan açılan.
 
 Böylece kodlama kısmı tamamlanmış oldu! Aspose.PDF'yi bir PDF açıldığında belirli bir sayfayı gösterecek şekilde başarıyla programladınız. 
 
@@ -165,16 +167,18 @@ Aspose.PDF for .NET, geliştiricilerin .NET uygulamaları içerisinde PDF belgel
 Hayır, belgeyi yalnızca belirtilen bir sayfada açılacak şekilde ayarlayabilirsiniz. Ancak, farklı başlangıç sayfaları için farklı belgeler oluşturabilirsiniz.
 
 ### Ya bir sayfayı farklı bir yakınlaştırma düzeyinde görüntülemek istersem?
- Yakınlaştırma seviyesini ayarlayarak değiştirebilirsiniz.`zoom` Belgeyi kaydetmeden önce değişken.
+Yakınlaştırma seviyesini ayarlayarak değiştirebilirsiniz. `zoom` Belgeyi kaydetmeden önce değişken.
 
 ### Aspose.PDF kullanımına dair daha fazla örneği nerede bulabilirim?
- Kontrol edebilirsiniz[belgeleme](https://reference.aspose.com/pdf/net/) Daha fazla örnek ve işlevsellik için.
+Kontrol edebilirsiniz [belgeleme](https://reference.aspose.com/pdf/net/) Daha fazla örnek ve işlevsellik için.
 
 ### Aspose.PDF for .NET için ücretsiz deneme sürümü mevcut mu?
- Evet! Aspose.PDF'in ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet! Aspose.PDF'in ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

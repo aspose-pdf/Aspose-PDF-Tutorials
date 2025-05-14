@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ tableElement.Summary = "This table provides an overview of data across four colu
 By following this guide, you've learned how to create tagged PDF tables using Aspose.PDF for .NET. These techniques ensure your documents are accessible and structured effectively. Continue exploring Aspose.PDF features to enhance your document processing capabilities.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

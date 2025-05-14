@@ -1,17 +1,19 @@
 ---
-title: อัปเดตบุ๊กมาร์กใน PDF
-linktitle: อัปเดตบุ๊กมาร์กใน PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีอัปเดตบุ๊กมาร์ก PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนของเราจะทำให้กระบวนการนี้ง่ายขึ้น
-weight: 16
-url: /th/java/pdf-bookmarks/update-bookmarks-pdfs/
+"description": "เรียนรู้วิธีอัปเดตบุ๊กมาร์ก PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนของเราจะทำให้กระบวนการนี้ง่ายขึ้น"
+"linktitle": "อัปเดตบุ๊กมาร์กในไฟล์ PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "อัปเดตบุ๊กมาร์กในไฟล์ PDF"
+"url": "/th/java/pdf-bookmarks/update-bookmarks-pdfs/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# อัปเดตบุ๊กมาร์กใน PDF
+# อัปเดตบุ๊กมาร์กในไฟล์ PDF
 
 
 ## การแนะนำ
@@ -20,7 +22,7 @@ url: /th/java/pdf-bookmarks/update-bookmarks-pdfs/
 
 ## ทำความเข้าใจ Aspose.PDF สำหรับ Java
 
-Aspose.PDF สำหรับ Java เป็นไลบรารีการจัดการ PDF ที่มีคุณสมบัติมากมาย ซึ่งช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และจัดการเอกสาร PDF ในแอปพลิเคชัน Java ได้ โดยไลบรารีนี้มีความสามารถมากมาย เช่น ความสามารถในการทำงานกับบุ๊กมาร์ก ซึ่งเป็นลิงก์แบบโต้ตอบหรือโครงร่างที่ให้สารบัญสำหรับไฟล์ PDF
+Aspose.PDF สำหรับ Java เป็นไลบรารีการจัดการ PDF ที่มีคุณสมบัติมากมาย ซึ่งช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และจัดการเอกสาร PDF ในแอปพลิเคชัน Java ได้ ไลบรารีนี้มีความสามารถมากมาย เช่น ความสามารถในการทำงานกับบุ๊กมาร์ก ซึ่งเป็นลิงก์แบบโต้ตอบหรือโครงร่างที่ให้สารบัญสำหรับไฟล์ PDF
 
 ## ข้อกำหนดเบื้องต้น
 
@@ -51,7 +53,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีการจ
 
 ในการทำงานกับ Aspose.PDF สำหรับ Java คุณจะต้องเพิ่มไลบรารีลงในโปรเจ็กต์ของคุณ:
 
-1.  ดาวน์โหลด Aspose.PDF สำหรับไลบรารี Java จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+1. ดาวน์โหลด Aspose.PDF สำหรับไลบรารี Java จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 2. เพิ่มไฟล์ JAR ลงใน classpath ของโปรเจ็กต์ของคุณ
 
 ## การอัปเดตบุ๊กมาร์กในไฟล์ PDF
@@ -113,10 +115,12 @@ pdfDocument.save("updated_example.pdf");
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุม บทช่วยสอน และแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์ Aspose:[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุม บทช่วยสอน และแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์ Aspose: [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

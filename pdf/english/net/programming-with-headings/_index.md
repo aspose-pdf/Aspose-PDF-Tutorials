@@ -7,7 +7,9 @@ description: The Aspose.PDF for .NET tutorials walk you through using headings t
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Headings
@@ -24,6 +26,7 @@ Explore the features of Aspose.PDF for .NET with dedicated tutorials. Learn how 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

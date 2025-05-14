@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'ye Satır Nesnesi Ekleme
-linktitle: Java kullanarak PDF'ye Satır Nesnesi Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java kullanarak Aspose.PDF for Java ile PDF dosyalarına çizgi nesnelerinin nasıl ekleneceğini öğrenin. Çizgileri özelleştirin, konumlandırın ve dinamik PDF'leri zahmetsizce oluşturun.
-weight: 10
-url: /tr/java/pdf-images/add-line-object-to-pdf-using-java/
+"description": "Java kullanarak Aspose.PDF for Java ile PDF dosyalarına çizgi nesnelerinin nasıl ekleneceğini öğrenin. Çizgileri özelleştirin, konumlandırın ve dinamik PDF'leri zahmetsizce oluşturun."
+"linktitle": "Java kullanarak PDF'ye Satır Nesnesi Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'ye Satır Nesnesi Ekleme"
+"url": "/tr/java/pdf-images/add-line-object-to-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'ye Satır Nesnesi Ekleme
@@ -26,7 +28,7 @@ Başlamadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olmanı
 - IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE)
 - Java kütüphanesi için Aspose.PDF
 
- Java kütüphanesi için Aspose.PDF'yi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/)Projenize uygun versiyonu seçtiğinizden emin olun.
+Java kütüphanesi için Aspose.PDF'yi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/)Projenize uygun versiyonu seçtiğinizden emin olun.
 
 ## Bir Java Projesi Oluşturma
 
@@ -35,7 +37,7 @@ Başlamadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olmanı
 
 ## Satır Nesneleri Ekleme
 
-PDF belgesindeki satır nesneleri çeşitli amaçlar için önemlidir. İşte bunları Java için Aspose.PDF kullanarak nasıl ekleyebileceğiniz:
+PDF belgesindeki satır nesneleri çeşitli amaçlar için önemlidir. İşte Java için Aspose.PDF kullanarak bunları nasıl ekleyebileceğiniz:
 
 ```java
 // Bir PDF belgesini başlat
@@ -73,7 +75,7 @@ line.setDashArray(new float[] { 1, 1 }); // Çizgi stili (noktalı)
 
 ## Konumlandırma Hatları
 
- PDF sayfasında çizgileri belirli koordinatlara ayarlayarak konumlandırabilirsiniz.`setStartPosition` Ve`setEndPosition`satır nesnesindeki değerler.
+PDF sayfasında çizgileri belirli koordinatlara ayarlayarak konumlandırabilirsiniz. `setStartPosition` Ve `setEndPosition` satır nesnesindeki değerler.
 
 ## PDF'yi kaydetme
 
@@ -97,7 +99,7 @@ Bu eğitimde, Java ve Java için Aspose.PDF kullanarak PDF dosyalarına çizgi n
 
 ### PDF belgemdeki bir çizginin rengini nasıl değiştirebilirim?
 
- PDF belgenizdeki bir çizginin rengini değiştirmek için şunu kullanın:`setColor`satır nesnesindeki yöntem. Örneğin:
+PDF belgenizdeki bir çizginin rengini değiştirmek için şunu kullanın: `setColor` satır nesnesindeki yöntem. Örneğin:
 
 ```java
 line.setColor(com.aspose.pdf.Color.getBlue());
@@ -125,10 +127,12 @@ Evet, bir PDF belgesine eğri çizgiler ekleyebilirsiniz. Java için Aspose.PDF,
 
 ### Java için Aspose.PDF hakkında daha fazla bilgiyi nerede bulabilirim?
 
-Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve örnekleri belgeler sayfasında bulabilirsiniz[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve örnekleri belgeler sayfasında bulabilirsiniz [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/pdf-bookmarks/add-child-bookmarks-pdfs/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Child Bookmarks to PDFs
@@ -201,6 +203,7 @@ Yes, Aspose.PDF for Java is suitable for both personal and commercial projects, 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Melléklet hozzáadása PDF-fájlhoz
-linktitle: Melléklet hozzáadása PDF-fájlhoz
-second_title: Aspose.PDF for .NET API Reference
-description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan adhat hozzá mellékleteket PDF-fájlokhoz az Aspose.PDF for .NET használatával. Bővítse dokumentumait könnyedén.
-weight: 10
-url: /hu/net/programming-with-attachments/add-attachment/
+"description": "Tanuld meg, hogyan adhatsz mellékleteket PDF fájlokhoz az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Könnyedén javíthatod dokumentumaid teljesítményét."
+"linktitle": "Melléklet hozzáadása PDF fájlhoz"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Melléklet hozzáadása PDF fájlhoz"
+"url": "/hu/net/programming-with-attachments/add-attachment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Melléklet hozzáadása PDF-fájlhoz
+# Melléklet hozzáadása PDF fájlhoz
 
 ## Bevezetés
 
-Előfordult már, hogy egy PDF-dokumentumhoz fájlt kell csatolnia? Legyen szó kiegészítő szöveges fájlról, képről vagy bármilyen más típusú dokumentumról, a PDF-fájlokhoz csatolmányok hozzáadása javíthatja a fájlok használhatóságát és funkcionalitását. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhat hozzá mellékleteket PDF-fájlokhoz az Aspose.PDF for .NET használatával. Ez a nagy teljesítményű könyvtár lehetővé teszi a fejlesztők számára, hogy könnyedén kezeljék a PDF-dokumentumokat, és az útmutató végére profi módon hozzáadhat mellékleteket!
+Előfordult már veled, hogy fájlt kellett csatolnod egy PDF dokumentumhoz? Legyen szó kiegészítő szövegfájlról, képről vagy bármilyen más típusú dokumentumról, a PDF fájlokhoz csatolt mellékletek javíthatják a fájlok használhatóságát és funkcionalitását. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatsz mellékleteket PDF fájlokhoz az Aspose.PDF for .NET használatával. Ez a hatékony könyvtár lehetővé teszi a fejlesztők számára, hogy könnyedén kezeljék a PDF dokumentumokat, és az útmutató végére profi módon fogsz tudni mellékleteket hozzáadni!
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a mellékletek hozzáadásával kapcsolatos apróságokba, meg kell felelnie néhány előfeltételnek:
+Mielőtt belemerülnénk a mellékletek hozzáadásának részleteibe, van néhány előfeltétel, aminek teljesülnie kell:
 
-1.  Aspose.PDF for .NET: Győződjön meg arról, hogy telepítve van az Aspose.PDF könyvtár. Letöltheti a[telek](https://releases.aspose.com/pdf/net/).
-2. Visual Studio: Egy fejlesztői környezet, ahol megírhatja és tesztelheti .NET kódját.
-3. Alapvető C# ismerete: A C# programozás ismerete segít jobban megérteni a kódrészleteket.
+1. Aspose.PDF .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.PDF könyvtár. Letöltheti innen: [telek](https://releases.aspose.com/pdf/net/).
+2. Visual Studio: Egy fejlesztői környezet, ahol .NET kódot írhatsz és tesztelhetsz.
+3. C# alapismeretek: A C# programozással való ismeret segít jobban megérteni a kódrészleteket.
 
 ## Csomagok importálása
 
-A kezdéshez importálnia kell a szükséges csomagokat a C# projektbe. A következőképpen teheti meg:
+A kezdéshez importálnod kell a szükséges csomagokat a C# projektedbe. Így teheted meg:
 
 ```csharp
 using System.IO;
@@ -35,99 +37,101 @@ using System;
 using Aspose.Pdf;
 ```
 
-Miután telepítette a csomagot, elkezdheti írni a kódot.
+Miután telepítetted a csomagot, elkezdheted írni a kódodat.
 
-Most, hogy mindent beállítottunk, bontsuk fel kezelhető lépésekre a csatolmány PDF-fájlhoz adásának folyamatát.
+Most, hogy mindent előkészítettünk, bontsuk le kezelhető lépésekre a PDF-fájlhoz csatolt mellékletek folyamatát.
 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár meghatározása
 
-Az első lépés a dokumentumkönyvtár elérési útjának meghatározása. Itt található a PDF-fájl és a csatolni kívánt fájl.
+Az első lépés a dokumentumok könyvtárának elérési útjának meghatározása. Itt található a PDF-fájl és a csatolni kívánt fájl.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR DOCUMENT DIRECTORY"` a fájlok tárolási útvonalával.
+Mindenképpen cserélje ki `"YOUR DOCUMENT DIRECTORY"` a fájlok tényleges tárolási útvonalával.
 
-## 2. lépés: Nyissa meg a PDF-dokumentumot
+## 2. lépés: Nyissa meg a PDF dokumentumot
 
- Ezután meg kell nyitnia azt a PDF-dokumentumot, amelyhez a mellékletet hozzá kívánja adni. Ez a`Document` osztályt az Aspose.PDF biztosítja.
+Ezután meg kell nyitnia azt a PDF dokumentumot, amelyhez csatolni szeretné a fájlt. Ezt a következővel teheti meg: `Document` az Aspose.PDF által biztosított osztály.
 
 ```csharp
-// Nyissa meg a dokumentumot
+// Dokumentum megnyitása
 Document pdfDocument = new Document(dataDir + "AddAttachment.pdf");
 ```
 
- Ebben a sorban hozzuk létre a`Document` osztályt, és betölti a meglévő PDF fájlt`AddAttachment.pdf`.
+Ebben a sorban létrehozunk egy új példányt a `Document` osztály és a meglévő, nevű PDF fájl betöltése `AddAttachment.pdf`.
 
-## 3. lépés: Állítsa be a csatolni kívánt fájlt
+## 3. lépés: A csatolandó fájl beállítása
 
- Most itt az ideje megadni a csatolni kívánt fájlt. Létre kell hoznia a`FileSpecification` objektum, amely tartalmazza a fájl elérési útját és leírását.
+Most itt az ideje, hogy megadd a csatolni kívánt fájlt. Létre kell hoznod egy `FileSpecification` objektum, amely tartalmazza a fájl elérési útját és egy leírást.
 
 ```csharp
-// Állítson be új fájlt a mellékletként hozzáadandó
+// Új fájl beállítása csatolmányként való hozzáadáshoz
 FileSpecification fileSpecification = new FileSpecification(dataDir + "test.txt", "Sample text file");
 ```
 
- elnevezésű szöveges fájl csatolására készülünk`test.txt` a "Minta szövegfájl" leírásával.
+Itt egy szövegfájl csatolására készülünk, melynek neve `test.txt` „Minta szövegfájl” leírással.
 
-## 4. lépés: Adja hozzá a mellékletet a dokumentumhoz
+## 4. lépés: Melléklet hozzáadása a dokumentumhoz
 
-Miután a fájlspecifikáció készen áll, hozzáadhatja a mellékletet a PDF-dokumentum mellékletgyűjteményéhez.
+Miután a fájlspecifikáció elkészült, hozzáadhatja a mellékletet a PDF dokumentum mellékletgyűjteményéhez.
 
 ```csharp
 // Melléklet hozzáadása a dokumentum mellékletgyűjteményéhez
 pdfDocument.EmbeddedFiles.Add(fileSpecification);
 ```
 
-Ez a kódsor beágyazott fájlként adja hozzá a megadott fájlt a PDF-dokumentumhoz.
+Ez a kódsor beágyazott fájlként adja hozzá a megadott fájlt a PDF dokumentumhoz.
 
 ## 5. lépés: Mentse el a frissített dokumentumot
 
-A melléklet hozzáadása után el kell mentenie a frissített PDF dokumentumot. Adja meg a kimeneti útvonalat, ahová az új fájlt menteni szeretné.
+A melléklet hozzáadása után mentenie kell a frissített PDF dokumentumot. Adja meg a kimeneti elérési utat, ahová az új fájlt menteni szeretné.
 
 ```csharp
 dataDir = dataDir + "AddAttachment_out.pdf";
-// Mentse el az új kimenetet
+// Új kimenet mentése
 pdfDocument.Save(dataDir);
 ```
 
- Ebben a lépésben a módosított PDF fájlt másként mentjük`AddAttachment_out.pdf` ugyanabban a könyvtárban.
+Ebben a lépésben a módosított PDF-et más néven mentjük el. `AddAttachment_out.pdf` ugyanabban a könyvtárban.
 
-## 6. lépés: Erősítse meg a műveletet
+## 6. lépés: A művelet megerősítése
 
-Végül mindig jó gyakorlat megerősíteni, hogy a művelet sikeres volt. Ezt úgy teheti meg, hogy üzenetet nyomtat a konzolra.
+Végül, mindig jó gyakorlat a művelet sikerességének megerősítése. Ezt egy üzenet konzolra történő kiíratásával teheted meg.
 
 ```csharp
 Console.WriteLine("\nSample text file attached successfully.\nFile saved at " + dataDir);
 ```
 
-Ez az üzenet tájékoztatja Önt arról, hogy a mellékletet sikeresen hozzáadta, és hogy hol található az új fájl.
+Ez az üzenet tájékoztat arról, hogy a melléklet sikeresen hozzáadva lett, és hogy hol található az új fájl.
 
 ## Következtetés
 
-A PDF-fájlokhoz csatolmányok hozzáadása az Aspose.PDF for .NET használatával egyszerű folyamat, amely jelentősen javíthatja a dokumentumok funkcionalitását. Az oktatóanyagban ismertetett lépések követésével könnyedén csatolhat fájlokat PDF-fájljaihoz, így azok informatívabbak és hasznosabbak a közönség számára. Akár jelentésekkel, prezentációkkal vagy bármilyen más típusú dokumentummal dolgozik, ez a funkció megváltoztathatja a helyzetet.
+Az Aspose.PDF for .NET használatával PDF fájlokhoz csatolni egy egyszerű folyamat, amely jelentősen javíthatja dokumentumai funkcionalitását. Az ebben az oktatóanyagban ismertetett lépéseket követve könnyedén csatolhat fájlokat PDF fájljaihoz, így azok informatívabbak és hasznosabbak lesznek a közönség számára. Akár jelentéseken, prezentációkon vagy bármilyen más típusú dokumentumon dolgozik, ez a funkció gyökeresen megváltoztathatja a játékszabályokat.
 
 ## GYIK
 
-### Milyen típusú fájlokat csatolhatok PDF-hez?
-Különféle fájltípusokat csatolhat, beleértve a szöveges fájlokat, képeket és dokumentumokat.
+### Milyen típusú fájlokat csatolhatok egy PDF-hez?
+Különböző típusú fájlokat csatolhat, beleértve a szöveges fájlokat, képeket és dokumentumokat.
 
 ### Ingyenesen használható az Aspose.PDF for .NET?
-Az Aspose.PDF ingyenes próbaverziót kínál, de a teljes funkcionalitás érdekében licencet kell vásárolnia.
+Az Aspose.PDF ingyenes próbaverziót kínál, de a teljes funkcionalitás eléréséhez licencet kell vásárolnia.
 
-### Hozzáadhatok több mellékletet egyetlen PDF-hez?
+### Több mellékletet is hozzáadhatok egyetlen PDF-hez?
 Igen, több fájlt is hozzáadhat a PDF mellékletgyűjteményéhez.
 
-### Hol találok további dokumentációt az Aspose.PDF-en?
- Részletes dokumentációt találhat a[Aspose honlapja](https://reference.aspose.com/pdf/net/).
+### Hol találok további dokumentációt az Aspose.PDF-ről?
+Átfogó dokumentációt találhat a [Aspose weboldal](https://reference.aspose.com/pdf/net/).
 
 ### Hogyan kaphatok támogatást az Aspose.PDF fájlhoz?
- Támogatást kaphat, ha ellátogat a[Aspose fórum](https://forum.aspose.com/c/pdf/10).
+Támogatást kaphatsz, ha ellátogatsz a következő oldalra: [Aspose fórum](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

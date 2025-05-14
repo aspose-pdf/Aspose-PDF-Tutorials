@@ -8,7 +8,9 @@ url: /net/programming-with-stamps-and-watermarks/add-image-stamp/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Image Stamp In PDF File
@@ -143,6 +145,7 @@ You can explore the complete API reference and documentation [here](https://refe
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

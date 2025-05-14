@@ -1,14 +1,16 @@
 ---
-title: Xóa tất cả các dấu trang trong tệp PDF
-linktitle: Xóa tất cả các dấu trang trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xóa tất cả dấu trang trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý PDF của bạn.
-weight: 30
-url: /vi/net/programming-with-bookmarks/delete-all-bookmarks/
+"description": "Tìm hiểu cách xóa tất cả dấu trang trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý PDF của bạn."
+"linktitle": "Xóa tất cả các dấu trang trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xóa tất cả các dấu trang trong tệp PDF"
+"url": "/vi/net/programming-with-bookmarks/delete-all-bookmarks/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa tất cả các dấu trang trong tệp PDF
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình đang sàng lọc một tệp PDF, chỉ để
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Môi trường phát triển nơi bạn có thể viết và thực thi mã .NET của mình.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
@@ -69,7 +71,7 @@ Document pdfDocument = new Document(dataDir + "DeleteAllBookmarks.pdf");
 
 ## Bước 3: Xóa tất cả các dấu trang
 
- Bây giờ đến phần quan trọng—xóa dấu trang. Aspose.PDF làm cho việc này cực kỳ đơn giản. Chỉ cần gọi`Delete()` phương pháp trên`Outlines` Thuộc tính của tài liệu:
+Bây giờ đến phần quan trọng—xóa dấu trang. Aspose.PDF làm cho việc này cực kỳ đơn giản. Chỉ cần gọi `Delete()` phương pháp trên `Outlines` Thuộc tính của tài liệu:
 
 ```csharp
 pdfDocument.Outlines.Delete();
@@ -77,7 +79,7 @@ pdfDocument.Outlines.Delete();
 
 ## Bước 4: Lưu tệp đã cập nhật
 
-Sau khi xóa dấu trang, bạn cần lưu tệp PDF đã cập nhật. Chỉ định tên tệp mới hoặc ghi đè lên tên tệp hiện có:
+Sau khi xóa dấu trang, bạn cần lưu tệp PDF đã cập nhật. Chỉ định tên tệp mới hoặc ghi đè lên tên hiện có:
 
 ```csharp
 dataDir = dataDir + "DeleteAllBookmarks_out.pdf";
@@ -99,22 +101,24 @@ Và bạn đã có nó! Chỉ với vài bước đơn giản, bạn đã học 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể xóa một số dấu trang cụ thể thay vì xóa tất cả không?
- Có, bạn có thể lặp lại thông qua`Outlines` thu thập và xóa các dấu trang cụ thể dựa trên tiêu chí của bạn.
+Có, bạn có thể lặp lại thông qua `Outlines` thu thập và xóa các dấu trang cụ thể dựa trên tiêu chí của bạn.
 
 ### Aspose.PDF có miễn phí sử dụng không?
- Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Hãy xem[mua trang](https://purchase.aspose.com/buy).
+Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Hãy xem [mua trang](https://purchase.aspose.com/buy).
 
 ### Tôi phải làm sao nếu gặp lỗi khi xóa dấu trang?
 Đảm bảo rằng tệp PDF của bạn không bị hỏng và bạn có đủ quyền cần thiết để chỉnh sửa tệp đó.
 
 ### Tôi có thể thêm dấu trang sau khi xóa chúng không?
- Chắc chắn rồi! Bạn có thể thêm dấu trang mới bằng cách sử dụng`Outlines` thuộc tính sau khi xóa những cái cũ.
+Chắc chắn rồi! Bạn có thể thêm dấu trang mới bằng cách sử dụng `Outlines` thuộc tính sau khi xóa những cái cũ.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về[Trang web Aspose](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về [Trang web Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

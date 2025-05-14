@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Escape HTML Tags and Special Characters Using Aspose.PDF for Java
 
@@ -152,7 +154,11 @@ To enhance your skills with Aspose.PDF for Java, explore additional features suc
 - **Purchase or Free Trial**: Learn more about acquiring a license via [Aspose Purchase](https://purchase.aspose.com/buy) and start with a [Free Trial](https://releases.aspose.com/pdf/java/).
 
 If you have any questions, reach out through the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

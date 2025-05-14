@@ -1,14 +1,16 @@
 ---
-title: Utwórz element struktury notatki w pliku PDF za pomocą Java
-linktitle: Utwórz element struktury notatki w pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak tworzyć interaktywne elementy struktury notatek w plikach PDF przy użyciu języka Java z Aspose.PDF dla języka Java. Ulepsz swoje dokumenty za pomocą informacyjnych notatek.
-weight: 12
-url: /pl/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-java/
+"description": "Dowiedz się, jak tworzyć interaktywne elementy struktury notatek w plikach PDF przy użyciu języka Java z Aspose.PDF dla języka Java. Ulepsz swoje dokumenty za pomocą informacyjnych notatek."
+"linktitle": "Utwórz element struktury notatki w pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Utwórz element struktury notatki w pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz element struktury notatki w pliku PDF za pomocą Java
@@ -16,14 +18,14 @@ url: /pl/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-
 
 ## Wprowadzenie do tworzenia elementów struktury notatek w formacie PDF przy użyciu języka Java
 
-W świecie dokumentów cyfrowych królują pliki PDF. Zapewniają one spójny i niezawodny sposób udostępniania informacji na różnych platformach i urządzeniach. Jednak czasami samo wyświetlanie tekstu i obrazów nie wystarczy. Możesz chcieć dodać interaktywne elementy do swoich dokumentów PDF, takie jak notatki lub komentarze. W tym artykule przyjrzymy się, jak utworzyć element struktury notatki w pliku PDF przy użyciu języka Java, z pomocą interfejsu API Aspose.PDF for Java.
+świecie dokumentów cyfrowych królują pliki PDF. Zapewniają one spójny i niezawodny sposób udostępniania informacji na różnych platformach i urządzeniach. Jednak czasami samo wyświetlanie tekstu i obrazów nie wystarczy. Możesz chcieć dodać interaktywne elementy do swoich dokumentów PDF, takie jak notatki lub komentarze. W tym artykule przyjrzymy się, jak utworzyć element struktury notatki w pliku PDF przy użyciu języka Java, z pomocą interfejsu API Aspose.PDF for Java.
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w kod, upewnijmy się, że wszystko jest skonfigurowane:
 
 - Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowane środowisko programistyczne Java.
--  Aspose.PDF dla Java: Bibliotekę Aspose.PDF dla Java można pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla Java: Bibliotekę Aspose.PDF dla Java można pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Przewodnik krok po kroku
 
@@ -31,7 +33,7 @@ Zanim zagłębimy się w kod, upewnijmy się, że wszystko jest skonfigurowane:
 
 Dokumenty PDF są wszechstronne, ale czasami trzeba zapewnić czytelnikom dodatkowy kontekst lub komentarze. Dodawanie notatek do pliku PDF może pomóc w osiągnięciu tego celu. W tym samouczku pokażemy, jak utworzyć element struktury notatki w pliku PDF przy użyciu Java i Aspose.PDF dla Java.
 
-### 2. Konfiguracja projektu
+### 2. Konfigurowanie projektu
 
 Zanim zaczniemy kodować, upewnij się, że masz środowisko programistyczne Java skonfigurowane w swoim systemie. Możesz użyć dowolnego wybranego przez siebie środowiska IDE Java.
 
@@ -58,7 +60,7 @@ Page page = pdfDocument.getPages().add();
 Teraz dodajmy Element Struktury Notatki do naszego dokumentu PDF. Będzie to interaktywny element, na który użytkownicy mogą kliknąć, aby wyświetlić notatkę.
 
 ```java
-//Dodaj element struktury notatki do strony
+// Dodaj element struktury notatki do strony
 com.aspose.pdf.annotations.Note annotation = new com.aspose.pdf.annotations.Note(page, new com.aspose.pdf.Rectangle(100, 100, 200, 200));
 ```
 
@@ -92,7 +94,7 @@ W tym samouczku nauczyliśmy się, jak utworzyć element struktury notatki w pli
 
 ### Jak zmienić wygląd notatki?
 
-Możesz dostosować wygląd notatki, modyfikując jej właściwości, takie jak kolor, ikona i rozmiar. Szczegółowe informacje można znaleźć w dokumentacji Aspose.PDF.
+Możesz dostosować wygląd notatki, modyfikując jej właściwości, takie jak kolor, ikona i rozmiar. Zapoznaj się z dokumentacją Aspose.PDF, aby uzyskać szczegółowe informacje.
 
 ### Czy mogę dodać hiperłącza w notatce?
 
@@ -109,9 +111,11 @@ Podczas tworzenia notatki możesz określić jej współrzędne i wymiary, co um
 ### Czy mogę dołączyć pliki do notatki?
 
 Tak, do notatki możesz dołączyć pliki zawierające dodatkowe zasoby lub odniesienia.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

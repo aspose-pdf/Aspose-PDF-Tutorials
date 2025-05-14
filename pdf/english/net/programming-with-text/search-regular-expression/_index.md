@@ -8,7 +8,9 @@ url: /net/programming-with-text/search-regular-expression/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Search Regular Expression In PDF File
@@ -156,6 +158,7 @@ If no matches are found, the `TextFragmentCollection` will be empty. You can han
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

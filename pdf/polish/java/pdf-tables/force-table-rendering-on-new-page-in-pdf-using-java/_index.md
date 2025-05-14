@@ -1,17 +1,19 @@
 ---
-title: Wymuś renderowanie tabeli na nowej stronie w PDF za pomocą Java
-linktitle: Wymuś renderowanie tabeli na nowej stronie w PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak wymusić renderowanie tabeli na nowej stronie w pliku PDF za pomocą języka Java z Aspose.PDF. Ten przewodnik krok po kroku zawiera kod źródłowy i wskazówki ekspertów dotyczące precyzyjnego formatowania dokumentów PDF.
-weight: 11
-url: /pl/java/pdf-tables/force-table-rendering-on-new-page-in-pdf-using-java/
+"description": "Dowiedz się, jak wymusić renderowanie tabeli na nowej stronie w pliku PDF za pomocą języka Java z Aspose.PDF. Ten przewodnik krok po kroku zawiera kod źródłowy i wskazówki ekspertów dotyczące precyzyjnego formatowania dokumentów PDF."
+"linktitle": "Wymuś renderowanie tabeli na nowej stronie w PDF przy użyciu Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Wymuś renderowanie tabeli na nowej stronie w PDF przy użyciu Java"
+"url": "/pl/java/pdf-tables/force-table-rendering-on-new-page-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wymuś renderowanie tabeli na nowej stronie w PDF za pomocą Java
+# Wymuś renderowanie tabeli na nowej stronie w PDF przy użyciu Java
 
 
 ## Wprowadzenie do renderowania tabeli sił na nowej stronie w pliku PDF przy użyciu języka Java
@@ -38,7 +40,7 @@ Aby zaimplementować renderowanie tabeli wymuszonej w Javie, wykonaj następują
 
 ### Krok 1: Konfigurowanie projektu Java
 
- Zanim zaczniesz, upewnij się, że masz Aspose.PDF for Java zintegrowany z projektem. Możesz pobrać bibliotekę z[Tutaj](https://releases.aspose.com/pdf/java/).
+Zanim zaczniesz, upewnij się, że masz Aspose.PDF for Java zintegrowany z projektem. Możesz pobrać bibliotekę z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ### Krok 2: Tworzenie dokumentu PDF
 
@@ -74,7 +76,7 @@ Cell cell2 = row.getCells().add("Column 2 Data");
 
 ### Krok 5: Kontrolowanie podziałów stron
 
- Aby wymusić renderowanie tabeli na nowej stronie, możesz sterować podziałami stron za pomocą`IsInNewPage` nieruchomość.
+Aby wymusić renderowanie tabeli na nowej stronie, możesz sterować podziałami stron za pomocą `IsInNewPage` nieruchomość.
 
 ```java
 // Wymuś rozpoczęcie tabeli na nowej stronie
@@ -111,7 +113,7 @@ W tym artykule dowiedzieliśmy się, jak wymusić renderowanie tabeli na nowej s
 ### Jak dodać Aspose.PDF dla Java do mojego projektu?
 
 Aby dodać Aspose.PDF dla Java do swojego projektu, wykonaj następujące kroki:
-1.  Pobierz bibliotekę z[Tutaj](https://releases.aspose.com/pdf/java/).
+1. Pobierz bibliotekę z [Tutaj](https://releases.aspose.com/pdf/java/).
 2. Dodaj pliki JAR do ścieżki klas swojego projektu.
 3. Możesz już używać Aspose.PDF w swoim projekcie Java.
 
@@ -129,10 +131,12 @@ Tak, Aspose.PDF for Java nadaje się do generowania plików PDF na dużą skalę
 
 ### Czy mogę wymusić podział stron w określonych miejscach dokumentu PDF?
 
- Tak, możesz wymusić podział stron w określonych punktach dokumentu PDF, manipulując`IsInNewPage` nieruchomość, jak pokazano w tym artykule.
+Tak, możesz wymusić podział stron w określonych punktach dokumentu PDF, manipulując `IsInNewPage` nieruchomość, jak pokazano w tym artykule.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

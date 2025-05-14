@@ -1,28 +1,30 @@
 ---
-title: Mở rộng dấu trang trong tệp PDF
-linktitle: Mở rộng dấu trang trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách mở rộng dấu trang trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn cải thiện điều hướng PDF.
-weight: 50
-url: /vi/net/programming-with-bookmarks/expand-bookmarks/
+"description": "Tìm hiểu cách mở rộng dấu trang trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn cải thiện điều hướng PDF."
+"linktitle": "Mở rộng dấu trang trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Mở rộng dấu trang trong tệp PDF"
+"url": "/vi/net/programming-with-bookmarks/expand-bookmarks/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mở rộng dấu trang trong tệp PDF
 
 ## Giới thiệu
 
-Bạn đã bao giờ mở một tệp PDF và thấy rằng tất cả các dấu trang đều bị thu gọn chưa? Điều này có thể gây khó chịu, đặc biệt là khi bạn đang cố gắng điều hướng qua một tài liệu dài. May mắn thay, với Aspose.PDF cho .NET, bạn có thể dễ dàng mở rộng các dấu trang trong các tệp PDF của mình theo chương trình. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quy trình, đảm bảo bạn hiểu từng phần của mã và cách thức hoạt động của nó. Vì vậy, hãy lấy đồ uống yêu thích của bạn và cùng khám phá thế giới thao tác PDF!
+Bạn đã bao giờ mở một tệp PDF và thấy rằng tất cả các dấu trang đều bị thu gọn chưa? Điều này có thể gây khó chịu, đặc biệt là khi bạn đang cố gắng điều hướng qua một tài liệu dài. May mắn thay, với Aspose.PDF cho .NET, bạn có thể dễ dàng mở rộng các dấu trang trong tệp PDF của mình theo chương trình. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quy trình, đảm bảo bạn hiểu từng phần của mã và cách thức hoạt động của nó. Vì vậy, hãy lấy đồ uống yêu thích của bạn và cùng khám phá thế giới thao tác PDF!
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là môi trường tốt nhất để phát triển .NET.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Mở Tài liệu PDF
 
- Tiếp theo, bạn sẽ mở tài liệu PDF có chứa các dấu trang bạn muốn mở rộng. Điều này được thực hiện bằng cách sử dụng`Document` lớp từ thư viện Aspose.PDF.
+Tiếp theo, bạn sẽ mở tài liệu PDF có chứa các dấu trang bạn muốn mở rộng. Điều này được thực hiện bằng cách sử dụng `Document` lớp từ thư viện Aspose.PDF.
 
 ```csharp
 // Mở tài liệu
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "input-bookmark.pdf");
 Bây giờ, bạn cần thiết lập chế độ xem trang của tài liệu. Điều này xác định cách PDF sẽ được hiển thị khi mở. Trong trường hợp này, chúng tôi muốn sử dụng phác thảo (dấu trang).
 
 ```csharp
-//Đặt chế độ xem trang tức là hiển thị hình thu nhỏ, toàn màn hình, hiển thị bảng đính kèm
+// Đặt chế độ xem trang tức là hiển thị hình thu nhỏ, toàn màn hình, hiển thị bảng đính kèm
 doc.PageMode = PageMode.UseOutlines;
 ```
 
@@ -119,19 +121,21 @@ Và bạn đã có nó! Bạn đã mở rộng thành công các dấu trang tro
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET [đây](https://reference.aspose.com/pdf/net/).
 
 ### Có hỗ trợ cho Aspose.PDF không?
- Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Làm thế nào để mua giấy phép cho Aspose.PDF?
- Bạn có thể mua giấy phép cho Aspose.PDF[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép cho Aspose.PDF [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

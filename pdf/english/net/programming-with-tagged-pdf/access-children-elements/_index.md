@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/access-children-elements/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Children Elements
@@ -180,6 +182,7 @@ You can find additional documentation on the [Aspose Documentation Page](https:/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

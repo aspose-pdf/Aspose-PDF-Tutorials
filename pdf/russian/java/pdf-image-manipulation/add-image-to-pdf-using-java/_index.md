@@ -1,14 +1,16 @@
 ---
-title: Добавить изображение в PDF с помощью Java
-linktitle: Добавить изображение в PDF с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как добавлять изображения в PDF-файлы с помощью Java с помощью нашего пошагового руководства. Улучшайте свои PDF-документы визуальными эффектами без особых усилий.
-weight: 10
-url: /ru/java/pdf-image-manipulation/add-image-to-pdf-using-java/
+"description": "Узнайте, как добавлять изображения в PDF-файлы с помощью Java с помощью нашего пошагового руководства. Улучшайте свои PDF-документы визуальными эффектами без особых усилий."
+"linktitle": "Добавить изображение в PDF с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Добавить изображение в PDF с помощью Java"
+"url": "/ru/java/pdf-image-manipulation/add-image-to-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить изображение в PDF с помощью Java
@@ -28,7 +30,7 @@ url: /ru/java/pdf-image-manipulation/add-image-to-pdf-using-java/
 
 ## Начиная
 
-Давайте начнем с настройки нашего проекта Java и включения библиотеки Aspose.PDF. Если вы еще этого не сделали, вы можете загрузить библиотеку Aspose.PDF для Java с[здесь](https://releases.aspose.com/pdf/java/).
+Давайте начнем с настройки нашего проекта Java и включения библиотеки Aspose.PDF. Если вы еще этого не сделали, вы можете загрузить библиотеку Aspose.PDF для Java с [здесь](https://releases.aspose.com/pdf/java/).
 
 ## Добавление изображения в существующий PDF-файл
 
@@ -48,18 +50,18 @@ import com.aspose.pdf.*;
 Document pdfDocument = new Document("path_to_existing_pdf.pdf");
 ```
 
- Заменять`"path_to_existing_pdf.pdf"` с фактическим путем к вашему PDF-файлу.
+Заменять `"path_to_existing_pdf.pdf"` с фактическим путем к вашему PDF-файлу.
 
 ### Шаг 3: Добавьте изображение
 
- Чтобы добавить изображение в PDF-файл, вы можете использовать`Image` класс из Aspose.PDF. Сначала создайте`Image` объект и укажите путь к файлу изображения:
+Чтобы добавить изображение в PDF-файл, вы можете использовать `Image` класс из Aspose.PDF. Сначала создайте `Image` объект и укажите путь к файлу изображения:
 
 ```java
 Image image = new Image();
 image.setFile("path_to_image.png");
 ```
 
- Заменять`"path_to_image.png"` с путем к изображению, которое вы хотите добавить.
+Заменять `"path_to_image.png"` с путем к изображению, которое вы хотите добавить.
 
 ### Шаг 4: Задайте размеры и положение изображения.
 
@@ -79,7 +81,7 @@ image.setLeft(100); // Установить левое поле
 Теперь добавьте изображение на определенную страницу PDF-файла:
 
 ```java
-Page page = pdfDocument.getPages().get_Item(1); // Замените на желаемый номер страницы.
+Page page = pdfDocument.getPages().get_Item(1); // Замените на желаемый номер страницы
 page.getParagraphs().add(image);
 ```
 
@@ -99,7 +101,7 @@ pdfDocument.save("output.pdf");
 
 ### Как изменить размер изображения в PDF-файле?
 
- Чтобы изменить размер изображения, используйте`setFixWidth` и`setFixHeight` методы`Image` класс, как показано в шаге 4 данного руководства.
+Чтобы изменить размер изображения, используйте `setFixWidth` и `setFixHeight` методы `Image` класс, как показано в шаге 4 данного руководства.
 
 ### Можно ли добавить несколько изображений в один и тот же PDF-документ?
 
@@ -116,9 +118,11 @@ Aspose.PDF для Java поддерживает широкий спектр фо
 ### Могу ли я добавлять изображения в определенные места на странице PDF-файла?
 
 Да, вы можете указать точное положение изображения на странице PDF-файла, задав верхнее и левое поля, как показано в шаге 4.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ekspor PDF ke Buku Kerja Excel
-linktitle: Ekspor PDF ke Buku Kerja Excel
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengekspor PDF ke buku kerja Excel dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah untuk ekstraksi data yang lancar.
-weight: 16
-url: /id/java/pdf-conversion-transformation/export-pdfs-to-excel-workbooks/
+"description": "Pelajari cara mengekspor PDF ke buku kerja Excel dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah untuk ekstraksi data yang lancar."
+"linktitle": "Ekspor PDF ke Buku Kerja Excel"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ekspor PDF ke Buku Kerja Excel"
+"url": "/id/java/pdf-conversion-transformation/export-pdfs-to-excel-workbooks/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor PDF ke Buku Kerja Excel
@@ -22,7 +24,7 @@ Di era digital saat ini, kemampuan untuk mengekstrak data dari file PDF dan meng
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
--  Aspose.PDF untuk Java: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
 - Pengetahuan Dasar Java: Keakraban dengan pemrograman Java akan membantu namun tidak wajib.
 
@@ -94,7 +96,7 @@ Selamat! Anda telah berhasil mempelajari cara mengekspor PDF ke buku kerja Excel
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Menginstal Aspose.PDF untuk Java mudah. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan di situs web mereka.
+Menginstal Aspose.PDF untuk Java mudah. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan di situs web mereka.
 
 ### Bisakah saya menyesuaikan keluaran Excel?
 
@@ -106,14 +108,16 @@ Aspose.PDF untuk Java adalah pustaka komersial, tetapi menawarkan versi uji coba
 
 ### Format file apa lagi yang dapat digunakan Aspose.PDF untuk Java?
 
-Aspose.PDF untuk Java terutama menangani file PDF, tetapi juga menyediakan kemampuan untuk mengonversi PDF ke format lain, seperti HTML, gambar, dan XPS.
+Aspose.PDF untuk Java terutama menangani berkas PDF, tetapi juga menyediakan kemampuan untuk mengonversi PDF ke format lain, seperti HTML, gambar, dan XPS.
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan sumber daya?
 
- Anda dapat menemukan dokumentasi lengkap dan sumber daya tambahan untuk Aspose.PDF untuk Java di situs web mereka di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi lengkap dan sumber daya tambahan untuk Aspose.PDF untuk Java di situs web mereka di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

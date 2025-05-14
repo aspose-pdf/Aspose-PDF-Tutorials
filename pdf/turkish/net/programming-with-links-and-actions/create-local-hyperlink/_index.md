@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Yerel Köprü Oluştur
-linktitle: PDF Dosyasında Yerel Köprü Oluştur
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyalarında yerel köprü metinlerinin nasıl kolayca oluşturulacağını adım adım rehberimizle öğrenin.
-weight: 40
-url: /tr/net/programming-with-links-and-actions/create-local-hyperlink/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyalarında yerel köprü metinlerinin nasıl kolayca oluşturulacağını adım adım rehberimizle öğrenin."
+"linktitle": "PDF Dosyasında Yerel Köprü Oluştur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Yerel Köprü Oluştur"
+"url": "/tr/net/programming-with-links-and-actions/create-local-hyperlink/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Yerel Köprü Oluştur
@@ -21,10 +23,10 @@ Bu kılavuzda, .NET için Aspose.PDF kullanarak bir PDF dosyasında yerel köpr�
 
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Visual Studio: .NET uygulamalarınızı geliştirmek için buna ihtiyacınız olacak. Bunu şuradan indirin:[web sitesi](https://visualstudio.microsoft.com/).
-2.  Aspose.PDF for .NET: Bu kütüphaneyi şu adresten indirebilirsiniz:[indirme bağlantısı burada](https://releases.aspose.com/pdf/net/)PDF düzenleme için zengin özelliklerle birlikte gelir.
+1. Visual Studio: .NET uygulamalarınızı geliştirmek için buna ihtiyacınız olacak. Bunu şuradan indirin: [web sitesi](https://visualstudio.microsoft.com/).
+2. .NET için Aspose.PDF: Bu kütüphaneyi şu adresten indirebilirsiniz: [indirme bağlantısı burada](https://releases.aspose.com/pdf/net/)PDF düzenleme için zengin özelliklerle birlikte gelir.
 3. Temel C# Bilgisi: C# programlamaya biraz aşinalık faydalı olacaktır, ancak endişelenmeyin; kodu satır satır inceleyeceğiz.
-4.  .NET Framework: Makinenizde .NET framework'ün yüklü olduğundan emin olun. Gereksinimleri Aspose.PDF'de kontrol edebilirsiniz[belgeleme](https://reference.aspose.com/pdf/net/).
+4. .NET Framework: Makinenizde .NET framework'ün yüklü olduğundan emin olun. Gereksinimleri Aspose.PDF'de kontrol edebilirsiniz [belgeleme](https://reference.aspose.com/pdf/net/).
 
 Bu ön koşulları sağladıktan sonra, PDF belgelerinizde yerel köprü metinleri oluşturmayı öğrenmeye hazırsınız!
 
@@ -38,7 +40,7 @@ Mevcut .NET projenizi açın veya Visual Studio'da yeni bir proje oluşturun. S�
 
 ### Aspose.PDF'e Referans Ekle
 
- Solution Explorer'da proje klasörünüzdeki "Bağımlılıklar"a sağ tıklayın. "NuGet Paketlerini Yönet"i seçin, ardından şunu arayın`Aspose.PDF`. Mevcut en son sürümü yükleyin. Bu, PDF'leri oluşturmak ve düzenlemek için ihtiyaç duyduğunuz tüm araçları getirecektir.
+Solution Explorer'da proje klasörünüzdeki "Bağımlılıklar"a sağ tıklayın. "NuGet Paketlerini Yönet"i seçin, ardından şunu arayın `Aspose.PDF`. Mevcut en son sürümü yükleyin. Bu, PDF'leri oluşturmak ve düzenlemek için ihtiyaç duyduğunuz tüm araçları getirecektir.
 
 ### Ad Alanlarını İçe Aktar
 
@@ -63,7 +65,7 @@ Bu adımda, üzerinde çalışacağınız PDF dosyasını temsil eden Belge sın
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Belge dizininizi ayarlayın
 Document doc = new Document(); // Belge örneği oluştur
 ```
- The`dataDir` değişken, yeni oluşturduğunuz PDF'nizin bulunacağı yerdir. Değiştirmeniz gerekecektir`"YOUR DOCUMENT DIRECTORY"` sisteminizdeki gerçek yol ile.`Document` class, sayfalar ve bağlantılar ekleyebileceğimiz yeni bir PDF belgesi oluşturur.
+The `dataDir` değişken, yeni oluşturduğunuz PDF'nizin bulunacağı yerdir. Değiştirmeniz gerekecektir `"YOUR DOCUMENT DIRECTORY"` sisteminizdeki gerçek yol ile. `Document` class, sayfalar ve bağlantılar ekleyebileceğimiz yeni bir PDF belgesi oluşturur.
 
 ## Adım 2: Belgeye Bir Sayfa Ekleyin
 
@@ -72,7 +74,7 @@ Daha sonra PDF belgenize bir sayfa ekleyeceksiniz.
 ```csharp
 Page page = doc.Pages.Add(); // Sayfa koleksiyonuna sayfa ekle
 ```
- The`Pages.Add()` method belgeye yeni bir sayfa ekler. Tüm içerikleriniz burada yaşayacaktır.
+The `Pages.Add()` method belgeye yeni bir sayfa ekler. Tüm içerikleriniz burada yaşayacaktır.
 
 ## Adım 3: Bir Metin Parçası Oluşturun
 
@@ -81,18 +83,18 @@ Page page = doc.Pages.Add(); // Sayfa koleksiyonuna sayfa ekle
 ```csharp
 Aspose.Pdf.Text.TextFragment text = new Aspose.Pdf.Text.TextFragment("link page number test to page 7");
 ```
- The`TextFragment` PDF'deki bir metin bölümünü temsil eder. Burada, kullanıcılara 7. sayfaya götüreceğini söyleyen bir bağlantı oluşturuyoruz.
+The `TextFragment` PDF'deki bir metin bölümünü temsil eder. Burada, kullanıcılara 7. sayfaya götüreceğini söyleyen bir bağlantı oluşturuyoruz.
 
 ## Adım 4: Yerel Köprü Oluşturun
 
-İşte sihir burada gerçekleşiyor! Metin parçasının nereye işaret edeceğini söyleyecek yerel bir köprü metni oluşturmanız gerekiyor.
+İşte sihir burada gerçekleşiyor! Metin parçasına nereye işaret edeceğini söyleyecek yerel bir köprü metni oluşturmanız gerekiyor.
 
 ```csharp
 Aspose.Pdf.LocalHyperlink link = new Aspose.Pdf.LocalHyperlink(); // Yerel köprü metni oluştur
-link.TargetPageNumber = 7; //Bağlantı örneği için hedef sayfayı ayarla
+link.TargetPageNumber = 7; // Bağlantı örneği için hedef sayfayı ayarla
 text.Hyperlink = link; // TextFragment köprü metni ayarla
 ```
- The`LocalHyperlink` sınıf, aynı belgedeki diğer sayfalara işaret etmemizi sağlayan şeydir.`TargetPageNumber` 7'ye geldiğinizde, tıklandığında köprü metninin o belirli sayfaya gitmesini sağlarsınız.
+The `LocalHyperlink` sınıf, aynı belgedeki diğer sayfalara işaret etmemizi sağlayan şeydir. `TargetPageNumber` 7'ye geldiğinizde, tıklandığında köprü metninin o belirli sayfaya gitmesini sağlarsınız.
 
 ## Adım 5: Metin Parçasını Sayfaya Ekleyin
 
@@ -111,7 +113,7 @@ Bu satır tıklanabilir metninizi sayfanın paragraf koleksiyonuna ekler.
 text = new TextFragment("link page number test to page 1"); // Yeni TextFragment oluştur
 text.IsInNewPage = true; // Yeni bir sayfaya ekle
 ```
- Yeni bir tane yaratmak`TextFragment` ikinci bağlantı için,`IsInNewPage` true olarak ayarlandığında bu metnin yeni bir sayfaya gideceğini belirtir.
+Yeni bir tane yaratmak `TextFragment` ikinci bağlantı için, `IsInNewPage` true olarak ayarlandığında bu metnin yeni bir sayfaya gideceğini belirtir.
 
 ## Adım 7: İkinci Yerel Bağlantıyı Ayarlayın
 
@@ -119,7 +121,7 @@ Daha önce yaptığınız gibi, 1. sayfa için başka bir yerel köprü metni ol
 
 ```csharp
 link = new LocalHyperlink(); // Başka bir yerel köprü metni örneği oluşturun
-link.TargetPageNumber = 1; //İkinci köprü metni için Hedef sayfasını ayarla
+link.TargetPageNumber = 1; // İkinci köprü metni için Hedef sayfasını ayarla
 text.Hyperlink = link; // İkinci TextFragment için bağlantıyı ayarla
 ```
 Bu köprü metni 1. sayfayı hedef alır ve kullanıcıların ikinci sayfaya ulaştıklarında geri dönmelerine olanak tanır.
@@ -142,7 +144,7 @@ dataDir = dataDir + "CreateLocalHyperlink_out.pdf"; // Çıktı dosya adını be
 doc.Save(dataDir); // Güncellenen belgeyi kaydet
 Console.WriteLine("\nLocal hyperlink created successfully.\nFile saved at " + dataDir);
 ```
- Bu, dizin yolunuzu dosya adıyla birleştirir.`Save()` yöntemi belgenizi kaydeder ve bir onay mesajı her şeyin yolunda gittiğini bildirir!
+Bu, dizin yolunuzu dosya adıyla birleştirir. `Save()` yöntemi belgenizi kaydeder ve bir onay mesajı her şeyin yolunda gittiğini bildirir!
 
 ## Çözüm
 
@@ -157,16 +159,18 @@ Aspose.PDF for .NET, geliştiricilerin .NET çerçevesini kullanarak PDF belgele
 Evet, Aspose.PDF, PDF içindeki yerel köprülerin yanı sıra harici URL'lere köprü oluşturmayı da destekler.
 
 ### Aspose.PDF için ücretsiz deneme sürümü var mı?
- Kesinlikle! Ücretsiz denemeye şuradan erişebilirsiniz:[alan](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz denemeye şuradan erişebilirsiniz: [alan](https://releases.aspose.com/).
 
 ### Aspose hangi programlama dillerini destekliyor?
-Aspose, Java, C dahil olmak üzere çeşitli programlama dilleri için kütüphaneler sunar++ve Python gibi.
+Aspose, Java, C++ ve Python da dahil olmak üzere çeşitli programlama dilleri için kütüphaneler sunuyor.
 
 ### Aspose ürünlerine yönelik desteği nasıl alabilirim?
- Destek almak için şu yolu kullanabilirsiniz:[Aspose Forum](https://forum.aspose.com/c/pdf/10).
+Destek almak için şu yolu kullanabilirsiniz: [Aspose Forum](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

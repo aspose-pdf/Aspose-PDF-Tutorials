@@ -1,14 +1,16 @@
 ---
-title: Tùy chỉnh Tab dừng trong tệp PDF
-linktitle: Tùy chỉnh Tab dừng trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thiết lập các điểm dừng tab tùy chỉnh trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm hướng dẫn từng bước để căn chỉnh văn bản một cách chuyên nghiệp.
-weight: 120
-url: /vi/net/programming-with-text/custom-tab-stops/
+"description": "Tìm hiểu cách thiết lập các điểm dừng tab tùy chỉnh trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm hướng dẫn từng bước để căn chỉnh văn bản một cách chuyên nghiệp."
+"linktitle": "Tùy chỉnh Tab dừng trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tùy chỉnh Tab dừng trong tệp PDF"
+"url": "/vi/net/programming-with-text/custom-tab-stops/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tùy chỉnh Tab dừng trong tệp PDF
@@ -21,10 +23,10 @@ Bạn đã bao giờ phải định dạng văn bản trong PDF và muốn có t
 
 Trước khi bắt đầu, đây là những gì bạn cần làm theo:
 
--  Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 - Môi trường phát triển .NET: Đảm bảo bạn đã thiết lập Visual Studio hoặc IDE khác để chạy các ứng dụng .NET.
 - Hiểu biết cơ bản về C#: Chúng ta sẽ viết mã bằng C#, do đó, bạn nên có chút hiểu biết về ngôn ngữ này.
--  Giấy phép tạm thời: Bạn có thể sử dụng[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)để mở khóa tất cả các tính năng của Aspose.PDF cho .NET.
+- Giấy phép tạm thời: Bạn có thể sử dụng [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để mở khóa tất cả các tính năng của Aspose.PDF cho .NET.
 
 Khi bạn đã chuẩn bị mọi thứ, hãy chuyển sang nhập các gói cần thiết và thiết lập môi trường.
 
@@ -39,7 +41,7 @@ using Aspose.Pdf.Text;
 using System;
 ```
 
- Hai dòng này là cần thiết.`Aspose.Pdf` không gian tên cung cấp cấu trúc tài liệu, trong khi`Aspose.Pdf.Text` cho phép chúng ta truy cập vào các tính năng dành riêng cho văn bản như dừng tab tùy chỉnh.
+Hai dòng này là cần thiết. `Aspose.Pdf` không gian tên cung cấp cấu trúc tài liệu, trong khi `Aspose.Pdf.Text` cho phép chúng ta truy cập vào các tính năng dành riêng cho văn bản như dừng tab tùy chỉnh.
 
 Chúng ta hãy cùng phân tích quy trình thiết lập các điểm dừng tab tùy chỉnh trong PDF. Chúng ta sẽ xem xét từng bước một cách chi tiết để đảm bảo bạn hiểu chính xác những gì đang diễn ra.
 
@@ -54,8 +56,8 @@ Page page = _pdfdocument.Pages.Add();
 ```
 
 Trong đoạn trích này:
--  Chúng tôi tạo ra một cái mới`Document` sự vật.
--  Chúng tôi thêm một trang mới vào tài liệu bằng cách sử dụng`Pages.Add()`. Đây là nơi chúng ta sẽ chèn văn bản có điểm dừng tab.
+- Chúng tôi tạo ra một cái mới `Document` sự vật.
+- Chúng tôi thêm một trang mới vào tài liệu bằng cách sử dụng `Pages.Add()`Đây là nơi chúng ta sẽ chèn văn bản có điểm dừng tab.
 
 ## Bước 2: Thiết lập Tab Stop
 
@@ -69,9 +71,9 @@ ts1.LeaderType = TabLeaderType.Solid;
 ```
 
 Ở đây, chúng tôi:
--  Khởi tạo một`TabStops` đối tượng sẽ giữ các điểm dừng tab tùy chỉnh của chúng ta.
--  Thêm một điểm dừng tab tại mốc 100 pixel bằng cách sử dụng`ts.Add(100)`. Điều này xác định vị trí tab sẽ xuất hiện.
--  Đặt loại căn chỉnh thành`Right`, nghĩa là văn bản chạm vào điểm dừng tab này sẽ căn chỉnh sang bên phải.
+- Khởi tạo một `TabStops` đối tượng sẽ giữ các điểm dừng tab tùy chỉnh của chúng ta.
+- Thêm một điểm dừng tab tại mốc 100 pixel bằng cách sử dụng `ts.Add(100)`. Điều này xác định vị trí tab sẽ xuất hiện.
+- Đặt loại căn chỉnh thành `Right`, nghĩa là văn bản chạm vào điểm dừng tab này sẽ căn chỉnh sang bên phải.
 - Xác định loại đường dẫn. Đường dẫn là các dấu chấm hoặc dấu gạch ngang lấp đầy khoảng trống trước khi dừng tab. Trong trường hợp này, chúng ta sử dụng một đường liền.
 
 ## Bước 3: Thêm nhiều điểm dừng tab hơn
@@ -103,11 +105,11 @@ TextFragment text1 = new TextFragment("#$TABdata11 #$TABdata12 #$TABdata13", ts)
 
 - `TextFragment` đại diện cho một đoạn văn bản.
 - Chúng tôi sử dụng các dấu tab (`#$TAB`) để cho PDF biết nơi áp dụng điểm dừng tab.
--  Ví dụ, trong`text0`, `#$TABHead1` sẽ căn chỉnh theo điểm dừng tab đầu tiên,`#$TABHead2` sẽ căn chỉnh theo thứ hai, v.v.
+- Ví dụ, trong `text0`, `#$TABHead1` sẽ căn chỉnh theo điểm dừng tab đầu tiên, `#$TABHead2` sẽ căn chỉnh theo thứ hai, v.v.
 
 ## Bước 5: Thêm phân đoạn vào văn bản
 
- Đôi khi, bạn có thể muốn chia văn bản của mình thành nhiều phân đoạn, mỗi phân đoạn có một điểm dừng tab riêng. Đây là nơi`TextSegment` rất hữu ích.
+Đôi khi, bạn có thể muốn chia văn bản của mình thành nhiều đoạn, mỗi đoạn có một điểm dừng tab riêng. Đây là nơi `TextSegment` rất hữu ích.
 
 ```csharp
 TextFragment text2 = new TextFragment("#$TABdata21 ", ts);
@@ -118,8 +120,8 @@ text2.Segments.Add(new TextSegment("data23"));
 ```
 
 Trong trường hợp này:
--  Chúng tôi bắt đầu với`#$TABdata21`, căn chỉnh với điểm dừng tab đầu tiên.
--  Chúng tôi thêm nhiều phân đoạn như`data22` Và`data23`, mỗi tab sẽ căn chỉnh theo các điểm dừng tab khác nhau.
+- Chúng tôi bắt đầu với `#$TABdata21`, căn chỉnh với điểm dừng tab đầu tiên.
+- Chúng tôi thêm nhiều phân đoạn như `data22` Và `data23`, mỗi tab sẽ căn chỉnh theo các điểm dừng tab khác nhau.
 
 ## Bước 6: Thêm văn bản vào trang PDF
 
@@ -132,7 +134,7 @@ page.Paragraphs.Add(text1);
 page.Paragraphs.Add(text2);
 ```
 
- Mã này thêm mỗi`TextFragment`vào trang PDF, đảm bảo rằng văn bản được định dạng theo đúng điểm dừng tab.
+Mã này thêm mỗi `TextFragment` vào trang PDF, đảm bảo rằng văn bản được định dạng theo đúng điểm dừng tab.
 
 ## Bước 7: Lưu tài liệu PDF
 
@@ -149,7 +151,7 @@ Console.WriteLine("\nCustom tab stops setup successfully.\nFile saved at " + dat
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bằng cách làm theo hướng dẫn này, bạn đã học cách tạo các điểm dừng tab tùy chỉnh trong tài liệu PDF bằng Aspose.PDF cho .NET. Điểm dừng tab cho phép bạn căn chỉnh văn bản theo cách có cấu trúc và hấp dẫn về mặt trực quan, giúp PDF của bạn chuyên nghiệp hơn. Cho dù bạn đang căn chỉnh chi tiết hóa đơn, bảng biểu hay bất kỳ dạng dữ liệu nào khác, tính năng này cung cấp cho bạn toàn quyền kiểm soát vị trí văn bản.
+Và bạn đã có nó! Bằng cách làm theo hướng dẫn này, bạn đã học cách tạo các điểm dừng tab tùy chỉnh trong tài liệu PDF bằng Aspose.PDF cho .NET. Điểm dừng tab cho phép bạn căn chỉnh văn bản theo cách có cấu trúc và hấp dẫn về mặt thị giác, giúp PDF của bạn chuyên nghiệp hơn. Cho dù bạn đang căn chỉnh chi tiết hóa đơn, bảng biểu hay bất kỳ dạng dữ liệu nào khác, tính năng này cung cấp cho bạn toàn quyền kiểm soát vị trí văn bản.
 
 ## Câu hỏi thường gặp
 
@@ -167,9 +169,11 @@ Không, bạn có thể thêm bao nhiêu điểm dừng tab tùy thích để ph
 
 ### Tôi có thể tùy chỉnh vị trí dừng tab không?  
 Có, bạn có thể xác định vị trí pixel chính xác cho mỗi điểm dừng tab để phù hợp với bố cục của bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

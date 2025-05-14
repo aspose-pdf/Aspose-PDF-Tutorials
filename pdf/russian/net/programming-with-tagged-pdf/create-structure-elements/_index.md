@@ -1,14 +1,16 @@
 ---
-title: Создать элементы структуры
-linktitle: Создать элементы структуры
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как создавать элементы структуры в PDF с помощью Aspose.PDF для .NET. Пошаговое руководство для улучшения доступности и организации PDF.
-weight: 60
-url: /ru/net/programming-with-tagged-pdf/create-structure-elements/
+"description": "Узнайте, как создавать элементы структуры в PDF с помощью Aspose.PDF для .NET. Пошаговое руководство для улучшения доступности и организации PDF."
+"linktitle": "Создать элементы структуры"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Создать элементы структуры"
+"url": "/ru/net/programming-with-tagged-pdf/create-structure-elements/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать элементы структуры
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-tagged-pdf/create-structure-elements/
 Прежде чем погрузиться в руководство, давайте рассмотрим, что вам нужно для начала:
 
 1. .NET Framework: Убедитесь, что у вас настроена совместимая среда .NET. Это может быть .NET Framework или .NET Core, в зависимости от ваших предпочтений.
-2.  Aspose.PDF для .NET: Загрузите и установите библиотеку. Последнюю версию можно найти[здесь](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF для .NET: Загрузите и установите библиотеку. Последнюю версию можно найти [здесь](https://releases.aspose.com/pdf/net/).
 3. Среда разработки: любая IDE, поддерживающая .NET, например Visual Studio, должна работать хорошо.
 4. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понять примеры.
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Здесь замените`"YOUR DOCUMENT DIRECTORY"` с путем, по которому вы хотите сохранить ваш PDF. Это гарантирует, что ваш выходной файл будет иметь известное местоположение.
+Здесь замените `"YOUR DOCUMENT DIRECTORY"` с путем, по которому вы хотите сохранить ваш PDF. Это гарантирует, что ваш выходной файл будет иметь известное местоположение.
 
 ## Шаг 2: Получение тегированного контента
 
@@ -130,7 +132,7 @@ NoteElement noteElement = taggedContent.CreateNoteElement();
 
 ## Шаг 7: Создание элементов структуры иллюстрации
 
-Время добавить графики! Мы можем добавить иллюстративные элементы для улучшения понимания.
+Время добавить немного графики! Мы можем добавить иллюстративные элементы для улучшения понимания.
 
 ```csharp
 // Создание элементов структуры иллюстрации
@@ -190,19 +192,21 @@ document.Save(dataDir + "StructureElements.pdf");
 Aspose.PDF для .NET — это библиотека, которая позволяет разработчикам легко создавать, изменять и конвертировать PDF-документы с помощью языков программирования .NET.
 
 ### Как установить Aspose.PDF для .NET?
- Вы можете скачать его[здесь](https://releases.aspose.com/pdf/net/) и добавьте его в свой проект через NuGet или вручную.
+Вы можете скачать его [здесь](https://releases.aspose.com/pdf/net/) и добавьте его в свой проект через NuGet или вручную.
 
 ### Могу ли я создавать теги для обеспечения доступности в моих PDF-файлах?
 Да! Aspose.PDF для .NET поддерживает создание тегированных PDF-файлов, что улучшает доступность для программ чтения с экрана.
 
 ### Где я могу найти дополнительную документацию по Aspose.PDF?
- Вы можете получить доступ к подробной документации[здесь](https://reference.aspose.com/pdf/net/).
+Вы можете получить доступ к подробной документации [здесь](https://reference.aspose.com/pdf/net/).
 
 ### Есть ли бесплатная пробная версия?
- Конечно! Попробуйте бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Конечно! Попробуйте бесплатную пробную версию [здесь](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

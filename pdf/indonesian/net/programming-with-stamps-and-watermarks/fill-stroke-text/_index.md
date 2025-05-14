@@ -1,14 +1,16 @@
 ---
-title: Isi Teks Goresan Dalam File PDF
-linktitle: Isi Teks Goresan Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengisi teks guratan dalam file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang dilengkapi dengan contoh-contoh praktis.
-weight: 90
-url: /id/net/programming-with-stamps-and-watermarks/fill-stroke-text/
+"description": "Pelajari cara mengisi teks guratan dalam file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang dilengkapi dengan contoh-contoh praktis."
+"linktitle": "Isi Teks Goresan Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Isi Teks Goresan Dalam File PDF"
+"url": "/id/net/programming-with-stamps-and-watermarks/fill-stroke-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Isi Teks Goresan Dalam File PDF
@@ -22,9 +24,9 @@ Pernahkah Anda ingin memodifikasi berkas PDF agar menonjol? Mungkin Anda perlu m
 Sebelum kita masuk ke pengkodean, ada beberapa hal yang perlu Anda siapkan agar tutorial ini berjalan lancar:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda karena kita akan menulis kode C#.
-2.  Pustaka Aspose.PDF: Pastikan Anda telah mengunduh pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Pustaka Aspose.PDF: Pastikan Anda telah mengunduh pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami tutorial dengan lebih mudah.
-4. Contoh File PDF: Anda memerlukan contoh file PDF (`input.pdf`untuk tujuan pengujian. Anda dapat membuat yang sederhana atau menggunakan PDF apa pun yang sudah Anda miliki.
+4. Contoh File PDF: Anda memerlukan contoh file PDF (`input.pdf`) untuk tujuan pengujian. Anda dapat membuat yang sederhana atau menggunakan PDF apa pun yang sudah Anda miliki.
 
 Setelah semua siap, mari kita masuk ke inti pengisian teks goresan pada berkas PDF Anda.
 
@@ -42,7 +44,7 @@ using System.Text;
 
 Paket-paket ini akan memungkinkan kita untuk menggunakan fungsionalitas yang kuat dari pustaka Aspose.PDF.
 
-Mari kita uraikan tugas utama ke dalam langkah-langkah yang jelas. Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah mengisi teks guratan ke dalam berkas PDF Anda. 
+Mari kita uraikan tugas utama ke dalam langkah-langkah yang jelas. Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah mengisi teks guratan ke dalam file PDF Anda. 
 
 ## Langkah 1: Siapkan Lingkungan Anda
 
@@ -51,7 +53,7 @@ Pertama, pastikan Anda telah menyiapkan semuanya dengan benar di proyek Visual S
 1. Buka Visual Studio.
 2. Buat proyek C# baru (misalnya, Aplikasi Konsol).
 3. Klik kanan pada proyek di Solution Explorer, pilih “Kelola Paket NuGet.”
-4.  Pencarian untuk`Aspose.PDF` dan menginstalnya.
+4. Pencarian untuk `Aspose.PDF` dan menginstalnya.
 
 ## Langkah 2: Tentukan Direktori Dokumen Anda
 
@@ -61,7 +63,7 @@ Setiap perjalanan memerlukan titik awal, dan dalam kasus kami, itu adalah direkt
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF masukan Anda berada. 
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF masukan Anda berada. 
 
 ## Langkah 3: Buat Objek TextState
 
@@ -71,7 +73,7 @@ Langkah ini adalah tempat Anda mulai menentukan properti teks yang ingin Anda ta
 TextState ts = new TextState();
 ```
 
- Itu`TextState` Objek tersebut akan menampung pilihan gaya untuk teks guratan Anda.
+Itu `TextState` Objek tersebut akan menampung pilihan gaya untuk teks guratan Anda.
 
 ## Langkah 4: Mengatur Warna untuk Stroke
 
@@ -101,7 +103,7 @@ Sekarang saatnya memuat berkas PDF yang akan Anda modifikasi.
 Facades.PdfFileStamp fileStamp = new Facades.PdfFileStamp(new Aspose.Pdf.Document(dataDir + "input.pdf"));
 ```
 
-Pastikan input PDF Anda (`input.pdf`terletak di direktori dokumen yang didefinisikan pada langkah sebelumnya.
+Pastikan masukan PDF Anda (`input.pdf`) terletak di direktori dokumen yang didefinisikan pada langkah sebelumnya.
 
 ## Langkah 7: Buat Objek Prangko
 
@@ -125,7 +127,7 @@ Di sini, “PAID IN FULL” adalah teks yang kami tambahkan, beserta atribut gay
 
 ## Langkah 9: Ikat Status Teks
 
- Sekarang, ikat`TextState` Anda definisikan sebelumnya pada prangko. 
+Sekarang, ikat `TextState` Anda definisikan sebelumnya pada prangko. 
 
 ```csharp
 stamp.BindTextState(ts);
@@ -141,7 +143,7 @@ Tentukan di mana prangko Anda akan muncul di PDF:
 stamp.SetOrigin(100, 100);
 ```
 
- Argumen`(100, 100)` menunjukkan koordinat X dan Y (dalam poin) untuk asal teks. Sesuaikan nilai-nilai ini untuk memposisikan teks Anda dengan sempurna!
+Argumen `(100, 100)` menunjukkan koordinat X dan Y (dalam poin) untuk asal teks. Sesuaikan nilai ini untuk memposisikan teks Anda dengan sempurna!
 
 ## Langkah 11: Konfigurasikan Opacity dan Rotasi
 
@@ -174,11 +176,11 @@ fileStamp.Save(dataDir + "output_out.pdf");
 fileStamp.Close();
 ```
 
- File PDF Anda yang baru dimodifikasi yang berisi teks goresan akan disimpan sebagai`output_out.pdf` di direktori dokumen Anda. 
+File PDF Anda yang baru dimodifikasi yang berisi teks goresan akan disimpan sebagai `output_out.pdf` di direktori dokumen Anda. 
 
 ## Kesimpulan
 
-Nah, itu dia! Dengan mengikuti langkah-langkah sederhana ini, Anda dapat dengan mudah mengisi teks guratan pada berkas PDF menggunakan Aspose.PDF for .NET. Baik untuk dokumen bisnis maupun proyek pribadi, teknik ini memungkinkan Anda menambahkan sentuhan unik pada PDF Anda, membuatnya menonjol di tumpukan kertas mana pun.
+Nah, itu dia! Dengan mengikuti langkah-langkah sederhana ini, Anda dapat dengan mudah mengisi teks guratan pada berkas PDF menggunakan Aspose.PDF untuk .NET. Baik untuk dokumen bisnis maupun proyek pribadi, teknik ini memungkinkan Anda menambahkan sentuhan unik pada PDF Anda, membuatnya menonjol di tumpukan kertas mana pun.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -186,19 +188,21 @@ Nah, itu dia! Dengan mengikuti langkah-langkah sederhana ini, Anda dapat dengan 
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
-Ya, Aspose menawarkan uji coba gratis. Anda bisa mendapatkannya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan uji coba gratis. Anda bisa mendapatkannya [Di Sini](https://releases.aspose.com/).
 
 ### Apakah saya perlu membayar lisensi?
- Meskipun perpustakaan memiliki uji coba gratis, lisensi sementara juga dapat dibeli di[tautan ini](https://purchase.aspose.com/temporary-license/).
+Meskipun perpustakaan memiliki uji coba gratis, lisensi sementara juga dapat dibeli di [tautan ini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan dokumentasinya?
- Anda dapat mengakses dokumentasi lengkap[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat mengakses dokumentasi lengkap [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Apakah ada dukungan yang tersedia jika saya mengalami masalah?
- Tentu saja! Anda bisa mendapatkan dukungan di forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Tentu saja! Anda bisa mendapatkan dukungan di forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

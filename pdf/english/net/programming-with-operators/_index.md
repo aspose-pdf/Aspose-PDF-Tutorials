@@ -7,7 +7,9 @@ description: The Aspose.PDF for .NET Programming with Operators tutorials teach 
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Operators
@@ -25,6 +27,7 @@ Aspose.PDF for .NET's "Programming with Operators" tutorials guide you through t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

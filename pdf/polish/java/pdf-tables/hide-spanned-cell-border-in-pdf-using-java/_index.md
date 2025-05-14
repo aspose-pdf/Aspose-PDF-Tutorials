@@ -1,14 +1,16 @@
 ---
-title: Ukryj rozciągniętą granicę komórki w pliku PDF za pomocą Java
-linktitle: Ukryj rozciągniętą granicę komórki w pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak ukryć rozciągnięte obramowania komórek w pliku PDF za pomocą języka Java, korzystając z samouczka krok po kroku dotyczącego pliku Aspose.PDF dla języka Java.
-weight: 12
-url: /pl/java/pdf-tables/hide-spanned-cell-border-in-pdf-using-java/
+"description": "Dowiedz się, jak ukryć rozciągnięte obramowania komórek w pliku PDF za pomocą języka Java, korzystając z samouczka krok po kroku dotyczącego pliku Aspose.PDF dla języka Java."
+"linktitle": "Ukryj rozciągniętą granicę komórki w pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Ukryj rozciągniętą granicę komórki w pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-tables/hide-spanned-cell-border-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ukryj rozciągniętą granicę komórki w pliku PDF za pomocą Java
@@ -16,7 +18,7 @@ url: /pl/java/pdf-tables/hide-spanned-cell-border-in-pdf-using-java/
 
 ## Wprowadzenie do ukrywania rozciągniętej granicy komórki w pliku PDF przy użyciu języka Java
 
-dzisiejszej erze cyfrowej dynamiczne generowanie dokumentów PDF jest powszechnym zadaniem zarówno dla firm, jak i deweloperów. Podczas pracy z plikami PDF możesz natknąć się na sytuacje, w których musisz ukryć rozciągnięte obramowania komórek w tabeli. Ten artykuł przeprowadzi Cię przez proces osiągnięcia tego przy użyciu Javy i biblioteki Aspose.PDF for Java.
+W dzisiejszej erze cyfrowej dynamiczne generowanie dokumentów PDF jest powszechnym zadaniem zarówno dla firm, jak i deweloperów. Podczas pracy z plikami PDF możesz natknąć się na sytuacje, w których musisz ukryć rozciągnięte obramowania komórek w tabeli. Ten artykuł przeprowadzi Cię przez proces osiągnięcia tego przy użyciu Javy i biblioteki Aspose.PDF for Java.
 
 ## Zrozumienie rozciągniętych granic komórek w formacie PDF
 
@@ -40,7 +42,7 @@ Zanim zagłębimy się w kod, upewnijmy się, że masz niezbędne narzędzia. B�
 
 ### Krok 2: Tworzenie dokumentu PDF
 
- Zacznij od utworzenia nowego projektu Java w swoim IDE. Następnie dodaj bibliotekę Aspose.PDF for Java do zależności swojego projektu. Możesz pobrać bibliotekę z[Tutaj](https://releases.aspose.com/pdf/java/).
+Zacznij od utworzenia nowego projektu Java w swoim IDE. Następnie dodaj bibliotekę Aspose.PDF for Java do zależności swojego projektu. Możesz pobrać bibliotekę z [Tutaj](https://releases.aspose.com/pdf/java/).
 
 Następnie utwórz nową klasę Java i zacznijmy od zaimportowania niezbędnych pakietów:
 
@@ -93,7 +95,7 @@ pdfDocument.save("output.pdf");
 
 ## Wniosek
 
-W tym artykule przyjrzeliśmy się sposobowi ukrywania rozciągniętych obramowań komórek w tabeli PDF przy użyciu Java i Aspose.PDF dla Java. Ta biblioteka upraszcza ten proces i pozwala uzyskać dopracowany i profesjonalny wygląd dokumentów PDF.
+W tym artykule przyjrzeliśmy się sposobowi ukrywania rozciągniętych obramowań komórek w tabeli PDF przy użyciu Javy i Aspose.PDF dla Javy. Ta biblioteka upraszcza ten proces i pozwala uzyskać dopracowany i profesjonalny wygląd dokumentów PDF.
 
 ## Najczęściej zadawane pytania
 
@@ -116,9 +118,11 @@ Tak, istnieją inne biblioteki, takie jak Apache PDFBox i iText, które można w
 ### Czy mogę ukrywać obramowania tylko dla wybranych komórek?
 
 Oczywiście! Logikę ukrywania obramowania można stosować selektywnie w zależności od struktury i projektu tabeli.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

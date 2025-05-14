@@ -8,7 +8,9 @@ url: /java/pdf-tables/add-table-in-existing-pdf-document-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Table in Existing PDF Document using Java
@@ -146,6 +148,7 @@ Yes, you can extract data from existing tables in a PDF document using Aspose.PD
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

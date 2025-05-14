@@ -1,14 +1,16 @@
 ---
-title: Tambahkan dan Cari Teks Tersembunyi Dalam File PDF
-linktitle: Tambahkan dan Cari Teks Tersembunyi Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan dan mencari teks tersembunyi dalam dokumen PDF menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
-weight: 20
-url: /id/net/programming-with-text/add-and-search-hidden-text/
+"description": "Pelajari cara menambahkan dan mencari teks tersembunyi dalam dokumen PDF menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah dengan contoh kode disertakan."
+"linktitle": "Tambahkan dan Cari Teks Tersembunyi Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan dan Cari Teks Tersembunyi Dalam File PDF"
+"url": "/id/net/programming-with-text/add-and-search-hidden-text/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan dan Cari Teks Tersembunyi Dalam File PDF
@@ -23,7 +25,7 @@ Sebelum menyelami bagian pengkodean, ada beberapa prasyarat yang perlu Anda perh
 
 ### Daftar Periksa Persyaratan
 - Visual Studio: Pastikan Anda telah menginstal Visual Studio. Tutorial ini mengasumsikan Anda menggunakan .NET Framework.
--  Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/).
 - Pengetahuan dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -32,8 +34,8 @@ Sebelum Anda dapat mulai menggunakan kode, Anda perlu memastikan bahwa Anda meng
 
 ### Siapkan Proyek Anda
 1. Buka Visual Studio dan buat proyek C# baru atau gunakan yang sudah ada.
-2.  Instal Aspose.PDF dengan menambahkan paket NuGet. Anda dapat melakukannya dengan membuka Pengelola Paket NuGet dan mencari`Aspose.PDF`. 
-3.  Atau, Anda dapat langsung mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/pdf/net/) dan menambahkannya sebagai referensi dalam proyek Anda.
+2. Instal Aspose.PDF dengan menambahkan paket NuGet. Anda dapat melakukannya dengan membuka Pengelola Paket NuGet dan mencari `Aspose.PDF`. 
+3. Atau, Anda dapat langsung mengunduh perpustakaan dari [Di Sini](https://releases.aspose.com/pdf/net/) dan menambahkannya sebagai referensi dalam proyek Anda.
 
 ### Mengimpor Ruang Nama yang Diperlukan
 Di bagian atas file C# Anda, impor namespace berikut:
@@ -59,7 +61,7 @@ Pertama, Anda perlu mengatur jalur penyimpanan PDF. Di sinilah keajaiban dimulai
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ubah ini ke direktori Anda
 ```
 
- Baris ini menentukan di mana PDF yang Anda hasilkan akan disimpan. Jangan lupa untuk mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur Anda yang sebenarnya.
+Baris ini menentukan di mana PDF yang Anda hasilkan akan disimpan. Jangan lupa untuk mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur Anda yang sebenarnya.
 
 ### Langkah 2: Buat Dokumen PDF
 Selanjutnya, mari buat dokumen PDF baru dan tambahkan halaman ke dalamnya.
@@ -79,16 +81,16 @@ TextFragment frag1 = new TextFragment("This is common text.");
 TextFragment frag2 = new TextFragment("This is invisible text.");
 ```
 
- Dalam cuplikan ini,`frag1` akan terlihat, sedangkan`frag2` Akan diatur menjadi tidak terlihat selanjutnya.
+Dalam cuplikan ini, `frag1` akan terlihat, sedangkan `frag2` Akan diatur menjadi tidak terlihat selanjutnya.
 
 ### Langkah 4: Atur Teks menjadi Tidak Terlihat
- Untuk membuat teks`frag2` tidak terlihat, Anda cukup memodifikasinya`TextState`.
+Untuk membuat teks `frag2` tidak terlihat, Anda cukup memodifikasinya `TextState`.
 
 ```csharp
 frag2.TextState.Invisible = true;
 ```
 
- Dengan mengatur properti ini, teks apa pun yang terkait dengan`frag2` tidak akan ditampilkan saat PDF dilihat.
+Dengan mengatur properti ini, teks apa pun yang terkait dengan `frag2` tidak akan ditampilkan saat PDF dilihat.
 
 ### Langkah 5: Tambahkan Fragmen Teks ke Halaman
 Terakhir, kami menambahkan fragmen teks ini ke halaman dan menyimpan PDF.
@@ -114,7 +116,7 @@ doc = new Aspose.Pdf.Document(dataDir + "39400_out.pdf");
 ```
 
 ### Langkah 2: Buat Penyerap Fragmen Teks
- Kami akan menggunakan`TextFragmentAbsorber` untuk menangkap semua fragmen teks dalam PDF.
+Kami akan menggunakan `TextFragmentAbsorber` untuk menangkap semua fragmen teks dalam PDF.
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber();
@@ -134,7 +136,7 @@ foreach (TextFragment fragment in absorber.TextFragments)
 }
 ```
 
- Loop ini memeriksa setiap fragmen teks dan mencetak isinya beserta posisi dan status visibilitasnya. Jika`fragment.TextState.Invisible` disetel ke true, artinya teks disembunyikan!
+Loop ini memeriksa setiap fragmen teks dan mencetak isinya beserta posisi dan status visibilitasnya. Jika `fragment.TextState.Invisible` disetel ke true, artinya teks disembunyikan!
 
 ### Langkah 4: Buang Dokumen
 Terakhir, ingatlah untuk membuang dokumen tersebut lagi setelah Anda selesai.
@@ -155,19 +157,21 @@ Saat Anda semakin terbiasa dengan ASPose.PDF, kemungkinannya menjadi tak terbata
 Ya, Aspose.PDF mendukung enkripsi dan dekripsi dokumen PDF. Anda dapat dengan mudah mengamankan PDF Anda dengan kata sandi.
 
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.PDF?  
- Tentu saja! Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Tentu saja! Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Bahasa pemrograman apa yang didukung Aspose.PDF?  
 Aspose.PDF menyediakan dukungan untuk berbagai bahasa, termasuk C#, Java, dan Python.
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.PDF?  
- Anda dapat mengakses dokumentasi[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat mengakses dokumentasi [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?  
- Untuk dukungan, Anda dapat mengunjungi forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Untuk dukungan, Anda dapat mengunjungi forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

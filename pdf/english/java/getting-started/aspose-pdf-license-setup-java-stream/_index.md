@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Up Aspose.PDF License Using a Stream in Java
 
@@ -190,6 +192,9 @@ In this tutorial, you've learned how to set an Aspose.PDF license using a stream
 This tutorial aims to provide you with a solid foundation for working with Aspose.PDF for Java, ensuring your projects are efficient and maintainable. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Gambar CGM ke PDF
-linktitle: Gambar CGM ke PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Ubah gambar CGM ke PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah sederhana ini dan sederhanakan proses konversi file Anda.
-weight: 40
-url: /id/net/programming-with-images/cgm-image-to-pdf/
+"description": "Ubah gambar CGM ke PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah sederhana ini dan sederhanakan proses konversi file Anda."
+"linktitle": "Gambar CGM ke PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Gambar CGM ke PDF"
+"url": "/id/net/programming-with-images/cgm-image-to-pdf/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gambar CGM ke PDF
@@ -46,7 +48,7 @@ Silakan buka proyek .NET Anda di Visual Studio.
 ### Tambahkan Referensi ke Pustaka Aspose.PDF
 
 1. Di Solution Explorer dalam Visual Studio, klik kanan pada proyek Anda dan pilih "Kelola Paket NuGet."
-2.  Buka tab "Browse" dan cari`Aspose.PDF`.
+2. Buka tab "Browse" dan cari `Aspose.PDF`.
 3. Klik paket dan tekan tombol "Instal".
 
 ```csharp
@@ -90,7 +92,7 @@ Sebelum keajaiban terjadi, Anda harus memberi tahu program tersebut di mana akan
 dataDir = dataDir + "CGMImageToPDF_out.pdf"; // Tetapkan nama file PDF keluaran
 ```
 
- Jangan ragu untuk memberi nama file output Anda apa pun yang Anda suka. Pastikan saja diakhiri dengan`.pdf`.
+Jangan ragu untuk memberi nama file output Anda apa pun yang Anda suka. Pastikan saja diakhiri dengan `.pdf`.
 
 ## Langkah 4: Lakukan Konversi
 
@@ -128,13 +130,15 @@ Anda dapat menginstal pustaka Aspose.PDF untuk .NET melalui NuGet Package Manage
 Tentu saja! Aspose.PDF mendukung berbagai format file, termasuk Word, Excel, dan gambar, yang memungkinkan kemampuan konversi file yang luas.
 
 ### Di mana saya dapat menemukan dokumentasi Aspose.PDF?  
- Anda dapat menjelajahi dokumentasi lengkapnya[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menjelajahi dokumentasi lengkapnya [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.PDF?  
- Ya, Anda dapat menggunakan versi uji coba gratis untuk menguji semua fitur Aspose.PDF untuk .NET. Unduh[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat menggunakan versi uji coba gratis untuk menguji semua fitur Aspose.PDF untuk .NET. Unduh [Di Sini](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,17 +1,19 @@
 ---
-title: Ekstrak Teks dari Anotasi Stempel dalam PDF menggunakan Java
-linktitle: Ekstrak Teks dari Anotasi Stempel dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengekstrak teks dari Stamp Annotations dalam PDF menggunakan Java dengan panduan lengkap ini. Gunakan Aspose.PDF untuk Java untuk pemrosesan dokumen PDF yang efisien.
-weight: 14
-url: /id/java/pdf-form-fields/extract-text-from-stamp-annotation-in-pdf-using-java/
+"description": "Pelajari cara mengekstrak teks dari Stamp Annotations dalam PDF menggunakan Java dengan panduan lengkap ini. Gunakan Aspose.PDF untuk Java untuk pemrosesan dokumen PDF yang efisien."
+"linktitle": "Ekstrak Teks dari Anotasi Stempel di PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ekstrak Teks dari Anotasi Stempel di PDF menggunakan Java"
+"url": "/id/java/pdf-form-fields/extract-text-from-stamp-annotation-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ekstrak Teks dari Anotasi Stempel dalam PDF menggunakan Java
+# Ekstrak Teks dari Anotasi Stempel di PDF menggunakan Java
 
 
 ## Pengantar untuk Mengekstrak Teks dari Anotasi Stempel dalam PDF menggunakan Java
@@ -20,11 +22,11 @@ Di era digital saat ini, bekerja dengan dokumen PDF telah menjadi bagian penting
 
 ## Prasyarat
 
-Sebelum kita menyelami kode dan petunjuk langkah demi langkah, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke kode dan petunjuk langkah demi langkah, pastikan Anda memiliki prasyarat berikut:
 
--  Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduhnya dari[Di Sini](https://www.java.com/download/).
+- Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduhnya dari [Di Sini](https://www.java.com/download/).
 
--  Aspose.PDF untuk Java: Anda memerlukan pustaka Aspose.PDF untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Anda memerlukan pustaka Aspose.PDF untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 - Lingkungan Pengembangan Terpadu (IDE): Gunakan IDE pilihan Anda; pilihan yang populer termasuk Eclipse, IntelliJ IDEA, atau Visual Studio Code.
 
@@ -33,7 +35,7 @@ Sebelum kita menyelami kode dan petunjuk langkah demi langkah, pastikan Anda mem
 Mari kita mulai dengan membuat proyek Java baru di IDE pilihan Anda. Ikuti langkah-langkah berikut:
 
 1. Buka IDE Anda.
-2. Buat proyek Java baru dan berikan nama yang bermakna.
+2. Buat proyek Java baru dan beri nama yang bermakna.
 
 ## Langkah 2: Tambahkan Aspose.PDF untuk Java ke Proyek Anda
 
@@ -90,7 +92,7 @@ for (StampAnnotation stampAnnotation : pdfDocument.getPages().get_Item(1).getAnn
 
 ## Kesimpulan
 
-Dalam panduan ini, kami telah menjajaki cara mengekstrak teks dari Stamp Annotations dalam dokumen PDF menggunakan pustaka Aspose.PDF for Java. Dengan alat yang tepat dan beberapa baris kode, Anda dapat mengekstrak informasi berharga dari PDF secara efisien, meningkatkan alur kerja pemrosesan dokumen Anda.
+Dalam panduan ini, kami telah menjajaki cara mengekstrak teks dari Stamp Annotations dalam dokumen PDF menggunakan pustaka Aspose.PDF untuk Java. Dengan alat yang tepat dan beberapa baris kode, Anda dapat mengekstrak informasi berharga dari PDF secara efisien, meningkatkan alur kerja pemrosesan dokumen Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -112,10 +114,12 @@ Aspose.PDF untuk Java dirancang untuk menangani dokumen PDF dengan berbagai ukur
 
 ### Bagaimana saya dapat mengakses sumber daya dan dokumentasi tambahan untuk Aspose.PDF untuk Java?
 
- Untuk dokumentasi lengkap dan sumber daya tambahan, kunjungi dokumentasi Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Untuk dokumentasi lengkap dan sumber daya tambahan, kunjungi dokumentasi Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

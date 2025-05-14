@@ -1,45 +1,47 @@
 ---
-title: Rozbalte záložky v souboru PDF
-linktitle: Rozbalte záložky v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak rozšířit záložky v souborech PDF pomocí Aspose.PDF for .NET, pomocí tohoto podrobného průvodce. Ideální pro vývojáře, kteří chtějí vylepšit navigaci PDF.
-weight: 50
-url: /cs/net/programming-with-bookmarks/expand-bookmarks/
+"description": "Naučte se, jak rozbalit záložky v PDF souborech pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Ideální pro vývojáře, kteří chtějí vylepšit navigaci v PDF."
+"linktitle": "Rozbalit záložky v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Rozbalit záložky v souboru PDF"
+"url": "/cs/net/programming-with-bookmarks/expand-bookmarks/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rozbalte záložky v souboru PDF
+# Rozbalit záložky v souboru PDF
 
 ## Zavedení
 
-Otevřeli jste někdy soubor PDF a zjistili jste, že všechny záložky jsou sbalené? Může to být frustrující, zvláště když se snažíte procházet dlouhým dokumentem. Naštěstí s Aspose.PDF pro .NET můžete snadno programově rozšiřovat záložky v souborech PDF. Tato příručka vás provede procesem krok za krokem a zajistí, že porozumíte každé části kódu a tomu, jak funguje. Vezměte si svůj oblíbený nápoj a pojďme se ponořit do světa manipulace s PDF!
+Už se vám někdy stalo, že jste otevřeli soubor PDF a zjistili, že všechny záložky jsou sbalené? Může to být frustrující, zvláště když se snažíte procházet dlouhý dokument. Naštěstí s Aspose.PDF pro .NET můžete záložky v souborech PDF snadno programově rozbalit. Tato příručka vás krok za krokem provede celým procesem a zajistí, že pochopíte každou část kódu a jak funguje. Takže si vezměte svůj oblíbený nápoj a pojďme se ponořit do světa manipulace s PDF!
 
 ## Předpoklady
 
-Než začneme, je třeba mít připraveno několik věcí:
+Než začneme, je potřeba mít připraveno několik věcí:
 
-1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to nejlepší prostředí pro vývoj .NET.
-2.  Aspose.PDF for .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Můžete to najít[zde](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to nejlepší prostředí pro vývoj v .NET.
+2. Aspose.PDF pro .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Najdete ji [zde](https://releases.aspose.com/pdf/net/).
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět úryvkům kódu.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, musíte do svého projektu C# importovat potřebné balíčky. Můžete to udělat takto:
+Pro začátek je potřeba importovat potřebné balíčky do vašeho projektu v C#. Zde je návod, jak to udělat:
 
 ### Vytvořit nový projekt
 
-Otevřete Visual Studio a vytvořte nový projekt C#. Pro jednoduchost si můžete vybrat konzolovou aplikaci.
+Otevřete Visual Studio a vytvořte nový projekt v C#. Pro zjednodušení si můžete vybrat konzolovou aplikaci.
 
-### Přidejte odkaz Aspose.PDF
+### Přidat odkaz na Aspose.PDF
 
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
-2. Vyberte „Spravovat balíčky NuGet“.
-3. Vyhledejte „Aspose.PDF“ a nainstalujte nejnovější verzi.
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+2. Vyberte možnost „Spravovat balíčky NuGet“.
+3. Vyhledejte soubor „Aspose.PDF“ a nainstalujte nejnovější verzi.
 
-### Importujte jmenný prostor
+### Importovat jmenný prostor
 
 V horní části souboru C# importujte jmenný prostor Aspose.PDF:
 
@@ -49,51 +51,51 @@ using System.IO;
 using Aspose.Pdf;
 ```
 
-Nyní, když máte vše nastaveno, přejděme ke skutečnému kódu!
+Nyní, když máte vše nastavené, pojďme se přesunout k samotnému kódu!
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíte zadat cestu k adresáři dokumentů. Zde je umístěn váš vstupní soubor PDF a kde bude uložen výstupní soubor.
+Nejprve je třeba zadat cestu k adresáři s vašimi dokumenty. Zde se nachází váš vstupní PDF soubor a kam bude uložen výstupní soubor.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
 ## Krok 2: Otevřete dokument PDF
 
- Dále otevřete dokument PDF, který obsahuje záložky, které chcete rozbalit. To se provádí pomocí`Document` třídy z knihovny Aspose.PDF.
+Dále otevřete dokument PDF, který obsahuje záložky, které chcete rozbalit. To se provádí pomocí `Document` třída z knihovny Aspose.PDF.
 
 ```csharp
-// Otevřete dokument
+// Otevřít dokument
 Document doc = new Document(dataDir + "input-bookmark.pdf");
 ```
 
-## Krok 3: Nastavte režim zobrazení stránky
+## Krok 3: Nastavení režimu zobrazení stránky
 
-Nyní musíte nastavit režim zobrazení stránky dokumentu. To určuje, jak se PDF zobrazí při otevření. V tomto případě chceme použít obrysy (záložky).
+Nyní je třeba nastavit režim zobrazení stránky dokumentu. Ten určuje, jak se PDF zobrazí po otevření. V tomto případě chceme použít obrysy (záložky).
 
 ```csharp
-//Nastavte režim zobrazení stránky, tj. zobrazení miniatur, zobrazení na celou obrazovku, zobrazení panelu příloh
+// Nastavení režimu zobrazení stránky, tj. zobrazení miniatur, zobrazení na celou obrazovku, zobrazení panelu příloh
 doc.PageMode = PageMode.UseOutlines;
 ```
 
-## Krok 4: Projděte položky osnovy
+## Krok 4: Procházení položek osnovy
 
-Tady přichází ta zábavná část! Budete procházet každou položkou osnovy v kolekci osnovy PDF a nastavíte její otevřený stav na hodnotu true. Tím se rozbalí záložky.
+teď přichází ta zábavná část! Projdete si každou položku osnovy v kolekci osnov PDF a nastavíte její stav otevření na hodnotu true. Tím se záložky rozbalí.
 
 ```csharp
-// Procházejte každou položku osnovy ve sbírce osnovy souboru PDF
+// Procházení jednotlivých položek osnovy v kolekci osnov souboru PDF
 foreach (OutlineItemCollection item in doc.Outlines)
 {
-    // Nastavte otevřený stav položky osnovy
+    // Nastavit otevřený stav pro položku osnovy
     item.Open = true;
 }
 ```
 
-## Krok 5: Uložte výstupní dokument
+## Krok 5: Uložení výstupního dokumentu
 
-Po rozbalení záložek je čas upravený dokument uložit. Pro výstupní PDF určíte nový název souboru.
+Po rozbalení záložek je čas uložit upravený dokument. Pro výstupní PDF zadáte nový název souboru.
 
 ```csharp
 dataDir = dataDir + "ExpandBookmarks_out.pdf";
@@ -101,9 +103,9 @@ dataDir = dataDir + "ExpandBookmarks_out.pdf";
 doc.Save(dataDir);
 ```
 
-## Krok 6: Potvrzující zpráva
+## Krok 6: Potvrzovací zpráva
 
-Nakonec můžete vytisknout potvrzovací zprávu do konzole, abyste věděli, že záložky byly úspěšně rozbaleny.
+Nakonec můžete do konzole vypsat potvrzovací zprávu, která vás informuje o úspěšném rozbalení záložek.
 
 ```csharp
 Console.WriteLine("\nBookmarks expanded successfully.\nFile saved at " + dataDir);
@@ -111,27 +113,29 @@ Console.WriteLine("\nBookmarks expanded successfully.\nFile saved at " + dataDir
 
 ## Závěr
 
-tady to máte! Úspěšně jste rozšířili záložky v souboru PDF pomocí Aspose.PDF pro .NET. Tato jednoduchá, ale výkonná knihovna vám umožňuje snadno manipulovat s dokumenty PDF, takže váš život bude mnohem jednodušší. Ať už pracujete na osobním projektu nebo na profesionální aplikaci, Aspose.PDF je fantastický nástroj, který můžete mít ve svém arzenálu.
+A tady to máte! Úspěšně jste rozšířili záložky v PDF souboru pomocí Aspose.PDF pro .NET. Tato jednoduchá, ale výkonná knihovna vám umožňuje snadno manipulovat s PDF dokumenty, což vám značně usnadní život. Ať už pracujete na osobním projektu nebo profesionální aplikaci, Aspose.PDF je fantastický nástroj, který byste měli mít ve svém arzenálu.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty PDF programově.
+Aspose.PDF pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět PDF dokumenty.
 
 ### Mohu používat Aspose.PDF zdarma?
- Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání funkcí knihovny. Můžete si jej stáhnout[zde](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání funkcí knihovny. Můžete si ji stáhnout. [zde](https://releases.aspose.com/).
 
 ### Kde najdu další dokumentaci?
- Kompletní dokumentaci naleznete na Aspose.PDF pro .NET[zde](https://reference.aspose.com/pdf/net/).
+Komplexní dokumentaci pro .NET naleznete na Aspose.PDF. [zde](https://reference.aspose.com/pdf/net/).
 
 ### Je k dispozici podpora pro Aspose.PDF?
- Absolutně! Můžete získat podporu od komunity Aspose[zde](https://forum.aspose.com/c/pdf/10).
+Rozhodně! Podporu můžete získat od komunity Aspose. [zde](https://forum.aspose.com/c/pdf/10).
 
-### Jak si koupím licenci pro Aspose.PDF?
- Můžete si zakoupit licenci pro Aspose.PDF[zde](https://purchase.aspose.com/buy).
+### Jak si zakoupím licenci pro Aspose.PDF?
+Můžete si koupit licenci pro Aspose.PDF [zde](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

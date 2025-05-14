@@ -1,14 +1,16 @@
 ---
-title: เพิ่มไฮเปอร์ลิงก์ในไฟล์ PDF โดยใช้ Java
-linktitle: เพิ่มไฮเปอร์ลิงก์ในไฟล์ PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีเพิ่มไฮเปอร์ลิงก์ไปยังไฟล์ PDF โดยใช้ Java พร้อมคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับ ปรับปรุงเอกสาร PDF ของคุณด้วยการโต้ตอบ
-weight: 13
-url: /th/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/
+"description": "เรียนรู้วิธีเพิ่มไฮเปอร์ลิงก์ไปยังไฟล์ PDF โดยใช้ Java พร้อมคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับ ปรับปรุงเอกสาร PDF ของคุณด้วยการโต้ตอบ"
+"linktitle": "เพิ่มไฮเปอร์ลิงก์ในไฟล์ PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มไฮเปอร์ลิงก์ในไฟล์ PDF โดยใช้ Java"
+"url": "/th/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มไฮเปอร์ลิงก์ในไฟล์ PDF โดยใช้ Java
@@ -30,7 +32,7 @@ url: /th/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) ที่คุณเลือก (เช่น Eclipse, IntelliJ IDEA)
 - Aspose.PDF สำหรับไลบรารี Java
 
- คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การเพิ่มไฮเปอร์ลิงก์ไปยังไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ Java
 
@@ -105,9 +107,11 @@ Aspose.PDF สำหรับ Java นำเสนอทั้งเวอร์
 ### ฉันจะปรับแต่งลักษณะที่ปรากฏของไฮเปอร์ลิงก์ใน PDF ได้อย่างไร
 
 คุณสามารถตั้งค่าคุณสมบัติต่างๆ ของไฮเปอร์ลิงก์ เช่น สี รูปแบบของเส้นขอบ และการเน้นข้อความ เพื่อปรับแต่งลักษณะที่ปรากฏของลิงก์ได้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

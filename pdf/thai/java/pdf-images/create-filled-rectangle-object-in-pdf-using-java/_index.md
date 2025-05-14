@@ -1,14 +1,16 @@
 ---
-title: สร้างวัตถุสี่เหลี่ยมผืนผ้าที่เติมสีใน PDF โดยใช้ Java
-linktitle: สร้างวัตถุสี่เหลี่ยมผืนผ้าที่เติมสีใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีสร้างรูปสี่เหลี่ยมผืนผ้าที่เติมสีใน PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java บทช่วยสอนแบบทีละขั้นตอนพร้อมตัวอย่างโค้ด
-weight: 12
-url: /th/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
+"description": "เรียนรู้วิธีสร้างรูปสี่เหลี่ยมผืนผ้าที่เติมสีใน PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java บทช่วยสอนแบบทีละขั้นตอนพร้อมตัวอย่างโค้ด"
+"linktitle": "สร้างวัตถุสี่เหลี่ยมผืนผ้าที่เติมสีใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "สร้างวัตถุสี่เหลี่ยมผืนผ้าที่เติมสีใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างวัตถุสี่เหลี่ยมผืนผ้าที่เติมสีใน PDF โดยใช้ Java
@@ -30,7 +32,7 @@ url: /th/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
 
 ในการเริ่มต้น คุณต้องดาวน์โหลด Aspose.PDF สำหรับ Java จากเว็บไซต์ ทำตามขั้นตอนเหล่านี้:
 
-1.  เข้าถึงเอกสาร Aspose.PDF สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+1. เข้าถึงเอกสาร Aspose.PDF สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
 
 2. ดาวน์โหลดไลบรารีและทำตามคำแนะนำในการติดตั้งที่ให้มา
 
@@ -66,9 +68,9 @@ page.getParagraphs().add(filledRectangle);
 ```
 
 ในโค้ดนี้:
--  เราสร้างสิ่งใหม่`Rectangle` วัตถุ โดยระบุตำแหน่ง (x=100, y=100) ความกว้าง (200) และความสูง (50)
+- เราสร้างสิ่งใหม่ `Rectangle` วัตถุ โดยระบุตำแหน่ง (x=100, y=100) ความกว้าง (200) และความสูง (50)
 - เรากำหนดสีพื้นหลังของสี่เหลี่ยมเป็นสีแดง
-- ในที่สุดเราก็เพิ่มสี่เหลี่ยมลงในหน้า
+- สุดท้ายเราเพิ่มสี่เหลี่ยมลงในหน้า
 
 ## การปรับแต่งรูปสี่เหลี่ยมผืนผ้า
 
@@ -88,7 +90,7 @@ pdfDocument.save("FilledRectangle.pdf");
 
 ## บทสรุป
 
-ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีการสร้างวัตถุรูปสี่เหลี่ยมผืนผ้าที่มีเนื้อหาสมบูรณ์ในเอกสาร PDF โดยใช้ Java และ Aspose.PDF สำหรับ Java ซึ่งสามารถใช้ในการเน้นข้อมูลที่สำคัญหรือเพิ่มองค์ประกอบภาพลงใน PDF ของคุณได้ Aspose.PDF สำหรับ Java มอบวิธีการอันทรงพลังและยืดหยุ่นในการทำงานกับ PDF ในแอปพลิเคชัน Java
+ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีการสร้างวัตถุรูปสี่เหลี่ยมผืนผ้าที่มีเนื้อหาเต็มในเอกสาร PDF โดยใช้ Java และ Aspose.PDF สำหรับ Java ซึ่งสามารถใช้ในการเน้นข้อมูลที่สำคัญหรือเพิ่มองค์ประกอบภาพลงใน PDF ของคุณได้ Aspose.PDF สำหรับ Java มอบวิธีการอันทรงพลังและยืดหยุ่นในการทำงานกับ PDF ในแอปพลิเคชัน Java
 
 ## คำถามที่พบบ่อย
 
@@ -102,7 +104,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที
 
 ### ฉันสามารถเปลี่ยนสีของสี่เหลี่ยมที่เติมแล้วได้ไหม
 
- ใช่ คุณสามารถปรับแต่งสีของสี่เหลี่ยมที่เติมได้โดยการตั้งค่าสีพื้นหลังโดยใช้`setBackgroundColor`วิธีการดังที่แสดงไว้ในบทช่วยสอน
+ใช่ คุณสามารถปรับแต่งสีของสี่เหลี่ยมที่เติมได้โดยการตั้งค่าสีพื้นหลังโดยใช้ `setBackgroundColor` วิธีการดังที่แสดงไว้ในบทช่วยสอน
 
 ### Aspose.PDF สำหรับ Java สามารถใช้งานฟรีได้หรือไม่?
 
@@ -110,10 +112,12 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### ฉันสามารถหาตัวอย่างเพิ่มเติมเกี่ยวกับการใช้ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาตัวอย่างเพิ่มเติมและเอกสารโดยละเอียดเกี่ยวกับวิธีใช้ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์ Aspose ได้ที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาตัวอย่างเพิ่มเติมและเอกสารโดยละเอียดเกี่ยวกับวิธีใช้ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์ Aspose ได้ที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

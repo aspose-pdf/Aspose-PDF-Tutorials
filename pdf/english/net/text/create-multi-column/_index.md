@@ -6,8 +6,11 @@ description: Learn how to create a multi-column PDF document using Aspose.PDF fo
 keywords: [Aspose.PDF for .NET, create multi-column PDF, PDF document, .NET PDF library, add text to PDF, HTML formatting in PDF, PDF layout, multi-column formatting]
 url: /net/text/create-multi-column/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a Multi-Column PDF Using Aspose.PDF for .NET  
@@ -15,9 +18,11 @@ url: /net/text/create-multi-column/
 Aspose.PDF for .NET is a powerful library for creating, editing, and manipulating PDF documents programmatically. In this tutorial, we’ll demonstrate how to create a multi-column PDF document using Aspose.PDF for .NET. We’ll cover setting up margins, adding formatted text with HTML, drawing horizontal lines, and organizing content into multiple columns. This example ensures that your content is structured professionally, making it ideal for magazines, articles, or reports.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/create-multi-column" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installation Instructions  
@@ -48,7 +53,9 @@ using Aspose.Pdf.Text;
 [API Reference](https://reference.aspose.com/pdf/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

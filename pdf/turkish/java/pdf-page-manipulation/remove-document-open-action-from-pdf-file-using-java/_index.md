@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF Dosyasından Belge Açma Eylemini Kaldırın
-linktitle: Java kullanarak PDF Dosyasından Belge Açma Eylemini Kaldırın
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java ve Aspose.PDF for Java kullanarak PDF dosyalarından Belge Açma Eylemi'nin nasıl kaldırılacağını öğrenin. Güvenliği ve özelleştirmeyi geliştirin.
-weight: 11
-url: /tr/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/
+"description": "Java ve Aspose.PDF for Java kullanarak PDF dosyalarından Belge Açma Eylemi'nin nasıl kaldırılacağını öğrenin. Güvenliği ve özelleştirmeyi geliştirin."
+"linktitle": "Java kullanarak PDF Dosyasından Belge Açma Eylemini Kaldırın"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF Dosyasından Belge Açma Eylemini Kaldırın"
+"url": "/tr/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF Dosyasından Belge Açma Eylemini Kaldırın
@@ -22,7 +24,7 @@ PDF dosyaları genellikle PDF açıldığında belirli eylemleri gerçekleştire
 
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Java Kütüphanesi için Aspose.PDF: Java kütüphanesi için Aspose.PDF'yi indirin ve kurun[Burada](https://releases.aspose.com/pdf/java/).
+- Java Kütüphanesi için Aspose.PDF: Java kütüphanesi için Aspose.PDF'yi indirin ve kurun [Burada](https://releases.aspose.com/pdf/java/).
 
 - Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
 
@@ -39,7 +41,7 @@ Document pdfDocument = new Document("input.pdf");
 
 ### 2. Belge Açma İşlemini Tanımlama ve Erişim
 
-Belge Açma Eylemini kaldırmak için, onu PDF belgesi içinde tanımlamamız ve erişmemiz gerekir. Bunu şu şekilde yapabilirsiniz:
+Belge Açma Eylemini kaldırmak için, onu PDF belgesi içinde tanımlamamız ve erişmemiz gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```java
 // Belgeye Erişim Eylemi Aç
@@ -90,7 +92,7 @@ pdfDocument.save("output.pdf");
 
 ## Çözüm
 
-Bu kılavuzda, Java ve Aspose.PDF for Java kullanarak bir PDF dosyasından Belge Açma Eylemi'nin nasıl kaldırılacağını öğrendik. Bu işlem, PDF belgelerinizin güvenliğini ve özelleştirmesini artırabilir. Daha gelişmiş özellikler ve seçenekler için Aspose.PDF for Java belgelerini incelemeyi unutmayın.
+Bu kılavuzda, Java ve Aspose.PDF for Java kullanarak bir PDF dosyasından Belge Açma Eylemi'nin nasıl kaldırılacağını öğrendik. Bu işlem PDF belgelerinizin güvenliğini ve özelleştirmesini artırabilir. Daha gelişmiş özellikler ve seçenekler için Aspose.PDF for Java belgelerini incelemeyi unutmayın.
 
 ## SSS
 
@@ -106,16 +108,18 @@ PDF dosyalarındaki Belge Açma Eylemi, PDF belgesi açıldığında gerçekleş
 
 Evet, mevcut Belge Açma Eylemini ihtiyaçlarınıza göre davranışını özelleştirmek için değiştirebilirsiniz. Java için Aspose.PDF, eylemleri düzenlemek için yöntemler sağlar.
 
-### Java için Aspose.PDF, Belge Açma Eylemini kaldıran tek kütüphane midir?
+### Aspose.PDF for Java, Belge Açma Eylemini kaldıran tek kütüphane midir?
 
 Hayır, Java'da PDF'lerle çalışmak için başka kütüphaneler ve araçlar da mevcuttur. Ancak, Java için Aspose.PDF sağlam özellikleri ve kullanım kolaylığı nedeniyle popüler bir seçimdir.
 
 ### Java için Aspose.PDF hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve örnekleri şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve örnekleri şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

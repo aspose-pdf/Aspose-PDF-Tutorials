@@ -1,14 +1,16 @@
 ---
-title: Utwórz łącze do innego dokumentu PDF za pomocą Java
-linktitle: Utwórz łącze do innego dokumentu PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak bez wysiłku tworzyć linki do dokumentów PDF w Javie dzięki Aspose.PDF dla Javy. Przewodnik krok po kroku dotyczący interaktywności PDF.
-weight: 14
-url: /pl/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/
+"description": "Dowiedz się, jak bez wysiłku tworzyć linki do dokumentów PDF w Javie dzięki Aspose.PDF dla Javy. Przewodnik krok po kroku dotyczący interaktywności PDF."
+"linktitle": "Utwórz łącze do innego dokumentu PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Utwórz łącze do innego dokumentu PDF za pomocą Java"
+"url": "/pl/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz łącze do innego dokumentu PDF za pomocą Java
@@ -16,7 +18,7 @@ url: /pl/java/pdf-document-links/create-a-link-to-another-pdf-document-using-jav
 
 ## Wprowadzenie do tworzenia łącza do innego dokumentu PDF za pomocą języka Java
 
-tym samouczku pokażemy, jak utworzyć łącze do innego dokumentu PDF przy użyciu Javy i biblioteki Aspose.PDF for Java. Łącza w dokumentach PDF mogą być niezwykle przydatne do tworzenia interaktywnych i połączonych plików PDF. Niezależnie od tego, czy chcesz podać dodatkowe informacje, utworzyć indeks, czy po prostu połączyć ze sobą powiązane dokumenty, ten przewodnik przeprowadzi Cię przez ten proces krok po kroku.
+W tym samouczku pokażemy, jak utworzyć łącze do innego dokumentu PDF przy użyciu Javy i biblioteki Aspose.PDF for Java. Łącza w dokumentach PDF mogą być niezwykle przydatne do tworzenia interaktywnych i połączonych plików PDF. Niezależnie od tego, czy chcesz podać dodatkowe informacje, utworzyć indeks, czy po prostu połączyć ze sobą powiązane dokumenty, ten przewodnik przeprowadzi Cię przez ten proces krok po kroku.
 
 ## Zrozumienie Aspose.PDF dla Java
 
@@ -87,7 +89,7 @@ Tworzenie łącza do innego dokumentu PDF przy użyciu Java i Aspose.PDF dla Jav
 
 ### Jak mogę pobrać Aspose.PDF dla Java?
 
- Plik Aspose.PDF dla języka Java można pobrać ze strony internetowej pod adresem[Tutaj](https://releases.aspose.com/pdf/java/).
+Plik Aspose.PDF dla języka Java można pobrać ze strony internetowej pod adresem [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ### Czy mogę używać Aspose.PDF for Java w projektach komercyjnych?
 
@@ -99,14 +101,16 @@ Tak, Aspose.PDF dla Java jest kompatybilny z różnymi wersjami Java. Upewnij si
 
 ### Jak dodać linki do konkretnych stron w dokumencie PDF?
 
- Możesz użyć`GoToAction`klasa w Aspose.PDF dla Java do tworzenia linków do określonych stron w dokumencie PDF. Sprawdź dokumentację, aby uzyskać szczegółowe przykłady.
+Możesz użyć `GoToAction` klasa w Aspose.PDF dla Java do tworzenia linków do określonych stron w dokumencie PDF. Sprawdź dokumentację, aby uzyskać szczegółowe przykłady.
 
 ### Czy mogę dodatkowo dostosować wygląd linku?
 
 Oczywiście! Aspose.PDF for Java oferuje rozbudowane opcje dostosowywania wyglądu linków, w tym kolor, styl i wiele więcej. Zapoznaj się z dokumentacją, aby poznać zaawansowane techniki dostosowywania.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

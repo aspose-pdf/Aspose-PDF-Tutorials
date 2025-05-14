@@ -1,14 +1,16 @@
 ---
-title: PDF เป็น PPT
-linktitle: PDF เป็น PPT
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีแปลง PDF เป็น PPT โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ง่าย มีประสิทธิภาพ และสมบูรณ์แบบสำหรับการนำเสนอ
-weight: 170
-url: /th/net/document-conversion/pdf-to-ppt/
+"description": "เรียนรู้วิธีแปลง PDF เป็น PPT โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ง่าย มีประสิทธิภาพ และสมบูรณ์แบบสำหรับการนำเสนอ"
+"linktitle": "PDF เป็น PPT"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "PDF เป็น PPT"
+"url": "/th/net/document-conversion/pdf-to-ppt/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF เป็น PPT
@@ -22,7 +24,7 @@ url: /th/net/document-conversion/pdf-to-ppt/
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่คือที่ที่เราจะเขียนและรันโค้ดของเรา
-2.  Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยเล็กน้อยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
 ## แพ็คเกจนำเข้า
@@ -64,34 +66,34 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร PDF
 
- ต่อไปเราจะโหลดเอกสาร PDF ที่ต้องการแปลง ซึ่งทำได้โดยใช้`Document` คลาสจากไลบรารี Aspose.PDF
+ต่อไปเราจะโหลดเอกสาร PDF ที่ต้องการแปลง ซึ่งทำได้โดยใช้ `Document` คลาสจากไลบรารี Aspose.PDF
 
 ```csharp
 // โหลดเอกสาร PDF
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "input.pdf");
 ```
 
- ในขั้นตอนนี้ให้แทนที่`"input.pdf"` ด้วยชื่อไฟล์ PDF ของคุณ ตรวจสอบให้แน่ใจว่าไฟล์นั้นอยู่ในไดเร็กทอรีที่ระบุ
+ในขั้นตอนนี้ให้แทนที่ `"input.pdf"` ด้วยชื่อไฟล์ PDF ของคุณ ตรวจสอบให้แน่ใจว่าไฟล์นั้นอยู่ในไดเร็กทอรีที่ระบุ
 
 ## ขั้นตอนที่ 3: สร้าง PptxSaveOptions
 
- ตอนนี้เราต้องสร้างอินสแตนซ์ของ`PptxSaveOptions`คลาสนี้ช่วยให้เราสามารถระบุตัวเลือกในการบันทึก PDF เป็นไฟล์ PPTX ได้
+ตอนนี้เราต้องสร้างอินสแตนซ์ของ `PptxSaveOptions`คลาสนี้ช่วยให้เราสามารถระบุตัวเลือกในการบันทึก PDF เป็นไฟล์ PPTX ได้
 
 ```csharp
-//สร้างอินสแตนซ์ PptxSaveOptions
+// สร้างอินสแตนซ์ PptxSaveOptions
 Aspose.Pdf.PptxSaveOptions pptx_save = new Aspose.Pdf.PptxSaveOptions();
 ```
 
 ## ขั้นตอนที่ 4: บันทึกผลลัพธ์ในรูปแบบ PPTX
 
- ในที่สุดเราจะบันทึกเอกสาร PDF ที่โหลดเป็นไฟล์ PPTX โดยใช้`Save` วิธีการนี้นี่เองที่ความมหัศจรรย์เกิดขึ้น!
+ในที่สุดเราจะบันทึกเอกสาร PDF ที่โหลดเป็นไฟล์ PPTX โดยใช้ `Save` วิธีการนี้นี่เองที่ความมหัศจรรย์เกิดขึ้น!
 
 ```csharp
 // บันทึกผลลัพธ์ในรูปแบบ PPTX
 doc.Save(dataDir + "PDFToPPT_out.pptx", pptx_save);
 ```
 
- ในบรรทัดนี้`"PDFToPPT_out.pptx"` คือชื่อไฟล์ผลลัพธ์ คุณสามารถเปลี่ยนแปลงเป็นชื่ออื่นได้ตามต้องการ
+ในบรรทัดนี้ `"PDFToPPT_out.pptx"` คือชื่อไฟล์ผลลัพธ์ คุณสามารถเปลี่ยนแปลงเป็นชื่ออื่นได้ตามต้องการ
 
 ## บทสรุป
 
@@ -103,19 +105,21 @@ doc.Save(dataDir + "PDFToPPT_out.pptx", pptx_save);
 ใช่ คุณสามารถวนซ้ำไฟล์ PDF หลายไฟล์ในไดเร็กทอรีเดียวและแปลงแต่ละไฟล์เป็น PPT ได้โดยใช้วิธีเดียวกัน
 
 ### Aspose.PDF สำหรับ .NET ฟรีหรือไม่?
- Aspose.PDF นำเสนอรุ่นทดลองใช้งานฟรี แต่หากต้องการใช้งานฟังก์ชันครบถ้วน คุณจะต้องซื้อใบอนุญาต คุณสามารถดูข้อมูลเพิ่มเติมได้[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.PDF เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้งานฟังก์ชันครบถ้วน คุณจะต้องซื้อใบอนุญาต คุณสามารถดูข้อมูลเพิ่มเติมได้ [ที่นี่](https://purchase-aspose.com/buy).
 
 ### จะเกิดอะไรขึ้นหาก PDF ของฉันมีรูปภาพ?
 Aspose.PDF จัดการรูปภาพได้ดี และจะรวมอยู่ในไฟล์ PPT ที่แปลงแล้ว
 
 ### ฉันสามารถปรับแต่งเอาท์พุต PPT ได้หรือไม่
- ใช่ คุณสามารถปรับแต่งได้`PptxSaveOptions` เพื่อปรับเปลี่ยนการตั้งค่าต่าง ๆ ให้กับไฟล์เอาท์พุต
+ใช่ คุณสามารถปรับแต่งได้ `PptxSaveOptions` เพื่อปรับเปลี่ยนการตั้งค่าต่าง ๆ ให้กับไฟล์เอาท์พุต
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.PDF สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.PDF สำหรับ .NET ได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

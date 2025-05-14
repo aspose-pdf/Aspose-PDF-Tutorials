@@ -1,14 +1,16 @@
 ---
-title: เพิ่มคำอธิบายเครื่องมือลงในช่องฟอร์ม PDF ด้วย Java
-linktitle: เพิ่มคำอธิบายเครื่องมือลงในช่องฟอร์ม PDF ด้วย Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการเพิ่มคำอธิบายเครื่องมือลงในช่องฟอร์ม PDF ด้วย Java คำแนะนำทีละขั้นตอนในการใช้ Aspose.PDF สำหรับ Java API
-weight: 11
-url: /th/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
+"description": "เรียนรู้วิธีเพิ่มคำอธิบายเครื่องมือลงในช่องฟอร์ม PDF ด้วย Java คำแนะนำทีละขั้นตอนในการใช้ Aspose.PDF สำหรับ Java API"
+"linktitle": "เพิ่มคำอธิบายเครื่องมือลงในช่องฟอร์ม PDF ด้วย Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มคำอธิบายเครื่องมือลงในช่องฟอร์ม PDF ด้วย Java"
+"url": "/th/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มคำอธิบายเครื่องมือลงในช่องฟอร์ม PDF ด้วย Java
@@ -28,7 +30,7 @@ url: /th/java/pdf-form-fields/add-tooltip-to-pdf-form-field-with-java/
 
 - ติดตั้ง Java Development Kit (JDK) แล้ว
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Eclipse หรือ IntelliJ IDEA
--  Aspose.PDF สำหรับไลบรารี Java (คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF สำหรับไลบรารี Java (คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/)
 
 ## การเพิ่มการอ้างอิง
 
@@ -48,13 +50,13 @@ Document pdfDocument = new Document();
 ต่อไปเราจะเพิ่มฟิลด์ฟอร์มลงในเอกสาร PDF ของเรา คุณสามารถเพิ่มฟิลด์ฟอร์มประเภทต่างๆ เช่น ฟิลด์ข้อความ ช่องกาเครื่องหมาย ปุ่มตัวเลือก และอื่นๆ สำหรับตัวอย่างนี้ เราจะเพิ่มฟิลด์ข้อความ
 
 ```java
-//โค้ด Java สำหรับเพิ่มฟิลด์ข้อความ
+// โค้ด Java สำหรับเพิ่มฟิลด์ข้อความ
 TextField textField = new TextField(pdfDocument.getPages().get_Item(1), new Rectangle(100, 100, 200, 30));
 ```
 
 ## การเพิ่มคำแนะนำเครื่องมือลงในช่องฟอร์ม
 
- ตอนนี้มาถึงส่วนสำคัญแล้ว นั่นคือการเพิ่มคำอธิบายเครื่องมือลงในฟิลด์แบบฟอร์มของเรา เราสามารถตั้งค่าข้อความคำอธิบายเครื่องมือสำหรับฟิลด์ได้โดยใช้`setTooltip` วิธี.
+ตอนนี้มาถึงส่วนสำคัญแล้ว นั่นคือการเพิ่มคำอธิบายเครื่องมือลงในฟิลด์แบบฟอร์มของเรา เราสามารถตั้งค่าข้อความคำอธิบายเครื่องมือสำหรับฟิลด์ได้โดยใช้ `setTooltip` วิธี.
 
 ```java
 // โค้ด Java สำหรับเพิ่มคำอธิบายเครื่องมือลงในช่องข้อความ
@@ -94,14 +96,16 @@ pdfDocument.save("sample.pdf");
 
 ### คำแนะนำเครื่องมือได้รับการสนับสนุนในเครื่องมืออ่าน PDF ทั้งหมดหรือไม่
 
-คำแนะนำเครื่องมือเป็นคุณลักษณะมาตรฐานของ PDF และได้รับการรองรับโดยโปรแกรมดู PDF สมัยใหม่ส่วนใหญ่ รวมถึง Adobe Acrobat Reader และโปรแกรมดู PDF บนเว็บยอดนิยม
+คำแนะนำเครื่องมือเป็นคุณลักษณะมาตรฐานของ PDF และได้รับการรองรับโดยโปรแกรมอ่าน PDF ยุคใหม่ส่วนใหญ่ รวมถึง Adobe Acrobat Reader และโปรแกรมอ่าน PDF บนเว็บยอดนิยม
 
 ### ฉันสามารถเพิ่มคำแนะนำเครื่องมือให้กับองค์ประกอบที่ไม่ใช่แบบฟอร์มใน PDF ได้หรือไม่
 
 ไม่ คำแนะนำเครื่องมือมักจะเชื่อมโยงกับฟิลด์ฟอร์มในเอกสาร PDF หากคุณจำเป็นต้องเพิ่มคำแนะนำเครื่องมือลงในองค์ประกอบที่ไม่ใช่ฟอร์ม คุณอาจต้องสำรวจเทคนิคการแก้ไข PDF อื่นๆ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

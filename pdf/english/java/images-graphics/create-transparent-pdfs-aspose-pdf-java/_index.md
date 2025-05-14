@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Transparent PDFs with Aspose.PDF for Java: A Complete Guide
 
@@ -208,7 +210,11 @@ You've learned how to create a PDF with transparent elements using Aspose.PDF fo
 - **Free Trial**: Get started with a free trial at the [Free Trial Page](https://releases.aspose.com/pdf/java/).
 - **Temporary License**: Obtain a temporary license to test full features on this [page](https://purchase.aspose.com/temporary-license/).
 - **Support Forum**: Join discussions and seek help on the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

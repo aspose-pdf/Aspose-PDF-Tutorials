@@ -1,14 +1,16 @@
 ---
-title: PDF Özelliklerini Alın
-linktitle: PDF Özelliklerini Alın
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF özelliklerinin nasıl verimli bir şekilde çıkarılacağını öğrenin. Kod örnekleri ve en iyi uygulamalarla adım adım kılavuz.
-weight: 100
-url: /tr/net/programming-with-pdf-pages/get-properties/
+"description": "Aspose.PDF for .NET kullanarak PDF özelliklerinin nasıl verimli bir şekilde çıkarılacağını öğrenin. Kod örnekleri ve en iyi uygulamalarla adım adım kılavuz."
+"linktitle": "PDF Özelliklerini Alın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Özelliklerini Alın"
+"url": "/tr/net/programming-with-pdf-pages/get-properties/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Özelliklerini Alın
@@ -19,11 +21,11 @@ PDF'leri programatik olarak işlemeye gelince, Aspose.PDF for .NET öne çıkan 
 
 ## Ön koşullar
 
-Koda atlamadan önce, gerekli tüm bileşenlerin yerinde olduğundan emin olmak önemlidir. Bu bölüm, Aspose.PDF kütüphanesiyle çalışmaya başlamanız için kurulum yapmanıza yardımcı olacaktır.
+Koda atlamadan önce, gerekli tüm bileşenlerin yerinde olduğundan emin olmak önemlidir. Bu bölüm, Aspose.PDF kütüphanesiyle çalışmaya başlamak için kurulum yapmanıza yardımcı olacaktır.
 
 1. .NET Ortamı: Çalışan bir .NET ortamınız olduğundan emin olun. Visual Studio veya başka uygun bir IDE kullanabilirsiniz.
    
-2.  .NET için Aspose.PDF: Aspose.PDF'in kurulu olması gerekir. Kütüphaneyi şuradan indirebilirsiniz:[Aspose PDF Sürümleri](https://releases.aspose.com/pdf/net/) sayfa.
+2. .NET için Aspose.PDF: Aspose.PDF'in kurulu olması gerekir. Kütüphaneyi şuradan indirebilirsiniz: [Aspose PDF Sürümleri](https://releases.aspose.com/pdf/net/) sayfa.
 
 3. C# Temel Anlayışı: Kodu C# ile yazacağımız için C# programlamaya aşina olmanız faydalı olacaktır.
 
@@ -31,13 +33,13 @@ Koda atlamadan önce, gerekli tüm bileşenlerin yerinde olduğundan emin olmak 
 
 ### Projenizi Kurma
 
-Araçlarınızı ve PDF dosyanızı hazırladıktan sonra projenizi şu şekilde ayarlayabilirsiniz:
+Araçlarınızı ve PDF dosyanızı hazırladıktan sonra projenizi şu şekilde kurabilirsiniz:
 
 1. Yeni Bir Proje Oluşturun: IDE'nizi açın ve yeni bir C# projesi oluşturun.
 
 2. Referanslar Ekle: Aspose.PDF derlemesini ekleyin. Bunu NuGet Paket Yöneticisi aracılığıyla veya doğrudan DLL'ye bir referans ekleyerek yapabilirsiniz.
 
-3.  PDF Dosyanızı Hazırlayın: "GetProperties.pdf" örneğini kodunuzun kolayca erişebileceği bir dizine yerleştirin, örneğin:`"YOUR DOCUMENT DIRECTORY"`.
+3. PDF Dosyanızı Hazırlayın: "GetProperties.pdf" örneğini kodunuzun kolayca erişebileceği bir dizine yerleştirin, örneğin: `"YOUR DOCUMENT DIRECTORY"`.
 
 ## Paketleri İçe Aktar
 
@@ -66,14 +68,14 @@ Bu kod satırı, Aspose'un çalışmak istediğimiz PDF dosyasını nerede bulab
 
 ## Adım 2: PDF Belgesini açın
 
- Şimdi, PDF belgesini kullanarak açacağız`Document` Aspose.PDF kütüphanesinden sınıf. Bu önemli bir adımdır çünkü PDF'yi belleğe yükler.
+Şimdi, PDF belgesini kullanarak açacağız `Document` Aspose.PDF kütüphanesinden sınıf. Bu önemli bir adımdır çünkü PDF'yi belleğe yükler.
 
 ```csharp
 // Belgeyi aç
 Document pdfDocument = new Document(dataDir + "GetProperties.pdf");
 ```
 
- Bu satırı çalıştırarak, bir örnek oluşturuyoruz`Document` PDF dosyamızı temsil eden ve tüm özelliklerine erişebilmemizi sağlayan sınıf.
+Bu satırı çalıştırarak, bir örnek oluşturuyoruz `Document` PDF dosyamızı temsil eden ve tüm özelliklerine erişebilmemizi sağlayan sınıf.
 
 ## Adım 3: Sayfa Koleksiyonuna Erişim
 
@@ -84,7 +86,7 @@ Belgeyi açtıktan sonra, o belgedeki sayfalara erişmemiz gerekir. Her PDF'in b
 PageCollection pageCollection = pdfDocument.Pages;
 ```
 
- Düşünün`PageCollection` PDF dokümanımızdaki sayfalar arasında gezinmemize yardımcı olan bir dizin olarak.
+Düşünün `PageCollection` PDF dokümanımızdaki sayfalar arasında gezinmemize yardımcı olan bir dizin olarak.
 
 ## Adım 4: Belirli Bir Sayfayı Alın
 
@@ -95,7 +97,7 @@ Artık sayfalarımıza erişebildiğimize göre, daha derinlere inme zamanı. Ko
 Page pdfPage = pageCollection[1];
 ```
 
- Bunun sıfır tabanlı dizinleme olduğunu unutmayın. Yani, ilk sayfaya erişmek istiyorsanız, onu şu şekilde dizinlemeniz gerekir:`1`.
+Bunun sıfır tabanlı dizinleme olduğunu unutmayın. Yani, ilk sayfaya erişmek istiyorsanız, onu şu şekilde dizinlemeniz gerekir: `1`.
 
 ## Adım 5: Sayfa Özelliklerini Alın ve Görüntüleyin
 
@@ -129,7 +131,7 @@ Bu kod parçası birkaç güçlü şey yapar. Sayfanın boyutları ve yönelimiy
 
 ## Çözüm
 
-Ve işte karşınızda — Aspose.PDF for .NET kullanarak PDF özelliklerinin nasıl alınacağına dair eksiksiz bir rehber! Artık PDF belgelerinden zahmetsizce hayati bilgileri çıkarma bilgisine sahipsiniz. İster analiz etmek, raporlamak veya sadece PDF'lerinizden veri kaydetmek isteyin, bu sağlam kütüphane güvenilir bir müttefiktir. Bu adımlarda ustalaşarak, bir PDF düzenleme sihirbazı olma yolunda iyi bir adım atmış olursunuz! Aspose.PDF'nin sunduğu daha fazla özelliği ve işlevi keşfetmekten çekinmeyin.
+Ve işte karşınızda — .NET için Aspose.PDF kullanarak PDF özelliklerinin nasıl alınacağına dair eksiksiz bir rehber! Artık PDF belgelerinden zahmetsizce hayati bilgileri çıkarma bilgisine sahipsiniz. İster analiz etmek, raporlamak veya sadece PDF'lerinizden veri kaydetmek isteyin, bu sağlam kütüphane güvenilir bir müttefiktir. Bu adımlarda ustalaşarak, bir PDF düzenleme sihirbazı olma yolunda iyi bir adım atmış olursunuz! Aspose.PDF'nin sunduğu daha fazla özelliği ve işlevi keşfetmekten çekinmeyin.
 
 ## SSS
 
@@ -137,19 +139,21 @@ Ve işte karşınızda — Aspose.PDF for .NET kullanarak PDF özelliklerinin na
 Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla kurabilir veya doğrudan Aspose web sitesinden indirebilirsiniz.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?  
- Evet, Aspose ücretsiz deneme sürümü sunuyor ve bunu alabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose ücretsiz deneme sürümü sunuyor ve bunu alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için dokümanları nerede bulabilirim?  
- Belgelere şu adresten ulaşabilirsiniz:[Aspose.pdf Belgeleri](https://reference.aspose.com/pdf/net/).
+Belgelere şu adresten ulaşabilirsiniz: [Aspose.pdf Belgeleri](https://reference.aspose.com/pdf/net/).
 
 ### Sorun yaşarsam nasıl destek alabilirim?  
- Sorunlarınızla ilgili sorularınızı sorabileceğiniz destek için Aspose forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/pdf/10).
+Sorunlarınızla ilgili sorularınızı sorabileceğiniz destek için Aspose forumunu ziyaret edebilirsiniz. [Burada](https://forum.aspose.com/c/pdf/10).
 
 ### Geçici lisans var mı?  
-Evet, değerlendirme için geçici bir lisans talebinde bulunmak için şu adresi ziyaret edebilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Evet, değerlendirme için geçici bir lisans talebinde bulunmak için şu adresi ziyaret edebilirsiniz: [bu bağlantı](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PDF to PPTX Using Aspose.PDF for Java: A Complete Guide
 ## Conversion & Export
@@ -145,7 +147,11 @@ In this tutorial, you’ve learned how to load PDFs and convert them to PPTX for
 - **Support Forum**: [Aspose Support Community](https://forum.aspose.com/c/pdf/10)
 
 Embrace the power of PDF manipulation in your Java applications today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

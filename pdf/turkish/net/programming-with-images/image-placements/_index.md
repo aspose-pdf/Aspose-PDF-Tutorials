@@ -1,14 +1,16 @@
 ---
-title: Resim Yerleşimleri
-linktitle: Resim Yerleşimleri
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF belgelerindeki görüntü yerleşimlerini nasıl çıkaracağınızı ve düzenleyeceğinizi öğrenin. Örnekler ve kod parçacıkları içeren adım adım kılavuz.
-weight: 170
-url: /tr/net/programming-with-images/image-placements/
+"description": "Aspose.PDF for .NET kullanarak PDF belgelerindeki görüntü yerleşimlerini nasıl çıkaracağınızı ve düzenleyeceğinizi öğrenin. Örnekler ve kod parçacıkları içeren adım adım kılavuz."
+"linktitle": "Resim Yerleşimleri"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Resim Yerleşimleri"
+"url": "/tr/net/programming-with-images/image-placements/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Resim Yerleşimleri
@@ -21,9 +23,9 @@ PDF dosyalarındaki resimlerle çalışmak zor olabilir, ancak Aspose.PDF for .N
 
 Eğitime başlamadan önce, yerinde olması gereken birkaç şey var. İşte hızlı bir kontrol listesi:
 
-1.  Aspose.PDF for .NET: Aspose.PDF for .NET kütüphanesini yüklediğinizden emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: Aspose.PDF for .NET kütüphanesini yüklediğinizden emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 2. Geliştirme Ortamı: Bilgisayarınızda Visual Studio veya .NET destekli herhangi bir IDE'nin yüklü olması gerekir.
-3. Bir PDF Belgesi: Görüntüler içeren bir örnek PDF belgesi hazırlayın. Bu örnek için, adlı bir dosya kullanacağız`ImagePlacement.pdf`.
+3. Bir PDF Belgesi: Görüntüler içeren bir örnek PDF belgesi hazırlayın. Bu örnek için, adlı bir dosya kullanacağız `ImagePlacement.pdf`.
 4. Temel C# Bilgisi: Bu rehber başlangıç seviyesindekilere uygun olsa da, temel C# bilgisi kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -37,7 +39,7 @@ using System;
 using System.Drawing;
 ```
 
-Bu paketler PDF'lerle çalışmanıza olanak tanır (`Aspose.Pdf`), görüntü yerleşimlerini manipüle edin (`Aspose.Pdf.ImagePlacement`), ve görüntü akışlarını ve grafikleri yönetin (`System.Drawing` Ve`System.IO`).
+Bu paketler PDF'lerle çalışmanıza olanak tanır (`Aspose.Pdf`), görüntü yerleşimlerini manipüle edin (`Aspose.Pdf.ImagePlacement`), ve görüntü akışlarını ve grafikleri yönetin (`System.Drawing` Ve `System.IO`).
 
 Artık ön koşullar ve paketler hazır olduğuna göre, eğitimin her bir bölümünü basit ve anlaşılması kolay bir kılavuzda ele alalım.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "ImagePlacement.pdf");
 ```
 
- Bu adımda, PDF belgesinin dosya yolunu kullanarak tanımlıyoruz`dataDir`ve sonra yeni bir örnek oluşturma`Aspose.Pdf.Document` sınıf. Bu, PDF dosyasını programımıza yüklememizi sağlar. Basit, değil mi? Tıpkı okumaya başlamak için bir kitabı açmak gibi, artık içindeki içeriği keşfetmeye hazırız.
+Bu adımda, PDF belgesinin dosya yolunu kullanarak tanımlıyoruz `dataDir` ve ardından yeni bir örnek oluşturma `Aspose.Pdf.Document` sınıf. Bu, PDF dosyasını programımıza yüklememizi sağlar. Basit, değil mi? Tıpkı okumaya başlamak için bir kitabı açmak gibi, artık içindeki içeriği keşfetmeye hazırız.
 
 ## Adım 2: Görüntü Yerleştirme Emicisini Başlatın
 
@@ -60,7 +62,7 @@ Görüntüleri çıkarmak için "Görüntü Yerleşimi Emicisi" adı verilen bir
 ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
 ```
 
- Burada, bir örnek oluşturuyoruz`ImagePlacementAbsorber`. Bu nesne, belirli bir PDF sayfasındaki tüm resim yerleşimleri hakkında bilgi toplayacak ve depolayacaktır. Bunu, bir sayfayı büyüteçle tarayıp üzerindeki tüm resimleri tanımlamak gibi düşünün!
+Burada, bir örnek oluşturuyoruz `ImagePlacementAbsorber`Bu nesne, belirli bir PDF sayfasındaki tüm resim yerleşimleri hakkında bilgi toplayacak ve depolayacaktır. Bunu, bir sayfayı büyüteçle tarayıp üzerindeki tüm resimleri tanımlamak gibi düşünün!
 
 ## Adım 3: İlk Sayfadaki Absorber'ı Kabul Edin
 
@@ -70,7 +72,7 @@ Sonra, emiciye PDF'in hangi sayfasının taranacağını söylememiz gerekir. Bu
 doc.Pages[1].Accept(abs);
 ```
 
- The`Accept` yöntem, PDF belgesinin ilk sayfasını herhangi bir görüntü açısından tarar ve sonuçları belgenin içinde depolar.`ImagePlacementAbsorber`Bu, büyütece resimlerin nerede aranacağını söylemek gibi bir şey.
+The `Accept` yöntem, PDF belgesinin ilk sayfasını herhangi bir görüntü açısından tarar ve sonuçları belgenin içinde depolar. `ImagePlacementAbsorber`Bu, büyütece resimlerin nerede aranacağını söylemek gibi bir şey.
 
 ## Adım 4: Her Görüntü Yerleşiminde Döngü Yapın
 
@@ -104,7 +106,7 @@ using (MemoryStream imageStream = new MemoryStream())
 }
 ```
 
- Bu kod parçacığı, görüntüyü PDF'den alır ve onu, tanımlandığı gibi gerçek boyutlarına ölçekler.`ImagePlacement` nesne. Görüntüyü bir bellek akışına kaydederek ve ölçekleyerek, çıkardığınız görüntünün PDF'de görüntülendiği tam boyutu korumasını sağlarsınız.
+Bu kod parçacığı, görüntüyü PDF'den alır ve onu, tanımlandığı gibi gerçek boyutlarına ölçekler. `ImagePlacement` nesne. Görüntüyü bir bellek akışına kaydederek ve ölçekleyerek, çıkardığınız görüntünün PDF'de görüntülendiği tam boyutu korumasını sağlarsınız.
 
 ## Çözüm
 
@@ -113,22 +115,24 @@ Aspose.PDF for .NET kullanarak bir PDF belgesinden görüntü yerleşimlerini ç
 ## SSS
 
 ### PDF'in belirli bir sayfasından görsel çıkarabilir miyim?  
- Evet, kullanırken sayfa numarasını belirterek`Accept` Bu yöntemle istediğiniz belirli sayfaya odaklanabilirsiniz.
+Evet, kullanırken sayfa numarasını belirterek `Accept` Bu yöntemle istediğiniz belirli sayfaya odaklanabilirsiniz.
 
 ### Çıkarım için hangi görüntü formatları destekleniyor?  
 Aspose.PDF PNG, JPEG, BMP ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 
 ### Çıkarılan görselde değişiklik yapmak mümkün müdür?  
- Kesinlikle! Çıkardıktan sonra, şunu kullanabilirsiniz:`System.Drawing` Görüntüyü düzenlemek için namespace.
+Kesinlikle! Çıkardıktan sonra, şunu kullanabilirsiniz: `System.Drawing` Görüntüyü düzenlemek için namespace.
 
 ### Şifreyle korunan PDF'lerden resim çıkarabilir miyim?  
 Evet yapabilirsiniz, ancak görüntüleri çıkarmadan önce uygun kimlik bilgilerini kullanarak PDF'in kilidini açmanız gerekir.
 
 ### Aspose.PDF for .NET tüm .NET framework'lerinde çalışır mı?  
 Evet, .NET Framework, .NET Core ve .NET 5 ve üzeri sürümleri destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

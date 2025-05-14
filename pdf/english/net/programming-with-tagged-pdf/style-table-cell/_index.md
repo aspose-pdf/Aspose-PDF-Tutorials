@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/style-table-cell/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Style Table Cell
@@ -192,6 +194,7 @@ You can download it from the [releases page](https://releases.aspose.com/pdf/net
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

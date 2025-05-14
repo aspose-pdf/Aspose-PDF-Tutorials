@@ -1,51 +1,55 @@
 ---
-title: .NET के लिए Aspose.PDF में तालिका पंक्ति सामग्री के लिए पाठ संरेखण के साथ एक पीडीएफ बनाएँ 
-weight: 7700
-limit: 
-description: .NET के लिए Aspose.PDF का उपयोग करके तालिका के साथ एक पीडीएफ दस्तावेज़ बनाने का तरीका जानें. यह उदाहरण गतिशील सामग्री के साथ 10 पंक्तियों और 3 स्तंभों को जोड़ने का प्रदर्शन करता है.
-keywords: [Aspose.PDF for .NET, create PDF table, add table to PDF, .NET PDF library, C# PDF table, generate PDF C#, Aspose PDF example, table formatting in PDF]
-url: /hi/net/tables/text-alignment-for-table-row-content/
+"description": "जानें कि .NET के लिए Aspose.PDF का उपयोग करके टेबल के साथ PDF दस्तावेज़ कैसे बनाएँ। यह उदाहरण गतिशील सामग्री के साथ 10 पंक्तियाँ और 3 कॉलम जोड़ना दर्शाता है।"
+"title": ".NET के लिए Aspose.PDF में तालिका पंक्ति सामग्री के लिए पाठ संरेखण के साथ एक पीडीएफ बनाएं"
+"url": "/hi/net/tables/text-alignment-for-table-row-content/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# तालिका पंक्ति सामग्री के लिए पाठ संरेखण के साथ एक पीडीएफ बनाएँ
+# तालिका पंक्ति सामग्री के लिए पाठ संरेखण के साथ एक पीडीएफ बनाएं
 
-Aspose.PDF .NET के लिए एक शक्तिशाली एपीआई प्रदान करता है, जो प्रोग्राम के माध्यम से पीडीएफ दस्तावेजों को बनाने, संपादित करने और हेरफेर करने के लिए है। यह उदाहरण दिखाता है कि 10 पंक्तियों और 3 स्तंभों वाली संरचित तालिका वाली पीडीएफ फ़ाइल कैसे उत्पन्न की जाती है। प्रत्येक पंक्ति को गतिशील रूप से सामग्री से भरा जाता है, और तालिका को हल्के ग्रे सीमाओं के साथ स्वरूपित किया जाता है। चरण-दर-चरण गाइड आपको दस्तावेज़ को आरंभ करने, तालिका को परिभाषित करने, गुणों को सेट करने और अंत में आउटपुट पीडीएफ को सहेजने के माध्यम से चलता है। Aspose.PDF .NET के लिए सी # अनुप्रयोगों में पीडीएफ पीढ़ी को सरल बनाता है, जिससे यह स्वचालित रिपोर्ट पीढ़ी, चालान निर्माण और संरचित डेटा प्रस्तुति के लिए आदर्श है।  
+.NET के लिए Aspose.PDF प्रोग्रामेटिक रूप से PDF दस्तावेज़ बनाने, संपादित करने और हेरफेर करने के लिए एक शक्तिशाली API प्रदान करता है। यह उदाहरण दर्शाता है कि 10 पंक्तियों और 3 स्तंभों वाली संरचित तालिका वाली PDF फ़ाइल कैसे बनाई जाए। प्रत्येक पंक्ति गतिशील रूप से सामग्री से भरी हुई है, और तालिका को हल्के भूरे रंग की सीमाओं के साथ स्वरूपित किया गया है। चरण-दर-चरण मार्गदर्शिका आपको दस्तावेज़ को आरंभ करने, तालिका को परिभाषित करने, गुण सेट करने और अंत में आउटपुट PDF को सहेजने के बारे में बताती है। .NET के लिए Aspose.PDF C# अनुप्रयोगों में PDF निर्माण को सरल बनाता है, जो इसे स्वचालित रिपोर्ट निर्माण, चालान निर्माण और संरचित डेटा प्रस्तुति के लिए आदर्श बनाता है।  
 
 ---
 
 {{< tutorial-widget sourcePath="pdf/net/tables/text-alignment-for-table-row-content" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## स्थापना के निर्देश:  
-अपनी परियोजना में .NET के लिए Aspose.PDF का उपयोग करने के लिए, इन चरणों का पालन करेंः  
 
-1. NuGet पैकेज प्रबंधक के माध्यम से स्थापित करेंः  
-   अपने विजुअल स्टूडियो प्रोजेक्ट में NuGet पैकेज प्रबंधक खोलें और चलाएंः  
+{{< blocks/products/pf/tutorial-page-section >}}
+## स्थापना निर्देश:  
+अपने प्रोजेक्ट में .NET के लिए Aspose.PDF का उपयोग करने के लिए, इन चरणों का पालन करें:  
+
+1. NuGet पैकेज मैनेजर के माध्यम से इंस्टॉल करें:  
+   अपने विज़ुअल स्टूडियो प्रोजेक्ट में NuGet पैकेज मैनेजर खोलें और चलाएँ:  
    ```sh
    Install-Package Aspose.PDF
    ```  
    
-2. DLL मैन्युअल रूप से डाउनलोड करें:  
-   * .NET डाउनलोड पृष्ठ के लिए Aspose.PDF पर जाएँ: [यहाँ डाउनलोड करें](https://releases.aspose.com/pdf/net/)  
-   * अंश और संदर्भ `Aspose.Pdf.dll`आपकी परियोजना में।  
+2. DLL को मैन्युअल रूप से डाउनलोड करें:  
+   - .NET डाउनलोड के लिए Aspose.PDF पृष्ठ पर जाएँ: [यहाँ से डाउनलोड करें](https://releases.aspose.com/pdf/net/)  
+   - उद्धरण और संदर्भ `Aspose.Pdf.dll` अपने प्रोजेक्ट में.  
 
-3. लाइसेंस का आवेदन करें (वैकल्पिक):  
-   * एक मुफ्त अस्थायी लाइसेंस प्राप्त करेंः [लाइसेंस का अनुरोध](https://purchase.aspose.com/temporary-license/)  
-   * इसे अपने कोड में लागू करें:  
+3. लाइसेंस लागू करें (वैकल्पिक):  
+   - निःशुल्क अस्थायी लाइसेंस प्राप्त करें: [लाइसेंस का अनुरोध करें](https://purchase.aspose.com/temporary-license/)  
+   - इसे अपने कोड में लागू करें:  
      ```csharp
      Aspose.Pdf.License license = new Aspose.Pdf.License();
      license.SetLicense("Aspose.Pdf.lic");
      ```  
 ## अधिक जानकारी के लिए
-* दस्तावेज:[Aspose.PDF के लिए .NET प्रलेखन](https://docs.aspose.com/pdf/net/)  
-* एपीआई संदर्भः [.NET एपीआई संदर्भ के लिए Aspose.PDF](https://reference.aspose.com/pdf/net/)  
+- दस्तावेज़ीकरण: [.NET दस्तावेज़ीकरण के लिए Aspose.PDF](https://docs.aspose.com/pdf/net/)  
+- एपीआई संदर्भ: [.NET API संदर्भ के लिए Aspose.PDF](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

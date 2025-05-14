@@ -1,14 +1,16 @@
 ---
-title: Tạo các tập tin tương thích PDF/A
-linktitle: Tạo các tập tin tương thích PDF/A
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách tạo tệp tuân thủ PDF/A bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã cho tệp PDF theo tiêu chuẩn công nghiệp.
-weight: 18
-url: /vi/java/pdf-conversion-transformation/create-pdfa-compliant-files/
+"description": "Tìm hiểu cách tạo tệp tuân thủ PDF/A bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã cho tệp PDF theo tiêu chuẩn công nghiệp."
+"linktitle": "Tạo các tập tin tương thích PDF/A"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Tạo các tập tin tương thích PDF/A"
+"url": "/vi/java/pdf-conversion-transformation/create-pdfa-compliant-files/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo các tập tin tương thích PDF/A
@@ -16,7 +18,7 @@ url: /vi/java/pdf-conversion-transformation/create-pdfa-compliant-files/
 
 ## Giới thiệu
 
-Việc tạo các tài liệu PDF tuân thủ tiêu chuẩn PDF/A đảm bảo rằng các tệp của bạn có thể truy cập được và đáng tin cậy theo thời gian. Aspose.PDF for Java giúp nhiệm vụ này trở nên đơn giản với bộ tính năng mạnh mẽ và API dễ sử dụng.
+Việc tạo các tài liệu PDF tuân thủ theo tiêu chuẩn PDF/A đảm bảo rằng các tệp của bạn có thể truy cập được và đáng tin cậy theo thời gian. Aspose.PDF for Java giúp nhiệm vụ này trở nên đơn giản với bộ tính năng mạnh mẽ và API dễ sử dụng.
 
 ## Hiểu về sự tuân thủ PDF/A
 
@@ -24,7 +26,7 @@ Tuân thủ PDF/A đảm bảo rằng một tài liệu sẽ hiển thị chính
 
 ## Thiết lập môi trường phát triển của bạn
 
- Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải xuống từ[đây](https://www.java.com/download/)Ngoài ra, hãy đảm bảo rằng bạn có môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse.
+Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải xuống từ [đây](https://www.java.com/download/)Ngoài ra, hãy đảm bảo rằng bạn có môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse.
 
 ## Tạo một dự án Java mới
 
@@ -32,7 +34,7 @@ Bắt đầu bằng cách tạo một dự án Java mới trong IDE ưa thích c
 
 ## Thêm Aspose.PDF cho Java vào Dự án của bạn
 
- Để sử dụng Aspose.PDF cho Java, bạn cần thêm thư viện Aspose.PDF vào dự án của mình. Bạn có thể tải xuống từ[Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/)Sau khi tải xuống, hãy thêm tệp JAR vào classpath của dự án.
+Để sử dụng Aspose.PDF cho Java, bạn cần thêm thư viện Aspose.PDF vào dự án của mình. Bạn có thể tải xuống từ [Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/). Sau khi tải xuống, hãy thêm tệp JAR vào classpath của dự án.
 
 ## Khởi tạo một tài liệu PDF
 
@@ -97,7 +99,7 @@ pdfDocument.save("output.pdf");
 
 ## Các tính năng bổ sung và tùy chỉnh
 
-Aspose.PDF for Java cung cấp nhiều tính năng để tùy chỉnh tài liệu PDF của bạn, bao gồm thêm tiêu đề, chân trang, hình mờ và nhiều tính năng khác. Khám phá[tài liệu](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết về các tùy chọn tùy chỉnh.
+Aspose.PDF for Java cung cấp nhiều tính năng để tùy chỉnh tài liệu PDF của bạn, bao gồm thêm tiêu đề, chân trang, hình mờ và nhiều tính năng khác. Khám phá [tài liệu](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết về các tùy chọn tùy chỉnh.
 
 ## Phần kết luận
 
@@ -107,7 +109,7 @@ Tạo các tệp tuân thủ PDF/A bằng Aspose.PDF for Java là một quá tr�
 
 ### Làm thế nào để thêm hình ảnh vào tài liệu PDF bằng Aspose.PDF cho Java?
 
- Để thêm hình ảnh vào tài liệu PDF, bạn có thể sử dụng`Image` lớp từ Aspose.PDF cho Java. Đây là một ví dụ cơ bản:
+Để thêm hình ảnh vào tài liệu PDF, bạn có thể sử dụng `Image` lớp từ Aspose.PDF cho Java. Đây là một ví dụ cơ bản:
 
 ```java
 import com.aspose.pdf.Image;
@@ -130,7 +132,7 @@ Có, Aspose.PDF for Java tương thích với Java 11 và các phiên bản mớ
 
 ### Làm thế nào để thêm siêu liên kết vào văn bản trong tài liệu PDF?
 
- Để thêm siêu liên kết vào văn bản trong tài liệu PDF, bạn có thể sử dụng`LinkAnnotation` lớp từ Aspose.PDF cho Java. Đây là một ví dụ đơn giản:
+Để thêm siêu liên kết vào văn bản trong tài liệu PDF, bạn có thể sử dụng `LinkAnnotation` lớp từ Aspose.PDF cho Java. Đây là một ví dụ đơn giản:
 
 ```java
 import com.aspose.pdf.LinkAnnotation;
@@ -147,7 +149,7 @@ page.getAnnotations().add(link);
 
 ### Làm thế nào tôi có thể trích xuất văn bản từ tài liệu PDF bằng Aspose.PDF cho Java?
 
- Bạn có thể trích xuất văn bản từ tài liệu PDF bằng cách sử dụng`TextAbsorber` lớp do Aspose.PDF cung cấp cho Java. Đây là một ví dụ cơ bản:
+Bạn có thể trích xuất văn bản từ tài liệu PDF bằng cách sử dụng `TextAbsorber` lớp do Aspose.PDF cung cấp cho Java. Sau đây là một ví dụ cơ bản:
 
 ```java
 import com.aspose.pdf.TextAbsorber;
@@ -155,15 +157,17 @@ import com.aspose.pdf.TextAbsorber;
 // Khởi tạo TextAbsorber
 TextAbsorber textAbsorber = new TextAbsorber();
 
-//Chấp nhận tài liệu PDF
+// Chấp nhận tài liệu PDF
 pdfDocument.getPages().accept(textAbsorber);
 
 // Lấy văn bản đã trích xuất
 String extractedText = textAbsorber.getText();
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

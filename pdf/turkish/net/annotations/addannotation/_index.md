@@ -1,14 +1,16 @@
 ---
-title: PDF Açıklaması Ekle
-linktitle: Açıklama Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'lerinize kolayca özel açıklamalar ekleyin. Açıklamalarınızı belirli ayrıntılar ve simgelerle özelleştirin.
-weight: 10
-url: /tr/net/annotations/addannotation/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'lerinize kolayca özel açıklamalar ekleyin. Açıklamalarınızı belirli ayrıntılar ve simgelerle özelleştirin."
+"linktitle": "Açıklama Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Açıklaması Ekle"
+"url": "/tr/net/annotations/addannotation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Açıklaması Ekle
@@ -21,12 +23,12 @@ Açıklamalar, PDF belgelerini zenginleştirmenin, onları etkileşimli ve bilgi
 
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose.PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/).
+- .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose.PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/).
 - Geliştirme Ortamı: Visual Studio veya tercih ettiğiniz herhangi bir C# IDE.
-- C# Temel Bilgileri: Bu kılavuz, C# programlama konusunda rahat olduğunuzu varsayar.
+- C# Temel Bilgisi: Bu kılavuz, C# programlama konusunda rahat olduğunuzu varsayar.
 - PDF Belgesi: Üzerine notlar ekleyeceğiniz örnek PDF dosyası.
 
- Eğer Aspose.PDF kütüphaneniz henüz yoksa, yukarıdaki bağlantıdan edinebilir ve bir başlangıç yapabilirsiniz.[ücretsiz deneme](https://releases.aspose.com/) veya satın al[lisans](https://purchase.aspose.com/buy). 
+Eğer Aspose.PDF kütüphaneniz henüz yoksa, yukarıdaki bağlantıdan edinebilir ve bir başlangıç yapabilirsiniz. [ücretsiz deneme](https://releases.aspose.com/) veya satın al [lisans](https://purchase.aspose.com/buy). 
 
 ## Paketleri İçe Aktar
 
@@ -41,7 +43,7 @@ Bu ad alanları, PDF düzenleme ve açıklama için ihtiyaç duyduğunuz sınıf
 
 ## Adım 1: PDF Belgenizi Yükleyin
 
-İlk önce açıklama eklemeyi planladığınız PDF belgesini yüklemeniz gerekiyor.
+Öncelikle açıklama eklemeyi planladığınız PDF belgesini yüklemeniz gerekiyor.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -50,12 +52,12 @@ string dataDir = "YOUR DATA DIRECTORY";
 Document pdfDocument = new Document(dataDir + "AddAnnotation.pdf");
 ```
 
- İşte olan şey: PDF dosyanızın depolandığı dizini belirtiyorsunuz, ardından onu kullanarak yüklüyorsunuz`Document` Aspose.PDF tarafından sağlanan sınıf. Bu adım çok önemlidir çünkü belgeyi yüklemeden, üzerinde herhangi bir değişiklik yapamazsınız.
+İşte olan şey: PDF dosyanızın depolandığı dizini belirtiyorsunuz, ardından onu kullanarak yüklüyorsunuz `Document` Aspose.PDF tarafından sağlanan sınıf. Bu adım çok önemlidir çünkü belgeyi yüklemeden, üzerinde herhangi bir değişiklik yapamazsınız.
 
 ## Adım 2: Bir Açıklama Oluşturun
 
 ### Açıklama Özelliklerini Tanımlama
- Şimdi, açıklamanın kendisini oluşturalım. Bir`TextAnnotation`PDF'nize yorum veya not eklemek için mükemmeldir.
+Şimdi, açıklamanın kendisini oluşturalım. Bir `TextAnnotation`PDF'nize yorum veya not eklemek için mükemmeldir.
 
 ```csharp
 // Açıklama oluştur
@@ -68,9 +70,9 @@ textAnnotation.Icon = TextIcon.Key;
 ```
 
 Bu kesitte:
--  Konum ve Boyut:`Rectangle` sınıf, açıklamanızın sayfada nerede görüneceğini ve boyutlarını tanımlar.
+- Konum ve Boyut: `Rectangle` sınıf, açıklamanızın sayfada nerede görüneceğini ve boyutlarını tanımlar.
 - Başlık, Konu ve İçerik: Bu özellikler, açıklamanızın ne hakkında olacağını ve ne içereceğini belirtmenize olanak tanır.
--  Simge:`TextIcon.Key` Açıklamaya bir simge ekleyerek görsel olarak daha çekici hale getirir.
+- Simge: `TextIcon.Key` Açıklamaya bir simge ekleyerek görsel olarak daha çekici hale getirir.
 
 ## Adım 3: Açıklamanın Görünümünü Özelleştirin
 
@@ -85,8 +87,8 @@ textAnnotation.Rect = new Aspose.Pdf.Rectangle(200, 400, 400, 600);
 ```
 
 İşte olup bitenlerin özeti:
--  Sınır: Bir sınır yaratıyoruz`Border` nesnesini seçip genişliğini 5'e ayarlayın, böylece açıklamalarımıza belirgin bir ana hat kazandırmış oluruz.
--  Çizgi Deseni:`Dash` özelliği, açıklamalara biraz stil katarak kesik çizgili bir kenarlık oluşturmanıza olanak tanır.
+- Sınır: Bir sınır yaratıyoruz `Border` nesnesini seçip genişliğini 5'e ayarlayın, böylece açıklamalarımıza belirgin bir ana hat kazandırmış oluruz.
+- Çizgi Deseni: `Dash` özelliği, açıklamalara biraz stil katarak kesik çizgili bir kenarlık oluşturmanıza olanak tanır.
 
 ## Adım 4: PDF Sayfasına Açıklamayı Ekleyin
 
@@ -97,7 +99,7 @@ Açıklamayı oluşturup özelleştirdikten sonra, onu PDF sayfanıza ekleme zam
 pdfDocument.Pages[1].Annotations.Add(textAnnotation);
 ```
 
- Bu kod, açıklamayı PDF'nizin ilk sayfasına ekler.`Annotations` koleksiyon belirli bir sayfaya ait tüm açıklamaları tutar ve bu adım yeni açıklamanızın o koleksiyonun bir parçası olmasını sağlar.
+Bu kod, açıklamayı PDF'nizin ilk sayfasına ekler. `Annotations` koleksiyon belirli bir sayfaya ait tüm açıklamaları tutar ve bu adım yeni açıklamanızın o koleksiyonun bir parçası olmasını sağlar.
 
 ## Adım 5: Güncellenen PDF Belgesini Kaydedin
 
@@ -128,13 +130,15 @@ Kesinlikle! Açıklamalarınızın boyutunu, rengini, kenarlığını ve hatta s
 Evet, PDF'inizdeki herhangi bir sayfaya istediğiniz kadar açıklama ekleyebilirsiniz.
 
 ### Açıklamaları ekledikten sonra kaldırabilir miyim?
- Evet, açıklamalar kullanılarak kaldırılabilir`Annotations.Delete` Aspose.PDF tarafından sağlanan yöntem.
+Evet, açıklamalar kullanılarak kaldırılabilir `Annotations.Delete` Aspose.PDF tarafından sağlanan yöntem.
 
 ### Aspose.PDF for .NET'i kullanmak için lisansa ihtiyacım var mı?
- Evet, tüm özelliklerin kilidini açmak ve herhangi bir sınırlamadan kaçınmak için bir[lisans](https://purchase.aspose.com/buy) Ayrıca bir tane de alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
+Evet, tüm özelliklerin kilidini açmak ve herhangi bir sınırlamadan kaçınmak için bir [lisans](https://purchase.aspose.com/buy)Ayrıca bir tane de alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

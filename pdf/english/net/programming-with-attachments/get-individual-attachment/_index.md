@@ -8,7 +8,9 @@ url: /net/programming-with-attachments/get-individual-attachment/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Individual Attachment In PDF File
@@ -144,6 +146,7 @@ You can get support through the Aspose forum [here](https://forum.aspose.com/c/p
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

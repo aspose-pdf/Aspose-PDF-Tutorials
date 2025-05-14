@@ -1,17 +1,19 @@
 ---
-title: Mewarisi File PDF Zoom In
-linktitle: Mewarisi File PDF Zoom In
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mewarisi zoom pada file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan pengalaman menonton PDF Anda.
-weight: 90
-url: /id/net/programming-with-bookmarks/inherit-zoom/
+"description": "Pelajari cara mewarisi zoom pada file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan pengalaman menonton PDF Anda."
+"linktitle": "Mewarisi Perbesaran File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Mewarisi Perbesaran File PDF"
+"url": "/id/net/programming-with-bookmarks/inherit-zoom/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mewarisi File PDF Zoom In
+# Mewarisi Perbesaran File PDF
 
 ## Perkenalan
 
@@ -22,7 +24,7 @@ Pernahkah Anda membuka file PDF dan mendapati bahwa tingkat pembesarannya salah?
 Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah lingkungan terbaik untuk pengembangan .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya, Anda ingin membuka dokumen PDF yang ingin Anda ubah. Ini dilakukan dengan menggunakan`Document` kelas dari pustaka Aspose.PDF.
+Selanjutnya, Anda ingin membuka dokumen PDF yang ingin Anda ubah. Ini dilakukan dengan menggunakan `Document` kelas dari pustaka Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
@@ -78,7 +80,7 @@ OutlineItemCollection item = new OutlineItemCollection(doc.Outlines);
 
 ## Langkah 4: Mengatur Tingkat Zoom
 
- Di sinilah keajaiban terjadi! Anda dapat mengatur tingkat zoom menggunakan`XYZExplicitDestination` kelas. Dalam contoh ini, kita akan menetapkan level zoom ke 0, yang berarti dokumen akan mewarisi level zoom dari penampil.
+Di sinilah keajaiban terjadi! Anda dapat mengatur tingkat zoom menggunakan `XYZExplicitDestination` kelas. Dalam contoh ini, kita akan menetapkan level zoom ke 0, yang berarti dokumen akan mewarisi level zoom dari penampil.
 
 ```csharp
 XYZExplicitDestination dest = new XYZExplicitDestination(2, 100, 100, 0);
@@ -92,7 +94,7 @@ Sekarang setelah Anda menetapkan tujuan, waktunya menambahkan tindakan ini ke ko
 item.Action = new GoToAction(dest);
 ```
 
-## Langkah 6: Tambahkan Item ke Koleksi Outlines
+## Langkah 6: Tambahkan Item ke Koleksi Garis Besar
 
 Selanjutnya, Anda ingin menambahkan item tersebut ke koleksi outlines dari file PDF. Langkah ini memastikan bahwa perubahan Anda tersimpan.
 
@@ -119,7 +121,7 @@ Console.WriteLine("\nBookmarks updated successfully.\nFile saved at " + dataDir)
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah berhasil mewarisi level zoom dalam file PDF Anda menggunakan Aspose.PDF for .NET. Fitur sederhana namun hebat ini dapat meningkatkan pengalaman pengguna, membuat dokumen Anda lebih mudah diakses dan dinavigasi. Jadi, lain kali Anda membuat PDF, ingatlah untuk mengatur level zoom tersebut!
+Nah, itu dia! Anda telah berhasil mewarisi level zoom pada file PDF Anda menggunakan Aspose.PDF for .NET. Fitur sederhana namun hebat ini dapat meningkatkan pengalaman pengguna, membuat dokumen Anda lebih mudah diakses dan dinavigasi. Jadi, lain kali Anda membuat PDF, ingatlah untuk mengatur level zoom tersebut!
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -127,19 +129,21 @@ Nah, itu dia! Anda telah berhasil mewarisi level zoom dalam file PDF Anda menggu
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menguji pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menguji pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasinya?
- Anda dapat menemukan dokumentasi untuk Aspose.PDF untuk .NET[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi untuk Aspose.PDF untuk .NET [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara membeli lisensi?
- Anda dapat membeli lisensi untuk Aspose.PDF untuk .NET[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi untuk Aspose.PDF untuk .NET [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana jika saya butuh dukungan?
- Jika Anda memerlukan bantuan, Anda dapat mengunjungi forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Jika Anda memerlukan bantuan, Anda dapat mengunjungi forum dukungan Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

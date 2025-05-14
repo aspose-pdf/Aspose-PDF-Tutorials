@@ -1,14 +1,16 @@
 ---
-title: Ẩn đường viền ô xen kẽ trong PDF bằng Java
-linktitle: Ẩn đường viền ô xen kẽ trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách ẩn đường viền ô trải dài trong PDF bằng Java với hướng dẫn từng bước về Aspose.PDF cho Java.
-weight: 12
-url: /vi/java/pdf-tables/hide-spanned-cell-border-in-pdf-using-java/
+"description": "Tìm hiểu cách ẩn đường viền ô trải dài trong PDF bằng Java với hướng dẫn từng bước về Aspose.PDF cho Java."
+"linktitle": "Ẩn đường viền ô xen kẽ trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Ẩn đường viền ô xen kẽ trong PDF bằng Java"
+"url": "/vi/java/pdf-tables/hide-spanned-cell-border-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ẩn đường viền ô xen kẽ trong PDF bằng Java
@@ -40,7 +42,7 @@ Trước khi đi sâu vào mã, hãy đảm bảo bạn có đủ các công c�
 
 ### Bước 2: Tạo tài liệu PDF
 
- Bắt đầu bằng cách tạo một dự án Java mới trong IDE của bạn. Sau đó, thêm thư viện Aspose.PDF cho Java vào các phụ thuộc của dự án. Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/pdf/java/).
+Bắt đầu bằng cách tạo một dự án Java mới trong IDE của bạn. Sau đó, thêm thư viện Aspose.PDF cho Java vào các phụ thuộc của dự án. Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/pdf/java/).
 
 Tiếp theo, hãy tạo một lớp Java mới và bắt đầu bằng cách nhập các gói cần thiết:
 
@@ -116,9 +118,11 @@ Có, còn có các thư viện khác như Apache PDFBox và iText mà bạn có 
 ### Tôi có thể ẩn đường viền một cách chọn lọc cho các ô cụ thể không?
 
 Chắc chắn rồi! Bạn có thể áp dụng logic ẩn đường viền một cách có chọn lọc dựa trên cấu trúc và thiết kế bảng của mình.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

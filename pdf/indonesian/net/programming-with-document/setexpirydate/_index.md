@@ -1,14 +1,16 @@
 ---
-title: Tetapkan Tanggal Kedaluwarsa Dalam File PDF
-linktitle: Tetapkan Tanggal Kedaluwarsa Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menetapkan tanggal kedaluwarsa dalam file PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan keamanan dokumen dengan panduan langkah demi langkah ini.
-weight: 300
-url: /id/net/programming-with-document/setexpirydate/
+"description": "Pelajari cara menetapkan tanggal kedaluwarsa dalam file PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan keamanan dokumen dengan panduan langkah demi langkah ini."
+"linktitle": "Tetapkan Tanggal Kedaluwarsa Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tetapkan Tanggal Kedaluwarsa Dalam File PDF"
+"url": "/id/net/programming-with-document/setexpirydate/"
+"weight": 300
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tetapkan Tanggal Kedaluwarsa Dalam File PDF
@@ -22,12 +24,12 @@ Di era digital saat ini, mengelola dan mengamankan dokumen menjadi lebih penting
 Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Lingkungan Pengembangan: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET. Ini bisa berupa Visual Studio atau IDE lain yang mendukung .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu menginstal pustaka Aspose.PDF. Jika Anda belum melakukannya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu menginstal pustaka Aspose.PDF. Jika Anda belum melakukannya, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar tentang C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#. Jika Anda baru mengenal C#, jangan khawatir! Kami akan menjelaskannya secara sederhana dan lugas.
 
 ## Paket Impor
 
-Untuk memulai Aspose.PDF, Anda perlu mengimpor namespace yang diperlukan dalam proyek C# Anda. Berikut cara melakukannya:
+Untuk memulai Aspose.PDF, Anda perlu mengimpor namespace yang diperlukan ke dalam proyek C# Anda. Berikut cara melakukannya:
 
 ```csharp
 using System.IO;
@@ -47,17 +49,17 @@ Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF. Ini seperti memberi tahu program Anda, “Hei, ini tempat saya menyimpan berkas saya!”
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF. Ini seperti memberi tahu program Anda, “Hei, ini tempat saya menyimpan berkas saya!”
 
 ## Langkah 2: Buat Instansiasi Objek Dokumen
 
- Selanjutnya, Anda perlu membuat instance baru dari`Document` kelas. Ini adalah kanvas tempat Anda akan membuat PDF.
+Selanjutnya, Anda perlu membuat instance baru dari `Document` kelas. Ini adalah kanvas tempat Anda akan membuat PDF.
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
- Pikirkanlah tentang`Document` objek sebagai selembar kertas kosong. Anda dapat menambahkan konten ke dalamnya sesuai keinginan!
+Pikirkanlah tentang `Document` objek sebagai selembar kertas kosong. Anda dapat menambahkan konten ke dalamnya sesuai keinginan!
 
 ## Langkah 3: Tambahkan Halaman ke PDF
 
@@ -130,19 +132,21 @@ Nah, itu dia! Anda telah berhasil membuat file PDF dengan tanggal kedaluwarsa me
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF dalam aplikasi .NET.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Anda dapat menggunakan versi uji coba gratis Aspose.PDF. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat menggunakan versi uji coba gratis Aspose.PDF. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara membeli Aspose.PDF?
-Anda dapat membeli Aspose.PDF dengan mengunjungi[halaman pembelian](https://purchase.aspose.com/buy).
+Anda dapat membeli Aspose.PDF dengan mengunjungi [halaman pembelian](https://purchase.aspose.com/buy).
 
 ### Bagaimana jika saya butuh dukungan?
-Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Bisakah saya mendapatkan lisensi sementara untuk Aspose.PDF?
- Ya, Anda dapat meminta lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Anda dapat meminta lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

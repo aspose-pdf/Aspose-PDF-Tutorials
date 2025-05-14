@@ -1,14 +1,16 @@
 ---
-title: Nhận tất cả các phông chữ trong tệp PDF
-linktitle: Nhận tất cả các phông chữ trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất tất cả phông chữ từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và những người đam mê PDF.
-weight: 160
-url: /vi/net/programming-with-document/getallfonts/
+"description": "Tìm hiểu cách trích xuất tất cả phông chữ từ tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và những người đam mê PDF."
+"linktitle": "Nhận tất cả các phông chữ trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhận tất cả các phông chữ trong tệp PDF"
+"url": "/vi/net/programming-with-document/getallfonts/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận tất cả các phông chữ trong tệp PDF
@@ -22,7 +24,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để trích xuất tất cả c
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là IDE mà chúng ta sẽ sử dụng cho hướng dẫn này.
-2.  Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ [trang web](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -61,27 +63,27 @@ Trước tiên, bạn cần chỉ định đường dẫn đến tài liệu PDF
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được đặt. Điều này có thể giống như`@"C:\Documents\"`.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được đặt. Điều này có thể giống như `@"C:\Documents\"`.
 
 ## Bước 2: Tải Tài liệu PDF
 
- Tiếp theo, bạn sẽ muốn tải tài liệu PDF vào ứng dụng của mình. Điều này được thực hiện bằng cách sử dụng`Document` lớp được cung cấp bởi Aspose.PDF.
+Tiếp theo, bạn sẽ muốn tải tài liệu PDF vào ứng dụng của mình. Điều này được thực hiện bằng cách sử dụng `Document` lớp được cung cấp bởi Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Ở đây, thay thế`"input.pdf"` với tên tệp PDF của bạn. Dòng mã này khởi tạo một tệp PDF mới`Document` đối tượng đại diện cho tệp PDF của bạn.
+Ở đây, thay thế `"input.pdf"` với tên tệp PDF của bạn. Dòng mã này khởi tạo một tệp PDF mới `Document` đối tượng đại diện cho tệp PDF của bạn.
 
 ## Bước 3: Lấy lại tất cả phông chữ
 
- Bây giờ đến phần thú vị! Bạn sẽ sử dụng`FontUtilities` lớp để lấy tất cả các phông chữ được sử dụng trong tài liệu.
+Bây giờ đến phần thú vị! Bạn sẽ sử dụng `FontUtilities` lớp để lấy tất cả các phông chữ được sử dụng trong tài liệu.
 
 ```csharp
 Aspose.Pdf.Text.Font[] fonts = doc.FontUtilities.GetAllFonts();
 ```
 
- Dòng này lấy một mảng`Font` các đối tượng, mỗi đối tượng đại diện cho một phông chữ được sử dụng trong PDF.
+Dòng này lấy một mảng `Font` các đối tượng, mỗi đối tượng đại diện cho một phông chữ được sử dụng trong PDF.
 
 ## Bước 4: Lặp qua các phông chữ
 
@@ -103,22 +105,24 @@ Và thế là xong! Bạn đã trích xuất thành công tất cả các phông
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về[Trang web Aspose](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về [Trang web Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Có thể trích xuất thông tin khác từ tệp PDF không?
 Chắc chắn rồi! Aspose.PDF cho phép bạn trích xuất văn bản, hình ảnh và siêu dữ liệu, cùng nhiều thứ khác.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

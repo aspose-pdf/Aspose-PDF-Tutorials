@@ -1,14 +1,16 @@
 ---
-title: Atur Format Anotasi Teks Bebas
-linktitle: Atur Format Anotasi Teks Bebas
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengatur format anotasi teks bebas dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
-weight: 140
-url: /id/net/annotations/setfreetextannotationformatting/
+"description": "Pelajari cara mengatur format anotasi teks bebas dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Atur Format Anotasi Teks Bebas"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Atur Format Anotasi Teks Bebas"
+"url": "/id/net/annotations/setfreetextannotationformatting/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Format Anotasi Teks Bebas
@@ -19,11 +21,11 @@ Di era digital, kemampuan untuk memanipulasi dan memberi anotasi pada dokumen PD
 
 ## Prasyarat
 
-Sebelum kita masuk ke inti coding, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini yang harus Anda miliki:
+Sebelum kita masuk ke inti pengkodean, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini yang harus Anda miliki:
 
 1. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh dan cuplikan kode yang disediakan dalam tutorial ini.
-2.  Aspose.PDF untuk .NET: Anda perlu menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
-3. Visual Studio: Lingkungan pengembangan seperti Visual Studio akan memudahkan Anda dalam menulis dan menguji kode.
+2. Aspose.PDF untuk .NET: Anda perlu menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
+3. Visual Studio: Lingkungan pengembangan seperti Visual Studio akan memudahkan penulisan dan pengujian kode Anda.
 4. Dokumen PDF: Untuk tutorial ini, Anda memerlukan contoh dokumen PDF untuk digunakan. Anda dapat membuat dokumen PDF sederhana atau mengunduh contoh dari internet.
 
 Setelah Anda memiliki prasyarat ini, Anda siap terjun ke dunia anotasi PDF!
@@ -53,7 +55,7 @@ using Aspose.Pdf.Annotations;
 using Aspose.Pdf;
 ```
 
-Sekarang setelah semuanya disiapkan, mari beralih ke bagian utama tutorial kita: mengatur format anotasi teks bebas.
+Sekarang setelah kita menyiapkan semuanya, mari beralih ke bagian utama tutorial kita: mengatur format anotasi teks bebas.
 
 ## Langkah 1: Tentukan Direktori Dokumen
 
@@ -64,22 +66,22 @@ Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Langkah ini penting karena memberi tahu program Anda di mana menemukan dokumen PDF yang ingin Anda gunakan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda disimpan. Langkah ini penting karena memberi tahu program Anda di mana menemukan dokumen PDF yang ingin Anda gunakan.
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya, Anda ingin membuka dokumen PDF yang akan Anda beri anotasi. Ini dilakukan dengan menggunakan`Document` kelas dari pustaka Aspose.PDF:
+Selanjutnya, Anda ingin membuka dokumen PDF yang akan Anda beri anotasi. Ini dilakukan dengan menggunakan `Document` kelas dari pustaka Aspose.PDF:
 
 ```csharp
 // Buka dokumen
 Document pdfDocument = new Document(dataDir + "SetFreeTextAnnotationFormatting.pdf");
 ```
 
- Baris kode ini menginisialisasi yang baru`Document` objek dan memuat berkas PDF yang Anda tentukan. Pastikan nama berkas sesuai dengan yang ada di direktori Anda.
+Baris kode ini menginisialisasi yang baru `Document` objek dan memuat berkas PDF yang Anda tentukan. Pastikan nama berkas sesuai dengan yang ada di direktori Anda.
 
 ## Langkah 3: Buat Instansiasi Objek DefaultAppearance
 
- Sekarang, mari kita membuat`DefaultAppearance` objek. Objek ini akan menentukan tampilan anotasi teks bebas Anda, seperti jenis huruf, ukuran, dan warna:
+Sekarang, mari kita membuat `DefaultAppearance` objek. Objek ini akan menentukan tampilan anotasi teks bebas Anda, seperti jenis huruf, ukuran, dan warna:
 
 ```csharp
 // Membuat instance objek DefaultAppearance
@@ -97,7 +99,7 @@ Setelah tampilannya ditetapkan, saatnya membuat anotasi teks bebas yang sebenarn
 FreeTextAnnotation freetext = new FreeTextAnnotation(pdfDocument.Pages[1], new Aspose.Pdf.Rectangle(200, 400, 400, 600), default_appearance);
 ```
 
- Pada baris ini, kita membuat yang baru`FreeTextAnnotation` pada halaman pertama PDF. Persegi panjang menentukan posisi dan ukuran anotasi. Anda dapat menyesuaikan koordinat (200, 400, 400, 600) untuk menempatkan anotasi tepat di tempat yang Anda inginkan.
+Pada baris ini, kita membuat yang baru `FreeTextAnnotation` pada halaman pertama PDF. Persegi panjang menentukan posisi dan ukuran anotasi. Anda dapat menyesuaikan koordinat (200, 400, 400, 600) untuk menempatkan anotasi tepat di tempat yang Anda inginkan.
 
 ## Langkah 5: Tentukan Isi Anotasi
 
@@ -108,7 +110,7 @@ Sekarang setelah anotasi kita dibuat, mari tambahkan beberapa teks ke dalamnya:
 freetext.Contents = "Free Text";
 ```
 
- Anda dapat mengganti`"Free Text"`dengan pesan apa pun yang ingin Anda tampilkan dalam anotasi. Ini adalah teks yang akan terlihat oleh siapa pun yang melihat PDF.
+Anda dapat mengganti `"Free Text"` dengan pesan apa pun yang ingin Anda tampilkan dalam anotasi. Ini adalah teks yang akan terlihat oleh siapa pun yang melihat PDF.
 
 ## Langkah 6: Tambahkan Anotasi ke Halaman
 
@@ -143,19 +145,21 @@ Selamat! Anda telah berhasil mempelajari cara mengatur format anotasi teks bebas
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, mengedit, dan memanipulasi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi forum Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi forum Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Apakah mungkin untuk menyesuaikan tampilan anotasi?
- Tentu saja! Anda dapat menyesuaikan font, ukuran, warna, dan properti anotasi lainnya menggunakan`DefaultAppearance` kelas.
+Tentu saja! Anda dapat menyesuaikan font, ukuran, warna, dan properti anotasi lainnya menggunakan `DefaultAppearance` kelas.
 
 ### Di mana saya dapat membeli Aspose.PDF untuk .NET?
- Anda dapat membeli lisensi untuk Aspose.PDF[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi untuk Aspose.PDF [Di Sini](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

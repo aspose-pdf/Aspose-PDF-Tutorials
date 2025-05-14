@@ -1,34 +1,36 @@
 ---
-title: Kiemelt szöveg kibontása PDF-fájlból
-linktitle: Kiemelt szöveg kibontása PDF-fájlból
-second_title: Aspose.PDF for .NET API Reference
-description: Ebből az oktatóanyagból megtudhatja, hogyan lehet hatékonyan kivonni a kiemelt szöveget PDF-fájlból az Aspose.PDF for .NET használatával. Tökéletes adatelemzéshez és tartalom áttekintéshez.
-weight: 60
-url: /hu/net/annotations/extracthighlightedtext/
+"description": "Tanuld meg, hogyan kinyerheted hatékonyan a kiemelt szöveget egy PDF fájlból az Aspose.PDF for .NET segítségével ebből az oktatóanyagból. Tökéletes adatelemzéshez és tartalom-áttekintéshez."
+"linktitle": "Kiemelt szöveg kinyerése PDF fájlból"
+"second_title": "Aspose.PDF .NET API referenciafájlhoz"
+"title": "Kiemelt szöveg kinyerése PDF fájlból"
+"url": "/hu/net/annotations/extracthighlightedtext/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kiemelt szöveg kibontása PDF-fájlból
+# Kiemelt szöveg kinyerése PDF fájlból
 
 ## Bevezetés
 
-Amikor PDF-fájlokkal dolgozik, a kiemelt szöveg kibontása kulcsfontosságú feladat lehet, legyen szó adatelemzésről, tartalom-ellenőrzésről vagy egyszerűen a jegyzetek rendszerezéséről. Ha az Aspose.PDF-et .NET-hez használja, ez a folyamat egyszerű és hatékony. Ebben az oktatóanyagban végigvezetjük, hogyan bonthat ki kiemelt szöveget egy PDF-dokumentumból az Aspose.PDF for .NET használatával. Mindenre kiterjedünk az előfeltételektől a lépésről lépésre történő útmutatásig, így biztosítva, hogy a végére átfogó megértést kapjon.
+PDF fájlokkal való munka során a kiemelt szöveg kinyerése kulcsfontosságú feladat lehet, legyen szó adatelemzésről, tartalom-áttekintésről vagy egyszerűen a jegyzetek rendszerezéséről. Ha az Aspose.PDF for .NET fájlt használod, ez a folyamat egyszerű és hatékony. Ebben az oktatóanyagban végigvezetünk azon, hogyan kinyerheted a kiemelt szöveget egy PDF dokumentumból az Aspose.PDF for .NET segítségével. Mindent áttekintünk az előfeltételektől kezdve a lépésről lépésre szóló útmutatásig, biztosítva, hogy a végére átfogó ismeretekkel rendelkezz.
 
 ## Előfeltételek
 
-Mielőtt belemerülne a kódba, néhány dolgot meg kell határoznia:
+Mielőtt belemerülnénk a kódba, van néhány dolog, amire szükséged van:
 
--  Aspose.PDF for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.PDF könyvtár. Ha nem, akkor letöltheti a[kiadási oldal](https://releases.aspose.com/pdf/net/).
-- Fejlesztési környezet: Be kell állítania egy működő fejlesztői környezetet, például a Visual Studio-t.
-- Alapvető C# ismerete: A C# programozási nyelv és az objektumorientált programozás ismerete elengedhetetlen.
--  Érvényes Aspose Licenc: Bár ingyenes próbaidőszakkal is indulhat, fontolja meg a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy vásárol egyet innen[itt](https://purchase.aspose.com/buy) korlátlan használatra.
+- Aspose.PDF .NET könyvtárhoz: Győződjön meg arról, hogy telepítve van az Aspose.PDF könyvtár. Ha nem, letöltheti innen: [kiadási oldal](https://releases.aspose.com/pdf/net/).
+- Fejlesztői környezet: Rendelkeznie kell egy működő fejlesztői környezettel, például a Visual Studio-val.
+- C# alapismeretek: A C# programozási nyelv és az objektumorientált programozás ismerete elengedhetetlen.
+- Érvényes Aspose licenc: Bár ingyenes próbaverzióval is elkezdheted, érdemes lehet beszerezni egyet. [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy vásároljon egyet innen [itt](https://purchase.aspose.com/buy) korlátlan használatra.
 
 ## Csomagok importálása
 
-A kezdéshez importálnia kell a szükséges névtereket a C# projektbe. Ez döntő fontosságú az Aspose.PDF for .NET által biztosított osztályokhoz és metódusokhoz való hozzáféréshez.
+Kezdésként importálnod kell a szükséges névtereket a C# projektedbe. Ez elengedhetetlen az Aspose.PDF for .NET által biztosított osztályok és metódusok eléréséhez.
 
 ```csharp
 using Aspose.Pdf.Text;
@@ -38,43 +40,43 @@ using System.Linq;
 using System.Text;
 ```
 
-Most bontsuk ki a kiemelt szöveg PDF-fájlból való kibontásának folyamatát az Aspose.PDF for .NET használatával. Minden lépést részletesen elmagyarázunk, hogy segítsen megérteni a mögöttes koncepciókat és a megvalósítást.
+Most pedig bontsuk le a kiemelt szöveg kinyerésének folyamatát egy PDF fájlból az Aspose.PDF for .NET használatával. Minden lépést részletesen ismertetünk, hogy segítsünk megérteni az alapul szolgáló koncepciókat és a megvalósítást.
 
-## 1. lépés: Állítsa be projektkönyvtárát
+## 1. lépés: A projektkönyvtár beállítása
 
-Először is be kell állítania a projektkönyvtárat, ahol a PDF-fájl található. Itt történik a varázslat.
+Először is be kell állítania a projektkönyvtárat, ahová a PDF fájlja kerül. Itt történik a varázslat.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` PDF-fájlt tartalmazó könyvtár tényleges elérési útjával. Ebben a könyvtárban az alkalmazás lekéri a PDF-fájlt feldolgozásra.
+Csere `"YOUR DOCUMENT DIRECTORY"` a PDF-fájl könyvtárának tényleges elérési útjával. Az alkalmazás ebből a könyvtárból fogja lekérni a PDF-et feldolgozásra.
 
-## 2. lépés: Töltse be a PDF-dokumentumot
+## 2. lépés: Töltse be a PDF dokumentumot
 
- Ezután be kell töltenie azt a PDF dokumentumot, amelyből ki szeretné bontani a kiemelt szöveget. Ez a`Document` osztályt az Aspose.PDF biztosítja.
+Ezután be kell töltenie azt a PDF dokumentumot, amelyből ki szeretné vonni a kiemelt szöveget. Ezt a következővel teheti meg: `Document` az Aspose.PDF által biztosított osztály.
 
 ```csharp
 Document doc = new Document(dataDir + "ExtractHighlightedText.pdf");
 ```
 
- A`Document` osztály példányosodik a PDF fájl elérési útjával. Itt,`"ExtractHighlightedText.pdf"` a kiemelt szöveget tartalmazó PDF-fájl neve. Győződjön meg arról, hogy ez a fájl létezik a megadott könyvtárban.
+A `Document` az osztály példányosodik a PDF fájl elérési útjával. Itt, `"ExtractHighlightedText.pdf"` a kiemelt szöveget tartalmazó PDF-fájl neve. Győződjön meg arról, hogy a fájl létezik a megadott könyvtárban.
 
-## 3. lépés: Nyissa meg a Jegyzetgyűjteményt
+## 3. lépés: Hozzáférés a jegyzetgyűjteményhez
 
-A PDF dokumentum betöltése után a következő lépés a dokumentum első oldalán található megjegyzések elérése. A megjegyzések a PDF-fájlokban további információk, például kiemelések, megjegyzések és egyebek hozzáadására szolgálnak.
+Miután a PDF dokumentum betöltődött, a következő lépés a dokumentum első oldalán található jegyzetek elérése. A jegyzeteket a PDF dokumentumokban további információk, például kiemelések, megjegyzések és egyebek hozzáadására használják.
 
 ```csharp
 foreach (Annotation annotation in doc.Pages[1].Annotations)
 {
 ```
 
- A`Annotations` tulajdona a`Page` Az objektum hozzáférést biztosít a PDF egy adott oldalán található összes megjegyzéshez. Itt végignézzük az első oldalon található minden megjegyzést.
+A `Annotations` a tulajdona `Page` Az objektum hozzáférést biztosít a PDF egy adott oldalán található összes megjegyzéshez. Itt végigmegyünk az első oldalon található egyes megjegyzéseken.
 
-## 4. lépés: Szűrje ki a kiemelt szöveges megjegyzéseket
+## 4. lépés: Kiemelt szöveges megjegyzések szűrése
 
-Most, hogy minden kommentárhoz hozzáférünk, csak a kiemelt szöveges megjegyzéseket kell kiszűrnünk. Ez az egyes megjegyzések típusának ellenőrzésével érhető el.
+Most, hogy hozzáférünk az összes megjegyzéshez, csak a kiemelt szöveges megjegyzéseket kell kiszűrnünk. Ezt az egyes megjegyzések típusának ellenőrzésével érhetjük el.
 
 ```csharp
 if (annotation is TextMarkupAnnotation)
@@ -82,11 +84,11 @@ if (annotation is TextMarkupAnnotation)
     TextMarkupAnnotation highlightedAnnotation = annotation as TextMarkupAnnotation;
 ```
 
- A`TextMarkupAnnotation` osztály a szöveges jelölőjegyzetek, köztük a kiemelések megjelenítésére szolgál. A`is` A kulcsszó ellenőrzi, hogy a kommentár típus-e`TextMarkupAnnotation` , és ha igen, akkor a megjegyzést átküldi erre`TextMarkupAnnotation`.
+A `TextMarkupAnnotation` Az osztály szöveges jelölőnyelvi megjegyzések, beleértve a kiemeléseket is, ábrázolására szolgál. `is` kulcsszó-ellenőrzések, hogy a megjegyzés típusa `TextMarkupAnnotation`, és ha igen, akkor a megjegyzést a következőre konvertálja: `TextMarkupAnnotation`.
 
-## 5. lépés: Bontsa ki a kiemelt szöveget
+## 5. lépés: A kiemelt szöveg kinyerése
 
-A kiemelt megjegyzés azonosítása után a következő lépés a kiemeléshez társított szöveg kibontása.
+Miután azonosítottuk a kiemelt megjegyzést, a következő lépés a kiemeléshez tartozó szöveg kinyerése.
 
 ```csharp
 TextFragmentCollection collection = highlightedAnnotation.GetMarkedTextFragments();
@@ -96,31 +98,33 @@ foreach (TextFragment tf in collection)
 }
 ```
 
- A`GetMarkedTextFragments()` metódus egy gyűjteményt ad vissza`TextFragment` objektumok, amelyek mindegyike a kiemelt szöveg egy részét képviseli. Végigpörgetjük ezt a gyűjteményt, és kinyomtatjuk az egyes töredékek szövegét a konzolra.
+A `GetMarkedTextFragments()` metódus egy gyűjteményt ad vissza `TextFragment` objektumok, amelyek mindegyike a kiemelt szöveg egy részét képviseli. Végigmegyünk ezen a gyűjteményen, és minden egyes töredék szövegét kinyomtatjuk a konzolra.
 
 ## Következtetés
 
-kiemelt szöveg kinyerése PDF-ből az Aspose.PDF for .NET használatával hatékony szolgáltatás, amely egyszerűsítheti a munkafolyamatot, különösen akkor, ha nagy dokumentumokkal van dolgunk. Az oktatóanyagban ismertetett lépések követésével könnyedén megvalósíthatja ezt a funkciót saját projektjeiben. Akár jegyzeteit rendszerezi, jelentéseket készít, akár adatelemzést végez, ez a módszer zökkenőmentes megoldást kínál a kiemelt szövegek kinyerésére és felhasználására.
+Az Aspose.PDF for .NET segítségével kiemelt szöveg kinyerése PDF-ből egy hatékony funkció, amely leegyszerűsítheti a munkafolyamatot, különösen, ha nagyméretű dokumentumokkal foglalkozik. Az ebben az oktatóanyagban ismertetett lépéseket követve könnyedén megvalósíthatja ezt a funkciót saját projektjeiben. Akár jegyzeteket rendez, akár jelentéseket készít, akár adatelemzést végez, ez a módszer zökkenőmentes megoldást kínál a kiemelt szöveg kinyerésére és felhasználására.
 
 ## GYIK
 
-### Kivonhatok más típusú megjegyzéseket ezzel a módszerrel?  
- Igen, más típusú megjegyzéseket is kivonhat a módosításával`if` feltétel a különböző megjegyzéstípusok ellenőrzéséhez, mint pl`TextAnnotation`, `StampAnnotation`stb.
+### Kivonhatok más típusú annotációkat ezzel a módszerrel?  
+Igen, más típusú megjegyzéseket is kinyerhet a módosításával. `if` feltétel a különböző annotációtípusok ellenőrzésére, például `TextAnnotation`, `StampAnnotation`, stb.
 
-### Kivonható a kiemelt szöveg a PDF összes oldaláról?  
-Teljesen! A PDF-dokumentum minden oldalát végigpörgetheti, és ugyanazt a kibontási logikát alkalmazhatja, hogy minden oldalról összegyűjtse a kiemelt szöveget.
+### Lehetséges a kiemelt szöveg kinyerése a PDF összes oldaláról?  
+Természetesen! Végigmehetsz a PDF dokumentum minden oldalán, és ugyanazt a kinyerési logikát alkalmazhatod a kiemelt szöveg összegyűjtésére minden oldalról.
 
 ### Szükségem van licencre az Aspose.PDF for .NET használatához?  
- Bár ingyenes próbaverzióval kezdheti, ajánlatos beszerezni a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/)vagy vásároljon teljes licencet az összes funkcióhoz való korlátlan hozzáférés érdekében.
+Bár ingyenes próbaverzióval is kezdheted, ajánlott beszerezni egyet [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy vásároljon teljes licencet az összes funkcióhoz való korlátlan hozzáféréshez.
 
-### Menthetem-e a kicsomagolt szöveget fájlba ahelyett, hogy a konzolra nyomtatnám?  
-Igen, könnyen módosíthatja a kódot, hogy a kibontott szöveget szövegfájlba vagy bármilyen más kívánt formátumba mentse.
+### Elmenthetem a kibontott szöveget egy fájlba a konzolra nyomtatás helyett?  
+Igen, a kódot könnyen módosíthatja úgy, hogy a kibontott szöveget szövegfájlba vagy bármilyen más kívánt formátumba mentse.
 
 ### Az Aspose.PDF támogat más platformokat is a .NET-en kívül?  
-Igen, az Aspose.PDF támogatja a Java-t és más platformokat is, hasonló funkcionalitást kínálva különböző környezetekben.
+Igen, az Aspose.PDF támogatja a Java és más platformokat is, hasonló funkciókat kínálva különböző környezetekben.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: เพิ่มบุ๊กมาร์กในไฟล์ PDF
-linktitle: เพิ่มบุ๊กมาร์กในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีเพิ่มบุ๊กมาร์กในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้ ปรับปรุงการนำทาง PDF ของคุณ
-weight: 10
-url: /th/net/programming-with-bookmarks/add-bookmark/
+"description": "เรียนรู้วิธีเพิ่มบุ๊กมาร์กในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้ ปรับปรุงการนำทาง PDF ของคุณ"
+"linktitle": "เพิ่มบุ๊กมาร์กในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "เพิ่มบุ๊กมาร์กในไฟล์ PDF"
+"url": "/th/net/programming-with-bookmarks/add-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มบุ๊กมาร์กในไฟล์ PDF
@@ -22,7 +24,7 @@ url: /th/net/programming-with-bookmarks/add-bookmark/
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณจะต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว ซึ่งเป็น IDE หลักสำหรับการพัฒนา .NET
-2.  Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้จาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้อย่างราบรื่น
 
 ## แพ็คเกจนำเข้า
@@ -43,7 +45,7 @@ url: /th/net/programming-with-bookmarks/add-bookmark/
 
 ### นำเข้าเนมสเปซที่จำเป็น
 
- ที่ด้านบนของคุณ`Program.cs` ไฟล์นำเข้าเนมสเปซที่จำเป็น:
+ที่ด้านบนของคุณ `Program.cs` ไฟล์นำเข้าเนมสเปซที่จำเป็น:
 
 ```csharp
 using System;
@@ -61,7 +63,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่จัดเก็บไฟล์ PDF ของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่จัดเก็บไฟล์ PDF ของคุณ
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
@@ -71,7 +73,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "AddBookmark.pdf");
 ```
 
- บรรทัดโค้ดนี้จะเริ่มต้นสิ่งใหม่`Document` วัตถุกับไฟล์ PDF ของคุณ
+บรรทัดโค้ดนี้จะเริ่มต้นสิ่งใหม่ `Document` วัตถุกับไฟล์ PDF ของคุณ
 
 ## ขั้นตอนที่ 3: สร้างวัตถุบุ๊กมาร์ก
 
@@ -128,19 +130,21 @@ Console.WriteLine("\nBookmark added successfully.\nFile saved at " + dataDir);
 Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันสามารถเพิ่มบุ๊กมาร์กหลายรายการลงใน PDF ได้หรือไม่
- ใช่ คุณสามารถสร้างได้หลายรายการ`OutlineItemCollection`วัตถุและเพิ่มลงในคอลเล็กชั่นโครงร่างของเอกสาร
+ใช่ คุณสามารถสร้างได้หลายรายการ `OutlineItemCollection` วัตถุและเพิ่มลงในคอลเล็กชั่นโครงร่างของเอกสาร
 
 ### Aspose.PDF ใช้ได้ฟรีหรือไม่?
- Aspose.PDF เสนอให้ทดลองใช้งานฟรี แต่หากต้องการฟังก์ชันครบถ้วน คุณจะต้องซื้อใบอนุญาต ดูข้อมูลเพิ่มเติม[ลิงค์ซื้อ](https://purchase.aspose.com/buy).
+Aspose.PDF เสนอให้ทดลองใช้งานฟรี แต่หากต้องการฟังก์ชันครบถ้วน คุณจะต้องซื้อใบอนุญาต ดูข้อมูลเพิ่มเติม [ลิงค์ซื้อ](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.PDF สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.PDF สำหรับ .NET ได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้อย่างไร
- หากต้องการความช่วยเหลือ สามารถเข้าไปเยี่ยมชมได้ที่[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10).
+หากต้องการความช่วยเหลือ สามารถเข้าไปเยี่ยมชมได้ที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

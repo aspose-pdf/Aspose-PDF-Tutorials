@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Sayfa Sayısını Al
-linktitle: PDF Dosyasındaki Sayfa Sayısını Al
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyasındaki sayfa sayısını almak için adım adım kılavuz. Uygulaması basit, projeleriniz için ideal.
-weight: 70
-url: /tr/net/programming-with-pdf-pages/get-number-of-pages/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyasındaki sayfa sayısını almak için adım adım kılavuz. Uygulaması basit, projeleriniz için ideal."
+"linktitle": "PDF Dosyasındaki Sayfa Sayısını Al"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Sayfa Sayısını Al"
+"url": "/tr/net/programming-with-pdf-pages/get-number-of-pages/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Sayfa Sayısını Al
@@ -19,10 +21,10 @@ PDF dosyalarıyla çalışmaya gelince, içeriğe nasıl etkili bir şekilde eri
 
 ## Ön koşullar
 
-Eğitimin sulu kısımlarına geçmeden önce, sorunsuz bir başlangıç için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte hızlı bir kontrol listesi:
+Eğitimin sulu kısımlarına dalmadan önce, sorunsuz bir başlangıç için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte hızlı bir kontrol listesi:
 
 1. .NET Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE olsun, bir geliştirme ortamı kurduğunuzdan emin olun.
-2.  Aspose.PDF Kütüphanesi: Projenizde Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu NuGet aracılığıyla edinebilirsiniz.[buradan indirin](https://releases.aspose.com/pdf/net/)veya satın al[Burada](https://purchase.aspose.com/buy).
+2. Aspose.PDF Kütüphanesi: Projenizde Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu NuGet aracılığıyla edinebilirsiniz. [buradan indirin](https://releases.aspose.com/pdf/net/)veya satın al [Burada](https://purchase.aspose.com/buy).
 3. Temel C# Bilgisi: Bu bir C# dersi olduğundan, dilin sağlam bir şekilde anlaşılması size avantaj sağlayacaktır.
 
 ## Paketleri İçe Aktar
@@ -43,7 +45,7 @@ Aspose.PDF kütüphanesini henüz yüklemediyseniz, bunu NuGet Paket Yöneticisi
 
 ### İthalat Beyanını Yazın
 
- Ana dosyanızın en üstünde (örneğin,`Program.cs`), aşağıdaki using yönergesini ekleyin:
+Ana dosyanızın en üstünde (örneğin, `Program.cs`), aşağıdaki using yönergesini ekleyin:
 
 ```csharp
 using System.IO;
@@ -61,16 +63,16 @@ PDF dosyanızın nerede bulunduğunu belirtmeniz gerekecek. Bu adımda, PDF'nizi
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızı içeren klasörün gerçek yoluyla. Aspose kütüphanesi analiz etmek istediğiniz dosyayı burada arayacaktır. Kütüphanenize hazineye giden bir harita vermek gibi!
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızı içeren klasörün gerçek yoluyla. Aspose kütüphanesi analiz etmek istediğiniz dosyayı burada arayacaktır. Kütüphanenize hazineye giden bir harita vermek gibi!
 
 ## Adım 2: PDF Belgesinin Bir Örneğini Oluşturun
 
- Artık dizini kurduğumuza göre, bir örnek oluşturmamız gerekiyor`Document` PDF verilerimizi tutacak sınıf.
+Artık dizini kurduğumuza göre, bir örnek oluşturmamız gerekiyor `Document` PDF verilerimizi tutacak sınıf.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetNumberOfPages.pdf");
 ```
- Bu satır yeni bir satır oluşturur`Document` nesneyi belirttiğiniz PDF dosyanıza göre ayarlayın. Unutmayın, PDF dosyanız burada tanımladığınız adla eşleşmelidir.
+Bu satır yeni bir satır oluşturur `Document` nesneyi belirttiğiniz PDF dosyanıza göre ayarlayın. Unutmayın, PDF dosyanız burada tanımladığınız adla eşleşmelidir.
 
 ## Adım 3: Sayfa Sayısını Alın
 
@@ -79,7 +81,7 @@ Document pdfDocument = new Document(dataDir + "GetNumberOfPages.pdf");
 ```csharp
 int pageCount = pdfDocument.Pages.Count;
 ```
- Kullanımı`Pages` mülkiyeti`Document`örneğin, içerdiği sayfa sayısına erişebiliriz. Bir kutu sodayı açmak kadar basit—zahmetsiz!
+Kullanımı `Pages` mülkiyeti `Document` örneğin, içerdiği sayfa sayısına erişebiliriz. Bir kutu sodayı açmak kadar basit—zahmetsiz!
 
 ## Adım 4: Sayfa Sayısını Göster
 
@@ -102,19 +104,21 @@ Unutmayın, PDF'lerle çalışmak göz korkutucu olmak zorunda değil. Aspose.PD
 Aspose.PDF, PDF belgeleri oluşturmak, okumak ve düzenlemek için sağlam özellikler sağlayan bir .NET kütüphanesidir.
 
 ### Ücretsiz deneme imkanı var mı?
- Evet, deneme süresi boyunca Aspose.PDF'yi ücretsiz deneyebilirsiniz. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, deneme süresi boyunca Aspose.PDF'yi ücretsiz deneyebilirsiniz. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF'i nasıl satın alabilirim?
- Aspose.PDF'yi şuraya giderek satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose.PDF'yi şuraya giderek satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Desteğe ihtiyacım olursa ne olur?
- Aspose, sorular sorabileceğiniz ve yardım alabileceğiniz kapsamlı bir destek forumu sunar. Şuraya göz atın[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose, soru sorabileceğiniz ve yardım alabileceğiniz kapsamlı bir destek forumu sunar. Şuraya göz atın [Burada](https://forum.aspose.com/c/pdf/10).
 
 ### Geçici lisans başvurusunda bulunabilir miyim?
- Kesinlikle! Aspose.PDF'nin tüm özelliklerini denemek için geçici bir lisans talebinde bulunabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Kesinlikle! Aspose.PDF'nin tüm özelliklerini denemek için geçici bir lisans talebinde bulunabilirsiniz. [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

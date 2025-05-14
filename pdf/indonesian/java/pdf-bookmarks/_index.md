@@ -1,14 +1,16 @@
 ---
-title: Penanda PDF
-linktitle: Penanda PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara membuat bookmark PDF interaktif dengan Aspose.PDF untuk Java. Tingkatkan navigasi dokumen dan pengalaman pengguna.
-weight: 12
-url: /id/java/pdf-bookmarks/
+"description": "Pelajari cara membuat bookmark PDF interaktif dengan Aspose.PDF untuk Java. Tingkatkan navigasi dokumen dan pengalaman pengguna."
+"linktitle": "Penanda PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Penanda PDF"
+"url": "/id/java/pdf-bookmarks/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Penanda PDF
@@ -36,11 +38,13 @@ Pelajari cara menghapus bookmark dari file PDF dengan mudah menggunakan Aspose.P
 Pelajari cara melihat bookmark yang diperluas dalam PDF menggunakan Aspose.PDF untuk Java. Sempurnakan navigasi dokumen dengan panduan langkah demi langkah.
 ### [Ambil Bookmark dari Dokumen PDF](./retrieve-bookmarks-pdf-documents/)
 Pelajari cara mengambil bookmark PDF secara efisien menggunakan Aspose.PDF untuk Java dalam panduan komprehensif ini.
-### [Perbarui Bookmark dalam PDF](./update-bookmarks-pdfs/)
+### [Memperbarui Bookmark dalam PDF](./update-bookmarks-pdfs/)
 Pelajari cara memperbarui bookmark PDF secara efisien menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

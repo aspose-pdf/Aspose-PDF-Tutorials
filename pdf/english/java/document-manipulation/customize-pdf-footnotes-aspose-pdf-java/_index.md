@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Customize PDF Footnotes and Endnotes in Java Using Aspose.PDF for Java
 
@@ -187,7 +189,11 @@ A5: Yes, always manage resources efficiently by closing documents after processi
 - **Free Trial**: [Try Aspose PDF Free](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Community Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

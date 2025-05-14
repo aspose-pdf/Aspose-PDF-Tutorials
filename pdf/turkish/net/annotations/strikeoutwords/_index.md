@@ -1,33 +1,35 @@
 ---
-title: Kelimeleri Sil
-linktitle: Kelimeleri Sil
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF'deki kelimeleri nasıl çizeceğinizi öğrenin. Belge düzenleme becerilerinizi geliştirin.
-weight: 150
-url: /tr/net/annotations/strikeoutwords/
+"description": "Bu kapsamlı adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'deki kelimeleri nasıl çizeceğinizi öğrenin. Belge düzenleme becerilerinizi geliştirin."
+"linktitle": "Kelimeleri Sil"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Kelimeleri Sil"
+"url": "/tr/net/annotations/strikeoutwords/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kelimeleri Sil
 
 ## giriiş
 
-Hiç bir PDF'deki belirli bir metni, onu çizerek vurgulamanız gerektiğini fark ettiniz mi? Belgeleri inceliyor, metni işaretliyor veya yalnızca belirli bölümleri vurgulamanız gerekiyorsa, kelimeleri çizmek değerli bir araç olabilir. Bu eğitimde, .NET için Aspose.PDF'yi kullanarak tam olarak bunu nasıl yapacağınızı inceleyeceğiz. Bu kapsamlı kılavuz, her adımda size yol gösterecek ve bu özelliği .NET uygulamalarınızda etkili bir şekilde uygulamak için gereken tüm bilgilere sahip olmanızı sağlayacaktır. 
+Hiç bir PDF'deki belirli bir metni, onu çizerek vurgulamanız gerektiğini fark ettiniz mi? Belgeleri inceliyor, metni işaretliyor veya yalnızca belirli bölümleri vurgulamanız gerekiyorsa, kelimeleri çizmek değerli bir araç olabilir. Bu eğitimde, .NET için Aspose.PDF kullanarak tam olarak bunu nasıl yapacağınızı inceleyeceğiz. Bu kapsamlı kılavuz, her adımda size yol gösterecek ve bu özelliği .NET uygulamalarınızda etkili bir şekilde uygulamak için gereken tüm bilgilere sahip olmanızı sağlayacaktır. 
 
 ## Ön koşullar
 
 Koda geçmeden önce, bu eğitimi takip edebilmeniz için karşılamanız gereken birkaç ön koşul var:
 
-1.  Aspose.PDF for .NET Kütüphanesi: Aspose.PDF for .NET kütüphanesinin yüklü olduğundan emin olun.[buradan indirin](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET Kütüphanesi: Aspose.PDF for .NET kütüphanesinin yüklü olduğundan emin olun. [buradan indirin](https://releases.aspose.com/pdf/net/).
 
 2. .NET Framework: Makinenizde .NET Framework'ün yüklü olduğundan emin olun. Bu eğitim .NET uygulamaları için tasarlanmıştır.
 
 3. Geliştirme Ortamı: Kodunuzu yazmak ve çalıştırmak için Visual Studio gibi bir IDE'ye ihtiyacınız olacak.
 
-4. PDF Belgesi: Üzerinde çalışmak istediğiniz bir örnek PDF dosyası hazırlayın. Bu, metni çizeceğimiz belge olacak.
+4. PDF Belgesi: Üzerinde çalışmak istediğiniz hazır bir örnek PDF dosyası bulundurun. Bu, metni çizeceğimiz belge olacaktır.
 
 5. Temel C# Bilgisi: Bu eğitimdeki adımları anlamak ve uygulamak için C# programlamaya aşinalık gereklidir.
 
@@ -58,12 +60,12 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "input.pdf");
 ```
 
-- `dataDir` : Bu değişken belge dizininize giden yolu tutar. Değiştir`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile.
-- `Document` : :`Document` sınıfı bir PDF belgesini temsil eder. Dosya yolunu oluşturucusuna geçirerek, PDF dosyasını işleme için açarız.
+- `dataDir`: Bu değişken belge dizininize giden yolu tutar. Değiştir `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile.
+- `Document`: : `Document` sınıfı bir PDF belgesini temsil eder. Dosya yolunu oluşturucusuna geçirerek, PDF dosyasını işleme için açarız.
 
 ## Adım 2: Belirli Metni Bulmak İçin Bir TextFragment Absorber Oluşturun
 
- Daha sonra, bir örnek oluşturacağız`TextFragmentAbsorber` PDF belgesinde belirli bir metin parçasını aramak için. Bu, silmek istediğimiz metni bulmamızı sağlar.
+Daha sonra, bir örnek oluşturacağız `TextFragmentAbsorber` PDF belgesinde belirli bir metin parçasını aramak için. Bu, üzerini çizmek istediğimiz metni bulmamızı sağlar.
 
 ```csharp
 // Belirli bir metin parçasını aramak için TextFragment Absorber örneği oluşturun
@@ -74,7 +76,7 @@ Aspose.Pdf.Text.TextFragmentAbsorber textFragmentAbsorber = new Aspose.Pdf.Text.
 
 ## Adım 3: PDF Belgesinin Sayfalarında Gezinin
 
- Artık bizim`TextFragmentAbsorber`Belirtilen metni bulmak için PDF belgesinin her sayfasını yinelememiz gerekiyor.
+Artık bizim de `TextFragmentAbsorber`Belirtilen metni bulmak için PDF belgesinin her sayfasını yinelememiz gerekiyor.
 
 ```csharp
 // PDF belgesinin sayfaları arasında gezinin
@@ -88,7 +90,7 @@ for (int i = 1; i <= document.Pages.Count; i++)
 
 - `for (int i = 1; i <= document.Pages.Count; i++)`: Bu döngü PDF belgesinin her sayfasını yineler.
 - `document.Pages[i]`: İşlenmekte olan geçerli sayfayı alır.
-- `page.Accept(textFragmentAbsorber)` : Bu yöntem,`TextFragmentAbsorber` geçerli sayfaya, belirtilen metni arayarak.
+- `page.Accept(textFragmentAbsorber)`: Bu yöntem, `TextFragmentAbsorber` geçerli sayfaya, belirtilen metni arayarak.
 
 ## Adım 4: Metin Parçalarını Toplayın ve İşleyin
 
@@ -159,26 +161,28 @@ Tebrikler! Aspose.PDF for .NET kullanarak bir PDF belgesindeki belirli kelimeler
 
 ### Üstü çizili yazının rengini değiştirebilir miyim?
 
- Evet, rengi değiştirerek değiştirebilirsiniz.`strikeOut.Color`özellik. Örneğin, bunu şu şekilde ayarlayabilirsiniz:`Aspose.Pdf.Color.Blue` mavi bir strikeout için.
+Evet, rengi değiştirerek değiştirebilirsiniz. `strikeOut.Color` özellik. Örneğin, bunu şu şekilde ayarlayabilirsiniz: `Aspose.Pdf.Color.Blue` mavi bir strikeout için.
 
 ### Birden fazla kelimeyi aynı anda silmek mümkün müdür?
 
- Kesinlikle!`TextFragmentAbsorber` belgedeki herhangi bir kelime veya ifadeyi aramak için kullanılabilir. Üstü çiziliyi, yineleme yaparak birden fazla örneğe uygulayabilirsiniz`TextFragmentCollection`.
+Kesinlikle! `TextFragmentAbsorber` belgedeki herhangi bir kelime veya ifadeyi aramak için kullanılabilir. Üstü çiziliyi, yineleme yaparak birden fazla örneğe uygulayabilirsiniz `TextFragmentCollection`.
 
 ### Yalnızca belirli sayfalardaki metni çizmek istersem ne olur?
 
- Sayfalar arasında yineleme yapan döngüyü yalnızca değiştirmek istediğiniz sayfaları içerecek şekilde değiştirebilirsiniz. Örneğin,`for (int i = 1; i <= 3; i++)` Sadece ilk üç sayfanın üzeri çizilecektir.
+Sayfalar arasında yineleme yapan döngüyü yalnızca değiştirmek istediğiniz sayfaları içerecek şekilde değiştirebilirsiniz. Örneğin, `for (int i = 1; i <= 3; i++)` Sadece ilk üç sayfanın üzeri çizilecektir.
 
 ### Çizgi kalınlığını nasıl ayarlayabilirim?
 
- Çizgi kalınlığını, çizgi kalınlığını değiştirerek ayarlayabilirsiniz.`Border` mülkiyeti`StrikeOutAnnotation`Bu, vuruş görünümünün özelleştirilmesine olanak tanır.
+Çizgi kalınlığını, çizgi kalınlığını değiştirerek ayarlayabilirsiniz. `Border` mülkiyeti `StrikeOutAnnotation`Bu, vuruş görünümünün özelleştirilmesine olanak tanır.
 
 ### Belgeyi kaydettikten sonra çizili metni geri almanın bir yolu var mı?
 
 Belge kaydedildikten sonra, üstü çizili metin kalıcıdır. Üstü çizili metin olmadan orijinal metni saklamanız gerekiyorsa, herhangi bir değişiklik uygulamadan önce orijinal belgenin bir yedeğini kaydetmeyi düşünün.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

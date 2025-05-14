@@ -1,14 +1,16 @@
 ---
-title: ฝังฟอนต์ลงในไฟล์ PDF
-linktitle: ฝังฟอนต์ลงในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีฝังแบบอักษรในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ รับรองว่าเอกสารของคุณจะแสดงผลอย่างถูกต้องบนอุปกรณ์ใดก็ได้
-weight: 120
-url: /th/net/programming-with-document/embedfont/
+"description": "เรียนรู้วิธีฝังแบบอักษรในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ รับรองว่าเอกสารของคุณจะแสดงผลอย่างถูกต้องบนอุปกรณ์ใดก็ได้"
+"linktitle": "ฝังฟอนต์ลงในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ฝังฟอนต์ลงในไฟล์ PDF"
+"url": "/th/net/programming-with-document/embedfont/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ฝังฟอนต์ลงในไฟล์ PDF
@@ -19,9 +21,9 @@ url: /th/net/programming-with-document/embedfont/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกโค้ด มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องมี:
+ก่อนที่จะเจาะลึกโค้ด มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องมี:
 
-1.  Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 2. Visual Studio: สภาพแวดล้อมการพัฒนาที่คุณสามารถเขียนและดำเนินการโค้ด .NET ของคุณได้
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 
@@ -31,7 +33,7 @@ url: /th/net/programming-with-document/embedfont/
 
 1. เปิดโครงการ Visual Studio ของคุณ
 2. คลิกขวาที่โครงการของคุณใน Solution Explorer และเลือก "จัดการแพ็คเกจ NuGet"
-3.  ค้นหา`Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
+3. ค้นหา `Aspose.PDF` และติดตั้งเวอร์ชั่นล่าสุด
 
 ```csharp
 using System.IO;
@@ -52,18 +54,18 @@ using Aspose.Pdf.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- อย่าลืมเปลี่ยน`"YOUR DOCUMENT DIRECTORY"`พร้อมเส้นทางจริงที่จัดเก็บไฟล์ PDF ของคุณ
+อย่าลืมเปลี่ยน `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่จัดเก็บไฟล์ PDF ของคุณ
 
 ## ขั้นตอนที่ 2: โหลดไฟล์ PDF ที่มีอยู่
 
- ขั้นต่อไป คุณจะต้องโหลดไฟล์ PDF ที่มีอยู่ที่คุณต้องการแก้ไข ซึ่งทำได้โดยใช้`Document` คลาสที่จัดทำโดย Aspose.PDF
+ขั้นต่อไป คุณจะต้องโหลดไฟล์ PDF ที่มีอยู่ที่คุณต้องการแก้ไข ซึ่งทำได้โดยใช้ `Document` คลาสที่จัดทำโดย Aspose.PDF
 
 ```csharp
 // โหลดไฟล์ PDF ที่มีอยู่
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- ที่นี่เรากำลังโหลดไฟล์ PDF ชื่อ`input.pdf`. ตรวจสอบให้แน่ใจว่ามีไฟล์อยู่ในไดเร็กทอรีที่คุณระบุ
+ที่นี่เรากำลังโหลดไฟล์ PDF ชื่อ `input.pdf`. ตรวจสอบให้แน่ใจว่ามีไฟล์อยู่ในไดเร็กทอรีที่คุณระบุ
 
 ## ขั้นตอนที่ 3: ทำซ้ำผ่านหน้าทั้งหมด
 
@@ -86,7 +88,7 @@ foreach (Page page in doc.Pages)
 }
 ```
 
- ในโค้ดนี้ เราจะตรวจสอบว่าหน้าเพจมีแบบอักษรหรือไม่ หากมี เราจะวนซ้ำแต่ละแบบอักษรและตรวจสอบว่ามีการฝังไว้แล้วหรือไม่ หากไม่มี เราจะตั้งค่า`IsEmbedded` ทรัพย์สินที่จะ`true`.
+ในโค้ดนี้ เราจะตรวจสอบว่าหน้าเพจมีแบบอักษรหรือไม่ หากมี เราจะวนซ้ำแต่ละแบบอักษรและตรวจสอบว่ามีการฝังไว้แล้วหรือไม่ หากไม่มี เราจะตั้งค่า `IsEmbedded` ทรัพย์สินที่จะ `true`-
 
 ## ขั้นตอนที่ 4: ตรวจสอบวัตถุแบบฟอร์ม
 
@@ -120,7 +122,7 @@ dataDir = dataDir + "EmbedFont_out.pdf";
 doc.Save(dataDir);
 ```
 
- ในกรณีนี้ เราจะบันทึก PDF ที่แก้ไขแล้วเป็น`EmbedFont_out.pdf` ในไดเร็กทอรีเดียวกัน
+ในกรณีนี้ เราจะบันทึก PDF ที่แก้ไขแล้วเป็น `EmbedFont_out.pdf` ในไดเร็กทอรีเดียวกัน
 
 ## ขั้นตอนที่ 6: ยืนยันการดำเนินการ
 
@@ -148,13 +150,15 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีอันท
 ใช่ คุณสามารถฝังแบบอักษรในไฟล์ PDF ที่มีอยู่ได้โดยใช้ไลบรารี Aspose.PDF ตามที่สาธิตในบทช่วยสอนนี้
 
 ### มีรุ่นทดลองใช้งานฟรีสำหรับ Aspose.PDF หรือไม่
- ใช่ คุณสามารถดาวน์โหลด Aspose.PDF รุ่นทดลองใช้งานฟรีได้จาก[เว็บไซต์](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีของ Aspose.PDF ได้จาก [เว็บไซต์](https://releases-aspose.com/).
 
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.PDF ได้ที่ไหน
- คุณสามารถค้นหาการสนับสนุนและถามคำถามได้ที่[ฟอรั่ม Aspose](https://forum.aspose.com/c/pdf/10).
+คุณสามารถค้นหาการสนับสนุนและถามคำถามได้ที่ [ฟอรั่ม Aspose](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

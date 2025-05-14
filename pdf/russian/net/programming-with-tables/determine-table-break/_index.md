@@ -1,14 +1,16 @@
 ---
-title: Определить разрыв таблицы в файле PDF
-linktitle: Определить разрыв таблицы в файле PDF
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как определить разрыв таблицы в файлах PDF с помощью Aspose.PDF для .NET, с помощью нашего пошагового руководства, включая примеры кода и советы по устранению неполадок.
-weight: 60
-url: /ru/net/programming-with-tables/determine-table-break/
+"description": "Узнайте, как определить разрыв таблицы в файлах PDF с помощью Aspose.PDF для .NET, с помощью нашего пошагового руководства, включая примеры кода и советы по устранению неполадок."
+"linktitle": "Определить разрыв таблицы в файле PDF"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Определить разрыв таблицы в файле PDF"
+"url": "/ru/net/programming-with-tables/determine-table-break/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Определить разрыв таблицы в файле PDF
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-tables/determine-table-break/
 Прежде чем приступить к непосредственному кодированию, давайте убедимся, что у вас все на месте:
 
 1. Среда разработки .NET: убедитесь, что у вас установлена Visual Studio или любая совместимая IDE.
-2.  Библиотека Aspose.PDF: Вам необходимо добавить библиотеку Aspose.PDF в ваш проект. Вы можете загрузить ее с[Загрузки PDF-файлов Aspose](https://releases.aspose.com/pdf/net/) страницу, или вы можете установить его через диспетчер пакетов NuGet:
+2. Библиотека Aspose.PDF: Вам необходимо добавить библиотеку Aspose.PDF в ваш проект. Вы можете загрузить ее с [Загрузки PDF-файлов Aspose](https://releases.aspose.com/pdf/net/) страницу, или вы можете установить его через диспетчер пакетов NuGet:
    ```bash
    Install-Package Aspose.PDF
    ```
@@ -55,7 +57,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Замените на свой к
 
 ## Шаг 2: Создание PDF-документа
 
- Далее вы создадите новый экземпляр`Document` класс из библиотеки Aspose.PDF. Здесь будет происходить вся ваша магия PDF!
+Далее вы создадите новый экземпляр `Document` класс из библиотеки Aspose.PDF. Здесь будет происходить вся ваша магия PDF!
 
 ```csharp
 Document pdf = new Document();
@@ -172,7 +174,7 @@ pdf.Save(dataDir);
 
 ## Шаг 14: Подтверждающее сообщение
 
-Чтобы вы знали, что все прошло гладко, отправим вам подтверждающее сообщение.
+Чтобы вы знали, что все прошло гладко, давайте отправим подтверждающее сообщение.
 
 ```csharp
 Console.WriteLine($"\nTable break determined successfully.\nFile saved at {dataDir}");
@@ -188,19 +190,21 @@ Console.WriteLine($"\nTable break determined successfully.\nFile saved at {dataD
 Aspose.PDF для .NET — это надежная библиотека, которая позволяет разработчикам создавать, конвертировать и обрабатывать PDF-документы непосредственно в своих приложениях .NET.
 
 ### Могу ли я получить бесплатную пробную версию Aspose.PDF?
- Да! Вы можете скачать[бесплатная пробная версия](https://releases.aspose.com/) чтобы изучить его особенности перед покупкой.
+Да! Вы можете скачать [бесплатная пробная версия](https://releases.aspose.com/) чтобы изучить его особенности перед покупкой.
 
 ### Как мне найти поддержку по Aspose.PDF?
- Вы можете найти полезную информацию и получить поддержку от сообщества Aspose на их сайте[форум поддержки](https://forum.aspose.com/c/pdf/10).
+Вы можете найти полезную информацию и получить поддержку от сообщества Aspose на их сайте [форум поддержки](https://forum.aspose.com/c/pdf/10).
 
 ### Что произойдет, если мне понадобится больше 17 строк в таблице?
 Если вы превысите доступное пространство, ваша таблица не поместится на странице, и вам следует предпринять соответствующие действия для ее правильного форматирования.
 
 ### Где можно купить библиотеку Aspose.PDF?
- Вы можете приобрести библиотеку в[страница покупки](https://purchase.aspose.com/buy).
+Вы можете приобрести библиотеку у [страница покупки](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

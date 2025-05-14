@@ -8,7 +8,9 @@ url: /net/programming-with-graphs/control-rectangle-z-order/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Control Rectangle Z Order In PDF File
@@ -149,6 +151,7 @@ Absolutely! You can apply for a temporary license [here](https://purchase.aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Crop and Convert PDF Pages to Images Using Aspose.PDF Java
 
@@ -198,7 +200,11 @@ A: Use Aspose.PDF's viewing features or save intermediary steps to verify output
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
 By following this guide, you're well on your way to effectively utilizing Aspose.PDF for Java in your document processing tasks. Start implementing these techniques today and streamline your workflows!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-operators/remove-graphics-objects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Graphics Objects In PDF File
@@ -161,6 +163,7 @@ For technical support, visit [Aspose.PDF Support Forum](https://forum.aspose.com
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

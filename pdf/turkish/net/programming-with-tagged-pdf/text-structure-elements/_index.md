@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Metin Yapısı Öğeleri
-linktitle: PDF Dosyasındaki Metin Yapısı Öğeleri
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile PDF'lerdeki metin yapı öğelerini düzenlemeyi öğrenin. Bu adım adım kılavuz, yapılandırılmış PDF'ler oluşturmak için ihtiyacınız olan her şeyi kapsar.
-weight: 230
-url: /tr/net/programming-with-tagged-pdf/text-structure-elements/
+"description": "Aspose.PDF for .NET ile PDF'lerdeki metin yapı öğelerini düzenlemeyi öğrenin. Bu adım adım kılavuz, yapılandırılmış PDF'ler oluşturmak için ihtiyacınız olan her şeyi kapsar."
+"linktitle": "PDF Dosyasındaki Metin Yapısı Öğeleri"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Metin Yapısı Öğeleri"
+"url": "/tr/net/programming-with-tagged-pdf/text-structure-elements/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Metin Yapısı Öğeleri
@@ -23,9 +25,9 @@ PDF dosyalarındaki metin yapı öğelerini düzenlemenin inceliklerine dalmadan
 
 - Temel C# Bilgisi: Aspose.PDF for .NET esas olarak bu çerçevede kullanıldığından, C# programlamaya aşinalık şarttır.
 - Visual Studio Kurulu: Makinenizde Visual Studio'nun kurulu olduğundan emin olun. Kodunuzu burada yazacak ve çalıştıracaksınız.
--  .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekir. En son sürüm için şuraya bakın:[indirme bağlantısı burada](https://releases.aspose.com/pdf/net/).
-- .NET Framework'e Erişim: Projenizin Aspose.PDF'i destekleyen .NET Framework'ün uyumlu bir sürümünü kullanacak şekilde ayarlandığından emin olun.
--  Aspose Lisansı: Ücretsiz deneme sürümü mevcut olsa da, kalıcı lisans şu adresten edinilebilir:[Burada](https://purchase.aspose.com/buy).
+- .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekir. En son sürüm için şuraya bakın: [indirme bağlantısı burada](https://releases.aspose.com/pdf/net/).
+- .NET Framework'e Erişim: Projenizin Aspose.PDF'yi destekleyen .NET Framework'ün uyumlu bir sürümünü kullanacak şekilde ayarlandığından emin olun.
+- Aspose Lisansı: Ücretsiz deneme sürümü mevcut olsa da, kalıcı lisans şu adresten edinilebilir: [Burada](https://purchase.aspose.com/buy).
 
 ## Paketleri İçe Aktar
 
@@ -36,7 +38,7 @@ Mevcut Visual Studio projenizi açın veya yeni bir tane oluşturun. Bunun bir .
 
 ### .NET için Aspose.PDF'yi yükleyin
 1. Araçlar -> NuGet Paket Yöneticisi -> Çözüm için NuGet Paketlerini Yönet'e gidin.
-2.  Arama`Aspose.PDF`.
+2. Arama `Aspose.PDF`.
 3. Kütüphaneyi projenize eklemek için Yükle'ye tıklayın.
 
 ### Yönergeleri Kullanarak Ekle
@@ -80,7 +82,7 @@ PDF erişilebilirliği için etiketli içerik oluşturuyor ve yönetiyoruz. İş
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- The`TaggedContent` property, erişilebilirliği korumak için kritik öneme sahip olan PDF'in yapısal öğelerini yönetmenize olanak tanır.
+The `TaggedContent` property, erişilebilirliği korumak için kritik öneme sahip olan PDF'in yapısal öğelerini yönetmenize olanak tanır.
 
 ## Adım 4: Belge Başlığını ve Dilini Ayarlayın
 
@@ -152,20 +154,22 @@ Bu adım adım kılavuzla, Aspose.PDF for .NET kullanarak bir PDF belgesi oluşt
 ### Aspose.PDF for .NET nedir?  
 Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgelerini programlı olarak oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
-### Aspose.PDF'i nereden indirebilirim?  
- .NET için Aspose.PDF'yi şu adresten indirebilirsiniz:[alan](https://releases.aspose.com/pdf/net/).
+### Aspose.PDF'yi nereden indirebilirim?  
+Aspose.PDF for .NET'i şu adresten indirebilirsiniz: [alan](https://releases.aspose.com/pdf/net/).
 
 ### Aspose.PDF'i kullanmak için lisansa ihtiyacım var mı?  
-Kütüphaneyi deneme süresi boyunca ücretsiz kullanabilirsiniz. Sürekli kullanım için satın alınabilen bir lisansa ihtiyacınız olacak[Burada](https://purchase.aspose.com/buy).
+Kütüphaneyi deneme süresi boyunca ücretsiz kullanabilirsiniz. Sürekli kullanım için satın alınabilen bir lisansa ihtiyacınız olacak [Burada](https://purchase.aspose.com/buy).
 
 ### PDF erişilebilirliğini nasıl geliştirebilirim?  
 Etiketli içeriğin etkili bir şekilde kullanılması, yardımcı teknolojiler tarafından anlaşılabilen yapısal anlamlar sağlayarak PDF erişilebilirliğini artırır.
 
 ### Aspose ile diğer programlama dillerinde PDF oluşturabilir miyim?  
 Evet, Aspose Java, Python ve daha fazlası dahil olmak üzere çeşitli programlama dilleri için kütüphaneler sunuyor.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

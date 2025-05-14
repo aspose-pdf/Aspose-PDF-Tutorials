@@ -8,7 +8,9 @@ url: /net/programming-with-security-and-signatures/set-privileges/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Privileges In PDF File
@@ -139,6 +141,7 @@ Yes, you can get a free trial version from the [Aspose PDF Free Trial](https://r
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

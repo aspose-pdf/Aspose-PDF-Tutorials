@@ -1,35 +1,37 @@
 ---
-title: Odebrat tabulku v dokumentu PDF
-linktitle: Odebrat tabulku v dokumentu PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se odstraňovat tabulky z dokumentů PDF pomocí Aspose.PDF for .NET pomocí podrobného průvodce. Zjednodušte si manipulaci s PDF pomocí tohoto jednoduchého návodu.
-weight: 160
-url: /cs/net/programming-with-tables/remove-table/
+"description": "Naučte se, jak odstranit tabulky z PDF dokumentů pomocí Aspose.PDF pro .NET s podrobným návodem. Zjednodušte si manipulaci s PDF pomocí tohoto jednoduchého tutoriálu."
+"linktitle": "Odebrat tabulku v dokumentu PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Odebrat tabulku v dokumentu PDF"
+"url": "/cs/net/programming-with-tables/remove-table/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odebrat tabulku v dokumentu PDF
 
 ## Zavedení
 
-Zabýváte se PDF dokumenty a potřebujete z jednoho odstranit tabulku? Ať už spravujete faktury, sestavy nebo složité dokumenty, někdy je potřeba, aby tabulky zmizely. Dělat to ručně je problém, ale s Aspose.PDF pro .NET můžete proces automatizovat. V tomto tutoriálu vás krok za krokem provedeme odstraňováním tabulek ze souborů PDF. Na konci budete moci s jistotou manipulovat s PDF, aniž byste se museli zapotit!
+Pracujete s PDF dokumenty a potřebujete z nich odstranit tabulku? Ať už spravujete faktury, reporty nebo složité dokumenty, někdy je potřeba tabulky odstranit. Ruční provádění je otravné, ale s Aspose.PDF pro .NET můžete tento proces automatizovat. V tomto tutoriálu vás krok za krokem provedeme odstraňováním tabulek ze souborů PDF. Nakonec budete schopni s jistotou manipulovat s PDF soubory bez námahy!
 
 ## Předpoklady
 
-Než se ponoříte do kódu, ujistěte se, že máte vše, co potřebujete. Následující předpoklady připraví půdu pro hladkou jízdu:
+Než se pustíme do kódu, ujistěte se, že máte vše potřebné. Následující předpoklady připraví půdu pro hladký průběh:
 
--  Aspose.PDF for .NET: Budete muset mít nainstalovanou knihovnu Aspose.PDF for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/pdf/net/) . Pokud jste si ho ještě nezakoupili, vezměte si[zkušební verze zdarma](https://releases.aspose.com/) nebo zvážit získání a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro odemknutí všech funkcí.
+- Aspose.PDF pro .NET: Budete muset mít nainstalovanou knihovnu Aspose.PDF pro .NET. Můžete si ji stáhnout z [zde](https://releases.aspose.com/pdf/net/)Pokud jste si ho ještě nezakoupili, pořiďte si [bezplatná zkušební verze](https://releases.aspose.com/) nebo zvažte pořízení [dočasná licence](https://purchase.aspose.com/temporary-license/) pro odemknutí všech funkcí.
   
 - Visual Studio: Měli byste mít nainstalované Visual Studio nebo jakékoli jiné IDE kompatibilní s .NET.
   
-- Základní porozumění C#: Budeme psát kód C#, takže bude užitečné, když se s ním trochu obeznámíte.
+- Základní znalost C#: Budeme psát kód v C#, takže se nám bude hodit mít s ním alespoň nějakou znalost.
 
 ## Importovat jmenné prostory
 
-Než začneme, musíme do našeho projektu importovat potřebné jmenné prostory. To nám umožňuje přístup k funkcím Aspose.PDF, které potřebujeme.
+Než začneme, budeme muset do našeho projektu importovat potřebné jmenné prostory. To nám umožní přístup k potřebné funkcionalitě Aspose.PDF.
 
 ```csharp
 using Aspose.Pdf.Text;
@@ -39,108 +41,110 @@ using System.Linq;
 using System.Text;
 ```
 
-Nyní, když jsme probrali základy, pojďme se vrhnout na zábavnou část! Proces odstranění tabulky z dokumentu PDF pomocí Aspose.PDF for .NET rozdělíme do jednoduchých kroků.
+Teď, když jsme si probrali základy, pojďme se ponořit do té zábavné části! Rozebereme si proces odstranění tabulky z PDF dokumentu pomocí Aspose.PDF pro .NET do jednoduchých kroků.
 
 ## Krok 1: Nastavte cestu k souboru PDF
 
-Prvním krokem je definovat, kde se váš dokument PDF na vašem počítači nachází. Musíme se ujistit, že můžeme najít dokument, na kterém chcete pracovat. V tomto případě se soubor nazývá "Table_input.pdf" a je umístěn ve specifické složce.
+Prvním krokem je definovat, kde se váš PDF dokument nachází ve vašem počítači. Musíme se ujistit, že dokážeme najít dokument, se kterým chcete pracovat. V tomto případě se soubor nazývá „Table_input.pdf“ a nachází se v určité složce.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Jednoduše vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde je uložen váš soubor PDF. To vašemu programu umožní najít správný soubor.
+Jednoduše vyměňte `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde je uložen váš PDF soubor. To umožní vašemu programu najít správný soubor.
 
 ## Krok 2: Načtěte dokument PDF
 
- Jakmile nastavíte adresář, dalším krokem je načtení stávajícího souboru PDF. Aspose.PDF poskytuje a`Document`třídy, která nám umožňuje bezproblémovou práci se soubory PDF.
+Jakmile nastavíte adresář, dalším krokem je načtení existujícího PDF souboru. Aspose.PDF poskytuje `Document` třída, která nám umožňuje bezproblémově pracovat s PDF soubory.
 
 ```csharp
-// Načíst existující dokument PDF
+// Načíst existující PDF dokument
 Document pdfDocument = new Document(dataDir + "Table_input.pdf");
 ```
 
- Zde používáme`Document` objekt k načtení našeho souboru PDF. Tím se PDF připraví pro další operace, včetně detekce a odstranění tabulky.
+Zde používáme `Document` objekt pro načtení našeho PDF souboru. Tím se PDF připraví na další operace, včetně detekce a odstranění tabulek.
 
 ## Krok 3: Vytvořte objekt TableAbsorber
 
- Teď přichází ta kouzelná část! Abychom našli a odstranili tabulky z PDF, musíme použít`TableAbsorber` třída. Tento objekt „absorbuje“ (nebo detekuje) tabulky ve vašem souboru PDF a připraví je pro manipulaci.
+A teď přichází ta magická část! Abychom našli a odstranili tabulky z PDF, musíme použít `TableAbsorber` třída. Tento objekt „absorbuje“ (nebo detekuje) tabulky ve vašem PDF souboru a připraví je tak k manipulaci.
 
 ```csharp
-// Vytvořte objekt TableAbsorber a vyhledejte tabulky
+// Vytvořte objekt TableAbsorber pro vyhledávání tabulek
 TableAbsorber absorber = new TableAbsorber();
 ```
 
- The`TableAbsorber` objekt v podstatě prohledá dokument a identifikuje všechny přítomné tabulky.
+Ten/Ta/To `TableAbsorber` Objekt v podstatě prohledává dokument a identifikuje všechny přítomné tabulky.
 
-## Krok 4: Navštivte první stránku s TableAbsorber
+## Krok 4: Přejděte na první stránku pomocí TableAbsorberu
 
- Dále musíme říci`TableAbsorber` kterou stránku analyzovat. V našem příkladu se zaměřujeme na první stránku PDF, ale můžete ji přizpůsobit jakékoli stránce úpravou čísla stránky.
+Dále musíme říct `TableAbsorber` kterou stránku analyzovat. V našem příkladu se zaměřujeme na první stránku PDF, ale můžete to přizpůsobit jakékoli stránce úpravou čísla stránky.
 
 ```csharp
 // Navštivte první stránku s absorbérem
 absorber.Visit(pdfDocument.Pages[1]);
 ```
 
- Zavoláním na`Visit()` metodou absorbér prozkoumá zadanou stránku a vyhledá tabulky. Tato akce vyhledá všechny tabulky na první stránce.
+Zavoláním `Visit()` Metodou absorbér prozkoumá zadanou stránku a vyhledá tabulky. Tato akce vyhledá všechny tabulky přítomné na první stránce.
 
-## Krok 5: Identifikujte tabulku, která má být odstraněna
+## Krok 5: Určete tabulku, kterou chcete odstranit
 
- Jakmile se`TableAbsorber`naskenoval stránku, uloží nalezené tabulky do seznamu. K první tabulce se dostanete výběrem první položky v seznamu.
+Jakmile `TableAbsorber` Po naskenování stránky uloží nalezené tabulky do seznamu. K první tabulce se dostanete výběrem první položky v seznamu.
 
 ```csharp
-// Získejte první tabulku na stránce
+// Získat první tabulku na stránce
 AbsorbedTable table = absorber.TableList[0];
 ```
 
-V tomto kroku získáváme první tabulku ze seznamu tabulek identifikovaných absorbérem. Pokud váš PDF obsahuje více tabulek a chcete odstranit konkrétní, můžete podle toho upravit index.
+V tomto kroku načteme první tabulku ze seznamu tabulek identifikovaných absorbérem. Pokud váš PDF soubor obsahuje více tabulek a chcete jednu konkrétní odstranit, můžete odpovídajícím způsobem upravit index.
 
-## Krok 6: Odeberte tabulku z PDF
+## Krok 6: Odebrání tabulky z PDF
 
- Nyní, když jsme identifikovali tabulku, je čas ji odstranit. To se provádí pomocí`Remove()` metoda poskytovaná společností`TableAbsorber`.
+Nyní, když jsme tabulku identifikovali, je čas ji odstranit. To se provádí pomocí `Remove()` metoda poskytovaná `TableAbsorber`.
 
 ```csharp
 // Odstraňte stůl
 absorber.Remove(table);
 ```
 
-A stejně tak je tabulka z dokumentu pryč! Tento krok zcela odstraní data tabulky z PDF a zbytek dokumentu zůstane nedotčen.
+A tabulka je z dokumentu pryč! Tento krok zcela odstraní data tabulky z PDF a zbytek dokumentu zůstane nedotčen.
 
-## Krok 7: Uložte upravený PDF
+## Krok 7: Uložení upraveného PDF
 
-Po úspěšném odstranění tabulky je posledním krokem uložení změn do nového souboru PDF. Nechcete přepsat původní PDF, takže upravenou verzi uložíme pod novým názvem.
+Po úspěšném odstranění tabulky je posledním krokem uložení změn do nového souboru PDF. Nechcete přepsat původní PDF, proto upravenou verzi uložíme pod novým názvem.
 
 ```csharp
 // Uložit PDF
 pdfDocument.Save(dataDir + "Table_out.pdf");
 ```
 
- Nově upravené PDF ukládáme jako`"Table_out.pdf"`Nyní máte čistý dokument bez stolu!
+Nově upravený PDF soubor ukládáme jako `"Table_out.pdf"`Nyní máte čistý dokument bez tabulky!
 
 ## Závěr
 
-Výložník! Takto můžete snadno odstranit tabulky z PDF pomocí Aspose.PDF for .NET. Pomocí těchto kroků jste zautomatizovali únavný úkol, který by jinak zabral spoustu času. Nyní můžete zpracovávat soubory PDF rychle a efektivně, ať už se zabýváte fakturami, formuláři nebo sestavami. Pamatujte, že klíčem k tomu, abyste to zvládli, je praxe. Nebojte se ponořit hlouběji do možností Aspose.PDF – je to neuvěřitelně mocný nástroj.
+Bum! Takhle snadno odstraníte tabulky z PDF pomocí Aspose.PDF pro .NET. Dodržením těchto kroků jste automatizovali zdlouhavý úkol, který by jinak zabral spoustu času. Nyní můžete zpracovávat PDF soubory rychle a efektivně, ať už pracujete s fakturami, formuláři nebo reporty. Nezapomeňte, že klíčem k zvládnutí tohoto procesu je praxe. Nebojte se ponořit hlouběji do možností Aspose.PDF – je to neuvěřitelně výkonný nástroj.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu odstranit více tabulek najednou?  
- Ano, jednoduše projděte`absorber.TableList` a podle potřeby odstraňte každou tabulku.
+Ano, jednoduše projděte `absorber.TableList` a podle potřeby odstraňte každou tabulku.
 
 ### Co se stane, když je tabulka rozložena na více stránek?  
- Budete muset navštívit každou stránku jednotlivě pomocí`TableAbsorber` a odstraňte tabulku z každé stránky.
+Budete muset navštívit každou stránku jednotlivě s `TableAbsorber` a odstraňte tabulku z každé stránky.
 
-### Má odstranění tabulky vliv na další prvky v PDF?  
- Ne,`TableAbsorber.Remove()` metoda ovlivní pouze konkrétní tabulku, na kterou cílíte, přičemž zbytek dokumentu zůstane nedotčen.
+### Ovlivní odstranění tabulky další prvky v PDF?  
+Ne, ten `TableAbsorber.Remove()` Metoda ovlivňuje pouze konkrétní tabulku, na kterou cílíte, a zbytek dokumentu ponechává nedotčený.
 
-### Mohu odstranit tabulky na základě jejich obsahu?  
- Ano, obsah tabulek před jejich odstraněním můžete prozkoumat tak, že k nim přistoupíte`Rows` a`Cells` vlastnosti.
+### Mohu odebrat tabulky na základě jejich obsahu?  
+Ano, obsah tabulek si můžete před jejich odstraněním prohlédnout přístupem k jejich `Rows` a `Cells` vlastnosti.
 
-### Potřebuji k používání Aspose.PDF pro .NET placenou licenci?  
- Aspose.PDF nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si budete muset zakoupit a[licence](https://purchase.aspose.com/buy).
+### Potřebuji placenou licenci k používání Aspose.PDF pro .NET?  
+Aspose.PDF nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si budete muset zakoupit [licence](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

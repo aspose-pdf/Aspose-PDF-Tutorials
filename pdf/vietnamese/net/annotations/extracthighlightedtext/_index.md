@@ -1,14 +1,16 @@
 ---
-title: Trích xuất văn bản được tô sáng trong tệp PDF
-linktitle: Trích xuất văn bản được tô sáng trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất hiệu quả văn bản được tô sáng từ tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn này. Hoàn hảo cho phân tích dữ liệu và xem xét nội dung.
-weight: 60
-url: /vi/net/annotations/extracthighlightedtext/
+"description": "Tìm hiểu cách trích xuất hiệu quả văn bản được tô sáng từ tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn này. Hoàn hảo cho phân tích dữ liệu và xem xét nội dung."
+"linktitle": "Trích xuất văn bản được tô sáng trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Trích xuất văn bản được tô sáng trong tệp PDF"
+"url": "/vi/net/annotations/extracthighlightedtext/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất văn bản được tô sáng trong tệp PDF
@@ -19,12 +21,12 @@ Khi làm việc với các tệp PDF, việc trích xuất văn bản được t
 
 ## Điều kiện tiên quyết
 
-Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau:
+Trước khi bắt đầu viết mã, bạn cần chuẩn bị một số thứ sau:
 
--  Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Nếu chưa, bạn có thể tải xuống từ[trang phát hành](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF. Nếu chưa, bạn có thể tải xuống từ [trang phát hành](https://releases.aspose.com/pdf/net/).
 - Môi trường phát triển: Bạn nên thiết lập một môi trường phát triển khả dụng, chẳng hạn như Visual Studio.
 - Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# và lập trình hướng đối tượng là điều cần thiết.
--  Giấy phép Aspose hợp lệ: Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, hãy cân nhắc việc lấy[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc mua một cái từ[đây](https://purchase.aspose.com/buy) để sử dụng không hạn chế.
+- Giấy phép Aspose hợp lệ: Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, hãy cân nhắc việc lấy [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc mua một cái từ [đây](https://purchase.aspose.com/buy) để sử dụng không hạn chế.
 
 ## Nhập gói
 
@@ -49,28 +51,28 @@ Trước tiên, bạn cần thiết lập thư mục dự án nơi lưu trữ t�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế đến thư mục nơi tệp PDF nằm. Thư mục này là nơi ứng dụng sẽ lấy tệp PDF để xử lý.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục nơi tệp PDF nằm. Thư mục này là nơi ứng dụng sẽ lấy tệp PDF để xử lý.
 
 ## Bước 2: Tải Tài liệu PDF
 
- Tiếp theo, bạn cần tải tài liệu PDF mà bạn muốn trích xuất văn bản được tô sáng. Điều này được thực hiện bằng cách sử dụng`Document` lớp được cung cấp bởi Aspose.PDF.
+Tiếp theo, bạn cần tải tài liệu PDF mà bạn muốn trích xuất văn bản được tô sáng. Điều này được thực hiện bằng cách sử dụng `Document` lớp được cung cấp bởi Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "ExtractHighlightedText.pdf");
 ```
 
- Các`Document` lớp được khởi tạo bằng đường dẫn đến tệp PDF. Ở đây,`"ExtractHighlightedText.pdf"` là tên của tệp PDF có chứa văn bản được tô sáng. Đảm bảo rằng tệp này tồn tại trong thư mục đã chỉ định.
+Các `Document` lớp được khởi tạo bằng đường dẫn đến tệp PDF. Ở đây, `"ExtractHighlightedText.pdf"` là tên của tệp PDF có chứa văn bản được tô sáng. Đảm bảo rằng tệp này tồn tại trong thư mục đã chỉ định.
 
 ## Bước 3: Truy cập Bộ sưu tập chú thích
 
-Sau khi tài liệu PDF được tải, bước tiếp theo là truy cập vào các chú thích trên trang đầu tiên của tài liệu. Chú thích được sử dụng trong PDF để thêm thông tin bổ sung như điểm nổi bật, bình luận, v.v.
+Sau khi tải xong tài liệu PDF, bước tiếp theo là truy cập vào chú thích trên trang đầu tiên của tài liệu. Chú thích được sử dụng trong PDF để thêm thông tin bổ sung như điểm nổi bật, bình luận, v.v.
 
 ```csharp
 foreach (Annotation annotation in doc.Pages[1].Annotations)
 {
 ```
 
- Các`Annotations` tài sản của`Page` đối tượng cung cấp quyền truy cập vào tất cả các chú thích trên một trang cụ thể của PDF. Ở đây, chúng ta đang lặp qua từng chú thích trên trang đầu tiên.
+Các `Annotations` tài sản của `Page` đối tượng cung cấp quyền truy cập vào tất cả các chú thích trên một trang cụ thể của PDF. Ở đây, chúng ta đang lặp qua từng chú thích trên trang đầu tiên.
 
 ## Bước 4: Lọc chú thích văn bản được tô sáng
 
@@ -82,7 +84,7 @@ if (annotation is TextMarkupAnnotation)
     TextMarkupAnnotation highlightedAnnotation = annotation as TextMarkupAnnotation;
 ```
 
- Các`TextMarkupAnnotation` lớp được sử dụng để biểu diễn chú thích đánh dấu văn bản, bao gồm cả phần tô sáng.`is` từ khóa kiểm tra xem chú thích có phải là loại`TextMarkupAnnotation` và nếu có, nó sẽ chuyển chú thích tới`TextMarkupAnnotation`.
+Các `TextMarkupAnnotation` lớp được sử dụng để biểu diễn chú thích đánh dấu văn bản, bao gồm cả phần tô sáng. `is` từ khóa kiểm tra xem chú thích có phải là loại `TextMarkupAnnotation`và nếu có, nó sẽ chuyển chú thích tới `TextMarkupAnnotation`.
 
 ## Bước 5: Trích xuất văn bản được tô sáng
 
@@ -96,7 +98,7 @@ foreach (TextFragment tf in collection)
 }
 ```
 
- Các`GetMarkedTextFragments()` phương pháp trả về một tập hợp`TextFragment` đối tượng, mỗi đối tượng đại diện cho một phần của văn bản được tô sáng. Chúng tôi lặp qua bộ sưu tập này và in văn bản của từng đoạn vào bảng điều khiển.
+Các `GetMarkedTextFragments()` phương pháp trả về một tập hợp `TextFragment` đối tượng, mỗi đối tượng đại diện cho một phần của văn bản được tô sáng. Chúng tôi lặp qua bộ sưu tập này và in văn bản của từng đoạn vào bảng điều khiển.
 
 ## Phần kết luận
 
@@ -105,22 +107,24 @@ Trích xuất văn bản được tô sáng từ PDF bằng Aspose.PDF cho .NET 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể trích xuất các loại chú thích khác bằng phương pháp này không?  
- Có, bạn có thể trích xuất các loại chú thích khác bằng cách sửa đổi`if` điều kiện để kiểm tra các loại chú thích khác nhau, chẳng hạn như`TextAnnotation`, `StampAnnotation`, vân vân.
+Có, bạn có thể trích xuất các loại chú thích khác bằng cách sửa đổi `if` điều kiện để kiểm tra các loại chú thích khác nhau, chẳng hạn như `TextAnnotation`, `StampAnnotation`, vân vân.
 
 ### Có thể trích xuất văn bản được tô sáng từ tất cả các trang của PDF không?  
 Hoàn toàn có thể! Bạn có thể lặp qua từng trang của tài liệu PDF và áp dụng cùng một logic trích xuất để thu thập văn bản được tô sáng từ mọi trang.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF cho .NET không?  
- Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng bạn nên mua[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)hoặc mua giấy phép đầy đủ để có quyền truy cập không giới hạn vào tất cả các tính năng.
+Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng bạn nên mua [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc mua giấy phép đầy đủ để có quyền truy cập không giới hạn vào tất cả các tính năng.
 
 ### Tôi có thể lưu văn bản đã trích xuất vào một tệp thay vì in nó ra bảng điều khiển không?  
 Có, bạn có thể dễ dàng sửa đổi mã để lưu văn bản đã trích xuất vào tệp văn bản hoặc bất kỳ định dạng mong muốn nào khác.
 
 ### Aspose.PDF có hỗ trợ các nền tảng khác ngoài .NET không?  
 Có, Aspose.PDF cũng hỗ trợ Java và các nền tảng khác, cung cấp chức năng tương tự trên nhiều môi trường khác nhau.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

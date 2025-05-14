@@ -1,14 +1,16 @@
 ---
-title: Извлечение текста с помощью текстового устройства
-linktitle: Извлечение текста с помощью текстового устройства
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как извлечь текст из PDF-документа с помощью текстового устройства в Aspose.PDF для .NET.
-weight: 210
-url: /ru/net/programming-with-text/extract-text-using-text-device/
+"description": "Узнайте, как извлечь текст из PDF-документа с помощью текстового устройства в Aspose.PDF для .NET."
+"linktitle": "Извлечение текста с помощью текстового устройства"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Извлечение текста с помощью текстового устройства"
+"url": "/ru/net/programming-with-text/extract-text-using-text-device/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Извлечение текста с помощью текстового устройства
@@ -21,10 +23,10 @@ url: /ru/net/programming-with-text/extract-text-using-text-device/
 
 Прежде чем мы перейдем к коду, убедитесь, что у вас все готово для дальнейшего изучения. Вот что вам понадобится:
 
-1.  Aspose.PDF для .NET: Загрузите последнюю версию с сайта[Страница загрузки Aspose.PDF для .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF для .NET: Загрузите последнюю версию с сайта [Страница загрузки Aspose.PDF для .NET](https://releases.aspose.com/pdf/net/).
 2. Среда разработки: Visual Studio или любая другая среда разработки C#.
 3. .NET Framework: убедитесь, что ваш проект ориентирован на .NET Framework 4.x или выше.
-4. Входной PDF-файл: PDF-файл, который вы будете использовать для извлечения текста. Поместите его в каталог на вашем компьютере (мы будем называть его`YOUR DOCUMENT DIRECTORY`).
+4. Входной PDF-файл: PDF-файл, который вы будете использовать для извлечения текста. Поместите его в каталог на вашем компьютере (мы будем называть его `YOUR DOCUMENT DIRECTORY`).
 
 ## Импортные пакеты
 
@@ -41,7 +43,7 @@ using System.Text;
 
 ## Шаг 1: Загрузите ваш PDF-документ
 
- Перед извлечением текста нам нужно загрузить PDF-документ в память. На этом этапе вы откроете свой PDF-файл с помощью Aspose.PDF`Document` класс. Это позволит вам получить доступ ко всем страницам и содержимому файла.
+Перед извлечением текста нам нужно загрузить PDF-документ в память. На этом этапе вы откроете свой PDF-файл с помощью Aspose.PDF `Document` класс. Это позволит вам получить доступ ко всем страницам и содержимому файла.
 
 ```csharp
 // Определите путь к вашему PDF-документу
@@ -51,22 +53,22 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Здесь мы используем`Document pdfDocument = new Document(dataDir + "input.pdf");` для загрузки PDF.`dataDir` переменная содержит путь к каталогу вашего файла PDF. Это даст нам доступ ко всему документу, позволяя нам проходить по страницам и извлекать содержимое.
+Здесь мы используем `Document pdfDocument = new Document(dataDir + "input.pdf");` для загрузки PDF. `dataDir` переменная содержит путь к каталогу вашего файла PDF. Это даст нам доступ ко всему документу, позволяя нам проходить по страницам и извлекать содержимое.
 
 ## Шаг 2: Настройка конструктора строк для хранения текста
 
- Теперь, когда документ загружен, нам нужен способ сохранить извлеченный текст. Для этого мы будем использовать`StringBuilder` что позволяет эффективно объединять строки.
+Теперь, когда документ загружен, нам нужен способ сохранить извлеченный текст. Для этого мы будем использовать `StringBuilder` что позволяет эффективно объединять строки.
 
 ```csharp
 // StringBuilder для хранения извлеченного текста
 StringBuilder builder = new StringBuilder();
 ```
 
- Мы инициализируем`StringBuilder`экземпляр, который будет собирать текст, извлеченный с каждой страницы. Это более эффективный способ обработки больших строк по сравнению с обычной конкатенацией строк в цикле.
+Мы инициализируем `StringBuilder` экземпляр, который будет собирать текст, извлеченный с каждой страницы. Это более эффективный способ обработки больших строк по сравнению с обычной конкатенацией строк в цикле.
 
 ## Шаг 3: Просмотрите страницы PDF-файла
 
- Далее мы пройдемся по каждой странице документа PDF, чтобы извлечь текст. Мы обработаем каждую страницу по отдельности, используя`TextDevice` класс, который отвечает за преобразование содержимого PDF-файла в текстовый формат.
+Далее мы пройдемся по каждой странице документа PDF, чтобы извлечь текст. Мы обработаем каждую страницу по отдельности, используя `TextDevice` класс, который отвечает за преобразование содержимого PDF-файла в текстовый формат.
 
 ```csharp
 // Просмотрите все страницы в PDF-файле
@@ -76,11 +78,11 @@ foreach (Page pdfPage in pdfDocument.Pages)
 }
 ```
 
-Этот цикл проходит по каждой странице PDF-файла (`pdfDocument.Pages` ). Для каждой страницы мы извлечем текст и добавим его в наш`StringBuilder`.
+Этот цикл проходит по каждой странице PDF-файла (`pdfDocument.Pages`). Для каждой страницы мы извлечем текст и добавим его в наш `StringBuilder`.
 
 ## Шаг 4: Извлечение текста с каждой страницы
 
- Теперь мы настроим процесс извлечения текста для каждой страницы. Здесь мы создадим`TextDevice` объект и использовать его для обработки страниц PDF.`TextDevice` извлекает необработанный или форматированный текст на основе установленных нами параметров извлечения.
+Теперь мы настроим процесс извлечения текста для каждой страницы. Здесь мы создадим `TextDevice` объект и использовать его для обработки страниц PDF. `TextDevice` извлекает необработанный или форматированный текст на основе установленных нами параметров извлечения.
 
 ```csharp
 using (MemoryStream textStream = new MemoryStream())
@@ -92,7 +94,7 @@ using (MemoryStream textStream = new MemoryStream())
     TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);
     textDevice.ExtractionOptions = textExtOptions;
 
-    //Извлечь текст с текущей страницы и сохранить его в потоке памяти
+    // Извлечь текст с текущей страницы и сохранить его в потоке памяти
     textDevice.Process(pdfPage, textStream);
 
     // Преобразовать поток памяти в текст
@@ -103,14 +105,14 @@ using (MemoryStream textStream = new MemoryStream())
 }
 ```
 
-- `TextDevice textDevice = new TextDevice();` :`TextDevice` класс используется для извлечения текста из PDF-файла.
-- `TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);` : Эта опция извлекает необработанный текст без сохранения форматирования, например шрифтов или позиций. Вы также можете использовать`TextFormattingMode.Raw` если вам нужен больший контроль над форматированием.
-- `textDevice.Process(pdfPage, textStream);` : обрабатывает каждую страницу PDF-файла и сохраняет извлеченный текст в`MemoryStream`.
--  Наконец, мы преобразуем текст из`MemoryStream` в строку и добавить ее к`StringBuilder`.
+- `TextDevice textDevice = new TextDevice();`: `TextDevice` класс используется для извлечения текста из PDF-файла.
+- `TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);`: Эта опция извлекает необработанный текст без сохранения форматирования, например шрифтов или позиций. Вы также можете использовать `TextFormattingMode.Raw` если вам нужен больший контроль над форматированием.
+- `textDevice.Process(pdfPage, textStream);`: обрабатывает каждую страницу PDF-файла и сохраняет извлеченный текст в `MemoryStream`.
+- Наконец, мы преобразуем текст из `MemoryStream` в строку и добавить ее к `StringBuilder`.
 
 ## Шаг 5: Сохраните извлеченный текст в файл
 
- После обработки всех страниц текст сохраняется в`StringBuilder`. Последний шаг — сохранить извлеченный текст в файл.
+После обработки всех страниц текст сохраняется в `StringBuilder`Последний шаг — сохранить извлеченный текст в файл.
 
 ```csharp
 // Определите выходной путь для текстового файла
@@ -122,8 +124,8 @@ File.WriteAllText(dataDir, builder.ToString());
 Console.WriteLine("\nText extracted successfully from PDF document.\nFile saved at " + dataDir);
 ```
 
-- `File.WriteAllText(dataDir, builder.ToString());` : Это записывает все содержимое`StringBuilder` в текстовый файл.
-- Путь к выходному файлу задается путем добавления имени файла (`"input_Text_Extracted_out.txt"` ) к`dataDir` путь.
+- `File.WriteAllText(dataDir, builder.ToString());`: Это записывает все содержимое `StringBuilder` в текстовый файл.
+- Путь к выходному файлу задается путем добавления имени файла (`"input_Text_Extracted_out.txt"`) к `dataDir` путь.
 
 ## Заключение
 
@@ -143,13 +145,15 @@ Console.WriteLine("\nText extracted successfully from PDF document.\nFile saved 
 Да, вы можете изменить код, чтобы цикл охватывал определенный диапазон страниц, а не все страницы.
 
 ### Какие режимы извлечения текста есть в Aspose.PDF?
-Aspose.PDF предоставляет два режима: Raw и Pure. Raw режим пытается сохранить исходную компоновку, в то время как Pure режим извлекает только текст без форматирования.
+Aspose.PDF предоставляет два режима: Raw и Pure. Raw режим пытается сохранить исходную разметку, в то время как Pure режим извлекает только текст без форматирования.
 
 ### Совместим ли Aspose.PDF для .NET с .NET Core?
 Да, Aspose.PDF для .NET полностью совместим с .NET Core и .NET Framework.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

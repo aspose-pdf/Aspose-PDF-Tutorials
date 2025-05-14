@@ -6,8 +6,11 @@ description: Explore Aspose.PDF Visual Tutorials with step-by-step guides and co
 keywords:
 url: /
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.PDF Visual Tutorials
@@ -27,40 +30,63 @@ Aspose.PDF for .NET Visual Tutorials provide comprehensive, step-by-step guides 
 Learn how to create and customize graphs in PDF using Aspose.PDF for .NET. Add line, bar, and pie charts effortlessly with C# code examples.
 
 {{< tutorial-card link="./net/graphs/add-drawing/" title="Create a PDF with Transparent Graphs Using Aspose.PDF" imgSrc="./net/graphs/add-drawing/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/graphs/control-rectangle-z-order/" title="Create and Customize PDF with Rectangles in .NET" imgSrc="./net/graphs/control-rectangle-z-order/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/graphs/create-rectangle-with-alpha-color/" title="Create PDF with Rectangles & Alpha Colors in Aspose.PDF" imgSrc="./net/graphs/create-rectangle-with-alpha-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/graphs/drawing-line/" title="Draw Diagonal Lines in PDF Using Aspose.PDF for .NET" imgSrc="./net/graphs/drawing-line/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Generate Images from PDF using Aspose.PDF for .NET](./net/images/)
 Learn how to generate images from PDF files using Aspose.PDF for .NET. Convert PDF pages to JPEG, PNG, or BMP effortlessly in C# with high quality.
 
 {{< tutorial-card link="./net/images/extract-image/" title="Extract Images from PDF in C# using Aspose.PDF" imgSrc="./net/images/extract-image/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/images/resize-image/" title="Optimize PDF Images with Aspose.PDF for .NET" imgSrc="./net/images/resize-image/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Comprehensive Tables Tutorials in Aspose.PDF for .NET](./net/tables/)
 Learn how to create, format, and manipulate tables in PDF documents using Aspose.PDF for .NET with step-by-step tutorials and code examples.
 
 {{< tutorial-card link="./net/tables/add-table/" title="Add Table to an Existing PDF Using Aspose.PDF for .NET" imgSrc="./net/tables/add-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/tables/insert-page-break/" title="Create a PDF with Tables and Pagination Using Aspose.PDF" imgSrc="./net/tables/insert-page-break/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/tables/render-table/" title="Create a PDF with Tables using Aspose.PDF for .NET" imgSrc="./net/tables/render-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/tables/set-border/" title="Create PDF with Double-Bordered Table using Aspose.PDF" imgSrc="./net/tables/set-border/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/tables/text-alignment-for-table-row-content/" title="Create a PDF with Text Alignment for Table Row Content" imgSrc="./net/tables/text-alignment-for-table-row-content/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Comprehensive Tutorials Text Handling in Aspose.PDF for .NET](./net/text/)
 Learn how to create, format, and manipulate tables in PDF documents using Aspose.PDF for .NET with step-by-step tutorials and code examples.
 
 {{< tutorial-card link="./net/text/add-text/" title="Adding Text to PDF Documents with Aspose.PDF" imgSrc="./net/text/add-text/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/text/add-text-border/" title="Creating Styled Text with Borders in PDF Documents using Aspose.PDF" imgSrc="./net/text/add-text-border/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/text/add-transparent-text/" title="Creating Transparent Text Effects in PDF with Aspose.PDF" imgSrc="./net/text/add-transparent-text/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/text/add-underline-text/" title="Adding Underlined Text in PDF with Aspose.PDF" imgSrc="./net/text/add-underline-text/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/text/create-multi-column/" title="Create a Multi-Column PDF Using Aspose.PDF for .NET" imgSrc="./net/text/create-multi-column/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/text/multicolumn-paragraphs/" title="Multi-Column Paragraphs in PDF using Aspose.PDF" imgSrc="./net/text/multicolumn-paragraphs/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 These are links to some useful resources:
@@ -92,8 +118,10 @@ These are links to some useful resources:
 - [PDF Portfolios](./net/pdf-portfolios/)
  
 ## Aspose.PDF Processing API for Java
+
 {{% alert color="primary" %}}
 Master Aspose.PDF for Java with comprehensive tutorials. Create, edit, and optimize PDFs effortlessly. Elevate your PDF development skills today!
+
 {{% /alert %}}
 
 These are links to some useful resources:
@@ -135,6 +163,7 @@ These are links to some useful resources:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

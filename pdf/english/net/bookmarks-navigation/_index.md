@@ -6,7 +6,9 @@ url: "/net/bookmarks-navigation/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Bookmarks and Navigation Tutorials for Aspose.PDF .NET
@@ -141,6 +143,9 @@ Learn how to dynamically update PDF links using Aspose.PDF for .NET. This guide 
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

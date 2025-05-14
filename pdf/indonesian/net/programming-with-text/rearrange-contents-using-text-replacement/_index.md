@@ -1,14 +1,16 @@
 ---
-title: Atur Ulang Konten Menggunakan Penggantian Teks
-linktitle: Atur Ulang Konten Menggunakan Penggantian Teks
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengatur ulang konten PDF menggunakan penggantian teks dengan Aspose.PDF untuk .NET. Tutorial langkah demi langkah untuk meningkatkan keterampilan mengedit dokumen Anda.
-weight: 270
-url: /id/net/programming-with-text/rearrange-contents-using-text-replacement/
+"description": "Pelajari cara mengatur ulang konten PDF menggunakan penggantian teks dengan Aspose.PDF untuk .NET. Tutorial langkah demi langkah untuk meningkatkan keterampilan mengedit dokumen Anda."
+"linktitle": "Atur Ulang Konten Menggunakan Penggantian Teks"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Atur Ulang Konten Menggunakan Penggantian Teks"
+"url": "/id/net/programming-with-text/rearrange-contents-using-text-replacement/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Ulang Konten Menggunakan Penggantian Teks
@@ -21,7 +23,7 @@ Jika berbicara tentang bekerja dengan dokumen PDF secara terprogram, kemampuan u
 
 Sebelum kita memulai, pastikan Anda telah menyiapkan hal-hal berikut:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah memasang Aspose.PDF di proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah memasang Aspose.PDF di proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 2. Lingkungan Pengembangan .NET: Lingkungan .NET yang berfungsi (seperti Visual Studio) adalah suatu keharusan. Contoh kode akan berfungsi dengan C#.
 3. Pemahaman Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda menavigasi kode secara efektif.
 
@@ -60,18 +62,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Muat file PDF sumber
 Document doc = new Document(dataDir + "ExtractTextPage.pdf");
 ```
- Di sini, Anda menentukan direktori tempat PDF Anda disimpan.`Document`kelas digunakan untuk memuat file PDF kita yang sudah ada`ExtractTextPage.pdf`.
+Di sini, Anda menentukan direktori tempat PDF Anda disimpan. `Document` kelas digunakan untuk memuat file PDF kita yang sudah ada `ExtractTextPage.pdf`.
 
 ## Langkah 2: Buat Penyerap TextFragment
 
- Selanjutnya, kita akan membuat`TextFragmentAbsorber` objek. Hal ini memungkinkan kita menemukan fragmen teks tertentu menggunakan ekspresi reguler.
+Selanjutnya, kita akan membuat `TextFragmentAbsorber` objek. Hal ini memungkinkan kita menemukan fragmen teks tertentu menggunakan ekspresi reguler.
 
 ```csharp
 // Buat objek TextFragment Absorber dengan ekspresi reguler
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("[TextFragmentAbsorber,companyname,Textbox,50]");
 doc.Pages.Accept(textFragmentAbsorber);
 ```
- Itu`TextFragmentAbsorber` menggunakan pola untuk menemukan fragmen teks yang ingin Anda ganti. Sesuaikan ekspresi reguler sesuai kebutuhan untuk teks spesifik Anda.
+Itu `TextFragmentAbsorber` menggunakan pola untuk menemukan fragmen teks yang ingin Anda ganti. Sesuaikan ekspresi reguler sesuai kebutuhan untuk teks spesifik Anda.
 
 ## Langkah 3: Ganti Setiap Fragmen Teks
 
@@ -90,7 +92,7 @@ foreach (TextFragment textFragment in textFragmentAbsorber.TextFragments)
     textFragment.Text = "This is a Larger String for the Testing of this issue";
 }
 ```
- Di dalam loop, kita mengulangi setiap`TextFragment` ditemukan. Di sini, kami menyesuaikan gaya, ukuran, dan warna font. Yang terpenting, kami mengganti teks asli dengan string baru kami.
+Di dalam loop, kita mengulangi setiap `TextFragment` ditemukan. Di sini, kami menyesuaikan gaya, ukuran, dan warna font. Yang terpenting, kami mengganti teks asli dengan string baru kami.
 
 ## Langkah 4: Simpan Dokumen yang Dimodifikasi
 
@@ -102,11 +104,11 @@ dataDir = dataDir + "RearrangeContentsUsingTextReplacement_out.pdf";
 doc.Save(dataDir);
 Console.WriteLine("\nContents rearranged successfully using text replacement.\nFile saved at " + dataDir);
 ```
- PDF yang dimodifikasi disimpan menggunakan`Save`metode. Pastikan Anda menambahkan nama file yang sesuai untuk menghindari penimpaan file asli.
+PDF yang dimodifikasi disimpan menggunakan `Save` metode. Pastikan Anda menambahkan nama file yang sesuai untuk menghindari penimpaan file asli.
 
 ## Langkah 5: Menangani Pengecualian
 
-Menggabungkan penanganan kesalahan sangatlah penting, khususnya saat menangani operasi berkas.
+Menggabungkan penanganan kesalahan sangatlah penting, terutama saat menangani operasi berkas.
 
 ```csharp
 catch (Exception ex)
@@ -135,10 +137,12 @@ Penyerap hanya akan mengembalikan koleksi kosong. Pastikan pola regex cocok.
 Aspose.PDF juga menyediakan berbagai metode untuk memanipulasi gambar.
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda dapat menemukan bantuan di[forum dukungan](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan bantuan di [forum dukungan](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

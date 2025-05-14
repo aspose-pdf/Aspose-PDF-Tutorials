@@ -1,45 +1,51 @@
 ---
-title: .NET용 Aspose.PDF를 사용하여 테이블로 PDF를 생성합니다
-weight: 7700
-limit: 
-description: .NET용 Aspose.PDF를 사용하여 테이블을 가진 PDF 문서를 만드는 방법을 알아보십시오. 마진을 설정하고, 다른 페이지에 테이블을 추가하고, 파일을 손쉽게 저장하십시오. 
-keywords: [Aspose.PDF for .NET, create PDF table, insert tables in PDF, .NET PDF generator, PDF table example, Aspose.PDF tables, add tables in PDF C#]
-url: /ko/net/tables/render-table/
+"description": "Aspose.PDF for .NET을 사용하여 표가 포함된 PDF 문서를 만드는 방법을 알아보세요. 여백을 설정하고, 여러 페이지에 표를 추가하고, 파일을 손쉽게 저장할 수 있습니다."
+"title": "Aspose.PDF for .NET을 사용하여 표가 있는 PDF 만들기"
+"url": "/ko/net/tables/render-table/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDF를 사용하여 테이블로 PDF를 생성
+# Aspose.PDF를 사용하여 표가 있는 PDF 만들기
 
-Aspose.PDF는 개발자가 테이블 생성, 페이지 포맷 및 기타 풍부한 기능을 가진 PDF 문서를 프로그래밍 방식으로 생성 할 수 있습니다. 이 튜토리얼에서는 테이블, 설정 마진 및 여러 페이지에 여러 테이블을 삽입하는 PDF를 만드는 방법을 배우게됩니다. 구조화된 보고서, 청구서 또는 데이터 테이블이 필요한지 여부,이 가이드는 효율적으로 시작하는 데 도움이 될 것입니다.  
+Aspose.PDF for .NET을 사용하면 개발자가 표 생성, 페이지 서식 지정 등 다양한 기능을 사용하여 프로그래밍 방식으로 PDF 문서를 생성할 수 있습니다. 이 튜토리얼에서는 표가 포함된 PDF를 만들고, 여백을 설정하고, 여러 페이지에 여러 표를 삽입하는 방법을 알아봅니다. 구조화된 보고서, 송장 또는 데이터 표가 필요한 경우 이 가이드를 통해 효율적으로 시작할 수 있습니다.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/tables/render-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 설치 지침:  
-.NET에 Aspose.PDF를 사용하려면 다음 단계를 수행합니다:  
+.NET에서 Aspose.PDF를 사용하려면 다음 단계를 따르세요.  
 
-1. .NET에 대한 Aspose.PDF를 다운로드 및 설치:  
-   * 방문[Aspose.PDF를 .NET 다운로드](https://releases.aspose.com/pdf/net/)그리고 최신 버전을 다운로드합니다.  
-   * 대안으로 NuGet 패키지 관리자를 통해 설치:  
+1. .NET용 Aspose.PDF를 다운로드하고 설치하세요:  
+   - 방문하다 [.NET용 Aspose.PDF 다운로드](https://releases.aspose.com/pdf/net/) 최신 버전을 다운로드하세요.  
+   - 또는 NuGet 패키지 관리자를 통해 설치하세요.  
      ```sh
      Install-Package Aspose.PDF
      ```  
 
-2. 프로젝트에 Aspose.PDF 네임스페이스를 포함:  
+2. 프로젝트에 Aspose.PDF 네임스페이스를 포함하세요.  
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Text;
    ```
 
-## 자세한 내용은:  
-[Aspose.PDF를 위해 .NET 문서](https://docs.aspose.com/pdf/net/)  
-[Aspose.PDF를 위해 .NET API 참조](https://reference.aspose.com/pdf/net/)  
+## 자세한 내용은 다음을 참조하세요.  
+[.NET 설명서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)  
+[.NET API 참조용 Aspose.PDF](https://reference.aspose.com/pdf/net/)  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

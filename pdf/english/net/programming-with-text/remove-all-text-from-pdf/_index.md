@@ -8,7 +8,9 @@ url: /net/programming-with-text/remove-all-text-from-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove All Text From PDF
@@ -138,6 +140,7 @@ You can acquire a temporary license from Aspose’s website by following this li
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

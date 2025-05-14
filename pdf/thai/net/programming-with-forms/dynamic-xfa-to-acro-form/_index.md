@@ -1,14 +1,16 @@
 ---
-title: การแปลง XFA แบบไดนามิกเป็น Acro
-linktitle: การแปลง XFA แบบไดนามิกเป็น Acro
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการแปลงฟอร์ม XFA แบบไดนามิกเป็น AcroForms มาตรฐานโดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้
-weight: 70
-url: /th/net/programming-with-forms/dynamic-xfa-to-acro-form/
+"description": "เรียนรู้วิธีการแปลงฟอร์ม XFA แบบไดนามิกเป็น AcroForms มาตรฐานโดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้"
+"linktitle": "การแปลง XFA แบบไดนามิกเป็น Acro"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "การแปลง XFA แบบไดนามิกเป็น Acro"
+"url": "/th/net/programming-with-forms/dynamic-xfa-to-acro-form/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแปลง XFA แบบไดนามิกเป็น Acro
@@ -22,7 +24,7 @@ url: /th/net/programming-with-forms/dynamic-xfa-to-acro-form/
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด มีบางสิ่งที่คุณต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่จะเป็นสภาพแวดล้อมการพัฒนาของเรา
-2.  Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้อย่างราบรื่น
 
 ## แพ็คเกจนำเข้า
@@ -47,7 +49,7 @@ using Aspose.Pdf.Forms;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- อย่าลืมเปลี่ยน`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่
+อย่าลืมเปลี่ยน `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่
 
 ## ขั้นตอนที่ 2: โหลดแบบฟอร์ม XFA แบบไดนามิก
 
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "DynamicXFAToAcroForm.pdf");
 ```
 
- ที่นี่เราสร้างใหม่`Document` วัตถุและส่งผ่านเส้นทางของไฟล์ PDF XFA แบบไดนามิกของเรา หากไฟล์อยู่ถูกต้อง ไฟล์จะถูกโหลดเข้าใน`document` ตัวแปร.
+ที่นี่เราสร้างใหม่ `Document` วัตถุและส่งผ่านเส้นทางของไฟล์ PDF XFA แบบไดนามิกของเรา หากไฟล์อยู่ถูกต้อง ไฟล์จะถูกโหลดเข้าใน `document` ตัวแปร.
 
 ## ขั้นตอนที่ 3: ตั้งค่าประเภทฟิลด์ฟอร์ม
 
@@ -69,7 +71,7 @@ Document document = new Document(dataDir + "DynamicXFAToAcroForm.pdf");
 document.Form.Type = FormType.Standard;
 ```
 
- โดยกำหนดชนิดแบบฟอร์มเป็น`Standard`เรากำลังแจ้งให้ Aspose.PDF จัดการแบบฟอร์มนี้เป็น AcroForm มาตรฐาน ซึ่งได้รับการรองรับอย่างกว้างขวางกว่าและจัดการได้ง่ายกว่า
+โดยกำหนดชนิดแบบฟอร์มเป็น `Standard`เรากำลังแจ้งให้ Aspose.PDF จัดการแบบฟอร์มนี้เป็น AcroForm มาตรฐาน ซึ่งได้รับการรองรับอย่างกว้างขวางกว่าและจัดการได้ง่ายกว่า
 
 ## ขั้นตอนที่ 4: บันทึก PDF ที่ได้
 
@@ -81,7 +83,7 @@ dataDir = dataDir + "Standard_AcroForm_out.pdf";
 document.Save(dataDir);
 ```
 
- ที่นี่เราจะผนวกชื่อไฟล์ใหม่ให้กับเรา`dataDir` และบันทึกเอกสาร ซึ่งจะสร้างไฟล์ PDF ใหม่ที่มี AcroForm ที่แปลงแล้ว
+ที่นี่เราจะผนวกชื่อไฟล์ใหม่ให้กับเรา `dataDir` และบันทึกเอกสาร ซึ่งจะสร้างไฟล์ PDF ใหม่ที่มี AcroForm ที่แปลงแล้ว
 
 ## ขั้นตอนที่ 5: ยืนยันการแปลง
 
@@ -109,13 +111,15 @@ Console.WriteLine("\nDynamic XFA form converted to standard AcroForm successfull
 ใช่ Aspose เสนอการทดลองใช้ฟรีซึ่งคุณสามารถใช้ทดสอบไลบรารีก่อนการซื้อ
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### หากฉันประสบปัญหาจะทำอย่างไร?
- คุณสามารถขอความช่วยเหลือจากชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/pdf/10).
+คุณสามารถขอความช่วยเหลือจากชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Sayfa Sayısını Al
-linktitle: PDF Dosyasında Sayfa Sayısını Al
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF kullanarak bir PDF dosyasındaki sayfa sayısını nasıl alacağınızı öğrenin. Basit ve etkili bir çözüm için adım adım kılavuzumuzu izleyin.
-weight: 80
-url: /tr/net/programming-with-pdf-pages/get-page-count/
+"description": ".NET için Aspose.PDF kullanarak bir PDF dosyasındaki sayfa sayısını nasıl alacağınızı öğrenin. Basit ve etkili bir çözüm için adım adım kılavuzumuzu izleyin."
+"linktitle": "PDF Dosyasında Sayfa Sayısını Al"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Sayfa Sayısını Al"
+"url": "/tr/net/programming-with-pdf-pages/get-page-count/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Sayfa Sayısını Al
@@ -22,12 +24,12 @@ PDF'lerle çalışmak bir kütüphaneyi organize etmeye benzer; ayrıntılara da
 Başlamadan önce birkaç şeyin yerli yerinde olması gerekir. Endişelenmeyin, her adımda size rehberlik edeceğim!
 
 1. Aspose.PDF for .NET kütüphanesi: Bu kütüphanenin projenizde yüklü olduğundan emin olun.
-2. C# ve .NET hakkında temel bilgi: Takip edebilmek için C#'a aşina olmanız gerekir.
+2. Temel C# ve .NET bilgisi: Takip edebilmek için C#'a aşina olmanız gerekir.
 3. Visual Studio veya herhangi bir C# IDE: Burası sizin kodlama oyun alanınız olacak.
 4. .NET Framework: .NET için Aspose.PDF hem .NET Framework'ü hem de .NET Core'u destekler.
 5. Üzerinde çalışabileceğiniz bir PDF belgesi (veya örnekte gösterildiği gibi Aspose.PDF kullanarak bir tane oluşturabilirsiniz).
 
- Aspose.PDF'yi henüz yüklemediyseniz, şuradan edinebilirsiniz:[Burada](https://releases.aspose.com/pdf/net/) ve kontrol et[belgeleme](https://reference.aspose.com/pdf/net/) daha fazla bilgi için.
+Aspose.PDF'yi henüz yüklemediyseniz, şuradan edinebilirsiniz: [Burada](https://releases.aspose.com/pdf/net/) ve kontrol et [belgeleme](https://reference.aspose.com/pdf/net/) daha fazla bilgi için.
 
 ## Paketleri İçe Aktar
 
@@ -44,15 +46,15 @@ Bu ad alanları, PDF belgeleri oluşturmak ve düzenlemek, metin eklemek ve sayf
 
 Kodu adım adım parçalara ayıralım, böylece yalnızca nasıl çalıştığını anlamakla kalmayıp, aynı zamanda kendi projeleriniz için onu değiştirip genişletecek kadar kendinize güvenirsiniz.
 
-##  Adım 1: Örneklemeyi oluşturun`Document` Object
+## Adım 1: Örneklemeyi oluşturun `Document` Nesne
 
- İhtiyacınız olan ilk şey, bir örnek oluşturmaktır`Document` sınıf. Bunu, sayfalar ve içerik ekleyebileceğiniz boş bir PDF dosyası açmak olarak düşünün.
+İhtiyacınız olan ilk şey, bir örnek oluşturmaktır `Document` sınıf. Bunu, sayfalar ve içerik ekleyebileceğiniz boş bir PDF dosyası açmak olarak düşünün.
 
 ```csharp
 Document doc = new Document();
 ```
 
- The`Document`sınıf ana kitap gibidir - tüm sayfaların ve içeriklerin bulunduğu yerdir. Bu adımda, doldurulmaya hazır, boş bir belge oluşturuyoruz.
+The `Document` sınıf ana kitap gibidir - tüm sayfaların ve içeriklerin bulunduğu yerdir. Bu adımda, doldurulmaya hazır, boş bir belge oluşturuyoruz.
 
 ## Adım 2: PDF'ye Sayfalar Ekleyin
 
@@ -62,11 +64,11 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Bu satır PDF'e yeni bir sayfa ekler. Bunu, belgenize yeni bir sayfa eklemek olarak düşünebilirsiniz. Her çağırdığınızda`doc.Pages.Add()`, PDF'e yeni bir sayfa eklenir.
+Bu satır PDF'e yeni bir sayfa ekler. Bunu, belgenize yeni bir sayfa eklemek olarak düşünebilirsiniz. Her çağırdığınızda `doc.Pages.Add()`, PDF'e yeni bir sayfa eklenir.
 
 ## Adım 3: PDF'ye Metin Ekleyin
 
- İşler burada ilginçleşiyor. Şimdi sayfaya bir metin ekleyeceğiz.`TextFragment`Bu adım, sayfalarınızı içerikle doldurmak ve ardından kaç sayfa oluşturduğunuzu kontrol etmek istediğiniz bir senaryoyu simüle eder.
+İşler burada ilginçleşiyor. Şimdi sayfaya bir metin ekleyeceğiz. `TextFragment`Bu adım, sayfalarınızı içerikle doldurmak ve ardından kaç sayfa oluşturduğunuzu kontrol etmek istediğiniz bir senaryoyu simüle eder.
 
 ```csharp
 for (int i = 0; i < 300; i++)
@@ -85,7 +87,7 @@ Doğru sayfa sayısını elde etmek için paragrafları işlemeniz gerekir. Bu a
 doc.ProcessParagraphs();
 ```
 
- Bir PDF'e içerik eklediğinizde, bu içerik sayfalarda hemen yer almaz.`ProcessParagraphs()`, belgeye düzeni hesaplamasını ve doğru sayfa sayısını elde etmenizi söylüyorsunuz.
+Bir PDF'ye içerik eklediğinizde, bu içerik sayfalarda hemen yer almaz. `ProcessParagraphs()`, belgeye düzeni hesaplamasını ve doğru sayfa sayısını elde etmenizi söylüyorsunuz.
 
 ## Adım 5: Sayfa Sayısını Alın ve Yazdırın
 
@@ -95,7 +97,7 @@ Son olarak belgenizdeki sayfa sayısını alıp konsola yazdırmanın zamanı ge
 Console.WriteLine("Number of pages in document = " + doc.Pages.Count);
 ```
 
- The`Pages.Count` property, belgedeki toplam sayfa sayısını döndürür. Bu gerçek anıdır – tam olarak kaç sayfa ürettiğinizi bileceksiniz!
+The `Pages.Count` property, belgedeki toplam sayfa sayısını döndürür. Bu gerçek anıdır – tam olarak kaç sayfa ürettiğinizi bileceksiniz!
 
 ## Çözüm
 
@@ -104,22 +106,24 @@ Ve işte karşınızda – .NET için Aspose.PDF kullanarak bir PDF belgesinin s
 ## SSS
 
 ### Yeni bir PDF oluşturmak yerine mevcut bir PDF'deki sayfaları sayabilir miyim?  
- Evet! Sadece mevcut PDF'yi kullanarak yükleyin`Document doc = new Document("filePath.pdf");` ve sonra ara`doc.Pages.Count`.
+Evet! Sadece mevcut PDF'yi kullanarak yükleyin `Document doc = new Document("filePath.pdf");` ve sonra ara `doc.Pages.Count`.
 
 ### Ya PDF'imde resimler ve tablolar varsa? Sayfa sayısı yine de doğru olur mu?  
 Kesinlikle. Aspose.PDF, metin, resim ve tablolar dahil her türlü içeriği işleyerek doğru bir sayfa sayısı elde etmenizi sağlar.
 
 ### Sayfaları saymadan önce farklı içerik türleri (örneğin resimler) ekleyebilir miyim?  
- Evet, Aspose.PDF resim, tablo ve çeşitli diğer öğelerin eklenmesini destekler. Bunları ekledikten sonra, basitçe şunu çağırın`doc.ProcessParagraphs()`Sayfaların sayılmasından önce içeriğin düzenlendiğinden emin olmak için.
+Evet, Aspose.PDF resim, tablo ve çeşitli diğer öğelerin eklenmesini destekler. Bunları ekledikten sonra, basitçe şunu çağırın `doc.ProcessParagraphs()` Sayfaların sayılmasından önce içeriğin düzenlendiğinden emin olmak için.
 
 ### Büyük PDF'ler için performansı optimize etmenin bir yolu var mı?  
 Evet, Aspose.PDF büyük PDF'lerin performansına yardımcı olabilecek resim ve yazı tiplerini sıkıştırma gibi çeşitli optimizasyon teknikleri sunar.
 
 ### Aspose.PDF for .NET'i kullanmak için lisansa ihtiyacım var mı?  
- Bunu bir deneyebilirsin[ücretsiz deneme](https://releases.aspose.com/) , ancak tam işlevsellik için bir lisansa ihtiyacınız olacak. Ayrıca bir lisans da alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
+Bunu bir deneyebilirsin [ücretsiz deneme](https://releases.aspose.com/), ancak tam işlevsellik için bir lisansa ihtiyacınız olacak. Ayrıca bir lisans da alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme amaçlı.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

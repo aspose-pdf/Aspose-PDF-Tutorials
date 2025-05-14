@@ -1,14 +1,16 @@
 ---
-title: Teks Dan Gambar Sebagai Paragraf Dalam File PDF
-linktitle: Teks Dan Gambar Sebagai Paragraf Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Buat PDF dengan teks dan gambar menggunakan Aspose.PDF untuk .NET. Pelajari cara menambahkan teks dan gambar sebaris langkah demi langkah.
-weight: 530
-url: /id/net/programming-with-text/text-and-image-as-paragraph/
+"description": "Buat PDF dengan teks dan gambar menggunakan Aspose.PDF untuk .NET. Pelajari cara menambahkan teks dan gambar sebaris langkah demi langkah."
+"linktitle": "Teks Dan Gambar Sebagai Paragraf Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Teks Dan Gambar Sebagai Paragraf Dalam File PDF"
+"url": "/id/net/programming-with-text/text-and-image-as-paragraph/"
+"weight": 530
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Teks Dan Gambar Sebagai Paragraf Dalam File PDF
@@ -21,12 +23,12 @@ Di dunia digital saat ini, PDF merupakan format dokumen universal yang sering ki
 
 Sebelum menyelami kodenya, mari pastikan Anda memiliki semua yang dibutuhkan agar dapat mengikutinya dengan lancar:
 
--  Pustaka Aspose.PDF untuk .NET: Anda perlu menginstal Aspose.PDF untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/).
+- Pustaka Aspose.PDF untuk .NET: Anda perlu menginstal Aspose.PDF untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Versi apa pun yang mendukung .NET akan berfungsi dengan baik.
-- Pemahaman Dasar tentang C#: Sedikit pengetahuan tentang C# akan membantu, tetapi jangan khawatir—saya akan memandu Anda melalui setiap langkah!
+- Pemahaman Dasar tentang C#: Sedikit pengetahuan tentang C# akan sangat membantu, tetapi jangan khawatir—saya akan memandu Anda melalui setiap langkah!
 - Dokumen PDF Siap: Jika Anda ingin menambahkan gambar khusus, siapkan terlebih dahulu.
 
- Anda juga bisa mendapatkan uji coba perpustakaan secara gratis[Di Sini](https://releases.aspose.com/) , atau jika Anda sedang mengerjakan proyek berskala besar, pertimbangkan untuk membelinya[Di Sini](https://purchase.aspose.com/buy) . Perlu informasi lebih lanjut? Lihat dokumentasinya[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda juga bisa mendapatkan uji coba perpustakaan secara gratis [Di Sini](https://releases.aspose.com/), atau jika Anda sedang mengerjakan proyek berskala besar, pertimbangkan untuk membelinya [Di Sini](https://purchase.aspose.com/buy). Perlu informasi lebih lanjut? Lihat dokumentasinya [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ## Paket Impor
 
@@ -57,14 +59,14 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Apa yang terjadi di sini? Kami hanya membuat dokumen baru menggunakan`Document`class dan menentukan direktori tempat Anda ingin menyimpan PDF. Ini seperti membuka kanvas baru untuk karya agung Anda!
+Apa yang terjadi di sini? Kami hanya membuat dokumen baru menggunakan `Document` class dan menentukan direktori tempat Anda ingin menyimpan PDF. Ini seperti membuka kanvas baru untuk karya agung Anda!
 
 ## Langkah 2: Tambahkan Halaman ke PDF Anda
 
 Sebuah dokumen tidak akan berguna tanpa halaman, bukan? Mari tambahkan halaman kosong ke dokumen Anda.
 
 ```csharp
-// Tambahkan halaman ke koleksi halaman dari contoh Dokumen
+// Tambahkan halaman ke koleksi halaman dari instance Dokumen
 Page page = doc.Pages.Add();
 ```
 
@@ -81,7 +83,7 @@ TextFragment text = new TextFragment("Hello World.. ");
 page.Paragraphs.Add(text);
 ```
 
- Di sini, kita membuat`TextFragment` objek untuk menampung teks "Halo Dunia..", yang kemudian ditambahkan ke halaman sebagai paragraf. Ini seperti menulis kalimat pertama dalam dokumen PDF Anda.
+Di sini, kita membuat `TextFragment` objek untuk menampung teks "Halo Dunia..", yang kemudian ditambahkan ke halaman sebagai paragraf. Ini seperti menulis kalimat pertama dalam dokumen PDF Anda.
 
 ## Langkah 4: Tambahkan Gambar sebagai Paragraf Sebaris
 
@@ -90,14 +92,14 @@ Setelah teksnya tersedia, mari kita bumbui dengan menambahkan gambar sebagai par
 ```csharp
 // Buat contoh gambar
 Aspose.Pdf.Image image = new Aspose.Pdf.Image();
-// Atur gambar sebagai paragraf sebaris sehingga muncul tepat setelahnya
+// Atur gambar sebagai paragraf sebaris sehingga muncul tepat setelahnya 
 // Objek paragraf sebelumnya (TextFragment)
 image.IsInLineParagraph = true;
-// Tentukan jalur file gambar
+// Tentukan jalur file gambar 
 image.File = dataDir + "aspose-logo.jpg";
 ```
 
- Dalam cuplikan ini, kami membuat`Image` objek, perintahkan agar sejajar dengan teks, dan tentukan jalur ke berkas gambar. Ini sama saja dengan menempelkan gambar tepat setelah kalimat dalam dokumen. Anda dapat mengganti "aspose-logo.jpg" dengan gambar yang Anda inginkan.
+Dalam cuplikan ini, kami membuat `Image` objek, perintahkan agar sejajar dengan teks, dan tentukan jalur ke berkas gambar. Ini sama saja dengan menempelkan gambar tepat setelah kalimat dalam dokumen. Anda dapat mengganti "aspose-logo.jpg" dengan gambar yang Anda inginkan.
 
 ## Langkah 5: Atur Ukuran Gambar (Opsional)
 
@@ -136,7 +138,7 @@ text.IsInLineParagraph = true;
 page.Paragraphs.Add(text);
 ```
 
- Kami menggunakan kembali`TextFragment`objek di sini dengan teks baru ("Halo Lagi..") dan masukkan sebaris, tepat setelah gambar. Ini akan memberikan tampilan yang mengalir dan kohesif pada PDF Anda.
+Kami menggunakan kembali `TextFragment` objek di sini dengan teks baru ("Halo Lagi..") dan masukkan sebaris, tepat setelah gambar. Ini akan memberikan tampilan yang mengalir dan kohesif pada PDF Anda.
 
 ## Langkah 8: Simpan Dokumen PDF
 
@@ -157,22 +159,24 @@ Nah, itu dia—membuat PDF dengan teks dan gambar sebagai paragraf sebaris mengg
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menambahkan beberapa gambar sebagai paragraf sebaris?  
- Ya, Anda dapat menambahkan beberapa gambar dengan membuat gambar terpisah`Image` objek dan menambahkannya ke koleksi paragraf.
+Ya, Anda dapat menambahkan beberapa gambar dengan membuat gambar terpisah `Image` objek dan menambahkannya ke koleksi paragraf.
 
 ### Dapatkah saya mengontrol posisi teks dan gambar dalam PDF?  
 Ya, dengan menggunakan properti seperti margin, Anda dapat mengontrol penempatan teks dan gambar yang tepat.
 
 ### Apakah Aspose.PDF untuk .NET gratis?  
- Tidak, ini adalah produk berlisensi, tetapi Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/) atau beli lisensi[Di Sini](https://purchase.aspose.com/buy).
+Tidak, ini adalah produk berlisensi, tetapi Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/) atau beli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bisakah saya menambahkan hyperlink ke teks?  
- Ya, Aspose.PDF memungkinkan Anda menambahkan hyperlink dalam fragmen teks. Periksa[dokumentasi](https://reference.aspose.com/pdf/net/) untuk lebih jelasnya.
+Ya, Aspose.PDF memungkinkan Anda menambahkan hyperlink dalam fragmen teks. Periksa [dokumentasi](https://reference.aspose.com/pdf/net/) untuk lebih jelasnya.
 
 ### Bisakah saya menyesuaikan font dan gaya teks?  
 Tentu saja! Anda dapat dengan mudah menyesuaikan font, warna, dan properti gaya lainnya pada fragmen teks.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

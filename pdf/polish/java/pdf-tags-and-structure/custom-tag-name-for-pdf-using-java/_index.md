@@ -1,20 +1,22 @@
 ---
-title: Niestandardowa nazwa znacznika dla pliku PDF przy użyciu języka Java
-linktitle: Niestandardowa nazwa znacznika dla pliku PDF przy użyciu języka Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak ustawić niestandardowe nazwy tagów dla dokumentów PDF przy użyciu języka Java za pomocą Aspose.PDF dla języka Java.
-weight: 13
-url: /pl/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/
+"description": "Dowiedz się, jak ustawić niestandardowe nazwy tagów dla dokumentów PDF przy użyciu języka Java za pomocą Aspose.PDF dla języka Java."
+"linktitle": "Niestandardowa nazwa tagu dla pliku PDF przy użyciu języka Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Niestandardowa nazwa tagu dla pliku PDF przy użyciu języka Java"
+"url": "/pl/java/pdf-tags-and-structure/custom-tag-name-for-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Niestandardowa nazwa znacznika dla pliku PDF przy użyciu języka Java
+# Niestandardowa nazwa tagu dla pliku PDF przy użyciu języka Java
 
 
-tym przewodniku krok po kroku przeprowadzimy Cię przez proces ustawiania niestandardowych nazw tagów dla dokumentów PDF przy użyciu Java z Aspose.PDF dla Java. Niestandardowe nazwy tagów pomagają poprawić dostępność dokumentów PDF, czyniąc je bardziej przyjaznymi dla użytkowników niepełnosprawnych.
+W tym przewodniku krok po kroku przeprowadzimy Cię przez proces ustawiania niestandardowych nazw tagów dla dokumentów PDF przy użyciu Java z Aspose.PDF dla Java. Niestandardowe nazwy tagów pomagają poprawić dostępność dokumentów PDF, czyniąc je bardziej przyjaznymi dla użytkowników niepełnosprawnych.
 
 ## Wstęp
 
@@ -22,7 +24,7 @@ Dokumenty PDF często zawierają złożoną treść, taką jak tabele, obrazy i 
 
 ## Wymagania wstępne
 
-Zanim zagłębisz się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
+Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
 - Pobrano i skonfigurowano bibliotekę Aspose.PDF dla Java.
@@ -58,7 +60,7 @@ page.getParagraphs().add(paragraph);
 
 ## Krok 3: Zdefiniuj niestandardowe nazwy tagów
 
- Aby ustawić niestandardowe nazwy tagów, należy użyć`Tagged` funkcja udostępniona przez Aspose.PDF. Oto jak możesz zdefiniować niestandardowe nazwy tagów dla elementów, które dodaliśmy:
+Aby ustawić niestandardowe nazwy tagów, należy użyć `Tagged` funkcja udostępniona przez Aspose.PDF. Oto jak możesz zdefiniować niestandardowe nazwy tagów dla elementów, które dodaliśmy:
 
 ```java
 // Włącz funkcję Tagowania
@@ -109,9 +111,11 @@ Do oceny skuteczności niestandardowych nazw tagów możesz użyć narzędzi do 
 
 ### 5. Czy istnieją jakieś najlepsze praktyki dotyczące wyboru niestandardowych nazw tagów?
 Wybierz nazwy tagów, które dokładnie opisują zawartość, i przestrzegaj wytycznych dotyczących dostępności, aby zapewnić spójność i przejrzystość.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

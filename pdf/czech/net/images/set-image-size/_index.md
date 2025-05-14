@@ -1,46 +1,51 @@
 ---
-title: Vytvořit a upravit PDF s obrázky pomocí Aspose.PDF pro .NET
-weight: 7700
-limit: 
-description: Naučte se vytvářet PDF dokument, vložit obrázek, upravit jeho velikost a nastavit vlastnosti stránky pomocí Aspose.PDF pro .NET. Součástí je i celý příklad kódu.
-keywords: [Aspose.PDF for .NET, create PDF in C#, add image to PDF, resize image in PDF, PDF manipulation, .NET PDF library, save PDF in C#]
-url: /cs/net/images/set-image-size/
+"description": "Naučte se, jak vytvořit dokument PDF, vložit obrázek, upravit jeho velikost a nastavit vlastnosti stránky pomocí Aspose.PDF pro .NET. Součástí je kompletní příklad kódu."
+"title": "Vytvoření a úprava PDF s obrázky pomocí Aspose.PDF pro .NET"
+"url": "/cs/net/images/set-image-size/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořit a upravit PDF s obrázky pomocí Aspose.PDF
+# Vytvořte a upravte PDF s obrázky pomocí Aspose.PDF
 
-Aspose.PDF pro .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, upravovat a manipulovat s PDF dokumenty programaticky. V tomto příkladu se naučíte, jak generovat PDF dokument, přidat obrázek, upravit jeho velikost a upravit vlastnosti stránky pomocí C#. Kód demonstruje inicializaci PDF dokumentu, vložení obrázku, nastavení rozměrů stránky a ukládání finálního souboru. Ať už pracujete s zprávy, fakturami nebo dynamickým obsahem, toto návod poskytuje jednoduchý, ale efektivní způsob, jak spravovat obrázky v PDF pomocí Aspose.PDF pro .NET.  
+Aspose.PDF pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, upravovat a manipulovat s dokumenty PDF. V tomto příkladu se naučíte, jak generovat dokument PDF, přidat obrázek, upravit jeho velikost a změnit vlastnosti stránky pomocí jazyka C#. Kód demonstruje inicializaci dokumentu PDF, vložení obrázku, nastavení rozměrů stránky a uložení výsledného souboru. Ať už pracujete se zprávami, fakturami nebo dynamickým obsahem, tento tutoriál poskytuje jednoduchý, ale efektivní způsob správy obrázků v souborech PDF pomocí knihovny Aspose.PDF pro .NET.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/set-image-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Návod k instalaci:  
+## Pokyny k instalaci:  
 
-Chcete-li použít Aspose.PDF pro .NET ve vašem projektu, postupujte podle těchto kroků:  
+Chcete-li ve svém projektu použít Aspose.PDF pro .NET, postupujte takto:  
 
-1. Instalace pomocí NuGet Package Manager:  
-Otevřete Visual Studio a spustíte následující příkaz v konzoli správce balíčků:  
+1. Instalace pomocí Správce balíčků NuGet:  
+Otevřete Visual Studio a v konzoli Správce balíčků spusťte následující příkaz:  
 ```powershell
 Install-Package Aspose.PDF
 ```
 
-2. Přidejte název do vašeho kódu C#:  
+2. Přidejte jmenný prostor do kódu C#:  
 ```csharp
 using Aspose.Pdf;
 ```
 
-## Více informací naleznete na stránkách:  
-[Aspose.PDF pro .NET dokumentaci](https://docs.aspose.com/pdf/net/)  
-[Reference API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
+## Pro více informací navštivte:  
+[Dokumentace k souboru Aspose.PDF pro .NET](https://docs.aspose.com/pdf/net/)  
+[Referenční příručka k API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

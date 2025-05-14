@@ -1,14 +1,16 @@
 ---
-title: Dodaj spis treści do pliku PDF
-linktitle: Dodaj spis treści do pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodać spis treści do pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku upraszcza proces i zapewnia łatwą nawigację w dokumentach.
-weight: 40
-url: /pl/net/programming-with-document/addtoc/
+"description": "Dowiedz się, jak dodać spis treści do pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku upraszcza proces i zapewnia łatwą nawigację w dokumentach."
+"linktitle": "Dodaj spis treści do pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj spis treści do pliku PDF"
+"url": "/pl/net/programming-with-document/addtoc/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj spis treści do pliku PDF
@@ -21,11 +23,11 @@ Czy kiedykolwiek przewijałeś bez końca długi plik PDF, życząc sobie, aby m
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1. Aspose.PDF dla .NET: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.PDF. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.PDF. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/net/).
    
 2. Środowisko programistyczne: Upewnij się, że na swoim komputerze masz skonfigurowane środowisko programistyczne .NET, np. Visual Studio.
 
-3.  Licencja: Jeśli nie masz licencji, możesz skorzystać z bezpłatnej wersji próbnej lub poprosić o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+3. Licencja: Jeśli nie masz licencji, możesz skorzystać z bezpłatnej wersji próbnej lub poprosić o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTOC.pdf");
 ```
 
- W tym kroku określamy ścieżkę do katalogu dokumentu i ładujemy plik PDF za pomocą`Document` obiekt. Upewnij się, że zastąpisz`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku.
+W tym kroku określamy ścieżkę do katalogu dokumentu i ładujemy plik PDF za pomocą `Document` obiekt. Upewnij się, że zastąpisz `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku.
 
 ## Krok 2: Wstaw nową stronę dla spisu treści
 
@@ -113,7 +115,7 @@ for (int i = 0; i < 2; i++)
 ```
 
 Oto co się dzieje:
-- Nagłówek: Tworzymy`Heading` obiekt i dodaj`TextSegment` do tego.
+- Nagłówek: Tworzymy `Heading` obiekt i dodaj `TextSegment` do tego.
 - Strona docelowa: Ustawiamy stronę, do której będzie odsyłał każdy nagłówek.
 - Pozycja górna: Określamy pozycję na stronie, na którą będzie wskazywał nagłówek.
 - Tekst: Każdy nagłówek otrzymuje swój tytuł z tablicy, którą utworzyliśmy wcześniej.
@@ -141,7 +143,7 @@ Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at "
 
 ## Wniosek
 
-masz! Dzięki Aspose.PDF dla .NET dodawanie spisu treści do pliku PDF jest nie tylko łatwe, ale również konfigurowalne. Niezależnie od tego, czy potrzebujesz utworzyć proste linki nawigacyjne, czy złożone struktury, to narzędzie Ci pomoże. Więc następnym razem, gdy będziesz pracować nad długim plikiem PDF, nie zapomnij dodać spisu treści, aby nadać mu profesjonalny charakter!
+I masz! Dzięki Aspose.PDF dla .NET dodawanie spisu treści do pliku PDF jest nie tylko łatwe, ale również konfigurowalne. Niezależnie od tego, czy potrzebujesz utworzyć proste linki nawigacyjne, czy złożone struktury, to narzędzie Ci pomoże. Więc następnym razem, gdy będziesz pracować nad długim plikiem PDF, nie zapomnij dodać spisu treści, aby nadać mu profesjonalny charakter!
 
 ## Najczęściej zadawane pytania
 
@@ -149,7 +151,7 @@ masz! Dzięki Aspose.PDF dla .NET dodawanie spisu treści do pliku PDF jest nie 
 Tak, możesz w pełni dostosować wygląd spisu treści, łącznie ze stylem, rozmiarem i wyrównaniem czcionki.
 
 ### Jak dodać podtytuły do spisu treści?  
- Możesz dodać podtytuły, dostosowując`Heading` poziom (np.`Heading(2)`) aby utworzyć hierarchiczny spis treści.
+Możesz dodać podtytuły, dostosowując `Heading` poziom (np. `Heading(2)`) aby utworzyć hierarchiczny spis treści.
 
 ### Czy istnieje możliwość automatycznej aktualizacji spisu treści w przypadku zmian w dokumencie?  
 Nie, spis treści nie zostanie automatycznie zaktualizowany. Będziesz musiał go utworzyć ponownie, jeśli struktura dokumentu ulegnie zmianie.
@@ -159,9 +161,11 @@ Tak, możesz używać hiperłączy w celu łączenia wpisów w spisie treści z 
 
 ### Czy Aspose.PDF obsługuje wielopoziomowe spisy treści?  
 Tak, Aspose.PDF obsługuje wielopoziomowe spisy treści w przypadku złożonych dokumentów z podsekcjami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

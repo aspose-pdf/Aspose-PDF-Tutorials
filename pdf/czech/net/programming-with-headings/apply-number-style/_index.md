@@ -1,34 +1,36 @@
 ---
-title: Použít styl čísel v souboru PDF
-linktitle: Použít styl čísel v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak používat různé styly čísel (římské číslice, abecední) na nadpisy v PDF pomocí Aspose.PDF for .NET pomocí tohoto podrobného průvodce.
-weight: 10
-url: /cs/net/programming-with-headings/apply-number-style/
+"description": "Naučte se, jak pomocí tohoto podrobného návodu použít různé styly číslování (římské číslice, abecední) na nadpisy v PDF pomocí Aspose.PDF pro .NET."
+"linktitle": "Použít styl čísla v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Použít styl čísla v souboru PDF"
+"url": "/cs/net/programming-with-headings/apply-number-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použít styl čísel v souboru PDF
+# Použít styl čísla v souboru PDF
 
 ## Zavedení
 
-Přistihli jste se někdy, že potřebujete do dokumentů PDF přidat krásně očíslované seznamy? Ať už formátujete právní dokumenty, zprávy nebo prezentace, správné styly číslování jsou pro uspořádání informací zásadní. S Aspose.PDF for .NET můžete na nadpisy souboru PDF použít různé styly číslování a vytvářet dobře strukturované a profesionální dokumenty. 
+Už jste někdy zjistili, že potřebujete do svých PDF dokumentů přidat krásně číslované seznamy? Ať už formátujete právní dokumenty, zprávy nebo prezentace, správné styly číslování jsou nezbytné pro organizaci informací. S Aspose.PDF pro .NET můžete na nadpisy PDF souborů použít různé styly číslování a vytvořit tak dobře strukturované a profesionální dokumenty. 
 
 ## Předpoklady
 
 Než se pustíme do kódování, pojďme si projít, co budete potřebovat:
 
-1. Aspose.PDF pro .NET: Stáhněte si nejnovější verzi Aspose.PDF z[zde](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF pro .NET: Stáhněte si nejnovější verzi souboru Aspose.PDF z [zde](https://releases.aspose.com/pdf/net/).
 2. Vývojové prostředí: Ujistěte se, že máte Visual Studio nebo jakékoli jiné IDE kompatibilní s .NET.
-3. .NET Framework: Ujistěte se, že máte nainstalované rozhraní .NET Framework 4.0 nebo vyšší.
-4.  Licence: Můžete použít dočasnou licenci z[zde](https://purchase.aspose.com/temporary-license/) nebo prozkoumat[zkušební verze zdarma](https://releases.aspose.com/) možnosti.
+3. .NET Framework: Ujistěte se, že máte nainstalovaný .NET Framework 4.0 nebo vyšší.
+4. Licence: Můžete použít dočasnou licenci od [zde](https://purchase.aspose.com/temporary-license/) nebo prozkoumejte [bezplatná zkušební verze](https://releases.aspose.com/) možnosti.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, ujistěte se, že máte do projektu importovány následující jmenné prostory:
+Chcete-li začít, ujistěte se, že máte v projektu importovány následující jmenné prostory:
 
 ```csharp
 using System.IO;
@@ -39,16 +41,16 @@ using Aspose.Pdf.Text;
 
 ## Krok 1: Nastavení dokumentu
 
-Začněme vytvořením nového dokumentu PDF a nakonfigurováním nastavení jeho stránky. Nastavíme velikost stránky a okraje, abychom řídili rozložení našeho obsahu.
+Začněme vytvořením nového PDF dokumentu a konfigurací jeho nastavení stránek. Nastavíme velikost stránky a okraje pro řízení rozvržení našeho obsahu.
 
 Vysvětlení: V tomto kroku nastavujeme základní strukturu PDF, která zahrnuje definování velikosti stránky, výšky a okrajů pro konzistentní formátování.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDoc = new Document();
 
-// Nastavte rozměry a okraje stránky
+// Nastavení rozměrů a okrajů stránky
 pdfDoc.PageInfo.Width = 612.0;
 pdfDoc.PageInfo.Height = 792.0;
 pdfDoc.PageInfo.Margin = new Aspose.Pdf.MarginInfo();
@@ -58,16 +60,16 @@ pdfDoc.PageInfo.Margin.Top = 72;
 pdfDoc.PageInfo.Margin.Bottom = 72;
 ```
 
-Tímto způsobem bude mít váš dokument standardní velikost stránky, ekvivalentní stránce 8,5 x 11 palců, a okraj 72 bodů (nebo 1 palec) na všech stranách.
+Tímto způsobem bude mít váš dokument standardní velikost stránky, ekvivalentní stránce o rozměrech 8,5 x 11 palců, a okraj 72 bodů (nebo 1 palec) na všech stranách.
 
 ## Krok 2: Přidání stránky do PDF
 
-Dále do dokumentu PDF přidáme novou stránku, kde později použijeme styly číslování.
+Dále přidáme do dokumentu PDF novou stránku, na kterou později použijeme styly číslování.
 
-Vysvětlení: Každý PDF vyžaduje stránky! Tento krok přidá do PDF prázdnou stránku a nastaví její okraje tak, aby odpovídaly nastavení na úrovni dokumentu.
+Vysvětlení: Každý PDF soubor vyžaduje stránky! Tento krok přidá do PDF prázdnou stránku a nastaví její okraje tak, aby odpovídaly nastavení na úrovni dokumentu.
 
 ```csharp
-// Přidejte do dokumentu PDF novou stránku
+// Přidání nové stránky do dokumentu PDF
 Aspose.Pdf.Page pdfPage = pdfDoc.Pages.Add();
 pdfPage.PageInfo.Width = 612.0;
 pdfPage.PageInfo.Height = 792.0;
@@ -78,11 +80,11 @@ pdfPage.PageInfo.Margin.Top = 72;
 pdfPage.PageInfo.Margin.Bottom = 72;
 ```
 
-## Krok 3: Vytvořte plovoucí krabici
+## Krok 3: Vytvořte plovoucí rámeček
 
-FloatingBox vám umožňuje umístit obsah (jako text nebo nadpisy) do rámečku, který se chová nezávisle na toku stránky. To je užitečné, když chcete mít úplnou kontrolu nad rozložením vašeho obsahu.
+Plovoucí pole (FloatingBox) umožňuje umístit obsah (například text nebo nadpisy) do rámečku, který se chová nezávisle na toku stránky. To je užitečné, když chcete mít úplnou kontrolu nad rozvržením obsahu.
 
-Vysvětlení: Zde nastavujeme FloatingBox, který bude obsahovat nadpisy, pro které budou použity styly čísel.
+Vysvětlení: Zde nastavujeme FloatingBox, který bude obsahovat nadpisy, na které budou použity styly čísel.
 
 ```csharp
 // Vytvořte FloatingBox pro strukturovaný obsah
@@ -93,12 +95,12 @@ pdfPage.Paragraphs.Add(floatBox);
 
 ## Krok 4: Přidejte první nadpis s římskými číslicemi
 
-Nyní přichází ta vzrušující část! Doplňme první nadpis s číslováním malými římskými číslicemi.
+A teď přichází ta vzrušující část! Přidejme první nadpis s malými římskými číslicemi.
 
-Vysvětlení: Na nadpis aplikujeme styl NumberingStyle.NumeralsRomanLowercase, který zobrazí číslování římskými číslicemi (i, ii, iii atd.).
+Vysvětlení: Na nadpis aplikujeme styl NumberingStyle.NumeralsRomanLowercase, který bude zobrazovat číslování římskými číslicemi (i, ii, iii atd.).
 
 ```csharp
-// Vytvořte první nadpis římskými číslicemi
+// Vytvořte první nadpis pomocí římských číslic
 Aspose.Pdf.Heading heading = new Aspose.Pdf.Heading(1);
 heading.IsInList = true;
 heading.StartNumber = 1;
@@ -108,11 +110,11 @@ heading.IsAutoSequence = true;
 floatBox.Paragraphs.Add(heading);
 ```
 
-## Krok 5: Přidejte nadpis druhé římské číslice
+## Krok 5: Přidejte druhý nadpis s římskými číslicemi
 
-Pro demonstrační účely přidáme nadpis druhé římské číslice, ale tentokrát začneme od 13.
+Pro demonstrační účely přidejme druhý nadpis s římskými číslicemi, ale tentokrát začneme od 13.
 
-Vysvětlení: Vlastnost StartNumber umožňuje začít číslovat od vlastního čísla – v tomto případě začínáme od 13.
+Vysvětlení: Vlastnost StartNumber umožňuje začít číslování od vlastního čísla – v tomto případě začínáme od 13.
 
 ```csharp
 // Vytvořte druhý nadpis začínající římskou číslicí 13
@@ -125,11 +127,11 @@ heading2.IsAutoSequence = true;
 floatBox.Paragraphs.Add(heading2);
 ```
 
-## Krok 6: Přidejte nadpis s abecedním číslováním
+## Krok 6: Přidání nadpisu s abecedním číslováním
 
-Pro zpestření přidáme třetí nadpis, tentokrát však použijeme abecední číslování malými písmeny (a, b, c atd.).
+Pro zpestření přidejme třetí nadpis, ale tentokrát použijeme abecední číslování malými písmeny (a, b, c atd.).
 
-Vysvětlení: Změna NumberingStyle na LettersLowercase nám umožňuje použít pro naše nadpisy abecední číslování.
+Vysvětlení: Změna stylu číslování na LettersLowercase nám umožňuje použít abecední číslování pro naše nadpisy.
 
 ```csharp
 // Vytvořte nadpis s abecedním číslováním
@@ -142,14 +144,14 @@ heading3.IsAutoSequence = true;
 floatBox.Paragraphs.Add(heading3);
 ```
 
-## Krok 7: Uložení PDF
+## Krok 7: Uložení PDF souboru
 
-Nakonec, po použití všech nadpisů a stylů čísel, uložme soubor PDF do požadovaného adresáře.
+Nakonec, po použití všech stylů nadpisů a číslování, uložme soubor PDF do požadovaného adresáře.
 
-Vysvětlení: Tento krok uloží soubor PDF obsahující všechna formátovaná záhlaví s použitými styly číslování.
+Vysvětlení: Tento krok uloží soubor PDF obsahující všechny formátované nadpisy s použitými styly číslování.
 
 ```csharp
-// Uložte dokument PDF
+// Uložit dokument PDF
 dataDir = dataDir + "ApplyNumberStyle_out.pdf";
 pdfDoc.Save(dataDir);
 Console.WriteLine("\nNumber style applied successfully in headings.\nFile saved at " + dataDir);
@@ -157,27 +159,29 @@ Console.WriteLine("\nNumber style applied successfully in headings.\nFile saved 
 
 ## Závěr
 
-A tady to máte! Úspěšně jste použili styly číslování – římské číslice a abecedu – na nadpisy v souboru PDF pomocí Aspose.PDF for .NET. Flexibilita poskytovaná Aspose.PDF pro ovládání rozvržení stránky, stylů číslování a umístění obsahu vám poskytuje výkonnou sadu nástrojů pro vytváření dobře organizovaných profesionálních dokumentů PDF.
+A tady to máte! Úspěšně jste aplikovali styly číslování – římské číslice a abecední – na nadpisy v souboru PDF pomocí Aspose.PDF pro .NET. Flexibilita, kterou Aspose.PDF nabízí pro ovládání rozvržení stránky, stylů číslování a umístění obsahu, vám poskytuje výkonnou sadu nástrojů pro vytváření dobře organizovaných a profesionálních dokumentů PDF.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu na stejný dokument PDF použít různé styly čísel?  
-Ano, Aspose.PDF for .NET vám umožňuje kombinovat různé styly číslování, jako jsou římské číslice, arabské číslice a abecední číslování v rámci jednoho dokumentu.
+### Mohu na stejný dokument PDF použít různé styly číslování?  
+Ano, Aspose.PDF pro .NET umožňuje kombinovat různé styly číslování, jako jsou římské číslice, arabské číslice a abecední číslování v rámci jednoho dokumentu.
 
-### Jak mohu upravit počáteční číslo pro nadpisy?  
- Počáteční číslo pro jakýkoli nadpis můžete nastavit pomocí`StartNumber` vlastnictví.
+### Jak mohu přizpůsobit počáteční číslování pro nadpisy?  
+Počáteční číslo pro libovolný nadpis můžete nastavit pomocí `StartNumber` vlastnictví.
 
-### Existuje způsob, jak resetovat posloupnost číslování?  
-Ano, číslování můžete resetovat úpravou`StartNumber` vlastnost pro každý nadpis.
+### Existuje způsob, jak resetovat pořadí číslování?  
+Ano, číslování můžete resetovat úpravou `StartNumber` vlastnost pro každý nadpis.
 
-### Mohu na nadpisy kromě číslování použít i tučný styl nebo kurzívu?  
- Absolutně! Styly nadpisů můžete upravit úpravou vlastností, jako je písmo, velikost, tučné písmo a kurzíva pomocí`TextState` objekt.
+### Mohu kromě číslování použít na nadpisy tučné písmo nebo kurzívu?  
+Rozhodně! Styly nadpisů si můžete přizpůsobit úpravou vlastností, jako je písmo, velikost, tučné písmo a kurzíva, pomocí `TextState` objekt.
 
 ### Jak získám dočasnou licenci pro Aspose.PDF?  
- Dočasnou licenci můžete získat od[zde](https://purchase.aspose.com/temporary-license/) k testování Aspose.PDF bez omezení.
+Dočasné povolení můžete získat od [zde](https://purchase.aspose.com/temporary-license/) otestovat Aspose.PDF bez omezení.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

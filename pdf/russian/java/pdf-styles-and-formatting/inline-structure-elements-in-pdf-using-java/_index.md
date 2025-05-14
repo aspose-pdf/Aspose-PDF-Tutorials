@@ -1,14 +1,16 @@
 ---
-title: Встроенные элементы структуры в PDF с использованием Java
-linktitle: Встроенные элементы структуры в PDF с использованием Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как реализовать элементы встроенной структуры в документах PDF с помощью Java с Aspose.PDF для Java. Создавайте доступные и хорошо структурированные PDF-файлы.
-weight: 10
-url: /ru/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-java/
+"description": "Узнайте, как реализовать элементы встроенной структуры в документах PDF с помощью Java с Aspose.PDF для Java. Создавайте доступные и хорошо структурированные PDF-файлы."
+"linktitle": "Встроенные элементы структуры в PDF с использованием Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Встроенные элементы структуры в PDF с использованием Java"
+"url": "/ru/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Встроенные элементы структуры в PDF с использованием Java
@@ -24,7 +26,7 @@ url: /ru/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-j
 
 ## Важность элементов встроенной структуры
 
-Элементы Inline Structure играют важную роль в создании доступных и хорошо организованных PDF-документов. Они обеспечивают такие преимущества, как:
+Элементы встроенной структуры играют важную роль в создании доступных и хорошо организованных PDF-документов. Они обеспечивают такие преимущества, как:
 
 - Расширенные возможности доступа для пользователей с ограниченными возможностями.
 - Улучшенная навигация и структура документа.
@@ -41,7 +43,7 @@ url: /ru/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-j
 
 Чтобы установить Aspose.PDF для Java, выполните следующие действия:
 
-1.  Загрузите Aspose.PDF для Java: посетите веб-сайт Aspose[здесь](https://releases.aspose.com/pdf/java/) и загрузите последнюю версию Aspose.PDF для Java.
+1. Загрузите Aspose.PDF для Java: посетите веб-сайт Aspose [здесь](https://releases.aspose.com/pdf/java/) и загрузите последнюю версию Aspose.PDF для Java.
 
 2. Добавьте в свой проект: добавьте библиотеку Aspose.PDF в свой проект Java, включив файл JAR в путь сборки вашего проекта.
 
@@ -76,7 +78,7 @@ pdfDocument.save("output.pdf");
 
 ## Форматирование текста
 
-Элементы встроенной структуры не только помогают структурировать документ, но и позволяют форматировать текст для улучшения его внешнего вида.
+Встроенные структурные элементы не только помогают структурировать документ, но и позволяют форматировать текст для улучшения его внешнего вида.
 
 ### Изменение цвета текста
 
@@ -107,14 +109,14 @@ textFragment.getTextState().setUnderline(TextStateDecoration.Line);
 
 ## Добавление изображений в PDF
 
-Помимо текста, вы также можете добавлять в свой PDF-документ изображения.
+Помимо текста, в PDF-документ можно добавлять изображения.
 
 ### Вставка изображений в PDF
 
 Чтобы вставить изображение в PDF-файл:
 
 ```java
-//Загрузить изображение
+// Загрузить изображение
 com.aspose.pdf.Image image = new com.aspose.pdf.Image();
 image.setFile("image.png");
 
@@ -154,7 +156,7 @@ link.setAction(new GoToURIAction(new URI("https://www.example.com")));
 
 Теперь давайте рассмотрим, как можно использовать встроенные элементы структуры для эффективного структурирования содержимого PDF-документа.
 
-### Понимание элементов структуры PDF-файла
+### Понимание элементов структуры PDF
 
 Элементы структуры PDF обеспечивают иерархическую структуру для содержимого документа. Они включают такие элементы, как абзацы, заголовки, списки и многое другое.
 
@@ -205,11 +207,11 @@ textFragment.getTextState().setStructureElement(inlineTextElement);
 
 ### Как установить Aspose.PDF для Java?
 
- Чтобы установить Aspose.PDF для Java, посетите веб-сайт Aspose.[здесь](https://releases.aspose.com/pdf/java/) и загрузите последнюю версию. Затем добавьте файл JAR в путь сборки вашего проекта Java.
+Чтобы установить Aspose.PDF для Java, посетите веб-сайт Aspose. [здесь](https://releases.aspose.com/pdf/java/) и загрузите последнюю версию. Затем добавьте файл JAR в путь сборки вашего проекта Java.
 
 ### Можно ли изменить цвет встроенного текста в PDF-файле?
 
-Да, вы можете изменить цвет встроенного текста в PDF с помощью Aspose.PDF для Java. Используйте`setTextState().setForegroundColor(Color)` метод указания цвета.
+Да, вы можете изменить цвет встроенного текста в PDF с помощью Aspose.PDF для Java. Используйте `setTextState().setForegroundColor(Color)` метод указания цвета.
 
 ### В чем преимущество создания доступных PDF-файлов?
 
@@ -217,10 +219,12 @@ textFragment.getTextState().setStructureElement(inlineTextElement);
 
 ### Как создать гиперссылки в PDF-файле?
 
- Чтобы создать гиперссылки в PDF-файле, используйте Aspose.PDF для Java.`LinkAnnotation` и свяжите его с нужным текстом или элементом. Укажите целевой URL или действие для гиперссылки.
+Чтобы создать гиперссылки в PDF-файле, используйте Aspose.PDF для Java. `LinkAnnotation` и свяжите его с нужным текстом или элементом. Укажите целевой URL или действие для гиперссылки.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

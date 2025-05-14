@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Link PDFs Using Aspose.PDF for Java: Create Hyperlinks Between Documents Easily
 
@@ -156,7 +158,11 @@ Explore more advanced features of Aspose.PDF or integrate these techniques into 
 - **Support Forum:** [Aspose Community](https://forum.aspose.com/c/pdf/10)
 
 Explore these resources to deepen your understanding and mastery of Aspose.PDF for Java. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract PDF Text Fragments with Aspose.PDF for Java: A Comprehensive Guide
 
@@ -222,7 +224,11 @@ By following this guide, you now have the skills to extract and print text fragm
    - A free trial is available, but for full functionality, consider purchasing a license or obtaining a temporary one.
 5. **Where can I find additional resources and support for Aspose.PDF?**
    - Visit the official [Aspose documentation](https://docs.aspose.com/pdf/java/) and community forums for more information and assistance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Metin Segmentleri Sayfasını Ara
-linktitle: PDF Dosyasında Metin Segmentleri Sayfasını Ara
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu ayrıntılı adım adım kılavuzla .NET için Aspose.PDF kullanarak PDF dosyalarındaki metin segmentlerini nasıl arayacağınızı öğrenin. Metni ayıklayın, segmentleri analiz edin ve daha fazlasını yapın.
-weight: 470
-url: /tr/net/programming-with-text/search-text-segments-page/
+"description": "Bu ayrıntılı adım adım kılavuzla .NET için Aspose.PDF kullanarak PDF dosyalarındaki metin segmentlerini nasıl arayacağınızı öğrenin. Metni ayıklayın, segmentleri analiz edin ve daha fazlasını yapın."
+"linktitle": "PDF Dosyasında Metin Segmentleri Sayfasını Ara"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Metin Segmentleri Sayfasını Ara"
+"url": "/tr/net/programming-with-text/search-text-segments-page/"
+"weight": 470
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Metin Segmentleri Sayfasını Ara
@@ -21,12 +23,12 @@ Aspose.PDF for .NET kullanarak bir PDF belgesindeki belirli metin parçalarını
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  .NET için Aspose.PDF: Kütüphanenin kurulu olduğundan emin olun. Buradan alabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+- .NET için Aspose.PDF: Kütüphanenin kurulu olduğundan emin olun. Buradan alabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Bilgisayarınızda .NET'in yüklü olduğundan emin olun.
 - Geliştirme Ortamı: Visual Studio veya herhangi bir .NET destekli IDE önerilir.
 - PDF Belgesi: Metin parçalarını arayacağınız bir PDF dosyası.
 
- Eğer henüz .NET için Aspose.PDF'niz yoksa endişelenmeyin! Ücretsiz deneme sürümünü şuradan edinebilirsiniz:[Burada](https://releases.aspose.com/) veya satın al[Burada](https://purchase.aspose.com/buy).
+Eğer henüz .NET için Aspose.PDF'niz yoksa endişelenmeyin! Ücretsiz deneme sürümünü şuradan edinebilirsiniz: [Burada](https://releases.aspose.com/) veya satın al [Burada](https://purchase.aspose.com/buy).
 
 ## Paketleri İçe Aktar
 
@@ -53,19 +55,19 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "SearchTextSegmentsPage.pdf");
 ```
 
-- `dataDir` : Bu değişken PDF dosyanızın yolunu tutar. Değiştir`"YOUR DOCUMENT DIRECTORY"` dosyanızın saklandığı gerçek dizinle.
-- `pdfDocument` : Kullanımı`Document` Sınıfta PDF'yi hafızaya yüklüyoruz.
+- `dataDir`: Bu değişken PDF dosyanızın yolunu tutar. Değiştir `"YOUR DOCUMENT DIRECTORY"` dosyanızın saklandığı gerçek dizinle.
+- `pdfDocument`: Kullanımı `Document` Sınıfta PDF'yi hafızaya yüklüyoruz.
 
 ## Adım 2: Metin Aramasını Ayarlayın
 
- Artık belgeniz yüklendiğine göre, bir sonraki adım bir belge oluşturmaktır.`TextFragmentAbsorber` Belge içerisinde belirli bir metni aramamıza olanak sağlayan nesne.
+Artık belgeniz yüklendiğine göre, bir sonraki adım bir belge oluşturmaktır `TextFragmentAbsorber` Belge içerisinde belirli bir metni aramamıza olanak sağlayan nesne.
 
 ```csharp
 // Giriş arama ifadesinin tüm örneklerini bulmak için TextAbsorber nesnesi oluşturun
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
 
-- `TextFragmentAbsorber` : Bu nesne aradığınız metnin tüm örneklerini yakalamak için kullanılır. Değiştir`"text"` Aramak istediğiniz gerçek metinle birlikte.
+- `TextFragmentAbsorber`: Bu nesne aradığınız metnin tüm örneklerini yakalamak için kullanılır. Değiştir `"text"` Aramak istediğiniz gerçek metinle birlikte.
 
 ## Adım 3: Belirli Sayfa(lar) için Absorber'ı Kabul Edin
 
@@ -77,7 +79,7 @@ pdfDocument.Pages[2].Accept(textFragmentAbsorber);
 ```
 
 - `pdfDocument.Pages[2]`: Bu, belgenin yalnızca ikinci sayfasını aradığımızı gösterir. Dizini diğer sayfaları hedefleyecek şekilde değiştirebilirsiniz.
-- `Accept()` : Bu yöntem,`TextFragmentAbsorber` Belirtilen sayfadaki metni işlemek için.
+- `Accept()`: Bu yöntem, `TextFragmentAbsorber` Belirtilen sayfadaki metni işlemek için.
 
 ## Adım 4: Metin Parçalarını Çıkarın
 
@@ -114,13 +116,13 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
-- `foreach (TextFragment textFragment in textFragmentCollection)` : Her bir döngüde`TextFragment` koleksiyonda.
+- `foreach (TextFragment textFragment in textFragmentCollection)`: Her bir döngüde `TextFragment` koleksiyonda.
 - `foreach (TextSegment textSegment in textFragment.Segments)`: Her parçanın içinde birden fazla segment var. Tüm ilgili bilgileri toplamak için bunlar arasında döngü oluşturuyoruz.
--  Çeşitli özellikleri`textSegment`Bunlar bize metnin konumu (X ve Y), yazı tipi ayrıntıları, boyutu ve rengi gibi metin hakkında ayrıntılı bilgi verir.
+- Çeşitli özellikleri `textSegment`Bunlar bize metnin konumu (X ve Y), yazı tipi ayrıntıları, boyutu ve rengi gibi metin hakkında ayrıntılı bilgi verir.
 
 ## Adım 6: Sonuçları Çıktılayın
 
-Son olarak, tüm bilgiler çıkarıldıktan sonra sonuçlar konsolda yazdırılır. Bu, metnin tam olarak nerede bulunduğunu ve biçimlendirme ayrıntılarını görmenize yardımcı olur.
+Son olarak, tüm bilgiler çıkarıldıktan sonra sonuçlar konsolda yazdırılır. Bu, metnin tam olarak nerede olduğunu ve biçimlendirme ayrıntılarını görmenize yardımcı olur.
 
 Netlik açısından örnek çıktıyı aşağıda bulabilirsiniz:
 
@@ -146,22 +148,24 @@ Foreground Color : System.Drawing.Color [Black]
 ## SSS
 
 ### Birden fazla kelime veya ifade arayabilir miyim?
- Evet, değiştirebilirsiniz`TextFragmentAbsorber`Giriş dizesini değiştirerek farklı metin aramak için.
+Evet, değiştirebilirsiniz `TextFragmentAbsorber` Giriş dizesini değiştirerek farklı metin aramak için.
 
 ### Birden fazla sayfada arama yapmak mümkün mü?
- Kesinlikle! PDF'deki tüm sayfalarda yineleme yaparak dolaşabilirsiniz`pdfDocument.Pages`.
+Kesinlikle! PDF'deki tüm sayfalarda yineleme yaparak dolaşabilirsiniz `pdfDocument.Pages`.
 
 ### Büyük/küçük harfe duyarlı olmayan metinlerde nasıl arama yapabilirim?
- Kullanabilirsiniz`TextSearchOptions` büyük/küçük harfe duyarlı olmayan aramayı etkinleştirmek için.
+Kullanabilirsiniz `TextSearchOptions` büyük/küçük harfe duyarlı olmayan aramayı etkinleştirmek için.
 
 ### Metni bulduktan sonra değiştirebilir miyim?
- Evet, bir tane bulduğunuzda`TextFragment`, metin özelliklerini değiştirebilirsiniz.
+Evet, bir tane bulduğunuzda `TextFragment`, metin özelliklerini değiştirebilirsiniz.
 
 ### Bu yöntem şifreli PDF'ler için de geçerli mi?
 Evet, PDF'i doğru şifreyi kullanarak açtığınız sürece.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

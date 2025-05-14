@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Tagged PDF Creation with Aspose.PDF for Java
 
@@ -156,7 +158,11 @@ Consider exploring more advanced features in Aspose.PDF or integrating these tec
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 Embark on your journey to creating more accessible and structured PDF documents today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

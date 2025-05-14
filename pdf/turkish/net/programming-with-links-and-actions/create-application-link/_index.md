@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Uygulama Bağlantısı Oluştur
-linktitle: PDF Dosyasında Uygulama Bağlantısı Oluştur
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyalarında uygulama bağlantıları oluşturmayı öğrenin. PDF'lerinizdeki etkileşimi artırmak için adım adım kılavuz.
-weight: 20
-url: /tr/net/programming-with-links-and-actions/create-application-link/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyalarında uygulama bağlantıları oluşturmayı öğrenin. PDF'lerinizdeki etkileşimi artırmak için adım adım kılavuz."
+"linktitle": "PDF Dosyasında Uygulama Bağlantısı Oluştur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Uygulama Bağlantısı Oluştur"
+"url": "/tr/net/programming-with-links-and-actions/create-application-link/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Uygulama Bağlantısı Oluştur
@@ -62,7 +64,7 @@ Artık ön koşullar tamamlandığına göre PDF'de uygulama bağlantısı oluş
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF belgelerinizi içeren klasörün gerçek yolu ile. Bu değişken PDF düzenlememiz için temel yol olarak işlev görecektir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF belgelerinizi içeren klasörün gerçek yolu ile. Bu değişken PDF düzenlememiz için temel yol olarak işlev görecektir.
 
 ## Adım 2: PDF Belgesini açın
 
@@ -72,7 +74,7 @@ Daha sonra uygulama linkini oluşturmak istediğimiz PDF dosyasını açmamız g
 Document document = new Document(dataDir + "CreateApplicationLink.pdf");
 ```
 
- Biz kullanıyoruz`Document` PDF dosyamızı yüklemek için Aspose.PDF'den sınıf. Bu örnek PDF'yi düzenlememize ve düzenlememize olanak tanıyacak.
+Biz kullanıyoruz `Document` PDF dosyamızı yüklemek için Aspose.PDF'den sınıf. Bu örnek PDF'yi düzenlememize ve düzenlememize olanak tanıyacak.
 
 ## Adım 3: Bağlantı Açıklamasını Oluşturun
 
@@ -83,8 +85,8 @@ Page page = document.Pages[1];
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
--  Burada,`page` Bağlantıyı hangi sayfaya uygulayacağınızı gösterir (bu durumda ilk sayfa).
--  The`LinkAnnotation`sınıf, belirtilen sayfada (100,100)'de başlayıp (300,300)'de biten dikdörtgen bir alanla tanımlanan yeni bir bağlantı oluşturur. Bu dikdörtgen, PDF'deki bağlantının tıklanabilir alanını belirler.
+- Burada, `page` Bağlantıyı hangi sayfaya uygulayacağınızı gösterir (bu durumda ilk sayfa).
+- The `LinkAnnotation` sınıf, belirtilen sayfada (100,100)'de başlayıp (300,300)'de biten dikdörtgen bir alanla tanımlanan yeni bir bağlantı oluşturur. Bu dikdörtgen, PDF'deki bağlantının tıklanabilir alanını belirler.
 
 ## Adım 4: Bağlantı Rengini Ayarlayın
 
@@ -104,7 +106,7 @@ Bağlantı açıklamasının rengini değiştirebilirsiniz. Bu durumda, genellik
 link.Action = new LaunchAction(document, dataDir + "CreateApplicationLink.pdf");
 ```
 
- İle`LaunchAction`, tıklandığında bağlantının ne yapacağını belirtiriz. Burada, aynı PDF dosyasını açmak için tanımladık. Bunu, gerektiğinde bir uygulamaya veya başka bir belgeye bağlamak için kolayca değiştirebilirsiniz.
+İle `LaunchAction`, tıklandığında bağlantının ne yapacağını belirtiriz. Burada, aynı PDF dosyasını açmak için tanımladık. Bunu, gerektiğinde bir uygulamaya veya başka bir belgeye bağlamak için kolayca değiştirebilirsiniz.
 
 ## Adım 6: Sayfaya Açıklama Ekleyin
 
@@ -147,19 +149,21 @@ Sadece birkaç basit adımda, .NET için Aspose.PDF kullanarak bir PDF dosyasın
 Aspose.PDF for .NET, .NET framework ile geliştirilen uygulamalarda PDF dosyaları oluşturmak ve düzenlemek için güçlü bir kütüphanedir.
 
 ### Aspose.PDF'yi nasıl indirebilirim?  
- .NET için Aspose.PDF'yi şu adresi ziyaret ederek indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/pdf/net/).
+.NET için Aspose.PDF'yi şu adresi ziyaret ederek indirebilirsiniz: [bu bağlantı](https://releases.aspose.com/pdf/net/).
 
 ### Aspose'un ücretsiz deneme seçeneği var mı?  
- Evet, Aspose.PDF'in ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose.PDF'in ücretsiz deneme sürümüne erişebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF kullanımı konusunda destek alabilir miyim?  
- Kesinlikle! Destekle ilgili herhangi bir sorunuz varsa, şu adresi ziyaret edin:[Aspose PDF Destek Forumu](https://forum.aspose.com/c/pdf/10).
+Kesinlikle! Destekle ilgili herhangi bir sorunuz varsa, şu adresi ziyaret edin: [Aspose PDF Destek Forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose için geçici lisansı nasıl alabilirim?  
- Geçici lisansı şuradan alabilirsiniz:[bu sayfa](https://purchase.aspose.com/temporary-license/).
+Geçici lisansı şuradan alabilirsiniz: [bu sayfa](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

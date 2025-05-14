@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ फाइल में खाली पेज डालें
-linktitle: पीडीएफ फाइल में खाली पेज डालें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ में खाली पृष्ठ सम्मिलित करना सीखें। सहज PDF हेरफेर के लिए कोड उदाहरणों के साथ चरण-दर-चरण ट्यूटोरियल।
-weight: 120
-url: /hi/net/programming-with-pdf-pages/insert-empty-page/
+"description": ".NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ में खाली पृष्ठ सम्मिलित करना सीखें। सहज PDF हेरफेर के लिए कोड उदाहरणों के साथ चरण-दर-चरण ट्यूटोरियल।"
+"linktitle": "पीडीएफ फाइल में खाली पेज डालें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ फाइल में खाली पेज डालें"
+"url": "/hi/net/programming-with-pdf-pages/insert-empty-page/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ फाइल में खाली पेज डालें
@@ -21,11 +23,11 @@ url: /hi/net/programming-with-pdf-pages/insert-empty-page/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित चीज़ें मौजूद हैं:
 
--  अपने विकास परिवेश में .NET के लिए Aspose.PDF स्थापित करें। आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/pdf/net/).
-- एक .NET विकास वातावरण जैसे कि Visual Studio.
+- अपने विकास परिवेश में .NET के लिए Aspose.PDF स्थापित करें। आप कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/pdf/net/).
+- एक .NET विकास वातावरण जैसे कि विजुअल स्टूडियो.
 - C# और ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग की बुनियादी समझ।
 
- यदि आपने अभी तक ऐसा नहीं किया है, तो आप Aspose से एक अस्थायी लाइसेंस प्राप्त करना चाह सकते हैं ताकि आप आगे बढ़ने के दौरान सीमाओं से बच सकें।[इसे यहां प्राप्त करें](https://purchase.aspose.com/temporary-license/).
+यदि आपने अभी तक ऐसा नहीं किया है, तो आप Aspose से एक अस्थायी लाइसेंस प्राप्त करना चाह सकते हैं ताकि आप आगे बढ़ने के दौरान सीमाओं से बच सकें। [इसे यहां प्राप्त करें](https://purchase.aspose.com/temporary-license/).
 
 ## पैकेज आयात करें
 
@@ -61,7 +63,7 @@ using Aspose.Pdf;
 
 ### 2.1 निर्देशिका पथ परिभाषित करें
 
- पहली चीज़ जो हमें करने की ज़रूरत है वह है आपके PDF दस्तावेज़ का पथ निर्धारित करना।`"YOUR DOCUMENT DIRECTORY"`उस फ़ोल्डर के वास्तविक पथ के साथ जहां आपकी पीडीएफ फाइल स्थित है।
+पहली चीज़ जो हमें करने की ज़रूरत है वह है आपके PDF दस्तावेज़ का पथ निर्धारित करना। `"YOUR DOCUMENT DIRECTORY"` उस फ़ोल्डर का वास्तविक पथ जहाँ आपकी पीडीएफ फाइल स्थित है।
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -95,7 +97,7 @@ pdfDocument1.Pages.Insert(2);
 
 ### 4.1 आउटपुट फ़ाइल पथ परिभाषित करें
 
-आइए परिभाषित करें कि नई फ़ाइल को कहाँ सहेजा जाना चाहिए। इस मामले में, हम इसे उसी निर्देशिका में सहेजेंगे, "_स्पष्टता के लिए फ़ाइल नाम में "आउट" जोड़ें।
+आइए परिभाषित करें कि नई फ़ाइल को कहाँ सहेजा जाना चाहिए। इस मामले में, हम इसे उसी निर्देशिका में सहेजेंगे, स्पष्टता के लिए फ़ाइल नाम में "_out" जोड़ेंगे।
 
 ```csharp
 dataDir = dataDir + "InsertEmptyPage_out.pdf";
@@ -129,7 +131,7 @@ System.Console.WriteLine("\nEmpty page inserted successfully.\nFile saved at " +
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं एक साथ कई पृष्ठ सम्मिलित कर सकता हूँ?
- हां, आप कॉल करके कई पेज सम्मिलित कर सकते हैं`Insert` विधि को कई बार या लूप का उपयोग करके।
+हां, आप कॉल करके कई पेज सम्मिलित कर सकते हैं `Insert` विधि को कई बार या लूप का उपयोग करके।
 
 ### क्या यह विधि बहुत बड़ी पीडीएफ फाइलों के साथ काम करती है?
 हां, Aspose.PDF छोटी और बड़ी दोनों PDF फाइलों को कुशलतापूर्वक संभालने के लिए अनुकूलित है।
@@ -137,14 +139,16 @@ System.Console.WriteLine("\nEmpty page inserted successfully.\nFile saved at " +
 ### क्या मैं खाली पृष्ठ के स्थान पर कस्टम सामग्री वाला पृष्ठ सम्मिलित कर सकता हूँ?
 बिल्कुल! आप पाठ या चित्र जैसी सामग्री के साथ एक पृष्ठ बना सकते हैं, और फिर उसे दस्तावेज़ में सम्मिलित कर सकते हैं।
 
-### क्या .NET के लिए Aspose.PDF .NET कोर के साथ संगत है?
+### क्या Aspose.PDF for .NET .NET कोर के साथ संगत है?
 हां, Aspose.PDF .NET फ्रेमवर्क और .NET कोर दोनों का समर्थन करता है।
 
 ### मैं बिना किसी सीमा के कोड का परीक्षण कैसे करूँ?
- आप अनुरोध कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) परीक्षण प्रयोजनों के लिए Aspose.PDF के पूर्ण कार्यात्मक संस्करण के लिए।
+आप अनुरोध कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) परीक्षण प्रयोजनों के लिए Aspose.PDF के पूर्ण कार्यात्मक संस्करण के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके किसी अन्य PDF दस्तावेज़ का लिंक बनाएं
-linktitle: जावा का उपयोग करके किसी अन्य PDF दस्तावेज़ का लिंक बनाएं
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Aspose.PDF for Java के साथ आसानी से Java में PDF दस्तावेज़ लिंक बनाना सीखें। PDF अन्तरक्रियाशीलता के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 14
-url: /hi/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/
+"description": "Aspose.PDF for Java के साथ आसानी से Java में PDF दस्तावेज़ लिंक बनाना सीखें। PDF अन्तरक्रियाशीलता के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा का उपयोग करके किसी अन्य PDF दस्तावेज़ का लिंक बनाएं"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके किसी अन्य PDF दस्तावेज़ का लिंक बनाएं"
+"url": "/hi/java/pdf-document-links/create-a-link-to-another-pdf-document-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके किसी अन्य PDF दस्तावेज़ का लिंक बनाएं
@@ -87,7 +89,7 @@ Java और Aspose.PDF for Java का उपयोग करके किसी
 
 ### मैं Java के लिए Aspose.PDF कैसे डाउनलोड कर सकता हूँ?
 
- आप जावा के लिए Aspose.PDF को वेबसाइट से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/).
+आप जावा के लिए Aspose.PDF को वेबसाइट से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ### क्या मैं व्यावसायिक परियोजनाओं में Java के लिए Aspose.PDF का उपयोग कर सकता हूँ?
 
@@ -99,14 +101,16 @@ Java और Aspose.PDF for Java का उपयोग करके किसी
 
 ### मैं किसी PDF दस्तावेज़ में विशिष्ट पृष्ठों के लिंक कैसे जोड़ूं?
 
- आप इसका उपयोग कर सकते हैं`GoToAction`जावा के लिए Aspose.PDF में क्लास का उपयोग करके PDF दस्तावेज़ में विशिष्ट पृष्ठों के लिए लिंक बनाएं। विस्तृत उदाहरणों के लिए दस्तावेज़ देखें।
+आप इसका उपयोग कर सकते हैं `GoToAction` जावा के लिए Aspose.PDF में क्लास का उपयोग करके PDF दस्तावेज़ में विशिष्ट पृष्ठों के लिए लिंक बनाएं। विस्तृत उदाहरणों के लिए दस्तावेज़ देखें।
 
 ### क्या मैं लिंक के स्वरूप को और अधिक अनुकूलित कर सकता हूँ?
 
 बिलकुल! Aspose.PDF for Java लिंक के स्वरूप को अनुकूलित करने के लिए व्यापक विकल्प प्रदान करता है, जिसमें रंग, शैली और बहुत कुछ शामिल है। उन्नत अनुकूलन तकनीकों के लिए दस्तावेज़ देखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

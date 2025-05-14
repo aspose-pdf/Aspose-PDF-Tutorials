@@ -1,14 +1,16 @@
 ---
-title: Chỉ định khoảng cách dòng trong tệp PDF
-linktitle: Chỉ định khoảng cách dòng trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chỉ định khoảng cách dòng trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển đang tìm kiếm định dạng văn bản chính xác.
-weight: 510
-url: /vi/net/programming-with-text/specify-line-spacing/
+"description": "Tìm hiểu cách chỉ định khoảng cách dòng trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển đang tìm kiếm định dạng văn bản chính xác."
+"linktitle": "Chỉ định khoảng cách dòng trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Chỉ định khoảng cách dòng trong tệp PDF"
+"url": "/vi/net/programming-with-text/specify-line-spacing/"
+"weight": 510
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ định khoảng cách dòng trong tệp PDF
@@ -21,9 +23,9 @@ Bạn đã bao giờ gặp khó khăn trong việc kiểm soát khoảng cách d
 
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết:
 
-1.  Đã cài đặt Aspose.PDF cho .NET. Nếu bạn chưa có, hãy tải xuống từ[Trang tải xuống Aspose.PDF](https://releases.aspose.com/pdf/net/).
+1. Đã cài đặt Aspose.PDF cho .NET. Nếu bạn chưa có, hãy tải xuống từ [Trang tải xuống Aspose.PDF](https://releases.aspose.com/pdf/net/).
 2. Môi trường phát triển .NET (như Visual Studio).
-3. Một tập tin phông chữ TrueType (`.ttf` ) mà chúng ta sẽ sử dụng trong ví dụ. Bạn có thể sử dụng bất kỳ phông chữ nào, nhưng đối với hướng dẫn này, chúng ta sẽ sử dụng`HPSimplified.TTF` phông chữ.
+3. Một tập tin phông chữ TrueType (`.ttf`) mà chúng ta sẽ sử dụng trong ví dụ. Bạn có thể sử dụng bất kỳ phông chữ nào, nhưng đối với hướng dẫn này, chúng ta sẽ sử dụng `HPSimplified.TTF` phông chữ.
 4. Kiến thức cơ bản về C# và thao tác PDF.
 
 Nếu bạn đã sẵn sàng, chúng ta hãy chuyển sang nhập các gói cần thiết.
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string fontFile = dataDir + "HPSimplified.TTF";
 ```
 
- Trong bước này, bạn sẽ thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến nơi bạn lưu trữ các tập tin của mình. Đây sẽ là nơi bạn đặt tập tin phông chữ của mình (`HPSimplified.TTF`) và nơi tệp PDF sẽ được lưu.
+Trong bước này, bạn sẽ thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến nơi bạn lưu trữ các tập tin của mình. Đây sẽ là nơi bạn đặt tập tin phông chữ của mình (`HPSimplified.TTF`) và nơi tệp PDF sẽ được lưu.
 
 ## Bước 2: Tải tài liệu PDF
 
@@ -64,14 +66,14 @@ Thao tác này sẽ tạo ra một tài liệu PDF mới, trống. Dễ phải k
 
 ## Bước 3: Thiết lập tùy chọn định dạng văn bản
 
- Đây là nơi phép thuật xảy ra. Chúng ta sẽ chỉ định chế độ giãn dòng cho văn bản mà chúng ta muốn thêm vào PDF. Aspose.PDF cung cấp cho chúng ta một số tùy chọn, nhưng trong hướng dẫn này, chúng ta sẽ sử dụng`LineSpacingMode.FullSize`, đảm bảo khoảng cách giữa các dòng được tuân thủ đầy đủ.
+Đây là nơi phép thuật xảy ra. Chúng ta sẽ chỉ định chế độ giãn dòng cho văn bản mà chúng ta muốn thêm vào PDF. Aspose.PDF cung cấp cho chúng ta một số tùy chọn, nhưng trong hướng dẫn này, chúng ta sẽ sử dụng `LineSpacingMode.FullSize`, đảm bảo khoảng cách giữa các dòng được tuân thủ đầy đủ.
 
 ```csharp
 TextFormattingOptions formattingOptions = new TextFormattingOptions();
 formattingOptions.LineSpacing = TextFormattingOptions.LineSpacingMode.FullSize;
 ```
 
- Mã này thiết lập chế độ giãn cách dòng thành`FullSize` , đảm bảo rằng văn bản sẽ được hiển thị với khoảng cách thích hợp. Có những tùy chọn khác như`Proportional` nếu bạn muốn các hành vi khoảng cách khác nhau, nhưng bây giờ, chúng ta hãy gắn bó với`FullSize`.
+Mã này thiết lập chế độ giãn cách dòng thành `FullSize`đảm bảo rằng văn bản sẽ được hiển thị với khoảng cách thích hợp. Có những tùy chọn khác như `Proportional` nếu bạn muốn các hành vi khoảng cách khác nhau, nhưng bây giờ, chúng ta hãy gắn bó với `FullSize`.
 
 ## Bước 4: Tạo một đoạn văn bản
 
@@ -81,7 +83,7 @@ Bây giờ, chúng ta sẽ tạo văn bản thực tế sẽ được đặt tro
 TextFragment textFragment = new TextFragment("Hello world");
 ```
 
- Chúng tôi đã tạo một đoạn văn bản có chuỗi`"Hello world"`. Tất nhiên, bạn có thể tùy chỉnh văn bản này theo ý thích của mình.
+Chúng tôi đã tạo một đoạn văn bản có chuỗi `"Hello world"`. Tất nhiên, bạn có thể tùy chỉnh văn bản này theo ý thích của mình.
 
 ## Bước 5: Tải và áp dụng phông chữ tùy chỉnh
 
@@ -106,7 +108,7 @@ textFragment.Position = new Position(100, 600);
 textFragment.TextState.FormattingOptions = formattingOptions;
 ```
 
- Các`Position` phương pháp này đặt tọa độ nơi văn bản sẽ xuất hiện trên trang (trong trường hợp này là 100 đơn vị từ bên trái và 600 đơn vị từ bên dưới). Các tùy chọn định dạng, bao gồm chế độ giãn dòng, được áp dụng tại đây.
+Các `Position` phương pháp này đặt tọa độ nơi văn bản sẽ xuất hiện trên trang (trong trường hợp này là 100 đơn vị từ bên trái và 600 đơn vị từ bên dưới). Các tùy chọn định dạng, bao gồm chế độ giãn dòng, được áp dụng ở đây.
 
 ## Bước 7: Thêm văn bản vào trang PDF
 
@@ -139,22 +141,24 @@ Nếu bạn muốn tìm hiểu sâu hơn về thao tác PDF, Aspose.PDF cung c�
 ## Câu hỏi thường gặp
 
 ### Tôi có thể điều chỉnh khoảng cách dòng sang chế độ khác không?  
- Có, bạn có thể sử dụng các chế độ khác như`Proportional` hoặc`Fixed` tùy thuộc vào nhu cầu của bạn.
+Có, bạn có thể sử dụng các chế độ khác như `Prophoặctional` or `Fixed` tùy thuộc vào nhu cầu của bạn.
 
 ### Có thể tải phông chữ từ hệ thống thay vì từ tệp không?  
- Có, bạn có thể tải phông chữ được cài đặt trong hệ thống bằng cách sử dụng`FontRepository`.
+Có, bạn có thể tải phông chữ được cài đặt trong hệ thống bằng cách sử dụng `FontRepository`.
 
 ### Tôi có thể sử dụng Aspose.PDF cho .NET với các định dạng tệp khác không?  
 Chắc chắn rồi! Aspose.PDF cho .NET hỗ trợ nhiều định dạng như XML, HTML, v.v.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF cho .NET không?  
-Có, để có đầy đủ chức năng, bạn sẽ cần giấy phép, bạn có thể xin giấy phép[đây](https://purchase.aspose.com/buy).
+Có, để có đầy đủ chức năng, bạn sẽ cần giấy phép, bạn có thể xin giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Làm thế nào để thiết lập khoảng cách dòng cho nhiều đoạn văn?  
- Bạn có thể áp dụng`TextFormattingOptions` cho mỗi người`TextFragment` hoặc`TextParagraph` để kiểm soát khoảng cách giữa nhiều dòng hoặc nhiều đoạn văn.
+Bạn có thể áp dụng `TextFormattingOptions` cho mỗi người `TextFragment` hoặc `TextParagraph` để kiểm soát khoảng cách giữa nhiều dòng hoặc nhiều đoạn văn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

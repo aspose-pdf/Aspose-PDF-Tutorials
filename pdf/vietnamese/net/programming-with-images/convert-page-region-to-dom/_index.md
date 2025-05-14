@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi vùng trang sang DOM
-linktitle: Chuyển đổi vùng trang sang DOM
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Mở khóa tiềm năng của tài liệu PDF của bạn với Aspose.PDF cho .NET. Chuyển đổi các vùng PDF thành hình ảnh và cải thiện quy trình làm việc của bạn.
-weight: 80
-url: /vi/net/programming-with-images/convert-page-region-to-dom/
+"description": "Mở khóa tiềm năng của tài liệu PDF của bạn với Aspose.PDF cho .NET. Chuyển đổi các vùng PDF thành hình ảnh và cải thiện quy trình làm việc của bạn."
+"linktitle": "Chuyển đổi vùng trang sang DOM"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Chuyển đổi vùng trang sang DOM"
+"url": "/vi/net/programming-with-images/convert-page-region-to-dom/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi vùng trang sang DOM
@@ -21,7 +23,7 @@ Trong thời đại kỹ thuật số ngày nay, xử lý tệp PDF hiệu quả
 
 Trước khi bước vào thế giới tùy chỉnh PDF, bạn cần đáp ứng một số điều kiện tiên quyết sau:
 1. Kiến thức cơ bản về C# và .NET: Vì chúng ta đang làm việc trong khuôn khổ .NET nên việc hiểu biết cơ bản về C# sẽ rất quan trọng.
-2.  Đã cài đặt Aspose.PDF cho .NET: Nếu bạn chưa thực hiện việc này, hãy truy cập[Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/)trang web và tải xuống thư viện. Bạn sẽ muốn đảm bảo rằng bạn có phiên bản mới nhất cho tất cả các tính năng mới nhất.
+2. Đã cài đặt Aspose.PDF cho .NET: Nếu bạn chưa thực hiện việc này, hãy truy cập [Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/) trang web và tải xuống thư viện. Bạn sẽ muốn đảm bảo rằng bạn có phiên bản mới nhất cho tất cả các tính năng mới nhất.
 3. Visual Studio hoặc bất kỳ IDE C# nào: Đây sẽ là không gian làm việc để viết và kiểm tra mã của bạn. Nếu bạn chưa cài đặt, bạn có thể tải xuống miễn phí từ trang web của Microsoft.
 4. Tệp PDF mẫu: Bạn sẽ cần một tệp PDF mẫu để làm việc. Bạn có thể tạo một tài liệu PDF đơn giản để thử nghiệm hoặc nếu bạn có một tài liệu hiện có, thì cũng có thể sử dụng!
 
@@ -50,7 +52,7 @@ using System;
 Bây giờ, chúng ta hãy cùng tìm hiểu phần thú vị: chuyển đổi một vùng trang cụ thể của tài liệu PDF thành hình ảnh trực quan bằng DOM!
 
 ## Bước 1: Thiết lập tài liệu của bạn
- Chúng tôi sẽ bắt đầu bằng cách thiết lập đường dẫn đến tài liệu của bạn và tải tệp PDF của bạn. Điều này sẽ liên quan đến việc tạo`Document` đối tượng kết nối với PDF của bạn. Đây là cách bạn thực hiện điều đó:
+Chúng tôi sẽ bắt đầu bằng cách thiết lập đường dẫn đến tài liệu của bạn và tải tệp PDF của bạn. Điều này sẽ liên quan đến việc tạo `Document` đối tượng kết nối với PDF của bạn. Đây là cách bạn thực hiện điều đó:
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -59,7 +61,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";  // Cập nhật điều này với 
 Document document = new Document(dataDir + "AddImage.pdf");
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn nơi PDF của bạn`AddImage.pdf` tồn tại.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn nơi PDF của bạn `AddImage.pdf` tồn tại.
 
 ## Bước 2: Xác định vùng trang
 Tiếp theo, hãy xác định diện tích trang mà bạn muốn chuyển đổi. Chúng ta sẽ tạo một hình chữ nhật chỉ định tọa độ của vùng mà bạn quan tâm. Tọa độ được xác định là (x dưới bên trái, y dưới bên trái, x trên bên phải, y trên bên phải).
@@ -95,7 +97,7 @@ document = new Document(ms);
 ```
 
 ## Bước 6: Xác định độ phân giải hình ảnh
-Tiếp theo, chúng ta cần tạo một`Resolution` đối tượng. Điều này sẽ xác định chất lượng hình ảnh được tạo ra từ trang PDF.
+Tiếp theo, chúng ta cần tạo một `Resolution` đối tượng. Điều này sẽ xác định chất lượng hình ảnh được tạo ra từ trang PDF.
 
 ```csharp
 // Tạo đối tượng Resolution
@@ -111,7 +113,7 @@ PngDevice pngDevice = new PngDevice(resolution);
 ```
 
 ## Bước 8: Chỉ định Đường dẫn Đầu ra và Chuyển đổi
-Quyết định nơi bạn muốn lưu hình ảnh đã chuyển đổi và gọi`Process` phương pháp thực hiện chuyển đổi.
+Quyết định nơi bạn muốn lưu hình ảnh đã chuyển đổi và gọi `Process` phương pháp thực hiện chuyển đổi.
 
 ```csharp
 dataDir = dataDir + "ConvertPageRegionToDOM_out.png"; // Chỉ định tập tin đầu ra của bạn
@@ -134,7 +136,7 @@ Và bạn đã có nó! Chỉ với vài bước đơn giản, bạn đã có th
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?  
- Có, Aspose cung cấp một[dùng thử miễn phí](https://releases.aspose.com/) vì vậy bạn có thể kiểm tra các tính năng của nó trước khi đưa ra bất kỳ cam kết nào.
+Có, Aspose cung cấp một [dùng thử miễn phí](https://releases.aspose.com/) vì vậy bạn có thể kiểm tra các tính năng của nó trước khi đưa ra bất kỳ cam kết nào.
 
 ### Tôi có thể tạo những loại tệp nào bằng Aspose.PDF?  
 Bạn có thể tạo nhiều định dạng khác nhau bao gồm PDF, JPG, PNG, TIFF, v.v. 
@@ -143,13 +145,15 @@ Bạn có thể tạo nhiều định dạng khác nhau bao gồm PDF, JPG, PNG,
 Aspose.PDF hỗ trợ .NET Framework, .NET Core và .NET Standard. Kiểm tra tài liệu để biết thông tin chi tiết về khả năng tương thích cụ thể.
 
 ### Tôi có thể tìm ví dụ về cách sử dụng Aspose.PDF ở đâu?  
- Bạn có thể tìm thấy các hướng dẫn và ví dụ toàn diện trong[tài liệu](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy các hướng dẫn và ví dụ toàn diện trong [tài liệu](https://reference.aspose.com/pdf/net/).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?  
- Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10), nơi bạn có thể đặt câu hỏi và chia sẻ hiểu biết với những người dùng khác.
+Bạn có thể truy cập hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10), nơi bạn có thể đặt câu hỏi và chia sẻ hiểu biết với những người dùng khác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

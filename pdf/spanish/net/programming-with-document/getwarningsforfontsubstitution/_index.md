@@ -1,38 +1,40 @@
 ---
-title: Recibir advertencias por sustitución de fuentes
-linktitle: Recibir advertencias por sustitución de fuentes
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a utilizar la función GetWarningsForFontSubstitution de Aspose.PDF para .NET para detectar advertencias de sustitución de fuentes al abrir un documento PDF.
-weight: 190
-url: /es/net/programming-with-document/getwarningsforfontsubstitution/
+"description": "Aprenda a utilizar la función GetWarningsForFontSubstitution de Aspose.PDF para .NET para detectar advertencias de sustitución de fuentes al abrir un documento PDF."
+"linktitle": "Recibir advertencias por sustitución de fuentes"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Recibir advertencias por sustitución de fuentes"
+"url": "/es/net/programming-with-document/getwarningsforfontsubstitution/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Recibir advertencias por sustitución de fuentes
 
 ## Introducción
 
-En el mundo del procesamiento de documentos, es fundamental garantizar que los archivos PDF tengan el aspecto deseado. ¿Alguna vez ha abierto un PDF y se ha dado cuenta de que las fuentes no son las correctas? Esto puede suceder cuando las fuentes originales utilizadas en el documento no están disponibles en el sistema en el que se visualiza el PDF. Afortunadamente, Aspose.PDF para .NET ofrece una solución sólida para detectar advertencias de sustitución de fuentes, lo que le permite mantener la integridad de sus documentos. En esta guía, le explicaremos los pasos para configurar la detección de sustitución de fuentes en sus documentos PDF mediante Aspose.PDF para .NET.
+En el mundo del procesamiento de documentos, es crucial garantizar que sus PDF se vean exactamente como se desea. ¿Alguna vez ha abierto un PDF y se ha dado cuenta de que las fuentes son incorrectas? Esto puede ocurrir cuando las fuentes originales del documento no están disponibles en el sistema donde se visualiza el PDF. Afortunadamente, Aspose.PDF para .NET ofrece una solución robusta para detectar advertencias de sustitución de fuentes, lo que le permite mantener la integridad de sus documentos. En esta guía, le explicaremos los pasos para configurar la detección de sustitución de fuentes en sus documentos PDF con Aspose.PDF para .NET.
 
 ## Prerrequisitos
 
 Antes de sumergirte en el código, hay algunas cosas que debes tener en cuenta:
 
-1. Visual Studio: asegúrate de tener Visual Studio instalado en tu equipo. Aquí es donde escribirás y ejecutarás tu código .NET.
-2.  Aspose.PDF para .NET: Necesita tener la biblioteca Aspose.PDF. Puede descargarla desde el sitio web[sitio](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu equipo. Aquí es donde escribirás y ejecutarás tu código .NET.
+2. Aspose.PDF para .NET: Necesita la biblioteca Aspose.PDF. Puede descargarla desde [sitio](https://releases.aspose.com/pdf/net/).
 3. Conocimientos básicos de C#: la familiaridad con la programación en C# le ayudará a comprender mejor los fragmentos de código.
 4. Un documento PDF: tenga listo un documento PDF de muestra que pueda usar para probar la detección de sustitución de fuentes.
 
 ## Importar paquetes
 
-Para comenzar, debe importar los paquetes necesarios en su proyecto de C#. A continuación, le indicamos cómo hacerlo:
+Para empezar, necesitas importar los paquetes necesarios en tu proyecto de C#. Así es como puedes hacerlo:
 
 ### Crear un nuevo proyecto
 
-Abra Visual Studio y cree un nuevo proyecto de C#. Puede elegir una aplicación de consola para simplificar el proceso.
+Abra Visual Studio y cree un nuevo proyecto de C#. Puede elegir una aplicación de consola para simplificar.
 
 ### Añadir referencia de Aspose.PDF
 
@@ -55,27 +57,27 @@ Ahora que tiene todo configurado, dividamos el proceso de detección de adverten
 
 ## Paso 1: Definir la ruta del documento
 
-En primer lugar, debe especificar la ruta de su documento PDF. Aquí es donde Aspose.PDF buscará el archivo.
+Primero, debe especificar la ruta de su documento PDF. Aquí es donde Aspose.PDF buscará el archivo.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra su archivo PDF.
+Reemplazar `"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra su archivo PDF.
 
 ## Paso 2: Abra el documento PDF
 
- A continuación, abrirá el documento PDF utilizando el`Document` clase proporcionada por Aspose.PDF.
+A continuación, abrirá el documento PDF utilizando el `Document` Clase proporcionada por Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Esta línea de código inicializa un nuevo`Document` objeto con su archivo PDF.
+Esta línea de código inicializa un nuevo `Document` objeto con su archivo PDF.
 
 ## Paso 3: Configurar la detección de sustitución de fuentes
 
- Ahora es el momento de configurar el controlador de eventos que detectará las advertencias de sustitución de fuentes. Deberá suscribirse a`FontSubstitution` evento de la`Document` clase.
+Ahora es el momento de configurar el controlador de eventos que detectará las advertencias de sustitución de fuentes. Necesitará suscribirse a `FontSubstitution` evento de la `Document` clase.
 
 ```csharp
 doc.FontSubstitution += new Document.FontSubstitutionHandler(OnFontSubstitution);
@@ -85,7 +87,7 @@ Esta línea conecta el evento a su método personalizado, que definiremos a cont
 
 ## Paso 4: Gestionar las advertencias de sustitución de fuentes
 
-Debe crear un método que se encargue de las advertencias de sustitución de fuentes. Este método se llamará siempre que se produzca una sustitución de fuentes.
+Necesita crear un método que gestione las advertencias de sustitución de fuentes. Este método se llamará siempre que se produzca una sustitución de fuentes.
 
 ```csharp
 private void OnFontSubstitution(object sender, Document.FontSubstitutionEventArgs e)
@@ -94,15 +96,15 @@ private void OnFontSubstitution(object sender, Document.FontSubstitutionEventArg
 }
 ```
 
-Con este método, puedes registrar el nombre de la fuente original y el nombre de la fuente sustituida en la consola. De esta manera, sabrás exactamente qué cambios se realizaron.
+Con este método, puedes registrar el nombre de la fuente original y el nombre de la fuente sustituida en la consola. Así, sabrás exactamente qué cambios se realizaron.
 
 ## Paso 5: Ejecutar el código
 
-Por último, puedes ejecutar tu aplicación. Si hay alguna sustitución de fuentes en tu documento PDF, verás las advertencias impresas en la consola.
+Finalmente, puede ejecutar su aplicación. Si hay sustituciones de fuentes en su documento PDF, verá las advertencias impresas en la consola.
 
 ## Conclusión
 
-Detectar advertencias de sustitución de fuentes en documentos PDF es esencial para mantener la integridad visual de sus archivos. Con Aspose.PDF para .NET, este proceso es sencillo y eficiente. Si sigue los pasos que se describen en esta guía, podrá configurar fácilmente la detección de sustitución de fuentes y asegurarse de que sus archivos PDF tengan el aspecto que desea.
+Detectar advertencias de sustitución de fuentes en documentos PDF es esencial para mantener la integridad visual de sus archivos. Con Aspose.PDF para .NET, este proceso es sencillo y eficiente. Siguiendo los pasos de esta guía, puede configurar fácilmente la detección de sustitución de fuentes y garantizar que sus archivos PDF tengan el aspecto deseado.
 
 ## Preguntas frecuentes
 
@@ -116,13 +118,15 @@ Para evitar la sustitución de fuentes, asegúrese de que todas las fuentes util
 Sí, Aspose.PDF ofrece una prueba gratuita que puedes usar para probar sus funciones.
 
 ### ¿Dónde puedo encontrar más documentación?
- Puede encontrar documentación detallada en Aspose.PDF para .NET[aquí](https://reference.aspose.com/pdf/net/).
+Puede encontrar documentación detallada en Aspose.PDF para .NET [aquí](https://reference.aspose.com/pdf/net/).
 
 ### ¿Cómo puedo obtener soporte para Aspose.PDF?
- Puede obtener ayuda visitando el sitio[Foro de soporte de Aspose](https://forum.aspose.com/c/pdf/10).
+Puede obtener ayuda visitando el [Foro de soporte de Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

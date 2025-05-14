@@ -8,7 +8,9 @@ url: /net/programming-with-document/addjavascripttopage/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Java Script To PDF File
@@ -137,6 +139,7 @@ Yes, you can bind JavaScript to form fields to trigger actions based on user inp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

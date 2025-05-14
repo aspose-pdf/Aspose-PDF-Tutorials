@@ -1,14 +1,16 @@
 ---
-title: Поиск и получение текста
-linktitle: Поиск и получение текста
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как искать и извлекать текст со всех страниц PDF-документа с помощью Aspose.PDF для .NET.
-weight: 420
-url: /ru/net/programming-with-text/search-and-get-text-all/
+"description": "Узнайте, как искать и извлекать текст со всех страниц PDF-документа с помощью Aspose.PDF для .NET."
+"linktitle": "Поиск и получение текста"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Поиск и получение текста"
+"url": "/ru/net/programming-with-text/search-and-get-text-all/"
+"weight": 420
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Поиск и получение текста
@@ -21,10 +23,10 @@ url: /ru/net/programming-with-text/search-and-get-text-all/
 
 Прежде чем перейти к коду, давайте убедимся, что у вас все настроено:
 
-1. Aspose.PDF для .NET: Вам нужно будет скачать и установить Aspose.PDF для .NET. Вы можете получить его на странице загрузки[здесь](https://releases.aspose.com/pdf/net/).
-2. Среда .NET: убедитесь, что на вашем компьютере для разработки установлены .NET Framework или .NET Core.
+1. Aspose.PDF для .NET: Вам нужно будет скачать и установить Aspose.PDF для .NET. Вы можете получить его на странице загрузки [здесь](https://releases.aspose.com/pdf/net/).
+2. Среда .NET: Убедитесь, что на вашем компьютере для разработки установлены .NET Framework или .NET Core.
 3. Базовые знания C##: рекомендуется некоторое знакомство с C# и работа с проектами .NET.
-4.  PDF Document: Образец PDF-файла, из которого мы будем извлекать текст. В этом примере мы будем использовать`SearchAndGetTextFromAll.pdf`.
+4. PDF Document: Образец PDF-файла, из которого мы будем извлекать текст. В этом примере мы будем использовать `SearchAndGetTextFromAll.pdf`.
 
 ## Импортные пакеты
 
@@ -50,33 +52,33 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  The`dataDir` переменная должна указывать на каталог, где находится ваш`SearchAndGetTextFromAll.pdf` файл сохранен.
--  Заменять`"YOUR DOCUMENT DIRECTORY"` с реальным путем на вашем компьютере.
+- The `dataDir` переменная должна указывать на каталог, где находится ваш `SearchAndGetTextFromAll.pdf` файл сохранен.
+- Заменять `"YOUR DOCUMENT DIRECTORY"` с реальным путем на вашем компьютере.
 
 ## Шаг 2: Откройте PDF-документ.
 
-Далее мы откроем PDF-документ с помощью Aspose.PDF`Document` объект.
+Далее мы откроем PDF-документ с помощью Aspose.PDF `Document` объект.
 
 ```csharp
 // Открыть документ
 Document pdfDocument = new Document(dataDir + "SearchAndGetTextFromAll.pdf");
 ```
 
--  Мы создаем новый экземпляр`Document` класс, передавая полный путь к файлу PDF.
+- Мы создаем новый экземпляр `Document` класс, передавая полный путь к файлу PDF.
 - Это загрузит PDF-файл в память и подготовит его к обработке.
 
 ## Шаг 3: Создайте поглотитель текста
 
- The`TextFragmentAbsorber` объект используется для поиска определенного текста в PDF. В этом случае мы будем искать слово «текст».
+The `TextFragmentAbsorber` объект используется для поиска определенного текста в PDF. В этом случае мы будем искать слово «текст».
 
 ```csharp
 // Создайте объект TextAbsorber для поиска всех вхождений введенной поисковой фразы.
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
 
--  The`TextFragmentAbsorber` инициализируется строкой`"text"`. Это означает, что он будет искать любые вхождения слова «текст» в документе PDF.
+- The `TextFragmentAbsorber` инициализируется строкой `"text"`. Это означает, что он будет искать любые вхождения слова «текст» в документе PDF.
 
-## Шаг 4: Примите Absorber для всех страниц
+## Шаг 4: Примите Поглотитель для всех страниц
 
 Теперь мы дадим команду PDF-документу принять поглотитель и выполнить поиск текста на всех его страницах.
 
@@ -85,7 +87,7 @@ TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 pdfDocument.Pages.Accept(textFragmentAbsorber);
 ```
 
--  The`Accept` Метод применяется к страницам документа. Это позволит выполнить поиск указанного текста на всех страницах.
+- The `Accept` Метод применяется к страницам документа. Это позволит выполнить поиск указанного текста на всех страницах.
 
 ## Шаг 5: Извлечение фрагментов текста
 
@@ -96,7 +98,7 @@ pdfDocument.Pages.Accept(textFragmentAbsorber);
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
 
--  The`TextFragments` собственность`TextFragmentAbsorber` возвращает коллекцию всех текстовых фрагментов, соответствующих поисковому запросу.
+- The `TextFragments` собственность `TextFragmentAbsorber` возвращает коллекцию всех текстовых фрагментов, соответствующих поисковому запросу.
 
 ## Шаг 6: Просмотрите фрагменты текста
 
@@ -119,9 +121,9 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
--  The`foreach` цикл проходит через каждый`TextFragment` в коллекции.
+- The `foreach` цикл проходит через каждый `TextFragment` в коллекции.
 - Мы печатаем различные свойства каждого фрагмента, такие как сам текст, его положение на странице, сведения о шрифте и его размер.
--  The`XIndent` и`YIndent` Свойства задают точные координаты фрагмента текста в PDF-файле.
+- The `XIndent` и `YIndent` Свойства задают точные координаты фрагмента текста в PDF-файле.
 
 ## Заключение
 
@@ -130,22 +132,24 @@ foreach (TextFragment textFragment in textFragmentCollection)
 ## Часто задаваемые вопросы
 
 ### Могу ли я искать несколько слов одновременно?  
- Да, вы можете изменить`TextFragmentAbsorber` для поиска нескольких фраз, соответствующим образом изменив строку поиска.
+Да, вы можете изменить `TextFragmentAbsorber` для поиска нескольких фраз, соответствующим образом изменив строку поиска.
 
 ### А что, если текст занимает несколько строк?  
 Aspose.PDF все равно распознает и извлечет текст, даже если он занимает несколько строк. Вы можете обрабатывать эти фрагменты по отдельности.
 
 ### Как сохранить извлеченный текст в файл?  
- Вы можете записать извлеченный текст в файл, используя стандартные операции ввода-вывода файлов C#, такие как`StreamWriter`.
+Вы можете записать извлеченный текст в файл, используя стандартные операции ввода-вывода файлов C#, такие как `StreamWriter`.
 
 ### Поддерживает ли Aspose.PDF извлечение текста из отсканированных PDF-файлов?  
 Aspose.PDF не поддерживает OCR. Для сканированных PDF-файлов вам понадобится инструмент OCR для распознавания текста.
 
 ### Как работать с зашифрованными PDF-файлами?  
 Если ваш PDF-файл защищен паролем, вы можете разблокировать его с помощью Aspose.PDF, указав пароль при загрузке документа.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

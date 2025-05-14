@@ -1,40 +1,42 @@
 ---
-title: Crear PDF con imagen etiquetada
-linktitle: Crear PDF con imagen etiquetada
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a crear un PDF etiquetado con imágenes usando Aspose.PDF para .NET. Siga nuestra guía paso a paso para crear documentos accesibles y profesionales.
-weight: 40
-url: /es/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/
+"description": "Aprenda a crear un PDF etiquetado con imágenes usando Aspose.PDF para .NET. Siga nuestra guía paso a paso para crear documentos accesibles y profesionales."
+"linktitle": "Crear PDF con imagen etiquetada"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Crear PDF con imagen etiquetada"
+"url": "/es/net/programming-with-tagged-pdf/create-pdf-with-tagged-image/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Crear PDF con imagen etiquetada
 
 ## Introducción
 
-Crear archivos PDF puede ser una tarea compleja, pero no tiene por qué serlo. Hoy, vamos a profundizar en cómo crear un documento PDF con una imagen etiquetada utilizando Aspose.PDF para .NET. Si tienes curiosidad por incorporar imágenes a tus archivos PDF y asegurarte de que sean accesibles, has llegado al lugar correcto. Veamos este proceso paso a paso para que puedas crear archivos PDF profesionales y accesibles con facilidad.
+Crear archivos PDF puede ser una tarea compleja, ¡pero no tiene por qué serlo! Hoy profundizaremos en cómo crear un documento PDF con una imagen etiquetada usando Aspose.PDF para .NET. Si te interesa incorporar imágenes a tus PDF y garantizar su accesibilidad, estás en el lugar indicado. Te explicaremos este proceso paso a paso para que puedas crear PDF profesionales y accesibles fácilmente.
 
 ## Prerrequisitos
 
 Antes de comenzar a crear su PDF con imágenes etiquetadas, hay algunas cosas que necesita:
 
-1. Aspose.PDF para .NET: esta potente biblioteca es esencial para manejar documentos PDF en aplicaciones .NET. Puede encontrar la biblioteca aquí:[Descargar Aspose.PDF para .NET](https://releases.aspose.com/pdf/net/).
-2. .NET Framework o .NET Core: asegúrate de tener una versión compatible de .NET Framework o .NET Core en tu equipo. Esta biblioteca es compatible con ambos.
-3. Archivo de imagen: necesitará un archivo de imagen para insertar en su PDF. En nuestro ejemplo, utilizaremos "aspose-logo.png". Asegúrese de tenerlo listo en su directorio de documentos. 
+1. Aspose.PDF para .NET: Esta potente biblioteca es esencial para gestionar documentos PDF en aplicaciones .NET. Puede encontrarla aquí: [Descargar Aspose.PDF para .NET](https://releases.aspose.com/pdf/net/).
+2. .NET Framework o .NET Core: Asegúrese de tener una versión compatible de .NET Framework o .NET Core en su equipo. Esta biblioteca es compatible con ambos.
+3. Archivo de imagen: Necesitará un archivo de imagen para incrustarlo en su PDF. En nuestro ejemplo, usaremos "aspose-logo.png". Asegúrese de tenerlo listo en su directorio de documentos. 
 
-¡Una vez que te asegures de tener estos requisitos previos resueltos, estarás listo para comenzar!
+¡Una vez que te hayas asegurado de tener estos requisitos previos resueltos, estarás listo para comenzar!
 
 ## Importar paquetes
 
-Para comenzar nuestra aventura de codificación, debemos configurar nuestro espacio de trabajo importando los espacios de nombres Aspose.PDF necesarios. A continuación, le indicamos cómo hacerlo:
+Para empezar a programar, necesitamos configurar nuestro espacio de trabajo importando los espacios de nombres Aspose.PDF necesarios. Así es como se hace:
 
 ### Crear un nuevo proyecto
 
 - Abra su IDE preferido (Visual Studio, por ejemplo).
-- Crea un nuevo proyecto de aplicación de consola. ¿Por qué una aplicación de consola? ¡Es simple y perfecta para tutoriales!
+- Crea un nuevo proyecto de aplicación de consola. ¿Por qué una aplicación de consola? Es simple y perfecta para tutoriales.
 
 ### Añadir referencia de Aspose.PDF
 
@@ -44,7 +46,7 @@ Para comenzar nuestra aventura de codificación, debemos configurar nuestro espa
 
 ### Importar los espacios de nombres necesarios
 
- En la parte superior del archivo principal del programa (como`Program.cs`), importe los siguientes espacios de nombres:
+En la parte superior del archivo del programa principal (como `Program.cs`), importe los siguientes espacios de nombres:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Establezca la ruta a su directori
 Document document = new Document();
 ```
 
--  ¿Qué está pasando aquí? Estamos creando una nueva instancia`Document` Objeto que representa nuestro PDF. ¡Piensa en él como un lienzo en blanco que espera tus obras maestras!
+- ¿Qué está pasando aquí? Estamos creando una nueva instancia. `Document` Objeto que representa nuestro PDF. ¡Imagínalo como un lienzo en blanco esperando tus obras maestras!
 
 ## Paso 2: Configurar el contenido etiquetado
 
@@ -78,7 +80,7 @@ A continuación, configuraremos el contenido etiquetado:
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
-- ¿Por qué utilizar contenido etiquetado? Los archivos PDF etiquetados son esenciales para la accesibilidad, ya que permiten que los lectores de pantalla comprendan la estructura del documento.
+- ¿Por qué usar contenido etiquetado? Los PDF etiquetados son esenciales para la accesibilidad, ya que permiten a los lectores de pantalla comprender la estructura del documento.
 
 ## Paso 3: Configurar metadatos
 
@@ -89,7 +91,7 @@ taggedContent.SetTitle("CreatePDFwithTaggedImage");
 taggedContent.SetLanguage("en-US");
 ```
 
-- ¿Meta qué? Agregar un título y un idioma es como ponerle una etiqueta con el nombre a tu creación: ¡ayuda a que los demás comprendan de qué se trata!
+- ¿Meta qué? Añadir un título e idioma es como ponerle una etiqueta a tu creación: ¡ayuda a que otros la entiendan!
 
 ## Paso 4: Crear un elemento de ilustración
 
@@ -100,7 +102,7 @@ IllustrationElement figure1 = taggedContent.CreateFigureElement();
 taggedContent.RootElement.AppendChild(figure1);
 ```
 
--  ¡Así de fácil! ¡Sí!`CreateFigureElement` El método nos permite crear una nueva ilustración y la agregamos al elemento raíz de nuestro contenido etiquetado.
+- ¡¿Así sin más?! ¡Sí! El `CreateFigureElement` El método nos permite crear una nueva ilustración y la agregamos al elemento raíz de nuestro contenido etiquetado.
 
 ## Paso 5: Establecer las propiedades de la imagen
 
@@ -112,9 +114,9 @@ figure1.Title = "Image 1";
 figure1.SetTag("Fig");
 ```
 
-- ¿Por qué todas estas propiedades? El texto alternativo describe la imagen para quienes no pueden verla, mientras que el título y la etiqueta categorizan la imagen para facilitar su acceso.
+- ¿Por qué todas estas propiedades? El texto alternativo describe la imagen para quienes no pueden verla, mientras que el título y la etiqueta la categorizan para facilitar su acceso.
 
-## Paso 6: Añade la imagen
+## Paso 6: Agregar la imagen
 
 Ahora, es el momento de agregar la imagen real a nuestro PDF:
 
@@ -132,11 +134,11 @@ Por último, guardemos nuestra creación en un archivo:
 document.Save(dataDir + "PDFwithTaggedImage.pdf");
 ```
 
-- ¡El gran final! Después de ejecutar esta línea, encontrará su nuevo PDF en el directorio especificado.
+- ¡El gran final! Tras ejecutar esta línea, encontrarás tu nuevo PDF en el directorio especificado.
 
 ## Conclusión
 
-Crear archivos PDF con imágenes etiquetadas con Aspose.PDF para .NET es muy fácil si se divide en pasos manejables. Si sigue esta guía, no solo aprenderá a crear un PDF, sino también a mejorar su accesibilidad con contenido etiquetado. Ya sea que esté preparando documentos para un público más amplio o simplemente puliendo sus creaciones PDF, este conocimiento le será de gran utilidad.
+Crear archivos PDF con imágenes etiquetadas con Aspose.PDF para .NET es facilísimo si se divide en pasos sencillos. Siguiendo esta guía, ha aprendido no solo a crear un PDF, sino también a mejorar su accesibilidad con contenido etiquetado. Tanto si prepara documentos para un público más amplio como si simplemente perfecciona sus creaciones PDF, este conocimiento le será muy útil.
 
 ## Preguntas frecuentes
 
@@ -144,19 +146,21 @@ Crear archivos PDF con imágenes etiquetadas con Aspose.PDF para .NET es muy fá
 Un PDF etiquetado está diseñado para ser accesible. Incluye metadatos que permiten que las tecnologías de asistencia lo lean y naveguen correctamente.
 
 ### ¿Puedo agregar varias imágenes usando Aspose.PDF?
- ¡Por supuesto! Solo tienes que repetir los pasos para crear un nuevo`IllustrationElement` instancias en su documento.
+¡Por supuesto! Simplemente repite los pasos para crear uno nuevo. `IllustrationElement` instancias en su documento.
 
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.PDF?
- Consulte la documentación[aquí](https://reference.aspose.com/pdf/net/).
+Consulte la documentación [aquí](https://reference.aspose.com/pdf/net/).
 
 ### ¿Hay una prueba gratuita disponible para Aspose.PDF?
- ¡Sí! Puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
+¡Sí! Puedes acceder a una prueba gratuita. [aquí](https://releases.aspose.com/).
 
 ### ¿Cómo puedo obtener soporte para Aspose.PDF?
- Puede obtener ayuda visitando el sitio[Foros de Aspose](https://forum.aspose.com/c/pdf/10).
+Puede obtener ayuda visitando el [Foros de Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

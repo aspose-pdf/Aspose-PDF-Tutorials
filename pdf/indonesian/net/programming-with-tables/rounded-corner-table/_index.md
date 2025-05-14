@@ -1,14 +1,16 @@
 ---
-title: Meja Sudut Bulat Dalam Dokumen PDF
-linktitle: Meja Sudut Bulat Dalam Dokumen PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat tabel sudut melengkung yang indah di dokumen PDF Anda menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
-weight: 190
-url: /id/net/programming-with-tables/rounded-corner-table/
+"description": "Pelajari cara membuat tabel sudut melengkung yang indah di dokumen PDF Anda menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Meja Sudut Bulat Dalam Dokumen PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Meja Sudut Bulat Dalam Dokumen PDF"
+"url": "/id/net/programming-with-tables/rounded-corner-table/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Meja Sudut Bulat Dalam Dokumen PDF
@@ -23,7 +25,7 @@ Sebelum kita memulai petualangan kita di meja sudut bundar, ada beberapa hal yan
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi tempat Anda melakukan pengodean dan pengujian.
 2. .NET Framework: Pastikan Anda menggunakan versi .NET Framework relevan yang kompatibel dengan Aspose.PDF.
-3. Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/pdf/net/).
+3. Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/pdf/net/).
 4. IDE yang cocok: Meskipun Visual Studio lebih disukai, IDE lain yang mendukung C# dapat melakukan pekerjaan tersebut.
 5. Pengetahuan dasar C#: Memahami dasar-dasar pemrograman C# akan membantu Anda memahami konten lebih cepat.
 
@@ -42,13 +44,13 @@ Pertama-tama, jalankan Visual Studio Anda, dan buat proyek baru. Anda dapat memi
 Setelah proyek Anda disiapkan:
 - Klik kanan pada proyek di Solution Explorer.
 - Pilih “Kelola Paket NuGet.”
--  Pencarian untuk`Aspose.PDF` dan menginstalnya.
+- Pencarian untuk `Aspose.PDF` dan menginstalnya.
 
 Sekarang Anda siap berangkat!
 
 ### Impor Ruang Nama Aspose.PDF
 
- Di bagian atas Anda`Program.cs` atau di mana pun kode utama Anda berada, Anda ingin menambahkan:
+Di bagian atas Anda `Program.cs` atau di mana pun kode utama Anda berada, Anda ingin menambahkan:
 
 ```csharp
 using System.IO;
@@ -68,7 +70,7 @@ Untuk memulai, Anda perlu mengatur jalur penyimpanan berkas PDF Anda. Di sinilah
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengubah`YOUR DOCUMENT DIRECTORY` ke jalur sebenarnya tempat Anda ingin menyimpan PDF Anda. 
+Mengubah `YOUR DOCUMENT DIRECTORY` ke jalur sebenarnya tempat Anda ingin menyimpan PDF Anda. 
 
 ## Langkah 2: Inisialisasi Dokumen
 
@@ -80,7 +82,7 @@ Document pdfDocument = new Document();
 
 ## Langkah 3: Buat Tabel
 
-Sekarang saatnya untuk membuat bintang pertunjukan: meja.
+Sekarang saatnya menciptakan bintang pertunjukan: meja.
 
 ```csharp
 Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
@@ -90,7 +92,7 @@ Baris ini menyiapkan objek tabel baru yang siap untuk keajaiban!
 
 ## Langkah 4: Buat Informasi Perbatasan
 
- Untuk memberikan tabel Anda garis luar yang bagus dan efek sudut membulat, Anda perlu membuat contoh`BorderInfo`.
+Untuk memberikan tabel Anda garis luar yang bagus dan efek sudut membulat, Anda perlu membuat contoh `BorderInfo`.
 
 ```csharp
 GraphInfo graph = new GraphInfo();
@@ -160,19 +162,21 @@ Nah, itu dia! Anda telah berhasil membuat tabel sudut membulat dalam dokumen PDF
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan aplikasi .NET membuat dan memanipulasi dokumen PDF dengan mudah.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya! Anda dapat mencoba Aspose.PDF dengan uji coba gratis yang tersedia di situs mereka[halaman rilis](https://releases.aspose.com/).
+Ya! Anda dapat mencoba Aspose.PDF dengan uji coba gratis yang tersedia di [halaman rilis](https://releases.aspose.com/).
 
 ### Apa kegunaan meja sudut bundar?
 Mereka meningkatkan daya tarik visual tabel dalam dokumen PDF, membuatnya lebih menarik bagi pembaca.
 
 ### Di mana saya dapat membeli Aspose.PDF?
- Anda dapat membelinya langsung dari[Halaman pembelian Aspose](https://purchase.aspose.com/buy).
+Anda dapat membelinya langsung dari [Halaman pembelian Aspose](https://purchase.aspose.com/buy).
 
 ### Bagaimana jika saya butuh dukungan?
- Untuk bantuan, Anda dapat mengunjungi forum dukungan Aspose di[Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Untuk bantuan, Anda dapat mengunjungi forum dukungan Aspose di [Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: HTML'den PDF'e Geçiş Sırasında Kimlik Bilgilerini Sağlayın
-linktitle: HTML'den PDF'e Geçiş Sırasında Kimlik Bilgilerini Sağlayın
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak HTML'yi PDF'ye nasıl dönüştüreceğinizi öğrenin. Belge oluşturmayı kolaylaştırmak isteyen geliştiriciler için mükemmeldir.
-weight: 240
-url: /tr/net/document-conversion/provide-credentials-during-html-to-pdf/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak HTML'yi PDF'ye nasıl dönüştüreceğinizi öğrenin. Belge oluşturmayı kolaylaştırmak isteyen geliştiriciler için mükemmeldir."
+"linktitle": "HTML'den PDF'e Geçiş Sırasında Kimlik Bilgilerini Sağlayın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "HTML'den PDF'e Geçiş Sırasında Kimlik Bilgilerini Sağlayın"
+"url": "/tr/net/document-conversion/provide-credentials-during-html-to-pdf/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML'den PDF'e Geçiş Sırasında Kimlik Bilgilerini Sağlayın
@@ -22,7 +24,7 @@ Yazılım geliştirme dünyasında, HTML'yi PDF'ye dönüştürmek yaygın bir g
 Başlamadan önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu bizim geliştirme ortamımız olacak.
-2.  .NET için Aspose.PDF: Kütüphaneyi şu adresten indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/) Eğer önce denemek isterseniz, ayrıca bir tane alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/).
+2. .NET için Aspose.PDF: Kütüphaneyi şu adresten indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/)Eğer önce denemek isterseniz, ayrıca bir tane alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak örnekleri daha iyi anlamanıza yardımcı olacaktır.
 4. İnternet Erişimi: HTML içeriğini bir URL'den alacağımız için aktif bir internet bağlantınız olduğundan emin olun.
 
@@ -50,27 +52,27 @@ HTML'yi PDF'ye dönüştürmeden önce çıktı PDF'imizin nereye kaydedileceği
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızı kaydetmek istediğiniz gerçek yol ile. Bu, masaüstünüzdeki bir klasör veya sisteminizdeki herhangi bir konum olabilir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızı kaydetmek istediğiniz gerçek yol ile. Bu, masaüstünüzdeki bir klasör veya sisteminizdeki herhangi bir konum olabilir.
 
 ## Adım 2: Bir Web İsteği Oluşturun
 
- Sonra, belirli bir URL'den HTML içeriğini almak için bir istek oluşturmamız gerekiyor. Burada şunu kullanacağız:`WebRequest` sınıf.
+Sonra, belirli bir URL'den HTML içeriğini almak için bir istek oluşturmamız gerekiyor. Burada şunu kullanacağız: `WebRequest` sınıf.
 
 ```csharp
-WebRequest request = WebRequest.Create("http://My.signchart.com/Report/PrintBook.asp?ProjectGuid=6FB9DBB0-");
+WebRequest request = WebRequest.Create("http://My.signchart.com/Rapor/PrintBook.asp?ProjectGuid=6FB9DBB0-");
 ```
 
 Burada, dönüştürmek istediğimiz HTML'yi içeren URL'ye bir istek oluşturuyoruz. URL'yi kullanmayı düşündüğünüz URL ile değiştirdiğinizden emin olun.
 
 ## Adım 3: Kimlik Bilgilerini Ayarlayın (Gerekirse)
 
-Sunucunun içeriğe erişmek için kimlik bilgilerine ihtiyacı varsa, bunları ayarlamamız gerekir. Bu, şu şekilde yapılır:`CredentialCache.DefaultCredentials`.
+Sunucunun içeriğe erişmek için kimlik bilgilerine ihtiyacı varsa, bunları ayarlamamız gerekir. Bu, şu şekilde yapılır: `CredentialCache.DefaultCredentials`.
 
 ```csharp
 request.Credentials = CredentialCache.DefaultCredentials;
 ```
 
- Bu satır, isteğin geçerli kullanıcının varsayılan kimlik bilgilerini kullanmasını sağlar. Belirli kimlik bilgileri sağlamanız gerekiyorsa, yeni bir tane oluşturabilirsiniz`NetworkCredential` nesne.
+Bu satır, isteğin geçerli kullanıcının varsayılan kimlik bilgilerini kullanmasını sağlar. Belirli kimlik bilgileri sağlamanız gerekiyorsa, yeni bir tane oluşturabilirsiniz `NetworkCredential` nesne.
 
 ## Adım 4: Yanıtı Alın
 
@@ -84,7 +86,7 @@ Bu satır isteği gönderir ve sunucunun yanıt vermesini bekler. Her şey yolun
 
 ## Adım 5: Yanıt Akışını Okuyun
 
- Yanıtı aldıktan sonra, sunucu tarafından döndürülen içeriği okumamız gerekir. Bu, bir`StreamReader`.
+Yanıtı aldıktan sonra, sunucu tarafından döndürülen içeriği okumamız gerekir. Bu, bir `StreamReader`.
 
 ```csharp
 Stream dataStream = response.GetResponseStream();
@@ -95,7 +97,7 @@ dataStream.Close();
 response.Close();
 ```
 
- Burada, yanıt akışının tüm içeriğini şu dize değişkenine okuyoruz:`responseFromServer`Kaynakları serbest bırakmak için okuyucuyu ve akışı kapatmayı unutmayın.
+Burada, yanıt akışının tüm içeriğini şu dize değişkenine okuyoruz: `responseFromServer`Kaynakları serbest bırakmak için okuyucuyu ve akışı kapatmayı unutmayın.
 
 ## Adım 6: HTML'yi PDF'ye dönüştürün
 
@@ -109,7 +111,7 @@ options.ExternalResourcesCredentials = CredentialCache.DefaultCredentials;
 Document pdfDocument = new Document(stream, options);
 ```
 
-Bu adımda bir tane oluşturuyoruz`MemoryStream` HTML içeriğinden ve kurulumdan`HtmlLoadOptions`Bu, HTML'nin başvurabileceği herhangi bir harici kaynak (resimler veya stil sayfaları gibi) için temel URL'yi belirtmemize olanak tanır.
+Bu adımda bir tane oluşturuyoruz `MemoryStream` HTML içeriğinden ve kurulumdan `HtmlLoadOptions`Bu, HTML'nin başvurabileceği herhangi bir harici kaynak (resimler veya stil sayfaları gibi) için temel URL'yi belirtmemize olanak tanır.
 
 ## Adım 7: PDF Belgesini Kaydedin
 
@@ -119,7 +121,7 @@ Son olarak oluşturulan PDF belgesini belirtilen dizine kaydetmemiz gerekiyor.
 pdfDocument.Save(dataDir + "ProvideCredentialsDuringHTMLToPDF_out.pdf");
 ```
 
- Bu satır PDF dosyasını şu adla kaydeder:`ProvideCredentialsDuringHTMLToPDF_out.pdf` daha önce belirttiğimiz dizinde.
+Bu satır PDF dosyasını şu adla kaydeder: `ProvideCredentialsDuringHTMLToPDF_out.pdf` daha önce belirttiğimiz dizinde.
 
 ## Çözüm
 
@@ -128,10 +130,10 @@ Ve işte oldu! Aspose.PDF for .NET kullanarak HTML'yi PDF'ye başarıyla dönü�
 ## SSS
 
 ### Aspose.PDF for .NET nedir?
-Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
+Aspose.PDF for .NET, geliştiricilerin .NET uygulamalarında PDF belgeleri oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi nasıl yüklerim?
- Aspose.PDF'yi Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyebilir veya şu adresten indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/).
+Aspose.PDF'yi Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyebilir veya şu adresten indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/).
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
 Evet, Aspose satın almadan önce kütüphaneyi değerlendirebilmeniz için ücretsiz deneme sürümü sunuyor.
@@ -140,10 +142,12 @@ Evet, Aspose satın almadan önce kütüphaneyi değerlendirebilmeniz için ücr
 Aspose.PDF'i kullanarak raporlar, faturalar ve formlar dahil olmak üzere çok çeşitli belgeler oluşturabilirsiniz.
 
 ### Aspose.PDF için desteği nerede bulabilirim?
- Destek bulabilir ve soru sorabilirsiniz.[Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Destek bulabilir ve soru sorabilirsiniz. [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

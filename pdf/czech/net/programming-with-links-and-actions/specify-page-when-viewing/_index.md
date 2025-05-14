@@ -1,55 +1,57 @@
 ---
-title: Při prohlížení specifikujte stránku
-linktitle: Při prohlížení specifikujte stránku
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak určit stránku pro zobrazení v PDF pomocí Aspose.PDF for .NET. Vylepšete uživatelskou navigaci pomocí tohoto jednoduchého průvodce.
-weight: 110
-url: /cs/net/programming-with-links-and-actions/specify-page-when-viewing/
+"description": "Naučte se, jak pomocí Aspose.PDF pro .NET určit stránku, kterou chcete v PDF zobrazit. Vylepšete navigaci uživatelů pomocí tohoto jednoduchého průvodce."
+"linktitle": "Při prohlížení uveďte stránku"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Při prohlížení uveďte stránku"
+"url": "/cs/net/programming-with-links-and-actions/specify-page-when-viewing/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Při prohlížení specifikujte stránku
+# Při prohlížení uveďte stránku
 
 ## Zavedení
 
-Chcete vylepšit své aplikace PDF přesměrováním uživatelů na konkrétní stránky při otevření dokumentu? Jste na správném místě! V této příručce se ponoříme do toho nejnutnějšího použití Aspose.PDF pro .NET k určení stránky, která se má zobrazit při otevření PDF. Tato funkce může výrazně zlepšit uživatelskou zkušenost, zvláště když potřebujete upozornit na kritické části dokumentu.
+Chcete vylepšit své PDF aplikace tím, že uživatele po otevření dokumentu přesměrujete na konkrétní stránky? Jste na správném místě! V této příručce se ponoříme do detailů používání Aspose.PDF pro .NET k určení stránky, která se má zobrazit při otevření PDF. Tato funkce může výrazně zlepšit uživatelský komfort, zejména pokud potřebujete upozornit na kritické části dokumentu.
 
 ## Předpoklady
 
-Než se ponoříte do kódování, ujistěte se, že máte vše, co potřebujete, abyste mohli začít. Zde je to, co budete potřebovat:
+Než se pustíme do kódování, ujistěte se, že máte vše, co potřebujete k zahájení. Zde je to, co budete potřebovat:
 
-1. Základní znalost .NET: Znalost .NET frameworku je nezbytná. Pokud jste spokojeni s C# a máte základní znalosti o objektově orientovaném programování, jste připraveni!
+1. Základní znalost .NET: Znalost frameworku .NET je nezbytná. Pokud ovládáte C# a máte základní znalosti objektově orientovaného programování, máte hotovo!
 
-2.  Aspose.PDF for .NET: Budete muset mít ve svém projektu nainstalovanou knihovnu Aspose.PDF. Pokud jste jej ještě nenainstalovali, můžete si jej stáhnout[zde](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF pro .NET: Budete muset mít ve svém projektu nainstalovanou knihovnu Aspose.PDF. Pokud ji ještě nemáte nainstalovanou, můžete si ji stáhnout. [zde](https://releases.aspose.com/pdf/net/).
 
-3. Visual Studio: Tento kurz předpokládá, že používáte Visual Studio jako své IDE. Ujistěte se, že jej máte nainstalovaný na vašem počítači.
+3. Visual Studio: V tomto tutoriálu se předpokládá, že jako IDE používáte Visual Studio. Ujistěte se, že ho máte na svém počítači nainstalované.
 
-4. Soubor PDF: Budete potřebovat existující soubor PDF, se kterým budete pracovat. Pokud žádný nemáte, můžete vytvořit vzorový dokument nebo použít libovolný soubor PDF podle svého výběru.
+4. Soubor PDF: Budete potřebovat existující soubor PDF, se kterým budete pracovat. Pokud žádný nemáte, můžete si vytvořit vzorový dokument nebo použít libovolný soubor PDF dle vlastního výběru.
 
-Jakmile budete mít tyto předpoklady na místě, můžeme si vyhrnout rukávy a začít kódovat!
+Jakmile budete mít tyto předpoklady splněny, můžeme si vyhrnout rukávy a začít programovat!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Nyní, když jsme vše nastaveni, pojďme si nechat importovat potřebné balíčky do našeho projektu. Postupujte takto:
+Nyní, když máme vše nastavené, importujme potřebné balíčky do našeho projektu. Postupujte takto:
 
-### Spusťte Visual Studio
+### Spuštění Visual Studia
 
-Otevřete Visual Studio a buď vytvořte nový projekt, nebo načtěte existující, kde chcete implementovat funkci prohlížení stránek PDF.
+Otevřete Visual Studio a buď vytvořte nový projekt, nebo načtěte existující, kam chcete implementovat funkci prohlížení stránek PDF.
 
-### Reference Aspose.PDF
+### Odkaz Aspose.PDF
 
-Chcete-li používat knihovnu Aspose.PDF, musíte na ni přidat odkaz:
+Chcete-li použít knihovnu Aspose.PDF, musíte na ni přidat odkaz:
 
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
-2. Vyberte „Spravovat balíčky NuGet“.
-3.  Hledat`Aspose.PDF` a nainstalujte balíček.
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+2. Vyberte možnost „Spravovat balíčky NuGet“.
+3. Hledat `Aspose.PDF` a nainstalujte balíček.
 
 ### Importovat jmenné prostory
 
-Přidejte následující direktivu using v horní části souboru kódu:
+Přidejte následující direktivu using na začátek souboru s kódem:
 
 ```csharp
 using System;
@@ -58,123 +60,125 @@ using Aspose.Pdf.Annotations;
 using Aspose.Pdf;
 ```
 
-Nyní jste připraveni začít vytvářet logiku navigace na stránce PDF!
+Nyní jste připraveni začít vytvářet logiku navigace po stránkách PDF!
 
-Rozdělme náš úkol do zvládnutelných kroků. Napíšeme kód, který otevře dokument PDF, určí konkrétní stránku, která se má zobrazit při prohlížení, a uloží aktualizovaný dokument. 
+Rozdělme si náš úkol na zvládnutelné kroky. Napíšeme kód, který otevře PDF dokument, určí konkrétní stránku, která se má při prohlížení zobrazit, a uloží aktualizovaný dokument. 
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíte nastavit cestu k dokumentům:
+Nejprve je třeba nastavit cestu k dokumentům:
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Nahraďte svým adresářem
 ```
 
- Tento řádek je v podstatě vaším plánem. Říkáte svému kódu, kde má najít soubor PDF. Nezapomeňte vyměnit`YOUR DOCUMENT DIRECTORY` se skutečnou cestou na vašem počítači.
+Tento řádek je v podstatě váš plán. Říkáte svému kódu, kde má najít soubor PDF. Nezapomeňte nahradit `YOUR DOCUMENT DIRECTORY` se skutečnou cestou na vašem počítači.
 
 ## Krok 2: Načtěte soubor PDF
 
-Dále načtete soubor PDF do aplikace:
+Dále nahrajete soubor PDF do vaší aplikace:
 
 ```csharp
-// Načtěte soubor PDF
+// Načíst PDF soubor
 Document doc = new Document(dataDir + "SpecifyPageWhenViewing.pdf");
 ```
 
- Zde se děje to, že vytváříte novou instanci a`Document`objekt a zároveň zadejte cestu k vašemu souboru PDF. Můžete si to představit jako otevření knihy, kterou jste právě položili na stůl.
+Co se zde děje, je to, že vytváříte novou instanci `Document` objekt při zadávání cesty k souboru PDF. Můžete si to představit jako otevření knihy, kterou jste právě položili na stůl.
 
-## Krok 3: Otevřete požadovanou stránku
+## Krok 3: Přejděte na požadovanou stránku
 
-Nyní přejděte na stránku, kterou chcete zobrazit při otevření dokumentu:
+Nyní se podívejme na stránku, kterou chcete zobrazit při otevření dokumentu:
 
 ```csharp
-// Získejte instanci druhé stránky dokumentu
-Page page2 = doc.Pages[2]; // Pamatujte, že indexování začíná na 1
+// Získání instance druhé stránky dokumentu
+Page page2 = doc.Pages[2]; // Nezapomeňte, že indexování začíná od 1
 ```
 
-Zde se dostáváme na druhou stránku vašeho dokumentu. Stojí za zmínku, že číslování stránek v tomto kontextu začíná na 1, takže pokud uvažujete o stránce 2, musíte použít index 2.
+Zde přistupujeme k druhé stránce vašeho dokumentu. Stojí za zmínku, že číslování stránek v tomto kontextu začíná od 1, takže pokud uvažujete o stránce 2, musíte použít index 2.
 
-## Krok 4: Nastavte faktor zoomu
+## Krok 4: Nastavení faktoru přiblížení
 
-Můžete upravit úroveň přiblížení stránky, která se zobrazí:
+Můžete upravit úroveň přiblížení zobrazené stránky:
 
 ```csharp
 // Vytvořte proměnnou pro nastavení faktoru přiblížení cílové stránky
 double zoom = 1; // 1 znamená 100% přiblížení
 ```
 
-Nastavení faktoru přiblížení pomáhá určit, jak velkou část stránky uživatel uvidí ihned po otevření. Hodnota 1 znamená, že stránka se zobrazí při 100% přiblížení, což je obecně dobré výchozí nastavení.
+Nastavení faktoru přiblížení pomáhá určit, jakou část stránky uživatel uvidí ihned po otevření. Hodnota 1 znamená, že se stránka zobrazí se 100% přiblížením, což je obecně dobré výchozí nastavení.
 
-## Krok 5: Vytvořte instanci GoToAction
+## Krok 5: Vytvoření instance GoToAction
 
-Pojďme aktivovat navigační funkce:
+Pojďme si vyzkoušet navigační funkce:
 
 ```csharp
-// Vytvořte instanci GoToAction
+// Vytvořit instanci GoToAction
 GoToAction action = new GoToAction(doc.Pages[2]); 
 ```
 
- V tomto kroku vytváříte instanci`GoToAction` který v podstatě představuje akci navigace do určitého bodu v PDF – v tomto případě na druhou stránku.
+V tomto kroku vytváříte instanci `GoToAction` což v podstatě představuje akci navigace na konkrétní místo v PDF – v tomto případě na druhou stránku.
 
 ## Krok 6: Definujte cíl
 
-Nyní musíte definovat, kam má akce vést:
+Nyní je třeba definovat, kam by měla akce vést:
 
 ```csharp
-// Přejděte na stránku 2
+// Přejít na 2. stránku
 action.Destination = new XYZExplicitDestination(page2, 0, page2.Rect.Height, zoom);
 ```
 
-Tento řádek je jako nastavení cíle GPS pro GoToAction. Říkáte mu, aby přešel na stránku 2 v horní části stránky (výška) a na zadané úrovni přiblížení.
+Tento řádek je jako nastavení GPS cíle pro GoToAction. Říkáte jí, aby přešla na stránku 2 v horní části stránky (výška) a na zadané úrovni přiblížení.
 
-## Krok 7: Nastavte akci Open
+## Krok 7: Nastavení akce Otevřít
 
-Ujistěte se, že tato akce proběhne při otevření dokumentu:
+Zajistíme, aby se tato akce provedla při otevření dokumentu:
 
 ```csharp
-// Nastavte akci otevření dokumentu
+// Nastavení akce pro otevření dokumentu
 doc.OpenAction = action;
 ```
 
-Tímto jste deklarovali, že při otevření vašeho PDF se aktivuje navigační akce, kterou jsme právě definovali. Je to, jako byste položili uvítací podložku na přední dveře vašeho dokumentu.
+Tímto jste deklarovali, že při otevření PDF se aktivuje právě definovaná navigační akce. Je to, jako byste nastavili uvítací panel na úvodní dveře dokumentu.
 
 ## Krok 8: Uložte aktualizovaný dokument
 
-Nakonec uložíme dokument s provedenými změnami:
+Nakonec uložte dokument s provedenými změnami:
 
 ```csharp
 // Uložit aktualizovaný dokument
 doc.Save(dataDir + "goto2page_out.pdf");
 ```
 
-Tímto krokem je vaše práce dokončena! Budete mít nový soubor PDF s názvem`goto2page_out.pdf` který se otevře přímo na vámi zadanou stránku.
+Tímto krokem dokončíte svou práci! Budete mít nový PDF soubor s názvem `goto2page_out.pdf` která se otevře přímo na vámi zadané stránce.
 
-Tím je kódovací část kompletní! Úspěšně jste naprogramovali Aspose.PDF tak, aby při otevření PDF zobrazil určitou stránku. 
+Tím je kódovací část hotová! Úspěšně jste naprogramovali Aspose.PDF tak, aby při otevření PDF souboru zobrazoval konkrétní stránku. 
 
 ## Závěr
 
-V této příručce jsme postupovali krok za krokem, abychom pochopili, jak specifikovat stránku v souboru PDF pomocí Aspose.PDF for .NET. Tato funkce nejen zlepšuje navigaci vašich uživatelů, ale také zefektivňuje jejich interakci s důležitým obsahem ve vašich dokumentech. Přijetím těchto funkcí vytvoříte uživatelsky přívětivější prostředí, které může odlišit vaše aplikace PDF.
+V této příručce jsme krok za krokem popsali, jak pomocí Aspose.PDF pro .NET zadat stránku v souboru PDF. Tato funkce nejen zlepšuje navigaci pro uživatele, ale také zefektivňuje jejich interakci s klíčovým obsahem ve vašich dokumentech. Využitím těchto funkcí vytváříte uživatelsky přívětivější prostředí, které může vaše aplikace pro práci s PDF odlišit.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je knihovna, která umožňuje vývojářům vytvářet, upravovat a spravovat dokumenty PDF v aplikacích .NET.
+Aspose.PDF pro .NET je knihovna, která umožňuje vývojářům vytvářet, upravovat a spravovat dokumenty PDF v aplikacích .NET.
 
-### Mohu zadat více stránek, které se mají zobrazit?
-Ne, dokument můžete nastavit tak, aby se otevřel pouze na jedné zadané stránce. Můžete však vytvořit různé dokumenty pro různé úvodní stránky.
+### Mohu zadat více stránek k zobrazení?
+Ne, dokument můžete nastavit tak, aby se otevíral pouze na jedné určené stránce. Můžete však vytvořit různé dokumenty pro různé počáteční stránky.
 
-### Co když chci zobrazit stránku s jinou úrovní přiblížení?
- Úroveň přiblížení můžete změnit úpravou`zoom` proměnnou před uložením dokumentu.
+### Co když chci zobrazit stránku v jiném přiblížení?
+Úroveň přiblížení můžete změnit úpravou `zoom` proměnnou před uložením dokumentu.
 
 ### Kde najdu další příklady použití Aspose.PDF?
- Můžete zkontrolovat[dokumentace](https://reference.aspose.com/pdf/net/) pro více příkladů a funkcí.
+Můžete zkontrolovat [dokumentace](https://reference.aspose.com/pdf/net/) pro další příklady a funkce.
 
-### Je k dispozici bezplatná zkušební verze pro Aspose.PDF pro .NET?
- Ano! Můžete si stáhnout bezplatnou zkušební verzi Aspose.PDF[zde](https://releases.aspose.com/).
+### Je k dispozici bezplatná zkušební verze souboru Aspose.PDF pro .NET?
+Ano! Můžete si stáhnout bezplatnou zkušební verzi Aspose.PDF [zde](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

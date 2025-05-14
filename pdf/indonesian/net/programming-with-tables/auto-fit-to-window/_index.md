@@ -1,31 +1,33 @@
 ---
-title: Sesuaikan Otomatis ke Jendela
-linktitle: Sesuaikan Otomatis ke Jendela
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menyesuaikan tabel secara otomatis ke jendela menggunakan Aspose.PDF untuk .NET dalam panduan terperinci langkah demi langkah ini. Sempurna untuk membuat tabel yang bagus dan pas dalam PDF.
-weight: 50
-url: /id/net/programming-with-tables/auto-fit-to-window/
+"description": "Pelajari cara menyesuaikan tabel secara otomatis ke jendela menggunakan Aspose.PDF untuk .NET dalam panduan terperinci langkah demi langkah ini. Sempurna untuk membuat tabel yang bagus dan pas dalam PDF."
+"linktitle": "Sesuaikan Otomatis ke Jendela"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Sesuaikan Otomatis ke Jendela"
+"url": "/id/net/programming-with-tables/auto-fit-to-window/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sesuaikan Otomatis ke Jendela
 
 ## Perkenalan
 
-Saat bekerja dengan PDF, biasanya kita berurusan dengan tabel, dan ada kalanya Anda ingin tabel tersebut pas dengan lebar halaman. Dalam tutorial ini, kita akan mempelajari cara menyesuaikan tabel secara otomatis ke jendela menggunakan Aspose.PDF for .NET. Ini dapat membuat tabel Anda terlihat rapi dan teratur, mencegah masalah seperti kolom yang meluap atau tidak rata. Siap untuk belajar? Mari kita mulai!
+Saat bekerja dengan PDF, biasanya kita berurusan dengan tabel, dan ada kalanya Anda perlu tabel tersebut agar pas dengan lebar halaman. Dalam tutorial ini, kita akan mempelajari cara menyesuaikan tabel secara otomatis ke jendela menggunakan Aspose.PDF untuk .NET. Ini dapat membuat tabel Anda tampak rapi dan teratur, mencegah masalah seperti kolom yang meluap atau tidak rata. Siap untuk belajar? Mari kita mulai!
 
 ## Prasyarat
 
 Sebelum kita masuk ke panduan langkah demi langkah, ada beberapa hal yang Anda perlukan:
 
-1. Aspose.PDF untuk .NET terpasang di proyek Anda. Jika Anda belum memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/) atau jelajahi mereka[versi uji coba gratis](https://releases.aspose.com/).
+1. Aspose.PDF untuk .NET terpasang di proyek Anda. Jika Anda belum memilikinya, Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/) atau jelajahi mereka [versi uji coba gratis](https://releases.aspose.com/).
 2. Pemahaman dasar tentang pemrograman .NET.
 3. Visual Studio atau IDE apa pun yang mendukung .NET terinstal di sistem Anda.
 
->  PS Jangan lupa Anda memerlukan lisensi untuk menggunakan Aspose.PDF tanpa batasan. Anda dapat membeli satu[Di Sini](https://purchase.aspose.com/buy) atau dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mencoba semua fitur.
+> PS Jangan lupa Anda memerlukan lisensi untuk menggunakan Aspose.PDF tanpa batasan. Anda dapat membeli satu [Di Sini](https://purchase.aspose.com/buy) atau dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mencoba semua fitur.
 
 ## Paket Impor
 
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
   
- Di sini, kita membuat dokumen baru menggunakan`Document` kelas dari Aspose.PDF.`dataDir` adalah lokasi penyimpanan PDF Anda setelah Anda selesai.
+Di sini, kita membuat dokumen baru menggunakan `Document` kelas dari Aspose.PDF. `dataDir` adalah lokasi penyimpanan PDF Anda setelah Anda selesai.
 
 ## Langkah 2: Tambahkan Halaman ke Dokumen
 
@@ -62,11 +64,11 @@ Dokumen PDF butuh beberapa halaman, bukan? Mari kita tambahkan satu halaman.
 Page sec1 = doc.Pages.Add();
 ```
   
- Kami menambahkan halaman baru ke dokumen menggunakan`Pages.Add()` metode. Anda dapat menganggapnya sebagai penambahan lembar baru ke dokumen Anda, tempat Anda akan meletakkan tabel.
+Kami menambahkan halaman baru ke dokumen menggunakan `Pages.Add()` metode. Anda dapat menganggapnya sebagai penambahan lembar baru ke dokumen Anda, tempat Anda akan meletakkan tabel.
 
 ## Langkah 3: Membuat dan Mengonfigurasi Tabel
 
-Sekarang saatnya membuat tabel dan menyesuaikannya agar pas di dalam jendela.
+Sekarang saatnya membuat tabel dan menyesuaikannya agar pas dengan jendela.
 
 ```csharp
 // Membuat instance objek tabel
@@ -75,7 +77,7 @@ Aspose.Pdf.Table tab1 = new Aspose.Pdf.Table();
 sec1.Paragraphs.Add(tab1);
 ```
   
- Kami menginisialisasi yang baru`Table` objek dan menambahkannya ke koleksi paragraf halaman. Setiap halaman PDF dapat memiliki paragraf yang berbeda, dan di sini kita memperlakukan tabel sebagai paragraf.
+Kami menginisialisasi yang baru `Table` objek dan menambahkannya ke koleksi paragraf halaman. Setiap halaman PDF dapat memiliki paragraf yang berbeda, dan di sini kita memperlakukan tabel sebagai paragraf.
 
 ## Langkah 4: Tentukan Lebar Kolom dan Sesuaikan Otomatis ke Jendela
 
@@ -87,7 +89,7 @@ tab1.ColumnWidths = "50 50 50";
 tab1.ColumnAdjustment = ColumnAdjustment.AutoFitToWindow;
 ```
   
- Kami menetapkan lebar kolom tetap untuk tabel tetapi juga menambahkan`ColumnAdjustment.AutoFitToWindow`, yang memastikan bahwa tabel menyesuaikan ukurannya agar sesuai dengan jendela yang tersedia.
+Kami menetapkan lebar kolom tetap untuk tabel tetapi juga menambahkan `ColumnAdjustment.AutoFitToWindow`, yang memastikan bahwa tabel menyesuaikan ukurannya agar sesuai dengan jendela yang tersedia.
 
 ## Langkah 5: Mengatur Batas dan Margin untuk Tabel dan Sel
 
@@ -111,14 +113,14 @@ margin.Bottom = 5f;
 tab1.DefaultCellPadding = margin;
 ```
   
- Batas ditambahkan ke tabel dan sel menggunakan`BorderInfo` kelas, tempat Anda menentukan ketebalan. Margin diatur untuk memberi sel ruang padding.
+Batas ditambahkan ke tabel dan sel menggunakan `BorderInfo` kelas, tempat Anda menentukan ketebalan. Margin diatur untuk memberi sel ruang padding.
 
 ## Langkah 6: Tambahkan Baris dan Sel ke Tabel
 
 Tabel tanpa konten? Itu tidak bagus! Mari tambahkan beberapa baris dan sel.
 
 ```csharp
-//Buat baris dalam tabel dan kemudian sel dalam baris
+// Buat baris dalam tabel dan kemudian sel dalam baris
 Aspose.Pdf.Row row1 = tab1.Rows.Add();
 row1.Cells.Add("col1");
 row1.Cells.Add("col2");
@@ -142,7 +144,7 @@ dataDir = dataDir + "AutoFitToWindow_out.pdf";
 doc.Save(dataDir);
 ```
   
- Itu`doc.Save()` metode menyimpan PDF ke direktori yang ditentukan. Dalam hal ini, dokumen akan disimpan sebagai`AutoFitToWindow_out.pdf` di direktori yang Anda tentukan.
+Itu `doc.Save()` metode menyimpan PDF ke direktori yang ditentukan. Dalam hal ini, dokumen akan disimpan sebagai `AutoFitToWindow_out.pdf` di direktori yang Anda tentukan.
 
 ## Kesimpulan
 
@@ -151,10 +153,10 @@ Nah, itu dia! Anda baru saja membuat tabel yang secara otomatis sesuai dengan je
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menambahkan lebih banyak baris secara dinamis?  
- Ya, Anda dapat terus menambahkan baris menggunakan`tab1.Rows.Add()` metode yang didasarkan secara dinamis pada konten.
+Ya, Anda dapat terus menambahkan baris menggunakan `tab1.Rows.Add()` metode yang didasarkan secara dinamis pada konten.
 
-### Bagaimana cara menyesuaikan tabel jika saya tidak menginginkannya disesuaikan secara otomatis?  
- Anda dapat mengatur secara manual`ColumnWidths` tanpa menggunakan`ColumnAdjustment.AutoFitToWindow` untuk mempertahankan lebar tabel tetap.
+### Bagaimana cara menyesuaikan tabel jika saya tidak ingin menyesuaikannya secara otomatis?  
+Anda dapat mengatur secara manual `ColumnWidths` tanpa menggunakan `ColumnAdjustment.AutoFitToWindow` untuk mempertahankan lebar tabel tetap.
 
 ### Bisakah saya menambahkan gambar atau konten lain di dalam sel?  
 Ya, Aspose.PDF memungkinkan Anda menambahkan gambar, teks, dan bahkan tabel lain di dalam sel!
@@ -164,9 +166,11 @@ Anda dapat menyesuaikan gaya tabel dan sel lebih lanjut dengan menggunakan prope
 
 ### Apakah mungkin untuk mengekspor tabel ini ke format selain PDF?  
 Tentu saja! Aspose.PDF mendukung ekspor ke berbagai format seperti HTML, DOCX, dan banyak lagi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

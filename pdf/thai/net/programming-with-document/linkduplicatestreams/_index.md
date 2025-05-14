@@ -1,14 +1,16 @@
 ---
-title: เชื่อมโยงสตรีมที่ซ้ำกัน
-linktitle: เชื่อมโยงสตรีมที่ซ้ำกัน
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีเชื่อมโยงสตรีมซ้ำในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET เพิ่มประสิทธิภาพ PDF ของคุณเพื่อประสิทธิภาพที่ดีขึ้นและขนาดไฟล์ที่เล็กลง
-weight: 230
-url: /th/net/programming-with-document/linkduplicatestreams/
+"description": "เรียนรู้วิธีเชื่อมโยงสตรีมซ้ำในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET เพิ่มประสิทธิภาพ PDF ของคุณเพื่อประสิทธิภาพที่ดีขึ้นและขนาดไฟล์ที่เล็กลง"
+"linktitle": "เชื่อมโยงสตรีมที่ซ้ำกัน"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "เชื่อมโยงสตรีมที่ซ้ำกัน"
+"url": "/th/net/programming-with-document/linkduplicatestreams/"
+"weight": 230
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เชื่อมโยงสตรีมที่ซ้ำกัน
@@ -21,7 +23,7 @@ url: /th/net/programming-with-document/linkduplicatestreams/
 
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณต้องมี:
 
-1.  Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF แล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 2. Visual Studio: สภาพแวดล้อมการพัฒนาที่คุณสามารถเขียนและทดสอบโค้ดของคุณได้
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจตัวอย่างต่างๆ ได้ดีขึ้น
 4. ตัวอย่างเอกสาร PDF: สำหรับบทช่วยสอนนี้ คุณจะต้องมีเอกสาร PDF เพื่อใช้งาน คุณสามารถสร้างเอกสารแบบง่าย ๆ หรือดาวน์โหลดตัวอย่างจากอินเทอร์เน็ตก็ได้
@@ -61,21 +63,21 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
- ต่อไปคุณจะเปิดเอกสาร PDF โดยใช้`Document` คลาสที่จัดทำโดย Aspose.PDF
+ต่อไปคุณจะเปิดเอกสาร PDF โดยใช้ `Document` คลาสที่จัดทำโดย Aspose.PDF
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
-บรรทัดโค้ดนี้จะสร้างอินสแตนซ์ใหม่ของ`Document` และโหลดไฟล์ PDF ของคุณลงไป
+บรรทัดโค้ดนี้จะสร้างอินสแตนซ์ใหม่ของ `Document` และโหลดไฟล์ PDF ของคุณลงไป
 
 ## ขั้นตอนที่ 3: ตั้งค่าตัวเลือกการเพิ่มประสิทธิภาพ
 
- ตอนนี้ถึงเวลาตั้งค่าตัวเลือกการเพิ่มประสิทธิภาพแล้ว คุณจะสร้างอินสแตนซ์ของ`OptimizationOptions` และตั้งค่า`LinkDuplcateStreams` ทรัพย์สินที่จะ`true`.
+ตอนนี้ถึงเวลาตั้งค่าตัวเลือกการเพิ่มประสิทธิภาพแล้ว คุณจะสร้างอินสแตนซ์ของ `OptimizationOptions` และตั้งค่า `LinkDuplcateStreams` ทรัพย์สินที่จะ `true`-
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions
@@ -117,7 +119,7 @@ pdfDocument.Save(dataDir);
 Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และเพิ่มประสิทธิภาพเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันจะติดตั้ง Aspose.PDF ได้อย่างไร?
-คุณสามารถติดตั้ง Aspose.PDF ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หรือดาวน์โหลดโดยตรงจาก[เว็บไซต์](https://releases.aspose.com/pdf/net/).
+คุณสามารถติดตั้ง Aspose.PDF ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หรือดาวน์โหลดโดยตรงจาก [เว็บไซต์](https://releases-aspose.com/pdf/net/).
 
 ### ฉันสามารถเพิ่มประสิทธิภาพไฟล์ PDF หลายไฟล์ในครั้งเดียวได้หรือไม่
 ใช่ คุณสามารถวนซ้ำผ่านรายการไฟล์ PDF และใช้กระบวนการเพิ่มประสิทธิภาพแบบเดียวกันกับแต่ละไฟล์ได้
@@ -126,10 +128,12 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีอันท
 สตรีมข้อมูลซ้ำคือสตรีมข้อมูลเดียวกันภายในไฟล์ PDF การเชื่อมโยงสตรีมข้อมูลเหล่านี้สามารถลดขนาดไฟล์และเพิ่มประสิทธิภาพการทำงานได้
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.PDF สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมเกี่ยวกับ Aspose.PDF สำหรับ .NET ได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

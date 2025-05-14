@@ -1,14 +1,16 @@
 ---
-title: Gạch bỏ các từ
-linktitle: Gạch bỏ các từ
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách gạch bỏ các từ trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này. Nâng cao kỹ năng chỉnh sửa tài liệu của bạn.
-weight: 150
-url: /vi/net/annotations/strikeoutwords/
+"description": "Tìm hiểu cách gạch bỏ các từ trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này. Nâng cao kỹ năng chỉnh sửa tài liệu của bạn."
+"linktitle": "Gạch bỏ các từ"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Gạch bỏ các từ"
+"url": "/vi/net/annotations/strikeoutwords/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gạch bỏ các từ
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình cần nhấn mạnh một đoạn văn bản c
 
 Trước khi đi sâu vào mã, bạn cần đáp ứng một số điều kiện tiên quyết để có thể làm theo hướng dẫn này:
 
-1.  Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 
 2. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework trên máy của mình. Hướng dẫn này được thiết kế cho các ứng dụng .NET.
 
@@ -58,12 +60,12 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "input.pdf");
 ```
 
-- `dataDir` : Biến này giữ đường dẫn đến thư mục tài liệu của bạn. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp PDF của bạn.
-- `Document` : Các`Document` lớp biểu diễn một tài liệu PDF. Bằng cách truyền đường dẫn tệp đến hàm tạo của nó, chúng ta mở tệp PDF để xử lý.
+- `dataDir`: Biến này giữ đường dẫn đến thư mục tài liệu của bạn. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tệp PDF của bạn.
+- `Document`: Các `Document` lớp biểu diễn một tài liệu PDF. Bằng cách truyền đường dẫn tệp đến hàm tạo của nó, chúng ta mở tệp PDF để xử lý.
 
 ## Bước 2: Tạo TextFragment Absorber để tìm văn bản cụ thể
 
- Tiếp theo, chúng ta sẽ tạo một thể hiện của`TextFragmentAbsorber` để tìm kiếm một đoạn văn bản cụ thể trong tài liệu PDF. Điều này cho phép chúng tôi xác định vị trí đoạn văn bản mà chúng tôi muốn gạch bỏ.
+Tiếp theo, chúng ta sẽ tạo một thể hiện của `TextFragmentAbsorber` để tìm kiếm một đoạn văn bản cụ thể trong tài liệu PDF. Điều này cho phép chúng tôi xác định vị trí đoạn văn bản mà chúng tôi muốn gạch bỏ.
 
 ```csharp
 // Tạo phiên bản TextFragment Absorber để tìm kiếm một đoạn văn bản cụ thể
@@ -74,7 +76,7 @@ Aspose.Pdf.Text.TextFragmentAbsorber textFragmentAbsorber = new Aspose.Pdf.Text.
 
 ## Bước 3: Lặp lại qua các trang của tài liệu PDF
 
- Bây giờ chúng ta đã có`TextFragmentAbsorber`, chúng ta cần lặp lại từng trang của tài liệu PDF để tìm văn bản được chỉ định.
+Bây giờ chúng ta đã có `TextFragmentAbsorber`, chúng ta cần lặp lại từng trang của tài liệu PDF để tìm văn bản được chỉ định.
 
 ```csharp
 // Lặp lại qua các trang của tài liệu PDF
@@ -88,7 +90,7 @@ for (int i = 1; i <= document.Pages.Count; i++)
 
 - `for (int i = 1; i <= document.Pages.Count; i++)`: Vòng lặp này lặp lại qua từng trang của tài liệu PDF.
 - `document.Pages[i]`: Truy xuất trang hiện tại đang được xử lý.
-- `page.Accept(textFragmentAbsorber)` : Phương pháp này áp dụng`TextFragmentAbsorber` đến trang hiện tại, tìm kiếm văn bản đã chỉ định.
+- `page.Accept(textFragmentAbsorber)`: Phương pháp này áp dụng `TextFragmentAbsorber` đến trang hiện tại, tìm kiếm văn bản đã chỉ định.
 
 ## Bước 4: Thu thập và xử lý các đoạn văn bản
 
@@ -159,26 +161,28 @@ Xin chúc mừng! Bạn đã gạch bỏ thành công các từ cụ thể trong
 
 ### Tôi có thể thay đổi màu của phần gạch ngang không?
 
- Có, bạn có thể thay đổi màu sắc bằng cách sửa đổi`strikeOut.Color`thuộc tính. Ví dụ, bạn có thể đặt nó thành`Aspose.Pdf.Color.Blue` để đánh bóng màu xanh.
+Có, bạn có thể thay đổi màu sắc bằng cách sửa đổi `strikeOut.Color` thuộc tính. Ví dụ, bạn có thể đặt nó thành `Aspose.Pdf.Color.Blue` để đánh bóng màu xanh.
 
 ### Có thể gạch bỏ nhiều từ cùng một lúc không?
 
- Chắc chắn rồi!`TextFragmentAbsorber` có thể được sử dụng để tìm kiếm bất kỳ từ hoặc cụm từ nào trong tài liệu. Bạn có thể áp dụng gạch bỏ cho nhiều trường hợp bằng cách lặp lại qua`TextFragmentCollection`.
+Chắc chắn rồi! `TextFragmentAbsorber` có thể được sử dụng để tìm kiếm bất kỳ từ hoặc cụm từ nào trong tài liệu. Bạn có thể áp dụng gạch bỏ cho nhiều trường hợp bằng cách lặp lại qua `TextFragmentCollection`.
 
 ### Tôi phải làm sao nếu chỉ muốn gạch bỏ văn bản trên một số trang cụ thể?
 
- Bạn có thể sửa đổi vòng lặp lặp qua các trang để chỉ bao gồm các trang bạn muốn sửa đổi. Ví dụ:`for (int i = 1; i <= 3; i++)` sẽ chỉ áp dụng lệnh gạch bỏ cho ba trang đầu tiên.
+Bạn có thể sửa đổi vòng lặp lặp qua các trang để chỉ bao gồm các trang bạn muốn sửa đổi. Ví dụ: `for (int i = 1; i <= 3; i++)` sẽ chỉ áp dụng lệnh gạch bỏ cho ba trang đầu tiên.
 
 ### Tôi có thể điều chỉnh độ dày của đường gạch ngang như thế nào?
 
- Bạn có thể điều chỉnh độ dày của đường gạch ngang bằng cách sửa đổi`Border` tài sản của`StrikeOutAnnotation`. Điều này cho phép tùy chỉnh giao diện gạch ngang.
+Bạn có thể điều chỉnh độ dày của đường gạch ngang bằng cách sửa đổi `Border` tài sản của `StrikeOutAnnotation`. Điều này cho phép tùy chỉnh giao diện gạch ngang.
 
 ### Có cách nào để hoàn tác lệnh gạch bỏ sau khi lưu tài liệu không?
 
 Sau khi tài liệu được lưu, gạch bỏ sẽ có hiệu lực vĩnh viễn. Nếu bạn cần giữ nguyên văn bản gốc mà không có gạch bỏ, hãy cân nhắc lưu bản sao lưu của tài liệu gốc trước khi áp dụng bất kỳ sửa đổi nào.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

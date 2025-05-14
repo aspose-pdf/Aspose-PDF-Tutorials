@@ -1,14 +1,16 @@
 ---
-title: Lưu trữ hình ảnh trong bộ sưu tập XImage
-linktitle: Lưu trữ hình ảnh trong bộ sưu tập XImage
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách lưu trữ hình ảnh trong bộ sưu tập XImage bằng Aspose.PDF cho .NET trong hướng dẫn từng bước đầy đủ này.
-weight: 290
-url: /vi/net/programming-with-images/store-image-in-ximage-collection/
+"description": "Tìm hiểu cách lưu trữ hình ảnh trong bộ sưu tập XImage bằng Aspose.PDF cho .NET trong hướng dẫn từng bước đầy đủ này."
+"linktitle": "Lưu trữ hình ảnh trong bộ sưu tập XImage"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Lưu trữ hình ảnh trong bộ sưu tập XImage"
+"url": "/vi/net/programming-with-images/store-image-in-ximage-collection/"
+"weight": 290
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu trữ hình ảnh trong bộ sưu tập XImage
@@ -22,7 +24,7 @@ Trong kỷ nguyên số ngày nay, việc xử lý và thao tác tài liệu the
 Trước khi đi sâu vào mã và quy trình, bạn cần đảm bảo rằng mình đã chuẩn bị một số thứ sau:
 
 - Môi trường .NET: Bạn nên cài đặt .NET Framework trên máy của mình. Chọn phiên bản phù hợp dựa trên yêu cầu của dự án.
-- Aspose.PDF cho .NET: Đảm bảo bạn có thư viện Aspose.PDF. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/) hoặc bắt đầu với bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+- Aspose.PDF cho .NET: Đảm bảo bạn có thư viện Aspose.PDF. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/) hoặc bắt đầu với bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 - Tệp hình ảnh: Bạn cũng cần một tệp hình ảnh (như JPG hoặc PNG) mà bạn muốn lưu trữ trong PDF. Đối với ví dụ này, chúng tôi sẽ sử dụng tệp có tên "aspose-logo.jpg".
 - Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 
@@ -71,7 +73,7 @@ Chúng tôi đang thêm một trang mới vào tài liệu của mình. Bây gi�
 
 ## Bước 4: Tải tệp hình ảnh
 
-Tiếp theo, bạn cần tải hình ảnh vào chương trình của mình. Bước này khá giống với việc mở một cuốn sách để đọc; bạn cần truy cập nội dung trước khi có thể sử dụng.
+Tiếp theo, bạn sẽ cần tải hình ảnh vào chương trình của mình. Bước này khá giống với việc mở một cuốn sách để đọc; bạn cần truy cập nội dung trước khi có thể sử dụng.
 
 ```csharp
 using (FileStream imageStream = new FileStream(dataDir + "aspose-logo.jpg", FileMode.Open))
@@ -89,7 +91,7 @@ page.Resources.Images.Add(imageStream, ImageFilterType.Flate);
 XImage ximage = page.Resources.Images[page.Resources.Images.Count];
 ```
 
- Mã này thực hiện nhiệm vụ nặng nề là thêm hình ảnh vào PDF và gán nó cho một`XImage` biến mà chúng ta có thể tham chiếu sau.
+Mã này thực hiện nhiệm vụ nặng nề là thêm hình ảnh vào PDF và gán nó cho một `XImage` biến mà chúng ta có thể tham chiếu sau.
 
 ## Bước 6: Chuẩn bị vẽ hình ảnh
 
@@ -117,7 +119,7 @@ Khối mã này thiết lập kích thước cho hình chữ nhật mà hình �
 
 ## Bước 8: Tạo Ma trận chuyển đổi 
 
-Để kiểm soát cách đặt hình ảnh, chúng ta sẽ định nghĩa một ma trận biến đổi. Ma trận này điều khiển cách hình ảnh xuất hiện tại tọa độ đích.
+Để kiểm soát cách đặt hình ảnh, chúng ta sẽ định nghĩa một ma trận chuyển đổi. Ma trận này điều khiển cách hình ảnh xuất hiện tại tọa độ đích.
 
 ```csharp
 Matrix matrix = new Matrix(new double[] { rectangle.URX - rectangle.LLX, 0, 0, rectangle.URY - rectangle.LLY, rectangle.LLX, rectangle.LLY });
@@ -160,16 +162,18 @@ Aspose.PDF hỗ trợ nhiều định dạng hình ảnh, bao gồm JPG, PNG, BM
 Có, bằng cách điều chỉnh tọa độ được xác định trong hình chữ nhật, bạn có thể thay đổi kích thước hình ảnh hiển thị trong PDF.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF không?
- Aspose cung cấp bản dùng thử miễn phí và nhiều tùy chọn mua hàng khác nhau. Bạn có thể tìm thấy chúng[đây](https://purchase.aspose.com/buy).
+Aspose cung cấp bản dùng thử miễn phí và nhiều tùy chọn mua hàng khác nhau. Bạn có thể tìm thấy chúng [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
- Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose [đây](https://forum.aspose.com/c/pdf/10).
 
 ### Có cách nào để áp dụng tính năng nén cho hình ảnh được thêm vào PDF không?
 Có, khi thêm hình ảnh vào PDF, bạn có thể chỉ định loại bộ lọc hình ảnh để sử dụng các phương pháp nén như Flate.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

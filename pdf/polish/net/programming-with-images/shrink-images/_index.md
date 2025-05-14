@@ -1,14 +1,16 @@
 ---
-title: Zmniejsz obrazy w pliku PDF
-linktitle: Zmniejsz obrazy w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Łatwo zmniejszaj obrazy w plikach PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku, dzięki czemu uzyskasz mniejszy rozmiar pliku przy jednoczesnym zachowaniu jego jakości.
-weight: 280
-url: /pl/net/programming-with-images/shrink-images/
+"description": "Łatwo zmniejszaj obrazy w plikach PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku, dzięki czemu uzyskasz mniejszy rozmiar pliku przy jednoczesnym zachowaniu jego jakości."
+"linktitle": "Zmniejsz obrazy w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zmniejsz obrazy w pliku PDF"
+"url": "/pl/net/programming-with-images/shrink-images/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmniejsz obrazy w pliku PDF
@@ -22,7 +24,7 @@ erze cyfrowej praca z plikami PDF stała się powszechną praktyką w różnych 
 Zanim rozpoczniemy proces optymalizacji obrazu, należy spełnić kilka warunków wstępnych:
 
 1. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowana zgodna wersja .NET Framework. Aspose.PDF dla .NET współpracuje z .NET Framework lub .NET Core.
-2.  Aspose.PDF dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz najnowszą wersję Aspose.PDF dla .NET ze strony[strona do pobrania](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz najnowszą wersję Aspose.PDF dla .NET ze strony [strona do pobrania](https://releases.aspose.com/pdf/net/).
 3. Środowisko programistyczne: Przydatne może okazać się skonfigurowanie zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio, w którym można pisać i wykonywać kod.
 4. Podstawowa wiedza programistyczna: Znajomość programowania w C# ułatwi ten proces. Jeśli masz wcześniejsze doświadczenie w kodowaniu, to jest to plus!
 
@@ -46,10 +48,10 @@ Następnie uwzględnij odniesienie do biblioteki Aspose.PDF w swoim projekcie. M
   - Wyszukaj „Aspose.PDF” i zainstaluj.
 
 - Ręczne dodawanie biblioteki DLL:
-  - Pobierz plik Aspose.PDF dla platformy .NET ze strony[link do pobrania](https://releases.aspose.com/pdf/net/).
+  - Pobierz plik Aspose.PDF dla platformy .NET ze strony [link do pobrania](https://releases.aspose.com/pdf/net/).
   - Dodaj plik DLL do odniesień swojego projektu.
 
- Po wykonaniu tej czynności użyj następującego polecenia`using` oświadczenie na górze kodu:
+Po wykonaniu tej czynności użyj następującego polecenia `using` oświadczenie na górze kodu:
 
 ```csharp
 using System;
@@ -68,7 +70,7 @@ Pierwszą rzeczą, którą musimy zrobić, jest zdefiniowanie ścieżki, w któr
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 ```
 
- Pamiętaj o wymianie`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką w Twoim systemie.
+Pamiętaj o wymianie `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką w Twoim systemie.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -78,7 +80,7 @@ Gdy już znasz ścieżkę do dokumentu, możesz użyć biblioteki Aspose.PDF, ab
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 ```
 
- Ta linia tworzy`Document` obiekt z pliku PDF. Jeśli plik nie istnieje w określonej ścieżce, zostanie zgłoszony wyjątek.
+Ta linia tworzy `Document` obiekt z pliku PDF. Jeśli plik nie istnieje w określonej ścieżce, zostanie zgłoszony wyjątek.
 
 ## Krok 3: Zainicjuj opcje optymalizacji
 
@@ -141,7 +143,7 @@ Console.WriteLine("\nImage shrinked successfully.\nFile saved at " + dataDir);
 
 ## Wniosek
 
-masz to! Wykonując te kroki, możesz szybko i skutecznie zmniejszać obrazy w pliku PDF za pomocą Aspose.PDF dla .NET. To nie tylko ułatwia udostępnianie plików PDF, ale może również poprawić ich wydajność podczas otwierania lub drukowania.
+I masz to! Wykonując te kroki, możesz szybko i skutecznie zmniejszać obrazy w pliku PDF za pomocą Aspose.PDF dla .NET. To nie tylko ułatwia udostępnianie plików PDF, ale może również poprawić ich wydajność podczas otwierania lub drukowania.
 
 ## Najczęściej zadawane pytania
 
@@ -149,19 +151,21 @@ masz to! Wykonując te kroki, możesz szybko i skutecznie zmniejszać obrazy w p
 Aspose.PDF potrafi kompresować różne formaty obrazów, w tym JPEG, PNG i TIFF.
 
 ### Czy mogę podejrzeć zmiany przed ich zapisaniem?  
-Obecnie w bibliotece nie ma funkcji podglądu, ale można ręcznie przejrzeć plik przed zapisaniem go w zewnętrznej przeglądarce plików PDF.
+Obecnie w bibliotece nie ma funkcji podglądu, ale można ręcznie przejrzeć plik PDF przed zapisaniem go w zewnętrznej przeglądarce plików PDF.
 
 ### O ile mogę spodziewać się zmniejszenia rozmiaru pliku?  
-Stopień redukcji zależy w dużej mierze od oryginalnej jakości obrazu oraz wartości ustawionych dla kompresji i jakości obrazu.
+Stopień redukcji zależy w dużej mierze od oryginalnej jakości obrazu oraz wartości kompresji i jakości obrazu, jakie ustawiłeś.
 
 ### Czy korzystanie z Aspose.PDF jest bezpłatne?  
 Aspose.PDF oferuje bezpłatną wersję próbną, jednak ciągłe korzystanie z niego wymaga zakupu licencji.
 
 ### Gdzie mogę znaleźć dalszą pomoc lub dokumentację?  
- Można znaleźć obszerne zasoby na[Strona dokumentacji PDF Aspose](https://reference.aspose.com/pdf/net/) zadawaj pytania na[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+Można znaleźć obszerne zasoby na [Strona dokumentacji PDF Aspose](https://reference.aspose.com/pdf/net/) i zadawaj pytania na [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

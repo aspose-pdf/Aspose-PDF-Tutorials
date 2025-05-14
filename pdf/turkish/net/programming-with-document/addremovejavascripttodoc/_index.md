@@ -1,14 +1,16 @@
 ---
-title: PDF Belgesine Javascript Ekle Kaldır
-linktitle: Belgeye Javascript Ekle Kaldır
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF belgesine JavaScript eklemeyi ve kaldırmayı öğrenin. Belge düzeyinde komut dosyası oluşturma için kod eğitimleriyle adım adım kılavuz.
-weight: 30
-url: /tr/net/programming-with-document/addremovejavascripttodoc/
+"description": "Aspose.PDF for .NET kullanarak PDF belgesine JavaScript eklemeyi ve kaldırmayı öğrenin. Belge düzeyinde komut dosyası oluşturma için kod eğitimleriyle adım adım kılavuz."
+"linktitle": "Javascript'i Belgeye Ekle Kaldır"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Belgesine Javascript Ekle Kaldır"
+"url": "/tr/net/programming-with-document/addremovejavascripttodoc/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Belgesine Javascript Ekle Kaldır
@@ -21,10 +23,10 @@ Bu kılavuzda, JavaScript'i bir PDF dosyasına eklemek ve gerektiğinde kaldırm
 
 Koda dalmadan önce, ayarlamanız gereken birkaç şey var:
 
-1.  .NET için Aspose.PDF: Projenizde .NET için Aspose.PDF kütüphanesinin yüklü olması gerekir. Eğer henüz yoksa, kütüphaneyi şuradan edinin:[Aspose.PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Projenizde .NET için Aspose.PDF kütüphanesinin yüklü olması gerekir. Eğer henüz yoksa, kütüphaneyi şuradan edinin: [Aspose.PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/).
 2. IDE veya Metin Düzenleyici: Visual Studio gibi herhangi bir .NET uyumlu IDE'yi kullanabilirsiniz.
 3. Temel C# Bilgisi: Bu eğitimde C# konusunda rahat olduğunuzu ve PDF düzenleme konusunda bilginiz olduğunu varsayıyoruz.
-4. Lisans: Sınırlamalardan kaçınmak için geçerli bir lisans uyguladığınızdan emin olun. Geçici bir lisansı şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+4. Lisans: Sınırlamalardan kaçınmak için geçerli bir lisans uyguladığınızdan emin olun. Geçici bir lisansı şu adresten alabilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Paketleri İçe Aktar
 
@@ -39,7 +41,7 @@ using Aspose.Pdf.Text;
 using System.Collections;
 ```
 
- Bu iki isim alanı önemlidir.`Aspose.Pdf` PDF belgeleriyle çalışmanıza olanak tanırken,`System.Collections` JavaScript anahtarlarının işlenmesinde kullanılacaktır.
+Bu iki isim alanı önemlidir. `Aspose.Pdf` PDF belgeleriyle çalışmanıza olanak tanırken, `System.Collections` JavaScript anahtarlarının işlenmesinde kullanılacaktır.
 
 PDF'e JavaScript ekleme ve kaldırma sürecini kolay takip edilebilir adımlara bölelim.
 
@@ -52,7 +54,7 @@ Document doc = new Document();
 doc.Pages.Add();
 ```
 
- Burada yeni bir tane başlatıyoruz`Document` nesne ve ona boş bir sayfa eklemek. Bunu PDF'nizin temeli olarak düşünün.
+Burada yeni bir tane başlatıyoruz `Document` nesne ve ona boş bir sayfa eklemek. Bunu PDF'nizin temeli olarak düşünün.
 
 ## Adım 2: PDF'ye JavaScript ekleyin
 
@@ -63,7 +65,7 @@ doc.JavaScript["func1"] = "function func1() { hello(); }";
 doc.JavaScript["func2"] = "function func2() { hello(); }";
 ```
 
-Bu kod parçacığında iki JavaScript fonksiyonu ekliyoruz (`func1` Ve`func2` ) PDF'ye. Bu işlevler ihtiyaçlarınıza bağlı olarak çeşitli görevler gerçekleştirebilir. Burada, yalnızca bir yer tutucu işlevi çağırıyoruz`hello()`.
+Bu kod parçacığında iki JavaScript fonksiyonu ekliyoruz (`func1` Ve `func2`) PDF'ye. Bu işlevler ihtiyaçlarınıza bağlı olarak çeşitli görevler gerçekleştirebilir. Burada, yalnızca bir yer tutucu işlevi çağırıyoruz `hello()`.
 
 ## Adım 3: PDF'yi JavaScript ile kaydedin
 
@@ -73,7 +75,7 @@ Bu kod parçacığında iki JavaScript fonksiyonu ekliyoruz (`func1` Ve`func2` )
 doc.Save(dataDir + "AddJavascript.pdf");
 ```
 
- Bu, belgeyi JavaScript ile şu ad altında kaydedecektir:`AddJavascript.pdf` belirtilen dizinde (`dataDir`).
+Bu, belgeyi JavaScript ile şu ad altında kaydedecektir: `AddJavascript.pdf` belirtilen dizinde (`dataDir`).
 
 ## Adım 4: Mevcut PDF'de JavaScript'i Yükleyin ve Görüntüleyin
 
@@ -84,7 +86,7 @@ Document doc1 = new Document(dataDir + "AddJavascript.pdf");
 IList keys = (System.Collections.IList)doc1.JavaScript.Keys;
 ```
 
- Mevcut olanı yüklüyoruz`AddJavascript.pdf` ve JavaScript anahtarlarını bir listede depolamak.`Keys` property, belgeye eklenmiş tüm JavaScript fonksiyonlarının adlarını döndürür.
+Mevcut olanı yüklüyoruz `AddJavascript.pdf` ve JavaScript anahtarlarını bir listede depolamak. `Keys` property, belgeye eklenmiş tüm JavaScript fonksiyonlarının adlarını döndürür.
 
 ## Adım 5: JavaScript Fonksiyonlarını Görüntüle
 
@@ -98,22 +100,22 @@ foreach (string key in keys)
 }
 ```
 
-Bu, her JavaScript fonksiyon adını ve karşılık gelen kodunu konsola yazdıracaktır. Belgede şu anda hangi fonksiyonların olduğunu doğrulamak istiyorsanız kullanışlıdır.
+Bu, her JavaScript fonksiyon adını ve karşılık gelen kodunu konsola yazdıracaktır. Belgede şu anda hangi fonksiyonların olduğunu doğrulamak istiyorsanız yararlıdır.
 
 ## Adım 6: PDF'den JavaScript'i kaldırın
 
- Şimdi, örneğin belirli bir JavaScript işlevini kaldırmak istediğinizi varsayalım.`func1`Bunu nasıl yapabileceğinizi anlatalım:
+Şimdi, örneğin belirli bir JavaScript işlevini kaldırmak istediğinizi varsayalım. `func1`Bunu nasıl yapabileceğinizi anlatalım:
 
 ```csharp
 doc1.JavaScript.Remove("func1");
 Console.WriteLine("Key 'func1' removed ");
 ```
 
- The`Remove` method, JavaScript fonksiyonunun adını argüman olarak alır ve onu belgeden siler.
+The `Remove` method, JavaScript fonksiyonunun adını argüman olarak alır ve onu belgeden siler.
 
 ## Adım 7: JavaScript Kaldırmayı Doğrulayın
 
- JavaScript'i kaldırdıktan sonra, kalan işlevleri doğrulamak için yeniden yazdırabilirsiniz.`func1` Başarıyla silindi.
+JavaScript'i kaldırdıktan sonra, kalan işlevleri doğrulamak için yeniden yazdırabilirsiniz. `func1` Başarıyla silindi.
 
 ```csharp
 Console.WriteLine("=============================== ");
@@ -133,10 +135,10 @@ Tebrikler! Aspose.PDF for .NET kullanarak bir PDF belgesine JavaScript eklemeyi 
 ## SSS
 
 ### Tek bir PDF'e birden fazla JavaScript fonksiyonu ekleyebilir miyim?
- Kesinlikle! İhtiyacınız olan kadar JavaScript işlevi ekleyebilirsiniz.`doc.JavaScript` koleksiyon.
+Kesinlikle! İhtiyacınız olan kadar JavaScript işlevi ekleyebilirsiniz. `doc.JavaScript` koleksiyon.
 
 ### Varolmayan bir JavaScript fonksiyonunu kaldırmaya çalışırsam ne olur?
- Eğer fonksiyon mevcut değilse,`Remove` Bu yöntem bir hata vermez ama aynı zamanda hiçbir şeyi de kaldırmaz.
+Eğer fonksiyon mevcut değilse, `Remove` Bu yöntem bir hata vermeyecek ama aynı zamanda hiçbir şeyi de kaldırmayacak.
 
 ### PDF açılır açılmaz JavaScript'i çalıştırmak mümkün müdür?
 Evet! JavaScript'i, belgeyi açmak veya bir düğmeye tıklamak gibi belirli tetikleyicilerde çalışacak şekilde yapılandırabilirsiniz.
@@ -146,9 +148,11 @@ Evet, mevcut bir PDF'yi yükleyebilir, JavaScript'ine erişebilir, kodu değişt
 
 ### JavaScript'i kaldırmak PDF içeriğinin geri kalanını etkiler mi?
 Hayır, JavaScript'i kaldırmak yalnızca betiği etkiler. PDF'in içeriği değişmeden kalır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

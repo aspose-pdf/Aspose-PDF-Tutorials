@@ -1,14 +1,16 @@
 ---
-title: Ustaw zakładkę na początku strony PDF
-linktitle: Ustaw zakładkę na początku strony PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak ustawić zakładki na początku stron PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku sprawia, że nawigacja w PDF jest dziecinnie prosta.
-weight: 12
-url: /pl/java/pdf-bookmarks/set-bookmark-start-pdf-page/
+"description": "Dowiedz się, jak ustawić zakładki na początku stron PDF za pomocą Aspose.PDF dla Java. Nasz przewodnik krok po kroku sprawia, że nawigacja w PDF jest dziecinnie prosta."
+"linktitle": "Ustaw zakładkę na początku strony PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Ustaw zakładkę na początku strony PDF"
+"url": "/pl/java/pdf-bookmarks/set-bookmark-start-pdf-page/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw zakładkę na początku strony PDF
@@ -32,7 +34,7 @@ Aby użyć Aspose.PDF dla Java w swoim projekcie, musisz dodać bibliotekę Aspo
 
 ## Tworzenie dokumentu PDF
 
- Zacznijmy od utworzenia nowego dokumentu PDF przy użyciu Aspose.PDF dla Java. Możesz utworzyć wystąpienie`Document` klasę reprezentującą dokument PDF, a następnie dodać do niego strony.
+Zacznijmy od utworzenia nowego dokumentu PDF przy użyciu Aspose.PDF dla Java. Możesz utworzyć wystąpienie `Document` klasę reprezentującą dokument PDF, a następnie dodać do niego strony.
 
 ```java
 // Utwórz nowy dokument PDF
@@ -55,7 +57,7 @@ page.getParagraphs().add(textFragment);
 
 ## Ustawianie zakładki na początku strony
 
- Teraz ustawmy zakładkę na początku strony, którą utworzyliśmy. Zakładki są dodawane do`Outline` kolekcja dokumentu PDF. Możesz określić tytuł i stronę docelową dla zakładki.
+Teraz ustawmy zakładkę na początku strony, którą utworzyliśmy. Zakładki są dodawane do `Outline` kolekcja dokumentu PDF. Możesz określić tytuł i stronę docelową dla zakładki.
 
 ```java
 // Utwórz zakładkę na początku strony
@@ -81,7 +83,7 @@ pdfDocument.save("sample.pdf");
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak ustawić zakładkę na początku strony PDF za pomocą Aspose.PDF dla Java. Aspose.PDF zapewnia kompleksowy zestaw narzędzi do pracy z dokumentami PDF w aplikacjach Java, ułatwiając tworzenie, edycję i zarządzanie plikami PDF.
+W tym samouczku nauczyliśmy się, jak ustawić zakładkę na początku strony PDF za pomocą Aspose.PDF dla Java. Aspose.PDF zapewnia kompleksowy zestaw narzędzi do pracy z dokumentami PDF w aplikacjach Java, ułatwiając tworzenie, edycję i zarządzanie plikami PDF.
 
 # Najczęściej zadawane pytania
 
@@ -104,9 +106,11 @@ Aspose.PDF for Java jest zgodny z Java 1.6 lub nowszym. Upewnij się, że Twoje 
 ### Gdzie mogę znaleźć więcej samouczków Aspose.PDF dla języka Java?
 
 Więcej samouczków i dokumentacji Aspose.PDF for Java znajdziesz na stronie internetowej Aspose. Dodatkowo możesz przejrzeć dokumentację Aspose.PDF, aby dowiedzieć się więcej o jego możliwościach i zastosowaniu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

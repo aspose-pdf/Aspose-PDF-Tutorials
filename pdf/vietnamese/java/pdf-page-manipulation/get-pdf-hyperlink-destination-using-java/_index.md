@@ -1,17 +1,19 @@
 ---
-title: Nhận đích đến của siêu liên kết PDF bằng Java
-linktitle: Nhận đích đến của siêu liên kết PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Khám phá cách lấy các đích đến siêu liên kết PDF bằng Java với Aspose.PDF cho Java. Tìm hiểu từng bước với các ví dụ mã trong hướng dẫn toàn diện này.
-weight: 10
-url: /vi/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
+"description": "Khám phá cách lấy các đích đến siêu liên kết PDF bằng Java với Aspose.PDF cho Java. Tìm hiểu từng bước với các ví dụ mã trong hướng dẫn toàn diện này."
+"linktitle": "Nhận Điểm đến Siêu liên kết PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Nhận Điểm đến Siêu liên kết PDF bằng Java"
+"url": "/vi/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nhận đích đến của siêu liên kết PDF bằng Java
+# Nhận Điểm đến Siêu liên kết PDF bằng Java
 
 
 ## Giới thiệu
@@ -32,7 +34,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 ## Thiết lập Aspose.PDF cho Java
 
 Để bắt đầu, bạn cần thiết lập Aspose.PDF cho Java trong dự án của mình. Thực hiện theo các bước sau:
-1.  Tải xuống Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+1. Tải xuống Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 2. Thêm thư viện Aspose.PDF vào dự án Java của bạn.
 
 ## Tải một tài liệu PDF
@@ -74,7 +76,7 @@ Trong hướng dẫn này, chúng ta đã học cách lấy đích siêu liên k
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Để cài đặt Aspose.PDF cho Java, hãy tải xuống thư viện từ[đây](https://releases.aspose.com/pdf/java/) và thêm nó vào phần phụ thuộc của dự án Java của bạn.
+Để cài đặt Aspose.PDF cho Java, hãy tải xuống thư viện từ [đây](https://releases.aspose.com/pdf/java/) và thêm nó vào phần phụ thuộc của dự án Java của bạn.
 
 ### Tôi có thể sử dụng Aspose.PDF cho Java miễn phí không?
 
@@ -90,10 +92,12 @@ Bạn có thể sửa đổi hoặc xóa siêu liên kết bằng cách truy c�
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu chi tiết về Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu chi tiết về Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

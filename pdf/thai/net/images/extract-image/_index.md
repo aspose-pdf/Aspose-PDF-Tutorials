@@ -1,50 +1,56 @@
 ---
-title: การสกัดภาพจาก PDF ใน C# โดยใช้ Aspose.PDF สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการสกัดภาพจาก PDF และบันทึกมันเป็นไฟล์ JPEG ใน C # โดยใช้ Aspose.PDF สําหรับ .NET. คู่มือก้าวต่อก้าวที่มีตัวอย่างโค้ด 
-keywords: [Extract images from PDF C#, Aspose.PDF for .NET image extraction, Save PDF images as JPEG, C# PDF image processing, Extract images from PDF Aspose]
-url: /th/net/images/extract-image/
+"description": "เรียนรู้วิธีการแยกภาพจาก PDF และบันทึกเป็นไฟล์ JPEG ใน C# โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด"
+"title": "ดึงภาพจาก PDF ใน C# โดยใช้ Aspose.PDF สำหรับ .NET"
+"url": "/th/net/images/extract-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสกัดภาพจาก PDF ใน C# โดยใช้ Aspose.PDF
+# ดึงภาพจาก PDF ใน C# โดยใช้ Aspose.PDF
  
-การสกัดภาพจากเอกสาร PDF เป็นความจําเป็นทั่วไปสําหรับแอพลิเคชั่นหลายอย่าง ไม่ว่าจะเป็นการอาร์คิฟ, การประมวลผล, หรือการแบ่งปัน[Aspose.PDF สําหรับ .NET](https://docs.aspose.com/pdf/net/), คุณสามารถสกัดภาพจาก PDF ได้อย่างง่ายดายและเก็บภาพในรูปแบบต่างๆ เช่น JPEG. คู่มือนี้ให้แนวทางแบบเรียบง่ายและขั้นตอนในการสกัดภาพจาก PDF โดยใช้ C#. คุณจะได้เรียนรู้วิธีการเปิด PDF, ถอนภาพ, เก็บภาพ, และอัพเดทเอกสาร PDF แท้. ติดตามกรอกตัวอย่างเพื่อบูรณาการฟังก์ชันนี้ได้อย่างเรียบร้อยในแอปพลิเคชั่น .NET ของคุณ
+การแยกภาพจากเอกสาร PDF เป็นข้อกำหนดทั่วไปสำหรับแอปพลิเคชันจำนวนมาก ไม่ว่าจะเป็นการเก็บถาวร การประมวลผล หรือการแบ่งปัน ด้วย [Aspose.PDF สำหรับ .NET](https://docs.aspose.com/pdf/net/)คุณสามารถแยกภาพจาก PDF และบันทึกเป็นรูปแบบต่างๆ เช่น JPEG ได้อย่างง่ายดาย บทช่วยสอนนี้ให้คำแนะนำทีละขั้นตอนอย่างง่ายในการแยกภาพจาก PDF โดยใช้ C# คุณจะได้เรียนรู้วิธีเปิด PDF เรียกค้นภาพ บันทึกภาพ และอัปเดตเอกสาร PDF ต้นฉบับ ทำตามโค้ดตัวอย่างเพื่อผสานฟังก์ชันนี้เข้ากับแอปพลิเคชัน .NET ของคุณได้อย่างราบรื่น
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/extract-image/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง:  
+## คำแนะนำในการติดตั้ง:  
 
-เพื่อใช้ Aspose.PDF สําหรับ .NET ในโครงการ C# ของคุณ, ทําตามขั้นตอนต่อไปนี้:  
+หากต้องการใช้ Aspose.PDF สำหรับ .NET ในโครงการ C# ของคุณ ให้ทำตามขั้นตอนเหล่านี้:  
 
-1. อุปกรณ์ติดตั้งผ่าน NuGet Package Manager:  
-* เปิดวิชุเอลสตูดิโอ  
-* ไปยังเครื่องมือ > NuGet Package Manager > บริหาร NuGet Packages สําหรับการแก้ไข  
-* ค้นหา Aspose.PDF แล้วติดตั้งมัน  
-* หรือ, วิ่งคําสั่งต่อไปนี้ใน Package Manager Console:  
+1. ติดตั้งผ่านตัวจัดการแพ็กเกจ NuGet:  
+- เปิด Visual Studio  
+- ไปที่เครื่องมือ > ตัวจัดการแพ็กเกจ NuGet > จัดการแพ็กเกจ NuGet สำหรับโซลูชัน  
+- ค้นหา Aspose.PDF และติดตั้ง  
+- หรือเรียกใช้คำสั่งต่อไปนี้ใน Package Manager Console:  
 
   ```powershell
   Install-Package Aspose.PDF
   ```
 
-2. อุปกรณ์ติดตั้งผ่าน DLL ดาวน์โหลด:  
-* ดาวน์โหลดเวอร์ชั่นล่าสุดจาก[Aspose.PDF สําหรับ .NET ดาวน์โหลด](https://releases.aspose.com/pdf/net/)\- ไม่  
-* ส่งแพคเกจที่ดาวน์โหลด  
-* เพิ่มอ้างอิงไปยัง Aspose.PDF.dll ในโครงการ .NET ของคุณ  
+2. ติดตั้งผ่าน DLL ดาวน์โหลด:  
+- ดาวน์โหลดเวอร์ชันล่าสุดได้จาก [ดาวน์โหลด Aspose.PDF สำหรับ .NET](https://releases-aspose.com/pdf/net/).  
+- แตกไฟล์แพ็กเกจที่ดาวน์โหลด  
+- เพิ่มการอ้างอิงถึง Aspose.PDF.dll ในโครงการ .NET ของคุณ  
 
-3. การสมัครใบอนุญาต (ไม่จําเป็น)  
-* คุณสามารถได้รับ[ใบอนุญาตชั่วคราวฟรี](https://purchase.aspose.com/temporary-license/)เพื่อให้มีความสามารถในการทํางานได้อย่างเต็มที่  
+3. สมัครใบอนุญาต (ทางเลือก):  
+- คุณจะได้รับ [ใบอนุญาตชั่วคราวฟรี](https://purchase.aspose.com/temporary-license/) เพื่อการใช้งานที่ครบครัน  
 
-## สําหรับอ้างอิง API รายละเอียด
-[Aspose.PDF สําหรับ .NET API Documentation](https://reference.aspose.com/pdf/net/)\- ไม่
+## สำหรับการอ้างอิง API แบบละเอียด
+[เอกสารประกอบ API ของ Aspose.PDF สำหรับ .NET](https://reference-aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

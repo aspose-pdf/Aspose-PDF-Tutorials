@@ -1,14 +1,16 @@
 ---
-title: छवि आयामों के अनुसार पृष्ठ अभिविन्यास
-linktitle: छवि आयामों के अनुसार पृष्ठ अभिविन्यास
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.PDF के साथ PDF कैसे बनाएं, छवि आयामों के आधार पर पृष्ठ अभिविन्यास कैसे सेट करें।
-weight: 80
-url: /hi/net/document-conversion/page-orientation-according-image-dimensions/
+"description": "इस चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.PDF के साथ PDF कैसे बनाएं, छवि आयामों के आधार पर पृष्ठ अभिविन्यास कैसे सेट करें।"
+"linktitle": "छवि आयामों के अनुसार पृष्ठ अभिविन्यास"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "छवि आयामों के अनुसार पृष्ठ अभिविन्यास"
+"url": "/hi/net/document-conversion/page-orientation-according-image-dimensions/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # छवि आयामों के अनुसार पृष्ठ अभिविन्यास
@@ -23,7 +25,7 @@ url: /hi/net/document-conversion/page-orientation-according-image-dimensions/
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यह .NET विकास के लिए सबसे अच्छा IDE है।
 2. .NET Framework: यह गाइड मानती है कि आप .NET Framework का उपयोग कर रहे हैं। सुनिश्चित करें कि आपके पास उचित संस्करण स्थापित है।
-3.  .NET के लिए Aspose.PDF: आप लाइब्रेरी को यहां से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/pdf/net/) यदि आप इसे पहले आज़माना चाहते हैं, तो आप प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/).
+3. .NET के लिए Aspose.PDF: आप लाइब्रेरी को यहां से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/pdf/net/)यदि आप इसे पहले आज़माना चाहते हैं, तो आप प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/).
 4. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको उदाहरणों को बेहतर ढंग से समझने में मदद मिलेगी।
 
 ## पैकेज आयात करें
@@ -32,7 +34,7 @@ url: /hi/net/document-conversion/page-orientation-according-image-dimensions/
 
 1. अपना विज़ुअल स्टूडियो प्रोजेक्ट खोलें.
 2. सॉल्यूशन एक्सप्लोरर में अपने प्रोजेक्ट पर राइट-क्लिक करें और "मैनेज नुगेट पैकेजेस" चुनें।
-3.  निम्न को खोजें`Aspose.PDF` और इसे स्थापित करें.
+3. निम्न को खोजें `Aspose.PDF` और इसे स्थापित करें.
 
 अब जब हमने सब कुछ सेट कर लिया है, तो आइए इस उदाहरण को चरण दर चरण समझें।
 
@@ -45,9 +47,9 @@ url: /hi/net/document-conversion/page-orientation-according-image-dimensions/
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आपकी छवियाँ स्थित हैं। यह महत्वपूर्ण है क्योंकि अगर Aspose आपकी छवियों को नहीं ढूँढ पाता है, तो वह PDF बनाने में सक्षम नहीं होगा।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आपकी छवियाँ स्थित हैं। यह महत्वपूर्ण है क्योंकि अगर Aspose आपकी छवियों को नहीं ढूँढ पाता है, तो वह PDF बनाने में सक्षम नहीं होगा।
 
-## चरण 2: एक नया PDF दस्तावेज़ बनाएँ
+## चरण 2: एक नया पीडीएफ दस्तावेज़ बनाएँ
 
 इसके बाद, आप एक नया PDF दस्तावेज़ ऑब्जेक्ट बनाएंगे। यहीं पर आपकी सभी छवियाँ जोड़ी जाएँगी।
 
@@ -55,11 +57,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
- यह पंक्ति एक नए उदाहरण को आरंभ करती है`Document` क्लास, जो आपकी पीडीएफ फाइल का प्रतिनिधित्व करता है.
+यह पंक्ति एक नए उदाहरण को आरंभ करती है `Document` क्लास, जो आपकी पीडीएफ फाइल का प्रतिनिधित्व करता है.
 
 ## चरण 3: छवि फ़ाइलें पुनर्प्राप्त करें
 
- अब, आइए निर्दिष्ट निर्देशिका से सभी JPG फ़ाइलें पुनर्प्राप्त करें। यह का उपयोग करके किया जाता है`Directory.GetFiles` तरीका।
+अब, आइए निर्दिष्ट निर्देशिका से सभी JPG फ़ाइलें पुनर्प्राप्त करें। यह का उपयोग करके किया जाता है `Directory.GetFiles` तरीका।
 
 ```csharp
 string[] fileEntries = Directory.GetFiles(dataDir, "*.JPG");
@@ -79,18 +81,18 @@ for (counter = 0; counter < fileEntries.Length - 1; counter++)
     Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
- इस लूप में, आप प्रत्येक छवि के लिए एक नया पेज बना रहे हैं।`doc.Pages.Add()` यह विधि आपके पीडीएफ दस्तावेज़ में एक नया पृष्ठ जोड़ती है।
+इस लूप में, आप प्रत्येक छवि के लिए एक नया पेज बना रहे हैं। `doc.Pages.Add()` यह विधि आपके पीडीएफ दस्तावेज़ में एक नया पृष्ठ जोड़ती है।
 
 ## चरण 5: एक छवि ऑब्जेक्ट बनाएँ
 
- प्रत्येक छवि के लिए, आपको एक बनाना होगा`Image` ऑब्जेक्ट जो छवि डेटा रखेगा.
+प्रत्येक छवि के लिए, आपको एक बनाना होगा `Image` ऑब्जेक्ट जो छवि डेटा रखेगा.
 
 ```csharp
     Aspose.Pdf.Image image1 = new Aspose.Pdf.Image();
     image1.File = fileEntries[counter];
 ```
 
- यहाँ, आप वर्तमान छवि फ़ाइल को असाइन कर रहे हैं`Image` ऑब्जेक्ट. यह पीडीएफ में छवि जोड़ने के लिए आवश्यक है.
+यहाँ, आप वर्तमान छवि फ़ाइल को असाइन कर रहे हैं `Image` ऑब्जेक्ट. यह पीडीएफ में छवि जोड़ने के लिए आवश्यक है.
 
 ## चरण 6: छवि आयाम जांचें
 
@@ -125,7 +127,7 @@ for (counter = 0; counter < fileEntries.Length - 1; counter++)
 doc.Save(dataDir + "SetPageOrientation_out.pdf");
 ```
 
- यह पंक्ति दस्तावेज़ को नाम से सहेजती है`SetPageOrientation_out.pdf`.नए बनाए गए पीडीएफ के लिए अपने दस्तावेज़ निर्देशिका की जांच करना सुनिश्चित करें!
+यह पंक्ति दस्तावेज़ को नाम से सहेजती है `SetPageOrientation_out.pdf`नव निर्मित पीडीएफ के लिए अपनी दस्तावेज़ निर्देशिका की जांच करना सुनिश्चित करें!
 
 ## निष्कर्ष
 
@@ -137,19 +139,21 @@ doc.Save(dataDir + "SetPageOrientation_out.pdf");
 .NET के लिए Aspose.PDF एक लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PDF दस्तावेज़ बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देती है।
 
 ### मैं Aspose.PDF कैसे स्थापित करूं?
- आप Visual Studio में NuGet पैकेज मैनेजर के माध्यम से Aspose.PDF स्थापित कर सकते हैं या इसे यहाँ से डाउनलोड कर सकते हैं।[Aspose वेबसाइट](https://releases.aspose.com/pdf/net/).
+आप Visual Studio में NuGet पैकेज मैनेजर के माध्यम से Aspose.PDF स्थापित कर सकते हैं या इसे यहाँ से डाउनलोड कर सकते हैं। [Aspose वेबसाइट](https://releases.aspose.com/pdf/net/).
 
 ### क्या मैं Aspose.PDF का निःशुल्क उपयोग कर सकता हूँ?
- हाँ, Aspose एक प्रदान करता है[मुफ्त परीक्षण](https://releases.aspose.com/) ताकि आप खरीदने से पहले लाइब्रेरी का परीक्षण कर सकें।
+हाँ, Aspose एक प्रदान करता है [मुफ्त परीक्षण](https://releases.aspose.com/) ताकि आप खरीदने से पहले लाइब्रेरी का परीक्षण कर सकें।
 
 ### मैं Aspose.PDF के लिए समर्थन कहां पा सकता हूं?
-आप यहां पर सहायता पा सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/pdf/10).
+आप यहां पर सहायता पा सकते हैं [Aspose फ़ोरम](https://forum.aspose.com/c/pdf/10).
 
 ### मैं Aspose का उपयोग करके किस प्रकार की फ़ाइलों को PDF में परिवर्तित कर सकता हूँ?
 Aspose.PDF फ़ाइल स्वरूपों की एक विस्तृत श्रृंखला का समर्थन करता है, जिसमें चित्र, वर्ड दस्तावेज़, एक्सेल स्प्रेडशीट आदि शामिल हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

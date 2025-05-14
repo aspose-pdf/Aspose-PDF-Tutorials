@@ -1,14 +1,16 @@
 ---
-title: Tetapkan Tautan Target Dalam File PDF
-linktitle: Tetapkan Tautan Target Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengatur tautan target secara efisien dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah kami. Sempurna untuk meningkatkan navigasi dokumen.
-weight: 100
-url: /id/net/programming-with-links-and-actions/set-target-link/
+"description": "Pelajari cara mengatur tautan target secara efisien dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah kami. Sempurna untuk meningkatkan navigasi dokumen."
+"linktitle": "Tetapkan Tautan Target Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tetapkan Tautan Target Dalam File PDF"
+"url": "/id/net/programming-with-links-and-actions/set-target-link/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tetapkan Tautan Target Dalam File PDF
@@ -22,7 +24,7 @@ Dalam panduan ini, kami akan memandu Anda melalui proses pengaturan tautan targe
 Sebelum kita mulai, pastikan Anda memiliki semua yang Anda butuhkan. Jangan khawatir; ini bukan daftar periksa yang lengkap! Berikut ini yang Anda perlukan:
 
 ### Aspose.PDF untuk Pustaka .NET
--  Pertama dan terutama, Anda harus menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Halaman Unduhan PDF Aspose](https://releases.aspose.com/pdf/net/)Mereka menawarkan uji coba gratis, jadi Anda terlindungi jika Anda baru memulai!
+- Pertama dan terutama, Anda harus menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Halaman Unduhan PDF Aspose](https://releases.aspose.com/pdf/net/)Mereka menawarkan uji coba gratis, jadi Anda terlindungi jika Anda baru memulai!
 
 ### Lingkungan Pengembangan
 - Pastikan Anda telah menyiapkan lingkungan pengembangan .NET—Visual Studio sangat direkomendasikan. Visual Studio menyediakan antarmuka yang mudah digunakan untuk pengodean dan debugging.
@@ -34,7 +36,7 @@ Sekarang setelah prasyarat kita terpenuhi, mari beralih ke bagian menarik beriku
 
 ## Paket Impor
 
-Sebelum kita mulai membuat kode, kita perlu menambahkan pustaka yang diperlukan ke proyek kita. Berikut cara cepat melakukannya:
+Sebelum kita mulai membuat kode, kita perlu menambahkan pustaka yang diperlukan ke proyek kita. Berikut cara melakukannya dengan cepat:
 
 ###: Buka Proyek Anda 
 
@@ -69,7 +71,7 @@ Pertama-tama, Anda perlu menentukan di mana dokumen Anda berada. Di sinilah file
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  Penjelasan: Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda (`UpdateLinks.pdf`) bertempat tinggal.
+- Penjelasan: Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda (`UpdateLinks.pdf`) bertempat tinggal.
 
 ## Langkah 2: Muat File PDF 
 
@@ -79,7 +81,7 @@ Sekarang, mari muat berkas PDF yang ingin Anda modifikasi.
 Document document = new Document(dataDir + "UpdateLinks.pdf");
 ```
 
--  Penjelasan: Di sini kita membuat yang baru`Document` objek. Baris ini membaca berkas PDF dari direktori yang ditentukan.
+- Penjelasan: Di sini kita membuat yang baru `Document` objek. Baris ini membaca berkas PDF dari direktori yang ditentukan.
 
 ## Langkah 3: Akses Anotasi Tautan 
 
@@ -89,7 +91,7 @@ Berikutnya, kita perlu mengakses anotasi tautan yang ingin Anda ubah.
 LinkAnnotation linkAnnot = (LinkAnnotation)document.Pages[1].Annotations[1];
 ```
 
-- Penjelasan: Baris ini mengambil anotasi tautan dari halaman kedua PDF Anda. Anotasi tersebut tidak memiliki indeks, jadi sesuaikan indeksnya berdasarkan struktur PDF Anda.
+- Penjelasan: Baris ini mengambil anotasi tautan dari halaman kedua PDF Anda. Anotasi tersebut tidak memiliki indeks, jadi sesuaikan indeks berdasarkan struktur PDF Anda.
 
 ## Langkah 4: Perbarui Tujuan
 
@@ -101,14 +103,14 @@ GoToRemoteAction goToR = (GoToRemoteAction)linkAnnot.Action;
 goToR.Destination = new XYZExplicitDestination(2, 0, 0, 1.5);
 ```
 
--  Penjelasan:`GoToRemoteAction` memungkinkan kita untuk mengubah tindakan tautan.`XYZExplicitDestination` mengatur halaman target (diatur ke halaman 2), koordinat x dan y (keduanya diatur ke 0), dan tingkat zoom (diatur ke 1,5). Jangan ragu untuk mengubah parameter ini agar sesuai dengan kebutuhan Anda!
+- Penjelasan: `GoToRemoteAction` memungkinkan kita untuk mengubah tindakan tautan. `XYZExplicitDestination` mengatur halaman target (diatur ke halaman 2), koordinat x dan y (keduanya diatur ke 0), dan tingkat zoom (diatur ke 1,5). Jangan ragu untuk mengubah parameter ini agar sesuai dengan kebutuhan Anda!
 
 ## Langkah 5: Tentukan File yang Akan Ditautkan 
 
 Sekarang, mari kita tautkan ke berkas lainnya jika diperlukan. 
 
 ```csharp
-//File pembaruan baris berikutnya
+// File pembaruan baris berikutnya
 goToR.File = new FileSpecification(dataDir + "input.pdf");
 ```
 
@@ -125,7 +127,7 @@ document.Save(dataDir);
 Console.WriteLine("\nTarget link setup successfully.\nFile saved at " + dataDir);
 ```
 
--  Penjelasan: File keluaran diberi nama`SetTargetLink_out.pdf`, dan dokumen disimpan dengan perubahan yang dibuat. Konsol akan mencetak pesan konfirmasi dengan jalur file.
+- Penjelasan: File keluaran diberi nama `SetTargetLink_out.pdf`, dan dokumen disimpan dengan perubahan yang dibuat. Konsol akan mencetak pesan konfirmasi dengan jalur file.
 
 ## Langkah 7: Menangani Pengecualian 
 
@@ -152,19 +154,21 @@ Bukankah menakjubkan bagaimana beberapa baris kode dapat merevolusi cara Anda me
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk memanipulasi dokumen PDF secara terprogram tanpa menggunakan Adobe Acrobat.
 
 ### Bisakah saya menggunakan Aspose.PDF pada semua kerangka kerja .NET?
-Ya, Aspose.PDF kompatibel dengan semua framework .NET utama, termasuk .NET Core, .NET Framework, dan banyak lagi.
+Ya, Aspose.PDF kompatibel dengan semua framework .NET utama, termasuk .NET Core, .NET Framework, dan lainnya.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF?
- Anda dapat memulai dengan uji coba gratis; namun, untuk penggunaan produksi, diperlukan lisensi komersial. Anda dapat membeli satu[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat memulai dengan uji coba gratis; namun, untuk penggunaan produksi, diperlukan lisensi komersial. Anda dapat membeli satu [Di Sini](https://purchase.aspose.com/buy).
 
 ### Jenis operasi apa yang dapat saya lakukan dengan Aspose.PDF?
 Anda dapat membuat, mengedit, dan memanipulasi dokumen PDF, termasuk menambahkan gambar, anotasi, dan tautan.
 
 ### Di mana saya dapat menemukan lebih banyak contoh atau dukungan untuk Aspose.PDF?
- Anda dapat menemukan dokumentasi dan dukungan komunitas yang luas di[Halaman Dokumentasi PDF Aspose](https://reference.aspose.com/pdf/net/) dan[Forum Dukungan](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dokumentasi yang luas dan dukungan komunitas di [Halaman Dokumentasi PDF Aspose](https://reference.aspose.com/pdf/net/) dan [Forum Dukungan](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

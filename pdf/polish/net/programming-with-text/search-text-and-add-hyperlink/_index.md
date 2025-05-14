@@ -1,14 +1,16 @@
 ---
-title: Wyszukaj tekst i dodaj hiperłącze
-linktitle: Wyszukaj tekst i dodaj hiperłącze
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak przeszukiwać tekst i dodawać hiperłącza w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z naszego samouczka krok po kroku.
-weight: 450
-url: /pl/net/programming-with-text/search-text-and-add-hyperlink/
+"description": "Dowiedz się, jak wyszukiwać tekst i dodawać hiperłącza w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z naszego samouczka krok po kroku."
+"linktitle": "Wyszukaj tekst i dodaj hiperłącze"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wyszukaj tekst i dodaj hiperłącze"
+"url": "/pl/net/programming-with-text/search-text-and-add-hyperlink/"
+"weight": 450
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyszukaj tekst i dodaj hiperłącze
@@ -19,10 +21,10 @@ Szukasz sposobu, aby nie tylko manipulować plikami PDF, ale także je ulepszać
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby to zrobić. Oto przydatna lista kontrolna:
+Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby to zrobić. Oto przydatna lista kontrolna:
 
 - .NET Framework: Na Twoim komputerze powinna być zainstalowana platforma .NET Framework (wersja 4.0 lub nowsza).
-- Aspose.PDF dla biblioteki .NET: Nie zapomnij pobrać i dodać odniesienia do biblioteki Aspose.PDF w swoim projekcie. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla biblioteki .NET: Nie zapomnij pobrać i dodać odniesienia do biblioteki Aspose.PDF w swoim projekcie. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/pdf/net/).
 - IDE: Do pisania i uruchamiania kodu potrzebne będzie zintegrowane środowisko programistyczne (IDE), np. Visual Studio.
 - Przykładowy plik PDF: Pobierz przykładowy plik PDF, na którym możesz przetestować kod. Możesz utworzyć prosty plik PDF lub użyć jednego ze swoich istniejących dokumentów.
 
@@ -48,17 +50,17 @@ Teraz, gdy wszystko jest już gotowe, czas przejść do działania. Przejdziemy 
 
 ### Krok 1: Ustaw katalog dokumentów
 
-Najpierw musisz określić, gdzie przechowywane są Twoje pliki PDF. Zmień`dataDir` zmienna wskazująca na katalog twojego dokumentu. Oto jak to zrobić:
+Najpierw musisz określić, gdzie przechowywane są Twoje pliki PDF. Zmień `dataDir` zmienna wskazująca na katalog twojego dokumentu. Oto jak to zrobić:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twoich dokumentów.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twoich dokumentów.
 
 ### Krok 2: Utwórz TextFragmentAbsorber
 
- Następnie potrzebujemy narzędzia, aby znaleźć tekst, który chcemy połączyć. Wprowadź`TextFragmentAbsorber`. Ten mały gość pomoże nam wyszukać konkretny wzór tekstu w naszym pliku PDF.
+Następnie potrzebujemy narzędzia, aby znaleźć tekst, który chcemy połączyć. Wprowadź `TextFragmentAbsorber`. Ten mały gość pomoże nam wyszukać konkretny wzór tekstu w naszym pliku PDF.
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber("\\d{4}-\\d{4}");
@@ -68,7 +70,7 @@ Tutaj szukamy określonego wzorca: czterech cyfr, myślnika, a następnie kolejn
 
 ### Krok 3: Włącz wyszukiwanie wyrażeń regularnych
 
- Używamy już wyrażenia regularnego, aby znaleźć wzorzec tekstu, ale musimy się upewnić, że nasz`absorber` wie, że jest włączony. Jest to kluczowe dla prawidłowego wyszukiwania.
+Używamy już wyrażenia regularnego, aby znaleźć wzorzec tekstu, ale musimy się upewnić, że nasz `absorber` wie, że jest włączony. Jest to kluczowe dla prawidłowego wyszukiwania.
 
 ```csharp
 absorber.TextSearchOptions = new TextSearchOptions(true);
@@ -76,7 +78,7 @@ absorber.TextSearchOptions = new TextSearchOptions(true);
 
 ### Krok 4: Zainicjuj PdfContentEditor
 
- Teraz, gdy mamy już gotowy absorber, potrzebujemy`PdfContentEditor` do pracy z naszym plikiem PDF. Ta klasa pozwala nam połączyć się z naszym plikiem PDF i nim manipulować.
+Teraz, gdy mamy już gotowy absorber, potrzebujemy `PdfContentEditor` do pracy z naszym plikiem PDF. Ta klasa pozwala nam połączyć się z naszym plikiem PDF i nim manipulować.
 
 ```csharp
 PdfContentEditor editor = new PdfContentEditor();
@@ -90,9 +92,9 @@ Mając już gotowy edytor treści, pora powiązać go z plikiem PDF, nad którym
 editor.BindPdf(dataDir + "SearchRegularExpressionPage.pdf");
 ```
 
- Pamiętaj o wymianie`"SearchRegularExpressionPage.pdf"` z nazwą Twojego pliku PDF.
+Pamiętaj o wymianie `"SearchRegularExpressionPage.pdf"` z nazwą Twojego pliku PDF.
 
-### Krok 6: Zaakceptuj Absorber dla Strony
+### Krok 6: Akceptuj Absorber dla Strony
 
 Musimy dać znać naszemu edytorowi, że chcemy przeszukać konkretną stronę dokumentu. W tym przypadku wybierzmy Stronę 1.
 
@@ -160,19 +162,21 @@ I masz to! Postępując zgodnie z tymi krokami, nauczyłeś się, jak przeszukiw
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom tworzenie, modyfikowanie i zarządzanie dokumentami PDF w aplikacjach .NET.
 
 ### Jak mogę pobrać Aspose.PDF dla platformy .NET?  
- Możesz pobrać bibliotekę[Tutaj](https://releases.aspose.com/pdf/net/).
+Możesz pobrać bibliotekę [Tutaj](https://releases.aspose.com/pdf/net/).
 
 ### Czy mogę wypróbować Aspose.PDF za darmo?  
- Oczywiście! Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Czy jest dostępne wsparcie dla produktów Aspose?  
- Tak, możesz znaleźć wsparcie i dyskusje społecznościowe[Tutaj](https://forum.aspose.com/c/pdf/10).
+Tak, możesz znaleźć wsparcie i dyskusje społecznościowe [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Jak mogę uzyskać tymczasową licencję na Aspose.PDF?  
- Możesz poprosić o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz poprosić o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

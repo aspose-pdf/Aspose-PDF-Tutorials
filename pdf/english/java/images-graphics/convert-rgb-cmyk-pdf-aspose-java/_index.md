@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert RGB to CMYK Colors in a PDF Document Using Aspose.PDF for Java
 
@@ -211,6 +213,9 @@ A: Verify that all color settings are converted as intended, focusing on RGB to 
 A: Some nuances in color representation may not be perfectly preserved due to differences between color models. Test with your specific documents for best results.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

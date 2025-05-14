@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ में टेबल सेल को स्टाइल करें
-linktitle: जावा का उपयोग करके पीडीएफ में टेबल सेल को स्टाइल करें
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में टेबल सेल को स्टाइल करना सीखें। PDF अनुकूलन पर इस चरण-दर-चरण मार्गदर्शिका के साथ अपने Java अनुप्रयोगों को बेहतर बनाएँ।
-weight: 13
-url: /hi/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/
+"description": "Java के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में टेबल सेल को स्टाइल करना सीखें। PDF अनुकूलन पर इस चरण-दर-चरण मार्गदर्शिका के साथ अपने Java अनुप्रयोगों को बेहतर बनाएँ।"
+"linktitle": "जावा का उपयोग करके पीडीएफ में टेबल सेल को स्टाइल करें"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ में टेबल सेल को स्टाइल करें"
+"url": "/hi/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ में टेबल सेल को स्टाइल करें
@@ -24,11 +26,11 @@ url: /hi/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/
 
 - जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा स्थापित है।
 
--  Aspose.PDF for Java लाइब्रेरी: लाइब्रेरी को यहाँ से डाउनलोड करें[यहाँ](https://releases.aspose.com/pdf/java/) यदि आपने पहले से ऐसा नहीं किया है।
+- Aspose.PDF for Java लाइब्रेरी: लाइब्रेरी को यहाँ से डाउनलोड करें [यहाँ](https://releases.aspose.com/pdf/java/) यदि आपने पहले से ऐसा नहीं किया है।
 
 ## एक सरल पीडीएफ तालिका बनाना
 
-शुरू करने के लिए, आइए एक सरल PDF तालिका बनाएँ। हम एक बुनियादी तालिका संरचना बनाने के लिए Aspose.PDF for Java का उपयोग करेंगे।
+शुरू करने के लिए, आइए एक सरल PDF तालिका बनाएँ। हम एक बुनियादी तालिका संरचना बनाने के लिए Java के लिए Aspose.PDF का उपयोग करेंगे।
 
 ```java
 // तालिका के साथ PDF दस्तावेज़ बनाने के लिए जावा कोड
@@ -52,7 +54,7 @@ row2.getCells().add("30");
 pdfDocument.save("SimpleTable.pdf");
 ```
 
-यह कोड दो कॉलमों वाली एक बुनियादी तालिका बनाएगा: "नाम" और "आयु।"
+यह कोड दो कॉलमों वाली एक मूल तालिका बनाएगा: "नाम" और "आयु"।
 
 ## टेबल सेल की स्टाइलिंग
 
@@ -87,7 +89,7 @@ pdfDocument.save("StyledTable.pdf");
 
 ### मैं Java के लिए Aspose.PDF कैसे स्थापित करूं?
 
-जावा के लिए Aspose.PDF को इंस्टॉल करना बहुत आसान है। आप Aspose वेबसाइट से लाइब्रेरी डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/).
+जावा के लिए Aspose.PDF को इंस्टॉल करना बहुत आसान है। आप Aspose वेबसाइट से लाइब्रेरी डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ### क्या मैं Java के लिए Aspose.PDF का उपयोग करके PDF के अन्य पहलुओं को स्टाइल कर सकता हूँ?
 
@@ -103,10 +105,12 @@ pdfDocument.save("StyledTable.pdf");
 
 ### मैं जावा के लिए Aspose.PDF ट्यूटोरियल और संसाधन कहां पा सकता हूं?
 
- व्यापक ट्यूटोरियल और दस्तावेज़ीकरण के लिए, जावा दस्तावेज़ के लिए Aspose.PDF पर जाएँ[यहाँ](https://reference.aspose.com/pdf/java/).
+व्यापक ट्यूटोरियल और दस्तावेज़ीकरण के लिए, जावा दस्तावेज़ के लिए Aspose.PDF पर जाएँ [यहाँ](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

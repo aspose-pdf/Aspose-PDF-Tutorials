@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF Dosyasına Resim Damgası Ekleme
-linktitle: Java kullanarak PDF Dosyasına Resim Damgası Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Bu kapsamlı Aspose.PDF for Java eğitimiyle Java kullanarak PDF dosyalarına resim damgalarının nasıl ekleneceğini öğrenin.
-weight: 12
-url: /tr/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/
+"description": "Bu kapsamlı Aspose.PDF for Java eğitimiyle Java kullanarak PDF dosyalarına resim damgalarının nasıl ekleneceğini öğrenin."
+"linktitle": "Java kullanarak PDF Dosyasına Resim Damgası Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF Dosyasına Resim Damgası Ekleme"
+"url": "/tr/java/pdf-document-operations/adding-image-stamp-in-pdf-file-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF Dosyasına Resim Damgası Ekleme
@@ -94,10 +96,12 @@ Java için Aspose.PDF, damgalama için PNG, JPEG, GIF ve BMP gibi çeşitli resi
 
 ### Java için Aspose.PDF için daha fazla örnek ve dokümanı nerede bulabilirim?
 
-Java için Aspose.PDF web sitesinde kapsamlı dokümantasyon ve örnekler bulabilirsiniz.[Burada](https://reference.aspose.com/pdf/java/.)
+Java için Aspose.PDF web sitesinde kapsamlı dokümantasyon ve örnekler bulabilirsiniz. [Burada](https://reference.aspose.com/pdf/java/.)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

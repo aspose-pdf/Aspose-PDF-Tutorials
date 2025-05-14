@@ -1,14 +1,16 @@
 ---
-title: Html'den Dönüştürdükten Sonra Köprü Bağlantılarını Kaldır
-linktitle: Html'den Dönüştürdükten Sonra Köprü Bağlantılarını Kaldır
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzda, Aspose.PDF for .NET'i kullanarak HTML belgelerinizi PDF'ye dönüştürdükten sonra köprü metinlerinin nasıl kaldırılacağını öğrenin.
-weight: 250
-url: /tr/net/document-conversion/remove-hyperlinks-after-converting-from-html/
+"description": "Bu adım adım kılavuzda, Aspose.PDF for .NET'i kullanarak HTML belgelerinizi PDF'e dönüştürdükten sonra köprü metinlerinin nasıl kaldırılacağını öğrenin."
+"linktitle": "Html'den Dönüştürdükten Sonra Köprü Bağlantılarını Kaldır"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Html'den Dönüştürdükten Sonra Köprü Bağlantılarını Kaldır"
+"url": "/tr/net/document-conversion/remove-hyperlinks-after-converting-from-html/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Html'den Dönüştürdükten Sonra Köprü Bağlantılarını Kaldır
@@ -21,8 +23,8 @@ Dijital çağda, HTML belgelerini PDF'ye dönüştürmek yaygın bir görevdir. 
 
 Koda dalmadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu sizin geliştirme ortamınız olacaktır.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu sizin geliştirme ortamınız olacak.
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşinalık, kodu daha iyi anlamanıza yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -31,7 +33,7 @@ Başlamak için, C# projenize gerekli paketleri içe aktarmanız gerekir. Bunu n
 
 1. Visual Studio projenizi açın.
 2. Çözüm Gezgini'nde projenize sağ tıklayın ve "NuGet Paketlerini Yönet" seçeneğini seçin.
-3.  Arama`Aspose.PDF` ve kurun.
+3. Arama `Aspose.PDF` ve kurun.
 
 ```csharp
 using Aspose.Pdf.Annotations;
@@ -39,7 +41,7 @@ using Aspose.Pdf.Text;
 using System.IO;
 ```
 
-Artık her şeyi ayarladığınıza göre, bir HTML dosyasını PDF'e dönüştürdükten sonra dosyadan köprü metinlerini kaldırma sürecini inceleyelim.
+Artık her şeyi ayarladığınıza göre, HTML dosyasını PDF'e dönüştürdükten sonra köprü metinlerini kaldırma sürecini inceleyelim.
 
 ## Adım 1: Belge Dizinini Ayarlayın
 
@@ -50,17 +52,17 @@ Artık her şeyi ayarladığınıza göre, bir HTML dosyasını PDF'e dönüşt�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` HTML dosyanızın saklandığı gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` HTML dosyanızın saklandığı gerçek yol ile.
 
 ## Adım 2: HTML Belgesini Yükleyin
 
- Daha sonra, HTML belgesini kullanarak yükleyeceksiniz`Document` Aspose.PDF'den bir sınıf. Bu sınıf PDF belgeleriyle kolayca çalışmanızı sağlar.
+Daha sonra, HTML belgesini kullanarak yükleyeceksiniz `Document` Aspose.PDF'den bir sınıf. Bu sınıf PDF belgeleriyle kolayca çalışmanızı sağlar.
 
 ```csharp
 Document doc = new Document(dataDir + "SampleHtmlFile.html", new HtmlLoadOptions());
 ```
 
- Burada, adlı HTML dosyasını yüklüyoruz`SampleHtmlFile.html`Bu dosyanın belirttiğiniz dizinde bulunduğundan emin olun.
+Burada, adlı HTML dosyasını yüklüyoruz `SampleHtmlFile.html`Bu dosyanın belirttiğiniz dizinde bulunduğundan emin olun.
 
 ## Adım 3: Belgeyi Bellek Akışına Kaydet
 
@@ -88,7 +90,7 @@ foreach (Annotation a in doc.Pages[1].Annotations)
 
 Bu döngüde, açıklama türünün bir bağlantı olup olmadığını kontrol ediyoruz. Eğer öyleyse, bir sonraki adımlara geçiyoruz.
 
-## Adım 5: Köprü Bağlantısını Kaldırma Eylemi
+## Adım 5: Köprü Bağlantısı Eylemini Kaldır
 
 Her bağlantı açıklaması için, bir köprü metni eylemi olup olmadığını kontrol etmemiz gerekir. Eğer varsa, köprü metnini URI'sini boş bir dizeye ayarlayarak kaldıracağız.
 
@@ -112,7 +114,7 @@ tfa.TextSearchOptions = new TextSearchOptions(a.Rect);
 doc.Pages[a.PageIndex].Accept(tfa);
 ```
 
- Burada bir tane yaratıyoruz`TextFragmentAbsorber` ve arama seçeneklerini açıklamanın dikdörtgenine ayarlayın. Bu, bağlantılı metni bulmamıza yardımcı olur.
+Burada bir tane yaratıyoruz `TextFragmentAbsorber` ve arama seçeneklerini açıklamanın dikdörtgenine ayarlayın. Bu, bağlantılı metni bulmamıza yardımcı olur.
 
 ## Adım 7: Metin Görünümünü Değiştirin
 
@@ -147,7 +149,7 @@ Son olarak, değiştirilen belgeyi yeni bir PDF dosyasına kaydetmemiz gerekiyor
 doc.Save(dataDir + "RemoveHyperlinksFromText_out.pdf");
 ```
 
- Bu satır, köprü metinleri kaldırılmış belgeyi kaydeder ve yeni bir PDF dosyası oluşturur.`RemoveHyperlinksFromText_out.pdf`.
+Bu satır, köprü metinleri kaldırılmış belgeyi kaydeder ve yeni bir PDF dosyası oluşturur. `RemoveHyperlinksFromText_out.pdf`.
 
 ## Çözüm
 
@@ -159,19 +161,21 @@ Ve işte oldu! Aspose.PDF for .NET kullanarak bir HTML belgesini PDF'e dönüşt
 Evet, Aspose.PDF for .NET'i kullanarak herhangi bir PDF belgesinden köprü metinlerini kaldırabilirsiniz.
 
 ### Aspose.PDF'i kullanmak ücretsiz mi?
- Aspose.PDF ücretsiz deneme sunuyor ancak tüm özellikler için bir lisans satın almanız gerekiyor.[satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose.PDF ücretsiz deneme sunuyor ancak tüm özellikler için bir lisans satın almanız gerekiyor. [satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Aspose.PDF kullanırken sorunlarla karşılaşırsam ne olur?
- Yardım isteyebilirsiniz[destek forumu](https://forum.aspose.com/c/pdf/10).
+Yardım isteyebilirsiniz [destek forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose kullanarak diğer dosya formatlarını PDF'ye dönüştürebilir miyim?
 Evet, Aspose PDF'ye dönüştürme için çeşitli dosya formatlarını destekler.
 
 ### Aspose.PDF for .NET'i nereden indirebilirim?
- Bunu şuradan indirebilirsiniz:[indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+Bunu şuradan indirebilirsiniz: [indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

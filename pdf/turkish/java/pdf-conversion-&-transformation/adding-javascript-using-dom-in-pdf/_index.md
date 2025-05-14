@@ -1,14 +1,16 @@
 ---
-title: PDF'e DOM kullanarak JavaScript ekleme
-linktitle: PDF'e DOM kullanarak JavaScript ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF kullanarak JavaScript ile PDF etkileşimini nasıl geliştireceğinizi öğrenin. Dinamik PDF'ler için kaynak kodlu adım adım kılavuz
-weight: 32
-url: /tr/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/
+"description": "Java için Aspose.PDF kullanarak JavaScript ile PDF etkileşimini nasıl geliştireceğinizi öğrenin. Dinamik PDF'ler için kaynak kodlu adım adım kılavuz"
+"linktitle": "PDF'e DOM kullanarak JavaScript ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF'e DOM kullanarak JavaScript ekleme"
+"url": "/tr/java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'e DOM kullanarak JavaScript ekleme
@@ -30,7 +32,7 @@ JavaScript, PDF belgelerine dinamik davranış eklemek için kullanılabilir. Et
 
 Başlamadan önce, geliştirme ortamınızı ayarlamanız gerekir. İşte adımlar:
 
-1. Java için Aspose.PDF'yi indirin ve yükleyin:[Java belgeleri için Aspose.PDF](https://reference.aspose.com/pdf/java/) Kütüphaneyi indirmek ve kurmak için.
+1. Java için Aspose.PDF'yi indirin ve yükleyin: [Java belgeleri için Aspose.PDF](https://reference.aspose.com/pdf/java/) Kütüphaneyi indirmek ve kurmak için.
 
 2. Bir Java Projesi Oluşturun: Tercih ettiğiniz Entegre Geliştirme Ortamında (IDE) bir Java projesi kurun.
 
@@ -38,10 +40,10 @@ Başlamadan önce, geliştirme ortamınızı ayarlamanız gerekir. İşte adıml
 
 ## PDF Belgesi Oluşturma
 
-Başlamak için, Java için Aspose.PDF kullanarak bir PDF belgesi oluşturalım. İşte basit bir örnek:
+Başlamak için Aspose.PDF for Java kullanarak bir PDF belgesi oluşturalım. İşte basit bir örnek:
 
 ```java
-// Yeni bir PDF belgesi başlatın
+// Yeni bir PDF belgesi başlat
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
 // Belgeye bir sayfa ekle
@@ -107,7 +109,7 @@ Artık PDF'lere JavaScript ekleme konusunda temel bir anlayışa sahip olduğunu
 
 ### Java için Aspose.PDF'yi nasıl indirebilirim?
 
- Java için Aspose.PDF'yi web sitesini ziyaret ederek indirebilirsiniz.[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Java için Aspose.PDF'yi web sitesini ziyaret ederek indirebilirsiniz. [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
 ### JavaScript desteği tüm PDF görüntüleyicilerinde mevcut mu?
 
@@ -115,7 +117,7 @@ Artık PDF'lere JavaScript ekleme konusunda temel bir anlayışa sahip olduğunu
 
 ### Mevcut PDF'lere JavaScript ekleyebilir miyim?
 
-Evet, Aspose.PDF for Java'yı kullanarak belgenin DOM'unu düzenleyerek mevcut PDF'lere JavaScript ekleyebilirsiniz.
+Evet, Aspose.PDF for Java'yı kullanarak belgenin DOM'unu değiştirerek mevcut PDF'lere JavaScript ekleyebilirsiniz.
 
 ### PDF'lerde JavaScript'e ilişkin herhangi bir sınırlama var mı?
 
@@ -124,9 +126,11 @@ PDF'lerdeki JavaScript desteği, PDF görüntüleyicisine ve betiklerinizin karm
 ### PDF'ler için daha gelişmiş JavaScript örneklerini nerede bulabilirim?
 
 PDF'lerde JavaScript ile ilgili gelişmiş örnekler ve kullanım durumları için Aspose.PDF for Java belgelerini inceleyebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Semua Font Dalam File PDF
-linktitle: Dapatkan Semua Font Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak semua font dari file PDF menggunakan Aspose.PDF for .NET dalam tutorial langkah demi langkah ini. Sempurna untuk pengembang dan penggemar PDF.
-weight: 160
-url: /id/net/programming-with-document/getallfonts/
+"description": "Pelajari cara mengekstrak semua font dari file PDF menggunakan Aspose.PDF for .NET dalam tutorial langkah demi langkah ini. Sempurna untuk pengembang dan penggemar PDF."
+"linktitle": "Dapatkan Semua Font Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Semua Font Dalam File PDF"
+"url": "/id/net/programming-with-document/getallfonts/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Semua Font Dalam File PDF
@@ -22,7 +24,7 @@ Pernahkah Anda bertanya-tanya bagaimana cara mengekstrak semua font yang digunak
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE yang akan kita gunakan untuk tutorial ini.
-2.  Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -61,27 +63,27 @@ Pertama-tama, Anda perlu menentukan jalur ke dokumen PDF Anda. Di sinilah Aspose
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Ini bisa jadi seperti ini`@"C:\Documents\"`.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Ini bisa jadi seperti ini `@"C:\Documents\"`.
 
 ## Langkah 2: Muat Dokumen PDF
 
- Selanjutnya, Anda ingin memuat dokumen PDF ke dalam aplikasi Anda. Ini dilakukan dengan menggunakan`Document` kelas disediakan oleh Aspose.PDF.
+Selanjutnya, Anda ingin memuat dokumen PDF ke dalam aplikasi Anda. Ini dilakukan dengan menggunakan `Document` kelas disediakan oleh Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Di sini, ganti`"input.pdf"` dengan nama file PDF Anda. Baris kode ini menginisialisasi file PDF baru`Document` objek yang mewakili PDF Anda.
+Di sini, ganti `"input.pdf"` dengan nama file PDF Anda. Baris kode ini menginisialisasi file PDF baru `Document` objek yang mewakili PDF Anda.
 
 ## Langkah 3: Ambil Semua Font
 
- Sekarang tibalah bagian yang menarik! Anda akan menggunakan`FontUtilities` kelas untuk mendapatkan semua font yang digunakan dalam dokumen.
+Sekarang tibalah bagian yang menarik! Anda akan menggunakan `FontUtilities` kelas untuk mendapatkan semua font yang digunakan dalam dokumen.
 
 ```csharp
 Aspose.Pdf.Text.Font[] fonts = doc.FontUtilities.GetAllFonts();
 ```
 
- Baris ini mengambil array`Font` objek, masing-masing mewakili font yang digunakan dalam PDF.
+Baris ini mengambil array `Font` objek, masing-masing mewakili font yang digunakan dalam PDF.
 
 ## Langkah 4: Ulangi Melalui Font
 
@@ -106,19 +108,21 @@ Nah, itu dia! Anda telah berhasil mengekstrak semua font dari file PDF menggunak
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi lengkap di[Situs web Aspose](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di [Situs web Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Apakah mungkin untuk mengekstrak informasi lain dari PDF?
 Tentu saja! Aspose.PDF memungkinkan Anda mengekstrak teks, gambar, dan metadata, serta berbagai hal lainnya.
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

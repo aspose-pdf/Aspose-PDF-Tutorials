@@ -1,14 +1,16 @@
 ---
-title: Ekstrak Paragraf Dalam File PDF
-linktitle: Ekstrak Paragraf Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak paragraf dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial yang mudah diikuti ini. Sempurna untuk pengembang dari semua tingkatan.
-weight: 160
-url: /id/net/programming-with-text/extract-paragraphs/
+"description": "Pelajari cara mengekstrak paragraf dari file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial yang mudah diikuti ini. Sempurna untuk pengembang dari semua tingkatan."
+"linktitle": "Ekstrak Paragraf Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ekstrak Paragraf Dalam File PDF"
+"url": "/id/net/programming-with-text/extract-paragraphs/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrak Paragraf Dalam File PDF
@@ -22,13 +24,13 @@ Saat menangani PDF, mengekstrak informasi terkadang terasa seperti mencari jarum
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda perlukan untuk mengikuti. Berikut ini daftar periksa:
 
 1. Lingkungan .NET: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET. Ini bisa berupa Visual Studio atau IDE lain pilihan Anda. 
-2.  Pustaka Aspose.PDF: Anda memerlukan pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Pustaka Aspose.PDF: Anda memerlukan pustaka Aspose.PDF untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Berkas PDF: Siapkan contoh dokumen PDF untuk pengujian. Jika Anda tidak memilikinya, buatlah PDF teks sederhana atau unduh contoh dari web.
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami cuplikan kode dengan lebih baik.
 
 ## Paket Impor
 
-Sebelum kita mulai membuat kode, kita perlu mengimpor paket-paket yang diperlukan. Hal ini penting karena memungkinkan aplikasi Anda untuk memanfaatkan fungsi-fungsi Aspose.PDF. Berikut cara melakukannya:
+Sebelum kita mulai membuat kode, kita perlu mengimpor paket-paket yang diperlukan. Hal ini penting karena memungkinkan aplikasi Anda untuk memanfaatkan fungsi-fungsi Aspose.PDF. Berikut ini cara melakukannya:
 
 ```csharp
 using Aspose.Pdf.Text;
@@ -50,7 +52,7 @@ Pertama-tama, kita perlu menentukan di mana file PDF kita berada. Ini seperti me
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder tempat file PDF Anda disimpan. Ini bisa berupa sesuatu seperti`"C:\\Users\\YourName\\Documents\\"`.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder tempat file PDF Anda disimpan. Ini bisa berupa sesuatu seperti `"C:\\Users\\YourName\\Documents\\"`.
 
 ## Langkah 2: Buka File PDF yang Ada
 
@@ -60,27 +62,27 @@ Setelah jalur ditetapkan, langkah selanjutnya adalah membuka berkas PDF yang ing
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Pada baris ini kita membuat yang baru`Document` Misalnya dengan memberikan jalur lengkap ke berkas PDF. Pastikan berkas Anda diberi nama dengan benar (dalam hal ini, “input.pdf”) dan terletak di direktori yang ditentukan.
+Pada baris ini kita membuat yang baru `Document` Misalnya dengan memberikan jalur lengkap ke berkas PDF. Pastikan berkas Anda diberi nama dengan benar (dalam hal ini, “input.pdf”) dan terletak di direktori yang ditentukan.
 
 ## Langkah 3: Buat ParagraphAbsorber
 
- Selanjutnya, kita akan menggunakan`ParagraphAbsorber`, alat praktis yang memungkinkan kita menyerap (atau mengambil) semua paragraf dari PDF kita. Berikut cara melakukannya:
+Selanjutnya, kita akan menggunakan `ParagraphAbsorber`, alat praktis yang memungkinkan kita menyerap (atau mengambil) semua paragraf dari PDF kita. Berikut cara melakukannya:
 
 ```csharp
 ParagraphAbsorber absorber = new ParagraphAbsorber();
 ```
 
- Pikirkanlah tentang`ParagraphAbsorber` sebagai penyedot yang menyedot semua teks relevan dari PDF Anda sehingga kami dapat menggunakannya nanti.
+Pikirkanlah tentang `ParagraphAbsorber` sebagai penyedot yang menyedot semua teks relevan dari PDF Anda sehingga kami dapat menggunakannya nanti.
 
 ## Langkah 4: Kunjungi Dokumen
 
- Sekarang saatnya untuk mengunjungi dokumen menggunakan kami`absorber`Ini memberi tahu kode kita untuk mulai menjelajahi halaman dan bagian PDF.
+Sekarang saatnya untuk mengunjungi dokumen menggunakan kami `absorber`Ini memberi tahu kode kita untuk mulai menjelajahi halaman dan bagian PDF.
 
 ```csharp
 absorber.Visit(doc);
 ```
 
- Baris ini adalah tempat keajaiban dimulai!`Visit` Metode ini menelusuri dokumen dan menyiapkan data paragraf untuk ekstraksi.
+Baris ini adalah tempat keajaiban dimulai! `Visit` Metode ini menelusuri dokumen dan menyiapkan data paragraf untuk ekstraksi.
 
 ## Langkah 5: Ulangi Melalui Markup Halaman
 
@@ -116,7 +118,7 @@ foreach (PageMarkup markup in absorber.PageMarkups)
 
 Mari kita uraikan apa yang terjadi dalam kode ini:
 
-- Loop Luar: Kami mengulang markup setiap halaman untuk mendapatkan bagian.
+- Loop Luar: Kita mengulang markup setiap halaman untuk mendapatkan bagian.
 - Loop Tengah: Untuk setiap bagian, kita mengakses paragraf.
 - Inner Loop: Kita melakukan loop melalui baris teks dalam setiap paragraf untuk mengekstrak fragmen teks.
 - StringBuilder: Kita menggunakan ini untuk membangun teks paragraf kita secara efisien.
@@ -139,17 +141,19 @@ Ya, Aspose.PDF mendukung ekstraksi gambar dan teks.
 ### Apakah Aspose.PDF kompatibel dengan semua versi .NET?
 Aspose.PDF kompatibel dengan beberapa versi, termasuk .NET Framework dan .NET Core.
 
-### Dapatkah saya menggunakan lisensi sementara untuk pengujian?
- Tentu saja! Anda dapat mengajukan permohonan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+### Bisakah saya menggunakan lisensi sementara untuk pengujian?
+Tentu saja! Anda dapat meminta lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Bagaimana jika saya mengalami kesalahan saat mengekstrak paragraf?
- Anda dapat mencari bantuan di Forum Dukungan Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda dapat mencari bantuan di Forum Dukungan Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF?
- Ya, Anda dapat mengunduh versi uji coba gratis dari situs web Aspose[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh versi uji coba gratis dari situs web Aspose [Di Sini](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

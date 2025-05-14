@@ -1,14 +1,16 @@
 ---
-title: Dodaj element struktury do elementu
-linktitle: Dodaj element struktury do elementu
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać elementy struktury ułatwień dostępu do plików PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku.
-weight: 20
-url: /pl/net/programming-with-tagged-pdf/add-structure-element-into-element/
+"description": "Dowiedz się, jak dodawać elementy struktury ułatwień dostępu do plików PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku."
+"linktitle": "Dodaj element struktury do elementu"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj element struktury do elementu"
+"url": "/pl/net/programming-with-tagged-pdf/add-structure-element-into-element/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj element struktury do elementu
@@ -21,8 +23,8 @@ W dzisiejszym cyfrowym świecie dostępność jest kluczowa. Każdy powinien mie
 
 Zanim rozpoczniemy naszą podróż do świata elementów struktury PDF, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Studio wizualne: To jest Twoje IDE, w którym będziesz pisać i uruchamiać swój kod C#. Możesz go pobrać z[Visual Studio](https://visualstudio.microsoft.com/) jeśli jeszcze tego nie zrobiłeś.
-2.  Aspose.PDF dla biblioteki .NET: Będziesz potrzebować biblioteki do manipulowania plikami PDF. Pobierz najnowszą wersję z[Strona internetowa Aspose](https://releases.aspose.com/pdf/net/). Ta biblioteka jest kluczowa dla naszego projektu.
+1. Visual Studio: To jest Twoje IDE, w którym będziesz pisać i uruchamiać swój kod C#. Możesz go pobrać z [Studio wizualne](https://visualstudio.microsoft.com/) jeśli jeszcze tego nie zrobiłeś.
+2. Aspose.PDF dla biblioteki .NET: Będziesz potrzebować biblioteki do manipulowania plikami PDF. Pobierz najnowszą wersję z [Strona internetowa Aspose](https://releases.aspose.com/pdf/net/). Ta biblioteka jest kluczowa dla naszego projektu.
 3. Podstawowa wiedza o C#: Znajomość składni C# i programowania obiektowego będzie korzystna. Jeśli potrafisz napisać kilka linijek C#, jesteś gotowy!
 4. Katalog dokumentów PDF: Utwórz w swoim systemie katalog, w którym będziesz przechowywać pliki PDF wejściowe i wyjściowe dla tego samouczka.
 
@@ -30,7 +32,7 @@ Teraz, gdy mamy już narzędzia i wiedzę, możemy rozpocząć pracę, przygotow
 
 ## Importuj pakiety
 
-Po pierwsze, zaimportujmy niezbędne przestrzenie nazw. Upewnij się, że masz następujące elementy na górze pliku C#:
+Najpierw zaimportujmy niezbędne przestrzenie nazw. Upewnij się, że masz następujące elementy na górze pliku C#:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -38,7 +40,7 @@ using Aspose.Pdf.Tagged;
 using System;
 ```
 
-Te przestrzenie nazw zapewniają dostęp do klas i metod potrzebnych do pracy z dokumentami PDF i tworzenia treści z tagami. Teraz przejdźmy do sedna sprawy i zacznijmy kodować!
+Te przestrzenie nazw dają dostęp do klas i metod potrzebnych do pracy z dokumentami PDF i tworzenia treści z tagami. Teraz przejdźmy do sedna sprawy i zacznijmy kodować!
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
@@ -49,7 +51,7 @@ Zanim zaczniemy kodować, musimy ustalić, gdzie będziemy zapisywać nasze plik
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której chcesz przechowywać pliki PDF. Może to być coś takiego`C:\\PDFs\\`.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której chcesz przechowywać pliki PDF. Może to być coś takiego `C:\\PDFs\\`.
 
 ## Krok 2: Utwórz nowy dokument PDF
 
@@ -59,7 +61,7 @@ Teraz, gdy mamy już ustawiony katalog, utwórzmy dokument PDF, w którym dodamy
 Document document = new Document();
 ```
 
- Ta linia inicjuje nową instancję`Document` klasa, co pozwoli nam rozpocząć pracę z treścią PDF.
+Ta linia inicjuje nową instancję `Document` klasa, co pozwoli nam rozpocząć pracę z treścią PDF.
 
 ## Krok 3: Dostęp i konfiguracja oznaczonej zawartości
 
@@ -71,7 +73,7 @@ Gdy dokument jest już gotowy, czas skonfigurować treść oznaczoną tagami, co
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
-Ta linia zapewnia dostęp do oznaczonej zawartości Twojego pliku PDF. Oznaczona zawartość jest niezbędna, aby czytniki ekranu mogły dokładnie zinterpretować Twój dokument.
+Ta linia zapewnia dostęp do oznaczonej zawartości pliku PDF. Oznaczona zawartość jest niezbędna, aby czytniki ekranu mogły dokładnie zinterpretować dokument.
 
 ### Ustaw metadane dokumentu
 
@@ -105,7 +107,7 @@ rootElement.AppendChild(p1);
 
 Tutaj inicjujemy nowy element akapitu i dołączamy go do elementu struktury głównej. To jest punkt początkowy Twojej treści!
 
-### Dodaj elementy Span do akapitu
+### Dodaj elementy rozpiętości do akapitu
 
 ```csharp
 SpanElement span11 = taggedContent.CreateSpanElement();
@@ -114,7 +116,7 @@ SpanElement span12 = taggedContent.CreateSpanElement();
 span12.SetText(" and Span_12.");
 ```
 
- Ten`span` elementy są jak mini-akapity w naszym większym akapicie. Pozwalają na lepszą kontrolę nad formatowaniem tekstu.
+Ten `span` elementy są jak mini-akapity w naszym większym akapicie. Pozwalają na lepszą kontrolę nad formatowaniem tekstu.
 
 ### Połącz wszystko
 
@@ -142,7 +144,7 @@ p2.SetText(" and ");
 p2.AppendChild(span22);
 ```
 
- Po prostu twórz dalej`ParagraphElement` i`SpanElement` s, dołączając je do`rootElement` w ten sam sposób jak pokazano powyżej`p1`.
+Po prostu twórz dalej `ParagraphElement`i `SpanElement`s, dołączając je do `rootElement` w ten sam sposób jak pokazano powyżej `p1`.
 
 ## Krok 5: Zapisz swój dokument
 
@@ -184,22 +186,24 @@ I masz to! Właśnie nauczyłeś się, jak dodawać elementy struktury do dokume
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.PDF dla .NET?
-Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie dokumentów PDF.
+Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Jak sprawdzić, czy mój plik PDF jest dostępny?
 Możesz sprawdzić zgodność pliku PDF ze standardami PDF/UA za pomocą biblioteki Aspose.PDF, aby mieć pewność, że spełnia on wytyczne dotyczące dostępności.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, pozwalającą na eksplorację jej funkcji bez żadnych kosztów. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, pozwalającą na eksplorację jej funkcji bez żadnych kosztów. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dokumentację dla Aspose.PDF?
-Pełną dokumentację dla Aspose.PDF można znaleźć[Tutaj](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację dla Aspose.PDF można znaleźć [Tutaj](https://reference.aspose.com/pdf/net/).
 
 ### Jak kupić licencję na Aspose.PDF?
- Licencję możesz kupić bezpośrednio na stronie internetowej Aspose[Tutaj](https://purchase.aspose.com/buy).
+Licencję możesz kupić bezpośrednio na stronie internetowej Aspose [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

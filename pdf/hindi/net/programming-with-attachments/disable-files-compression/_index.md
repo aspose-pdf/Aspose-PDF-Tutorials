@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ फाइल में फ़ाइल संपीड़न अक्षम करें
-linktitle: पीडीएफ फाइल में फ़ाइल संपीड़न अक्षम करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों में फ़ाइल संपीड़न को अक्षम करना सीखें। अपने PDF प्रबंधन कौशल को बढ़ाएँ।
-weight: 30
-url: /hi/net/programming-with-attachments/disable-files-compression/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों में फ़ाइल संपीड़न को अक्षम करना सीखें। अपने PDF प्रबंधन कौशल को बढ़ाएँ।"
+"linktitle": "पीडीएफ फाइल में फ़ाइल संपीड़न अक्षम करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ फाइल में फ़ाइल संपीड़न अक्षम करें"
+"url": "/hi/net/programming-with-attachments/disable-files-compression/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ फाइल में फ़ाइल संपीड़न अक्षम करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-attachments/disable-files-compression/
 
 कोड में आगे बढ़ने से पहले, कुछ पूर्व-आवश्यकताएं हैं जिनका आपको पालन करना होगा:
 
-1.  .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके पास Aspose.PDF लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/pdf/net/).
+1. .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके पास Aspose.PDF लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [वेबसाइट](https://releases.aspose.com/pdf/net/).
 2. विज़ुअल स्टूडियो: एक विकास वातावरण जहां आप अपना .NET कोड लिख और निष्पादित कर सकते हैं।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
 
@@ -51,7 +53,7 @@ using Aspose.Pdf;
 
 अब जब हमने सब कुछ सेट कर लिया है, तो आइए पीडीएफ फाइल में फ़ाइल संपीड़न को अक्षम करने की प्रक्रिया को प्रबंधनीय चरणों में विभाजित करें।
 
-## चरण 1: दस्तावेज़ निर्देशिका परिभाषित करें
+## चरण 1: दस्तावेज़ निर्देशिका निर्धारित करें
 
 सबसे पहले, आपको उस निर्देशिका का पथ निर्दिष्ट करना होगा जहाँ आपकी PDF फ़ाइल स्थित है। यह महत्वपूर्ण है क्योंकि यह प्रोग्राम को बताता है कि वह फ़ाइल कहाँ मिलेगी जिसे आप हेरफेर करना चाहते हैं।
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## चरण 2: पीडीएफ दस्तावेज़ लोड करें
 
- इसके बाद, आप उस पीडीएफ दस्तावेज़ को लोड करेंगे जिसे आप संशोधित करना चाहते हैं।`Document` Aspose.PDF द्वारा प्रदान की गई क्लास.
+इसके बाद, आप उस पीडीएफ दस्तावेज़ को लोड करेंगे जिसे आप संशोधित करना चाहते हैं। `Document` Aspose.PDF द्वारा प्रदान की गई क्लास.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
@@ -77,7 +79,7 @@ FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sam
 
 ## चरण 4: एनकोडिंग गुण निर्दिष्ट करें
 
- यह सुनिश्चित करने के लिए कि फ़ाइल बिना संपीड़न के जोड़ी गई है, आपको फ़ाइल विनिर्देश की एन्कोडिंग संपत्ति को सेट करना होगा`FileEncoding.None`यह चरण महत्वपूर्ण है क्योंकि यह सीधे प्रभावित करता है कि फ़ाइल पीडीएफ में कैसे एम्बेड की जाती है।
+यह सुनिश्चित करने के लिए कि फ़ाइल बिना संपीड़न के जोड़ी गई है, आपको फ़ाइल विनिर्देश की एन्कोडिंग संपत्ति को सेट करना होगा `FileEncoding.None`यह चरण महत्वपूर्ण है क्योंकि यह सीधे प्रभावित करता है कि फ़ाइल पीडीएफ में कैसे एम्बेड की जाती है।
 
 ```csharp
 fileSpecification.Encoding = FileEncoding.None;
@@ -121,16 +123,18 @@ Console.WriteLine("\nFile compression disabled successfully.\nFile saved at " + 
 फ़ाइल संपीड़न को अक्षम करने से यह सुनिश्चित होता है कि एम्बेडेड फ़ाइलें अपने मूल प्रारूप में बनी रहेंगी, जो डेटा अखंडता के लिए महत्वपूर्ण हो सकता है।
 
 ### क्या मैं Aspose.PDF का निःशुल्क उपयोग कर सकता हूँ?
- हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसका उपयोग आप लाइब्रेरी का मूल्यांकन करने के लिए कर सकते हैं। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है जिसका उपयोग आप लाइब्रेरी का मूल्यांकन करने के लिए कर सकते हैं। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं Aspose.PDF पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप यहाँ पर विस्तृत दस्तावेज पा सकते हैं[Aspose वेबसाइट](https://reference.aspose.com/pdf/net/).
+आप यहाँ पर विस्तृत दस्तावेज पा सकते हैं [Aspose वेबसाइट](https://reference.aspose.com/pdf/net/).
 
-### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
- आप यहां जाकर सहायता प्राप्त कर सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/pdf/10).
+### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त करूं?
+आप यहां जाकर सहायता प्राप्त कर सकते हैं [Aspose फ़ोरम](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

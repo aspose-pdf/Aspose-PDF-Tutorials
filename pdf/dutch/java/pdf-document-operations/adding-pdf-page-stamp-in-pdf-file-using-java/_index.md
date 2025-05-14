@@ -1,22 +1,24 @@
 ---
-title: PDF-paginastempel toevoegen aan het PDF-bestand met behulp van Java
-linktitle: PDF-paginastempel toevoegen aan het PDF-bestand met behulp van Java
-second_title: Aspose.PDF Java PDF-verwerkings-API
-description: Leer hoe u PDF-paginastempels toevoegt in Java met Aspose.PDF. Deze stapsgewijze handleiding laat u zien hoe u moeiteloos stempels voor uw PDF-documenten kunt aanpassen.
-weight: 13
-url: /nl/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/
+"description": "Leer hoe u PDF-paginastempels toevoegt in Java met Aspose.PDF. Deze stapsgewijze handleiding laat zien hoe u moeiteloos stempels voor uw PDF-documenten kunt aanpassen."
+"linktitle": "PDF-paginastempel toevoegen aan het PDF-bestand met behulp van Java"
+"second_title": "Aspose.PDF Java PDF-verwerkings-API"
+"title": "PDF-paginastempel toevoegen aan het PDF-bestand met behulp van Java"
+"url": "/nl/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF-paginastempel toevoegen aan het PDF-bestand met behulp van Java
 
 
-## Inleiding tot het toevoegen van een PDF-paginastempel aan het PDF-bestand met behulp van Java
+## Inleiding tot het toevoegen van een PDF-paginastempel aan een PDF-bestand met behulp van Java
 
-PDF's zijn een veelgebruikt formaat voor het delen en archiveren van documenten. Vaak is er behoefte om extra informatie of branding toe te voegen aan bestaande PDF-documenten. In deze tutorial gaan we onderzoeken hoe je een PDF-paginastempel toevoegt met Java met behulp van Aspose.PDF voor Java.
+PDF's zijn een veelgebruikt formaat voor het delen en archiveren van documenten. Vaak is het nodig om extra informatie of branding toe te voegen aan bestaande PDF-documenten. In deze tutorial laten we zien hoe je een PDF-paginastempel toevoegt met behulp van Java, met behulp van Aspose.PDF voor Java.
 
 ## PDF-paginastempels begrijpen
 
@@ -28,7 +30,7 @@ Voordat we in de code duiken, moet u ervoor zorgen dat de volgende vereisten aan
 
 - Java Development Kit (JDK) geïnstalleerd
 - Geïntegreerde ontwikkelomgeving (IDE) zoals Eclipse of IntelliJ IDEA
--  Aspose.PDF voor Java-bibliotheek (u kunt het downloaden[hier](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF voor Java-bibliotheek (u kunt het downloaden [hier](https://releases.aspose.com/pdf/java/).
 
 ## De omgeving instellen
 
@@ -36,7 +38,7 @@ Laten we beginnen met het opzetten van onze ontwikkelomgeving. Zorg ervoor dat j
 
 ## Afhankelijkheden toevoegen
 
-Maak een nieuw Java-project in uw IDE en voeg de Aspose.PDF voor Java-bibliotheek toe aan de afhankelijkheden van uw project. U kunt dit doen door het JAR-bestand toe te voegen aan het buildpad van uw project.
+Maak een nieuw Java-project in je IDE en voeg de Aspose.PDF voor Java-bibliotheek toe aan de afhankelijkheden van je project. Je kunt dit doen door het JAR-bestand toe te voegen aan het buildpad van je project.
 
 ## Een Java-project maken
 
@@ -52,7 +54,7 @@ import com.aspose.pdf.*;
 
 ## Het PDF-document definiëren
 
-Om met een PDF-document te werken, moet u het eerst definiëren. Laten we een PDF-documentobject maken:
+Om met een PDF-document te kunnen werken, moet u het eerst definiëren. Laten we een PDF-documentobject maken:
 
 ```java
 Document pdfDocument = new Document("input.pdf");
@@ -60,13 +62,13 @@ Document pdfDocument = new Document("input.pdf");
 
 ## Een paginastempel maken
 
-Laten we nu een pagina stempel maken, wat een afbeelding of tekst kan zijn. Voor dit voorbeeld maken we een tekst stempel:
+Laten we nu een paginastempel maken, die zowel een afbeelding als tekst kan zijn. In dit voorbeeld maken we een tekststempel:
 
 ```java
 TextStamp textStamp = new TextStamp("Sample Stamp Text");
 ```
 
-## De paginastempel configureren
+## Het configureren van de paginastempel
 
 U kunt verschillende eigenschappen van de paginastempel configureren, zoals lettertype, kleur en positie. Hier is een voorbeeld van hoe u de tekststempel configureert:
 
@@ -79,7 +81,7 @@ textStamp.setVerticalAlignment(VerticalAlignment.Top);
 textStamp.setHorizontalAlignment(HorizontalAlignment.Center);
 ```
 
-## Het pagina-stempel toepassen
+## Het paginastempel toepassen
 
 Nu we onze paginastempel hebben geconfigureerd, kunnen we deze toepassen op de PDF-pagina's:
 
@@ -99,17 +101,17 @@ pdfDocument.save("output.pdf");
 
 ## De Java-applicatie uitvoeren
 
-Nu kunt u uw Java-applicatie uitvoeren. Deze zal de paginastempel toevoegen aan het opgegeven PDF-document.
+Nu kunt u uw Java-applicatie uitvoeren. Deze voegt de paginastempel toe aan het opgegeven PDF-document.
 
 ## Conclusie
 
-In deze tutorial hebben we geleerd hoe je een PDF-paginastempel toevoegt aan een PDF-bestand met behulp van Java en de Aspose.PDF voor Java-bibliotheek. We hebben de basisstappen verkend, van het instellen van de omgeving tot het configureren en toepassen van de stempel. Je kunt nu je PDF-documenten verbeteren door eenvoudig watermerken, logo's of andere informatie toe te voegen. Veel plezier met coderen!
+In deze tutorial hebben we geleerd hoe je een PDF-paginastempel aan een PDF-bestand toevoegt met behulp van Java en de Aspose.PDF voor Java-bibliotheek. We hebben de basisstappen verkend, van het instellen van de omgeving tot het configureren en toepassen van de stempel. Je kunt je PDF-documenten nu eenvoudig verbeteren door watermerken, logo's of andere informatie toe te voegen. Veel plezier met coderen!
 
 ## Veelgestelde vragen
 
-### Hoe kan ik een afbeeldingsstempel toevoegen in plaats van tekst?
+### Hoe kan ik een afbeeldingstempel toevoegen in plaats van tekst?
 
- Je kunt een`ImageStamp` in plaats van een`TextStamp` en configureer het met uw afbeeldingsbestand.
+Je kunt een `ImageStamp` in plaats van een `TextStamp` en configureer het met uw afbeeldingsbestand.
 
 ### Kan ik de positie van de paginastempel aanpassen?
 
@@ -125,10 +127,12 @@ Aspose.PDF voor Java is een commerciële bibliotheek, maar u kunt deze uitprober
 
 ### Waar kan ik meer documentatie en voorbeelden vinden?
 
- Uitgebreide documentatie en voorbeelden vindt u op de Aspose.PDF voor Java-documentatiepagina:[hier](https://reference.aspose.com/pdf/java/)
+Uitgebreide documentatie en voorbeelden vindt u op de Aspose.PDF voor Java-documentatiepagina: [hier](https://reference.aspose.com/pdf/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

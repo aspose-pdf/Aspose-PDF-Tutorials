@@ -1,14 +1,16 @@
 ---
-title: Dot Net Regex ile Metin Arama
-linktitle: Dot Net Regex ile Metin Arama
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF ile .NET Regex kullanarak PDF'lerde metin aramayı öğrenin. Adım adım kılavuzumuzu izleyin ve PDF görevlerinizi basitleştirin.
-weight: 480
-url: /tr/net/programming-with-text/search-text-with-dot-net-regex/
+"description": "Aspose.PDF ile .NET Regex kullanarak PDF'lerde metin aramayı öğrenin. Adım adım kılavuzumuzu izleyin ve PDF görevlerinizi basitleştirin."
+"linktitle": "Dot Net Regex ile Metin Arama"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Dot Net Regex ile Metin Arama"
+"url": "/tr/net/programming-with-text/search-text-with-dot-net-regex/"
+"weight": 480
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dot Net Regex ile Metin Arama
@@ -25,13 +27,13 @@ Kolları sıvayıp kodlamaya girişmeden önce, yerine getirmeniz gereken birka�
 Bilgisayarınızda .NET framework'ün yüklü olduğundan emin olun. Aspose.PDF, .NET Core ve .NET Framework uygulamalarını destekler.
 
 ### .NET için Aspose.PDF
- Daha önce yapmadıysanız Aspose.PDF kütüphanesini indirip yüklemeniz gerekecektir. Bunu şu adresten edinebilirsiniz:[Aspose PDF Bültenleri sayfası](https://releases.aspose.com/pdf/net/).
+Daha önce yapmadıysanız Aspose.PDF kütüphanesini indirip yüklemeniz gerekecektir. Bunu şu adresten edinebilirsiniz: [Aspose PDF Bültenleri sayfası](https://releases.aspose.com/pdf/net/).
 
 ### C# Temel Bilgisi
 C# programlama ve .NET ortamına dair temel bir anlayışa sahip olmak, bu eğitimi daha akıcı bir şekilde takip etmenize yardımcı olacaktır.
 
 ### Bir IDE
-Visual Studio veya Visual Studio Code gibi Entegre Geliştirme Ortamı'na (IDE) sahip olmak, kodunuzu verimli bir şekilde yazmanıza ve test etmenize yardımcı olacaktır.
+Visual Studio veya Visual Studio Code gibi bir Entegre Geliştirme Ortamına (IDE) sahip olmak, kodunuzu verimli bir şekilde yazmanıza ve test etmenize yardımcı olacaktır.
 
 Bu ön koşulları tamamladığınızda artık dalmaya hazırız!
 
@@ -60,7 +62,7 @@ Install-Package Aspose.PDF
 
 Bu komut Aspose.PDF paketini indirip projenize entegre edecek ve tüm işlevlerine erişmenizi sağlayacaktır.
 
-Artık her şeyi ayarladığımıza göre, gerçek koda geçelim. Daha iyi bir açıklık için bunu yönetilebilir adımlara böleceğiz.
+Artık her şeyi ayarladığımıza göre, gerçek koda geçelim. Daha iyi bir netlik için bunu yönetilebilir adımlara böleceğiz.
 
 ## Adım 2: Belge Dizinini Ayarlayın
 
@@ -69,7 +71,7 @@ Herhangi bir projede, doğru dizinleri belirtmek şarttır. Bu, programa PDF bel
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` hedef PDF dosyanızın bulunduğu yol ile. Bu adım, uygulamanızın aramak istediğiniz PDF belgesini kolayca bulabilmesini sağlar.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` hedef PDF dosyanızın bulunduğu yol ile. Bu adım, uygulamanızın aramak istediğiniz PDF belgesini kolayca bulabilmesini sağlar.
 
 ## Adım 3: Bir Regex Nesnesi Oluşturun
 
@@ -78,7 +80,7 @@ Düzenli ifadeler (Regex) metin araması için son derece güçlü araçlardır.
 ```csharp
 System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex(@"[\S]+");
 ```
- Regex ifadesi`@"[\S]+"` belgedeki herhangi bir boşluk olmayan karakter dizisiyle eşleşir. Belirli arama gereksinimleriniz varsa deseni değiştirmekten çekinmeyin!
+Regex ifadesi `@"[\S]+"` belgedeki herhangi bir boşluk olmayan karakter dizisiyle eşleşir. Belirli arama gereksinimleriniz varsa deseni değiştirmekten çekinmeyin!
 
 ## Adım 4: PDF Belgesini Açın
 
@@ -87,7 +89,7 @@ Artık Regex'imiz hazır olduğuna göre, Aspose kullanarak PDF belgesini açman
 ```csharp
 Aspose.Pdf.Document document = new Aspose.Pdf.Document(dataDir + "SearchTextRegex.pdf");
 ```
- Yer değiştirmek`"SearchTextRegex.pdf"`PDF dosyanızın gerçek adıyla. Bu kod satırı, PDF'yi düzenlemenize olanak tanıyan Aspose.PDF Belge nesnesini başlatır.
+Yer değiştirmek `"SearchTextRegex.pdf"` PDF dosyanızın gerçek adıyla. Bu kod satırı, PDF'yi düzenlemenize olanak tanıyan Aspose.PDF Belge nesnesini başlatır.
 
 ## Adım 5: İstenilen Sayfaya Erişim
 
@@ -100,7 +102,7 @@ Bu satırda, belgenin ilk sayfasına eriştik. Aspose'da sayfa indekslemesinin 0
 
 ## Adım 6: Bir Metin Emici Oluşturun
 
-Aspose.PDF'deki TextAbsorber sınıfı, Regex örüntümüze uyan metin parçalarını bulmamıza yardımcı olacaktır.
+Aspose.PDF'deki TextAbsorber sınıfı, Regex desenimizle eşleşen metin parçalarını bulmamıza yardımcı olacaktır.
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber(regex);
@@ -115,7 +117,7 @@ Bu kod parçası bir TextFragmentAbsorber başlatır, oluşturduğumuz Regex'i f
 ```csharp
 page.Accept(textFragmentAbsorber);
 ```
- Arayarak`Accept` yöntemi ile sayfanın TextAbsorber'ı kullanmasını ve böylece o sayfa içerisinde arama yapmasını sağlıyoruz.
+Arayarak `Accept` yöntemi ile sayfanın TextAbsorber'ı kullanmasını ve böylece o sayfa içerisinde arama yapmasını sağlıyoruz.
 
 ## Adım 8: Bulunan Metin Parçalarını Alın
 
@@ -124,7 +126,7 @@ Aramadan sonra sonuçları toplamanın zamanı geldi; Regex'imizin eşleştirdi�
 ```csharp
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
- The`TextFragments` özellik, Regex aramamız tarafından keşfedilen tüm metin parçacıklarını içerir. 
+The `TextFragments` özellik, Regex aramamız tarafından keşfedilen tüm metin parçacıklarını içerir. 
 
 ## Adım 9: Döngüye Girin ve Sonuçları Görüntüleyin
 
@@ -148,19 +150,21 @@ Bu döngü bulunan her metin parçasında yineleme yapar ve onu konsola çıktı
 Aspose.PDF, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına ve düzenlemelerine olanak tanıyan bir .NET kütüphanesidir.
 
 ### Aspose.PDF for .NET'i nasıl indirebilirim?
- Bunu şuradan indirebilirsiniz:[Aspose PDF Bültenleri sayfası](https://releases.aspose.com/pdf/net/).
+Bunu şuradan indirebilirsiniz: [Aspose PDF Bültenleri sayfası](https://releases.aspose.com/pdf/net/).
 
 ### PDF aramalarımda düzenli ifadeler kullanabilir miyim?
 Evet! Aspose.PDF metin aramaları için düzenli ifadeleri destekler.
 
 ### Aspose.PDF için desteği nerede bulabilirim?
- Desteğe şu adresten ulaşabilirsiniz:[Aspose PDF Forum](https://forum.aspose.com/c/pdf/10).
+Desteğe şu adresten ulaşabilirsiniz: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF için deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose Sürümleri sayfası](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Aspose Sürümleri sayfası](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

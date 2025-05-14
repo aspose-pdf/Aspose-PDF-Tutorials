@@ -1,14 +1,16 @@
 ---
-title: Eksportuj dane z arkusza kalkulacyjnego Excel do tabeli
-linktitle: Eksportuj dane z arkusza kalkulacyjnego Excel do tabeli
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak eksportować dane arkusza kalkulacyjnego programu Excel do tabeli PDF przy użyciu Aspose.PDF dla .NET. Samouczek krok po kroku z przykładami kodu, wymaganiami wstępnymi i pomocnymi wskazówkami.
-weight: 70
-url: /pl/net/programming-with-tables/export-excel-worksheet-data-to-table/
+"description": "Dowiedz się, jak eksportować dane arkusza kalkulacyjnego programu Excel do tabeli PDF przy użyciu Aspose.PDF dla .NET. Samouczek krok po kroku z przykładami kodu, wymaganiami wstępnymi i pomocnymi wskazówkami."
+"linktitle": "Eksportuj dane z arkusza kalkulacyjnego Excel do tabeli"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Eksportuj dane z arkusza kalkulacyjnego Excel do tabeli"
+"url": "/pl/net/programming-with-tables/export-excel-worksheet-data-to-table/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksportuj dane z arkusza kalkulacyjnego Excel do tabeli
@@ -21,12 +23,12 @@ Czy kiedykolwiek musiałeś wyeksportować dane z arkusza kalkulacyjnego program
 
 Zanim przejdziemy do kodowania, skonfigurujmy kilka rzeczy:
 
-1.  Aspose.PDF dla biblioteki .NET – Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
-2.  Aspose.Cells for .NET Library – Będziesz jej potrzebować do obsługi operacji w programie Excel. Pobierz ją z[Tutaj](https://releases.aspose.com/cells/net/).
+1. Aspose.PDF dla biblioteki .NET – Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.Cells for .NET Library – Będziesz jej potrzebować do obsługi operacji w programie Excel. Pobierz ją z [Tutaj](https://releases.aspose.com/cells/net/).
 3. Środowisko programistyczne .NET – narzędzie takie jak Visual Studio doskonale sprawdzi się w kodowaniu.
 4. Plik Excela – Przygotuj plik Excela z danymi, które chcesz wyeksportować.
 
- Jeżeli nie posiadasz bibliotek Aspose.PDF i Aspose.Cells, możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/).
+Jeżeli nie posiadasz bibliotek Aspose.PDF i Aspose.Cells, możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/).
 
 ## Importuj pakiety
 
@@ -54,9 +56,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(new FileStream(dataDir + "newBook1.xlsx", FileMode.Open));
 ```
 
- Wyjaśnienie: Tutaj określamy ścieżkę katalogu, w którym znajduje się nasz plik Excel i ładujemy skoroszyt za pomocą`Aspose.Cells.Workbook` . Upewnij się, że dostosujesz`"YOUR DOCUMENT DIRECTORY"` aby wskazać lokalizację pliku.
+Wyjaśnienie: Tutaj określamy ścieżkę katalogu, w którym znajduje się nasz plik Excel i ładujemy skoroszyt za pomocą `Aspose.Cells.Workbook`. Upewnij się, że dostosujesz `"YOUR DOCUMENT DIRECTORY"` aby wskazać lokalizację pliku.
 
-## Krok 2: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 2: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Po załadowaniu skoroszytu musimy uzyskać dostęp do pierwszego arkusza, w którym przechowywane są nasze dane.
 
@@ -76,7 +78,7 @@ Teraz wyeksportujemy dane z arkusza Excel do obiektu DataTable, który będzie p
 DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, worksheet.Cells.MaxRow + 1, worksheet.Cells.MaxColumn + 1, true);
 ```
 
- Wyjaśnienie:`ExportDataTable` Metoda wyodrębnia dane zaczynając od pierwszej komórki arkusza kalkulacyjnego i obejmuje wszystkie wiersze i kolumny. Dane te są następnie przechowywane w`DataTable` do dalszego wykorzystania.
+Wyjaśnienie: `ExportDataTable` Metoda wyodrębnia dane zaczynając od pierwszej komórki arkusza kalkulacyjnego i obejmuje wszystkie wiersze i kolumny. Dane te są następnie przechowywane w `DataTable` do dalszego wykorzystania.
 
 ## Krok 4: Utwórz nowy dokument PDF
 
@@ -90,7 +92,7 @@ Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document();
 Aspose.Pdf.Page page = pdfDocument.Pages.Add();
 ```
 
- Wyjaśnienie: Tutaj inicjujemy nowy`Aspose.Pdf.Document` dodaj do niej stronę. Ta strona będzie później zawierać tabelę, którą tworzymy z danych Excela.
+Wyjaśnienie: Tutaj inicjujemy nowy `Aspose.Pdf.Document` i dodaj do niej stronę. Ta strona będzie później zawierać tabelę, którą tworzymy z danych Excela.
 
 ## Krok 5: Utwórz obiekt tabeli w pliku PDF
 
@@ -104,7 +106,7 @@ Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 page.Paragraphs.Add(table);
 ```
 
- Wyjaśnienie: Tworzymy`Aspose.Pdf.Table` obiekt i dodać go do zbioru akapitów strony, co zapewni wyświetlenie tabeli na stronie.
+Wyjaśnienie: Tworzymy `Aspose.Pdf.Table` obiekt i dodać go do zbioru akapitów strony, co zapewni wyświetlenie tabeli na stronie.
 
 ## Krok 6: Ustaw szerokości i obramowania kolumn
 
@@ -118,7 +120,7 @@ table.ColumnWidths = "40 100 100";
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.1F);
 ```
 
- Wyjaśnienie: Ustawiamy szerokości trzech kolumn i nadajemy wszystkim komórkom domyślną ramkę o grubości`0.1F`.
+Wyjaśnienie: Ustawiamy szerokości trzech kolumn i nadajemy wszystkim komórkom domyślną ramkę o grubości `0.1F`.
 
 ## Krok 7: Importuj dane z DataTable do tabeli PDF
 
@@ -129,9 +131,9 @@ Teraz pora zaimportować dane z tabeli DataTable do tabeli PDF.
 table.ImportDataTable(dataTable, true, 0, 0, dataTable.Rows.Count + 1, dataTable.Columns.Count);
 ```
 
- Wyjaśnienie:`ImportDataTable`metoda ta przenosi wszystkie dane z`DataTable` do tabeli PDF. To wypełnia tabelę danymi z arkusza Excel.
+Wyjaśnienie: `ImportDataTable` metoda ta przenosi wszystkie dane z `DataTable` do tabeli PDF. To wypełnia tabelę danymi z arkusza Excel.
 
-## Krok 8: Nadaj styl wierszowi nagłówka
+## Krok 8: Styl wiersza nagłówka
 
 Zmieńmy styl wiersza nagłówka tabeli, zmieniając kolor tła, czcionkę i wyrównanie.
 
@@ -181,7 +183,7 @@ Wyjaśnienie: Zapisujemy plik PDF do określonego katalogu. Voilà! Twoje dane E
 
 ## Wniosek
 
-masz to! W zaledwie kilku krokach wyeksportowałeś dane z arkusza kalkulacyjnego Excel do tabeli w pliku PDF przy użyciu Aspose.PDF dla .NET. Rozbijając proces i stylizując go po drodze, możesz dostosować wynik i upewnić się, że dane wyglądają czysto i profesjonalnie. Więc następnym razem, gdy ktoś wręczy Ci plik Excel i poprosi o raport PDF, będziesz dokładnie wiedział, co zrobić.
+I masz to! W zaledwie kilku krokach wyeksportowałeś dane z arkusza kalkulacyjnego Excel do tabeli w pliku PDF przy użyciu Aspose.PDF dla .NET. Rozbijając proces i stylizując go po drodze, możesz dostosować wynik i upewnić się, że dane wyglądają czysto i profesjonalnie. Więc następnym razem, gdy ktoś wręczy Ci plik Excel i poprosi o raport PDF, będziesz dokładnie wiedział, co zrobić.
 
 ## Najczęściej zadawane pytania
 
@@ -189,19 +191,21 @@ masz to! W zaledwie kilku krokach wyeksportowałeś dane z arkusza kalkulacyjneg
 Oczywiście! Możesz modyfikować kolory, czcionki, wyrównanie, a nawet dodawać obramowania do określonych komórek.
 
 ### Czy Aspose.PDF dla .NET jest darmowy?
- Oferuje bezpłatną wersję próbną, ale do dłuższego użytkowania potrzebna będzie licencja. Możesz[kup tutaj](https://purchase.aspose.com/buy).
+Oferuje bezpłatny okres próbny, ale do dłuższego użytkowania potrzebna będzie licencja. Możesz [kup tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę eksportować tylko określone wiersze i kolumny?
- Tak, możesz modyfikować parametry w`ExportDataTable` metoda eksportowania określonych zakresów.
+Tak, możesz modyfikować parametry w `ExportDataTable` metoda eksportowania określonych zakresów.
 
 ### Czy to działa w przypadku dużych plików Excela?
 Tak, Aspose.Cells jest zaprojektowany do wydajnej obsługi dużych plików Excela.
 
 ### Jak mogę dodać więcej stron do pliku PDF?
- Możesz użyć`pdfDocument.Pages.Add()` aby dodać tyle stron, ile potrzebujesz.
+Możesz użyć `pdfDocument.Pages.Add()` aby dodać tyle stron, ile potrzebujesz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

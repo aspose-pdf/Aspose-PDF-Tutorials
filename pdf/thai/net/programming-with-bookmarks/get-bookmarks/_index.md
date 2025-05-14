@@ -1,14 +1,16 @@
 ---
-title: รับบุ๊กมาร์กในไฟล์ PDF
-linktitle: รับบุ๊กมาร์กในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีแยกบุ๊กมาร์กจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ ปรับปรุงการนำทาง PDF ของคุณ
-weight: 70
-url: /th/net/programming-with-bookmarks/get-bookmarks/
+"description": "เรียนรู้วิธีแยกบุ๊กมาร์กจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้ ปรับปรุงการนำทาง PDF ของคุณ"
+"linktitle": "รับบุ๊กมาร์กในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "รับบุ๊กมาร์กในไฟล์ PDF"
+"url": "/th/net/programming-with-bookmarks/get-bookmarks/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับบุ๊กมาร์กในไฟล์ PDF
@@ -22,7 +24,7 @@ url: /th/net/programming-with-bookmarks/get-bookmarks/
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณจะต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว ซึ่งเป็น IDE หลักสำหรับการพัฒนา .NET
-2.  Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดที่เราจะใช้
 
 ## แพ็คเกจนำเข้า
@@ -62,7 +64,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่จัดเก็บไฟล์ PDF ของคุณ ซึ่งเป็นสิ่งสำคัญเนื่องจากโปรแกรมจำเป็นต้องทราบว่าจะค้นหา PDF ได้จากที่ใด
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่จัดเก็บไฟล์ PDF ของคุณ ซึ่งเป็นสิ่งสำคัญเนื่องจากโปรแกรมจำเป็นต้องทราบว่าจะค้นหา PDF ได้จากที่ใด
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
@@ -73,7 +75,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "GetBookmarks.pdf");
 ```
 
- ที่นี่เราสร้างใหม่`Document`วัตถุและส่งเส้นทางของไฟล์ PDF ของเรา ตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรงกับชื่อที่คุณมีในไดเร็กทอรีของคุณ
+ที่นี่เราสร้างใหม่ `Document` วัตถุและส่งเส้นทางของไฟล์ PDF ของเรา ตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรงกับที่คุณมีในไดเร็กทอรีของคุณ
 
 ## ขั้นตอนที่ 3: วนซ้ำผ่านบุ๊กมาร์ก
 
@@ -90,7 +92,7 @@ foreach (OutlineItemCollection outlineItem in pdfDocument.Outlines)
 }
 ```
 
- ในโค้ดตัวอย่างนี้ เราใช้`foreach` วนซ้ำเพื่อทำซ้ำในแต่ละรอบ`OutlineItemCollection` ใน`pdfDocument.Outlines`สำหรับบุ๊กมาร์กแต่ละอัน เราจะพิมพ์ชื่อ สถานะตัวเอียง สถานะตัวหนา และสี ซึ่งจะทำให้เราดูบุ๊กมาร์กแต่ละอันใน PDF ได้อย่างครอบคลุม
+ในโค้ดตัวอย่างนี้ เราใช้ `foreach` วนซ้ำเพื่อทำซ้ำในแต่ละรอบ `OutlineItemCollection` ใน `pdfDocument.Outlines`สำหรับบุ๊กมาร์กแต่ละอัน เราจะพิมพ์ชื่อ สถานะตัวเอียง สถานะตัวหนา และสี ซึ่งจะทำให้เราดูบุ๊กมาร์กแต่ละอันใน PDF ได้อย่างครอบคลุม
 
 ## บทสรุป
 
@@ -102,19 +104,21 @@ foreach (OutlineItemCollection outlineItem in pdfDocument.Outlines)
 Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ในแอปพลิเคชัน .NET ได้
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose เสนอรุ่นทดลองใช้งานฟรีที่คุณสามารถใช้สำรวจคุณสมบัติของไลบรารีได้ คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose เสนอรุ่นทดลองใช้งานฟรีที่คุณสามารถใช้สำรวจคุณสมบัติของไลบรารีได้ คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.PDF ได้ที่ไหน
-คุณสามารถค้นหาการสนับสนุนและถามคำถามบนฟอรัม Aspose ได้[ที่นี่](https://forum.aspose.com/c/pdf/10).
+คุณสามารถค้นหาการสนับสนุนและถามคำถามบนฟอรัม Aspose ได้ [ที่นี่](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### สามารถซื้อ Aspose.PDF ได้หรือไม่?
- ใช่ คุณสามารถซื้อ Aspose.PDF ได้จากเว็บไซต์ของพวกเขา[ที่นี่](https://purchase.aspose.com/buy).
+ใช่ คุณสามารถซื้อ Aspose.PDF ได้จากเว็บไซต์ของพวกเขา [ที่นี่](https://purchase-aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

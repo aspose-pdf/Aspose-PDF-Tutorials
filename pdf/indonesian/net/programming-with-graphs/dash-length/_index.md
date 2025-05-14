@@ -1,14 +1,16 @@
 ---
-title: Panjang Garis
-linktitle: Panjang Garis
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menyesuaikan pola garis putus-putus dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk menambahkan gaya ke dokumen Anda.
-weight: 70
-url: /id/net/programming-with-graphs/dash-length/
+"description": "Pelajari cara menyesuaikan pola garis putus-putus dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk menambahkan gaya ke dokumen Anda."
+"linktitle": "Panjang Garis"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Panjang Garis"
+"url": "/id/net/programming-with-graphs/dash-length/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Panjang Garis
@@ -21,10 +23,10 @@ Apakah Anda ingin menambahkan sentuhan kreativitas pada dokumen PDF Anda dengan 
 
 Sebelum memulai tutorial, ada beberapa hal yang Anda perlukan:
 
-1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal Aspose.PDF untuk .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari[Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal Aspose.PDF untuk .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari [Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
 2. Pengetahuan Dasar tentang C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#. Jika Anda baru mengenal C#, sebaiknya Anda memoles dasar-dasarnya terlebih dahulu.
 3. Visual Studio: Meskipun Anda dapat menggunakan IDE apa pun, panduan ini mengasumsikan Anda menggunakan Visual Studio untuk menulis dan menjalankan kode C# Anda.
-4.  Akun Aspose: Untuk sumber daya dan dukungan tambahan, pastikan Anda memiliki akun di Aspose. Anda dapat mendaftar untuk[uji coba gratis](https://releases.aspose.com/) atau membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+4. Akun Aspose: Untuk sumber daya dan dukungan tambahan, pastikan Anda memiliki akun di Aspose. Anda dapat mendaftar untuk [uji coba gratis](https://releases.aspose.com/) atau membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ## Paket Impor
 
@@ -57,11 +59,11 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Di sini, kita membuat`Document` objek dan tambahkan yang baru`Page` Ini menjadi dasar untuk menggambar garis Anda.
+Di sini, kita membuat `Document` objek dan tambahkan yang baru `Page` Ini menjadi dasar untuk menggambar garis Anda.
 
 ## Langkah 3: Buat Objek Gambar
 
- Selanjutnya, buatlah`Graph` objek yang mewakili area tempat Anda akan menggambar. Tentukan dimensinya sesuai dengan kebutuhan Anda.
+Selanjutnya, buatlah `Graph` objek yang mewakili area tempat Anda akan menggambar. Tentukan dimensinya sesuai dengan kebutuhan Anda.
 
 ```csharp
 // Membuat objek Gambar dengan dimensi tertentu
@@ -71,11 +73,11 @@ Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 page.Paragraphs.Add(canvas);
 ```
 
- Itu`Graph` Objek berfungsi sebagai wadah untuk elemen gambar Anda. Di sini, objek diatur ke lebar 100 unit dan tinggi 400 unit.
+Itu `Graph` Objek berfungsi sebagai wadah untuk elemen gambar Anda. Di sini, objek diatur ke lebar 100 unit dan tinggi 400 unit.
 
 ## Langkah 4: Tentukan Garisnya
 
- Sekarang saatnya untuk membuat`Line`objek. Tentukan titik awal dan akhir garis dan sesuaikan gayanya.
+Sekarang saatnya untuk membuat `Line` objek. Tentukan titik awal dan akhir garis dan sesuaikan gayanya.
 
 ```csharp
 // Buat objek Garis
@@ -100,12 +102,12 @@ line.GraphInfo.DashPhase = 1;
 ```
 
 - `line.GraphInfo.Color`: Mengatur warna garis. Dalam hal ini, warnanya merah.
-- `line.GraphInfo.DashArray` : Menentukan pola tanda hubung. Di sini,`{ 0, 1, 0 }` menunjukkan pola putus-putus.
+- `line.GraphInfo.DashArray`: Menentukan pola tanda hubung. Di sini, `{ 0, 1, 0 }` menunjukkan pola putus-putus.
 - `line.GraphInfo.DashPhase`: Menyesuaikan titik awal pola garis putus-putus.
 
 ## Langkah 6: Tambahkan Garis ke Gambar
 
- Dengan garis yang sudah ditata, tambahkan ke`Graph` obyek.
+Dengan garis yang sudah ditata, tambahkan ke `Graph` obyek.
 
 ```csharp
 // Tambahkan garis ke koleksi bentuk objek gambar
@@ -116,7 +118,7 @@ Ini mengintegrasikan garis ke kanvas gambar Anda.
 
 ## Langkah 7: Simpan Dokumen
 
-Terakhir, simpan dokumen Anda di jalur yang ditentukan. Di sinilah berkas PDF akan dibuat.
+Terakhir, simpan dokumen Anda ke jalur yang ditentukan. Di sinilah berkas PDF akan dibuat.
 
 ```csharp
 dataDir = dataDir + "DashLength_out.pdf";
@@ -135,22 +137,24 @@ Menyesuaikan gaya garis dalam dokumen PDF dapat menambahkan sentuhan profesional
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara menginstal Aspose.PDF untuk .NET?
- Anda dapat menginstalnya melalui NuGet di Visual Studio atau mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/pdf/net/).
+Anda dapat menginstalnya melalui NuGet di Visual Studio atau mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Dapatkah saya menggunakan Aspose.PDF untuk .NET secara gratis?
- Ya, Aspose menawarkan[uji coba gratis](https://releases.aspose.com/) sehingga Anda dapat menguji fitur-fiturnya sebelum membeli lisensi.
+Ya, Aspose menawarkan [uji coba gratis](https://releases.aspose.com/) sehingga Anda dapat menguji fitur-fiturnya sebelum membeli lisensi.
 
 ### Kustomisasi apa lagi yang dapat saya buat pada baris dalam PDF?
- Anda dapat menyesuaikan ketebalan garis, warna, dan pola garis putus-putus. Lihat[dokumentasi](https://reference.aspose.com/pdf/net/) untuk lebih jelasnya.
+Anda dapat menyesuaikan ketebalan garis, warna, dan pola garis putus-putus. Lihat [dokumentasi](https://reference.aspose.com/pdf/net/) untuk lebih jelasnya.
 
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat mengakses dukungan melalui[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat mengakses dukungan melalui [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Di mana saya dapat membeli lisensi Aspose.PDF untuk .NET?
-Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

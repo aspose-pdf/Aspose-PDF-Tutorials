@@ -1,17 +1,19 @@
 ---
-title: Java kullanarak belirli sayfa bölgesini PDF'de görüntüye dönüştürün
-linktitle: Java kullanarak belirli sayfa bölgesini PDF'de görüntüye dönüştürün
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java kullanarak adım adım kılavuzla belirli bir sayfa bölgesinin PDF'de bir görüntüye nasıl dönüştürüleceğini öğrenin. Java için Aspose.PDF'nin PDF düzenleme için güçlü yeteneklerini keşfedin.
-weight: 13
-url: /tr/java/pdf-image-manipulation/convert-particular-page-region-to-image-in-pdf-using-java/
+"description": "Java kullanarak adım adım kılavuzla belirli bir sayfa bölgesinin PDF'de bir görüntüye nasıl dönüştürüleceğini öğrenin. Java için Aspose.PDF'nin PDF düzenleme için güçlü yeteneklerini keşfedin."
+"linktitle": "Java kullanarak PDF'de Belirli Sayfa Bölgesini Görüntüye Dönüştürme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'de Belirli Sayfa Bölgesini Görüntüye Dönüştürme"
+"url": "/tr/java/pdf-image-manipulation/convert-particular-page-region-to-image-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java kullanarak belirli sayfa bölgesini PDF'de görüntüye dönüştürün
+# Java kullanarak PDF'de Belirli Sayfa Bölgesini Görüntüye Dönüştürme
 
 
 ## Java kullanarak PDF'de Belirli Sayfa Bölgesini Görüntüye Dönüştürmeye Giriş
@@ -24,7 +26,7 @@ Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Ortamı: Sisteminizde Java yüklü olmalıdır.
 
-- Aspose.PDF for Java Kütüphanesi: Aspose.PDF for Java kütüphanesini indirin ve projenize ekleyin. Buradan edinebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java Kütüphanesi: Aspose.PDF for Java kütüphanesini indirin ve projenize ekleyin. Buradan edinebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Adım 1: PDF Belgesini Yükleyin
 
@@ -35,11 +37,11 @@ Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 Document pdfDocument = new Document("sample.pdf");
 ```
 
- Yer değiştirmek`"sample.pdf"` PDF dosyanızın yolunu belirtin.
+Yer değiştirmek `"sample.pdf"` PDF dosyanızın yolunu belirtin.
 
 ## Adım 2: Sayfa Bölgesini Tanımlayın
 
- Şimdi, sayfadaki görüntüye dönüştürmek istediğimiz bölgeyi tanımlayalım. Bölgenin koordinatlarını ve boyutlarını kullanarak belirtebilirsiniz.`Rectangle` sınıf. Örneğin, (50, 50) koordinatlarında başlayan ve genişliği ve yüksekliği 200 piksel olan bir bölgeyi yakalamak için aşağıdakileri yapabilirsiniz:
+Şimdi, sayfadaki görüntüye dönüştürmek istediğimiz bölgeyi tanımlayalım. Bölgenin koordinatlarını ve boyutlarını kullanarak belirtebilirsiniz. `Rectangle` sınıf. Örneğin, (50, 50) koordinatlarında başlayan ve genişliği ve yüksekliği 200 piksel olan bir bölgeyi yakalamak için aşağıdakileri yapabilirsiniz:
 
 ```java
 // Yakalanacak bölgeyi tanımlayın
@@ -78,7 +80,7 @@ Bu eğitimde, Aspose.PDF for Java'yı kullanarak bir PDF belgesinden belirli bir
 
 ### Java için Aspose.PDF'yi nasıl kurabilirim?
 
- Java kütüphanesi için Aspose.PDF'yi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/) ve dokümanlarda verilen kurulum talimatlarını izleyin.
+Java kütüphanesi için Aspose.PDF'yi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/) ve dokümanlarda verilen kurulum talimatlarını izleyin.
 
 ### Birden fazla sayfadan bölgeleri çıkarabilir miyim?
 
@@ -95,9 +97,11 @@ Java için Aspose.PDF, PDF oluşturma, düzenleme, metin çıkarma ve daha fazla
 ### Java için Aspose.PDF'i kullanmak için herhangi bir lisanslama gereksinimi var mı?
 
 Evet, Aspose.PDF for Java ticari bir kütüphanedir ve üretim uygulamalarında kullanmak için geçerli bir lisansa ihtiyacınız olacak. Lisansı Aspose web sitesinden edinebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

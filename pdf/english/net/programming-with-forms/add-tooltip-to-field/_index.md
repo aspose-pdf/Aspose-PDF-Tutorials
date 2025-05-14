@@ -8,7 +8,9 @@ url: /net/programming-with-forms/add-tooltip-to-field/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Tooltip To Field
@@ -121,6 +123,7 @@ The addition of tooltips has a minimal impact on the file size, so you shouldnâ€
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

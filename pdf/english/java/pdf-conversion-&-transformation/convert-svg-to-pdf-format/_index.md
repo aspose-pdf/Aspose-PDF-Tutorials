@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/convert-svg-to-pdf-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert SVG to PDF Format
@@ -127,6 +129,7 @@ You can find comprehensive documentation and examples for Aspose.PDF for Java on
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

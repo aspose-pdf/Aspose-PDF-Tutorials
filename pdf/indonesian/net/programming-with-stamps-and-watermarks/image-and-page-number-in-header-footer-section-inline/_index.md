@@ -1,17 +1,19 @@
 ---
-title: Gambar dan Nomor Halaman di Bagian Header Footer Sebaris
-linktitle: Gambar dan Nomor Halaman di Bagian Header Footer Sebaris
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan gambar dan nomor halaman sebaris di bagian header PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
-weight: 120
-url: /id/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section-inline/
+"description": "Pelajari cara menambahkan gambar dan nomor halaman sebaris di bagian header PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Gambar dan Nomor Halaman di Bagian Header dan Footer Sebaris"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Gambar dan Nomor Halaman di Bagian Header dan Footer Sebaris"
+"url": "/id/net/programming-with-stamps-and-watermarks/image-and-page-number-in-header-footer-section-inline/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gambar dan Nomor Halaman di Bagian Header Footer Sebaris
+# Gambar dan Nomor Halaman di Bagian Header dan Footer Sebaris
 
 ## Perkenalan
 
@@ -21,9 +23,9 @@ Aspose.PDF untuk .NET adalah alat canggih yang menyediakan kemampuan ekstensif u
 
 Sebelum kita masuk ke kode, mari pastikan Anda telah menyiapkan semua hal yang diperlukan untuk mengikutinya:
 
--  Aspose.PDF untuk .NET: Unduh versi terbaru dari[Halaman Unduh PDF Aspose](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Unduh versi terbaru dari [Halaman Unduh PDF Aspose](https://releases.aspose.com/pdf/net/).
 - Lingkungan Pengembangan: Anda memerlukan IDE C# seperti Visual Studio.
--  Lisensi: Jika Anda belum memiliki lisensi, Anda bisa mendapatkannya[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/) atau beli yang lengkap dari[Toko Aspose](https://purchase.aspose.com/buy).
+- Lisensi: Jika Anda belum memiliki lisensi, Anda bisa mendapatkannya [lisensi sementara di sini](https://purchase.aspose.com/temporary-license/) atau beli yang lengkap dari [Toko Aspose](https://purchase.aspose.com/buy).
 
 Sekarang setelah prasyaratnya siap, mari kita mulai.
 
@@ -49,11 +51,11 @@ Hal pertama yang perlu kita lakukan adalah menentukan jalur ke direktori tempat 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Variabel ini menyimpan lokasi penyimpanan dokumen Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya.
+Variabel ini menyimpan lokasi penyimpanan dokumen Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya.
 
 ## Langkah 2: Buat Instansiasi Dokumen PDF
 
- Pada langkah ini, kita membuat instance baru dari`Aspose.Pdf.Document` objek. Objek ini akan berfungsi sebagai tulang punggung berkas PDF Anda.
+Pada langkah ini, kita membuat instance baru dari `Aspose.Pdf.Document` objek. Objek ini akan berfungsi sebagai tulang punggung berkas PDF Anda.
 
 ```csharp
 // Membuat instance objek Dokumen dengan memanggil konstruktor kosongnya
@@ -71,7 +73,7 @@ PDF Anda memerlukan setidaknya satu halaman tempat Anda dapat menambahkan header
 Aspose.Pdf.Page page = pdf1.Pages.Add();
 ```
 
- Dengan menyebut`pdf1.Pages.Add()`halaman baru ditambahkan ke dokumen, siap untuk kustomisasi header dan footer.
+Dengan menyebut `pdf1.Pages.Add()`, halaman baru ditambahkan ke dokumen, siap untuk kustomisasi header dan footer.
 
 ## Langkah 4: Membuat dan Mengatur Header
 
@@ -84,11 +86,11 @@ Aspose.Pdf.HeaderFooter header = new Aspose.Pdf.HeaderFooter();
 page.Header = header;
 ```
 
- Kami menciptakan sebuah`HeaderFooter` objek dan menetapkannya ke`Header` properti halaman, yang memastikan bahwa apa pun yang kita tambahkan ke header akan muncul di bagian atas halaman.
+Kami menciptakan sebuah `HeaderFooter` objek dan menetapkannya ke `Header` properti halaman, memastikan bahwa apa pun yang kita tambahkan ke header akan muncul di bagian atas halaman.
 
 ## Langkah 5: Tambahkan Teks Sebaris ke Header
 
- Menambahkan teks semudah membuat`TextFragment` dan menentukan propertinya. Mari tambahkan beberapa teks berwarna ke header kita.
+Menambahkan teks semudah membuat `TextFragment` dan menentukan propertinya. Mari tambahkan beberapa teks berwarna ke header kita.
 
 ```csharp
 // Membuat objek Teks
@@ -98,7 +100,7 @@ txt1.TextState.ForegroundColor = Color.Blue;
 txt1.IsInLineParagraph = true;
 ```
 
- Pada langkah ini, kita membuat`TextFragment` dengan konten "Aspose.Pdf adalah komponen yang Kuat oleh" dan atur warnanya menjadi biru.`IsInLineParagraph` Properti memastikan teks tersebut sebaris, artinya teks akan muncul pada baris yang sama dengan elemen lainnya (seperti gambar dan teks tambahan).
+Pada langkah ini, kita membuat `TextFragment` dengan konten "Aspose.Pdf adalah komponen yang Kuat oleh" dan atur warnanya menjadi biru. `IsInLineParagraph` Properti memastikan teks tersebut sebaris, artinya teks akan muncul pada baris yang sama dengan elemen lainnya (seperti gambar dan teks tambahan).
 
 ## Langkah 6: Masukkan Gambar Sebaris di Header
 
@@ -116,7 +118,7 @@ image1.FixHeight = 20;
 image1.IsInLineParagraph = true;
 ```
 
- Di sini, kita menambahkan gambar ke header dengan membuat`Image` objek, mengatur jalurnya, dan menyesuaikan lebar dan tingginya.`IsInLineParagraph` memastikan gambar selaras dengan teks.
+Di sini, kita menambahkan gambar ke header dengan membuat `Image` objek, mengatur jalurnya, dan menyesuaikan lebar dan tingginya. `IsInLineParagraph` memastikan gambar selaras dengan teks.
 
 ## Langkah 7: Tambahkan Teks Sebaris Tambahan untuk Melengkapi Header
 
@@ -131,18 +133,18 @@ header.Paragraphs.Add(image1);
 header.Paragraphs.Add(txt2);
 ```
 
- Pada bagian ini, kita membuat yang lain`TextFragment` dengan konten "Pty Ltd." dan atur warnanya menjadi merah marun. Baik fragmen teks maupun gambar ditambahkan ke header.
+Pada bagian ini, kita membuat yang lain `TextFragment` dengan konten "Pty Ltd." dan atur warnanya menjadi merah marun. Baik fragmen teks maupun gambar ditambahkan ke header.
 
 ## Langkah 8: Simpan PDF
 
 Setelah Anda mengatur header, waktunya menyimpan PDF.
 
 ```csharp
-// Simpan PDFnya
+// Simpan PDF-nya
 pdf1.Save(dataDir + "ImageAndPageNumberInHeaderFooter_UsingInlineParagraph_out.pdf");
 ```
 
- Itu`Save` metode menulis berkas PDF final ke lokasi yang ditentukan.
+Itu `Save` metode menulis berkas PDF final ke lokasi yang ditentukan.
 
 ## Kesimpulan
 
@@ -151,22 +153,24 @@ Selamat! Anda telah berhasil menambahkan gambar dan teks ke header dokumen PDF m
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menambahkan nomor halaman pada header juga?
- Ya! Anda dapat dengan mudah menambahkan nomor halaman dengan menggunakan`TextFragment` kelas dan memformatnya sesuai kebutuhan. Cukup masukkan ke bagian header sebagai konten sebaris.
+Ya! Anda dapat dengan mudah menambahkan nomor halaman dengan menggunakan `TextFragment` kelas dan memformatnya sesuai kebutuhan. Cukup masukkan ke bagian header sebagai konten sebaris.
 
 ### Bagaimana cara mengatur gambar latar belakang di header?
- Anda dapat menggunakan`BackgroundImage` milik`HeaderFooter` kelas untuk menetapkan gambar latar belakang. Namun, ini bukan konten sebaris, dan akan menutupi seluruh area tajuk.
+Anda dapat menggunakan `BackgroundImage` milik `HeaderFooter` kelas untuk menetapkan gambar latar belakang. Namun, ini bukan konten sebaris, dan akan mencakup seluruh area tajuk.
 
 ### Apakah mungkin untuk menggunakan format gambar lain selain JPEG?
 Tentu saja! Aspose.PDF mendukung berbagai format gambar seperti PNG, BMP, dan GIF.
 
 ### Bisakah saya menyesuaikan font teks di header?
- Ya, Anda bisa menggunakan`TextState`objek untuk mengubah font, ukuran, dan gaya teks.
+Ya, Anda bisa menggunakan `TextState` objek untuk mengubah font, ukuran, dan gaya teks.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF untuk .NET?
- Ya, Aspose.PDF memerlukan lisensi untuk penggunaan produksi, tetapi Anda dapat memulai dengan[uji coba gratis di sini](https://releases.aspose.com/).
+Ya, Aspose.PDF memerlukan lisensi untuk penggunaan produksi, tetapi Anda dapat memulai dengan [uji coba gratis di sini](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

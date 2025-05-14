@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak mevcut PDF belgesine tablo ekleme
-linktitle: Java kullanarak mevcut PDF belgesine tablo ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java ve Java için Aspose.PDF kullanarak mevcut PDF belgelerine tablo eklemeyi öğrenin. Kod örnekleriyle adım adım kılavuz.
-weight: 10
-url: /tr/java/pdf-tables/add-table-in-existing-pdf-document-using-java/
+"description": "Java ve Java için Aspose.PDF kullanarak mevcut PDF belgelerine tablo eklemeyi öğrenin. Kod örnekleriyle adım adım kılavuz."
+"linktitle": "Java kullanarak mevcut PDF belgesine tablo ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak mevcut PDF belgesine tablo ekleme"
+"url": "/tr/java/pdf-tables/add-table-in-existing-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak mevcut PDF belgesine tablo ekleme
@@ -24,7 +26,7 @@ Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 - Java Geliştirme Kiti (JDK) kuruldu.
 - IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE).
--  Java kütüphanesi için Aspose.PDF'i buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF'i buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Ortamın Kurulması
 
@@ -33,7 +35,7 @@ Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 ## Bağımlılıklar Ekleme
 
- Projenizde`pom.xml` (Maven kullanıyorsanız) veya build.gradle dosyasına (Gradle kullanıyorsanız), aşağıdaki bağımlılığı ekleyin:
+Projenizde `pom.xml` (Maven kullanıyorsanız) veya build.gradle dosyasına (Gradle kullanıyorsanız), aşağıdaki bağımlılığı ekleyin:
 
 ```xml
 <dependencies>
@@ -45,7 +47,7 @@ Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 </dependencies>
 ```
 
- Yer değiştirmek`latest_version` İndirdiğiniz Aspose.PDF kütüphanesinin gerçek versiyonuyla.
+Yer değiştirmek `latest_version` İndirdiğiniz Aspose.PDF kütüphanesinin gerçek versiyonuyla.
 
 ## Bir Tablo Oluşturma
 
@@ -125,7 +127,7 @@ Bu eğitimde, Java ve Aspose.PDF for Java kütüphanesini kullanarak mevcut bir 
 
 ### Java için Aspose.PDF'yi nasıl kurabilirim?
 
- Java için Aspose.PDF'yi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/). Web sitelerinde verilen kurulum talimatlarını izleyin.
+Java için Aspose.PDF'yi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/). Web sitelerinde verilen kurulum talimatlarını izleyin.
 
 ### Tablo hücrelerine resim ekleyebilir miyim?
 
@@ -137,14 +139,16 @@ Evet, Aspose.PDF for Java, PDF 1.5 ve üzeri dahil olmak üzere farklı PDF sür
 
 ### Tablo hücreleri için özel kenarlıklar nasıl ayarlarım?
 
- Hücre kenarlıklarını ayarlayarak özelleştirebilirsiniz.`BorderInfo` özellikleri. Ayrıntılı örnekler için Aspose.PDF belgelerine bakın.
+Hücre kenarlıklarını ayarlayarak özelleştirebilirsiniz. `BorderInfo` özellikleri. Ayrıntılı örnekler için Aspose.PDF belgelerine bakın.
 
 ### PDF belgesinde var olan tablolardan veri çıkarabilir miyim?
 
 Evet, Java için Aspose.PDF'yi kullanarak PDF belgesindeki mevcut tablolardan veri çıkarabilirsiniz. Çıkarma yöntemleri ve örnekler için belgelere bakın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

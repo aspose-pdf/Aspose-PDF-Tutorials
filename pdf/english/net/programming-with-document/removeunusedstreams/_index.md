@@ -8,7 +8,9 @@ url: /net/programming-with-document/removeunusedstreams/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Unused Streams In PDF File
@@ -118,6 +120,7 @@ You can easily request a [temporary license](https://purchase.aspose.com/tempora
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

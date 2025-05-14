@@ -1,14 +1,16 @@
 ---
-title: Atur Info File Dalam File PDF
-linktitle: Atur Info File Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengatur info file dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan PDF Anda dengan metadata dengan mudah.
-weight: 310
-url: /id/net/programming-with-document/setfileinfo/
+"description": "Pelajari cara mengatur info file dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan PDF Anda dengan metadata dengan mudah."
+"linktitle": "Atur Info File Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Atur Info File Dalam File PDF"
+"url": "/id/net/programming-with-document/setfileinfo/"
+"weight": 310
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Info File Dalam File PDF
@@ -23,11 +25,11 @@ Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sinilah Anda akan menulis dan menjalankan kode .NET Anda.
    
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Anda bisa mendapatkannya dari[Halaman Unduhan Aspose](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Anda bisa mendapatkannya dari [Halaman Unduhan Aspose](https://releases.aspose.com/pdf/net/).
 
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode yang akan kita gunakan.
 
-4.  File PDF: Siapkan contoh file PDF yang ingin Anda ubah. Untuk tutorial ini, kami akan menyebutnya sebagai`SetFileInfo.pdf`.
+4. File PDF: Siapkan contoh file PDF yang ingin Anda ubah. Untuk tutorial ini, kami akan menyebutnya sebagai `SetFileInfo.pdf`.
 
 Setelah Anda menyiapkan semuanya itu, kita siap untuk masuk ke kodenya!
 
@@ -52,18 +54,18 @@ Pertama-tama, Anda perlu menentukan direktori tempat file PDF Anda berada. Ini p
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Penjelasan: Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder yang berisi`SetFileInfo.pdf`Ini memberi tahu program Anda di mana mencari berkas PDF.
+Penjelasan: Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder yang berisi `SetFileInfo.pdf`Ini memberi tahu program Anda di mana mencari berkas PDF.
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya, mari kita buka dokumen PDF yang ingin Anda ubah. Ini dilakukan dengan menggunakan`Document` kelas dari pustaka Aspose.PDF.
+Selanjutnya, mari kita buka dokumen PDF yang ingin Anda ubah. Ini dilakukan dengan menggunakan `Document` kelas dari pustaka Aspose.PDF.
 
 ```csharp
 // Buka dokumen
 Document pdfDocument = new Document(dataDir + "SetFileInfo.pdf");
 ```
 
- Penjelasan: Di sini, kita membuat instance baru dari`Document`class dan berikan path file PDF. Ini akan memuat dokumen ke dalam memori, siap untuk diedit.
+Penjelasan: Di sini, kita membuat instance baru dari `Document` class dan berikan path file PDF. Ini akan memuat dokumen ke dalam memori, siap untuk diedit.
 
 ## Langkah 3: Buat Objek Info Dokumen
 
@@ -74,11 +76,11 @@ Sekarang setelah dokumen kita terbuka, kita perlu membuat objek yang akan menamp
 DocumentInfo docInfo = new DocumentInfo(pdfDocument);
 ```
 
- Penjelasan:`DocumentInfo` Kelas ini memungkinkan kita untuk mengatur berbagai properti metadata untuk PDF. Objek ini akan digunakan untuk menyimpan informasi seperti penulis, tanggal pembuatan, dan lainnya.
+Penjelasan: `DocumentInfo` Kelas ini memungkinkan kita untuk mengatur berbagai properti metadata untuk PDF. Objek ini akan digunakan untuk menyimpan informasi seperti penulis, tanggal pembuatan, dan lainnya.
 
 ## Langkah 4: Tetapkan Metadata Dokumen
 
- Dengan`DocumentInfo` objek sudah siap, saatnya untuk mengisinya dengan metadata yang relevan. Di sinilah Anda dapat menentukan penulis, tanggal pembuatan, kata kunci, tanggal modifikasi, subjek, dan judul dokumen.
+Dengan `DocumentInfo` objek sudah siap, saatnya untuk mengisinya dengan metadata yang relevan. Di sinilah Anda dapat menentukan penulis, tanggal pembuatan, kata kunci, tanggal modifikasi, subjek, dan judul dokumen.
 
 ```csharp
 docInfo.Author = "Aspose";
@@ -89,7 +91,7 @@ docInfo.Subject = "PDF Information";
 docInfo.Title = "Setting PDF Document Information";
 ```
 
- Penjelasan: Setiap baris menentukan properti tertentu dari dokumen. Misalnya,`docInfo.Author` menetapkan nama penulis, sementara`docInfo.CreationDate` mengatur tanggal dokumen dibuat. Anda dapat menyesuaikan nilai ini sesuai kebutuhan.
+Penjelasan: Setiap baris menentukan properti tertentu dari dokumen. Misalnya, `docInfo.Author` menetapkan nama penulis, sementara `docInfo.CreationDate` mengatur tanggal dokumen dibuat. Anda dapat menyesuaikan nilai ini sesuai kebutuhan.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -101,7 +103,7 @@ dataDir = dataDir + "SetFileInfo_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Penjelasan: Di sini, kami menambahkan`_out.pdf` ke nama file asli untuk membuat file baru untuk dokumen yang dimodifikasi.`Save` metode kemudian menuliskan perubahan pada berkas baru ini.
+Penjelasan: Di sini, kami menambahkan `_out.pdf` ke nama file asli untuk membuat file baru untuk dokumen yang dimodifikasi. `Save` metode kemudian menuliskan perubahan pada berkas baru ini.
 
 ## Langkah 6: Konfirmasikan Perubahan
 
@@ -115,7 +117,7 @@ Penjelasan: Baris ini menampilkan pesan yang menunjukkan bahwa file telah berhas
 
 ## Kesimpulan
 
-Menetapkan info file dalam dokumen PDF menggunakan Aspose.PDF untuk .NET merupakan proses mudah yang dapat meningkatkan kegunaan PDF Anda. Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah menambahkan metadata seperti penulis, tanggal pembuatan, dan lainnya, sehingga dokumen Anda menjadi lebih informatif dan profesional. Baik Anda sedang mengembangkan aplikasi yang menghasilkan PDF atau hanya perlu mengelola dokumen Anda dengan lebih baik, Aspose.PDF menyediakan alat yang Anda butuhkan untuk menyelesaikan pekerjaan secara efisien.
+Menetapkan info file dalam dokumen PDF menggunakan Aspose.PDF untuk .NET adalah proses mudah yang dapat meningkatkan kegunaan PDF Anda. Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah menambahkan metadata seperti penulis, tanggal pembuatan, dan lainnya, sehingga dokumen Anda lebih informatif dan profesional. Baik Anda sedang mengembangkan aplikasi yang menghasilkan PDF atau hanya perlu mengelola dokumen Anda dengan lebih baik, Aspose.PDF menyediakan alat yang Anda butuhkan untuk menyelesaikan pekerjaan secara efisien.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -123,19 +125,21 @@ Menetapkan info file dalam dokumen PDF menggunakan Aspose.PDF untuk .NET merupak
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Kunjungi[Halaman uji coba gratis](https://releases.aspose.com/) untuk informasi lebih lanjut.
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Kunjungi [Halaman uji coba gratis](https://releases.aspose.com/) untuk informasi lebih lanjut.
 
 ### Di mana saya dapat menemukan dokumentasinya?
- Dokumentasi lengkap untuk Aspose.PDF dapat ditemukan[Di Sini](https://reference.aspose.com/pdf/net/).
+Dokumentasi lengkap untuk Aspose.PDF dapat ditemukan [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara membeli Aspose.PDF?
- Anda dapat membeli lisensi untuk Aspose.PDF melalui[halaman pembelian](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi untuk Aspose.PDF melalui [halaman pembelian](https://purchase.aspose.com/buy).
 
 ### Bagaimana jika saya butuh dukungan?
-Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

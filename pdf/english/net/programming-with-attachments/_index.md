@@ -7,7 +7,9 @@ description: Learn how to manipulate attachments in PDF documents, including add
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Attachments
@@ -29,6 +31,7 @@ These tutorials will guide you through the different steps to manipulate attachm
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sprawdź poprawność pliku PDF
-linktitle: Sprawdź poprawność pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak sprawdzić poprawność pliku PDF za pomocą Aspose.PDF dla .NET. Sprawdź jego zgodność ze standardami i wygeneruj raport walidacyjny.
-weight: 240
-url: /pl/net/programming-with-tagged-pdf/validate-pdf/
+"description": "Dowiedz się, jak sprawdzić poprawność pliku PDF za pomocą Aspose.PDF dla .NET. Sprawdź jego zgodność ze standardami i wygeneruj raport z walidacji."
+"linktitle": "Sprawdź poprawność pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Sprawdź poprawność pliku PDF"
+"url": "/pl/net/programming-with-tagged-pdf/validate-pdf/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sprawdź poprawność pliku PDF
@@ -22,7 +24,7 @@ dzisiejszym cyfrowym krajobrazie pliki PDF są jednym z najbardziej powszechnych
 Zanim przejdziemy do szczegółów weryfikacji plików PDF, musisz mieć kilka rzeczy gotowych. Oto lista kontrolna:
 
 1. Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowana najnowsza wersja programu Visual Studio, ponieważ będziemy tutaj pisać kod .NET.
-2.  Aspose.PDF dla biblioteki .NET: Będziesz potrzebować biblioteki Aspose.PDF. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/pdf/net/)Alternatywnie, możesz uzyskać tymczasową licencję, jeśli wolisz przetestować bibliotekę bez żadnych ograniczeń, dostępną[Tutaj](https://purchase.aspose.com/temporary-license/).
+2. Aspose.PDF dla biblioteki .NET: Będziesz potrzebować biblioteki Aspose.PDF. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/pdf/net/)Alternatywnie, możesz uzyskać tymczasową licencję, jeśli wolisz przetestować bibliotekę bez żadnych ograniczeń, dostępną [Tutaj](https://purchase.aspose.com/temporary-license/).
 3. Podstawowa wiedza z zakresu języka C#: Znajomość programowania w języku C# i umiejętność pracy z bibliotekami będą dodatkowymi atutami.
 4. Plik PDF do walidacji: Przygotuj plik PDF do testowania. W naszym przykładzie użyjemy pliku o nazwie „StructureElements.pdf”.
 
@@ -35,7 +37,7 @@ Aby w pełni wykorzystać moc Aspose.PDF, musimy uwzględnić odpowiednie przest
 ### Utwórz nowy projekt C#
 
 1. Otwórz program Visual Studio.
-2. Kliknij „Utwórz nowy projekt” i wybierz z dostępnych opcji „Aplikacja konsolowa (.NET Framework)”.
+2. Kliknij „Utwórz nowy projekt” i wybierz z opcji „Aplikacja konsolowa (.NET Framework)”.
 3. Kliknij „Dalej”, nadaj nazwę swojemu projektowi (np. PDFValidator) i kliknij „Utwórz”.
 
 ### Dodaj Aspose.PDF do swojego projektu
@@ -67,7 +69,7 @@ Najpierw musimy utworzyć ciąg wskazujący na katalog, w którym znajduje się 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Wyjaśnienie: Zamień`YOUR DOCUMENT DIRECTORY` ze ścieżką, w której zapisałeś „StructureElements.pdf”. Może to być coś takiego`C:\Users\YourName\Documents\`.
+Wyjaśnienie: Zamień `YOUR DOCUMENT DIRECTORY` ze ścieżką, w której zapisałeś „StructureElements.pdf”. Może to być coś takiego `C:\Users\YourName\Documents\`.
 
 ## Krok 2: Zdefiniuj nazwy plików wejściowych i wyjściowych
 
@@ -78,7 +80,7 @@ string inputFileName = dataDir + "StructureElements.pdf";
 string outputLogName = dataDir + "ua-20.xml";
 ```
 
- Wyjaśnienie:`inputFileName` to jest plik PDF, który zweryfikujemy i`outputLogName` tutaj zapiszemy wyniki walidacji w formacie „ua-20.xml”.
+Wyjaśnienie: `inputFileName` to jest plik PDF, który zweryfikujemy i `outputLogName` tutaj zapiszemy wyniki walidacji w formacie „ua-20.xml”.
 
 ## Krok 3: Załaduj dokument PDF
 
@@ -91,7 +93,7 @@ using (var document = new Aspose.Pdf.Document(inputFileName))
 }
 ```
 
- Wyjaśnienie:`using`Oświadczenie to zapewnia, że dokument zostanie prawidłowo usunięty po zakończeniu pracy z nim, co pomaga skutecznie zarządzać pamięcią.
+Wyjaśnienie: `using` Oświadczenie to zapewnia, że dokument zostanie prawidłowo usunięty po zakończeniu pracy z nim, co pomaga skutecznie zarządzać pamięcią.
 
 ## Krok 4: Zweryfikuj dokument PDF
 
@@ -101,7 +103,7 @@ Po załadowaniu dokumentu PDF możemy przeprowadzić walidację względem format
 bool isValid = document.Validate(outputLogName, Aspose.Pdf.PdfFormat.PDF_UA_1);
 ```
 
- Wyjaśnienie: W tym wierszu użyto`Validate` metoda`Document` class. Sprawdza zgodność dokumentu ze standardami PDF/UA-1 (Universal Accessibility). Jeśli struktura PDF jest prawidłowa, zwraca`true`; w przeciwnym razie szczegóły walidacji zostaną zapisane w określonym pliku wyjściowym.
+Wyjaśnienie: W tym wierszu użyto `Validate` metoda `Document` class. Sprawdza zgodność dokumentu ze standardami PDF/UA-1 (Universal Accessibility). Jeśli struktura PDF jest prawidłowa, zwraca `true`; w przeciwnym razie szczegóły walidacji zostaną zapisane w określonym pliku wyjściowym.
 
 ## Krok 5: Sprawdź wyniki walidacji
 
@@ -118,11 +120,11 @@ else
 }
 ```
 
- Wyjaśnienie: Tutaj przekazujemy użytkownikowi informację zwrotną na podstawie wyniku walidacji. Jeśli dokument nie jest prawidłowy, sprawdzanie`ua-20.xml` Plik ujawni problemy, które należy rozwiązać.
+Wyjaśnienie: Tutaj przekazujemy użytkownikowi informację zwrotną na podstawie wyniku walidacji. Jeśli dokument nie jest prawidłowy, sprawdzanie `ua-20.xml` Plik ujawni problemy, które należy rozwiązać.
 
 ## Wniosek
 
-masz to! Właśnie nauczyłeś się, jak sprawdzić poprawność pliku PDF za pomocą Aspose.PDF dla .NET w zaledwie kilku prostych krokach. Ten proces nie tylko pomaga zapewnić, że Twoje pliki PDF spełniają standardy dostępności, ale także gwarantuje, że Twoje dokumenty są w doskonałym stanie dla każdego, kto je czyta. Następnym razem, gdy będziesz przygotowywać plik PDF do dystrybucji, możesz go łatwo sprawdzić, aby zwiększyć jego wiarygodność i dostępność.
+I masz to! Właśnie nauczyłeś się, jak sprawdzić poprawność pliku PDF za pomocą Aspose.PDF dla .NET w zaledwie kilku prostych krokach. Ten proces nie tylko pomaga zapewnić, że Twoje pliki PDF spełniają standardy dostępności, ale także gwarantuje, że Twoje dokumenty są w doskonałym stanie dla każdego, kto je czyta. Następnym razem, gdy będziesz przygotowywać plik PDF do dystrybucji, możesz go łatwo sprawdzić, aby zwiększyć jego wiarygodność i dostępność.
 
 ## Najczęściej zadawane pytania
 
@@ -133,16 +135,18 @@ PDF/UA to skrót od PDF Universal Accessibility, standardu gwarantującego dost�
 Obecny przykład weryfikuje jeden plik PDF na raz. Możesz jednak zmodyfikować swój kod, aby przechodził przez wiele plików w katalogu.
 
 ### Gdzie mogę znaleźć dodatkową dokumentację?  
- Możesz sprawdzić[Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/) aby uzyskać więcej szczegółów na temat zaawansowanych funkcji i funkcjonalności.
+Możesz sprawdzić [Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/) aby uzyskać więcej szczegółów na temat zaawansowanych funkcji i funkcjonalności.
 
 ### Co mam zrobić, jeśli mój plik PDF jest nieprawidłowy?  
 Przejrzyj plik dziennika wyjściowego (`ua-20.xml`) w przypadku konkretnych problemów, a następnie zaktualizuj plik PDF, aby rozwiązać błędy odnotowane w dzienniku.
 
 ### Czy mogę otrzymać wersję próbną Aspose.PDF?  
- Tak! Możesz pobrać bezpłatną wersję próbną z[Strona wydań Aspose](https://releases.aspose.com/).
+Tak! Możesz pobrać bezpłatną wersję próbną z [Strona wydań Aspose](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

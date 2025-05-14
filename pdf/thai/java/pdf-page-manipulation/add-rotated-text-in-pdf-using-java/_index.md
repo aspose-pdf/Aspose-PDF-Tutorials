@@ -1,14 +1,16 @@
 ---
-title: เพิ่มข้อความที่หมุนใน PDF โดยใช้ Java
-linktitle: เพิ่มข้อความที่หมุนใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีแทรกข้อความที่หมุนในเอกสาร PDF โดยใช้ Java ทำตามคำแนะนำทีละขั้นตอนโดยละเอียดนี้พร้อมตัวอย่างโค้ดเพื่อปรับปรุง PDF ของคุณด้วยข้อความที่หมุน
-weight: 14
-url: /th/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/
+"description": "เรียนรู้วิธีแทรกข้อความที่หมุนในเอกสาร PDF โดยใช้ Java ทำตามคำแนะนำทีละขั้นตอนโดยละเอียดนี้พร้อมตัวอย่างโค้ดเพื่อปรับปรุง PDF ของคุณด้วยข้อความที่หมุน"
+"linktitle": "เพิ่มข้อความที่หมุนใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มข้อความที่หมุนใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มข้อความที่หมุนใน PDF โดยใช้ Java
@@ -24,7 +26,7 @@ url: /th/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/
 
 1. สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ในระบบของคุณแล้ว
 
-2.  Aspose.PDF สำหรับ Java: ดาวน์โหลดและรวมไลบรารี Aspose.PDF ไว้ในโปรเจ็กต์ Java ของคุณ คุณสามารถค้นหาลิงก์ดาวน์โหลด[ที่นี่](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF สำหรับ Java: ดาวน์โหลดและรวมไลบรารี Aspose.PDF ไว้ในโปรเจ็กต์ Java ของคุณ คุณสามารถค้นหาลิงก์ดาวน์โหลด [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## ขั้นตอนที่ 1: สร้างเอกสาร PDF ใหม่
 
@@ -40,7 +42,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 ขั้นตอนต่อไป เพิ่มหน้าลงในเอกสาร PDF ที่คุณต้องการแทรกข้อความที่หมุน:
 
 ```java
-//เพิ่มหน้าใหม่ลงในเอกสาร
+// เพิ่มหน้าใหม่ลงในเอกสาร
 com.aspose.pdf.Page page = pdfDocument.getPages().add();
 ```
 
@@ -110,7 +112,7 @@ pdfDocument.save("output.pdf");
    ใช่ คุณสามารถเพิ่มข้อความที่หมุนได้หลาย ๆ ครั้งด้วยมุมที่แตกต่างกันในเอกสาร PDF เดียวกันได้ เพียงทำซ้ำขั้นตอนที่อธิบายไว้ในบทช่วยสอนนี้สำหรับข้อความที่หมุนแต่ละส่วน
 
 ### 2. ฉันจะเปลี่ยนสีของข้อความที่หมุนได้อย่างไร?
-    หากต้องการเปลี่ยนสีข้อความ ให้ใช้`textFragment.getTextState().setForegroundColor` วิธีการและระบุสีในรูปแบบ RGB ตัวอย่างเช่น หากต้องการตั้งค่าสีข้อความเป็นสีแดง ให้ใช้`textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getRed());`.
+   หากต้องการเปลี่ยนสีข้อความ ให้ใช้ `textFragment.getTextState().setForegroundColor` และระบุสีในรูปแบบ RGB ตัวอย่างเช่น หากต้องการตั้งค่าสีข้อความเป็นสีแดง ให้ใช้ `textFragment-getTextState().setForegroundColor(com.aspose.pdf.Color.getRed());`.
 
 ### 3. Aspose.PDF สำหรับ Java เป็นไลบรารี่ฟรีหรือไม่?
    Aspose.PDF สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ที่มีประสิทธิภาพ แต่มีเวอร์ชันทดลองใช้งานฟรีสำหรับการทดสอบและประเมินผล คุณสามารถเลือกตัวเลือกการออกใบอนุญาตที่เหมาะสมได้ ขึ้นอยู่กับข้อกำหนดของโครงการของคุณ
@@ -119,10 +121,12 @@ pdfDocument.save("output.pdf");
    ใช่ คุณสามารถหมุนข้อความได้ 90 องศาเพื่อสร้างข้อความแนวตั้ง เพียงตั้งมุมการหมุนเป็น 90 องศา ข้อความจะปรากฏในแนวตั้งบนหน้า
 
 ### 5. มีไลบรารีอื่นสำหรับทำงานกับ PDF ใน Java หรือไม่
-   ใช่ มีไลบรารีหลายตัว เช่น iText และ PDFBox ที่สามารถจัดการ PDF ใน Java ได้ แต่ละไลบรารีมีคุณลักษณะและความสามารถเฉพาะตัว ดังนั้นควรเลือกไลบรารีที่เหมาะกับความต้องการของโครงการของคุณมากที่สุด
+   ใช่ มีไลบรารีหลายตัว เช่น iText และ PDFBox ที่ใช้สำหรับจัดการ PDF ใน Java แต่ละไลบรารีมีคุณลักษณะและความสามารถเฉพาะตัว ดังนั้นควรเลือกไลบรารีที่เหมาะกับความต้องการของโครงการของคุณมากที่สุด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

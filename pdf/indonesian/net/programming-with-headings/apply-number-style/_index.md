@@ -1,14 +1,16 @@
 ---
-title: Terapkan Gaya Angka Dalam File PDF
-linktitle: Terapkan Gaya Angka Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menerapkan gaya angka yang berbeda (angka Romawi, alfabet) ke judul dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
-weight: 10
-url: /id/net/programming-with-headings/apply-number-style/
+"description": "Pelajari cara menerapkan gaya angka yang berbeda (angka Romawi, alfabet) ke judul dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Terapkan Gaya Angka Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Terapkan Gaya Angka Dalam File PDF"
+"url": "/id/net/programming-with-headings/apply-number-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Terapkan Gaya Angka Dalam File PDF
@@ -21,10 +23,10 @@ Pernahkah Anda merasa perlu menambahkan daftar bernomor cantik ke dokumen PDF An
 
 Sebelum menyelami pengkodean, mari kita bahas apa saja yang Anda perlukan:
 
-1. Aspose.PDF untuk .NET: Unduh versi terbaru Aspose.PDF dari[Di Sini](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Unduh versi terbaru Aspose.PDF dari [Di Sini](https://releases.aspose.com/pdf/net/).
 2. Lingkungan Pengembangan: Pastikan Anda memiliki Visual Studio atau IDE lain yang kompatibel dengan .NET.
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework 4.0 atau yang lebih tinggi.
-4.  Lisensi: Anda dapat menggunakan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/) atau jelajahi[uji coba gratis](https://releases.aspose.com/) pilihan.
+4. Lisensi: Anda dapat menggunakan lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/) atau jelajahi [uji coba gratis](https://releases.aspose.com/) pilihan.
 
 ## Paket Impor
 
@@ -48,7 +50,7 @@ Penjelasan: Pada langkah ini, kami menyiapkan struktur dasar PDF, yang mencakup 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDoc = new Document();
 
-// Mengatur dimensi dan margin halaman
+// Atur dimensi dan margin halaman
 pdfDoc.PageInfo.Width = 612.0;
 pdfDoc.PageInfo.Height = 792.0;
 pdfDoc.PageInfo.Margin = new Aspose.Pdf.MarginInfo();
@@ -165,19 +167,21 @@ Nah, itu dia! Anda telah berhasil menerapkan gaya penomoran—angka Romawi dan a
 Ya, Aspose.PDF untuk .NET memungkinkan Anda mencampur berbagai gaya penomoran seperti angka Romawi, angka Arab, dan penomoran alfabet dalam dokumen yang sama.
 
 ### Bagaimana saya dapat menyesuaikan nomor awal untuk judul?  
- Anda dapat mengatur nomor awal untuk judul apa pun dengan menggunakan`StartNumber` milik.
+Anda dapat mengatur nomor awal untuk judul apa pun dengan menggunakan `StartNumber` milik.
 
 ### Apakah ada cara untuk mengatur ulang urutan penomoran?  
-Ya, Anda dapat mengatur ulang penomoran dengan menyesuaikan`StartNumber` properti untuk setiap judul.
+Ya, Anda dapat mengatur ulang penomoran dengan menyesuaikan `StartNumber` properti untuk setiap judul.
 
 ### Dapatkah saya menerapkan gaya tebal atau miring pada judul selain penomoran?  
- Tentu saja! Anda dapat menyesuaikan gaya judul dengan memodifikasi properti seperti font, ukuran, tebal, dan miring menggunakan`TextState` obyek.
+Tentu saja! Anda dapat menyesuaikan gaya judul dengan memodifikasi properti seperti font, ukuran, tebal, dan miring menggunakan `TextState` obyek.
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.PDF?  
- Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji Aspose.PDF tanpa batasan.
+Anda dapat memperoleh lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji Aspose.PDF tanpa batasan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/pdf-bookmarks/set-bookmark-start-pdf-page/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Bookmark to Start of PDF Page
@@ -108,6 +110,7 @@ You can find more Aspose.PDF for Java tutorials and documentation on the Aspose 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

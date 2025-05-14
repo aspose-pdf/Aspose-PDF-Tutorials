@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasına Metin Kenarlığı Ekle
-linktitle: PDF Dosyasına Metin Kenarlığı Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasına metin kenarlığı eklemeyi öğrenin. PDF belgelerinizi geliştirin.
-weight: 70
-url: /tr/net/programming-with-text/add-text-border/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasına metin kenarlığı eklemeyi öğrenin. PDF belgelerinizi geliştirin."
+"linktitle": "PDF Dosyasına Metin Kenarlığı Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Metin Kenarlığı Ekle"
+"url": "/tr/net/programming-with-text/add-text-border/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Metin Kenarlığı Ekle
@@ -22,11 +24,11 @@ PDF belgeleri oluşturmak ve düzenlemek günümüzün dijital dünyasında olma
 Başlamadan önce, yerinde olması gereken birkaç şey var. Endişelenmeyin, oldukça basit!
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu, kodunuzu yazıp çalıştıracağınız geliştirme ortamınız olacaktır.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan edinebilirsiniz:[Aspose PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/) Eğer önce denemek isterseniz, ayrıca bir tane alabilirsiniz[ücretsiz deneme burada](https://releases.aspose.com/).
-3. Temel C# Bilgisi: C# programlama dilinin temellerini anlamak, örnekleri kolayca takip etmenize yardımcı olacaktır.
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan edinebilirsiniz: [Aspose PDF for .NET indirme sayfası](https://releases.aspose.com/pdf/net/)Eğer önce denemek isterseniz, ayrıca bir tane alabilirsiniz [ücretsiz deneme burada](https://releases.aspose.com/).
+3. Temel C# Bilgisi: C# programlama diline dair temel bir anlayış, örnekleri kolayca takip etmenize yardımcı olacaktır.
 4. .NET Framework: Projenizde .NET Framework'ün yüklü ve ayarlanmış olduğundan emin olun.
 
-Bu ön koşulları sağladıktan sonra kodlamaya başlamaya hazırsınız!
+Bu ön koşullar sağlandığında kodlamaya başlamaya hazırsınız!
 
 ## Paketleri İçe Aktar
 
@@ -52,11 +54,11 @@ Bu ad alanları PDF belgeleri ve metin parçalarıyla etkili bir şekilde çalı
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Yeni belge nesnesi oluştur
+// Yeni belge nesnesi oluştur 
 Document pdfDocument = new Document();
 ```
 
- Bu adımda, PDF dosyamızı kaydetmek istediğimiz dizini belirtiyoruz. Ardından, yeni bir örnek oluşturuyoruz`Document` PDF dokümanımızı temsil eden sınıf.
+Bu adımda, PDF dosyamızı kaydetmek istediğimiz dizini belirtiyoruz. Ardından, yeni bir örnek oluşturuyoruz. `Document` PDF dokümanımızı temsil eden sınıf.
 
 ## Adım 2: Yeni Bir Sayfa Ekleyin
 
@@ -67,7 +69,7 @@ Sonra, belgemize bir sayfa eklememiz gerekiyor. Bunu, metnimizi yerleştireceği
 Page pdfPage = (Page)pdfDocument.Pages.Add();
 ```
 
- Burada şunu diyoruz:`Add()` yöntem üzerinde`Pages` koleksiyonumuz`pdfDocument` nesne. Bu, belgeye yeni bir sayfa ekler ve buna bir referansı şurada saklarız:`pdfPage` değişken.
+Burada şunu çağırıyoruz: `Add()` yöntem üzerinde `Pages` koleksiyonumuz `pdfDocument` nesne. Bu, belgeye yeni bir sayfa ekler ve buna bir referansı şurada saklarız: `pdfPage` değişken.
 
 ## Adım 3: Bir Metin Parçası Oluşturun
 
@@ -79,7 +81,7 @@ TextFragment textFragment = new TextFragment("main text");
 textFragment.Position = new Position(100, 600);
 ```
 
- Bu kodda yeni bir tane oluşturuyoruz`TextFragment` "ana metin" metni olan nesne. Ayrıca sayfadaki konumunu da kullanarak ayarladık`Position` sınıf. (100, 600) koordinatları metnin sayfada nereye yerleştirileceğini belirtir.
+Bu kodda yeni bir tane oluşturuyoruz `TextFragment` "ana metin" metni olan nesne. Ayrıca sayfadaki konumunu da kullanarak ayarladık `Position` sınıf. (100, 600) koordinatları metnin sayfada nereye yerleştirileceğini belirtir.
 
 ## Adım 4: Metin Özelliklerini Ayarlayın
 
@@ -108,14 +110,14 @@ Bu adımda metnimizin etrafına çizmek istediğimiz kenarlığın rengini belir
 
 ## Adım 6: Metin Dikdörtgen Kenarlığını Etkinleştirin
 
- Metnimizin etrafına sınır çizmek için,`DrawTextRectangleBorder` mülk.
+Metnimizin etrafına sınır çizmek için, `DrawTextRectangleBorder` mülk.
 
 ```csharp
 // DrawTextRectangleBorder özelliğinin değerini true olarak ayarlayın
 textFragment.TextState.DrawTextRectangleBorder = true;
 ```
 
- Bu özelliği şu şekilde ayarlayarak:`true`, Aspose.PDF'e, belirtilen vuruş rengine göre metin dikdörtgeninin etrafına kenarlık çizmesini söylüyoruz.
+Bu özelliği şu şekilde ayarlayarak: `true`, Aspose.PDF'e, belirtilen vuruş rengine göre metin dikdörtgeninin etrafına kenarlık çizmesini söylüyoruz.
 
 ## Adım 7: Metin Parçasını Sayfaya Ekleyin
 
@@ -126,7 +128,7 @@ TextBuilder tb = new TextBuilder(pdfPage);
 tb.AppendText(textFragment);
 ```
 
- Burada bir tane yaratıyoruz`TextBuilder` Bizimle ilişkili olan nesne`pdfPage` Daha sonra şunu kullanırız:`AppendText` yöntemimizi eklemek için`textFragment` sayfaya. 
+Burada bir tane yaratıyoruz `TextBuilder` Bizimle ilişkili olan nesne `pdfPage`Daha sonra şunu kullanırız: `AppendText` yöntemimizi eklemek için `textFragment` sayfaya. 
 
 ## Adım 8: Belgeyi Kaydedin
 
@@ -137,11 +139,11 @@ Son olarak, PDF belgemizi belirtilen dizine kaydetmemiz gerekiyor. İşte gerçe
 pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
 ```
 
-Bu adımda şunu çağırıyoruz:`Save` yöntemimiz`pdfDocument` nesne, dosyayı kaydetmek istediğimiz yolu sağlar. Kodu çalıştırdığınızda, belirtilen dizinde metin kenarlığıyla yeni oluşturduğunuz PDF'yi bulmalısınız!
+Bu adımda şunu çağırıyoruz: `Save` yöntemimiz `pdfDocument` nesne, dosyayı kaydetmek istediğimiz yolu sağlar. Kodu çalıştırdığınızda, belirtilen dizinde metin kenarlığıyla yeni oluşturduğunuz PDF'yi bulmalısınız!
 
 ## Çözüm
 
-İşte oldu! Aspose.PDF for .NET kullanarak bir PDF dosyasına başarıyla bir metin kenarlığı eklediniz. Bu basit ama güçlü özellik, PDF belgelerinizin okunabilirliğini ve estetiğini önemli ölçüde artırabilir. İster raporlar, ister broşürler veya başka herhangi bir tür belge oluşturuyor olun, metin biçimlendirmesini nasıl değiştireceğinizi bilmek işinize yarayabilir.
+İşte karşınızda! Aspose.PDF for .NET kullanarak bir PDF dosyasına başarıyla bir metin kenarlığı eklediniz. Bu basit ama güçlü özellik, PDF belgelerinizin okunabilirliğini ve estetiğini önemli ölçüde artırabilir. İster raporlar, ister broşürler veya başka herhangi bir tür belge oluşturuyor olun, metin biçimlendirmesini nasıl değiştireceğinizi bilmek işinize yarayabilir.
 
 ## SSS
 
@@ -149,19 +151,21 @@ Bu adımda şunu çağırıyoruz:`Save` yöntemimiz`pdfDocument` nesne, dosyayı
 Aspose.PDF for .NET, geliştiricilerin .NET çerçevesini kullanarak PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve işlemelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz deneyebilir miyim?
- Evet! Aspose bir teklif sunuyor[ücretsiz deneme](https://releases.aspose.com/) PDF kütüphanesini kullanarak satın alma işlemi yapmadan önce özelliklerini test edebilirsiniz.
+Evet! Aspose bir teklif sunuyor [ücretsiz deneme](https://releases.aspose.com/) PDF kütüphanesini kullanarak satın alma işlemi yapmadan önce özelliklerini test edebilirsiniz.
 
 ### Aspose.PDF for .NET'i nasıl satın alabilirim?
- Aspose.PDF for .NET'i doğrudan şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose.PDF for .NET'i doğrudan şu adresten satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Aspose.PDF için destek mevcut mu?
- Kesinlikle! Ziyaret ederek destek alabilirsiniz.[Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Kesinlikle! Ziyaret ederek destek alabilirsiniz. [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Geçici lisansa ihtiyacım olursa ne olur?
- Aspose bir sağlar[geçici lisans](https://purchase.aspose.com/temporary-license/) Kütüphaneyi sınırlı bir süre için değerlendirmesi gereken geliştiriciler için bir seçenek.
+Aspose bir sağlar [geçici lisans](https://purchase.aspose.com/temporary-license/) Kütüphaneyi sınırlı bir süre için değerlendirmesi gereken geliştiriciler için bir seçenek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

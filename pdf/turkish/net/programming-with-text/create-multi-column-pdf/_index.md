@@ -1,14 +1,16 @@
 ---
-title: Çok Sütunlu PDF Oluştur
-linktitle: Çok Sütunlu PDF Oluştur
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak çok sütunlu PDF'lerin nasıl oluşturulacağını öğrenin. Kod örnekleri ve ayrıntılı açıklamalar içeren adım adım bir kılavuz. Profesyoneller için mükemmel.
-weight: 110
-url: /tr/net/programming-with-text/create-multi-column-pdf/
+"description": ".NET için Aspose.PDF kullanarak çok sütunlu PDF'lerin nasıl oluşturulacağını öğrenin. Kod örnekleri ve ayrıntılı açıklamalar içeren adım adım bir kılavuz. Profesyoneller için mükemmel."
+"linktitle": "Çok Sütunlu PDF Oluştur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Çok Sütunlu PDF Oluştur"
+"url": "/tr/net/programming-with-text/create-multi-column-pdf/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çok Sütunlu PDF Oluştur
@@ -21,11 +23,11 @@ url: /tr/net/programming-with-text/create-multi-column-pdf/
 
 Koda geçmeden önce, sorunsuz bir şekilde ilerleyebilmeniz için birkaç şeye ihtiyacınız olacak:
 
-1.  .NET için Aspose.PDF: Bu kütüphanenin kurulu olması gerekir. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Bu kütüphanenin kurulu olması gerekir. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 2. Geliştirme Ortamı: C# kodu yazmak ve çalıştırmak için Visual Studio gibi tercih ettiğiniz IDE'yi kurun.
 3. .NET Framework: Uyumlu bir .NET sürümünün yüklü olduğundan emin olun.
 4. C# Temel Anlayışı: C# sözdizimine aşinalık faydalı olacaktır, ancak her adımı ayrıntılı olarak açıklayacağız.
-5.  Geçici Lisans: Aspose.PDF filigran veya sınırlamalardan kaçınmak için bir lisans gerektirir. Bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) eğer gerekirse.
+5. Geçici Lisans: Aspose.PDF filigran veya sınırlamalardan kaçınmak için bir lisans gerektirir. Bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) eğer gerekirse.
 
 ## Paketleri İçe Aktar
 
@@ -61,7 +63,7 @@ doc.PageInfo.Margin.Right = 40;
 Page page = doc.Pages.Add();
 ```
 
- Burada bir tane oluşturduk`Document`nesneyi seçin ve sol ve sağ kenar boşluklarını 40 birime ayarlayın. Sonra, çok sütunlu düzenimizi tutacak olan bu belgeye yeni bir sayfa ekledik.
+Burada bir tane oluşturduk `Document` nesneyi seçin ve sol ve sağ kenar boşluklarını 40 birime ayarlayın. Sonra, çok sütunlu düzenimizi tutacak olan bu belgeye yeni bir sayfa ekledik.
 
 ## Adım 2: Bölümleri Ayırmak İçin Bir Çizgi Ekleme
 
@@ -82,7 +84,7 @@ Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
 graph1.Shapes.Add(l1);
 ```
 
- Burada, yatay bir çizgi oluşturuyoruz`Graph` Ve`Line` sınıflar. Bu satır sayfanın`Paragraphs` Tüm görsel öğeleri barındıran koleksiyon.
+Burada, yatay bir çizgi oluşturuyoruz `Graph` Ve `Line` sınıflar. Bu satır sayfanın `Paragraphs` Tüm görsel öğeleri barındıran koleksiyon.
 
 ## Adım 3: Biçimlendirme ile HTML Metni Ekleme
 
@@ -101,7 +103,7 @@ HtmlFragment heading_text = new HtmlFragment(s);
 page.Paragraphs.Add(heading_text);
 ```
 
- Kullanımı`HtmlFragment`sınıf, yazı tipi boyutu, stil ve kalın metin gibi HTML etiketleri içeren biçimlendirilmiş metin ekleyebiliriz. Bu, PDF içeriğinizin görünümünü geliştirmek için yararlıdır.
+Kullanımı `HtmlFragment` sınıf, yazı tipi boyutu, stil ve kalın metin gibi HTML etiketleri içeren biçimlendirilmiş metin ekleyebiliriz. Bu, PDF içeriğinizin görünümünü geliştirmek için yararlıdır.
 
 ## Adım 4: Çok Sütunlu Bir Düzen Oluşturma
 
@@ -124,7 +126,7 @@ Burada, iki sütun içerecek bir yüzen kutu oluşturuyoruz. Sütunlar arasında
 
 ## Adım 5: Sütunlara Metin Ekleme
 
- Şimdi sütunları biraz metin içeriğiyle dolduralım. Farklı ekleyebilirsiniz`TextFragment` her sütuna nesneler.
+Şimdi sütunları biraz metin içeriğiyle dolduralım. Farklı ekleyebilirsiniz `TextFragment` her sütuna nesneler.
 
 ```csharp
 // İlk metin parçasını oluşturun ve biçimlendirin
@@ -140,12 +142,12 @@ Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2);
 graph2.Shapes.Add(l2);
 box.Paragraphs.Add(graph2);
 
-//İkinci bir metin parçası oluşturun ve ekleyin
+// İkinci bir metin parçası oluşturun ve ekleyin
 TextFragment text2 = new TextFragment("Lorem ipsum dolor sit amet, consectetur adipiscing elit...");
 box.Paragraphs.Add(text2);
 ```
 
- Bir tane ekliyoruz`TextFragment` yüzen kutuya, ardından başka bir yatay çizgiye. İkinci`TextFragment` ikinci sütunu dolduracak daha fazla metin içerir. Bu parçalar, PDF'ye farklı biçimlendirme seçenekleriyle çeşitli metin öğeleri eklememize olanak tanır.
+Bir tane ekliyoruz `TextFragment` yüzen kutuya, ardından başka bir yatay çizgiye. İkinci `TextFragment` ikinci sütunu dolduracak daha fazla metin içerir. Bu parçalar, PDF'ye farklı biçimlendirme seçenekleriyle çeşitli metin öğeleri eklememize olanak tanır.
 
 ## Adım 6: PDF'yi kaydetme
 
@@ -171,22 +173,24 @@ Bu basit adımları izleyerek, Aspose.PDF for .NET kullanarak profesyonel görü
 ## SSS
 
 ### PDF'de ikiden fazla sütun oluşturabilir miyim?
- Evet, ihtiyacınız kadar sütun oluşturabilirsiniz. Basitçe`ColumnCount` İstediğiniz sütun sayısına uyacak özelliği.
+Evet, ihtiyacınız olduğu kadar sütun oluşturabilirsiniz. Basitçe `ColumnCount` İstediğiniz sütun sayısına uyacak özelliği.
 
 ### Her sütunun genişliğini nasıl değiştirebilirim?
- Şunu değiştirebilirsiniz:`ColumnWidths` her sütun için farklı genişlikler belirtmek için özellik. Bu özellik boşluklarla ayrılmış bir değer dizesini kabul eder.
+Şunu değiştirebilirsiniz: `ColumnWidths` her sütun için farklı genişlikler belirtmek için özellik. Bu özellik boşluklarla ayrılmış bir değer dizesini kabul eder.
 
 ### Sütunlara resim eklemek mümkün mü?
- Kesinlikle! Resimleri kullanarak ekleyebilirsiniz.`Image` sınıfına ekleyin ve bunları yüzen kutuya veya PDF'nizdeki herhangi bir düzen öğesine ekleyin.
+Kesinlikle! Resimleri kullanarak ekleyebilirsiniz. `Image` sınıfına ekleyin ve bunları yüzen kutuya veya PDF'nizdeki herhangi bir düzen öğesine ekleyin.
 
 ### Sütunlardaki metni HTML etiketleriyle biçimlendirebilir miyim?
- Evet, HTML etiketlerini kullanabilirsiniz`HtmlFragment` Metninizi biçimlendirmek için nesneler. Bu, yazı tipleri, boyutlar, renkler ve daha fazlasını eklemeyi içerir.
+Evet, HTML etiketlerini kullanabilirsiniz `HtmlFragment` Metninizi biçimlendirmek için nesneler. Bu, yazı tipleri, boyutlar, renkler ve daha fazlasını eklemeyi içerir.
 
 ### Aynı sütun düzenine sahip daha fazla sayfa nasıl ekleyebilirim?
- Kullanarak ek sayfalar ekleyebilirsiniz.`doc.Pages.Add()` ve her sayfa için sütun ve içerik ekleme sürecini tekrarlayın.
+Kullanarak ek sayfalar ekleyebilirsiniz. `doc.Pages.Add()` ve her sayfa için sütun ve içerik ekleme sürecini tekrarlayın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

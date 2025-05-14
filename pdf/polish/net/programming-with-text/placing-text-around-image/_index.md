@@ -1,14 +1,16 @@
 ---
-title: Umieszczanie tekstu wokół obrazu w pliku PDF
-linktitle: Umieszczanie tekstu wokół obrazu w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak umieszczać tekst wokół obrazów w plikach PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby tworzyć profesjonalne pliki PDF z obrazami i tekstem obok siebie.
-weight: 260
-url: /pl/net/programming-with-text/placing-text-around-image/
+"description": "Dowiedz się, jak umieszczać tekst wokół obrazów w plikach PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby tworzyć profesjonalne pliki PDF z obrazami i tekstem obok siebie."
+"linktitle": "Umieszczanie tekstu wokół obrazu w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Umieszczanie tekstu wokół obrazu w pliku PDF"
+"url": "/pl/net/programming-with-text/placing-text-around-image/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Umieszczanie tekstu wokół obrazu w pliku PDF
@@ -21,12 +23,12 @@ Czy kiedykolwiek próbowałeś umieścić tekst wokół obrazu w pliku PDF, ale 
 
 Zanim przejdziemy do kodu, upewnijmy się, że wszystko jest skonfigurowane. Oto, czego będziesz potrzebować:
 
--  Aspose.PDF dla .NET: Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Upewnij się, że masz zainstalowaną najnowszą wersję, aby wszystko przebiegało bezproblemowo.
-- .NET Framework: W tym przykładzie użyto platformy .NET, dlatego upewnij się, że Twoje środowisko jest przygotowane pod kątem tworzenia oprogramowania w tej platformie.
--  Licencja tymczasowa: Możesz poprosić o licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) jeśli oceniasz produkt.
+- .NET Framework: W tym przykładzie użyto platformy .NET, dlatego upewnij się, że Twoje środowisko jest przygotowane pod kątem tworzenia oprogramowania w tej technologii.
+- Licencja tymczasowa: Możesz poprosić o licencję tymczasową [Tutaj](https://purchase.aspose.com/temporary-license/) jeśli oceniasz produkt.
 
-Jeśli jeszcze nie skonfigurowałeś Aspose.PDF dla .NET, postępuj zgodnie z instrukcjami instalacji w[dokumentacja](https://reference.aspose.com/pdf/net/).
+Jeśli jeszcze nie skonfigurowałeś Aspose.PDF dla .NET, postępuj zgodnie z instrukcjami instalacji w [dokumentacja](https://reference.aspose.com/pdf/net/).
 
 ## Importuj przestrzenie nazw
 
@@ -39,13 +41,13 @@ using System.Linq;
 using System.Text;
 ```
 
- Te przestrzenie nazw są niezbędne, ponieważ zapewniają dostęp do klas takich jak`Document`, `Page`, `Image` , I`HtmlFragment`, którego użyjemy do utworzenia i edycji pliku PDF.
+Te przestrzenie nazw są niezbędne, ponieważ zapewniają dostęp do klas takich jak `Document`, `Page`, `Image`, I `HtmlFragment`, którego użyjemy do utworzenia i edycji pliku PDF.
 
 Teraz, gdy już przygotowaliśmy scenę, omówmy, jak umieścić tekst wokół obrazu w pliku PDF za pomocą Aspose.PDF dla .NET. Przeprowadzimy Cię przez to krok po kroku.
 
 ## Krok 1: Utwórz obiekt dokumentu
 
- Najpierw musisz utworzyć dokument PDF. W Aspose.PDF odbywa się to poprzez utworzenie instancji`Document` obiekt. Ten obiekt będzie służył jako podstawa dla całej zawartości, którą dodamy.
+Najpierw musisz utworzyć dokument PDF. W Aspose.PDF odbywa się to poprzez utworzenie instancji `Document` obiekt. Ten obiekt będzie służył jako podstawa dla całej zawartości, którą dodamy.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -184,16 +186,18 @@ Tak, wystarczy dodać więcej wierszy i komórek do tabeli, aby uwzględnić dod
 Oczywiście! Możesz zmodyfikować wyrównanie obrazu, dostosowując właściwości wyrównania komórki.
 
 ### Jak mogę dodatkowo stylizować tekst?
- Możesz używać znaczników HTML w`HtmlFragment` obiekt umożliwiający zastosowanie różnych stylów, takich jak pogrubienie, kursywa lub różne czcionki.
+Możesz używać znaczników HTML w `HtmlFragment` obiekt umożliwiający zastosowanie różnych stylów, takich jak pogrubienie, kursywa lub różne czcionki.
 
 ### Czy mogę kontrolować odstęp między tekstem i obrazem?
- Tak, używając`MarginInfo` obiekt umożliwia kontrolowanie odstępu i marginesów pomiędzy elementami.
+Tak, używając `MarginInfo` obiekt umożliwia kontrolowanie odstępu i marginesów pomiędzy elementami.
 
-### Czy można dodać linki do tekstu?
- Zdecydowanie! Możesz osadzać hiperłącza w tekście sformatowanym w HTML, używając`<a>` etykietka.
+### Czy można dodawać linki do tekstu?
+Zdecydowanie! Możesz osadzać hiperłącza w tekście sformatowanym w HTML, używając `<a>` etykietka.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

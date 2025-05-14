@@ -1,14 +1,16 @@
 ---
-title: Xác định ngắt dòng trong tệp PDF
-linktitle: Xác định ngắt dòng trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xác định ngắt dòng trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước dành cho nhà phát triển.
-weight: 130
-url: /vi/net/programming-with-text/determine-line-break/
+"description": "Tìm hiểu cách xác định ngắt dòng trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước dành cho nhà phát triển."
+"linktitle": "Xác định ngắt dòng trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xác định ngắt dòng trong tệp PDF"
+"url": "/vi/net/programming-with-text/determine-line-break/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xác định ngắt dòng trong tệp PDF
@@ -22,7 +24,7 @@ Việc tạo tài liệu PDF thường liên quan đến nhiều định dạng 
 Trước khi đi sâu vào mã, hãy đảm bảo bạn đã thiết lập những điều cần thiết để thực hiện theo:
 
 - Môi trường phát triển: Đảm bảo bạn có môi trường phát triển .NET. Có thể là bất kỳ thứ gì từ Visual Studio đến Visual Studio Code.
--  Thư viện Aspose.PDF: Bạn sẽ cần thư viện Aspose.PDF. Nếu bạn chưa có, bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/).
+- Thư viện Aspose.PDF: Bạn sẽ cần thư viện Aspose.PDF. Nếu bạn chưa có, bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/).
 - Kiến thức cơ bản về C#: Sự quen thuộc với C# và các khái niệm lập trình hướng đối tượng sẽ giúp bạn hiểu các ví dụ tốt hơn.
 
 ## Nhập gói
@@ -48,11 +50,11 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Trong mã này, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Thao tác này sẽ tạo một tệp PDF trống và thêm một trang vào đó.
+Trong mã này, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Thao tác này sẽ tạo một tệp PDF trống và thêm một trang vào đó.
 
 ## Bước 2: Thêm văn bản vào tài liệu
 
- Tiếp theo, chúng ta sẽ tạo ra một`TextFragment` và thêm nó vào PDF của chúng tôi. Đây là cách chúng tôi thực hiện:
+Tiếp theo, chúng ta sẽ tạo ra một `TextFragment` và thêm nó vào PDF của chúng tôi. Đây là cách chúng tôi thực hiện:
 
 ```csharp
 for (int i = 0; i < 4; i++)
@@ -63,7 +65,7 @@ for (int i = 0; i < 4; i++)
 }
 ```
 
- Trong đoạn trích này, chúng tôi sẽ thêm cùng một văn bản nhiều lần (bốn lần) vào trang của chúng tôi. Chuỗi ký tự đặc biệt`\r\n` chỉ ra vị trí ngắt dòng trong văn bản. Bạn có thể thay đổi văn bản thành bất kỳ nội dung nào bạn muốn cho trường hợp sử dụng cụ thể của mình.
+Trong đoạn trích này, chúng tôi sẽ thêm cùng một văn bản nhiều lần (bốn lần) vào trang của chúng tôi. Chuỗi ký tự đặc biệt `\r\n` chỉ ra vị trí ngắt dòng trong văn bản. Bạn có thể thay đổi văn bản thành bất kỳ nội dung nào bạn muốn cho trường hợp sử dụng cụ thể của mình.
 
 ## Bước 3: Lưu tài liệu
 
@@ -73,7 +75,7 @@ Sau khi thêm văn bản, bạn cần lưu tài liệu. Thực hiện như sau:
 doc.Save(dataDir + "DetermineLineBreak_out.pdf");
 ```
 
- Dòng này lưu tài liệu của bạn với tên`DetermineLineBreak_out.pdf` trong thư mục được chỉ định.
+Dòng này lưu tài liệu của bạn với tên `DetermineLineBreak_out.pdf` trong thư mục được chỉ định.
 
 ## Bước 4: Nhận thông báo khi ngắt dòng
 
@@ -84,7 +86,7 @@ string notifications = doc.Pages[1].GetNotifications();
 File.WriteAllText(dataDir + "notifications_out.txt", notifications);
 ```
 
- Đoạn mã này trích xuất thông báo từ trang đầu tiên và ghi chúng vào tệp văn bản có tên là`notifications_out.txt`. Tệp này sẽ cung cấp thông tin chi tiết có giá trị về quy trình kết xuất, bao gồm mọi ngắt dòng được áp dụng tự động.
+Đoạn mã này trích xuất thông báo từ trang đầu tiên và ghi chúng vào tệp văn bản có tên là `notifications_out.txt`. Tệp này sẽ cung cấp thông tin chi tiết có giá trị về quy trình kết xuất, bao gồm mọi ngắt dòng được áp dụng tự động.
 
 ## Phần kết luận
 
@@ -95,20 +97,22 @@ Và bạn đã có nó! Bạn vừa học cách xác định ngắt dòng trong 
 ### Aspose.PDF là gì?
 Aspose.PDF là một thư viện mạnh mẽ để tạo, chỉnh sửa và chuyển đổi tài liệu PDF bằng .NET.
 
-### Làm thế nào để tôi có thể tải xuống thư viện Aspose.PDF?
- Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/).
+### Làm thế nào tôi có thể tải xuống thư viện Aspose.PDF?
+Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/).
 
 ### Tôi có thể sử dụng Aspose.PDF để định dạng văn bản nào?
 Bạn có thể kiểm soát kích thước phông chữ, kiểu dáng, màu sắc, căn chỉnh và nhiều hơn nữa!
 
 ### Có cách nào để nhận được hỗ trợ cho Aspose.PDF không?
- Có, bạn có thể tìm thấy sự hỗ trợ thông qua[Diễn đàn PDF Aspose](https://forum.aspose.com/c/pdf/10).
+Có, bạn có thể tìm thấy sự hỗ trợ thông qua [Diễn đàn PDF Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Tôi có thể dùng thử Aspose.PDF trước khi mua không?
- Chắc chắn rồi! Bạn có thể yêu cầu một[dùng thử miễn phí](https://releases.aspose.com/) để kiểm tra các tính năng của thư viện.
+Chắc chắn rồi! Bạn có thể yêu cầu một [dùng thử miễn phí](https://releases.aspose.com/) để kiểm tra các tính năng của thư viện.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

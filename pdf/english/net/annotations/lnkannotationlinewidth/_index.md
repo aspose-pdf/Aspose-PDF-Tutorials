@@ -8,7 +8,9 @@ url: /net/annotations/lnkannotationlinewidth/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # lnk Annotation Line Width
@@ -158,6 +160,7 @@ You can remove an annotation using the `doc.Pages[1].Annotations.Delete(a1)` met
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

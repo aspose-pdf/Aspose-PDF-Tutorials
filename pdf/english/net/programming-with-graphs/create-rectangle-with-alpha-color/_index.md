@@ -8,7 +8,9 @@ url: /net/programming-with-graphs/create-rectangle-with-alpha-color/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Rectangle With Alpha Color
@@ -141,6 +143,7 @@ For support, you can visit the [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

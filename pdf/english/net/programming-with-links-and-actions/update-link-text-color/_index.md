@@ -8,7 +8,9 @@ url: /net/programming-with-links-and-actions/update-link-text-color/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Link Text Color In PDF File
@@ -141,6 +143,7 @@ It’s always a good practice to save the modified document as a new file, leavi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

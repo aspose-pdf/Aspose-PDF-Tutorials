@@ -1,14 +1,16 @@
 ---
-title: Các ký hiệu có thể thay thế trong Header Footer
-linktitle: Các ký hiệu có thể thay thế trong Header Footer
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách sử dụng các ký hiệu có thể thay thế ở phần đầu trang và chân trang của tài liệu PDF bằng Aspose.PDF cho .NET.
-weight: 320
-url: /vi/net/programming-with-text/replaceable-symbols-in-header-footer/
+"description": "Tìm hiểu cách sử dụng các ký hiệu có thể thay thế ở phần đầu trang và chân trang của tài liệu PDF bằng Aspose.PDF cho .NET."
+"linktitle": "Các ký hiệu có thể thay thế trong Header Footer"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Các ký hiệu có thể thay thế trong Header Footer"
+"url": "/vi/net/programming-with-text/replaceable-symbols-in-header-footer/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các ký hiệu có thể thay thế trong Header Footer
@@ -21,10 +23,10 @@ Khi làm việc với các tệp PDF, có những lúc bạn cần tùy chỉnh 
 
 Trước khi xem hướng dẫn từng bước, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.PDF cho Thư viện .NET –[Tải về](https://releases.aspose.com/pdf/net/) hoặc nhận được một[dùng thử miễn phí](https://releases.aspose.com/).
+- Aspose.PDF cho Thư viện .NET – [Tải về](https://releases.aspose.com/pdf/net/) hoặc nhận được một [dùng thử miễn phí](https://releases.aspose.com/).
 - Visual Studio hoặc bất kỳ IDE C# nào được cài đặt trên hệ thống của bạn.
 - Kiến thức cơ bản về phát triển C# và .NET.
--  Một hợp lệ[giấy phép](https://purchase.aspose.com/temporary-license/) đối với Aspose.PDF hoặc bạn có thể sử dụng phiên bản dùng thử.
+- Một hợp lệ [giấy phép](https://purchase.aspose.com/temporary-license/) đối với Aspose.PDF hoặc bạn có thể sử dụng phiên bản dùng thử.
 
 ## Nhập gói
 
@@ -56,7 +58,7 @@ Document doc = new Document();
 Page page = doc.Pages.Add();
 ```
 
- Ở đây, chúng tôi đang thiết lập một tài liệu PDF bằng cách sử dụng`Document` lớp và thêm một trang với`doc.Pages.Add()`Trang này sẽ chứa phần đầu trang, phần chân trang và nội dung khác.
+Ở đây, chúng tôi đang thiết lập một tài liệu PDF bằng cách sử dụng `Document` lớp và thêm một trang với `doc.Pages.Add()`. Trang này sẽ chứa phần đầu trang, phần chân trang và nội dung khác.
 
 ## Bước 2: Cấu hình lề trang
 
@@ -72,7 +74,7 @@ marginInfo.Right = 50;
 page.PageInfo.Margin = marginInfo;
 ```
 
- Ở đây, chúng tôi đã xác định lề trên, dưới, trái và phải bằng cách sử dụng`MarginInfo` lớp và áp dụng nó vào trang bằng cách sử dụng`page.PageInfo.Margin`.
+Ở đây, chúng tôi đã xác định lề trên, dưới, trái và phải bằng cách sử dụng `MarginInfo` lớp và áp dụng nó vào trang bằng cách sử dụng `page.PageInfo.Margin`.
 
 ## Bước 3: Tạo và cấu hình Header
 
@@ -104,7 +106,7 @@ t2.TextState.HorizontalAlignment = Aspose.Pdf.HorizontalAlignment.Center;
 hfFirst.Paragraphs.Add(t2);
 ```
 
- Chúng tôi đã thêm hai`TextFragment` đối tượng cho tiêu đề: một cho tiêu đề báo cáo và một cho tên báo cáo. Văn bản được định dạng bằng`TextState` các thuộc tính như phông chữ, kích thước và căn chỉnh.
+Chúng tôi đã thêm hai `TextFragment` đối tượng cho tiêu đề: một cho tiêu đề báo cáo và một cho tên báo cáo. Văn bản được định dạng bằng `TextState` các thuộc tính như phông chữ, kích thước và căn chỉnh.
 
 ## Bước 4: Tạo và cấu hình Footer
 
@@ -125,7 +127,7 @@ TextFragment t4 = new TextFragment("Report Name");
 TextFragment t5 = new TextFragment("Page $p of $P");
 ```
 
-Ở phần chân trang, chúng tôi bao gồm các đoạn mã cho ngày tạo, tên báo cáo và số trang động (`$p` Và`$P` lần lượt biểu thị số trang hiện tại và tổng số trang).
+Ở phần chân trang, chúng tôi bao gồm các đoạn mã cho ngày tạo, tên báo cáo và số trang động (`$p` Và `$P` lần lượt biểu thị số trang hiện tại và tổng số trang).
 
 ## Bước 5: Tạo Bảng ở Chân trang
 
@@ -181,7 +183,7 @@ Mã này thêm một bảng đơn giản có ba cột vào trang. Bạn có th�
 
 ## Bước 7: Lưu PDF
 
-Sau khi mọi thứ đã được thiết lập, bước cuối cùng là lưu tài liệu PDF vào vị trí mong muốn.
+Sau khi mọi thứ đã được thiết lập xong, bước cuối cùng là lưu tài liệu PDF vào vị trí mong muốn.
 
 ```csharp
 dataDir = dataDir + "ReplaceableSymbolsInHeaderFooter_out.pdf";
@@ -189,7 +191,7 @@ doc.Save(dataDir);
 Console.WriteLine("Symbols replaced successfully in header and footer. File saved at " + dataDir);
 ```
 
- Bạn chỉ định đường dẫn tệp và lưu tài liệu bằng cách sử dụng`doc.Save()`. Vậy là xong! Bạn đã tạo thành công tệp PDF có tiêu đề và chân trang tùy chỉnh.
+Bạn chỉ định đường dẫn tệp và lưu tài liệu bằng cách sử dụng `doc.Save()`. Vậy là xong! Bạn đã tạo thành công tệp PDF có tiêu đề và chân trang tùy chỉnh.
 
 ## Phần kết luận
 
@@ -201,19 +203,21 @@ Thay thế các ký hiệu trong tiêu đề và chân trang bằng Aspose.PDF c
 Có, bạn có thể tùy chỉnh hoàn toàn phông chữ, kích thước, màu sắc và kiểu cho văn bản ở đầu trang và chân trang.
 
 ### Làm thế nào để thêm hình ảnh vào đầu trang và chân trang?  
- Bạn có thể sử dụng`ImageStamp` để chèn hình ảnh vào đầu trang và chân trang.
+Bạn có thể sử dụng `ImageStamp` để chèn hình ảnh vào đầu trang và chân trang của bạn.
 
 ### Có thể thêm siêu liên kết vào đầu trang hoặc chân trang không?  
- Có, bạn có thể sử dụng`TextFragment` với một siêu liên kết bằng cách thiết lập`Hyperlink` tài sản.
+Có, bạn có thể sử dụng `TextFragment` với một siêu liên kết bằng cách thiết lập `Hyperlink` tài sản.
 
-### Tôi có thể sử dụng các tiêu đề khác nhau cho các trang lẻ và trang chẵn không?  
+### Tôi có thể sử dụng các tiêu đề khác nhau cho các trang chẵn và lẻ không?  
 Có, Aspose.PDF cho phép bạn chỉ định các tiêu đề và chân trang khác nhau cho các trang lẻ và trang chẵn.
 
 ### Làm thế nào để điều chỉnh vị trí đầu trang và chân trang?  
 Bạn có thể điều chỉnh lề và thuộc tính căn chỉnh để kiểm soát vị trí của đầu trang và chân trang.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

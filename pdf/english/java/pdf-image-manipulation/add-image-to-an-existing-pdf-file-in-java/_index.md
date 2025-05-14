@@ -8,7 +8,9 @@ url: /java/pdf-image-manipulation/add-image-to-an-existing-pdf-file-in-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Image to an Existing PDF File in Java
@@ -132,6 +134,7 @@ Yes, you can use the `setRotate` method to rotate the image as needed.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,46 +1,48 @@
 ---
-title: Alkalmazza a számozási stílust a PDF fejlécében Java használatával
-linktitle: Alkalmazza a számozási stílust a PDF fejlécében Java használatával
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan alkalmazhat számozási stílusokat PDF fejlécekre az Aspose.PDF for Java segítségével. Lépésről lépésre bemutatott útmutatónk forráskód-példákat kínál a dokumentumok professzionális érintéséhez.
-weight: 14
-url: /hu/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/
+"description": "Tanuld meg, hogyan alkalmazhatsz számozási stílusokat PDF-címsorokra az Aspose.PDF for Java segítségével. Lépésről lépésre útmutatónk forráskód-példákat tartalmaz, hogy professzionális megjelenést kölcsönözhess a dokumentumaidnak."
+"linktitle": "Számozási stílus alkalmazása PDF címsorában Java használatával"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "Számozási stílus alkalmazása PDF címsorában Java használatával"
+"url": "/hu/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Alkalmazza a számozási stílust a PDF fejlécében Java használatával
+# Számozási stílus alkalmazása PDF címsorában Java használatával
 
 
-## Az Aspose.PDF for Java bemutatása
+## Bevezetés az Aspose.PDF Java-hoz
 
-Az Aspose.PDF for Java egy robusztus könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PDF-dokumentumokkal. A PDF-kezeléshez a funkciók széles skáláját kínálja, beleértve a szövegformázást, az oldalkezelést és természetesen a számozási stílusok címsorok alkalmazását.
+Az Aspose.PDF for Java egy robusztus könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PDF dokumentumokkal. Széleskörű funkciókat kínál a PDF-manipulációhoz, beleértve a szövegformázást, az oldalmanipulációt és természetesen a számozási stílusok alkalmazását a címsorokra.
 
-## A Fejlesztési Környezet kialakítása
+## Fejlesztői környezet beállítása
 
-Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a fejlesztői környezetben be van állítva a szükséges eszközök:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy a szükséges eszközök telepítve vannak a fejlesztői környezetünkben:
 
 - Java fejlesztőkészlet (JDK)
-- Ön által választott integrált fejlesztési környezet (IDE) (Eclipse, IntelliJ IDEA stb.)
-- Aspose.PDF a Java könyvtárhoz
+- Integrált fejlesztői környezet (IDE) az Ön választása szerint (Eclipse, IntelliJ IDEA, stb.)
+- Aspose.PDF Java könyvtárhoz
 
-## PDF dokumentum készítése
+## PDF dokumentum létrehozása
 
 Kezdjük egy új PDF dokumentum létrehozásával az Aspose.PDF for Java használatával. Íme néhány mintakód a kezdéshez:
 
 ```java
-// Hozzon létre egy új PDF dokumentumot
+// Új PDF dokumentum létrehozása
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 ```
 
 ## Címsorok hozzáadása a PDF-hez
 
-Most néhány fejlécet adunk a PDF dokumentumunkhoz. Ezek a címsorok szolgálnak majd dokumentumunk szakaszaiként. Íme egy példa a címsor hozzáadására:
+Most hozzáadunk néhány címsort a PDF dokumentumunkhoz. Ezek a címsorok fognak a dokumentum szakaszaiként szolgálni. Íme egy példa egy címsor hozzáadására:
 
 ```java
-// Hozzon létre egy címsort
+// Címsor létrehozása
 com.aspose.pdf.Heading heading = new com.aspose.pdf.Heading(pdfDocument.getPages().get_Item(1));
 heading.setMargin(new com.aspose.pdf.MarginInfo(0, 0, 0, 10));
 heading.getTextState().setFont(new com.aspose.pdf.FontRepository().findFont("Arial"));
@@ -49,29 +51,29 @@ heading.getTextState().setBold(true);
 heading.getTextState().setForegroundColor(com.aspose.pdf.Color.getBlack());
 heading.getTextState().setBackgroundColor(com.aspose.pdf.Color.getLightGray());
 
-// Állítsa be a címsor szövegét
-TextFragment titleFragment = new TextFragment("Applying Numbering Style");
+// A címsor szövegének beállítása
+TextFragment titleFragment = new TextFragment("Számozási stílus alkalmazása");
 heading.getFragments().add(titleFragment);
 pdfDocument.getPages().get_Item(1).getParagraphs().add(heading);
 ```
 
-## Számozási stílus alkalmazása
+## Applying Numbering Style
 
-Most jön az izgalmas rész – számozási stílusok alkalmazása címsorainkon. Az Aspose.PDF for Java egyszerű módot kínál ennek elérésére. Íme egy példa a számozás alkalmazására:
+Most jön az izgalmas rész – számozási stílusok alkalmazása a címsorainkra. Az Aspose.PDF for Java egyszerű módszert kínál erre. Íme egy példa a számozás alkalmazására:
 
 ```java
-// Hozzon létre egy számozási stílust
+// Számozási stílus létrehozása
 com.aspose.pdf.NumberingStyle numberingStyle = new com.aspose.pdf.NumberingStyle();
 numberingStyle.setFormat("(1)");
 numberingStyle.setFirstIndex(1);
 
-// Alkalmazza a számozási stílust a címsorra
+// Számozási stílus alkalmazása a címsorra
 heading.setNumberingStyle(numberingStyle);
 ```
 
 ## Számozási formátumok testreszabása
 
-A számozási formátumot igényeinek megfelelően testreszabhatja. Az Aspose.PDF for Java lehetővé teszi a számozás különféle szempontjainak szabályozását, beleértve az előtagot, az utótagot és a formátumot. Íme egy példa a számozás testreszabására:
+A számozási formátumot az igényeidnek megfelelően testreszabhatod. Az Aspose.PDF for Java lehetővé teszi a számozás különböző aspektusainak, például az előtag, az utótag és a formátum szabályozását. Íme egy példa a számozás testreszabására:
 
 ```java
 // A számozási stílus testreszabása
@@ -80,50 +82,52 @@ numberingStyle.setSuffix(":");
 numberingStyle.setStartNumber(5);
 ```
 
-## A PDF mentése és megtekintése
+## PDF mentése és megtekintése
 
-Miután hozzáadta a számozási stílusokat tartalmazó címsorokat, ideje elmenteni a PDF-dokumentumot, és megtekinteni az eredményt:
+Miután hozzáadta a címsorokat számozási stílusokkal, itt az ideje menteni a PDF dokumentumot és megtekinteni az eredményt:
 
 ```java
-// Mentse el a PDF dokumentumot
+// PDF dokumentum mentése
 pdfDocument.save("NumberedDocument.pdf");
 
-// Nyissa meg a PDF dokumentumot megtekintéshez
+// PDF dokumentum megnyitása megtekintéshez
 java.awt.Desktop.getDesktop().open(new java.io.File("NumberedDocument.pdf"));
 ```
 
 ## Következtetés
 
-Ebben a lépésenkénti útmutatóban megvizsgáltuk, hogyan alkalmazhatunk számozási stílusokat PDF-dokumentumok címsoraira az Aspose.PDF for Java használatával. Ez a nagy teljesítményű könyvtár megkönnyíti a professzionális megjelenésű dokumentumok létrehozását testreszabott számozási formátumokkal.
+Ebben a lépésről lépésre szóló útmutatóban azt vizsgáltuk meg, hogyan alkalmazhatunk számozási stílusokat PDF dokumentumok címsoraira az Aspose.PDF for Java használatával. Ez a hatékony könyvtár megkönnyíti a professzionális megjelenésű dokumentumok létrehozását testreszabott számozási formátumokkal.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.PDF for Java fájlt?
+### Hogyan telepíthetem az Aspose.PDF fájlt Java-hoz?
 
-Az Aspose.PDF for Java telepítéséhez kövesse az alábbi lépéseket:
+Az Aspose.PDF Java-hoz telepítéséhez kövesse az alábbi lépéseket:
 
-1.  Látogassa meg az Aspose.PDF for Java dokumentációt a címen[itt](https://reference.aspose.com/pdf/java/).
-2.  Töltse le a könyvtár legújabb verzióját innen[itt](https://releases.aspose.com/pdf/java/).
-3. Integrálja a könyvtárat a Java projektbe a dokumentációban található telepítési utasítások szerint.
+1. Látogassa meg az Aspose.PDF fájlt a Java dokumentációért a következő címen: [itt](https://reference.aspose.com/pdf/java/).
+2. Töltse le a könyvtár legújabb verzióját innen: [itt](https://releases.aspose.com/pdf/java/).
+3. Integrálja a könyvtárat a Java projektjébe a dokumentációban található telepítési utasításoknak megfelelően.
 
-### Használhatom ingyenesen az Aspose.PDF for Java-t?
+### Ingyenesen használhatom az Aspose.PDF fájlt Java-hoz?
 
-Az Aspose.PDF for Java ingyenes próbaverziót kínál, amellyel kiértékelheti szolgáltatásait. A teljes hozzáféréshez és a kereskedelmi használatra azonban licencet kell vásárolnia.
+Az Aspose.PDF for Java ingyenes próbaverziót kínál, amellyel kiértékelheti a funkcióit. A teljes hozzáféréshez és a kereskedelmi célú felhasználáshoz azonban licencet kell vásárolnia.
 
-### Lehetséges-e különböző számozási stílusokat alkalmazni egy dokumentum különböző szakaszaira?
+### Lehetséges különböző számozási stílusokat alkalmazni egy dokumentum különböző részeire?
 
- Igen, az Aspose.PDF for Java segítségével különböző számozási stílusokat alkalmazhat egy PDF-dokumentum különböző szakaszaira. Egyszerűen hozzon létre külön`Heading` objektumokat, és testreszabhatja az egyes szakaszok számozási stílusait.
+Igen, az Aspose.PDF for Java segítségével különböző számozási stílusokat alkalmazhat egy PDF dokumentum különböző részeire. Egyszerűen hozzon létre külön számozási stílusokat. `Heading` objektumok, és testreszabhatja az egyes szakaszok számozási stílusait.
 
-### Exportálhatom a számozott fejlécekkel ellátott PDF-et más formátumokba, például DOCX vagy HTML formátumba?
+### Exportálhatom a számozott címsorokkal ellátott PDF-et más formátumokba, például DOCX vagy HTML formátumba?
 
-Igen, az Aspose.PDF for Java lehetőséget biztosít számozott fejlécekkel ellátott PDF-dokumentumok exportálására különféle formátumokba, beleértve a DOCX-et, HTML-t és egyebeket. A dokumentációban részletes példákat találhat ezen átalakítások végrehajtására vonatkozóan.
+Igen, az Aspose.PDF for Java lehetővé teszi számozott címsorokkal ellátott PDF dokumentumok exportálását különféle formátumokba, beleértve a DOCX-et, HTML-t és egyebeket. A dokumentációban részletes példákat találhat arról, hogyan végezheti el ezeket az átalakításokat.
 
-### Hol találok további példákat és dokumentációt az Aspose.PDF for Java fájlhoz?
+### Hol találok további példákat és dokumentációt az Aspose.PDF for Java-hoz?
 
- Az Aspose.PDF for Java-hoz átfogó dokumentációt, kódpéldákat és API-referenciát találhat a dokumentációs webhelyen:[itt](https://reference.aspose.com/pdf/java/).
+Az Aspose.PDF for Java fájl átfogó dokumentációját, kódpéldáit és API-referenciáját a dokumentációs weboldalon találja a következő címen: [itt](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

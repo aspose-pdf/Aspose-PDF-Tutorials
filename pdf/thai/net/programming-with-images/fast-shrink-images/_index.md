@@ -1,14 +1,16 @@
 ---
-title: ย่อภาพอย่างรวดเร็ว
-linktitle: ย่อภาพอย่างรวดเร็ว
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการใช้ Aspose.PDF สำหรับ .NET อย่างมีประสิทธิภาพในการย่อขนาดรูปภาพในไฟล์ PDF เพิ่มประสิทธิภาพขนาดโดยยังคงรักษาคุณภาพเอาไว้
-weight: 130
-url: /th/net/programming-with-images/fast-shrink-images/
+"description": "เรียนรู้วิธีการใช้ Aspose.PDF สำหรับ .NET อย่างมีประสิทธิภาพในการย่อขนาดรูปภาพในไฟล์ PDF เพิ่มประสิทธิภาพขนาดโดยยังคงรักษาคุณภาพเอาไว้"
+"linktitle": "ย่อภาพอย่างรวดเร็ว"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ย่อภาพอย่างรวดเร็ว"
+"url": "/th/net/programming-with-images/fast-shrink-images/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ย่อภาพอย่างรวดเร็ว
@@ -22,8 +24,8 @@ url: /th/net/programming-with-images/fast-shrink-images/
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกอย่างที่จำเป็นแล้ว นี่คือข้อกำหนดเบื้องต้น:
 
 - ความเข้าใจพื้นฐานเกี่ยวกับ C#: หากคุณคุ้นเคยกับการเขียนโค้ดใน C# คุณก็ไปได้ครึ่งทางแล้ว หากไม่เป็นเช่นนั้น ไม่ต้องกังวล เพราะคู่มือนี้ทำตามได้ง่าย
--  Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและอ้างอิง Aspose.PDF ในโครงการ .NET ของคุณ คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/pdf/net/).
--  Integrated Development Environment (IDE): IDE ที่เข้ากันได้กับ .NET ใดๆ ก็สามารถใช้ได้ เช่น Visual Studio หากคุณยังไม่ได้ติดตั้ง ให้ลองดู Visual Studio[ที่นี่](https://visualstudio.microsoft.com/).
+- Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและอ้างอิง Aspose.PDF ในโครงการ .NET ของคุณ คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/pdf/net/).
+- Integrated Development Environment (IDE): IDE ที่เข้ากันได้กับ .NET ใดๆ ก็สามารถใช้งานได้ เช่น Visual Studio หากคุณยังไม่ได้ติดตั้ง ให้ลองดู Visual Studio [ที่นี่](https://visualstudio-microsoft.com/).
 - เอกสาร PDF ที่ใช้งานได้: เตรียม PDF ที่คุณต้องการเพิ่มประสิทธิภาพไว้ อาจเป็นอะไรก็ได้ตั้งแต่รายงานไปจนถึงแผ่นพับประมูล เพียงตรวจสอบให้แน่ใจว่ามีรูปภาพประกอบอยู่ด้วย
 
 เมื่อจัดการข้อกำหนดเบื้องต้นเหล่านี้เรียบร้อยแล้ว คุณก็พร้อมสำหรับความสนุกแล้ว!
@@ -79,7 +81,7 @@ var time = DateTime.Now.Ticks;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- อย่าลืมเปลี่ยน`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ของคุณอยู่ ตัวอย่างเช่น:
+อย่าลืมเปลี่ยน `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ของคุณอยู่ ตัวอย่างเช่น:
 
 ```csharp
 string dataDir = @"C:\Documents\MyPDFs\";
@@ -93,7 +95,7 @@ string dataDir = @"C:\Documents\MyPDFs\";
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 ```
 
- บรรทัดนี้จะเริ่มต้น`Document` วัตถุที่แสดงถึง PDF เพียงแค่แทนที่`"Shrinkimage.pdf"` พร้อมชื่อเอกสารของคุณ
+บรรทัดนี้จะเริ่มต้น `Document` วัตถุที่แสดงถึง PDF เพียงแค่แทนที่ `"Shrinkimage.pdf"` พร้อมชื่อเอกสารของคุณ
 
 ## ขั้นตอนที่ 4: เริ่มต้นตัวเลือกการเพิ่มประสิทธิภาพ
 
@@ -103,7 +105,7 @@ Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 ```
 
- นี่จะสร้างอินสแตนซ์ของ`OptimizationOptions`ซึ่งเราสามารถระบุได้ว่าเราต้องการบีบอัดรูปภาพอย่างไร
+นี่จะสร้างอินสแตนซ์ของ `OptimizationOptions`ซึ่งเราสามารถระบุได้ว่าเราต้องการบีบอัดรูปภาพอย่างไร
 
 ## ขั้นตอนที่ 5: กำหนดค่าการตั้งค่าการบีบอัดภาพ
 
@@ -128,7 +130,7 @@ optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
 พอคุณคิดว่าเราเกือบจะเสร็จแล้ว เราก็มีการตั้งค่าอีกอย่างหนึ่งที่ต้องปรับแต่ง:
 
 ```csharp
-// ตั้งค่าเวอร์ชันการบีบอัดภาพให้เร็ว
+// ตั้งค่าเวอร์ชันการบีบอัดภาพให้เร็ว 
 optimizeOptions.ImageCompressionOptions.Version = Pdf.Optimization.ImageCompressionVersion.Fast;
 ```
 
@@ -164,7 +166,7 @@ Console.WriteLine("Ticks: {0}", DateTime.Now.Ticks - time);
 Console.WriteLine("\nImage fast shrinked successfully.\nFile saved at " + dataDir);
 ```
 
-คุณจะได้รับผลลัพธ์ว่าต้องใช้กี่ครั้ง (หรือหน่วยเวลา) เพื่อปรับแต่งภาพให้เหมาะสม นอกจากนี้ คุณจะได้รับการยืนยันที่เป็นมิตรว่าทุกอย่างทำงานได้อย่างราบรื่น
+คุณจะได้รับผลลัพธ์ว่าต้องใช้กี่ติ๊ก (หรือหน่วยเวลา) เพื่อปรับแต่งภาพให้เหมาะสม นอกจากนี้ คุณจะได้รับการยืนยันที่เป็นมิตรว่าทุกอย่างทำงานได้อย่างราบรื่น
 
 ## บทสรุป
 
@@ -176,7 +178,7 @@ Console.WriteLine("\nImage fast shrinked successfully.\nFile saved at " + dataDi
 Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และจัดการเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันสามารถทดลองใช้ Aspose.PDF ก่อนซื้อได้หรือไม่?
- แน่นอน! คุณทำได้[ดาวน์โหลดรุ่นทดลองใช้ฟรีได้ที่นี่](https://releases.aspose.com/).
+แน่นอน! คุณทำได้ [ดาวน์โหลดรุ่นทดลองใช้ฟรีได้ที่นี่](https://releases-aspose.com/).
 
 ### Aspose.PDF มีฟังก์ชันอื่นๆ อะไรอีกบ้าง?
 นอกจากการเพิ่มประสิทธิภาพรูปภาพแล้ว Aspose.PDF ยังรองรับการแยกข้อความ การผสานเอกสาร การแปลง PDF และอื่นๆ อีกมากมาย
@@ -185,10 +187,12 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีอันท
 ใช่! การเพิ่มผ่าน NuGet ทำให้การรวมระบบเป็นเรื่องง่าย และเอกสารประกอบก็ให้คำแนะนำที่ชัดเจน
 
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?
- หากมีข้อสงสัยหรือปัญหาใดๆ โปรดไปที่[ฟอรั่ม PDF Aspose สำหรับการสนับสนุน](https://forum.aspose.com/c/pdf/10).
+หากมีข้อสงสัยหรือปัญหาใดๆ โปรดไปที่ [ฟอรั่ม PDF Aspose สำหรับการสนับสนุน](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

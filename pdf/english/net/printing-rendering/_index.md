@@ -6,7 +6,9 @@ url: "/net/printing-rendering/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Printing and Rendering Tutorials for Aspose.PDF .NET
@@ -57,6 +59,9 @@ Learn how to set a custom zoom factor in PDF documents using Aspose.PDF for .NET
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

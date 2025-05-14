@@ -1,14 +1,16 @@
 ---
-title: Bảng góc bo tròn trong tài liệu PDF
-linktitle: Bảng góc bo tròn trong tài liệu PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo bảng góc bo tròn đẹp mắt trong tài liệu PDF của bạn bằng Aspose.PDF cho .NET với hướng dẫn từng bước này.
-weight: 190
-url: /vi/net/programming-with-tables/rounded-corner-table/
+"description": "Tìm hiểu cách tạo bảng góc bo tròn đẹp mắt trong tài liệu PDF của bạn bằng Aspose.PDF cho .NET với hướng dẫn từng bước này."
+"linktitle": "Bảng góc bo tròn trong tài liệu PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Bảng góc bo tròn trong tài liệu PDF"
+"url": "/vi/net/programming-with-tables/rounded-corner-table/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảng góc bo tròn trong tài liệu PDF
@@ -23,8 +25,8 @@ Trước khi bắt đầu cuộc phiêu lưu tìm hiểu về bàn góc bo tròn
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là sân chơi để bạn viết mã và thử nghiệm.
 2. .NET Framework: Đảm bảo bạn đang sử dụng phiên bản .NET Framework phù hợp với Aspose.PDF.
-3. Aspose.PDF cho .NET: Bạn cần thư viện Aspose.PDF. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/pdf/net/).
-4. IDE phù hợp: Mặc dù Visual Studio được ưa chuộng hơn nhưng bất kỳ IDE nào khác hỗ trợ C# cũng có thể thực hiện được công việc này.
+3. Aspose.PDF cho .NET: Bạn cần thư viện Aspose.PDF. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/pdf/net/).
+4. IDE phù hợp: Mặc dù Visual Studio được ưa chuộng hơn nhưng bất kỳ IDE nào khác hỗ trợ C# đều có thể thực hiện được công việc này.
 5. Kiến thức cơ bản về C#: Hiểu được những kiến thức cơ bản về lập trình C# sẽ giúp bạn nắm bắt nội dung nhanh hơn.
 
 Bạn đã chuẩn bị xong chưa? Tuyệt! Chúng ta hãy tiến hành thôi.
@@ -42,13 +44,13 @@ Trước tiên, hãy khởi động Visual Studio và tạo một dự án mới
 Sau khi dự án của bạn được thiết lập:
 - Nhấp chuột phải vào dự án trong Solution Explorer.
 - Chọn “Quản lý các gói NuGet”.
--  Tìm kiếm`Aspose.PDF` và cài đặt nó.
+- Tìm kiếm `Aspose.PDF` và cài đặt nó.
 
 Bây giờ bạn đã sẵn sàng rồi!
 
 ### Nhập không gian tên Aspose.PDF
 
- Ở đầu trang của bạn`Program.cs` hoặc bất cứ nơi nào mã chính của bạn nằm, bạn sẽ muốn thêm:
+Ở đầu trang của bạn `Program.cs` hoặc bất cứ nơi nào mã chính của bạn nằm, bạn sẽ muốn thêm:
 
 ```csharp
 using System.IO;
@@ -68,7 +70,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay đổi`YOUR DOCUMENT DIRECTORY` đến đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. 
+Thay đổi `YOUR DOCUMENT DIRECTORY` đến đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. 
 
 ## Bước 2: Khởi tạo Tài liệu
 
@@ -90,7 +92,7 @@ Dòng này thiết lập một đối tượng bảng mới sẵn sàng cho đi�
 
 ## Bước 4: Tạo thông tin đường viền
 
- Để tạo cho bảng của bạn một phác thảo đẹp và hiệu ứng góc bo tròn, bạn cần tạo một phiên bản của`BorderInfo`.
+Để tạo cho bảng của bạn một phác thảo đẹp và hiệu ứng góc bo tròn, bạn cần tạo một phiên bản của `BorderInfo`.
 
 ```csharp
 GraphInfo graph = new GraphInfo();
@@ -132,7 +134,7 @@ Bùm! Bây giờ bảng của bạn đã có đường viền với các góc bo
 
 ## Bước 8: Thêm Bảng vào Tài liệu PDF
 
-Cho đến nay, chúng ta đã thiết lập mọi thứ. Bây giờ, hãy thêm bảng vào tài liệu.
+Cho đến nay, chúng ta đã thiết lập xong mọi thứ. Bây giờ, hãy thêm bảng vào tài liệu.
 
 ```csharp
 pdfDocument.Pages.Add().Paragraphs.Add(tab1);
@@ -160,19 +162,21 @@ Và bạn đã có nó! Bạn đã tạo thành công một bảng góc bo tròn
 Aspose.PDF for .NET là thư viện cho phép các ứng dụng .NET tạo và thao tác với các tài liệu PDF dễ dàng.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có! Bạn có thể dùng thử Aspose.PDF với bản dùng thử miễn phí có sẵn trên[trang phát hành](https://releases.aspose.com/).
+Có! Bạn có thể dùng thử Aspose.PDF với bản dùng thử miễn phí có sẵn trên [trang phát hành](https://releases.aspose.com/).
 
 ### Bàn góc bo tròn có tác dụng gì?
-Chúng làm tăng tính hấp dẫn trực quan của các bảng trong tài liệu PDF, khiến chúng hấp dẫn hơn đối với người đọc.
+Chúng làm tăng tính hấp dẫn về mặt hình ảnh của các bảng trong tài liệu PDF, khiến chúng hấp dẫn hơn đối với người đọc.
 
 ### Tôi có thể mua Aspose.PDF ở đâu?
- Bạn có thể mua nó trực tiếp từ[Trang mua hàng Aspose](https://purchase.aspose.com/buy).
+Bạn có thể mua nó trực tiếp từ [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
 
 ### Tôi phải làm sao nếu cần hỗ trợ?
- Để được hỗ trợ, bạn có thể truy cập diễn đàn hỗ trợ Aspose tại[Hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Để được hỗ trợ, bạn có thể truy cập diễn đàn hỗ trợ Aspose tại [Hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

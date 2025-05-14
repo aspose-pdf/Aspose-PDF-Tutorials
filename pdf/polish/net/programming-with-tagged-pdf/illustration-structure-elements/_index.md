@@ -1,14 +1,16 @@
 ---
-title: Elementy struktury ilustracji
-linktitle: Elementy struktury ilustracji
-second_title: Aspose.PDF dla .NET API Reference
-description: Utwórz ustrukturyzowane pliki PDF z elementami ilustracyjnymi w programie Aspose.PDF dla platformy .NET, korzystając z naszego samouczka krok po kroku.
-weight: 100
-url: /pl/net/programming-with-tagged-pdf/illustration-structure-elements/
+"description": "Utwórz ustrukturyzowane pliki PDF z elementami ilustracyjnymi w programie Aspose.PDF dla platformy .NET, korzystając z naszego samouczka krok po kroku."
+"linktitle": "Elementy struktury ilustracji"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Elementy struktury ilustracji"
+"url": "/pl/net/programming-with-tagged-pdf/illustration-structure-elements/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elementy struktury ilustracji
@@ -21,10 +23,10 @@ Czy jesteś gotowy, aby tworzyć oszałamiające, ustrukturyzowane pliki PDF w s
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby wszystko przebiegło sprawnie.
 
-1.  Aspose.PDF dla .NET – Będziesz potrzebować zainstalowanej biblioteki Aspose.PDF. Jeszcze jej nie masz? Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/) Jeśli chcesz to najpierw przetestować, możesz pobrać[bezpłatny okres próbny](https://releases.aspose.com/).
+1. Aspose.PDF dla .NET – Będziesz potrzebować zainstalowanej biblioteki Aspose.PDF. Jeszcze jej nie masz? Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/)Jeśli chcesz to najpierw przetestować, możesz pobrać [bezpłatny okres próbny](https://releases.aspose.com/).
 2. Visual Studio – będziemy kodować w języku C#, dlatego upewnij się, że zainstalowany jest program Visual Studio lub dowolne zgodne środowisko IDE.
 3. .NET Framework – Upewnij się, że masz wersję zgodną z Aspose.PDF dla platformy .NET.
-4.  Licencja tymczasowa – Aspose.PDF ma pewne ograniczenia w trybie próbnym, więc pobierz[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować pełną funkcjonalność.
+4. Licencja tymczasowa – Aspose.PDF ma pewne ograniczenia w trybie próbnym, więc pobierz [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować pełną funkcjonalność.
 
 To wszystko! Teraz zaimportujmy niezbędne przestrzenie nazw i przejdźmy do kodowania.
 
@@ -49,7 +51,7 @@ Zanim zaczniesz tworzyć plik PDF, musisz określić ścieżkę do katalogu doku
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ten krok jest prosty, ale niezbędny. Informujesz program, gdzie ma znaleźć i przechowywać pliki, z którymi będziesz pracować. To tak, jakby mieć bazę domową dla swoich plików PDF. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze.
+Ten krok jest prosty, ale niezbędny. Informujesz program, gdzie ma znaleźć i przechowywać pliki, z którymi będziesz pracować. To tak, jakby mieć bazę domową dla swoich plików PDF. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze.
 
 ## Krok 2: Tworzenie nowego dokumentu PDF
 
@@ -70,7 +72,7 @@ Aby pracować z elementami struktury ilustracji, musimy skorzystać z Tagged Con
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- To tutaj dzieje się magia!`TaggedContent` obiekt pozwala nam zdefiniować, jak elementy w pliku PDF są interpretowane. Jeśli pracujesz nad dostępnością lub strukturą, ten krok jest kluczowy.
+To tutaj dzieje się magia! `TaggedContent` obiekt pozwala nam zdefiniować, jak elementy w pliku PDF są interpretowane. Jeśli pracujesz nad dostępnością lub strukturą, ten krok jest kluczowy.
 
 ## Krok 4: Ustawianie tytułu i języka dokumentu
 
@@ -105,9 +107,9 @@ figure1.SetTag("Fig1");
 figure1.SetImage(dataDir + "image.jpg");
 ```
 
- To jest ostatni szlif. Nadajemy naszemu obrazowi opisowy tekst alternatywny (który jest przydatny dla czytników ekranu), tytuł i ustawiamy rzeczywisty plik obrazu.`SetTag`Metoda ta taguje rysunek, ułatwiając późniejsze odwoływanie się do niego.
+To jest ostatni szlif. Nadajemy naszemu obrazowi opisowy tekst alternatywny (który jest przydatny dla czytników ekranu), tytuł i ustawiamy rzeczywisty plik obrazu. `SetTag` Metoda ta taguje rysunek, ułatwiając późniejsze odwoływanie się do niego.
 
- Ważna uwaga: Upewnij się, że ścieżka obrazu w`SetImage` wskazuje na prawidłowy plik obrazu na twoim komputerze.
+Ważna uwaga: Upewnij się, że ścieżka obrazu w `SetImage` wskazuje na prawidłowy plik obrazu na twoim komputerze.
 
 ## Krok 7: Zapisywanie oznaczonego dokumentu PDF
 
@@ -132,16 +134,18 @@ Tagowany plik PDF to plik PDF zawierający tagi lub etykiety służące do ident
 Tekst alternatywny zawiera opisy obrazów, które mogą być odczytane przez czytniki ekranu, co ułatwia dostęp do nich osobom z dysfunkcją wzroku.
 
 ### Czy mogę dodać wiele obrazów do tagowanego pliku PDF?
- Tak! Możesz utworzyć wiele`FigureElement` obiekty i dołącz każdy z nich do dokumentu, tak jak zrobiliśmy to z pojedynczym obrazem.
+Tak! Możesz utworzyć wiele `FigureElement` obiekty i dołącz każdy z nich do dokumentu, tak jak zrobiliśmy to z pojedynczym obrazem.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF na platformie .NET?
- Tak, Aspose.PDF jest płatną biblioteką, ale możesz ją pobrać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub zacznij od[bezpłatny okres próbny](https://releases.aspose.com/).
+Tak, Aspose.PDF jest płatną biblioteką, ale możesz ją pobrać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub zacznij od [bezpłatny okres próbny](https://releases.aspose.com/).
 
-### Czy można zmodyfikować element rysunku po utworzeniu pliku PDF?
-Po zapisaniu pliku PDF nie można go bezpośrednio modyfikować, ale można otworzyć dokument ponownie, wprowadzić zmiany i zapisać go jeszcze raz za pomocą programu Aspose.PDF.
+### Czy można modyfikować element rysunku po utworzeniu pliku PDF?
+Po zapisaniu pliku PDF nie można go bezpośrednio modyfikować, ale można otworzyć dokument ponownie, wprowadzić zmiany i zapisać go ponownie za pomocą programu Aspose.PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

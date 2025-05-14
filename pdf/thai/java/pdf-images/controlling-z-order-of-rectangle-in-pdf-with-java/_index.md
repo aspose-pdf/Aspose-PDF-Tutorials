@@ -1,14 +1,16 @@
 ---
-title: การควบคุมลำดับ Z ของสี่เหลี่ยมผืนผ้าใน PDF ด้วย Java
-linktitle: การควบคุมลำดับ Z ของสี่เหลี่ยมผืนผ้าใน PDF ด้วย Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีควบคุมลำดับ Z ของรูปสี่เหลี่ยมผืนผ้าใน PDF ด้วย Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการจัดการ PDF อย่างแม่นยำ
-weight: 11
-url: /th/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/
+"description": "เรียนรู้วิธีควบคุมลำดับ Z ของรูปสี่เหลี่ยมผืนผ้าใน PDF ด้วย Java โดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการจัดการ PDF อย่างแม่นยำ"
+"linktitle": "การควบคุมลำดับ Z ของสี่เหลี่ยมผืนผ้าใน PDF ด้วย Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "การควบคุมลำดับ Z ของสี่เหลี่ยมผืนผ้าใน PDF ด้วย Java"
+"url": "/th/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การควบคุมลำดับ Z ของสี่เหลี่ยมผืนผ้าใน PDF ด้วย Java
@@ -35,7 +37,7 @@ url: /th/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/
 ก่อนที่คุณจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
 - การตั้งค่าสภาพแวดล้อมการพัฒนา Java
--  ติดตั้ง Aspose.PDF สำหรับไลบรารี Java แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- ติดตั้ง Aspose.PDF สำหรับไลบรารี Java แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## คำแนะนำทีละขั้นตอน
 
@@ -92,7 +94,7 @@ pdfDocument.save("output.pdf");
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
-หากต้องการติดตั้ง Aspose.PDF สำหรับ Java คุณสามารถดาวน์โหลดไลบรารีได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/) และรวมไฟล์ JAR ลงในส่วนที่ต้องมีของโครงการ Java ของคุณ
+หากต้องการติดตั้ง Aspose.PDF สำหรับ Java คุณสามารถดาวน์โหลดไลบรารีได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/) และรวมไฟล์ JAR ลงในส่วนที่ต้องมีของโครงการ Java ของคุณ
 
 ### ฉันสามารถควบคุมลำดับ Z ขององค์ประกอบ PDF อื่นๆ นอกเหนือจากรูปสี่เหลี่ยมผืนผ้าได้หรือไม่
 
@@ -108,10 +110,12 @@ pdfDocument.save("output.pdf");
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถสำรวจเอกสารรายละเอียดและตัวอย่างโค้ดเพิ่มเติมได้ที่[เอกสาร Aspose.PDF สำหรับ Java](https://reference.aspose.com/pdf/java/) หน้าหนังสือ.
+คุณสามารถสำรวจเอกสารรายละเอียดและตัวอย่างโค้ดเพิ่มเติมได้ที่ [เอกสาร Aspose.PDF สำหรับ Java](https://reference.aspose.com/pdf/java/) หน้าหนังสือ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

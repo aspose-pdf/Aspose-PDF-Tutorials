@@ -8,7 +8,9 @@ url: /net/programming-with-tables/add-image-in-a-table-cell/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Image in a Table Cell
@@ -214,6 +216,7 @@ You can visit the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) for 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

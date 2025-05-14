@@ -1,14 +1,16 @@
 ---
-title: Thêm hình ảnh vào tệp PDF
-linktitle: Thêm hình ảnh vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm hình ảnh vào tệp PDF theo chương trình bằng Aspose.PDF cho .NET. Hướng dẫn từng bước, mã ví dụ và Câu hỏi thường gặp được bao gồm để triển khai liền mạch.
-weight: 10
-url: /vi/net/programming-with-images/add-image/
+"description": "Tìm hiểu cách thêm hình ảnh vào tệp PDF theo chương trình bằng Aspose.PDF cho .NET. Hướng dẫn từng bước, mã ví dụ và Câu hỏi thường gặp được bao gồm để triển khai liền mạch."
+"linktitle": "Thêm hình ảnh vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm hình ảnh vào tệp PDF"
+"url": "/vi/net/programming-with-images/add-image/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm hình ảnh vào tệp PDF
@@ -21,7 +23,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để chèn hình ảnh vào t�
 
 Trước khi đi sâu vào mã, chúng ta hãy xem qua nhanh các yêu cầu cơ bản bạn cần để bắt đầu:
 
-- Thư viện Aspose.PDF cho .NET: Tải xuống và cài đặt phiên bản mới nhất từ[đây](https://releases.aspose.com/pdf/net/).
+- Thư viện Aspose.PDF cho .NET: Tải xuống và cài đặt phiên bản mới nhất từ [đây](https://releases.aspose.com/pdf/net/).
 - Môi trường phát triển .NET: Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn.
 - Kiến thức cơ bản về C#: Có kiến thức cơ bản về lập trình C# và các nguyên tắc hướng đối tượng.
 - Tệp PDF và hình ảnh: Một tệp PDF mẫu và một hình ảnh cần chèn.
@@ -36,7 +38,7 @@ using Aspose.Pdf;
 using System;
 ```
 
-Những thao tác nhập này sẽ giúp bạn tương tác với các tài liệu PDF, thao tác nội dung của chúng và xử lý luồng tệp hiệu quả.
+Những thao tác nhập này sẽ giúp bạn tương tác với các tài liệu PDF, thao tác nội dung của chúng và xử lý luồng tập tin một cách hiệu quả.
 
 Bây giờ, chúng ta hãy chia nhỏ nhiệm vụ thêm hình ảnh vào tài liệu PDF thành các bước dễ thực hiện.
 
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Mở tài liệu
 Document pdfDocument = new Document(dataDir + "AddImage.pdf");
 ```
- Các`Document`lớp từ Aspose.PDF được sử dụng để mở và làm việc với tệp PDF hiện có. Bạn sẽ cần chỉ định đường dẫn thư mục nơi tệp PDF của bạn được lưu trữ.
+Các `Document` lớp từ Aspose.PDF được sử dụng để mở và làm việc với tệp PDF hiện có. Bạn sẽ cần chỉ định đường dẫn thư mục nơi tệp PDF của bạn được lưu trữ.
 
 ## Bước 2: Xác định tọa độ hình ảnh
 
@@ -74,7 +76,7 @@ Tiếp theo, bạn cần chỉ định trang nào trong PDF mà bạn muốn th�
 // Lấy trang cần thêm hình ảnh
 Page page = pdfDocument.Pages[1];
 ```
-Trong ví dụ này, chúng tôi đang thêm hình ảnh vào trang đầu tiên của PDF (Trang[1] đề cập đến trang đầu tiên vì đây là trang được lập chỉ mục theo một trang).
+Trong ví dụ này, chúng tôi đang thêm hình ảnh vào trang đầu tiên của PDF (Pages[1] đề cập đến trang đầu tiên vì đây là chỉ mục dựa trên một trang).
 
 ## Bước 4: Tải hình ảnh vào luồng
 
@@ -84,7 +86,7 @@ Bây giờ, hãy tải hình ảnh từ thư mục của bạn vào luồng đ�
 // Tải hình ảnh vào luồng
 FileStream imageStream = new FileStream(dataDir + "aspose-logo.jpg", FileMode.Open);
 ```
- Các`FileStream` lớp được sử dụng để mở tệp hình ảnh. Tệp hình ảnh (`aspose-logo.jpg`) được tải từ thư mục được chỉ định và mở ở chế độ đọc (`FileMode.Open`).
+Các `FileStream` lớp được sử dụng để mở tệp hình ảnh. Tệp hình ảnh (`aspose-logo.jpg`) được tải từ thư mục được chỉ định và mở ở chế độ đọc (`FileMode.Open`).
 
 ## Bước 5: Thêm hình ảnh vào trang PDF Tài nguyên
 
@@ -98,28 +100,28 @@ Bước này thêm hình ảnh vào bộ sưu tập tài nguyên của trang. H�
 
 ## Bước 6: Lưu trạng thái đồ họa hiện tại
 
- Trước khi đặt hình ảnh trên trang, bạn nên lưu trạng thái đồ họa hiện tại bằng cách sử dụng`GSave` Toán tử. Điều này đảm bảo rằng bất kỳ chuyển đổi nào được áp dụng cho hình ảnh sẽ không ảnh hưởng đến phần còn lại của tài liệu.
+Trước khi đặt hình ảnh trên trang, bạn nên lưu trạng thái đồ họa hiện tại bằng cách sử dụng `GSave` Toán tử. Điều này đảm bảo rằng bất kỳ chuyển đổi nào được áp dụng cho hình ảnh sẽ không ảnh hưởng đến phần còn lại của tài liệu.
 
 ```csharp
-//Sử dụng toán tử GSave: toán tử này lưu trạng thái đồ họa hiện tại
+// Sử dụng toán tử GSave: toán tử này lưu trạng thái đồ họa hiện tại
 page.Contents.Add(new Aspose.Pdf.Operators.GSave());
 ```
- Các`GSave` Người vận hành lưu các thiết lập đồ họa hiện tại, sau này cho phép bạn khôi phục chúng, đảm bảo rằng vị trí đặt hình ảnh không làm ảnh hưởng đến các nội dung khác trên trang.
+Các `GSave` Người vận hành sẽ lưu các thiết lập đồ họa hiện tại, sau đó cho phép bạn khôi phục chúng, đảm bảo rằng vị trí đặt hình ảnh không làm ảnh hưởng đến các nội dung khác trên trang.
 
 ## Bước 7: Xác định vị trí hình ảnh bằng hình chữ nhật và ma trận
 
- Bây giờ, hãy tạo một`Rectangle` đối tượng xác định vị trí hình ảnh sẽ được định vị trên trang và`Matrix` để kiểm soát vị trí và tỷ lệ.
+Bây giờ, tạo một `Rectangle` đối tượng xác định vị trí hình ảnh sẽ được định vị trên trang và `Matrix` để kiểm soát vị trí và tỷ lệ.
 
 ```csharp
 // Tạo các đối tượng Hình chữ nhật và Ma trận
 Aspose.Pdf.Rectangle rectangle = new Aspose.Pdf.Rectangle(lowerLeftX, lowerLeftY, upperRightX, upperRightY);
 Matrix matrix = new Matrix(new double[] { rectangle.URX - rectangle.LLX, 0, 0, rectangle.URY - rectangle.LLY, rectangle.LLX, rectangle.LLY });
 ```
- Các`Rectangle` xác định tọa độ của hình ảnh trên trang PDF và`Matrix` đảm bảo tỷ lệ và vị trí chính xác.
+Các `Rectangle` xác định tọa độ của hình ảnh trên trang PDF và `Matrix` đảm bảo tỷ lệ và vị trí chính xác.
 
 ## Bước 8: Nối Ma trận để Đặt Hình ảnh
 
- Các`ConcatenateMatrix` toán tử được sử dụng để áp dụng phép biến đổi ma trận, đảm bảo hình ảnh được đặt đúng vị trí.
+Các `ConcatenateMatrix` toán tử được sử dụng để áp dụng phép biến đổi ma trận, đảm bảo hình ảnh được đặt đúng vị trí.
 
 ```csharp
 // Sử dụng toán tử ConcatenateMatrix (ma trận nối): xác định cách hình ảnh phải được đặt
@@ -129,18 +131,18 @@ Sự chuyển đổi này đảm bảo hình ảnh được đặt đúng vị t
 
 ## Bước 9: Hiển thị hình ảnh trên trang PDF
 
- Cuối cùng, sử dụng`Do` để thực sự hiển thị hình ảnh lên trang PDF.
+Cuối cùng, sử dụng `Do` để thực sự hiển thị hình ảnh lên trang PDF.
 
 ```csharp
 XImage ximage = page.Resources.Images[page.Resources.Images.Count];
 // Sử dụng toán tử Do: toán tử này vẽ hình ảnh
 page.Contents.Add(new Aspose.Pdf.Operators.Do(ximage.Name));
 ```
- Các`Do` Người vận hành vẽ hình ảnh tại vị trí được xác định bởi phép biến đổi ma trận trước đó.
+Các `Do` Người vận hành vẽ hình ảnh tại vị trí được xác định bởi phép biến đổi ma trận trước đó.
 
 ## Bước 10: Khôi phục trạng thái đồ họa
 
- Sau khi hình ảnh được thêm vào, hãy khôi phục trạng thái đồ họa trước đó bằng cách sử dụng`GRestore` người điều hành.
+Sau khi hình ảnh được thêm vào, hãy khôi phục trạng thái đồ họa trước đó bằng cách sử dụng `GRestore` người điều hành.
 
 ```csharp
 // Sử dụng toán tử GRestore: toán tử này khôi phục trạng thái đồ họa
@@ -157,11 +159,11 @@ dataDir = dataDir + "AddImage_out.pdf";
 // Lưu tài liệu đã cập nhật
 pdfDocument.Save(dataDir);
 ```
- Các`Save` Phương pháp này được sử dụng để lưu tài liệu PDF có thêm hình ảnh và tệp đã cập nhật được lưu với tên "AddImage_out.pdf".
+Các `Save` Phương pháp này được sử dụng để lưu tài liệu PDF có thêm hình ảnh và tệp đã cập nhật được lưu với tên "AddImage_out.pdf".
 
 ## Phần kết luận
 
-Chèn hình ảnh vào tệp PDF bằng Aspose.PDF cho .NET rất đơn giản khi bạn chia nhỏ từng bước. Bằng cách sử dụng các toán tử khác nhau như`GSave`, `ConcatenateMatrix` , Và`Do`, bạn có thể dễ dàng kiểm soát vị trí và hiển thị hình ảnh trong tài liệu PDF của mình. Kỹ thuật này rất cần thiết để tùy chỉnh và gắn nhãn hiệu cho các tệp PDF bằng logo, hình mờ hoặc bất kỳ hình ảnh nào khác.
+Chèn hình ảnh vào tệp PDF bằng Aspose.PDF cho .NET rất đơn giản khi bạn chia nhỏ từng bước. Bằng cách sử dụng các toán tử khác nhau như `GSave`, `ConcatenateMatrix`, Và `Do`, bạn có thể dễ dàng kiểm soát vị trí và hiển thị hình ảnh trong tài liệu PDF của mình. Kỹ thuật này rất cần thiết để tùy chỉnh và gắn nhãn hiệu cho các tệp PDF bằng logo, hình mờ hoặc bất kỳ hình ảnh nào khác.
 
 ## Câu hỏi thường gặp
 
@@ -179,9 +181,11 @@ Có, bạn có thể tải và chèn hình ảnh động bằng cách cung cấp
 
 ### Aspose.PDF có cho phép thêm hình ảnh hàng loạt vào nhiều trang không?  
 Có, bạn có thể lặp qua các trang trong một tài liệu và thêm hình ảnh vào nhiều trang bằng cách sử dụng phương pháp tương tự.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

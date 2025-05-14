@@ -1,34 +1,36 @@
 ---
-title: Signaturinformationen extrahieren
-linktitle: Signaturinformationen extrahieren
-second_title: Aspose.PDF für .NET API-Referenz
-description: Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen und Zertifikatsinformationen aus PDF-Dokumenten extrahieren. Eine vollständige Schritt-für-Schritt-Anleitung für C#-Entwickler.
-weight: 80
-url: /de/net/programming-with-security-and-signatures/extract-signature-info/
+"description": "Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen und Zertifikatsinformationen aus PDF-Dokumenten extrahieren. Eine vollständige Schritt-für-Schritt-Anleitung für C#-Entwickler."
+"linktitle": "Signaturinformationen extrahieren"
+"second_title": "Aspose.PDF für .NET API-Referenz"
+"title": "Signaturinformationen extrahieren"
+"url": "/de/net/programming-with-security-and-signatures/extract-signature-info/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Signaturinformationen extrahieren
 
 ## Einführung
 
-In der heutigen digitalen Welt ist die Gewährleistung der Sicherheit und Integrität von Dokumenten von entscheidender Bedeutung. Eine der gängigen Methoden zum Sichern von PDFs ist das Hinzufügen einer digitalen Signatur. Das Abrufen und Überprüfen der Signaturdetails kann jedoch manchmal eine Herausforderung sein, insbesondere wenn Sie mit verschiedenen Zertifikaten arbeiten. In diesem Handbuch führen wir Sie durch den Prozess des Extrahierens von Signaturinformationen aus PDF-Dokumenten mit Aspose.PDF für .NET und machen die Aufgabe zu einem Kinderspiel. Sie erfahren, wie Sie auf Signaturfelder zugreifen, Zertifikatsinformationen extrahieren und in einer Datei speichern.
+In der heutigen digitalen Welt ist die Gewährleistung der Sicherheit und Integrität von Dokumenten entscheidend. Eine gängige Methode zum Sichern von PDFs ist das Hinzufügen einer digitalen Signatur. Das Abrufen und Überprüfen der Signaturdetails kann jedoch manchmal eine Herausforderung darstellen, insbesondere bei der Verwendung verschiedener Zertifikate. In dieser Anleitung führen wir Sie durch den Prozess des Extrahierens von Signaturinformationen aus PDF-Dokumenten mit Aspose.PDF für .NET und machen die Aufgabe zum Kinderspiel. Sie erfahren, wie Sie auf Signaturfelder zugreifen, Zertifikatsinformationen extrahieren und in einer Datei speichern.
 
 ## Voraussetzungen
 
 Bevor wir beginnen, stellen wir sicher, dass Sie alles für den Start bereit haben.
 
--  Aspose.PDF für .NET-Bibliothek: Wenn Sie es noch nicht haben, können Sie es von der[Aspose.PDF für .NET-Downloadseite](https://releases.aspose.com/pdf/net/). 
+- Aspose.PDF für .NET-Bibliothek: Wenn Sie es noch nicht haben, können Sie es von der [Aspose.PDF für .NET-Downloadseite](https://releases.aspose.com/pdf/net/). 
 - .NET-Entwicklungsumgebung: Sie benötigen eine IDE wie Visual Studio.
-- Grundlegende C#-Kenntnisse: Zum Verständnis der Codeausschnitte in diesem Tutorial sind Kenntnisse in C# hilfreich.
+- Grundlegende C#-Kenntnisse: Kenntnisse in C# sind hilfreich, um die Codeausschnitte in diesem Tutorial zu verstehen.
 - PDF-Dokument mit digitaler Signatur: Stellen Sie zu Testzwecken sicher, dass Sie über eine PDF-Datei verfügen, die mindestens eine digitale Signatur enthält.
 
 ## Importieren erforderlicher Namespaces
 
-Bevor Sie mit dem Code beginnen, müssen Sie die erforderlichen Namespaces importieren. Mit diesen Namespaces können Sie auf die Aspose.PDF-Funktionalität zugreifen und mit PDF-Dokumenten arbeiten.
+Bevor Sie mit dem Code beginnen, ist es wichtig, die erforderlichen Namespaces zu importieren. Diese Namespaces ermöglichen Ihnen den Zugriff auf die Aspose.PDF-Funktionalität und die Arbeit mit PDF-Dokumenten.
 
 ```csharp
 using System.IO;
@@ -37,14 +39,14 @@ using Aspose.Pdf;
 using System;
 ```
 
-Nachdem Sie nun die Grundlagen eingerichtet haben, fahren wir mit dem eigentlichen Vorgang fort: dem Extrahieren von Signaturinformationen aus einer PDF-Datei.
+Nachdem Sie nun die Grundlagen eingerichtet haben, fahren wir mit dem eigentlichen Vorgang des Extrahierens der Signaturinformationen aus einer PDF-Datei fort.
 
 ## Schritt 1: Einrichten des Dokumentverzeichnisses
 
- Bevor Sie an einem PDF-Dokument arbeiten, müssen Sie den Speicherort der zu verwendenden Datei angeben. Sie können ersetzen`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad des Verzeichnisses, in dem Ihre PDFs gespeichert sind.
+Bevor Sie ein PDF-Dokument bearbeiten, müssen Sie den Speicherort der zu verwendenden Datei angeben. Sie können `"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad des Verzeichnisses, in dem Ihre PDFs gespeichert sind.
 
 ```csharp
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string input = dataDir + "ExtractSignatureInfo.pdf";
 ```
@@ -53,33 +55,33 @@ Hier geben wir das Verzeichnis an, in dem sich die PDF-Datei befindet, sowie den
 
 ## Schritt 2: Laden des PDF-Dokuments
 
- Nachdem Sie nun Ihr Verzeichnis eingerichtet haben, besteht der nächste Schritt darin, das PDF-Dokument mit dem`Document` Klasse von Aspose.PDF.
+Nachdem Sie nun Ihr Verzeichnis eingerichtet haben, besteht der nächste Schritt darin, das PDF-Dokument mit dem `Document` Klasse von Aspose.PDF.
 
 ```csharp
 using (Document pdfDocument = new Document(input))
 {
-    // Hier das PDF verarbeiten.
+    // Bearbeiten Sie hier das PDF.
 }
 ```
 
- Diese Codezeile initialisiert eine`Document`Objekt, das die PDF-Datei darstellt. Das`using` Anweisung stellt sicher, dass die Ressourcen nach der Verarbeitung des Dokuments bereinigt werden.
+Diese Codezeile initialisiert eine `Document` Objekt, das die PDF-Datei darstellt. Das `using` Anweisung stellt sicher, dass die Ressourcen nach der Verarbeitung des Dokuments bereinigt werden.
 
-## Schritt 3: Auf Formularfelder zugreifen
+## Schritt 3: Zugriff auf Formularfelder
 
-In diesem Schritt durchlaufen wir alle Formularfelder im PDF-Dokument. Da Signaturen normalerweise als Formularfelder gespeichert werden, hilft uns dieser Schritt dabei, die Signaturfelder zu identifizieren.
+In diesem Schritt durchlaufen wir alle Formularfelder im PDF-Dokument. Da Signaturen üblicherweise als Formularfelder gespeichert werden, hilft uns dieser Schritt, die Signaturfelder zu identifizieren.
 
 ```csharp
 foreach (Field field in pdfDocument.Form)
 {
-    // Signaturfelder hier identifizieren.
+    // Identifizieren Sie hier Signaturfelder.
 }
 ```
 
- Durch Iteration durch die`Form` Eigentum der`Document` Objekt können wir jedes Formularfeld untersuchen, um zu überprüfen, ob es ein Signaturfeld ist.
+Durch Iteration durch die `Form` Eigentum der `Document` Objekt können wir jedes Formularfeld untersuchen, um zu prüfen, ob es ein Signaturfeld ist.
 
 ## Schritt 4: Signaturfelder identifizieren
 
- Nachdem Sie auf die Formularfelder zugegriffen haben, müssen Sie im nächsten Schritt feststellen, welche davon Signaturfelder sind. Dies können wir tun, indem wir jedes Feld in ein`SignatureField` Objekt.
+Nachdem Sie die Formularfelder aufgerufen haben, müssen Sie im nächsten Schritt die Signaturfelder identifizieren. Dies erreichen Sie, indem Sie jedes Feld in ein `SignatureField` Objekt.
 
 ```csharp
 SignatureField sf = field as SignatureField;
@@ -89,21 +91,21 @@ if (sf != null)
 }
 ```
 
- Hier verwenden wir die`as` Schlüsselwort, um zu versuchen, jedes Formularfeld in ein`SignatureField`Wenn der Cast erfolgreich ist, wissen wir, dass das Feld eine Signatur ist.
+Hier verwenden wir die `as` Schlüsselwort, um zu versuchen, jedes Formularfeld in ein `SignatureField`Wenn die Übertragung erfolgreich ist, wissen wir, dass das Feld eine Signatur ist.
 
 ## Schritt 5: Extrahieren des Zertifikats
 
-Nachdem Sie nun das Signaturfeld identifiziert haben, besteht die nächste Aufgabe darin, das Zertifikat aus der Signatur zu extrahieren. Zertifikate enthalten wichtige Informationen über den Unterzeichner und die Gültigkeit der Signatur.
+Nachdem Sie das Signaturfeld identifiziert haben, besteht die nächste Aufgabe darin, das Zertifikat aus der Signatur zu extrahieren. Zertifikate enthalten wichtige Informationen über den Unterzeichner und die Gültigkeit der Signatur.
 
 ```csharp
 Stream cerStream = sf.ExtractCertificate();
 ```
 
- Der`ExtractCertificate` Methode gibt einen`Stream` Objekt, das die Zertifikatsdaten enthält. Dieser Stream kann verwendet werden, um das Zertifikat zur weiteren Analyse oder Speicherung zu speichern.
+Der `ExtractCertificate` Methode gibt einen `Stream` Objekt, das die Zertifikatsdaten enthält. Dieser Stream kann verwendet werden, um das Zertifikat für weitere Analysen oder zur Speicherung zu speichern.
 
 ## Schritt 6: Speichern des Zertifikats in einer Datei
 
- Nachdem Sie das Zertifikat extrahiert haben, müssen Sie es im letzten Schritt in einer Datei speichern. In diesem Fall speichern wir das Zertifikat als`.cer` Datei.
+Nachdem Sie das Zertifikat extrahiert haben, speichern Sie es abschließend in einer Datei. In diesem Fall speichern wir das Zertifikat als `.cer` Datei.
 
 ```csharp
 if (cerStream != null)
@@ -122,18 +124,18 @@ if (cerStream != null)
 
 In diesem Codeblock führen wir Folgendes aus:
 
-1. Überprüfen Sie, ob der Zertifikatsstrom nicht null ist.
+1. Überprüfen Sie, ob der Zertifikatsstream nicht null ist.
 2. Lesen Sie die Zertifikatsdaten in ein Byte-Array.
-3.  Schreiben Sie das Byte-Array in ein`.cer` Datei im Dokumentverzeichnis.
+3. Schreiben Sie das Byte-Array in ein `.cer` Datei im Dokumentverzeichnis.
 
 ## Abschluss
 
-Das Extrahieren digitaler Signaturen und der zugehörigen Zertifikatsinformationen aus PDF-Dokumenten mit Aspose.PDF für .NET ist recht unkompliziert, wenn man es in einfache Schritte unterteilt. Egal, ob Sie Dokumente prüfen, Signaturen verifizieren oder einfach nur Zertifikate zur sicheren Aufbewahrung speichern, dieses Tutorial vermittelt Ihnen das Wissen, um dies effizient zu erledigen. Denken Sie daran, dass das Sichern und Verifizieren von Dokumenten in der heutigen digitalen Welt von entscheidender Bedeutung ist und die Verwendung von Tools wie Aspose.PDF für .NET die Handhabung erheblich vereinfacht.
+Das Extrahieren digitaler Signaturen und der zugehörigen Zertifikatsinformationen aus PDF-Dokumenten mit Aspose.PDF für .NET ist in wenigen Schritten ganz einfach. Ob Sie Dokumente prüfen, Signaturen verifizieren oder Zertifikate einfach zur sicheren Aufbewahrung speichern – dieses Tutorial vermittelt Ihnen das Wissen, um dies effizient zu erledigen. Denken Sie daran: Die Sicherung und Verifizierung von Dokumenten ist in der heutigen digitalen Welt von entscheidender Bedeutung. Tools wie Aspose.PDF für .NET vereinfachen die Handhabung erheblich.
 
 ## Häufig gestellte Fragen
 
-### Kann ich mit Aspose.PDF für .NET mehrere Signaturen aus einer PDF extrahieren?
-Ja, der Code durchläuft alle Formularfelder im Dokument und ermöglicht Ihnen, mehrere Signaturen zu extrahieren, falls welche vorhanden sind.
+### Kann ich mit Aspose.PDF für .NET mehrere Signaturen aus einer PDF-Datei extrahieren?
+Ja, der Code durchläuft alle Formularfelder im Dokument und ermöglicht Ihnen, mehrere Signaturen zu extrahieren, falls vorhanden.
 
 ### Was passiert, wenn im PDF keine Signatur gefunden wird?
 Wenn keine Signaturfelder vorhanden sind, überspringt der Code sie einfach, ohne einen Fehler zu verursachen.
@@ -141,14 +143,16 @@ Wenn keine Signaturfelder vorhanden sind, überspringt der Code sie einfach, ohn
 ### Kann ich mit diesem Ansatz die Gültigkeit einer Signatur überprüfen?
 Sie können zwar das Zertifikat extrahieren, zur Überprüfung der Gültigkeit einer Signatur sind jedoch zusätzliche Schritte erforderlich, beispielsweise die Überprüfung der Vertrauenskette des Zertifikats.
 
-### Ist es möglich, mit Aspose.PDF für .NET Daten aus anderen Formularfeldern zu extrahieren?
-Ja, Aspose.PDF ermöglicht Ihnen den Zugriff auf und die Bearbeitung verschiedener Arten von Formularfeldern in einer PDF-Datei, nicht nur von Signaturfeldern.
+### Ist es möglich, mit Aspose.PDF für .NET andere Formularfelddaten zu extrahieren?
+Ja, mit Aspose.PDF können Sie auf verschiedene Arten von Formularfeldern in einer PDF-Datei zugreifen und diese bearbeiten, nicht nur auf Signaturfelder.
 
 ### Wie kann ich die Details des extrahierten Zertifikats anzeigen?
- Sobald das Zertifikat als`.cer` Datei können Sie sie mit einem beliebigen Zertifikatsbetrachter öffnen oder zur weiteren Überprüfung in einen Systemzertifikatspeicher importieren.
+Sobald das Zertifikat als `.cer` Datei können Sie sie mit einem beliebigen Zertifikatsanzeigeprogramm öffnen oder zur weiteren Überprüfung in einen Systemzertifikatsspeicher importieren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

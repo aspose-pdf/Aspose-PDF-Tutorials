@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'ye Şeffaf Renkli Çizim Nasıl Eklenir
-linktitle: Java kullanarak PDF'ye Şeffaf Renkli Çizim Nasıl Eklenir
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java ve Java için Aspose.PDF kullanarak PDF'lere şeffaf renklerle çizimler eklemeyi öğrenin. Adım adım kılavuz ve kod örnekleriyle dinamik, görsel olarak çekici PDF'ler oluşturun.
-weight: 14
-url: /tr/java/pdf-page-manipulation/how-to-add-drawing-with-transparent-color-in-pdf-using-java/
+"description": "Java ve Java için Aspose.PDF kullanarak PDF'lere şeffaf renklerle çizimler eklemeyi öğrenin. Adım adım kılavuz ve kod örnekleriyle dinamik, görsel olarak çekici PDF'ler oluşturun."
+"linktitle": "Java kullanarak PDF'ye Şeffaf Renkli Çizim Nasıl Eklenir"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'ye Şeffaf Renkli Çizim Nasıl Eklenir"
+"url": "/tr/java/pdf-page-manipulation/how-to-add-drawing-with-transparent-color-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'ye Şeffaf Renkli Çizim Nasıl Eklenir
@@ -16,21 +18,21 @@ url: /tr/java/pdf-page-manipulation/how-to-add-drawing-with-transparent-color-in
 
 ## giriiş
 
-Bu eğitimde, Java ve Aspose.PDF for Java API'sini kullanarak PDF belgelerine şeffaf renklerle çizimlerin nasıl ekleneceğini inceleyeceğiz. Şeffaf renklerle çizimler eklemek, görsel olarak çekici ve dinamik PDF belgeleri oluşturmak istediğinizde kullanışlı bir özellik olabilir. Ortamı kurma, PDF belgesi oluşturma, çizimler ekleme ve bu çizimlerde kullanılan renkler için şeffaflığı sağlama dahil olmak üzere tüm süreci adım adım ele alacağız.
+Bu eğitimde, Java ve Aspose.PDF for Java API'sini kullanarak PDF belgelerine şeffaf renklerle çizimlerin nasıl ekleneceğini inceleyeceğiz. Şeffaf renklerle çizimler eklemek, görsel olarak çekici ve dinamik PDF belgeleri oluşturmak istediğinizde kullanışlı bir özellik olabilir. Ortamı ayarlama, PDF belgesi oluşturma, çizimler ekleme ve bu çizimlerde kullanılan renkler için şeffaflığı sağlama dahil olmak üzere tüm süreci adım adım ele alacağız.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 - Sisteminizde Java Development Kit (JDK) yüklü.
--  Java kütüphanesi için Aspose.PDF'i buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF'i buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 - Eclipse veya IntelliJ IDEA gibi Entegre Geliştirme Ortamı (IDE).
 
 ## Projenin Kurulumu
 
 1. IDE'nizde yeni bir Java projesi oluşturun.
 
-2. Projenizin sınıf yoluna Aspose.PDF for Java kütüphanesini ekleyin.
+2. Aspose.PDF for Java kütüphanesini projenizin sınıf yoluna ekleyin.
 
 ## PDF Belgesi Oluşturma
 
@@ -50,7 +52,7 @@ public class AddDrawingToPDF {
 }
 ```
 
- Bu kodda, şunu içe aktarıyoruz:`Document`Aspose.PDF'den sınıfını seçip yeni bir PDF belgesi oluşturuyoruz. Daha sonra belgeyi "output.pdf" adlı bir dosyaya kaydediyoruz.
+Bu kodda, şunu içe aktarıyoruz: `Document` Aspose.PDF'den sınıfını seçip yeni bir PDF belgesi oluşturuyoruz. Daha sonra belgeyi "output.pdf" adlı bir dosyaya kaydediyoruz.
 
 ## Şeffaf Renkli Çizimler Ekleme
 
@@ -104,14 +106,16 @@ Kesinlikle! Aspose.PDF for Java API'sini kullanarak şeffaf renklerle daireler, 
 
 ### PDF belgesini farklı bir ad veya konumla nasıl kaydedebilirim?
 
- Çağrı sırasında istediğiniz dosya yolunu ve adını belirtebilirsiniz.`save` yöntem üzerinde`Document`nesne. Sadece dosya adı ve uzantısı dahil olmak üzere tam yolu sağlayın.
+Çağrı sırasında istediğiniz dosya yolunu ve adını belirtebilirsiniz. `save` yöntem üzerinde `Document` nesne. Sadece dosya adı ve uzantısı dahil olmak üzere tam yolu sağlayın.
 
 ### Java için Aspose.PDF hakkında daha fazla bilgi ve belgeyi nerede bulabilirim?
 
- Java belgeleri için Aspose.PDF'e şu adresten başvurabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/) API'nin kullanımı hakkında kapsamlı bilgi, ayrıntılı kod örnekleri ve kılavuzlar için.
+Java belgeleri için Aspose.PDF'e şu adresten başvurabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/) API'nin kullanımı hakkında kapsamlı bilgi, ayrıntılı kod örnekleri ve kılavuzlar için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

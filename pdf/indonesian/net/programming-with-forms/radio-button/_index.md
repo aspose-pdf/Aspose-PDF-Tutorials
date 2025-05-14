@@ -1,14 +1,16 @@
 ---
-title: Tombol Radio
-linktitle: Tombol Radio
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat tombol radio interaktif dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini.
-weight: 220
-url: /id/net/programming-with-forms/radio-button/
+"description": "Pelajari cara membuat tombol radio interaktif dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini."
+"linktitle": "Tombol Radio"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tombol Radio"
+"url": "/id/net/programming-with-forms/radio-button/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tombol Radio
@@ -22,7 +24,7 @@ Membuat PDF interaktif dapat meningkatkan pengalaman pengguna secara signifikan,
 Sebelum menyelami kodenya, ada beberapa prasyarat yang perlu Anda penuhi:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan Anda.
-2.  Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -49,11 +51,11 @@ Pertama, Anda perlu menentukan direktori tempat PDF Anda akan disimpan. Ini pent
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF Anda.
 
 ## Langkah 2: Buat Instansiasi Objek Dokumen
 
- Selanjutnya, Anda perlu membuat instance dari`Document` kelas. Kelas ini mewakili dokumen PDF Anda.
+Selanjutnya, Anda perlu membuat instance dari `Document` kelas. Kelas ini mewakili dokumen PDF Anda.
 
 ```csharp
 Document pdfDocument = new Document();
@@ -73,7 +75,7 @@ Baris ini menambahkan halaman baru ke dokumen PDF Anda, membuatnya siap untuk ko
 
 ## Langkah 4: Buat Bidang Tombol Radio
 
- Sekarang saatnya membuat bidang tombol radio. Anda akan membuat instance`RadioButtonField` objek dan tentukan nomor halaman di mana objek tersebut akan ditempatkan.
+Sekarang saatnya membuat bidang tombol radio. Anda akan membuat instance `RadioButtonField` objek dan tentukan nomor halaman di mana objek tersebut akan ditempatkan.
 
 ```csharp
 RadioButtonField radio = new RadioButtonField(pdfDocument.Pages[1]);
@@ -90,7 +92,7 @@ radio.AddOption("Test", new Rectangle(0, 0, 20, 20));
 radio.AddOption("Test1", new Rectangle(20, 20, 40, 40));
 ```
 
- Dalam contoh ini, kami menambahkan dua opsi: "Test" dan "Test1".`Rectangle` objek menentukan posisi dan ukuran setiap opsi.
+Dalam contoh ini, kami menambahkan dua opsi: "Test" dan "Test1". `Rectangle` objek menentukan posisi dan ukuran setiap opsi.
 
 ## Langkah 6: Tambahkan Tombol Radio ke Formulir Dokumen
 
@@ -136,19 +138,21 @@ Membuat tombol radio dalam PDF menggunakan Aspose.PDF for .NET merupakan proses 
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Apakah mungkin untuk membuat bidang formulir lain menggunakan Aspose.PDF?
 Tentu saja! Aspose.PDF mendukung berbagai bidang formulir, termasuk bidang teks, kotak centang, dan dropdown.
 
 ### Di mana saya dapat membeli Aspose.PDF untuk .NET?
- Anda dapat membeli lisensi untuk Aspose.PDF[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi untuk Aspose.PDF [Di Sini](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

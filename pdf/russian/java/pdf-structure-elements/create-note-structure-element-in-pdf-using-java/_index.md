@@ -1,14 +1,16 @@
 ---
-title: Создание элемента структуры заметки в PDF с использованием Java
-linktitle: Создание элемента структуры заметки в PDF с использованием Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как создавать интерактивные элементы структуры заметок в PDF-файлах с помощью Java с Aspose.PDF для Java. Улучшите свои документы с помощью информативных заметок.
-weight: 12
-url: /ru/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-java/
+"description": "Узнайте, как создавать интерактивные элементы структуры заметок в PDF-файлах с помощью Java с Aspose.PDF для Java. Улучшите свои документы с помощью информативных заметок."
+"linktitle": "Создание элемента структуры заметки в PDF с использованием Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Создание элемента структуры заметки в PDF с использованием Java"
+"url": "/ru/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создание элемента структуры заметки в PDF с использованием Java
@@ -23,7 +25,7 @@ url: /ru/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-
 Прежде чем погрузиться в код, давайте убедимся, что у нас все настроено:
 
 - Среда разработки Java: убедитесь, что в вашей системе установлена среда разработки Java.
--  Aspose.PDF для Java: Вы можете загрузить библиотеку Aspose.PDF для Java с сайта[здесь](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF для Java: Вы можете загрузить библиотеку Aspose.PDF для Java с сайта [здесь](https://releases.aspose.com/pdf/java/).
 
 ## Пошаговое руководство
 
@@ -33,7 +35,7 @@ url: /ru/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-
 
 ### 2. Создание проекта
 
-Прежде чем начать кодирование, убедитесь, что в вашей системе настроена среда разработки Java. Вы можете использовать любую Java IDE по вашему выбору.
+Прежде чем начать кодирование, убедитесь, что в вашей системе установлена среда разработки Java. Вы можете использовать любую Java IDE по вашему выбору.
 
 ### 3. Добавление библиотеки Aspose.PDF в ваш проект
 
@@ -58,7 +60,7 @@ Page page = pdfDocument.getPages().add();
 Теперь давайте добавим элемент структуры заметки в наш PDF-документ. Это будет интерактивный элемент, на который пользователи могут нажать, чтобы просмотреть заметку.
 
 ```java
-//Добавить элемент структуры заметки на страницу
+// Добавить элемент структуры заметки на страницу
 com.aspose.pdf.annotations.Note annotation = new com.aspose.pdf.annotations.Note(page, new com.aspose.pdf.Rectangle(100, 100, 200, 200));
 ```
 
@@ -109,9 +111,11 @@ Aspose.PDF для Java — это коммерческая библиотека 
 ### Могу ли я прикрепить файлы к заметке?
 
 Да, вы можете прикрепить к заметке файлы, содержащие дополнительные ресурсы или ссылки.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

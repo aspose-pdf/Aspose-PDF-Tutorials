@@ -1,42 +1,44 @@
 ---
-title: Göm sidnummer i innehållsförteckningen
-linktitle: Göm sidnummer i innehållsförteckningen
-second_title: Aspose.PDF för .NET API Referens
-description: Lär dig hur du döljer sidnummer i innehållsförteckningen med Aspose.PDF för .NET. Följ den här detaljerade guiden med kodexempel för att skapa professionella PDF-filer.
-weight: 220
-url: /sv/net/programming-with-document/hidepagenumbersintoc/
+"description": "Lär dig hur du döljer sidnummer i innehållsförteckningen med Aspose.PDF för .NET. Följ den här detaljerade guiden med kodexempel för att skapa professionella PDF-filer."
+"linktitle": "Dölj sidnummer i innehållsförteckningen"
+"second_title": "Aspose.PDF för .NET API-referens"
+"title": "Dölj sidnummer i innehållsförteckningen"
+"url": "/sv/net/programming-with-document/hidepagenumbersintoc/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Göm sidnummer i innehållsförteckningen
+# Dölj sidnummer i innehållsförteckningen
 
 ## Introduktion
 
-När du arbetar med PDF-filer kanske du ibland vill skapa en innehållsförteckning (TOC) men hålla det snyggt genom att dölja sidnumren. Kanske flyter dokumentet bättre utan dem, eller så är det ett estetiskt val. Oavsett din anledning, om du arbetar med Aspose.PDF för .NET, kommer denna handledning att visa dig exakt hur du döljer sidnummer i din innehållsförteckning.
+När du arbetar med PDF-filer kanske du ibland vill skapa en innehållsförteckning (TOC) men hålla det snyggt genom att dölja sidnumren. Kanske flyter dokumentet bättre utan dem, eller kanske är det ett estetiskt val. Oavsett anledning, om du arbetar med Aspose.PDF för .NET, kommer den här handledningen att visa dig exakt hur du döljer sidnummer i din innehållsförteckning.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi sätter igång finns det några saker du behöver på plats. Här är en snabb checklista:
+Innan vi börjar finns det några saker du behöver ha på plats. Här är en snabb checklista:
 
-- Visual Studio installerad: Du behöver en fungerande version av Visual Studio för att koda med.
-- Aspose.PDF för .NET Library: Se till att du har installerat Aspose.PDF för .NET-biblioteket.
-  -  Ladda ner länk:[Aspose.PDF för .NET](https://releases.aspose.com/pdf/net/)
+- Visual Studio installerat: Du behöver en fungerande version av Visual Studio för att kunna koda.
+- Aspose.PDF för .NET-bibliotek: Se till att du har installerat Aspose.PDF för .NET-biblioteket.
+  - Nedladdningslänk: [Aspose.PDF för .NET](https://releases.aspose.com/pdf/net/)
 - Tillfällig licens: Om du testar funktionerna är det bra att ha en tillfällig licens.
-  -  Tillfällig licens:[Skaffa det här](https://purchase.aspose.com/temporary-license/)
+  - Tillfällig licens: [Hämta det här](https://purchase.aspose.com/temporary-license/)
 
 ## Importera paket
 
-Innan du hoppar in i koden, se till att du importerar följande namnrymder i ditt C#-projekt. Dessa kommer att tillhandahålla de nödvändiga klasserna och metoderna för att arbeta med PDF-dokument och skapa din innehållsförteckning (TOC).
+Innan du börjar med koden, se till att du importerar följande namnrymder i ditt C#-projekt. Dessa kommer att tillhandahålla de nödvändiga klasser och metoderna för att arbeta med PDF-dokument och skapa din innehållsförteckning (TOC).
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
-Nu när din miljö är klar och paket har importerats, låt oss dela upp varje steg i processen. Vi kommer att täcka varje del av koden för att säkerställa tydlighet, så att du enkelt kan följa med.
+Nu när din miljö är redo och paketen har importerats, låt oss bryta ner varje steg i processen. Vi kommer att gå igenom varje del av koden för att säkerställa tydlighet, så att du enkelt kan följa med.
 
 ## Steg 1: Initiera ditt PDF-dokument
 
@@ -51,13 +53,13 @@ Document doc = new Document();
 Page tocPage = doc.Pages.Add();
 ```
 
-- dataDir: Detta är katalogen där din utdatafil kommer att sparas.
+- dataDir: Det här är katalogen där din utdatafil kommer att sparas.
 - Document(): Initierar ett nytt PDF-dokument.
-- Pages.Add(): Lägger till en ny tom sida i dokumentet, som senare kommer att hålla din innehållsförteckning.
+- Pages.Add(): Lägger till en ny tom sida i dokumentet, som senare kommer att innehålla din innehållsförteckning.
 
-## Steg 2: Ställ in TOC-information och titel
+## Steg 2: Konfigurera innehållsförteckning och titel
 
-Därefter kommer vi att definiera innehållsförteckningen information, inklusive inställning av titeln som kommer att visas överst i innehållsförteckningen.
+Nästa steg är att definiera innehållsförteckningen, inklusive att ange titeln som ska visas högst upp i innehållsförteckningen.
 
 ```csharp
 TocInfo tocInfo = new TocInfo();
@@ -68,26 +70,26 @@ tocInfo.Title = title;
 tocPage.TocInfo = tocInfo;
 ```
 
-- TocInfo: Detta objekt innehåller all information om innehållsförteckningen.
-- TextFragment: Representerar texten i TOC-titeln, här anger vi den som "Innehållsförteckning."
-- FontStyle: Vi stilar TOC-titeln genom att ställa in storleken på 20 och göra den fet.
-- tocPage.TocInfo: Vi tilldelar innehållsförteckningen information till sidan som kommer att visa innehållsförteckningen.
+- TocInfo: Det här objektet innehåller all information om innehållsförteckningen.
+- Textfragment: Representerar texten i innehållsförteckningen, här anger vi den som "Innehållsförteckning".
+- Teckensnitt: Vi formaterar innehållsförteckningens titel genom att ställa in dess storlek till 20 och göra den fetstilad.
+- tocPage.TocInfo: Vi tilldelar innehållsförteckningsinformationen till sidan som ska visa innehållsförteckningen.
 
-## Steg 3: Göm sidnummer i innehållsförteckningen
+## Steg 3: Dölj sidnummer i innehållsförteckningen
 
-Nu till det roliga! Det är här vi konfigurerar innehållsförteckningen för att dölja sidnumren.
+Nu till det roliga! Här konfigurerar vi innehållsförteckningen för att dölja sidnumren.
 
 ```csharp
 tocInfo.IsShowPageNumbers = false;
 tocInfo.FormatArrayLength = 4;
 ```
 
--  IsShowPageNumbers: Detta är den magiska omkopplaren som döljer sidnumren. Ställ in den på`false`, och sidnumren visas inte i innehållsförteckningen.
-- FormatArrayLength: Vi ställer in detta till 4, vilket indikerar att vi vill definiera formatering för fyra nivåer av TOC-rubriker.
+- IsShowPageNumbers: Detta är den magiska knappen som döljer sidnumren. Ställ in den på `false`och sidnumren kommer inte att visas i innehållsförteckningen.
+- FormatArrayLength: Vi ställer in detta till 4, vilket indikerar att vi vill definiera formatering för fyra nivåer av innehållsförteckningsrubriker.
 
-## Steg 4: Anpassa TOC-formatering
+## Steg 4: Anpassa innehållsförteckningens formatering
 
-För att lägga till mer stil till din innehållsförteckning kommer vi nu att definiera formatering för olika nivåer av rubriker.
+För att ge din innehållsförteckning mer stil ska vi nu definiera formatering för olika rubriknivåer.
 
 ```csharp
 tocInfo.FormatArray[0].Margin.Right = 0;
@@ -99,12 +101,12 @@ tocInfo.FormatArray[2].TextState.FontStyle = FontStyles.Bold;
 tocInfo.FormatArray[3].TextState.FontStyle = FontStyles.Bold;
 ```
 
-- FormatArray: Denna array styr formateringen av TOC-poster. Varje index representerar en annan rubriknivå.
-- Marginal och textstil: Vi ställer in marginaler och använder teckensnittsstilar som fetstil, kursiv och understruken för varje rubriknivå.
+- FormatArray: Denna array styr formateringen av innehållsförteckningsposter. Varje index representerar en annan rubriknivå.
+- Marginal och textstil: Vi ställer in marginaler och använder teckensnitt som fetstil, kursiv stil och understrykning för varje rubriknivå.
 
 ## Steg 5: Lägg till rubriker i dokumentet
 
-Slutligen, låt oss lägga till de faktiska rubrikerna som kommer att vara en del av innehållsförteckningen.
+Slutligen, låt oss lägga till de faktiska rubrikerna som kommer att ingå i innehållsförteckningen.
 
 ```csharp
 Page page = doc.Pages.Add();
@@ -127,37 +129,39 @@ for (int Level = 1; Level != 5; Level++)
 
 ## Steg 6: Spara dokumentet
 
-När allt är klart sparar du PDF-dokumentet till din angivna utdatafil.
+När allt är inställt sparar du PDF-dokumentet till din angivna utdatafil.
 
 ```csharp
 doc.Save(outFile);
 ```
 
-Och det är det! Du har framgångsrikt skapat en PDF med en innehållsförteckning och sidnumren är dolda!
+Och det var allt! Du har skapat en PDF med en innehållsförteckning, och sidnumren är dolda!
 
 ## Slutsats
 
-Att skapa en innehållsförteckning i en PDF och dölja sidnummer kan verka knepigt, men med Aspose.PDF för .NET är det enkelt. Genom att följa den här steg-för-steg-guiden har du lärt dig hur du anpassar TOC-formatet, döljer sidnummer och använder olika stilar på dina rubriker. Nu kan du skapa professionella PDF-filer skräddarsydda efter dina exakta behov.
+Att skapa en innehållsförteckning i en PDF och dölja sidnummer kan verka knepigt, men med Aspose.PDF för .NET är det jätteenkelt. Genom att följa den här steg-för-steg-guiden har du lärt dig hur du anpassar innehållsförteckningsformatet, döljer sidnummer och använder olika stilar på dina rubriker. Nu kan du skapa professionella PDF-filer skräddarsydda efter dina exakta behov.
 
-## FAQ's
+## Vanliga frågor
 
 ### Kan jag visa sidnummer för specifika rubriker i innehållsförteckningen?
 Nej, Aspose.PDF döljer eller visar sidnummer för hela innehållsförteckningen. Du kan inte selektivt dölja dem för specifika poster.
 
 ### Är det möjligt att lägga till fler nivåer i innehållsförteckningen?
- Ja, du kan öka`FormatArrayLength` för att definiera fler nivåer av TOC-rubriker.
+Ja, du kan öka `FormatArrayLength` för att definiera fler nivåer av innehållsförteckningsrubriker.
 
 ### Hur kan jag ändra teckensnittet för alla innehållsförteckningsposter?
- Du kan ändra teckensnittet genom att ändra`TextState.Font` egendom för varje nivå i`FormatArray`.
+Du kan ändra teckensnittet genom att modifiera `TextState.Font` egenskap för varje nivå i `FormatArray`.
 
 ### Kan jag infoga hyperlänkar i innehållsförteckningen?
- Ja, du kan länka varje innehållsförteckningspost till ett specifikt avsnitt i dokumentet med hjälp av`Heading.TocPage` egendom.
+Ja, du kan länka varje innehållsförteckning till ett specifikt avsnitt i dokumentet med hjälp av `Heading.TocPage` egendom.
 
 ### Behöver jag en licens för Aspose.PDF?
-Ja, en giltig licens krävs för produktionsanvändning. Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för att testa funktionerna.
+Ja, en giltig licens krävs för produktionsanvändning. Du kan få en tillfällig licens. [här](https://purchase.aspose.com/temporary-license/) för att testa funktionerna.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

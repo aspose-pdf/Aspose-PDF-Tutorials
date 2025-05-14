@@ -1,14 +1,16 @@
 ---
-title: Nonaktifkan Kompresi File Dalam File PDF
-linktitle: Nonaktifkan Kompresi File Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menonaktifkan kompresi file dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Tingkatkan keterampilan manajemen PDF Anda.
-weight: 30
-url: /id/net/programming-with-attachments/disable-files-compression/
+"description": "Pelajari cara menonaktifkan kompresi file dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Tingkatkan keterampilan manajemen PDF Anda."
+"linktitle": "Nonaktifkan Kompresi File Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Nonaktifkan Kompresi File Dalam File PDF"
+"url": "/id/net/programming-with-attachments/disable-files-compression/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nonaktifkan Kompresi File Dalam File PDF
@@ -21,7 +23,7 @@ Di era digital, mengelola berkas PDF secara efisien sangat penting untuk penggun
 
 Sebelum menyelami kodenya, ada beberapa prasyarat yang perlu Anda penuhi:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Lingkungan pengembangan tempat Anda dapat menulis dan mengeksekusi kode .NET Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Muat Dokumen PDF
 
- Selanjutnya, Anda akan memuat dokumen PDF yang ingin Anda ubah. Ini dilakukan dengan menggunakan`Document` kelas disediakan oleh Aspose.PDF.
+Selanjutnya, Anda akan memuat dokumen PDF yang ingin Anda ubah. Ini dilakukan dengan menggunakan `Document` kelas disediakan oleh Aspose.PDF.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
@@ -77,7 +79,7 @@ FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sam
 
 ## Langkah 4: Tentukan Properti Pengkodean
 
- Untuk memastikan bahwa file ditambahkan tanpa kompresi, Anda perlu mengatur properti pengkodean spesifikasi file ke`FileEncoding.None`Langkah ini sangat penting karena secara langsung memengaruhi cara file disematkan dalam PDF.
+Untuk memastikan bahwa file ditambahkan tanpa kompresi, Anda perlu mengatur properti pengkodean spesifikasi file ke `FileEncoding.None`Langkah ini sangat penting karena secara langsung memengaruhi cara file disematkan dalam PDF.
 
 ```csharp
 fileSpecification.Encoding = FileEncoding.None;
@@ -121,16 +123,18 @@ Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat,
 Menonaktifkan kompresi file memastikan bahwa file yang tertanam tetap dalam format aslinya, yang penting untuk integritas data.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk mengevaluasi pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?
- Anda dapat menemukan dokumentasi lengkap di[Situs web Aspose](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di [Situs web Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dengan mengunjungi[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dengan mengunjungi [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

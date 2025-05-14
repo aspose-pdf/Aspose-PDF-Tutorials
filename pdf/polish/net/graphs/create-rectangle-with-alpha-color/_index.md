@@ -1,46 +1,51 @@
 ---
-title: Tworzenie plików PDF z prostokątami i kolorami alfa w Aspose.PDF 
-weight: 7700
-limit: 
-description: Dowiedz się, jak tworzyć plik PDF z prostokątami przy użyciu Aspose.PDF dla .NET i zastosować kolory alfa.
-keywords: [Aspose.PDF for .NET, create PDF, draw rectangles in PDF, alpha colors in PDF, .NET PDF library, PDF graphics, C# PDF generation]
-url: /pl/net/graphs/create-rectangle-with-alpha-color/
+"description": "Dowiedz się, jak utworzyć plik PDF z prostokątami za pomocą Aspose.PDF dla .NET i zastosować kolory alfa. Przewodnik krok po kroku z kodem i instrukcjami instalacji."
+"title": "Utwórz plik PDF z prostokątami i kolorami alfa w Aspose.PDF"
+"url": "/pl/net/graphs/create-rectangle-with-alpha-color/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie plików PDF z prostokątami i kolorami alfa w Aspose.PDF
+# Utwórz plik PDF z prostokątami i kolorami alfa w Aspose.PDF
 
-Aspose.PDF dla .NET to potężna biblioteka do tworzenia, manipulowania i konwersji dokumentów PDF w języku C#. W tym przykładzie dowiesz się, jak tworzyć plik PDF i rysować prostokąty z kolorami alfa.`Jakoby.Pdf.Rysunek.Graf`Ten samouczek zawiera krok po kroku przewodnik z przykładowym kodem, zapewniając łatwe wdrożenie w aplikacjach .NET.  
+Aspose.PDF dla .NET to potężna biblioteka do tworzenia, manipulowania i konwertowania dokumentów PDF w C#. W tym przykładzie nauczysz się, jak utworzyć plik PDF i rysować prostokąty z kolorami alfa. Używamy `Aspose.Pdf.Drawing.Graph` klasa do dodawania kształtów i stosowania efektów przezroczystości za pomocą kolorów ARGB. Ten samouczek zawiera przewodnik krok po kroku z przykładowym kodem, zapewniając, że możesz łatwo zaimplementować go w swoich aplikacjach .NET.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/create-rectangle-with-alpha-color" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Instrukcje montażu  
-Aby użyć Aspose.PDF dla .NET w projekcie, wykonaj następujące kroki:  
 
-1. Zainstalowanie za pomocą NuGet  
-Wykonać następującą komendę w konsoli menedżera pakietów NuGet:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Instrukcje instalacji  
+Aby użyć Aspose.PDF dla .NET w swoim projekcie, wykonaj następujące kroki:  
+
+1. Zainstaluj za pomocą NuGet  
+Uruchom następujące polecenie w konsoli Menedżera pakietów NuGet:  
 ```powershell
 Install-Package Aspose.PDF
 ```
 
-2. Dodaj przestrzenie nazw w C#  
-Włączyć wymagane przestrzenie nazw na początku pliku C#:  
+2. Dodaj przestrzeń nazw w C#  
+Na początku pliku C# należy uwzględnić wymagane przestrzenie nazw:  
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 ```
 
-Szczegółowa dokumentacja znajduje się na stronie:  
+Aby zapoznać się ze szczegółową dokumentacją, odwiedź stronę:  
 [Aspose.PDF dla dokumentacji .NET](https://docs.aspose.com/pdf/net/)  
 [Aspose.PDF dla .NET API Reference](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

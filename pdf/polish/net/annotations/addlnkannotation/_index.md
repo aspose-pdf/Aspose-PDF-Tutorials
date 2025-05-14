@@ -1,14 +1,16 @@
 ---
-title: Dodaj adnotację lnk
-linktitle: Dodaj adnotację lnk
-second_title: Aspose.PDF dla .NET API Reference
-description: Naucz się dodawać adnotacje atramentowe do plików PDF za pomocą Aspose.PDF dla platformy .NET dzięki temu wciągającemu przewodnikowi krok po kroku.
-weight: 20
-url: /pl/net/annotations/addlnkannotation/
+"description": "Naucz się dodawać adnotacje atramentowe do plików PDF za pomocą Aspose.PDF dla platformy .NET dzięki temu wciągającemu przewodnikowi krok po kroku."
+"linktitle": "Dodaj adnotację lnk"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj adnotację lnk"
+"url": "/pl/net/annotations/addlnkannotation/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj adnotację lnk
@@ -22,7 +24,7 @@ Witamy w świecie manipulacji PDF z Aspose.PDF dla .NET! Jeśli chcesz ulepszyć
 Zanim zagłębimy się w magię kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
 1. .NET Framework: Upewnij się, że masz zainstalowany .NET na swoim komputerze. Ta biblioteka działa bezproblemowo z różnymi wersjami .NET, w tym .NET Core.
-2.  Biblioteka Aspose.PDF: Musisz mieć bibliotekę Aspose.PDF dla .NET pobraną i odwołaną w swoim projekcie. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać najnowszą wersję z[link do pobrania](https://releases.aspose.com/pdf/net/).
+2. Biblioteka Aspose.PDF: Musisz mieć bibliotekę Aspose.PDF dla .NET pobraną i odwołaną w swoim projekcie. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać najnowszą wersję z [link do pobrania](https://releases.aspose.com/pdf/net/).
 3. Edytor kodu: Możesz użyć dowolnego edytora kodu, jednak ze względu na łatwość obsługi aplikacji .NET zdecydowanie polecamy program Visual Studio.
 4. Podstawowa znajomość języka C#: praktyczna znajomość języka C# pomoże Ci płynnie poruszać się po przykładach kodowania.
 5. Konfigurowanie środowiska programistycznego: Upewnij się, że Twoje środowisko IDE jest skonfigurowane do obsługi projektów .NET i że w projekcie poprawnie odwołujesz się do biblioteki Aspose.PDF. 
@@ -54,7 +56,7 @@ Pierwszą rzeczą, którą musisz zrobić, jest utworzenie dokumentu i ścieżki
 string dataDir = "YOUR DATA DIRECTORY";
 Document doc = new Document();
 ```
- Definiujemy zmienną`dataDir` , który wskazuje na katalog, w którym zostanie zapisany wynikowy plik PDF.`Document` Następnie obiekt zostaje utworzony i powstaje nowy dokument PDF gotowy do edycji.
+Definiujemy zmienną `dataDir`, który wskazuje na katalog, w którym zostanie zapisany wynikowy plik PDF. `Document` Następnie obiekt zostaje utworzony i powstaje nowy dokument PDF gotowy do edycji.
 
 ## Krok 2: Dodaj stronę do dokumentu
 
@@ -77,7 +79,7 @@ drect.X = 0;
 drect.Y = 0;
 Aspose.Pdf.Rectangle arect = Aspose.Pdf.Rectangle.FromRect(drect);
 ```
- Tutaj tworzymy`Rectangle` obiekt, który określa obszar na stronie, w którym dodamy naszą adnotację atramentową. Ustawiamy jego wymiary tak, aby pasowały do całej strony, zaczynając od (0,0).
+Tutaj tworzymy `Rectangle` obiekt, który określa obszar na stronie, w którym dodamy naszą adnotację atramentową. Ustawiamy jego wymiary tak, aby pasowały do całej strony, zaczynając od (0,0).
 
 ## Krok 4: Przygotuj punkty atramentowe
 
@@ -91,7 +93,7 @@ arrpt[0] = new Aspose.Pdf.Point(100, 800);
 arrpt[1] = new Aspose.Pdf.Point(200, 800);
 arrpt[2] = new Aspose.Pdf.Point(200, 700);
 ```
-Ten blok kodu tworzy listę tablic punktów, gdzie każda tablica reprezentuje zbiór punktów dla pociągnięcia tuszem. Tutaj definiujemy trzy punkty tworzące trójkąt; możesz dostosować współrzędne, aby pasowały do Twojego projektu.
+Ten blok kodu tworzy listę tablic punktów, gdzie każda tablica reprezentuje zestaw punktów dla pociągnięcia tuszem. Tutaj definiujemy trzy punkty tworzące trójkąt; możesz dostosować współrzędne, aby pasowały do Twojego projektu.
 
 ## Krok 5: Utwórz adnotację atramentową
 
@@ -105,7 +107,7 @@ InkAnnotation ia = new InkAnnotation(pdfPage, arect, inkList)
     CapStyle = CapStyle.Rounded
 };
 ```
- Utworzyliśmy instancję`InkAnnotation`obiekt, przekazując stronę, prostokąt i punkty atramentu. Dodatkowo ustawiamy pewne właściwości, takie jak`Title`, `Color` , I`CapStyle`. Dostosuj je do swoich potrzeb!
+Utworzyliśmy instancję `InkAnnotation` obiekt, przekazując stronę, prostokąt i punkty atramentu. Dodatkowo ustawiamy pewne właściwości, takie jak `Title`, `Color`, I `CapStyle`. Dostosuj je do swoich potrzeb!
 
 ## Krok 6: Ustaw obramowanie i krycie
 
@@ -136,11 +138,11 @@ dataDir = dataDir + "AddInkAnnotation_out.pdf";
 doc.Save(dataDir);
 Console.WriteLine("\nInk annotation added successfully.\nFile saved at " + dataDir);
 ```
- Modyfikujemy nasze`dataDir` aby uwzględnić nazwę pliku wyjściowego i zapisać dokument. Wiadomość potwierdzająca jest drukowana na konsoli, aby poinformować Cię, że wszystko poszło gładko.
+Modyfikujemy nasze `dataDir` aby uwzględnić nazwę pliku wyjściowego i zapisać dokument. Wiadomość potwierdzająca jest drukowana na konsoli, aby poinformować Cię, że wszystko poszło gładko.
 
 ## Wniosek
 
-masz! Udało Ci się dodać adnotację atramentową do dokumentu PDF za pomocą Aspose.PDF dla .NET. Ta prosta, ale skuteczna funkcja może ulepszyć Twoje dokumenty i uczynić je interaktywnymi. Niezależnie od tego, czy dodajesz podpisy, notatki czy rysunki, adnotacje atramentowe zapewniają wyjątkowy sposób na wzbogacenie treści.
+I masz! Udało Ci się dodać adnotację atramentową do dokumentu PDF za pomocą Aspose.PDF dla .NET. Ta prosta, ale skuteczna funkcja może ulepszyć Twoje dokumenty i uczynić je interaktywnymi. Niezależnie od tego, czy dodajesz podpisy, notatki czy rysunki, adnotacje atramentowe zapewniają wyjątkowy sposób na wzbogacenie treści.
 
 ## Najczęściej zadawane pytania
 
@@ -148,19 +150,21 @@ masz! Udało Ci się dodać adnotację atramentową do dokumentu PDF za pomocą 
 Aspose.PDF to biblioteka umożliwiająca tworzenie, edytowanie i konwertowanie dokumentów PDF w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak! Aspose oferuje bezpłatną wersję próbną do oceny swoich produktów. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak! Aspose oferuje bezpłatną wersję próbną do oceny swoich produktów. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Czy można dodać wiele adnotacji atramentowych?
- Oczywiście! Możesz utworzyć wiele`InkAnnotation` obiekty i dodaj je do strony swojego dokumentu.
+Oczywiście! Możesz utworzyć wiele `InkAnnotation` obiekty i dodaj je do strony swojego dokumentu.
 
 ### Gdzie mogę znaleźć więcej przykładów?
- Możesz sprawdzić[dokumentacja](https://reference.aspose.com/pdf/net/) aby uzyskać szczegółowe instrukcje i przykłady.
+Możesz sprawdzić [dokumentacja](https://reference.aspose.com/pdf/net/) aby uzyskać szczegółowe instrukcje i przykłady.
 
 ### Co zrobić, jeśli potrzebuję wsparcia?
- Jeśli napotkasz jakiekolwiek problemy, możesz szukać pomocy na[forum wsparcia](https://forum.aspose.com/c/pdf/10).
+Jeśli napotkasz jakiekolwiek problemy, możesz szukać pomocy na [forum wsparcia](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

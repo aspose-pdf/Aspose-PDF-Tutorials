@@ -1,14 +1,16 @@
 ---
-title: Xuất PDF sang sổ làm việc Excel
-linktitle: Xuất PDF sang sổ làm việc Excel
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách xuất PDF sang bảng tính Excel dễ dàng với Aspose.PDF cho Java. Hướng dẫn từng bước để trích xuất dữ liệu liền mạch.
-weight: 16
-url: /vi/java/pdf-conversion-transformation/export-pdfs-to-excel-workbooks/
+"description": "Tìm hiểu cách xuất PDF sang bảng tính Excel dễ dàng với Aspose.PDF cho Java. Hướng dẫn từng bước để trích xuất dữ liệu liền mạch."
+"linktitle": "Xuất PDF sang sổ làm việc Excel"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Xuất PDF sang sổ làm việc Excel"
+"url": "/vi/java/pdf-conversion-transformation/export-pdfs-to-excel-workbooks/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xuất PDF sang sổ làm việc Excel
@@ -22,7 +24,7 @@ Trong thời đại kỹ thuật số ngày nay, khả năng trích xuất dữ 
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
--  Aspose.PDF cho Java: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Java: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
 - Kiến thức cơ bản về Java: Có kiến thức về lập trình Java sẽ hữu ích nhưng không bắt buộc.
 
@@ -94,7 +96,7 @@ Xin chúc mừng! Bạn đã học thành công cách xuất PDF sang sổ làm 
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Cài đặt Aspose.PDF cho Java rất dễ dàng. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp trên trang web của họ.
+Cài đặt Aspose.PDF cho Java rất dễ dàng. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt được cung cấp trên trang web của họ.
 
 ### Tôi có thể tùy chỉnh đầu ra của Excel không?
 
@@ -110,10 +112,12 @@ Aspose.PDF for Java chủ yếu xử lý các tệp PDF, nhưng nó cũng cung c
 
 ### Tôi có thể tìm thêm tài liệu và nguồn tài nguyên ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện và các nguồn bổ sung cho Aspose.PDF cho Java trên trang web của họ tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu toàn diện và các nguồn bổ sung cho Aspose.PDF cho Java trên trang web của họ tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

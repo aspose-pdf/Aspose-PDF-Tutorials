@@ -8,7 +8,9 @@ url: /java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get PDF Hyperlink Destination using Java
@@ -95,6 +97,7 @@ You can find detailed documentation for Aspose.PDF for Java at [here](https://re
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

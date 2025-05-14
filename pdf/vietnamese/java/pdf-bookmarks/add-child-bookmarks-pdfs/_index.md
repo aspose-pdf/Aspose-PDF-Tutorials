@@ -1,14 +1,16 @@
 ---
-title: Thêm dấu trang con vào PDF
-linktitle: Thêm dấu trang con vào PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách cải thiện tài liệu PDF bằng các dấu trang con bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để cải thiện khả năng điều hướng và tổ chức.
-weight: 11
-url: /vi/java/pdf-bookmarks/add-child-bookmarks-pdfs/
+"description": "Tìm hiểu cách cải thiện tài liệu PDF bằng các dấu trang con bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để cải thiện khả năng điều hướng và tổ chức."
+"linktitle": "Thêm dấu trang con vào PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm dấu trang con vào PDF"
+"url": "/vi/java/pdf-bookmarks/add-child-bookmarks-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm dấu trang con vào PDF
@@ -23,7 +25,7 @@ Trong bài viết này, chúng ta sẽ khám phá cách thêm dấu trang con v�
 Trước khi bắt đầu triển khai, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Môi trường phát triển Java được cài đặt trên hệ thống của bạn.
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập môi trường
 
@@ -47,7 +49,7 @@ pdfDocument.getPages().add();
 
 Trong ví dụ này, chúng tôi đã tạo một tài liệu PDF mới và thêm hai trang vào đó.
 
-## Thêm Dấu trang Cha mẹ
+## Thêm dấu trang cha mẹ
 
 Dấu trang gốc đóng vai trò là các phần hoặc danh mục chính trong tài liệu PDF của bạn. Hãy tạo một số dấu trang gốc:
 
@@ -79,7 +81,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Thêm dấu trang con vào Dấu trang cha 2
+// Thêm dấu trang con vào Dấu trang cha 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -154,7 +156,7 @@ childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 1.2");
 parentBookmark.add(childBookmark);
 
-//Thêm dấu trang con vào Dấu trang cha 2
+// Thêm dấu trang con vào Dấu trang cha 2
 childBookmark = new OutlineItemCollection(outline);
 childBookmark.setTitle("Child Bookmark 2.1");
 parentBookmark.add(childBookmark);
@@ -180,7 +182,7 @@ Thêm dấu trang con vào PDF bằng Aspose.PDF for Java là một tính năng 
 
 ### Làm thế nào tôi có thể tải xuống Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ trang web[đây](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống Aspose.PDF cho Java từ trang web [đây](https://releases.aspose.com/pdf/java/).
 
 ### Có hỗ trợ dấu trang con trong tất cả các trình xem PDF không?
 
@@ -197,9 +199,11 @@ Bên cạnh hành động "GoTo", bạn có thể thêm các hành động như 
 ### Aspose.PDF cho Java có phù hợp cho các dự án thương mại không?
 
 Có, Aspose.PDF for Java phù hợp cho cả dự án cá nhân và thương mại, và cung cấp nhiều tính năng để tạo và chỉnh sửa PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

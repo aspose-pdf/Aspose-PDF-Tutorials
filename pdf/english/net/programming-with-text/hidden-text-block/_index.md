@@ -8,7 +8,9 @@ url: /net/programming-with-text/hidden-text-block/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hidden Text Block In PDF File
@@ -199,6 +201,7 @@ Feel free to seek support on the [Aspose forum](https://forum.aspose.com/c/pdf/1
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

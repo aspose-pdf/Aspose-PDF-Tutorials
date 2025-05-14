@@ -8,7 +8,9 @@ url: /net/programming-with-links-and-actions/set-target-link/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Target Link In PDF File
@@ -166,6 +168,7 @@ You can find extensive documentation and community support on the [Aspose PDF Do
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

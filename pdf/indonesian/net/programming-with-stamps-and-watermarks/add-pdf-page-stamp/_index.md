@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Stempel Halaman PDF Dalam File PDF
-linktitle: Tambahkan Stempel Halaman PDF Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan stempel halaman PDF menggunakan Aspose.PDF untuk .NET dengan panduan terperinci ini. Tingkatkan dampak dokumen PDF Anda.
-weight: 40
-url: /id/net/programming-with-stamps-and-watermarks/add-pdf-page-stamp/
+"description": "Pelajari cara menambahkan stempel halaman PDF menggunakan Aspose.PDF untuk .NET dengan panduan terperinci ini. Tingkatkan dampak dokumen PDF Anda."
+"linktitle": "Tambahkan Stempel Halaman PDF Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Stempel Halaman PDF Dalam File PDF"
+"url": "/id/net/programming-with-stamps-and-watermarks/add-pdf-page-stamp/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Stempel Halaman PDF Dalam File PDF
@@ -25,7 +27,7 @@ Sebelum menyelami seluk-beluk menambahkan stempel halaman, mari pastikan Anda me
 Anda harus memasang .NET Framework di komputer Anda. Aspose.PDF mendukung .NET Core, .NET Framework, dan lainnya, jadi periksa kompatibilitasnya tergantung pada proyek Anda.
 
 ### Aspose.PDF untuk Pustaka .NET
- Anda perlu menyiapkan pustaka Aspose.PDF di lingkungan pengembangan Anda. Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/). 
+Anda perlu menyiapkan pustaka Aspose.PDF di lingkungan pengembangan Anda. Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/). 
 
 ### ide
 Meskipun Anda dapat menggunakan editor teks apa pun, sangat disarankan untuk menggunakan Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio untuk pengalaman pengkodean yang efisien.
@@ -34,7 +36,7 @@ Meskipun Anda dapat menggunakan editor teks apa pun, sangat disarankan untuk men
 Karena kita berurusan dengan potongan kode C#, pemahaman dasar bahasa tersebut akan sangat membantu Anda mengikutinya dengan mudah.
 
 ### Berkas PDF
- Siapkan contoh file PDF yang ingin Anda tambahkan prangko. Kami akan menyebutnya sebagai`PDFPageStamp.pdf`. 
+Siapkan contoh file PDF yang ingin Anda tambahkan prangko. Kami akan menyebutnya sebagai `PDFPageStamp.pdf`. 
 
 ## Paket Impor 
 
@@ -64,31 +66,31 @@ Pertama-tama, Anda perlu mengatur jalur untuk dokumen PDF. Variabel ini akan ber
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
 
 ## Langkah 2: Buka Dokumen PDF yang Ada
 
- Selanjutnya, Anda ingin membuka berkas PDF yang ingin Anda beri cap. Menggunakan`Document` kelas dari Aspose.PDF, Anda dapat dengan mudah memuat PDF Anda.
+Selanjutnya, Anda ingin membuka berkas PDF yang ingin Anda beri cap. Menggunakan `Document` kelas dari Aspose.PDF, Anda dapat dengan mudah memuat PDF Anda.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "PDFPageStamp.pdf");
 ```
 
- Di sini, kita membuat yang baru`Document` objek dan memuatnya dengan`PDFPageStamp.pdf`Pastikan berkas berada di direktori yang ditentukan.
+Di sini, kita membuat yang baru `Document` objek dan memuatnya dengan `PDFPageStamp.pdf`Pastikan berkas berada di direktori yang ditentukan.
 
 ## Langkah 3: Buat Stempel Halaman
 
- Dengan dokumen di tangan, saatnya untuk membuat`PdfPageStamp`Ini adalah kelas yang bertanggung jawab untuk menambahkan prangko ke halaman tertentu dalam dokumen PDF.
+Dengan dokumen di tangan, saatnya untuk membuat `PdfPageStamp`Ini adalah kelas yang bertanggung jawab untuk menambahkan prangko ke halaman tertentu dalam dokumen PDF.
 
 ```csharp
 PdfPageStamp pageStamp = new PdfPageStamp(pdfDocument.Pages[1]);
 ```
 
-Di sini kami mewujudkannya`pageStamp` dan tentukan kami ingin menerapkannya pada halaman pertama (pengindeksan dimulai dari 1).
+Di sini kami mewujudkannya `pageStamp` dan tentukan kami ingin menerapkannya pada halaman pertama (pengindeksan dimulai dari 1).
 
 ## Langkah 4: Konfigurasikan Properti Cap Halaman
 
-Untuk memberikan tampilan yang diinginkan pada prangko Anda, Anda dapat mengonfigurasi beberapa properti:
+Untuk memberikan prangko Anda tampilan yang diinginkan, Anda dapat mengonfigurasi beberapa properti:
 
 - Latar Belakang: Ini menentukan apakah prangko muncul di latar depan atau latar belakang.
 - XIndent dan YIndent: Ini menentukan penempatan prangko di halaman.
@@ -103,7 +105,7 @@ pageStamp.YIndent = 100; // Atur posisi vertikal
 pageStamp.Rotate = Rotation.on180; // Putar 180 derajat
 ```
 
- Jangan ragu untuk menyesuaikan`XIndent` Dan`YIndent` nilai untuk menempatkan stempel Anda di mana pun yang Anda pilih di halaman.
+Jangan ragu untuk menyesuaikan `XIndent` Dan `YIndent` nilai untuk menempatkan stempel Anda di mana pun yang Anda pilih pada halaman.
 
 ## Langkah 5: Tambahkan Prangko ke Halaman
 
@@ -124,7 +126,7 @@ dataDir = dataDir + "PDFPageStamp_out.pdf"; // Jalur berkas keluaran
 pdfDocument.Save(dataDir); // Simpan dokumen yang diperbarui
 ```
 
-Sekarang, PDF yang baru dicap akan disimpan di direktori yang sama dengan nama baru,`PDFPageStamp_out.pdf`.
+Sekarang, PDF yang baru dicap akan disimpan di direktori yang sama dengan nama baru, `PDFPageStamp_out.pdf`.
 
 ## Langkah 7: Pesan Konfirmasi
 
@@ -152,13 +154,15 @@ Tentu saja! Anda dapat mengatur properti seperti warna, rotasi, dan ukuran untuk
 Tidak, yang Anda butuhkan hanyalah pustaka Aspose.PDF, kerangka kerja .NET, dan IDE yang sesuai.
 
 ### Bisakah saya menambahkan beberapa prangko pada halaman yang berbeda?  
- Ya, Anda dapat membuat sebanyak mungkin`PdfPageStamp` objek sesuai kebutuhan dan menerapkannya ke berbagai halaman dalam PDF Anda.
+Ya, Anda dapat membuat sebanyak mungkin `PdfPageStamp` objek sesuai kebutuhan dan menerapkannya ke berbagai halaman dalam PDF Anda.
 
 ### Di mana saya dapat menemukan lebih banyak contoh atau dokumentasi?  
- Anda dapat memeriksa[Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) untuk rincian dan contoh lebih lanjut.
+Anda dapat memeriksa [Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) untuk rincian dan contoh lebih lanjut.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

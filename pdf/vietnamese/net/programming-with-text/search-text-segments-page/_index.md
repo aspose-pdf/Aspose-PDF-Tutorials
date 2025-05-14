@@ -1,14 +1,16 @@
 ---
-title: Tìm kiếm đoạn văn bản trang trong tệp PDF
-linktitle: Tìm kiếm đoạn văn bản trang trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tìm kiếm các phân đoạn văn bản trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước chi tiết này. Trích xuất văn bản, phân tích các phân đoạn và nhiều hơn nữa.
-weight: 470
-url: /vi/net/programming-with-text/search-text-segments-page/
+"description": "Tìm hiểu cách tìm kiếm các phân đoạn văn bản trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước chi tiết này. Trích xuất văn bản, phân tích các phân đoạn và nhiều hơn nữa."
+"linktitle": "Tìm kiếm đoạn văn bản trang trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tìm kiếm đoạn văn bản trang trong tệp PDF"
+"url": "/vi/net/programming-with-text/search-text-segments-page/"
+"weight": 470
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tìm kiếm đoạn văn bản trang trong tệp PDF
@@ -21,12 +23,12 @@ Bạn đã bao giờ tự hỏi làm thế nào để định vị các đoạn 
 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết:
 
--  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Đảm bảo bạn đã cài đặt .NET trên máy của mình.
 - Môi trường phát triển: Khuyến khích sử dụng Visual Studio hoặc bất kỳ IDE nào hỗ trợ .NET.
 - Tài liệu PDF: Tệp PDF mà bạn sẽ dùng để tìm kiếm các đoạn văn bản.
 
- Nếu bạn chưa có Aspose.PDF cho .NET, đừng lo lắng! Bạn có thể dùng thử miễn phí từ[đây](https://releases.aspose.com/) hoặc mua nó[đây](https://purchase.aspose.com/buy).
+Nếu bạn chưa có Aspose.PDF cho .NET, đừng lo lắng! Bạn có thể dùng thử miễn phí từ [đây](https://releases.aspose.com/) hoặc mua nó [đây](https://purchase.aspose.com/buy).
 
 ## Nhập gói
 
@@ -53,19 +55,19 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "SearchTextSegmentsPage.pdf");
 ```
 
-- `dataDir` : Biến này giữ đường dẫn đến tệp PDF của bạn. Thay thế`"YOUR DOCUMENT DIRECTORY"` với thư mục thực tế nơi tập tin của bạn được lưu trữ.
-- `pdfDocument` : Sử dụng`Document` lớp, chúng ta tải PDF vào bộ nhớ.
+- `dataDir`: Biến này giữ đường dẫn đến tệp PDF của bạn. Thay thế `"YOUR DOCUMENT DIRECTORY"` với thư mục thực tế nơi tập tin của bạn được lưu trữ.
+- `pdfDocument`: Sử dụng `Document` lớp, chúng ta tải PDF vào bộ nhớ.
 
 ## Bước 2: Thiết lập Tìm kiếm văn bản
 
- Bây giờ tài liệu của bạn đã được tải, bước tiếp theo là tạo một`TextFragmentAbsorber` đối tượng, cho phép chúng ta tìm kiếm văn bản cụ thể trong tài liệu.
+Bây giờ tài liệu của bạn đã được tải, bước tiếp theo là tạo một `TextFragmentAbsorber` đối tượng, cho phép chúng ta tìm kiếm văn bản cụ thể trong tài liệu.
 
 ```csharp
 // Tạo đối tượng TextAbsorber để tìm tất cả các trường hợp của cụm từ tìm kiếm đầu vào
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
 
-- `TextFragmentAbsorber` : Đối tượng này được sử dụng để nắm bắt tất cả các lần xuất hiện của văn bản bạn đang tìm kiếm. Thay thế`"text"` với văn bản thực tế mà bạn muốn tìm kiếm.
+- `TextFragmentAbsorber`: Đối tượng này được sử dụng để nắm bắt tất cả các lần xuất hiện của văn bản bạn đang tìm kiếm. Thay thế `"text"` với văn bản thực tế mà bạn muốn tìm kiếm.
 
 ## Bước 3: Chấp nhận Absorber cho các trang cụ thể
 
@@ -77,7 +79,7 @@ pdfDocument.Pages[2].Accept(textFragmentAbsorber);
 ```
 
 - `pdfDocument.Pages[2]`: Điều này cho biết chúng ta chỉ tìm kiếm trang thứ hai của tài liệu. Bạn có thể sửa đổi chỉ mục để nhắm mục tiêu đến các trang khác.
-- `Accept()` : Phương pháp này cho phép`TextFragmentAbsorber` để xử lý văn bản trong trang được chỉ định.
+- `Accept()`: Phương pháp này cho phép `TextFragmentAbsorber` để xử lý văn bản trong trang được chỉ định.
 
 ## Bước 4: Trích xuất các đoạn văn bản
 
@@ -88,7 +90,7 @@ Sau khi tìm kiếm trên trang, chúng tôi trích xuất các đoạn văn b�
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
 
-- `TextFragmentCollection`:Bộ sưu tập này lưu trữ tất cả các trường hợp của đoạn văn bản được tìm thấy trong quá trình tìm kiếm.
+- `TextFragmentCollection`:Bộ sưu tập này lưu trữ tất cả các trường hợp đoạn văn bản được tìm thấy trong quá trình tìm kiếm.
 
 ## Bước 5: Lặp qua các đoạn văn bản và trích xuất dữ liệu
 
@@ -114,9 +116,9 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
-- `foreach (TextFragment textFragment in textFragmentCollection)` : Chúng tôi lặp lại từng cái`TextFragment` trong bộ sưu tập.
+- `foreach (TextFragment textFragment in textFragmentCollection)`: Chúng tôi lặp lại từng cái `TextFragment` trong bộ sưu tập.
 - `foreach (TextSegment textSegment in textFragment.Segments)`:Bên trong mỗi đoạn có nhiều phân đoạn. Chúng tôi lặp lại chúng để thu thập tất cả thông tin có liên quan.
--  Các tính chất khác nhau của`textSegment`Chúng cung cấp cho chúng ta thông tin chi tiết về văn bản, chẳng hạn như vị trí (X và Y), chi tiết phông chữ, kích thước và màu sắc.
+- Các tính chất khác nhau của `textSegment`Chúng cung cấp cho chúng ta thông tin chi tiết về văn bản, chẳng hạn như vị trí (X và Y), chi tiết phông chữ, kích thước và màu sắc.
 
 ## Bước 6: Xuất kết quả
 
@@ -137,7 +139,7 @@ Font Size : 12.0
 Foreground Color : System.Drawing.Color [Black]
 ```
 
-- Đầu ra này cung cấp cho bạn vị trí chính xác và thông tin định dạng của văn bản "text" trên trang được chỉ định.
+- Đầu ra này cung cấp cho bạn vị trí chính xác và thông tin định dạng của văn bản "text" trên trang đã chỉ định.
 
 ## Phần kết luận
 
@@ -146,22 +148,24 @@ Và bạn đã có nó! Bạn vừa học cách tìm kiếm các đoạn văn b�
 ## Câu hỏi thường gặp
 
 ### Tôi có thể tìm kiếm nhiều từ hoặc cụm từ không?
- Có, bạn có thể sửa đổi`TextFragmentAbsorber`để tìm kiếm văn bản khác nhau bằng cách thay đổi chuỗi nhập.
+Có, bạn có thể sửa đổi `TextFragmentAbsorber` để tìm kiếm văn bản khác nhau bằng cách thay đổi chuỗi nhập.
 
 ### Có thể tìm kiếm trên nhiều trang không?
- Chắc chắn rồi! Bạn có thể lặp qua tất cả các trang trong PDF bằng cách lặp lại`pdfDocument.Pages`.
+Chắc chắn rồi! Bạn có thể lặp qua tất cả các trang trong PDF bằng cách lặp lại `pdfDocument.Pages`.
 
 ### Làm thế nào để tìm kiếm văn bản không phân biệt chữ hoa chữ thường?
- Bạn có thể sử dụng`TextSearchOptions` để cho phép tìm kiếm không phân biệt chữ hoa chữ thường.
+Bạn có thể sử dụng `TextSearchOptions` để cho phép tìm kiếm không phân biệt chữ hoa chữ thường.
 
 ### Tôi có thể sửa đổi văn bản sau khi tìm thấy không?
- Có, một khi bạn đã xác định được vị trí`TextFragment`, bạn có thể sửa đổi thuộc tính văn bản của nó.
+Có, một khi bạn đã xác định được vị trí `TextFragment`, bạn có thể sửa đổi thuộc tính văn bản của nó.
 
 ### Phương pháp này có áp dụng được cho các tệp PDF được mã hóa không?
 Có, miễn là bạn mở khóa PDF bằng mật khẩu đúng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

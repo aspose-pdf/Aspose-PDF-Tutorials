@@ -1,14 +1,16 @@
 ---
-title: Добавить закладку в PDF-файл
-linktitle: Добавить закладку в PDF-файл
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как добавлять закладки в файлы PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. Улучшите навигацию по PDF.
-weight: 10
-url: /ru/net/programming-with-bookmarks/add-bookmark/
+"description": "Узнайте, как добавлять закладки в файлы PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. Улучшите навигацию по PDF."
+"linktitle": "Добавить закладку в PDF-файл"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Добавить закладку в PDF-файл"
+"url": "/ru/net/programming-with-bookmarks/add-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить закладку в PDF-файл
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-bookmarks/add-bookmark/
 Прежде чем начать, вам необходимо подготовить несколько вещей:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Это идеальная IDE для разработки .NET.
-2.  Aspose.PDF для .NET: Вам нужно будет скачать и установить библиотеку Aspose.PDF. Вы можете взять ее с[ссылка для скачивания](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF для .NET: Вам нужно будет скачать и установить библиотеку Aspose.PDF. Вы можете взять ее с [ссылка для скачивания](https://releases.aspose.com/pdf/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам легко освоить материал.
 
 ## Импортные пакеты
@@ -43,7 +45,7 @@ url: /ru/net/programming-with-bookmarks/add-bookmark/
 
 ### Импорт требуемых пространств имен
 
- В верхней части вашего`Program.cs` файл, импортируйте необходимые пространства имен:
+В верхней части вашего `Program.cs` файл, импортируйте необходимые пространства имен:
 
 ```csharp
 using System;
@@ -61,7 +63,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего PDF-файла.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего PDF-файла.
 
 ## Шаг 2: Откройте PDF-документ.
 
@@ -71,7 +73,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "AddBookmark.pdf");
 ```
 
- Эта строка кода инициализирует новый`Document` объект с вашим PDF-файлом.
+Эта строка кода инициализирует новый `Document` объект с вашим PDF-файлом.
 
 ## Шаг 3: Создайте объект «Закладка»
 
@@ -120,7 +122,7 @@ Console.WriteLine("\nBookmark added successfully.\nFile saved at " + dataDir);
 
 ## Заключение
 
-И вот оно! Вы успешно добавили закладку в файл PDF с помощью Aspose.PDF для .NET. Эта простая, но мощная функция может значительно повысить удобство использования ваших документов, упрощая читателям навигацию по ним. Так что в следующий раз, когда будете работать с PDF, не забудьте добавить эти закладки!
+И вот оно! Вы успешно добавили закладку в PDF-файл с помощью Aspose.PDF для .NET. Эта простая, но мощная функция может значительно повысить удобство использования ваших документов, упрощая читателям навигацию по ним. Так что в следующий раз, когда будете работать с PDF-файлами, не забудьте добавить эти закладки!
 
 ## Часто задаваемые вопросы
 
@@ -128,19 +130,21 @@ Console.WriteLine("\nBookmark added successfully.\nFile saved at " + dataDir);
 Aspose.PDF для .NET — это библиотека, которая позволяет разработчикам создавать, изменять и конвертировать PDF-документы программным способом.
 
 ### Можно ли добавить несколько закладок в PDF-файл?
- Да, вы можете создать несколько`OutlineItemCollection`объекты и добавьте их в коллекцию структуры документа.
+Да, вы можете создать несколько `OutlineItemCollection` объекты и добавьте их в коллекцию структуры документа.
 
 ### Можно ли использовать Aspose.PDF бесплатно?
- Aspose.PDF предлагает бесплатную пробную версию, но для полной функциональности вам необходимо приобрести лицензию. Ознакомьтесь с[купить ссылку](https://purchase.aspose.com/buy).
+Aspose.PDF предлагает бесплатную пробную версию, но для полной функциональности вам необходимо приобрести лицензию. Ознакомьтесь с [купить ссылку](https://purchase.aspose.com/buy).
 
 ### Где я могу найти дополнительную документацию?
- Подробную документацию можно найти на Aspose.PDF для .NET[здесь](https://reference.aspose.com/pdf/net/).
+Подробную документацию можно найти на Aspose.PDF для .NET [здесь](https://reference.aspose.com/pdf/net/).
 
 ### Как получить поддержку по Aspose.PDF?
- Для получения поддержки вы можете посетить[Форум поддержки Aspose](https://forum.aspose.com/c/pdf/10).
+Для получения поддержки вы можете посетить [Форум поддержки Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

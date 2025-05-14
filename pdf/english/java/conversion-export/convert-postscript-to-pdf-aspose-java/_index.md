@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PostScript to PDF with Aspose.PDF for Java
 
@@ -165,7 +167,11 @@ A4: Aspose.PDF for Java supports most recent JDK versions. Check the library's d
 
 **Q5: How do I resolve errors related to file permissions during conversion?**
 A5: Verify that your application has read/write access to directories where input .ps files and output PDFs are stored.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

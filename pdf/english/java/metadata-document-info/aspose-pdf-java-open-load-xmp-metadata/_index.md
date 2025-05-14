@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.PDF Java Tutorial: Open, Load PDFs & Access XMP Metadata Effectively
 ## Introduction
@@ -139,7 +141,11 @@ In this tutorial, we’ve covered how to open and load PDFs using Aspose.PDF for
 - [Free Trial Download](https://releases.aspose.com/pdf/java/)
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

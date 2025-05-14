@@ -1,14 +1,16 @@
 ---
-title: Ẩn số trang trong mục lục
-linktitle: Ẩn số trang trong mục lục
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách ẩn số trang trong Mục lục bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn chi tiết này với các ví dụ mã để tạo PDF chuyên nghiệp.
-weight: 220
-url: /vi/net/programming-with-document/hidepagenumbersintoc/
+"description": "Tìm hiểu cách ẩn số trang trong Mục lục bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn chi tiết này với các ví dụ mã để tạo PDF chuyên nghiệp."
+"linktitle": "Ẩn số trang trong mục lục"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Ẩn số trang trong mục lục"
+"url": "/vi/net/programming-with-document/hidepagenumbersintoc/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ẩn số trang trong mục lục
@@ -23,9 +25,9 @@ Trước khi bắt đầu, có một số điều bạn cần chuẩn bị. Sau 
 
 - Đã cài đặt Visual Studio: Bạn sẽ cần phiên bản Visual Studio đang hoạt động để viết mã.
 - Thư viện Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho .NET.
-  -  Liên kết tải xuống:[Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/)
+  - Liên kết tải xuống: [Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/)
 - Giấy phép tạm thời: Nếu bạn đang thử nghiệm các tính năng, việc có giấy phép tạm thời sẽ rất hữu ích.
-  -  Giấy phép tạm thời:[Nhận nó ở đây](https://purchase.aspose.com/temporary-license/)
+  - Giấy phép tạm thời: [Nhận nó ở đây](https://purchase.aspose.com/temporary-license/)
 
 ## Nhập gói
 
@@ -82,7 +84,7 @@ tocInfo.IsShowPageNumbers = false;
 tocInfo.FormatArrayLength = 4;
 ```
 
--  IsShowPageNumbers: Đây là công tắc ma thuật ẩn số trang. Đặt thành`false`và số trang sẽ không xuất hiện trong Mục lục.
+- IsShowPageNumbers: Đây là công tắc ma thuật ẩn số trang. Đặt thành `false`và số trang sẽ không xuất hiện trong Mục lục.
 - FormatArrayLength: Chúng tôi đặt thành 4, cho biết chúng tôi muốn xác định định dạng cho bốn cấp tiêu đề mục lục.
 
 ## Bước 4: Tùy chỉnh định dạng mục lục
@@ -137,7 +139,7 @@ Và thế là xong! Bạn đã tạo thành công tệp PDF có Mục lục và 
 
 ## Phần kết luận
 
-Tạo Mục lục trong PDF và ẩn số trang có vẻ phức tạp, nhưng với Aspose.PDF cho .NET, việc này trở nên dễ dàng. Bằng cách làm theo hướng dẫn từng bước này, bạn đã biết cách tùy chỉnh định dạng Mục lục, ẩn số trang và áp dụng các kiểu khác nhau cho tiêu đề của mình. Bây giờ bạn có thể tạo PDF chuyên nghiệp phù hợp với nhu cầu chính xác của mình.
+Tạo Mục lục trong PDF và ẩn số trang có vẻ khó khăn, nhưng với Aspose.PDF cho .NET, việc này trở nên dễ dàng. Bằng cách làm theo hướng dẫn từng bước này, bạn đã biết cách tùy chỉnh định dạng Mục lục, ẩn số trang và áp dụng các kiểu khác nhau cho tiêu đề của mình. Bây giờ bạn có thể tạo PDF chuyên nghiệp phù hợp với nhu cầu chính xác của mình.
 
 ## Câu hỏi thường gặp
 
@@ -145,19 +147,21 @@ Tạo Mục lục trong PDF và ẩn số trang có vẻ phức tạp, nhưng v�
 Không, Aspose.PDF ẩn hoặc hiển thị số trang cho toàn bộ mục lục. Bạn không thể ẩn chúng một cách có chọn lọc đối với các mục cụ thể.
 
 ### Có thể thêm nhiều cấp độ hơn vào mục lục không?
- Vâng, bạn có thể tăng`FormatArrayLength` để xác định nhiều cấp độ tiêu đề mục lục hơn.
+Vâng, bạn có thể tăng `FormatArrayLength` để xác định nhiều cấp độ tiêu đề mục lục hơn.
 
 ### Làm thế nào tôi có thể thay đổi phông chữ cho tất cả các mục lục?
- Bạn có thể thay đổi phông chữ bằng cách sửa đổi`TextState.Font` tài sản cho mỗi cấp độ trong`FormatArray`.
+Bạn có thể thay đổi phông chữ bằng cách sửa đổi `TextState.Font` tài sản cho mỗi cấp độ trong `FormatArray`.
 
 ### Tôi có thể chèn siêu liên kết vào mục lục không?
- Có, bạn có thể liên kết từng mục lục với một phần cụ thể trong tài liệu bằng cách sử dụng`Heading.TocPage` tài sản.
+Có, bạn có thể liên kết từng mục lục với một phần cụ thể trong tài liệu bằng cách sử dụng `Heading.TocPage` tài sản.
 
 ### Tôi có cần giấy phép sử dụng Aspose.PDF không?
-Có, cần có giấy phép hợp lệ để sử dụng sản xuất. Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra các tính năng.
+Có, cần có giấy phép hợp lệ để sử dụng sản xuất. Bạn có thể xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/) để kiểm tra các tính năng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Membuat Objek Persegi Panjang Terisi dalam PDF menggunakan Java
-linktitle: Membuat Objek Persegi Panjang Terisi dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara membuat persegi panjang yang terisi dalam PDF menggunakan Java dengan Aspose.PDF untuk Java. Tutorial langkah demi langkah dengan contoh kode.
-weight: 12
-url: /id/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
+"description": "Pelajari cara membuat persegi panjang yang terisi dalam PDF menggunakan Java dengan Aspose.PDF untuk Java. Tutorial langkah demi langkah dengan contoh kode."
+"linktitle": "Membuat Objek Persegi Panjang Terisi dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Membuat Objek Persegi Panjang Terisi dalam PDF menggunakan Java"
+"url": "/id/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Objek Persegi Panjang Terisi dalam PDF menggunakan Java
@@ -30,7 +32,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 Untuk memulai, Anda perlu mengunduh Aspose.PDF untuk Java dari situs web. Ikuti langkah-langkah berikut:
 
-1.  Akses dokumentasi Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+1. Akses dokumentasi Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
 
 2. Unduh pustaka dan ikuti petunjuk instalasi yang disediakan.
 
@@ -66,7 +68,7 @@ page.getParagraphs().add(filledRectangle);
 ```
 
 Dalam kode ini:
--  Kami membuat yang baru`Rectangle` objek, menentukan posisinya (x=100, y=100), lebar (200), dan tinggi (50).
+- Kami membuat yang baru `Rectangle` objek, menentukan posisinya (x=100, y=100), lebar (200), dan tinggi (50).
 - Kami mengatur warna latar belakang persegi panjang menjadi merah.
 - Terakhir, kita tambahkan persegi panjang ke halaman.
 
@@ -102,7 +104,7 @@ Anda dapat menginstal Aspose.PDF untuk Java dengan mengunduh pustaka dari situs 
 
 ### Bisakah saya mengubah warna persegi panjang yang terisi?
 
- Ya, Anda dapat menyesuaikan warna persegi panjang yang diisi dengan mengatur warna latar belakangnya menggunakan`setBackgroundColor`metode, seperti yang ditunjukkan dalam tutorial.
+Ya, Anda dapat menyesuaikan warna persegi panjang yang diisi dengan mengatur warna latar belakangnya menggunakan `setBackgroundColor` metode, seperti yang ditunjukkan dalam tutorial.
 
 ### Apakah Aspose.PDF untuk Java gratis untuk digunakan?
 
@@ -110,10 +112,12 @@ Aspose.PDF untuk Java adalah pustaka komersial, dan Anda mungkin perlu membeli l
 
 ### Di mana saya dapat menemukan lebih banyak contoh penggunaan Aspose.PDF untuk Java?
 
- Anda dapat menemukan lebih banyak contoh dan dokumentasi terperinci tentang cara menggunakan Aspose.PDF untuk Java di situs web Aspose di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan lebih banyak contoh dan dokumentasi terperinci tentang cara menggunakan Aspose.PDF untuk Java di situs web Aspose di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

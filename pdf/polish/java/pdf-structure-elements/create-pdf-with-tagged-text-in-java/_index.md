@@ -1,14 +1,16 @@
 ---
-title: Utwórz plik PDF z tekstem oznaczonym w Javie
-linktitle: Utwórz plik PDF z tekstem oznaczonym w Javie
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak tworzyć oznaczone pliki PDF w Javie za pomocą Aspose.PDF dla Javy. Nasz przewodnik krok po kroku zapewnia dostępność i zgodność.
-weight: 14
-url: /pl/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/
+"description": "Dowiedz się, jak tworzyć oznaczone pliki PDF w Javie za pomocą Aspose.PDF dla Javy. Nasz przewodnik krok po kroku zapewnia dostępność i zgodność."
+"linktitle": "Utwórz plik PDF z tekstem oznaczonym w Javie"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Utwórz plik PDF z tekstem oznaczonym w Javie"
+"url": "/pl/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz plik PDF z tekstem oznaczonym w Javie
@@ -20,14 +22,14 @@ url: /pl/java/pdf-structure-elements/create-pdf-with-tagged-text-in-java/
 
 ## Wymagania wstępne
 
-Zanim zagłębisz się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
+Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
--  Aspose.PDF dla biblioteki Java. Możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla biblioteki Java. Możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Konfigurowanie projektu Java
 
-Aby rozpocząć, utwórz nowy projekt Java w preferowanym zintegrowanym środowisku programistycznym (IDE). Upewnij się, że w zależnościach projektu uwzględniono bibliotekę Aspose.PDF for Java.
+Aby rozpocząć, utwórz nowy projekt Java w preferowanym zintegrowanym środowisku programistycznym (IDE). Upewnij się, że biblioteka Aspose.PDF for Java jest dołączona do zależności projektu.
 
 ## Tworzenie pliku PDF z tagami
 
@@ -70,13 +72,13 @@ document.save("tagged_pdf_example.pdf");
 
 ## Wniosek
 
-tym przewodniku przyjrzeliśmy się, jak utworzyć oznaczony plik PDF w Javie przy użyciu Aspose.PDF dla Javy. Oznaczone pliki PDF są nie tylko wymogiem dostępności, ale także najlepszą praktyką w zakresie strukturyzacji dokumentów. Postępując zgodnie z tymi krokami, możesz mieć pewność, że Twoje pliki PDF są nie tylko atrakcyjne wizualnie, ale także dostępne dla wszystkich użytkowników.
+W tym przewodniku przyjrzeliśmy się, jak utworzyć oznaczony plik PDF w Javie przy użyciu Aspose.PDF dla Javy. Oznaczone pliki PDF są nie tylko wymogiem dostępności, ale także najlepszą praktyką w zakresie strukturyzacji dokumentów. Postępując zgodnie z tymi krokami, możesz mieć pewność, że Twoje pliki PDF są nie tylko atrakcyjne wizualnie, ale także dostępne dla wszystkich użytkowników.
 
 ## Najczęściej zadawane pytania
 
 ### Jak mogę się upewnić, że mój plik PDF jest oznaczony jako dostępny?
 
- Aby mieć pewność, że Twój plik PDF jest oznaczony w celu ułatwienia dostępu, musisz ustawić`tagged` nieruchomość do`true` dla tekstu lub treści, które chcesz oznaczyć. Zazwyczaj odbywa się to przy użyciu biblioteki Aspose.PDF w Javie, jak pokazano w tym przewodniku.
+Aby mieć pewność, że Twój plik PDF jest oznaczony w celu ułatwienia dostępu, musisz ustawić `tagged` nieruchomość do `true` dla tekstu lub treści, które chcesz oznaczyć. Zazwyczaj odbywa się to przy użyciu biblioteki Aspose.PDF w Javie, jak pokazano w tym przewodniku.
 
 ### Jakie znaczenie mają tagowane pliki PDF?
 
@@ -92,10 +94,12 @@ Aspose.PDF for Java jest komercyjną biblioteką, ale oferuje wersję próbną, 
 
 ### Gdzie mogę znaleźć więcej materiałów i dokumentacji dla pliku Aspose.PDF dla języka Java?
 
- Pełną dokumentację i odnośniki do pliku Aspose.PDF dla języka Java można znaleźć na stronie internetowej Aspose[Tutaj](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację i odnośniki do pliku Aspose.PDF dla języka Java można znaleźć na stronie internetowej Aspose [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

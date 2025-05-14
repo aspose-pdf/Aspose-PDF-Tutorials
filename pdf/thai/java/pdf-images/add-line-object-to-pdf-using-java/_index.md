@@ -1,14 +1,16 @@
 ---
-title: เพิ่มวัตถุเส้นลงใน PDF โดยใช้ Java
-linktitle: เพิ่มวัตถุเส้นลงใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการเพิ่มวัตถุเส้นลงในไฟล์ PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java ปรับแต่งเส้น จัดตำแหน่ง และสร้าง PDF แบบไดนามิกได้อย่างง่ายดาย
-weight: 10
-url: /th/java/pdf-images/add-line-object-to-pdf-using-java/
+"description": "เรียนรู้วิธีการเพิ่มวัตถุเส้นลงในไฟล์ PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java ปรับแต่งเส้น จัดตำแหน่งเส้น และสร้าง PDF แบบไดนามิกได้อย่างง่ายดาย"
+"linktitle": "เพิ่มวัตถุเส้นลงใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มวัตถุเส้นลงใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-images/add-line-object-to-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มวัตถุเส้นลงใน PDF โดยใช้ Java
@@ -26,7 +28,7 @@ url: /th/java/pdf-images/add-line-object-to-pdf-using-java/
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA หรือ Eclipse
 - Aspose.PDF สำหรับไลบรารี Java
 
- คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/)ตรวจสอบให้แน่ใจว่าคุณเลือกเวอร์ชันที่เหมาะสมสำหรับโครงการของคุณ
+คุณสามารถดาวน์โหลดไลบรารี Aspose.PDF สำหรับ Java ได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/). ตรวจสอบให้แน่ใจว่าคุณเลือกเวอร์ชันที่เหมาะสมกับโครงการของคุณ
 
 ## การสร้างโครงการ Java
 
@@ -56,7 +58,7 @@ page.getParagraphs().add(line);
 pdfDocument.save("output.pdf");
 ```
 
-โค้ดนี้จะเริ่มต้นเอกสาร PDF สร้างหน้า และเพิ่มเส้นแนวนอนให้กับเอกสาร คุณสามารถปรับแต่งคุณสมบัติของเส้น เช่น สีและความหนา เพื่อให้เหมาะกับความต้องการของคุณได้
+โค้ดนี้จะเริ่มต้นเอกสาร PDF สร้างหน้า และเพิ่มเส้นแนวนอนให้กับหน้านั้น คุณสามารถปรับแต่งคุณสมบัติของเส้น เช่น สีและความหนา ให้เหมาะกับความต้องการของคุณได้
 
 ## การปรับแต่งคุณสมบัติของเส้น
 
@@ -69,11 +71,11 @@ line.setLineWidth(2f); // ความหนาของเส้น
 line.setDashArray(new float[] { 1, 1 }); // รูปแบบเส้น (จุด)
 ```
 
-คุณสามารถปรับสี ความหนา และสไตล์ได้ตามต้องการ เพื่อให้ได้รูปลักษณ์ที่ต้องการ
+คุณสามารถปรับสี ความหนา และสไตล์ได้ตามต้องการเพื่อให้ได้รูปลักษณ์ที่ต้องการ
 
 ## การวางตำแหน่งเส้น
 
- คุณสามารถวางตำแหน่งเส้นที่พิกัดเฉพาะบนหน้า PDF ได้โดยการปรับ`setStartPosition` และ`setEndPosition`ค่าในวัตถุเส้น
+คุณสามารถวางตำแหน่งเส้นที่พิกัดเฉพาะบนหน้า PDF ได้โดยการปรับ `setStartPosition` และ `setEndPosition` ค่าในวัตถุเส้น
 
 ## การบันทึกไฟล์ PDF
 
@@ -97,7 +99,7 @@ pdfDocument.save("output.pdf");
 
 ### ฉันจะเปลี่ยนสีของเส้นในเอกสาร PDF ได้อย่างไร?
 
- หากต้องการเปลี่ยนสีของเส้นในเอกสาร PDF ให้ใช้`setColor`วิธีการบนวัตถุเส้น ตัวอย่างเช่น:
+หากต้องการเปลี่ยนสีของเส้นในเอกสาร PDF ให้ใช้ `setColor` วิธีการบนวัตถุเส้น ตัวอย่างเช่น:
 
 ```java
 line.setColor(com.aspose.pdf.Color.getBlue());
@@ -125,10 +127,12 @@ line.setDashArray(new float[] { 3, 2 }); // สร้างเส้นประ
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
-คุณสามารถค้นหาเอกสารประกอบและตัวอย่างที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่หน้าเอกสารประกอบ[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารประกอบและตัวอย่างที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่หน้าเอกสารประกอบ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

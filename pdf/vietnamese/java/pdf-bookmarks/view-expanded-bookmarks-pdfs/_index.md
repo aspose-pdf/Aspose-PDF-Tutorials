@@ -1,14 +1,16 @@
 ---
-title: Xem các dấu trang mở rộng trong PDF
-linktitle: Xem các dấu trang mở rộng trong PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách xem các dấu trang mở rộng trong PDF bằng Aspose.PDF cho Java. Cải thiện khả năng điều hướng tài liệu với hướng dẫn từng bước.
-weight: 14
-url: /vi/java/pdf-bookmarks/view-expanded-bookmarks-pdfs/
+"description": "Tìm hiểu cách xem dấu trang mở rộng trong PDF bằng Aspose.PDF cho Java. Cải thiện điều hướng tài liệu với hướng dẫn từng bước."
+"linktitle": "Xem các dấu trang mở rộng trong PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Xem các dấu trang mở rộng trong PDF"
+"url": "/vi/java/pdf-bookmarks/view-expanded-bookmarks-pdfs/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xem các dấu trang mở rộng trong PDF
@@ -33,7 +35,7 @@ Aspose.PDF for Java là một API mạnh mẽ giúp các nhà phát triển làm
 ## Hướng dẫn từng bước
 
 ### Bước 1: Cài đặt
- Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.PDF for Java trong môi trường phát triển của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.PDF for Java trong môi trường phát triển của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ### Bước 2: Nhập thư viện
 Trong dự án Java của bạn, hãy nhập thư viện Aspose.PDF. Sau đây là một ví dụ đơn giản về cách thực hiện:
@@ -49,7 +51,7 @@ Tiếp theo, tải tài liệu PDF mà bạn muốn làm việc:
 Document pdfDocument = new Document("sample.pdf");
 ```
 
-### Bước 4: Kích hoạt Dấu trang mở rộng
+### Bước 4: Kích hoạt Dấu trang Mở rộng
 Bây giờ, hãy bật chế độ xem dấu trang mở rộng:
 
 ```java
@@ -71,7 +73,7 @@ Trong bài viết này, chúng tôi đã khám phá tầm quan trọng của cá
 
 ### Làm thế nào tôi có thể tải xuống Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ[liên kết này](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống Aspose.PDF cho Java từ [liên kết này](https://releases.aspose.com/pdf/java/).
 
 ### Tôi có thể sử dụng Aspose.PDF cho Java trong các dự án thương mại không?
 
@@ -88,9 +90,11 @@ Có, Aspose.PDF for Java cung cấp các tùy chọn để tùy chỉnh giao di�
 ### Có phiên bản dùng thử của Aspose.PDF cho Java không?
 
 Có, bạn có thể dùng thử phiên bản đánh giá miễn phí của Aspose.PDF cho Java trước khi quyết định mua.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

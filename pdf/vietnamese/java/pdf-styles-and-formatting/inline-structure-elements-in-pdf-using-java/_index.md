@@ -1,14 +1,16 @@
 ---
-title: Các thành phần cấu trúc nội tuyến trong PDF sử dụng Java
-linktitle: Các thành phần cấu trúc nội tuyến trong PDF sử dụng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách triển khai Inline Structure Elements trong tài liệu PDF bằng Java với Aspose.PDF for Java. Tạo PDF có cấu trúc tốt và dễ truy cập.
-weight: 10
-url: /vi/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-java/
+"description": "Tìm hiểu cách triển khai Inline Structure Elements trong tài liệu PDF bằng Java với Aspose.PDF for Java. Tạo PDF có cấu trúc tốt và dễ truy cập."
+"linktitle": "Các thành phần cấu trúc nội tuyến trong PDF sử dụng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Các thành phần cấu trúc nội tuyến trong PDF sử dụng Java"
+"url": "/vi/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các thành phần cấu trúc nội tuyến trong PDF sử dụng Java
@@ -41,7 +43,7 @@ Trước khi bắt đầu, bạn cần thiết lập môi trường phát triể
 
 Để cài đặt Aspose.PDF cho Java, hãy làm theo các bước sau:
 
-1.  Tải xuống Aspose.PDF cho Java: Truy cập trang web Aspose[đây](https://releases.aspose.com/pdf/java/) và tải xuống phiên bản mới nhất của Aspose.PDF cho Java.
+1. Tải xuống Aspose.PDF cho Java: Truy cập trang web Aspose [đây](https://releases.aspose.com/pdf/java/) và tải xuống phiên bản mới nhất của Aspose.PDF cho Java.
 
 2. Thêm vào dự án của bạn: Thêm thư viện Aspose.PDF vào dự án Java của bạn bằng cách đưa tệp JAR vào đường dẫn xây dựng của dự án.
 
@@ -114,7 +116,7 @@ Ngoài văn bản, bạn cũng có thể thêm hình ảnh vào tài liệu PDF 
 Để chèn hình ảnh vào PDF:
 
 ```java
-//Tải một hình ảnh
+// Tải một hình ảnh
 com.aspose.pdf.Image image = new com.aspose.pdf.Image();
 image.setFile("image.png");
 
@@ -205,11 +207,11 @@ Các thành phần cấu trúc nội tuyến là các thành phần trong tài l
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Để cài đặt Aspose.PDF cho Java, hãy truy cập trang web Aspose[đây](https://releases.aspose.com/pdf/java/) và tải xuống phiên bản mới nhất. Sau đó, thêm tệp JAR vào đường dẫn xây dựng dự án Java của bạn.
+Để cài đặt Aspose.PDF cho Java, hãy truy cập trang web Aspose [đây](https://releases.aspose.com/pdf/java/) và tải xuống phiên bản mới nhất. Sau đó, thêm tệp JAR vào đường dẫn xây dựng dự án Java của bạn.
 
 ### Tôi có thể thay đổi màu của văn bản nội tuyến trong tệp PDF không?
 
-Có, bạn có thể thay đổi màu của văn bản nội tuyến trong PDF bằng Aspose.PDF cho Java. Sử dụng`setTextState().setForegroundColor(Color)` phương pháp để chỉ định màu sắc.
+Có, bạn có thể thay đổi màu của văn bản nội tuyến trong PDF bằng Aspose.PDF cho Java. Sử dụng `setTextState().setForegroundColor(Color)` phương pháp để chỉ định màu sắc.
 
 ### Lợi ích của việc tạo tệp PDF có thể truy cập là gì?
 
@@ -217,10 +219,12 @@ Tệp PDF có thể truy cập mang lại lợi ích cho người dùng khuyết
 
 ### Làm thế nào để tạo siêu liên kết trong PDF?
 
- Để tạo siêu liên kết trong PDF, hãy sử dụng Aspose.PDF cho Java để tạo`LinkAnnotation` và liên kết nó với văn bản hoặc thành phần mong muốn. Chỉ định URL mục tiêu hoặc hành động cho siêu liên kết.
+Để tạo siêu liên kết trong PDF, hãy sử dụng Aspose.PDF cho Java để tạo `LinkAnnotation` và liên kết nó với văn bản hoặc thành phần mong muốn. Chỉ định URL mục tiêu hoặc hành động cho siêu liên kết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

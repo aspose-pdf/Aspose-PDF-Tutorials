@@ -8,7 +8,9 @@ url: /net/programming-with-forms/fill-xfafields/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fill XFAFields
@@ -133,6 +135,7 @@ Yes, you can set field values programmatically based on user input, database rec
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Xoay văn bản bằng cách sử dụng đoạn văn bản và đoạn văn
-linktitle: Xoay văn bản bằng cách sử dụng đoạn văn bản và đoạn văn
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xoay văn bản bằng cách sử dụng đoạn văn bản và đoạn văn trong tài liệu PDF bằng Aspose.PDF cho .NET.
-weight: 400
-url: /vi/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/
+"description": "Tìm hiểu cách xoay văn bản bằng cách sử dụng đoạn văn bản và đoạn văn trong tài liệu PDF bằng Aspose.PDF cho .NET."
+"linktitle": "Xoay văn bản bằng cách sử dụng đoạn văn bản và đoạn văn"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xoay văn bản bằng cách sử dụng đoạn văn bản và đoạn văn"
+"url": "/vi/net/programming-with-text/rotate-text-using-text-fragment-and-paragraph/"
+"weight": 400
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xoay văn bản bằng cách sử dụng đoạn văn bản và đoạn văn
@@ -23,11 +25,11 @@ Trước khi đi sâu vào các chi tiết kỹ thuật, hãy đảm bảo bạn
 
 1. Hiểu biết cơ bản về .NET Framework: Có kiến thức về C# hoặc VB.NET sẽ có lợi vì Aspose.PDF hoạt động liền mạch với các ứng dụng .NET.
   
-2.  Aspose.PDF cho Thư viện .NET: Bạn sẽ cần thư viện Aspose.PDF. Đừng lo lắng; nó rất dễ tải xuống! Bạn có thể tải ngay tại đây:[Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho Thư viện .NET: Bạn sẽ cần thư viện Aspose.PDF. Đừng lo lắng; nó rất dễ tải xuống! Bạn có thể tải ngay tại đây: [Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 
 3. Môi trường phát triển: Bạn có thể sử dụng bất kỳ IDE nào hỗ trợ phát triển .NET, như Visual Studio. Đảm bảo IDE của bạn có thể truy cập thư viện Aspose.PDF đã tải xuống.
 
-4.  Giấy phép tạm thời (Tùy chọn): Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng nếu bạn cần xây dựng ứng dụng sản xuất, hãy cân nhắc mua[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có chức năng hoàn chỉnh.
+4. Giấy phép tạm thời (Tùy chọn): Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng nếu bạn cần xây dựng ứng dụng sản xuất, hãy cân nhắc mua [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có chức năng hoàn chỉnh.
 
 5. Kết nối Internet: Điều này có vẻ hiển nhiên, nhưng bạn sẽ cần nó để truy cập tài liệu trực tuyến để được hướng dẫn thêm và khắc phục sự cố.
 
@@ -87,7 +89,7 @@ textFragment1.TextState.FontSize = 12;
 textFragment1.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 ```
 
-Ở đây, chúng tôi đã tạo ra đoạn văn bản đầu tiên có tên là`textFragment1`. Chúng tôi cũng thiết lập các thuộc tính phông chữ của nó—bạn biết đấy, để làm cho nó trông đẹp mắt!
+Ở đây, chúng tôi đã tạo ra đoạn văn bản đầu tiên có tên là `textFragment1`Chúng tôi cũng thiết lập các thuộc tính phông chữ của nó—bạn biết đấy, để làm cho nó trông đẹp mắt!
 
 ## Bước 4: Thêm đoạn văn bản đầu tiên vào trang
 
@@ -115,7 +117,7 @@ textFragment2.TextState.Font = FontRepository.FindFont("TimesNewRoman");
 textFragment2.TextState.Rotation = 315;
 ```
 
- Trong đoạn trích này, chúng tôi đã tạo một đoạn văn bản có tên`textFragment2`. Chúng tôi đã đặt góc xoay của nó thành 315 độ, nghiêng đẹp nhưng không hoàn toàn lộn ngược. Điều này có thể biểu thị văn bản cần một chút tinh tế!
+Trong đoạn trích này, chúng tôi đã tạo một đoạn văn bản có tên `textFragment2`. Chúng tôi đã đặt góc xoay của nó thành 315 độ, nghiêng đẹp nhưng không hoàn toàn lộn ngược. Điều này có thể biểu thị văn bản cần một chút tinh tế!
 
 ### Thêm đoạn văn bản xoay vào trang
 
@@ -180,18 +182,20 @@ Hoàn toàn có thể! Aspose.PDF có thể được tích hợp vào bất kỳ
 
 ### Có bản dùng thử miễn phí Aspose.PDF không?
 
- Có, bạn có thể dùng thử miễn phí để khám phá các tính năng của nó trước khi mua. Kiểm tra tại[Dùng thử miễn phí Aspose](https://releases.aspose.com/).
+Có, bạn có thể dùng thử miễn phí để khám phá các tính năng của nó trước khi mua. Kiểm tra tại [Dùng thử miễn phí Aspose](https://releases.aspose.com/).
 
 ### Làm thế nào để xoay văn bản trong PDF bằng Aspose.PDF?
 
- Bạn có thể xoay văn bản bằng cách thiết lập`Rotation` tài sản của một`TextFragment` đối tượng, như được minh họa trong hướng dẫn này.
+Bạn có thể xoay văn bản bằng cách thiết lập `Rotation` tài sản của một `TextFragment` đối tượng, như được minh họa trong hướng dẫn này.
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
 
- Để được hỗ trợ hoặc thắc mắc, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Để được hỗ trợ hoặc thắc mắc, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

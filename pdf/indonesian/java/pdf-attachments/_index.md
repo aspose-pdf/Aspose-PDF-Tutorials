@@ -1,14 +1,16 @@
 ---
-title: Lampiran PDF
-linktitle: Lampiran PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengelola lampiran PDF di Java dengan Aspose.PDF. Lampirkan file, gambar, dan lainnya ke PDF Anda dengan mudah.
-weight: 11
-url: /id/java/pdf-attachments/
+"description": "Pelajari cara mengelola lampiran PDF di Java dengan Aspose.PDF. Lampirkan file, gambar, dan lainnya ke PDF Anda dengan mudah."
+"linktitle": "Lampiran PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Lampiran PDF"
+"url": "/id/java/pdf-attachments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lampiran PDF
@@ -33,9 +35,11 @@ Pelajari cara menghapus lampiran dari PDF di Java dengan Aspose.PDF. Panduan lan
 Pelajari cara mengambil lampiran PDF di Java menggunakan Aspose.PDF. Panduan langkah demi langkah dengan contoh kode untuk mengelola lampiran dokumen PDF.
 ### [Daftar Semua Lampiran dalam Dokumen PDF](./list-all-attachments-pdf-documents/)
 Temukan Cara Mencantumkan Lampiran dalam PDF menggunakan Aspose.PDF untuk Java. Panduan Langkah demi Langkah untuk Mengekstrak Lampiran PDF dengan Mudah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

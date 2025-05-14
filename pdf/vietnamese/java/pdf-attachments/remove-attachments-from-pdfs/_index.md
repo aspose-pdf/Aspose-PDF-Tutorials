@@ -1,14 +1,16 @@
 ---
-title: Xóa tệp đính kèm khỏi PDF
-linktitle: Xóa tệp đính kèm khỏi PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách xóa tệp đính kèm khỏi PDF trong Java bằng Aspose.PDF. Hướng dẫn từng bước và mã để thao tác PDF.
-weight: 11
-url: /vi/java/pdf-attachments/remove-attachments-from-pdfs/
+"description": "Tìm hiểu cách xóa tệp đính kèm khỏi PDF trong Java bằng Aspose.PDF. Hướng dẫn từng bước và mã để thao tác PDF."
+"linktitle": "Xóa tệp đính kèm khỏi PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Xóa tệp đính kèm khỏi PDF"
+"url": "/vi/java/pdf-attachments/remove-attachments-from-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa tệp đính kèm khỏi PDF
@@ -23,7 +25,7 @@ Trong thời đại kỹ thuật số ngày nay, làm việc với các tệp PD
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có mọi thứ cần thiết:
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
--  Aspose.PDF cho Java: Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Java: Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập dự án của bạn
 
@@ -42,7 +44,7 @@ Trước khi tìm hiểu mã, hãy đảm bảo bạn có mọi thứ cần thi�
 Document pdfDocument = new Document("path/to/your/pdf/file.pdf");
 ```
 
-### Bước 2: Nhận Bộ sưu tập tệp đính kèm
+### Bước 2: Nhận Bộ sưu tập Tệp đính kèm
 
 ```java
 // Nhận bộ sưu tập tệp đính kèm
@@ -75,7 +77,7 @@ Hãy thử và xem Aspose.PDF đơn giản hóa việc xử lý tài liệu PDF 
 
 ### Làm thế nào để kiểm tra xem tệp PDF có tệp đính kèm hay không trước khi xóa chúng?
 
- Bạn có thể sử dụng`getEmbeddedFiles()` phương pháp để lấy bộ sưu tập tệp đính kèm. Nếu nó trống, thì không có tệp đính kèm nào trong PDF.
+Bạn có thể sử dụng `getEmbeddedFiles()` phương pháp để lấy bộ sưu tập tệp đính kèm. Nếu nó trống, thì không có tệp đính kèm nào trong PDF.
 
 ### Tôi có thể xóa các tệp đính kèm cụ thể và giữ lại các tệp khác không?
 
@@ -91,10 +93,12 @@ Có, Aspose.PDF hỗ trợ nhiều ngôn ngữ lập trình, khiến nó trở n
 
 ### Tôi có thể nhận thêm trợ giúp về Aspose.PDF cho Java bằng cách nào?
 
- Bạn có thể truy cập tài liệu Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết và ví dụ.
+Bạn có thể truy cập tài liệu Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết và ví dụ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

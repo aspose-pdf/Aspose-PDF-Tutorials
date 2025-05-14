@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Gambar ke PDF menggunakan Java
-linktitle: Tambahkan Gambar ke PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan gambar ke PDF menggunakan Java dengan panduan langkah demi langkah kami. Sempurnakan dokumen PDF Anda dengan visual dengan mudah.
-weight: 10
-url: /id/java/pdf-image-manipulation/add-image-to-pdf-using-java/
+"description": "Pelajari cara menambahkan gambar ke PDF menggunakan Java dengan panduan langkah demi langkah kami. Sempurnakan dokumen PDF Anda dengan visual dengan mudah."
+"linktitle": "Tambahkan Gambar ke PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Tambahkan Gambar ke PDF menggunakan Java"
+"url": "/id/java/pdf-image-manipulation/add-image-to-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Gambar ke PDF menggunakan Java
@@ -28,7 +30,7 @@ Sebelum kita masuk ke pengkodean, pastikan Anda telah menyiapkan hal berikut:
 
 ## Memulai
 
-Mari kita mulai dengan menyiapkan proyek Java kita dan menyertakan pustaka Aspose.PDF. Jika Anda belum melakukannya, Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+Mari kita mulai dengan menyiapkan proyek Java kita dan menyertakan pustaka Aspose.PDF. Jika Anda belum melakukannya, Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menambahkan Gambar ke PDF yang Ada
 
@@ -48,18 +50,18 @@ Sekarang, mari kita muat dokumen PDF yang sudah ada dan kita ingin menambahkan g
 Document pdfDocument = new Document("path_to_existing_pdf.pdf");
 ```
 
- Mengganti`"path_to_existing_pdf.pdf"` dengan jalur sebenarnya ke berkas PDF Anda.
+Mengganti `"path_to_existing_pdf.pdf"` dengan jalur sebenarnya ke berkas PDF Anda.
 
 ### Langkah 3: Tambahkan gambar
 
- Untuk menambahkan gambar ke PDF, Anda dapat menggunakan`Image` kelas dari Aspose.PDF. Pertama, buat`Image` objek dan tentukan jalur file gambar:
+Untuk menambahkan gambar ke PDF, Anda dapat menggunakan `Image` kelas dari Aspose.PDF. Pertama, buat `Image` objek dan tentukan jalur file gambar:
 
 ```java
 Image image = new Image();
 image.setFile("path_to_image.png");
 ```
 
- Mengganti`"path_to_image.png"` dengan jalur ke gambar yang ingin Anda tambahkan.
+Mengganti `"path_to_image.png"` dengan jalur ke gambar yang ingin Anda tambahkan.
 
 ### Langkah 4: Atur dimensi dan posisi gambar
 
@@ -99,7 +101,7 @@ Anda telah berhasil menambahkan gambar ke dokumen PDF menggunakan Java dan pusta
 
 ### Bagaimana cara mengubah ukuran gambar dalam PDF?
 
- Untuk mengubah ukuran gambar, gunakan`setFixWidth` Dan`setFixHeight` metode dari`Image` kelas, seperti yang ditunjukkan pada Langkah 4 dari panduan ini.
+Untuk mengubah ukuran gambar, gunakan `setFixWidth` Dan `setFixHeight` metode dari `Image` kelas, seperti yang ditunjukkan pada Langkah 4 dari panduan ini.
 
 ### Bisakah saya menambahkan beberapa gambar ke dokumen PDF yang sama?
 
@@ -116,9 +118,11 @@ Aspose.PDF untuk Java mendukung berbagai format gambar, termasuk PNG, JPEG, GIF,
 ### Bisakah saya menambahkan gambar ke lokasi tertentu pada halaman PDF?
 
 Ya, Anda dapat menentukan posisi gambar yang tepat dalam halaman PDF dengan mengatur margin atas dan kiri, seperti yang ditunjukkan pada Langkah 4.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

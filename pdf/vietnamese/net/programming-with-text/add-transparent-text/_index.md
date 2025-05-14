@@ -1,14 +1,16 @@
 ---
-title: Thêm văn bản trong suốt vào tệp PDF
-linktitle: Thêm văn bản trong suốt vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách dễ dàng thêm văn bản trong suốt vào PDF bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Hướng dẫn từng bước để đạt được độ trong suốt hoàn hảo.
-weight: 100
-url: /vi/net/programming-with-text/add-transparent-text/
+"description": "Tìm hiểu cách dễ dàng thêm văn bản trong suốt vào PDF bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Hướng dẫn từng bước để đạt được độ trong suốt hoàn hảo."
+"linktitle": "Thêm văn bản trong suốt vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm văn bản trong suốt vào tệp PDF"
+"url": "/vi/net/programming-with-text/add-transparent-text/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm văn bản trong suốt vào tệp PDF
@@ -21,10 +23,10 @@ Bạn đã bao giờ tự hỏi làm thế nào để thêm văn bản trong su�
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập mọi thứ để làm theo hướng dẫn này. Sau đây là những gì bạn cần:
 
--  Aspose.PDF cho .NET đã được cài đặt. Bạn có thể tải xuống từ trang web[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET đã được cài đặt. Bạn có thể tải xuống từ trang web [đây](https://releases.aspose.com/pdf/net/).
 - Microsoft Visual Studio hoặc bất kỳ môi trường phát triển tương thích nào khác.
 - Kiến thức cơ bản về C# và .NET.
--  Giấy phép Aspose.PDF hợp lệ hoặc[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để mở khóa toàn bộ chức năng. Bạn cũng có thể thử[Dùng thử miễn phí](https://releases.aspose.com/).
+- Giấy phép Aspose.PDF hợp lệ hoặc [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để mở khóa toàn bộ chức năng. Bạn cũng có thể thử [Dùng thử miễn phí](https://releases.aspose.com/).
 
 Bây giờ chúng ta đã nắm được các điều kiện tiên quyết, hãy cùng tìm hiểu cách thêm văn bản trong suốt vào tài liệu PDF.
 
@@ -56,20 +58,20 @@ Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 ```
 
- Ở đây, chúng tôi khởi tạo một`Document` đối tượng đại diện cho tệp PDF của chúng tôi. Chúng tôi cũng thêm một trang trống vào đó. Đơn giản, phải không?
+Ở đây, chúng tôi khởi tạo một `Document` đối tượng đại diện cho tệp PDF của chúng tôi. Chúng tôi cũng thêm một trang trống vào đó. Đơn giản, phải không?
 
 ## Bước 2: Tạo biểu đồ và thêm hình dạng
 
- Tiếp theo, chúng ta sẽ tạo một`Graph` đối tượng, đóng vai trò là nơi chứa các thành phần đồ họa mà chúng ta muốn thêm vào PDF, chẳng hạn như hình dạng hoặc hình chữ nhật.
+Tiếp theo, chúng ta sẽ tạo một `Graph` đối tượng, đóng vai trò là nơi chứa các thành phần đồ họa mà chúng ta muốn thêm vào PDF, chẳng hạn như hình dạng hoặc hình chữ nhật.
 
 ```csharp
 // Tạo đối tượng Graph
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
-// Tạo phiên bản hình chữ nhật có kích thước nhất định
+// Tạo thể hiện hình chữ nhật có kích thước nhất định
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
 ```
 
- Ở đây, chúng tôi định nghĩa một`Graph` với kích thước được chỉ định và sau đó thêm một hình chữ nhật. Hãy tưởng tượng hình chữ nhật này là nơi văn bản của chúng ta sẽ nằm.
+Ở đây, chúng tôi định nghĩa một `Graph` với kích thước được chỉ định và sau đó thêm một hình chữ nhật. Hãy tưởng tượng hình chữ nhật này là nơi văn bản của chúng ta sẽ nằm.
 
 ## Bước 3: Điều chỉnh màu sắc và độ trong suốt
 
@@ -80,7 +82,7 @@ Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 4
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 ```
 
- Đoạn mã này điều chỉnh độ trong suốt của hình chữ nhật.`FromArgb` Phương pháp này cho phép bạn kiểm soát alpha (độ trong suốt) cùng với các giá trị màu RGB.
+Đoạn mã này điều chỉnh độ trong suốt của hình chữ nhật. `FromArgb` Phương pháp này cho phép bạn kiểm soát alpha (độ trong suốt) cùng với các giá trị màu RGB.
 
 ## Bước 4: Thêm hình chữ nhật vào biểu đồ
 
@@ -93,7 +95,7 @@ canvas.Shapes.Add(rect);
 page.Paragraphs.Add(canvas);
 ```
 
- Ở đây, hình chữ nhật được thêm vào`Graph`, sau đó được thêm vào trang. Hãy nghĩ về điều này như việc đặt một khung trong suốt vào một bức tranh.
+Ở đây, hình chữ nhật được thêm vào `Graph`, sau đó được thêm vào trang. Hãy nghĩ về điều này như việc đặt một khung trong suốt vào một bức tranh.
 
 ## Bước 5: Tạo văn bản trong suốt
 
@@ -104,7 +106,7 @@ Bây giờ đến phần thú vị! Hãy tạo một số văn bản trong suố
 TextFragment text = new TextFragment("transparent text transparent text transparent text...");
 ```
 
- Chúng tôi sử dụng`TextFragment` để xác định văn bản chúng ta muốn hiển thị. Bạn có thể thay thế văn bản giữ chỗ bằng bất kỳ nội dung nào bạn cần.
+Chúng tôi sử dụng `TextFragment` để xác định văn bản chúng ta muốn hiển thị. Bạn có thể thay thế văn bản giữ chỗ bằng bất kỳ nội dung nào bạn cần.
 
 ## Bước 6: Thiết lập độ trong suốt của văn bản
 
@@ -117,7 +119,7 @@ Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0);
 text.TextState.ForegroundColor = color;
 ```
 
- Ở đây,`FromArgb`phương pháp này cung cấp cho văn bản một màu xanh lục trong suốt. Bạn có thể tùy chỉnh màu sắc để phù hợp với sở thích của mình.
+Ở đây, `FromArgb` phương pháp này cung cấp cho văn bản một màu xanh lục trong suốt. Bạn có thể tùy chỉnh màu sắc để phù hợp với sở thích của mình.
 
 ## Bước 7: Thêm văn bản trong suốt vào PDF
 
@@ -128,7 +130,7 @@ Cuối cùng, chúng ta thêm văn bản trong suốt vào trang PDF.
 page.Paragraphs.Add(text);
 ```
 
- Mã này thêm văn bản trong suốt vào trang`Paragraphs` bộ sưu tập, làm cho nó hiển thị trong PDF.
+Mã này thêm văn bản trong suốt vào trang `Paragraphs` bộ sưu tập, làm cho nó hiển thị trong PDF.
 
 ## Bước 8: Lưu tệp PDF
 
@@ -148,22 +150,24 @@ Thêm văn bản trong suốt vào PDF là một cách tuyệt vời để cải
 ## Câu hỏi thường gặp
 
 ### Tôi có thể điều chỉnh mức độ trong suốt của văn bản không?  
- Có! Bằng cách thay đổi giá trị alpha trong`FromArgb` Phương pháp này cho phép bạn làm cho văn bản trở nên trong suốt hơn hoặc ít trong suốt hơn.
+Có! Bằng cách thay đổi giá trị alpha trong `FromArgb` Phương pháp này cho phép bạn làm cho văn bản trở nên trong suốt hơn hoặc ít trong suốt hơn.
 
 ### Aspose.PDF cho .NET có miễn phí sử dụng không?  
- Bạn có thể thử nó với một[dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có đầy đủ chức năng.
+Bạn có thể thử nó với một [dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có đầy đủ chức năng.
 
 ### Tôi có thể thêm những hình dạng nào khác bằng cách sử dụng đối tượng Graph?  
-Bạn có thể thêm nhiều hình dạng khác nhau, chẳng hạn như hình tròn, hình elip và đường thẳng, để tùy chỉnh thêm thiết kế PDF của mình.
+Bạn có thể thêm nhiều hình dạng khác nhau, chẳng hạn như hình tròn, hình elip và đường thẳng, để tùy chỉnh thiết kế PDF của mình hơn nữa.
 
 ### Làm thế nào để tạo màu khác cho văn bản?  
- Chỉ cần sửa đổi các giá trị RGB trong`FromArgb` phương pháp để thiết lập bất kỳ màu nào bạn thích.
+Chỉ cần sửa đổi các giá trị RGB trong `FromArgb` phương pháp để thiết lập bất kỳ màu nào bạn thích.
 
 ### Tôi có thể thêm nhiều đoạn văn bản trong suốt không?  
-Chắc chắn rồi! Bạn có thể tạo và thêm nhiều`TextFragment` các trường hợp có mức độ trong suốt và nội dung văn bản khác nhau.
+Chắc chắn rồi! Bạn có thể tạo và thêm nhiều `TextFragment` các trường hợp có mức độ trong suốt và nội dung văn bản khác nhau.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

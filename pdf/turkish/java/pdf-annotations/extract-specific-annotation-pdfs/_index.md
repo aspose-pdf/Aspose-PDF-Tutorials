@@ -1,14 +1,16 @@
 ---
-title: PDF'lerden Belirli Açıklamaları Çıkarın
-linktitle: PDF'lerden Belirli Açıklamaları Çıkarın
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF kullanarak PDF'lerden belirli açıklamaların nasıl çıkarılacağını öğrenin. Bu adım adım kılavuz, verimli PDF açıklama çıkarımı için kod örnekleri ve SSS sağlar.
-weight: 14
-url: /tr/java/pdf-annotations/extract-specific-annotation-pdfs/
+"description": "Java için Aspose.PDF kullanarak PDF'lerden belirli açıklamaların nasıl çıkarılacağını öğrenin. Bu adım adım kılavuz, verimli PDF açıklama çıkarımı için kod örnekleri ve SSS sağlar."
+"linktitle": "PDF'lerden Belirli Açıklamaları Çıkarın"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF'lerden Belirli Açıklamaları Çıkarın"
+"url": "/tr/java/pdf-annotations/extract-specific-annotation-pdfs/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'lerden Belirli Açıklamaları Çıkarın
@@ -23,7 +25,7 @@ PDF'lerdeki açıklamalar bir bilgi hazinesi olabilir. Kullanıcıların yorum e
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Sisteminizde Java Development Kit (JDK) yüklü.
--  Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Projenin Kurulumu
 
@@ -55,7 +57,7 @@ for (Annotation annotation : pdfDocument.getPages().get_Item(1).getAnnotations()
 }
 ```
 
-## Vurgu Açıklamalarını Çıkarma
+## Vurgulama Açıklamalarını Çıkarma
 
 ```java
 // Vurgulama açıklamalarını ayıkla
@@ -101,7 +103,7 @@ Bu makalede, Aspose.PDF for Java kullanarak PDF'lerden belirli açıklamaların 
 
 ### Java için Aspose.PDF'yi nasıl yüklerim?
 
- Java için Aspose.PDF'yi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/). Java projenize kurmak için web sitesinde verilen kurulum talimatlarını izleyin.
+Java için Aspose.PDF'yi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/)Java projenize kurmak için web sitesinde verilen kurulum talimatlarını izleyin.
 
 ### PDF belgesinde belirli bir sayfadan ek açıklamaları çıkarabilir miyim?
 
@@ -109,18 +111,20 @@ Evet, Java için Aspose.PDF'yi kullanarak o sayfanın açıklamalarına erişere
 
 ### Aspose.PDF for Java kullanarak başka hangi tür açıklamaları çıkarabilirim?
 
-Java için Aspose.PDF, metin açıklamaları, vurgu açıklamaları, özel damgalar ve daha fazlası dahil olmak üzere çeşitli açıklama türlerini destekler. Kod örneklerini, ihtiyacınız olan belirli açıklama türlerini çıkarmak için uyarlayabilirsiniz.
+Java için Aspose.PDF, metin açıklamaları, vurgu açıklamaları, özel damgalar ve daha fazlası dahil olmak üzere çeşitli açıklama türlerini destekler. İhtiyacınız olan belirli açıklama türlerini çıkarmak için kod örneklerini uyarlayabilirsiniz.
 
 ### Aspose.PDF for Java büyük PDF belgelerini işlemek için uygun mudur?
 
-Evet, Java için Aspose.PDF hem küçük hem de büyük PDF belgelerini verimli bir şekilde işlemek için tasarlanmıştır. Performans sorunları olmadan büyük belgelerle çalışmak için özellikler sağlar.
+Evet, Aspose.PDF for Java hem küçük hem de büyük PDF belgelerini verimli bir şekilde işlemek için tasarlanmıştır. Performans sorunları olmadan büyük belgelerle çalışmak için özellikler sağlar.
 
 ### Açıklamaları çıkarırken çıktı formatını özelleştirebilir miyim?
 
 Evet, gereksinimlerinize göre açıklamaları çıkarırken çıktı formatını özelleştirebilirsiniz. Java için Aspose.PDF, çıkarılan açıklama verilerinin işlenmesinde ve biçimlendirilmesinde esneklik sunar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Zastąp brakujące czcionki
-linktitle: Zastąp brakujące czcionki
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak zastąpić brakujące czcionki w dokumentach PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku.
-weight: 260
-url: /pl/net/document-conversion/replace-missing-fonts/
+"description": "Dowiedz się, jak zastąpić brakujące czcionki w dokumentach PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Zastąp brakujące czcionki"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zastąp brakujące czcionki"
+"url": "/pl/net/document-conversion/replace-missing-fonts/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zastąp brakujące czcionki
@@ -21,7 +23,7 @@ Czy kiedykolwiek otworzyłeś dokument PDF i odkryłeś, że brakuje niektórych
 
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: środowisko programistyczne, w którym można pisać i testować kod.
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
@@ -57,12 +59,12 @@ try
 }
 catch (Exception)
 {
-    //Brak czcionki na komputerze docelowym
+    // Brak czcionki na komputerze docelowym
     FontRepository.Substitutions.Add(new SimpleFontSubstitution("AgencyFB", "Arial"));
 }
 ```
 
-Tutaj próbujemy znaleźć czcionkę. Jeśli nie zostanie znaleziona, wyłapujemy wyjątek i zastępujemy ją bardziej powszechną czcionką „Arial”. Dzięki temu dokument nadal będzie wyglądał dobrze, nawet jeśli oryginalna czcionka nie jest dostępna.
+Tutaj próbujemy znaleźć czcionkę. Jeśli nie zostanie znaleziona, wyłapujemy wyjątek i zastępujemy ją bardziej powszechną czcionką „Arial”. Dzięki temu dokument nadal będzie wyglądał dobrze, nawet jeśli oryginalna czcionka nie będzie dostępna.
 
 ## Krok 3: Załaduj dokument PDF
 
@@ -73,7 +75,7 @@ var fileNew = new FileInfo(dataDir + "newfile_out.pdf");
 var pdf = new Document(dataDir + "input.pdf");
 ```
 
- W tym kroku tworzymy nowy`FileInfo` obiekt dla pliku wyjściowego i załaduj dokument PDF wejściowy do nowego`Document` obiekt.
+W tym kroku tworzymy nowy `FileInfo` obiekt dla pliku wyjściowego i załaduj dokument PDF wejściowy do nowego `Document` obiekt.
 
 ## Krok 4: Konwertuj dokument PDF
 
@@ -93,7 +95,7 @@ Na koniec nadszedł czas na zapisanie zaktualizowanego dokumentu PDF ze zmienion
 pdf.Save(fileNew.FullName);
 ```
 
-Ten wiersz zapisuje zmodyfikowany plik PDF do określonej ścieżki pliku wyjściowego. I tak po prostu, pomyślnie zastąpiłeś brakujące czcionki w swoim dokumencie PDF!
+Ten wiersz zapisuje zmodyfikowany plik PDF do określonej ścieżki pliku wyjściowego. I tak po prostu, pomyślnie zastąpiłeś brakujące czcionki w dokumencie PDF!
 
 ## Wniosek
 
@@ -105,7 +107,7 @@ Zastępowanie brakujących czcionek w dokumentach PDF nie musi być trudnym zada
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do oceny biblioteki. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Co mam zrobić, jeśli czcionka, której potrzebuję, jest niedostępna?
 Brakującą czcionkę możesz zastąpić bardziej powszechną czcionką, korzystając z funkcji podstawiania czcionek w pliku Aspose.PDF.
@@ -114,10 +116,12 @@ Brakującą czcionkę możesz zastąpić bardziej powszechną czcionką, korzyst
 Oczywiście! Aspose.PDF obsługuje konwersję do różnych formatów, w tym PDF/A, DOCX i innych.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
- Wsparcie i możliwość zadawania pytań znajdziesz na forum Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Wsparcie i możliwość zadawania pytań znajdziesz na forum Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

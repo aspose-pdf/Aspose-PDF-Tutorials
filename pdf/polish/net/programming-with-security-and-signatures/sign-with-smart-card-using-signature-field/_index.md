@@ -1,14 +1,16 @@
 ---
-title: Podpisz kartą inteligentną, korzystając z pola podpisu
-linktitle: Podpisz kartą inteligentną, korzystając z pola podpisu
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak bezpiecznie podpisywać pliki PDF za pomocą karty inteligentnej za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić wdrożenie.
-weight: 120
-url: /pl/net/programming-with-security-and-signatures/sign-with-smart-card-using-signature-field/
+"description": "Dowiedz się, jak bezpiecznie podpisywać pliki PDF za pomocą karty inteligentnej za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić wdrożenie."
+"linktitle": "Podpisz kartą inteligentną, korzystając z pola podpisu"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Podpisz kartą inteligentną, korzystając z pola podpisu"
+"url": "/pl/net/programming-with-security-and-signatures/sign-with-smart-card-using-signature-field/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podpisz kartą inteligentną, korzystając z pola podpisu
@@ -21,7 +23,7 @@ dzisiejszym cyfrowym świecie zabezpieczanie dokumentów jest ważniejsze niż k
 
 Zanim zagłębimy się w szczegóły procesu podpisywania, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto lista kontrolna wymagań wstępnych:
 
-1. Aspose.PDF dla .NET: Upewnij się, że biblioteka Aspose.PDF jest zainstalowana w środowisku .NET. Możesz ją pobrać ze strony[strona](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że biblioteka Aspose.PDF jest zainstalowana w środowisku .NET. Możesz ją pobrać ze strony [strona](https://releases.aspose.com/pdf/net/).
 
 2. Visual Studio: Będziesz potrzebować IDE, aby pisać i uruchamiać kod .NET. Visual Studio Community Edition to świetna darmowa opcja.
 
@@ -33,7 +35,7 @@ Zanim zagłębimy się w szczegóły procesu podpisywania, upewnijmy się, że m
 
 ## Importuj pakiety
 
-Zanim zaczniemy kodować, zaimportujmy niezbędne pakiety. Musisz uwzględnić następujące przestrzenie nazw w pliku C#:
+Zanim zaczniemy kodować, zaimportujmy niezbędne pakiety. Będziesz musiał uwzględnić następujące przestrzenie nazw w pliku C#:
 
 ```csharp
 using Aspose.Pdf.Facades;
@@ -59,7 +61,7 @@ Co zrobić: Określ ścieżkę do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Wyjaśnienie: Zamień`"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką, gdzie znajdują się Twoje pliki PDF. To tutaj odczytamy pusty plik PDF i zapiszemy podpisany dokument.
+Wyjaśnienie: Zamień `"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką, gdzie znajdują się Twoje pliki PDF. To tutaj odczytamy pusty plik PDF i zapiszemy podpisany dokument.
 
 ### Krok 2: Skopiuj pusty plik PDF
 
@@ -69,7 +71,7 @@ Co zrobić: Utwórz kopię pustego pliku PDF, aby z nią pracować.
 File.Copy(dataDir + "blank.pdf", dataDir + "externalSignature1.pdf", true);
 ```
 
- Wyjaśnienie: Ten wiersz kopiuje`blank.pdf`plik do nowego pliku o nazwie`externalSignature1.pdf` . Ten`true` Parametr pozwala na nadpisanie pliku, jeśli plik już istnieje.
+Wyjaśnienie: Ten wiersz kopiuje `blank.pdf` plik do nowego pliku o nazwie `externalSignature1.pdf`. Ten `true` Parametr pozwala na nadpisanie pliku, jeśli plik już istnieje.
 
 ### Krok 3: Otwórz dokument PDF
 
@@ -85,7 +87,7 @@ using (FileStream fs = new FileStream(dataDir + "externalSignature1.pdf", FileMo
 }
 ```
 
- Wyjaśnienie: Używamy`FileStream` aby otworzyć nasz plik PDF.`Document` Klasa Aspose.PDF umożliwia nam manipulowanie zawartością PDF.
+Wyjaśnienie: Używamy `FileStream` aby otworzyć nasz plik PDF. `Document` Klasa Aspose.PDF umożliwia nam manipulowanie zawartością PDF.
 
 ### Krok 4: Utwórz pole podpisu
 
@@ -95,7 +97,7 @@ Co należy zrobić: Zdefiniuj pole podpisu w pliku PDF, w którym zostanie umies
 SignatureField field1 = new SignatureField(doc.Pages[1], new Rectangle(100, 400, 10, 10));
 ```
 
- Wyjaśnienie: Tutaj tworzymy`SignatureField` na drugiej stronie (indeks stron zaczyna się od 1) pliku PDF.`Rectangle` definiuje pozycję i rozmiar pola podpisu.
+Wyjaśnienie: Tutaj tworzymy `SignatureField` na drugiej stronie (indeks stron zaczyna się od 1) pliku PDF. `Rectangle` definiuje pozycję i rozmiar pola podpisu.
 
 ### Krok 5: Uzyskaj dostęp do magazynu certyfikatów kart inteligentnych
 
@@ -120,7 +122,7 @@ Wyjaśnienie: Ten wiersz otwiera okno dialogowe, w którym możesz wybrać certy
 
 ### Krok 7: Utwórz podpis zewnętrzny
 
- Co zrobić: Utwórz instancję`ExternalSignature` używając wybranego certyfikatu.
+Co zrobić: Utwórz instancję `ExternalSignature` używając wybranego certyfikatu.
 
 ```csharp
 Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.ExternalSignature(sel[0])
@@ -131,7 +133,7 @@ Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.Exte
 };
 ```
 
- Wyjaśnienie: Inicjujemy`ExternalSignature` z wybranym certyfikatem. Możesz również ustawić autorytet, powód podpisania i dane kontaktowe.
+Wyjaśnienie: Inicjujemy `ExternalSignature` z wybranym certyfikatem. Możesz również ustawić autorytet, powód podpisania i dane kontaktowe.
 
 ### Krok 8: Dodaj pole podpisu do dokumentu
 
@@ -173,7 +175,7 @@ using (PdfFileSignature pdfSign = new PdfFileSignature(new Document(dataDir + "e
 }
 ```
 
-Wyjaśnienie: Tworzymy instancję`PdfFileSignature` aby zweryfikować podpisy w dokumencie. Jeśli podpis nie jest prawidłowy, zgłaszany jest wyjątek.
+Wyjaśnienie: Tworzymy instancję `PdfFileSignature` aby zweryfikować podpisy w dokumencie. Jeśli podpis nie jest prawidłowy, zgłaszany jest wyjątek.
 
 ## Wniosek
 
@@ -184,20 +186,22 @@ Gratulacje! Właśnie nauczyłeś się podpisywać dokument PDF za pomocą karty
 ### Czym jest Aspose.PDF dla .NET?
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów PDF w aplikacjach .NET.
 
-### Czy potrzebuję karty inteligentnej, aby podpisywać pliki PDF?
+### Czy do podpisywania plików PDF potrzebuję karty inteligentnej?
 Tak, do bezpiecznego podpisywania plików PDF za pomocą certyfikatu cyfrowego wymagana jest karta inteligentna.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Aspose.PDF oferuje bezpłatną wersję próbną, którą możesz pobrać[Tutaj](https://releases.aspose.com/).
+Aspose.PDF oferuje bezpłatną wersję próbną, którą możesz pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Jak mogę zweryfikować podpisany plik PDF?
- Możesz użyć`PdfFileSignature` klasę w Aspose.PDF w celu weryfikacji podpisów w dokumencie PDF.
+Możesz użyć `PdfFileSignature` klasa w Aspose.PDF w celu weryfikacji podpisów w dokumencie PDF.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.PDF?
- Możesz sprawdzić[Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/) po więcej szczegółów i przykładów.
+Możesz sprawdzić [Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/net/) po więcej szczegółów i przykładów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

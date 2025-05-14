@@ -8,7 +8,9 @@ url: /net/document-conversion/cgm-to-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # CGM To PDF Files
@@ -111,6 +113,7 @@ You can buy a license from the [Aspose purchase page](https://purchase.aspose.co
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

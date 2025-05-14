@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'in Yüzen Kutusuna Arka Plan Olarak Resim Damgası Ekleme
-linktitle: Java kullanarak PDF'in Yüzen Kutusuna Arka Plan Olarak Resim Damgası Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java ve Java için Aspose.PDF kullanarak PDF'lere arka plan olarak resim damgalarının nasıl ekleneceğini öğrenin. Özelleştirilmiş markalama ve bilgiler için kod örnekleriyle adım adım kılavuz.
-weight: 10
-url: /tr/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/
+"description": "Java ve Java için Aspose.PDF kullanarak PDF'lere arka plan olarak resim damgalarının nasıl ekleneceğini öğrenin. Özelleştirilmiş markalama ve bilgiler için kod örnekleriyle adım adım kılavuz."
+"linktitle": "Java kullanarak PDF'in Yüzen Kutusuna Arka Plan Olarak Resim Damgası Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'in Yüzen Kutusuna Arka Plan Olarak Resim Damgası Ekleme"
+"url": "/tr/java/pdf-document-operations/add-image-stamp-as-background-in-floating-box-of-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'in Yüzen Kutusuna Arka Plan Olarak Resim Damgası Ekleme
@@ -24,7 +26,7 @@ Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Kiti (JDK) yüklendi
 - IntelliJ IDEA veya Eclipse gibi Java için Entegre Geliştirme Ortamı (IDE)
--  Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java kütüphanesi için Aspose.PDF. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Java için Aspose.PDF nedir?
 
@@ -36,7 +38,7 @@ PDF'lerdeki resim damgaları, bilgi veya markayı iletmek için bir belgeye ekle
 
 ## Geliştirme Ortamınızı Hazırlama
 
- Koda dalmadan önce, geliştirme ortamınızı ayarlamanız gerekir. Java projenizde Aspose.PDF for Java kütüphanesinin yüklü ve yapılandırılmış olduğundan emin olun. Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/).
+Koda dalmadan önce, geliştirme ortamınızı ayarlamanız gerekir. Java projenizde Aspose.PDF for Java kütüphanesinin yüklü ve yapılandırılmış olduğundan emin olun. Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/).
 
 ## PDF Belgesi Oluşturma
 
@@ -49,7 +51,7 @@ Document pdfDocument = new Document();
 
 ## Bir Resim Damgası Ekleme
 
- Sonra, PDF belgesine bir resim damgası ekleyeceğiz. Bu adım için resim dosyanız hazır olmalı.`addStamp` Resmin damga olarak eklenmesi yöntemi.
+Sonra, PDF belgesine bir resim damgası ekleyeceğiz. Bu adım için resim dosyanız hazır olmalı. `addStamp` Resmin damga olarak eklenmesi yöntemi.
 
 ```java
 // Resim damgası eklemek için Java kodu
@@ -95,7 +97,7 @@ Bu eğitimde, Java ve Aspose.PDF for Java API'sini kullanarak bir PDF belgesinin
 
 ### PDF'deki resim damgasının konumunu nasıl değiştirebilirim?
 
- Resim damgasının konumunu, X ve Y koordinatlarını değiştirerek ayarlayabilirsiniz.`stamp.setX` Ve`stamp.setY` Yöntemler.
+Resim damgasının konumunu, X ve Y koordinatlarını kullanarak ayarlayabilirsiniz. `stamp.setX` Ve `stamp.setY` Yöntemler.
 
 ### Aynı PDF belgesine birden fazla resim damgası ekleyebilir miyim?
 
@@ -111,10 +113,12 @@ Elbette! PDF belgelerinize ek bilgi veya etiket sağlamak için resim damgaları
 
 ### Java için Aspose.PDF için daha fazla örnek ve dokümanı nerede bulabilirim?
 
- Aspose.PDF for Java dokümantasyon sayfasında kapsamlı dokümantasyon ve örnekler bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Aspose.PDF for Java dokümantasyon sayfasında kapsamlı dokümantasyon ve örnekler bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

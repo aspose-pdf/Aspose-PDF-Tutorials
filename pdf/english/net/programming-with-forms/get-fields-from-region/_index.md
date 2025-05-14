@@ -8,7 +8,9 @@ url: /net/programming-with-forms/get-fields-from-region/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Fields From Region In PDF File
@@ -171,6 +173,7 @@ You can find detailed documentation [here](https://reference.aspose.com/pdf/net/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tạo liên kết tài liệu
-linktitle: Tạo liên kết tài liệu
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Khám phá cách tạo liên kết tài liệu trong PDF bằng Aspose.PDF cho .NET. Tăng cường khả năng điều hướng và tương tác trong tài liệu PDF của bạn.
-weight: 30
-url: /vi/net/programming-with-links-and-actions/create-document-link/
+"description": "Khám phá cách tạo liên kết tài liệu trong PDF bằng Aspose.PDF cho .NET. Tăng cường khả năng điều hướng và tương tác trong tài liệu PDF của bạn."
+"linktitle": "Tạo liên kết tài liệu"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo liên kết tài liệu"
+"url": "/vi/net/programming-with-links-and-actions/create-document-link/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo liên kết tài liệu
@@ -22,7 +24,7 @@ Tạo liên kết trong tài liệu PDF có thể cải thiện đáng kể tr�
 Trước khi bạn bắt đầu sử dụng Aspose.PDF cho .NET để chỉnh sửa PDF, hãy đảm bảo rằng bạn đã chuẩn bị sẵn một số điều cần thiết sau:
 
 - Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio để tạo và chạy các ứng dụng .NET.
-- Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF theo ý của bạn. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF theo ý của bạn. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 - Hiểu biết cơ bản về C#: Nắm vững kiến thức cơ bản về lập trình C# sẽ giúp bạn dễ dàng duyệt qua các đoạn mã.
 
 ### Cài đặt Aspose.PDF cho .NET
@@ -64,7 +66,7 @@ Trong bất kỳ nỗ lực lập trình nào, tổ chức là chìa khóa! Bắ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến thư mục nơi lưu trữ các tệp PDF của bạn. Nó có thể giống như`"C:\\Documents\\"`, tùy thuộc vào thiết lập của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến thư mục nơi lưu trữ các tệp PDF của bạn. Nó có thể giống như `"C:\\Documents\\"`, tùy thuộc vào thiết lập của bạn.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -74,7 +76,7 @@ Bây giờ, đã đến lúc mở tài liệu PDF mà bạn muốn làm việc. 
 Document document = new Document(dataDir + "CreateDocumentLink.pdf");
 ```
 
- Trong dòng này, chúng ta đang tạo một phiên bản của`Document` lớp và tải tệp PDF mục tiêu của chúng tôi. Đảm bảo rằng tệp “CreateDocumentLink.pdf” tồn tại trong thư mục đã chỉ định, nếu không bạn sẽ gặp phải một chút trở ngại.
+Trong dòng này, chúng ta đang tạo một phiên bản của `Document` lớp và tải tệp PDF mục tiêu của chúng tôi. Đảm bảo rằng tệp “CreateDocumentLink.pdf” tồn tại trong thư mục đã chỉ định, nếu không bạn sẽ gặp phải một chút trở ngại.
 
 ## Bước 3: Chỉ định Trang để Tạo Liên kết
 
@@ -88,13 +90,13 @@ Các trang được lập chỉ mục bằng 0 trong Aspose, nghĩa là bạn b�
 
 ## Bước 4: Tạo chú thích liên kết
 
- Nhấp vào liên kết sẽ dẫn đến đâu đó! Hãy tạo một`LinkAnnotation` mà người dùng sẽ nhấp vào. Đây là thời điểm liên kết của bạn thực sự hình thành.
+Nhấp vào liên kết sẽ dẫn đến đâu đó! Hãy tạo một `LinkAnnotation` mà người dùng sẽ nhấp vào. Đây là thời điểm liên kết của bạn thực sự hình thành.
 
 ```csharp
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
- Ở đây, hình chữ nhật xác định vùng có thể nhấp cho liên kết. Các tham số`(100, 100, 300, 300)` biểu diễn tọa độ cho hình chữ nhật (trái, dưới, phải, trên). Điều chỉnh các số này dựa trên kích thước bạn muốn cho vùng liên kết.
+Ở đây, hình chữ nhật xác định vùng có thể nhấp vào cho liên kết. Các tham số `(100, 100, 300, 300)` biểu diễn tọa độ cho hình chữ nhật (trái, dưới, phải, trên). Điều chỉnh các số này dựa trên kích thước bạn muốn cho vùng liên kết.
 
 ## Bước 5: Tùy chỉnh giao diện liên kết
 
@@ -126,7 +128,7 @@ dataDir = dataDir + "CreateDocumentLink_out.pdf";
 document.Save(dataDir);
 ```
 
-Ở đây, chúng tôi chỉ định một tên tệp mới (phần “_out.pdf” cho biết đây là bản sao đã chỉnh sửa) và lưu tài liệu, đảm bảo mọi công sức của bạn đều được lưu giữ.
+Tại đây, chúng ta chỉ định một tên tệp mới (đoạn “_out.pdf” cho biết đây là bản sao đã chỉnh sửa) và lưu tài liệu, đảm bảo toàn bộ công sức của bạn được lưu giữ.
 
 ## Bước 8: Xác nhận bảng điều khiển
 
@@ -140,27 +142,29 @@ Chạy dòng này cho thấy rõ ràng rằng mọi việc diễn ra suôn sẻ.
 
 ## Phần kết luận
 
-Và bạn đã có nó! Sử dụng Aspose.PDF cho .NET, bạn có thể dễ dàng tạo các liên kết tài liệu chức năng, hấp dẫn về mặt hình ảnh trong các tệp PDF của mình. Bằng cách làm theo các bước đơn giản này, bạn có thể tăng cường tính tương tác của tài liệu, giúp người đọc dễ dàng điều hướng hơn. Vậy tại sao lại phải chấp nhận PDF tĩnh khi trải nghiệm có thể nhấp chỉ cách một vài dòng mã? 
+Và bạn đã có nó! Sử dụng Aspose.PDF cho .NET, bạn có thể dễ dàng tạo các liên kết tài liệu chức năng, hấp dẫn về mặt hình ảnh trong các tệp PDF của mình. Bằng cách làm theo các bước đơn giản này, bạn có thể tăng cường tính tương tác của tài liệu, giúp người đọc dễ dàng điều hướng hơn. Vậy tại sao phải chấp nhận PDF tĩnh khi trải nghiệm có thể nhấp chỉ cách một vài dòng mã? 
 
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF for .NET được sử dụng để làm gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể tạo liên kết tới các trang web bên ngoài không?
- Có, bạn có thể tạo liên kết đến các trang web bên ngoài bằng cách thay đổi hành động liên kết thành`GoToRemoteAction` với URL.
+Có, bạn có thể tạo liên kết đến các trang web bên ngoài bằng cách thay đổi hành động liên kết thành `GoToRemoteAction` với URL.
 
 ### Có bản dùng thử miễn phí không?
- Chắc chắn rồi! Bạn có thể[tải xuống bản dùng thử miễn phí tại đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể [tải xuống bản dùng thử miễn phí tại đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
- Bạn có thể tiếp cận trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ.
+Bạn có thể tiếp cận trên [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) để được hỗ trợ.
 
 ### Làm thế nào để tôi có thể xin được giấy phép tạm thời?
- Bạn có thể có được giấy phép tạm thời thông qua[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Bạn có thể có được giấy phép tạm thời thông qua [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

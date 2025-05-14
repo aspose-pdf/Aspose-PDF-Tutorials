@@ -1,14 +1,16 @@
 ---
-title: Ustaw domyślną nazwę czcionki
-linktitle: Ustaw domyślną nazwę czcionki
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak ustawić domyślną nazwę czcionki podczas renderowania plików PDF do obrazów za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje wymagania wstępne, instrukcje krok po kroku i często zadawane pytania.
-weight: 270
-url: /pl/net/document-conversion/set-default-font-name/
+"description": "Dowiedz się, jak ustawić domyślną nazwę czcionki podczas renderowania plików PDF do obrazów za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje wymagania wstępne, instrukcje krok po kroku i często zadawane pytania."
+"linktitle": "Ustaw domyślną nazwę czcionki"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Ustaw domyślną nazwę czcionki"
+"url": "/pl/net/document-conversion/set-default-font-name/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw domyślną nazwę czcionki
@@ -21,12 +23,12 @@ Czy kiedykolwiek próbowałeś renderować dokument PDF do obrazu, ale odkryłe�
 
 Zanim przejdziemy do kodu, jest kilka rzeczy, które musisz mieć na miejscu:
 
-- Aspose.PDF dla .NET: Ta potężna biblioteka to ta, której będziemy używać do manipulowania naszym dokumentem PDF. Możesz ją pobrać z[Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Ta potężna biblioteka to ta, której będziemy używać do manipulowania naszym dokumentem PDF. Możesz ją pobrać z [Strona internetowa Aspose](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Upewnij się, że masz zainstalowane Visual Studio na swoim komputerze. To będzie nasze środowisko programistyczne.
 - .NET Framework: Upewnij się, że masz zainstalowany .NET Framework. Aspose.PDF dla .NET obsługuje różne wersje, więc sprawdź dokumentację, aby dopasować ją do swoich potrzeb.
 - Dokument PDF: Będziesz potrzebować przykładowego dokumentu PDF, aby z nim pracować. Jeśli go nie masz, utwórz prosty plik PDF lub pobierz przykład online.
 
-Gdy już wszystko skonfigurujesz, możemy zacząć kodowanie!
+Gdy już wszystko skonfigurujesz, możemy zacząć kodować!
 
 ## Importuj pakiety
 
@@ -51,7 +53,7 @@ Po pierwsze, skonfigurujmy ścieżkę katalogu, w którym znajduje się Twój do
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Tutaj,`dataDir` jest katalogiem, w którym znajduje się Twój dokument PDF. Upewnij się, że zastąpiłeś`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu. Jest to niezbędne, ponieważ kod musi wiedzieć, skąd pobrać plik PDF.
+Tutaj, `dataDir` jest katalogiem, w którym znajduje się Twój dokument PDF. Upewnij się, że zastąpiłeś `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu. Jest to niezbędne, ponieważ kod musi wiedzieć, skąd pobrać plik PDF.
 
 ## Krok 2: Załaduj dokument PDF
 
@@ -60,7 +62,7 @@ Teraz, gdy znamy już ścieżkę do dokumentu, następnym krokiem jest załadowa
 ```csharp
 using (Document pdfDocument = new Document(dataDir + "input.pdf"))
 ```
- Używamy`Document` klasa z biblioteki Aspose.PDF do załadowania naszego pliku PDF. Ta klasa udostępnia różne metody i właściwości do pracy z dokumentem PDF.`"input.pdf"` należy zastąpić rzeczywistą nazwą pliku PDF. Ten plik będzie używany jako dane wejściowe do renderowania.
+Używamy `Document` klasa z biblioteki Aspose.PDF do załadowania naszego pliku PDF. Ta klasa udostępnia różne metody i właściwości do pracy z dokumentem PDF. `"input.pdf"` należy zastąpić rzeczywistą nazwą pliku PDF. Ten plik będzie używany jako dane wejściowe do renderowania.
 
 ## Krok 3: Utwórz strumień obrazu dla wyjścia
 
@@ -69,7 +71,7 @@ Po załadowaniu dokumentu musimy skonfigurować strumień, aby zapisać wyrender
 ```csharp
 using (FileStream imageStream = new FileStream(dataDir + "SetDefaultFontName.png", FileMode.Create))
 ```
- Ten`FileStream`Klasa jest używana do tworzenia nowego pliku, w którym zostanie zapisany renderowany obraz. W tym przykładzie zapisujemy obraz jako`"SetDefaultFontName.png"` . Ten`FileMode.Create` zapewnia utworzenie nowego pliku lub nadpisanie istniejącego pliku.
+Ten `FileStream` Klasa jest używana do tworzenia nowego pliku, w którym zostanie zapisany renderowany obraz. W tym przykładzie zapisujemy obraz jako `"SetDefaultFontName.png"`. Ten `FileMode.Create` zapewnia utworzenie nowego pliku lub nadpisanie istniejącego pliku.
 
 ## Krok 4: Ustaw rozdzielczość obrazu
 
@@ -78,7 +80,7 @@ Przed renderowaniem pliku PDF do obrazu, kluczowe jest ustawienie rozdzielczośc
 ```csharp
 Resolution resolution = new Resolution(300);
 ```
- Ten`Resolution` class ustawia rozdzielczość obrazu wyjściowego. Tutaj wybraliśmy rozdzielczość 300 DPI (punktów na cal), która jest standardem dla obrazów wysokiej jakości. Dzięki temu tekst i grafika w pliku PDF będą renderowane wyraźnie, bez utraty szczegółów.
+Ten `Resolution` class ustawia rozdzielczość obrazu wyjściowego. Tutaj wybraliśmy rozdzielczość 300 DPI (punktów na cal), która jest standardem dla obrazów wysokiej jakości. Dzięki temu tekst i grafika w pliku PDF będą renderowane wyraźnie, bez utraty szczegółów.
 
 ## Krok 5: Skonfiguruj urządzenie PNG
 
@@ -87,7 +89,7 @@ Następnie musimy skonfigurować urządzenie, które będzie obsługiwało rende
 ```csharp
 PngDevice pngDevice = new PngDevice(resolution);
 ```
- Ten`PngDevice` Klasa jest odpowiedzialna za renderowanie dokumentu PDF do obrazu PNG. Poprzez przekazanie`resolution` Jeśli się temu sprzeciwisz, upewnimy się, że obraz zostanie utworzony z określoną rozdzielczością DPI.
+Ten `PngDevice` Klasa jest odpowiedzialna za renderowanie dokumentu PDF do obrazu PNG. Przekazując `resolution` Jeśli się temu sprzeciwisz, upewnimy się, że obraz zostanie utworzony z określoną rozdzielczością DPI.
 
 ## Krok 6: Ustaw domyślną nazwę czcionki
 
@@ -98,16 +100,16 @@ RenderingOptions ro = new RenderingOptions();
 ro.DefaultFontName = "Arial";
 pngDevice.RenderingOptions = ro;
 ```
- Tworzymy instancję`RenderingOptions` i ustawiłem`DefaultFontName` nieruchomość do`"Arial"`. Oznacza to, że jeśli nie można znaleźć oryginalnej czcionki w pliku PDF, zamiast niej zostanie użyta czcionka Arial. Ten krok jest kluczowy dla zachowania czytelności i wyglądu tekstu na renderowanym obrazie.
+Tworzymy instancję `RenderingOptions` i ustawiłem `DefaultFontName` nieruchomość do `"Arial"`. Oznacza to, że jeśli nie można znaleźć oryginalnej czcionki w pliku PDF, zamiast niej zostanie użyta czcionka Arial. Ten krok jest kluczowy dla zachowania czytelności i wyglądu tekstu na renderowanym obrazie.
 
 ## Krok 7: Renderowanie strony PDF do obrazu
 
-Na koniec, gdy wszystko jest już skonfigurowane, możemy przekształcić pierwszą stronę dokumentu PDF w obraz i zapisać go przy użyciu strumienia plików, który utworzyliśmy wcześniej.
+Na koniec, gdy wszystko jest już skonfigurowane, możemy przekształcić pierwszą stronę dokumentu PDF w obraz i zapisać go przy użyciu strumienia pliku, który utworzyliśmy wcześniej.
 
 ```csharp
 pngDevice.Process(pdfDocument.Pages[1], imageStream);
 ```
- Ten`Process` metoda`PngDevice` Klasa jest używana do renderowania określonej strony PDF (w tym przypadku pierwszej strony) do obrazu. Następnie dane wyjściowe są zapisywane w`imageStream`Ten krok konwertuje stronę PDF na obraz PNG o określonej rozdzielczości i domyślnej czcionce.
+Ten `Process` metoda `PngDevice` Klasa jest używana do renderowania określonej strony PDF (w tym przypadku pierwszej strony) do obrazu. Następnie dane wyjściowe są zapisywane w `imageStream`Ten krok konwertuje stronę PDF na obraz PNG o określonej rozdzielczości i domyślnej czcionce.
 
 ## Krok 8: Zamknij strumień plików i dokument PDF
 
@@ -117,7 +119,7 @@ Po wyrenderowaniu obrazu konieczne jest zamknięcie strumienia plików i dokumen
 imageStream.Close();
 pdfDocument.Dispose();
 ```
-Zamykanie`imageStream` zapewnia, że plik zostanie zapisany prawidłowo i żadne dane nie zostaną utracone. Utylizacja`pdfDocument` zwalnia pamięć i zasoby, zapobiegając potencjalnym wyciekom pamięci.
+Zamykanie `imageStream` zapewnia, że plik zostanie zapisany prawidłowo i żadne dane nie zostaną utracone. Utylizacja `pdfDocument` zwalnia pamięć i zasoby, zapobiegając potencjalnym wyciekom pamięci.
 
 ## Wniosek
 
@@ -126,7 +128,7 @@ I masz to! Za pomocą zaledwie kilku linijek kodu nauczyłeś się, jak ustawić
 ## Najczęściej zadawane pytania
 
 ### Co się stanie, jeśli określona domyślna czcionka nie zostanie zainstalowana w systemie?
- Jeżeli domyślna czcionka określona w`RenderingOptions` nie jest zainstalowany w systemie, Aspose.PDF użyje czcionki zapasowej zdefiniowanej przez system.
+Jeżeli domyślna czcionka określona w `RenderingOptions` nie jest zainstalowany w systemie, Aspose.PDF użyje czcionki zapasowej zdefiniowanej przez system.
 
 ### Czy mogę używać innych czcionek niż Arial jako czcionki domyślnej?
 Oczywiście! Możesz ustawić dowolną czcionkę zainstalowaną w systemie jako czcionkę domyślną.
@@ -139,9 +141,11 @@ Tak, wyższe rozdzielczości spowodują, że pliki obrazu będą większe i czas
 
 ### Czy mogę przekonwertować plik PDF do innych formatów obrazu niż PNG?
 Tak, Aspose.PDF obsługuje renderowanie do różnych formatów obrazów, takich jak JPEG, BMP i TIFF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

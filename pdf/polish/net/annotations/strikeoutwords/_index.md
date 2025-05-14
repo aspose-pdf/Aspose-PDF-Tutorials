@@ -1,14 +1,16 @@
 ---
-title: Wykreśl słowa
-linktitle: Wykreśl słowa
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak przekreślać słowa w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Udoskonal swoje umiejętności edycji dokumentów.
-weight: 150
-url: /pl/net/annotations/strikeoutwords/
+"description": "Dowiedz się, jak przekreślać słowa w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Udoskonal swoje umiejętności edycji dokumentów."
+"linktitle": "Wykreśl słowa"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wykreśl słowa"
+"url": "/pl/net/annotations/strikeoutwords/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wykreśl słowa
@@ -21,7 +23,7 @@ Czy kiedykolwiek zdarzyło Ci się, że musiałeś podkreślić konkretny tekst 
 
 Zanim przejdziemy do kodu, musisz spełnić kilka warunków wstępnych, aby móc korzystać z tego samouczka:
 
-1.  Aspose.PDF dla biblioteki .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla biblioteki .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF dla .NET. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 
 2. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework na swoim komputerze. Ten samouczek jest przeznaczony dla aplikacji .NET.
 
@@ -44,7 +46,7 @@ using Aspose.Pdf;
 
 Te przestrzenie nazw są niezbędne do pracy z dokumentami PDF, obsługi tekstu i dodawania adnotacji, np. przekreśleń.
 
-tej sekcji rozbijemy proces wykreślania słów w dokumencie PDF na proste, łatwe do opanowania kroki. Każdy krok będzie opatrzony szczegółowym wyjaśnieniem, aby upewnić się, że rozumiesz, jak wszystko działa.
+W tej sekcji rozbijemy proces wykreślania słów w dokumencie PDF na proste, łatwe do opanowania kroki. Każdy krok będzie opatrzony szczegółowym wyjaśnieniem, aby upewnić się, że rozumiesz, jak wszystko działa.
 
 ## Krok 1: Załaduj dokument PDF
 
@@ -58,12 +60,12 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "input.pdf");
 ```
 
-- `dataDir` : Ta zmienna przechowuje ścieżkę do katalogu dokumentów. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF.
-- `Document` :Ten`Document` Klasa reprezentuje dokument PDF. Przekazując ścieżkę pliku do jego konstruktora, otwieramy plik PDF do przetworzenia.
+- `dataDir`: Ta zmienna przechowuje ścieżkę do katalogu dokumentów. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF.
+- `Document`:Ten `Document` Klasa reprezentuje dokument PDF. Przekazując ścieżkę pliku do jego konstruktora, otwieramy plik PDF do przetworzenia.
 
 ## Krok 2: Utwórz absorber fragmentów tekstu, aby znaleźć konkretny tekst
 
- Następnie utworzymy instancję`TextFragmentAbsorber` aby wyszukać konkretny fragment tekstu w dokumencie PDF. Pozwala nam to zlokalizować tekst, który chcemy wykreślić.
+Następnie utworzymy instancję `TextFragmentAbsorber` aby wyszukać konkretny fragment tekstu w dokumencie PDF. Pozwala nam to zlokalizować tekst, który chcemy wykreślić.
 
 ```csharp
 // Utwórz instancję TextFragment Absorber, aby wyszukać określony fragment tekstu
@@ -74,7 +76,7 @@ Aspose.Pdf.Text.TextFragmentAbsorber textFragmentAbsorber = new Aspose.Pdf.Text.
 
 ## Krok 3: Przejrzyj strony dokumentu PDF
 
- Teraz, gdy mamy nasze`TextFragmentAbsorber`, musimy przejść przez każdą stronę dokumentu PDF, aby znaleźć określony tekst.
+Teraz, gdy mamy nasze `TextFragmentAbsorber`, musimy przejść przez każdą stronę dokumentu PDF, aby znaleźć określony tekst.
 
 ```csharp
 // Przejrzyj strony dokumentu PDF
@@ -86,9 +88,9 @@ for (int i = 1; i <= document.Pages.Count; i++)
 }
 ```
 
-- `for (int i = 1; i <= document.Pages.Count; i++)`:Pętla ta iteruje po każdej stronie dokumentu PDF.
+- `for (int i = 1; i <= document.Pages.Count; i++)`:Pętla ta iteruje każdą stronę dokumentu PDF.
 - `document.Pages[i]`:Pobiera aktualnie przetwarzaną stronę.
-- `page.Accept(textFragmentAbsorber)` :Ta metoda stosuje`TextFragmentAbsorber` do bieżącej strony, wyszukując określony tekst.
+- `page.Accept(textFragmentAbsorber)`:Ta metoda stosuje `TextFragmentAbsorber` do bieżącej strony, wyszukując określony tekst.
 
 ## Krok 4: Zbierz i przetwórz fragmenty tekstu
 
@@ -159,26 +161,28 @@ Gratulacje! Udało Ci się wykreślić określone słowa w dokumencie PDF za pom
 
 ### Czy mogę zmienić kolor przekreślenia?
 
- Tak, możesz zmienić kolor, modyfikując`strikeOut.Color`właściwość. Na przykład możesz ustawić ją na`Aspose.Pdf.Color.Blue` za niebieskie wykreślenie.
+Tak, możesz zmienić kolor, modyfikując `strikeOut.Color` właściwość. Na przykład możesz ustawić ją na `Aspose.Pdf.Color.Blue` za niebieskie wykreślenie.
 
 ### Czy można skreślić kilka słów na raz?
 
- Absolutnie!`TextFragmentAbsorber` można użyć do wyszukiwania dowolnego słowa lub frazy w dokumencie. Możesz zastosować przekreślenie do wielu wystąpień, iterując przez`TextFragmentCollection`.
+Absolutnie! `TextFragmentAbsorber` można użyć do wyszukiwania dowolnego słowa lub frazy w dokumencie. Możesz zastosować przekreślenie do wielu wystąpień, iterując przez `TextFragmentCollection`.
 
 ### Co zrobić, jeśli chcę wykreślić tekst tylko na określonych stronach?
 
- Możesz zmodyfikować pętlę, która iteruje przez strony, aby obejmowała tylko te strony, które chcesz zmodyfikować. Na przykład:`for (int i = 1; i <= 3; i++)` zastosuje przekreślenie tylko do pierwszych trzech stron.
+Możesz zmodyfikować pętlę, która iteruje przez strony, aby obejmowała tylko te strony, które chcesz zmodyfikować. Na przykład: `for (int i = 1; i <= 3; i++)` zastosuje przekreślenie tylko do pierwszych trzech stron.
 
-### Jak mogę dostosować grubość linii przekreślenia?
+### Jak mogę dostosować grubość przekreślonej linii?
 
- Możesz dostosować grubość linii przekreślenia, modyfikując`Border` własność`StrikeOutAnnotation`. Pozwala to na dostosowanie wyglądu przekreślenia.
+Możesz dostosować grubość linii przekreślenia, modyfikując `Border` własność `StrikeOutAnnotation`. Pozwala to na dostosowanie wyglądu przekreślenia.
 
 ### Czy istnieje sposób na cofnięcie przekreślenia po zapisaniu dokumentu?
 
 Po zapisaniu dokumentu przekreślenie jest trwałe. Jeśli chcesz zachować oryginalny tekst bez przekreślenia, rozważ zapisanie kopii zapasowej oryginalnego dokumentu przed zastosowaniem jakichkolwiek modyfikacji.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

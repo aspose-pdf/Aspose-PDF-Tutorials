@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF Belgesine Form Alanı Ekleme
-linktitle: Java kullanarak PDF Belgesine Form Alanı Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java ve Java için Aspose.PDF kullanarak PDF belgelerinize etkileşimli form alanlarının nasıl ekleneceğini öğrenin. Kolayca kullanıcı dostu PDF formları oluşturun.
-weight: 10
-url: /tr/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/
+"description": "Java ve Java için Aspose.PDF kullanarak PDF belgelerinize etkileşimli form alanlarının nasıl ekleneceğini öğrenin. Kolayca kullanıcı dostu PDF formları oluşturun."
+"linktitle": "Java kullanarak PDF Belgesine Form Alanı Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF Belgesine Form Alanı Ekleme"
+"url": "/tr/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF Belgesine Form Alanı Ekleme
@@ -24,7 +26,7 @@ Java uygulamalarında PDF düzenlemeyi basitleştiren güçlü bir kütüphane o
 
 Koda dalmadan önce, geliştirme ortamınızı ayarlamanız gerekir. Şu adımları izleyin:
 
-1.  Java için Aspose.PDF'yi indirin: Aspose web sitesini ziyaret edin ve Java için Aspose.PDF'nin en son sürümünü indirin. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+1. Java için Aspose.PDF'yi indirin: Aspose web sitesini ziyaret edin ve Java için Aspose.PDF'nin en son sürümünü indirin. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 2. Aspose.PDF'yi yükleyin: İndirdikten sonra, web sitesinde verilen kurulum talimatlarını izleyerek Aspose.PDF'yi yükleyin.
 
@@ -84,7 +86,7 @@ page.getAnnotations().add(textField);
 
 ### Onay kutuları
 
-Onay kutuları ikili opsiyonlar için kullanılır (örneğin, evet/hayır soruları). İşte bir onay kutusu eklemenin yolu:
+Onay kutuları ikili opsiyonlar için kullanılır (örneğin, evet/hayır soruları). Onay kutusu eklemenin yolu şöyledir:
 
 ```java
 // Bir onay kutusu oluşturun
@@ -105,7 +107,7 @@ RadioButtonOptionField option2 = new RadioButtonOptionField(page, new Rectangle(
 option1.setPartialName("optYes"); // Seçenek 1 için alan adını ayarlayın
 option2.setPartialName("optNo"); // Seçenek 2 için alan adını ayarlayın
 
-//Bir radyo düğmesi grubuna seçenekler ekleyin
+// Bir radyo düğmesi grubuna seçenekler ekleyin
 RadioButtonOptionField[] options = {option1, option2};
 RadioButtonField radioButtonField = new RadioButtonField(page, options);
 page.getAnnotations().add(radioButtonField);
@@ -128,7 +130,7 @@ textField.getTextState().setForegroundColor(Color.getGreen());
 
 ### Alan Doğrulaması
 
-Form alanları için doğrulama kuralları da ayarlayabilirsiniz. Örneğin, kullanıcıların bir metin alanına geçerli bir e-posta adresi girmesini zorunlu kılabilirsiniz:
+Ayrıca form alanları için doğrulama kuralları da ayarlayabilirsiniz. Örneğin, kullanıcıların bir metin alanına geçerli bir e-posta adresi girmesini zorunlu kılabilirsiniz:
 
 ```java
 textField.getValidation().add(ValidationType.EMAIL);
@@ -156,7 +158,7 @@ Kullanıcıların form verilerini göndermesine izin vermek için, e-posta gönd
 ```java
 ButtonField submitButton = new ButtonField(page, new Rectangle(100, 50, 80, 30));
 submitButton.getPdfObject().setBorderStyle(new BorderStyle(1));
-submitButton.getActions().getOnPushButton().add(new SubmitFormAction("https://yourserver.com/submit", SubmitFormActionType.URL, "Geri Bildirim Formu.pdf"));
+submitButton.getActions().getOnPushButton().add(new SubmitFormAction("https://yourserver.com/submit", SubmitFormActionType.URL, "FeedbackForm.pdf"));
 page.getAnnotations().add(submitButton);
 ```
 
@@ -182,7 +184,7 @@ doc.save("FeedbackForm.pdf");
 
 ### Bir Akışa Kaydet
 
- PDF belgesini bir akışa kaydetmek için şunu kullanabilirsiniz:`OutputStream` sınıf:
+PDF belgesini bir akışa kaydetmek için şunu kullanabilirsiniz: `OutputStream` sınıf:
 
 ```java
 OutputStream outputStream = new FileOutputStream("FeedbackForm.pdf");
@@ -198,7 +200,7 @@ Bu kapsamlı kılavuzda, Java ve Java için Aspose.PDF kullanarak bir PDF belges
 
 ### PDF formunda açılır liste nasıl ayarlayabilirim?
 
- PDF formunda açılır liste (birleşik kutu) oluşturmak için şunu kullanabilirsiniz:`ComboBoxField` Java için Aspose.PDF tarafından sağlanan sınıf. Diğer form alanları için gösterilene benzer bir yaklaşımı izleyin ve seçenekleri kullanarak özelleştirin`AddItem` yöntem. Bununla ilgili ayrıntılı dokümanları Aspose web sitesinde bulabilirsiniz.
+PDF formunda açılır liste (birleşik kutu) oluşturmak için şunu kullanabilirsiniz: `ComboBoxField` Java için Aspose.PDF tarafından sağlanan sınıf. Diğer form alanları için gösterilene benzer bir yaklaşımı izleyin ve seçenekleri kullanarak özelleştirin `AddItem` yöntem. Bununla ilgili ayrıntılı dokümanları Aspose web sitesinde bulabilirsiniz.
 
 ### Aspose.PDF for Java diğer Java kütüphaneleri ve framework'leriyle uyumlu mudur?
 
@@ -215,9 +217,11 @@ Bir PDF formu aracılığıyla gönderilen verileri çıkarmak için, form gönd
 ### Kullanıcı girdisine göre dinamik olarak PDF formları oluşturabilir miyim?
 
 Evet, Java için Aspose.PDF kullanarak kullanıcı girdisine dayalı PDF formlarını dinamik olarak oluşturabilirsiniz. Kullanıcı girdisine veya uygulama mantığına bağlı olarak, değişen form alanları ve düzenleri olan PDF belgeleri oluşturabilirsiniz. Bu esneklik, belirli kullanıcı ihtiyaçlarına veya senaryolarına göre uyarlanmış özelleştirilmiş formlar oluşturmayı mümkün kılar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

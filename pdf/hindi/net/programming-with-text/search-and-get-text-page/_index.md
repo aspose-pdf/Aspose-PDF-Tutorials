@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ फाइल में टेक्स्ट पेज खोजें और प्राप्त करें
-linktitle: पीडीएफ फाइल में टेक्स्ट पेज खोजें और प्राप्त करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में किसी विशिष्ट पृष्ठ से पाठ खोजना और प्राप्त करना सीखें।
-weight: 430
-url: /hi/net/programming-with-text/search-and-get-text-page/
+"description": ".NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में किसी विशिष्ट पृष्ठ से पाठ खोजना और प्राप्त करना सीखें।"
+"linktitle": "पीडीएफ फाइल में टेक्स्ट पेज खोजें और प्राप्त करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ फाइल में टेक्स्ट पेज खोजें और प्राप्त करें"
+"url": "/hi/net/programming-with-text/search-and-get-text-page/"
+"weight": 430
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ फाइल में टेक्स्ट पेज खोजें और प्राप्त करें
@@ -21,9 +23,9 @@ url: /hi/net/programming-with-text/search-and-get-text-page/
 
 इससे पहले कि हम कोडिंग शुरू करें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET लाइब्रेरी के लिए Aspose.PDF: आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/net/) या उसी लिंक से निःशुल्क परीक्षण संस्करण प्राप्त करें। खरीदने के लिए, यहाँ जाएँ[एस्पोज स्टोर](https://purchase.aspose.com/buy).
+1. .NET लाइब्रेरी के लिए Aspose.PDF: आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/net/) या उसी लिंक से निःशुल्क परीक्षण संस्करण प्राप्त करें। खरीदने के लिए, यहाँ जाएँ [एस्पोज स्टोर](https://purchase.aspose.com/buy).
 2. .NET फ्रेमवर्क: आपको विजुअल स्टूडियो जैसे कार्यशील .NET विकास वातावरण की आवश्यकता होगी।
-3. एक पीडीएफ फाइल: आपको एक सैंपल पीडीएफ फाइल की जरूरत होगी, जहां हम टेक्स्ट को खोज और निकाल सकें। इस ट्यूटोरियल के लिए, मान लें कि फाइल का नाम है`SearchAndGetTextPage.pdf`.
+3. एक पीडीएफ फाइल: आपको एक सैंपल पीडीएफ फाइल की जरूरत होगी, जहां हम टेक्स्ट को खोज और निकाल सकें। इस ट्यूटोरियल के लिए, मान लें कि फाइल का नाम है `SearchAndGetTextPage.pdf`.
 
 ## पैकेज आयात करें
 
@@ -46,7 +48,7 @@ using System
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  dataDir: यह उस फ़ोल्डर का पथ है जहाँ आपकी PDF फ़ाइलें संग्रहीत हैं। बदलें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां पीडीएफ स्थित है।
+- dataDir: यह उस फ़ोल्डर का पथ है जहाँ आपकी PDF फ़ाइलें संग्रहीत हैं। `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां पीडीएफ स्थित है।
 
 ## चरण 2: पीडीएफ दस्तावेज़ लोड करें
 
@@ -61,7 +63,7 @@ Document pdfDocument = new Document(dataDir + "SearchAndGetTextPage.pdf");
 
 ## चरण 3: टेक्स्ट एब्जॉर्बर ऑब्जेक्ट बनाएँ
 
-`TextFragmentAbsorber`क्लास आपको पीडीएफ के भीतर विशिष्ट पाठ खोजने की अनुमति देता है। आइए किसी दिए गए खोज वाक्यांश के सभी उदाहरणों को खोजने के लिए इस क्लास का एक उदाहरण बनाएं।
+The `TextFragmentAbsorber` क्लास आपको पीडीएफ के भीतर विशिष्ट पाठ खोजने की अनुमति देता है। आइए किसी दिए गए खोज वाक्यांश के सभी उदाहरणों को खोजने के लिए इस क्लास का एक उदाहरण बनाएं।
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("Figure");
@@ -92,7 +94,7 @@ TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragmen
 
 ## चरण 6: प्रत्येक खंड को लूप करें और डेटा निकालें
 
-अब हम लूप से गुजरेंगे`textFragmentCollection` और प्रत्येक पाठ खंड के विभिन्न गुण, जैसे उसकी स्थिति, फ़ॉन्ट विवरण और रंग, निकालें।
+अब हम लूप से गुजरेंगे `textFragmentCollection` और प्रत्येक पाठ खंड के विभिन्न गुण, जैसे उसकी स्थिति, फ़ॉन्ट विवरण और रंग, निकालें।
 
 ```csharp
 foreach (TextFragment textFragment in textFragmentCollection)
@@ -113,7 +115,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
-- टेक्स्ट फ़्रैगमेंट: प्रत्येक फ़्रैगमेंट में पाए गए टेक्स्ट के अंश होते हैं।
+- पाठखंड: प्रत्येक खंड में पाए गए पाठ के अंश होते हैं।
 - पाठखंड: प्रत्येक खंड में कई खंड हो सकते हैं, जो पाठ के विभिन्न भागों का प्रतिनिधित्व करते हैं।
 - टेक्स्टस्टेट: यह पाठ के फ़ॉन्ट, आकार और रंग के बारे में विस्तृत जानकारी प्रदान करता है।
 
@@ -125,23 +127,25 @@ foreach (TextFragment textFragment in textFragmentCollection)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### क्या मैं एक साथ कई वाक्यांशों की खोज कर सकता हूँ?  
- हां, आप कई वाक्यांशों की खोज करने के लिए कई कोड बनाकर कोड को संशोधित कर सकते हैं`TextFragmentAbsorber` वस्तुएं.
+### क्या मैं एक साथ कई वाक्यांश खोज सकता हूँ?  
+हां, आप कई वाक्यांशों की खोज करने के लिए कई कोड बनाकर कोड को संशोधित कर सकते हैं `TextFragmentAbsorber` वस्तुएं.
 
 ### मैं किसी विशिष्ट पृष्ठ से पाठ कैसे निकाल सकता हूँ?  
- आप किसी विशिष्ट पृष्ठ को लक्षित करने के लिए निम्न विकल्प लागू कर सकते हैं:`TextFragmentAbsorber` पूरे दस्तावेज़ के बजाय एक ही पृष्ठ पर। उदाहरण के लिए:`pdfDocument.Pages[1].Accept(textFragmentAbsorber);`.
+आप किसी विशिष्ट पृष्ठ को लक्षित करने के लिए निम्न विकल्प लागू कर सकते हैं: `TextFragmentAbsorber` पूरे दस्तावेज़ के बजाय एक ही पृष्ठ पर। उदाहरण के लिए: `pdfDocument.Pages[1].Accept(textFragmentAbsorber);`.
 
 ### क्या .NET के लिए Aspose.PDF निःशुल्क है?  
- Aspose.PDF एक वाणिज्यिक उत्पाद है, लेकिन आप इसे एक के साथ उपयोग कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/).
+Aspose.PDF एक वाणिज्यिक उत्पाद है, लेकिन आप इसे एक के साथ उपयोग कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/).
 
 ### क्या मैं Aspose.PDF का उपयोग करके PDF से छवियाँ निकाल सकता हूँ?  
- हां, Aspose.PDF आपको टेक्स्ट के अलावा इमेज भी निकालने की सुविधा देता है।[प्रलेखन](https://reference.aspose.com/pdf/net/) अधिक जानकारी के लिए.
+हां, Aspose.PDF आपको टेक्स्ट के अलावा इमेज भी निकालने की सुविधा देता है। [प्रलेखन](https://reference.aspose.com/pdf/net/) अधिक जानकारी के लिए.
 
 ### यदि मुझे अधिक सहायता या समर्थन की आवश्यकता हो तो क्या होगा?  
- आप हमेशा से सहायता प्राप्त कर सकते हैं[Aspose समर्थन मंच](https://forum.aspose.com/c/pdf/10).
+आप हमेशा से सहायता प्राप्त कर सकते हैं [Aspose समर्थन मंच](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

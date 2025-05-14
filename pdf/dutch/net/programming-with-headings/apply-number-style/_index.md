@@ -1,34 +1,36 @@
 ---
-title: Nummerstijl toepassen in PDF-bestand
-linktitle: Nummerstijl toepassen in PDF-bestand
-second_title: Aspose.PDF voor .NET API-referentie
-description: Leer hoe u verschillende nummerstijlen (Romeinse cijfers, alfabetisch) kunt toepassen op koppen in een PDF met behulp van Aspose.PDF voor .NET met behulp van deze stapsgewijze handleiding.
-weight: 10
-url: /nl/net/programming-with-headings/apply-number-style/
+"description": "Leer hoe u verschillende nummerstijlen (Romeinse cijfers, alfabetisch) kunt toepassen op koppen in een PDF met Aspose.PDF voor .NET met behulp van deze stapsgewijze handleiding."
+"linktitle": "Nummerstijl toepassen in PDF-bestand"
+"second_title": "Aspose.PDF voor .NET API-referentie"
+"title": "Nummerstijl toepassen in PDF-bestand"
+"url": "/nl/net/programming-with-headings/apply-number-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nummerstijl toepassen in PDF-bestand
 
 ## Invoering
 
-Hebt u ooit mooi genummerde lijsten aan uw PDF-documenten moeten toevoegen? Of u nu juridische documenten, rapporten of presentaties opmaakt, de juiste nummeringsstijlen zijn essentieel voor het ordenen van informatie. Met Aspose.PDF voor .NET kunt u verschillende nummeringsstijlen toepassen op de koppen van uw PDF-bestand, waardoor u goed gestructureerde en professionele documenten creëert. 
+Heb je ooit mooi genummerde lijsten aan je PDF-documenten moeten toevoegen? Of je nu juridische documenten, rapporten of presentaties opmaakt, correcte nummeringsstijlen zijn essentieel voor het ordenen van informatie. Met Aspose.PDF voor .NET kun je verschillende nummeringsstijlen toepassen op de koppen van je PDF-bestand, waardoor je goed gestructureerde en professionele documenten creëert. 
 
 ## Vereisten
 
 Voordat we beginnen met coderen, leggen we eerst uit wat je nodig hebt:
 
-1. Aspose.PDF voor .NET: Download de nieuwste versie van Aspose.PDF van[hier](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF voor .NET: Download de nieuwste versie van Aspose.PDF van [hier](https://releases.aspose.com/pdf/net/).
 2. Ontwikkelomgeving: Zorg ervoor dat u Visual Studio of een andere .NET-compatibele IDE hebt.
 3. .NET Framework: Zorg ervoor dat u .NET Framework 4.0 of hoger hebt geïnstalleerd.
-4.  Licentie: U kunt een tijdelijke licentie gebruiken van[hier](https://purchase.aspose.com/temporary-license/) of verken de[gratis proefperiode](https://releases.aspose.com/) opties.
+4. Licentie: U kunt een tijdelijke licentie gebruiken van [hier](https://purchase.aspose.com/temporary-license/) of verken de [gratis proefperiode](https://releases.aspose.com/) opties.
 
 ## Pakketten importeren
 
-Om te beginnen moet u ervoor zorgen dat u de volgende naamruimten in uw project hebt geïmporteerd:
+Om te beginnen moet u ervoor zorgen dat de volgende naamruimten in uw project zijn geïmporteerd:
 
 ```csharp
 using System.IO;
@@ -58,13 +60,13 @@ pdfDoc.PageInfo.Margin.Top = 72;
 pdfDoc.PageInfo.Margin.Bottom = 72;
 ```
 
-Hierdoor krijgt uw document een standaardpaginaformaat, gelijk aan een pagina van 8,5 x 11 inch, en een marge van 72 punten (of 1 inch) aan alle kanten.
+Als u dit doet, krijgt uw document een standaardpaginaformaat, gelijk aan een pagina van 8,5 x 11 inch, en een marge van 72 punten (of 1 inch) aan alle kanten.
 
 ## Stap 2: Een pagina toevoegen aan de PDF
 
 Vervolgens voegen we een nieuwe pagina toe aan het PDF-document, waar we later de nummeringsstijlen op toepassen.
 
-Uitleg: Elke PDF heeft pagina's nodig! Deze stap voegt een lege pagina toe aan de PDF en stelt de marges in op basis van de instellingen op documentniveau.
+Uitleg: Elke PDF heeft pagina's nodig! Met deze stap wordt een lege pagina aan de PDF toegevoegd en worden de marges aangepast aan de instellingen op documentniveau.
 
 ```csharp
 // Een nieuwe pagina toevoegen aan het PDF-document
@@ -80,7 +82,7 @@ pdfPage.PageInfo.Margin.Bottom = 72;
 
 ## Stap 3: Maak een zwevende doos
 
-Met een FloatingBox kunt u content (zoals tekst of koppen) in een box plaatsen die zich onafhankelijk van de flow van de pagina gedraagt. Dit is handig als u volledige controle wilt over de lay-out van uw content.
+Met een FloatingBox kun je content (zoals tekst of koppen) in een vak plaatsen dat zich onafhankelijk van de paginastroom gedraagt. Dit is handig wanneer je volledige controle wilt over de lay-out van je content.
 
 Uitleg: Hier stellen we een FloatingBox in die de koppen bevat waarop de nummerstijlen worden toegepast.
 
@@ -112,7 +114,7 @@ floatBox.Paragraphs.Add(heading);
 
 Ter illustratie voegen we een tweede Romeins cijfer toe, maar deze keer beginnen we bij 13.
 
-Uitleg: Met de eigenschap StartNumber kunt u de nummering laten beginnen met een aangepast nummer. In dit geval beginnen we bij 13.
+Uitleg: Met de eigenschap StartNumber kunt u de nummering laten beginnen bij een aangepast nummer. In dit geval beginnen we bij 13.
 
 ```csharp
 // Maak een tweede kop, beginnend bij het Romeinse cijfer 13
@@ -125,11 +127,11 @@ heading2.IsAutoSequence = true;
 floatBox.Paragraphs.Add(heading2);
 ```
 
-## Stap 6: Voeg een kop toe met alfabetische nummering
+## Stap 6: Voeg een kop met alfabetische nummering toe
 
-Voor de afwisseling voegen we een derde kop toe, maar deze keer gebruiken we alfabetische nummering in kleine letters (a, b, c, etc.).
+Voor de afwisseling voegen we een derde kopje toe, maar dit keer gebruiken we alfabetische nummering in kleine letters (a, b, c, etc.).
 
-Uitleg: Door de nummeringsstijl te wijzigen naar LettersLowercase kunnen we alfabetische nummering toepassen op onze koppen.
+Uitleg: Door de nummeringsstijl te wijzigen naar LettersLowercase kunnen we alfabetische nummering op onze koppen toepassen.
 
 ```csharp
 // Maak een kop met alfabetische nummering
@@ -146,7 +148,7 @@ floatBox.Paragraphs.Add(heading3);
 
 Nadat u alle koppen en nummerstijlen hebt toegepast, slaat u het PDF-bestand op in de gewenste map.
 
-Uitleg: Met deze stap wordt het PDF-bestand met alle opgemaakte koppen en toegepaste nummeringsstijlen opgeslagen.
+Uitleg: Met deze stap wordt het PDF-bestand met alle opgemaakte koppen met toegepaste nummeringsstijlen opgeslagen.
 
 ```csharp
 // Sla het PDF-document op
@@ -157,7 +159,7 @@ Console.WriteLine("\nNumber style applied successfully in headings.\nFile saved 
 
 ## Conclusie
 
-En daar heb je het! Je hebt succesvol nummeringsstijlen toegepast - Romeinse cijfers en alfabetisch - op koppen in een PDF-bestand met Aspose.PDF voor .NET. De flexibiliteit die Aspose.PDF biedt voor het beheren van pagina-indeling, nummeringsstijlen en contentpositionering geeft je een krachtige toolset voor het maken van goed georganiseerde, professionele PDF-documenten.
+En voilà! Je hebt met succes nummeringsstijlen – Romeinse cijfers en alfabetische cijfers – toegepast op koppen in een PDF-bestand met Aspose.PDF voor .NET. De flexibiliteit die Aspose.PDF biedt voor het beheren van de pagina-indeling, nummeringsstijlen en de positionering van de inhoud, biedt je een krachtige toolset voor het maken van overzichtelijke, professionele PDF-documenten.
 
 ## Veelgestelde vragen
 
@@ -165,19 +167,21 @@ En daar heb je het! Je hebt succesvol nummeringsstijlen toegepast - Romeinse cij
 Ja, met Aspose.PDF voor .NET kunt u verschillende nummeringsstijlen, zoals Romeinse cijfers, Arabische cijfers en alfabetische nummering, in hetzelfde document gebruiken.
 
 ### Hoe kan ik het startnummer voor koppen aanpassen?  
- U kunt het startnummer voor elke kop instellen met behulp van de`StartNumber` eigendom.
+U kunt het startnummer voor elke kop instellen met behulp van de `StartNumber` eigendom.
 
 ### Is er een manier om de nummering opnieuw in te stellen?  
-Ja, u kunt de nummering opnieuw instellen door de`StartNumber` eigenschap voor elke kop.
+Ja, u kunt de nummering opnieuw instellen door de `StartNumber` eigenschap voor elke kop.
 
-### Kan ik naast nummering ook vetgedrukte of cursieve opmaak toepassen op koppen?  
- Absoluut! U kunt koptekststijlen aanpassen door eigenschappen zoals lettertype, grootte, vet en cursief te wijzigen met behulp van de`TextState` voorwerp.
+### Kan ik naast nummering ook vetgedrukte of cursieve opmaak op koppen toepassen?  
+Absoluut! U kunt koptekststijlen aanpassen door eigenschappen zoals lettertype, grootte, vet en cursief te wijzigen met behulp van de `TextState` voorwerp.
 
 ### Hoe krijg ik een tijdelijke licentie voor Aspose.PDF?  
- U kunt een tijdelijke licentie verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/) om Aspose.PDF zonder beperkingen te testen.
+U kunt een tijdelijke vergunning verkrijgen bij [hier](https://purchase.aspose.com/temporary-license/) om Aspose.PDF zonder beperkingen te testen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Nhúng Phông chữ Chuẩn Type 1 vào Tệp PDF
-linktitle: Nhúng Phông chữ Chuẩn Type 1 vào Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách nhúng phông chữ Standard Type 1 vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này để tăng cường khả năng truy cập cho tài liệu của bạn.
-weight: 140
-url: /vi/net/programming-with-text/embed-standard-type-1fonts/
+"description": "Tìm hiểu cách nhúng phông chữ Standard Type 1 vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này để tăng cường khả năng truy cập cho tài liệu của bạn."
+"linktitle": "Nhúng Phông chữ Chuẩn Type 1 vào Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhúng Phông chữ Chuẩn Type 1 vào Tệp PDF"
+"url": "/vi/net/programming-with-text/embed-standard-type-1fonts/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhúng Phông chữ Chuẩn Type 1 vào Tệp PDF
@@ -22,7 +24,7 @@ Trong thế giới kỹ thuật số của chúng ta, PDF là một trong nhữn
 Trước khi đi sâu vào cách nhúng phông chữ vào tệp PDF, bạn cần đáp ứng một số điều kiện tiên quyết sau:
 
 1. Hiểu biết cơ bản về C#: Điều quan trọng là phải nắm vững lập trình C#. Nếu bạn quen thuộc với những điều cơ bản của ngôn ngữ này, đó là một khởi đầu tốt.
-2. Aspose.PDF cho .NET: Bạn cần cài đặt thư viện Aspose.PDF. Nếu bạn chưa thực hiện việc này, đừng lo lắng! Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/). 
+2. Aspose.PDF cho .NET: Bạn cần cài đặt thư viện Aspose.PDF. Nếu bạn chưa thực hiện việc này, đừng lo lắng! Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/). 
 3. Môi trường phát triển: Nên sử dụng môi trường phát triển như Visual Studio. Điều này sẽ cho phép bạn viết, kiểm tra và chạy mã C# của mình một cách hiệu quả.
 4. Tài liệu PDF hiện có: Đảm bảo bạn có tài liệu PDF hiện có để làm việc, đây sẽ là tệp cơ sở để nhúng phông chữ.
 
@@ -51,21 +53,21 @@ Hãy chia nhỏ thành các bước rõ ràng, dễ thực hiện. Mỗi bước
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Chỉ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn.
+Chỉ cần thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn.
 
 ## Bước 2: Tải một tài liệu PDF hiện có
 
- Bây giờ bạn đã trỏ đến thư mục, đã đến lúc tải tài liệu PDF hiện có của bạn. Điều này được thực hiện bằng cách sử dụng`Document` lớp từ thư viện Aspose.PDF:
+Bây giờ bạn đã trỏ đến thư mục, đã đến lúc tải tài liệu PDF hiện có của bạn. Điều này được thực hiện bằng cách sử dụng `Document` lớp từ thư viện Aspose.PDF:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Dòng này tạo ra một phiên bản mới của`Document` lớp, tải tệp PDF mà bạn đã chỉ định. Hãy đảm bảo rằng`"input.pdf"` khớp với tên tệp PDF của bạn.
+Dòng này tạo ra một phiên bản mới của `Document` lớp, tải tệp PDF mà bạn đã chỉ định. Hãy đảm bảo rằng `"input.pdf"` khớp với tên tệp PDF của bạn.
 
 ## Bước 3: Đặt Thuộc tính EmbedStandardFonts
 
- Với tài liệu của bạn đã được tải, bạn gần như đã sẵn sàng để nhúng các phông chữ đó. Bước tiếp theo là thiết lập`EmbedStandardFonts` thuộc tính của tài liệu thành true. Điều này yêu cầu Aspose.PDF nhúng phông chữ Standard Type 1 vào tài liệu. 
+Với tài liệu của bạn đã được tải, bạn gần như đã sẵn sàng để nhúng các phông chữ đó. Bước tiếp theo là thiết lập `EmbedStandardFonts` thuộc tính của tài liệu thành true. Điều này yêu cầu Aspose.PDF nhúng phông chữ Standard Type 1 vào tài liệu. 
 
 ```csharp
 pdfDocument.EmbedStandardFonts = true;
@@ -97,7 +99,7 @@ foreach (Aspose.Pdf.Page page in pdfDocument.Pages)
 Sau đây là những gì đang xảy ra trong khối mã này:
 - Bạn đang lặp lại từng trang của tệp PDF.
 - Đối với mỗi trang, bạn kiểm tra xem có phông chữ nào trong tài nguyên không.
--  Sau đó, bạn lặp qua từng phông chữ và kiểm tra xem nó có được nhúng không. Nếu không, bạn đặt nó`IsEmbedded` thuộc tính thành đúng.
+- Sau đó, bạn lặp qua từng phông chữ và kiểm tra xem nó có được nhúng không. Nếu không, bạn đặt nó `IsEmbedded` thuộc tính thành đúng.
 
 ## Bước 5: Lưu tài liệu PDF đã cập nhật
 
@@ -121,19 +123,21 @@ Nhúng phông chữ vào tài liệu PDF của bạn là điều cần thiết �
 Phông chữ Standard Type 1 là một bộ phông chữ do Adobe định nghĩa. Chúng bao gồm các phông chữ phổ biến như Times, Helvetica và Courier.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF không?
- Bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng cần phải có giấy phép trả phí để sử dụng lâu dài. Tìm hiểu thêm về nó[đây](https://purchase.aspose.com/buy).
+Bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng cần phải có giấy phép trả phí để sử dụng lâu dài. Tìm hiểu thêm về nó [đây](https://purchase.aspose.com/buy).
 
 ### Làm thế nào để kiểm tra xem phông chữ đã được nhúng vào PDF hay chưa?
- Bằng cách kiểm tra`IsEmbedded`thuộc tính của phông chữ trong tệp PDF của bạn thông qua Aspose.PDF.
+Bằng cách kiểm tra `IsEmbedded` thuộc tính của phông chữ trong tệp PDF của bạn thông qua Aspose.PDF.
 
 ### Có cách nào để nhúng các loại phông chữ khác không?
 Có! Aspose.PDF hỗ trợ nhúng nhiều loại phông chữ khác nhau ngoài Standard Type 1. Kiểm tra tài liệu để biết chi tiết.
 
 ###5. Tôi có thể tìm sự hỗ trợ ở đâu nếu gặp vấn đề?
- Bạn có thể tìm thấy sự hỗ trợ cho các sản phẩm Aspose tại[diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm thấy sự hỗ trợ cho các sản phẩm Aspose tại [diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

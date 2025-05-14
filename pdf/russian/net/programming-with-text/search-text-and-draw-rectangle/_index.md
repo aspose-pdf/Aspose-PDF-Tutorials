@@ -1,14 +1,16 @@
 ---
-title: Поиск текста и рисование прямоугольника
-linktitle: Поиск текста и рисование прямоугольника
-second_title: Справочник по API Aspose.PDF для .NET
-description: Научитесь искать текст в PDF-файлах и выделять его прямоугольниками с помощью Aspose.PDF для .NET! Простое пошаговое руководство для улучшения навыков работы с PDF-файлами.
-weight: 460
-url: /ru/net/programming-with-text/search-text-and-draw-rectangle/
+"description": "Научитесь искать текст в PDF-файлах и выделять его прямоугольниками с помощью Aspose.PDF для .NET! Простое пошаговое руководство для улучшения навыков работы с PDF-файлами."
+"linktitle": "Поиск текста и рисование прямоугольника"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Поиск текста и рисование прямоугольника"
+"url": "/ru/net/programming-with-text/search-text-and-draw-rectangle/"
+"weight": 460
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Поиск текста и рисование прямоугольника
@@ -25,9 +27,9 @@ url: /ru/net/programming-with-text/search-text-and-draw-rectangle/
    
 2. Visual Studio установлена: вам понадобится интегрированная среда разработки (IDE) для написания и тестирования кода. Visual Studio Community — отличный вариант, и он бесплатный.
    
-3. Aspose.PDF для .NET: Вам необходимо установить библиотеку Aspose.PDF в вашем проекте. Вы можете скачать ее[здесь](https://releases.aspose.com/pdf/net/) или рассмотрите[временная лицензия](https://purchase.aspose.com/temporary-license/) для расширенных функций.
+3. Aspose.PDF для .NET: Вам необходимо установить библиотеку Aspose.PDF в вашем проекте. Вы можете скачать ее [здесь](https://releases.aspose.com/pdf/net/) или рассмотрите [временная лицензия](https://purchase.aspose.com/temporary-license/) для расширенных функций.
    
-4.  Образец PDF-документа: для этого урока вам понадобится образец PDF-файла с именем`SearchAndGetTextFromAll.pdf` хранится в каталоге вашего проекта. 
+4. Образец PDF-документа: для этого урока вам понадобится образец PDF-файла с именем `SearchAndGetTextFromAll.pdf` хранится в каталоге вашего проекта. 
 
 ## Импортные пакеты
 
@@ -41,13 +43,13 @@ url: /ru/net/programming-with-text/search-text-and-draw-rectangle/
 
 1. Щелкните правой кнопкой мыши по вашему проекту в обозревателе решений.
 2. Выберите «Управление пакетами NuGet».
-3.  Искать`Aspose.PDF` и установите последнюю версию.
+3. Искать `Aspose.PDF` и установите последнюю версию.
 
 Делая это, вы закладываете основу для всех тех удивительных манипуляций с PDF-файлами, которые вам предстоит выполнить.
 
 ## Импорт пространств имен
 
-В верхней части файла программы вам нужно будет импортировать соответствующие пространства имен из библиотеки Aspose:
+В верхней части файла программы вам нужно импортировать соответствующие пространства имен из библиотеки Aspose:
 
 ```csharp
 using System.IO;
@@ -64,7 +66,7 @@ using Aspose.Pdf.Facades;
 
 ## Шаг 1: Укажите путь к документу
 
- Сначала укажите путь к вашему PDF-файлу. Обязательно замените`YOUR DOCUMENT DIRECTORY` с фактическим путем, где ваш`SearchAndGetTextFromAll.pdf` сохраняется.
+Сначала укажите путь к вашему PDF-файлу. Обязательно замените `YOUR DOCUMENT DIRECTORY` с фактическим путем, где ваш `SearchAndGetTextFromAll.pdf` сохраняется.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -72,7 +74,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Шаг 2: Откройте PDF-документ.
 
- Далее создайте экземпляр`Document` класс для загрузки вашего PDF-файла:
+Далее создайте экземпляр `Document` класс для загрузки вашего PDF-файла:
 
 ```csharp
 Document document = new Document(dataDir + "SearchAndGetTextFromAll.pdf");
@@ -82,13 +84,13 @@ Document document = new Document(dataDir + "SearchAndGetTextFromAll.pdf");
 
 ## Шаг 3: Создайте поглотитель текста
 
- Теперь вам понадобится способ поиска текста в этом документе. Для этого мы используем`TextFragmentAbsorber`:
+Теперь вам понадобится способ поиска текста в этом документе. Для этого мы используем `TextFragmentAbsorber`:
 
 ```csharp
 TextFragmentAbsorber textAbsorber = new TextFragmentAbsorber(@"[\S]+");
 ```
 
- Регулярное выражение`@"[\S]+"` предназначен для сопоставления любой непробельной строки в PDF-файле. 
+Регулярное выражение `@"[\S]+"` предназначен для сопоставления любой непробельной строки в PDF-файле. 
 
 ## Шаг 4: Настройте параметры текстового поиска
 
@@ -99,11 +101,11 @@ TextSearchOptions textSearchOptions = new TextSearchOptions(true);
 textAbsorber.TextSearchOptions = textSearchOptions;
 ```
 
- Здесь,`true` Параметр означает, что поиск будет чувствителен к регистру. Вы можете установить его в`false` если вам нужен поиск без учета регистра.
+Здесь, `true` Параметр означает, что поиск будет чувствителен к регистру. Вы можете установить его в `false` если вам нужен поиск без учета регистра.
 
 ## Шаг 5: Примите текстовый поглотитель в документе
 
- С вашим`TextFragmentAbsorber` и параметры поиска готовы, пришло время извлечь текст из документа:
+С вашим `TextFragmentAbsorber` и параметры поиска готовы, пришло время извлечь текст из документа:
 
 ```csharp
 document.Pages.Accept(textAbsorber);
@@ -113,7 +115,7 @@ document.Pages.Accept(textAbsorber);
 
 ## Шаг 6: Создайте PdfContentEditor
 
- Чтобы рисовать фигуры на документе, вам понадобится`PdfContentEditor`:
+Чтобы рисовать фигуры на документе, вам понадобится `PdfContentEditor`:
 
 ```csharp
 var editor = new PdfContentEditor(document);
@@ -135,11 +137,11 @@ foreach (TextFragment textFragment in textAbsorber.TextFragments)
 }
 ```
 
- Этот цикл проходит по каждому фрагменту текста и его сегментам, вызывая`DrawBox` метод рисования прямоугольника.
+Этот цикл проходит по каждому фрагменту текста и его сегментам, вызывая `DrawBox` метод рисования прямоугольника.
 
 ## Шаг 8: Определите метод DrawBox
 
- Вам необходимо определить`DrawBox` метод, который будет обрабатывать логику рисования прямоугольника. Вот простая реализация:
+Вам необходимо определить `DrawBox` метод, который будет обрабатывать логику рисования прямоугольника. Вот простая реализация:
 
 ```csharp
 private static void DrawBox(PdfContentEditor editor, int pageNumber, TextSegment textSegment, System.Drawing.Color color)
@@ -188,19 +190,21 @@ Console.WriteLine("\nRectangle drawn successfully on searched text.\nFile saved 
 Aspose.PDF для .NET — это библиотека, которая предоставляет комплексный способ программного создания, обработки и преобразования PDF-документов.
 
 ### Могу ли я использовать Aspose.PDF бесплатно?
-Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для тестирования функциональности библиотеки. Проверьте ее[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для тестирования функциональности библиотеки. Проверьте ее [здесь](https://releases.aspose.com/).
 
 ### Какой язык программирования мне нужно использовать с Aspose.PDF для .NET?
 Aspose.PDF для .NET предназначен для использования с C# и другими языками .NET.
 
 ### Как мне получить помощь с Aspose.PDF?
- Вы можете посетить форум поддержки Aspose для получения помощи по любой возникшей у вас проблеме или запросу. Найти поддержку[здесь](https://forum.aspose.com/c/pdf/10).
+Вы можете посетить форум поддержки Aspose для получения помощи по любой возникшей у вас проблеме или запросу. Найти поддержку [здесь](https://forum.aspose.com/c/pdf/10).
 
 ### Где можно скачать Aspose.PDF для .NET?
- Вы можете загрузить библиотеку с сайта Aspose,[здесь](https://releases.aspose.com/pdf/net/).
+Вы можете загрузить библиотеку с сайта Aspose, [здесь](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

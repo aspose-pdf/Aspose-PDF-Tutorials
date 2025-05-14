@@ -1,14 +1,16 @@
 ---
-title: Di chuyển trường biểu mẫu
-linktitle: Di chuyển trường biểu mẫu
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách di chuyển các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn này. Làm theo hướng dẫn chi tiết này để dễ dàng sửa đổi vị trí hộp văn bản.
-weight: 200
-url: /vi/net/programming-with-forms/move-form-field/
+"description": "Tìm hiểu cách di chuyển các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn này. Làm theo hướng dẫn chi tiết này để dễ dàng sửa đổi vị trí hộp văn bản."
+"linktitle": "Di chuyển trường biểu mẫu"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Di chuyển trường biểu mẫu"
+"url": "/vi/net/programming-with-forms/move-form-field/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Di chuyển trường biểu mẫu
@@ -28,13 +30,13 @@ Trước khi bắt đầu, đây là một số thứ bạn cần:
 
 ### Cài đặt Aspose.PDF cho .NET
 
- Bạn có thể tải xuống phiên bản mới nhất của Aspose.PDF cho .NET từ[Trang tải xuống Aspose](https://releases.aspose.com/pdf/net/)Sau khi tải xuống, bạn có thể cài đặt nó thông qua NuGet trong Visual Studio bằng cách chạy lệnh sau:
+Bạn có thể tải xuống phiên bản mới nhất của Aspose.PDF cho .NET từ [Trang tải xuống Aspose](https://releases.aspose.com/pdf/net/). Sau khi tải xuống, bạn có thể cài đặt nó thông qua NuGet trong Visual Studio bằng cách chạy lệnh sau:
 
 ```bash
 Install-Package Aspose.PDF
 ```
 
- Bạn cũng sẽ cần phải có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc mua giấy phép từ[Cửa hàng Aspose](https://purchase.aspose.com/buy).
+Bạn cũng sẽ cần phải có được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc mua giấy phép từ [Cửa hàng Aspose](https://purchase.aspose.com/buy).
 
 ## Nhập gói
 
@@ -63,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "MoveFormField.pdf");
 ```
 
- Mã này khởi tạo tài liệu bằng cách tải nó từ thư mục được chỉ định. Hãy đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn tệp thực tế nơi tệp PDF của bạn được lưu trữ. Tệp PDF này phải chứa ít nhất một trường biểu mẫu để bạn làm việc.
+Mã này khởi tạo tài liệu bằng cách tải nó từ thư mục được chỉ định. Hãy đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn tệp thực tế nơi tệp PDF của bạn được lưu trữ. Tệp PDF này phải chứa ít nhất một trường biểu mẫu để bạn làm việc.
 
 ## Bước 2: Truy cập vào Trường biểu mẫu cần di chuyển
 
@@ -74,7 +76,7 @@ Sau khi PDF được tải, bước tiếp theo là truy cập vào trường bi
 TextBoxField textBoxField = pdfDocument.Form["textbox1"] as TextBoxField;
 ```
 
- Ở đây, chúng ta đang truy cập vào một trường biểu mẫu có tên`"textbox1"`. Hãy đảm bảo rằng bạn biết tên của trường biểu mẫu mà bạn muốn thao tác hoặc bạn có thể sử dụng các kỹ thuật khác để liệt kê hoặc tìm kiếm trong các trường biểu mẫu nếu cần.
+Ở đây, chúng ta đang truy cập vào một trường biểu mẫu có tên `"textbox1"`. Hãy đảm bảo rằng bạn biết tên của trường biểu mẫu mà bạn muốn thao tác hoặc bạn có thể sử dụng các kỹ thuật khác để liệt kê hoặc tìm kiếm trong các trường biểu mẫu nếu cần.
 
 ## Bước 3: Sửa đổi vị trí của trường
 
@@ -102,7 +104,7 @@ Tài liệu sẽ được lưu trong cùng một thư mục với tên đã cậ
 
 ## Phần kết luận
 
- Việc di chuyển các trường biểu mẫu trong PDF bằng Aspose.PDF cho .NET rất đơn giản khi bạn hiểu được những điều cơ bản khi làm việc với`Rectangle` trường đối tượng và biểu mẫu. Với mã trên, bạn có thể dễ dàng sửa đổi vị trí của bất kỳ trường biểu mẫu nào, giúp bạn tùy chỉnh bố cục PDF và tương tác của người dùng.
+Việc di chuyển các trường biểu mẫu trong PDF bằng Aspose.PDF cho .NET rất đơn giản khi bạn hiểu được những điều cơ bản khi làm việc với `Rectangle` trường đối tượng và biểu mẫu. Với mã trên, bạn có thể dễ dàng sửa đổi vị trí của bất kỳ trường biểu mẫu nào, giúp bạn tùy chỉnh bố cục PDF và tương tác của người dùng.
 
 ## Câu hỏi thường gặp
 
@@ -110,19 +112,21 @@ Tài liệu sẽ được lưu trong cùng một thư mục với tên đã cậ
 Có, bạn có thể di chuyển bất kỳ trường biểu mẫu nào, bao gồm hộp kiểm, nút radio và chữ ký, bằng cách sử dụng cùng một phương pháp bằng cách truy cập vào loại trường cụ thể.
 
 ### Làm thế nào tôi có thể lấy tên của tất cả các trường biểu mẫu trong PDF?
- Bạn có thể lặp lại qua các trường biểu mẫu bằng cách sử dụng`pdfDocument.Form.Fields` để liệt kê tất cả các trường biểu mẫu và tên của chúng.
+Bạn có thể lặp lại qua các trường biểu mẫu bằng cách sử dụng `pdfDocument.Form.Fields` để liệt kê tất cả các trường biểu mẫu và tên của chúng.
 
 ### Tôi phải làm sao nếu muốn thay đổi kích thước trường biểu mẫu thay vì di chuyển nó?
- Bạn có thể sửa đổi cả vị trí và kích thước bằng cách điều chỉnh`Rectangle` chiều rộng và chiều cao của đối tượng trong khi thiết lập tọa độ mới.
+Bạn có thể sửa đổi cả vị trí và kích thước bằng cách điều chỉnh `Rectangle` chiều rộng và chiều cao của đối tượng trong khi thiết lập tọa độ mới.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF cho .NET không?
- Có, Aspose.PDF yêu cầu giấy phép để sử dụng cho mục đích sản xuất, nhưng bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
+Có, Aspose.PDF yêu cầu giấy phép để sử dụng cho mục đích sản xuất, nhưng bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
 
 ### Tôi có thể di chuyển nhiều trường biểu mẫu cùng lúc không?
- Có, bằng cách truy cập vào từng trường biểu mẫu và sửa đổi nó`Rect` thuộc tính, bạn có thể di chuyển nhiều trường cùng lúc.
+Có, bằng cách truy cập vào từng trường biểu mẫu và sửa đổi nó `Rect` thuộc tính, bạn có thể di chuyển nhiều trường cùng lúc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

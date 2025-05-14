@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Customize PDF Tables with Aspose.PDF for Java
 
@@ -211,6 +213,9 @@ Why not give it a try? Enhance your PDFs today with customized tables using Aspo
 - [Maven Central Repository - Aspose.PDF for Java](https://search.maven.org/artifact/com.aspose/aspose-pdf)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

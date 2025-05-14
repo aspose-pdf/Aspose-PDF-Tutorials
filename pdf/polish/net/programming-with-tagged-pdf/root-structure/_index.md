@@ -1,14 +1,16 @@
 ---
-title: Struktura korzenia
-linktitle: Struktura korzenia
-second_title: Aspose.PDF dla .NET API Reference
-description: Przewodnik krok po kroku przedstawiający, jak używać elementów struktury głównej za pomocą Aspose.PDF dla platformy .NET w celu dostępu do obiektu głównego i obiektu StructTreeRoot dokumentu PDF.
-weight: 130
-url: /pl/net/programming-with-tagged-pdf/root-structure/
+"description": "Przewodnik krok po kroku przedstawiający, jak używać elementów struktury głównej w Aspose.PDF dla platformy .NET w celu dostępu do obiektu głównego i obiektu StructTreeRoot dokumentu PDF."
+"linktitle": "Struktura korzenia"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Struktura korzenia"
+"url": "/pl/net/programming-with-tagged-pdf/root-structure/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Struktura korzenia
@@ -21,12 +23,12 @@ Podczas pracy z plikami PDF w środowisku .NET Aspose.PDF oferuje potężne narz
 
 Zanim zagłębisz się w tworzenie tagowanych plików PDF, upewnij się, że masz wszystko, czego potrzebujesz, aby móc skorzystać z tego samouczka.
 
-1.  Aspose.PDF dla biblioteki .NET: Musisz pobrać i zainstalować pakiet Aspose.PDF dla .NET. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla biblioteki .NET: Musisz pobrać i zainstalować pakiet Aspose.PDF dla .NET. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/net/).
 2. Środowisko programistyczne: Środowisko programistyczne, takie jak Visual Studio, będzie Twoim głównym miejscem pracy podczas kodowania w tym samouczku.
 3. .NET Framework: Upewnij się, że w systemie jest zainstalowany .NET Framework.
 4. Podstawowa znajomość języka C#: Nie musisz być profesjonalistą, ale podstawowa znajomość języka C# sprawi, że ten samouczek będzie bardziej przyswajalny.
 
- Jeżeli nie posiadasz biblioteki Aspose.PDF, możesz również poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub pobierz[bezpłatny okres próbny](https://releases.aspose.com/).
+Jeżeli nie posiadasz biblioteki Aspose.PDF, możesz również poprosić o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub pobierz [bezpłatny okres próbny](https://releases.aspose.com/).
 
 ## Importuj pakiety
 
@@ -50,7 +52,7 @@ Teraz, gdy już przygotowaliśmy scenę, prześledźmy każdy krok tworzenia dok
 Pierwszym krokiem w tworzeniu dowolnego pliku PDF jest zainicjowanie nowego obiektu dokumentu.
 
 ### Krok 1.1: Zainicjuj dokument PDF
- Aby utworzyć plik PDF, należy utworzyć instancję`Document` obiekt. Oto jak:
+Aby utworzyć plik PDF, należy utworzyć instancję `Document` obiekt. Oto jak:
 
 ```csharp
 // Utwórz nowy dokument PDF
@@ -71,7 +73,7 @@ Teraz Twój projekt wie, gdzie zapisać końcowy plik PDF.
 
 ## Krok 2: Uzyskaj dostęp do oznaczonej zawartości
 
- Oznaczone pliki PDF są w całości o dostępności, a to wymaga specjalnych „tagów” w treści, aby pomóc narzędziom takim jak czytniki ekranu zrozumieć strukturę. Aby to zrobić, musimy uzyskać dostęp do`ITaggedContent` interfejs.
+Oznaczone pliki PDF są w całości o dostępności, a to wymaga specjalnych „tagów” w treści, aby pomóc narzędziom takim jak czytniki ekranu zrozumieć strukturę. Aby to zrobić, musimy uzyskać dostęp do `ITaggedContent` interfejs.
 
 Aby uzyskać dostęp do sekcji oznaczonej zawartością pliku PDF, wykonaj następujące czynności:
 
@@ -118,7 +120,7 @@ Element struktury głównej działa jako podstawa dla Twojej oznaczonej zawarto�
 StructTreeRootElement structTreeRootElement = taggedContent.StructTreeRootElement;
 ```
 
- Ten`StructTreeRootElement` obiekt umożliwia hierarchiczne strukturowanie elementów.
+Ten `StructTreeRootElement` obiekt umożliwia hierarchiczne strukturowanie elementów.
 
 ### Krok 4.2: Zdefiniuj element główny
 Teraz pobierzmy element struktury głównej pliku PDF:
@@ -128,7 +130,7 @@ Teraz pobierzmy element struktury głównej pliku PDF:
 StructureElement rootElement = taggedContent.RootElement;
 ```
 
- Ten`rootElement` będzie stanowić strukturę najwyższego poziomu dla tagów dokumentu.
+Ten `rootElement` będzie stanowić strukturę najwyższego poziomu dla tagów dokumentu.
 
 ## Krok 5: Zapisz dokument
 
@@ -163,9 +165,11 @@ Tworzenie oznaczonych plików PDF przy użyciu Aspose.PDF dla .NET nie jest tak 
 
 5. Czy Aspose.PDF jest kompatybilny ze wszystkimi wersjami .NET?  
    Tak, Aspose.PDF dla .NET jest zgodny z .NET Core i .NET Framework.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

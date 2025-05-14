@@ -1,14 +1,16 @@
 ---
-title: Konversi PDF ke HTML dengan Substitusi Font
-linktitle: Konversi PDF ke HTML dengan Substitusi Font
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengonversi PDF ke HTML dengan substitusi font menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk konversi yang lancar. Optimalkan konten web Anda sekarang!
-weight: 30
-url: /id/java/pdf-conversion-transformation/convert-pdf-to-html-with-font-substitution/
+"description": "Pelajari cara mengonversi PDF ke HTML dengan substitusi font menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk konversi yang lancar. Optimalkan konten web Anda sekarang!"
+"linktitle": "Konversi PDF ke HTML dengan Substitusi Font"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Konversi PDF ke HTML dengan Substitusi Font"
+"url": "/id/java/pdf-conversion-transformation/convert-pdf-to-html-with-font-substitution/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi PDF ke HTML dengan Substitusi Font
@@ -33,7 +35,7 @@ Mengonversi PDF ke HTML sangat penting saat Anda perlu menampilkan konten PDF di
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal
--  Aspose.PDF untuk pustaka Java (Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF untuk pustaka Java (Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/)
 - Lingkungan Pengembangan Terpadu (IDE) pilihan Anda
 
 ## Menyiapkan Lingkungan Pengembangan
@@ -59,7 +61,7 @@ Document pdfDocument = new Document("input.pdf");
 ## Mengonfigurasi Substitusi Font
 
 ```java
-//Buat contoh HtmlSaveOptions
+// Buat contoh HtmlSaveOptions
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 
 // Aktifkan substitusi font
@@ -89,7 +91,7 @@ try {
 
 ## Menyesuaikan Konversi
 
- Anda dapat menyesuaikan output HTML lebih lanjut dengan menyesuaikan`HtmlSaveOptions` parameter. Ini memungkinkan Anda untuk mengontrol berbagai aspek konversi, seperti kompresi gambar dan pemformatan teks.
+Anda dapat menyesuaikan output HTML lebih lanjut dengan menyesuaikan `HtmlSaveOptions` parameter. Ini memungkinkan Anda untuk mengontrol berbagai aspek konversi, seperti kompresi gambar dan pemformatan teks.
 
 ## Kesimpulan
 
@@ -118,9 +120,11 @@ Meskipun penggantian font merupakan fitur yang berharga, fitur ini mungkin tidak
 ### Apakah Aspose.PDF untuk Java cocok untuk konversi PDF ke HTML skala besar?
 
 Ya, Aspose.PDF untuk Java sangat cocok untuk konversi PDF ke HTML skala kecil maupun besar. Performanya yang tangguh dan opsi penyesuaiannya menjadikannya pilihan yang andal untuk berbagai proyek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

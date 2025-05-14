@@ -1,46 +1,48 @@
 ---
-title: Convertir un formulario XFA dinámico a un AcroForm estándar en formato PDF
-linktitle: Convertir un formulario XFA dinámico a un AcroForm estándar en formato PDF
-second_title: API de procesamiento de PDF de Java Aspose.PDF
-description: Aprenda a convertir sin esfuerzo formularios XFA dinámicos a AcroForms estándar en formato PDF con Aspose.PDF para Java. Garantice la compatibilidad y la accesibilidad.
-weight: 12
-url: /es/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/
+"description": "Aprenda a convertir fácilmente formularios XFA dinámicos a AcroForms estándar en PDF con Aspose.PDF para Java. Garantice la compatibilidad y la accesibilidad."
+"linktitle": "Convertir un formulario XFA dinámico a un AcroForm estándar en PDF"
+"second_title": "API de procesamiento de PDF de Java Aspose.PDF"
+"title": "Convertir un formulario XFA dinámico a un AcroForm estándar en PDF"
+"url": "/es/java/pdf-form-fields/convert-dynamic-xfa-form-to-standard-acroform-in-pdf/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convertir un formulario XFA dinámico a un AcroForm estándar en formato PDF
+# Convertir un formulario XFA dinámico a un AcroForm estándar en PDF
 
 
-## Introducción a la conversión de un formulario XFA dinámico a un AcroForm estándar en formato PDF
+## Introducción a la conversión de formularios XFA dinámicos a AcroForm estándar en PDF
 
-En el mundo de la manipulación y generación de PDF, la necesidad de convertir formularios XFA dinámicos (XML Forms Architecture) a AcroForms estándar es un requisito común. Los formularios XFA, conocidos por sus características dinámicas e interactivas, tienen sus méritos. Sin embargo, en algunos casos, los problemas de compatibilidad y la necesidad de una accesibilidad más amplia hacen que sea necesario convertirlos a los AcroForms con soporte más universal. En esta guía, lo guiaremos a través del proceso paso a paso de conversión de formularios XFA dinámicos a AcroForms estándar en PDF utilizando Aspose.PDF para Java.
+En el mundo de la manipulación y generación de PDF, la necesidad de convertir formularios XFA dinámicos (Arquitectura de Formularios XML) a AcroForms estándar es un requisito común. Los formularios XFA, conocidos por sus características dinámicas e interactivas, tienen sus ventajas. Sin embargo, en algunos casos, problemas de compatibilidad y la necesidad de una mayor accesibilidad obligan a convertirlos a AcroForms, con mayor compatibilidad universal. En esta guía, le guiaremos paso a paso en el proceso de conversión de formularios XFA dinámicos a AcroForms estándar en PDF utilizando Aspose.PDF para Java.
 
 ## Prerrequisitos
 
 Antes de sumergirnos en el proceso de conversión, asegúrese de tener los siguientes requisitos previos:
 
 - Entorno de desarrollo de Java: asegúrese de tener Java Development Kit (JDK) instalado en su sistema.
--  Aspose.PDF para Java: Descargue e instale la biblioteca Aspose.PDF para Java desde[aquí](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF para Java: Descargue e instale la biblioteca Aspose.PDF para Java desde [aquí](https://releases.aspose.com/pdf/java/).
 - Entorno de desarrollo integrado (IDE) de Java: puede utilizar IDE populares como Eclipse o IntelliJ IDEA.
 
 ## Conversión de XFA a AcroForm
 
 ### Paso 1: Inicializar el documento PDF
 
-Para iniciar la conversión, cree un nuevo proyecto Java en su IDE y agregue la biblioteca Aspose.PDF para Java a su proyecto. Luego, inicialice un documento PDF de la siguiente manera:
+Para iniciar la conversión, cree un nuevo proyecto Java en su IDE y añada la biblioteca Aspose.PDF para Java. A continuación, inicialice un documento PDF como se indica a continuación:
 
 ```java
-//Importar clases necesarias
+// Importar las clases necesarias
 import com.aspose.pdf.Document;
 
 // Inicializar un documento PDF
 Document pdfDocument = new Document();
 ```
 
-### Paso 2: Cargue el formulario XFA
+### Paso 2: Cargar el formulario XFA
 
 A continuación, debe cargar el formulario XFA desde un archivo PDF existente. Utilice el siguiente fragmento de código:
 
@@ -60,7 +62,7 @@ pdfDocument.convert();
 
 ### Paso 4: Guarde el PDF convertido
 
-Una vez completada la conversión, guarde el documento PDF modificado en un archivo nuevo:
+Una vez completada la conversión, guarde el documento PDF modificado en un nuevo archivo:
 
 ```java
 // Guardar el PDF convertido en un nuevo archivo
@@ -69,17 +71,17 @@ pdfDocument.save(dataDir + "output.pdf");
 
 ## Conclusión
 
-La conversión de formularios XFA dinámicos a AcroForms estándar en formato PDF es muy sencilla con Aspose.PDF para Java. Esta potente biblioteca simplifica el proceso y garantiza la compatibilidad entre varios visores y aplicaciones de PDF. Ya sea que trabaje con formularios interactivos complejos o si quiera simplificar el flujo de trabajo de sus documentos, Aspose.PDF para Java lo tiene cubierto.
+Convertir formularios XFA dinámicos a AcroForms estándar en PDF es muy fácil con Aspose.PDF para Java. Esta potente biblioteca optimiza el proceso y garantiza la compatibilidad con diversos visores y aplicaciones de PDF. Tanto si trabaja con formularios interactivos complejos como si simplifica el flujo de trabajo de sus documentos, Aspose.PDF para Java le ofrece la solución.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo puedo acceder a la documentación de Aspose.PDF para Java?
 
- Puede acceder a la documentación de Aspose.PDF para Java[aquí](https://reference.aspose.com/pdf/java/).
+Puede acceder a la documentación de Aspose.PDF para Java [aquí](https://reference.aspose.com/pdf/java/).
 
 ### ¿Aspose.PDF para Java es compatible con diferentes IDE de Java?
 
-Sí, Aspose.PDF para Java es compatible con los entornos de desarrollo integrados (IDE) de Java más populares, como Eclipse e IntelliJ IDEA.
+Sí, Aspose.PDF para Java es compatible con entornos de desarrollo integrados (IDE) de Java populares como Eclipse e IntelliJ IDEA.
 
 ### ¿El proceso de conversión conserva el diseño del formulario original?
 
@@ -87,14 +89,16 @@ Sí, el proceso de conversión garantiza que el diseño y el contenido del formu
 
 ### ¿Puedo convertir varios formularios XFA en un solo documento PDF?
 
-¡Por supuesto! Puedes convertir varios formularios XFA dentro de un único documento PDF utilizando Aspose.PDF para Java.
+¡Por supuesto! Puedes convertir varios formularios XFA en un solo documento PDF con Aspose.PDF para Java.
 
 ### ¿Dónde puedo descargar Aspose.PDF para Java?
 
- Puede descargar la biblioteca Aspose.PDF para Java desde[Este enlace](https://releases.aspose.com/pdf/java/).
+Puede descargar la biblioteca Aspose.PDF para Java desde [este enlace](https://releases.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

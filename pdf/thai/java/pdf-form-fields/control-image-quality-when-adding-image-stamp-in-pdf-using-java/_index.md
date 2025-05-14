@@ -1,14 +1,16 @@
 ---
-title: ควบคุมคุณภาพรูปภาพเมื่อเพิ่มตราประทับรูปภาพใน PDF โดยใช้ Java
-linktitle: ควบคุมคุณภาพรูปภาพเมื่อเพิ่มตราประทับรูปภาพใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีควบคุมคุณภาพของรูปภาพเมื่อเพิ่มแสตมป์ภาพลงใน PDF โดยใช้ Java พร้อมคำแนะนำทีละขั้นตอน
-weight: 12
-url: /th/java/pdf-form-fields/control-image-quality-when-adding-image-stamp-in-pdf-using-java/
+"description": "เรียนรู้วิธีควบคุมคุณภาพของรูปภาพเมื่อเพิ่มแสตมป์ภาพลงใน PDF โดยใช้ Java พร้อมคำแนะนำทีละขั้นตอน"
+"linktitle": "ควบคุมคุณภาพรูปภาพเมื่อเพิ่มตราประทับรูปภาพใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ควบคุมคุณภาพรูปภาพเมื่อเพิ่มตราประทับรูปภาพใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-form-fields/control-image-quality-when-adding-image-stamp-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ควบคุมคุณภาพรูปภาพเมื่อเพิ่มตราประทับรูปภาพใน PDF โดยใช้ Java
@@ -23,7 +25,7 @@ url: /th/java/pdf-form-fields/control-image-quality-when-adding-image-stamp-in-p
 ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
--  ดาวน์โหลดและตั้งค่าไลบรารี Aspose.PDF สำหรับ Java ได้แล้ว สามารถดูลิงก์ดาวน์โหลด[ที่นี่](https://releases.aspose.com/pdf/java/).
+- ดาวน์โหลดและตั้งค่าไลบรารี Aspose.PDF สำหรับ Java ได้แล้ว สามารถดูลิงก์ดาวน์โหลด [ที่นี่](https://releases-aspose.com/pdf/java/).
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 
 ตอนนี้เราได้จัดเตรียมสิ่งที่จำเป็นเบื้องต้นเรียบร้อยแล้ว เรามาดำเนินการเพิ่มแสตมป์รูปภาพลงใน PDF พร้อมทั้งยังคงควบคุมคุณภาพของรูปภาพต่อไป
@@ -59,7 +61,7 @@ ImageStamp imageStamp = new ImageStamp("path_to_your_image.png");
 
 ## ขั้นตอนที่ 4: ตั้งค่าคุณภาพของภาพ
 
-หากต้องการควบคุมคุณภาพของภาพ คุณสามารถตั้งค่าระดับคุณภาพของแสตมป์ภาพได้ ค่าคุณภาพสูงขึ้นจะทำให้ภาพออกมาสวยขึ้นแต่ขนาดไฟล์อาจเพิ่มขึ้นได้ ในที่นี้ เราตั้งค่าคุณภาพไว้ที่ 90:
+หากต้องการควบคุมคุณภาพของภาพ คุณสามารถตั้งค่าระดับคุณภาพของแสตมป์ภาพได้ ค่าคุณภาพสูงขึ้นจะทำให้ภาพออกมาดีขึ้นแต่ขนาดไฟล์อาจเพิ่มขึ้น ในที่นี้ เราตั้งค่าคุณภาพเป็น 90:
 
 ```java
 // ตั้งค่าคุณภาพของแสตมป์ภาพ
@@ -83,7 +85,7 @@ pdfDocument.getPages().get_Item(1).addStamp(imageStamp);
 
 ### ฉันจะปรับคุณภาพของภาพเพิ่มเติมได้อย่างไร?
 
- คุณสามารถปรับแต่งคุณภาพของภาพได้โดยการเปลี่ยนค่าที่ส่งไปยัง`setQuality` วิธีการ ค่าที่สูงขึ้น เช่น 95 หรือ 100 จะทำให้คุณภาพของภาพดีขึ้นแต่ขนาดไฟล์อาจเพิ่มขึ้น
+คุณสามารถปรับแต่งคุณภาพของภาพได้โดยการเปลี่ยนค่าที่ส่งไปยัง `setQuality` วิธีการ ค่าที่สูงขึ้น เช่น 95 หรือ 100 จะทำให้คุณภาพของภาพดีขึ้น แต่ขนาดไฟล์อาจเพิ่มขึ้น
 
 ### ฉันสามารถเพิ่มแสตมป์ภาพหลายรายการลงใน PDF เดียวได้ไหม
 
@@ -99,10 +101,12 @@ pdfDocument.getPages().get_Item(1).addStamp(imageStamp);
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถดูเอกสาร Aspose.PDF สำหรับ Java ได้[ที่นี่](https://reference.aspose.com/pdf/java/) เพื่อดูข้อมูลโดยละเอียดเกี่ยวกับคุณสมบัติและการใช้งาน
+คุณสามารถดูเอกสาร Aspose.PDF สำหรับ Java ได้ [ที่นี่](https://reference.aspose.com/pdf/java/) เพื่อดูข้อมูลโดยละเอียดเกี่ยวกับคุณสมบัติและการใช้งาน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

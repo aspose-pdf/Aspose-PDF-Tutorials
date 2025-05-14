@@ -1,14 +1,16 @@
 ---
-title: ดึงคำอธิบายจากหน้า PDF
-linktitle: ดึงคำอธิบายจากหน้า PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีเรียกค้นคำอธิบายประกอบจากหน้า PDF โดยใช้ Aspose.PDF สำหรับ Java สำรวจคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดในคู่มือที่ครอบคลุมนี้
-weight: 13
-url: /th/java/pdf-annotations/retrieve-annotations-pdf-pages/
+"description": "เรียนรู้วิธีเรียกค้นคำอธิบายประกอบจากหน้า PDF โดยใช้ Aspose.PDF สำหรับ Java สำรวจคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดในคู่มือที่ครอบคลุมนี้"
+"linktitle": "ดึงคำอธิบายจากหน้า PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ดึงคำอธิบายจากหน้า PDF"
+"url": "/th/java/pdf-annotations/retrieve-annotations-pdf-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ดึงคำอธิบายจากหน้า PDF
@@ -72,10 +74,10 @@ for (com.aspose.pdf.Annotation annotation : page.getAnnotations()) {
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- หากต้องการติดตั้ง Aspose.PDF สำหรับ Java โปรดไปที่ลิงก์ดาวน์โหลดที่[ที่นี่](https://releases.aspose.com/pdf/java/) และทำตามคำแนะนำการติดตั้งที่ให้ไว้ในเว็บไซต์
+หากต้องการติดตั้ง Aspose.PDF สำหรับ Java ให้ไปที่ลิงก์ดาวน์โหลดที่ [ที่นี่](https://releases.aspose.com/pdf/java/) และทำตามคำแนะนำการติดตั้งที่ให้ไว้ในเว็บไซต์
 
 ### ฉันสามารถดึงคำอธิบายประกอบจากหน้าเฉพาะในเอกสาร PDF ได้หรือไม่
-ใช่ คุณสามารถเรียกค้นคำอธิบายประกอบจากหน้าเฉพาะในเอกสาร PDF ได้โดยระบุหมายเลขหน้าในโค้ดของคุณ เพียงโหลดเอกสาร PDF และเข้าถึงหน้าที่ต้องการโดยใช้`get_Item` วิธี.
+ใช่ คุณสามารถเรียกค้นคำอธิบายประกอบจากหน้าเฉพาะในเอกสาร PDF ได้โดยระบุหมายเลขหน้าในโค้ดของคุณ เพียงโหลดเอกสาร PDF และเข้าถึงหน้าที่ต้องการโดยใช้ `get_Item` วิธี.
 
 ### ฉันสามารถเรียกค้นประเภทคำอธิบายประกอบใดได้บ้างโดยใช้ Aspose.PDF สำหรับ Java
 
@@ -88,9 +90,11 @@ Aspose.PDF สำหรับ Java รองรับการเรียกค
 ### ฉันสามารถใช้ Aspose.PDF สำหรับ Java เพื่อทำให้กระบวนการดึงข้อมูลคำอธิบายเป็นแบบอัตโนมัติได้หรือไม่
 
 ใช่ คุณสามารถทำให้กระบวนการค้นหาคำอธิบายประกอบเป็นแบบอัตโนมัติได้โดยใช้ Aspose.PDF สำหรับ Java คุณสามารถสร้างสคริปต์หรือแอปพลิเคชันที่ค้นหาคำอธิบายประกอบจากเอกสาร PDF โดยอัตโนมัติ ทำให้เป็นเครื่องมือที่มีประโยชน์สำหรับเวิร์กโฟลว์การประมวลผลเอกสาร
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

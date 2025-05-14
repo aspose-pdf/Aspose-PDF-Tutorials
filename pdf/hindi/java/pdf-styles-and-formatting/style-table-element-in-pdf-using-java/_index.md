@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ में स्टाइल टेबल तत्व
-linktitle: जावा का उपयोग करके पीडीएफ में स्टाइल टेबल तत्व
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Aspose.PDF के साथ जावा का उपयोग करके PDF दस्तावेज़ों में तालिकाओं को स्टाइल करना सीखें। दिखने में आकर्षक तालिकाएँ बनाएँ और पेशेवर PDF के लिए उनकी उपस्थिति को अनुकूलित करें।
-weight: 14
-url: /hi/java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/
+"description": "Aspose.PDF के साथ जावा का उपयोग करके PDF दस्तावेज़ों में तालिकाओं को स्टाइल करना सीखें। दिखने में आकर्षक तालिकाएँ बनाएँ और पेशेवर PDF के लिए उनकी उपस्थिति को अनुकूलित करें।"
+"linktitle": "जावा का उपयोग करके पीडीएफ में स्टाइल टेबल तत्व"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ में स्टाइल टेबल तत्व"
+"url": "/hi/java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ में स्टाइल टेबल तत्व
@@ -28,7 +30,7 @@ url: /hi/java/pdf-styles-and-formatting/style-table-element-in-pdf-using-java/
 
 ## Java के लिए Aspose.PDF सेट अप करना
 
- आरंभ करने के लिए, वेबसाइट से Java लाइब्रेरी के लिए Aspose.PDF डाउनलोड करें:[Java के लिए Aspose.PDF डाउनलोड करें](https://releases.aspose.com/pdf/java/)
+आरंभ करने के लिए, वेबसाइट से Java लाइब्रेरी के लिए Aspose.PDF डाउनलोड करें: [Java के लिए Aspose.PDF डाउनलोड करें](https://releases.aspose.com/pdf/java/)
 
 एक बार डाउनलोड हो जाने पर, लाइब्रेरी को अपने जावा प्रोजेक्ट में शामिल करें।
 
@@ -57,7 +59,7 @@ pdfDocument.getPages().get_Item(1).getParagraphs().add(table);
 तालिका को स्टाइल करने के लिए, आप विभिन्न पहलुओं जैसे सेल पृष्ठभूमि रंग, टेक्स्ट फ़ॉन्ट, आदि को अनुकूलित कर सकते हैं।
 
 ```java
-//तालिका को स्टाइल करने के लिए जावा कोड
+// तालिका को स्टाइल करने के लिए जावा कोड
 table.setDefaultCellBorder(new BorderInfo(BorderSide.All, 1F));
 table.setDefaultCellPadding(new MarginInfo(5, 5, 5, 5));
 table.setDefaultCellTextState(new TextState());
@@ -106,7 +108,7 @@ cell.setAlignment(HorizontalAlignment.Center);
 हेडर और फ़ुटर PDF दस्तावेज़ों के लिए ज़रूरी हैं। आप उन्हें ज़रूरत के हिसाब से अपनी टेबल में जोड़ सकते हैं।
 
 ```java
-// हेडर और फ़ुटर जोड़ने के लिए जावा कोड
+// हेडर और फूटर जोड़ने के लिए जावा कोड
 HeaderFooter header = new HeaderFooter();
 table.setTop(header);
 ```
@@ -128,15 +130,15 @@ pdfDocument.save("styled_table_example.pdf");
 
 ### मैं तालिका का पृष्ठभूमि रंग कैसे बदल सकता हूँ?
 
- तालिका का पृष्ठभूमि रंग बदलने के लिए, आप इसका उपयोग कर सकते हैं`table.setBackgroundColor(Color)` विधि का चयन करें और वांछित रंग निर्दिष्ट करें।
+तालिका का पृष्ठभूमि रंग बदलने के लिए, आप इसका उपयोग कर सकते हैं `table.setBackgroundColor(Color)` विधि का चयन करें और वांछित रंग निर्दिष्ट करें।
 
 ### क्या मैं किसी तालिका में कक्षों को मर्ज कर सकता हूँ?
 
- हां, आप किसी तालिका में कक्षों को मर्ज कर सकते हैं`Cell` कक्षा का`setColSpan(int)` और`setRowSpan(int)` तरीके.
+हां, आप किसी तालिका में कक्षों को मर्ज कर सकते हैं `Cell` कक्षा का `setColSpan(int)` और `setRowSpan(int)` तरीके.
 
 ### मैं किसी विशिष्ट सेल में बॉर्डर कैसे जोड़ूं?
 
- किसी विशिष्ट सेल में बॉर्डर जोड़ने के लिए, आप इसका उपयोग कर सकते हैं`Cell` कक्षा का`setBorder` विधि का चयन करें और बॉर्डर गुण निर्दिष्ट करें।
+किसी विशिष्ट सेल में बॉर्डर जोड़ने के लिए, आप इसका उपयोग कर सकते हैं `Cell` कक्षा का `setBorder` विधि का चयन करें और बॉर्डर गुण निर्दिष्ट करें।
 
 ### क्या Aspose.PDF for Java विभिन्न Java IDEs के साथ संगत है?
 
@@ -144,10 +146,12 @@ pdfDocument.save("styled_table_example.pdf");
 
 ### मैं Java के लिए Aspose.PDF हेतु अधिक दस्तावेज़ कहां पा सकता हूं?
 
- आप Java के लिए Aspose.PDF के विस्तृत दस्तावेज़ और API संदर्भ यहां पा सकते हैं[जावा दस्तावेज़ीकरण के लिए Aspose.PDF](https://reference.aspose.com/pdf/java/).
+आप Java के लिए Aspose.PDF के विस्तृत दस्तावेज़ और API संदर्भ यहां पा सकते हैं [जावा दस्तावेज़ीकरण के लिए Aspose.PDF](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

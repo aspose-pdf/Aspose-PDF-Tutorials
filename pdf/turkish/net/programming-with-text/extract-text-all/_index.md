@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Tüm Metni Çıkar
-linktitle: Metni AllIn PDF Dosyasından Çıkar
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF dosyalarından metni nasıl kolayca çıkaracağınızı öğrenin.
-weight: 180
-url: /tr/net/programming-with-text/extract-text-all/
+"description": "Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF dosyalarından metni nasıl kolayca çıkaracağınızı öğrenin."
+"linktitle": "Metni AllIn PDF Dosyasından Çıkar"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Tüm Metni Çıkar"
+"url": "/tr/net/programming-with-text/extract-text-all/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Tüm Metni Çıkar
@@ -22,9 +24,9 @@ Bu dijital çağda, PDF belgeleriyle uğraşmak yaygın bir görev haline geldi.
 PDF dosyalarından metin çıkarmanın inceliklerine girmeden önce, yerine getirmeniz gereken birkaç temel gereksinim vardır:
 
 1. .NET Framework: Geliştirme makinenizde .NET Framework'ün yüklü olduğundan emin olun. Aspose.PDF, .NET ile sorunsuz bir şekilde çalışır, bu nedenle en son sürüme sahip olmak bir artıdır.
-2. Aspose.PDF Kütüphanesi: PDF düzenlemelerini işlemek için Aspose.PDF for .NET kütüphanesine ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF Kütüphanesi: PDF düzenlemelerini işlemek için Aspose.PDF for .NET kütüphanesine ihtiyacınız olacak. [buradan indirin](https://releases.aspose.com/pdf/net/).
 3. Geliştirme Ortamı: Visual Studio gibi bir IDE şiddetle tavsiye edilir. Kodunuzu yazmak, derlemek ve hata ayıklamak için kullanıcı dostu bir arayüz sağlar.
-4. C# Temel Bilgisi: C# programlama diline aşina olmak, inceleyeceğimiz kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
+4. C# Temel Bilgisi: C# programlama diline aşina olmak, incelemek üzere olduğumuz kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
 Artık ön koşullarımız tamam olduğuna göre, gerekli paketleri içe aktaralım!
 
@@ -54,11 +56,11 @@ Kod Örneği:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu kod parçacığında, sadece şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Örneğin, dosyanız şu konumdaysa`C:\Documents` , sen ayarlayacaksın`dataDir` o yola.
+Bu kod parçacığında, sadece şunu değiştirin: `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Örneğin, dosyanız şu konumdaysa `C:\Documents`, sen ayarlayacaksın `dataDir` o yola.
 
 ## Adım 2: PDF Belgesini açın
 
- Dizininizi ayarladıktan sonra, metni çıkarmak istediğiniz PDF belgesini açmanız gerekir. Bu, şu şekilde yapılır:`Document` Aspose.PDF ad alanından sınıf.
+Dizininizi ayarladıktan sonra, metni çıkarmak istediğiniz PDF belgesini açmanız gerekir. Bu, şu şekilde yapılır: `Document` Aspose.PDF ad alanından sınıf.
 
 Kod Örneği:
 
@@ -67,11 +69,11 @@ Kod Örneği:
 Document pdfDocument = new Document(dataDir + "ExtractTextAll.pdf");
 ```
 
- Burada, dosya adının doğru olduğundan emin olun`ExtractTextAll.pdf` doğrudur. Bu, metni çıkarmak için çalışacağınız dosyadır.
+Burada, dosya adının doğru olduğundan emin olun `ExtractTextAll.pdf` doğrudur. Bu, metni çıkarmak için çalışacağınız dosyadır.
 
 ## Adım 3: Bir Metin Emici Nesne Oluşturun
 
- Bir sonraki adım, bir tane oluşturmaktır`TextAbsorber` nesne. Bu, PDF'de bulunan tüm metni özümsemenize yardımcı olacak sihirli araçtır.
+Bir sonraki adım, bir tane oluşturmaktır `TextAbsorber` nesne. Bu, PDF'de bulunan tüm metni özümsemenize yardımcı olacak sihirli araçtır.
 
 Kod Örneği:
 
@@ -80,7 +82,7 @@ Kod Örneği:
 TextAbsorber textAbsorber = new TextAbsorber();
 ```
 
- Başlatma ile`TextAbsorber`, PDF sayfalarındaki tüm metin içeriğini çıkarmaya hazırlanıyorsunuz.
+Başlatma ile `TextAbsorber`, PDF sayfalarındaki tüm metin içeriğini çıkarmaya hazırlanıyorsunuz.
 
 ## Adım 4: Tüm Sayfalar için Absorber'ı Kabul Edin
 
@@ -106,7 +108,7 @@ Kod Örneği:
 string extractedText = textAbsorber.Text;
 ```
 
- Şimdi değişken`extractedText` PDF'inizden toplanan tüm metni içerir. Ne kadar harika?
+Şimdi, değişken `extractedText` PDF'inizden toplanan tüm metni içerir. Ne kadar harika?
 
 ## Adım 6: Çıkarılan Metni Bir Dosyaya Yazma
 
@@ -123,31 +125,33 @@ tw.WriteLine(extractedText);
 tw.Close();
 ```
 
- Bu kod, adında yeni bir dosya açar`extracted-text.txt`çıkarılan tüm içeriği içine yazar ve sonra dosyayı kapatır. Yani şimdi, çıkarılan metni görmek istediğinizde, sadece belgeler dizininize bakın!
+Bu kod, adında yeni bir dosya açar `extracted-text.txt`, çıkarılan tüm içeriği içine yazar ve sonra dosyayı kapatır. Yani şimdi, çıkarılan metni görmek istediğinizde, sadece belgeler dizininize bakın!
 
 ## Çözüm
 
- İşte bu kadar! Sadece birkaç kolay adımda, Aspose.PDF for .NET kullanarak herhangi bir PDF dosyasından metin çıkarabilirsiniz. Belgeleri analiz etmek için bir uygulama oluşturuyor olun veya sadece bir PDF'den birkaç not almanız gerekiyorsa, Aspose.PDF hayatınızı kolaylaştıran sağlam, kullanımı kolay bir API sağlar. Şuraya göz atmayı unutmayın:[belgeleme](https://reference.aspose.com/pdf/net/) Bu güçlü kütüphanenin sunduğu daha fazla özellik ve yetenek için.
+İşte bu kadar! Sadece birkaç kolay adımda, Aspose.PDF for .NET kullanarak herhangi bir PDF dosyasından metin çıkarabilirsiniz. Belgeleri analiz etmek için bir uygulama oluşturuyor olun veya sadece bir PDF'den birkaç not almanız gerekiyorsa, Aspose.PDF hayatınızı kolaylaştıran sağlam, kullanımı kolay bir API sağlar. Şuraya göz atmayı unutmayın: [belgeleme](https://reference.aspose.com/pdf/net/) Bu güçlü kütüphanenin sunduğu daha fazla özellik ve yetenek için.
 
 ## SSS
 
 ### Aspose.PDF for .NET'i ücretsiz kullanabilir miyim?
- Evet, Aspose ücretsiz deneme sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose ücretsiz deneme sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Ya PDF'imde resim ve grafikler varsa?
 Aspose.PDF metin çıkarmaya odaklanır. PDF'niz görseller içeriyorsa, bunları işlemek için farklı bir yaklaşıma ihtiyacınız olabilir.
 
 ### Geçici lisans var mı?
- Kesinlikle! Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Kesinlikle! Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.PDF için desteği nereden alabilirim?
- Destek ve topluluk tartışmalarını şu adreste bulabilirsiniz:[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek ve topluluk tartışmalarını şu adreste bulabilirsiniz: [Aspose forumu](https://forum.aspose.com/c/pdf/10).
 
 ### Çıkarılan metni hangi formatlarda kaydedebilirim?
- Metni çeşitli biçimlerde kaydedebilirsiniz:`.txt`, `.docx`veya doğrudan bir veritabanına aktarılabilir.
+Metni çeşitli biçimlerde kaydedebilirsiniz: `.txt`, `.docx`veya doğrudan bir veritabanına aktarılabilir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

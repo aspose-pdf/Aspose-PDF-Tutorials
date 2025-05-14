@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ पाठ निष्कर्षण
-linktitle: पीडीएफ पाठ निष्कर्षण
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.PDF के साथ PDF टेक्स्ट निष्कर्षण सीखें। PDF से कुशल टेक्स्ट निष्कर्षण के लिए चरण-दर-चरण ट्यूटोरियल प्राप्त करें।
-weight: 23
-url: /hi/java/pdf-text-extraction/
+"description": "Java के लिए Aspose.PDF के साथ PDF टेक्स्ट निष्कर्षण सीखें। PDF से कुशल टेक्स्ट निष्कर्षण के लिए चरण-दर-चरण ट्यूटोरियल प्राप्त करें।"
+"linktitle": "पीडीएफ पाठ निष्कर्षण"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "पीडीएफ पाठ निष्कर्षण"
+"url": "/hi/java/pdf-text-extraction/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ पाठ निष्कर्षण
@@ -27,9 +29,11 @@ url: /hi/java/pdf-text-extraction/
 ## पीडीएफ टेक्स्ट निष्कर्षण ट्यूटोरियल
 ### [जावा का उपयोग करके टैग की गई पीडीएफ सामग्री निकालना](./tagged-pdf-content-extraction-using-java/)
 Aspose.PDF for Java के साथ Java में टैग की गई PDF सामग्री निष्कर्षण की शक्ति को अनलॉक करें। यह चरण-दर-चरण मार्गदर्शिका संरचित PDF सामग्री तक सहज पहुँच के लिए स्रोत कोड उदाहरण प्रदान करती है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

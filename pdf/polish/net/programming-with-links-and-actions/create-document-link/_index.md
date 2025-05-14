@@ -1,14 +1,16 @@
 ---
-title: Utwórz łącze do dokumentu
-linktitle: Utwórz łącze do dokumentu
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak tworzyć łącza do dokumentów w plikach PDF za pomocą Aspose.PDF dla platformy .NET. Ulepsz nawigację i interaktywność w dokumentach PDF.
-weight: 30
-url: /pl/net/programming-with-links-and-actions/create-document-link/
+"description": "Dowiedz się, jak tworzyć łącza do dokumentów w plikach PDF za pomocą Aspose.PDF dla platformy .NET. Ulepsz nawigację i interaktywność w dokumentach PDF."
+"linktitle": "Utwórz łącze do dokumentu"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Utwórz łącze do dokumentu"
+"url": "/pl/net/programming-with-links-and-actions/create-document-link/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz łącze do dokumentu
@@ -22,7 +24,7 @@ Tworzenie linków w dokumentach PDF może znacznie poprawić komfort użytkowani
 Zanim zanurzysz się w świecie edycji plików PDF za pomocą Aspose.PDF dla platformy .NET, upewnij się, że masz przygotowane kilka podstawowych rzeczy:
 
 - Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio, aby móc tworzyć i uruchamiać aplikacje .NET.
-- Aspose.PDF dla .NET: Musisz mieć do dyspozycji bibliotekę Aspose.PDF. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Musisz mieć do dyspozycji bibliotekę Aspose.PDF. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 - Podstawowa znajomość języka C#: Podstawowa znajomość programowania w języku C# pomoże Ci bez trudu poruszać się po fragmentach kodu.
 
 ### Instalowanie Aspose.PDF dla .NET
@@ -43,7 +45,7 @@ Gdy już wszystko ustawisz, możesz zabrać się do pracy!
 
 ## Importuj pakiety
 
-Aby rozpocząć pracę z Aspose.PDF dla platformy .NET, pierwszym krokiem jest zaimportowanie wymaganych przestrzeni nazw do pliku C#:
+Aby rozpocząć pracę z plikiem Aspose.PDF dla platformy .NET, pierwszym krokiem jest zaimportowanie wymaganych przestrzeni nazw do pliku C#:
 
 ```csharp
 using System.IO;
@@ -64,7 +66,7 @@ W każdym przedsięwzięciu programistycznym organizacja jest kluczowa! Zacznij 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do katalogu, w którym przechowywane są pliki PDF. Może to być coś takiego`"C:\\Documents\\"`, w zależności od konfiguracji.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` ze ścieżką do katalogu, w którym przechowywane są Twoje pliki PDF. Może to być coś takiego `"C:\\Documents\\"`, w zależności od konfiguracji.
 
 ## Krok 2: Otwórz dokument PDF
 
@@ -74,7 +76,7 @@ Teraz czas otworzyć dokument PDF, z którym chcesz pracować. To tutaj zaczyna 
 Document document = new Document(dataDir + "CreateDocumentLink.pdf");
 ```
 
- W tym wierszu tworzymy instancję`Document` class i ładowanie naszego docelowego pliku PDF. Upewnij się, że plik „CreateDocumentLink.pdf” istnieje w określonym katalogu, w przeciwnym razie napotkasz pewną przeszkodę.
+W tym wierszu tworzymy instancję `Document` class i ładowanie naszego docelowego pliku PDF. Upewnij się, że plik „CreateDocumentLink.pdf” istnieje w określonym katalogu, w przeciwnym razie napotkasz pewną przeszkodę.
 
 ## Krok 3: Określ stronę do utworzenia linku
 
@@ -88,13 +90,13 @@ Strony są indeksowane zerowo w Aspose, co oznacza, że zaczynasz liczyć od 1 d
 
 ## Krok 4: Utwórz adnotację łącza
 
- Kliknięcie na link powinno gdzieś prowadzić! Stwórzmy`LinkAnnotation` w które użytkownicy będą klikać. To jest moment, w którym Twój link faktycznie nabiera kształtu.
+Kliknięcie na link powinno gdzieś prowadzić! Stwórzmy `LinkAnnotation` w które użytkownicy będą klikać. To jest moment, w którym Twój link faktycznie nabiera kształtu.
 
 ```csharp
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
- Tutaj prostokąt definiuje klikalny obszar dla linku. Parametry`(100, 100, 300, 300)` reprezentują współrzędne prostokąta (lewy, dolny, prawy, górny). Dostosuj te liczby w zależności od tego, jak duży ma być obszar łącza.
+Tutaj prostokąt definiuje klikalny obszar dla linku. Parametry `(100, 100, 300, 300)` reprezentują współrzędne prostokąta (lewy, dolny, prawy, górny). Dostosuj te liczby w zależności od tego, jak duży ma być obszar łącza.
 
 ## Krok 5: Dostosuj wygląd łącza
 
@@ -126,7 +128,7 @@ dataDir = dataDir + "CreateDocumentLink_out.pdf";
 document.Save(dataDir);
 ```
 
-Tutaj określamy nową nazwę pliku („_„out.pdf” oznacza, że jest to zmodyfikowana kopia) i zapisz dokument, dzięki czemu cała Twoja ciężka praca zostanie zachowana.
+Tutaj podajemy nową nazwę pliku („_out.pdf” oznacza, że jest to zmodyfikowana kopia) i zapisujemy dokument, zapewniając w ten sposób zachowanie wszystkich efektów naszej ciężkiej pracy.
 
 ## Krok 8: Potwierdzenie konsoli
 
@@ -140,7 +142,7 @@ Przebieg tej linii wyraźnie pokazuje, że wszystko poszło gładko.
 
 ## Wniosek
 
-I masz to! Używając Aspose.PDF dla .NET, możesz łatwo tworzyć funkcjonalne, atrakcyjne wizualnie linki do dokumentów w swoich plikach PDF. Postępując zgodnie z tymi prostymi krokami, możesz zwiększyć interaktywność swoich dokumentów, ułatwiając czytelnikom nawigację. Więc po co zadowalać się statycznym PDF-em, skoro klikalne doświadczenie jest oddalone o kilka linijek kodu? 
+I masz to! Używając Aspose.PDF dla .NET, możesz łatwo tworzyć funkcjonalne, wizualnie atrakcyjne linki do dokumentów w swoich plikach PDF. Postępując zgodnie z tymi prostymi krokami, możesz zwiększyć interaktywność swoich dokumentów, ułatwiając czytelnikom nawigację. Więc po co zadowalać się statycznym PDF-em, skoro klikalne doświadczenie jest oddalone o kilka linijek kodu? 
 
 ## Najczęściej zadawane pytania
 
@@ -148,19 +150,21 @@ I masz to! Używając Aspose.PDF dla .NET, możesz łatwo tworzyć funkcjonalne,
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów PDF.
 
 ### Czy mogę tworzyć linki do zewnętrznych stron internetowych?
- Tak, możesz tworzyć linki do zewnętrznych stron internetowych, zmieniając działanie linku na`GoToRemoteAction` z adresem URL.
+Tak, możesz tworzyć linki do zewnętrznych stron internetowych, zmieniając działanie linku na `GoToRemoteAction` z adresem URL.
 
 ### Czy jest dostępna bezpłatna wersja próbna?
- Oczywiście! Możesz[pobierz bezpłatną wersję próbną tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz [pobierz bezpłatną wersję próbną tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc, jeśli wystąpią problemy?
- Możesz skontaktować się z nami za pomocą[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10) po pomoc.
+Możesz skontaktować się z nami za pomocą [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10) po pomoc.
 
 ### Jak uzyskać tymczasową licencję?
- Możesz nabyć tymczasową licencję poprzez[tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+Możesz nabyć tymczasową licencję poprzez [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

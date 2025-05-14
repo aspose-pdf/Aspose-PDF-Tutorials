@@ -8,7 +8,9 @@ url: /net/programming-with-text/placing-text-around-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Placing Text Around Image In PDF File
@@ -195,6 +197,7 @@ Definitely! You can embed hyperlinks in the HTML-formatted text using the `<a>` 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

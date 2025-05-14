@@ -1,14 +1,16 @@
 ---
-title: Получить все шрифты в PDF-файле
-linktitle: Получить все шрифты в PDF-файле
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как извлечь все шрифты из файла PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. Идеально подходит для разработчиков и любителей PDF.
-weight: 160
-url: /ru/net/programming-with-document/getallfonts/
+"description": "Узнайте, как извлечь все шрифты из файла PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. Идеально подходит для разработчиков и любителей PDF."
+"linktitle": "Получить все шрифты в PDF-файле"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Получить все шрифты в PDF-файле"
+"url": "/ru/net/programming-with-document/getallfonts/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить все шрифты в PDF-файле
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-document/getallfonts/
 Прежде чем перейти к коду, вам необходимо выполнить несколько действий:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Это IDE, которую мы будем использовать для этого урока.
-2.  Aspose.PDF для .NET: Вам нужна библиотека Aspose.PDF. Вы можете загрузить ее с[веб-сайт](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF для .NET: Вам нужна библиотека Aspose.PDF. Вы можете загрузить ее с [веб-сайт](https://releases.aspose.com/pdf/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понимать фрагменты кода.
 
 ## Импортные пакеты
@@ -61,31 +63,31 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где находится ваш PDF-файл. Это может быть что-то вроде`@"C:\Documents\"`.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где находится ваш PDF-файл. Это может быть что-то вроде `@"C:\Documents\"`.
 
 ## Шаг 2: Загрузите PDF-документ
 
- Далее вам нужно загрузить PDF-документ в ваше приложение. Это делается с помощью`Document` класс предоставлен Aspose.PDF.
+Далее вам нужно загрузить PDF-документ в ваше приложение. Это делается с помощью `Document` класс предоставлен Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Здесь замените`"input.pdf"` с именем вашего PDF-файла. Эта строка кода инициализирует новый`Document` объект, представляющий ваш PDF-файл.
+Здесь замените `"input.pdf"` с именем вашего PDF-файла. Эта строка кода инициализирует новый `Document` объект, представляющий ваш PDF-файл.
 
 ## Шаг 3: Извлеките все шрифты
 
- А теперь самое интересное! Вы будете использовать`FontUtilities` класс для получения всех шрифтов, используемых в документе.
+А теперь самое интересное! Вы будете использовать `FontUtilities` класс для получения всех шрифтов, используемых в документе.
 
 ```csharp
 Aspose.Pdf.Text.Font[] fonts = doc.FontUtilities.GetAllFonts();
 ```
 
- Эта строка извлекает массив`Font` объекты, каждый из которых представляет шрифт, используемый в PDF-файле.
+Эта строка извлекает массив `Font` объекты, каждый из которых представляет шрифт, используемый в PDF-файле.
 
 ## Шаг 4: Перебор шрифтов
 
-Наконец, вам нужно отобразить названия шрифтов. Это делается с помощью простого цикла.
+Наконец, вам нужно будет отобразить названия шрифтов. Это делается с помощью простого цикла.
 
 ```csharp
 foreach (Aspose.Pdf.Text.Font font in fonts)
@@ -106,19 +108,21 @@ foreach (Aspose.Pdf.Text.Font font in fonts)
 Aspose.PDF для .NET — это библиотека, которая позволяет разработчикам создавать, изменять и конвертировать PDF-документы программным способом.
 
 ### Могу ли я использовать Aspose.PDF бесплатно?
- Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для оценки библиотеки. Вы можете загрузить ее[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для оценки библиотеки. Вы можете загрузить ее [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти дополнительную документацию?
- Вы можете найти подробную документацию по[Сайт Aspose](https://reference.aspose.com/pdf/net/).
+Вы можете найти подробную документацию по [Сайт Aspose](https://reference.aspose.com/pdf/net/).
 
 ### Можно ли извлечь другую информацию из PDF-файла?
 Конечно! Aspose.PDF позволяет извлекать текст, изображения и метаданные, среди прочего.
 
 ### Как получить поддержку по Aspose.PDF?
- Вы можете получить поддержку, посетив[Форум Aspose](https://forum.aspose.com/c/pdf/10).
+Вы можете получить поддержку, посетив [Форум Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

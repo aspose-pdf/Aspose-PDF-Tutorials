@@ -1,14 +1,16 @@
 ---
-title: เพิ่มรายการเรียงลำดับ HTML ลงในเอกสาร
-linktitle: เพิ่มรายการเรียงลำดับ HTML ลงในเอกสาร
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้การเพิ่มรายการเรียงลำดับ HTML ในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET ค้นพบคำแนะนำทีละขั้นตอนในบทช่วยสอนโดยละเอียดนี้
-weight: 30
-url: /th/net/programming-with-text/add-html-ordered-list-into-documents/
+"description": "เรียนรู้การเพิ่มรายการเรียงลำดับ HTML ในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET ค้นพบคำแนะนำทีละขั้นตอนในบทช่วยสอนโดยละเอียดนี้"
+"linktitle": "เพิ่มรายการเรียงลำดับ HTML ลงในเอกสาร"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "เพิ่มรายการเรียงลำดับ HTML ลงในเอกสาร"
+"url": "/th/net/programming-with-text/add-html-ordered-list-into-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มรายการเรียงลำดับ HTML ลงในเอกสาร
@@ -22,9 +24,9 @@ url: /th/net/programming-with-text/add-html-ordered-list-into-documents/
 ก่อนที่เราจะเริ่มต้นการเดินทางสู่การจัดการ PDF เรามาตรวจสอบกันก่อนว่าคุณได้เตรียมทุกอย่างเรียบร้อยแล้ว นี่คือรายการคร่าวๆ ของสิ่งที่คุณต้องการ:
 
 1. สภาพแวดล้อมการพัฒนา .NET: ตรวจสอบให้แน่ใจว่าคุณมี IDE เช่น Visual Studio ติดตั้งอยู่ในคอมพิวเตอร์ของคุณ ซึ่งจะเป็นพื้นที่สำหรับการเขียนโค้ดของคุณ
-2.  Aspose.PDF สำหรับไลบรารี .NET: คุณต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาไฟล์ที่จำเป็นได้[ที่นี่](https://releases.aspose.com/pdf/net/). 
+2. Aspose.PDF สำหรับไลบรารี .NET: คุณต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถค้นหาไฟล์ที่จำเป็นได้ [ที่นี่](https://releases-aspose.com/pdf/net/). 
 3. ความรู้พื้นฐานเกี่ยวกับ C#: การมีความคุ้นเคยกับการเขียนโปรแกรม C# จะเป็นประโยชน์เนื่องจากเราจะเขียนโค้ดในภาษา C#
-4.  การเข้าถึงเอกสาร: หากต้องการทำความคุ้นเคยกับฟังก์ชันต่างๆ ของ Aspose.PDF การมีเอกสารนี้ถือเป็นเรื่องดี[Aspose.PDF สำหรับเอกสาร .NET](https://reference.aspose.com/pdf/net/) สะดวกสำหรับการอ้างอิง
+4. การเข้าถึงเอกสาร: หากต้องการทำความคุ้นเคยกับฟังก์ชันต่างๆ ของ Aspose.PDF การมีเอกสารนี้ถือเป็นเรื่องดี [Aspose.PDF สำหรับเอกสาร .NET](https://reference.aspose.com/pdf/net/) สะดวกสำหรับการอ้างอิง
 
 เมื่อครอบคลุมข้อกำหนดเบื้องต้นแล้ว มาลงมือทำกันเลย!
 
@@ -44,7 +46,7 @@ url: /th/net/programming-with-text/add-html-ordered-list-into-documents/
 
 ### นำเข้าเนมสเปซที่จำเป็น
 
- ในของคุณ`Program.cs`ไฟล์เริ่มต้นด้วยการเพิ่มคำสั่งต่อไปนี้ที่ด้านบน:
+ในของคุณ `Program.cs` ไฟล์เริ่มต้นด้วยการเพิ่มคำสั่งต่อไปนี้ที่ด้านบน:
 
 ```csharp
 using System;
@@ -64,10 +66,10 @@ using System.Text;
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// เส้นทางไปยังเอกสารผลลัพธ์
+// เส้นทางไปยังเอกสารผลลัพธ์  
 string outFile = dataDir + "AddHTMLOrderedListIntoDocuments_out.pdf";
 
-// สร้างอินสแตนซ์ของวัตถุเอกสาร
+// สร้างอินสแตนซ์ของวัตถุเอกสาร  
 Document doc = new Document();
 ```
 
@@ -75,10 +77,10 @@ Document doc = new Document();
 
 ## ขั้นตอนที่ 2: สร้างส่วน HTML
 
- ต่อไปเราจะสร้าง`HtmlFragment` วัตถุที่ประกอบด้วย HTML ของเรา ที่นี่เราจะรวมรายการแบบเรียงลำดับพร้อมข้อความบางส่วน
+ต่อไปเราจะสร้าง `HtmlFragment` วัตถุที่ประกอบด้วย HTML ของเรา ที่นี่เราจะรวมรายการแบบเรียงลำดับพร้อมข้อความบางส่วน
 
 ```csharp
-// สร้างอินสแตนซ์ของวัตถุ HtmlFragment ด้วยชิ้นส่วน HTML ที่สอดคล้องกัน
+// สร้างอินสแตนซ์ของวัตถุ HtmlFragment ด้วยชิ้นส่วน HTML ที่สอดคล้องกัน  
 HtmlFragment htmlFragment = new HtmlFragment("<body style='line-height: 100px;'><ul><li>First</li><li>Second</li><li>Third</li><li>Fourth</li><li>Fifth</li></ul>Text after the list.<br/>Next line<br/>Last line</body>");
 ```
 
@@ -89,7 +91,7 @@ HtmlFragment htmlFragment = new HtmlFragment("<body style='line-height: 100px;'>
 ตอนนี้ เราต้องเพิ่มหน้าในเอกสาร PDF ของเรา PDF ทุกไฟล์ต้องมีหน้า และเราก็ไม่ต่างกัน!
 
 ```csharp
-//เพิ่มหน้าในคอลเลคชันหน้า
+// เพิ่มหน้าในคอลเลคชันหน้า  
 Page page = doc.Pages.Add();
 ```
 
@@ -100,7 +102,7 @@ Page page = doc.Pages.Add();
 นี่คือจุดที่เวทมนตร์เกิดขึ้น! ตอนนี้เราจะเพิ่มส่วน HTML ที่กำหนดไว้ก่อนหน้านี้ลงในเพจที่เราเพิ่งสร้างขึ้น
 
 ```csharp
-// เพิ่ม HtmlFragment ลงในหน้า
+// เพิ่ม HtmlFragment ลงในหน้า  
 page.Paragraphs.Add(htmlFragment);
 ```
 
@@ -111,11 +113,11 @@ page.Paragraphs.Add(htmlFragment);
 เมื่อมีเนื้อหาครบถ้วนแล้ว ขั้นตอนสุดท้ายคือการบันทึกเอกสารลงในดิสก์
 
 ```csharp
-// บันทึกไฟล์ PDF ที่ได้
+// บันทึกไฟล์ PDF ที่ได้  
 doc.Save(outFile);
 ```
 
- ที่นี่เราเรียกว่า`Save` วิธีการบนวัตถุเอกสารของเรา โดยระบุเส้นทางไฟล์เอาท์พุตที่ PDF ใหม่ของเราจะอยู่ในนั้น
+ที่นี่เราเรียกว่า `Save` วิธีการบนวัตถุเอกสารของเรา โดยระบุเส้นทางไฟล์เอาท์พุตที่ PDF ใหม่ของเราจะอยู่ในนั้น
 
 ## บทสรุป
 
@@ -130,16 +132,18 @@ Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช
 ใช่ Aspose.PDF รองรับเนื้อหา HTML หลากหลายประเภท รวมถึงข้อความ รูปภาพ และองค์ประกอบที่มีรูปแบบ
 
 ### สามารถปรับแต่งลักษณะของรายการสั่งได้หรือเปล่า
-แน่นอน! คุณสามารถใช้สไตล์และคลาส CSS เพื่อควบคุมการแสดงภาพของรายการสั่งและองค์ประกอบ HTML อื่นๆ ได้
+แน่นอน! คุณสามารถใช้สไตล์และคลาส CSS เพื่อควบคุมการแสดงรายการแบบเรียงลำดับและองค์ประกอบ HTML อื่นๆ ได้
 
 ### ฉันจำเป็นต้องมีการเชื่อมต่ออินเทอร์เน็ตเพื่อใช้ Aspose.PDF สำหรับ .NET หรือไม่?
 ไม่ เมื่อติดตั้งแล้ว ไลบรารีจะทำงานแบบออฟไลน์
 
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.PDF ได้ที่ไหน
- คุณสามารถค้นหาการสนับสนุนและโต้ตอบกับผู้ใช้รายอื่นได้บน[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10).
+คุณสามารถค้นหาการสนับสนุนและโต้ตอบกับผู้ใช้รายอื่นได้บน [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

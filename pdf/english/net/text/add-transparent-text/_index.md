@@ -6,8 +6,11 @@ description: Create PDF documents with transparent text and shapes using Aspose.
 keywords: [Aspose.PDF, .NET PDF library, transparent text, PDF transparency, C# PDF generation, PDF manipulation, rectangle shapes, opacity effects, document creation, PDF programming]
 url: /net/text/add-transparent-text/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Transparent Text Effects in PDF with Aspose.PDF for .NET
@@ -15,9 +18,11 @@ url: /net/text/add-transparent-text/
 Enhance your PDF documents with transparent text and shapes using Aspose.PDF for .NET. This powerful library allows you to create visually appealing documents by applying transparency effects to both text and graphical elements, perfect for watermarks, overlays, and creative document designs.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/add-transparent-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installation Instructions
@@ -49,7 +54,9 @@ Enhance your PDF documents with transparent text and shapes using Aspose.PDF for
 - [Download Latest Version](https://releases.aspose.com/pdf/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

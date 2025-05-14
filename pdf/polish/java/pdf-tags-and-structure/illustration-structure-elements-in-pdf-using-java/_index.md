@@ -1,14 +1,16 @@
 ---
-title: Elementy struktury ilustracji w formacie PDF przy użyciu języka Java
-linktitle: Elementy struktury ilustracji w formacie PDF przy użyciu języka Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak tworzyć ilustracje i elementy struktury w plikach PDF za pomocą języka Java z programem Aspose.PDF.
-weight: 14
-url: /pl/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/
+"description": "Dowiedz się, jak tworzyć ilustracje i elementy struktury w plikach PDF za pomocą języka Java z programem Aspose.PDF."
+"linktitle": "Elementy struktury ilustracji w formacie PDF przy użyciu języka Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Elementy struktury ilustracji w formacie PDF przy użyciu języka Java"
+"url": "/pl/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elementy struktury ilustracji w formacie PDF przy użyciu języka Java
@@ -16,11 +18,11 @@ url: /pl/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-usin
 
 # Elementy struktury ilustracji w formacie PDF przy użyciu języka Java
 
-tym przewodniku krok po kroku zagłębimy się w fascynujący świat tworzenia elementów struktury ilustracji w plikach PDF przy użyciu języka Java, a wszystko dzięki potężnej bibliotece Aspose.PDF. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z manipulacją plikami PDF, ten samouczek dostarczy Ci wiedzy i kodu źródłowego, których potrzebujesz, aby zacząć.
+W tym przewodniku krok po kroku zagłębimy się w fascynujący świat tworzenia elementów struktury ilustracji w plikach PDF przy użyciu języka Java, a wszystko dzięki potężnej bibliotece Aspose.PDF. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z manipulacją plikami PDF, ten samouczek zapewni Ci wiedzę i kod źródłowy, których potrzebujesz, aby zacząć.
 
 ## Wstęp
 
-Dokumenty PDF często wymagają czegoś więcej niż tylko zwykłego tekstu. Mogą wymagać ilustracji, diagramów i elementów strukturalnych, aby skutecznie przekazywać informacje. Aspose.PDF dla Javy ułatwia programowe dodawanie tych elementów. Zanurzmy się w tym.
+Dokumenty PDF często wymagają czegoś więcej niż tylko zwykłego tekstu. Mogą potrzebować ilustracji, diagramów i elementów strukturalnych, aby skutecznie przekazywać informacje. Aspose.PDF dla Javy ułatwia programowe dodawanie tych elementów. Zanurzmy się w tym.
 
 ## Wymagania wstępne
 
@@ -28,14 +30,14 @@ Zanim rozpoczniemy przygodę z ilustracją PDF, upewnij się, że spełnione są
 
 - Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowana Java.
 
--  Aspose.PDF dla Java: Pobierz i zainstaluj bibliotekę Aspose.PDF dla Java ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF dla Java: Pobierz i zainstaluj bibliotekę Aspose.PDF dla Java ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Konfigurowanie projektu
 
 Teraz skonfigurujmy projekt Java, aby zacząć. Utwórz nowy projekt Java w swoim ulubionym IDE i dodaj bibliotekę Aspose.PDF do ścieżki klas swojego projektu.
 
 ```java
-//Dodaj bibliotekę Aspose.PDF do swojego projektu Java
+// Dodaj bibliotekę Aspose.PDF do swojego projektu Java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.Page;
 import com.aspose.pdf.Rectangle;
@@ -82,7 +84,7 @@ Document pdfDocument = new Document();
 // Dodaj stronę do dokumentu
 Page page = pdfDocument.getPages().add();
 
-//Załaduj obraz
+// Załaduj obraz
 com.aspose.pdf.Image image = new com.aspose.pdf.Image();
 image.setFile("logo.png"); // Zastąp ścieżką do pliku obrazu
 
@@ -102,7 +104,7 @@ pdfDocument.save("Illustration.pdf");
 
 Gratulacje! Nauczyłeś się, jak tworzyć ilustracje i elementy struktury w plikach PDF za pomocą Java i Aspose.PDF. Teraz możesz wzbogacić swoje dokumenty PDF o tekst, obrazy i inne elementy.
 
- Jeśli masz jakiekolwiek pytania lub potrzebujesz dalszej pomocy, możesz zapoznać się z naszą ofertą[Aspose.PDF dla dokumentacji Java](https://reference.aspose.com/pdf/java/) w celu uzyskania bardziej szczegółowych informacji.
+Jeśli masz jakiekolwiek pytania lub potrzebujesz dalszej pomocy, możesz zapoznać się z naszą ofertą [Aspose.PDF dla dokumentacji Java](https://reference.aspose.com/pdf/java/) w celu uzyskania bardziej szczegółowych informacji.
 
 ## Często zadawane pytania
 
@@ -122,9 +124,11 @@ Gratulacje! Nauczyłeś się, jak tworzyć ilustracje i elementy struktury w pli
    Przejrzyj dokumentację Aspose.PDF dla interfejsu API Java, w której znajdziesz mnóstwo przykładów i zasobów.
    
 Teraz jesteś gotowy do tworzenia angażujących i informacyjnych dokumentów PDF z Java i Aspose.PDF. Miłego kodowania!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

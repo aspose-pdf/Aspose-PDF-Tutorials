@@ -8,7 +8,9 @@ url: /net/programming-with-text/replace-text-on-regular-expression/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replace Text on Regular Expression In PDF File
@@ -149,6 +151,7 @@ Yes, Aspose.PDF for .NET also supports image replacement and manipulation within
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

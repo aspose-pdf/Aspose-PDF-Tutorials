@@ -1,14 +1,16 @@
 ---
-title: Kotak Teks
-linktitle: Kotak Teks
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Temukan cara mudah menambahkan kotak teks ke PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Tingkatkan interaksi pengguna.
-weight: 290
-url: /id/net/programming-with-forms/text-box/
+"description": "Temukan cara mudah menambahkan kotak teks ke PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Tingkatkan interaksi pengguna."
+"linktitle": "Kotak Teks"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Kotak Teks"
+"url": "/id/net/programming-with-forms/text-box/"
+"weight": 290
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kotak Teks
@@ -24,7 +26,7 @@ Apakah Anda siap untuk menyempurnakan PDF Anda dan membuatnya benar-benar intera
 Sebelum kita mulai membuat kotak teks dalam dokumen PDF, ada beberapa hal yang perlu Anda siapkan:
 
 1. Pengetahuan Dasar C#: Memahami sintaksis dan struktur C# akan membantu Anda menavigasi kode dengan lebih mudah.
-2.  Aspose.PDF untuk .NET terinstal: Pastikan Anda telah mengunduh dan menginstal pustaka Aspose.PDF. Anda bisa mendapatkannya dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET terinstal: Pastikan Anda telah mengunduh dan menginstal pustaka Aspose.PDF. Anda bisa mendapatkannya dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
 3. Lingkungan Pengembangan: IDE seperti Visual Studio akan bekerja paling baik untuk menjalankan dan menguji kode Anda.
 4. .NET Framework: Tutorial ini dirancang untuk aplikasi .NET, jadi menginstal versi yang kompatibel sangatlah penting.
 
@@ -56,7 +58,7 @@ Langkah ini mengintegrasikan pustaka Aspose.PDF ke dalam proyek Anda, sehingga m
 
 ### Impor Namespace Aspose.PDF
 
- Di bagian atas file program utama Anda (biasanya`Program.cs`), sertakan baris berikut untuk mengakses fungsionalitas Aspose.PDF:
+Di bagian atas file program utama Anda (biasanya `Program.cs`), sertakan baris berikut untuk mengakses fungsionalitas Aspose.PDF:
 
 ```csharp
 using System.IO;
@@ -74,7 +76,7 @@ Mari kita uraikan proses penambahan kotak teks langkah demi langkah!
 
 ## Langkah 1: Tentukan Direktori Dokumen Anda
 
- Pertama-tama, kita perlu menentukan di mana dokumen PDF kita berada. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur berkas Anda yang sebenarnya.
+Pertama-tama, kita perlu menentukan di mana dokumen PDF kita berada. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur berkas Anda yang sebenarnya.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -90,7 +92,7 @@ Selanjutnya, Anda perlu membuka dokumen PDF tempat Anda berencana menambahkan ko
 Document pdfDocument = new Document(dataDir + "TextField.pdf");
 ```
 
- Baris ini memuat file PDF ke dalam sebuah instance`Document` kelas. Pastikan bahwa`"TextField.pdf"` ada di direktori yang Anda tentukan.
+Baris ini memuat file PDF ke dalam sebuah instance `Document` kelas. Pastikan bahwa `"TextField.pdf"` ada di direktori yang Anda tentukan.
 
 ## Langkah 3: Buat Bidang Kotak Teks
 
@@ -101,8 +103,8 @@ TextBoxField textBoxField = new TextBoxField(pdfDocument.Pages[1], new Aspose.Pd
 ```
 
 Baris ini melakukan beberapa hal:
--  Ini menginisialisasi yang baru`TextBoxField` objek yang akan ditambahkan ke halaman kedua PDF Anda (perhatikan bahwa halaman diindeks mulai dari 1).
--  Itu`Rectangle` parameter menentukan posisi dan ukuran kotak teks Anda, ditentukan sebagai koordinat (x1, y1, x2, y2).
+- Ini menginisialisasi yang baru `TextBoxField` objek yang akan ditambahkan ke halaman kedua PDF Anda (perhatikan bahwa halaman diindeks mulai dari 1).
+- Itu `Rectangle` parameter menentukan posisi dan ukuran kotak teks Anda, ditentukan sebagai koordinat (x1, y1, x2, y2).
 
 ## Langkah 4: Mengatur Properti untuk Bidang Kotak Teks 
 
@@ -115,7 +117,7 @@ textBoxField.Value = "Text Box";
 
 Dalam contoh ini:
 - `PartialName` menetapkan pengenal unik untuk kotak teks.
-- `Value`mendefinisikan teks default yang muncul dalam kotak.
+- `Value` mendefinisikan teks default yang muncul dalam kotak.
 
 ## Langkah 5: Sesuaikan Perbatasan
 
@@ -166,19 +168,21 @@ Selamat! Anda kini berhasil menambahkan kotak teks ke dokumen PDF menggunakan As
 Aspose.PDF untuk .NET adalah pustaka lengkap untuk membuat, memanipulasi, dan mengonversi dokumen PDF menggunakan aplikasi .NET.
 
 ### Dapatkah saya mencoba Aspose.PDF secara gratis?
- Ya, Aspose menawarkan uji coba gratis yang dapat Anda akses[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan uji coba gratis yang dapat Anda akses [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Anda dapat menemukan dukungan dan diskusi komunitas di[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Anda dapat menemukan dukungan dan diskusi komunitas di [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Jenis bidang formulir apa yang dapat saya tambahkan menggunakan Aspose.PDF?
-Anda dapat menambahkan kotak teks, kotak centang, tombol radio, dropdown, dan banyak lagi.
+Anda dapat menambahkan kotak teks, kotak centang, tombol radio, menu dropdown, dan banyak lagi.
 
 ### Bagaimana cara memperoleh lisensi sementara untuk Aspose.PDF?
- Anda dapat meminta lisensi sementara dari[tautan ini](https://purchase.aspose.com/temporary-license/).
+Anda dapat meminta lisensi sementara dari [tautan ini](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

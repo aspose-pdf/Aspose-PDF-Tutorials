@@ -1,14 +1,16 @@
 ---
-title: Metin Kutusu
-linktitle: Metin Kutusu
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'lere metin kutularını zahmetsizce nasıl ekleyeceğinizi keşfedin. Kullanıcı etkileşimini geliştirin.
-weight: 290
-url: /tr/net/programming-with-forms/text-box/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'lere metin kutularını zahmetsizce nasıl ekleyeceğinizi keşfedin. Kullanıcı etkileşimini geliştirin."
+"linktitle": "Metin Kutusu"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Metin Kutusu"
+"url": "/tr/net/programming-with-forms/text-box/"
+"weight": 290
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metin Kutusu
@@ -24,7 +26,7 @@ PDF'lerinizi geliştirmeye ve onları gerçekten etkileşimli hale getirmeye haz
 PDF belgesinde metin kutusunun oluşturulmasına geçmeden önce, yerinde olması gereken birkaç şey var:
 
 1. Temel C# Bilgisi: C#'ın sözdizimini ve yapısını anlamak, kodda daha kolay gezinmenize yardımcı olacaktır.
-2.  .NET için Aspose.PDF yüklü: Aspose.PDF kitaplığını indirip yüklediğinizden emin olun. Bunu şuradan alabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF yüklü: Aspose.PDF kitaplığını indirip yüklediğinizden emin olun. Bunu şuradan alabilirsiniz: [indirme bağlantısı](https://releases.aspose.com/pdf/net/).
 3. Geliştirme Ortamı: Visual Studio gibi bir IDE, kodunuzu çalıştırmak ve test etmek için en iyi çözümü sunar.
 4. .NET Framework: Bu eğitim .NET uygulamaları için tasarlanmıştır, dolayısıyla uyumlu bir sürümün yüklü olması çok önemlidir.
 
@@ -56,7 +58,7 @@ Bu adım, Aspose.PDF kütüphanesini projenize entegre ederek PDF işlevleriyle 
 
 ### Aspose.PDF Ad Alanını İçe Aktar
 
- Ana program dosyanızın en üstünde (genellikle`Program.cs`), Aspose.PDF işlevine erişmek için aşağıdaki satırı ekleyin:
+Ana program dosyanızın en üstünde (genellikle `Program.cs`), Aspose.PDF işlevine erişmek için aşağıdaki satırı ekleyin:
 
 ```csharp
 using System.IO;
@@ -74,7 +76,7 @@ Metin kutusu ekleme sürecini adım adım inceleyelim!
 
 ## Adım 1: Belge Dizininizi Tanımlayın
 
- Öncelikle PDF belgemizin nerede bulunduğunu belirtmemiz gerekiyor. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` dosyalarınızın gerçek yolu ile.
+Öncelikle PDF belgemizin nerede bulunduğunu belirtmemiz gerekiyor. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` dosyalarınızın gerçek yolu ile.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -84,13 +86,13 @@ Bu satır çalışma dizinimizi oluşturur ve programa üzerinde işlem yapmak i
 
 ## Adım 2: PDF Belgesini açın 
 
-Sonra, metin kutusunu eklemeyi planladığınız PDF belgesini açmak isteyeceksiniz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Ardından, metin kutusunu eklemeyi planladığınız PDF belgesini açmak isteyeceksiniz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "TextField.pdf");
 ```
 
- Bu satır PDF dosyasını bir örneğine yükler`Document` sınıf. Emin olun ki`"TextField.pdf"` belirtilen dizininizde mevcuttur.
+Bu satır PDF dosyasını bir örneğine yükler `Document` sınıf. Emin olun ki `"TextField.pdf"` belirtilen dizinde mevcuttur.
 
 ## Adım 3: Metin Kutusu Alanını Oluşturun
 
@@ -101,8 +103,8 @@ TextBoxField textBoxField = new TextBoxField(pdfDocument.Pages[1], new Aspose.Pd
 ```
 
 Bu satır birkaç şey yapar:
--  Yeni bir tane başlatır`TextBoxField` PDF'nizin ikinci sayfasına eklenecek nesne (sayfaların 1'den başlayarak indekslendiğini unutmayın).
--  The`Rectangle` parametresi, metin kutunuzun konumunu ve boyutunu (x1, y1, x2, y2) koordinatları olarak tanımlar.
+- Yeni bir tane başlatır `TextBoxField` PDF'nizin ikinci sayfasına eklenecek nesne (sayfaların 1'den başlayarak indekslendiğini unutmayın).
+- The `Rectangle` parametresi, metin kutunuzun konumunu ve boyutunu (x1, y1, x2, y2) koordinatları olarak tanımlar.
 
 ## Adım 4: Metin Kutusu Alanı için Özellikleri Ayarlayın 
 
@@ -115,7 +117,7 @@ textBoxField.Value = "Text Box";
 
 Bu örnekte:
 - `PartialName` metin kutusu için benzersiz bir tanımlayıcı ayarlar.
-- `Value`kutunun içinde görünen varsayılan metni tanımlar.
+- `Value` kutunun içinde görünen varsayılan metni tanımlar.
 
 ## Adım 5: Kenarlığı Özelleştirin
 
@@ -130,7 +132,7 @@ textBoxField.Color = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green);
 ```
 
 Bu kesit:
-- Bir sınır oluşturur ve genişliğini ayarlar.
+- Bir kenarlık oluşturur ve genişliğini ayarlar.
 - Kenarlık için kesik çizgili bir stil oluşturur.
 - Metin kutusuna yeşil renk atar.
 
@@ -142,7 +144,7 @@ Artık metin kutusu alanımızı ayarladığımıza göre, onu PDF belgemize ekl
 pdfDocument.Form.Add(textBoxField, 1);
 ```
 
-Bu satır, PDF'e yeni oluşturduğumuz metin kutusunu ilk sayfaya eklemesini söyler.
+Bu satır PDF'e yeni oluşturduğumuz metin kutusunu ilk sayfaya eklemesini söyler.
 
 ## Adım 7: Değiştirilmiş PDF'yi Kaydedin
 
@@ -166,19 +168,21 @@ Tebrikler! Artık Aspose.PDF for .NET kullanarak bir PDF belgesine başarıyla b
 Aspose.PDF for .NET, .NET uygulamalarını kullanarak PDF belgeleri oluşturmak, düzenlemek ve dönüştürmek için kapsamlı bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz deneyebilir miyim?
- Evet, Aspose erişebileceğiniz ücretsiz bir deneme sunuyor[Burada](https://releases.aspose.com/).
+Evet, Aspose erişebileceğiniz ücretsiz bir deneme sunuyor [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Destek ve topluluk tartışmalarını şu adreste bulabilirsiniz:[Aspose Forum](https://forum.aspose.com/c/pdf/10).
+Destek ve topluluk tartışmalarını şu adreste bulabilirsiniz: [Aspose Forum](https://forum.aspose.com/c/pdf/10).
 
 ### Aspose.PDF kullanarak hangi tür form alanlarını ekleyebilirim?
 Metin kutuları, onay kutuları, radyo düğmeleri, açılır listeler ve daha fazlasını ekleyebilirsiniz.
 
 ### Aspose.PDF için geçici lisansı nasıl alabilirim?
- Geçici lisans talebinde bulunabilirsiniz[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Geçici lisans talebinde bulunabilirsiniz [bu bağlantı](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

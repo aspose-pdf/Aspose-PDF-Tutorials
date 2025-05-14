@@ -8,7 +8,9 @@ url: /net/programming-with-graphs/add-line-object/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Line Object In PDF File
@@ -176,6 +178,7 @@ If you face any issues, you can seek help from the Aspose support forum [here](h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

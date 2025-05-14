@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Configure and Print PDFs Using Aspose.PDF for Java: A Complete Guide
 ## Introduction
@@ -141,7 +143,11 @@ Check out [Aspose's GitHub repository](https://github.com/aspose-pdf/Java) for a
 - **Free Trial**: Try out features with a [free trial](https://releases.aspose.com/pdf/java/).
 - **Temporary License**: Obtain a temporary license for full access at [this link](https://purchase.aspose.com/temporary-license/).
 - **Support**: Join discussions or ask questions on the [Aspose Forum](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

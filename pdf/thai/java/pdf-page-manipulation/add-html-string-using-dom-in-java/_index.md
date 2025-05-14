@@ -1,14 +1,16 @@
 ---
-title: เพิ่มสตริง HTML โดยใช้ DOM ใน Java
-linktitle: เพิ่มสตริง HTML โดยใช้ DOM ใน Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการเพิ่มสตริง HTML ลงในเอกสาร PDF โดยใช้ไลบรารี Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนนี้จะแสดงขั้นตอนพร้อมตัวอย่างโค้ดต้นฉบับ
-weight: 12
-url: /th/java/pdf-page-manipulation/add-html-string-using-dom-in-java/
+"description": "เรียนรู้วิธีการเพิ่มสตริง HTML ลงในเอกสาร PDF โดยใช้ไลบรารี Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนนี้จะแสดงกระบวนการพร้อมตัวอย่างโค้ดต้นฉบับ"
+"linktitle": "เพิ่มสตริง HTML โดยใช้ DOM ใน Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "เพิ่มสตริง HTML โดยใช้ DOM ใน Java"
+"url": "/th/java/pdf-page-manipulation/add-html-string-using-dom-in-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มสตริง HTML โดยใช้ DOM ใน Java
@@ -20,7 +22,7 @@ url: /th/java/pdf-page-manipulation/add-html-string-using-dom-in-java/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 - การตั้งค่าสภาพแวดล้อมการพัฒนา Java
--  ติดตั้ง Aspose.PDF สำหรับไลบรารี Java แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- ติดตั้ง Aspose.PDF สำหรับไลบรารี Java แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## ขั้นตอนที่ 1: สร้างเอกสาร PDF ใหม่
 ในการเริ่มต้น คุณต้องสร้างเอกสาร PDF ใหม่โดยใช้ Aspose.PDF นี่คือวิธีที่คุณสามารถทำได้ใน Java:
@@ -46,13 +48,13 @@ String htmlContent = "<h1>Hello, Aspose.PDF!</h1><p>This is an example of adding
 ```
 
 ## ขั้นตอนที่ 4: เพิ่มสตริง HTML ลงในหน้า
- หากต้องการเพิ่มสตริง HTML ลงในหน้า คุณสามารถใช้`HtmlFragment` ระดับ:
+หากต้องการเพิ่มสตริง HTML ลงในหน้า คุณสามารถใช้ `HtmlFragment` ระดับ:
 
 ```java
 // สร้าง HtmlFragment ด้วยเนื้อหา HTML
 HtmlFragment htmlFragment = new HtmlFragment(htmlContent);
 
-//เพิ่ม HtmlFragment ลงในเพจ
+// เพิ่ม HtmlFragment ลงในเพจ
 page.getParagraphs().add(htmlFragment);
 ```
 
@@ -69,7 +71,7 @@ pdfDocument.save("output.pdf");
 # บทสรุป
 ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีการเพิ่มสตริง HTML ลงในเอกสาร PDF โดยใช้ไลบรารี Aspose.PDF สำหรับ Java ซึ่งถือเป็นวิธีที่มีประสิทธิภาพในการรวมเนื้อหาแบบไดนามิกและจัดรูปแบบในไฟล์ PDF ของคุณ คุณสามารถปรับแต่งลักษณะและเค้าโครงของเนื้อหา HTML เพิ่มเติมเพื่อให้ตรงตามความต้องการเฉพาะของคุณได้
 
- หากคุณมีคำถามหรือต้องการความช่วยเหลือเพิ่มเติม โปรดดูที่[เอกสารประกอบ API ของ Aspose.PDF สำหรับ Java](https://reference.aspose.com/pdf/java/) สำหรับรายละเอียดเพิ่มเติม
+หากคุณมีคำถามหรือต้องการความช่วยเหลือเพิ่มเติม โปรดดูที่ [เอกสารประกอบ API ของ Aspose.PDF สำหรับ Java](https://reference.aspose.com/pdf/java/) สำหรับรายละเอียดเพิ่มเติม
 
 ## คำถามที่พบบ่อย
 
@@ -80,16 +82,18 @@ pdfDocument.save("output.pdf");
    Aspose.PDF สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ และคุณอาจต้องมีใบอนุญาตที่ถูกต้องจึงจะใช้ในโครงการของคุณได้
 
 ### ฉันจะเพิ่มไฮเปอร์ลิงก์ภายในเนื้อหา HTML ใน PDF ได้อย่างไร
-   คุณสามารถเพิ่มไฮเปอร์ลิงก์โดยใช้ HTML`<a>` แท็กในเนื้อหา HTML และจะถูกเก็บรักษาไว้ใน PDF
+   คุณสามารถเพิ่มไฮเปอร์ลิงก์โดยใช้ HTML `<a>` แท็กในเนื้อหา HTML และจะถูกเก็บรักษาไว้ใน PDF
 
 ### มีข้อจำกัดใด ๆ เกี่ยวกับเนื้อหา HTML ที่สามารถเพิ่มลงใน PDF หรือไม่
    แม้ว่า Aspose.PDF สำหรับ Java จะรองรับ HTML ได้ดี แต่ HTML ที่ซับซ้อนหรือมีการโต้ตอบสูงอาจต้องมีการปรับแต่งเพิ่มเติมเพื่อให้แสดงผลได้เหมาะสมที่สุด
 
 ### ฉันสามารถเพิ่มรูปภาพพร้อมกับเนื้อหา HTML ลงใน PDF ได้หรือไม่
    ใช่ คุณสามารถใส่รูปภาพไว้ในเนื้อหา HTML ได้ และ Aspose.PDF จะแสดงผลรูปภาพเหล่านั้นในเอกสาร PDF
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

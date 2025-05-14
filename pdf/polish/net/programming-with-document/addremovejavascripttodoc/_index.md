@@ -1,14 +1,16 @@
 ---
-title: Dodaj Usuń Javascript Do Dokumentu PDF
-linktitle: Dodaj Usuń Javascript Do Dokumentu
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać i usuwać JavaScript do dokumentu PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z samouczkami kodu dla skryptów na poziomie dokumentu.
-weight: 30
-url: /pl/net/programming-with-document/addremovejavascripttodoc/
+"description": "Dowiedz się, jak dodawać i usuwać JavaScript do dokumentu PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z samouczkami kodu dla skryptów na poziomie dokumentu."
+"linktitle": "Dodaj Usuń Javascript Do Dokumentu"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj Usuń Javascript Do Dokumentu PDF"
+"url": "/pl/net/programming-with-document/addremovejavascripttodoc/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj Usuń Javascript Do Dokumentu PDF
@@ -21,10 +23,10 @@ W tym przewodniku pokażemy, jak używać Aspose.PDF dla .NET, aby wstawiać Jav
 
 Zanim zagłębimy się w kod, jest kilka rzeczy, które musisz skonfigurować:
 
-1.  Aspose.PDF dla .NET: Będziesz potrzebować biblioteki Aspose.PDF dla .NET zainstalowanej w swoim projekcie. Jeśli jeszcze jej nie masz, pobierz bibliotekę z[Strona pobierania Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Będziesz potrzebować biblioteki Aspose.PDF dla .NET zainstalowanej w swoim projekcie. Jeśli jeszcze jej nie masz, pobierz bibliotekę z [Strona pobierania Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/).
 2. IDE lub edytor tekstu: Możesz użyć dowolnego środowiska IDE zgodnego z platformą .NET, np. Visual Studio.
 3. Podstawowa wiedza o języku C#: W tym samouczku założono, że znasz język C# i potrafisz manipulować plikami PDF.
-4. Licencja: Upewnij się, że stosujesz ważną licencję, aby uniknąć ograniczeń. Możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+4. Licencja: Upewnij się, że stosujesz ważną licencję, aby uniknąć ograniczeń. Możesz uzyskać tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
@@ -39,7 +41,7 @@ using Aspose.Pdf.Text;
 using System.Collections;
 ```
 
- Te dwie przestrzenie nazw są niezbędne.`Aspose.Pdf` umożliwia pracę z dokumentami PDF, podczas gdy`System.Collections` będzie używany do obsługi kluczy JavaScript.
+Te dwie przestrzenie nazw są niezbędne. `Aspose.Pdf` umożliwia pracę z dokumentami PDF, podczas gdy `System.Collections` będzie używany do obsługi kluczy JavaScript.
 
 Przedstawimy cały proces dodawania i usuwania kodu JavaScript z pliku PDF w kilku łatwych do wykonania krokach.
 
@@ -52,7 +54,7 @@ Document doc = new Document();
 doc.Pages.Add();
 ```
 
- Tutaj inicjujemy nowy`Document` obiekt i dodanie do niego pustej strony. Pomyśl o tym jako o fundamencie swojego PDF-a.
+Tutaj inicjujemy nowy `Document` obiekt i dodanie do niego pustej strony. Pomyśl o tym jako o fundamencie swojego PDF-a.
 
 ## Krok 2: Dodaj JavaScript do pliku PDF
 
@@ -63,7 +65,7 @@ doc.JavaScript["func1"] = "function func1() { hello(); }";
 doc.JavaScript["func2"] = "function func2() { hello(); }";
 ```
 
-tym fragmencie kodu dodajemy dwie funkcje JavaScript (`func1` I`func2` ) do pliku PDF. Funkcje te mogą wykonywać różne zadania, w zależności od potrzeb. Tutaj po prostu wywołujemy funkcję zastępczą o nazwie`hello()`.
+W tym fragmencie kodu dodajemy dwie funkcje JavaScript (`func1` I `func2`) do pliku PDF. Funkcje te mogą wykonywać różne zadania, w zależności od potrzeb. Tutaj po prostu wywołujemy funkcję zastępczą o nazwie `hello()`.
 
 ## Krok 3: Zapisz plik PDF za pomocą JavaScript
 
@@ -73,7 +75,7 @@ Po dodaniu żądanego kodu JavaScript czas zapisać plik PDF.
 doc.Save(dataDir + "AddJavascript.pdf");
 ```
 
- Spowoduje to zapisanie dokumentu z JavaScript pod nazwą`AddJavascript.pdf` w określonym katalogu (`dataDir`).
+Spowoduje to zapisanie dokumentu z JavaScript pod nazwą `AddJavascript.pdf` w określonym katalogu (`dataDir`).
 
 ## Krok 4: Załaduj i wyświetl JavaScript w istniejącym pliku PDF
 
@@ -84,7 +86,7 @@ Document doc1 = new Document(dataDir + "AddJavascript.pdf");
 IList keys = (System.Collections.IList)doc1.JavaScript.Keys;
 ```
 
- Ładujemy istniejące`AddJavascript.pdf` i przechowywanie kluczy JavaScript na liście.`Keys` Właściwość zwraca nazwy wszystkich funkcji JavaScript dołączonych do dokumentu.
+Ładujemy istniejące `AddJavascript.pdf` i przechowywanie kluczy JavaScript na liście. `Keys` Właściwość zwraca nazwy wszystkich funkcji JavaScript dołączonych do dokumentu.
 
 ## Krok 5: Wyświetl funkcje JavaScript
 
@@ -102,18 +104,18 @@ Spowoduje to wydrukowanie każdej nazwy funkcji JavaScript i odpowiadającego je
 
 ## Krok 6: Usuń JavaScript z pliku PDF
 
- Załóżmy teraz, że chcesz usunąć określoną funkcję JavaScript, taką jak`func1`Oto jak możesz to zrobić:
+Załóżmy teraz, że chcesz usunąć określoną funkcję JavaScript, taką jak `func1`Oto jak możesz to zrobić:
 
 ```csharp
 doc1.JavaScript.Remove("func1");
 Console.WriteLine("Key 'func1' removed ");
 ```
 
- Ten`Remove` Metoda przyjmuje nazwę funkcji JavaScript jako argument i usuwa ją z dokumentu.
+Ten `Remove` Metoda przyjmuje nazwę funkcji JavaScript jako argument i usuwa ją z dokumentu.
 
 ## Krok 7: Zweryfikuj usunięcie JavaScript
 
- Po usunięciu JavaScript możesz wydrukować ponownie pozostałe funkcje, aby to potwierdzić`func1` został pomyślnie usunięty.
+Po usunięciu JavaScript możesz wydrukować ponownie pozostałe funkcje, aby to potwierdzić `func1` został pomyślnie usunięty.
 
 ```csharp
 Console.WriteLine("=============================== ");
@@ -133,10 +135,10 @@ Gratulacje! Właśnie nauczyłeś się, jak dodawać i usuwać JavaScript z doku
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dodać wiele funkcji JavaScript do jednego pliku PDF?
- Oczywiście! Możesz dodać tyle funkcji JavaScript, ile potrzebujesz, używając`doc.JavaScript` kolekcja.
+Oczywiście! Możesz dodać tyle funkcji JavaScript, ile potrzebujesz, używając `doc.JavaScript` kolekcja.
 
 ### Co się stanie, jeśli spróbuję usunąć nieistniejącą funkcję JavaScript?
- Jeżeli funkcja nie istnieje,`Remove` Metoda nie zgłosi błędu, ale też niczego nie usunie.
+Jeżeli funkcja nie istnieje, `Remove` Metoda nie zgłosi błędu, ale też niczego nie usunie.
 
 ### Czy można uruchomić JavaScript od razu po otwarciu pliku PDF?
 Tak! Możesz skonfigurować JavaScript, aby działał na określonych wyzwalaczach, takich jak otwieranie dokumentu lub klikanie przycisku.
@@ -146,9 +148,11 @@ Tak, możesz załadować istniejący plik PDF, uzyskać dostęp do jego kodu Jav
 
 ### Czy usunięcie JavaScriptu ma wpływ na pozostałą zawartość pliku PDF?
 Nie, usunięcie JavaScript wpływa tylko na skrypt. Zawartość pliku PDF pozostaje niezmieniona.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Các thành phần cấu trúc nội tuyến
-linktitle: Các thành phần cấu trúc nội tuyến
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Hướng dẫn từng bước sử dụng các thành phần cấu trúc trực tuyến với Aspose.PDF cho .NET. Sắp xếp các tệp PDF của bạn bằng tiêu đề và đoạn văn.
-weight: 110
-url: /vi/net/programming-with-tagged-pdf/inline-structure-elements/
+"description": "Hướng dẫn từng bước sử dụng các thành phần cấu trúc trực tuyến với Aspose.PDF cho .NET. Sắp xếp các tệp PDF của bạn bằng tiêu đề và đoạn văn."
+"linktitle": "Các thành phần cấu trúc nội tuyến"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Các thành phần cấu trúc nội tuyến"
+"url": "/vi/net/programming-with-tagged-pdf/inline-structure-elements/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các thành phần cấu trúc nội tuyến
@@ -23,8 +25,8 @@ Trước khi bắt đầu, hãy đảm bảo rằng bạn có mọi thứ cần 
 
 1. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# và kiến thức cơ bản về .NET framework là điều cần thiết.
 2. Đã cài đặt Visual Studio: Bạn sẽ cần một IDE như Visual Studio để viết và chạy mã của mình.
-3.  Aspose.PDF cho .NET: Hãy đảm bảo bạn tải xuống và cài đặt Aspose.PDF cho .NET. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/pdf/net/).
-4. Giấy phép tạm thời: Đây là tùy chọn, nhưng nếu bạn muốn đánh giá tất cả các tính năng mà không có giới hạn, hãy cân nhắc việc xin giấy phép[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+3. Aspose.PDF cho .NET: Hãy đảm bảo bạn tải xuống và cài đặt Aspose.PDF cho .NET. Bạn có thể lấy nó từ [liên kết tải xuống](https://releases.aspose.com/pdf/net/).
+4. Giấy phép tạm thời: Đây là tùy chọn, nhưng nếu bạn muốn đánh giá tất cả các tính năng mà không có giới hạn, hãy cân nhắc việc xin giấy phép [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 Khi đã đáp ứng được những điều kiện tiên quyết này, bạn đã sẵn sàng để tạo tài liệu PDF được gắn thẻ đầu tiên của mình!
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay thế bằng đường dẫn
 
 ### Bước 2: Tạo một phiên bản tài liệu PDF
 
- Tiếp theo, tạo một phiên bản của`Document` lớp sẽ đóng vai trò là nơi chứa nội dung PDF của bạn.
+Tiếp theo, tạo một phiên bản của `Document` lớp sẽ đóng vai trò là nơi chứa nội dung PDF của bạn.
 
 ```csharp
 Document document = new Document();
@@ -167,7 +169,7 @@ Và thế là xong! Bây giờ bạn đã có một tài liệu PDF được g�
 
 ## Phần kết luận
 
-Việc tạo các tài liệu PDF được gắn thẻ có vẻ khó khăn, nhưng với Aspose.PDF cho .NET, mọi việc trở nên dễ dàng! Bằng cách làm theo hướng dẫn từng bước này, bạn đã nắm vững những điều cơ bản về cấu trúc tài liệu. Hãy nhớ rằng, gắn thẻ PDF đúng cách sẽ tăng cường khả năng truy cập của tài liệu, đảm bảo rằng nội dung có giá trị của bạn tiếp cận được nhiều đối tượng hơn. Vì vậy, hãy tiếp tục và làm cho PDF của bạn không chỉ đẹp mà còn thân thiện với người dùng!
+Việc tạo các tài liệu PDF được gắn thẻ có vẻ khó khăn, nhưng với Aspose.PDF cho .NET, mọi việc trở nên dễ dàng! Bằng cách làm theo hướng dẫn từng bước này, bạn đã nắm vững những điều cơ bản về cấu trúc tài liệu. Hãy nhớ rằng, gắn thẻ PDF đúng cách sẽ tăng cường khả năng truy cập của tài liệu, đảm bảo rằng nội dung có giá trị của bạn tiếp cận được nhiều đối tượng hơn. Vì vậy, hãy tiếp tục và làm cho các tệp PDF của bạn không chỉ đẹp mà còn thân thiện với người dùng!
 
 ## Câu hỏi thường gặp
 
@@ -178,16 +180,18 @@ PDF có gắn thẻ là PDF bao gồm thông tin về cấu trúc của tài li�
 Việc gắn thẻ giúp tăng cường khả năng truy cập, cho phép trình đọc màn hình diễn giải tài liệu một cách rõ ràng, do đó mang lại trải nghiệm tốt hơn cho người dùng khuyết tật.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, bạn có thể đánh giá Aspose.PDF cho .NET thông qua[dùng thử miễn phí](https://releases.aspose.com/).
+Có, bạn có thể đánh giá Aspose.PDF cho .NET thông qua [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Có thể truy cập hỗ trợ thông qua[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
+Có thể truy cập hỗ trợ thông qua [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Làm thế nào tôi có thể mua giấy phép Aspose.PDF cho .NET?
- Bạn có thể mua giấy phép trực tiếp từ[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép trực tiếp từ [trang mua hàng](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

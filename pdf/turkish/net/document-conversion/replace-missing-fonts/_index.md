@@ -1,14 +1,16 @@
 ---
-title: Eksik Yazı Tiplerini Değiştir
-linktitle: Eksik Yazı Tiplerini Değiştir
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerindeki eksik yazı tiplerini nasıl değiştireceğinizi öğrenin.
-weight: 260
-url: /tr/net/document-conversion/replace-missing-fonts/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerindeki eksik yazı tiplerini nasıl değiştireceğinizi öğrenin."
+"linktitle": "Eksik Yazı Tiplerini Değiştir"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Eksik Yazı Tiplerini Değiştir"
+"url": "/tr/net/document-conversion/replace-missing-fonts/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksik Yazı Tiplerini Değiştir
@@ -21,7 +23,7 @@ Hiç bir PDF belgesini açıp bazı yazı tiplerinin eksik olduğunu gördünüz
 
 Başlamadan önce, yerinde olması gereken birkaç şey var:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Kodunuzu yazıp test edebileceğiniz bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
@@ -57,7 +59,7 @@ try
 }
 catch (Exception)
 {
-    //Hedef bilgisayarda yazı tipi eksik
+    // Hedef bilgisayarda yazı tipi eksik
     FontRepository.Substitutions.Add(new SimpleFontSubstitution("AgencyFB", "Arial"));
 }
 ```
@@ -73,7 +75,7 @@ var fileNew = new FileInfo(dataDir + "newfile_out.pdf");
 var pdf = new Document(dataDir + "input.pdf");
 ```
 
- Bu adımda yeni bir tane oluşturuyoruz`FileInfo` çıktı dosyası için nesne ve giriş PDF belgesini yeni bir dosyaya yükleyin`Document` nesne.
+Bu adımda yeni bir tane oluşturuyoruz `FileInfo` çıktı dosyası için nesne ve giriş PDF belgesini yeni bir nesneye yükleyin `Document` nesne.
 
 ## Adım 4: PDF Belgesini Dönüştürün
 
@@ -105,7 +107,7 @@ PDF belgelerindeki eksik fontları değiştirmek göz korkutucu bir görev olmak
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### İhtiyacım olan yazı tipi mevcut değilse ne yapmalıyım?
 Eksik fontu Aspose.PDF'deki font değiştirme özelliğini kullanarak daha yaygın bir fontla değiştirebilirsiniz.
@@ -114,10 +116,12 @@ Eksik fontu Aspose.PDF'deki font değiştirme özelliğini kullanarak daha yayg�
 Kesinlikle! Aspose.PDF, PDF/A, DOCX ve daha fazlası dahil olmak üzere çeşitli formatlara dönüştürmeyi destekler.
 
 ### Aspose.PDF için desteği nerede bulabilirim?
- Aspose forumunda destek bulabilir ve soru sorabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose forumunda destek bulabilir ve soru sorabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,17 +1,19 @@
 ---
-title: Mengatur Java Script
-linktitle: Mengatur Java Script
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Manfaatkan kekuatan Aspose.PDF untuk .NET. Pelajari cara mengatur JavaScript pada kolom formulir dengan panduan langkah demi langkah kami.
-weight: 270
-url: /id/net/programming-with-forms/set-java-script/
+"description": "Manfaatkan kekuatan Aspose.PDF untuk .NET. Pelajari cara mengatur JavaScript pada kolom formulir dengan panduan langkah demi langkah kami."
+"linktitle": "Atur Java Script"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Atur Java Script"
+"url": "/id/net/programming-with-forms/set-java-script/"
+"weight": 270
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Java Script
+# Atur Java Script
 
 ## Perkenalan
 
@@ -23,13 +25,13 @@ Sebelum kita mulai membuat kode, pastikan Anda memiliki semua yang dibutuhkan ag
 
 - Visual Studio (atau IDE .NET apa pun): Pastikan Anda telah menginstal dan mengaturnya dengan benar.
   
--  Pustaka Aspose.PDF: Anda memerlukan versi terbaru dari pustaka ini. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/pdf/net/).
+- Pustaka Aspose.PDF: Anda memerlukan versi terbaru dari pustaka ini. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/pdf/net/).
 
 - Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda lebih memahami cuplikan kode.
 
--  File PDF: Anda harus memiliki file PDF yang siap untuk pengujian. Dalam contoh kita, kita akan menggunakan file bernama`SetJavaScript.pdf`.
+- File PDF: Anda harus memiliki file PDF yang siap untuk pengujian. Dalam contoh kita, kita akan menggunakan file bernama `SetJavaScript.pdf`.
 
-- Direktori Dokumen Anda: Ketahui di mana berkas dokumen Anda disimpan. Kami akan merujuk jalur ini dalam kode kami.
+- Direktori Dokumen Anda: Ketahui tempat penyimpanan berkas dokumen Anda. Kami akan merujuk jalur ini dalam kode kami.
 
 Setelah Anda menyiapkan prasyarat ini, alat apa yang akan kita manfaatkan? Mari kita bahas apa saja yang dapat dilakukan Aspose.PDF.
 
@@ -57,7 +59,7 @@ Pertama, kita perlu menentukan lokasi file PDF kita. Ini akan menjadi dasar untu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Anggap saja ini seperti pengaturan koordinat untuk peta harta karun—Anda perlu tahu di mana 'X' menandai lokasi tersebut!
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Anggap saja ini seperti pengaturan koordinat untuk peta harta karun—Anda perlu tahu di mana tanda 'X' menandai lokasi tersebut!
 
 ## Langkah 2: Muat Dokumen PDF
 
@@ -77,7 +79,7 @@ Berikutnya, kita ingin mengakses kolom formulir di mana kita akan menerapkan Jav
 TextBoxField field = (TextBoxField)doc.Form["textbox1"];
 ```
 
- Di sini, kami berasumsi ada kotak teks di PDF Anda yang bernama`textbox1`Jika Anda tidak memiliki kolom dengan nama ini, Anda dapat mengganti namanya atau menyesuaikan kodenya. 
+Di sini, kami berasumsi ada kotak teks di PDF Anda yang bernama `textbox1`Jika Anda tidak memiliki kolom dengan nama ini, Anda dapat mengganti namanya atau menyesuaikan kodenya. 
 
 ## Langkah 4: Siapkan Tindakan JavaScript
 
@@ -113,7 +115,7 @@ dataDir = dataDir + "Restricted_out.pdf";
 doc.Save(dataDir);
 ```
 
- Ini memperbarui file asli dengan perubahan Anda dan menyimpannya sebagai`Restricted_out.pdf`Anggap saja ini sebagai penentu nasib PDF kita—setelah disimpan, PDF tersebut siap untuk dipublikasikan!
+Ini memperbarui file asli dengan perubahan Anda dan menyimpannya sebagai `Restricted_out.pdf`Anggap saja ini sebagai penentu nasib PDF kita—setelah disimpan, PDF tersebut siap untuk dipublikasikan!
 
 ## Langkah 7: Konfirmasikan Keberhasilan
 
@@ -135,19 +137,21 @@ Selamat! Anda telah berhasil menyiapkan JavaScript untuk kolom formulir dalam PD
 Aspose.PDF adalah pustaka yang dirancang untuk membuat, mengedit, dan memanipulasi berkas PDF dalam aplikasi .NET, menyediakan fungsionalitas PDF yang hebat.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF?  
- Meskipun uji coba gratis tersedia, lisensi diperlukan untuk penggunaan penuh tanpa batasan. Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+Meskipun uji coba gratis tersedia, lisensi diperlukan untuk penggunaan penuh tanpa batasan. Anda dapat membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bisakah saya mengatur JavaScript pada jenis kolom formulir lainnya?  
 Tentu saja! Aspose.PDF memungkinkan tindakan JavaScript pada berbagai bidang formulir seperti kotak centang, tombol radio, dan dropdown.
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk masalah Aspose.PDF?  
- Anda dapat mengakses dukungan melalui mereka[forum](https://forum.aspose.com/c/pdf/10) untuk pertanyaan atau masalah apa pun.
+Anda dapat mengakses dukungan melalui mereka [forum](https://forum.aspose.com/c/pdf/10) untuk pertanyaan atau masalah apa pun.
 
 ### Apakah ada cara untuk menguji Aspose.PDF tanpa membeli?  
-Ya! Aspose menyediakan[uji coba gratis](https://releases.aspose.com/) untuk menguji fitur perpustakaan sebelum melakukan pembelian.
+Ya! Aspose menyediakan [uji coba gratis](https://releases.aspose.com/) untuk menguji fitur perpustakaan sebelum melakukan pembelian.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

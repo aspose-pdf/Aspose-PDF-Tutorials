@@ -1,14 +1,16 @@
 ---
-title: PDF Sayfa Boyutlarını Alın
-linktitle: PDF Sayfa Boyutlarını Alın
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu eğitimde, .NET için Aspose.PDF kullanarak PDF sayfa boyutlarının nasıl alınacağını ve düzenlemelerin nasıl yapılacağını açıklıyoruz. İşlem boyunca size rehberlik etmek için ayrıntılı adımlar sağlanmıştır.
-weight: 60
-url: /tr/net/programming-with-pdf-pages/get-dimensions/
+"description": "Bu eğitimde, .NET için Aspose.PDF kullanarak PDF sayfa boyutlarının nasıl alınacağını ve düzenlemelerin nasıl yapılacağını açıklıyoruz. İşlem boyunca size rehberlik etmek için ayrıntılı adımlar sağlanmıştır."
+"linktitle": "PDF Sayfa Boyutlarını Alın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Sayfa Boyutlarını Alın"
+"url": "/tr/net/programming-with-pdf-pages/get-dimensions/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Sayfa Boyutlarını Alın
@@ -23,7 +25,7 @@ Aspose.PDF for .NET, PDF dosyalarını zahmetsizce oluşturmanıza, düzenlemeni
 
 Başlamadan önce, bu eğitimi sorunsuz bir şekilde takip edebilmek için birkaç şeye ihtiyacınız olacak:
 
-1.  .NET için Aspose.PDF: Şunları yapabilirsiniz[en son sürümü buradan indirin](https://releases.aspose.com/pdf/net/) . Eğer bir lisansınız yoksa endişelenmeyin! Bir lisans talebinde bulunabilirsiniz.[ücretsiz deneme](https://releases.aspose.com/) veya birini seçin[geçici lisans](https://purchase.aspose.com/temporary-license/).
+1. .NET için Aspose.PDF: Şunları yapabilirsiniz [en son sürümü buradan indirin](https://releases.aspose.com/pdf/net/). Eğer bir lisansınız yoksa endişelenmeyin! Bir lisans talebinde bulunabilirsiniz. [ücretsiz deneme](https://releases.aspose.com/)veya birini seçin [geçici lisans](https://purchase.aspose.com/temporary-license/).
 2. Visual Studio: Kod yazmak ve çalıştırmak için kullanacağınız geliştirme ortamı.
 3. Temel C# bilgisi: İşleri basit tutacağız ancak C# konusunda biraz bilgi sahibi olmak süreci daha akıcı hale getirecektir.
 4. Üzerinde çalışılacak PDF dosyası: Herhangi bir örnek PDF dosyasını alın veya test etmek için yeni bir dosya oluşturun.
@@ -44,7 +46,7 @@ Artık her şey yerli yerinde olduğuna göre, süreci takip etmesi kolay adıml
 
 ## Adım 1: Dosya Yolunu Tanımlayın ve Belgeyi Yükleyin
 
-İlk adım, PDF belgenizin yolunu belirtmek ve Aspose.PDF kullanarak yüklemektir. Bu, PDF dosyasındaki sayfalarla etkileşime girmenizi sağlayacaktır.
+İlk adım PDF belgenizin yolunu belirtmek ve Aspose.PDF kullanarak yüklemektir. Bu, PDF dosyasındaki sayfalarla etkileşime girmenizi sağlayacaktır.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -71,14 +73,14 @@ Bunu, boş bir defteri açıp, hiçbir şey yoksa ilk sayfasına bir şeyler yaz
 
 ## Adım 3: Sayfa Yüksekliği ve Genişliği Bilgilerini Alın
 
- Artık üzerinde çalışacağımız bir sayfamız olduğuna göre, sayfanın boyutlarını alalım.`GetPageRect()` Yükseklik ve genişliği alma yöntemi.
+Artık üzerinde çalışacağımız bir sayfamız olduğuna göre, sayfanın boyutlarını alalım. `GetPageRect()` Yükseklik ve genişliği alma yöntemi.
 
 ```csharp
 // Sayfa yüksekliği ve genişlik bilgilerini al
 Console.WriteLine(page.GetPageRect(true).Width.ToString() + ":" + page.GetPageRect(true).Height.ToString());
 ```
 
- Burada,`GetPageRect(true)` sayfanın yüksekliğini ve genişliğini içeren bir dikdörtgen döndürür. Bir kağıt parçasını cetvelle ölçmek gibidir. Çıktı konsolda görüntülenecek ve size geçerli sayfa boyutlarını verecektir.
+Burada, `GetPageRect(true)` sayfanın yüksekliğini ve genişliğini içeren bir dikdörtgen döndürür. Bir kağıt parçasını cetvelle ölçmek gibidir. Çıktı konsolda görüntülenecek ve size geçerli sayfa boyutlarını verecektir.
 
 ## Adım 4: Sayfayı 90 Derece Döndürün
 
@@ -112,10 +114,10 @@ PDF'leri düzenlemek karmaşık olmak zorunda değil. Aspose.PDF ile, birkaç ad
 ## SSS
 
 ### Sayfayı 90 derece dışında başka açılarla döndürebilir miyim?
- Evet, Aspose.PDF sayfaları 0, 90, 180 veya 270 derece döndürmenize olanak tanır.`Rotation` mülk.
+Evet, Aspose.PDF sayfaları 0, 90, 180 veya 270 derece döndürmenize olanak tanır. `Rotation` mülk.
 
 ### PDF dosyamın sayfası yoksa ne olur?
- PDF'nizde sayfa yoksa, boş bir sayfa ekleyebilirsiniz.`Pages.Add()` Bu eğitimde gösterildiği gibi bir yöntem.
+PDF'nizde sayfa yoksa, boş bir sayfa ekleyebilirsiniz. `Pages.Add()` Bu eğitimde gösterildiği gibi bir yöntem.
 
 ### Birden fazla sayfayı aynı anda düzenleyebilir miyim?
 Evet, birden fazla sayfada dolaşabilir ve hepsine yeniden boyutlandırma veya döndürme gibi dönüşümler uygulayabilirsiniz.
@@ -124,10 +126,12 @@ Evet, birden fazla sayfada dolaşabilir ve hepsine yeniden boyutlandırma veya d
 Sayfa boyutları yalnızca tuvalin boyutunu değiştirir, içeriği değiştirmez. Ancak yeniden boyutlandırma, içeriğin sayfada nasıl göründüğünü değiştirebilir.
 
 ### Aspose.PDF for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
- Ziyaret edebilirsiniz[belgeler burada](https://reference.aspose.com/pdf/net/) Daha detaylı bilgi ve gelişmiş kullanım örnekleri için.
+Ziyaret edebilirsiniz [belgeler burada](https://reference.aspose.com/pdf/net/) Daha detaylı bilgi ve gelişmiş kullanım örnekleri için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

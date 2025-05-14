@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF'de Not Yapısı Elemanı Oluşturma
-linktitle: Java kullanarak PDF'de Not Yapısı Elemanı Oluşturma
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF ile Java kullanarak PDF'lerde etkileşimli Not Yapısı Öğeleri oluşturmayı öğrenin. Belgelerinizi bilgilendirici notlarla geliştirin.
-weight: 12
-url: /tr/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-java/
+"description": "Java için Aspose.PDF ile Java kullanarak PDF'lerde etkileşimli Not Yapısı Öğeleri oluşturmayı öğrenin. Belgelerinizi bilgilendirici notlarla geliştirin."
+"linktitle": "Java kullanarak PDF'de Not Yapısı Elemanı Oluşturma"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF'de Not Yapısı Elemanı Oluşturma"
+"url": "/tr/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF'de Not Yapısı Elemanı Oluşturma
@@ -23,7 +25,7 @@ Dijital belgeler dünyasında PDF'ler en üst sıradadır. Farklı platformlar v
 Koda dalmadan önce her şeyin ayarlandığından emin olalım:
 
 - Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının yüklü olduğundan emin olun.
--  Java için Aspose.PDF: Java için Aspose.PDF kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/).
+- Java için Aspose.PDF: Java için Aspose.PDF kütüphanesini şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Adım Adım Kılavuz
 
@@ -31,7 +33,7 @@ Koda dalmadan önce her şeyin ayarlandığından emin olalım:
 
 PDF belgeleri çok yönlüdür, ancak bazen okuyucularınız için ek bağlam veya yorumlar sağlamanız gerekir. Bir PDF'ye not eklemek bunu başarmanıza yardımcı olabilir. Bu eğitimde, Java ve Java için Aspose.PDF kullanarak bir PDF'de Not Yapısı Öğesi oluşturmayı göstereceğiz.
 
-### 2. Projenin Kurulması
+### 2. Projenin Kurulumu
 
 Kodlamaya başlamadan önce sisteminizde bir Java geliştirme ortamının kurulu olduğundan emin olun. İstediğiniz herhangi bir Java IDE'sini kullanabilirsiniz.
 
@@ -58,7 +60,7 @@ Page page = pdfDocument.getPages().add();
 Şimdi PDF belgemize bir Not Yapısı Elemanı ekleyelim. Bu, kullanıcıların notu görüntülemek için tıklayabilecekleri etkileşimli eleman olacaktır.
 
 ```java
-//Sayfaya bir Not Yapısı Öğesi ekleyin
+// Sayfaya bir Not Yapısı Öğesi ekleyin
 com.aspose.pdf.annotations.Note annotation = new com.aspose.pdf.annotations.Note(page, new com.aspose.pdf.Rectangle(100, 100, 200, 200));
 ```
 
@@ -109,9 +111,11 @@ Notu oluştururken koordinatlarını ve boyutlarını belirleyebilir, böylece s
 ### Notlara dosya ekleyebilir miyim?
 
 Evet, notlara dosya ekleyebilir, ek kaynaklar veya referanslar sağlayabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

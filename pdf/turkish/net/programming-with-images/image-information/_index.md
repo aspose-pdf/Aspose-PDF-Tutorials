@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Resim Bilgileri
-linktitle: PDF Dosyasında Resim Bilgileri
-second_title: Aspose.PDF for .NET API Referansı
-description: Kapsamlı adım adım kılavuzumuzla Aspose.PDF for .NET'i kullanarak PDF'lerden görüntü bilgilerini çıkarmayı öğrenin.
-weight: 160
-url: /tr/net/programming-with-images/image-information/
+"description": "Kapsamlı adım adım kılavuzumuzla Aspose.PDF for .NET'i kullanarak PDF'lerden görüntü bilgilerini çıkarmayı öğrenin."
+"linktitle": "PDF Dosyasında Resim Bilgileri"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Resim Bilgileri"
+"url": "/tr/net/programming-with-images/image-information/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Resim Bilgileri
@@ -22,7 +24,7 @@ PDF dosyaları günümüzde her yerdedir; neredeyse her profesyonel ve kişisel 
 Kodlamanın inceliklerine dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
 1. Geliştirme Ortamı: Bir .NET geliştirme ortamı kurulumuna ihtiyacınız olacak. Bu, Visual Studio veya herhangi bir .NET uyumlu IDE olabilir.
-2.  Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesine erişiminiz olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/pdf/net/). 
+2. Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesine erişiminiz olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/pdf/net/). 
 3. Temel C# Bilgisi: C# ve nesne yönelimli programlama kavramlarına aşinalık, eğitimi zahmetsizce takip etmenize yardımcı olacaktır.
 4. PDF Belgesi: Kodunuzu test etmek için görseller içeren bir örnek PDF belgesini elinizin altında bulundurun. 
 
@@ -42,7 +44,7 @@ Artık her şeyi ayarladığınıza göre, bunu yönetilebilir adımlara bölmen
 
 ## Adım 1: Belgeyi Başlatın
 
- Bu adımda, PDF dosyanızın yolunu kullanarak PDF belgesini başlatacağız. Şunu değiştirmelisiniz:`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile.
+Bu adımda, PDF dosyanızın yolunu kullanarak PDF belgesini başlatacağız. Şunu değiştirmelisiniz: `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Kaynak PDF dosyasını yükleyin
 Document doc = new Document(dataDir + "ImageInformation.pdf");
 ```
- Biz bir tane yaratıyoruz`Document` PDF'yi belirtilen dizinden yükleyen nesne. Bu, dosyanın içeriğiyle çalışmamıza olanak tanır.
+Biz bir tane yaratıyoruz `Document` PDF'yi belirtilen dizinden yükleyen nesne. Bu, dosyanın içeriğiyle çalışmamıza olanak tanır.
 
 ## Adım 2: Varsayılan Çözünürlüğü Ayarlayın ve Veri Yapılarını Başlatın
 
@@ -63,7 +65,7 @@ System.Collections.Stack graphicsState = new System.Collections.Stack();
 // Resim adlarını tutacak dizi listesi nesnesini tanımlayın
 System.Collections.ArrayList imageNames = new System.Collections.ArrayList(doc.Pages[1].Resources.Images.Names);
 ```
- The`defaultResolution` değişkeni, görüntülerin çözünürlüğünü doğru bir şekilde hesaplamamıza yardımcı olur.`graphicsState`Yığın, dönüşüm operatörleriyle karşılaştığımızda belgenin geçerli grafiksel durumunu depolamak için bir araç görevi görür.
+The `defaultResolution` değişkeni, görüntülerin çözünürlüğünü doğru bir şekilde hesaplamamıza yardımcı olur. `graphicsState` Yığın, dönüşüm operatörleriyle karşılaştığımızda belgenin geçerli grafiksel durumunu depolamak için bir araç görevi görür.
 
 ## Adım 3: Sayfadaki Her Operatörü İşle
 
@@ -93,7 +95,7 @@ else if (opRestoreState != null)
     graphicsState.Pop();
 }
 ```
-`GSave` mevcut grafik durumunu kaydederken`GRestore` son kaydedilen durumu geri yükler ve görüntüleri işlerken herhangi bir dönüşümü geri almamızı sağlar.
+`GSave` mevcut grafik durumunu kaydederken `GRestore` son kaydedilen durumu geri yükler ve görüntüleri işlerken herhangi bir dönüşümü geri almamızı sağlar.
 
 ## Adım 5: Dönüşüm Matrislerini Yönetin
 
@@ -155,19 +157,21 @@ Tebrikler! Aspose.PDF for .NET kullanarak bir PDF dosyasından görüntü bilgil
 Aspose.PDF kütüphanesi, .NET uygulamalarında PDF dosyaları oluşturmak, düzenlemek ve dönüştürmek için güçlü bir araçtır.
 
 ### Kütüphaneyi ücretsiz kullanabilir miyim?
- Evet, Aspose ücretsiz deneme sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose ücretsiz deneme sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Hangi tür görüntü formatları çıkarılabilir?
 Kütüphane, PDF'ye gömüldükleri sürece JPEG, PNG ve TIFF gibi çeşitli resim formatlarını destekler.
 
 ### Aspose ticari amaçlı mı kullanılıyor?
- Evet, Aspose ürünlerini ticari olarak kullanabilirsiniz. Lisanslama için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy).
+Evet, Aspose ürünlerini ticari olarak kullanabilirsiniz. Lisanslama için şu adresi ziyaret edin: [satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Aspose için nasıl destek alabilirim?
- Destek forumuna erişebilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Destek forumuna erişebilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

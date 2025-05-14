@@ -1,14 +1,16 @@
 ---
-title: Mengganti Gambar di File PDF yang Ada menggunakan Java
-linktitle: Mengganti Gambar di File PDF yang Ada menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengganti gambar dalam file PDF dengan Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode untuk penggantian gambar yang lancar.
-weight: 11
-url: /id/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-java/
+"description": "Pelajari cara mengganti gambar dalam file PDF dengan Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan contoh kode untuk penggantian gambar yang lancar."
+"linktitle": "Mengganti Gambar di File PDF yang Ada menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Mengganti Gambar di File PDF yang Ada menggunakan Java"
+"url": "/id/java/pdf-image-manipulation/replace-image-in-existing-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengganti Gambar di File PDF yang Ada menggunakan Java
@@ -24,7 +26,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
 - Lingkungan Pengembangan Terpadu (IDE) pilihan Anda (misalnya, Eclipse, IntelliJ IDEA).
--  Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Lingkungan
 
@@ -53,7 +55,7 @@ Untuk memulai, Anda memerlukan berkas PDF yang sudah ada dengan gambar yang ingi
 Document pdfDocument = new Document("path/to/your/pdf/file.pdf");
 ```
 
- Mengganti`"path/to/your/pdf/file.pdf"` dengan jalur sebenarnya ke berkas PDF Anda.
+Mengganti `"path/to/your/pdf/file.pdf"` dengan jalur sebenarnya ke berkas PDF Anda.
 
 ## Mengganti Gambar dalam PDF
 
@@ -65,7 +67,7 @@ int pageNumber = 0;
 
 // Tentukan koordinat tempat gambar harus diganti
 float x = 100; // Koordinat X
-float y = 200; //Koordinat Y
+float y = 200; // Koordinat Y
 
 // Tentukan jalur ke gambar baru
 String newImagePath = "path/to/your/new/image.png";
@@ -76,7 +78,7 @@ pdfDocument.getPages().get_Item(pageNumber).replaceImage(x, y, newImagePath);
 
 Ganti nilai dalam kode di atas dengan nomor halaman, koordinat, dan jalur ke gambar baru yang spesifik.
 
-## Menyimpan PDF yang Telah Dimodifikasi
+## Menyimpan PDF yang Dimodifikasi
 
 Setelah Anda mengganti gambar, Anda dapat menyimpan dokumen PDF yang telah dimodifikasi.
 
@@ -85,7 +87,7 @@ Setelah Anda mengganti gambar, Anda dapat menyimpan dokumen PDF yang telah dimod
 pdfDocument.save("path/to/your/output/modified.pdf");
 ```
 
- Mengganti`"path/to/your/output/modified.pdf"` dengan jalur dan nama file yang diinginkan untuk PDF yang dimodifikasi.
+Mengganti `"path/to/your/output/modified.pdf"` dengan jalur dan nama file yang diinginkan untuk PDF yang dimodifikasi.
 
 ## Kesimpulan
 
@@ -95,7 +97,7 @@ Selamat! Anda telah berhasil mempelajari cara mengganti gambar dalam berkas PDF 
 
 ### Bagaimana cara mendapatkan pustaka Aspose.PDF untuk Java?
 
- Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ### Apakah pustaka Aspose.PDF gratis untuk digunakan?
 
@@ -107,14 +109,16 @@ Ya, Anda dapat mengganti beberapa gambar dalam dokumen PDF dengan mengikuti pros
 
 ### Apakah ada batasan pada jenis gambar yang dapat saya ganti?
 
-Aspose.PDF untuk Java mendukung berbagai format gambar, termasuk JPEG, PNG, GIF, dan banyak lagi. Anda dapat mengganti gambar dalam PDF dengan gambar dengan format yang kompatibel.
+Aspose.PDF untuk Java mendukung berbagai format gambar, termasuk JPEG, PNG, GIF, dan banyak lagi. Anda dapat mengganti gambar dalam PDF dengan gambar berformat kompatibel.
 
 ### Bagaimana saya bisa mendapatkan dukungan atau bantuan lebih lanjut?
 
- Untuk dukungan dan sumber daya tambahan, Anda dapat mengunjungi dokumentasi Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Untuk dukungan dan sumber daya tambahan, Anda dapat mengunjungi dokumentasi Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

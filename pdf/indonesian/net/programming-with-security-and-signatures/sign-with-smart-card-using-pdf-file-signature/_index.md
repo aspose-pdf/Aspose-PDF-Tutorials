@@ -1,14 +1,16 @@
 ---
-title: Tanda Tangan Dengan Kartu Pintar Menggunakan Tanda Tangan File PDF
-linktitle: Tanda Tangan Dengan Kartu Pintar Menggunakan Tanda Tangan File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menandatangani file PDF menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk mendapatkan tanda tangan digital yang aman.
-weight: 110
-url: /id/net/programming-with-security-and-signatures/sign-with-smart-card-using-pdf-file-signature/
+"description": "Pelajari cara menandatangani file PDF menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk mendapatkan tanda tangan digital yang aman."
+"linktitle": "Tanda Tangan Dengan Kartu Pintar Menggunakan Tanda Tangan File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tanda Tangan Dengan Kartu Pintar Menggunakan Tanda Tangan File PDF"
+"url": "/id/net/programming-with-security-and-signatures/sign-with-smart-card-using-pdf-file-signature/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tanda Tangan Dengan Kartu Pintar Menggunakan Tanda Tangan File PDF
@@ -19,13 +21,13 @@ Di era digital, pengamanan dokumen menjadi lebih penting dari sebelumnya. Baik i
 
 ## Prasyarat
 
-Sebelum kita masuk ke inti proses penandatanganan file PDF, mari pastikan Anda memiliki semua yang dibutuhkan. Berikut ini daftar periksa untuk membantu Anda mempersiapkan diri:
+Sebelum kita masuk ke inti penandatanganan berkas PDF, mari pastikan Anda memiliki semua yang dibutuhkan. Berikut ini daftar periksa untuk membantu Anda mempersiapkan diri:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Lingkungan pengembangan tempat Anda dapat menulis dan menjalankan kode .NET Anda.
 3. Kartu Pintar: Anda memerlukan kartu pintar dengan sertifikat digital valid yang terpasang.
 4. Pemahaman Dasar tentang C#: Keakraban dengan pemrograman C# akan bermanfaat karena kita akan menulis potongan kode dalam bahasa ini.
-5. Dokumen PDF: Contoh file PDF (seperti`blank.pdf`) untuk menguji proses penandatanganan kami.
+5. Dokumen PDF: Contoh file PDF (seperti `blank.pdf`) untuk menguji proses penandatanganan kami.
 
 Jika prasyarat ini terpenuhi, Anda siap untuk mulai mempelajari kodenya!
 
@@ -35,8 +37,8 @@ Pertama-tama, mari impor paket-paket yang diperlukan. Anda perlu menambahkan ref
 
 1. Buka Visual Studio.
 2. Buat proyek baru atau buka proyek yang sudah ada.
-3.  Klik kanan pada proyek Anda di Solution Explorer dan pilih`Manage NuGet Packages`.
-4.  Pencarian untuk`Aspose.PDF` dan instal versi terbaru.
+3. Klik kanan pada proyek Anda di Solution Explorer dan pilih `Manage NuGet Packages`.
+4. Pencarian untuk `Aspose.PDF` dan instal versi terbaru.
 
 ```csharp
 using System;
@@ -55,18 +57,18 @@ Langkah pertama dalam proses ini adalah menyiapkan dokumen PDF yang ingin ditand
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "blank.pdf");
 ```
- Dalam potongan kode ini, kami menentukan jalur ke direktori dokumen kami dan membuat contoh`Document` kelas menggunakan contoh file PDF bernama`blank.pdf` Pastikan untuk mengganti`"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya tempat PDF Anda berada.
+Dalam potongan kode ini, kami menentukan jalur ke direktori dokumen kami dan membuat contoh `Document` kelas menggunakan contoh file PDF bernama `blank.pdf`Pastikan untuk mengganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya tempat PDF Anda berada.
 
 ## Langkah 2: Inisialisasi PdfFileSignature
 
- Selanjutnya, kita akan menginisialisasi`PdfFileSignature` kelas yang bertanggung jawab untuk menangani proses penandatanganan.
+Selanjutnya, kita akan menginisialisasi `PdfFileSignature` kelas yang bertanggung jawab untuk menangani proses penandatanganan.
 
 ```csharp
 using (Facades.PdfFileSignature pdfSign = new Facades.PdfFileSignature())
 {
     pdfSign.BindPdf(doc);
 ```
-Di sini, kita membuat sebuah instance dari`PdfFileSignature`dan mengikatnya ke dokumen PDF kita. Ini mempersiapkan dokumen untuk ditandatangani.
+Di sini, kita membuat sebuah instance dari `PdfFileSignature` dan mengikatnya ke dokumen PDF kita. Ini mempersiapkan dokumen untuk ditandatangani.
 
 ## Langkah 3: Akses Sertifikat Kartu Pintar
 
@@ -96,7 +98,7 @@ Setelah Anda memilih sertifikat, langkah berikutnya adalah membuat tanda tangan 
 ```csharp
 Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.ExternalSignature(sel[0]);
 ```
-Di sini, kita membuat sebuah instance dari`ExternalSignature` menggunakan sertifikat yang dipilih. Objek ini akan digunakan untuk menandatangani dokumen PDF.
+Di sini, kita membuat sebuah instance dari `ExternalSignature` menggunakan sertifikat yang dipilih. Objek ini akan digunakan untuk menandatangani dokumen PDF.
 
 ## Langkah 5: Mengatur Tampilan Tanda Tangan
 
@@ -105,7 +107,7 @@ Sekarang, mari kita atur tampilan tanda tangan kita. Di sinilah Anda dapat menye
 ```csharp
 pdfSign.SignatureAppearance = dataDir + "demo.png";
 ```
- Dalam cuplikan ini, kami menentukan tampilan tanda tangan dengan memberikan jalur ke file gambar (seperti logo atau grafik tanda tangan). Pastikan untuk mengganti`"demo.png"` dengan gambar sebenarnya yang ingin Anda gunakan.
+Dalam cuplikan ini, kami menentukan tampilan tanda tangan dengan memberikan jalur ke file gambar (seperti logo atau grafik tanda tangan). Pastikan untuk mengganti `"demo.png"` dengan gambar sebenarnya yang ingin Anda gunakan.
 
 ## Langkah 6: Tanda tangani PDF
 
@@ -115,7 +117,7 @@ Setelah semuanya disiapkan, waktunya menandatangani dokumen PDF!
 pdfSign.Sign(1, "Reason", "Contact", "Location", true, new System.Drawing.Rectangle(100, 100, 200, 200), externalSignature);
 pdfSign.Save(dataDir + "externalSignature2.pdf");
 ```
-Pada langkah ini, kita memanggil`Sign` metode pada kami`pdfSign` objek. Berikut ini arti setiap parameter:
+Pada langkah ini, kita memanggil `Sign` metode pada kami `pdfSign` objek. Berikut ini arti setiap parameter:
 - `1`: Nomor halaman tempat tanda tangan akan muncul.
 - `"Reason"`: Alasan penandatanganan dokumen.
 - `"Contact"`: Informasi kontak untuk penandatangan.
@@ -124,7 +126,7 @@ Pada langkah ini, kita memanggil`Sign` metode pada kami`pdfSign` objek. Berikut 
 - `new System.Drawing.Rectangle(100, 100, 200, 200)`: Posisi dan ukuran tanda tangan pada PDF.
 - `externalSignature`: Objek tanda tangan yang kita buat sebelumnya.
 
- Terakhir, kami menyimpan dokumen yang ditandatangani sebagai`externalSignature2.pdf`.
+Terakhir, kami menyimpan dokumen yang ditandatangani sebagai `externalSignature2.pdf`.
 
 ## Langkah 7: Verifikasi Tanda Tangan
 
@@ -137,7 +139,7 @@ using (Facades.PdfFileSignature pdfSign = new Facades.PdfFileSignature(new Docum
 {
     IList<string> sigNames = pdfSign.GetSignNames();
 ```
- Kami membuat contoh baru dari`PdfFileSignature` untuk dokumen yang ditandatangani. Kami kemudian mengambil nama semua tanda tangan yang ada dalam dokumen tersebut.
+Kami membuat contoh baru dari `PdfFileSignature` untuk dokumen yang ditandatangani. Kami kemudian mengambil nama semua tanda tangan yang ada dalam dokumen tersebut.
 
 ### Periksa Validitas Tanda Tangan
 
@@ -171,10 +173,12 @@ Ya, Anda dapat menggunakan berkas PDF apa pun, tetapi pastikan berkas tersebut t
 Anda dapat memperoleh sertifikat digital dari otoritas sertifikat (CA) tepercaya atau menggunakan sertifikat yang ditandatangani sendiri untuk tujuan pengujian.
 
 ### Apakah ada versi uji coba Aspose.PDF yang tersedia?
- Ya, Anda dapat mengunduh versi uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh versi uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

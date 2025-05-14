@@ -8,7 +8,9 @@ url: /net/programming-with-bookmarks/add-bookmark/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Bookmark In PDF File
@@ -142,6 +144,7 @@ For support, you can visit the [Aspose support forum](https://forum.aspose.com/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

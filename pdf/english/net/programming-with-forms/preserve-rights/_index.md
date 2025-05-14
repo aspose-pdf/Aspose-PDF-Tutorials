@@ -8,7 +8,9 @@ url: /net/programming-with-forms/preserve-rights/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Preserve Rights
@@ -146,9 +148,11 @@ You can find more examples and tutorials in the [documentation](https://referenc
 
 ### What should I do if I encounter issues?
 If you run into any problems, check the [support forum](https://forum.aspose.com/c/pdf/10) for help from the community.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

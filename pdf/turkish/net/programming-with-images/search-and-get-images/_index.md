@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Görüntüleri Ara ve Al
-linktitle: PDF Dosyasında Görüntüleri Ara ve Al
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile PDF dosyalarından zahmetsizce resim çıkarmayı öğrenin. PDF işleme becerilerinizi geliştirmek için bu adım adım kılavuzu izleyin.
-weight: 260
-url: /tr/net/programming-with-images/search-and-get-images/
+"description": "Aspose.PDF for .NET ile PDF dosyalarından zahmetsizce resim çıkarmayı öğrenin. PDF işleme becerilerinizi geliştirmek için bu adım adım kılavuzu izleyin."
+"linktitle": "PDF Dosyasında Görüntüleri Ara ve Al"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Görüntüleri Ara ve Al"
+"url": "/tr/net/programming-with-images/search-and-get-images/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Görüntüleri Ara ve Al
@@ -27,7 +29,7 @@ Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun. Aspose.PDF 
 
 ### Aspose.PDF Kütüphanesi
 
- Aspose.PDF kütüphanesine erişiminiz olması gerekecek. Eğer henüz yoksa, şu bağlantıdan indirebilirsiniz:[.NET için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/net/) Ayrıca, şunları keşfedebilirsiniz:[bir aylık ücretsiz deneme](https://releases.aspose.com/) Projelerinizi hiçbir maliyet olmadan başlatmak için.
+Aspose.PDF kütüphanesine erişiminiz olması gerekecek. Eğer henüz yoksa, şu bağlantıdan indirebilirsiniz: [.NET için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/net/)Ayrıca, şunları keşfedebilirsiniz: [bir aylık ücretsiz deneme](https://releases.aspose.com/) Projelerinizi hiçbir maliyet olmadan başlatmak için.
 
 ### Geliştirme Ortamı
 
@@ -43,7 +45,7 @@ using Aspose.Pdf;
 using System;
 ```
 
- Bu paketlerin her biri PDF belgelerini düzenlerken belirli amaçlara hizmet eder.`Aspose.Pdf` namespace işlemlerinizin temel taşıdır, diğer ikisi ise PDF içindeki görseller ve metinlerle ilgilenmenize yardımcı olur.
+Bu paketlerin her biri PDF belgelerini düzenlerken belirli amaçlara hizmet eder. `Aspose.Pdf` namespace işlemlerinizin temel taşıdır, diğer ikisi ise PDF içindeki görseller ve metinlerle ilgilenmenize yardımcı olur.
 
 ## Adım 1: Belge Yolunuzu Ayarlayın
 
@@ -53,11 +55,11 @@ Her şeyden önce, PDF dosyanızın bulunduğu yolu tanımlamanız gerekir. Bu k
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- "BELGE DİZİNİNİZ" ifadesini PDF dosyanızı içeren dizinin gerçek yoluyla değiştirin, örneğin:`C:\Documents\`.
+"BELGE DİZİNİNİZ" ifadesini PDF dosyanızı içeren dizinin gerçek yoluyla değiştirin, örneğin: `C:\Documents\`.
 
 ## Adım 2: PDF Belgesini açın
 
- Sonra, PDF belgesini uygulamanıza yüklemek isteyeceksiniz. Bu, yeni bir`Document` Az önce belirttiğiniz dosya yoluna sahip örnek:
+Sonra, PDF belgesini uygulamanıza yüklemek isteyeceksiniz. Bu, yeni bir `Document` Az önce belirttiğiniz dosya yoluna sahip örnek:
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SearchAndGetImages.pdf");
@@ -65,7 +67,7 @@ Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SearchAndGetImages.
 
 ## Adım 3: ImagePlacementAbsorber'ı oluşturun
 
- PDF içindeki görselleri aramak için bir`ImagePlacementAbsorber` nesne. Bu sınıf, çıkarma işlemi sırasında PDF'den görüntülerin alınmasına yardımcı olur:
+PDF içindeki görselleri aramak için bir `ImagePlacementAbsorber` nesne. Bu sınıf, çıkarma işlemi sırasında PDF'den görüntülerin alınmasına yardımcı olur:
 
 ```csharp
 ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
@@ -73,7 +75,7 @@ ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
 
 ## Adım 4: Tüm Sayfalar için Absorber'ı Kabul Edin
 
- Bu adım,`Document` görüntü emiciyi tüm sayfalara uygulamak. Belgenin herhangi bir yerine yerleştirilen herhangi bir görüntünün tanımlanmasını sağlar:
+Bu adım, `Document` görüntü emiciyi tüm sayfalara uygulamak. Belgenin herhangi bir yerine yerleştirilen herhangi bir görüntünün tanımlanmasını sağlar:
 
 ```csharp
 doc.Pages.Accept(abs);
@@ -81,7 +83,7 @@ doc.Pages.Accept(abs);
 
 ## Adım 5: Görüntü Yerleşimlerinde Döngü
 
-Artık görselleri özümsediğinize göre, onları derinlemesine incelemenin zamanı geldi. PDF'den çıkarılan her görsel yerleşimini dolaşacaksınız:
+Artık görselleri özümsediğinize göre, onları incelemenin zamanı geldi. PDF'den çıkarılan her görsel yerleşimini dolaşacaksınız:
 
 ```csharp
 foreach (ImagePlacement imagePlacement in abs.ImagePlacements)
@@ -92,7 +94,7 @@ foreach (ImagePlacement imagePlacement in abs.ImagePlacements)
 
 ## Adım 6: Görüntü Özelliklerini Çıkarın
 
- Döngünün içinde, her görüntü hakkında değerli özellikleri almaya başlayabilirsiniz.`imagePlacement` nesnenin boyutlarına ve çözünürlüğüne erişebilirsiniz:
+Döngünün içinde, her görüntü hakkında değerli özellikleri almaya başlayabilirsiniz. `imagePlacement` nesnenin boyutlarına ve çözünürlüğüne erişebilirsiniz:
 
 ```csharp
 XImage image = imagePlacement.Image; // Resmi al
@@ -107,7 +109,7 @@ Console.Out.WriteLine("image vertical resolution:" + imagePlacement.Resolution.Y
 
 ## Çözüm
 
-İşte bu kadar! Bu adımları izleyerek, .NET için Aspose.PDF kullanarak PDF dosyalarından resimleri etkili bir şekilde arayabilir ve alabilirsiniz. Sadece birkaç satır kodla, değerli resimleri ve özelliklerini çıkarabilir, uygulamanızda birçok olasılığa kapılar açabilirsiniz.
+Ve işte karşınızda! Bu adımları izleyerek, .NET için Aspose.PDF kullanarak PDF dosyalarından resimleri etkili bir şekilde arayabilir ve alabilirsiniz. Sadece birkaç satır kodla, değerli resimleri ve özelliklerini çıkarabilir, uygulamanızda birçok olasılığa kapılar açabilirsiniz.
 
 ## SSS
 
@@ -124,10 +126,12 @@ Tüm gömülü görseller, formatlarından (JPEG, PNG, vb.) bağımsız olarak �
 Kesin bir sınır yok; PDF dosyasının kendisine bağlı.
 
 ### Çıkarılan görüntüleri diske kaydedebilir miyim?  
- Evet, görüntüleri kullanarak diske kaydedebilirsiniz.`XImage` Kodunuzdaki nesne.
+Evet, görüntüleri kullanarak diske kaydedebilirsiniz. `XImage` Kodunuzdaki nesne.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

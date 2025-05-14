@@ -8,7 +8,9 @@ url: /net/programming-with-forms/horizontally-and-vertically-radio-buttons/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Horizontally And Vertically Radio Buttons
@@ -143,6 +145,7 @@ You can buy Aspose.PDF for .NET from the [purchase page](https://purchase.aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

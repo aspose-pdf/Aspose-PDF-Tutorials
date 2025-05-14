@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ में इनलाइन संरचना तत्व
-linktitle: जावा का उपयोग करके पीडीएफ में इनलाइन संरचना तत्व
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Aspose.PDF for Java के साथ Java का उपयोग करके PDF दस्तावेज़ों में इनलाइन संरचना तत्वों को लागू करना सीखें। सुलभ और अच्छी तरह से संरचित PDF बनाएँ।
-weight: 10
-url: /hi/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-java/
+"description": "Aspose.PDF for Java के साथ Java का उपयोग करके PDF दस्तावेज़ों में इनलाइन संरचना तत्वों को लागू करना सीखें। सुलभ और अच्छी तरह से संरचित PDF बनाएँ।"
+"linktitle": "जावा का उपयोग करके पीडीएफ में इनलाइन संरचना तत्व"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ में इनलाइन संरचना तत्व"
+"url": "/hi/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ में इनलाइन संरचना तत्व
@@ -29,7 +31,7 @@ url: /hi/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-j
 - विकलांग उपयोगकर्ताओं के लिए बेहतर पहुंच।
 - दस्तावेज़ नेविगेशन और संरचना में सुधार.
 - सहायक प्रौद्योगिकियों के साथ बेहतर संगतता।
-- पहुँच-योग्यता मानकों (जैसे, PDF/UA) का अनुपालन।
+- सुलभता मानकों (जैसे, PDF/UA) का अनुपालन।
 
 अब, आइए देखें कि आप Java के लिए Aspose.PDF का उपयोग करके अपने PDF दस्तावेज़ों में इनलाइन संरचना तत्वों को कैसे लागू कर सकते हैं।
 
@@ -41,7 +43,7 @@ url: /hi/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-j
 
 Java के लिए Aspose.PDF स्थापित करने के लिए, इन चरणों का पालन करें:
 
-1.  Java के लिए Aspose.PDF डाउनलोड करें: Aspose वेबसाइट पर जाएँ[यहाँ](https://releases.aspose.com/pdf/java/) और Java के लिए Aspose.PDF का नवीनतम संस्करण डाउनलोड करें।
+1. Java के लिए Aspose.PDF डाउनलोड करें: Aspose वेबसाइट पर जाएँ [यहाँ](https://releases.aspose.com/pdf/java/) और Java के लिए Aspose.PDF का नवीनतम संस्करण डाउनलोड करें।
 
 2. अपने प्रोजेक्ट में जोड़ें: अपने प्रोजेक्ट के निर्माण पथ में JAR फ़ाइल को शामिल करके Aspose.PDF लाइब्रेरी को अपने जावा प्रोजेक्ट में जोड़ें।
 
@@ -114,7 +116,7 @@ textFragment.getTextState().setUnderline(TextStateDecoration.Line);
 पीडीएफ में छवि सम्मिलित करने के लिए:
 
 ```java
-//छवि लोड करें
+// छवि लोड करें
 com.aspose.pdf.Image image = new com.aspose.pdf.Image();
 image.setFile("image.png");
 
@@ -205,11 +207,11 @@ textFragment.getTextState().setStructureElement(inlineTextElement);
 
 ### मैं Java के लिए Aspose.PDF कैसे स्थापित कर सकता हूँ?
 
- Java के लिए Aspose.PDF स्थापित करने के लिए, Aspose वेबसाइट पर जाएँ[यहाँ](https://releases.aspose.com/pdf/java/) और नवीनतम संस्करण डाउनलोड करें। फिर, JAR फ़ाइल को अपने जावा प्रोजेक्ट के बिल्ड पथ में जोड़ें।
+Java के लिए Aspose.PDF स्थापित करने के लिए, Aspose वेबसाइट पर जाएँ [यहाँ](https://releases.aspose.com/pdf/java/) और नवीनतम संस्करण डाउनलोड करें। फिर, JAR फ़ाइल को अपने जावा प्रोजेक्ट के बिल्ड पथ में जोड़ें।
 
 ### क्या मैं पीडीएफ में इनलाइन टेक्स्ट का रंग बदल सकता हूँ?
 
-हां, आप Java के लिए Aspose.PDF का उपयोग करके PDF में इनलाइन टेक्स्ट का रंग बदल सकते हैं।`setTextState().setForegroundColor(Color)` रंग निर्दिष्ट करने की विधि.
+हां, आप Java के लिए Aspose.PDF का उपयोग करके PDF में इनलाइन टेक्स्ट का रंग बदल सकते हैं। `setTextState().setForegroundColor(Color)` रंग निर्दिष्ट करने की विधि.
 
 ### सुलभ पीडीएफ बनाने का क्या लाभ है?
 
@@ -217,10 +219,12 @@ textFragment.getTextState().setStructureElement(inlineTextElement);
 
 ### मैं पीडीएफ में हाइपरलिंक कैसे बना सकता हूं?
 
- पीडीएफ में हाइपरलिंक बनाने के लिए, जावा के लिए Aspose.PDF का उपयोग करें`LinkAnnotation` और इसे वांछित टेक्स्ट या तत्व से संबद्ध करें। हाइपरलिंक के लिए लक्ष्य URL या क्रिया निर्दिष्ट करें।
+पीडीएफ में हाइपरलिंक बनाने के लिए, जावा के लिए Aspose.PDF का उपयोग करें `LinkAnnotation` और इसे वांछित टेक्स्ट या तत्व से संबद्ध करें। हाइपरलिंक के लिए लक्ष्य URL या क्रिया निर्दिष्ट करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

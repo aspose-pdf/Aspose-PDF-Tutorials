@@ -1,14 +1,16 @@
 ---
-title: Java'da Belgelere HTML Sıralı Liste Ekleme
-linktitle: Java'da Belgelere HTML Sıralı Liste Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF for Java kullanarak PDF belgelerine HTML sıralı listelerin nasıl ekleneceğini öğrenin. Kaynak kodlu adım adım kılavuz.
-weight: 11
-url: /tr/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/
+"description": "Aspose.PDF for Java kullanarak PDF belgelerine HTML sıralı listelerin nasıl ekleneceğini öğrenin. Kaynak kodlu adım adım kılavuz."
+"linktitle": "Java'da Belgelere HTML Sıralı Liste Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java'da Belgelere HTML Sıralı Liste Ekleme"
+"url": "/tr/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java'da Belgelere HTML Sıralı Liste Ekleme
@@ -26,7 +28,7 @@ HTML sıralı listeleri, genellikle sayılar veya harflerle sıralı bir düzend
 
 ## Projenize Aspose.PDF for Java Ekleme
 
- Başlamadan önce, Java projenize Aspose.PDF for Java eklemeniz gerekir. Kütüphaneyi web sitesinden indirebilirsiniz.[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) ve verilen kurulum talimatlarını izleyin.
+Başlamadan önce, Java projenize Aspose.PDF for Java eklemeniz gerekir. Kütüphaneyi web sitesinden indirebilirsiniz. [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) ve verilen kurulum talimatlarını izleyin.
 
 ## Yeni Bir PDF Belgesi Oluşturma
 
@@ -39,7 +41,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
 ## PDF'ye HTML Sıralı Liste Ekleme
 
- Sonra, HTML sıralı listesini ayrıştırmanız ve PDF belgesine eklemeniz gerekir. Java için Aspose.PDF, bunu yapmanın kullanışlı bir yolunu sunar`HtmlFragment` sınıf.
+Sonra, HTML sıralı listesini ayrıştırmanız ve PDF belgesine eklemeniz gerekir. Java için Aspose.PDF, bunu yapmanın kullanışlı bir yolunu sunar `HtmlFragment` sınıf.
 
 ```java
 // Bir HTML parçası oluşturun
@@ -77,7 +79,7 @@ Bu eğitimde, Java'da Aspose.PDF for Java kullanarak belgelere HTML sıralı lis
 
 ### Java için Aspose.PDF'yi nasıl indirebilirim?
 
-Java için Aspose.PDF'yi şu web sitesinden indirebilirsiniz:[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Java için Aspose.PDF'yi şu web sitesinden indirebilirsiniz: [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
 ### HTML sıralı liste stilini özelleştirebilir miyim?
 
@@ -89,10 +91,12 @@ Java için Aspose.PDF ticari bir kütüphanedir ve belirli kullanım senaryolar�
 
 ### Aspose.PDF'in Java için sunduğu başka özellikler var mı?
 
- Evet, Java için Aspose.PDF, metin çıkarma, PDF dönüştürme ve daha fazlası dahil olmak üzere PDF belgeleriyle çalışmak için geniş bir özellik yelpazesi sunar. Belgeleri şu adreste inceleyebilirsiniz:[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) Detaylı bilgi için.
+Evet, Java için Aspose.PDF, metin çıkarma, PDF dönüştürme ve daha fazlası dahil olmak üzere PDF belgeleriyle çalışmak için geniş bir özellik yelpazesi sunar. Belgeleri şu adreste inceleyebilirsiniz: [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) Detaylı bilgi için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ย่อหน้าหลายคอลัมน์ในไฟล์ PDF
-linktitle: ย่อหน้าหลายคอลัมน์ในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการสร้างและจัดการย่อหน้าหลายคอลัมน์ในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา
-weight: 250
-url: /th/net/programming-with-text/multicolumn-paragraphs/
+"description": "เรียนรู้วิธีการสร้างและจัดการย่อหน้าหลายคอลัมน์ในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา"
+"linktitle": "ย่อหน้าหลายคอลัมน์ในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ย่อหน้าหลายคอลัมน์ในไฟล์ PDF"
+"url": "/th/net/programming-with-text/multicolumn-paragraphs/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ย่อหน้าหลายคอลัมน์ในไฟล์ PDF
@@ -22,11 +24,11 @@ url: /th/net/programming-with-text/multicolumn-paragraphs/
 ก่อนที่จะเริ่มดำเนินการ คุณต้องมีบางสิ่งที่จำเป็น:
 
 ### วิชวลสตูดิโอ
-ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว หากยังไม่มี คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://visualstudio.microsoft.com/).
+ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว หากยังไม่มี คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://visualstudio-microsoft.com/).
 
 ### Aspose.PDF สำหรับ .NET
 คุณจะต้องรวมไลบรารี Aspose.PDF ไว้ในโปรเจ็กต์ .NET ของคุณ:
--  ดาวน์โหลดโดยตรงจาก[ลิงค์ดาวน์โหลด Aspose](https://releases.aspose.com/pdf/net/).
+- ดาวน์โหลดโดยตรงจาก [ลิงค์ดาวน์โหลด Aspose](https://releases-aspose.com/pdf/net/).
 - นอกจากนี้คุณยังสามารถใช้ตัวจัดการแพ็คเกจ NuGet เพื่อติดตั้งได้
 
 ### ความรู้พื้นฐานเกี่ยวกับ C#
@@ -79,16 +81,16 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // แทนที่ด้วยเ
 ```csharp
 Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
 ```
- ที่นี่เราจะสร้างอินสแตนซ์ของ`Document` คลาสและส่งผ่านเส้นทางของไฟล์ PDF ของเรา ขั้นตอนนี้จะโหลด PDF ซึ่งทำให้เราสามารถทำงานกับไฟล์ได้
+ที่นี่เราจะสร้างอินสแตนซ์ของ `Document` คลาสและส่งผ่านเส้นทางของไฟล์ PDF ของเรา ขั้นตอนนี้จะโหลด PDF ซึ่งทำให้เราสามารถทำงานกับไฟล์ได้
 
 ## ขั้นตอนที่ 3: ตั้งค่าตัวดูดซับย่อหน้า
- ตอนนี้เราต้องใช้`ParagraphAbsorber` ชั้นเรียนที่จะดูดซับย่อหน้าจากเอกสารที่โหลด
+ตอนนี้เราต้องใช้ `ParagraphAbsorber` ชั้นเรียนที่จะดูดซับย่อหน้าจากเอกสารที่โหลด
 
 ```csharp
 ParagraphAbsorber absorber = new ParagraphAbsorber();
 absorber.Visit(doc);
 ```
- นี่คือจุดเริ่มต้นของความมหัศจรรย์!`Visit` วิธีการสแกนเอกสารและรวบรวมย่อหน้าเพื่อประมวลผล
+นี่คือจุดเริ่มต้นของความมหัศจรรย์! `Visit` วิธีการสแกนเอกสารและรวบรวมย่อหน้าเพื่อประมวลผล
 
 ## ขั้นตอนที่ 4: เข้าถึงมาร์กอัปหน้า
 หลังจากดูดซับย่อหน้าแล้ว เราจะดึงมาร์กอัปของหน้าได้
@@ -168,13 +170,15 @@ Aspose.PDF เป็นไลบรารีอันทรงพลังที
 ใช่ คุณสามารถเปิดใช้งานการจัดรูปแบบหลายคอลัมน์ได้ หากโครงสร้าง PDF ของคุณอนุญาต
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.PDF ได้จากที่ใด  
- คุณสามารถค้นหาเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารประกอบได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### มีเวอร์ชันทดลองใช้สำหรับ Aspose หรือไม่  
- ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

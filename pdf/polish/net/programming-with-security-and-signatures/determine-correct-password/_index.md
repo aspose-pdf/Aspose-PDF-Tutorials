@@ -1,14 +1,16 @@
 ---
-title: Określ prawidłowe hasło w pliku PDF
-linktitle: Określ prawidłowe hasło w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Odblokuj pliki PDF za pomocą odpowiedniego hasła, używając Aspose.PDF dla .NET. Dowiedz się, jak łatwo zidentyfikować odpowiednie hasło.
-weight: 30
-url: /pl/net/programming-with-security-and-signatures/determine-correct-password/
+"description": "Odblokuj pliki PDF za pomocą odpowiedniego hasła, używając Aspose.PDF dla .NET. Dowiedz się, jak łatwo zidentyfikować odpowiednie hasło."
+"linktitle": "Określ prawidłowe hasło w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Określ prawidłowe hasło w pliku PDF"
+"url": "/pl/net/programming-with-security-and-signatures/determine-correct-password/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określ prawidłowe hasło w pliku PDF
@@ -24,7 +26,7 @@ Zanim przejdziemy do naszego samouczka, upewnijmy się, że masz wszystko, czego
 ### Oprogramowanie i narzędzia
 
 1. .NET Framework lub .NET Core: Upewnij się, że w środowisku programistycznym zainstalowano .NET Framework lub .NET Core.
-2.  Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF dostępną w swoim projekcie. Możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF dla .NET: Musisz mieć bibliotekę Aspose.PDF dostępną w swoim projekcie. Możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
    
 ### Środowisko programistyczne
 
@@ -33,7 +35,7 @@ Zanim przejdziemy do naszego samouczka, upewnijmy się, że masz wszystko, czego
 
 ### API i licencje
 
--  Jeśli planujesz korzystać z pełnej funkcjonalności Aspose.PDF, rozważ nabycie[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub[stała licencja](https://purchase.aspose.com/buy).
+- Jeśli planujesz korzystać z pełnej funkcjonalności Aspose.PDF, rozważ nabycie [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub [stała licencja](https://purchase.aspose.com/buy).
   
 Gdy wszystko jest już skonfigurowane, możesz odkryć sekrety plików PDF chronionych hasłem!
 
@@ -62,11 +64,11 @@ Install-Package Aspose.PDF
 
 To polecenie pobiera i instaluje plik Aspose.PDF w projekcie, co gwarantuje powodzenie projektu.
 
-Teraz omówmy główne kroki związane z identyfikacją prawidłowego hasła do pliku PDF. Przeprowadzimy przykładową implementację krok po kroku, aby uzyskać jasność.
+Teraz omówmy główne kroki związane z identyfikacją prawidłowego hasła do pliku PDF. Przejdziemy przez przykładową implementację krok po kroku, aby uzyskać jasność.
 
 ## Krok 1: Ustaw ścieżkę pliku
 
- Przed wszystkim musisz określić ścieżkę do pliku PDF, z którym pracujesz. Pamiętaj, aby zastąpić`"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF.
+Przed wszystkim musisz określić ścieżkę do pliku PDF, z którym pracujesz. Pamiętaj, aby zastąpić `"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik PDF.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -74,14 +76,14 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## Krok 2: Załaduj plik źródłowy PDF
 
- Następnie wykorzystaj`PdfFileInfo` aby załadować plik źródłowy PDF:
+Następnie wykorzystaj `PdfFileInfo` aby załadować plik źródłowy PDF:
 
 ```csharp
 PdfFileInfo info = new PdfFileInfo();
 info.BindPdf(dataDir + "IsPasswordProtected.pdf");
 ```
 
- Ten krok wiąże plik PDF z`info` obiekt, co pozwala nam na dostęp do jego właściwości.
+Ten krok wiąże plik PDF z `info` obiekt, co pozwala nam na dostęp do jego właściwości.
 
 ## Krok 3: Sprawdź, czy plik PDF jest zaszyfrowany
 
@@ -91,7 +93,7 @@ Teraz nadszedł czas, aby sprawdzić, czy dokument PDF jest rzeczywiście chroni
 Console.WriteLine("File is password protected " + info.IsEncrypted);
 ```
 
- Sprawdzając`IsEncrypted` nieruchomość, możesz sprawdzić status blokady dokumentu. Jeśli to jest`true`, to będziesz musiał złamać kod!
+Sprawdzając `IsEncrypted` nieruchomość, możesz sprawdzić status blokady dokumentu. Jeśli to jest `true`, to będziesz musiał złamać kod!
 
 ## Krok 4: Przygotuj listę możliwych haseł
 
@@ -133,7 +135,7 @@ I masz to! Teraz nauczyłeś się, jak ustalić prawidłowe hasło do pliku PDF 
 Aspose.PDF dla platformy .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i zarządzanie dokumentami PDF.
 
 ### Czy mogę wypróbować Aspose.PDF za darmo?
- Tak, możesz pobrać bezpłatną wersję próbną Aspose.PDF[Tutaj](https://releases.aspose.com).
+Tak, możesz pobrać bezpłatną wersję próbną Aspose.PDF [Tutaj](https://releases.aspose.com).
 
 ### Co zrobić, jeśli zapomniałem hasła do pliku PDF?
 Jeśli masz kilka potencjalnych haseł, możesz użyć metody opisanej powyżej, aby spróbować je odblokować. Upewnij się jednak, że przestrzegasz wytycznych prawnych.
@@ -142,10 +144,12 @@ Jeśli masz kilka potencjalnych haseł, możesz użyć metody opisanej powyżej,
 Odblokowanie pliku PDF jest legalne tylko wtedy, gdy masz prawo dostępu do treści. Zawsze upewnij się, że masz pozwolenie, zanim spróbujesz ominąć jakiekolwiek zabezpieczenia.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.PDF?
- przypadku pytań i pomocy możesz odwiedzić stronę[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+W przypadku pytań i pomocy możesz odwiedzić stronę [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

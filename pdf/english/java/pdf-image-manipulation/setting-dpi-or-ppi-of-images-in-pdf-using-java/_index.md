@@ -8,7 +8,9 @@ url: /java/pdf-image-manipulation/setting-dpi-or-ppi-of-images-in-pdf-using-java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting DPI or PPI of Images in PDF using Java
@@ -93,6 +95,7 @@ The recommended DPI/PPI values depend on the intended use of the PDF. For web di
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

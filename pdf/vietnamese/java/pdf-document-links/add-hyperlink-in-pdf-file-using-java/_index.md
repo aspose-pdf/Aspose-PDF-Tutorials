@@ -1,14 +1,16 @@
 ---
-title: Thêm siêu liên kết vào tệp PDF bằng Java
-linktitle: Thêm siêu liên kết vào tệp PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thêm siêu liên kết vào tệp PDF bằng Java với hướng dẫn từng bước và mã nguồn. Nâng cao tài liệu PDF của bạn bằng tính tương tác.
-weight: 13
-url: /vi/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/
+"description": "Tìm hiểu cách thêm siêu liên kết vào tệp PDF bằng Java với hướng dẫn từng bước và mã nguồn. Nâng cao tài liệu PDF của bạn bằng tính tương tác."
+"linktitle": "Thêm siêu liên kết vào tệp PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm siêu liên kết vào tệp PDF bằng Java"
+"url": "/vi/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm siêu liên kết vào tệp PDF bằng Java
@@ -20,7 +22,7 @@ Siêu liên kết trong tệp PDF là một tính năng có giá trị để tă
 
 ## Hiểu về siêu liên kết trong PDF
 
-Siêu liên kết trong PDF là các thành phần có thể nhấp được, có thể đưa người đọc đến một trang khác trong cùng một tài liệu, một trang web bên ngoài hoặc thậm chí khởi chạy một ứng dụng. Chúng rất cần thiết để tạo các tài liệu PDF tương tác và thân thiện với người dùng.
+Siêu liên kết trong PDF là các thành phần có thể nhấp vào để đưa người đọc đến một trang khác trong cùng một tài liệu, một trang web bên ngoài hoặc thậm chí khởi chạy một ứng dụng. Chúng rất cần thiết để tạo các tài liệu PDF tương tác và thân thiện với người dùng.
 
 ## Công cụ và thư viện cho Java PDF Manipulation
 
@@ -30,7 +32,7 @@ Trước khi bắt đầu triển khai, hãy đảm bảo bạn có các công c
 - Môi trường phát triển tích hợp (IDE) theo lựa chọn của bạn (ví dụ: Eclipse, IntelliJ IDEA)
 - Aspose.PDF cho thư viện Java
 
- Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống thư viện Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thêm siêu liên kết vào PDF bằng Aspose.PDF cho Java
 
@@ -105,9 +107,11 @@ Có, còn có các thư viện khác như iText và PDFBox cũng có thể đư�
 ### Làm thế nào để tùy chỉnh giao diện của siêu liên kết trong PDF?
 
 Bạn có thể thiết lập nhiều thuộc tính khác nhau của siêu liên kết, chẳng hạn như màu sắc, kiểu đường viền và tô sáng để tùy chỉnh giao diện của chúng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

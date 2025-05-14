@@ -1,14 +1,16 @@
 ---
-title: Đếm hiện vật trong tệp PDF
-linktitle: Đếm hiện vật trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách đếm hình mờ trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước dành cho người mới bắt đầu không cần kinh nghiệm trước đó.
-weight: 60
-url: /vi/net/programming-with-stamps-and-watermarks/counting-artifacts/
+"description": "Tìm hiểu cách đếm hình mờ trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước dành cho người mới bắt đầu không cần kinh nghiệm trước đó."
+"linktitle": "Đếm hiện vật trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đếm hiện vật trong tệp PDF"
+"url": "/vi/net/programming-with-stamps-and-watermarks/counting-artifacts/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đếm hiện vật trong tệp PDF
@@ -22,9 +24,9 @@ Khi nói đến việc xử lý PDF, có thể có rất nhiều thành phần �
 Trước khi chúng ta tìm hiểu mã và bắt đầu trích xuất số lượng hiện vật khó nắm bắt đó, bạn cần phải có một số điều kiện tiên quyết sau:
 
 1. Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Có thể là Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
-2. Aspose.PDF cho .NET: Bạn sẽ cần cài đặt thư viện Aspose.PDF. Bạn có thể dễ dàng thực hiện việc này thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống từ[Trang web Aspose](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần cài đặt thư viện Aspose.PDF. Bạn có thể dễ dàng thực hiện việc này thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống từ [Trang web Aspose](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Cần có hiểu biết cơ bản về lập trình C# để làm theo hướng dẫn này.
-4.  Mẫu tài liệu PDF: Chuẩn bị một tệp PDF mẫu, có thể đặt tên`watermark.pdf`. Tài liệu này phải chứa một số hình mờ để kiểm tra số lượng hiện vật của chúng tôi.
+4. Mẫu tài liệu PDF: Chuẩn bị một tệp PDF mẫu, có thể đặt tên `watermark.pdf`. Tài liệu này phải chứa một số hình mờ để kiểm tra số lượng hiện vật của chúng tôi.
 
 Bây giờ bạn đã đáp ứng được các điều kiện tiên quyết, chúng ta hãy chuyển sang phần quan trọng nhất—nhập các gói cần thiết!
 
@@ -44,14 +46,14 @@ Bây giờ chúng ta hãy đi sâu vào chi tiết. Chúng tôi sẽ chia nhỏ 
 
 ## Bước 1: Thiết lập thư mục tài liệu
 
- Trước tiên, bạn cần thiết lập đường dẫn đến thư mục tài liệu nơi lưu trữ các tệp PDF của bạn. Điều này rất cần thiết để định vị`watermark.pdf` tài liệu.
+Trước tiên, bạn cần thiết lập đường dẫn đến thư mục tài liệu nơi lưu trữ các tệp PDF của bạn. Điều này rất cần thiết để định vị `watermark.pdf` tài liệu.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay thế bằng đường dẫn thực tế của bạn
 ```
 
- Bạn sẽ muốn đảm bảo rằng`dataDir` biến trỏ đến vị trí chính xác của tệp PDF của bạn. 
+Bạn sẽ muốn đảm bảo rằng `dataDir` biến trỏ đến vị trí chính xác của tệp PDF của bạn. 
 
 ## Bước 2: Mở Tài liệu
 
@@ -62,7 +64,7 @@ Tiếp theo, chúng ta sẽ mở tài liệu PDF bằng Aspose.PDF. Ở bước 
 Document pdfDocument = new Document(dataDir + "watermark.pdf");
 ```
 
- Ở đây, chúng ta đang tạo ra một cái mới`Document` đối tượng cho tệp PDF của chúng tôi. Đối tượng này hiện đại diện cho dữ liệu trong tệp PDF của bạn, cho phép chúng tôi thao tác hoặc trích xuất thông tin từ tệp đó.
+Ở đây, chúng ta đang tạo ra một cái mới `Document` đối tượng cho tệp PDF của chúng tôi. Đối tượng này hiện đại diện cho dữ liệu trong tệp PDF của bạn, cho phép chúng tôi thao tác hoặc trích xuất thông tin từ tệp đó.
 
 ## Bước 3: Khởi tạo Bộ đếm
 
@@ -86,7 +88,7 @@ foreach (Artifact artifact in pdfDocument.Pages[1].Artifacts)
 }
 ```
 
-Trong đoạn mã này, chúng ta sẽ lặp lại từng hiện vật và kiểm tra xem loại phụ của nó có khớp với loại phụ của hình mờ không. Nếu khớp, chúng ta sẽ khôn ngoan tăng bộ đếm của mình!
+Trong đoạn mã này, chúng ta sẽ lặp lại từng hiện vật và kiểm tra xem kiểu con của nó có khớp với kiểu con của hình mờ không. Nếu khớp, chúng ta sẽ khôn ngoan tăng bộ đếm của mình!
 
 ## Bước 5: Xuất kết quả
 
@@ -116,13 +118,15 @@ Có! Bạn chỉ cần kiểm tra xem tình trạng của mình có phù hợp v
 Aspose.PDF là một sản phẩm thương mại, nhưng bạn có thể dùng thử miễn phí với phiên bản dùng thử. 
 
 ### Tôi có thể tìm thêm ví dụ ở đâu?  
- Bạn có thể kiểm tra Aspose's[tài liệu](https://reference.aspose.com/pdf/net/)để biết thêm hướng dẫn và ví dụ.
+Bạn có thể kiểm tra Aspose's [tài liệu](https://reference.aspose.com/pdf/net/) để biết thêm hướng dẫn và ví dụ.
 
 ### Làm thế nào để mua giấy phép cho Aspose.PDF?  
- Bạn có thể mua giấy phép cho Aspose.PDF từ họ[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép cho Aspose.PDF từ họ [trang mua hàng](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

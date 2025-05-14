@@ -1,14 +1,16 @@
 ---
-title: Nhận văn bản siêu liên kết trong tệp PDF
-linktitle: Nhận văn bản siêu liên kết trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất văn bản siêu liên kết dễ dàng từ tệp PDF bằng Aspose.PDF cho .NET. Có hướng dẫn từng bước và mã kèm theo.
-weight: 70
-url: /vi/net/programming-with-links-and-actions/get-hyperlink-text/
+"description": "Tìm hiểu cách trích xuất văn bản siêu liên kết dễ dàng từ tệp PDF bằng Aspose.PDF cho .NET. Có hướng dẫn từng bước và mã kèm theo."
+"linktitle": "Nhận văn bản siêu liên kết trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhận văn bản siêu liên kết trong tệp PDF"
+"url": "/vi/net/programming-with-links-and-actions/get-hyperlink-text/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận văn bản siêu liên kết trong tệp PDF
@@ -21,9 +23,9 @@ Khi làm việc với các tệp PDF, việc trích xuất siêu liên kết có
 
 Trước khi bắt đầu hành trình trích xuất văn bản siêu liên kết từ tệp PDF, bạn cần lưu ý một số điều cần thiết sau để bắt đầu:
 
-1. Kiến thức cơ bản về C#: Nắm vững lập trình C# sẽ rất hữu ích vì chúng ta sẽ phải viết một số mã.
+1. Kiến thức cơ bản về C#: Nắm vững lập trình C# sẽ rất hữu ích vì chúng ta sẽ viết một số mã.
 2. Đã cài Visual Studio: Đảm bảo bạn đã cài Visual Studio trên máy của mình. Đây sẽ là sân chơi để chúng ta viết và kiểm tra mã.
-3.  Aspose.PDF cho .NET: Bạn sẽ cần phải có thư viện Aspose.PDF. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/)hoặc bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
+3. Aspose.PDF cho .NET: Bạn sẽ cần phải có thư viện Aspose.PDF. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/) hoặc bắt đầu với bản dùng thử miễn phí có sẵn [đây](https://releases.aspose.com/).
 
 ## Nhập gói
 
@@ -37,7 +39,7 @@ Bắt đầu bằng cách mở Visual Studio và tạo một dự án Ứng dụ
 
 1. Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
 2. Chọn "Quản lý gói NuGet".
-3.  Tìm kiếm`Aspose.PDF` và cài đặt nó.
+3. Tìm kiếm `Aspose.PDF` và cài đặt nó.
 4. Điều này sẽ cho phép bạn truy cập vào tất cả các lớp và phương thức tuyệt vời do Aspose.PDF cung cấp.
 
 ```csharp
@@ -59,11 +61,11 @@ Trong mã của chúng ta, trước tiên chúng ta cần chỉ định đườn
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế của tệp PDF của bạn. Ví dụ, nó có thể trông giống như`"C:\\Documents\\"`.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế của tệp PDF của bạn. Ví dụ, nó có thể trông giống như `"C:\\Documents\\"`.
 
 ## Bước 2: Tải Tài liệu PDF
 
- Bước tiếp theo liên quan đến việc tải tệp PDF để chúng ta có thể bắt đầu xử lý nó. Chúng ta sẽ tạo một phiên bản của`Document` lớp và truyền đường dẫn tệp của chúng ta tới lớp đó.
+Bước tiếp theo liên quan đến việc tải tệp PDF để chúng ta có thể bắt đầu xử lý nó. Chúng ta sẽ tạo một phiên bản của `Document` lớp và truyền đường dẫn tệp của chúng ta tới lớp đó.
 
 ```csharp
 Document document = new Document(dataDir + "input.pdf");
@@ -83,7 +85,7 @@ foreach (Page page in document.Pages)
 }
 ```
 
- Trong vòng lặp này, chúng ta sẽ định nghĩa một phương thức được gọi là`ShowLinkAnnotations` sẽ xử lý việc trích xuất các siêu liên kết. 
+Trong vòng lặp này, chúng ta sẽ định nghĩa một phương thức được gọi là `ShowLinkAnnotations` sẽ xử lý việc trích xuất các siêu liên kết. 
 
 ## Bước 4: Xác định phương thức ShowLinkAnnotations
 
@@ -103,8 +105,8 @@ private static void ShowLinkAnnotations(Page page)
 }
 ```
 
--  Kiểm tra xem chú thích có phải là liên kết không: Ở đây, chúng tôi kiểm tra xem chú thích trên trang có phải là liên kết không`LinkAnnotation`. Nếu đúng như vậy, chúng ta sẽ tiến hành trích xuất tiêu đề và URI của nó.
--  Hiển thị văn bản siêu liên kết: Sử dụng`Console.WriteLine`, chúng tôi in ra văn bản liên kết và URI tương ứng.
+- Kiểm tra xem chú thích có phải là liên kết không: Ở đây, chúng tôi kiểm tra xem chú thích trên trang có phải là liên kết không `LinkAnnotation`Nếu đúng như vậy, chúng ta sẽ tiến hành trích xuất tiêu đề và URI của nó.
+- Hiển thị văn bản siêu liên kết: Sử dụng `Console.WriteLine`, chúng tôi in ra văn bản liên kết và URI tương ứng.
 
 ## Bước 5: Xử lý ngoại lệ
 
@@ -133,7 +135,7 @@ Xin chúc mừng! Bạn đã học thành công cách trích xuất văn bản s
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Có phiên bản miễn phí không?
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể trích xuất loại siêu liên kết nào?
 Bạn có thể trích xuất bất kỳ siêu liên kết nào có trong PDF, cho dù đó là URL web thông thường hay liên kết tham chiếu chéo trong tài liệu.
@@ -142,10 +144,12 @@ Bạn có thể trích xuất bất kỳ siêu liên kết nào có trong PDF, c
 Hoàn toàn đúng! Aspose.PDF cung cấp chức năng trích xuất không chỉ siêu liên kết mà còn cả hình ảnh và văn bản từ PDF.
 
 ### Tôi có thể tìm thêm tài nguyên Aspose.PDF ở đâu?
- Để biết tài liệu chi tiết, hãy truy cập[Tài liệu PDF Aspose](https://reference.aspose.com/pdf/net/).
+Để biết tài liệu chi tiết, hãy truy cập [Tài liệu PDF Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

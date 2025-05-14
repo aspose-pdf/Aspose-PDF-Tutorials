@@ -1,14 +1,16 @@
 ---
-title: Określ postęp do pliku PDF
-linktitle: Określ postęp do pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: W tym kompleksowym przewodniku dowiesz się, jak sprawdzać postęp konwersji plików PDF przy użyciu Aspose.PDF dla platformy .NET.
-weight: 110
-url: /pl/net/programming-with-document/determineprogress/
+"description": "W tym kompleksowym przewodniku dowiesz się, jak sprawdzać postęp konwersji plików PDF przy użyciu Aspose.PDF dla platformy .NET."
+"linktitle": "Określ postęp do pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Określ postęp do pliku PDF"
+"url": "/pl/net/programming-with-document/determineprogress/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określ postęp do pliku PDF
@@ -23,7 +25,7 @@ Zanim rozpoczniemy naszą podróż do świata edycji plików PDF z Aspose.PDF, m
 
 1. Visual Studio: Będziesz potrzebować zainstalowanego na swoim komputerze Microsoft Visual Studio. Zapewnia ono zintegrowane środowisko programistyczne (IDE) do pisania i debugowania aplikacji .NET.
 2. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework. Aspose.PDF obsługuje różne wersje .NET Framework, więc wybierz tę, która odpowiada Twoim potrzebom.
-3.  Biblioteka Aspose.PDF: Pobierz bibliotekę Aspose.PDF. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/) aby zacząć. Dostępna jest również wersja ewaluacyjna[Tutaj](https://releases.aspose.com/).
+3. Biblioteka Aspose.PDF: Pobierz bibliotekę Aspose.PDF. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/) aby zacząć. Dostępna jest również wersja ewaluacyjna [Tutaj](https://releases.aspose.com/).
 4. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci zrozumieć dostarczone fragmenty kodu i przykłady.
 5. Przykładowy dokument PDF: Przygotuj przykładowy dokument PDF do testowania. Może to być dowolny plik PDF, którym chcesz manipulować.
 
@@ -60,19 +62,19 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "AddTOC.pdf");
 ```
 
--  Zacznijmy od zdefiniowania`dataDir` , który powinien wskazywać na katalog, w którym znajduje się plik PDF. Upewnij się, że zastąpiłeś`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie.
--  Ten`Document` Klasa jest kluczowa, ponieważ reprezentuje plik PDF, który ładujemy. Konstruktor przyjmuje ścieżkę pliku, pozwalając nam pracować z otwartym plikiem.
+- Zacznijmy od zdefiniowania `dataDir`który powinien wskazywać na katalog, w którym znajduje się plik PDF. Upewnij się, że zastąpiłeś `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie.
+- Ten `Document` Klasa jest kluczowa, ponieważ reprezentuje plik PDF, który ładujemy. Konstruktor przyjmuje ścieżkę pliku, pozwalając nam pracować z otwartym plikiem.
 
 ## Krok 2: Skonfiguruj opcje zapisywania 
 
- Potrzebujemy`DocSaveOptions` aby dostosować sposób zapisywania dokumentu po konwersji.
+Potrzebujemy `DocSaveOptions` aby dostosować sposób zapisywania dokumentu po konwersji.
 
 ```csharp
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.CustomProgressHandler = new UnifiedSaveOptions.ConversionProgressEventHandler(ShowProgressOnConsole);
 ```
 
-- Tutaj tworzymy instancję`DocSaveOptions`, która umożliwia nam określenie opcji zapisywania dokumentu PDF.
+- Tutaj tworzymy instancję `DocSaveOptions`, która umożliwia nam określenie opcji zapisywania dokumentu PDF.
 - Ustawiliśmy niestandardowy handler postępu, który zdefiniujemy w następnym kroku. Ten handler będzie dostarczał informacji zwrotnych w czasie rzeczywistym na temat postępu konwersji.
 
 ## Krok 3: Pokaż postęp na konsoli
@@ -86,7 +88,7 @@ private void ShowProgressOnConsole(ConversionProgressEventArgs args)
 }
 ```
 
--  Ten`ShowProgressOnConsole` funkcja wykorzystuje`ConversionProgressEventArgs` aby uzyskać dostęp do procentowego postępu konwersji.
+- Ten `ShowProgressOnConsole` funkcja wykorzystuje `ConversionProgressEventArgs` aby uzyskać dostęp do procentowego postępu konwersji.
 - Wyświetla bieżący postęp na konsoli, zapewniając interesujący sposób śledzenia, jaka część dokumentu została już przetworzona.
 
 ## Krok 4: Zapisz dokument
@@ -99,13 +101,13 @@ pdfDocument.Save(dataDir, saveOptions);
 Console.ReadLine();
 ```
 
--  Tutaj dostosowujemy`dataDir` ponownie, aby określić ścieżkę wyjściową dla nowo utworzonego pliku PDF.
--  Wykorzystujemy`Save` metoda na naszej`pdfDocument` obiekt, przekazując ścieżkę do pliku wyjściowego i naszą skonfigurowaną`saveOptions`.
--  Wreszcie,`Console.ReadLine()`służy do wstrzymania okna konsoli, umożliwiając zobaczenie wyników przed jego zamknięciem.
+- Tutaj dostosowujemy `dataDir` ponownie, aby określić ścieżkę wyjściową dla nowo utworzonego pliku PDF.
+- Wykorzystujemy `Save` metoda na naszej `pdfDocument` obiekt, przekazując ścieżkę do pliku wyjściowego i naszą skonfigurowaną `saveOptions`.
+- Wreszcie, `Console.ReadLine()` służy do wstrzymania okna konsoli, umożliwiając zobaczenie wyników przed jego zamknięciem.
 
 ## Wniosek
 
- Gratulacje! Właśnie nauczyłeś się, jak określić postęp konwersji PDF za pomocą Aspose.PDF dla .NET. Postępując zgodnie z tymi prostymi krokami, możesz skutecznie zintegrować funkcje manipulacji PDF ze swoimi aplikacjami. Pamiętaj, że ta biblioteka oferuje szeroki wachlarz możliwości wykraczających poza postęp konwersji, więc nie wahaj się zapoznać z jej obszerną dokumentacją[Tutaj](https://reference.aspose.com/pdf/net/).
+Gratulacje! Właśnie nauczyłeś się, jak określić postęp konwersji PDF za pomocą Aspose.PDF dla .NET. Postępując zgodnie z tymi prostymi krokami, możesz skutecznie zintegrować funkcje manipulacji PDF ze swoimi aplikacjami. Pamiętaj, że ta biblioteka oferuje szeroki wachlarz możliwości wykraczających poza postęp konwersji, więc nie wahaj się zapoznać z jej obszerną dokumentacją [Tutaj](https://reference.aspose.com/pdf/net/).
 
 
 ## Najczęściej zadawane pytania
@@ -114,19 +116,21 @@ Console.ReadLine();
 Aspose.PDF dla platformy .NET to kompleksowa biblioteka umożliwiająca programistom tworzenie, modyfikowanie i edycję dokumentów PDF w aplikacjach .NET.
 
 ### Czy mogę wypróbować Aspose.PDF za darmo?  
- Tak! Możesz uzyskać bezpłatną wersję próbną Aspose.PDF odwiedzając[ten link](https://releases.aspose.com/).
+Tak! Możesz uzyskać bezpłatną wersję próbną Aspose.PDF odwiedzając [ten link](https://releases.aspose.com/).
 
 ### Jak mogę zakupić Aspose.PDF?  
- Możesz kupić Aspose.PDF bezpośrednio ze strony internetowej. Oto[link do zakupu](https://purchase.aspose.com/buy).
+Możesz kupić Aspose.PDF bezpośrednio ze strony internetowej. Oto [link do zakupu](https://purchase.aspose.com/buy).
 
 ### Czy istnieje forum wsparcia dla użytkowników Aspose.PDF?  
- Oczywiście! Możesz znaleźć wsparcie społeczności na forum Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Oczywiście! Możesz znaleźć wsparcie społeczności na forum Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Jak uzyskać tymczasową licencję na Aspose.PDF?  
- Aby poprosić o tymczasową licencję na potrzeby oceny, skorzystaj z poniższego łącza:[Licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+Aby poprosić o tymczasową licencję na potrzeby oceny, skorzystaj z poniższego łącza: [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Объединить PDF-файлы
-linktitle: Объединить PDF-файлы
-second_title: Справочник по API Aspose.PDF для .NET
-description: Объединяйте PDF-файлы без труда с помощью Aspose.PDF для .NET с помощью этого подробного пошагового руководства.
-weight: 20
-url: /ru/net/programming-with-pdf-pages/concatenate-pdf-files/
+"description": "Объединяйте PDF-файлы без труда с помощью Aspose.PDF для .NET с помощью этого подробного пошагового руководства."
+"linktitle": "Объединить PDF-файлы"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Объединить PDF-файлы"
+"url": "/ru/net/programming-with-pdf-pages/concatenate-pdf-files/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Объединить PDF-файлы
@@ -27,7 +29,7 @@ url: /ru/net/programming-with-pdf-pages/concatenate-pdf-files/
 
 ### Библиотека Aspose.PDF
 
- Далее вам нужна библиотека Aspose.PDF. Этот мощный инструмент позволяет вам легко создавать, изменять и конвертировать файлы PDF. Вы можете загрузить его с веб-сайта Aspose, используя[эта ссылка](https://releases.aspose.com/pdf/net/).
+Далее вам понадобится библиотека Aspose.PDF. Этот мощный инструмент позволяет вам легко создавать, изменять и конвертировать файлы PDF. Вы можете загрузить его с веб-сайта Aspose, используя [эта ссылка](https://releases.aspose.com/pdf/net/).
 
 ### Среда разработки
 
@@ -58,7 +60,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Указывая каталог документов, вы гарантируете, что ваше приложение сможет найти необходимые файлы без каких-либо сбоев. На этом этапе обязательно замените`"YOUR DOCUMENT DIRECTORY"` фактическим путем в вашей системе, где находятся PDF-файлы.
+Указывая каталог документов, вы гарантируете, что ваше приложение сможет найти необходимые файлы без каких-либо сбоев. На этом этапе обязательно замените `"YOUR DOCUMENT DIRECTORY"` фактическим путем в вашей системе, где находятся PDF-файлы.
 
 ## Шаг 2: Откройте первый PDF-документ.
 
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument1 = new Document(dataDir + "Concat1.pdf");
 ```
 
- То, что мы здесь делаем, это создание нового`Document`объект и передача ему пути первого файла PDF. Это действие загружает файл в память для манипуляции.
+То, что мы здесь делаем, это создание нового `Document` объект и передача ему пути первого файла PDF. Это действие загружает файл в память для манипуляции.
 
 ## Шаг 3: Откройте второй PDF-документ.
 
@@ -122,19 +124,21 @@ System.Console.WriteLine("\nPDFs are concatenated successfully.\nFile saved at "
 Aspose.PDF для .NET — это библиотека, которая позволяет разработчикам создавать, изменять и конвертировать PDF-файлы.
 
 ### Могу ли я использовать Aspose.PDF бесплатно?  
-Да! Aspose предлагает бесплатную пробную версию, которую вы можете использовать для изучения библиотеки. Проверьте ее[здесь](https://releases.aspose.com/).
+Да! Aspose предлагает бесплатную пробную версию, которую вы можете использовать для изучения библиотеки. Проверьте ее [здесь](https://releases.aspose.com/).
 
 ### Как приобрести Aspose.PDF для .NET?  
-Вы можете купить Aspose.PDF, посетив[страница покупки](https://purchase.aspose.com/buy).
+Вы можете купить Aspose.PDF, посетив [страница покупки](https://purchase.aspose.com/buy).
 
 ### Доступна ли поддержка для Aspose.PDF?  
- Конечно! Вы можете получить поддержку от[Форум Aspose](https://forum.aspose.com/c/pdf/10).
+Конечно! Вы можете получить поддержку от [Форум Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Могу ли я получить временную лицензию на Aspose.PDF?  
- Да, Aspose предлагает временную лицензию, которую вы можете запросить[здесь](https://purchase.aspose.com/temporary-license/).
+Да, Aspose предлагает временную лицензию, которую вы можете запросить [здесь](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

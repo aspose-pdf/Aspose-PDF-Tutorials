@@ -1,14 +1,16 @@
 ---
-title: Lấy thông tin đính kèm
-linktitle: Lấy thông tin đính kèm
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách lấy tệp đính kèm PDF trong Java bằng Aspose.PDF. Hướng dẫn từng bước với các ví dụ mã để quản lý tệp đính kèm tài liệu PDF.
-weight: 12
-url: /vi/java/pdf-attachments/retrieve-attachment-information/
+"description": "Tìm hiểu cách lấy tệp đính kèm PDF trong Java bằng Aspose.PDF. Hướng dẫn từng bước với các ví dụ mã để quản lý tệp đính kèm tài liệu PDF."
+"linktitle": "Lấy thông tin đính kèm"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Lấy thông tin đính kèm"
+"url": "/vi/java/pdf-attachments/retrieve-attachment-information/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy thông tin đính kèm
@@ -23,7 +25,7 @@ Trong hướng dẫn này, bạn sẽ học cách sử dụng Aspose.PDF cho Jav
 Trước khi bắt đầu, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 
 1. Đã cài đặt Môi trường phát triển Java (JDK).
-2.  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Bước 1: Tạo một dự án Java
 
@@ -75,7 +77,7 @@ Trong hướng dẫn này, bạn đã học cách lấy thông tin tệp đính 
 
 ### Làm thế nào để trích xuất tệp đính kèm từ tệp PDF?
 
- Để trích xuất các tệp đính kèm, bạn có thể sử dụng`attachment.getData()` phương pháp lấy nội dung tệp đính kèm và sau đó lưu vào tệp cục bộ.
+Để trích xuất các tệp đính kèm, bạn có thể sử dụng `attachment.getData()` phương pháp lấy nội dung tệp đính kèm và sau đó lưu vào tệp cục bộ.
 
 ### Tôi có thể sửa đổi tệp đính kèm trong tài liệu PDF không?
 Có, bạn có thể thêm, xóa hoặc cập nhật tệp đính kèm trong tài liệu PDF bằng Aspose.PDF cho Java. Tham khảo tài liệu để biết thêm chi tiết.
@@ -86,10 +88,12 @@ Aspose.PDF for Java hỗ trợ nhiều định dạng tệp đính kèm, bao g�
 
 ### Làm thế nào để thêm tệp đính kèm mới vào PDF?
 
- Bạn có thể thêm tệp đính kèm vào tài liệu PDF bằng cách sử dụng`AttachmentCollection.add()`phương pháp. Chỉ cần cung cấp tên, mô tả và nội dung của tệp đính kèm và nó sẽ được thêm vào tài liệu.
+Bạn có thể thêm tệp đính kèm vào tài liệu PDF bằng cách sử dụng `AttachmentCollection.add()` phương pháp. Chỉ cần cung cấp tên, mô tả và nội dung của tệp đính kèm và nó sẽ được thêm vào tài liệu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

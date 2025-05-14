@@ -1,17 +1,19 @@
 ---
-title: Chuyển đổi HTML sang tệp PDF
-linktitle: Chuyển đổi HTML sang tệp PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách chuyển đổi tệp HTML sang PDF dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để tạo tài liệu hiệu quả.
-weight: 11
-url: /vi/java/pdf-conversion-transformation/convert-html-to-pdf-files/
+"description": "Tìm hiểu cách chuyển đổi tệp HTML sang PDF dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước với các ví dụ mã để tạo tài liệu hiệu quả."
+"linktitle": "Chuyển đổi tệp HTML sang PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Chuyển đổi tệp HTML sang PDF"
+"url": "/vi/java/pdf-conversion-transformation/convert-html-to-pdf-files/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chuyển đổi HTML sang tệp PDF
+# Chuyển đổi tệp HTML sang PDF
 
 
 ## Giới thiệu về Chuyển đổi tệp HTML sang PDF
@@ -34,7 +36,7 @@ Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn đã thiết lậ
 
 ### Bước 1: Thêm phụ thuộc Aspose.PDF
 
- Để bắt đầu, hãy tạo một dự án Java mới trong IDE của bạn. Sau đó, thêm Aspose.PDF cho Java dependency vào dự án của bạn. Bạn có thể thực hiện việc này bằng cách bao gồm Maven dependency sau trong`pom.xml` tài liệu:
+Để bắt đầu, hãy tạo một dự án Java mới trong IDE của bạn. Sau đó, thêm Aspose.PDF cho Java dependency vào dự án của bạn. Bạn có thể thực hiện việc này bằng cách bao gồm Maven dependency sau trong `pom.xml` tài liệu:
 
 ```xml
 <dependency>
@@ -89,7 +91,7 @@ Trong hướng dẫn toàn diện này, chúng tôi đã khám phá quy trình c
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Để cài đặt Aspose.PDF cho Java, bạn có thể tải xuống thư viện từ trang web[đây](https://releases.aspose.com/pdf/java/) và thêm nó vào dự án Java của bạn như là một phần phụ thuộc.
+Để cài đặt Aspose.PDF cho Java, bạn có thể tải xuống thư viện từ trang web [đây](https://releases.aspose.com/pdf/java/) và thêm nó vào dự án Java của bạn như là một phần phụ thuộc.
 
 ### Tôi có thể chuyển đổi các trang HTML phức tạp không?
 
@@ -106,9 +108,11 @@ Bạn có thể thiết lập lề trang trong PDF bằng Aspose.PDF cho Java b�
 ### Có bất kỳ hạn chế nào khi chuyển đổi HTML sang PDF không?
 
 Mặc dù Aspose.PDF for Java rất linh hoạt, các trang web phức tạp với nội dung động có thể yêu cầu cấu hình bổ sung để chuyển đổi tối ưu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

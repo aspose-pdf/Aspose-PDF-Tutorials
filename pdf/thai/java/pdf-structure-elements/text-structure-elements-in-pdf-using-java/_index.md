@@ -1,14 +1,16 @@
 ---
-title: องค์ประกอบโครงสร้างข้อความใน PDF โดยใช้ Java
-linktitle: องค์ประกอบโครงสร้างข้อความใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการจัดการโครงสร้างข้อความ PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java สำรวจคำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดการข้อความ PDF อย่างมีประสิทธิภาพ
-weight: 14
-url: /th/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/
+"description": "เรียนรู้วิธีการจัดการโครงสร้างข้อความ PDF ใน Java โดยใช้ Aspose.PDF สำหรับ Java สำรวจคำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดการข้อความ PDF อย่างมีประสิทธิภาพ"
+"linktitle": "องค์ประกอบโครงสร้างข้อความใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "องค์ประกอบโครงสร้างข้อความใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # องค์ประกอบโครงสร้างข้อความใน PDF โดยใช้ Java
@@ -20,7 +22,7 @@ url: /th/java/pdf-structure-elements/text-structure-elements-in-pdf-using-java/
 
 ## การเริ่มต้น
 
- ก่อนที่เราจะเจาะลึกรายละเอียด โปรดตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.PDF สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จากเว็บไซต์[ที่นี่](https://releases.aspose.com/pdf/java/).
+ก่อนที่เราจะเจาะลึกรายละเอียด โปรดตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.PDF สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จากเว็บไซต์ [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การตั้งค่าโครงการ Java ของคุณ
 
@@ -42,7 +44,7 @@ com.aspose.pdf.Page page = pdfDocument.getPages().add();
 // สร้างวัตถุ TextFragment
 com.aspose.pdf.TextFragment textFragment = new com.aspose.pdf.TextFragment("Hello, Aspose.PDF!");
 
-//ตั้งค่าคุณสมบัติของข้อความ (แบบอักษร, ขนาด, สี ฯลฯ)
+// ตั้งค่าคุณสมบัติของข้อความ (แบบอักษร, ขนาด, สี, ฯลฯ)
 textFragment.getTextState().setFont(com.aspose.pdf.FontRepository.findFont("Arial"));
 textFragment.getTextState().setFontSize(12);
 textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getBlack());
@@ -135,10 +137,12 @@ Aspose.PDF สำหรับ Java เป็นไลบรารี Java ที
 
 ### ฉันสามารถหาเอกสารและแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์:[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์: [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

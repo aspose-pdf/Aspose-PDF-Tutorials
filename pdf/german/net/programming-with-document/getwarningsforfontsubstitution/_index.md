@@ -1,34 +1,36 @@
 ---
-title: Erhalten Sie Warnungen für die Schriftartenersetzung
-linktitle: Erhalten Sie Warnungen für die Schriftartenersetzung
-second_title: Aspose.PDF für .NET API-Referenz
-description: Erfahren Sie, wie Sie die Funktion GetWarningsForFontSubstitution von Aspose.PDF für .NET verwenden, um beim Öffnen eines PDF-Dokuments Warnungen zur Schriftartersetzung zu erkennen.
-weight: 190
-url: /de/net/programming-with-document/getwarningsforfontsubstitution/
+"description": "Erfahren Sie, wie Sie die Funktion „GetWarningsForFontSubstitution“ von Aspose.PDF für .NET verwenden, um beim Öffnen eines PDF-Dokuments Warnungen zur Schriftartersetzung zu erkennen."
+"linktitle": "Warnungen zur Schriftartenersetzung erhalten"
+"second_title": "Aspose.PDF für .NET API-Referenz"
+"title": "Warnungen zur Schriftartenersetzung erhalten"
+"url": "/de/net/programming-with-document/getwarningsforfontsubstitution/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erhalten Sie Warnungen für die Schriftartenersetzung
+# Warnungen zur Schriftartenersetzung erhalten
 
 ## Einführung
 
-In der Welt der Dokumentenverarbeitung ist es entscheidend, sicherzustellen, dass Ihre PDFs genau so aussehen wie beabsichtigt. Haben Sie schon einmal eine PDF-Datei geöffnet und festgestellt, dass alle Schriftarten falsch sind? Dies kann passieren, wenn die im Dokument verwendeten Originalschriftarten auf dem System, auf dem die PDF-Datei angezeigt wird, nicht verfügbar sind. Glücklicherweise bietet Aspose.PDF für .NET eine robuste Lösung zum Erkennen von Warnungen bei Schriftartersetzungen, sodass Sie die Integrität Ihrer Dokumente wahren können. In dieser Anleitung führen wir Sie durch die Schritte zum Einrichten der Schriftartersetzungserkennung in Ihren PDF-Dokumenten mit Aspose.PDF für .NET.
+In der Welt der Dokumentenverarbeitung ist es entscheidend, dass Ihre PDFs genau wie beabsichtigt aussehen. Haben Sie schon einmal eine PDF-Datei geöffnet und festgestellt, dass die Schriftarten alle falsch sind? Dies kann passieren, wenn die im Dokument verwendeten Originalschriften auf dem System, auf dem die PDF-Datei angezeigt wird, nicht verfügbar sind. Glücklicherweise bietet Aspose.PDF für .NET eine robuste Lösung zur Erkennung von Schriftartenersetzungswarnungen, sodass Sie die Integrität Ihrer Dokumente wahren können. In dieser Anleitung führen wir Sie durch die Schritte zum Einrichten der Schriftartenersetzungserkennung in Ihren PDF-Dokumenten mit Aspose.PDF für .NET.
 
 ## Voraussetzungen
 
-Bevor Sie sich in den Code vertiefen, müssen einige Dinge bereit sein:
+Bevor Sie sich in den Code vertiefen, müssen Sie einige Dinge vorbereitet haben:
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Hier schreiben und führen Sie Ihren .NET-Code aus.
-2.  Aspose.PDF für .NET: Sie benötigen die Aspose.PDF-Bibliothek. Sie können sie herunterladen von[Website](https://releases.aspose.com/pdf/net/).
-3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, verstehen Sie die Codeausschnitte besser.
-4. Ein PDF-Dokument: Halten Sie ein Beispiel-PDF-Dokument bereit, mit dem Sie die Schriftartenersetzungserkennung testen können.
+2. Aspose.PDF für .NET: Sie benötigen die Aspose.PDF-Bibliothek. Sie können sie von der [Website](https://releases.aspose.com/pdf/net/).
+3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, können Sie die Codeausschnitte besser verstehen.
+4. Ein PDF-Dokument: Halten Sie ein Beispiel-PDF-Dokument bereit, mit dem Sie die Erkennung von Schriftartersetzungen testen können.
 
 ## Pakete importieren
 
-Um zu beginnen, müssen Sie die erforderlichen Pakete in Ihr C#-Projekt importieren. So können Sie das tun:
+Um zu beginnen, müssen Sie die erforderlichen Pakete in Ihr C#-Projekt importieren. So geht's:
 
 ### Neues Projekt erstellen
 
@@ -53,7 +55,7 @@ using System.Text;
 
 Nachdem Sie nun alles eingerichtet haben, unterteilen wir den Prozess zum Erkennen von Schriftartersetzungswarnungen in überschaubare Schritte.
 
-## Schritt 1: Dokumentpfad festlegen
+## Schritt 1: Dokumentpfad definieren
 
 Zuerst müssen Sie den Pfad zu Ihrem PDF-Dokument angeben. Hier sucht Aspose.PDF nach der Datei.
 
@@ -61,21 +63,21 @@ Zuerst müssen Sie den Pfad zu Ihrem PDF-Dokument angeben. Hier sucht Aspose.PDF
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ersetzen`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad, in dem sich Ihre PDF-Datei befindet.
+Ersetzen `"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad, in dem sich Ihre PDF-Datei befindet.
 
 ## Schritt 2: Öffnen Sie das PDF-Dokument
 
- Als nächstes öffnen Sie das PDF-Dokument mit dem`Document` Klasse bereitgestellt von Aspose.PDF.
+Als nächstes öffnen Sie das PDF-Dokument mit dem `Document` Klasse bereitgestellt von Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Diese Codezeile initialisiert eine neue`Document` Objekt mit Ihrer PDF-Datei.
+Diese Codezeile initialisiert eine neue `Document` Objekt mit Ihrer PDF-Datei.
 
 ## Schritt 3: Einrichten der Schriftartenersetzungserkennung
 
- Jetzt ist es an der Zeit, den Eventhandler einzurichten, der Warnungen bei der Schriftersetzung erkennt. Sie müssen den`FontSubstitution` Veranstaltung der`Document` Klasse.
+Jetzt ist es an der Zeit, den Eventhandler einzurichten, der Warnungen zur Schriftartersetzung erkennt. Sie müssen den `FontSubstitution` Veranstaltung der `Document` Klasse.
 
 ```csharp
 doc.FontSubstitution += new Document.FontSubstitutionHandler(OnFontSubstitution);
@@ -85,7 +87,7 @@ Diese Zeile verbindet das Ereignis mit Ihrer benutzerdefinierten Methode, die wi
 
 ## Schritt 4: Warnungen zur Schriftartersetzung behandeln
 
-Sie müssen eine Methode erstellen, die die Warnungen bei der Schriftartersetzung behandelt. Diese Methode wird immer dann aufgerufen, wenn eine Schriftartersetzung erfolgt.
+Sie müssen eine Methode erstellen, die die Warnungen zur Schriftartersetzung verarbeitet. Diese Methode wird bei jeder Schriftartersetzung aufgerufen.
 
 ```csharp
 private void OnFontSubstitution(object sender, Document.FontSubstitutionEventArgs e)
@@ -94,35 +96,37 @@ private void OnFontSubstitution(object sender, Document.FontSubstitutionEventArg
 }
 ```
 
-Mit dieser Methode können Sie den ursprünglichen Schriftnamen und den ersetzten Schriftnamen in der Konsole protokollieren. Auf diese Weise wissen Sie genau, welche Änderungen vorgenommen wurden.
+Mit dieser Methode können Sie den ursprünglichen Schriftnamen und den ersetzten Schriftnamen in der Konsole protokollieren. So wissen Sie genau, welche Änderungen vorgenommen wurden.
 
 ## Schritt 5: Ausführen des Codes
 
-Schließlich können Sie Ihre Anwendung ausführen. Wenn Ihr PDF-Dokument Schriftarten ersetzt, werden in der Konsole entsprechende Warnungen angezeigt.
+Anschließend können Sie Ihre Anwendung ausführen. Sollten in Ihrem PDF-Dokument Schriftarten ersetzt werden, werden entsprechende Warnungen in der Konsole angezeigt.
 
 ## Abschluss
 
-Das Erkennen von Warnungen zur Schriftartersetzung in PDF-Dokumenten ist für die Wahrung der visuellen Integrität Ihrer Dateien unerlässlich. Mit Aspose.PDF für .NET ist dieser Vorgang unkompliziert und effizient. Indem Sie die in diesem Handbuch beschriebenen Schritte befolgen, können Sie die Erkennung von Schriftartersetzungen problemlos einrichten und sicherstellen, dass Ihre PDFs genau so aussehen, wie Sie es beabsichtigt haben.
+Das Erkennen von Schriftartenersetzungswarnungen in PDF-Dokumenten ist für die visuelle Integrität Ihrer Dateien unerlässlich. Mit Aspose.PDF für .NET ist dieser Prozess unkompliziert und effizient. Mit den in dieser Anleitung beschriebenen Schritten können Sie die Schriftartenersetzungserkennung einfach einrichten und sicherstellen, dass Ihre PDFs genau wie gewünscht aussehen.
 
 ## Häufig gestellte Fragen
 
 ### Was ist Schriftartenersetzung?
-Von Schriftartersetzung spricht man, wenn die in einem Dokument verwendete Originalschriftart nicht verfügbar ist und stattdessen eine andere Schriftart verwendet wird.
+Eine Schriftartersetzung erfolgt, wenn die in einem Dokument verwendete Originalschriftart nicht verfügbar ist und stattdessen eine andere Schriftart verwendet wird.
 
 ### Wie kann ich die Schriftartenersetzung verhindern?
 Um eine Schriftartenersetzung zu verhindern, stellen Sie sicher, dass alle in Ihrer PDF-Datei verwendeten Schriftarten in das Dokument eingebettet sind.
 
 ### Kann ich Aspose.PDF kostenlos nutzen?
-Ja, Aspose.PDF bietet eine kostenlose Testversion an, mit der Sie die Funktionen testen können.
+Ja, Aspose.PDF bietet eine kostenlose Testversion, mit der Sie die Funktionen testen können.
 
 ### Wo finde ich weitere Dokumentation?
- Eine ausführliche Dokumentation finden Sie auf Aspose.PDF für .NET[Hier](https://reference.aspose.com/pdf/net/).
+Eine ausführliche Dokumentation finden Sie auf Aspose.PDF für .NET [Hier](https://reference.aspose.com/pdf/net/).
 
 ### Wie erhalte ich Support für Aspose.PDF?
- Sie erhalten Unterstützung unter[Aspose-Supportforum](https://forum.aspose.com/c/pdf/10).
+Sie erhalten Unterstützung durch den Besuch der [Aspose-Supportforum](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

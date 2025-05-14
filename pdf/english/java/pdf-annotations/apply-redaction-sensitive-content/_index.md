@@ -8,7 +8,9 @@ url: /java/pdf-annotations/apply-redaction-sensitive-content/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Redaction to Sensitive Content
@@ -116,6 +118,7 @@ Aspose.PDF for Java provides powerful redaction capabilities, but it's essential
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ganti Kemunculan Pertama
-linktitle: Ganti Kemunculan Pertama
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengganti kemunculan teks pertama dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk pengembang dan pengelola dokumen.
-weight: 330
-url: /id/net/programming-with-text/replace-first-occurrence/
+"description": "Pelajari cara mengganti kemunculan teks pertama dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk pengembang dan pengelola dokumen."
+"linktitle": "Ganti Kemunculan Pertama"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ganti Kemunculan Pertama"
+"url": "/id/net/programming-with-text/replace-first-occurrence/"
+"weight": 330
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ganti Kemunculan Pertama
@@ -22,11 +24,11 @@ Pernahkah Anda merasa perlu mengubah teks dalam dokumen PDF tetapi tidak tahu ha
 Sebelum kita memulai, ada beberapa hal penting yang perlu Anda siapkan:
 
 - Pemahaman Dasar tentang C#: Keakraban dengan pemrograman C# akan sangat membantu Anda menavigasi contoh kode.
--  Aspose.PDF untuk .NET SDK: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Ini dapat dilakukan dengan mudah dari[Situs web Aspose](https://releases.aspose.com/pdf/net/). 
+- Aspose.PDF untuk .NET SDK: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Ini dapat dilakukan dengan mudah dari [Situs web Aspose](https://releases.aspose.com/pdf/net/). 
 - Lingkungan Pengembangan .NET: Pastikan Anda telah menyiapkan Visual Studio atau IDE lain yang kompatibel dengan .NET tempat Anda dapat menulis dan menguji kode Anda.
-- Contoh File PDF: Untuk berlatih, siapkan PDF yang dapat Anda manipulasi. Panduan ini akan menyebutnya sebagai`ReplaceTextPage.pdf`.
+- Contoh File PDF: Untuk berlatih, siapkan PDF yang dapat Anda manipulasi. Panduan ini akan menyebutnya sebagai `ReplaceTextPage.pdf`.
 
-Setelah semua prasyarat ini terpenuhi, Anda siap untuk mulai mengganti teks dalam PDF Anda!
+Setelah prasyarat ini terpenuhi, Anda siap untuk mulai mengganti teks dalam PDF Anda!
 
 ## Paket Impor
 
@@ -50,7 +52,7 @@ Sebelum memulai kode, Anda perlu menentukan lokasi dokumen Anda. Di sinilah PDF 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat file PDF Anda berada. Ini menjadi dasar bagi operasi selanjutnya.
+Mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat file PDF Anda berada. Ini menjadi dasar bagi operasi selanjutnya.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -59,16 +61,16 @@ Berikutnya, Anda perlu memuat dokumen PDF yang ingin Anda edit.
 ```csharp
 Document pdfDocument = new Document(dataDir + "ReplaceTextPage.pdf");
 ```
-Di sini, kita membuat sebuah instance dari`Document` kelas, memuat contoh berkas PDF ke dalam memori. Ini memungkinkan kita untuk memanipulasi isinya.
+Di sini, kita membuat sebuah instance dari `Document` kelas, memuat contoh berkas PDF ke dalam memori. Ini memungkinkan kita untuk memanipulasi isinya.
 
 ## Langkah 3: Buat Penyerap Teks untuk Menemukan Teks
 
- Dengan dokumen yang terbuka, saatnya untuk menemukan teks tertentu yang ingin Anda ganti. Kami melakukan ini dengan menggunakan`TextFragmentAbsorber` kelas.
+Dengan dokumen terbuka, saatnya untuk menemukan teks tertentu yang ingin Anda ganti. Kami melakukan ini dengan menggunakan `TextFragmentAbsorber` kelas.
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
- Dengan melakukan instansiasi`TextFragmentAbsorber` dengan frasa pencarian Anda (dalam hal ini, "teks"), penyerap akan mencari semua contoh frasa ini di seluruh PDF.
+Dengan melakukan instansiasi `TextFragmentAbsorber` dengan frasa pencarian Anda (dalam kasus ini, "teks"), penyerap akan mencari semua contoh frasa ini di seluruh PDF.
 
 ## Langkah 4: Terima Penyerap untuk Semua Halaman
 
@@ -86,7 +88,7 @@ Sekarang setelah semua fragmen teks yang relevan terkumpul, mari ekstrak ke dala
 ```csharp
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
- Itu`TextFragments` Properti menyediakan akses ke koleksi fragmen teks yang ditemukan, memungkinkan Anda memeriksa berapa banyak kecocokan yang ditemukan.
+Itu `TextFragments` Properti menyediakan akses ke koleksi fragmen teks yang ditemukan, memungkinkan Anda memeriksa berapa banyak kecocokan yang ditemukan.
 
 ## Langkah 6: Periksa Kecocokan dan Ganti Teks
 
@@ -98,7 +100,7 @@ if (textFragmentCollection.Count > 0)
     TextFragment textFragment = textFragmentCollection[1];  // Dapatkan kejadian pertama
     textFragment.Text = "New Phrase"; // Perbarui teks
 ```
- Itu`Count` properti memeriksa apakah ada contoh yang ditemukan. Jika demikian, kami melanjutkan untuk mengakses fragmen pertama dalam koleksi (perhatikan bahwa pengindeksan dimulai dari 1 dalam koleksi untuk Aspose). Kemudian,`Text` properti dimodifikasi untuk mengganti teks asli dengan "Frase Baru".
+Itu `Count` properti memeriksa apakah ada contoh yang ditemukan. Jika demikian, kami melanjutkan untuk mengakses fragmen pertama dalam koleksi (perhatikan bahwa pengindeksan dimulai dari 1 dalam koleksi untuk Aspose). Kemudian, `Text` properti dimodifikasi untuk mengganti teks asli dengan "Frase Baru".
 
 ## Langkah 7: Sesuaikan Tampilan Teks (Opsional)
 
@@ -113,13 +115,13 @@ Di sini, Anda dapat mengubah font, ukuran, dan warna teks sesuai kebutuhan. Sama
 
 ## Langkah 8: Simpan Dokumen yang Dimodifikasi
 
-Setelah Anda puas dengan perubahan Anda, waktunya menyimpan kembali dokumen yang dimodifikasi di direktori Anda.
+Setelah Anda puas dengan perubahan Anda, waktunya menyimpan dokumen yang dimodifikasi kembali ke direktori Anda.
 
 ```csharp
 dataDir = dataDir + "ReplaceFirstOccurrence_out.pdf";
 pdfDocument.Save(dataDir);
 ```
-Dokumen disimpan ke berkas baru, sehingga Anda dapat menyimpan dokumen asli sambil memeriksa hasilnya. Menyimpan cadangan selalu merupakan hal yang baik, bukan?
+Dokumen disimpan ke berkas baru, sehingga Anda dapat menyimpan dokumen asli sambil memeriksa hasilnya. Menyimpan cadangan selalu merupakan ide yang bagus, bukan?
 
 ## Langkah 9: Konfirmasikan Perubahan
 
@@ -139,22 +141,24 @@ Dengan latihan, Anda dapat lebih nyaman menggunakan Aspose.PDF dan menjelajahi b
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengganti beberapa kemunculan teks?
- Ya, Anda dapat melakukan pengulangan`textFragmentCollection` untuk mengganti semua contoh jika diperlukan.
+Ya, Anda dapat melakukan pengulangan melalui `textFragmentCollection` untuk mengganti semua contoh jika diperlukan.
 
 ### Bagaimana jika teks yang ingin saya ganti memiliki karakter khusus?
- Itu`TextFragmentAbsorber` dapat menangani karakter khusus, tetapi pastikan Anda menggunakan pengkodean yang benar.
+Itu `TextFragmentAbsorber` dapat menangani karakter khusus, tetapi pastikan Anda menggunakan pengkodean yang benar.
 
 ### Apakah ada cara untuk mengembalikan perubahan saya?
 Selalu simpan dokumen asli secara terpisah sebelum melakukan perubahan. Dengan cara ini, Anda dapat dengan mudah mengembalikannya jika diperlukan.
 
 ### Bisakah saya mengubah lebih dari sekadar properti teks?
- Tentu saja! Anda dapat memanipulasi banyak properti`TextFragment`, termasuk posisi dan rotasi.
+Tentu saja! Anda dapat memanipulasi banyak properti `TextFragment`, termasuk posisi dan rotasi.
 
 ### Di mana saya dapat menemukan lebih banyak contoh penggunaan Aspose.PDF?
- Periksa[Halaman Tutorial Aspose](https://releases.aspose.com/pdf/net/) untuk contoh dan cuplikan kode yang lengkap.
+Periksa [Halaman Tutorial Aspose](https://releases.aspose.com/pdf/net/) untuk contoh dan cuplikan kode yang lengkap.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

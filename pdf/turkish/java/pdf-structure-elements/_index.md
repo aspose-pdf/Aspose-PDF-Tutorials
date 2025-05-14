@@ -1,14 +1,16 @@
 ---
-title: PDF Yapı Elemanları
-linktitle: PDF Yapı Elemanları
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: PDF yapı öğelerinde ustalaşmak için Java için Aspose.PDF eğitimlerini keşfedin. Zahmetsizce düzenli, erişilebilir PDF'ler oluşturun.
-weight: 20
-url: /tr/java/pdf-structure-elements/
+"description": "PDF yapı öğelerinde ustalaşmak için Java için Aspose.PDF eğitimlerini keşfedin. Zahmetsizce düzenli, erişilebilir PDF'ler oluşturun."
+"linktitle": "PDF Yapı Elemanları"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF Yapı Elemanları"
+"url": "/tr/java/pdf-structure-elements/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Yapı Elemanları
@@ -42,9 +44,11 @@ Java'da Aspose.PDF for Java ile etiketli PDF'lerin nasıl oluşturulacağını �
 Java'da PDF Metin Bloğu Yapı Elemanlarında Ustalaşma - Java için Aspose.PDF'yi kullanarak adım adım kılavuz.
 ### [Java kullanarak PDF'deki Metin Yapısı Öğeleri](./text-structure-elements-in-pdf-using-java/)
 Java'da Aspose.PDF for Java kullanarak PDF metin yapılarını nasıl düzenleyeceğinizi öğrenin. Verimli PDF metin işleme için kaynak kodlu adım adım kılavuzları keşfedin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

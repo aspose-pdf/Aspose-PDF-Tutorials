@@ -1,14 +1,16 @@
 ---
-title: Hình ảnh CGM sang PDF
-linktitle: Hình ảnh CGM sang PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Dễ dàng chuyển đổi hình ảnh CGM sang PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước đơn giản này và hợp lý hóa quy trình chuyển đổi tệp của bạn.
-weight: 40
-url: /vi/net/programming-with-images/cgm-image-to-pdf/
+"description": "Dễ dàng chuyển đổi hình ảnh CGM sang PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước đơn giản này và hợp lý hóa quy trình chuyển đổi tệp của bạn."
+"linktitle": "Hình ảnh CGM sang PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Hình ảnh CGM sang PDF"
+"url": "/vi/net/programming-with-images/cgm-image-to-pdf/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hình ảnh CGM sang PDF
@@ -46,7 +48,7 @@ Tiếp tục và mở dự án .NET của bạn trong Visual Studio.
 ### Thêm tham chiếu đến thư viện Aspose.PDF
 
 1. Trong Solution Explorer trong Visual Studio, nhấp chuột phải vào dự án của bạn và chọn "Quản lý gói NuGet".
-2.  Đi đến tab "Duyệt" và tìm kiếm`Aspose.PDF`.
+2. Đi đến tab "Duyệt" và tìm kiếm `Aspose.PDF`.
 3. Nhấp vào gói và nhấn nút "Cài đặt".
 
 ```csharp
@@ -70,7 +72,7 @@ Sau đây là đoạn mã để thiết lập thư mục tài liệu của bạn
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay đổi điều này thành đường dẫn của bạn
 ```
 
-Theo tôi, tốt nhất là giữ đường dẫn này tương đối với thư mục dự án của bạn để dễ truy cập hơn.
+Chỉ bạn và tôi thấy rằng tốt nhất là giữ đường dẫn này tương đối với thư mục dự án của bạn để dễ truy cập hơn.
 
 ## Bước 2: Chỉ định tệp CGM đầu vào của bạn
 
@@ -82,7 +84,7 @@ string inputFile = dataDir + "corvette.cgm"; // Hãy chắc chắn rằng tập 
 
 Bạn có thấy phấn khích không? Quá trình này rất đơn giản và khá thỏa mãn!
 
-## Bước 3: Xác định Đường dẫn Tệp PDF Đầu ra
+## Bước 3: Xác định đường dẫn tệp PDF đầu ra
 
 Trước khi phép thuật xảy ra, bạn cần phải cho chương trình biết nơi lưu tệp PDF đã chuyển đổi.
 
@@ -90,7 +92,7 @@ Trước khi phép thuật xảy ra, bạn cần phải cho chương trình bi�
 dataDir = dataDir + "CGMImageToPDF_out.pdf"; // Đặt tên tệp PDF đầu ra
 ```
 
- Hãy thoải mái đặt tên cho tệp đầu ra của bạn bất cứ điều gì bạn thích. Chỉ cần đảm bảo rằng nó kết thúc bằng`.pdf`.
+Hãy thoải mái đặt tên cho tệp đầu ra của bạn bất cứ điều gì bạn thích. Chỉ cần đảm bảo rằng nó kết thúc bằng `.pdf`.
 
 ## Bước 4: Thực hiện chuyển đổi
 
@@ -128,13 +130,15 @@ Bạn có thể cài đặt thư viện Aspose.PDF cho .NET thông qua Trình qu
 Chắc chắn rồi! Aspose.PDF hỗ trợ nhiều định dạng tệp, bao gồm Word, Excel và hình ảnh, cho phép chuyển đổi tệp mở rộng.
 
 ### Tôi có thể tìm tài liệu Aspose.PDF ở đâu?  
- Bạn có thể khám phá tài liệu đầy đủ[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể khám phá tài liệu đầy đủ [đây](https://reference.aspose.com/pdf/net/).
 
 ### Có phiên bản dùng thử nào cho Aspose.PDF không?  
- Có, bạn có thể sử dụng phiên bản dùng thử miễn phí để kiểm tra tất cả các tính năng của Aspose.PDF cho .NET. Tải xuống[đây](https://releases.aspose.com/).
+Có, bạn có thể sử dụng phiên bản dùng thử miễn phí để kiểm tra tất cả các tính năng của Aspose.PDF cho .NET. Tải xuống [đây](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

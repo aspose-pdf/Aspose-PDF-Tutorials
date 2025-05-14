@@ -1,14 +1,16 @@
 ---
-title: Tạo phần tử bảng
-linktitle: Tạo phần tử bảng
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Hướng dẫn từng bước để tạo phần tử mảng bằng Aspose.PDF cho .NET. Tạo PDF động với bảng dễ dàng.
-weight: 80
-url: /vi/net/programming-with-tagged-pdf/create-table-element/
+"description": "Hướng dẫn từng bước để tạo phần tử mảng bằng Aspose.PDF cho .NET. Tạo PDF động với bảng dễ dàng."
+"linktitle": "Tạo phần tử bảng"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo phần tử bảng"
+"url": "/vi/net/programming-with-tagged-pdf/create-table-element/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo phần tử bảng
@@ -20,11 +22,11 @@ Bạn đã bao giờ tự hỏi làm thế nào bạn có thể dễ dàng tạo
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
-1.  Aspose.PDF cho .NET: Tải xuống phiên bản mới nhất từ[Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Tải xuống phiên bản mới nhất từ [Tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 2. Môi trường phát triển: Bất kỳ IDE nào hỗ trợ .NET (ví dụ: Visual Studio).
 3. Kiến thức cơ bản về C#: Khuyến khích người mới bắt đầu có kiến thức về lập trình C#.
 
- Cuối cùng, đừng quên giấy phép Aspose.PDF của bạn. Nếu bạn không có, bạn có thể sử dụng[dùng thử miễn phí](https://releases.aspose.com/) hoặc yêu cầu một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để kiểm tra mọi thứ.
+Cuối cùng, đừng quên giấy phép Aspose.PDF của bạn. Nếu bạn không có, bạn có thể sử dụng [dùng thử miễn phí](https://releases.aspose.com/) hoặc yêu cầu một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để kiểm tra mọi thứ.
 
 ## Nhập gói
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Ở đây, chúng ta đang khởi tạo một phiên bản mới của`Document` class, đây sẽ là tệp PDF trống của chúng ta. Đừng quên xác định đường dẫn tệp của bạn!
+Ở đây, chúng ta đang khởi tạo một phiên bản mới của `Document` class, đây sẽ là tệp PDF trống của chúng ta. Đừng quên xác định đường dẫn tệp của bạn!
 
 ## Bước 2: Thiết lập nội dung được gắn thẻ
 
@@ -71,7 +73,7 @@ Bước này thiết lập tiêu đề và ngôn ngữ của tài liệu, đảm
 
 ## Bước 3: Tạo phần tử bảng
 
-Bây giờ đến phần thú vị nhất - tạo bảng!
+Bây giờ đến phần thú vị nhất: tạo bảng!
 
 ```csharp
 // Lấy phần tử cấu trúc gốc
@@ -80,11 +82,11 @@ TableElement tableElement = taggedContent.CreateTableElement();
 rootElement.AppendChild(tableElement);
 ```
 
- Ở đây, chúng tôi đang sử dụng`RootElement` của nội dung được gắn thẻ để thêm bảng của chúng tôi. Về cơ bản, đây là việc thêm một bảng dưới dạng một nút con vào cấu trúc của tài liệu.
+Ở đây, chúng tôi đang sử dụng `RootElement` của nội dung được gắn thẻ để thêm bảng của chúng tôi. Về cơ bản, đây là việc thêm một bảng dưới dạng một nút con vào cấu trúc của tài liệu.
 
 ## Bước 4: Tùy chỉnh Đường viền và Tiêu đề Bảng
 
-Bạn không muốn bàn của mình trông nhạt nhẽo, phải không? Hãy thêm chút phong cách!
+Bạn không muốn bàn của mình trông đơn điệu, phải không? Hãy thêm chút phong cách!
 
 ```csharp
 tableElement.Border = new BorderInfo(BorderSide.All, 1.2F, Color.DarkBlue);
@@ -93,7 +95,7 @@ TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 ```
 
- Chúng tôi đang xác định đường viền và thêm tiêu đề, nội dung và chân trang vào bảng. Lưu ý việc sử dụng`BorderInfo` để tạo kiểu cho đường viền bảng bằng màu xanh đậm.
+Chúng tôi đang xác định đường viền và thêm tiêu đề, nội dung và chân trang vào bảng. Lưu ý việc sử dụng `BorderInfo` để tạo kiểu cho đường viền bảng bằng màu xanh đậm.
 
 ## Bước 5: Thêm Hàng và Ô vào Bảng
 
@@ -116,7 +118,7 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- Chúng tôi đang tạo một hàng tiêu đề với 4 cột và mỗi ô tiêu đề được định dạng bằng màu nền là`GreenYellow`. Chúng tôi cũng thiết lập đường viền và căn chỉnh cho tiêu đề.
+Chúng tôi đang tạo một hàng tiêu đề với 4 cột và mỗi ô tiêu đề được định dạng bằng màu nền là `GreenYellow`. Chúng tôi cũng thiết lập đường viền và căn chỉnh cho tiêu đề.
 
 ### Bước 5.2: Thêm hàng thân
 
@@ -153,7 +155,7 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- Để hoàn thành bảng, chúng ta thêm một chân trang có văn bản ở giữa và một`LightSeaGreen` lý lịch.
+Để hoàn thành bảng, chúng ta thêm một chân trang có văn bản ở giữa và một `LightSeaGreen` lý lịch.
 
 ## Bước 6: Xác thực sự tuân thủ PDF/UA
 
@@ -177,22 +179,24 @@ Xin chúc mừng! Bạn đã tạo thành công một bảng tùy chỉnh hoàn 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể tùy chỉnh phông chữ và kiểu chữ của bảng không?
-Có, Aspose.PDF cho phép bạn tùy chỉnh hoàn toàn phông chữ, kiểu văn bản và căn chỉnh bằng cách sử dụng`TextState` lớp học.
+Có, Aspose.PDF cho phép bạn tùy chỉnh hoàn toàn phông chữ, kiểu văn bản và căn chỉnh bằng cách sử dụng `TextState` lớp học.
 
 ### Làm thế nào để thêm nhiều cột hoặc hàng một cách linh hoạt?
- Bạn có thể điều chỉnh số lượng cột hoặc hàng bằng cách sửa đổi`rowIndex` Và`colIndex` trong các vòng lặp.
+Bạn có thể điều chỉnh số lượng cột hoặc hàng bằng cách sửa đổi `rowIndex` Và `colIndex` trong các vòng lặp.
 
 ### Có thể nhập các ô trong bảng không?
- Có, bạn có thể sử dụng`ColSpan` Và`RowSpan` thuộc tính để hợp nhất các ô trên các cột hoặc hàng.
+Có, bạn có thể sử dụng `ColSpan` Và `RowSpan` thuộc tính để hợp nhất các ô trên các cột hoặc hàng.
 
 ### Tuân thủ PDF/UA là gì?
 Việc tuân thủ PDF/UA đảm bảo rằng tài liệu có thể được người dùng khuyết tật truy cập, tuân thủ theo các tiêu chuẩn trợ năng quốc tế.
 
 ### Làm thế nào để kiểm tra tính tuân thủ PDF/UA trong Aspose.PDF?
- Bạn có thể sử dụng`Validate` phương pháp kiểm tra xem tài liệu có tuân thủ tiêu chuẩn PDF/UA hay không.
+Bạn có thể sử dụng `Validate` phương pháp kiểm tra xem tài liệu có tuân thủ tiêu chuẩn PDF/UA hay không.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,29 +1,31 @@
 ---
-title: Ekstrak Batas Dalam File PDF
-linktitle: Ekstrak Batas Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak batas dari file PDF dan menyimpannya sebagai gambar menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah dengan contoh kode dan kiat untuk meraih keberhasilan.
-weight: 80
-url: /id/net/programming-with-tables/extract-border/
+"description": "Pelajari cara mengekstrak batas dari berkas PDF dan menyimpannya sebagai gambar menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah dengan contoh kode dan kiat untuk meraih keberhasilan."
+"linktitle": "Ekstrak Border Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ekstrak Border Dalam File PDF"
+"url": "/id/net/programming-with-tables/extract-border/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ekstrak Batas Dalam File PDF
+# Ekstrak Border Dalam File PDF
 
 ## Perkenalan
 
-Saat bekerja dengan PDF, mengekstrak elemen tertentu seperti border atau jalur grafis mungkin tampak seperti tugas yang sulit. Namun dengan Aspose.PDF untuk .NET, Anda dapat dengan mudah mengekstrak border atau bentuk dari file PDF dan menyimpannya sebagai gambar. Dalam tutorial ini, kita akan menyelami proses mengekstrak border dari PDF dan menyimpannya sebagai gambar PNG. Bersiaplah untuk mengendalikan konten grafis PDF Anda!
+Saat bekerja dengan PDF, mengekstrak elemen tertentu seperti batas atau jalur grafis mungkin tampak seperti tugas yang menakutkan. Namun dengan Aspose.PDF untuk .NET, Anda dapat dengan mudah mengekstrak batas atau bentuk dari file PDF dan menyimpannya sebagai gambar. Dalam tutorial ini, kita akan menyelami proses mengekstrak batas dari PDF dan menyimpannya sebagai gambar PNG. Bersiaplah untuk mengendalikan konten grafis PDF Anda!
 
 ## Prasyarat
 
 Sebelum kita masuk ke kode, pastikan Anda telah menyiapkan semuanya:
 
-1.  Aspose.PDF untuk .NET: Jika Anda belum menginstal pustaka Aspose.PDF, Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/)Anda juga perlu menerapkan lisensi, baik melalui uji coba gratis atau lisensi yang dibeli.
+1. Aspose.PDF untuk .NET: Jika Anda belum menginstal pustaka Aspose.PDF, Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/)Anda juga perlu menerapkan lisensi, baik melalui uji coba gratis atau lisensi yang dibeli.
 2. Penyiapan IDE: Siapkan proyek C# di Visual Studio atau IDE .NET lainnya. Pastikan Anda telah menambahkan referensi yang diperlukan ke pustaka Aspose.PDF.
-3. Masukkan File PDF: Siapkan file PDF yang akan Anda gunakan untuk mengekstrak batas. Tutorial ini akan merujuk ke file bernama`input.pdf`.
+3. Masukkan File PDF: Siapkan file PDF yang akan Anda gunakan untuk mengekstrak batas. Tutorial ini akan merujuk ke file bernama `input.pdf`.
 
 ## Mengimpor Paket yang Diperlukan
 
@@ -46,14 +48,14 @@ Sekarang setelah kita membahas dasar-dasarnya, mari beralih ke panduan langkah d
 
 Langkah pertama adalah memuat dokumen PDF yang berisi border yang ingin Anda ekstrak. Anggap saja seperti membuka buku sebelum mulai membaca — Anda perlu mengakses isinya!
 
- Kita akan mulai dengan menentukan direktori tempat file PDF Anda disimpan dan memuat dokumen menggunakan`Aspose.Pdf.Document` kelas.
+Kita akan mulai dengan menentukan direktori tempat file PDF Anda disimpan dan memuat dokumen menggunakan `Aspose.Pdf.Document` kelas.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Kode ini memuat`input.pdf` file dari direktori yang Anda tentukan. Pastikan jalur file sudah benar, atau Anda mungkin mendapatkan kesalahan file tidak ditemukan.
+Kode ini memuat `input.pdf` file dari direktori yang Anda tentukan. Pastikan jalur file sudah benar, atau Anda mungkin mendapatkan kesalahan file tidak ditemukan.
 
 ## Langkah 2: Menyiapkan Grafik dan Bitmap
 
@@ -120,7 +122,7 @@ else if (opRe != null)
 
 Pada langkah ini:
 - Kami menangkap titik untuk setiap garis atau bentuk yang digambar.
-- Untuk persegi panjang (`opRe` ), kami menambahkannya langsung ke`graphicsPath`, yang akan kita gunakan nanti untuk menggambar batas.
+- Untuk persegi panjang (`opRe`), kami menambahkannya langsung ke `graphicsPath`, yang akan kita gunakan nanti untuk menggambar batas.
 
 ## Langkah 5: Menggambar Batas
 
@@ -157,22 +159,24 @@ Mengekstrak batas dari berkas PDF menggunakan Aspose.PDF untuk .NET mungkin tamp
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara menangani banyak halaman dalam PDF?  
- Anda dapat mengulang setiap halaman dalam dokumen dengan mengulanginya`doc.Pages` alih-alih hardcoding`doc.Pages[1]`.
+Anda dapat mengulang setiap halaman dalam dokumen dengan mengulanginya `doc.Pages` alih-alih hardcoding `doc.Pages[1]`.
 
 ### Bisakah saya mengekstrak elemen lain, seperti teks, menggunakan pendekatan yang sama?  
 Ya, Aspose.PDF menyediakan API yang kaya untuk mengekstrak teks, gambar, dan konten lainnya dari file PDF.
 
 ### Bagaimana cara mengajukan lisensi untuk menghindari batasan?  
- Kamu bisa[menerapkan lisensi](https://purchase.aspose.com/temporary-license/) dengan memuatnya melalui`License` kelas yang disediakan oleh Aspose.
+Kamu bisa [menerapkan lisensi](https://purchase.aspose.com/temporary-license/) dengan memuatnya melalui `License` kelas yang disediakan oleh Aspose.
 
 ### Bagaimana jika PDF saya tidak memiliki batas?  
 Jika PDF Anda tidak memiliki batas yang terlihat, proses ekstraksi grafik mungkin tidak akan memberikan hasil apa pun. Pastikan konten PDF menyertakan batas yang dapat digambar.
 
 ### Bisakah saya menyimpan output dalam format selain PNG?  
- Ya, cukup ubah`ImageFormat.Png` ke format lain yang didukung seperti`ImageFormat.Jpeg`.
+Ya, cukup ubah `ImageFormat.Png` ke format lain yang didukung seperti `ImageFormat.Jpeg`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

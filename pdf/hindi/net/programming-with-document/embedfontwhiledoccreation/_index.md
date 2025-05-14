@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ दस्तावेज़ बनाते समय फ़ॉन्ट एम्बेड करें
-linktitle: पीडीएफ दस्तावेज़ बनाते समय फ़ॉन्ट एम्बेड करें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में फ़ॉन्ट एम्बेड करना सीखें। अपने PDF का स्वरूप बेहतर बनाएँ।
-weight: 140
-url: /hi/net/programming-with-document/embedfontwhiledoccreation/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में फ़ॉन्ट एम्बेड करना सीखें। अपने PDF का स्वरूप बेहतर बनाएँ।"
+"linktitle": "पीडीएफ दस्तावेज़ बनाते समय फ़ॉन्ट एम्बेड करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ दस्तावेज़ बनाते समय फ़ॉन्ट एम्बेड करें"
+"url": "/hi/net/programming-with-document/embedfontwhiledoccreation/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ दस्तावेज़ बनाते समय फ़ॉन्ट एम्बेड करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-document/embedfontwhiledoccreation/
 
 इससे पहले कि हम कोड में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास आरंभ करने के लिए आवश्यक सभी चीजें मौजूद हैं:
 
-1.  .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी इंस्टॉल करनी होगी। आप इसे यहाँ से डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/pdf/net/).
+1. .NET के लिए Aspose.PDF: आपको Aspose.PDF लाइब्रेरी इंस्टॉल करनी होगी। आप इसे यहाँ से डाउनलोड कर सकते हैं [वेबसाइट](https://releases.aspose.com/pdf/net/).
 2. विज़ुअल स्टूडियो: एक विकास वातावरण जहां आप अपना कोड लिख और परीक्षण कर सकते हैं।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
 
@@ -47,11 +49,11 @@ using Aspose.Pdf.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"`अपने सिस्टम पर उस वास्तविक पथ के साथ जहां आप पीडीएफ को सहेजना चाहते हैं।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` अपने सिस्टम पर उस वास्तविक पथ के साथ जहां आप पीडीएफ को सहेजना चाहते हैं।
 
 ## चरण 2: पीडीएफ दस्तावेज़ को इंस्टैंशिएट करें
 
- इसके बाद, आप इसका एक उदाहरण बनाएंगे`Document` क्लास. यह क्लास आपके पीडीएफ दस्तावेज़ का प्रतिनिधित्व करता है.
+इसके बाद, आप इसका एक उदाहरण बनाएंगे `Document` क्लास. यह क्लास आपके पीडीएफ दस्तावेज़ का प्रतिनिधित्व करता है.
 
 ```csharp
 // पीडीएफ ऑब्जेक्ट को उसके खाली कन्स्ट्रक्टर को कॉल करके इंस्टैंसिएट करें
@@ -73,13 +75,13 @@ Aspose.Pdf.Page page = doc.Pages.Add();
 
 ## चरण 4: एक टेक्स्ट फ़्रैगमेंट बनाएँ
 
- अपने PDF में टेक्स्ट जोड़ने के लिए, आपको एक बनाना होगा`TextFragment`यह ऑब्जेक्ट उस पाठ को रखेगा जिसे आप प्रदर्शित करना चाहते हैं।
+अपने PDF में टेक्स्ट जोड़ने के लिए, आपको एक बनाना होगा `TextFragment`यह ऑब्जेक्ट उस पाठ को रखेगा जिसे आप प्रदर्शित करना चाहते हैं।
 
 ```csharp
 Aspose.Pdf.Text.TextFragment fragment = new Aspose.Pdf.Text.TextFragment("");
 ```
 
- यहाँ, हम एक नया आरंभ कर रहे हैं`TextFragment`आप इसे अपने पाठ के लिए एक कंटेनर के रूप में सोच सकते हैं।
+यहाँ, हम एक नया आरंभ कर रहे हैं `TextFragment`आप इसे अपने पाठ के लिए एक कंटेनर के रूप में सोच सकते हैं।
 
 ## चरण 5: टेक्स्ट खंड जोड़ें
 
@@ -93,7 +95,7 @@ Aspose.Pdf.Text.TextSegment segment = new Aspose.Pdf.Text.TextSegment("This is a
 
 ## चरण 6: टेक्स्ट स्थिति निर्धारित करें और फ़ॉन्ट एम्बेड करें
 
- यह सुनिश्चित करने के लिए कि आपका फ़ॉन्ट पीडीएफ में एम्बेडेड है, आपको फ़ॉन्ट गुण सेट करने की आवश्यकता है`TextState` वस्तु।
+यह सुनिश्चित करने के लिए कि आपका फ़ॉन्ट पीडीएफ में एम्बेडेड है, आपको फ़ॉन्ट गुण सेट करने की आवश्यकता है `TextState` वस्तु।
 
 ```csharp
 Aspose.Pdf.Text.TextState ts = new Aspose.Pdf.Text.TextState();
@@ -152,13 +154,15 @@ doc.Save(dataDir);
 हां, आप कस्टम फॉन्ट का उपयोग कर सकते हैं, बशर्ते वे आपके सिस्टम पर उपलब्ध हों और आपके कोड में उचित रूप से संदर्भित हों।
 
 ### क्या Aspose.PDF के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं।[Aspose वेबसाइट](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं। [Aspose वेबसाइट](https://releases.aspose.com/).
 
 ### मैं Aspose.PDF के लिए समर्थन कहां पा सकता हूं?
- आप सहायता पा सकते हैं और प्रश्न पूछ सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/pdf/10).
+आप सहायता पा सकते हैं और प्रश्न पूछ सकते हैं [Aspose फ़ोरम](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

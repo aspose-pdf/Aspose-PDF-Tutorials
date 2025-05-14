@@ -1,14 +1,16 @@
 ---
-title: Rysowanie linii na stronie w formacie PDF za pomocą języka Java
-linktitle: Rysowanie linii na stronie w formacie PDF za pomocą języka Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak rysować linie w plikach PDF za pomocą języka Java, używając Aspose.PDF dla języka Java. Przewodnik krok po kroku z kodem źródłowym do rysowania linii w plikach PDF.
-weight: 13
-url: /pl/java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/
+"description": "Dowiedz się, jak rysować linie w plikach PDF za pomocą języka Java, używając Aspose.PDF dla języka Java. Przewodnik krok po kroku z kodem źródłowym do rysowania linii w plikach PDF."
+"linktitle": "Rysowanie linii na stronie w formacie PDF za pomocą języka Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Rysowanie linii na stronie w formacie PDF za pomocą języka Java"
+"url": "/pl/java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rysowanie linii na stronie w formacie PDF za pomocą języka Java
@@ -16,11 +18,11 @@ url: /pl/java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/
 
 ## Wprowadzenie do rysowania linii na stronie w formacie PDF za pomocą języka Java
 
-Aspose.PDF for Java to potężne API, które pozwala programistom pracować z dokumentami PDF w ich aplikacjach Java. W tym przewodniku krok po kroku pokażemy, jak narysować linię na stronie w dokumencie PDF za pomocą Aspose.PDF for Java. Niezależnie od tego, czy chcesz dodać ozdobne linie, oddzielić sekcje czy wyróżnić treść, ten samouczek pokaże Ci, jak to zrobić z łatwością.
+Aspose.PDF for Java to potężne API, które pozwala programistom pracować z dokumentami PDF w ich aplikacjach Java. W tym przewodniku krok po kroku pokażemy, jak narysować linię w poprzek strony w dokumencie PDF za pomocą Aspose.PDF for Java. Niezależnie od tego, czy chcesz dodać ozdobne linie, oddzielić sekcje czy wyróżnić treść, ten samouczek pokaże Ci, jak to zrobić z łatwością.
 
 ## Pierwsze kroki z Aspose.PDF dla Java
 
-Zanim zagłębimy się w kod, upewnij się, że masz zainstalowany Aspose.PDF for Java w swoim projekcie. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/pdf/java/) i postępuj zgodnie z instrukcjami instalacji podanymi na stronie.
+Zanim zagłębimy się w kod, upewnij się, że masz zainstalowany Aspose.PDF dla Java w swoim projekcie. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/pdf/java/) i postępuj zgodnie z instrukcjami instalacji podanymi na stronie.
 
 ## Dodawanie Aspose.PDF do projektu
 
@@ -53,7 +55,7 @@ public class CreatePDF {
 
 ## Rysowanie linii na stronie
 
- Aby narysować linię na stronie, możesz użyć`Line` klasa dostarczona przez Aspose.PDF. Oto przykład, jak narysować prostą linię poziomą:
+Aby narysować linię na stronie, możesz użyć `Line` klasa dostarczona przez Aspose.PDF. Oto przykład, jak narysować prostą linię poziomą:
 
 ```java
 import com.aspose.pdf.*;
@@ -79,7 +81,7 @@ Ten kod tworzy dokument PDF z poziomą linią zaczynającą się na współrzęd
 
 ## Dostosowywanie linii
 
-Aspose.PDF dla Java udostępnia różne właściwości do dostosowywania wyglądu linii, takie jak kolor linii, szerokość i styl. Oto jak możesz zmienić kolor i szerokość linii:
+Aspose.PDF for Java udostępnia różne właściwości do dostosowywania wyglądu linii, takie jak kolor linii, szerokość i styl. Oto jak możesz zmienić kolor i szerokość linii:
 
 ```java
 // Dostosuj linię
@@ -107,7 +109,7 @@ W tym samouczku omówiliśmy podstawy rysowania linii w dokumencie PDF za pomoc�
 
 ### Jak dodać pionową linię do dokumentu PDF?
 
-Aby dodać linię pionową, wystarczy dostosować współrzędne podczas tworzenia`Line` obiekt. Na przykład, aby dodać pionową linię zaczynającą się w punkcie (200, 100) i kończącą się w punkcie (200, 400), zmodyfikuj współrzędne w następujący sposób:
+Aby dodać linię pionową, wystarczy dostosować współrzędne podczas tworzenia `Line` obiekt. Na przykład, aby dodać pionową linię zaczynającą się w punkcie (200, 100) i kończącą się w punkcie (200, 400), zmodyfikuj współrzędne w następujący sposób:
 
 ```java
 Line verticalLine = new Line(new float[] { 200, 100, 200, 400 });
@@ -130,14 +132,16 @@ Tak, Aspose.PDF dla Java jest zgodny z Java 8 i nowszymi wersjami. Upewnij się,
 
 ### Jak mogę dodać tekst nad narysowaną linią?
 
- Aby dodać tekst nad linią, możesz użyć`TextFragment` klasa dostarczona przez Aspose.PDF. Utwórz`TextFragment` obiekt i dodaj go do strony.
+Aby dodać tekst nad linią, możesz użyć `TextFragment` klasa dostarczona przez Aspose.PDF. Utwórz `TextFragment` obiekt i dodaj go do strony.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.PDF dla Java?
 
- Pełną dokumentację i więcej przykładów można znaleźć na stronie dokumentacji Aspose.PDF dla języka Java:[Tutaj](https://reference.aspose.com/pdf/java/).
+Pełną dokumentację i więcej przykładów można znaleźć na stronie dokumentacji Aspose.PDF dla języka Java: [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

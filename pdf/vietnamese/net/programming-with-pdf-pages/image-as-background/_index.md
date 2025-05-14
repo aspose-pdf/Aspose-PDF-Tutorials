@@ -1,14 +1,16 @@
 ---
-title: Đặt hình ảnh làm nền trang trong tệp PDF
-linktitle: Đặt hình ảnh làm nền trang trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách đặt hình ảnh làm nền trang trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tạo tài liệu chuyên nghiệp, hấp dẫn về mặt hình ảnh.
-weight: 110
-url: /vi/net/programming-with-pdf-pages/image-as-background/
+"description": "Tìm hiểu cách đặt hình ảnh làm nền trang trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tạo tài liệu chuyên nghiệp, hấp dẫn về mặt hình ảnh."
+"linktitle": "Đặt hình ảnh làm nền trang trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đặt hình ảnh làm nền trang trong tệp PDF"
+"url": "/vi/net/programming-with-pdf-pages/image-as-background/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt hình ảnh làm nền trang trong tệp PDF
@@ -21,8 +23,8 @@ Tạo các tài liệu PDF hấp dẫn về mặt thị giác có thể rất qu
 
 Trước khi bắt đầu cài đặt hình ảnh làm hình nền trang, bạn cần chuẩn bị một số thứ:
 
-1.  Aspose.PDF cho .NET được cài đặt trong dự án của bạn. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
-2.  Giấy phép hợp lệ cho Aspose.PDF. Nếu bạn không có, bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc[mua một cái ở đây](https://purchase.aspose.com/buy).
+1. Aspose.PDF cho .NET được cài đặt trong dự án của bạn. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+2. Giấy phép hợp lệ cho Aspose.PDF. Nếu bạn không có, bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temphoặcary-license/) or [mua một cái ở đây](https://purchase.aspose.com/buy).
 3. Đã cài đặt Visual Studio hoặc bất kỳ IDE C# nào khác.
 4. Hiểu biết cơ bản về lập trình C#.
 5. Tệp hình ảnh dùng làm hình nền (ví dụ: “aspose-total-for-net.jpg”).
@@ -123,10 +125,12 @@ Có! Aspose.PDF cho phép bạn điều chỉnh nhiều thuộc tính hình ản
 Chỉ cần xóa BackgroundArtifact khỏi bộ sưu tập Artifact của trang nếu bạn không muốn có hình nền nữa.
 
 ### Tôi có thể thêm văn bản hoặc nội dung khác vào nền không?
-Có, hình nền sẽ nằm ở phía sau, cho phép bạn thêm văn bản, bảng hoặc các thành phần khác lên trên, giống như các lớp trong Photoshop.
+Có, hình nền nằm ở phía sau, cho phép bạn thêm văn bản, bảng hoặc các thành phần khác lên trên, giống như các lớp trong Photoshop.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

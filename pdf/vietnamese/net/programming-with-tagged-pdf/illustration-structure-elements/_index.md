@@ -1,14 +1,16 @@
 ---
-title: Minh họa Cấu trúc Các yếu tố
-linktitle: Minh họa Cấu trúc Các yếu tố
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tạo tệp PDF có cấu trúc với các thành phần minh họa trong Aspose.PDF cho .NET bằng cách làm theo hướng dẫn từng bước của chúng tôi.
-weight: 100
-url: /vi/net/programming-with-tagged-pdf/illustration-structure-elements/
+"description": "Tạo tệp PDF có cấu trúc với các thành phần minh họa trong Aspose.PDF cho .NET bằng cách làm theo hướng dẫn từng bước của chúng tôi."
+"linktitle": "Minh họa Cấu trúc Các yếu tố"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Minh họa Cấu trúc Các yếu tố"
+"url": "/vi/net/programming-with-tagged-pdf/illustration-structure-elements/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Minh họa Cấu trúc Các yếu tố
@@ -21,12 +23,12 @@ Bạn đã sẵn sàng tạo PDF có cấu trúc tuyệt đẹp trong ứng dụ
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để theo dõi một cách suôn sẻ.
 
-1.  Aspose.PDF cho .NET – Bạn sẽ cần cài đặt thư viện Aspose.PDF. Bạn chưa có? Bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/) . Nếu bạn muốn thử nghiệm trước, bạn có thể lấy một[dùng thử miễn phí](https://releases.aspose.com/).
+1. Aspose.PDF cho .NET – Bạn sẽ cần cài đặt thư viện Aspose.PDF. Bạn chưa có? Bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/). Nếu bạn muốn thử nghiệm trước, bạn có thể lấy một [dùng thử miễn phí](https://releases.aspose.com/).
 2. Visual Studio – Chúng ta sẽ mã hóa bằng C#, vì vậy hãy đảm bảo Visual Studio hoặc bất kỳ IDE tương thích nào được cài đặt.
 3. .NET Framework – Đảm bảo bạn có phiên bản tương thích với Aspose.PDF cho .NET.
-4.  Giấy phép tạm thời – Aspose.PDF đi kèm một số hạn chế trong chế độ dùng thử, vì vậy hãy lấy[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để mở khóa đầy đủ tính năng.
+4. Giấy phép tạm thời – Aspose.PDF đi kèm một số hạn chế trong chế độ dùng thử, vì vậy hãy lấy [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để mở khóa đầy đủ tính năng.
 
-Vậy là xong! Bây giờ chúng ta hãy nhập các không gian tên cần thiết và tiến hành viết mã.
+Vậy là xong! Bây giờ chúng ta hãy nhập các không gian tên cần thiết và tiếp tục viết mã.
 
 ## Nhập không gian tên
 
@@ -49,7 +51,7 @@ Trước khi bắt đầu tạo PDF, bạn cần chỉ định đường dẫn �
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bước này đơn giản nhưng cần thiết. Bạn đang cho chương trình biết nơi tìm và lưu trữ các tệp bạn sẽ làm việc. Giống như có một căn cứ cho các tệp PDF của bạn. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn.
+Bước này đơn giản nhưng cần thiết. Bạn đang cho chương trình biết nơi tìm và lưu trữ các tệp bạn sẽ làm việc. Giống như có một căn cứ cho các tệp PDF của bạn. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn.
 
 ## Bước 2: Tạo một tài liệu PDF mới
 
@@ -70,7 +72,7 @@ Dòng này thực hiện mọi phép thuật. Nó tạo ra một tệp PDF mới
 ITaggedContent taggedContent = document.TaggedContent;
 ```
 
- Đây là nơi phép thuật xảy ra!`TaggedContent` đối tượng cho phép chúng ta xác định cách các thành phần trong PDF được diễn giải. Nếu bạn đang làm việc với khả năng truy cập hoặc cấu trúc, bước này rất quan trọng.
+Đây là nơi phép thuật xảy ra! `TaggedContent` đối tượng cho phép chúng ta xác định cách các thành phần trong PDF được diễn giải. Nếu bạn đang làm việc với khả năng truy cập hoặc cấu trúc, bước này rất quan trọng.
 
 ## Bước 4: Thiết lập Tiêu đề và Ngôn ngữ của Tài liệu
 
@@ -105,9 +107,9 @@ figure1.SetTag("Fig1");
 figure1.SetImage(dataDir + "image.jpg");
 ```
 
- Đây là bước hoàn thiện cuối cùng. Chúng tôi sẽ cung cấp cho hình ảnh của mình một văn bản thay thế mô tả (hữu ích cho trình đọc màn hình), một tiêu đề và thiết lập tệp hình ảnh thực tế.`SetTag`phương pháp gắn thẻ hình ảnh, giúp tham chiếu dễ dàng hơn sau này.
+Đây là bước hoàn thiện cuối cùng. Chúng tôi sẽ cung cấp cho hình ảnh của mình một văn bản thay thế mô tả (hữu ích cho trình đọc màn hình), một tiêu đề và thiết lập tệp hình ảnh thực tế. `SetTag` phương pháp gắn thẻ hình ảnh, giúp tham chiếu dễ dàng hơn sau này.
 
- Lưu ý quan trọng: Đảm bảo rằng đường dẫn hình ảnh trong`SetImage` trỏ tới một tệp hình ảnh hợp lệ trên máy của bạn.
+Lưu ý quan trọng: Đảm bảo rằng đường dẫn hình ảnh trong `SetImage` trỏ tới một tệp hình ảnh hợp lệ trên máy của bạn.
 
 ## Bước 7: Lưu tài liệu PDF đã gắn thẻ
 
@@ -132,16 +134,18 @@ PDF có gắn thẻ là PDF bao gồm các thẻ hoặc nhãn để xác định
 Văn bản thay thế cung cấp mô tả cho hình ảnh, có thể được đọc bằng trình đọc màn hình, cải thiện khả năng truy cập cho người dùng khiếm thị.
 
 ### Tôi có thể thêm nhiều hình ảnh vào tệp PDF có gắn thẻ không?
- Có! Bạn có thể tạo nhiều`FigureElement` các đối tượng và thêm từng đối tượng vào tài liệu của bạn, giống như chúng ta đã làm với một hình ảnh duy nhất.
+Có! Bạn có thể tạo nhiều `FigureElement` các đối tượng và thêm từng đối tượng vào tài liệu của bạn, giống như chúng ta đã làm với một hình ảnh duy nhất.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF cho .NET không?
- Có, Aspose.PDF là một thư viện trả phí, nhưng bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/).
+Có, Aspose.PDF là một thư viện trả phí, nhưng bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Có thể sửa đổi phần tử hình sau khi tạo PDF không?
-Sau khi lưu PDF, bạn không thể chỉnh sửa trực tiếp nhưng có thể mở lại tài liệu, thực hiện thay đổi và lưu lại bằng Aspose.PDF.
+Sau khi lưu tệp PDF, bạn không thể chỉnh sửa trực tiếp nhưng có thể mở lại tài liệu, thực hiện thay đổi và lưu lại bằng Aspose.PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

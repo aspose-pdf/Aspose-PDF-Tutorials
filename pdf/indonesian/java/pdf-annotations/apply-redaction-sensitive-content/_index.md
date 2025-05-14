@@ -1,14 +1,16 @@
 ---
-title: Terapkan Redaksi pada Konten Sensitif
-linktitle: Terapkan Redaksi pada Konten Sensitif
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Temukan kekuatan menyunting konten sensitif dalam PDF dengan Aspose.PDF untuk Java.
-weight: 15
-url: /id/java/pdf-annotations/apply-redaction-sensitive-content/
+"description": "Temukan kekuatan menyunting konten sensitif dalam PDF dengan Aspose.PDF untuk Java."
+"linktitle": "Terapkan Redaksi pada Konten Sensitif"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Terapkan Redaksi pada Konten Sensitif"
+"url": "/id/java/pdf-annotations/apply-redaction-sensitive-content/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Terapkan Redaksi pada Konten Sensitif
@@ -20,10 +22,10 @@ Redaksi adalah proses penghapusan permanen atau pengaburan informasi sensitif da
 
 ## Prasyarat
 
-Sebelum kita masuk ke proses penyuntingan, pastikan Anda telah memenuhi prasyarat berikut:
+Sebelum kita menyelami proses penyuntingan, pastikan Anda memiliki prasyarat berikut ini:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
--  Pustaka Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Pustaka Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 
 ## Menyiapkan Lingkungan Java Anda
@@ -50,7 +52,7 @@ Pada langkah ini, kita akan memuat dokumen PDF yang berisi informasi sensitif. A
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Mengganti`"example.pdf"` dengan jalur ke berkas PDF Anda.
+Mengganti `"example.pdf"` dengan jalur ke berkas PDF Anda.
 
 ## Mengidentifikasi Konten Sensitif
 
@@ -112,9 +114,11 @@ Ya, Anda dapat memproses beberapa dokumen PDF secara batch untuk menerapkan peny
 ### Apakah ada batasan penyuntingan di Aspose.PDF untuk Java?
 
 Aspose.PDF untuk Java menyediakan kemampuan penyuntingan yang hebat, tetapi penting untuk menguji dokumen yang disunting secara menyeluruh guna memastikan tidak terjadi kebocoran informasi yang tidak diinginkan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

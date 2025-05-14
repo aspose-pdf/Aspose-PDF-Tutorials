@@ -1,46 +1,48 @@
 ---
-title: Přidání razítka stránky PDF do souboru PDF pomocí Java
-linktitle: Přidání razítka stránky PDF do souboru PDF pomocí Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Naučte se přidávat razítka stránek PDF v Javě pomocí Aspose.PDF. Tento podrobný průvodce vám ukáže, jak snadno přizpůsobit razítka pro vaše dokumenty PDF.
-weight: 13
-url: /cs/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/
+"description": "Naučte se, jak přidat razítka stránek PDF v Javě pomocí Aspose.PDF. Tento podrobný návod vám ukáže, jak snadno a rychle přizpůsobit razítka pro vaše PDF dokumenty."
+"linktitle": "Přidání razítka stránky PDF do souboru PDF pomocí Javy"
+"second_title": "API pro zpracování PDF v Javě Aspose.PDF"
+"title": "Přidání razítka stránky PDF do souboru PDF pomocí Javy"
+"url": "/cs/java/pdf-document-operations/adding-pdf-page-stamp-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidání razítka stránky PDF do souboru PDF pomocí Java
+# Přidání razítka stránky PDF do souboru PDF pomocí Javy
 
 
-## Úvod do přidávání razítka stránky PDF do souboru PDF pomocí Java
+## Úvod do přidávání razítka stránky PDF do souboru PDF pomocí Javy
 
-Soubory PDF jsou široce používaným formátem pro sdílení a archivaci dokumentů. Často je potřeba přidat další informace nebo značku ke stávajícím dokumentům PDF. V tomto tutoriálu prozkoumáme, jak přidat razítko stránky PDF pomocí Javy s pomocí Aspose.PDF pro Javu.
+PDF soubory jsou široce používaným formátem pro sdílení a archivaci dokumentů. Často je potřeba do stávajících PDF dokumentů přidat další informace nebo branding. V tomto tutoriálu se podíváme na to, jak přidat razítko stránky PDF pomocí Javy s pomocí Aspose.PDF pro Javu.
 
-## Porozumění razítkům stránek PDF
+## Principy razítek stránek PDF
 
-Razítko stránky PDF je obrázek nebo text, který je přidán na stránku PDF jako překrytí. To může být užitečné pro přidávání vodoznaků, log, čísel stránek nebo jiných informací, které by se měly objevit na každé stránce dokumentu PDF.
+Razítko stránky PDF je obrázek nebo text, který se přidá na stránku PDF jako překrytí. To může být užitečné pro přidání vodoznaků, log, čísel stránek nebo jakýchkoli dalších informací, které by se měly objevit na každé stránce dokumentu PDF.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do kódu, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK) nainstalován
+- Nainstalovaná vývojářská sada Java (JDK)
 - Integrované vývojové prostředí (IDE) jako Eclipse nebo IntelliJ IDEA
--  Aspose.PDF pro knihovnu Java (Můžete si ji stáhnout[zde](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF pro knihovnu Java (můžete si ji stáhnout [zde](https://releases.aspose.com/pdf/java/).
 
 ## Nastavení prostředí
 
-Začněme nastavením našeho vývojového prostředí. Ujistěte se, že máte nainstalovaný a nakonfigurovaný JDK a IDE.
+Začněme nastavením vývojového prostředí. Ujistěte se, že máte nainstalovaný a nakonfigurovaný JDK a IDE.
 
-## Přidání závislostí
+## Přidávání závislostí
 
-Vytvořte nový projekt Java ve svém IDE a přidejte knihovnu Aspose.PDF for Java do závislostí vašeho projektu. Můžete to udělat přidáním souboru JAR do cesty sestavení vašeho projektu.
+Vytvořte nový projekt Java ve vašem IDE a přidejte knihovnu Aspose.PDF pro Javu do závislostí projektu. Toho dosáhnete přidáním souboru JAR do cesty sestavení projektu.
 
-## Vytvoření projektu Java
+## Vytvoření projektu v Javě
 
-Vytvořte nový projekt Java ve svém IDE a pojmenujte jej podle svých preferencí.
+Vytvořte nový projekt Java ve vašem IDE a pojmenujte ho podle svých preferencí.
 
 ## Import knihovny Aspose.PDF
 
@@ -50,9 +52,9 @@ Importujte knihovnu Aspose.PDF na začátek vaší třídy Java:
 import com.aspose.pdf.*;
 ```
 
-## Definování dokumentu PDF
+## Definování PDF dokumentu
 
-Chcete-li pracovat s dokumentem PDF, musíte jej nejprve definovat. Pojďme vytvořit objekt dokumentu PDF:
+Abyste mohli pracovat s PDF dokumentem, musíte ho nejprve definovat. Vytvořme objekt PDF dokumentu:
 
 ```java
 Document pdfDocument = new Document("input.pdf");
@@ -60,7 +62,7 @@ Document pdfDocument = new Document("input.pdf");
 
 ## Vytvoření razítka stránky
 
-Nyní vytvoříme razítko stránky, což může být obrázek nebo text. Pro tento příklad vytvoříme textové razítko:
+Nyní si vytvořme razítko stránky, které může být buď obrázek, nebo text. V tomto příkladu vytvoříme textové razítko:
 
 ```java
 TextStamp textStamp = new TextStamp("Sample Stamp Text");
@@ -68,7 +70,7 @@ TextStamp textStamp = new TextStamp("Sample Stamp Text");
 
 ## Konfigurace razítka stránky
 
-Můžete nakonfigurovat různé vlastnosti razítka stránky, jako je písmo, barva a poloha. Zde je příklad, jak nakonfigurovat textové razítko:
+Můžete nakonfigurovat různé vlastnosti razítka stránky, jako je písmo, barva a umístění. Zde je příklad, jak nakonfigurovat textové razítko:
 
 ```java
 textStamp.getTextState().setFont(FontRepository.findFont("Arial"));
@@ -81,7 +83,7 @@ textStamp.setHorizontalAlignment(HorizontalAlignment.Center);
 
 ## Použití razítka stránky
 
-Nyní, když jsme nakonfigurovali naše razítko stránky, aplikujme ho na stránky PDF:
+Nyní, když jsme nakonfigurovali razítko stránky, pojďme ho aplikovat na stránky PDF:
 
 ```java
 for (int pageNumber = 1; pageNumber <= pdfDocument.getPages().size(); pageNumber++) {
@@ -97,38 +99,40 @@ Jakmile je razítko stránky aplikováno na všechny stránky, uložte upravený
 pdfDocument.save("output.pdf");
 ```
 
-## Spuštění Java aplikace
+## Spuštění aplikace v Javě
 
-Nyní můžete spustit aplikaci Java. Přidá razítko stránky k určenému dokumentu PDF.
+Nyní můžete spustit aplikaci Java. Ta přidá razítko stránky do zadaného dokumentu PDF.
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak přidat razítko stránky PDF do souboru PDF pomocí Java a knihovny Aspose.PDF for Java. Prozkoumali jsme základní kroky, od nastavení prostředí až po konfiguraci a aplikaci razítka. Nyní můžete své dokumenty PDF snadno vylepšit přidáním vodoznaků, log nebo jiných informací. Šťastné kódování!
+V tomto tutoriálu jsme se naučili, jak přidat razítko stránky PDF do PDF souboru pomocí Javy a knihovny Aspose.PDF pro Javu. Prozkoumali jsme základní kroky, od nastavení prostředí až po konfiguraci a použití razítka. Nyní můžete snadno vylepšit své PDF dokumenty přidáním vodoznaků, log nebo dalších informací. Přejeme vám příjemné programování!
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu místo textu přidat obrázkové razítko?
+### Jak mohu přidat obrázkové razítko místo textu?
 
- Můžete vytvořit`ImageStamp` místo a`TextStamp` a nakonfigurujte jej pomocí souboru obrázku.
+Můžete si vytvořit `ImageStamp` místo `TextStamp` a nakonfigurujte jej pomocí souboru s obrázkem.
 
-### Mohu upravit pozici razítka stránky?
+### Mohu si přizpůsobit polohu razítka stránky?
 
-Ano, můžete upravit vertikální a horizontální zarovnání tak, aby bylo razítko umístěno podle vašich požadavků.
+Ano, můžete upravit svislé a vodorovné zarovnání a umístit razítko podle svých požadavků.
 
-### Podporuje Aspose.PDF for Java další úpravy PDF?
+### Podporuje Aspose.PDF pro Javu i jiné úpravy PDF?
 
-Ano, Aspose.PDF for Java poskytuje širokou škálu funkcí pro manipulaci s PDF, včetně extrakce textu a obrázků, slučování a dalších.
+Ano, Aspose.PDF pro Javu nabízí širokou škálu funkcí pro manipulaci s PDF, včetně extrakce textu a obrázků, slučování a dalších.
 
-### Je Aspose.PDF for Java zdarma k použití?
+### Je Aspose.PDF pro Javu zdarma k použití?
 
-Aspose.PDF for Java je komerční knihovna, ale můžete ji vyhodnotit pomocí bezplatné zkušební licence.
+Aspose.PDF pro Javu je komerční knihovna, ale můžete si ji vyzkoušet s bezplatnou zkušební licencí.
 
 ### Kde najdu další dokumentaci a příklady?
 
- Úplnou dokumentaci a příklady můžete najít na stránce dokumentace Aspose.PDF for Java:[zde](https://reference.aspose.com/pdf/java/)
+Komplexní dokumentaci a příklady naleznete na stránce s dokumentací k souboru Aspose.PDF pro Javu: [zde](https://reference.aspose.com/pdf/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

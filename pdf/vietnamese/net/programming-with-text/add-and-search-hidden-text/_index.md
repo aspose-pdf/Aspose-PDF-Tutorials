@@ -1,14 +1,16 @@
 ---
-title: Thêm và tìm kiếm văn bản ẩn trong tệp PDF
-linktitle: Thêm và tìm kiếm văn bản ẩn trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Học cách thêm và tìm kiếm văn bản ẩn trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã.
-weight: 20
-url: /vi/net/programming-with-text/add-and-search-hidden-text/
+"description": "Học cách thêm và tìm kiếm văn bản ẩn trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã."
+"linktitle": "Thêm và tìm kiếm văn bản ẩn trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm và tìm kiếm văn bản ẩn trong tệp PDF"
+"url": "/vi/net/programming-with-text/add-and-search-hidden-text/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm và tìm kiếm văn bản ẩn trong tệp PDF
@@ -23,7 +25,7 @@ Trước khi bắt đầu phần mã hóa, bạn cần lưu ý một số điề
 
 ### Danh sách kiểm tra yêu cầu
 - Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Hướng dẫn này giả định rằng bạn đang sử dụng .NET Framework.
--  Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/).
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -32,8 +34,8 @@ Trước khi bạn có thể bắt đầu với mã của mình, bạn cần đ�
 
 ### Thiết lập dự án của bạn
 1. Mở Visual Studio và tạo một dự án C# mới hoặc sử dụng dự án hiện có.
-2.  Cài đặt Aspose.PDF bằng cách thêm gói NuGet. Bạn có thể thực hiện việc này bằng cách điều hướng đến NuGet Package Manager và tìm kiếm`Aspose.PDF`. 
-3.  Ngoài ra, bạn có thể tải trực tiếp thư viện từ[đây](https://releases.aspose.com/pdf/net/) và thêm nó làm tài liệu tham khảo trong dự án của bạn.
+2. Cài đặt Aspose.PDF bằng cách thêm gói NuGet. Bạn có thể thực hiện việc này bằng cách điều hướng đến NuGet Package Manager và tìm kiếm `Aspose.PDF`. 
+3. Ngoài ra, bạn có thể tải trực tiếp thư viện từ [đây](https://releases.aspose.com/pdf/net/) và thêm nó làm tài liệu tham khảo trong dự án của bạn.
 
 ### Nhập không gian tên bắt buộc
 Ở đầu tệp C# của bạn, hãy nhập các không gian tên sau:
@@ -59,7 +61,7 @@ Bây giờ bạn đã thiết lập xong, chúng ta hãy cùng thực hiện cá
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay đổi điều này vào thư mục của bạn
 ```
 
- Dòng này xác định nơi PDF được tạo của bạn sẽ được lưu trữ. Đừng quên thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế của bạn.
+Dòng này xác định nơi PDF được tạo của bạn sẽ được lưu trữ. Đừng quên thay thế `YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế của bạn.
 
 ### Bước 2: Tạo một tài liệu PDF
 Tiếp theo, hãy tạo một tài liệu PDF mới và thêm trang vào đó.
@@ -79,19 +81,19 @@ TextFragment frag1 = new TextFragment("This is common text.");
 TextFragment frag2 = new TextFragment("This is invisible text.");
 ```
 
- Trong đoạn trích này,`frag1` sẽ được nhìn thấy, trong khi`frag2` sẽ được đặt thành vô hình tiếp theo.
+Trong đoạn trích này, `frag1` sẽ được nhìn thấy, trong khi `frag2` sẽ được đặt thành vô hình tiếp theo.
 
 ### Bước 4: Đặt Văn bản thành Vô hình
- Để làm cho văn bản của`frag2` vô hình, bạn chỉ cần sửa đổi nó`TextState`.
+Để làm cho văn bản của `frag2` vô hình, bạn chỉ cần sửa đổi nó `TextState`.
 
 ```csharp
 frag2.TextState.Invisible = true;
 ```
 
- Bằng cách thiết lập thuộc tính này, bất kỳ văn bản nào được liên kết với`frag2` sẽ không được hiển thị khi xem PDF.
+Bằng cách thiết lập thuộc tính này, bất kỳ văn bản nào được liên kết với `frag2` sẽ không được hiển thị khi xem PDF.
 
 ### Bước 5: Thêm đoạn văn bản vào trang
-Cuối cùng, chúng ta thêm các đoạn văn bản này vào trang và lưu PDF.
+Cuối cùng, chúng tôi thêm các đoạn văn bản này vào trang và lưu PDF.
 
 ```csharp
 page.Paragraphs.Add(frag1);
@@ -114,7 +116,7 @@ doc = new Aspose.Pdf.Document(dataDir + "39400_out.pdf");
 ```
 
 ### Bước 2: Tạo một công cụ hấp thụ đoạn văn bản
- Chúng tôi sẽ sử dụng`TextFragmentAbsorber` để chụp lại toàn bộ các đoạn văn bản trong PDF.
+Chúng tôi sẽ sử dụng `TextFragmentAbsorber` để chụp lại toàn bộ các đoạn văn bản trong PDF.
 
 ```csharp
 TextFragmentAbsorber absorber = new TextFragmentAbsorber();
@@ -134,7 +136,7 @@ foreach (TextFragment fragment in absorber.TextFragments)
 }
 ```
 
- Vòng lặp này kiểm tra từng đoạn văn bản và in ra nội dung của nó cùng với vị trí và trạng thái hiển thị của nó. Nếu`fragment.TextState.Invisible` được đặt thành đúng, nghĩa là văn bản bị ẩn!
+Vòng lặp này kiểm tra từng đoạn văn bản và in ra nội dung của nó cùng với vị trí và trạng thái hiển thị của nó. Nếu `fragment.TextState.Invisible` được đặt thành đúng, nghĩa là văn bản bị ẩn!
 
 ### Bước 4: Vứt bỏ tài liệu
 Cuối cùng, hãy nhớ vứt bỏ tài liệu sau khi hoàn tất.
@@ -155,19 +157,21 @@ Khi bạn trở nên quen thuộc hơn với ASPose.PDF, khả năng trở nên 
 Có, Aspose.PDF hỗ trợ mã hóa và giải mã tài liệu PDF. Bạn có thể dễ dàng bảo mật PDF của mình bằng mật khẩu.
 
 ### Có phiên bản dùng thử nào cho Aspose.PDF không?  
- Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Aspose.PDF hỗ trợ những ngôn ngữ lập trình nào?  
 Aspose.PDF hỗ trợ nhiều ngôn ngữ, bao gồm C#, Java và Python.
 
 ### Tôi có thể tìm tài liệu về Aspose.PDF ở đâu?  
- Bạn có thể truy cập tài liệu[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể truy cập tài liệu [đây](https://reference.aspose.com/pdf/net/).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?  
- Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

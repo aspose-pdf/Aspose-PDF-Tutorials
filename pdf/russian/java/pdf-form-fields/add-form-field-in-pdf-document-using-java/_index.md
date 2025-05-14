@@ -1,14 +1,16 @@
 ---
-title: Добавить поле формы в PDF-документ с помощью Java
-linktitle: Добавить поле формы в PDF-документ с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как добавлять интерактивные поля форм в ваши PDF-документы с помощью Java и Aspose.PDF для Java. Создавайте удобные для пользователя PDF-формы с легкостью.
-weight: 10
-url: /ru/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/
+"description": "Узнайте, как добавлять интерактивные поля форм в ваши PDF-документы с помощью Java и Aspose.PDF для Java. Создавайте удобные для пользователя PDF-формы с легкостью."
+"linktitle": "Добавить поле формы в PDF-документ с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Добавить поле формы в PDF-документ с помощью Java"
+"url": "/ru/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить поле формы в PDF-документ с помощью Java
@@ -24,7 +26,7 @@ url: /ru/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/
 
 Прежде чем погрузиться в код, вам нужно настроить среду разработки. Выполните следующие шаги:
 
-1.  Загрузите Aspose.PDF для Java: Посетите веб-сайт Aspose и загрузите последнюю версию Aspose.PDF для Java. Вы можете найти ее[здесь](https://releases.aspose.com/pdf/java/).
+1. Загрузите Aspose.PDF для Java: Посетите веб-сайт Aspose и загрузите последнюю версию Aspose.PDF для Java. Вы можете найти ее [здесь](https://releases.aspose.com/pdf/java/).
 
 2. Установите Aspose.PDF: После загрузки установите Aspose.PDF, следуя инструкциям по установке, представленным на веб-сайте.
 
@@ -105,7 +107,7 @@ RadioButtonOptionField option2 = new RadioButtonOptionField(page, new Rectangle(
 option1.setPartialName("optYes"); // Установить имя поля для варианта 1
 option2.setPartialName("optNo"); // Установить имя поля для варианта 2
 
-//Добавить параметры в группу переключателей
+// Добавить параметры в группу переключателей
 RadioButtonOptionField[] options = {option1, option2};
 RadioButtonField radioButtonField = new RadioButtonField(page, options);
 page.getAnnotations().add(radioButtonField);
@@ -182,7 +184,7 @@ doc.save("FeedbackForm.pdf");
 
 ### Сохранить в потоке
 
- Чтобы сохранить PDF-документ в потоке, вы можете использовать`OutputStream` сорт:
+Чтобы сохранить PDF-документ в потоке, вы можете использовать `OutputStream` сорт:
 
 ```java
 OutputStream outputStream = new FileOutputStream("FeedbackForm.pdf");
@@ -198,7 +200,7 @@ outputStream.close();
 
 ### Как настроить раскрывающийся список в PDF-форме?
 
- Чтобы создать раскрывающийся список (поле со списком) в форме PDF, вы можете использовать`ComboBoxField` класс, предоставленный Aspose.PDF для Java. Следуйте аналогичному подходу, показанному для других полей формы, и настройте параметры с помощью`AddItem` Метод. Подробную документацию по этому вопросу вы можете найти на сайте Aspose.
+Чтобы создать раскрывающийся список (поле со списком) в форме PDF, вы можете использовать `ComboBoxField` класс, предоставленный Aspose.PDF для Java. Следуйте аналогичному подходу, показанному для других полей формы, и настройте параметры с помощью `AddItem` Метод. Подробную документацию по этому вопросу вы можете найти на сайте Aspose.
 
 ### Совместим ли Aspose.PDF для Java с другими библиотеками и фреймворками Java?
 
@@ -215,9 +217,11 @@ outputStream.close();
 ### Могу ли я динамически генерировать PDF-формы на основе данных, введенных пользователем?
 
 Да, вы можете динамически генерировать формы PDF на основе пользовательского ввода с помощью Aspose.PDF для Java. В зависимости от пользовательского ввода или логики приложения вы можете создавать документы PDF с различными полями форм и макетами. Эта гибкость позволяет генерировать настраиваемые формы, соответствующие конкретным потребностям или сценариям пользователя.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

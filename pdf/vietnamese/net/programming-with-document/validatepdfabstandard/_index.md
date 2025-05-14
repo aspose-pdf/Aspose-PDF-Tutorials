@@ -1,14 +1,16 @@
 ---
-title: Xác thực PDF AB Standard
-linktitle: Xác thực PDF AB Standard
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách xác thực PDF theo chuẩn PDF/A-1b bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Đảm bảo tuân thủ để lưu trữ lâu dài.
-weight: 380
-url: /vi/net/programming-with-document/validatepdfabstandard/
+"description": "Tìm hiểu cách xác thực PDF theo chuẩn PDF/A-1b bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Đảm bảo tuân thủ để lưu trữ lâu dài."
+"linktitle": "Xác thực PDF AB Standard"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xác thực PDF AB Standard"
+"url": "/vi/net/programming-with-document/validatepdfabstandard/"
+"weight": 380
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xác thực PDF AB Standard
@@ -24,9 +26,9 @@ Sử dụng Aspose.PDF cho .NET, việc xác thực PDF để tuân thủ PDF/A 
 
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để làm theo:
 
--  Aspose.PDF cho .NET: Bạn cần phiên bản mới nhất. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Bạn cần phiên bản mới nhất. Bạn có thể tải xuống từ [trang web](https://releases.aspose.com/pdf/net/).
 - Môi trường .NET: Đảm bảo bạn có môi trường phát triển .NET đang hoạt động như Visual Studio.
--  Giấy phép: Để có đầy đủ chức năng, bạn sẽ cần giấy phép Aspose. Bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)để đánh giá hoặc[mua một cái ở đây](https://purchase.aspose.com/buy).
+- Giấy phép: Để có đầy đủ chức năng, bạn sẽ cần giấy phép Aspose. Bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá hoặc [mua một cái ở đây](https://purchase.aspose.com/buy).
 
 Khi bạn đã có đủ mọi điều kiện tiên quyết, bạn sẽ sẵn sàng làm theo các bước trong hướng dẫn này.
 
@@ -52,7 +54,7 @@ Trước tiên: bạn cần cho mã biết nơi tìm tài liệu PDF của bạn
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Trong dòng này, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn nằm. Đường dẫn này sẽ được sử dụng trong toàn bộ mã để truy cập tệp PDF mà bạn muốn xác thực.
+Trong dòng này, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn nằm. Đường dẫn này sẽ được sử dụng trong toàn bộ mã để truy cập tệp PDF mà bạn muốn xác thực.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -62,7 +64,7 @@ Bây giờ chúng ta đã biết PDF ở đâu, hãy mở nó ra. Aspose.PDF gi�
 Document pdfDocument = new Document(dataDir + "ValidatePDFAStandard.pdf");
 ```
 
- Ở đây,`Document`lớp được sử dụng để mở tệp PDF. Chỉ cần đảm bảo rằng tệp của bạn ở đúng vị trí và nó sẽ được tải vào bộ nhớ, sẵn sàng để xác thực.
+Ở đây, `Document` lớp được sử dụng để mở tệp PDF. Chỉ cần đảm bảo rằng tệp của bạn ở đúng vị trí và nó sẽ được tải vào bộ nhớ, sẵn sàng để xác thực.
 
 ## Bước 3: Xác thực PDF theo Tiêu chuẩn PDF/A
 
@@ -73,7 +75,7 @@ pdfDocument.Validate(dataDir + "validation-result-A1A.xml", PdfFormat.PDF_A_1B);
 ```
 
 Chúng ta hãy phân tích nó nhé:
--  Các`Validate` phương pháp này có hai tham số. Tham số đầu tiên là đường dẫn nơi kết quả xác thực sẽ được lưu. Tham số thứ hai là định dạng PDF/A mà bạn đang xác thực—trong trường hợp này,`PDF_A_1B`.
+- Các `Validate` phương pháp này có hai tham số. Tham số đầu tiên là đường dẫn nơi kết quả xác thực sẽ được lưu. Tham số thứ hai là định dạng PDF/A mà bạn đang xác thực—trong trường hợp này, `PDF_A_1B`.
 - Kết quả sẽ được lưu trong tệp XML, nêu chi tiết liệu tài liệu có vượt qua xác thực hay không và có bất kỳ vấn đề nào không.
 
 ## Bước 4: Xử lý kết quả xác thực
@@ -100,13 +102,15 @@ Có! Aspose.PDF hỗ trợ xác thực cho nhiều tiêu chuẩn PDF/A khác nha
 Kết quả xác thực được lưu trong tệp XML, bạn có thể mở tệp này bằng bất kỳ trình soạn thảo văn bản hoặc XML nào để xem lại lỗi, cảnh báo hoặc thông báo thành công.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF để xác thực PDF/A không?
- Có, bạn sẽ cần giấy phép để mở khóa toàn bộ tiềm năng của Aspose.PDF. Bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc mua giấy phép đầy đủ[đây](https://purchase.aspose.com/buy).
+Có, bạn sẽ cần giấy phép để mở khóa toàn bộ tiềm năng của Aspose.PDF. Bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc mua giấy phép đầy đủ [đây](https://purchase.aspose.com/buy).
 
 ### Nếu tệp PDF của tôi không vượt qua được xác thực PDF/A thì sao?
 Nếu PDF của bạn không xác thực được, tệp kết quả XML sẽ cung cấp thông tin chi tiết về các vấn đề cụ thể. Sau đó, bạn có thể sửa đổi tài liệu cho phù hợp bằng các tính năng chỉnh sửa mạnh mẽ của Aspose.PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

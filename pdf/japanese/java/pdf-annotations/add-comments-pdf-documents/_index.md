@@ -1,56 +1,58 @@
 ---
-title: PDF ドキュメントにコメントを追加する
-linktitle: PDF ドキュメントにコメントを追加する
-second_title: Aspose.PDF Java PDF 処理 API
-description: Aspose.PDF for Java を使用して PDF ドキュメントにコメントを追加する方法を学習します - コード例付きのステップバイステップ ガイド。
-weight: 10
-url: /ja/java/pdf-annotations/add-comments-pdf-documents/
+"description": "Aspose.PDF for Java を使用して PDF ドキュメントにコメントを追加する方法を学習します - コード例付きのステップバイステップ ガイド。"
+"linktitle": "PDF文書にコメントを追加する"
+"second_title": "Aspose.PDF Java PDF 処理 API"
+"title": "PDF文書にコメントを追加する"
+"url": "/ja/java/pdf-annotations/add-comments-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF ドキュメントにコメントを追加する
+# PDF文書にコメントを追加する
 
 
-## PDF ドキュメントにコメントを追加する方法の紹介
+## PDF文書にコメントを追加する方法の紹介
 
-PDF ドキュメントは、その普遍的な互換性と一貫したフォーマットにより、デジタルで情報を共有するための標準となっています。PDF の重要な機能の 1 つは、ドキュメントにコメント、注釈、メモを追加できることです。この記事では、PDF 操作用の強力な API である Aspose.PDF for Java を使用して PDF ドキュメントにコメントを追加するプロセスについて説明します。
+PDFドキュメントは、その普遍的な互換性と一貫したフォーマットにより、デジタル情報共有の標準となっています。PDFの重要な機能の一つは、ドキュメントにコメント、注釈、メモを追加できることです。この記事では、PDF操作のための強力なAPIであるAspose.PDF for Javaを使用して、PDFドキュメントにコメントを追加する手順を説明します。
 
 ## Aspose.PDF for Java を使い始める
 
-まず、開発環境を設定する必要があります。Aspose.PDF for Javaライブラリがインストールされていることを確認してください。ここからダウンロードできます。[ここ](https://releases.aspose.com/pdf/java/).
+まず、開発環境をセットアップする必要があります。Aspose.PDF for Javaライブラリがインストールされていることを確認してください。ダウンロードはこちらから可能です。 [ここ](https://releases。aspose.com/pdf/java/).
 
 ## PDFドキュメントの作成
 
-PDF にコメントを追加するには、まず作業する PDF ドキュメントが必要です。Aspose.PDF for Java を使用して、わずか数行のコードで新しい PDF ドキュメントを作成できます。
+PDFにコメントを追加するには、まず作業対象となるPDFドキュメントが必要です。Aspose.PDF for Javaを使えば、わずか数行のコードで新しいPDFドキュメントを作成できます。
 
 ```java
-//新しいPDF文書を初期化する
+// 新しいPDFドキュメントを初期化する
 Document pdfDocument = new Document();
 ```
 
-## PDF ドキュメントにコメントを追加する
+## PDF文書にコメントを追加する
 
-コメントの追加は簡単です。Aspose.PDF API を使用して、ハイライト、テキスト メモ、スタンプなどのコメントを挿入できます。例としてハイライト コメントを追加してみましょう。
+コメントの追加は簡単です。Aspose.PDF API を使えば、ハイライト、テキストメモ、スタンプなどのコメントを挿入できます。例として、ハイライトコメントを追加してみましょう。
 
 ```java
 // PDFにページを作成する
 Page page = pdfDocument.getPages().add();
 
-//ハイライト注釈を追加する
+// ハイライト注釈を追加する
 HighlightAnnotation highlight = new HighlightAnnotation(page, new Rectangle(100, 100, 200, 200));
 highlight.setColor(Color.YELLOW);
 highlight.setContents("This is a highlighted comment.");
 
-//ページに注釈を追加する
+// ページに注釈を追加する
 page.getAnnotations().add(highlight);
 ```
 
-## コメントの種類
+## さまざまな種類のコメント
 
-Aspose.PDF for Java は、テキスト注釈、スタンプ、インク注釈など、さまざまな種類のコメントをサポートしています。ニーズに最適なタイプを選択できます。
+Aspose.PDF for Java は、テキスト注釈、スタンプ、インク注釈など、さまざまな種類のコメントをサポートしています。ニーズに最適な種類をお選びいただけます。
 
 ## コメントの外観をカスタマイズする
 
@@ -58,15 +60,15 @@ Aspose.PDF for Java は、テキスト注釈、スタンプ、インク注釈な
 
 ## プログラムによるコメントの管理
 
-Aspose.PDF for Java を使用すると、コメントをプログラムで管理できます。必要に応じてコメントを取得、更新、または削除することができ、コメント処理を完全に制御できます。
+Aspose.PDF for Java を使用すると、プログラムでコメントを管理できます。必要に応じてコメントを取得、更新、削除できるため、コメント処理を完全に制御できます。
 
-## 変更したPDFを保存してエクスポートする
+## 変更したPDFの保存とエクスポート
 
-コメントを追加してカスタマイズしたら、変更した PDF ドキュメントを保存またはエクスポートして他のユーザーと共有できます。コメントを保存するには、変更内容を必ず保存してください。
+コメントを追加してカスタマイズしたら、変更したPDFドキュメントを保存またはエクスポートして他のユーザーと共有できます。コメントを保存するには、変更内容を必ず保存してください。
 
 ## 結論
 
-PDF ドキュメントにコメントを追加することは、コラボレーションとドキュメント作成を強化する貴重な機能です。Aspose.PDF for Java はプロセスを簡素化し、コメントの追加、カスタマイズ、管理を簡単に行えるようにします。PDF ドキュメントにコメントを組み込んで、コミュニケーションと理解を向上させましょう。
+PDFドキュメントへのコメント追加は、コラボレーションとドキュメント作成を強化する貴重な機能です。Aspose.PDF for Javaは、コメントの追加、カスタマイズ、管理を容易にし、このプロセスを簡素化します。PDFドキュメントにコメントを組み込むことで、コミュニケーションと理解を深めることができます。
 
 ## よくある質問
 
@@ -89,9 +91,11 @@ PDF ドキュメントに追加できるコメントの数は、ドキュメン�
 ### プログラムで PDF からコメントを抽出するにはどうすればよいですか?
 
 Aspose.PDF for Java を使用してドキュメントの注釈を反復処理することで、PDF ドキュメントからコメントを抽出できます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

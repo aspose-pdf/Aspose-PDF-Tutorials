@@ -1,14 +1,16 @@
 ---
-title: Perluas Bookmark Dalam File PDF
-linktitle: Perluas Bookmark Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memperluas bookmark dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin meningkatkan navigasi PDF.
-weight: 50
-url: /id/net/programming-with-bookmarks/expand-bookmarks/
+"description": "Pelajari cara memperluas bookmark dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin meningkatkan navigasi PDF."
+"linktitle": "Perluas Bookmark Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Perluas Bookmark Dalam File PDF"
+"url": "/id/net/programming-with-bookmarks/expand-bookmarks/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perluas Bookmark Dalam File PDF
@@ -22,7 +24,7 @@ Pernahkah Anda membuka berkas PDF dan mendapati bahwa semua penanda halaman tela
 Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah lingkungan terbaik untuk pengembangan .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.PDF. Anda dapat menemukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
 ## Paket Impor
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya, Anda akan membuka dokumen PDF yang berisi bookmark yang ingin Anda perluas. Ini dilakukan dengan menggunakan`Document` kelas dari pustaka Aspose.PDF.
+Selanjutnya, Anda akan membuka dokumen PDF yang berisi bookmark yang ingin Anda perluas. Ini dilakukan dengan menggunakan `Document` kelas dari pustaka Aspose.PDF.
 
 ```csharp
 // Buka dokumen
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "input-bookmark.pdf");
 Sekarang, Anda perlu mengatur mode tampilan halaman dokumen. Ini menentukan bagaimana PDF akan ditampilkan saat dibuka. Dalam kasus ini, kami ingin menggunakan garis besar (bookmark).
 
 ```csharp
-//Atur mode tampilan halaman, yaitu tampilkan gambar mini, layar penuh, tampilkan panel lampiran
+// Atur mode tampilan halaman, yaitu tampilkan gambar mini, layar penuh, tampilkan panel lampiran
 doc.PageMode = PageMode.UseOutlines;
 ```
 
@@ -119,19 +121,21 @@ Nah, itu dia! Anda telah berhasil memperluas bookmark dalam file PDF menggunakan
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur pustaka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Apakah ada dukungan yang tersedia untuk Aspose.PDF?
- Tentu saja! Anda bisa mendapatkan dukungan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Tentu saja! Anda bisa mendapatkan dukungan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana cara membeli lisensi untuk Aspose.PDF?
- Anda dapat membeli lisensi untuk Aspose.PDF[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi untuk Aspose.PDF [Di Sini](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

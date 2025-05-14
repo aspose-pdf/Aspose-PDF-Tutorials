@@ -1,14 +1,16 @@
 ---
-title: Извлечение тегированного содержимого PDF с помощью Java
-linktitle: Извлечение тегированного содержимого PDF с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Откройте для себя мощь извлечения тегированного контента PDF в Java с помощью Aspose.PDF для Java. Это пошаговое руководство содержит примеры исходного кода для бесперебойного доступа к структурированному контенту PDF.
-weight: 12
-url: /ru/java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/
+"description": "Откройте для себя мощь извлечения помеченного контента PDF в Java с помощью Aspose.PDF для Java. Это пошаговое руководство содержит примеры исходного кода для бесперебойного доступа к структурированному контенту PDF."
+"linktitle": "Извлечение тегированного содержимого PDF с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Извлечение тегированного содержимого PDF с помощью Java"
+"url": "/ru/java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Извлечение тегированного содержимого PDF с помощью Java
@@ -26,7 +28,7 @@ url: /ru/java/pdf-text-extraction/tagged-pdf-content-extraction-using-java/
 
 1. Среда разработки Java: убедитесь, что в вашей системе установлена Java.
 
-2.  Библиотека Aspose.PDF для Java: Вы можете загрузить библиотеку с сайта[здесь](https://releases.aspose.com/pdf/java/). Включите его в свой проект Java.
+2. Aspose.PDF для библиотеки Java: Вы можете загрузить библиотеку с сайта [здесь](https://releases.aspose.com/pdf/java/). Включите его в свой проект Java.
 
 ## Шаг 1: Создайте проект Java
 
@@ -47,7 +49,7 @@ public class TaggedPDFExtractor {
 }
 ```
 
- Заменять`"path_to_tagged_pdf.pdf"` с фактическим путем к вашему помеченному PDF-файлу.
+Заменять `"path_to_tagged_pdf.pdf"` с фактическим путем к вашему помеченному PDF-файлу.
 
 ## Шаг 3: Извлечение помеченного контента
 
@@ -85,7 +87,7 @@ public class TaggedPDFExtractor {
 
 ## Шаг 4: Компиляция и запуск
 
-Скомпилируйте свой проект Java и запустите его. Извлеченный тегированный контент из PDF будет отображен в консоли.
+Скомпилируйте свой проект Java и запустите его. Извлеченное тегированное содержимое из PDF будет отображено в консоли.
 
 ## Заключение
 
@@ -107,10 +109,12 @@ public class TaggedPDFExtractor {
    Aspose.PDF для Java — это коммерческая библиотека, но для ознакомления предоставляется бесплатная пробная версия.
 
 ### Где я могу найти более подробную информацию об Aspose.PDF для Java?
-    Обратитесь к документации API по адресу[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) для получения подробной информации и примеров.
+   Обратитесь к документации API по адресу [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) для получения подробной информации и примеров.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

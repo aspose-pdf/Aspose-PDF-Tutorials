@@ -8,7 +8,9 @@ url: /net/programming-with-links-and-actions/specify-page-when-viewing/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specify Page When Viewing
@@ -176,6 +178,7 @@ Yes! You can download a free trial of Aspose.PDF [here](https://releases.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

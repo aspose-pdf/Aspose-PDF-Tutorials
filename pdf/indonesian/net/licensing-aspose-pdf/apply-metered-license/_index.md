@@ -1,14 +1,16 @@
 ---
-title: Konfigurasikan Kunci Lisensi Terukur dalam File PDF
-linktitle: Konfigurasikan Kunci Lisensi Terukur dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengonfigurasi kunci lisensi terukur dalam file PDF Anda menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/licensing-aspose-pdf/configure-metered-license/
+"description": "Pelajari cara mengonfigurasi kunci lisensi terukur dalam file PDF Anda menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Konfigurasikan Kunci Lisensi Terukur dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Konfigurasikan Kunci Lisensi Terukur dalam File PDF"
+"url": "/id/net/licensing-aspose-pdf/configure-metered-license/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konfigurasikan Kunci Lisensi Terukur dalam File PDF
@@ -21,8 +23,8 @@ Apakah Anda siap untuk menyelami dunia manipulasi PDF menggunakan Aspose.PDF unt
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru Aspose.PDF untuk .NET. Anda bisa mendapatkannya dari[halaman unduhan](https://releases.aspose.com/pdf/net/).
-2.  Kunci Lisensi Terukur yang Valid: Anda memerlukan kunci publik dan pribadi terukur. Jika Anda belum memilikinya, Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru Aspose.PDF untuk .NET. Anda bisa mendapatkannya dari [halaman unduhan](https://releases.aspose.com/pdf/net/).
+2. Kunci Lisensi Terukur yang Valid: Anda memerlukan kunci publik dan pribadi terukur. Jika Anda belum memilikinya, Anda dapat memperoleh lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 3. Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan .NET lain yang kompatibel harus disiapkan dan siap digunakan.
 4. Contoh Dokumen PDF: Sediakan file PDF yang dapat Anda gunakan untuk menguji proses konfigurasi.
 
@@ -48,27 +50,27 @@ Sebelum Anda masuk ke kode, pastikan lingkungan pengembangan Anda sudah disiapka
 
 ## Langkah 2: Inisialisasi Kelas Terukur
 
- Sekarang lingkungan Anda sudah siap, saatnya untuk menginisialisasi`Metered` kelas disediakan oleh Aspose.PDF.
+Sekarang lingkungan Anda sudah siap, saatnya untuk menginisialisasi `Metered` kelas disediakan oleh Aspose.PDF.
 
--  Buat Instansi: Mulailah dengan membuat sebuah instance dari`Metered` kelas. Kelas ini akan membantu Anda mengatur kunci lisensi terukur Anda.
+- Buat Instansi: Mulailah dengan membuat sebuah instance dari `Metered` kelas. Kelas ini akan membantu Anda mengatur kunci lisensi terukur Anda.
 
 ```csharp
 Aspose.Pdf.Metered metered = new Aspose.Pdf.Metered();
 ```
 
--  Mengapa Hal Ini Penting:`Metered` Kelas ini penting karena memungkinkan Anda memanfaatkan model lisensi terukur, yang dapat lebih hemat biaya jika Anda menangani pemrosesan dokumen bervolume tinggi.
+- Mengapa Hal Ini Penting: `Metered` kelas sangat penting karena memungkinkan Anda memanfaatkan model lisensi terukur, yang dapat lebih hemat biaya jika Anda menangani pemrosesan dokumen bervolume tinggi.
 
 ## Langkah 3: Tetapkan Kunci Lisensi Terukur Anda
 
- Dengan`Metered` kelas diinisialisasi, saatnya untuk menetapkan kunci publik dan privat terukur Anda.
+Dengan `Metered` kelas diinisialisasi, saatnya untuk menetapkan kunci publik dan privat terukur Anda.
 
--  Akses`SetMeteredKey` Metode :`SetMeteredKey` metode ini digunakan untuk menerapkan kunci publik dan privat Anda ke pustaka Aspose.PDF.
+- Akses `SetMeteredKey` Metode : `SetMeteredKey` metode ini digunakan untuk menerapkan kunci publik dan privat Anda ke pustaka Aspose.PDF.
 
 ```csharp
 metered.SetMeteredKey("YOUR_PUBLIC_KEY", "YOUR_PRIVATE_KEY");
 ```
 
--  Catatan Penting: Ganti`"YOUR_PUBLIC_KEY"` Dan`"YOUR_PRIVATE_KEY"`dengan kunci lisensi terukur Anda yang sebenarnya. Kunci ini penting untuk mengaktifkan kemampuan penuh Aspose.PDF.
+- Catatan Penting: Ganti `"YOUR_PUBLIC_KEY"` Dan `"YOUR_PRIVATE_KEY"` dengan kunci lisensi terukur Anda yang sebenarnya. Kunci ini penting untuk mengaktifkan kemampuan penuh Aspose.PDF.
 
 ## Langkah 4: Muat Dokumen PDF Anda
 
@@ -81,7 +83,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
--  Memuat Dokumen:`Document` kelas di Aspose.PDF memungkinkan Anda memuat dan memanipulasi berkas PDF dengan mudah.
+- Memuat Dokumen: `Document` kelas di Aspose.PDF memungkinkan Anda memuat dan memanipulasi berkas PDF Anda dengan mudah.
 
 ## Langkah 5: Verifikasi Konfigurasi
 
@@ -105,7 +107,7 @@ Selamat! Anda telah berhasil mengonfigurasi kunci lisensi terukur untuk file PDF
 Lisensi terukur memungkinkan Anda membayar API berdasarkan penggunaan, bukan biaya satu kali. Lisensi ini ideal untuk pemrosesan dokumen bervolume tinggi.
 
 ### Bagaimana cara memperoleh kunci lisensi terukur?  
- Anda dapat memperoleh kunci lisensi terukur dengan membeli lisensi dari[Di Sini](https://purchase.aspose.com/buy) atau dengan mengajukan permohonan lisensi sementara.
+Anda dapat memperoleh kunci lisensi terukur dengan membeli lisensi dari [Di Sini](https://purchase.aspose.com/buy) atau dengan mengajukan permohonan lisensi sementara.
 
 ### Bisakah saya menggunakan Aspose.PDF tanpa lisensi?  
 Ya, tetapi versi gratisnya memiliki batasan. Untuk akses tanpa batas ke semua fitur, Anda harus menggunakan lisensi yang valid.
@@ -116,9 +118,11 @@ Jika lisensi terukur tidak ditetapkan dengan benar, aplikasi Anda mungkin tidak 
 ### Dapatkah saya beralih di antara jenis lisensi yang berbeda di Aspose.PDF?  
 Ya, Aspose.PDF memungkinkan Anda beralih di antara berbagai jenis lisensi (seperti reguler dan terukur) dengan mengonfigurasi kunci lisensi yang sesuai di aplikasi Anda.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

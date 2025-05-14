@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/get-dimensions/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get PDF Page Dimensions
@@ -129,6 +131,7 @@ You can visit the [documentation here](https://reference.aspose.com/pdf/net/) fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

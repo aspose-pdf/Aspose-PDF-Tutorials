@@ -1,14 +1,16 @@
 ---
-title: Cấu trúc gốc trong PDF sử dụng Java
-linktitle: Cấu trúc gốc trong PDF sử dụng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách thao tác cấu trúc gốc bằng Aspose.PDF. Tạo, chỉnh sửa và cải thiện PDF.
-weight: 11
-url: /vi/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/
+"description": "Tìm hiểu cách thao tác cấu trúc gốc bằng Aspose.PDF. Tạo, chỉnh sửa và cải thiện PDF."
+"linktitle": "Cấu trúc gốc trong PDF sử dụng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Cấu trúc gốc trong PDF sử dụng Java"
+"url": "/vi/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cấu trúc gốc trong PDF sử dụng Java
@@ -81,9 +83,9 @@ Trong bài viết này, chúng tôi đã khám phá cấu trúc gốc của tài
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để thêm siêu liên kết vào PDF bằng Aspose.PDF cho Java?
+### Làm thế nào tôi có thể thêm siêu liên kết vào PDF bằng Aspose.PDF cho Java?
 
-Để thêm siêu liên kết, hãy sử dụng`HyperlinkAnnotation` lớp và chỉ định URL mục tiêu.
+Để thêm siêu liên kết, hãy sử dụng `HyperlinkAnnotation` lớp và chỉ định URL mục tiêu.
 
 ### Tôi có thể mã hóa tài liệu PDF bằng mật khẩu không?
 
@@ -100,9 +102,11 @@ Bạn có thể trích xuất văn bản từ tài liệu PDF bằng cách lặp
 ### Tôi có thể chuyển đổi tài liệu PDF sang các định dạng khác như Word hoặc Excel bằng Aspose.PDF cho Java không?
 
 Có, Aspose.PDF for Java hỗ trợ chuyển đổi tài liệu PDF sang nhiều định dạng khác nhau, bao gồm Word và Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

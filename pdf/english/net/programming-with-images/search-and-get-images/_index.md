@@ -8,7 +8,9 @@ url: /net/programming-with-images/search-and-get-images/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Search And Get Images In PDF File
@@ -129,6 +131,7 @@ Yes, you can save the images to disk using the `XImage` object in your code.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

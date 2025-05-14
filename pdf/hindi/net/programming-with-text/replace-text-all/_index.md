@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ फाइल में सभी टेक्स्ट बदलें
-linktitle: पीडीएफ फाइल में सभी टेक्स्ट बदलें
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में टेक्स्ट को आसानी से बदलने का तरीका जानें। कोड स्निपेट के साथ संपूर्ण गाइड शामिल है।
-weight: 350
-url: /hi/net/programming-with-text/replace-text-all/
+"description": ".NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में टेक्स्ट को आसानी से बदलने का तरीका जानें। कोड स्निपेट सहित संपूर्ण गाइड।"
+"linktitle": "पीडीएफ फाइल में सभी टेक्स्ट बदलें"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "पीडीएफ फाइल में सभी टेक्स्ट बदलें"
+"url": "/hi/net/programming-with-text/replace-text-all/"
+"weight": 350
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ फाइल में सभी टेक्स्ट बदलें
@@ -21,9 +23,9 @@ url: /hi/net/programming-with-text/replace-text-all/
 
 इससे पहले कि हम इस यात्रा पर आगे बढ़ें, आइए सुनिश्चित करें कि आप पूरी तरह से सुसज्जित हैं। यहाँ वे चीज़ें दी गई हैं जो आपके पास होनी चाहिए:
 
-1.  .NET के लिए Aspose.PDF: सबसे पहले, आपको Aspose.PDF लाइब्रेरी इंस्टॉल करनी होगी। आप इसे आसानी से डाउनलोड कर सकते हैं।[साइट](https://releases.aspose.com/pdf/net/).
+1. .NET के लिए Aspose.PDF: सबसे पहले, आपको Aspose.PDF लाइब्रेरी इंस्टॉल करनी होगी। आप इसे आसानी से डाउनलोड कर सकते हैं। [साइट](https://releases.aspose.com/pdf/net/).
 2. .NET वातावरण: सुनिश्चित करें कि आपके पास एक कार्यशील .NET वातावरण है, जैसे कि Visual Studio। सुनिश्चित करें कि आपका प्रोजेक्ट .NET Framework या .NET Core को लक्षित करता है जो Aspose.PDF के साथ संगत है।
-3. बुनियादी C# ज्ञान: C# प्रोग्रामिंग की बुनियादी समझ इस गाइड का अनुसरण करना अधिक आसान बना देगी।
+3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग की बुनियादी समझ से इस गाइड का अनुसरण करना अधिक आसान हो जाएगा।
 
 एक बार जब आप उपरोक्त उपकरण तैयार कर लेंगे, तो हम मज़ेदार भाग पर आ सकते हैं: कोडिंग!
 
@@ -46,7 +48,7 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
- यह आपके प्रोजेक्ट को बताता है कि आप इसका उपयोग करना चाहते हैं`Aspose.Pdf` लाइब्रेरी पीडीएफ फाइलों के साथ काम करने के लिए।
+यह आपके प्रोजेक्ट को बताता है कि आप इसका उपयोग करना चाहते हैं `Aspose.Pdf` लाइब्रेरी पीडीएफ फाइलों के साथ काम करने के लिए।
 
 अब जब आप तैयार हो गए हैं, तो चलिए पीडीएफ फाइल में टेक्स्ट बदलने की प्रक्रिया को चरण दर चरण देखते हैं। चिंता न करें; मैं सब कुछ विस्तार से बताऊंगा, ताकि इसे समझना बहुत आसान हो।
 
@@ -58,27 +60,27 @@ using Aspose.Pdf.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आपकी मौजूदा पीडीएफ फाइल संग्रहीत है। यह आपके प्रोग्राम को उसके खजाने को खोजने के लिए एक नक्शा देने जैसा है!
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आपकी मौजूदा पीडीएफ फाइल संग्रहीत है। यह आपके प्रोग्राम को उसके खजाने को खोजने के लिए एक नक्शा देने जैसा है!
 
 ## चरण 2: दस्तावेज़ खोलें
 
- इसके बाद, आपको पीडीएफ दस्तावेज़ को अपने प्रोग्राम में लोड करना होगा`Document` कक्षा।
+इसके बाद, आपको पीडीएफ दस्तावेज़ को अपने प्रोग्राम में लोड करना होगा `Document` कक्षा।
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "ReplaceTextAll.pdf");
 ```
 
- यहां, आप नाम की पीडीएफ फाइल खोल रहे हैं`ReplaceTextAll.pdf`इस कदम को एक किताब को खोलने और उसकी विषय-वस्तु को पढ़ने के समान समझें।
+यहां, आप नाम की पीडीएफ फाइल खोल रहे हैं `ReplaceTextAll.pdf`इस कदम को एक किताब को खोलने और उसकी विषय-वस्तु को पढ़ने के समान समझें।
 
 ## चरण 3: टेक्स्ट अवशोषक बनाएँ
 
- अब, आप एक बनाएंगे`TextFragmentAbsorber`, जो एक विशेष ऑब्जेक्ट है जो उस पाठ के उदाहरणों को खोजने में मदद करता है जिसे आप प्रतिस्थापित करना चाहते हैं। 
+अब, आप एक बनाएंगे `TextFragmentAbsorber`, जो एक विशेष ऑब्जेक्ट है जो उस पाठ के उदाहरणों को खोजने में मदद करता है जिसे आप प्रतिस्थापित करना चाहते हैं। 
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
 
- इस पंक्ति में, प्रतिस्थापित करें`"text"` आप जिस वास्तविक टेक्स्ट को खोज रहे हैं, उसके साथ। यह किसी पेज पर शब्दों को चिह्नित करने के लिए हाइलाइटर का उपयोग करने जैसा ही है।
+इस पंक्ति में, प्रतिस्थापित करें `"text"` आप जिस वास्तविक टेक्स्ट को खोज रहे हैं, उसके साथ। यह किसी पेज पर शब्दों को चिह्नित करने के लिए हाइलाइटर का उपयोग करने जैसा ही है।
 
 ## चरण 4: सभी पृष्ठों के लिए अवशोषक स्वीकार करें
 
@@ -98,11 +100,11 @@ pdfDocument.Pages.Accept(textFragmentAbsorber);
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
 
-यहां, आप अनिवार्य रूप से अगले चरण के लिए सभी हाइलाइट किए गए शब्दों को एक टोकरी में एकत्रित कर रहे हैं।
+यहां, आप अनिवार्य रूप से अगले चरण के लिए आपके द्वारा जांचे गए सभी हाइलाइट किए गए शब्दों को एक टोकरी में एकत्रित कर रहे हैं।
 
 ## चरण 6: पाठ अंशों के माध्यम से लूप करें
 
-यहाँ पर जादू होता है। आपके सभी टेक्स्ट अंशों को एकत्रित करने के बाद, आप प्रत्येक ऐसे इंस्टैंस को लूप कर सकते हैं, जिसे बदलने की आवश्यकता है। 
+यहाँ पर जादू होता है। आपके सभी टेक्स्ट अंशों को एकत्रित करने के बाद, आप प्रत्येक ऐसे उदाहरण को लूप कर सकते हैं जिसे बदलने की आवश्यकता है। 
 
 ```csharp
 foreach (TextFragment textFragment in textFragmentCollection)
@@ -120,12 +122,12 @@ foreach (TextFragment textFragment in textFragmentCollection)
 ```csharp
 textFragment.Text = "TEXT"; // नया पाठ
 textFragment.TextState.Font = FontRepository.FindFont("Verdana"); // नया फ़ॉन्ट
-textFragment.TextState.FontSize = 22; //नया फ़ॉन्ट आकार
+textFragment.TextState.FontSize = 22; // नया फ़ॉन्ट आकार
 textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Blue); // पाठ का रंग
 textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green); // पृष्ठभूमि का रंग
 ```
 
- प्रतिस्थापित करें`"TEXT"` आप जो भी नया टेक्स्ट डालना चाहते हैं, उसे चुनें। इससे आप न केवल शब्दों को बदल सकते हैं, बल्कि यह भी बदल सकते हैं कि यह कैसा दिखता है!
+प्रतिस्थापित करें `"TEXT"` आप जो भी नया टेक्स्ट डालना चाहते हैं, उसे चुनें। इससे आप न केवल शब्दों को बदल सकते हैं, बल्कि यह भी बदल सकते हैं कि यह कैसा दिखता है!
 
 ## चरण 8: दस्तावेज़ सहेजें
 
@@ -136,7 +138,7 @@ dataDir = dataDir + "ReplaceTextAll_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- यह लाइन आपके अपडेट किए गए पीडीएफ को इस रूप में सहेजती है`ReplaceTextAll_out.pdf`यह ऐसा है जैसे आपने अपनी पुस्तक में संशोधन करने के बाद उसे सील कर दिया हो!
+यह लाइन आपके अपडेट किए गए पीडीएफ को इस रूप में सहेजती है `ReplaceTextAll_out.pdf`यह ऐसा है जैसे आपने अपनी पुस्तक में संशोधन करने के बाद उसे सील कर दिया हो!
 
 ## चरण 9: परिवर्तनों की पुष्टि करें
 
@@ -158,19 +160,21 @@ Console.WriteLine("\nText replaced successfully.\nFile saved at " + dataDir);
 हां, आप TextFragmentCollection के माध्यम से पुनरावृति कर सकते हैं और विभिन्न टेक्स्ट को प्रतिस्थापित करने के लिए विभिन्न शर्तें लागू कर सकते हैं।
 
 ### .NET के कौन से संस्करण Aspose.PDF के साथ संगत हैं?
- Aspose.PDF .NET Framework और .NET Core सहित विभिन्न संस्करणों का समर्थन करता है। हमेशा जाँच करें[प्रलेखन](https://reference.aspose.com/pdf/net/) अनुकूलता के लिए.
+Aspose.PDF .NET Framework और .NET Core सहित विभिन्न संस्करणों का समर्थन करता है। हमेशा जाँच करें [प्रलेखन](https://reference.aspose.com/pdf/net/) अनुकूलता के लिए.
 
 ### क्या Aspose.PDF का निःशुल्क परीक्षण प्राप्त करने का कोई तरीका है?
- बिल्कुल! आप उनके यहां से Aspose.PDF का निःशुल्क परीक्षण प्राप्त कर सकते हैं[रिलीज़ पेज](https://releases.aspose.com/).
+बिल्कुल! आप उनके यहां से Aspose.PDF का निःशुल्क परीक्षण प्राप्त कर सकते हैं [रिलीज़ पेज](https://releases.aspose.com/).
 
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?
- Aspose समुदाय मंच मदद के लिए एक बढ़िया जगह है। आप यहाँ जा सकते हैं[सहायता](https://forum.aspose.com/c/pdf/10) सहायता के लिए.
+Aspose समुदाय मंच मदद के लिए एक बढ़िया जगह है। आप यहाँ जा सकते हैं [सहायता](https://forum.aspose.com/c/pdf/10) सहायता के लिए.
 
 ### क्या परीक्षण के बाद Aspose.PDF का उपयोग करने के लिए कोई लागत है?
- हां, Aspose.PDF एक सशुल्क उत्पाद है। आप खरीद विकल्प देख सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+हां, Aspose.PDF एक सशुल्क उत्पाद है। आप खरीद विकल्प देख सकते हैं [यहाँ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

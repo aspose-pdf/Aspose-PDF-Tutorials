@@ -8,7 +8,9 @@ url: /java/pdf-bookmarks/view-expanded-bookmarks-pdfs/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # View Expanded Bookmarks in PDFs
@@ -92,6 +94,7 @@ Yes, you can try a free evaluation version of Aspose.PDF for Java before making 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

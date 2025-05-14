@@ -1,14 +1,16 @@
 ---
-title: Hapus Gambar dari Sumber Daya PDF menggunakan Java
-linktitle: Hapus Gambar dari Sumber Daya PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menghapus gambar dari dokumen PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk manipulasi PDF yang efisien.
-weight: 21
-url: /id/java/pdf-images/delete-image-from-pdf-resources-using-java/
+"description": "Pelajari cara menghapus gambar dari dokumen PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk manipulasi PDF yang efisien."
+"linktitle": "Hapus Gambar dari Sumber Daya PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Hapus Gambar dari Sumber Daya PDF menggunakan Java"
+"url": "/id/java/pdf-images/delete-image-from-pdf-resources-using-java/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Gambar dari Sumber Daya PDF menggunakan Java
@@ -26,7 +28,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda
 - Lingkungan Pengembangan Terpadu (IDE) untuk Java (misalnya, Eclipse, IntelliJ IDEA)
--  Aspose.PDF untuk pustaka Java, yang dapat Anda unduh dari[Di Sini](https://releases.aspose.com/pdf/java/)
+- Aspose.PDF untuk pustaka Java, yang dapat Anda unduh dari [Di Sini](https://releases.aspose.com/pdf/java/)
 
 ## Menyiapkan Lingkungan Pengembangan Anda
 
@@ -71,7 +73,7 @@ for (Page page : pdfDocument.getPages()) {
 }
 ```
 
-## Menyimpan PDF yang Telah Dimodifikasi
+## Menyimpan PDF yang Dimodifikasi
 
 Setelah menghapus gambar, Anda perlu menyimpan dokumen PDF yang dimodifikasi:
 
@@ -111,13 +113,13 @@ Jalankan program Java untuk menguji kode. Program ini akan memuat PDF, menghapus
 
 Dalam panduan langkah demi langkah ini, kita telah mempelajari cara menghapus gambar dari dokumen PDF menggunakan Aspose.PDF untuk Java. Pustaka canggih ini memudahkan manipulasi file PDF secara terprogram, memberi Anda kendali penuh atas kontennya.
 
- Untuk informasi lebih lanjut dan dokumentasi terperinci, kunjungi[Referensi API Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+Untuk informasi lebih lanjut dan dokumentasi terperinci, kunjungi [Referensi API Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
 
 ## Tanya Jawab Umum
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Untuk menginstal Aspose.PDF untuk Java, Anda dapat mengunduh pustaka dari situs web[Di Sini](https://releases.aspose.com/pdf/java/)Ikuti petunjuk instalasi yang tersedia dalam dokumentasi.
+Untuk menginstal Aspose.PDF untuk Java, Anda dapat mengunduh pustaka dari situs web [Di Sini](https://releases.aspose.com/pdf/java/)Ikuti petunjuk instalasi yang tersedia dalam dokumentasi.
 
 ### Bisakah saya menghapus gambar tertentu dari PDF menggunakan Aspose.PDF untuk Java?
 
@@ -126,9 +128,11 @@ Ya, Anda dapat menghapus gambar tertentu dari PDF menggunakan Aspose.PDF untuk J
 ### Apakah Aspose.PDF untuk Java cocok untuk tugas manipulasi PDF lainnya?
 
 Ya, Aspose.PDF untuk Java adalah pustaka serbaguna yang dapat menangani berbagai tugas manipulasi PDF, termasuk menambahkan teks, gambar, anotasi, dan banyak lagi. Ini adalah solusi komprehensif untuk bekerja dengan file PDF dalam aplikasi Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

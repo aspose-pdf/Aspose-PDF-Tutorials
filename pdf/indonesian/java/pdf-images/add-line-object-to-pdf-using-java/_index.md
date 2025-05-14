@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Objek Garis ke PDF menggunakan Java
-linktitle: Menambahkan Objek Garis ke PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan objek garis ke berkas PDF menggunakan Java dengan Aspose.PDF untuk Java. Sesuaikan garis, posisikan, dan buat PDF dinamis dengan mudah.
-weight: 10
-url: /id/java/pdf-images/add-line-object-to-pdf-using-java/
+"description": "Pelajari cara menambahkan objek garis ke berkas PDF menggunakan Java dengan Aspose.PDF untuk Java. Sesuaikan garis, posisikan, dan buat PDF dinamis dengan mudah."
+"linktitle": "Menambahkan Objek Garis ke PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Objek Garis ke PDF menggunakan Java"
+"url": "/id/java/pdf-images/add-line-object-to-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Objek Garis ke PDF menggunakan Java
@@ -26,7 +28,7 @@ Sebelum kita mulai, Anda harus memastikan bahwa Anda memiliki prasyarat berikut:
 - Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA atau Eclipse
 - Aspose.PDF untuk pustaka Java
 
- Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/)Pastikan untuk memilih versi yang sesuai untuk proyek Anda.
+Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/)Pastikan untuk memilih versi yang sesuai untuk proyek Anda.
 
 ## Membuat Proyek Java
 
@@ -73,7 +75,7 @@ Jangan ragu untuk menyesuaikan warna, ketebalan, dan gaya untuk mencapai tampila
 
 ## Garis Posisi
 
- Anda dapat memposisikan garis pada koordinat tertentu pada halaman PDF dengan menyesuaikan`setStartPosition` Dan`setEndPosition`nilai dalam objek garis.
+Anda dapat memposisikan garis pada koordinat tertentu pada halaman PDF dengan menyesuaikan `setStartPosition` Dan `setEndPosition` nilai dalam objek garis.
 
 ## Menyimpan PDF
 
@@ -91,13 +93,13 @@ Sebelum menyelesaikan PDF Anda, penting untuk mengujinya secara menyeluruh. Past
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah mempelajari cara menambahkan objek garis ke berkas PDF menggunakan Java dan Aspose.PDF untuk Java. Kita membahas pengaturan lingkungan, pembuatan proyek Java, penambahan objek garis, penyesuaian propertinya, penempatan garis, dan penyimpanan PDF. Pengetahuan ini akan memberdayakan Anda untuk menyempurnakan dokumen PDF Anda dengan garis yang disesuaikan dengan kebutuhan Anda.
+Dalam tutorial ini, kita telah mempelajari cara menambahkan objek garis ke berkas PDF menggunakan Java dan Aspose.PDF untuk Java. Kita membahas tentang pengaturan lingkungan, pembuatan proyek Java, penambahan objek garis, penyesuaian propertinya, penempatan garis, dan penyimpanan PDF. Pengetahuan ini akan memberdayakan Anda untuk menyempurnakan dokumen PDF Anda dengan garis yang disesuaikan dengan kebutuhan Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengubah warna garis di dokumen PDF saya?
 
- Untuk mengubah warna garis pada dokumen PDF Anda, gunakan`setColor`metode pada objek baris. Misalnya:
+Untuk mengubah warna garis pada dokumen PDF Anda, gunakan `setColor` metode pada objek baris. Misalnya:
 
 ```java
 line.setColor(com.aspose.pdf.Color.getBlue());
@@ -125,10 +127,12 @@ Ya, Anda dapat menambahkan garis lengkung ke dokumen PDF. Aspose.PDF untuk Java 
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.PDF untuk Java?
 
-Anda dapat menemukan dokumentasi dan contoh lengkap untuk Aspose.PDF untuk Java di halaman dokumentasi[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi dan contoh lengkap untuk Aspose.PDF untuk Java di halaman dokumentasi [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

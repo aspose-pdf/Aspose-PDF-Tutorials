@@ -1,14 +1,16 @@
 ---
-title: सीजीएम से पीडीएफ फाइल
-linktitle: सीजीएम से पीडीएफ फाइल
-second_title: .NET API संदर्भ के लिए Aspose.PDF
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके CGM फ़ाइलों को PDF में परिवर्तित करना सीखें। डेवलपर्स और डिज़ाइनरों दोनों के लिए बिल्कुल सही।
-weight: 20
-url: /hi/net/document-conversion/cgm-to-pdf/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके CGM फ़ाइलों को PDF में परिवर्तित करना सीखें। डेवलपर्स और डिज़ाइनरों दोनों के लिए बिल्कुल सही।"
+"linktitle": "सीजीएम से पीडीएफ फाइल"
+"second_title": ".NET API संदर्भ के लिए Aspose.PDF"
+"title": "सीजीएम से पीडीएफ फाइल"
+"url": "/hi/net/document-conversion/cgm-to-pdf/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सीजीएम से पीडीएफ फाइल
@@ -21,7 +23,7 @@ url: /hi/net/document-conversion/cgm-to-pdf/
 
 रूपांतरण प्रक्रिया में उतरने से पहले, आपके पास कुछ पूर्व-आवश्यकताएं होनी चाहिए:
 
-1.  .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके पास Aspose.PDF लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/pdf/net/).
+1. .NET के लिए Aspose.PDF: सुनिश्चित करें कि आपके पास Aspose.PDF लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [वेबसाइट](https://releases.aspose.com/pdf/net/).
 2. विज़ुअल स्टूडियो: एक विकास वातावरण जहां आप अपना .NET कोड लिख और परीक्षण कर सकते हैं।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
 4. CGM फ़ाइल: रूपांतरण के लिए एक CGM फ़ाइल तैयार रखें। आप एक बना सकते हैं या इंटरनेट से एक नमूना डाउनलोड कर सकते हैं।
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## चरण 2: LoadOption ऑब्जेक्ट को तत्कालित करें
 
- इसके बाद, आपको इसका एक उदाहरण बनाना होगा`CgmLoadOptions` क्लास. यह क्लास CGM फ़ाइलों को ठीक से लोड करने के लिए आवश्यक है.
+इसके बाद, आपको इसका एक उदाहरण बनाना होगा `CgmLoadOptions` क्लास. यह क्लास CGM फ़ाइलों को ठीक से लोड करने के लिए आवश्यक है.
 
 ```csharp
 // CGMLoadOption का उपयोग करके LoadOption ऑब्जेक्ट को इंस्टेंटिएट करें
@@ -71,7 +73,7 @@ Aspose.Pdf.CgmLoadOptions cgmload = new Aspose.Pdf.CgmLoadOptions();
 
 ## चरण 3: दस्तावेज़ ऑब्जेक्ट बनाएँ
 
- अब, आप एक बनाएंगे`Document` ऑब्जेक्ट। यह ऑब्जेक्ट मेमोरी में आपकी CGM फ़ाइल का प्रतिनिधित्व करेगा, जिससे आप इसे PDF के रूप में सहेजने से पहले इसमें बदलाव कर सकेंगे।
+अब, आप एक बनाएंगे `Document` ऑब्जेक्ट। यह ऑब्जेक्ट मेमोरी में आपकी CGM फ़ाइल का प्रतिनिधित्व करेगा, जिससे आप इसे PDF के रूप में सहेजने से पहले इसमें बदलाव कर सकेंगे।
 
 ```csharp
 // दस्तावेज़ ऑब्जेक्ट को इंस्टैंशिएट करें
@@ -100,16 +102,18 @@ doc.Save(dataDir + "TECHDRAW_out.pdf");
 हां, Aspose.PDF HTML, XML और छवियों सहित विभिन्न प्रारूपों का समर्थन करता है।
 
 ### क्या कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं।[Aspose वेबसाइट](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/).
 
 ### मैं Aspose.PDF के लिए समर्थन कहां पा सकता हूं?
- आप यहां जा सकते हैं[Aspose समर्थन मंच](https://forum.aspose.com/c/pdf/10) सहायता के लिए.
+आप यहां जा सकते हैं [Aspose समर्थन मंच](https://forum.aspose.com/c/pdf/10) सहायता के लिए.
 
 ### मैं Aspose.PDF के लिए लाइसेंस कैसे खरीदूं?
- आप यहां से लाइसेंस खरीद सकते हैं[Aspose खरीद पृष्ठ](https://purchase.aspose.com/buy).
+आप यहां से लाइसेंस खरीद सकते हैं [Aspose खरीद पृष्ठ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

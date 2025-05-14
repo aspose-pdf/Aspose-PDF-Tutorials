@@ -1,14 +1,16 @@
 ---
-title: หน้าไปยังรูปภาพ
-linktitle: หน้าไปยังรูปภาพ
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: แปลงหน้า PDF เป็นรูปภาพคุณภาพสูงได้อย่างรวดเร็วโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-weight: 200
-url: /th/net/programming-with-images/pages-to-images/
+"description": "แปลงหน้า PDF เป็นรูปภาพคุณภาพสูงได้อย่างรวดเร็วโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "หน้าไปยังรูปภาพ"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "หน้าไปยังรูปภาพ"
+"url": "/th/net/programming-with-images/pages-to-images/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # หน้าไปยังรูปภาพ
@@ -27,7 +29,7 @@ url: /th/net/programming-with-images/pages-to-images/
 
 ### Aspose.PDF สำหรับ .NET
 
- คุณจะต้องติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้อย่างง่ายดายจาก[ลิงค์นี้](https://releases.aspose.com/pdf/net/) หากคุณต้องการสำรวจฟีเจอร์ต่างๆ ก่อน โปรดพิจารณาเริ่มด้วยรุ่นทดลองใช้งานฟรี[ที่นี่](https://releases.aspose.com/).
+คุณจะต้องติดตั้งไลบรารี Aspose.PDF คุณสามารถดาวน์โหลดได้อย่างง่ายดายจาก [ลิงค์นี้](https://releases.aspose.com/pdf/net/)หากคุณต้องการสำรวจฟีเจอร์ต่างๆ ก่อน โปรดพิจารณาเริ่มด้วยรุ่นทดลองใช้งานฟรี [ที่นี่](https://releases-aspose.com/).
 
 ### ความรู้พื้นฐานด้านการเขียนโปรแกรม
 
@@ -35,7 +37,7 @@ url: /th/net/programming-with-images/pages-to-images/
 
 ### เอกสาร PDF
 
- ตรวจสอบให้แน่ใจว่าคุณมีไฟล์ PDF ที่พร้อมสำหรับการแปลง ในบทช่วยสอนนี้ เราจะอ้างอิงไฟล์ชื่อ`PagesToImages.pdf`.
+ตรวจสอบให้แน่ใจว่าคุณมีไฟล์ PDF ที่พร้อมสำหรับการแปลง ในบทช่วยสอนนี้ เราจะอ้างอิงไฟล์ชื่อ `PagesToImages-pdf`.
 
 ## แพ็คเกจนำเข้า
 
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // อัปเดตสิ่งน
 Document pdfDocument = new Document(dataDir + "PagesToImages.pdf");
 ```
 
- การ`Document` คลาสโหลด PDF จากเส้นทางที่ระบุ เพื่อเตรียมพร้อมสำหรับการประมวลผล
+การ `Document` คลาสโหลด PDF จากเส้นทางที่ระบุ เพื่อเตรียมพร้อมสำหรับการประมวลผล
 
 ## ขั้นตอนที่ 3: ทำซ้ำในแต่ละหน้า
 
@@ -81,7 +83,7 @@ for (int pageCount = 1; pageCount <= pdfDocument.Pages.Count; pageCount++)
 }
 ```
 
- การ`pdfDocument.Pages.Count` ให้จำนวนหน้าทั้งหมดแก่เรา ทำให้เราดูซ้ำทุกหน้าได้
+การ `pdfDocument.Pages.Count` ทำให้ทราบจำนวนหน้าทั้งหมด ทำให้เราสามารถวนซ้ำทุกหน้าได้
 
 ## ขั้นตอนที่ 4: เริ่มต้นสตรีมภาพ
 
@@ -94,7 +96,7 @@ using (FileStream imageStream = new FileStream(dataDir + "image" + pageCount + "
 }
 ```
 
- สังเกตการใช้งานของ`using`คำชี้แจง การดำเนินการนี้จะช่วยให้มั่นใจได้ว่าสตรีมจะถูกกำจัดอย่างถูกต้องหลังจากที่เราเสร็จสิ้น ซึ่งถือเป็นแนวทางปฏิบัติที่ดีในการจัดการทรัพยากร
+สังเกตการใช้งานของ `using` คำชี้แจง การดำเนินการนี้จะช่วยให้มั่นใจได้ว่าสตรีมจะถูกกำจัดอย่างถูกต้องหลังจากที่เราเสร็จสิ้น ซึ่งถือเป็นแนวทางปฏิบัติที่ดีในการจัดการทรัพยากร
 
 ## ขั้นตอนที่ 5: สร้างอุปกรณ์ JPEG
 
@@ -128,7 +130,7 @@ jpegDevice.Process(pdfDocument.Pages[pageCount], imageStream);
 imageStream.Close();
 ```
 
-การโทรนี้จะช่วยให้แน่ใจว่าข้อมูลทั้งหมดได้รับการเขียนลงในไฟล์และไฟล์ได้รับการสรุปอย่างถูกต้อง
+การเรียกนี้จะช่วยให้แน่ใจว่าข้อมูลทั้งหมดได้รับการเขียนลงในไฟล์และไฟล์ได้รับการสรุปอย่างถูกต้อง
 
 ## ขั้นตอนที่ 8: ข้อความเสร็จสิ้น
 
@@ -138,7 +140,7 @@ imageStream.Close();
 System.Console.WriteLine("PDF pages are converted to individual images successfully!");
 ```
 
-ข้อความนี้แจ้งผู้ใช้ให้ทราบว่าการดำเนินการสำเร็จโดยไม่มีสะดุด
+ข้อความนี้แจ้งให้ผู้ใช้ทราบว่าการดำเนินการสำเร็จโดยไม่มีสะดุด
 
 ## บทสรุป
 
@@ -149,7 +151,7 @@ System.Console.WriteLine("PDF pages are converted to individual images successfu
 ## คำถามที่พบบ่อย
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ .NET ได้อย่างไร?
- ดาวน์โหลดห้องสมุดได้จาก[ลิงค์นี้](https://releases.aspose.com/pdf/net/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสาร
+ดาวน์โหลดห้องสมุดได้จาก [ลิงค์นี้](https://releases.aspose.com/pdf/net/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสาร
 
 ### ฉันสามารถสร้างรูปแบบภาพอะไรจากหน้า PDF ได้บ้าง
 แม้ว่าบทช่วยสอนนี้จะเน้นที่ JPEG แต่คุณยังสามารถส่งออกเป็นรูปแบบอื่น เช่น PNG ได้ โดยใช้คลาสที่สอดคล้องกันใน Aspose.PDF
@@ -158,13 +160,15 @@ System.Console.WriteLine("PDF pages are converted to individual images successfu
 แน่นอน! คุณสามารถปรับเปลี่ยนพารามิเตอร์คุณภาพ (0-100) ได้ขณะตั้งค่าอุปกรณ์ JPEG
 
 ### มี Aspose.PDF เวอร์ชันทดลองใช้งานหรือไม่
- ใช่ คุณสามารถรับการทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถรับการทดลองใช้ฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.PDF ได้ที่ไหน
- คุณสามารถเยี่ยมชม[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือเกี่ยวกับปัญหาหรือคำถามใดๆ
+คุณสามารถเยี่ยมชม [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10) เพื่อขอความช่วยเหลือเกี่ยวกับปัญหาหรือคำถามใดๆ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

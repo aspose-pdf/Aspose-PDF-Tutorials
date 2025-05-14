@@ -1,14 +1,16 @@
 ---
-title: Pobierz tekst hiperłącza w pliku PDF
-linktitle: Pobierz tekst hiperłącza w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak bez wysiłku wyodrębnić tekst hiperłącza z pliku PDF za pomocą Aspose.PDF dla .NET. Zawiera przewodnik krok po kroku i kod.
-weight: 70
-url: /pl/net/programming-with-links-and-actions/get-hyperlink-text/
+"description": "Dowiedz się, jak bez wysiłku wyodrębnić tekst hiperłącza z pliku PDF za pomocą Aspose.PDF dla .NET. Zawiera przewodnik krok po kroku i kod."
+"linktitle": "Pobierz tekst hiperłącza w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz tekst hiperłącza w pliku PDF"
+"url": "/pl/net/programming-with-links-and-actions/get-hyperlink-text/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz tekst hiperłącza w pliku PDF
@@ -22,8 +24,8 @@ Jeśli chodzi o pracę z plikami PDF, wyodrębnianie hiperłączy może być zni
 Zanim rozpoczniemy naszą przygodę z wyodrębnianiem tekstu hiperłączy z plików PDF, musimy zapoznać się z kilkoma podstawowymi informacjami:
 
 1. Podstawowa znajomość języka C#: Przydatna będzie znajomość programowania w języku C#, ponieważ będziemy pisać kod.
-2. Zainstalowany program Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio. To będzie nasz plac zabaw do pisania i testowania kodu.
-3.  Aspose.PDF dla .NET: Będziesz potrzebować biblioteki Aspose.PDF. Możesz ją pobrać ze strony[strona](https://releases.aspose.com/pdf/net/)lub zacznij od bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+2. Zainstalowany program Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio na swoim komputerze. To będzie nasz plac zabaw do pisania i testowania kodu.
+3. Aspose.PDF dla .NET: Będziesz potrzebować biblioteki Aspose.PDF. Możesz ją pobrać ze strony [strona](https://releases.aspose.com/pdf/net/) lub zacznij od bezpłatnego okresu próbnego [Tutaj](https://releases.aspose.com/).
 
 ## Importuj pakiety
 
@@ -37,7 +39,7 @@ Zacznij od otwarcia programu Visual Studio i utworzenia nowego projektu aplikacj
 
 1. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 2. Wybierz „Zarządzaj pakietami NuGet”.
-3.  Szukaj`Aspose.PDF` i zainstaluj.
+3. Szukaj `Aspose.PDF` i zainstaluj.
 4. Dzięki temu uzyskasz dostęp do wszystkich wspaniałych klas i metod udostępnianych przez Aspose.PDF.
 
 ```csharp
@@ -59,11 +61,11 @@ W naszym kodzie najpierw musimy określić ścieżkę, w której znajduje się n
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką pliku PDF. Na przykład może wyglądać tak`"C:\\Documents\\"`.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką pliku PDF. Na przykład może wyglądać tak `"C:\\Documents\\"`.
 
 ## Krok 2: Załaduj dokument PDF
 
- Następnym krokiem jest załadowanie pliku PDF, abyśmy mogli rozpocząć jego przetwarzanie. Utworzymy wystąpienie`Document` klasę i przekazujemy jej ścieżkę do pliku.
+Następnym krokiem jest załadowanie pliku PDF, abyśmy mogli rozpocząć jego przetwarzanie. Utworzymy wystąpienie `Document` klasę i przekazujemy jej ścieżkę do pliku.
 
 ```csharp
 Document document = new Document(dataDir + "input.pdf");
@@ -83,7 +85,7 @@ foreach (Page page in document.Pages)
 }
 ```
 
- W tej pętli zdefiniujemy metodę o nazwie`ShowLinkAnnotations` który zajmie się wyodrębnianiem hiperłączy. 
+W tej pętli zdefiniujemy metodę o nazwie `ShowLinkAnnotations` który zajmie się wyodrębnianiem hiperłączy. 
 
 ## Krok 4: Zdefiniuj metodę ShowLinkAnnotations
 
@@ -103,8 +105,8 @@ private static void ShowLinkAnnotations(Page page)
 }
 ```
 
--  Sprawdź, czy adnotacja jest linkiem: Tutaj sprawdzamy, czy adnotacja na stronie jest linkiem.`LinkAnnotation`. Jeśli tak, przystępujemy do wyodrębnienia jego tytułu i URI.
--  Wyświetl tekst hiperłącza: Używanie`Console.WriteLine`, drukujemy tekst łącza i odpowiadający mu adres URI.
+- Sprawdź, czy adnotacja jest linkiem: Tutaj sprawdzamy, czy adnotacja na stronie jest linkiem. `LinkAnnotation`Jeśli tak, przystępujemy do wyodrębnienia jego tytułu i URI.
+- Wyświetl tekst hiperłącza: Używanie `Console.WriteLine`, drukujemy tekst linku i odpowiadający mu adres URI.
 
 ## Krok 5: Obsługa wyjątków
 
@@ -133,19 +135,21 @@ Gratulacje! Udało Ci się nauczyć, jak wyodrębnić tekst hiperłącza z pliku
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie dokumentów PDF.
 
 ### Czy jest dostępna wersja bezpłatna?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Tutaj](https://releases.aspose.com/).
 
 ### Jakiego rodzaju hiperłącza mogę wyodrębnić?
-Można wyodrębnić dowolne hiperłącze zawarte w dokumencie PDF, niezależnie od tego, czy jest to typowy adres URL w sieci, czy też link odsyłający w obrębie dokumentu.
+Można wyodrębnić dowolne hiperłącze zawarte w dokumencie PDF, niezależnie od tego, czy jest to typowy adres URL w sieci Web, czy też link odsyłający w obrębie dokumentu.
 
 ### Czy mogę wyodrębnić obrazy i teksty wraz z hiperlinkami?
 Oczywiście! Aspose.PDF zapewnia funkcjonalność do wyodrębniania nie tylko hiperłączy, ale także obrazów i tekstów z plików PDF.
 
 ### Gdzie mogę znaleźć więcej materiałów Aspose.PDF?
- Aby uzyskać szczegółową dokumentację, odwiedź stronę[Dokumentacja PDF Aspose](https://reference.aspose.com/pdf/net/).
+Aby uzyskać szczegółową dokumentację, odwiedź stronę [Dokumentacja PDF Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

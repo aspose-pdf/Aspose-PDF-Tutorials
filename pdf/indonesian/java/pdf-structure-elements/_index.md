@@ -1,14 +1,16 @@
 ---
-title: Elemen Struktur PDF
-linktitle: Elemen Struktur PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Jelajahi tutorial Aspose.PDF untuk Java untuk menguasai elemen struktur PDF. Buat PDF yang terorganisasi dan mudah diakses dengan mudah.
-weight: 20
-url: /id/java/pdf-structure-elements/
+"description": "Jelajahi tutorial Aspose.PDF untuk Java untuk menguasai elemen struktur PDF. Buat PDF yang terorganisasi dan mudah diakses dengan mudah."
+"linktitle": "Elemen Struktur PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Elemen Struktur PDF"
+"url": "/id/java/pdf-structure-elements/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elemen Struktur PDF
@@ -42,9 +44,11 @@ Pelajari cara membuat PDF bertag di Java dengan Aspose.PDF untuk Java. Panduan l
 Kuasai Elemen Struktur Blok Teks PDF di Java - Panduan Langkah demi Langkah menggunakan Aspose.PDF untuk Java.
 ### [Elemen Struktur Teks dalam PDF menggunakan Java](./text-structure-elements-in-pdf-using-java/)
 Pelajari cara memanipulasi struktur teks PDF di Java menggunakan Aspose.PDF untuk Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk penanganan teks PDF yang efisien.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

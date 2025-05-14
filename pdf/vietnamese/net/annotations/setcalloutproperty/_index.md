@@ -1,14 +1,16 @@
 ---
-title: Đặt Thuộc Tính Callout Trong Tệp PDF
-linktitle: Đặt Thuộc Tính Callout Trong Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thiết lập thuộc tính chú thích trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước này.
-weight: 130
-url: /vi/net/annotations/setcalloutproperty/
+"description": "Tìm hiểu cách thiết lập thuộc tính chú thích trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước này."
+"linktitle": "Đặt Thuộc Tính Callout Trong Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đặt Thuộc Tính Callout Trong Tệp PDF"
+"url": "/vi/net/annotations/setcalloutproperty/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt Thuộc Tính Callout Trong Tệp PDF
@@ -21,10 +23,10 @@ Việc tạo các tài liệu PDF chuyên nghiệp và hấp dẫn về mặt h�
 
 Trước khi đi sâu vào mã, chúng ta hãy tìm hiểu những điều cần thiết để bắt đầu.
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/).
 2. IDE: Môi trường phát triển như Visual Studio.
 3. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET trên máy của mình.
-4. Giấy phép tạm thời: Nếu bạn muốn dùng thử đầy đủ các tính năng của Aspose.PDF mà không có giới hạn, hãy lấy[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+4. Giấy phép tạm thời: Nếu bạn muốn dùng thử đầy đủ các tính năng của Aspose.PDF mà không có giới hạn, hãy lấy [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -52,17 +54,17 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Khởi tạo một tài liệu PDF mới
 Document doc = new Document();
 ```
- Ở đây, chúng tôi đang tạo ra một cái mới`Document` đối tượng sẽ đóng vai trò là tệp PDF của chúng tôi.`dataDir` biến được đặt thành thư mục mà bạn muốn lưu tệp PDF sau khi hoàn tất.
+Ở đây, chúng tôi đang tạo ra một cái mới `Document` đối tượng sẽ đóng vai trò là tệp PDF của chúng tôi. `dataDir` biến được đặt thành thư mục mà bạn muốn lưu tệp PDF sau khi hoàn tất.
 
 ## Bước 2: Thêm trang mới vào tài liệu
 
 Một tài liệu PDF có thể có nhiều trang và trong bước này, chúng ta sẽ thêm một trang mới vào tài liệu của mình. Trang này sẽ là nơi chú thích chú thích của chúng ta được đặt.
 
 ```csharp
-//Thêm một trang mới vào tài liệu
+// Thêm một trang mới vào tài liệu
 Page page = doc.Pages.Add();
 ```
- Các`Pages.Add()`phương pháp được sử dụng để thêm một trang mới vào`doc` đối tượng. Trang mới được lưu trữ trong`page` biến mà chúng ta sẽ sử dụng sau khi thêm chú thích.
+Các `Pages.Add()` phương pháp được sử dụng để thêm một trang mới vào `doc` đối tượng. Trang mới được lưu trữ trong `page` biến mà chúng ta sẽ sử dụng sau khi thêm chú thích.
 
 ## Bước 3: Xác định Giao diện Mặc định
 
@@ -74,7 +76,7 @@ DefaultAppearance da = new DefaultAppearance();
 da.TextColor = System.Drawing.Color.Red;
 da.FontSize = 10;
 ```
- Chúng tôi tạo ra một`DefaultAppearance` đối tượng xác định màu chữ và cỡ chữ. Ở đây, chữ sẽ có màu đỏ và cỡ chữ được đặt thành 10. Giao diện này sẽ được áp dụng cho chú thích chú thích.
+Chúng tôi tạo ra một `DefaultAppearance` đối tượng xác định màu chữ và cỡ chữ. Ở đây, chữ sẽ có màu đỏ và cỡ chữ được đặt thành 10. Giao diện này sẽ được áp dụng cho chú thích chú thích.
 
 ## Bước 4: Tạo chú thích văn bản tự do
 
@@ -86,7 +88,7 @@ FreeTextAnnotation fta = new FreeTextAnnotation(page, new Rectangle(422.25, 645.
 fta.Intent = FreeTextIntent.FreeTextCallout;
 fta.EndingStyle = LineEnding.OpenArrow;
 ```
- Chúng tôi tạo ra một`FreeTextAnnotation` đối tượng có tọa độ cụ thể, xác định vị trí của nó trên trang.`Intent` được thiết lập để`FreeTextCallout` , cho biết đây là chú thích chú thích.`EndingStyle` được thiết lập để`OpenArrow`nghĩa là dòng chú thích sẽ kết thúc bằng một mũi tên mở.
+Chúng tôi tạo ra một `FreeTextAnnotation` đối tượng có tọa độ cụ thể, xác định vị trí của nó trên trang. `Intent` được thiết lập để `FreeTextCallout`, cho biết đây là chú thích chú thích. `EndingStyle` được thiết lập để `OpenArrow`, nghĩa là dòng chú thích sẽ kết thúc bằng một mũi tên mở.
 
 ## Bước 5: Xác định các điểm dòng chú thích
 
@@ -101,7 +103,7 @@ fta.Callout = new Point[]
     new Point(474, 681.375)
 };
 ```
- Các`Callout` thuộc tính là một mảng của`Point` các đối tượng, mỗi đối tượng đại diện cho một tọa độ trên trang. Các điểm này xác định đường dẫn của dòng chú thích, tạo cho nó hình dạng bong bóng lời thoại cổ điển.
+Các `Callout` thuộc tính là một mảng `Point` các đối tượng, mỗi đối tượng đại diện cho một tọa độ trên trang. Các điểm này xác định đường dẫn của dòng chú thích, tạo cho nó hình dạng bong bóng lời thoại cổ điển.
 
 ## Bước 6: Thêm chú thích vào trang
 
@@ -111,7 +113,7 @@ Sau khi tạo và cấu hình chú thích, bước tiếp theo là thêm chú th
 // Thêm chú thích vào trang
 page.Annotations.Add(fta);
 ```
- Các`Annotations.Add()` phương pháp này được sử dụng để đặt chú thích trên trang chúng ta đã tạo trước đó. Bước này thực sự "vẽ" chú thích trên trang PDF.
+Các `Annotations.Add()` phương pháp này được sử dụng để đặt chú thích trên trang chúng ta đã tạo trước đó. Bước này thực sự "vẽ" chú thích trên trang PDF.
 
 ## Bước 7: Thiết lập Nội dung Văn bản Giàu
 
@@ -121,7 +123,7 @@ Chú thích chú thích có thể bao gồm văn bản phong phú, cho phép đ�
 // Đặt văn bản phong phú cho chú thích
 fta.RichText = "<body xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:APIVersion=\"Acrobat:11.0.23\" xfa:spec=\"2.0.2\" style=\"color:#FF0000;font-weight:normal;font-style:normal;font-stretch:normal\"><p dir=\"ltr\"><span style=\"font-size:9.0pt;font-family:Helvetica\">Đây là một mẫu</span></p></body>";
 ```
- Các`RichText` thuộc tính được thiết lập với nội dung HTML. Điều này cho phép định dạng chi tiết trong chú thích, chẳng hạn như chỉ định kích thước phông chữ, màu sắc và kiểu chữ.
+Các `RichText` thuộc tính được thiết lập với nội dung HTML. Điều này cho phép định dạng chi tiết trong chú thích, chẳng hạn như chỉ định kích thước phông chữ, màu sắc và kiểu chữ.
 
 ## Bước 8: Lưu tài liệu PDF
 
@@ -131,7 +133,7 @@ Cuối cùng, sau khi thiết lập mọi thứ, chúng ta cần lưu tài liệ
 // Lưu tài liệu
 doc.Save(dataDir + "SetCalloutProperty.pdf");
 ```
- Các`Save()` phương pháp này lưu tài liệu vào thư mục được chỉ định với tên tệp "SetCalloutProperty.pdf". Bước này kết thúc quá trình tạo PDF của chúng tôi.
+Các `Save()` phương pháp này lưu tài liệu vào thư mục được chỉ định với tên tệp "SetCalloutProperty.pdf". Bước này kết thúc quá trình tạo PDF của chúng tôi.
 
 ## Phần kết luận
 
@@ -149,7 +151,7 @@ Có, bạn có thể thêm bao nhiêu chú thích tùy ý bằng cách lặp l�
 
 ### Làm thế nào để thay đổi vị trí của chú thích?
 
- Chỉ cần sửa đổi tọa độ trong`Rectangle` Và`Callout` thuộc tính để định vị lại chú thích.
+Chỉ cần sửa đổi tọa độ trong `Rectangle` Và `Callout` thuộc tính để định vị lại chú thích.
 
 ### Tôi có thể thêm các loại chú thích khác bằng Aspose.PDF không?
 
@@ -157,10 +159,12 @@ Có, Aspose.PDF hỗ trợ nhiều loại chú thích khác nhau, bao gồm đá
 
 ### Nội dung văn bản phong phú có giới hạn ở HTML không?
 
- Các`RichText` Thuộc tính này hỗ trợ một tập hợp con của HTML, cho phép bạn đưa vào văn bản có kiểu và định dạng cơ bản.
+Các `RichText` Thuộc tính này hỗ trợ một tập hợp con của HTML, cho phép bạn đưa vào văn bản có kiểu và định dạng cơ bản.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ส่งออก PDF ไปยังสมุดงาน Excel
-linktitle: ส่งออก PDF ไปยังสมุดงาน Excel
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการส่งออก PDF ไปยังเวิร์กบุ๊ก Excel ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการดึงข้อมูลอย่างราบรื่น
-weight: 16
-url: /th/java/pdf-conversion-transformation/export-pdfs-to-excel-workbooks/
+"description": "เรียนรู้วิธีการส่งออก PDF ไปยังเวิร์กบุ๊ก Excel ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการดึงข้อมูลอย่างราบรื่น"
+"linktitle": "ส่งออก PDF ไปยังสมุดงาน Excel"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ส่งออก PDF ไปยังสมุดงาน Excel"
+"url": "/th/java/pdf-conversion-transformation/export-pdfs-to-excel-workbooks/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ส่งออก PDF ไปยังสมุดงาน Excel
@@ -22,7 +24,7 @@ url: /th/java/pdf-conversion-transformation/export-pdfs-to-excel-workbooks/
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่จำเป็นสำหรับการเริ่มต้น:
 
--  Aspose.PDF สำหรับ Java: คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับ Java: คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 - สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ในระบบของคุณแล้ว
 - ความรู้พื้นฐานเกี่ยวกับ Java: ความคุ้นเคยกับการเขียนโปรแกรม Java จะเป็นประโยชน์แต่ไม่จำเป็น
 
@@ -30,7 +32,7 @@ url: /th/java/pdf-conversion-transformation/export-pdfs-to-excel-workbooks/
 
 ## การตั้งค่าโครงการ Java ของคุณ
 
-ขั้นแรก คุณต้องตั้งค่าโปรเจ็กต์ Java ของคุณและรวมไลบรารี Aspose.PDF สำหรับ Java เข้าไปด้วย วิธีดำเนินการมีดังนี้:
+ขั้นแรก คุณต้องตั้งค่าโปรเจ็กต์ Java และรวมไลบรารี Aspose.PDF สำหรับ Java เข้าไปด้วย วิธีดำเนินการมีดังนี้:
 
 ```java
 // เพิ่มไลบรารี Aspose.PDF สำหรับ Java ลงในโปรเจ็กต์ของคุณ
@@ -94,7 +96,7 @@ excelWorkbook.save("path/to/your/excel/workbook.xlsx");
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- การติดตั้ง Aspose.PDF สำหรับ Java นั้นง่ายมาก คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/) และทำตามคำแนะนำการติดตั้งที่อยู่ในเว็บไซต์ของพวกเขา
+การติดตั้ง Aspose.PDF สำหรับ Java นั้นง่ายมาก คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/) และทำตามคำแนะนำการติดตั้งที่อยู่ในเว็บไซต์ของพวกเขา
 
 ### ฉันสามารถปรับแต่งเอาท์พุต Excel ได้หรือไม่
 
@@ -106,14 +108,16 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### Aspose.PDF สำหรับ Java สามารถทำงานร่วมกับรูปแบบไฟล์อื่นใดได้บ้าง
 
-Aspose.PDF สำหรับ Java จัดการกับไฟล์ PDF เป็นหลัก แต่ยังให้ความสามารถในการแปลง PDF เป็นรูปแบบอื่น เช่น HTML รูปภาพ และ XPS อีกด้วย
+Aspose.PDF สำหรับ Java มุ่งเน้นไปที่ไฟล์ PDF เป็นหลัก แต่ยังให้ความสามารถในการแปลงไฟล์ PDF เป็นรูปแบบอื่นๆ เช่น HTML รูปภาพ และ XPS อีกด้วย
 
 ### ฉันสามารถหาเอกสารและทรัพยากรเพิ่มเติมได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมและแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์ของพวกเขาที่[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมและแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่เว็บไซต์ของพวกเขาที่ [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

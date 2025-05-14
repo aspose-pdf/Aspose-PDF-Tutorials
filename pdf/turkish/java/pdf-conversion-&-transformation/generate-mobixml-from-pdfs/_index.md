@@ -1,14 +1,16 @@
 ---
-title: PDF'lerden MobiXML oluşturun
-linktitle: PDF'lerden MobiXML oluşturun
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF kullanarak PDF'lerden MobiXML Nasıl Oluşturulacağını Öğrenin. Kod Örnekleriyle Adım Adım Kılavuz. PDF'leri Sorunsuz Bir Şekilde MobiXML Formatına Dönüştürün.
-weight: 17
-url: /tr/java/pdf-conversion-transformation/generate-mobixml-from-pdfs/
+"description": "Java için Aspose.PDF kullanarak PDF'lerden MobiXML Nasıl Oluşturulacağını Öğrenin. Kod Örnekleriyle Adım Adım Kılavuz. PDF'leri Sorunsuz Bir Şekilde MobiXML Formatına Dönüştürün."
+"linktitle": "PDF'lerden MobiXML oluşturun"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF'lerden MobiXML oluşturun"
+"url": "/tr/java/pdf-conversion-transformation/generate-mobixml-from-pdfs/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'lerden MobiXML oluşturun
@@ -24,7 +26,7 @@ Dönüştürme sürecine başlamadan önce aşağıdaki ön koşulların mevcut 
 
 - Java Geliştirme Kiti (JDK): Sisteminizde Java'nın yüklü olduğundan emin olun. Zaten yüklü değilse web sitesinden indirebilirsiniz.
 
--  Aspose.PDF for Java Kütüphanesi: Aspose.PDF for Java'yı indirme bağlantısından edinebilirsiniz:[Java için Aspose.PDF İndir](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF for Java Kütüphanesi: Aspose.PDF for Java'yı indirme bağlantısından edinebilirsiniz: [Java için Aspose.PDF İndir](https://releases.aspose.com/pdf/java/).
 
 ## Projenizi Kurma
 
@@ -51,7 +53,7 @@ public class PDFtoMobiXMLConverter {
 }
 ```
 
- Yukarıdaki kodda, önce PDF belgesini Aspose.PDF kullanarak yüklüyoruz. Daha sonra, bunu MobiXML formatında kaydediyoruz`SaveFormat.MobiXml` seçenek.
+Yukarıdaki kodda, önce PDF belgesini Aspose.PDF kullanarak yüklüyoruz. Daha sonra, bunu MobiXML formatında kaydediyoruz `SaveFormat.MobiXml` seçenek.
 
 ## Çözüm
 
@@ -61,7 +63,7 @@ Bu makalede, Aspose.PDF for Java kütüphanesini kullanarak PDF'lerden MobiXML'i
 
 ### Java için Aspose.PDF'yi nasıl edinebilirim?
 
- Java için Aspose.PDF'i sürüm bağlantısından indirebilirsiniz:[Java için Aspose.PDF İndir](https://releases.aspose.com/pdf/java/).
+Java için Aspose.PDF'i sürüm bağlantısından indirebilirsiniz: [Java için Aspose.PDF İndir](https://releases.aspose.com/pdf/java/).
 
 ### Aspose.PDF for Java'yı kullanmak ücretsiz mi?
 
@@ -77,10 +79,12 @@ MobiXML'in diğer e-kitap formatlarına kıyasla belirli sınırlamaları vardı
 
 ### Java için Aspose.PDF hakkında daha fazla doküman ve kaynağı nerede bulabilirim?
 
- Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve kaynakları şu adreste bulabilirsiniz:[Java API Referansları için Aspose.PDF](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve kaynakları şu adreste bulabilirsiniz: [Java API Referansları için Aspose.PDF](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

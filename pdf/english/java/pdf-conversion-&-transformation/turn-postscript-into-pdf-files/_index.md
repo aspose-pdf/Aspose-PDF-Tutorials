@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/turn-postscript-into-pdf-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Turn PostScript into PDF Files
@@ -94,6 +96,7 @@ For more information and to access the Aspose.PDF for Java documentation, visit 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Trích xuất chú thích cụ thể từ PDF
-linktitle: Trích xuất chú thích cụ thể từ PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách trích xuất chú thích cụ thể từ PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước này cung cấp các ví dụ về mã và câu hỏi thường gặp để trích xuất chú thích PDF hiệu quả.
-weight: 14
-url: /vi/java/pdf-annotations/extract-specific-annotation-pdfs/
+"description": "Tìm hiểu cách trích xuất chú thích cụ thể từ PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước này cung cấp các ví dụ về mã và câu hỏi thường gặp để trích xuất chú thích PDF hiệu quả."
+"linktitle": "Trích xuất chú thích cụ thể từ PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Trích xuất chú thích cụ thể từ PDF"
+"url": "/vi/java/pdf-annotations/extract-specific-annotation-pdfs/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất chú thích cụ thể từ PDF
@@ -22,8 +24,8 @@ Chú thích trong PDF có thể là kho tàng thông tin. Chúng cho phép ngư�
 
 Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/java/).
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/java/).
 
 ## Thiết lập dự án
 
@@ -101,7 +103,7 @@ Trong bài viết này, chúng ta đã tìm hiểu cách trích xuất các chú
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ[đây](https://releases.aspose.com/pdf/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp trên trang web để thiết lập nó vào dự án Java của bạn.
+Bạn có thể tải xuống Aspose.PDF cho Java từ [đây](https://releases.aspose.com/pdf/java/)Thực hiện theo hướng dẫn cài đặt được cung cấp trên trang web để thiết lập nó vào dự án Java của bạn.
 
 ### Tôi có thể trích xuất chú thích từ một trang cụ thể trong tài liệu PDF không?
 
@@ -118,9 +120,11 @@ Có, Aspose.PDF for Java được thiết kế để xử lý hiệu quả cả 
 ### Tôi có thể tùy chỉnh định dạng đầu ra khi trích xuất chú thích không?
 
 Có, bạn có thể tùy chỉnh định dạng đầu ra khi trích xuất chú thích dựa trên yêu cầu của mình. Aspose.PDF for Java cung cấp tính linh hoạt trong việc xử lý và định dạng dữ liệu chú thích đã trích xuất.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

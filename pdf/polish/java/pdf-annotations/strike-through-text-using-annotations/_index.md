@@ -1,14 +1,16 @@
 ---
-title: Przekreśl tekst za pomocą adnotacji
-linktitle: Przekreśl tekst za pomocą adnotacji
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać przekreślone adnotacje tekstowe do dokumentów PDF za pomocą Aspose.PDF dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby precyzyjnie manipulować dokumentami.
-weight: 16
-url: /pl/java/pdf-annotations/strike-through-text-using-annotations/
+"description": "Dowiedz się, jak dodawać przekreślone adnotacje tekstowe do dokumentów PDF za pomocą Aspose.PDF dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby precyzyjnie manipulować dokumentami."
+"linktitle": "Przekreśl tekst za pomocą adnotacji"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Przekreśl tekst za pomocą adnotacji"
+"url": "/pl/java/pdf-annotations/strike-through-text-using-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przekreśl tekst za pomocą adnotacji
@@ -16,7 +18,7 @@ url: /pl/java/pdf-annotations/strike-through-text-using-annotations/
 
 ## Wprowadzenie do przekreślania tekstu za pomocą adnotacji
 
-W świecie manipulacji dokumentami precyzja i przejrzystość są najważniejsze. Adnotacje przekreślonego tekstu są cennym narzędziem do wyróżniania zmian, wskazywania usunięć lub podkreślania określonej zawartości w dokumencie PDF. Aspose.PDF dla Java zapewnia solidny zestaw funkcji, aby osiągnąć to bez wysiłku. W tym przewodniku przeprowadzimy Cię przez proces dodawania przekreślonych adnotacji tekstowych do dokumentów PDF za pomocą Aspose.PDF dla Java.
+świecie manipulacji dokumentami precyzja i przejrzystość są najważniejsze. Adnotacje przekreślonego tekstu są cennym narzędziem do wyróżniania zmian, wskazywania usunięć lub podkreślania określonej zawartości w dokumencie PDF. Aspose.PDF dla Java zapewnia solidny zestaw funkcji, aby osiągnąć to bez wysiłku. W tym przewodniku przeprowadzimy Cię przez proces dodawania przekreślonych adnotacji tekstowych do dokumentów PDF za pomocą Aspose.PDF dla Java.
 
 ## Wymagania wstępne
 
@@ -24,7 +26,7 @@ Zanim zagłębisz się w kod, upewnij się, że spełnione są następujące wym
 
 1. Środowisko programistyczne Java: Upewnij się, że w systemie zainstalowana jest Java i odpowiednie środowisko IDE (Eclipse, IntelliJ IDEA lub inne).
 
-2.  Aspose.PDF for Java Library: Pobierz i dołącz Aspose.PDF for Java library do swojego projektu. Link do pobrania znajdziesz[Tutaj](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF for Java Library: Pobierz i dołącz Aspose.PDF for Java library do swojego projektu. Link do pobrania znajdziesz [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Krok 1: Konfigurowanie projektu Java
 
@@ -84,7 +86,7 @@ Gratulacje! Udało Ci się dodać adnotację przekreślonego tekstu do dokumentu
 
 ### Jak zmienić kolor przekreślonej adnotacji?
 
- Aby zmienić kolor przekreślonej adnotacji, możesz użyć`setColor` i określ pożądany kolor. W podanym przykładzie ustawiliśmy go na czerwony za pomocą`setColor(com.aspose.pdf.Color.getRed())`.
+Aby zmienić kolor przekreślonej adnotacji, możesz użyć `setColor` i określ pożądany kolor. W podanym przykładzie ustawiliśmy go na czerwony za pomocą `setColor(com.aspose.pdf.Color.getRed())`.
 
 ### Czy mogę dodać wiele przekreślonych adnotacji do jednego dokumentu PDF?
 
@@ -100,10 +102,12 @@ Tak, Aspose.PDF dla Java obsługuje różne typy adnotacji, w tym tekst, wyróż
 
 ### Gdzie mogę znaleźć więcej materiałów i dokumentacji dla pliku Aspose.PDF dla języka Java?
 
- Aby uzyskać pełną dokumentację i dodatkowe zasoby, odwiedź stronę dokumentacji Aspose.PDF dla języka Java:[Tutaj](https://reference.aspose.com/pdf/java/).
+Aby uzyskać pełną dokumentację i dodatkowe zasoby, odwiedź stronę dokumentacji Aspose.PDF dla języka Java: [Tutaj](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

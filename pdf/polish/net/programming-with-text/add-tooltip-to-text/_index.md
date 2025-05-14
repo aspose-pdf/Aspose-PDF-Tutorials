@@ -1,14 +1,16 @@
 ---
-title: Dodaj podpowiedź do tekstu w pliku PDF
-linktitle: Dodaj podpowiedź do tekstu w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać podpowiedzi do tekstu w plikach PDF za pomocą Aspose.PDF dla .NET. Bez wysiłku ulepsz swoje pliki PDF za pomocą informacyjnych tekstów wyświetlanych po najechaniu kursorem.
-weight: 90
-url: /pl/net/programming-with-text/add-tooltip-to-text/
+"description": "Dowiedz się, jak dodawać podpowiedzi do tekstu w plikach PDF za pomocą Aspose.PDF dla .NET. Bez wysiłku ulepsz swoje pliki PDF za pomocą informacyjnych tekstów wyświetlanych po najechaniu kursorem."
+"linktitle": "Dodaj podpowiedź do tekstu w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj podpowiedź do tekstu w pliku PDF"
+"url": "/pl/net/programming-with-text/add-tooltip-to-text/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj podpowiedź do tekstu w pliku PDF
@@ -25,7 +27,7 @@ Zanim przejdziemy do części poświęconej kodowaniu, upewnijmy się, że masz 
 Zainstalowanie na komputerze programu Visual Studio jest niezbędne, ponieważ będzie on stanowił podstawowe środowisko programistyczne dla aplikacji .NET.
 
 ### Aspose.PDF dla biblioteki .NET
- Będziesz także potrzebować biblioteki Aspose.PDF do swojej dyspozycji. Możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/). Upewnij się, że uwzględniłeś to w odniesieniach do swojego projektu.
+Będziesz także potrzebować biblioteki Aspose.PDF do swojej dyspozycji. Możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/)Upewnij się, że uwzględniłeś to w swoich odniesieniach do projektu.
 
 ### Podstawowa wiedza z języka C#
 Znajomość języka C# będzie bardzo pomocna, ponieważ będziemy kodować w tym języku. Ale nie martw się — poprowadzę cię przez każdy krok!
@@ -37,7 +39,7 @@ Przejdźmy teraz do części kodowania!
 
 ## Importuj pakiety 
 
- Pierwszy krok w naszej przygodzie z kodowaniem obejmuje importowanie niezbędnych pakietów. Otwórz projekt Visual Studio i na górze pliku C# dodaj następujące`using` dyrektywy:
+Pierwszy krok w naszej przygodzie z kodowaniem obejmuje importowanie niezbędnych pakietów. Otwórz projekt Visual Studio i na górze pliku C# dodaj następujące `using` dyrektywy:
 
 ```csharp
 using Aspose.Pdf.Forms;
@@ -56,14 +58,14 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string outputFile = dataDir + "Tooltip_out.pdf";
 ```
 
- Pamiętaj o wymianie`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką na Twoim komputerze.
+Pamiętaj o wymianie `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką na Twoim komputerze.
 
 ## Krok 2: Utwórz przykładowy dokument PDF
 
 Następnie czas na stworzenie prostego pliku PDF z tekstem. To tutaj rozpoczynamy nasz proces twórczy!
 
 ```csharp
-//Utwórz przykładowy dokument z tekstem
+// Utwórz przykładowy dokument z tekstem
 Document doc = new Document();
 doc.Pages.Add().Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a tooltip"));
 doc.Pages[1].Paragraphs.Add(new TextFragment("Move the mouse cursor here to display a very long tooltip"));
@@ -106,7 +108,7 @@ Ten fragment kodu umożliwia nam przechowywanie odniesień do fragmentów tekstu
 
 ## Krok 6: Przejrzyj fragmenty i dodaj podpowiedzi
 
-Teraz nadchodzi zabawna część! Przejdziemy przez każdy z fragmentów tekstu i dodamy do każdego z nich podpowiedź. Wyobraź sobie, że owijasz małe prezenty (podpowiedzi) wokół konkretnych przedmiotów (fragmentów tekstu).
+Teraz nadchodzi zabawna część! Przejdziemy przez każdy z fragmentów tekstu i dodamy do każdego z nich podpowiedź. Wyobraź sobie owijanie małych prezentów (podpowiedzi) wokół konkretnych przedmiotów (fragmentów tekstu).
 
 ```csharp
 // Przejrzyj fragmenty
@@ -159,7 +161,7 @@ Ostatnim krokiem jest zapisanie dokumentu ze wszystkimi nowymi, błyszczącymi p
 document.Save(outputFile);
 ```
 
-tak po prostu, gotowe! Dodałeś podpowiedzi do swojego pliku PDF, czyniąc go bardziej przyjaznym dla użytkownika i interaktywnym.
+I tak po prostu, gotowe! Dodałeś podpowiedzi do swojego pliku PDF, czyniąc go bardziej przyjaznym dla użytkownika i interaktywnym.
 
 ## Wniosek
 
@@ -173,19 +175,21 @@ Po prostu najeżdżając kursorem na słowo lub frazę, czytelnik otrzymuje isto
 Aspose.PDF for .NET to biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów PDF w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Tak, Aspose oferuje bezpłatny okres próbny, abyś mógł zapoznać się z jego funkcjami! Możesz go znaleźć[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatny okres próbny, abyś mógł zapoznać się z jego funkcjami! Możesz go znaleźć [Tutaj](https://releases.aspose.com/).
 
 ### Czy są dostępne jakieś opcje licencjonowania dla Aspose.PDF?
-Tak, możesz kupić licencję lub uzyskać tymczasową licencję. Sprawdź opcje[Tutaj](https://purchase.aspose.com/).
+Tak, możesz kupić licencję lub uzyskać tymczasową licencję. Sprawdź opcje [Tutaj](https://purchase.aspose.com/).
 
 ### Czy za pomocą Aspose.PDF mogę dodać inne elementy interaktywne niż podpowiedzi?
-Oczywiście! Aspose.PDF pozwala na dodawanie różnych interaktywnych elementów, takich jak hiperłącza, przyciski i formularze.
+Oczywiście! Aspose.PDF pozwala dodawać różne interaktywne elementy, takie jak hiperłącza, przyciski i formularze.
 
 ### Gdzie mogę znaleźć dalszą dokumentację dotyczącą Aspose.PDF?
- Możesz sprawdzić dokumentację[Tutaj](https://reference.aspose.com/pdf/net/) w celu uzyskania bardziej szczegółowych wskazówek.
+Możesz sprawdzić dokumentację [Tutaj](https://reference.aspose.com/pdf/net/) w celu uzyskania bardziej szczegółowych wskazówek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

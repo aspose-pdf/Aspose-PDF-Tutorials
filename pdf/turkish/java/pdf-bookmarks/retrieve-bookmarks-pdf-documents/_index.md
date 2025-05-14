@@ -1,14 +1,16 @@
 ---
-title: PDF Belgelerinden Yer İşaretlerini Al
-linktitle: PDF Belgelerinden Yer İşaretlerini Al
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Bu kapsamlı kılavuzda Aspose.PDF for Java'yı kullanarak PDF yer imlerini etkili bir şekilde nasıl alacağınızı öğrenin.
-weight: 15
-url: /tr/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/
+"description": "Bu kapsamlı kılavuzda Aspose.PDF for Java'yı kullanarak PDF yer imlerini etkili bir şekilde nasıl alacağınızı öğrenin."
+"linktitle": "PDF Belgelerinden Yer İşaretlerini Al"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF Belgelerinden Yer İşaretlerini Al"
+"url": "/tr/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Belgelerinden Yer İşaretlerini Al
@@ -70,7 +72,7 @@ Uygulamanızın tasarımına ve işlevselliğine uyacak şekilde ekranı özelle
 
 ## Yer İşareti Alımını Özelleştirme
 
-Java için Aspose.PDF, yer imi alımını özelleştirmek için kapsamlı seçenekler sunar. Yer imlerini filtreleyebilir, özelliklerini değiştirebilir ve bunları belirli kullanım durumunuz için gerektiği gibi düzenleyebilirsiniz.
+Java için Aspose.PDF, yer imi alımını özelleştirmek için kapsamlı seçenekler sunar. Yer imlerini filtreleyebilir, özelliklerini değiştirebilir ve belirli kullanım durumunuz için gerektiği gibi düzenleyebilirsiniz.
 
 ## Hataların Ele Alınması
 
@@ -102,7 +104,7 @@ Aspose.PDF for Java kullanarak PDF belgelerinden yer imleri almak, PDF ile ilgil
 
 ### Aspose.PDF for Java'yı projeme nasıl eklerim?
 
- Aspose.PDF for Java'yı projenize eklemek için şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/) ve kurulum talimatlarını takip edin.
+Aspose.PDF for Java'yı projenize eklemek için şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/) ve kurulum talimatlarını takip edin.
 
 ### Alınan yer imlerinin görünümünü özelleştirebilir miyim?
 
@@ -118,10 +120,12 @@ Evet, Aspose.PDF for Java belirli kullanım durumları için geçerli bir lisans
 
 ### Daha fazla dokümana ve desteğe nereden ulaşabilirim?
 
- Java için Aspose.PDF için kapsamlı dokümantasyon ve desteği şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve desteği şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

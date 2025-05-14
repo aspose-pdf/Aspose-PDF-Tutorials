@@ -1,14 +1,16 @@
 ---
-title: PDFA'dan PDF'e
-linktitle: PDFA'dan PDF'e
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı, adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF/A'yı PDF'ye nasıl dönüştüreceğinizi öğrenin.
-weight: 100
-url: /tr/net/document-conversion/pdfa-to-pdf/
+"description": "Bu kapsamlı, adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF/A'yı PDF'ye nasıl dönüştüreceğinizi öğrenin."
+"linktitle": "PDFA'dan PDF'e"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDFA'dan PDF'e"
+"url": "/tr/net/document-conversion/pdfa-to-pdf/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDFA'dan PDF'e
@@ -22,7 +24,7 @@ url: /tr/net/document-conversion/pdfa-to-pdf/
 Başlamadan önce, yerinde olması gereken birkaç şey var:
 
 1. .NET Framework: Makinenizde .NET Framework'ün yüklü olduğundan emin olun. Aspose.PDF, .NET uygulamalarıyla sorunsuz bir şekilde çalışır.
-2. Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesini indirmeniz gerekecek. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF Kütüphanesi: Aspose.PDF kütüphanesini indirmeniz gerekecek. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 4. IDE: Visual Studio gibi bir Entegre Geliştirme Ortamı (IDE) kodlamayı kolaylaştıracaktır.
 
@@ -59,7 +61,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: PDF/A Belgesini açın
 
-Sonra, dönüştürmek istediğimiz PDF/A belgesini açacağız. Bu, şu şekilde yapılır:`Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
+Sonra, dönüştürmek istediğimiz PDF/A belgesini açacağız. Bu, şu şekilde yapılır: `Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
 
 ```csharp
 // Belgeyi aç
@@ -68,7 +70,7 @@ Document doc = new Document(dataDir + "PDFAToPDF.pdf");
 
 ## Adım 3: PDF/A Uyumluluk Bilgilerini Kaldırın
 
-Şimdi kritik kısım geliyor: PDF/A uyumluluk bilgilerinin kaldırılması. Bu adım, belgenin standart bir PDF formatına dönüştürülmesini sağlamak için önemlidir.
+Şimdi kritik kısım geliyor: PDF/A uyumluluk bilgilerini kaldırmak. Bu adım, belgenin standart bir PDF formatına dönüştürülmesini sağlamak için önemlidir.
 
 ```csharp
 // PDF/A uyumluluk bilgilerini kaldır
@@ -80,7 +82,7 @@ doc.RemovePdfaCompliance();
 Son olarak güncellenen belgeyi kaydedeceğiz. Bu, PDF/A uyumluluğu olmadan yeni bir PDF dosyası oluşturacaktır.
 
 ```csharp
-// Güncellenen belgeyi kaydet
+// Güncellenen belgeyi kaydet 
 doc.Save(dataDir + "PDFAToPDF_out.pdf");
 ```
 
@@ -94,19 +96,21 @@ Ve işte oldu! Aspose.PDF for .NET kullanarak bir PDF/A belgesini standart bir P
 PDF/A, elektronik belgelerin dijital ortamda saklanması için özel olarak tasarlanmış, PDF'in ISO standardizasyonlu bir sürümüdür.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
-Evet, Aspose indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/).
+Evet, Aspose indirebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/).
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Kapsamlı dokümanları Aspose.PDF adresinde bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Kapsamlı dokümanları Aspose.PDF adresinde bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Ya sorunlarla karşılaşırsam?
- Aspose topluluğundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose topluluğundan destek alabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
 
 ### Geçici ehliyet nasıl alınır?
- Geçici lisans başvurusunda bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisans başvurusunda bulunabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

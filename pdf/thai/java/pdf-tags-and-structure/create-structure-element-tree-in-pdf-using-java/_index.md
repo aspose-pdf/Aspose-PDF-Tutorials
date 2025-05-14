@@ -1,19 +1,21 @@
 ---
-title: สร้างโครงสร้างองค์ประกอบต้นไม้ใน PDF โดยใช้ Java
-linktitle: สร้างโครงสร้างองค์ประกอบต้นไม้ใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีสร้าง PDF ที่สามารถเข้าถึงได้ด้วย Structure Element Tree ใน Java โดยใช้ Aspose.PDF เพื่อให้แน่ใจว่าผู้ใช้ทุกคนสามารถเข้าถึงได้
-weight: 11
-url: /th/java/pdf-tags-and-structure/create-structure-element-tree-in-pdf-using-java/
+"description": "เรียนรู้วิธีสร้าง PDF ที่สามารถเข้าถึงได้ด้วย Structure Element Tree ใน Java โดยใช้ Aspose.PDF เพื่อให้แน่ใจว่าผู้ใช้ทุกคนสามารถเข้าถึงได้"
+"linktitle": "สร้างโครงสร้างองค์ประกอบต้นไม้ใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "สร้างโครงสร้างองค์ประกอบต้นไม้ใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-tags-and-structure/create-structure-element-tree-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างโครงสร้างองค์ประกอบต้นไม้ใน PDF โดยใช้ Java
 
-ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับขั้นตอนการสร้าง Structure Element Tree ในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java Structure Element Tree เป็นสิ่งสำคัญสำหรับการสร้างเอกสาร PDF ให้เข้าถึงได้และมีโครงสร้างที่ดี โดยเฉพาะสำหรับผู้ใช้ที่มีความบกพร่องทางสายตาซึ่งต้องใช้โปรแกรมอ่านหน้าจอ เราจะให้คำแนะนำทีละขั้นตอนและโค้ดต้นฉบับของ Java แก่คุณเพื่อให้บรรลุสิ่งนี้
+ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับขั้นตอนการสร้าง Structure Element Tree ในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ Java Structure Element Tree เป็นสิ่งสำคัญสำหรับการสร้างเอกสาร PDF ให้เข้าถึงได้และมีโครงสร้างที่ดี โดยเฉพาะสำหรับผู้ใช้ที่มีความบกพร่องทางสายตาซึ่งต้องใช้โปรแกรมอ่านหน้าจอ เราจะให้คำแนะนำแบบทีละขั้นตอนและโค้ดต้นฉบับของ Java แก่คุณเพื่อให้บรรลุสิ่งนี้
 
 ## การแนะนำ
 
@@ -25,7 +27,7 @@ url: /th/java/pdf-tags-and-structure/create-structure-element-tree-in-pdf-using-
 
 ## ขั้นตอนที่ 1: การตั้งค่าสภาพแวดล้อมการพัฒนาของคุณ
 
- ก่อนที่เราจะเจาะลึกโค้ด ให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+ก่อนที่เราจะเจาะลึกโค้ด ให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ขั้นตอนต่อไป ให้สร้างโปรเจ็กต์ Java และเพิ่มไลบรารี Aspose.PDF สำหรับ Java ลงในคลาสพาธของโปรเจ็กต์ของคุณ
 
@@ -53,7 +55,7 @@ page.getParagraphs().add(new com.aspose.pdf.TextFragment("Hello, World!"));
 
 ## ขั้นตอนที่ 4: การเพิ่มองค์ประกอบโครงสร้าง
 
- เพื่อให้สามารถเข้าถึงเอกสารได้ เราจำเป็นต้องกำหนดองค์ประกอบโครงสร้าง คุณสามารถใช้`com.aspose.pdf.Tagged.TagArtifact` คลาสที่จะเพิ่มองค์ประกอบโครงสร้างให้กับเนื้อหาของคุณ:
+เพื่อให้สามารถเข้าถึงเอกสารได้ เราจำเป็นต้องกำหนดองค์ประกอบโครงสร้าง คุณสามารถใช้ `com.aspose.pdf.Tagged.TagArtifact` คลาสที่จะเพิ่มองค์ประกอบโครงสร้างให้กับเนื้อหาของคุณ:
 
 ```java
 // สร้างวัตถุ TagArtifact สำหรับข้อความ
@@ -65,7 +67,7 @@ tagArtifact.setParagraph(page.getParagraphs().get_Item(1));
 tagArtifact.setTag(page.getParagraphs().get_Item(1));
 ```
 
- โค้ดตัวอย่างนี้เชื่อมโยง`P` ประเภทโครงสร้างพร้อมข้อความ
+โค้ดตัวอย่างนี้เชื่อมโยง `P` ประเภทโครงสร้างพร้อมข้อความ
 
 ## ขั้นตอนที่ 5: บันทึกเอกสาร PDF
 
@@ -90,7 +92,7 @@ pdfDocument.save("output.pdf");
 
 ### ฉันจะเพิ่มรูปภาพลงในเอกสาร PDF ที่มีแท็กได้อย่างไร
 
- คุณสามารถใช้`com.aspose.pdf.Image` คลาสสำหรับเพิ่มรูปภาพลงในเอกสาร PDF ที่มีแท็ก ตรวจสอบให้แน่ใจว่าคุณเชื่อมโยงองค์ประกอบโครงสร้างที่เหมาะสมกับรูปภาพเพื่อให้เข้าถึงได้
+คุณสามารถใช้ `com.aspose.pdf.Image` คลาสสำหรับเพิ่มรูปภาพลงในเอกสาร PDF ที่มีแท็ก ตรวจสอบให้แน่ใจว่าคุณเชื่อมโยงองค์ประกอบโครงสร้างที่เหมาะสมกับรูปภาพเพื่อให้เข้าถึงได้
 
 ### เอกสาร PDF ที่มีแท็กเป็นข้อกำหนดสำหรับการปฏิบัติตามข้อกำหนดด้านการเข้าถึงหรือไม่
 
@@ -103,9 +105,11 @@ pdfDocument.save("output.pdf");
 ### แนวทางปฏิบัติที่ดีที่สุดในการสร้างเอกสาร PDF ที่สามารถเข้าถึงได้มีอะไรบ้าง
 
 แนวทางปฏิบัติที่ดีบางประการได้แก่ การเพิ่มข้อความทางเลือกลงในรูปภาพ การใช้โครงสร้างหัวเรื่องที่เหมาะสม การจัดเตรียมลิงก์ที่อธิบาย และการทำให้แน่ใจว่ามีลำดับการอ่านเนื้อหาอย่างมีเหตุผล
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

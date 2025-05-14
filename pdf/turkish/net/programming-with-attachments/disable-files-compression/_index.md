@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Dosya Sıkıştırmayı Devre Dışı Bırak
-linktitle: PDF Dosyasında Dosya Sıkıştırmayı Devre Dışı Bırak
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarındaki dosya sıkıştırmasını nasıl devre dışı bırakacağınızı öğrenin. PDF yönetimi becerilerinizi geliştirin.
-weight: 30
-url: /tr/net/programming-with-attachments/disable-files-compression/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarındaki dosya sıkıştırmasını nasıl devre dışı bırakacağınızı öğrenin. PDF yönetimi becerilerinizi geliştirin."
+"linktitle": "PDF Dosyasında Dosya Sıkıştırmayı Devre Dışı Bırak"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Dosya Sıkıştırmayı Devre Dışı Bırak"
+"url": "/tr/net/programming-with-attachments/disable-files-compression/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Dosya Sıkıştırmayı Devre Dışı Bırak
@@ -21,7 +23,7 @@ Dijital çağda, PDF dosyalarını etkili bir şekilde yönetmek hem kişisel he
 
 Koda dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: .NET kodlarınızı yazıp çalıştırabileceğiniz bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: PDF Belgesini Yükleyin
 
- Sonra, değiştirmek istediğiniz PDF belgesini yükleyeceksiniz. Bu, şu şekilde yapılır:`Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
+Sonra, değiştirmek istediğiniz PDF belgesini yükleyeceksiniz. Bu, şu şekilde yapılır: `Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
@@ -69,7 +71,7 @@ Document pdfDocument = new Document(dataDir + "GetAlltheAttachments.pdf");
 
 ## Adım 3: Ek Olarak Eklenecek Dosyayı Ayarlayın
 
-Şimdi, PDF'e eklemek istediğiniz ek için yeni bir dosya belirtimi oluşturmanız gerekiyor. Bu, dosyanın adını ve türünü belirtmeyi içerir.
+Şimdi, PDF'e eklemek istediğiniz ek için yeni bir dosya belirtimi oluşturmanız gerekir. Bu, dosyanın adını ve türünü belirtmeyi içerir.
 
 ```csharp
 FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sample text file");
@@ -77,7 +79,7 @@ FileSpecification fileSpecification = new FileSpecification("test_out.txt", "Sam
 
 ## Adım 4: Kodlama Özelliğini Belirleyin
 
- Dosyanın sıkıştırılmadan eklendiğinden emin olmak için dosya özelliğinin kodlama özelliğini şu şekilde ayarlamanız gerekir:`FileEncoding.None`Bu adım, dosyanın PDF'e nasıl yerleştirileceğini doğrudan etkilediği için önemlidir.
+Dosyanın sıkıştırılmadan eklendiğinden emin olmak için dosya özelliğinin kodlama özelliğini şu şekilde ayarlamanız gerekir: `FileEncoding.None`Bu adım, dosyanın PDF'e nasıl yerleştirileceğini doğrudan etkilediği için önemlidir.
 
 ```csharp
 fileSpecification.Encoding = FileEncoding.None;
@@ -121,16 +123,18 @@ Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde o
 Dosya sıkıştırmayı devre dışı bırakmak, gömülü dosyaların orijinal biçimlerinde kalmasını sağlar; bu da veri bütünlüğü açısından önemli olabilir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphaneyi değerlendirmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.PDF hakkında daha fazla dokümanı nerede bulabilirim?
- Kapsamlı belgeleri şurada bulabilirsiniz:[Aspose web sitesi](https://reference.aspose.com/pdf/net/).
+Kapsamlı belgeleri şurada bulabilirsiniz: [Aspose web sitesi](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

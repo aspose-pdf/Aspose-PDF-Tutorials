@@ -1,14 +1,16 @@
 ---
-title: สร้าง PDF ด้วยรูปภาพที่มีแท็กใน Java
-linktitle: สร้าง PDF ด้วยรูปภาพที่มีแท็กใน Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีสร้าง PDF รูปภาพที่มีแท็กที่สามารถเข้าถึงได้ใน Java โดยใช้ Aspose.PDF สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้าง PDF ได้อย่างราบรื่น
-weight: 13
-url: /th/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/
+"description": "เรียนรู้วิธีสร้าง PDF รูปภาพที่มีแท็กที่สามารถเข้าถึงได้ใน Java โดยใช้ Aspose.PDF สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้าง PDF ได้อย่างราบรื่น"
+"linktitle": "สร้าง PDF ด้วยรูปภาพที่มีแท็กใน Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "สร้าง PDF ด้วยรูปภาพที่มีแท็กใน Java"
+"url": "/th/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้าง PDF ด้วยรูปภาพที่มีแท็กใน Java
@@ -16,15 +18,15 @@ url: /th/java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/
 
 ## บทนำสู่การสร้าง PDF ที่มีรูปภาพที่มีแท็กใน Java โดยใช้ Aspose.PDF สำหรับ Java
 
-ในยุคดิจิทัล การสร้าง PDF ที่มีรูปภาพที่มีแท็กเป็นข้อกำหนดทั่วไปสำหรับแอปพลิเคชันต่างๆ รูปภาพที่มีแท็กมีความจำเป็นสำหรับการเข้าถึง ช่วยให้ผู้พิการทางสายตาสามารถเข้าถึงและทำความเข้าใจเนื้อหาได้ ในคู่มือทีละขั้นตอนนี้ เราจะมาสำรวจวิธีสร้าง PDF ที่มีรูปภาพที่มีแท็กใน Java โดยใช้ Aspose.PDF สำหรับ Java ไลบรารีอันทรงพลังนี้ให้การสนับสนุนที่ครอบคลุมสำหรับการทำงานกับ PDF รวมถึงความสามารถในการเพิ่มรูปภาพที่มีแท็กได้อย่างง่ายดาย
+ในยุคดิจิทัล การสร้าง PDF ที่มีรูปภาพที่แท็กไว้ถือเป็นข้อกำหนดทั่วไปสำหรับแอปพลิเคชันต่างๆ รูปภาพที่แท็กไว้มีความจำเป็นสำหรับการเข้าถึง ช่วยให้ผู้พิการทางสายตาสามารถเข้าถึงและทำความเข้าใจเนื้อหาได้ ในคู่มือทีละขั้นตอนนี้ เราจะมาสำรวจวิธีสร้าง PDF ที่มีรูปภาพที่แท็กไว้ใน Java โดยใช้ Aspose.PDF สำหรับ Java ไลบรารีอันทรงพลังนี้ให้การสนับสนุนที่ครอบคลุมสำหรับการทำงานกับ PDF รวมถึงความสามารถในการเพิ่มรูปภาพที่แท็กไว้ได้อย่างง่ายดาย
 
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Java Development Kit (JDK): คุณต้องติดตั้ง Java ลงในระบบของคุณ คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ของออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): คุณต้องติดตั้ง Java ลงในระบบของคุณ คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์ของออราเคิล](https://www-oracle.com/java/technologies/javase-downloads.html).
 
--  Aspose.PDF สำหรับ Java: คุณควรมีไลบรารี Aspose.PDF สำหรับ Java คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับ Java: คุณควรมีไลบรารี Aspose.PDF สำหรับ Java คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/pdf/java/).
 
 ## การตั้งค่าโครงการของคุณ
 
@@ -80,7 +82,7 @@ pdfDocument.save("tagged_image.pdf");
 
 หากต้องการติดตั้ง Aspose.PDF สำหรับ Java ให้ทำตามขั้นตอนเหล่านี้:
 
-1.  ดาวน์โหลดห้องสมุดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/pdf/java/).
+1. ดาวน์โหลดห้องสมุดได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/pdf/java/).
 
 2. เพิ่มไฟล์ JAR ที่ดาวน์โหลดมาลงในคลาสพาธของโปรเจ็กต์ Java ของคุณ
 
@@ -92,7 +94,7 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### สามารถเพิ่มข้อความทางเลือกให้กับรูปภาพที่มีแท็กใน PDF ได้หรือไม่
 
-ใช่ คุณสามารถเพิ่มข้อความทางเลือก (alt text) ลงในรูปภาพที่มีแท็กใน PDF ได้โดยใช้ Aspose.PDF สำหรับ Java ซึ่งถือเป็นสิ่งสำคัญเพื่อจุดประสงค์ด้านการเข้าถึง
+ใช่ คุณสามารถเพิ่มข้อความทางเลือก (alt text) ลงในรูปภาพที่มีแท็กใน PDF ได้โดยใช้ Aspose.PDF สำหรับ Java ซึ่งถือเป็นสิ่งสำคัญสำหรับจุดประสงค์ด้านการเข้าถึง
 
 ### มีไลบรารีอื่นสำหรับทำงานกับ PDF ใน Java หรือไม่
 
@@ -100,10 +102,12 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีเชิง
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่[เว็บไซต์เอกสารประกอบ Aspose](https://reference.aspose.com/pdf/java/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ [เว็บไซต์เอกสารประกอบ Aspose](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

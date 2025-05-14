@@ -1,14 +1,16 @@
 ---
-title: คุณสมบัติขององค์ประกอบโครงสร้างใน PDF โดยใช้ Java
-linktitle: คุณสมบัติขององค์ประกอบโครงสร้างใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: ปลดล็อกพลังขององค์ประกอบโครงสร้าง PDF ใน Java ด้วย Aspose.PDF เรียนรู้การสร้าง แก้ไข และเพิ่มประสิทธิภาพ PDF เพื่อการเข้าถึงได้
-weight: 12
-url: /th/java/pdf-styles-and-formatting/structure-elements-properties-in-pdf-using-java/
+"description": "ปลดล็อกพลังขององค์ประกอบโครงสร้าง PDF ใน Java ด้วย Aspose.PDF เรียนรู้การสร้าง แก้ไข และเพิ่มประสิทธิภาพ PDF เพื่อการเข้าถึงได้"
+"linktitle": "คุณสมบัติขององค์ประกอบโครงสร้างใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "คุณสมบัติขององค์ประกอบโครงสร้างใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-styles-and-formatting/structure-elements-properties-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # คุณสมบัติขององค์ประกอบโครงสร้างใน PDF โดยใช้ Java
@@ -24,7 +26,7 @@ url: /th/java/pdf-styles-and-formatting/structure-elements-properties-in-pdf-usi
 
 ## การเพิ่ม Aspose.PDF ลงในโครงการของคุณ
 
- ในการเริ่มต้น ให้เพิ่มไลบรารี Aspose.PDF ลงในโปรเจ็กต์ของเรา คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
+ในการเริ่มต้น ให้เพิ่มไลบรารี Aspose.PDF ลงในโปรเจ็กต์ของเรา คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
 
 ## การสร้างเอกสาร PDF
 
@@ -46,7 +48,7 @@ pdfDocument.getPages().get_Item(1).getParagraphs().add(heading);
 
 ## การกำหนดคุณสมบัติขององค์ประกอบโครงสร้าง
 
-องค์ประกอบโครงสร้างสามารถมีคุณสมบัติต่างๆ ได้ เช่น ภาษา บทบาท และข้อมูลการเข้าถึง มาตั้งค่าภาษาสำหรับหัวเรื่องของเรากัน:
+องค์ประกอบโครงสร้างสามารถมีคุณสมบัติต่างๆ ได้ เช่น ภาษา บทบาท และข้อมูลการเข้าถึง มาตั้งค่าภาษาสำหรับหัวข้อของเรากัน:
 
 ```java
 // ตั้งค่าคุณสมบัติภาษาสำหรับหัวเรื่อง
@@ -90,7 +92,7 @@ pdfDocument.save("accessible-document.pdf", SaveFormat.Pdf_A_1A);
 
 ## เคล็ดลับการประมวลผล PDF ที่มีประสิทธิภาพ
 
-เราจะแบ่งปันแนวทางปฏิบัติที่ดีที่สุดและเคล็ดลับในการเพิ่มประสิทธิภาพโค้ดประมวลผล PDF ของคุณเพื่อให้มีความรวดเร็วและประสิทธิภาพในการใช้ทรัพยากร
+เราจะแบ่งปันแนวทางปฏิบัติและเคล็ดลับที่ดีที่สุดเพื่อเพิ่มประสิทธิภาพโค้ดประมวลผล PDF ของคุณให้มีความเร็วและประสิทธิภาพการใช้ทรัพยากรที่ดีขึ้น
 
 ## บทสรุป
 
@@ -108,7 +110,7 @@ pdfDocument.save("accessible-document.pdf", SaveFormat.Pdf_A_1A);
 
 ### ข้อผิดพลาดทั่วไปเมื่อทำงานกับ PDF ใน Java มีอะไรบ้าง
 
-ข้อผิดพลาดทั่วไป ได้แก่ ไม่พบไฟล์ ปัญหาการอนุญาต และการใช้ API ไม่ถูกต้อง การจัดการข้อผิดพลาดและเทคนิคการแก้ไขข้อบกพร่องที่เหมาะสมมีความจำเป็นในการแก้ไขปัญหาเหล่านี้
+ข้อผิดพลาดทั่วไป ได้แก่ ไม่พบไฟล์ ปัญหาการอนุญาต และการใช้ API ไม่ถูกต้อง เทคนิคการจัดการข้อผิดพลาดและการดีบักที่เหมาะสมมีความจำเป็นในการแก้ไขปัญหาเหล่านี้
 
 ### ฉันสามารถเพิ่มประสิทธิภาพโค้ดประมวลผล PDF เพื่อประสิทธิภาพที่ดีขึ้นได้หรือไม่
 
@@ -117,9 +119,11 @@ pdfDocument.save("accessible-document.pdf", SaveFormat.Pdf_A_1A);
 ### Aspose.PDF เหมาะกับโครงการเชิงพาณิชย์หรือไม่?
 
 ใช่ Aspose.PDF เป็นไลบรารีอันทรงพลังที่เหมาะสำหรับทั้งโปรเจ็กต์ส่วนบุคคลและเชิงพาณิชย์ โดยมีฟีเจอร์มากมายสำหรับการจัดการ PDF ใน Java
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

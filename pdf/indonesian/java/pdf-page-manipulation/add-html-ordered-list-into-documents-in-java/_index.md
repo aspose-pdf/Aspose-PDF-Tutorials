@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Daftar HTML yang Diurutkan ke dalam Dokumen di Java
-linktitle: Menambahkan Daftar HTML yang Diurutkan ke dalam Dokumen di Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan daftar HTML yang diurutkan ke dalam dokumen PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber.
-weight: 11
-url: /id/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/
+"description": "Pelajari cara menambahkan daftar HTML yang diurutkan ke dalam dokumen PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Menambahkan Daftar HTML yang Diurutkan ke dalam Dokumen di Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Daftar HTML yang Diurutkan ke dalam Dokumen di Java"
+"url": "/id/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Daftar HTML yang Diurutkan ke dalam Dokumen di Java
@@ -26,7 +28,7 @@ Daftar HTML yang diurutkan digunakan untuk menampilkan daftar item dalam urutan 
 
 ## Menambahkan Aspose.PDF untuk Java ke Proyek Anda
 
- Sebelum kita mulai, Anda perlu menambahkan Aspose.PDF for Java ke proyek Java Anda. Anda dapat mengunduh pustaka dari situs web di[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan.
+Sebelum kita mulai, Anda perlu menambahkan Aspose.PDF for Java ke proyek Java Anda. Anda dapat mengunduh pustaka dari situs web di [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan.
 
 ## Membuat Dokumen PDF Baru
 
@@ -39,7 +41,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
 ## Menambahkan Daftar HTML yang Diurutkan ke PDF
 
- Selanjutnya, Anda perlu mengurai daftar HTML yang diurutkan dan menambahkannya ke dokumen PDF. Aspose.PDF untuk Java menyediakan cara mudah untuk melakukan ini menggunakan`HtmlFragment` kelas.
+Selanjutnya, Anda perlu mengurai daftar HTML yang diurutkan dan menambahkannya ke dokumen PDF. Aspose.PDF untuk Java menyediakan cara mudah untuk melakukan ini menggunakan `HtmlFragment` kelas.
 
 ```java
 // Buat fragmen HTML
@@ -71,13 +73,13 @@ pdfDocument.save("output.pdf");
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah mempelajari cara menambahkan daftar HTML yang diurutkan ke dalam dokumen di Java menggunakan Aspose.PDF untuk Java. Pustaka canggih ini memungkinkan Anda untuk memanipulasi dokumen PDF dan membuat konten dinamis dengan mudah.
+Dalam tutorial ini, kita telah mempelajari cara menambahkan daftar HTML yang diurutkan ke dalam dokumen di Java menggunakan Aspose.PDF untuk Java. Pustaka canggih ini memungkinkan Anda untuk memanipulasi dokumen PDF dengan mudah dan membuat konten yang dinamis.
 
 ## Tanya Jawab Umum
 
 ### Bagaimana cara mengunduh Aspose.PDF untuk Java?
 
-Anda dapat mengunduh Aspose.PDF untuk Java dari situs web di[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Anda dapat mengunduh Aspose.PDF untuk Java dari situs web di [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
 ### Bisakah saya menyesuaikan gaya daftar HTML yang diurutkan?
 
@@ -89,10 +91,12 @@ Aspose.PDF untuk Java adalah pustaka komersial, dan Anda mungkin perlu membeli l
 
 ### Apakah ada fitur lain yang disediakan oleh Aspose.PDF untuk Java?
 
- Ya, Aspose.PDF untuk Java menawarkan berbagai fitur untuk bekerja dengan dokumen PDF, termasuk ekstraksi teks, konversi PDF, dan banyak lagi. Anda dapat menjelajahi dokumentasi di[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) untuk informasi lebih rinci.
+Ya, Aspose.PDF untuk Java menawarkan berbagai fitur untuk bekerja dengan dokumen PDF, termasuk ekstraksi teks, konversi PDF, dan banyak lagi. Anda dapat menjelajahi dokumentasi di [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) untuk informasi lebih rinci.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Resmi Sayfa Arka Planı Olarak Ayarla
-linktitle: PDF Dosyasında Resmi Sayfa Arka Planı Olarak Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla .NET için Aspose.PDF'yi kullanarak bir PDF'de sayfa arka planı olarak bir resmi nasıl ayarlayacağınızı öğrenin. Profesyonel, görsel olarak çekici belgeler oluşturun.
-weight: 110
-url: /tr/net/programming-with-pdf-pages/image-as-background/
+"description": "Bu adım adım kılavuzla .NET için Aspose.PDF'yi kullanarak bir PDF'de sayfa arka planı olarak bir resmi nasıl ayarlayacağınızı öğrenin. Profesyonel, görsel olarak çekici belgeler oluşturun."
+"linktitle": "PDF Dosyasında Resmi Sayfa Arka Planı Olarak Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Resmi Sayfa Arka Planı Olarak Ayarla"
+"url": "/tr/net/programming-with-pdf-pages/image-as-background/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Resmi Sayfa Arka Planı Olarak Ayarla
@@ -21,8 +23,8 @@ Görsel olarak ilgi çekici PDF belgeleri oluşturmak, profesyonel raporlardan g
 
 Bir resmi sayfa arka planı olarak ayarlamaya başlamadan önce birkaç şeyi hazırlamanız gerekir:
 
-1.  Projenize .NET için Aspose.PDF yüklendi.[buradan indirin](https://releases.aspose.com/pdf/net/).
-2.  Aspose.PDF için geçerli bir lisansınız var. Eğer yoksa, bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) veya[buradan bir tane satın al](https://purchase.aspose.com/buy).
+1. Projenize .NET için Aspose.PDF yüklendi. [buradan indirin](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF için geçerli bir lisansınız var. Eğer yoksa, bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/tempveyaary-license/) or [buradan bir tane satın al](https://purchase.aspose.com/buy).
 3. Visual Studio veya herhangi bir C# IDE yüklü.
 4. C# programlamanın temellerini anlamak.
 5. Arka plan olarak kullanılacak bir resim dosyası (örneğin, “aspose-total-for-net.jpg”).
@@ -117,16 +119,18 @@ Kesinlikle! Her sayfa için farklı görseller yükleyerek ve bunları belirli s
 Aspose.PDF'de kesin bir sınır yoktur, ancak optimum performans ve çıktı kalitesini garantilemek için dosya boyutuna ve boyutlarına dikkat edin.
 
 ### Görüntünün opaklığını ayarlayabilir miyim?
-Evet! Aspose.PDF, şeffaflık da dahil olmak üzere çeşitli görüntü özelliklerini değiştirmenize olanak tanır ve arka plan üzerinde tam kontrol sağlar.
+Evet! Aspose.PDF, şeffaflık da dahil olmak üzere çeşitli görüntü özelliklerini değiştirmenize olanak tanır ve arka plan üzerinde tam kontrol sahibi olmanızı sağlar.
 
 ### Bir sayfanın arka planını nasıl kaldırabilirim?
 Artık bir arka plan istemiyorsanız, sayfanın Artifacts koleksiyonundan BackgroundArtifact'i kaldırmanız yeterlidir.
 
 ### Arka plana metin veya başka içerik ekleyebilir miyim?
 Evet, arka plan görüntüsü arkada kalır ve tıpkı Photoshop'taki katmanlar gibi üzerine metin, tablo veya diğer öğeler eklemenize olanak tanır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: รับ XFAProperties
-linktitle: รับ XFAProperties
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีเรียกค้นคุณสมบัติ XFA โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนที่ครอบคลุมนี้ มีคู่มือทีละขั้นตอนรวมอยู่ด้วย
-weight: 160
-url: /th/net/programming-with-forms/get-xfaproperties/
+"description": "เรียนรู้วิธีเรียกค้นคุณสมบัติ XFA โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนที่ครอบคลุมนี้ มีคำแนะนำทีละขั้นตอนรวมอยู่ด้วย"
+"linktitle": "รับ XFAProperties"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "รับ XFAProperties"
+"url": "/th/net/programming-with-forms/get-xfaproperties/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับ XFAProperties
@@ -22,7 +24,7 @@ url: /th/net/programming-with-forms/get-xfaproperties/
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด มีบางสิ่งที่คุณต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว ซึ่งเป็นสภาพแวดล้อมที่ดีที่สุดสำหรับการพัฒนา .NET
-2.  Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถรับได้จาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF สำหรับ .NET: คุณจะต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PDF คุณสามารถรับได้จาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/pdf/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจตัวอย่างต่างๆ ได้ดีขึ้น
 4. PDF ที่มีแบบฟอร์ม XFA: คุณจะต้องมีไฟล์ PDF ตัวอย่างที่มีแบบฟอร์ม XFA เพื่อทดสอบโค้ด คุณสามารถสร้างไฟล์ดังกล่าวหรือดาวน์โหลดตัวอย่างจากอินเทอร์เน็ตได้
 
@@ -32,7 +34,7 @@ url: /th/net/programming-with-forms/get-xfaproperties/
 
 1. เปิดโครงการ Visual Studio ของคุณ
 2. คลิกขวาที่โครงการของคุณใน Solution Explorer และเลือก "จัดการแพ็คเกจ NuGet"
-3.  ค้นหา`Aspose.PDF` และติดตั้งมัน
+3. ค้นหา `Aspose.PDF` และติดตั้งมัน
 
 ```csharp
 using System;
@@ -44,14 +46,14 @@ using Aspose.Pdf;
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
-ขั้นตอนแรกในการเดินทางของเราคือการตั้งค่าไดเร็กทอรีที่จัดเก็บเอกสาร PDF ของคุณ ซึ่งเป็นสิ่งสำคัญเนื่องจากเราต้องโหลดแบบฟอร์ม XFA จากตำแหน่งนี้
+ขั้นตอนแรกในการเดินทางของเราคือการตั้งค่าไดเรกทอรีที่เก็บเอกสาร PDF ของคุณ ซึ่งเป็นสิ่งสำคัญเนื่องจากเราต้องโหลดแบบฟอร์ม XFA จากตำแหน่งนี้
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"`ด้วยเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่ ซึ่งจะทำให้โปรแกรมค้นหาและโหลด PDF ของคุณได้
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่ไฟล์ PDF ของคุณตั้งอยู่ ซึ่งจะทำให้โปรแกรมค้นหาและโหลด PDF ของคุณได้
 
 ## ขั้นตอนที่ 2: โหลดแบบฟอร์ม XFA
 
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "GetXFAProperties.pdf");
 ```
 
- ในบรรทัดนี้เราสร้างใหม่`Document` วัตถุและส่งเส้นทางของไฟล์ PDF ของเรา ซึ่งจะโหลดเอกสารลงในหน่วยความจำและพร้อมสำหรับการจัดการ
+ในบรรทัดนี้เราสร้างใหม่ `Document` วัตถุและส่งเส้นทางของไฟล์ PDF ของเรา ซึ่งจะโหลดเอกสารลงในหน่วยความจำและพร้อมสำหรับการจัดการ
 
 ## ขั้นตอนที่ 3: ดึงชื่อฟิลด์
 
@@ -72,11 +74,11 @@ Document doc = new Document(dataDir + "GetXFAProperties.pdf");
 string[] names = doc.Form.XFA.FieldNames;
 ```
 
- ที่นี่เราเข้าถึง`FieldNames` คุณสมบัติของฟอร์ม XFA ที่ให้ชื่อฟิลด์ต่างๆ แก่เรา เหมือนกับการมีรายการส่วนผสมก่อนเริ่มทำอาหาร!
+ที่นี่เราเข้าถึง `FieldNames` คุณสมบัติของฟอร์ม XFA ที่ให้ชื่อฟิลด์ต่างๆ แก่เรา เหมือนกับการมีรายการส่วนผสมก่อนเริ่มทำอาหาร!
 
 ## ขั้นตอนที่ 4: ตั้งค่าฟิลด์
 
-ตอนนี้เรามีชื่อฟิลด์แล้ว มาตั้งค่าฟิลด์เหล่านี้กัน คุณสามารถปรับแต่งฟอร์มด้วยข้อมูลที่คุณต้องการได้จากตรงนี้
+ตอนนี้เรามีชื่อฟิลด์แล้ว มาตั้งค่าบางอย่างสำหรับฟิลด์เหล่านี้กัน คุณสามารถปรับแต่งแบบฟอร์มด้วยข้อมูลที่คุณต้องการได้จากตรงนี้
 
 ```csharp
 // ตั้งค่าฟิลด์
@@ -96,7 +98,7 @@ Console.WriteLine(doc.Form.XFA.GetFieldTemplate(names[0]).Attributes["x"].Value)
 Console.WriteLine(doc.Form.XFA.GetFieldTemplate(names[0]).Attributes["y"].Value);
 ```
 
- ที่นี่เราจะเข้าถึง`GetFieldTemplate` วิธีการรับแอตทริบิวต์ของฟิลด์ โดยเฉพาะพิกัด "x" และ "y" ซึ่งจะบอกเราว่าฟิลด์นั้นอยู่ในตำแหน่งใดใน PDF
+ที่นี่เราจะเข้าถึง `GetFieldTemplate` วิธีการรับแอตทริบิวต์ของฟิลด์ โดยเฉพาะพิกัด "x" และ "y" ซึ่งจะบอกเราว่าฟิลด์นั้นอยู่ในตำแหน่งใดใน PDF
 
 ## ขั้นตอนที่ 6: บันทึกเอกสารที่อัปเดต
 
@@ -121,20 +123,22 @@ Console.WriteLine("\nXFA fields properties retrieved successfully.\nFile saved a
 Aspose.PDF สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร PDF ได้ด้วยโปรแกรม
 
 ### ฉันสามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?
- ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้สำรวจคุณสมบัติของไลบรารีได้ ลองดูสิ[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้สำรวจคุณสมบัติของไลบรารีได้ ลองดูสิ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถหาเอกสารได้ที่ไหน
- คุณสามารถค้นหาเอกสารสำหรับ Aspose.PDF สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/pdf/net/).
+คุณสามารถค้นหาเอกสารสำหรับ Aspose.PDF สำหรับ .NET ได้ [ที่นี่](https://reference-aspose.com/pdf/net/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.PDF ได้อย่างไร
- คุณสามารถรับการสนับสนุนได้โดยเยี่ยมชมฟอรั่ม Aspose[ที่นี่](https://forum.aspose.com/c/pdf/10).
+คุณสามารถรับการสนับสนุนได้โดยเยี่ยมชมฟอรั่ม Aspose [ที่นี่](https://forum-aspose.com/c/pdf/10).
 
 ### มีใบอนุญาตชั่วคราวให้ใช้หรือไม่?
- ใช่ คุณสามารถขอใบอนุญาตชั่วคราวสำหรับ Aspose.PDF ได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ คุณสามารถขอใบอนุญาตชั่วคราวสำหรับ Aspose.PDF ได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

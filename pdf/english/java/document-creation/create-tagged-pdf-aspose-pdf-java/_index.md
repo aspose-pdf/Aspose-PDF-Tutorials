@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Accessible Tagged PDFs with Aspose.PDF for Java: Step-by-Step Guide
 
@@ -182,7 +184,11 @@ Explore further by integrating more complex elements like lists or tables into y
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 Start creating accessible PDFs today and enhance the reach of your documents!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,37 +1,42 @@
 ---
-title: Optimalizace PDF obrázků pomocí Aspose.PDF pro .NET
-weight: 7700
-limit: 
-description: Naučte se komprimovat a měnit velikost obrázků v PDF dokumentech pomocí Aspose.PDF pro .NET s tímto komplexním příkladem.
-keywords: [Aspose.PDF, .NET, PDF optimization, image compression, PDF resizing, PDF resources, Aspose documentation]
-url: /cs/net/images/resize-image/
+"description": "Naučte se komprimovat a měnit velikost obrázků v PDF dokumentech pomocí Aspose.PDF pro .NET s tímto komplexním příkladem."
+"title": "Optimalizace obrázků PDF pomocí Aspose.PDF pro .NET"
+"url": "/cs/net/images/resize-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Optimalizovat obrázky PDF pomocí Aspose.PDF
+# Optimalizace obrázků PDF pomocí Aspose.PDF
 
-Tento příklad ukazuje, jak optimalizovat PDF dokument pomocí komprese a změny velikosti obrázků v něm pomocí Aspose.PDF pro .NET. Sledujíc poskytnutý kód, můžete efektivně snížit velikost souborů vašich PDF dokumentů při zachování přijatelné kvality obrazu. To je zvláště užitečné pro zvýšení výkonu a snížení nákladů na ukládání.
+Tento příklad ukazuje, jak optimalizovat dokument PDF kompresí a změnou velikosti obrázků v něm pomocí Aspose.PDF pro .NET. Dodržením uvedeného kódu můžete efektivně zmenšit velikost souborů vašich dokumentů PDF a zároveň zachovat přijatelnou kvalitu obrazu. To je obzvláště užitečné pro zvýšení výkonu a snížení nákladů na úložiště.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/resize-image/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Návod k instalaci
-1. Stáhněte Aspose.PDF pro .NET: Navštivte[Aspose.PDF pro stránku s stahováním .NET](https://docs.aspose.com/pdf/net/)aby získali nejnovější verzi.
-2. Instalace pomocí NuGet: Otevřete svůj projekt ve Visual Studio a použijte následující příkaz v konzoli Manažera balíčků:
+## Pokyny k instalaci
+1. Stáhněte si Aspose.PDF pro .NET: Navštivte [Stránka ke stažení souboru Aspose.PDF pro .NET](https://docs.aspose.com/pdf/net/) abyste získali nejnovější verzi.
+2. Instalace přes NuGet: Otevřete projekt ve Visual Studiu a v konzoli Správce balíčků použijte následující příkaz:
    ```
    Install-Package Aspose.PDF
    ```
 
-## Pro více informací
-Dokumentace, navštivte[Aspose.PDF pro .NET API Reference](https://reference.aspose.com/pdf/net/)\- Ne , ne .
+## Pro podrobnější informace
+dokumentace, navštivte [Aspose.PDF pro referenční příručku k .NET API](https://reference.aspose.com/pdf/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Управление Z-порядком прямоугольника в PDF с помощью Java
-linktitle: Управление Z-порядком прямоугольника в PDF с помощью Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как управлять Z-порядком прямоугольников в PDF-файлах с помощью Java, используя Aspose.PDF для Java. Пошаговое руководство по точным манипуляциям с PDF-файлами.
-weight: 11
-url: /ru/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/
+"description": "Узнайте, как управлять Z-порядком прямоугольников в PDF-файлах с помощью Java, используя Aspose.PDF для Java. Пошаговое руководство по точным манипуляциям с PDF-файлами."
+"linktitle": "Управление Z-порядком прямоугольника в PDF с помощью Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Управление Z-порядком прямоугольника в PDF с помощью Java"
+"url": "/ru/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Управление Z-порядком прямоугольника в PDF с помощью Java
@@ -16,7 +18,7 @@ url: /ru/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/
 
 ## Введение
 
-В мире манипуляций PDF управление Z-порядком элементов имеет решающее значение, когда вы хотите контролировать видимость и позиционирование объектов в вашем PDF-документе. В этой статье мы углубимся в искусство управления Z-порядком прямоугольников в PDF с помощью Aspose.PDF для Java, мощного API Java для работы с PDF-файлами.
+В мире манипуляций PDF управление Z-порядком элементов имеет решающее значение, когда вы хотите контролировать видимость и позиционирование объектов в вашем PDF-документе. В этой статье мы рассмотрим искусство управления Z-порядком прямоугольников в PDF с помощью Aspose.PDF для Java, мощного API Java для работы с PDF-файлами.
 
 ## Понимание Z-порядка в PDF-файлах
 
@@ -35,7 +37,7 @@ url: /ru/java/pdf-images/controlling-z-order-of-rectangle-in-pdf-with-java/
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
 - Настроена среда разработки Java.
--  Aspose.PDF для Java библиотека установлена. Вы можете скачать ее с[здесь](https://releases.aspose.com/pdf/java/).
+- Установлена библиотека Aspose.PDF for Java. Вы можете скачать ее с [здесь](https://releases.aspose.com/pdf/java/).
 
 ## Пошаговое руководство
 
@@ -92,7 +94,7 @@ pdfDocument.save("output.pdf");
 
 ### Как установить Aspose.PDF для Java?
 
-Чтобы установить Aspose.PDF для Java, вы можете загрузить библиотеку с сайта[здесь](https://releases.aspose.com/pdf/java/) и включите JAR-файл в зависимости вашего проекта Java.
+Чтобы установить Aspose.PDF для Java, вы можете загрузить библиотеку с сайта [здесь](https://releases.aspose.com/pdf/java/) и включите JAR-файл в зависимости вашего проекта Java.
 
 ### Могу ли я управлять Z-порядком других элементов PDF, помимо прямоугольников?
 
@@ -108,10 +110,12 @@ pdfDocument.save("output.pdf");
 
 ### Где я могу найти больше примеров и документации по Aspose.PDF для Java?
 
- Подробную документацию и больше примеров кода вы можете изучить на[Документация Aspose.PDF для Java](https://reference.aspose.com/pdf/java/) страница.
+Подробную документацию и больше примеров кода вы можете изучить на [Документация Aspose.PDF для Java](https://reference.aspose.com/pdf/java/) страница.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,39 +1,41 @@
 ---
-title: Abrufen des PDF-Hyperlinkziels mit Java
-linktitle: Abrufen des PDF-Hyperlinkziels mit Java
-second_title: Aspose.PDF Java PDF-Verarbeitungs-API
-description: Entdecken Sie, wie Sie PDF-Hyperlinkziele mit Java mit Aspose.PDF für Java abrufen. Lernen Sie Schritt für Schritt mit Codebeispielen in diesem umfassenden Tutorial.
-weight: 10
-url: /de/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
+"description": "Erfahren Sie, wie Sie PDF-Hyperlink-Ziele mit Java und Aspose.PDF für Java abrufen. Lernen Sie Schritt für Schritt anhand von Codebeispielen in diesem umfassenden Tutorial."
+"linktitle": "PDF-Hyperlink-Ziel mit Java abrufen"
+"second_title": "Aspose.PDF Java PDF-Verarbeitungs-API"
+"title": "PDF-Hyperlink-Ziel mit Java abrufen"
+"url": "/de/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Abrufen des PDF-Hyperlinkziels mit Java
+# PDF-Hyperlink-Ziel mit Java abrufen
 
 
 ## Einführung
 
-In diesem Tutorial erfahren Sie, wie Sie mithilfe von Aspose.PDF für Java PDF-Hyperlinkziele erhalten. Hyperlinks sind wesentliche Elemente in PDF-Dokumenten, mit denen Benutzer zu bestimmten Zielen innerhalb des PDFs oder zu externen Ressourcen navigieren können. Wir werden den Prozess Schritt für Schritt durchgehen und Codebeispiele und Erklärungen bereitstellen.
+In diesem Tutorial erfahren Sie, wie Sie mithilfe von Aspose.PDF für Java PDF-Hyperlink-Ziele mit Java erstellen. Hyperlinks sind wichtige Elemente in PDF-Dokumenten und ermöglichen es Benutzern, zu bestimmten Zielen innerhalb der PDF-Datei oder zu externen Ressourcen zu navigieren. Wir führen Sie Schritt für Schritt durch den Prozess und liefern Codebeispiele und Erklärungen.
 
 ## Grundlegendes zu PDF-Hyperlinks
 
-PDF-Hyperlinks sind interaktive Elemente, die es Benutzern ermöglichen, durch Klicken zu verschiedenen Stellen im PDF-Dokument oder zu externen Websites zu navigieren. Sie bestehen aus zwei Hauptkomponenten: der Linkanmerkung und dem Ziel. Das Ziel gibt an, wohin der Hyperlink den Benutzer führt.
+PDF-Hyperlinks sind interaktive Elemente, die es Benutzern ermöglichen, durch Klicken zu verschiedenen Stellen im PDF-Dokument oder auf externen Websites zu navigieren. Sie bestehen aus zwei Hauptkomponenten: der Linkanmerkung und dem Ziel. Das Ziel gibt an, wohin der Hyperlink den Benutzer führt.
 
 ## Voraussetzungen
 
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 - Java-Entwicklungsumgebung
-- Aspose.PDF für Java-Bibliothek
+- Aspose.PDF für die Java-Bibliothek
 - Grundkenntnisse der Java-Programmierung
 
 ## Einrichten von Aspose.PDF für Java
 
 Um zu beginnen, müssen Sie Aspose.PDF für Java in Ihrem Projekt einrichten. Folgen Sie diesen Schritten:
-1.  Laden Sie Aspose.PDF für Java herunter von[Hier](https://releases.aspose.com/pdf/java/).
-2. Fügen Sie Ihrem Java-Projekt die Aspose.PDF-Bibliothek hinzu.
+1. Laden Sie Aspose.PDF für Java herunter von [Hier](https://releases.aspose.com/pdf/java/).
+2. Fügen Sie Ihrem Java-Projekt die Bibliothek Aspose.PDF hinzu.
 
 ## Laden eines PDF-Dokuments
 
@@ -46,7 +48,7 @@ Document pdfDocument = new Document("sample.pdf");
 
 ## Abrufen von Hyperlinks
 
-Als nächstes müssen wir die im PDF-Dokument vorhandenen Hyperlinks abrufen. Aspose.PDF bietet hierfür eine bequeme Möglichkeit:
+Als Nächstes müssen wir die im PDF-Dokument vorhandenen Hyperlinks abrufen. Aspose.PDF bietet hierfür eine bequeme Möglichkeit:
 
 ```java
 // Holen Sie sich die Linksammlung von der ersten Seite
@@ -68,13 +70,13 @@ for (LinkAnnotation link : linkAnnotations) {
 
 ## Abschluss
 
-In diesem Tutorial haben wir gelernt, wie man mit Java und Aspose.PDF für Java PDF-Hyperlinkziele erhält. Wir haben die Grundlagen von PDF-Hyperlinks behandelt, die erforderliche Umgebung eingerichtet, ein PDF-Dokument geladen, Hyperlinks abgerufen und ihre Ziele extrahiert. Dieses Wissen kann für verschiedene PDF-Bearbeitungsaufgaben in Java-Anwendungen wertvoll sein.
+In diesem Tutorial haben wir gelernt, wie man PDF-Hyperlink-Ziele mit Java und Aspose.PDF für Java erhält. Wir haben die Grundlagen von PDF-Hyperlinks behandelt, die notwendige Umgebung eingerichtet, ein PDF-Dokument geladen, Hyperlinks abgerufen und deren Ziele extrahiert. Dieses Wissen kann für verschiedene PDF-Manipulationsaufgaben in Java-Anwendungen wertvoll sein.
 
 ## Häufig gestellte Fragen
 
 ### Wie installiere ich Aspose.PDF für Java?
 
- Um Aspose.PDF für Java zu installieren, laden Sie die Bibliothek herunter von[Hier](https://releases.aspose.com/pdf/java/) und fügen Sie es zu den Abhängigkeiten Ihres Java-Projekts hinzu.
+Um Aspose.PDF für Java zu installieren, laden Sie die Bibliothek von herunter [Hier](https://releases.aspose.com/pdf/java/) und fügen Sie es den Abhängigkeiten Ihres Java-Projekts hinzu.
 
 ### Kann ich Aspose.PDF für Java kostenlos nutzen?
 
@@ -90,10 +92,12 @@ Sie können Hyperlinks ändern oder entfernen, indem Sie auf die Linkanmerkungen
 
 ### Wo finde ich weitere Dokumentation zu Aspose.PDF für Java?
 
- Eine ausführliche Dokumentation zu Aspose.PDF für Java finden Sie unter[Hier](https://reference.aspose.com/pdf/java/).
+Eine ausführliche Dokumentation zu Aspose.PDF für Java finden Sie unter [Hier](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

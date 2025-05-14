@@ -1,27 +1,29 @@
 ---
-title: Hapus Semua Bookmark Dalam File PDF
-linktitle: Hapus Semua Bookmark Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menghapus semua bookmark dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sederhanakan pengelolaan PDF Anda.
-weight: 30
-url: /id/net/programming-with-bookmarks/delete-all-bookmarks/
+"description": "Pelajari cara menghapus semua bookmark dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sederhanakan pengelolaan PDF Anda."
+"linktitle": "Hapus Semua Bookmark Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Hapus Semua Bookmark Dalam File PDF"
+"url": "/id/net/programming-with-bookmarks/delete-all-bookmarks/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Semua Bookmark Dalam File PDF
 
 ## Perkenalan
 
-Pernahkah Anda mendapati diri Anda sedang memilah-milah berkas PDF, dan malah terganggu oleh tumpukan penanda halaman? Baik Anda sedang mempersiapkan dokumen untuk dibagikan atau sekadar menginginkan tampilan yang lebih rapi, menghapus penanda halaman bisa menjadi tugas yang penting. Dalam tutorial ini, kita akan membahas cara menghapus semua penanda halaman dalam berkas PDF menggunakan Aspose.PDF for .NET. Pustaka canggih ini memungkinkan Anda untuk memanipulasi dokumen PDF dengan mudah, dan di akhir panduan ini, Anda akan dibekali dengan pengetahuan untuk menyederhanakan berkas PDF Anda dengan mudah.
+Pernahkah Anda mendapati diri Anda sedang memilah-milah berkas PDF, dan kemudian teralihkan oleh tumpukan penanda? Baik Anda sedang mempersiapkan dokumen untuk dibagikan atau sekadar menginginkan tampilan yang lebih rapi, menghapus penanda dapat menjadi tugas yang penting. Dalam tutorial ini, kita akan membahas cara menghapus semua penanda dalam berkas PDF menggunakan Aspose.PDF for .NET. Pustaka canggih ini memungkinkan Anda untuk memanipulasi dokumen PDF dengan mudah, dan di akhir panduan ini, Anda akan dibekali dengan pengetahuan untuk menyederhanakan berkas PDF Anda dengan mudah.
 
 ## Prasyarat
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Lingkungan pengembangan tempat Anda dapat menulis dan mengeksekusi kode .NET Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
@@ -49,7 +51,7 @@ using System.IO;
 using Aspose.Pdf;
 ```
 
-Sekarang setelah kita menyiapkan semuanya, mari beralih ke kode sebenarnya untuk menghapus bookmark.
+Sekarang setelah semuanya disiapkan, mari beralih ke kode sebenarnya untuk menghapus bookmark.
 
 ## Langkah 1: Tentukan Direktori Dokumen
 
@@ -69,7 +71,7 @@ Document pdfDocument = new Document(dataDir + "DeleteAllBookmarks.pdf");
 
 ## Langkah 3: Hapus Semua Bookmark
 
- Sekarang tibalah bagian yang penting—menghapus bookmark. Aspose.PDF membuat ini sangat mudah. Cukup panggil`Delete()` metode pada`Outlines` properti dokumen:
+Sekarang tibalah bagian yang krusial—menghapus bookmark. Aspose.PDF membuat ini sangat mudah. Cukup panggil `Delete()` metode pada `Outlines` properti dokumen:
 
 ```csharp
 pdfDocument.Outlines.Delete();
@@ -99,22 +101,24 @@ Nah, itu dia! Hanya dalam beberapa langkah sederhana, Anda telah mempelajari car
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menghapus penanda tertentu, bukan semuanya?
- Ya, Anda dapat mengulanginya melalui`Outlines` kumpulkan dan hapus penanda tertentu berdasarkan kriteria Anda.
+Ya, Anda dapat mengulanginya melalui `Outlines` kumpulkan dan hapus penanda tertentu berdasarkan kriteria Anda.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?
- Aspose.PDF menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Lihat[halaman pembelian](https://purchase.aspose.com/buy).
+Aspose.PDF menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Lihat [halaman pembelian](https://purchase.aspose.com/buy).
 
 ### Bagaimana jika saya mengalami kesalahan saat menghapus penanda buku?
 Pastikan berkas PDF Anda tidak rusak dan Anda memiliki izin yang diperlukan untuk memodifikasinya.
 
 ### Bisakah saya menambahkan penanda setelah menghapusnya?
- Tentu saja! Anda dapat menambahkan bookmark baru menggunakan`Outlines` properti setelah menghapus yang lama.
+Tentu saja! Anda dapat menambahkan bookmark baru menggunakan `Outlines` properti setelah menghapus yang lama.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?
- Anda dapat menemukan dokumentasi lengkap di[Situs web Aspose](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di [Situs web Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

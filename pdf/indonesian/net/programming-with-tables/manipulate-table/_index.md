@@ -1,14 +1,16 @@
 ---
-title: Memanipulasi Tabel Dalam File PDF
-linktitle: Memanipulasi Tabel Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memanipulasi tabel dalam file PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah, termasuk contoh kode dan praktik terbaik.
-weight: 130
-url: /id/net/programming-with-tables/manipulate-table/
+"description": "Pelajari cara memanipulasi tabel dalam file PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah, termasuk contoh kode dan praktik terbaik."
+"linktitle": "Memanipulasi Tabel Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Memanipulasi Tabel Dalam File PDF"
+"url": "/id/net/programming-with-tables/manipulate-table/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memanipulasi Tabel Dalam File PDF
@@ -21,11 +23,11 @@ Jika Anda bekerja dengan dokumen PDF dalam format .NET dan perlu memanipulasi ta
 
 Sebelum Anda dapat memanipulasi tabel dalam PDF menggunakan Aspose.PDF untuk .NET, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Pustaka Aspose.PDF untuk .NET – Anda perlu memasang pustaka Aspose.PDF untuk .NET. Anda bisa mendapatkannya dari[Aspose merilis halaman](https://releases.aspose.com/pdf/net/) atau menginstalnya melalui NuGet Package Manager di Visual Studio.
+1. Pustaka Aspose.PDF untuk .NET – Anda perlu memasang pustaka Aspose.PDF untuk .NET. Anda bisa mendapatkannya dari [Aspose merilis halaman](https://releases.aspose.com/pdf/net/) atau menginstalnya melalui NuGet Package Manager di Visual Studio.
 2. .NET Framework Terpasang – Pastikan Anda telah memasang .NET di sistem Anda.
 3. Contoh Berkas PDF – Kami akan menggunakan berkas PDF yang berisi tabel untuk tutorial ini. Anda dapat membuat sendiri atau menggunakan yang sudah ada.
 
- Untuk mendapatkan uji coba gratis Aspose.PDF untuk .NET, lihat[tautan ini](https://releases.aspose.com/).
+Untuk mendapatkan uji coba gratis Aspose.PDF untuk .NET, lihat [tautan ini](https://releases.aspose.com/).
 
 ## Paket Impor
 
@@ -53,22 +55,22 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Di sini, kami telah menentukan direktori file PDF dan memuatnya ke dalam`pdfDocument` objek. Dokumen ini akan dimanipulasi nanti dalam proses.
+Di sini, kami telah menentukan direktori file PDF dan memuatnya ke dalam `pdfDocument` objek. Dokumen ini akan dimanipulasi nanti dalam proses.
 
 ## Langkah 2: Buat Objek TableAbsorber
 
- Untuk bekerja dengan tabel dalam PDF, Anda perlu membuat contoh`TableAbsorber`Kelas ini membantu menyerap (atau mengambil) tabel dari halaman dalam dokumen PDF.
+Untuk bekerja dengan tabel dalam PDF, Anda perlu membuat contoh `TableAbsorber`Kelas ini membantu menyerap (atau mengambil) tabel dari halaman dalam dokumen PDF.
 
 ```csharp
 // Buat objek TableAbsorber untuk menemukan tabel
 TableAbsorber absorber = new TableAbsorber();
 ```
 
- Pikirkanlah tentang`TableAbsorber`seperti penyedot debu untuk tabel—menyedot semua tabel dari satu halaman sehingga Anda dapat mengerjakannya!
+Pikirkanlah tentang `TableAbsorber` seperti penyedot debu untuk tabel—menyedot semua tabel dari satu halaman sehingga Anda dapat mengerjakannya!
 
 ## Langkah 3: Kunjungi Halaman Tertentu
 
- Sekarang setelah Anda memiliki`TableAbsorber` objek siap, Anda perlu memberi tahu halaman PDF mana yang akan dianalisis untuk tabel. Di sini, kami menentukan halaman pertama (`Pages[1]`).
+Sekarang setelah Anda memiliki `TableAbsorber` objek siap, Anda perlu memberi tahu halaman PDF mana yang akan dianalisis untuk tabel. Di sini, kami menentukan halaman pertama (`Pages[1]`).
 
 ```csharp
 // Kunjungi halaman pertama dengan absorber
@@ -79,7 +81,7 @@ Langkah ini pada dasarnya memberi tahu penyerap untuk melihat halaman pertama da
 
 ## Langkah 4: Akses Tabel Pertama dan Sel-selnya
 
- Setelah menyerap tabel dari halaman, Anda dapat mengaksesnya menggunakan`TableList` properti penyerap. Kemudian, navigasikan melalui baris, sel, dan fragmen teks dalam tabel.
+Setelah menyerap tabel dari halaman, Anda dapat mengaksesnya menggunakan `TableList` properti penyerap. Kemudian, navigasikan melalui baris, sel, dan fragmen teks dalam tabel.
 
 ```csharp
 // Dapatkan akses ke tabel pertama di halaman, sel pertama mereka, dan fragmen teks di dalamnya
@@ -109,7 +111,7 @@ dataDir = dataDir + "ManipulateTable_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Di sini, kita menyimpan dokumen yang dimodifikasi sebagai`ManipulateTable_out.pdf`Anda dapat memberinya nama apa pun yang Anda suka.
+Di sini, kita menyimpan dokumen yang dimodifikasi sebagai `ManipulateTable_out.pdf`Anda dapat memberinya nama apa pun yang Anda suka.
 
 ## Langkah 7: Menangani Pengecualian (Opsional tetapi Direkomendasikan)
 
@@ -135,22 +137,24 @@ Nah, itu dia! Memanipulasi tabel dalam file PDF menggunakan Aspose.PDF untuk .NE
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengubah beberapa tabel dalam PDF sekaligus?  
- Ya! Anda dapat melakukan loop melalui`TableList` milik`TableAbsorber` objek untuk memanipulasi beberapa tabel dalam dokumen PDF yang sama.
+Ya! Anda dapat melakukan loop melalui `TableList` milik `TableAbsorber` objek untuk memanipulasi beberapa tabel dalam dokumen PDF yang sama.
 
 ### Bagaimana jika PDF tidak berisi tabel?  
- Jika tidak ada tabel yang ditemukan pada halaman yang Anda analisis,`TableList` properti akan kosong. Selalu periksa apakah ada tabel sebelum mencoba mengubahnya.
+Jika tidak ada tabel yang ditemukan pada halaman yang Anda analisis, `TableList` properti akan kosong. Selalu periksa apakah ada tabel sebelum mencoba mengubahnya.
 
 ### Bisakah saya memberi gaya pada tabel setelah memodifikasi teks?  
 Tentu saja. Aspose.PDF memungkinkan Anda mengubah gaya tabel, seperti font, warna, dan latar belakang, dengan mengakses properti tabel.
 
 ### Apakah Aspose.PDF untuk .NET gratis?  
- Aspose.PDF tidak gratis, tetapi Anda dapat mencobanya dengan[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau dapatkan[uji coba gratis](https://releases.aspose.com/).
+Aspose.PDF tidak gratis, tetapi Anda dapat mencobanya dengan [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau dapatkan [uji coba gratis](https://releases.aspose.com/).
 
 ### Bagaimana cara menginstal Aspose.PDF untuk .NET?  
- Anda dapat dengan mudah menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari[Halaman unduhan PDF Aspose](https://releases.aspose.com/pdf/net/).
+Anda dapat dengan mudah menginstal Aspose.PDF melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari [Halaman unduhan PDF Aspose](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

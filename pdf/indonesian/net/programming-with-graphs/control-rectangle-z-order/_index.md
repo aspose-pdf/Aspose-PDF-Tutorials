@@ -1,17 +1,19 @@
 ---
-title: Urutan Persegi Panjang Kontrol Z Dalam File PDF
-linktitle: Urutan Persegi Panjang Kontrol Z Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengontrol urutan Z persegi panjang dalam PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang terperinci ini. Ideal bagi pengembang yang ingin menyempurnakan dokumen PDF.
-weight: 40
-url: /id/net/programming-with-graphs/control-rectangle-z-order/
+"description": "Pelajari cara mengontrol urutan Z persegi panjang dalam PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang terperinci ini. Ideal bagi pengembang yang ingin menyempurnakan dokumen PDF."
+"linktitle": "Kontrol Persegi Panjang Urutan Z Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Kontrol Persegi Panjang Urutan Z Dalam File PDF"
+"url": "/id/net/programming-with-graphs/control-rectangle-z-order/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Urutan Persegi Panjang Kontrol Z Dalam File PDF
+# Kontrol Persegi Panjang Urutan Z Dalam File PDF
 
 ## Perkenalan
 
@@ -21,10 +23,10 @@ Membuat PDF dengan komponen visual yang kaya bisa jadi menantang sekaligus mengu
 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda pastikan telah Anda siapkan:
 
-1. IDE untuk Pengembangan .NET: Jika belum, pilih dan instal Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio atau JetBrains Rider. Alat-alat ini akan membantu Anda menulis, menguji, dan men-debug kode secara efisien.
-2.  Pustaka Aspose.PDF untuk .NET: Anda dapat memulai dengan mengunduh pustaka Aspose.PDF. Kunjungi[halaman unduhan](https://releases.aspose.com/pdf/net/) untuk mendapatkan versi terbaru. Pustaka ini penting untuk membuat dan memanipulasi dokumen PDF.
+1. IDE untuk Pengembangan .NET: Jika Anda belum melakukannya, pilih dan instal Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio atau JetBrains Rider. Alat-alat ini akan membantu Anda menulis, menguji, dan men-debug kode secara efisien.
+2. Pustaka Aspose.PDF untuk .NET: Anda dapat memulai dengan mengunduh pustaka Aspose.PDF. Kunjungi [halaman unduhan](https://releases.aspose.com/pdf/net/) untuk mendapatkan versi terbaru. Pustaka ini penting untuk membuat dan memanipulasi dokumen PDF.
 3. Pengetahuan Dasar C#: Meskipun panduan ini akan memandu Anda melalui semuanya, memiliki pemahaman dasar tentang C# akan membantu Anda memahami konsep lebih cepat.
-4.  .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda. Anda dapat menemukan persyaratan yang diperlukan di[Dokumentasi Aspose](https://reference.aspose.com/pdf/net/).
+4. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda. Anda dapat menemukan persyaratan yang diperlukan di [Dokumentasi Aspose](https://reference.aspose.com/pdf/net/).
 
 Sekarang setelah kita membahas prasyaratnya, mari beralih ke bagian yang menyenangkan—mengimpor paket yang akan kita gunakan.
 
@@ -53,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Membuat instance objek kelas Dokumen
 Document doc1 = new Document();
 ```
- Di sini, Anda mulai dengan menentukan direktori tempat Anda ingin menyimpan PDF Anda.`Document` kelas dari Aspose.PDF kemudian diwujudkan, yang akan berfungsi sebagai objek utama untuk berkas PDF Anda.
+Di sini, Anda mulai dengan menentukan direktori tempat Anda ingin menyimpan PDF Anda. `Document` kelas dari Aspose.PDF kemudian diwujudkan, yang akan berfungsi sebagai objek utama untuk berkas PDF Anda.
 
 ## Langkah 2: Tambahkan Halaman ke Dokumen Anda
 
@@ -62,10 +64,10 @@ Setiap PDF memerlukan setidaknya satu halaman untuk menampilkan konten. Mari tam
 ```csharp
 // Tambahkan halaman ke koleksi halaman file PDF
 Aspose.Pdf.Page page1 = doc1.Pages.Add();
-//Atur ukuran halaman PDF
+// Atur ukuran halaman PDF
 page1.SetPageSize(375, 300);
 ```
- Pada langkah ini, kami menggunakan`Add()` metode untuk membuat halaman baru dalam dokumen kita. Kita juga mengatur ukuran halaman menjadi 375px x 300px, yang akan memberi kita kanvas untuk digunakan.
+Pada langkah ini, kami menggunakan `Add()` metode untuk membuat halaman baru dalam dokumen kita. Kita juga mengatur ukuran halaman menjadi 375px x 300px, yang akan memberi kita kanvas untuk digunakan.
 
 ## Langkah 3: Mengatur Margin Halaman 
 
@@ -121,7 +123,7 @@ dataDir = dataDir + "ControlRectangleZOrder_out.pdf";
 // Simpan file PDF yang dihasilkan
 doc1.Save(dataDir);
 ```
- Anda cukup menentukan nama file dan memanggil`Save()` metode untuk membuat dokumen PDF Anda.
+Anda cukup menentukan nama file dan memanggil `Save()` metode untuk membuat dokumen PDF Anda.
 
 ## Kesimpulan 
 
@@ -135,19 +137,21 @@ Ingat, latihan adalah kuncinya! Bermainlah dengan berbagai bentuk, ukuran, dan w
 Urutan Z mengacu pada susunan elemen visual. Elemen dengan urutan Z yang lebih tinggi muncul di atas elemen dengan urutan Z yang lebih rendah.
 
 ### Di mana saya dapat mengunduh Aspose.PDF untuk .NET?
- Anda dapat mengunduhnya dari[halaman unduhan](https://releases.aspose.com/pdf/net/).
+Anda dapat mengunduhnya dari [halaman unduhan](https://releases.aspose.com/pdf/net/).
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose?
- Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Anda dapat mengunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk bantuan.
+Anda dapat mengunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10) untuk bantuan.
 
 ### Bisakah saya mendapatkan lisensi sementara untuk Aspose.PDF?
- Tentu saja! Anda dapat mengajukan permohonan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Tentu saja! Anda dapat mengajukan permohonan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

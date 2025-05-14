@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Link and Free Text Annotations to a PDF Using Aspose.PDF for Java
 
@@ -203,7 +205,11 @@ If you're ready to try implementing these solutions yourself, make sure to check
 ## Resources
 - **Documentation:** [Aspose.PDF for Java Reference](https://reference.aspose.com/pdf/java/)
 - **Download:** [Latest Releases](https://releases.aspose.com/PDF/java)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

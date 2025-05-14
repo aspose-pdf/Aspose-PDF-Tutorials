@@ -1,28 +1,30 @@
 ---
-title: PDF Dosyasına Köprü Ekle
-linktitle: PDF Dosyasına Köprü Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF'lerinize kolayca köprü metinleri eklemeyi öğrenin. Belgelerinizdeki etkileşimi ve kullanıcı katılımını artırın.
-weight: 10
-url: /tr/net/programming-with-links-and-actions/add-hyperlink/
+"description": "Aspose.PDF for .NET kullanarak PDF'lerinize kolayca köprü metinleri eklemeyi öğrenin. Belgelerinizdeki etkileşimi ve kullanıcı katılımını artırın."
+"linktitle": "PDF Dosyasına Köprü Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Köprü Ekle"
+"url": "/tr/net/programming-with-links-and-actions/add-hyperlink/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasına Köprü Ekle
 
 ## giriiş
 
-Bir PDF dosyasına köprüler eklemek, belgenin etkileşimini ve gezinilebilirliğini önemli ölçüde artırabilir. İster bir ödeme portalına bağlantı veren bir fatura, ister okuyucuları ilgili çevrimiçi kaynaklara yönlendiren bir rapor oluşturuyor olun, köprüler PDF'lerinizi daha kullanıcı dostu hale getiren bir işlevsellik katmanı ekleyebilir. Bu kılavuzda, PDF dosyalarınıza sorunsuz bir şekilde köprüler eklemeyi göstermek için Aspose.PDF for .NET'i kullanacağız. O halde kolları sıvayın; her şeyi nokta nokta ve adım adım öğreneceksiniz!
+PDF dosyasına köprüler eklemek, belgenin etkileşimini ve gezinilebilirliğini önemli ölçüde artırabilir. İster bir ödeme portalına bağlanan bir fatura, ister okuyucuları ilgili çevrimiçi kaynaklara yönlendiren bir rapor oluşturun, köprüler PDF'lerinizi daha kullanıcı dostu hale getiren bir işlevsellik katmanı ekleyebilir. Bu kılavuzda, PDF dosyalarınıza sorunsuz bir şekilde köprüler eklemeyi göstermek için Aspose.PDF for .NET'i kullanacağız. O halde kolları sıvayın; her şeyi nokta nokta ve adım adım öğreneceksiniz!
 
 ## Ön koşullar
 
 Bağlantı eklemenin inceliklerine dalmadan önce, listenizde işaretlemeniz gereken birkaç ön koşul vardır:
 
 1. .NET Framework'ü yükleyin: Makinenizde uyumlu bir .NET Framework'ün yüklü olduğundan emin olun. Aspose.PDF çeşitli sürümlerle çalışır, bu nedenle kullandığınız sürümle uyumluluğunu doğrulayın.
-2.  .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[indirme sayfası](https://releases.aspose.com/pdf/net/) Eğer daha önce yapmadıysanız.
+2. .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz: [indirme sayfası](https://releases.aspose.com/pdf/net/) Eğer daha önce yapmadıysanız.
 3. Temel C# Bilgisi: C# programlamaya aşinalık bu eğitimi daha akıcı ve anlaşılır hale getirecektir.
 4. Geliştirme Ortamı: Kodunuzu yazmak ve çalıştırmak için Visual Studio gibi bir IDE kurun.
 
@@ -49,17 +51,17 @@ Yapmak isteyeceğiniz ilk şey, PDF dosyalarınızın bulunacağı bir çalışm
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`YOUR DOCUMENT DIRECTORY` PDF'lerinizi kaydetmek istediğiniz gerçek yol ile. Bu yol, PDF'lerimizi okurken ve yazarken dosyalar arasında gezinmemize yardımcı olacaktır.
+Yer değiştirmek `YOUR DOCUMENT DIRECTORY` PDF'lerinizi kaydetmek istediğiniz gerçek yol ile. Bu yol, PDF'lerimizi okurken ve yazarken dosyalar arasında gezinmemize yardımcı olacaktır.
 
 ## Adım 2: Mevcut PDF Belgesini Açın
 
- Şimdi, köprü metni eklemek istediğiniz PDF dosyasını açalım. Mevcut bir PDF'yi şu şekilde açabilirsiniz:`Document` Aspose.PDF kütüphanesinden sınıf.
+Şimdi, köprü metni eklemek istediğiniz PDF dosyasını açalım. Mevcut bir PDF'yi şu şekilde açabilirsiniz: `Document` Aspose.PDF kütüphanesinden sınıf.
 
 ```csharp
 Document document = new Document(dataDir + "AddHyperlink.pdf");
 ```
 
- Bu kod parçası PDF dosyanızı okur ve değişikliklere hazırlar. Emin olun`"AddHyperlink.pdf"` belirtilen dizinde mevcuttur veya dosya adını buna göre ayarlayın.
+Bu kod parçası PDF dosyanızı okur ve değişikliklere hazırlar. Emin olun `"AddHyperlink.pdf"` belirtilen dizinde mevcuttur veya dosya adını buna göre ayarlayın.
 
 ## Adım 3: PDF Sayfasına Erişim
 
@@ -79,7 +81,7 @@ Sonra, köprü metninin tıklanabilir olacağı dikdörtgen alanı tanımlamanı
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
- Burada, şu şekilde başlayan bir dikdörtgen oluşturuyoruz:`(100, 100)` ve uzanır`(300, 300)`Bağlantınızın boyutunu ve konumunu değiştirmek için bu sayıları ayarlayın.
+Burada, şu şekilde başlayan bir dikdörtgen oluşturuyoruz: `(100, 100)` ve uzanır `(300, 300)`Bağlantınızın boyutunu ve konumunu değiştirmek için bu sayıları ayarlayın.
 
 ## Adım 5: Bağlantının Sınırını Yapılandırın
 
@@ -93,7 +95,7 @@ link.Border = border;
 
 Bu, PDF tasarımınızla mükemmel bir şekilde bütünleşen, görünmez bir bağlantı kenarlığı oluşturur.
 
-## Adım 6: Köprü Eylemini Belirleyin
+## Adım 6: Köprü Bağlantısı Eylemini Belirleyin
 
 Bir kullanıcı bu bağlantıya tıkladığında ne olacağını belirtmeniz gerekecek. Örneğimiz için kullanıcıları Aspose'un web sitesine yönlendireceğiz:
 
@@ -101,7 +103,7 @@ Bir kullanıcı bu bağlantıya tıkladığında ne olacağını belirtmeniz ger
 link.Action = new GoToURIAction("http://www.aspose.com");
 ```
 
- Kullandığınızdan emin olun`"http://"` Bir web adresinin başında; aksi takdirde düzgün çalışmayabilir.
+Kullandığınızdan emin olun `"http://"` Bir web adresinin başında; aksi takdirde düzgün çalışmayabilir.
 
 ## Adım 7: Sayfaya Bağlantı Açıklamasını Ekleyin
 
@@ -135,7 +137,7 @@ dataDir = dataDir + "AddHyperlink_out.pdf";
 document.Save(dataDir);
 ```
 
- Bu, güncellenmiş PDF'nizi yeni bir dosya olarak kaydeder`"AddHyperlink_out.pdf"` belirttiğiniz dizinde.
+Bu, güncellenmiş PDF'nizi yeni bir dosya olarak kaydeder `"AddHyperlink_out.pdf"` belirttiğiniz dizinde.
 
 ## Çözüm
 
@@ -147,19 +149,21 @@ Aspose.PDF for .NET kullanarak PDF belgelerinize köprüler eklemek yalnızca PD
 Evet, farklı yazı tipleri, renkler ve kenarlık stilleri kullanarak köprü metninin ve metnin görünümünü değiştirebilirsiniz.
 
 ### Dahili bir sayfaya bağlantı vermek istersem ne olur?  
- Kullanabilirsiniz`GoToAction` yerine`GoToURIAction` PDF içindeki farklı sayfalara bağlantı vermek için.
+Kullanabilirsiniz `GoToAction` yerine `GoToURIAction` PDF içindeki farklı sayfalara bağlantı vermek için.
 
 ### Aspose.PDF diğer dosya formatlarını destekliyor mu?  
 Evet, Aspose.PDF PDF düzenleme ve dönüştürme için çok çeşitli dosya formatlarını ve işlevlerini destekler.
 
 ### Geliştirme için geçici lisans nasıl alınır?  
- Geçici lisans almak için şu adresi ziyaret edebilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Geçici lisans almak için şu adresi ziyaret edebilirsiniz: [bu bağlantı](https://purchase.aspose.com/temporary-license/).
 
 ### Daha fazla Aspose.PDF eğitimini nerede bulabilirim?  
-Daha fazla öğreticiyi şurada bulabilirsiniz:[belgeleme](https://reference.aspose.com/pdf/net/).
+Daha fazla öğreticiyi şurada bulabilirsiniz: [belgeleme](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

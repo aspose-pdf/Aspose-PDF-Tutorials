@@ -1,30 +1,32 @@
 ---
-title: 使用 Java 在 PDF 中跨頁面繪製線條
-linktitle: 使用 Java 在 PDF 中跨頁面繪製線條
-second_title: Aspose.PDF Java PDF 處理 API
-description: 了解如何使用 Aspose.PDF for Java 在 PDF 中使用 Java 繪製線條。包含 PDF 線條繪製原始程式碼的逐步指南。
-weight: 13
-url: /zh-hant/java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/
+"description": "了解如何使用 Aspose.PDF for Java 在 PDF 中繪製線條。帶有 PDF 線條繪製原始程式碼的逐步指南。"
+"linktitle": "使用 Java 在 PDF 頁面上繪製線條"
+"second_title": "Aspose.PDF Java PDF處理API"
+"title": "使用 Java 在 PDF 頁面上繪製線條"
+"url": "/zh-hant/java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Java 在 PDF 中跨頁面繪製線條
+# 使用 Java 在 PDF 頁面上繪製線條
 
 
-## 使用 Java 在 PDF 中跨頁面繪製線條簡介
+## 使用 Java 在 PDF 中繪製頁面線條的簡介
 
-Aspose.PDF for Java 是一個功能強大的 API，可讓開發人員在其 Java 應用程式中處理 PDF 文件。在本逐步指南中，我們將探索如何使用 Aspose.PDF for Java 在 PDF 文件的頁面上繪製一條線。無論您是想添加裝飾線、單獨的部分還是突出顯示內容，本教學都將向您展示如何輕鬆做到這一點。
+Aspose.PDF for Java 是一個強大的 API，可讓開發人員在其 Java 應用程式中處理 PDF 文件。在本逐步指南中，我們將探討如何使用 Aspose.PDF for Java 在 PDF 文件的頁面上畫一條線。無論您想添加裝飾線、分隔部分還是突出顯示內容，本教學都會向您展示如何輕鬆完成。
 
-## Java 版 Aspose.PDF 入門
+## Aspose.PDF for Java入門
 
-在我們深入研究程式碼之前，請確保您的專案中安裝了 Aspose.PDF for Java。您可以從以下位置下載：[這裡](https://releases.aspose.com/pdf/java/)並按照網站上提供的安裝說明進行操作。
+在深入研究程式碼之前，請確保您的專案中安裝了 Aspose.PDF for Java。您可以從下載 [這裡](https://releases.aspose.com/pdf/java/) 並按照網站上提供的安裝說明進行操作。
 
-## 將 Aspose.PDF 新增到您的專案中
+## 將 Aspose.PDF 新增到您的項目
 
-要將 Aspose.PDF 新增到您的 Java 項目，您需要將該庫包含在您的依賴項中。以下是使用 Maven 執行此操作的方法：
+要將 Aspose.PDF 新增到您的 Java 專案中，您需要將該庫包含在您的依賴項中。使用 Maven 可以實現以下操作：
 
 ```xml
 <dependency>
@@ -45,7 +47,7 @@ import com.aspose.pdf.Document;
 
 public class CreatePDF {
     public static void main(String[] args) {
-        //建立一個新文檔
+        // 建立新文檔
         Document doc = new Document();
     }
 }
@@ -53,61 +55,61 @@ public class CreatePDF {
 
 ## 在頁面上畫一條線
 
-要在頁面上畫一條線，您可以使用`Line`由 Aspose.PDF 提供的類別。以下是如何繪製簡單水平線的範例：
+要在頁面上畫一條線，您可以使用 `Line` Aspose.PDF 提供的類別。以下是繪製簡單水平線的範例：
 
 ```java
 import com.aspose.pdf.*;
 
 public class DrawLine {
     public static void main(String[] args) {
-        //建立一個新文檔
+        // 建立新文檔
         Document doc = new Document();
         
-        //建立頁面
+        // 建立頁面
         Page page = doc.getPages().add();
         
-        //建立線對象
+        // 建立線對象
         Line line = new Line(new float[] { 100, 100, 400, 100 });
         
-        //將行新增至頁面
+        // 將行新增至頁面
         page.getParagraphs().add(line);
     }
 }
 ```
 
-此程式碼建立一個 PDF 文檔，其水平線從座標 (100, 100) 開始，到 (400, 100) 結束。您可以根據需要調整座標和線條屬性。
+此程式碼建立一個 PDF 文檔，其中有一條水平線從座標 (100, 100) 開始到座標 (400, 100) 結束。您可以根據需要調整座標和線條屬性。
 
-## 客製化線路
+## 自訂線條
 
-Aspose.PDF for Java 提供了各種屬性來自訂線條的外觀，例如線條顏色、寬度和樣式。以下是更改線條顏色和寬度的方法：
+Aspose.PDF for Java 提供了各種屬性來自訂線條的外觀，例如線條顏色、寬度和樣式。更改線條顏色和寬度的方法如下：
 
 ```java
-//客製化線路
+// 自訂線路
 line.setColor(Color.getRed());
 line.getGraphInfo().setLineWidth(2);
 ```
 
-請隨意探索其他屬性和風格來滿足您的要求。
+請隨意探索其他屬性和样式以滿足您的要求。
 
 ## 儲存 PDF 文件
 
-新增該行並對其進行自訂後，您可以將 PDF 文件儲存到文件中。操作方法如下：
+新增並自訂線條後，您可以將 PDF 文件儲存為文件。具體操作如下：
 
 ```java
 doc.save("output.pdf");
 ```
 
-恭喜！您已使用 Aspose.PDF for Java 在 PDF 文件的頁面上成功繪製了一條線。
+恭喜！您已成功使用 Aspose.PDF for Java 在 PDF 文件的頁面上繪製了一條線。
 
 ## 結論
 
-在本教程中，我們介紹了使用 Aspose.PDF for Java 在 PDF 文件中繪製線條的基礎知識。您已經學習如何建立新的 PDF 文件、繪製線條、自訂其外觀以及儲存文件。 Aspose.PDF for Java 提供了廣泛的 PDF 處理功能，因此您可以探索更進階的功能來滿足您的特定需求。
+在本教程中，我們介紹了使用 Aspose.PDF for Java 在 PDF 文件中繪製線條的基礎知識。您已經了解如何建立新的 PDF 文件、繪製線條、自訂其外觀以及儲存文件。 Aspose.PDF for Java 提供了廣泛的處理 PDF 的功能，因此您可以根據特定需求探索更多進階功能。
 
 ## 常見問題解答
 
-### 如何為 PDF 文件新增垂直線？
+### 如何在我的 PDF 文件中新增垂直線？
 
-若要新增垂直線，只需在建立時調整座標即可`Line`目的。例如，要新增一條從 (200, 100) 開始並在 (200, 400) 結束的垂直線，請以下列方式修改座標：
+若要新增垂直線，只需在建立時調整座標即可 `Line` 目的。例如，要新增一條從 (200, 100) 開始、到 (200, 400) 結束的垂直線，請以下列方式修改座標：
 
 ```java
 Line verticalLine = new Line(new float[] { 200, 100, 200, 400 });
@@ -115,14 +117,14 @@ Line verticalLine = new Line(new float[] { 200, 100, 200, 400 });
 
 ### 我可以將線條樣式改為虛線嗎？
 
-是的，您可以透過設定線條的虛線圖案將線條樣式變更為虛線。這是一個例子：
+是的，您可以透過設定線條的虛線圖案將線條樣式變更為虛線。以下是一個例子：
 
 ```java
 line.getGraphInfo().getDashArray().add(2f);
 line.getGraphInfo().getDashArray().add(2f);
 ```
 
-這將建立一條虛線，其圖案為 2 個單位開、2 個單位關。
+這將建立一條具有 2 個單位開啟、2 個單位關閉圖案的虛線。
 
 ### Aspose.PDF for Java 與 Java 8 相容嗎？
 
@@ -130,14 +132,16 @@ line.getGraphInfo().getDashArray().add(2f);
 
 ### 如何在我繪製的線條上方添加文字？
 
-要在該行上方添加文本，您可以使用`TextFragment`由 Aspose.PDF 提供的類別。創建一個`TextFragment`對象並將其新增至頁面。
+要在行上方新增文本，您可以使用 `TextFragment` Aspose.PDF 提供的類別。創建一個 `TextFragment` 對象並將其新增至頁面。
 
-### 在哪裡可以找到 Aspose.PDF for Java 的更多範例和文件？
+### 在哪裡可以找到更多 Aspose.PDF for Java 的範例和文件？
 
-您可以在 Aspose.PDF for Java 文件頁面上找到全面的文件和更多範例：[這裡](https://reference.aspose.com/pdf/java/).
+您可以在 Aspose.PDF for Java 文件頁面上找到全面的文件和更多範例： [這裡](https://reference。aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thẻ PDF và Cấu trúc
-linktitle: Thẻ PDF và Cấu trúc
-second_title: API xử lý PDF Java Aspose.PDF
-description: Làm chủ thẻ PDF và cấu trúc trong Java với hướng dẫn Aspose.PDF cho Java. Tạo PDF dễ dàng và có tổ chức.
-weight: 21
-url: /vi/java/pdf-tags-and-structure/
+"description": "Làm chủ thẻ PDF và cấu trúc trong Java với hướng dẫn Aspose.PDF cho Java. Tạo PDF dễ dàng và có tổ chức."
+"linktitle": "Thẻ PDF và Cấu trúc"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thẻ PDF và Cấu trúc"
+"url": "/vi/java/pdf-tags-and-structure/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thẻ PDF và Cấu trúc
@@ -21,13 +23,13 @@ Thẻ PDF cung cấp một hệ thống phân cấp cấu trúc cho các tài li
 
 ## Tạo PDF có thể truy cập được
 
-Khả năng truy cập là một khía cạnh quan trọng của việc tạo tài liệu và Aspose.PDF for Java cho phép bạn tạo PDF đáp ứng các tiêu chuẩn về khả năng truy cập một cách dễ dàng. Chúng tôi sẽ hướng dẫn bạn quy trình tạo PDF có thể truy cập bằng cách thêm văn bản thay thế vào hình ảnh, xác định tiêu đề, danh sách và bảng, đồng thời đảm bảo thứ tự đọc hợp lý và có ý nghĩa. Các hướng dẫn này sẽ trang bị cho bạn kiến thức và kỹ năng để tạo PDF bao gồm và tuân thủ các tiêu chuẩn về khả năng truy cập.
+Khả năng truy cập là một khía cạnh quan trọng của việc tạo tài liệu và Aspose.PDF for Java cho phép bạn tạo PDF đáp ứng các tiêu chuẩn về khả năng truy cập một cách dễ dàng. Chúng tôi sẽ hướng dẫn bạn quy trình tạo PDF có thể truy cập bằng cách thêm văn bản thay thế vào hình ảnh, xác định tiêu đề, danh sách và bảng, đồng thời đảm bảo thứ tự đọc hợp lý và có ý nghĩa. Các hướng dẫn này sẽ trang bị cho bạn kiến thức và kỹ năng để tạo PDF có tính bao hàm và tuân thủ các tiêu chuẩn về khả năng truy cập.
 
 ## Tối ưu hóa cấu trúc PDF
 
 Trong phần cuối của loạt bài này, chúng ta sẽ đi sâu vào các kỹ thuật nâng cao để tối ưu hóa cấu trúc tài liệu PDF của bạn. Bạn sẽ học cách sử dụng Aspose.PDF cho Java để tinh chỉnh cấu trúc gắn thẻ, xác định ngôn ngữ nội dung và xử lý các thành phần phức tạp như biểu mẫu và liên kết. Đến cuối các hướng dẫn này, bạn sẽ thành thạo trong việc tạo các tài liệu PDF có cấu trúc tốt và dễ tiếp cận, mang lại lợi ích cho nhiều người dùng, bao gồm cả những người khuyết tật.
 
-Cho dù bạn là một nhà phát triển đang nỗ lực tạo ra nội dung bao hàm hay là một người muốn nâng cao kỹ năng thao tác PDF của mình bằng Aspose.PDF cho Java, các hướng dẫn này sẽ cung cấp cho bạn những hiểu biết sâu sắc có giá trị và kinh nghiệm thực tế để đạt được mục tiêu của mình. Hãy tham gia cùng chúng tôi trên hành trình này để làm chủ các thẻ và cấu trúc PDF trong Java và mở khóa tiềm năng tạo ra các tài liệu PDF có thể truy cập phổ biến.
+Cho dù bạn là một nhà phát triển đang nỗ lực tạo ra nội dung bao hàm hay là một người muốn nâng cao kỹ năng thao tác PDF của mình bằng Aspose.PDF cho Java, các hướng dẫn này sẽ cung cấp cho bạn những hiểu biết có giá trị và kinh nghiệm thực tế để đạt được mục tiêu của mình. Hãy tham gia cùng chúng tôi trên hành trình này để làm chủ các thẻ và cấu trúc PDF trong Java và mở khóa tiềm năng tạo ra các tài liệu PDF có thể truy cập phổ biến.
 
 ## Hướng dẫn về thẻ PDF và cấu trúc
 ### [Tạo phần tử cấu trúc trong PDF bằng Java](./create-structure-element-in-pdf-using-java/)
@@ -40,9 +42,11 @@ Khám phá cách tạo và tùy chỉnh bảng trong tài liệu PDF bằng Java
 Tìm hiểu cách đặt tên thẻ tùy chỉnh cho tài liệu PDF bằng Java với Aspose.PDF cho Java.
 ### [Minh họa các thành phần cấu trúc trong PDF sử dụng Java](./illustration-structure-elements-in-pdf-using-java/)
 Tìm hiểu cách tạo hình minh họa và cấu trúc các thành phần trong tệp PDF bằng Java với Aspose.PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

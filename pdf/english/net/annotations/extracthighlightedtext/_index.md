@@ -8,7 +8,9 @@ url: /net/annotations/extracthighlightedtext/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Highlighted Text In PDF File
@@ -122,6 +124,7 @@ Yes, Aspose.PDF also supports Java and other platforms, offering similar functio
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Anotasi lnk
-linktitle: Tambahkan Anotasi lnk
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan anotasi tinta ke file PDF dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang menarik ini.
-weight: 20
-url: /id/net/annotations/addlnkannotation/
+"description": "Pelajari cara menambahkan anotasi tinta ke file PDF dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang menarik ini."
+"linktitle": "Tambahkan Anotasi lnk"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Anotasi lnk"
+"url": "/id/net/annotations/addlnkannotation/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Anotasi lnk
@@ -22,16 +24,16 @@ Selamat datang di dunia manipulasi PDF dengan Aspose.PDF untuk .NET! Jika Anda i
 Sebelum kita menyelami keajaiban pengkodean, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
 1. .NET Framework: Pastikan Anda telah menginstal .NET di komputer Anda. Pustaka ini berfungsi dengan lancar dengan berbagai versi .NET, termasuk .NET Core.
-2.  Pustaka Aspose.PDF: Anda harus mengunduh dan merujuk pustaka Aspose.PDF untuk .NET ke dalam proyek Anda. Jika Anda belum melakukannya, Anda dapat mengunduh versi terbaru dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
+2. Pustaka Aspose.PDF: Anda harus mengunduh dan merujuk pustaka Aspose.PDF untuk .NET ke dalam proyek Anda. Jika Anda belum melakukannya, Anda dapat mengunduh versi terbaru dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
 3. Editor Kode: Anda dapat menggunakan editor kode pilihan Anda, tetapi Visual Studio sangat direkomendasikan karena kemudahan penggunaannya dengan aplikasi .NET.
 4. Pemahaman Dasar C#: Pengetahuan praktis tentang C# akan membantu Anda menavigasi contoh pengkodean dengan lancar.
 5. Menyiapkan Lingkungan Pengembangan Anda: Pastikan IDE Anda diatur untuk menangani proyek .NET dan Anda telah mereferensikan pustaka Aspose.PDF dengan benar dalam proyek Anda. 
 
-Jika prasyarat ini terpenuhi, Anda siap untuk mulai menambahkan anotasi tinta ke PDF Anda!
+Setelah prasyarat ini terpenuhi, Anda siap untuk mulai menambahkan anotasi tinta ke PDF Anda!
 
 ## Paket Impor
 
-Sebelum memulai pengodean, mari impor paket-paket yang diperlukan. Di bagian atas berkas C# Anda, tambahkan pernyataan berikut:
+Sebelum memulai pengodean, mari impor paket-paket yang diperlukan. Di bagian atas berkas C# Anda, tambahkan pernyataan-pernyataan berikut:
 
 ```csharp
 using System.IO;
@@ -54,7 +56,7 @@ Hal pertama yang ingin Anda lakukan adalah menyiapkan dokumen Anda dan jalur tem
 string dataDir = "YOUR DATA DIRECTORY";
 Document doc = new Document();
 ```
- Kami mendefinisikan sebuah variabel`dataDir` , yang menunjuk ke direktori tempat PDF yang dihasilkan akan disimpan.`Document` Objek tersebut kemudian diwujudkan, menciptakan dokumen PDF baru untuk diedit.
+Kami mendefinisikan sebuah variabel `dataDir`, yang menunjuk ke direktori tempat PDF yang dihasilkan akan disimpan. `Document` Objek tersebut kemudian diwujudkan, menciptakan dokumen PDF baru untuk diedit.
 
 ## Langkah 2: Tambahkan Halaman ke Dokumen Anda
 
@@ -77,7 +79,7 @@ drect.X = 0;
 drect.Y = 0;
 Aspose.Pdf.Rectangle arect = Aspose.Pdf.Rectangle.FromRect(drect);
 ```
- Di sini, kita membuat`Rectangle` objek yang menentukan area pada halaman tempat kita akan menambahkan anotasi tinta. Kita mengatur dimensinya agar sesuai dengan seluruh halaman, mulai dari (0,0).
+Di sini, kita membuat `Rectangle` objek yang menentukan area pada halaman tempat kita akan menambahkan anotasi tinta. Kita mengatur dimensinya agar sesuai dengan seluruh halaman, mulai dari (0,0).
 
 ## Langkah 4: Siapkan Titik Tinta
 
@@ -105,7 +107,7 @@ InkAnnotation ia = new InkAnnotation(pdfPage, arect, inkList)
     CapStyle = CapStyle.Rounded
 };
 ```
- Kami mewujudkan`InkAnnotation`objek, meneruskan halaman, persegi panjang, dan titik tinta. Selain itu, kami menetapkan beberapa properti seperti`Title`, `Color` , Dan`CapStyle`Sesuaikan dengan kebutuhan Anda!
+Kami mewujudkan `InkAnnotation` objek, yang meneruskan halaman, persegi panjang, dan titik tinta. Selain itu, kami menetapkan beberapa properti seperti `Title`Bahasa Indonesia: `Color`, Dan `CapStyle`Sesuaikan dengan kebutuhan Anda!
 
 ## Langkah 6: Mengatur Batas dan Opacity
 
@@ -136,7 +138,7 @@ dataDir = dataDir + "AddInkAnnotation_out.pdf";
 doc.Save(dataDir);
 Console.WriteLine("\nInk annotation added successfully.\nFile saved at " + dataDir);
 ```
- Kami memodifikasi`dataDir` untuk menyertakan nama berkas keluaran dan menyimpan dokumen. Pesan konfirmasi dicetak ke konsol untuk memberi tahu Anda bahwa semuanya berjalan lancar.
+Kami memodifikasi `dataDir` untuk menyertakan nama berkas keluaran dan menyimpan dokumen. Pesan konfirmasi dicetak ke konsol untuk memberi tahu Anda bahwa semuanya berjalan lancar.
 
 ## Kesimpulan
 
@@ -148,19 +150,21 @@ Nah, itu dia! Anda telah berhasil menambahkan anotasi tinta ke dokumen PDF Anda 
 Aspose.PDF adalah pustaka untuk membuat, memanipulasi, dan mengonversi dokumen PDF dalam aplikasi .NET.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Ya! Aspose menawarkan versi uji coba gratis untuk mengevaluasi produk mereka. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya! Aspose menawarkan versi uji coba gratis untuk mengevaluasi produk mereka. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/).
 
 ### Apakah mungkin untuk menambahkan beberapa anotasi tinta?
- Tentu saja! Anda dapat membuat beberapa`InkAnnotation` objek dan menambahkannya ke halaman dokumen Anda.
+Tentu saja! Anda dapat membuat beberapa `InkAnnotation` objek dan menambahkannya ke halaman dokumen Anda.
 
 ### Di mana saya dapat menemukan lebih banyak contoh?
- Anda dapat memeriksa[dokumentasi](https://reference.aspose.com/pdf/net/) untuk tutorial dan contoh terperinci.
+Anda dapat memeriksa [dokumentasi](https://reference.aspose.com/pdf/net/) untuk tutorial dan contoh terperinci.
 
 ### Apa yang harus saya lakukan jika saya butuh dukungan?
- Jika Anda mengalami masalah, Anda dapat mencari bantuan di[forum dukungan](https://forum.aspose.com/c/pdf/10).
+Jika Anda mengalami masalah, Anda dapat mencari bantuan di [forum dukungan](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

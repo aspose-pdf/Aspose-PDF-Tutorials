@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Ayrıcalıkları Ayarla
-linktitle: PDF Dosyasında Ayrıcalıkları Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF ayrıcalıklarının nasıl ayarlanacağını öğrenin. Belgelerinizi etkili bir şekilde güvenceye alın.
-weight: 100
-url: /tr/net/programming-with-security-and-signatures/set-privileges/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF ayrıcalıklarının nasıl ayarlanacağını öğrenin. Belgelerinizi etkili bir şekilde güvenceye alın."
+"linktitle": "PDF Dosyasında Ayrıcalıkları Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Ayrıcalıkları Ayarla"
+"url": "/tr/net/programming-with-security-and-signatures/set-privileges/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Ayrıcalıkları Ayarla
@@ -27,11 +29,11 @@ Ayrıcalıkların ayarlanmasının inceliklerine dalmadan önce, başlamak için
 
 ### 2. .NET Kütüphanesi için Aspose.PDF
 
- Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu henüz yapmadıysanız, şuraya gidin:[Aspose PDF Sürümü](https://releases.aspose.com/pdf/net/) En son sürümü indirmek için sayfaya tıklayın.
+Aspose.PDF kütüphanesinin kurulu olması gerekir. Bunu henüz yapmadıysanız, şuraya gidin: [Aspose PDF Sürümü](https://releases.aspose.com/pdf/net/) En son sürümü indirmek için sayfaya tıklayın.
 
 ### 3. Kaynak PDF Belgesi
 
- Hazır bir kaynak PDF'iniz olsun. Gösterim amaçlı olarak, adında bir giriş dosyası kullanalım.`input.pdf`Herhangi bir metin düzenleyicisini kullanarak basit bir PDF oluşturabilir veya bir tane indirebilirsiniz.
+Hazır bir kaynak PDF'iniz olsun. Gösterim amaçlı olarak, adında bir giriş dosyası kullanalım. `input.pdf`Herhangi bir metin düzenleyicisini kullanarak basit bir PDF oluşturabilir veya bir tane indirebilirsiniz.
 
 ### 4. Geliştirme Ortamınız
 
@@ -39,9 +41,9 @@ Favori IDE'nizde (Visual Studio harika çalışıyor!) bir projeniz olduğundan 
 
 ## Paketleri İçe Aktar
 
- Aspose.PDF kütüphanesini kullanmak için öncelikle gerekli paketleri projenize aktarmanız gerekir. Üzerinde çalışacağınız ana ad alanı şudur:`Aspose.Pdf`.
+Aspose.PDF kütüphanesini kullanmak için öncelikle gerekli paketleri projenize aktarmanız gerekir. Üzerinde çalışacağınız ana ad alanı `Aspose.Pdf`.
 
-Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+İşte bunu nasıl yapacağınız:
 
 1. Projenizi Visual Studio’da açın.
 2. Çözüm Gezgini'nde projenize sağ tıklayın ve 'NuGet Paketlerini Yönet' seçeneğini seçin.
@@ -65,7 +67,7 @@ Paketinizi hazırladıktan sonra kodlamaya başlamaya hazırsınız!
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
- Yer değiştirmek`"YOUR DOCUMENTS DIRECTORY"` sisteminizde depoladığınız gerçek dizinle`input.pdf`.
+Yer değiştirmek `"YOUR DOCUMENTS DIRECTORY"` sisteminizde depoladığınız gerçek dizinle `input.pdf`.
 
 ## Adım 2: Kaynak PDF Dosyasını Yükleyin
 
@@ -77,11 +79,11 @@ using (Document document = new Document(dataDir + "input.pdf"))
     // Kodunuz burada devam edecek
 }
 ```
- İşte burada bir tane kullanıyoruz`using` kaynak yönetimi için bir bildirim. Bu, belgenizin düzgün bir şekilde kapatılmasını ve işlemeniz bittikten sonra atılmasını sağlayacaktır.
+İşte burada bir tane kullanıyoruz `using` kaynak yönetimi için bir bildirim. Bu, belgenizin düzgün bir şekilde kapatılmasını ve işlemeniz bittikten sonra atılmasını sağlayacaktır.
 
 ## Adım 3: Belge Ayrıcalıkları Nesnesini Örneklendirin
 
-Artık belge yüklendiğine göre, bir örnek oluşturmanın zamanı geldi`DocumentPrivilege` sınıf. Bu, hangi izinlerin ayarlanacağını belirtmenize olanak tanır.
+Artık belge yüklendiğine göre, bir örnek oluşturmanın zamanı geldi `DocumentPrivilege` sınıf. Bu, hangi izinlerin ayarlanacağını belirtmenize olanak tanır.
 
 ```csharp
 DocumentPrivilege documentPrivilege = DocumentPrivilege.ForbidAll;
@@ -104,7 +106,7 @@ Bu satır, görme engelli kullanıcılar için hayati önem taşıyan ekran okum
 ```csharp
 document.Encrypt("user", "owner", documentPrivilege, CryptoAlgorithm.AESx128, false);
 ```
- Yer değiştirmek`"user"` Ve`"owner"` seçtiğiniz parolalarla. Kullanıcının belgeyi görüntülemek için kullanıcı parolasına ihtiyacı olacak, sahip parolası ise ayrıcalıklar üzerinde tam kontrol sağlar. 
+Yer değiştirmek `"user"` Ve `"owner"` seçtiğiniz parolalarla. Kullanıcının belgeyi görüntülemek için kullanıcı parolasına ihtiyacı olacak, sahip parolası ise ayrıcalıklar üzerinde tam kontrol sağlar. 
 
 ## Adım 6: Güncellenen Belgeyi Kaydedin
 
@@ -113,11 +115,11 @@ Son olarak, tüm değişikliklerinizi yaptıktan sonra güncellenen PDF'i kaydet
 ```csharp
 document.Save(dataDir + "SetPrivileges_out.pdf");
 ```
- Bu satır, yaptığınız değişiklikleri yeni bir dosyaya kaydeder.`SetPrivileges_out.pdf` aynı dizinde. Orijinali olduğu gibi tutmak her zaman iyi bir fikirdir!
+Bu satır, yaptığınız değişiklikleri yeni bir dosyaya kaydeder. `SetPrivileges_out.pdf` aynı dizinde. Orijinalini olduğu gibi tutmak her zaman iyi bir fikirdir!
 
 ## Çözüm
 
-Ve işte oldu! Aspose.PDF for .NET kullanarak bir PDF dosyasında ayrıcalıkları başarıyla ayarladınız. Sadece birkaç satır kodla, belgelerinizi güvence altına alabilir ve ihtiyaç duyanlar için erişilebilirliği sağlayabilirsiniz. Belge izinlerinin nasıl yönetileceğini anlamak yalnızca belge güvenliğinizi artırmakla kalmaz, aynı zamanda kullanıcı deneyimini de iyileştirir. 
+İşte oldu! Aspose.PDF for .NET kullanarak bir PDF dosyasında ayrıcalıkları başarıyla ayarladınız. Sadece birkaç satır kodla, belgelerinizi güvence altına alabilir ve buna ihtiyaç duyanlar için erişilebilirliği sağlayabilirsiniz. Belge izinlerinin nasıl yönetileceğini anlamak yalnızca belge güvenliğinizi artırmakla kalmaz, aynı zamanda kullanıcı deneyimini de iyileştirir. 
 
 ## SSS
 
@@ -128,16 +130,18 @@ Belge ayrıcalıkları, kullanıcıların bir PDF üzerinde düzenleme, kopyalam
 Visual Studio'da NuGet aracılığıyla yükleyebilirsiniz. NuGet Paket Yöneticisi'nde 'Aspose.PDF'yi arayın.
 
 ### Birden fazla ayrıcalığa aynı anda izin verebilir miyim?  
-Evet, birden fazla izni ayarlayarak ayarlayabilirsiniz.`DocumentPrivilege` ayarlarını buna göre yapın.
+Evet, birden fazla izni ayarlayarak ayarlayabilirsiniz. `DocumentPrivilege` ayarlarını buna göre yapın.
 
 ### Aspose hangi şifreleme algoritmalarını destekliyor?  
 Aspose.PDF, AES-128, AES-256 ve RC4 (hem 40 bit hem de 128 bit) dahil olmak üzere çeşitli algoritmaları destekler.
 
 ### Aspose.PDF'in deneme sürümü var mı?  
- Evet, ücretsiz deneme sürümünü şu adresten alabilirsiniz:[Aspose PDF Ücretsiz Deneme](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten alabilirsiniz: [Aspose PDF Ücretsiz Deneme](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

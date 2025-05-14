@@ -1,14 +1,16 @@
 ---
-title: Menggambar Garis Melintasi Halaman dalam PDF dengan Java
-linktitle: Menggambar Garis Melintasi Halaman dalam PDF dengan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menggambar garis dalam PDF dengan Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk menggambar garis dalam PDF.
-weight: 13
-url: /id/java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/
+"description": "Pelajari cara menggambar garis dalam PDF dengan Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber untuk menggambar garis dalam PDF."
+"linktitle": "Menggambar Garis Melintasi Halaman dalam PDF dengan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menggambar Garis Melintasi Halaman dalam PDF dengan Java"
+"url": "/id/java/pdf-images/drawing-line-across-the-page-in-pdf-with-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggambar Garis Melintasi Halaman dalam PDF dengan Java
@@ -20,7 +22,7 @@ Aspose.PDF untuk Java adalah API canggih yang memungkinkan pengembang bekerja de
 
 ## Memulai dengan Aspose.PDF untuk Java
 
-Sebelum kita menyelami kodenya, pastikan Anda telah menginstal Aspose.PDF untuk Java di proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan di situs.
+Sebelum kita menyelami kodenya, pastikan Anda telah menginstal Aspose.PDF untuk Java di proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan di situs.
 
 ## Menambahkan Aspose.PDF ke Proyek Anda
 
@@ -53,7 +55,7 @@ public class CreatePDF {
 
 ## Menggambar Garis Melintasi Halaman
 
- Untuk menggambar garis melintasi halaman, Anda dapat menggunakan`Line` kelas yang disediakan oleh Aspose.PDF. Berikut contoh cara menggambar garis horizontal sederhana:
+Untuk menggambar garis melintasi halaman, Anda dapat menggunakan `Line` kelas yang disediakan oleh Aspose.PDF. Berikut contoh cara menggambar garis horizontal sederhana:
 
 ```java
 import com.aspose.pdf.*;
@@ -107,7 +109,7 @@ Dalam tutorial ini, kami telah membahas dasar-dasar menggambar garis dalam dokum
 
 ### Bagaimana cara menambahkan garis vertikal ke dokumen PDF saya?
 
-Untuk menambahkan garis vertikal, cukup sesuaikan koordinat saat membuat`Line` objek. Misalnya, untuk menambahkan garis vertikal yang dimulai pada (200, 100) dan berakhir pada (200, 400), ubah koordinat sebagai berikut:
+Untuk menambahkan garis vertikal, cukup sesuaikan koordinat saat membuat `Line` objek. Misalnya, untuk menambahkan garis vertikal yang dimulai pada (200, 100) dan berakhir pada (200, 400), ubah koordinat sebagai berikut:
 
 ```java
 Line verticalLine = new Line(new float[] { 200, 100, 200, 400 });
@@ -130,14 +132,16 @@ Ya, Aspose.PDF untuk Java kompatibel dengan Java 8 dan versi yang lebih baru. Pa
 
 ### Bagaimana cara menambahkan teks di atas garis yang telah saya gambar?
 
- Untuk menambahkan teks di atas baris, Anda dapat menggunakan`TextFragment` kelas yang disediakan oleh Aspose.PDF. Buat`TextFragment` objek dan menambahkannya ke halaman.
+Untuk menambahkan teks di atas baris, Anda dapat menggunakan `TextFragment` kelas yang disediakan oleh Aspose.PDF. Buat `TextFragment` objek dan menambahkannya ke halaman.
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi lengkap dan contoh lebih lanjut di halaman dokumentasi Aspose.PDF untuk Java:[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi lengkap dan contoh lebih lanjut di halaman dokumentasi Aspose.PDF untuk Java: [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

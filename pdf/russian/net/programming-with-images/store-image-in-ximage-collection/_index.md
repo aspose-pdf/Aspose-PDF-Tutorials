@@ -1,14 +1,16 @@
 ---
-title: Сохранить изображение в коллекции XImage
-linktitle: Сохранить изображение в коллекции XImage
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как сохранять изображения в коллекции XImage с помощью Aspose.PDF для .NET, в этом полном пошаговом руководстве.
-weight: 290
-url: /ru/net/programming-with-images/store-image-in-ximage-collection/
+"description": "Узнайте, как сохранять изображения в коллекции XImage с помощью Aspose.PDF для .NET, в этом полном пошаговом руководстве."
+"linktitle": "Сохранить изображение в коллекции XImage"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Сохранить изображение в коллекции XImage"
+"url": "/ru/net/programming-with-images/store-image-in-ximage-collection/"
+"weight": 290
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сохранить изображение в коллекции XImage
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-images/store-image-in-ximage-collection/
 Прежде чем мы углубимся в код и процессы, вам необходимо убедиться, что у вас есть несколько вещей:
 
 - .NET Environment: На вашем компьютере должен быть установлен .NET Framework. Выберите подходящую версию в зависимости от требований вашего проекта.
-- Aspose.PDF для .NET: Убедитесь, что у вас есть библиотека Aspose.PDF. Вы можете загрузить ее с[здесь](https://releases.aspose.com/pdf/net/) или начните с бесплатной пробной версии[здесь](https://releases.aspose.com/).
+- Aspose.PDF для .NET: Убедитесь, что у вас есть библиотека Aspose.PDF. Вы можете загрузить ее с [здесь](https://releases.aspose.com/pdf/net/) или начните с бесплатной пробной версии [здесь](https://releases.aspose.com/).
 - Файл изображения: Вам также понадобится файл изображения (например, JPG или PNG), который вы хотите сохранить в PDF. Для этого примера мы будем использовать файл с именем "aspose-logo.jpg".
 - Базовые знания C#: знакомство с программированием на C# поможет вам легко освоить материал.
 
@@ -89,7 +91,7 @@ page.Resources.Images.Add(imageStream, ImageFilterType.Flate);
 XImage ximage = page.Resources.Images[page.Resources.Images.Count];
 ```
 
- Этот код выполняет сложную работу по добавлению изображения в PDF-файл и назначению его`XImage` переменная, на которую мы сможем ссылаться позже.
+Этот код выполняет сложную работу по добавлению изображения в PDF-файл и назначению его `XImage` переменная, на которую мы сможем ссылаться позже.
 
 ## Шаг 6: Подготовка к рисованию изображения.
 
@@ -139,7 +141,7 @@ page.Contents.Add(new GRestore());
 
 ## Шаг 10: Сохраните документ
 
-Наконец-то мы можем спасти наш шедевр! Это тот момент, когда вся ваша тяжелая работа воплощается в осязаемый результат.
+Наконец-то мы можем спасти наш шедевр! Это тот момент, когда вся ваша тяжелая работа объединяется в осязаемый результат.
 
 ```csharp
 document.Save(dataDir + "FlateDecodeCompression.pdf");
@@ -160,16 +162,18 @@ Aspose.PDF поддерживает различные форматы изобр
 Да, изменив координаты, заданные в прямоугольнике, вы можете изменить размер изображения, отображаемого в PDF-файле.
 
 ### Нужна ли мне лицензия для использования Aspose.PDF?
- Aspose предлагает бесплатную пробную версию и различные варианты покупки. Вы можете найти их[здесь](https://purchase.aspose.com/buy).
+Aspose предлагает бесплатную пробную версию и различные варианты покупки. Вы можете найти их [здесь](https://purchase.aspose.com/buy).
 
 ### Как мне получить поддержку, если у меня возникнут проблемы?
- Вы можете обратиться за помощью к сообществу Aspose.[здесь](https://forum.aspose.com/c/pdf/10).
+Вы можете обратиться за помощью к сообществу Aspose. [здесь](https://forum.aspose.com/c/pdf/10).
 
 ### Есть ли способ применить сжатие к изображениям, добавляемым в PDF-файл?
 Да, при добавлении изображений в PDF-файл вы можете указать тип фильтра изображений, чтобы использовать методы сжатия, такие как Flate.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

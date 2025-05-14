@@ -6,8 +6,11 @@ description: Learn how to create a PDF with a transparent rectangle using Aspose
 keywords: [Aspose.PDF for .NET, create PDF, add graph to PDF, transparent color PDF, C# PDF example, draw rectangle in PDF, Aspose.PDF tutorial]
 url: /net/graphs/add-drawing/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a PDF with Transparent Graphs Using Aspose.PDF  
@@ -15,9 +18,11 @@ url: /net/graphs/add-drawing/
 Aspose.PDF for .NET makes it easy to generate and manipulate PDF documents programmatically. In this example, we demonstrate how to create a PDF document and add a graph containing a rectangle with a transparent fill color. You’ll learn how to set up colors, add pages, and draw shapes with precise control over transparency. This tutorial provides a step-by-step guide, including code snippets and explanations to help you integrate Aspose.PDF into your .NET applications.    
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/graphs/add-drawing" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions:  
 
@@ -45,8 +50,11 @@ using Aspose.Pdf.Drawing;
 ## Useful Links 
 Documentation: [Aspose.PDF for .NET Documentation](https://docs.aspose.com/pdf/net/)  
 API Reference: [Aspose.PDF for .NET API Reference](https://reference.aspose.com/pdf/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

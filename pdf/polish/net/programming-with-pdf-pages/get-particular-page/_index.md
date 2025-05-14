@@ -1,27 +1,29 @@
 ---
-title: Pobierz konkretną stronę
-linktitle: Pobierz konkretną stronę
-second_title: Aspose.PDF dla .NET API Reference
-description: W tym przewodniku krok po kroku dowiesz się, jak wyodrębnić konkretną stronę z pliku PDF i zapisać ją jako nowy dokument za pomocą Aspose.PDF dla platformy .NET.
-weight: 90
-url: /pl/net/programming-with-pdf-pages/get-particular-page/
+"description": "W tym przewodniku krok po kroku dowiesz się, jak wyodrębnić konkretną stronę z pliku PDF i zapisać ją jako nowy dokument za pomocą Aspose.PDF dla .NET."
+"linktitle": "Pobierz konkretną stronę"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz konkretną stronę"
+"url": "/pl/net/programming-with-pdf-pages/get-particular-page/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz konkretną stronę
 
 ## Wstęp
 
- Czy masz dokument PDF zawierający tylko to?*one* ważna strona, którą musisz zapisać osobno? Może to certyfikat, ważny paragon lub sekcja, którą musisz się z kimś podzielić. Cóż, używając Aspose.PDF dla .NET, możesz łatwo wyodrębnić konkretną stronę z pliku PDF i zapisać ją jako nowy dokument. Brzmi jak magia, prawda? Zanurzmy się w tym samouczku, w którym krok po kroku pokażemy, jak to zrobić.
+Czy masz dokument PDF zawierający tylko to? *jeden* ważna strona, którą musisz zapisać osobno? Może to certyfikat, ważny paragon lub sekcja, którą musisz się z kimś podzielić. Cóż, używając Aspose.PDF dla .NET, możesz łatwo wyodrębnić konkretną stronę z pliku PDF i zapisać ją jako nowy dokument. Brzmi jak magia, prawda? Zanurzmy się w tym samouczku, w którym krok po kroku pokażemy, jak to zrobić.
 
 ## Wymagania wstępne
 
 Zanim zakasamy rękawy i zaczniemy pisać kod, upewnijmy się, że wszystko masz gotowe:
 
-1.  Aspose.PDF dla biblioteki .NET: Musisz pobrać i zainstalować[Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/) Możesz kupić licencję lub użyć[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach próbnych.
+1. Aspose.PDF dla biblioteki .NET: Musisz pobrać i zainstalować [Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/)Możesz kupić licencję lub użyć [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach próbnych.
    
 2. Środowisko programistyczne: Visual Studio jest wysoce zalecane do programowania w C#. Każda wersja Visual Studio powinna działać dobrze.
 
@@ -52,18 +54,18 @@ Po pierwsze, musimy określić, gdzie znajduje się nasz dokument. Jest to klucz
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest Twój plik PDF. Jeśli nie wiesz, gdzie znajduje się Twój plik PDF, teraz jest czas, aby go poszukać.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest Twój plik PDF. Jeśli nie wiesz, gdzie znajduje się Twój plik PDF, teraz jest czas, aby go poszukać.
 
 ## Krok 2: Ładowanie dokumentu PDF
 
- Teraz, gdy mamy ścieżkę, musimy otworzyć dokument PDF, z którym chcemy pracować. To tutaj`Document` klasa z Aspose.PDF wchodzi do gry.
+Teraz, gdy mamy ścieżkę, musimy otworzyć dokument PDF, z którym chcemy pracować. To tutaj `Document` klasa z Aspose.PDF wchodzi do gry.
 
 ```csharp
 // Otwórz dokument
 Document pdfDocument = new Document(dataDir + "GetParticularPage.pdf");
 ```
 
- Tutaj używamy`Document` klasa do załadowania pliku PDF. Nazwa pliku, z którym pracujemy to`GetParticularPage.pdf`. Jeśli Twój plik ma inną nazwę, pamiętaj o zaktualizowaniu nazwy w kodzie.
+Tutaj używamy `Document` klasa do załadowania pliku PDF. Nazwa pliku, z którym pracujemy to `GetParticularPage.pdf`. Jeśli Twój plik ma inną nazwę, pamiętaj o zaktualizowaniu nazwy w kodzie.
 
 ## Krok 3: Dostęp do konkretnej strony
 
@@ -74,7 +76,7 @@ Teraz nadchodzi główne wydarzenie — uzyskanie konkretnej strony! Załóżmy,
 Page pdfPage = pdfDocument.Pages[2];
 ```
 
-Tutaj bierzemy drugą stronę (`Pages[2]`dokumentu PDF. Możesz zmienić liczbę w nawiasach kwadratowych na numer strony, którą chcesz wyodrębnić.
+Tutaj bierzemy drugą stronę (`Pages[2]`) dokumentu PDF. Możesz zmienić liczbę w nawiasach kwadratowych na numer strony, którą chcesz wyodrębnić.
 
 ## Krok 4: Tworzenie nowego dokumentu
 
@@ -85,7 +87,7 @@ W tym momencie mamy stronę, której potrzebujemy. Teraz musimy utworzyć nowy d
 Document newDocument = new Document();
 ```
 
- Ten`Document` Klasa ta jest tutaj ponownie wykorzystywana, ale tym razem tworzymy nowy, pusty plik PDF, w którym zapiszemy wyodrębnioną stronę.
+Ten `Document` Klasa ta jest tutaj ponownie wykorzystywana, ale tym razem tworzymy nowy, pusty plik PDF, w którym zapiszemy wyodrębnioną stronę.
 
 ## Krok 5: Dodawanie wyodrębnionej strony do nowego dokumentu
 
@@ -96,7 +98,7 @@ Teraz, gdy mamy już stronę i nowy dokument, połączmy je.
 newDocument.Pages.Add(pdfPage);
 ```
 
- W tym wierszu dzieje się magia. Dodajemy wyodrębnioną stronę (zapisaną w`pdfPage`) do naszego nowego dokumentu.
+W tym wierszu dzieje się magia. Dodajemy wyodrębnioną stronę (zapisaną w `pdfPage`) do naszego nowego dokumentu.
 
 ## Krok 6: Zapisywanie nowego dokumentu PDF
 
@@ -108,7 +110,7 @@ dataDir = dataDir + "GetParticularPage_out.pdf";
 newDocument.Save(dataDir);
 ```
 
- Tutaj wyodrębniona strona jest zapisywana jako nowy plik o nazwie`GetParticularPage_out.pdf`Oczywiście możesz zmienić nazwę pliku wyjściowego na dowolną. 
+Tutaj wyodrębniona strona jest zapisywana jako nowy plik o nazwie `GetParticularPage_out.pdf`. Oczywiście możesz zmienić nazwę pliku wyjściowego na dowolną. 
 
 ## Krok 7: Potwierdzenie procesu
 
@@ -133,16 +135,18 @@ Tak, możesz. Po prostu użyj pętli, aby przejść przez strony, które chcesz 
 Oczywiście! Aspose.PDF może pracować z wieloma formatami, takimi jak XPS, SVG, a nawet formatami obrazów, takimi jak JPEG i PNG.
 
 ### Czy korzystanie z Aspose.PDF dla platformy .NET jest bezpłatne?  
-Aby w pełni korzystać z Aspose.PDF, wymagana jest licencja, ale możesz zacząć od[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub spróbuj ich[bezpłatny okres próbny](https://releases.aspose.com/).
+Aby w pełni korzystać z Aspose.PDF, wymagana jest licencja, ale możesz zacząć od [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub spróbuj ich [bezpłatny okres próbny](https://releases.aspose.com/).
 
 ### Czy mogę wyodrębnić stronę i przekonwertować ją na obraz?  
 Tak, możesz. Aspose.PDF pozwala konwertować strony PDF do różnych formatów obrazów.
 
 ### Czy liczba stron, które mogę wyodrębnić, jest ograniczona?  
 Nie, nie ma ograniczeń co do liczby stron, które możesz wyodrębnić lub z którymi możesz pracować, pod warunkiem, że obsługuje to Twoja licencja.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

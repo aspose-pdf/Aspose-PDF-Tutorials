@@ -1,46 +1,51 @@
 ---
-title: Készíts és módosíts egy PDF-t képekkel az Aspose.PDF használatával a .NET-hez
-weight: 7700
-limit: 
-description: Tanulja meg, hogyan lehet létrehozni egy PDF dokumentumot, beilleszteni egy képet, módosítani a méretét, és állítsa be a oldal tulajdonságait az Aspose.PDF használatával .NET-hez. Teljes kód példa benne.
-keywords: [Aspose.PDF for .NET, create PDF in C#, add image to PDF, resize image in PDF, PDF manipulation, .NET PDF library, save PDF in C#]
-url: /hu/net/images/set-image-size/
+"description": "Ismerje meg, hogyan hozhat létre PDF dokumentumot, hogyan szúrhat be képet, hogyan módosíthatja a méretét és hogyan állíthatja be az oldal tulajdonságait az Aspose.PDF for .NET használatával. Teljes kódpélda mellékelve."
+"title": "PDF létrehozása és módosítása képekkel az Aspose.PDF for .NET használatával"
+"url": "/hu/net/images/set-image-size/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDF segítségével készíts és módosíts egy PDF-t képekkel
+# PDF létrehozása és módosítása képekkel az Aspose.PDF segítségével
 
-A .NET-hez készült Aspose.PDF egy erőteljes könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programmal hozzanak létre, szerkesszenek és manipuláljanak PDF dokumentumokat. Ebben a példában megtanulják, hogyan hozhatnak létre egy PDF dokumentumot, adhatnak hozzá egy képet, módosíthatják annak méretét és módosíthatják az oldal tulajdonságait C# használatával. A kód bemutatja a PDF dokumentum inicializálását, egy képet beillesztését, a oldal méreteinek beállítását és a végleges fájl mentését. Függetlenül attól, hogy jelentések, számlák vagy dinamikus tartalommal dolgozol, ez a szakorlat egyszerű, de hatékony módszert biztosít a képek kezelésére a PDF-ek között a .NET-hez készült Aspose.PDF használatával.  
+Az Aspose.PDF for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, szerkesszenek és manipuláljanak PDF dokumentumokat. Ebben a példában megtudhatja, hogyan hozhat létre PDF dokumentumot, hogyan adhat hozzá képet, hogyan módosíthatja a méretét és hogyan módosíthatja az oldal tulajdonságait C# használatával. A kód bemutatja a PDF dokumentum inicializálását, a kép beszúrását, az oldal méretének beállítását és a végleges fájl mentését. Akár jelentésekkel, számlákkal vagy dinamikus tartalommal dolgozik, ez az oktatóanyag egy egyszerű, mégis hatékony módszert kínál a képek PDF dokumentumokban történő kezelésére az Aspose.PDF for .NET segítségével.  
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/set-image-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## A berendezés beépítési utasításai:  
+## Telepítési utasítások:  
 
-Ha a .NET projekthez Aspose.PDF használatát szeretnéd használni, kövesd az alábbi lépéseket:  
+Az Aspose.PDF for .NET használatához a projektben kövesse az alábbi lépéseket:  
 
-1. A NuGet csomagkezelő segítségével telepíteni:  
-Nyissa ki a Visual Studio-t és futtassa a következő parancsot a csomagkezelő konzolban:  
+1. Telepítés a NuGet csomagkezelőn keresztül:  
+Nyisd meg a Visual Studiot, és futtasd a következő parancsot a Package Manager konzolon:  
 ```powershell
 Install-Package Aspose.PDF
 ```
 
-2. Adj névtért a C# kódodba:  
+2. Névtér hozzáadása a C# kódhoz:  
 ```csharp
 using Aspose.Pdf;
 ```
 
-## További részletekért látogasson el:  
-[Aspose.PDF a .NET dokumentációhoz](https://docs.aspose.com/pdf/net/)  
-[Aspose.PDF API hivatkozás](https://reference.aspose.com/pdf/net/)  
+## További részletekért látogasson el ide:  
+[Aspose.PDF .NET dokumentációhoz](https://docs.aspose.com/pdf/net/)  
+[Aspose.PDF API referencia](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/pdf-structure-elements/create-pdf-with-tagged-image-in-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create PDF with Tagged Image in Java
@@ -105,6 +107,7 @@ You can find comprehensive documentation for Aspose.PDF for Java on the [Aspose 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

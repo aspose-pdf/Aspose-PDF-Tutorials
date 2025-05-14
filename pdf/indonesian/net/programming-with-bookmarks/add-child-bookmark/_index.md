@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Penanda Anak Dalam File PDF
-linktitle: Tambahkan Penanda Anak Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan penanda anak dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurnakan navigasi PDF Anda.
-weight: 20
-url: /id/net/programming-with-bookmarks/add-child-bookmark/
+"description": "Pelajari cara menambahkan penanda anak dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurnakan navigasi PDF Anda."
+"linktitle": "Tambahkan Penanda Anak Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Penanda Anak Dalam File PDF"
+"url": "/id/net/programming-with-bookmarks/add-child-bookmark/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Penanda Anak Dalam File PDF
@@ -21,7 +23,7 @@ Di era digital, mengelola dokumen secara efisien sangatlah penting, terutama jik
 
 Sebelum kita menyelami seluk-beluk penambahan penanda buku, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Lingkungan pengembangan tempat Anda dapat menulis dan menguji kode Anda.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 
@@ -41,7 +43,7 @@ Buka Visual Studio dan buat proyek C# baru. Pilih Aplikasi Konsol untuk mempermu
 
 ### Impor Namespace yang Diperlukan
 
- Di bagian atas Anda`Program.cs` file, impor namespace yang diperlukan:
+Di bagian atas Anda `Program.cs` file, impor namespace yang diperlukan:
 
 ```csharp
 using System;
@@ -60,7 +62,7 @@ Sebelum Anda dapat memanipulasi PDF apa pun, Anda perlu menentukan lokasi penyim
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Ini seperti memberi kode Anda peta untuk menemukan harta karun!
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Ini seperti memberi kode Anda peta untuk menemukan harta karun!
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -71,7 +73,7 @@ Setelah direktori disiapkan, saatnya membuka dokumen PDF yang ingin Anda kerjaka
 Document pdfDocument = new Document(dataDir + "AddChildBookmark.pdf");
 ```
 
- Di sini, kita membuat yang baru`Document` objek yang memuat berkas PDF Anda. Anggap saja ini seperti membuka buku untuk mulai membaca.
+Di sini, kita membuat yang baru `Document` objek yang memuat berkas PDF Anda. Anggap saja ini seperti membuka buku untuk mulai membaca.
 
 ## Langkah 3: Buat Penanda Induk
 
@@ -85,7 +87,7 @@ pdfOutline.Italic = true;
 pdfOutline.Bold = true;
 ```
 
- Dalam cuplikan ini, kami membuat yang baru`OutlineItemCollection` untuk penanda induk. Kami mengatur judul dan gayanya (miring dan tebal) agar menonjol. Ini seperti memberi judul yang menarik pada bab Anda!
+Dalam cuplikan ini, kami membuat yang baru `OutlineItemCollection` untuk penanda induk. Kami mengatur judul dan gayanya (miring dan tebal) agar menonjol. Ini seperti memberi judul yang menarik pada bab Anda!
 
 ## Langkah 4: Buat Penanda Anak
 
@@ -138,7 +140,7 @@ Di sini, kami menentukan nama berkas keluaran dan menyimpan dokumen. Anda akan m
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil menambahkan penanda anak ke berkas PDF menggunakan Aspose.PDF untuk .NET. Fitur sederhana namun hebat ini dapat meningkatkan kegunaan dokumen Anda secara signifikan, sehingga memudahkan pembaca untuk menelusurinya. Baik Anda membuat laporan, eBook, atau dokumen PDF lainnya, penanda adalah pengubah permainan.
+Selamat! Anda telah berhasil menambahkan penanda anak ke berkas PDF menggunakan Aspose.PDF untuk .NET. Fitur sederhana namun canggih ini dapat meningkatkan kegunaan dokumen Anda secara signifikan, sehingga memudahkan pembaca untuk menelusurinya. Baik Anda membuat laporan, eBook, atau dokumen PDF lainnya, penanda adalah pengubah permainan.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -149,17 +151,19 @@ Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk me
 Ya, Anda dapat membuat beberapa penanda anak di bawah satu penanda induk dengan mengulangi langkah-langkah untuk membuat dan menambahkan penanda anak.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?
- Aspose.PDF menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Lihat[halaman pembelian](https://purchase.aspose.com/buy) untuk lebih jelasnya.
+Aspose.PDF menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Lihat [halaman pembelian](https://purchase.aspose.com/buy) untuk lebih jelasnya.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana jika saya mengalami masalah?
-Jika Anda mengalami masalah, Anda dapat mencari bantuan di[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Jika Anda mengalami masalah, Anda dapat mencari bantuan di [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

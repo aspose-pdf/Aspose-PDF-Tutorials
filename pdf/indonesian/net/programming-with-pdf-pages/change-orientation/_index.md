@@ -1,14 +1,16 @@
 ---
-title: Ubah Orientasi
-linktitle: Ubah Orientasi
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Panduan langkah demi langkah untuk mengubah orientasi halaman PDF dengan Aspose.PDF untuk .NET. Mudah diikuti dan diterapkan dalam proyek Anda.
-weight: 10
-url: /id/net/programming-with-pdf-pages/change-orientation/
+"description": "Panduan langkah demi langkah untuk mengubah orientasi halaman PDF dengan Aspose.PDF untuk .NET. Mudah diikuti dan diterapkan dalam proyek Anda."
+"linktitle": "Ubah Orientasi"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ubah Orientasi"
+"url": "/id/net/programming-with-pdf-pages/change-orientation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah Orientasi
@@ -23,12 +25,12 @@ Jadi, jika Anda siap untuk mulai dan memutar halaman PDF tersebut dengan mudah, 
 
 Sebelum kita membahas detail tentang mengubah orientasi halaman di PDF Anda, mari kita bahas secara singkat apa saja yang perlu Anda siapkan:
 
--  Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF untuk .NET. Jika belum, Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF untuk .NET. Jika belum, Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 - Lingkungan Pengembangan .NET: Anda dapat menggunakan Visual Studio, JetBrains Rider, atau IDE pilihan apa pun untuk bekerja dengan .NET.
 - Pengetahuan Dasar C#: Meskipun panduan ini mudah dipahami, pemahaman dasar tentang C# akan membuatnya lebih mudah diikuti.
 - Berkas PDF: Contoh di bawah ini mengasumsikan Anda memiliki berkas PDF dengan beberapa halaman. Jika Anda tidak memilikinya, buat atau unduh contoh PDF untuk digunakan.
 
- Selain itu, jika Anda baru memulai, Anda dapat mencoba Aspose.PDF dengan[lisensi sementara gratis](https://purchase.aspose.com/temporary-license/) sebelum memutuskan untuk[beli versi lengkapnya](https://purchase.aspose.com/buy).
+Selain itu, jika Anda baru memulai, Anda dapat mencoba Aspose.PDF dengan [lisensi sementara gratis](https://purchase.aspose.com/temporary-license/) sebelum memutuskan untuk [beli versi lengkapnya](https://purchase.aspose.com/buy).
 
 ## Mengimpor Ruang Nama
 
@@ -43,18 +45,18 @@ Setelah ini diimpor, mari masuk ke bagian utama tutorial.
 
 ## Langkah 1: Muat Dokumen PDF
 
- Hal pertama yang perlu kita lakukan adalah memuat file PDF yang ingin Anda ubah. Anda dapat menggunakan`Document` kelas dari namespace Aspose.PDF untuk membuka PDF Anda.
+Hal pertama yang perlu kita lakukan adalah memuat file PDF yang ingin Anda ubah. Anda dapat menggunakan `Document` kelas dari namespace Aspose.PDF untuk membuka PDF Anda.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Baris ini memuat PDF dari direktori yang Anda tentukan. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke file Anda.`"input.pdf"` adalah PDF yang ingin Anda ubah orientasinya.
+Baris ini memuat PDF dari direktori yang Anda tentukan. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke file Anda. `"input.pdf"` adalah PDF yang ingin Anda ubah orientasinya.
 
 ## Langkah 2: Ulangi Setiap Halaman
 
- Sekarang setelah dokumen dimuat, mari kita ulangi setiap halaman dalam PDF. Kita akan menggunakan`foreach` loop untuk menelusuri setiap halaman, sehingga memungkinkan kita menerapkan perubahan orientasi ke semuanya.
+Sekarang setelah dokumen dimuat, mari kita ulangi setiap halaman dalam PDF. Kita akan menggunakan `foreach` loop untuk menelusuri setiap halaman, sehingga memungkinkan kita menerapkan perubahan orientasi ke semuanya.
 
 ```csharp
 foreach (Page page in doc.Pages)
@@ -67,13 +69,13 @@ Perulangan ini akan mengulangi semua halaman dalam dokumen.
 
 ## Langkah 3: Dapatkan MediaBox Halaman
 
- Setiap halaman dalam PDF memiliki`MediaBox` yang menentukan batas halaman. Kita perlu mengaksesnya untuk menentukan orientasi saat ini dan mengubahnya.
+Setiap halaman dalam PDF memiliki `MediaBox` yang menentukan batas halaman. Kita perlu mengaksesnya untuk menentukan orientasi saat ini dan mengubahnya.
 
 ```csharp
 Aspose.Pdf.Rectangle r = page.MediaBox;
 ```
 
- Itu`MediaBox` memberi kita dimensi halaman, seperti lebar, tinggi, dan posisinya.
+Itu `MediaBox` memberi kita dimensi halaman, seperti lebar, tinggi, dan posisinya.
 
 ## Langkah 4: Tukar Lebar dan Tinggi
 
@@ -90,7 +92,7 @@ Kode ini menukar tinggi dan lebar dan memposisikan ulang sudut kiri bawah (`LLY`
 
 ## Langkah 5: Perbarui MediaBox dan CropBox
 
-Sekarang setelah kita memiliki tinggi dan lebar baru, mari terapkan perubahan ke halaman`MediaBox` Dan`CropBox` . Itu`CropBox` penting jika dokumen asli memiliki satu set, memastikan seluruh halaman ditampilkan dengan benar.
+Sekarang setelah kita memiliki tinggi dan lebar baru, mari terapkan perubahan ke halaman `MediaBox` Dan `CropBox`. Itu `CropBox` penting jika dokumen asli memiliki satu set, memastikan seluruh halaman ditampilkan dengan benar.
 
 ```csharp
 page.MediaBox = new Aspose.Pdf.Rectangle(newLLX, newLLY, newLLX + newWidth, newLLY + newHeight);
@@ -119,7 +121,7 @@ doc.Save(dataDir);
 System.Console.WriteLine("\nPage orientation changed successfully.\nFile saved at " + dataDir);
 ```
 
- Pastikan Anda memberikan nama file baru (dalam kasus ini,`ChangeOrientation_out.pdf`) untuk menyimpan output. Dengan cara ini, Anda tidak akan menimpa file asli.
+Pastikan Anda memberikan nama file baru (dalam kasus ini, `ChangeOrientation_out.pdf`) untuk menyimpan output. Dengan cara ini, Anda tidak akan menimpa file asli.
 
 ### Kesimpulan
 
@@ -130,20 +132,22 @@ Nah, itu dia! Mengubah orientasi halaman file PDF menggunakan Aspose.PDF untuk .
 ### Bisakah saya memutar halaman tertentu, bukan semua halaman dalam PDF?  
 Ya, Anda dapat memodifikasi loop untuk menargetkan halaman-halaman tertentu menggunakan indeksnya, alih-alih melakukan loop melalui semua halaman.
 
-###  Apakah yang`MediaBox`?  
- Itu`MediaBox` mendefinisikan ukuran dan bentuk halaman dalam berkas PDF. Di sinilah konten halaman ditempatkan.
+### Apakah yang `MediaBox`....  
+Itu `MediaBox` mendefinisikan ukuran dan bentuk halaman dalam berkas PDF. Di sinilah konten halaman ditempatkan.
 
 ### Apakah Aspose.PDF untuk .NET berfungsi dengan format file lain?  
 Ya, Aspose.PDF dapat menangani berbagai format file seperti HTML, XML, XPS, dan banyak lagi.
 
 ### Apakah ada versi gratis Aspose.PDF untuk .NET?  
- Ya, Anda bisa memulai dengan[uji coba gratis](https://releases.aspose.com/) atau meminta[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Ya, Anda bisa memulai dengan [uji coba gratis](https://releases.aspose.com/) atau meminta [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ### Bisakah saya membatalkan perubahan yang sudah disimpan?  
 Setelah Anda menyimpan dokumen, perubahannya bersifat permanen. Pastikan untuk mengerjakan salinan atau menyimpan cadangan berkas asli.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

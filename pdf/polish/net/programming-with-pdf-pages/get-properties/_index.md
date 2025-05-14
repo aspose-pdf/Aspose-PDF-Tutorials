@@ -1,14 +1,16 @@
 ---
-title: Pobierz właściwości PDF
-linktitle: Pobierz właściwości PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wydajnie wyodrębniać właściwości PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami kodu i najlepszymi praktykami.
-weight: 100
-url: /pl/net/programming-with-pdf-pages/get-properties/
+"description": "Dowiedz się, jak wydajnie wyodrębniać właściwości PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami kodu i najlepszymi praktykami."
+"linktitle": "Pobierz właściwości PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Pobierz właściwości PDF"
+"url": "/pl/net/programming-with-pdf-pages/get-properties/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz właściwości PDF
@@ -23,7 +25,7 @@ Zanim zaczniesz kodować, musisz się upewnić, że masz wszystkie niezbędne ko
 
 1. Środowisko .NET: Upewnij się, że masz działające środowisko .NET. Możesz użyć Visual Studio lub dowolnego innego odpowiedniego IDE.
    
-2.  Aspose.PDF dla .NET: Musisz mieć zainstalowany Aspose.PDF. Możesz pobrać bibliotekę z[Wydania PDF Aspose](https://releases.aspose.com/pdf/net/) strona.
+2. Aspose.PDF dla .NET: Musisz mieć zainstalowany Aspose.PDF. Możesz pobrać bibliotekę z [Wydania PDF Aspose](https://releases.aspose.com/pdf/net/) strona.
 
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie pomocna, ponieważ będziemy pisać kod w tym języku.
 
@@ -37,7 +39,7 @@ Gdy już przygotujesz narzędzia i plik PDF, oto jak możesz skonfigurować swó
 
 2. Dodaj odwołania: Dołącz zestaw Aspose.PDF. Możesz to zrobić za pomocą NuGet Package Manager lub dodając odwołanie bezpośrednio do biblioteki DLL.
 
-3.  Przygotuj plik PDF: Umieść przykładowy plik „GetProperties.pdf” w katalogu, do którego kod będzie miał łatwy dostęp, np.`"YOUR DOCUMENT DIRECTORY"`.
+3. Przygotuj plik PDF: Umieść przykładowy plik „GetProperties.pdf” w katalogu, do którego Twój kod będzie miał łatwy dostęp, np. `"YOUR DOCUMENT DIRECTORY"`.
 
 ## Importuj pakiety
 
@@ -66,14 +68,14 @@ Ten wiersz kodu zapewnia wskazanie miejsca, w którym Aspose może znaleźć pli
 
 ## Krok 2: Otwórz dokument PDF
 
- Następnie otworzymy dokument PDF za pomocą`Document` klasa z biblioteki Aspose.PDF. Jest to kluczowy krok, ponieważ ładuje plik PDF do pamięci.
+Następnie otworzymy dokument PDF za pomocą `Document` klasa z biblioteki Aspose.PDF. Jest to kluczowy krok, ponieważ ładuje plik PDF do pamięci.
 
 ```csharp
 // Otwórz dokument
 Document pdfDocument = new Document(dataDir + "GetProperties.pdf");
 ```
 
- Wykonując tę linię, tworzymy instancję`Document` Klasa reprezentująca nasz plik PDF, udostępniająca wszystkie jego właściwości.
+Wykonując tę linię, tworzymy instancję `Document` Klasa reprezentująca nasz plik PDF, udostępniająca wszystkie jego właściwości.
 
 ## Krok 3: Uzyskaj dostęp do kolekcji stron
 
@@ -84,7 +86,7 @@ Po otwarciu dokumentu musimy uzyskać dostęp do stron w tym dokumencie. Każdy 
 PageCollection pageCollection = pdfDocument.Pages;
 ```
 
- Myśleć`PageCollection` jako indeks ułatwiający nawigację po stronach dokumentu PDF.
+Myśleć `PageCollection` jako indeks ułatwiający nawigację po stronach dokumentu PDF.
 
 ## Krok 4: Uzyskaj konkretną stronę
 
@@ -95,7 +97,7 @@ Teraz, gdy mamy dostęp do naszych stron, czas na głębsze zbadanie. Pobierzemy
 Page pdfPage = pageCollection[1];
 ```
 
- Pamiętaj, że jest to indeksowanie zerowe. Tak więc, jeśli chcesz uzyskać dostęp do pierwszej strony, musisz ją zaindeksować jako`1`.
+Pamiętaj, że jest to indeksowanie zerowe. Tak więc, jeśli chcesz uzyskać dostęp do pierwszej strony, musisz ją zaindeksować jako `1`.
 
 ## Krok 5: Pobierz i wyświetl właściwości strony
 
@@ -129,7 +131,7 @@ Ten fragment kodu robi kilka potężnych rzeczy. Uzyskuje dostęp do każdej wł
 
 ## Wniosek
 
-I oto masz — kompletny przewodnik po tym, jak uzyskać właściwości PDF za pomocą Aspose.PDF dla .NET! Teraz masz wiedzę, aby bez wysiłku wyodrębnić istotne informacje z dokumentów PDF. Niezależnie od tego, czy chcesz analizować, raportować, czy po prostu rejestrować dane z plików PDF, ta solidna biblioteka jest niezawodnym sojusznikiem. Opanowując te kroki, jesteś na dobrej drodze do zostania mistrzem manipulacji PDF! Nie wahaj się odkrywać więcej funkcji i funkcjonalności, które Aspose.PDF ma do zaoferowania.
+oto masz — kompletny przewodnik po tym, jak uzyskać właściwości PDF za pomocą Aspose.PDF dla .NET! Teraz masz wiedzę, aby bez wysiłku wyodrębnić istotne informacje z dokumentów PDF. Niezależnie od tego, czy chcesz analizować, raportować, czy po prostu rejestrować dane z plików PDF, ta solidna biblioteka jest niezawodnym sojusznikiem. Opanowując te kroki, jesteś na dobrej drodze do zostania mistrzem manipulacji PDF! Nie wahaj się odkrywać więcej funkcji i funkcjonalności, które Aspose.PDF ma do zaoferowania.
 
 ## Najczęściej zadawane pytania
 
@@ -137,19 +139,21 @@ I oto masz — kompletny przewodnik po tym, jak uzyskać właściwości PDF za p
 Można go zainstalować za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać bezpośrednio ze strony internetowej Aspose.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?  
- Tak, Aspose oferuje bezpłatny okres próbny, który możesz uzyskać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatny okres próbny, który możesz uzyskać [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dokumentację dla Aspose.PDF?  
- Dokumentację można znaleźć pod adresem[Dokumentacja Aspose.pdf](https://reference.aspose.com/pdf/net/).
+Dokumentację można znaleźć pod adresem [Dokumentacja Aspose.pdf](https://reference.aspose.com/pdf/net/).
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?  
- Możesz odwiedzić forum Aspose, aby uzyskać pomoc i zadać pytania dotyczące swoich problemów[Tutaj](https://forum.aspose.com/c/pdf/10).
+Aby uzyskać pomoc, możesz odwiedzić forum Aspose, na którym możesz zadać pytania dotyczące swoich problemów [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Czy jest dostępna licencja tymczasowa?  
-Tak, możesz poprosić o tymczasową licencję na potrzeby oceny, odwiedzając stronę[ten link](https://purchase.aspose.com/temporary-license/).
+Tak, możesz poprosić o tymczasową licencję na potrzeby oceny, odwiedzając stronę [ten link](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

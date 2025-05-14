@@ -1,14 +1,16 @@
 ---
-title: Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan
-linktitle: Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menandatangani PDF dengan aman menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
-weight: 120
-url: /id/net/programming-with-security-and-signatures/sign-with-smart-card-using-signature-field/
+"description": "Pelajari cara menandatangani PDF dengan aman menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah."
+"linktitle": "Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan"
+"url": "/id/net/programming-with-security-and-signatures/sign-with-smart-card-using-signature-field/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan
@@ -19,9 +21,9 @@ Di dunia digital saat ini, pengamanan dokumen menjadi lebih penting dari sebelum
 
 ## Prasyarat
 
-Sebelum kita menyelami seluk-beluk proses penandatanganan, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini adalah daftar prasyarat:
+Sebelum kita menyelami seluk-beluk proses penandatanganan, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini daftar prasyaratnya:
 
-1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF di lingkungan .NET Anda. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF di lingkungan .NET Anda. Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/).
 
 2. Visual Studio: Anda memerlukan IDE untuk menulis dan menjalankan kode .NET. Visual Studio Community Edition adalah pilihan gratis yang bagus.
 
@@ -59,7 +61,7 @@ Yang Harus Dilakukan: Tentukan jalur ke direktori dokumen Anda.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Penjelasan: Ganti`"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Di sinilah kita akan membaca PDF kosong dan menyimpan dokumen yang ditandatangani.
+Penjelasan: Ganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya tempat file PDF Anda berada. Di sinilah kita akan membaca PDF kosong dan menyimpan dokumen yang ditandatangani.
 
 ### Langkah 2: Salin PDF Kosong
 
@@ -69,7 +71,7 @@ Yang Harus Dilakukan: Buat salinan PDF kosong Anda untuk digunakan.
 File.Copy(dataDir + "blank.pdf", dataDir + "externalSignature1.pdf", true);
 ```
 
- Penjelasan: Baris ini menyalin`blank.pdf`file ke file baru bernama`externalSignature1.pdf` . Itu`true` parameter memperbolehkan penimpaan jika berkas sudah ada.
+Penjelasan: Baris ini menyalin `blank.pdf` file ke file baru bernama `externalSignature1.pdf`. Itu `true` parameter memperbolehkan penimpaan jika berkas sudah ada.
 
 ### Langkah 3: Buka Dokumen PDF
 
@@ -85,7 +87,7 @@ using (FileStream fs = new FileStream(dataDir + "externalSignature1.pdf", FileMo
 }
 ```
 
- Penjelasan: Kami menggunakan`FileStream` untuk membuka file PDF kami.`Document` kelas dari Aspose.PDF memungkinkan kita untuk memanipulasi konten PDF.
+Penjelasan: Kami menggunakan `FileStream` untuk membuka file PDF kami. `Document` kelas dari Aspose.PDF memungkinkan kita untuk memanipulasi konten PDF.
 
 ### Langkah 4: Buat Kolom Tanda Tangan
 
@@ -95,7 +97,7 @@ Yang Harus Dilakukan: Tentukan bidang tanda tangan di PDF tempat tanda tangan ak
 SignatureField field1 = new SignatureField(doc.Pages[1], new Rectangle(100, 400, 10, 10));
 ```
 
- Penjelasan: Di sini kita membuat`SignatureField` pada halaman kedua (indeks halaman dimulai dari 1) PDF.`Rectangle` mendefinisikan posisi dan ukuran bidang tanda tangan.
+Penjelasan: Di sini kita membuat `SignatureField` pada halaman kedua (indeks halaman dimulai dari 1) PDF. `Rectangle` mendefinisikan posisi dan ukuran bidang tanda tangan.
 
 ### Langkah 5: Akses Penyimpanan Sertifikat Kartu Pintar
 
@@ -120,7 +122,7 @@ Penjelasan: Baris ini membuka dialog untuk Anda memilih sertifikat. Anda dapat m
 
 ### Langkah 7: Buat Tanda Tangan Eksternal
 
- Apa yang Harus Dilakukan: Buat contoh`ExternalSignature` menggunakan sertifikat yang dipilih.
+Apa yang Harus Dilakukan: Buat contoh `ExternalSignature` menggunakan sertifikat yang dipilih.
 
 ```csharp
 Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.ExternalSignature(sel[0])
@@ -131,7 +133,7 @@ Aspose.Pdf.Forms.ExternalSignature externalSignature = new Aspose.Pdf.Forms.Exte
 };
 ```
 
- Penjelasan: Kami menginisialisasi`ExternalSignature` dengan sertifikat yang dipilih. Anda juga dapat mengatur kewenangan, alasan penandatanganan, dan informasi kontak.
+Penjelasan: Kami menginisialisasi `ExternalSignature` dengan sertifikat yang dipilih. Anda juga dapat mengatur kewenangan, alasan penandatanganan, dan informasi kontak.
 
 ### Langkah 8: Tambahkan Bidang Tanda Tangan ke Dokumen
 
@@ -173,7 +175,7 @@ using (PdfFileSignature pdfSign = new PdfFileSignature(new Document(dataDir + "e
 }
 ```
 
-Penjelasan: Kami membuat sebuah instance dari`PdfFileSignature` untuk memverifikasi tanda tangan dalam dokumen. Jika tanda tangan tidak valid, pengecualian akan dikeluarkan.
+Penjelasan: Kami membuat sebuah instance dari `PdfFileSignature` untuk memverifikasi tanda tangan dalam dokumen. Jika tanda tangan tidak valid, pengecualian akan dikeluarkan.
 
 ## Kesimpulan
 
@@ -188,16 +190,18 @@ Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk me
 Ya, kartu pintar diperlukan untuk menandatangani PDF secara aman dengan sertifikat digital.
 
 ### Dapatkah saya menggunakan Aspose.PDF secara gratis?
- Aspose.PDF menawarkan uji coba gratis, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/).
+Aspose.PDF menawarkan uji coba gratis, yang dapat Anda unduh [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara memverifikasi PDF yang sudah ditandatangani?
- Anda dapat menggunakan`PdfFileSignature` kelas di Aspose.PDF untuk memverifikasi tanda tangan di dokumen PDF Anda.
+Anda dapat menggunakan `PdfFileSignature` kelas di Aspose.PDF untuk memverifikasi tanda tangan di dokumen PDF Anda.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.PDF?
- Anda dapat memeriksa[Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) untuk rincian dan contoh lebih lanjut.
+Anda dapat memeriksa [Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) untuk rincian dan contoh lebih lanjut.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

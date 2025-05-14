@@ -1,14 +1,16 @@
 ---
-title: Konwertuj pliki PDF na e-booki EPUB
-linktitle: Konwertuj pliki PDF na e-booki EPUB
-second_title: Aspose.PDF Java PDF Processing API
-description: Konwertuj pliki PDF do e-booków EPUB bez wysiłku dzięki Aspose.PDF dla Java. Poznaj krok po kroku konwersję PDF do EPUB i FAQ.
-weight: 15
-url: /pl/java/pdf-conversion-transformation/convert-pdfs-to-epub-ebooks/
+"description": "Konwertuj pliki PDF do e-booków EPUB bez wysiłku dzięki Aspose.PDF dla Java. Poznaj krok po kroku konwersję PDF do EPUB i FAQ."
+"linktitle": "Konwertuj pliki PDF na e-booki EPUB"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Konwertuj pliki PDF na e-booki EPUB"
+"url": "/pl/java/pdf-conversion-transformation/convert-pdfs-to-epub-ebooks/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj pliki PDF na e-booki EPUB
@@ -30,7 +32,7 @@ Przejdźmy teraz do implementacji.
 
 ## Konfigurowanie środowiska programistycznego
 
- Aby rozpocząć, upewnij się, że masz skonfigurowane środowisko programistyczne Java w swoim systemie. Będziesz również potrzebować pliku Aspose.PDF dla Java, który możesz uzyskać ze strony[Tutaj](https://releases.aspose.com/pdf/java/).
+Aby rozpocząć, upewnij się, że masz skonfigurowane środowisko programistyczne Java w swoim systemie. Będziesz również potrzebować pliku Aspose.PDF dla Java, który możesz uzyskać ze strony [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Dodawanie Aspose.PDF dla Java do projektu
 
@@ -109,9 +111,11 @@ Tak, możesz konwertować partiami wiele plików PDF do formatu EPUB, przegląda
 ### Czy dla Aspose.PDF dla Java dostępna jest pomoc techniczna?
 
 Tak, Aspose zapewnia doskonałe wsparcie techniczne. Możesz skontaktować się z ich zespołem wsparcia, jeśli napotkasz jakiekolwiek problemy lub masz pytania dotyczące biblioteki.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

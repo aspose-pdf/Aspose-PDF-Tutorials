@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Teks Hyperlink Dalam File PDF
-linktitle: Dapatkan Teks Hyperlink Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak teks hyperlink dari file PDF dengan mudah menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah dan kode disertakan.
-weight: 70
-url: /id/net/programming-with-links-and-actions/get-hyperlink-text/
+"description": "Pelajari cara mengekstrak teks hyperlink dari file PDF dengan mudah menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah dan kode disertakan."
+"linktitle": "Dapatkan Teks Hyperlink Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Dapatkan Teks Hyperlink Dalam File PDF"
+"url": "/id/net/programming-with-links-and-actions/get-hyperlink-text/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Teks Hyperlink Dalam File PDF
@@ -22,8 +24,8 @@ Saat bekerja dengan file PDF, mengekstrak hyperlink bisa menjadi tugas yang bera
 Sebelum kita memulai perjalanan untuk mengekstrak teks hyperlink dari PDF, ada beberapa hal penting yang Anda perlukan untuk memulai:
 
 1. Pengetahuan Dasar C#: Sangat membantu jika Anda memahami pemrograman C# karena kita akan menulis beberapa kode.
-2. Visual Studio Terpasang: Pastikan Anda telah memasang Visual Studio di komputer Anda. Ini akan menjadi tempat bermain untuk menulis dan menguji kode.
-3.  Aspose.PDF untuk .NET: Anda harus memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/pdf/net/)atau mulai dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
+2. Visual Studio Terpasang: Pastikan Anda telah memasang Visual Studio di komputer Anda. Ini akan menjadi tempat bermain kita untuk menulis dan menguji kode.
+3. Aspose.PDF untuk .NET: Anda harus memiliki pustaka Aspose.PDF. Anda dapat mengunduhnya dari [lokasi](https://releases.aspose.com/pdf/net/) atau mulai dengan uji coba gratis yang tersedia [Di Sini](https://releases.aspose.com/).
 
 ## Paket Impor
 
@@ -37,7 +39,7 @@ Mulailah dengan membuka Visual Studio dan membuat proyek Aplikasi Konsol C# baru
 
 1. Klik kanan pada proyek Anda di Solution Explorer.
 2. Pilih "Kelola Paket NuGet."
-3.  Pencarian untuk`Aspose.PDF` dan menginstalnya.
+3. Pencarian untuk `Aspose.PDF` dan menginstalnya.
 4. Ini akan memungkinkan Anda untuk mengakses semua kelas dan metode menakjubkan yang disediakan oleh Aspose.PDF.
 
 ```csharp
@@ -59,11 +61,11 @@ Dalam kode kita, pertama-tama kita perlu menentukan jalur tempat dokumen PDF kit
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya dari berkas PDF Anda. Misalnya, mungkin terlihat seperti ini`"C:\\Documents\\"`.
+Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya dari berkas PDF Anda. Misalnya, mungkin terlihat seperti ini `"C:\\Documents\\"`.
 
 ## Langkah 2: Muat Dokumen PDF
 
- Langkah selanjutnya adalah memuat berkas PDF sehingga kita dapat mulai memprosesnya. Kita akan membuat contoh`Document` kelas dan meneruskan jalur berkas kita ke sana.
+Langkah selanjutnya adalah memuat berkas PDF sehingga kita dapat mulai memprosesnya. Kita akan membuat contoh `Document` kelas dan meneruskan jalur berkas kita ke sana.
 
 ```csharp
 Document document = new Document(dataDir + "input.pdf");
@@ -83,7 +85,7 @@ foreach (Page page in document.Pages)
 }
 ```
 
- Dalam loop ini, kita akan mendefinisikan sebuah metode yang disebut`ShowLinkAnnotations` yang akan menangani ekstraksi hyperlink. 
+Dalam loop ini, kita akan mendefinisikan sebuah metode yang disebut `ShowLinkAnnotations` yang akan menangani ekstraksi hyperlink. 
 
 ## Langkah 4: Tentukan Metode ShowLinkAnnotations
 
@@ -103,8 +105,8 @@ private static void ShowLinkAnnotations(Page page)
 }
 ```
 
--  Periksa apakah Anotasi adalah Tautan: Di sini, kami memeriksa apakah anotasi pada halaman adalah`LinkAnnotation`Jika ya, kami melanjutkan untuk mengekstrak judul dan URI-nya.
--  Menampilkan Teks Hyperlink: Menggunakan`Console.WriteLine`, kami mencetak teks tautan dan URI yang sesuai.
+- Periksa apakah Anotasi adalah Tautan: Di sini, kami memeriksa apakah anotasi pada halaman adalah `LinkAnnotation`Jika ya, kami melanjutkan untuk mengekstrak judul dan URI-nya.
+- Menampilkan Teks Hyperlink: Menggunakan `Console.WriteLine`, kami mencetak teks tautan dan URI yang sesuai.
 
 ## Langkah 5: Penanganan Pengecualian
 
@@ -133,7 +135,7 @@ Selamat! Anda telah berhasil mempelajari cara mengekstrak teks hyperlink dari fi
 Aspose.PDF untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Apakah ada versi gratis yang tersedia?
- Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh versi uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Jenis hyperlink apa yang dapat saya ekstrak?
 Anda dapat mengekstrak hyperlink apa pun yang ada dalam PDF, baik itu URL web biasa atau tautan referensi silang dalam dokumen.
@@ -142,10 +144,12 @@ Anda dapat mengekstrak hyperlink apa pun yang ada dalam PDF, baik itu URL web bi
 Tentu saja! Aspose.PDF menyediakan fungsionalitas untuk mengekstrak tidak hanya hyperlink tetapi juga gambar dan teks dari PDF.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya Aspose.PDF?
- Untuk dokumentasi lebih rinci, kunjungi[Dokumentasi PDF Aspose](https://reference.aspose.com/pdf/net/).
+Untuk dokumentasi lebih rinci, kunjungi [Dokumentasi PDF Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

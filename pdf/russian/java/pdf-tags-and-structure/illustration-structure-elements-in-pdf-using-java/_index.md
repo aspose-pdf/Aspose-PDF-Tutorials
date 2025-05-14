@@ -1,14 +1,16 @@
 ---
-title: Элементы структуры иллюстрации в PDF с использованием Java
-linktitle: Элементы структуры иллюстрации в PDF с использованием Java
-second_title: API обработки Java PDF Aspose.PDF
-description: Узнайте, как создавать иллюстрации и структурные элементы в файлах PDF с помощью Java и Aspose.PDF.
-weight: 14
-url: /ru/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/
+"description": "Узнайте, как создавать иллюстрации и структурные элементы в файлах PDF с помощью Java и Aspose.PDF."
+"linktitle": "Элементы структуры иллюстрации в PDF с использованием Java"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "Элементы структуры иллюстрации в PDF с использованием Java"
+"url": "/ru/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Элементы структуры иллюстрации в PDF с использованием Java
@@ -28,14 +30,14 @@ url: /ru/java/pdf-tags-and-structure/illustration-structure-elements-in-pdf-usin
 
 - Среда разработки Java: убедитесь, что в вашей системе установлена Java.
 
--  Aspose.PDF для Java: Загрузите и установите библиотеку Aspose.PDF для Java с сайта[здесь](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF для Java: Загрузите и установите библиотеку Aspose.PDF для Java с сайта [здесь](https://releases.aspose.com/pdf/java/).
 
 ## Настройка вашего проекта
 
 Теперь давайте настроим проект Java, чтобы начать. Создайте новый проект Java в вашей любимой IDE и добавьте библиотеку Aspose.PDF в classpath вашего проекта.
 
 ```java
-//Добавьте библиотеку Aspose.PDF в свой проект Java
+// Добавьте библиотеку Aspose.PDF в свой проект Java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.Page;
 import com.aspose.pdf.Rectangle;
@@ -82,7 +84,7 @@ Document pdfDocument = new Document();
 // Добавить страницу в документ
 Page page = pdfDocument.getPages().add();
 
-//Загрузить изображение
+// Загрузить изображение
 com.aspose.pdf.Image image = new com.aspose.pdf.Image();
 image.setFile("logo.png"); // Замените на путь к файлу вашего изображения.
 
@@ -102,7 +104,7 @@ pdfDocument.save("Illustration.pdf");
 
 Поздравляем! Вы узнали, как создавать иллюстрации и структурные элементы в файлах PDF с помощью Java и Aspose.PDF. Теперь вы можете улучшить свои документы PDF с помощью текста, изображений и многого другого.
 
- Если у вас есть какие-либо вопросы или вам нужна дополнительная помощь, не стесняйтесь изучить[Документация Aspose.PDF для Java](https://reference.aspose.com/pdf/java/) для более подробной информации.
+Если у вас есть какие-либо вопросы или вам нужна дополнительная помощь, не стесняйтесь изучить [Документация Aspose.PDF для Java](https://reference.aspose.com/pdf/java/) для более подробной информации.
 
 ## Часто задаваемые вопросы
 
@@ -110,7 +112,7 @@ pdfDocument.save("Illustration.pdf");
    Aspose.PDF для Java — это надежная библиотека для программной работы с PDF-документами в приложениях Java.
 
 ### Можно ли добавить несколько иллюстраций в один PDF-документ?
-   Конечно! Вы можете добавить в PDF-документ столько иллюстраций, сколько необходимо.
+   Конечно! Вы можете добавить столько иллюстраций в PDF-документ, сколько необходимо.
 
 ### Как изменить стиль шрифта текста в PDF-файле?
    Вы можете изменять свойства текста, такие как размер и стиль шрифта, с помощью TextFragment в Aspose.PDF.
@@ -122,9 +124,11 @@ pdfDocument.save("Illustration.pdf");
    Ознакомьтесь с документацией Aspose.PDF для Java API, где вы найдете множество примеров и ресурсов.
    
 Теперь вы готовы создавать увлекательные и информативные PDF-документы с помощью Java и Aspose.PDF. Удачного кодирования!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

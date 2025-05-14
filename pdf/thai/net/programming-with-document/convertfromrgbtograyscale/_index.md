@@ -1,14 +1,16 @@
 ---
-title: แปลงจาก RGB เป็น Grayscale
-linktitle: แปลงจาก RGB เป็น Grayscale
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการแปลง PDF จาก RGB เป็นสีเทาโดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อลดความซับซ้อนในการแปลง PDF เป็นสีและประหยัดพื้นที่ไฟล์
-weight: 60
-url: /th/net/programming-with-document/convertfromrgbtograyscale/
+"description": "เรียนรู้วิธีการแปลง PDF จาก RGB เป็นสีเทาโดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อลดความซับซ้อนในการแปลง PDF เป็นสีและประหยัดพื้นที่ไฟล์"
+"linktitle": "แปลงจาก RGB เป็น Grayscale"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "แปลงจาก RGB เป็น Grayscale"
+"url": "/th/net/programming-with-document/convertfromrgbtograyscale/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงจาก RGB เป็น Grayscale
@@ -21,8 +23,8 @@ url: /th/net/programming-with-document/convertfromrgbtograyscale/
 
 ก่อนที่เราจะเริ่มต้น คุณจะต้องมีบางสิ่งบางอย่าง:
 
-1.  Aspose.PDF สำหรับไลบรารี .NET: หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลดเวอร์ชันล่าสุดได้จาก[ที่นี่](https://releases.aspose.com/pdf/net/).
-2.  ใบอนุญาตที่ถูกต้อง: คุณสามารถซื้อได้จาก[ลิงค์นี้](https://purchase.aspose.com/buy) หรือลอง[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+1. Aspose.PDF สำหรับไลบรารี .NET: หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลดเวอร์ชันล่าสุดได้จาก [ที่นี่](https://releases-aspose.com/pdf/net/).
+2. ใบอนุญาตที่ถูกต้อง: คุณสามารถซื้อได้จาก [ลิงค์นี้](https://purchase.aspose.com/buy) หรือลอง [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 3. สภาพแวดล้อมการพัฒนา: คุณจะต้องมีสภาพแวดล้อมการทำงานเช่น Visual Studio เพื่อเขียนและดำเนินการโค้ด C#
 
 ## แพ็คเกจนำเข้า
@@ -41,7 +43,7 @@ using Aspose.Pdf;
 - ติดตั้ง Aspose.PDF สำหรับ .NET: ใช้ตัวจัดการแพ็กเกจ NuGet เพื่อติดตั้งเวอร์ชันล่าสุดของไลบรารี Aspose.PDF สำหรับ .NET ไลบรารีนี้ให้ฟังก์ชันทั้งหมดที่คุณต้องการสำหรับการจัดการ PDF
 
 1. เปิด Visual Studio
-2.  ไปที่`Tools` -`NuGet Package Manager` -`Manage NuGet Packages for Solution`.
+2. ไปที่ `Tools` - `NuGet Package Manager` - `Manage NuGet Packages for Solution`-
 3. ค้นหา Aspose.PDF สำหรับ .NET และติดตั้ง
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร PDF
@@ -56,12 +58,12 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "input.pdf");
 ```
 
--  การ`dataDir` จุดตัวแปรไปยังไดเร็กทอรีที่จัดเก็บไฟล์ PDF ของคุณ
--  การ`Document`วัตถุจากไลบรารี Aspose.PDF ใช้เพื่อโหลดไฟล์ PDF ของคุณ
+- การ `dataDir` จุดตัวแปรไปยังไดเร็กทอรีที่จัดเก็บไฟล์ PDF ของคุณ
+- การ `Document` วัตถุจากไลบรารี Aspose.PDF ใช้เพื่อโหลดไฟล์ PDF ของคุณ
 
 ## ขั้นตอนที่ 3: กำหนดกลยุทธ์การแปลงสีเทา
 
- ต่อไป คุณจะต้องกำหนดกลยุทธ์ในการแปลงสี RGB ใน PDF ของคุณเป็นเฉดสีเทา ในตัวอย่างนี้ เราจะใช้`RgbToDeviceGrayConversionStrategy` จาก Aspose.PDF ซึ่งช่วยลดความซับซ้อนของกระบวนการทั้งหมด
+ต่อไป คุณจะต้องกำหนดกลยุทธ์ในการแปลงสี RGB ใน PDF ของคุณเป็นเฉดสีเทา ในตัวอย่างนี้ เราจะใช้ `RgbToDeviceGrayConversionStrategy` จาก Aspose.PDF ซึ่งช่วยลดความซับซ้อนของกระบวนการทั้งหมด
 
 ```csharp
 // สร้างกลยุทธ์การแปลงเป็นโทนสีเทา
@@ -86,8 +88,8 @@ for (int idxPage = 1; idxPage <= document.Pages.Count; idxPage++)
 }
 ```
 
--  การ`for` ลูปจะผ่านทุกหน้าในเอกสาร
--  สำหรับแต่ละหน้าเราใช้`Convert()` วิธีการของกลยุทธ์ที่จะเปลี่ยนสี RGB ทั้งหมดให้เป็นเฉดสีเทา
+- การ `for` ลูปจะผ่านทุกหน้าในเอกสาร
+- สำหรับแต่ละหน้าเราใช้ `Convert()` วิธีการของกลยุทธ์ที่จะเปลี่ยนสี RGB ทั้งหมดให้เป็นเฉดสีเทา
 
 ## ขั้นตอนที่ 5: บันทึก PDF แบบโทนสีเทา
 
@@ -98,7 +100,7 @@ for (int idxPage = 1; idxPage <= document.Pages.Count; idxPage++)
 document.Save(dataDir + "Test-gray_out.pdf");
 ```
 
--  การ`Save()` วิธีการนี้จะบันทึกไฟล์ PDF ที่แปลงแล้วไปยังตำแหน่งที่คุณระบุ อย่าลืมตั้งชื่อให้ไม่ซ้ำเพื่อหลีกเลี่ยงการเขียนทับเอกสารต้นฉบับ
+- การ `Save()` วิธีการนี้จะบันทึกไฟล์ PDF ที่แปลงแล้วไปยังตำแหน่งที่คุณระบุ อย่าลืมตั้งชื่อให้ไม่ซ้ำเพื่อหลีกเลี่ยงการเขียนทับเอกสารต้นฉบับ
 
 ## บทสรุป
 
@@ -112,7 +114,7 @@ document.Save(dataDir + "Test-gray_out.pdf");
 
 ### การแปลงเป็นเฉดสีเทาจะทำให้ขนาดไฟล์ลดลงหรือไม่
 
-ใช่ การแปลงเป็นเฉดสีเทาสามารถลดขนาดไฟล์ได้ โดยเฉพาะหาก PDF ต้นฉบับมีรูปภาพความละเอียดสูงและสีสันสดใส
+ใช่ การแปลงเป็นเฉดสีเทาสามารถลดขนาดไฟล์ได้ โดยเฉพาะอย่างยิ่งหากไฟล์ PDF ต้นฉบับมีรูปภาพที่มีความละเอียดสูงและสีสันสดใส
 
 ### ฉันสามารถใช้การแปลงโทนสีเทาเฉพาะกับหน้าเฉพาะได้หรือไม่
 
@@ -120,14 +122,16 @@ document.Save(dataDir + "Test-gray_out.pdf");
 
 ### Aspose.PDF สำหรับ .NET ใช้ได้ฟรีหรือไม่?
 
- Aspose.PDF สำหรับ .NET ต้องมีใบอนุญาต คุณสามารถขอรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือลอง[ทดลองใช้งานฟรี](https://releases.aspose.com/) เวอร์ชัน
+Aspose.PDF สำหรับ .NET ต้องมีใบอนุญาต คุณสามารถขอรับได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือลอง [ทดลองใช้งานฟรี](https://releases.aspose.com/) เวอร์ชัน
 
 ### การแปลงไฟล์ PDF เป็นสีเทามีข้อดีอะไรบ้าง?
 
 การแปลงไฟล์ PDF เป็นเฉดสีเทาช่วยลดการใช้หมึกในการพิมพ์ ลดขนาดไฟล์ และสร้างรูปลักษณ์ที่เป็นมืออาชีพและเรียบง่าย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

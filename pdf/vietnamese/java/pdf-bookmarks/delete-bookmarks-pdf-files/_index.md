@@ -1,14 +1,16 @@
 ---
-title: Xóa dấu trang khỏi tệp PDF
-linktitle: Xóa dấu trang khỏi tệp PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách xóa dấu trang khỏi tệp PDF dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước và mã mẫu của chúng tôi giúp bạn thực hiện dễ dàng.
-weight: 13
-url: /vi/java/pdf-bookmarks/delete-bookmarks-pdf-files/
+"description": "Tìm hiểu cách xóa dấu trang khỏi tệp PDF dễ dàng bằng Aspose.PDF cho Java. Hướng dẫn từng bước và mã mẫu của chúng tôi giúp bạn thực hiện dễ dàng."
+"linktitle": "Xóa dấu trang khỏi tệp PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Xóa dấu trang khỏi tệp PDF"
+"url": "/vi/java/pdf-bookmarks/delete-bookmarks-pdf-files/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa dấu trang khỏi tệp PDF
@@ -30,7 +32,7 @@ Có thể có một số lý do khiến bạn muốn xóa dấu trang khỏi t�
 
 Trước khi bắt đầu, bạn cần thiết lập Aspose.PDF cho Java trong dự án Java của bạn. Thực hiện theo các bước sau để bắt đầu:
 
-1.  Tải xuống Aspose.PDF cho Java: Bạn có thể tải xuống thư viện từ trang web Aspose. Sử dụng liên kết sau:[Tải xuống Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/).
+1. Tải xuống Aspose.PDF cho Java: Bạn có thể tải xuống thư viện từ trang web Aspose. Sử dụng liên kết sau: [Tải xuống Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/).
 
 2. Thêm JAR vào Dự án của bạn: Bao gồm tệp JAR đã tải xuống vào classpath của dự án Java.
 
@@ -73,7 +75,7 @@ Bây giờ, chúng ta hãy bắt đầu quá trình xóa dấu trang khỏi tệ
 
 1. Lặp lại các dấu trang bằng vòng lặp.
 2. Xác định dấu trang bạn muốn xóa dựa trên tiêu chí của bạn.
-3.  Xóa dấu trang bằng cách sử dụng`delete` phương pháp.
+3. Xóa dấu trang bằng cách sử dụng `delete` phương pháp.
 
 Sau đây là đoạn mã mẫu để giúp bạn bắt đầu:
 
@@ -139,7 +141,7 @@ Trong bài viết này, chúng tôi đã khám phá cách xóa dấu trang khỏ
 
 ### Tôi có thể xóa dấu trang cụ thể dựa trên tiêu chí không?
 
- Có, bạn có thể xóa các dấu trang cụ thể dựa trên tiêu chí của bạn. Lặp lại qua các dấu trang, áp dụng tiêu chí của bạn và sử dụng`delete` phương pháp để loại bỏ chúng.
+Có, bạn có thể xóa các dấu trang cụ thể dựa trên tiêu chí của bạn. Lặp lại các dấu trang, áp dụng tiêu chí của bạn và sử dụng `delete` phương pháp để loại bỏ chúng.
 
 ### Việc xóa dấu trang có ảnh hưởng tới nội dung của tệp PDF không?
 
@@ -151,10 +153,12 @@ Aspose.PDF for Java là một thư viện thương mại và có thể yêu cầ
 
 ### Tôi có thể tìm thêm tài liệu và tài nguyên về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện cho Aspose.PDF cho Java tại liên kết tài liệu Aspose:[Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện cho Aspose.PDF dành cho Java tại liên kết tài liệu Aspose: [Tài liệu Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

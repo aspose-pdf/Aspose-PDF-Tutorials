@@ -8,7 +8,9 @@ url: /java/pdf-form-fields/control-image-quality-when-adding-image-stamp-in-pdf-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Control Image Quality when Adding Image Stamp in PDF using Java
@@ -104,6 +106,7 @@ You can refer to the Aspose.PDF for Java documentation [here](https://reference.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

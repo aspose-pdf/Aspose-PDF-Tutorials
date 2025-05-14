@@ -1,36 +1,38 @@
 ---
-title: Dodaj HTML za pomocą DOM i nadpisywania PDF
-linktitle: Dodaj HTML za pomocą DOM i nadpisz
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać zawartość HTML do pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji do ostatecznego zapisu.
-weight: 50
-url: /pl/net/programming-with-text/add-html-using-dom-and-overwrite/
+"description": "Dowiedz się, jak dodawać zawartość HTML do pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji do ostatecznego zapisu."
+"linktitle": "Dodaj HTML za pomocą DOM i nadpisz"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj HTML za pomocą DOM i nadpisywania PDF"
+"url": "/pl/net/programming-with-text/add-html-using-dom-and-overwrite/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj HTML za pomocą DOM i nadpisywania PDF
 
 ## Wstęp
 
-Zanurzając się w fascynujący świat manipulacji PDF z Aspose.PDF dla .NET, prawdopodobnie zastanawiasz się, jak bezproblemowo zintegrować HTML z dokumentami PDF. Niezależnie od tego, czy chcesz generować raporty, dodawać dynamiczną zawartość, czy po prostu upiększyć swoje pliki PDF, Aspose.PDF oferuje solidne narzędzia, aby osiągnąć dokładnie to. W tym przewodniku przyjrzymy się, jak dodawać zawartość HTML do pliku PDF przy użyciu jego modelu DOM (Document Object Model) i jak nadpisywać istniejącą zawartość. Więc weź filiżankę kawy i zacznijmy tę ekscytującą podróż!
+Zanurzając się w fascynujący świat manipulacji PDF z Aspose.PDF dla .NET, prawdopodobnie zastanawiasz się, jak bezproblemowo zintegrować HTML z dokumentami PDF. Niezależnie od tego, czy chcesz generować raporty, dodawać dynamiczną zawartość, czy po prostu upiększać pliki PDF, Aspose.PDF oferuje solidne narzędzia, aby osiągnąć dokładnie to. W tym przewodniku przyjrzymy się, jak dodawać zawartość HTML do pliku PDF przy użyciu jego modelu DOM (Document Object Model) i jak nadpisywać istniejącą zawartość. Więc weź filiżankę kawy i zacznijmy tę ekscytującą podróż!
 
 ## Wymagania wstępne
 
 Zanim wyruszymy na tę przygodę, musisz się upewnić, że wszystko jest poprawnie skonfigurowane, aby używać Aspose.PDF dla .NET. Oto, czego potrzebujesz:
 
--  Visual Studio: Upewnij się, że masz zainstalowaną wersję Visual Studio. Jeśli nie, możesz pobrać kopię[Tutaj](https://visualstudio.microsoft.com/).
--  Aspose.PDF dla biblioteki .NET: Musisz pobrać i odwołać się do biblioteki w swoim projekcie. Najnowszą wersję znajdziesz[Tutaj](https://releases.aspose.com/pdf/net/).
+- Visual Studio: Upewnij się, że masz zainstalowaną wersję Visual Studio. Jeśli nie, możesz pobrać kopię [Tutaj](https://visualstudio.microsoft.com/).
+- Aspose.PDF dla biblioteki .NET: Musisz pobrać i odwołać się do biblioteki w swoim projekcie. Najnowszą wersję znajdziesz [Tutaj](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Upewnij się, że Twój projekt jest oparty na zgodnej wersji .NET Framework. Sprawdź dokumentację Aspose, aby uzyskać najnowsze szczegóły dotyczące zgodności.
 - Podstawowa znajomość języka C#: Powinieneś znać podstawowe koncepcje programowania w języku C#, aby móc z łatwością nadążać za programem.
 
-Po spełnieniu tych wymagań wstępnych możesz rozpocząć przygodę z kodowaniem!
+Mając te wymagania za sobą, możesz rozpocząć przygodę z kodowaniem!
 
 ## Importuj pakiety
 
-Po pierwsze, musimy wprowadzić niezbędne przestrzenie nazw, aby usprawnić nasz kod. Oto, jak to zrobić:
+Po pierwsze, musimy wprowadzić niezbędne przestrzenie nazw, aby usprawnić nasz kod. Oto jak to zrobić:
 
 ```csharp
 using Aspose.Pdf.Text;
@@ -51,11 +53,11 @@ Na początek zdefiniujmy ścieżkę do katalogu dokumentów, w którym będą si
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Po prostu zamień`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką na twoim komputerze. To pomoże ci zachować wszystko w porządku.
+Po prostu zamień `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką na twoim komputerze. To pomoże ci zachować wszystko w porządku.
 
 ## Krok 2: Utwórz obiekt dokumentu
 
- Następnie musimy utworzyć instancję`Document`klasa. Pomyśl o tym jak o otwarciu pustego płótna, na którym stworzymy nasze arcydzieło w formacie PDF.
+Następnie musimy utworzyć instancję `Document` klasa. Pomyśl o tym jak o otwarciu pustego płótna, na którym stworzymy nasze arcydzieło w formacie PDF.
 
 ```csharp
 // Utwórz obiekt dokumentu
@@ -84,14 +86,14 @@ Teraz przechodzimy do zabawnej części – tworzenia treści HTML, którą chce
 HtmlFragment title = new HtmlFragment("<p style='font-family: Verdana'><b><i>Table contains text</i></b></p>");
 ```
 
- Ta linia ustanawia`HtmlFragment` – schludny mały pakiet zawierający nasz kod HTML, w tym style dla rodziny czcionek. 
+Ta linia ustanawia `HtmlFragment` – schludny mały pakiet zawierający nasz kod HTML, w tym style dla rodziny czcionek. 
 
 ## Krok 5: Dostosowywanie atrybutów tekstu
 
 Czym jest fragment tekstu bez odpowiedniej estetyki, prawda? Ustawmy styl i rozmiar czcionki, aby nasz tytuł wyróżniał się w pliku PDF.
 
 ```csharp
-//Rodzina czcionek „Verdana” zostanie zresetowana do „Arial”
+// Rodzina czcionek „Verdana” zostanie zresetowana do „Arial”
 title.TextState = new TextState("Arial");
 title.TextState.FontSize = 20;
 ```
@@ -133,7 +135,7 @@ dataDir = dataDir + "AddHTMLUsingDOMAndOverwrite_out.pdf";
 doc.Save(dataDir);
 ```
 
-Dodając nazwę pliku wyjściowego do`dataDir`, jesteśmy gotowi zapisać dokument. Masz teraz plik PDF z dodaną zawartością HTML!
+Poprzez dołączenie nazwy pliku wyjściowego do `dataDir`, jesteśmy gotowi zapisać dokument. Masz teraz plik PDF z dodaną zawartością HTML!
 
 ## Wniosek
 
@@ -148,16 +150,18 @@ Aspose.PDF dla platformy .NET to zaawansowana biblioteka do tworzenia i edytowan
 Tak, Aspose.PDF pozwala na łatwe wstawianie obrazów wraz z tekstem i zawartością HTML.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.PDF?
- Oczywiście! Możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com).
+Oczywiście! Możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com).
 
 ### Czy Aspose.PDF obsługuje różne języki programowania?
-Tak, Aspose udostępnia zestawy SDK dla .NET, Java, C++i wiele więcej!
+Tak, Aspose udostępnia zestawy SDK dla platform .NET, Java, C++ i innych!
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
- Możesz odwiedzić forum wsparcia Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz odwiedzić forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

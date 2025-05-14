@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/adding-javascript-using-dom-in-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding JavaScript using DOM in PDF
@@ -124,9 +126,11 @@ JavaScript support in PDFs may have some limitations depending on the PDF viewer
 ### Where can I find more advanced JavaScript examples for PDFs?
 
 You can explore the Aspose.PDF for Java documentation for advanced examples and use cases related to JavaScript in PDFs.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

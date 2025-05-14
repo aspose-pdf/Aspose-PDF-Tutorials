@@ -8,7 +8,9 @@ url: /net/programming-with-images/large-cgm-image-to-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Large CGM Image to PDF
@@ -124,6 +126,7 @@ Yes, you can obtain a [temporary license](https://purchase.aspose.com/temporary-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

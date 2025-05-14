@@ -1,14 +1,16 @@
 ---
-title: บุ๊คมาร์ก PDF
-linktitle: บุ๊คมาร์ก PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้การสร้างบุ๊กมาร์ก PDF แบบโต้ตอบด้วย Aspose.PDF สำหรับ Java ยกระดับการนำทางเอกสารและประสบการณ์ของผู้ใช้
-weight: 12
-url: /th/java/pdf-bookmarks/
+"description": "เรียนรู้การสร้างบุ๊กมาร์ก PDF แบบโต้ตอบด้วย Aspose.PDF สำหรับ Java ยกระดับการนำทางเอกสารและประสบการณ์ของผู้ใช้"
+"linktitle": "บุ๊คมาร์ก PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "บุ๊คมาร์ก PDF"
+"url": "/th/java/pdf-bookmarks/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # บุ๊คมาร์ก PDF
@@ -36,11 +38,13 @@ url: /th/java/pdf-bookmarks/
 เรียนรู้วิธีดูบุ๊กมาร์กที่ขยายแล้วในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ Java ปรับปรุงการนำทางเอกสารด้วยคำแนะนำทีละขั้นตอน
 ### [ดึงบุ๊คมาร์กจากเอกสาร PDF](./retrieve-bookmarks-pdf-documents/)
 เรียนรู้วิธีเรียกค้นบุ๊กมาร์ก PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ Java ในคู่มือที่ครอบคลุมนี้
-### [อัปเดตบุ๊กมาร์กใน PDF](./update-bookmarks-pdfs/)
+### [อัปเดตบุ๊กมาร์กในไฟล์ PDF](./update-bookmarks-pdfs/)
 เรียนรู้วิธีอัปเดตบุ๊กมาร์ก PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนของเราจะทำให้กระบวนการนี้ง่ายขึ้น
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-text/embed-standard-type-1fonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Embed Standard Type 1Fonts In PDF File
@@ -135,6 +137,7 @@ You can find support for Aspose products at their [support forum](https://forum.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

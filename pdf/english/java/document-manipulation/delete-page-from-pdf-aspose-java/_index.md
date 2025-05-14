@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Delete a Page from PDF Using Aspose.PDF for Java
 
@@ -151,7 +153,11 @@ Explore additional features like merging, splitting, or encrypting PDF files wit
 - **Temporary License**: [Apply for Temporary License](https://purchase.aspose.com/temporary-license/)
 
 Dive deeper into PDF manipulation with Aspose.PDF and enhance your applications today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ค้นหาและรับหน้าข้อความในไฟล์ PDF
-linktitle: ค้นหาและรับหน้าข้อความในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีค้นหาและรับข้อความจากหน้าเฉพาะในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET
-weight: 430
-url: /th/net/programming-with-text/search-and-get-text-page/
+"description": "เรียนรู้วิธีค้นหาและรับข้อความจากหน้าเฉพาะในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET"
+"linktitle": "ค้นหาและรับหน้าข้อความในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ค้นหาและรับหน้าข้อความในไฟล์ PDF"
+"url": "/th/net/programming-with-text/search-and-get-text-page/"
+"weight": 430
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ค้นหาและรับหน้าข้อความในไฟล์ PDF
@@ -19,15 +21,15 @@ url: /th/net/programming-with-text/search-and-get-text-page/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
+ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.PDF สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/net/) หรือรับเวอร์ชันทดลองใช้งานฟรีจากลิงก์เดียวกัน สำหรับการสั่งซื้อ ให้ไปที่[ร้านอาสโพเซ่](https://purchase.aspose.com/buy).
+1. Aspose.PDF สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/pdf/net/) หรือรับเวอร์ชันทดลองใช้งานฟรีจากลิงก์เดียวกัน สำหรับการสั่งซื้อ ให้ไปที่ [ร้านอาสโพเซ่](https://purchase-aspose.com/buy).
 2. .NET Framework: คุณจะต้องมีสภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้ เช่น Visual Studio
-3. ไฟล์ PDF: คุณจะต้องมีไฟล์ PDF ตัวอย่างที่เราสามารถค้นหาและแยกข้อความได้ สำหรับบทช่วยสอนนี้ สมมติว่าไฟล์นี้มีชื่อว่า`SearchAndGetTextPage.pdf`.
+3. ไฟล์ PDF: คุณจะต้องมีไฟล์ PDF ตัวอย่างที่เราสามารถค้นหาและแยกข้อความได้ สำหรับบทช่วยสอนนี้ สมมติว่าไฟล์นี้มีชื่อว่า `SearchAndGetTextPage-pdf`.
 
 ## แพ็คเกจนำเข้า
 
-สิ่งแรกที่ต้องทำคือนำเข้าเนมสเปซที่จำเป็นสำหรับการใช้งาน Aspose.PDF สำหรับ .NET ตรวจสอบให้แน่ใจว่ามีการรวมเนมสเปซเหล่านี้ไว้ที่ด้านบนของโค้ดของคุณ
+สิ่งแรกที่ต้องทำคือนำเข้าเนมสเปซที่จำเป็นสำหรับการใช้งาน Aspose.PDF สำหรับ .NET ตรวจสอบให้แน่ใจว่ามีการรวมเนมสเปซเหล่านี้ไว้ที่ด้านบนของโค้ด
 
 ```csharp
 using System.IO;
@@ -38,7 +40,7 @@ using System
 
 ตอนนี้เราได้ครอบคลุมข้อกำหนดเบื้องต้นแล้ว เรามาแบ่งโค้ดออกเป็นขั้นตอนต่างๆ กันทีละขั้นตอน แต่ละขั้นตอนได้รับการระบุไว้อย่างชัดเจนเพื่อให้ปฏิบัติตามได้ง่าย
 
-## ขั้นตอนที่ 1: ตั้งค่าเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ
+## ขั้นตอนที่ 1: ตั้งค่าเส้นทางไปยังไดเรกทอรีเอกสารของคุณ
 
 ก่อนที่จะโต้ตอบกับ PDF ของคุณ คุณจะต้องกำหนดเส้นทางที่จะเก็บเอกสาร PDF ของคุณ ซึ่งจะทำให้โปรแกรมสามารถเข้าถึงไฟล์ได้
 
@@ -46,7 +48,7 @@ using System
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  dataDir: นี่คือเส้นทางไปยังโฟลเดอร์ที่จัดเก็บไฟล์ PDF ของคุณ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่มีไฟล์ PDF ตั้งอยู่
+- dataDir: นี่คือเส้นทางไปยังโฟลเดอร์ที่คุณเก็บไฟล์ PDF ไว้ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่มีไฟล์ PDF ตั้งอยู่
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร PDF
 
@@ -61,7 +63,7 @@ Document pdfDocument = new Document(dataDir + "SearchAndGetTextPage.pdf");
 
 ## ขั้นตอนที่ 3: สร้างวัตถุ Text Absorber
 
- การ`TextFragmentAbsorber`คลาสนี้ช่วยให้คุณค้นหาข้อความเฉพาะภายใน PDF ได้ มาสร้างอินสแตนซ์ของคลาสนี้เพื่อค้นหาอินสแตนซ์ทั้งหมดของวลีการค้นหาที่กำหนดกัน
+การ `TextFragmentAbsorber` คลาสนี้ช่วยให้คุณค้นหาข้อความเฉพาะภายใน PDF ได้ มาสร้างอินสแตนซ์ของคลาสนี้เพื่อค้นหาอินสแตนซ์ทั้งหมดของวลีการค้นหาที่กำหนดกัน
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("Figure");
@@ -82,7 +84,7 @@ pdfDocument.Pages.Accept(textFragmentAbsorber);
 
 ## ขั้นตอนที่ 5: ดึงข้อมูลและทำซ้ำผ่านข้อความที่แยกออกมา
 
-ตอนนี้เราได้สแกน PDF เรียบร้อยแล้ว ถึงเวลาที่จะดึงผลลัพธ์ออกมาและแสดงผลลัพธ์ เราจะวนซ้ำผ่านส่วนข้อความที่แยกออกมา
+ตอนนี้เราได้สแกน PDF แล้ว ถึงเวลาที่จะดึงผลลัพธ์และแสดงผลลัพธ์ เราจะวนซ้ำผ่านส่วนข้อความที่แยกออกมา
 
 ```csharp
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
@@ -92,7 +94,7 @@ TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragmen
 
 ## ขั้นตอนที่ 6: วนซ้ำแต่ละส่วนและแยกข้อมูล
 
-ตอนนี้เราจะวนผ่าน`textFragmentCollection` และแยกคุณสมบัติต่างๆ ของข้อความแต่ละส่วนออกมา เช่น ตำแหน่ง รายละเอียดแบบอักษร และสี
+ตอนนี้เราจะวนซ้ำผ่าน `textFragmentCollection` และแยกคุณสมบัติต่างๆ ของข้อความแต่ละส่วนออกมา เช่น ตำแหน่ง รายละเอียดแบบอักษร และสี
 
 ```csharp
 foreach (TextFragment textFragment in textFragmentCollection)
@@ -126,22 +128,24 @@ foreach (TextFragment textFragment in textFragmentCollection)
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถค้นหาหลายวลีในครั้งเดียวได้ไหม  
- ใช่ คุณสามารถแก้ไขโค้ดเพื่อค้นหาหลายวลีได้โดยการสร้างหลาย ๆ วลี`TextFragmentAbsorber` วัตถุ
+ใช่ คุณสามารถแก้ไขโค้ดเพื่อค้นหาหลายวลีได้โดยการสร้างหลาย ๆ วลี `TextFragmentAbsorber` วัตถุ
 
 ### ฉันจะดึงข้อความจากหน้าใดหน้าหนึ่งได้อย่างไร?  
- คุณสามารถกำหนดเป้าหมายหน้าเฉพาะได้โดยการใช้`TextFragmentAbsorber` ให้เป็นหน้าเดียวแทนที่จะเป็นทั้งเอกสาร ตัวอย่างเช่น:`pdfDocument.Pages[1].Accept(textFragmentAbsorber);`.
+คุณสามารถกำหนดเป้าหมายหน้าเฉพาะได้โดยการใช้ `TextFragmentAbsorber` ให้เป็นหน้าเดียวแทนที่จะเป็นทั้งเอกสาร ตัวอย่างเช่น: `pdfDocument-Pages[1].Accept(textFragmentAbsorber);`.
 
 ### Aspose.PDF สำหรับ .NET ฟรีหรือไม่?  
- Aspose.PDF เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถใช้ร่วมกับ[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+Aspose.PDF เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถใช้ร่วมกับ [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 
 ### ฉันสามารถดึงภาพจาก PDF โดยใช้ Aspose.PDF ได้หรือไม่  
- ใช่ Aspose.PDF ช่วยให้คุณแยกรูปภาพได้นอกเหนือจากข้อความ ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/pdf/net/) สำหรับรายละเอียดเพิ่มเติม
+ใช่ Aspose.PDF ช่วยให้คุณแยกรูปภาพได้นอกเหนือจากข้อความ ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/pdf/net/) สำหรับรายละเอียดเพิ่มเติม
 
 ### จะเกิดอะไรขึ้นหากฉันต้องการความช่วยเหลือหรือการสนับสนุนเพิ่มเติม?  
- คุณสามารถขอความช่วยเหลือจากเราได้เสมอ[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10).
+คุณสามารถขอความช่วยเหลือจากเราได้เสมอ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

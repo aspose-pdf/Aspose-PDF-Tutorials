@@ -8,7 +8,9 @@ url: /net/programming-with-graphs/create-filled-rectangle/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Filled Rectangle
@@ -181,6 +183,7 @@ You can create various shapes, including rectangles, circles, lines, and more, u
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

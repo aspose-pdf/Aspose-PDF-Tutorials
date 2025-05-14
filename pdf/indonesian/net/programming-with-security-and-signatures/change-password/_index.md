@@ -1,27 +1,29 @@
 ---
-title: Ubah Kata Sandi Dalam File PDF
-linktitle: Ubah Kata Sandi Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengubah kata sandi PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah kami akan memandu Anda melalui proses ini dengan aman.
-weight: 10
-url: /id/net/programming-with-security-and-signatures/change-password/
+"description": "Pelajari cara mengubah kata sandi PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah kami akan memandu Anda melalui proses ini dengan aman."
+"linktitle": "Ubah Kata Sandi Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Ubah Kata Sandi Dalam File PDF"
+"url": "/id/net/programming-with-security-and-signatures/change-password/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah Kata Sandi Dalam File PDF
 
 ## Perkenalan
 
-Keamanan sering kali menjadi perhatian utama saat menangani berkas PDF. Kita semua ingin memastikan bahwa dokumen penting kita terlindungi dari mata-mata yang mengintip. Untungnya, Aspose.PDF untuk .NET dilengkapi dengan fitur praktis yang memungkinkan Anda mengubah kata sandi dokumen PDF dengan mudah. Dalam artikel ini, kami akan memandu Anda melalui proses ini langkah demi langkah, memastikan Anda memiliki pemahaman yang kuat tentang cara menangani keamanan PDF secara efektif!
+Saat bekerja dengan file PDF, keamanan sering kali menjadi perhatian utama. Kita semua ingin memastikan bahwa dokumen penting kita terlindungi dari mata-mata. Untungnya, Aspose.PDF untuk .NET dilengkapi dengan fitur praktis yang memungkinkan Anda mengubah kata sandi dokumen PDF dengan mudah. Dalam artikel ini, kami akan memandu Anda melalui proses ini langkah demi langkah, memastikan Anda memiliki pemahaman yang kuat tentang cara menangani keamanan PDF secara efektif!
 
 ## Prasyarat
 
 Sebelum kita menyelami seluk-beluk mengubah kata sandi dalam PDF, mari kita persiapkan diri Anda. Berikut ini yang Anda perlukan:
 
-1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat dengan mudah mendapatkannya dengan mengunduhnya dari[situs web](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat dengan mudah mendapatkannya dengan mengunduhnya dari [situs web](https://releases.aspose.com/pdf/net/).
 2. Lingkungan Pengembangan Anda: Pastikan Anda memiliki IDE yang sesuai, seperti Visual Studio, yang disiapkan untuk pengembangan .NET.
 3. Pengetahuan Dasar C#: Biasakan diri Anda dengan C#. Jika Anda memahami konsep pemrograman, Anda akan merasa tugas ini mudah.
 4. Akses ke Berkas PDF Anda: Siapkan berkas PDF. Ini akan menjadi berkas yang akan Anda gunakan untuk mengubah kata sandinya.
@@ -66,7 +68,7 @@ Sekarang, mari kita tunjukkan di mana file PDF Anda berada. Anda perlu menentuka
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya ke direktori Anda. Misalnya, mungkin terlihat seperti ini:`"C:\\Documents\\"`.
+Mengganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur sebenarnya ke direktori Anda. Misalnya, mungkin terlihat seperti ini: `"C:\\Documents\\"`.
 
 ## Langkah 4: Buka Dokumen PDF Anda
 
@@ -80,7 +82,7 @@ Baris kode ini melakukan dua hal: membuka PDF yang ditentukan dan mengotorisasin
 
 ## Langkah 5: Ubah Kata Sandi
 
- Di sinilah perubahan nyata terjadi! Anda akan menggunakan`ChangePasswords` metode untuk mengubah kata sandi. Metode ini menggunakan tiga parameter: kata sandi pemilik saat ini, kata sandi pengguna baru, dan kata sandi pemilik baru. Misalnya:
+Di sinilah perubahan nyata terjadi! Anda akan menggunakan `ChangePasswords` metode untuk mengubah kata sandi. Metode ini menggunakan tiga parameter: kata sandi pemilik saat ini, kata sandi pengguna baru, dan kata sandi pemilik baru. Misalnya:
 
 ```csharp
 document.ChangePasswords("owner", "newuser", "newowner");
@@ -90,14 +92,14 @@ Baris ini mengganti pengguna/kata sandi lama dengan yang baru yang telah Anda te
 
 ## Langkah 6: Simpan Dokumen yang Diperbarui
 
- Sekarang setelah Anda mengubah kata sandi, Anda ingin menyimpan dokumen PDF yang diperbarui. Ini dilakukan dengan menentukan nama file output dan memanggil`Save` metode:
+Sekarang setelah Anda mengubah kata sandi, Anda ingin menyimpan dokumen PDF yang diperbarui. Ini dilakukan dengan menentukan nama file keluaran dan memanggil `Save` metode:
 
 ```csharp
 dataDir = dataDir + "ChangePassword_out.pdf";
 document.Save(dataDir);
 ```
 
- Kode ini menyimpan PDF Anda yang dimodifikasi sebagai`ChangePassword_out.pdf` di direktori yang sama.
+Kode ini menyimpan PDF Anda yang dimodifikasi sebagai `ChangePassword_out.pdf` di direktori yang sama.
 
 ## Langkah 7: Konfirmasikan Perubahan
 
@@ -126,10 +128,12 @@ Sayangnya, jika Anda lupa kata sandi pemilik, Anda mungkin tidak dapat mengubahn
 Anda dapat menggunakan loop untuk memproses beberapa PDF jika berada dalam satu direktori.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.PDF?
- Untuk dokumentasi lebih rinci, kunjungi[Aspose.Referensi](https://reference.aspose.com/pdf/net/).
+Untuk dokumentasi lebih rinci, kunjungi [Aspose.Referensi](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

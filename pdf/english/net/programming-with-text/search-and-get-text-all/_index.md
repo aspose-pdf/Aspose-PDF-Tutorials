@@ -8,7 +8,9 @@ url: /net/programming-with-text/search-and-get-text-all/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Search And Get Text All
@@ -147,6 +149,7 @@ If your PDF is password-protected, you can unlock it using Aspose.PDF by supplyi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

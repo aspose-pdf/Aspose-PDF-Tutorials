@@ -1,14 +1,16 @@
 ---
-title: Alana Araç İpucu Ekle
-linktitle: Alana Araç İpucu Ekle
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF belgelerindeki form alanlarına araç ipuçlarının nasıl ekleneceğini öğrenin. Kullanılabilirliği ve kullanıcı deneyimini iyileştirin.
-weight: 10
-url: /tr/net/programming-with-forms/add-tooltip-to-field/
+"description": "Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF belgelerindeki form alanlarına araç ipuçlarının nasıl ekleneceğini öğrenin. Kullanılabilirliği ve kullanıcı deneyimini iyileştirin."
+"linktitle": "Alana Araç İpucu Ekle"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Alana Araç İpucu Ekle"
+"url": "/tr/net/programming-with-forms/add-tooltip-to-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alana Araç İpucu Ekle
@@ -21,7 +23,7 @@ PDF form alanlarına araç ipuçları eklemek, özellikle kullanıcılarınızı
 
 Başlamadan önce ihtiyacınız olacak şeyler şunlardır:
 
-1.  Aspose.PDF for .NET: En son sürümün yüklü olduğundan emin olun. Değilse, şunu kullanarak indirebilirsiniz:[İndirme bağlantısı](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF for .NET: En son sürümün yüklü olduğundan emin olun. Değilse, şunu kullanarak indirebilirsiniz: [İndirme bağlantısı](https://releases.aspose.com/pdf/net/).
 2. Geliştirme Ortamı: Visual Studio gibi herhangi bir .NET uyumlu IDE.
 3. Temel C# Bilgisi: Bu kılavuz, C# programlama ve .NET konusunda bilgi sahibi olduğunuzu varsayar.
 4. PDF Belgesi: Araç ipucunu uygulamak için form alanları içeren bir örnek PDF dosyasına ihtiyacınız olacak. Eğer yoksa, Aspose.PDF veya başka bir araç kullanarak basit bir PDF formu oluşturun.
@@ -48,21 +50,21 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTooltipToField.pdf");
 ```
 
--  dataDir: Bu, PDF belgenizin saklandığı dizindir. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` gerçek yol ile.
+- dataDir: Bu, PDF belgenizin saklandığı dizindir. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` gerçek yol ile.
 - Belge doc: Bu, PDF belgesini belleğe yükler, böylece üzerinde çalışabilirsiniz.
 
-Bunu, fiziksel bir belgeyi raftan alıp masanıza koymak gibi düşünün; artık düzenlenmeye hazır!
+Bunu, raftaki fiziksel bir belgeyi alıp masanıza koymak gibi düşünün; artık düzenlenmeye hazır!
 
 ## Adım 2: Form Alanına Erişim
 
- Sonra, araç ipucunun uygulanacağı belirli form alanını bulmanız gerekir. Bu örnekte, adlı bir metin alanıyla çalışıyoruz`"textbox1"`.
+Sonra, araç ipucunun uygulanacağı belirli form alanını bulmanız gerekir. Bu örnekte, adlı bir metin alanıyla çalışıyoruz `"textbox1"`.
 
 ```csharp
 // Adına göre metin alanına erişin
 Field textField = doc.Form["textbox1"] as Field;
 ```
 
-- belge.Form["textbox1"]: Bu, form alanını adına göre bulur. Alan daha sonra bir Field nesnesi olarak dönüştürülür.
+- doc.Form["textbox1"]: Bu, form alanını adına göre bulur. Alan daha sonra bir Field nesnesi olarak dönüştürülür.
   
 Bu noktada sanki formdaki metin kutusunu işaret edip "İşte bu üzerinde çalışacağız" diyoruz.
 
@@ -75,7 +77,7 @@ Form alanını tanımladıktan sonraki adım araç ipucu metnini eklemektir. Bu 
 textField.AlternateName = "Text box tool tip";
 ```
 
--  textField.AlternateName: Bu özellik, araç ipucunu ayarlamanıza olanak tanır. Bu örnekte, araç ipucunu şu şekilde ayarladık:`"Text box tool tip"`.
+- textField.AlternateName: Bu özellik, araç ipucunu ayarlamanıza olanak tanır. Bu örnekte, araç ipucunu şu şekilde ayarladık: `"Text box tool tip"`.
 
 Bu, alanın yanına "Bilmeniz gerekenler şunlardır!" yazan küçük bir yapışkan not yapıştırmaya benziyor.
 
@@ -97,9 +99,9 @@ Console.WriteLine("\nTooltip added successfully.\nFile saved at " + dataDir);
 
 ## Çözüm
 
-PDF belgesindeki form alanlarına araç ipuçları eklemek, Aspose.PDF for .NET ile çocuk oyuncağıdır. İster basit formlar ister daha karmaşık belgeler oluşturun, araç ipuçları kullanıcı deneyimini iyileştirmenin mükemmel bir yoludur. Bu kılavuzda özetlenen adımları izleyerek, herhangi bir alana kolayca bağlam ekleyebilir, PDF'lerinizi daha sezgisel ve kullanıcı dostu hale getirebilirsiniz.
+PDF belgesindeki form alanlarına araç ipuçları eklemek, Aspose.PDF for .NET ile çocuk oyuncağıdır. İster basit formlar ister daha karmaşık belgeler oluşturuyor olun, araç ipuçları kullanıcı deneyimini iyileştirmenin mükemmel bir yoludur. Bu kılavuzda özetlenen adımları izleyerek, herhangi bir alana kolayca bağlam ekleyebilir, PDF'lerinizi daha sezgisel ve kullanıcı dostu hale getirebilirsiniz.
 
- Başka bir özellik konusunda yardıma mı ihtiyacınız var? Aspose.PDF for .NET çok sayıda işlevselliğe sahiptir, bu nedenle bunları kontrol ettiğinizden emin olun[Belgeleme](https://reference.aspose.com/pdf/net/) Daha fazlası için.
+Başka bir özellik konusunda yardıma mı ihtiyacınız var? Aspose.PDF for .NET çok sayıda işlevselliğe sahiptir, bu nedenle bunları kontrol ettiğinizden emin olun [Belgeleme](https://reference.aspose.com/pdf/net/) Daha fazlası için.
 
 ## SSS
 
@@ -117,9 +119,11 @@ Hayır, her form alanı yalnızca bir araç ipucu içerebilir. Daha fazla bilgi 
 
 ### Araç ipuçlarının eklenmesi PDF dosyasının boyutunu artırır mı?  
 Araç ipuçlarının eklenmesinin dosya boyutu üzerinde çok az etkisi vardır, bu nedenle önemli bir fark görmemelisiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Yapı Elemanları Ağacı Oluştur
-linktitle: Yapı Elemanları Ağacı Oluştur
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF kullanarak PDF belgelerinde bir yapı elemanları ağacının nasıl oluşturulacağını öğrenin. Bu adım adım kılavuzu izleyin.
-weight: 70
-url: /tr/net/programming-with-tagged-pdf/create-structure-elements-tree/
+"description": ".NET için Aspose.PDF kullanarak PDF belgelerinde bir yapı elemanları ağacının nasıl oluşturulacağını öğrenin. Bu adım adım kılavuzu izleyin."
+"linktitle": "Yapı Elemanları Ağacı Oluştur"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Yapı Elemanları Ağacı Oluştur"
+"url": "/tr/net/programming-with-tagged-pdf/create-structure-elements-tree/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yapı Elemanları Ağacı Oluştur
@@ -21,11 +23,11 @@ PDF'lerle çalışırken, özellikle erişilebilirlik ve yapılandırılmış i�
 
 Kodun ince ayrıntılarına dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olun:
 
-1.  .NET için Aspose.PDF: Bu kütüphanenin kurulu olduğundan emin olun. Buradan indirebilirsiniz:[.NET için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Bu kütüphanenin kurulu olduğundan emin olun. Buradan indirebilirsiniz: [.NET için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/net/).
 2. .NET Ortamı: Çalışan bir .NET geliştirme ortamı (Visual Studio gibi) gereklidir.
 3. Temel C# Bilgisi: C# hakkında temel bir anlayışa sahip olmak, kavramları hızlı bir şekilde kavramanıza yardımcı olacaktır.
 
- Henüz yapmadıysanız, kontrol etmek isteyebilirsiniz[belgeleme](https://reference.aspose.com/pdf/net/) Daha fazla bilgi için.
+Henüz yapmadıysanız, kontrol etmek isteyebilirsiniz [belgeleme](https://reference.aspose.com/pdf/net/) Daha fazla bilgi için.
 
 ## Paketleri İçe Aktar
 
@@ -51,7 +53,7 @@ Başlamak için, PDF belgenizin nerede bulunacağına karar vermeniz gerekecek. 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` gerçek dosya yolunuzla. Son PDF'niz burada saklanacaktır.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` gerçek dosya yolunuzla. Son PDF'niz burada saklanacaktır.
 
 ## Adım 2: Bir PDF Belgesi Oluşturun
 
@@ -125,7 +127,7 @@ Burada ilk bölümün altına iki adet div elemanı eklediniz.
 
 ## Adım 8: Bir Sonraki Bölüme Sanat Öğeleri Ekleyin
 
-Şimdi, sanat öğelerini ekleyerek biraz sanatsal bir hava katalım!
+Şimdi, biraz sanat öğesi ekleyerek biraz sanatsal bir hava katalım!
 
 ```csharp
 ArtElement art21 = taggedContent.CreateArtElement();
@@ -196,19 +198,21 @@ Aspose.PDF for .NET ile bir yapı elemanları ağacı oluşturmak, bir binanın 
 Aspose.PDF for .NET, .NET uygulamalarında PDF belgeleri oluşturmak, düzenlemek ve yönetmek için kullanılan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'i kullanmaya nasıl başlayabilirim?
- Kütüphaneyi şu adresten indirerek başlayın:[Aspose web sitesi](https://releases.aspose.com/pdf/net/) ve .NET ortamınıza kurulumunu yapın.
+Kütüphaneyi şu adresten indirerek başlayın: [Aspose web sitesi](https://releases.aspose.com/pdf/net/) ve .NET ortamınıza kurmak.
 
 ### Aspose.PDF'yi satın almadan önce test edebilir miyim?
- Evet! Bunu kullanarak ücretsiz deneyebilirsiniz.[ücretsiz deneme](https://releases.aspose.com/).
+Evet! Bunu kullanarak ücretsiz deneyebilirsiniz. [ücretsiz deneme](https://releases.aspose.com/).
 
 ### Aspose.PDF ile ilgili yardımı nereden bulabilirim?
- Destek için şu adresi ziyaret edin:[Aspose forumu](https://forum.aspose.com/c/pdf/10) Soru sorabileceğiniz ve fikirlerinizi paylaşabileceğiniz bir yer.
+Destek için şu adresi ziyaret edin: [Aspose forumu](https://forum.aspose.com/c/pdf/10) Sorularınızı sorabileceğiniz ve fikirlerinizi paylaşabileceğiniz bir yer.
 
 ### Geçici lisans başvurusunu nasıl yapabilirim?
- Geçici lisans başvurusunda bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisans başvurusunda bulunabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

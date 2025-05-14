@@ -1,14 +1,16 @@
 ---
-title: Osadź czcionkę w pliku PDF
-linktitle: Osadź czcionkę w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak osadzać czcionki w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Upewnij się, że Twoje dokumenty są wyświetlane poprawnie na każdym urządzeniu.
-weight: 120
-url: /pl/net/programming-with-document/embedfont/
+"description": "Dowiedz się, jak osadzać czcionki w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Upewnij się, że Twoje dokumenty są wyświetlane poprawnie na każdym urządzeniu."
+"linktitle": "Osadź czcionkę w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Osadź czcionkę w pliku PDF"
+"url": "/pl/net/programming-with-document/embedfont/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Osadź czcionkę w pliku PDF
@@ -21,7 +23,7 @@ Jeśli chodzi o tworzenie plików PDF, jednym z najważniejszych aspektów jest 
 
 Zanim zagłębimy się w kod, musisz spełnić kilka warunków wstępnych:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [strona internetowa](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: środowisko programistyczne, w którym można pisać i wykonywać kod .NET.
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
@@ -29,9 +31,9 @@ Zanim zagłębimy się w kod, musisz spełnić kilka warunków wstępnych:
 
 Aby zacząć, musisz zaimportować niezbędne pakiety do swojego projektu C#. Oto, jak możesz to zrobić:
 
-1. Otwórz projekt programu Visual Studio.
+1. Otwórz projekt Visual Studio.
 2. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań i wybierz opcję „Zarządzaj pakietami NuGet”.
-3.  Szukaj`Aspose.PDF` i zainstaluj najnowszą wersję.
+3. Szukaj `Aspose.PDF` i zainstaluj najnowszą wersję.
 
 ```csharp
 using System.IO;
@@ -52,22 +54,22 @@ Po pierwsze, musisz zdefiniować ścieżkę do katalogu dokumentów. To tutaj b�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, w której przechowywane są pliki PDF.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której przechowywane są pliki PDF.
 
 ## Krok 2: Załaduj istniejący plik PDF
 
- Następnie należy załadować istniejący plik PDF, który chcesz zmodyfikować. Można to zrobić za pomocą`Document` Klasa udostępniona przez Aspose.PDF.
+Następnie należy załadować istniejący plik PDF, który chcesz zmodyfikować. Można to zrobić za pomocą `Document` Klasa udostępniona przez Aspose.PDF.
 
 ```csharp
 // Załaduj istniejący plik PDF
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Tutaj ładujemy plik PDF o nazwie`input.pdf`. Upewnij się, że ten plik istnieje w określonym katalogu.
+Tutaj ładujemy plik PDF o nazwie `input.pdf`. Upewnij się, że ten plik istnieje w określonym katalogu.
 
 ## Krok 3: Przejrzyj wszystkie strony
 
-Teraz, gdy mamy załadowany nasz dokument, musimy przejść przez wszystkie strony w pliku PDF. Pozwala nam to sprawdzić każdą stronę pod kątem czcionek, które należy osadzić.
+Teraz, gdy mamy załadowany nasz dokument, musimy przejrzeć wszystkie strony w pliku PDF. Pozwala nam to sprawdzić każdą stronę pod kątem czcionek, które należy osadzić.
 
 ```csharp
 // Przejrzyj wszystkie strony
@@ -86,7 +88,7 @@ foreach (Page page in doc.Pages)
 }
 ```
 
- W tym kodzie sprawdzamy, czy strona ma jakieś czcionki. Jeśli tak, przechodzimy przez każdą czcionkę i sprawdzamy, czy jest już osadzona. Jeśli nie, ustawiamy`IsEmbedded` nieruchomość do`true`.
+W tym kodzie sprawdzamy, czy strona ma jakieś czcionki. Jeśli tak, przechodzimy przez każdą czcionkę i sprawdzamy, czy jest już osadzona. Jeśli nie, ustawiamy `IsEmbedded` nieruchomość do `true`.
 
 ## Krok 4: Sprawdź obiekty formularza
 
@@ -120,11 +122,11 @@ dataDir = dataDir + "EmbedFont_out.pdf";
 doc.Save(dataDir);
 ```
 
- W tym przypadku zapisujemy zmodyfikowany plik PDF jako`EmbedFont_out.pdf` w tym samym katalogu.
+tym przypadku zapisujemy zmodyfikowany plik PDF jako `EmbedFont_out.pdf` w tym samym katalogu.
 
 ## Krok 6: Potwierdź operację
 
-Na koniec, zawsze dobrym zwyczajem jest potwierdzenie, że operacja zakończyła się sukcesem. Możesz to zrobić, drukując wiadomość na konsoli.
+Na koniec, zawsze dobrym zwyczajem jest potwierdzenie, że operacja zakończyła się sukcesem. Możesz to zrobić, drukując komunikat na konsoli.
 
 ```csharp
 Console.WriteLine("\nFont embedded successfully in a PDF file.\nFile saved at " + dataDir);
@@ -148,13 +150,15 @@ Aspose.PDF dla platformy .NET to zaawansowana biblioteka, która upraszcza prac�
 Tak, możesz osadzać czcionki w istniejących plikach PDF korzystając z biblioteki Aspose.PDF, jak pokazano w tym samouczku.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.PDF?
- Tak, możesz pobrać bezpłatną wersję próbną Aspose.PDF ze strony[strona internetowa](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną Aspose.PDF ze strony [strona internetowa](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.PDF?
- Wsparcie i zadawanie pytań można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/pdf/10).
+Wsparcie i zadawanie pytań można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

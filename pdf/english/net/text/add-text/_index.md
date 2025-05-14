@@ -6,8 +6,11 @@ description: Learn how to add text fragments to existing PDF documents using Asp
 keywords: [Aspose.PDF, .NET, C#, PDF manipulation, text fragment, PDF editing, document processing, PDF text]
 url: /net/text/add-text/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Text to PDF Documents with Aspose.PDF for .NET
@@ -15,9 +18,11 @@ url: /net/text/add-text/
 Aspose.PDF for .NET is a powerful PDF processing API that allows developers to create, modify, and convert PDF documents without Adobe Acrobat dependencies. This example demonstrates how to add styled text to an existing PDF document with precise positioning, custom fonts, and color properties. The Aspose.PDF library provides comprehensive functionality for text manipulation in PDF documents with simple and intuitive programming interfaces.
 
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/text/add-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installation Instructions
@@ -45,7 +50,9 @@ PM> Install-Package Aspose.PDF
 - [Aspose.PDF for .NET API Reference](https://reference.aspose.com/pdf/net/)
  
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

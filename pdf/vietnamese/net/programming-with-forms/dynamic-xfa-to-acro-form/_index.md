@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi Dynamic XFA sang Acro Form
-linktitle: Chuyển đổi Dynamic XFA sang Acro Form
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi biểu mẫu XFA động sang AcroForms chuẩn bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này.
-weight: 70
-url: /vi/net/programming-with-forms/dynamic-xfa-to-acro-form/
+"description": "Tìm hiểu cách chuyển đổi biểu mẫu XFA động sang AcroForms chuẩn bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này."
+"linktitle": "Chuyển đổi Dynamic XFA sang Acro Form"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Chuyển đổi Dynamic XFA sang Acro Form"
+"url": "/vi/net/programming-with-forms/dynamic-xfa-to-acro-form/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi Dynamic XFA sang Acro Form
@@ -22,7 +24,7 @@ Trong thế giới tài liệu PDF, biểu mẫu đóng vai trò quan trọng tr
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển của chúng tôi.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn theo dõi dễ dàng.
 
 ## Nhập gói
@@ -47,7 +49,7 @@ Trước tiên, chúng ta cần xác định nơi lưu trữ tài liệu. Điề
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ các tệp PDF của bạn.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ các tệp PDF của bạn.
 
 ## Bước 2: Tải biểu mẫu XFA động
 
@@ -58,7 +60,7 @@ Bây giờ chúng ta đã thiết lập xong thư mục tài liệu, đã đến
 Document document = new Document(dataDir + "DynamicXFAToAcroForm.pdf");
 ```
 
- Ở đây, chúng ta tạo ra một cái mới`Document` đối tượng và truyền đường dẫn đến tệp PDF XFA động của chúng tôi. Nếu tệp được định vị chính xác, nó sẽ được tải vào`document` biến đổi.
+Ở đây, chúng ta tạo ra một cái mới `Document` đối tượng và truyền đường dẫn đến tệp PDF XFA động của chúng tôi. Nếu tệp được định vị chính xác, nó sẽ được tải vào `document` biến đổi.
 
 ## Bước 3: Đặt Loại Trường Biểu mẫu
 
@@ -69,7 +71,7 @@ Tiếp theo, chúng ta cần chuyển đổi các trường biểu mẫu từ XF
 document.Form.Type = FormType.Standard;
 ```
 
- Bằng cách thiết lập loại biểu mẫu thành`Standard`, chúng tôi đang yêu cầu Aspose.PDF xử lý biểu mẫu như một AcroForm tiêu chuẩn, được hỗ trợ rộng rãi hơn và dễ thao tác hơn.
+Bằng cách thiết lập loại biểu mẫu thành `Standard`, chúng tôi đang yêu cầu Aspose.PDF xử lý biểu mẫu như một AcroForm tiêu chuẩn, được hỗ trợ rộng rãi hơn và dễ thao tác hơn.
 
 ## Bước 4: Lưu PDF kết quả
 
@@ -81,7 +83,7 @@ dataDir = dataDir + "Standard_AcroForm_out.pdf";
 document.Save(dataDir);
 ```
 
- Ở đây, chúng tôi thêm tên tệp mới vào`dataDir` và lưu tài liệu. Thao tác này sẽ tạo một tệp PDF mới chứa AcroForm đã chuyển đổi.
+Ở đây, chúng tôi thêm tên tệp mới vào `dataDir` và lưu tài liệu. Thao tác này sẽ tạo một tệp PDF mới chứa AcroForm đã chuyển đổi.
 
 ## Bước 5: Xác nhận chuyển đổi
 
@@ -109,13 +111,15 @@ Chuyển đổi sang AcroForm giúp tăng khả năng tương thích và cho ph�
 Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để kiểm tra thư viện trước khi mua.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/pdf/net/).
 
 ### Tôi phải làm sao nếu gặp vấn đề?
- Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

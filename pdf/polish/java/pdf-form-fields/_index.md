@@ -1,14 +1,16 @@
 ---
-title: Pola formularza PDF
-linktitle: Pola formularza PDF
-second_title: Aspose.PDF Java PDF Processing API
-description: Naucz się tworzyć interaktywne formularze PDF za pomocą Aspose.PDF dla Java. Kompleksowe samouczki dotyczące wydajnej manipulacji polami formularza.
-weight: 11
-url: /pl/java/pdf-form-fields/
+"description": "Naucz się tworzyć interaktywne formularze PDF za pomocą Aspose.PDF dla Java. Kompleksowe samouczki dotyczące wydajnej manipulacji polami formularza."
+"linktitle": "Pola formularza PDF"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Pola formularza PDF"
+"url": "/pl/java/pdf-form-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pola formularza PDF
@@ -41,17 +43,19 @@ Dowiedz się, jak bez wysiłku usunąć określone pole formularza z dokumentu P
 Dowiedz się, jak wypełniać pola formularza PDF za pomocą Javy, używając Aspose.PDF dla Javy. Przewodnik krok po kroku z kodem źródłowym.
 ### [Dodawanie znacznika tekstowego w pliku PDF za pomocą Java](./adding-text-stamp-in-pdf-file-using-java/)
 Dowiedz się, jak dodawać stemple tekstowe do plików PDF za pomocą Javy z Aspose.PDF dla Javy. Dostosuj swoje dokumenty PDF bez wysiłku.
-### [Dodaj numer strony w pliku PDF za pomocą Java](./add-page-number-stamp-in-pdf-using-java/)
+### [Dodaj numer strony w PDF za pomocą Java](./add-page-number-stamp-in-pdf-using-java/)
 Dowiedz się, jak łatwo dodawać stemple numeracji stron do dokumentów PDF za pomocą Javy z Aspose.PDF dla Javy. Ulepsz swoje pliki PDF za pomocą konfigurowalnych numerów stron.
 ### [Kontroluj jakość obrazu podczas dodawania pieczątki graficznej do pliku PDF za pomocą Java](./control-image-quality-when-adding-image-stamp-in-pdf-using-java/)
 Dowiedz się, jak kontrolować jakość obrazu podczas dodawania stempli graficznych do plików PDF za pomocą języka Java, korzystając z instrukcji krok po kroku.
 ### [Definiowanie wyrównania dla obiektu znacznika tekstowego w pliku PDF przy użyciu języka Java](./define-alignment-for-text-stamp-object-in-pdf-using-java/)
 Dowiedz się, jak precyzyjnie wyrównać obiekty stempla tekstowego w plikach PDF za pomocą języka Java z Aspose.PDF dla języka Java. Popraw wygląd i czytelność dokumentu.
-### [Wyodrębnij tekst z adnotacji stempla w PDF za pomocą Java](./extract-text-from-stamp-annotation-in-pdf-using-java/)
+### [Wyodrębnij tekst z adnotacji stempla w pliku PDF za pomocą Java](./extract-text-from-stamp-annotation-in-pdf-using-java/)
 Dowiedz się, jak wyodrębnić tekst z adnotacji Stamp w PDF przy użyciu Java z tego kompleksowego przewodnika. Użyj Aspose.PDF dla Java do wydajnego przetwarzania dokumentów PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

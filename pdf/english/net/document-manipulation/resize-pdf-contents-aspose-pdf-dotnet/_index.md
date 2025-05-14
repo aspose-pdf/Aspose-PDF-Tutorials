@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,6 +191,9 @@ Next steps could include exploring other features of Aspose.PDF or integrating t
 Thank you for following this guide on resizing PDF contents with Aspose.PDF for .NET. If you have any questions or need further assistance, feel free to reach out through the support forum. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

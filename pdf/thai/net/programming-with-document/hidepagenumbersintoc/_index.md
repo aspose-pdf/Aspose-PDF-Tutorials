@@ -1,14 +1,16 @@
 ---
-title: ซ่อนหมายเลขหน้าในสารบัญ
-linktitle: ซ่อนหมายเลขหน้าในสารบัญ
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีซ่อนหมายเลขหน้าในสารบัญโดยใช้ Aspose.PDF สำหรับ .NET ทำตามคำแนะนำโดยละเอียดนี้พร้อมตัวอย่างโค้ดเพื่อสร้าง PDF แบบมืออาชีพ
-weight: 220
-url: /th/net/programming-with-document/hidepagenumbersintoc/
+"description": "เรียนรู้วิธีซ่อนหมายเลขหน้าในสารบัญโดยใช้ Aspose.PDF สำหรับ .NET ทำตามคำแนะนำโดยละเอียดนี้พร้อมตัวอย่างโค้ดเพื่อสร้าง PDF แบบมืออาชีพ"
+"linktitle": "ซ่อนหมายเลขหน้าในสารบัญ"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "ซ่อนหมายเลขหน้าในสารบัญ"
+"url": "/th/net/programming-with-document/hidepagenumbersintoc/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ซ่อนหมายเลขหน้าในสารบัญ
@@ -23,9 +25,9 @@ url: /th/net/programming-with-document/hidepagenumbersintoc/
 
 - ติดตั้ง Visual Studio แล้ว: คุณจะต้องมี Visual Studio เวอร์ชันที่ใช้งานได้เพื่อเขียนโค้ด
 - ไลบรารี Aspose.PDF สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.PDF สำหรับ .NET แล้ว
-  -  ลิงค์ดาวน์โหลด:[Aspose.PDF สำหรับ .NET](https://releases.aspose.com/pdf/net/)
+  - ลิงค์ดาวน์โหลด: [Aspose.PDF สำหรับ .NET](https://releases.aspose.com/pdf/net/)
 - ใบอนุญาตชั่วคราว: หากคุณกำลังทดสอบคุณสมบัติต่างๆ การมีใบอนุญาตชั่วคราวก็จะเป็นประโยชน์
-  -  ใบอนุญาตชั่วคราว:[รับได้ที่นี่](https://purchase.aspose.com/temporary-license/)
+  - ใบอนุญาตชั่วคราว: [รับได้ที่นี่](https://purchase.aspose.com/temporary-license/)
 
 ## แพ็คเกจนำเข้า
 
@@ -69,7 +71,7 @@ tocPage.TocInfo = tocInfo;
 ```
 
 - TocInfo: อ็อบเจ็กต์นี้เก็บข้อมูลทั้งหมดเกี่ยวกับ TOC
-- TextFragment: แสดงข้อความในหัวเรื่อง TOC ในที่นี้เราตั้งค่าเป็น "สารบัญ"
+- TextFragment: แสดงข้อความในหัวข้อ TOC ในที่นี้เราตั้งค่าเป็น "สารบัญ"
 - FontStyle: เรากำหนดสไตล์ของชื่อ TOC โดยตั้งขนาดเป็น 20 และทำตัวหนา
 - tocPage.TocInfo: เรากำหนดข้อมูล TOC ให้กับหน้าที่จะแสดง TOC
 
@@ -82,7 +84,7 @@ tocInfo.IsShowPageNumbers = false;
 tocInfo.FormatArrayLength = 4;
 ```
 
--  IsShowPageNumbers: นี่คือสวิตช์วิเศษที่ซ่อนหมายเลขหน้า ตั้งค่าเป็น`false`และหมายเลขหน้าจะไม่ปรากฏใน TOC
+- IsShowPageNumbers: นี่คือสวิตช์วิเศษที่ซ่อนหมายเลขหน้า ตั้งค่าเป็น `false`และหมายเลขหน้าจะไม่ปรากฏใน TOC
 - FormatArrayLength: เราตั้งค่านี้เป็น 4 ซึ่งระบุว่าเราต้องการกำหนดการจัดรูปแบบให้กับหัวข้อ TOC สี่ระดับ
 
 ## ขั้นตอนที่ 4: ปรับแต่งรูปแบบ TOC
@@ -123,11 +125,11 @@ for (int Level = 1; Level != 5; Level++)
 
 - ส่วนหัวและส่วนข้อความ: แสดงถึงส่วนหัวที่จะปรากฏใน TOC ของคุณ แต่ละระดับจะมีส่วนหัวของตัวเอง
 - IsAutoSequence: กำหนดหมายเลขหัวเรื่องโดยอัตโนมัติ
-- IsInList: ทำให้แน่ใจว่าแต่ละหัวข้อปรากฏใน TOC
+- IsInList: ทำให้แน่ใจว่าหัวข้อแต่ละหัวข้อปรากฏใน TOC
 
 ## ขั้นตอนที่ 6: บันทึกเอกสาร
 
-เมื่อทุกอย่างพร้อมแล้วให้บันทึกเอกสาร PDF ลงในไฟล์เอาต์พุตที่คุณระบุ
+เมื่อทุกอย่างพร้อมแล้ว ให้บันทึกเอกสาร PDF ลงในไฟล์เอาต์พุตที่คุณระบุ
 
 ```csharp
 doc.Save(outFile);
@@ -145,19 +147,21 @@ doc.Save(outFile);
 ไม่ Aspose.PDF จะซ่อนหรือแสดงหมายเลขหน้าสำหรับ TOC ทั้งหมด คุณไม่สามารถซ่อนหมายเลขหน้าสำหรับรายการเฉพาะเจาะจงได้
 
 ### สามารถเพิ่มระดับให้กับ TOC ได้อีกหรือไม่?
- ใช่ คุณสามารถเพิ่มได้`FormatArrayLength` เพื่อกำหนดระดับหัวข้อ TOC ให้มากขึ้น
+ใช่ คุณสามารถเพิ่มได้ `FormatArrayLength` เพื่อกำหนดระดับหัวข้อ TOC ให้มากขึ้น
 
 ### ฉันจะเปลี่ยนแบบอักษรสำหรับรายการ TOC ทั้งหมดได้อย่างไร
- คุณสามารถเปลี่ยนแบบอักษรได้โดยการแก้ไข`TextState.Font` ทรัพย์สินของแต่ละระดับใน`FormatArray`.
+คุณสามารถเปลี่ยนแบบอักษรได้โดยการแก้ไข `TextState.Font` ทรัพย์สินของแต่ละระดับใน `FormatArray`-
 
 ### ฉันสามารถแทรกไฮเปอร์ลิงก์ลงใน TOC ได้หรือไม่?
- ใช่ คุณสามารถเชื่อมโยงรายการ TOC แต่ละรายการกับส่วนเฉพาะในเอกสารโดยใช้`Heading.TocPage` คุณสมบัติ.
+ใช่ คุณสามารถเชื่อมโยงรายการ TOC แต่ละรายการกับส่วนเฉพาะในเอกสารโดยใช้ `Heading.TocPage` คุณสมบัติ.
 
 ### ฉันต้องมีใบอนุญาตสำหรับ Aspose.PDF หรือไม่?
-ใช่ ต้องมีใบอนุญาตที่ถูกต้องสำหรับการใช้ในการผลิต คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อทดสอบคุณสมบัติ
+ใช่ ต้องมีใบอนุญาตที่ถูกต้องสำหรับการใช้ในการผลิต คุณสามารถขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อทดสอบคุณสมบัติ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

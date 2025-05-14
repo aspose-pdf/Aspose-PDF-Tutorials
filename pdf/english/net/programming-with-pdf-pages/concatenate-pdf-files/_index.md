@@ -8,7 +8,9 @@ url: /net/programming-with-pdf-pages/concatenate-pdf-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Concatenate PDF Files
@@ -136,6 +138,7 @@ Yes, Aspose offers a temporary license that you can request [here](https://purch
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

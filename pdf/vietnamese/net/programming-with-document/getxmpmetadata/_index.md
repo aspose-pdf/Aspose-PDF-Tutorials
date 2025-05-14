@@ -1,14 +1,16 @@
 ---
-title: Nhận siêu dữ liệu XMP
-linktitle: Nhận siêu dữ liệu XMP
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất siêu dữ liệu XMP từ PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Mở khóa thông tin chi tiết có giá trị từ tài liệu PDF của bạn một cách dễ dàng.
-weight: 200
-url: /vi/net/programming-with-document/getxmpmetadata/
+"description": "Tìm hiểu cách trích xuất siêu dữ liệu XMP từ PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Mở khóa thông tin chi tiết có giá trị từ tài liệu PDF của bạn một cách dễ dàng."
+"linktitle": "Nhận siêu dữ liệu XMP"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nhận siêu dữ liệu XMP"
+"url": "/vi/net/programming-with-document/getxmpmetadata/"
+"weight": 200
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận siêu dữ liệu XMP
@@ -21,7 +23,7 @@ Nếu bạn đã từng làm việc với PDF, bạn sẽ biết chúng không c
 
 Trước khi bạn bắt đầu trích xuất siêu dữ liệu từ tệp PDF, bạn cần chuẩn bị một số thứ sau:
 
--  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất của thư viện. Bạn có thể tải xuống từ[Trang phát hành Aspose.PDF](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất của thư viện. Bạn có thể tải xuống từ [Trang phát hành Aspose.PDF](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Bạn sẽ cần môi trường phát triển .NET, như Visual Studio.
 - Tài liệu PDF: Đối với hướng dẫn này, hãy đảm bảo rằng bạn có tệp PDF mà bạn muốn lấy siêu dữ liệu.
 - Kiến thức cơ bản về C#: Bạn nên có một số hiểu biết về C# và môi trường .NET.
@@ -44,7 +46,7 @@ Trước tiên, bạn cần đảm bảo rằng dự án của bạn được th
 
 ### Bước 1.1: Cài đặt Aspose.PDF cho .NET
 
- Nếu bạn chưa cài đặt Aspose.PDF cho .NET, bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/). Cài đặt bằng NuGet Package Manager trong Visual Studio:
+Nếu bạn chưa cài đặt Aspose.PDF cho .NET, bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/). Cài đặt bằng NuGet Package Manager trong Visual Studio:
 
 1. Mở Visual Studio.
 2. Điều hướng đến Công cụ > Trình quản lý gói NuGet > Quản lý gói NuGet cho Giải pháp.
@@ -52,7 +54,7 @@ Trước tiên, bạn cần đảm bảo rằng dự án của bạn được th
 
 ### Bước 1.2: Thêm PDF vào Dự án
 
-Tiếp theo, hãy đảm bảo bạn có một tài liệu PDF trong thư mục dự án của mình. Đường dẫn tệp sẽ quan trọng cho các bước tiếp theo. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp PDF có tên`GetXMPMetadata.pdf`.
+Tiếp theo, hãy đảm bảo bạn có một tài liệu PDF trong thư mục dự án của mình. Đường dẫn tệp sẽ quan trọng cho các bước tiếp theo. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp PDF có tên `GetXMPMetadata.pdf`.
 
 ## Bước 2: Tải Tài liệu PDF
 
@@ -66,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "GetXMPMetadata.pdf");
 ```
 
- Mã này khởi tạo tài liệu bằng cách tải nó từ thư mục bạn chỉ định. Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ.
+Mã này khởi tạo tài liệu bằng cách tải nó từ thư mục bạn chỉ định. Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ.
 
 ## Bước 3: Truy cập Siêu dữ liệu XMP
 
@@ -81,7 +83,7 @@ Trong ví dụ này, chúng tôi sẽ trích xuất một số thuộc tính si�
 Console.WriteLine(pdfDocument.Metadata["xmp:CreateDate"]);
 ```
 
-Dòng này sẽ lấy và in ngày tạo tệp PDF, nếu có. Rất hữu ích khi bạn cần biết tài liệu ban đầu được tạo khi nào.
+Dòng này sẽ lấy và in ngày tạo tệp PDF, nếu có. Rất hữu ích khi bạn cần biết thời điểm tài liệu được tạo ban đầu.
 
 ### Bước 3.2: Lấy lại biệt danh
 
@@ -143,7 +145,7 @@ Và bạn đã có nó! Trích xuất siêu dữ liệu XMP từ PDF bằng Aspo
 Siêu dữ liệu XMP là tiêu chuẩn để lưu trữ thông tin về tệp, chẳng hạn như ngày tạo, tác giả và các thuộc tính khác. Nó được nhúng trong chính tệp đó.
 
 ### Tôi có thể sửa đổi siêu dữ liệu PDF bằng Aspose.PDF cho .NET không?
- Có, bạn không chỉ có thể đọc mà còn có thể sửa đổi và thêm siêu dữ liệu mới vào tệp PDF bằng cách sử dụng`Metadata` tài sản.
+Có, bạn không chỉ có thể đọc mà còn có thể sửa đổi và thêm siêu dữ liệu mới vào tệp PDF bằng cách sử dụng `Metadata` tài sản.
 
 ### Cách này có hiệu quả với các tệp PDF được mã hóa không?
 Nếu tệp PDF được bảo vệ bằng mật khẩu, bạn sẽ cần cung cấp mật khẩu khi tải tài liệu để truy cập siêu dữ liệu của tệp đó.
@@ -153,9 +155,11 @@ Bạn có thể lấy cả thuộc tính siêu dữ liệu chuẩn và tùy ch�
 
 ### Tôi có thể sử dụng Aspose.PDF cho .NET để xử lý việc trích xuất siêu dữ liệu PDF hàng loạt không?
 Có, Aspose.PDF cho .NET hỗ trợ xử lý hàng loạt, cho phép bạn xử lý nhiều tệp PDF trong một vòng lặp và trích xuất siêu dữ liệu từ mỗi tệp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

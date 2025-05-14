@@ -8,7 +8,9 @@ url: /net/programming-with-text/extract-text-page/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Text Page In PDF File
@@ -142,6 +144,7 @@ You can seek help and support [here](https://forum.aspose.com/c/pdf/10).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,20 +1,22 @@
 ---
-title: Menambahkan Hyperlink dalam File PDF menggunakan Java
-linktitle: Menambahkan Hyperlink dalam File PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menambahkan hyperlink ke berkas PDF menggunakan Java dengan petunjuk langkah demi langkah dan kode sumber. Sempurnakan dokumen PDF Anda dengan interaktivitas.
-weight: 13
-url: /id/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/
+"description": "Pelajari cara menambahkan hyperlink ke berkas PDF menggunakan Java dengan petunjuk langkah demi langkah dan kode sumber. Sempurnakan dokumen PDF Anda dengan interaktivitas."
+"linktitle": "Menambahkan Hyperlink dalam File PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Menambahkan Hyperlink dalam File PDF menggunakan Java"
+"url": "/id/java/pdf-document-links/add-hyperlink-in-pdf-file-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Hyperlink dalam File PDF menggunakan Java
 
 
-## Pengantar Menambahkan Hyperlink dalam File PDF menggunakan Java
+## Pengantar untuk Menambahkan Hyperlink dalam File PDF menggunakan Java
 
 Hyperlink dalam file PDF merupakan fitur yang berharga untuk meningkatkan interaktivitas dan kegunaan dokumen. Dengan bantuan Java dan pustaka seperti Aspose.PDF untuk Java, Anda dapat dengan mudah menambahkan hyperlink ke file PDF Anda. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, dengan memberikan contoh kode dan penjelasan.
 
@@ -30,11 +32,11 @@ Sebelum kita mulai menerapkannya, mari pastikan Anda memiliki alat dan pustaka y
 - Lingkungan Pengembangan Terpadu (IDE) pilihan Anda (misalnya, Eclipse, IntelliJ IDEA)
 - Aspose.PDF untuk pustaka Java
 
- Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menambahkan Hyperlink ke PDF Menggunakan Aspose.PDF untuk Java
 
-Aspose.PDF untuk Java adalah pustaka canggih yang memungkinkan Anda bekerja dengan dokumen PDF secara terprogram. Untuk menambahkan hyperlink ke berkas PDF, ikuti langkah-langkah berikut:
+Aspose.PDF untuk Java adalah pustaka canggih yang memungkinkan Anda bekerja dengan dokumen PDF secara terprogram. Untuk menambahkan hyperlink ke file PDF, ikuti langkah-langkah berikut:
 
 ### Langkah 1: Buat Proyek Java Baru
 
@@ -105,9 +107,11 @@ Ya, ada pustaka lain seperti iText dan PDFBox yang juga dapat digunakan untuk ma
 ### Bagaimana saya dapat menyesuaikan tampilan hyperlink dalam PDF?
 
 Anda dapat mengatur berbagai properti hyperlink, seperti warna, gaya batas, dan penyorotan, untuk menyesuaikan tampilannya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

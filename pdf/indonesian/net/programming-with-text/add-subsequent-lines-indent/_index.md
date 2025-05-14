@@ -1,30 +1,32 @@
 ---
-title: Tambahkan Baris Berikutnya Indentasi Dalam File PDF
-linktitle: Tambahkan Baris Berikutnya Indentasi Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan baris berikutnya ke dalam file PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah terperinci ini untuk pemformatan teks profesional.
-weight: 60
-url: /id/net/programming-with-text/add-subsequent-lines-indent/
+"description": "Pelajari cara menambahkan baris berikutnya ke dalam file PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah terperinci ini untuk pemformatan teks profesional."
+"linktitle": "Tambahkan Baris Berikutnya Indentasi Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Baris Berikutnya Indentasi Dalam File PDF"
+"url": "/id/net/programming-with-text/add-subsequent-lines-indent/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Baris Berikutnya Indentasi Dalam File PDF
 
 ## Perkenalan
 
-Membuat PDF yang menarik secara visual sering kali melibatkan lebih dari sekadar menempatkan teks pada halaman. Pernahkah Anda bertanya-tanya bagaimana cara menambahkan indentasi pada baris berikutnya dalam dokumen PDF, sehingga terlihat lebih profesional? Baik Anda sedang membuat laporan, e-book, atau dokumen apa pun yang tata letaknya penting, kemampuan untuk mengontrol alur teks sangatlah penting. Hari ini, kita akan membahas cara menambahkan indentasi baris berikutnya pada file PDF menggunakan Aspose.PDF untuk .NET. Fitur ini dapat sangat berguna untuk paragraf yang memerlukan indentasi gantung, yang meningkatkan keterbacaan dan estetika. Jadi, mari kita langsung mulai!
+Membuat PDF yang menarik secara visual sering kali melibatkan lebih dari sekadar menempatkan teks pada halaman. Pernahkah Anda bertanya-tanya bagaimana cara menambahkan indentasi pada baris berikutnya dalam dokumen PDF, sehingga terlihat lebih profesional? Baik Anda sedang membuat laporan, e-book, atau dokumen apa pun yang tata letaknya penting, kemampuan untuk mengendalikan alur teks sangatlah penting. Hari ini, kita akan membahas cara menambahkan indentasi baris berikutnya pada file PDF menggunakan Aspose.PDF untuk .NET. Fitur ini dapat sangat berguna untuk paragraf yang memerlukan indentasi gantung, yang meningkatkan keterbacaan dan estetika. Jadi, mari kita langsung mulai!
 
 ## Prasyarat
 
 Sebelum kita memulai, ada beberapa hal yang perlu Anda persiapkan:
 
--  Aspose.PDF untuk .NET: Anda perlu menginstal pustaka ini. Jika Anda belum menginstalnya, Anda dapat[unduh disini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Anda perlu menginstal pustaka ini. Jika Anda belum menginstalnya, Anda dapat [unduh disini](https://releases.aspose.com/pdf/net/).
 - Lingkungan Pengembangan: Pengetahuan dasar tentang C# dan IDE seperti Visual Studio akan sangat membantu.
 - .NET Framework: Tutorial ini mengasumsikan Anda bekerja di lingkungan .NET.
--  Lisensi Sementara: Jika Anda tidak memiliki lisensi penuh untuk Aspose.PDF, Anda dapat meminta lisensi sementara.[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+- Lisensi Sementara: Jika Anda tidak memiliki lisensi penuh untuk Aspose.PDF, Anda dapat meminta lisensi sementara. [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 Sekarang Anda sudah siap, mari beralih ke bagian pengkodean!
 
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Buat objek dokumen baru
 Aspose.Pdf.Document document = new Aspose.Pdf.Document();
 
-//Tambahkan halaman baru ke dokumen
+// Tambahkan halaman baru ke dokumen
 Aspose.Pdf.Page page = document.Pages.Add();
 ```
 
@@ -60,7 +62,7 @@ Di sini, kita menginisialisasi dokumen PDF dan menambahkan halaman kosong ke dal
 
 ## Langkah 2: Buat Fragmen Teks
 
- Selanjutnya, Anda perlu membuat`TextFragment` objek, yang akan menampung teks yang akan Anda tampilkan pada PDF Anda. Teks ini nantinya akan diformat dengan indentasi yang diperlukan.
+Selanjutnya, Anda perlu membuat `TextFragment` objek, yang akan menampung teks yang akan Anda tampilkan pada PDF Anda. Teks ini nantinya akan diformat dengan indentasi yang diperlukan.
 
 ```csharp
 Aspose.Pdf.Text.TextFragment text = new Aspose.Pdf.Text.TextFragment(
@@ -76,7 +78,7 @@ Ini hanyalah contoh teks sederhana yang diulang beberapa kali untuk mengisi ruan
 
 ## Langkah 3: Inisialisasi Opsi Pemformatan Teks
 
- Di sinilah keajaiban terjadi! Sekarang setelah Anda memiliki`TextFragment` , Anda perlu menginisialisasi opsi pemformatan teks untuk menentukan`SubsequentLinesIndent`Pengaturan ini akan menerapkan indentasi ke semua baris kecuali baris pertama.
+Di sinilah keajaiban terjadi! Sekarang setelah Anda memiliki `TextFragment`, Anda perlu menginisialisasi opsi pemformatan teks untuk menentukan `SubsequentLinesIndent`Pengaturan ini akan menerapkan indentasi ke semua baris kecuali baris pertama.
 
 ```csharp
 // Inisialisasi TextFormattingOptions untuk fragmen teks dan tentukan nilai SubsequentLinesIndent
@@ -90,7 +92,7 @@ Dalam contoh ini, kami telah menetapkan indentasi menjadi 20 unit. Ini berarti s
 
 ## Langkah 4: Tambahkan Teks ke Halaman
 
- Sekarang setelah Anda menerapkan format yang diperlukan, saatnya menambahkan teks ke halaman. Ini dilakukan dengan menambahkan`TextFragment` ke kumpulan paragraf halaman.
+Sekarang setelah Anda menerapkan format yang diperlukan, saatnya menambahkan teks ke halaman. Ini dilakukan dengan menambahkan `TextFragment` ke kumpulan paragraf halaman.
 
 ```csharp
 page.Paragraphs.Add(text);
@@ -134,10 +136,10 @@ Nah, itu dia! Anda baru saja mempelajari cara menambahkan indentasi baris beriku
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bisakah saya menerapkan indentasi yang berbeda pada paragraf yang berbeda?  
- Ya, Anda dapat menerapkan pengaturan indentasi yang berbeda untuk setiap`TextFragment` dengan memodifikasi masing-masing`TextState.FormattingOptions`.
+### Dapatkah saya menerapkan indentasi yang berbeda pada paragraf yang berbeda?  
+Ya, Anda dapat menerapkan pengaturan indentasi yang berbeda untuk setiap `TextFragment` dengan memodifikasi masing-masing `TextState.FormattingOptions`.
 
-###  Satuan apa yang digunakan untuk`SubsequentLinesIndent` property?  
+### Satuan apa yang digunakan untuk `SubsequentLinesIndent` milik?  
 Indentasi diukur dalam poin, yang merupakan satuan pengukuran standar dalam dokumen PDF.
 
 ### Bisakah saya menerapkan ini ke PDF yang sudah ada?  
@@ -147,10 +149,12 @@ Tentu saja! Anda dapat memuat PDF yang sudah ada dan menerapkan perubahan ini de
 Tidak ada batasan yang pasti, tetapi demi tujuan keterbacaan, disarankan untuk menjaga indentasi dalam batas yang wajar.
 
 ### Bisakah saya menggabungkan ini dengan opsi pemformatan teks lainnya?  
- Ya! Anda dapat menggabungkan`SubsequentLinesIndent` properti dengan opsi pemformatan teks lainnya seperti ukuran font, warna, dan perataan untuk menyesuaikan teks Anda lebih jauh.
+Ya! Anda dapat menggabungkan `SubsequentLinesIndent` properti dengan opsi pemformatan teks lainnya seperti ukuran font, warna, dan perataan untuk menyesuaikan teks Anda lebih jauh.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

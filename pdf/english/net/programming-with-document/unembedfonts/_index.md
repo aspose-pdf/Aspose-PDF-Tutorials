@@ -8,7 +8,9 @@ url: /net/programming-with-document/unembedfonts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unembed Fonts And Optimize PDF Files
@@ -138,6 +140,7 @@ You can purchase a license from the [Aspose purchase page](https://purchase.aspo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/pdf-conversion-transformation/convert-pdfs-to-pptx-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert PDFs to PPTX Format
@@ -109,6 +111,7 @@ You can find extensive documentation and code examples on the Aspose website at 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

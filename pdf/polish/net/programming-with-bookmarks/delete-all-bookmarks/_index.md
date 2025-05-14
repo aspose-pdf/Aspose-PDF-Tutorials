@@ -1,14 +1,16 @@
 ---
-title: Usuń wszystkie zakładki w pliku PDF
-linktitle: Usuń wszystkie zakładki w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak usunąć wszystkie zakładki w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Uprość zarządzanie plikami PDF.
-weight: 30
-url: /pl/net/programming-with-bookmarks/delete-all-bookmarks/
+"description": "Dowiedz się, jak usunąć wszystkie zakładki w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Uprość zarządzanie plikami PDF."
+"linktitle": "Usuń wszystkie zakładki w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Usuń wszystkie zakładki w pliku PDF"
+"url": "/pl/net/programming-with-bookmarks/delete-all-bookmarks/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń wszystkie zakładki w pliku PDF
@@ -21,7 +23,7 @@ Czy zdarzyło Ci się kiedyś przeszukiwać plik PDF, tylko po to, by rozproszy�
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1.  Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony[strona](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać ze strony [strona](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: środowisko programistyczne, w którym można pisać i wykonywać kod .NET.
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 
@@ -69,7 +71,7 @@ Document pdfDocument = new Document(dataDir + "DeleteAllBookmarks.pdf");
 
 ## Krok 3: Usuń wszystkie zakładki
 
- Teraz nadchodzi najważniejsza część — usuwanie zakładek. Aspose.PDF sprawia, że jest to niezwykle proste. Wystarczy zadzwonić`Delete()` metoda na`Outlines` Właściwość dokumentu:
+Teraz nadchodzi najważniejsza część — usuwanie zakładek. Aspose.PDF sprawia, że jest to niezwykle proste. Wystarczy zadzwonić `Delete()` metoda na `Outlines` Właściwość dokumentu:
 
 ```csharp
 pdfDocument.Outlines.Delete();
@@ -99,22 +101,24 @@ masz to! W zaledwie kilku prostych krokach nauczyłeś się, jak usunąć wszyst
 ## Najczęściej zadawane pytania
 
 ### Czy mogę usunąć konkretne zakładki zamiast wszystkich?
- Tak, możesz iterować przez`Outlines` zbieraj i usuwaj konkretne zakładki na podstawie swoich kryteriów.
+Tak, możesz iterować przez `Outlines` zbieraj i usuwaj konkretne zakładki na podstawie swoich kryteriów.
 
 ### Czy korzystanie z Aspose.PDF jest bezpłatne?
- Aspose.PDF oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Sprawdź[kup stronę](https://purchase.aspose.com/buy).
+Aspose.PDF oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Sprawdź [kup stronę](https://purchase.aspose.com/buy).
 
 ### Co zrobić, jeśli podczas usuwania zakładek pojawi się błąd?
 Sprawdź, czy plik PDF nie jest uszkodzony i czy masz uprawnienia do jego modyfikacji.
 
 ### Czy mogę dodać zakładki po ich usunięciu?
- Oczywiście! Możesz dodać nowe zakładki używając`Outlines` nieruchomość po usunięciu starych.
+Oczywiście! Możesz dodać nowe zakładki używając `Outlines` nieruchomość po usunięciu starych.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.PDF?
- Pełną dokumentację można znaleźć na stronie[Strona internetowa Aspose](https://reference.aspose.com/pdf/net/).
+Pełną dokumentację można znaleźć na stronie [Strona internetowa Aspose](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

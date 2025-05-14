@@ -1,14 +1,16 @@
 ---
-title: แปลง XSL-FO เป็นรูปแบบ PDF
-linktitle: แปลง XSL-FO เป็นรูปแบบ PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: แปลง XSL-FO เป็น PDF ด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอน ซอร์สโค้ด และคำถามที่พบบ่อยสำหรับการแปลงข้อมูลอย่างมีประสิทธิภาพ
-weight: 28
-url: /th/java/pdf-conversion-transformation/transform-xsl-fo-to-pdf-format/
+"description": "แปลง XSL-FO เป็น PDF ด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอน ซอร์สโค้ด และคำถามที่พบบ่อยสำหรับการแปลงข้อมูลอย่างมีประสิทธิภาพ"
+"linktitle": "แปลง XSL-FO เป็นรูปแบบ PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "แปลง XSL-FO เป็นรูปแบบ PDF"
+"url": "/th/java/pdf-conversion-transformation/transform-xsl-fo-to-pdf-format/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลง XSL-FO เป็นรูปแบบ PDF
@@ -22,7 +24,7 @@ url: /th/java/pdf-conversion-transformation/transform-xsl-fo-to-pdf-format/
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Eclipse หรือ IntelliJ IDEA
--  Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/pdf/java/).
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 
 ## การตั้งค่าโครงการของคุณ
@@ -66,7 +68,7 @@ public class XSLFOTutorial {
 ## คำถามที่พบบ่อย
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
-คุณสามารถดาวน์โหลดห้องสมุดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
+คุณสามารถดาวน์โหลดห้องสมุดได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
 
 ### ฉันสามารถแปลง XSL-FO เป็นรูปแบบอื่นโดยใช้ Aspose.PDF สำหรับ Java ได้หรือไม่
 ใช่ Aspose.PDF สำหรับ Java รองรับรูปแบบต่างๆ รวมถึง HTML รูปภาพ และอื่นๆ อีกมากมาย ดูรายละเอียดเพิ่มเติมในเอกสารประกอบ
@@ -75,17 +77,19 @@ public class XSLFOTutorial {
 Aspose.PDF สำหรับ Java เป็นไลบรารีเชิงพาณิชย์ที่มีเวอร์ชันทดลองใช้งาน คุณสามารถสำรวจคุณสมบัติและตัวเลือกการอนุญาตสิทธิ์ได้จากเว็บไซต์ของพวกเขา
 
 ### ฉันสามารถปรับแต่งเอาท์พุต PDF ด้วย Aspose.PDF ได้หรือไม่
-แน่นอน! Aspose.PDF สำหรับ Java มีตัวเลือกการปรับแต่งมากมาย ช่วยให้คุณควบคุมลักษณะและเนื้อหาของเอกสาร PDF ของคุณได้
+แน่นอน! Aspose.PDF สำหรับ Java มีตัวเลือกการปรับแต่งมากมาย ช่วยให้คุณควบคุมลักษณะที่ปรากฏและเนื้อหาของเอกสาร PDF ของคุณได้
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมได้ที่ไหน
- สำหรับเอกสารประกอบและการอ้างอิง API ที่ครอบคลุม โปรดไปที่[เอกสาร Aspose.PDF สำหรับ Java](https://reference.aspose.com/pdf/java/).
+สำหรับเอกสารประกอบและการอ้างอิง API ที่ครอบคลุม โปรดไปที่ [เอกสาร Aspose.PDF สำหรับ Java](https://reference-aspose.com/pdf/java/).
 
 ## บทสรุป
 
 การแปลงเอกสาร XSL-FO เป็นรูปแบบ PDF ได้อย่างง่ายดายถือเป็นสิ่งสำคัญสำหรับธุรกิจที่เกี่ยวข้องกับการนำเสนอข้อมูลและการสร้างรายงาน ด้วย Aspose.PDF สำหรับ Java งานนี้จะกลายเป็นเรื่องง่ายขึ้น ด้วยการทำตามคำแนะนำนี้และใช้โค้ดที่ให้มา คุณสามารถผสานฟังก์ชันนี้เข้ากับแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น ขอให้สนุกกับการเขียนโค้ด!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

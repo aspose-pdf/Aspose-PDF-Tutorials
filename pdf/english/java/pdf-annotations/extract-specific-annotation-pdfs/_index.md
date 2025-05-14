@@ -8,7 +8,9 @@ url: /java/pdf-annotations/extract-specific-annotation-pdfs/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Specific Annotation from PDFs
@@ -122,6 +124,7 @@ Yes, you can customize the output format when extracting annotations based on yo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Các thành phần cấu trúc khối văn bản
-linktitle: Các thành phần cấu trúc khối văn bản
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách sử dụng Aspose.PDF cho .NET để thêm các thành phần cấu trúc khối văn bản, chẳng hạn như tiêu đề và đoạn văn được gắn thẻ, vào tài liệu PDF hiện có.
-weight: 220
-url: /vi/net/programming-with-tagged-pdf/text-block-structure-elements/
+"description": "Tìm hiểu cách sử dụng Aspose.PDF cho .NET để thêm các thành phần cấu trúc khối văn bản, chẳng hạn như tiêu đề và đoạn văn được gắn thẻ, vào tài liệu PDF hiện có."
+"linktitle": "Các thành phần cấu trúc khối văn bản"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Các thành phần cấu trúc khối văn bản"
+"url": "/vi/net/programming-with-tagged-pdf/text-block-structure-elements/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các thành phần cấu trúc khối văn bản
@@ -21,11 +23,11 @@ Trong hướng dẫn này, chúng ta sẽ đi sâu vào Aspose.PDF cho .NET và 
 
 Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn đã thiết lập mọi thứ.
 
--  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể lấy nó từ[Trang Tải xuống Aspose.PDF](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể lấy nó từ [Trang Tải xuống Aspose.PDF](https://releases.aspose.com/pdf/net/).
 - Môi trường phát triển: Bạn sẽ cần một IDE như Visual Studio để chạy và kiểm tra mã.
 - .NET Framework: Đảm bảo bạn đã cài đặt .NET trên máy của mình.
 
- Ngoài ra, bạn sẽ cần một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn chỉ đang thử nghiệm phần mềm, hoặc bạn có thể[mua giấy phép đầy đủ](https://purchase.aspose.com/buy) nếu bạn đã sẵn sàng dốc toàn lực.
+Ngoài ra, bạn sẽ cần một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn chỉ đang thử nghiệm phần mềm, hoặc bạn có thể [mua giấy phép đầy đủ](https://purchase.aspose.com/buy) nếu bạn đã sẵn sàng dốc toàn lực.
 
 ## Nhập gói
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
-Chuyện gì đang xảy ra ở đây? Chúng tôi chỉ đơn giản là tạo một tài liệu mới mà cuối cùng sẽ trở thành tệp PDF được gắn thẻ của chúng tôi. Hãy đảm bảo thiết lập`dataDir` đến bất cứ nơi nào bạn muốn lưu PDF cuối cùng. Dễ phải không?
+Chuyện gì đang xảy ra ở đây? Chúng tôi chỉ đơn giản là tạo một tài liệu mới mà cuối cùng sẽ trở thành tệp PDF được gắn thẻ của chúng tôi. Hãy đảm bảo thiết lập `dataDir` đến bất cứ nơi nào bạn muốn lưu PDF cuối cùng. Dễ phải không?
 
 ## Bước 2: Truy cập Nội dung được gắn thẻ
 
@@ -156,13 +158,15 @@ Hoàn toàn được! Bạn có thể đặt bất kỳ văn bản nào bạn th
 Bạn có thể thêm nhiều thành phần phương tiện khác nhau như hình ảnh, bảng biểu, v.v. bằng các phương pháp khác nhau do Aspose.PDF cung cấp cho .NET.
 
 ### Aspose.PDF cho .NET có miễn phí sử dụng không?
- Bạn có thể dùng thử miễn phí bằng cách sử dụng[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nhưng để sử dụng lâu dài, bạn sẽ cần phải[mua giấy phép đầy đủ](https://purchase.aspose.com/buy).
+Bạn có thể dùng thử miễn phí bằng cách sử dụng [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/), nhưng để sử dụng lâu dài, bạn sẽ cần phải [mua giấy phép đầy đủ](https://purchase.aspose.com/buy).
 
 ### Làm thế nào để cải thiện khả năng truy cập vào tệp PDF của tôi hơn nữa?
 Bạn có thể tăng cường khả năng truy cập bằng cách thêm thẻ chi tiết hơn, văn bản thay thế cho hình ảnh và sử dụng các thành phần cấu trúc ngữ nghĩa để mang lại trải nghiệm phong phú hơn cho các công nghệ hỗ trợ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

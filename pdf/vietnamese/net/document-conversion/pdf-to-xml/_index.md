@@ -1,14 +1,16 @@
 ---
-title: PDF sang XML
-linktitle: PDF sang XML
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi PDF sang XML bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. Hướng dẫn từng bước có kèm ví dụ về mã.
-weight: 210
-url: /vi/net/document-conversion/pdf-to-xml/
+"description": "Tìm hiểu cách chuyển đổi PDF sang XML bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. Hướng dẫn từng bước có kèm ví dụ về mã."
+"linktitle": "PDF sang XML"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "PDF sang XML"
+"url": "/vi/net/document-conversion/pdf-to-xml/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF sang XML
@@ -22,7 +24,7 @@ Trong thế giới kỹ thuật số ngày nay, khả năng chuyển đổi tài
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển của chúng tôi.
-2. Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 4. Tệp PDF mẫu: Chuẩn bị tệp PDF mẫu để chuyển đổi. Bạn có thể tạo tệp PDF đơn giản hoặc tải xuống từ internet.
 
@@ -53,18 +55,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Trong đoạn mã này, hãy thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ.`Document` lớp từ Aspose.PDF được sử dụng để tải tệp PDF.
+Trong đoạn mã này, hãy thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. `Document` lớp từ Aspose.PDF được sử dụng để tải tệp PDF.
 
 ## Bước 3: Chuyển đổi PDF sang XML
 
- Sau khi PDF được tải, bước tiếp theo là chuyển đổi nó sang định dạng XML. Điều này được thực hiện bằng cách sử dụng`Save` phương pháp của`Document` lớp. Đây là cách thực hiện:
+Sau khi PDF được tải, bước tiếp theo là chuyển đổi nó sang định dạng XML. Điều này được thực hiện bằng cách sử dụng `Save` phương pháp của `Document` lớp. Đây là cách thực hiện:
 
 ```csharp
 // Lưu đầu ra ở định dạng XML
 doc.Save(dataDir + "PDFToXML_out.xml", SaveFormat.MobiXml);
 ```
 
- Trong dòng này, chúng tôi chỉ định tên và định dạng tệp đầu ra.`SaveFormat.MobiXml` cho biết chúng ta muốn lưu tài liệu ở định dạng XML.
+Trong dòng này, chúng tôi chỉ định tên và định dạng tệp đầu ra. `SaveFormat.MobiXml` cho biết chúng ta muốn lưu tài liệu ở định dạng XML.
 
 ## Phần kết luận
 
@@ -73,22 +75,24 @@ Xin chúc mừng! Bạn đã chuyển đổi thành công tệp PDF sang định
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF dành cho .NET là gì?
-Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo cách lập trình.
+Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để đánh giá thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
-### Có thể chuyển đổi XML trở lại PDF không?
+### Có thể chuyển đổi XML trở lại PDF được không?
 Có, Aspose.PDF cũng hỗ trợ chuyển đổi các tệp XML trở lại định dạng PDF.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF cho .NET [đây](https://reference.aspose.com/pdf/net/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.PDF như thế nào?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập diễn đàn Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

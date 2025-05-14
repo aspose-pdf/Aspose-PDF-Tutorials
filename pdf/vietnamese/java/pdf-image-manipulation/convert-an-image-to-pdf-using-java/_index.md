@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi hình ảnh sang PDF bằng Java
-linktitle: Chuyển đổi hình ảnh sang PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách chuyển đổi hình ảnh sang PDF bằng Java với hướng dẫn toàn diện này. Bao gồm hướng dẫn từng bước và ví dụ mã.
-weight: 12
-url: /vi/java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/
+"description": "Tìm hiểu cách chuyển đổi hình ảnh sang PDF bằng Java với hướng dẫn toàn diện này. Bao gồm hướng dẫn từng bước và ví dụ mã."
+"linktitle": "Chuyển đổi hình ảnh sang PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Chuyển đổi hình ảnh sang PDF bằng Java"
+"url": "/vi/java/pdf-image-manipulation/convert-an-image-to-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi hình ảnh sang PDF bằng Java
@@ -24,7 +26,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 
 - Môi trường phát triển Java: Bạn phải cài đặt Java JDK trên hệ thống của mình.
 
--  Aspose.PDF cho Java: Tải xuống và bao gồm thư viện Aspose.PDF cho Java trong dự án của bạn. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF cho Java: Tải xuống và bao gồm thư viện Aspose.PDF cho Java trong dự án của bạn. Bạn có thể tìm thấy liên kết tải xuống [đây](https://releases.aspose.com/pdf/java/).
 
 - Chuyển đổi hình ảnh: Chuẩn bị sẵn tệp hình ảnh mà bạn muốn chuyển đổi sang PDF. Đảm bảo tệp này có thể truy cập được trong dự án Java của bạn.
 
@@ -61,7 +63,7 @@ pdfDocument.getPages().add();
 // Tải tập tin hình ảnh
 String imagePath = "path/to/your/image.jpg";
 
-//Thêm hình ảnh vào trang đầu tiên
+// Thêm hình ảnh vào trang đầu tiên
 pdfDocument.getPages().get_Item(1).getParagraphs().add(new com.aspose.pdf.Image(imagePath));
 ```
 
@@ -84,7 +86,7 @@ Xin chúc mừng! Bạn đã chuyển đổi thành công một hình ảnh thà
 
 ### Tôi có thể tùy chỉnh giao diện của trang PDF, chẳng hạn như thiết lập kích thước hoặc lề không?
 
-Có, bạn có thể tùy chỉnh giao diện của trang PDF bằng cách điều chỉnh kích thước, lề và các thuộc tính khác bằng Aspose.PDF cho Java. Tham khảo tài liệu[đây](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết về việc tùy chỉnh trang.
+Có, bạn có thể tùy chỉnh giao diện của trang PDF bằng cách điều chỉnh kích thước, lề và các thuộc tính khác bằng Aspose.PDF cho Java. Tham khảo tài liệu [đây](https://reference.aspose.com/pdf/java/) để biết thông tin chi tiết về việc tùy chỉnh trang.
 
 ### Aspose.PDF cho Java có phải là thư viện miễn phí không?
 
@@ -97,9 +99,11 @@ Aspose.PDF for Java không áp đặt giới hạn nghiêm ngặt về kích th�
 ### Tôi có thể bảo vệ tài liệu PDF đã tạo bằng mật khẩu không?
 
 Có, bạn có thể thêm bảo vệ bằng mật khẩu vào tài liệu PDF được tạo bằng Aspose.PDF cho Java. Tham khảo tài liệu của thư viện để biết hướng dẫn về cách thêm các tính năng bảo mật vào tài liệu PDF của bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

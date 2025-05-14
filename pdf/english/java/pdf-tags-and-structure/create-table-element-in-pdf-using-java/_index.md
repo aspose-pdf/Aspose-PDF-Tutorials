@@ -8,7 +8,9 @@ url: /java/pdf-tags-and-structure/create-table-element-in-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Table Element in PDF using Java
@@ -124,9 +126,11 @@ By following these steps, you can create tables that suit your specific requirem
 
 ### Where can I find advanced table customization options?
    Explore the [Aspose.PDF for Java documentation](https://reference.aspose.com/pdf/java/) for a comprehensive list of features and customization options for PDF tables.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

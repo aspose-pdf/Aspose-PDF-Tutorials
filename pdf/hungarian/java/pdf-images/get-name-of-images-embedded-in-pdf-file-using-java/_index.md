@@ -1,36 +1,38 @@
 ---
-title: A PDF-fájlba ágyazott képek neve Java használatával
-linktitle: A PDF-fájlba ágyazott képek neve Java használatával
-second_title: Aspose.PDF Java PDF feldolgozó API
-description: Ismerje meg, hogyan bonthat ki beágyazott képneveket PDF-fájlokból Java és Aspose.PDF for Java használatával. Lépésről lépésre útmutató forráskóddal a hatékony PDF-adatok kinyeréséhez.
-weight: 14
-url: /hu/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/
+"description": "Tanulja meg, hogyan kinyerheti a beágyazott képneveket PDF fájlokból Java és az Aspose.PDF for Java használatával. Lépésről lépésre útmutató forráskóddal a hatékony PDF adatkinyeréshez."
+"linktitle": "PDF fájlba ágyazott képek nevének lekérése Java használatával"
+"second_title": "Aspose.PDF Java PDF feldolgozó API"
+"title": "PDF fájlba ágyazott képek nevének lekérése Java használatával"
+"url": "/hu/java/pdf-images/get-name-of-images-embedded-in-pdf-file-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A PDF-fájlba ágyazott képek neve Java használatával
+# PDF fájlba ágyazott képek nevének lekérése Java használatával
 
 ## Bevezetés
 
-Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan lehet kivonni a beágyazott képek nevét egy PDF-fájlba Java és az Aspose.PDF for Java könyvtár használatával. A beágyazott képek értékes információkat tartalmazhatnak, és a nevük programozott elérése nagyon hasznos lehet.
+Ebben a lépésről lépésre bemutatott útmutatóban megvizsgáljuk, hogyan lehet kinyerni a beágyazott képek nevét egy PDF fájlban Java és az Aspose.PDF for Java könyvtár használatával. A beágyazott képek értékes információkat tartalmazhatnak, és a nevük programozott elérése igen hasznos lehet.
 
 ## A feladat megértése
 
-Mielőtt belemerülnénk a kódba, tisztázzuk, mit akarunk elérni. Olyan Java-alkalmazást szeretnénk fejleszteni, amely képes megnyitni egy PDF-fájlt, és kibontani az összes beágyazott kép nevét. Ezeket a neveket aztán különféle célokra, például további feldolgozásra vagy dokumentációra lehet használni.
+Mielőtt belemerülnénk a kódba, tisztázzuk, mit is szeretnénk elérni. Egy olyan Java alkalmazást szeretnénk fejleszteni, amely képes megnyitni egy PDF fájlt, és kinyerni az összes beágyazott kép nevét. Ezeket a neveket aztán különféle célokra használhatjuk fel, például további feldolgozásra vagy dokumentációra.
 
 ## A környezet beállítása
 
-A kezdéshez győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Kezdéshez győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve
-- Ön által választott integrált fejlesztési környezet (IDE) (Eclipse, IntelliJ stb.)
+- Telepített Java fejlesztőkészlet (JDK)
+- Integrált fejlesztői környezet (IDE) az Ön választása szerint (Eclipse, IntelliJ, stb.)
 
-## Aspose.PDF for Java hozzáadása projektjéhez
+## Aspose.PDF hozzáadása Java-hoz a projekthez
 
-Az Aspose.PDF for Java egy hatékony könyvtár a PDF dokumentumok kezeléséhez. Ha a projektben szeretné használni, felveheti függőségként. Íme egy Maven függőségi részlet:
+Az Aspose.PDF for Java egy hatékony könyvtár PDF dokumentumokkal való munkához. A projektben való használatához függőségként adhatja hozzá. Íme egy Maven függőségi kódrészlet:
 
 ```xml
 <dependency>
@@ -42,7 +44,7 @@ Az Aspose.PDF for Java egy hatékony könyvtár a PDF dokumentumok kezeléséhez
 
 ## PDF fájl betöltése
 
- Ebben a lépésben Java kódot írunk, hogy betöltsünk egy PDF fájlt az alkalmazásunkba. Cserélnie kellene`"input.pdf"` a PDF-fájl elérési útjával.
+Ebben a lépésben Java kódot fogunk írni egy PDF fájl betöltéséhez az alkalmazásunkba. A következőt kell lecserélni: `"input.pdf"` a PDF-fájl elérési útjával.
 
 ```java
 com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("input.pdf");
@@ -50,16 +52,16 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("input.pdf");
 
 ## Beágyazott képek kibontása
 
-A beágyazott képek kinyeréséhez hozzá kell férnünk a PDF dokumentum forrásaihoz. A következőképpen teheti meg:
+A beágyazott képek kinyeréséhez hozzá kell férnünk a PDF dokumentum erőforrásaihoz. Így teheti meg:
 
 ```java
-com.aspose.pdf.Page page = pdfDocument.getPages().get_Item(1); // Cserélje ki a kívánt oldalszámmal
+com.aspose.pdf.Page page = pdfDocument.getPages().get_Item(1); // Cserélje ki a kívánt oldalszámra
 com.aspose.pdf.XImageCollection images = page.getResources().getImages();
 ```
 
 ## Java kód írása képkivonáshoz
 
-Most nézzük át a beágyazott képeket, és vegyük ki a nevüket:
+Most pedig nézzük végig a beágyazott képeket, és kinyerjük a nevüket:
 
 ```java
 for (com.aspose.pdf.XImage image : images) {
@@ -69,44 +71,46 @@ for (com.aspose.pdf.XImage image : images) {
 
 ## Kivételek kezelése
 
-Elengedhetetlen a folyamat során előforduló kivételek kezelése, például ha a PDF-fájl nem található, vagy nem megfelelő formátumú. Fontolja meg a try-catch blokkok használatát a kivételek kecses kezelésére.
+Fontos kezelni a folyamat során esetlegesen előforduló kivételeket, például ha a PDF-fájl nem található, vagy nem a megfelelő formátumú. A kivételek szabályos kezeléséhez érdemes lehet try-catch blokkokat használni.
 
-## A kód összeállítása és futtatása
+## A kód fordítása és futtatása
 
-Fordítsa le a Java kódot, és futtassa az alkalmazást. Ügyeljen arra, hogy a PDF-fájl helyes elérési útját adja meg. Látnia kell a beágyazott képek neveit a konzolon.
+Fordítsd le a Java kódot, és futtasd az alkalmazást. Győződj meg róla, hogy a PDF fájl helyes elérési útját adtad meg. A beágyazott képek nevének megjelennie kell a konzolon.
 
 ## A kivont képek ellenőrzése
 
-Továbbfejlesztheti ezt a kódot a kivont képnevek mentéséhez vagy feldolgozásához az Ön igényei szerint. Győződjön meg arról, hogy a kivonatolt nevek megfelelnek az Ön elvárásainak és igényeinek.
+Továbbfejlesztheti ezt a kódot, hogy a kinyert képneveket az igényeinek megfelelően mentse vagy dolgozza fel. Győződjön meg arról, hogy a kinyert nevek megfelelnek az elvárásainak és igényeinek.
 
 ## További szempontok
 
-- Az Aspose.PDF for Java számos egyéb funkciót kínál a PDF-kezeléshez. Fedezd fel a dokumentációt a fejlettebb funkciókért.
+- Az Aspose.PDF for Java számos egyéb funkciót kínál a PDF-ek kezeléséhez. A haladóbb funkciókért tekintse meg a dokumentációt.
 
 ## Következtetés
 
-Ebben a lépésenkénti útmutatóban megtanultuk, hogyan használhatja az Aspose.PDF for Java fájlt a beágyazott képek nevének PDF-fájlból való kinyerésére. Ez értékes eszköz lehet különféle alkalmazásokhoz, például adatkinyeréshez és dokumentumelemzéshez.
+Ebben a lépésről lépésre szóló útmutatóban megtanultuk, hogyan használható az Aspose.PDF for Java a beágyazott képek nevének kinyerésére egy PDF fájlból. Ez értékes eszköz lehet különféle alkalmazásokhoz, például adatkinyeréshez és dokumentumelemzéshez.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.PDF for Java fájlt?
+### Hogyan telepíthetem az Aspose.PDF-et Java-hoz?
 
-A korábban említett Maven-függőség hozzáadásával az Aspose.PDF for Java fájlt is belefoglalhatja projektjébe. Alternatív megoldásként letöltheti a könyvtárat az Aspose webhelyéről.
+Az Aspose.PDF for Java fájlt a korábban említett Maven-függőség hozzáadásával illesztheted be a projektedbe. Alternatív megoldásként letöltheted a könyvtárat az Aspose weboldaláról.
 
-### Kivonhatok más információkat a PDF-ből az Aspose.PDF for Java használatával?
+### Kinyerhetek más információkat egy PDF-ből az Aspose.PDF for Java segítségével?
 
-Igen, az Aspose.PDF for Java kiterjedt lehetőségeket biztosít a PDF-dokumentumokkal való munkavégzéshez, beleértve a szövegkivonást, az oldalkezelést és egyebeket.
+Igen, az Aspose.PDF for Java kiterjedt lehetőségeket kínál a PDF dokumentumokkal való munkához, beleértve a szöveg kinyerését, az oldalkezelést és egyebeket.
 
-### Mi a teendő, ha problémákat tapasztalok az Aspose.PDF for Java használata során?
+### Mi van, ha problémákba ütközöm az Aspose.PDF Java-alapú használata közben?
 
-Ha bármilyen problémába ütközik, vagy kérdései vannak az Aspose.PDF for Java használatával kapcsolatban, tekintse meg a dokumentációt, vagy kérjen segítséget az Aspose támogatási csapatától.
+Ha bármilyen problémába ütközik, vagy kérdése van az Aspose.PDF for Java használatával kapcsolatban, tekintse meg a dokumentációt, vagy kérjen segítséget az Aspose támogató csapatától.
 
-### Ingyenesen használható az Aspose.PDF for Java?
+### Ingyenesen használható az Aspose.PDF Java-hoz?
 
-Az Aspose.PDF for Java egy ingyenes próbaverzióval rendelkező kereskedelmi könyvtár. A próbaidőszak alatt felfedezheti a funkcióit, és fontolóra veheti a licenc vásárlását a folyamatos használathoz.
+Az Aspose.PDF for Java egy kereskedelmi forgalomban kapható könyvtár, ingyenes próbaverzióval. A próbaidőszak alatt felfedezheti a funkcióit, és fontolóra veheti egy licenc megvásárlását a további használathoz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/pdf-images/extract-image-properties-from-pdf-in-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Image Properties from PDF in Java
@@ -114,6 +116,7 @@ You can access comprehensive documentation and examples on the Aspose.PDF for Ja
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

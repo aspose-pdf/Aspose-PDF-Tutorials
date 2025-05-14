@@ -1,14 +1,16 @@
 ---
-title: Gắn thẻ hình ảnh trong PDF hiện có
-linktitle: Gắn thẻ hình ảnh trong PDF hiện có
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách gắn thẻ hình ảnh trong các tệp PDF hiện có bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để tăng cường khả năng truy cập với sự tuân thủ PDF/UA.
-weight: 210
-url: /vi/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/
+"description": "Tìm hiểu cách gắn thẻ hình ảnh trong các tệp PDF hiện có bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để tăng cường khả năng truy cập với sự tuân thủ PDF/UA."
+"linktitle": "Gắn thẻ hình ảnh trong PDF hiện có"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Gắn thẻ hình ảnh trong PDF hiện có"
+"url": "/vi/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gắn thẻ hình ảnh trong PDF hiện có
@@ -21,10 +23,10 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách gắn th�
 
 Trước khi bắt đầu, chúng ta hãy xem qua những gì bạn cần để bắt đầu:
 
--  Aspose.PDF cho .NET: Đảm bảo bạn đã tải xuống và cài đặt phiên bản mới nhất của Aspose.PDF cho .NET.[Tải xuống tại đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Đảm bảo bạn đã tải xuống và cài đặt phiên bản mới nhất của Aspose.PDF cho .NET. [Tải xuống tại đây](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Đảm bảo rằng bạn đã thiết lập môi trường phát triển .NET như Visual Studio.
 - Hiểu biết cơ bản về cấu trúc PDF: Làm quen với các thành phần cấu trúc PDF như đoạn văn, khoảng, bảng và hình ảnh.
--  Giấy phép hợp lệ: Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy) hoặc sử dụng tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+- Giấy phép hợp lệ: Bạn có thể mua giấy phép [đây](https://purchase.aspose.com/buy) hoặc sử dụng tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -56,8 +58,8 @@ string logFile = dataDir + "TH_out.xml";
 Document document = new Document(inFile);
 ```
 
--  Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tập tin của bạn.
--  Các`Document` lớp cho phép bạn tải PDF hiện có. Bạn sẽ sửa đổi PDF này để gắn thẻ hình ảnh.
+- Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tập tin của bạn.
+- Các `Document` lớp cho phép bạn tải PDF hiện có. Bạn sẽ sửa đổi PDF này để gắn thẻ hình ảnh.
 
 ## Bước 2: Truy cập Nội dung được gắn thẻ và Phần tử cấu trúc gốc
 
@@ -70,7 +72,7 @@ StructureElement rootElement = taggedContent.RootElement;
 ```
 
 - `TaggedContent` cung cấp quyền truy cập vào các thành phần có cấu trúc trong PDF.
--  Các`RootElement` là phần tử cấu trúc trên cùng, từ đó bạn có thể di chuyển xuống các phần tử khác như đoạn văn, bảng và hình ảnh.
+- Các `RootElement` là phần tử cấu trúc trên cùng, từ đó bạn có thể di chuyển xuống các phần tử khác như đoạn văn, bảng và hình ảnh.
 
 ## Bước 3: Đặt Tiêu đề cho Tài liệu PDF được gắn thẻ
 
@@ -85,7 +87,7 @@ taggedContent.SetTitle("Document with images");
 
 ## Bước 4: Tìm và gắn thẻ hình ảnh
 
- Bây giờ, chúng ta hãy tìm phần tử hình ảnh (được gọi là`FigureElement` trong Aspose.PDF), đặt văn bản thay thế cho nó và cấu hình các thuộc tính bố cục của nó.
+Bây giờ, chúng ta hãy tìm phần tử hình ảnh (được gọi là `FigureElement` trong Aspose.PDF), đặt văn bản thay thế cho nó và cấu hình các thuộc tính bố cục của nó.
 
 ```csharp
 // Lặp qua tất cả các phần tử Hình (hình ảnh) và đặt văn bản thay thế và các thuộc tính bố cục
@@ -104,13 +106,13 @@ foreach (FigureElement figureElement in rootElement.FindElements<FigureElement>(
 }
 ```
 
--  Mã này lặp qua tất cả`FigureElement` các đối tượng trong cấu trúc gốc, biểu diễn hình ảnh.
+- Mã này lặp qua tất cả `FigureElement` các đối tượng trong cấu trúc gốc, biểu diễn hình ảnh.
 - Thiết lập văn bản thay thế để dễ truy cập (trình đọc màn hình sẽ sử dụng văn bản này để mô tả hình ảnh).
-- Hộp giới hạn (`BBox`chỉ định tọa độ cho bố cục của hình ảnh, đảm bảo hình ảnh được hiển thị chính xác trong tài liệu.
+- Hộp giới hạn (`BBox`) chỉ định tọa độ cho bố cục của hình ảnh, đảm bảo hình ảnh được hiển thị chính xác trong tài liệu.
 
 ## Bước 5: Sửa đổi các phần tử Span trong Bảng
 
- Trong một số trường hợp, bạn có thể cần phải sửa đổi các phần tử span trong một bảng. Ở đây, chúng tôi sẽ trình bày cách tìm một`SpanElement` và chuyển nó vào một đoạn văn.
+Trong một số trường hợp, bạn có thể cần phải sửa đổi các phần tử span trong một bảng. Ở đây, chúng tôi sẽ trình bày cách tìm một `SpanElement` và chuyển nó thành một đoạn văn.
 
 ```csharp
 // Tìm các thành phần bảng, khoảng và đoạn văn
@@ -123,8 +125,8 @@ ParagraphElement paragraph = firstTdElement.FindElements<ParagraphElement>(true)
 spanElement.ChangeParentElement(paragraph);
 ```
 
--  Ở đây, chúng tôi xác định vị trí`TableElement`, `SpanElement` , Và`ParagraphElement` trong PDF.
--  Sử dụng`ChangeParentElement` phương pháp này, chúng ta di chuyển khoảng vào trong đoạn văn để đảm bảo gắn thẻ và cấu trúc phù hợp.
+- Ở đây, chúng tôi xác định vị trí `TableElement`, `SpanElement`, Và `ParagraphElement` trong PDF.
+- Sử dụng `ChangeParentElement` phương pháp này, chúng ta di chuyển khoảng vào trong đoạn văn để đảm bảo gắn thẻ và cấu trúc phù hợp.
 
 ## Bước 6: Lưu tài liệu và xác thực sự tuân thủ PDF/UA
 
@@ -140,7 +142,7 @@ bool isPdfUaCompliance = document.Validate(logFile, PdfFormat.PDF_UA_1);
 Console.WriteLine(String.Format("PDF/UA compliance: {0}", isPdfUaCompliance));
 ```
 
--  Các`Validate` Phương pháp này kiểm tra tài liệu PDF theo các tiêu chuẩn PDF/UA và ghi lại kết quả.
+- Các `Validate` Phương pháp này kiểm tra tài liệu PDF theo các tiêu chuẩn PDF/UA và ghi lại kết quả.
 - Đảm bảo tuân thủ giúp cải thiện khả năng truy cập và đáp ứng các yêu cầu quy định về xuất bản tài liệu.
 
 ## Phần kết luận
@@ -153,7 +155,7 @@ Trong hướng dẫn này, chúng tôi đã chỉ cho bạn cách gắn thẻ h�
 Aspose.PDF for .NET là một thư viện mạnh mẽ được sử dụng để tạo, chỉnh sửa và thao tác các tài liệu PDF theo chương trình trong môi trường .NET.
 
 ### Làm thế nào để đảm bảo tuân thủ PDF/UA?
- Bạn có thể sử dụng Aspose.PDF`Validate` phương pháp kiểm tra sự tuân thủ PDF/UA sau khi thực hiện sửa đổi đối với tài liệu.
+Bạn có thể sử dụng Aspose.PDF `Validate` phương pháp kiểm tra sự tuân thủ PDF/UA sau khi thực hiện sửa đổi đối với tài liệu.
 
 ### Văn bản thay thế trong PDF là gì?
 Văn bản thay thế là mô tả được thêm vào hình ảnh trong tệp PDF để cải thiện khả năng truy cập, đặc biệt đối với người dùng sử dụng trình đọc màn hình.
@@ -162,10 +164,12 @@ Văn bản thay thế là mô tả được thêm vào hình ảnh trong tệp P
 Có, Aspose.PDF cho phép bạn thao tác các bảng, khoảng và các thành phần có cấu trúc khác trong tài liệu PDF.
 
 ### Tôi có thể tải xuống Aspose.PDF cho .NET ở đâu?
- Bạn có thể tải xuống phiên bản mới nhất của Aspose.PDF cho .NET[đây](https://releases.aspose.com/pdf/net/).
+Bạn có thể tải xuống phiên bản mới nhất của Aspose.PDF cho .NET [đây](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

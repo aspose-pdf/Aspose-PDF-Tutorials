@@ -1,14 +1,16 @@
 ---
-title: สร้างลิงก์แอปพลิเคชันในไฟล์ PDF
-linktitle: สร้างลิงก์แอปพลิเคชันในไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีสร้างลิงก์แอปพลิเคชันในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อปรับปรุงการโต้ตอบใน PDF ของคุณ
-weight: 20
-url: /th/net/programming-with-links-and-actions/create-application-link/
+"description": "เรียนรู้วิธีสร้างลิงก์แอปพลิเคชันในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อปรับปรุงการโต้ตอบใน PDF ของคุณ"
+"linktitle": "สร้างลิงก์แอปพลิเคชันในไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "สร้างลิงก์แอปพลิเคชันในไฟล์ PDF"
+"url": "/th/net/programming-with-links-and-actions/create-application-link/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างลิงก์แอปพลิเคชันในไฟล์ PDF
@@ -62,7 +64,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังโฟลเดอร์ที่มีเอกสาร PDF ของคุณ ตัวแปรนี้จะทำหน้าที่เป็นเส้นทางพื้นฐานสำหรับการจัดการ PDF ของเรา
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังโฟลเดอร์ที่มีเอกสาร PDF ของคุณ ตัวแปรนี้จะทำหน้าที่เป็นเส้นทางพื้นฐานสำหรับการจัดการ PDF ของเรา
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
@@ -72,7 +74,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "CreateApplicationLink.pdf");
 ```
 
- เรากำลังใช้`Document` คลาสจาก Aspose.PDF เพื่อโหลดไฟล์ PDF ของเรา อินสแตนซ์นี้จะช่วยให้เราแก้ไขและจัดการไฟล์ PDF ได้
+เรากำลังใช้ `Document` คลาสจาก Aspose.PDF เพื่อโหลดไฟล์ PDF ของเรา อินสแตนซ์นี้จะช่วยให้เราแก้ไขและจัดการไฟล์ PDF ได้
 
 ## ขั้นตอนที่ 3: สร้างคำอธิบายลิงก์
 
@@ -83,8 +85,8 @@ Page page = document.Pages[1];
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
 ```
 
--  ที่นี่,`page` ระบุหน้าที่คุณจะนำลิงก์ไปใช้งาน (ในกรณีนี้คือหน้าแรก)
--  การ`LinkAnnotation`คลาสจะสร้างลิงก์ใหม่บนเพจที่ระบุ โดยกำหนดด้วยพื้นที่สี่เหลี่ยมผืนผ้าที่เริ่มต้นที่ (100,100) และสิ้นสุดที่ (300,300) สี่เหลี่ยมผืนผ้านี้จะกำหนดพื้นที่ที่คลิกได้ของลิงก์ใน PDF
+- ที่นี่, `page` ระบุหน้าที่คุณจะนำลิงก์ไปใช้งาน (ในกรณีนี้คือหน้าแรก)
+- การ `LinkAnnotation` คลาสจะสร้างลิงก์ใหม่บนเพจที่ระบุ ซึ่งกำหนดโดยพื้นที่สี่เหลี่ยมผืนผ้าที่เริ่มต้นที่ (100,100) และสิ้นสุดที่ (300,300) สี่เหลี่ยมผืนผ้านี้จะกำหนดพื้นที่ที่คลิกได้ของลิงก์ใน PDF
 
 ## ขั้นตอนที่ 4: ตั้งค่าสีลิงค์
 
@@ -104,7 +106,7 @@ link.Color = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green);
 link.Action = new LaunchAction(document, dataDir + "CreateApplicationLink.pdf");
 ```
 
- กับ`LaunchAction`เรากำหนดว่าลิงก์ทำงานอย่างไรเมื่อคลิก ที่นี่ เราได้กำหนดไว้ว่าจะเปิดไฟล์ PDF เดียวกัน คุณสามารถปรับเปลี่ยนได้อย่างง่ายดายเพื่อลิงก์ไปยังแอปพลิเคชันหรือเอกสารอื่นตามต้องการ
+กับ `LaunchAction`เรากำหนดว่าลิงก์ทำงานอย่างไรเมื่อคลิก ที่นี่ เราได้กำหนดไว้ว่าจะเปิดไฟล์ PDF เดียวกัน คุณสามารถปรับเปลี่ยนได้อย่างง่ายดายเพื่อลิงก์ไปยังแอปพลิเคชันหรือเอกสารอื่นตามต้องการ
 
 ## ขั้นตอนที่ 6: เพิ่มคำอธิบายลงในหน้า
 
@@ -147,19 +149,21 @@ Console.WriteLine("\nApplication link created successfully.\nFile saved at " + d
 Aspose.PDF สำหรับ .NET เป็นไลบรารีอันทรงพลังสำหรับการสร้างและจัดการไฟล์ PDF ในแอปพลิเคชันที่พัฒนาด้วยกรอบงาน .NET
 
 ### ฉันจะดาวน์โหลด Aspose.PDF ได้อย่างไร?  
- คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ .NET ได้โดยไปที่[ลิงค์นี้](https://releases.aspose.com/pdf/net/).
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ .NET ได้โดยไปที่ [ลิงค์นี้](https://releases-aspose.com/pdf/net/).
 
 ### มีตัวเลือกสำหรับการทดลองใช้ Aspose ฟรีหรือไม่  
- ใช่ คุณสามารถเข้าถึงรุ่นทดลองใช้งานฟรีของ Aspose.PDF ได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถเข้าถึงรุ่นทดลองใช้งานฟรีของ Aspose.PDF ได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับการใช้ Aspose.PDF ได้หรือไม่  
- แน่นอน! หากมีคำถามเกี่ยวกับการสนับสนุน โปรดไปที่[ฟอรั่มสนับสนุน Aspose PDF](https://forum.aspose.com/c/pdf/10).
+แน่นอน! หากมีคำถามเกี่ยวกับการสนับสนุน โปรดไปที่ [ฟอรั่มสนับสนุน Aspose PDF](https://forum-aspose.com/c/pdf/10).
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose ได้อย่างไร  
- คุณสามารถขอใบอนุญาตชั่วคราวได้จาก[หน้านี้](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [หน้าเพจนี้](https://purchase-aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

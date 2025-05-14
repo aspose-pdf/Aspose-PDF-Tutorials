@@ -1,14 +1,16 @@
 ---
-title: Thêm phần tử cấu trúc vào phần tử
-linktitle: Thêm phần tử cấu trúc vào phần tử
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm các thành phần cấu trúc trợ năng vào PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này.
-weight: 20
-url: /vi/net/programming-with-tagged-pdf/add-structure-element-into-element/
+"description": "Tìm hiểu cách thêm các thành phần cấu trúc trợ năng vào PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này."
+"linktitle": "Thêm phần tử cấu trúc vào phần tử"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm phần tử cấu trúc vào phần tử"
+"url": "/vi/net/programming-with-tagged-pdf/add-structure-element-into-element/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm phần tử cấu trúc vào phần tử
@@ -21,8 +23,8 @@ Trong thế giới kỹ thuật số ngày nay, khả năng truy cập là chìa
 
 Trước khi bắt đầu hành trình khám phá thế giới các thành phần cấu trúc PDF, hãy đảm bảo rằng bạn có mọi thứ mình cần:
 
-1.  Studio trực quan: Đây là IDE nơi bạn sẽ viết và chạy mã C# của mình. Bạn có thể tải xuống từ[Visual Studio](https://visualstudio.microsoft.com/) nếu bạn chưa làm như vậy.
-2.  Aspose.PDF cho Thư viện .NET: Bạn sẽ cần thư viện để thao tác PDF. Tải xuống phiên bản mới nhất từ[Trang web Aspose](https://releases.aspose.com/pdf/net/). Thư viện này rất quan trọng đối với dự án của chúng tôi.
+1. Visual Studio: Đây là IDE nơi bạn sẽ viết và chạy mã C# của mình. Bạn có thể tải xuống từ [Studio trực quan](https://visualstudio.microsoft.com/) nếu bạn chưa làm như vậy.
+2. Aspose.PDF cho Thư viện .NET: Bạn sẽ cần thư viện để thao tác PDF. Tải xuống phiên bản mới nhất từ [Trang web Aspose](https://releases.aspose.com/pdf/net/). Thư viện này rất quan trọng đối với dự án của chúng tôi.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với cú pháp C# và lập trình hướng đối tượng sẽ có lợi. Nếu bạn có thể vui vẻ viết một vài dòng C#, bạn đã sẵn sàng!
 4. Thư mục tài liệu PDF: Tạo một thư mục trên hệ thống nơi bạn sẽ lưu trữ các tệp PDF đầu vào và đầu ra cho hướng dẫn này.
 
@@ -49,7 +51,7 @@ Trước khi bất kỳ mã hóa nào diễn ra, chúng ta cần thiết lập n
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu giữ các tệp PDF của mình. Điều này có thể giống như`C:\\PDFs\\`.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu giữ các tệp PDF của mình. Điều này có thể giống như `C:\\PDFs\\`.
 
 ## Bước 2: Tạo một tài liệu PDF mới
 
@@ -59,7 +61,7 @@ Bây giờ chúng ta đã thiết lập được thư mục, hãy tạo một t�
 Document document = new Document();
 ```
 
- Dòng này khởi tạo một phiên bản mới của`Document` lớp, cho phép chúng ta bắt đầu làm việc với nội dung PDF của mình.
+Dòng này khởi tạo một phiên bản mới của `Document` lớp, cho phép chúng ta bắt đầu làm việc với nội dung PDF của mình.
 
 ## Bước 3: Truy cập và thiết lập nội dung được gắn thẻ
 
@@ -114,7 +116,7 @@ SpanElement span12 = taggedContent.CreateSpanElement();
 span12.SetText(" and Span_12.");
 ```
 
- Các`span` Các thành phần giống như các đoạn văn nhỏ trong đoạn văn lớn hơn của chúng ta. Chúng cho phép kiểm soát tốt hơn định dạng văn bản.
+Các `span` Các thành phần giống như các đoạn văn nhỏ trong đoạn văn lớn hơn của chúng ta. Chúng cho phép kiểm soát tốt hơn định dạng văn bản.
 
 ### Kết hợp tất cả
 
@@ -142,13 +144,13 @@ p2.SetText(" and ");
 p2.AppendChild(span22);
 ```
 
- Cứ tiếp tục sáng tạo`ParagraphElement` cát`SpanElement` s, thêm chúng vào`rootElement` theo cùng cách như đã trình bày ở trên`p1`.
+Cứ tiếp tục sáng tạo `ParagraphElement`cát `SpanElement`s, thêm chúng vào `rootElement` theo cùng một cách như đã trình bày ở trên `p1`.
 
 ## Bước 5: Lưu tài liệu của bạn
 
 Khi đã hoàn thành tất cả các thành phần cấu trúc, đã đến lúc lưu tài liệu PDF của bạn.
 
-### Chỉ định Đường dẫn Tệp Đầu ra
+### Chỉ định đường dẫn tệp đầu ra
 
 ```csharp
 string outFile = dataDir + "AddStructureElementIntoElement_Output.pdf";
@@ -164,7 +166,7 @@ document.Save(outFile);
 
 ## Bước 6: Xác thực sự tuân thủ PDF/UA
 
-Bước cuối cùng liên quan đến việc kiểm tra xem tài liệu của bạn có tuân thủ các tiêu chuẩn PDF/UA về khả năng truy cập hay không.
+Bước cuối cùng là kiểm tra xem tài liệu của bạn có tuân thủ các tiêu chuẩn PDF/UA về khả năng truy cập hay không.
 
 Để kiểm tra sự tuân thủ, hãy sử dụng mã sau:
 
@@ -190,16 +192,18 @@ Aspose.PDF for .NET là một thư viện cho phép các nhà phát triển tạ
 Bạn có thể xác thực tệp PDF của mình theo các tiêu chuẩn PDF/UA bằng thư viện Aspose.PDF để đảm bảo tệp PDF đáp ứng các hướng dẫn về khả năng truy cập.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí, cho phép bạn khám phá các tính năng của nó mà không mất bất kỳ chi phí nào. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí, cho phép bạn khám phá các tính năng của nó mà không mất bất kỳ chi phí nào. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu về Aspose.PDF ở đâu?
-Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.PDF [đây](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để mua giấy phép cho Aspose.PDF?
- Bạn có thể mua giấy phép trực tiếp từ trang web Aspose[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép trực tiếp từ trang web Aspose [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

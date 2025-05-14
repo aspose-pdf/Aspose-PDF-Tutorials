@@ -1,14 +1,16 @@
 ---
-title: Ekspor XML ke Dokumen PDF
-linktitle: Ekspor XML ke Dokumen PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Konversi XML ke PDF dengan mudah menggunakan Aspose.PDF untuk Java. Sederhanakan representasi dan berbagi data. Pelajari caranya dalam panduan lengkap ini.
-weight: 26
-url: /id/java/pdf-conversion-transformation/export-xml-to-pdf-documents/
+"description": "Konversi XML ke PDF dengan mudah menggunakan Aspose.PDF untuk Java. Sederhanakan representasi dan berbagi data. Pelajari caranya dalam panduan lengkap ini."
+"linktitle": "Ekspor XML ke Dokumen PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ekspor XML ke Dokumen PDF"
+"url": "/id/java/pdf-conversion-transformation/export-xml-to-pdf-documents/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor XML ke Dokumen PDF
@@ -23,7 +25,7 @@ Di era digital saat ini, penanganan dokumen yang efisien sangatlah penting. Bany
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda.
--  Aspose.PDF untuk Java: Unduh dan instal Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Unduh dan instal Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Proyek Anda
 
@@ -54,11 +56,11 @@ page.getParagraphs().add(textFragment);
 doc.save("output.pdf");
 ```
 
- Dalam potongan kode ini, pertama-tama kita membuat yang baru`Document` objek dan menambahkan halaman ke dalamnya. Kemudian kita membuat`TextFragment` berisi data XML Anda dan menambahkannya ke halaman. Terakhir, kami menyimpan dokumen sebagai file PDF bernama "output.pdf."
+Dalam potongan kode ini, pertama-tama kita membuat yang baru `Document` objek dan menambahkan halaman ke dalamnya. Kemudian kita membuat `TextFragment` berisi data XML Anda dan menambahkannya ke halaman. Terakhir, kami menyimpan dokumen sebagai file PDF bernama "output.pdf."
 
 ## Menyesuaikan Konversi
 
- Anda dapat menyesuaikan konversi PDF untuk memenuhi kebutuhan spesifik Anda. Misalnya, Anda dapat mengatur ukuran halaman, margin, font, dan banyak lagi. Aspose.PDF untuk Java menyediakan dokumentasi yang lengkap untuk membantu Anda menyesuaikan proses konversi sesuai dengan kebutuhan Anda. Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menyesuaikan konversi PDF untuk memenuhi kebutuhan spesifik Anda. Misalnya, Anda dapat mengatur ukuran halaman, margin, font, dan banyak lagi. Aspose.PDF untuk Java menyediakan dokumentasi yang lengkap untuk membantu Anda menyesuaikan proses konversi sesuai dengan kebutuhan Anda. Anda dapat menemukan dokumentasinya [Di Sini](https://reference.aspose.com/pdf/java/).
 
 ## Kesimpulan
 
@@ -68,7 +70,7 @@ Dalam artikel ini, kami telah menjajaki cara mengekspor data XML ke dokumen PDF 
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Untuk menginstal Aspose.PDF untuk Java, kunjungi situs web[Di Sini](https://releases.aspose.com/pdf/java/) dan unduh pustakanya. Ikuti petunjuk instalasi yang tersedia dalam dokumentasi.
+Untuk menginstal Aspose.PDF untuk Java, kunjungi situs web [Di Sini](https://releases.aspose.com/pdf/java/) dan unduh pustakanya. Ikuti petunjuk instalasi yang tersedia dalam dokumentasi.
 
 ### Bisakah saya menyesuaikan tampilan dokumen PDF?
 
@@ -85,9 +87,11 @@ Ya, Aspose.PDF untuk Java menawarkan fitur enkripsi dan keamanan untuk melindung
 ### Bisakah saya mengonversi file XML dengan struktur kompleks ke PDF?
 
 Tentu saja! Aspose.PDF untuk Java dapat menangani file XML dengan struktur yang kompleks. Anda dapat memetakan elemen XML ke elemen PDF dan membuat tata letak PDF yang sangat disesuaikan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

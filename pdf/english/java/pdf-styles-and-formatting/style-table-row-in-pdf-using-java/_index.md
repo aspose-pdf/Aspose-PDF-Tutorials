@@ -8,7 +8,9 @@ url: /java/pdf-styles-and-formatting/style-table-row-in-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Style Table Row in PDF using Java
@@ -136,6 +138,7 @@ For comprehensive documentation and additional resources, visit [here](https://r
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

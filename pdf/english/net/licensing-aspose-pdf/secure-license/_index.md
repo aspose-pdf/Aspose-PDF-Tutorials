@@ -8,7 +8,9 @@ url: /net/licensing-aspose-pdf/secure-license/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Secure License In PDF File
@@ -123,6 +125,7 @@ If you face any issues, you can seek help from the [Aspose support forum](https:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

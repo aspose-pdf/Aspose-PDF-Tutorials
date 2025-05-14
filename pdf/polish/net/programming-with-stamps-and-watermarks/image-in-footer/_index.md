@@ -1,14 +1,16 @@
 ---
-title: Obraz w stopce
-linktitle: Obraz w stopce
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodać obraz w stopce pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu szczegółowemu samouczkowi krok po kroku. Idealne do ulepszania dokumentów.
-weight: 130
-url: /pl/net/programming-with-stamps-and-watermarks/image-in-footer/
+"description": "Dowiedz się, jak dodać obraz w stopce pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu szczegółowemu samouczkowi krok po kroku. Idealne do ulepszania dokumentów."
+"linktitle": "Obraz w stopce"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Obraz w stopce"
+"url": "/pl/net/programming-with-stamps-and-watermarks/image-in-footer/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obraz w stopce
@@ -21,9 +23,9 @@ Jeśli chodzi o zarządzanie plikami PDF, profesjonalne podejście może zdział
 
 Zanim przejdziemy do szczegółów dodawania obrazu do stopki pliku PDF, musisz zadbać o kilka rzeczy:
 
-1. Aspose.PDF dla biblioteki .NET: Przede wszystkim musisz mieć zainstalowaną bibliotekę Aspose.PDF. Jest ona podstawą naszej działalności i możesz ją pobrać z[Link do pobrania Aspose](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla biblioteki .NET: Przede wszystkim musisz mieć zainstalowaną bibliotekę Aspose.PDF. Jest ona podstawą naszej działalności i możesz ją pobrać z [Link do pobrania Aspose](https://releases.aspose.com/pdf/net/).
 2. Środowisko programistyczne: Powinieneś mieć skonfigurowane środowisko programistyczne .NET. Może to być Visual Studio lub dowolne inne IDE .NET, które pasuje do Twojego stylu.
-3.  Przykładowe pliki: Przygotuj dokument PDF, który chcesz zmodyfikować (nazwijmy go`ImageInFooter.pdf` ) i plik obrazu (taki jak`aspose-logo.jpg`) który chcesz dodać do stopki.
+3. Przykładowe pliki: Przygotuj dokument PDF, który chcesz zmodyfikować (nazwijmy go `ImageInFooter.pdf`) i plik obrazu (taki jak `aspose-logo.jpg`) który chcesz dodać do stopki.
 4. Podstawowa znajomość języka C#: Znajomość podstawowej składni i operacji języka C# znacznie ułatwi zrozumienie kodu.
 
 Gdy już wszystko będzie gotowe, możesz zacząć tworzyć stopkę!
@@ -49,18 +51,18 @@ Zanim zagłębisz się w soczyste rzeczy, ustaw ścieżkę, w której przechowyw
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na twoim komputerze. Po prostu kierujesz swój kod do właściwego archiwum.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na twoim komputerze. Po prostu kierujesz swój kod do właściwego archiwum.
 
 ## Krok 2: Otwórz dokument PDF
 
-Teraz, gdy Twój katalog jest już skonfigurowany, czas otworzyć dokument PDF. Oto jak to zrobić:
+Teraz, gdy Twój katalog jest już skonfigurowany, czas otworzyć dokument PDF. Oto, jak to zrobić:
 
 ```csharp
 // Otwórz dokument
 Document pdfDocument = new Document(dataDir + "ImageInFooter.pdf");
 ```
 
- Ta linia kodu tworzy`Document` obiekt z`Aspose.PDF`, umożliwiając interakcję ze wszystkimi stronami i zawartością określonego pliku PDF.
+Ta linia kodu tworzy `Document` obiekt z `Aspose.PDF`, umożliwiając interakcję ze wszystkimi stronami i zawartością określonego pliku PDF.
 
 ## Krok 3: Utwórz pieczątkę obrazkową
 
@@ -87,8 +89,8 @@ imageStamp.VerticalAlignment = VerticalAlignment.Bottom;
 ```
 
 - BottomMargin: Określa, jak daleko od dołu strony ma znajdować się obraz.
--  HorizontalAlignment: Ustawienie tej opcji na`Center` oznacza, że obraz będzie dobrze umieszczony, dokładnie na środku w poziomie.
--  Wyrównanie pionowe: Ustawienie tej opcji na`Bottom` umieszcza Twój obraz na samym dole każdej strony.
+- HorizontalAlignment: Ustawienie tej opcji na `Center` oznacza, że obraz będzie dobrze umieszczony, dokładnie na środku w poziomie.
+- Wyrównanie pionowe: Ustawienie tej opcji na `Bottom` umieszcza Twój obraz na samym dole każdej strony.
 
 ## Krok 5: Dodaj znaczek do każdej strony
 
@@ -116,31 +118,33 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nImage in footer added successfully.\nFile saved at " + dataDir);
 ```
 
-Tutaj określasz nową nazwę pliku (`ImageInFooter_out.pdf`dla zaktualizowanego dokumentu, dzięki czemu zachowasz oryginał w nienaruszonym stanie podczas tworzenia nowej wersji zawierającej stopkę.
+Tutaj określasz nową nazwę pliku (`ImageInFooter_out.pdf`) dla zaktualizowanego dokumentu, dzięki czemu zachowasz oryginał w nienaruszonym stanie podczas tworzenia nowej wersji zawierającej stopkę.
 
 ## Wniosek
 
-I masz! Udało Ci się dodać obraz w stopce pliku PDF za pomocą Aspose.PDF dla .NET. Niesamowite, jak prosty obraz na dole dokumentu może podnieść Twój profil zawodowy, prawda? Za pomocą zaledwie kilku linijek kodu możesz łatwo ulepszyć swoje dokumenty PDF, czyniąc je atrakcyjnymi wizualnie i markowymi.
+masz! Udało Ci się dodać obraz w stopce pliku PDF za pomocą Aspose.PDF dla .NET. Niesamowite, jak prosty obraz na dole dokumentu może podnieść Twój profil zawodowy, prawda? Za pomocą zaledwie kilku linijek kodu możesz łatwo ulepszyć swoje dokumenty PDF, czyniąc je atrakcyjnymi wizualnie i markowymi.
 
 ## Najczęściej zadawane pytania
 
-### Jakich formatów obrazów mogę używać w pliku Aspose.PDF?
+### Jakich formatów obrazów mogę używać w Aspose.PDF?
 Do tworzenia pieczątek obrazkowych możesz używać popularnych formatów, takich jak JPEG, PNG i GIF.
 
 ### Czy oprócz obrazów w stopce mogę dodać tekst?
 Oczywiście! Możesz tworzyć stemple tekstowe w podobny sposób i dodawać je do stopki.
 
 ### Czy jest dostępna wersja próbna?
- Tak! Możesz wypróbować Aspose.PDF z[Bezpłatna wersja próbna](https://releases.aspose.com/).
+Tak! Możesz wypróbować Aspose.PDF z [Bezpłatna wersja próbna](https://releases.aspose.com/).
 
 ### Co zrobić, jeśli napotkam problemy podczas korzystania z Aspose.PDF?
- Możesz szukać pomocy na[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+Możesz szukać pomocy na [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Czy mogę zautomatyzować ten proces dla wielu plików PDF?
 Tak! Możesz przejść przez wiele plików i zastosować ten sam proces do każdego z nich.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

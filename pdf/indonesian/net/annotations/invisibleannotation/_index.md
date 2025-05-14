@@ -1,14 +1,16 @@
 ---
-title: Anotasi Tak Terlihat Dalam File PDF
-linktitle: Anotasi Tak Terlihat Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan anotasi tak terlihat ke berkas PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk menguasai fitur hebat ini.
-weight: 100
-url: /id/net/annotations/invisibleannotation/
+"description": "Pelajari cara menambahkan anotasi tak terlihat ke berkas PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk menguasai fitur hebat ini."
+"linktitle": "Anotasi Tak Terlihat Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Anotasi Tak Terlihat Dalam File PDF"
+"url": "/id/net/annotations/invisibleannotation/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Anotasi Tak Terlihat Dalam File PDF
@@ -21,10 +23,10 @@ Pernahkah Anda ingin menambahkan anotasi ke berkas PDF Anda yang tetap tidak ter
 
 Sebelum kita masuk ke langkah-langkahnya, mari pastikan Anda sudah menyiapkan semua yang dibutuhkan:
 
-- Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 - Lingkungan Pengembangan .NET: Anda harus menginstal Visual Studio atau lingkungan pengembangan .NET pilihan lainnya.
 - Pengetahuan Dasar C#: Pemahaman tentang sintaksis dan pemrograman C# sangatlah penting.
--  Lisensi yang Sah atau Uji Coba Gratis: Jika Anda tidak memiliki lisensi, Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) atau gunakan versi uji coba gratis.
+- Lisensi yang Sah atau Uji Coba Gratis: Jika Anda tidak memiliki lisensi, Anda dapat memperoleh lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/) atau gunakan versi uji coba gratis.
 
 ## Paket Impor
 
@@ -48,7 +50,7 @@ Pertama, Anda perlu menentukan jalur ke direktori dokumen tempat file PDF masuka
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
  
- Itu`dataDir`variabel menyimpan jalur ke direktori tempat file PDF Anda disimpan. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
+Itu `dataDir` variabel menyimpan jalur ke direktori tempat file PDF Anda disimpan. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
 
 ## Langkah 2: Muat Dokumen PDF
 
@@ -59,11 +61,11 @@ Selanjutnya, kita akan memuat dokumen PDF ke dalam program kita. Dokumen ini ada
 Document doc = new Document(dataDir + "input.pdf");
 ```
  
- Di sini, kami menggunakan`Document` kelas dari pustaka Aspose.PDF untuk membuka file PDF bernama`input.pdf`Pastikan berkas ini ada di direktori yang Anda tentukan pada langkah sebelumnya.
+Di sini, kami menggunakan `Document` kelas dari pustaka Aspose.PDF untuk membuka file PDF bernama `input.pdf`Pastikan berkas ini ada di direktori yang Anda tentukan pada langkah sebelumnya.
 
 ## Langkah 3: Buat Anotasi Tak Terlihat
 
- Sekarang tibalah bagian yang menarik—membuat anotasi yang tidak terlihat. Kita akan menggunakan`FreeTextAnnotation` kelas untuk menambahkan anotasi teks bebas ke halaman pertama dokumen PDF.
+Sekarang tibalah bagian yang menarik—membuat anotasi tak terlihat. Kita akan menggunakan `FreeTextAnnotation` kelas untuk menambahkan anotasi teks bebas ke halaman pertama dokumen PDF.
 
 ```csharp
 FreeTextAnnotation annotation = new FreeTextAnnotation(doc.Pages[1], new Aspose.Pdf.Rectangle(50, 600, 250, 650), new DefaultAppearance("Helvetica", 16, System.Drawing.Color.Red));
@@ -73,12 +75,12 @@ annotation.Flags = AnnotationFlags.Print | AnnotationFlags.NoView;
 doc.Pages[1].Annotations.Add(annotation);
 ```
 
--  Kami membuat yang baru`FreeTextAnnotation` dan tentukan halaman (`doc.Pages[1]` ) di mana itu harus ditambahkan.`Rectangle` kelas mendefinisikan area pada halaman di mana anotasi akan ditempatkan.
--  Itu`DefaultAppearance` Kelas ini digunakan untuk mengatur font, ukuran font, dan warna anotasi. Dalam contoh ini, kami memilih font "Helvetica", ukuran 16, dan warna merah.
--  Itu`Contents`properti menampung teks anotasi, di sini diatur ke`"ABCDEFG"`.
--  Itu`Characteristics.Border` properti mendefinisikan warna batas anotasi, diatur lagi menjadi merah.
--  Itu`Flags` properti termasuk`AnnotationFlags.Print` untuk memastikan anotasi terlihat saat dokumen dicetak, dan`AnnotationFlags.NoView` untuk membuatnya tidak terlihat saat dilihat secara normal.
--  Terakhir, kami menambahkan anotasi ke halaman pertama dokumen PDF menggunakan`Annotations.Add` metode.
+- Kami membuat yang baru `FreeTextAnnotation` dan tentukan halaman (`doc.Pages[1]`) di mana itu harus ditambahkan. `Rectangle` kelas mendefinisikan area pada halaman di mana anotasi akan ditempatkan.
+- Itu `DefaultAppearance` Kelas ini digunakan untuk mengatur font, ukuran font, dan warna untuk anotasi. Dalam contoh ini, kami memilih font "Helvetica", ukuran 16, dan warna merah.
+- Itu `Contents` properti menampung teks anotasi, di sini diatur ke `"ABCDEFG"`.
+- Itu `Characteristics.Border` properti mendefinisikan warna batas anotasi, diatur lagi menjadi merah.
+- Itu `Flags` properti termasuk `AnnotationFlags.Print` untuk memastikan anotasi terlihat saat dokumen dicetak, dan `AnnotationFlags.NoView` untuk membuatnya tidak terlihat saat dilihat secara normal.
+- Terakhir, kami menambahkan anotasi ke halaman pertama dokumen PDF menggunakan `Annotations.Add` metode.
 
 ## Langkah 4: Simpan Dokumen PDF yang Diperbarui
 
@@ -90,7 +92,7 @@ dataDir = dataDir + "InvisibleAnnotation_out.pdf";
 doc.Save(dataDir);
 ```
 
- Kami memodifikasi`dataDir` variabel untuk menentukan nama file keluaran,`"InvisibleAnnotation_out.pdf"` . Itu`Save` Metode ini kemudian menyimpan dokumen PDF yang diperbarui dengan anotasi tak terlihat ke direktori yang ditentukan.
+Kami memodifikasi `dataDir` variabel untuk menentukan nama file keluaran, `"InvisibleAnnotation_out.pdf"`. Itu `Save` Metode ini kemudian menyimpan dokumen PDF yang diperbarui dengan anotasi tak terlihat ke direktori yang ditentukan.
 
 ## Langkah 5: Konfirmasikan Penyelesaian Proses
 
@@ -109,7 +111,7 @@ Nah, itu dia! Anda telah berhasil menambahkan anotasi tak terlihat ke berkas PDF
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya membuat anotasi terlihat lagi?  
- Ya, dengan menghapus`AnnotationFlags.NoView` bendera, Anda dapat membuat anotasi terlihat selama tampilan normal.
+Ya, dengan menghapus `AnnotationFlags.NoView` bendera, Anda dapat membuat anotasi terlihat selama tampilan normal.
 
 ### Jenis anotasi apa lagi yang dapat saya tambahkan menggunakan Aspose.PDF?  
 Aspose.PDF mendukung berbagai anotasi, termasuk anotasi teks, tautan, sorotan, dan stempel, antara lain.
@@ -121,10 +123,12 @@ Ya, Anda dapat mengubah properti anotasi bahkan setelah ditambahkan ke dokumen.
 Cukup ulangi proses pembuatan anotasi untuk setiap anotasi yang ingin Anda tambahkan. Setiap anotasi dapat ditambahkan ke halaman yang sama atau berbeda.
 
 ### Bagaimana jika dokumen PDF saya memiliki beberapa halaman?  
- Anda dapat menentukan nomor halaman saat membuat anotasi dengan mengubah`doc.Pages[1]` ke indeks halaman yang diinginkan.
+Anda dapat menentukan nomor halaman saat membuat anotasi dengan mengubah `doc.Pages[1]` ke indeks halaman yang diinginkan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

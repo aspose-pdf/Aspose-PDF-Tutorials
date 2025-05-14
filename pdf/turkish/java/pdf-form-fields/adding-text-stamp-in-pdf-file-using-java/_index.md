@@ -1,14 +1,16 @@
 ---
-title: Java kullanarak PDF Dosyasına Metin Damgası Ekleme
-linktitle: Java kullanarak PDF Dosyasına Metin Damgası Ekleme
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Java için Aspose.PDF ile Java kullanarak PDF dosyalarına metin damgaları eklemeyi öğrenin. PDF belgelerinizi zahmetsizce özelleştirin.
-weight: 10
-url: /tr/java/pdf-form-fields/adding-text-stamp-in-pdf-file-using-java/
+"description": "Java için Aspose.PDF ile Java kullanarak PDF dosyalarına metin damgaları eklemeyi öğrenin. PDF belgelerinizi zahmetsizce özelleştirin."
+"linktitle": "Java kullanarak PDF Dosyasına Metin Damgası Ekleme"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java kullanarak PDF Dosyasına Metin Damgası Ekleme"
+"url": "/tr/java/pdf-form-fields/adding-text-stamp-in-pdf-file-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java kullanarak PDF Dosyasına Metin Damgası Ekleme
@@ -23,8 +25,8 @@ Dijital belgeler dünyasında PDF dosyaları önemli bir rol oynar. Bilgi payla�
 Kodlama kısmına dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 - Sisteminizde Java Development Kit (JDK) yüklü.
-- Java için Entegre Geliştirme Ortamı (IDE) (Eclipse, IntelliJ IDEA, vb.).
--  Java kütüphanesi için Aspose.PDF. İndirebilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+- Java için Entegre Geliştirme Ortamı (IDE) (Eclipse, IntelliJ IDEA, vb.)
+- Java kütüphanesi için Aspose.PDF. İndirebilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Java Projenizi Kurma
 
@@ -85,7 +87,7 @@ public class Main {
 }
 ```
 
- Bu kodda öncelikle bir tane oluşturuyoruz`TextStamp` "Gizli" metni olan nesneyi özelleştiriyoruz. Yazı tipini, yazı tipi boyutunu ve ön plan rengini özelleştiriyoruz. Ardından, PDF belgemizin ilk sayfasına metin damgasını ekliyoruz. Son olarak, belgeyi "damgalı_belge.pdf" olarak kaydediyoruz.
+Bu kodda öncelikle bir tane oluşturuyoruz `TextStamp` "Gizli" metni olan nesneyi özelleştiriyoruz. Yazı tipini, yazı tipi boyutunu ve ön plan rengini özelleştiriyoruz. Ardından, PDF belgemizin ilk sayfasına metin damgasını ekliyoruz. Son olarak, belgeyi "damgalı_belge.pdf" olarak kaydediyoruz.
 
 ## Çözüm
 
@@ -97,7 +99,7 @@ Artık PDF belgelerinizi Java'da metin damgalarıyla geliştirmek için gereken 
 
 ### PDF'deki metin damgasının konumunu nasıl değiştirebilirim?
 
- PDF'deki metin damgasının konumunu değiştirmek için, onu ayarlayabilirsiniz.`XIndent` Ve`YIndent` özellikler. Bu özellikler, pulun sayfadaki yatay ve dikey konumunu belirler.
+PDF'deki metin damgasının konumunu değiştirmek için, onu ayarlayabilirsiniz. `XIndent` Ve `YIndent` özellikler. Bu özellikler, pulun sayfadaki yatay ve dikey konumunu belirler.
 
 ```java
 textStamp.setXIndent(100);
@@ -106,7 +108,7 @@ textStamp.setYIndent(200);
 
 ### Metnin yanı sıra damgalara özel resimler ekleyebilir miyim?
 
- Evet, Aspose.PDF for Java kullanarak metne ek olarak damga olarak özel resimler ekleyebilirsiniz.`ImageStamp`ve kendi resim dosyanızla özelleştirebilirsiniz.
+Evet, Aspose.PDF for Java kullanarak metne ek olarak damga olarak özel resimler ekleyebilirsiniz. `ImageStamp` ve kendi resim dosyanızla özelleştirebilirsiniz.
 
 ### Aspose.PDF for Java'yı kullanmak ücretsiz mi?
 
@@ -114,7 +116,7 @@ Aspose.PDF for Java ticari bir kütüphanedir ve üretim ortamında kullanım i�
 
 ### PDF'deki metin damgasını nasıl döndürebilirim?
 
- PDF'deki metin damgasını döndürmek için şunu kullanabilirsiniz:`setRotate` yöntemi`TextStamp` sınıf. Örneğin, pulu 45 derece döndürmek için:
+PDF'deki metin damgasını döndürmek için şunu kullanabilirsiniz: `setRotate` yöntemi `TextStamp` sınıf. Örneğin, pulu 45 derece döndürmek için:
 
 ```java
 textStamp.setRotation(45);
@@ -122,10 +124,12 @@ textStamp.setRotation(45);
 
 ### Java için Aspose.PDF hakkında daha fazla doküman ve örneği nerede bulabilirim?
 
- Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve örnekleri belgeler web sitesinde bulabilirsiniz:[Java Belgeleri için Aspose.PDF](https://reference.aspose.com/pdf/java/).
+Java için Aspose.PDF'e ilişkin kapsamlı belgeleri ve örnekleri belgeler web sitesinde bulabilirsiniz: [Java Belgeleri için Aspose.PDF](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

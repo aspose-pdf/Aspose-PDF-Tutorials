@@ -1,14 +1,16 @@
 ---
-title: Marcar imagem em PDF existente
-linktitle: Marcar imagem em PDF existente
-second_title: Referência da API do Aspose.PDF para .NET
-description: Aprenda como marcar imagens em PDFs existentes usando o Aspose.PDF para .NET. Guia passo a passo para melhorar a acessibilidade com conformidade com PDF/UA.
-weight: 210
-url: /pt/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/
+"description": "Aprenda a marcar imagens em PDFs existentes usando o Aspose.PDF para .NET. Guia passo a passo para aprimorar a acessibilidade com conformidade com PDF/UA."
+"linktitle": "Marcar imagem em PDF existente"
+"second_title": "Referência da API Aspose.PDF para .NET"
+"title": "Marcar imagem em PDF existente"
+"url": "/pt/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Marcar imagem em PDF existente
@@ -21,14 +23,14 @@ Neste tutorial, mostraremos como marcar uma imagem em um PDF existente usando o 
 
 Antes de começarmos, vamos ver o que você precisa para começar:
 
--  Aspose.PDF para .NET: certifique-se de ter baixado e instalado a versão mais recente do Aspose.PDF para .NET.[Baixe aqui](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF para .NET: certifique-se de ter baixado e instalado a versão mais recente do Aspose.PDF para .NET. [Baixe aqui](https://releases.aspose.com/pdf/net/).
 - .NET Framework: certifique-se de ter um ambiente de desenvolvimento .NET, como o Visual Studio, configurado.
-- Noções básicas sobre a estrutura do PDF: familiaridade com elementos da estrutura do PDF, como parágrafos, extensões, tabelas e imagens.
--  Uma licença válida: você pode comprar uma licença[aqui](https://purchase.aspose.com/buy) ou use um temporário[aqui](https://purchase.aspose.com/temporary-license/).
+- Noções básicas sobre a estrutura do PDF: familiaridade com elementos da estrutura do PDF, como parágrafos, intervalos, tabelas e imagens.
+- Uma licença válida: você pode comprar uma licença [aqui](https://purchase.aspose.com/buy) ou usar um temporário [aqui](https://purchase.aspose.com/temporary-license/).
 
 ## Pacotes de importação
 
-Para começar a codificar, você precisa importar os namespaces essenciais do Aspose.PDF para .NET. Eles darão a você acesso às classes e métodos necessários para manipular o documento PDF.
+Para começar a programar, você precisa importar os namespaces essenciais do Aspose.PDF para .NET. Eles lhe darão acesso às classes e métodos necessários para manipular o documento PDF.
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -43,7 +45,7 @@ Agora que definimos o cenário, vamos dividir o processo de marcação de uma im
 
 ## Etapa 1: Carregue o documento PDF existente
 
-O primeiro passo é carregar o arquivo PDF com o qual você quer trabalhar. Pode ser qualquer arquivo PDF com uma imagem que você queira marcar.
+O primeiro passo é carregar o arquivo PDF com o qual você deseja trabalhar. Pode ser qualquer arquivo PDF com uma imagem que você queira marcar.
 
 ```csharp
 // O caminho para o diretório de documentos.
@@ -56,12 +58,12 @@ string logFile = dataDir + "TH_out.xml";
 Document document = new Document(inFile);
 ```
 
--  Substituir`"YOUR DOCUMENT DIRECTORY"` com o caminho real para seu arquivo.
--  O`Document` class permite que você carregue um PDF existente. Você modificará esse PDF para marcar a imagem.
+- Substituir `"YOUR DOCUMENT DIRECTORY"` com o caminho real para seu arquivo.
+- O `Document` classe permite que você carregue um PDF existente. Você modificará este PDF para marcar a imagem.
 
-## Etapa 2: Acesse o conteúdo marcado e o elemento de estrutura raiz
+## Etapa 2: Acessar o conteúdo marcado e o elemento de estrutura raiz
 
-Depois de abrir o PDF, o próximo passo é acessar o conteúdo marcado e identificar o elemento da estrutura raiz. Isso é crucial, pois permite que você navegue pelos elementos no PDF e faça modificações.
+Após abrir o PDF, o próximo passo é acessar o conteúdo marcado e identificar o elemento da estrutura raiz. Isso é crucial, pois permite navegar pelos elementos do PDF e fazer modificações.
 
 ```csharp
 // Obtenha conteúdo marcado e elemento de estrutura raiz
@@ -70,7 +72,7 @@ StructureElement rootElement = taggedContent.RootElement;
 ```
 
 - `TaggedContent` fornece acesso aos elementos estruturados no PDF.
--  O`RootElement` é o elemento estrutural mais alto, a partir do qual você pode navegar para outros elementos, como parágrafos, tabelas e imagens.
+- O `RootElement` é o elemento estrutural mais alto, a partir do qual você pode navegar para outros elementos, como parágrafos, tabelas e imagens.
 
 ## Etapa 3: Defina o título do documento PDF marcado
 
@@ -81,11 +83,11 @@ Adicionar um título ao documento PDF marcado garante que seu documento seja rot
 taggedContent.SetTitle("Document with images");
 ```
 
-- Definir um título para seu PDF marcado melhora a acessibilidade e melhora a clareza do documento para leitores de tela e tecnologias assistivas.
+- Definir um título para o seu PDF marcado melhora a acessibilidade e melhora a clareza do documento para leitores de tela e tecnologias assistivas.
 
-## Etapa 4: Encontre e marque a imagem
+## Etapa 4: encontre e marque a imagem
 
- Agora, vamos encontrar o elemento de imagem (chamado de`FigureElement` em Aspose.PDF), defina um texto alternativo para ele e configure seus atributos de layout.
+Agora, vamos encontrar o elemento de imagem (chamado de `FigureElement` em Aspose.PDF), defina um texto alternativo para ele e configure seus atributos de layout.
 
 ```csharp
 // Percorrer todos os elementos da Figura (imagens) e definir atributos alternativos de texto e layout
@@ -94,7 +96,7 @@ foreach (FigureElement figureElement in rootElement.FindElements<FigureElement>(
     // Definir texto alternativo para a figura
     figureElement.AlternativeText = "Figure alternative text (technique 2)";
     
-    // Crie e defina o atributo BBox (caixa delimitadora)
+    // Criar e definir atributo BBox (caixa delimitadora)
     StructureAttribute bboxAttribute = new StructureAttribute(AttributeKey.BBox);
     bboxAttribute.SetRectangleValue(new Aspose.Pdf.Rectangle(0.0, 0.0, 100.0, 100.0));
     
@@ -104,13 +106,13 @@ foreach (FigureElement figureElement in rootElement.FindElements<FigureElement>(
 }
 ```
 
--  Este código percorre todos os`FigureElement` objetos na estrutura raiz, que representam imagens.
+- Este código percorre todos os `FigureElement` objetos na estrutura raiz, que representam imagens.
 - Ele define o texto alternativo para acessibilidade (leitores de tela usarão isso para descrever a imagem).
-- A caixa delimitadora (`BBox`especifica as coordenadas para o layout da imagem, garantindo que ela seja exibida corretamente no documento.
+- A caixa delimitadora (`BBox`) especifica as coordenadas para o layout da imagem, garantindo que ela seja exibida corretamente no documento.
 
-## Etapa 5: Modificar elementos de span dentro da tabela
+## Etapa 5: Modificar elementos de span na tabela
 
- Em alguns casos, pode ser necessário modificar elementos span dentro de uma tabela. Aqui, demonstraremos como encontrar um`SpanElement` e movê-lo para um parágrafo.
+Em alguns casos, pode ser necessário modificar elementos de intervalo dentro de uma tabela. Aqui, demonstraremos como encontrar um `SpanElement` e movê-lo para um parágrafo.
 
 ```csharp
 // Encontre os elementos de tabela, intervalo e parágrafo
@@ -123,8 +125,8 @@ ParagraphElement paragraph = firstTdElement.FindElements<ParagraphElement>(true)
 spanElement.ChangeParentElement(paragraph);
 ```
 
--  Aqui, localizamos o`TableElement`, `SpanElement` , e`ParagraphElement` dentro do PDF.
--  Usando o`ChangeParentElement` método, movemos o intervalo para o parágrafo para garantir marcação e estrutura adequadas.
+- Aqui, localizamos o `TableElement`, `SpanElement`, e `ParagraphElement` dentro do PDF.
+- Usando o `ChangeParentElement` método, movemos o intervalo para o parágrafo para garantir marcação e estrutura adequadas.
 
 ## Etapa 6: Salve o documento e valide a conformidade com PDF/UA
 
@@ -140,12 +142,12 @@ bool isPdfUaCompliance = document.Validate(logFile, PdfFormat.PDF_UA_1);
 Console.WriteLine(String.Format("PDF/UA compliance: {0}", isPdfUaCompliance));
 ```
 
--  O`Validate` O método verifica o documento PDF em relação aos padrões PDF/UA e registra os resultados.
+- O `Validate` O método verifica o documento PDF em relação aos padrões PDF/UA e registra os resultados.
 - Garantir a conformidade ajuda a melhorar a acessibilidade e atender aos requisitos regulatórios para publicação de documentos.
 
 ## Conclusão
 
-Neste tutorial, mostramos como marcar imagens em um PDF existente usando o Aspose.PDF para .NET. Ao definir texto alternativo, ajustar atributos de layout e validar o documento para conformidade com PDF/UA, você pode garantir que seus PDFs sejam acessíveis e atendam aos padrões modernos. O Aspose.PDF facilita o trabalho com elementos estruturados, dando a você controle sobre o layout e a acessibilidade do seu documento.
+Neste tutorial, mostramos como marcar imagens em um PDF existente usando o Aspose.PDF para .NET. Definindo texto alternativo, ajustando atributos de layout e validando a conformidade do documento com PDF/UA, você garante que seus PDFs sejam acessíveis e atendam aos padrões modernos. O Aspose.PDF facilita o trabalho com elementos estruturados, permitindo que você controle o layout e a acessibilidade do seu documento.
 
 ## Perguntas frequentes
 
@@ -153,19 +155,21 @@ Neste tutorial, mostramos como marcar imagens em um PDF existente usando o Aspos
 Aspose.PDF para .NET é uma biblioteca poderosa usada para criar, editar e manipular documentos PDF programaticamente em um ambiente .NET.
 
 ### Como posso garantir a conformidade com PDF/UA?
- Você pode usar o Aspose.PDF`Validate` método para verificar a conformidade do PDF/UA após fazer modificações no documento.
+Você pode usar o Aspose.PDF `Validate` método para verificar a conformidade do PDF/UA após fazer modificações no documento.
 
 ### O que é texto alternativo em PDFs?
-Texto alternativo é uma descrição adicionada a imagens em PDFs para melhorar a acessibilidade, especialmente para usuários que dependem de leitores de tela.
+Texto alternativo é uma descrição adicionada às imagens em PDFs para melhorar a acessibilidade, especialmente para usuários que dependem de leitores de tela.
 
-### Posso manipular tabelas e intervalos em um PDF com Aspose.PDF?
+### Posso manipular tabelas e intervalos em um PDF com o Aspose.PDF?
 Sim, o Aspose.PDF permite que você manipule tabelas, intervalos e outros elementos estruturados dentro de um documento PDF.
 
 ### Onde posso baixar o Aspose.PDF para .NET?
- Você pode baixar a versão mais recente do Aspose.PDF para .NET[aqui](https://releases.aspose.com/pdf/net/).
+Você pode baixar a versão mais recente do Aspose.PDF para .NET [aqui](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Membuat Pohon Elemen Struktur dalam PDF menggunakan Java
-linktitle: Membuat Pohon Elemen Struktur dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara membuat PDF yang dapat diakses dengan Pohon Elemen Struktur di Java menggunakan Aspose.PDF, memastikan inklusivitas untuk semua pengguna.
-weight: 11
-url: /id/java/pdf-tags-and-structure/create-structure-element-tree-in-pdf-using-java/
+"description": "Pelajari cara membuat PDF yang dapat diakses dengan Pohon Elemen Struktur di Java menggunakan Aspose.PDF, memastikan inklusivitas untuk semua pengguna."
+"linktitle": "Membuat Pohon Elemen Struktur dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Membuat Pohon Elemen Struktur dalam PDF menggunakan Java"
+"url": "/id/java/pdf-tags-and-structure/create-structure-element-tree-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Pohon Elemen Struktur dalam PDF menggunakan Java
@@ -25,7 +27,7 @@ Pohon Elemen Struktur, yang sering disebut sebagai "PDF yang Ditandai," adalah s
 
 ## Langkah 1: Menyiapkan Lingkungan Pengembangan Anda
 
- Sebelum kita menyelami kodenya, pastikan Anda telah menginstal pustaka Aspose.PDF untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+Sebelum kita menyelami kodenya, pastikan Anda telah menginstal pustaka Aspose.PDF untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 Berikutnya, buat proyek Java dan tambahkan pustaka Aspose.PDF untuk Java ke classpath proyek Anda.
 
@@ -53,7 +55,7 @@ Anda dapat menambahkan berbagai jenis konten, seperti gambar, tabel, dan lainnya
 
 ## Langkah 4: Menambahkan Elemen Struktur
 
- Untuk membuat dokumen dapat diakses, kita perlu mendefinisikan elemen struktur. Anda dapat menggunakan`com.aspose.pdf.Tagged.TagArtifact` kelas untuk menambahkan elemen struktur ke konten Anda:
+Untuk membuat dokumen dapat diakses, kita perlu mendefinisikan elemen struktur. Anda dapat menggunakan `com.aspose.pdf.Tagged.TagArtifact` kelas untuk menambahkan elemen struktur ke konten Anda:
 
 ```java
 // Buat objek TagArtifact untuk teks
@@ -65,7 +67,7 @@ tagArtifact.setParagraph(page.getParagraphs().get_Item(1));
 tagArtifact.setTag(page.getParagraphs().get_Item(1));
 ```
 
- Potongan kode ini mengaitkan`P` jenis struktur dengan teks.
+Potongan kode ini mengaitkan `P` jenis struktur dengan teks.
 
 ## Langkah 5: Menyimpan Dokumen PDF
 
@@ -90,7 +92,7 @@ Pohon Elemen Struktur mewakili struktur logis konten dalam dokumen PDF, yang mem
 
 ### Bagaimana cara menambahkan gambar ke dokumen PDF yang diberi tag?
 
- Anda dapat menggunakan`com.aspose.pdf.Image` kelas untuk menambahkan gambar ke dokumen PDF yang diberi tag. Pastikan Anda mengaitkan elemen struktur yang sesuai dengan gambar untuk aksesibilitas.
+Anda dapat menggunakan `com.aspose.pdf.Image` kelas untuk menambahkan gambar ke dokumen PDF yang diberi tag. Pastikan Anda mengaitkan elemen struktur yang sesuai dengan gambar untuk aksesibilitas.
 
 ### Apakah dokumen PDF yang diberi tag merupakan persyaratan untuk kepatuhan aksesibilitas?
 
@@ -103,9 +105,11 @@ Ya, Aspose.PDF untuk Java menyediakan fitur untuk menandai dokumen PDF yang ada 
 ### Apa saja praktik terbaik untuk membuat dokumen PDF yang mudah diakses?
 
 Beberapa praktik terbaik meliputi menambahkan teks alternatif ke gambar, menggunakan struktur judul yang tepat, menyediakan tautan deskriptif, dan memastikan urutan membaca konten yang logis.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

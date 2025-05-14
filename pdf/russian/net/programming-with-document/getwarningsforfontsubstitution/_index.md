@@ -1,14 +1,16 @@
 ---
-title: Получайте предупреждения о замене шрифта
-linktitle: Получайте предупреждения о замене шрифта
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как использовать функцию GetWarningsForFontSubstitution Aspose.PDF для .NET для обнаружения предупреждений о замене шрифтов при открытии PDF-документа.
-weight: 190
-url: /ru/net/programming-with-document/getwarningsforfontsubstitution/
+"description": "Узнайте, как использовать функцию GetWarningsForFontSubstitution Aspose.PDF для .NET для обнаружения предупреждений о замене шрифтов при открытии PDF-документа."
+"linktitle": "Получайте предупреждения о замене шрифта"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Получайте предупреждения о замене шрифта"
+"url": "/ru/net/programming-with-document/getwarningsforfontsubstitution/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получайте предупреждения о замене шрифта
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-document/getwarningsforfontsubstitution/
 Прежде чем погрузиться в код, вам необходимо выполнить несколько действий:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Здесь вы будете писать и запускать свой код .NET.
-2.  Aspose.PDF для .NET: Вам нужна библиотека Aspose.PDF. Вы можете загрузить ее с[сайт](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF для .NET: Вам нужна библиотека Aspose.PDF. Вы можете загрузить ее с [сайт](https://releases.aspose.com/pdf/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понимать фрагменты кода.
 4. Документ PDF: подготовьте образец документа PDF, который вы сможете использовать для проверки обнаружения замены шрифтов.
 
@@ -61,21 +63,21 @@ using System.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения вашего PDF-файла.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем расположения вашего PDF-файла.
 
 ## Шаг 2: Откройте PDF-документ.
 
- Далее вы откроете PDF-документ с помощью`Document` класс предоставлен Aspose.PDF.
+Далее вы откроете PDF-документ с помощью `Document` класс предоставлен Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Эта строка кода инициализирует новый`Document` объект с вашим PDF-файлом.
+Эта строка кода инициализирует новый `Document` объект с вашим PDF-файлом.
 
 ## Шаг 3: Настройка обнаружения замены шрифта
 
- Теперь пришло время настроить обработчик событий, который будет обнаруживать предупреждения о замене шрифтов. Вам нужно будет подписаться на`FontSubstitution` событие`Document` сорт.
+Теперь пришло время настроить обработчик событий, который будет обнаруживать предупреждения о замене шрифтов. Вам нужно будет подписаться на `FontSubstitution` событие `Document` сорт.
 
 ```csharp
 doc.FontSubstitution += new Document.FontSubstitutionHandler(OnFontSubstitution);
@@ -98,7 +100,7 @@ private void OnFontSubstitution(object sender, Document.FontSubstitutionEventArg
 
 ## Шаг 5: Запустите код
 
-Наконец, вы можете запустить свое приложение. Если в вашем документе PDF есть какие-либо замены шрифтов, вы увидите предупреждения, напечатанные в консоли.
+Наконец, вы можете запустить свое приложение. Если в вашем PDF-документе есть какие-либо замены шрифтов, вы увидите предупреждения, напечатанные в консоли.
 
 ## Заключение
 
@@ -116,13 +118,15 @@ private void OnFontSubstitution(object sender, Document.FontSubstitutionEventArg
 Да, Aspose.PDF предлагает бесплатную пробную версию, которую вы можете использовать для тестирования ее функций.
 
 ### Где я могу найти дополнительную документацию?
- Подробную документацию можно найти на Aspose.PDF для .NET[здесь](https://reference.aspose.com/pdf/net/).
+Подробную документацию можно найти на Aspose.PDF для .NET [здесь](https://reference.aspose.com/pdf/net/).
 
 ### Как получить поддержку по Aspose.PDF?
- Вы можете получить поддержку, посетив[Форум поддержки Aspose](https://forum.aspose.com/c/pdf/10).
+Вы можете получить поддержку, посетив [Форум поддержки Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

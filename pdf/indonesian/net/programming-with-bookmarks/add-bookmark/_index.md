@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Bookmark Dalam File PDF
-linktitle: Tambahkan Bookmark Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan bookmark ke file PDF menggunakan Aspose.PDF for .NET dalam tutorial langkah demi langkah ini. Sempurnakan navigasi PDF Anda.
-weight: 10
-url: /id/net/programming-with-bookmarks/add-bookmark/
+"description": "Pelajari cara menambahkan bookmark ke file PDF menggunakan Aspose.PDF for .NET dalam tutorial langkah demi langkah ini. Sempurnakan navigasi PDF Anda."
+"linktitle": "Tambahkan Bookmark Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan Bookmark Dalam File PDF"
+"url": "/id/net/programming-with-bookmarks/add-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Bookmark Dalam File PDF
@@ -22,7 +24,7 @@ Pernahkah Anda mendapati diri Anda menggulir dokumen PDF yang panjang, dan putus
 Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE yang tepat untuk pengembangan .NET.
-2.  Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Anda dapat mengunduhnya dari[tautan unduhan](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.PDF. Anda dapat mengunduhnya dari [tautan unduhan](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikutinya dengan lancar.
 
 ## Paket Impor
@@ -43,7 +45,7 @@ Setelah proyek Anda disiapkan, Anda perlu menambahkan referensi ke pustaka Aspos
 
 ### Impor Namespace yang Diperlukan
 
- Di bagian atas Anda`Program.cs` file, impor namespace yang diperlukan:
+Di bagian atas Anda `Program.cs` file, impor namespace yang diperlukan:
 
 ```csharp
 using System;
@@ -61,7 +63,7 @@ Pertama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah berka
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda disimpan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat berkas PDF Anda disimpan.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -71,7 +73,7 @@ Selanjutnya, Anda perlu membuka dokumen PDF yang ingin Anda tambahkan bookmark. 
 Document pdfDocument = new Document(dataDir + "AddBookmark.pdf");
 ```
 
- Baris kode ini menginisialisasi yang baru`Document` objek dengan berkas PDF Anda.
+Baris kode ini menginisialisasi yang baru `Document` objek dengan berkas PDF Anda.
 
 ## Langkah 3: Buat Objek Bookmark
 
@@ -116,7 +118,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nBookmark added successfully.\nFile saved at " + dataDir);
 ```
 
-Kode ini menyimpan PDF dengan penanda buku tambahan sebagai "AddBookmark_out.pdf" di direktori yang Anda tentukan.
+Kode ini menyimpan PDF dengan penanda tambahan sebagai "AddBookmark_out.pdf" di direktori yang Anda tentukan.
 
 ## Kesimpulan
 
@@ -128,19 +130,21 @@ Nah, itu dia! Anda telah berhasil menambahkan penanda ke berkas PDF menggunakan 
 Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen PDF secara terprogram.
 
 ### Bisakah saya menambahkan beberapa penanda halaman ke PDF?
- Ya, Anda dapat membuat beberapa`OutlineItemCollection`objek dan menambahkannya ke koleksi kerangka dokumen.
+Ya, Anda dapat membuat beberapa `OutlineItemCollection` objek dan menambahkannya ke koleksi kerangka dokumen.
 
 ### Apakah Aspose.PDF gratis untuk digunakan?
- Aspose.PDF menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Lihat[tautan pembelian](https://purchase.aspose.com/buy).
+Aspose.PDF menawarkan uji coba gratis, tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Lihat [tautan pembelian](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET[Di Sini](https://reference.aspose.com/pdf/net/).
+Anda dapat menemukan dokumentasi lengkap di Aspose.PDF untuk .NET [Di Sini](https://reference.aspose.com/pdf/net/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.PDF?
- Untuk dukungan, Anda dapat mengunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Untuk dukungan, Anda dapat mengunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

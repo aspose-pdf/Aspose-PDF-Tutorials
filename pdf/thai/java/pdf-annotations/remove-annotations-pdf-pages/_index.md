@@ -1,14 +1,16 @@
 ---
-title: ลบคำอธิบายจากหน้า PDF
-linktitle: ลบคำอธิบายจากหน้า PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีลบคำอธิบายประกอบ PDF ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java พร้อมคำแนะนำทีละขั้นตอนและโค้ด
-weight: 11
-url: /th/java/pdf-annotations/remove-annotations-pdf-pages/
+"description": "เรียนรู้วิธีลบคำอธิบายประกอบ PDF ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ Java พร้อมคำแนะนำทีละขั้นตอนและโค้ด"
+"linktitle": "ลบคำอธิบายจากหน้า PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ลบคำอธิบายจากหน้า PDF"
+"url": "/th/java/pdf-annotations/remove-annotations-pdf-pages/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบคำอธิบายจากหน้า PDF
@@ -22,29 +24,29 @@ Aspose.PDF สำหรับ Java เป็นไลบรารีที่ม
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.PDF สำหรับ Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและกำหนดค่าไลบรารี Aspose.PDF สำหรับ Java ไว้ในโปรเจ็กต์ Java ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับ Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและกำหนดค่าไลบรารี Aspose.PDF สำหรับ Java ไว้ในโปรเจ็กต์ Java ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ## การโหลดเอกสาร PDF
 
-หากต้องการทำงานกับเอกสาร PDF คุณต้องโหลดเอกสารดังกล่าวลงในแอปพลิเคชัน Java ก่อน โดยทำได้โดยใช้ Aspose.PDF สำหรับ Java ดังนี้
+หากต้องการทำงานกับเอกสาร PDF คุณต้องโหลดเอกสารดังกล่าวลงในแอปพลิเคชัน Java ก่อน โดยคุณสามารถทำได้โดยใช้ Aspose.PDF สำหรับ Java ดังนี้
 
 ```java
 // โหลดเอกสาร PDF
 Document pdfDocument = new Document("example.pdf");
 ```
 
- แทนที่`"example.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
+แทนที่ `"example.pdf"` พร้อมเส้นทางไปยังไฟล์ PDF ของคุณ
 
 
 ## การระบุและการเข้าถึงคำอธิบายประกอบ
 
-คำอธิบายประกอบใน PDF สามารถมีรูปแบบต่างๆ เช่น ข้อความ ไฮไลต์ หรือรูปร่าง หากต้องการลบคำอธิบายประกอบเหล่านี้ คุณต้องระบุและเข้าถึงคำอธิบายประกอบเฉพาะที่คุณต้องการลบ คุณสามารถทำได้โดยใช้ Aspose.PDF สำหรับ API ของ Java:
+คำอธิบายประกอบใน PDF สามารถทำได้หลายรูปแบบ เช่น ข้อความ ไฮไลต์ หรือรูปร่าง หากต้องการลบคำอธิบายประกอบ คุณต้องระบุและเข้าถึงคำอธิบายประกอบเฉพาะที่คุณต้องการลบ คุณสามารถทำได้โดยใช้ Aspose.PDF สำหรับ API ของ Java:
 
 ```java
 // เข้าถึงหน้าแรกของเอกสาร
 Page page = pdfDocument.getPages().get_Item(1);
 
-// เข้าถึงคำอธิบายทั้งหมดบนหน้า
+// เข้าถึงคำอธิบายทั้งหมดในหน้า
 AnnotationCollection annotations = page.getAnnotations();
 ```
 
@@ -66,7 +68,7 @@ annotations.delete();
 pdfDocument.save("modified.pdf");
 ```
 
- แทนที่`"modified.pdf"` พร้อมชื่อไฟล์เอาท์พุตตามที่ต้องการ
+แทนที่ `"modified.pdf"` พร้อมชื่อไฟล์เอาท์พุตตามต้องการ
 
 ## บทสรุป
 
@@ -76,7 +78,7 @@ pdfDocument.save("modified.pdf");
 
 ### ฉันจะติดตั้ง Aspose.PDF สำหรับ Java ได้อย่างไร?
 
- คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จาก[ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
+คุณสามารถดาวน์โหลด Aspose.PDF สำหรับ Java ได้จาก [ที่นี่](https://releases.aspose.com/pdf/java/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้
 
 ### ฉันสามารถลบคำอธิบายประเภทเฉพาะได้หรือไม่ เช่น ความคิดเห็นที่เป็นข้อความเท่านั้น
 
@@ -92,10 +94,12 @@ pdfDocument.save("modified.pdf");
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถสำรวจเอกสารโดยละเอียดและตัวอย่างต่างๆ ได้ที่หน้าเอกสาร Aspose.PDF สำหรับ Java:[ที่นี่](https://reference.aspose.com/pdf/java/).
+คุณสามารถสำรวจเอกสารโดยละเอียดและตัวอย่างต่างๆ ได้ที่หน้าเอกสาร Aspose.PDF สำหรับ Java: [ที่นี่](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

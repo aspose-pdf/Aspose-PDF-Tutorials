@@ -1,14 +1,16 @@
 ---
-title: Thêm lớp vào tệp PDF
-linktitle: Thêm lớp vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Khám phá cách thêm lớp vào PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này sẽ nâng cao kỹ năng thao tác PDF của bạn.
-weight: 20
-url: /vi/net/programming-with-document/addlayers/
+"description": "Khám phá cách thêm lớp vào PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này sẽ nâng cao kỹ năng thao tác PDF của bạn."
+"linktitle": "Thêm lớp vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm lớp vào tệp PDF"
+"url": "/vi/net/programming-with-document/addlayers/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm lớp vào tệp PDF
@@ -22,7 +24,7 @@ Trong thời đại tài liệu kỹ thuật số, PDF đã trở nên phổ bi�
 Trước khi bắt đầu hành trình này, bạn cần đánh dấu một số điều kiện tiên quyết trong danh sách để đảm bảo mọi việc diễn ra suôn sẻ:
 
 1. Hiểu biết cơ bản về C#: Vì chúng ta sẽ viết bằng C#, nên hiểu biết cơ bản về ngôn ngữ này sẽ giúp bạn hiểu được đoạn mã mà bạn sẽ làm việc.
-2.  Aspose.PDF cho Thư viện .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF trong dự án .NET của mình. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho Thư viện .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.PDF trong dự án .NET của mình. Bạn có thể tải xuống từ [Trang web Aspose](https://releases.aspose.com/pdf/net/).
 3. Visual Studio hoặc bất kỳ IDE C# nào: Để viết, biên dịch và thực thi mã của bạn, bạn sẽ cần một IDE được thiết lập trên máy của mình. Visual Studio được khuyến khích sử dụng vì hỗ trợ tích hợp cho các ứng dụng .NET.
 4. Một tài liệu PDF mẫu: Mặc dù hướng dẫn này tập trung vào việc tạo một tệp PDF mới, nhưng việc có một tệp PDF mẫu để kiểm tra các lớp của bạn có thể có ích.
 
@@ -34,7 +36,7 @@ Bạn đã hiểu hết chưa? Tuyệt! Chúng ta hãy chuyển sang nhập các
 
 ### Mở dự án của bạn
 
-Khởi động dự án C# của bạn trong Visual Studio hoặc IDE ưa thích của bạn. Đây là giai đoạn cuộc phiêu lưu mã hóa của chúng ta bắt đầu!
+Khởi động dự án C# của bạn trong Visual Studio hoặc IDE ưa thích của bạn. Đây là giai đoạn mà cuộc phiêu lưu mã hóa của chúng ta bắt đầu!
 
 ### Thêm tài liệu tham khảo
 
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Trong bước này, bạn đang khởi tạo một phiên bản mới của`Document`lớp, đóng vai trò là canvas cho các lớp tương lai của chúng ta. Hãy đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF sau này.
+Trong bước này, bạn đang khởi tạo một phiên bản mới của `Document` lớp, đóng vai trò là nền cho các lớp tương lai của chúng ta. Hãy đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF sau này.
 
 ## Bước 2: Tạo trang mới
 
@@ -88,9 +90,9 @@ layer.Contents.Add(new LineTo(400, 700));
 layer.Contents.Add(new Stroke());
 ```
 
--  Chúng tôi đang khởi tạo một lớp mới với mã định danh`"oc1"` và một mô tả`"Red Line"`.
--  Sau đó, chúng tôi đặt màu nét vẽ thành màu đỏ (được biểu thị bằng`(1, 0, 0)`).
--  Sau đó, chúng tôi sử dụng`MoveTo` để định vị điểm bắt đầu của chúng tôi và sau đó`LineTo` để vẽ một đường thẳng.
+- Chúng tôi đang khởi tạo một lớp mới với mã định danh `"oc1"` và một mô tả `"Red Line"`.
+- Sau đó, chúng tôi đặt màu nét vẽ thành màu đỏ (được biểu thị bằng `(1, 0, 0)`).
+- Sau đó, chúng tôi sử dụng `MoveTo` để định vị điểm bắt đầu của chúng tôi và sau đó `LineTo` để vẽ một đường thẳng.
 - Cuối cùng, chúng ta áp dụng nét vẽ để làm cho đường thẳng hiện rõ.
 
 Giống như việc chỉ dẫn họa sĩ cách đặt cọ vẽ trên vải vậy!
@@ -148,16 +150,18 @@ Aspose.PDF for .NET là thư viện cho phép các nhà phát triển tạo và 
 Có, bạn có thể thêm nhiều lớp, mỗi lớp có nội dung và đặc điểm riêng trong một tệp PDF.
 
 ### Làm thế nào để tải xuống Aspose.PDF cho .NET?
- Bạn có thể tải xuống thư viện[đây](https://releases.aspose.com/pdf/net/).
+Bạn có thể tải xuống thư viện [đây](https://releases.aspose.com/pdf/net/).
 
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể truy cập phiên bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?
-Bạn có thể yêu cầu trợ giúp trong diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/pdf/10).
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?
+Bạn có thể yêu cầu trợ giúp trong diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

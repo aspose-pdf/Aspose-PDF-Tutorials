@@ -1,14 +1,16 @@
 ---
-title: Usuń nieużywane obiekty w pliku PDF
-linktitle: Usuń nieużywane obiekty w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak optymalizować pliki PDF, usuwając nieużywane obiekty za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku, jak zmniejszyć rozmiar pliku i poprawić wydajność.
-weight: 260
-url: /pl/net/programming-with-document/removeunusedobjects/
+"description": "Dowiedz się, jak optymalizować pliki PDF, usuwając nieużywane obiekty za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku, jak zmniejszyć rozmiar pliku i poprawić wydajność."
+"linktitle": "Usuń nieużywane obiekty w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Usuń nieużywane obiekty w pliku PDF"
+"url": "/pl/net/programming-with-document/removeunusedobjects/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń nieużywane obiekty w pliku PDF
@@ -23,10 +25,10 @@ Pod koniec tego artykułu będziesz mieć szczuplejszy, bardziej zoptymalizowany
 
 Zanim przejdziemy do kolejnych kroków, upewnij się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.PDF dla .NET zainstalowany. Jeśli nie masz, możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET zainstalowany. Jeśli nie masz, możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 - Podstawowa znajomość języka C# i środowiska .NET.
 - Visual Studio lub inne środowisko programistyczne C#.
--  Ważna licencja (albo[tymczasowy](https://purchase.aspose.com/temporary-license/)lub pełna licencja) dla Aspose.PDF. W przeciwnym razie Twoje pliki PDF mogą być oznaczone znakiem wodnym.
+- Ważna licencja (albo [tymczasowy](https://purchase.aspose.com/temporary-license/) lub pełna licencja) dla Aspose.PDF. W przeciwnym razie Twoje pliki PDF mogą być oznaczone znakiem wodnym.
   
 To wszystko, czego potrzebujesz! Teraz przejdźmy do importowania wymaganych pakietów i konfigurowania naszego środowiska.
 
@@ -47,7 +49,7 @@ Po zaimportowaniu tych przestrzeni nazw możesz teraz pracować z plikami PDF w 
 
 ## Krok 1: Załaduj dokument PDF
 
- Na początek musisz załadować dokument PDF, który chcesz zoptymalizować. Wiąże się to z określeniem ścieżki pliku PDF i utworzeniem instancji`Document` Klasa do interakcji z plikiem.
+Na początek musisz załadować dokument PDF, który chcesz zoptymalizować. Wiąże się to z określeniem ścieżki pliku PDF i utworzeniem instancji `Document` Klasa do interakcji z plikiem.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -55,14 +57,14 @@ Document pdfDocument = new Document(dataDir + "OptimizeDocument.pdf");
 ```
 
 Oto co się dzieje:
--  Ten`dataDir` ciąg zawiera lokalizację Twojego pliku PDF.
--  Ten`Document` obiekt`pdfDocument` reprezentuje plik PDF.
+- Ten `dataDir` ciąg zawiera lokalizację pliku PDF.
+- Ten `Document` obiekt `pdfDocument` reprezentuje plik PDF.
 
 Bez załadowania pliku PDF nie można wykonywać na nim żadnych operacji. Ten krok stanowi podstawę optymalizacji dokumentu.
 
 ## Krok 2: Ustaw opcje optymalizacji
 
- Następnie utworzymy instancję`OptimizationOptions` klasa i ustaw`RemoveUnusedObjects` nieruchomość do`true`. Dzięki temu wszystkie niepotrzebne obiekty, takie jak nieużywane czcionki, obrazy lub metadane, zostaną usunięte z pliku PDF.
+Następnie utworzymy instancję `OptimizationOptions` klasa i ustaw `RemoveUnusedObjects` nieruchomość do `true`. Dzięki temu wszystkie niepotrzebne obiekty, takie jak nieużywane czcionki, obrazy lub metadane, zostaną usunięte z pliku PDF.
 
 ```csharp
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions
@@ -75,7 +77,7 @@ Włączając tę opcję, instruujesz Aspose.PDF, aby skanował dokument pod kąt
 
 ## Krok 3: Zoptymalizuj zasoby PDF
 
- Gdy ustawienia optymalizacji będą gotowe, czas zastosować je do dokumentu PDF za pomocą`OptimizeResources` metoda. Ta metoda bierze`optimizeOptions` skonfigurowaliśmy wcześniej i przeprowadziliśmy proces optymalizacji na załadowanym pliku PDF.
+Gdy ustawienia optymalizacji będą gotowe, czas zastosować je do dokumentu PDF za pomocą `OptimizeResources` metoda. Ta metoda bierze `optimizeOptions` skonfigurowaliśmy wcześniej i przeprowadziliśmy proces optymalizacji na załadowanym pliku PDF.
 
 ```csharp
 pdfDocument.OptimizeResources(optimizeOptions);
@@ -117,10 +119,12 @@ Zmniejszenie rozmiaru pliku zależy od liczby nieużywanych obiektów. W niektó
 Po zapisaniu zoptymalizowanego pliku PDF nie można cofnąć zmian, chyba że zachowano kopię zapasową oryginalnego pliku. Dlatego dobrym pomysłem jest zapisanie zoptymalizowanej wersji pod inną nazwą.
 
 ### Czy do korzystania z Aspose.PDF na platformie .NET wymagana jest licencja?
- Tak, Aspose.PDF dla .NET wymaga licencji, aby odblokować wszystkie funkcje. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup pełną licencję[Tutaj](https://purchase.aspose.com/buy).
+Tak, Aspose.PDF dla .NET wymaga licencji, aby odblokować wszystkie funkcje. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup pełną licencję [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

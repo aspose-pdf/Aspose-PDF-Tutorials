@@ -8,7 +8,9 @@ url: /net/programming-with-document/embedfontwhiledoccreation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Embed Font While PDF Doc Creation
@@ -160,6 +162,7 @@ You can find support and ask questions on the [Aspose forum](https://forum.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

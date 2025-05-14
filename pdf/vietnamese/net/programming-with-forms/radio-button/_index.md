@@ -1,14 +1,16 @@
 ---
-title: Nút radio
-linktitle: Nút radio
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo các nút radio tương tác trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này.
-weight: 220
-url: /vi/net/programming-with-forms/radio-button/
+"description": "Tìm hiểu cách tạo các nút radio tương tác trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này."
+"linktitle": "Nút radio"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Nút radio"
+"url": "/vi/net/programming-with-forms/radio-button/"
+"weight": 220
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nút radio
@@ -22,7 +24,7 @@ Việc tạo PDF tương tác có thể cải thiện đáng kể trải nghiệ
 Trước khi bắt đầu viết mã, bạn cần phải có một số điều kiện tiên quyết sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển của bạn.
-2.  Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn cần có thư viện Aspose.PDF. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -39,7 +41,7 @@ Mở Visual Studio và tạo một dự án C# mới. Bạn có thể chọn Ứ
 2. Chọn "Quản lý gói NuGet".
 3. Tìm kiếm "Aspose.PDF" và cài đặt phiên bản mới nhất.
 
-Bây giờ bạn đã thiết lập xong mọi thứ, hãy cùng tìm hiểu mã để tạo các nút radio trong PDF.
+Bây giờ bạn đã thiết lập xong mọi thứ, hãy cùng tìm hiểu mã để tạo nút radio trong PDF.
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
@@ -49,11 +51,11 @@ Bây giờ bạn đã thiết lập xong mọi thứ, hãy cùng tìm hiểu mã
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình.
 
 ## Bước 2: Khởi tạo đối tượng tài liệu
 
- Tiếp theo, bạn cần tạo một phiên bản của`Document` lớp. Lớp này đại diện cho tài liệu PDF của bạn.
+Tiếp theo, bạn cần tạo một phiên bản của `Document` lớp. Lớp này đại diện cho tài liệu PDF của bạn.
 
 ```csharp
 Document pdfDocument = new Document();
@@ -73,7 +75,7 @@ Dòng này sẽ thêm một trang mới vào tài liệu PDF của bạn, giúp 
 
 ## Bước 4: Tạo trường nút radio
 
- Bây giờ, đã đến lúc tạo trường nút radio. Bạn sẽ khởi tạo một`RadioButtonField` đối tượng và chỉ định số trang nơi nó sẽ được đặt.
+Bây giờ, đã đến lúc tạo trường nút radio. Bạn sẽ khởi tạo một `RadioButtonField` đối tượng và chỉ định số trang nơi nó sẽ được đặt.
 
 ```csharp
 RadioButtonField radio = new RadioButtonField(pdfDocument.Pages[1]);
@@ -90,7 +92,7 @@ radio.AddOption("Test", new Rectangle(0, 0, 20, 20));
 radio.AddOption("Test1", new Rectangle(20, 20, 40, 40));
 ```
 
- Trong ví dụ này, chúng tôi đang thêm hai tùy chọn: "Test" và "Test1".`Rectangle` đối tượng chỉ định vị trí và kích thước của mỗi tùy chọn.
+Trong ví dụ này, chúng tôi đang thêm hai tùy chọn: "Test" và "Test1". `Rectangle` đối tượng chỉ định vị trí và kích thước của mỗi tùy chọn.
 
 ## Bước 6: Thêm nút Radio vào biểu mẫu tài liệu
 
@@ -111,7 +113,7 @@ dataDir = dataDir + "RadioButton_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Mã này sẽ lưu tài liệu với tên "RadioButton_out.pdf" trong thư mục bạn chỉ định.
+Đoạn mã này sẽ lưu tài liệu với tên "RadioButton_out.pdf" trong thư mục bạn chỉ định.
 
 ## Bước 8: Xử lý ngoại lệ
 
@@ -128,7 +130,7 @@ Thao tác này sẽ phát hiện mọi lỗi và hiển thị thông báo, giúp
 
 ## Phần kết luận
 
-Tạo nút radio trong PDF bằng Aspose.PDF cho .NET là một quá trình đơn giản có thể cải thiện đáng kể tính tương tác của tài liệu của bạn. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể dễ dàng triển khai nút radio trong biểu mẫu PDF của mình, giúp chúng thân thiện và hấp dẫn hơn với người dùng. Hãy nhớ rằng, thực hành tạo nên sự hoàn hảo, vì vậy đừng ngần ngại thử nghiệm các tùy chọn và cấu hình khác nhau!
+Tạo nút radio trong PDF bằng Aspose.PDF cho .NET là một quá trình đơn giản có thể cải thiện đáng kể tính tương tác của tài liệu của bạn. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể dễ dàng triển khai nút radio trong biểu mẫu PDF của mình, giúp chúng thân thiện với người dùng và hấp dẫn hơn. Hãy nhớ rằng, thực hành tạo nên sự hoàn hảo, vì vậy đừng ngần ngại thử nghiệm các tùy chọn và cấu hình khác nhau!
 
 ## Câu hỏi thường gặp
 
@@ -136,19 +138,21 @@ Tạo nút radio trong PDF bằng Aspose.PDF cho .NET là một quá trình đơ
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.PDF?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Có thể tạo các trường biểu mẫu khác bằng Aspose.PDF không?
 Chắc chắn rồi! Aspose.PDF hỗ trợ nhiều trường biểu mẫu khác nhau, bao gồm trường văn bản, hộp kiểm và danh sách thả xuống.
 
 ### Tôi có thể mua Aspose.PDF cho .NET ở đâu?
- Bạn có thể mua giấy phép cho Aspose.PDF[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép cho Aspose.PDF [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Konversi XPS ke File PDF
-linktitle: Konversi XPS ke File PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengonversi file XPS ke PDF dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya.
-weight: 27
-url: /id/java/pdf-conversion-transformation/convert-xps-to-pdf-files/
+"description": "Pelajari cara mengonversi file XPS ke PDF dengan mudah menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya."
+"linktitle": "Konversi XPS ke File PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Konversi XPS ke File PDF"
+"url": "/id/java/pdf-conversion-transformation/convert-xps-to-pdf-files/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi XPS ke File PDF
@@ -24,7 +26,7 @@ Sebelum kita menyelami proses konversi, Anda perlu menyiapkan lingkungan pengemb
 
 - Kit Pengembangan Java (JDK)
 - Lingkungan Pengembangan Terpadu (IDE) seperti Eclipse atau IntelliJ IDEA
--  Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Proyek
 
@@ -35,7 +37,7 @@ Sebelum kita dapat menggunakan Aspose.PDF untuk Java, kita perlu menyiapkan proy
 
 ## Mengonversi XPS ke PDF
 
-Sekarang setelah proyek kita siap, mari kita masuk ke proses konversi. Berikut cuplikan kode sederhana untuk mengonversi file XPS ke file PDF:
+Sekarang setelah proyek kita siap, mari kita masuk ke proses konversi. Berikut ini cuplikan kode sederhana untuk mengonversi file XPS ke file PDF:
 
 ```java
 // Muat dokumen XPS
@@ -63,7 +65,7 @@ Dalam panduan ini, kami telah menjajaki cara mengonversi file XPS ke PDF menggun
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Untuk menginstal Aspose.PDF untuk Java, unduh pustaka dari[Di Sini](https://releases.aspose.com/pdf/java/) dan menambahkannya ke classpath proyek Java Anda.
+Untuk menginstal Aspose.PDF untuk Java, unduh pustaka dari [Di Sini](https://releases.aspose.com/pdf/java/) dan menambahkannya ke classpath proyek Java Anda.
 
 ### Bisakah saya mengonversi beberapa berkas XPS ke PDF sekaligus?
 
@@ -80,9 +82,11 @@ Ya, Aspose.PDF untuk Java mendukung berbagai format dokumen, termasuk PDF, XPS, 
 ### Apakah Aspose.PDF untuk Java cocok untuk pemrosesan dokumen skala besar?
 
 Ya, Aspose.PDF untuk Java dirancang untuk menangani pemrosesan dokumen berskala besar secara efisien. Ini adalah pilihan yang tepat untuk aplikasi yang memerlukan operasi terkait PDF yang ekstensif.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

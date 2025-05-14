@@ -1,14 +1,16 @@
 ---
-title: Zamień cały tekst w pliku PDF
-linktitle: Zamień cały tekst w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak bez wysiłku zastąpić tekst w pliku PDF za pomocą Aspose.PDF dla .NET. Kompletny przewodnik z dołączonymi fragmentami kodu.
-weight: 350
-url: /pl/net/programming-with-text/replace-text-all/
+"description": "Dowiedz się, jak bez wysiłku zastąpić tekst w pliku PDF za pomocą Aspose.PDF dla .NET. Kompletny przewodnik z dołączonymi fragmentami kodu."
+"linktitle": "Zamień cały tekst w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zamień cały tekst w pliku PDF"
+"url": "/pl/net/programming-with-text/replace-text-all/"
+"weight": 350
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zamień cały tekst w pliku PDF
@@ -21,7 +23,7 @@ Jeśli chodzi o zarządzanie plikami PDF, możliwość manipulowania treścią �
 
 Zanim rozpoczniemy tę podróż, upewnijmy się, że jesteś w pełni wyposażony. Oto rzeczy, które musisz mieć na miejscu:
 
-1.  Aspose.PDF dla .NET: Przede wszystkim musisz mieć zainstalowaną bibliotekę Aspose.PDF. Możesz ją łatwo pobrać ze strony[strona](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Przede wszystkim musisz mieć zainstalowaną bibliotekę Aspose.PDF. Możesz ją łatwo pobrać ze strony [strona](https://releases.aspose.com/pdf/net/).
 2. Środowisko .NET: Upewnij się, że masz działające środowisko .NET, takie jak Visual Studio. Upewnij się, że Twój projekt jest zgodny z .NET Framework lub .NET Core z Aspose.PDF.
 3. Podstawowa wiedza o języku C#: Podstawowa znajomość programowania w języku C# sprawi, że korzystanie z tego przewodnika będzie o wiele łatwiejsze.
 
@@ -46,7 +48,7 @@ using Aspose.Pdf;
 using Aspose.Pdf.Text;
 ```
 
- Informuje to Twój projekt, że chcesz użyć`Aspose.Pdf` biblioteka umożliwiająca pracę z plikami PDF.
+Informuje to Twój projekt, że chcesz użyć `Aspose.Pdf` biblioteka umożliwiająca pracę z plikami PDF.
 
 Teraz, gdy już wszystko skonfigurowałeś, przejdźmy krok po kroku przez proces zastępowania tekstu w pliku PDF. Nie martw się; rozbiję wszystko na części, więc jest to bardzo łatwe do naśladowania.
 
@@ -58,27 +60,27 @@ Pierwszą rzeczą, którą musisz zrobić, jest określenie katalogu dokumentu P
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest Twój istniejący plik PDF. To tak, jakby dać programowi mapę, aby znalazł swój skarb!
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest Twój istniejący plik PDF. To tak, jakby dać programowi mapę, aby znalazł swój skarb!
 
 ## Krok 2: Otwórz dokument
 
- Następnie należy załadować dokument PDF do programu za pomocą`Document` klasa.
+Następnie należy załadować dokument PDF do programu za pomocą `Document` klasa.
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "ReplaceTextAll.pdf");
 ```
 
- Tutaj otwierasz plik PDF o nazwie`ReplaceTextAll.pdf`. Pomyśl o tym kroku jak o odblokowaniu książki w celu przeczytania jej zawartości.
+Tutaj otwierasz plik PDF o nazwie `ReplaceTextAll.pdf`. Pomyśl o tym kroku jak o odblokowaniu książki w celu przeczytania jej zawartości.
 
 ## Krok 3: Utwórz absorber tekstu
 
- Teraz utworzysz`TextFragmentAbsorber`, który jest specjalistycznym obiektem pomagającym w lokalizowaniu wystąpień tekstu, który chcesz zastąpić. 
+Teraz utworzysz `TextFragmentAbsorber`, który jest specjalistycznym obiektem pomagającym w lokalizowaniu wystąpień tekstu, który chcesz zastąpić. 
 
 ```csharp
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
 
- W tym wierszu zamień`"text"` z rzeczywistym tekstem, którego szukasz. Jest to podobne do używania zakreślacza do zaznaczania słów na stronie.
+W tym wierszu zamień `"text"` rzeczywistym tekstem, którego szukasz. Jest to podobne do używania zakreślacza do zaznaczania słów na stronie.
 
 ## Krok 4: Akceptuj Absorber dla wszystkich stron
 
@@ -120,12 +122,12 @@ Tutaj zastępujesz stary tekst nowym! Zastąp go i dostosuj jego wygląd:
 ```csharp
 textFragment.Text = "TEXT"; // nowy tekst
 textFragment.TextState.Font = FontRepository.FindFont("Verdana"); // nowa czcionka
-textFragment.TextState.FontSize = 22; //nowy rozmiar czcionki
+textFragment.TextState.FontSize = 22; // nowy rozmiar czcionki
 textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Blue); // kolor tekstu
 textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green); // kolor tła
 ```
 
- Zastępować`"TEXT"` z dowolnym nowym tekstem, który chcesz wstawić. Dzięki temu możesz nie tylko zmienić sformułowanie, ale także styl, w jaki wygląda!
+Zastępować `"TEXT"` z dowolnym nowym tekstem, który chcesz wstawić. Dzięki temu możesz nie tylko zmienić sformułowanie, ale także styl, w jaki wygląda!
 
 ## Krok 8: Zapisz dokument
 
@@ -136,7 +138,7 @@ dataDir = dataDir + "ReplaceTextAll_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Ten wiersz zapisuje zaktualizowany plik PDF jako`ReplaceTextAll_out.pdf`To tak, jakbyś zapieczętował książkę po wprowadzeniu poprawek!
+Ten wiersz zapisuje zaktualizowany plik PDF jako `ReplaceTextAll_out.pdf`To tak, jakbyś zapieczętował książkę po wprowadzeniu poprawek!
 
 ## Krok 9: Potwierdź zmiany
 
@@ -155,22 +157,24 @@ masz to! Właśnie nauczyłeś się, jak zamienić tekst w całym pliku PDF za p
 ## Najczęściej zadawane pytania
 
 ### Czy mogę zastąpić kilka różnych tekstów jednocześnie?
-Tak, można iterować po kolekcji TextFragmentCollection i stosować różne warunki w celu zamiany różnych tekstów.
+Tak, można przeglądać kolekcję TextFragmentCollection i stosować różne warunki w celu zastępowania różnych tekstów.
 
 ### Które wersje .NET są zgodne z Aspose.PDF?
- Aspose.PDF obsługuje różne wersje, w tym .NET Framework i .NET Core. Zawsze sprawdzaj[dokumentacja](https://reference.aspose.com/pdf/net/) w celu zapewnienia zgodności.
+Aspose.PDF obsługuje różne wersje, w tym .NET Framework i .NET Core. Zawsze sprawdzaj [dokumentacja](https://reference.aspose.com/pdf/net/) w celu zapewnienia zgodności.
 
 ### Czy istnieje możliwość uzyskania bezpłatnej wersji próbnej Aspose.PDF?
- Oczywiście! Możesz uzyskać bezpłatną wersję próbną Aspose.PDF od ich[strona wydania](https://releases.aspose.com/).
+Oczywiście! Możesz uzyskać bezpłatną wersję próbną Aspose.PDF od ich [strona wydania](https://releases.aspose.com/).
 
 ### Jak mogę uzyskać pomoc, jeśli wystąpią problemy?
- Forum społeczności Aspose jest świetnym miejscem na pomoc. Możesz odwiedzić[Wsparcie](https://forum.aspose.com/c/pdf/10) po pomoc.
+Forum społeczności Aspose jest świetnym miejscem na pomoc. Możesz odwiedzić [Wsparcie](https://forum.aspose.com/c/pdf/10) po pomoc.
 
 ### Czy korzystanie z Aspose.PDF po zakończeniu okresu próbnego wiąże się z opłatami?
- Tak, Aspose.PDF jest produktem płatnym. Możesz zobaczyć opcje zakupu[Tutaj](https://purchase.aspose.com/buy).
+Tak, Aspose.PDF jest produktem płatnym. Możesz zobaczyć opcje zakupu [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

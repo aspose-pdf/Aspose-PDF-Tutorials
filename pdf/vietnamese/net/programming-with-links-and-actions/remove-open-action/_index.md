@@ -1,14 +1,16 @@
 ---
-title: Xóa hành động mở
-linktitle: Xóa hành động mở
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Dễ dàng xóa các hành động mở khỏi PDF bằng Aspose.PDF cho .NET! Một hướng dẫn đơn giản với hướng dẫn từng bước để quản lý PDF hiệu quả.
-weight: 80
-url: /vi/net/programming-with-links-and-actions/remove-open-action/
+"description": "Dễ dàng xóa các hành động mở khỏi PDF bằng Aspose.PDF cho .NET! Một hướng dẫn đơn giản với hướng dẫn từng bước để quản lý PDF hiệu quả."
+"linktitle": "Xóa hành động mở"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Xóa hành động mở"
+"url": "/vi/net/programming-with-links-and-actions/remove-open-action/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa hành động mở
@@ -23,7 +25,7 @@ Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Hiểu biết cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn dễ dàng duyệt qua các đoạn mã.
 2. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Đây là IDE phổ biến nhất để phát triển .NET.
-3.  Aspose.PDF cho .NET: Bạn sẽ cần phải có thư viện này trong tay. Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/). 
+3. Aspose.PDF cho .NET: Bạn sẽ cần phải có thư viện này trong tay. Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/). 
 4. .NET Framework: Đảm bảo rằng bạn đã thiết lập dự án của mình để sử dụng .NET Framework (khuyến nghị sử dụng phiên bản 4.0 trở lên).
 5. Tệp PDF có hành động mở: Đây là tài liệu chúng ta sẽ làm việc. Bạn có thể tạo một tệp hoặc tải xuống mẫu để thực hành.
 
@@ -61,7 +63,7 @@ Trước tiên và quan trọng nhất, bạn cần chỉ định vị trí tệ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Ví dụ:
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp PDF của bạn được lưu trữ. Ví dụ:
 
 ```csharp
 string dataDir = "C:\\Documents\\";
@@ -77,7 +79,7 @@ Tiếp theo, hãy tải tài liệu PDF vào ứng dụng của bạn. Đây là
 Document document = new Document(dataDir + "RemoveOpenAction.pdf");
 ```
 
- Trong bước này, chúng tôi đang yêu cầu ứng dụng của mình tạo một`Document` đối tượng, đại diện cho tệp PDF có tên "RemoveOpenAction.pdf". Hãy đảm bảo rằng tệp này tồn tại trong thư mục bạn chỉ định!
+Trong bước này, chúng tôi đang yêu cầu ứng dụng của mình tạo một `Document` đối tượng, đại diện cho tệp PDF có tên "RemoveOpenAction.pdf". Hãy đảm bảo rằng tệp này tồn tại trong thư mục bạn chỉ định!
 
 ## Bước 3: Xóa Hành động Mở
 
@@ -108,7 +110,7 @@ Mã này sẽ lưu tài liệu đã sửa đổi dưới dạng "RemoveOpenActio
 Console.WriteLine("\nOpen action removed successfully.\nFile saved at " + dataDir);
 ```
 
-Bước này không thực sự cần thiết, nhưng thật tuyệt khi có lệnh đóng sau khi thực hiện các thao tác của bạn. Bạn đã làm được rồi! Bạn đã xóa thành công hành động mở khỏi tài liệu PDF.
+Bước này không thực sự cần thiết, nhưng thật tuyệt khi có lệnh đóng sau khi thực hiện các thao tác của bạn. Bạn đã làm được rồi! Bạn đã xóa thành công thao tác mở khỏi tài liệu PDF.
 
 ## Phần kết luận
 
@@ -120,19 +122,21 @@ Và chúng ta đã có nó! Chỉ với một vài dòng mã C# và sức mạnh
 Hành động mở là các lệnh được thực hiện khi mở tệp PDF, chẳng hạn như phát âm thanh hoặc điều hướng đến trang web.
 
 ### Tôi có cần phải trả tiền cho Aspose.PDF dành cho .NET không?
- Aspose cung cấp bản dùng thử miễn phí. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Aspose cung cấp bản dùng thử miễn phí. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Tôi có thể xóa nhiều hành động đang mở khỏi một tệp PDF không?
- Có, bạn có thể thiết lập`OpenAction` tài sản để`null` để xóa tất cả các hành động đang mở.
+Có, bạn có thể thiết lập `OpenAction` tài sản để `null` để xóa tất cả các hành động đang mở.
 
 ### Làm thế nào để kiểm tra xem thao tác xóa mở có hiệu quả không?
 Mở tệp PDF đã lưu và kiểm tra xem có bất kỳ hành động nào được thiết lập trước đó xảy ra không. Nếu không, bạn đã thành công!
 
 ### Tôi có thể tìm sự hỗ trợ ở đâu nếu gặp vấn đề?
- Truy cập diễn đàn Aspose để được hỗ trợ về các vấn đề liên quan đến PDF[đây](https://forum.aspose.com/c/pdf/10).
+Truy cập diễn đàn Aspose để được hỗ trợ về các vấn đề liên quan đến PDF [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

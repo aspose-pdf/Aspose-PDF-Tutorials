@@ -1,14 +1,16 @@
 ---
-title: กำหนดการจัดตำแหน่งสำหรับวัตถุแสตมป์ข้อความใน PDF โดยใช้ Java
-linktitle: กำหนดการจัดตำแหน่งสำหรับวัตถุแสตมป์ข้อความใน PDF โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการจัดตำแหน่งวัตถุแสตมป์ข้อความใน PDF อย่างแม่นยำโดยใช้ Java ด้วย Aspose.PDF สำหรับ Java ปรับปรุงรูปลักษณ์และการอ่านเอกสารให้ดีขึ้น
-weight: 13
-url: /th/java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-using-java/
+"description": "เรียนรู้วิธีการจัดตำแหน่งวัตถุแสตมป์ข้อความใน PDF อย่างแม่นยำโดยใช้ Java ด้วย Aspose.PDF สำหรับ Java ปรับปรุงรูปลักษณ์และการอ่านเอกสารให้ดีขึ้น"
+"linktitle": "กำหนดการจัดตำแหน่งสำหรับวัตถุแสตมป์ข้อความใน PDF โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "กำหนดการจัดตำแหน่งสำหรับวัตถุแสตมป์ข้อความใน PDF โดยใช้ Java"
+"url": "/th/java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # กำหนดการจัดตำแหน่งสำหรับวัตถุแสตมป์ข้อความใน PDF โดยใช้ Java
@@ -22,8 +24,8 @@ url: /th/java/pdf-form-fields/define-alignment-for-text-stamp-object-in-pdf-usin
 
 ก่อนที่เราจะเจาะลึกถึงรายละเอียดของการจัดตำแหน่งตราประทับข้อความ สิ่งสำคัญคือต้องตั้งค่าสภาพแวดล้อมการพัฒนาของเรา ตรวจสอบว่าคุณได้ติดตั้งและกำหนดค่า Aspose.PDF สำหรับ Java ในโครงการ Java ของคุณแล้ว คุณสามารถเข้าถึงทรัพยากรที่จำเป็นได้ที่นี่:
 
--  เอกสารประกอบ:[เอกสารอ้างอิง Aspose.PDF สำหรับ Java API](https://reference.aspose.com/pdf/java/)
--  ดาวน์โหลด:[Aspose.PDF สำหรับ Java](https://releases.aspose.com/pdf/java/)
+- เอกสารประกอบ: [เอกสารอ้างอิง Aspose.PDF สำหรับ Java API](https://reference.aspose.com/pdf/java/)
+- ดาวน์โหลด: [Aspose.PDF สำหรับ Java](https://releases.aspose.com/pdf/java/)
 
 เมื่อคุณเตรียมทุกอย่างลงตัวแล้ว มาดูขั้นตอนการเขียนโค้ดกัน
 
@@ -110,14 +112,16 @@ textStamp.setHorizontalAlignment(HorizontalAlignment.Center);
 
 ### ฉันจะเปลี่ยนแบบอักษรและสีของแสตมป์ข้อความได้อย่างไร
 
- คุณสามารถเปลี่ยนแบบอักษรและสีของแสตมป์ข้อความได้โดยการกำหนดค่าคุณสมบัติสถานะข้อความ ใช้`setTextState` เพื่อตั้งค่าแบบอักษร ขนาดแบบอักษร และสีที่ต้องการ
+คุณสามารถเปลี่ยนแบบอักษรและสีของแสตมป์ข้อความได้โดยการกำหนดค่าคุณสมบัติสถานะข้อความ ใช้ `setTextState` เพื่อตั้งค่าแบบอักษร ขนาดแบบอักษร และสีที่ต้องการ
 
 ### มีตัวเลือกการจัดตำแหน่งขั้นสูงให้เลือกใช้หรือไม่
 
 ใช่ Aspose.PDF สำหรับ Java นำเสนอตัวเลือกการจัดตำแหน่งขั้นสูง รวมถึงการจัดตำแหน่งข้อความให้ตรงกลางทั้งในแนวนอนและแนวตั้ง การจัดตำแหน่งให้ตรงกับขอบที่กำหนด และอื่นๆ อีกมากมาย สำรวจเอกสารประกอบเพื่อดูตัวอย่างโดยละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

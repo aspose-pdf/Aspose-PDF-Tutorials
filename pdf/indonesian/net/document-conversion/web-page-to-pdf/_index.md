@@ -1,28 +1,30 @@
 ---
-title: Halaman Web Ke PDF
-linktitle: Halaman Web Ke PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengonversi halaman web ke PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah terperinci ini.
-weight: 320
-url: /id/net/document-conversion/web-page-to-pdf/
+"description": "Pelajari cara mengonversi halaman web ke PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah terperinci ini."
+"linktitle": "Halaman Web Ke PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Halaman Web Ke PDF"
+"url": "/id/net/document-conversion/web-page-to-pdf/"
+"weight": 320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Halaman Web Ke PDF
 
 ## Perkenalan
 
-Di era digital saat ini, kemampuan untuk mengubah halaman web menjadi dokumen PDF sangatlah berharga. Baik Anda ingin menyimpan artikel untuk dibaca secara offline, membuat laporan, atau mengarsipkan konten dari web, memiliki alat yang tepat dapat membuat semua perbedaan. Salah satu alat tersebut adalah Aspose.PDF for .NET, pustaka canggih yang memungkinkan pengembang untuk membuat dan memanipulasi dokumen PDF dengan mudah. Dalam panduan ini, kami akan memandu Anda melalui proses mengubah halaman web menjadi PDF menggunakan Aspose.PDF for .NET, dengan membaginya menjadi beberapa langkah yang mudah dikelola.
+Di era digital saat ini, kemampuan untuk mengonversi halaman web menjadi dokumen PDF sangatlah berharga. Baik Anda ingin menyimpan artikel untuk dibaca secara offline, membuat laporan, atau mengarsipkan konten dari web, memiliki alat yang tepat dapat membuat semua perbedaan. Salah satu alat tersebut adalah Aspose.PDF for .NET, pustaka canggih yang memungkinkan pengembang untuk membuat dan memanipulasi dokumen PDF dengan mudah. Dalam panduan ini, kami akan memandu Anda melalui proses mengonversi halaman web menjadi PDF menggunakan Aspose.PDF for .NET, dengan membaginya menjadi beberapa langkah yang mudah dikelola.
 
 ## Prasyarat
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sinilah Anda akan menulis dan menjalankan kode .NET Anda.
-2.  Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF untuk .NET: Anda memerlukan pustaka Aspose.PDF. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contohnya dengan lebih baik.
 4. Akses Internet: Karena kita akan mengambil konten dari halaman web, pastikan lingkungan pengembangan Anda memiliki akses internet.
 
@@ -44,7 +46,7 @@ Selanjutnya, tambahkan referensi ke pustaka Aspose.PDF. Anda dapat melakukannya 
 
 ### Mengimpor Ruang Nama yang Diperlukan
 
- Setelah perpustakaan ditambahkan, buka`Program.cs` file dan impor namespace yang diperlukan di bagian atas file:
+Setelah perpustakaan ditambahkan, buka `Program.cs` file dan impor namespace yang diperlukan di bagian atas file:
 
 ```csharp
 using System.IO;
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ganti dengan jalur Anda
 Selanjutnya, Anda perlu membuat permintaan untuk mengambil konten dari halaman web yang ingin Anda konversi. Berikut cara melakukannya:
 
 ```csharp
-WebRequest request = WebRequest.Create("https://en.wikipedia.org/wiki/Main_Page");
+WebRequest request = WebRequest.Create("https://en.wikipedia.org/wiki/Halaman_Utama");
 request.Credentials = CredentialCache.DefaultCredentials;
 ```
 
@@ -92,24 +94,24 @@ Di sini, kita membaca seluruh konten yang dikembalikan oleh server ke dalam vari
 
 ## Langkah 4: Muat Konten HTML ke Memori
 
-Sekarang setelah kita memiliki konten HTML, kita perlu memuatnya ke dalam`MemoryStream` sehingga kami dapat memprosesnya dengan Aspose.PDF:
+Sekarang setelah kita memiliki konten HTML, kita perlu memuatnya ke dalam `MemoryStream` sehingga kami dapat memprosesnya dengan Aspose.PDF:
 
 ```csharp
 MemoryStream stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(responseFromServer));
 HtmlLoadOptions options = new HtmlLoadOptions("https://en.wikipedia.org/wiki/");
 ```
 
- Pada langkah ini, kami mengubah respons string menjadi array byte dan memuatnya ke dalam`MemoryStream` . Itu`HtmlLoadOptions` memungkinkan kita menentukan URL dasar untuk setiap tautan relatif dalam HTML.
+Pada langkah ini, kami mengubah respons string menjadi array byte dan memuatnya ke dalam `MemoryStream`. Itu `HtmlLoadOptions` memungkinkan kita menentukan URL dasar untuk setiap tautan relatif dalam HTML.
 
 ## Langkah 5: Buat Dokumen PDF
 
-Setelah konten HTML dimuat, kita sekarang dapat membuat dokumen PDF darinya:
+Setelah konten HTML dimuat, sekarang kita dapat membuat dokumen PDF darinya:
 
 ```csharp
 Document pdfDocument = new Document(stream, options);
 ```
 
- Baris kode ini menginisialisasi yang baru`Document` objek, yang mewakili PDF yang akan kita buat.
+Baris kode ini menginisialisasi yang baru `Document` objek, yang mewakili PDF yang akan kita buat.
 
 ## Langkah 6: Mengatur Orientasi Halaman
 
@@ -129,7 +131,7 @@ Akhirnya, saatnya menyimpan dokumen PDF ke direktori yang ditentukan:
 pdfDocument.Save(dataDir + "WebPageToPDF_out.pdf");
 ```
 
- Baris ini menyimpan PDF dengan nama`WebPageToPDF_out.pdf` di direktori dokumen yang Anda tentukan.
+Baris ini menyimpan PDF dengan nama `WebPageToPDF_out.pdf` di direktori dokumen yang Anda tentukan.
 
 ## Langkah 8: Menangani Pengecualian
 
@@ -161,16 +163,18 @@ Aspose.PDF untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat,
 Ya, selama halaman web dapat diakses publik, Anda dapat mengonversinya ke PDF menggunakan Aspose.PDF.
 
 ### Apakah ada uji coba gratis yang tersedia?
- Ya, Anda dapat mengunduh uji coba gratis Aspose.PDF untuk .NET dari[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis Aspose.PDF untuk .NET dari [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Anda bisa mendapatkan dukungan dari komunitas Aspose di[forum dukungan](https://forum.aspose.com/c/pdf/10).
+Anda bisa mendapatkan dukungan dari komunitas Aspose di [forum dukungan](https://forum.aspose.com/c/pdf/10).
 
 ### Bagaimana saya bisa memperoleh lisensi sementara?
- Anda dapat mengajukan permohonan lisensi sementara di[Situs web Aspose](https://purchase.aspose.com/temporary-license/).
+Anda dapat mengajukan permohonan lisensi sementara di [Situs web Aspose](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

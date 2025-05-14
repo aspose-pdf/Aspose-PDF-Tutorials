@@ -1,14 +1,16 @@
 ---
-title: Properti Elemen Struktur dalam PDF menggunakan Java
-linktitle: Properti Elemen Struktur dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Buka Kekuatan Elemen Struktur PDF di Java dengan Aspose.PDF. Pelajari Cara Membuat, Memodifikasi, dan Mengoptimalkan PDF untuk Aksesibilitas.
-weight: 12
-url: /id/java/pdf-styles-and-formatting/structure-elements-properties-in-pdf-using-java/
+"description": "Buka Kekuatan Elemen Struktur PDF di Java dengan Aspose.PDF. Pelajari Cara Membuat, Memodifikasi, dan Mengoptimalkan PDF untuk Aksesibilitas."
+"linktitle": "Properti Elemen Struktur dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Properti Elemen Struktur dalam PDF menggunakan Java"
+"url": "/id/java/pdf-styles-and-formatting/structure-elements-properties-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Properti Elemen Struktur dalam PDF menggunakan Java
@@ -24,7 +26,7 @@ Sebelum kita mulai membuat kode, pastikan Java sudah terinstal di sistem Anda. A
 
 ## Menambahkan Aspose.PDF ke Proyek Anda
 
- Untuk memulai, mari tambahkan pustaka Aspose.PDF ke proyek kita. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan.
+Untuk memulai, mari tambahkan pustaka Aspose.PDF ke proyek kita. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan.
 
 ## Membuat Dokumen PDF
 
@@ -117,9 +119,11 @@ Ya, Anda dapat mengoptimalkan kode pemrosesan PDF dengan menggunakan struktur da
 ### Apakah Aspose.PDF cocok untuk proyek komersial?
 
 Ya, Aspose.PDF adalah pustaka hebat yang cocok untuk proyek pribadi dan komersial, menawarkan fitur luas untuk manipulasi PDF di Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

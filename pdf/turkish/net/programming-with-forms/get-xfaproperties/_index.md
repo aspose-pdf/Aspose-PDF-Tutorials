@@ -1,14 +1,16 @@
 ---
-title: XFAProperties'i edinin
-linktitle: XFAProperties'i edinin
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu kapsamlı eğitimde .NET için Aspose.PDF kullanarak XFA özelliklerinin nasıl alınacağını öğrenin. Adım adım kılavuz dahildir.
-weight: 160
-url: /tr/net/programming-with-forms/get-xfaproperties/
+"description": "Bu kapsamlı eğitimde .NET için Aspose.PDF kullanarak XFA özelliklerinin nasıl alınacağını öğrenin. Adım adım kılavuz dahildir."
+"linktitle": "XFAProperties'i edinin"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "XFAProperties'i edinin"
+"url": "/tr/net/programming-with-forms/get-xfaproperties/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # XFAProperties'i edinin
@@ -22,7 +24,7 @@ url: /tr/net/programming-with-forms/get-xfaproperties/
 Koda geçmeden önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için en iyi ortamdır.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan edinebilirsiniz:[indirme bağlantısı](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan edinebilirsiniz: [indirme bağlantısı](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak örnekleri daha iyi anlamanıza yardımcı olacaktır.
 4. XFA Formları İçeren Bir PDF: Kodu test etmek için XFA formları içeren bir örnek PDF dosyasına ihtiyacınız olacak. Bir tane oluşturabilir veya internetten bir örnek indirebilirsiniz.
 
@@ -32,7 +34,7 @@ Başlamak için, C# projenize gerekli paketleri içe aktarmanız gerekir. Bunu n
 
 1. Visual Studio projenizi açın.
 2. Çözüm Gezgini'nde projenize sağ tıklayın ve "NuGet Paketlerini Yönet" seçeneğini seçin.
-3.  Arama`Aspose.PDF` ve kurun.
+3. Arama `Aspose.PDF` ve kurun.
 
 ```csharp
 using System;
@@ -40,7 +42,7 @@ using System.IO;
 using Aspose.Pdf;
 ```
 
-Paketinizi kurduktan sonra kodlamaya başlayabilirsiniz!
+Paketi kurduktan sonra kodlamaya başlayabilirsiniz!
 
 ## Adım 1: Belge Dizininizi Ayarlayın
 
@@ -51,7 +53,7 @@ Yolculuğumuzun ilk adımı PDF belgelerinizin saklandığı dizini ayarlamaktı
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"`PDF dosyanızın bulunduğu gerçek yol ile. Bu, programın PDF'nizi bulmasını ve yüklemesini sağlayacaktır.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile. Bu, programın PDF'nizi bulmasını ve yüklemesini sağlayacaktır.
 
 ## Adım 2: XFA Formunu yükleyin
 
@@ -62,7 +64,7 @@ Artık belge dizinimizi kurduğumuza göre, XFA formunu yükleme zamanı geldi. 
 Document doc = new Document(dataDir + "GetXFAProperties.pdf");
 ```
 
- Bu satırda yeni bir tane oluşturuyoruz`Document` nesne ve PDF dosyamızın yolunu geç. Bu, belgeyi belleğe yükler ve işleme hazır hale getirir.
+Bu satırda yeni bir tane oluşturuyoruz `Document` nesne ve PDF dosyamızın yolunu geç. Bu, belgeyi belleğe yükler ve işleme hazır hale getirir.
 
 ## Adım 3: Alan Adlarını Alın
 
@@ -72,7 +74,7 @@ Belge yüklendikten sonra, XFA formundaki alanların adlarını alabiliriz. Bu, 
 string[] names = doc.Form.XFA.FieldNames;
 ```
 
- Burada, şuraya erişiyoruz:`FieldNames` XFA formunun özelliği, bize bir dizi alan adı verir. Bu, yemek pişirmeye başlamadan önce bir malzeme listesi olması gibidir!
+Burada, şuraya erişiyoruz: `FieldNames` XFA formunun özelliği, bize bir dizi alan adı verir. Bu, yemek pişirmeye başlamadan önce bir malzeme listesi olması gibidir!
 
 ## Adım 4: Alan Değerlerini Ayarlayın
 
@@ -96,7 +98,7 @@ Console.WriteLine(doc.Form.XFA.GetFieldTemplate(names[0]).Attributes["x"].Value)
 Console.WriteLine(doc.Form.XFA.GetFieldTemplate(names[0]).Attributes["y"].Value);
 ```
 
- Burada, şuraya erişiyoruz:`GetFieldTemplate` alanın niteliklerini, özellikle "x" ve "y" koordinatlarını elde etmek için yöntem. Bu bize alanın PDF'de nerede konumlandırıldığını söyler.
+Burada, şuraya erişiyoruz: `GetFieldTemplate` alanın niteliklerini, özellikle "x" ve "y" koordinatlarını elde etmek için yöntem. Bu bize alanın PDF'de nerede konumlandırıldığını söyler.
 
 ## Adım 6: Güncellenen Belgeyi Kaydedin
 
@@ -121,20 +123,22 @@ Ve işte karşınızda! .NET için Aspose.PDF'yi kullanarak XFA özelliklerini n
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir kütüphanedir.
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose kütüphanenin özelliklerini keşfetmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. Kontrol edin[Burada](https://releases.aspose.com/).
+Evet, Aspose kütüphanenin özelliklerini keşfetmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. Kontrol edin [Burada](https://releases.aspose.com/).
 
 ### Dokümantasyonu nerede bulabilirim?
- .NET için Aspose.PDF belgelerini bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+.NET için Aspose.PDF belgelerini bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Aspose forumunu ziyaret ederek destek alabilirsiniz[Burada](https://forum.aspose.com/c/pdf/10).
+Aspose forumunu ziyaret ederek destek alabilirsiniz [Burada](https://forum.aspose.com/c/pdf/10).
 
 ### Geçici lisans var mı?
- Evet, Aspose.PDF için geçici bir lisans talep edebilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, Aspose.PDF için geçici bir lisans talep edebilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

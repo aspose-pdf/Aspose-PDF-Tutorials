@@ -1,24 +1,26 @@
 ---
-title: Dodaj uporządkowaną listę HTML do dokumentów w Javie
-linktitle: Dodaj uporządkowaną listę HTML do dokumentów w Javie
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak dodawać uporządkowane listy HTML do dokumentów PDF za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym.
-weight: 11
-url: /pl/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/
+"description": "Dowiedz się, jak dodawać uporządkowane listy HTML do dokumentów PDF za pomocą Aspose.PDF dla Java. Przewodnik krok po kroku z kodem źródłowym."
+"linktitle": "Dodaj uporządkowaną listę HTML do dokumentów w Javie"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodaj uporządkowaną listę HTML do dokumentów w Javie"
+"url": "/pl/java/pdf-page-manipulation/add-html-ordered-list-into-documents-in-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj uporządkowaną listę HTML do dokumentów w Javie
 
 
-tym samouczku przeprowadzimy Cię przez proces dodawania uporządkowanej listy HTML do dokumentów przy użyciu Aspose.PDF dla Java. Aspose.PDF dla Java to potężna biblioteka, która umożliwia tworzenie, manipulowanie i konwertowanie dokumentów PDF w aplikacjach Java. 
+W tym samouczku przeprowadzimy Cię przez proces dodawania uporządkowanej listy HTML do dokumentów przy użyciu Aspose.PDF dla Java. Aspose.PDF dla Java to potężna biblioteka, która umożliwia tworzenie, manipulowanie i konwertowanie dokumentów PDF w aplikacjach Java. 
 
 ## Wprowadzenie do Aspose.PDF dla Java
 
-Aspose.PDF for Java to biblioteka Java, która umożliwia pracę z dokumentami PDF w aplikacjach Java. Zapewnia szeroki zakres funkcji do tworzenia, edytowania i manipulowania plikami PDF, co czyni ją cennym narzędziem dla programistów.
+Aspose.PDF for Java to biblioteka Java, która umożliwia pracę z dokumentami PDF w aplikacjach Java. Oferuje szeroki zakres funkcji do tworzenia, edytowania i manipulowania plikami PDF, co czyni ją cennym narzędziem dla programistów.
 
 ## Zrozumienie uporządkowanych list HTML
 
@@ -26,7 +28,7 @@ Listy uporządkowane HTML służą do wyświetlania listy elementów w kolejnoś
 
 ## Dodawanie Aspose.PDF dla Java do projektu
 
- Zanim zaczniemy, musisz dodać Aspose.PDF dla Java do swojego projektu Java. Możesz pobrać bibliotekę ze strony internetowej pod adresem[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
+Zanim zaczniemy, musisz dodać Aspose.PDF dla Java do swojego projektu Java. Możesz pobrać bibliotekę ze strony internetowej pod adresem [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
 
 ## Tworzenie nowego dokumentu PDF
 
@@ -39,7 +41,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 
 ## Dodawanie uporządkowanej listy HTML do pliku PDF
 
- Następnie musisz przeanalizować uporządkowaną listę HTML i dodać ją do dokumentu PDF. Aspose.PDF dla Javy zapewnia wygodny sposób wykonania tego za pomocą`HtmlFragment` klasa.
+Następnie musisz przeanalizować uporządkowaną listę HTML i dodać ją do dokumentu PDF. Aspose.PDF dla Javy zapewnia wygodny sposób wykonania tego za pomocą `HtmlFragment` klasa.
 
 ```java
 // Utwórz fragment HTML
@@ -77,7 +79,7 @@ W tym samouczku nauczyliśmy się, jak dodać uporządkowaną listę HTML do dok
 
 ### Jak pobrać Aspose.PDF dla Java?
 
-Plik Aspose.PDF dla języka Java można pobrać ze strony internetowej pod adresem[https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
+Plik Aspose.PDF dla języka Java można pobrać ze strony internetowej pod adresem [https://releases.aspose.com/pdf/java/](https://releases.aspose.com/pdf/java/).
 
 ### Czy mogę dostosować styl listy uporządkowanej HTML?
 
@@ -87,12 +89,14 @@ Tak, możesz dostosować styl listy uporządkowanej HTML, zmieniając rozmiar cz
 
 Aspose.PDF for Java jest biblioteką komercyjną i może być konieczne zakupienie licencji w przypadku niektórych scenariuszy użytkowania. Informacje na temat licencjonowania można znaleźć na stronie internetowej.
 
-### Czy Aspose.PDF udostępnia jakieś inne funkcje dla Java?
+### Czy Aspose.PDF udostępnia jakieś inne funkcje dla języka Java?
 
- Tak, Aspose.PDF dla Java oferuje szeroki zakres funkcji do pracy z dokumentami PDF, w tym ekstrakcję tekstu, konwersję PDF i wiele innych. Dokumentację można przejrzeć na stronie[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) Aby uzyskać szczegółowe informacje.
+Tak, Aspose.PDF dla Java oferuje szeroki zakres funkcji do pracy z dokumentami PDF, w tym ekstrakcję tekstu, konwersję PDF i wiele innych. Dokumentację można przejrzeć na stronie [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/) Aby uzyskać szczegółowe informacje.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

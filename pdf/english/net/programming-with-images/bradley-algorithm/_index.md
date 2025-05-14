@@ -8,7 +8,9 @@ url: /net/programming-with-images/bradley-algorithm/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bradley Algorithm
@@ -163,6 +165,7 @@ Yes, the Bradley Algorithm is often used in OCR preprocessing because it enhance
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

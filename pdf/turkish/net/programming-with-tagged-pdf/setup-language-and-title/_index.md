@@ -1,28 +1,30 @@
 ---
-title: Kurulum Dili ve Başlığı
-linktitle: Kurulum Dili ve Başlığı
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET ile bir PDF belgesinin dilini ve başlığını yapılandırmak için adım adım kılavuz. Kişiselleştirilmiş çok dilli belgeler oluşturun.
-weight: 140
-url: /tr/net/programming-with-tagged-pdf/setup-language-and-title/
+"description": "Aspose.PDF for .NET ile bir PDF belgesinin dilini ve başlığını yapılandırmak için adım adım kılavuz. Kişiselleştirilmiş çok dilli belgeler oluşturun."
+"linktitle": "Kurulum Dili ve Başlığı"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Kurulum Dili ve Başlığı"
+"url": "/tr/net/programming-with-tagged-pdf/setup-language-and-title/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kurulum Dili ve Başlığı
 
 ## giriiş
 
-Etiketli PDF'ler oluşturmak, erişilebilirliği sağlamak ve belgeler için yapılandırılmış bir biçim sağlamak için önemli bir etkinliktir. Daha kapsayıcı bir dijital ortama doğru ilerledikçe, etiketli belgelerin nasıl oluşturulacağını anlamak giderek daha önemli hale geliyor. Bu kapsamlı kılavuz, .NET için Aspose.PDF kullanarak etiketli PDF'lerde dil ve başlık ayarlama sürecinde size yol gösterecek. Bunu sindirilebilir adımlara böleceğiz, böylece yeni başlıyor olsanız bile sonunda kendinizi bir profesyonel gibi hissedeceksiniz. 
+Etiketli PDF'ler oluşturmak, erişilebilirliği sağlamak ve belgeler için yapılandırılmış bir biçim sağlamak için önemli bir etkinliktir. Daha kapsayıcı bir dijital ortama doğru ilerledikçe, etiketli belgelerin nasıl oluşturulacağını anlamak giderek daha önemli hale geliyor. Bu kapsamlı kılavuz, .NET için Aspose.PDF kullanarak etiketli PDF'lerde dil ve başlık ayarlama sürecinde size yol gösterecektir. Bunu sindirilebilir adımlara böleceğiz, böylece yeni başlıyor olsanız bile, sonunda kendinizi bir profesyonel gibi hissedeceksiniz. 
 
 ## Ön koşullar
 
 Etiketli PDF'lerin dünyasına dalmadan önce, ihtiyacınız olan her şeyi bir araya getirelim. İşte hazır bulundurmanız gerekenler:
 
 - Temel .NET Bilgisi: Çok iyi bir kodlayıcı olmanıza gerek yok ancak .NET kavramlarına aşina olmanız bu yolculuğu daha sorunsuz hale getirecektir.
--  .NET için Aspose.PDF Yüklendi: Kütüphanenin yüklü olduğundan emin olun. Değerlendirme için indirebilir veya bir lisans satın alabilirsiniz.[indirme sayfası burada](https://releases.aspose.com/pdf/net/).
+- .NET için Aspose.PDF Yüklendi: Kütüphanenin yüklü olduğundan emin olun. Değerlendirme için indirebilir veya bir lisans satın alabilirsiniz. [indirme sayfası burada](https://releases.aspose.com/pdf/net/).
 - Visual Studio: Kodunuzu burada yazacak ve test edeceksiniz. Eğer yoksa, Microsoft web sitesinden edinin.
 - C# Dil Yeterliliği: Bu kılavuz C# dilinde yazılmıştır. C# ile ilgili biraz deneyim, kodlama bölümlerinde zahmetsizce ilerlemenize kesinlikle yardımcı olacaktır.
 
@@ -37,7 +39,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Bu ad alanları, etiketli içerikli PDF'ler oluşturmak ve düzenlemek için gerekli bileşenlere erişmenizi sağlar. "Paketleri neden içe aktarıyorsunuz?" diye merak ediyor olabilirsiniz. Bir şey inşa etmeden önce bir araç kutusu hazırlamak gibidir; doğru araçların elinizin altında olması gerekir.
+Bu ad alanları, etiketli içerikli PDF'ler oluşturmak ve düzenlemek için gerekli bileşenlere erişmenizi sağlar. "Paketleri neden içe aktarıyorsunuz?" diye merak ediyor olabilirsiniz. Bir şey inşa etmeden önce bir araç kutusu hazırlamak gibidir; doğru araçlara sahip olmanız gerekir.
 
 ## Adım 1: Belgeyi Başlatın
 
@@ -57,7 +59,7 @@ Sırada belgelerinizin nerede saklanacağını tanımlamak var. Yeni oluşturdu�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` PDF'in kaydedilmesini istediğiniz gerçek yol ile. Bu, yeni arabanız için bir park yeri bulmaya benzer.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF'in kaydedilmesini istediğiniz gerçek yol ile. Bu, yeni arabanız için bir park yeri bulmaya benzer.
 
 ## Adım 3: Etiketli İçeriği Alın
 
@@ -175,13 +177,15 @@ Etiketli PDF, içeriğinin yapılandırılmış bir şekilde okunmasını sağla
 Evet! Aspose.PDF birden fazla dili destekler ve aynı PDF belgesine çeşitli dillerde içerik eklemenize olanak tanır.
 
 ### Aspose.PDF'i kullanmak için lisansa ihtiyacım var mı?
-Ücretsiz olarak deneyebilmenize rağmen, üretim kullanımı için bir lisans gereklidir. Ziyaret etmeyi düşünün[satın alma sayfası](https://purchase.aspose.com/buy) Daha fazla bilgi için.
+Ücretsiz olarak deneyebilmenize rağmen, üretim kullanımı için bir lisans gereklidir. Ziyaret etmeyi düşünün [satın alma sayfası](https://purchase.aspose.com/buy) Daha fazla bilgi için.
 
 ### Aspose.PDF hakkında daha fazla bilgiyi nerede bulabilirim?
- Aspose.PDF için kapsamlı dokümantasyon ve destek bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+Aspose.PDF için kapsamlı dokümantasyon ve destek bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

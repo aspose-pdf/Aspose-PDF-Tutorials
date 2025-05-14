@@ -1,14 +1,16 @@
 ---
-title: Gaya Tabel Sel
-linktitle: Gaya Tabel Sel
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menata sel tabel dalam PDF menggunakan Aspose.PDF untuk .NET dengan tutorial terperinci ini. Ikuti petunjuk untuk membuat dan memformat tabel PDF yang cantik.
-weight: 160
-url: /id/net/programming-with-tagged-pdf/style-table-cell/
+"description": "Pelajari cara menata sel tabel dalam PDF menggunakan Aspose.PDF untuk .NET dengan tutorial terperinci ini. Ikuti petunjuk untuk membuat dan memformat tabel PDF yang cantik."
+"linktitle": "Gaya Tabel Sel"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Gaya Tabel Sel"
+"url": "/id/net/programming-with-tagged-pdf/style-table-cell/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gaya Tabel Sel
@@ -21,10 +23,10 @@ Membuat tabel PDF yang tampak profesional bisa jadi sulit, tetapi dengan Aspose.
 
 Sebelum menyelami kode, pastikan Anda memiliki prasyarat berikut:
 
-1. Aspose.PDF untuk .NET: Unduh dan instal versi terbaru Aspose.PDF dari[Di Sini](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Unduh dan instal versi terbaru Aspose.PDF dari [Di Sini](https://releases.aspose.com/pdf/net/).
 2. IDE (seperti Visual Studio): Siapkan lingkungan pengembangan .NET.
 3. Pengetahuan dasar pemrograman C#: Diperlukan sedikit pengetahuan tentang C#.
-4.  Lisensi Aspose.PDF: Dapatkan lisensi sementara atau penuh untuk membuka fitur lengkap pustaka. Anda bisa mendapatkan uji coba gratis[Di Sini](https://purchase.aspose.com/temporary-license/).
+4. Lisensi Aspose.PDF: Dapatkan lisensi sementara atau penuh untuk membuka fitur lengkap pustaka. Anda bisa mendapatkan uji coba gratis [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Paket Impor
 
@@ -46,7 +48,7 @@ Kita akan membuat tabel dalam dokumen PDF dan menata sel-selnya. Setiap langkah 
 
 ## Langkah 1: Buat Dokumen PDF Baru
 
- Langkah pertama adalah membuat dokumen PDF baru. Di Aspose.PDF, Anda dapat menginisialisasi dokumen PDF baru.`Document` objek yang mewakili berkas PDF Anda.
+Langkah pertama adalah membuat dokumen PDF baru. Di Aspose.PDF, Anda dapat menginisialisasi dokumen PDF baru. `Document` objek yang mewakili berkas PDF Anda.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -133,7 +135,7 @@ for (int rowIndex = 0; rowIndex < rowCount; rowIndex++)
 }
 ```
 
- Pada langkah ini, kita mengisi badan tabel dengan empat baris dan memberi gaya pada setiap sel dengan latar belakang kuning dan teks biru tebal di tengah. Kita juga menggunakan`MarginInfo`kelas untuk menentukan bantalan di sekitar teks.
+Pada langkah ini, kita mengisi badan tabel dengan empat baris dan memberi gaya pada setiap sel dengan latar belakang kuning dan teks biru tebal di tengah. Kita juga menggunakan `MarginInfo` kelas untuk menentukan bantalan di sekitar teks.
 
 ## Langkah 5: Memberi Gaya pada Footer
 
@@ -166,31 +168,33 @@ bool isPdfUaCompliance = document.Validate(dataDir + "StyleTableCell.xml", PdfFo
 Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
 ```
 
- Kami menyimpan PDF dan menggunakan`Validate` metode untuk memastikannya memenuhi standar aksesibilitas (kepatuhan PDF/UA).
+Kami menyimpan PDF dan menggunakan `Validate` metode untuk memastikannya memenuhi standar aksesibilitas (kepatuhan PDF/UA).
 
 ## Kesimpulan
 
-Mendesain tabel dalam PDF menggunakan Aspose.PDF untuk .NET sangat canggih dan fleksibel. Dengan beberapa baris kode, Anda dapat membuat desain tabel khusus yang akan membuat dokumen PDF Anda menonjol. Mulai dari menyesuaikan batas sel dan latar belakang hingga memastikan kepatuhan aksesibilitas, Aspose.PDF memudahkan pembuatan file PDF yang bagus.
+Mendesain tabel dalam PDF menggunakan Aspose.PDF untuk .NET sangatlah canggih dan fleksibel. Dengan beberapa baris kode, Anda dapat membuat desain tabel khusus yang akan membuat dokumen PDF Anda menonjol. Mulai dari menyesuaikan batas sel dan latar belakang hingga memastikan kepatuhan aksesibilitas, Aspose.PDF memudahkan pembuatan file PDF yang sempurna.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menerapkan gaya yang berbeda pada sel tabel individual?  
-Ya, Anda dapat menata sel individual dengan menyesuaikannya`TableTDElement` properti.
+Ya, Anda dapat menata sel individual dengan menyesuaikannya `TableTDElement` properti.
 
 ### Bagaimana cara menggabungkan sel tabel?  
- Anda dapat menggunakan`ColSpan` Dan`RowSpan` properti untuk menggabungkan sel dalam tabel.
+Anda dapat menggunakan `ColSpan` Dan `RowSpan` properti untuk menggabungkan sel dalam tabel.
 
 ### Apakah mungkin untuk membuat tabel yang sesuai PDF/UA?  
- Ya, seperti yang ditunjukkan dalam panduan ini, Anda dapat memastikan kepatuhan PDF/UA dengan memvalidasi dokumen Anda menggunakan`Validate` metode.
+Ya, seperti yang ditunjukkan dalam panduan ini, Anda dapat memastikan kepatuhan PDF/UA dengan memvalidasi dokumen Anda menggunakan `Validate` metode.
 
 ### Bisakah saya menggunakan font yang berbeda dalam sel tabel?  
- Tentu saja! Anda dapat menentukan font yang berbeda menggunakan`TextState` objek untuk setiap sel.
+Tentu saja! Anda dapat menentukan font yang berbeda menggunakan `TextState` objek untuk setiap sel.
 
 ### Bagaimana cara mengunduh Aspose.PDF untuk .NET?  
- Anda dapat mengunduhnya dari[halaman rilis](https://releases.aspose.com/pdf/net/).
+Anda dapat mengunduhnya dari [halaman rilis](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

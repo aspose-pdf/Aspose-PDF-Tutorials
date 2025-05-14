@@ -8,7 +8,9 @@ url: /java/pdf-tables/hide-spanned-cell-border-in-pdf-using-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hide Spanned Cell Border in PDF using Java
@@ -120,6 +122,7 @@ Certainly! You can apply the border hiding logic selectively based on your table
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

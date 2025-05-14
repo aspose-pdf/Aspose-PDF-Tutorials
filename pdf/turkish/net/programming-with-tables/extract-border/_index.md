@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasındaki Kenarlığı Çıkar
-linktitle: PDF Dosyasındaki Kenarlığı Çıkar
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak bir PDF dosyasından kenarlıkları nasıl çıkaracağınızı ve bunları bir resim olarak nasıl kaydedeceğinizi öğrenin. Başarı için kod örnekleri ve ipuçları içeren adım adım kılavuz.
-weight: 80
-url: /tr/net/programming-with-tables/extract-border/
+"description": "Aspose.PDF for .NET kullanarak bir PDF dosyasından kenarlıkları nasıl çıkaracağınızı ve bunları bir resim olarak nasıl kaydedeceğinizi öğrenin. Başarı için kod örnekleri ve ipuçları içeren adım adım kılavuz."
+"linktitle": "PDF Dosyasındaki Kenarlığı Çıkar"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasındaki Kenarlığı Çıkar"
+"url": "/tr/net/programming-with-tables/extract-border/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasındaki Kenarlığı Çıkar
@@ -21,9 +23,9 @@ PDF'lerle çalışırken, kenarlıklar veya grafiksel yollar gibi belirli öğel
 
 Koda dalmadan önce her şeyin ayarlandığından emin olun:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kitaplığını henüz yüklemediyseniz,[buradan indirin](https://releases.aspose.com/pdf/net/)Ayrıca, ücretsiz deneme veya satın alınan lisans aracılığıyla lisansı uygulamanız gerekecektir.
+1. .NET için Aspose.PDF: Aspose.PDF kitaplığını henüz yüklemediyseniz, [buradan indirin](https://releases.aspose.com/pdf/net/)Ayrıca, ücretsiz deneme veya satın alınan lisans aracılığıyla lisansı uygulamanız gerekecektir.
 2. IDE Kurulumu: Visual Studio'da veya herhangi bir .NET IDE'de bir C# projesi kurun. Aspose.PDF kitaplığına gerekli referansları eklediğinizden emin olun.
-3. Giriş PDF Dosyası: Kenarlıkları çıkaracağınız hazır bir PDF dosyanız olsun. Bu eğitim, şu adlı bir dosyaya referans verecektir:`input.pdf`.
+3. Giriş PDF Dosyası: Kenarlıkları çıkaracağınız hazır bir PDF dosyanız olsun. Bu eğitim, şu adlı bir dosyaya referans verecektir: `input.pdf`.
 
 ## Gerekli Paketleri İçe Aktarma
 
@@ -46,18 +48,18 @@ Artık temelleri ele aldığımıza göre, kodun her bir bölümünü ayrıntıl
 
 İlk adım, çıkarmak istediğiniz kenarlığı içeren PDF belgesini yüklemektir. Bunu, okumaya başlamadan önce bir kitabı açmak gibi düşünün — içeriğe erişmeniz gerekir!
 
- PDF dosyanızın saklandığı dizini belirterek başlayacağız ve belgeyi şu şekilde yükleyeceğiz:`Aspose.Pdf.Document` sınıf.
+PDF dosyanızın saklandığı dizini belirterek başlayacağız ve belgeyi şu şekilde yükleyeceğiz: `Aspose.Pdf.Document` sınıf.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Bu kod şunu yükler:`input.pdf` Belirtilen dizinden dosyayı kaldırın. Dosya yolunun doğru olduğundan emin olun, aksi takdirde dosya bulunamadı hatası alabilirsiniz.
+Bu kod şunu yükler: `input.pdf` Belirtilen dizinden dosyayı kaldırın. Dosya yolunun doğru olduğundan emin olun, aksi takdirde dosya bulunamadı hatası alabilirsiniz.
 
 ## Adım 2: Grafik ve Bitmap'i Ayarlama
 
-Çıkarmaya başlamadan önce, üzerine çizim yapacağımız bir tuval oluşturmamız gerekir. .NET dünyasında bu, bir Bitmap ve Graphics nesnesi kurmak anlamına gelir. Bitmap, görüntüyü temsil eder ve Graphics nesnesi, PDF'den çıkarılan kenarlıklar gibi şekilleri çizmemize olanak tanır.
+Çıkarmaya başlamadan önce, üzerine çizim yapacağımız bir tuval oluşturmamız gerekir. .NET dünyasında bu, bir Bitmap ve Graphics nesnesi kurmak anlamına gelir. Bitmap görüntüyü temsil eder ve Graphics nesnesi, PDF'den çıkarılan kenarlıklar gibi şekilleri çizmemize olanak tanır.
 
 ```csharp
 System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap((int)doc.Pages[1].PageInfo.Width, (int)doc.Pages[1].PageInfo.Height);
@@ -120,7 +122,7 @@ else if (opRe != null)
 
 Bu adımda:
 - Çizilen her çizgi veya şekil için noktaları yakalarız.
-- Dikdörtgenler için (`opRe` ), bunları doğrudan ekliyoruz`graphicsPath`, daha sonra sınırı çizmek için kullanacağız.
+- Dikdörtgenler için (`opRe`), bunları doğrudan ekliyoruz `graphicsPath`, daha sonra sınırı çizmek için kullanacağız.
 
 ## Adım 5: Sınırı Çizmek
 
@@ -140,7 +142,7 @@ using (System.Drawing.Graphics gr = System.Drawing.Graphics.FromImage(bitmap))
 
 ## Adım 6: Çıkarılan Kenarlığın Kaydedilmesi
 
-Artık kenarlığı çıkardığımıza göre, onu bir resim dosyası olarak kaydetme zamanı geldi. Bu, kenarlığı PNG olarak kaydedecektir.
+Artık sınırı çıkardığımıza göre, onu bir resim dosyası olarak kaydetme zamanı geldi. Bu, sınırı PNG olarak kaydedecektir.
 
 ```csharp
 dataDir = dataDir + "ExtractBorder_out.png";
@@ -157,22 +159,24 @@ Aspose.PDF for .NET kullanarak bir PDF dosyasından kenarlıkları çıkarmak il
 ## SSS
 
 ### PDF'deki birden fazla sayfayı nasıl idare edebilirim?  
- Belgedeki her sayfada yineleme yaparak dolaşabilirsiniz`doc.Pages` sabit kodlama yerine`doc.Pages[1]`.
+Belgedeki her sayfada yineleme yaparak dolaşabilirsiniz `doc.Pages` sabit kodlama yerine `doc.Pages[1]`.
 
 ### Aynı yaklaşımı kullanarak metin gibi diğer öğeleri de çıkarabilir miyim?  
 Evet, Aspose.PDF, PDF dosyalarından metin, resim ve diğer içerikleri çıkarmak için zengin API'ler sağlar.
 
 ### Sınırlamalardan kaçınmak için lisans başvurusunu nasıl yapabilirim?  
- Yapabilirsiniz[lisans başvurusunda bulunmak](https://purchase.aspose.com/temporary-license/) yükleyerek`License` Aspose tarafından sağlanan sınıf.
+Yapabilirsiniz [lisans başvurusunda bulunmak](https://purchase.aspose.com/temporary-license/) yükleyerek `License` Aspose tarafından sağlanan sınıf.
 
 ### PDF dosyamın kenarlıkları yoksa ne olur?  
 PDF'nizde görünür kenarlıklar yoksa, grafik çıkarma işlemi herhangi bir sonuç vermeyebilir. PDF içeriğinin çizilebilir kenarlıklar içerdiğinden emin olun.
 
 ### Çıktıyı PNG dışındaki formatlarda kaydedebilir miyim?  
- Evet, sadece şunu değiştirin:`ImageFormat.Png` desteklenen başka bir biçime örneğin`ImageFormat.Jpeg`.
+Evet, sadece şunu değiştirin: `ImageFormat.Png` desteklenen başka bir biçime örneğin `ImageFormat.Jpeg`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

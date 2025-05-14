@@ -8,7 +8,9 @@ url: /net/licensing-aspose-pdf/configure-metered-license/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Configure Metered License Keys In PDF File
@@ -120,6 +122,7 @@ Yes, Aspose.PDF allows you to switch between different license types (like regul
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

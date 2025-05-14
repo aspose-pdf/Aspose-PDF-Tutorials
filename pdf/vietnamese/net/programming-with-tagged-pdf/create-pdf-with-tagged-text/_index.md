@@ -1,21 +1,23 @@
 ---
-title: Tạo PDF với văn bản được gắn thẻ
-linktitle: Tạo PDF với văn bản được gắn thẻ
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo tệp PDF có gắn thẻ với nội dung có thể truy cập được bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này.
-weight: 50
-url: /vi/net/programming-with-tagged-pdf/create-pdf-with-tagged-text/
+"description": "Tìm hiểu cách tạo tệp PDF có gắn thẻ với nội dung có thể truy cập được bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này."
+"linktitle": "Tạo PDF với văn bản được gắn thẻ"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Tạo PDF với văn bản được gắn thẻ"
+"url": "/vi/net/programming-with-tagged-pdf/create-pdf-with-tagged-text/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo PDF với văn bản được gắn thẻ
 
 ## Giới thiệu
 
-Trong thời đại kỹ thuật số ngày nay, các tài liệu PDF đã trở thành một trong những định dạng phổ biến nhất để chia sẻ và hiển thị nội dung. Cho dù đó là báo cáo kinh doanh, bài báo học thuật hay hướng dẫn sử dụng, PDF có ở khắp mọi nơi! Nhưng điều tạo nên sự khác biệt giữa một PDF tốt và một PDF tuyệt vời chính là khả năng truy cập và cấu trúc. Đúng vậy! Các PDF được gắn thẻ giúp trình đọc màn hình và các công nghệ hỗ trợ dễ hiểu và điều hướng qua nội dung hơn. Và đoán xem? Trong hướng dẫn này, tôi sẽ hướng dẫn bạn từng bước để tạo PDF được gắn thẻ bằng Aspose.PDF cho .NET! 
+Trong thời đại kỹ thuật số ngày nay, các tài liệu PDF đã trở thành một trong những định dạng phổ biến nhất để chia sẻ và hiển thị nội dung. Cho dù đó là báo cáo kinh doanh, bài báo học thuật hay hướng dẫn sử dụng, PDF có ở khắp mọi nơi! Nhưng điều tạo nên sự khác biệt giữa một PDF tốt và một PDF tuyệt vời chính là khả năng truy cập và cấu trúc. Đúng vậy! Các PDF được gắn thẻ giúp trình đọc màn hình và các công nghệ hỗ trợ dễ dàng hiểu và điều hướng qua nội dung hơn. Và đoán xem? Trong hướng dẫn này, tôi sẽ hướng dẫn bạn từng bước để tạo PDF được gắn thẻ bằng Aspose.PDF cho .NET! 
 
 Vậy thì hãy lấy đồ uống yêu thích của bạn, ngồi vào chỗ và cùng khám phá thế giới PDF được gắn thẻ nhé!
 
@@ -24,7 +26,7 @@ Vậy thì hãy lấy đồ uống yêu thích của bạn, ngồi vào chỗ v�
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio - Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Bạn có thể sử dụng bất kỳ phiên bản nào hỗ trợ .NET.
-2.  Aspose.PDF cho .NET - Tải xuống phiên bản mới nhất của Aspose.PDF cho .NET từ[trang web](https://releases.aspose.com/pdf/net/)Bạn cũng có thể chọn dùng thử miễn phí để khám phá các tính năng của nó.
+2. Aspose.PDF cho .NET - Tải xuống phiên bản mới nhất của Aspose.PDF cho .NET từ [trang web](https://releases.aspose.com/pdf/net/)Bạn cũng có thể chọn dùng thử miễn phí để khám phá các tính năng của nó.
 3. .NET Framework - Các ví dụ này sẽ được xây dựng cho .NET. Đảm bảo bạn đã cài đặt phiên bản tương thích trên máy của mình.
 4. Kiến thức cơ bản về C# - Sự quen thuộc với lập trình C# sẽ rất hữu ích khi chúng ta viết một số mã!
 
@@ -41,7 +43,7 @@ Bây giờ chúng ta đã sắp xếp xong các điều kiện tiên quyết, h�
 1. Mở Visual Studio.
 2. Nhấp vào "Tạo dự án mới".
 3. Chọn "Console App (.NET)" và nhấp vào "Tiếp theo".
-4.  Đặt tên cho dự án của bạn (ví dụ:`TaggedPdfExample`) và thiết lập vị trí của nó.
+4. Đặt tên cho dự án của bạn (ví dụ: `TaggedPdfExample`) và thiết lập vị trí của nó.
 5. Nhấp vào "Tạo".
 
 ### Thêm tham chiếu Aspose.PDF
@@ -54,7 +56,7 @@ Bây giờ, chúng ta hãy thêm thư viện Aspose.PDF:
 
 ### Nhập các không gian tên bắt buộc
 
- Ở đầu tệp chương trình chính của bạn (như`Program.cs`), nhập các không gian tên sau:
+Ở đầu tệp chương trình chính của bạn (như `Program.cs`), nhập các không gian tên sau:
 
 ```csharp
 using Aspose.Pdf.LogicalStructure;
@@ -77,7 +79,7 @@ Trước khi bắt đầu viết mã, chúng ta hãy xác định thư mục tà
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Cập nhật điều này vào đường dẫn của bạn
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình.
 
 ## Bước 2: Tạo một tài liệu PDF
 
@@ -169,7 +171,7 @@ Tạo PDF có gắn thẻ với Aspose.PDF cho .NET dễ như ăn bánh khi bạ
 Tệp PDF được gắn thẻ chứa dữ liệu có cấu trúc giúp trình đọc màn hình và công nghệ hỗ trợ điều hướng nội dung hiệu quả hơn.
 
 ### Tôi có cần phải mua Aspose.PDF để sử dụng không?  
- Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng bạn sẽ cần phải có giấy phép để sử dụng lâu dài. Bạn có thể tìm hiểu thêm[đây](https://purchase.aspose.com/buy).
+Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng bạn sẽ cần phải có giấy phép để sử dụng lâu dài. Bạn có thể tìm hiểu thêm [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tùy chỉnh các thành phần cấu trúc trong tệp PDF của mình không?  
 Chắc chắn rồi! Bạn có thể thao tác nhiều thành phần khác nhau và tạo ra các cấu trúc phức tạp dựa trên yêu cầu của mình.
@@ -177,11 +179,13 @@ Chắc chắn rồi! Bạn có thể thao tác nhiều thành phần khác nhau 
 ### Aspose.PDF có tương thích với tất cả các ứng dụng .NET không?  
 Có, Aspose.PDF được thiết kế để hoạt động trên nhiều nền tảng .NET khác nhau, bao gồm .NET Framework, .NET Core, v.v.
 
-### Tôi có thể tìm thấy hỗ trợ cho Aspose.PDF ở đâu?  
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) cho bất kỳ thắc mắc hoặc vấn đề nào bạn gặp phải.
+### Tôi có thể tìm hỗ trợ cho Aspose.PDF ở đâu?  
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10) cho bất kỳ thắc mắc hoặc vấn đề nào bạn gặp phải.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

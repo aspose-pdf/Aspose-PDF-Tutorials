@@ -8,7 +8,9 @@ url: /net/document-conversion/pdf-to-ppt/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF To PPT
@@ -117,6 +119,7 @@ You can find comprehensive documentation on Aspose.PDF for .NET [here](https://r
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

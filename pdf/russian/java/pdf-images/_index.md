@@ -1,14 +1,16 @@
 ---
-title: PDF-изображения
-linktitle: PDF-изображения
-second_title: API обработки Java PDF Aspose.PDF
-description: Изучите манипуляции с изображениями PDF с помощью Aspose.PDF для Java. Научитесь вставлять, изменять и оптимизировать изображения в PDF без усилий.
-weight: 12
-url: /ru/java/pdf-images/
+"description": "Изучите манипуляции с изображениями PDF с помощью Aspose.PDF для Java. Научитесь вставлять, изменять и оптимизировать изображения в PDF без усилий."
+"linktitle": "PDF-изображения"
+"second_title": "API обработки Java PDF Aspose.PDF"
+"title": "PDF-изображения"
+"url": "/ru/java/pdf-images/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF-изображения
@@ -45,9 +47,11 @@ url: /ru/java/pdf-images/
 Узнайте, как извлекать изображения из PDF-файла с помощью Java с Aspose.PDF для Java. Пошаговое руководство с исходным кодом. Разблокируйте извлечение изображений PDF сейчас.
 ### [Получить имя изображения, встроенного в PDF-файл, с помощью Java](./get-name-of-images-embedded-in-pdf-file-using-java/)
 Узнайте, как извлекать встроенные имена изображений из файлов PDF с помощью Java и Aspose.PDF для Java. Пошаговое руководство с исходным кодом для эффективного извлечения данных PDF
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

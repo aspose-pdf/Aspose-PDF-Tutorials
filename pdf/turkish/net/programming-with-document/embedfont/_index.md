@@ -1,17 +1,19 @@
 ---
-title: PDF Dosyasına Font Göm
-linktitle: PDF Dosyasına Font Göm
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasına fontları nasıl gömeceğinizi öğrenin. Belgelerinizin herhangi bir cihazda doğru şekilde görüntülendiğinden emin olun.
-weight: 120
-url: /tr/net/programming-with-document/embedfont/
+"description": "Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasına fontları nasıl gömeceğinizi öğrenin. Belgelerinizin herhangi bir cihazda doğru şekilde görüntülendiğinden emin olun."
+"linktitle": "PDF Dosyasına Yazı Tipini Göm"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasına Yazı Tipini Göm"
+"url": "/tr/net/programming-with-document/embedfont/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF Dosyasına Font Göm
+# PDF Dosyasına Yazı Tipini Göm
 
 ## giriiş
 
@@ -21,7 +23,7 @@ PDF oluşturmaya gelince, en önemli yönlerden biri belgenizde kullanılan yaz�
 
 Koda dalmadan önce, yerine getirmeniz gereken birkaç ön koşul var:
 
-1.  .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: .NET kodlarınızı yazıp çalıştırabileceğiniz bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 
@@ -31,7 +33,7 @@ Başlamak için, C# projenize gerekli paketleri içe aktarmanız gerekir. Bunu n
 
 1. Visual Studio projenizi açın.
 2. Çözüm Gezgini'nde projenize sağ tıklayın ve "NuGet Paketlerini Yönet" seçeneğini seçin.
-3.  Arama`Aspose.PDF` ve en son sürümü yükleyin.
+3. Arama `Aspose.PDF` ve en son sürümü yükleyin.
 
 ```csharp
 using System.IO;
@@ -52,18 +54,18 @@ Artık her şeyi ayarladığımıza göre, yazı tiplerini bir PDF dosyasına ad
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"`PDF dosyalarınızın saklandığı gerçek yol ile.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın saklandığı gerçek yol ile.
 
 ## Adım 2: Mevcut PDF Dosyasını Yükleyin
 
- Sonra, değiştirmek istediğiniz mevcut PDF dosyasını yüklemek isteyeceksiniz. Bu, şu şekilde yapılır:`Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
+Sonra, değiştirmek istediğiniz mevcut PDF dosyasını yüklemek isteyeceksiniz. Bu, şu şekilde yapılır: `Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
 
 ```csharp
 // Mevcut bir PDF dosyasını yükleyin
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Burada, adlı bir PDF dosyası yüklüyoruz`input.pdf`Bu dosyanın belirttiğiniz dizinde bulunduğundan emin olun.
+Burada, adlı bir PDF dosyası yüklüyoruz `input.pdf`Bu dosyanın belirttiğiniz dizinde bulunduğundan emin olun.
 
 ## Adım 3: Tüm Sayfaları Tekrarlayın
 
@@ -86,7 +88,7 @@ foreach (Page page in doc.Pages)
 }
 ```
 
- Bu kodda, sayfada herhangi bir font olup olmadığını kontrol ediyoruz. Varsa, her fontu dolaşıp zaten gömülü olup olmadığını kontrol ediyoruz. Değilse,`IsEmbedded` mülk`true`.
+Bu kodda, sayfada herhangi bir font olup olmadığını kontrol ediyoruz. Varsa, her fontu dolaşıp zaten gömülü olup olmadığını kontrol ediyoruz. Değilse, `IsEmbedded` mülk `true`.
 
 ## Adım 4: Form Nesnelerini Kontrol Edin
 
@@ -120,7 +122,7 @@ dataDir = dataDir + "EmbedFont_out.pdf";
 doc.Save(dataDir);
 ```
 
- Bu durumda, değiştirilen PDF'yi şu şekilde kaydediyoruz:`EmbedFont_out.pdf` aynı dizinde.
+Bu durumda, değiştirilen PDF'yi şu şekilde kaydediyoruz: `EmbedFont_out.pdf` aynı dizinde.
 
 ## Adım 6: İşlemi Onaylayın
 
@@ -148,13 +150,15 @@ Aspose.PDF for .NET, yazı tipi yerleştirme, belge oluşturma ve düzenleme gib
 Evet, bu eğitimde gösterildiği gibi Aspose.PDF kütüphanesini kullanarak mevcut PDF dosyalarına yazı tipleri gömebilirsiniz.
 
 ### Aspose.PDF için ücretsiz deneme sürümü mevcut mu?
- Evet, Aspose.PDF'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[web sitesi](https://releases.aspose.com/).
+Evet, Aspose.PDF'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [web sitesi](https://releases.aspose.com/).
 
 ### Aspose.PDF için desteği nerede bulabilirim?
- Destek bulabilir ve soru sorabilirsiniz.[Aspose forumu](https://forum.aspose.com/c/pdf/10).
+Destek bulabilir ve soru sorabilirsiniz. [Aspose forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

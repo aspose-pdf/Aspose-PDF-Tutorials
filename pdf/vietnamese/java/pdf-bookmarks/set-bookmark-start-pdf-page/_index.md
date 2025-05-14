@@ -1,14 +1,16 @@
 ---
-title: Đặt Dấu trang để Bắt đầu Trang PDF
-linktitle: Đặt Dấu trang để Bắt đầu Trang PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách đặt dấu trang vào đầu trang PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp việc điều hướng PDF trở nên dễ dàng.
-weight: 12
-url: /vi/java/pdf-bookmarks/set-bookmark-start-pdf-page/
+"description": "Tìm hiểu cách đặt dấu trang vào đầu trang PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước của chúng tôi giúp việc điều hướng PDF trở nên dễ dàng."
+"linktitle": "Đặt Dấu trang để Bắt đầu Trang PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Đặt Dấu trang để Bắt đầu Trang PDF"
+"url": "/vi/java/pdf-bookmarks/set-bookmark-start-pdf-page/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt Dấu trang để Bắt đầu Trang PDF
@@ -24,7 +26,7 @@ Aspose.PDF for Java là một thư viện Java cho phép các nhà phát triển
 
 ## Thiết lập môi trường Java của bạn
 
-Trước khi bắt đầu làm việc với Aspose.PDF cho Java, bạn cần thiết lập môi trường phát triển Java. Đảm bảo bạn đã cài đặt Java JDK (Java Development Kit) trên hệ thống của mình.
+Trước khi bắt đầu làm việc với Aspose.PDF cho Java, bạn cần thiết lập môi trường phát triển Java. Đảm bảo rằng bạn đã cài đặt Java JDK (Java Development Kit) trên hệ thống của mình.
 
 ## Thêm Aspose.PDF vào Dự án của bạn
 
@@ -32,7 +34,7 @@ Trước khi bắt đầu làm việc với Aspose.PDF cho Java, bạn cần thi
 
 ## Tạo một tài liệu PDF
 
- Hãy bắt đầu bằng cách tạo một tài liệu PDF mới bằng Aspose.PDF cho Java. Bạn có thể tạo một phiên bản của`Document` lớp này đại diện cho một tài liệu PDF, sau đó thêm các trang vào đó.
+Hãy bắt đầu bằng cách tạo một tài liệu PDF mới bằng Aspose.PDF cho Java. Bạn có thể tạo một phiên bản của `Document` lớp biểu diễn một tài liệu PDF, sau đó thêm các trang vào đó.
 
 ```java
 // Tạo một tài liệu PDF mới
@@ -55,7 +57,7 @@ page.getParagraphs().add(textFragment);
 
 ## Đặt Dấu trang vào Đầu Trang
 
- Bây giờ, hãy đặt dấu trang vào đầu trang chúng ta đã tạo. Dấu trang được thêm vào`Outline` bộ sưu tập tài liệu PDF. Bạn có thể chỉ định tiêu đề và trang đích cho dấu trang.
+Bây giờ, hãy đặt dấu trang vào đầu trang chúng ta đã tạo. Dấu trang được thêm vào `Outline` bộ sưu tập tài liệu PDF. Bạn có thể chỉ định tiêu đề và trang đích cho dấu trang.
 
 ```java
 // Tạo một dấu trang ở đầu trang
@@ -87,7 +89,7 @@ Trong hướng dẫn này, chúng ta đã học cách đặt dấu trang vào đ
 
 ### Làm thế nào để cài đặt Aspose.PDF cho Java?
 
-Để cài đặt Aspose.PDF cho Java, bạn có thể tải xuống thư viện từ trang web Aspose và thêm nó vào dự án Java của bạn dưới dạng phụ thuộc. Đảm bảo kiểm tra tài liệu để biết hướng dẫn cài đặt chi tiết.
+Để cài đặt Aspose.PDF cho Java, bạn có thể tải xuống thư viện từ trang web Aspose và thêm nó vào dự án Java của bạn dưới dạng phụ thuộc. Hãy đảm bảo kiểm tra tài liệu để biết hướng dẫn cài đặt chi tiết.
 
 ### Tôi có thể đặt nhiều dấu trang trong một tài liệu PDF không?
 
@@ -104,9 +106,11 @@ Aspose.PDF for Java tương thích với Java 1.6 trở lên. Đảm bảo môi 
 ### Tôi có thể tìm thêm hướng dẫn về Aspose.PDF cho Java ở đâu?
 
 Bạn có thể tìm thêm hướng dẫn và tài liệu về Aspose.PDF cho Java trên trang web Aspose. Ngoài ra, bạn có thể khám phá tài liệu Aspose.PDF để tìm hiểu chi tiết về khả năng và cách sử dụng của nó.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/programming-with-tables/remove-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Table In PDF Document
@@ -142,6 +144,7 @@ Aspose.PDF offers a free trial, but for full functionality, you will need to pur
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

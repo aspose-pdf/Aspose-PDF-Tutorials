@@ -1,14 +1,16 @@
 ---
-title: Dodaj obrócony tekst w pliku PDF za pomocą Java
-linktitle: Dodaj obrócony tekst w pliku PDF za pomocą Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak wstawiać obrócony tekst do dokumentu PDF za pomocą Java. Postępuj zgodnie z tym szczegółowym przewodnikiem krok po kroku z przykładami kodu, aby ulepszyć swoje pliki PDF za pomocą obróconego tekstu.
-weight: 14
-url: /pl/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/
+"description": "Dowiedz się, jak wstawiać obrócony tekst do dokumentu PDF za pomocą Java. Postępuj zgodnie z tym szczegółowym przewodnikiem krok po kroku z przykładami kodu, aby ulepszyć swoje pliki PDF za pomocą obróconego tekstu."
+"linktitle": "Dodaj obrócony tekst w pliku PDF za pomocą Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Dodaj obrócony tekst w pliku PDF za pomocą Java"
+"url": "/pl/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj obrócony tekst w pliku PDF za pomocą Java
@@ -16,7 +18,7 @@ url: /pl/java/pdf-page-manipulation/add-rotated-text-in-pdf-using-java/
 
 ## Wstęp
 
-W tym kompleksowym samouczku zagłębimy się w proces dodawania obróconego tekstu do dokumentu PDF za pomocą Javy. Niezależnie od tego, czy musisz oznaczyć diagramy, utworzyć znaki wodne, czy dodać efekty specjalne do swoich plików PDF, ten przewodnik przeprowadzi Cię przez kolejne kroki. Użyjemy Aspose.PDF for Java, potężnej biblioteki do manipulacji plikami PDF, aby zademonstrować ten proces.
+W tym kompleksowym samouczku zagłębimy się w proces dodawania obróconego tekstu do dokumentu PDF za pomocą Javy. Niezależnie od tego, czy musisz oznaczyć diagramy, utworzyć znaki wodne, czy dodać efekty specjalne do swoich plików PDF, ten przewodnik przeprowadzi Cię przez kolejne kroki. Użyjemy Aspose.PDF for Java, potężnej biblioteki do manipulacji PDF, aby zademonstrować ten proces.
 
 ## Wymagania wstępne
 
@@ -24,7 +26,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 
 1. Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowana Java.
 
-2.  Aspose.PDF dla Java: Pobierz i dołącz bibliotekę Aspose.PDF do swojego projektu Java. Link do pobrania znajdziesz[Tutaj](https://releases.aspose.com/pdf/java/).
+2. Aspose.PDF dla Java: Pobierz i dołącz bibliotekę Aspose.PDF do swojego projektu Java. Link do pobrania znajdziesz [Tutaj](https://releases.aspose.com/pdf/java/).
 
 ## Krok 1: Utwórz nowy dokument PDF
 
@@ -40,7 +42,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
 Następnie dodaj stronę do dokumentu PDF, na której chcesz wstawić obrócony tekst:
 
 ```java
-//Dodaj nową stronę do dokumentu
+// Dodaj nową stronę do dokumentu
 com.aspose.pdf.Page page = pdfDocument.getPages().add();
 ```
 
@@ -110,7 +112,7 @@ Ulepsz swoje dokumenty PDF, z łatwością dodając obrócony tekst dzięki moż
    Tak, możesz dodać wiele wystąpień obróconego tekstu pod różnymi kątami do tego samego dokumentu PDF. Po prostu powtórz proces opisany w tym samouczku dla każdego fragmentu obróconego tekstu.
 
 ### 2. Jak mogę zmienić kolor obróconego tekstu?
-    Aby zmienić kolor tekstu, użyj`textFragment.getTextState().setForegroundColor` i określ kolor w formacie RGB. Na przykład, aby ustawić kolor tekstu na czerwony, użyj`textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getRed());`.
+   Aby zmienić kolor tekstu, użyj `textFragment.getTextState().setForegroundColor` i określ kolor w formacie RGB. Na przykład, aby ustawić kolor tekstu na czerwony, użyj `textFragment.getTextState().setForegroundColor(com.aspose.pdf.Color.getRed());`.
 
 ### 3. Czy Aspose.PDF dla Java jest darmową biblioteką?
    Aspose.PDF for Java to potężna komercyjna biblioteka, ale oferuje bezpłatną wersję próbną do testowania i oceny. W zależności od wymagań projektu możesz wybrać odpowiednią opcję licencjonowania.
@@ -120,9 +122,11 @@ Ulepsz swoje dokumenty PDF, z łatwością dodając obrócony tekst dzięki moż
 
 ### 5. Czy istnieją inne biblioteki do pracy z plikami PDF w Javie?
    Tak, kilka bibliotek, takich jak iText i PDFBox, jest dostępnych do manipulacji PDF w Javie. Każda biblioteka ma swoje unikalne cechy i możliwości, więc wybierz tę, która najlepiej odpowiada potrzebom Twojego projektu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

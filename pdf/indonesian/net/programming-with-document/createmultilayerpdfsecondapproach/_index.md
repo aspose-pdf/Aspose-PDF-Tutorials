@@ -1,14 +1,16 @@
 ---
-title: Membuat File PDF Multilayer Pendekatan Kedua
-linktitle: Membuat File PDF Multilayer Pendekatan Kedua
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara membuat PDF berlapis-lapis menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk menambahkan teks, gambar, dan lapisan ke berkas PDF Anda dengan mudah.
-weight: 80
-url: /id/net/programming-with-document/createmultilayerpdfsecondapproach/
+"description": "Pelajari cara membuat PDF berlapis-lapis menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk menambahkan teks, gambar, dan lapisan ke berkas PDF Anda dengan mudah."
+"linktitle": "Membuat File PDF Multilayer Pendekatan Kedua"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Membuat File PDF Multilayer Pendekatan Kedua"
+"url": "/id/net/programming-with-document/createmultilayerpdfsecondapproach/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat File PDF Multilayer Pendekatan Kedua
@@ -21,16 +23,16 @@ Dalam dunia dokumen digital saat ini, kemampuan untuk membuat PDF berlapis yang 
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
--  Aspose.PDF untuk Pustaka .NET: Jika Anda belum menginstalnya, unduh[versi terbaru di sini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk Pustaka .NET: Jika Anda belum menginstalnya, unduh [versi terbaru di sini](https://releases.aspose.com/pdf/net/).
 - Lingkungan Pengembangan .NET: Anda dapat menggunakan Visual Studio atau IDE lain yang mendukung .NET.
 - Pemahaman Dasar C#: Anda harus terbiasa dengan pemrograman C# untuk mengikutinya.
 - Berkas Gambar Uji: Anda memerlukan berkas gambar (misalnya, "test_image.png") untuk digunakan dalam tutorial ini.
 
- Jika Anda belum memiliki lisensi Aspose.PDF untuk .NET, Anda dapat meminta[lisensi sementara](https://purchase.aspose.com/temporary-license/) Untuk sumber daya tambahan, periksa[dokumentasi](https://reference.aspose.com/pdf/net/) atau hubungi[mendukung](https://forum.aspose.com/c/pdf/10).
+Jika Anda belum memiliki lisensi Aspose.PDF untuk .NET, Anda dapat meminta [lisensi sementara](https://purchase.aspose.com/temporary-license/)Untuk sumber daya tambahan, periksa [dokumentasi](https://reference.aspose.com/pdf/net/) atau hubungi [mendukung](https://forum.aspose.com/c/pdf/10).
 
 ## Mengimpor Paket yang Diperlukan
 
- Untuk memulai pembuatan PDF multilayer, Anda perlu mengimpor namespace yang sesuai. Paket-paket ini memungkinkan penggunaan semua kelas yang diperlukan, seperti`Document`, `Page`, `TextFragment` , Dan`FloatingBox`.
+Untuk memulai pembuatan PDF multilayer, Anda perlu mengimpor namespace yang sesuai. Paket-paket ini memungkinkan penggunaan semua kelas yang diperlukan, seperti `Document`Bahasa Indonesia: `Page`Bahasa Indonesia: `TextFragment`, Dan `FloatingBox`.
 
 ```csharp
 using Aspose.Pdf;
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
 ```
 
- Dalam cuplikan ini, kami telah membuat`Document` objek yang mewakili PDF kita.`dataDir` Variabel "harus" disetel ke direktori tempat Anda ingin menyimpan berkas PDF yang dihasilkan.
+Dalam cuplikan ini, kami telah membuat `Document` objek yang mewakili PDF kita. `dataDir` Variabel "harus" disetel ke direktori tempat Anda ingin menyimpan berkas PDF yang dihasilkan.
 
 ## Langkah 2: Tambahkan Halaman ke Dokumen PDF Anda
 
@@ -76,13 +78,13 @@ t1.TextState.FontSize = 12;
 ```
 
 Inilah yang terjadi:
--  Itu`TextFragment` obyek`t1` diinisialisasi dengan teks "segmen paragraf 3".
--  Kami mengubah warna teks menjadi merah menggunakan`ForegroundColor` milik.
--  Ukuran teks diatur ke 12 poin, dan diposisikan sebaris dalam paragraf menggunakan`IsInLineParagraph`.
+- Itu `TextFragment` obyek `t1` diinisialisasi dengan teks "segmen paragraf 3".
+- Kami mengubah warna teks menjadi merah menggunakan `ForegroundColor` milik.
+- Ukuran teks diatur ke 12 poin, dan diposisikan sebaris dalam paragraf menggunakan `IsInLineParagraph`.
 
 ## Langkah 4: Tambahkan Fragmen Teks ke FloatingBox
 
- Sekarang setelah kita memiliki fragmen teks, kita perlu menempatkannya di dalam PDF. Daripada menambahkannya langsung ke halaman, kita akan menggunakan`FloatingBox` untuk memberikan lokasi tertentu.
+Sekarang setelah kita memiliki fragmen teks, kita perlu menempatkannya di dalam PDF. Daripada menambahkannya langsung ke halaman, kita akan menggunakan `FloatingBox` untuk memberikan lokasi tertentu.
 
 ```csharp
 Aspose.Pdf.FloatingBox TextFloatingBox1 = new Aspose.Pdf.FloatingBox(117, 21);
@@ -94,14 +96,14 @@ TextFloatingBox1.Paragraphs.Add(t1);
 ```
 
 Mari kita uraikan ini:
--  Kami menciptakan sebuah`FloatingBox` dan menentukan ukurannya (117x21).
--  Itu`ZIndex` properti ditetapkan ke 1, berarti ini akan berada di lapisan bawah.
--  Itu`Left` Dan`Top` Properti menentukan posisi kotak yang tepat pada halaman.
--  Akhirnya, fragmen teks`t1`ditambahkan di dalam kotak mengambang, yang kemudian ditambahkan ke halaman.
+- Kami menciptakan sebuah `FloatingBox` dan menentukan ukurannya (117x21).
+- Itu `ZIndex` properti ditetapkan ke 1, berarti ini akan berada di lapisan bawah.
+- Itu `Left` Dan `Top` Properti menentukan posisi kotak yang tepat pada halaman.
+- Akhirnya, fragmen teks `t1` ditambahkan di dalam kotak mengambang, yang kemudian ditambahkan ke halaman.
 
 ## Langkah 5: Masukkan Gambar ke FloatingBox Lain
 
- Selanjutnya, kita akan menambahkan gambar ke PDF. Sama seperti teks, kita akan menempatkannya di dalam`FloatingBox`.
+Selanjutnya, kita akan menambahkan gambar ke PDF. Sama seperti teks, kita akan menempatkannya di dalam `FloatingBox`.
 
 ```csharp
 Aspose.Pdf.Image image1 = new Aspose.Pdf.Image();
@@ -115,10 +117,10 @@ page.Paragraphs.Add(ImageFloatingBox);
 ```
 
 Berikut rinciannya:
--  Kami menciptakan sebuah`Image` objek dan tetapkan jalur ke berkas gambar.
--  Sebuah baru`FloatingBox` dibuat untuk gambar, dengan ukuran yang sama dengan kotak teks mengambang.
--  Kotak gambar mengambang dilapisi di atas kotak teks mengambang dengan mengatur`ZIndex` ke 2.
--  Itu`Left` Dan`Top` Properti memposisikan gambar tepat di tempat yang kita inginkan.
+- Kami membuat sebuah `Image` objek dan tetapkan jalur ke berkas gambar.
+- Sebuah baru `FloatingBox` dibuat untuk gambar, dengan ukuran yang sama dengan kotak teks mengambang.
+- Kotak gambar mengambang dilapisi di atas kotak teks mengambang dengan mengatur `ZIndex` ke 2.
+- Itu `Left` Dan `Top` Properti memposisikan gambar tepat di tempat yang kita inginkan.
 - Gambar ditambahkan ke kotak mengambang, yang kemudian ditambahkan ke halaman.
 
 ## Langkah 6: Simpan Dokumen PDF
@@ -138,22 +140,24 @@ Membuat file PDF berlapis-lapis dengan Aspose.PDF untuk .NET bersifat fleksibel 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya membuat PDF dengan beberapa halaman menggunakan Aspose.PDF untuk .NET?  
- Ya, Anda dapat menambahkan halaman sebanyak yang Anda suka dengan menelepon`doc.Pages.Add()` untuk setiap halaman.
+Ya, Anda dapat menambahkan halaman sebanyak yang Anda suka dengan menelepon `doc.Pages.Add()` untuk setiap halaman.
 
 ### Bagaimana saya dapat melapisi lebih banyak elemen seperti bentuk atau anotasi dalam PDF?  
- Anda dapat menggunakan`FloatingBox` untuk semua jenis konten, termasuk bentuk, anotasi, dan bahkan tabel.
+Anda dapat menggunakan `FloatingBox` untuk semua jenis konten, termasuk bentuk, anotasi, dan bahkan tabel.
 
 ### Format gambar apa yang didukung oleh Aspose.PDF untuk .NET?  
 Aspose.PDF mendukung berbagai format gambar, termasuk PNG, JPEG, GIF, dan BMP.
 
 ### Bisakah saya mengubah opasitas elemen dalam PDF?  
- Ya, Anda dapat mengubah opacity dengan menyesuaikan`Alpha` komponen dari`Color` obyek.
+Ya, Anda dapat mengubah opacity dengan menyesuaikan `Alpha` komponen dari `Color` obyek.
 
 ### Bagaimana cara memindahkan elemen ke posisi berbeda dalam PDF?  
- Anda dapat menyesuaikan`Left` Dan`Top` properti dari`FloatingBox` untuk memposisikan ulang elemen apa pun.
+Anda dapat menyesuaikan `Left` Dan `Top` properti dari `FloatingBox` untuk memposisikan ulang elemen apa pun.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

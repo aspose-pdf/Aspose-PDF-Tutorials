@@ -1,14 +1,16 @@
 ---
-title: Wyszukaj i pobierz obrazy w pliku PDF
-linktitle: Wyszukaj i pobierz obrazy w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak bez wysiłku wyodrębniać obrazy z plików PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby udoskonalić swoje umiejętności przetwarzania plików PDF.
-weight: 260
-url: /pl/net/programming-with-images/search-and-get-images/
+"description": "Dowiedz się, jak bez wysiłku wyodrębniać obrazy z plików PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby udoskonalić swoje umiejętności przetwarzania plików PDF."
+"linktitle": "Wyszukaj i pobierz obrazy w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wyszukaj i pobierz obrazy w pliku PDF"
+"url": "/pl/net/programming-with-images/search-and-get-images/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyszukaj i pobierz obrazy w pliku PDF
@@ -27,7 +29,7 @@ Upewnij się, że masz zainstalowany .NET Framework na swoim komputerze. Aspose.
 
 ### Biblioteka Aspose.PDF
 
- Będziesz potrzebować dostępu do biblioteki Aspose.PDF. Jeśli jeszcze jej nie masz, możesz ją pobrać z tego linku:[Pobierz Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/) Dodatkowo możesz je eksplorować[miesięczny bezpłatny okres próbny](https://releases.aspose.com/) aby rozpocząć realizację Twoich projektów bez żadnych kosztów.
+Będziesz potrzebować dostępu do biblioteki Aspose.PDF. Jeśli jeszcze jej nie masz, możesz ją pobrać z tego linku: [Pobierz Aspose.PDF dla .NET](https://releases.aspose.com/pdf/net/)Dodatkowo możesz je eksplorować [miesięczny bezpłatny okres próbny](https://releases.aspose.com/) aby rozpocząć realizację Twoich projektów bez żadnych kosztów.
 
 ### Środowisko programistyczne
 
@@ -43,7 +45,7 @@ using Aspose.Pdf;
 using System;
 ```
 
- Każdy z tych pakietów służy określonym celom podczas manipulowania dokumentami PDF.`Aspose.Pdf` przestrzeń nazw stanowi podstawę Twoich operacji, natomiast pozostałe dwa pomagają w zarządzaniu obrazami i tekstem w pliku PDF.
+Każdy z tych pakietów służy określonym celom podczas manipulowania dokumentami PDF. `Aspose.Pdf` przestrzeń nazw stanowi podstawę Twoich operacji, natomiast pozostałe dwa pomagają w zarządzaniu obrazami i tekstem w pliku PDF.
 
 ## Krok 1: Ustaw ścieżkę dokumentu
 
@@ -53,11 +55,11 @@ Przed wszystkim musisz zdefiniować ścieżkę, w której znajduje się Twój pl
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastąp „TWÓJ KATALOG DOKUMENTÓW” rzeczywistą ścieżką do katalogu zawierającego plik PDF, na przykład:`C:\Documents\`.
+Zastąp „TWÓJ KATALOG DOKUMENTÓW” rzeczywistą ścieżką do katalogu zawierającego plik PDF, na przykład: `C:\Documents\`.
 
 ## Krok 2: Otwórz dokument PDF
 
- Następnie będziesz chciał załadować dokument PDF do swojej aplikacji. Można to zrobić, tworząc nowy`Document` wystąpienie ze ścieżką do pliku, którą właśnie określiłeś:
+Następnie należy załadować dokument PDF do aplikacji. Można to zrobić, tworząc nowy `Document` wystąpienie ze ścieżką do pliku, którą właśnie określiłeś:
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SearchAndGetImages.pdf");
@@ -65,7 +67,7 @@ Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SearchAndGetImages.
 
 ## Krok 3: Utwórz ImagePlacementAbsorber
 
- Aby wyszukać obrazy w pliku PDF, potrzebujesz`ImagePlacementAbsorber` obiekt. Ta klasa pomaga w absorbowaniu obrazów z pliku PDF podczas procesu ekstrakcji:
+Aby wyszukać obrazy w pliku PDF, potrzebujesz `ImagePlacementAbsorber` obiekt. Ta klasa pomaga w absorbowaniu obrazów z pliku PDF podczas procesu ekstrakcji:
 
 ```csharp
 ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
@@ -73,7 +75,7 @@ ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
 
 ## Krok 4: Akceptuj Absorber dla wszystkich stron
 
- Ten krok jest kluczowy, ponieważ informuje`Document` aby zastosować pochłaniacz obrazu na wszystkich stronach. Zapewnia, że wszystkie obrazy umieszczone w dowolnym miejscu w dokumencie zostaną zidentyfikowane:
+Ten krok jest kluczowy, ponieważ informuje `Document` aby zastosować pochłaniacz obrazu na wszystkich stronach. Zapewnia, że wszystkie obrazy umieszczone w dowolnym miejscu w dokumencie zostaną zidentyfikowane:
 
 ```csharp
 doc.Pages.Accept(abs);
@@ -92,7 +94,7 @@ foreach (ImagePlacement imagePlacement in abs.ImagePlacements)
 
 ## Krok 6: Wyodrębnij właściwości obrazu
 
- Wewnątrz pętli możesz zacząć pobierać wartościowe właściwości każdego obrazu. Używając`imagePlacement` obiekt, możesz uzyskać dostęp do wymiarów i rozdzielczości:
+Wewnątrz pętli możesz zacząć pobierać wartościowe właściwości każdego obrazu. Używając `imagePlacement` obiekt, możesz uzyskać dostęp do wymiarów i rozdzielczości:
 
 ```csharp
 XImage image = imagePlacement.Image; // Pobierz obraz
@@ -124,10 +126,12 @@ Można wyodrębnić wszystkie osadzone obrazy, niezależnie od formatu (JPEG, PN
 Nie ma sztywnego limitu, zależy to od samego pliku PDF.
 
 ### Czy mogę zapisać wyodrębnione obrazy na dysku?  
- Tak, możesz zapisać obrazy na dysku za pomocą`XImage` obiekt w kodzie.
+Tak, możesz zapisać obrazy na dysku za pomocą `XImage` obiekt w kodzie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

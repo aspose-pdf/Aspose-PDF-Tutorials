@@ -1,14 +1,16 @@
 ---
-title: Экспорт данных листа Excel в таблицу
-linktitle: Экспорт данных листа Excel в таблицу
-second_title: Справочник по API Aspose.PDF для .NET
-description: Узнайте, как экспортировать данные листа Excel в таблицу PDF с помощью Aspose.PDF для .NET. Пошаговое руководство с примерами кода, предварительными условиями и полезными советами.
-weight: 70
-url: /ru/net/programming-with-tables/export-excel-worksheet-data-to-table/
+"description": "Узнайте, как экспортировать данные листа Excel в таблицу PDF с помощью Aspose.PDF для .NET. Пошаговое руководство с примерами кода, предварительными условиями и полезными советами."
+"linktitle": "Экспорт данных листа Excel в таблицу"
+"second_title": "Справочник по API Aspose.PDF для .NET"
+"title": "Экспорт данных листа Excel в таблицу"
+"url": "/ru/net/programming-with-tables/export-excel-worksheet-data-to-table/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспорт данных листа Excel в таблицу
@@ -21,12 +23,12 @@ url: /ru/net/programming-with-tables/export-excel-worksheet-data-to-table/
 
 Прежде чем погрузиться в кодирование, давайте настроим несколько вещей:
 
-1.  Aspose.PDF для .NET Library – Убедитесь, что у вас установлена последняя версия. Вы можете[скачать здесь](https://releases.aspose.com/pdf/net/).
-2.  Библиотека Aspose.Cells for .NET – Вам понадобится для обработки операций Excel. Загрузите ее с[здесь](https://releases.aspose.com/cells/net/).
+1. Aspose.PDF для .NET Library – Убедитесь, что у вас установлена последняя версия. Вы можете [скачать здесь](https://releases.aspose.com/pdf/net/).
+2. Библиотека Aspose.Cells for .NET – Вам понадобится для обработки операций Excel. Загрузите ее с [здесь](https://releases.aspose.com/cells/net/).
 3. Среда разработки .NET – для написания кода отлично подойдет такой инструмент, как Visual Studio.
 4. Файл Excel — подготовьте файл Excel с данными, которые вы хотите экспортировать.
 
- Если у вас нет библиотек Aspose.PDF и Aspose.Cells, вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/).
+Если у вас нет библиотек Aspose.PDF и Aspose.Cells, вы можете начать с [бесплатная пробная версия](https://releases.aspose.com/).
 
 ## Импортные пакеты
 
@@ -54,9 +56,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(new FileStream(dataDir + "newBook1.xlsx", FileMode.Open));
 ```
 
- Пояснение: Здесь мы указываем путь к каталогу, где находится наш файл Excel, и загружаем книгу с помощью`Aspose.Cells.Workbook` . Обязательно отрегулируйте`"YOUR DOCUMENT DIRECTORY"` чтобы указать местоположение вашего файла.
+Пояснение: Здесь мы указываем путь к каталогу, где находится наш файл Excel, и загружаем книгу с помощью `Aspose.Cells.Workbook`. Обязательно отрегулируйте `"YOUR DOCUMENT DIRECTORY"` чтобы указать местоположение вашего файла.
 
-## Шаг 2: Получите доступ к первому рабочему листу
+## Шаг 2: Доступ к первому рабочему листу
 
 После загрузки рабочей книги нам необходимо получить доступ к первому рабочему листу, где хранятся наши данные.
 
@@ -69,14 +71,14 @@ Aspose.Cells.Worksheet worksheet = workbook.Worksheets[0];
 
 ## Шаг 3: Экспорт данных в DataTable
 
-Теперь экспортируем данные из таблицы Excel в объект DataTable, который будет выступать посредником для передачи данных в PDF.
+Теперь экспортируем данные из листа Excel в объект DataTable, который будет выступать посредником для передачи данных в PDF.
 
 ```csharp
 // Экспорт содержимого 7 строк и 2 столбцов, начиная с 1-й ячейки, в DataTable
 DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, worksheet.Cells.MaxRow + 1, worksheet.Cells.MaxColumn + 1, true);
 ```
 
- Объяснение:`ExportDataTable` Метод извлекает данные, начиная с первой ячейки листа и охватывая все строки и столбцы. Затем эти данные сохраняются в`DataTable` для дальнейшего использования.
+Объяснение: `ExportDataTable` Метод извлекает данные, начиная с первой ячейки листа и охватывая все строки и столбцы. Затем эти данные сохраняются в `DataTable` для дальнейшего использования.
 
 ## Шаг 4: Создайте новый PDF-документ
 
@@ -90,7 +92,7 @@ Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document();
 Aspose.Pdf.Page page = pdfDocument.Pages.Add();
 ```
 
- Пояснение: Здесь мы инициализируем новый`Aspose.Pdf.Document`и добавить к нему страницу. Эта страница позже будет содержать таблицу, которую мы создаем из данных Excel.
+Пояснение: Здесь мы инициализируем новый `Aspose.Pdf.Document` и добавить к нему страницу. Эта страница позже будет содержать таблицу, которую мы создаем из данных Excel.
 
 ## Шаг 5: Создание объекта «Таблица» в PDF-файле
 
@@ -104,7 +106,7 @@ Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 page.Paragraphs.Add(table);
 ```
 
- Объяснение: Мы создаем`Aspose.Pdf.Table` объект и добавьте его в коллекцию абзацев страницы, что гарантирует отображение таблицы на странице.
+Объяснение: Мы создаем `Aspose.Pdf.Table` объект и добавьте его в коллекцию абзацев страницы, что гарантирует отображение таблицы на странице.
 
 ## Шаг 6: Установите ширину и границы столбцов
 
@@ -118,18 +120,18 @@ table.ColumnWidths = "40 100 100";
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, 0.1F);
 ```
 
- Пояснение: Мы задаем ширину трех столбцов и задаем всем ячейкам границу по умолчанию толщиной`0.1F`.
+Пояснение: Мы задаем ширину трех столбцов и задаем всем ячейкам границу по умолчанию толщиной `0.1F`.
 
 ## Шаг 7: Импорт данных из DataTable в таблицу PDF
 
-Теперь пришло время импортировать данные из DataTable в нашу таблицу PDF.
+Теперь пришло время импортировать данные из DataTable в нашу PDF-таблицу.
 
 ```csharp
 // Импорт данных в объект Table из DataTable
 table.ImportDataTable(dataTable, true, 0, 0, dataTable.Rows.Count + 1, dataTable.Columns.Count);
 ```
 
- Объяснение:`ImportDataTable`метод переносит все данные из`DataTable` в таблицу PDF. Это заполнит таблицу данными из вашего листа Excel.
+Объяснение: `ImportDataTable` метод переносит все данные из `DataTable` в таблицу PDF. Это заполнит таблицу данными из вашего листа Excel.
 
 ## Шаг 8: Оформите строку заголовка
 
@@ -151,7 +153,7 @@ foreach (Aspose.Pdf.Cell cell in headerRow.Cells)
 
 Пояснение: Мы проходим по всем ячейкам в первой строке (заголовок) и устанавливаем для них синий цвет фона, желтый цвет текста и выравниваем текст по центру.
 
-## Шаг 9: Оформите оставшиеся ряды
+## Шаг 9: Оформите оставшиеся строки
 
 Чтобы различать заголовок и остальные строки, давайте добавим другой стиль для оставшихся строк.
 
@@ -189,19 +191,21 @@ pdfDocument.Save(dataDir + "Exceldata_toPdf_table.pdf");
 Конечно! Вы можете изменять цвета, шрифты, выравнивание и даже добавлять границы к определенным ячейкам.
 
 ### Является ли Aspose.PDF для .NET бесплатным?
- Он предлагает бесплатную пробную версию, но для длительного использования вам понадобится лицензия. Вы можете[купить здесь](https://purchase.aspose.com/buy).
+Он предлагает бесплатную пробную версию, но для длительного использования вам понадобится лицензия. Вы можете [купить здесь](https://purchase.aspose.com/buy).
 
 ### Могу ли я экспортировать только определенные строки и столбцы?
- Да, вы можете изменить параметры в`ExportDataTable` метод экспорта определенных диапазонов.
+Да, вы можете изменить параметры в `ExportDataTable` метод экспорта определенных диапазонов.
 
 ### Работает ли это с большими файлами Excel?
 Да, Aspose.Cells разработан для эффективной обработки больших файлов Excel.
 
 ### Как добавить больше страниц в PDF-файл?
- Вы можете использовать`pdfDocument.Pages.Add()` чтобы добавить столько страниц, сколько вам нужно.
+Вы можете использовать `pdfDocument.Pages.Add()` чтобы добавить столько страниц, сколько вам нужно.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

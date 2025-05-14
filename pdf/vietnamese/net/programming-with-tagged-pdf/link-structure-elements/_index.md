@@ -1,14 +1,16 @@
 ---
-title: Các thành phần cấu trúc liên kết
-linktitle: Các thành phần cấu trúc liên kết
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo các thành phần cấu trúc liên kết trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để thêm liên kết có thể truy cập, hình ảnh và xác thực tuân thủ.
-weight: 120
-url: /vi/net/programming-with-tagged-pdf/link-structure-elements/
+"description": "Tìm hiểu cách tạo các thành phần cấu trúc liên kết trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để thêm liên kết có thể truy cập, hình ảnh và xác thực tuân thủ."
+"linktitle": "Các thành phần cấu trúc liên kết"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Các thành phần cấu trúc liên kết"
+"url": "/vi/net/programming-with-tagged-pdf/link-structure-elements/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các thành phần cấu trúc liên kết
@@ -21,9 +23,9 @@ Việc tạo và quản lý các thành phần cấu trúc liên kết trong PDF
 
 Trước khi đi sâu vào mã hóa, chúng ta hãy giải quyết một số vấn đề trước. Đây là những yêu cầu cơ bản để đảm bảo trải nghiệm phát triển suôn sẻ.
 
-1.  Aspose.PDF cho .NET: Bạn có thể tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Bạn có thể tải xuống phiên bản mới nhất [đây](https://releases.aspose.com/pdf/net/).
 2. Môi trường phát triển .NET: Cho dù là Visual Studio hay bất kỳ IDE nào tương thích với .NET, hãy cài đặt và sử dụng ngay.
-3.  Giấy phép Aspose: Bạn có thể sử dụng phiên bản dùng thử miễn phí của Aspose.PDF[đây](https://releases.aspose.com/) hoặc có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+3. Giấy phép Aspose: Bạn có thể sử dụng phiên bản dùng thử miễn phí của Aspose.PDF [đây](https://releases.aspose.com/) hoặc có được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 4. Kiến thức cơ bản về C#: Chúng ta sẽ làm việc với một số mã C#, vì vậy hiểu được những kiến thức cơ bản sẽ giúp mọi việc dễ dàng hơn nhiều.
 
 ## Nhập gói
@@ -61,7 +63,7 @@ Document document = new Document();
 ITaggedContent taggedContent = document.TaggedContent;
 ```
   
- Ở đây, chúng tôi đang khởi tạo`Document` đối tượng, đại diện cho tệp PDF của chúng tôi. Chúng tôi cũng lấy lại`TaggedContent` giao diện, cho phép chúng ta thêm các thành phần cấu trúc như đoạn văn, liên kết và hình ảnh.
+Ở đây, chúng tôi đang khởi tạo `Document` đối tượng, đại diện cho tệp PDF của chúng tôi. Chúng tôi cũng lấy lại `TaggedContent` giao diện, cho phép chúng ta thêm các thành phần cấu trúc như đoạn văn, liên kết và hình ảnh.
 
 ## Bước 2: Đặt Tiêu đề và Ngôn ngữ  
 
@@ -188,7 +190,7 @@ Chúng tôi đã lưu tài liệu và xác thực theo tiêu chuẩn PDF/UA, đ�
 
 ## Phần kết luận  
 
-Trong hướng dẫn này, chúng tôi đã đề cập đến cách tạo tài liệu PDF có cấu trúc bằng Aspose.PDF cho .NET. Từ việc thêm siêu liên kết cơ bản đến các cấu trúc phức tạp hơn như khoảng cách, liên kết nhiều dòng và thậm chí là hình ảnh, hướng dẫn này cung cấp nền tảng vững chắc để thao tác các thành phần liên kết trong PDF của bạn. Với lợi ích bổ sung là tuân thủ PDF/UA, giờ đây bạn đã có thể tạo PDF có thể truy cập và điều hướng.
+Trong hướng dẫn này, chúng tôi đã đề cập đến cách tạo tài liệu PDF có cấu trúc bằng Aspose.PDF cho .NET. Từ việc thêm siêu liên kết cơ bản đến các cấu trúc phức tạp hơn như span, liên kết nhiều dòng và thậm chí là hình ảnh, hướng dẫn này cung cấp nền tảng vững chắc để thao tác các thành phần liên kết trong PDF của bạn. Với lợi ích bổ sung là tuân thủ PDF/UA, giờ đây bạn đã có thể tạo PDF có thể truy cập và điều hướng.
 
 ## Câu hỏi thường gặp
 
@@ -206,9 +208,11 @@ Có, bạn có thể áp dụng kiểu văn bản bằng cách sử dụng các 
 
 ### Có thể tạo liên kết tài liệu nội bộ không?  
 Hoàn toàn được! Bạn có thể liên kết đến các phần cụ thể trong cùng một tài liệu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

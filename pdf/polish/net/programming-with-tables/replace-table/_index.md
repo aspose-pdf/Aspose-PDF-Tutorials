@@ -1,14 +1,16 @@
 ---
-title: Zamień tabelę w dokumencie PDF
-linktitle: Zamień tabelę w dokumencie PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak zastąpić tabelę w dokumencie PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku, wskazówki i triki w zestawie.
-weight: 180
-url: /pl/net/programming-with-tables/replace-table/
+"description": "Dowiedz się, jak zastąpić tabelę w dokumencie PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku, wskazówki i triki w zestawie."
+"linktitle": "Zamień tabelę w dokumencie PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zamień tabelę w dokumencie PDF"
+"url": "/pl/net/programming-with-tables/replace-table/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zamień tabelę w dokumencie PDF
@@ -25,13 +27,13 @@ Zanim przejdziemy do szczegółów kodu, musisz spełnić kilka podstawowych wym
 Upewnij się, że zainstalowałeś .NET Framework na swoim komputerze. Aspose.PDF jest zaprojektowany do bezproblemowej pracy ze środowiskiem .NET, więc jest to kluczowe.
 
 ### Aspose.PDF dla biblioteki .NET
- Musisz pobrać i zainstalować bibliotekę Aspose.PDF dla .NET. Nie martw się, to proste! Przejdź do[Strona pobierania pliku PDF Aspose](https://releases.aspose.com/pdf/net/) aby pobrać najnowszą wersję.
+Musisz pobrać i zainstalować bibliotekę Aspose.PDF dla .NET. Nie martw się, to proste! Przejdź do [Strona pobierania pliku PDF Aspose](https://releases.aspose.com/pdf/net/) aby pobrać najnowszą wersję.
 
 ### Podstawowa znajomość języka C#
 Znajomość programowania w języku C# znacznie ułatwi Ci zrozumienie i wdrożenie przykładów, które omówimy w tym artykule.
 
 ### Studio wizualne
- Posiadanie środowiska IDE, takiego jak Visual Studio, pozwoli Ci na efektywne uruchamianie i testowanie dostarczonych fragmentów kodu. Jeśli jeszcze go nie masz, możesz go pobrać ze strony[Witryna Visual Studio](https://visualstudio.microsoft.com/downloads/).
+Posiadanie środowiska IDE, takiego jak Visual Studio, pozwoli Ci na efektywne uruchamianie i testowanie dostarczonych fragmentów kodu. Jeśli jeszcze go nie masz, możesz go pobrać ze strony [Witryna Visual Studio](https://visualstudio.microsoft.com/downloads/).
 
 Jeśli spełniłeś te wymagania wstępne, możesz zacząć odkrywać fascynujące funkcje pakietu Aspose.PDF dla platformy .NET!
 
@@ -61,11 +63,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + @"Table_input.pdf");
 ```
 
- tym fragmencie kodu definiujemy ścieżkę do naszego katalogu dokumentów i tworzymy nową instancję`Document` klasa, aby załadować nasz plik PDF.
+W tym fragmencie kodu definiujemy ścieżkę do naszego katalogu dokumentów i tworzymy nową instancję `Document` klasa, aby załadować nasz plik PDF.
 
 ## Krok 2: Utwórz obiekt absorbera tabeli
 
- Następnie potrzebujemy sposobu na znalezienie i pracę z tabelami w pliku PDF. W tym celu użyjemy`TableAbsorber` Klasa specjalizująca się w lokalizowaniu tabel w dokumencie.
+Następnie potrzebujemy sposobu na znalezienie i pracę z tabelami w pliku PDF. W tym celu użyjemy `TableAbsorber` Klasa specjalizująca się w lokalizowaniu tabel w dokumencie.
 
 ```csharp
 // Utwórz obiekt TableAbsorber, aby znaleźć tabele
@@ -87,7 +89,7 @@ W tym kroku polecamy absorberowi sprawdzenie pierwszej strony dokumentu pod kąt
 
 ## Krok 4: Wyodrębnij tabelę
 
- Po odwiedzeniu strony musimy wyodrębnić konkretną tabelę, którą chcemy zastąpić.`TableList` Właściwość zwraca wszystkie wykryte tabele.
+Po odwiedzeniu strony musimy wyodrębnić konkretną tabelę, którą chcemy zastąpić. `TableList` Właściwość zwraca wszystkie wykryte tabele.
 
 ```csharp
 // Uzyskaj pierwszą tabelę na stronie
@@ -122,7 +124,7 @@ W tym bloku dodajemy nowy wiersz i wypełniamy go przykładowymi danymi. Możesz
 
 ## Krok 6: Zastąp starą tabelę nową tabelą
 
- Mając oba stoły gotowe, czas na zamianę! Użyjemy`Replace` metoda`TableAbsorber` aby zastąpić starą tabelę naszą nową.
+Mając oba stoły gotowe, czas na zamianę! Użyjemy `Replace` metoda `TableAbsorber` aby zastąpić starą tabelę naszą nową.
 
 ```csharp
 // Wymień stół na nowy
@@ -144,7 +146,7 @@ W tym fragmencie kodu zapisujemy zmodyfikowany plik PDF w określonej lokalizacj
 
 ## Wniosek
 
-Gratulacje ukończenia tego samouczka! Nauczyłeś się, jak zastąpić tabelę w dokumencie PDF za pomocą Aspose.PDF dla .NET. Od załadowania dokumentu i użycia absorbera tabel do utworzenia nowej tabeli i zapisania zmian, teraz masz umiejętności, aby łatwo ulepszać pliki PDF.
+Gratulacje ukończenia tego samouczka! Nauczyłeś się, jak zastąpić tabelę w dokumencie PDF za pomocą Aspose.PDF dla .NET. Od załadowania dokumentu i użycia absorbera tabel do utworzenia nowej tabeli i zapisania zmian, teraz masz umiejętności, aby łatwo ulepszyć swoje pliki PDF.
 
 ## Najczęściej zadawane pytania
 
@@ -152,19 +154,21 @@ Gratulacje ukończenia tego samouczka! Nauczyłeś się, jak zastąpić tabelę 
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom manipulowanie dokumentami PDF na różne sposoby, na przykład poprzez tworzenie, edycję i konwertowanie plików PDF.
 
 ### Czy mogę używać Aspose.PDF w celach komercyjnych?  
- Tak, będziesz musiał kupić licencję. Możesz znaleźć opcje cenowe[Tutaj](https://purchase.aspose.com/buy).
+Tak, będziesz musiał kupić licencję. Możesz znaleźć opcje cenowe [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy jest dostępna bezpłatna wersja próbna?  
- Oczywiście! Możesz pobrać bezpłatną wersję próbną Aspose.PDF dla .NET[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz pobrać bezpłatną wersję próbną Aspose.PDF dla .NET [Tutaj](https://releases.aspose.com/).
 
 ### Co zrobić, jeśli będę potrzebował pomocy podczas korzystania z Aspose.PDF?  
- Możesz uzyskać pomoc poprzez forum Aspose[Tutaj](https://forum.aspose.com/c/pdf/10).
+Możesz uzyskać pomoc poprzez forum Aspose [Tutaj](https://forum.aspose.com/c/pdf/10).
 
 ### Jak uzyskać tymczasową licencję?  
- Przed dokonaniem zakupu możesz poprosić o tymczasową licencję, aby móc ocenić produkt[Tutaj](https://purchase.aspose.com/temporary-license/).
+Przed dokonaniem zakupu możesz poprosić o tymczasową licencję, aby móc ocenić produkt [Tutaj](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

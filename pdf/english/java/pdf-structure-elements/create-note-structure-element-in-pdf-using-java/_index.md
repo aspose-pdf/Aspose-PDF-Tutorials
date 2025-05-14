@@ -8,7 +8,9 @@ url: /java/pdf-structure-elements/create-note-structure-element-in-pdf-using-jav
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Note Structure Element in PDF using Java
@@ -113,6 +115,7 @@ Yes, you can attach files to the note, providing additional resources or referen
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

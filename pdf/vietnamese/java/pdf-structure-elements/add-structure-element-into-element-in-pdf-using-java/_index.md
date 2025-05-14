@@ -1,14 +1,16 @@
 ---
-title: Thêm phần tử cấu trúc vào phần tử trong PDF bằng Java
-linktitle: Thêm phần tử cấu trúc vào phần tử trong PDF bằng Java
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách cải thiện cấu trúc PDF trong Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước này bao gồm cách thêm các thành phần cấu trúc cho PDF có thể truy cập và được sắp xếp.
-weight: 11
-url: /vi/java/pdf-structure-elements/add-structure-element-into-element-in-pdf-using-java/
+"description": "Tìm hiểu cách cải thiện cấu trúc PDF trong Java bằng Aspose.PDF cho Java. Hướng dẫn từng bước này bao gồm cách thêm các thành phần cấu trúc cho PDF có thể truy cập và được sắp xếp."
+"linktitle": "Thêm phần tử cấu trúc vào phần tử trong PDF bằng Java"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Thêm phần tử cấu trúc vào phần tử trong PDF bằng Java"
+"url": "/vi/java/pdf-structure-elements/add-structure-element-into-element-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm phần tử cấu trúc vào phần tử trong PDF bằng Java
@@ -106,7 +108,7 @@ Trong hướng dẫn này, chúng ta đã học cách thêm các thành phần c
 
 ### Làm thế nào tôi có thể tải xuống Aspose.PDF cho Java?
 
- Bạn có thể tải xuống Aspose.PDF cho Java từ trang web tại[đây](https://releases.aspose.com/pdf/java/).
+Bạn có thể tải xuống Aspose.PDF cho Java từ trang web tại [đây](https://releases.aspose.com/pdf/java/).
 
 ### Aspose.PDF cho Java có miễn phí sử dụng không?
 
@@ -122,10 +124,12 @@ Có, còn có các thư viện khác như Apache PDFBox và iText cũng cung c�
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể truy cập tài liệu về Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể truy cập tài liệu về Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

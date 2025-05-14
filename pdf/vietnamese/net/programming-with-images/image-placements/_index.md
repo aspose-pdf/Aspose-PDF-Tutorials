@@ -1,14 +1,16 @@
 ---
-title: Vị trí hình ảnh
-linktitle: Vị trí hình ảnh
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách trích xuất và thao tác vị trí hình ảnh trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước có ví dụ và đoạn mã.
-weight: 170
-url: /vi/net/programming-with-images/image-placements/
+"description": "Tìm hiểu cách trích xuất và thao tác vị trí hình ảnh trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước có ví dụ và đoạn mã."
+"linktitle": "Vị trí hình ảnh"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Vị trí hình ảnh"
+"url": "/vi/net/programming-with-images/image-placements/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vị trí hình ảnh
@@ -21,9 +23,9 @@ Làm việc với hình ảnh trong tệp PDF có thể rất khó khăn, nhưng
 
 Trước khi bắt đầu hướng dẫn, có một số điều bạn cần chuẩn bị. Sau đây là danh sách kiểm tra nhanh:
 
-1.  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.PDF cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/net/).
 2. Môi trường phát triển: Bạn sẽ cần cài đặt Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET trên máy của mình.
-3. Tài liệu PDF: Chuẩn bị sẵn một tài liệu PDF mẫu có chứa hình ảnh. Đối với ví dụ này, chúng tôi sẽ sử dụng một tệp có tên`ImagePlacement.pdf`.
+3. Tài liệu PDF: Chuẩn bị sẵn một tài liệu PDF mẫu có chứa hình ảnh. Đối với ví dụ này, chúng tôi sẽ sử dụng một tệp có tên `ImagePlacement.pdf`.
 4. Kiến thức cơ bản về C#: Mặc dù hướng dẫn này dành cho người mới bắt đầu, nhưng kiến thức cơ bản về C# sẽ giúp bạn hiểu rõ hơn về các đoạn mã.
 
 ## Nhập gói
@@ -37,7 +39,7 @@ using System;
 using System.Drawing;
 ```
 
-Các gói này cho phép bạn làm việc với PDF (`Aspose.Pdf`), thao tác vị trí hình ảnh (`Aspose.Pdf.ImagePlacement`), và xử lý luồng hình ảnh và đồ họa (`System.Drawing` Và`System.IO`).
+Các gói này cho phép bạn làm việc với PDF (`Aspose.Pdf`), thao tác vị trí hình ảnh (`Aspose.Pdf.ImagePlacement`), và xử lý luồng hình ảnh và đồ họa (`System.Drawing` Và `System.IO`).
 
 Bây giờ chúng ta đã có đủ các điều kiện tiên quyết và các gói, hãy cùng chia nhỏ từng phần của hướng dẫn thành một hướng dẫn đơn giản, dễ làm theo.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "ImagePlacement.pdf");
 ```
 
- Trong bước này, chúng tôi đang xác định đường dẫn tệp của tài liệu PDF bằng cách sử dụng`dataDir`và sau đó tạo một phiên bản mới của`Aspose.Pdf.Document` class. Điều này cho phép chúng ta tải tệp PDF vào chương trình của mình. Đơn giản, phải không? Giống như việc mở một cuốn sách để bắt đầu đọc, giờ chúng ta đã sẵn sàng khám phá nội dung bên trong.
+Trong bước này, chúng tôi sẽ xác định đường dẫn tệp của tài liệu PDF bằng cách sử dụng `dataDir` và sau đó tạo một phiên bản mới của `Aspose.Pdf.Document` class. Điều này cho phép chúng ta tải tệp PDF vào chương trình của mình. Đơn giản, phải không? Giống như việc mở một cuốn sách để bắt đầu đọc, giờ chúng ta đã sẵn sàng khám phá nội dung bên trong.
 
 ## Bước 2: Khởi tạo Image Placement Absorber
 
@@ -60,7 +62,7 @@ Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "ImagePlacement.pdf"
 ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
 ```
 
- Ở đây, chúng ta đang tạo một trường hợp của`ImagePlacementAbsorber`. Đối tượng này sẽ thu thập và lưu trữ thông tin về tất cả các vị trí hình ảnh trên một trang PDF cụ thể. Hãy tưởng tượng nó giống như việc quét một trang bằng kính lúp và xác định tất cả các hình ảnh trên đó!
+Ở đây, chúng ta đang tạo một trường hợp của `ImagePlacementAbsorber`Đối tượng này sẽ thu thập và lưu trữ thông tin về tất cả các vị trí hình ảnh trên một trang PDF cụ thể. Hãy tưởng tượng nó giống như việc quét một trang bằng kính lúp và xác định tất cả các hình ảnh trên đó!
 
 ## Bước 3: Chấp nhận Absorber trên Trang đầu tiên
 
@@ -70,11 +72,11 @@ Tiếp theo, chúng ta cần cho bộ hấp thụ biết trang nào của PDF c�
 doc.Pages[1].Accept(abs);
 ```
 
- Các`Accept` phương pháp quét trang đầu tiên của tài liệu PDF để tìm bất kỳ hình ảnh nào và lưu trữ kết quả bên trong`ImagePlacementAbsorber`Giống như việc bảo kính lúp tìm hình ảnh ở đâu vậy.
+Các `Accept` phương pháp quét trang đầu tiên của tài liệu PDF để tìm bất kỳ hình ảnh nào và lưu trữ kết quả bên trong `ImagePlacementAbsorber`. Giống như việc bảo kính lúp tìm hình ảnh ở đâu vậy.
 
 ## Bước 4: Lặp lại từng vị trí hình ảnh
 
-Bây giờ chúng ta đã quét trang, chúng ta cần lặp qua từng hình ảnh tìm thấy trên trang và lấy các thuộc tính của nó.
+Bây giờ chúng ta đã quét trang, chúng ta cần lặp qua từng hình ảnh tìm thấy trên trang và lấy các thuộc tính của hình ảnh đó.
 
 ```csharp
 foreach (ImagePlacement imagePlacement in abs.ImagePlacements)
@@ -104,7 +106,7 @@ using (MemoryStream imageStream = new MemoryStream())
 }
 ```
 
- Đoạn mã này lấy hình ảnh từ PDF và chia tỷ lệ theo kích thước thực tế của nó như được xác định trong`ImagePlacement` đối tượng. Bằng cách lưu hình ảnh trong luồng bộ nhớ và thay đổi kích thước, bạn đảm bảo rằng hình ảnh bạn trích xuất vẫn giữ nguyên kích thước như khi hiển thị trong PDF.
+Đoạn mã này lấy hình ảnh từ PDF và chia tỷ lệ theo kích thước thực tế của nó như được xác định trong `ImagePlacement` đối tượng. Bằng cách lưu hình ảnh trong luồng bộ nhớ và thay đổi kích thước, bạn đảm bảo rằng hình ảnh bạn trích xuất vẫn giữ nguyên kích thước như khi hiển thị trong PDF.
 
 ## Phần kết luận
 
@@ -113,22 +115,24 @@ Trích xuất vị trí hình ảnh từ tài liệu PDF bằng Aspose.PDF cho .
 ## Câu hỏi thường gặp
 
 ### Tôi có thể trích xuất hình ảnh từ một trang cụ thể của tệp PDF không?  
- Có, bằng cách chỉ định số trang khi sử dụng`Accept` Phương pháp này cho phép bạn tập trung vào bất kỳ trang cụ thể nào.
+Có, bằng cách chỉ định số trang khi sử dụng `Accept` Phương pháp này cho phép bạn tập trung vào bất kỳ trang cụ thể nào.
 
-### Những định dạng hình ảnh nào được hỗ trợ để trích xuất?  
+### Định dạng hình ảnh nào được hỗ trợ để trích xuất?  
 Aspose.PDF hỗ trợ nhiều định dạng khác nhau, bao gồm PNG, JPEG, BMP, v.v.
 
 ### Có thể chỉnh sửa hình ảnh đã trích xuất được không?  
- Chắc chắn rồi! Sau khi trích xuất, bạn có thể sử dụng`System.Drawing` không gian tên để thao tác hình ảnh.
+Chắc chắn rồi! Sau khi trích xuất, bạn có thể sử dụng `System.Drawing` không gian tên để thao tác hình ảnh.
 
 ### Tôi có thể trích xuất hình ảnh từ các tệp PDF được bảo vệ bằng mật khẩu không?  
 Có, bạn có thể, nhưng bạn sẽ cần mở khóa PDF bằng thông tin xác thực phù hợp trước khi trích xuất hình ảnh.
 
 ### Aspose.PDF cho .NET có hoạt động trên tất cả các nền tảng .NET không?  
 Có, nó hỗ trợ .NET Framework, .NET Core và .NET 5 trở lên.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

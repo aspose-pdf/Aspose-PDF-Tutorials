@@ -1,14 +1,16 @@
 ---
-title: Struktur Root dalam PDF menggunakan Java
-linktitle: Struktur Root dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari manipulasi struktur akar menggunakan Aspose.PDF. Buat, modifikasi, dan tingkatkan PDF.
-weight: 11
-url: /id/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/
+"description": "Pelajari manipulasi struktur akar menggunakan Aspose.PDF. Buat, modifikasi, dan tingkatkan PDF."
+"linktitle": "Struktur Root dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Struktur Root dalam PDF menggunakan Java"
+"url": "/id/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Struktur Root dalam PDF menggunakan Java
@@ -83,7 +85,7 @@ Dalam artikel ini, kami telah menjelajahi struktur dasar dokumen PDF menggunakan
 
 ### Bagaimana cara menambahkan hyperlink ke PDF menggunakan Aspose.PDF untuk Java?
 
-Untuk menambahkan hyperlink, gunakan`HyperlinkAnnotation` kelas dan tentukan URL target.
+Untuk menambahkan hyperlink, gunakan `HyperlinkAnnotation` kelas dan tentukan URL target.
 
 ### Bisakah saya mengenkripsi dokumen PDF dengan kata sandi?
 
@@ -97,12 +99,14 @@ Tentu saja! Aspose.PDF untuk Java menyediakan alat yang hebat untuk membuat lapo
 
 Anda dapat mengekstrak teks dari dokumen PDF dengan mengulangi fragmen teksnya dan mengekstrak konten teks.
 
-### Bisakah saya mengonversi dokumen PDF ke format lain seperti Word atau Excel dengan Aspose.PDF untuk Java?
+### Dapatkah saya mengonversi dokumen PDF ke format lain seperti Word atau Excel dengan Aspose.PDF untuk Java?
 
 Ya, Aspose.PDF untuk Java mendukung konversi dokumen PDF ke berbagai format, termasuk Word dan Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

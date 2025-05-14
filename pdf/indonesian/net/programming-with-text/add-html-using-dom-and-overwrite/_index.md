@@ -1,14 +1,16 @@
 ---
-title: Tambahkan HTML Menggunakan DOM Dan Penimpaan PDF
-linktitle: Tambahkan HTML Menggunakan DOM dan Timpa
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menambahkan konten HTML ke PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup semuanya mulai dari penyiapan hingga penyimpanan akhir.
-weight: 50
-url: /id/net/programming-with-text/add-html-using-dom-and-overwrite/
+"description": "Pelajari cara menambahkan konten HTML ke PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup semuanya mulai dari penyiapan hingga penyimpanan akhir."
+"linktitle": "Tambahkan HTML Menggunakan DOM dan Timpa"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tambahkan HTML Menggunakan DOM Dan Penimpaan PDF"
+"url": "/id/net/programming-with-text/add-html-using-dom-and-overwrite/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan HTML Menggunakan DOM Dan Penimpaan PDF
@@ -21,8 +23,8 @@ Saat kita menyelami dunia manipulasi PDF yang menarik dengan Aspose.PDF untuk .N
 
 Sebelum memulai petualangan ini, Anda harus memastikan bahwa Anda telah menyiapkan semuanya dengan benar untuk menggunakan Aspose.PDF untuk .NET. Berikut ini yang Anda perlukan:
 
--  Visual Studio: Pastikan Anda telah menginstal versi Visual Studio. Jika belum, Anda dapat mengunduh salinannya[Di Sini](https://visualstudio.microsoft.com/).
--  Pustaka Aspose.PDF untuk .NET: Anda perlu mengunduh dan merujuk pustaka tersebut dalam proyek Anda. Anda dapat menemukan versi terbarunya[Di Sini](https://releases.aspose.com/pdf/net/).
+- Visual Studio: Pastikan Anda telah menginstal versi Visual Studio. Jika belum, Anda dapat mengunduh salinannya [Di Sini](https://visualstudio.microsoft.com/).
+- Pustaka Aspose.PDF untuk .NET: Anda perlu mengunduh dan merujuk pustaka tersebut dalam proyek Anda. Anda dapat menemukan versi terbarunya [Di Sini](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Pastikan proyek Anda berbasis pada versi .NET Framework yang kompatibel. Periksa dokumentasi Aspose untuk detail kompatibilitas terbaru.
 - Pengetahuan Dasar C#: Anda harus memahami konsep dasar pemrograman C# agar mudah diikuti.
 
@@ -51,11 +53,11 @@ Untuk memulai, mari tentukan jalur ke direktori dokumen Anda tempat semua file y
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ganti saja`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya pada mesin Anda. Ini akan membantu Anda menjaga semuanya tetap teratur.
+Ganti saja `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya pada mesin Anda. Ini akan membantu Anda menjaga semuanya tetap teratur.
 
 ## Langkah 2: Buat Objek Dokumen
 
- Berikutnya, kita perlu membuat sebuah instance dari`Document`kelas. Anggap saja ini seperti membuka kanvas kosong tempat kita akan membuat karya PDF kita.
+Berikutnya, kita perlu membuat sebuah instance dari `Document` kelas. Anggap saja ini seperti membuka kanvas kosong tempat kita akan membuat karya PDF kita.
 
 ```csharp
 // Membuat instance objek Dokumen
@@ -84,14 +86,14 @@ Sekarang kita masuk ke bagian yang menyenangkan – membuat konten HTML yang ing
 HtmlFragment title = new HtmlFragment("<p style='font-family: Verdana'><b><i>Table contains text</i></b></p>");
 ```
 
- Garis ini membentuk sebuah`HtmlFragment` – paket kecil rapi yang membawa HTML kita, termasuk gaya untuk font-family. 
+Garis ini membentuk sebuah `HtmlFragment` – paket kecil rapi yang membawa HTML kita, termasuk gaya untuk font-family. 
 
 ## Langkah 5: Menyesuaikan Atribut Teks
 
 Apa gunanya teks tanpa estetika yang tepat, bukan? Mari atur gaya dan ukuran font agar judul menonjol dalam PDF.
 
 ```csharp
-//Font-family dari 'Verdana' akan direset ke 'Arial'
+// Font-family dari 'Verdana' akan direset ke 'Arial'
 title.TextState = new TextState("Arial");
 title.TextState.FontSize = 20;
 ```
@@ -124,7 +126,7 @@ Langkah ini mengambil konten HTML kita dan menyelipkannya ke dalam kumpulan para
 
 ## Langkah 8: Simpan PDF
 
-Terakhir, mari kita gabungkan semuanya dan simpan karya agung kita. Kita akan menentukan nama file output dan menyimpannya ke direktori dokumen kita.
+Terakhir, mari kita gabungkan semuanya dan simpan karya agung kita. Kita akan menentukan nama berkas keluaran dan menyimpannya ke direktori dokumen kita.
 
 ```csharp
 // Simpan file PDF
@@ -133,7 +135,7 @@ dataDir = dataDir + "AddHTMLUsingDOMAndOverwrite_out.pdf";
 doc.Save(dataDir);
 ```
 
-Dengan menambahkan nama file output ke`dataDir`, kita siap menyimpan dokumen. Sekarang Anda memiliki berkas PDF dengan konten HTML yang ditambahkan!
+Dengan menambahkan nama file output ke `dataDir`, kita siap menyimpan dokumen. Sekarang Anda memiliki berkas PDF dengan konten HTML yang ditambahkan!
 
 ## Kesimpulan
 
@@ -148,16 +150,18 @@ Aspose.PDF untuk .NET adalah pustaka yang hebat untuk membuat dan memanipulasi f
 Ya, Aspose.PDF memungkinkan Anda menyisipkan gambar beserta teks dan konten HTML dengan mudah.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF?
- Tentu saja! Anda dapat mencoba uji coba gratis[Di Sini](https://releases.aspose.com).
+Tentu saja! Anda dapat mencoba uji coba gratis [Di Sini](https://releases.aspose.com).
 
 ### Apakah Aspose.PDF mendukung berbagai bahasa pemrograman?
-Ya, Aspose memiliki SDK yang tersedia untuk .NET, Java, CBahasa Indonesia: ++, dan banyak lagi!
+Ya, Aspose memiliki SDK yang tersedia untuk .NET, Java, C++, dan banyak lagi!
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.PDF?
- Anda dapat mengunjungi forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/pdf/10).
+Anda dapat mengunjungi forum dukungan Aspose [Di Sini](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

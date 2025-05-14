@@ -1,27 +1,29 @@
 ---
-title: PDF Dosyasında Paragraf Kullanarak Metni Döndürme
-linktitle: PDF Dosyasında Paragraf Kullanarak Metni Döndürme
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF'deki metni nasıl döndüreceğinizi öğrenin. Belgelerinizi oluşturmak için bu adım adım kılavuzu izleyin.
-weight: 380
-url: /tr/net/programming-with-text/rotate-text-using-paragraph/
+"description": "Aspose.PDF for .NET kullanarak PDF'deki metni nasıl döndüreceğinizi öğrenin. Belgelerinizi oluşturmak için bu adım adım kılavuzu izleyin."
+"linktitle": "PDF Dosyasında Paragraf Kullanarak Metni Döndürme"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Paragraf Kullanarak Metni Döndürme"
+"url": "/tr/net/programming-with-text/rotate-text-using-paragraph/"
+"weight": 380
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Paragraf Kullanarak Metni Döndürme
 
 ## giriiş
 
-Dinamik metinle PDF'ler oluşturmak, bilgi aktarmanın ilgi çekici bir yolu olabilir. Belgelerinize biraz gösteriş katmak istiyorsanız, metni döndürmek önemli noktaları vurgulamanıza veya sadece görsel olarak çekici bir tasarım sağlamanıza yardımcı olabilir. Bu kılavuzda, .NET için Aspose.PDF kullanarak metni nasıl döndüreceğinizi ve PDF belgelerinizi daha etkileşimli ve ilgi çekici hale getireceğinizi anlatacağım!
+Dinamik metinle PDF'ler oluşturmak, bilgi aktarmanın ilgi çekici bir yolu olabilir. Belgelerinize biraz hava katmak istiyorsanız, metni döndürmek önemli noktaları vurgulamanıza veya sadece görsel olarak çekici bir tasarım sağlamanıza yardımcı olabilir. Bu kılavuzda, .NET için Aspose.PDF kullanarak metni nasıl döndüreceğinizi ve PDF belgelerinizi daha etkileşimli ve ilgi çekici hale getireceğinizi anlatacağım!
 
 ## Ön koşullar
 
 PDF dosyalarında metin döndürmenin heyecan verici dünyasına dalmadan önce, her şeyin doğru şekilde ayarlandığından emin olalım. İşte ihtiyacınız olacak ön koşullar:
 
-1.  .NET için Aspose.PDF: Projenizde .NET için Aspose.PDF'nin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/pdf/net/).
+1. .NET için Aspose.PDF: Projenizde .NET için Aspose.PDF'nin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/pdf/net/).
 2. Visual Studio: Bu eğitimde .NET geliştirmelerinizde Visual Studio kullandığınızı varsayıyoruz.
 3. C# Temel Bilgisi: C# programlamaya aşinalık, örnekleri daha iyi anlamanıza yardımcı olacaktır. Yeniyseniz endişelenmeyin; adım adım gidiyoruz!
 4. .NET Framework: Projenizin .NET Framework'ün uygun bir sürümüyle kurulduğundan emin olun. Aspose.PDF çeşitli sürümleri destekler, bu nedenle uyumluluk için belgeleri kontrol edin.
@@ -135,7 +137,7 @@ paragraph.AppendLine(textFragment1);
 paragraph.AppendLine(textFragment2);
 paragraph.AppendLine(textFragment3);
 ```
- Biz sadece her metin parçasını paragrafımıza ekliyoruz.`AppendLine` yöntem her metin parçasının dikey olarak istiflenmesini sağlar.
+Biz sadece her metin parçasını paragrafımıza ekliyoruz. `AppendLine` yöntem her metin parçasının dikey olarak istiflenmesini sağlar.
 
 ## Adım 6: Bir TextBuilder Nesnesi Oluşturun
 
@@ -168,19 +170,21 @@ PDF'deki metni döndürmek, belgelerinize büyük bir yaratıcılık ve vurgu ka
 Aspose.PDF for .NET, geliştiricilerin PDF belgelerini doğrudan .NET uygulamaları içerisinde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.PDF'yi projeme nasıl yüklerim?
- Aspose.PDF'yi Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla veya şu adresten indirerek yükleyebilirsiniz:[Aspose indirme sayfası](https://releases.aspose.com/pdf/net/).
+Aspose.PDF'yi Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla veya şu adresten indirerek yükleyebilirsiniz:  [Aspose indirme sayfası](https://releases.aspose.com/pdf/net/).
 
 ### Aspose.PDF'yi ücretsiz kullanabilir miyim?
- Evet, Aspose.PDF ücretsiz deneme sunuyor. Şununla başlayabilirsiniz:[ücretsiz deneme](https://releases.aspose.com/) ve özelliklerini keşfedin.
+Evet, Aspose.PDF ücretsiz deneme sunuyor. Şununla başlayabilirsiniz: [ücretsiz deneme](https://releases.aspose.com/) ve özelliklerini keşfedin.
 
 ### Aspose.PDF için destek mevcut mu?
- Kesinlikle! Ulaşabilirsiniz[Aspose desteği](https://forum.aspose.com/c/pdf/10) Karşılaştığınız herhangi bir sorunda yardım için.
+Kesinlikle! Ulaşabilirsiniz [Aspose desteği](https://forum.aspose.com/c/pdf/10) Karşılaştığınız herhangi bir sorunda yardım için.
 
 ### Aspose.PDF için geçici lisansı nasıl alabilirim?
- Geçici bir lisansı şu adresten satın alabilirsiniz:[Aspose'un web sitesi](https://purchase.aspose.com/temporary-license/) Kütüphanenin tüm özelliklerini denemek için.
+Geçici bir lisansı şu adresten satın alabilirsiniz: [Aspose'un web sitesi](https://purchase.aspose.com/temporary-license/) Kütüphanenin tüm özelliklerini denemek için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

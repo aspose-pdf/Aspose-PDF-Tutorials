@@ -8,7 +8,9 @@ url: /net/programming-with-text/search-text-segments-page/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Search Text Segments Page In PDF File
@@ -163,6 +165,7 @@ Yes, as long as you unlock the PDF using the correct password.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

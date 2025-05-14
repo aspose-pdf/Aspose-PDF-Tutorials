@@ -1,14 +1,16 @@
 ---
-title: Penyelarasan Teks Untuk Konten Kotak Mengambang Dalam File PDF
-linktitle: Penyelarasan Teks Untuk Konten Kotak Mengambang Dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menyelaraskan konten kotak mengambang dalam file PDF menggunakan Aspose.PDF untuk .NET. Buat dokumen yang menakjubkan dengan tata letak profesional.
-weight: 520
-url: /id/net/programming-with-text/text-alignment-for-floating-box-contents/
+"description": "Pelajari cara menyelaraskan konten kotak mengambang dalam file PDF menggunakan Aspose.PDF untuk .NET. Buat dokumen yang menakjubkan dengan tata letak profesional."
+"linktitle": "Penyelarasan Teks Untuk Konten Kotak Mengambang Dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Penyelarasan Teks Untuk Konten Kotak Mengambang Dalam File PDF"
+"url": "/id/net/programming-with-text/text-alignment-for-floating-box-contents/"
+"weight": 520
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Penyelarasan Teks Untuk Konten Kotak Mengambang Dalam File PDF
@@ -22,7 +24,7 @@ Membuat PDF yang menarik secara visual merupakan keterampilan penting di dunia d
 Sebelum menyelami tutorial ini, ada beberapa hal penting yang perlu Anda miliki:
 
 1. .NET Framework: Pastikan Anda telah menginstal .NET Framework yang kompatibel di komputer Anda, karena di sinilah Anda akan menjalankan kode Anda.
-2.  Pustaka Aspose.PDF: Anda perlu memiliki pustaka Aspose.PDF. Jika Anda belum mengunduhnya, Anda dapat melakukannya[Di Sini](https://releases.aspose.com/pdf/net/).
+2. Pustaka Aspose.PDF: Anda perlu memiliki pustaka Aspose.PDF. Jika Anda belum mengunduhnya, Anda dapat melakukannya [Di Sini](https://releases.aspose.com/pdf/net/).
 3. IDE: Lingkungan pengembangan terintegrasi (IDE) seperti Visual Studio akan membantu dalam pengkodean dan debugging.
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan memudahkan untuk mengikuti dan memahami potongan kode.
 
@@ -30,7 +32,7 @@ Sebelum menyelami tutorial ini, ada beberapa hal penting yang perlu Anda miliki:
 
 Untuk memulai, Anda harus mengimpor paket yang diperlukan ke dalam proyek C# Anda. Berikut cara melakukannya:
 
-1. Buka Proyek Anda: Luncurkan IDE Anda, dan buka proyek tempat Anda ingin mengimplementasikan fungsionalitas kotak mengambang.
+1. Buka Proyek Anda: Luncurkan IDE Anda, dan buka proyek tempat Anda ingin menerapkan fungsionalitas kotak mengambang.
 2. Instal Aspose.PDF untuk .NET: Gunakan NuGet Package Manager untuk menginstal paket Aspose.PDF. Untuk melakukannya:
    - Klik kanan pada proyek Anda di Solution Explorer, pilih "Kelola Paket NuGet".
    - Cari “Aspose.PDF” dan klik "Instal".
@@ -58,7 +60,7 @@ Aspose.Pdf.Document doc = new Document();
 doc.Pages.Add();
 ```
 
- Dalam potongan kode ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF Anda.
+Dalam potongan kode ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF Anda.
 
 ## Langkah 2: Buat Kotak Mengambang Pertama
 
@@ -116,7 +118,7 @@ Akhirnya, saatnya menyimpan dokumen Anda. Anda akan menyimpannya di lokasi yang 
 doc.Save(dataDir + "FloatingBox_alignment_review_out.pdf");
 ```
 
- File akan disimpan dengan nama`FloatingBox_alignment_review_out.pdf` di direktori yang ditentukan. Pastikan untuk memeriksa lokasi ini untuk melihat PDF yang Anda buat.
+File akan disimpan dengan nama `FloatingBox_alignment_review_out.pdf` di direktori yang ditentukan. Pastikan untuk memeriksa lokasi ini untuk melihat PDF yang Anda buat.
 
 ## Kesimpulan
 
@@ -137,10 +139,12 @@ Aspose.PDF menawarkan uji coba gratis, tetapi lisensi berbayar diperlukan untuk 
 Tentu saja! Anda dapat menambahkan berbagai jenis konten, termasuk gambar, ke kotak mengambang.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.PDF?  
- Dokumentasi terperinci dapat ditemukan[Di Sini](https://reference.aspose.com/pdf/net/).
+Dokumentasi terperinci dapat ditemukan [Di Sini](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

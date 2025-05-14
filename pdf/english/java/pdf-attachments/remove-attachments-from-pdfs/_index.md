@@ -8,7 +8,9 @@ url: /java/pdf-attachments/remove-attachments-from-pdfs/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Attachments from PDFs
@@ -96,6 +98,7 @@ You can visit the Aspose.PDF for Java documentation at [here](https://reference.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

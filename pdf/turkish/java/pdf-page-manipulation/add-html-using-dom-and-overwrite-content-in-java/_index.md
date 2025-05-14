@@ -1,17 +1,19 @@
 ---
-title: DOM kullanarak HTML ekleyin ve Java'da İçeriği Üzerine Yazın
-linktitle: DOM kullanarak HTML ekleyin ve Java'da İçeriği Üzerine Yazın
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: DOM (Belge Nesne Modeli) kullanarak Java'da HTML içeriğini nasıl düzenleyeceğinizi ve mevcut içeriğin üzerine nasıl yazacağınızı öğrenin. Java için Aspose.PDF'yi kullanarak kaynak kod örnekleriyle bu adım adım kılavuzu izleyin.
-weight: 13
-url: /tr/java/pdf-page-manipulation/add-html-using-dom-and-overwrite-content-in-java/
+"description": "DOM (Belge Nesne Modeli) kullanarak Java'da HTML içeriğini nasıl düzenleyeceğinizi ve mevcut içeriğin üzerine nasıl yazacağınızı öğrenin. Java için Aspose.PDF'yi kullanarak kaynak kod örnekleriyle bu adım adım kılavuzu izleyin."
+"linktitle": "Java'da DOM kullanarak HTML ekleyin ve İçeriği Üzerine Yazın"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "Java'da DOM kullanarak HTML ekleyin ve İçeriği Üzerine Yazın"
+"url": "/tr/java/pdf-page-manipulation/add-html-using-dom-and-overwrite-content-in-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DOM kullanarak HTML ekleyin ve Java'da İçeriği Üzerine Yazın
+# Java'da DOM kullanarak HTML ekleyin ve İçeriği Üzerine Yazın
 
 
 ## giriiş
@@ -24,7 +26,7 @@ Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 1. Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
 
-2.  Java için Aspose.PDF: Java projenize Aspose.PDF kütüphanesini indirin ve ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/pdf/java/).
+2. Java için Aspose.PDF: Java projenize Aspose.PDF kütüphanesini indirin ve ekleyin. İndirme bağlantısını bulabilirsiniz [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Adım 1: Yeni bir PDF Belgesi Oluşturun
 
@@ -49,13 +51,13 @@ com.aspose.pdf.Document existingPdf = new com.aspose.pdf.Document("path/to/exist
 Sonra, yeni bir sayfa oluşturun veya çalışmak için mevcut bir sayfayı seçin. Bu sayfaya HTML içeriği ekleyeceğiz:
 
 ```java
-//Belgeye yeni bir sayfa ekle
+// Belgeye yeni bir sayfa ekle
 com.aspose.pdf.Page page = pdfDocument.getPages().add();
 ```
 
 ## Adım 4: HTML İçeriği Ekle
 
- Sayfaya HTML içeriği eklemek için şunu kullanabilirsiniz:`HtmlFragment` sınıf. İşte bir örnek:
+Sayfaya HTML içeriği eklemek için şunu kullanabilirsiniz: `HtmlFragment` sınıf. İşte bir örnek:
 
 ```java
 // Bir HTML parçası oluşturun
@@ -66,7 +68,7 @@ Gerektiğinde HTML içeriğini kendi içeriklerinizle değiştirebilirsiniz. Bu 
 
 ## Adım 5: Mevcut İçeriğin Üzerine Yaz
 
- Sayfadaki mevcut içeriği HTML parçasıyla üzerine yazmak istiyorsanız, şunu kullanın:`setHtmlContent` yöntem:
+Sayfadaki mevcut içeriği HTML parçasıyla üzerine yazmak istiyorsanız, şunu kullanın: `setHtmlContent` yöntem:
 
 ```java
 // Mevcut içeriği HTML parçasıyla üzerine yaz
@@ -99,14 +101,16 @@ Bu eğitimde, DOM kullanarak bir PDF belgesine HTML içeriği eklemeyi ve Java'd
    Java için Aspose.PDF güçlü bir ticari kütüphanedir, ancak test ve değerlendirme için ücretsiz bir deneme sürümü sunar. Projenizin gereksinimlerine bağlı olarak uygun bir lisanslama seçeneği seçebilirsiniz.
 
 ### 4. Aspose.PDF for Java kullanarak PDF belgesine nasıl resim ekleyebilirim?
-    PDF belgelerinizi resimler ekleyerek geliştirebilirsiniz.`com.aspose.pdf.Image`PDF sayfalarına resim oluşturmak ve eklemek için sınıf. Bu, görsel öğeleri sorunsuz bir şekilde dahil etmenizi sağlar.
+   PDF belgelerinizi resimler ekleyerek geliştirebilirsiniz. `com.aspose.pdf.Image` PDF sayfalarına resim oluşturmak ve eklemek için sınıf. Bu, görsel öğeleri sorunsuz bir şekilde dahil etmenizi sağlar.
 
 ### 5. PDF'lerle çalışmak için başka Java kütüphaneleri var mı?
    Java için Aspose.PDF sağlam bir seçim olsa da, Java'da PDF'lerle çalışmak için iText ve PDFBox gibi alternatif kütüphaneleri inceleyebilirsiniz. Her kütüphanenin kendine özgü özellikleri ve yetenekleri vardır, bu nedenle projenizin ihtiyaçlarına en uygun olanı seçin.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@ description: Aspose.PDF for .NET's Programming with Links and Actions tutorials 
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Links and Actions
@@ -34,6 +36,7 @@ The "Programming with Links and Actions" tutorial page on Aspose.PDF for .NET of
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

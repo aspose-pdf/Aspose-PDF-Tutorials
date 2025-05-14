@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ संलग्नक
-linktitle: पीडीएफ संलग्नक
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Aspose.PDF के साथ Java में PDF अनुलग्नकों को प्रबंधित करना सीखें। अपनी PDF में फ़ाइलें, चित्र और बहुत कुछ आसानी से संलग्न करें।
-weight: 11
-url: /hi/java/pdf-attachments/
+"description": "Aspose.PDF के साथ Java में PDF अनुलग्नकों को प्रबंधित करना सीखें। अपनी PDF में फ़ाइलें, चित्र और बहुत कुछ आसानी से संलग्न करें।"
+"linktitle": "पीडीएफ संलग्नक"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "पीडीएफ संलग्नक"
+"url": "/hi/java/pdf-attachments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ संलग्नक
@@ -31,11 +33,13 @@ url: /hi/java/pdf-attachments/
 Aspose.PDF के साथ Java में PDF से अटैचमेंट हटाना सीखें। PDF में बदलाव के लिए चरण-दर-चरण गाइड और कोड।
 ### [अनुलग्नक जानकारी प्राप्त करें](./retrieve-attachment-information/)
 Aspose.PDF का उपयोग करके जावा में PDF अनुलग्नकों को पुनः प्राप्त करना सीखें। PDF दस्तावेज़ अनुलग्नकों को प्रबंधित करने के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-### [पीडीएफ दस्तावेजों में सभी अनुलग्नकों की सूची बनाएं](./list-all-attachments-pdf-documents/)
+### [पीडीएफ दस्तावेज़ों में सभी अनुलग्नकों की सूची बनाएं](./list-all-attachments-pdf-documents/)
 जानें कि Java के लिए Aspose.PDF का उपयोग करके PDF में अनुलग्नकों को कैसे सूचीबद्ध किया जाए। PDF अनुलग्नकों को आसानी से निकालने के लिए चरण-दर-चरण मार्गदर्शिका।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

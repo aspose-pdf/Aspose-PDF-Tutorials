@@ -1,14 +1,16 @@
 ---
-title: Văn bản ở chân trang của tệp PDF
-linktitle: Văn bản ở chân trang của tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách dễ dàng thêm văn bản vào chân trang của tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước được bao gồm để tích hợp liền mạch.
-weight: 180
-url: /vi/net/programming-with-stamps-and-watermarks/text-in-footer/
+"description": "Tìm hiểu cách dễ dàng thêm văn bản vào chân trang của tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước được bao gồm để tích hợp liền mạch."
+"linktitle": "Văn bản ở chân trang của tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Văn bản ở chân trang của tệp PDF"
+"url": "/vi/net/programming-with-stamps-and-watermarks/text-in-footer/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Văn bản ở chân trang của tệp PDF
@@ -22,10 +24,10 @@ Bạn có muốn thêm văn bản tùy chỉnh vào chân trang của tệp PDF 
 
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã chuẩn bị mọi thứ:
 
--  Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET. Nếu chưa, bạn có thể[tải xuống ở đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Đảm bảo bạn đã cài đặt Aspose.PDF cho .NET. Nếu chưa, bạn có thể [tải xuống ở đây](https://releases.aspose.com/pdf/net/).
 - IDE: Bạn sẽ cần một môi trường phát triển như Visual Studio.
 - Kiến thức cơ bản về C#: Cần có hiểu biết cơ bản về C# và .NET.
--  Giấy phép: Mặc dù bạn có thể sử dụng Aspose.PDF ở chế độ đánh giá, nhưng để có đầy đủ chức năng, hãy cân nhắc việc nhận[dùng thử miễn phí](https://releases.aspose.com/) hoặc nộp đơn xin[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+- Giấy phép: Mặc dù bạn có thể sử dụng Aspose.PDF ở chế độ đánh giá, nhưng để có đầy đủ chức năng, hãy cân nhắc việc nhận [dùng thử miễn phí](https://releases.aspose.com/) hoặc nộp đơn xin [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -48,22 +50,22 @@ Trước khi bạn có thể làm việc với các tệp PDF, bạn cần chỉ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ở đây, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn. Thư mục này sẽ chứa tệp PDF gốc và cũng sẽ đóng vai trò là vị trí đầu ra cho tệp đã sửa đổi.
+Ở đây, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn. Thư mục này sẽ chứa tệp PDF gốc và cũng sẽ đóng vai trò là vị trí đầu ra cho tệp đã sửa đổi.
 
 ## Bước 2: Tải Tài liệu PDF
 
- Bước tiếp theo là tải tệp PDF vào dự án của bạn.`Document` lớp từ Aspose.PDF cho phép bạn mở và thao tác với các tài liệu PDF hiện có.
+Bước tiếp theo là tải tệp PDF vào dự án của bạn. `Document` lớp từ Aspose.PDF cho phép bạn mở và thao tác với các tài liệu PDF hiện có.
 
 ```csharp
 // Mở tài liệu
 Document pdfDocument = new Document(dataDir + "TextinFooter.pdf");
 ```
 
- Đây,`TextinFooter.pdf` là tệp chúng ta đang làm việc. Bạn có thể thay thế bằng tên tệp của riêng bạn.
+Đây, `TextinFooter.pdf` là tệp chúng ta đang làm việc. Bạn có thể thay thế bằng tên tệp của riêng bạn.
 
 ## Bước 3: Tạo văn bản chân trang
 
-Bây giờ, hãy tạo văn bản chân trang sẽ được đóng dấu trên mỗi trang. Điều này được thực hiện bằng cách sử dụng`TextStamp` lớp. Văn bản bạn xác định sẽ được sử dụng làm chân trang cho tất cả các trang.
+Bây giờ, chúng ta hãy tạo văn bản chân trang sẽ được đóng dấu trên mỗi trang. Điều này được thực hiện bằng cách sử dụng `TextStamp` lớp. Văn bản bạn xác định sẽ được sử dụng làm chân trang cho tất cả các trang.
 
 ```csharp
 // Tạo chân trang
@@ -74,7 +76,7 @@ Trong trường hợp này, chúng tôi đã tạo một văn bản chân trang 
 
 ## Bước 4: Thiết lập Thuộc tính Chân trang
 
- Để định vị chân trang đúng cách, chúng ta cần điều chỉnh một số thuộc tính như lề, căn chỉnh và định vị.`TextStamp` Lớp này cho phép bạn toàn quyền kiểm soát vị trí và cách hiển thị văn bản chân trang.
+Để định vị chân trang đúng cách, chúng ta cần điều chỉnh một số thuộc tính như lề, căn chỉnh và định vị. `TextStamp` Lớp này cho phép bạn toàn quyền kiểm soát vị trí và cách hiển thị văn bản chân trang.
 
 ```csharp
 // Thiết lập thuộc tính của tem
@@ -83,7 +85,7 @@ textStamp.HorizontalAlignment = HorizontalAlignment.Center;
 textStamp.VerticalAlignment = VerticalAlignment.Bottom;
 ```
 
-Ở đây, chúng tôi đã đặt lề dưới là 10 đơn vị, căn chỉnh văn bản vào giữa theo chiều ngang và đặt nó ở cuối trang theo chiều dọc. Bạn có thể điều chỉnh các giá trị này tùy thuộc vào nhu cầu bố cục cụ thể của mình.
+Ở đây, chúng tôi đã đặt lề dưới thành 10 đơn vị, căn chỉnh văn bản vào giữa theo chiều ngang và đặt nó ở cuối trang theo chiều dọc. Bạn có thể điều chỉnh các giá trị này tùy thuộc vào nhu cầu bố cục cụ thể của mình.
 
 ## Bước 5: Áp dụng Chân trang cho Tất cả các Trang
 
@@ -109,7 +111,7 @@ dataDir = dataDir + "TextinFooter_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Chúng tôi đang lưu tệp với tên mới,`TextinFooter_out.pdf`, trong cùng một thư mục. Bạn có thể đổi tên tùy ý.
+Chúng tôi đang lưu tệp với tên mới, `TextinFooter_out.pdf`, trong cùng một thư mục. Bạn có thể đổi tên tùy ý.
 
 ## Bước 7: Xác nhận thành công
 
@@ -128,22 +130,24 @@ Thêm chân trang vào tài liệu PDF bằng Aspose.PDF cho .NET là cách đơ
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thêm các chân trang khác nhau vào mỗi trang trong tệp PDF không?  
- Có, bạn có thể thêm chân trang duy nhất vào mỗi trang bằng cách chỉ định các chân trang khác nhau`TextStamp` đối tượng cho mỗi trang.
+Có, bạn có thể thêm chân trang duy nhất vào mỗi trang bằng cách chỉ định các chân trang khác nhau `TextStamp` đối tượng cho mỗi trang.
 
 ### Làm thế nào để thay đổi kiểu phông chữ của văn bản chân trang?  
- Bạn có thể tùy chỉnh văn bản bằng cách sử dụng`TextStamp.TextState` Thuộc tính để thiết lập phông chữ, kích thước và màu sắc.
+Bạn có thể tùy chỉnh văn bản bằng cách sử dụng `TextStamp.TextState` Thuộc tính để thiết lập phông chữ, kích thước và màu sắc.
 
 ### Tôi có thể thêm hình ảnh vào chân trang thay vì văn bản không?  
- Có, bạn có thể sử dụng`ImageStamp` để thêm hình ảnh vào chân trang của tệp PDF.
+Có, bạn có thể sử dụng `ImageStamp` để thêm hình ảnh vào chân trang của tệp PDF.
 
 ### Có thể thêm chân trang chỉ vào những trang cụ thể không?  
- Chắc chắn rồi! Bạn có thể chỉ định số trang mà bạn muốn đặt chân trang bằng cách nhắm mục tiêu cụ thể`Page` đồ vật.
+Chắc chắn rồi! Bạn có thể chỉ định số trang mà bạn muốn đặt chân trang bằng cách nhắm mục tiêu cụ thể `Page` đồ vật.
 
 ### Làm thế nào để xóa chân trang hiện có khỏi tệp PDF?  
- Bạn có thể xóa các tem hiện có bằng cách sử dụng`Page.DeleteStampById` phương pháp hoặc bằng cách sử dụng`RemoveStamp` để xóa hết tem.
+Bạn có thể xóa các tem hiện có bằng cách sử dụng `Page.DeleteStampById` phương pháp hoặc bằng cách sử dụng `RemoveStamp` để xóa hết tem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

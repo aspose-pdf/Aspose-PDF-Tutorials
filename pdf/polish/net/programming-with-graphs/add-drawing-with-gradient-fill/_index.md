@@ -1,14 +1,16 @@
 ---
-title: Dodaj rysunek z wypełnieniem gradientowym
-linktitle: Dodaj rysunek z wypełnieniem gradientowym
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać efektowne rysunki z gradientami w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku, który idealnie nadaje się do wzbogacania wizualizacji dokumentów.
-weight: 20
-url: /pl/net/programming-with-graphs/add-drawing-with-gradient-fill/
+"description": "Dowiedz się, jak dodawać efektowne rysunki z gradientami w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku, który idealnie nadaje się do wzbogacania wizualizacji dokumentów."
+"linktitle": "Dodaj rysunek z wypełnieniem gradientowym"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodaj rysunek z wypełnieniem gradientowym"
+"url": "/pl/net/programming-with-graphs/add-drawing-with-gradient-fill/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj rysunek z wypełnieniem gradientowym
@@ -21,9 +23,9 @@ Tworzenie atrakcyjnych wizualnie dokumentów jest niezbędne w dzisiejszym cyfro
 
 Zanim przejdziemy do szczegółów, oto kilka rzeczy, które musisz mieć na miejscu:
 
-1.  Aspose.PDF dla biblioteki .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać z[link do pobrania](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla biblioteki .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF. Możesz ją pobrać z [link do pobrania](https://releases.aspose.com/pdf/net/).
 2. Środowisko programistyczne: Przygotuj środowisko programistyczne .NET, takie jak Visual Studio, w którym będziesz mógł pisać i wykonywać swój kod.
-3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# ułatwi zrozumienie zagadnień.
+3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# ułatwi zrozumienie tematu.
 
 Gdy już spełnisz wszystkie powyższe wymagania, możemy przejść do realizacji!
 
@@ -52,7 +54,7 @@ Aby rozpocząć, musisz ustawić ścieżkę dla swoich dokumentów. Pomaga to w 
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zastąp ścieżką swojego katalogu
 ```
- Ta linia kodu tworzy zmienną`dataDir` , który będzie zawierał ścieżkę do katalogu, w którym zostanie zapisany wyjściowy plik PDF. Upewnij się, że zastąpisz`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką katalogu.
+Ta linia kodu tworzy zmienną `dataDir`, który będzie zawierał ścieżkę do katalogu, w którym zostanie zapisany wyjściowy plik PDF. Upewnij się, że zastąpisz `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką katalogu.
 
 ## Krok 2: Utwórz nowy dokument PDF
 
@@ -61,7 +63,7 @@ Następnie utwórzmy nowy dokument PDF korzystając z biblioteki Aspose.PDF.
 ```csharp
 Document doc = new Document();
 ```
- Tutaj tworzymy instancję`Document` obiekt. Ten obiekt reprezentuje Twój dokument PDF i będzie działał jako kontener dla wszystkich elementów, które planujesz dodać.
+Tutaj tworzymy instancję `Document` obiekt. Ten obiekt reprezentuje Twój dokument PDF i będzie działał jako kontener dla wszystkich elementów, które planujesz dodać.
 
 ## Krok 3: Dodaj stronę do dokumentu
 
@@ -80,7 +82,7 @@ Aby narysować kształty, musimy najpierw utworzyć obszar graficzny na stronie.
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 300.0);
 page.Paragraphs.Add(graph);
 ```
-W tym przypadku tworzymy obiekt graficzny o szerokości i wysokości 300 jednostek. Dodając go do akapitów strony, kładziemy podwaliny pod nasze rysunki.
+tym przypadku tworzymy obiekt graficzny o szerokości i wysokości 300 jednostek. Dodając go do akapitów strony, kładziemy podwaliny pod nasze rysunki.
 
 ## Krok 5: Zdefiniuj kształt prostokąta
 
@@ -106,7 +108,7 @@ rect.GraphInfo.FillColor = new Aspose.Pdf.Color
     }
 };
 ```
- W tym bloku kodu określamy kolor wypełnienia prostokąta jako gradient od czerwonego do niebieskiego.`GradientAxialShading`Klasa umożliwia zdefiniowanie wypełnienia gradientowego, w którym można określić punkt początkowy i końcowy, aby utworzyć płynne przejście między kolorami.
+W tym bloku kodu określamy kolor wypełnienia prostokąta jako gradient od czerwonego do niebieskiego. `GradientAxialShading` Klasa ta umożliwia zdefiniowanie wypełnienia gradientowego, w którym można określić punkt początkowy i końcowy, aby utworzyć płynne przejście między kolorami.
 
 ## Krok 7: Zapisz dokument PDF
 
@@ -115,7 +117,7 @@ Na koniec musimy zapisać nasz dokument w zdefiniowanym katalogu.
 ```csharp
 doc.Save(dataDir + "AddDrawingWithGradientFill_out.pdf");
 ```
- To polecenie zapisuje plik PDF pod określoną nazwą w uprzednio zdefiniowanym folderze.`dataDir`Rezultatem jest pięknie wykonany plik PDF zawierający prostokąt wypełniony gradientem.
+To polecenie zapisuje plik PDF pod określoną nazwą w uprzednio zdefiniowanym folderze. `dataDir`Rezultatem jest pięknie wykonany plik PDF zawierający prostokąt wypełniony gradientem.
 
 ## Wniosek
 
@@ -127,19 +129,21 @@ I masz to! Właśnie nauczyłeś się, jak dodać rysunek z wypełnieniem gradie
 Aspose.PDF dla platformy .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie i modyfikowanie dokumentów PDF.
 
 ### Czy mogę używać Aspose.PDF bezpłatnie?
- Możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/) aby poznać jego funkcjonalności, ale mogą istnieć ograniczenia użytkowania.
+Możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/) aby poznać jego funkcjonalności, ale mogą istnieć ograniczenia użytkowania.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
-Szczegółowa dokumentacja jest dostępna na stronie[Strona referencyjna Aspose PDF](https://reference.aspose.com/pdf/net/).
+Szczegółowa dokumentacja jest dostępna na stronie [Strona referencyjna Aspose PDF](https://reference.aspose.com/pdf/net/).
 
 ### Jak mogę zakupić Aspose.PDF?
- Bibliotekę Aspose.PDF można kupić za ich pośrednictwem[link do zakupu](https://purchase.aspose.com/buy).
+Bibliotekę Aspose.PDF można kupić za ich pośrednictwem [link do zakupu](https://purchase.aspose.com/buy).
 
 ### Co zrobić, jeśli będę potrzebował pomocy w korzystaniu z Aspose.PDF?
- Jeśli napotkasz jakiekolwiek problemy, możesz szukać pomocy na[Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+Jeśli napotkasz jakiekolwiek problemy, możesz szukać pomocy na [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

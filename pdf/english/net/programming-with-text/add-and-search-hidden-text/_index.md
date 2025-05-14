@@ -8,7 +8,9 @@ url: /net/programming-with-text/add-and-search-hidden-text/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add And Search Hidden Text In PDF File
@@ -169,6 +171,7 @@ For support, you can visit the Aspose forums [here](https://forum.aspose.com/c/p
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

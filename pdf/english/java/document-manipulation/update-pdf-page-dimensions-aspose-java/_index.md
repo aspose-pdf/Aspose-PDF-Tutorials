@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Update PDF Page Dimensions Using Aspose.PDF for Java
 
@@ -185,6 +187,9 @@ Ready to try it out? Implement these steps in your projects and see the improvem
 This guide provides a thorough foundation for working with Aspose.PDF in Java. For further exploration, consult the resources and expand your capabilities!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

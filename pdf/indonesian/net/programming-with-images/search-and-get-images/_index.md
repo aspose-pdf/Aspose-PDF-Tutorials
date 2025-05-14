@@ -1,21 +1,23 @@
 ---
-title: Cari dan Dapatkan Gambar dalam File PDF
-linktitle: Cari dan Dapatkan Gambar dalam File PDF
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengekstrak gambar dari file PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk meningkatkan keterampilan pemrosesan PDF Anda.
-weight: 260
-url: /id/net/programming-with-images/search-and-get-images/
+"description": "Pelajari cara mengekstrak gambar dari file PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk meningkatkan keterampilan pemrosesan PDF Anda."
+"linktitle": "Cari dan Dapatkan Gambar dalam File PDF"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Cari dan Dapatkan Gambar dalam File PDF"
+"url": "/id/net/programming-with-images/search-and-get-images/"
+"weight": 260
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cari dan Dapatkan Gambar dalam File PDF
 
 ## Perkenalan
 
-Apakah Anda mencari cara mudah untuk mengekstrak gambar dari berkas PDF menggunakan Aspose.PDF untuk .NET? Anda telah datang ke tempat yang tepat! Dalam artikel ini, kita akan membahas secara spesifik cara mencari dan mengambil gambar yang disematkan dalam dokumen PDF secara efektif. Apakah Anda seorang pengembang berpengalaman atau baru saja terjun ke dunia manipulasi PDF, panduan ini akan memandu Anda melalui seluruh proses langkah demi langkah.
+Apakah Anda mencari cara mudah untuk mengekstrak gambar dari file PDF menggunakan Aspose.PDF untuk .NET? Anda telah datang ke tempat yang tepat! Dalam artikel ini, kita akan membahas secara spesifik tentang cara mencari dan mengambil gambar yang disematkan dalam dokumen PDF secara efektif. Apakah Anda seorang pengembang berpengalaman atau baru saja terjun ke dunia manipulasi PDF, panduan ini akan memandu Anda melalui seluruh proses langkah demi langkah.
 
 ## Prasyarat
 
@@ -27,11 +29,11 @@ Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.PDF untuk
 
 ### Pustaka Aspose.PDF
 
- Anda memerlukan akses ke pustaka Aspose.PDF. Jika belum, Anda dapat mengunduhnya dari tautan ini:[Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/) Selain itu, Anda dapat menjelajahinya[uji coba gratis satu bulan](https://releases.aspose.com/) untuk memulai proyek Anda tanpa biaya apa pun.
+Anda memerlukan akses ke pustaka Aspose.PDF. Jika belum, Anda dapat mengunduhnya dari tautan ini: [Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/)Selain itu, Anda dapat menjelajahinya [uji coba gratis satu bulan](https://releases.aspose.com/) untuk memulai proyek Anda tanpa biaya apa pun.
 
 ### Lingkungan Pengembangan
 
-Lingkungan pengembangan yang cocok seperti Visual Studio atau IDE pilihan Anda harus disiapkan untuk menulis dan menjalankan kode dengan lancar.
+Lingkungan pengembangan yang cocok seperti Visual Studio atau IDE apa pun pilihan Anda harus disiapkan untuk menulis dan menjalankan kode dengan lancar.
 
 ## Paket Impor
 
@@ -43,7 +45,7 @@ using Aspose.Pdf;
 using System;
 ```
 
- Masing-masing paket ini memiliki tujuan khusus saat memanipulasi dokumen PDF.`Aspose.Pdf` namespace adalah landasan operasi Anda, sementara dua lainnya membantu menangani gambar dan teks dalam PDF.
+Masing-masing paket ini memiliki tujuan khusus saat memanipulasi dokumen PDF. `Aspose.Pdf` namespace adalah landasan operasi Anda, sementara dua lainnya membantu menangani gambar dan teks dalam PDF.
 
 ## Langkah 1: Tetapkan Jalur Dokumen Anda
 
@@ -53,11 +55,11 @@ Sebelum melakukan hal lain, Anda perlu menentukan jalur tempat file PDF Anda ber
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ganti "DIREKTORI DOKUMEN ANDA" dengan jalur sebenarnya ke direktori yang berisi file PDF Anda, misalnya,`C:\Documents\`.
+Ganti "DIREKTORI DOKUMEN ANDA" dengan jalur sebenarnya ke direktori yang berisi file PDF Anda, misalnya, `C:\Documents\`.
 
 ## Langkah 2: Buka Dokumen PDF
 
- Selanjutnya, Anda ingin memuat dokumen PDF ke dalam aplikasi Anda. Ini dilakukan dengan membuat file PDF baru.`Document` contoh dengan jalur berkas yang baru saja Anda tentukan:
+Selanjutnya, Anda ingin memuat dokumen PDF ke dalam aplikasi Anda. Ini dilakukan dengan membuat file PDF baru `Document` contoh dengan jalur berkas yang baru saja Anda tentukan:
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SearchAndGetImages.pdf");
@@ -65,7 +67,7 @@ Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SearchAndGetImages.
 
 ## Langkah 3: Buat ImagePlacementAbsorber
 
- Untuk mencari gambar dalam PDF, Anda memerlukan`ImagePlacementAbsorber` objek. Kelas ini membantu menyerap gambar dari PDF selama proses ekstraksi:
+Untuk mencari gambar dalam PDF, Anda memerlukan `ImagePlacementAbsorber` objek. Kelas ini membantu menyerap gambar dari PDF selama proses ekstraksi:
 
 ```csharp
 ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
@@ -73,7 +75,7 @@ ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
 
 ## Langkah 4: Terima Penyerap untuk Semua Halaman
 
- Langkah ini penting karena memberi tahu`Document` untuk menerapkan penyerap gambar di semua halaman. Ini memastikan bahwa gambar apa pun yang ditempatkan di mana pun dalam dokumen akan teridentifikasi:
+Langkah ini penting karena memberi tahu `Document` untuk menerapkan penyerap gambar di semua halaman. Ini memastikan bahwa gambar apa pun yang ditempatkan di mana pun dalam dokumen akan teridentifikasi:
 
 ```csharp
 doc.Pages.Accept(abs);
@@ -92,7 +94,7 @@ foreach (ImagePlacement imagePlacement in abs.ImagePlacements)
 
 ## Langkah 6: Ekstrak Properti Gambar
 
- Di dalam loop, Anda dapat mulai mengambil properti berharga tentang setiap gambar. Menggunakan`imagePlacement` objek, Anda dapat mengakses dimensi dan resolusi:
+Di dalam loop, Anda dapat mulai mengambil properti berharga tentang setiap gambar. Menggunakan `imagePlacement` objek, Anda dapat mengakses dimensi dan resolusi:
 
 ```csharp
 XImage image = imagePlacement.Image; // Dapatkan gambarnya
@@ -124,10 +126,12 @@ Semua gambar yang tertanam apa pun formatnya (JPEG, PNG, dll.) dapat diekstraksi
 Tidak ada batasan yang pasti; semuanya tergantung pada berkas PDF itu sendiri.
 
 ### Bisakah saya menyimpan gambar yang diekstrak ke dalam disk?  
- Ya, Anda dapat menyimpan gambar ke disk menggunakan`XImage` objek dalam kode Anda.
+Ya, Anda dapat menyimpan gambar ke disk menggunakan `XImage` objek dalam kode Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

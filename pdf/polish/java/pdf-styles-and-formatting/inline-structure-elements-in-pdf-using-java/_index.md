@@ -1,14 +1,16 @@
 ---
-title: Elementy struktury inline w PDF przy użyciu Java
-linktitle: Elementy struktury inline w PDF przy użyciu Java
-second_title: Aspose.PDF Java PDF Processing API
-description: Dowiedz się, jak implementować Inline Structure Elements w dokumentach PDF przy użyciu języka Java z Aspose.PDF dla języka Java. Twórz dostępne i dobrze ustrukturyzowane pliki PDF.
-weight: 10
-url: /pl/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-java/
+"description": "Dowiedz się, jak implementować Inline Structure Elements w dokumentach PDF przy użyciu języka Java z Aspose.PDF dla języka Java. Twórz dostępne i dobrze ustrukturyzowane pliki PDF."
+"linktitle": "Elementy struktury inline w PDF przy użyciu Java"
+"second_title": "Aspose.PDF Java PDF Processing API"
+"title": "Elementy struktury inline w PDF przy użyciu Java"
+"url": "/pl/java/pdf-styles-and-formatting/inline-structure-elements-in-pdf-using-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elementy struktury inline w PDF przy użyciu Java
@@ -41,7 +43,7 @@ Zanim zaczniemy, musisz skonfigurować środowisko programistyczne i zainstalowa
 
 Aby zainstalować Aspose.PDF dla Java, wykonaj następujące kroki:
 
-1.  Pobierz Aspose.PDF dla Java: Odwiedź witrynę Aspose[Tutaj](https://releases.aspose.com/pdf/java/) i pobierz najnowszą wersję Aspose.PDF dla Java.
+1. Pobierz Aspose.PDF dla Java: Odwiedź witrynę Aspose [Tutaj](https://releases.aspose.com/pdf/java/) i pobierz najnowszą wersję Aspose.PDF dla Java.
 
 2. Dodaj do swojego projektu: Dodaj bibliotekę Aspose.PDF do swojego projektu Java, dołączając plik JAR do ścieżki kompilacji projektu.
 
@@ -60,7 +62,7 @@ Teraz, gdy Twój projekt jest już skonfigurowany, możemy zacząć od utworzeni
 Document pdfDocument = new Document();
 ```
 
-### Dodawanie tekstu w tekście do pliku PDF
+### Dodawanie tekstu wbudowanego do pliku PDF
 
 ```java
 // Utwórz stronę w dokumencie
@@ -95,7 +97,7 @@ textFragment.getTextState().setFontSize(18);
 textFragment.getTextState().setFont(FontRepository.findFont("Arial"));
 ```
 
-### Stosowanie formatowania do tekstu w tekście
+### Stosowanie formatowania do tekstu wbudowanego
 
 Do tekstu osadzonego można stosować różne opcje formatowania, w tym pogrubienie, kursywę i podkreślenie:
 
@@ -114,7 +116,7 @@ Oprócz tekstu do dokumentu PDF możesz dodać również obrazy.
 Aby wstawić obraz do pliku PDF:
 
 ```java
-//Załaduj obraz
+// Załaduj obraz
 com.aspose.pdf.Image image = new com.aspose.pdf.Image();
 image.setFile("image.png");
 
@@ -148,7 +150,7 @@ link.setAction(new GoToURIAction(new URI("https://www.example.com")));
 
 ### Łączenie z zasobami zewnętrznymi
 
-Możesz utworzyć odnośniki do zasobów zewnętrznych, takich jak strony internetowe, dokumenty lub adresy e-mail, podając odpowiedni identyfikator URI.
+Możesz utworzyć łącze do zasobów zewnętrznych, takich jak strony internetowe, dokumenty lub adresy e-mail, podając odpowiedni adres URI.
 
 ## Strukturyzacja zawartości PDF
 
@@ -166,7 +168,7 @@ Aspose.PDF for Java umożliwia tworzenie i zarządzanie elementami struktury inl
 
 Aby wdrożyć elementy struktury inline w dokumencie PDF, wykonaj następujące kroki:
 
-### Tworzenie elementów struktury inline
+### Tworzenie elementów struktury liniowej
 
 ```java
 // Utwórz element struktury liniowej
@@ -195,7 +197,7 @@ Dostępne pliki PDF oferują szereg korzyści:
 
 ## Wniosek
 
-W tym artykule przyjrzeliśmy się koncepcji elementów struktury inline w dokumentach PDF przy użyciu Java i Aspose.PDF dla Java. Omówiliśmy znaczenie tych elementów, sposób tworzenia pliku PDF, dodawania tekstu i obrazów, formatowania treści, dodawania hiperłączy, strukturyzowania treści przy użyciu elementów struktury inline i zapewnienia dostępności PDF.
+tym artykule przyjrzeliśmy się koncepcji elementów struktury inline w dokumentach PDF przy użyciu Java i Aspose.PDF dla Java. Omówiliśmy znaczenie tych elementów, sposób tworzenia pliku PDF, dodawania tekstu i obrazów, formatowania treści, dodawania hiperłączy, strukturyzowania treści przy użyciu elementów struktury inline i zapewnienia dostępności PDF.
 
 ## Najczęściej zadawane pytania
 
@@ -205,11 +207,11 @@ Elementy struktury inline to elementy w dokumencie PDF, które definiują strukt
 
 ### Jak zainstalować Aspose.PDF dla Java?
 
- Aby zainstalować Aspose.PDF dla Java, odwiedź witrynę Aspose[Tutaj](https://releases.aspose.com/pdf/java/) i pobierz najnowszą wersję. Następnie dodaj plik JAR do ścieżki kompilacji swojego projektu Java.
+Aby zainstalować Aspose.PDF dla Java, odwiedź witrynę Aspose [Tutaj](https://releases.aspose.com/pdf/java/) i pobierz najnowszą wersję. Następnie dodaj plik JAR do ścieżki kompilacji swojego projektu Java.
 
 ### Czy mogę zmienić kolor tekstu osadzonego w pliku PDF?
 
-Tak, możesz zmienić kolor tekstu inline w pliku PDF, używając Aspose.PDF dla Java. Użyj`setTextState().setForegroundColor(Color)` metoda określająca kolor.
+Tak, możesz zmienić kolor tekstu inline w pliku PDF, używając Aspose.PDF dla Java. Użyj `setTextState().setForegroundColor(Color)` metoda określająca kolor.
 
 ### Jakie są korzyści z tworzenia dostępnych plików PDF?
 
@@ -217,10 +219,12 @@ Dostępne pliki PDF przynoszą korzyści użytkownikom niepełnosprawnym, poniew
 
 ### Jak mogę utworzyć hiperłącza w pliku PDF?
 
- Aby utworzyć hiperłącza w pliku PDF, należy użyć Aspose.PDF dla języka Java w celu utworzenia`LinkAnnotation` i skojarz go z żądanym tekstem lub elementem. Określ docelowy adres URL lub działanie dla hiperłącza.
+Aby utworzyć hiperłącza w pliku PDF, należy użyć Aspose.PDF dla języka Java w celu utworzenia `LinkAnnotation` i skojarz go z żądanym tekstem lub elementem. Określ docelowy adres URL lub działanie dla hiperłącza.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

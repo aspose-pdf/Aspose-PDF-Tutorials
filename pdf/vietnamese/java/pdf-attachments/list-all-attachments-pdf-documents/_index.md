@@ -1,14 +1,16 @@
 ---
-title: Liệt kê tất cả các tệp đính kèm trong tài liệu PDF
-linktitle: Liệt kê tất cả các tệp đính kèm trong tài liệu PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Khám phá cách liệt kê các tệp đính kèm trong PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước để trích xuất tệp đính kèm PDF dễ dàng.
-weight: 13
-url: /vi/java/pdf-attachments/list-all-attachments-pdf-documents/
+"description": "Khám phá cách liệt kê các tệp đính kèm trong PDF bằng Aspose.PDF cho Java. Hướng dẫn từng bước để trích xuất tệp đính kèm PDF dễ dàng."
+"linktitle": "Liệt kê tất cả các tệp đính kèm trong tài liệu PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Liệt kê tất cả các tệp đính kèm trong tài liệu PDF"
+"url": "/vi/java/pdf-attachments/list-all-attachments-pdf-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Liệt kê tất cả các tệp đính kèm trong tài liệu PDF
@@ -16,7 +18,7 @@ url: /vi/java/pdf-attachments/list-all-attachments-pdf-documents/
 
 ## Giới thiệu về Liệt kê tất cả các tệp đính kèm trong tài liệu PDF
 
-Trong thời đại kỹ thuật số ngày nay, các tài liệu PDF đã trở thành một phần không thể thiếu trong cuộc sống của chúng ta, đóng vai trò là định dạng đáng tin cậy để chia sẻ và lưu trữ thông tin. Thông thường, các tệp PDF này chứa các tệp đính kèm, có thể là tệp, hình ảnh hoặc các tài liệu khác, được ẩn trong tệp PDF chính. Nếu bạn là nhà phát triển Java muốn làm việc với các tệp PDF và trích xuất các tệp đính kèm này, bạn đã đến đúng nơi. Trong bài viết này, chúng ta sẽ khám phá cách liệt kê tất cả các tệp đính kèm trong tài liệu PDF bằng Aspose.PDF cho Java.
+Trong thời đại kỹ thuật số ngày nay, các tài liệu PDF đã trở thành một phần không thể thiếu trong cuộc sống của chúng ta, đóng vai trò là định dạng đáng tin cậy để chia sẻ và lưu trữ thông tin. Thông thường, các tệp PDF này chứa các tệp đính kèm, có thể là tệp, hình ảnh hoặc các tài liệu khác, được ẩn trong tệp PDF chính. Nếu bạn là một nhà phát triển Java muốn làm việc với các tệp PDF và trích xuất các tệp đính kèm này, bạn đã đến đúng nơi. Trong bài viết này, chúng ta sẽ khám phá cách liệt kê tất cả các tệp đính kèm trong các tài liệu PDF bằng Aspose.PDF cho Java.
 
 ## Hiểu về Aspose.PDF cho Java
 
@@ -26,8 +28,8 @@ Trước khi đi sâu vào mã, hãy làm quen với Aspose.PDF cho Java. Đây 
 
 Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.PDF cho thư viện Java. Bạn có thể tải xuống[đây](https://releases.aspose.com/pdf/java/).
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Aspose.PDF cho thư viện Java. Bạn có thể tải xuống [đây](https://releases.aspose.com/pdf/java/).
 
 Bây giờ, chúng ta hãy phác thảo các bước để liệt kê tất cả các tệp đính kèm trong tài liệu PDF bằng Aspose.PDF cho Java.
 
@@ -46,7 +48,7 @@ com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document("path_to_your_
 
 ### Bước 3: Nhận tệp đính kèm
 
- Để lấy lại các tệp đính kèm, hãy sử dụng`getEmbeddedFiles` phương pháp:
+Để lấy lại các tệp đính kèm, hãy sử dụng `getEmbeddedFiles` phương pháp:
 
 ```java
 // Nhận danh sách các tệp đính kèm
@@ -83,7 +85,7 @@ Bây giờ, bạn đã có kiến thức để làm việc với tệp đính k�
 
 ### Làm thế nào để trích xuất tệp đính kèm từ một trang cụ thể của tệp PDF?
 
- Để trích xuất tệp đính kèm từ một trang cụ thể của PDF, bạn có thể sử dụng`getPage` phương pháp truy cập vào một trang cụ thể và sau đó lấy các tệp đính kèm từ trang đó.
+Để trích xuất tệp đính kèm từ một trang cụ thể của PDF, bạn có thể sử dụng `getPage` phương pháp truy cập vào một trang cụ thể và sau đó lấy các tệp đính kèm từ trang đó.
 
 ### Tôi có thể trích xuất các tệp đính kèm có loại cụ thể, như chỉ tệp hình ảnh không?
 
@@ -99,10 +101,12 @@ Aspose.PDF for Java có thể xử lý các tệp PDF có nhiều kích cỡ kh�
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.PDF cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện cho Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu và tài nguyên toàn diện cho Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,36 +1,38 @@
 ---
-title: Prohledejte stránku textových segmentů v souboru PDF
-linktitle: Prohledejte stránku textových segmentů v souboru PDF
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak vyhledávat textové segmenty v souborech PDF pomocí Aspose.PDF for .NET, pomocí tohoto podrobného průvodce krok za krokem. Extrahujte text, analyzujte segmenty a další.
-weight: 470
-url: /cs/net/programming-with-text/search-text-segments-page/
+"description": "Naučte se, jak vyhledávat textové segmenty v PDF souborech pomocí Aspose.PDF pro .NET s tímto podrobným návodem krok za krokem. Extrahujte text, analyzujte segmenty a další."
+"linktitle": "Vyhledávání textových segmentů na stránce v souboru PDF"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Vyhledávání textových segmentů na stránce v souboru PDF"
+"url": "/cs/net/programming-with-text/search-text-segments-page/"
+"weight": 470
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Prohledejte stránku textových segmentů v souboru PDF
+# Vyhledávání textových segmentů na stránce v souboru PDF
 
 ## Zavedení
 
-Přemýšleli jste někdy, jak najít konkrétní textové segmenty v dokumentu PDF pomocí Aspose.PDF pro .NET? Tak to máš štěstí! V této příručce vás provedeme procesem v jednoduchém formátu krok za krokem. Ať už se snažíte extrahovat informace, analyzovat text nebo se jen orientovat ve složitosti manipulace s PDF, Aspose.PDF pro .NET vám pomůže. Pojďme se ponořit!
+Přemýšleli jste někdy, jak najít konkrétní textové segmenty v dokumentu PDF pomocí Aspose.PDF pro .NET? Máte štěstí! V této příručce vás provedeme celým procesem jednoduchým a podrobným postupem. Ať už se snažíte extrahovat informace, analyzovat text nebo se jen orientovat ve složitostech manipulace s PDF, Aspose.PDF pro .NET vám s tím pomůže. Pojďme se do toho pustit!
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte vše, co potřebujete:
+Než začneme, ujistěme se, že máte vše, co potřebujete:
 
--  Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu. Můžete to vzít z[zde](https://releases.aspose.com/pdf/net/).
-- .NET Framework: Ujistěte se, že máte na svém počítači nainstalováno rozhraní .NET.
-- Vývojové prostředí: Doporučuje se Visual Studio nebo jakékoli IDE s podporou .NET.
-- Dokument PDF: Soubor PDF, ve kterém budete hledat textové segmenty.
+- Aspose.PDF pro .NET: Ujistěte se, že máte nainstalovanou knihovnu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/pdf/net/).
+- .NET Framework: Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET.
+- Vývojové prostředí: Doporučuje se Visual Studio nebo jakékoli vývojové prostředí s podporou .NET.
+- PDF dokument: Soubor PDF, ve kterém budete vyhledávat textové segmenty.
 
- Pokud ještě nemáte Aspose.PDF pro .NET, nebojte se! Můžete získat bezplatnou zkušební verzi od[zde](https://releases.aspose.com/) nebo si ho koupit[zde](https://purchase.aspose.com/buy).
+Pokud ještě nemáte Aspose.PDF pro .NET, nebojte se! Můžete si zdarma stáhnout zkušební verzi od [zde](https://releases.aspose.com/) nebo si ho kupte [zde](https://purchase.aspose.com/buy).
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než začneme kódovat, je důležité importovat potřebné balíčky do vašeho projektu. Tím zajistíte, že pro vaše úlohy manipulace s PDF jsou k dispozici všechny požadované třídy a metody.
+Než začneme s kódováním, je zásadní importovat potřebné balíčky do vašeho projektu. Tím zajistíte, že budete mít k dispozici všechny potřebné třídy a metody pro manipulaci s PDF soubory.
 
 ```csharp
 using System.IO;
@@ -39,47 +41,47 @@ using Aspose.Pdf.Text;
 using System;
 ```
 
-Když máme základní věci na svém místě, vrhněme se rovnou na průvodce krok za krokem.
+Když máme základní informace, pojďme rovnou k podrobnému návodu.
 
 
 ## Krok 1: Načtěte dokument PDF
 
-Prvním krokem v procesu je načtení souboru PDF do programu. Bez načteného dokumentu není co hledat, že? Zde je návod, jak to udělat.
+Prvním krokem procesu je načtení PDF souboru do programu. Bez načteného dokumentu není co hledat, že? Zde je návod, jak to udělat.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Otevřete dokument
+// Otevřít dokument
 Document pdfDocument = new Document(dataDir + "SearchTextSegmentsPage.pdf");
 ```
 
-- `dataDir` : Tato proměnná obsahuje cestu k vašemu souboru PDF. Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečným adresářem, kde je váš soubor uložen.
-- `pdfDocument` : Pomocí`Document` třídy načteme PDF do paměti.
+- `dataDir`Tato proměnná obsahuje cestu k vašemu PDF souboru. Nahraďte `"YOUR DOCUMENT DIRECTORY"` se skutečným adresářem, kde je váš soubor uložen.
+- `pdfDocument`Použití `Document` třídy, načteme PDF do paměti.
 
-## Krok 2: Nastavte vyhledávání textu
+## Krok 2: Nastavení textového vyhledávání
 
- Nyní, když je váš dokument načten, je dalším krokem vytvoření a`TextFragmentAbsorber` objekt, který nám umožňuje vyhledávat konkrétní text v dokumentu.
+Nyní, když je váš dokument načten, dalším krokem je vytvoření `TextFragmentAbsorber` objekt, který nám umožňuje vyhledávat konkrétní text v dokumentu.
 
 ```csharp
-// Vytvořte objekt TextAbsorber, abyste našli všechny výskyty vstupní hledané fráze
+// Vytvořte objekt TextAbsorber pro nalezení všech výskytů vstupní hledané fráze.
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("text");
 ```
 
-- `TextFragmentAbsorber` : Tento objekt se používá k zachycení všech výskytů textu, který hledáte. Nahradit`"text"` se skutečným textem, který chcete vyhledat.
+- `TextFragmentAbsorber`Tento objekt se používá k zachycení všech výskytů hledaného textu. Nahradit `"text"` se skutečným textem, který chcete vyhledat.
 
-## Krok 3: Přijměte absorbér pro konkrétní stránky
+## Krok 3: Přijměte absorbér pro konkrétní stránku (stránky)
 
-Možná nebudete vždy chtít prohledávat celý dokument PDF. V tomto příkladu to zužujeme na konkrétní stránku.
+Možná nebudete chtít vždy prohledávat celý dokument PDF. V tomto příkladu hledání zužujeme na konkrétní stránku.
 
 ```csharp
 // Přijměte absorbér pro všechny stránky
 pdfDocument.Pages[2].Accept(textFragmentAbsorber);
 ```
 
-- `pdfDocument.Pages[2]`: To znamená, že prohledáváme pouze druhou stránku dokumentu. Index můžete upravit tak, aby cílil na jiné stránky.
-- `Accept()` : Tato metoda umožňuje`TextFragmentAbsorber` zpracovat text na zadané stránce.
+- `pdfDocument.Pages[2]`: Toto znamená, že prohledáváme pouze druhou stránku dokumentu. Index můžete upravit tak, aby cílil na další stránky.
+- `Accept()`Tato metoda umožňuje `TextFragmentAbsorber` zpracovat text na zadané stránce.
 
-## Krok 4: Extrahujte textové fragmenty
+## Krok 4: Extrahujte fragmenty textu
 
 Po prohledání stránky extrahujeme nalezené textové fragmenty do kolekce.
 
@@ -88,14 +90,14 @@ Po prohledání stránky extrahujeme nalezené textové fragmenty do kolekce.
 TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
 ```
 
-- `TextFragmentCollection`: Tato kolekce obsahuje všechny instance textových fragmentů nalezených během procesu vyhledávání.
+- `TextFragmentCollection`Tato kolekce obsahuje všechny výskyty fragmentů textu nalezených během procesu vyhledávání.
 
-## Krok 5: Procházení textových fragmentů a extrahování dat
+## Krok 5: Procházení textových fragmentů a extrakce dat
 
-Nyní projdeme každý fragment textu a vyjmeme jeho podrobnosti, jako je poloha, písmo a barva.
+Nyní si projdeme každý fragment textu a extrahujeme jeho podrobnosti, jako je pozice, písmo a barva.
 
 ```csharp
-// Projděte fragmenty
+// Procházejte fragmenty
 foreach (TextFragment textFragment in textFragmentCollection)
 {
     foreach (TextSegment textSegment in textFragment.Segments)
@@ -114,13 +116,13 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
-- `foreach (TextFragment textFragment in textFragmentCollection)` : Procházíme každým`TextFragment` ve sbírce.
-- `foreach (TextSegment textSegment in textFragment.Segments)`: Uvnitř každého fragmentu je několik segmentů. Procházíme je, abychom shromáždili všechny relevantní informace.
--  Různé vlastnosti`textSegment`Tyto nám poskytují podrobné informace o textu, jako je jeho poloha (X a Y), podrobnosti o písmu, velikosti a barvě.
+- `foreach (TextFragment textFragment in textFragmentCollection)`Procházíme každý `TextFragment` ve sbírce.
+- `foreach (TextSegment textSegment in textFragment.Segments)`Uvnitř každého fragmentu se nachází několik segmentů. Procházíme je, abychom shromáždili všechny relevantní informace.
+- Různé vlastnosti `textSegment`Tyto informace nám poskytují podrobné informace o textu, jako je jeho pozice (X a Y), podrobnosti o písmu, velikost a barva.
 
-## Krok 6: Výstup výsledků
+## Krok 6: Výpis výsledků
 
-Nakonec, po extrahování všech informací, jsou výsledky vytištěny v konzole. To vám pomůže přesně vidět, kde se text nachází, a podrobnosti o jeho formátování.
+Nakonec, po extrahování všech informací, se výsledky vytisknou v konzoli. To vám pomůže přesně vidět, kde se text nachází a jaké jsou podrobnosti o jeho formátování.
 
 Zde je ukázkový výstup pro přehlednost:
 
@@ -137,31 +139,33 @@ Font Size : 12.0
 Foreground Color : System.Drawing.Color [Black]
 ```
 
-- Tento výstup vám poskytne přesné umístění a informace o formátování textu „text“ na zadané stránce.
+- Tento výstup vám poskytne přesné informace o umístění a formátování textu „text“ na zadané stránce.
 
 ## Závěr
 
-A tady to máte! Právě jste se naučili, jak vyhledávat konkrétní textové segmenty v dokumentu PDF pomocí Aspose.PDF for .NET. Tento proces je velmi užitečný při práci s velkými soubory PDF a umožňuje vám efektivně určit a extrahovat klíčový text. Ať už se jedná o analýzu dat, extrakci informací nebo jednoduchou navigaci v dokumentu, Aspose.PDF vám poskytuje výkonné nástroje, které vám pomohou dokončit práci.
+A tady to máte! Právě jste se naučili, jak vyhledávat konkrétní textové segmenty v dokumentu PDF pomocí Aspose.PDF pro .NET. Tento proces je velmi užitečný při práci s velkými PDF soubory, protože vám umožňuje efektivně určit a extrahovat klíčový text. Ať už se jedná o analýzu dat, extrakci informací nebo jednoduše navigaci v dokumentu, Aspose.PDF vám poskytuje výkonné nástroje, které vám tuto práci pomohou.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu hledat více slov nebo frází?
- Ano, můžete upravit`TextFragmentAbsorber`pro hledání jiného textu změnou vstupního řetězce.
+### Mohu vyhledávat více slov nebo frází?
+Ano, můžete upravit `TextFragmentAbsorber` vyhledávat jiný text změnou vstupního řetězce.
 
 ### Je možné vyhledávat na více stránkách?
- Absolutně! Iterováním můžete procházet všechny stránky v PDF`pdfDocument.Pages`.
+Rozhodně! Všechny stránky v PDF můžete procházet iterací. `pdfDocument.Pages`.
 
-### Jak vyhledám text, v němž se nerozlišují velká a malá písmena?
- Můžete použít`TextSearchOptions` umožňující vyhledávání bez rozlišení velkých a malých písmen.
+### Jak vyhledám text bez rozlišování velkých a malých písmen?
+Můžete použít `TextSearchOptions` aby bylo možné vyhledávat bez rozlišování velkých a malých písmen.
 
-### Mohu upravit text po jeho nalezení?
- Ano, jakmile najdete a`TextFragment`, můžete upravit jeho vlastnosti textu.
+### Mohu text po nalezení upravit?
+Ano, jakmile najdete `TextFragment`, můžete upravit jeho textové vlastnosti.
 
-### Je tato metoda použitelná pro šifrované soubory PDF?
-Ano, pokud odemknete PDF pomocí správného hesla.
+### Je tato metoda použitelná pro šifrované PDF soubory?
+Ano, pokud PDF odemknete správným heslem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

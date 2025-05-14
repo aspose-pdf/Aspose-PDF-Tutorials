@@ -1,14 +1,16 @@
 ---
-title: Eliminar marcadores de archivos PDF
-linktitle: Eliminar marcadores de archivos PDF
-second_title: API de procesamiento de PDF de Java Aspose.PDF
-description: Aprenda a eliminar marcadores de archivos PDF sin esfuerzo con Aspose.PDF para Java. Nuestra guía paso a paso y nuestro código de muestra lo hacen fácil.
-weight: 13
-url: /es/java/pdf-bookmarks/delete-bookmarks-pdf-files/
+"description": "Aprende a eliminar marcadores de archivos PDF fácilmente con Aspose.PDF para Java. Nuestra guía paso a paso y código de ejemplo lo simplifican."
+"linktitle": "Eliminar marcadores de archivos PDF"
+"second_title": "API de procesamiento de PDF de Java Aspose.PDF"
+"title": "Eliminar marcadores de archivos PDF"
+"url": "/es/java/pdf-bookmarks/delete-bookmarks-pdf-files/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eliminar marcadores de archivos PDF
@@ -16,21 +18,21 @@ url: /es/java/pdf-bookmarks/delete-bookmarks-pdf-files/
 
 ## Introducción a la eliminación de marcadores de archivos PDF con Aspose.PDF para Java
 
-Los archivos PDF son un formato muy utilizado para compartir documentos. Suelen contener marcadores para ayudar a los usuarios a navegar por el contenido con facilidad. Sin embargo, hay situaciones en las que puede ser necesario eliminar marcadores de un archivo PDF. Este artículo le guiará a través del proceso de eliminación de marcadores de archivos PDF con Aspose.PDF para Java.
+Los archivos PDF son un formato muy utilizado para compartir documentos. Suelen contener marcadores para facilitar la navegación. Sin embargo, en ocasiones es necesario eliminarlos. Este artículo te guiará en el proceso de eliminación de marcadores de archivos PDF con Aspose.PDF para Java.
 
-## Entendiendo Aspose.PDF para Java
+## Comprensión de Aspose.PDF para Java
 
-Aspose.PDF para Java es una potente biblioteca que permite a los desarrolladores trabajar con archivos PDF en aplicaciones Java. Ofrece una amplia gama de funciones para crear, manipular y convertir documentos PDF. En este artículo, nos centraremos en sus capacidades para eliminar marcadores de archivos PDF existentes.
+Aspose.PDF para Java es una potente biblioteca que permite a los desarrolladores trabajar con archivos PDF en aplicaciones Java. Ofrece una amplia gama de funciones para crear, manipular y convertir documentos PDF. En este artículo, nos centraremos en sus funciones para eliminar marcadores de archivos PDF existentes.
 
 ## La necesidad de eliminar los marcadores
 
-Puede haber varias razones para querer eliminar los marcadores de un archivo PDF. Puede ser necesario limpiar un documento por razones de seguridad o privacidad, o puede que simplemente desee personalizar la experiencia de navegación para los usuarios finales del archivo PDF.
+Puede haber varias razones para querer eliminar marcadores de un archivo PDF. Puede ser necesario depurar un documento por motivos de seguridad o privacidad, o simplemente personalizar la experiencia de navegación para los usuarios finales del archivo PDF.
 
 ## Configuración de Aspose.PDF para Java
 
 Antes de comenzar, debe configurar Aspose.PDF para Java en su proyecto Java. Siga estos pasos para comenzar:
 
-1.  Descargar Aspose.PDF para Java: Puede descargar la biblioteca desde el sitio web de Aspose. Utilice el siguiente enlace:[Descargar Aspose.PDF para Java](https://releases.aspose.com/pdf/java/).
+1. Descarga Aspose.PDF para Java: Puedes descargar la biblioteca desde el sitio web de Aspose. Usa el siguiente enlace: [Descargar Aspose.PDF para Java](https://releases.aspose.com/pdf/java/).
 
 2. Agregue el JAR a su proyecto: incluya el archivo JAR descargado en la ruta de clase de su proyecto Java.
 
@@ -50,16 +52,16 @@ public class Main {
 
 ## Cargar un documento PDF
 
-Una vez que haya configurado Aspose.PDF para Java, puede cargar un documento PDF en su aplicación Java para realizar más manipulaciones. Utilice el siguiente código para cargar un documento PDF:
+Una vez configurado Aspose.PDF para Java, puede cargar un documento PDF en su aplicación Java para su posterior manipulación. Use el siguiente código para cargar un documento PDF:
 
 ```java
 // Cargar un archivo PDF existente
 Document pdfDocument = new Document("input.pdf");
 ```
 
-## Acceder y administrar marcadores
+## Acceso y gestión de marcadores
 
-Aspose.PDF para Java ofrece métodos para acceder y administrar marcadores dentro de un archivo PDF. Puede recorrer los marcadores, agregar nuevos, actualizar los existentes o, en nuestro caso, eliminarlos.
+Aspose.PDF para Java proporciona métodos para acceder y administrar marcadores dentro de un archivo PDF. Puede iterar sobre los marcadores, agregar nuevos, actualizar los existentes o, en nuestro caso, eliminarlos.
 
 Para acceder a los marcadores, utilice el siguiente código:
 
@@ -69,11 +71,11 @@ OutlineCollection outlines = pdfDocument.getOutlines();
 
 ## Eliminar marcadores
 
-Ahora, comencemos con el proceso de eliminación de marcadores de un archivo PDF. Siga estos pasos:
+Ahora, procedamos a eliminar marcadores de un archivo PDF. Siga estos pasos:
 
 1. Iterar a través de los marcadores utilizando un bucle.
 2. Identifique los marcadores que desea eliminar según sus criterios.
-3.  Eliminar los marcadores utilizando el`delete` método.
+3. Eliminar los marcadores usando el `delete` método.
 
 A continuación se muestra un fragmento de código de muestra para ayudarlo a comenzar:
 
@@ -122,11 +124,11 @@ public class DeleteBookmarks {
 
 ## Probando el código
 
-Después de implementar el código para eliminar los marcadores, es fundamental probarlo a fondo para asegurarse de que los marcadores se hayan eliminado correctamente del archivo PDF. Abra el archivo PDF modificado y verifique que los marcadores ya no estén presentes.
+Tras implementar el código para eliminar marcadores, es fundamental realizar pruebas exhaustivas para garantizar que se hayan eliminado correctamente del archivo PDF. Abra el archivo PDF modificado y verifique que los marcadores ya no estén presentes.
 
 ## Conclusión
 
-En este artículo, analizamos cómo eliminar marcadores de archivos PDF con Aspose.PDF para Java. Analizamos la importancia de Aspose.PDF para Java en la manipulación de PDF, configuramos la biblioteca en un proyecto Java y proporcionamos una guía paso a paso con un código de muestra para eliminar marcadores. Si sigue estas instrucciones, podrá administrar de manera eficiente los marcadores en sus documentos PDF y personalizar la experiencia del usuario.
+En este artículo, exploramos cómo eliminar marcadores de archivos PDF con Aspose.PDF para Java. Analizamos la importancia de Aspose.PDF para Java en la manipulación de PDF, configuramos la biblioteca en un proyecto Java y proporcionamos una guía paso a paso con código de ejemplo para eliminar marcadores. Siguiendo estas instrucciones, podrá administrar eficazmente los marcadores en sus documentos PDF y personalizar la experiencia del usuario.
 
 ## Preguntas frecuentes
 
@@ -139,22 +141,24 @@ Para instalar Aspose.PDF para Java, siga estos pasos:
 
 ### ¿Puedo eliminar marcadores específicos según criterios?
 
- Sí, puedes eliminar marcadores específicos según tus criterios. Repasa los marcadores, aplica tus criterios y utiliza el`delete` método para eliminarlos.
+Sí, puedes eliminar marcadores específicos según tus criterios. Repasa los marcadores, aplica tus criterios y usa el... `delete` método para eliminarlos.
 
 ### ¿Eliminar marcadores afectará el contenido del PDF?
 
-No, eliminar marcadores de un archivo PDF con Aspose.PDF para Java no afectará el contenido real del PDF. Solo eliminará los marcadores utilizados para la navegación.
+No, eliminar marcadores de un archivo PDF con Aspose.PDF para Java no afecta el contenido del PDF. Solo elimina los marcadores utilizados para la navegación.
 
 ### ¿Aspose.PDF para Java es de uso gratuito?
 
-Aspose.PDF para Java es una biblioteca comercial y puede requerir una licencia para determinados usos. Consulta el sitio web de Aspose para obtener información sobre precios y licencias.
+Aspose.PDF para Java es una biblioteca comercial y puede requerir una licencia para ciertos usos. Consulte el sitio web de Aspose para obtener información sobre precios y licencias.
 
 ### ¿Dónde puedo encontrar más documentación y recursos de Aspose.PDF para Java?
 
- Puede encontrar documentación y recursos completos para Aspose.PDF para Java en el enlace de documentación de Aspose:[Documentación de Aspose.PDF para Java](https://reference.aspose.com/pdf/java/).
+Puede encontrar documentación completa y recursos para Aspose.PDF para Java en el enlace de documentación de Aspose: [Documentación de Aspose.PDF para Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

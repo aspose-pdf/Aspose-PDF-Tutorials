@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पीडीएफ में रूट संरचना
-linktitle: जावा का उपयोग करके पीडीएफ में रूट संरचना
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Aspose.PDF का उपयोग करके रूट संरचना में हेरफेर करना सीखें। PDF बनाएँ, संशोधित करें और बेहतर बनाएँ।
-weight: 11
-url: /hi/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/
+"description": "Aspose.PDF का उपयोग करके रूट संरचना में हेरफेर करना सीखें। PDF बनाएँ, संशोधित करें और बेहतर बनाएँ।"
+"linktitle": "जावा का उपयोग करके पीडीएफ में रूट संरचना"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "जावा का उपयोग करके पीडीएफ में रूट संरचना"
+"url": "/hi/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पीडीएफ में रूट संरचना
@@ -20,7 +22,7 @@ url: /hi/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/
 
 ## पीडीएफ दस्तावेज़ संरचना को समझना
 
-मूल संरचना में गोता लगाने से पहले, आइए संक्षेप में एक पीडीएफ दस्तावेज़ की समग्र संरचना को समझें। एक पीडीएफ में ऑब्जेक्ट्स का एक पदानुक्रम होता है, जिसमें पेज, फ़ॉन्ट, इमेज और एनोटेशन शामिल होते हैं। इस पदानुक्रम के शीर्ष पर मूल संरचना होती है।
+मूल संरचना में गोता लगाने से पहले, आइए संक्षेप में एक पीडीएफ दस्तावेज़ की समग्र संरचना को समझें। एक पीडीएफ में ऑब्जेक्ट्स का एक पदानुक्रम होता है, जिसमें पृष्ठ, फ़ॉन्ट, चित्र और एनोटेशन शामिल होते हैं। इस पदानुक्रम के शीर्ष पर मूल संरचना होती है।
 
 ## मूल संरचना क्या है?
 
@@ -28,7 +30,7 @@ url: /hi/java/pdf-styles-and-formatting/root-structure-in-pdf-using-java/
 
 ## अपना विकास वातावरण स्थापित करना
 
-Java के लिए Aspose.PDF के साथ काम करना शुरू करने से पहले, आपको अपना डेवलपमेंट एनवायरनमेंट सेट अप करना होगा। सुनिश्चित करें कि आपके पास Java JDK और Aspose.PDF लाइब्रेरी इंस्टॉल है।
+इससे पहले कि आप Java के लिए Aspose.PDF के साथ काम करना शुरू करें, आपको अपना डेवलपमेंट एनवायरनमेंट सेट अप करना होगा। सुनिश्चित करें कि आपके पास Java JDK और Aspose.PDF लाइब्रेरी इंस्टॉल है।
 
 ## नया PDF दस्तावेज़ बनाना
 
@@ -83,7 +85,7 @@ Aspose.PDF for Java हाइपरलिंक, बुकमार्क और
 
 ### मैं Java के लिए Aspose.PDF का उपयोग करके PDF में हाइपरलिंक कैसे जोड़ सकता हूँ?
 
-हाइपरलिंक जोड़ने के लिए, का उपयोग करें`HyperlinkAnnotation` क्लास में जाएं और लक्ष्य URL निर्दिष्ट करें.
+हाइपरलिंक जोड़ने के लिए, का उपयोग करें `HyperlinkAnnotation` क्लास में जाएं और लक्ष्य URL निर्दिष्ट करें.
 
 ### क्या मैं किसी PDF दस्तावेज़ को पासवर्ड से एन्क्रिप्ट कर सकता हूँ?
 
@@ -100,9 +102,11 @@ Aspose.PDF for Java हाइपरलिंक, बुकमार्क और
 ### क्या मैं Java के लिए Aspose.PDF के साथ PDF दस्तावेज़ को Word या Excel जैसे अन्य प्रारूपों में परिवर्तित कर सकता हूँ?
 
 हां, Java के लिए Aspose.PDF PDF दस्तावेजों को Word और Excel सहित विभिन्न प्रारूपों में परिवर्तित करने का समर्थन करता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

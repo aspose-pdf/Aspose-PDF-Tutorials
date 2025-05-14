@@ -1,14 +1,16 @@
 ---
-title: Gợi ý phông chữ PDF sang PNG
-linktitle: Gợi ý phông chữ PDF sang PNG
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách chuyển đổi PDF sang PNG với gợi ý phông chữ bằng Aspose.PDF cho .NET theo hướng dẫn từng bước dễ dàng.
-weight: 160
-url: /vi/net/document-conversion/pdf-to-png-font-hinting/
+"description": "Tìm hiểu cách chuyển đổi PDF sang PNG với gợi ý phông chữ bằng Aspose.PDF cho .NET theo hướng dẫn từng bước dễ dàng."
+"linktitle": "Gợi ý phông chữ PDF sang PNG"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Gợi ý phông chữ PDF sang PNG"
+"url": "/vi/net/document-conversion/pdf-to-png-font-hinting/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gợi ý phông chữ PDF sang PNG
@@ -22,14 +24,14 @@ Xin chào, những người đam mê công nghệ! Hôm nay, chúng ta sẽ đi 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết để theo dõi.
 
 1. Môi trường .NET: Bạn nên thiết lập môi trường phát triển .NET trên máy của mình. Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE nào bạn chọn hỗ trợ .NET.
-2.  Thư viện Aspose.PDF: Để làm việc với PDF trong .NET, bạn cần cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/pdf/net/).
+2. Thư viện Aspose.PDF: Để làm việc với PDF trong .NET, bạn cần cài đặt thư viện Aspose.PDF. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn dễ dàng điều hướng qua mã.
 
 Bạn đã hoàn tất! Hãy nhập các gói cần thiết.
 
 ## Nhập gói
 
-Để bắt đầu, chúng ta cần nhập các không gian tên cần thiết ở đầu tệp C# của mình. Sau đây là những gì bạn nên đưa vào:
+Để bắt đầu, chúng ta cần nhập các không gian tên cần thiết ở đầu tệp C#. Sau đây là những gì bạn nên đưa vào:
 
 ```csharp
 using Aspose.Pdf.Devices;
@@ -47,21 +49,21 @@ Trước tiên, bạn cần xác định vị trí tệp PDF đầu vào và nơ
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay đổi thư mục này thành thư mục thực tế của bạn
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế đến thư mục tài liệu của bạn. Biến này sẽ hữu ích trong suốt quá trình chuyển đổi.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Biến này sẽ hữu ích trong suốt quá trình chuyển đổi.
 
 ## Bước 2: Mở tài liệu PDF của bạn
 
- Bây giờ, hãy tải tài liệu PDF mà chúng ta muốn chuyển đổi. Trong Aspose.PDF, việc này đơn giản như tạo một tài liệu PDF mới`Document` đối tượng. Đây là cách thực hiện:
+Bây giờ, hãy tải tài liệu PDF mà chúng ta muốn chuyển đổi. Trong Aspose.PDF, việc này đơn giản như tạo một tài liệu PDF mới `Document` đối tượng. Đây là cách thực hiện:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Dòng mã này yêu cầu Aspose mở tệp PDF có tên`input.pdf` nằm trong thư mục bạn chỉ định. Nếu mọi thứ đều chính xác, bạn đã tiến gần hơn một bước đến việc chuyển đổi tài liệu của mình!
+Dòng mã này yêu cầu Aspose mở tệp PDF có tên `input.pdf` nằm trong thư mục bạn chỉ định. Nếu mọi thứ đều chính xác, bạn đã tiến gần hơn một bước đến việc chuyển đổi tài liệu của mình!
 
 ## Bước 3: Bật Gợi ý phông chữ
 
- Gợi ý phông chữ là một tính năng tiện lợi giúp cải thiện độ rõ nét của phông chữ trong hình ảnh được chuyển đổi. Để bật tính năng này, chúng tôi sẽ tạo một`RenderingOptions` đối tượng và tập hợp`UseFontHinting` ĐẾN`true`:
+Gợi ý phông chữ là một tính năng tiện lợi giúp cải thiện độ rõ nét của phông chữ trong hình ảnh được chuyển đổi. Để bật tính năng này, chúng tôi sẽ tạo một `RenderingOptions` đối tượng và tập hợp `UseFontHinting` ĐẾN `true`:
 
 ```csharp
 RenderingOptions opts = new RenderingOptions();
@@ -79,12 +81,12 @@ for (int pageCount = 1; pageCount <= pdfDocument.Pages.Count; pageCount++)
 {
     using (FileStream imageStream = new FileStream(dataDir + "image" + pageCount + "_out.png", FileMode.Create))
     {
-        //Mã tiếp theo sẽ được đưa vào đây
+        // Mã tiếp theo sẽ được đưa vào đây
     }
 }
 ```
 
- Trong đoạn trích này, chúng tôi đang tạo một`FileStream` cho mỗi trang. Các tập tin đầu ra sẽ được đặt tên`image1_out.png`, `image2_out.png`và cứ thế, tùy thuộc vào số trang trong tệp PDF của bạn.
+Trong đoạn trích này, chúng tôi đang tạo một `FileStream` cho mỗi trang. Các tập tin đầu ra sẽ được đặt tên `image1_out.png`, `image2_out.png`và cứ thế, tùy thuộc vào số trang trong tệp PDF của bạn.
 
 ## Bước 5: Thiết lập thiết bị PNG
 
@@ -100,7 +102,7 @@ Với độ phân giải 300 DPI (chấm trên inch), hình ảnh đầu ra củ
 
 ## Bước 6: Chuyển đổi các trang sang PNG
 
- Bây giờ đến phần thú vị! Chúng tôi sẽ chuyển đổi từng trang PDF thành hình ảnh PNG bằng cách sử dụng cấu hình`PngDevice`. Sau đây là mã để tóm tắt tất cả:
+Bây giờ đến phần thú vị! Chúng tôi sẽ chuyển đổi từng trang PDF thành hình ảnh PNG bằng cách sử dụng cấu hình `PngDevice`. Sau đây là mã để tóm tắt tất cả:
 
 ```csharp
 pngDevice.Process(pdfDocument.Pages[pageCount], imageStream);
@@ -128,13 +130,15 @@ Có, bạn có thể điều chỉnh thông số độ phân giải để phù h
 Aspose.PDF có thể xử lý nhiều định dạng khác nhau, bao gồm PDF, PNG, JPEG, v.v.
 
 ### Có bản dùng thử miễn phí không?
- Có! Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có! Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và thảo luận của cộng đồng[đây](https://forum.aspose.com/c/pdf/10).
+Bạn có thể tìm thấy sự hỗ trợ và thảo luận của cộng đồng [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

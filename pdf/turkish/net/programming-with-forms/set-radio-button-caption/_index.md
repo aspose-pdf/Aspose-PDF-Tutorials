@@ -1,21 +1,23 @@
 ---
-title: Radyo Düğmesi Başlığını Ayarla
-linktitle: Radyo Düğmesi Başlığını Ayarla
-second_title: Aspose.PDF for .NET API Referansı
-description: .NET için Aspose.PDF kullanarak PDF'lerde radyo düğmesi başlıklarının nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, PDF formlarınızı yükleme, değiştirme ve kaydetme konusunda size yol gösterir.
-weight: 280
-url: /tr/net/programming-with-forms/set-radio-button-caption/
+"description": ".NET için Aspose.PDF kullanarak PDF'lerde radyo düğmesi başlıklarının nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, PDF formlarınızı yükleme, değiştirme ve kaydetme konusunda size yol gösterir."
+"linktitle": "Radyo Düğmesi Başlığını Ayarla"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Radyo Düğmesi Başlığını Ayarla"
+"url": "/tr/net/programming-with-forms/set-radio-button-caption/"
+"weight": 280
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Radyo Düğmesi Başlığını Ayarla
 
 ## giriiş
 
-Aspose.PDF for .NET ile PDF manipülasyonuna dalıyorsanız, sizi bir ziyafet bekliyor! Bugün, pratik bir özelliğe odaklanıyoruz: PDF formlarınızda radyo düğmesi başlıkları ayarlama. Radyo düğmeleri, bir dizi seçenek arasından seçim yapmanız gereken kullanıcı formları için olmazsa olmazdır. Bunları yalnızca bir cevaba izin verilen çoktan seçmeli sorular olarak düşünün. Bu eğitim, PDF formunda radyo düğmesi başlıklarını güncelleme sürecini size gösterecek, böylece belgeleriniz hem etkileşimli hem de kullanıcı dostu olacak. 
+.NET için Aspose.PDF ile PDF manipülasyonuna dalıyorsanız, sizi bir ziyafet bekliyor! Bugün, pratik bir özelliğe odaklanıyoruz: PDF formlarınızda radyo düğmesi başlıkları ayarlama. Radyo düğmeleri, bir dizi seçenek arasından seçim yapmanız gereken kullanıcı formları için olmazsa olmazdır. Bunları yalnızca bir cevaba izin verilen çoktan seçmeli sorular olarak düşünün. Bu eğitim, PDF formunda radyo düğmesi başlıklarını güncelleme sürecini size gösterecek, böylece belgeleriniz hem etkileşimli hem de kullanıcı dostu olacak. 
 
 ## Ön koşullar
 
@@ -26,7 +28,7 @@ Koda dalmadan önce, sahip olduğunuzdan emin olmanız gereken birkaç şey var:
 3. Örnek PDF Formu: Bu eğitim için, radyo düğmeleri olan bir örnek PDF formuna ihtiyacınız olacak. Mevcut herhangi bir PDF formunu kullanabilir veya radyo düğmeleri olan yeni bir form oluşturabilirsiniz.
 4. Temel C# Bilgisi: Bu kılavuz, C# ve .NET programlama kavramlarına ilişkin temel bir anlayışa sahip olduğunuzu varsayar.
 
- Aspose.PDF for .NET'i henüz yüklemediyseniz veya geçici bir lisansa ihtiyacınız varsa,[buradan indirin](https://releases.aspose.com/pdf/net/) veya[geçici lisans almak](https://purchase.aspose.com/temporary-license/).
+Aspose.PDF for .NET'i henüz yüklemediyseniz veya geçici bir lisansa ihtiyacınız varsa, [buradan indirin](https://releases.aspose.com/pdf/net/) veya [geçici lisans almak](https://purchase.aspose.com/temporary-license/).
 
 ## Paketleri İçe Aktar
 
@@ -43,7 +45,7 @@ Bu paketlerin projenize NuGet veya tercih ettiğiniz yöntemle eklendiğinden em
 
 ## Adım 1: PDF Formunu yükleyin
 
- İlk olarak, radyo düğmelerini içeren PDF formunu yüklemeniz gerekir.`Aspose.Pdf.Facades.Form`class bu amaç için kullanılır. İşte bunu nasıl yapacağınız:
+İlk olarak, radyo düğmelerini içeren PDF formunu yüklemeniz gerekir. `Aspose.Pdf.Facades.Form` class bu amaç için kullanılır. İşte bunu nasıl yapacağınız:
 
 ```csharp
 // Belge dizininize giden yolu tanımlayın
@@ -76,7 +78,7 @@ Bu döngüde:
 
 ## Adım 3: Radyo Düğmesi Seçeneklerini Değiştirin
 
- Radyo düğmesi alanlarını tanımladıktan sonra, seçeneklerini değiştirebilirsiniz. Bunun için, alanı şu şekilde dönüştürmeniz gerekir:`RadioButtonField` ve seçeneklerini güncelleyin:
+Radyo düğmesi alanlarını tanımladıktan sonra, seçeneklerini değiştirebilirsiniz. Bunun için, alanı şu şekilde dönüştürmeniz gerekir: `RadioButtonField` ve seçeneklerini güncelleyin:
 
 ```csharp
     if (item.Contains("radio1"))
@@ -89,11 +91,11 @@ Bu döngüde:
 
 Burada:
 - Değiştirmek istediğimiz belirli radyo düğmesi alanını belirlemek için alan adının "radio1" içerip içermediğini kontrol ediyoruz.
-- `RadioButtonField`Belirli değişiklikler yapmak için form alanlarından döküm yapılır.
+- `RadioButtonField` Belirli değişiklikler yapmak için form alanlarından döküm yapılır.
 
 ## Adım 4: Radyo Düğmesi için Başlığı Ayarlayın
 
- Radyo düğmesinin başlığını ayarlamak veya güncellemek için bir başlık oluşturmanız gerekir.`TextFragment` ve kullan`TextBuilder` istenilen yere yerleştirmek için:
+Radyo düğmesinin başlığını ayarlamak veya güncellemek için bir başlık oluşturmanız gerekir. `TextFragment` ve kullan `TextBuilder` istenilen yere yerleştirmek için:
 
 ```csharp
         var updatedFragment = new Aspose.Pdf.Text.TextFragment("test123");
@@ -141,10 +143,10 @@ Bu, şunları sağlayacaktır:
 ## SSS
 
 ### Birden fazla radyo düğmesi alanını aynı anda güncelleyebilir miyim?
-Evet, tüm radyo düğmesi alanlarında yineleme yapabilir ve gerektiği gibi değişiklikleri uygulayabilirsiniz.
+Evet, tüm radyo düğmesi alanlarında yineleme yapabilir ve gerektiği gibi değişiklikler uygulayabilirsiniz.
 
 ### Aspose.PDF'i kullanmak için lisansa ihtiyacım var mı?
- Ücretsiz deneme ile başlayabilirsiniz ancak uzun süreli kullanım için lisans gereklidir.[Buradan lisans alın](https://purchase.aspose.com/buy).
+Ücretsiz deneme ile başlayabilirsiniz ancak uzun süreli kullanım için lisans gereklidir. [Buradan lisans alın](https://purchase.aspose.com/buy).
 
 ### PDF'i kaydetmeden önce değişiklikleri nasıl test edebilirim?
 PDF'yi geliştirme ortamınızda önizleyebilir veya değişiklikleri kontrol etmek için bir PDF görüntüleyicisi kullanabilirsiniz.
@@ -154,9 +156,11 @@ Aspose.PDF çeşitli .NET sürümlerini destekler. Belirli .NET sürümünüzle 
 
 ### Diğer form alanlarını da benzer şekilde düzenleyebilir miyim?
 Evet, benzer teknikler PDF belgelerindeki diğer form alanlarına da uygulanabilir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Gaya Tabel Sel dalam PDF menggunakan Java
-linktitle: Gaya Tabel Sel dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menata sel tabel dalam dokumen PDF menggunakan Aspose.PDF untuk Java. Sempurnakan aplikasi Java Anda dengan panduan langkah demi langkah tentang kustomisasi PDF ini.
-weight: 13
-url: /id/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/
+"description": "Pelajari cara menata sel tabel dalam dokumen PDF menggunakan Aspose.PDF untuk Java. Sempurnakan aplikasi Java Anda dengan panduan langkah demi langkah tentang kustomisasi PDF ini."
+"linktitle": "Gaya Tabel Sel dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Gaya Tabel Sel dalam PDF menggunakan Java"
+"url": "/id/java/pdf-styles-and-formatting/style-table-cell-in-pdf-using-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gaya Tabel Sel dalam PDF menggunakan Java
@@ -24,11 +26,11 @@ Sebelum kita masuk ke kode, mari pastikan kita memiliki semua yang kita butuhkan
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
 
--  Aspose.PDF untuk Pustaka Java: Unduh pustaka dari[Di Sini](https://releases.aspose.com/pdf/java/) jika Anda belum melakukannya.
+- Aspose.PDF untuk Pustaka Java: Unduh pustaka dari [Di Sini](https://releases.aspose.com/pdf/java/) jika Anda belum melakukannya.
 
 ## Membuat Tabel PDF Sederhana
 
-Untuk memulai, mari kita buat tabel PDF sederhana. Kita akan menggunakan Aspose.PDF untuk Java guna membuat struktur tabel dasar.
+Untuk memulai, mari kita buat tabel PDF sederhana. Kita akan menggunakan Aspose.PDF untuk Java guna menghasilkan struktur tabel dasar.
 
 ```java
 // Kode Java untuk membuat dokumen PDF dengan tabel
@@ -87,7 +89,7 @@ Dalam artikel ini, kami telah menjelajahi cara menata sel tabel dalam PDF menggu
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
-Menginstal Aspose.PDF untuk Java sangatlah mudah. Anda dapat mengunduh pustaka dari situs web Aspose di[Di Sini](https://releases.aspose.com/pdf/java/).
+Menginstal Aspose.PDF untuk Java sangatlah mudah. Anda dapat mengunduh pustaka dari situs web Aspose di [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ### Bisakah saya menata aspek lain dari PDF menggunakan Aspose.PDF untuk Java?
 
@@ -103,10 +105,12 @@ Ya, Aspose.PDF untuk Java adalah produk komersial. Anda mungkin perlu memperoleh
 
 ### Di mana saya dapat menemukan lebih banyak tutorial dan sumber daya Aspose.PDF untuk Java?
 
- Untuk tutorial dan dokumentasi yang lengkap, kunjungi dokumentasi Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Untuk tutorial dan dokumentasi yang lengkap, kunjungi dokumentasi Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

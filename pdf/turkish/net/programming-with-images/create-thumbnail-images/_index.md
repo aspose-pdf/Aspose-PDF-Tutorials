@@ -1,21 +1,23 @@
 ---
-title: PDF Dosyasında Küçük Resim Görüntüleri Oluşturun
-linktitle: PDF Dosyasında Küçük Resim Görüntüleri Oluşturun
-second_title: Aspose.PDF for .NET API Referansı
-description: Aspose.PDF for .NET kullanarak PDF dosyanızdaki her sayfa için zahmetsizce küçük resim görüntüleri oluşturun. Belge önizleme deneyiminizi geliştirin.
-weight: 100
-url: /tr/net/programming-with-images/create-thumbnail-images/
+"description": "Aspose.PDF for .NET kullanarak PDF dosyanızdaki her sayfa için zahmetsizce küçük resim görüntüleri oluşturun. Belge önizleme deneyiminizi geliştirin."
+"linktitle": "PDF Dosyasında Küçük Resim Görüntüleri Oluşturun"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Küçük Resim Görüntüleri Oluşturun"
+"url": "/tr/net/programming-with-images/create-thumbnail-images/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Küçük Resim Görüntüleri Oluşturun
 
 ## giriiş
 
-Bir PDF'deki her sayfa için küçük resim oluşturmak, tüm dosyayı açmadan belgeleri hızlı bir şekilde önizlemek isteyen herkes için inanılmaz derecede yararlı olabilir. Bir belge yönetim sistemi oluşturuyor veya yalnızca bir PDF koleksiyonunda gezinmeyi basitleştirmek istiyorsanız, bu işlem size zaman kazandırabilir ve kullanıcı deneyiminizi geliştirebilir. Bugün, PDF dosyalarınızdaki her sayfa için otomatik olarak küçük resim oluşturmak üzere Aspose.PDF for .NET'in nasıl kullanılacağını ele alacağız. Bu yalnızca kodlama ile ilgili değil; iş akışınızı kolaylaştırmanız ve erişilebilirliğinizi iyileştirmeniz için size araçlar sağlamakla ilgilidir.
+Bir PDF'deki her sayfa için küçük resim oluşturmak, tüm dosyayı açmadan belgeleri hızlı bir şekilde önizlemek isteyen herkes için inanılmaz derecede yararlı olabilir. Bir belge yönetim sistemi oluşturuyor veya yalnızca bir PDF koleksiyonunda gezinmeyi basitleştirmek istiyorsanız, bu işlem size zaman kazandırabilir ve kullanıcı deneyiminizi geliştirebilir. Bugün, PDF dosyalarınızdaki her sayfa için otomatik olarak küçük resim oluşturmak üzere Aspose.PDF for .NET'in nasıl kullanılacağını ele alacağız. Bu yalnızca kodlama ile ilgili değil; iş akışınızı kolaylaştırmanız ve erişilebilirliği iyileştirmeniz için size araçlar sağlamakla ilgilidir.
 
 ## Ön koşullar
 
@@ -23,7 +25,7 @@ Koda dalmadan önce, sorunsuz bir kurulum sağlamak için halletmeniz gereken bi
 
 1. C# veya .NET'in Temel Bilgileri: C# ile programlamaya aşina olmak, ilerledikçe kodu daha iyi anlamanıza yardımcı olacaktır.
 2. Visual Studio Kurulu: Kodunuzu yazmak ve çalıştırmak için bir IDE'ye ihtiyacınız olacak. Visual Studio, .NET geliştirme için popüler bir seçimdir.
-3. .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan alabilirsiniz:[Aspose.PDF Belgeleri](https://reference.aspose.com/pdf/net/).
+3. .NET Kütüphanesi için Aspose.PDF: Aspose.PDF kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan alabilirsiniz: [Aspose.PDF Belgeleri](https://reference.aspose.com/pdf/net/).
 4. PDF Dosyaları: Test için belirlediğiniz çalışma dizininde birkaç PDF dosyası bulundurun.
 
 Hemen başlamak ister misiniz? Harika! Öncelikle gerekli paketleri içe aktaralım.
@@ -51,7 +53,7 @@ Sürecimizdeki ilk adım, tüm PDF dosyalarınızın saklandığı belgelerinizi
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Gerçek dizin yolunuzla değiştirin
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın bulunduğu yol ile. Bu adım çok önemlidir çünkü doğru dizin olmadan programınız işlemesi gereken PDF'leri bulamaz.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın bulunduğu yol ile. Bu adım çok önemlidir çünkü doğru dizin olmadan programınız işlemesi gereken PDF'leri bulamaz.
 
 ## Adım 2: PDF Dosya Adlarını Alın
 
@@ -61,7 +63,7 @@ Sonra, dizininizdeki tüm PDF dosyalarının adlarını almak isteyeceksiniz. Bu
 string[] fileEntries = Directory.GetFiles(dataDir, "*.pdf");
 ```
 
- Burada şunu kullanıyoruz:`Directory.GetFiles` yalnızca PDF dosyalarını filtrelemek ve almak için yöntem.`*.pdf` joker karakter belirtilen dizindeki her PDF'yi almamızı sağlar. 
+Burada şunu kullanıyoruz: `Directory.GetFiles` yalnızca PDF dosyalarını filtrelemek ve almak için yöntem. `*.pdf` joker karakter belirtilen dizindeki her PDF'yi almamızı sağlar. 
 
 ## Adım 3: Her PDF Dosyasını Tekrarlayın
 
@@ -74,7 +76,7 @@ for (int counter = 0; counter < fileEntries.Length; counter++)
 }
 ```
 
- Bu döngüde,`counter` üzerinde çalıştığımız dosyanın kaydını tutar.`Document` sınıfı her PDF dosyasını açmak için kullanılır. Sayfalarından küçük resimler oluşturmak için her PDF'i tek tek ele alacaksınız.
+Bu döngüde, `counter` üzerinde çalıştığımız dosyanın kaydını tutar. `Document` sınıfı her PDF dosyasını açmak için kullanılır. Sayfalarından küçük resimler oluşturmak için her PDF'i tek tek ele alacaksınız.
 
 ## Adım 4: Her Sayfa için Küçük Resimler Oluşturun
 
@@ -89,7 +91,7 @@ using (FileStream imageStream = new FileStream(dataDir + "\\Thumbanils" + counte
 {
 ```
 
- Burada, her küçük resim için yeni bir JPG dosyası oluşturuyoruz`FileStream`Dosya adı sayacı da içerdiğinden her küçük resim benzersiz bir isme sahip olur.
+Burada, her küçük resim için yeni bir JPG dosyası oluşturuyoruz `FileStream`Dosya adı sayacı da içerdiğinden her küçük resim benzersiz bir isme sahip olur.
 
 ### Adım 4.2: Çözünürlüğü Tanımlayın
 
@@ -101,9 +103,9 @@ Resolution resolution = new Resolution(300);
 
 Kaliteli görüntüler için 300 DPI (inç başına nokta) çözünürlük standarttır. Bu değeri ihtiyaçlarınıza göre ayarlamakta özgürsünüz.
 
-### Adım 4.3: JpegDevice'ı Ayarlayın
+### Adım 4.3: JpegDevice'ı Kurun
 
- Şimdi, şunu kuracağız:`JpegDevice` PDF sayfalarını resimlere dönüştürmek için kullanılacak.
+Şimdi, şunu kuracağız: `JpegDevice` PDF sayfalarını resimlere dönüştürmek için kullanılacak.
 
 ```csharp
 JpegDevice jpegDevice = new JpegDevice(45, 59, resolution, 100);
@@ -119,7 +121,7 @@ Her şey yerli yerinde olduğuna göre artık PDF'in her sayfasını işleyebili
 jpegDevice.Process(pdfDocument.Pages[pageCount], imageStream);
 ```
 
- Bu satır, PDF'den belirli sayfayı alır ve onu JPEG biçimine dönüştürerek doğrudan bilgisayara besler.`imageStream`küçük resmi nerede saklayacağız.
+Bu satır, PDF'den belirli sayfayı alır ve onu JPEG biçimine dönüştürerek doğrudan bilgisayara besler. `imageStream` küçük resmi nerede saklayacağız.
 
 ### Adım 4.5: Akışı Kapatın
 
@@ -141,7 +143,7 @@ PDF dosyaları için küçük resimler oluşturmak, kullanıcıların belgelerin
 Aspose.PDF, .NET uygulamalarında PDF belgeleriyle çalışmak için güçlü bir kütüphanedir; oluşturma, düzenleme ve dönüştürme olanağı sağlar.
 
 ### Aspose.PDF kütüphanesi ücretsiz mi?  
- Aspose.PDF ticari bir üründür, ancak ücretsiz deneme sürümünü buradan indirebilirsiniz.[web sitesi](https://releases.aspose.com/).
+Aspose.PDF ticari bir üründür, ancak ücretsiz deneme sürümünü buradan indirebilirsiniz. [web sitesi](https://releases.aspose.com/).
 
 ### Küçük resim boyutlarını özelleştirebilir miyim?  
 Evet, küçük resim boyutlarını ayarlamak için JpegDevice oluşturucusundaki genişlik ve yükseklik parametrelerini değiştirebilirsiniz.
@@ -150,10 +152,12 @@ Evet, küçük resim boyutlarını ayarlamak için JpegDevice oluşturucusundaki
 Evet, çözünürlüğe ve sayfa sayısına bağlı olarak daha büyük dosyaların işlenmesi daha uzun sürebilir; bu parametreleri optimize etmek performansı artırmaya yardımcı olabilir.
 
 ### Daha fazla kaynak ve desteği nerede bulabilirim?  
- Daha fazla kaynak ve topluluk desteğini şu adreste bulabilirsiniz:[Aspose forumları](https://forum.aspose.com/c/pdf/10).
+Daha fazla kaynak ve topluluk desteğini şu adreste bulabilirsiniz: [Aspose forumları](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

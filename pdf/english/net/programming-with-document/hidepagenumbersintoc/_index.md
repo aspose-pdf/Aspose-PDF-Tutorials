@@ -8,7 +8,9 @@ url: /net/programming-with-document/hidepagenumbersintoc/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hide Page Numbers In TOC
@@ -159,6 +161,7 @@ Yes, a valid license is required for production use. You can get a temporary lic
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

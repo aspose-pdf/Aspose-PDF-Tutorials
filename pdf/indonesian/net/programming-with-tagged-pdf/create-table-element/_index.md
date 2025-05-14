@@ -1,14 +1,16 @@
 ---
-title: Buat Elemen Tabel
-linktitle: Buat Elemen Tabel
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Panduan langkah demi langkah untuk membuat elemen array dengan Aspose.PDF untuk .NET. Hasilkan PDF dinamis dengan tabel dengan mudah.
-weight: 80
-url: /id/net/programming-with-tagged-pdf/create-table-element/
+"description": "Panduan langkah demi langkah untuk membuat elemen array dengan Aspose.PDF untuk .NET. Hasilkan PDF dinamis dengan tabel dengan mudah."
+"linktitle": "Buat Elemen Tabel"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Buat Elemen Tabel"
+"url": "/id/net/programming-with-tagged-pdf/create-table-element/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat Elemen Tabel
@@ -20,11 +22,11 @@ Pernahkah Anda bertanya-tanya bagaimana Anda dapat dengan mudah membuat dan meny
 ## Prasyarat
 
 Sebelum kita memulai, Anda memerlukan beberapa hal berikut:
-1.  Aspose.PDF untuk .NET: Unduh versi terbaru dari[Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Unduh versi terbaru dari [Unduh Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/).
 2. Lingkungan Pengembangan: Setiap IDE yang mendukung .NET (misalnya, Visual Studio).
 3. Pengetahuan Dasar C#: Disarankan untuk memahami pemrograman C#.
 
- Terakhir, jangan lupa lisensi Aspose.PDF Anda. Jika Anda belum memilikinya, Anda dapat menggunakan[uji coba gratis](https://releases.aspose.com/) atau meminta[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menguji segalanya.
+Terakhir, jangan lupa lisensi Aspose.PDF Anda. Jika Anda belum memilikinya, Anda dapat menggunakan [uji coba gratis](https://releases.aspose.com/) atau meminta [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menguji segalanya.
 
 ## Paket Impor
 
@@ -54,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document();
 ```
 
- Di sini, kita menginisialisasi instance baru dari`Document` class, yang akan menjadi file PDF kosong kita. Jangan lupa untuk menentukan jalur file Anda!
+Di sini, kita menginisialisasi instance baru dari `Document` class, yang akan menjadi file PDF kosong kita. Jangan lupa untuk menentukan jalur file Anda!
 
 ## Langkah 2: Siapkan Konten yang Ditandai
 
@@ -80,7 +82,7 @@ TableElement tableElement = taggedContent.CreateTableElement();
 rootElement.AppendChild(tableElement);
 ```
 
- Di sini, kami menggunakan`RootElement` dari konten yang diberi tag untuk menambahkan tabel kita. Ini pada dasarnya menambahkan tabel sebagai simpul anak ke struktur dokumen.
+Di sini, kami menggunakan `RootElement` dari konten yang diberi tag untuk menambahkan tabel kita. Ini pada dasarnya menambahkan tabel sebagai simpul anak ke struktur dokumen.
 
 ## Langkah 4: Sesuaikan Batas dan Header Tabel
 
@@ -93,7 +95,7 @@ TableTBodyElement tableTBodyElement = tableElement.CreateTBody();
 TableTFootElement tableTFootElement = tableElement.CreateTFoot();
 ```
 
- Kami mendefinisikan batas dan menambahkan header, body, dan footer ke tabel. Perhatikan penggunaan`BorderInfo` untuk memberi gaya pada tepi tabel dengan warna biru tua.
+Kami mendefinisikan batas dan menambahkan header, body, dan footer ke tabel. Perhatikan penggunaan `BorderInfo` untuk memberi gaya pada tepi tabel dengan warna biru tua.
 
 ## Langkah 5: Tambahkan Baris dan Sel ke Tabel
 
@@ -116,7 +118,7 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- Kami membuat baris header dengan 4 kolom, dan setiap sel header diberi gaya dengan warna latar belakang`GreenYellow`Kami juga mengatur batas dan perataan untuk tajuk.
+Kami membuat baris header dengan 4 kolom, dan setiap sel header diberi gaya dengan warna latar belakang `GreenYellow`Kami juga mengatur batas dan perataan untuk tajuk.
 
 ### Langkah 5.2: Tambahkan Baris Tubuh
 
@@ -153,7 +155,7 @@ for (int colIndex = 0; colIndex < 4; colIndex++)
 }
 ```
 
- Untuk melengkapi tabel, kita menambahkan footer dengan teks di tengah dan`LightSeaGreen` latar belakang.
+Untuk melengkapi tabel, kita menambahkan footer dengan teks di tengah dan `LightSeaGreen` latar belakang.
 
 ## Langkah 6: Validasi Kepatuhan PDF/UA
 
@@ -177,22 +179,24 @@ Selamat! Anda telah berhasil membuat tabel yang sepenuhnya disesuaikan dalam PDF
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menyesuaikan font dan gaya teks tabel?
-Ya, Aspose.PDF memungkinkan Anda untuk sepenuhnya menyesuaikan font, gaya teks, dan perataan menggunakan`TextState` kelas.
+Ya, Aspose.PDF memungkinkan Anda untuk sepenuhnya menyesuaikan font, gaya teks, dan perataan menggunakan `TextState` kelas.
 
 ### Bagaimana cara menambahkan lebih banyak kolom atau baris secara dinamis?
- Anda dapat menyesuaikan jumlah kolom atau baris dengan memodifikasi`rowIndex` Dan`colIndex` di dalam loop.
+Anda dapat menyesuaikan jumlah kolom atau baris dengan memodifikasi `rowIndex` Dan `colIndex` di dalam loop.
 
 ### Apakah mungkin untuk menggabungkan sel dalam tabel?
- Ya, Anda bisa menggunakan`ColSpan` Dan`RowSpan` properti untuk menggabungkan sel di seluruh kolom atau baris.
+Ya, Anda bisa menggunakan `ColSpan` Dan `RowSpan` properti untuk menggabungkan sel di seluruh kolom atau baris.
 
 ### Apa itu kepatuhan PDF/UA?
 Kepatuhan PDF/UA memastikan bahwa dokumen tersebut dapat diakses oleh pengguna penyandang disabilitas, mematuhi standar aksesibilitas internasional.
 
 ### Bagaimana cara menguji kepatuhan PDF/UA di Aspose.PDF?
- Anda dapat menggunakan`Validate` metode untuk memeriksa apakah dokumen mematuhi standar PDF/UA.
+Anda dapat menggunakan `Validate` metode untuk memeriksa apakah dokumen mematuhi standar PDF/UA.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

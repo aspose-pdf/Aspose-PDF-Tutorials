@@ -1,14 +1,16 @@
 ---
-title: Ekstrak Properti Gambar dari PDF di Java
-linktitle: Ekstrak Properti Gambar dari PDF di Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara mengekstrak properti gambar dari PDF di Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber. Tingkatkan keterampilan pemrosesan PDF Anda hari ini!
-weight: 23
-url: /id/java/pdf-images/extract-image-properties-from-pdf-in-java/
+"description": "Pelajari cara mengekstrak properti gambar dari PDF di Java menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah dengan kode sumber. Tingkatkan keterampilan pemrosesan PDF Anda hari ini!"
+"linktitle": "Ekstrak Properti Gambar dari PDF di Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Ekstrak Properti Gambar dari PDF di Java"
+"url": "/id/java/pdf-images/extract-image-properties-from-pdf-in-java/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrak Properti Gambar dari PDF di Java
@@ -22,7 +24,7 @@ Dokumen PDF sering kali berisi gambar, dan mengekstrak informasi tentang gambar 
 
 ## 2. Menyiapkan Aspose.PDF untuk Java
 
- Sebelum kita mulai, Anda perlu menyiapkan Aspose.PDF untuk Java di proyek Anda. Anda dapat mengunduh pustaka dari situs web[Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi.
+Sebelum kita mulai, Anda perlu menyiapkan Aspose.PDF untuk Java di proyek Anda. Anda dapat mengunduh pustaka dari situs web [Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi.
 
 ## 3. Memuat Dokumen PDF
 
@@ -33,11 +35,11 @@ Untuk bekerja dengan dokumen PDF, pertama-tama Anda perlu memuatnya menggunakan 
 Document pdfDocument = new Document("example.pdf");
 ```
 
- Mengganti`"example.pdf"` dengan jalur ke berkas PDF Anda.
+Mengganti `"example.pdf"` dengan jalur ke berkas PDF Anda.
 
 ## 4. Mengekstrak Properti Gambar
 
- Sekarang setelah kita memuat dokumen PDF, mari kita ekstrak properti gambar. Aspose.PDF untuk Java menyediakan`Page.getResources()` metode untuk mengakses sumber daya suatu halaman, termasuk gambar.
+Sekarang setelah kita memuat dokumen PDF, mari kita ekstrak properti gambar. Aspose.PDF untuk Java menyediakan `Page.getResources()` metode untuk mengakses sumber daya suatu halaman, termasuk gambar.
 
 ```java
 // Akses halaman pertama dokumen
@@ -96,11 +98,11 @@ Dalam panduan ini, kita telah mempelajari cara mengekstrak properti gambar dari 
 
 ### Bagaimana cara menginstal Aspose.PDF untuk Java?
 
- Anda dapat mengunduh Aspose.PDF untuk Java dari situs web[Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
+Anda dapat mengunduh Aspose.PDF untuk Java dari situs web [Di Sini](https://releases.aspose.com/pdf/java/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
 
 ### Bisakah saya mengekstrak properti gambar dari halaman tertentu dalam PDF?
 
-Ya, Anda dapat mengekstrak properti gambar dari halaman tertentu dengan mengakses halaman yang diinginkan menggunakan`pdfDocument.getPages().get_Item(pageNumber)` dan kemudian ikuti langkah-langkah yang sama yang disebutkan dalam panduan.
+Ya, Anda dapat mengekstrak properti gambar dari halaman tertentu dengan mengakses halaman yang diinginkan menggunakan `pdfDocument.getPages().get_Item(pageNumber)` lalu ikuti langkah yang sama yang disebutkan dalam panduan.
 
 ### Bisakah saya mengubah properti gambar menggunakan Aspose.PDF untuk Java?
 
@@ -108,11 +110,13 @@ Ya, Anda dapat mengubah properti gambar seperti mengubah ukuran, mengompresi, at
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh untuk Aspose.PDF untuk Java?
 
- Anda dapat mengakses dokumentasi dan contoh lengkap di situs web dokumentasi API Aspose.PDF untuk Java:[https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+Anda dapat mengakses dokumentasi dan contoh lengkap di situs web dokumentasi API Aspose.PDF untuk Java: [https://reference.aspose.com/pdf/java/](https://reference.aspose.com/pdf/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

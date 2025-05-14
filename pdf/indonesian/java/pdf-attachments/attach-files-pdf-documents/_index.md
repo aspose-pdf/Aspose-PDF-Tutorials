@@ -1,14 +1,16 @@
 ---
-title: Lampirkan File ke Dokumen PDF
-linktitle: Lampirkan File ke Dokumen PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara melampirkan file ke dokumen PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami memudahkan manipulasi PDF.
-weight: 10
-url: /id/java/pdf-attachments/attach-files-pdf-documents/
+"description": "Pelajari cara melampirkan file ke dokumen PDF menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah kami memudahkan manipulasi PDF."
+"linktitle": "Lampirkan File ke Dokumen PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Lampirkan File ke Dokumen PDF"
+"url": "/id/java/pdf-attachments/attach-files-pdf-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lampirkan File ke Dokumen PDF
@@ -23,7 +25,7 @@ Aspose.PDF untuk Java adalah pustaka kaya fitur yang memungkinkan pengembang unt
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java dan IDE yang sesuai pada sistem Anda.
--  Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan proyek Java Anda
 
@@ -40,7 +42,7 @@ Untuk memulai, buat proyek Java baru di Lingkungan Pengembangan Terpadu (IDE) pi
 Dalam kode Java Anda, impor kelas yang diperlukan dari pustaka Aspose.PDF. Buat dokumen PDF baru menggunakan cuplikan kode berikut:
 
 ```java
-//Impor kelas yang diperlukan
+// Impor kelas yang diperlukan
 import com.aspose.pdf.*;
 
 // Buat dokumen PDF baru
@@ -87,11 +89,11 @@ Untuk mengekstrak lampiran dari PDF, Anda dapat menggunakan API Aspose.PDF untuk
 
 ### Bisakah saya melampirkan beberapa file ke satu halaman PDF?
 
- Ya, Anda dapat melampirkan beberapa file ke satu halaman PDF menggunakan Aspose.PDF untuk Java. Cukup buat beberapa file`FileAttachment` objek dan menambahkannya ke anotasi halaman.
+Ya, Anda dapat melampirkan beberapa file ke satu halaman PDF menggunakan Aspose.PDF untuk Java. Cukup buat beberapa file `FileAttachment` objek dan menambahkannya ke anotasi halaman.
 
 ### Apakah ada batasan ukuran untuk file yang dapat saya lampirkan ke PDF?
 
-Ukuran file yang dapat Anda lampirkan ke PDF bergantung pada berbagai faktor, termasuk kemampuan penampil PDF dan sumber daya sistem Anda. Akan tetapi, sebaiknya jaga ukuran file agar wajar untuk memastikan tampilan dan penanganan PDF lancar.
+Ukuran file yang dapat dilampirkan ke PDF bergantung pada berbagai faktor, termasuk kemampuan penampil PDF dan sumber daya sistem Anda. Akan tetapi, sebaiknya jaga ukuran file agar wajar untuk memastikan tampilan dan penanganan PDF lancar.
 
 ### Apakah Aspose.PDF untuk Java kompatibel dengan versi Java yang berbeda?
 
@@ -99,10 +101,12 @@ Ya, Aspose.PDF untuk Java kompatibel dengan berbagai versi Java. Pastikan untuk 
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.PDF untuk Java?
 
-Anda dapat menemukan dokumentasi lengkap dan sumber daya tambahan untuk Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi lengkap dan sumber daya tambahan untuk Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

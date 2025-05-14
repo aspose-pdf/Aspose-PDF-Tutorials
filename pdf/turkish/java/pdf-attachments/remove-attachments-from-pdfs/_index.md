@@ -1,14 +1,16 @@
 ---
-title: PDF'lerden Ekleri Kaldır
-linktitle: PDF'lerden Ekleri Kaldır
-second_title: Aspose.PDF Java PDF İşleme API'si
-description: Aspose.PDF ile Java'da PDF'lerden ekleri nasıl kaldıracağınızı öğrenin. PDF düzenleme için adım adım kılavuz ve kod.
-weight: 11
-url: /tr/java/pdf-attachments/remove-attachments-from-pdfs/
+"description": "Aspose.PDF ile Java'da PDF'lerden ekleri nasıl kaldıracağınızı öğrenin. PDF düzenleme için adım adım kılavuz ve kod."
+"linktitle": "PDF'lerden Ekleri Kaldır"
+"second_title": "Aspose.PDF Java PDF İşleme API'si"
+"title": "PDF'lerden Ekleri Kaldır"
+"url": "/tr/java/pdf-attachments/remove-attachments-from-pdfs/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'lerden Ekleri Kaldır
@@ -23,7 +25,7 @@ Günümüzün dijital çağında, PDF dosyalarıyla çalışmak birçok yazılı
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 - Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
--  Java için Aspose.PDF: Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/pdf/java/).
+- Java için Aspose.PDF: Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/pdf/java/).
 
 ## Projenizi Kurma
 
@@ -58,7 +60,7 @@ for (Attachment attachment : attachments) {
 }
 ```
 
-### Adım 4: Değiştirilen PDF'yi Kaydedin
+### Adım 4: Değiştirilmiş PDF'yi Kaydedin
 
 ```java
 // Değiştirilen PDF'yi kaydet
@@ -75,7 +77,7 @@ Deneyin ve Aspose.PDF'in Java uygulamalarınızda PDF belgeleriyle çalışmayı
 
 ### Bir PDF'i kaldırmadan önce ekleri olup olmadığını nasıl kontrol edebilirim?
 
- Kullanabilirsiniz`getEmbeddedFiles()` Ekler koleksiyonunu alma yöntemi. Boşsa, PDF'de ek yoktur.
+Kullanabilirsiniz `getEmbeddedFiles()` Ekler koleksiyonunu alma yöntemi. Boşsa, PDF'de ek yoktur.
 
 ### Belirli ekleri kaldırıp diğerlerini tutabilir miyim?
 
@@ -91,10 +93,12 @@ Evet, Aspose.PDF birçok programlama dili için mevcuttur ve bu da onu çeşitli
 
 ### Aspose.PDF for Java ile ilgili daha fazla yardıma nasıl ulaşabilirim?
 
- Java belgeleri için Aspose.PDF'i şu adresten ziyaret edebilirsiniz:[Burada](https://reference.aspose.com/pdf/java/) Detaylı bilgi ve örnekler için.
+Java belgeleri için Aspose.PDF'i şu adresten ziyaret edebilirsiniz: [Burada](https://reference.aspose.com/pdf/java/) Detaylı bilgi ve örnekler için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

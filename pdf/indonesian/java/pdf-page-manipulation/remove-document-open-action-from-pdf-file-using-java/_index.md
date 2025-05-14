@@ -1,14 +1,16 @@
 ---
-title: Hapus Tindakan Pembukaan Dokumen dari File PDF menggunakan Java
-linktitle: Hapus Tindakan Pembukaan Dokumen dari File PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara menghapus Document Open Action dari file PDF menggunakan Java dan Aspose.PDF untuk Java. Tingkatkan keamanan dan kustomisasi.
-weight: 11
-url: /id/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/
+"description": "Pelajari cara menghapus Document Open Action dari file PDF menggunakan Java dan Aspose.PDF untuk Java. Tingkatkan keamanan dan kustomisasi."
+"linktitle": "Hapus Tindakan Pembukaan Dokumen dari File PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Hapus Tindakan Pembukaan Dokumen dari File PDF menggunakan Java"
+"url": "/id/java/pdf-page-manipulation/remove-document-open-action-from-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Tindakan Pembukaan Dokumen dari File PDF menggunakan Java
@@ -22,7 +24,7 @@ File PDF sering kali berisi Tindakan Pembukaan Dokumen, yang dapat menjalankan t
 
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
--  Pustaka Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Pustaka Aspose.PDF untuk Java: Unduh dan instal pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di sistem Anda.
 
@@ -112,10 +114,12 @@ Tidak, ada pustaka dan alat lain yang tersedia untuk bekerja dengan PDF di Java.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi dan contoh lengkap untuk Aspose.PDF untuk Java di[Di Sini](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi dan contoh lengkap untuk Aspose.PDF untuk Java di [Di Sini](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

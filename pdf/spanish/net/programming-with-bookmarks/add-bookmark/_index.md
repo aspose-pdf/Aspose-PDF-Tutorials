@@ -1,33 +1,35 @@
 ---
-title: Agregar marcador en archivo PDF
-linktitle: Agregar marcador en archivo PDF
-second_title: Referencia de API de Aspose.PDF para .NET
-description: Aprenda a agregar marcadores a archivos PDF con Aspose.PDF para .NET en este tutorial paso a paso. Mejore su navegación en PDF.
-weight: 10
-url: /es/net/programming-with-bookmarks/add-bookmark/
+"description": "Aprenda a añadir marcadores a archivos PDF con Aspose.PDF para .NET en este tutorial paso a paso. Mejore su navegación en PDF."
+"linktitle": "Agregar marcador en archivo PDF"
+"second_title": "Referencia de la API de Aspose.PDF para .NET"
+"title": "Agregar marcador en archivo PDF"
+"url": "/es/net/programming-with-bookmarks/add-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Agregar marcador en archivo PDF
 
 ## Introducción
 
-¿Alguna vez te has encontrado desplazándote por un documento PDF extenso, buscando desesperadamente esa sección que necesitas? Si es así, ¡no estás solo! Navegar por documentos extensos puede ser una verdadera molestia. Pero, ¿y si te dijera que hay una manera de hacer que tus archivos PDF sean más fáciles de usar? ¡Ingresa los marcadores! En este tutorial, exploraremos cómo agregar marcadores a un archivo PDF usando Aspose.PDF para .NET. Esta poderosa biblioteca te permite manipular documentos PDF con facilidad, lo que te hace la vida mucho más sencilla. ¡Así que, profundicemos!
+¿Alguna vez te has encontrado navegando por un documento PDF extenso, buscando desesperadamente la sección que necesitas? ¡No eres el único! Navegar por documentos extensos puede ser un verdadero lío. Pero ¿y si te dijera que hay una manera de hacer que tus PDF sean más fáciles de usar? ¡Introduce los marcadores! En este tutorial, exploraremos cómo agregar marcadores a un archivo PDF con Aspose.PDF para .NET. Esta potente biblioteca te permite manipular documentos PDF fácilmente, haciéndote la vida mucho más sencilla. ¡Comencemos!
 
 ## Prerrequisitos
 
-Antes de comenzar, hay algunas cosas que deberá tener en cuenta:
+Antes de comenzar, hay algunas cosas que necesitarás tener en cuenta:
 
-1. Visual Studio: asegúrate de tener Visual Studio instalado en tu equipo. Es el IDE ideal para el desarrollo de .NET.
-2.  Aspose.PDF para .NET: Deberá descargar e instalar la biblioteca Aspose.PDF. Puede descargarla desde el sitio web[enlace de descarga](https://releases.aspose.com/pdf/net/).
+1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu equipo. Es el IDE ideal para el desarrollo .NET.
+2. Aspose.PDF para .NET: Necesitará descargar e instalar la biblioteca Aspose.PDF. Puede obtenerla desde [enlace de descarga](https://releases.aspose.com/pdf/net/).
 3. Conocimientos básicos de C#: Estar familiarizado con la programación en C# le ayudará a seguir el proceso sin problemas.
 
 ## Importar paquetes
 
-Para comenzar a agregar marcadores, deberá importar los paquetes necesarios. A continuación, le indicamos cómo hacerlo:
+Para empezar a añadir marcadores, deberá importar los paquetes necesarios. A continuación, le explicamos cómo hacerlo:
 
 ### crear un nuevo proyecto
 
@@ -35,7 +37,7 @@ Abra Visual Studio y cree un nuevo proyecto de C#. Elija una aplicación de cons
 
 ### Añadir referencia de Aspose.PDF
 
-Una vez que el proyecto esté configurado, deberá agregar una referencia a la biblioteca Aspose.PDF. Puede hacerlo de la siguiente manera:
+Una vez configurado el proyecto, debe agregar una referencia a la biblioteca Aspose.PDF. Puede hacerlo de la siguiente manera:
 
 - Haga clic derecho en su proyecto en el Explorador de soluciones.
 - Seleccionar "Administrar paquetes NuGet".
@@ -43,7 +45,7 @@ Una vez que el proyecto esté configurado, deberá agregar una referencia a la b
 
 ### Importar los espacios de nombres necesarios
 
- En la parte superior de tu`Program.cs` archivo, importe los espacios de nombres necesarios:
+En la parte superior de tu `Program.cs` archivo, importe los espacios de nombres necesarios:
 
 ```csharp
 using System;
@@ -55,27 +57,27 @@ Ahora que tenemos todo configurado, ¡pasemos al código real para agregar marca
 
 ## Paso 1: Definir el directorio del documento
 
-En primer lugar, debe especificar la ruta al directorio de sus documentos. Allí se ubicará su archivo PDF. Puede hacerlo de la siguiente manera:
+Primero, debe especificar la ruta a su directorio de documentos. Aquí se ubicará su archivo PDF. Así es como puede hacerlo:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se almacena su archivo PDF.
+Reemplazar `"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se almacena su archivo PDF.
 
 ## Paso 2: Abra el documento PDF
 
-A continuación, deberá abrir el documento PDF al que desea agregar marcadores. Utilice el siguiente código:
+A continuación, abra el documento PDF al que desea agregar marcadores. Use el siguiente código:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "AddBookmark.pdf");
 ```
 
- Esta línea de código inicializa un nuevo`Document` objeto con su archivo PDF.
+Esta línea de código inicializa un nuevo `Document` objeto con su archivo PDF.
 
 ## Paso 3: Crear un objeto de marcador
 
-Ahora es el momento de crear un objeto de marcador. Aquí es donde se define el título y la apariencia del marcador. A continuación, se explica cómo hacerlo:
+Ahora es el momento de crear un objeto de marcador. Aquí se define el título y la apariencia del marcador. Así se hace:
 
 ```csharp
 OutlineItemCollection pdfOutline = new OutlineItemCollection(pdfDocument.Outlines);
@@ -84,11 +86,11 @@ pdfOutline.Italic = true;
 pdfOutline.Bold = true;
 ```
 
-En este ejemplo, crearemos un marcador titulado "Esquema de prueba" y lo pondremos en negrita y cursiva. ¡Puede personalizar el título como desee!
+En este ejemplo, crearemos un marcador titulado "Esquema de prueba" y lo pondremos en negrita y cursiva. ¡Puedes personalizar el título como quieras!
 
 ## Paso 4: Establezca el número de página de destino
 
-Cada marcador necesita un destino. Puedes establecer el número de página al que se vinculará el marcador con el siguiente código:
+Cada marcador necesita un destino. Puedes configurar el número de página al que se vinculará el marcador con el siguiente código:
 
 ```csharp
 pdfOutline.Action = new GoToAction(pdfDocument.Pages[1]);
@@ -108,7 +110,7 @@ Esta línea agrega el marcador recién creado al documento PDF.
 
 ## Paso 6: Guardar la salida
 
-Por último, deberás guardar el documento PDF modificado. Para ello, sigue estos pasos:
+Finalmente, querrás guardar el documento PDF modificado. Así es como puedes hacerlo:
 
 ```csharp
 dataDir = dataDir + "AddBookmark_out.pdf";
@@ -120,7 +122,7 @@ Este código guarda el PDF con el marcador agregado como "AddBookmark_out.pdf" e
 
 ## Conclusión
 
-¡Y ya está! Has añadido correctamente un marcador a un archivo PDF con Aspose.PDF para .NET. Esta sencilla pero potente función puede mejorar significativamente la usabilidad de tus documentos, facilitando la navegación de los lectores. Así que, la próxima vez que trabajes con archivos PDF, ¡recuerda añadir esos marcadores!
+¡Listo! Has añadido correctamente un marcador a un archivo PDF con Aspose.PDF para .NET. Esta sencilla pero potente función puede mejorar significativamente la usabilidad de tus documentos, facilitando la navegación. Así que, la próxima vez que trabajes con PDF, ¡recuerda añadir esos marcadores!
 
 ## Preguntas frecuentes
 
@@ -128,19 +130,21 @@ Este código guarda el PDF con el marcador agregado como "AddBookmark_out.pdf" e
 Aspose.PDF para .NET es una biblioteca que permite a los desarrolladores crear, manipular y convertir documentos PDF mediante programación.
 
 ### ¿Puedo agregar varios marcadores a un PDF?
- Sí, puedes crear varios`OutlineItemCollection`objetos y agregarlos a la colección de esquema del documento.
+Sí, puedes crear varios `OutlineItemCollection` objetos y agregarlos a la colección de esquemas del documento.
 
 ### ¿Aspose.PDF es de uso gratuito?
- Aspose.PDF ofrece una versión de prueba gratuita, pero para disfrutar de todas sus funciones, deberá adquirir una licencia.[enlace de compra](https://purchase.aspose.com/buy).
+Aspose.PDF ofrece una prueba gratuita, pero para disfrutar de todas sus funciones, necesitará adquirir una licencia. Consulte [enlace de compra](https://purchase.aspose.com/buy).
 
 ### ¿Dónde puedo encontrar más documentación?
- Puede encontrar documentación completa en Aspose.PDF para .NET[aquí](https://reference.aspose.com/pdf/net/).
+Puede encontrar documentación completa en Aspose.PDF para .NET [aquí](https://reference.aspose.com/pdf/net/).
 
 ### ¿Cómo puedo obtener soporte para Aspose.PDF?
- Para obtener ayuda, puede visitar el sitio[Foro de soporte de Aspose](https://forum.aspose.com/c/pdf/10).
+Para obtener ayuda, puede visitar el sitio [Foro de soporte de Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

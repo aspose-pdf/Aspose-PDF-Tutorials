@@ -1,14 +1,16 @@
 ---
-title: Hasilkan MobiXML dari PDF
-linktitle: Hasilkan MobiXML dari PDF
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari Cara Membuat MobiXML dari PDF menggunakan Aspose.PDF untuk Java. Panduan Langkah demi Langkah dengan Contoh Kode. Konversi PDF ke Format MobiXML dengan Mudah.
-weight: 17
-url: /id/java/pdf-conversion-transformation/generate-mobixml-from-pdfs/
+"description": "Pelajari Cara Membuat MobiXML dari PDF menggunakan Aspose.PDF untuk Java. Panduan Langkah demi Langkah dengan Contoh Kode. Konversi PDF ke Format MobiXML dengan Mudah."
+"linktitle": "Hasilkan MobiXML dari PDF"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Hasilkan MobiXML dari PDF"
+"url": "/id/java/pdf-conversion-transformation/generate-mobixml-from-pdfs/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hasilkan MobiXML dari PDF
@@ -24,13 +26,13 @@ Sebelum kita masuk ke proses konversi, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduhnya dari situs web jika Anda belum memilikinya.
 
--  Pustaka Aspose.PDF untuk Java: Anda dapat memperoleh Aspose.PDF untuk Java dari tautan unduhan:[Unduh Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/).
+- Pustaka Aspose.PDF untuk Java: Anda dapat memperoleh Aspose.PDF untuk Java dari tautan unduhan: [Unduh Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/).
 
 ## Menyiapkan Proyek Anda
 
 1. Buat Proyek Java Baru: Mulailah dengan membuat proyek Java baru di Integrated Development Environment (IDE) favorit Anda. Anda dapat menggunakan IntelliJ IDEA, Eclipse, atau IDE lain pilihan Anda.
 
-2. Tambahkan Aspose.PDF untuk Pustaka Java: Setelah proyek Anda disiapkan, tambahkan pustaka Aspose.PDF untuk Java ke classpath proyek Anda. Ini biasanya dapat dilakukan dengan menyertakan file JAR dalam dependensi proyek Anda.
+2. Tambahkan Pustaka Aspose.PDF untuk Java: Setelah proyek Anda disiapkan, tambahkan pustaka Aspose.PDF untuk Java ke classpath proyek Anda. Ini biasanya dapat dilakukan dengan menyertakan file JAR dalam dependensi proyek Anda.
 
 ## Mengonversi PDF ke MobiXML
 
@@ -51,17 +53,17 @@ public class PDFtoMobiXMLConverter {
 }
 ```
 
- Pada kode di atas, pertama kita memuat dokumen PDF menggunakan Aspose.PDF. Kemudian, kita menyimpannya dalam format MobiXML menggunakan`SaveFormat.MobiXml` pilihan.
+Pada kode di atas, pertama kita memuat dokumen PDF menggunakan Aspose.PDF. Kemudian, kita menyimpannya dalam format MobiXML menggunakan `SaveFormat.MobiXml` pilihan.
 
 ## Kesimpulan
 
-Dalam artikel ini, kami telah membahas cara membuat MobiXML dari PDF menggunakan pustaka Aspose.PDF untuk Java. Alat canggih ini memungkinkan Anda mengonversi dokumen PDF ke dalam format yang sesuai untuk eBook. Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, Anda dapat dengan mudah mengintegrasikan fungsionalitas ini ke dalam aplikasi Java Anda.
+Dalam artikel ini, kami telah menjajaki cara membuat MobiXML dari PDF menggunakan pustaka Aspose.PDF untuk Java. Alat canggih ini memungkinkan Anda mengonversi dokumen PDF ke dalam format yang sesuai untuk eBook. Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, Anda dapat dengan mudah mengintegrasikan fungsionalitas ini ke dalam aplikasi Java Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mendapatkan Aspose.PDF untuk Java?
 
- Anda dapat mengunduh Aspose.PDF untuk Java dari tautan rilis:[Unduh Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/).
+Anda dapat mengunduh Aspose.PDF untuk Java dari tautan rilis: [Unduh Aspose.PDF untuk Java](https://releases.aspose.com/pdf/java/).
 
 ### Apakah Aspose.PDF untuk Java gratis untuk digunakan?
 
@@ -77,10 +79,12 @@ MobiXML memiliki keterbatasan tertentu dibandingkan dengan format eBook lainnya.
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan sumber daya untuk Aspose.PDF untuk Java?
 
- Anda dapat menemukan dokumentasi dan sumber daya yang komprehensif untuk Aspose.PDF untuk Java di[Referensi API Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+Anda dapat menemukan dokumentasi dan sumber daya yang komprehensif untuk Aspose.PDF untuk Java di [Referensi API Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

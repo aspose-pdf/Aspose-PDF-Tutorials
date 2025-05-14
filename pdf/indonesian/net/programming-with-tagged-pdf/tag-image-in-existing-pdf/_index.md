@@ -1,14 +1,16 @@
 ---
-title: Tag Gambar Dalam PDF yang Ada
-linktitle: Tag Gambar Dalam PDF yang Ada
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara memberi tag pada gambar dalam PDF yang ada menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah untuk meningkatkan aksesibilitas dengan kepatuhan PDF/UA.
-weight: 210
-url: /id/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/
+"description": "Pelajari cara memberi tag pada gambar dalam PDF yang ada menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah untuk meningkatkan aksesibilitas dengan kepatuhan PDF/UA."
+"linktitle": "Tag Gambar Dalam PDF yang Ada"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Tag Gambar Dalam PDF yang Ada"
+"url": "/id/net/programming-with-tagged-pdf/tag-image-in-existing-pdf/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tag Gambar Dalam PDF yang Ada
@@ -21,10 +23,10 @@ Dalam tutorial ini, kami akan memandu Anda untuk memberi tag pada gambar dalam P
 
 Sebelum kita mulai, mari kita bahas apa saja yang Anda perlukan untuk memulai:
 
--  Aspose.PDF untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru Aspose.PDF untuk .NET.[Unduh di sini](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru Aspose.PDF untuk .NET. [Unduh di sini](https://releases.aspose.com/pdf/net/).
 - .NET Framework: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET seperti Visual Studio.
 - Pemahaman Dasar tentang Struktur PDF: Keakraban dengan elemen struktur PDF seperti paragraf, rentang, tabel, dan gambar.
--  Lisensi yang Valid: Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy) atau gunakan yang sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+- Lisensi yang Valid: Anda dapat membeli lisensi [Di Sini](https://purchase.aspose.com/buy) atau gunakan yang sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Paket Impor
 
@@ -56,8 +58,8 @@ string logFile = dataDir + "TH_out.xml";
 Document document = new Document(inFile);
 ```
 
--  Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas Anda.
--  Itu`Document` kelas memungkinkan Anda memuat PDF yang sudah ada. Anda akan memodifikasi PDF ini untuk menandai gambar.
+- Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas Anda.
+- Itu `Document` kelas memungkinkan Anda memuat PDF yang sudah ada. Anda akan memodifikasi PDF ini untuk menandai gambar.
 
 ## Langkah 2: Akses Konten yang Ditandai dan Elemen Struktur Root
 
@@ -70,7 +72,7 @@ StructureElement rootElement = taggedContent.RootElement;
 ```
 
 - `TaggedContent` menyediakan akses ke elemen terstruktur dalam PDF.
--  Itu`RootElement` adalah elemen struktur paling atas, dari mana Anda dapat menelusuri ke elemen lain seperti paragraf, tabel, dan gambar.
+- Itu `RootElement` adalah elemen struktur paling atas, dari mana Anda dapat menelusuri ke elemen lain seperti paragraf, tabel, dan gambar.
 
 ## Langkah 3: Tetapkan Judul untuk Dokumen PDF yang Ditandai
 
@@ -85,7 +87,7 @@ taggedContent.SetTitle("Document with images");
 
 ## Langkah 4: Temukan dan Beri Tag pada Gambar
 
- Sekarang, mari kita temukan elemen gambar (disebut sebagai`FigureElement` dalam Aspose.PDF), tetapkan teks alternatif untuknya, dan konfigurasikan atribut tata letaknya.
+Sekarang, mari kita temukan elemen gambar (disebut sebagai `FigureElement` dalam Aspose.PDF), tetapkan teks alternatif untuknya, dan konfigurasikan atribut tata letaknya.
 
 ```csharp
 // Ulangi semua elemen Gambar (gambar) dan atur teks alternatif serta atribut tata letak
@@ -104,13 +106,13 @@ foreach (FigureElement figureElement in rootElement.FindElements<FigureElement>(
 }
 ```
 
--  Kode ini mengulang semua`FigureElement` objek dalam struktur akar, yang merepresentasikan gambar.
+- Kode ini mengulang semua `FigureElement` objek dalam struktur akar, yang merepresentasikan gambar.
 - Ini menetapkan teks alternatif untuk aksesibilitas (pembaca layar akan menggunakan ini untuk mendeskripsikan gambar).
-- Kotak pembatas (`BBox`menentukan koordinat untuk tata letak gambar, memastikannya ditampilkan dengan benar dalam dokumen.
+- Kotak pembatas (`BBox`) menentukan koordinat untuk tata letak gambar, memastikannya ditampilkan dengan benar dalam dokumen.
 
 ## Langkah 5: Ubah Elemen Span dalam Tabel
 
- Dalam beberapa kasus, Anda mungkin perlu mengubah elemen span dalam tabel. Di sini, kami akan menunjukkan cara menemukan`SpanElement` dan memindahkannya ke dalam paragraf.
+Dalam beberapa kasus, Anda mungkin perlu mengubah elemen span dalam tabel. Di sini, kami akan menunjukkan cara menemukan `SpanElement` dan memindahkannya ke dalam paragraf.
 
 ```csharp
 // Temukan elemen tabel, rentang, dan paragraf
@@ -123,8 +125,8 @@ ParagraphElement paragraph = firstTdElement.FindElements<ParagraphElement>(true)
 spanElement.ChangeParentElement(paragraph);
 ```
 
--  Di sini, kita menemukan`TableElement`, `SpanElement` , Dan`ParagraphElement` dalam PDF.
--  Menggunakan`ChangeParentElement` metode, kami memindahkan rentang ke dalam paragraf untuk memastikan penandaan dan struktur yang tepat.
+- Di sini, kita menemukan `TableElement`Bahasa Indonesia: `SpanElement`, Dan `ParagraphElement` dalam PDF.
+- Menggunakan `ChangeParentElement` metode, kami memindahkan rentang ke dalam paragraf untuk memastikan penandaan dan struktur yang tepat.
 
 ## Langkah 6: Simpan Dokumen dan Validasi Kepatuhan PDF/UA
 
@@ -140,7 +142,7 @@ bool isPdfUaCompliance = document.Validate(logFile, PdfFormat.PDF_UA_1);
 Console.WriteLine(String.Format("PDF/UA compliance: {0}", isPdfUaCompliance));
 ```
 
--  Itu`Validate` Metode ini memeriksa dokumen PDF terhadap standar PDF/UA dan mencatat hasilnya.
+- Itu `Validate` Metode ini memeriksa dokumen PDF terhadap standar PDF/UA dan mencatat hasilnya.
 - Memastikan kepatuhan membantu meningkatkan aksesibilitas dan memenuhi persyaratan peraturan untuk penerbitan dokumen.
 
 ## Kesimpulan
@@ -153,7 +155,7 @@ Dalam tutorial ini, kami telah menunjukkan kepada Anda cara memberi tag pada gam
 Aspose.PDF untuk .NET adalah pustaka hebat yang digunakan untuk membuat, mengedit, dan memanipulasi dokumen PDF secara terprogram dalam lingkungan .NET.
 
 ### Bagaimana cara memastikan kepatuhan PDF/UA?
- Anda dapat menggunakan Aspose.PDF`Validate` metode untuk memeriksa kepatuhan PDF/UA setelah membuat modifikasi pada dokumen.
+Anda dapat menggunakan Aspose.PDF `Validate` metode untuk memeriksa kepatuhan PDF/UA setelah membuat modifikasi pada dokumen.
 
 ### Apa itu teks alternatif dalam PDF?
 Teks alternatif adalah deskripsi yang ditambahkan ke gambar dalam PDF untuk meningkatkan aksesibilitas, khususnya bagi pengguna yang mengandalkan pembaca layar.
@@ -162,10 +164,12 @@ Teks alternatif adalah deskripsi yang ditambahkan ke gambar dalam PDF untuk meni
 Ya, Aspose.PDF memungkinkan Anda memanipulasi tabel, rentang, dan elemen terstruktur lainnya dalam dokumen PDF.
 
 ### Di mana saya dapat mengunduh Aspose.PDF untuk .NET?
- Anda dapat mengunduh versi terbaru Aspose.PDF untuk .NET[Di Sini](https://releases.aspose.com/pdf/net/).
+Anda dapat mengunduh versi terbaru Aspose.PDF untuk .NET [Di Sini](https://releases.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

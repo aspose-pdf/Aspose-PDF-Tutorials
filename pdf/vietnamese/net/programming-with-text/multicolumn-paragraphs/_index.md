@@ -1,14 +1,16 @@
 ---
-title: Đoạn văn nhiều cột trong tệp PDF
-linktitle: Đoạn văn nhiều cột trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách tạo và quản lý các đoạn văn nhiều cột trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi.
-weight: 250
-url: /vi/net/programming-with-text/multicolumn-paragraphs/
+"description": "Tìm hiểu cách tạo và quản lý các đoạn văn nhiều cột trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Đoạn văn nhiều cột trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Đoạn văn nhiều cột trong tệp PDF"
+"url": "/vi/net/programming-with-text/multicolumn-paragraphs/"
+"weight": 250
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đoạn văn nhiều cột trong tệp PDF
@@ -22,11 +24,11 @@ Tạo và quản lý các tệp PDF chưa bao giờ dễ dàng hơn thế, đặ
 Trước khi bắt đầu triển khai, bạn cần chuẩn bị một số thứ sau:
 
 ### Studio trực quan
-Hãy đảm bảo rằng bạn đã cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ[trang web](https://visualstudio.microsoft.com/).
+Hãy đảm bảo rằng bạn đã cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ [trang web](https://visualstudio.microsoft.com/).
 
 ### Aspose.PDF cho .NET
 Bạn sẽ cần đưa thư viện Aspose.PDF vào dự án .NET của mình:
--  Tải xuống trực tiếp từ[Liên kết tải xuống Aspose](https://releases.aspose.com/pdf/net/).
+- Tải xuống trực tiếp từ [Liên kết tải xuống Aspose](https://releases.aspose.com/pdf/net/).
 - Ngoài ra, bạn có thể sử dụng NuGet Package Manager để cài đặt nó.
 
 ### Kiến thức cơ bản về C#
@@ -71,7 +73,7 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước rõ ràng v
 // Đường dẫn đến thư mục tài liệu
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay thế bằng đường dẫn thực tế của bạn
 ```
-Ở bước này, bạn chỉ cần thiết lập một biến để trỏ đến vị trí tệp PDF của mình. 
+Ở bước này, bạn chỉ cần thiết lập một biến để trỏ đến vị trí tệp PDF của bạn. 
 
 ## Bước 2: Tải Tài liệu PDF
 Tiếp theo, chúng ta sẽ tải tài liệu PDF bằng thư viện Aspose.PDF.
@@ -79,16 +81,16 @@ Tiếp theo, chúng ta sẽ tải tài liệu PDF bằng thư viện Aspose.PDF.
 ```csharp
 Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
 ```
- Ở đây, chúng tôi đang tạo một phiên bản của`Document` lớp và truyền vào đường dẫn của tệp PDF của chúng tôi. Bước này tải tệp PDF, cho phép chúng tôi làm việc trên tệp đó.
+Ở đây, chúng tôi đang tạo một phiên bản của `Document` lớp và truyền vào đường dẫn của tệp PDF của chúng tôi. Bước này tải tệp PDF, cho phép chúng tôi làm việc trên tệp đó.
 
 ## Bước 3: Thiết lập Bộ hấp thụ đoạn văn
- Bây giờ, chúng ta cần sử dụng`ParagraphAbsorber` lớp để hấp thụ các đoạn văn từ tài liệu đã tải.
+Bây giờ, chúng ta cần sử dụng `ParagraphAbsorber` lớp để hấp thụ các đoạn văn từ tài liệu đã tải.
 
 ```csharp
 ParagraphAbsorber absorber = new ParagraphAbsorber();
 absorber.Visit(doc);
 ```
- Đây là nơi phép thuật bắt đầu!`Visit` Phương pháp này quét tài liệu và tập hợp các đoạn văn để xử lý.
+Đây là nơi phép thuật bắt đầu! `Visit` Phương pháp này quét tài liệu và tập hợp các đoạn văn để xử lý.
 
 ## Bước 4: Truy cập vào Đánh dấu trang
 Sau khi hấp thụ các đoạn văn, chúng ta có thể lấy lại nội dung đánh dấu của trang.
@@ -119,7 +121,7 @@ paragraph = section.Paragraphs[0];
 Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
 Console.WriteLine(paragraph.Text);
 ```
-Giống như một thám tử đang điều tra manh mối, chúng tôi đang tìm kiếm thêm thông tin chi tiết từ tệp PDF. 
+Giống như một thám tử đang điều tra manh mối, chúng ta đang tìm kiếm thêm thông tin chi tiết từ tệp PDF. 
 
 ## Bước 7: Kích hoạt đoạn văn nhiều cột
 Bây giờ, chúng ta hãy bật tính năng nhiều cột, đây chính là trọng tâm của hướng dẫn này!
@@ -131,7 +133,7 @@ Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
 Dòng này cho phép sắp xếp các đoạn văn của chúng ta thành nhiều cột. Giống như việc biến một vùng "cấm đánh bắt cá" thành một khu chợ nhộn nhịp!
 
 ## Bước 8: Hiển thị đoạn văn với định dạng nhiều cột
-Sau khi bật chế độ nhiều cột, hãy tiếp tục và hiển thị lại các đoạn văn từ cả hai phần.
+Sau khi bật chế độ nhiều cột, hãy tiếp tục và hiển thị lại các đoạn văn từ cả hai phần một lần nữa.
 
 ```csharp
 section = markup.Sections[2];
@@ -168,13 +170,15 @@ Bạn có thể tải xuống từ trang web Aspose hoặc sử dụng Trình qu
 Có, bạn có thể bật định dạng nhiều cột nếu cấu trúc PDF của bạn cho phép.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF ở đâu?  
- Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu [đây](https://reference.aspose.com/pdf/net/).
 
 ### Có phiên bản dùng thử của Aspose không?  
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí [đây](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

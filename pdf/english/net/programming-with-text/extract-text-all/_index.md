@@ -8,7 +8,9 @@ url: /net/programming-with-text/extract-text-all/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Text All In PDF File
@@ -149,6 +151,7 @@ You can save the text to various formats such as `.txt`, `.docx`, or even direct
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

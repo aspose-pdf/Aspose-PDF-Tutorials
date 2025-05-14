@@ -1,31 +1,33 @@
 ---
-title: Hình ảnh trong tiêu đề
-linktitle: Hình ảnh trong tiêu đề
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm hình ảnh vào tiêu đề của tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này.
-weight: 140
-url: /vi/net/programming-with-stamps-and-watermarks/image-in-header/
+"description": "Tìm hiểu cách thêm hình ảnh vào tiêu đề của tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này."
+"linktitle": "Hình ảnh trong tiêu đề"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Hình ảnh trong tiêu đề"
+"url": "/vi/net/programming-with-stamps-and-watermarks/image-in-header/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hình ảnh trong tiêu đề
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ đi sâu vào một điều cực kỳ hữu ích cho các tệp PDF của bạn – thêm hình ảnh vào tiêu đề của tài liệu PDF bằng Aspose.PDF cho .NET. Cho dù đó là logo công ty hay hình mờ, tính năng này có thể cực kỳ hữu ích cho việc xây dựng thương hiệu và tùy chỉnh tài liệu. Và đừng lo lắng, tôi sẽ hướng dẫn bạn từng bước trong toàn bộ quy trình, với nhiều chi tiết, giúp bạn dễ dàng thực hiện theo!
+Trong hướng dẫn này, chúng ta sẽ đi sâu vào một điều cực kỳ hữu ích cho các tệp PDF của bạn – thêm hình ảnh vào tiêu đề của tài liệu PDF bằng Aspose.PDF cho .NET. Cho dù đó là logo công ty hay hình mờ, tính năng này có thể cực kỳ có giá trị đối với việc xây dựng thương hiệu và tùy chỉnh tài liệu. Và đừng lo lắng, tôi sẽ hướng dẫn bạn từng bước trong toàn bộ quy trình, với nhiều chi tiết, giúp bạn dễ dàng thực hiện theo!
 
 Đến cuối hướng dẫn này, bạn sẽ có thể dễ dàng chèn hình ảnh vào tiêu đề PDF như một chuyên gia. Chúng ta hãy bắt đầu nhé?
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu vào những điều thú vị, hãy đảm bảo rằng chúng ta có đủ mọi công cụ. Sau đây là những gì bạn cần:
+Trước khi bắt đầu vào phần thú vị, hãy đảm bảo rằng chúng ta có đủ mọi công cụ. Sau đây là những gì bạn cần:
 
-1.  Aspose.PDF cho .NET – Bạn có thể tải xuống thư viện từ[Trang tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF cho .NET – Bạn có thể tải xuống thư viện từ [Trang tải xuống Aspose.PDF cho .NET](https://releases.aspose.com/pdf/net/).
 2. Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn để viết và biên dịch mã C#.
-3.  Giấy phép Aspose hợp lệ – Nhận[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) hoặc kiểm tra[tùy chọn mua](https://purchase.aspose.com/buy).
+3. Giấy phép Aspose hợp lệ – Nhận [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) hoặc kiểm tra [tùy chọn mua](https://purchase.aspose.com/buy).
 4. Một tệp PDF mẫu để chúng ta thêm tiêu đề hình ảnh.
 5. Một tệp hình ảnh (ví dụ: logo ở định dạng JPG hoặc PNG) mà bạn muốn chèn vào tiêu đề.
 
@@ -61,14 +63,14 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument = new Document(dataDir + "ImageinHeader.pdf");
 ```
 
- Chúng tôi đang sử dụng`Document` để tải tệp PDF từ thư mục của bạn. Nếu bạn không có tệp có tên`ImageinHeader.pdf`, bạn có thể thay thế bằng tên tệp PDF của riêng bạn.
+Chúng tôi đang sử dụng `Document` để tải tệp PDF từ thư mục của bạn. Nếu bạn không có tệp có tên `ImageinHeader.pdf`, bạn có thể thay thế bằng tên tệp PDF của riêng bạn.
 
 ## Bước 2: Thêm hình ảnh vào tiêu đề
 
 Bây giờ chúng ta đã tải xong tài liệu PDF, hãy chuyển sang thêm hình ảnh vào đầu mỗi trang.
 
 ### Bước 2.1: Tạo một con dấu hình ảnh
- Để chèn một hình ảnh vào tiêu đề, chúng ta sẽ sử dụng thứ gọi là`ImageStamp`. Nó cho phép chúng ta đặt hình ảnh vào bất kỳ phần nào của PDF và trong trường hợp này, chúng ta sẽ đặt nó vào phần tiêu đề.
+Để chèn một hình ảnh vào tiêu đề, chúng ta sẽ sử dụng thứ gọi là `ImageStamp`. Nó cho phép chúng ta đặt hình ảnh vào bất kỳ phần nào của PDF và trong trường hợp này, chúng ta sẽ đặt nó vào phần tiêu đề.
 
 Sau đây là mã để tạo tem:
 
@@ -77,7 +79,7 @@ Sau đây là mã để tạo tem:
 ImageStamp imageStamp = new ImageStamp(dataDir + "aspose-logo.jpg");
 ```
 
- Trong đoạn trích này, chúng tôi đang tải một hình ảnh (trong trường hợp này là một logo) từ`dataDir` thư mục. Đảm bảo bạn đã lưu tệp hình ảnh vào đúng thư mục hoặc điều chỉnh đường dẫn cho phù hợp.
+Trong đoạn trích này, chúng tôi đang tải một hình ảnh (trong trường hợp này là một logo) từ `dataDir` thư mục. Đảm bảo bạn đã lưu tệp hình ảnh vào đúng thư mục hoặc điều chỉnh đường dẫn cho phù hợp.
 
 ### Bước 2.2: Tùy chỉnh Thuộc tính của Con dấu
 Tiếp theo, chúng ta sẽ tùy chỉnh vị trí và căn chỉnh của hình ảnh trong tiêu đề. Bạn muốn nó trông hoàn hảo, phải không?
@@ -141,19 +143,21 @@ Thêm hình ảnh vào tiêu đề PDF là một nhiệm vụ đơn giản khi b
 Có, bạn có thể! Thay vì áp dụng cùng một hình ảnh cho tất cả các trang, bạn có thể thêm logic có điều kiện để sử dụng các hình ảnh khác nhau cho các trang cụ thể.
 
 ### Tôi có thể điều chỉnh những thuộc tính nào khác cho con dấu hình ảnh?
- Bạn có thể kiểm soát các thuộc tính như độ mờ đục, độ xoay và tỷ lệ. Kiểm tra[Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để có thêm nhiều lựa chọn hơn.
+Bạn có thể kiểm soát các thuộc tính như độ mờ đục, độ xoay và tỷ lệ. Kiểm tra [Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/net/) để có thêm nhiều lựa chọn hơn.
 
 ### Aspose.PDF cho .NET có miễn phí sử dụng không?
- Không, đó là một thư viện trả phí. Tuy nhiên, bạn có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/) hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)để dùng thử các tính năng của nó.
+Không, đó là một thư viện trả phí. Tuy nhiên, bạn có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/) hoặc một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để dùng thử các tính năng của nó.
 
 ### Tôi có thể sử dụng hình ảnh PNG thay vì JPG cho phần tiêu đề không?
- Chắc chắn rồi!`ImageStamp` Lớp này hỗ trợ nhiều định dạng khác nhau như JPG, PNG và BMP.
+Chắc chắn rồi! `ImageStamp` Lớp này hỗ trợ nhiều định dạng khác nhau như JPG, PNG và BMP.
 
 ### Làm thế nào để chèn văn bản cùng với hình ảnh vào tiêu đề?
- Bạn có thể sử dụng`TextStamp` lớp học kết hợp với`ImageStamp` để chèn cả văn bản và hình ảnh vào tiêu đề.
+Bạn có thể sử dụng `TextStamp` lớp học kết hợp với `ImageStamp` để chèn cả văn bản và hình ảnh vào tiêu đề.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

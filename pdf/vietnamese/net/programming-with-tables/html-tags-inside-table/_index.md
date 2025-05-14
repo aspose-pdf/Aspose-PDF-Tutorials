@@ -1,14 +1,16 @@
 ---
-title: Thẻ HTML bên trong bảng trong tệp PDF
-linktitle: Thẻ HTML bên trong bảng trong tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách nhúng thẻ HTML vào các ô bảng trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tạo tài liệu PDF động và chuyên nghiệp.
-weight: 100
-url: /vi/net/programming-with-tables/html-tags-inside-table/
+"description": "Tìm hiểu cách nhúng thẻ HTML vào các ô bảng trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tạo tài liệu PDF động và chuyên nghiệp."
+"linktitle": "Thẻ HTML bên trong bảng trong tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thẻ HTML bên trong bảng trong tệp PDF"
+"url": "/vi/net/programming-with-tables/html-tags-inside-table/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thẻ HTML bên trong bảng trong tệp PDF
@@ -21,9 +23,9 @@ Khi làm việc với PDF trong .NET, thư viện Aspose.PDF là một công c�
 
 Trước khi xem hướng dẫn từng bước, hãy đảm bảo rằng bạn có đủ các công cụ và tài nguyên cần thiết để thực hiện theo.
 
--  Aspose.PDF cho .NET: Bạn sẽ cần phiên bản mới nhất của Aspose.PDF.[Tải xuống tại đây](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF cho .NET: Bạn sẽ cần phiên bản mới nhất của Aspose.PDF. [Tải xuống tại đây](https://releases.aspose.com/pdf/net/).
 - Môi trường .NET: Đảm bảo bạn có Visual Studio hoặc bất kỳ IDE tương thích nào khác được thiết lập với .NET framework.
--  Giấy phép: Nếu bạn không sử dụng phiên bản được cấp phép của Aspose.PDF, bạn có thể lấy[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+- Giấy phép: Nếu bạn không sử dụng phiên bản được cấp phép của Aspose.PDF, bạn có thể lấy [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 - Hiểu biết cơ bản về C#: Có kiến thức cơ bản về C# và lập trình hướng đối tượng sẽ rất hữu ích.
 - Kiến thức về HTML: Một số hiểu biết về cấu trúc HTML sẽ có ích cho hướng dẫn này.
 
@@ -47,11 +49,11 @@ Bước đầu tiên là xác định đường dẫn đến thư mục tài li�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. Điều này rất cần thiết để khi tài liệu được tạo, bạn có thể dễ dàng định vị được tệp đó.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF của mình. Điều này rất cần thiết để khi tài liệu được tạo, bạn có thể dễ dàng định vị được tệp đó.
 
 ## Bước 2: Tạo và điền nội dung HTML vào DataTable
 
- Bây giờ, chúng ta tạo ra một`DataTable` để giữ dữ liệu sẽ được hiển thị bên trong bảng trong PDF của chúng tôi. Điều này`DataTable` sẽ lưu trữ nội dung HTML, chẳng hạn như`<li>` thẻ mà chúng ta muốn nhúng vào trong các ô.
+Bây giờ, chúng ta tạo ra một `DataTable` để giữ dữ liệu sẽ được hiển thị bên trong bảng trong PDF của chúng tôi. Điều này `DataTable` sẽ lưu trữ nội dung HTML, chẳng hạn như `<li>` thẻ mà chúng ta muốn nhúng vào trong các ô.
 
 ```csharp
 // Tạo một DataTable và thêm các cột
@@ -59,7 +61,7 @@ DataTable dt = new DataTable("Employee");
 dt.Columns.Add("data", System.Type.GetType("System.String"));
 ```
 
- Một khi`DataTable` được tạo, bạn sẽ cần điền nội dung HTML mà bạn muốn hiển thị trong bảng. Trong trường hợp này, chúng tôi sẽ thêm các mục danh sách HTML có địa chỉ.
+Một khi `DataTable` được tạo, bạn sẽ cần điền nội dung HTML mà bạn muốn hiển thị trong bảng. Trong trường hợp này, chúng tôi sẽ thêm các mục danh sách HTML có địa chỉ.
 
 ```csharp
 // Thêm hàng có nội dung HTML
@@ -74,7 +76,7 @@ dr[0] = "<li>UPHS/Presbyterian - Dept. of Emergency Medicine: 51 N. 39th Street 
 dt.Rows.Add(dr);
 ```
 
-Bước này đảm bảo rằng các ô trong bảng sẽ chứa nội dung được định dạng HTML, nội dung này sẽ được hiển thị chính xác bên trong tài liệu PDF.
+Bước này đảm bảo rằng các ô trong bảng sẽ chứa nội dung định dạng HTML, nội dung này sẽ được hiển thị chính xác bên trong tài liệu PDF.
 
 ## Bước 3: Tạo một tài liệu PDF mới
 
@@ -107,7 +109,7 @@ Trong bước này, bạn đã tạo thành công một bảng và thiết lập
 
 ## Bước 5: Xác định Padding và Nhập dữ liệu
 
- Để tăng cường tính thẩm mỹ trực quan của bảng, chúng ta sẽ xác định phần đệm cho các ô. Sau đó, chúng ta nhập`DataTable` với nội dung HTML vào bảng PDF.
+Để tăng cường tính thẩm mỹ trực quan của bảng, chúng ta sẽ xác định phần đệm cho các ô. Sau đó, chúng ta nhập `DataTable` với nội dung HTML vào bảng PDF.
 
 ```csharp
 // Đặt phần đệm cho các ô trong bảng
@@ -121,7 +123,7 @@ tableProvider.DefaultCellPadding = margin;
 tableProvider.ImportDataTable(dt, false, 0, 0, 3, 1, true);
 ```
 
-Bằng cách thiết lập lề, chúng ta cung cấp cho các ô bảng một số không gian thở, làm cho nội dung hấp dẫn hơn về mặt thị giác.`ImportDataTable` phương pháp kéo vào`DataTable` chúng tôi đã tạo trước đó, đảm bảo rằng nội dung HTML được nhúng vào các ô.
+Bằng cách thiết lập lề, chúng ta cung cấp cho các ô bảng một số không gian trống, làm cho nội dung hấp dẫn hơn về mặt thị giác. `ImportDataTable` phương pháp kéo vào `DataTable` chúng tôi đã tạo trước đó, đảm bảo rằng nội dung HTML được nhúng vào các ô.
 
 ## Bước 6: Thêm Bảng vào PDF và Lưu
 
@@ -147,19 +149,21 @@ Bằng cách làm theo các bước trên, bạn đã nhúng thành công các t
 Có, Aspose.PDF có thể xử lý và hiển thị nhiều loại thẻ HTML bên trong các ô bảng, bao gồm danh sách, hình ảnh và liên kết.
 
 ### Làm thế nào để điều chỉnh kích thước các cột trong bảng?  
- Bạn có thể kiểm soát chiều rộng của các cột bằng cách sử dụng`ColumnWidths` thuộc tính bằng cách chỉ định chiều rộng cho mỗi cột.
+Bạn có thể kiểm soát chiều rộng của các cột bằng cách sử dụng `ColumnWidths` thuộc tính bằng cách chỉ định chiều rộng cho mỗi cột.
 
 ### Có thể định dạng văn bản bên trong ô của bảng không?  
- Chắc chắn rồi! Bạn có thể sử dụng các thẻ HTML như`<b>`, `<i>` , Và`<u>` trong nội dung để định dạng văn bản bên trong các ô của bảng.
+Chắc chắn rồi! Bạn có thể sử dụng các thẻ HTML như `<b>`, `<i>`, Và `<u>` trong nội dung để định dạng văn bản bên trong các ô của bảng.
 
 ### Điều gì xảy ra nếu nội dung HTML của tôi quá lớn so với ô trong bảng?  
 Nếu nội dung tràn ra ngoài ô, bảng sẽ tự động điều chỉnh, nhưng bạn có thể tùy chỉnh kích thước ô và tùy chọn ngắt dòng để kiểm soát cách hiển thị nội dung.
 
 ### Tôi có thể thêm nhiều bảng vào một tài liệu PDF không?  
 Có, bạn có thể thêm nhiều bảng vào tài liệu PDF chỉ bằng cách lặp lại các bước thêm bảng, mỗi bước trên một trang hoặc phần mới của PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

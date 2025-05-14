@@ -1,14 +1,16 @@
 ---
-title: รับลายน้ำจากไฟล์ PDF
-linktitle: รับลายน้ำจากไฟล์ PDF
-second_title: เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET
-description: เรียนรู้วิธีการแยกลายน้ำจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน บทช่วยสอนโดยละเอียดสำหรับการแยกลายน้ำ
-weight: 100
-url: /th/net/programming-with-stamps-and-watermarks/get-watermark/
+"description": "เรียนรู้วิธีการแยกลายน้ำจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน บทช่วยสอนโดยละเอียดสำหรับการแยกลายน้ำ"
+"linktitle": "รับลายน้ำจากไฟล์ PDF"
+"second_title": "เอกสารอ้างอิง Aspose.PDF สำหรับ API ของ .NET"
+"title": "รับลายน้ำจากไฟล์ PDF"
+"url": "/th/net/programming-with-stamps-and-watermarks/get-watermark/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับลายน้ำจากไฟล์ PDF
@@ -21,12 +23,12 @@ url: /th/net/programming-with-stamps-and-watermarks/get-watermark/
 
 ก่อนที่จะเจาะลึกโค้ด มีบางสิ่งที่คุณต้องมีเพื่อปฏิบัติตามบทช่วยสอนนี้:
 
--  Aspose.PDF สำหรับไลบรารี .NET: ดาวน์โหลดไลบรารีจาก[ที่นี่](https://releases.aspose.com/pdf/net/) หรือใช้ตัวจัดการแพ็กเกจ NuGet เพื่อติดตั้ง
+- Aspose.PDF สำหรับไลบรารี .NET: ดาวน์โหลดไลบรารีจาก [ที่นี่](https://releases.aspose.com/pdf/net/) หรือใช้ตัวจัดการแพ็กเกจ NuGet เพื่อติดตั้ง
 - สภาพแวดล้อมการพัฒนา .NET: คุณสามารถใช้ Visual Studio หรือ IDE ใดๆ ที่ต้องการสำหรับการพัฒนา C#
 - ความรู้พื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ถือว่าคุณมีความเข้าใจเบื้องต้นเกี่ยวกับการพัฒนา C# และ .NET
--  ไฟล์ PDF: เตรียมไฟล์ PDF ที่มีลายน้ำไว้สำหรับการทดสอบ เราจะเรียกไฟล์นี้ว่า`watermark.pdf` ตลอดการสอน
+- ไฟล์ PDF: เตรียมไฟล์ PDF ที่มีลายน้ำไว้สำหรับการทดสอบ เราจะเรียกไฟล์นี้ว่า `watermark.pdf` ตลอดการสอน
 
- หากต้องการเริ่มต้นใช้งาน Aspose.PDF คุณสามารถสำรวจ[เอกสารประกอบ](https://reference.aspose.com/pdf/net/) เพื่อรับภาพรวมของห้องสมุด
+หากต้องการเริ่มต้นใช้งาน Aspose.PDF คุณสามารถสำรวจ [เอกสารประกอบ](https://reference.aspose.com/pdf/net/) เพื่อรับภาพรวมของห้องสมุด
 
 ## แพ็คเกจนำเข้า
 
@@ -52,7 +54,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- บรรทัดนี้จะกำหนดตำแหน่งของไฟล์ PDF ของคุณบนระบบของคุณ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยไดเร็กทอรีจริงที่คุณอยู่`watermark.pdf` จะถูกเก็บไว้ ตัวอย่างเช่น:
+บรรทัดนี้จะกำหนดตำแหน่งของไฟล์ PDF ของคุณบนระบบของคุณ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยไดเร็กทอรีจริงที่คุณอยู่ `watermark.pdf` จะถูกเก็บไว้ ตัวอย่างเช่น:
 
 ```csharp
 string dataDir = "C:\\MyDocuments\\";
@@ -60,13 +62,13 @@ string dataDir = "C:\\MyDocuments\\";
 
 ## ขั้นตอนที่ 2: เปิดเอกสาร PDF
 
- ขั้นตอนถัดไปคือการโหลดไฟล์ PDF ลงใน`Aspose.Pdf.Document` วัตถุ วัตถุนี้แสดงไฟล์ PDF และให้คุณโต้ตอบกับเนื้อหาได้:
+ขั้นตอนถัดไปคือการโหลดไฟล์ PDF ลงใน `Aspose.Pdf.Document` วัตถุ วัตถุนี้แสดงไฟล์ PDF และให้คุณโต้ตอบกับเนื้อหาได้:
 
 ```csharp
 Document pdfDocument = new Document(dataDir + "watermark.pdf");
 ```
 
- ที่นี่เราใช้`Document` คลาสจากไลบรารี Aspose.PDF เพื่อโหลด`watermark.pdf` ไฟล์ที่อยู่ในไดเรกทอรีที่ระบุ โปรดตรวจสอบให้แน่ใจว่าไฟล์มีอยู่ในเส้นทางที่คุณกำลังอ้างอิง มิฉะนั้นคุณจะพบข้อผิดพลาดไม่พบไฟล์
+ที่นี่เราใช้ `Document` คลาสจากไลบรารี Aspose.PDF เพื่อโหลด `watermark.pdf` ไฟล์ที่อยู่ในไดเรกทอรีที่ระบุ โปรดตรวจสอบให้แน่ใจว่าไฟล์มีอยู่ในเส้นทางที่คุณกำลังอ้างอิง มิฉะนั้นคุณจะพบข้อผิดพลาดไม่พบไฟล์
 
 ## ขั้นตอนที่ 3: เข้าถึงสิ่งประดิษฐ์ของหน้าแรก
 
@@ -79,7 +81,7 @@ foreach (Artifact artifact in pdfDocument.Pages[1].Artifacts)
 }
 ```
 
- ในลูปนี้เราจะเข้าถึง`Artifacts` รวมหน้าแรก (`Pages[1]` ) หาก PDF ของคุณมีลายน้ำบนหน้าต่างๆ คุณอาจต้องแก้ไขดัชนีหน้าให้เหมาะสม แต่ละหน้าใน PDF เป็นแบบฐานศูนย์ ดังนั้นหน้าแรกจึงเป็น`Pages[1]`.
+ในลูปนี้เราจะเข้าถึง `Artifacts` รวมหน้าแรก (`Pages[1]`) หาก PDF ของคุณมีลายน้ำบนหน้าต่างๆ คุณอาจต้องแก้ไขดัชนีหน้าให้เหมาะสม แต่ละหน้าใน PDF เป็นแบบฐานศูนย์ ดังนั้นหน้าแรกจึงเป็น `Pages[1]`-
 
 ## ขั้นตอนที่ 4: ดึงข้อมูลลายน้ำ
 
@@ -101,7 +103,7 @@ Console.WriteLine(artifact.Subtype + " " + artifact.Text + " " + artifact.Rectan
 
 อย่าลืมทดลองใช้ PDF ที่แตกต่างกัน เนื่องจากวิธีการนำลายน้ำไปใช้อาจแตกต่างกันไปในแต่ละเอกสาร และอย่าลืมว่า Aspose.PDF สามารถทำได้มากกว่าแค่จัดการลายน้ำเท่านั้น เนื่องจากชุดคุณลักษณะอันหลากหลายของ Aspose.PDF ช่วยให้จัดการ PDF ได้อย่างกว้างขวาง
 
- หากต้องการทราบข้อมูลโดยละเอียดเพิ่มเติม สามารถเข้าไปที่[Aspose.PDF สำหรับเอกสาร .NET](https://reference.aspose.com/pdf/net/) และสำรวจต่อไป
+หากต้องการทราบข้อมูลโดยละเอียดเพิ่มเติม สามารถเข้าไปที่ [Aspose.PDF สำหรับเอกสาร .NET](https://reference.aspose.com/pdf/net/) และสำรวจต่อไป
 
 ## คำถามที่พบบ่อย
 
@@ -109,7 +111,7 @@ Console.WriteLine(artifact.Subtype + " " + artifact.Text + " " + artifact.Rectan
 ใช่ Aspose.PDF สามารถแยกลายน้ำที่เป็นข้อความและรูปภาพจาก PDF ได้ คุณสมบัติสิ่งประดิษฐ์จะให้ข้อมูลเกี่ยวกับประเภทลายน้ำทั้งหมด
 
 ### จะเกิดอะไรขึ้นถ้าลายน้ำของฉันอยู่ในหน้าอื่น?
- คุณสามารถเปลี่ยนดัชนีหน้าได้ใน`pdfDocument.Pages[]` อาร์เรย์สำหรับเข้าถึงสิ่งประดิษฐ์ในหน้าอื่น
+คุณสามารถเปลี่ยนดัชนีหน้าได้ใน `pdfDocument.Pages[]` อาร์เรย์เพื่อเข้าถึงสิ่งประดิษฐ์ในหน้าอื่น
 
 ### มีวิธีลบลายน้ำออกหลังจากการดึงกลับมาหรือไม่
 ใช่ คุณสามารถใช้ Aspose.PDF ไม่เพียงแต่เพื่ออ่านแต่ยังลบลายน้ำจากไฟล์ PDF ได้ด้วย ไลบรารีนี้มีวิธีการสำหรับการแก้ไขหรือลบสิ่งประดิษฐ์
@@ -119,9 +121,11 @@ Console.WriteLine(artifact.Subtype + " " + artifact.Text + " " + artifact.Rectan
 
 ### Aspose.PDF เข้ากันได้กับ .NET Core หรือไม่
 ใช่ Aspose.PDF เข้ากันได้กับทั้ง .NET Framework และ .NET Core จึงทำให้มีความยืดหยุ่นสำหรับโปรเจ็กต์ประเภทต่างๆ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF ke PDFA
-linktitle: PDF ke PDFA
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara mengonversi file PDF ke format PDF/A menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini.
-weight: 140
-url: /id/net/document-conversion/pdf-to-pdfa/
+"description": "Pelajari cara mengonversi file PDF ke format PDF/A menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini."
+"linktitle": "PDF ke PDFA"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "PDF ke PDFA"
+"url": "/id/net/document-conversion/pdf-to-pdfa/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF ke PDFA
@@ -19,15 +21,15 @@ Dalam panduan ini, kami akan memandu Anda melalui proses langkah demi langkah un
 
 ## Prasyarat
 
-Sebelum kita mulai mengonversi PDF, mari pastikan Anda memiliki semua yang diperlukan untuk memulai Aspose.PDF untuk .NET. Berikut ini yang Anda perlukan:
+Sebelum kita mulai mengonversi PDF, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai dengan Aspose.PDF untuk .NET. Berikut ini yang Anda perlukan:
 
 1. Keakraban dengan C#: Meskipun kami akan memandu Anda melalui setiap langkah, pemahaman dasar tentang pemrograman C# akan membantu Anda memahami konsepnya dengan lebih mudah.
 2. Lingkungan .NET: Pastikan Anda telah menginstal .NET Framework; ini bisa berupa .NET Core atau .NET 5/6, karena Aspose.PDF mendukung berbagai kerangka kerja.
-3.  Pustaka Aspose.PDF: Buka[Halaman unduhan PDF Aspose](https://releases.aspose.com/pdf/net)untuk mendapatkan versi terbaru pustaka tersebut. Anda dapat memilih uji coba gratis jika belum siap untuk membeli.
+3. Pustaka Aspose.PDF: Buka [Halaman unduhan Aspose PDF](https://releases.aspose.com/pdf/net) untuk mendapatkan versi terbaru pustaka tersebut. Anda dapat memilih uji coba gratis jika belum siap untuk membeli.
 4. Visual Studio atau IDE apa pun: Instal IDE pilihan Anda tempat Anda dapat menulis dan mengeksekusi kode C#.
 5. Contoh Berkas PDF: Untuk mengonversi, Anda memerlukan setidaknya satu dokumen PDF. Anda dapat membuat dokumen sederhana menggunakan perangkat lunak penyuntingan PDF atau mengunduh contoh PDF.
 
-Sekarang setelah Anda memiliki semua hal penting, mari lanjutkan untuk mengimpor paket yang diperlukan dan menyiapkan proyek kita.
+Sekarang setelah Anda memiliki semua hal penting, mari lanjutkan dengan mengimpor paket yang diperlukan dan menyiapkan proyek kita.
 
 ## Paket Impor
 
@@ -68,7 +70,7 @@ Sebelum memulai konversi, kita perlu menentukan lokasi dokumen PDF kita. Sangat 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cukup ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Langkah ini menyiapkan kita untuk membuka dokumen tersebut.
+Cukup ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas PDF Anda. Langkah ini menyiapkan kita untuk membuka dokumen tersebut.
 
 ## Langkah 2: Buka Dokumen PDF
 
@@ -88,7 +90,7 @@ Kini tibalah saatnya! Kita akan mengonversi PDF yang telah kita muat menjadi dok
 pdfDocument.Convert(dataDir + "log.xml", PdfFormat.PDF_A_1B, ConvertErrorAction.Delete);
 ```
 
- Di sini, kami tidak hanya mengonversi dokumen; kami juga melakukan validasi selama konversi.`log.xml` file akan berisi kesalahan apa pun yang mungkin muncul di sepanjang jalan. Jika Anda mau, Anda dapat mengubahnya`ConvertErrorAction.Delete` ke pilihan lain seperti`ConvertErrorAction.ThrowException` berdasarkan bagaimana Anda ingin menangani hambatan potensial apa pun.
+Di sini, kita tidak hanya mengonversi dokumen; kita juga melakukan validasi selama konversi. `log.xml` file akan berisi kesalahan apa pun yang mungkin muncul di sepanjang jalan. Jika Anda mau, Anda dapat mengubahnya `ConvertErrorAction.Delete` ke pilihan lain seperti `ConvertErrorAction.ThrowException` berdasarkan bagaimana Anda ingin menangani potensi kendala apa pun.
 
 ## Langkah 4: Simpan Dokumen Output
 
@@ -99,7 +101,7 @@ dataDir = dataDir + "PDFToPDFA_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Itu`Save`metode ini adalah jaminan Anda bahwa semua perubahan dan konversi tersebut telah diselesaikan dan ditulis ke dalam dokumen PDF baru.
+Itu `Save` metode ini adalah jaminan Anda bahwa semua perubahan dan konversi tersebut telah diselesaikan dan ditulis ke dalam dokumen PDF baru.
 
 ## Langkah 5: Konfirmasikan Konversi
 
@@ -125,16 +127,18 @@ PDF/A adalah versi PDF standar ISO yang dirancang khusus untuk pelestarian digit
 Ya, dengan sedikit modifikasi pada kode Anda, Anda dapat mengulang direktori dan mengonversi beberapa dokumen PDF.
 
 ### Apakah ada uji coba gratis untuk Aspose.PDF?
-Tentu saja! Anda dapat mencoba Aspose.PDF secara gratis untuk waktu terbatas. Kunjungi[halaman percobaan gratis](https://releases.aspose.com/) untuk memulai.
+Tentu saja! Anda dapat mencoba Aspose.PDF secara gratis untuk waktu terbatas. Kunjungi [halaman uji coba gratis](https://releases.aspose.com/) untuk memulai.
 
 ### Penanganan kesalahan apa yang harus saya gunakan selama konversi?
- Anda dapat memilih untuk mencatat kesalahan, melempar pengecualian, atau menghilangkannya berdasarkan kebutuhan Anda melalui`ConvertErrorAction` parameter.
+Anda dapat memilih untuk mencatat kesalahan, melempar pengecualian, atau menghilangkannya berdasarkan kebutuhan Anda melalui `ConvertErrorAction` parameter.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.PDF?
- Untuk bantuan apa pun, jangan ragu untuk mengunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Untuk bantuan apa pun, jangan ragu untuk mengunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

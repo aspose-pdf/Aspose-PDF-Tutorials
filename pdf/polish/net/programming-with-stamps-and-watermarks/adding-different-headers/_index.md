@@ -1,14 +1,16 @@
 ---
-title: Dodawanie różnych nagłówków w pliku PDF
-linktitle: Dodawanie różnych nagłówków w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak dodawać różne nagłówki do plików PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku dotyczący dostosowywania plików PDF.
-weight: 30
-url: /pl/net/programming-with-stamps-and-watermarks/adding-different-headers/
+"description": "Dowiedz się, jak dodawać różne nagłówki do plików PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku dotyczący dostosowywania plików PDF."
+"linktitle": "Dodawanie różnych nagłówków w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Dodawanie różnych nagłówków w pliku PDF"
+"url": "/pl/net/programming-with-stamps-and-watermarks/adding-different-headers/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie różnych nagłówków w pliku PDF
@@ -22,7 +24,7 @@ W tym artykule zagłębimy się w używanie Aspose.PDF dla .NET, aby dodawać r�
 Zanim przejdziemy do kwestii kodowania, jest kilka rzeczy, które musisz mieć, aby móc korzystać z tego samouczka:
 
 - Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio, ponieważ będziemy go używać do uruchamiania kodu .NET.
--  Biblioteka Aspose.PDF: Będziesz potrzebować biblioteki Aspose.PDF. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/pdf/net/) . Jeśli jesteś w tym nowy, możesz spróbować[bezpłatny okres próbny](https://releases.aspose.com/).
+- Biblioteka Aspose.PDF: Będziesz potrzebować biblioteki Aspose.PDF. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/pdf/net/). Jeśli jesteś w tym nowy, możesz spróbować [bezpłatny okres próbny](https://releases.aspose.com/).
 - .NET Framework: Upewnij się, że masz zainstalowaną zgodną wersję .NET Framework, aby móc uruchomić bibliotekę Aspose.PDF.
 
 Mając te wymagania wstępne na uwadze, będziesz gotowy do utworzenia własnego pliku PDF z konfigurowalnymi nagłówkami!
@@ -44,7 +46,7 @@ Upewnij się, że te polecenia znajdują się na początku pliku C#, dzięki cze
 
 ## Krok 1: Określ ścieżkę do swojego dokumentu
 
- Najpierw ustawmy ścieżkę do katalogu dokumentów PDF. Tutaj będziemy uzyskiwać dostęp do pliku PDF i zapisywać zaktualizowany plik. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie.
+Najpierw ustawmy ścieżkę do katalogu dokumentów PDF. Tutaj będziemy uzyskiwać dostęp do pliku PDF i zapisywać zaktualizowany plik. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Otwórz dokument źródłowy
 
- Teraz, gdy ustawiliśmy katalog dokumentów, następnym krokiem jest otwarcie pliku PDF, do którego chcemy dodać nagłówki. Użyjemy`Aspose.Pdf.Document` klasa za to.
+Teraz, gdy ustawiliśmy katalog dokumentów, następnym krokiem jest otwarcie pliku PDF, do którego chcemy dodać nagłówki. Użyjemy `Aspose.Pdf.Document` klasa za to.
 
 ```csharp
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddingDifferentHeaders.pdf");
@@ -129,12 +131,12 @@ To wszystko! Udało Ci się dodać różne nagłówki do pliku PDF.
 
 ## Wniosek
 
-tym samouczku omówiliśmy, jak używać Aspose.PDF dla .NET, aby dodawać niestandardowe nagłówki do wielu stron w dokumencie PDF. Za pomocą odrobiny kodu możesz łatwo sprawić, aby Twoje dokumenty były bardziej profesjonalne i atrakcyjne wizualnie. 
+W tym samouczku omówiliśmy, jak używać Aspose.PDF dla .NET, aby dodawać niestandardowe nagłówki do wielu stron w dokumencie PDF. Za pomocą odrobiny kodu możesz łatwo sprawić, aby Twoje dokumenty były bardziej profesjonalne i atrakcyjne wizualnie. 
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę zmienić czcionkę nagłówka?  
- Tak, możesz! Modyfikuj`stamp.TextState.Font` właściwość umożliwiająca zastosowanie dowolnej czcionki spośród dostępnych w programie Aspose.
+Tak, możesz! Modyfikuj `stamp.TextState.Font` właściwość umożliwiająca zastosowanie dowolnej czcionki spośród dostępnych w programie Aspose.
 
 ### Czy istnieje limit liczby nagłówków, które mogę dodać?  
 Nie, możesz dodać tyle nagłówków, ile chcesz; pamiętaj tylko, aby dla każdego utworzyć odpowiedni znaczek.
@@ -143,13 +145,15 @@ Nie, możesz dodać tyle nagłówków, ile chcesz; pamiętaj tylko, aby dla każ
 Obecnie ten samouczek skupia się na stemplach tekstowych, ale Aspose.PDF pozwala również na dodawanie stempli obrazkowych.
 
 ### Jak mogę wyrównać nagłówek do środka w pionie?  
- Możesz użyć`VerticalAlignment.Center` w tym celu należy zadbać o idealne dopasowanie.
+Możesz użyć `VerticalAlignment.Center` w tym celu należy zadbać o idealne dopasowanie.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.PDF?  
- Możesz sprawdzić[dokumentacja](https://reference.aspose.com/pdf/net/) aby uzyskać szczegółowe wskazówki i przykłady.
+Możesz sprawdzić [dokumentacja](https://reference.aspose.com/pdf/net/) aby uzyskać szczegółowe wskazówki i przykłady.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

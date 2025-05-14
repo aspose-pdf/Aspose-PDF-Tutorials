@@ -1,14 +1,16 @@
 ---
-title: การเพิ่มส่วนหัวที่แตกต่างกันในไฟล์ PDF หนึ่งไฟล์โดยใช้ Java
-linktitle: การเพิ่มส่วนหัวที่แตกต่างกันในไฟล์ PDF หนึ่งไฟล์โดยใช้ Java
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: เรียนรู้วิธีการเพิ่มส่วนหัวต่างๆ ในไฟล์ PDF หนึ่งไฟล์โดยใช้ Java กับ Aspose.PDF คำแนะนำทีละขั้นตอนสำหรับการปรับแต่งส่วนหัว PDF
-weight: 11
-url: /th/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/
+"description": "เรียนรู้วิธีการเพิ่มส่วนหัวต่างๆ ในไฟล์ PDF หนึ่งไฟล์โดยใช้ Java กับ Aspose.PDF คำแนะนำทีละขั้นตอนสำหรับการปรับแต่งส่วนหัว PDF"
+"linktitle": "การเพิ่มส่วนหัวที่แตกต่างกันในไฟล์ PDF หนึ่งไฟล์โดยใช้ Java"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "การเพิ่มส่วนหัวที่แตกต่างกันในไฟล์ PDF หนึ่งไฟล์โดยใช้ Java"
+"url": "/th/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-using-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเพิ่มส่วนหัวที่แตกต่างกันในไฟล์ PDF หนึ่งไฟล์โดยใช้ Java
@@ -16,13 +18,13 @@ url: /th/java/pdf-document-operations/adding-different-headers-in-one-pdf-file-u
 
 ## บทนำสู่การเพิ่มส่วนหัวที่แตกต่างกันในไฟล์ PDF หนึ่งไฟล์โดยใช้ Java
 
-ในแวดวงการประมวลผลเอกสารใน Java Aspose.PDF ถือเป็นพันธมิตรที่ทรงพลัง ช่วยให้นักพัฒนาสามารถจัดการไฟล์ PDF ได้อย่างง่ายดายและมีประสิทธิภาพ ข้อกำหนดทั่วไปอย่างหนึ่งคือการเพิ่มส่วนหัวที่แตกต่างกันในหน้าต่างๆ ภายในไฟล์ PDF ไฟล์เดียว ในคู่มือทีละขั้นตอนนี้ เราจะเจาะลึกถึงการทำงานนี้ให้สำเร็จโดยใช้ Aspose.PDF สำหรับ Java 
+ในแวดวงการประมวลผลเอกสารใน Java Aspose.PDF ถือเป็นพันธมิตรที่ทรงพลัง ช่วยให้นักพัฒนาสามารถจัดการไฟล์ PDF ได้อย่างง่ายดายและมีประสิทธิภาพ ข้อกำหนดทั่วไปอย่างหนึ่งคือการเพิ่มส่วนหัวที่แตกต่างกันลงในหน้าต่างๆ ภายในไฟล์ PDF ไฟล์เดียว ในคู่มือทีละขั้นตอนนี้ เราจะเจาะลึกถึงการทำงานนี้ให้สำเร็จโดยใช้ Aspose.PDF สำหรับ Java 
 
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่เราจะเริ่มต้นการเดินทางครั้งนี้ ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.PDF สำหรับ Java Library: ดาวน์โหลดและติดตั้งจาก[ที่นี่](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF สำหรับ Java Library: ดาวน์โหลดและติดตั้งจาก [ที่นี่](https://releases-aspose.com/pdf/java/).
 
 ตอนนี้เรามาดูรายละเอียดเล็กๆ น้อยๆ ของการเพิ่มส่วนหัวต่างๆ ลงในไฟล์ PDF ทีละขั้นตอนกัน
 
@@ -50,7 +52,7 @@ Document pdfDocument = new Document();
 
 ## ขั้นตอนที่ 4: เพิ่มหน้าลงใน PDF
 
-เพิ่มหน้าที่จำเป็นลงในเอกสาร PDF ของคุณ สำหรับแต่ละหน้า คุณสามารถกำหนดส่วนหัวที่แตกต่างกันได้ตามต้องการ นี่คือตัวอย่างการเพิ่มหน้าสามหน้า:
+เพิ่มหน้าที่จำเป็นลงในเอกสาร PDF ของคุณ สำหรับแต่ละหน้า คุณสามารถกำหนดส่วนหัวที่แตกต่างกันได้ตามต้องการ นี่คือตัวอย่างการเพิ่มสามหน้า:
 
 ```java
 Page page1 = pdfDocument.getPages().add();
@@ -89,7 +91,7 @@ page3.setHeader(header3);
 pdfDocument.save("output.pdf");
 ```
 
-ขอแสดงความยินดี! คุณได้เพิ่มส่วนหัวที่แตกต่างกันลงในไฟล์ PDF เดียวโดยใช้ Aspose.PDF สำหรับ Java สำเร็จแล้ว
+ขอแสดงความยินดี! คุณได้เพิ่มส่วนหัวต่างๆ ลงในไฟล์ PDF เดียวสำเร็จแล้วโดยใช้ Aspose.PDF สำหรับ Java
 
 ## บทสรุป
 
@@ -115,10 +117,12 @@ pdfDocument.save("output.pdf");
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมสำหรับ Aspose.PDF สำหรับ Java ได้ที่ไหน
 
- คุณสามารถสำรวจเอกสารและตัวอย่างที่ครอบคลุมได้ที่[เอกสารอ้างอิง Aspose.PDF สำหรับ Java API](https://reference.aspose.com/pdf/java/).
+คุณสามารถสำรวจเอกสารและตัวอย่างที่ครอบคลุมได้ที่ [เอกสารอ้างอิง Aspose.PDF สำหรับ Java API](https://reference-aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

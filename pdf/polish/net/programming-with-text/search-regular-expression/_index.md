@@ -1,14 +1,16 @@
 ---
-title: Wyszukaj wyrażenie regularne w pliku PDF
-linktitle: Wyszukaj wyrażenie regularne w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak wyszukiwać wyrażenia regularne w plikach PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Zwiększ swoją produktywność dzięki wyrażeniom regularnym.
-weight: 440
-url: /pl/net/programming-with-text/search-regular-expression/
+"description": "Dowiedz się, jak wyszukiwać wyrażenia regularne w plikach PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Zwiększ swoją produktywność dzięki wyrażeniom regularnym."
+"linktitle": "Wyszukaj wyrażenie regularne w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Wyszukaj wyrażenie regularne w pliku PDF"
+"url": "/pl/net/programming-with-text/search-regular-expression/"
+"weight": 440
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyszukaj wyrażenie regularne w pliku PDF
@@ -21,10 +23,10 @@ Pracując z dużymi dokumentami PDF, możesz znaleźć się w sytuacji, w które
 
 Zanim przejdziemy do szczegółowej instrukcji, omówmy, co jest potrzebne:
 
--  Aspose.PDF dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Jeśli jeszcze jej nie zainstalowałeś, możesz[pobierz tutaj](https://releases.aspose.com/pdf/net/).
+- Aspose.PDF dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Jeśli jeszcze jej nie zainstalowałeś, możesz [pobierz tutaj](https://releases.aspose.com/pdf/net/).
 - IDE: Visual Studio lub inne środowisko IDE zgodne z C#.
 - .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany z wykorzystaniem odpowiedniej wersji .NET Framework.
-- Podstawowa znajomość języka C#: Chociaż niniejszy przewodnik jest szczegółowy, podstawowa znajomość języka C# będzie pomocna.
+- Podstawowa znajomość języka C#: Mimo że niniejszy przewodnik jest szczegółowy, podstawowa znajomość języka C# będzie pomocna.
 
 ### Importuj pakiety
 
@@ -40,7 +42,7 @@ Podzielmy proces wyszukiwania wyrażeń regularnych w pliku PDF za pomocą Aspos
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
- Każda operacja PDF zaczyna się od określenia, gdzie znajduje się Twój dokument. Musisz zdefiniować ścieżkę do pliku PDF, który jest przechowywany w`dataDir` zmienny.
+Każda operacja PDF zaczyna się od określenia, gdzie znajduje się Twój dokument. Musisz zdefiniować ścieżkę do pliku PDF, który jest przechowywany w `dataDir` zmienny.
 
 ### Krok 1.1: Zdefiniuj ścieżkę dokumentu
 
@@ -49,22 +51,22 @@ Podzielmy proces wyszukiwania wyrażeń regularnych w pliku PDF za pomocą Aspos
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku PDF. Ten krok jest kluczowy, ponieważ wskazuje kodowi plik, z którym chcesz pracować.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku PDF. Ten krok jest kluczowy, ponieważ wskazuje kodowi plik, z którym chcesz pracować.
 
 ### Krok 1.2: Otwórz dokument PDF
 
- Następnie należy otworzyć dokument PDF za pomocą`Document` klasa z Aspose.PDF.
+Następnie należy otworzyć dokument PDF za pomocą `Document` klasa z Aspose.PDF.
 
 ```csharp
 // Otwórz dokument
 Document pdfDocument = new Document(dataDir + "SearchRegularExpressionAll.pdf");
 ```
 
- Tutaj,`"SearchRegularExpressionAll.pdf"` to przykładowy plik PDF, w którym przeprowadzimy wyszukiwanie za pomocą wyrażeń regularnych.
+Tutaj, `"SearchRegularExpressionAll.pdf"` to przykładowy plik PDF, w którym przeprowadzimy wyszukiwanie za pomocą wyrażeń regularnych.
 
 ## Krok 2: Skonfiguruj TextFragmentAbsorber
 
- To tutaj dzieje się magia!`TextFragmentAbsorber` Klasa ta pomaga w wychwytywaniu fragmentów tekstu, które pasują do określonego wzorca lub wyrażenia regularnego.
+To tutaj dzieje się magia! `TextFragmentAbsorber` Klasa ta pomaga w wychwytywaniu fragmentów tekstu, które pasują do określonego wzorca lub wyrażenia regularnego.
 
 Skonfigurujmy absorber tak, aby znajdował wzorce za pomocą wyrażenia regularnego. W tym przypadku szukamy wzorca lat, takiego jak „1999-2000”.
 
@@ -73,11 +75,11 @@ Skonfigurujmy absorber tak, aby znajdował wzorce za pomocą wyrażenia regularn
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("\\d{4}-\\d{4}"); // Tak jak 1999-2000
 ```
 
- Wyrażenie regularne`\\d{4}-\\d{4}` szuka wzoru składającego się z czterech cyfr, po których następuje myślnik i kolejne cztery cyfry, co jest typowe dla zakresów lat.
+Wyrażenie regularne `\\d{4}-\\d{4}` szuka wzoru składającego się z czterech cyfr, po których następuje myślnik i kolejne cztery cyfry, co jest typowe dla zakresów lat.
 
 ## Krok 3: Włącz wyszukiwanie wyrażeń regularnych
 
- Aby mieć pewność, że operacja wyszukiwania zinterpretuje wzorzec jako wyrażenie regularne, należy skonfigurować opcje wyszukiwania za pomocą`TextSearchOptions` klasa.
+Aby mieć pewność, że operacja wyszukiwania zinterpretuje wzorzec jako wyrażenie regularne, należy skonfigurować opcje wyszukiwania za pomocą `TextSearchOptions` klasa.
 
 ```csharp
 // Ustaw opcję wyszukiwania tekstu, aby określić użycie wyrażenia regularnego
@@ -85,11 +87,11 @@ TextSearchOptions textSearchOptions = new TextSearchOptions(true);
 textFragmentAbsorber.TextSearchOptions = textSearchOptions;
 ```
 
- Ustawianie`TextSearchOptions` Do`true` zapewnia, że absorber korzysta z wyszukiwania opartego na wyrażeniach regularnych, a nie na zwykłym tekście.
+Ustawianie `TextSearchOptions` Do `true` zapewnia, że absorber korzysta z wyszukiwania opartego na wyrażeniach regularnych, a nie na zwykłym tekście.
 
 ## Krok 4: Zaakceptuj Absorber Tekstu
 
- Na tym etapie stosujesz absorber tekstu do dokumentu PDF, aby mógł on wykonać operację wyszukiwania. Wykonuje się to poprzez wywołanie`Accept` metoda na`Pages` obiekt dokumentu PDF.
+Na tym etapie stosujesz absorber tekstu do dokumentu PDF, aby mógł on wykonać operację wyszukiwania. Wykonuje się to poprzez wywołanie `Accept` metoda na `Pages` obiekt dokumentu PDF.
 
 ```csharp
 // Zaakceptuj absorber dla wszystkich stron
@@ -100,7 +102,7 @@ Polecenie to przetwarza wszystkie strony dokumentu PDF, wyszukując tekst odpowi
 
 ## Krok 5: Wyodrębnij i wyświetl wyniki
 
- Po zakończeniu wyszukiwania należy wyodrębnić wyniki.`TextFragmentAbsorber` przechowuje te wyniki w`TextFragmentCollection`Możesz przeglądać tę kolekcję w pętli, aby uzyskać dostęp do każdego pasującego fragmentu tekstu i wyświetlić go.
+Po zakończeniu wyszukiwania należy wyodrębnić wyniki. `TextFragmentAbsorber` przechowuje te wyniki w `TextFragmentCollection`Możesz przeglądać tę kolekcję w pętli, aby uzyskać dostęp do każdego pasującego fragmentu tekstu i wyświetlić go.
 
 ### Krok 5.1: Pobierz wyodrębnione fragmenty tekstu
 
@@ -130,7 +132,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
- Dla każdego`TextFragment`, szczegóły takie jak rozmiar czcionki, nazwa czcionki i pozycja są drukowane. To nie tylko pomaga w znalezieniu tekstu, ale także podaje jego dokładne formatowanie i lokalizację.
+Dla każdego `TextFragment`, szczegóły takie jak rozmiar czcionki, nazwa czcionki i pozycja są drukowane. To nie tylko pomaga w znalezieniu tekstu, ale także podaje jego dokładne formatowanie i lokalizację.
 
 ## Wniosek
 
@@ -139,22 +141,24 @@ Oto masz! Wyszukiwanie wzorców w pliku PDF za pomocą wyrażeń regularnych jes
 ## Najczęściej zadawane pytania
 
 ### Czy mogę wyszukiwać wiele wzorów w jednym pliku PDF?
- Tak, możesz uruchomić wiele`TextFragmentAbsorber` obiektów, każdy z innymi wzorcami wyrażeń regularnych, w tym samym pliku PDF.
+Tak, możesz uruchomić wiele `TextFragmentAbsorber` obiektów, każdy z innymi wzorcami wyrażeń regularnych, w tym samym pliku PDF.
 
 ### Czy Aspose.PDF obsługuje wyszukiwanie wzorców bez względu na wielkość liter?
- Oczywiście! Możesz skonfigurować`TextSearchOptions` aby wyszukiwanie nie uwzględniało wielkości liter.
+Oczywiście! Możesz skonfigurować `TextSearchOptions` aby wyszukiwanie nie uwzględniało wielkości liter.
 
 ### Czy istnieje ograniczenie rozmiaru pliku PDF, w którym mogę przeszukiwać?
 Nie ma ścisłego limitu, ale wydajność może się różnić w zależności od rozmiaru pliku PDF i złożoności wzorca wyrażenia regularnego.
 
-### Czy mogę zaznaczyć znaleziony tekst w pliku PDF?
+### Czy mogę podświetlić znaleziony tekst w pliku PDF?
 Tak, Aspose.PDF pozwala na podświetlanie lub nawet zastępowanie tekstu po jego znalezieniu za pomocą absorbera.
 
 ### Jak poradzić sobie z błędami, jeśli wzorzec nie zostanie znaleziony?
- Jeśli nie znaleziono żadnych pasujących wyników,`TextFragmentCollection` będzie pusty. Możesz poradzić sobie z tym scenariuszem za pomocą prostego sprawdzenia przed pętleniem wyników.
+Jeśli nie znaleziono żadnych pasujących wyników, `TextFragmentCollection` będzie pusty. Możesz poradzić sobie z tym scenariuszem za pomocą prostego sprawdzenia przed pętleniem wyników.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

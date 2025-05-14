@@ -1,14 +1,16 @@
 ---
-title: Lấy lại dấu trang từ tài liệu PDF
-linktitle: Lấy lại dấu trang từ tài liệu PDF
-second_title: API xử lý PDF Java Aspose.PDF
-description: Tìm hiểu cách lấy dấu trang PDF hiệu quả bằng Aspose.PDF cho Java trong hướng dẫn toàn diện này.
-weight: 15
-url: /vi/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/
+"description": "Tìm hiểu cách lấy dấu trang PDF hiệu quả bằng Aspose.PDF cho Java trong hướng dẫn toàn diện này."
+"linktitle": "Lấy lại dấu trang từ tài liệu PDF"
+"second_title": "API xử lý PDF Java Aspose.PDF"
+"title": "Lấy lại dấu trang từ tài liệu PDF"
+"url": "/vi/java/pdf-bookmarks/retrieve-bookmarks-pdf-documents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy lại dấu trang từ tài liệu PDF
@@ -76,7 +78,7 @@ Aspose.PDF for Java cung cấp nhiều tùy chọn để tùy chỉnh việc tru
 
 Khi làm việc với các tài liệu PDF, điều cần thiết là phải xử lý các lỗi tiềm ẩn một cách khéo léo. Aspose.PDF cung cấp các cơ chế xử lý lỗi để đảm bảo ứng dụng của bạn vẫn mạnh mẽ.
 
-## Thực hành tốt nhất để truy xuất dấu trang
+## Thực hành tốt nhất để lấy lại dấu trang
 
 Để tận dụng tối đa chức năng tìm kiếm dấu trang, hãy làm theo các biện pháp tốt nhất sau:
 
@@ -102,7 +104,7 @@ Truy xuất dấu trang từ tài liệu PDF bằng Aspose.PDF for Java là mộ
 
 ### Làm thế nào để thêm Aspose.PDF cho Java vào dự án của tôi?
 
- Bạn có thể thêm Aspose.PDF cho Java vào dự án của mình bằng cách tải xuống từ[đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt.
+Bạn có thể thêm Aspose.PDF cho Java vào dự án của mình bằng cách tải xuống từ [đây](https://releases.aspose.com/pdf/java/) và làm theo hướng dẫn cài đặt.
 
 ### Tôi có thể tùy chỉnh giao diện của dấu trang đã lấy không?
 
@@ -118,10 +120,12 @@ Có, Aspose.PDF cho Java có thể yêu cầu giấy phép hợp lệ cho một 
 
 ### Tôi có thể truy cập thêm tài liệu và hỗ trợ ở đâu?
 
- Bạn có thể tìm thấy tài liệu và hỗ trợ toàn diện cho Aspose.PDF cho Java tại[đây](https://reference.aspose.com/pdf/java/).
+Bạn có thể tìm thấy tài liệu và hỗ trợ toàn diện cho Aspose.PDF cho Java tại [đây](https://reference.aspose.com/pdf/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

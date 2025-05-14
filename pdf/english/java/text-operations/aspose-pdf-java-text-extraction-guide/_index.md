@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Text Extraction from PDFs Using Aspose.PDF Java: A Comprehensive Guide
 
@@ -223,6 +225,9 @@ To further enhance your skills, explore additional features of Aspose.PDF and co
 We hope this tutorial has equipped you with the tools and knowledge to start leveraging Aspose.PDF for Java in your projects. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

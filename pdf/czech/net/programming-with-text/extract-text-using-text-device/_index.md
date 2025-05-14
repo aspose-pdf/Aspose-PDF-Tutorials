@@ -1,32 +1,34 @@
 ---
-title: Extrahujte text pomocí textového zařízení
-linktitle: Extrahujte text pomocí textového zařízení
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se extrahovat text z dokumentu PDF pomocí Textového zařízení v Aspose.PDF pro .NET.
-weight: 210
-url: /cs/net/programming-with-text/extract-text-using-text-device/
+"description": "Naučte se, jak extrahovat text z PDF dokumentu pomocí textového zařízení v Aspose.PDF pro .NET."
+"linktitle": "Extrakce textu pomocí textového zařízení"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Extrakce textu pomocí textového zařízení"
+"url": "/cs/net/programming-with-text/extract-text-using-text-device/"
+"weight": 210
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extrahujte text pomocí textového zařízení
+# Extrakce textu pomocí textového zařízení
 
 ## Zavedení
 
-Extrahování textu z PDF může být složité, zejména při práci s dokumenty, které mají různé formáty, vložená písma nebo složitá rozvržení. Ale s Aspose.PDF pro .NET se tento proces stává hračkou! Ať už chcete převést stránky PDF do prostého textu pro další analýzu, nebo jednoduše potřebujete extrahovat konkrétní části, Aspose.PDF vás pokryje. V tomto tutoriálu si krok za krokem rozebereme, jak extrahovat text z PDF pomocí třídy TextDevice v Aspose.PDF. Poskytneme také jasná vysvětlení, takže stejné metody můžete snadno použít na své vlastní projekty.
+Extrakce textu z PDF může být složitá, zejména při práci s dokumenty, které mají různé formáty, vložená písma nebo složité rozvržení. Ale s Aspose.PDF pro .NET se tento proces stává hračkou! Ať už chcete převést stránky PDF do prostého textu pro další analýzu, nebo potřebujete jednoduše extrahovat určité části, Aspose.PDF vám s tím pomůže. V tomto tutoriálu si krok za krokem ukážeme, jak extrahovat text z PDF pomocí třídy TextDevice v Aspose.PDF. Poskytneme také jasná vysvětlení, abyste mohli stejné metody snadno aplikovat na své vlastní projekty.
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že máte vše, co můžete sledovat. Zde je to, co budete potřebovat:
+Než se pustíme do kódu, ujistěte se, že máte vše potřebné k jeho napsání. Zde je to, co budete potřebovat:
 
-1.  Aspose.PDF pro .NET: Stáhněte si nejnovější verzi z[Stránka ke stažení Aspose.PDF pro .NET](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF pro .NET: Stáhněte si nejnovější verzi z [Stránka ke stažení souboru Aspose.PDF pro .NET](https://releases.aspose.com/pdf/net/).
 2. Vývojové prostředí: Visual Studio nebo jakékoli jiné vývojové prostředí C#.
 3. .NET Framework: Ujistěte se, že váš projekt cílí na .NET Framework 4.x nebo vyšší.
-4. Vstupní soubor PDF: Soubor PDF, který použijete pro extrakci textu. Umístěte to do adresáře na vašem počítači (budeme to označovat jako`YOUR DOCUMENT DIRECTORY`).
+4. Vstupní PDF soubor: PDF soubor, který použijete pro extrakci textu. Umístěte jej do adresáře na vašem počítači (budeme jej označovat jako `YOUR DOCUMENT DIRECTORY`).
 
-## Importujte balíčky
+## Importovat balíčky
 
 V horní části kódu budete muset importovat potřebné jmenné prostory pro práci s Aspose.PDF:
 
@@ -41,46 +43,46 @@ using System.Text;
 
 ## Krok 1: Načtěte dokument PDF
 
- Před extrahováním textu musíme načíst dokument PDF do paměti. V tomto kroku otevřete soubor PDF pomocí souboru Aspose.PDF`Document` třída. To vám umožní přístup ke všem stránkám a obsahu v souboru.
+Před extrakcí textu musíme načíst PDF dokument do paměti. V tomto kroku otevřete PDF pomocí Aspose.PDF. `Document` třída. To vám umožní přístup ke všem stránkám a obsahu v souboru.
 
 ```csharp
 // Definujte cestu k dokumentu PDF
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Načtěte dokument PDF
+// Načíst PDF dokument
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
- Tady, používáme`Document pdfDocument = new Document(dataDir + "input.pdf");` pro načtení PDF. The`dataDir` proměnná obsahuje cestu k adresáři vašeho souboru PDF. To nám umožní přístup k celému dokumentu, což nám umožní procházet stránkami a extrahovat obsah.
+Zde používáme `Document pdfDocument = new Document(dataDir + "input.pdf");` načíst PDF. `dataDir` Proměnná obsahuje cestu k adresáři vašeho PDF souboru. To nám umožní přístup k celému dokumentu, což nám umožní procházet stránkami a extrahovat obsah.
 
-## Krok 2: Nastavte Tvůrce řetězců pro ukládání textu
+## Krok 2: Nastavení nástroje pro tvorbu řetězců pro ukládání textu
 
- Nyní, když je dokument načten, potřebujeme způsob, jak extrahovaný text uložit. K tomu použijeme a`StringBuilder` což umožňuje efektivní zřetězení řetězců.
+Nyní, když je dokument načten, potřebujeme způsob, jak uložit extrahovaný text. K tomu použijeme `StringBuilder` což umožňuje efektivní zřetězení řetězců.
 
 ```csharp
-// StringBuilder k uložení extrahovaného textu
+// StringBuilder pro uchování extrahovaného textu
 StringBuilder builder = new StringBuilder();
 ```
 
- Inicializujeme a`StringBuilder`instance, která bude shromažďovat text extrahovaný z každé stránky. Je to efektivnější způsob zpracování velkých řetězců ve srovnání s běžným zřetězením řetězců ve smyčce.
+Inicializujeme `StringBuilder` instance, která bude shromažďovat text extrahovaný z každé stránky. Je to efektivnější způsob, jak zpracovat velké řetězce ve srovnání s běžným zřetězením řetězců ve smyčce.
 
 ## Krok 3: Procházení stránek PDF
 
- Dále procházíme každou stránku dokumentu PDF, abychom extrahovali text. Každou stránku zpracujeme individuálně pomocí`TextDevice` třídy, která je zodpovědná za převod obsahu PDF do textového formátu.
+Dále projdeme každou stránku PDF dokumentu, abychom extrahovali text. Každou stránku zpracujeme jednotlivě pomocí `TextDevice` třída, která je zodpovědná za převod obsahu PDF do textového formátu.
 
 ```csharp
-// Projděte všechny stránky v PDF
+// Procházet všechny stránky v PDF
 foreach (Page pdfPage in pdfDocument.Pages)
 {
-    // Zpracujte každou stránku pro extrakci textu
+    // Zpracovat každou stránku pro extrakci textu
 }
 ```
 
-Tato smyčka prochází každou stránku PDF (`pdfDocument.Pages` ). Pro každou stránku vyjmeme text a přidáme jej do našeho`StringBuilder`.
+Tato smyčka prochází každou stránkou PDF (`pdfDocument.Pages`). Pro každou stránku extrahujeme text a přidáme ho do našeho `StringBuilder`.
 
 ## Krok 4: Extrahujte text z každé stránky
 
- Nyní nastavíme proces extrakce textu pro každou stránku. Zde vytvoříme a`TextDevice` objekt a použít jej ke zpracování stránek PDF. The`TextDevice` extrahuje nezpracovaný nebo formátovaný text na základě námi nastavených možností extrakce.
+Nyní nastavíme proces extrakce textu pro každou stránku. Zde vytvoříme `TextDevice` objekt a použít ho ke zpracování stránek PDF. `TextDevice` extrahuje nezpracovaný nebo formátovaný text na základě nastavených možností extrakce.
 
 ```csharp
 using (MemoryStream textStream = new MemoryStream())
@@ -88,14 +90,14 @@ using (MemoryStream textStream = new MemoryStream())
     // Vytvořte textové zařízení pro extrakci textu
     TextDevice textDevice = new TextDevice();
     
-    // Nastavte možnosti extrakce textu na režim „Čistý“.
+    // Nastavte možnosti extrakce textu na režim „Čistý“
     TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);
     textDevice.ExtractionOptions = textExtOptions;
 
-    //Extrahujte text z aktuální stránky a uložte jej do paměti
+    // Extrahovat text z aktuální stránky a uložit jej do paměťového proudu
     textDevice.Process(pdfPage, textStream);
 
-    // Převod paměti na text
+    // Převod paměťového proudu na text
     string extractedText = Encoding.Unicode.GetString(textStream.ToArray());
 
     // Přidejte extrahovaný text do StringBuilderu
@@ -103,53 +105,55 @@ using (MemoryStream textStream = new MemoryStream())
 }
 ```
 
-- `TextDevice textDevice = new TextDevice();` : The`TextDevice` třída se používá k extrahování textu z PDF.
-- `TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);` : Tato možnost extrahuje nezpracovaný text bez zachování jakéhokoli formátování, jako jsou písma nebo pozice. Můžete také použít`TextFormattingMode.Raw` pokud potřebujete větší kontrolu nad formátováním.
-- `textDevice.Process(pdfPage, textStream);` : Tím se zpracuje každá stránka PDF a extrahovaný text se uloží do a`MemoryStream`.
--  Nakonec převedeme text z`MemoryStream` k řetězci a připojit jej k`StringBuilder`.
+- `TextDevice textDevice = new TextDevice();`: Ten `TextDevice` Třída se používá k extrakci textu z PDF.
+- `TextExtractionOptions textExtOptions = new TextExtractionOptions(TextExtractionOptions.TextFormattingMode.Pure);`: Tato možnost extrahuje nezpracovaný text bez zachování formátování, jako jsou písma nebo pozice. Můžete také použít `TextFormattingMode.Raw` pokud potřebujete větší kontrolu nad formátováním.
+- `textDevice.Process(pdfPage, textStream);`: Zpracuje každou stránku PDF a uloží extrahovaný text do `MemoryStream`.
+- Nakonec převedeme text z `MemoryStream` do řetězce a přidat ho k `StringBuilder`.
 
-## Krok 5: Uložte extrahovaný text do souboru
+## Krok 5: Uložení extrahovaného textu do souboru
 
- Po zpracování všech stránek se text uloží do`StringBuilder`. Posledním krokem je uložení tohoto extrahovaného textu do souboru.
+Po zpracování všech stránek je text uložen do `StringBuilder`Posledním krokem je uložení extrahovaného textu do souboru.
 
 ```csharp
 // Definujte výstupní cestu pro textový soubor
 dataDir = dataDir + "input_Text_Extracted_out.txt";
 
-// Uložte extrahovaný text do souboru
+// Uložit extrahovaný text do souboru
 File.WriteAllText(dataDir, builder.ToString());
 
 Console.WriteLine("\nText extracted successfully from PDF document.\nFile saved at " + dataDir);
 ```
 
-- `File.WriteAllText(dataDir, builder.ToString());` : Toto píše celý obsah`StringBuilder` do textového souboru.
-- Cesta k výstupnímu souboru se nastavuje připojením názvu souboru (`"input_Text_Extracted_out.txt"` ) k`dataDir` cesta.
+- `File.WriteAllText(dataDir, builder.ToString());`: Tím se zapíše celý obsah `StringBuilder` do textového souboru.
+- Cesta k výstupnímu souboru se nastaví přidáním názvu souboru (`"input_Text_Extracted_out.txt"`) k `dataDir` cesta.
 
 ## Závěr
 
-Extrahování textu z PDF pomocí Aspose.PDF pro .NET je jednoduchý a efektivní proces. Podle kroků uvedených v této příručce můžete snadno otevírat dokumenty PDF, procházet stránkami a extrahovat text do textového souboru. To je užitečné zejména při zpracování velkých objemů dat PDF, provádění analýzy textu nebo převodu dokumentů pro další manipulaci.
+Extrakce textu z PDF pomocí Aspose.PDF pro .NET je jednoduchý a efektivní proces. Dodržováním kroků uvedených v této příručce můžete snadno otevírat dokumenty PDF, procházet stránky a extrahovat text do textového souboru. To je obzvláště užitečné pro zpracování velkých objemů dat PDF, provádění analýzy textu nebo převod dokumentů pro další manipulaci.
 
-S Aspose.PDF nejste omezeni na extrakci textu – můžete pracovat s anotacemi, manipulovat s obrázky nebo dokonce převádět PDF do jiných formátů, jako je HTML nebo Word. Flexibilita a síla této knihovny z ní činí neocenitelný nástroj pro správu PDF v aplikacích .NET.
+S Aspose.PDF se neomezujete pouze na extrakci textu – můžete pracovat s anotacemi, manipulovat s obrázky nebo dokonce převádět PDF soubory do jiných formátů, jako je HTML nebo Word. Flexibilita a výkon této knihovny z ní činí neocenitelný nástroj pro správu PDF v aplikacích .NET.
 
-## FAQ
+## Často kladené otázky
 
-### Může Aspose.PDF extrahovat text z obrázků PDF?
-Ne, Aspose.PDF je navržen tak, aby extrahoval text z obsahu PDF. Pro soubory PDF založené na obrázcích je zapotřebí technologie OCR.
+### Může Aspose.PDF extrahovat text z PDF souborů založených na obrázcích?
+Ne, Aspose.PDF je navržen tak, aby extrahoval text z PDF souborů založených na obsahu. Pro PDF soubory založené na obrázcích je potřeba technologie OCR.
 
-### Zachová Aspose.PDF při extrahování textu formátování?
-Ve výchozím nastavení je text extrahován bez formátování, ale pokud chcete zachovat určité formátování, můžete upravit možnosti extrakce.
+### Zachovává Aspose.PDF formátování při extrakci textu?
+Ve výchozím nastavení se text extrahuje bez formátování, ale pokud chcete zachovat formátování, můžete upravit možnosti extrakce.
 
 ### Mohu extrahovat text z určitého rozsahu stránek?
-Ano, kód můžete upravit tak, aby procházel přes konkrétní rozsah stránek namísto všech stránek.
+Ano, kód můžete upravit tak, aby se smyčka procházela přes určitý rozsah stránek místo všech stránek.
 
 ### Jaké jsou režimy extrakce textu v Aspose.PDF?
-Aspose.PDF poskytuje dva režimy: Raw a Pure. Režim Raw se snaží zachovat původní rozvržení, zatímco režim Pure extrahuje pouze text bez formátování.
+Aspose.PDF nabízí dva režimy: Raw a Pure. Režim Raw se snaží zachovat původní rozvržení, zatímco režim Pure extrahuje pouze text bez formátování.
 
-### Je Aspose.PDF for .NET kompatibilní s .NET Core?
-Ano, Aspose.PDF for .NET je plně kompatibilní s .NET Core a .NET Framework.
+### Je Aspose.PDF pro .NET kompatibilní s .NET Core?
+Ano, Aspose.PDF pro .NET je plně kompatibilní s .NET Core a .NET Framework.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

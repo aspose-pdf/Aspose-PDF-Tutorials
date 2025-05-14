@@ -1,14 +1,16 @@
 ---
-title: Thêm hình ảnh đóng dấu vào tệp PDF
-linktitle: Thêm hình ảnh đóng dấu vào tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách thêm dấu hình ảnh vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước và mã ví dụ.
-weight: 20
-url: /vi/net/programming-with-stamps-and-watermarks/add-image-stamp/
+"description": "Tìm hiểu cách thêm dấu hình ảnh vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước và mã ví dụ."
+"linktitle": "Thêm hình ảnh đóng dấu vào tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thêm hình ảnh đóng dấu vào tệp PDF"
+"url": "/vi/net/programming-with-stamps-and-watermarks/add-image-stamp/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm hình ảnh đóng dấu vào tệp PDF
@@ -22,7 +24,7 @@ Khi nói đến việc xử lý các tệp PDF, ít công cụ nào mạnh mẽ 
 Trước khi đi sâu vào chi tiết của mã, hãy đảm bảo rằng bạn có mọi thứ mình cần. Sau đây là những gì bạn cần:
 
 1. Visual Studio hoặc bất kỳ IDE .NET nào: Bạn cần có môi trường phát triển .NET để triển khai các đoạn mã.
-2.  Aspose.PDF cho Thư viện .NET: Đây là công cụ chính mà chúng ta sẽ sử dụng. Bạn có thể tải xuống phiên bản mới nhất của thư viện từ[Trang phát hành Aspose](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho Thư viện .NET: Đây là công cụ chính mà chúng ta sẽ sử dụng. Bạn có thể tải xuống phiên bản mới nhất của thư viện từ [Trang phát hành Aspose](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn xử lý mã một cách dễ dàng.
 4. Tệp hình ảnh: Bạn cần một tệp hình ảnh mà bạn muốn sử dụng làm tem. Đảm bảo tệp đó có định dạng được hỗ trợ (như JPEG, PNG, v.v.).
 5. Tệp PDF hiện có: Có một tệp PDF mẫu để bạn có thể thêm dấu hình ảnh.
@@ -44,13 +46,13 @@ using Aspose.Pdf.Text;
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
- Bước đầu tiên là chỉ định đường dẫn đến tài liệu của bạn. Bạn sẽ muốn lưu trữ tài liệu và hình ảnh của mình trong một thư mục được xác định rõ ràng. Để đơn giản, hãy khai báo một biến`dataDir` như thế này:
+Bước đầu tiên là chỉ định đường dẫn đến tài liệu của bạn. Bạn sẽ muốn lưu trữ tài liệu và hình ảnh của mình trong một thư mục được xác định rõ ràng. Để đơn giản, hãy khai báo một biến `dataDir` như thế này:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn.
 
 ## Bước 2: Mở Tài liệu PDF
 
@@ -60,21 +62,21 @@ Tiếp theo, chúng ta cần mở tài liệu PDF mà chúng ta muốn chỉnh s
 Document pdfDocument = new Document(dataDir + "AddImageStamp.pdf");
 ```
 
- Dòng này tạo ra một cái mới`Document`đối tượng bằng cách tải tệp PDF bạn chỉ định. Đảm bảo rằng tệp tồn tại trong thư mục bạn chỉ định; nếu không, bạn sẽ gặp lỗi không tìm thấy tệp!
+Dòng này tạo ra một cái mới `Document` đối tượng bằng cách tải tệp PDF bạn chỉ định. Đảm bảo rằng tệp tồn tại trong thư mục bạn chỉ định; nếu không, bạn sẽ gặp lỗi không tìm thấy tệp!
 
 ## Bước 3: Tạo tem hình ảnh
 
-Bây giờ đến phần thú vị—thêm tem hình ảnh! Đầu tiên, chúng ta cần tạo một đối tượng tem hình ảnh bằng tệp hình ảnh của bạn:
+Bây giờ đến phần thú vị—thêm tem hình ảnh! Đầu tiên, chúng ta cần tạo một đối tượng tem hình ảnh bằng cách sử dụng tệp hình ảnh của bạn:
 
 ```csharp
 ImageStamp imageStamp = new ImageStamp(dataDir + "aspose-logo.jpg");
 ```
 
- Dòng này khởi tạo một`ImageStamp` đối tượng đại diện cho hình ảnh bạn muốn thêm. Điều quan trọng là phải kiểm tra xem đường dẫn tệp hình ảnh của bạn có chính xác không.
+Dòng này khởi tạo một `ImageStamp` đối tượng đại diện cho hình ảnh bạn muốn thêm. Điều quan trọng là phải kiểm tra xem đường dẫn tệp hình ảnh của bạn có chính xác không.
 
 ## Bước 4: Cấu hình Thuộc tính Dấu ảnh
 
-Đây là nơi bạn có thể sáng tạo và tùy chỉnh con dấu của mình. Bạn có thể thiết lập các thuộc tính như vị trí, kích thước, xoay và độ mờ. Sau đây là ví dụ về cách thực hiện việc này:
+Đây là nơi bạn có thể sáng tạo và tùy chỉnh con dấu của mình. Bạn có thể thiết lập các thuộc tính như vị trí, kích thước, xoay và độ mờ đục. Sau đây là ví dụ về cách thực hiện việc này:
 
 ```csharp
 imageStamp.Background = true; // Đặt thành true nếu bạn muốn con tem ở chế độ nền
@@ -107,7 +109,7 @@ dataDir = dataDir + "AddImageStamp_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Tài liệu của bạn hiện đã được lưu với hình ảnh đóng dấu mới được áp dụng!
+Tài liệu của bạn hiện đã được lưu với dấu hình ảnh mới được áp dụng!
 
 ## Bước 7: Xác nhận sửa đổi
 
@@ -117,7 +119,7 @@ Cuối cùng, luôn tốt khi xác nhận rằng thao tác của bạn đã thà
 Console.WriteLine("\nImage stamp added successfully.\nFile saved at " + dataDir);
 ```
 
-Tin nhắn này sẽ thông báo cho bạn biết rằng con dấu hình ảnh đã được thêm vào và thông báo cho bạn biết nơi tìm tệp PDF mới sửa đổi của mình.
+Tin nhắn này sẽ thông báo cho bạn biết rằng dấu hình ảnh đã được thêm vào và thông báo cho bạn biết nơi tìm tệp PDF mới sửa đổi của mình.
 
 ## Phần kết luận
 
@@ -126,22 +128,24 @@ Xin chúc mừng! Bạn vừa thêm một con dấu hình ảnh vào PDF bằng 
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF cho .NET có miễn phí sử dụng không?  
- Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng cần có giấy phép để tiếp tục sử dụng sau thời gian dùng thử. Bạn có thể kiểm tra[tùy chọn giá ở đây](https://purchase.aspose.com/buy).
+Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng cần có giấy phép để tiếp tục sử dụng sau thời gian dùng thử. Bạn có thể kiểm tra [tùy chọn giá ở đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể thêm nhiều tem vào một tệp PDF không?  
- Chắc chắn rồi! Bạn có thể tạo nhiều`ImageStamp` đối tượng và thêm chúng vào bất kỳ trang nào trong PDF.
+Chắc chắn rồi! Bạn có thể tạo nhiều `ImageStamp` đối tượng và thêm chúng vào bất kỳ trang nào trong PDF.
 
 ### Những định dạng hình ảnh nào được hỗ trợ cho tem?  
 Aspose.PDF hỗ trợ nhiều định dạng hình ảnh, bao gồm JPEG, PNG và BMP.
 
 ### Làm thế nào để xoay con dấu hình ảnh?  
- Bạn có thể thiết lập`Rotate` tài sản của`ImageStamp` đối tượng để xoay hình ảnh theo góc mong muốn. Các tùy chọn bao gồm`Rotation.on90`, `Rotation.on180`, vân vân.
+Bạn có thể thiết lập `Rotate` tài sản của `ImageStamp` đối tượng để xoay hình ảnh theo góc mong muốn. Các tùy chọn bao gồm `Rotation.on90`, `Rotation.on180`, vân vân.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.PDF ở đâu?  
- Bạn có thể khám phá tài liệu tham khảo và API đầy đủ[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể khám phá tài liệu tham khảo và API đầy đủ [đây](https://reference.aspose.com/pdf/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

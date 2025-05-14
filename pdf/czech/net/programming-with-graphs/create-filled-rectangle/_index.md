@@ -1,43 +1,45 @@
 ---
-title: Vytvořte vyplněný obdélník
-linktitle: Vytvořte vyplněný obdélník
-second_title: Aspose.PDF pro .NET API Reference
-description: Naučte se, jak vytvořit vyplněný obdélník v PDF pomocí Aspose.PDF for .NET pomocí tohoto podrobného návodu. Ideální pro vývojáře všech úrovní.
-weight: 50
-url: /cs/net/programming-with-graphs/create-filled-rectangle/
+"description": "Naučte se, jak vytvořit vyplněný obdélník v PDF pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Ideální pro vývojáře všech úrovní."
+"linktitle": "Vytvořit vyplněný obdélník"
+"second_title": "Aspose.PDF pro referenční příručku k .NET API"
+"title": "Vytvořit vyplněný obdélník"
+"url": "/cs/net/programming-with-graphs/create-filled-rectangle/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte vyplněný obdélník
+# Vytvořit vyplněný obdélník
 
 ## Zavedení
 
-Chtěli jste někdy programově vytvářet vizuálně atraktivní soubory PDF? Pokud ano, jste na správném místě! V tomto tutoriálu se ponoříme do světa Aspose.PDF for .NET, výkonné knihovny, která vám umožní snadno manipulovat s dokumenty PDF. Dnes se zaměříme na vytvoření vyplněného obdélníku v souboru PDF. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vás přátelsky a poutavě provede každým krokem. Takže popadněte svůj kódovací klobouk a můžeme začít!
+Chtěli jste někdy programově vytvářet vizuálně atraktivní PDF soubory? Pokud ano, jste na správném místě! V tomto tutoriálu se ponoříme do světa Aspose.PDF pro .NET, výkonné knihovny, která vám umožní snadno manipulovat s PDF dokumenty. Dnes se zaměříme na vytvoření vyplněného obdélníku v PDF souboru. Ať už jste zkušený vývojář, nebo teprve začínáte, tento průvodce vás provede každým krokem přátelským a poutavým způsobem. Takže, vezměte si programátorskou čepici a pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do kódu, je třeba mít připraveno několik věcí:
+Než se pustíme do samotného kódu, je potřeba mít připraveno několik věcí:
 
-1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to fantastické IDE pro vývoj .NET.
-2.  Aspose.PDF for .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Můžete to najít[zde](https://releases.aspose.com/pdf/net/).
-3. Základní znalost C#: Malá znalost programování C# vám pomůže lépe porozumět úryvkům kódu.
+1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to fantastické IDE pro vývoj v .NET.
+2. Aspose.PDF pro .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.PDF. Najdete ji [zde](https://releases.aspose.com/pdf/net/).
+3. Základní znalost C#: Trocha znalosti programování v C# vám pomůže lépe porozumět úryvkům kódu.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, musíte do svého projektu C# importovat potřebné balíčky. Můžete to udělat takto:
+Chcete-li začít, musíte do svého projektu C# importovat potřebné balíčky. Zde je návod, jak to udělat:
 
 ### Vytvořit nový projekt
 
-Otevřete Visual Studio a vytvořte nový projekt C#. Pro jednoduchost si můžete vybrat konzolovou aplikaci.
+Otevřete Visual Studio a vytvořte nový projekt v C#. Pro zjednodušení si můžete vybrat konzolovou aplikaci.
 
-### Přidejte odkaz Aspose.PDF
+### Přidat odkaz na Aspose.PDF
 
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
-2. Vyberte „Spravovat balíčky NuGet“.
-3. Vyhledejte „Aspose.PDF“ a nainstalujte nejnovější verzi.
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+2. Vyberte možnost „Spravovat balíčky NuGet“.
+3. Vyhledejte soubor „Aspose.PDF“ a nainstalujte nejnovější verzi.
 
 ```csharp
 using System.IO;
@@ -45,99 +47,99 @@ using System;
 using Aspose.Pdf;
 ```
 
-Nyní, když máme vše nastaveno, pojďme se ponořit do kódu!
+Teď, když máme vše nastavené, pojďme se ponořit do kódu!
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíte určit cestu, kam bude váš PDF uložen. To je zásadní, protože to programu říká, kde má soubor vytvořit.
+Nejdříve je třeba zadat cestu, kam bude váš PDF soubor uložen. To je klíčové, protože to programu říká, kde má soubor vytvořit.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou na vašem počítači, kam chcete PDF uložit.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou na vašem počítači, kam chcete PDF uložit.
 
-## Krok 2: Vytvořte instanci dokumentu
+## Krok 2: Vytvoření instance dokumentu
 
- Dále vytvoříme instanci`Document`třída. Tato třída představuje dokument PDF, se kterým budete pracovat.
+Dále vytvoříme instanci `Document` třída. Tato třída představuje dokument PDF, se kterým budete pracovat.
 
 ```csharp
 // Vytvořit instanci dokumentu
 Document doc = new Document();
 ```
 
-Tento řádek inicializuje nový dokument PDF, se kterým můžeme manipulovat.
+Tento řádek inicializuje nový PDF dokument, se kterým můžeme manipulovat.
 
-## Krok 3: Přidejte stránku do dokumentu
+## Krok 3: Přidání stránky do dokumentu
 
-Nyní přidáme stránku do našeho dokumentu. Každý PDF potřebuje alespoň jednu stránku, že?
+A teď přidejme do našeho dokumentu stránku. Každý PDF soubor potřebuje alespoň jednu stránku, že?
 
 ```csharp
 // Přidat stránku do kolekce stránek souboru PDF
 Page page = doc.Pages.Add();
 ```
 
-Tento kód přidá do dokumentu novou stránku a umožní nám na ni kreslit tvary.
+Tento kód přidá do dokumentu novou stránku, která nám umožní na ni kreslit tvary.
 
-## Krok 4: Vytvořte instanci grafu
+## Krok 4: Vytvoření instance grafu
 
- Abychom mohli kreslit tvary, musíme vytvořit a`Graph` instance. Představte si graf jako plátno, na kterém můžete kreslit různé tvary.
+Abychom mohli kreslit tvary, musíme vytvořit `Graph` například. Představte si graf jako plátno, na kterém můžete kreslit různé tvary.
 
 ```csharp
-// Vytvořte instanci Graph
+// Vytvořit instanci grafu
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 ```
 
 Zde vytváříme graf o šířce 100 a výšce 400.
 
-## Krok 5: Přidejte graf na stránku
+## Krok 5: Přidání grafu na stránku
 
-Nyní, když máme náš graf, přidáme jej na stránku, kterou jsme vytvořili dříve.
+Nyní, když máme graf, přidejme ho na stránku, kterou jsme vytvořili dříve.
 
 ```csharp
-// Přidejte objekt grafu do kolekce odstavců instance stránky
+// Přidat objekt grafu do kolekce odstavců instance stránky
 page.Paragraphs.Add(graph);
 ```
 
-Tato čára připojí graf ke stránce a připraví jej ke kreslení.
+Tato čára připojí graf ke stránce a připraví ho tak k vykreslení.
 
 ## Krok 6: Vytvořte instanci obdélníku
 
-Dále si vytvoříme obdélník, který chceme vyplnit barvou.
+Dále vytvoříme obdélník, který chceme vyplnit barvou.
 
 ```csharp
-// Vytvořte instanci obdélníku
+// Vytvořit instanci obdélníku
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 120);
 ```
 
 V tomto kódu definujeme polohu a velikost obdélníku. Parametry představují souřadnice x a y, šířku a výšku.
 
-## Krok 7: Zadejte barvu výplně
+## Krok 7: Určete barvu výplně
 
-Nyní zvolíme barvu pro náš obdélník. Pro tento příklad jej vyplníme červenou barvou.
+Nyní si vybereme barvu pro náš obdélník. V tomto příkladu ho vyplníme červenou barvou.
 
 ```csharp
-// Určete barvu výplně pro objekt Graph
+// Zadejte barvu výplně pro objekt Graf
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.Red;
 ```
 
-Tento řádek nastaví barvu výplně obdélníku na červenou. Můžete si vybrat jakoukoli barvu, která se vám líbí!
+Tato čára nastaví barvu výplně obdélníku na červenou. Můžete si vybrat libovolnou barvu!
 
-## Krok 8: Přidejte obdélník do grafu
+## Krok 8: Přidání obdélníku do grafu
 
-Když je náš obdélník připraven, je čas jej přidat do grafu.
+Když máme obdélník připravený, je čas ho přidat do grafu.
 
 ```csharp
-// Přidejte obdélníkový objekt do kolekce tvarů objektu Graph
+// Přidat objekt obdélník do kolekce tvarů objektu Graph
 graph.Shapes.Add(rect);
 ```
 
 Tento kód přidá obdélník do grafu, čímž se stane součástí našeho výkresu.
 
-## Krok 9: Uložte dokument PDF
+## Krok 9: Uložení dokumentu PDF
 
-Nakonec musíme dokument uložit do zadaného adresáře.
+Nakonec musíme uložit náš dokument do zadaného adresáře.
 
 ```csharp
 dataDir = dataDir + "CreateFilledRectangle_out.pdf";
@@ -145,9 +147,9 @@ dataDir = dataDir + "CreateFilledRectangle_out.pdf";
 doc.Save(dataDir);
 ```
 
- Tento kód uloží soubor PDF s názvem`CreateFilledRectangle_out.pdf` v adresáři, který jste zadali dříve.
+Tento kód uloží PDF soubor s názvem `CreateFilledRectangle_out.pdf` v adresáři, který jste dříve zadali.
 
-## Krok 10: Potvrzující zpráva
+## Krok 10: Potvrzovací zpráva
 
 Abychom věděli, že vše proběhlo hladce, můžeme vytisknout potvrzovací zprávu.
 
@@ -155,31 +157,33 @@ Abychom věděli, že vše proběhlo hladce, můžeme vytisknout potvrzovací zp
 Console.WriteLine("\nFilled rectangle object created successfully.\nFile saved at " + dataDir);
 ```
 
-Tento řádek zobrazí v konzole zprávu potvrzující, že vyplněný obdélník byl úspěšně vytvořen.
+Tento řádek vypíše v konzoli zprávu potvrzující, že vyplněný obdélník byl úspěšně vytvořen.
 
 ## Závěr
 
-tady to máte! Úspěšně jste vytvořili vyplněný obdélník v dokumentu PDF pomocí Aspose.PDF for .NET. Tato výkonná knihovna otevírá svět možností pro manipulaci s PDF a umožňuje vám vytvářet úžasné dokumenty programově. Ať už generujete zprávy, faktury nebo jakýkoli jiný typ PDF, Aspose.PDF vám pomůže.
+A tady to máte! Úspěšně jste vytvořili vyplněný obdélník v dokumentu PDF pomocí Aspose.PDF pro .NET. Tato výkonná knihovna otevírá svět možností pro manipulaci s PDF a umožňuje vám programově vytvářet úžasné dokumenty. Ať už generujete zprávy, faktury nebo jakýkoli jiný typ PDF, Aspose.PDF vám s tím pomůže.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF for .NET je knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty PDF programově.
+Aspose.PDF pro .NET je knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět PDF dokumenty.
 
 ### Mohu používat Aspose.PDF zdarma?
- Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání funkcí knihovny. Můžete si jej stáhnout[zde](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání funkcí knihovny. Můžete si ji stáhnout. [zde](https://releases.aspose.com/).
 
 ### Existuje způsob, jak získat podporu pro Aspose.PDF?
- Absolutně! Podporu můžete získat prostřednictvím fóra Aspose[zde](https://forum.aspose.com/c/pdf/10).
+Rozhodně! Podporu můžete získat prostřednictvím fóra Aspose. [zde](https://forum.aspose.com/c/pdf/10).
 
-### Jak mohu zakoupit Aspose.PDF?
- Aspose.PDF si můžete zakoupit na stránce nákupu[zde](https://purchase.aspose.com/buy).
+### Jak si mohu zakoupit Aspose.PDF?
+Soubor Aspose.PDF si můžete zakoupit na stránce nákupu. [zde](https://purchase.aspose.com/buy).
 
-### Jaké typy tvarů mohu vytvořit pomocí Aspose.PDF?
+### Jaké typy tvarů mohu vytvářet pomocí Aspose.PDF?
 Pomocí knihovny Aspose.PDF můžete vytvářet různé tvary, včetně obdélníků, kruhů, čar a dalších.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

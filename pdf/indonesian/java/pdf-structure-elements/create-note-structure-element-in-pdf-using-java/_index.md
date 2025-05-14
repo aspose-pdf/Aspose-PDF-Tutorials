@@ -1,14 +1,16 @@
 ---
-title: Membuat Elemen Struktur Catatan dalam PDF menggunakan Java
-linktitle: Membuat Elemen Struktur Catatan dalam PDF menggunakan Java
-second_title: API Pemrosesan PDF Java Aspose.PDF
-description: Pelajari cara membuat Elemen Struktur Catatan interaktif dalam PDF menggunakan Java dengan Aspose.PDF untuk Java. Sempurnakan dokumen Anda dengan catatan informatif.
-weight: 12
-url: /id/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-java/
+"description": "Pelajari cara membuat Elemen Struktur Catatan interaktif dalam PDF menggunakan Java dengan Aspose.PDF untuk Java. Sempurnakan dokumen Anda dengan catatan informatif."
+"linktitle": "Membuat Elemen Struktur Catatan dalam PDF menggunakan Java"
+"second_title": "API Pemrosesan PDF Java Aspose.PDF"
+"title": "Membuat Elemen Struktur Catatan dalam PDF menggunakan Java"
+"url": "/id/java/pdf-structure-elements/create-note-structure-element-in-pdf-using-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Elemen Struktur Catatan dalam PDF menggunakan Java
@@ -23,7 +25,7 @@ Dalam dunia dokumen digital, PDF adalah yang terbaik. PDF menyediakan cara yang 
 Sebelum kita masuk ke kode, mari pastikan kita sudah menyiapkan semuanya:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal lingkungan pengembangan Java pada sistem Anda.
--  Aspose.PDF untuk Java: Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari[Di Sini](https://releases.aspose.com/pdf/java/).
+- Aspose.PDF untuk Java: Anda dapat mengunduh pustaka Aspose.PDF untuk Java dari [Di Sini](https://releases.aspose.com/pdf/java/).
 
 ## Panduan Langkah demi Langkah
 
@@ -58,7 +60,7 @@ Page page = pdfDocument.getPages().add();
 Sekarang, mari tambahkan Elemen Struktur Catatan ke dokumen PDF kita. Ini akan menjadi elemen interaktif yang dapat diklik pengguna untuk melihat catatan.
 
 ```java
-//Tambahkan Elemen Struktur Catatan ke halaman
+// Tambahkan Elemen Struktur Catatan ke halaman
 com.aspose.pdf.annotations.Note annotation = new com.aspose.pdf.annotations.Note(page, new com.aspose.pdf.Rectangle(100, 100, 200, 200));
 ```
 
@@ -109,9 +111,11 @@ Anda dapat menentukan koordinat dan dimensi catatan saat membuatnya, sehingga An
 ### Bisakah saya melampirkan file ke catatan tersebut?
 
 Ya, Anda dapat melampirkan file ke catatan, yang menyediakan sumber daya atau referensi tambahan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Dosyasında Düzenli İfade Arama
-linktitle: PDF Dosyasında Düzenli İfade Arama
-second_title: Aspose.PDF for .NET API Referansı
-description: Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarında düzenli ifadeleri nasıl arayacağınızı öğrenin. Regex ile üretkenliğinizi artırın.
-weight: 440
-url: /tr/net/programming-with-text/search-regular-expression/
+"description": "Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarında düzenli ifadeleri nasıl arayacağınızı öğrenin. Regex ile üretkenliğinizi artırın."
+"linktitle": "PDF Dosyasında Düzenli İfade Arama"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "PDF Dosyasında Düzenli İfade Arama"
+"url": "/tr/net/programming-with-text/search-regular-expression/"
+"weight": 440
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Dosyasında Düzenli İfade Arama
@@ -21,7 +23,7 @@ Büyük PDF belgeleriyle uğraşırken, tarihler, telefon numaraları veya diğe
 
 Adım adım eğitime geçmeden önce, neye ihtiyacınız olduğunu gözden geçirelim:
 
--  .NET için Aspose.PDF: Bu kütüphanenin kurulu olması gerekir. Henüz kurmadıysanız,[buradan indirin](https://releases.aspose.com/pdf/net/).
+- .NET için Aspose.PDF: Bu kütüphanenin kurulu olması gerekir. Henüz kurmadıysanız, [buradan indirin](https://releases.aspose.com/pdf/net/).
 - IDE: Visual Studio veya herhangi bir C# uyumlu IDE.
 - .NET Framework: Projenizin .NET Framework'ün uygun sürümüyle kurulduğundan emin olun.
 - Temel C# bilgisi: Bu rehber ayrıntılı olsa da, C# hakkında temel bir anlayışa sahip olmak faydalı olacaktır.
@@ -40,7 +42,7 @@ Aspose.PDF kullanarak bir PDF dosyasında düzenli ifadeleri arama sürecini bir
 
 ## Adım 1: Belge Dizinini Ayarlayın
 
- Her PDF işlemi, belgenizin nerede bulunduğunu belirtmekle başlar. PDF dosyanızın yolunu tanımlamanız gerekir; bu,`dataDir` değişken.
+Her PDF işlemi, belgenizin nerede bulunduğunu belirtmekle başlar. PDF dosyanızın yolunu tanımlamanız gerekir; bu, `dataDir` değişken.
 
 ### Adım 1.1: Belge Yolunuzu Tanımlayın
 
@@ -49,22 +51,22 @@ Aspose.PDF kullanarak bir PDF dosyasında düzenli ifadeleri arama sürecini bir
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın gerçek yolu ile. Bu adım, kodunuzu çalışmak istediğiniz dosyaya yönlendirdiği için önemlidir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın gerçek yolu ile. Bu adım, kodunuzu çalışmak istediğiniz dosyaya yönlendirdiği için önemlidir.
 
 ### Adım 1.2: PDF Belgesini açın
 
- Daha sonra, PDF belgesini şu şekilde açmanız gerekir:`Document` Aspose.PDF'den sınıf.
+Daha sonra PDF belgesini şu şekilde açmanız gerekir: `Document` Aspose.PDF'den sınıf.
 
 ```csharp
 // Belgeyi aç
 Document pdfDocument = new Document(dataDir + "SearchRegularExpressionAll.pdf");
 ```
 
- Burada,`"SearchRegularExpressionAll.pdf"` regex araması yapacağımız örnek PDF dosyasıdır.
+Burada, `"SearchRegularExpressionAll.pdf"` regex araması yapacağımız örnek PDF dosyasıdır.
 
 ## Adım 2: TextFragmentAbsorber'ı Ayarlayın
 
- İşte sihir burada gerçekleşiyor!`TextFragmentAbsorber` sınıf, belirli bir desene veya düzenli ifadeye uyan metin parçalarının yakalanmasına yardımcı olur.
+İşte sihir burada gerçekleşiyor! `TextFragmentAbsorber` sınıf, belirli bir desene veya düzenli ifadeye uyan metin parçalarının yakalanmasına yardımcı olur.
 
 Bir regex kullanarak desenleri bulmak için emiciyi ayarlayalım. Bu durumda, "1999-2000" gibi yılların bir desenini arıyoruz.
 
@@ -73,11 +75,11 @@ Bir regex kullanarak desenleri bulmak için emiciyi ayarlayalım. Bu durumda, "1
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber("\\d{4}-\\d{4}"); // 1999-2000 gibi
 ```
 
- Düzenli ifade`\\d{4}-\\d{4}` Tipik olarak yıl aralıkları için geçerli olan, dört rakamdan oluşan, ardından bir tire ve dört rakam daha gelen bir örüntü arar.
+Düzenli ifade `\\d{4}-\\d{4}` Tipik olarak yıl aralıkları için geçerli olan, dört rakamdan oluşan, ardından bir tire ve dört rakam daha gelen bir örüntü arar.
 
 ## Adım 3: Düzenli İfade Aramasını Etkinleştirin
 
- Arama işleminin deseni düzenli bir ifade olarak yorumlamasını sağlamak için, arama seçeneklerini kullanarak yapılandırmanız gerekir.`TextSearchOptions` sınıf.
+Arama işleminin deseni düzenli bir ifade olarak yorumlamasını sağlamak için, arama seçeneklerini kullanarak yapılandırmanız gerekir. `TextSearchOptions` sınıf.
 
 ```csharp
 // Düzenli ifade kullanımını belirtmek için metin arama seçeneğini ayarlayın
@@ -85,11 +87,11 @@ TextSearchOptions textSearchOptions = new TextSearchOptions(true);
 textFragmentAbsorber.TextSearchOptions = textSearchOptions;
 ```
 
- Ayarlama`TextSearchOptions` ile`true` emicinin düz metin yerine düzenli ifade tabanlı arama kullanmasını sağlar.
+Ayarlama `TextSearchOptions` ile `true` emicinin düz metin yerine düzenli ifade tabanlı arama kullanmasını sağlar.
 
 ## Adım 4: Metin Emiciyi Kabul Edin
 
- Bu aşamada, arama işlemini gerçekleştirebilmesi için metin emiciyi PDF belgesine uygularsınız. Bu, şu şekilde yapılır:`Accept` yöntem üzerinde`Pages` PDF belgesinin nesnesi.
+Bu aşamada, arama işlemini gerçekleştirebilmesi için metin emiciyi PDF belgesine uygularsınız. Bu, şu şekilde yapılır: `Accept` yöntem üzerinde `Pages` PDF belgesinin nesnesi.
 
 ```csharp
 // Tüm sayfalar için emiciyi kabul et
@@ -100,7 +102,7 @@ Bu komut, PDF'in tüm sayfalarını işler ve düzenli ifadeyle eşleşen herhan
 
 ## Adım 5: Sonuçları Çıkarın ve Görüntüleyin
 
- Arama tamamlandıktan sonra sonuçları çıkarmanız gerekir.`TextFragmentAbsorber` bu sonuçları bir`TextFragmentCollection`Her eşleşen metin parçasına erişmek ve görüntülemek için bu koleksiyonda dolaşabilirsiniz.
+Arama tamamlandıktan sonra sonuçları çıkarmanız gerekir. `TextFragmentAbsorber` bu sonuçları bir `TextFragmentCollection`Her eşleşen metin parçasına erişmek ve görüntülemek için bu koleksiyonda dolaşabilirsiniz.
 
 ### Adım 5.1: Çıkarılan Metin Parçalarını Alın
 
@@ -130,7 +132,7 @@ foreach (TextFragment textFragment in textFragmentCollection)
 }
 ```
 
- Her biri için`TextFragment`, yazı tipi boyutu, yazı tipi adı ve konumu gibi ayrıntılar yazdırılır. Bu yalnızca metni bulmanıza yardımcı olmakla kalmaz, aynı zamanda tam biçimlendirmesini ve konumunu da verir.
+Her biri için `TextFragment`, yazı tipi boyutu, yazı tipi adı ve konumu gibi ayrıntılar yazdırılır. Bu yalnızca metni bulmanıza yardımcı olmakla kalmaz, aynı zamanda tam biçimlendirmesini ve konumunu da verir.
 
 ## Çözüm
 
@@ -139,10 +141,10 @@ foreach (TextFragment textFragment in textFragmentCollection)
 ## SSS
 
 ### Tek bir PDF'de birden fazla deseni arayabilir miyim?
- Evet, birden fazla çalıştırabilirsiniz`TextFragmentAbsorber` Aynı PDF üzerinde, her biri farklı regex desenlerine sahip nesneler.
+Evet, birden fazla çalıştırabilirsiniz `TextFragmentAbsorber` Aynı PDF üzerinde, her biri farklı regex desenlerine sahip nesneler.
 
 ### Aspose.PDF büyük/küçük harfe duyarlı olmayan desenlerin aranmasını destekliyor mu?
- Kesinlikle! Şunu yapılandırabilirsiniz:`TextSearchOptions` aramayı büyük/küçük harfe duyarlı hale getirmek için.
+Kesinlikle! Şunu yapılandırabilirsiniz: `TextSearchOptions` aramayı büyük/küçük harfe duyarlı hale getirmek için.
 
 ### İçinde arama yapabileceğim PDF dosyalarının boyutunda bir sınır var mı?
 Kesin bir sınır yoktur, ancak performans PDF'in boyutuna ve regex deseninin karmaşıklığına bağlı olarak değişebilir.
@@ -151,10 +153,12 @@ Kesin bir sınır yoktur, ancak performans PDF'in boyutuna ve regex deseninin ka
 Evet, Aspose.PDF emiciyi kullanarak bulunan metni vurgulamanıza ve hatta değiştirmenize olanak tanır.
 
 ### Desen bulunamazsa hataları nasıl hallederim?
- Eşleşme bulunmazsa,`TextFragmentCollection` boş olacaktır. Bu senaryoyu, sonuçları döngüye almadan önce basit bir kontrolle halledebilirsiniz.
+Eşleşme bulunmazsa, `TextFragmentCollection` boş olacaktır. Bu senaryoyu, sonuçları döngüye almadan önce basit bir kontrolle halledebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

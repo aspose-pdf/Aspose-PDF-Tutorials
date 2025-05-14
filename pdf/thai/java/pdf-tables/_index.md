@@ -1,14 +1,16 @@
 ---
-title: ตาราง PDF
-linktitle: ตาราง PDF
-second_title: API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF
-description: สำรวจตาราง PDF ด้วย Aspose.PDF สำหรับ Java สร้างและจัดการตารางในเอกสาร PDF ของคุณได้อย่างง่ายดาย
-weight: 19
-url: /th/java/pdf-tables/
+"description": "สำรวจตาราง PDF ด้วย Aspose.PDF สำหรับ Java สร้างและจัดการตารางในเอกสาร PDF ของคุณได้อย่างง่ายดาย"
+"linktitle": "ตาราง PDF"
+"second_title": "API การประมวลผล PDF ของ Java PDF ของ Aspose.PDF"
+"title": "ตาราง PDF"
+"url": "/th/java/pdf-tables/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตาราง PDF
@@ -35,9 +37,11 @@ url: /th/java/pdf-tables/
 เรียนรู้วิธีการจัดการตาราง PDF โดยใช้ Java ด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการแยกตาราง การปรับเปลี่ยน และอื่นๆ เพื่อการจัดการ PDF ที่มีประสิทธิภาพ
 ### [ลบตารางจาก PDF ที่มีอยู่โดยใช้ Java](./remove-tables-from-existing-pdf-using-java/)
 เรียนรู้วิธีลบตารางออกจาก PDF อย่างง่ายดายโดยใช้ Java ด้วย Aspose.PDF สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการลบตารางอย่างมีประสิทธิภาพ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

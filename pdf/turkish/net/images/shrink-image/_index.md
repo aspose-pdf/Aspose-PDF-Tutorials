@@ -1,58 +1,64 @@
 ---
-title: Resimleri .NET için Aspose.PDF de sıkıştırarak PDF'yi optimize edin
-weight: 7700
-limit: 
-description: .NET için Aspose.PDF kullanarak resimleri sıkıştırarak bir PDF belgesini nasıl optimize edeceğinizi öğrenin.  
-keywords: [Aspose.PDF for .NET, optimize PDF, compress images, reduce PDF size, C# PDF optimization, PDF image compression, .NET PDF processing]
-url: /tr/net/images/shrink-image/
+"description": "Aspose.PDF for .NET kullanarak görüntüleri sıkıştırarak bir PDF belgesini nasıl optimize edeceğinizi öğrenin. Basit C# koduyla kaliteyi korurken dosya boyutunu azaltın."
+"title": "Aspose.PDF for .NET'te Görüntüleri Sıkıştırarak PDF'yi Optimize Edin"
+"url": "/tr/net/images/shrink-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDFde resimleri sıkıştırarak PDF'yi optimize edin
+# Aspose.PDF'de Görüntüleri Sıkıştırarak PDF'yi Optimize Edin
  
-PDF dosyalarını optimize etmek, belge kalitesini korurken dosya boyutunu azaltmak için gereklidir. .NET için Aspose.PDF ile, içe bağlı optimizasyon seçeneklerini kullanarak PDF'deki resimleri verimli bir şekilde sıkıştırın. Bu kılavuz, bir PDF dosyasının yüklendiği, resim sıkıştırılmasının etkinleştirildiği, kalite ayarlarının ayarlandığı ve optimize edilmiş belgenin kaydedildiği basit bir C # örneğini gösterir. Bu adımları izleyerek, PDF'lerinizin açıklığa zarar vermeden hafif ve paylaşımı kolay kalmasını sağlayabilirsiniz.  
+PDF dosyalarını optimize etmek, belge kalitesini korurken dosya boyutunu azaltmak için önemlidir. Aspose.PDF for .NET ile, yerleşik optimizasyon seçeneklerini kullanarak PDF'deki görüntüleri verimli bir şekilde sıkıştırabilirsiniz. Bu kılavuz, bir PDF dosyasının yüklendiği, görüntü sıkıştırmanın etkinleştirildiği, kalite ayarlarının ayarlandığı ve optimize edilmiş belgenin kaydedildiği basit bir C# örneğini gösterir. Bu adımları izleyerek, PDF'lerinizin netlikten ödün vermeden hafif ve paylaşımı kolay kalmasını sağlayabilirsiniz.  
  
 ---
+
 {{< tutorial-widget sourcePath="pdf/net/images/shrink-image" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Kurulum talimatları:  
-.NET için Aspose.PDF kullanmak için, şu adımları izleyin:  
+## Kurulum Talimatları:  
+Aspose.PDF for .NET'i kullanmak için şu adımları izleyin:  
 
-1. NuGet Paket Yöneticisi üzerinden yükle:  
-   * Visual Studio'yu açın ve Araçlar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönetin'e gidin.  
-   * Aspose.PDFi arayın ve yükleme tuşuna tıklayın.  
+1. NuGet Paket Yöneticisi aracılığıyla kurulum:  
+   - Visual Studio'yu açın ve Araçlar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet'e gidin.  
+   - Aspose.PDF'yi arayın ve Yükle'ye tıklayın.  
 
-   Ya da  
+   VEYA  
 
-   Paket Yöneticisi Konsolunda aşağıdaki komutu çalıştır:  
+   Paket Yöneticisi Konsolunda aşağıdaki komutu çalıştırın:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. Aspose Web sitesinden indirin:  
-   * Ziyaret [Aspose.PDF için .NET İndirmeler](https://releases.aspose.com/pdf/net/)  
-   * En son sürümü indirip yükleyin.  
+2. Aspose Web Sitesinden İndirin:  
+   - Ziyaret etmek [.NET İndirmeleri için Aspose.PDF](https://releases.aspose.com/pdf/net/)  
+   - En son sürümü indirip kurun.  
 
-3. Lisans başvurusu (ihtiyaçlı):  
-   * Bedava deneme lisansı al .[Geçici lisans ver.](https://purchase.aspose.com/temporary-license/)  
-   * Lisansı kodunuza uygulayın:  
+3. Lisans Başvurusu Yapın (İsteğe bağlı):  
+   - Ücretsiz deneme lisansı alın [Aspose Geçici Lisans](https://purchase.aspose.com/temporary-license/)  
+   - Lisansı kodunuza şunu kullanarak uygulayın:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.PDF.lic");
    ```
 
-## Kullanılabilir bağlantılar:  
-Belgeleri:[Aspose.PDF için .NET Rehber](https://docs.aspose.com/pdf/net/)  
-API Referansı: [Aspose.PDF için .NET API](https://reference.aspose.com/pdf/net/)  
-Ücretsiz Deneme:[Aspose Ücretsiz Deneme](https://releases.aspose.com/)  
-Destek Forumu:[Aspose Destek](https://forum.aspose.com/c/pdf/10) 
+## Faydalı Bağlantılar:  
+Belgeler: [.NET için Aspose.PDF Kılavuzu](https://docs.aspose.com/pdf/net/)  
+API Referansı: [.NET API'si için Aspose.PDF](https://reference.aspose.com/pdf/net/)  
+Ücretsiz Deneme: [Aspose Ücretsiz Deneme](https://releases.aspose.com/)  
+Destek Forumu: [Aspose Desteği](https://forum.aspose.com/c/pdf/10) 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

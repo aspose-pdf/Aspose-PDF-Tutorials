@@ -8,7 +8,9 @@ url: /net/programming-with-document/createmultilayerpdffirstapproach/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Multilayer PDF File First Approach
@@ -162,6 +164,7 @@ Aspose.PDF itself doesn’t provide a preview feature, but you can open the save
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,21 +1,23 @@
 ---
-title: Zamień obraz w pliku PDF
-linktitle: Zamień obraz w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Łatwo zastępuj obrazy w plikach PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem, aby uzyskać instrukcje krok po kroku i udoskonalić swoje umiejętności zarządzania plikami PDF.
-weight: 240
-url: /pl/net/programming-with-images/replace-image/
+"description": "Łatwo zastępuj obrazy w plikach PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem, aby uzyskać instrukcje krok po kroku i udoskonalić swoje umiejętności zarządzania plikami PDF."
+"linktitle": "Zamień obraz w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Zamień obraz w pliku PDF"
+"url": "/pl/net/programming-with-images/replace-image/"
+"weight": 240
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zamień obraz w pliku PDF
 
 ## Wstęp
 
-W dzisiejszej erze cyfrowej pliki PDF są formatem do udostępniania dokumentów, dzięki ich przenośności i spójnemu formatowaniu na różnych platformach. Czasami jednak musimy zamieniać obrazy w tych plikach, czy to w celu aktualizacji marki, czy też poprawienia błędu. Wyobraź sobie, że otrzymałeś plik PDF wypełniony ważnymi informacjami, ale z przestarzałym logo. Czy nie byłoby wspaniale po prostu wymienić to logo zamiast zaczynać od zera? Ten przewodnik przeprowadzi Cię przez proces zamiany obrazu w pliku PDF przy użyciu Aspose.PDF dla .NET. Zanurzmy się w to!
+dzisiejszej erze cyfrowej pliki PDF są formatem do udostępniania dokumentów, dzięki ich przenośności i spójnemu formatowaniu na różnych platformach. Czasami jednak musimy zamieniać obrazy w tych plikach, czy to w celu aktualizacji marki, czy też poprawienia błędu. Wyobraź sobie, że otrzymałeś plik PDF wypełniony ważnymi informacjami, ale z przestarzałym logo. Czy nie byłoby wspaniale po prostu wymienić to logo zamiast zaczynać od zera? Ten przewodnik przeprowadzi Cię przez proces zamiany obrazu w pliku PDF przy użyciu Aspose.PDF dla .NET. Zanurzmy się w to!
 
 ## Wymagania wstępne
 
@@ -23,8 +25,8 @@ Zanim wyruszysz w tę podróż, jest kilka rzeczy, które musisz mieć w swoim z
 
 1. Podstawowa znajomość języka C#: Znajomość języka C# ułatwi korzystanie z tego przewodnika i pomoże zrozumieć udostępnione fragmenty kodu.
 2. Visual Studio: Będziesz potrzebować IDE (zintegrowanego środowiska programistycznego), takiego jak Visual Studio, aby pisać i wykonywać kod.
-3.  Biblioteka Aspose.PDF: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać z[link do pobrania](https://releases.aspose.com/pdf/net/).
-4. Przykładowy plik PDF i obraz: Do testów będziesz potrzebować przykładowego pliku PDF (*ReplaceImage.pdf* ) i plik obrazu (taki jak*aspose-logo.jpg*) które chcesz wstawić. Powinny być umieszczone w wygodnym katalogu.
+3. Biblioteka Aspose.PDF: Upewnij się, że masz zainstalowaną bibliotekę Aspose.PDF dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać z [link do pobrania](https://releases.aspose.com/pdf/net/).
+4. Przykładowy plik PDF i obraz: Do testów będziesz potrzebować przykładowego pliku PDF (*ZastąpObraz.pdf*) i plik obrazu (taki jak *aspose-logo.jpg*) które chcesz wstawić. Powinny być umieszczone w wygodnym katalogu.
 
 Mając te wymagania wstępne za sobą, możemy zaczynać! 
 
@@ -42,7 +44,7 @@ W tym projekcie musimy dodać bibliotekę PDF Aspose do naszych odniesień proje
 
 - Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 - Wybierz „Zarządzaj pakietami NuGet...”
--  Szukaj`Aspose.PDF` i zainstaluj.
+- Szukaj `Aspose.PDF` i zainstaluj.
 
 ### Importuj niezbędne przestrzenie nazw 
 
@@ -74,7 +76,7 @@ Następnie musimy załadować plik PDF do naszej aplikacji. Jest to proste dzię
 Document pdfDocument = new Document(dataDir + "ReplaceImage.pdf");
 ```
 
- To polecenie utworzy wystąpienie`Document` klasa, która reprezentuje nasz plik PDF.
+To polecenie utworzy wystąpienie `Document` klasa, która reprezentuje nasz plik PDF.
 
 ## Krok 3: Zastąp obraz
 
@@ -82,7 +84,7 @@ A teraz, tutaj dzieje się magia! Zastąpimy obraz w pliku PDF, wykonując nast�
 
 ### Krok 3.1: Otwórz plik obrazu
 
- Aby zastąpić obraz, najpierw musisz otworzyć nowy plik obrazu. Używamy`FileStream` Aby to zrobić:
+Aby zastąpić obraz, najpierw musisz otworzyć nowy plik obrazu. Używamy `FileStream` Aby to zrobić:
 
 ```csharp
 using (FileStream stream = new FileStream(dataDir + "aspose-logo.jpg", FileMode.Open))
@@ -91,21 +93,21 @@ using (FileStream stream = new FileStream(dataDir + "aspose-logo.jpg", FileMode.
 }
 ```
 
- Spowoduje to otwarcie nowego pliku obrazu w trybie odczytu.`using` Oświadczenie to zapewnia, że nasz plik zostanie prawidłowo zutylizowany po użyciu.
+Spowoduje to otwarcie nowego pliku obrazu w trybie odczytu. `using` Oświadczenie to zapewnia, że nasz plik zostanie prawidłowo zutylizowany po wykorzystaniu.
 
 ### Krok 3.2: Zastąp żądany obraz
 
- Jeśli chcesz zastąpić pierwszy obraz na pierwszej stronie, możesz użyć`Replace` metoda. Oto jak to wygląda:
+Jeśli chcesz zastąpić pierwszy obraz na pierwszej stronie, możesz użyć `Replace` metoda. Oto jak to wygląda:
 
 ```csharp
 pdfDocument.Pages[1].Resources.Images.Replace(1, stream);
 ```
 
- Ten`Replace` Metoda przyjmuje indeks obrazu, który chcesz zastąpić (w tym przypadku`1` (odnosi się do pierwszego obrazu na stronie) i strumienia nowego obrazu.
+Ten `Replace` Metoda przyjmuje indeks obrazu, który chcesz zastąpić (w tym przypadku `1` (odnosi się do pierwszego obrazu na stronie) i strumienia nowego obrazu.
 
 ## Krok 4: Zapisz zaktualizowany plik PDF
 
-Po pomyślnej zamianie obrazu musimy zapisać zaktualizowany plik PDF. Określ ścieżkę wyjściową, w której zostanie zapisany nowy plik:
+Po pomyślnym zastąpieniu obrazu musimy zapisać zaktualizowany plik PDF. Określ ścieżkę wyjściową, w której zostanie zapisany nowy plik:
 
 ```csharp
 dataDir = dataDir + "ReplaceImage_out.pdf"; // Ścieżka do pliku wyjściowego
@@ -126,7 +128,7 @@ Spowoduje to wyświetlenie wyraźnego komunikatu na konsoli, że wszystko przebi
 
 I oto mamy to! Udało Ci się zastąpić obraz w dokumencie PDF za pomocą Aspose.PDF dla .NET. Za pomocą zaledwie kilku linijek kodu nie tylko zaktualizowałeś swój dokument, ale także zaoszczędziłeś sobie dużo czasu i wysiłku. 
 
-Niezależnie od tego, czy robisz to w celu zaktualizowania elementów marki, czy poprawienia błędów, ta metoda oszczędzi Ci trudu związanego z koniecznością ponownego tworzenia dokumentów.
+Niezależnie od tego, czy robisz to w celu zaktualizowania elementów marki, czy skorygowania błędów, ta metoda oszczędzi Ci trudu związanego z koniecznością ponownego tworzenia dokumentów.
 
 ## Najczęściej zadawane pytania
 
@@ -137,16 +139,18 @@ Tak, możesz przeglądać obrazy na każdej stronie i zastępować wiele obrazó
 Nowy obraz zostanie wstawiony w miejsce starego, ale jego wymiary mogą się różnić. Upewnij się, że sprawdzisz, jak wygląda po wymianie.
 
 ### Czy korzystanie z Aspose.PDF jest bezpłatne?
- Aspose oferuje bezpłatną wersję próbną, ale do nieograniczonego użytkowania musisz kupić licencję. Odwiedź[kup stronę](https://purchase.aspose.com/buy) Więcej szczegółów.
+Aspose oferuje bezpłatną wersję próbną, ale do nieograniczonego użytkowania musisz kupić licencję. Odwiedź [kup stronę](https://purchase.aspose.com/buy) Więcej szczegółów.
 
 ### Co zrobić, jeśli mój plik PDF ma ograniczenia bezpieczeństwa?
 Musisz upewnić się, że plik PDF nie jest chroniony hasłem ani szyfrowany. W przeciwnym razie zamiana obrazu nie zadziała.
 
 ### Czy mogę używać Aspose.PDF w innych językach?
 Aspose.PDF jest przeznaczony głównie dla platformy .NET, ale istnieją również wersje dla innych języków programowania, np. Java i Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

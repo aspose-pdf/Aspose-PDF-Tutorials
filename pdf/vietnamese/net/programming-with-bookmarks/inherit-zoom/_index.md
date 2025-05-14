@@ -1,14 +1,16 @@
 ---
-title: Thừa hưởng Phóng to Tệp PDF
-linktitle: Thừa hưởng Phóng to Tệp PDF
-second_title: Tài liệu tham khảo Aspose.PDF cho API .NET
-description: Tìm hiểu cách kế thừa chức năng phóng to trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Nâng cao trải nghiệm xem PDF của bạn.
-weight: 90
-url: /vi/net/programming-with-bookmarks/inherit-zoom/
+"description": "Tìm hiểu cách kế thừa chức năng phóng to trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Nâng cao trải nghiệm xem PDF của bạn."
+"linktitle": "Thừa hưởng Phóng to Tệp PDF"
+"second_title": "Tài liệu tham khảo Aspose.PDF cho API .NET"
+"title": "Thừa hưởng Phóng to Tệp PDF"
+"url": "/vi/net/programming-with-bookmarks/inherit-zoom/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thừa hưởng Phóng to Tệp PDF
@@ -22,7 +24,7 @@ Bạn đã bao giờ mở một tệp PDF và thấy rằng mức thu phóng ho�
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là môi trường tốt nhất để phát triển .NET.
-2.  Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/pdf/net/).
+2. Aspose.PDF cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.PDF. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/pdf/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 
 ## Nhập gói
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Mở Tài liệu PDF
 
- Tiếp theo, bạn sẽ muốn mở tài liệu PDF mà bạn muốn sửa đổi. Điều này được thực hiện bằng cách sử dụng`Document` lớp từ thư viện Aspose.PDF.
+Tiếp theo, bạn sẽ muốn mở tài liệu PDF mà bạn muốn sửa đổi. Điều này được thực hiện bằng cách sử dụng `Document` lớp từ thư viện Aspose.PDF.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
@@ -78,7 +80,7 @@ OutlineItemCollection item = new OutlineItemCollection(doc.Outlines);
 
 ## Bước 4: Thiết lập mức thu phóng
 
- Đây là nơi phép thuật xảy ra! Bạn có thể thiết lập mức thu phóng bằng cách sử dụng`XYZExplicitDestination` lớp. Trong ví dụ này, chúng ta sẽ đặt mức thu phóng thành 0, nghĩa là tài liệu sẽ thừa hưởng mức thu phóng từ trình xem.
+Đây là nơi phép thuật xảy ra! Bạn có thể thiết lập mức thu phóng bằng cách sử dụng `XYZExplicitDestination` lớp. Trong ví dụ này, chúng ta sẽ đặt mức thu phóng thành 0, nghĩa là tài liệu sẽ thừa hưởng mức thu phóng từ trình xem.
 
 ```csharp
 XYZExplicitDestination dest = new XYZExplicitDestination(2, 100, 100, 0);
@@ -127,19 +129,21 @@ Và bạn đã có nó! Bạn đã thành công trong việc kế thừa mức t
 Aspose.PDF for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu PDF theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để kiểm tra thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để kiểm tra thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu về Aspose.PDF cho .NET[đây](https://reference.aspose.com/pdf/net/).
+Bạn có thể tìm thấy tài liệu về Aspose.PDF cho .NET [đây](https://reference.aspose.com/pdf/net/).
 
 ### Làm thế nào để mua giấy phép?
- Bạn có thể mua giấy phép cho Aspose.PDF cho .NET[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép cho Aspose.PDF cho .NET [đây](https://purchase.aspose.com/buy).
 
 ### Tôi phải làm sao nếu cần hỗ trợ?
- Nếu bạn cần trợ giúp, bạn có thể truy cập diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/pdf/10).
+Nếu bạn cần trợ giúp, bạn có thể truy cập diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

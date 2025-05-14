@@ -1,14 +1,16 @@
 ---
-title: Aktualizuj zakładki w pliku PDF
-linktitle: Aktualizuj zakładki w pliku PDF
-second_title: Aspose.PDF dla .NET API Reference
-description: Dowiedz się, jak aktualizować zakładki w pliku PDF za pomocą Aspose.PDF dla .NET z tego przewodnika. Idealne dla programistów, którzy chcą skutecznie modyfikować zakładki PDF.
-weight: 100
-url: /pl/net/programming-with-bookmarks/update-bookmarks/
+"description": "Dowiedz się, jak aktualizować zakładki w pliku PDF za pomocą Aspose.PDF dla .NET z tego przewodnika. Idealne dla programistów, którzy chcą skutecznie modyfikować zakładki PDF."
+"linktitle": "Aktualizuj zakładki w pliku PDF"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Aktualizuj zakładki w pliku PDF"
+"url": "/pl/net/programming-with-bookmarks/update-bookmarks/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktualizuj zakładki w pliku PDF
@@ -21,12 +23,12 @@ Praca z plikami PDF często wymaga obsługi różnych elementów, takich jak tek
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko gotowe. Oto, czego będziesz potrzebować:
 
-1.  Aspose.PDF dla .NET: Możesz go pobrać[Tutaj](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF dla .NET: Możesz go pobrać [Tutaj](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: Upewnij się, że w systemie zainstalowano platformę .NET.
 3. IDE: Najlepiej Visual Studio lub inne IDE obsługujące platformę .NET.
 4. Plik PDF z istniejącymi zakładkami: Będzie to plik testowy służący do aktualizacji zakładek.
 
- Jeśli jeszcze nie masz pliku Aspose.PDF dla platformy .NET, pobierz go[bezpłatny okres próbny](https://releases.aspose.com/) Lub[kup to](https://purchase.aspose.com/buy)jeśli jesteś gotowy odblokować wszystkie jego funkcje. Ponadto, jeśli chcesz używać go bez ograniczeń podczas rozwoju,[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) przyda się.
+Jeśli jeszcze nie masz pliku Aspose.PDF dla platformy .NET, pobierz go [bezpłatny okres próbny](https://releases.aspose.com/) Lub [kup to](https://purchase.aspose.com/buy) jeśli jesteś gotowy odblokować wszystkie jego funkcje. Ponadto, jeśli chcesz używać go bez ograniczeń podczas rozwoju, [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) przyda się.
 
 ## Importuj pakiety
 
@@ -59,11 +61,11 @@ Gdy już masz katalog na miejscu, następnym krokiem jest otwarcie pliku PDF za 
 Document pdfDocument = new Document(dataDir + "UpdateBookmarks.pdf");
 ```
 
- Tutaj,`Document` jest klasą używaną do ładowania pliku PDF do pamięci. Upewnij się, że nazwa pliku jest taka sama jak w Twoim katalogu. 
+Tutaj, `Document` jest klasą używaną do ładowania pliku PDF do pamięci. Upewnij się, że nazwa pliku jest taka sama jak w Twoim katalogu. 
 
 ## Krok 3: Uzyskaj dostęp do obiektu zakładki
 
- Teraz, gdy plik PDF jest załadowany, czas zlokalizować konkretną zakładkę, którą chcesz zaktualizować. Zakładki w pliku PDF są przechowywane w`Outlines` kolekcja. Numer indeksu (`[1]`) odnosi się do położenia zakładki w kolekcji.
+Teraz, gdy plik PDF jest załadowany, czas zlokalizować konkretną zakładkę, którą chcesz zaktualizować. Zakładki w pliku PDF są przechowywane w `Outlines` kolekcja. Numer indeksu (`[1]`) odnosi się do położenia zakładki w kolekcji.
 
 ```csharp
 // Pobierz obiekt zakładki
@@ -82,7 +84,7 @@ pdfOutline.Italic = true;
 pdfOutline.Bold = true;
 ```
 
- Zmiana`Title` aktualizuje wyświetlany tekst w zakładce, podczas ustawiania`Italic` I`Bold` Do`true` zmienia styl czcionki. Te modyfikacje zapewniają, że zakładka jest aktualizowana zgodnie z Twoimi potrzebami.
+Zmiana `Title` aktualizuje wyświetlany tekst w zakładce, podczas ustawiania `Italic` I `Bold` Do `true` zmienia styl czcionki. Te modyfikacje zapewniają, że zakładka jest aktualizowana zgodnie z Twoimi potrzebami.
 
 ## Krok 5: Zapisz zaktualizowany plik PDF
 
@@ -93,7 +95,7 @@ dataDir = dataDir + "UpdateBookmarks_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
- Spowoduje to zapisanie zaktualizowanego pliku PDF ze zmianami zastosowanymi do zakładek. Nowy plik będzie nazwany`UpdateBookmarks_out.pdf`, zapewniając zachowanie oryginału w nienaruszonym stanie.
+Spowoduje to zapisanie zaktualizowanego pliku PDF ze zmianami zastosowanymi do zakładek. Nowy plik będzie nazwany `UpdateBookmarks_out.pdf`, zapewniając zachowanie oryginału w nienaruszonym stanie.
 
 ## Krok 6: Wyświetl komunikat o powodzeniu
 
@@ -103,31 +105,33 @@ Na zakończenie zawsze dobrze jest dodać wiadomość informującą użytkownika
 Console.WriteLine("\nBookmarks updated successfully.\nFile saved at " + dataDir);
 ```
 
-Ten prosty komunikat pojawi się na konsoli potwierdzając, że zakładki zostały zaktualizowane i plik został pomyślnie zapisany.
+Ten prosty komunikat pojawi się na konsoli, potwierdzając, że zakładki zostały zaktualizowane i plik został pomyślnie zapisany.
 
 ## Wniosek
 
-I to wszystko! Teraz nauczyłeś się, jak aktualizować zakładki w pliku PDF za pomocą Aspose.PDF dla .NET. Niezależnie od tego, czy chodzi o zmianę tytułu, zmianę stylu czcionki, czy modyfikację innych właściwości zakładki, proces jest prosty. Dzięki mocy Aspose.PDF dla .NET praca z zakładkami i innymi elementami PDF staje się dziecinnie prosta. Teraz nadeszła Twoja kolej, aby zastosować tę wiedzę w swoich projektach. Gotowy, aby spróbować?
+to wszystko! Teraz nauczyłeś się, jak aktualizować zakładki w pliku PDF za pomocą Aspose.PDF dla .NET. Niezależnie od tego, czy chodzi o zmianę tytułu, zmianę stylu czcionki, czy modyfikację innych właściwości zakładki, proces jest prosty. Dzięki mocy Aspose.PDF dla .NET praca z zakładkami i innymi elementami PDF staje się dziecinnie prosta. Teraz nadeszła Twoja kolej, aby zastosować tę wiedzę w swoich projektach. Gotowy, aby spróbować?
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę aktualizować wiele zakładek w tym samym pliku PDF?  
- Tak, możesz aktualizować wiele zakładek, przechodząc przez nie w pętli`Outlines` gromadzenie i modyfikowanie każdej zakładki według potrzeb.
+Tak, możesz aktualizować wiele zakładek, przechodząc przez nie w pętli `Outlines` gromadzenie i modyfikowanie każdej zakładki według potrzeb.
 
 ### Co się stanie, jeśli spróbuję uzyskać dostęp do zakładki, która nie istnieje?  
- Dostaniesz`IndexOutOfRangeException` jeśli próbujesz uzyskać dostęp do indeksu zakładek, który nie istnieje. Zawsze upewnij się, że indeks odpowiada istniejącej zakładce.
+Dostaniesz `IndexOutOfRangeException` jeśli próbujesz uzyskać dostęp do indeksu zakładek, który nie istnieje. Zawsze upewnij się, że indeks odpowiada istniejącej zakładce.
 
 ### Czy mogę zmienić inne właściwości zakładki, np. kolor lub akcję?  
- Oczywiście! Możesz modyfikować inne właściwości, takie jak`Destination`, `Color`i czynności powiązane z zakładką.
+Oczywiście! Możesz modyfikować inne właściwości, takie jak `Destination`, `Color`i akcje powiązane z zakładką.
 
 ### Jak dodać nowe zakładki zamiast aktualizować istniejące?  
- Aby dodać nowe zakładki, możesz utworzyć nową instancję`OutlineItemCollection` i dodaj do`Outlines` kolekcja.
+Aby dodać nowe zakładki, możesz utworzyć nową instancję `OutlineItemCollection` i dodaj do `Outlines` kolekcja.
 
 ### Czy potrzebuję licencji, aby używać Aspose.PDF na platformie .NET?  
- Tak, będziesz potrzebować licencji do użytku produkcyjnego. Możesz jednak uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach rozwojowych lub użyj[bezpłatny okres próbny](https://releases.aspose.com/).
+Tak, będziesz potrzebować licencji do użytku produkcyjnego. Możesz jednak uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach rozwojowych lub użyj [bezpłatny okres próbny](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

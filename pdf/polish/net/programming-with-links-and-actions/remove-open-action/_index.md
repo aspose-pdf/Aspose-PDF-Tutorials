@@ -1,21 +1,23 @@
 ---
-title: Usuń otwartą akcję
-linktitle: Usuń otwartą akcję
-second_title: Aspose.PDF dla .NET API Reference
-description: Łatwe usuwanie otwartych akcji z plików PDF za pomocą Aspose.PDF dla .NET! Prosty samouczek z instrukcjami krok po kroku dotyczącymi efektywnego zarządzania plikami PDF.
-weight: 80
-url: /pl/net/programming-with-links-and-actions/remove-open-action/
+"description": "Łatwe usuwanie otwartych akcji z plików PDF za pomocą Aspose.PDF dla .NET! Prosty samouczek z instrukcjami krok po kroku dotyczącymi efektywnego zarządzania plikami PDF."
+"linktitle": "Usuń otwartą akcję"
+"second_title": "Aspose.PDF dla .NET API Reference"
+"title": "Usuń otwartą akcję"
+"url": "/pl/net/programming-with-links-and-actions/remove-open-action/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń otwartą akcję
 
 ## Wstęp
 
-W tym samouczku przeprowadzimy Cię przez proste kroki potrzebne do usunięcia otwartej akcji z dokumentu PDF przy użyciu Aspose.PDF dla .NET. Będziesz zaskoczony, jak proste to jest — a pod koniec poczujesz się jak profesjonalista PDF! Przejdźmy od razu do wymagań wstępnych.
+tym samouczku przeprowadzimy Cię przez proste kroki potrzebne do usunięcia otwartej akcji z dokumentu PDF przy użyciu Aspose.PDF dla .NET. Będziesz zaskoczony, jak proste to jest — a pod koniec poczujesz się jak profesjonalista PDF! Przejdźmy od razu do wymagań wstępnych.
 
 ## Wymagania wstępne
 
@@ -23,7 +25,7 @@ Zanim zaczniemy, będziesz potrzebować kilku rzeczy:
 
 1. Podstawowa znajomość języka C#: Znajomość języka programowania C# pomoże Ci z łatwością poruszać się po fragmentach kodu.
 2. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio. To najpopularniejszy IDE do tworzenia oprogramowania .NET.
-3.  Aspose.PDF dla .NET: Musisz mieć tę bibliotekę pod ręką. Możesz ją pobrać[Tutaj](https://releases.aspose.com/pdf/net/). 
+3. Aspose.PDF dla .NET: Musisz mieć tę bibliotekę pod ręką. Możesz ją pobrać [Tutaj](https://releases.aspose.com/pdf/net/). 
 4. .NET Framework: Upewnij się, że Twój projekt został skonfigurowany tak, aby korzystał z .NET Framework (zalecana jest wersja 4.0 lub nowsza).
 5. Plik PDF z otwartymi akcjami: To jest dokument, nad którym będziemy pracować. Możesz go utworzyć lub pobrać przykład do ćwiczeń.
 
@@ -61,7 +63,7 @@ Przede wszystkim musisz określić, gdzie znajduje się Twój plik PDF. Pomyśl 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest Twój plik PDF. Na przykład:
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest Twój plik PDF. Na przykład:
 
 ```csharp
 string dataDir = "C:\\Documents\\";
@@ -77,7 +79,7 @@ Następnie załadujmy dokument PDF do aplikacji. To tutaj zaczyna się magia! U�
 Document document = new Document(dataDir + "RemoveOpenAction.pdf");
 ```
 
- W tym kroku polecimy naszej aplikacji utworzenie nowego`Document` obiekt, który reprezentuje plik PDF o nazwie "RemoveOpenAction.pdf". Upewnij się, że ten plik istnieje w podanym przez Ciebie katalogu!
+W tym kroku polecimy naszej aplikacji utworzenie nowego `Document` obiekt, który reprezentuje plik PDF o nazwie "RemoveOpenAction.pdf". Upewnij się, że ten plik istnieje w podanym przez Ciebie katalogu!
 
 ## Krok 3: Usuń akcję otwartą
 
@@ -102,7 +104,7 @@ Ten kod zapisze zmodyfikowany dokument jako „RemoveOpenAction_out.pdf” w tym
 
 ## Krok 5: Potwierdź powodzenie
 
-Aby dać wszystkim znać, że operacja się powiodła, możesz wydrukować wiadomość potwierdzającą na konsoli. Po prostu dodaj następujący wiersz, aby ładnie to podsumować:
+Aby dać wszystkim znać, że operacja się powiodła, możesz wydrukować wiadomość potwierdzającą na konsoli. Po prostu dodaj następujący wiersz, aby ładnie to zakończyć:
 
 ```csharp
 Console.WriteLine("\nOpen action removed successfully.\nFile saved at " + dataDir);
@@ -120,19 +122,21 @@ oto mamy to! Za pomocą zaledwie kilku linijek kodu C# i mocy Aspose.PDF dla .NE
 Akcje otwarte to polecenia wykonywane w momencie otwarcia pliku PDF, takie jak odtworzenie dźwięku lub przejście do strony internetowej.
 
 ### Czy muszę płacić za Aspose.PDF dla .NET?
- Aspose oferuje bezpłatną wersję próbną. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Aspose oferuje bezpłatną wersję próbną. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Czy mogę usunąć wiele otwartych akcji z pliku PDF?
- Tak, możesz ustawić`OpenAction` nieruchomość do`null` aby usunąć wszystkie otwarte akcje.
+Tak, możesz ustawić `OpenAction` nieruchomość do `null` aby usunąć wszystkie otwarte akcje.
 
 ### Jak sprawdzić, czy usunięcie blokady otwartej zadziałało?
 Otwórz zapisany plik PDF i sprawdź, czy występują jakieś wcześniej ustawione akcje. Jeśli nie, udało Ci się!
 
-### Gdzie mogę znaleźć pomoc, jeśli napotkam jakiś problem?
- Odwiedź forum Aspose, aby uzyskać pomoc w kwestiach związanych z plikami PDF[Tutaj](https://forum.aspose.com/c/pdf/10).
+### Gdzie mogę znaleźć pomoc, jeśli napotkam problem?
+Odwiedź forum Aspose, aby uzyskać pomoc w kwestiach związanych z plikami PDF [Tutaj](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

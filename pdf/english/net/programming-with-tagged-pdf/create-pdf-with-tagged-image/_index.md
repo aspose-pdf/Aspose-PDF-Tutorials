@@ -8,7 +8,9 @@ url: /net/programming-with-tagged-pdf/create-pdf-with-tagged-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create PDF with Tagged Image
@@ -158,6 +160,7 @@ You can get support by visiting the [Aspose Forums](https://forum.aspose.com/c/p
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

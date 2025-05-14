@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Console.WriteLine($"PDF/UA compliance: {isPdfUaCompliance}");
 This guide provided a comprehensive approach to styling tables in tagged PDFs using Aspose.PDF for .NET. By following these steps, you can enhance the aesthetics and accessibility of your PDF documents, ensuring compliance with industry standards like PDF/UA.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

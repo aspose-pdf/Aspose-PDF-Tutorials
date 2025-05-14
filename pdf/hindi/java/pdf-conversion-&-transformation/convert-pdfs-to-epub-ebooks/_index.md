@@ -1,14 +1,16 @@
 ---
-title: PDF को EPUB ई-बुक में बदलें
-linktitle: PDF को EPUB ई-बुक में बदलें
-second_title: Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई
-description: Aspose.PDF for Java के साथ PDF को EPUB ई-बुक में आसानी से बदलें। चरण-दर-चरण PDF को EPUB में बदलने और अक्सर पूछे जाने वाले प्रश्नों के बारे में जानें।
-weight: 15
-url: /hi/java/pdf-conversion-transformation/convert-pdfs-to-epub-ebooks/
+"description": "Aspose.PDF for Java के साथ PDF को EPUB ई-बुक में आसानी से बदलें। चरण-दर-चरण PDF को EPUB में बदलने और अक्सर पूछे जाने वाले प्रश्नों के बारे में जानें।"
+"linktitle": "PDF को EPUB ई-बुक में बदलें"
+"second_title": "Aspose.PDF जावा पीडीएफ प्रसंस्करण एपीआई"
+"title": "PDF को EPUB ई-बुक में बदलें"
+"url": "/hi/java/pdf-conversion-transformation/convert-pdfs-to-epub-ebooks/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF को EPUB ई-बुक में बदलें
@@ -30,7 +32,7 @@ url: /hi/java/pdf-conversion-transformation/convert-pdfs-to-epub-ebooks/
 
 ## अपना विकास वातावरण स्थापित करना
 
- आरंभ करने के लिए, सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट एनवायरनमेंट सेट अप है। आपको जावा के लिए Aspose.PDF की भी आवश्यकता होगी, जिसे आप यहाँ से प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/pdf/java/).
+आरंभ करने के लिए, सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट एनवायरनमेंट सेट अप है। आपको जावा के लिए Aspose.PDF की भी आवश्यकता होगी, जिसे आप यहाँ से प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/pdf/java/).
 
 ## अपने प्रोजेक्ट में Aspose.PDF for Java जोड़ना
 
@@ -72,7 +74,7 @@ saveOptions.setEpubTitle("My eBook");
 pdfDocument.save("output.epub", saveOptions);
 ```
 
-## EPUB ई-पुस्तक को सहेजना
+## EPUB ईबुक को सहेजना
 
 अनुकूलन के बाद, जेनरेट की गई EPUB ईबुक को एक फ़ाइल में सेव करें। आप अपनी पसंद के अनुसार फ़ाइल का नाम और स्थान चुन सकते हैं।
 
@@ -109,9 +111,11 @@ pdfDocument.save("output.epub", saveOptions);
 ### क्या Java के लिए Aspose.PDF हेतु तकनीकी सहायता उपलब्ध है?
 
 हां, Aspose बेहतरीन तकनीकी सहायता प्रदान करता है। यदि आपको कोई समस्या आती है या लाइब्रेरी के बारे में कोई प्रश्न है, तो आप उनकी सहायता टीम से संपर्क कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Menggambar Garis
-linktitle: Menggambar Garis
-second_title: Referensi API Aspose.PDF untuk .NET
-description: Pelajari cara menggambar garis dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup penyiapan dokumen, penambahan garis, dan penyimpanan file.
-weight: 80
-url: /id/net/programming-with-graphs/drawing-line/
+"description": "Pelajari cara menggambar garis dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup penyiapan dokumen, penambahan garis, dan penyimpanan file."
+"linktitle": "Menggambar Garis"
+"second_title": "Referensi API Aspose.PDF untuk .NET"
+"title": "Menggambar Garis"
+"url": "/id/net/programming-with-graphs/drawing-line/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggambar Garis
@@ -21,7 +23,7 @@ Menggambar garis dalam dokumen PDF mungkin tampak seperti tugas sederhana, tetap
 
 Sebelum menyelami kodenya, ada beberapa hal yang Anda perlukan:
 
-1.  Aspose.PDF untuk .NET: Anda perlu menginstal Aspose.PDF untuk .NET. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/pdf/net/).
+1. Aspose.PDF untuk .NET: Anda perlu menginstal Aspose.PDF untuk .NET. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/pdf/net/).
 2. Lingkungan Pengembangan .NET: Pastikan Anda memiliki lingkungan pengembangan yang disiapkan untuk aplikasi .NET. Visual Studio adalah pilihan yang tepat untuk ini.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu untuk memahami potongan kode dan contoh dalam tutorial ini.
 
@@ -54,7 +56,7 @@ Document pDoc = new Document();
 Page pg = pDoc.Pages.Add();
 ```
 
- Di Sini,`dataDir` adalah jalur tempat menyimpan keluaran PDF Anda.`Document` adalah kelas utama untuk menangani PDF, dan`Page` mewakili satu halaman dalam dokumen PDF.
+Di Sini, `dataDir` adalah jalur tempat menyimpan keluaran PDF Anda. `Document` adalah kelas utama untuk menangani PDF, dan `Page` mewakili satu halaman dalam dokumen PDF.
 
 ## Langkah 2: Konfigurasikan Margin Halaman
 
@@ -69,14 +71,14 @@ Ini menghapus semua margin default, memberi Anda kanvas satu halaman penuh untuk
 
 ## Langkah 3: Buat Objek Grafik
 
- Selanjutnya, buatlah`Graph` objek yang sesuai dengan dimensi halaman. Objek ini akan berfungsi sebagai wadah untuk bentuk Anda:
+Selanjutnya, buatlah `Graph` objek yang sesuai dengan dimensi halaman. Objek ini akan berfungsi sebagai wadah untuk bentuk Anda:
 
 ```csharp
 // Buat objek Grafik dengan Lebar dan Tinggi sama dengan dimensi halaman
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
 ```
 
- Itu`Graph` Objek ini memungkinkan Anda menambahkan dan memanipulasi bentuk pada halaman.
+Itu `Graph` Objek ini memungkinkan Anda menambahkan dan memanipulasi bentuk pada halaman.
 
 ## Langkah 4: Gambar Garis Pertama
 
@@ -90,7 +92,7 @@ Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)
 graph.Shapes.Add(line);
 ```
 
- Itu`Line` kelas mengambil koordinat untuk titik awal dan akhir garis. Di sini,`pg.Rect.LLX` Dan`pg.Rect.URY` mewakili sudut kiri bawah dan kanan atas halaman.
+Itu `Line` kelas mengambil koordinat untuk titik awal dan akhir garis. Di sini, `pg.Rect.LLX` Dan `pg.Rect.URY` mewakili sudut kiri bawah dan kanan atas halaman.
 
 ## Langkah 5: Gambar Garis Kedua
 
@@ -108,14 +110,14 @@ Garis ini akan melintasi halaman secara diagonal ke arah yang berlawanan.
 
 ## Langkah 6: Tambahkan Grafik ke Halaman
 
- Setelah garis digambar, Anda sekarang perlu menambahkan`Graph` keberatan terhadap kumpulan paragraf halaman:
+Setelah garis digambar, Anda sekarang perlu menambahkan `Graph` keberatan terhadap kumpulan paragraf halaman:
 
 ```csharp
 // Tambahkan objek Grafik ke koleksi paragraf halaman
 pg.Paragraphs.Add(graph);
 ```
 
- Langkah ini mengintegrasikan`Graph` objek (dengan baris Anda) ke dalam halaman PDF.
+Langkah ini mengintegrasikan `Graph` objek (dengan baris Anda) ke dalam halaman PDF.
 
 ## Langkah 7: Simpan Dokumen
 
@@ -129,33 +131,35 @@ pDoc.Save(dataDir);
 Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir);
 ```
 
- Ini menyimpan PDF dengan garis yang Anda gambar, dan`Console.WriteLine` pernyataan tersebut mengonfirmasi bahwa operasi tersebut berhasil.
+Ini menyimpan PDF dengan garis yang Anda gambar, dan `Console.WriteLine` pernyataan tersebut mengonfirmasi bahwa operasi tersebut berhasil.
 
 ## Kesimpulan
 
-Menggambar garis dalam dokumen PDF menggunakan Aspose.PDF untuk .NET merupakan proses yang mudah setelah Anda membaginya menjadi beberapa langkah yang mudah dikelola. Dengan mengikuti tutorial ini, Anda telah mempelajari cara menyiapkan dokumen PDF, menggambar garis di atasnya, dan menyimpan produk akhir. Baik Anda membuat diagram, memberi penekanan pada teks, atau sekadar bereksperimen dengan manipulasi PDF, panduan ini menyediakan dasar yang kuat untuk bekerja dengan garis dalam PDF.
+Menggambar garis dalam dokumen PDF menggunakan Aspose.PDF untuk .NET merupakan proses yang mudah setelah Anda membaginya menjadi beberapa langkah yang mudah dikelola. Dengan mengikuti tutorial ini, Anda telah mempelajari cara menyiapkan dokumen PDF, menggambar garis di atasnya, dan menyimpan produk akhir. Baik Anda membuat diagram, menekankan teks, atau sekadar bereksperimen dengan manipulasi PDF, panduan ini menyediakan dasar yang kuat untuk bekerja dengan garis dalam PDF.
 
- Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk berkonsultasi[Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) atau kunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
+Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk berkonsultasi [Dokumentasi Aspose.PDF](https://reference.aspose.com/pdf/net/) atau kunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/pdf/10).
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menggambar bentuk lain selain garis?
- Ya, Anda dapat menggambar berbagai bentuk seperti persegi panjang, elips, dan poligon menggunakan`Aspose.Pdf.Drawing` ruang nama.
+Ya, Anda dapat menggambar berbagai bentuk seperti persegi panjang, elips, dan poligon menggunakan `Aspose.Pdf.Drawing` ruang nama.
 
 ### Bagaimana cara menyesuaikan warna dan ketebalan garis?
- Anda dapat mengatur`Line` objek`StrokeColor` Dan`LineWidth` properti untuk menyesuaikan tampilan garis Anda.
+Anda dapat mengatur `Line` objek `StrokeColor` Dan `LineWidth` properti untuk menyesuaikan tampilan garis Anda.
 
 ### Apakah mungkin untuk menggambar garis pada area tertentu di halaman?
- Tentu saja! Sesuaikan saja koordinatnya`Line` objek untuk memposisikan garis sesuai kebutuhan.
+Tentu saja! Sesuaikan saja koordinatnya `Line` objek untuk memposisikan garis sesuai kebutuhan.
 
 ### Bisakah saya menambahkan teks bersama barisnya?
- Ya, Anda dapat menambahkan teks dengan membuat`TextFragment` objek dan menempatkannya di`Paragraphs` koleksi halaman.
+Ya, Anda dapat menambahkan teks dengan membuat `TextFragment` objek dan menempatkannya di `Paragraphs` koleksi halaman.
 
 ### Bagaimana jika saya ingin menambahkan baris ke PDF yang sudah ada alih-alih membuat yang baru?
- Anda dapat memuat PDF yang ada menggunakan`Document` lalu gunakan metode serupa untuk menambahkan baris ke halaman yang ada.
+Anda dapat memuat PDF yang ada menggunakan `Document` lalu gunakan metode serupa untuk menambahkan baris ke halaman yang ada.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

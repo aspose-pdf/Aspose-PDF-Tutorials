@@ -1,14 +1,16 @@
 ---
-title: Font Değişimi İçin Uyarılar Alın
-linktitle: Font Değişimi İçin Uyarılar Alın
-second_title: Aspose.PDF for .NET API Referansı
-description: Bir PDF belgesini açarken yazı tipi değiştirme uyarılarını algılamak için Aspose.PDF for .NET'in GetWarningsForFontSubstitution özelliğinin nasıl kullanılacağını öğrenin.
-weight: 190
-url: /tr/net/programming-with-document/getwarningsforfontsubstitution/
+"description": "Bir PDF belgesini açarken yazı tipi değiştirme uyarılarını algılamak için Aspose.PDF for .NET'in GetWarningsForFontSubstitution özelliğinin nasıl kullanılacağını öğrenin."
+"linktitle": "Font Değişimi İçin Uyarılar Alın"
+"second_title": "Aspose.PDF for .NET API Referansı"
+"title": "Font Değişimi İçin Uyarılar Alın"
+"url": "/tr/net/programming-with-document/getwarningsforfontsubstitution/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Font Değişimi İçin Uyarılar Alın
@@ -22,7 +24,7 @@ Belge işleme dünyasında, PDF'lerinizin tam olarak amaçlandığı gibi görü
 Koda dalmadan önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET kodunuzu burada yazıp çalıştıracaksınız.
-2.  .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/pdf/net/).
+2. .NET için Aspose.PDF: Aspose.PDF kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/pdf/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 4. PDF Belgesi: Yazı tipi değiştirme tespitini test etmek için kullanabileceğiniz bir örnek PDF belgesi hazır bulundurun.
 
@@ -61,21 +63,21 @@ Artık her şeyi ayarladığınıza göre, yazı tipi değiştirme uyarıların�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyanızın bulunduğu gerçek yol ile.
 
 ## Adım 2: PDF Belgesini açın
 
- Daha sonra, PDF belgesini kullanarak açacaksınız`Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
+Daha sonra, PDF belgesini kullanarak açacaksınız `Document` Sınıf Aspose.PDF tarafından sağlanmıştır.
 
 ```csharp
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
- Bu kod satırı yeni bir başlatır`Document` nesneyi PDF dosyanızla birlikte gönderin.
+Bu kod satırı yeni bir başlatır `Document` nesneyi PDF dosyanızla birlikte gönderin.
 
 ## Adım 3: Yazı Tipi Değiştirme Algılama Ayarı
 
- Şimdi, yazı tipi değiştirme uyarılarını algılayacak olay işleyicisini ayarlamanın zamanı geldi. Abone olmanız gerekecek`FontSubstitution` olayın`Document` sınıf.
+Şimdi, yazı tipi değiştirme uyarılarını algılayacak olay işleyicisini ayarlamanın zamanı geldi. Abone olmanız gerekecek `FontSubstitution` olayın `Document` sınıf.
 
 ```csharp
 doc.FontSubstitution += new Document.FontSubstitutionHandler(OnFontSubstitution);
@@ -116,13 +118,15 @@ Yazı tipi değişikliğini önlemek için PDF'nizde kullanılan tüm yazı tipl
 Evet, Aspose.PDF'nin özelliklerini test edebilmeniz için ücretsiz deneme sürümü mevcuttur.
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı belgeleri .NET için Aspose.PDF'de bulabilirsiniz[Burada](https://reference.aspose.com/pdf/net/).
+.NET için Aspose.PDF'de ayrıntılı belgeler bulabilirsiniz [Burada](https://reference.aspose.com/pdf/net/).
 
 ### Aspose.PDF için nasıl destek alabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
