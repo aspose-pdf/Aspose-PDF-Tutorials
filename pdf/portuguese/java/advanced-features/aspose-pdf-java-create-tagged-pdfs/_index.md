@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Aprenda a criar e configurar documentos PDF acessíveis com tags usando o Aspose.PDF para Java. Este guia aborda a configuração, a criação de estruturas lógicas e o salvamento de documentos."
-"title": "Crie PDFs com tags acessíveis usando Aspose.PDF para Java - Um guia completo"
-"url": "/pt/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/"
-"weight": 1
+date: '2025-11-28'
+description: Aprenda a usar uma licença temporária do Aspose PDF para criar PDFs acessíveis
+  com tags usando Java. Guia passo a passo, exemplos de código e boas práticas.
+keywords:
+- aspose pdf temporary license
+- tagged PDFs
+- accessibility with Aspose.PDF
+- create structured PDFs
+language: pt
+title: Licença Temporária do Aspose PDF – PDFs Marcados em Java
+url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +18,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Crie PDFs com tags acessíveis usando Aspose.PDF para Java: um guia completo
+# Licença Temporária Aspose PDF – PDFs Marcados em Java
+
 ## Introdução
-Tornar seus documentos PDF acessíveis é crucial para a inclusão, especialmente para usuários que dependem de leitores de tela. A criação de PDFs com tags melhora a acessibilidade, fornecendo um formato de documento estruturado que as tecnologias assistivas podem interpretar facilmente. **Aspose.PDF para Java** simplifica esse processo. Este guia orientará você na criação e configuração de um PDF acessível com tags usando o Aspose.PDF.
+Neste guia, você aprenderá **como usar uma licença temporária do Aspose PDF** para criar PDFs marcados acessíveis com **Aspose.PDF for Java**. Tornar PDFs acessíveis é essencial para usuários que dependem de leitores de tela, e uma licença temporária permite avaliar o conjunto completo de recursos sem nenhum custo inicial. Percorreremos a configuração, a criação da estrutura lógica e a gravação do documento final, tudo mantendo o código simples e pronto para produção.
 
-**O que você aprenderá:**
-- Configurando e inicializando o Aspose.PDF para Java
-- Criando um PDF marcado com títulos, configurações de idioma e estruturas lógicas
-- Salvando o documento estruturado
-- Aplicações práticas e considerações de desempenho
+**O que você aprenderá**
+- Como obter e aplicar uma licença temporária do Aspose PDF
+- Configurar Aspose.PDF for Java no Maven ou Gradle
+- Construir uma estrutura lógica com títulos, configurações de idioma, seções e divisões
+- Salvar um PDF totalmente marcado pronto para tecnologias assistivas
+- Cenários reais onde PDFs marcados agregam valor
 
-Vamos melhorar a acessibilidade dos seus documentos!
+---
 
-## Pré-requisitos
-Antes de começar, certifique-se de ter:
-- **Kit de Desenvolvimento Java (JDK):** Instalado no seu sistema.
-- **Biblioteca Aspose.PDF para Java:** Versão 25.3 ou posterior.
-- **Configuração do Maven/Gradle:** Para gerenciamento de dependências.
+## Respostas Rápidas
+- **O que é uma licença temporária do Aspose PDF?** Uma licença de curto prazo, gratuita, que desbloqueia todos os recursos do Aspose.PDF para avaliação.  
+- **Preciso de licença para criar PDFs marcados?** Sim, é necessária uma licença temporária ou completa para habilitar os recursos de marcação.  
+- **Quais ferramentas de build Java são suportadas?** Maven e Gradle são totalmente suportados.  
+- **Posso definir o idioma e o título do documento?** Absolutamente – a API fornece métodos para definir ambos para acessibilidade.  
+- **O PDF gerado está em conformidade com PDF/UA?** A estrutura marcada segue as recomendações do PDF/UA, melhorando a conformidade.
 
-### Bibliotecas e dependências necessárias
-Certifique-se de que Aspose.PDF esteja incluído nas dependências do seu projeto:
+---
 
-#### Especialista
+## O que é uma Licença Temporária do Aspose PDF?
+Uma **licença temporária do Aspose PDF** é uma chave limitada no tempo que concede acesso à funcionalidade completa do Aspose.PDF for Java, incluindo recursos avançados de acessibilidade como marcação, configurações de idioma e manipulação da estrutura lógica. É ideal para testes, projetos de prova de conceito ou avaliação da biblioteca antes de adquirir uma licença permanente.
+
+## Por que usar uma Licença Temporária para PDFs Marcados?
+- **Avaliação sem custo:** Experimente recursos de marcação, estrutura e conformidade sem pagar.
+- **Conjunto completo de recursos:** Sem restrições – você obtém a mesma API de uma licença paga.
+- **Onboarding rápido:** Integre a biblioteca rapidamente, crie PDFs acessíveis e demonstre valor aos stakeholders.
+- **Teste de conformidade:** Verifique se seus PDFs atendem aos padrões PDF/UA ou WCAG antes de comprometer-se com uma licença.
+
+## Pré‑requisitos
+Antes de começar, certifique‑se de que você tem o seguinte:
+
+- **Java Development Kit (JDK):** Versão 8 ou superior instalada.
+- **Aspose.PDF for Java Library:** Use a versão 25.3 ou posterior (a licença temporária funciona com qualquer versão recente).
+- **Maven ou Gradle:** Para gerenciamento de dependências.
+- **Um arquivo de licença temporária:** Obtenha-o na página de licenciamento da Aspose (veja o link abaixo).
+
+### Bibliotecas e Dependências Necessárias
+Adicione Aspose.PDF ao seu projeto usando uma das ferramentas de build a seguir.
+
+#### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,18 +75,18 @@ Certifique-se de que Aspose.PDF esteja incluído nas dependências do seu projet
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Aquisição de Licença
-Obtenha uma licença temporária para testes gratuitos ou compre uma licença completa para desbloquear todos os recursos. Visite [Página de licenciamento da Aspose](https://purchase.aspose.com/temporary-license/) para mais detalhes.
+### Aquisição da Licença
+Obtenha uma **licença temporária** para testes gratuitos ou adquira uma licença completa para desbloquear todos os recursos. Visite a [página de licenciamento da Aspose](https://purchase.aspose.com/temporary-license/) para mais detalhes.
 
-## Configurando Aspose.PDF para Java
-Adicione a dependência na sua ferramenta de gerenciamento de projetos (Maven/Gradle). Em seguida, inicialize a biblioteca:
+## Configurando Aspose.PDF for Java
+Adicione a dependência na sua ferramenta de gerenciamento de projeto (Maven/Gradle). Em seguida, inicialize a biblioteca:
 
 ```java
 import com.aspose.pdf.Document;
 
 public class SetupAspose {
     public static void main(String[] args) {
-        // Inicializar o objeto Document
+        // Initialize the Document object
         Document document = new Document();
         System.out.println("Aspose.PDF Initialized Successfully!");
     }
@@ -65,54 +94,55 @@ public class SetupAspose {
 ```
 
 ## Guia de Implementação
-### Criar e configurar um documento PDF marcado
+
+### Criar e Configurar um Documento PDF Marcado
 **Visão geral:** Comece criando um PDF com conteúdo marcado para garantir acessibilidade.
 
-#### Etapa 1: Importar os pacotes necessários
+#### Etapa 1: Importar Pacotes Necessários
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.tagged.ITaggedContent;
 ```
 
-#### Etapa 2: Configurar o diretório de documentos
-Defina o diretório do documento onde você salvará os arquivos de saída.
+#### Etapa 2: Configurar o Diretório do Documento
+Defina o diretório onde você salvará os arquivos de saída.
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document();
 ITaggedContent taggedContent = document.getTaggedContent();
 
-// Configurar título e idioma para acessibilidade
+// Configure title and language for accessibility
 taggedContent.setTitle("Tagged Pdf Document");
 taggedContent.setLanguage("en-US");
 ```
-- **Por que:** Definir o título e o idioma garante que os leitores de tela possam interpretar corretamente o seu documento.
+- **Por quê:** Definir o título e o idioma garante que leitores de tela interpretem corretamente seu documento.
 
-### Construir uma estrutura lógica de seções e divisões
-**Visão geral:** Organize o conteúdo logicamente em seções e divisões para melhor navegação.
+### Construir uma Estrutura Lógica de Seções e Divisões
+**Visão geral:** Organize o conteúdo logicamente dentro de seções e divisões para melhor navegação.
 
-#### Etapa 1: Importar elementos da estrutura lógica
+#### Etapa 1: Importar Elementos da Estrutura Lógica
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.DivElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.SectElement;
 ```
 
-#### Etapa 2: Construir a estrutura do documento
+#### Etapa 2: Construir a Estrutura do Documento
 Crie seções e divisões dentro do seu PDF.
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 StructureElement rootElement = taggedContent.getRootElement();
 
-// Criar seções
+// Create sections
 SectElement sect1 = taggedContent.createSectElement();
 rootElement.appendChild(sect1);
 
 SectElement sect2 = taggedContent.createSectElement();
 rootElement.appendChild(sect2);
 
-// Adicionar divisões às seções
+// Add divisions to sections
 DivElement div11 = taggedContent.createDivElement();
 sect1.appendChild(div11);
 DivElement div12 = taggedContent.createDivElement();
@@ -123,7 +153,7 @@ sect2.appendChild(art21);
 ArtElement art22 = taggedContent.createArtElement();
 sect2.appendChild(art22);
 
-// Divida ainda mais as seções
+// Further divide sections
 DivElement div211 = taggedContent.createDivElement();
 art21.appendChild(div211);
 DivElement div212 = taggedContent.createDivElement();
@@ -134,58 +164,67 @@ art22.appendChild(div221);
 DivElement div222 = taggedContent.createDivElement();
 art22.appendChild(div222);
 
-// Adicionar outra seção
+// Add another section
 SectElement sect3 = taggedContent.createSectElement();
 rootElement.appendChild(sect3);
 
 DivElement div31 = taggedContent.createDivElement();
 sect3.appendChild(div31);
 ```
-- **Por que:** Uma estrutura lógica é crucial para a acessibilidade, permitindo que os usuários naveguem pelo conteúdo de forma eficiente.
+- **Por quê:** Uma estrutura lógica é crucial para acessibilidade, permitindo que usuários naveguem pelo conteúdo de forma eficiente.
 
-### Salvar o documento PDF marcado
+### Salvar o Documento PDF Marcado
 **Visão geral:** Finalize salvando seu documento estruturado em um diretório especificado.
 
 ```java
 document.save(outputDir + "/StructureElementsTree.pdf");
 ```
 
-## Aplicações práticas
-PDFs marcados são benéficos em vários cenários:
-1. **Materiais Educacionais:** Melhore a acessibilidade para alunos usando tecnologias assistivas.
-2. **Publicações governamentais:** Garantir a conformidade com os padrões de acessibilidade.
-3. **Relatórios Corporativos:** Melhore a navegação e a experiência do usuário para as partes interessadas.
+## Aplicações Práticas
+PDFs marcados são benéficos em diversos cenários:
 
-Integrar o Aspose.PDF aos seus sistemas pode otimizar os processos de gerenciamento de documentos em diversos aplicativos.
+1. **Materiais Educacionais:** Melhore a acessibilidade para estudantes que utilizam tecnologias assistivas.  
+2. **Publicações Governamentais:** Garanta conformidade com padrões de acessibilidade como PDF/UA.  
+3. **Relatórios Corporativos:** Aprimore a navegação e a experiência do usuário para stakeholders.
 
-## Considerações de desempenho
-- **Otimize o uso da memória:** Use estruturas de dados eficientes para gerenciar documentos grandes.
-- **Gestão de Recursos:** Descarte objetos não utilizados imediatamente.
-- **Melhores práticas:** Atualize regularmente para a versão mais recente da biblioteca para obter melhorias de desempenho e correções de bugs.
+Integrar Aspose.PDF ao seu fluxo de trabalho simplifica a gestão de documentos nesses casos de uso.
 
-## Conclusão
-Seguindo este guia, você aprendeu a criar PDFs acessíveis com tags e estrutura lógica usando o Aspose.PDF para Java. Isso melhora a acessibilidade, tornando seus documentos mais fáceis de usar para todos os públicos. Explore mais e experimente os recursos adicionais do Aspose.PDF!
+## Considerações de Desempenho
+- **Otimizar Uso de Memória:** Use estruturas de dados eficientes ao manipular documentos grandes.  
+- **Gerenciamento de Recursos:** Libere objetos não utilizados prontamente para liberar memória.  
+- **Manter Atualizado:** Atualize regularmente para a versão mais recente do Aspose.PDF para melhorias de desempenho e correções de bugs.
 
-**Próximos passos:** Tente integrar essas técnicas em seus projetos e explore a extensa documentação do Aspose para obter recursos avançados.
+## Problemas Comuns e Soluções
+| Problema | Solução |
+|----------|---------|
+| **Licença não aplicada** | Verifique se o arquivo de licença temporária foi carregado corretamente antes de criar o documento. |
+| **Tags ausentes na saída** | Certifique‑se de chamar `document.getTaggedContent()` e definir título/idioma antes de adicionar elementos de estrutura. |
+| **PDFs grandes causam OutOfMemoryError** | Use `Document.optimizeResources()` e processe o PDF em partes, se possível. |
+| **Código de idioma incorreto** | Use códigos ISO‑639‑1 (ex.: `en-US`, `fr-FR`) para atender às expectativas dos leitores de tela. |
 
-## Seção de perguntas frequentes
-1. **O que é um PDF marcado?**
-   Um PDF marcado inclui estrutura semântica, auxiliando os leitores de tela a interpretar corretamente o conteúdo do documento.
-2. **Posso usar o Aspose.PDF com outras estruturas Java?**
-   Sim, o Aspose.PDF integra-se perfeitamente com estruturas Java populares e ferramentas de construção como Maven e Gradle.
-3. **Como lidar com documentos grandes de forma eficiente?**
-   Otimize seu código gerenciando recursos de forma eficaz e mantendo sua biblioteca atualizada.
-4. **Quais são os benefícios de usar o Aspose.PDF para PDFs marcados?**
-   Simplifica a criação de documentos acessíveis, garantindo a conformidade com os padrões de acessibilidade.
-5. **Há suporte disponível caso eu encontre problemas?**
-   Sim, visite [Fórum de Suporte da Aspose](https://forum.aspose.com/c/pdf/10) para obter assistência da comunidade e dos especialistas da Aspose.
+## Perguntas Frequentes
+
+**Q: O que é um PDF marcado?**  
+A: Um PDF marcado inclui uma estrutura semântica que auxilia leitores de tela a interpretar o documento corretamente.
+
+**Q: Posso usar Aspose.PDF com outros frameworks Java?**  
+A: Sim, Aspose.PDF integra‑se perfeitamente com frameworks Java populares e ferramentas de build como Maven e Gradle.
+
+**Q: Como lidar eficientemente com documentos grandes?**  
+A: Otimize o uso de memória gerenciando recursos cuidadosamente e mantendo a biblioteca atualizada.
+
+**Q: Quais são os benefícios de usar Aspose.PDF para PDFs marcados?**  
+A: Simplifica a criação de documentos acessíveis, garantindo conformidade com padrões de acessibilidade sem gerenciamento manual de tags.
+
+**Q: Existe suporte disponível caso eu encontre problemas?**  
+A: Sim, visite o [Fórum de Suporte da Aspose](https://forum.aspose.com/c/pdf/10) para obter ajuda da comunidade e dos especialistas da Aspose.
 
 ## Recursos
-- **Documentação:** Explore guias detalhados em [Documentação Java do Aspose PDF](https://reference.aspose.com/pdf/java/).
-- **Biblioteca de downloads:** Acesse os últimos lançamentos em [Downloads do Aspose](https://releases.aspose.com/pdf/java/).
-- **Comprar:** Obtenha uma licença através de [Página de compra da Aspose](https://purchase.aspose.com/buy).
-- **Teste gratuito:** Comece com um teste de [Testes gratuitos do Aspose](https://releases.aspose.com/pdf/java/).
-- **Licença temporária:** Obtenha acesso temporário para avaliação em [Licença Temporária Aspose](https://purchase.aspose.com/temporary-license/).
+- **Documentação:** Explore guias detalhados em [Aspose PDF Java Documentation](https://reference.aspose.com/pdf/java/).  
+- **Download da Biblioteca:** Acesse as versões mais recentes em [Aspose Downloads](https://releases.aspose.com/pdf/java/).  
+- **Compra:** Obtenha uma licença através da [Aspose Purchase Page](https://purchase.aspose.com/buy).  
+- **Teste Gratuito:** Comece com um trial em [Aspose Free Trials](https://releases.aspose.com/pdf/java/).  
+- **Licença Temporária:** Obtenha acesso temporário para avaliação em [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -194,3 +233,11 @@ Seguindo este guia, você aprendeu a criar PDFs acessíveis com tags e estrutura
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última atualização:** 2025-11-28  
+**Testado com:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose  
+
+---

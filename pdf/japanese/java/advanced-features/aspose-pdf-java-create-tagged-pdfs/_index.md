@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Aspose.PDF for Java を使用して、アクセシブルなタグ付きPDFドキュメントを作成および設定する方法を学びます。このガイドでは、セットアップ、論理構造の作成、ドキュメントの保存について説明します。"
-"title": "Aspose.PDF for Java を使用してアクセス可能なタグ付き PDF を作成する - 完全ガイド"
-"url": "/ja/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/"
-"weight": 1
+date: '2025-11-28'
+description: Aspose PDF の一時ライセンスを使用して、Javaでアクセシブルなタグ付き PDF を作成する方法を学びましょう。ステップバイステップのガイド、コードサンプル、ベストプラクティスをご紹介します。
+keywords:
+- aspose pdf temporary license
+- tagged PDFs
+- accessibility with Aspose.PDF
+- create structured PDFs
+language: ja
+title: Aspose PDF 一時ライセンス – Java のタグ付き PDF
+url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +17,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF for Java を使用してアクセス可能なタグ付き PDF を作成する: 完全ガイド
-## 導入
-PDF文書をアクセシブルにすることは、特にスクリーンリーダーを利用するユーザーにとって、インクルーシブな環境を実現するために不可欠です。タグ付きPDFを作成すると、支援技術が容易に解釈できる構造化された文書形式が提供され、アクセシビリティが向上します。 **Aspose.PDF for Java** このプロセスを簡素化します。このガイドでは、Aspose.PDF を使用して、アクセシブルなタグ付きPDFを作成および設定する手順を説明します。
+# Aspose PDF 一時ライセンス – Java のタグ付き PDF
 
-**学習内容:**
-- Aspose.PDF for Java のセットアップと初期化
-- タイトル、言語設定、論理構造を含むタグ付きPDFを作成する
-- 構造化文書を保存する
-- 実用的なアプリケーションとパフォーマンスの考慮事項
+## Introduction
+このガイドでは、**Aspose PDF の一時ライセンス**を使用して、**Aspose.PDF for Java**でアクセシブルなタグ付き PDF を作成する方法を学びます。スクリーンリーダーに依存するユーザーにとって PDF のアクセシビリティは必須であり、一時ライセンスを利用すれば前払いなしでフル機能を評価できます。セットアップ、論理構造の作成、最終ドキュメントの保存までを順を追って解説し、コードはシンプルで本番環境でも使える形にします。
 
-ドキュメントのアクセシビリティを強化しましょう。
+**What You'll Learn**
+- Aspose PDF の一時ライセンスの取得と適用方法
+- Maven または Gradle で Aspose.PDF for Java を設定する手順
+- タイトル、言語設定、セクション、ディビジョンを含む論理構造の構築方法
+- アシスティブテクノロジーに対応した完全なタグ付き PDF の保存方法
+- タグ付き PDF が価値を提供する実際のシナリオ
 
-## 前提条件
-始める前に、次のものを用意してください。
-- **Java 開発キット (JDK):** システムにインストールされています。
-- **Aspose.PDF for Java ライブラリ:** バージョン25.3以降。
-- **Maven/Gradle のセットアップ:** 依存関係の管理用。
+---
 
-### 必要なライブラリと依存関係
-Aspose.PDF がプロジェクトの依存関係に含まれていることを確認します。
+## Quick Answers
+- **What is an Aspose PDF temporary license?** A short‑term, free license that unlocks all Aspose.PDF features for evaluation.  
+- **Do I need a license to create tagged PDFs?** Yes, a temporary or full license is required to enable tagging features.  
+- **Which Java build tools are supported?** Maven and Gradle are both fully supported.  
+- **Can I set the document language and title?** Absolutely – the API provides methods to define both for accessibility.  
+- **Is the generated PDF compliant with PDF/UA?** The tagged structure follows PDF/UA recommendations, improving compliance.
 
-#### メイヴン
+---
+
+## What is an Aspose PDF Temporary License?
+An **Aspose PDF temporary license** is a time‑limited key that grants you access to the complete functionality of Aspose.PDF for Java, including advanced accessibility features such as tagging, language settings, and logical structure manipulation. It’s perfect for testing, proof‑of‑concept projects, or evaluating the library before purchasing a permanent license.
+
+## Why Use a Temporary License for Tagged PDFs?
+- **Zero cost evaluation:** Try out tagging, structure, and compliance features without paying.
+- **Full feature set:** No feature restrictions – you get the same API surface as a paid license.
+- **Fast onboarding:** Quickly integrate the library, create accessible PDFs, and demonstrate value to stakeholders.
+- **Compliance testing:** Verify that your PDFs meet PDF/UA or WCAG standards before committing to a license.
+
+## Prerequisites
+Before you begin, make sure you have the following:
+
+- **Java Development Kit (JDK):** Version 8 or higher installed.
+- **Aspose.PDF for Java Library:** Use version 25.3 or later (the temporary license works with any recent version).
+- **Maven or Gradle:** For dependency management.
+- **A temporary license file:** Obtain it from the Aspose licensing page (see the link below).
+
+### Required Libraries and Dependencies
+Add Aspose.PDF to your project using one of the following build tools.
+
+#### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -41,78 +69,79 @@ Aspose.PDF がプロジェクトの依存関係に含まれていることを確
 </dependency>
 ```
 
-#### グラドル
+#### Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### ライセンス取得
-無料トライアル用の一時ライセンスを取得するか、フルライセンスを購入してすべての機能を利用することができます。 [Asposeのライセンスページ](https://purchase.aspose.com/temporary-license/) 詳細についてはこちらをご覧ください。
+### License Acquisition
+Obtain a **temporary license** for free trials or purchase a full license to unlock all features. Visit [Aspose's licensing page](https://purchase.aspose.com/temporary-license/) for more details.
 
-## Aspose.PDF for Java のセットアップ
-プロジェクト管理ツール（Maven/Gradle）に依存関係を追加します。次に、ライブラリを初期化します。
+## Setting Up Aspose.PDF for Java
+Add the dependency in your project management tool (Maven/Gradle). Then, initialize the library:
 
 ```java
 import com.aspose.pdf.Document;
 
 public class SetupAspose {
     public static void main(String[] args) {
-        // Documentオブジェクトを初期化する
+        // Initialize the Document object
         Document document = new Document();
         System.out.println("Aspose.PDF Initialized Successfully!");
     }
 }
 ```
 
-## 実装ガイド
-### タグ付きPDFドキュメントの作成と設定
-**概要：** アクセシビリティを確保するために、まずタグ付きコンテンツを含む PDF を作成します。
+## Implementation Guide
 
-#### ステップ1: 必要なパッケージをインポートする
+### Create and Configure a Tagged PDF Document
+**Overview:** Start by creating a PDF with tagged content to ensure accessibility.
+
+#### Step 1: Import Necessary Packages
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.tagged.ITaggedContent;
 ```
 
-#### ステップ2: ドキュメントディレクトリを設定する
-出力ファイルを保存するドキュメント ディレクトリを定義します。
+#### Step 2: Set Up the Document Directory
+Define your document directory where you'll save the output files.
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document();
 ITaggedContent taggedContent = document.getTaggedContent();
 
-// アクセシビリティのためにタイトルと言語を設定する
+// Configure title and language for accessibility
 taggedContent.setTitle("Tagged Pdf Document");
 taggedContent.setLanguage("en-US");
 ```
-- **なぜ：** タイトルと言語を設定すると、スクリーン リーダーがドキュメントを正しく解釈できるようになります。
+- **Why:** Setting the title and language ensures screen readers can correctly interpret your document.
 
-### セクションと部門の論理的な構造を構築する
-**概要：** ナビゲーションを改善するために、セクションと部門内でコンテンツを論理的に整理します。
+### Construct a Logical Structure of Sections and Divisions
+**Overview:** Organize content logically within sections and divisions for better navigation.
 
-#### ステップ1: 論理構造要素をインポートする
+#### Step 1: Import Logical Structure Elements
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.DivElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.SectElement;
 ```
 
-#### ステップ2: ドキュメント構造を構築する
-PDF 内にセクションと区分を作成します。
+#### Step 2: Build the Document Structure
+Create sections and divisions within your PDF.
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 StructureElement rootElement = taggedContent.getRootElement();
 
-// セクションを作成する
+// Create sections
 SectElement sect1 = taggedContent.createSectElement();
 rootElement.appendChild(sect1);
 
 SectElement sect2 = taggedContent.createSectElement();
 rootElement.appendChild(sect2);
 
-// セクションに区分を追加する
+// Add divisions to sections
 DivElement div11 = taggedContent.createDivElement();
 sect1.appendChild(div11);
 DivElement div12 = taggedContent.createDivElement();
@@ -123,7 +152,7 @@ sect2.appendChild(art21);
 ArtElement art22 = taggedContent.createArtElement();
 sect2.appendChild(art22);
 
-// さらにセクションを分割する
+// Further divide sections
 DivElement div211 = taggedContent.createDivElement();
 art21.appendChild(div211);
 DivElement div212 = taggedContent.createDivElement();
@@ -134,58 +163,67 @@ art22.appendChild(div221);
 DivElement div222 = taggedContent.createDivElement();
 art22.appendChild(div222);
 
-// 別のセクションを追加する
+// Add another section
 SectElement sect3 = taggedContent.createSectElement();
 rootElement.appendChild(sect3);
 
 DivElement div31 = taggedContent.createDivElement();
 sect3.appendChild(div31);
 ```
-- **なぜ：** 論理構造はアクセシビリティにとって非常に重要であり、ユーザーがコンテンツを効率的にナビゲートできるようにします。
+- **Why:** A logical structure is crucial for accessibility, allowing users to navigate content efficiently.
 
-### タグ付きPDF文書を保存する
-**概要：** 構造化ドキュメントを指定されたディレクトリに保存して完了します。
+### Save the Tagged PDF Document
+**Overview:** Finalize by saving your structured document to a specified directory.
 
 ```java
 document.save(outputDir + "/StructureElementsTree.pdf");
 ```
 
-## 実用的なアプリケーション
-タグ付き PDF はさまざまなシナリオで役立ちます。
-1. **教育資料:** 支援技術を使用して学生のアクセシビリティを強化します。
-2. **政府出版物:** アクセシビリティ標準への準拠を確保します。
-3. **企業レポート:** 関係者のナビゲーションとユーザー エクスペリエンスを向上します。
+## Practical Applications
+Tagged PDFs are beneficial in various scenarios:
 
-Aspose.PDF をシステムに統合すると、さまざまなアプリケーションにわたるドキュメント管理プロセスを効率化できます。
+1. **Educational Materials:** Enhance accessibility for students using assistive technologies.  
+2. **Government Publications:** Ensure compliance with accessibility standards such as PDF/UA.  
+3. **Corporate Reports:** Improve navigation and user experience for stakeholders.
 
-## パフォーマンスに関する考慮事項
-- **メモリ使用量を最適化:** 効率的なデータ構造を使用して大規模なドキュメントを管理します。
-- **リソース管理:** 使用しなかった物は速やかに廃棄してください。
-- **ベストプラクティス:** パフォーマンスの向上とバグ修正のために、定期的に最新のライブラリ バージョンに更新します。
+Integrating Aspose.PDF into your workflow streamlines document management across these use cases.
 
-## 結論
-このガイドでは、Aspose.PDF for Java を使用して、論理構造を持つアクセシブルなタグ付きPDFを作成する方法を学習しました。これによりアクセシビリティが向上し、あらゆるユーザーにとってより使いやすいドキュメントを作成できます。Aspose.PDF の追加機能を試して、さらに詳しく理解を深めましょう。
+## Performance Considerations
+- **Optimize Memory Usage:** Use efficient data structures when handling large documents.  
+- **Resource Management:** Dispose of unused objects promptly to free memory.  
+- **Stay Updated:** Regularly upgrade to the latest Aspose.PDF version for performance improvements and bug fixes.
 
-**次のステップ:** これらのテクニックをプロジェクトに統合し、高度な機能に関する Aspose の広範なドキュメントを調べてみてください。
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **License not applied** | Verify that the temporary license file is correctly loaded before creating the document. |
+| **Missing tags in output** | Ensure you call `document.getTaggedContent()` and set title/language before adding structure elements. |
+| **Large PDFs cause OutOfMemoryError** | Use `Document.optimizeResources()` and process the PDF in chunks if possible. |
+| **Incorrect language code** | Use ISO‑639‑1 codes (e.g., `en-US`, `fr-FR`) to match screen‑reader expectations. |
 
-## FAQセクション
-1. **タグ付き PDF とは何ですか?**
-   タグ付き PDF にはセマンティック構造が含まれており、スクリーン リーダーがドキュメントの内容を正しく解釈するのに役立ちます。
-2. **Aspose.PDF を他の Java フレームワークで使用できますか?**
-   はい、Aspose.PDF は、Maven や Gradle などの一般的な Java フレームワークやビルド ツールとシームレスに統合されます。
-3. **大きな文書を効率的に処理するにはどうすればよいですか?**
-   リソースを効果的に管理し、ライブラリを最新の状態に保つことでコードを最適化します。
-4. **タグ付き PDF に Aspose.PDF を使用する利点は何ですか?**
-   アクセシビリティ標準への準拠を確保しながら、アクセシビリティの高いドキュメントの作成を簡素化します。
-5. **問題が発生した場合、サポートを受けることはできますか?**
-   はい、訪問します [Aspose のサポートフォーラム](https://forum.aspose.com/c/pdf/10) コミュニティと Aspose の専門家からのサポートを受けられます。
+## Frequently Asked Questions
 
-## リソース
-- **ドキュメント:** 詳細なガイドをご覧ください [Aspose PDF Java ドキュメント](https://reference。aspose.com/pdf/java/).
-- **ライブラリをダウンロード:** 最新リリースにアクセスする [Aspose ダウンロード](https://releases。aspose.com/pdf/java/).
-- **購入：** ライセンスを取得するには [Aspose 購入ページ](https://purchase。aspose.com/buy).
-- **無料トライアル:** まずはトライアルから [Aspose 無料トライアル](https://releases。aspose.com/pdf/java/).
-- **一時ライセンス:** 評価のために一時アクセスを取得するには [Aspose 一時ライセンス](https://purchase。aspose.com/temporary-license/).
+**Q: What is a tagged PDF?**  
+A: A tagged PDF includes a semantic structure that assists screen readers in interpreting the document correctly.
+
+**Q: Can I use Aspose.PDF with other Java frameworks?**  
+A: Yes, Aspose.PDF integrates seamlessly with popular Java frameworks and build tools like Maven and Gradle.
+
+**Q: How do I handle large documents efficiently?**  
+A: Optimize memory usage by managing resources carefully and keeping the library up‑to‑date.
+
+**Q: What are the benefits of using Aspose.PDF for tagged PDFs?**  
+A: It simplifies the creation of accessible documents, ensuring compliance with accessibility standards without manual tag management.
+
+**Q: Is support available if I encounter issues?**  
+A: Yes, visit [Aspose's Support Forum](https://forum.aspose.com/c/pdf/10) for assistance from the community and Aspose experts.
+
+## Resources
+- **Documentation:** Explore detailed guides at [Aspose PDF Java Documentation](https://reference.aspose.com/pdf/java/).  
+- **Download Library:** Access latest releases at [Aspose Downloads](https://releases.aspose.com/pdf/java/).  
+- **Purchase:** Obtain a license through the [Aspose Purchase Page](https://purchase.aspose.com/buy).  
+- **Free Trial:** Start with a trial from [Aspose Free Trials](https://releases.aspose.com/pdf/java/).  
+- **Temporary License:** Get temporary access for evaluation at [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -194,3 +232,11 @@ Aspose.PDF をシステムに統合すると、さまざまなアプリケーシ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-11-28  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
+---

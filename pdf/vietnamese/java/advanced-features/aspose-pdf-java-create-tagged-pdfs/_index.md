@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-14"
-"description": "Tìm hiểu cách tạo và cấu hình các tài liệu PDF có gắn thẻ có thể truy cập bằng Aspose.PDF cho Java. Hướng dẫn này bao gồm thiết lập, tạo cấu trúc logic và lưu tài liệu."
-"title": "Tạo PDF có gắn thẻ có thể truy cập bằng Aspose.PDF cho Java&#58; Hướng dẫn đầy đủ"
-"url": "/vi/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/"
-"weight": 1
+date: '2025-11-28'
+description: Tìm hiểu cách sử dụng giấy phép tạm thời của Aspose PDF để tạo các tệp
+  PDF có thẻ truy cập được bằng Java. Hướng dẫn từng bước, mẫu mã và các thực tiễn
+  tốt nhất.
+keywords:
+- aspose pdf temporary license
+- tagged PDFs
+- accessibility with Aspose.PDF
+- create structured PDFs
+language: vi
+title: Giấy phép tạm thời Aspose PDF – PDF có thẻ trong Java
+url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,26 +19,48 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tạo PDF có gắn thẻ có thể truy cập bằng Aspose.PDF cho Java: Hướng dẫn đầy đủ
-## Giới thiệu
-Việc làm cho các tài liệu PDF của bạn có thể truy cập được là rất quan trọng đối với tính bao hàm, đặc biệt là đối với người dùng dựa vào trình đọc màn hình. Việc tạo các tệp PDF được gắn thẻ sẽ tăng cường khả năng truy cập bằng cách cung cấp định dạng tài liệu có cấu trúc mà các công nghệ hỗ trợ có thể dễ dàng diễn giải. **Aspose.PDF cho Java** đơn giản hóa quá trình này. Hướng dẫn này sẽ hướng dẫn bạn cách tạo và cấu hình PDF có gắn thẻ có thể truy cập bằng Aspose.PDF.
+# Giấy phép tạm thời Aspose PDF – PDF có thẻ trong Java
 
-**Những gì bạn sẽ học được:**
-- Thiết lập và khởi tạo Aspose.PDF cho Java
-- Tạo PDF có gắn thẻ với tiêu đề, cài đặt ngôn ngữ và cấu trúc logic
-- Lưu tài liệu có cấu trúc
-- Ứng dụng thực tế và cân nhắc hiệu suất
+## Introduction
+Trong hướng dẫn này, bạn sẽ học **cách sử dụng giấy phép tạm thời Aspose PDF** để tạo các PDF có thẻ hỗ trợ truy cập với **Aspose.PDF for Java**. Việc làm cho PDF có khả năng truy cập là rất quan trọng đối với người dùng dựa vào trình đọc màn hình, và giấy phép tạm thời cho phép bạn đánh giá toàn bộ tính năng mà không tốn chi phí ban đầu. Chúng tôi sẽ hướng dẫn qua việc cài đặt, tạo cấu trúc logic, và lưu tài liệu cuối cùng, đồng thời giữ cho mã nguồn đơn giản và sẵn sàng cho môi trường sản xuất.
 
-Hãy nâng cao khả năng truy cập vào tài liệu của bạn!
+**What You'll Learn**
+- Cách lấy và áp dụng giấy phép tạm thời Aspose PDF
+- Cài đặt Aspose.PDF for Java trong Maven hoặc Gradle
+- Xây dựng cấu trúc logic với tiêu đề, cài đặt ngôn ngữ, các phần và đoạn
+- Lưu PDF đã được gắn thẻ đầy đủ, sẵn sàng cho các công nghệ hỗ trợ
+- Các kịch bản thực tế nơi PDF có thẻ mang lại giá trị
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Bộ phát triển Java (JDK):** Đã cài đặt trên hệ thống của bạn.
-- **Thư viện Aspose.PDF cho Java:** Phiên bản 25.3 trở lên.
-- **Thiết lập Maven/Gradle:** Để quản lý sự phụ thuộc.
+---
 
-### Thư viện và phụ thuộc bắt buộc
-Đảm bảo Aspose.PDF được bao gồm trong các phụ thuộc của dự án của bạn:
+## Quick Answers
+- **What is an Aspose PDF temporary license?** Một giấy phép ngắn hạn, miễn phí mở khóa tất cả các tính năng của Aspose.PDF để đánh giá.  
+- **Do I need a license to create tagged PDFs?** Có, cần có giấy phép tạm thời hoặc đầy đủ để kích hoạt tính năng gắn thẻ.  
+- **Which Java build tools are supported?** Maven và Gradle đều được hỗ trợ đầy đủ.  
+- **Can I set the document language and title?** Chắc chắn – API cung cấp các phương thức để định nghĩa cả hai cho khả năng truy cập.  
+- **Is the generated PDF compliant with PDF/UA?** Cấu trúc có thẻ tuân theo các khuyến nghị của PDF/UA, cải thiện mức độ tuân thủ.
+
+---
+
+## What is an Aspose PDF Temporary License?
+Một **giấy phép tạm thời Aspose PDF** là một khóa có thời hạn cho phép bạn truy cập vào toàn bộ chức năng của Aspose.PDF for Java, bao gồm các tính năng truy cập nâng cao như gắn thẻ, cài đặt ngôn ngữ và thao tác cấu trúc logic. Đây là lựa chọn hoàn hảo để thử nghiệm, thực hiện proof‑of‑concept, hoặc đánh giá thư viện trước khi mua giấy phép vĩnh viễn.
+
+## Why Use a Temporary License for Tagged PDFs?
+- **Zero cost evaluation:** Thử nghiệm tính năng gắn thẻ, cấu trúc và tuân thủ mà không phải trả phí.
+- **Full feature set:** Không có hạn chế tính năng – bạn nhận được cùng một API như giấy phép trả phí.
+- **Fast onboarding:** Tích hợp nhanh thư viện, tạo PDF hỗ trợ truy cập, và chứng minh giá trị cho các bên liên quan.
+- **Compliance testing:** Xác minh PDF của bạn đáp ứng tiêu chuẩn PDF/UA hoặc WCAG trước khi quyết định mua giấy phép.
+
+## Prerequisites
+Trước khi bắt đầu, hãy chắc chắn bạn đã có:
+
+- **Java Development Kit (JDK):** Phiên bản 8 trở lên đã được cài đặt.
+- **Aspose.PDF for Java Library:** Sử dụng phiên bản 25.3 hoặc mới hơn (giấy phép tạm thời hoạt động với bất kỳ phiên bản gần đây nào).
+- **Maven hoặc Gradle:** Để quản lý phụ thuộc.
+- **A temporary license file:** Lấy từ trang giấy phép của Aspose (xem liên kết bên dưới).
+
+### Required Libraries and Dependencies
+Thêm Aspose.PDF vào dự án của bạn bằng một trong các công cụ xây dựng sau.
 
 #### Maven
 ```xml
@@ -41,78 +71,79 @@ Trước khi bắt đầu, hãy đảm bảo bạn có:
 </dependency>
 ```
 
-#### Tốt nghiệp
+#### Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Mua lại giấy phép
-Nhận giấy phép tạm thời để dùng thử miễn phí hoặc mua giấy phép đầy đủ để mở khóa tất cả các tính năng. Truy cập [Trang cấp phép của Aspose](https://purchase.aspose.com/temporary-license/) để biết thêm chi tiết.
+### License Acquisition
+Lấy **giấy phép tạm thời** để dùng thử miễn phí hoặc mua giấy phép đầy đủ để mở khóa tất cả các tính năng. Truy cập [trang giấy phép của Aspose](https://purchase.aspose.com/temporary-license/) để biết thêm chi tiết.
 
-## Thiết lập Aspose.PDF cho Java
-Thêm dependency vào công cụ quản lý dự án của bạn (Maven/Gradle). Sau đó, khởi tạo thư viện:
+## Setting Up Aspose.PDF for Java
+Thêm phụ thuộc vào công cụ quản lý dự án (Maven/Gradle). Sau đó, khởi tạo thư viện:
 
 ```java
 import com.aspose.pdf.Document;
 
 public class SetupAspose {
     public static void main(String[] args) {
-        // Khởi tạo đối tượng Document
+        // Initialize the Document object
         Document document = new Document();
         System.out.println("Aspose.PDF Initialized Successfully!");
     }
 }
 ```
 
-## Hướng dẫn thực hiện
-### Tạo và cấu hình tài liệu PDF có gắn thẻ
-**Tổng quan:** Bắt đầu bằng cách tạo tệp PDF có gắn thẻ nội dung để đảm bảo khả năng truy cập.
+## Implementation Guide
 
-#### Bước 1: Nhập các gói cần thiết
+### Create and Configure a Tagged PDF Document
+**Overview:** Bắt đầu bằng việc tạo một PDF có nội dung được gắn thẻ để đảm bảo khả năng truy cập.
+
+#### Step 1: Import Necessary Packages
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.tagged.ITaggedContent;
 ```
 
-#### Bước 2: Thiết lập thư mục tài liệu
-Xác định thư mục tài liệu nơi bạn sẽ lưu các tập tin đầu ra.
+#### Step 2: Set Up the Document Directory
+Xác định thư mục tài liệu nơi bạn sẽ lưu các tệp đầu ra.
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document();
 ITaggedContent taggedContent = document.getTaggedContent();
 
-// Cấu hình tiêu đề và ngôn ngữ để dễ truy cập
+// Configure title and language for accessibility
 taggedContent.setTitle("Tagged Pdf Document");
 taggedContent.setLanguage("en-US");
 ```
-- **Tại sao:** Việc đặt tiêu đề và ngôn ngữ sẽ đảm bảo trình đọc màn hình có thể hiểu chính xác tài liệu của bạn.
+- **Why:** Đặt tiêu đề và ngôn ngữ giúp trình đọc màn hình có thể diễn giải tài liệu của bạn một cách chính xác.
 
-### Xây dựng một cấu trúc hợp lý của các phần và phân đoạn
-**Tổng quan:** Sắp xếp nội dung một cách hợp lý theo từng phần và phân mục để điều hướng tốt hơn.
+### Construct a Logical Structure of Sections and Divisions
+**Overview:** Tổ chức nội dung một cách logic trong các phần và đoạn để cải thiện khả năng điều hướng.
 
-#### Bước 1: Nhập các phần tử cấu trúc logic
+#### Step 1: Import Logical Structure Elements
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.DivElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.SectElement;
 ```
 
-#### Bước 2: Xây dựng cấu trúc tài liệu
-Tạo các phần và phân đoạn trong tệp PDF của bạn.
+#### Step 2: Build the Document Structure
+Tạo các phần và đoạn trong PDF của bạn.
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 StructureElement rootElement = taggedContent.getRootElement();
 
-// Tạo phần
+// Create sections
 SectElement sect1 = taggedContent.createSectElement();
 rootElement.appendChild(sect1);
 
 SectElement sect2 = taggedContent.createSectElement();
 rootElement.appendChild(sect2);
 
-// Thêm các phân đoạn vào các phần
+// Add divisions to sections
 DivElement div11 = taggedContent.createDivElement();
 sect1.appendChild(div11);
 DivElement div12 = taggedContent.createDivElement();
@@ -123,7 +154,7 @@ sect2.appendChild(art21);
 ArtElement art22 = taggedContent.createArtElement();
 sect2.appendChild(art22);
 
-// Chia phần tiếp theo
+// Further divide sections
 DivElement div211 = taggedContent.createDivElement();
 art21.appendChild(div211);
 DivElement div212 = taggedContent.createDivElement();
@@ -134,58 +165,67 @@ art22.appendChild(div221);
 DivElement div222 = taggedContent.createDivElement();
 art22.appendChild(div222);
 
-// Thêm một phần khác
+// Add another section
 SectElement sect3 = taggedContent.createSectElement();
 rootElement.appendChild(sect3);
 
 DivElement div31 = taggedContent.createDivElement();
 sect3.appendChild(div31);
 ```
-- **Tại sao:** Cấu trúc logic rất quan trọng đối với khả năng truy cập, cho phép người dùng điều hướng nội dung một cách hiệu quả.
+- **Why:** Cấu trúc logic là yếu tố then chốt cho khả năng truy cập, cho phép người dùng điều hướng nội dung một cách hiệu quả.
 
-### Lưu tài liệu PDF được gắn thẻ
-**Tổng quan:** Kết thúc bằng cách lưu tài liệu có cấu trúc vào thư mục đã chỉ định.
+### Save the Tagged PDF Document
+**Overview:** Hoàn thiện bằng cách lưu tài liệu đã cấu trúc vào thư mục đã chỉ định.
 
 ```java
 document.save(outputDir + "/StructureElementsTree.pdf");
 ```
 
-## Ứng dụng thực tế
-Các tệp PDF được gắn thẻ có lợi trong nhiều trường hợp:
-1. **Tài liệu giáo dục:** Nâng cao khả năng tiếp cận cho học sinh bằng cách sử dụng công nghệ hỗ trợ.
-2. **Ấn phẩm của Chính phủ:** Đảm bảo tuân thủ các tiêu chuẩn về khả năng tiếp cận.
-3. **Báo cáo doanh nghiệp:** Cải thiện khả năng điều hướng và trải nghiệm người dùng cho các bên liên quan.
+## Practical Applications
+PDF có thẻ mang lại lợi ích trong nhiều kịch bản:
 
-Việc tích hợp Aspose.PDF vào hệ thống của bạn có thể hợp lý hóa quy trình quản lý tài liệu trên nhiều ứng dụng khác nhau.
+1. **Educational Materials:** Nâng cao khả năng truy cập cho sinh viên sử dụng công nghệ hỗ trợ.  
+2. **Government Publications:** Đảm bảo tuân thủ các tiêu chuẩn truy cập như PDF/UA.  
+3. **Corporate Reports:** Cải thiện khả năng điều hướng và trải nghiệm người dùng cho các bên liên quan.
 
-## Cân nhắc về hiệu suất
-- **Tối ưu hóa việc sử dụng bộ nhớ:** Sử dụng cấu trúc dữ liệu hiệu quả để quản lý các tài liệu lớn.
-- **Quản lý tài nguyên:** Vứt bỏ ngay những đồ vật không sử dụng.
-- **Thực hành tốt nhất:** Thường xuyên cập nhật lên phiên bản thư viện mới nhất để cải thiện hiệu suất và sửa lỗi.
+Việc tích hợp Aspose.PDF vào quy trình làm việc giúp đơn giản hoá quản lý tài liệu trên các trường hợp sử dụng này.
 
-## Phần kết luận
-Bằng cách làm theo hướng dẫn này, bạn đã học cách tạo PDF có gắn thẻ có thể truy cập được với cấu trúc logic bằng Aspose.PDF cho Java. Điều này giúp tăng cường khả năng truy cập, giúp tài liệu của bạn thân thiện hơn với mọi đối tượng. Khám phá thêm bằng cách thử nghiệm các tính năng bổ sung trong Aspose.PDF!
+## Performance Considerations
+- **Optimize Memory Usage:** Sử dụng các cấu trúc dữ liệu hiệu quả khi xử lý tài liệu lớn.  
+- **Resource Management:** Giải phóng các đối tượng không dùng để giải phóng bộ nhớ.  
+- **Stay Updated:** Thường xuyên nâng cấp lên phiên bản Aspose.PDF mới nhất để cải thiện hiệu năng và sửa lỗi.
 
-**Các bước tiếp theo:** Hãy thử tích hợp các kỹ thuật này vào dự án của bạn và khám phá tài liệu mở rộng của Aspose để biết thêm các khả năng nâng cao.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **License not applied** | Xác minh rằng tệp giấy phép tạm thời đã được tải đúng trước khi tạo tài liệu. |
+| **Missing tags in output** | Đảm bảo bạn gọi `document.getTaggedContent()` và đặt tiêu đề/ngôn ngữ trước khi thêm các phần tử cấu trúc. |
+| **Large PDFs cause OutOfMemoryError** | Sử dụng `Document.optimizeResources()` và xử lý PDF theo từng phần nếu có thể. |
+| **Incorrect language code** | Sử dụng mã ISO‑639‑1 (ví dụ: `en-US`, `fr-FR`) để phù hợp với yêu cầu của trình đọc màn hình. |
 
-## Phần Câu hỏi thường gặp
-1. **PDF có gắn thẻ là gì?**
-   Tệp PDF được gắn thẻ bao gồm cấu trúc ngữ nghĩa, hỗ trợ trình đọc màn hình diễn giải nội dung tài liệu một cách chính xác.
-2. **Tôi có thể sử dụng Aspose.PDF với các framework Java khác không?**
-   Có, Aspose.PDF tích hợp liền mạch với các framework Java phổ biến và các công cụ xây dựng như Maven và Gradle.
-3. **Làm thế nào để xử lý các tài liệu lớn một cách hiệu quả?**
-   Tối ưu hóa mã của bạn bằng cách quản lý tài nguyên hiệu quả và cập nhật thư viện.
-4. **Lợi ích của việc sử dụng Aspose.PDF cho các tệp PDF được gắn thẻ là gì?**
-   Nó đơn giản hóa việc tạo ra các tài liệu có thể truy cập được, đảm bảo tuân thủ các tiêu chuẩn về khả năng truy cập.
-5. **Tôi có được hỗ trợ nếu gặp vấn đề không?**
-   Vâng, hãy ghé thăm [Diễn đàn hỗ trợ của Aspose](https://forum.aspose.com/c/pdf/10) để được cộng đồng và các chuyên gia của Aspose hỗ trợ.
+## Frequently Asked Questions
 
-## Tài nguyên
-- **Tài liệu:** Khám phá hướng dẫn chi tiết tại [Tài liệu Java PDF Aspose](https://reference.aspose.com/pdf/java/).
-- **Tải xuống thư viện:** Truy cập các bản phát hành mới nhất tại [Tải xuống Aspose](https://releases.aspose.com/pdf/java/).
-- **Mua:** Xin giấy phép thông qua [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
-- **Dùng thử miễn phí:** Bắt đầu với một thử nghiệm từ [Bản dùng thử miễn phí của Aspose](https://releases.aspose.com/pdf/java/).
-- **Giấy phép tạm thời:** Nhận quyền truy cập tạm thời để đánh giá tại [Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
+**Q: What is a tagged PDF?**  
+A: Một PDF có thẻ bao gồm cấu trúc ngữ nghĩa giúp trình đọc màn hình diễn giải tài liệu một cách chính xác.
+
+**Q: Can I use Aspose.PDF with other Java frameworks?**  
+A: Có, Aspose.PDF tích hợp liền mạch với các framework Java phổ biến và công cụ xây dựng như Maven và Gradle.
+
+**Q: How do I handle large documents efficiently?**  
+A: Tối ưu hoá việc sử dụng bộ nhớ bằng cách quản lý tài nguyên cẩn thận và luôn cập nhật thư viện lên phiên bản mới nhất.
+
+**Q: What are the benefits of using Aspose.PDF for tagged PDFs?**  
+A: Nó đơn giản hoá việc tạo tài liệu truy cập, đảm bảo tuân thủ các tiêu chuẩn mà không cần quản lý thẻ thủ công.
+
+**Q: Is support available if I encounter issues?**  
+A: Có, truy cập [Diễn đàn Hỗ trợ của Aspose](https://forum.aspose.com/c/pdf/10) để nhận trợ giúp từ cộng đồng và các chuyên gia Aspose.
+
+## Resources
+- **Documentation:** Khám phá các hướng dẫn chi tiết tại [Aspose PDF Java Documentation](https://reference.aspose.com/pdf/java/).  
+- **Download Library:** Truy cập các bản phát hành mới nhất tại [Aspose Downloads](https://releases.aspose.com/pdf/java/).  
+- **Purchase:** Mua giấy phép qua [Aspose Purchase Page](https://purchase.aspose.com/buy).  
+- **Free Trial:** Bắt đầu dùng thử tại [Aspose Free Trials](https://releases.aspose.com/pdf/java/).  
+- **Temporary License:** Nhận quyền truy cập tạm thời để đánh giá tại [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -194,3 +234,11 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách tạo PDF có
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-11-28  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
+---

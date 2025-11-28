@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-14"
-"description": "Ismerje meg, hogyan hozhat létre és konfigurálhat akadálymentesített címkézett PDF dokumentumokat az Aspose.PDF for Java használatával. Ez az útmutató a beállításokat, a logikai struktúra létrehozását és a dokumentumok mentését ismerteti."
-"title": "Akadálymentesített címkézett PDF-ek létrehozása Aspose.PDF for Java használatával – Teljes körű útmutató"
-"url": "/hu/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/"
-"weight": 1
+date: '2025-11-28'
+description: Ismerje meg, hogyan használhatja az Aspose PDF ideiglenes licencét, hogy
+  hozzáférhető, címkézett PDF-eket hozzon létre Java-val. Lépésről‑lépésre útmutató,
+  kódminták és bevált gyakorlatok.
+keywords:
+- aspose pdf temporary license
+- tagged PDFs
+- accessibility with Aspose.PDF
+- create structured PDFs
+language: hu
+title: Aspose PDF ideiglenes licenc – Címkézett PDF-ek Java-ban
+url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +19,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Akadálymentesített címkézett PDF-ek létrehozása Aspose.PDF használatával Java-ban: Teljes körű útmutató
-## Bevezetés
-A PDF-dokumentumok akadálymentesítése kulcsfontosságú az inkluzivitás szempontjából, különösen a képernyőolvasókat használó felhasználók számára. A címkézett PDF-ek létrehozása javítja az akadálymentességet azáltal, hogy strukturált dokumentumformátumot biztosít, amelyet a segítő technológiák könnyen értelmezhetnek. **Aspose.PDF Java-hoz** leegyszerűsíti ezt a folyamatot. Ez az útmutató végigvezeti Önt egy akadálymentesített, címkézett PDF létrehozásán és konfigurálásán az Aspose.PDF segítségével.
+# Aspose PDF Temporary License – Tagged PDFs in Java
 
-**Amit tanulni fogsz:**
-- Az Aspose.PDF beállítása és inicializálása Java rendszerhez
-- Címkézett PDF létrehozása címekkel, nyelvi beállításokkal és logikai struktúrákkal
-- A strukturált dokumentum mentése
-- Gyakorlati alkalmazások és teljesítménybeli szempontok
+## Introduction
+In this guide, you'll learn **how to use an Aspose PDF temporary license** to create accessible tagged PDFs with **Aspose.PDF for Java**. Making PDFs accessible is essential for users who rely on screen readers, and a temporary license lets you evaluate the full feature set without any upfront cost. We'll walk through setup, logical structure creation, and saving the final document, all while keeping the code simple and ready for production.
 
-Javítsuk dokumentumai hozzáférhetőségét!
+**What You'll Learn**
+- How to obtain and apply an Aspose PDF temporary license
+- Setting up Aspose.PDF for Java in Maven or Gradle
+- Building a logical structure with titles, language settings, sections, and divisions
+- Saving a fully‑tagged PDF ready for assistive technologies
+- Real‑world scenarios where tagged PDFs add value
 
-## Előfeltételek
-Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
-- **Java fejlesztőkészlet (JDK):** Telepítve a rendszeredre.
-- **Aspose.PDF a Java könyvtárhoz:** 25.3-as vagy újabb verzió.
-- **Maven/Gradle beállítás:** A függőségek kezeléséhez.
+---
 
-### Szükséges könyvtárak és függőségek
-Győződjön meg arról, hogy az Aspose.PDF szerepel a projekt függőségei között:
+## Quick Answers
+- **What is an Aspose PDF temporary license?** A short‑term, free license that unlocks all Aspose.PDF features for evaluation.  
+- **Do I need a license to create tagged PDFs?** Yes, a temporary or full license is required to enable tagging features.  
+- **Which Java build tools are supported?** Maven and Gradle are both fully supported.  
+- **Can I set the document language and title?** Absolutely – the API provides methods to define both for accessibility.  
+- **Is the generated PDF compliant with PDF/UA?** The tagged structure follows PDF/UA recommendations, improving compliance.
 
-#### Szakértő
+---
+
+## What is an Aspose PDF Temporary License?
+An **Aspose PDF temporary license** is a time‑limited key that grants you access to the complete functionality of Aspose.PDF for Java, including advanced accessibility features such as tagging, language settings, and logical structure manipulation. It’s perfect for testing, proof‑of‑concept projects, or evaluating the library before purchasing a permanent license.
+
+## Why Use a Temporary License for Tagged PDFs?
+- **Zero cost evaluation:** Try out tagging, structure, and compliance features without paying.
+- **Full feature set:** No feature restrictions – you get the same API surface as a paid license.
+- **Fast onboarding:** Quickly integrate the library, create accessible PDFs, and demonstrate value to stakeholders.
+- **Compliance testing:** Verify that your PDFs meet PDF/UA or WCAG standards before committing to a license.
+
+## Prerequisites
+Before you begin, make sure you have the following:
+
+- **Java Development Kit (JDK):** Version 8 or higher installed.
+- **Aspose.PDF for Java Library:** Use version 25.3 or later (the temporary license works with any recent version).
+- **Maven or Gradle:** For dependency management.
+- **A temporary license file:** Obtain it from the Aspose licensing page (see the link below).
+
+### Required Libraries and Dependencies
+Add Aspose.PDF to your project using one of the following build tools.
+
+#### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,73 +76,74 @@ Győződjön meg arról, hogy az Aspose.PDF szerepel a projekt függőségei kö
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Licencbeszerzés
-Szerezzen be ideiglenes licencet ingyenes próbaverziókhoz, vagy vásároljon teljes licencet az összes funkció feloldásához. Látogasson el ide: [Az Aspose licencelési oldala](https://purchase.aspose.com/temporary-license/) további részletekért.
+### License Acquisition
+Obtain a **temporary license** for free trials or purchase a full license to unlock all features. Visit [Aspose's licensing page](https://purchase.aspose.com/temporary-license/) for more details.
 
-## Az Aspose.PDF beállítása Java-hoz
-Add hozzá a függőséget a projektmenedzsment eszközödhöz (Maven/Gradle). Ezután inicializáld a könyvtárat:
+## Setting Up Aspose.PDF for Java
+Add the dependency in your project management tool (Maven/Gradle). Then, initialize the library:
 
 ```java
 import com.aspose.pdf.Document;
 
 public class SetupAspose {
     public static void main(String[] args) {
-        // A Dokumentum objektum inicializálása
+        // Initialize the Document object
         Document document = new Document();
         System.out.println("Aspose.PDF Initialized Successfully!");
     }
 }
 ```
 
-## Megvalósítási útmutató
-### Címkézett PDF dokumentum létrehozása és konfigurálása
-**Áttekintés:** Kezdésként hozzon létre egy címkézett tartalommal ellátott PDF-et az akadálymentesítés biztosítása érdekében.
+## Implementation Guide
 
-#### 1. lépés: A szükséges csomagok importálása
+### Create and Configure a Tagged PDF Document
+**Overview:** Start by creating a PDF with tagged content to ensure accessibility.
+
+#### Step 1: Import Necessary Packages
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.tagged.ITaggedContent;
 ```
 
-#### 2. lépés: A dokumentumkönyvtár beállítása
-Adja meg a dokumentum könyvtárát, ahová a kimeneti fájlokat menteni szeretné.
+#### Step 2: Set Up the Document Directory
+Define your document directory where you'll save the output files.
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document();
 ITaggedContent taggedContent = document.getTaggedContent();
 
-// Cím és nyelv konfigurálása az akadálymentesítéshez
+// Configure title and language for accessibility
 taggedContent.setTitle("Tagged Pdf Document");
 taggedContent.setLanguage("en-US");
 ```
-- **Miért:** A cím és a nyelv beállítása biztosítja, hogy a képernyőolvasók helyesen értelmezzék a dokumentumot.
+- **Why:** Setting the title and language ensures screen readers can correctly interpret your document.
 
-### Szekciók és felosztások logikus felépítésének létrehozása
-**Áttekintés:** A jobb navigáció érdekében logikusan rendszerezze a tartalmat szekciókba és részlegekbe.
+### Construct a Logical Structure of Sections and Divisions
+**Overview:** Organize content logically within sections and divisions for better navigation.
 
-#### 1. lépés: Logikai szerkezeti elemek importálása
+#### Step 1: Import Logical Structure Elements
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.DivElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.SectElement;
 ```
 
-#### 2. lépés: A dokumentum szerkezetének felépítése
-Hozzon létre szakaszokat és felosztásokat a PDF-ben.
+#### Step 2: Build the Document Structure
+Create sections and divisions within your PDF.
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 StructureElement rootElement = taggedContent.getRootElement();
 
-// Szakaszok létrehozása
+// Create sections
 SectElement sect1 = taggedContent.createSectElement();
 rootElement.appendChild(sect1);
 
 SectElement sect2 = taggedContent.createSectElement();
 rootElement.appendChild(sect2);
 
-// Osztályok hozzáadása szakaszokhoz
+// Add divisions to sections
 DivElement div11 = taggedContent.createDivElement();
 sect1.appendChild(div11);
 DivElement div12 = taggedContent.createDivElement();
@@ -123,7 +154,7 @@ sect2.appendChild(art21);
 ArtElement art22 = taggedContent.createArtElement();
 sect2.appendChild(art22);
 
-// További szakaszok
+// Further divide sections
 DivElement div211 = taggedContent.createDivElement();
 art21.appendChild(div211);
 DivElement div212 = taggedContent.createDivElement();
@@ -134,58 +165,67 @@ art22.appendChild(div221);
 DivElement div222 = taggedContent.createDivElement();
 art22.appendChild(div222);
 
-// Újabb szakasz hozzáadása
+// Add another section
 SectElement sect3 = taggedContent.createSectElement();
 rootElement.appendChild(sect3);
 
 DivElement div31 = taggedContent.createDivElement();
 sect3.appendChild(div31);
 ```
-- **Miért:** A logikus felépítés kulcsfontosságú az akadálymentesítés szempontjából, lehetővé téve a felhasználók számára a tartalom hatékony navigálását.
+- **Why:** A logical structure is crucial for accessibility, allowing users to navigate content efficiently.
 
-### A címkézett PDF dokumentum mentése
-**Áttekintés:** A strukturált dokumentum megadott könyvtárba mentésével fejezze be a folyamatot.
+### Save the Tagged PDF Document
+**Overview:** Finalize by saving your structured document to a specified directory.
 
 ```java
 document.save(outputDir + "/StructureElementsTree.pdf");
 ```
 
-## Gyakorlati alkalmazások
-A címkézett PDF-ek számos esetben hasznosak:
-1. **Oktatási anyagok:** Javítsa a diákok hozzáférését segítő technológiák használatával.
-2. **Kormányzati kiadványok:** Biztosítsa az akadálymentesítési szabványok betartását.
-3. **Vállalati jelentések:** Javítsa a navigációt és a felhasználói élményt az érdekelt felek számára.
+## Practical Applications
+Tagged PDFs are beneficial in various scenarios:
 
-Az Aspose.PDF integrálása a rendszereibe egyszerűsítheti a dokumentumkezelési folyamatokat a különféle alkalmazásokban.
+1. **Educational Materials:** Enhance accessibility for students using assistive technologies.  
+2. **Government Publications:** Ensure compliance with accessibility standards such as PDF/UA.  
+3. **Corporate Reports:** Improve navigation and user experience for stakeholders.
 
-## Teljesítménybeli szempontok
-- **Memóriahasználat optimalizálása:** Használjon hatékony adatszerkezeteket nagyméretű dokumentumok kezeléséhez.
-- **Erőforrás-gazdálkodás:** A fel nem használt tárgyakat haladéktalanul dobja ki.
-- **Bevált gyakorlatok:** Rendszeresen frissítsen a legújabb könyvtárverzióra a teljesítménybeli fejlesztések és a hibajavítások érdekében.
+Integrating Aspose.PDF into your workflow streamlines document management across these use cases.
 
-## Következtetés
-Az útmutató követésével megtanultad, hogyan hozhatsz létre logikus szerkezetű, akadálymentesített, címkézett PDF-eket az Aspose.PDF for Java használatával. Ez javítja az akadálymentesítést, és felhasználóbarátabbá teszi a dokumentumokat minden közönség számára. Fedezz fel többet az Aspose.PDF további funkcióival kísérletezve!
+## Performance Considerations
+- **Optimize Memory Usage:** Use efficient data structures when handling large documents.  
+- **Resource Management:** Dispose of unused objects promptly to free memory.  
+- **Stay Updated:** Regularly upgrade to the latest Aspose.PDF version for performance improvements and bug fixes.
 
-**Következő lépések:** Próbáld meg integrálni ezeket a technikákat a projektjeidbe, és tekintsd meg az Aspose kiterjedt dokumentációját a haladó funkciókért.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **License not applied** | Verify that the temporary license file is correctly loaded before creating the document. |
+| **Missing tags in output** | Ensure you call `document.getTaggedContent()` and set title/language before adding structure elements. |
+| **Large PDFs cause OutOfMemoryError** | Use `Document.optimizeResources()` and process the PDF in chunks if possible. |
+| **Incorrect language code** | Use ISO‑639‑1 codes (e.g., `en-US`, `fr-FR`) to match screen‑reader expectations. |
 
-## GYIK szekció
-1. **Mi az a címkézett PDF?**
-   A címkézett PDF szemantikai struktúrát tartalmaz, amely segíti a képernyőolvasókat a dokumentum tartalmának helyes értelmezésében.
-2. **Használhatom az Aspose.PDF-et más Java keretrendszerekkel?**
-   Igen, az Aspose.PDF zökkenőmentesen integrálható a népszerű Java keretrendszerekkel és fejlesztőeszközökkel, mint például a Maven és a Gradle.
-3. **Hogyan kezeljem hatékonyan a nagyméretű dokumentumokat?**
-   Optimalizáld a kódodat az erőforrások hatékony kezelésével és a könyvtár naprakészen tartásával.
-4. **Milyen előnyei vannak az Aspose.PDF használatának címkézett PDF-ek esetén?**
-   Leegyszerűsíti az akadálymentes dokumentumok létrehozását, biztosítva az akadálymentesítési szabványoknak való megfelelést.
-5. **Van elérhető támogatás, ha problémákba ütközöm?**
-   Igen, látogassa meg [Aspose támogatói fóruma](https://forum.aspose.com/c/pdf/10) a közösség és az Aspose szakértőinek segítségét kérem.
+## Frequently Asked Questions
 
-## Erőforrás
-- **Dokumentáció:** Részletes útmutatók megtekintése itt: [Aspose PDF Java dokumentáció](https://reference.aspose.com/pdf/java/).
-- **Könyvtár letöltése:** Legújabb kiadások elérése itt: [Aspose letöltések](https://releases.aspose.com/pdf/java/).
-- **Vásárlás:** Szerezzen engedélyt a következőn keresztül: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
-- **Ingyenes próbaverzió:** Kezdje egy próbaverzióval [Aspose ingyenes próbaverziók](https://releases.aspose.com/pdf/java/).
-- **Ideiglenes engedély:** Ideiglenes hozzáférést kaphat értékeléshez a következő címen: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+**Q: What is a tagged PDF?**  
+A: A tagged PDF includes a semantic structure that assists screen readers in interpreting the document correctly.
+
+**Q: Can I use Aspose.PDF with other Java frameworks?**  
+A: Yes, Aspose.PDF integrates seamlessly with popular Java frameworks and build tools like Maven and Gradle.
+
+**Q: How do I handle large documents efficiently?**  
+A: Optimize memory usage by managing resources carefully and keeping the library up‑to‑date.
+
+**Q: What are the benefits of using Aspose.PDF for tagged PDFs?**  
+A: It simplifies the creation of accessible documents, ensuring compliance with accessibility standards without manual tag management.
+
+**Q: Is support available if I encounter issues?**  
+A: Yes, visit [Aspose's Support Forum](https://forum.aspose.com/c/pdf/10) for assistance from the community and Aspose experts.
+
+## Resources
+- **Documentation:** Explore detailed guides at [Aspose PDF Java Documentation](https://reference.aspose.com/pdf/java/).  
+- **Download Library:** Access latest releases at [Aspose Downloads](https://releases.aspose.com/pdf/java/).  
+- **Purchase:** Obtain a license through the [Aspose Purchase Page](https://purchase.aspose.com/buy).  
+- **Free Trial:** Start with a trial from [Aspose Free Trials](https://releases.aspose.com/pdf/java/).  
+- **Temporary License:** Get temporary access for evaluation at [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -194,3 +234,11 @@ Az útmutató követésével megtanultad, hogyan hozhatsz létre logikus szerkez
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-11-28  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
+---
