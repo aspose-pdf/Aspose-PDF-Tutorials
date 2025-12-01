@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "تعرّف على كيفية إنشاء مستندات PDF سهلة الوصول ومُعلّمة باستخدام Aspose.PDF لجافا. تأكد من أن ملفات PDF الخاصة بك شاملة وتفي بمعايير إمكانية الوصول."
-"title": "إنشاء ملفات PDF يمكن الوصول إليها باستخدام محتوى مُصنف في Java باستخدام Aspose.PDF"
-"url": "/ar/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/"
-"weight": 1
+date: '2025-12-01'
+description: تعرّف على كيفية إنشاء ملفات PDF قابلة للوصول، وإنشاء جداول PDF، ووضع
+  علامات على ملفات PDF لتعمل مع قارئات الشاشة باستخدام Aspise.PDF للغة Java.
+keywords:
+- accessible PDFs with Java
+- Aspose.PDF for Java
+- tagged PDF creation
+language: ar
+title: إنشاء ملف PDF قابل للوصول مع محتوى مُوسوم في Java باستخدام Aspose.PDF
+url: /java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +17,36 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إنشاء ملفات PDF سهلة الوصول مع محتوى مُصنف في Java باستخدام Aspose.PDF
-إنشاء مستندات PDF سهلة الوصول أمرٌ أساسي لضمان وصول جميع المستخدمين، بمن فيهم ذوو الإعاقة، إلى محتواك وفهمه. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء مستند PDF مُعلَّم باستخدام Aspose.PDF للغة Java. بالاستفادة من هذه المكتبة الفعّالة، ستتمكن من إنشاء ملفات PDF منظمة وغنية بالدلالات، وسهلة الوصول إليها من خلال قارئات الشاشة والتقنيات المساعدة الأخرى.
+# إنشاء PDF يمكن الوصول إليه مع محتوى معلم في Java باستخدام Aspose.PDF
 
-## ما سوف تتعلمه
-- إعداد بيئتك باستخدام Aspose.PDF لـ Java
-- إنشاء مستند PDF جديد بمحتوى مُعَلَّم
-- تنظيم ملف PDF الخاص بك باستخدام أقسام الرؤوس والنص والتذييل
-- حفظ المستند النهائي بتنسيق يمكن الوصول إليه
+إنشاء مستندات **PDF يمكن الوصول إليها** أمر أساسي لضمان أن جميع المستخدمين، بما في ذلك أولئك الذين يعتمدون على تقنيات المساعدة، يمكنهم قراءة محتواك والتفاعل معه. في هذا البرنامج التعليمي ستتعلم كيفية **إنشاء ملفات PDF يمكن الوصول إليها** مع محتوى معلم، إنشاء جداول PDF، وتعيين لغة المستند بحيث يمكن لقارئات الشاشة تفسير البنية بشكل صحيح.
 
-دعونا نلقي نظرة على المتطلبات الأساسية قبل أن نبدأ.
+## إجابات سريعة
+- **ما المكتبة التي يجب استخدامها؟** Aspose.PDF for Java.  
+- **كم من الوقت يستغرق التنفيذ؟** حوالي 15‑20 دقيقة لإنشاء PDF معلم أساسي.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتطوير؛ يلزم الحصول على ترخيص دائم للإنتاج.  
+- **هل يمكنني إنشاء جداول؟** نعم – تتيح لك الـ API إنشاء وتنسيق جداول PDF مع بنية معلمة.  
+- **كيف أجعل PDF قابلًا للقراءة بواسطة قارئات الشاشة؟** ضع العلامات على المحتوى، عيّن اللغة، وقدّم نصًا بديلًا للعناصر الهيكلية.
 
-## المتطلبات الأساسية
-قبل أن تبدأ، تأكد من أن لديك:
-- **مجموعة تطوير جافا (JDK)** تم تثبيته على نظامك.
-- بيئة تطوير متكاملة مناسبة مثل IntelliJ IDEA أو Eclipse لكتابة كود Java.
-- فهم أساسي لبرمجة Java ومفاهيم PDF.
+## ما هو “إنشاء PDF يمكن الوصول إليه”؟
+**PDF يمكن الوصول إليه** يحتوي على بنية منطقية (علامات) تصف العناوين، الجداول، الفقرات، والعناصر الأخرى. تتيح هذه البنية لقارئات الشاشة وأدوات المساعدة الأخرى تقديم المستند بطريقة ذات معنى للمستخدمين ذوي الإعاقات البصرية أو المعرفية.
 
-### المكتبات والتبعيات المطلوبة
-لاستخدام Aspose.PDF لجافا، أدرج المكتبة في مشروعك. إليك كيفية القيام بذلك باستخدام Maven أو Gradle:
+## لماذا نضع علامات على PDF؟
+وضع العلامات على PDF (عملية **كيفية وضع علامات على PDF**) يمنحك:
+- **تحسين التنقل** لقارئات الشاشة ومستخدمي لوحة المفاتيح.  
+- **الامتثال** لمعايير WCAG 2.1 و PDF/UA الخاصة بإمكانية الوصول.  
+- **تحسين قابلية البحث** لأن النص يُفهرس دلاليًا.  
 
-**مافن**
-أضف التبعية التالية إلى ملفك `pom.xml` ملف:
+## المتطلبات المسبقة
+قبل أن تبدأ، تأكد من وجود:
+- مجموعة تطوير جافا (JDK) مثبتة.  
+- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse.  
+- معرفة أساسية بجافا وإلمام بمفاهيم PDF.  
+
+### المكتبات والاعتمادات المطلوبة
+أضف Aspose.PDF for Java إلى مشروعك باستخدام Maven أو Gradle.
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -41,45 +55,43 @@
 </dependency>
 ```
 
-**جرادل**
-قم بتضمين هذا السطر في `build.gradle` ملف:
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 ### الحصول على الترخيص
-يُقدّم Aspose.PDF لجافا نسخة تجريبية مجانية، ما يسمح لك باختبار إمكانياته قبل الشراء. يمكنك الحصول على ترخيص مؤقت. [هنا](https://purchase.aspose.com/temporary-license/)إذا قررت الشراء، اتبع التعليمات الموجودة على موقعهم الإلكتروني.
+توفر Aspose.PDF for Java نسخة تجريبية مجانية. يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/). للاستخدام في الإنتاج، قم بشراء ترخيص كامل.
 
-## إعداد Aspose.PDF لـ Java
-ابدأ بإعداد مشروعك بالتكوينات اللازمة. إليك كيفية تهيئة Aspose.PDF وإعداده في تطبيق جافا بسيط:
-1. **تحميل** ملف JAR من [موقع إصدار Aspose](https://releases.aspose.com/pdf/java/) إذا لم تكن تستخدم Maven/Gradle.
-2. أضفه إلى مسار بناء مشروعك.
+## إعداد Aspose.PDF for Java
+إذا لم تكن تستخدم Maven/Gradle، حمّل ملف JAR من [موقع إصدارات Aspose](https://releases.aspose.com/pdf/java/) وأضفه إلى مسار بناء مشروعك.
 
-فيما يلي مقتطف أساسي من عملية التهيئة لإنشاء مستند PDF:
+إليك مقتطف بسيط يتحقق من إعدادك بإنشاء PDF فارغ:
+
 ```java
 import com.aspose.pdf.Document;
 
 public class PdfCreator {
     public static void main(String[] args) {
-        // تهيئة Aspose.PDF
+        // Initialize Aspose.PDF
         Document doc = new Document();
         
-        // احفظ المستند الفارغ للتحقق من الإعداد
+        // Save the empty document to check setup
         doc.save("output/EmptyDocument.pdf");
         
         System.out.println("Setup complete and document created successfully.");
     }
 }
 ```
-يقوم هذا المثال البسيط بإنشاء مستند PDF جديد باستخدام Aspose.PDF.
 
 ## دليل التنفيذ
-### إنشاء ملف PDF جديد بمحتوى مُعَلَّم
-**ملخص**
-يُوفر المحتوى المُعلَّم في ملفات PDF بنية منطقية، مما يُحسِّن إمكانية الوصول. سيُرشدك هذا القسم إلى كيفية إنشاء ملف PDF جديد وتكوينه كمحتوى مُعلَّم.
 
-#### الخطوة 1: تهيئة المستند
-أولاً، قم بإنشاء مثيل لـ `Document` والحصول على `ITaggedContent` الواجهة:
+### إنشاء PDF جديد بمحتوى معلم
+**نظرة عامة** – المحتوى المعلم يوفر تسلسل هرمي منطقي يحسن إمكانية الوصول. الخطوات أدناه ترشدك إلى إنشاء PDF، تمكين العلامات، وتعبئة جدول منسق.
+
+#### الخطوة 1: تهيئة المستند وتمكين العلامات
+أولاً، أنشئ كائن `Document` واحصل على واجهة `ITaggedContent`. كما **نعيّن لغة PDF** (خطوة **تعيين لغة PDF**) حتى تعرف قارئات الشاشة لغة المستند.
+
 ```java
 import com.aspose.pdf.*;
 
@@ -87,44 +99,48 @@ public class TaggedPdfCreator {
     public static void main(String[] args) {
         String outputDir = "YOUR_OUTPUT_DIRECTORY";
 
-        // إنشاء مستند PDF جديد
+        // Create a new PDF document
         Document document = new Document();
 
-        // الحصول على المحتوى المميز
+        // Obtain tagged content
         ITaggedContent taggedContent = document.getTaggedContent();
         
-        // تعيين العنوان واللغة لأغراض إمكانية الوصول
+        // Set the title and language for accessibility purposes
         taggedContent.setTitle("Example table row style");
         taggedContent.setLanguage("en-US");
 
-        // انتقل إلى إضافة العناصر المنظمة
+        // Proceed to add structured elements
     }
 }
 ```
-#### الخطوة 2: إضافة عناصر الهيكل
-قم بتعريف عنصر الجذر، وإنشاء بنية جدول تحتوي على رؤوس وجسم وتذييل:
+
+#### الخطوة 2: إضافة عناصر البنية (كيفية إنشاء جدول PDF)
+بعد ذلك، عرّف العنصر الجذري وأنشئ بنية جدول مع رأس، جسم، وتذييل. يوضح هذا **وظيفة إنشاء جدول PDF** مع الحفاظ على المحتوى معلم بالكامل.
+
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.*;
 
-// الحصول على عنصر البنية الجذرية
+// Get root structure element
 StructureElement rootElement = taggedContent.getRootElement();
 
-// إنشاء عنصر هيكل جدول جديد
+// Create a new table structure element
 TableElement tableElement = taggedContent.createTableElement();
 rootElement.appendChild(tableElement);
 
-// إضافة رأس وجسم وتذييل إلى الجدول
+// Add header, body, and footer to the table
 TableTHeadElement tableTHeadElement = tableElement.createTHead();
 TableTBodyElement tableTBodyElement = tableElement.createTBody();
 TableTFootElement tableTFootElement = tableElement.createTFoot();
 ```
-#### الخطوة 3: ملء عناصر الجدول
-أضف صفوفًا تحتوي على خلايا مصممة إلى نص الجدول:
+
+#### الخطوة 3: تعبئة عناصر الجدول (تنسيق الصفوف لقارئ الشاشة PDF)
+الآن نضيف الصفوف، ننسقها، ونقدّم نصًا بديلًا. يضمن النص البديل أن يكون الجدول مفهومًا لمستخدمي **قارئ الشاشة PDF**.
+
 ```java
 int rowCount = 7;
 int colCount = 3;
 
-// إضافة صف رأسي مع عناوين الأعمدة
+// Add a header row with column titles
 TableTRElement headTrElement = tableTHeadElement.createTR();
 headTrElement.setAlternativeText("Head Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -132,31 +148,31 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     thElement.setText(String.format("Head %s", colIndex));
 }
 
-// إضافة صفوف إلى نص الجدول باستخدام خلايا مصممة
+// Add rows to the table body with styled cells
 for (int rowIndex = 0; rowIndex < rowCount; rowIndex++) {
     TableTRElement trElement = tableTBodyElement.createTR();
     trElement.setAlternativeText(String.format("Row %s", rowIndex));
 
-    // تعيين أنماط الصفوف
+    // Set row styles
     trElement.setBackgroundColor(Color.getLightSeaGreen());
     trElement.setBorder(new BorderInfo(BorderSide.All, 0.75F, Color.getDarkGray()));
     trElement.setDefaultCellBorder(new BorderInfo(BorderSide.All, 0.50F, Color.getBlue()));
     trElement.setMinRowHeight(100.0);
     trElement.setFixedRowHeight(120.0);
 
-    // تعيين حالة النص الافتراضية للخلايا في هذا الصف
+    // Set default text state for cells in this row
     TextState cellTextState = new TextState();
     cellTextState.setForegroundColor(Color.getRed());
     trElement.setDefaultCellTextState(cellTextState);
 
-    // إضافة خلايا إلى الصف
+    // Add cells to the row
     for (int colIndex = 0; colIndex < colCount; colIndex++) {
         TableTDElement tdElement = trElement.createTD();
         tdElement.setText(String.format("Cell [{0}, {1}]", rowIndex, colIndex));
     }
 }
 
-// إضافة صف تذييل إلى الجدول
+// Add a footer row to the table
 TableTRElement footTrElement = tableTFootElement.createTR();
 footTrElement.setAlternativeText("Foot Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -164,42 +180,61 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     tdElement.setText(String.format("Foot %s", colIndex));
 }
 ```
+
 ### حفظ مستند PDF
-أخيرًا، احفظ المحتوى المُوسوم للتأكد من إمكانية الوصول إليه:
+أخيرًا، احفظ المستند. الملف المحفوظ يحتفظ بجميع العلامات، إعدادات اللغة، وبنية الجدول، مما يجعله جاهزًا تمامًا لـ **إنشاء PDF يمكن الوصول إليه** للتوزيع.
+
 ```java
-// احفظ مستند PDF المُعَلَّم
+// Save the tagged PDF document
 document.save(outputDir + "/StyleTableRow.pdf");
 System.out.println("Document saved successfully.");
 ```
-## التطبيقات العملية
-يعد إنشاء ملفات PDF يمكن الوصول إليها أمرًا بالغ الأهمية في سيناريوهات مختلفة:
-1. **المواد التعليمية**:ضمان قدرة جميع الطلاب، بما في ذلك ذوي الإعاقة، على الوصول إلى موارد التعلم.
-2. **المنشورات الحكومية**:الامتثال لمعايير إمكانية الوصول إلى الوثائق العامة.
-3. **التقارير المؤسسية**:جعل التقارير المالية والسنوية متاحة لجميع أصحاب المصلحة.
+
+## تطبيقات عملية
+إنشاء PDF يمكن الوصول إليه أمر حيوي في العديد من السيناريوهات الواقعية:
+
+1. **المواد التعليمية** – توفير كتب ودروس شاملة لجميع الطلاب.  
+2. **المنشورات الحكومية** – تلبية المتطلبات القانونية لإمكانية الوصول للوثائق العامة.  
+3. **التقارير المؤسسية** – ضمان أن المساهمين والموظفين يمكنهم الوصول إلى القوائم المالية باستخدام قارئات الشاشة.  
 
 ## اعتبارات الأداء
-عند العمل مع Aspose.PDF:
-- راقب استخدام الذاكرة، خاصة عند التعامل مع ملفات PDF كبيرة الحجم.
-- قم بتحسين الأداء عن طريق تقليل عدد العناصر المضافة ديناميكيًا.
-- اتبع أفضل ممارسات Java لجمع القمامة وإدارة الموارد.
+عند العمل مع ملفات PDF كبيرة:
 
-## خاتمة
-لقد تعلمتَ كيفية إنشاء مستند PDF مُعلَّم باستخدام Aspose.PDF لجافا. تُمكِّنك هذه المكتبة الفعّالة من إنتاج محتوى سهل الوصول بكفاءة، مما يضمن شمولية مستنداتك الرقمية. جرِّب إعدادات مختلفة لتخصيص ميزات إمكانية الوصول بما يتناسب مع احتياجاتك.
+- راقب استهلاك الذاكرة؛ حرّر الموارد فور الانتهاء.  
+- قلل عدد العناصر الديناميكية التي تضيفها.  
+- اتبع أفضل ممارسات جافا لجمع القمامة وإعادة استخدام الكائنات.  
+
+## المشكلات الشائعة والحلول
+| المشكلة | الحل |
+|-------|----------|
+| العلامات لا تظهر في قارئ PDF | تأكد من الحصول على `taggedContent` واستدعاء `setTitle`/`setLanguage` قبل إضافة العناصر. |
+| خلايا الجدول تفتقد النص البديل | استخدم `setAlternativeText` على كل `TableTRElement` وعلى صفوف الرأس/التذييل. |
+| الملفات الكبيرة تسبب OutOfMemoryError | عالج المستند على أقسام أو زد حجم ذاكرة JVM (`-Xmx`). |
+
+## الأسئلة المتكررة
+
+**س: كيف يمكنني التحقق من أن PDF الخاص بي قابل للوصول فعلاً؟**  
+ج: استخدم أدوات مثل مدقق إمكانية الوصول في Adobe Acrobat أو افتح الملف باستخدام قارئ شاشة (NVDA، JAWS) لتأكيد التنقل الصحيح.
+
+**س: هل تدعم Aspose.PDF لغات أخرى غير الإنجليزية؟**  
+ج: نعم. عيّن رمز اللغة عبر `taggedContent.setLanguage("fr-FR")` للفرنسية، `es-ES` للإسبانية، إلخ.
+
+**س: هل يمكنني إضافة صور بنص بديل إلى PDF معلم؟**  
+ج: بالتأكيد. استخدم فئة `Image` واضبط خاصية `AlternativeText` لتوضيح المحتوى البصري.
+
+**س: هل هناك حد لعدد الصفوف التي يمكنني إنشاؤها في جدول PDF؟**  
+ج: لا حد صريح، لكن الجداول الضخمة قد تزيد استهلاك الذاكرة؛ فكر في التقسيم إلى صفحات أو تقسيم المستند.
+
+**س: هل سيعمل PDF المُنشأ على جميع قارئات الشاشة؟**  
+ج: عندما تُضبط العلامات، اللغة، والنص البديل بشكل صحيح، يكون PDF متوافقًا مع PDF/UA ويجب أن يكون قابلًا للقراءة بواسطة معظم قارئات الشاشة الرئيسية.
+
+## الخلاصة
+أصبح لديك الآن دليل شامل خطوة بخطوة لإنشاء مستندات **PDF يمكن الوصول إليها** مع محتوى معلم، إنشاء جداول منسقة، وضمان التوافق مع قارئات الشاشة. باستخدام Aspose.PDF for Java، يمكنك دمج إمكانية الوصول مباشرة في خط أنابيب إنشاء PDF الخاص بك، وتقديم محتوى شامل لكل الجمهور.
 
 ### الخطوات التالية
-- استكشف المزيد من الميزات المتقدمة لـ Aspose.PDF.
-- دمج إنشاء ملفات PDF المميزة في تطبيقاتك الحالية.
-- شارك بتعليقاتك وأفكارك مع المجتمع على [منتدى Aspose](https://forum.aspose.com/c/pdf/10).
-
-## قسم الأسئلة الشائعة
-**س: كيف يمكنني التأكد من إمكانية الوصول الكامل إلى ملف PDF الخاص بي؟**
-أ: استخدم محتوى مُعلَّمًا لتوفير هيكل منطقي. اختبره باستخدام قارئات الشاشة وأدوات إمكانية الوصول.
-
-**س: هل يمكن لـ Aspose.PDF التعامل مع المستندات الكبيرة بكفاءة؟**
-ج: نعم، ولكن يجب عليك دائمًا مراقبة استخدام الذاكرة وتحسين الأداء حسب الحاجة.
-
-**س: ما هي الميزات الأخرى التي يقدمها Aspose.PDF؟**
-ج: بالإضافة إلى إنشاء ملفات PDF يمكن الوصول إليها، فإنه يوفر مجموعة واسعة من الوظائف مثل تحويل التنسيقات ومعالجة المحتوى وتأمين المستندات.
+- استكشف ميزات العلامة الإضافية مثل العناوين، القوائم، والروابط.  
+- دمج هذا التدفق العمل في خدمات جافا الحالية أو وظائف المعالجة الدفعية.  
+- شارك تجاربك واسأل أسئلتك على [منتدى Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -208,3 +243,9 @@ System.out.println("Document saved successfully.");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2025-12-01  
+**تم الاختبار مع:** Aspose.PDF for Java 25.3  
+**المؤلف:** Aspose
