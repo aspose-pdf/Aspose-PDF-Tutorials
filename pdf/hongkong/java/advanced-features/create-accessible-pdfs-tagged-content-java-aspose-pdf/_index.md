@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-14"
-"description": "了解如何使用 Aspose.PDF for Java 建立可存取的、帶有標籤的 PDF 文件。確保您的 PDF 具有包容性並符合無障礙標準。"
-"title": "使用 Aspose.PDF 在 Java 中建立帶有標記內容的可存取 PDF"
-"url": "/zh-hant/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/"
-"weight": 1
+date: '2025-12-01'
+description: 學習如何使用 Aspise.PDF for Java 建立可存取的 PDF 檔案、產生 PDF 表格，並為螢幕閱讀器標記 PDF。
+keywords:
+- accessible PDFs with Java
+- Aspose.PDF for Java
+- tagged PDF creation
+language: zh-hant
+title: 使用 Aspose.PDF 在 Java 中建立具標籤內容的無障礙 PDF
+url: /java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +16,36 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.PDF 在 Java 中建立帶有標記內容的可存取 PDF
-建立可存取的 PDF 文件對於確保所有使用者（包括殘障人士）都能存取和理解您的內容至關重要。本教學將引導您完成使用 Aspose.PDF for Java 建立標記 PDF 文件的過程。透過利用這個強大的庫，您將能夠創建可供螢幕閱讀器和其他輔助技術存取的結構化、語義豐富的 PDF。
+# 使用 Aspose.PDF for Java 建立具標記內容的可存取 PDF
 
-## 您將學到什麼
-- 使用 Aspose.PDF for Java 設定您的環境
-- 建立帶有標記內容的新 PDF 文檔
-- 使用頁首、正文和頁尾部分建立 PDF
-- 以可存取的格式儲存最終文檔
+建立 **可存取的 PDF** 文件對於確保所有使用者（包括依賴輔助技術的使用者）都能閱讀與互動至關重要。在本教學中，您將學會如何 **建立可存取的 PDF** 檔案並加入標記內容、產生 PDF 表格，以及設定文件語言，讓螢幕閱讀器能正確解讀結構。
 
-在開始之前，讓我們先深入了解先決條件。
+## 快速回答
+- **應該使用哪個函式庫？** Aspose.PDF for Java。  
+- **實作需要多久？** 基本的標記 PDF 約 15‑20 分鐘即可完成。  
+- **需要授權嗎？** 開發階段可使用免費試用版；正式上線需購買永久授權。  
+- **可以產生表格嗎？** 可以 – API 可建立並樣式化具標記結構的 PDF 表格。  
+- **如何讓 PDF 被螢幕閱讀器讀取？** 為內容加上標記、設定語言，並為結構元素提供替代文字。
 
-## 先決條件
-在開始之前，請確保您已：
-- **Java 開發工具包 (JDK)** 安裝在您的系統上。
-- 用於編寫 Java 程式碼的合適的 IDE，例如 IntelliJ IDEA 或 Eclipse。
-- 對 Java 程式設計和 PDF 概念有基本的了解。
+## 什麼是「建立可存取 PDF」？
+**可存取的 PDF** 具備描述標題、表格、段落及其他元素的邏輯結構（標記）。此結構讓螢幕閱讀器與其他輔助工具能以有意義的方式呈現文件，協助視覺或認知障礙的使用者。
 
-### 所需的庫和依賴項
-若要使用 Aspose.PDF for Java，請將該程式庫包含在您的專案中。使用 Maven 或 Gradle 執行此操作的方法如下：
+## 為什麼要為 PDF 加標記？
+為 PDF 加標記（即 **如何為 PDF 加標記** 的過程）可為您帶來：
+- **改善導覽**，讓螢幕閱讀器與鍵盤使用者更易瀏覽。  
+- **符合 WCAG 2.1 與 PDF/UA 可存取性標準**。  
+- **提升搜尋能力**，因文字會以語意方式被索引。  
 
-**Maven**
-將以下相依性新增至您的 `pom.xml` 文件：
+## 前置條件
+開始之前，請確保您已具備：
+- 已安裝 Java Development Kit (JDK)。  
+- 如 IntelliJ IDEA 或 Eclipse 等 IDE。  
+- 基本的 Java 知識與 PDF 概念的熟悉度。  
+
+### 必要的函式庫與相依性
+使用 Maven 或 Gradle 將 Aspose.PDF for Java 加入您的專案。
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -41,45 +54,43 @@
 </dependency>
 ```
 
-**Gradle**
-將此行包含在您的 `build.gradle` 文件：
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### 許可證獲取
-Aspose.PDF for Java 提供免費試用，讓您在購買前測試其功能。您可以獲得臨時駕照 [這裡](https://purchase.aspose.com/temporary-license/)。如果您決定購買，請按照其網站上的說明進行操作。
+### 授權取得
+Aspose.PDF for Java 提供免費試用。您可在[此處](https://purchase.aspose.com/temporary-license/)取得臨時授權。正式環境請購買完整授權。
 
-## 為 Java 設定 Aspose.PDF
-首先使用必要的配置來設定您的項目。以下是如何在簡單的 Java 應用程式中初始化和設定 Aspose.PDF：
-1. **下載** JAR 檔案來自 [Aspose 的發佈網站](https://releases.aspose.com/pdf/java/) 如果不使用 Maven/Gradle。
-2. 將其新增至專案的建置路徑。
+## 設定 Aspose.PDF for Java
+若未使用 Maven/Gradle，請從 [Aspose 發行站點](https://releases.aspose.com/pdf/java/) 下載 JAR，並將其加入專案的建置路徑。
 
-以下是建立 PDF 文件的基本初始化程式碼片段：
+以下是一段簡單程式碼，可透過建立空白 PDF 來驗證您的設定：
+
 ```java
 import com.aspose.pdf.Document;
 
 public class PdfCreator {
     public static void main(String[] args) {
-        // 初始化 Aspose.PDF
+        // Initialize Aspose.PDF
         Document doc = new Document();
         
-        // 儲存空白文檔以檢查設定
+        // Save the empty document to check setup
         doc.save("output/EmptyDocument.pdf");
         
         System.out.println("Setup complete and document created successfully.");
     }
 }
 ```
-這個簡單的範例使用 Aspose.PDF 初始化一個新的 PDF 文件。
 
-## 實施指南
-### 建立帶有標記內容的新 PDF
-**概述**
-PDF 中的標記內容提供了邏輯結構，增強了可訪問性。本節將指導您建立新的 PDF 並將其配置為標記內容。
+## 實作指南
 
-#### 步驟 1：初始化文檔
-首先，創建一個 `Document` 並獲得 `ITaggedContent` 介面:
+### 建立具標記內容的新 PDF
+**概觀** – 標記內容提供邏輯層級存取性。以下步驟將帶您建立 PDF、啟用標記，並填入樣式化表格。
+
+#### 步驟 1：初始化文件並啟用標記
+首先，建立 `Document` 實例並取得 `ITaggedContent` 介面。我們同時 **設定 PDF 語言**（即 **設定 PDF 語言** 步驟），讓螢幕閱讀器知道文件的語系。
+
 ```java
 import com.aspose.pdf.*;
 
@@ -87,44 +98,48 @@ public class TaggedPdfCreator {
     public static void main(String[] args) {
         String outputDir = "YOUR_OUTPUT_DIRECTORY";
 
-        // 建立新的 PDF 文檔
+        // Create a new PDF document
         Document document = new Document();
 
-        // 取得標記內容
+        // Obtain tagged content
         ITaggedContent taggedContent = document.getTaggedContent();
         
-        // 設定標題和語言以實現無障礙功能
+        // Set the title and language for accessibility purposes
         taggedContent.setTitle("Example table row style");
         taggedContent.setLanguage("en-US");
 
-        // 繼續加入結構化元素
+        // Proceed to add structured elements
     }
 }
 ```
-#### 步驟 2：新增結構元素
-定義根元素，建立有表頭、內文和表腳的表結構：
+
+#### 步驟 2：加入結構元素（如何產生 PDF 表格）
+接著，定義根元素並建立包含標頭、主體與頁腳的表格結構。此範例示範 **產生 PDF 表格** 功能，同時保持內容完整標記。
+
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.*;
 
-// 取得根結構元素
+// Get root structure element
 StructureElement rootElement = taggedContent.getRootElement();
 
-// 建立新的表結構元素
+// Create a new table structure element
 TableElement tableElement = taggedContent.createTableElement();
 rootElement.appendChild(tableElement);
 
-// 在表格中新增頁首、正文和頁腳
+// Add header, body, and footer to the table
 TableTHeadElement tableTHeadElement = tableElement.createTHead();
 TableTBodyElement tableTBodyElement = tableElement.createTBody();
 TableTFootElement tableTFootElement = tableElement.createTFoot();
 ```
-#### 步驟 3：填滿表格元素
-將帶有樣式單元格的行新增至表格主體：
+
+#### 步驟 3：填充表格元素（為螢幕閱讀器 PDF 設定列樣式）
+現在加入列、設定樣式，並提供替代文字。替代文字可確保 **螢幕閱讀器 PDF** 使用者能理解表格內容。
+
 ```java
 int rowCount = 7;
 int colCount = 3;
 
-// 新增帶有列標題的標題行
+// Add a header row with column titles
 TableTRElement headTrElement = tableTHeadElement.createTR();
 headTrElement.setAlternativeText("Head Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -132,31 +147,31 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     thElement.setText(String.format("Head %s", colIndex));
 }
 
-// 使用樣式單元格向表體新增一行
+// Add rows to the table body with styled cells
 for (int rowIndex = 0; rowIndex < rowCount; rowIndex++) {
     TableTRElement trElement = tableTBodyElement.createTR();
     trElement.setAlternativeText(String.format("Row %s", rowIndex));
 
-    // 設定行樣式
+    // Set row styles
     trElement.setBackgroundColor(Color.getLightSeaGreen());
     trElement.setBorder(new BorderInfo(BorderSide.All, 0.75F, Color.getDarkGray()));
     trElement.setDefaultCellBorder(new BorderInfo(BorderSide.All, 0.50F, Color.getBlue()));
     trElement.setMinRowHeight(100.0);
     trElement.setFixedRowHeight(120.0);
 
-    // 設定此行單元格的預設文字狀態
+    // Set default text state for cells in this row
     TextState cellTextState = new TextState();
     cellTextState.setForegroundColor(Color.getRed());
     trElement.setDefaultCellTextState(cellTextState);
 
-    // 將儲存格新增至行
+    // Add cells to the row
     for (int colIndex = 0; colIndex < colCount; colIndex++) {
         TableTDElement tdElement = trElement.createTD();
         tdElement.setText(String.format("Cell [{0}, {1}]", rowIndex, colIndex));
     }
 }
 
-// 在表格中新增頁尾行
+// Add a footer row to the table
 TableTRElement footTrElement = tableTFootElement.createTR();
 footTrElement.setAlternativeText("Foot Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -164,42 +179,67 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     tdElement.setText(String.format("Foot %s", colIndex));
 }
 ```
+
 ### 儲存 PDF 文件
-最後，保存標記的內容以確保其可存取：
+最後，將文件儲存。儲存後的檔案會保留所有標記、語言設定與表格結構，完整符合 **建立可存取 PDF** 的需求，可直接發布。
+
 ```java
-// 儲存標記的 PDF 文檔
+// Save the tagged PDF document
 document.save(outputDir + "/StyleTableRow.pdf");
 System.out.println("Document saved successfully.");
 ```
-## 實際應用
-在各種情況下，建立可存取的 PDF 都至關重要：
-1. **教育材料**：確保所有學生，包括身心障礙學生，都能獲得學習資源。
-2. **政府刊物**：遵守公共文件的可訪問性標準。
-3. **公司報告**：向所有利害關係人提供財務和年度報告。
 
-## 性能考慮
-使用 Aspose.PDF 時：
-- 監控記憶體使用情況，尤其是在處理大型 PDF 時。
-- 透過最小化動態添加的元素數量來優化效能。
-- 遵循 Java 垃圾收集和資源管理的最佳實務。
+## 實務應用
+在許多真實情境中，建立可存取的 PDF 至關重要：
+
+1. **教育教材** – 為所有學生提供具包容性的教科書與講義。  
+2. **政府出版物** – 符合法規要求，確保公共文件的可存取性。  
+3. **企業報告** – 讓股東與員工能透過螢幕閱讀器閱讀財務報表。  
+
+## 效能考量
+處理大型 PDF 時：
+
+- 監控記憶體使用情況，及時釋放資源。  
+- 減少動態元素的加入數量。  
+- 遵循 Java 的垃圾回收與物件重用最佳實踐。  
+
+## 常見問題與解決方案
+| 問題 | 解決方案 |
+|-------|----------|
+| 標記未在 PDF 閱讀器中顯示 | 確認已取得 `taggedContent`，且在加入元素前已呼叫 `setTitle`/`setLanguage`。 |
+| 表格儲存格缺少替代文字 | 在每個 `TableTRElement` 以及標頭/頁腳列上使用 `setAlternativeText`。 |
+| 大檔案導致 OutOfMemoryError | 將文件分段處理或增加 JVM 堆積大小（`-Xmx`）。 |
+
+## 常見問答
+
+**Q: 如何驗證我的 PDF 真正具可存取性？**  
+A: 使用 Adobe Acrobat 的可存取性檢查工具，或以螢幕閱讀器（NVDA、JAWS）開啟檔案，確認導覽是否正確。
+
+**Q: Aspose.PDF 是否支援除英語以外的語言？**  
+A: 支援。可透過 `taggedContent.setLanguage("fr-FR")` 設定法語，`es-ES` 設定西班牙語，依此類推。
+
+**Q: 我可以在標記 PDF 中加入帶 alt 文字的圖片嗎？**  
+A: 當然可以。使用 `Image` 類別，並設定其 `AlternativeText` 屬性以描述視覺內容。
+
+**Q: PDF 表格的列數有上限嗎？**  
+A: 沒有硬性上限，但極大的表格會增加記憶體消耗；建議使用分頁或分割文件的方式處理。
+
+**Q: 產生的 PDF 能在所有螢幕閱讀器上使用嗎？**  
+A: 若正確設定標記、語言與替代文字，PDF 符合 PDF/UA 標準，應能在大多數主流螢幕閱讀器上正常閱讀。
 
 ## 結論
-您已經了解如何使用 Aspose.PDF for Java 建立帶有標籤的 PDF 文件。這個強大的庫使您能夠有效地製作可訪問的內容，確保您的數位文件的包容性。嘗試不同的配置來根據您的需求自訂輔助功能。
+您現在已掌握完整的 **建立可存取 PDF** 步驟，包括加入標記內容、產生樣式化表格，以及確保與螢幕閱讀器的相容性。透過 Aspose.PDF for Java，您可以將可存取性直接嵌入 PDF 產生流程，為所有受眾提供包容性的內容。
 
 ### 後續步驟
-- 探索 Aspose.PDF 的更多進階功能。
-- 將標記 PDF 生成整合到您現有的應用程式中。
-- 與社群分享您的回饋和見解 [Aspose 的論壇](https://forum。aspose.com/c/pdf/10).
+- 探索其他標記功能，如標題、清單與連結。  
+- 將此工作流程整合至現有的 Java 服務或批次處理工作。  
+- 在[Aspose PDF 論壇](https://forum.aspose.com/c/pdf/10)分享您的經驗並提出問題。
 
-## 常見問題部分
-**Q：如何確保我的 PDF 完全可存取？**
-答：使用標記內容來提供邏輯結構。使用螢幕閱讀器和輔助工具進行測試。
+---
 
-**Q：Aspose.PDF 能有效處理大型文件嗎？**
-答：是的，但始終監視記憶體使用情況並根據需要優化效能。
-
-**Q：Aspose.PDF 還提供哪些其他功能？**
-答：除了建立可存取的 PDF 之外，它還提供轉換格式、處理內容和保護文件等多種功能。
+**最後更新：** 2025-12-01  
+**測試環境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

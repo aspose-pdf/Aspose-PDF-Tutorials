@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Tìm hiểu cách tạo tài liệu PDF có gắn thẻ và có thể truy cập bằng Aspose.PDF cho Java. Đảm bảo PDF của bạn bao gồm và đáp ứng các tiêu chuẩn về khả năng truy cập."
-"title": "Tạo PDF có thể truy cập được với nội dung được gắn thẻ trong Java bằng Aspose.PDF"
-"url": "/vi/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/"
-"weight": 1
+date: '2025-12-01'
+description: Tìm hiểu cách tạo tệp PDF có khả năng truy cập, tạo bảng PDF và gắn thẻ
+  PDF cho trình đọc màn hình bằng Aspise.PDF cho Java.
+keywords:
+- accessible PDFs with Java
+- Aspose.PDF for Java
+- tagged PDF creation
+language: vi
+title: Tạo PDF có thể truy cập được với nội dung được gắn thẻ trong Java bằng Aspose.PDF
+url: /java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +17,36 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tạo PDF có thể truy cập được với nội dung được gắn thẻ trong Java bằng Aspose.PDF
-Tạo tài liệu PDF có thể truy cập được là điều cần thiết để đảm bảo rằng tất cả người dùng, bao gồm cả người khuyết tật, đều có thể truy cập và hiểu nội dung của bạn. Hướng dẫn này sẽ hướng dẫn bạn quy trình tạo tài liệu PDF được gắn thẻ bằng Aspose.PDF cho Java. Bằng cách tận dụng thư viện mạnh mẽ này, bạn sẽ có thể tạo các tệp PDF có cấu trúc, giàu ngữ nghĩa có thể truy cập được bằng trình đọc màn hình và các công nghệ hỗ trợ khác.
+# Tạo PDF Truy Cập Được với Nội Dung Đánh Thẻ trong Java Sử Dụng Aspose.PDF
 
-## Những gì bạn sẽ học được
-- Thiết lập môi trường của bạn với Aspose.PDF cho Java
-- Tạo một tài liệu PDF mới với nội dung được gắn thẻ
-- Cấu trúc PDF của bạn với các phần tiêu đề, nội dung và chân trang
-- Lưu tài liệu cuối cùng ở định dạng có thể truy cập được
+Việc tạo **PDF truy cập được** là rất quan trọng để đảm bảo mọi người dùng, bao gồm cả những người dựa vào công nghệ hỗ trợ, có thể đọc và tương tác với nội dung của bạn. Trong hướng dẫn này, bạn sẽ học cách **tạo PDF truy cập được** với nội dung được đánh thẻ, tạo bảng PDF, và đặt ngôn ngữ tài liệu để trình đọc màn hình có thể hiểu đúng cấu trúc.
 
-Chúng ta hãy cùng tìm hiểu các điều kiện tiên quyết trước khi bắt đầu.
+## Trả Lời Nhanh
+- **Thư viện nào nên dùng?** Aspose.PDF for Java.  
+- **Thời gian thực hiện khoảng bao lâu?** Khoảng 15‑20 phút cho một PDF có thẻ cơ bản.  
+- **Cần giấy phép không?** Bản dùng thử miễn phí đủ cho phát triển; giấy phép vĩnh viễn cần cho môi trường sản xuất.  
+- **Có thể tạo bảng không?** Có – API cho phép bạn tạo và định dạng bảng PDF với cấu trúc thẻ.  
+- **Làm sao để PDF đọc được bởi trình đọc màn hình?** Đánh thẻ nội dung, đặt ngôn ngữ, và cung cấp văn bản thay thế cho các thành phần cấu trúc.
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Bộ phát triển Java (JDK)** được cài đặt trên hệ thống của bạn.
-- Một IDE phù hợp như IntelliJ IDEA hoặc Eclipse để viết mã Java.
-- Hiểu biết cơ bản về lập trình Java và khái niệm PDF.
+## “create accessible pdf” là gì?
+Một **PDF truy cập được** chứa cấu trúc logic (các thẻ) mô tả tiêu đề, bảng, đoạn văn và các yếu tố khác. Cấu trúc này cho phép trình đọc màn hình và các công cụ hỗ trợ khác trình bày tài liệu một cách có ý nghĩa cho người dùng có khiếm thị hoặc khó khăn về nhận thức.
 
-### Thư viện và phụ thuộc bắt buộc
-Để sử dụng Aspose.PDF cho Java, hãy đưa thư viện vào dự án của bạn. Sau đây là cách bạn có thể thực hiện bằng Maven hoặc Gradle:
+## Tại sao phải đánh thẻ PDF?
+Việc đánh thẻ PDF (quá trình **how to tag pdf**) mang lại cho bạn:
+- **Cải thiện khả năng điều hướng** cho trình đọc màn hình và người dùng bàn phím.  
+- **Tuân thủ** các tiêu chuẩn WCAG 2.1 và PDF/UA về truy cập.  
+- **Tăng khả năng tìm kiếm** vì văn bản được lập chỉ mục theo ngữ nghĩa.  
 
-**Maven**
-Thêm phụ thuộc sau vào `pom.xml` tài liệu:
+## Yêu Cầu Trước
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+- Java Development Kit (JDK) được cài đặt.  
+- Một IDE như IntelliJ IDEA hoặc Eclipse.  
+- Kiến thức cơ bản về Java và hiểu biết về các khái niệm PDF.  
+
+### Thư Viện và Phụ Thuộc Cần Thiết
+Thêm Aspose.PDF for Java vào dự án của bạn bằng Maven hoặc Gradle.
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -41,45 +55,43 @@ Thêm phụ thuộc sau vào `pom.xml` tài liệu:
 </dependency>
 ```
 
-**Tốt nghiệp**
-Bao gồm dòng này trong `build.gradle` tài liệu:
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Mua lại giấy phép
-Aspose.PDF for Java cung cấp bản dùng thử miễn phí, cho phép bạn kiểm tra khả năng của nó trước khi mua. Bạn có thể mua giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/). Nếu bạn quyết định mua, hãy làm theo hướng dẫn trên trang web của họ.
+### Cách Nhận Giấy Phép
+Aspose.PDF for Java cung cấp bản dùng thử miễn phí. Bạn có thể lấy giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/). Đối với môi trường sản xuất, hãy mua giấy phép đầy đủ.
 
-## Thiết lập Aspose.PDF cho Java
-Bắt đầu bằng cách thiết lập dự án của bạn với các cấu hình cần thiết. Sau đây là cách bạn có thể khởi tạo và thiết lập Aspose.PDF trong một ứng dụng Java đơn giản:
-1. **Tải về** tập tin JAR từ [Trang web phát hành của Aspose](https://releases.aspose.com/pdf/java/) nếu không sử dụng Maven/Gradle.
-2. Thêm nó vào đường dẫn xây dựng dự án của bạn.
+## Cài Đặt Aspose.PDF for Java
+Nếu bạn không dùng Maven/Gradle, tải file JAR từ [trang phát hành của Aspose](https://releases.aspose.com/pdf/java/) và thêm vào đường dẫn xây dựng của dự án.
 
-Sau đây là đoạn mã khởi tạo cơ bản để tạo tài liệu PDF:
+Đây là một đoạn mã đơn giản kiểm tra cài đặt bằng cách tạo một PDF trống:
+
 ```java
 import com.aspose.pdf.Document;
 
 public class PdfCreator {
     public static void main(String[] args) {
-        // Khởi tạo Aspose.PDF
+        // Initialize Aspose.PDF
         Document doc = new Document();
         
-        // Lưu tài liệu trống để kiểm tra thiết lập
+        // Save the empty document to check setup
         doc.save("output/EmptyDocument.pdf");
         
         System.out.println("Setup complete and document created successfully.");
     }
 }
 ```
-Ví dụ đơn giản này khởi tạo một tài liệu PDF mới bằng Aspose.PDF.
 
-## Hướng dẫn thực hiện
-### Tạo PDF mới với nội dung được gắn thẻ
-**Tổng quan**
-Nội dung được gắn thẻ trong PDF cung cấp cấu trúc logic, tăng cường khả năng truy cập. Phần này sẽ hướng dẫn bạn tạo PDF mới và định cấu hình nó dưới dạng nội dung được gắn thẻ.
+## Hướng Dẫn Thực Hiện
 
-#### Bước 1: Khởi tạo Tài liệu
-Đầu tiên, tạo một thể hiện của `Document` và có được `ITaggedContent` giao diện:
+### Tạo PDF Mới với Nội Dung Đánh Thẻ
+**Tổng quan** – Nội dung được đánh thẻ cung cấp một hệ thống phân cấp logic giúp cải thiện khả năng truy cập. Các bước dưới đây sẽ hướng dẫn bạn tạo PDF, bật tính năng đánh thẻ, và chèn một bảng được định dạng.
+
+#### Bước 1: Khởi Tạo Document và Bật Đánh Thẻ
+Đầu tiên, tạo một thể hiện `Document` và lấy giao diện `ITaggedContent`. Chúng ta cũng **đặt ngôn ngữ PDF** (bước **set pdf language**) để trình đọc màn hình biết ngôn ngữ của tài liệu.
+
 ```java
 import com.aspose.pdf.*;
 
@@ -87,44 +99,48 @@ public class TaggedPdfCreator {
     public static void main(String[] args) {
         String outputDir = "YOUR_OUTPUT_DIRECTORY";
 
-        // Tạo một tài liệu PDF mới
+        // Create a new PDF document
         Document document = new Document();
 
-        // Lấy nội dung được gắn thẻ
+        // Obtain tagged content
         ITaggedContent taggedContent = document.getTaggedContent();
         
-        // Đặt tiêu đề và ngôn ngữ cho mục đích trợ năng
+        // Set the title and language for accessibility purposes
         taggedContent.setTitle("Example table row style");
         taggedContent.setLanguage("en-US");
 
-        // Tiến hành thêm các thành phần có cấu trúc
+        // Proceed to add structured elements
     }
 }
 ```
-#### Bước 2: Thêm các thành phần cấu trúc
-Xác định phần tử gốc, tạo cấu trúc bảng với tiêu đề, nội dung và chân trang:
+
+#### Bước 2: Thêm Các Thành Phần Cấu Trúc (How to generate PDF table)
+Tiếp theo, định nghĩa phần tử gốc và tạo cấu trúc bảng với phần đầu, thân và chân. Điều này minh họa chức năng **generate pdf table** đồng thời giữ toàn bộ nội dung được đánh thẻ.
+
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.*;
 
-// Lấy phần tử cấu trúc gốc
+// Get root structure element
 StructureElement rootElement = taggedContent.getRootElement();
 
-// Tạo một phần tử cấu trúc bảng mới
+// Create a new table structure element
 TableElement tableElement = taggedContent.createTableElement();
 rootElement.appendChild(tableElement);
 
-// Thêm tiêu đề, nội dung và chân trang vào bảng
+// Add header, body, and footer to the table
 TableTHeadElement tableTHeadElement = tableElement.createTHead();
 TableTBodyElement tableTBodyElement = tableElement.createTBody();
 TableTFootElement tableTFootElement = tableElement.createTFoot();
 ```
-#### Bước 3: Điền các phần tử vào bảng
-Thêm các hàng có ô được định dạng vào thân bảng:
+
+#### Bước 3: Điền Dữ Liệu Vào Các Thành Phần Bảng (Styling rows for screen reader PDF)
+Bây giờ chúng ta thêm các hàng, định dạng chúng, và cung cấp văn bản thay thế. Văn bản thay thế giúp bảng dễ hiểu đối với người dùng **screen reader PDF**.
+
 ```java
 int rowCount = 7;
 int colCount = 3;
 
-// Thêm một hàng tiêu đề với tiêu đề cột
+// Add a header row with column titles
 TableTRElement headTrElement = tableTHeadElement.createTR();
 headTrElement.setAlternativeText("Head Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -132,31 +148,31 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     thElement.setText(String.format("Head %s", colIndex));
 }
 
-// Thêm hàng vào thân bảng bằng các ô được định dạng
+// Add rows to the table body with styled cells
 for (int rowIndex = 0; rowIndex < rowCount; rowIndex++) {
     TableTRElement trElement = tableTBodyElement.createTR();
     trElement.setAlternativeText(String.format("Row %s", rowIndex));
 
-    // Đặt kiểu hàng
+    // Set row styles
     trElement.setBackgroundColor(Color.getLightSeaGreen());
     trElement.setBorder(new BorderInfo(BorderSide.All, 0.75F, Color.getDarkGray()));
     trElement.setDefaultCellBorder(new BorderInfo(BorderSide.All, 0.50F, Color.getBlue()));
     trElement.setMinRowHeight(100.0);
     trElement.setFixedRowHeight(120.0);
 
-    // Đặt trạng thái văn bản mặc định cho các ô trong hàng này
+    // Set default text state for cells in this row
     TextState cellTextState = new TextState();
     cellTextState.setForegroundColor(Color.getRed());
     trElement.setDefaultCellTextState(cellTextState);
 
-    // Thêm ô vào hàng
+    // Add cells to the row
     for (int colIndex = 0; colIndex < colCount; colIndex++) {
         TableTDElement tdElement = trElement.createTD();
         tdElement.setText(String.format("Cell [{0}, {1}]", rowIndex, colIndex));
     }
 }
 
-// Thêm một hàng chân trang vào bảng
+// Add a footer row to the table
 TableTRElement footTrElement = tableTFootElement.createTR();
 footTrElement.setAlternativeText("Foot Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -164,42 +180,67 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     tdElement.setText(String.format("Foot %s", colIndex));
 }
 ```
-### Lưu tài liệu PDF
-Cuối cùng, hãy lưu nội dung được gắn thẻ để đảm bảo có thể truy cập được:
+
+### Lưu Tài Liệu PDF
+Cuối cùng, lưu tài liệu. File đã lưu sẽ giữ lại tất cả các thẻ, cài đặt ngôn ngữ và cấu trúc bảng, sẵn sàng **create accessible pdf** để phân phối.
+
 ```java
-// Lưu tài liệu PDF đã gắn thẻ
+// Save the tagged PDF document
 document.save(outputDir + "/StyleTableRow.pdf");
 System.out.println("Document saved successfully.");
 ```
-## Ứng dụng thực tế
-Việc tạo các tệp PDF có thể truy cập được là rất quan trọng trong nhiều trường hợp:
-1. **Tài liệu giáo dục**: Đảm bảo rằng tất cả học sinh, bao gồm cả học sinh khuyết tật, đều có thể tiếp cận được các nguồn tài nguyên học tập.
-2. **Ấn phẩm của Chính phủ**:Tuân thủ các tiêu chuẩn về khả năng truy cập đối với các tài liệu công cộng.
-3. **Báo cáo doanh nghiệp**: Cung cấp báo cáo tài chính và báo cáo thường niên cho tất cả các bên liên quan.
 
-## Cân nhắc về hiệu suất
-Khi làm việc với Aspose.PDF:
-- Theo dõi mức sử dụng bộ nhớ, đặc biệt là khi xử lý các tệp PDF lớn.
-- Tối ưu hóa hiệu suất bằng cách giảm thiểu số lượng phần tử được thêm vào một cách linh hoạt.
-- Thực hiện theo các biện pháp tốt nhất của Java để thu gom rác và quản lý tài nguyên.
+## Ứng Dụng Thực Tiễn
+Tạo PDF truy cập được là rất quan trọng trong nhiều tình huống thực tế:
 
-## Phần kết luận
-Bạn đã học cách tạo tài liệu PDF được gắn thẻ bằng Aspose.PDF for Java. Thư viện mạnh mẽ này cho phép bạn tạo nội dung có thể truy cập một cách hiệu quả, đảm bảo tính bao hàm trong các tài liệu kỹ thuật số của bạn. Thử nghiệm với các cấu hình khác nhau để tùy chỉnh các tính năng trợ năng theo nhu cầu của bạn.
+1. **Tài liệu giáo dục** – Cung cấp sách giáo trình và tài liệu học tập bao trùm cho mọi học sinh.  
+2. **Ấn phẩm chính phủ** – Đáp ứng các yêu cầu pháp lý về truy cập cho tài liệu công cộng.  
+3. **Báo cáo doanh nghiệp** – Đảm bảo cổ đông và nhân viên có thể truy cập báo cáo tài chính bằng trình đọc màn hình.  
 
-### Các bước tiếp theo
-- Khám phá nhiều tính năng nâng cao hơn của Aspose.PDF.
-- Tích hợp tính năng tạo PDF có gắn thẻ vào các ứng dụng hiện có của bạn.
-- Chia sẻ phản hồi và hiểu biết của bạn với cộng đồng trên [Diễn đàn Aspose](https://forum.aspose.com/c/pdf/10).
+## Các Yếu Tố Hiệu Suất
+Khi làm việc với PDF lớn:
 
-## Phần Câu hỏi thường gặp
-**H: Làm sao tôi có thể đảm bảo tệp PDF của mình có thể truy cập được hoàn toàn?**
-A: Sử dụng nội dung được gắn thẻ để cung cấp cấu trúc logic. Kiểm tra bằng trình đọc màn hình và công cụ trợ năng.
+- Giám sát việc sử dụng bộ nhớ; giải phóng tài nguyên kịp thời.  
+- Giảm thiểu số lượng phần tử động bạn thêm vào.  
+- Tuân thủ các thực hành tốt của Java về thu gom rác và tái sử dụng đối tượng.  
 
-**H: Aspose.PDF có thể xử lý các tài liệu lớn một cách hiệu quả không?**
-A: Có, nhưng hãy luôn theo dõi mức sử dụng bộ nhớ và tối ưu hóa hiệu suất khi cần.
+## Các Vấn Đề Thường Gặp và Giải Pháp
+| Vấn đề | Giải pháp |
+|-------|----------|
+| Thẻ không hiển thị trong trình đọc PDF | Kiểm tra `taggedContent` đã được lấy và `setTitle`/`setLanguage` được gọi trước khi thêm các phần tử. |
+| Ô bảng thiếu văn bản thay thế | Sử dụng `setAlternativeText` cho mỗi `TableTRElement` và cho các hàng đầu/footer. |
+| File lớn gây OutOfMemoryError | Xử lý tài liệu theo từng phần hoặc tăng kích thước heap JVM (`-Xmx`). |
 
-**H: Aspose.PDF còn cung cấp những tính năng nào khác?**
-A: Ngoài việc tạo các tệp PDF có thể truy cập được, nó còn cung cấp nhiều chức năng khác như chuyển đổi định dạng, chỉnh sửa nội dung và bảo mật tài liệu.
+## Câu Hỏi Thường Gặp
+
+**H: Làm sao kiểm chứng PDF của tôi thực sự truy cập được?**  
+Đ: Sử dụng công cụ như Accessibility Checker của Adobe Acrobat hoặc mở file bằng trình đọc màn hình (NVDA, JAWS) để xác nhận điều hướng đúng.
+
+**H: Aspose.PDF có hỗ trợ các ngôn ngữ khác ngoài tiếng Anh không?**  
+Đ: Có. Đặt mã ngôn ngữ qua `taggedContent.setLanguage("fr-FR")` cho tiếng Pháp, `es-ES` cho tiếng Tây Ban Nha, v.v.
+
+**H: Tôi có thể thêm hình ảnh có alt text vào PDF đã đánh thẻ không?**  
+Đ: Chắc chắn. Dùng lớp `Image` và đặt thuộc tính `AlternativeText` để mô tả nội dung hình ảnh.
+
+**H: Có giới hạn số hàng tôi có thể tạo trong bảng PDF không?**  
+Đ: Không có giới hạn cứng, nhưng bảng rất lớn có thể tăng tiêu thụ bộ nhớ; cân nhắc phân trang hoặc chia tài liệu.
+
+**H: PDF được tạo sẽ hoạt động trên mọi trình đọc màn hình không?**  
+Đ: Khi các thẻ, ngôn ngữ và văn bản thay thế được thiết lập đúng, PDF tuân thủ PDF/UA và sẽ đọc được bởi hầu hết các trình đọc màn hình lớn.
+
+## Kết Luận
+Bạn đã có một hướng dẫn chi tiết, từng bước để **create accessible pdf** với nội dung đánh thẻ, tạo bảng định dạng, và đảm bảo tương thích với trình đọc màn hình. Bằng cách tận dụng Aspose.PDF for Java, bạn có thể nhúng khả năng truy cập ngay vào quy trình tạo PDF, cung cấp nội dung bao trùm cho mọi đối tượng.
+
+### Các Bước Tiếp Theo
+- Khám phá các tính năng đánh thẻ bổ sung như tiêu đề, danh sách và liên kết.  
+- Tích hợp quy trình này vào các dịch vụ Java hiện có hoặc các công việc xử lý batch.  
+- Chia sẻ kinh nghiệm và đặt câu hỏi trên [diễn đàn Aspose PDF](https://forum.aspose.com/c/pdf/10).
+
+---
+
+**Cập nhật lần cuối:** 2025-12-01  
+**Kiểm thử với:** Aspose.PDF for Java 25.3  
+**Tác giả:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

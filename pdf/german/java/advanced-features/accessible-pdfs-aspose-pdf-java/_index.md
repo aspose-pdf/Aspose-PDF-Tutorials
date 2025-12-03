@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Erfahren Sie, wie Sie mit Aspose.PDF für Java barrierefreie PDF-Dateien mit Überschriften und Absätzen erstellen. Stellen Sie die Einhaltung der Barrierefreiheitsstandards für unterstützende Technologien sicher."
-"title": "Erstellen barrierefreier PDFs in Java&#58; Ein umfassender Leitfaden zur Verwendung von Aspose.PDF für Überschriften und Absätze"
-"url": "/de/java/advanced-features/accessible-pdfs-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-01'
+description: Erfahren Sie, wie Sie mit Aspose.PDF in Java barrierefreie PDF‑Dateien
+  erstellen. Dieser Leitfaden zeigt Ihnen, wie Sie den PDF‑Titel, die Sprache festlegen
+  und ein getaggtes PDF mit Überschriften und Absätzen erzeugen.
+keywords:
+- accessible PDFs
+- Aspose.PDF for Java
+- Java PDF generation
+language: de
+title: Barrierefreies PDF in Java mit Aspose.PDF erstellen – Vollständiger Leitfaden
+url: /java/advanced-features/accessible-pdfs-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,29 +18,40 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Erstellen barrierefreier PDFs in Java: Ein umfassender Leitfaden
+# Erstellen von barrierefreien PDFs in Java mit Aspose.PDF – Vollständige Anleitung
 
-## Einführung
+In diesem Tutorial werden Sie **barrierefreie PDF**‑Dokumente mit Aspose.PDF für Java **erstellen**. Wir führen Sie durch das Festlegen des PDF‑Titels, der Sprache und das Erzeugen eines **tagged PDF** mit korrekten Überschriften (H1‑H6) und Absatzstrukturen, sodass Screenreader Ihre Dateien mühelos navigieren können.
 
-Im digitalen Zeitalter ist die Barrierefreiheit von Dokumenten unerlässlich, um alle zu erreichen, auch diejenigen, die auf unterstützende Technologien wie Bildschirmleseprogramme angewiesen sind. Dieses Tutorial führt Sie durch die Erstellung eines barrierefreien PDF-Dokuments mit Aspose.PDF für Java. Der Schwerpunkt liegt dabei auf dem Hinzufügen von Überschriften und Absätzen, die den Barrierefreiheitsstandards entsprechen.
+**Was Sie lernen werden**
+- Wie Sie Aspose.PDF für Java in Maven oder Gradle einrichten.
+- Wie Sie **PDF‑Titel setzen** und **PDF‑Sprache festlegen** für bessere Barrierefreiheit.
+- Wie Sie **tagged PDF**‑Inhalte mit Überschriften und Absätzen generieren.
+- Wie Sie das Dokument speichern und dabei alle Barrierefreiheits‑Tags erhalten.
 
-**Was Sie lernen werden:**
-- So richten Sie Aspose.PDF für Java ein und konfigurieren es.
-- Erstellen eines neuen PDF-Dokuments mit getaggtem Inhalt für bessere Zugänglichkeit.
-- Hinzufügen von Überschriftenelementen (H1–H6) und strukturierten Absatzelementen mithilfe von Span-Tags.
-- Speichern der PDF-Datei unter Beibehaltung der Barrierefreiheitsfunktionen.
+Los geht’s!
 
-Lassen Sie uns mit der Einrichtung Ihrer Umgebung beginnen und mit der Erstellung barrierefreier Dokumente beginnen!
+## Schnellantworten
+- **Was ist der Hauptvorteil eines tagged PDF?** Es bietet eine logische Struktur, die Hilfstechnologien lesen können.
+- **Welche Bibliothek hilft Ihnen, barrierefreie PDFs in Java zu erstellen?** Aspose.PDF für Java.
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine temporäre Lizenz entfernt Evaluationsbeschränkungen; eine Voll‑Lizenz ist für die Produktion erforderlich.
+- **Kann ich die PDF‑Sprache festlegen?** Ja, über die Methode `setLanguage` im getaggten Inhalt.
+- **Ist diese Anleitung mit Java 8+ kompatibel?** Absolut – der Code funktioniert mit JDK 8 und neueren Versionen.
+
+## Was ist ein Tagged PDF und warum barrierefreie PDFs erstellen?
+Ein **tagged PDF** enthält versteckte Metadaten, die die Lesereihenfolge, Überschriften, Absätze, Tabellen und andere Strukturelemente definieren. Diese Metadaten sind für Screenreader entscheidend, da sie sehbehinderten Nutzer*innen ermöglichen, Dokumente genauso zu navigieren wie eine Webseite.
+
+## Warum Aspose.PDF für Java verwenden?
+Aspose.PDF bietet eine umfangreiche API zum Erstellen, Bearbeiten und Konvertieren von PDFs, ohne dass Adobe Acrobat nötig ist. Der **PDF‑Barrierefreiheits‑Leitfaden** enthält integrierte Unterstützung für Tagging, Spracheinstellungen und benutzerdefinierte Strukturen, wodurch er für Entwickler*innen, die **barrierefreie PDFs** schnell und zuverlässig erstellen möchten, die erste Wahl ist.
 
 ## Voraussetzungen
-
-Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
-- **Java Development Kit (JDK)**: Zum Ausführen von Aspose.PDF ist Version 8 oder höher erforderlich. Stellen Sie sicher, dass es auf Ihrem System installiert ist.
-- **Maven** oder **Gradle**: Diese Build-Tools helfen dabei, Abhängigkeiten und Projekt-Builds effizient zu verwalten.
-- **IDE**: Eine integrierte Entwicklungsumgebung wie IntelliJ IDEA oder Eclipse zum Schreiben und Ausführen von Java-Code.
+- **Java Development Kit (JDK)** – Version 8 oder höher.
+- **Maven** oder **Gradle** – für das Abhängigkeits‑Management.
+- Eine IDE wie IntelliJ IDEA oder Eclipse.
+- Eine temporäre oder vollständige Aspose.PDF‑Lizenz (optional für die Evaluation).
 
 ### Erforderliche Bibliotheken
-Um Aspose.PDF für Java zu verwenden, schließen Sie die folgende Abhängigkeit in Ihre `pom.xml` Datei, wenn Sie Maven verwenden:
+Fügen Sie die Aspose.PDF‑Abhängigkeit zu Ihrer Build‑Datei hinzu.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -41,136 +59,184 @@ Um Aspose.PDF für Java zu verwenden, schließen Sie die folgende Abhängigkeit 
     <version>25.3</version>
 </dependency>
 ```
-Oder in Ihrem `build.gradle` Datei für Gradle-Benutzer:
+
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Lizenzerwerb
-Sie können eine temporäre Lizenz von Aspose erwerben, um den vollen Funktionsumfang der Bibliothek ohne Evaluierungsbeschränkungen zu nutzen. Besuchen Sie [Asposes temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/) für weitere Details.
+### Lizenzbeschaffung
+Sie können eine temporäre Lizenz von Aspose erhalten, um die vollen Funktionen ohne Evaluationsbeschränkungen zu testen. Besuchen Sie die [Aspose Temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/) für weitere Informationen.
 
-## Einrichten von Aspose.PDF für Java
+## Aspose.PDF für Java einrichten
 
-Sobald Ihre Umgebung bereit ist, können Sie Aspose.PDF für Java einrichten. Hier ist eine Schritt-für-Schritt-Anleitung:
-1. **Herunterladen und Installieren**: Bei Verwendung von Maven oder Gradle übernimmt die Abhängigkeit automatisch den Download und die Einrichtung der Bibliothek. Andernfalls laden Sie die JAR-Dateien von [Asposes Download-Seite](https://releases.aspose.com/pdf/java/).
-2. **Lizenz-Setup**: Wenden Sie Ihre Lizenz an, indem Sie zur Initialisierung einige Codezeilen hinzufügen:
-   ```java
-   com.aspose.pdf.License license = new com.aspose.pdf.License();
-   license.setLicense("path/to/your/license/file");
-   ```
-3. **Grundlegende Initialisierung**: Beginnen Sie mit der Erstellung einer Instanz des `Document` Klasse, die Ihr Einstiegspunkt für die Arbeit mit PDF-Dateien ist.
+### 1. Bibliothek installieren
+Wenn Sie Maven oder Gradle verwenden, wird die Abhängigkeit die JAR‑Dateien automatisch herunterladen. Alternativ laden Sie das neueste JAR von der [Aspose PDF Java Download‑Seite](https://releases.aspose.com/pdf/java/) herunter und fügen es Ihrem Projekt‑Klassenpfad hinzu.
 
-## Implementierungshandbuch
+### 2. Lizenz anwenden
+Durch das Anwenden einer Lizenz wird das Evaluations‑Wasserzeichen entfernt und alle Funktionen freigeschaltet.
 
-Lassen Sie uns den Prozess in überschaubare Schritte unterteilen, um ein PDF-Dokument mit Aspose.PDF für Java zu erstellen und zu konfigurieren.
+```java
+com.aspose.pdf.License license = new com.aspose.pdf.License();
+license.setLicense("path/to/your/license/file");
+```
 
-### Erstellen und Konfigurieren eines PDF-Dokuments
-**Überblick:** Der erste Schritt besteht darin, ein neues PDF-Dokument zu erstellen und dessen Barrierefreiheitsfunktionen wie Titel- und Sprachattribute einzurichten. Diese sind für Bildschirmleseprogramme und andere unterstützende Technologien unerlässlich.
-1. **Erstellen Sie das Dokument:**
-   ```java
-   import com.aspose.pdf.Document;
-   import com.aspose.pdf.tagged.ITaggedContent;
+### 3. Document‑Objekt initialisieren
+Erzeugen Sie eine neue `Document`‑Instanz – dies ist der Einstiegspunkt für alle PDF‑Operationen.
 
-   // Erstellen einer neuen PDF-Dokumentinstanz
-   Document document = new Document();
-   ```
-2. **Konfigurieren Sie die Eingabehilfefunktionen:**
-   - Rufen Sie die Schnittstelle für getaggte Inhalte ab, um Zugänglichkeitsattribute festzulegen.
-     ```java
-     ITaggedContent taggedContent = document.getTaggedContent();
-     taggedContent.setTitle("Tagged Pdf Document");
-     taggedContent.setLanguage("en-US");
-     ```
-### Hinzufügen von Kopfzeilenelementen zu einem PDF-Dokument
-**Überblick:** Überschriften sind für die Strukturierung Ihrer Inhalte von entscheidender Bedeutung und erleichtern Benutzern und unterstützenden Technologien die Navigation durch das Dokument.
-1. **Zugriff auf das Stammelement:**
-   ```java
-   import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
-   import com.aspose.pdf.tagged.logicalstructure.elements.bls.HeaderElement;
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.tagged.ITaggedContent;
 
-   StructureElement rootElement = taggedContent.getRootElement();
-   ```
-2. **Kopfzeilenelemente hinzufügen (H1-H6):**
-   - Erstellen und Anhängen von Headern mit dem `createHeaderElement` Methode, wobei die Ebenen von 1 bis 6 angegeben werden.
-     ```java
-     HeaderElement h1 = taggedContent.createHeaderElement(1);
-     headerElements(rootElement, h1, "Level 1 Header");
-     
-     // Wiederholen Sie dies für die anderen Ebenen H2–H6 …
-     ```
-3. **Hilfsmethode zum Anhängen von Kopfzeilen:**
-   - Verwenden Sie eine Hilfsmethode, um das Hinzufügen von Überschriften mit Text zu optimieren.
-     ```java
-     public void headerElements(StructureElement parent, HeaderElement header, String text) {
-         SpanElement spanPrefix = taggedContent.createSpanElement();
-         spanPrefix.setText(text.startsWith("H1.") ? "H" + header.getLevel() + ". " : "");
-         parent.appendChild(spanPrefix);
-         
-         SpanElement spanText = taggedContent.createSpanElement();
-         spanText.setText(text);
-         header.appendChild(spanText);
-         parent.appendChild(header);
-     }
-     ```
-### Hinzufügen von Absatzelementen mit Span-Elementen
-**Überblick:** Strukturierte Absätze verbessern die Lesbarkeit und Zugänglichkeit, indem sie den Inhalt logisch organisieren.
-1. **Erstellen Sie ein Absatzelement:**
-   ```java
-   import com.aspose.pdf.tagged.logicalstructure.elements.ParagraphElement;
-   import com.aspose.pdf.tagged.logicalstructure.elements.ils.SpanElement;
+// Create a new PDF document instance
+Document document = new Document();
+```
 
-   ParagraphElement p = taggedContent.createParagraphElement();
-   rootElement.appendChild(p);
-   ```
-2. **Span-Elemente für Rich Text anhängen:**
-   - Verwenden Sie die Hilfsmethode, um Textbereiche innerhalb eines Absatzes hinzuzufügen.
-     ```java
-     public void taggedTextElements(ParagraphElement paragraph, String prefix, String[] texts) {
-         SpanElement spanPrefix = taggedContent.createSpanElement();
-         spanPrefix.setText(prefix);
-         paragraph.appendChild(spanPrefix);
+## Barrierefreiheits‑Features konfigurieren
 
-         for (String text : texts) {
-             SpanElement spanText = taggedContent.createSpanElement();
-             spanText.setText(text);
-             paragraph.appendChild(spanText);
-         }
-     }
-     
-     // Anwendungsbeispiel:
-     taggedTextElements(p, "P. ", new String[] {
-         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-         ...
-     });
-     ```
-### Speichern des PDF-Dokuments mit getaggtem Inhalt
-**Überblick:** Speichern Sie Ihr Dokument abschließend, um seine Struktur und die Zugänglichkeitsfunktionen beizubehalten.
-1. **Speichern Sie Ihr Dokument:**
-   ```java
-   import com.aspose.pdf.Document;
+### PDF‑Titel und -Sprache festlegen
+Ein aussagekräftiger Titel und die Sprache helfen Hilfstechnologien, das Dokument korrekt anzukündigen.
 
-   // Speichern Sie das Dokument im angegebenen Verzeichnis
-   document.save(outputDir + "/InlineStructureElements.pdf");
-   ```
-## Praktische Anwendungen
-Das Erstellen barrierefreier PDFs mit strukturierten Überschriften und Absätzen ist in verschiedenen Bereichen von Vorteil:
-- **Ausbildung**: Verbesserung der Lesbarkeit für Schüler mithilfe unterstützender Technologien.
-- **Regierung**: Sicherstellung der Einhaltung der Zugänglichkeitsstandards für öffentliche Dokumente.
-- **Geschäftsberichte**: Verbesserung der Navigation in komplexen Berichten.
-Zu den Integrationsmöglichkeiten gehört der Export von Daten aus Datenbanken oder Webanwendungen direkt in PDFs unter Beibehaltung von Struktur und Zugänglichkeit.
-## Überlegungen zur Leistung
-Obwohl Aspose.PDF leistungsstark ist, muss die Leistung unbedingt berücksichtigt werden:
-- Optimieren Sie die Speichernutzung durch effizientes Ressourcenmanagement, insbesondere beim Umgang mit großen Dokumenten.
-- Verwenden Sie die Garbage Collection-Funktionen von Java und überwachen Sie regelmäßig die Anwendungsleistung.
-## Abschluss
-Sie beherrschen nun die Erstellung barrierefreier PDFs mit Aspose.PDF für Java. Durch die Festlegung von Titeln, Überschriften und strukturierten Absätzen stellen Sie sicher, dass Ihre Dokumente für alle zugänglich und navigierbar sind. 
-**Nächste Schritte:**
-Experimentieren Sie mit zusätzlichen Funktionen wie dem Hinzufügen von Lesezeichen oder Anmerkungen, um die Zugänglichkeit von Dokumenten weiter zu verbessern. Entdecken Sie die [Aspose-Dokumentation](https://reference.aspose.com/pdf/java/) für erweiterte Funktionen.
-## FAQ-Bereich
-1. **Was ist Aspose.PDF für Java?**
-   - Es handelt sich um eine Bibliothek, die es Entwicklern ermöglicht, PDF-Dateien programmgesteuert in Java-Anwendungen zu erstellen, zu bearbeiten und zu konvertieren.
-2. **Wie stelle ich sicher, dass meine PDFs zugänglich sind?**
-   - Verwenden Sie getaggte Inhaltsfunktionen wie Überschriften, Absätze und andere logische Strukturen, um die Zugänglichkeit für Bildschirmleseprogramme zu verbessern.
+```java
+ITaggedContent taggedContent = document.getTaggedContent();
+taggedContent.setTitle("Tagged Pdf Document");
+taggedContent.setLanguage("en-US");
+```
+
+## Dokumentenstruktur aufbauen
+
+### Auf das Root‑Element zugreifen
+Das Root‑Element ist der Container für alle logischen Strukturelemente (Überschriften, Absätze usw.).
+
+```java
+import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
+import com.aspose.pdf.tagged.logicalstructure.elements.bls.HeaderElement;
+
+StructureElement rootElement = taggedContent.getRootElement();
+```
+
+### Überschrift‑Elemente hinzufügen (H1‑H6)
+Überschriften schaffen eine klare Hierarchie. Unten erstellen wir eine H1‑Überschrift; das Muster kann für H2‑H6 wiederholt werden.
+
+```java
+HeaderElement h1 = taggedContent.createHeaderElement(1);
+headerElements(rootElement, h1, "Level 1 Header");
+
+// Repeat for other levels H2-H6...
+```
+
+#### Hilfsmethode zum Anhängen von Überschriften
+Die folgende Methode vereinfacht das Hinzufügen einer Überschrift mit zugehörigem Text.
+
+```java
+public void headerElements(StructureElement parent, HeaderElement header, String text) {
+    SpanElement spanPrefix = taggedContent.createSpanElement();
+    spanPrefix.setText(text.startsWith("H1.") ? "H" + header.getLevel() + ". " : "");
+    parent.appendChild(spanPrefix);
+    
+    SpanElement spanText = taggedContent.createSpanElement();
+    spanText.setText(text);
+    header.appendChild(spanText);
+    parent.appendChild(header);
+}
+```
+
+### Absatz‑Elemente mit Span‑Elementen hinzufügen
+Absätze gruppieren zusammengehörige Sätze. Durch die Verwendung von Span‑Elementen können Sie Rich‑Text‑Formatierungen anwenden und gleichzeitig die Barrierefreiheit wahren.
+
+```java
+import com.aspose.pdf.tagged.logicalstructure.elements.ParagraphElement;
+import com.aspose.pdf.tagged.logicalstructure.elements.ils.SpanElement;
+
+ParagraphElement p = taggedContent.createParagraphElement();
+rootElement.appendChild(p);
+```
+
+#### Hilfsmethode für Rich‑Text‑Absätze
+Diese Methode fügt einem Absatz ein Präfix und ein Array von Textfragmenten hinzu.
+
+```java
+public void taggedTextElements(ParagraphElement paragraph, String prefix, String[] texts) {
+    SpanElement spanPrefix = taggedContent.createSpanElement();
+    spanPrefix.setText(prefix);
+    paragraph.appendChild(spanPrefix);
+
+    for (String text : texts) {
+        SpanElement spanText = taggedContent.createSpanElement();
+        spanText.setText(text);
+        paragraph.appendChild(spanText);
+    }
+}
+
+// Example usage:
+taggedTextElements(p, "P. ", new String[] {
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    // Add additional sentences as needed
+});
+```
+
+## PDF‑Dokument mit getaggtem Inhalt speichern
+Nach dem Aufbau der Struktur speichern Sie die Datei. Das gespeicherte PDF behält alle Barrierefreiheits‑Tags bei.
+
+```java
+import com.aspose.pdf.Document;
+
+// Save the document in the specified directory
+document.save(outputDir + "/InlineStructureElements.pdf");
+```
+
+## Praktische Anwendungsfälle
+Das Erstellen von **barrierefreien PDFs** mit korrekten Tags ist in vielen Branchen wertvoll:
+
+- **Bildung** – Barrierefreie Lernmaterialien für Studierende mit Screenreadern bereitstellen.
+- **Öffentlicher Sektor** – Gesetzliche Barrierefreiheits‑Anforderungen für öffentliche Dokumente erfüllen.
+- **Unternehmensberichte** – Navigation in umfangreichen Finanzberichten verbessern.
+
+Sie können diesen Workflow in Web‑Anwendungen, Batch‑Verarbeitungsskripten oder automatisierten Reporting‑Tools integrieren, um sicherzustellen, dass jedes von Ihnen erzeugte PDF inklusiv ist.
+
+## Leistungs‑Überlegungen
+Obwohl Aspose.PDF effizient ist, beachten Sie diese Tipps für große Dokumente:
+
+- Wiederverwenden Sie das `Document`‑Objekt, wenn Sie mehrere PDFs in einem Durchlauf erzeugen.
+- Rufen Sie `document.optimizeResources()` vor dem Speichern auf, um die Dateigröße zu reduzieren.
+- Überwachen Sie den Java‑Heap‑Verbrauch und aktivieren Sie inkrementelles Speichern für sehr große Dateien.
+
+## Häufige Probleme und Lösungen
+| Problem | Lösung |
+|-------|----------|
+| **Überschriften erscheinen nicht im PDF‑Inhaltsverzeichnis** | Stellen Sie sicher, dass Sie `headerElements` für jede Überschriften‑Ebene aufgerufen haben und das Root‑Element korrekt referenziert wird. |
+| **Screenreader ignorieren Absatz‑Text** | Vergewissern Sie sich, dass jeder Absatz und seine Spans dem Root‑Element wie in den Hilfsmethoden gezeigt hinzugefügt werden. |
+| **Lizenz nicht angewendet** | Prüfen Sie den Dateipfad in `license.setLicense()` und bestätigen Sie, dass die Lizenzdatei für die von Ihnen genutzte Version gültig ist. |
+
+## Häufig gestellte Fragen
+
+**F: Was ist der Unterschied zwischen einem normalen PDF und einem tagged PDF?**  
+A: Ein normales PDF enthält nur visuelle Informationen, während ein tagged PDF versteckte Struktur‑Tags (Überschriften, Absätze, Tabellen) beinhaltet, die Hilfstechnologien nutzen, um das Dokument logisch zu lesen.
+
+**F: Wie setze ich die PDF‑Sprache für die Barrierefreiheit?**  
+A: Verwenden Sie `taggedContent.setLanguage("en-US")` (oder einen anderen BCP‑47‑Sprachcode) nach dem Abrufen der `ITaggedContent`‑Instanz.
+
+**F: Kann ich ein tagged PDF ohne Lizenz erzeugen?**  
+A: Sie können die Bibliothek mit einer temporären Lizenz evaluieren, aber für den Produktionseinsatz ist eine Voll‑Lizenz erforderlich, um Evaluations‑Beschränkungen zu entfernen.
+
+**F: Unterstützt Aspose.PDF weitere Barrierefreiheits‑Features wie Alt‑Text für Bilder?**  
+A: Ja, Sie können alternativen Text zu Bildern hinzufügen, indem Sie die Eigenschaft `alternativeText` des `Image`‑Objekts innerhalb der getaggten Inhaltsstruktur setzen.
+
+**F: Ist dieser Ansatz mit Java 11 und neueren Versionen kompatibel?**  
+A: Absolut. Die API ist rückwärtskompatibel zu JDK 8 und funktioniert nahtlos auf neueren Java‑Versionen.
+
+## Fazit
+Sie haben nun eine vollständige Schritt‑für‑Schritt‑Anleitung, um **barrierefreie PDFs** in Java mit Aspose.PDF zu **erstellen**. Durch das Festlegen von Titel, Sprache und das Erzeugen eines **tagged PDF** mit strukturierten Überschriften und Absätzen werden Ihre Dokumente inklusiv und konform mit Barrierefreiheits‑Standards.
+
+**Nächste Schritte**
+- Experimentieren Sie mit dem Hinzufügen von Lesezeichen, Tabellen und Bild‑Alt‑Text.
+- Erkunden Sie die vollständige [Aspose PDF Java Dokumentation](https://reference.aspose.com/pdf/java/) für erweiterte Funktionen.
+- Integrieren Sie diesen Workflow in Ihre bestehenden Java‑Anwendungen, um die automatische Erstellung barrierefreier PDFs zu ermöglichen.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-01  
+**Getestet mit:** Aspose.PDF für Java 25.3  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

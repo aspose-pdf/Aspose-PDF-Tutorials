@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Aspose.PDF for Java を使って、タグ付きでアクセシブルな PDF ドキュメントを作成する方法を学びましょう。PDF がインクルーシブで、アクセシビリティ基準を満たしていることを確認できます。"
-"title": "Aspose.PDF を使用して Java でタグ付きコンテンツを含むアクセス可能な PDF を作成する"
-"url": "/ja/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/"
-"weight": 1
+date: '2025-12-01'
+description: Aspise.PDF for Java を使用して、アクセシブルな PDF ファイルの作成方法、PDF テーブルの生成方法、スクリーンリーダー用の
+  PDF タグ付け方法を学びましょう。
+keywords:
+- accessible PDFs with Java
+- Aspose.PDF for Java
+- tagged PDF creation
+language: ja
+title: Aspose.PDF を使用して Java でタグ付きコンテンツのアクセシブルな PDF を作成する
+url: /java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +17,36 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF を使用して Java でタグ付きコンテンツを含むアクセス可能な PDF を作成する
-アクセシブルなPDFドキュメントを作成することは、障がいのある方を含むすべてのユーザーがコンテンツにアクセスし、理解できるようにするために不可欠です。このチュートリアルでは、Aspose.PDF for Javaを使用してタグ付きPDFドキュメントを作成する手順を説明します。この強力なライブラリを活用することで、スクリーンリーダーやその他の支援技術でアクセス可能な、構造化され、セマンティクスが豊富なPDFを作成できます。
+# Java と Aspose.PDF を使用したタグ付きコンテンツでアクセシブルな PDF を作成する
 
-## 学ぶ内容
-- Aspose.PDF for Java で環境を設定する
-- タグ付けされたコンテンツを含む新しいPDF文書を作成する
-- ヘッダー、本文、フッターのセクションでPDFを構造化する
-- 最終文書をアクセス可能な形式で保存する
+アクセシブルな **PDF** ドキュメントの作成は、支援技術に依存するユーザーを含むすべてのユーザーがコンテンツを読み取り、操作できるようにするために不可欠です。このチュートリアルでは、**アクセシブルな PDF** をタグ付きコンテンツで作成し、PDF テーブルを生成し、スクリーンリーダーが構造を正しく解釈できるように文書言語を設定する方法を学びます。
 
-始める前に前提条件を確認しましょう。
+## Quick Answers
+- **どのライブラリを使用すべきですか？** Aspose.PDF for Java。  
+- **実装にどれくらい時間がかかりますか？** 基本的なタグ付き PDF で約 15‑20 分。  
+- **ライセンスは必要ですか？** 開発用には無料トライアルで動作しますが、本番環境では永続ライセンスが必要です。  
+- **テーブルを生成できますか？** はい – API を使用してタグ付き構造の PDF テーブルを作成・スタイル設定できます。  
+- **スクリーンリーダーが読み取れるようにするには？** コンテンツにタグを付け、言語を設定し、構造要素に代替テキストを提供します。
 
-## 前提条件
-始める前に、次のものを用意してください。
-- **Java開発キット（JDK）** システムにインストールされています。
-- Java コードを記述するための IntelliJ IDEA や Eclipse などの適切な IDE。
-- Java プログラミングと PDF の概念に関する基本的な理解。
+## What is a “create accessible pdf”?
+**アクセシブルな PDF** とは、見出し、テーブル、段落、その他の要素を記述する論理構造（タグ）を含む PDF のことです。この構造により、スクリーンリーダーやその他の支援ツールは視覚・認知障害を持つユーザーに対して文書を意味のある形で提示できます。
 
-### 必要なライブラリと依存関係
-Aspose.PDF for Javaを使用するには、プロジェクトにライブラリを組み込みます。MavenまたはGradleを使用する場合の手順は以下のとおりです。
+## Why tag a PDF?
+PDF にタグを付ける（**how to tag pdf** プロセス）ことで得られるメリット:
+- **スクリーンリーダーやキーボードユーザー向けのナビゲーションが向上**。  
+- **WCAG 2.1 および PDF/UA アクセシビリティ標準への準拠**。  
+- **テキストが意味的にインデックス化されるため検索性が向上**。  
 
-**メイヴン**
-次の依存関係を `pom.xml` ファイル：
+## Prerequisites
+開始する前に以下を用意してください:
+- Java Development Kit (JDK) がインストール済み。  
+- IntelliJ IDEA や Eclipse などの IDE。  
+- 基本的な Java の知識と PDF の概念に関する理解。  
+
+### Required Libraries and Dependencies
+Maven または Gradle を使用して Aspose.PDF for Java をプロジェクトに追加します。
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -41,45 +55,43 @@ Aspose.PDF for Javaを使用するには、プロジェクトにライブラリ�
 </dependency>
 ```
 
-**グラドル**
-この行を `build.gradle` ファイル：
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### ライセンス取得
-Aspose.PDF for Javaは無料トライアルを提供しており、購入前に機能をテストすることができます。一時ライセンスを取得することもできます。 [ここ](https://purchase.aspose.com/temporary-license/)購入を決定した場合は、Web サイトの指示に従ってください。
+### License Acquisition
+Aspose.PDF for Java は無料トライアルを提供しています。臨時ライセンスは [こちら](https://purchase.aspose.com/temporary-license/) から取得できます。製品版の使用には正式ライセンスの購入が必要です。
 
-## Aspose.PDF for Java のセットアップ
-まず、必要な設定を加えてプロジェクトをセットアップします。シンプルなJavaアプリケーションでAspose.PDFを初期化してセットアップする方法は次のとおりです。
-1. **ダウンロード** JARファイルから [Asposeのリリースサイト](https://releases.aspose.com/pdf/java/) Maven/Gradle を使用していない場合には。
-2. プロジェクトのビルド パスに追加します。
+## Setting Up Aspose.PDF for Java
+Maven/Gradle を使用しない場合は、[Aspose リリースサイト](https://releases.aspose.com/pdf/java/) から JAR をダウンロードし、プロジェクトのビルドパスに追加してください。
 
-以下は PDF ドキュメントを作成するための基本的な初期化スニペットです。
+以下は、空の PDF を作成して環境設定を確認する簡単なコードスニペットです:
+
 ```java
 import com.aspose.pdf.Document;
 
 public class PdfCreator {
     public static void main(String[] args) {
-        // Aspose.PDF を初期化する
+        // Initialize Aspose.PDF
         Document doc = new Document();
         
-        // 空のドキュメントを保存してセットアップを確認します
+        // Save the empty document to check setup
         doc.save("output/EmptyDocument.pdf");
         
         System.out.println("Setup complete and document created successfully.");
     }
 }
 ```
-この簡単な例では、Aspose.PDF を使用して新しい PDF ドキュメントを初期化します。
 
-## 実装ガイド
-### タグ付きコンテンツを含む新しいPDFを作成する
-**概要**
-PDF内のタグ付きコンテンツは論理的な構造を提供し、アクセシビリティを向上させます。このセクションでは、新しいPDFを作成し、タグ付きコンテンツとして設定する方法について説明します。
+## Implementation Guide
 
-#### ステップ1: ドキュメントを初期化する
-まず、インスタンスを作成します `Document` そして、 `ITaggedContent` インタフェース：
+### Creating a New PDF with Tagged Content
+**概要** – タグ付きコンテンツは論理的な階層構造を提供し、アクセシビリティを向上させます。以下の手順で PDF の作成、タグ付けの有効化、スタイル付きテーブルの配置を行います。
+
+#### Step 1: Initialize the Document and Enable Tagging
+まず `Document` インスタンスを作成し、`ITaggedContent` インターフェイスを取得します。また、**PDF の言語を設定**（**set pdf language** 手順）してスクリーンリーダーに文書のロケールを認識させます。
+
 ```java
 import com.aspose.pdf.*;
 
@@ -87,44 +99,48 @@ public class TaggedPdfCreator {
     public static void main(String[] args) {
         String outputDir = "YOUR_OUTPUT_DIRECTORY";
 
-        // 新しいPDF文書を作成する
+        // Create a new PDF document
         Document document = new Document();
 
-        // タグ付けされたコンテンツを取得する
+        // Obtain tagged content
         ITaggedContent taggedContent = document.getTaggedContent();
         
-        // アクセシビリティのためにタイトルと言語を設定する
+        // Set the title and language for accessibility purposes
         taggedContent.setTitle("Example table row style");
         taggedContent.setLanguage("en-US");
 
-        // 構造化要素の追加に進みます
+        // Proceed to add structured elements
     }
 }
 ```
-#### ステップ2: 構造要素を追加する
-ルート要素を定義し、ヘッダー、本文、フッターを含むテーブル構造を作成します。
+
+#### Step 2: Add Structure Elements (How to generate PDF table)
+次にルート要素を定義し、ヘッダー、ボディ、フッターを持つテーブル構造を作成します。これにより **generate pdf table** 機能をデモしつつ、コンテンツ全体がタグ付けされます。
+
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.*;
 
-// ルート構造要素を取得する
+// Get root structure element
 StructureElement rootElement = taggedContent.getRootElement();
 
-// 新しいテーブル構造要素を作成する
+// Create a new table structure element
 TableElement tableElement = taggedContent.createTableElement();
 rootElement.appendChild(tableElement);
 
-// 表にヘッダー、本文、フッターを追加する
+// Add header, body, and footer to the table
 TableTHeadElement tableTHeadElement = tableElement.createTHead();
 TableTBodyElement tableTBodyElement = tableElement.createTBody();
 TableTFootElement tableTFootElement = tableElement.createTFoot();
 ```
-#### ステップ3: テーブル要素を入力する
-スタイル設定されたセルを含む行をテーブル本体に追加します。
+
+#### Step 3: Populate Table Elements (Styling rows for screen reader PDF)
+行を追加し、スタイル設定と代替テキストの提供を行います。代替テキストにより **screen reader PDF** ユーザーにもテーブルの内容が理解できるようになります。
+
 ```java
 int rowCount = 7;
 int colCount = 3;
 
-// 列タイトル付きのヘッダー行を追加する
+// Add a header row with column titles
 TableTRElement headTrElement = tableTHeadElement.createTR();
 headTrElement.setAlternativeText("Head Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -132,31 +148,31 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     thElement.setText(String.format("Head %s", colIndex));
 }
 
-// スタイル設定されたセルを使用して表本体に行を追加する
+// Add rows to the table body with styled cells
 for (int rowIndex = 0; rowIndex < rowCount; rowIndex++) {
     TableTRElement trElement = tableTBodyElement.createTR();
     trElement.setAlternativeText(String.format("Row %s", rowIndex));
 
-    // 行スタイルを設定する
+    // Set row styles
     trElement.setBackgroundColor(Color.getLightSeaGreen());
     trElement.setBorder(new BorderInfo(BorderSide.All, 0.75F, Color.getDarkGray()));
     trElement.setDefaultCellBorder(new BorderInfo(BorderSide.All, 0.50F, Color.getBlue()));
     trElement.setMinRowHeight(100.0);
     trElement.setFixedRowHeight(120.0);
 
-    // この行のセルのデフォルトのテキスト状態を設定する
+    // Set default text state for cells in this row
     TextState cellTextState = new TextState();
     cellTextState.setForegroundColor(Color.getRed());
     trElement.setDefaultCellTextState(cellTextState);
 
-    // 行にセルを追加する
+    // Add cells to the row
     for (int colIndex = 0; colIndex < colCount; colIndex++) {
         TableTDElement tdElement = trElement.createTD();
         tdElement.setText(String.format("Cell [{0}, {1}]", rowIndex, colIndex));
     }
 }
 
-// 表にフッター行を追加する
+// Add a footer row to the table
 TableTRElement footTrElement = tableTFootElement.createTR();
 footTrElement.setAlternativeText("Foot Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -164,42 +180,67 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     tdElement.setText(String.format("Foot %s", colIndex));
 }
 ```
-### PDF文書の保存
-最後に、タグ付けされたコンテンツを保存して、アクセスできるようにします。
+
+### Saving the PDF Document
+最後に文書を保存します。保存されたファイルはすべてのタグ、言語設定、テーブル構造を保持し、**create accessible pdf** として配布可能です。
+
 ```java
-// タグ付きPDF文書を保存する
+// Save the tagged PDF document
 document.save(outputDir + "/StyleTableRow.pdf");
 System.out.println("Document saved successfully.");
 ```
-## 実用的なアプリケーション
-アクセシブルな PDF を作成することは、さまざまなシナリオで重要です。
-1. **教育資料**障害のある生徒も含め、すべての生徒が学習リソースにアクセスできるようにします。
-2. **政府出版物**公文書のアクセシビリティ標準に準拠します。
-3. **企業レポート**財務報告書および年次報告書をすべての利害関係者に公開します。
 
-## パフォーマンスに関する考慮事項
-Aspose.PDF を使用する場合:
-- 特に大きな PDF を扱う場合は、メモリ使用量を監視します。
-- 動的に追加される要素の数を最小限に抑えることでパフォーマンスを最適化します。
-- ガベージ コレクションとリソース管理に関する Java のベスト プラクティスに従います。
+## Practical Applications
+アクセシブルな PDF の作成は、さまざまな実務シナリオで重要です:
 
-## 結論
-Aspose.PDF for Javaを使ってタグ付きPDFドキュメントを作成する方法を学習しました。この強力なライブラリを使えば、アクセシブルなコンテンツを効率的に作成し、デジタルドキュメントのインクルーシブ性を確保できます。様々な設定を試して、ニーズに合わせてアクセシビリティ機能をカスタマイズしましょう。
+1. **教育資料** – すべての学生が利用できるインクルーシブな教科書や配布資料を提供。  
+2. **政府出版物** – 公的文書に対する法的アクセシビリティ要件を満たす。  
+3. **企業レポート** – 株主や従業員がスクリーンリーダーで財務諸表を閲覧できるようにする。  
 
-### 次のステップ
-- Aspose.PDF のより高度な機能をご覧ください。
-- タグ付き PDF 生成を既存のアプリケーションに統合します。
-- フィードバックやご意見をコミュニティで共有しましょう [Asposeのフォーラム](https://forum。aspose.com/c/pdf/10).
+## Performance Considerations
+大容量の PDF を扱う際のポイント:
 
-## FAQセクション
-**Q: PDF が完全にアクセス可能であることを確認するにはどうすればよいですか?**
-A: タグ付けされたコンテンツを使用して論理的な構造を提供します。スクリーンリーダーとアクセシビリティツールでテストしてください。
+- メモリ使用量を監視し、リソースは速やかに解放。  
+- 動的要素の追加は最小限に抑える。  
+- ガベージコレクションとオブジェクト再利用に関する Java のベストプラクティスに従う。  
 
-**Q: Aspose.PDF は大きなドキュメントを効率的に処理できますか?**
-A: はい。ただし、常にメモリ使用量を監視し、必要に応じてパフォーマンスを最適化してください。
+## Common Issues and Solutions
+| 問題 | 解決策 |
+|-------|----------|
+| PDF リーダーでタグが表示されない | `taggedContent` を取得し、要素を追加する前に `setTitle`／`setLanguage` が呼び出されているか確認。 |
+| テーブルセルに代替テキストがない | 各 `TableTRElement` とヘッダー/フッタ行に `setAlternativeText` を使用。 |
+| 大きなファイルで OutOfMemoryError が発生 | 文書をセクションごとに処理するか、JVM ヒープサイズ（`-Xmx`）を増やす。 |
 
-**Q: Aspose.PDF には他にどのような機能がありますか?**
-A: アクセシブルな PDF の作成以外にも、形式の変換、コンテンツの操作、ドキュメントの保護など、幅広い機能を提供します。
+## Frequently Asked Questions
+
+**Q: PDF が本当にアクセシブルかどうかを確認する方法は？**  
+A: Adobe Acrobat のアクセシビリティチェッカーや、NVDA、JAWS といったスクリーンリーダーでファイルを開き、ナビゲーションが正しく機能するか確認してください。
+
+**Q: Aspose.PDF は英語以外の言語もサポートしていますか？**  
+A: はい。`taggedContent.setLanguage("fr-FR")` でフランス語、`es-ES` でスペイン語など、言語コードを設定できます。
+
+**Q: タグ付き PDF に代替テキスト付き画像を追加できますか？**  
+A: もちろんです。`Image` クラスを使用し、`AlternativeText` プロパティに視覚コンテンツの説明を設定してください。
+
+**Q: PDF テーブルで生成できる行数に上限はありますか？**  
+A: 明確な上限はありませんが、非常に大きなテーブルはメモリ消費が増加します。ページ分割や文書分割を検討してください。
+
+**Q: 生成された PDF はすべてのスクリーンリーダーで動作しますか？**  
+A: タグ、言語、代替テキストが正しく設定されていれば、PDF/UA に準拠し、主要なスクリーンリーダーで読み取れるはずです。
+
+## Conclusion
+これで、タグ付きコンテンツを使用した **アクセシブルな PDF** の作成、スタイル付きテーブルの生成、スクリーンリーダーとの互換性確保に関するステップバイステップのガイドが完成しました。Aspose.PDF for Java を活用すれば、PDF 生成パイプラインにアクセシビリティを直接組み込むことができ、すべての読者にインクルーシブなコンテンツを提供できます。
+
+### Next Steps
+- 見出し、リスト、リンクなどの追加タグ機能を探求。  
+- このワークフローを既存の Java サービスやバッチ処理ジョブに統合。  
+- 体験を共有し、[Aspose PDF フォーラム](https://forum.aspose.com/c/pdf/10) で質問してください。
+
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

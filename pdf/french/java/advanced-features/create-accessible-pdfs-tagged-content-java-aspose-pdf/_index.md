@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Apprenez à créer des documents PDF accessibles et balisés avec Aspose.PDF pour Java. Assurez-vous que vos PDF sont inclusifs et conformes aux normes d'accessibilité."
-"title": "Créer des PDF accessibles avec du contenu balisé en Java à l'aide d'Aspose.PDF"
-"url": "/fr/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/"
-"weight": 1
+date: '2025-12-01'
+description: Apprenez à créer des fichiers PDF accessibles, à générer des tableaux
+  PDF et à baliser les PDF pour les lecteurs d'écran en utilisant Aspise.PDF pour
+  Java.
+keywords:
+- accessible PDFs with Java
+- Aspose.PDF for Java
+- tagged PDF creation
+language: fr
+title: Créer un PDF accessible avec du contenu balisé en Java à l'aide d'Aspose.PDF
+url: /java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +18,36 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Créer des PDF accessibles avec du contenu balisé en Java avec Aspose.PDF
-Créer des documents PDF accessibles est essentiel pour garantir que tous les utilisateurs, y compris les personnes en situation de handicap, puissent accéder à votre contenu et le comprendre. Ce tutoriel vous guidera dans la création d'un document PDF balisé avec Aspose.PDF pour Java. Grâce à cette puissante bibliothèque, vous pourrez créer des PDF structurés et sémantiquement riches, accessibles aux lecteurs d'écran et autres technologies d'assistance.
+# Créer un PDF accessible avec du contenu balisé en Java à l'aide d'Aspose.PDF
 
-## Ce que vous apprendrez
-- Configurer votre environnement avec Aspose.PDF pour Java
-- Créer un nouveau document PDF avec du contenu balisé
-- Structurer votre PDF avec des sections d'en-tête, de corps et de pied de page
-- Enregistrer le document final dans un format accessible
+Créer des documents **PDF accessibles** est essentiel pour garantir que tous les utilisateurs, y compris ceux qui utilisent des technologies d'assistance, puissent lire et interagir avec votre contenu. Dans ce tutoriel, vous apprendrez comment **créer des PDF accessibles** avec du contenu balisé, générer des tableaux PDF et définir la langue du document afin que les lecteurs d'écran puissent interpréter correctement la structure.
 
-Plongeons dans les prérequis avant de commencer.
+## Réponses rapides
+- **Quelle bibliothèque dois-je utiliser ?** Aspose.PDF for Java.  
+- **Combien de temps faut‑il pour implémenter ?** Environ 15‑20 minutes pour un PDF basique balisé.  
+- **Ai‑je besoin d'une licence ?** Un essai gratuit suffit pour le développement ; une licence permanente est requise pour la production.  
+- **Puis‑je générer des tableaux ?** Oui – l'API vous permet de créer et de styliser des tableaux PDF avec une structure balisée.  
+- **Comment rendre le PDF lisible par les lecteurs d'écran ?** Balisez le contenu, définissez la langue et fournissez un texte alternatif pour les éléments structurels.
+
+## Qu’est‑ce qu’un « créer un PDF accessible » ?
+Un **PDF accessible** contient une structure logique (balises) qui décrit les titres, les tableaux, les paragraphes et d’autres éléments. Cette structure permet aux lecteurs d'écran et à d’autres outils d’assistance de présenter le document de manière significative aux utilisateurs ayant des déficiences visuelles ou cognitives.
+
+## Pourquoi baliser un PDF ?
+Baliser un PDF (le processus **how to tag pdf**) vous offre :
+- **Navigation améliorée** pour les lecteurs d'écran et les utilisateurs clavier.  
+- **Conformité** aux normes d'accessibilité WCAG 2.1 et PDF/UA.  
+- **Meilleure recherchabilité** car le texte est indexé sémantiquement.  
 
 ## Prérequis
-Avant de commencer, assurez-vous d’avoir :
-- **Kit de développement Java (JDK)** installé sur votre système.
-- Un IDE approprié comme IntelliJ IDEA ou Eclipse pour écrire du code Java.
-- Compréhension de base de la programmation Java et des concepts PDF.
+Avant de commencer, assurez‑vous d’avoir :
+- Java Development Kit (JDK) installé.  
+- Un IDE tel qu’IntelliJ IDEA ou Eclipse.  
+- Connaissances de base en Java et familiarité avec les concepts PDF.  
 
 ### Bibliothèques et dépendances requises
-Pour utiliser Aspose.PDF pour Java, incluez la bibliothèque dans votre projet. Voici comment procéder avec Maven ou Gradle :
+Ajoutez Aspose.PDF for Java à votre projet en utilisant Maven ou Gradle.
 
-**Maven**
-Ajoutez la dépendance suivante à votre `pom.xml` déposer:
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -41,45 +56,43 @@ Ajoutez la dépendance suivante à votre `pom.xml` déposer:
 </dependency>
 ```
 
-**Gradle**
-Incluez cette ligne dans votre `build.gradle` déposer:
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 ### Acquisition de licence
-Aspose.PDF pour Java propose un essai gratuit pour tester ses fonctionnalités avant achat. Vous pouvez également acquérir une licence temporaire. [ici](https://purchase.aspose.com/temporary-license/)Si vous décidez d'acheter, suivez les instructions sur leur site Web.
+Aspose.PDF for Java propose un essai gratuit. Vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/). Pour une utilisation en production, achetez une licence complète.
 
 ## Configuration d'Aspose.PDF pour Java
-Commencez par configurer votre projet avec les configurations nécessaires. Voici comment initialiser et configurer Aspose.PDF dans une application Java simple :
-1. **Télécharger** le fichier JAR de [Site de sortie d'Aspose](https://releases.aspose.com/pdf/java/) si vous n'utilisez pas Maven/Gradle.
-2. Ajoutez-le au chemin de construction de votre projet.
+Si vous n’utilisez pas Maven/Gradle, téléchargez le JAR depuis le [site de diffusion Aspose](https://releases.aspose.com/pdf/java/) et ajoutez‑le au chemin de construction de votre projet.
 
-Voici un extrait d’initialisation de base pour créer un document PDF :
+Voici un extrait simple qui vérifie votre configuration en créant un PDF vide :
+
 ```java
 import com.aspose.pdf.Document;
 
 public class PdfCreator {
     public static void main(String[] args) {
-        // Initialiser Aspose.PDF
+        // Initialize Aspose.PDF
         Document doc = new Document();
         
-        // Enregistrez le document vide pour vérifier la configuration
+        // Save the empty document to check setup
         doc.save("output/EmptyDocument.pdf");
         
         System.out.println("Setup complete and document created successfully.");
     }
 }
 ```
-Cet exemple simple initialise un nouveau document PDF à l'aide d'Aspose.PDF.
 
-## Guide de mise en œuvre
+## Guide d’implémentation
+
 ### Créer un nouveau PDF avec du contenu balisé
-**Aperçu**
-Le contenu balisé des PDF offre une structure logique et améliore l'accessibilité. Cette section vous guidera dans la création d'un PDF et sa configuration en tant que contenu balisé.
+**Vue d’ensemble** – Le contenu balisé fournit une hiérarchie logique qui améliore l’accessibilité. Les étapes ci‑dessous vous guident dans la création d’un PDF, l’activation du balisage et le remplissage d’un tableau stylisé.
 
-#### Étape 1 : Initialiser le document
-Tout d’abord, créez une instance de `Document` et obtenir le `ITaggedContent` interface:
+#### Étape 1 : Initialiser le Document et activer le balisage
+Tout d’abord, créez une instance `Document` et obtenez l’interface `ITaggedContent`. Nous **définissons également la langue du PDF** (l’étape **set pdf language**) afin que les lecteurs d'écran connaissent la locale du document.
+
 ```java
 import com.aspose.pdf.*;
 
@@ -87,44 +100,48 @@ public class TaggedPdfCreator {
     public static void main(String[] args) {
         String outputDir = "YOUR_OUTPUT_DIRECTORY";
 
-        // Créer un nouveau document PDF
+        // Create a new PDF document
         Document document = new Document();
 
-        // Obtenir du contenu balisé
+        // Obtain tagged content
         ITaggedContent taggedContent = document.getTaggedContent();
         
-        // Définissez le titre et la langue à des fins d'accessibilité
+        // Set the title and language for accessibility purposes
         taggedContent.setTitle("Example table row style");
         taggedContent.setLanguage("en-US");
 
-        // Procéder à l'ajout d'éléments structurés
+        // Proceed to add structured elements
     }
 }
 ```
-#### Étape 2 : Ajouter des éléments de structure
-Définissez un élément racine, créez une structure de tableau avec des en-têtes, un corps et un pied de page :
+
+#### Étape 2 : Ajouter des éléments de structure (How to generate PDF table)
+Ensuite, définissez l’élément racine et créez une structure de tableau avec un en‑tête, un corps et un pied de page. Cela démontre la fonctionnalité **generate pdf table** tout en conservant le contenu entièrement balisé.
+
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.*;
 
-// Obtenir l'élément de structure racine
+// Get root structure element
 StructureElement rootElement = taggedContent.getRootElement();
 
-// Créer un nouvel élément de structure de table
+// Create a new table structure element
 TableElement tableElement = taggedContent.createTableElement();
 rootElement.appendChild(tableElement);
 
-// Ajouter un en-tête, un corps et un pied de page au tableau
+// Add header, body, and footer to the table
 TableTHeadElement tableTHeadElement = tableElement.createTHead();
 TableTBodyElement tableTBodyElement = tableElement.createTBody();
 TableTFootElement tableTFootElement = tableElement.createTFoot();
 ```
-#### Étape 3 : Remplir les éléments du tableau
-Ajoutez des lignes avec des cellules stylisées au corps du tableau :
+
+#### Étape 3 : Remplir les éléments du tableau (Styling rows for screen reader PDF)
+Nous ajoutons maintenant des lignes, les stylisons et fournissons un texte alternatif. Le texte alternatif garantit que le tableau est compréhensible pour les utilisateurs de **screen reader PDF**.
+
 ```java
 int rowCount = 7;
 int colCount = 3;
 
-// Ajouter une ligne d'en-tête avec des titres de colonnes
+// Add a header row with column titles
 TableTRElement headTrElement = tableTHeadElement.createTR();
 headTrElement.setAlternativeText("Head Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -132,31 +149,31 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     thElement.setText(String.format("Head %s", colIndex));
 }
 
-// Ajouter des lignes au corps du tableau avec des cellules stylisées
+// Add rows to the table body with styled cells
 for (int rowIndex = 0; rowIndex < rowCount; rowIndex++) {
     TableTRElement trElement = tableTBodyElement.createTR();
     trElement.setAlternativeText(String.format("Row %s", rowIndex));
 
-    // Définir les styles de ligne
+    // Set row styles
     trElement.setBackgroundColor(Color.getLightSeaGreen());
     trElement.setBorder(new BorderInfo(BorderSide.All, 0.75F, Color.getDarkGray()));
     trElement.setDefaultCellBorder(new BorderInfo(BorderSide.All, 0.50F, Color.getBlue()));
     trElement.setMinRowHeight(100.0);
     trElement.setFixedRowHeight(120.0);
 
-    // Définir l'état du texte par défaut pour les cellules de cette ligne
+    // Set default text state for cells in this row
     TextState cellTextState = new TextState();
     cellTextState.setForegroundColor(Color.getRed());
     trElement.setDefaultCellTextState(cellTextState);
 
-    // Ajouter des cellules à la ligne
+    // Add cells to the row
     for (int colIndex = 0; colIndex < colCount; colIndex++) {
         TableTDElement tdElement = trElement.createTD();
         tdElement.setText(String.format("Cell [{0}, {1}]", rowIndex, colIndex));
     }
 }
 
-// Ajouter une ligne de pied de page au tableau
+// Add a footer row to the table
 TableTRElement footTrElement = tableTFootElement.createTR();
 footTrElement.setAlternativeText("Foot Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -164,42 +181,67 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     tdElement.setText(String.format("Foot %s", colIndex));
 }
 ```
-### Enregistrer le document PDF
-Enfin, enregistrez le contenu balisé pour vous assurer qu'il est accessible :
+
+### Enregistrement du document PDF
+Enfin, enregistrez le document. Le fichier enregistré conserve toutes les balises, les paramètres de langue et la structure du tableau, le rendant pleinement prêt à **create accessible pdf** pour la distribution.
+
 ```java
-// Enregistrer le document PDF balisé
+// Save the tagged PDF document
 document.save(outputDir + "/StyleTableRow.pdf");
 System.out.println("Document saved successfully.");
 ```
-## Applications pratiques
-La création de PDF accessibles est cruciale dans divers scénarios :
-1. **Matériel pédagogique**: Veiller à ce que tous les élèves, y compris ceux handicapés, puissent accéder aux ressources d’apprentissage.
-2. **Publications gouvernementales**:Conformité aux normes d’accessibilité des documents publics.
-3. **Rapports d'entreprise**:Rendre les rapports financiers et annuels accessibles à toutes les parties prenantes.
 
-## Considérations relatives aux performances
-Lorsque vous travaillez avec Aspose.PDF :
-- Surveillez l’utilisation de la mémoire, en particulier lorsque vous traitez des fichiers PDF volumineux.
-- Optimisez les performances en minimisant le nombre d’éléments ajoutés dynamiquement.
-- Suivez les meilleures pratiques Java pour la collecte des déchets et la gestion des ressources.
+## Applications pratiques
+Créer des PDF accessibles est crucial dans de nombreux scénarios réels :
+
+1. **Matériel éducatif** – Fournir des manuels et des documents inclusifs pour tous les étudiants.  
+2. **Publications gouvernementales** – Respecter les exigences légales d’accessibilité pour les documents publics.  
+3. **Rapports d’entreprise** – Garantir que les actionnaires et les employés puissent accéder aux états financiers avec des lecteurs d'écran.  
+
+## Considérations de performance
+Lors du traitement de gros PDF :
+
+- Surveillez l’utilisation de la mémoire ; libérez les ressources rapidement.  
+- Minimisez le nombre d’éléments dynamiques que vous ajoutez.  
+- Suivez les meilleures pratiques Java pour le ramassage des ordures et la réutilisation des objets.  
+
+## Problèmes courants et solutions
+| Issue | Solution |
+|-------|----------|
+| Balises non affichées dans le lecteur PDF | Vérifiez que `taggedContent` est obtenu et que `setTitle`/`setLanguage` sont appelés avant d’ajouter des éléments. |
+| Cellules du tableau sans texte alternatif | Utilisez `setAlternativeText` sur chaque `TableTRElement` ainsi que sur les lignes d’en‑tête/pied de page. |
+| Fichiers volumineux provoquant OutOfMemoryError | Traitez le document par sections ou augmentez la taille du tas JVM (`-Xmx`). |
+
+## Questions fréquemment posées
+
+**Q : Comment puis‑je vérifier que mon PDF est réellement accessible ?**  
+R : Utilisez des outils comme le vérificateur d’accessibilité d’Adobe Acrobat ou ouvrez le fichier avec un lecteur d’écran (NVDA, JAWS) pour confirmer une navigation correcte.
+
+**Q : Aspose.PDF prend‑il en charge d’autres langues que l’anglais ?**  
+R : Oui. Définissez le code langue via `taggedContent.setLanguage("fr-FR")` pour le français, `es-ES` pour l’espagnol, etc.
+
+**Q : Puis‑je ajouter des images avec du texte alt à un PDF balisé ?**  
+R : Absolument. Utilisez la classe `Image` et définissez sa propriété `AlternativeText` pour décrire le contenu visuel.
+
+**Q : Existe‑t‑il une limite au nombre de lignes que je peux générer dans un tableau PDF ?**  
+R : Il n’y a pas de limite stricte, mais les très grands tableaux peuvent augmenter la consommation de mémoire ; envisagez la pagination ou la division du document.
+
+**Q : Le PDF généré fonctionnera‑t‑il avec tous les lecteurs d’écran ?**  
+R : Lorsque les balises, la langue et le texte alternatif sont correctement définis, le PDF est conforme à PDF/UA et devrait être lisible par la plupart des principaux lecteurs d’écran.
 
 ## Conclusion
-Vous avez appris à créer un document PDF balisé avec Aspose.PDF pour Java. Cette puissante bibliothèque vous permet de produire efficacement du contenu accessible, garantissant ainsi l'inclusivité de vos documents numériques. Testez différentes configurations pour adapter les fonctionnalités d'accessibilité à vos besoins.
+Vous disposez maintenant d’un guide complet, étape par étape, pour **créer des PDF accessibles** avec du contenu balisé, générer des tableaux stylisés et garantir la compatibilité avec les lecteurs d’écran. En exploitant Aspose.PDF for Java, vous pouvez intégrer l’accessibilité directement dans votre pipeline de génération de PDF, offrant un contenu inclusif à chaque public.
 
 ### Prochaines étapes
-- Découvrez des fonctionnalités plus avancées d'Aspose.PDF.
-- Intégrez la génération de PDF balisés dans vos applications existantes.
-- Partagez vos commentaires et vos idées avec la communauté sur [Forum d'Aspose](https://forum.aspose.com/c/pdf/10).
+- Explorez des fonctionnalités de balisage supplémentaires telles que les titres, les listes et les liens.  
+- Intégrez ce flux de travail dans vos services Java existants ou vos tâches de traitement par lots.  
+- Partagez vos expériences et posez des questions sur le [forum Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
-## Section FAQ
-**Q : Comment puis-je m’assurer que mon PDF est entièrement accessible ?**
-A : Utilisez du contenu balisé pour créer une structure logique. Testez avec des lecteurs d'écran et des outils d'accessibilité.
+---
 
-**Q : Aspose.PDF peut-il gérer efficacement des documents volumineux ?**
-R : Oui, mais surveillez toujours l’utilisation de la mémoire et optimisez les performances selon les besoins.
-
-**Q : Quelles autres fonctionnalités offre Aspose.PDF ?**
-: Outre la création de PDF accessibles, il offre une large gamme de fonctionnalités telles que la conversion de formats, la manipulation de contenu et la sécurisation de documents.
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

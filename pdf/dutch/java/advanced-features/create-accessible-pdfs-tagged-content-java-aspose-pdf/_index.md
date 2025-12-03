@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Leer hoe u toegankelijke, getagde PDF-documenten maakt met Aspose.PDF voor Java. Zorg ervoor dat uw PDF's inclusief zijn en voldoen aan de toegankelijkheidsnormen."
-"title": "Maak toegankelijke PDF's met getagde inhoud in Java met Aspose.PDF"
-"url": "/nl/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/"
-"weight": 1
+date: '2025-12-01'
+description: Leer hoe u toegankelijke PDF‑bestanden maakt, PDF‑tabellen genereert
+  en PDF‑bestanden tagt voor schermlezers met Aspise.PDF voor Java.
+keywords:
+- accessible PDFs with Java
+- Aspose.PDF for Java
+- tagged PDF creation
+language: nl
+title: Maak een toegankelijke PDF met getagde inhoud in Java met Aspose.PDF
+url: /java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +17,36 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Maak toegankelijke PDF's met getagde inhoud in Java met Aspose.PDF
-Het creëren van toegankelijke PDF-documenten is essentieel om ervoor te zorgen dat alle gebruikers, inclusief gebruikers met een beperking, toegang hebben tot uw content en deze kunnen begrijpen. Deze tutorial begeleidt u bij het maken van een getagd PDF-document met Aspose.PDF voor Java. Door gebruik te maken van deze krachtige bibliotheek kunt u gestructureerde, semantisch rijke PDF's maken die toegankelijk zijn voor schermlezers en andere ondersteunende technologieën.
+# Maak Toegankelijke PDF met Getagde Inhoud in Java met Aspose.PDF
 
-## Wat je zult leren
-- Uw omgeving instellen met Aspose.PDF voor Java
-- Een nieuw PDF-document maken met getagde inhoud
-- Uw PDF structureren met kopteksten, hoofdtekst en voettekst
-- Het uiteindelijke document opslaan in een toegankelijk formaat
+Het maken van **toegankelijke PDF**-documenten is essentieel om ervoor te zorgen dat alle gebruikers, inclusief degenen die afhankelijk zijn van hulpmiddelen, uw inhoud kunnen lezen en ermee kunnen werken. In deze tutorial leert u hoe u **toegankelijke PDF**-bestanden maakt met getagde inhoud, PDF-tabellen genereert en de documenttaal instelt zodat schermlezers de structuur correct kunnen interpreteren.
 
-Laten we eerst de vereisten doornemen voordat we beginnen.
+## Quick Answers
+- **Welke bibliotheek moet ik gebruiken?** Aspose.PDF for Java.  
+- **Hoe lang duurt het om te implementeren?** Ongeveer 15‑20 minuten voor een basis getagde PDF.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een permanente licentie is vereist voor productie.  
+- **Kan ik tabellen genereren?** Ja – de API laat u PDF-tabellen maken en opmaken met een getagde structuur.  
+- **Hoe maak ik de PDF leesbaar voor schermlezers?** Tag de inhoud, stel de taal in en geef alternatieve tekst voor structurele elementen.
 
-## Vereisten
-Voordat u begint, zorg ervoor dat u het volgende heeft:
-- **Java-ontwikkelingskit (JDK)** op uw systeem geïnstalleerd.
-- Een geschikte IDE zoals IntelliJ IDEA of Eclipse voor het schrijven van Java-code.
-- Basiskennis van Java-programmering en PDF-concepten.
+## What is a “create accessible pdf”?
+Een **toegankelijke PDF** bevat een logische structuur (tags) die koppen, tabellen, alinea's en andere elementen beschrijft. Deze structuur stelt schermlezers en andere hulpmiddelen in staat om het document op een betekenisvolle manier te presenteren aan gebruikers met visuele of cognitieve beperkingen.
 
-### Vereiste bibliotheken en afhankelijkheden
-Om Aspose.PDF voor Java te gebruiken, moet je de bibliotheek in je project opnemen. Zo doe je dat met Maven of Gradle:
+## Why tag a PDF?
+Taggen van een PDF (het **how to tag pdf** proces) geeft u:
+- **Verbeterde navigatie** voor schermlezers en toetsenbordgebruikers.  
+- **Naleving** van WCAG 2.1 en PDF/UA toegankelijkheidsnormen.  
+- **Betere doorzoekbaarheid** omdat tekst semantisch wordt geïndexeerd.  
 
-**Maven**
-Voeg de volgende afhankelijkheid toe aan uw `pom.xml` bestand:
+## Prerequisites
+Before you start, make sure you have:
+- Java Development Kit (JDK) geïnstalleerd.  
+- Een IDE zoals IntelliJ IDEA of Eclipse.  
+- Basiskennis van Java en vertrouwdheid met PDF-concepten.  
+
+### Required Libraries and Dependencies
+Voeg Aspose.PDF for Java toe aan uw project met Maven of Gradle.
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -41,45 +55,44 @@ Voeg de volgende afhankelijkheid toe aan uw `pom.xml` bestand:
 </dependency>
 ```
 
-**Gradle**
-Neem deze regel op in uw `build.gradle` bestand:
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Licentieverwerving
-Aspose.PDF voor Java biedt een gratis proefperiode, zodat u de mogelijkheden ervan kunt testen voordat u tot aanschaf overgaat. U kunt een tijdelijke licentie aanschaffen. [hier](https://purchase.aspose.com/temporary-license/)Als u besluit tot aankoop over te gaan, volg dan de instructies op hun website.
+### License Acquisition
+Aspose.PDF for Java biedt een gratis proefversie. U kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/). Voor productiegebruik moet u een volledige licentie aanschaffen.
 
-## Aspose.PDF instellen voor Java
-Begin met het instellen van je project met de benodigde configuraties. Zo initialiseer en configureer je Aspose.PDF in een eenvoudige Java-applicatie:
-1. **Download** het JAR-bestand van [Aspose's release site](https://releases.aspose.com/pdf/java/) als u Maven/Gradle niet gebruikt.
-2. Voeg het toe aan het buildpad van uw project.
+## Setting Up Aspose.PDF for Java
+Als u geen Maven/Gradle gebruikt, download dan de JAR van de [Aspose release site](https://releases.aspose.com/pdf/java/) en voeg deze toe aan het build‑pad van uw project.
 
-Hier is een basisinitialisatiefragment voor het maken van een PDF-document:
+Hier is een eenvoudige snippet die uw installatie verifieert door een lege PDF te maken:
+
 ```java
 import com.aspose.pdf.Document;
 
 public class PdfCreator {
     public static void main(String[] args) {
-        // Initialiseer Aspose.PDF
+        // Initialize Aspose.PDF
         Document doc = new Document();
         
-        // Sla het lege document op om de instellingen te controleren
+        // Save the empty document to check setup
         doc.save("output/EmptyDocument.pdf");
         
         System.out.println("Setup complete and document created successfully.");
     }
 }
 ```
-In dit eenvoudige voorbeeld wordt een nieuw PDF-document geïnitialiseerd met behulp van Aspose.PDF.
 
-## Implementatiegids
-### Een nieuwe PDF maken met getagde inhoud
-**Overzicht**
-Gelabelde content in pdf's biedt een logische structuur en verbetert de toegankelijkheid. Deze sectie begeleidt u bij het maken van een nieuwe pdf en het configureren ervan als gelabelde content.
+## Implementation Guide
 
-#### Stap 1: Initialiseer het document
-Maak eerst een instantie van `Document` en verkrijg de `ITaggedContent` interface:
+### Creating a New PDF with Tagged Content
+**Overzicht** – Getagde inhoud biedt een logische hiërarchie die de toegankelijkheid verbetert. De onderstaande stappen begeleiden u bij het maken van een PDF, het inschakelen van tagging en het vullen van een gestylede tabel.
+
+#### Step 1: Initialize the Document and Enable Tagging
+#### Stap 1: Initialiseer het Document en Schakel Tagging In
+Maak eerst een `Document`‑instantie aan en verkrijg de `ITaggedContent`‑interface. We **stellen ook de PDF-taal in** (de **set pdf language** stap) zodat schermlezers de locale van het document kennen.
+
 ```java
 import com.aspose.pdf.*;
 
@@ -87,44 +100,50 @@ public class TaggedPdfCreator {
     public static void main(String[] args) {
         String outputDir = "YOUR_OUTPUT_DIRECTORY";
 
-        // Een nieuw PDF-document maken
+        // Create a new PDF document
         Document document = new Document();
 
-        // Getagde inhoud verkrijgen
+        // Obtain tagged content
         ITaggedContent taggedContent = document.getTaggedContent();
         
-        // Stel de titel en taal in voor toegankelijkheidsdoeleinden
+        // Set the title and language for accessibility purposes
         taggedContent.setTitle("Example table row style");
         taggedContent.setLanguage("en-US");
 
-        // Ga door met het toevoegen van gestructureerde elementen
+        // Proceed to add structured elements
     }
 }
 ```
-#### Stap 2: Structuurelementen toevoegen
-Definieer een rootelement, maak een tabelstructuur met headers, body en footer:
+
+#### Step 2: Add Structure Elements (How to generate PDF table)
+#### Stap 2: Voeg Structurele Elementen Toe (How to generate PDF table)
+Definieer vervolgens het root‑element en maak een tabelstructuur met een header, body en footer. Dit demonstreert de functionaliteit **generate pdf table** terwijl de inhoud volledig getagd blijft.
+
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.*;
 
-// Krijg wortelstructuurelement
+// Get root structure element
 StructureElement rootElement = taggedContent.getRootElement();
 
-// Een nieuw tabelstructuurelement maken
+// Create a new table structure element
 TableElement tableElement = taggedContent.createTableElement();
 rootElement.appendChild(tableElement);
 
-// Koptekst, hoofdtekst en voettekst aan de tabel toevoegen
+// Add header, body, and footer to the table
 TableTHeadElement tableTHeadElement = tableElement.createTHead();
 TableTBodyElement tableTBodyElement = tableElement.createTBody();
 TableTFootElement tableTFootElement = tableElement.createTFoot();
 ```
-#### Stap 3: Tabelelementen vullen
-Voeg rijen met opgemaakte cellen toe aan de tabeltekst:
+
+#### Step 3: Populate Table Elements (Styling rows for screen reader PDF)
+#### Stap 3: Vul Tabelelementen In (Styling rows for screen reader PDF)
+Nu voegen we rijen toe, stijlen ze en geven alternatieve tekst. De alternatieve tekst zorgt ervoor dat de tabel begrijpelijk is voor **screen reader PDF**‑gebruikers.
+
 ```java
 int rowCount = 7;
 int colCount = 3;
 
-// Voeg een koptekstrij met kolomtitels toe
+// Add a header row with column titles
 TableTRElement headTrElement = tableTHeadElement.createTR();
 headTrElement.setAlternativeText("Head Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -132,31 +151,31 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     thElement.setText(String.format("Head %s", colIndex));
 }
 
-// Voeg rijen toe aan de tabelbody met opgemaakte cellen
+// Add rows to the table body with styled cells
 for (int rowIndex = 0; rowIndex < rowCount; rowIndex++) {
     TableTRElement trElement = tableTBodyElement.createTR();
     trElement.setAlternativeText(String.format("Row %s", rowIndex));
 
-    // Rijstijlen instellen
+    // Set row styles
     trElement.setBackgroundColor(Color.getLightSeaGreen());
     trElement.setBorder(new BorderInfo(BorderSide.All, 0.75F, Color.getDarkGray()));
     trElement.setDefaultCellBorder(new BorderInfo(BorderSide.All, 0.50F, Color.getBlue()));
     trElement.setMinRowHeight(100.0);
     trElement.setFixedRowHeight(120.0);
 
-    // Standaardtekststatus instellen voor cellen in deze rij
+    // Set default text state for cells in this row
     TextState cellTextState = new TextState();
     cellTextState.setForegroundColor(Color.getRed());
     trElement.setDefaultCellTextState(cellTextState);
 
-    // Cellen toevoegen aan de rij
+    // Add cells to the row
     for (int colIndex = 0; colIndex < colCount; colIndex++) {
         TableTDElement tdElement = trElement.createTD();
         tdElement.setText(String.format("Cell [{0}, {1}]", rowIndex, colIndex));
     }
 }
 
-// Voeg een voettekstrij toe aan de tabel
+// Add a footer row to the table
 TableTRElement footTrElement = tableTFootElement.createTR();
 footTrElement.setAlternativeText("Foot Row");
 for (int colIndex = 0; colIndex < colCount; colIndex++) {
@@ -164,42 +183,75 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
     tdElement.setText(String.format("Foot %s", colIndex));
 }
 ```
-### Het PDF-document opslaan
-Sla ten slotte de getagde inhoud op om ervoor te zorgen dat deze toegankelijk is:
+
+### Saving the PDF Document
+### Het PDF‑document Opslaan
+Sla tenslotte het document op. Het opgeslagen bestand behoudt alle tags, taalinstellingen en tabelstructuur, waardoor het volledig **create accessible pdf**‑klaar is voor distributie.
+
 ```java
-// Het getagde PDF-document opslaan
+// Save the tagged PDF document
 document.save(outputDir + "/StyleTableRow.pdf");
 System.out.println("Document saved successfully.");
 ```
-## Praktische toepassingen
-Het maken van toegankelijke PDF's is cruciaal in verschillende scenario's:
-1. **Educatief materiaal**:Ervoor zorgen dat alle studenten, inclusief studenten met een beperking, toegang hebben tot leermiddelen.
-2. **Overheidspublicaties**: Voldoen aan de toegankelijkheidsnormen voor openbare documenten.
-3. **Bedrijfsrapporten**: Financiële en jaarverslagen beschikbaar stellen aan alle belanghebbenden.
 
+## Practical Applications
+## Praktische Toepassingen
+Creating accessible PDFs is crucial in many real‑world scenarios:
+
+1. **Educatief Materiaal** – Bied inclusieve leerboeken en hand‑outs voor alle studenten.  
+2. **Overheidspublicaties** – Voldoen aan wettelijke toegankelijkheidsvereisten voor openbare documenten.  
+3. **Bedrijfsrapporten** – Zorg ervoor dat aandeelhouders en werknemers financiële overzichten kunnen raadplegen met schermlezers.  
+
+## Performance Considerations
 ## Prestatieoverwegingen
-Bij het werken met Aspose.PDF:
-- Houd het geheugengebruik in de gaten, vooral bij het werken met grote PDF-bestanden.
-- Optimaliseer de prestaties door het aantal dynamisch toegevoegde elementen te minimaliseren.
-- Volg de aanbevolen procedures voor Java voor garbage collection en resourcebeheer.
+When working with large PDFs:
 
+- Houd het geheugengebruik in de gaten; maak bronnen snel vrij.  
+- Minimaliseer het aantal dynamische elementen dat u toevoegt.  
+- Volg de beste Java‑praktijken voor garbage collection en objecthergebruik.  
+
+## Common Issues and Solutions
+## Veelvoorkomende Problemen en Oplossingen
+
+| Issue | Solution |
+|-------|----------|
+| Tags verschijnen niet in PDF-lezer | Controleer of `taggedContent` is verkregen en `setTitle`/`setLanguage` zijn aangeroepen vóór het toevoegen van elementen. |
+| Tabelcellen missen alternatieve tekst | Gebruik `setAlternativeText` op elk `TableTRElement` en op header/footer‑rijen. |
+| Grote bestanden veroorzaken OutOfMemoryError | Verwerk het document in secties of vergroot de JVM‑heap‑grootte (`-Xmx`). |
+
+## Frequently Asked Questions
+## Veelgestelde Vragen
+
+**V: Hoe kan ik verifiëren dat mijn PDF echt toegankelijk is?**  
+A: Gebruik tools zoals Adobe Acrobat’s Accessibility Checker of open het bestand met een schermlezer (NVDA, JAWS) om de juiste navigatie te bevestigen.
+
+**V: Ondersteunt Aspose.PDF andere talen naast Engels?**  
+A: Ja. Stel de taalcodes in via `taggedContent.setLanguage("fr-FR")` voor Frans, `es-ES` voor Spaans, enz.
+
+**V: Kan ik afbeeldingen met alt‑tekst toevoegen aan een getagde PDF?**  
+A: Absoluut. Gebruik de `Image`‑klasse en stel de eigenschap `AlternativeText` in om de visuele inhoud te beschrijven.
+
+**V: Is er een limiet aan het aantal rijen dat ik kan genereren in een PDF‑tabel?**  
+A: Geen harde limiet, maar zeer grote tabellen kunnen het geheugenverbruik verhogen; overweeg paginering of het splitsen van het document.
+
+**V: Werkt de gegenereerde PDF op alle schermlezers?**  
+A: Wanneer tags, taal en alternatieve tekst correct zijn ingesteld, voldoet de PDF aan PDF/UA en zou deze leesbaar moeten zijn voor de meeste belangrijke schermlezers.
+
+## Conclusion
 ## Conclusie
-Je hebt geleerd hoe je een getagd PDF-document maakt met Aspose.PDF voor Java. Deze krachtige bibliotheek stelt je in staat om efficiënt toegankelijke content te produceren en zo inclusiviteit in je digitale documenten te garanderen. Experimenteer met verschillende configuraties om de toegankelijkheidsfuncties aan te passen aan jouw behoeften.
+U heeft nu een volledige, stapsgewijze gids om **toegankelijke PDF**‑documenten te maken met getagde inhoud, gestylede tabellen te genereren en compatibiliteit met schermlezers te waarborgen. Door gebruik te maken van Aspose.PDF for Java kunt u toegankelijkheid direct in uw PDF‑generatie‑pipeline integreren, waardoor u inclusieve inhoud aan elk publiek levert.
 
-### Volgende stappen
-- Ontdek de meer geavanceerde functies van Aspose.PDF.
-- Integreer de generatie van getagde PDF's in uw bestaande applicaties.
-- Deel uw feedback en inzichten met de community op [Aspose's forum](https://forum.aspose.com/c/pdf/10).
+### Next Steps
+### Volgende Stappen
+- Verken extra tag‑functies zoals koppen, lijsten en links.  
+- Integreer deze workflow in uw bestaande Java‑services of batch‑verwerkingsjobs.  
+- Deel uw ervaringen en stel vragen op het [Aspose PDF forum](https://forum.aspose.com/c/pdf/10).
 
-## FAQ-sectie
-**V: Hoe kan ik ervoor zorgen dat mijn PDF volledig toegankelijk is?**
-A: Gebruik getagde content om een logische structuur te creëren. Test met schermlezers en toegankelijkheidstools.
+---
 
-**V: Kan Aspose.PDF grote documenten efficiënt verwerken?**
-A: Ja, maar houd altijd het geheugengebruik in de gaten en optimaliseer de prestaties indien nodig.
-
-**V: Welke andere functies biedt Aspose.PDF?**
-A: Naast het maken van toegankelijke PDF's biedt het een breed scala aan functionaliteiten, zoals het converteren van formaten, het bewerken van inhoud en het beveiligen van documenten.
+**Laatst bijgewerkt:** 2025-12-01  
+**Getest met:** Aspose.PDF for Java 25.3  
+**Auteur:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
