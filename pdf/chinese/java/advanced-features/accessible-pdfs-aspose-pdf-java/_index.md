@@ -232,6 +232,12 @@ While Aspose.PDF is efficient, keep these tips in mind for large documents:
 - 查阅完整的 [Aspose PDF Java 文档](https://reference.aspose.com/pdf/java/) 以了解高级功能。
 - 将此工作流集成到现有的 Java 应用程序中，实现可访问 PDF 的自动生成。
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,11 +245,3 @@ While Aspose.PDF is efficient, keep these tips in mind for large documents:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
-
----

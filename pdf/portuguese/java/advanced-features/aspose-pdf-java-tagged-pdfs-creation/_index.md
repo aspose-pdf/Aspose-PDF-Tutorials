@@ -145,6 +145,12 @@ A: Consulte a documentação oficial do Aspose.PDF para Java na seção “Tagge
 - **Licença temporária:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Fórum de suporte:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Última atualização:** 2025-12-01  
+**Testado com:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +158,3 @@ A: Consulte a documentação oficial do Aspose.PDF para Java na seção “Tagge
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-01  
-**Testado com:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose

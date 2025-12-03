@@ -232,6 +232,12 @@ Du har nu en komplett, steg‑för‑steg‑guide för att **skapa tillgängliga
 - Utforska hela [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/) för avancerade funktioner.
 - Integrera detta arbetsflöde i dina befintliga Java‑applikationer för att automatisera skapandet av tillgängliga PDF‑filer.
 
+---
+
+**Senast uppdaterad:** 2025-12-01  
+**Testad med:** Aspose.PDF for Java 25.3  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,11 +245,3 @@ Du har nu en komplett, steg‑för‑steg‑guide för att **skapa tillgängliga
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-01  
-**Testad med:** Aspose.PDF for Java 25.3  
-**Författare:** Aspose  
-
----

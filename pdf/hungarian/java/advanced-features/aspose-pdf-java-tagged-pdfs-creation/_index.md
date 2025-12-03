@@ -145,6 +145,12 @@ A: Tekintse meg az Aspose.PDF for Java hivatalos dokumentációját a „Tagged 
 - **Ideiglenes licenc:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Támogatási fórum:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Legutóbb frissítve:** 2025-12-01  
+**Tesztelve:** Aspose.PDF for Java 25.3  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +158,3 @@ A: Tekintse meg az Aspose.PDF for Java hivatalos dokumentációját a „Tagged 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2025-12-01  
-**Tesztelve:** Aspose.PDF for Java 25.3  
-**Szerző:** Aspose

@@ -232,6 +232,12 @@ Ora disponi di una guida completa, passo‑a‑passo, per **creare PDF accessibi
 - Esplora la completa [documentazione Aspose PDF Java](https://reference.aspose.com/pdf/java/) per funzionalità avanzate.
 - Integra questo flusso di lavoro nelle tue applicazioni Java esistenti per automatizzare la generazione di PDF accessibili.
 
+---
+
+**Ultimo Aggiornamento:** 2025-12-01  
+**Testato Con:** Aspose.PDF per Java 25.3  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,10 +246,3 @@ Ora disponi di una guida completa, passo‑a‑passo, per **creare PDF accessibi
 
 {{< blocks/products/products-backtop-button >}}
 
----
-
-**Ultimo Aggiornamento:** 2025-12-01  
-**Testato Con:** Aspose.PDF per Java 25.3  
-**Autore:** Aspose  
-
----

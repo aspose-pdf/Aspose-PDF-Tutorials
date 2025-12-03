@@ -232,6 +232,12 @@ Je beschikt nu over een complete, stap‑voor‑stap‑gids om **toegankelijke P
 - Verken de volledige [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/) voor geavanceerde functies.
 - Integreer deze workflow in je bestaande Java‑applicaties om toegankelijke PDF‑generatie te automatiseren.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-01  
+**Getest met:** Aspose.PDF for Java 25.3  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,11 +245,3 @@ Je beschikt nu over een complete, stap‑voor‑stap‑gids om **toegankelijke P
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-01  
-**Getest met:** Aspose.PDF for Java 25.3  
-**Auteur:** Aspose  
-
----

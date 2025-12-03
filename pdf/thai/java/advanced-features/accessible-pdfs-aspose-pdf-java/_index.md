@@ -231,6 +231,12 @@ A: แน่นอน. API รองรับ JDK 8 และทำงาน�
 - สำรวจเอกสารเต็มของ [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/) สำหรับฟีเจอร์ขั้นสูง
 - ผสานเวิร์กโฟลว์นี้เข้ากับแอปพลิเคชัน Java ปัจจุบันของคุณเพื่ออัตโนมัติการสร้าง PDF ที่เข้าถึงได้
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -238,11 +244,3 @@ A: แน่นอน. API รองรับ JDK 8 และทำงาน�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
-
----

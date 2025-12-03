@@ -232,6 +232,12 @@ A: Absolutely. The API is backward compatible with JDK 8 and works seamlessly 
 - उन्नत सुविधाओं के लिए पूर्ण [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/) देखें।
 - इस वर्कफ़्लो को अपने मौजूदा Java एप्लिकेशन में एकीकृत करके सुलभ PDF जनरेशन को ऑटोमेट करें।
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,11 +245,3 @@ A: Absolutely. The API is backward compatible with JDK 8 and works seamlessly 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
-
----

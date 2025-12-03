@@ -236,6 +236,12 @@ Artık **create accessible pdf** belgelerini etiketli içerikle oluşturma, biç
 - Bu iş akışını mevcut Java servislerinize veya toplu işleme görevlerinize entegre edin.  
 - Deneyimlerinizi paylaşın ve sorularınızı [Aspose PDF forumunda](https://forum.aspose.com/c/pdf/10) sorun.
 
+---
+
+**Son Güncelleme:** 2025-12-01  
+**Test Edilen Sürüm:** Aspose.PDF for Java 25.3  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -243,9 +249,3 @@ Artık **create accessible pdf** belgelerini etiketli içerikle oluşturma, biç
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-01  
-**Test Edilen Sürüm:** Aspose.PDF for Java 25.3  
-**Yazar:** Aspose

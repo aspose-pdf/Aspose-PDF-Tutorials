@@ -232,6 +232,12 @@ Nyní máte kompletní, krok‑za‑krokem průvodce **vytvořením přístupné
 - Prozkoumejte kompletní [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/) pro pokročilé funkce.
 - Integrujte tento workflow do existujících Java aplikací pro automatizaci tvorby přístupných PDF.
 
+---
+
+**Poslední aktualizace:** 2025-12-01  
+**Testováno s:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,11 +245,3 @@ Nyní máte kompletní, krok‑za‑krokem průvodce **vytvořením přístupné
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-01  
-**Testováno s:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose  
-
----

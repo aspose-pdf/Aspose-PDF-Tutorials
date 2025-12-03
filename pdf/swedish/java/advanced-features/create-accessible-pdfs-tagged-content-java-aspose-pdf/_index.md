@@ -235,6 +235,12 @@ Du har nu en komplett steg‑för‑steg‑guide för att **create accessible PD
 - Integrera detta arbetsflöde i dina befintliga Java‑tjänster eller batch‑processjobb.  
 - Dela dina erfarenheter och ställ frågor på [Aspose PDF forum](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ Du har nu en komplett steg‑för‑steg‑guide för att **create accessible PD
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

@@ -247,6 +247,12 @@ U heeft nu een volledige, stapsgewijze gids om **toegankelijke PDF**‑documente
 - Integreer deze workflow in uw bestaande Java‑services of batch‑verwerkingsjobs.  
 - Deel uw ervaringen en stel vragen op het [Aspose PDF forum](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**Laatst bijgewerkt:** 2025-12-01  
+**Getest met:** Aspose.PDF for Java 25.3  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -254,9 +260,3 @@ U heeft nu een volledige, stapsgewijze gids om **toegankelijke PDF**‑documente
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-01  
-**Getest met:** Aspose.PDF for Java 25.3  
-**Auteur:** Aspose

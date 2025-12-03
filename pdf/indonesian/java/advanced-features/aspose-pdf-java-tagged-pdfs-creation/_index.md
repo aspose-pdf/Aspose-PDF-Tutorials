@@ -145,6 +145,12 @@ A: Lihat dokumentasi resmi Aspose.PDF untuk Java pada bagian “Tagged PDF” un
 - **Lisensi Sementara:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Forum Dukungan:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Terakhir Diperbarui:** 2025-12-01  
+**Diuji Dengan:** Aspose.PDF for Java 25.3  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +158,3 @@ A: Lihat dokumentasi resmi Aspose.PDF untuk Java pada bagian “Tagged PDF” un
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-01  
-**Diuji Dengan:** Aspose.PDF for Java 25.3  
-**Penulis:** Aspose

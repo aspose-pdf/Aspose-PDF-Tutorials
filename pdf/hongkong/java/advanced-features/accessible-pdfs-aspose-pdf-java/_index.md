@@ -231,6 +231,12 @@ A: 完全相容。API 向下相容於 JDK 8，亦能在更新的 Java 版本�
 - 探索完整的 [Aspose PDF Java 文件](https://reference.aspose.com/pdf/java/) 以了解進階功能。
 - 將此工作流程整合至現有的 Java 應用程式，實現自動化產生可存取的 PDF。
 
+---
+
+**最後更新：** 2025-12-01  
+**測試環境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -238,9 +244,3 @@ A: 完全相容。API 向下相容於 JDK 8，亦能在更新的 Java 版本�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-01  
-**測試環境：** Aspose.PDF for Java 25.3  
-**作者：** Aspose

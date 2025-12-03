@@ -233,6 +233,12 @@ Most már rendelkezik egy teljes, lépésről lépésre útmutatóval a **akadá
 - Fedezze fel a teljes [Aspose PDF Java dokumentációt](https://reference.aspose.com/pdf/java/) a haladó funkciókhoz.
 - Integrálja ezt a munkafolyamatot meglévő Java alkalmazásaiba az akadálymentes PDF generálás automatizálásához.
 
+---
+
+**Utolsó frissítés:** 2025-12-01  
+**Tesztelve:** Aspose.PDF for Java 25.3  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +246,3 @@ Most már rendelkezik egy teljes, lépésről lépésre útmutatóval a **akadá
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-01  
-**Tesztelve:** Aspose.PDF for Java 25.3  
-**Szerző:** Aspose

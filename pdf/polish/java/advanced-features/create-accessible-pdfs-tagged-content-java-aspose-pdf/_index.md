@@ -236,6 +236,12 @@ Masz teraz kompletny, krok po kroku przewodnik, jak **create accessible PDF** z 
 - Zintegruj ten przepływ pracy z istniejącymi usługami Java lub zadaniami wsadowymi.  
 - Podziel się doświadczeniami i zadawaj pytania na [forum Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-01  
+**Testowano z:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -243,9 +249,3 @@ Masz teraz kompletny, krok po kroku przewodnik, jak **create accessible PDF** z 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-01  
-**Testowano z:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose

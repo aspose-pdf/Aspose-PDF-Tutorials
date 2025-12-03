@@ -232,6 +232,12 @@ Masz teraz kompletny, krok po kroku przewodnik, jak **tworzyć dostępne PDF** w
 - Zapoznaj się z pełną [dokumentacją Aspose PDF Java](https://reference.aspose.com/pdf/java/) w celu poznania zaawansowanych funkcji.
 - Zintegruj ten przepływ pracy z istniejącymi aplikacjami Java, aby automatyzować generowanie dostępnych PDF.
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,9 +245,3 @@ Masz teraz kompletny, krok po kroku przewodnik, jak **tworzyć dostępne PDF** w
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

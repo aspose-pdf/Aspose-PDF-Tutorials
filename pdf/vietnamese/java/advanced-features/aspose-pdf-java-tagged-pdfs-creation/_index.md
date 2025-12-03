@@ -144,6 +144,12 @@ document.save(outputPath);
 - **Giấy phép tạm thời:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Diễn đàn hỗ trợ:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Cập nhật lần cuối:** 2025-12-01  
+**Kiểm tra với:** Aspose.PDF cho Java 25.3  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -151,9 +157,3 @@ document.save(outputPath);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-01  
-**Kiểm tra với:** Aspose.PDF cho Java 25.3  
-**Tác giả:** Aspose

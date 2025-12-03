@@ -145,6 +145,12 @@ A: Ελέγξτε την επίσημη τεκμηρίωση του Aspose.PDF �
 - **Προσωρινή Άδεια:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Φόρουμποστήριξης:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-01  
+**Δοκιμασμένο με:** Aspose.PDF for Java 25.3  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +158,3 @@ A: Ελέγξτε την επίσημη τεκμηρίωση του Aspose.PDF �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-01  
-**Δοκιμασμένο με:** Aspose.PDF for Java 25.3  
-**Συγγραφέας:** Aspose

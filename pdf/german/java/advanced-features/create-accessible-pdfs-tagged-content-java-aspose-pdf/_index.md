@@ -235,6 +235,12 @@ Sie haben nun eine vollständige Schritt‑für‑Schritt‑Anleitung, um **barr
 - Integrieren Sie diesen Workflow in Ihre bestehenden Java‑Services oder Batch‑Verarbeitungsjobs.  
 - Teilen Sie Ihre Erfahrungen und stellen Sie Fragen im [Aspose PDF‑Forum](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ Sie haben nun eine vollständige Schritt‑für‑Schritt‑Anleitung, um **barr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

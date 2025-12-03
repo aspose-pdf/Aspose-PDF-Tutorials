@@ -235,6 +235,12 @@ System.out.println("Document saved successfully.");
 - 将此工作流集成到现有的 Java 服务或批处理作业中。  
 - 在 [Aspose PDF 论坛](https://forum.aspose.com/c/pdf/10) 分享您的经验并提问。
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ System.out.println("Document saved successfully.");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

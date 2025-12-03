@@ -237,6 +237,12 @@ Vous disposez maintenant d’un guide complet, étape par étape, pour **créer 
 - Intégrez ce flux de travail dans vos services Java existants ou vos tâches de traitement par lots.  
 - Partagez vos expériences et posez des questions sur le [forum Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -244,9 +250,3 @@ Vous disposez maintenant d’un guide complet, étape par étape, pour **créer 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

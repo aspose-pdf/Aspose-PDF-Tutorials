@@ -236,6 +236,12 @@ Anda kini memiliki panduan lengkap langkah‑demi‑langkah untuk **create acces
 - Integrasikan alur kerja ini ke dalam layanan Java Anda yang sudah ada atau pekerjaan batch.  
 - Bagikan pengalaman Anda dan ajukan pertanyaan di [forum Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**Terakhir Diperbarui:** 2025-12-01  
+**Diuji Dengan:** Aspose.PDF untuk Java 25.3  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -243,9 +249,3 @@ Anda kini memiliki panduan lengkap langkah‑demi‑langkah untuk **create acces
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-01  
-**Diuji Dengan:** Aspose.PDF untuk Java 25.3  
-**Penulis:** Aspose

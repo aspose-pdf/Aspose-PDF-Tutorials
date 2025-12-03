@@ -236,6 +236,12 @@ Bạn đã có một hướng dẫn chi tiết, từng bước để **create ac
 - Tích hợp quy trình này vào các dịch vụ Java hiện có hoặc các công việc xử lý batch.  
 - Chia sẻ kinh nghiệm và đặt câu hỏi trên [diễn đàn Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**Cập nhật lần cuối:** 2025-12-01  
+**Kiểm thử với:** Aspose.PDF for Java 25.3  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -243,9 +249,3 @@ Bạn đã có một hướng dẫn chi tiết, từng bước để **create ac
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-01  
-**Kiểm thử với:** Aspose.PDF for Java 25.3  
-**Tác giả:** Aspose

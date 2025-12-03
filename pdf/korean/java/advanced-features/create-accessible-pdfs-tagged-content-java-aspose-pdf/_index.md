@@ -232,6 +232,12 @@ A: 태그, 언어 및 대체 텍스트가 올바르게 설정되면 PDF는 PDF/U
 - 이 워크플로를 기존 Java 서비스 또는 배치 처리 작업에 통합하십시오.  
 - 경험을 공유하고 질문은 [Aspose PDF forum](https://forum.aspose.com/c/pdf/10)에서 하십시오.
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/main-container >}}
@@ -239,9 +245,3 @@ A: 태그, 언어 및 대체 텍스트가 올바르게 설정되면 PDF는 PDF/U
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

@@ -232,6 +232,12 @@ Sie haben nun eine vollständige Schritt‑für‑Schritt‑Anleitung, um **barr
 - Erkunden Sie die vollständige [Aspose PDF Java Dokumentation](https://reference.aspose.com/pdf/java/) für erweiterte Funktionen.
 - Integrieren Sie diesen Workflow in Ihre bestehenden Java‑Anwendungen, um die automatische Erstellung barrierefreier PDFs zu ermöglichen.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-01  
+**Getestet mit:** Aspose.PDF für Java 25.3  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,11 +245,3 @@ Sie haben nun eine vollständige Schritt‑für‑Schritt‑Anleitung, um **barr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-01  
-**Getestet mit:** Aspose.PDF für Java 25.3  
-**Autor:** Aspose  
-
----

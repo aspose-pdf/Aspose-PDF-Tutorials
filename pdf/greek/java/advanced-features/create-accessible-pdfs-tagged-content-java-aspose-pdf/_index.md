@@ -238,6 +238,12 @@ A: Όταν οι ετικέτες, η γλώσσα και το εναλλακτ�
 - Ενσωματώστε αυτή τη ροή εργασίας στις υπάρχουσες υπηρεσίες Java ή στις εργασίες επεξεργασίας δέσμης.  
 - Μοιραστείτε τις εμπειρίες σας και θέστε ερωτήσεις στο [φόρουμ Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -245,9 +251,3 @@ A: Όταν οι ετικέτες, η γλώσσα και το εναλλακτ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

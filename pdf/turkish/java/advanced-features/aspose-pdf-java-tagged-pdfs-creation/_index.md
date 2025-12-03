@@ -146,6 +146,12 @@ C: Resmi Aspose.PDF for Java belgelerinde “Tagged PDF” bölümünü inceleye
 - **Geçici Lisans:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Destek Forumu:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Son Güncelleme:** 2025-12-01  
+**Test Edilen Versiyon:** Aspose.PDF for Java 25.3  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -153,9 +159,3 @@ C: Resmi Aspose.PDF for Java belgelerinde “Tagged PDF” bölümünü inceleye
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-01  
-**Test Edilen Versiyon:** Aspose.PDF for Java 25.3  
-**Yazar:** Aspose

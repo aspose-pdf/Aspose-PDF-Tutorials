@@ -232,6 +232,12 @@ Anda kini memiliki panduan lengkap langkah‑demi‑langkah untuk **membuat PDF 
 - Jelajahi dokumentasi lengkap [Aspose PDF Java](https://reference.aspose.com/pdf/java/) untuk fitur lanjutan.
 - Integrasikan alur kerja ini ke dalam aplikasi Java Anda yang ada untuk mengotomatisasi pembuatan PDF yang aksesibel.
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,11 +245,3 @@ Anda kini memiliki panduan lengkap langkah‑demi‑langkah untuk **membuat PDF 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
-
----

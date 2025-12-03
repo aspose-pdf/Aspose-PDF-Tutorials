@@ -231,6 +231,12 @@ A: 물론입니다. API는 JDK 8과 호환되며 최신 Java 버전에서도 �
 - 고급 기능을 위해 전체 [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/) 탐색
 - 기존 Java 애플리케이션에 이 워크플로를 통합해 접근성 PDF 자동 생성을 구현
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -238,11 +244,3 @@ A: 물론입니다. API는 JDK 8과 호환되며 최신 Java 버전에서도 �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
-
----

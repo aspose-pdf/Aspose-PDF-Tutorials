@@ -232,6 +232,12 @@ document.save(outputDir + "/InlineStructureElements.pdf");
 - Изучите полную [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/) для продвинутых возможностей.
 - Интегрируйте этот процесс в существующие Java‑приложения для автоматической генерации доступных PDF.
 
+---
+
+**Последнее обновление:** 2025-12-01  
+**Тестировано с:** Aspose.PDF for Java 25.3  
+**Автор:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,11 +245,3 @@ document.save(outputDir + "/InlineStructureElements.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-01  
-**Тестировано с:** Aspose.PDF for Java 25.3  
-**Автор:** Aspose  
-
----

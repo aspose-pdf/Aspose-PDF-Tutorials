@@ -236,6 +236,12 @@ A: タグ、言語、代替テキストが正しく設定されていれば、PD
 - このワークフローを既存の Java サービスやバッチ処理ジョブに統合。  
 - 体験を共有し、[Aspose PDF フォーラム](https://forum.aspose.com/c/pdf/10) で質問してください。
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -243,9 +249,3 @@ A: タグ、言語、代替テキストが正しく設定されていれば、PD
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

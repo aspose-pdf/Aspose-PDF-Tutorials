@@ -145,6 +145,12 @@ document.save(outputPath);
 - **ترخيص مؤقت:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **منتدى الدعم:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**آخر تحديث:** 2025-12-01  
+**تم الاختبار باستخدام:** Aspose.PDF for Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +158,3 @@ document.save(outputPath);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-01  
-**تم الاختبار باستخدام:** Aspose.PDF for Java 25.3  
-**المؤلف:** Aspose

@@ -144,6 +144,12 @@ A: Sprawdź oficjalną dokumentację Aspose.PDF dla Javy w sekcji „Tagged PDF�
 - **Tymczasowa licencja:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Forum wsparcia:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-01  
+**Testowane z:** Aspose.PDF dla Javy 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -151,9 +157,3 @@ A: Sprawdź oficjalną dokumentację Aspose.PDF dla Javy w sekcji „Tagged PDF�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-01  
-**Testowane z:** Aspose.PDF dla Javy 25.3  
-**Autor:** Aspose

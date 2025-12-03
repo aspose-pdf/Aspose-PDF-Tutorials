@@ -144,6 +144,12 @@ R: Consulta la documentazione ufficiale di Aspose.PDF per Java nella sezione “
 - **Licenza temporanea:** [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)  
 - **Forum di supporto:** [Forum Aspose](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Ultimo aggiornamento:** 2025-12-01  
+**Testato con:** Aspose.PDF per Java 25.3  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -151,9 +157,3 @@ R: Consulta la documentazione ufficiale di Aspose.PDF per Java nella sezione “
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-01  
-**Testato con:** Aspose.PDF per Java 25.3  
-**Autore:** Aspose

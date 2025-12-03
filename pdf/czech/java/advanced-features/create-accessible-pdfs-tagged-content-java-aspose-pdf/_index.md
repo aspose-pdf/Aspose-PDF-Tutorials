@@ -235,6 +235,12 @@ Nyní máte kompletní, krok‑za‑krokem průvodce **vytvořením přístupný
 - Integrovat tento workflow do vašich existujících Java služeb nebo dávkových úloh.  
 - Sdílejte své zkušenosti a ptejte se na [Aspose PDF fóru](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ Nyní máte kompletní, krok‑za‑krokem průvodce **vytvořením přístupný
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

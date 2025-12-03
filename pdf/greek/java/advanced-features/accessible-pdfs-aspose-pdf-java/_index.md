@@ -232,6 +232,12 @@ document.save(outputDir + "/InlineStructureElements.pdf");
 - Εξερευνήστε την πλήρη [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/) για προχωρημένες λειτουργίες.  
 - Ενσωματώστε αυτή τη ροή εργασίας στις υπάρχουσες Java εφαρμογές σας για αυτοματοποίηση της δημιουργίας προσβάσιμων PDF.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-01  
+**Δοκιμή Με:** Aspose.PDF for Java 25.3  
+**Συγγραφέας:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,11 +245,3 @@ document.save(outputDir + "/InlineStructureElements.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-01  
-**Δοκιμή Με:** Aspose.PDF for Java 25.3  
-**Συγγραφέας:** Aspose  
-
----

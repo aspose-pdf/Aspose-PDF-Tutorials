@@ -233,6 +233,12 @@ Artık Aspose.PDF kullanarak Java'da **erişilebilir PDF** dosyaları oluşturma
 - Gelişmiş özellikler için tam [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/) adresini keşfedin.
 - Bu iş akışını mevcut Java uygulamalarınıza entegre ederek erişilebilir PDF üretimini otomatikleştirin.
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,11 +246,3 @@ Artık Aspose.PDF kullanarak Java'da **erişilebilir PDF** dosyaları oluşturma
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
-
----

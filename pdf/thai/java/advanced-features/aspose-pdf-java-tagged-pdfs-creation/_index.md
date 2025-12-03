@@ -149,6 +149,12 @@ A: ตรวจสอบเอกสารอย่างเป็นทาง�
 - **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-01  
+**ทดสอบด้วย:** Aspose.PDF for Java 25.3  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -156,9 +162,3 @@ A: ตรวจสอบเอกสารอย่างเป็นทาง�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-01  
-**ทดสอบด้วย:** Aspose.PDF for Java 25.3  
-**ผู้เขียน:** Aspose

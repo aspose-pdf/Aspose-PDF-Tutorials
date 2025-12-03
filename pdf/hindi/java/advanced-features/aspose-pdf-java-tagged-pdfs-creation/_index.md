@@ -144,6 +144,12 @@ document.save(outputPath);
 - **अस्थायी लाइसेंस:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **सपोर्ट फ़ोरम:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**अंतिम अपडेट:** 2025-12-01  
+**परीक्षित संस्करण:** Aspose.PDF for Java 25.3  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -151,9 +157,3 @@ document.save(outputPath);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-01  
-**परीक्षित संस्करण:** Aspose.PDF for Java 25.3  
-**लेखक:** Aspose

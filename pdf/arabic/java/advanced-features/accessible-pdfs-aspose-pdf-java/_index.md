@@ -232,6 +232,12 @@ document.save(outputDir + "/InlineStructureElements.pdf");
 - استكشف كامل وثائق [Aspose PDF Java](https://reference.aspose.com/pdf/java/) للحصول على ميزات متقدمة.
 - دمج هذا سير العمل في تطبيقات Java الحالية لتوليد ملفات PDF قابلة للوصول تلقائيًا.
 
+---
+
+**آخر تحديث:** 2025-12-01  
+**تم الاختبار مع:** Aspose.PDF for Java 25.3  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,11 +245,3 @@ document.save(outputDir + "/InlineStructureElements.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-01  
-**تم الاختبار مع:** Aspose.PDF for Java 25.3  
-**المؤلف:** Aspose  
-
----

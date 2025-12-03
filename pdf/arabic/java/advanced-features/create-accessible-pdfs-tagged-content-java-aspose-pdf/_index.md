@@ -236,6 +236,12 @@ System.out.println("Document saved successfully.");
 - دمج هذا التدفق العمل في خدمات جافا الحالية أو وظائف المعالجة الدفعية.  
 - شارك تجاربك واسأل أسئلتك على [منتدى Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**آخر تحديث:** 2025-12-01  
+**تم الاختبار مع:** Aspose.PDF for Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -243,9 +249,3 @@ System.out.println("Document saved successfully.");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-01  
-**تم الاختبار مع:** Aspose.PDF for Java 25.3  
-**المؤلف:** Aspose

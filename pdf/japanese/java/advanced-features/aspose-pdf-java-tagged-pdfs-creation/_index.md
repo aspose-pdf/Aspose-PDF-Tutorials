@@ -145,6 +145,12 @@ A: 公式の Aspose.PDF for Java ドキュメントの “Tagged PDF” セク�
 - **一時ライセンス:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **サポートフォーラム:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**最終更新日:** 2025-12-01  
+**テスト環境:** Aspose.PDF for Java 25.3  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +158,3 @@ A: 公式の Aspose.PDF for Java ドキュメントの “Tagged PDF” セク�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-01  
-**テスト環境:** Aspose.PDF for Java 25.3  
-**作者:** Aspose

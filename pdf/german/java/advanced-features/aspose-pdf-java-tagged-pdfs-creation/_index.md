@@ -144,6 +144,12 @@ A: Lesen Sie die offizielle Aspose.PDF‑Java‑Dokumentation im Abschnitt „Ta
 - **Temporäre Lizenz:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support‑Forum:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-01  
+**Getestet mit:** Aspose.PDF für Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -151,9 +157,3 @@ A: Lesen Sie die offizielle Aspose.PDF‑Java‑Dokumentation im Abschnitt „Ta
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-01  
-**Getestet mit:** Aspose.PDF für Java 25.3  
-**Autor:** Aspose

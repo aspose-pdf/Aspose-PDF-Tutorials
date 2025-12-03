@@ -145,6 +145,12 @@ A: 請參閱官方 Aspose.PDF for Java 文件的 “Tagged PDF” 章節，裡�
 - **臨時授權：** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **支援論壇：** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**最後更新：** 2025-12-01  
+**測試環境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +158,3 @@ A: 請參閱官方 Aspose.PDF for Java 文件的 “Tagged PDF” 章節，裡�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-01  
-**測試環境：** Aspose.PDF for Java 25.3  
-**作者：** Aspose

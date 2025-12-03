@@ -231,6 +231,12 @@ You now have a complete, step‑by‑step guide to **create accessible PDF** fil
 - Explore the full [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/) for advanced features.
 - Integrate this workflow into your existing Java applications to automate accessible PDF generation.
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -238,11 +244,3 @@ You now have a complete, step‑by‑step guide to **create accessible PDF** fil
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
-
----

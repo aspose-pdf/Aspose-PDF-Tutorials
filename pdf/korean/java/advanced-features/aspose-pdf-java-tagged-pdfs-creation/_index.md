@@ -145,6 +145,12 @@ A: 공식 Aspose.PDF for Java 문서의 “Tagged PDF” 섹션에서 사용자 
 - **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,9 +158,3 @@ A: 공식 Aspose.PDF for Java 문서의 “Tagged PDF” 섹션에서 사용자 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

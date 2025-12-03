@@ -233,6 +233,12 @@ Bạn hiện đã có một hướng dẫn đầy đủ, từng bước để **
 - Khám phá toàn bộ [tài liệu Aspose PDF Java](https://reference.aspose.com/pdf/java/) để biết các tính năng nâng cao.
 - Tích hợp quy trình này vào các ứng dụng Java hiện có của bạn để tự động tạo PDF có khả năng truy cập.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-01  
+**Đã kiểm tra với:** Aspose.PDF for Java 25.3  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +246,3 @@ Bạn hiện đã có một hướng dẫn đầy đủ, từng bước để **
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-01  
-**Đã kiểm tra với:** Aspose.PDF for Java 25.3  
-**Tác giả:** Aspose

@@ -235,6 +235,12 @@ A: 若正確設定標記、語言與替代文字，PDF 符合 PDF/UA 標準，�
 - 將此工作流程整合至現有的 Java 服務或批次處理工作。  
 - 在[Aspose PDF 論壇](https://forum.aspose.com/c/pdf/10)分享您的經驗並提出問題。
 
+---
+
+**最後更新：** 2025-12-01  
+**測試環境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ A: 若正確設定標記、語言與替代文字，PDF 符合 PDF/UA 標準，�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-01  
-**測試環境：** Aspose.PDF for Java 25.3  
-**作者：** Aspose
