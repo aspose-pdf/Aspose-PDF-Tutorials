@@ -240,7 +240,7 @@ A: 태그, 언어 및 대체 텍스트가 올바르게 설정되면 PDF는 PDF/U
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/main-container >}}
+{{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
