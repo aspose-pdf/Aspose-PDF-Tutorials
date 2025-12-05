@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Leer hoe u toegankelijke, getagde PDF-documenten maakt met Aspose.PDF voor Java. Verbeter de toegankelijkheid en zoekmachineoptimalisatie door content effectief te structureren."
-"title": "Maak getagde PDF's met Aspose.PDF voor Java - Verbeter de toegankelijkheid en SEO"
-"url": "/nl/java/advanced-features/create-tagged-pdf-aspose-java/"
-"weight": 1
+date: '2025-12-05'
+description: Leer hoe je een getagde PDF maakt met Aspose.PDF voor Java. Deze gids
+  behandelt de Maven‑afhankelijkheid voor Aspose PDF, tagging, toegankelijkheid en
+  SEO‑best practices.
+keywords:
+- tagged PDF
+- Aspose.PDF for Java
+- accessibility enhancement
+language: nl
+title: Hoe een getagde PDF te maken met Aspose.PDF voor Java
+url: /java/advanced-features/create-tagged-pdf-aspose-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +18,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Een getagd PDF-document maken met Aspose.PDF voor Java
+# Een getagde PDF-document maken met Aspose.PDF voor Java
 
-## Invoering
+## Inleiding
 
-Wilt u de toegankelijkheid van uw PDF-documenten verbeteren? Of u nu content voorbereidt voor gebruikers die afhankelijk zijn van ondersteunende technologieën of gewoon uw SEO wilt verbeteren, het maken van getagde PDF's is essentieel. Deze tutorial begeleidt u bij het gebruik ervan. **Aspose.PDF voor Java** Om een volledig toegankelijk en georganiseerd PDF-document te maken met aangepaste tags. Je leert hoe je titels, talen en logische structuren in je documenten instelt, waardoor ze gebruiksvriendelijker en zoekmachine-geoptimaliseerd worden.
+Zoek je naar **how to create tagged pdf** bestanden die zowel toegankelijk als SEO‑vriendelijk zijn? Of je nu ondersteunende technologieën moet ondersteunen of zoekmachines je PDF-structuur wilt laten begrijpen, taggen is de sleutel. In deze tutorial lopen we het volledige proces door met **Aspose.PDF for Java**, van het instellen van de bibliotheek tot het toevoegen van aangepaste tags voor titels, talen, secties, alinea's en spans.
 
-**Wat je leert:**
-- Hoe maak je een getagd PDF-document
-- De titel en taal van uw document instellen
-- Logische structuren bouwen met behulp van sectie- en alinea-elementen
-- Aangepaste tags toevoegen aan alinea's en spans
+**Wat je zult leren**
+- Hoe **how to create tagged pdf** documenten programmatically  
+- Het instellen van de documenttitel en -taal voor betere toegankelijkheid  
+- Het bouwen van logische structuren met secties en alinea's  
+- Het toevoegen van aangepaste tags aan alinea's en spans voor fijnmazige controle  
 
-Laten we beginnen met het instellen van uw omgeving!
+Laten we beginnen en je omgeving klaar maken!
+
+## Snelle antwoorden
+- **Wat is een getagde PDF?** Een PDF die een logische structuur (tags) bevat die koppen, alinea's, tabellen, enz. beschrijft, waardoor schermlezers en zoekmachines de inhoud kunnen interpreteren.  
+- **Waarom Aspose.PDF for Java gebruiken?** Het biedt een rijke API voor het maken, bewerken en taggen van PDF's zonder Adobe Acrobat.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor evaluatie; een licentie is vereist voor productiegebruik.  
+- **Welke buildtool wordt aanbevolen?** Maven of Gradle — beide worden ondersteund; zie het Maven‑dependency‑voorbeeld hieronder.  
+- **Hoe lang duurt de implementatie?** Meestal minder dan 15 minuten voor een basis getagde PDF.
 
 ## Vereisten
 
-Voordat u begint met het maken van getagde PDF's, moet u ervoor zorgen dat u het volgende hebt:
-- **Aspose.PDF voor Java**: Download en neem deze bibliotheek op in uw project.
-- **Java-ontwikkelingskit (JDK)**: Versie 8 of hoger wordt aanbevolen.
-- Basiskennis van Java-programmeerconcepten.
+- Bibliotheek **Aspose.PDF for Java** (downloaden of toevoegen via Maven/Gradle)  
+- Java Development Kit (JDK) 8 of nieuwer  
+- Basiskennis van Java-programmeren  
 
-## Aspose.PDF instellen voor Java
+## Instellen van Aspose.PDF voor Java
 
-Om Aspose.PDF voor Java te kunnen gebruiken, moet u het in uw project integreren. Zo werkt het:
+### Maven‑dependency voor Aspose PDF
 
-### Maven-installatie
+Voeg de volgende **maven dependency aspose pdf** entry toe aan je `pom.xml`:
 
-Voeg de volgende afhankelijkheid toe aan uw `pom.xml` bestand:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,53 +59,51 @@ Voeg de volgende afhankelijkheid toe aan uw `pom.xml` bestand:
 </dependency>
 ```
 
-### Gradle-installatie
+### Gradle‑installatie
 
-Neem deze regel op in uw `build.gradle` bestand:
+Als je de voorkeur geeft aan Gradle, voeg dan deze regel toe in `build.gradle`:
+
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### Licentieverwerving
+#### Licentie‑acquisitie
 
-Aspose biedt een gratis proefversie, een tijdelijke licentie en aankoopopties voor verschillende behoeften:
-- **Gratis proefperiode**: Test de bibliotheek met enkele beperkingen.
-- **Tijdelijke licentie**: Schaf tijdelijk een licentie met volledige functionaliteit aan.
-- **Aankoop**: Schaf een permanente licentie aan voor langdurig gebruik.
+Aspose biedt een gratis proefversie, tijdelijke licentie en volledige aankoopopties:
+- **Free Trial** – beperkte gebruik, perfect voor testen.  
+- **Temporary License** – volledige functionaliteit voor een korte periode.  
+- **Permanent License** – onbeperkt gebruik in productie.  
 
 ### Basisinitialisatie
 
-Hier leest u hoe u Aspose.PDF in uw Java-project kunt initialiseren:
+Hieronder staat een minimale Java‑klasse die een `Document`‑instantie maakt en opslaat op schijf:
+
 ```java
 import com.aspose.pdf.Document;
 
 public class PdfCreator {
     public static void main(String[] args) {
-        // Een nieuw PDF-documentexemplaar maken
+        // Create a new PDF Document instance
         Document document = new Document();
         
-        // Bewerkingen uitvoeren...
+        // Perform operations...
         
-        // Sla de gemaakte PDF op schijf op
+        // Save the created PDF to disk
         String outputPath = "path/to/output/CustomTag.pdf";
         document.save(outputPath);
     }
 }
 ```
 
-## Implementatiegids
+## Hoe een getagde PDF maken met Aspose.PDF voor Java
 
-### Stap 1: Een gelabeld PDF-document maken en configureren
+### Stap 1: Een getagde PDF‑document maken en configureren
 
-#### Overzicht
+#### Overzicht  
+Taggen begint met een logische structuur — titel, taal, secties en alinea's.
 
-Om een getagde PDF te maken, moet u de logische structuur instellen. Dit omvat het definiëren van titels, talen, secties en alinea's.
+#### Implementatie
 
-#### Stapsgewijze implementatie
-
-**Een nieuw PDF-document maken**
-
-Begin met het maken van een `Document` aanleg:
 ```java
 import com.aspose.pdf.Document;
 
@@ -101,18 +111,12 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document();
 ```
 
-**Gelabelde inhoud verkrijgen**
-
-Ga naar de getagde inhoud om deze te bewerken:
 ```java
 import com.aspose.pdf.tagged.ITaggedContent;
 
 ITaggedContent taggedContent = document.getTaggedContent();
 ```
 
-**Titel en taal instellen**
-
-Definieer de titel en taal voor uw PDF:
 ```java
 String title = "Tagged Pdf Document";
 String language = "en-US";
@@ -121,13 +125,11 @@ taggedContent.setTitle(title);
 taggedContent.setLanguage(language);
 ```
 
-### Stap 2: Alinea-elementen toevoegen met aangepaste tags
+### Stap 2: Paragraafelementen toevoegen met aangepaste tags
 
-#### Overzicht
+#### Overzicht  
+Alinea's vormen de ruggengraat van de leesvolgorde van het document.
 
-Voeg alinea's toe om uw document te structureren en wijs aangepaste tags toe om de toegankelijkheid te verbeteren.
-
-**Alinea-elementen maken en configureren**
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.SectElement;
@@ -138,48 +140,38 @@ taggedContent.getRootElement().appendChild(sect);
 ParagraphElement p1 = taggedContent.createParagraphElement();
 p1.setText("P1. ");
 p1.setTag("P1");
-// Herhaal dit voor de andere alinea's...
+// Repeat for other paragraphs...
 ```
 
-**Paragrafen aan sectie toevoegen**
-
-Zorg ervoor dat elke alinea deel uitmaakt van de structuur van het document:
 ```java
 sect.appendChild(p1);
-// Voeg andere alinea's op vergelijkbare wijze toe...
+// Append other paragraphs similarly...
 ```
 
-### Stap 3: Span-elementen toevoegen met aangepaste tags
+### Stap 3: Span‑elementen toevoegen met aangepaste tags
 
-#### Overzicht
+#### Overzicht  
+Spans stellen je in staat om inline fragmenten binnen alinea's te taggen.
 
-Met behulp van overspanningen binnen alinea's kunt u de inhoud verder opsplitsen, waardoor u gedetailleerdere tags kunt gebruiken.
-
-**Span-elementen maken en configureren**
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.ils.SpanElement;
 
 SpanElement span1 = taggedContent.createSpanElement();
 span1.setText("Span 1.");
 span1.setTag("SPAN");
-// Herhaal dit voor andere overspanningen...
+// Repeat for other spans...
 ```
 
-**Spans aan alinea's toevoegen**
-
-Koppel elk span-element aan de bijbehorende alinea:
 ```java
 p1.appendChild(span1);
-// Voeg andere overspanningen op vergelijkbare wijze toe...
+// Append other spans similarly...
 ```
 
-### Stap 4: Gelabeld PDF-document opslaan
+### Stap 4: Het getagde PDF‑document opslaan
 
-#### Overzicht
+#### Overzicht  
+Zodra de logische structuur is opgebouwd, sla je het bestand op.
 
-Zodra uw document is gestructureerd en getagd, slaat u het op in de opgegeven map.
-
-**Sla het document op**
 ```java
 String outputPath = dataDir + "CustomTag.pdf";
 document.save(outputPath);
@@ -187,46 +179,44 @@ document.save(outputPath);
 
 ## Praktische toepassingen
 
-- **Toegankelijkheid**: Verbeter het leesplezier voor gebruikers met een beperking door een logische structuur te bieden.
-- **SEO-optimalisatie**: Verbeter de indexering van uw PDF's door zoekmachines met de juiste tagging.
-- **Data-integratie**:Maak het extraheren en integreren van gegevens uit PDF's in andere systemen eenvoudiger.
+- **Accessibility** – Schermlezers vertrouwen op tags om inhoud in de juiste volgorde weer te geven.  
+- **SEO Optimization** – Zoekmachines kunnen getagde PDF's effectiever indexeren, waardoor vindbaarheid verbetert.  
+- **Data Integration** – Gestructureerde PDF's vereenvoudigen gegevensextractie voor downstream‑systemen.  
 
-## Prestatieoverwegingen
+## Prestaties overwegingen
 
-- Optimaliseer de prestaties door het geheugen efficiënt te beheren, vooral bij het werken met grote documenten.
-- Gebruik de ingebouwde methoden van Aspose.PDF om taken die veel bronnen vereisen, effectief uit te voeren.
+- Beheer het geheugen verstandig bij het verwerken van grote PDF's (bijv. gebruik `Document.optimizeResources()`).  
+- Hergebruik `Document`‑objecten waar mogelijk om overhead te verminderen.  
 
 ## Conclusie
 
-Het maken van getagde PDF's met Aspose.PDF voor Java verbetert niet alleen de toegankelijkheid van documenten, maar ook de SEO. Door deze handleiding te volgen, hebt u geleerd hoe u uw omgeving instelt, een document logisch structureert en tags voor alinea's en spans aanpast. Experimenteer verder door te experimenteren met complexere documenten of Aspose.PDF te integreren in grotere projecten.
+Door deze gids te volgen weet je nu **how to create tagged pdf** documenten met Aspose.PDF for Java. Je hebt de omgeving opgezet, titels en talen gedefinieerd, een logische hiërarchie opgebouwd en aangepaste tags toegepast op alinea's en spans. Getagde PDF's verbeteren niet alleen de toegankelijkheid, maar geven je inhoud ook een SEO‑voordeel. Experimenteer met tabellen, lijsten en afbeeldingen om je tag‑expertise te verdiepen.
 
-## FAQ-sectie
+## Veelgestelde vragen
 
-**V1: Hoe installeer ik Aspose.PDF voor Java?**
-A1: U kunt Maven of Gradle gebruiken om het als afhankelijkheid in uw project op te nemen, zoals eerder getoond.
+**Q: Hoe installeer ik Aspose.PDF for Java?**  
+A: Gebruik Maven of Gradle zoals getoond in de secties “Maven Dependency for Aspose PDF” of “Gradle Installation”.
 
-**V2: Waarvoor worden getagde PDF's gebruikt?**
-A2: Gelabelde PDF's bieden structuur en betekenis aan de inhoud van documenten, wat de toegankelijkheid en SEO verbetert.
+**Q: Waar worden getagde PDF's voor gebruikt?**  
+A: Ze bieden structurele informatie die de toegankelijkheid voor ondersteunende technologieën verbetert en SEO versterkt door zoekmachines de documenthiërarchie te laten begrijpen.
 
-**V3: Kan ik tags aanpassen die verder gaan dan paragrafen en spans?**
-A3: Ja, Aspose.PDF ondersteunt verschillende elementen, zoals tabellen en lijsten, die kunnen worden getagd.
+**Q: Kan ik tags aanpassen buiten alinea's en spans?**  
+A: Ja. Aspose.PDF ondersteunt tagging voor tabellen, lijsten, afbeeldingen en vele andere logische elementen.
 
-**V4: Hoe verkrijg ik een tijdelijke licentie voor Aspose.PDF?**
-A4: Bezoek de [Aspose-website](https://purchase.aspose.com/temporary-license/) om een tijdelijke vergunning aan te vragen.
+**Q: Hoe verkrijg ik een tijdelijke licentie voor Aspose.PDF?**  
+A: Bezoek de [Aspose temporary license page](https://purchase.aspose.com/temporary-license/) en vraag een proeflicentie aan.
 
-**V5: Wat moet ik doen als het verwerken van mijn PDF-bestanden traag verloopt?**
-A5: Optimaliseer uw code door bronnen efficiënt te beheren en de juiste methoden te gebruiken die Aspose.PDF biedt.
+**Q: Mijn PDF-verwerking is traag — wat kan ik doen?**  
+A: Optimaliseer het geheugengebruik met `Document.optimizeResources()`, verwerk pagina's in batches, en vermijd indien mogelijk het volledig laden van het document in het geheugen.
 
 ## Bronnen
 
-- **Documentatie**: [Aspose.PDF Java-referentie](https://reference.aspose.com/pdf/java/)
-- **Download**: [Aspose.PDF-releases voor Java](https://releases.aspose.com/pdf/java/)
-- **Aankoop**: [Koop Aspose.PDF](https://purchase.aspose.com/buy)
-- **Gratis proefperiode**: [Probeer Aspose.PDF gratis](https://releases.aspose.com/pdf/java/)
-- **Tijdelijke licentie**: [Tijdelijke licentie aanvragen](https://purchase.aspose.com/temporary-license/)
-- **Steun**: [Aspose Forum voor PDF](https://forum.aspose.com/c/pdf/10)
-
-Door deze handleiding te volgen, bent u goed op weg om het maken van getagde PDF's met Aspose.PDF voor Java onder de knie te krijgen. Veel plezier met programmeren!
+- **Documentatie**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Download**: [Aspose.PDF Releases for Java](https://releases.aspose.com/pdf/java/)  
+- **Aankoop**: [Buy Aspose.PDF](https://purchase.aspose.com/buy)  
+- **Gratis proefversie**: [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)  
+- **Tijdelijke licentie**: [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Ondersteuning**: [Aspose Forum for PDF](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -235,3 +225,9 @@ Door deze handleiding te volgen, bent u goed op weg om het maken van getagde PDF
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2025-12-05  
+**Getest met:** Aspose.PDF for Java 25.3  
+**Auteur:** Aspose

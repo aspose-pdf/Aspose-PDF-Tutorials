@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Java için Aspose.PDF kullanarak erişilebilir, etiketli PDF belgelerinin nasıl oluşturulacağını öğrenin. İçeriği etkili bir şekilde yapılandırarak erişilebilirliği ve arama motoru optimizasyonunu iyileştirin."
-"title": "Java için Aspose.PDF ile Etiketli PDF'ler Oluşturun&#58; Erişilebilirliği ve SEO'yu Geliştirin"
-"url": "/tr/java/advanced-features/create-tagged-pdf-aspose-java/"
-"weight": 1
+date: '2025-12-05'
+description: Aspose.PDF for Java kullanarak etiketli PDF oluşturmayı öğrenin. Bu kılavuz,
+  Aspose PDF için Maven bağımlılığını, etiketlemeyi, erişilebilirliği ve SEO en iyi
+  uygulamalarını kapsar.
+keywords:
+- tagged PDF
+- Aspose.PDF for Java
+- accessibility enhancement
+language: tr
+title: Aspose.PDF for Java ile Etiketli PDF Nasıl Oluşturulur
+url: /java/advanced-features/create-tagged-pdf-aspose-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +18,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java için Aspose.PDF Kullanarak Etiketli PDF Belgesi Oluşturma
+# Java için Aspose.PDF kullanarak Etiketli PDF Belgesi Oluşturma
 
-## giriiş
+## Giriş
 
-PDF belgelerinizin erişilebilirliğini artırmak mı istiyorsunuz? İster yardımcı teknolojilere güvenen kullanıcılar için içerik hazırlıyor olun, ister yalnızca SEO'yu iyileştirmek istiyor olun, etiketli PDF'ler oluşturmak önemlidir. Bu eğitim, etiketli PDF'leri kullanma konusunda size rehberlik eder. **Java için Aspose.PDF** özel etiketlerle tamamen erişilebilir ve düzenli bir PDF belgesi oluşturmak için. Belgelerinizde başlıkları, dilleri ve mantıksal yapıları nasıl ayarlayacağınızı öğreneceksiniz, bunları daha kullanıcı dostu ve arama motoru için optimize edilmiş hale getireceksiniz.
+Erişilebilir ve SEO‑dostu PDF dosyaları **how to create tagged pdf** oluşturmak mı istiyorsunuz? Yardımcı teknolojileri desteklemeniz gerekse ya da arama motorlarının PDF yapınızı anlamasını isteseniz, etiketleme anahtardır. Bu öğreticide, **Aspose.PDF for Java** kullanarak kütüphaneyi kurmaktan başlıklar, diller, bölümler, paragraflar ve span'lar için özel etiketler eklemeye kadar tüm süreci adım adım göstereceğiz.
 
-**Ne Öğreneceksiniz:**
-- Etiketli bir PDF belgesi nasıl oluşturulur
-- Belgenizin başlığını ve dilini ayarlama
-- Bölüm ve paragraf öğelerini kullanarak mantıksal yapılar oluşturma
-- Paragraflara ve bölümlere özel etiketler ekleme
+**Öğrenecekleriniz**
+- Programatik olarak **how to create tagged pdf** belgeleri nasıl oluşturulur  
+- Daha iyi erişilebilirlik için belge başlığını ve dilini ayarlama  
+- Bölümler ve paragraflar ile mantıksal yapı oluşturma  
+- Paragraflara ve span'lara ince ayarlı kontrol için özel etiketler ekleme  
 
-Ortamınızı kurmaya başlayalım!
+Haydi başlayalım ve ortamınızı hazırlayalım!
 
-## Ön koşullar
+## Hızlı Yanıtlar
+- **Etiketli PDF nedir?** Başlıklar, paragraflar, tablolar vb. öğeleri tanımlayan bir mantıksal yapı (etiketler) içeren PDF; ekran okuyucular ve arama motorları içeriği yorumlayabilir.  
+- **Neden Aspose.PDF for Java kullanmalısınız?** Adobe Acrobat gerektirmeden PDF oluşturma, düzenleme ve etiketleme için zengin bir API sunar.  
+- **Lisans gereklimi?** Değerlendirme için ücretsiz deneme çalışır; üretim kullanımı için lisans gerekir.  
+- **Hangi derleme aracı önerilir?** Maven veya Gradle — her ikisi de desteklenir; aşağıdaki Maven bağımlılığı örneğine bakın.  
+- **Uygulama ne kadar sürer?** Temel bir etiketli PDF için genellikle 15 dakikadan az sürer.
 
-Etiketli PDF'ler oluşturmaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-- **Java için Aspose.PDF**: Bu kütüphaneyi indirip projenize ekleyin.
-- **Java Geliştirme Kiti (JDK)**: Sürüm 8 veya üzeri önerilir.
-- Java programlama kavramlarının temel düzeyde anlaşılması.
+## Önkoşullar
 
-## Java için Aspose.PDF Kurulumu
+- **Aspose.PDF for Java** kütüphanesi (indirin veya Maven/Gradle üzerinden ekleyin)  
+- **Java Development Kit (JDK)** 8 veya daha yeni  
+- Temel Java programlama bilgisi  
 
-Java için Aspose.PDF'yi kullanmaya başlamak için, onu projenize entegre etmeniz gerekir. İşte nasıl:
+## Aspose.PDF for Java Kurulumu
 
-### Maven Kurulumu
+### Aspose PDF için Maven Bağımlılığı
 
-Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
+Aşağıdaki **maven dependency aspose pdf** girdisini `pom.xml` dosyanıza ekleyin:
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,51 +61,49 @@ Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
 
 ### Gradle Kurulumu
 
-Bu satırı ekleyin `build.gradle` dosya:
+Gradle tercih ediyorsanız, `build.gradle` dosyanıza bu satırı ekleyin:
+
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### Lisans Edinimi
+#### Lisans Edinme
 
-Aspose farklı ihtiyaçlar için ücretsiz deneme, geçici lisans ve satın alma seçenekleri sunuyor:
-- **Ücretsiz Deneme**: Kütüphaneyi bazı kısıtlamalarla test edin.
-- **Geçici Lisans**: Geçici olarak tüm özellikleri kapsayan bir lisans edinin.
-- **Satın almak**: Uzun süreli kullanım için kalıcı lisans edinin.
+Aspose ücretsiz deneme, geçici lisans ve tam satın alma seçenekleri sunar:
+- **Free Trial** – sınırlı kullanım, test için mükemmel.  
+- **Temporary License** – kısa bir süre tam özellikler.  
+- **Permanent License** – üretimde sınırsız kullanım.  
 
 ### Temel Başlatma
 
-Java projenizde Aspose.PDF'yi şu şekilde başlatabilirsiniz:
+Aşağıda bir `Document` örneği oluşturan ve diske kaydeden minimal bir Java sınıfı bulunmaktadır:
+
 ```java
 import com.aspose.pdf.Document;
 
 public class PdfCreator {
     public static void main(String[] args) {
-        // Yeni bir PDF Belgesi örneği oluşturun
+        // Create a new PDF Document instance
         Document document = new Document();
         
-        // İşlemleri gerçekleştir...
+        // Perform operations...
         
-        // Oluşturulan PDF'yi diske kaydedin
+        // Save the created PDF to disk
         String outputPath = "path/to/output/CustomTag.pdf";
         document.save(outputPath);
     }
 }
 ```
 
-## Uygulama Kılavuzu
+## Aspose.PDF for Java ile Etiketli PDF Oluşturma
 
-### Adım 1: Etiketli bir PDF Belgesi Oluşturun ve Yapılandırın
+### Adım 1: Etiketli PDF Belgesi Oluşturma ve Yapılandırma
 
-#### Genel bakış
+#### Genel Bakış  
+Etiketleme, mantıksal bir yapı—başlık, dil, bölümler ve paragraflar—ile başlar.
 
-Etiketli bir PDF oluşturmak, başlıkları, dilleri, bölümleri ve paragrafları tanımlamayı içeren mantıksal yapısını kurmayı içerir.
+#### Uygulama
 
-#### Adım Adım Uygulama
-
-**Yeni bir PDF Belgesi Oluştur**
-
-Bir tane oluşturarak başlayın `Document` misal:
 ```java
 import com.aspose.pdf.Document;
 
@@ -101,18 +111,12 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document();
 ```
 
-**Etiketli İçeriği Edinin**
-
-Etiketli içeriği düzenlemek için içeriğe erişin:
 ```java
 import com.aspose.pdf.tagged.ITaggedContent;
 
 ITaggedContent taggedContent = document.getTaggedContent();
 ```
 
-**Başlık ve Dil Ayarla**
-
-PDF'niz için başlığı ve dili tanımlayın:
 ```java
 String title = "Tagged Pdf Document";
 String language = "en-US";
@@ -121,13 +125,11 @@ taggedContent.setTitle(title);
 taggedContent.setLanguage(language);
 ```
 
-### Adım 2: Özel Etiketlerle Paragraf Öğeleri Ekleyin
+### Adım 2: Özel Etiketli Paragraf Öğeleri Ekleme
 
-#### Genel bakış
+#### Genel Bakış  
+Paragraflar, belgenin okuma sırasının omurgasını oluşturur.
 
-Belgenizi yapılandırmak için paragraflar ekleyin ve erişilebilirliği artırmak için özel etiketler atayın.
-
-**Paragraf Öğelerini Oluşturun ve Yapılandırın**
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.SectElement;
@@ -138,48 +140,38 @@ taggedContent.getRootElement().appendChild(sect);
 ParagraphElement p1 = taggedContent.createParagraphElement();
 p1.setText("P1. ");
 p1.setTag("P1");
-// Diğer paragraflar için tekrarlayın...
+// Repeat for other paragraphs...
 ```
 
-**Bölüme Paragraf Ekle**
-
-Her paragrafın belgenin yapısının bir parçası olduğundan emin olun:
 ```java
 sect.appendChild(p1);
-// Diğer paragrafları da benzer şekilde ekleyin...
+// Append other paragraphs similarly...
 ```
 
-### Adım 3: Özel Etiketlerle Span Elemanları Ekleyin
+### Adım 3: Özel Etiketli Span Öğeleri Ekleme
 
-#### Genel bakış
+#### Genel Bakış  
+Span'lar, paragraflar içinde satır içi parçaları etiketlemenizi sağlar.
 
-Paragraflar içindeki aralıklar, içeriğin daha ayrıntılı şekilde parçalanmasına yardımcı olur ve daha ayrıntılı etiketleme yapılmasına olanak tanır.
-
-**Span Elemanlarını Oluşturun ve Yapılandırın**
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.ils.SpanElement;
 
 SpanElement span1 = taggedContent.createSpanElement();
 span1.setText("Span 1.");
 span1.setTag("SPAN");
-// Diğer aralıklar için de aynı işlemi tekrarlayın...
+// Repeat for other spans...
 ```
 
-**Paragraflara Aralık Ekle**
-
-Her bir span öğesini ilgili paragrafa ekleyin:
 ```java
 p1.appendChild(span1);
-// Diğer açıklıkları da benzer şekilde ekleyin...
+// Append other spans similarly...
 ```
 
-### Adım 4: Etiketli PDF Belgesini Kaydedin
+### Adım 4: Etiketli PDF Belgesini Kaydetme
 
-#### Genel bakış
+#### Genel Bakış  
+Mantıksal yapı oluşturulduktan sonra dosyayı kalıcı hale getirin.
 
-Belgeniz yapılandırılıp etiketlendikten sonra, onu belirtilen dizine kaydedin.
-
-**Belgeyi Kaydet**
 ```java
 String outputPath = dataDir + "CustomTag.pdf";
 document.save(outputPath);
@@ -187,46 +179,44 @@ document.save(outputPath);
 
 ## Pratik Uygulamalar
 
-- **Erişilebilirlik**:Mantıksal bir yapı sağlayarak engelli kullanıcıların okuma deneyimini geliştirin.
-- **SEO Optimizasyonu**: PDF'lerinizin arama motoru indekslemesini uygun etiketleme yoluyla iyileştirin.
-- **Veri Entegrasyonu**: PDF'lerden veri çıkarılmasını ve diğer sistemlere entegrasyonunu kolaylaştırın.
+- **Accessibility** – Ekran okuyucular, içeriği doğru sırada sunmak için etiketlere dayanır.  
+- **SEO Optimization** – Arama motorları, etiketli PDF'leri daha etkili indeksleyerek bulunabilirliği artırır.  
+- **Data Integration** – Yapılandırılmış PDF'ler, sonraki sistemler için veri çıkarımını basitleştirir.  
 
-## Performans Hususları
+## Performans Düşünceleri
 
-- Özellikle büyük belgelerle uğraşırken belleği etkin bir şekilde yöneterek performansı optimize edin.
-- Kaynak yoğun görevleri etkili bir şekilde halletmek için Aspose.PDF'nin yerleşik yöntemlerini kullanın.
+- Büyük PDF'lerle çalışırken belleği akıllıca yönetin (ör. `Document.optimizeResources()` kullanın).  
+- Mümkün olduğunda `Document` nesnelerini yeniden kullanarak yükü azaltın.  
 
-## Çözüm
+## Sonuç
 
-Java için Aspose.PDF kullanarak etiketli PDF'ler oluşturmak yalnızca belge erişilebilirliğini geliştirmekle kalmaz, aynı zamanda SEO'yu da artırır. Bu kılavuzu izleyerek, ortamınızı nasıl kuracağınızı, bir belgeyi mantıksal olarak nasıl yapılandıracağınızı ve paragraflar ve aralıklar için etiketleri nasıl özelleştireceğinizi öğrendiniz. Daha karmaşık belgelerle deneyerek veya Aspose.PDF'yi daha büyük projelere entegre ederek daha fazlasını keşfedin.
+Bu rehberi izleyerek artık Aspose.PDF for Java ile **how to create tagged pdf** belgeleri oluşturmayı biliyorsunuz. Ortamı kurdunuz, başlıkları ve dilleri tanımladınız, mantıksiyerarşi oluşturdunuz ve paragraflara ve span'lara özel etiketler uyguladınız. Etiketli PDF'ler sadece erişilebilirliği artırmakla kalmaz, aynı zamanda içeriğinize SEO avantajı sağlar. Etiketleme uzmanlığınızı derinleştirmek için tablolar, listeler ve görsellerle deney yapın.
 
-## SSS Bölümü
+## Sıkça Sorulan Sorular
 
-**S1: Java için Aspose.PDF'yi nasıl yüklerim?**
-C1: Daha önce gösterildiği gibi, bunu projenize bağımlılık olarak dahil etmek için Maven veya Gradle kullanabilirsiniz.
+**S: Aspose.PDF for Java nasıl kurulur?**  
+C: “Aspose PDF için Maven Bağımlılığı” veya “Gradle Kurulumu” bölümlerinde gösterildiği gibi Maven veya Gradle kullanın.
 
-**S2: Etiketli PDF'ler ne için kullanılır?**
-C2: Etiketli PDF'ler belge içeriğine yapı ve anlam katarak erişilebilirliği ve SEO'yu iyileştirir.
+**S: Etiketli PDF'ler ne amaçla kullanılır?**  
+C: Yardımcı teknolojiler için erişilebilirliği artıran yapısal bilgi sağlar ve arama motorlarının belge hiyerarşisini anlamasına olanak tanıyarak SEO'yu iyileştirir.
 
-**S3: Etiketleri paragrafların ve alanların ötesinde özelleştirebilir miyim?**
-C3: Evet, Aspose.PDF etiketlenebilen tablolar ve listeler gibi çeşitli öğeleri destekler.
+**S: Paragraflar ve span'ların ötesinde etiketleri özelleştirebilir miyim?**  
+C: Evet. Aspose.PDF, tablolar, listeler, görseller ve birçok diğer mantıksal öğe için etiketlemeyi destekler.
 
-**S4: Aspose.PDF için geçici lisansı nasıl alabilirim?**
-A4: Ziyaret edin [Aspose web sitesi](https://purchase.aspose.com/temporary-license/) geçici lisans talebinde bulunmak.
+**S: Aspose.PDF için geçici lisans nasıl alınır?**  
+C: [Aspose geçici lisans sayfasını](https://purchase.aspose.com/temporary-license/) ziyaret edin ve deneme lisansı talep edin.
 
-**S5: PDF dosyalarımın işlenmesi yavaşsa ne yapmalıyım?**
-C5: Kaynaklarınızı verimli bir şekilde yöneterek ve Aspose.PDF tarafından sağlanan uygun yöntemleri kullanarak kodunuzu optimize edin.
+**S: PDF işleme sürecim yavaş—ne yapabilirim?**  
+C: `Document.optimizeResources()` ile bellek kullanımını optimize edin, sayfaları toplu işleyin ve mümkün olduğunca tüm belgeyi belleğe yüklemekten kaçının.
 
 ## Kaynaklar
 
-- **Belgeleme**: [Aspose.PDF Java Referansı](https://reference.aspose.com/pdf/java/)
-- **İndirmek**: [Java için Aspose.PDF Sürümleri](https://releases.aspose.com/pdf/java/)
-- **Satın almak**: [Aspose.PDF'yi satın al](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme**: [Aspose.PDF'yi Ücretsiz Deneyin](https://releases.aspose.com/pdf/java/)
-- **Geçici Lisans**: [Geçici Lisans Talebi](https://purchase.aspose.com/temporary-license/)
-- **Destek**: [PDF için Aspose Forumu](https://forum.aspose.com/c/pdf/10)
-
-Bu kılavuzu takip ederek, Aspose.PDF for Java ile etiketli PDF'lerin oluşturulmasında ustalaşma yolunda iyi bir mesafe kat etmiş olacaksınız. İyi kodlamalar!
+- **Documentation**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Download**: [Aspose.PDF Releases for Java](https://releases.aspose.com/pdf/java/)  
+- **Purchase**: [Buy Aspose.PDF](https://purchase.aspose.com/buy)  
+- **Free Trial**: [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)  
+- **Temporary License**: [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support**: [Aspose Forum for PDF](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -235,3 +225,9 @@ Bu kılavuzu takip ederek, Aspose.PDF for Java ile etiketli PDF'lerin oluşturul
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2025-12-05  
+**Test Edilen Versiyon:** Aspose.PDF for Java 25.3  
+**Yazar:** Aspose

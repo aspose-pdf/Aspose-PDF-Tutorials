@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Scopri come creare documenti PDF accessibili e taggati utilizzando Aspose.PDF per Java. Migliora l'accessibilità e l'ottimizzazione per i motori di ricerca strutturando i contenuti in modo efficace."
-"title": "Crea PDF con tag con Aspose.PDF per Java - Migliora l'accessibilità e la SEO"
-"url": "/it/java/advanced-features/create-tagged-pdf-aspose-java/"
-"weight": 1
+date: '2025-12-05'
+description: Scopri come creare PDF con tag usando Aspose.PDF per Java. Questa guida
+  copre la dipendenza Maven per Aspose PDF, il tagging, l'accessibilità e le migliori
+  pratiche SEO.
+keywords:
+- tagged PDF
+- Aspose.PDF for Java
+- accessibility enhancement
+language: it
+title: Come creare PDF taggati con Aspose.PDF per Java
+url: /java/advanced-features/create-tagged-pdf-aspose-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +18,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Creazione di un documento PDF con tag utilizzando Aspose.PDF per Java
+# Creare un documento PDF con tag utilizzando Aspose.PDF per Java
 
 ## Introduzione
 
-Desideri migliorare l'accessibilità dei tuoi documenti PDF? Che tu stia preparando contenuti per utenti che utilizzano tecnologie assistive o desideri semplicemente migliorare la SEO, creare PDF con tag è essenziale. Questo tutorial ti guiderà nell'utilizzo di **Aspose.PDF per Java** Per creare un documento PDF completamente accessibile e organizzato con tag personalizzati. Imparerai a impostare titoli, lingue e strutture logiche nei tuoi documenti, rendendoli più intuitivi e ottimizzati per i motori di ricerca.
+Stai cercando di **come creare PDF con tag** che siano sia accessibili sia SEO‑friendly? Che tu abbia bisogno di supportare le tecnologie assistive o voglia che i motori di ricerca comprendano la struttura del tuo PDF, il tagging è la chiave. In questo tutorial ti guideremo attraverso l'intero processo con **Aspose.PDF per Java**, dalla configurazione della libreria all'aggiunta di tag personalizzati per titoli, lingue, sezioni, paragrafi e span.
 
-**Cosa imparerai:**
-- Come creare un documento PDF taggato
-- Impostazione del titolo e della lingua del documento
-- Creazione di strutture logiche utilizzando elementi di sezione e paragrafo
-- Aggiunta di tag personalizzati a paragrafi e intervalli
+**Cosa imparerai**
+- Come **creare PDF con tag** documenti programmaticamente  
+- Impostare il titolo e la lingua del documento per una migliore accessibilità  
+- Costruire strutture logiche con sezioni e paragrafi  
+- Aggiungere tag personalizzati a paragrafi e span per un controllo di precisione  
 
-Cominciamo a configurare il tuo ambiente!
+Iniziamo e prepariamo il tuo ambiente!
+
+## Risposte rapide
+- **Che cos'è un PDF con tag?** Un PDF che contiene una struttura logica (tag) che descrive intestazioni, paragrafi, tabelle, ecc., consentendo ai lettori di schermo e ai motori di ricerca di interpretare il contenuto.  
+- **Perché usare Aspose.PDF per Java?** Offre un'API completa per creare, modificare e taggare PDF senza richiedere Adobe Acrobat.  
+- **Ho bisogno di una licenza?** Una prova gratuita è sufficiente per la valutazione; è necessaria una licenza per l'uso in produzione.  
+- **Quale strumento di build è consigliato?** Maven o Gradle—entrambi sono supportati; vedi l'esempio di dipendenza Maven qui sotto.  
+- **Quanto tempo richiede l'implementazione?** Tipicamente meno di 15 minuti per un PDF con tag di base.
 
 ## Prerequisiti
 
-Prima di iniziare a creare PDF con tag, assicurati di avere quanto segue:
-- **Aspose.PDF per Java**: Scarica e includi questa libreria nel tuo progetto.
-- **Kit di sviluppo Java (JDK)**: Si consiglia la versione 8 o successiva.
-- Comprensione di base dei concetti di programmazione Java.
+- **Libreria Aspose.PDF per Java** (download o aggiungi via Maven/Gradle)  
+- **Java Development Kit (JDK)** 8 o superiore  
+- Conoscenza di base della programmazione Java  
 
-## Impostazione di Aspose.PDF per Java
+## Configurazione di Aspose.PDF per Java
 
-Per iniziare a utilizzare Aspose.PDF per Java, è necessario integrarlo nel progetto. Ecco come fare:
+### Dipendenza Maven per Aspose PDF
 
-### Installazione Maven
+Aggiungi la seguente **dipendenza Maven aspose pdf** al tuo `pom.xml`:
 
-Aggiungi la seguente dipendenza al tuo `pom.xml` file:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,53 +59,52 @@ Aggiungi la seguente dipendenza al tuo `pom.xml` file:
 </dependency>
 ```
 
-### Installazione di Gradle
+### Installazione Gradle
 
-Includi questa riga nel tuo `build.gradle` file:
+Se preferisci Gradle, includi questa riga in `build.gradle`:
+
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### Acquisizione della licenza
 
-Aspose offre una prova gratuita, una licenza temporanea e opzioni di acquisto per diverse esigenze:
-- **Prova gratuita**: Testa la libreria con alcune limitazioni.
-- **Licenza temporanea**: Ottieni temporaneamente una licenza completa.
-- **Acquistare**: Acquisisci una licenza permanente per un utilizzo a lungo termine.
+Aspose offre una prova gratuita, una licenza temporanea e opzioni di acquisto completo:
+
+- **Prova gratuita** – utilizzo limitato, perfetta per i test.  
+- **Licenza temporanea** – tutte le funzionalità per un breve periodo.  
+- **Licenza permanente** – uso illimitato in produzione.  
 
 ### Inizializzazione di base
 
-Ecco come puoi inizializzare Aspose.PDF nel tuo progetto Java:
+Di seguito è una classe Java minimale che crea un'istanza `Document` e la salva su disco:
+
 ```java
 import com.aspose.pdf.Document;
 
 public class PdfCreator {
     public static void main(String[] args) {
-        // Crea una nuova istanza di documento PDF
+        // Create a new PDF Document instance
         Document document = new Document();
         
-        // Eseguire le operazioni...
+        // Perform operations...
         
-        // Salva il PDF creato sul disco
+        // Save the created PDF to disk
         String outputPath = "path/to/output/CustomTag.pdf";
         document.save(outputPath);
     }
 }
 ```
 
-## Guida all'implementazione
+## Come tag con Aspose.PDF per Java
 
-### Passaggio 1: creare e configurare un documento PDF con tag
+### Passo 1: Creare e configurare un documento PDF con tag
 
-#### Panoramica
+#### Panoramica  
+Il tagging inizia con una struttura logica—titolo, lingua, sezioni e paragrafi.
 
-Per creare un PDF con tag è necessario impostarne la struttura logica, che include la definizione di titoli, lingue, sezioni e paragrafi.
+#### Implementazione
 
-#### Implementazione passo dopo passo
-
-**Crea un nuovo documento PDF**
-
-Inizia creando un `Document` esempio:
 ```java
 import com.aspose.pdf.Document;
 
@@ -101,18 +112,12 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document();
 ```
 
-**Ottieni contenuti taggati**
-
-Accedi al contenuto taggato per manipolarlo:
 ```java
 import com.aspose.pdf.tagged.ITaggedContent;
 
 ITaggedContent taggedContent = document.getTaggedContent();
 ```
 
-**Imposta titolo e lingua**
-
-Definisci il titolo e la lingua del tuo PDF:
 ```java
 String title = "Tagged Pdf Document";
 String language = "en-US";
@@ -121,13 +126,11 @@ taggedContent.setTitle(title);
 taggedContent.setLanguage(language);
 ```
 
-### Passaggio 2: aggiungere elementi di paragrafo con tag personalizzati
+### Passo 2: Aggiungere elementi Paragrafo con tag personalizzati
 
-#### Panoramica
+#### Panoramica  
+I paragrafi costituiscono lo scheletro dell'ordine di lettura del documento.
 
-Aggiungi paragrafi per strutturare il tuo documento, assegnando tag personalizzati per migliorarne l'accessibilità.
-
-**Creare e configurare gli elementi del paragrafo**
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.SectElement;
@@ -138,48 +141,38 @@ taggedContent.getRootElement().appendChild(sect);
 ParagraphElement p1 = taggedContent.createParagraphElement();
 p1.setText("P1. ");
 p1.setTag("P1");
-// Ripetere la stessa operazione per gli altri paragrafi...
+// Repeat for other paragraphs...
 ```
 
-**Aggiungi paragrafi alla sezione**
-
-Assicurati che ogni paragrafo faccia parte della struttura del documento:
 ```java
 sect.appendChild(p1);
-// Aggiungere altri paragrafi in modo simile...
+// Append other paragraphs similarly...
 ```
 
-### Passaggio 3: aggiungere elementi Span con tag personalizzati
+### Passo 3: Aggiungere elementi Span con tag personalizzati
 
-#### Panoramica
+#### Panoramica  
+Gli span ti permettono di taggare frammenti inline all'interno dei paragrafi.
 
-Gli intervalli all'interno dei paragrafi aiutano a scomporre ulteriormente il contenuto, consentendo un tagging più dettagliato.
-
-**Creare e configurare elementi Span**
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.ils.SpanElement;
 
 SpanElement span1 = taggedContent.createSpanElement();
 span1.setText("Span 1.");
 span1.setTag("SPAN");
-// Ripetere la stessa operazione per gli altri intervalli...
+// Repeat for other spans...
 ```
 
-**Aggiungi intervalli ai paragrafi**
-
-Collega ogni elemento span al rispettivo paragrafo:
 ```java
 p1.appendChild(span1);
-// Aggiungere altri intervalli in modo simile...
+// Append other spans similarly...
 ```
 
-### Passaggio 4: salva il documento PDF taggato
+### Passo 4: Salvare il documento PDF con tag
 
-#### Panoramica
+#### Panoramica  
+Una volta costruita la struttura logica, persisti il file.
 
-Una volta strutturato e taggato il documento, salvalo nella directory specificata.
-
-**Salva il documento**
 ```java
 String outputPath = dataDir + "CustomTag.pdf";
 document.save(outputPath);
@@ -187,46 +180,44 @@ document.save(outputPath);
 
 ## Applicazioni pratiche
 
-- **Accessibilità**: Migliora la lettura per gli utenti con disabilità fornendo una struttura logica.
-- **Ottimizzazione SEO**: Migliora l'indicizzazione dei tuoi PDF nei motori di ricerca tramite un tagging appropriato.
-- **Integrazione dei dati**: Facilitare l'estrazione e l'integrazione dei dati dai PDF in altri sistemi.
+- **Accessibilità** – I lettori di schermo si basano sui tag per presentare il contenuto nell'ordine corretto.  
+- **Ottimizzazione SEO** – I motori di ricerca possono indicizzare i PDF con tag in modo più efficace, migliorando la scoperta.  
+- **Integrazione dati** – I PDF strutturati semplificano l'estrazione dei dati per i sistemi a valle.  
 
 ## Considerazioni sulle prestazioni
 
-- Ottimizza le prestazioni gestendo in modo efficiente la memoria, soprattutto quando si gestiscono documenti di grandi dimensioni.
-- Utilizza i metodi integrati di Aspose.PDF per gestire in modo efficace le attività che richiedono un uso intensivo delle risorse.
+- Gestisci la memoria con saggezza quando manipoli PDF di grandi dimensioni (ad esempio, usa `Document.optimizeResources()`).  
+- Riutilizza gli oggetti `Document` dove possibile per ridurre l'overhead.  
 
 ## Conclusione
 
-Creare PDF con tag utilizzando Aspose.PDF per Java non solo migliora l'accessibilità dei documenti, ma migliora anche la SEO. Seguendo questa guida, hai imparato a configurare il tuo ambiente, a strutturare un documento in modo logico e a personalizzare i tag per paragrafi e intervalli. Approfondisci sperimentando con documenti più complessi o integrando Aspose.PDF in progetti più ampi.
+Seguendo questa guida ora sai **come creare PDF con tag** documenti con Aspose.PDF per Java. Hai configurato l'ambiente, definito titoli e lingue, costruito una gerarchia logica e applicato tag personalizzati a paragrafi e span. I PDF con tag non solo migliorano l'accessibilità ma danno anche al tuo contenuto un vantaggio SEO. Sperimenta con tabelle, elenchi e immagini per approfondire la tua esperienza di tagging.
 
-## Sezione FAQ
+## Domande frequenti
 
-**D1: Come faccio a installare Aspose.PDF per Java?**
-A1: Puoi utilizzare Maven o Gradle per includerlo come dipendenza nel tuo progetto, come mostrato in precedenza.
+**D: Come installo Aspose.PDF per Java?**  
+R: Usa Maven o Gradle come mostrato nelle sezioni “Dipendenza Maven per Aspose PDF” o “Installazione Gradle”.
 
-**D2: A cosa servono i PDF taggati?**
-A2: I PDF taggati forniscono struttura e significato al contenuto del documento, migliorando l'accessibilità e la SEO.
+**D: A cosa servono i PDF con tag?**  
+R: Forniscono informazioni strutturali che migliorano l'accessibilità per le tecnologie assistive e potenziano la SEO consentendo ai motori di ricerca di comprendere la gerarchia del documento.
 
-**D3: Posso personalizzare i tag oltre i paragrafi e gli intervalli?**
-R3: Sì, Aspose.PDF supporta vari elementi, come tabelle ed elenchi, che possono essere taggati.
+**D: Posso personalizzare i tag oltre a paragrafi e span?**  
+R: Sì. Aspose.PDF supporta il tagging per tabelle, elenchi, immagini e molti altri elementi logici.
 
-**D4: Come posso ottenere una licenza temporanea per Aspose.PDF?**
-A4: Visita il [Sito web di Aspose](https://purchase.aspose.com/temporary-license/) per richiedere una licenza temporanea.
+**D: Come ottengo una licenza temporanea per Aspose.PDF?**  
+R: Visita la [pagina della licenza temporanea di Aspose](https://purchase.aspose.com/temporary-license/) e richiedi una licenza di prova.
 
-**D5: Cosa devo fare se l'elaborazione dei miei PDF è lenta?**
-A5: Ottimizza il tuo codice gestendo le risorse in modo efficiente e utilizzando i metodi appropriati forniti da Aspose.PDF.
+**D: L'elaborazione del mio PDF è lenta—cosa posso fare?**  
+R: Ottimizza l'uso della memoria con `Document.optimizeResources()`, elabora le pagine in batch e evita di caricare l'intero documento in memoria quando possibile.
 
 ## Risorse
 
-- **Documentazione**: [Riferimento Java Aspose.PDF](https://reference.aspose.com/pdf/java/)
-- **Scaricamento**: [Versioni di Aspose.PDF per Java](https://releases.aspose.com/pdf/java/)
-- **Acquistare**: [Acquista Aspose.PDF](https://purchase.aspose.com/buy)
-- **Prova gratuita**: [Prova Aspose.PDF gratuitamente](https://releases.aspose.com/pdf/java/)
-- **Licenza temporanea**: [Richiedi licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- **Documentazione**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Download**: [Rilasci Aspose.PDF per Java](https://releases.aspose.com/pdf/java/)  
+- **Acquisto**: [Acquista Aspose.PDF](https://purchase.aspose.com/buy)  
+- **Prova gratuita**: [Prova Aspose.PDF Gratis](https://releases.aspose.com/pdf/java/)  
+- **Licenza temporanea**: [Richiedi Licenza Temporanea](https://purchase.aspose.com/temporary-license/)  
 - **Supporto**: [Forum Aspose per PDF](https://forum.aspose.com/c/pdf/10)
-
-Seguendo questa guida, sarai sulla buona strada per padroneggiare la creazione di PDF con tag con Aspose.PDF per Java. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -235,3 +226,9 @@ Seguendo questa guida, sarai sulla buona strada per padroneggiare la creazione d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2025-12-05  
+**Testato con:** Aspose.PDF per Java 25.3  
+**Autore:** Aspose
