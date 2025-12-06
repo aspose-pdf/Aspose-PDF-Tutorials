@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Aspose.PDF for Java를 사용하여 접근성이 뛰어나고 태그가 지정된 PDF 문서를 만드는 방법을 알아보세요. 콘텐츠를 효과적으로 구성하여 접근성과 검색 엔진 최적화(SEO)를 향상하세요."
-"title": "Aspose.PDF for Java로 태그가 지정된 PDF 만들기&#58; 접근성 및 SEO 향상"
-"url": "/ko/java/advanced-features/create-tagged-pdf-aspose-java/"
-"weight": 1
+date: '2025-12-06'
+description: Aspose.PDF for Java를 사용하여 PDF에 태그를 지정하는 방법을 배우고, 접근성을 향상시키며 적절한 문서 구조로
+  SEO를 강화하세요.
+keywords:
+- tagged PDF
+- Aspose.PDF for Java
+- accessibility enhancement
+language: ko
+title: Aspose.PDF for Java를 사용하여 PDF에 태그 지정하는 방법 – 접근성 및 SEO
+url: /java/advanced-features/create-tagged-pdf-aspose-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java용 Aspose.PDF를 사용하여 태그가 지정된 PDF 문서 만들기
+# Aspose.PDF for Java를 사용한 PDF 태깅 방법 – 접근성 및 SEO
 
 ## 소개
 
-PDF 문서의 접근성을 향상시키고 싶으신가요? 보조 기술에 의존하는 사용자를 위한 콘텐츠를 준비하든, 단순히 SEO를 개선하고 싶든, 태그가 지정된 PDF를 만드는 것은 필수적입니다. 이 튜토리얼에서는 **Java용 Aspose.PDF** 사용자 지정 태그를 사용하여 완벽하게 접근 가능하고 체계적으로 정리된 PDF 문서를 만드는 방법을 알아봅니다. 문서에 제목, 언어 및 논리적 구조를 설정하여 사용자 친화적이고 검색 엔진에 최적화된 문서를 만드는 방법을 배웁니다.
+If you need to **PDF에 태그를 다는 방법** files so they are both accessible to assistive technologies *and* friendly to search‑engine crawlers, you’re in the right place. In this tutorial we’ll walk through the complete process of using **Aspose.PDF for Java** to create a fully tagged PDF, set its title and language, and add custom tags to paragraphs and spans. By the end, you’ll understand why tagging matters for **java pdf accessibility**, how it contributes to **pdf seo optimization**, and you’ll have a ready‑to‑run code sample.
 
-**배울 내용:**
-- 태그가 지정된 PDF 문서를 만드는 방법
-- 문서의 제목과 언어 설정
-- 섹션과 단락 요소를 사용하여 논리적 구조 구축
-- 문단 및 범위에 사용자 정의 태그 추가
+**배울 내용**
 
-이제 환경 설정을 시작해 보겠습니다!
+- 프로젝트에 **maven dependency aspose pdf** 또는 **gradle dependency aspose pdf**를 설정하는 방법.  
+- Aspose의 논리 구조 API를 사용하여 **PDF에 태그를 다는 방법**의 정확한 단계.  
+- 적절한 태깅을 통해 접근성과 SEO를 향상시키는 모범 사례.  
 
-## 필수 조건
+시작해 봅시다!
 
-태그가 지정된 PDF를 만들기 전에 다음 사항이 있는지 확인하세요.
-- **Java용 Aspose.PDF**: 이 라이브러리를 다운로드하여 프로젝트에 포함하세요.
-- **자바 개발 키트(JDK)**: 버전 8 이상을 권장합니다.
-- Java 프로그래밍 개념에 대한 기본적인 이해.
+## 빠른 답변
+- **PDF에 태그를 다는 주요 목적은 무엇인가요?** It defines a logical reading order and semantic structure for screen readers and search engines.  
+- **어떤 라이브러리를 사용해야 하나요?** Aspose.PDF for Java provides a comprehensive API for creating and tagging PDFs.  
+- **개발에 라이선스가 필요합니까?** A free trial works for testing; a permanent license is required for production.  
+- **Maven이나 Gradle로 태그를 추가할 수 있나요?** Yes—simply add the appropriate **maven dependency aspose pdf** or **gradle dependency aspose pdf**.  
+- **구현에 얼마나 걸리나요?** About 10‑15 minutes for a basic tagged document.
 
-## Java용 Aspose.PDF 설정
+## “PDF에 태그를 다는 방법”이란?
 
-Aspose.PDF for Java를 사용하려면 프로젝트에 통합해야 합니다. 방법은 다음과 같습니다.
+Tagging a PDF means embedding a hidden structure that describes headings, paragraphs, tables, and other elements. This structure enables screen readers to present the content correctly and gives search engines the context they need to index the document accurately.
 
-### Maven 설치
+## 왜 Aspose.PDF for Java로 PDF에 태그를 달아야 할까요?
 
-다음 종속성을 추가하세요. `pom.xml` 파일:
+- **향상된 접근성** – 스크린 리더 사용자는 논리적인 읽기 흐름을 얻습니다.  
+- **향상된 SEO** – 검색 엔진이 PDF를 더 효과적으로 파싱하고 순위를 매길 수 있습니다.  
+- **세밀한 제어** – 모든 요소(단락, 스팬, 표 등)에 사용자 정의 태그를 추가할 수 있습니다.  
+
+## 전제 조건
+
+- **Aspose.PDF for Java** (downloaded or referenced via Maven/Gradle).  
+- **Java Development Kit (JDK) 8+**.  
+- 기본 Java 코딩 능력.  
+
+## Aspose.PDF for Java 설정
+
+### Maven 의존성 (aspose pdf)
+
+Add the following to your `pom.xml`:
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,53 +68,48 @@ Aspose.PDF for Java를 사용하려면 프로젝트에 통합해야 합니다. �
 </dependency>
 ```
 
-### Gradle 설치
+### Gradle 의존성 (aspose pdf)
 
-이 줄을 포함하세요 `build.gradle` 파일:
+Add this line to your `build.gradle` file:
+
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### 라이센스 취득
+### 라이선스 획득
 
-Aspose는 다양한 요구 사항에 따라 무료 체험판, 임시 라이선스 및 구매 옵션을 제공합니다.
-- **무료 체험**: 몇 가지 제한 사항을 적용하여 라이브러리를 테스트합니다.
-- **임시 면허**: 일시적으로 모든 기능이 포함된 라이센스를 얻습니다.
-- **구입**: 장기 사용을 위한 영구 라이센스를 취득하세요.
+Aspose는 **무료 체험**, **임시 라이선스**, **정식 구매** 옵션을 제공합니다. 프로젝트 일정에 맞는 옵션을 선택하세요.
 
 ### 기본 초기화
 
-Java 프로젝트에서 Aspose.PDF를 초기화하는 방법은 다음과 같습니다.
+Below is a minimal Java class that creates an empty PDF document and saves it to disk:
+
 ```java
 import com.aspose.pdf.Document;
 
 public class PdfCreator {
     public static void main(String[] args) {
-        // 새 PDF 문서 인스턴스 만들기
+        // Create a new PDF Document instance
         Document document = new Document();
         
-        // 작업을 수행합니다...
+        // Perform operations...
         
-        // 생성된 PDF를 디스크에 저장합니다.
+        // Save the created PDF to disk
         String outputPath = "path/to/output/CustomTag.pdf";
         document.save(outputPath);
     }
 }
 ```
 
-## 구현 가이드
+## Implementation Guide
 
-### 1단계: 태그가 지정된 PDF 문서 만들기 및 구성
+### PDF에 태그를 다는 방법 – 단계 1: 문서 생성 및 구성
 
-#### 개요
+#### Overview
+먼저 `Document` 객체를 인스턴스화하고 **tagged content** 인터페이스를 가져옵니다. 이 인터페이스를 사용해 논리 구조를 조작할 수 있습니다.
 
-태그가 지정된 PDF를 만들려면 제목, 언어, 섹션, 문단을 정의하는 등 논리적 구조를 설정해야 합니다.
+#### Code
 
-#### 단계별 구현
-
-**새 PDF 문서 만들기**
-
-시작하려면 다음을 생성하세요. `Document` 사례:
 ```java
 import com.aspose.pdf.Document;
 
@@ -101,18 +117,12 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document();
 ```
 
-**태그가 지정된 콘텐츠 가져오기**
-
-태그가 지정된 콘텐츠에 접근하여 조작합니다.
 ```java
 import com.aspose.pdf.tagged.ITaggedContent;
 
 ITaggedContent taggedContent = document.getTaggedContent();
 ```
 
-**제목 및 언어 설정**
-
-PDF의 제목과 언어를 정의하세요.
 ```java
 String title = "Tagged Pdf Document";
 String language = "en-US";
@@ -121,13 +131,13 @@ taggedContent.setTitle(title);
 taggedContent.setLanguage(language);
 ```
 
-### 2단계: 사용자 정의 태그를 사용하여 단락 요소 추가
+### PDF에 태그를 다는 방법 – 단계 2: 사용자 정의 태그가 있는 단락 요소 추가
 
-#### 개요
+#### Overview
+컨테이너 역할을 하는 **section**(`SectElement`)을 만든 뒤, 그 안에 여러 **paragraphs**(`ParagraphElement`)를 추가합니다. 각 단락은 식별을 쉽게 하기 위해 사용자 정의 태그를 받습니다.
 
-문서의 구조를 구성하는 문단을 추가하고, 접근성을 높이기 위해 사용자 정의 태그를 할당합니다.
+#### Code
 
-**문단 요소 만들기 및 구성**
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
 import com.aspose.pdf.tagged.logicalstructure.elements.grouping.SectElement;
@@ -138,95 +148,93 @@ taggedContent.getRootElement().appendChild(sect);
 ParagraphElement p1 = taggedContent.createParagraphElement();
 p1.setText("P1. ");
 p1.setTag("P1");
-// 다른 문단에서도 반복합니다...
+// Repeat for other paragraphs...
 ```
 
-**섹션에 문단 추가**
-
-각 문단이 문서 구조의 일부인지 확인하세요.
 ```java
 sect.appendChild(p1);
-// 다른 문단도 비슷하게 추가합니다...
+// Append other paragraphs similarly...
 ```
 
-### 3단계: 사용자 정의 태그로 Span 요소 추가
+### PDF에 태그를 다는 방법 – 단계 3: 사용자 정의 태그가 있는 스팬 요소 추가
 
-#### 개요
+#### Overview
+**Spans**는 단락을 더 작은 조각으로 나누어 인라인 텍스트 조각에 태그를 달 수 있게 합니다.
 
-문단 내의 범위는 콘텐츠를 더욱 세부적으로 분류하는 데 도움이 되므로, 태그를 더 자세히 지정할 수 있습니다.
+#### Code
 
-**Span 요소 생성 및 구성**
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.ils.SpanElement;
 
 SpanElement span1 = taggedContent.createSpanElement();
 span1.setText("Span 1.");
 span1.setTag("SPAN");
-// 다른 기간에 대해서도 반복합니다...
+// Repeat for other spans...
 ```
 
-**문단에 스팬 추가**
-
-각 span 요소를 해당 문단에 첨부합니다.
 ```java
 p1.appendChild(span1);
-// 다른 스팬도 비슷한 방식으로 추가합니다...
+// Append other spans similarly...
 ```
 
-### 4단계: 태그가 지정된 PDF 문서 저장
+### PDF에 태그를 다는 방법 – 단계 4: 태그가 적용된 PDF 문서 저장
 
-#### 개요
+#### Overview
+논리 구조를 구축한 후, 원하는 위치에 문서를 저장하면 됩니다.
 
-문서의 구조를 정하고 태그를 지정한 후 지정된 디렉토리에 저장합니다.
+#### Code
 
-**문서 저장**
 ```java
 String outputPath = dataDir + "CustomTag.pdf";
 document.save(outputPath);
 ```
 
-## 실제 응용 프로그램
+## 실제 적용 사례
 
-- **접근성**: 논리적 구조를 제공하여 장애가 있는 사용자의 독서 능력을 향상시킵니다.
-- **SEO 최적화**: 적절한 태그를 지정하여 PDF의 검색 엔진 색인을 개선합니다.
-- **데이터 통합**: PDF에서 다른 시스템으로 데이터를 추출하고 통합하는 것을 용이하게 합니다.
+- **접근성 준수** – WCAG 2.1 및 PDF/UA 표준 충족.  
+- **PDF SEO 최적화** – 검색 엔진이 제목과 섹션을 인덱싱하여 가시성을 향상시킵니다.  
+- **데이터 통합** – 구조화된 PDF는 다운스트림 데이터 파이프라인에서 파싱하기 쉽습니다.  
 
 ## 성능 고려 사항
 
-- 특히 대용량 문서를 처리할 때 메모리를 효율적으로 관리하여 성능을 최적화합니다.
-- Aspose.PDF의 내장된 메서드를 사용하면 리소스가 많이 필요한 작업을 효과적으로 처리할 수 있습니다.
+- 대용량 파일의 메모리 사용량을 줄이려면 **document.optimizeResources()**를 사용하세요.  
+- 작업이 끝난 후 스트림을 닫아 리소스를 즉시 해제하세요.  
 
-## 결론
+## 일반적인 문제 및 해결책
 
-Aspose.PDF for Java를 사용하여 태그가 지정된 PDF를 만들면 문서 접근성이 향상될 뿐만 아니라 SEO에도 도움이 됩니다. 이 가이드를 통해 환경을 설정하고, 문서를 논리적으로 구성하고, 단락 및 범위에 태그를 맞춤 설정하는 방법을 알아보았습니다. 더 복잡한 문서를 실험하거나 Aspose.PDF를 대규모 프로젝트에 통합하여 더 깊이 있게 살펴보세요.
+| Issue | Solution |
+|-------|----------|
+| PDF 리더에서 태그가 표시되지 않음 | `document.save()`를 모든 구조 변경 후에 호출했는지 확인하세요. |
+| 대용량 PDF에서 OutOfMemoryError 발생 | 페이지를 배치로 처리하고 `document.optimizeResources()`를 호출하세요. |
+| 언어가 인식되지 않음 | 유효한 BCP‑47 태그(e.g., `en-US`, `fr-FR`)를 사용하세요. |
 
-## FAQ 섹션
+## 자주 묻는 질문
 
-**질문 1: Java용 Aspose.PDF를 어떻게 설치하나요?**
-A1: 앞서 설명한 대로 Maven이나 Gradle을 사용하여 프로젝트에 종속성으로 포함할 수 있습니다.
+**Q: How do I install Aspose.PDF for Java?**  
+A: Use the **maven dependency aspose pdf** or **gradle dependency aspose pdf** snippets shown above.
 
-**질문 2: 태그가 지정된 PDF는 무엇에 사용됩니까?**
-A2: 태그가 지정된 PDF는 문서 내용에 구조와 의미를 제공하여 접근성과 SEO를 개선합니다.
+**Q: What are tagged PDFs used for?**  
+A: They provide a semantic structure that improves accessibility for screen readers and boosts SEO by giving search engines meaningful content cues.
 
-**질문 3: 문단과 범위 외의 태그도 사용자 정의할 수 있나요?**
-A3: 네, Aspose.PDF는 태그를 지정할 수 있는 표와 목록 등 다양한 요소를 지원합니다.
+**Q: Can I customize tags beyond paragraphs and spans?**  
+A: Yes—Aspose.PDF supports tables, lists, figures, and many other logical‑structure elements.
 
-**질문 4: Aspose.PDF에 대한 임시 라이선스를 얻으려면 어떻게 해야 하나요?**
-A4: 방문하세요 [Aspose 웹사이트](https://purchase.aspose.com/temporary-license/) 임시 면허를 요청합니다.
+**Q: How do I obtain a temporary license for Aspose.PDF?**  
+A: Visit the [Aspose website](https://purchase.aspose.com/temporary-license/) to request a trial or temporary license.
 
-**질문 5: PDF 처리 속도가 느리면 어떻게 해야 하나요?**
-A5: Aspose.PDF에서 제공하는 적절한 방법을 사용하고 리소스를 효율적으로 관리하여 코드를 최적화하세요.
+**Q: What should I do if my PDFs are slow to process?**  
+A: Optimize memory usage with `document.optimizeResources()` and consider processing the document in smaller chunks.
 
-## 자원
+## 리소스
 
-- **선적 서류 비치**: [Aspose.PDF Java 참조](https://reference.aspose.com/pdf/java/)
-- **다운로드**: [Java용 Aspose.PDF 릴리스](https://releases.aspose.com/pdf/java/)
-- **구입**: [Aspose.PDF 구매](https://purchase.aspose.com/buy)
-- **무료 체험**: [Aspose.PDF를 무료로 사용해 보세요](https://releases.aspose.com/pdf/java/)
-- **임시 면허**: [임시 면허 신청](https://purchase.aspose.com/temporary-license/)
-- **지원하다**: [PDF용 Aspose 포럼](https://forum.aspose.com/c/pdf/10)
+- **문서**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **다운로드**: [Aspose.PDF Releases for Java](https://releases.aspose.com/pdf/java/)  
+- **구매**: [Buy Aspose.PDF](https://purchase.aspose.com/buy)  
+- **무료 체험**: [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)  
+- **임시 라이선스 요청**: [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **지원**: [Aspose Forum for PDF](https://forum.aspose.com/c/pdf/10)
 
-이 가이드를 따라 하면 Aspose.PDF for Java를 사용하여 태그가 지정된 PDF를 만드는 방법을 마스터하는 데 한 걸음 더 다가갈 수 있습니다. 즐거운 코딩 되세요!
+By following this guide, you now know **PDF에 태그를 다는 방법** documents using Aspose.PDF for Java, enhancing both accessibility and SEO. Feel free to experiment with more complex structures or integrate this workflow into larger document‑generation pipelines.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -235,3 +243,9 @@ A5: Aspose.PDF에서 제공하는 적절한 방법을 사용하고 리소스를 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**마지막 업데이트:** 2025-12-06  
+**테스트 환경:** Aspose.PDF for Java 25.3  
+**작성자:** Aspose
