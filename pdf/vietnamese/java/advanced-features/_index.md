@@ -72,14 +72,6 @@ Dưới đây là danh sách các hướng dẫn được chọn lọc, mỗi h�
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể thêm hoặc xóa lớp sau khi PDF đã được tạo không?**  
@@ -102,3 +94,11 @@ A: Chắc chắn. Bạn có thể gắn thẻ nội dung của mỗi lớp, cho 
 **Cập nhật lần cuối:** 2025-11-28  
 **Kiểm tra với:** Aspose.PDF for Java 24.11  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

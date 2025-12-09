@@ -126,14 +126,6 @@ Học cách triển khai các lớp, danh mục, tính năng truy cập và ch�
 ### [Tối ưu hiệu suất](./performance-optimization/)
 Hướng dẫn từng bước về tối ưu hóa việc sử dụng bộ nhớ, cải thiện tốc độ xử lý và xử lý các tệp PDF lớn với Aspose.PDF cho Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng Aspose.PDF cho Java trong dự án thương mại không?**  
@@ -158,3 +150,11 @@ A: Có. Đầu tiên áp dụng watermark, sau đó ký tài liệu; chữ ký s
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

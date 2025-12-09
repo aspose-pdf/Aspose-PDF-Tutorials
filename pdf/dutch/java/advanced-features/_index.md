@@ -59,14 +59,6 @@ Hieronder vind je een samengestelde lijst met tutorials die elk focussen op een 
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **V: Kan ik lagen toevoegen of verwijderen nadat de PDF is gemaakt?**  
@@ -89,3 +81,11 @@ A: Absoluut. Je kunt de inhoud van elke laag taggen, waardoor schermlezers beter
 **Laatste update:** 2025-11-28  
 **Getest met:** Aspose.PDF for Java 24.11  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

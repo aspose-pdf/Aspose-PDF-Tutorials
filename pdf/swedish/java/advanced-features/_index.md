@@ -59,14 +59,6 @@ Nedan hittar du en noggrant utvald lista med handledningar som var och en fokuse
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag lägga till eller ta bort lager efter att PDF:en har skapats?**  
@@ -89,3 +81,11 @@ A: Absolut. Du kan tagga varje lagers innehåll, vilket gör att skärmläsare k
 **Senast uppdaterad:** 2025-11-28  
 **Testad med:** Aspose.PDF for Java 24.11  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

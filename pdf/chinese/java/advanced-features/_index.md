@@ -58,14 +58,6 @@ weight: 17
 - [免费支持](https://forum.aspose.com/)
 - [临时许可证](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 创建 PDF 后我可以添加或删除图层吗？**  
@@ -88,3 +80,11 @@ A: 当然可以。您可以为每个图层的内容添加标签，使屏幕阅�
 **最后更新：** 2025-11-28  
 **测试环境：** Aspose.PDF for Java 24.11  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

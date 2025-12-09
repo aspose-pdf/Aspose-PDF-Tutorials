@@ -86,14 +86,6 @@ Naučte se řídit otevřené akce PDF pomocí Aspose.PDF pro Java. Tento komple
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu vrstvy přidávat nebo odstraňovat po vytvoření PDF?**  
@@ -116,3 +108,11 @@ A: Rozhodně. Můžete tagovat obsah každé vrstvy, což umožní čtečkám ob
 **Poslední aktualizace:** 2025-11-28  
 **Testováno s:** Aspose.PDF pro Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

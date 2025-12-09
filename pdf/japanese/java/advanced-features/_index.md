@@ -71,14 +71,6 @@ Java で PDF レイヤーを作成することは、Aspose.PDF API を使用し�
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: PDF 作成後にレイヤーを追加または削除できますか？**  
@@ -101,3 +93,11 @@ A: もちろん可能です。各レイヤーのコンテンツにタグを付�
 **最終更新日:** 2025-11-28  
 **テスト環境:** Aspose.PDF for Java 24.11  
 **作者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

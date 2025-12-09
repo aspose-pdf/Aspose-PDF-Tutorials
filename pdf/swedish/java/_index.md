@@ -126,14 +126,6 @@ Lär dig implementera lager, portföljer, tillgänglighetsfunktioner och avancer
 ### [Performance Optimization](./performance-optimization/)
 Steg‑för‑steg‑tutorials för att optimera minnesanvändning, förbättra bearbetningshastighet och hantera stora PDF‑filer med Aspose.PDF för Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.PDF för Java i ett kommersiellt projekt?**  
@@ -158,3 +150,11 @@ A: Ja. Applicera vattenstämpeln först, sedan signera dokumentet; signaturen t�
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

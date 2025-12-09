@@ -122,14 +122,6 @@ Learn to implement layers, portfolios, accessibility features, and advanced PDF 
 ### [パフォーマンス最適化](./performance-optimization/)
 Step-by-step tutorials for optimizing memory usage, improving processing speed, and handling large PDF files with Aspose.PDF for Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: Aspose.PDF for Java を商用プロジェクトで使用できますか？**  
@@ -152,3 +144,11 @@ A: はい。まず透かしを適用し、その後に文書に署名すれば�
 **最終更新日:** 2025-11-28  
 **テスト環境:** Aspose.PDF for Java 24.11 (執筆時点での最新バージョン)  
 **作者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

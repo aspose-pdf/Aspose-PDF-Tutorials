@@ -58,14 +58,6 @@ Abaixo você encontrará uma lista selecionada de tutoriais que focam em recurso
 - [Suporte gratuito](https://forum.aspose.com/)
 - [Licença temporária](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Posso adicionar ou remover camadas após o PDF ser criado?**  
@@ -88,3 +80,11 @@ A: Absolutamente. Você pode marcar o conteúdo de cada camada, permitindo que l
 **Última atualização:** 2025-11-28  
 **Testado com:** Aspose.PDF for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

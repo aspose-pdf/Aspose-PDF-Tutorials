@@ -123,14 +123,6 @@ Naucz się implementować warstwy, portfolia, funkcje dostępności i zaawansowa
 ### [Optymalizacja Wydajności](./performance-optimization/)
 Krok po kroku tutoriale dotyczące optymalizacji zużycia pamięci, przyspieszania przetwarzania i obsługi dużych plików PDF przy użyciu Aspose.PDF for Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **P: Czy mogę używać Aspose.PDF for Java w projekcie komercyjnym?**  
@@ -155,3 +147,12 @@ A: Tak. Najpierw zastosuj znak wodny, a następnie podpisz dokument; podpis obej
 **Autor:** Aspose  
 
 ---
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

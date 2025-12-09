@@ -87,14 +87,6 @@ Ismerd meg, hogyan irányíthatod a PDF megnyitási műveleteket az Aspose.PDF f
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **K: Hozzáadhatok vagy eltávolíthatok rétegeket a PDF létrehozása után?**  
@@ -117,3 +109,11 @@ V: Természetesen. Minden réteg tartalmát címkézheted, így a képernyőolva
 **Utoljára frissítve:** 2025-11-28  
 **Tesztelve a következővel:** Aspose.PDF for Java 24.11  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

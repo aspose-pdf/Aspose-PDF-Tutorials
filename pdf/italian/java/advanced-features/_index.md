@@ -72,14 +72,6 @@ Di seguito trovi un elenco curato di tutorial, ognuno focalizzato su una specifi
 - [Supporto gratuito](https://forum.aspose.com/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande Frequenti
 
 **Q: Posso aggiungere o rimuovere i layer dopo che il PDF è stato creato?**  
@@ -102,3 +94,11 @@ A: Assolutamente. Puoi taggare il contenuto di ogni layer, consentendo ai lettor
 **Ultimo aggiornamento:** 2025-11-28  
 **Testato con:** Aspose.PDF for Java 24.11  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

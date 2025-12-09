@@ -126,14 +126,6 @@ Apprenez à implémenter les calques, les portefeuilles, les fonctionnalités d�
 ### [Performance Optimization](./performance-optimization/)
 Tutoriels pas à pas pour optimiser l’utilisation de la mémoire, améliorer la vitesse de traitement et gérer de gros fichiers PDF avec Aspose.PDF pour Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquentes
 
 **Q : Puis‑je utiliser Aspose.PDF pour Java dans un projet commercial ?**  
@@ -158,3 +150,12 @@ R : Oui. Appliquez d’abord le filigrane, puis signez le document ; la sign
 **Auteur :** Aspose  
 
 ---
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

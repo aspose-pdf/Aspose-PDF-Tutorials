@@ -126,14 +126,6 @@ weight: 10
 ### [Performance Optimization](./performance-optimization/)
 Пошаговые учебники по оптимизации использования памяти, повышению скорости обработки и работе с большими PDF‑файлами с Aspose.PDF for Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Могу ли я использовать Aspose.PDF for Java в коммерческом проекте?**  
@@ -158,3 +150,11 @@ A: Да. Сначала примените водяной знак, затем �
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

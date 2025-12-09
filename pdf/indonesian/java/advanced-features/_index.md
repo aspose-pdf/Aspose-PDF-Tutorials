@@ -72,14 +72,6 @@ Di bawah ini Anda akan menemukan daftar tutorial terkurasi yang masing‑masing 
 - [Dukungan Gratis](https://forum.aspose.com/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menambahkan atau menghapus lapisan setelah PDF dibuat?**  
@@ -102,3 +94,11 @@ A: Tentu saja. Anda dapat menandai konten setiap lapisan, memungkinkan pembaca l
 **Terakhir Diperbarui:** 2025-11-28  
 **Diuji Dengan:** Aspose.PDF untuk Java 24.11  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

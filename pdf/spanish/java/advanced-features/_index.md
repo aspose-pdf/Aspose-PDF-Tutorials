@@ -86,14 +86,6 @@ Aprende a controlar las acciones de apertura de PDF usando Aspose.PDF para Java.
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **Q: ¿Puedo añadir o eliminar capas después de que se haya creado el PDF?**  
@@ -116,3 +108,11 @@ A: Absolutamente. Puedes etiquetar el contenido de cada capa, permitiendo que lo
 **Última actualización:** 2025-11-28  
 **Probado con:** Aspose.PDF para Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

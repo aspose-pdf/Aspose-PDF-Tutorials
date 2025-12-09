@@ -86,14 +86,6 @@ Learn how to control PDF open actions using Aspose.PDF for Java. This comprehens
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: PDF가 생성된 후 레이어를 추가하거나 제거할 수 있나요?**  
@@ -116,3 +108,11 @@ A: Absolutely. You can tag each layer’s content, allowing screen readers to na
 **Last Updated:** 2025-11-28  
 **Tested With:** Aspose.PDF for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

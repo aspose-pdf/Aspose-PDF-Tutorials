@@ -126,14 +126,6 @@ Leer lagen, portfolio's, toegankelijkheids‑features en geavanceerde PDF‑func
 ### [Prestatie‑optimalisatie](./performance-optimization/)
 Stap‑voor‑stap‑tutorials voor het optimaliseren van geheugengebruik, het verbeteren van verwerkingssnelheid en het verwerken van grote PDF‑bestanden met Aspose.PDF voor Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **Q: Kan ik Aspose.PDF voor Java gebruiken in een commercieel project?**  
@@ -158,3 +150,11 @@ A: Ja. Voeg eerst het watermerk toe, vervolgens onderteken je het document; de h
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

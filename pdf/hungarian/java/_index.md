@@ -89,14 +89,6 @@ Csatlakozz oktatóanyagainkhoz még ma, és indulj el egy úton, hogy mesterré 
 ### [Haladó funkciók](./advanced-features/)
 ### [Teljesítmény optimalizálás](./performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom az Aspose.PDF for Java-t kereskedelmi projektben?**  
@@ -119,3 +111,11 @@ A: Igen. Először alkalmazd a vízjelet, majd írd alá a dokumentumot; az alá
 **Utoljára frissítve:** 2025-11-28  
 **Tesztelve ezzel:** Aspose.PDF for Java 24.11 (latest at time of writing)  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

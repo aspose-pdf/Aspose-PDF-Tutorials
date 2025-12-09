@@ -71,14 +71,6 @@ weight: 17
 - [دعم مجاني](https://forum.aspose.com/)
 - [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة الشائعة
 
 **س: هل يمكنني إضافة أو إزالة الطبقات بعد إنشاء ملف PDF؟**  
@@ -101,3 +93,11 @@ weight: 17
 **آخر تحديث:** 2025-11-28  
 **تم الاختبار مع:** Aspose.PDF for Java 24.11  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

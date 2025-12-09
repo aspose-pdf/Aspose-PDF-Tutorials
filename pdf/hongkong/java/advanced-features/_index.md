@@ -58,14 +58,6 @@ weight: 17
 - [免費支援](https://forum.aspose.com/)
 - [臨時授權](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: Can I add or remove layers after the PDF is created?**  
@@ -88,3 +80,11 @@ A: Absolutely. You can tag each layer’s content, allowing screen readers to na
 **Last Updated:** 2025-11-28  
 **Tested With:** Aspose.PDF for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

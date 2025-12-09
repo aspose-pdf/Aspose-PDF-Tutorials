@@ -58,14 +58,6 @@ Poniżej znajdziesz starannie dobraną listę samouczków, z których każdy kon
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę dodać lub usunąć warstwy po utworzeniu PDF?**  
@@ -88,3 +80,11 @@ A: Zdecydowanie tak. Możesz tagować zawartość każdej warstwy, co pozwala cz
 **Ostatnia aktualizacja:** 2025-11-28  
 **Testowano z:** Aspose.PDF for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

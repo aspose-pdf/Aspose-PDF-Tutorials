@@ -125,14 +125,6 @@ weight: 10
 ### [效能最佳化](./performance-optimization/)
 一步步教學，說明如何使用 Aspose.PDF for Java 最佳化記憶體使用、提升處理速度，並處理大型 PDF 檔案。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在商業專案中使用 Aspose.PDF for Java 嗎？**  
@@ -155,3 +147,11 @@ A: 可以。先加上浮水印，然後再簽署文件；簽章會覆蓋最終�
 **最後更新：** 2025-11-28  
 **測試環境：** Aspose.PDF for Java 24.11（撰寫時的最新版本）  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

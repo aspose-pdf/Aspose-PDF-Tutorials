@@ -86,14 +86,6 @@ Aspose.PDF for Java kullanarak PDF açılış eylemlerini kontrol etmeyi öğren
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: PDF oluşturulduktan sonra katmanları ekleyebilir veya kaldırabilir miyim?**  
@@ -116,3 +108,11 @@ C: Kesinlikle. Her katmanın içeriğini etiketleyebilir, böylece ekran okuyucu
 **Son Güncelleme:** 2025-11-28  
 **Test Edilen Sürüm:** Aspose.PDF for Java 24.11  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

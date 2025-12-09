@@ -126,14 +126,6 @@ Aspose.PDF Java öğreticileriyle katmanlar, portföyler, erişilebilirlik özel
 ### [Performans Optimizasyonu](./performance-optimization/)
 Aspose.PDF for Java ile bellek kullanımı optimizasyonu, işlem hızını artırma ve büyük PDF dosyalarını yönetme konularında adım adım öğreticiler.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.PDF for Java'yu ticari bir projede kullanabilir miyim?**  
@@ -158,3 +150,11 @@ C: Evet. Önce filigranı uygulayın, ardından belgeyi imzalayın; imza son iç
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

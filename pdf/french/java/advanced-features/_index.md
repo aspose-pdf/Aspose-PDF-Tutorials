@@ -60,14 +60,6 @@ Vous trouverez ci‑dessous une liste sélectionnée de tutoriels, chacun se con
 - [Support gratuit](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquentes
 
 **Q : Puis‑je ajouter ou supprimer des calques après la création du PDF ?**  
@@ -90,3 +82,11 @@ R : Absolument. Vous pouvez baliser le contenu de chaque calque, permettant aux 
 **Last Updated:** 2025-11-28  
 **Tested With:** Aspose.PDF for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

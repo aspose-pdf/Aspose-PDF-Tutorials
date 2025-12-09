@@ -126,14 +126,6 @@ weight: 10
 ### [تحسين الأداء](./performance-optimization/)
 دروس خطوة بخطوة لتحسين استهلاك الذاكرة، تسريع المعالجة، والتعامل مع ملفات PDF الكبيرة باستخدام Aspose.PDF للـ Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.PDF للـ Java في مشروع تجاري؟**  
@@ -158,3 +150,11 @@ weight: 10
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

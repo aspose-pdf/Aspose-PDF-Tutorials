@@ -126,14 +126,6 @@ Aprenda a implementar camadas, portfólios, recursos de acessibilidade e funcion
 ### [Otimização de Desempenho](./performance-optimization/)
 Tutoriais passo a passo para otimizar uso de memória, melhorar velocidade de processamento e lidar com arquivos PDF grandes usando Aspose.PDF para Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Posso usar Aspose.PDF para Java em um projeto comercial?**  
@@ -156,3 +148,11 @@ A: Sim. Aplique a marca d'água primeiro, depois assine o documento; a assinatur
 **Última Atualização:** 2025-11-28  
 **Testado com:** Aspose.PDF para Java 24.11 (mais recente no momento da escrita)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

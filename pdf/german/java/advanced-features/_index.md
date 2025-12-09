@@ -73,14 +73,6 @@ Im Folgenden finden Sie eine kuratierte Liste von Tutorials, die jeweils einen b
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Ebenen nach der Erstellung des PDFs hinzufügen oder entfernen?**  
@@ -103,3 +95,11 @@ A: Absolut. Sie können den Inhalt jeder Ebene taggen, sodass Screen‑Reader ge
 **Zuletzt aktualisiert:** 2025-11-28  
 **Getestet mit:** Aspose.PDF for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

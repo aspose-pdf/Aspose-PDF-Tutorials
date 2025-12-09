@@ -123,14 +123,6 @@ Learn to implement layers, portfolios, accessibility features, and advanced PDF 
 ### [Ottimizzazione delle prestazioni](./performance-optimization/)
 Step-by-step tutorials for optimizing memory usage, improving processing speed, and handling large PDF files with Aspose.PDF for Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande frequenti
 
 **Q: Posso usare Aspose.PDF per Java in un progetto commerciale?**  
@@ -153,3 +145,11 @@ A: Sì. Applica prima la filigrana, poi firma il documento; la firma coprirà il
 **Ultimo aggiornamento:** 2025-11-28  
 **Testato con:** Aspose.PDF per Java 24.11 (latest at time of writing)  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
