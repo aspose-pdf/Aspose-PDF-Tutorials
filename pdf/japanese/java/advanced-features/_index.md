@@ -1,9 +1,8 @@
 ---
 date: 2025-11-28
 description: Aspose.PDF を使用して Java で PDF レイヤーの作成方法を学び、ポートフォリオやアクセシビリティなど、高度な PDF 機能を探求しましょう。
-language: ja
 title: JavaでPDFレイヤーを作成 – 高度なAspose.PDF機能
-url: /java/advanced-features/
+url: /ja/java/advanced-features/
 weight: 17
 ---
 

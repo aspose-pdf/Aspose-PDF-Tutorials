@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Изучите, как добавлять аннотации в PDF, создавать PDF в Java, извлекать
   текст, конвертировать PDF в Word, добавлять водяные знаки и применять цифровые подписи
   с помощью Aspose.PDF для Java.
-language: ru
 linktitle: Aspose.PDF for Java Tutorials
 title: Добавление аннотаций в PDF с помощью Aspose.PDF для Java
-url: /java/
+url: /ru/java/
 weight: 10
 ---
 

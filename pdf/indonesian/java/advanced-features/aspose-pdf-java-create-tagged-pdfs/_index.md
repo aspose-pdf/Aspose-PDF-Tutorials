@@ -8,9 +8,8 @@ keywords:
 - tagged PDFs
 - accessibility with Aspose.PDF
 - create structured PDFs
-language: id
 title: Lisensi Sementara Aspose PDF – PDF Berlabel di Java
-url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+url: /id/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
 weight: 1
 ---
 

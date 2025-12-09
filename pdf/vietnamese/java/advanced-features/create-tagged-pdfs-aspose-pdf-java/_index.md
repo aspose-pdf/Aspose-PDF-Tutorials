@@ -7,9 +7,8 @@ keywords:
 - create tagged PDFs
 - Aspose.PDF for Java
 - Java PDF library
-language: vi
 title: java pdf accessibility – Tạo PDF có thẻ bằng Aspose.PDF cho Java
-url: /java/advanced-features/create-tagged-pdfs-aspose-pdf-java/
+url: /vi/java/advanced-features/create-tagged-pdfs-aspose-pdf-java/
 weight: 1
 ---
 

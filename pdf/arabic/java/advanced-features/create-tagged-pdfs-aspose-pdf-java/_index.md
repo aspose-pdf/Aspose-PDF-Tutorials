@@ -7,10 +7,9 @@ keywords:
 - create tagged PDFs
 - Aspose.PDF for Java
 - Java PDF library
-language: ar
 title: جافا PDF إمكانية الوصول – إنشاء ملفات PDF ذات العلامات باستخدام Aspose.PDF
   لجافا
-url: /java/advanced-features/create-tagged-pdfs-aspose-pdf-java/
+url: /ar/java/advanced-features/create-tagged-pdfs-aspose-pdf-java/
 weight: 1
 ---
 

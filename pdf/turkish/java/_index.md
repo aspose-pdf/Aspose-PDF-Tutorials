@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Aspose.PDF for Java ile PDF'ye açıklama eklemeyi, Java'da PDF oluşturmayı,
   metin çıkarmayı, PDF'yi Word'e dönüştürmeyi, filigran eklemeyi ve dijital imzalar
   uygulamayı öğrenin.
-language: tr
 linktitle: Aspose.PDF for Java Tutorials
 title: Aspose.PDF for Java ile PDF'ye Açıklama Ekleyin
-url: /java/
+url: /tr/java/
 weight: 10
 ---
 

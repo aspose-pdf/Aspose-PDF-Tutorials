@@ -7,9 +7,8 @@ keywords:
 - tagged PDFs
 - accessibility with Aspose.PDF
 - create structured PDFs
-language: th
 title: ใบอนุญาตชั่วคราวของ Aspose PDF – PDF ที่มีแท็กใน Java
-url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+url: /th/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
 weight: 1
 ---
 

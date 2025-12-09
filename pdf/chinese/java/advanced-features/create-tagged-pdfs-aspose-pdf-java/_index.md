@@ -6,9 +6,8 @@ keywords:
 - create tagged PDFs
 - Aspose.PDF for Java
 - Java PDF library
-language: zh
 title: java pdf 可访问性 – 使用 Aspose.PDF for Java 创建标记 PDF
-url: /java/advanced-features/create-tagged-pdfs-aspose-pdf-java/
+url: /zh/java/advanced-features/create-tagged-pdfs-aspose-pdf-java/
 weight: 1
 ---
 

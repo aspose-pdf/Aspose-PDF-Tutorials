@@ -7,9 +7,8 @@ keywords:
 - accessible PDFs with Java
 - Aspose.PDF for Java
 - tagged PDF creation
-language: fr
 title: Créer un PDF accessible avec du contenu balisé en Java à l'aide d'Aspose.PDF
-url: /java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
+url: /fr/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
 weight: 1
 ---
 

@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Leer hoe u annotaties aan PDF kunt toevoegen, PDF's in Java kunt maken,
   tekst kunt extraheren, PDF naar Word kunt converteren, watermerken kunt toevoegen
   en digitale handtekeningen kunt toepassen met Aspose.PDF voor Java.
-language: nl
 linktitle: Aspose.PDF for Java Tutorials
 title: Annotaties toevoegen aan PDF met Aspose.PDF voor Java
-url: /java/
+url: /nl/java/
 weight: 10
 ---
 

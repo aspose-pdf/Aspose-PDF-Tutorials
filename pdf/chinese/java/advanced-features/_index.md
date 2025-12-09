@@ -1,9 +1,8 @@
 ---
 date: 2025-11-28
 description: 学习如何在 Java 中使用 Aspose.PDF 创建 PDF 图层，并探索高级 PDF 功能，包括文档集、可访问性等。
-language: zh
 title: 使用 Java 创建 PDF 图层 – 高级 Aspose.PDF 功能
-url: /java/advanced-features/
+url: /zh/java/advanced-features/
 weight: 17
 ---
 

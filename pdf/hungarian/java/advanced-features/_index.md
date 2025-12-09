@@ -3,9 +3,8 @@ date: 2025-11-28
 description: Tanulja meg, hogyan hozhat létre PDF rétegeket Java-ban az Aspose.PDF
   használatával, és fedezze fel a fejlett PDF funkciókat, többek között a portfóliókat,
   a hozzáférhetőséget és még sok mást.
-language: hu
 title: PDF rétegek létrehozása Java – Haladó Aspose.PDF funkciók
-url: /java/advanced-features/
+url: /hu/java/advanced-features/
 weight: 17
 ---
 

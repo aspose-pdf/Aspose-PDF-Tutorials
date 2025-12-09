@@ -6,9 +6,8 @@ keywords:
 - accessible PDFs
 - Aspose.PDF for Java
 - Java PDF generation
-language: ko
 title: Aspose.PDF와 Java로 접근성 PDF 만들기 – 전체 가이드
-url: /java/advanced-features/accessible-pdfs-aspose-pdf-java/
+url: /ko/java/advanced-features/accessible-pdfs-aspose-pdf-java/
 weight: 1
 ---
 

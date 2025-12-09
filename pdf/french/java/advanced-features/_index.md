@@ -3,9 +3,8 @@ date: 2025-11-28
 description: Apprenez à créer des calques PDF en Java avec Aspose.PDF et explorez
   les fonctionnalités PDF avancées, y compris les portefeuilles, l'accessibilité et
   bien plus encore.
-language: fr
 title: Créer des calques PDF en Java – Fonctionnalités avancées d’Aspose.PDF
-url: /java/advanced-features/
+url: /fr/java/advanced-features/
 weight: 17
 ---
 

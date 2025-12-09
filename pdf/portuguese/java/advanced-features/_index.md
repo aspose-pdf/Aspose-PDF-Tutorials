@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Aprenda a criar camadas de PDF em Java usando Aspose.PDF e explore recursos
   avançados de PDF, incluindo portfólios, acessibilidade e muito mais.
-language: pt
 title: Criar Camadas PDF Java – Recursos Avançados do Aspose.PDF
-url: /java/advanced-features/
+url: /pt/java/advanced-features/
 weight: 17
 ---
 

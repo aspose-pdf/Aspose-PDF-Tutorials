@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Dowiedz się, jak dodawać adnotacje do plików PDF, tworzyć PDF‑y w Javie,
   wyodrębniać tekst, konwertować PDF na Word, dodawać znaki wodne i stosować podpisy
   cyfrowe przy użyciu Aspose.PDF dla Javy.
-language: pl
 linktitle: Aspose.PDF for Java Tutorials
 title: Dodaj adnotacje do PDF przy użyciu Aspose.PDF dla Javy
-url: /java/
+url: /pl/java/
 weight: 10
 ---
 

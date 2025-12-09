@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Aspose.PDF를 사용하여 Java에서 PDF 레이어를 만드는 방법을 배우고, 포트폴리오, 접근성 등을 포함한 고급 PDF
   기능을 탐색하세요.
-language: ko
 title: PDF 레이어 생성 Java – 고급 Aspose.PDF 기능
-url: /java/advanced-features/
+url: /ko/java/advanced-features/
 weight: 17
 ---
 

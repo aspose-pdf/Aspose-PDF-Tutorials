@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Pelajari cara membuat lapisan PDF dalam Java menggunakan Aspose.PDF dan
   jelajahi kemampuan PDF lanjutan, termasuk portofolio, aksesibilitas, dan lainnya.
-language: id
 title: Buat Lapisan PDF Java – Fitur Lanjutan Aspose.PDF
-url: /java/advanced-features/
+url: /id/java/advanced-features/
 weight: 17
 ---
 

@@ -3,10 +3,9 @@ date: 2025-11-28
 description: تعرّف على كيفية إضافة التعليقات التوضيحية إلى ملفات PDF، وإنشاء ملفات
   PDF في Java، واستخراج النص، وتحويل PDF إلى Word، وإضافة العلامات المائية، وتطبيق
   التوقيعات الرقمية باستخدام Aspose.PDF for Java.
-language: ar
 linktitle: Aspose.PDF for Java Tutorials
 title: إضافة تعليقات توضيحية إلى PDF باستخدام Aspose.PDF للغة Java
-url: /java/
+url: /ar/java/
 weight: 10
 ---
 

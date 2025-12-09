@@ -2,10 +2,9 @@
 date: 2025-11-28
 description: Aspose.PDF for Java を使用して、PDF に注釈を追加する方法、Java で PDF を作成する方法、テキストを抽出する方法、PDF
   を Word に変換する方法、透かしを追加する方法、デジタル署名を適用する方法を学びましょう。
-language: ja
 linktitle: Aspose.PDF for Java Tutorials
 title: Aspose.PDF for Java を使用して PDF に注釈を追加する
-url: /java/
+url: /ja/java/
 weight: 10
 ---
 

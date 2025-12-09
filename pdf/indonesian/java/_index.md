@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Pelajari cara menambahkan anotasi ke PDF, membuat PDF di Java, mengekstrak
   teks, mengonversi PDF ke Word, menambahkan watermark, dan menerapkan tanda tangan
   digital dengan Aspose.PDF untuk Java.
-language: id
 linktitle: Aspose.PDF for Java Tutorials
 title: Tambahkan Anotasi ke PDF Menggunakan Aspose.PDF untuk Java
-url: /java/
+url: /id/java/
 weight: 10
 ---
 

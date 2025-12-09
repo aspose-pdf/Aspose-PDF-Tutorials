@@ -2,10 +2,9 @@
 date: 2025-11-28
 description: เรียนรู้วิธีเพิ่มคำอธิบายลงใน PDF, สร้าง PDF ด้วย Java, ดึงข้อความ, แปลง
   PDF เป็น Word, เพิ่มลายน้ำ, และใช้ลายเซ็นดิจิทัลด้วย Aspose.PDF for Java.
-language: th
 linktitle: Aspose.PDF for Java Tutorials
 title: เพิ่มคำอธิบายลงใน PDF ด้วย Aspose.PDF สำหรับ Java
-url: /java/
+url: /th/java/
 weight: 10
 ---
 

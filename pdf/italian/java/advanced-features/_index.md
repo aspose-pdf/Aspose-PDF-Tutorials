@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Scopri come creare livelli PDF in Java usando Aspose.PDF ed esplora le
   funzionalità avanzate dei PDF, inclusi i portfolio, l'accessibilità e altro.
-language: it
 title: Crea livelli PDF in Java – Funzionalità avanzate di Aspose.PDF
-url: /java/advanced-features/
+url: /it/java/advanced-features/
 weight: 17
 ---
 

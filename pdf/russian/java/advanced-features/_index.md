@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Изучите, как создавать слои PDF в Java с помощью Aspose.PDF, и познакомьтесь
   с расширенными возможностями PDF, включая портфолио, доступность и многое другое.
-language: ru
 title: Создание слоёв PDF на Java – Расширенные возможности Aspose.PDF
-url: /java/advanced-features/
+url: /ru/java/advanced-features/
 weight: 17
 ---
 

@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Tìm hiểu cách thêm chú thích vào PDF, tạo PDF trong Java, trích xuất
   văn bản, chuyển PDF sang Word, thêm watermark và áp dụng chữ ký số với Aspose.PDF
   cho Java.
-language: vi
 linktitle: Aspose.PDF for Java Tutorials
 title: Thêm chú thích vào PDF bằng Aspose.PDF cho Java
-url: /java/
+url: /vi/java/
 weight: 10
 ---
 

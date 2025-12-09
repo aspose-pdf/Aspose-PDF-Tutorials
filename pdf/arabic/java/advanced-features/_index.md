@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: تعلم كيفية إنشاء طبقات PDF في جافا باستخدام Aspose.PDF واستكشف إمكانيات
   PDF المتقدمة، بما في ذلك المحافظ وإمكانية الوصول والمزيد.
-language: ar
 title: إنشاء طبقات PDF باستخدام Java – ميزات متقدمة في Aspose.PDF
-url: /java/advanced-features/
+url: /ar/java/advanced-features/
 weight: 17
 ---
 

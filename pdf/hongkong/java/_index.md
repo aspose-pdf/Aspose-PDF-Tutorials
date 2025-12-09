@@ -2,10 +2,9 @@
 date: 2025-11-28
 description: 學習如何在 PDF 中加入註解、使用 Java 建立 PDF、提取文字、將 PDF 轉換為 Word、加入浮水印，以及使用 Aspose.PDF
   for Java 套用數位簽章。
-language: zh-hant
 linktitle: Aspose.PDF for Java Tutorials
 title: 使用 Aspose.PDF for Java 為 PDF 添加註解
-url: /java/
+url: /zh-hant/java/
 weight: 10
 ---
 

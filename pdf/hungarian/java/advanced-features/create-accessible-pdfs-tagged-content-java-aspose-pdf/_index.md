@@ -7,10 +7,9 @@ keywords:
 - accessible PDFs with Java
 - Aspose.PDF for Java
 - tagged PDF creation
-language: hu
 title: Hozzon létre hozzáférhető PDF-et címkézett tartalommal Java-ban az Aspose.PDF
   segítségével
-url: /java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
+url: /hu/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
 weight: 1
 ---
 

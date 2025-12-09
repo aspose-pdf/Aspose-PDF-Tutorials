@@ -6,9 +6,8 @@ keywords:
 - creating accessible tagged PDFs
 - Aspose.PDF for Java
 - tagged PDF accessibility
-language: vi
 title: Cách gắn thẻ PDF bằng Aspose.PDF cho Java – Hướng dẫn
-url: /java/advanced-features/aspose-pdf-java-tagged-pdfs-creation/
+url: /vi/java/advanced-features/aspose-pdf-java-tagged-pdfs-creation/
 weight: 1
 ---
 

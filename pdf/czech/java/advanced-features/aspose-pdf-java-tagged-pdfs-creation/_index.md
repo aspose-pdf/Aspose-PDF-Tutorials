@@ -6,9 +6,8 @@ keywords:
 - creating accessible tagged PDFs
 - Aspose.PDF for Java
 - tagged PDF accessibility
-language: cs
 title: Jak označit PDF pomocí Aspose.PDF pro Javu – průvodce
-url: /java/advanced-features/aspose-pdf-java-tagged-pdfs-creation/
+url: /cs/java/advanced-features/aspose-pdf-java-tagged-pdfs-creation/
 weight: 1
 ---
 

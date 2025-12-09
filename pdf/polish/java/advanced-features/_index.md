@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Dowiedz się, jak tworzyć warstwy PDF w Javie przy użyciu Aspose.PDF i
   poznaj zaawansowane możliwości PDF, w tym portfolia, dostępność i wiele innych.
-language: pl
 title: Tworzenie warstw PDF w Javie – Zaawansowane funkcje Aspose.PDF
-url: /java/advanced-features/
+url: /pl/java/advanced-features/
 weight: 17
 ---
 

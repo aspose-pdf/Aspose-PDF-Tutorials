@@ -3,9 +3,8 @@ date: 2025-11-28
 description: Μάθετε πώς να δημιουργείτε στρώσεις PDF σε Java χρησιμοποιώντας το Aspose.PDF
   και εξερευνήστε τις προηγμένες δυνατότητες PDF, συμπεριλαμβανομένων των χαρτοφυλακίων,
   της προσβασιμότητας και άλλων.
-language: el
 title: Δημιουργία Στρωμάτων PDF Java – Προηγμένες Λειτουργίες Aspose.PDF
-url: /java/advanced-features/
+url: /el/java/advanced-features/
 weight: 17
 ---
 

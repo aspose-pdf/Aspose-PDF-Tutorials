@@ -7,10 +7,9 @@ keywords:
 - accessible PDFs
 - Aspose.PDF for Java
 - Java PDF generation
-language: hu
 title: Hozzon létre akadálymentes PDF-et Java-ban az Aspose.PDF segítségével – Teljes
   útmutató
-url: /java/advanced-features/accessible-pdfs-aspose-pdf-java/
+url: /hu/java/advanced-features/accessible-pdfs-aspose-pdf-java/
 weight: 1
 ---
 

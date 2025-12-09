@@ -7,9 +7,8 @@ keywords:
 - tagged PDFs
 - accessibility with Aspose.PDF
 - create structured PDFs
-language: ko
 title: Aspose PDF 임시 라이선스 – Java에서 태그된 PDF
-url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+url: /ko/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
 weight: 1
 ---
 

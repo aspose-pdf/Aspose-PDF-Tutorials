@@ -7,10 +7,9 @@ keywords:
 - accessible PDFs with Java
 - Aspose.PDF for Java
 - tagged PDF creation
-language: el
 title: Δημιουργία προσβάσιμου PDF με ετικετοποιημένο περιεχόμενο σε Java χρησιμοποιώντας
   το Aspose.PDF
-url: /java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
+url: /el/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
 weight: 1
 ---
 

@@ -7,9 +7,8 @@ keywords:
 - create tagged PDFs
 - Aspose.PDF for Java
 - Java PDF library
-language: hi
 title: जावा पीडीएफ एक्सेसिबिलिटी – Aspose.PDF फॉर जावा के साथ टैग्ड पीडीएफ बनाएं
-url: /java/advanced-features/create-tagged-pdfs-aspose-pdf-java/
+url: /hi/java/advanced-features/create-tagged-pdfs-aspose-pdf-java/
 weight: 1
 ---
 

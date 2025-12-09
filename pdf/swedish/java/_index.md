@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Lär dig hur du lägger till annotationer i PDF, skapar PDF-filer i Java,
   extraherar text, konverterar PDF till Word, lägger till vattenstämplar och använder
   digitala signaturer med Aspose.PDF för Java.
-language: sv
 linktitle: Aspose.PDF for Java Tutorials
 title: Lägg till annotationer i PDF med Aspose.PDF för Java
-url: /java/
+url: /sv/java/
 weight: 10
 ---
 

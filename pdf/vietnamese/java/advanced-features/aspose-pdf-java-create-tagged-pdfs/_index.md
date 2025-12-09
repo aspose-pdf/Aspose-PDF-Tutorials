@@ -8,9 +8,8 @@ keywords:
 - tagged PDFs
 - accessibility with Aspose.PDF
 - create structured PDFs
-language: vi
 title: Giấy phép tạm thời Aspose PDF – PDF có thẻ trong Java
-url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+url: /vi/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
 weight: 1
 ---
 

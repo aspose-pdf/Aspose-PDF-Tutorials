@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Aspose.PDF for Java के साथ PDF में एनोटेशन जोड़ना, Java में PDF बनाना,
   टेक्स्ट निकालना, PDF को Word में बदलना, वॉटरमार्क जोड़ना और डिजिटल सिग्नेचर लागू
   करना सीखें।
-language: hi
 linktitle: Aspose.PDF for Java Tutorials
 title: Aspose.PDF for Java का उपयोग करके PDF में एनोटेशन जोड़ें
-url: /java/
+url: /hi/java/
 weight: 10
 ---
 

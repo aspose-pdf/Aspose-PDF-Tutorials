@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Lär dig hur du skapar PDF‑lager i Java med Aspose.PDF och utforska avancerade
   PDF‑funktioner, inklusive portföljer, tillgänglighet och mer.
-language: sv
 title: Skapa PDF‑lager i Java – Avancerade Aspose.PDF‑funktioner
-url: /java/advanced-features/
+url: /sv/java/advanced-features/
 weight: 17
 ---
 

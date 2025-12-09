@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Naučte se, jak v Javě pomocí Aspose.PDF vytvářet vrstvy PDF a prozkoumejte
   pokročilé funkce PDF, včetně portfolií, přístupnosti a dalších.
-language: cs
 title: Vytvoření PDF vrstev v Javě – Pokročilé funkce Aspose.PDF
-url: /java/advanced-features/
+url: /cs/java/advanced-features/
 weight: 17
 ---
 

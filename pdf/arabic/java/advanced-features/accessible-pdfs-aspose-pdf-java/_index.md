@@ -6,9 +6,8 @@ keywords:
 - accessible PDFs
 - Aspose.PDF for Java
 - Java PDF generation
-language: ar
 title: إنشاء ملف PDF يمكن الوصول إليه في Java باستخدام Aspose.PDF – دليل كامل
-url: /java/advanced-features/accessible-pdfs-aspose-pdf-java/
+url: /ar/java/advanced-features/accessible-pdfs-aspose-pdf-java/
 weight: 1
 ---
 

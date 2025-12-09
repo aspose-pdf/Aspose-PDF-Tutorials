@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Naučte se, jak přidávat anotace do PDF, vytvářet PDF v Javě, extrahovat
   text, převádět PDF do Wordu, přidávat vodoznaky a aplikovat digitální podpisy pomocí
   Aspose.PDF pro Javu.
-language: cs
 linktitle: Aspose.PDF for Java Tutorials
 title: Přidejte anotace do PDF pomocí Aspose.PDF pro Javu
-url: /java/
+url: /cs/java/
 weight: 10
 ---
 

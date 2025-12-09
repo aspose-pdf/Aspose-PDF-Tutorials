@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Học cách tạo lớp PDF trong Java bằng Aspose.PDF và khám phá các tính
   năng nâng cao của PDF, bao gồm danh mục, khả năng truy cập và nhiều hơn nữa.
-language: vi
 title: Tạo Lớp PDF trong Java – Các Tính Năng Nâng Cao của Aspose.PDF
-url: /java/advanced-features/
+url: /vi/java/advanced-features/
 weight: 17
 ---
 

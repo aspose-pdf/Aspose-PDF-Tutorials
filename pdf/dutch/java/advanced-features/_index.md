@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Leer hoe u PDF‑lagen maakt in Java met Aspose.PDF en ontdek geavanceerde
   PDF‑mogelijkheden, waaronder portfolio’s, toegankelijkheid en meer.
-language: nl
 title: PDF-lagen maken Java – Geavanceerde Aspose.PDF-functies
-url: /java/advanced-features/
+url: /nl/java/advanced-features/
 weight: 17
 ---
 

@@ -7,9 +7,8 @@ keywords:
 - tagged PDFs
 - accessibility with Aspose.PDF
 - create structured PDFs
-language: cs
 title: Dočasná licence Aspose PDF – Štítkované PDF v Javě
-url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+url: /cs/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
 weight: 1
 ---
 

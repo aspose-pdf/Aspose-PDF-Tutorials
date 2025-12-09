@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Ismerje meg, hogyan lehet megjegyzéseket hozzáadni a PDF-hez, PDF-eket
   létrehozni Java-ban, szöveget kinyerni, PDF-et Word-re konvertálni, vízjeleket hozzáadni,
   és digitális aláírásokat alkalmazni az Aspose.PDF for Java segítségével.
-language: hu
 linktitle: Aspose.PDF for Java Tutorials
 title: Megjegyzések hozzáadása PDF-hez az Aspose.PDF for Java használatával
-url: /java/
+url: /hu/java/
 weight: 10
 ---
 

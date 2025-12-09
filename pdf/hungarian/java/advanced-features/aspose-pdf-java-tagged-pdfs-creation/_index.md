@@ -6,9 +6,8 @@ keywords:
 - creating accessible tagged PDFs
 - Aspose.PDF for Java
 - tagged PDF accessibility
-language: hu
 title: Hogyan címkézzünk PDF-et az Aspose.PDF for Java-val – Útmutató
-url: /java/advanced-features/aspose-pdf-java-tagged-pdfs-creation/
+url: /hu/java/advanced-features/aspose-pdf-java-tagged-pdfs-creation/
 weight: 1
 ---
 

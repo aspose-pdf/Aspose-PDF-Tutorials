@@ -2,10 +2,9 @@
 date: 2025-11-28
 description: Aspose.PDF for Java를 사용하여 PDF에 주석을 추가하고, Java에서 PDF를 생성하며, 텍스트를 추출하고,
   PDF를 Word로 변환하고, 워터마크를 추가하고, 디지털 서명을 적용하는 방법을 배워보세요.
-language: ko
 linktitle: Aspose.PDF for Java Tutorials
 title: Aspose.PDF for Java를 사용하여 PDF에 주석 추가
-url: /java/
+url: /ko/java/
 weight: 10
 ---
 

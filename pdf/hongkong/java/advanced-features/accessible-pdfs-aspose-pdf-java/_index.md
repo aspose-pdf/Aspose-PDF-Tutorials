@@ -6,9 +6,8 @@ keywords:
 - accessible PDFs
 - Aspose.PDF for Java
 - Java PDF generation
-language: zh-hant
 title: 在 Java 中使用 Aspose.PDF 建立無障礙 PDF – 完整指南
-url: /java/advanced-features/accessible-pdfs-aspose-pdf-java/
+url: /zh-hant/java/advanced-features/accessible-pdfs-aspose-pdf-java/
 weight: 1
 ---
 

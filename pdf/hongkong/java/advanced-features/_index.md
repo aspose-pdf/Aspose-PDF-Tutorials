@@ -1,9 +1,8 @@
 ---
 date: 2025-11-28
 description: 學習如何使用 Aspose.PDF 在 Java 中建立 PDF 層，並探索包括 PDF 集合、無障礙功能等在內的進階功能。
-language: zh-hant
 title: 在 Java 中建立 PDF 圖層 – 高級 Aspose.PDF 功能
-url: /java/advanced-features/
+url: /zh-hant/java/advanced-features/
 weight: 17
 ---
 

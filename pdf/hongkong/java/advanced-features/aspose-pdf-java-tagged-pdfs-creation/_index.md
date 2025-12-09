@@ -5,9 +5,8 @@ keywords:
 - creating accessible tagged PDFs
 - Aspose.PDF for Java
 - tagged PDF accessibility
-language: zh-hant
 title: 如何使用 Aspose.PDF for Java 為 PDF 加上標記 – 指南
-url: /java/advanced-features/aspose-pdf-java-tagged-pdfs-creation/
+url: /zh-hant/java/advanced-features/aspose-pdf-java-tagged-pdfs-creation/
 weight: 1
 ---
 

@@ -2,10 +2,9 @@
 date: 2025-11-28
 description: 学习如何在 PDF 中添加注释、使用 Java 创建 PDF、提取文本、将 PDF 转换为 Word、添加水印以及使用 Aspose.PDF
   for Java 应用数字签名。
-language: zh
 linktitle: Aspose.PDF for Java Tutorials
 title: 使用 Aspose.PDF for Java 向 PDF 添加注释
-url: /java/
+url: /zh/java/
 weight: 10
 ---
 

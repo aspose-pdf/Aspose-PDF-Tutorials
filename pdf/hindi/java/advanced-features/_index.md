@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Aspose.PDF का उपयोग करके जावा में PDF लेयर्स बनाना सीखें और पोर्टफोलियो,
   एक्सेसिबिलिटी और अधिक सहित उन्नत PDF क्षमताओं का अन्वेषण करें।
-language: hi
 title: PDF लेयर्स बनाएं जावा – उन्नत Aspose.PDF सुविधाएँ
-url: /java/advanced-features/
+url: /hi/java/advanced-features/
 weight: 17
 ---
 

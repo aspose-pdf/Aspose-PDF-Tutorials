@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Aprenda a agregar anotaciones a PDF, crear PDFs en Java, extraer texto,
   convertir PDF a Word, añadir marcas de agua y aplicar firmas digitales con Aspose.PDF
   para Java.
-language: es
 linktitle: Aspose.PDF for Java Tutorials
 title: Agregar anotaciones a PDF usando Aspose.PDF para Java
-url: /java/
+url: /es/java/
 weight: 10
 ---
 

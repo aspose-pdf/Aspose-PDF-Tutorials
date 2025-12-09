@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Erfahren Sie, wie Sie Anmerkungen zu PDFs hinzufügen, PDFs in Java erstellen,
   Text extrahieren, PDF in Word konvertieren, Wasserzeichen hinzufügen und digitale
   Signaturen mit Aspose.PDF für Java anwenden.
-language: de
 linktitle: Aspose.PDF for Java Tutorials
 title: Anmerkungen zu PDF mit Aspose.PDF für Java hinzufügen
-url: /java/
+url: /de/java/
 weight: 10
 ---
 

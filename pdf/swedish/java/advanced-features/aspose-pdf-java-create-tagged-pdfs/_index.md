@@ -8,9 +8,8 @@ keywords:
 - tagged PDFs
 - accessibility with Aspose.PDF
 - create structured PDFs
-language: sv
 title: Aspose PDF tillfällig licens – Taggade PDF-filer i Java
-url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+url: /sv/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
 weight: 1
 ---
 

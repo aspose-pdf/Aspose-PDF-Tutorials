@@ -6,9 +6,8 @@ keywords:
 - creating accessible tagged PDFs
 - Aspose.PDF for Java
 - tagged PDF accessibility
-language: ar
 title: كيفية وضع علامة على PDF باستخدام Aspose.PDF للـ Java – دليل
-url: /java/advanced-features/aspose-pdf-java-tagged-pdfs-creation/
+url: /ar/java/advanced-features/aspose-pdf-java-tagged-pdfs-creation/
 weight: 1
 ---
 

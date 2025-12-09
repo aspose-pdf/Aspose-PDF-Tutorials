@@ -7,9 +7,8 @@ keywords:
 - tagged PDFs
 - accessibility with Aspose.PDF
 - create structured PDFs
-language: ar
 title: رخصة مؤقتة لـ Aspose PDF – ملفات PDF ذات العلامات في جافا
-url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+url: /ar/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
 weight: 1
 ---
 

@@ -3,9 +3,8 @@ date: 2025-11-28
 description: Erfahren Sie, wie Sie PDF‑Ebenen in Java mit Aspose.PDF erstellen und
   entdecken Sie erweiterte PDF‑Funktionen, einschließlich Portfolios, Barrierefreiheit
   und mehr.
-language: de
 title: PDF-Layer in Java erstellen – Erweiterte Aspose.PDF‑Funktionen
-url: /java/advanced-features/
+url: /de/java/advanced-features/
 weight: 17
 ---
 

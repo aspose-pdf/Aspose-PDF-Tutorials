@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Aspose.PDF kullanarak Java’da PDF katmanları oluşturmayı öğrenin ve portföyler,
   erişilebilirlik ve daha fazlası dahil olmak üzere gelişmiş PDF özelliklerini keşfedin.
-language: tr
 title: PDF Katmanları Oluşturma Java – Gelişmiş Aspose.PDF Özellikleri
-url: /java/advanced-features/
+url: /tr/java/advanced-features/
 weight: 17
 ---
 

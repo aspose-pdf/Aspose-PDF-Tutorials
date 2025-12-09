@@ -6,9 +6,8 @@ keywords:
 - Aspose.PDF for Java
 - create PDF layers
 - layered PDF applications
-language: th
 title: วิธีสร้างเลเยอร์ PDF ด้วย Aspose.PDF สำหรับ Java – คู่มือแบบทีละขั้นตอน
-url: /java/advanced-features/create-pdf-layers-aspose-java/
+url: /th/java/advanced-features/create-pdf-layers-aspose-java/
 weight: 1
 ---
 

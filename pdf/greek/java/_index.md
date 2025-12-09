@@ -3,10 +3,9 @@ date: 2025-11-28
 description: Μάθετε πώς να προσθέτετε σημειώσεις σε PDF, να δημιουργείτε PDF σε Java,
   να εξάγετε κείμενο, να μετατρέπετε PDF σε Word, να προσθέτετε υδατογραφήματα και
   να εφαρμόζετε ψηφιακές υπογραφές με το Aspose.PDF για Java.
-language: el
 linktitle: Aspose.PDF for Java Tutorials
 title: Προσθήκη σχολίων σε PDF χρησιμοποιώντας το Aspose.PDF για Java
-url: /java/
+url: /el/java/
 weight: 10
 ---
 

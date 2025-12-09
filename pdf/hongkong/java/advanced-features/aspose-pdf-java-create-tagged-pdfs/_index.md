@@ -6,9 +6,8 @@ keywords:
 - tagged PDFs
 - accessibility with Aspose.PDF
 - create structured PDFs
-language: zh-hant
 title: Aspose PDF 臨時授權 – Java 中的已標記 PDF
-url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+url: /zh-hant/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
 weight: 1
 ---
 

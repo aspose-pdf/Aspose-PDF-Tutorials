@@ -8,9 +8,8 @@ keywords:
 - tagged PDFs
 - accessibility with Aspose.PDF
 - create structured PDFs
-language: pl
 title: Tymczasowa licencja Aspose PDF – PDF z tagami w Javie
-url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+url: /pl/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
 weight: 1
 ---
 

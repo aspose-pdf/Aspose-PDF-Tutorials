@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: เรียนรู้วิธีสร้างชั้น PDF ใน Java ด้วย Aspose.PDF และสำรวจความสามารถขั้นสูงของ
   PDF รวมถึงพอร์ตโฟลิโอ การเข้าถึงได้ และอื่น ๆ อีกมากมาย
-language: th
 title: สร้างเลเยอร์ PDF ด้วย Java – คุณลักษณะขั้นสูงของ Aspose.PDF
-url: /java/advanced-features/
+url: /th/java/advanced-features/
 weight: 17
 ---
 

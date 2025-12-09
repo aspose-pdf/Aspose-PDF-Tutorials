@@ -2,9 +2,8 @@
 date: 2025-11-28
 description: Aprende a crear capas PDF en Java usando Aspose.PDF y explora capacidades
   avanzadas de PDF, incluidos portafolios, accesibilidad y más.
-language: es
 title: Crear capas PDF Java – Funciones avanzadas de Aspose.PDF
-url: /java/advanced-features/
+url: /es/java/advanced-features/
 weight: 17
 ---
 

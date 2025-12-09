@@ -8,9 +8,8 @@ keywords:
 - tagged PDFs
 - accessibility with Aspose.PDF
 - create structured PDFs
-language: hu
 title: Aspose PDF ideiglenes licenc – Címkézett PDF-ek Java-ban
-url: /java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
+url: /hu/java/advanced-features/aspose-pdf-java-create-tagged-pdfs/
 weight: 1
 ---
 
