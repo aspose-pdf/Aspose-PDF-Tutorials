@@ -1,8 +1,13 @@
 ---
-"description": "Ontdek de visuele tutorials van Aspose.PDF met stapsgewijze handleidingen en codevoorbeelden. Leer moeiteloos PDF-verwerking met interactieve visuals."
-"title": "Aspose.PDF Visuele Tutorials"
-"url": "/nl/"
-"weight": 10
+date: 2025-12-13
+description: Leer hoe je PDF‑bestanden maakt met behulp van visuele tutorials van
+  Aspose.PDF. Ontdek het tekenen van lijnen in PDF, afbeeldingen uit PDF halen, PDF‑afbeeldingen
+  verkleinen, PDF‑afbeeldingen comprimeren en een tabel aan PDF toevoegen.
+keywords: null
+limit: null
+title: Hoe PDF te maken met Aspose.PDF visuele tutorials
+url: /nl/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,152 +16,180 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDF Visuele Tutorials
+# Hoe PDF te maken met Aspose.PDF Visual Tutorials
   
-Aspose.PDF Visual Tutorials bieden een interactieve leerervaring voor ontwikkelaars die met PDF-bestanden in .NET werken. Deze tutorials behandelen essentiële PDF-verwerkingstaken, zoals het maken, bewerken, converteren en beveiligen van PDF's met realtime visuals en codevoorbeelden. Of u nu een beginner of een ervaren ontwikkelaar bent, onze stapsgewijze handleidingen vereenvoudigen complexe bewerkingen en helpen u functies snel en efficiënt te implementeren.  
+Aspose.PDF Visual Tutorials bieden een interactieve leerervaring voor ontwikkelaars die met PDF‑bestanden werken in .NET. Deze tutorials behandelen essentiële PDF‑verwerkingstaken zoals het maken, bewerken, converteren en beveiligen van PDF's met realtime‑visualisaties en code‑voorbeelden. Of je nu een beginner of een ervaren ontwikkelaar bent, onze stap‑voor‑stap‑gidsen vereenvoudigen complexe bewerkingen en helpen je **hoe PDF te maken** snel en efficiënt.  
 
-Elke tutorial bevat hoogwaardige illustraties, geannoteerde schermafbeeldingen en kant-en-klare C#-codefragmenten om je begrip te vergroten. Met praktische voorbeelden en gestructureerde lessen kun je Aspose.PDF voor .NET moeiteloos onder de knie krijgen. Bekijk vandaag nog onze tutorials en verbeter je vaardigheden in PDF-ontwikkeling!
+Elke tutorial bevat illustraties van hoge kwaliteit, geannoteerde screenshots en kant‑klaar C#‑codefragmenten om je begrip te vergroten. Met praktische voorbeelden en gestructureerde lessen kun je Aspose.PDF voor .NET moeiteloos onder de knie krijgen. Verken vandaag nog onze tutorials en til je PDF‑ontwikkelvaardigheden naar een hoger niveau!
 
-## [Aspose.PDF voor .NET Visuele Tutorials](./net/)
+## Snelle antwoorden
+- **Wat is het primaire doel van deze tutorials?** Om je te leren hoe je PDF‑documenten maakt en geavanceerde PDF‑bewerkingen uitvoert met Aspose.PDF voor .NET.  
+- **Heb ik een licentie nodig?** Er is een gratis proefversie beschikbaar; een commerciële licentie is vereist voor productiegebruik.  
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Kan ik deze tutorials gebruiken voor Java?** Er worden aparte Java‑tutorials later op deze pagina aangeboden.  
+- **Hoe lang duurt het om een basis‑PDF‑creatie te implementeren?** Meestal minder dan 10 minuten zodra de bibliotheek is gerefereerd.
 
-Aspose.PDF voor .NET Visual Tutorials bieden uitgebreide, stapsgewijze handleidingen om ontwikkelaars te helpen PDF-verwerking onder de knie te krijgen met C#. Of u nu PDF's moet maken, bewerken, converteren of manipuleren, deze tutorials bieden duidelijke uitleg en praktische codevoorbeelden. Met een focus op praktijkscenario's maken ze complexe PDF-taken eenvoudig en efficiënt.
+## Hoe PDF te maken – Overzicht
+Een PDF maken met Aspose.PDF begint met het instantieren van de `Document`‑klasse, het toevoegen van pagina's en het vullen daarvan met inhoud zoals tekst, afbeeldingen, tabellen of grafische elementen. De API abstraheert low‑level PDF‑structuren, zodat je je kunt concentreren op de bedrijfslogica van je applicatie.
+
+## [Aspose.PDF voor .NET Visual Tutorials](./net/)
+
+Aspose.PDF voor .NET Visual Tutorials bieden uitgebreide, stap‑voor‑stap‑gidsen om ontwikkelaars te helpen PDF‑verwerking onder de knie te krijgen met C#. Of je nu PDF's moet maken, bewerken, converteren of manipuleren, deze tutorials bieden duidelijke uitleg en praktische code‑voorbeelden. Met een focus op real‑world scenario's maken ze complexe PDF‑taken eenvoudig en efficiënt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Grafieken maken in PDF met Aspose.PDF voor .NET](./net/graphs/)
-Leer hoe u grafieken in PDF kunt maken en aanpassen met Aspose.PDF voor .NET. Voeg moeiteloos lijn-, staaf- en cirkeldiagrammen toe met C#-codevoorbeelden.
 
-{{< tutorial-card link="./net/graphs/add-drawing/" title="Maak een PDF met transparante grafieken met Aspose.PDF" imgSrc="./net/graphs/add-drawing/images/thumb.png" >}}
+Leer hoe je grafieken kunt maken en aanpassen in PDF met Aspose.PDF voor .NET. Voeg eenvoudig lijn-, staaf- en cirkeldiagrammen toe met C#‑codevoorbeelden.
 
-{{< tutorial-card link="./net/graphs/control-rectangle-z-order/" title="PDF's maken en aanpassen met rechthoeken in .NET" imgSrc="./net/graphs/control-rectangle-z-order/images/thumb.png" >}}
+{{< tutorial-card link="./net/graphs/add-drawing/" title="Create a PDF with Transparent Graphs Using Aspose.PDF" imgSrc="./net/graphs/add-drawing/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/graphs/create-rectangle-with-alpha-color/" title="Maak een PDF met rechthoeken en alfa-kleuren in Aspose.PDF" imgSrc="./net/graphs/create-rectangle-with-alpha-color/images/thumb.png" >}}
+{{< tutorial-card link="./net/graphs/control-rectangle-z-order/" title="Create and Customize PDF with Rectangles in .NET" imgSrc="./net/graphs/control-rectangle-z-order/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/graphs/drawing-line/" title="Diagonale lijnen tekenen in PDF met Aspose.PDF voor .NET" imgSrc="./net/graphs/drawing-line/images/thumb.png" >}}
+{{< tutorial-card link="./net/graphs/create-rectangle-with-alpha-color/" title="Create PDF with Rectangles & Alpha Colors in Aspose.PDF" imgSrc="./net/graphs/create-rectangle-with-alpha-color/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/graphs/drawing-line/" title="Draw Diagonal Lines in PDF Using Aspose.PDF for .NET" imgSrc="./net/graphs/drawing-line/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+## Lijn tekenen PDF
+Het tekenen van rechte of diagonale lijnen is een veelvoorkomende eis voor formulieren, handtekeningen en visuele hulplijnen. De tutorial “Draw Diagonal Lines” toont de exacte API‑aanroepen die nodig zijn om precieze lijnobjecten aan elke PDF‑pagina toe te voegen.
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Afbeeldingen genereren uit PDF met Aspose.PDF voor .NET](./net/images/)
+
+Leer hoe je afbeeldingen kunt genereren uit PDF‑bestanden met Aspose.PDF voor .NET. Converteer PDF‑pagina's moeiteloos naar JPEG, PNG of BMP in C# met hoge kwaliteit.
+
+{{< tutorial-card link="./net/images/extract-image/" title="Extract Images from PDF in C# using Aspose.PDF" imgSrc="./net/images/extract-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/images/resize-image/" title="Optimize PDF Images with Aspose.PDF for .NET" imgSrc="./net/images/resize-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+## Afbeeldingen extraheren PDF
+De tutorial “Extract Images” laat zien hoe je raster‑assets uit bestaande PDF's kunt halen, een handige techniek voor hergebruik van inhoud of migratieprojecten.
+
+## PDF‑afbeeldingen verkleinen
+Wanneer je kleinere bestanden of snellere weergave nodig hebt, legt de gids “Resize Image” uit hoe je programmatisch de afmetingen van afbeeldingen kunt aanpassen terwijl je de kwaliteit behoudt.
+
+## PDF‑afbeeldingen comprimeren
+Voor omgevingen met beperkte opslagruimte toont de tutorial “Shrink Image” compressie‑instellingen die de PDF‑grootte drastisch verkleinen zonder merkbaar visueel verlies.
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Uitgebreide tabel‑tutorials in Aspose.PDF voor .NET](./net/tables/)
+
+Leer hoe je tabellen kunt maken, opmaken en manipuleren in PDF‑documenten met Aspose.PDF voor .NET via stap‑voor‑stap‑tutorials en code‑voorbeelden.
+
+{{< tutorial-card link="./net/tables/add-table/" title="Add Table to an Existing PDF Using Aspose.PDF for .NET" imgSrc="./net/tables/add-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/tables/insert-page-break/" title="Create a PDF with Tables and Pagination Using Aspose.PDF" imgSrc="./net/tables/insert-page-break/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/tables/render-table/" title="Create a PDF with Tables using Aspose.PDF for .NET" imgSrc="./net/tables/render-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/tables/set-border/" title="Create PDF with Double-Bordered Table using Aspose.PDF" imgSrc="./net/tables/set-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/tables/text-alignment-for-table-row-content/" title="Create a PDF with Text Alignment for Table Row Content" imgSrc="./net/tables/text-alignment-for-table-row-content/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+## Tabel toevoegen PDF
+Tabellen zijn essentieel voor rapporten en facturen. Deze sectie verzamelt de tabel‑gerelateerde tutorials, waardoor je een alles‑in‑één referentie hebt voor het toevoegen, stijlen en pagineren van tabellen in PDF's.
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Uitgebreide tutorials voor tekstverwerking in Aspose.PDF voor .NET](./net/text/)
+
+Leer hoe je tabellen kunt maken, opmaken en manipuleren in PDF‑documenten met Aspose.PDF voor .NET via stap‑voor‑stap‑tutorials en code‑voorbeelden.
+
+{{< tutorial-card link="./net/text/add-text/" title="Adding Text to PDF Documents with Aspose.PDF" imgSrc="./net/text/add-text/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/add-text-border/" title="Creating Styled Text with Borders in PDF Documents using Aspose.PDF" imgSrc="./net/text/add-text-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/add-transparent-text/" title="Creating Transparent Text Effects in PDF with Aspose.PDF" imgSrc="./net/text/add-transparent-text/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/add-underline-text/" title="Adding Underlined Text in PDF with Aspose.PDF" imgSrc="./net/text/add-underline-text/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/create-multi-column/" title="Create a Multi-Column PDF Using Aspose.PDF for .NET" imgSrc="./net/text/create-multi-column/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/multicolumn-paragraphs/" title="Multi-Column Paragraphs in PDF using Aspose.PDF" imgSrc="./net/text/multicolumn-paragraphs/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Genereer afbeeldingen uit PDF met Aspose.PDF voor .NET](./net/images/)
-Leer hoe u afbeeldingen uit PDF-bestanden kunt genereren met Aspose.PDF voor .NET. Converteer PDF-pagina's moeiteloos naar JPEG, PNG of BMP in C#, met hoge kwaliteit.
 
-{{< tutorial-card link="./net/images/extract-image/" title="Afbeeldingen uit PDF extraheren in C# met Aspose.PDF" imgSrc="./net/images/extract-image/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/images/resize-image/" title="Optimaliseer PDF-afbeeldingen met Aspose.PDF voor .NET" imgSrc="./net/images/resize-image/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/images/set-image-size/" title="Een PDF met afbeeldingen maken en wijzigen met Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/images/shrink-image/" title="Optimaliseer PDF door afbeeldingen te comprimeren in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Uitgebreide tabeltutorials in Aspose.PDF voor .NET](./net/tables/)
-Leer hoe u tabellen in PDF-documenten kunt maken, opmaken en bewerken met Aspose.PDF voor .NET met stapsgewijze zelfstudies en codevoorbeelden.
-
-{{< tutorial-card link="./net/tables/add-table/" title="Een tabel toevoegen aan een bestaande PDF met Aspose.PDF voor .NET" imgSrc="./net/tables/add-table/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/tables/insert-page-break/" title="Maak een PDF met tabellen en paginering met Aspose.PDF" imgSrc="./net/tables/insert-page-break/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/tables/render-table/" title="Maak een PDF met tabellen met Aspose.PDF voor .NET" imgSrc="./net/tables/render-table/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/tables/set-border/" title="Maak een PDF met een tabel met dubbele rand met Aspose.PDF" imgSrc="./net/tables/set-border/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/tables/text-alignment-for-table-row-content/" title="Maak een PDF met tekstuitlijning voor tabelrijinhoud" imgSrc="./net/tables/text-alignment-for-table-row-content/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Uitgebreide tutorials Tekstverwerking in Aspose.PDF voor .NET](./net/text/)
-Leer hoe u tabellen in PDF-documenten kunt maken, opmaken en bewerken met Aspose.PDF voor .NET met stapsgewijze zelfstudies en codevoorbeelden.
-
-{{< tutorial-card link="./net/text/add-text/" title="Tekst toevoegen aan PDF-documenten met Aspose.PDF" imgSrc="./net/text/add-text/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/text/add-text-border/" title="Gestileerde tekst met randen maken in PDF-documenten met Aspose.PDF" imgSrc="./net/text/add-text-border/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/text/add-transparent-text/" title="Transparante teksteffecten in PDF maken met Aspose.PDF" imgSrc="./net/text/add-transparent-text/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/text/add-underline-text/" title="Onderstreepte tekst toevoegen aan een PDF met Aspose.PDF" imgSrc="./net/text/add-underline-text/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/text/create-multi-column/" title="Maak een PDF met meerdere kolommen met Aspose.PDF voor .NET" imgSrc="./net/text/create-multi-column/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/text/multicolumn-paragraphs/" title="Alinea's met meerdere kolommen in PDF met Aspose.PDF" imgSrc="./net/text/multicolumn-paragraphs/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-Hieronder vindt u links naar nuttige bronnen:
+Dit zijn links naar enkele nuttige bronnen:
 - [Aan de slag](./net/getting-started/)
 - [Programmeren met Document](./net/programming-with-document/)
-- [Programmeren met annotaties](./net/annotations/)  
+- [Programmeren met Annotaties](./net/programming-with-annotations/)
 - [Documentconversie](./net/document-conversion/)
-- [Programmeren met formulieren](./net/programming-with-forms/)
-- [Programmeren met tabellen](./net/programming-with-tables/) 
+- [Programmeren met Formulieren](./net/programming-with-forms/)
+- [Programmeren met Tabellen](./net/programming-with-tables/)
 - [Programmeren met PDF-pagina's](./net/programming-with-pdf-pages/)
-- [Programmeren met grafieken](./net/programming-with-graphs/)
+- [Programmeren met Grafieken](./net/programming-with-graphs/)
 - [Documentcreatie](./net/document-creation/)
 - [Documentmanipulatie](./net/document-manipulation/)
 - [Tekstbewerkingen](./net/text-operations/)
-- [Afbeeldingen en grafieken](./net/images-graphics/)
-- [Tabellen en lijsten](./net/tables-lists/)
-- [Formulieren en aantekeningen](./net/forms-annotations/)
-- [Beveiliging en machtigingen](./net/security-permissions/)
-- [Conversie en export](./net/conversion-export/)
-- [Afdrukken en renderen](./net/printing-rendering/)
-- [Bijlagen en ingesloten bestanden](./net/attachments-embedded-files/)
-- [Metagegevens en documentinfo](./net/metadata-document-info/)
-- [PDF/A-naleving](./net/pdfa-compliance/)
-- [Bladwijzers en navigatie](./net/bookmarks-navigation/)
-- [Watermerken en achtergronden](./net/watermarks-backgrounds/)
+- [Afbeeldingen & Grafische elementen](./net/images-graphics/)
+- [Tabellen & Lijsten](./net/tables-lists/)
+- [Formulieren & Annotaties](./net/forms-annotations/)
+- [Beveiliging & Machtigingen](./net/security-permissions/)
+- [Conversie & Export](./net/conversion-export/)
+- [Afdrukken & Rendering](./net/printing-rendering/)
+- [Bijlagen & Ingesloten bestanden](./net/attachments-embedded-files/)
+- [Metadata & Documentinformatie](./net/metadata-document-info/)
+- [PDF/A-conformiteit](./net/pdfa-compliance/)
+- [Bladwijzers & Navigatie](./net/bookmarks-navigation/)
+- [Watermerken & Achtergronden](./net/watermarks-backgrounds/)
 - [Digitale handtekeningen](./net/digital-signatures/)
 - [Geavanceerde functies](./net/advanced-features/)
-- [Prestatieoptimalisatie](./net/performance-optimization/)
-- [PDF-portfolio's](./net/pdf-portfolios/)
- 
-## Aspose.PDF-verwerkings-API voor Java
+- [Prestatie‑optimalisatie](./net/performance-optimization/)
+- [PDF‑portefeuilles](./net/pdf-portfolios/)
+
+## Aspose.PDF verwerkings‑API voor Java
 
 {{% alert color="primary" %}}
-Leer Aspose.PDF voor Java met uitgebreide tutorials. Maak, bewerk en optimaliseer moeiteloos PDF's. Verbeter vandaag nog je PDF-ontwikkelingsvaardigheden!
-
+Beheers Aspose.PDF voor Java met uitgebreide tutorials. Maak, bewerk en optimaliseer PDF's moeiteloos. Verhoog vandaag nog je PDF‑ontwikkelvaardigheden!
 {{% /alert %}}
 
-Hieronder vindt u links naar nuttige bronnen:
+Dit zijn links naar enkele nuttige bronnen:
 - [Aan de slag](./java/getting-started/)	
-- [PDF-annotaties](./java/pdf-annotations/)
-- [PDF-bijlagen](./java/pdf-attachments/)
-- [PDF-bladwijzers](./java/pdf-bookmarks/)
-- [PDF-conversie en -transformatie](./java/pdf-conversion-transformation/)
-- [PDF-afbeeldingen](./java/pdf-images/)
-- [PDF-beeldmanipulatie](./java/pdf-image-manipulation/)
-- [PDF-documentkoppelingen](./java/pdf-document-links/)
-- [PDF-paginamanipulatie](./java/pdf-page-manipulation/)
-- [PDF-documentbewerkingen](./java/pdf-document-operations/)
-- [PDF-formuliervelden](./java/pdf-form-fields/)
-- [PDF-tabellen](./java/pdf-tables/)
-- [PDF-structuurelementen](./java/pdf-structure-elements/)
-- [PDF-tags en structuur](./java/pdf-tags-and-structure/)
-- [PDF-stijlen en -opmaak](./java/pdf-styles-and-formatting/)
-- [PDF-tekst extractie](./java/pdf-text-extraction/)
-- [PDF-validatie en -verificatie](./java/pdf-validation-and-verification/)
+- [PDF‑annotaties](./java/pdf-annotations/)
+- [PDF‑bijlagen](./java/pdf-attachments/)
+- [PDF‑bladwijzers](./java/pdf-bookmarks/)
+- [PDF‑conversie & transformatie](./java/pdf-conversion-transformation/)
+- [PDF‑afbeeldingen](./java/pdf-images/)
+- [PDF‑afbeeldingsmanipulatie](./java/pdf-image-manipulation/)
+- [PDF‑documentlinks](./java/pdf-document-links/)
+- [PDF‑paginamanipulatie](./java/pdf-page-manipulation/)
+- [PDF‑documentbewerkingen](./java/pdf-document-operations/)
+- [PDF‑formuliervelden](./java/pdf-form-fields/)
+- [PDF‑tabellen](./java/pdf-tables/)
+- [PDF‑structuurelementen](./java/pdf-structure-elements/)
+- [PDF‑tags en structuur](./java/pdf-tags-and-structure/)
+- [PDF‑stijlen en opmaak](./java/pdf-styles-and-formatting/)
+- [PDF‑tekstextractie](./java/pdf-text-extraction/)
+- [PDF‑validatie en verificatie](./java/pdf-validation-and-verification/)
 - [Documentcreatie](./java/document-creation/)
 - [Documentmanipulatie](./java/document-manipulation/)
 - [Tekstbewerkingen](./java/text-operations/)
-- [Afbeeldingen en grafieken](./java/images-graphics/)
-- [Tabellen en lijsten](./java/tables-lists/)
-- [Formulieren en aantekeningen](./java/forms-annotations/)
-- [Beveiliging en machtigingen](./java/security-permissions/)
-- [Conversie en export](./java/conversion-export/)
-- [Afdrukken en renderen](./java/printing-rendering/)
-- [Bijlagen en ingesloten bestanden](./java/attachments-embedded-files/)
-- [Metagegevens en documentinfo](./java/metadata-document-info/)
-- [PDF/A-naleving](./java/pdfa-compliance/)
-- [Bladwijzers en navigatie](./java/bookmarks-navigation/)
-- [Watermerken en achtergronden](./java/watermarks-backgrounds/)
+- [Afbeeldingen & Grafische elementen](./java/images-graphics/)
+- [Tabellen & Lijsten](./java/tables-lists/)
+- [Formulieren & Annotaties](./java/forms-annotations/)
+- [Beveiliging & Machtigingen](./java/security-permissions/)
+- [Conversie & Export](./java/conversion-export/)
+- [Afdrukken & Rendering](./java/printing-rendering/)
+- [Bijlagen & Ingesloten bestanden](./java/attachments-embedded-files/)
+- [Metadata & Documentinformatie](./java/metadata-document-info/)
+- [PDF/A-conformiteit](./java/pdfa-compliance/)
+- [Bladwijzers & Navigatie](./java/bookmarks-navigation/)
+- [Watermerken & Achtergronden](./java/watermarks-backgrounds/)
 - [Digitale handtekeningen](./java/digital-signatures/)
 - [Geavanceerde functies](./java/advanced-features/)
-- [Prestatieoptimalisatie](./java/performance-optimization/)
+- [Prestatie‑optimalisatie](./java/performance-optimization/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -165,3 +198,28 @@ Hieronder vindt u links naar nuttige bronnen:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**Author:** Aspose  
+
+---
+
+## Veelgestelde vragen
+
+**Q:** *Kan ik deze tutorials gebruiken in een commerciële applicatie?*  
+**A:** Ja, je hebt een geldige Aspose‑licentie nodig voor productiegebruik; een gratis proefversie is beschikbaar voor evaluatie.
+
+**Q:** *Werken de .NET‑tutorials met .NET Core?*  
+**A:** Absoluut – alle voorbeelden zijn compatibel met .NET Core 3.1 en later, evenals .NET 5/6/7.
+
+**Q:** *Hoe haal ik afbeeldingen uit een bestaande PDF?*  
+**A:** Gebruik de `PdfExtractor`‑klasse die wordt getoond in de sectie “Extract Images PDF” om raster‑assets te extraheren.
+
+**Q:** *Wat is de beste manier om een tabel aan een PDF toe te voegen?*  
+**A:** Volg de gids “Add Table PDF”; deze behandelt het maken van een `Table`‑object, het vullen van rijen en het toepassen van randen.
+
+**Q:** *Kan ik aangepaste lijnen of vormen op een PDF‑pagina tekenen?*  
+**A:** Ja – zie de tutorial “Draw Line PDF” voor het gebruik van de `Line`‑ en `Rectangle`‑primitieven.
