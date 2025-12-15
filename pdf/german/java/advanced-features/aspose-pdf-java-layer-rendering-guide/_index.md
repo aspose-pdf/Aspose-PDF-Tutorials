@@ -185,6 +185,12 @@ Durch das Befolgen dieses Leitfadens haben Sie gelernt, wie Sie PDF‑Dateien mi
 
 Beginnen Sie noch heute, die Möglichkeiten von Aspose.PDF Java zu erkunden, und verbessern Sie Ihre Dokumenten‑Verarbeitungs‑Workflows!
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ Beginnen Sie noch heute, die Möglichkeiten von Aspose.PDF Java zu erkunden, und
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

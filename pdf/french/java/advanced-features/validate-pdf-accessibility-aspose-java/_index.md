@@ -149,6 +149,12 @@ R5 : Visitez le [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) pour
 - **Essai gratuit** : [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)  
 - **Licence temporaire** : [Request Here](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Dernière mise à jour :** 2025-12-10  
+**Testé avec :** Aspose.PDF 25.3 for Java  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -156,11 +162,3 @@ R5 : Visitez le [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) pour
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-10  
-**Testé avec :** Aspose.PDF 25.3 for Java  
-**Auteur :** Aspose  
-
----

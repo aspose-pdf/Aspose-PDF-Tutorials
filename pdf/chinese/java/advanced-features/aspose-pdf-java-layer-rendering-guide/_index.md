@@ -184,6 +184,12 @@ doc.save(outputDir + "/renderPDFDataLayersAsSeparateHTMLLayerElement.html", html
 
 立即开始探索 Aspose.PDF Java 的强大功能，提升您的文档处理工作流！
 
+---
+
+**Last Updated:**2025-12-10  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +197,3 @@ doc.save(outputDir + "/renderPDFDataLayersAsSeparateHTMLLayerElement.html", html
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:**2025-12-10  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

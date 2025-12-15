@@ -147,6 +147,12 @@ A: เยี่ยมชม [Aspose Support Forum](https://forum.aspose.com/c/pd
 - **Free Trial**: [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)  
 - **Temporary License**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-10  
+**ทดสอบด้วย:** Aspose.PDF 25.3 for Java  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -154,11 +160,3 @@ A: เยี่ยมชม [Aspose Support Forum](https://forum.aspose.com/c/pd
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-10  
-**ทดสอบด้วย:** Aspose.PDF 25.3 for Java  
-**ผู้เขียน:** Aspose  
-
----

@@ -147,6 +147,12 @@ A: Visit the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) for assis
 - **Free Trial**: [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -154,11 +160,3 @@ A: Visit the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) for assis
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
-
----

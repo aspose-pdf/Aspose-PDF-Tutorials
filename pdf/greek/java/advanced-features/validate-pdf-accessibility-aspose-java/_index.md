@@ -149,6 +149,12 @@ Boolean isValid = document.validate("YOUR_OUTPUT_DIRECTORY" + "ua-20.xml", PdfFo
 - **Δωρεάν Δοκιμή**: [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)
 - **Προσωρινή Άδεια**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-10  
+**Δοκιμάστηκε Με:** Aspose.PDF 25.3 for Java  
+**Συγγραφέας:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -156,11 +162,3 @@ Boolean isValid = document.validate("YOUR_OUTPUT_DIRECTORY" + "ua-20.xml", PdfFo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-10  
-**Δοκιμάστηκε Με:** Aspose.PDF 25.3 for Java  
-**Συγγραφέας:** Aspose  
-
----

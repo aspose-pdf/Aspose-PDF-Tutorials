@@ -185,6 +185,12 @@ A : La fonctionnalité `setConvertMarkedContentToLayers` est disponible depuis l
 
 Commencez dès aujourd'hui à explorer les capacités d'Aspose.PDF Java et améliorez vos flux de traitement de documents !
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ Commencez dès aujourd'hui à explorer les capacités d'Aspose.PDF Java et amél
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

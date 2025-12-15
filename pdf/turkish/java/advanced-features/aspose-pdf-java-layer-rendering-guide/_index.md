@@ -185,6 +185,12 @@ C: `setConvertMarkedContentToLayers` özelliği 20.9 sürümünden beri mevcuttu
 
 Aspose.PDF Java'nin yeteneklerini bugün keşfetmeye başlayın ve belge işleme iş akışlarınızı geliştirin!
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ Aspose.PDF Java'nin yeteneklerini bugün keşfetmeye başlayın ve belge işleme
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

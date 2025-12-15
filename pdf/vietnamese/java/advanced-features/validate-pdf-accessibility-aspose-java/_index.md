@@ -147,6 +147,12 @@ A: Truy cập [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) để nh
 - **Dùng Thử Miễn Phí**: [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)  
 - **Giấy Phép Tạm Thời**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Cập Nhật Lần Cuối:** 2025-12-10  
+**Đã Kiểm Tra Với:** Aspose.PDF 25.3 cho Java  
+**Tác Giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -154,11 +160,3 @@ A: Truy cập [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) để nh
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập Nhật Lần Cuối:** 2025-12-10  
-**Đã Kiểm Tra Với:** Aspose.PDF 25.3 cho Java  
-**Tác Giả:** Aspose  
-
----

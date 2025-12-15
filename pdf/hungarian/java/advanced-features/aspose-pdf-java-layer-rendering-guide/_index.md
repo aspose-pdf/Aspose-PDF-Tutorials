@@ -186,6 +186,12 @@ V: A `setConvertMarkedContentToLayers` funkció a 20.9‑es verziótól elérhet
 
 Kezdje el ma felfedezni az Aspose.PDF Java képességeit, és javítsa dokumentumfeldolgozási folyamatait!
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ Kezdje el ma felfedezni az Aspose.PDF Java képességeit, és javítsa dokumentu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

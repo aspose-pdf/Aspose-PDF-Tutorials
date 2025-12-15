@@ -185,6 +185,12 @@ doc.save(outputDir + "/renderPDFDataLayersAsSeparateHTMLLayerElement.html", html
 
 Ξεκινήστε να εξερευνάτε τις δυνατότητες του Aspose.PDF Java σήμερα και βελτιώστε τις ροές επεξεργασίας εγγράφων σας!
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-10  
+**Δοκιμή με:** Aspose.PDF 25.3 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ doc.save(outputDir + "/renderPDFDataLayersAsSeparateHTMLLayerElement.html", html
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-10  
-**Δοκιμή με:** Aspose.PDF 25.3 for Java  
-**Συγγραφέας:** Aspose

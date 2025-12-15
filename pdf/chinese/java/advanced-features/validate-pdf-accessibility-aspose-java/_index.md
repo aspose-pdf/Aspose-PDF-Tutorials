@@ -145,6 +145,12 @@ A：请访问 [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) 获取�
 - **免费试用**：[Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)
 - **临时许可证**：[Request Here](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,11 +158,3 @@ A：请访问 [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) 获取�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
-
----

@@ -147,6 +147,12 @@ A: 커뮤니티 전문가와 Aspose 직원의 도움을 받으려면 [Aspose Sup
 - **무료 체험**: [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)
 - **임시 라이선스**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**마지막 업데이트:** 2025-12-10  
+**테스트 환경:** Aspose.PDF 25.3 for Java  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -154,11 +160,3 @@ A: 커뮤니티 전문가와 Aspose 직원의 도움을 받으려면 [Aspose Sup
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-10  
-**테스트 환경:** Aspose.PDF 25.3 for Java  
-**작성자:** Aspose  
-
----

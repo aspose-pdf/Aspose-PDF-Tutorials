@@ -146,6 +146,12 @@ A: Bezoek het [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) voor hul
 - **Gratis proefversie**: [Probeer Aspose.PDF gratis](https://releases.aspose.com/pdf/java/)
 - **Tijdelijke licentie**: [Vraag hier aan](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Laatst bijgewerkt:** 2025-12-10  
+**Getest met:** Aspose.PDF 25.3 for Java  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -153,11 +159,3 @@ A: Bezoek het [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) voor hul
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-10  
-**Getest met:** Aspose.PDF 25.3 for Java  
-**Auteur:** Aspose  
-
----
