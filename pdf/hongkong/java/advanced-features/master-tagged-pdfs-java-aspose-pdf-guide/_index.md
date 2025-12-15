@@ -6,9 +6,8 @@ keywords:
 - tagged PDFs in Java
 - Aspose.PDF for Java
 - accessible PDF creation
-language: zh-hant
 title: 如何使用 Aspose.PDF 在 Java 中標記 PDF：完整的可及性與結構化指南
-url: /java/advanced-features/master-tagged-pdfs-java-aspose-pdf-guide/
+url: /zh-hant/java/advanced-features/master-tagged-pdfs-java-aspose-pdf-guide/
 weight: 1
 ---
 

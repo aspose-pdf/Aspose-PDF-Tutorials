@@ -7,10 +7,9 @@ keywords:
 - tagged PDFs in Java
 - Aspose.PDF for Java
 - accessible PDF creation
-language: ar
 title: 'كيفية إضافة وسوم PDF في جافا باستخدام Aspose.PDF: دليل شامل لإمكانية الوصول
   والهيكلة'
-url: /java/advanced-features/master-tagged-pdfs-java-aspose-pdf-guide/
+url: /ar/java/advanced-features/master-tagged-pdfs-java-aspose-pdf-guide/
 weight: 1
 ---
 

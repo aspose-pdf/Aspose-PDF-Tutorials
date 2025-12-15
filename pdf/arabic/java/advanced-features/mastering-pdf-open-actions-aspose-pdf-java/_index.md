@@ -7,9 +7,8 @@ keywords:
 - PDF open actions with Aspose.PDF Java
 - Aspose.PDF Java setup guide
 - Modify PDF open action
-language: ar
 title: كيفية التحكم في ملفات PDF باستخدام Aspose.PDF للـ Java – دليل متقدم
-url: /java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
+url: /ar/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
 weight: 1
 ---
 
@@ -167,6 +166,12 @@ document.save(outputDir + "/Output.pdf");
 - **ترخيص مؤقت:** اطلبه عبر [صفحة الترخيص المؤقت لـ Aspose](https://purchase.aspose.com/temporary-license/).  
 - **الدعم:** منتدى المجتمع على [منتدى Aspose](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**آخر تحديث:** 2025-12-09  
+**تم الاختبار مع:** Aspose.PDF for Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -174,9 +179,3 @@ document.save(outputDir + "/Output.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-09  
-**تم الاختبار مع:** Aspose.PDF for Java 25.3  
-**المؤلف:** Aspose

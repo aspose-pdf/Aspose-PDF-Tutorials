@@ -7,9 +7,8 @@ keywords:
 - PDF open actions with Aspose.PDF Java
 - Aspose.PDF Java setup guide
 - Modify PDF open action
-language: de
 title: Wie man PDF mit Aspose.PDF für Java steuert – Fortgeschrittener Leitfaden
-url: /java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
+url: /de/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
 weight: 1
 ---
 
@@ -167,6 +166,12 @@ A: Apache PDFBox und iText können Open‑Actions manipulieren, benötigen jedoc
 - **Temporary License:** Fordern Sie eine Lizenz an über die [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/).  
 - **Support:** Community‑Forum unter [Aspose Forum](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-09  
+**Getestet mit:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -174,9 +179,3 @@ A: Apache PDFBox und iText können Open‑Actions manipulieren, benötigen jedoc
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-09  
-**Getestet mit:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose

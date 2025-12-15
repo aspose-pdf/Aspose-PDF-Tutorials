@@ -6,9 +6,8 @@ keywords:
 - PDF open actions with Aspose.PDF Java
 - Aspose.PDF Java setup guide
 - Modify PDF open action
-language: zh-hant
 title: 使用 Aspose.PDF for Java 控制 PDF – 進階指南
-url: /java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
+url: /zh-hant/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
 weight: 1
 ---
 
@@ -166,6 +165,12 @@ A: Apache PDFBox 與 iText 也能操作 open actions，但可能需要更底層�
 - **臨時授權：** 透過 [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/) 申請。  
 - **支援：** 社群論壇請至 [Aspose Forum](https://forum.aspose.com/c/pdf/10) 交流。
 
+---
+
+**最後更新：** 2025-12-09  
+**測試環境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -173,9 +178,3 @@ A: Apache PDFBox 與 iText 也能操作 open actions，但可能需要更底層�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-09  
-**測試環境：** Aspose.PDF for Java 25.3  
-**作者：** Aspose

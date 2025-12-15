@@ -7,9 +7,8 @@ keywords:
 - PDF open actions with Aspose.PDF Java
 - Aspose.PDF Java setup guide
 - Modify PDF open action
-language: vi
 title: Cách kiểm soát PDF với Aspose.PDF cho Java – Hướng dẫn nâng cao
-url: /java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
+url: /vi/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
 weight: 1
 ---
 
@@ -167,6 +166,12 @@ A: Apache PDFBox và iText có thể thao tác open actions, nhưng chúng có t
 - **Temporary License:** Yêu cầu qua [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/).  
 - **Support:** Diễn đàn cộng đồng tại [Aspose Forum](https://forum.aspose.com/c/pdf/10).
 
+---
+
+**Cập nhật lần cuối:** 2025-12-09  
+**Được kiểm tra với:** Aspose.PDF for Java 25.3  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -174,9 +179,3 @@ A: Apache PDFBox và iText có thể thao tác open actions, nhưng chúng có t
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-09  
-**Được kiểm tra với:** Aspose.PDF for Java 25.3  
-**Tác giả:** Aspose

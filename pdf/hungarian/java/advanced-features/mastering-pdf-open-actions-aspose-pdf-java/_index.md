@@ -7,9 +7,8 @@ keywords:
 - PDF open actions with Aspose.PDF Java
 - Aspose.PDF Java setup guide
 - Modify PDF open action
-language: hu
 title: PDF vezérlése Aspose.PDF for Java segítségével – Haladó útmutató
-url: /java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
+url: /hu/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
 weight: 1
 ---
 
@@ -167,6 +166,12 @@ A: Az Apache PDFBox és az iText is képes nyitási műveletek manipulálására
 - **Ideiglenes licenc:** Kérj egyet a [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/) oldalon.  
 - **Támogatás:** Közösségi fórum a [Aspose Forum](https://forum.aspose.com/c/pdf/10) oldalon.
 
+---
+
+**Utoljára frissítve:** 2025-12-09  
+**Tesztelt verzió:** Aspose.PDF for Java 25.3  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -174,9 +179,3 @@ A: Az Apache PDFBox és az iText is képes nyitási műveletek manipulálására
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-12-09  
-**Tesztelt verzió:** Aspose.PDF for Java 25.3  
-**Szerző:** Aspose

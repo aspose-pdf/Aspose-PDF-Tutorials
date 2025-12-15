@@ -6,9 +6,8 @@ keywords:
 - PDF open actions with Aspose.PDF Java
 - Aspose.PDF Java setup guide
 - Modify PDF open action
-language: ko
 title: Aspose.PDF for Java로 PDF 제어하기 – 고급 가이드
-url: /java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
+url: /ko/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
 weight: 1
 ---
 
@@ -166,6 +165,12 @@ A: Apache PDFBox와 iText도 열기 동작을 조작할 수 있지만, 더 낮�
 - **임시 라이선스:** [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/)에서 요청.  
 - **지원:** 커뮤니티 포럼은 [Aspose Forum](https://forum.aspose.com/c/pdf/10)에서 이용 가능.
 
+---
+
+**마지막 업데이트:** 2025-12-09  
+**테스트 환경:** Aspose.PDF for Java 25.3  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -173,9 +178,3 @@ A: Apache PDFBox와 iText도 열기 동작을 조작할 수 있지만, 더 낮�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-09  
-**테스트 환경:** Aspose.PDF for Java 25.3  
-**작성자:** Aspose
