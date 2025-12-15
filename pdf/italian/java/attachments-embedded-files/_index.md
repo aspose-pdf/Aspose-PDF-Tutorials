@@ -92,20 +92,6 @@ Scopri come utilizzare Aspose.PDF per Java per accedere, gestire ed estrarre pro
 - [Supporto gratuito](https://forum.aspose.com/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-14  
-**Testato con:** Aspose.PDF per Java 24.12  
-**Autore:** Aspose  
-
 ## Domande frequenti
 
 **D:** *Posso estrarre gli allegati da un PDF protetto da password?*  
@@ -124,3 +110,15 @@ Scopri come utilizzare Aspose.PDF per Java per accedere, gestire ed estrarre pro
 **R:** Assolutamente. Avvolgi la logica di estrazione in un ciclo che elabora ogni file in una directory.
 
 ---
+
+**Ultimo aggiornamento:** 2025-12-14  
+**Testato con:** Aspose.PDF per Java 24.12  
+**Autore:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

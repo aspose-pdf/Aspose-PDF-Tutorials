@@ -91,20 +91,6 @@ PDF 组合文档是可以容纳多个 PDF 和其他文件类型的容器。使�
 - [免费支持](https://forum.aspose.com/)
 - [临时许可证](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.PDF for Java 24.12  
-**Author:** Aspose  
-
 ## 常见问题
 
 **Q:** *我可以从受密码保护的 PDF 中提取附件吗？*  
@@ -123,3 +109,15 @@ PDF 组合文档是可以容纳多个 PDF 和其他文件类型的容器。使�
 **A:** 当然可以。将提取逻辑放入循环中，处理目录中的每个文件。
 
 ---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.PDF for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

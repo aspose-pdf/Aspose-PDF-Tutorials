@@ -83,20 +83,6 @@ A PDF portfóliók olyan tárolók, amelyek több PDF-et és más fájltípusoka
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.PDF for Java 24.12  
-**Author:** Aspose  
-
 ## Gyakran Ismételt Kérdések
 
 **Q:** *Kinyerhetek mellékleteket egy jelszóval védett PDF-ből?*  
@@ -115,3 +101,15 @@ A PDF portfóliók olyan tárolók, amelyek több PDF-et és más fájltípusoka
 **A:** Természetesen. A kinyerési logikát egy ciklusba ágyazva dolgoztassa fel a könyvtárban lévő minden fájlt.
 
 ---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.PDF for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

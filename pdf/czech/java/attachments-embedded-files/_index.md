@@ -92,20 +92,6 @@ Learn how to use Aspose.PDF for Java to efficiently access, manage, and extract 
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.PDF for Java 24.12  
-**Author:** Aspose  
-
 ## Často kladené otázky
 
 **Q:** *Mohu extrahovat přílohy z PDF chráněného heslem?*  
@@ -122,3 +108,17 @@ Learn how to use Aspose.PDF for Java to efficiently access, manage, and extract 
 
 **Q:** *Mohu tento proces automatizovat pro dávky PDF?*  
 **A:** Rozhodně. Zabalte logiku extrakce do smyčky, která zpracuje každý soubor ve složce.
+
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.PDF for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

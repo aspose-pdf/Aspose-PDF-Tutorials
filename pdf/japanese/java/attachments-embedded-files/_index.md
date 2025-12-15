@@ -91,20 +91,6 @@ Aspose.PDF for Java を活用して、PDF 文書内の埋め込みファイル�
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-14  
-**テスト環境:** Aspose.PDF for Java 24.12  
-**作成者:** Aspose  
-
 ## Frequently Asked Questions
 
 **Q:** *パスワードで保護された PDF から添付ファイルを抽出できますか？*  
@@ -123,3 +109,15 @@ Aspose.PDF for Java を活用して、PDF 文書内の埋め込みファイル�
 **A:** もちろんです。ディレクトリ内の各ファイルをループ処理するロジックで抽出処理をバッチ化できます。
 
 ---
+
+**最終更新日:** 2025-12-14  
+**テスト環境:** Aspose.PDF for Java 24.12  
+**作成者:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

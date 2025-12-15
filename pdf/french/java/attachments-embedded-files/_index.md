@@ -92,20 +92,6 @@ Apprenez à utiliser Aspose.PDF pour Java afin d'accéder, gérer et extraire le
 - [Support gratuit](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.PDF for Java 24.12  
-**Author:** Aspose  
-
 ## Questions fréquentes
 
 **Q:** *Puis‑je extraire les pièces jointes d'un PDF protégé par mot de passe ?*  
@@ -122,3 +108,17 @@ Apprenez à utiliser Aspose.PDF pour Java afin d'accéder, gérer et extraire le
 
 **Q:** *Puis‑je automatiser ce processus pour des lots de PDF ?*  
 **A:** Absolument. Encapsulez la logique d'extraction dans une boucle qui traite chaque fichier d'un répertoire.
+
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.PDF for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

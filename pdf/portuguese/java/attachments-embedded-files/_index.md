@@ -92,20 +92,6 @@ Aprenda a usar Aspose.PDF para Java para acessar, gerenciar e extrair propriedad
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-14  
-**Testado com:** Aspose.PDF for Java 24.12  
-**Autor:** Aspose  
-
 ## Perguntas Frequentes
 
 **Q:** *Posso extrair anexos de um PDF protegido por senha?*  
@@ -122,3 +108,17 @@ Aprenda a usar Aspose.PDF para Java para acessar, gerenciar e extrair propriedad
 
 **Q:** *Posso automatizar esse processo para lotes de PDFs?*  
 **A:** Absolutamente. Envolva a lógica de extração em um loop que processe cada arquivo em um diretório.
+
+---
+
+**Última atualização:** 2025-12-14  
+**Testado com:** Aspose.PDF for Java 24.12  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

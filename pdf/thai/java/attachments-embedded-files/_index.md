@@ -91,20 +91,6 @@ PDF portfolio คือคอนเทนเนอร์ที่สามาร
 - [สนับสนุนฟรี](https://forum.aspose.com/)
 - [ไลเซนส์ชั่วคราว](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-14  
-**ทดสอบด้วย:** Aspose.PDF for Java 24.12  
-**ผู้เขียน:** Aspose  
-
 ## คำถามที่พบบ่อย
 
 **Q:** *ฉันสามารถสกัดไฟล์แนบจาก PDF ที่ป้องกันด้วยรหัสผ่านได้หรือไม่?*  
@@ -121,3 +107,17 @@ PDF portfolio คือคอนเทนเนอร์ที่สามาร
 
 **Q:** *ฉันสามารถทำกระบวนการนี้อัตโนมัติสำหรับชุดของ PDF ได้หรือไม่?*  
 **A:** แน่นอน. ห่อหุ้มตรรกะการสกัดในลูปที่ประมวลผลไฟล์แต่ละไฟล์ในไดเรกทอรี.
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-14  
+**ทดสอบด้วย:** Aspose.PDF for Java 24.12  
+**ผู้เขียน:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

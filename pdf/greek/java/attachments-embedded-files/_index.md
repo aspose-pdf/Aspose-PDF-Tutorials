@@ -92,20 +92,6 @@ weight: 11
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-14  
-**Δοκιμή με:** Aspose.PDF for Java 24.12  
-**Συγγραφέας:** Aspose  
-
 ## Συχνές Ερωτήσεις
 
 **Ε:** *Μπορώ να εξάγω συνημμένα από PDF που προστατεύεται με κωδικό;*  
@@ -124,3 +110,15 @@ weight: 11
 **Α:** Απόλυτα. Τυλίξτε τη λογική εξαγωγής σε βρόχο που επεξεργάζεται κάθε αρχείο σε έναν φάκελο.
 
 ---
+
+**Τελευταία Ενημέρωση:** 2025-12-14  
+**Δοκιμή με:** Aspose.PDF for Java 24.12  
+**Συγγραφέας:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

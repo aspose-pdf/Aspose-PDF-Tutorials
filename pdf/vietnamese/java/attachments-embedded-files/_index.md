@@ -92,20 +92,6 @@ Tìm hiểu cách sử dụng Aspose.PDF cho Java để truy cập, quản lý v
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-14  
-**Kiểm tra với:** Aspose.PDF for Java 24.12  
-**Tác giả:** Aspose  
-
 ## Câu hỏi thường gặp
 
 **Hỏi:** *Tôi có thể trích xuất tệp đính kèm từ PDF được bảo vệ bằng mật khẩu không?*  
@@ -122,3 +108,17 @@ Tìm hiểu cách sử dụng Aspose.PDF cho Java để truy cập, quản lý v
 
 **Hỏi:** *Tôi có thể tự động hoá quy trình này cho hàng loạt PDF không?*  
 **Đáp:** Chắc chắn. Đặt logic trích xuất vào vòng lặp xử lý từng tệp trong một thư mục.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-14  
+**Kiểm tra với:** Aspose.PDF for Java 24.12  
+**Tác giả:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -87,20 +87,6 @@ PDF portföyleri, birden fazla PDF ve diğer dosya türlerini tutabilen kapsayı
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-14  
-**Test Edilen:** Aspose.PDF for Java 24.12  
-**Yazar:** Aspose  
-
 ## Sıkça Sorulan Sorular
 
 **Q:** *Şifre korumalı bir PDF'den ekleri çıkarabilir miyim?*  
@@ -117,3 +103,17 @@ PDF portföyleri, birden fazla PDF ve diğer dosya türlerini tutabilen kapsayı
 
 **Q:** *Bu süreci birden fazla PDF için otomatikleştirebilir miyim?*  
 **A:** Kesinlikle. Çıkarma mantığını bir döngü içinde sararak bir dizindeki her dosyayı işleyebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2025-12-14  
+**Test Edilen:** Aspose.PDF for Java 24.12  
+**Yazar:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

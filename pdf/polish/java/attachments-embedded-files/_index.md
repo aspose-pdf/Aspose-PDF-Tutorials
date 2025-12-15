@@ -92,20 +92,6 @@ Dowiedz się, jak używać Aspose.PDF for Java do efektywnego dostępu, zarządz
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.PDF for Java 24.12  
-**Author:** Aspose  
-
 ## Najczęściej zadawane pytania
 
 **Q:** *Czy mogę wyodrębnić załączniki z PDF zabezpieczonego hasłem?*  
@@ -122,3 +108,17 @@ Dowiedz się, jak używać Aspose.PDF for Java do efektywnego dostępu, zarządz
 
 **Q:** *Czy mogę zautomatyzować ten proces dla partii PDF‑ów?*  
 **A:** Absolutnie. Umieść logikę wyodrębniania w pętli przetwarzającej każdy plik w katalogu.
+
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.PDF for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

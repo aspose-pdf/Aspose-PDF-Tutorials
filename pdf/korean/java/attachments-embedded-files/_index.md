@@ -91,20 +91,6 @@ Aspose.PDF for Java를 사용해 PDF 내부의 임베드 파일에 접근하고,
 - [무료 지원](https://forum.aspose.com/)
 - [임시 라이선스](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.PDF for Java 24.12  
-**Author:** Aspose  
-
 ## 자주 묻는 질문
 
 **Q:** *Can I extract attachments from a password‑protected PDF?*  
@@ -123,3 +109,15 @@ Aspose.PDF for Java를 사용해 PDF 내부의 임베드 파일에 접근하고,
 **A:** 물론입니다. 디렉터리의 각 파일을 순회하도록 추출 로직을 루프로 감싸면 배치 처리 자동화가 가능합니다.
 
 ---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.PDF for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

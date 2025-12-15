@@ -92,20 +92,6 @@ Erfahren Sie, wie Sie Aspose.PDF für Java nutzen, um eingebettete Dateien in PD
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-14  
-**Getestet mit:** Aspose.PDF für Java 24.12  
-**Autor:** Aspose  
-
 ## Häufig gestellte Fragen
 
 **F:** *Kann ich Anhänge aus einem passwortgeschützten PDF extrahieren?*  
@@ -122,3 +108,17 @@ Erfahren Sie, wie Sie Aspose.PDF für Java nutzen, um eingebettete Dateien in PD
 
 **F:** *Kann ich diesen Prozess für Stapelverarbeitungen von PDFs automatisieren?*  
 **A:** Absolut. Verpacken Sie die Extraktionslogik in einer Schleife, die jede Datei in einem Verzeichnis verarbeitet.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-14  
+**Getestet mit:** Aspose.PDF für Java 24.12  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -92,20 +92,6 @@ Pelajari cara menggunakan Aspose.PDF untuk Java guna mengakses, mengelola, dan m
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-14  
-**Diuji Dengan:** Aspose.PDF untuk Java 24.12  
-**Penulis:** Aspose  
-
 ## Pertanyaan yang Sering Diajukan
 
 **T:** *Bisakah saya mengekstrak lampiran dari PDF yang dilindungi kata sandi?*  
@@ -122,3 +108,17 @@ Pelajari cara menggunakan Aspose.PDF untuk Java guna mengakses, mengelola, dan m
 
 **T:** *Bisakah saya mengotomatisasi proses ini untuk batch PDF?*  
 **J:** Tentu saja. Bungkus logika ekstraksi dalam loop yang memproses setiap file dalam sebuah direktori.
+
+---
+
+**Terakhir Diperbarui:** 2025-12-14  
+**Diuji Dengan:** Aspose.PDF untuk Java 24.12  
+**Penulis:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

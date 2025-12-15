@@ -91,20 +91,6 @@ Learn how to use Aspose.PDF for Java to efficiently access, manage, and extract 
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-14  
-**Тестировано с:** Aspose.PDF for Java 24.12  
-**Автор:** Aspose  
-
 ## Часто задаваемые вопросы
 
 **Q:** *Могу ли я извлечь вложения из PDF, защищённого паролем?*  
@@ -121,3 +107,17 @@ Learn how to use Aspose.PDF for Java to efficiently access, manage, and extract 
 
 **Q:** *Могу ли я автоматизировать процесс для пакетной обработки PDF?*  
 **A:** Конечно. Оберните логику извлечения в цикл, который обрабатывает каждый файл в каталоге.
+
+---
+
+**Последнее обновление:** 2025-12-14  
+**Тестировано с:** Aspose.PDF for Java 24.12  
+**Автор:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

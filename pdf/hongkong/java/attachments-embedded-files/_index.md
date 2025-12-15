@@ -91,20 +91,6 @@ PDF 投資組合是可容納多個 PDF 及其他檔案類型的容器。使用�
 - [免費技術支援](https://forum.aspose.com/)  
 - [臨時授權取得](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-14  
-**測試環境：** Aspose.PDF for Java 24.12  
-**作者：** Aspose  
-
 ## 常見問與答
 
 **Q:** *我可以從受密碼保護的 PDF 提取附件嗎？*  
@@ -121,3 +107,17 @@ PDF 投資組合是可容納多個 PDF 及其他檔案類型的容器。使用�
 
 **Q:** *我可以將此流程自動化以批次處理多個 PDF 嗎？*  
 **A:** 當然可以。將提取邏輯包在迴圈中，逐一處理目錄內的檔案即可。
+
+---
+
+**最後更新：** 2025-12-14  
+**測試環境：** Aspose.PDF for Java 24.12  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

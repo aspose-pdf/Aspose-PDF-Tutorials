@@ -91,20 +91,6 @@ weight: 11
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-14  
-**تم الاختبار مع:** Aspose.PDF for Java 24.12  
-**المؤلف:** Aspose  
-
 ## الأسئلة المتكررة
 
 **Q:** *هل يمكنني استخراج المرفقات من PDF محمي بكلمة مرور؟*  
@@ -121,3 +107,17 @@ weight: 11
 
 **Q:** *هل يمكنني أتمتة هذه العملية لمعالجة دفعات من ملفات PDF؟*  
 **A:** بالتأكيد. ضع منطق الاستخراج داخل حلقة تعالج كل ملف في دليل معين.
+
+---
+
+**آخر تحديث:** 2025-12-14  
+**تم الاختبار مع:** Aspose.PDF for Java 24.12  
+**المؤلف:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

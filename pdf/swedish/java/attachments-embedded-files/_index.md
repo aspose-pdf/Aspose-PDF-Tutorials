@@ -91,20 +91,6 @@ Lär dig hur du med Aspose.PDF för Java effektivt får åtkomst till, hanterar 
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.PDF for Java 24.12  
-**Author:** Aspose  
-
 ## Vanliga frågor
 
 **Q:** *Kan jag extrahera bilagor från en lösenordsskyddad PDF?*  
@@ -121,3 +107,17 @@ Lär dig hur du med Aspose.PDF för Java effektivt får åtkomst till, hanterar 
 
 **Q:** *Kan jag automatisera processen för flera PDF‑filer?*  
 **A:** Absolut. Inkapsla extraktionslogiken i en loop som bearbetar varje fil i en katalog.
+
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.PDF for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

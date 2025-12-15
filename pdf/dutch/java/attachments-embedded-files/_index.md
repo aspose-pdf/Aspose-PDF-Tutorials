@@ -92,20 +92,6 @@ Leer hoe je Aspose.PDF voor Java kunt gebruiken om efficiënt toegang te krijgen
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.PDF for Java 24.12  
-**Author:** Aspose  
-
 ## Veelgestelde vragen
 
 **Q:** *Kan ik bijlagen extraheren uit een met wachtwoord beveiligde PDF?*  
@@ -122,3 +108,17 @@ Leer hoe je Aspose.PDF voor Java kunt gebruiken om efficiënt toegang te krijgen
 
 **Q:** *Kan ik dit proces automatiseren voor batches van PDF’s?*  
 **A:** Zeker. Plaats de extractielogica in een lus die elk bestand in een map verwerkt.
+
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.PDF for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
