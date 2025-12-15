@@ -191,22 +191,6 @@ Här är länkar till några användbara resurser:
 - [Avancerade funktioner](./java/advanced-features/)
 - [Prestandaoptimering](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-13  
-**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**Author:** Aspose  
-
----
-
 ## Vanliga frågor
 
 **Q:** *Kan jag använda dessa handledningar i en kommersiell applikation?*  
@@ -223,3 +207,18 @@ Här är länkar till några användbara resurser:
 
 **Q:** *Kan jag rita anpassade linjer eller former på en PDF‑sida?*  
 **A:** Ja – se handledningen “Draw Line PDF” för att använda `Line`‑ och `Rectangle`‑primitiver.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

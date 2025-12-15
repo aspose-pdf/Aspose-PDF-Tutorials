@@ -192,22 +192,6 @@ weight: 10
 - [Προηγμένες Λειτουργίες](./java/advanced-features/)
 - [Βελτιστοποίηση Απόδοσης](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-13  
-**Δοκιμή Με:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**Συγγραφέας:** Aspose  
-
----
-
 ## Συχνές Ερωτήσεις
 
 **Q:** *Μπορώ να χρησιμοποιήσω αυτά τα tutorials σε εμπορική εφαρμογή;*  
@@ -224,3 +208,17 @@ weight: 10
 
 **Q:** *Μπορώ να σχεδιάσω προσαρμοσμένες γραμμές ή σχήματα σε σελίδα PDF;*  
 **A:** Ναι – δείτε το tutorial «Σχεδίαση Γραμμής PDF» για τη χρήση των πρωτοτύπων `Line` και `Rectangle`.
+
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-13  
+**Δοκιμή Με:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**Συγγραφέας:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

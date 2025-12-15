@@ -188,22 +188,6 @@ Aspose.PDF for .NET を使用して PDF ドキュメント内でテキストを�
 - [高度な機能](./java/advanced-features/)
 - [パフォーマンス最適化](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-13  
-**テスト環境:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**作者:** Aspose  
-
----
-
 ## よくある質問
 
 **Q:** *これらのチュートリアルを商用アプリケーションで使用できますか？*  
@@ -220,3 +204,17 @@ Aspose.PDF for .NET を使用して PDF ドキュメント内でテキストを�
 
 **Q:** *PDF ページにカスタム線や図形を描画できますか？*  
 **A:** はい – 「PDF に線を描画」チュートリアルで `Line` や `Rectangle` プリミティブの使用方法をご確認ください。
+
+---
+
+**最終更新日:** 2025-12-13  
+**テスト環境:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**作者:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

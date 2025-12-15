@@ -191,22 +191,6 @@ Ezek hasznos forrásokra mutató hivatkozások:
 - [Haladó funkciók](./java/advanced-features/)
 - [Teljesítmény optimalizálás](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-12-13  
-**Tesztelve a következőkkel:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**Szerző:** Aspose  
-
----
-
 ## Gyakran Ismételt Kérdések
 
 **Q:** *Használhatom ezeket az oktatóanyagokat kereskedelmi alkalmazásban?*  
@@ -223,3 +207,17 @@ Ezek hasznos forrásokra mutató hivatkozások:
 
 **Q:** *Rajzolhatok egyedi vonalakat vagy alakzatokat egy PDF oldalra?*  
 **A:** Igen – lásd a “Draw Line PDF” oktatóanyagot a `Line` és `Rectangle` primitívek használatához.
+
+---
+
+**Utoljára frissítve:** 2025-12-13  
+**Tesztelve a következőkkel:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**Szerző:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

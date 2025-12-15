@@ -190,22 +190,6 @@ Aspose.PDF for .NET을 사용하여 PDF 문서에서 테이블을 만들고, 서
 - [고급 기능](./java/advanced-features/)
 - [성능 최적화](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-13  
-**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**Author:** Aspose  
-
----
-
 ## 자주 묻는 질문
 
 **Q:** *이 튜토리얼을 상업용 애플리케이션에서 사용할 수 있나요?*  
@@ -222,3 +206,17 @@ Aspose.PDF for .NET을 사용하여 PDF 문서에서 테이블을 만들고, 서
 
 **Q:** *PDF 페이지에 사용자 정의 선이나 도형을 그릴 수 있나요?*  
 **A:** 예 – `Line` 및 `Rectangle` 기본 요소를 사용하는 방법은 “Draw Line PDF” 튜토리얼을 참고하십시오.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

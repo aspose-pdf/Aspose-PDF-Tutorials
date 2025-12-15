@@ -190,20 +190,6 @@ Aspose.PDF for .NET 可视化教程提供全面的逐步指南，帮助开发者
 - [高级功能](./java/advanced-features/)
 - [性能优化](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-13  
-**测试环境：** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**作者：** Aspose  
-
 ## 常见问题
 
 **Q:** *我可以在商业应用中使用这些教程吗？*  
@@ -220,3 +206,17 @@ Aspose.PDF for .NET 可视化教程提供全面的逐步指南，帮助开发者
 
 **Q:** *我可以在 PDF 页面上绘制自定义线条或形状吗？*  
 **A:** 可以——请参阅 “绘制线条 PDF” 教程，了解如何使用 `Line` 和 `Rectangle` 基元。
+
+---
+
+**最后更新：** 2025-12-13  
+**测试环境：** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

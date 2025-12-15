@@ -192,22 +192,6 @@ Berikut adalah tautan ke beberapa sumber daya berguna:
 - [Fitur Lanjutan](./java/advanced-features/)
 - [Optimasi Kinerja](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-13  
-**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**Author:** Aspose  
-
----
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q:** *Apakah saya dapat menggunakan tutorial ini dalam aplikasi komersial?*  
@@ -224,3 +208,17 @@ Berikut adalah tautan ke beberapa sumber daya berguna:
 
 **Q:** *Apakah saya dapat menggambar garis atau bentuk khusus pada halaman PDF?*  
 **A:** Ya – lihat tutorial “Draw Line PDF” untuk menggunakan primitif `Line` dan `Rectangle`.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

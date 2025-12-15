@@ -190,20 +190,6 @@ Aspose.PDF for .NET 視覺教學提供完整的逐步指南，協助開發人員
 - [進階功能](./java/advanced-features/)
 - [效能最佳化](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-13  
-**測試環境：** Aspose.PDF 24.11 for .NET 與 Aspose.PDF 24.11 for Java  
-**作者：** Aspose  
-
 ## 常見問題
 
 **Q:** *我可以在商業應用程式中使用這些教學嗎？*  
@@ -220,3 +206,17 @@ Aspose.PDF for .NET 視覺教學提供完整的逐步指南，協助開發人員
 
 **Q:** *我可以在 PDF 頁面上繪製自訂線條或形狀嗎？*  
 **A:** 可以——請參閱「Draw Line PDF」教學，了解如何使用 `Line` 與 `Rectangle` 基元。
+
+---
+
+**最後更新：** 2025-12-13  
+**測試環境：** Aspose.PDF 24.11 for .NET 與 Aspose.PDF 24.11 for Java  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

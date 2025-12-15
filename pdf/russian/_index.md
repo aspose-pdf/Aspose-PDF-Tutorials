@@ -192,22 +192,6 @@ weight: 10
 - [Продвинутые функции](./java/advanced-features/)
 - [Оптимизация производительности](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-13  
-**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**Author:** Aspose  
-
----
-
 ## Часто задаваемые вопросы
 
 **Q:** *Могу ли я использовать эти учебные материалы в коммерческом приложении?*  
@@ -224,3 +208,17 @@ weight: 10
 
 **Q:** *Могу ли я рисовать пользовательские линии или формы на странице PDF?*  
 **A:** Да – см. учебный материал «Draw Line PDF» для использования примитивов `Line` и `Rectangle`.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

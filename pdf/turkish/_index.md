@@ -191,20 +191,6 @@ Bunlar bazı faydalı kaynaklara yönlendiren bağlantılardır:
 - [Gelişmiş Özellikler](./java/advanced-features/)
 - [Performans Optimizasyonu](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-13  
-**Test Edilen Versiyonlar:** Aspose.PDF 24.11 for .NET ve Aspose.PDF 24.11 for Java  
-**Yazar:** Aspose  
-
 ## Sıkça Sorulan Sorular
 
 **S:** *Bu eğitimleri ticari bir uygulamada kullanabilir miyim?*  
@@ -221,3 +207,17 @@ Bunlar bazı faydalı kaynaklara yönlendiren bağlantılardır:
 
 **S:** *PDF sayfasına özel çizgiler veya şekiller çizebilir miyim?*  
 **C:** Evet – `Line` ve `Rectangle` temel öğelerini kullanmak için “PDF'de Çizgi Çizme” eğitimine bakın.
+
+---
+
+**Son Güncelleme:** 2025-12-13  
+**Test Edilen Versiyonlar:** Aspose.PDF 24.11 for .NET ve Aspose.PDF 24.11 for Java  
+**Yazar:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

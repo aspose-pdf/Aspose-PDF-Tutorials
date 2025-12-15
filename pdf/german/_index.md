@@ -191,20 +191,6 @@ Meistern Sie Aspose.PDF für Java mit umfassenden Tutorials. Erstellen, bearbeit
 - [Erweiterte Funktionen](./java/advanced-features/)
 - [Leistungsoptimierung](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-13  
-**Getestet mit:** Aspose.PDF 24.11 für .NET & Aspose.PDF 24.11 für Java  
-**Autor:** Aspose  
-
 ## Häufig gestellte Fragen
 
 **Q:** *Kann ich diese Tutorials in einer kommerziellen Anwendung verwenden?*  
@@ -221,3 +207,17 @@ Meistern Sie Aspose.PDF für Java mit umfassenden Tutorials. Erstellen, bearbeit
 
 **Q:** *Kann ich benutzerdefinierte Linien oder Formen auf einer PDF‑Seite zeichnen?*  
 **A:** Ja – siehe das Tutorial „Linie in PDF zeichnen“ für die Verwendung der `Line`‑ und `Rectangle`‑Primitive.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-13  
+**Getestet mit:** Aspose.PDF 24.11 für .NET & Aspose.PDF 24.11 für Java  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

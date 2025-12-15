@@ -192,22 +192,6 @@ weight: 10
 - [الميزات المتقدمة](./java/advanced-features/)
 - [تحسين الأداء](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-13  
-**تم الاختبار مع:** Aspose.PDF 24.11 لـ .NET & Aspose.PDF 24.11 لـ Java  
-**المؤلف:** Aspose  
-
----
-
 ## الأسئلة المتكررة
 
 **س:** *هل يمكنني استخدام هذه الدروس في تطبيق تجاري؟*  
@@ -224,3 +208,17 @@ weight: 10
 
 **س:** *هل يمكنني رسم خطوط أو أشكال مخصصة على صفحة PDF؟*  
 **ج:** نعم – راجع درس “رسم خطوط PDF” لاستخدام الكائنات الأولية `Line` و `Rectangle`.
+
+---
+
+**آخر تحديث:** 2025-12-13  
+**تم الاختبار مع:** Aspose.PDF 24.11 لـ .NET & Aspose.PDF 24.11 لـ Java  
+**المؤلف:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

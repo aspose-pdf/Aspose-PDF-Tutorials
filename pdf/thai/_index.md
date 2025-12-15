@@ -191,22 +191,6 @@ Aspose.PDF for .NET Visual Tutorials ให้คู่มือที่คร�
 - [Advanced Features](./java/advanced-features/)
 - [Performance Optimization](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-13  
-**ทดสอบกับ:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**ผู้เขียน:** Aspose  
-
----
-
 ## คำถามที่พบบ่อย
 
 **ถาม:** *ฉันสามารถใช้บทเรียนเหล่านี้ในแอปพลิเคชันเชิงพาณิชย์ได้หรือไม่?*  
@@ -223,3 +207,17 @@ Aspose.PDF for .NET Visual Tutorials ให้คู่มือที่คร�
 
 **ถาม:** *ฉันสามารถวาดเส้นหรือรูปทรงแบบกำหนดเองบนหน้า PDF ได้หรือไม่?*  
 **ตอบ:** ได้ – ดูบทเรียน “Draw Line PDF” สำหรับการใช้ primitive `Line` และ `Rectangle`.
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-13  
+**ทดสอบกับ:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**ผู้เขียน:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

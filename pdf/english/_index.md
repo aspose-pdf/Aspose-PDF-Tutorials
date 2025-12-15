@@ -189,22 +189,6 @@ These are links to some useful resources:
 - [Advanced Features](./java/advanced-features/)
 - [Performance Optimization](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-13  
-**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**Author:** Aspose  
-
----
-
 ## Frequently Asked Questions
 
 **Q:** *Can I use these tutorials in a commercial application?*  
@@ -221,3 +205,17 @@ These are links to some useful resources:
 
 **Q:** *Can I draw custom lines or shapes on a PDF page?*  
 **A:** Yes – see the “Draw Line PDF” tutorial for using the `Line` and `Rectangle` primitives.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

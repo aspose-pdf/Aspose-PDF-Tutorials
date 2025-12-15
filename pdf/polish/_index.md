@@ -192,20 +192,6 @@ Oto linki do przydatnych zasobów:
 - [Zaawansowane funkcje](./java/advanced-features/)
 - [Optymalizacja wydajności](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-13  
-**Testowano z:** Aspose.PDF 24.11 dla .NET i Aspose.PDF 24.11 dla Javy  
-**Autor:** Aspose  
-
 ## Najczęściej zadawane pytania
 
 **P:** *Czy mogę używać tych samouczków w aplikacji komercyjnej?*  
@@ -222,3 +208,17 @@ Oto linki do przydatnych zasobów:
 
 **P:** *Czy mogę rysować własne linie lub kształty na stronie PDF?*  
 **O:** Tak – zobacz samouczek „Rysowanie linii w PDF” dotyczący użycia prymitywów `Line` i `Rectangle`.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-13  
+**Testowano z:** Aspose.PDF 24.11 dla .NET i Aspose.PDF 24.11 dla Javy  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

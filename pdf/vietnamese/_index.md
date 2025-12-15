@@ -192,20 +192,6 @@ These are links to some useful resources:
 - [Tính Năng Nâng Cao](./java/advanced-features/)
 - [Tối Ưu Hiệu Suất](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-13  
-**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**Author:** Aspose  
-
 ## Câu Hỏi Thường Gặp
 
 **Q:** *Tôi có thể sử dụng các hướng dẫn này trong một ứng dụng thương mại không?*  
@@ -222,3 +208,17 @@ These are links to some useful resources:
 
 **Q:** *Tôi có thể vẽ các đường hoặc hình dạng tùy chỉnh trên một trang PDF không?*  
 **A:** Có – xem hướng dẫn “Vẽ Đường PDF” để sử dụng các primitive `Line` và `Rectangle`.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

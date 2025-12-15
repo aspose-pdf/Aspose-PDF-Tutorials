@@ -191,20 +191,6 @@ Toto jsou odkazy na některé užitečné zdroje:
 - [Pokročilé funkce](./java/advanced-features/)
 - [Optimalizace výkonu](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-13  
-**Testováno s:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**Autor:** Aspose  
-
 ## Často kladené otázky
 
 **Q:** *Mohu tyto tutoriály použít v komerční aplikaci?*  
@@ -221,3 +207,17 @@ Toto jsou odkazy na některé užitečné zdroje:
 
 **Q:** *Mohu kreslit vlastní čáry nebo tvary na stránce PDF?*  
 **A:** Ano – podívejte se na tutoriál „Draw Line PDF“ pro použití primitiv `Line` a `Rectangle`.
+
+---
+
+**Poslední aktualizace:** 2025-12-13  
+**Testováno s:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

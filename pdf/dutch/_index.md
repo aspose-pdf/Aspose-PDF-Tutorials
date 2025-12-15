@@ -191,22 +191,6 @@ Dit zijn links naar enkele nuttige bronnen:
 - [Geavanceerde functies](./java/advanced-features/)
 - [Prestatie‑optimalisatie](./java/performance-optimization/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-13  
-**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
-**Author:** Aspose  
-
----
-
 ## Veelgestelde vragen
 
 **Q:** *Kan ik deze tutorials gebruiken in een commerciële applicatie?*  
@@ -223,3 +207,17 @@ Dit zijn links naar enkele nuttige bronnen:
 
 **Q:** *Kan ik aangepaste lijnen of vormen op een PDF‑pagina tekenen?*  
 **A:** Ja – zie de tutorial “Draw Line PDF” voor het gebruik van de `Line`‑ en `Rectangle`‑primitieven.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.PDF 24.11 for .NET & Aspose.PDF 24.11 for Java  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
