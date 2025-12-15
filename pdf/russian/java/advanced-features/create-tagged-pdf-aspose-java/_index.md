@@ -6,9 +6,8 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: ru
 title: Как добавить теги в PDF с помощью Aspose.PDF для Java – Доступность и SEO
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /ru/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -233,6 +232,12 @@ document.save(outputPath);
 
 Следуя этому руководству, вы теперь знаете **how to tag PDF** документы с использованием Aspose.PDF for Java, улучшая как доступность, так и SEO. Не стесняйтесь экспериментировать с более сложными структурами или интегрировать этот процесс в более крупные конвейеры генерации документов.
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +245,3 @@ document.save(outputPath);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

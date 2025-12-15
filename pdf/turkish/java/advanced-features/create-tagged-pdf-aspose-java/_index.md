@@ -6,9 +6,8 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: tr
 title: Aspose.PDF for Java ile PDF Etiketleme – Erişilebilirlik ve SEO
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /tr/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -233,6 +232,12 @@ C: `document.optimizeResources()` ile bellek kullanımını optimize edin ve bel
 
 Bu kılavuzu izleyerek, Aspose.PDF for Java kullanarak **PDF'yi nasıl etiketleyeceğinizi** öğrenmiş ve hem erişilebilirliği hem de SEO'yu artırmış oldunuz. Daha karmaşık yapılarla denemeler yapmaktan veya bu iş akışını daha büyük belge‑oluşturma hatlarına entegre etmekten çekinmeyin.
 
+---
+
+**Son Güncelleme:** 2025-12-06  
+**Test Edilen Versiyon:** Aspose.PDF for Java 25.3  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +245,3 @@ Bu kılavuzu izleyerek, Aspose.PDF for Java kullanarak **PDF'yi nasıl etiketley
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-06  
-**Test Edilen Versiyon:** Aspose.PDF for Java 25.3  
-**Yazar:** Aspose

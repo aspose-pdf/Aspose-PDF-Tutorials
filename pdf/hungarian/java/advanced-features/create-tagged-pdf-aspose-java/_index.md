@@ -6,9 +6,8 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: hu
 title: Hogyan címkézzük a PDF-et az Aspose.PDF for Java-val – Hozzáférhetőség és SEO
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /hu/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -233,6 +232,12 @@ A: Optimalizálja a memóriahasználatot a `document.optimizeResources()` segít
 
 Az útmutató követésével most már tudja, **hogyan címkézzünk PDF** dokumentumokat az Aspose.PDF for Java segítségével, ezáltal javítva mind a hozzáférhetőséget, mind a SEO-t. Nyugodtan kísérletezzen összetettebb struktúrákkal, vagy integrálja ezt a munkafolyamatot nagyobb dokumentum‑generálási csővezetékekbe.
 
+---
+
+**Utolsó frissítés:** 2025-12-06  
+**Tesztelt verzió:** Aspose.PDF for Java 25.3  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +245,3 @@ Az útmutató követésével most már tudja, **hogyan címkézzünk PDF** dokum
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-06  
-**Tesztelt verzió:** Aspose.PDF for Java 25.3  
-**Szerző:** Aspose

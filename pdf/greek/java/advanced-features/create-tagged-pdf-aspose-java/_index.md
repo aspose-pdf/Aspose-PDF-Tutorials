@@ -6,10 +6,9 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: el
 title: Πώς να προσθέσετε ετικέτες σε PDF με το Aspose.PDF για Java – Προσβασιμότητα
   & SEO
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /el/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -234,6 +233,12 @@ document.save(outputPath);
 
 Ακολουθώντας αυτόν τον οδηγό, γνωρίζετε πλέον **πώς να επισυνάψετε ετικέτες σε PDF** έγγραφα χρησιμοποιώντας το Aspose.PDF for Java, ενισχύοντας τόσο την προσβασιμότητα όσο και το SEO. Μη διστάσετε να πειραματιστείτε με πιο σύνθετες δομές ή να ενσωματώσετε αυτή τη ροή εργασίας σε μεγαλύτερα pipelines δημιουργίας εγγράφων.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-06  
+**Δοκιμάστηκε Με:** Aspose.PDF for Java 25.3  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +246,3 @@ document.save(outputPath);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-06  
-**Δοκιμάστηκε Με:** Aspose.PDF for Java 25.3  
-**Συγγραφέας:** Aspose

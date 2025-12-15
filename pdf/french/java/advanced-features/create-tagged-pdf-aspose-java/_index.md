@@ -6,9 +6,8 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: fr
 title: Comment baliser un PDF avec Aspose.PDF pour Java – Accessibilité et SEO
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /fr/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -233,6 +232,12 @@ R : Optimisez l’utilisation de la mémoire avec `document.optimizeResources(
 
 En suivant ce guide, vous savez maintenant **comment baliser un PDF** avec Aspose.PDF for Java, améliorant à la fois l’accessibilité et le SEO. N’hésitez pas à expérimenter avec des structures plus complexes ou à intégrer ce flux de travail dans des pipelines de génération de documents plus larges.
 
+---
+
+**Dernière mise à jour** : 2025-12-06  
+**Testé avec** : Aspose.PDF for Java 25.3  
+**Auteur** : Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +245,3 @@ En suivant ce guide, vous savez maintenant **comment baliser un PDF** avec Aspos
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour** : 2025-12-06  
-**Testé avec** : Aspose.PDF for Java 25.3  
-**Auteur** : Aspose

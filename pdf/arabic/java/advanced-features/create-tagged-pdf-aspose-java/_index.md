@@ -6,10 +6,9 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: ar
 title: كيفية وضع علامات على ملف PDF باستخدام Aspose.PDF للغة Java – إمكانية الوصول
   وتحسين محركات البحث
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /ar/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -234,6 +233,12 @@ document.save(outputPath);
 
 باتباعك هذا الدليل، أصبحت الآن تعرف **how to tag PDF** باستخدام Aspose.PDF for Java، مما يعزز كلًا من إمكانية الوصول وتحسين محركات البحث. لا تتردد في تجربة هياكل أكثر تعقيدًا أو دمج هذا التدفق في أنظمة توليد المستندات الأكبر.
 
+---
+
+**آخر تحديث:** 2025-12-06  
+**تم الاختبار مع:** Aspose.PDF for Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +246,3 @@ document.save(outputPath);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-06  
-**تم الاختبار مع:** Aspose.PDF for Java 25.3  
-**المؤلف:** Aspose

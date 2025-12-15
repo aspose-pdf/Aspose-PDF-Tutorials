@@ -7,9 +7,8 @@ keywords:
 - tagged PDF creation
 - accessible PDFs
 - how to tag pdf
-language: pl
 title: Jak otagować PDF przy użyciu Aspose.PDF dla Javy – dostępne PDF
-url: /java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
+url: /pl/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
@@ -183,6 +182,12 @@ O: Zdecydowanie. Aspose.PDF dla Javy obsługuje Java 8+, w pełni kompatybilny
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-06  
+**Testowano z:** Aspose.PDF dla Javy 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +195,3 @@ O: Zdecydowanie. Aspose.PDF dla Javy obsługuje Java 8+, w pełni kompatybilny
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-06  
-**Testowano z:** Aspose.PDF dla Javy 25.3  
-**Autor:** Aspose

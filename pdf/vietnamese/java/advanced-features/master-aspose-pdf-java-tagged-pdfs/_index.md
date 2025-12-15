@@ -7,9 +7,8 @@ keywords:
 - tagged PDF creation
 - accessible PDFs
 - how to tag pdf
-language: vi
 title: Cách gắn thẻ PDF bằng Aspose.PDF cho Java - PDF có thể truy cập
-url: /java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
+url: /vi/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
@@ -183,6 +182,13 @@ Bạn đã học **cách đánh thẻ PDF** bằng Aspose.PDF cho Java, bao gồ
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
 
+
+---
+
+**Cập nhật lần cuối:** 2025-12-06  
+**Đã kiểm tra với:** Aspose.PDF cho Java 25.3  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ Bạn đã học **cách đánh thẻ PDF** bằng Aspose.PDF cho Java, bao gồ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-06  
-**Đã kiểm tra với:** Aspose.PDF cho Java 25.3  
-**Tác giả:** Aspose

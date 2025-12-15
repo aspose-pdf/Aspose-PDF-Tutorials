@@ -8,9 +8,8 @@ keywords:
 - tagged PDF creation
 - accessible PDFs
 - how to tag pdf
-language: fr
 title: Comment baliser un PDF avec Aspose.PDF pour Java - PDF accessibles
-url: /java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
+url: /fr/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
@@ -184,6 +183,12 @@ R : Absolument. Aspose.PDF pour Java prend en charge Java 8+ et est entière
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +196,3 @@ R : Absolument. Aspose.PDF pour Java prend en charge Java 8+ et est entière
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

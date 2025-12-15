@@ -6,9 +6,8 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: ko
 title: Aspose.PDF for Java를 사용하여 PDF에 태그 지정하는 방법 – 접근성 및 SEO
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /ko/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -236,6 +235,12 @@ A: Optimize memory usage with `document.optimizeResources()` and consider proces
 
 By following this guide, you now know **PDF에 태그를 다는 방법** documents using Aspose.PDF for Java, enhancing both accessibility and SEO. Feel free to experiment with more complex structures or integrate this workflow into larger document‑generation pipelines.
 
+---
+
+**마지막 업데이트:** 2025-12-06  
+**테스트 환경:** Aspose.PDF for Java 25.3  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -243,9 +248,3 @@ By following this guide, you now know **PDF에 태그를 다는 방법** documen
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-06  
-**테스트 환경:** Aspose.PDF for Java 25.3  
-**작성자:** Aspose

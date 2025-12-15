@@ -7,9 +7,8 @@ keywords:
 - tagged PDF creation
 - accessible PDFs
 - how to tag pdf
-language: ko
 title: Aspose.PDF for Java를 사용한 PDF 태깅 방법 - 접근성 PDF
-url: /java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
+url: /ko/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
@@ -183,6 +182,12 @@ A: 물론입니다. Aspose.PDF for Java는 Java 8 이상을 지원하며 Java�
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +195,3 @@ A: 물론입니다. Aspose.PDF for Java는 Java 8 이상을 지원하며 Java�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

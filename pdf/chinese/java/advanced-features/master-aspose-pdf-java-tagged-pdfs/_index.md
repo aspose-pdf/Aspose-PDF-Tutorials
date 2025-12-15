@@ -6,9 +6,8 @@ keywords:
 - tagged PDF creation
 - accessible PDFs
 - how to tag pdf
-language: zh
 title: 如何使用 Aspose.PDF for Java 为 PDF 添加标签 - 可访问的 PDF
-url: /java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
+url: /zh/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
@@ -182,6 +181,12 @@ document.save(outputDir + "/TaggedPdfWithParagraphs.pdf");
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**最后更新：** 2025-12-06  
+**测试环境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -189,9 +194,3 @@ document.save(outputDir + "/TaggedPdfWithParagraphs.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-06  
-**测试环境：** Aspose.PDF for Java 25.3  
-**作者：** Aspose

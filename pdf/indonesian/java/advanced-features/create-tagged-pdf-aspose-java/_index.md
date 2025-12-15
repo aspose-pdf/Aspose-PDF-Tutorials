@@ -6,9 +6,8 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: id
 title: Cara Menandai PDF dengan Aspose.PDF untuk Java – Aksesibilitas & SEO
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /id/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -233,6 +232,12 @@ A: Optimize memory usage with `document.optimizeResources()` and consider proces
 
 Dengan mengikuti panduan ini, Anda kini mengetahui **cara menandai PDF** menggunakan Aspose.PDF untuk Java, meningkatkan baik aksesibilitas maupun SEO. Jangan ragu untuk bereksperimen dengan struktur yang lebih kompleks atau mengintegrasikan alur kerja ini ke dalam pipeline pembuatan dokumen yang lebih besar.
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +245,3 @@ Dengan mengikuti panduan ini, Anda kini mengetahui **cara menandai PDF** menggun
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

@@ -8,9 +8,8 @@ keywords:
 - tagged PDF creation
 - accessible PDFs
 - how to tag pdf
-language: id
 title: Cara Menandai PDF dengan Aspose.PDF untuk Java - PDF yang Dapat Diakses
-url: /java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
+url: /id/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
@@ -184,6 +183,12 @@ A: Tentu saja. Aspose.PDF untuk Java mendukung Java 8+ dan sepenuhnya kompatib
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.PDF untuk Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +196,3 @@ A: Tentu saja. Aspose.PDF untuk Java mendukung Java 8+ dan sepenuhnya kompatib
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.PDF untuk Java 25.3  
-**Author:** Aspose

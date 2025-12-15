@@ -6,9 +6,8 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: es
 title: Cómo etiquetar PDF con Aspose.PDF para Java – Accesibilidad y SEO
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /es/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -233,6 +232,12 @@ R: Optimiza el uso de memoria con `document.optimizeResources()` y considera pro
 
 Al seguir esta guía, ahora sabes **cómo etiquetar PDF** usando Aspose.PDF para Java, mejorando tanto la accesibilidad como el. Siéntete libre de experimentar con estructuras más complejas o integrar este flujo de trabajo en pipelines de generación de documentos más amplios.
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +245,3 @@ Al seguir esta guía, ahora sabes **cómo etiquetar PDF** usando Aspose.PDF para
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

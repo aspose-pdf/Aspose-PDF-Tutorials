@@ -7,9 +7,8 @@ keywords:
 - tagged PDF creation
 - accessible PDFs
 - how to tag pdf
-language: hi
 title: Aspose.PDF for Java के साथ PDF को टैग कैसे करें - सुलभ PDFs
-url: /java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
+url: /hi/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
@@ -182,6 +181,12 @@ A: बिल्कुल। Aspose.PDF for Java Java 8+ को सपोर्
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 - [सपोर्ट फ़ोरम](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**अंतिम अपडेट:** 2025-12-06  
+**परीक्षण किया गया:** Aspose.PDF for Java 25.3  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -189,9 +194,3 @@ A: बिल्कुल। Aspose.PDF for Java Java 8+ को सपोर्
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-06  
-**परीक्षण किया गया:** Aspose.PDF for Java 25.3  
-**लेखक:** Aspose

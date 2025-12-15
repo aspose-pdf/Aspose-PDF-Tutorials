@@ -6,9 +6,8 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: hi
 title: Aspose.PDF for Java के साथ PDF को टैग कैसे करें – एक्सेसिबिलिटी और SEO
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /hi/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -233,6 +232,12 @@ A: `document.optimizeResources()` से मेमोरी उपयोग क�
 
 इस गाइड को फॉलो करके आप अब **how to tag PDF** दस्तावेज़ों को Aspose.PDF for Java के साथ टैग करना जानते हैं, जिससे एक्सेसिबिलिटी और SEO दोनों में सुधार होता है। अधिक जटिल स्ट्रक्चर के साथ प्रयोग करने या इस वर्कफ़्लो को बड़े डॉक्यूमेंट‑जेनरेशन पाइपलाइन में इंटीग्रेट करने के लिए स्वतंत्र महसूस करें।
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +245,3 @@ A: `document.optimizeResources()` से मेमोरी उपयोग क�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

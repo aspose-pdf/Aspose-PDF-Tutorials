@@ -6,9 +6,8 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: vi
 title: Cách gắn thẻ PDF bằng Aspose.PDF cho Java – Khả năng truy cập & SEO
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /vi/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -233,6 +232,12 @@ A: Tối ưu việc sử dụng bộ nhớ bằng `document.optimizeResources()`
 
 Bằng cách làm theo hướng dẫn này, bạn đã biết **how to tag PDF** tài liệu bằng Aspose.PDF cho Java, nâng cao cả khả năng truy cập và SEO. Hãy thoải mái thử nghiệm với các cấu trúc phức tạp hơn hoặc tích hợp quy trình này vào các pipeline tạo tài liệu lớn hơn.
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +245,3 @@ Bằng cách làm theo hướng dẫn này, bạn đã biết **how to tag PDF**
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

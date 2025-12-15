@@ -8,9 +8,8 @@ keywords:
 - tagged PDF creation
 - accessible PDFs
 - how to tag pdf
-language: hu
 title: Hogyan címkézzünk PDF-et az Aspose.PDF for Java-val – Hozzáférhető PDF-ek
-url: /java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
+url: /hu/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
@@ -184,6 +183,12 @@ A: Teljes mértékben. Az Aspose.PDF for Java támogatja a Java 8+ verziókat,
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Utolsó frissítés:** 2025-12-06  
+**Tesztelt verzió:** Aspose.PDF for Java 25.3  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +196,3 @@ A: Teljes mértékben. Az Aspose.PDF for Java támogatja a Java 8+ verziókat,
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-06  
-**Tesztelt verzió:** Aspose.PDF for Java 25.3  
-**Szerző:** Aspose

@@ -6,9 +6,8 @@ keywords:
 - tagged PDF
 - Aspose.PDF for Java
 - accessibility enhancement
-language: pt
 title: Como marcar PDF com Aspose.PDF para Java – Acessibilidade e SEO
-url: /java/advanced-features/create-tagged-pdf-aspose-java/
+url: /pt/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
@@ -233,6 +232,12 @@ A: Otimize o uso de memória com `document.optimizeResources()` e considere proc
 
 Seguindo este guia, você agora sabe **como marcar PDF** usando Aspose.PDF para Java, aprimorando tanto a acessibilidade quanto o SEO. Sinta‑se à vontade para experimentar estruturas mais complexas ou integrar este fluxo de trabalho em pipelines de geração de documentos maiores.
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +245,3 @@ Seguindo este guia, você agora sabe **como marcar PDF** usando Aspose.PDF para 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

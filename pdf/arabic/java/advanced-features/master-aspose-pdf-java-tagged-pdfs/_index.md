@@ -7,9 +7,8 @@ keywords:
 - tagged PDF creation
 - accessible PDFs
 - how to tag pdf
-language: ar
 title: كيفية وسم ملفات PDF باستخدام Aspose.PDF لجافا - ملفات PDF قابلة للوصول
-url: /java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
+url: /ar/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
@@ -183,6 +182,12 @@ document.save(outputDir + "/TaggedPdfWithParagraphs.pdf");
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**آخر تحديث:** 2025-12-06  
+**تم الاختبار مع:** Aspose.PDF للـ Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +195,3 @@ document.save(outputDir + "/TaggedPdfWithParagraphs.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-06  
-**تم الاختبار مع:** Aspose.PDF للـ Java 25.3  
-**المؤلف:** Aspose
