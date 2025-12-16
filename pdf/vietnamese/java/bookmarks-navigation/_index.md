@@ -1,8 +1,10 @@
 ---
-"description": "Học cách triển khai dấu trang tài liệu, siêu liên kết và các thành phần điều hướng trong tài liệu PDF bằng hướng dẫn Java Aspose.PDF."
-"title": "Hướng dẫn về dấu trang PDF và điều hướng cho Aspose.PDF Java"
-"url": "/vi/java/bookmarks-navigation/"
-"weight": 14
+date: 2025-12-16
+description: Tìm hiểu cách tạo mục lục PDF trong Java, chỉnh sửa cài đặt trình xem
+  PDF và mở lưu dấu trang PDF bằng các hướng dẫn Aspose.PDF cho Java.
+title: Tạo Mục Lục PDF bằng Java – Dấu trang & Điều hướng Aspose.PDF
+url: /vi/java/bookmarks-navigation/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -10,55 +12,64 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hướng dẫn về dấu trang PDF và điều hướng cho Aspose.PDF Java
+# Tạo Mục Lục PDF Java – Hướng Dẫn Đánh Dấu Sách PDF và Điều Hướng cho Aspose.PDF Java
 
-Hướng dẫn về dấu trang và điều hướng của chúng tôi sẽ chỉ cho bạn cách nâng cao khả năng sử dụng tài liệu PDF bằng Aspose.PDF trong Java. Các hướng dẫn từng bước này bao gồm việc tạo và quản lý phân cấp dấu trang, triển khai siêu liên kết bên trong và bên ngoài, xây dựng cấu trúc mục lục và tối ưu hóa điều hướng tài liệu theo chương trình. Mỗi hướng dẫn đều bao gồm các ví dụ mã Java thực tế cho các tình huống điều hướng phổ biến, giúp bạn xây dựng các tài liệu PDF thân thiện với người dùng với các hệ thống điều hướng trực quan giúp cải thiện trải nghiệm đọc.
+Nếu bạn đang muốn **tạo PDF TOC Java** các tệp dễ dàng điều hướng, bạn đã đến đúng nơi. Trong trung tâm này, chúng tôi trình bày cách Aspose.PDF cho Java có thể giúp bạn xây dựng cấu trúc đánh dấu sách mạnh mẽ, tạo mục lục động (TOC), và thêm các liên kết điều hướng trực quan — đồng thời cung cấp cho bạn khả năng **chỉnh sửa cài đặt trình xem PDF** và **mở, lưu đánh dấu sách PDF** một cách lập trình.
 
-## Hướng dẫn có sẵn
+## Cách tạo PDF TOC Java với Aspose.PDF
+Một mục lục được cấu trúc tốt là nền tảng của bất kỳ PDF chuyên nghiệp nào. Với Aspose.PDF, bạn có thể tự động tạo một mục lục phân cấp phản ánh các tiêu đề, phần và tiểu mục của tài liệu. Điều này không chỉ cải thiện trải nghiệm của người đọc mà còn tăng cường khả năng truy cập và tìm kiếm.
 
-### [Thêm liên kết JavaScript vào PDF bằng Aspose.PDF cho Java: Tăng cường tính tương tác trong tài liệu](./aspose-pdf-java-javascript-links-pdfs/)
-Tìm hiểu cách thêm liên kết JavaScript tương tác vào tài liệu PDF của bạn bằng Aspose.PDF cho Java. Đơn giản hóa điều hướng và nâng cao trải nghiệm người dùng với hướng dẫn toàn diện này.
+## Chỉnh sửa Cài đặt Trình xem PDF với Aspose.PDF
+Ngoài việc điều hướng, bạn thường cần kiểm soát cách PDF được trình bày cho người dùng cuối. Aspose.PDF cho phép bạn tùy chỉnh các tùy chọn trình xem như bố cục trang, mức thu phóng và hiển thị thanh công cụ — chỉ với vài dòng mã Java.
 
-### [Tạo Mục lục (TOC) trong PDF bằng Aspose.PDF cho Java: Hướng dẫn dành cho nhà phát triển](./aspose-pdf-java-create-toc-in-pdfs/)
-Tìm hiểu cách thêm TOC vào tệp PDF của bạn bằng Aspose.PDF cho Java, cải thiện khả năng điều hướng tài liệu và tính chuyên nghiệp. Làm theo hướng dẫn từng bước này để cải thiện khả năng sử dụng PDF của bạn.
+## Mở và Lưu Đánh dấu Sách PDF bằng Aspose.PDF Java
+Quản lý các đánh dấu sách sau khi tài liệu được tạo ra rất đơn giản. Bạn có thể mở một PDF hiện có, chỉnh sửa cây đánh dấu và sau đó lưu các thay đổi mà không làm thay đổi phần nội dung còn lại. Khả năng này rất quan trọng để duy trì các thư viện tài liệu lớn, nơi cấu trúc điều hướng phát triển theo thời gian.
 
-### [Quản lý hiệu quả các dấu trang PDF bằng Aspose.PDF Java](./manage-pdf-bookmarks-aspose-pdf-java/)
-Tìm hiểu cách tạo và quản lý dấu trang trong tệp PDF bằng Aspose.PDF cho Java, đảm bảo tài liệu của bạn có thể dễ dàng điều hướng.
+## Các Hướng Dẫn Có Sẵn
 
-### [Mở rộng dấu trang PDF bằng Aspose.PDF trong Java: Hướng dẫn đầy đủ](./expand-pdf-bookmarks-aspose-java/)
-Tìm hiểu cách mở rộng dấu trang PDF bằng Aspose.PDF cho Java. Hướng dẫn này bao gồm việc tải, sửa đổi và nâng cao trải nghiệm người dùng khi truy cập nội dung PDF.
+### [Thêm Liên kết JavaScript vào PDF bằng Aspose.PDF cho Java&#58; Tăng Cường Tính Tương Tác trong Tài Liệu](./aspose-pdf-java-javascript-links-pdfs/)
+Tìm hiểu cách thêm các liên kết JavaScript tương tác vào tài liệu PDF của bạn bằng Aspose.PDF cho Java. Tối ưu hoá việc điều hướng và nâng cao trải nghiệm người dùng với hướng dẫn toàn diện này.
 
-### [Cách tạo và quản lý dấu trang PDF bằng Aspose.PDF cho Java: Hướng dẫn toàn diện](./create-manage-pdf-bookmarks-aspose-java/)
-Tìm hiểu cách tạo và quản lý dấu trang PDF hiệu quả bằng Aspose.PDF cho Java. Cải thiện khả năng điều hướng tài liệu bằng hướng dẫn từng bước này.
+### [Tạo Mục Lục (TOC) trong PDF bằng Aspose.PDF cho Java&#58; Hướng Dẫn Dành cho Nhà Phát Triển](./aspose-pdf-java-create-toc-in-pdfs/)
+Tìm hiểu cách thêm mục lục vào các tệp PDF của bạn bằng Aspose.PDF cho Java, nâng cao khả năng điều hướng và tính chuyên nghiệp của tài liệu. Thực hiện theo hướng dẫn từng bước này để cải thiện khả năng sử dụng PDF của bạn.
 
-### [Cách trích xuất siêu liên kết từ PDF bằng Aspose.PDF cho Java](./extract-hyperlinks-pdf-aspose-java/)
-Tìm hiểu cách trích xuất siêu liên kết hiệu quả từ PDF bằng Aspose.PDF cho Java. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
+### [Quản Lý Đánh Dấu Sách PDF một cách Hiệu Quả bằng Aspose.PDF Java](./manage-pdf-bookmarks-aspose-pdf-java/)
+Tìm hiểu cách tạo và quản lý các đánh dấu sách trong PDF bằng Aspose.PDF cho Java, đảm bảo tài liệu của bạn dễ dàng điều hướng.
 
-### [Cách lấy và hiển thị dấu trang PDF bằng Aspose.PDF cho Java](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
-Tìm hiểu cách trích xuất và hiển thị dấu trang từ tệp PDF theo chương trình bằng Aspose.PDF cho Java, giúp cải thiện khả năng điều hướng trong ứng dụng của bạn.
+### [Mở Rộng Đánh Dấu Sách PDF bằng Aspose.PDF trong Java&#58; Hướng Dẫn Toàn Diện](./expand-pdf-bookmarks-aspose-java/)
+Tìm hiểu cách mở rộng các đánh dấu sách PDF bằng Aspose.PDF cho Java. Hướng dẫn này bao gồm việc tải, chỉnh sửa và nâng cao trải nghiệm người dùng khi truy cập nội dung PDF.
 
-### [Cách cập nhật dấu trang PDF bằng Aspose.PDF cho Java: Hướng dẫn từng bước](./update-pdf-bookmarks-aspose-java-tutorial/)
-Tìm hiểu cách cập nhật dấu trang PDF hiệu quả với Aspose.PDF cho Java. Hướng dẫn này bao gồm thiết lập, triển khai và các biện pháp thực hành tốt nhất.
+### [Cách Tạo và Quản Lý Đánh Dấu Sách PDF bằng Aspose.PDF cho Java&#58; Hướng Dẫn Toàn Diện](./create-manage-pdf-bookmarks-aspose-java/)
+Tìm hiểu cách tạo và quản lý các đánh dấu sách PDF một cách hiệu quả với Aspose.PDF cho Java. Nâng cao khả năng điều hướng tài liệu với hướng dẫn từng bước này.
 
-### [Nhập Dấu trang XML vào PDF bằng Aspose.PDF Java: Hướng dẫn toàn diện](./import-xml-bookmarks-aspose-pdf-java/)
-Tìm hiểu cách nhập dấu trang XML vào tài liệu PDF một cách liền mạch bằng Aspose.PDF cho Java, giúp cải thiện khả năng điều hướng và sử dụng tài liệu.
+### [Cách Trích Xuất Liên Kết Siêu Văn Bản từ PDF bằng Aspose.PDF cho Java](./extract-hyperlinks-pdf-aspose-java/)
+Tìm hiểu cách trích xuất các liên kết siêu văn bản từ PDF một cách hiệu quả bằng Aspose.PDF cho Java. Hướng dẫn này bao gồm cài đặt, triển khai và các ứng dụng thực tiễn.
 
-### [Liên kết PDF bằng Aspose.PDF cho Java: Tạo siêu liên kết giữa các tài liệu dễ dàng](./link-pdfs-aspose-pdf-java/)
-Tìm hiểu cách liên kết liền mạch giữa các tài liệu PDF bằng Aspose.PDF cho Java. Hướng dẫn này bao gồm thiết lập, tạo liên kết theo chương trình và các ứng dụng thực tế.
+### [Cách Lấy và Hiển Thị Đánh Dấu Sách PDF bằng Aspose.PDF cho Java](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+Tìm hiểu cách trích xuất và hiển thị các đánh dấu sách từ PDF một cách lập trình bằng Aspose.PDF cho Java, nâng cao khả năng điều hướng trong các ứng dụng của bạn.
 
-### [Master Aspose.PDF Java: Chỉnh sửa dấu trang PDF & cấu hình cài đặt trình xem](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
-Tìm hiểu cách chỉnh sửa dấu trang PDF và tùy chỉnh cài đặt trình xem bằng Aspose.PDF cho Java. Nâng cao trải nghiệm người dùng bằng cách làm chủ tùy chọn điều hướng và bố cục.
+### [Cách Cập Nhật Đánh Dấu Sách PDF bằng Aspose.PDF cho Java&#58; Hướng Dẫn Từng Bước](./update-pdf-bookmarks-aspose-java-tutorial/)
+Tìm hiểu cách cập nhật các đánh dấu sách PDF một cách hiệu quả với Aspose.PDF cho Java. Hướng dẫn này bao gồm cài đặt, triển khai và các thực tiễn tốt nhất.
 
-### [Quản lý dấu trang PDF chuyên nghiệp với Aspose.PDF cho Java: Xóa và quản lý dấu trang hiệu quả](./aspose-pdf-java-bookmark-management/)
-Tìm hiểu cách quản lý dấu trang PDF bằng Aspose.PDF cho Java. Hướng dẫn này bao gồm xóa tất cả hoặc một số dấu trang, hướng dẫn thiết lập và ứng dụng thực tế.
+### [Nhập Đánh Dấu Sách XML vào PDF bằng Aspose.PDF Java&#58; Hướng Dẫn Toàn Diện](./import-xml-bookmarks-aspose-pdf-java/)
+Tìm hiểu cách nhập các đánh dấu sách XML vào tài liệu PDF một cách liền mạch với Aspose.PDF cho Java, nâng cao khả năng điều hướng và tính sử dụng của tài liệu.
 
-### [Làm chủ Aspose.PDF cho Java: Mở, Lưu và Thêm Dấu trang vào PDF](./master-aspose-pdf-java-open-save-bookmarks/)
-Tìm hiểu cách mở, lưu và thêm dấu trang vào PDF hiệu quả bằng Aspose.PDF cho Java. Nâng cao kỹ năng quản lý tài liệu của bạn với hướng dẫn toàn diện này.
+### [Liên Kết PDF bằng Aspose.PDF cho Java&#58; Tạo Liên Kết Siêu Văn Bản Giữa Các Tài Liệu Dễ Dàng](./link-pdfs-aspose-pdf-java/)
+Tìm hiểu cách liên kết liền mạch giữa các tài liệu PDF bằng Aspose.PDF cho Java. Hướng dẫn này bao gồm cài đặt, tạo liên kết một cách lập trình và các ứng dụng thực tiễn.
 
-## Tài nguyên bổ sung
+### [Làm Chủ Aspose.PDF Java&#58; Chỉnh Sửa Đánh Dấu Sách PDF & Cấu Hình Cài Đặt Trình Xem](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
+Tìm hiểu cách chỉnh sửa các đánh dấu sách PDF và tùy chỉnh cài đặt trình xem với Aspose.PDF cho Java. Nâng cao trải nghiệm người dùng bằng cách làm chủ điều hướng và các tùy chọn bố cục.
+
+### [Quản Lý Đánh Dấu Sách PDF với Aspose.PDF cho Java&#58; Xóa và Quản Lý Đánh Dấu Sách một cách Hiệu Quả](./aspose-pdf-java-bookmark-management/)
+Tìm hiểu cách quản lý các đánh dấu sách PDF bằng Aspose.PDF cho Java. Bài hướng dẫn này bao gồm việc xóa toàn bộ hoặc các đánh dấu cụ thể, hướng dẫn cài đặt và các ứng dụng thực tiễn.
+
+### [Làm Chủ Aspose.PDF cho Java&#58; Mở, Lưu & Thêm Đánh Dấu Sách vào PDF](./master-aspose-pdf-java-open-save-bookmarks/)
+Tìm hiểu cách mở, lưu và thêm các đánh dấu sách vào PDF một cách hiệu quả bằng Aspose.PDF cho Java. Nâng cao kỹ năng quản lý tài liệu của bạn với hướng dẫn toàn diện này.
+
+## Tài Nguyên Bổ Sung
 
 - [Tài liệu Aspose.PDF cho Java](https://docs.aspose.com/pdf/java/)
-- [Tài liệu tham khảo API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/)
+- [Tham chiếu API Aspose.PDF cho Java](https://reference.aspose.com/pdf/java/)
 - [Tải xuống Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
@@ -70,3 +81,8 @@ Tìm hiểu cách mở, lưu và thêm dấu trang vào PDF hiệu quả bằng 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2025-12-16  
+**Tác giả:** Aspose

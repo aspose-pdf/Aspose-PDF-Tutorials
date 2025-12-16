@@ -1,8 +1,11 @@
 ---
-"description": "Impara a implementare segnalibri, collegamenti ipertestuali ed elementi di navigazione nei documenti PDF con i tutorial Java di Aspose.PDF."
-"title": "Segnalibri PDF e tutorial di navigazione per Aspose.PDF Java"
-"url": "/it/java/bookmarks-navigation/"
-"weight": 14
+date: 2025-12-16
+description: Scopri come creare un indice PDF in Java, modificare le impostazioni
+  del visualizzatore PDF e aprire o salvare i segnalibri PDF utilizzando i tutorial
+  di Aspose.PDF per Java.
+title: Crea indice PDF Java – Segnalibri e navigazione Aspose.PDF
+url: /it/java/bookmarks-navigation/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -10,54 +13,63 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Segnalibri PDF e tutorial di navigazione per Aspose.PDF Java
+# Crea PDF TOC Java – Tutorial su Segnalibri PDF e Navigazione per Aspose.PDF Java
 
-nostri tutorial su segnalibri e navigazione mostrano come migliorare l'usabilità dei documenti PDF utilizzando Aspose.PDF in Java. Queste guide passo passo illustrano la creazione e la gestione di gerarchie di segnalibri, l'implementazione di collegamenti ipertestuali interni ed esterni, la creazione di strutture di indice e l'ottimizzazione della navigazione dei documenti a livello di codice. Ogni tutorial include esempi pratici di codice Java per scenari di navigazione comuni, aiutandoti a creare documenti PDF di facile utilizzo con sistemi di navigazione intuitivi che migliorano l'esperienza di lettura.
+Se stai cercando di **creare PDF TOC Java** file facili da navigare, sei nel posto giusto. In questo hub mostriamo come Aspose.PDF per Java può aiutarti a costruire gerarchie di segnalibri robuste, generare un indice dinamico (TOC) e aggiungere collegamenti di navigazione intuitivi—tutto fornendoti la flessibilità di **modificare le impostazioni del visualizzatore PDF** e **aprire e salvare i segnalibri PDF** programmaticamente.
+
+## Come creare PDF TOC Java con Aspose.PDF
+Un indice ben strutturato è la spina dorsale di qualsiasi PDF professionale. Con Aspose.PDF puoi generare automaticamente un indice gerarchico che riflette le intestazioni, le sezioni e le sotto‑sezioni del tuo documento. Questo non solo migliora l'esperienza del lettore, ma aumenta anche l'accessibilità e la ricercabilità.
+
+## Modifica le impostazioni del visualizzatore PDF con Aspose.PDF
+Oltre alla navigazione, spesso è necessario controllare come il PDF viene presentato all'utente finale. Aspose.PDF ti consente di personalizzare le preferenze del visualizzatore, come il layout della pagina, il livello di zoom e la visibilità della barra degli strumenti—tutto tramite poche righe di codice Java.
+
+## Apri e salva i segnalibri PDF usando Aspose.PDF Java
+Gestire i segnalibri dopo la creazione di un documento è semplice. Puoi aprire un PDF esistente, modificare il suo albero di segnalibri e poi salvare le modifiche senza alterare il resto del contenuto. Questa funzionalità è essenziale per mantenere grandi librerie di documenti in cui le strutture di navigazione evolvono nel tempo.
 
 ## Tutorial disponibili
 
-### [Aggiungere collegamenti JavaScript ai PDF utilizzando Aspose.PDF per Java: migliorare l'interattività nei documenti](./aspose-pdf-java-javascript-links-pdfs/)
-Scopri come aggiungere link JavaScript interattivi ai tuoi documenti PDF utilizzando Aspose.PDF per Java. Semplifica la navigazione e migliora l'esperienza utente con questa guida completa.
+### [Aggiungi collegamenti JavaScript ai PDF usando Aspose.PDF per Java&#58; migliora l'interattività nei documenti](./aspose-pdf-java-javascript-links-pdfs/)
+Impara come aggiungere collegamenti JavaScript interattivi ai tuoi documenti PDF usando Aspose.PDF per Java. Semplifica la navigazione e migliora l'esperienza utente con questa guida completa.
 
-### [Creare un indice (TOC) nei PDF utilizzando Aspose.PDF per Java: guida per sviluppatori](./aspose-pdf-java-create-toc-in-pdfs/)
-Scopri come aggiungere un indice ai tuoi file PDF utilizzando Aspose.PDF per Java, migliorando la navigazione e la professionalità dei documenti. Segui questa guida passo passo per migliorare l'usabilità dei tuoi PDF.
+### [Crea un indice (TOC) nei PDF usando Aspose.PDF per Java&#58; Guida per sviluppatori](./aspose-pdf-java-create-toc-in-pdfs/)
+Impara come aggiungere un indice ai tuoi file PDF usando Aspose.PDF per Java, migliorando la navigazione del documento e la professionalità. Segui questa guida passo‑passo per migliorare l'usabilità dei tuoi PDF.
 
-### [Gestire in modo efficiente i segnalibri PDF utilizzando Aspose.PDF Java](./manage-pdf-bookmarks-aspose-pdf-java/)
-Scopri come creare e gestire i segnalibri nei PDF con Aspose.PDF per Java, rendendo i tuoi documenti facilmente navigabili.
+### [Gestisci efficientemente i segnalibri PDF usando Aspose.PDF Java](./manage-pdf-bookmarks-aspose-pdf-java/)
+Impara come creare e gestire i segnalibri nei PDF con Aspose.PDF per Java, garantendo che i tuoi documenti siano facilmente navigabili.
 
-### [Espandi i segnalibri PDF utilizzando Aspose.PDF in Java: una guida completa](./expand-pdf-bookmarks-aspose-java/)
-Scopri come espandere i segnalibri PDF con Aspose.PDF per Java. Questa guida illustra come caricare, modificare e migliorare l'esperienza utente nell'accesso ai contenuti PDF.
+### [Espandi i segnalibri PDF usando Aspose.PDF in Java&#58; Guida completa](./expand-pdf-bookmarks-aspose-java/)
+Impara come espandere i segnalibri PDF con Aspose.PDF per Java. Questa guida copre il caricamento, la modifica e il miglioramento dell'esperienza utente nell'accesso ai contenuti PDF.
 
-### [Come creare e gestire segnalibri PDF utilizzando Aspose.PDF per Java: una guida completa](./create-manage-pdf-bookmarks-aspose-java/)
-Scopri come creare e gestire in modo efficiente i segnalibri PDF con Aspose.PDF per Java. Migliora la navigazione nei documenti con questo tutorial passo passo.
+### [Come creare e gestire i segnalibri PDF usando Aspose.PDF per Java&#58; Guida completa](./create-manage-pdf-bookmarks-aspose-java/)
+Impara come creare e gestire efficientemente i segnalibri PDF con Aspose.PDF per Java. Migliora la navigazione dei documenti con questo tutorial passo‑passo.
 
-### [Come estrarre collegamenti ipertestuali da un PDF utilizzando Aspose.PDF per Java](./extract-hyperlinks-pdf-aspose-java/)
-Scopri come estrarre in modo efficiente i collegamenti ipertestuali dai PDF utilizzando Aspose.PDF per Java. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche.
+### [Come estrarre i collegamenti ipertestuali da un PDF usando Aspose.PDF per Java](./extract-hyperlinks-pdf-aspose-java/)
+Impara come estrarre in modo efficiente i collegamenti ipertestuali dai PDF usando Aspose.PDF per Java. Questa guida copre l'installazione, l'implementazione e le applicazioni pratiche.
 
-### [Come recuperare e visualizzare i segnalibri PDF utilizzando Aspose.PDF per Java](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
-Scopri come estrarre e visualizzare a livello di programmazione i segnalibri dai PDF utilizzando Aspose.PDF per Java, migliorando la navigazione nelle tue applicazioni.
+### [Come recuperare e visualizzare i segnalibri PDF usando Aspose.PDF per Java](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+Impara come estrarre e visualizzare programmaticamente i segnalibri dai PDF usando Aspose.PDF per Java, migliorando la navigazione nelle tue applicazioni.
 
-### [Come aggiornare i segnalibri PDF utilizzando Aspose.PDF per Java: una guida passo passo](./update-pdf-bookmarks-aspose-java-tutorial/)
-Scopri come aggiornare in modo efficiente i segnalibri PDF con Aspose.PDF per Java. Questa guida illustra configurazione, implementazione e best practice.
+### [Come aggiornare i segnalibri PDF usando Aspose.PDF per Java&#58; Guida passo‑passo](./update-pdf-bookmarks-aspose-java-tutorial/)
+Impara come aggiornare i segnalibri PDF in modo efficiente con Aspose.PDF per Java. Questa guida copre l'installazione, l'implementazione e le migliori pratiche.
 
-### [Importa segnalibri XML in PDF utilizzando Aspose.PDF Java: una guida completa](./import-xml-bookmarks-aspose-pdf-java/)
-Scopri come importare senza problemi segnalibri XML nei documenti PDF con Aspose.PDF per Java, migliorando la navigazione e l'usabilità dei documenti.
+### [Importa segnalibri XML nei PDF usando Aspose.PDF Java&#58; Guida completa](./import-xml-bookmarks-aspose-pdf-java/)
+Impara come importare senza problemi segnalibri XML nei documenti PDF con Aspose.PDF per Java, migliorando la navigazione e l'usabilità del documento.
 
-### [Collega PDF usando Aspose.PDF per Java: crea facilmente collegamenti ipertestuali tra documenti](./link-pdfs-aspose-pdf-java/)
-Scopri come collegare in modo fluido documenti PDF utilizzando Aspose.PDF per Java. Questa guida illustra la configurazione, la creazione di collegamenti a livello di codice e applicazioni pratiche.
+### [Collega PDF usando Aspose.PDF per Java&#58; crea collegamenti ipertestuali tra documenti facilmente](./link-pdfs-aspose-pdf-java/)
+Impara come collegare senza problemi documenti PDF usando Aspose.PDF per Java. Questa guida copre la configurazione, la creazione di collegamenti programmatici e le applicazioni pratiche.
 
-### [Master Aspose.PDF Java: modifica i segnalibri PDF e configura le impostazioni del visualizzatore](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
-Scopri come modificare i segnalibri PDF e personalizzare le impostazioni del visualizzatore con Aspose.PDF per Java. Migliora l'esperienza utente padroneggiando le preferenze di navigazione e layout.
+### [Padroneggia Aspose.PDF Java&#58; modifica i segnalibri PDF e configura le impostazioni del visualizzatore](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
+Impara come modificare i segnalibri PDF e personalizzare le impostazioni del visualizzatore con Aspose.PDF per Java. Migliora l'esperienza utente padroneggiando la navigazione e le preferenze di layout.
 
-### [Padroneggia la gestione dei segnalibri PDF con Aspose.PDF per Java: elimina e gestisci i segnalibri in modo efficiente](./aspose-pdf-java-bookmark-management/)
-Scopri come gestire i segnalibri PDF utilizzando Aspose.PDF per Java. Questo tutorial illustra come eliminare tutti i segnalibri o solo alcuni, guide di configurazione e applicazioni pratiche.
+### [Gestione avanzata dei segnalibri PDF con Aspose.PDF per Java&#58; elimina e gestisci i segnalibri in modo efficiente](./aspose-pdf-java-bookmark-management/)
+Impara come gestire i segnalibri PDF usando Aspose.PDF per Java. Questo tutorial copre l'eliminazione di tutti o di specifici segnalibri, guide di configurazione e applicazioni pratiche.
 
-### [Padroneggiare Aspose.PDF per Java: aprire, salvare e aggiungere segnalibri ai PDF](./master-aspose-pdf-java-open-save-bookmarks/)
-Scopri come aprire, salvare e aggiungere segnalibri ai PDF in modo efficace utilizzando Aspose.PDF per Java. Migliora le tue competenze di gestione dei documenti con questa guida completa.
+### [Padroneggiare Aspose.PDF per Java&#58; apri, salva e aggiungi segnalibri ai PDF](./master-aspose-pdf-java-open-save-bookmarks/)
+Impara come aprire, salvare e aggiungere segnalibri ai PDF usando Aspose.PDF per Java. Migliora le tue competenze di gestione dei documenti con questa guida completa.
 
 ## Risorse aggiuntive
 
-- [Documentazione di Aspose.PDF per Java](https://docs.aspose.com/pdf/java/)
+- [Documentazione Aspose.PDF per Java](https://docs.aspose.com/pdf/java/)
 - [Riferimento API Aspose.PDF per Java](https://reference.aspose.com/pdf/java/)
 - [Scarica Aspose.PDF per Java](https://releases.aspose.com/pdf/java/)
 - [Supporto gratuito](https://forum.aspose.com/)
@@ -70,3 +82,8 @@ Scopri come aprire, salvare e aggiungere segnalibri ai PDF in modo efficace util
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2025-12-16  
+**Autore:** Aspose

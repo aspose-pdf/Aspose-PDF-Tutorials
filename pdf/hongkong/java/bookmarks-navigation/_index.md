@@ -1,8 +1,9 @@
 ---
-"description": "學習使用 Aspose.PDF Java 教學在 PDF 文件中實作文件書籤、超連結和導航元素。"
-"title": "Aspose.PDF Java 的 PDF 書籤和導航教學課程"
-"url": "/zh-hant/java/bookmarks-navigation/"
-"weight": 14
+date: 2025-12-16
+description: 學習如何使用 Aspose.PDF for Java 教程建立 PDF 目錄、編輯 PDF 檢視器設定，以及開啟與儲存 PDF 書籤。
+title: 使用 Java 建立 PDF 目錄 – Aspose.PDF 書籤與導覽
+url: /zh-hant/java/bookmarks-navigation/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -10,58 +11,40 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF Java 的 PDF 書籤和導航教學課程
+# 建立 PDF TOC Java – Aspose.PDF Java 的 PDF 書籤與導覽教學
 
-我們的書籤和導航教學向您展示如何使用 Java 中的 Aspose.PDF 增強 PDF 文件的可用性。這些逐步指南涵蓋建立和管理書籤層次結構、實現內部和外部超連結、建立目錄結構以及以程式設計方式最佳化文件導覽。每個教學課程都包含常見導覽場景的實用 Java 程式碼範例，可協助您建立具有直覺式導航系統的使用者友善的 PDF 文檔，從而改善閱讀體驗。
+如果您正在尋找易於導覽的 **create PDF TOC Java** 檔案，您來對地方了。在此中心，我們展示 Aspose.PDF for Java 如何協助您建立穩健的書籤層級、產生動態目錄（TOC），以及加入直觀的導覽連結——同時讓您能以程式方式 **edit PDF viewer settings** 與 **open save PDF bookmarks**。
 
-## 可用教程
+## 使用 Aspose.PDF 建立 PDF TOC Java 的方法
+一個結構良好的目錄（TOC）是任何專業 PDF 的基礎。使用 Aspose.PDF，您可以自動產生反映文件標題、章節與子章節的階層式目錄（TOC）。這不僅提升讀者體驗，亦增進可存取性與可搜尋性。
 
-### [使用 Aspose.PDF for Java 將 JavaScript 連結新增至 PDF：增強文件的互動性](./aspose-pdf-java-javascript-links-pdfs/)
-了解如何使用 Aspose.PDF for Java 將互動式 JavaScript 連結新增至您的 PDF 文件。透過這份綜合指南簡化導航並增強使用者體驗。
+## 使用 Aspose.PDF 編輯 PDF 檢視器設定
+除了導覽之外，您常常需要控制 PDF 呈現給最終使用者的方式。Aspose.PDF 讓您能透過少量 Java 程式碼自訂檢視器偏好設定，例如頁面版面配置、縮放比例與工具列可見性。
 
-### [使用 Aspose.PDF for Java 在 PDF 中建立目錄 (TOC)：開發人員指南](./aspose-pdf-java-create-toc-in-pdfs/)
-了解如何使用 Aspose.PDF for Java 為您的 PDF 檔案新增目錄，以增強文件導航和專業。請按照本逐步指南來提高您的 PDF 可用性。
+## 使用 Aspose.PDF Java 開啟與儲存 PDF 書籤
+在文件建立後管理書籤相當簡單。您可以開啟現有的 PDF，修改其書籤樹，然後儲存變更而不影響其他內容。此功能對於維護用教學
 
+### [使用 Aspose.PDF for Java 為 PDF 添加 JavaScript 連結&#58; 提升文件互動性](./aspose-pdf-java-javascript-links-pdfs/)
+### [使用 Aspose.PDF for Java 在 PDF 中建立目錄（TOC）&#58; 開發者指南](./aspose-pdf-java-create-toc-in-pdfs/)
 ### [使用 Aspose.PDF Java 高效管理 PDF 書籤](./manage-pdf-bookmarks-aspose-pdf-java/)
-了解如何使用 Aspose.PDF for Java 在 PDF 中建立和管理書籤，確保您的文件易於瀏覽。
-
-### [使用 Java 中的 Aspose.PDF 擴充 PDF 書籤：完整指南](./expand-pdf-bookmarks-aspose-java/)
-了解如何使用 Aspose.PDF for Java 擴充 PDF 書籤。本指南涵蓋載入、修改和增強使用者存取 PDF 內容的體驗。
-
-### [如何使用 Aspose.PDF for Java 建立和管理 PDF 書籤：綜合指南](./create-manage-pdf-bookmarks-aspose-java/)
-了解如何使用 Aspose.PDF for Java 有效率地建立和管理 PDF 書籤。透過本逐步教學增強文件導覽。
-
-### [如何使用 Aspose.PDF for Java 從 PDF 中提取超鏈接](./extract-hyperlinks-pdf-aspose-java/)
-了解如何使用 Aspose.PDF for Java 從 PDF 中高效提取超連結。本指南涵蓋設定、實施和實際應用。
-
-### [如何使用 Aspose.PDF for Java 檢索和顯示 PDF 書籤](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
-了解如何使用 Aspose.PDF for Java 以程式設計方式從 PDF 中提取和顯示書籤，從而增強應用程式中的導航。
-
-### [如何使用 Aspose.PDF for Java 更新 PDF 書籤：逐步指南](./update-pdf-bookmarks-aspose-java-tutorial/)
-了解如何使用 Aspose.PDF for Java 有效更新 PDF 書籤。本指南涵蓋設定、實施和最佳實務。
-
-### [使用 Aspose.PDF Java 將 XML 書籤匯入 PDF：綜合指南](./import-xml-bookmarks-aspose-pdf-java/)
-了解如何使用 Aspose.PDF for Java 將 XML 書籤無縫匯入 PDF 文檔，增強文檔導航和可用性。
-
-### [使用 Aspose.PDF for Java 鏈接 PDF：輕鬆在文件之間建立超鏈接](./link-pdfs-aspose-pdf-java/)
-了解如何使用 Aspose.PDF for Java 在 PDF 文件之間無縫連結。本指南涵蓋設定、以程式設計方式建立連結以及實際應用。
-
-### [掌握 Aspose.PDF Java：編輯 PDF 書籤和配置檢視器設定](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
-了解如何使用 Aspose.PDF for Java 編輯 PDF 書籤和自訂檢視器設定。透過掌握導航和佈局偏好來增強使用者體驗。
-
-### [使用 Aspose.PDF for Java 掌握 PDF 書籤管理：高效刪除和管理書籤](./aspose-pdf-java-bookmark-management/)
-了解如何使用 Aspose.PDF for Java 管理 PDF 書籤。本教學涵蓋刪除所有或特定書籤、設定指南和實際應用。
-
-### [掌握 Java 版 Aspose.PDF：開啟、儲存 PDF 並加書籤](./master-aspose-pdf-java-open-save-bookmarks/)
-了解如何使用 Aspose.PDF for Java 有效地開啟、儲存 PDF 並新增書籤。透過本綜合指南提升您的文件管理技能。
+### [使用 Aspose.PDF in Java 展開 PDF 書籤&#58; 完整指南](./expand-pdf-bookmarks-aspose-java/)
+### [如何使用 Aspose.PDF for Java 建立與管理 PDF 書籤&#58; 完整指南](./create-manage-pdf-bookmarks-aspose-java/)
+### [如何使用 Aspose.PDF for Java 從 PDF 中提取超連結](./extract-hyperlinks-pdf-aspose-java/)
+### [如何使用 Aspose.PDF for Java 取得並顯示 PDF 書籤](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+### [如何使用 Aspose.PDF for Java 更新 PDF 書籤&#58; 步驟指南](./update-pdf-bookmarks-aspose-java-tutorial/)
+### [使用 Aspose.PDF Java 將 XML 書籤匯入 PDF&#58; 完整指南](./import-xml-bookmarks-aspose-pdf-java/)
+### [使用 Aspose.PDF for Java 連結 PDF&#58; 輕鬆建立文件間的超連結](./link-pdfs-aspose-pdf-java/)
+### [精通 Aspose.PDF Java&#58; 編輯 PDF 書籤與設定檢視器參數](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
+### [精通 Aspose.PDF for Java 的 PDF 書籤管理&#58; 高效刪除與管理書籤](./aspose-pdf-java-bookmark-management/)
+### [精通 Aspose.PDF for Java&#58; 開啟、儲存與新增 PDF 書籤](./master-aspose-pdf-java-open-save-bookmarks/)
 
 ## 其他資源
 
-- [Aspose.PDF for Java 文檔](https://docs.aspose.com/pdf/java/)
+- [Aspose.PDF for Java 文件](https://docs.aspose.com/pdf/java/)
 - [Aspose.PDF for Java API 參考](https://reference.aspose.com/pdf/java/)
 - [下載 Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [免費支援](https://forum.aspose.com/)
-- [臨時執照](https://purchase.aspose.com/temporary-license/)
+- [臨時授權](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -70,3 +53,8 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新:** 2025-12-16  
+**作者:** Aspose
