@@ -1,8 +1,11 @@
 ---
-"description": "Aprenda a implementar marcadores de documentos, hipervínculos y elementos de navegación en documentos PDF con los tutoriales de Java de Aspose.PDF."
-"title": "Tutoriales de navegación y marcadores PDF para Aspose.PDF Java"
-"url": "/es/java/bookmarks-navigation/"
-"weight": 14
+date: 2025-12-16
+description: Aprenda cómo crear un índice PDF en Java, editar la configuración del
+  visor PDF y abrir y guardar marcadores PDF usando los tutoriales de Aspose.PDF para
+  Java.
+title: Crear índice PDF en Java – Marcadores y navegación de Aspose.PDF
+url: /es/java/bookmarks-navigation/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -10,56 +13,68 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tutoriales de navegación y marcadores PDF para Aspose.PDF Java
+# Crear PDF TOC Java – Tutoriales de Marcadores PDF y Navegación para Aspose.PDF Java
 
-Nuestros tutoriales de marcadores y navegación le muestran cómo mejorar la usabilidad de documentos PDF con Aspose.PDF en Java. Estas guías paso a paso abarcan la creación y gestión de jerarquías de marcadores, la implementación de hipervínculos internos y externos, la creación de tablas de contenido y la optimización programática de la navegación de documentos. Cada tutorial incluye ejemplos prácticos de código Java para escenarios de navegación comunes, lo que le ayudará a crear documentos PDF intuitivos con sistemas de navegación que mejoran la experiencia de lectura.
+Si estás buscando **crear PDF TOC Java** archivos que sean fáciles de navegar, has llegado al lugar correcto. En este centro mostramos cómo Aspose.PDF for Java puede ayudarte a crear jerarquías de marcadores robustas, generar una tabla de contenidos (TOC) dinámica y agregar enlaces de navegación intuitivos, todo mientras te brinda la flexibilidad de **editar la configuración del visor PDF** y **abrir y guardar marcadores PDF** programáticamente.
+
+## Cómo crear PDF TOC Java con Aspose.PDF
+
+Una TOC bien estructurada es la columna vertebral de cualquier PDF profesional. Con Aspose.PDF puedes generar automáticamente una TOC jerárquica que refleje los encabezados, secciones y subsecciones de tu documento. Esto no solo mejora la experiencia del lector, sino que también aumenta la accesibilidad y la capacidad de búsqueda.
+
+## Editar la configuración del visor PDF con Aspose.PDF
+
+Más allá de la navegación, a menudo necesitas controlar cómo se presenta el PDF al usuario final. Aspose.PDF te permite personalizar las preferencias del visor, como el diseño de página, el nivel de zoom y la visibilidad de la barra de herramientas, todo mediante unas pocas líneas de código Java.
+
+## Abrir y guardar marcadores PDF usando Aspose.PDF Java
+
+Gestionar los marcadores después de crear un documento es sencillo. Puedes abrir un PDF existente, modificar su árbol de marcadores y luego guardar los cambios sin alterar el resto del contenido. Esta capacidad es esencial para mantener grandes bibliotecas de documentos donde las estructuras de navegación evolucionan con el tiempo.
 
 ## Tutoriales disponibles
 
-### [Añadir enlaces JavaScript a archivos PDF con Aspose.PDF para Java: Mejorar la interactividad en los documentos](./aspose-pdf-java-javascript-links-pdfs/)
-Aprenda a añadir enlaces interactivos de JavaScript a sus documentos PDF con Aspose.PDF para Java. Optimice la navegación y mejore la experiencia del usuario con esta guía completa.
+### [Agregar enlaces JavaScript a PDFs usando Aspose.PDF for Java&#58; Mejora la interactividad en documentos](./aspose-pdf-java-javascript-links-pdfs/)
+Aprende a agregar enlaces JavaScript interactivos a tus documentos PDF usando Aspose.PDF for Java. Optimiza la navegación y mejora la experiencia del usuario con esta guía completa.
 
-### [Crear una tabla de contenido (TOC) en archivos PDF con Aspose.PDF para Java: Guía para desarrolladores](./aspose-pdf-java-create-toc-in-pdfs/)
-Aprenda a añadir una tabla de contenidos a sus archivos PDF con Aspose.PDF para Java, optimizando la navegación y la profesionalidad de sus documentos. Siga esta guía paso a paso para optimizar la usabilidad de sus archivos PDF.
+### [Crear una tabla de contenidos (TOC) en PDFs usando Aspose.PDF for Java&#58; Guía del desarrollador](./aspose-pdf-java-create-toc-in-pdfs/)
+Aprende a añadir una TOC a tus archivos PDF usando Aspose.PDF for Java, mejorando la navegación del documento y su profesionalismo. Sigue esta guía paso a paso para mejorar la usabilidad de tu PDF.
 
-### [Administre eficazmente sus marcadores PDF con Aspose.PDF Java](./manage-pdf-bookmarks-aspose-pdf-java/)
-Aprenda a crear y administrar marcadores en archivos PDF con Aspose.PDF para Java, garantizando que sus documentos sean fácilmente navegables.
+### [Gestionar eficientemente los marcadores PDF usando Aspose.PDF Java](./manage-pdf-bookmarks-aspose-pdf-java/)
+Aprende a crear y gestionar marcadores en PDFs con Aspose.PDF for Java, asegurando que tus documentos sean fácilmente navegables.
 
-### [Expandir marcadores PDF con Aspose.PDF en Java: una guía completa](./expand-pdf-bookmarks-aspose-java/)
-Aprenda a expandir marcadores PDF con Aspose.PDF para Java. Esta guía explica cómo cargar, modificar y mejorar la experiencia del usuario al acceder a contenido PDF.
+### [Expandir marcadores PDF usando Aspose.PDF en Java&#58; Guía completa](./expand-pdf-bookmarks-aspose-java/)
+Aprende a expandir los marcadores PDF con Aspose.PDF for Java. Esta guía cubre la carga, modificación y mejora de la experiencia del usuario al acceder al contenido PDF.
 
-### [Cómo crear y gestionar marcadores PDF con Aspose.PDF para Java: una guía completa](./create-manage-pdf-bookmarks-aspose-java/)
-Aprenda a crear y gestionar marcadores PDF de forma eficiente con Aspose.PDF para Java. Mejore la navegación de documentos con este tutorial paso a paso.
+### [Cómo crear y gestionar marcadores PDF usando Aspose.PDF for Java&#58; Guía completa](./create-manage-pdf-bookmarks-aspose-java/)
+Aprende a crear y gestionar eficientemente los marcadores PDF con Aspose.PDF for Java. Mejora la navegación del documento con este tutorial paso a paso.
 
-### [Cómo extraer hipervínculos de un PDF con Aspose.PDF para Java](./extract-hyperlinks-pdf-aspose-java/)
-Aprenda a extraer hipervínculos de archivos PDF de forma eficiente con Aspose.PDF para Java. Esta guía abarca la configuración, la implementación y las aplicaciones prácticas.
+### [Cómo extraer hipervínculos de un PDF usando Aspose.PDF for Java](./extract-hyperlinks-pdf-aspose-java/)
+Aprende a extraer hipervínculos de PDFs usando Aspose.PDF for Java. Esta guía cubre la configuración, implementación y aplicaciones prácticas.
 
-### [Cómo recuperar y mostrar marcadores PDF con Aspose.PDF para Java](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
-Aprenda a extraer y mostrar marcadores de archivos PDF mediante programación utilizando Aspose.PDF para Java, mejorando la navegación en sus aplicaciones.
+### [Cómo recuperar y mostrar marcadores PDF usando Aspose.PDF for Java](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+Aprende a extraer y mostrar programáticamente los marcadores de PDFs usando Aspose.PDF for Java, mejorando la navegación en tus aplicaciones.
 
-### [Cómo actualizar marcadores PDF con Aspose.PDF para Java: guía paso a paso](./update-pdf-bookmarks-aspose-java-tutorial/)
-Aprenda a actualizar marcadores PDF eficientemente con Aspose.PDF para Java. Esta guía abarca la configuración, la implementación y las prácticas recomendadas.
+### [Cómo actualizar marcadores PDF usando Aspose.PDF for Java&#58; Guía paso a paso](./update-pdf-bookmarks-aspose-java-tutorial/)
+Aprende a actualizar los marcadores PDF de forma eficiente con Aspose.PDF for Java. Esta guía cubre la configuración, implementación y mejores prácticas.
 
-### [Importar marcadores XML a archivos PDF con Aspose.PDF Java: una guía completa](./import-xml-bookmarks-aspose-pdf-java/)
-Aprenda a importar sin problemas marcadores XML en documentos PDF con Aspose.PDF para Java, mejorando la navegación y la usabilidad del documento.
+### [Importar marcadores XML en PDFs usando Aspose.PDF Java&#58; Guía completa](./import-xml-bookmarks-aspose-pdf-java/)
+Aprende a importar sin problemas marcadores XML en documentos PDF con Aspose.PDF for Java, mejorando la navegación y usabilidad del documento.
 
-### [Vincular archivos PDF con Aspose.PDF para Java: crear hipervínculos entre documentos fácilmente](./link-pdfs-aspose-pdf-java/)
-Aprenda a vincular documentos PDF sin problemas con Aspose.PDF para Java. Esta guía abarca la configuración, la creación de enlaces mediante programación y aplicaciones prácticas.
+### [Vincular PDFs usando Aspose.PDF for Java&#58; Crear hipervínculos entre documentos fácilmente](./link-pdfs-aspose-pdf-java/)
+Aprende a enlazar sin problemas entre documentos PDF usando Aspose.PDF for Java. Esta guía cubre la configuración, creación de enlaces programáticamente y aplicaciones prácticas.
 
-### [Domine Aspose.PDF Java: edite marcadores PDF y configure los ajustes del visor](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
-Aprenda a editar marcadores PDF y a personalizar la configuración del visor con Aspose.PDF para Java. Mejore la experiencia del usuario dominando las preferencias de navegación y diseño.
+### [Dominar Aspose.PDF Java&#58; Editar marcadores PDF y configurar la configuración del visor](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
+Aprende a editar los marcadores PDF y personalizar la configuración del visor con Aspose.PDF for Java. Mejora la experiencia del usuario dominando la navegación y preferencias de diseño.
 
-### [Domine la gestión de marcadores PDF con Aspose.PDF para Java: elimine y administre marcadores de forma eficiente](./aspose-pdf-java-bookmark-management/)
-Aprenda a administrar marcadores PDF con Aspose.PDF para Java. Este tutorial explica cómo eliminar todos los marcadores o algunos específicos, incluye guías de configuración y aplicaciones prácticas.
+### [Dominar la gestión de marcadores PDF con Aspose.PDF for Java&#58; Eliminar y gestionar marcadores eficientemente](./aspose-pdf-java-bookmark-management/)
+Aprende a gestionar los marcadores PDF usando Aspose.PDF for Java. Este tutorial cubre la eliminación de todos o de marcadores específicos, guías de configuración y aplicaciones prácticas.
 
-### [Dominando Aspose.PDF para Java: Abrir, guardar y añadir marcadores a archivos PDF](./master-aspose-pdf-java-open-save-bookmarks/)
-Aprenda a abrir, guardar y añadir marcadores a archivos PDF de forma eficaz con Aspose.PDF para Java. Mejore sus habilidades de gestión de documentos con esta guía completa.
+### [Dominar Aspose.PDF for Java&#58; Abrir, guardar y agregar marcadores a PDFs](./master-aspose-pdf-java-open-save-bookmarks/)
+Aprende a abrir, guardar y agregar marcadores a PDFs usando Aspose.PDF for Java. Mejora tus habilidades de gestión documental con esta guía completa.
 
 ## Recursos adicionales
 
-- [Documentación de Aspose.PDF para Java](https://docs.aspose.com/pdf/java/)
-- [Referencia de la API de Aspose.PDF para Java](https://reference.aspose.com/pdf/java/)
-- [Descargar Aspose.PDF para Java](https://releases.aspose.com/pdf/java/)
+- [Documentación de Aspose.PDF for Java](https://docs.aspose.com/pdf/java/)
+- [Referencia de API de Aspose.PDF for Java](https://reference.aspose.com/pdf/java/)
+- [Descargar Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
 
@@ -70,3 +85,8 @@ Aprenda a abrir, guardar y añadir marcadores a archivos PDF de forma eficaz con
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2025-12-16  
+**Autor:** Aspose

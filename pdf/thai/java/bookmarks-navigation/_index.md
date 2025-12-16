@@ -1,8 +1,10 @@
 ---
-"description": "เรียนรู้การนำบุ๊กมาร์กเอกสาร ไฮเปอร์ลิงก์ และองค์ประกอบการนำทางไปใช้งานในเอกสาร PDF ด้วยบทช่วยสอน Java ของ Aspose.PDF"
-"title": "บุ๊กมาร์ก PDF และบทช่วยสอนการนำทางสำหรับ Aspose.PDF Java"
-"url": "/th/java/bookmarks-navigation/"
-"weight": 14
+date: 2025-12-16
+description: เรียนรู้วิธีสร้างสารบัญ PDF ด้วย Java, แก้ไขการตั้งค่าผู้ดู PDF, และเปิดบันทึกที่คั่นหน้า
+  PDF ด้วย Aspose.PDF สำหรับ Java
+title: สร้างสารบัญ PDF ด้วย Java – ที่คั่นหน้าและการนำทางของ Aspose.PDF
+url: /th/java/bookmarks-navigation/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -10,57 +12,53 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# บุ๊กมาร์ก PDF และบทช่วยสอนการนำทางสำหรับ Aspose.PDF Java
+# สร้าง PDF TOC Java – การสอนการทำ Bookmark และการนำทางใน PDF สำหรับ Aspose.PDF Java
 
-บทช่วยสอนเกี่ยวกับบุ๊กมาร์กและการนำทางของเราจะแสดงให้คุณเห็นถึงวิธีการปรับปรุงการใช้งานเอกสาร PDF โดยใช้ Aspose.PDF ใน Java คำแนะนำทีละขั้นตอนเหล่านี้ครอบคลุมถึงการสร้างและจัดการลำดับชั้นของบุ๊กมาร์ก การนำไฮเปอร์ลิงก์ภายในและภายนอกมาใช้ การสร้างโครงสร้างสารบัญ และการปรับปรุงการนำทางเอกสารด้วยโปรแกรม บทช่วยสอนแต่ละบทประกอบด้วยตัวอย่างโค้ด Java ในทางปฏิบัติสำหรับสถานการณ์การนำทางทั่วไป ช่วยให้คุณสร้างเอกสาร PDF ที่เป็นมิตรกับผู้ใช้พร้อมระบบนำทางที่ใช้งานง่ายซึ่งช่วยปรับปรุงประสบการณ์การอ่าน
+หากคุณกำลังมองหา **create PDF TOC Java** ที่ง่ายต่อการนำทาง คุณมาถูกที่แล้ว ในศูนย์นี้เราจะแสดงให้เห็นว่า Aspose.PDF for Java สามารถช่วยคุณสร้างโครงสร้าง bookmark ที่แข็งแรง สร้างสารบัญแบบไดนามิก (TOC) และเพิ่มลิงก์การนำทางที่เป็นธรรมชาติ—พร้อมให้คุณมีความยืดหยุ่นในการ **edit PDF viewer settings** และ **open save PDF bookmarks** ผ่านโปรแกรม
 
-## บทช่วยสอนที่พร้อมใช้งาน
+## วิธีสร้าง PDF TOC Java ด้วย Aspose.PDF
+สารบัญที่จัดโครงสร้างอย่างดีเป็นกระดูกสันหลังของ PDF ระดับมืออาชีพใด ๆ ด้วย Aspose.PDF คุณสามารถสร้าง TOC แบบลำดับชั้นโดยอัตโนมัติที่สะท้อนหัวข้อ ส่วนต่าง ๆ และหัวข้อย่อยของเอกสารของคุณ ซึ่งไม่เพียงแต่ปรับปรุงประสบการณ์ของผู้อ่าน แต่ยังเพิ่มความสามารถในการเข้าถึงและการค้นหา
 
-### [เพิ่มลิงก์ JavaScript ลงใน PDF โดยใช้ Aspose.PDF สำหรับ Java: ปรับปรุงการโต้ตอบในเอกสาร](./aspose-pdf-java-javascript-links-pdfs/)
-เรียนรู้วิธีเพิ่มลิงก์ JavaScript แบบโต้ตอบลงในเอกสาร PDF ของคุณโดยใช้ Aspose.PDF สำหรับ Java ปรับปรุงการนำทางและปรับปรุงประสบการณ์ของผู้ใช้ด้วยคู่มือที่ครอบคลุมนี้
+## แก้ไขการตั้งค่า PDF Viewer ด้วย Aspose.PDF
+นอกเหนือจากการนำทาง คุณมักต้องการควบคุมวิธีการแสดง PDF ให้กับผู้ใช้ปลายทาง Aspose.PDF ช่วยให้คุณปรับแต่งการตั้งค่า viewer เช่น การจัดหน้า ระดับการซูม และการแสดงหรือซ่อนแถบเครื่องมือ—ทั้งหมดนี้ทำได้ด้วยไม่กี่บรรทัดของโค้ด Java
 
-### [สร้างสารบัญ (TOC) ใน PDF โดยใช้ Aspose.PDF สำหรับ Java: คู่มือสำหรับนักพัฒนา](./aspose-pdf-java-create-toc-in-pdfs/)
-เรียนรู้วิธีเพิ่ม TOC ลงในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ Java เพื่อปรับปรุงการนำทางเอกสารและความเป็นมืออาชีพ ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อปรับปรุงการใช้งาน PDF ของคุณ
+## เปิดและบันทึก PDF Bookmarks ด้วย Aspose.PDF Java
+การจัดการ bookmark หลังจากที่เอกสารถูกสร้างขึ้นเป็นเรื่องง่าย คุณสามารถเปิด PDF ที่มีอยู่แล้ว แก้ไขโครงสร้าง bookmark ของมัน แล้วบันทึกการเปลี่ยนแปลงโดยไม่กระทบเนื้อหาอื่น ๆ ความสามารถนี้สำคัญสำหรับการดูแลห้องสมุดเอกสารขนาดใหญ่ที่โครงสร้างการนำทางพัฒนาตามเวลา
 
-### [จัดการบุ๊กมาร์ก PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF Java](./manage-pdf-bookmarks-aspose-pdf-java/)
-เรียนรู้วิธีการสร้างและจัดการบุ๊กมาร์กใน PDF ด้วย Aspose.PDF สำหรับ Java เพื่อให้แน่ใจว่าเอกสารของคุณจะสามารถนำทางได้อย่างง่ายดาย
+## บทเรียนที่มีให้
 
-### [ขยายบุ๊กมาร์ก PDF โดยใช้ Aspose.PDF ใน Java: คู่มือฉบับสมบูรณ์](./expand-pdf-bookmarks-aspose-java/)
-เรียนรู้วิธีขยายบุ๊กมาร์ก PDF ด้วย Aspose.PDF สำหรับ Java คู่มือนี้ครอบคลุมถึงการโหลด การแก้ไข และการปรับปรุงประสบการณ์ของผู้ใช้ในการเข้าถึงเนื้อหา PDF
+### [เพิ่มลิงก์ JavaScript ไปยัง PDF ด้วย Aspose.PDF for Java&#58; เพิ่มความโต้ตอบในเอกสาร](./aspose-pdf-java-javascript-links-pdfs/)
 
-### [วิธีการสร้างและจัดการบุ๊กมาร์ก PDF โดยใช้ Aspose.PDF สำหรับ Java: คู่มือฉบับสมบูรณ์](./create-manage-pdf-bookmarks-aspose-java/)
-เรียนรู้วิธีการสร้างและจัดการบุ๊กมาร์ก PDF อย่างมีประสิทธิภาพด้วย Aspose.PDF สำหรับ Java ปรับปรุงการนำทางเอกสารด้วยบทช่วยสอนแบบทีละขั้นตอนนี้
+### [สร้างสารบัญ (TOC) ใน PDF ด้วย Aspose.PDF for Java&#58; คู่มือสำหรับนักพัฒนา](./aspose-pdf-java-create-toc-in-pdfs/)
 
-### [วิธีการแยกไฮเปอร์ลิงก์จาก PDF โดยใช้ Aspose.PDF สำหรับ Java](./extract-hyperlinks-pdf-aspose-java/)
-เรียนรู้วิธีการแยกไฮเปอร์ลิงก์จาก PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันจริง
+### [จัดการ PDF Bookmarks อย่างมีประสิทธิภาพด้วย Aspose.PDF Java](./manage-pdf-bookmarks-aspose-pdf-java/)
 
-### [วิธีการดึงและแสดงบุ๊กมาร์ก PDF โดยใช้ Aspose.PDF สำหรับ Java](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
-เรียนรู้วิธีการแยกและแสดงบุ๊กมาร์กจาก PDF โดยใช้โปรแกรม Aspose.PDF สำหรับ Java เพื่อปรับปรุงการนำทางในแอปพลิเคชันของคุณ
+### [ขยาย PDF Bookmarks ด้วย Aspose.PDF ใน Java&#58; คู่มือครบถ้วน](./expand-pdf-bookmarks-aspose-java/)
 
-### [วิธีอัปเดตบุ๊กมาร์ก PDF โดยใช้ Aspose.PDF สำหรับ Java: คำแนะนำทีละขั้นตอน](./update-pdf-bookmarks-aspose-java-tutorial/)
-เรียนรู้วิธีอัปเดตบุ๊กมาร์ก PDF อย่างมีประสิทธิภาพด้วย Aspose.PDF สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแนวทางปฏิบัติที่ดีที่สุด
+### [วิธีสร้างและจัดการ PDF Bookmarks ด้วย Aspose.PDF for Java&#58; คู่มือที่ครอบคลุม](./create-manage-pdf-bookmarks-aspose-java/)
 
-### [นำเข้าบุ๊กมาร์ก XML ลงใน PDF โดยใช้ Aspose.PDF Java: คู่มือฉบับสมบูรณ์](./import-xml-bookmarks-aspose-pdf-java/)
-เรียนรู้วิธีการนำเข้าบุ๊กมาร์ก XML ลงในเอกสาร PDF ได้อย่างราบรื่นด้วย Aspose.PDF สำหรับ Java เพื่อปรับปรุงการนำทางและการใช้งานเอกสาร
+### [วิธีดึง Hyperlinks จาก PDF ด้วย Aspose.PDF for Java](./extract-hyperlinks-pdf-aspose-java/)
 
-### [เชื่อมโยง PDF โดยใช้ Aspose.PDF สำหรับ Java: สร้างไฮเปอร์ลิงก์ระหว่างเอกสารได้อย่างง่ายดาย](./link-pdfs-aspose-pdf-java/)
-เรียนรู้วิธีสร้างลิงก์ระหว่างเอกสาร PDF ได้อย่างราบรื่นโดยใช้ Aspose.PDF สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การสร้างลิงก์ด้วยโปรแกรม และแอปพลิเคชันในทางปฏิบัติ
+### [วิธีดึงและแสดง PDF Bookmarks ด้วย Aspose.PDF for Java](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
 
-### [เรียนรู้ Aspose.PDF Java: แก้ไขบุ๊กมาร์ก PDF และกำหนดค่าการตั้งค่าโปรแกรมดู](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
-เรียนรู้วิธีแก้ไขบุ๊กมาร์ก PDF และปรับแต่งการตั้งค่าการดูด้วย Aspose.PDF สำหรับ Java ปรับปรุงประสบการณ์ของผู้ใช้โดยเชี่ยวชาญการนำทางและการตั้งค่าเค้าโครง
+### [วิธีอัปเดต PDF Bookmarks ด้วย Aspose.PDF for Java&#58; คู่มือแบบขั้นตอนต่อขั้นตอน](./update-pdf-bookmarks-aspose-java-tutorial/)
 
-### [จัดการบุ๊กมาร์ก PDF อย่างมืออาชีพด้วย Aspose.PDF สำหรับ Java: ลบและจัดการบุ๊กมาร์กอย่างมีประสิทธิภาพ](./aspose-pdf-java-bookmark-management/)
-เรียนรู้วิธีจัดการบุ๊กมาร์ก PDF โดยใช้ Aspose.PDF สำหรับ Java บทช่วยสอนนี้ครอบคลุมถึงการลบบุ๊กมาร์กทั้งหมดหรือเฉพาะบางส่วน คู่มือการตั้งค่า และแอปพลิเคชันที่ใช้งานจริง
+### [นำเข้า XML Bookmarks ไปยัง PDF ด้วย Aspose.PDF Java&#58; คู่มือที่ครอบคลุม](./import-xml-bookmarks-aspose-pdf-java/)
 
-### [เรียนรู้การใช้ Aspose.PDF สำหรับ Java: เปิด บันทึก และเพิ่มบุ๊กมาร์กใน PDF](./master-aspose-pdf-java-open-save-bookmarks/)
-เรียนรู้วิธีการเปิด บันทึก และเพิ่มบุ๊กมาร์กใน PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ Java พัฒนาทักษะการจัดการเอกสารของคุณด้วยคู่มือที่ครอบคลุมนี้
+### [เชื่อมโยง PDF ด้วย Aspose.PDF for Java&#58; สร้าง Hyperlinks ระหว่างเอกสารได้อย่างง่ายดาย](./link-pdfs-aspose-pdf-java/)
+
+### [เชี่ยวชาญ Aspose.PDF Java&#58; แก้ไข PDF Bookmarks & ตั้งค่า Viewer](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
+
+### [เชี่ยวชาญการจัดการ PDF Bookmark ด้วย Aspose.PDF for Java&#58; ลบและจัดการ Bookmarks อย่างมีประสิทธิภาพ](./aspose-pdf-java-bookmark-management/)
+
+### [เชี่ยวชาญ Aspose.PDF for Java&#58; เปิด, บันทึก & เพิ่ม Bookmarks ไปยัง PDF](./master-aspose-pdf-java-open-save-bookmarks/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 
-- [เอกสาร Aspose.PDF สำหรับ Java](https://docs.aspose.com/pdf/java/)
-- [เอกสารอ้างอิง Aspose.PDF สำหรับ Java API](https://reference.aspose.com/pdf/java/)
-- [ดาวน์โหลด Aspose.PDF สำหรับ Java](https://releases.aspose.com/pdf/java/)
-- [การสนับสนุนฟรี](https://forum.aspose.com/)
+- [เอกสาร Aspose.PDF for Java](https://docs.aspose.com/pdf/java/)
+- [อ้างอิง API Aspose.PDF for Java](https://reference.aspose.com/pdf/java/)
+- [ดาวน์โหลด Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
+- [สนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -70,3 +68,8 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-16  
+**ผู้เขียน:** Aspose

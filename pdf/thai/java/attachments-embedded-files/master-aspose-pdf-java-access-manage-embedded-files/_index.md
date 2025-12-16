@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-14"
-"description": "เรียนรู้วิธีใช้ Aspose.PDF สำหรับ Java เพื่อเข้าถึง จัดการ และแยกคุณสมบัติจากไฟล์ที่ฝังไว้ในเอกสาร PDF อย่างมีประสิทธิภาพ"
-"title": "เข้าถึงและจัดการไฟล์ที่ฝังไว้ใน PDF ด้วย Java ของ Aspose.PDF"
-"url": "/th/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/"
-"weight": 1
+date: '2025-12-16'
+description: เรียนรู้วิธีอ่านไฟล์ PDF ที่ฝังอยู่ด้วย Aspose.PDF สำหรับ Java และดึงไฟล์แนบ
+  PDF อย่างมีประสิทธิภาพ
+keywords:
+- Aspose.PDF for Java
+- manage embedded files in PDFs
+- access PDF embedded files
+title: วิธีอ่านไฟล์ที่ฝังอยู่ใน PDF ด้วย Aspose.PDF สำหรับ Java
+url: /th/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +16,38 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# การเรียนรู้ Aspose.PDF Java: เข้าถึงและจัดการไฟล์ PDF ที่ฝังไว้
+# เชี่ยวชาญ Aspose.PDF Java: การเข้าถึงและจัดการไฟล์ฝังใน PDF
 
-## การแนะนำ
+## วิธีอ่านไฟล์ฝังใน PDF (บทนำ)
 
-กำลังดิ้นรนในการจัดการไฟล์ที่ฝังไว้ใน PDF ของคุณโดยใช้ Java หรือไม่ ไม่ว่าคุณจะต้องแยกไฟล์แนบหรือดึงข้อมูลเมตา **Aspose.PDF สำหรับ Java** เป็นเครื่องมือที่คุณต้องการ คู่มือนี้จะช่วยให้นักพัฒนาเข้าถึงและจัดการไฟล์ที่ฝังไว้ เช่น รูปภาพ เอกสาร และประเภทสื่อใน PDF ได้อย่างมีประสิทธิภาพ
+If you're looking for **how to read pdf** files that contain embedded attachments, you’ve come to the right place. Whether you need to **extract pdf attachments**, retrieve detailed metadata, or simply list the files inside a PDF, **Aspose.PDF for Java** makes the process straightforward. This guide walks you through loading a PDF, accessing its embedded files, and reading their attachment properties—all with clear Java code examples.
 
-เมื่อสิ้นสุดบทช่วยสอนนี้ คุณจะสามารถโหลดเอกสาร PDF แยกคุณสมบัติไฟล์ที่ฝังไว้ และรวมฟังก์ชันการทำงานเหล่านี้ลงในแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น
+### คำตอบด่วน
+- **What is the primary library?** Aspose.PDF for Java.
+- **Can I extract pdf attachments?** Yes, using the `FileSpecification` API.
+- **Do I need a license for development?** A free trial works for evaluation; a full license is required for production.
+- **Which Java version is required?** JDK 8 or higher.
+- **Is it possible to read pdf attachment properties?** Absolutely—properties like name, MIME type, checksum, and dates are accessible.
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- การตั้งค่า Aspose.PDF สำหรับ Java
-- การโหลดเอกสาร PDF โดยใช้ Aspose.PDF
-- การเข้าถึงและดึงข้อมูลเกี่ยวกับไฟล์ที่ฝังอยู่ภายใน PDF
-- การแยกคุณสมบัติสำคัญของไฟล์ที่ฝังไว้ เช่น ชื่อ คำอธิบาย ประเภท MIME ผลรวมการตรวจสอบ วันที่สร้าง วันที่แก้ไข และขนาด
+## Aspose.PDF กับ “how to read pdf” คืออะไร?
+Reading a PDF with embedded files means opening the document, locating the embedded file collection, and then extracting each file’s metadata or content. Aspose.PDF abstracts the low‑level PDF structure, letting you focus on business logic rather than PDF internals.
 
-มาเริ่มกันด้วยข้อกำหนดเบื้องต้นก่อน
+## ทำไมต้องใช้ Aspose.PDF for Java เพื่อดึง pdf attachments?
+- **Full‑featured API** – supports all standard attachment types.
+- **Cross‑platform** – works on any JVM‑compatible environment.
+- **Robust metadata access** – retrieve checksum, creation/modification dates, MIME type, and size.
+- **Performance‑optimized** – handles large PDFs with minimal memory footprint.
 
 ## ข้อกำหนดเบื้องต้น
+- **Aspose.PDF for Java** ≥ 25.3.
+- JDK 8 or newer.
+- Maven or Gradle for dependency management.
+- Basic Java knowledge (classes, methods, exception handling).
 
-### ไลบรารี เวอร์ชัน และการอ้างอิงที่จำเป็น
-หากต้องการทำตามบทช่วยสอนนี้ คุณต้องมี:
-- **Aspose.PDF สำหรับ Java**เวอร์ชัน 25.3 ขึ้นไป
-- สภาพแวดล้อมการพัฒนาที่มีความสามารถในการรันแอปพลิเคชัน Java (เช่น Eclipse, IntelliJ IDEA)
+## การตั้งค่า Aspose.PDF for Java
+Add the library to your project with your preferred build tool.
 
-### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
-ตรวจสอบให้แน่ใจว่าระบบของคุณได้ติดตั้งสิ่งต่อไปนี้:
-- Java Development Kit (JDK) 8 หรือสูงกว่า
-
-### ข้อกำหนดเบื้องต้นของความรู้
-จำเป็นต้องมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java รวมถึงความคุ้นเคยกับเครื่องมือสร้าง Maven หรือ Gradle เพื่อจัดการการอ้างอิงของโครงการ
-
-## การตั้งค่า Aspose.PDF สำหรับ Java
-การเริ่มต้นใช้งาน Aspose.PDF นั้นง่ายมาก ขั้นแรก ตรวจสอบให้แน่ใจว่าคุณได้เพิ่มไลบรารีลงในโปรเจ็กต์ของคุณโดยใช้ Maven หรือ Gradle แล้ว
-
-**การอ้างอิงของ Maven:**
+**Maven Dependency:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -53,140 +56,107 @@
 </dependency>
 ```
 
-**การใช้งาน Gradle:**
+**Gradle Implementation:**
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### ขั้นตอนการรับใบอนุญาต
-ในการใช้ Aspose.PDF คุณสามารถทำได้ดังนี้:
-- **ทดลองใช้งานฟรี**:เริ่มต้นด้วยใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์การประเมินผลจาก [ที่นี่](https://purchase-aspose.com/temporary-license/).
-- **ซื้อ**:สำหรับการใช้ในการผลิต ต้องได้รับใบอนุญาตเต็มรูปแบบผ่าน [หน้าจัดซื้อของ Aspose](https://purchase-aspose.com/buy).
+### ขั้นตอนการขอรับ License
+- **Free Trial:** Get a temporary license for evaluation [here](https://purchase.aspose.com/temporary-license/).
+- **Purchase:** Acquire a full license for production [here](https://purchase.aspose.com/buy).
 
 ### การเริ่มต้นและการตั้งค่าเบื้องต้น
-เมื่อคุณตั้งค่าไลบรารีในโครงการของคุณแล้ว ให้เริ่มต้น Aspose.PDF ดังต่อไปนี้:
 ```java
 import com.aspose.pdf.Document;
 
 class PDFHandler {
     public static void main(String[] args) {
-        // เริ่มต้นใบอนุญาตหากมี
-        // ใบอนุญาต license = ใบอนุญาตใหม่();
-        // license.setLicense("เส้นทาง/ไปยัง/ใบอนุญาตของคุณ/lic");
+        // Initialize license if available
+        // License license = new License();
+        // license.setLicense("path/to/your/license.lic");
 
         System.out.println("Aspose.PDF for Java Initialized.");
     }
 }
 ```
 
-## คู่มือการใช้งาน
+## คู่มือแบบขั้นตอน
 
-### คุณสมบัติ 1: โหลดเอกสาร PDF
-การโหลดเอกสาร PDF เป็นขั้นตอนแรกในการเข้าถึงไฟล์ที่ฝังไว้
+### วิธีโหลด PDF Document ด้วย Java
+```java
+String dataDir = "YOUR_DOCUMENT_DIRECTORY";
+```
 
-**ภาพรวม:**
-ฟีเจอร์นี้สาธิตวิธีโหลด PDF ที่มีอยู่โดยใช้ Aspose.PDF สำหรับ Java โดยเตรียมขั้นตอนสำหรับการดำเนินการอื่นๆ เช่น การแยกคุณสมบัติไฟล์ที่ฝังไว้
+```java
+import com.aspose.pdf.Document;
 
-#### การดำเนินการแบบทีละขั้นตอน
-1. **ระบุไดเรกทอรีเอกสารของคุณ:**
-   กำหนดว่าจัดเก็บไฟล์ PDF อินพุตของคุณไว้ที่ไหน
-   ```java
-   String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-   ```
-2. **โหลดเอกสาร PDF:**
-   ใช้ `Document` คลาสสำหรับโหลดไฟล์ PDF จากเส้นทางที่ระบุ
-   ```java
-   import com.aspose.pdf.Document;
+Document pdfDocument = new Document(dataDir + "/input.pdf");
+System.out.println("PDF Loaded Successfully.");
+```
 
-   Document pdfDocument = new Document(dataDir + "/input.pdf");
-   System.out.println("PDF Loaded Successfully.");
-   ```
+### วิธีเข้าถึงไฟล์ฝังใน PDF
+```java
+import com.aspose.pdf.FileSpecification;
 
-### คุณสมบัติที่ 2: เข้าถึงไฟล์ที่ฝังไว้ใน PDF
-การเข้าถึงไฟล์ที่ฝังไว้ภายในเอกสารที่โหลดไว้เป็นสิ่งสำคัญในการแยกคุณสมบัติของไฟล์เหล่านั้น
+FileSpecification fileSpecification = pdfDocument.getEmbeddedFiles().get_Item(1);
+System.out.println("Accessed Embedded File.");
+```
 
-**ภาพรวม:**
-ฟีเจอร์นี้สาธิตวิธีการเข้าถึงรายการไฟล์ที่ฝังตัวและดึงไฟล์เฉพาะโดยใช้ Aspose.PDF `FileSpecification` ระดับ.
+### วิธีดึง Metadata ของ PDF Attachment
+```java
+System.out.println("Name:-" + fileSpecification.getName());
+System.out.println("Description:- " + fileSpecification.getDescription());
+System.out.println("Mime Type:-" + fileSpecification.getMIMEType());
+```
 
-#### การดำเนินการแบบทีละขั้นตอน
-1. **ดึงข้อมูลรายการไฟล์ที่ฝังไว้:**
-   เข้าถึงคอลเลกชันไฟล์ที่ฝังไว้ใน PDF ของคุณ
-   ```java
-   import com.aspose.pdf.FileSpecification;
-
-   FileSpecification fileSpecification = pdfDocument.getEmbeddedFiles().get_Item(1);
-   System.out.println("Accessed Embedded File.");
-   ```
-
-### คุณสมบัติที่ 3: ดึงคุณสมบัติไฟล์จากไฟล์ที่ฝังไว้
-การแยกคุณสมบัติของไฟล์ที่ฝังไว้จะให้ข้อมูลเมตาที่มีค่า
-
-**ภาพรวม:**
-ฟีเจอร์นี้แสดงวิธีการดึงคุณสมบัติต่างๆ เช่น ชื่อ คำอธิบาย ประเภท MIME และอื่นๆ จากไฟล์ที่ฝังไว้ภายใน PDF
-
-#### การดำเนินการแบบทีละขั้นตอน
-1. **พิมพ์คุณสมบัติพื้นฐาน:**
-   ใช้ `FileSpecification` วัตถุที่จะเข้าถึงคุณสมบัติพื้นฐาน
-   ```java
-   System.out.println("Name:-" + fileSpecification.getName());
-   System.out.println("Description:- " + fileSpecification.getDescription());
-   System.out.println("Mime Type:-" + fileSpecification.getMIMEType());
-   ```
-2. **ดึงข้อมูลพารามิเตอร์เพิ่มเติม:**
-   ตรวจสอบข้อมูลเมตาเพิ่มเติมหากมี
-   ```java
-   if (fileSpecification.getParams() != null) {
-       System.out.println("CheckSum:- " + fileSpecification.getParams().getCheckSum());
-       System.out.println("Creation Date:- " + fileSpecification.getParams().getCreationDate());
-       System.out.println("Modification Date:- " + fileSpecification.getParams().getModDate());
-       System.out.println("Size:- " + fileSpecification.getParams().getSize());
-   }
-   ```
+```java
+if (fileSpecification.getParams() != null) {
+    System.out.println("CheckSum:- " + fileSpecification.getParams().getCheckSum());
+    System.out.println("Creation Date:- " + fileSpecification.getParams().getCreationDate());
+    System.out.println("Modification Date:- " + fileSpecification.getParams().getModDate());
+    System.out.println("Size:- " + fileSpecification.getParams().getSize());
+}
+```
 
 ## การประยุกต์ใช้งานจริง
 
-### กรณีการใช้งาน 1: การจัดการสินทรัพย์ดิจิทัล
-ทำให้การดึงทรัพยากรที่ฝังไว้ในห้องสมุดดิจิทัลเป็นแบบอัตโนมัติ ช่วยให้เรียกค้นและจัดการได้ง่าย
+### Use Case 1: Digital Asset Management
+Automate the extraction of embedded assets (images, spreadsheets, etc.) for building searchable digital libraries.
 
-### กรณีการใช้งานที่ 2: ระบบการเก็บเอกสารถาวร
-ฝังข้อมูลเมตาเพื่อติดตามเวอร์ชันหรือการแก้ไขเอกสารโดยตรงภายในไฟล์ PDF
+### Use Case 2: Document Archiving Systems
+Store version‑specific metadata directly inside PDFs, making it easier to track revisions over time.
 
-### กรณีการใช้งานที่ 3: การตรวจสอบเนื้อหา
-ตรวจสอบความสมบูรณ์ของไฟล์โดยตรวจสอบ checksum ก่อนประมวลผลเอกสารที่แนบมา
+### Use Case 3: Content Validation
+Validate file integrity by checking the checksum of each embedded attachment before further processing.
 
-## การพิจารณาประสิทธิภาพ
-เพื่อเพิ่มประสิทธิภาพการทำงานเมื่อใช้ Aspose.PDF:
-- **เพิ่มประสิทธิภาพการใช้หน่วยความจำ**: จัดการการตั้งค่าหน่วยความจำ Java สำหรับการดำเนินการ PDF ขนาดใหญ่
-- **การจัดการไฟล์อย่างมีประสิทธิภาพ**:ประมวลผลไฟล์หลายไฟล์เป็นชุดเพื่อลดค่าใช้จ่าย
-- **แนวทางปฏิบัติที่ดีที่สุด**: ควรปล่อยทรัพยากรและปิดวัตถุเอกสารทุกครั้งหลังใช้งาน
+## ข้อควรพิจารณาด้านประสิทธิภาพ
+- **Optimize Memory Usage:** Adjust JVM heap settings when processing very large PDFs.
+- **Batch Processing:** Load and close each document promptly to free resources.
+- **Resource Cleanup:** Call `pdfDocument.close()` (or rely on try‑with‑resources) after finishing operations.
 
-## บทสรุป
-หากทำตามบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีโหลด PDF เข้าถึงไฟล์ที่ฝังไว้ และแยกคุณสมบัติของไฟล์โดยใช้ Aspose.PDF สำหรับ Java ความสามารถเหล่านี้สามารถปรับปรุงความสามารถของแอปพลิเคชันของคุณในการจัดการการดำเนินการ PDF ที่ซับซ้อนได้อย่างมีประสิทธิภาพ
+## คำถามที่พบบ่อย
 
-**ขั้นตอนต่อไป:**
-- สำรวจคุณสมบัติเพิ่มเติมของ Aspose.PDF เช่น การจัดการเอกสารหรือการแยกข้อความ
-- พิจารณาการบูรณาการกับระบบอื่นเพื่อให้ใช้งานได้ดีขึ้น
+**Q: Can I use Aspose.PDF for commercial purposes?**  
+A: Yes, after purchasing a license from the [purchase page](https://purchase.aspose.com/buy).
 
-พร้อมที่จะลองใช้งานหรือยัง เจาะลึกสถานการณ์ขั้นสูงและขยายขีดความสามารถของแอปพลิเคชัน Java ของคุณวันนี้!
+**Q: What if my PDF has no embedded files?**  
+A: The `get_Item()` call will return `null`; always check for `null` before accessing properties.
 
-## ส่วนคำถามที่พบบ่อย
-1. **ฉันสามารถใช้ Aspose.PDF เพื่อวัตถุประสงค์เชิงพาณิชย์ได้หรือไม่**
-   - ใช่ หลังจากที่ได้รับใบอนุญาตที่เหมาะสมจาก [หน้าการซื้อ](https://purchase-aspose.com/buy).
-2. **จะเกิดอะไรขึ้นหาก PDF ของฉันไม่มีไฟล์ฝังอยู่?**
-   - การ `get_Item()` วิธีการนี้จะคืนค่า null ให้ตรวจสอบเงื่อนไขนี้เสมอ
-3. **ฉันจะจัดการ PDF ขนาดใหญ่ได้อย่างมีประสิทธิภาพได้อย่างไร**
-   - เพิ่มประสิทธิภาพการตั้งค่าหน่วยความจำและใช้เทคนิคการจัดการไฟล์ที่มีประสิทธิภาพตามที่ได้กล่าวไว้ในส่วนประสิทธิภาพการทำงาน
-4. **มีข้อจำกัดใด ๆ ในการเข้าถึงไฟล์ที่ฝังไว้หรือไม่**
-   - Aspose.PDF สามารถเข้าถึงไฟล์ฝังมาตรฐานส่วนใหญ่ได้ แต่ต้องแน่ใจว่าไฟล์เหล่านั้นเป็นไปตามรูปแบบทั่วไปเพื่อผลลัพธ์ที่ดีที่สุด
-5. **จะเกิดอะไรขึ้นหากฉันพบข้อผิดพลาดระหว่างการใช้งาน?**
-   - ปรึกษา [ฟอรั่มสนับสนุนของ Aspose](https://forum.aspose.com/c/pdf/10) หรือตรวจสอบเอกสารเพื่อดูคำแนะนำในการแก้ไขปัญหา
+**Q: How do I handle very large PDFs efficiently?**  
+A: Tune Java memory options, process files in streams, and release the `Document` object after each operation.
 
-## ทรัพยากร
-- **เอกสารประกอบ**- [เรียนรู้เพิ่มเติมเกี่ยวกับ Aspose.PDF สำหรับ Java](https://reference.aspose.com/pdf/java/)
-- **ดาวน์โหลดห้องสมุด**- [รับเวอร์ชันล่าสุด](https://releases.aspose.com/pdf/java/)
-- **ซื้อใบอนุญาต**- [ซื้อเลย](https://purchase.aspose.com/buy)
-- **ทดลองใช้งานฟรี**- [ลองดูสิ](https://releases.aspose.com/pdf/java/)
-- **ใบอนุญาตชั่วคราว**- [ขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+**Q: Are there any limits on the types of embedded files?**  
+A: Aspose.PDF supports all standard attachment types (PDF, image, Office, audio, video). Non‑standard formats may need custom handling.
+
+**Q: Where can I get help if I encounter errors?**  
+A: Post questions on the [Aspose's support forum](https://forum.aspose.com/c/pdf/10) or consult the official documentation.
+
+## แหล่งข้อมูล
+- **Documentation:** [Learn More about Aspose.PDF for Java](https://reference.aspose.com/pdf/java/)
+- **Download Library:** [Get the Latest Version](https://releases.aspose.com/pdf/java/)
+- **Purchase License:** [Buy Now](https://purchase.aspose.com/buy)
+- **Free Trial:** [Try It Out](https://releases.aspose.com/pdf/java/)
+- **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -195,3 +165,9 @@ class PDFHandler {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-16  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
