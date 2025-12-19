@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Узнайте, как редактировать закладки PDF и настраивать параметры просмотра с помощью Aspose.PDF для Java. Улучшите пользовательский опыт, освоив навигацию и настройки макета."
-"title": "Мастер Aspose.PDF Java&#58; Редактирование закладок PDF и настройка параметров просмотра"
-"url": "/ru/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-19'
+description: Узнайте, как изменить макет страниц PDF, редактировать закладки PDF и
+  настраивать параметры просмотра с помощью Aspose.PDF для Java. Овладейте навигацией
+  и настройками макета для более плавного пользовательского опыта.
+keywords:
+- edit PDF bookmarks Java
+- Aspose.PDF viewer settings
+- configure PDF navigation Java
+title: 'Изменить макет страниц PDF в Java: редактировать закладки и настройки'
+url: /ru/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,27 +17,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Мастер Aspose.PDF Java: редактирование закладок PDF и настройка параметров просмотра
+# Изменение макета страниц PDF в Java: редактирование закладок и настроек
 
 ## Введение
-Навигация по сложным документам PDF может быть затруднительной, если закладки не выровнены или настройки просмотра установлены неправильно. В этом руководстве показано, как использовать Aspose.PDF для Java для редактирования существующих закладок и настройки параметров просмотра, что улучшает пользовательский опыт.
+Навигация по сложным PDF‑документам может быть неудобной, особенно когда параметр **change PDF page layout** настроен неправильно или закладки указывают на неверные места. В этом руководстве вы узнаете, как **change PDF page layout**, **редактировать закладки PDF** и **настраивать параметры просмотра PDF** с помощью Aspose.PDF for Java. К концу вы получите полный контроль над навигацией, целями закладок и тем, как документ отображается для читателей.
 
-**Что вы узнаете:**
-- Измените закладки PDF-файла так, чтобы они точно указывали на начало страниц.
-- Создавайте точные закладки с указанием конкретных мест назначения во время создания PDF-файла.
-- Настройте параметры просмотра для оптимального представления.
+**Что вы узнаете**
+- Как редактировать существующие закладки PDF, чтобы они указывали на начало страницы.  
+- Как задавать цели закладок при создании PDF.  
+- Как изменять предпочтения просмотра, такие как макет страниц.  
+- Практические советы по загрузке PDF‑документа в Java и оптимизации производительности.
 
-С Aspose.PDF для Java получите полный контроль над навигацией и настройками макета вашего документа. Давайте настроим вашу среду и реализуем эти функции шаг за шагом.
+### Быстрые ответы
+- **Какой основной способ изменить макет страниц PDF?** Использовать `PdfContentEditor.changeViewerPreference()` с `ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE`.  
+- **Можно ли изменить цели закладок после создания PDF?** Да — загрузите документ, получите контур (outline) и задайте новый `ExplicitDestination`.  
+- **Нужна ли лицензия для этих функций?** Бесплатная пробная версия подходит для оценки; полная лицензия снимает все ограничения.  
+- **Какая зависимость Maven требуется?** `com.aspose:aspose-pdf:25.3` (или новее).  
+- **Совместимо ли это с Java 11 и выше?** Абсолютно — Aspose.PDF поддерживает Java 8+.
 
-### Предпосылки
-Перед началом убедитесь, что у вас есть:
-- **Библиотеки и зависимости**: Используйте Aspose.PDF для Java версии 25.3 или более поздней.
-- **Настройка среды**: Функционирующая среда разработки Java с установленным JDK.
-- **Требования к знаниям**: Базовые знания Java и программной обработки PDF.
+## Что такое «change PDF page layout»?
+Изменение макета страниц PDF управляет тем, как страницы отображаются в просмотрщике — отдельная страница, непрерывный просмотр, двухстраничный вид и т.д. Настройка этого параметра улучшает читаемость, особенно в длинных отчетах или каталогах.
 
-### Настройка Aspose.PDF для Java
-#### Установка Maven
-Чтобы включить Aspose.PDF в свой проект, добавьте эту зависимость в свой `pom.xml`:
+## Почему стоит редактировать закладки PDF и задавать их цели?
+Закладки работают как оглавление. Точные цели позволяют читателям сразу переходить к нужному разделу, уменьшая раздражение и повышая общее качество пользовательского опыта.
+
+## Предварительные требования
+- **Библиотеки и зависимости**: Aspose.PDF for Java v25.3 или новее.  
+- **Среда**: JDK 8 или новее, система сборки Maven или Gradle.  
+- **Знания**: базовое программирование на Java и знакомство с концепциями PDF.
+
+## Настройка Aspose.PDF for Java
+### Установка через Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -39,131 +55,142 @@
     <version>25.3</version>
 </dependency>
 ```
-#### Установка Gradle
-Для пользователей Gradle добавьте это в свой `build.gradle`:
+### Установка через Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
-**Приобретение лицензии**: Начните с бесплатной пробной версии или запросите временную лицензию для полного доступа к функциям без ограничений. Рассмотрите возможность приобретения полной лицензии для долгосрочного использования.
-#### Базовая инициализация
-Чтобы начать использовать Aspose.PDF:
+**Получение лицензии**: Начните с бесплатной пробной версии или запросите временную лицензию для полного доступа к функциям. Рассмотрите покупку постоянной лицензии для использования в продакшене.
+
+### Базовая инициализация
 ```java
 import com.aspose.pdf.Document;
 
 public class PDFSetup {
     public static void main(String[] args) {
-        // Инициализировать объект документа
+        // Initialize document object
         Document pdfDocument = new Document("path/to/your/pdf");
         
         System.out.println("Aspose.PDF for Java initialized successfully.");
     }
 }
 ```
-### Руководство по внедрению
-В этом разделе рассматривается редактирование закладок, настройка мест назначения при создании PDF-файла и изменение настроек просмотра.
-#### Редактирование существующих закладок для указания на начало страницы
-**Обзор**: Настройте закладки так, чтобы они точно указывали на начало определенной страницы документа.
-1. **Доступ к закладкам**
-   Загрузите PDF-файл и откройте его структуру закладок:
-   ```java
-   import com.aspose.pdf.Document;
-   import com.aspose.pdf.ExplicitDestination;
-   import com.aspose.pdf.OutlineItemCollection;
 
-   Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
-   ```
-2. **Установка нового пункта назначения**
-   Обновите пункт назначения, чтобы убедиться, что он указывает на начало страницы:
-   ```java
-   pdfOutline.setDestination(
-       ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
-           ExplicitDestinationType.FitH,
-           pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
-   );
-   ```
-3. **Сохранение изменений**
-   Сохраните обновленный PDF-документ:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Создание новых закладок с определенными пунктами назначения
-**Обзор**: Создавайте закладки, которые перенаправят пользователей непосредственно в нужные места в вашем только что созданном PDF-файле.
-1. **Создание и настройка закладок**
-   Инициализируйте новую закладку и задайте ее свойства:
-   ```java
-   import com.aspose.pdf.GoToAction;
-   import com.aspose.pdf.FitVExplicitDestination;
+## Руководство по реализации
+### Как изменить макет страниц PDF в Java
+**Обзор**: Настройте предпочтения просмотра, чтобы страницы отображались так, как вам нужно.
 
-   OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
-   pdfOutline_new.setTitle("Test Bookmark");
-   pdfOutline_new.setItalic(true);
-   pdfOutline_new.setBold(true);
-   ```
-2. **Определение места назначения закладки**
-   Укажите место назначения для вашей закладки:
-   ```java
-   pdfOutline_new.setAction(new GoToAction(
-       new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
-   ```
-3. **Добавление и сохранение PDF-файла**
-   Добавьте закладку в структуру документа и сохраните ее:
-   ```java
-   pdfDocument.getOutlines().add(pdfOutline_new);
-   
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Настройка параметров просмотра
-**Обзор**: Настройте просмотр PDF-файла, установив определенные параметры просмотра, такие как макет страницы.
-1. **Инициализация PdfContentEditor**
-   Используйте `PdfContentEditor` класс для изменения настроек документа:
-   ```java
-   import com.aspose.pdf.facades.PdfContentEditor;
-   import com.aspose.pdf.facades.ViewerPreference;
+#### Инициализация PdfContentEditor
+```java
+import com.aspose.pdf.facades.PdfContentEditor;
+import com.aspose.pdf.facades.ViewerPreference;
 
-   PdfContentEditor editor = new PdfContentEditor();
-   editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   ```
-2. **Изменение настроек зрителя**
-   Установите для зрителя одностраничный макет:
-   ```java
-   editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
-   ```
-3. **Сохранение обновленного документа**
-   Сохраните изменения в PDF-файле:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
-   editor.save(outputDir);
-   ```
-### Практические применения
-1. **Цифровые книги**: Улучшите цифровые книги, добавив закладки, ведущие прямо к началу глав.
-2. **Отчеты и руководства**: Улучшите навигацию в технических документах с помощью точных закладок и настроек просмотра.
-3. **Каталоги продукции электронной коммерции**: Оптимизируйте каталоги продукции для просмотра на одной странице, сделав их более удобными для пользователя.
-### Соображения производительности
-- **Оптимизация ресурсов**: Используйте эффективные структуры данных при обработке больших PDF-файлов, чтобы минимизировать использование памяти.
-- **Управление памятью Java**Помните о сборке мусора и утилизации ресурсов с помощью Aspose.PDF, чтобы поддерживать производительность.
-### Заключение
-Теперь у вас есть инструменты для точного редактирования закладок, создания точных точек навигации во время создания PDF и настройки параметров просмотра для ваших документов. Изучите дополнительные функции Aspose.PDF и интегрируйте их в более крупные проекты Java.
-**Следующие шаги**: Рассмотрите возможность изучения расширенных методов обработки документов с использованием Aspose.PDF и интеграции этих функций в более крупные приложения Java.
-### Раздел часто задаваемых вопросов
-1. **Что такое Aspose.PDF?**
-   - Мощная библиотека для управления PDF-файлами на Java, предлагающая такие функции, как редактирование, создание и преобразование PDF-документов.
-2. **Как редактировать закладки в PDF-файле с помощью Aspose.PDF?**
-   - Загрузите документ, перейдите к нужной закладке, измените ее место назначения и сохраните изменения, как показано в этом руководстве.
-3. **Может ли Aspose.PDF устанавливать настройки просмотра для одностраничного макета?**
-   - Да, используя `PdfContentEditor`вы можете легко настроить параметры просмотра, такие как макет страницы, чтобы улучшить читабельность.
-4. **Существует ли бесплатная пробная версия Aspose.PDF?**
-   - Конечно! Начните с бесплатной пробной версии или запросите временную лицензию, чтобы изучить все функции без ограничений.
-5. **Каковы наилучшие методы управления PDF-файлами в Java с помощью Aspose.PDF?**
-   - Используйте эффективное управление памятью, по возможности применяйте пакетную обработку и всегда сохраняйте изменения, чтобы предотвратить потерю данных.
-### Ресурсы
-- **Документация**: [Справочник по Java Aspose.PDF](https://reference.aspose.com/pdf/java/)
-- **Скачать**: [Последние версии для Java](https://releases.aspose.com/pdf/java/)
-- **Покупка**: [Купить лицензию Aspose.PDF](https://purchase.aspose.com/buy)
-- **Бесплатная пробная версия**: [Попробуйте Aspose.PDF бесплатно](https://releases.aspose.com/pdf/java/)
-- **Временная лицензия**: [Запросить временную лицензию](https://purchase.aspose.com/temporary-license)
+PdfContentEditor editor = new PdfContentEditor();
+editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+```
+#### Изменение предпочтений просмотра
+```java
+editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
+```
+#### Сохранение обновленного документа
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
+editor.save(outputDir);
+```
+
+### Как редактировать закладки PDF
+**Обзор**: Скорректируйте существующие закладки, чтобы они точно указывали на начало конкретной страницы.
+
+#### Доступ к закладкам
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.ExplicitDestination;
+import com.aspose.pdf.OutlineItemCollection;
+
+Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
+```
+#### Установка новой цели
+```java
+pdfOutline.setDestination(
+    ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
+        ExplicitDestinationType.FitH,
+        pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
+);
+```
+#### Сохранение изменений
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
+pdfDocument.save(outputDir);
+```
+
+### Как задать цель закладки при создании PDF
+**Обзор**: Создавайте закладки, которые сразу переводят пользователя к нужному месту в только что сгенерированном PDF.
+
+#### Создание и настройка закладки
+```java
+import com.aspose.pdf.GoToAction;
+import com.aspose.pdf.FitVExplicitDestination;
+
+OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
+pdfOutline_new.setTitle("Test Bookmark");
+pdfOutline_new.setItalic(true);
+pdfOutline_new.setBold(true);
+```
+#### Определение цели закладки
+```java
+pdfOutline_new.setAction(new GoToAction(
+    new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
+```
+#### Добавление и сохранение PDF
+```java
+pdfDocument.getOutlines().add(pdfOutline_new);
+
+String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
+pdfDocument.save(outputDir);
+```
+
+## Практические применения
+1. **Электронные книги** — гарантируйте, что каждая закладка главы попадает в верхнюю часть страницы для плавного чтения.  
+2. **Технические руководства** — точная навигация помогает инженерам быстро находить нужные разделы, особенно в больших PDF‑файлах.  
+3. **Каталоги продукции** — макет в виде одной страницы делает просмотр каталогов на планшетах более интуитивным.
+
+## Соображения по производительности
+- **Оптимизация ресурсов**: При работе с большими PDF используйте `Document.optimizeResources()`, чтобы снизить потребление памяти.  
+- **Управление памятью в Java**: Явно закрывайте потоки и позволяйте сборщику мусора освобождать объекты после обработки.
+
+## Распространённые проблемы и решения
+- **Закладки не обновляются**: Убедитесь, что вы изменяете правильный индекс контура (`get_Item(1)` относится к первой закладке верхнего уровня).  
+- **Предпочтения просмотра не применяются**: Убедитесь, что вызываете `editor.save()` после изменения предпочтений; иначе изменения останутся только в памяти.  
+- **Исключения лицензии**: Пробная лицензия может добавлять водяные знаки; получите полную лицензию для продакшена.
+
+## Часто задаваемые вопросы
+**В: Какой самый простой способ загрузить PDF‑документ в Java?**  
+О: Используйте `new Document("path/to/file.pdf")`; Aspose.PDF автоматически определит формат файла.
+
+**В: Можно ли изменить макет страниц без PdfContentEditor?**  
+О: Да, вы можете задать предпочтения просмотра напрямую у объекта `Document` через `pdfDocument.getViewerPreferences().setPageLayout(...)`.
+
+**В: Влияет ли изменение макета просмотра на печать?**  
+О: Макет просмотра влияет только на отображение на экране; он не меняет вывод при печати.
+
+**В: Есть ли ограничения на количество создаваемых закладок?**  
+О: Явных ограничений нет, но чрезвычайно большие деревья контуров могут влиять на производительность; держите их организованными.
+
+**В: Как обеспечить точность целей закладок после добавления или удаления страниц?**  
+О: Пересчитайте цели, используя текущие индексы страниц после любых структурных изменений.
+
+## Ресурсы
+- **Документация**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
+- **Скачать**: [Latest Releases for Java](https://releases.aspose.com/pdf/java/)
+- **Купить**: [Buy Aspose.PDF License](https://purchase.aspose.com/buy)
+- **Бесплатная проба**: [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)
+- **Временная лицензия**: [Request Temporary License](https://purchase.aspose.com/temporary-license)
+
+---
+
+**Последнее обновление:** 2025-12-19  
+**Тестировано с:** Aspose.PDF for Java v25.3  
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
